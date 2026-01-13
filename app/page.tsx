@@ -32,14 +32,25 @@ export default function HomePage() {
               </p>
             </div>
 
-            {/* Product */}
+            {/* Cursos */}
+            <div>
+              <h3 className="font-bold mb-3">Cursos</h3>
+              <ul className="space-y-2 text-sm text-slate-400">
+                <li><a href="/cursos/trabajo/b2" className="hover:text-white transition-colors">Inglés para Trabajar</a></li>
+                <li><a href="/cursos/viajes/a2" className="hover:text-white transition-colors">Inglés para Viajar</a></li>
+                <li><a href="/cursos/examenes/b2" className="hover:text-white transition-colors">Preparar Exámenes</a></li>
+                <li><a href="/cursos-especializados" className="hover:text-white transition-colors">Cursos Especializados</a></li>
+              </ul>
+            </div>
+
+            {/* Producto */}
             <div>
               <h3 className="font-bold mb-3">Producto</h3>
               <ul className="space-y-2 text-sm text-slate-400">
                 <li><a href="#features" className="hover:text-white transition-colors">Características</a></li>
-                <li><a href="/pricing" className="hover:text-white transition-colors">Precios</a></li>
                 <li><a href="/diagnostico" className="hover:text-white transition-colors">Test de Nivel</a></li>
                 <li><a href="#faq" className="hover:text-white transition-colors">Preguntas</a></li>
+                <li><a href="/blog" className="hover:text-white transition-colors">Blog</a></li>
               </ul>
             </div>
 
