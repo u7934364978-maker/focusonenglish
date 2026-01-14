@@ -15,49 +15,115 @@ export default function HomePage() {
         <FeaturesSection />
         <SpecializedCoursesPromo />
         
-        {/* Certification Courses Section */}
-        <section className="py-20 bg-gradient-to-br from-emerald-50 via-green-50 to-teal-50">
+        {/* Courses by Level Section */}
+        <section className="py-20 bg-gradient-to-br from-violet-50 via-purple-50 to-pink-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 text-emerald-700 text-sm font-bold mb-4">
-                <span>🎓</span>
-                <span>Certificaciones Oficiales</span>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-100 text-violet-700 text-sm font-bold mb-4">
+                <span>📚</span>
+                <span>Cursos por Niveles</span>
               </div>
               <h2 className="text-4xl sm:text-5xl font-black text-slate-900 mb-6">
-                Prepárate para Tu Certificación
+                Encuentra Tu Nivel Perfecto
               </h2>
               <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-                Cursos especializados siguiendo los criterios de evaluación de los exámenes oficiales más reconocidos internacionalmente
+                Cursos estructurados desde principiante hasta maestría. Aprende a tu ritmo con metodología probada y certificación oficial al finalizar.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-              {/* Cambridge B2 First */}
-              <Link href="/certificaciones" className="bg-white rounded-xl p-6 shadow-lg border-2 border-emerald-200 hover:border-emerald-400 hover:shadow-xl transition-all group">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+              {/* A1 - Principiante */}
+              <Link href="/cursos" className="bg-white rounded-xl p-6 shadow-lg border-2 border-amber-200 hover:border-amber-400 hover:shadow-xl transition-all group">
                 <div className="flex items-start justify-between mb-4">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-emerald-500 to-green-500 flex items-center justify-center text-white font-black text-lg">
-                    B2
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-amber-500 to-yellow-500 flex items-center justify-center text-white font-black text-lg">
+                    A1
                   </div>
-                  <span className="text-xs bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full font-bold">Popular</span>
+                  <span className="text-xs bg-amber-100 text-amber-700 px-2 py-1 rounded-full font-bold">Básico</span>
                 </div>
-                <h3 className="text-xl font-black text-slate-900 mb-2 group-hover:text-emerald-600 transition-colors">
-                  Cambridge B2 First
+                <h3 className="text-xl font-black text-slate-900 mb-2 group-hover:text-amber-600 transition-colors">
+                  Principiante
                 </h3>
                 <p className="text-sm text-slate-600 mb-4">
-                  Certificación nivel intermedio-alto reconocida mundialmente
+                  Para estudiantes que comienzan desde cero
+                </p>
+                <ul className="space-y-2 text-sm text-slate-700 mb-4">
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-600 mt-0.5">✓</span>
+                    <span>Alfabeto y pronunciación</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-600 mt-0.5">✓</span>
+                    <span>Saludos y presentaciones</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-600 mt-0.5">✓</span>
+                    <span>8 semanas • €299</span>
+                  </li>
+                </ul>
+                <div className="text-amber-600 font-bold text-sm group-hover:underline">
+                  Ver programa completo →
+                </div>
+              </Link>
+
+              {/* A2 - Elemental */}
+              <Link href="/cursos" className="bg-white rounded-xl p-6 shadow-lg border-2 border-lime-200 hover:border-lime-400 hover:shadow-xl transition-all group">
+                <div className="flex items-start justify-between mb-4">
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-lime-500 to-green-500 flex items-center justify-center text-white font-black text-lg">
+                    A2
+                  </div>
+                  <span className="text-xs bg-lime-100 text-lime-700 px-2 py-1 rounded-full font-bold">Elemental</span>
+                </div>
+                <h3 className="text-xl font-black text-slate-900 mb-2 group-hover:text-lime-600 transition-colors">
+                  Elemental
+                </h3>
+                <p className="text-sm text-slate-600 mb-4">
+                  Para estudiantes con conocimientos básicos
+                </p>
+                <ul className="space-y-2 text-sm text-slate-700 mb-4">
+                  <li className="flex items-start gap-2">
+                    <span className="text-lime-600 mt-0.5">✓</span>
+                    <span>Conversaciones cotidianas</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-lime-600 mt-0.5">✓</span>
+                    <span>Pasado y futuro básico</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-lime-600 mt-0.5">✓</span>
+                    <span>10 semanas • €349</span>
+                  </li>
+                </ul>
+                <div className="text-lime-600 font-bold text-sm group-hover:underline">
+                  Ver programa completo →
+                </div>
+              </Link>
+
+              {/* B1 - Intermedio */}
+              <Link href="/cursos" className="bg-white rounded-xl p-6 shadow-lg border-2 border-emerald-200 hover:border-emerald-400 hover:shadow-xl transition-all group">
+                <div className="flex items-start justify-between mb-4">
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-emerald-500 to-green-500 flex items-center justify-center text-white font-black text-lg">
+                    B1
+                  </div>
+                  <span className="text-xs bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full font-bold">Intermedio</span>
+                </div>
+                <h3 className="text-xl font-black text-slate-900 mb-2 group-hover:text-emerald-600 transition-colors">
+                  Intermedio
+                </h3>
+                <p className="text-sm text-slate-600 mb-4">
+                  Desarrolla fluidez conversacional
                 </p>
                 <ul className="space-y-2 text-sm text-slate-700 mb-4">
                   <li className="flex items-start gap-2">
                     <span className="text-emerald-600 mt-0.5">✓</span>
-                    <span>Reading & Use of English</span>
+                    <span>Conversaciones fluidas</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-emerald-600 mt-0.5">✓</span>
-                    <span>Writing, Listening, Speaking</span>
+                    <span>Redacción de emails</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-emerald-600 mt-0.5">✓</span>
-                    <span>12 semanas de preparación</span>
+                    <span>12 semanas • €399</span>
                   </li>
                 </ul>
                 <div className="text-emerald-600 font-bold text-sm group-hover:underline">
@@ -65,32 +131,32 @@ export default function HomePage() {
                 </div>
               </Link>
 
-              {/* Cambridge C1 Advanced */}
-              <Link href="/certificaciones" className="bg-white rounded-xl p-6 shadow-lg border-2 border-blue-200 hover:border-blue-400 hover:shadow-xl transition-all group">
+              {/* B2 - Intermedio-Alto */}
+              <Link href="/cursos" className="bg-white rounded-xl p-6 shadow-lg border-2 border-blue-200 hover:border-blue-400 hover:shadow-xl transition-all group">
                 <div className="flex items-start justify-between mb-4">
                   <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-indigo-500 flex items-center justify-center text-white font-black text-lg">
-                    C1
+                    B2
                   </div>
-                  <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full font-bold">Avanzado</span>
+                  <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full font-bold">Popular</span>
                 </div>
                 <h3 className="text-xl font-black text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
-                  Cambridge C1 Advanced
+                  Intermedio-Alto
                 </h3>
                 <p className="text-sm text-slate-600 mb-4">
-                  Nivel avanzado para estudios universitarios y profesionales
+                  Dominio del inglés profesional
                 </p>
                 <ul className="space-y-2 text-sm text-slate-700 mb-4">
                   <li className="flex items-start gap-2">
                     <span className="text-blue-600 mt-0.5">✓</span>
-                    <span>Dominio del inglés avanzado</span>
+                    <span>Inglés profesional</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-blue-600 mt-0.5">✓</span>
-                    <span>Expresión fluida y espontánea</span>
+                    <span>Presentaciones y debates</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-blue-600 mt-0.5">✓</span>
-                    <span>16 semanas de preparación</span>
+                    <span>14 semanas • €449</span>
                   </li>
                 </ul>
                 <div className="text-blue-600 font-bold text-sm group-hover:underline">
@@ -98,32 +164,32 @@ export default function HomePage() {
                 </div>
               </Link>
 
-              {/* TOEFL iBT */}
-              <Link href="/certificaciones" className="bg-white rounded-xl p-6 shadow-lg border-2 border-purple-200 hover:border-purple-400 hover:shadow-xl transition-all group">
+              {/* C1 - Avanzado */}
+              <Link href="/cursos" className="bg-white rounded-xl p-6 shadow-lg border-2 border-purple-200 hover:border-purple-400 hover:shadow-xl transition-all group">
                 <div className="flex items-start justify-between mb-4">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-black text-sm">
-                    iBT
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-black text-lg">
+                    C1
                   </div>
-                  <span className="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded-full font-bold">EE.UU.</span>
+                  <span className="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded-full font-bold">Avanzado</span>
                 </div>
                 <h3 className="text-xl font-black text-slate-900 mb-2 group-hover:text-purple-600 transition-colors">
-                  TOEFL iBT
+                  Avanzado
                 </h3>
                 <p className="text-sm text-slate-600 mb-4">
-                  Certificación académica para universidades americanas
+                  Dominio avanzado de alto nivel
                 </p>
                 <ul className="space-y-2 text-sm text-slate-700 mb-4">
                   <li className="flex items-start gap-2">
                     <span className="text-purple-600 mt-0.5">✓</span>
-                    <span>Reading, Listening, Speaking, Writing</span>
+                    <span>Negociación y persuasión</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-purple-600 mt-0.5">✓</span>
-                    <span>Formato 100% online</span>
+                    <span>Redacción académica</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-purple-600 mt-0.5">✓</span>
-                    <span>12 semanas de preparación</span>
+                    <span>16 semanas • €499</span>
                   </li>
                 </ul>
                 <div className="text-purple-600 font-bold text-sm group-hover:underline">
@@ -131,60 +197,60 @@ export default function HomePage() {
                 </div>
               </Link>
 
-              {/* IELTS */}
-              <Link href="/certificaciones" className="bg-white rounded-xl p-6 shadow-lg border-2 border-red-200 hover:border-red-400 hover:shadow-xl transition-all group">
+              {/* C2 - Maestría */}
+              <Link href="/cursos" className="bg-white rounded-xl p-6 shadow-lg border-2 border-rose-200 hover:border-rose-400 hover:shadow-xl transition-all group">
                 <div className="flex items-start justify-between mb-4">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-red-500 to-orange-500 flex items-center justify-center text-white font-black text-xs">
-                    IELTS
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-rose-500 to-red-500 flex items-center justify-center text-white font-black text-lg">
+                    C2
                   </div>
-                  <span className="text-xs bg-red-100 text-red-700 px-2 py-1 rounded-full font-bold">UK/AUS</span>
+                  <span className="text-xs bg-rose-100 text-rose-700 px-2 py-1 rounded-full font-bold">Maestría</span>
                 </div>
-                <h3 className="text-xl font-black text-slate-900 mb-2 group-hover:text-red-600 transition-colors">
-                  IELTS Academic
+                <h3 className="text-xl font-black text-slate-900 mb-2 group-hover:text-rose-600 transition-colors">
+                  Maestría
                 </h3>
                 <p className="text-sm text-slate-600 mb-4">
-                  Certificación para Reino Unido, Australia y Canadá
+                  Perfección cercana al nivel nativo
                 </p>
                 <ul className="space-y-2 text-sm text-slate-700 mb-4">
                   <li className="flex items-start gap-2">
-                    <span className="text-red-600 mt-0.5">✓</span>
-                    <span>Listening, Reading, Writing, Speaking</span>
+                    <span className="text-rose-600 mt-0.5">✓</span>
+                    <span>Dominio total del idioma</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-red-600 mt-0.5">✓</span>
-                    <span>Sistema de puntuación por bandas</span>
+                    <span className="text-rose-600 mt-0.5">✓</span>
+                    <span>Literatura y cultura</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-red-600 mt-0.5">✓</span>
-                    <span>12 semanas de preparación</span>
+                    <span className="text-rose-600 mt-0.5">✓</span>
+                    <span>18 semanas • €549</span>
                   </li>
                 </ul>
-                <div className="text-red-600 font-bold text-sm group-hover:underline">
+                <div className="text-rose-600 font-bold text-sm group-hover:underline">
                   Ver programa completo →
                 </div>
               </Link>
             </div>
 
             {/* CTA Bottom */}
-            <div className="text-center bg-white rounded-2xl p-8 shadow-lg border-2 border-emerald-200">
+            <div className="text-center bg-white rounded-2xl p-8 shadow-lg border-2 border-violet-200">
               <h3 className="text-2xl font-black text-slate-900 mb-4">
-                ¿No estás seguro de qué certificación necesitas?
+                ¿No estás seguro de tu nivel?
               </h3>
               <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
-                Lee nuestra guía completa comparando todas las certificaciones oficiales, o haz nuestro test de nivel para recibir recomendaciones personalizadas.
+                Realiza nuestro test de nivel gratuito en 15 minutos y descubre qué curso es perfecto para ti. Incluye recomendaciones personalizadas.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
-                  href="/blog/preparar-examenes-oficiales"
-                  className="inline-flex items-center justify-center bg-emerald-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-emerald-700 transition-colors"
+                  href="/diagnostico"
+                  className="inline-flex items-center justify-center bg-violet-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-violet-700 transition-colors"
                 >
-                  📚 Leer Guía Completa
+                  🎯 Hacer Test de Nivel Gratis
                 </Link>
                 <Link
-                  href="/diagnostico"
-                  className="inline-flex items-center justify-center bg-white text-emerald-600 border-2 border-emerald-600 px-8 py-3 rounded-lg font-bold hover:bg-emerald-50 transition-colors"
+                  href="/cursos"
+                  className="inline-flex items-center justify-center bg-white text-violet-600 border-2 border-violet-600 px-8 py-3 rounded-lg font-bold hover:bg-violet-50 transition-colors"
                 >
-                  🎯 Hacer Test de Nivel
+                  📚 Ver Todos los Cursos
                 </Link>
                 <Link
                   href="/contact"
