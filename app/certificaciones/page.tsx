@@ -30,7 +30,7 @@ export default function CertificacionesPage() {
               </h1>
               
               <p className="text-xl text-slate-600 mb-8 max-w-3xl mx-auto">
-                Cursos especializados siguiendo los criterios de evaluación de los exámenes más reconocidos internacionalmente: Cambridge, TOEFL e IELTS
+                Cursos especializados para todos los niveles (A1 a C1) siguiendo los criterios de evaluación de los exámenes más reconocidos internacionalmente: Cambridge, TOEFL e IELTS
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -51,9 +51,151 @@ export default function CertificacionesPage() {
           </div>
         </section>
 
+        {/* Level Info Banner */}
+        <section className="py-8 bg-gradient-to-r from-slate-100 to-slate-200">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center">
+              <h2 className="text-2xl font-bold text-slate-800 mb-2">
+                Preparación para Todos los Niveles
+              </h2>
+              <p className="text-slate-600">
+                Desde nivel básico A1 hasta avanzado C1, ofrecemos cursos especializados para cada certificación
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Certification Cards */}
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            {/* A1 Level Section */}
+            <div className="mb-16">
+              <div className="flex items-center gap-3 mb-8">
+                <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-amber-500 to-yellow-500 flex items-center justify-center text-white font-black text-xl">
+                  A1
+                </div>
+                <div>
+                  <h2 className="text-3xl font-black text-slate-900">Nivel Básico</h2>
+                  <p className="text-slate-600">Para principiantes y estudiantes que comienzan</p>
+                </div>
+              </div>
+
+              {/* Cambridge A1 Movers / YLE Starters */}
+              <div className="bg-gradient-to-br from-amber-50 to-yellow-50 rounded-2xl shadow-xl border-2 border-amber-200 overflow-hidden hover:shadow-2xl transition-shadow max-w-2xl mx-auto">
+                <div className="p-8">
+                  <div className="flex items-start justify-between mb-6">
+                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-amber-500 to-yellow-500 flex items-center justify-center text-white font-black text-2xl">
+                      A1
+                    </div>
+                    <span className="px-3 py-1 rounded-full bg-amber-600 text-white text-xs font-bold">
+                      BÁSICO
+                    </span>
+                  </div>
+                  
+                  <h3 className="text-3xl font-black text-slate-900 mb-4">
+                    Cambridge A1 Movers / YLE Starters
+                  </h3>
+                  
+                  <p className="text-slate-700 mb-6">
+                    Certificación de nivel básico ideal para estudiantes que están comenzando su aprendizaje del inglés. Reconocida internacionalmente por Cambridge Assessment.
+                  </p>
+
+                  <div className="mb-8">
+                    <h4 className="font-bold text-slate-900 mb-4">Estructura del Examen:</h4>
+                    <ul className="space-y-3">
+                      <li className="flex items-start gap-3">
+                        <span className="text-amber-600 mt-1">📖</span>
+                        <div>
+                          <span className="font-bold">Reading & Writing</span>
+                          <p className="text-sm text-slate-600">5 partes - 30 minutos - Comprensión básica</p>
+                          <p className="text-xs text-slate-500 mt-1">• Nombres, palabras simples, frases cortas</p>
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="text-amber-600 mt-1">🎧</span>
+                        <div>
+                          <span className="font-bold">Listening</span>
+                          <p className="text-sm text-slate-600">4 partes - 20 minutos - Conversaciones simples</p>
+                          <p className="text-xs text-slate-500 mt-1">• Instrucciones y conversaciones cotidianas básicas</p>
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="text-amber-600 mt-1">🗣️</span>
+                        <div>
+                          <span className="font-bold">Speaking</span>
+                          <p className="text-sm text-slate-600">3 partes - 5-7 minutos - Interacción básica</p>
+                          <p className="text-xs text-slate-500 mt-1">• Presentación personal, responder preguntas simples</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="mb-6 p-4 bg-white rounded-xl">
+                    <div className="grid grid-cols-2 gap-4">
+                      <div>
+                        <p className="text-sm font-bold text-slate-900 mb-2">Duración del curso:</p>
+                        <p className="text-2xl font-black text-amber-600">8 semanas</p>
+                      </div>
+                      <div>
+                        <p className="text-sm font-bold text-slate-900 mb-2">Habilidades clave:</p>
+                        <p className="text-sm text-slate-600">Vocabulario básico, gramática elemental, conversación simple</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="mb-6 p-4 bg-amber-100 rounded-xl border border-amber-300">
+                    <h4 className="font-bold text-amber-900 mb-3">¿Qué aprenderás?</h4>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm text-amber-800">
+                      <div className="flex items-center gap-2">
+                        <span className="text-amber-600">✓</span>
+                        <span>Presentarte en inglés</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-amber-600">✓</span>
+                        <span>Números y colores</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-amber-600">✓</span>
+                        <span>Pedir información básica</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-amber-600">✓</span>
+                        <span>Describir objetos simples</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-amber-600">✓</span>
+                        <span>Entender instrucciones</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-amber-600">✓</span>
+                        <span>Hablar de tu familia</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <Link
+                    href="/cursos/examenes/a1"
+                    className="block w-full text-center bg-amber-600 text-white py-4 rounded-xl font-bold text-lg hover:bg-amber-700 transition-colors"
+                  >
+                    Ver Programa Completo →
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* B2 and C1 Section */}
+            <div className="mb-8">
+              <div className="flex items-center gap-3 mb-8">
+                <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-emerald-500 to-blue-500 flex items-center justify-center text-white font-black text-xl">
+                  B2+
+                </div>
+                <div>
+                  <h2 className="text-3xl font-black text-slate-900">Niveles Intermedio y Avanzado</h2>
+                  <p className="text-slate-600">Para estudiantes con base sólida de inglés</p>
+                </div>
+              </div>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
               {/* Cambridge B2 First */}
               <div className="bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl shadow-xl border-2 border-emerald-200 overflow-hidden hover:shadow-2xl transition-shadow">
@@ -326,6 +468,7 @@ export default function CertificacionesPage() {
                   </Link>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </section>
