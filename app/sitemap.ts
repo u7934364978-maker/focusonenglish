@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import fs from "node:fs";
 import path from "node:path";
 
-const baseUrl = "https://focusenglish.com";
+const baseUrl = "https://focus-on-english.com";
 const CONTENT_DIR = "content";
 
 function getSlugsFromDir(relativeDir: string) {

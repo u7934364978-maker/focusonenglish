@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://focusenglish.com'),
+  metadataBase: new URL('https://focus-on-english.com'),
   title: {
     default: "Focus English - Cursos de Inglés Especializados | Trabajo, Viajes y Exámenes",
     template: "%s | Focus English"
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "preparación TOEFL",
     "preparación IELTS",
   ],
-  authors: [{ name: "Focus English", url: "https://focusenglish.com" }],
+  authors: [{ name: "Focus English", url: "https://focus-on-english.com" }],
   creator: "Focus English",
   publisher: "Focus English",
   formatDetection: {
