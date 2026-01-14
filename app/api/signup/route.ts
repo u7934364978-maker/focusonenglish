@@ -68,10 +68,53 @@ async function createHubSpotContact(data: SignupFormData) {
     properties.message = data.message;
   }
 
-  // Endpoint de HubSpot para crear/actualizar contactos
-  const hubspotUrl = 'https://api.hubapi.com/crm/v3/objects/contacts';
+  // Primero intentar buscar si el contacto existe por email
+  const searchUrl = `https://api.hubapi.com/crm/v3/objects/contacts/search`;
+  const searchResponse = await fetch(searchUrl, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${accessToken}`
+    },
+    body: JSON.stringify({
+      filterGroups: [{
+        filters: [{
+          propertyName: 'email',
+          operator: 'EQ',
+          value: data.email
+        }]
+      }]
+    })
+  });
 
-  const response = await fetch(hubspotUrl, {
+  const searchData = await searchResponse.json();
+  
+  // Si el contacto existe, actualizarlo
+  if (searchData.results && searchData.results.length > 0) {
+    const contactId = searchData.results[0].id;
+    const updateUrl = `https://api.hubapi.com/crm/v3/objects/contacts/${contactId}`;
+    
+    const updateResponse = await fetch(updateUrl, {
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${accessToken}`
+      },
+      body: JSON.stringify({ properties })
+    });
+
+    if (!updateResponse.ok) {
+      const errorData = await updateResponse.json();
+      console.error('Error al actualizar contacto en HubSpot:', errorData);
+      throw new Error(`Error al actualizar contacto en HubSpot: ${errorData.message || updateResponse.statusText}`);
+    }
+
+    return await updateResponse.json();
+  }
+
+  // Si no existe, crear uno nuevo
+  const createUrl = 'https://api.hubapi.com/crm/v3/objects/contacts';
+  const createResponse = await fetch(createUrl, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -80,13 +123,13 @@ async function createHubSpotContact(data: SignupFormData) {
     body: JSON.stringify({ properties })
   });
 
-  if (!response.ok) {
-    const errorData = await response.json();
-    console.error('Error de HubSpot:', errorData);
-    throw new Error(`Error al crear contacto en HubSpot: ${errorData.message || response.statusText}`);
+  if (!createResponse.ok) {
+    const errorData = await createResponse.json();
+    console.error('Error al crear contacto en HubSpot:', errorData);
+    throw new Error(`Error al crear contacto en HubSpot: ${errorData.message || createResponse.statusText}`);
   }
 
-  return await response.json();
+  return await createResponse.json();
 }
 
 // Handler POST para el formulario de signup
@@ -118,15 +161,27 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       success: true,
       message: '¡Gracias por tu inscripción! Te contactaremos pronto.',
-      contactId: hubspotResponse.id
+      contactId: hubspotResponse.id,
+      action: 'created'
     }, { status: 200 });
 
   } catch (error) {
     console.error('Error en signup:', error);
     
+    // Si el error es por contacto duplicado, dar un mensaje más amigable
+    const errorMessage = error instanceof Error ? error.message : 'Error desconocido';
+    
+    if (errorMessage.includes('already has that value') || errorMessage.includes('duplicate')) {
+      return NextResponse.json({
+        success: true,
+        message: '¡Gracias! Ya tienes una cuenta con nosotros. Actualizaremos tu información y te contactaremos pronto.',
+        warning: 'Email ya registrado - información actualizada'
+      }, { status: 200 });
+    }
+    
     return NextResponse.json({
       success: false,
-      error: error instanceof Error ? error.message : 'Error desconocido al procesar la inscripción'
+      error: 'Hubo un problema al procesar tu inscripción. Por favor, inténtalo de nuevo o contáctanos directamente.'
     }, { status: 500 });
   }
 }
