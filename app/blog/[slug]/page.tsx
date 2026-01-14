@@ -4,6 +4,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { notFound } from "next/navigation";
+import { ShareButton } from "./ShareButton";
 
 const BLOG_DIR = path.join(process.cwd(), "content/blog");
 
@@ -168,20 +169,7 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
             <div className="mt-12 pt-8 border-t border-slate-200">
               <p className="text-sm text-slate-600 mb-4">Comparte este artículo:</p>
               <div className="flex gap-4">
-                <button 
-                  onClick={() => {
-                    if (navigator.share) {
-                      navigator.share({
-                        title: data.title,
-                        text: data.description,
-                        url: window.location.href,
-                      });
-                    }
-                  }}
-                  className="text-sm text-violet-600 font-semibold hover:text-violet-700"
-                >
-                  Compartir 🔗
-                </button>
+                <ShareButton title={data.title} description={data.description} />
               </div>
             </div>
           </div>
