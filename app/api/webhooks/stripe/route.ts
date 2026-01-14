@@ -1,11 +1,22 @@
 import Stripe from 'stripe';
 import { NextRequest, NextResponse } from 'next/server';
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2024-12-18.acacia',
-});
+// Inicializar Stripe solo si la clave está disponible (evita errores en build time)
+const stripe = process.env.STRIPE_SECRET_KEY 
+  ? new Stripe(process.env.STRIPE_SECRET_KEY, {
+      apiVersion: '2024-12-18.acacia',
+    })
+  : null;
 
 export async function POST(request: NextRequest) {
+  // Verificar que Stripe esté inicializado
+  if (!stripe) {
+    return NextResponse.json(
+      { error: 'Stripe no está configurado' },
+      { status: 500 }
+    );
+  }
+
   const body = await request.text();
   const signature = request.headers.get('stripe-signature');
 

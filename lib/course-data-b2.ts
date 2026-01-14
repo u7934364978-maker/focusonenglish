@@ -501,10 +501,10 @@ Had you finished your homework?`,
         },
         modelAudioUrl: '/audio/b2-m1-l1-pronunciation-model.mp3',
         hints: [
-          'Contract "had" to "'d" in positive sentences',
+          'Contract "had" to "\'d" in positive sentences',
           'Stress the main verbs (waiting, seen, eaten, studying, finished)',
           'Use falling intonation for statements, rising for questions',
-          'Link words smoothly: "I'd_been", "they'd_never"'
+          'Link words smoothly: "I\'d_been", "they\'d_never"'
         ]
       },
       {
