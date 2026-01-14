@@ -32,7 +32,7 @@
     "typescript": "^5.7.2"
   },
   "engines": {
-    "node": "24.x"
+    "node": ">=20.x"
   },
   "keywords": [
     "english",
