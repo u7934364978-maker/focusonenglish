@@ -50,11 +50,6 @@ async function createHubSpotContact(data: SignupFormData) {
     properties.phone = data.phone;
   }
 
-  // Añadir curso de interés (usar el valor del dropdown directamente)
-  if (data.courseInterest) {
-    properties.course_interest = courseMap[data.courseInterest] || data.courseInterest;
-  }
-
   // Añadir nivel solo si se seleccionó uno (no vacío)
   if (data.currentLevel && data.currentLevel !== '') {
     const mappedLevel = levelMap[data.currentLevel];
@@ -63,9 +58,18 @@ async function createHubSpotContact(data: SignupFormData) {
     }
   }
 
-  // Añadir mensaje si existe
+  // Añadir curso e información en un solo campo de texto (message)
+  let fullMessage = '';
+  if (data.courseInterest) {
+    const courseName = courseMap[data.courseInterest] || data.courseInterest;
+    fullMessage += `Curso de interés: ${courseName}\n\n`;
+  }
   if (data.message && data.message.trim() !== '') {
-    properties.message = data.message;
+    fullMessage += `Mensaje: ${data.message}`;
+  }
+  
+  if (fullMessage.trim()) {
+    properties.message = fullMessage.trim();
   }
 
   // Primero intentar buscar si el contacto existe por email
