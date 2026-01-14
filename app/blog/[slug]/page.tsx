@@ -17,8 +17,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const filePath = path.join(BLOG_DIR, `${params.slug}.md`);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const filePath = path.join(BLOG_DIR, `${slug}.md`);
   
   if (!fs.existsSync(filePath)) {
     return {
@@ -43,8 +44,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-export default async function BlogArticle({ params }: { params: { slug: string } }) {
-  const filePath = path.join(BLOG_DIR, `${params.slug}.md`);
+export default async function BlogArticle({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const filePath = path.join(BLOG_DIR, `${slug}.md`);
   
   if (!fs.existsSync(filePath)) {
     notFound();

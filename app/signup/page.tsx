@@ -1,14 +1,94 @@
+"use client";
+
 import { Navigation } from "@/components/sections/Navigation";
 import Link from "next/link";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Inscripción a Cursos de Inglés",
-  description: "Inscríbete en nuestros cursos especializados de inglés. Elige el programa que mejor se adapte a tus objetivos: trabajo, viajes o exámenes oficiales.",
-  keywords: ["inscripción cursos inglés", "matriculación inglés", "cursos inglés online", "aprender inglés"],
-};
+import { useState, FormEvent } from "react";
 
 export default function SignupPage() {
+  // Estado del formulario
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    courseInterest: "",
+    currentLevel: "",
+    message: ""
+  });
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<{
+    type: "success" | "error" | null;
+    message: string;
+  }>({ type: null, message: "" });
+
+  // Manejar cambios en el formulario
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
+  // Manejar envío del formulario
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitStatus({ type: null, message: "" });
+
+    try {
+      // Separar nombre completo en firstName y lastName
+      const [firstName, ...lastNameParts] = formData.firstName.split(" ");
+      const lastName = lastNameParts.join(" ") || formData.lastName;
+
+      const response = await fetch("/api/signup", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          firstName: firstName || formData.firstName,
+          lastName: lastName || "N/A",
+          email: formData.email,
+          phone: formData.phone,
+          courseInterest: formData.courseInterest,
+          currentLevel: formData.currentLevel,
+          message: formData.message
+        }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        setSubmitStatus({
+          type: "success",
+          message: data.message || "¡Gracias por tu inscripción! Te contactaremos pronto."
+        });
+        // Resetear formulario
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phone: "",
+          courseInterest: "",
+          currentLevel: "",
+          message: ""
+        });
+      } else {
+        setSubmitStatus({
+          type: "error",
+          message: data.error || "Hubo un error al enviar tu inscripción. Por favor, inténtalo de nuevo."
+        });
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      setSubmitStatus({
+        type: "error",
+        message: "Error de conexión. Por favor, verifica tu conexión e inténtalo de nuevo."
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <>
       <Navigation />
@@ -220,16 +300,33 @@ export default function SignupPage() {
                 Completa tus datos y nos pondremos en contacto contigo en menos de 24 horas para finalizar tu inscripción.
               </p>
 
-              <form className="space-y-4">
+              <form onSubmit={handleSubmit} className="space-y-4">
+                {/* Mensaje de estado */}
+                {submitStatus.type && (
+                  <div
+                    className={`p-4 rounded-lg ${
+                      submitStatus.type === "success"
+                        ? "bg-green-100 border border-green-300 text-green-800"
+                        : "bg-red-100 border border-red-300 text-red-800"
+                    }`}
+                  >
+                    {submitStatus.message}
+                  </div>
+                )}
+
                 <div>
                   <label className="block text-sm font-bold text-slate-700 mb-2">
                     Nombre Completo *
                   </label>
                   <input
                     type="text"
+                    name="firstName"
+                    value={formData.firstName}
+                    onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
-                    placeholder="Juan Pérez"
+                    disabled={isSubmitting}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent disabled:bg-gray-100"
+                    placeholder="Juan Pérez García"
                   />
                 </div>
 
@@ -239,8 +336,12 @@ export default function SignupPage() {
                   </label>
                   <input
                     type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    disabled={isSubmitting}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent disabled:bg-gray-100"
                     placeholder="tu@email.com"
                   />
                 </div>
@@ -251,7 +352,11 @@ export default function SignupPage() {
                   </label>
                   <input
                     type="tel"
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    disabled={isSubmitting}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent disabled:bg-gray-100"
                     placeholder="+34 600 000 000"
                   />
                 </div>
@@ -261,8 +366,12 @@ export default function SignupPage() {
                     Curso de Interés *
                   </label>
                   <select
+                    name="courseInterest"
+                    value={formData.courseInterest}
+                    onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    disabled={isSubmitting}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent disabled:bg-gray-100"
                   >
                     <option value="">Selecciona un curso</option>
                     <option value="trabajo">Inglés para Trabajar</option>
@@ -276,7 +385,11 @@ export default function SignupPage() {
                     Nivel Actual
                   </label>
                   <select
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    name="currentLevel"
+                    value={formData.currentLevel}
+                    onChange={handleChange}
+                    disabled={isSubmitting}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent disabled:bg-gray-100"
                   >
                     <option value="">No lo sé / Quiero hacer el test</option>
                     <option value="a1">A1 - Principiante</option>
@@ -293,8 +406,12 @@ export default function SignupPage() {
                     Mensaje (Opcional)
                   </label>
                   <textarea
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
                     rows={4}
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    disabled={isSubmitting}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent disabled:bg-gray-100"
                     placeholder="Cuéntanos sobre tus objetivos..."
                   />
                 </div>
@@ -303,6 +420,7 @@ export default function SignupPage() {
                   <input
                     type="checkbox"
                     required
+                    disabled={isSubmitting}
                     className="mt-1"
                     id="terms"
                   />
@@ -313,9 +431,10 @@ export default function SignupPage() {
 
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-4 rounded-lg font-bold text-lg hover:from-purple-700 hover:to-pink-700 transition-all"
+                  disabled={isSubmitting}
+                  className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-4 rounded-lg font-bold text-lg hover:from-purple-700 hover:to-pink-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  Enviar Solicitud de Inscripción
+                  {isSubmitting ? "Enviando..." : "Enviar Solicitud de Inscripción"}
                 </button>
               </form>
 
