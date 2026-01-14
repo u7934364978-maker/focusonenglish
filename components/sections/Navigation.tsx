@@ -20,26 +20,29 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <Link href="/cursos/trabajo/b2" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
-              Inglés para Trabajar
-            </Link>
-            <Link href="/cursos/viajes/a2" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
-              Inglés para Viajar
-            </Link>
-            <Link href="/certificaciones" className="text-sm font-bold text-slate-700 hover:text-emerald-600 transition-colors">
-              Certificaciones 🎓
-            </Link>
             <Link href="/cursos-especializados" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
               Cursos Especializados
             </Link>
             <Link href="/blog" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
               Blog
             </Link>
+            <Link href="/cursos/trabajo/b2" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
+              Para Trabajar
+            </Link>
+            <Link href="/cursos/viajes/a2" className="text-sm font-bold text-slate-700 hover:text-blue-600 transition-colors">
+              Para Viajar
+            </Link>
+            <Link href="/certificaciones" className="text-sm font-bold text-slate-700 hover:text-emerald-600 transition-colors">
+              Preparación de Exámenes
+            </Link>
+            <Link href="/diagnostico" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
+              Preguntas
+            </Link>
             <Link 
-              href="/diagnostico"
+              href="/signup"
               className="px-4 py-2 rounded-lg bg-gradient-to-r from-violet-600 to-purple-600 text-white font-black text-sm hover:shadow-lg transition-all"
             >
-              Test Gratis
+              Empezar Gratis
             </Link>
           </div>
 
@@ -63,27 +66,6 @@ export function Navigation() {
           <div className="md:hidden py-4 border-t border-slate-200">
             <div className="flex flex-col gap-4">
               <Link 
-                href="/cursos/trabajo/b2" 
-                className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Inglés para Trabajar
-              </Link>
-              <Link 
-                href="/cursos/viajes/a2" 
-                className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Inglés para Viajar
-              </Link>
-              <Link 
-                href="/certificaciones" 
-                className="text-sm font-bold text-slate-700 hover:text-emerald-600 transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Certificaciones 🎓
-              </Link>
-              <Link 
                 href="/cursos-especializados" 
                 className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
@@ -98,11 +80,39 @@ export function Navigation() {
                 Blog
               </Link>
               <Link 
-                href="/diagnostico"
+                href="/cursos/trabajo/b2" 
+                className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Para Trabajar
+              </Link>
+              <Link 
+                href="/cursos/viajes/a2" 
+                className="text-sm font-bold text-slate-700 hover:text-blue-600 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Para Viajar
+              </Link>
+              <Link 
+                href="/certificaciones" 
+                className="text-sm font-bold text-slate-700 hover:text-emerald-600 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Preparación de Exámenes
+              </Link>
+              <Link 
+                href="/diagnostico" 
+                className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Preguntas
+              </Link>
+              <Link 
+                href="/signup"
                 className="px-4 py-2 rounded-lg bg-gradient-to-r from-violet-600 to-purple-600 text-white font-black text-sm text-center"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Test Gratis
+                Empezar Gratis
               </Link>
             </div>
           </div>
