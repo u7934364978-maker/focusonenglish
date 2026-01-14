@@ -26,8 +26,7 @@ async function createHubSpotContact(data: SignupFormData) {
     'b1': 'B1 Intermedio',
     'b2': 'B2 Intermedio Alto',
     'c1': 'C1 Avanzado',
-    'c2': 'C2 Maestría',
-    '': 'No lo sé / Quiero hacer el test'
+    'c2': 'C2 Maestría'
   };
 
   // Mapear cursos a formato legible
@@ -37,20 +36,37 @@ async function createHubSpotContact(data: SignupFormData) {
     'examenes': 'Preparar Exámenes'
   };
 
-  // Propiedades del contacto en HubSpot
+  // Construir propiedades del contacto
   const properties: { [key: string]: string } = {
     firstname: data.firstName,
     lastname: data.lastName,
     email: data.email,
-    phone: data.phone || '',
-    // Campos personalizados (ajustados a las opciones de HubSpot)
-    course_interest: courseMap[data.courseInterest] || data.courseInterest,
-    current_level: levelMap[data.currentLevel || ''] || 'No lo sé / Quiero hacer el test',
-    message: data.message || '',
-    // Campos estándar de HubSpot
     lifecyclestage: 'lead',
     hs_lead_status: 'NEW'
   };
+
+  // Añadir teléfono si existe
+  if (data.phone) {
+    properties.phone = data.phone;
+  }
+
+  // Añadir curso de interés (usar el valor del dropdown directamente)
+  if (data.courseInterest) {
+    properties.course_interest = courseMap[data.courseInterest] || data.courseInterest;
+  }
+
+  // Añadir nivel solo si se seleccionó uno (no vacío)
+  if (data.currentLevel && data.currentLevel !== '') {
+    const mappedLevel = levelMap[data.currentLevel];
+    if (mappedLevel) {
+      properties.current_level = mappedLevel;
+    }
+  }
+
+  // Añadir mensaje si existe
+  if (data.message && data.message.trim() !== '') {
+    properties.message = data.message;
+  }
 
   // Endpoint de HubSpot para crear/actualizar contactos
   const hubspotUrl = 'https://api.hubapi.com/crm/v3/objects/contacts';
