@@ -172,6 +172,189 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        {/* Curriculum Preview Section */}
+        <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-blue-700 text-sm font-bold mb-4">
+                <span>📚</span>
+                <span>Currículum Oficial Cambridge</span>
+              </div>
+              <h2 className="text-4xl sm:text-5xl font-black text-slate-900 mb-6">
+                Contenido Detallado por Nivel
+              </h2>
+              <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+                Todos nuestros cursos están basados en las especificaciones oficiales de Cambridge English. 
+                <strong className="text-blue-600"> Sabe exactamente qué vas a aprender</strong> antes de inscribirte.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+              {/* A1 */}
+              <Link href="/cursos/viajes/a1" className="group bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-blue-400 hover:shadow-xl transition-all">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="bg-blue-100 text-blue-700 px-4 py-2 rounded-full font-bold text-sm">
+                    A1
+                  </div>
+                  <div className="text-2xl">🔤</div>
+                </div>
+                <h3 className="text-xl font-black text-slate-900 mb-2">Principiante</h3>
+                <p className="text-sm text-slate-600 mb-4">
+                  8-10 semanas · 3 módulos
+                </p>
+                <ul className="space-y-2 text-sm text-slate-700 mb-4">
+                  <li>• Saludos y presentaciones</li>
+                  <li>• Rutinas diarias básicas</li>
+                  <li>• Números, colores, familia</li>
+                  <li>• Verb "to be" y Present Simple</li>
+                </ul>
+                <div className="text-blue-600 font-bold text-sm group-hover:underline">
+                  Ver currículum completo →
+                </div>
+              </Link>
+
+              {/* A2 */}
+              <Link href="/cursos/viajes/a2" className="group bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-blue-400 hover:shadow-xl transition-all">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="bg-green-100 text-green-700 px-4 py-2 rounded-full font-bold text-sm">
+                    A2
+                  </div>
+                  <div className="text-2xl">📖</div>
+                </div>
+                <h3 className="text-xl font-black text-slate-900 mb-2">Elemental</h3>
+                <p className="text-sm text-slate-600 mb-4">
+                  10-12 semanas · 3 módulos
+                </p>
+                <ul className="space-y-2 text-sm text-slate-700 mb-4">
+                  <li>• Experiencias pasadas (Past Simple)</li>
+                  <li>• Planes futuros (Going to, Will)</li>
+                  <li>• Comparativos y superlativos</li>
+                  <li>• Compras, salud y servicios</li>
+                </ul>
+                <div className="text-green-600 font-bold text-sm group-hover:underline">
+                  Ver currículum completo →
+                </div>
+              </Link>
+
+              {/* B1 */}
+              <Link href="/cursos/viajes/b1" className="group bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-blue-400 hover:shadow-xl transition-all">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-bold text-sm">
+                    B1
+                  </div>
+                  <div className="text-2xl">📝</div>
+                </div>
+                <h3 className="text-xl font-black text-slate-900 mb-2">Intermedio</h3>
+                <p className="text-sm text-slate-600 mb-4">
+                  12-14 semanas · 3 módulos
+                </p>
+                <ul className="space-y-2 text-sm text-slate-700 mb-4">
+                  <li>• Present Perfect vs Past Simple</li>
+                  <li>• First & Second Conditional</li>
+                  <li>• Relative clauses y Passive voice</li>
+                  <li>• Narrar experiencias complejas</li>
+                </ul>
+                <div className="text-purple-600 font-bold text-sm group-hover:underline">
+                  Ver currículum completo →
+                </div>
+              </Link>
+
+              {/* B2 */}
+              <Link href="/cursos/examenes/b2" className="group bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-amber-400 hover:shadow-xl transition-all">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="bg-amber-100 text-amber-700 px-4 py-2 rounded-full font-bold text-sm">
+                    B2
+                  </div>
+                  <div className="text-2xl">📚</div>
+                </div>
+                <h3 className="text-xl font-black text-slate-900 mb-2">Intermedio-Alto</h3>
+                <p className="text-sm text-slate-600 mb-4">
+                  14-16 semanas · 3 módulos
+                </p>
+                <ul className="space-y-2 text-sm text-slate-700 mb-4">
+                  <li>• Past Perfect, Mixed conditionals</li>
+                  <li>• Modal verbs deduction avanzado</li>
+                  <li>• Reported speech y Passive avanzado</li>
+                  <li>• Ensayos y textos argumentativos</li>
+                </ul>
+                <div className="text-amber-600 font-bold text-sm group-hover:underline">
+                  Ver currículum completo →
+                </div>
+              </Link>
+
+              {/* C1 */}
+              <Link href="/cursos/trabajo/c1" className="group bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-violet-400 hover:shadow-xl transition-all">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="bg-violet-100 text-violet-700 px-4 py-2 rounded-full font-bold text-sm">
+                    C1
+                  </div>
+                  <div className="text-2xl">🎓</div>
+                </div>
+                <h3 className="text-xl font-black text-slate-900 mb-2">Avanzado</h3>
+                <p className="text-sm text-slate-600 mb-4">
+                  16-18 semanas · 3 módulos
+                </p>
+                <ul className="space-y-2 text-sm text-slate-700 mb-4">
+                  <li>• Análisis crítico y discurso complejo</li>
+                  <li>• Estructuras avanzadas (inversión, cleft)</li>
+                  <li>• Vocabulario académico sofisticado</li>
+                  <li>• Comunicación profesional de alto nivel</li>
+                </ul>
+                <div className="text-violet-600 font-bold text-sm group-hover:underline">
+                  Ver currículum completo →
+                </div>
+              </Link>
+
+              {/* C2 */}
+              <Link href="/cursos/trabajo/c2" className="group bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-rose-400 hover:shadow-xl transition-all">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="bg-rose-100 text-rose-700 px-4 py-2 rounded-full font-bold text-sm">
+                    C2
+                  </div>
+                  <div className="text-2xl">👑</div>
+                </div>
+                <h3 className="text-xl font-black text-slate-900 mb-2">Maestría</h3>
+                <p className="text-sm text-slate-600 mb-4">
+                  18-20 semanas · 3 módulos
+                </p>
+                <ul className="space-y-2 text-sm text-slate-700 mb-4">
+                  <li>• Dominio pleno del idioma</li>
+                  <li>• Vocabulario culto extenso (10,000+ palabras)</li>
+                  <li>• Análisis lingüístico y teoría literaria</li>
+                  <li>• Especialización profesional avanzada</li>
+                </ul>
+                <div className="text-rose-600 font-bold text-sm group-hover:underline">
+                  Ver currículum completo →
+                </div>
+              </Link>
+            </div>
+
+            <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white text-center">
+              <h3 className="text-2xl font-black mb-4">
+                📋 Contenido Basado en Estándares Internacionales
+              </h3>
+              <p className="text-lg mb-6 opacity-90 max-w-3xl mx-auto">
+                Nuestros currículums siguen las especificaciones de Cambridge English y el Marco Común Europeo de Referencia (MCER). 
+                Cada nivel incluye gramática, vocabulario, temas y habilidades específicas para garantizar tu progreso.
+              </p>
+              <div className="flex flex-wrap justify-center gap-4 text-sm">
+                <div className="bg-white/20 px-4 py-2 rounded-lg backdrop-blur">
+                  ✓ Exámenes Cambridge A1-C2
+                </div>
+                <div className="bg-white/20 px-4 py-2 rounded-lg backdrop-blur">
+                  ✓ Marco MCER oficial
+                </div>
+                <div className="bg-white/20 px-4 py-2 rounded-lg backdrop-blur">
+                  ✓ Skills: Reading, Writing, Listening, Speaking
+                </div>
+                <div className="bg-white/20 px-4 py-2 rounded-lg backdrop-blur">
+                  ✓ Simulacros de examen
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         
         {/* Subscription Pricing Section */}
         <section className="py-20 bg-gradient-to-br from-violet-50 via-purple-50 to-pink-50">
