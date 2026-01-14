@@ -1,0 +1,18 @@
+PLACEHOLDER para og-image.jpg
+
+Este archivo debe ser reemplazado por una imagen real de 1200x630px.
+
+Contenido sugerido:
+- Logo de Focus English
+- Texto: "Cursos de Inglés Especializados"
+- Subtexto: "Trabajo • Viajes • Exámenes"
+- Fondo gradiente violeta/púrpura
+- Diseño profesional y limpio
+
+Herramientas recomendadas:
+- Canva (plantillas de Open Graph)
+- Figma
+- Photoshop/GIMP
+
+Mientras tanto, puedes usar esta imagen temporal desde unsplash:
+https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=1200&h=630&fit=crop

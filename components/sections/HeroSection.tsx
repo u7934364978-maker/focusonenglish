@@ -70,7 +70,7 @@ export function HeroSection() {
             </Link>
 
             <Link 
-              href="/cursos/examenes/b2"
+              href="/certificaciones"
               className="group p-6 rounded-2xl border-2 border-slate-200 bg-white hover:border-emerald-300 hover:shadow-lg transition-all"
             >
               <div className="w-12 h-12 rounded-xl bg-emerald-100 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
