@@ -15,6 +15,164 @@ export default function HomePage() {
         <FeaturesSection />
         <SpecializedCoursesPromo />
         
+        {/* 3 Tipos de Cursos Section */}
+        <section className="py-20 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-100 text-violet-700 text-sm font-bold mb-4">
+                <span>🎯</span>
+                <span>Cursos Especializados</span>
+              </div>
+              <h2 className="text-4xl sm:text-5xl font-black text-slate-900 mb-6">
+                Elige Tu Objetivo de Aprendizaje
+              </h2>
+              <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+                Cursos diseñados específicamente para tu objetivo: viajar, trabajar o certificarte. Todos los niveles desde A1 hasta C2.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+              {/* Inglés para Viajar */}
+              <Link href="/cursos/viajes/a2" className="group bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 border-2 border-blue-200 hover:border-blue-400 hover:shadow-2xl transition-all">
+                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform">
+                  ✈️
+                </div>
+                <h3 className="text-2xl font-black text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
+                  Inglés para Viajar
+                </h3>
+                <p className="text-slate-600 mb-6">
+                  Aprende inglés práctico para aeropuertos, hoteles, restaurantes y situaciones cotidianas en tus viajes.
+                </p>
+                <ul className="space-y-2 mb-6 text-sm">
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-0.5">✓</span>
+                    <span className="text-slate-700">Conversaciones de viaje</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-0.5">✓</span>
+                    <span className="text-slate-700">Vocabulario turístico</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-0.5">✓</span>
+                    <span className="text-slate-700">Situaciones reales</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-0.5">✓</span>
+                    <span className="text-slate-700">Niveles A1 a C2</span>
+                  </li>
+                </ul>
+                <div className="inline-flex items-center text-blue-600 font-bold group-hover:underline">
+                  Ver cursos de viajes →
+                </div>
+              </Link>
+
+              {/* Inglés para Trabajar */}
+              <Link href="/cursos-especializados" className="group bg-gradient-to-br from-violet-50 to-purple-50 rounded-2xl p-8 border-2 border-violet-200 hover:border-violet-400 hover:shadow-2xl transition-all">
+                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-violet-600 to-purple-600 flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform">
+                  💼
+                </div>
+                <h3 className="text-2xl font-black text-slate-900 mb-3 group-hover:text-violet-600 transition-colors">
+                  Inglés para Trabajar
+                </h3>
+                <p className="text-slate-600 mb-6">
+                  Cursos especializados por sector profesional: tecnología, medicina, finanzas, turismo, derecho y más.
+                </p>
+                <ul className="space-y-2 mb-6 text-sm">
+                  <li className="flex items-start gap-2">
+                    <span className="text-violet-600 mt-0.5">✓</span>
+                    <span className="text-slate-700">Inglés profesional</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-violet-600 mt-0.5">✓</span>
+                    <span className="text-slate-700">Vocabulario de tu sector</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-violet-600 mt-0.5">✓</span>
+                    <span className="text-slate-700">Emails y presentaciones</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-violet-600 mt-0.5">✓</span>
+                    <span className="text-slate-700">Niveles B1 a C2</span>
+                  </li>
+                </ul>
+                <div className="inline-flex items-center text-violet-600 font-bold group-hover:underline">
+                  Ver cursos profesionales →
+                </div>
+              </Link>
+
+              {/* Preparación de Exámenes */}
+              <Link href="/cursos/examenes/b2" className="group bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-8 border-2 border-amber-200 hover:border-amber-400 hover:shadow-2xl transition-all">
+                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-amber-500 to-orange-500 flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform">
+                  🎓
+                </div>
+                <h3 className="text-2xl font-black text-slate-900 mb-3 group-hover:text-amber-600 transition-colors">
+                  Preparación de Exámenes
+                </h3>
+                <p className="text-slate-600 mb-6">
+                  Prepárate para certificaciones oficiales siguiendo los criterios de evaluación estándar internacionales.
+                </p>
+                <ul className="space-y-2 mb-6 text-sm">
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-600 mt-0.5">✓</span>
+                    <span className="text-slate-700">Metodología de examen</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-600 mt-0.5">✓</span>
+                    <span className="text-slate-700">Simulacros completos</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-600 mt-0.5">✓</span>
+                    <span className="text-slate-700">Técnicas y estrategias</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-600 mt-0.5">✓</span>
+                    <span className="text-slate-700">Niveles A1 a C2</span>
+                  </li>
+                </ul>
+                <div className="inline-flex items-center text-amber-600 font-bold group-hover:underline">
+                  Ver preparación de exámenes →
+                </div>
+              </Link>
+            </div>
+
+            {/* Info Banner - Niveles */}
+            <div className="bg-gradient-to-r from-violet-600 to-purple-600 rounded-2xl p-8 text-white text-center">
+              <h3 className="text-2xl font-black mb-4">
+                Todos los Niveles Disponibles
+              </h3>
+              <p className="text-lg mb-6 opacity-90 max-w-3xl mx-auto">
+                Cada tipo de curso está disponible en todos los niveles del Marco Común Europeo de Referencia (MCER)
+              </p>
+              <div className="grid grid-cols-3 md:grid-cols-6 gap-3 max-w-4xl mx-auto">
+                <div className="bg-white/20 rounded-lg p-3 backdrop-blur-sm">
+                  <div className="text-2xl font-black">A1</div>
+                  <div className="text-xs opacity-90">Principiante</div>
+                </div>
+                <div className="bg-white/20 rounded-lg p-3 backdrop-blur-sm">
+                  <div className="text-2xl font-black">A2</div>
+                  <div className="text-xs opacity-90">Elemental</div>
+                </div>
+                <div className="bg-white/20 rounded-lg p-3 backdrop-blur-sm">
+                  <div className="text-2xl font-black">B1</div>
+                  <div className="text-xs opacity-90">Intermedio</div>
+                </div>
+                <div className="bg-white/20 rounded-lg p-3 backdrop-blur-sm">
+                  <div className="text-2xl font-black">B2</div>
+                  <div className="text-xs opacity-90">Inter-Alto</div>
+                </div>
+                <div className="bg-white/20 rounded-lg p-3 backdrop-blur-sm">
+                  <div className="text-2xl font-black">C1</div>
+                  <div className="text-xs opacity-90">Avanzado</div>
+                </div>
+                <div className="bg-white/20 rounded-lg p-3 backdrop-blur-sm">
+                  <div className="text-2xl font-black">C2</div>
+                  <div className="text-xs opacity-90">Maestría</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
         {/* Subscription Pricing Section */}
         <section className="py-20 bg-gradient-to-br from-violet-50 via-purple-50 to-pink-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

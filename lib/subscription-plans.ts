@@ -27,8 +27,8 @@ export const SUBSCRIPTION_PLANS: Record<string, SubscriptionPlan> = {
     currency: 'eur',
     interval: 'month',
     features: [
-      'Acceso a todos los cursos',
-      'Acceso a todos los niveles (A1-C2)',
+      'Acceso a todos los cursos (Viajes, Trabajo, Exámenes)',
+      'Todos los niveles A1 a C2',
       'Material didáctico completo',
       'Ejercicios interactivos',
       'Soporte por email',
@@ -57,6 +57,8 @@ export const SUBSCRIPTION_PLANS: Record<string, SubscriptionPlan> = {
     features: [
       'Todo lo incluido en el plan con publicidad',
       'Sin publicidad - Experiencia premium',
+      'Cursos para Viajes, Trabajo y Exámenes',
+      'Cursos especializados por sector profesional',
       'Sesiones ilimitadas',
       'Clases en vivo semanales con profesores',
       'Seguimiento personalizado',

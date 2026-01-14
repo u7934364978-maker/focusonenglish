@@ -23,8 +23,14 @@ export function Navigation() {
             <Link href="/planes" className="text-sm font-bold text-violet-600 hover:text-violet-700 transition-colors">
               💎 Planes
             </Link>
+            <Link href="/cursos/viajes/a2" className="text-sm font-bold text-slate-700 hover:text-blue-600 transition-colors">
+              ✈️ Viajar
+            </Link>
             <Link href="/cursos-especializados" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
-              Cursos Especializados
+              💼 Trabajar
+            </Link>
+            <Link href="/cursos/examenes/b2" className="text-sm font-bold text-slate-700 hover:text-amber-600 transition-colors">
+              🎓 Exámenes
             </Link>
             <Link href="/blog" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
               Blog
@@ -67,11 +73,25 @@ export function Navigation() {
                 💎 Planes y Precios
               </Link>
               <Link 
+                href="/cursos/viajes/a2" 
+                className="text-sm font-bold text-slate-700 hover:text-blue-600 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                ✈️ Inglés para Viajar
+              </Link>
+              <Link 
                 href="/cursos-especializados" 
                 className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Cursos Especializados
+                💼 Inglés para Trabajar
+              </Link>
+              <Link 
+                href="/cursos/examenes/b2" 
+                className="text-sm font-bold text-slate-700 hover:text-amber-600 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                🎓 Preparación de Exámenes
               </Link>
               <Link 
                 href="/blog" 
