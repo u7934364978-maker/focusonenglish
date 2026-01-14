@@ -22,13 +22,14 @@ Este proyecto está configurado para desplegarse en **Europa (Frankfurt)** usand
 
 ## 🔧 Versión de Node.js
 
-Para evitar los warnings de versión, el proyecto usa:
+Para cumplir con los requisitos de Vercel, el proyecto usa:
 
-- **Node.js**: `18.17.0` (versión exacta)
+- **Node.js**: `24.x` (versión requerida por Vercel)
 - Configurado en:
-  - `package.json` → `engines.node`
-  - `.nvmrc`
-  - `vercel.json` → `build.env.NODE_VERSION`
+  - `package.json` → `engines.node: "24.x"`
+  - `.nvmrc` → `24`
+
+**Nota**: Node.js 18.x está descontinuado en Vercel. Se requiere Node.js 24.x o superior.
 
 ## 🚀 Despliegue Manual en Vercel
 
