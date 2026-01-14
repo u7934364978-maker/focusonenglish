@@ -40,7 +40,7 @@ export function FeaturesSection() {
             ¿Por Qué Focus English?
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Un método probado que se adapta a tus necesidades específicas
+            Método 100% adaptado al mercado español con profesores nativos y horarios compatibles con tu zona horaria
           </p>
         </div>
 

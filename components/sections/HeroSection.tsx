@@ -7,7 +7,7 @@ export function HeroSection() {
         <div className="text-center max-w-3xl mx-auto">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-100 text-violet-700 font-bold text-sm mb-6">
             <span className="w-2 h-2 bg-violet-500 rounded-full animate-pulse"></span>
-            Programas especializados de 90 días
+            🇪🇸 Cursos de inglés para España · Programas de 90 días
           </div>
           
           <h1 className="text-5xl md:text-6xl font-black tracking-tight text-slate-900 mb-6">
@@ -18,8 +18,8 @@ export function HeroSection() {
           </h1>
           
           <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-            Cursos personalizados para trabajar, viajar o preparar exámenes oficiales. 
-            Aprende solo lo que necesitas con un plan diseñado para ti.
+            Cursos 100% en español para profesionales y estudiantes españoles. 
+            Aprende inglés para trabajar, viajar o certificarte con método adaptado al mercado español.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">

@@ -8,7 +8,8 @@ export function CTASection() {
           ¿Listo Para Empezar?
         </h2>
         <p className="text-xl text-violet-100 mb-10 max-w-2xl mx-auto">
-          Descubre tu nivel actual con nuestro test gratuito y recibe recomendaciones personalizadas
+          Descubre tu nivel actual con nuestro test gratuito y recibe recomendaciones personalizadas. 
+          Servicio 100% en español adaptado al mercado laboral español.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
