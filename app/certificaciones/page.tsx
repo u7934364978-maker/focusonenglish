@@ -55,6 +55,68 @@ export default function CertificacionesPage() {
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+              {/* Cambridge A1 Starters */}
+              <div className="bg-gradient-to-br from-cyan-50 to-teal-50 rounded-2xl shadow-xl border-2 border-cyan-200 overflow-hidden hover:shadow-2xl transition-shadow">
+                <div className="p-8">
+                  <div className="flex items-start justify-between mb-6">
+                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-cyan-500 to-teal-500 flex items-center justify-center text-white font-black text-2xl">
+                      A1
+                    </div>
+                    <span className="px-3 py-1 rounded-full bg-cyan-600 text-white text-xs font-bold">
+                      PRINCIPIANTE
+                    </span>
+                  </div>
+                  
+                  <h2 className="text-3xl font-black text-slate-900 mb-4">
+                    Cambridge A1 Starters (YLE)
+                  </h2>
+                  
+                  <p className="text-slate-700 mb-6">
+                    Certificación de nivel básico ideal para principiantes. Demuestra que puedes comunicarte en situaciones simples y cotidianas en inglés.
+                  </p>
+
+                  <div className="mb-8">
+                    <h3 className="font-bold text-slate-900 mb-4">Estructura del Examen:</h3>
+                    <ul className="space-y-3">
+                      <li className="flex items-start gap-3">
+                        <span className="text-cyan-600 mt-1">📖</span>
+                        <div>
+                          <span className="font-bold">Reading & Writing</span>
+                          <p className="text-sm text-slate-600">3 partes - 20 minutos - 50% de la nota</p>
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="text-cyan-600 mt-1">🎧</span>
+                        <div>
+                          <span className="font-bold">Listening</span>
+                          <p className="text-sm text-slate-600">4 partes - 20 minutos - 25% de la nota</p>
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="text-cyan-600 mt-1">🗣️</span>
+                        <div>
+                          <span className="font-bold">Speaking</span>
+                          <p className="text-sm text-slate-600">2 partes - 5 minutos - 25% de la nota</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="mb-6 p-4 bg-white rounded-xl">
+                    <p className="text-sm font-bold text-slate-900 mb-2">Duración del curso:</p>
+                    <p className="text-2xl font-black text-cyan-600">8 semanas</p>
+                  </div>
+
+                  <Link
+                    href="/cursos/examenes/a1"
+                    className="block w-full text-center bg-cyan-600 text-white py-4 rounded-xl font-bold text-lg hover:bg-cyan-700 transition-colors"
+                  >
+                    Ver Programa Completo →
+                  </Link>
+                </div>
+              </div>
+
+
               {/* Cambridge B2 First */}
               <div className="bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl shadow-xl border-2 border-emerald-200 overflow-hidden hover:shadow-2xl transition-shadow">
                 <div className="p-8">
