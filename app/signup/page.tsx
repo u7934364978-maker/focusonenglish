@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/sections/Navigation";
+import { SignupForm } from "@/components/forms/SignupForm";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -214,110 +215,13 @@ export default function SignupPage() {
           <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-200">
               <h2 className="text-2xl font-black text-slate-900 mb-4">
-                Formulario de Inscripción
+                Empieza Gratis Hoy
               </h2>
               <p className="text-slate-600 mb-6">
-                Completa tus datos y nos pondremos en contacto contigo en menos de 24 horas para finalizar tu inscripción.
+                Completa el formulario y accede inmediatamente a tu curso. ¡Es 100% gratis para comenzar!
               </p>
 
-              <form className="space-y-4">
-                <div>
-                  <label className="block text-sm font-bold text-slate-700 mb-2">
-                    Nombre Completo *
-                  </label>
-                  <input
-                    type="text"
-                    required
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
-                    placeholder="Juan Pérez"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-sm font-bold text-slate-700 mb-2">
-                    Email *
-                  </label>
-                  <input
-                    type="email"
-                    required
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
-                    placeholder="tu@email.com"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-sm font-bold text-slate-700 mb-2">
-                    Teléfono
-                  </label>
-                  <input
-                    type="tel"
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
-                    placeholder="+34 600 000 000"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-sm font-bold text-slate-700 mb-2">
-                    Curso de Interés *
-                  </label>
-                  <select
-                    required
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
-                  >
-                    <option value="">Selecciona un curso</option>
-                    <option value="trabajo">Inglés para Trabajar</option>
-                    <option value="viajes">Inglés para Viajar</option>
-                    <option value="examenes">Preparar Exámenes</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block text-sm font-bold text-slate-700 mb-2">
-                    Nivel Actual
-                  </label>
-                  <select
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
-                  >
-                    <option value="">No lo sé / Quiero hacer el test</option>
-                    <option value="a1">A1 - Principiante</option>
-                    <option value="a2">A2 - Elemental</option>
-                    <option value="b1">B1 - Intermedio</option>
-                    <option value="b2">B2 - Intermedio Alto</option>
-                    <option value="c1">C1 - Avanzado</option>
-                    <option value="c2">C2 - Maestría</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block text-sm font-bold text-slate-700 mb-2">
-                    Mensaje (Opcional)
-                  </label>
-                  <textarea
-                    rows={4}
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
-                    placeholder="Cuéntanos sobre tus objetivos..."
-                  />
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <input
-                    type="checkbox"
-                    required
-                    className="mt-1"
-                    id="terms"
-                  />
-                  <label htmlFor="terms" className="text-sm text-slate-600">
-                    Acepto los términos y condiciones y la política de privacidad. Consiento el tratamiento de mis datos para finalidades comerciales.
-                  </label>
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-4 rounded-lg font-bold text-lg hover:from-purple-700 hover:to-pink-700 transition-all"
-                >
-                  Enviar Solicitud de Inscripción
-                </button>
-              </form>
+              <SignupForm />
 
               <p className="mt-6 text-center text-sm text-slate-600">
                 ¿Tienes dudas? <Link href="/contact" className="text-purple-600 font-bold hover:text-purple-700">Contáctanos</Link> o{" "}
