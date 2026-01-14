@@ -19,19 +19,36 @@ async function createHubSpotContact(data: SignupFormData) {
     throw new Error('HubSpot Access Token no configurado');
   }
 
+  // Mapear niveles del formulario a los valores de HubSpot
+  const levelMap: { [key: string]: string } = {
+    'a1': 'A1 Principiante',
+    'a2': 'A2 Elemental',
+    'b1': 'B1 Intermedio',
+    'b2': 'B2 Intermedio Alto',
+    'c1': 'C1 Avanzado',
+    'c2': 'C2 Maestría',
+    '': 'No lo sé / Quiero hacer el test'
+  };
+
+  // Mapear cursos a formato legible
+  const courseMap: { [key: string]: string } = {
+    'trabajo': 'Inglés para Trabajar',
+    'viajes': 'Inglés para Viajar',
+    'examenes': 'Preparar Exámenes'
+  };
+
   // Propiedades del contacto en HubSpot
-  const properties = {
+  const properties: { [key: string]: string } = {
     firstname: data.firstName,
     lastname: data.lastName,
     email: data.email,
     phone: data.phone || '',
-    // Campos personalizados - debes crear estas propiedades en HubSpot
-    course_interest: data.courseInterest,
-    current_level: data.currentLevel || 'unknown',
+    // Campos personalizados (ajustados a las opciones de HubSpot)
+    course_interest: courseMap[data.courseInterest] || data.courseInterest,
+    current_level: levelMap[data.currentLevel || ''] || 'No lo sé / Quiero hacer el test',
     message: data.message || '',
-    // Campos adicionales de seguimiento
+    // Campos estándar de HubSpot
     lifecyclestage: 'lead',
-    lead_source: 'Website - Signup Form',
     hs_lead_status: 'NEW'
   };
 
