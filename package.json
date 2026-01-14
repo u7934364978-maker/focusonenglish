@@ -1,0 +1,46 @@
+{
+  "name": "focus-english",
+  "version": "1.0.0",
+  "description": "Focus English - Cursos de Inglés Especializados para Trabajo, Viajes y Exámenes",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^15.1.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.6",
+    "@types/react-dom": "^19.0.2",
+    "typescript": "^5.7.2",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.4.49",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^15.1.3"
+  },
+  "engines": {
+    "node": ">=18.17.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "english",
+    "courses",
+    "learning",
+    "education",
+    "language",
+    "professional-english",
+    "travel-english",
+    "exam-preparation"
+  ],
+  "author": "Focus English",
+  "license": "UNLICENSED"
+}

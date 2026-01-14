@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "Focus English",
     images: [
       {
-        url: '/og-image.jpg',
+        url: 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=1200&h=630&fit=crop',
         width: 1200,
         height: 630,
         alt: 'Focus English - Cursos de Inglés Especializados',
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Focus English - Cursos de Inglés Especializados",
     description: "Inglés focalizado en tu objetivo: trabajo, viajes o exámenes oficiales",
-    images: ['/og-image.jpg'],
+    images: ['https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=1200&h=630&fit=crop'],
   },
   robots: {
     index: true,
