@@ -136,10 +136,22 @@ npm start
 
 ## 🔧 Configuración
 
-### Variables de Entorno (Opcional)
+### Variables de Entorno
+
+#### Producción
 ```env
 NEXT_PUBLIC_SITE_URL=https://focusenglish.com
 ```
+
+#### HubSpot CRM (Requerido para formulario de signup)
+```env
+# Obtén tu Access Token desde tu Private App en HubSpot
+HUBSPOT_ACCESS_TOKEN=tu_token_aqui
+HUBSPOT_PORTAL_ID=147592708
+HUBSPOT_API_URL=https://api.hubapi.com
+```
+
+**📝 Nota:** Para configurar HubSpot CRM, consulta el archivo `HUBSPOT_SETUP.md` con instrucciones detalladas.
 
 ### Next.js Config
 - Imágenes de Unsplash permitidas
@@ -155,10 +167,10 @@ NEXT_PUBLIC_SITE_URL=https://focusenglish.com
 
 1. **Imagen Open Graph**: Actualmente usa una imagen temporal de Unsplash. Para producción, crear una imagen personalizada de 1200x630px.
 
-2. **Formularios**: Los formularios de contacto e inscripción necesitan backend para enviar emails. Integrar con:
-   - SendGrid
-   - Mailgun
-   - API personalizada
+2. **Formularios**: Los formularios están integrados con HubSpot CRM:
+   - **Formulario de Signup**: Integrado con HubSpot CRM para gestionar registros
+   - **Configuración**: Ver `HUBSPOT_SETUP.md` para instrucciones completas
+   - **Contacto**: Pendiente de integración (puede usar la misma API)
 
 3. **Test de Nivel**: La funcionalidad del test está pendiente de implementación completa.
 

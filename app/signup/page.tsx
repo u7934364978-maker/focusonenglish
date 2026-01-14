@@ -1,15 +1,94 @@
-import { Navigation } from "@/components/sections/Navigation";
-import { SignupForm } from "@/components/forms/SignupForm";
-import Link from "next/link";
-import type { Metadata } from "next";
+"use client";
 
-export const metadata: Metadata = {
-  title: "Inscripción a Cursos de Inglés",
-  description: "Inscríbete en nuestros cursos especializados de inglés. Elige el programa que mejor se adapte a tus objetivos: trabajo, viajes o exámenes oficiales.",
-  keywords: ["inscripción cursos inglés", "matriculación inglés", "cursos inglés online", "aprender inglés"],
-};
+import { Navigation } from "@/components/sections/Navigation";
+import Link from "next/link";
+import { useState, FormEvent } from "react";
 
 export default function SignupPage() {
+  // Estado del formulario
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    courseInterest: "",
+    currentLevel: "",
+    message: ""
+  });
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<{
+    type: "success" | "error" | null;
+    message: string;
+  }>({ type: null, message: "" });
+
+  // Manejar cambios en el formulario
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
+  // Manejar envío del formulario
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitStatus({ type: null, message: "" });
+
+    try {
+      // Separar nombre completo en firstName y lastName
+      const [firstName, ...lastNameParts] = formData.firstName.split(" ");
+      const lastName = lastNameParts.join(" ") || formData.lastName;
+
+      const response = await fetch("/api/signup", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          firstName: firstName || formData.firstName,
+          lastName: lastName || "N/A",
+          email: formData.email,
+          phone: formData.phone,
+          courseInterest: formData.courseInterest,
+          currentLevel: formData.currentLevel,
+          message: formData.message
+        }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        setSubmitStatus({
+          type: "success",
+          message: data.message || "¡Gracias por tu inscripción! Te contactaremos pronto."
+        });
+        // Resetear formulario
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phone: "",
+          courseInterest: "",
+          currentLevel: "",
+          message: ""
+        });
+      } else {
+        setSubmitStatus({
+          type: "error",
+          message: data.error || "Hubo un error al enviar tu inscripción. Por favor, inténtalo de nuevo."
+        });
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      setSubmitStatus({
+        type: "error",
+        message: "Error de conexión. Por favor, verifica tu conexión e inténtalo de nuevo."
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <>
       <Navigation />
@@ -215,13 +294,149 @@ export default function SignupPage() {
           <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-200">
               <h2 className="text-2xl font-black text-slate-900 mb-4">
-                Empieza Gratis Hoy
+                Formulario de Inscripción
               </h2>
               <p className="text-slate-600 mb-6">
-                Completa el formulario y accede inmediatamente a tu curso. ¡Es 100% gratis para comenzar!
+                Completa tus datos y nos pondremos en contacto contigo en menos de 24 horas para finalizar tu inscripción.
               </p>
 
-              <SignupForm />
+              <form onSubmit={handleSubmit} className="space-y-4">
+                {/* Mensaje de estado */}
+                {submitStatus.type && (
+                  <div
+                    className={`p-4 rounded-lg ${
+                      submitStatus.type === "success"
+                        ? "bg-green-100 border border-green-300 text-green-800"
+                        : "bg-red-100 border border-red-300 text-red-800"
+                    }`}
+                  >
+                    {submitStatus.message}
+                  </div>
+                )}
+
+                <div>
+                  <label className="block text-sm font-bold text-slate-700 mb-2">
+                    Nombre Completo *
+                  </label>
+                  <input
+                    type="text"
+                    name="firstName"
+                    value={formData.firstName}
+                    onChange={handleChange}
+                    required
+                    disabled={isSubmitting}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent disabled:bg-gray-100"
+                    placeholder="Juan Pérez García"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-bold text-slate-700 mb-2">
+                    Email *
+                  </label>
+                  <input
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                    disabled={isSubmitting}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent disabled:bg-gray-100"
+                    placeholder="tu@email.com"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-bold text-slate-700 mb-2">
+                    Teléfono
+                  </label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    disabled={isSubmitting}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent disabled:bg-gray-100"
+                    placeholder="+34 600 000 000"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-bold text-slate-700 mb-2">
+                    Curso de Interés *
+                  </label>
+                  <select
+                    name="courseInterest"
+                    value={formData.courseInterest}
+                    onChange={handleChange}
+                    required
+                    disabled={isSubmitting}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent disabled:bg-gray-100"
+                  >
+                    <option value="">Selecciona un curso</option>
+                    <option value="trabajo">Inglés para Trabajar</option>
+                    <option value="viajes">Inglés para Viajar</option>
+                    <option value="examenes">Preparar Exámenes</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-bold text-slate-700 mb-2">
+                    Nivel Actual
+                  </label>
+                  <select
+                    name="currentLevel"
+                    value={formData.currentLevel}
+                    onChange={handleChange}
+                    disabled={isSubmitting}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent disabled:bg-gray-100"
+                  >
+                    <option value="">No lo sé / Quiero hacer el test</option>
+                    <option value="a1">A1 - Principiante</option>
+                    <option value="a2">A2 - Elemental</option>
+                    <option value="b1">B1 - Intermedio</option>
+                    <option value="b2">B2 - Intermedio Alto</option>
+                    <option value="c1">C1 - Avanzado</option>
+                    <option value="c2">C2 - Maestría</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-bold text-slate-700 mb-2">
+                    Mensaje (Opcional)
+                  </label>
+                  <textarea
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    rows={4}
+                    disabled={isSubmitting}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent disabled:bg-gray-100"
+                    placeholder="Cuéntanos sobre tus objetivos..."
+                  />
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <input
+                    type="checkbox"
+                    required
+                    disabled={isSubmitting}
+                    className="mt-1"
+                    id="terms"
+                  />
+                  <label htmlFor="terms" className="text-sm text-slate-600">
+                    Acepto los términos y condiciones y la política de privacidad. Consiento el tratamiento de mis datos para finalidades comerciales.
+                  </label>
+                </div>
+
+                <button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-4 rounded-lg font-bold text-lg hover:from-purple-700 hover:to-pink-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {isSubmitting ? "Enviando..." : "Enviar Solicitud de Inscripción"}
+                </button>
+              </form>
 
               <p className="mt-6 text-center text-sm text-slate-600">
                 ¿Tienes dudas? <Link href="/contact" className="text-purple-600 font-bold hover:text-purple-700">Contáctanos</Link> o{" "}
