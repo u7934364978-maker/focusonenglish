@@ -26,8 +26,8 @@ export function Navigation() {
             <Link href="/cursos/viajes/a2" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
               Inglés para Viajar
             </Link>
-            <Link href="/cursos/examenes/b2" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
-              Preparar Exámenes
+            <Link href="/certificaciones" className="text-sm font-bold text-slate-700 hover:text-emerald-600 transition-colors">
+              Certificaciones 🎓
             </Link>
             <Link href="/cursos-especializados" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
               Cursos Especializados
@@ -77,11 +77,11 @@ export function Navigation() {
                 Inglés para Viajar
               </Link>
               <Link 
-                href="/cursos/examenes/b2" 
-                className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors"
+                href="/certificaciones" 
+                className="text-sm font-bold text-slate-700 hover:text-emerald-600 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Preparar Exámenes
+                Certificaciones 🎓
               </Link>
               <Link 
                 href="/cursos-especializados" 

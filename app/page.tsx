@@ -32,7 +32,7 @@ export default function HomePage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
               {/* Cambridge B2 First */}
-              <Link href="/cursos/examenes/b2" className="bg-white rounded-xl p-6 shadow-lg border-2 border-emerald-200 hover:border-emerald-400 hover:shadow-xl transition-all group">
+              <Link href="/certificaciones" className="bg-white rounded-xl p-6 shadow-lg border-2 border-emerald-200 hover:border-emerald-400 hover:shadow-xl transition-all group">
                 <div className="flex items-start justify-between mb-4">
                   <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-emerald-500 to-green-500 flex items-center justify-center text-white font-black text-lg">
                     B2
@@ -65,7 +65,7 @@ export default function HomePage() {
               </Link>
 
               {/* Cambridge C1 Advanced */}
-              <Link href="/cursos/examenes/c1" className="bg-white rounded-xl p-6 shadow-lg border-2 border-blue-200 hover:border-blue-400 hover:shadow-xl transition-all group">
+              <Link href="/certificaciones" className="bg-white rounded-xl p-6 shadow-lg border-2 border-blue-200 hover:border-blue-400 hover:shadow-xl transition-all group">
                 <div className="flex items-start justify-between mb-4">
                   <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-indigo-500 flex items-center justify-center text-white font-black text-lg">
                     C1
@@ -98,7 +98,7 @@ export default function HomePage() {
               </Link>
 
               {/* TOEFL iBT */}
-              <Link href="/cursos/examenes/b2" className="bg-white rounded-xl p-6 shadow-lg border-2 border-purple-200 hover:border-purple-400 hover:shadow-xl transition-all group">
+              <Link href="/certificaciones" className="bg-white rounded-xl p-6 shadow-lg border-2 border-purple-200 hover:border-purple-400 hover:shadow-xl transition-all group">
                 <div className="flex items-start justify-between mb-4">
                   <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-black text-sm">
                     iBT
@@ -131,7 +131,7 @@ export default function HomePage() {
               </Link>
 
               {/* IELTS */}
-              <Link href="/cursos/examenes/b2" className="bg-white rounded-xl p-6 shadow-lg border-2 border-red-200 hover:border-red-400 hover:shadow-xl transition-all group">
+              <Link href="/certificaciones" className="bg-white rounded-xl p-6 shadow-lg border-2 border-red-200 hover:border-red-400 hover:shadow-xl transition-all group">
                 <div className="flex items-start justify-between mb-4">
                   <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-red-500 to-orange-500 flex items-center justify-center text-white font-black text-xs">
                     IELTS
