@@ -97,8 +97,8 @@ export default function SignupPage() {
         <section className="pt-32 pb-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-purple-100 text-purple-700 text-sm font-bold mb-6">
-              <span>🎓</span>
-              <span>Inscripción</span>
+              <span>🇪🇸</span>
+              <span>Inscripción · Solo para España</span>
             </div>
             
             <h1 className="text-4xl sm:text-5xl font-black text-slate-900 mb-6">
@@ -106,7 +106,8 @@ export default function SignupPage() {
             </h1>
             
             <p className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
-              Elige el curso que mejor se adapte a tus objetivos y empieza a transformar tu inglés en 90 días.
+              Elige el curso que mejor se adapte a tus objetivos. Precios en euros, sin sorpresas. 
+              Programa diseñado específicamente para estudiantes y profesionales en España.
             </p>
           </div>
         </section>
@@ -132,7 +133,7 @@ export default function SignupPage() {
                       €299
                       <span className="text-lg font-normal text-slate-600">/3 meses</span>
                     </div>
-                    <p className="text-sm text-slate-600">Pago único o fraccionado</p>
+                    <p className="text-sm text-slate-600">Pago único o 3 cuotas · Bizum, tarjeta o transferencia</p>
                   </div>
                   
                   <ul className="space-y-3 mb-6">
@@ -176,7 +177,7 @@ export default function SignupPage() {
                       €199
                       <span className="text-lg font-normal text-slate-600">/3 meses</span>
                     </div>
-                    <p className="text-sm text-slate-600">Pago único o fraccionado</p>
+                    <p className="text-sm text-slate-600">Pago único o 3 cuotas · Bizum, tarjeta o transferencia</p>
                   </div>
                   
                   <ul className="space-y-3 mb-6">
@@ -220,7 +221,7 @@ export default function SignupPage() {
                       €349
                       <span className="text-lg font-normal text-slate-600">/3 meses</span>
                     </div>
-                    <p className="text-sm text-slate-600">Pago único o fraccionado</p>
+                    <p className="text-sm text-slate-600">Pago único o 3 cuotas · Bizum, tarjeta o transferencia</p>
                   </div>
                   
                   <ul className="space-y-3 mb-6">
@@ -297,7 +298,7 @@ export default function SignupPage() {
                 Formulario de Inscripción
               </h2>
               <p className="text-slate-600 mb-6">
-                Completa tus datos y nos pondremos en contacto contigo en menos de 24 horas para finalizar tu inscripción.
+                Completa tus datos y nos pondremos en contacto contigo en menos de 24 horas (horario España, lunes a viernes).
               </p>
 
               <form onSubmit={handleSubmit} className="space-y-4">
@@ -348,7 +349,7 @@ export default function SignupPage() {
 
                 <div>
                   <label className="block text-sm font-bold text-slate-700 mb-2">
-                    Teléfono
+                    Teléfono (España)
                   </label>
                   <input
                     type="tel"
@@ -461,7 +462,7 @@ export default function SignupPage() {
 
               <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-200">
                 <h3 className="font-bold text-slate-900 mb-2">¿Puedo pagar a plazos?</h3>
-                <p className="text-slate-600">Sí, ofrecemos opciones de pago fraccionado en 3 cuotas sin intereses.</p>
+                <p className="text-slate-600">Sí, ofrecemos pago fraccionado en 3 cuotas sin intereses. Aceptamos Bizum, tarjeta de crédito/débito y transferencia bancaria (España).</p>
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-200">
@@ -483,6 +484,9 @@ export default function SignupPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-sm text-slate-400">
             © 2026 Focus English. Todos los derechos reservados.
+          </p>
+          <p className="text-xs text-slate-500 mt-2">
+            🇪🇸 Servicio exclusivo para España · Precios en EUR (IVA incluido) · Soporte en español
           </p>
         </div>
       </footer>

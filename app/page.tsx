@@ -213,6 +213,8 @@ export default function HomePage() {
               </div>
               <p className="text-sm text-slate-400">
                 Cursos de inglés especializados para trabajar, viajar o preparar exámenes oficiales. Programas personalizados de 90 días.
+                <br/>
+                <span className="mt-2 inline-block">🇪🇸 Servicio exclusivo para España · Precios en EUR · Soporte en español</span>
               </p>
             </div>
 
