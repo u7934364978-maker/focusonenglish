@@ -42,3 +42,4 @@ __MACOSX/
 
 # RTF files (temporary)
 *.rtf
+.env.local
