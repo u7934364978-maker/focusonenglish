@@ -50,8 +50,6 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
 
   return (
     <main className="mx-auto max-w-full px-4 py-12">
-  return (
-    <main className="mx-auto max-w-full px-4 py-12">
       {/* Hero Section */}
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
