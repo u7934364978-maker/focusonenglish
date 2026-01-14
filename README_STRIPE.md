@@ -2,7 +2,7 @@
 
 ## 🎯 Lo que acabas de recibir
 
-He creado **4 documentos completos** y **1 script de verificación** para ayudarte a probar Stripe en modo test y migrar a producción:
+He creado **4 documentos completos** y **2 scripts de prueba** para ayudarte a probar Stripe en modo test y migrar a producción:
 
 ---
 
@@ -89,17 +89,51 @@ node test-stripe-connection.js
 
 ---
 
+### 6. 🎬 **test-stripe-local.sh**
+**⏱️ Para: Pruebas locales automatizadas**
+
+**Contenido**:
+- Script Bash interactivo
+- Verifica .env.local existe (si no, lo crea)
+- Valida todas las variables necesarias
+- Instala dependencias si falta
+- Ejecuta test de conexión Stripe
+- Inicia servidor dev automáticamente
+- Instrucciones de prueba en pantalla
+
+**📍 Usa este si**: Quieres probar TODO localmente con un solo comando
+
+**Ejecutar**:
+```bash
+./test-stripe-local.sh
+```
+
+O si tienes problemas de permisos:
+```bash
+bash test-stripe-local.sh
+```
+
+---
+
 ## 🎯 CÓMO EMPEZAR
 
-### Opción 1: Configuración Rápida (Recomendado)
+### Opción 1: Prueba Local Automatizada (Más Rápido) ⚡
+```bash
+1. Ejecutar: ./test-stripe-local.sh
+2. Seguir instrucciones en pantalla
+3. El script hará TODO por ti
+4. ¡Probar en http://localhost:3000/signup!
+```
+
+### Opción 2: Configuración Rápida en Vercel (Recomendado para Deploy)
 ```bash
 1. Abrir: CONFIGURACION_RAPIDA_STRIPE.md
 2. Seguir los pasos 1-5 (10 min)
 3. Hacer pruebas (10 min)
-4. ¡Listo para TEST!
+4. ¡Listo para TEST en producción!
 ```
 
-### Opción 2: Profundidad Total
+### Opción 3: Profundidad Total (Para entender todo)
 ```bash
 1. Leer: GUIA_STRIPE_TEST_Y_PRODUCCION.md
 2. Ejecutar: node test-stripe-connection.js
@@ -110,6 +144,15 @@ node test-stripe-connection.js
 ---
 
 ## 📋 CHECKLIST: ¿POR DÓNDE EMPEZAR?
+
+### MÉTODO RÁPIDO: Prueba Local 🚀
+- [ ] Ejecutar: `./test-stripe-local.sh`
+- [ ] Seguir instrucciones del script
+- [ ] Probar signup en http://localhost:3000/signup
+- [ ] Usar tarjeta: 4242 4242 4242 4242
+- [ ] ¡Listo para desarrollo local!
+
+### MÉTODO COMPLETO: Deploy en Vercel 🌐
 
 ### Paso 1: Obtener Claves de Stripe TEST
 - [ ] Ir a: https://dashboard.stripe.com/test/apikeys
