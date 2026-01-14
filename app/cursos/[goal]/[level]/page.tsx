@@ -27,9 +27,10 @@ const LEVEL_LABEL: Record<Level, string> = {
   c2: "C2 - Maestría",
 };
 
-export default function CursoLandingPage({ params }: { params: { goal: string; level: string } }) {
-  const goal = params.goal as Goal;
-  const level = params.level as Level;
+export default async function CursoLandingPage({ params }: { params: Promise<{ goal: string; level: string }> }) {
+  const { goal: goalParam, level: levelParam } = await params;
+  const goal = goalParam as Goal;
+  const level = levelParam as Level;
 
   if (!GOALS.includes(goal) || !LEVELS.includes(level)) {
     return (

@@ -4,6 +4,7 @@ import { FeaturesSection } from "@/components/sections/FeaturesSection";
 import { SpecializedCoursesPromo } from "@/components/sections/SpecializedCoursesPromo";
 import { FAQSection } from "@/components/sections/FAQSection";
 import { CTASection } from "@/components/sections/CTASection";
+import Link from "next/link";
 
 export default function HomePage() {
   return (
