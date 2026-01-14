@@ -20,29 +20,23 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
+            <Link href="/planes" className="text-sm font-bold text-violet-600 hover:text-violet-700 transition-colors">
+              💎 Planes
+            </Link>
             <Link href="/cursos-especializados" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
               Cursos Especializados
             </Link>
             <Link href="/blog" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
               Blog
             </Link>
-            <Link href="/cursos/trabajo/b2" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
-              Para Trabajar
-            </Link>
-            <Link href="/cursos/viajes/a2" className="text-sm font-bold text-slate-700 hover:text-blue-600 transition-colors">
-              Para Viajar
-            </Link>
-            <Link href="/cursos" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
-              Cursos por Niveles
-            </Link>
             <Link href="/diagnostico" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
-              Preguntas
+              Test de Nivel
             </Link>
             <Link 
               href="/signup"
               className="px-4 py-2 rounded-lg bg-gradient-to-r from-violet-600 to-purple-600 text-white font-black text-sm hover:shadow-lg transition-all"
             >
-              Empezar Gratis
+              Empezar Ahora
             </Link>
           </div>
 
@@ -66,6 +60,13 @@ export function Navigation() {
           <div className="md:hidden py-4 border-t border-slate-200">
             <div className="flex flex-col gap-4">
               <Link 
+                href="/planes" 
+                className="text-sm font-bold text-violet-600 hover:text-violet-700 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                💎 Planes y Precios
+              </Link>
+              <Link 
                 href="/cursos-especializados" 
                 className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
@@ -80,39 +81,18 @@ export function Navigation() {
                 Blog
               </Link>
               <Link 
-                href="/cursos/trabajo/b2" 
-                className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Para Trabajar
-              </Link>
-              <Link 
-                href="/cursos/viajes/a2" 
-                className="text-sm font-bold text-slate-700 hover:text-blue-600 transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Para Viajar
-              </Link>
-              <Link 
-                href="/cursos" 
-                className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Cursos por Niveles
-              </Link>
-              <Link 
                 href="/diagnostico" 
                 className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Preguntas
+                Test de Nivel
               </Link>
               <Link 
                 href="/signup"
                 className="px-4 py-2 rounded-lg bg-gradient-to-r from-violet-600 to-purple-600 text-white font-black text-sm text-center"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Empezar Gratis
+                Empezar Ahora
               </Link>
             </div>
           </div>
