@@ -2,12 +2,23 @@ import Stripe from 'stripe';
 import { NextRequest, NextResponse } from 'next/server';
 import { SUBSCRIPTION_PLANS, getPlanById } from '@/lib/subscription-plans';
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2024-12-18.acacia',
-});
+// Inicializar Stripe solo si la clave está disponible (evita errores en build time)
+const stripe = process.env.STRIPE_SECRET_KEY 
+  ? new Stripe(process.env.STRIPE_SECRET_KEY, {
+      apiVersion: '2024-12-18.acacia',
+    })
+  : null;
 
 export async function POST(request: NextRequest) {
   try {
+    // Verificar que Stripe esté inicializado
+    if (!stripe) {
+      return NextResponse.json(
+        { error: 'Stripe no está configurado. Por favor, contacta al administrador.' },
+        { status: 500 }
+      );
+    }
+
     const { planId, email, firstName, lastName, phone } = await request.json();
 
     // Validar que el plan existe
