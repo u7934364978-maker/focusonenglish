@@ -2,24 +2,16 @@
 
 import { Navigation } from "@/components/sections/Navigation";
 import Link from "next/link";
-import { useState, FormEvent } from "react";
+import { useState, FormEvent, useEffect } from "react";
 import { loadStripe } from '@stripe/stripe-js';
+import { getAllPlans, formatPrice, type SubscriptionPlan } from "@/lib/subscription-plans";
 
 // Inicializar Stripe
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
 
-// Definir cursos por niveles
-const COURSES = [
-  { level: 'A1', name: 'Principiante', weeks: 8, price: 299, color: 'amber' },
-  { level: 'A2', name: 'Elemental', weeks: 10, price: 349, color: 'lime' },
-  { level: 'B1', name: 'Intermedio', weeks: 12, price: 399, color: 'emerald', popular: true },
-  { level: 'B2', name: 'Intermedio-Alto', weeks: 14, price: 449, color: 'blue' },
-  { level: 'C1', name: 'Avanzado', weeks: 16, price: 499, color: 'purple' },
-  { level: 'C2', name: 'Maestría', weeks: 18, price: 549, color: 'rose' },
-];
-
 export default function SignupPage() {
-  const [selectedCourse, setSelectedCourse] = useState<string>("");
+  const plans = getAllPlans();
+  const [selectedPlan, setSelectedPlan] = useState<string>("");
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -28,6 +20,15 @@ export default function SignupPage() {
     currentLevel: "",
     message: ""
   });
+
+  // Detectar plan desde URL
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const planParam = params.get('plan');
+    if (planParam && plans.some(p => p.id === planParam)) {
+      setSelectedPlan(planParam);
+    }
+  }, [plans]);
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<{
@@ -43,10 +44,10 @@ export default function SignupPage() {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     
-    if (!selectedCourse) {
+    if (!selectedPlan) {
       setSubmitStatus({
         type: "error",
-        message: "Por favor, selecciona un curso antes de continuar."
+        message: "Por favor, selecciona un plan antes de continuar."
       });
       return;
     }
@@ -70,7 +71,7 @@ export default function SignupPage() {
           lastName,
           email: formData.email,
           phone: formData.phone,
-          courseInterest: selectedCourse,
+          courseInterest: selectedPlan,
           currentLevel: formData.currentLevel,
           message: formData.message
         }),
@@ -80,14 +81,14 @@ export default function SignupPage() {
         throw new Error('Error al guardar información');
       }
 
-      // 2. Crear sesión de pago en Stripe
+      // 2. Crear sesión de pago en Stripe (suscripción)
       const stripeResponse = await fetch("/api/create-checkout-session", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          courseLevel: selectedCourse,
+          planId: selectedPlan,
           email: formData.email,
           firstName: firstName || formData.firstName,
           lastName,
@@ -122,7 +123,7 @@ export default function SignupPage() {
     }
   };
 
-  const selectedCourseData = COURSES.find(c => c.level === selectedCourse);
+  const selectedPlanData = plans.find(p => p.id === selectedPlan);
 
   return (
     <>
@@ -137,70 +138,92 @@ export default function SignupPage() {
             </div>
             
             <h1 className="text-4xl sm:text-5xl font-black text-slate-900 mb-6">
-              Comienza Tu Transformación
+              Comienza Tu Suscripción
             </h1>
             
             <p className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
-              Selecciona tu nivel, completa tus datos y realiza el pago seguro para empezar inmediatamente.
+              Selecciona tu plan, completa tus datos y realiza el pago seguro para acceder inmediatamente a todos los cursos.
             </p>
           </div>
         </section>
 
-        {/* Course Selection */}
+        {/* Plan Selection */}
         <section className="py-16 bg-white">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-black text-slate-900 mb-4 text-center">
-              1. Selecciona Tu Nivel
+              1. Selecciona Tu Plan
             </h2>
             <p className="text-center text-slate-600 mb-12">
-              ¿No estás seguro? <Link href="/diagnostico" className="text-violet-600 font-bold hover:underline">Haz el test de nivel gratis</Link>
+              Suscripción mensual sin permanencia · Cancela cuando quieras
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {COURSES.map((course) => (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {plans.map((plan) => (
                 <button
-                  key={course.level}
-                  onClick={() => setSelectedCourse(course.level)}
-                  className={`relative text-left bg-white rounded-xl p-6 border-2 transition-all hover:shadow-lg ${
-                    selectedCourse === course.level
-                      ? `border-${course.color}-500 shadow-lg ring-4 ring-${course.color}-100`
+                  key={plan.id}
+                  onClick={() => setSelectedPlan(plan.id)}
+                  className={`relative text-left bg-white rounded-2xl p-8 border-2 transition-all hover:shadow-xl ${
+                    selectedPlan === plan.id
+                      ? `${plan.color.border} shadow-xl ring-4 ring-${plan.id === 'premium' ? 'violet' : 'blue'}-100`
                       : 'border-slate-200 hover:border-slate-300'
-                  }`}
+                  } ${plan.popular ? 'md:scale-105' : ''}`}
                 >
-                  {course.popular && (
-                    <span className="absolute top-4 right-4 px-2 py-1 bg-violet-600 text-white text-xs font-bold rounded-full">
-                      Popular
-                    </span>
+                  {plan.popular && (
+                    <div className="absolute top-0 right-0 bg-gradient-to-r from-violet-600 to-purple-600 text-white px-4 py-1 rounded-bl-lg rounded-tr-lg font-bold text-sm">
+                      ⭐ Más Popular
+                    </div>
                   )}
                   
-                  <div className={`inline-flex items-center justify-center w-12 h-12 rounded-lg bg-gradient-to-br from-${course.color}-500 to-${course.color}-600 text-white font-black text-lg mb-4`}>
-                    {course.level}
+                  <div className={`inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-br ${plan.color.gradient} text-white font-black text-3xl mb-4 ${plan.popular ? 'mt-6' : ''}`}>
+                    {plan.id === 'premium' ? '👑' : '📺'}
                   </div>
                   
-                  <h3 className="text-xl font-black text-slate-900 mb-2">
-                    {course.name}
+                  <h3 className="text-2xl font-black text-slate-900 mb-2">
+                    {plan.name}
                   </h3>
                   
                   <div className="flex items-baseline gap-2 mb-4">
-                    <span className="text-3xl font-black text-slate-900">€{course.price}</span>
-                    <span className="text-sm text-slate-600">/ {course.weeks} semanas</span>
+                    <span className="text-4xl font-black text-slate-900">{formatPrice(plan.price)}</span>
+                    <span className="text-slate-600 font-semibold">/ mes</span>
                   </div>
                   
-                  <div className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-bold ${
-                    selectedCourse === course.level
-                      ? `bg-${course.color}-100 text-${course.color}-700`
+                  <ul className="space-y-2 mb-6">
+                    {plan.features.slice(0, 5).map((feature, index) => (
+                      <li key={index} className="flex items-start gap-2 text-sm">
+                        <svg className={`w-5 h-5 ${plan.color.text} flex-shrink-0 mt-0.5`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span className="text-slate-700">{feature}</span>
+                      </li>
+                    ))}
+                    {plan.features.length > 5 && (
+                      <li className="text-sm text-slate-500 pl-7">
+                        +{plan.features.length - 5} características más
+                      </li>
+                    )}
+                  </ul>
+                  
+                  <div className={`inline-flex items-center px-4 py-2 rounded-full text-sm font-bold ${
+                    selectedPlan === plan.id
+                      ? `${plan.color.bg} ${plan.color.text}`
                       : 'bg-slate-100 text-slate-600'
                   }`}>
-                    {selectedCourse === course.level ? '✓ Seleccionado' : 'Seleccionar'}
+                    {selectedPlan === plan.id ? '✓ Seleccionado' : 'Seleccionar'}
                   </div>
                 </button>
               ))}
+            </div>
+
+            <div className="mt-8 text-center">
+              <Link href="/planes" className="text-violet-600 font-bold hover:underline">
+                Ver comparación completa de planes →
+              </Link>
             </div>
           </div>
         </section>
 
         {/* Form Section */}
-        {selectedCourse && (
+        {selectedPlan && (
           <section className="py-16 bg-slate-50">
             <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200">
@@ -209,7 +232,7 @@ export default function SignupPage() {
                     2. Completa Tus Datos
                   </h2>
                   <p className="text-slate-600">
-                    Curso seleccionado: <strong>{selectedCourseData?.level} - {selectedCourseData?.name}</strong> • <strong>€{selectedCourseData?.price}</strong>
+                    Plan seleccionado: <strong>{selectedPlanData?.name}</strong> • <strong>{formatPrice(selectedPlanData?.price || 0)}/mes</strong>
                   </p>
                 </div>
 
@@ -330,8 +353,8 @@ export default function SignupPage() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                       </svg>
                       <div className="flex-1">
-                        <p className="text-sm font-bold text-violet-900 mb-1">Pago 100% Seguro</p>
-                        <p className="text-xs text-violet-700">Al hacer clic en "Proceder al Pago", serás redirigido a Stripe, nuestra pasarela de pago segura. Puedes pagar con tarjeta de crédito o débito.</p>
+                        <p className="text-sm font-bold text-violet-900 mb-1">Suscripción Segura</p>
+                        <p className="text-xs text-violet-700">Al hacer clic en "Suscribirme", serás redirigido a Stripe, nuestra pasarela de pago segura. La suscripción se renovará automáticamente cada mes. Puedes cancelar en cualquier momento.</p>
                       </div>
                     </div>
                   </div>
@@ -351,13 +374,13 @@ export default function SignupPage() {
                       </>
                     ) : (
                       <>
-                        🔒 Proceder al Pago Seguro (€{selectedCourseData?.price})
+                        🔒 Suscribirme Ahora ({formatPrice(selectedPlanData?.price || 0)}/mes)
                       </>
                     )}
                   </button>
 
                   <p className="text-center text-xs text-slate-500">
-                    Garantía de satisfacción de 14 días • Cancela cuando quieras
+                    Sin permanencia • Cancela cuando quieras • Renovación automática mensual
                   </p>
                 </form>
               </div>

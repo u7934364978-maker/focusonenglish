@@ -1,74 +1,51 @@
 import Stripe from 'stripe';
 import { NextRequest, NextResponse } from 'next/server';
+import { SUBSCRIPTION_PLANS, getPlanById } from '@/lib/subscription-plans';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2024-12-18.acacia',
 });
 
-// Precios de los cursos en centavos (€)
-const COURSE_PRICES: Record<string, number> = {
-  'A1': 29900, // €299.00
-  'A2': 34900, // €349.00
-  'B1': 39900, // €399.00
-  'B2': 44900, // €449.00
-  'C1': 49900, // €499.00
-  'C2': 54900, // €549.00
-};
-
-const COURSE_NAMES: Record<string, string> = {
-  'A1': 'Nivel Principiante',
-  'A2': 'Nivel Elemental',
-  'B1': 'Nivel Intermedio',
-  'B2': 'Nivel Intermedio-Alto',
-  'C1': 'Nivel Avanzado',
-  'C2': 'Nivel Maestría',
-};
-
-const COURSE_DURATIONS: Record<string, string> = {
-  'A1': '8 semanas',
-  'A2': '10 semanas',
-  'B1': '12 semanas',
-  'B2': '14 semanas',
-  'C1': '16 semanas',
-  'C2': '18 semanas',
-};
-
 export async function POST(request: NextRequest) {
   try {
-    const { courseLevel, email, firstName, lastName, phone } = await request.json();
+    const { planId, email, firstName, lastName, phone } = await request.json();
 
-    // Validar que el nivel de curso existe
-    if (!COURSE_PRICES[courseLevel]) {
+    // Validar que el plan existe
+    const plan = getPlanById(planId);
+    if (!plan) {
       return NextResponse.json(
-        { error: 'Nivel de curso inválido' },
+        { error: 'Plan de suscripción inválido' },
         { status: 400 }
       );
     }
 
-    // Crear sesión de checkout en Stripe
+    // Crear sesión de checkout en Stripe para suscripción
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
       line_items: [
         {
           price_data: {
-            currency: 'eur',
+            currency: plan.currency,
             product_data: {
-              name: `Curso de Inglés ${courseLevel} - ${COURSE_NAMES[courseLevel]}`,
-              description: `${COURSE_DURATIONS[courseLevel]} - Incluye acceso completo a la plataforma, materiales didácticos, seguimiento personalizado y certificado oficial.`,
+              name: `Focus English - Plan ${plan.name}`,
+              description: plan.features.slice(0, 3).join(', ') + (plan.features.length > 3 ? '...' : ''),
               images: ['https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=800'],
             },
-            unit_amount: COURSE_PRICES[courseLevel],
+            unit_amount: plan.price,
+            recurring: {
+              interval: plan.interval,
+            },
           },
           quantity: 1,
         },
       ],
-      mode: 'payment',
+      mode: 'subscription', // Cambio clave: de 'payment' a 'subscription'
       success_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/signup?canceled=true`,
+      cancel_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/planes?canceled=true`,
       customer_email: email,
       metadata: {
-        courseLevel,
-        courseName: COURSE_NAMES[courseLevel],
+        planId,
+        planName: plan.name,
         firstName,
         lastName,
         phone: phone || '',
@@ -78,6 +55,10 @@ export async function POST(request: NextRequest) {
       billing_address_collection: 'required',
       // Permitir códigos promocionales
       allow_promotion_codes: true,
+      // Configurar período de prueba si es necesario (opcional)
+      // subscription_data: {
+      //   trial_period_days: 7,
+      // },
     });
 
     return NextResponse.json({ 
