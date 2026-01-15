@@ -1684,79 +1684,326 @@ La preparación IELTS tiene una filosofía única: evaluar tu capacidad para **c
 
 ### Sistema de Puntuación IELTS: Las Bandas
 
-A diferencia del TOEFL (que usa números hasta 120), IELTS usa **bandas de 0 a 9** con medios puntos (ej: 6.5, 7.0, 7.5).
+<div style="margin: 30px 0;">
 
-| Banda | Nivel | Equivalente CEFR | Qué Significa |
-|-------|-------|------------------|---------------|
-| **9.0** | Expert User | C2 | Inglés casi nativo |
-| **8.0-8.5** | Very Good | C1+ | Dominio avanzado con pocos errores |
-| **7.0-7.5** | Good User | C1 | Inglés operativo avanzado |
-| **6.0-6.5** | Competent | B2 | Suficiente para universidades |
-| **5.0-5.5** | Modest | B1 | Inglés básico-intermedio |
+<!-- Tabla de Bandas IELTS con diseño moderno -->
+<div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); padding: 25px; border-radius: 15px; margin-bottom: 30px; box-shadow: 0 8px 25px rgba(0,0,0,0.12);">
+  <div style="color: white; margin-bottom: 20px;">
+    <h4 style="margin: 0 0 10px 0; font-size: 1.4em; font-weight: 700;">🎯 Sistema de Bandas IELTS</h4>
+    <p style="margin: 0; font-size: 1.05em; opacity: 0.95;">A diferencia del TOEFL (números hasta 120), IELTS usa bandas de 0 a 9 con medios puntos (ej: 6.5, 7.0, 7.5)</p>
+  </div>
+  
+  <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+    
+    <!-- Banda 9.0 -->
+    <div style="padding: 20px 25px; border-bottom: 1px solid #e5e7eb; background: linear-gradient(90deg, #fef3c7 0%, white 100%);">
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
+        <div style="display: flex; align-items: center; gap: 15px; flex: 1; min-width: 200px;">
+          <div style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); color: white; width: 70px; height: 70px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.8em; box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);">
+            9.0
+          </div>
+          <div style="flex: 1;">
+            <div style="font-weight: 700; font-size: 1.2em; color: #1f2937; margin-bottom: 5px;">Expert User</div>
+            <div style="color: #6b7280; font-size: 0.95em;">CEFR: C2 • Inglés casi nativo</div>
+          </div>
+        </div>
+        <div style="background: #fef3c7; padding: 10px 20px; border-radius: 8px; font-weight: 600; color: #92400e; font-size: 0.9em;">
+          👑 Nivel Experto
+        </div>
+      </div>
+    </div>
+    
+    <!-- Banda 8.0-8.5 -->
+    <div style="padding: 20px 25px; border-bottom: 1px solid #e5e7eb;">
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
+        <div style="display: flex; align-items: center; gap: 15px; flex: 1; min-width: 200px;">
+          <div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); color: white; width: 70px; height: 70px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; font-size: 1.5em; box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3); line-height: 1.1;">
+            <div>8.0</div>
+            <div style="font-size: 0.6em;">8.5</div>
+          </div>
+          <div style="flex: 1;">
+            <div style="font-weight: 700; font-size: 1.2em; color: #1f2937; margin-bottom: 5px;">Very Good</div>
+            <div style="color: #6b7280; font-size: 0.95em;">CEFR: C1+ • Dominio avanzado con pocos errores</div>
+          </div>
+        </div>
+        <div style="background: #f3e8ff; padding: 10px 20px; border-radius: 8px; font-weight: 600; color: #7c3aed; font-size: 0.9em;">
+          ⭐ Excelente
+        </div>
+      </div>
+    </div>
+    
+    <!-- Banda 7.0-7.5 -->
+    <div style="padding: 20px 25px; border-bottom: 1px solid #e5e7eb;">
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
+        <div style="display: flex; align-items: center; gap: 15px; flex: 1; min-width: 200px;">
+          <div style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); color: white; width: 70px; height: 70px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; font-size: 1.5em; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3); line-height: 1.1;">
+            <div>7.0</div>
+            <div style="font-size: 0.6em;">7.5</div>
+          </div>
+          <div style="flex: 1;">
+            <div style="font-weight: 700; font-size: 1.2em; color: #1f2937; margin-bottom: 5px;">Good User</div>
+            <div style="color: #6b7280; font-size: 0.95em;">CEFR: C1 • Inglés operativo avanzado</div>
+          </div>
+        </div>
+        <div style="background: #dbeafe; padding: 10px 20px; border-radius: 8px; font-weight: 600; color: #1e40af; font-size: 0.9em;">
+          ✅ Muy Bueno
+        </div>
+      </div>
+    </div>
+    
+    <!-- Banda 6.0-6.5 (MÁS COMÚN) -->
+    <div style="padding: 20px 25px; border-bottom: 1px solid #e5e7eb; background: linear-gradient(90deg, #dcfce7 0%, white 100%);">
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
+        <div style="display: flex; align-items: center; gap: 15px; flex: 1; min-width: 200px;">
+          <div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; width: 70px; height: 70px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; font-size: 1.5em; box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3); line-height: 1.1;">
+            <div>6.0</div>
+            <div style="font-size: 0.6em;">6.5</div>
+          </div>
+          <div style="flex: 1;">
+            <div style="font-weight: 700; font-size: 1.2em; color: #1f2937; margin-bottom: 5px;">Competent</div>
+            <div style="color: #6b7280; font-size: 0.95em;">CEFR: B2 • Suficiente para universidades</div>
+          </div>
+        </div>
+        <div style="background: #d1fae5; padding: 10px 20px; border-radius: 8px; font-weight: 600; color: #047857; font-size: 0.9em;">
+          🎯 Objetivo Común
+        </div>
+      </div>
+    </div>
+    
+    <!-- Banda 5.0-5.5 -->
+    <div style="padding: 20px 25px;">
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
+        <div style="display: flex; align-items: center; gap: 15px; flex: 1; min-width: 200px;">
+          <div style="background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%); color: white; width: 70px; height: 70px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; font-size: 1.5em; box-shadow: 0 4px 12px rgba(107, 114, 128, 0.3); line-height: 1.1;">
+            <div>5.0</div>
+            <div style="font-size: 0.6em;">5.5</div>
+          </div>
+          <div style="flex: 1;">
+            <div style="font-weight: 700; font-size: 1.2em; color: #1f2937; margin-bottom: 5px;">Modest</div>
+            <div style="color: #6b7280; font-size: 0.95em;">CEFR: B1 • Inglés básico-intermedio</div>
+          </div>
+        </div>
+        <div style="background: #f3f4f6; padding: 10px 20px; border-radius: 8px; font-weight: 600; color: #4b5563; font-size: 0.9em;">
+          📚 En Desarrollo
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  <!-- Tip Box -->
+  <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 12px; margin-top: 20px; backdrop-filter: blur(10px); border: 2px solid rgba(255,255,255,0.3);">
+    <div style="display: flex; align-items: start; gap: 15px;">
+      <div style="font-size: 2em;">💡</div>
+      <div style="color: white; line-height: 1.6;">
+        <div style="font-weight: 700; font-size: 1.1em; margin-bottom: 8px;">Tip Clave de Preparación IELTS</div>
+        <div style="font-size: 0.95em;">
+          La mayoría de universidades del Reino Unido piden <strong>banda 6.5 mínimo</strong>, con al menos 6.0 en cada sección. Para inmigración a Canadá o Australia, suele pedirse 6.0-7.0 dependiendo del programa.
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
 
-💡 Tip clave de preparación IELTS: La mayoría de universidades del Reino Unido piden **banda 6.5 mínimo**, con al menos 6.0 en cada sección. Para inmigración a Canadá o Australia, suele pedirse 6.0-7.0 dependiendo del programa.
+</div>
+
+---
 
 ### Academic vs General Training: ¿Cuál Hacer?
 
-**Elige IELTS Academic si**:
-🎓 Vas a estudiar un grado o posgrado
-🎓 Necesitas registro profesional (médicos, enfermeras)
-🎓 Tu universidad específicamente pide "Academic"
+<div style="margin: 30px 0;">
 
-**Elige IELTS General Training si**:
-💼 Aplicas a residencia permanente (Canadá, Australia, Nueva Zelanda)
-💼 Vas a trabajar (no estudiar)
-💼 Necesitas visa de trabajo
-💼 Harás estudios no universitarios (cursos técnicos)
+<!-- Comparativa Academic vs General Training -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 25px; margin-bottom: 30px;">
+  
+  <!-- IELTS Academic -->
+  <div style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); padding: 30px; border-radius: 15px; box-shadow: 0 8px 25px rgba(59, 130, 246, 0.25); color: white;">
+    <div style="text-align: center; margin-bottom: 20px;">
+      <div style="font-size: 3.5em; margin-bottom: 10px;">🎓</div>
+      <div style="font-size: 1.6em; font-weight: 700; margin-bottom: 8px;">IELTS Academic</div>
+      <div style="font-size: 0.95em; opacity: 0.9;">Para estudios universitarios y registro profesional</div>
+    </div>
+    
+    <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
+      <div style="font-weight: 700; font-size: 1.1em; margin-bottom: 15px;">✅ Elige Academic si:</div>
+      <div style="display: grid; gap: 12px;">
+        <div style="display: flex; align-items: start; gap: 10px;">
+          <div style="background: white; color: #3b82f6; width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">1</div>
+          <div style="line-height: 1.5;">Vas a estudiar un grado o posgrado</div>
+        </div>
+        <div style="display: flex; align-items: start; gap: 10px;">
+          <div style="background: white; color: #3b82f6; width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">2</div>
+          <div style="line-height: 1.5;">Necesitas registro profesional (médicos, enfermeras)</div>
+        </div>
+        <div style="display: flex; align-items: start; gap: 10px;">
+          <div style="background: white; color: #3b82f6; width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">3</div>
+          <div style="line-height: 1.5;">Tu universidad específicamente pide "Academic"</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- IELTS General Training -->
+  <div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); padding: 30px; border-radius: 15px; box-shadow: 0 8px 25px rgba(16, 185, 129, 0.25); color: white;">
+    <div style="text-align: center; margin-bottom: 20px;">
+      <div style="font-size: 3.5em; margin-bottom: 10px;">💼</div>
+      <div style="font-size: 1.6em; font-weight: 700; margin-bottom: 8px;">IELTS General Training</div>
+      <div style="font-size: 0.95em; opacity: 0.9;">Para inmigración, trabajo y experiencia laboral</div>
+    </div>
+    
+    <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
+      <div style="font-weight: 700; font-size: 1.1em; margin-bottom: 15px;">✅ Elige General Training si:</div>
+      <div style="display: grid; gap: 12px;">
+        <div style="display: flex; align-items: start; gap: 10px;">
+          <div style="background: white; color: #10b981; width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">1</div>
+          <div style="line-height: 1.5;">Aplicas a residencia permanente (Canadá, Australia, Nueva Zelanda)</div>
+        </div>
+        <div style="display: flex; align-items: start; gap: 10px;">
+          <div style="background: white; color: #10b981; width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">2</div>
+          <div style="line-height: 1.5;">Vas a trabajar (no estudiar)</div>
+        </div>
+        <div style="display: flex; align-items: start; gap: 10px;">
+          <div style="background: white; color: #10b981; width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">3</div>
+          <div style="line-height: 1.5;">Necesitas visa de trabajo</div>
+        </div>
+        <div style="display: flex; align-items: start; gap: 10px;">
+          <div style="background: white; color: #10b981; width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">4</div>
+          <div style="line-height: 1.5;">Harás estudios no universitarios (cursos técnicos)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
 
-**📌 Importante**: Las secciones de Listening y Speaking son **idénticas** en ambas versiones. Solo cambian Reading y Writing.
+<!-- Nota Importante -->
+<div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 25px; border-radius: 12px; border-left: 5px solid #f59e0b; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
+  <div style="display: flex; align-items: start; gap: 15px;">
+    <div style="font-size: 2.5em;">📌</div>
+    <div>
+      <div style="font-weight: 700; color: #92400e; font-size: 1.15em; margin-bottom: 8px;">Importante: ¿Cuál es la Diferencia Real?</div>
+      <div style="color: #78350f; line-height: 1.6; font-size: 1em;">
+        Las secciones de <strong>Listening y Speaking son idénticas</strong> en ambas versiones. Solo cambian <strong>Reading y Writing</strong>. Si tienes dudas, elige Academic: es más versátil y aceptado en más contextos.
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
 
 ---
 
 ### 🎧 Estructura del IELTS: Las 4 Partes
 
-#### 1️⃣ Listening (30 minutos + 10 para transferir)
-**4 secciones, 40 preguntas**
+<div style="margin: 30px 0;">
 
-**Section 1**: Conversación social (2 personas)
-**Section 2**: Monólogo social (ej: guía turístico)
-**Section 3**: Conversación académica (hasta 4 personas)
-**Section 4**: Monólogo académico (lecture)
+<!-- Listening -->
+<div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+    <div style="background: white; padding: 15px; border-radius: 12px; min-width: 70px; text-align: center;">
+      <div style="font-size: 2.5em;">🎧</div>
+    </div>
+    <div>
+      <h4 style="margin: 0 0 5px 0; color: white; font-size: 1.4em;">Parte 1: Listening</h4>
+      <div style="color: rgba(255,255,255,0.9); font-size: 1em;">⏱️ 30 minutos + 10 para transferir | 📝 4 secciones, 40 preguntas</div>
+    </div>
+  </div>
+  
+  <div style="background: rgba(255,255,255,0.95); padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+    
+    <div style="margin-bottom: 20px;">
+      <h5 style="margin: 0 0 12px 0; color: #7c3aed; font-size: 1.1em; border-bottom: 2px solid #8b5cf6; padding-bottom: 8px;">
+        🔊 Las 4 Secciones
+      </h5>
+      <div style="display: grid; gap: 10px;">
+        <div style="background: #faf5ff; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+          <strong style="color: #6d28d9;">Section 1:</strong> Conversación social (2 personas)
+        </div>
+        <div style="background: #faf5ff; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+          <strong style="color: #6d28d9;">Section 2:</strong> Monólogo social (ej: guía turístico)
+        </div>
+        <div style="background: #faf5ff; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+          <strong style="color: #6d28d9;">Section 3:</strong> Conversación académica (hasta 4 personas)
+        </div>
+        <div style="background: #faf5ff; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+          <strong style="color: #6d28d9;">Section 4:</strong> Monólogo académico (lecture)
+        </div>
+      </div>
+    </div>
+    
+    <div style="margin-bottom: 15px;">
+      <h5 style="margin: 0 0 12px 0; color: #7c3aed; font-size: 1.1em;">📝 Tipos de Respuesta</h5>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 8px;">
+        <div style="background: #f3e8ff; padding: 10px 12px; border-radius: 6px; font-size: 0.9em; color: #6d28d9;">• Multiple choice</div>
+        <div style="background: #f3e8ff; padding: 10px 12px; border-radius: 6px; font-size: 0.9em; color: #6d28d9;">• Matching</div>
+        <div style="background: #f3e8ff; padding: 10px 12px; border-radius: 6px; font-size: 0.9em; color: #6d28d9;">• Plan/map/diagram labelling</div>
+        <div style="background: #f3e8ff; padding: 10px 12px; border-radius: 6px; font-size: 0.9em; color: #6d28d9;">• Form/note/table completion</div>
+        <div style="background: #f3e8ff; padding: 10px 12px; border-radius: 6px; font-size: 0.9em; color: #6d28d9;">• Sentence completion</div>
+      </div>
+    </div>
+    
+    <div style="background: #fef3c7; padding: 15px; border-radius: 8px; border-left: 4px solid #f59e0b;">
+      <h5 style="margin: 0 0 10px 0; color: #92400e; font-size: 1em;">⚠️ Estrategias Críticas</h5>
+      <div style="display: grid; gap: 8px; color: #78350f; font-size: 0.95em;">
+        <div><strong>🚨 Solo escuchas UNA VEZ</strong> (no hay repetición)</div>
+        <div><strong>📖 Lee las preguntas</strong> durante los 30 segundos previos</div>
+        <div><strong>✍️ Escribe lo que escuchas</strong>, edita después</div>
+        <div><strong>📏 Sigue las instrucciones</strong> de palabra límite</div>
+      </div>
+    </div>
+  </div>
+</div>
 
-**Tipos de Respuesta**:
-▪️ Multiple choice
-▪️ Matching
-▪️ Plan/map/diagram labelling
-▪️ Form/note/table completion
-▪️ Sentence completion
+<!-- Reading -->
+<div style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+    <div style="background: white; padding: 15px; border-radius: 12px; min-width: 70px; text-align: center;">
+      <div style="font-size: 2.5em;">📖</div>
+    </div>
+    <div>
+      <h4 style="margin: 0 0 5px 0; color: white; font-size: 1.4em;">Parte 2: Reading</h4>
+      <div style="color: rgba(255,255,255,0.9); font-size: 1em;">⏱️ 60 minutos | 📝 40 preguntas</div>
+    </div>
+  </div>
+  
+  <div style="background: rgba(255,255,255,0.95); padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-bottom: 20px;">
+      <div style="background: #dbeafe; padding: 15px; border-radius: 8px; border-left: 4px solid #3b82f6;">
+        <div style="font-weight: 700; color: #1e40af; margin-bottom: 8px;">🎓 Academic</div>
+        <div style="color: #1e3a8a; font-size: 0.95em;">3 textos largos académicos</div>
+      </div>
+      <div style="background: #d1fae5; padding: 15px; border-radius: 8px; border-left: 4px solid #10b981;">
+        <div style="font-weight: 700; color: #047857; margin-bottom: 8px;">💼 General Training</div>
+        <div style="color: #065f46; font-size: 0.95em;">Textos más cortos y variados</div>
+      </div>
+    </div>
+    
+    <div style="margin-bottom: 15px;">
+      <h5 style="margin: 0 0 12px 0; color: #2563eb; font-size: 1.1em;">📝 Tipos de Preguntas</h5>
+      <div style="display: grid; gap: 8px;">
+        <div style="background: #f0f9ff; padding: 10px 15px; border-radius: 6px; border-left: 3px solid #3b82f6; font-size: 0.95em; color: #1e40af;">1️⃣ Multiple choice</div>
+        <div style="background: #f0f9ff; padding: 10px 15px; border-radius: 6px; border-left: 3px solid #3b82f6; font-size: 0.95em; color: #1e40af;">2️⃣ True/False/Not Given</div>
+        <div style="background: #f0f9ff; padding: 10px 15px; border-radius: 6px; border-left: 3px solid #3b82f6; font-size: 0.95em; color: #1e40af;">3️⃣ Yes/No/Not Given</div>
+        <div style="background: #f0f9ff; padding: 10px 15px; border-radius: 6px; border-left: 3px solid #3b82f6; font-size: 0.95em; color: #1e40af;">4️⃣ Matching headings</div>
+        <div style="background: #f0f9ff; padding: 10px 15px; border-radius: 6px; border-left: 3px solid #3b82f6; font-size: 0.95em; color: #1e40af;">5️⃣ Sentence completion</div>
+        <div style="background: #f0f9ff; padding: 10px 15px; border-radius: 6px; border-left: 3px solid #3b82f6; font-size: 0.95em; color: #1e40af;">6️⃣ Summary completion</div>
+      </div>
+    </div>
+    
+    <div style="background: #fef3c7; padding: 15px; border-radius: 8px; border-left: 4px solid #f59e0b;">
+      <h5 style="margin: 0 0 10px 0; color: #92400e; font-size: 1em;">🎯 Estrategia para True/False/Not Given</h5>
+      <div style="display: grid; gap: 8px; color: #78350f; font-size: 0.95em;">
+        <div><strong>✅ True:</strong> La información coincide exactamente</div>
+        <div><strong>❌ False:</strong> La información contradice el texto</div>
+        <div><strong>❓ Not Given:</strong> No hay información sobre esto</div>
+      </div>
+    </div>
+  </div>
+</div>
 
-**Estrategias**:
-✅ Solo escuchas UNA VEZ (no hay repetición)
-✅ Lee las preguntas durante los 30 segundos previos
-✅ Escribe lo que escuchas, edita después
-✅ Sigue las instrucciones de palabra límite
-
----
-
-### 📖 Reading (60min)
-
-**Academic**: 3 textos largos
-**General Training**: Textos más cortos y variados
-
-**Tipos de Preguntas**:
-1️⃣ Multiple choice
-2️⃣ True/False/Not Given
-3️⃣ Yes/No/Not Given
-4️⃣ Matching headings
-5️⃣ Sentence completion
-6️⃣ Summary completion
-
-**Estrategia para True/False/Not Given**:
-- **True**: La información coincide exactamente
-- **False**: La información contradice el texto
-- **Not Given**: No hay información sobre esto
-
-**Gestión del Tiempo**:
+</div>
 - Texto 1: 17 minutos
 - Texto 2: 20 minutos
 - Texto 3: 23 minutos
