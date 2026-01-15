@@ -8,7 +8,10 @@ export type ExerciseType =
   | 'speaking'
   | 'grammar'
   | 'vocabulary'
-  | 'pronunciation';
+  | 'pronunciation'
+  | 'key-word-transformation'
+  | 'word-formation'
+  | 'multiple-choice-cloze';
 
 export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 
@@ -96,13 +99,71 @@ export interface VocabularyExercise {
   questions: Question[];
 }
 
+// NUEVOS TIPOS DE EJERCICIOS PARA CAMBRIDGE B2 FIRST (FCE)
+
+export interface KeyWordTransformation {
+  id: string;
+  sentence: string;
+  keyWord: string;
+  startOfAnswer: string;
+  correctAnswer: string;
+  explanation: string;
+  points: number;
+}
+
+export interface KeyWordTransformationExercise {
+  id: string;
+  type: 'key-word-transformation';
+  title: string;
+  instructions: string;
+  transformations: KeyWordTransformation[];
+}
+
+export interface WordFormation {
+  id: string;
+  sentence: string;
+  promptWord: string;
+  correctAnswer: string;
+  explanation: string;
+  points: number;
+}
+
+export interface WordFormationExercise {
+  id: string;
+  type: 'word-formation';
+  title: string;
+  instructions: string;
+  formations: WordFormation[];
+}
+
+export interface ClozeQuestion {
+  id: string;
+  gapNumber: number;
+  options: string[];
+  correctAnswer: string;
+  explanation: string;
+  points: number;
+}
+
+export interface MultipleChoiceClozeExercise {
+  id: string;
+  type: 'multiple-choice-cloze';
+  title: string;
+  instructions: string;
+  text: string; // Texto con marcadores como {{1}}, {{2}}, etc.
+  questions: ClozeQuestion[];
+}
+
 export type Exercise = 
   | VoiceRecordingExercise
   | ListeningExercise
   | ReadingExercise
   | WritingExercise
   | GrammarExercise
-  | VocabularyExercise;
+  | VocabularyExercise
+  | KeyWordTransformationExercise
+  | WordFormationExercise
+  | MultipleChoiceClozeExercise;
 
 export interface Lesson {
   id: string;
@@ -534,6 +595,131 @@ Had you finished your homework?`,
 During my first week, everything seemed overwhelming. I had prepared myself mentally, or so I thought, but the reality of being independent was much more challenging than I had anticipated. I had been sharing a bedroom with my sister my entire life, so having my own space felt strange at first.
 
 However, by the end of the first semester, I had adapted remarkably well. I had made close friends, joined two societies, and had even started a part-time job. The person I had been before university seemed like a distant memory. I had grown more confident and independent than I ever thought possible.`
+      },
+      // KEY WORD TRANSFORMATIONS - FCE Part 4 Practice
+      {
+        id: 'b2-m1-l1-keytransform-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Past Perfect Practice',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt1',
+            sentence: 'She learned Spanish before she moved to Madrid.',
+            keyWord: 'had',
+            startOfAnswer: 'She',
+            correctAnswer: 'had learned Spanish before',
+            explanation: 'Use Past Perfect (had learned) to show the action completed before moving.',
+            points: 2
+          },
+          {
+            id: 'kt2',
+            sentence: 'It was the first time he visited Japan.',
+            keyWord: 'never',
+            startOfAnswer: 'He',
+            correctAnswer: 'had never visited Japan',
+            explanation: 'Past Perfect with "never" to express lack of prior experience.',
+            points: 2
+          },
+          {
+            id: 'kt3',
+            sentence: 'They lost the match because they didn\'t train enough.',
+            keyWord: 'if',
+            startOfAnswer: 'They wouldn\'t have lost',
+            correctAnswer: 'if they had trained',
+            explanation: 'Third conditional: past condition (had trained) with past result (would have lost).',
+            points: 2
+          },
+          {
+            id: 'kt4',
+            sentence: 'I arrived late because my alarm didn\'t ring.',
+            keyWord: 'have',
+            startOfAnswer: 'I wouldn\'t',
+            correctAnswer: 'have arrived late if',
+            explanation: 'Third conditional: different word order, same structure.',
+            points: 2
+          },
+          {
+            id: 'kt5',
+            sentence: 'She was tired because she had been working all night.',
+            keyWord: 'been',
+            startOfAnswer: 'She',
+            correctAnswer: 'had been working all',
+            explanation: 'Past Perfect Continuous emphasizes duration of the activity.',
+            points: 2
+          },
+          {
+            id: 'kt6',
+            sentence: 'We expected the exam to be easier.',
+            keyWord: 'than',
+            startOfAnswer: 'The exam was more',
+            correctAnswer: 'difficult than we had',
+            explanation: 'Comparative structure with Past Perfect to express expectation.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l1-keytransform-2',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Mixed Structures',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt7',
+            sentence: 'I regret not studying harder for the test.',
+            keyWord: 'wish',
+            startOfAnswer: 'I',
+            correctAnswer: 'wish I had studied',
+            explanation: 'Use "wish + Past Perfect" to express regret about the past.',
+            points: 2
+          },
+          {
+            id: 'kt8',
+            sentence: 'It wasn\'t necessary for you to buy a gift.',
+            keyWord: 'have',
+            startOfAnswer: 'You',
+            correctAnswer: 'didn\'t have to buy',
+            explanation: 'Use "didn\'t have to" to express lack of necessity in the past.',
+            points: 2
+          },
+          {
+            id: 'kt9',
+            sentence: 'Perhaps she missed the train.',
+            keyWord: 'might',
+            startOfAnswer: 'She',
+            correctAnswer: 'might have missed the',
+            explanation: 'Modal perfect (might have + past participle) for past possibility.',
+            points: 2
+          },
+          {
+            id: 'kt10',
+            sentence: 'Someone stole my bike last night.',
+            keyWord: 'was',
+            startOfAnswer: 'My bike',
+            correctAnswer: 'was stolen last night',
+            explanation: 'Passive voice: was + past participle.',
+            points: 2
+          },
+          {
+            id: 'kt11',
+            sentence: 'They say that she is the best player in the team.',
+            keyWord: 'said',
+            startOfAnswer: 'She',
+            correctAnswer: 'is said to be',
+            explanation: 'Impersonal passive: "is said to be" (reporting structure).',
+            points: 2
+          },
+          {
+            id: 'kt12',
+            sentence: 'I\'m certain he took the money.',
+            keyWord: 'must',
+            startOfAnswer: 'He',
+            correctAnswer: 'must have taken the',
+            explanation: 'Modal perfect (must have + past participle) for strong deduction about the past.',
+            points: 2
+          }
+        ]
       }
     ]
   },
