@@ -9,6 +9,7 @@ export type ExerciseType =
   | 'grammar'
   | 'vocabulary'
   | 'pronunciation'
+  | 'pronunciation-practice' // NUEVO: Pronunciación con evaluación real
   | 'key-word-transformation'
   | 'word-formation'
   | 'multiple-choice-cloze';
@@ -99,6 +100,23 @@ export interface VocabularyExercise {
   questions: Question[];
 }
 
+// NUEVO: Ejercicio de Práctica de Pronunciación con Evaluación Real
+export interface PronunciationPracticeExercise {
+  id: string;
+  type: 'pronunciation-practice';
+  title: string;
+  instructions: string;
+  targetSentences: {
+    sentence: string;
+    translation: string; // Traducción para ayudar a comprender
+    phonetic?: string; // Transcripción fonética opcional
+    audioUrl?: string; // Audio modelo nativo
+  }[];
+  focusPoints: string[]; // Puntos de pronunciación en los que enfocarse
+  difficulty: 'easy' | 'medium' | 'hard';
+  timeLimit?: number; // Tiempo sugerido en segundos
+}
+
 // NUEVOS TIPOS DE EJERCICIOS PARA CAMBRIDGE B2 FIRST (FCE)
 
 export interface KeyWordTransformation {
@@ -163,7 +181,8 @@ export type Exercise =
   | VocabularyExercise
   | KeyWordTransformationExercise
   | WordFormationExercise
-  | MultipleChoiceClozeExercise;
+  | MultipleChoiceClozeExercise
+  | PronunciationPracticeExercise; // NUEVO
 
 export interface Lesson {
   id: string;
