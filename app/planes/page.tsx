@@ -6,8 +6,12 @@ import { useState } from "react";
 import Link from "next/link";
 
 export default function PlanesPage() {
-  const plans = getAllPlans();
+  const allPlans = getAllPlans();
   const [isLoading, setIsLoading] = useState<string | null>(null);
+  const [billingCycle, setBillingCycle] = useState<'month' | 'year'>('year'); // Mostrar anual por defecto
+
+  // Filtrar planes según el ciclo de facturación seleccionado
+  const plans = allPlans.filter(plan => plan.interval === billingCycle);
 
   const handleSubscribe = async (planId: string) => {
     setIsLoading(planId);
@@ -31,8 +35,36 @@ export default function PlanesPage() {
               Elige Tu Plan Perfecto
             </h1>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-              Acceso ilimitado a todos los cursos de inglés. Cancela cuando quieras, sin compromisos.
+              Aprende inglés con los mejores cursos de preparación para exámenes oficiales. Cancela cuando quieras.
             </p>
+
+            {/* Billing Cycle Toggle */}
+            <div className="flex items-center justify-center gap-4 mb-8">
+              <button
+                onClick={() => setBillingCycle('month')}
+                className={`px-6 py-3 rounded-lg font-bold transition-all ${
+                  billingCycle === 'month'
+                    ? 'bg-violet-600 text-white shadow-lg'
+                    : 'bg-white text-slate-700 border-2 border-slate-200'
+                }`}
+              >
+                Mensual
+              </button>
+              <button
+                onClick={() => setBillingCycle('year')}
+                className={`px-6 py-3 rounded-lg font-bold transition-all relative ${
+                  billingCycle === 'year'
+                    ? 'bg-violet-600 text-white shadow-lg'
+                    : 'bg-white text-slate-700 border-2 border-slate-200'
+                }`}
+              >
+                Anual
+                <span className="absolute -top-2 -right-2 bg-green-500 text-white text-xs px-2 py-1 rounded-full font-bold">
+                  Ahorra 11-17%
+                </span>
+              </button>
+            </div>
+
             <div className="flex items-center justify-center gap-4 text-sm text-slate-600">
               <div className="flex items-center gap-2">
                 <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -50,7 +82,7 @@ export default function PlanesPage() {
                 <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>Todos los niveles incluidos</span>
+                <span>Todos los niveles A1-C2</span>
               </div>
             </div>
           </div>
@@ -75,7 +107,7 @@ export default function PlanesPage() {
                   {/* Plan Header */}
                   <div className="mb-6">
                     <div className={`inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-br ${plan.color.gradient} text-white font-black text-2xl mb-4`}>
-                      {plan.id === 'premium' ? '👑' : '📺'}
+                      {plan.id.includes('premium') ? '👑' : '📚'}
                     </div>
                     <h2 className="text-3xl font-black text-slate-900 mb-2">
                       {plan.name}
@@ -85,17 +117,22 @@ export default function PlanesPage() {
                         {formatPrice(plan.price)}
                       </span>
                       <span className="text-slate-600 font-semibold">
-                        / mes
+                        / {plan.interval === 'month' ? 'mes' : 'año'}
                       </span>
                     </div>
-                    {plan.id === 'with-ads' && (
-                      <p className="text-sm text-slate-600 italic">
-                        Incluye publicidad no intrusiva
+                    {plan.interval === 'year' && (
+                      <div className="inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-bold mb-2">
+                        💰 {plan.id.includes('basic') ? 'Ahorra €19.89/año' : 'Ahorra €59.89/año'}
+                      </div>
+                    )}
+                    {plan.id.includes('basic') && (
+                      <p className="text-sm text-slate-600">
+                        Cursos de preparación para exámenes oficiales
                       </p>
                     )}
-                    {plan.id === 'premium' && (
+                    {plan.id.includes('premium') && (
                       <p className="text-sm text-violet-600 font-bold">
-                        ✨ Sin anuncios · Experiencia completa
+                        ✨ Todos los cursos · Especialización profesional · Viajes
                       </p>
                     )}
                   </div>
@@ -175,19 +212,28 @@ export default function PlanesPage() {
             <div className="space-y-4">
               <details className="bg-white rounded-xl p-6 shadow-md border border-slate-200">
                 <summary className="font-bold text-slate-900 cursor-pointer">
-                  ¿Puedo cambiar de plan en cualquier momento?
+                  ¿Qué incluye el plan Básico?
                 </summary>
                 <p className="mt-4 text-slate-600">
-                  Sí, puedes actualizar o cambiar de plan en cualquier momento desde tu área de usuario. Los cambios se aplicarán en tu próximo ciclo de facturación.
+                  El plan Básico incluye acceso completo a los cursos de preparación para exámenes oficiales de inglés (A1 a C2), con material didáctico, ejercicios interactivos y certificados al finalizar cada nivel.
                 </p>
               </details>
 
               <details className="bg-white rounded-xl p-6 shadow-md border border-slate-200">
                 <summary className="font-bold text-slate-900 cursor-pointer">
-                  ¿Cómo funciona la publicidad en el plan con anuncios?
+                  ¿Qué diferencia hay entre el plan Básico y Premium?
                 </summary>
                 <p className="mt-4 text-slate-600">
-                  El plan con publicidad incluye anuncios no intrusivos al inicio de algunas lecciones y en ciertas secciones de la plataforma. Esto nos permite ofrecer el servicio a un precio más accesible.
+                  El plan Premium incluye todo lo del plan Básico, más cursos especializados por sector laboral (negocios, tecnología, medicina, etc.) y el curso de inglés para viajes. También incluye clases en vivo, seguimiento personalizado, material descargable y soporte prioritario.
+                </p>
+              </details>
+
+              <details className="bg-white rounded-xl p-6 shadow-md border border-slate-200">
+                <summary className="font-bold text-slate-900 cursor-pointer">
+                  ¿Cuánto ahorro con el plan anual?
+                </summary>
+                <p className="mt-4 text-slate-600">
+                  Con el plan Básico Anual ahorras €19.89 al año (11% de descuento). Con el plan Premium Anual ahorras €59.89 al año (17% de descuento). El pago anual te da acceso completo durante 12 meses.
                 </p>
               </details>
 
@@ -206,15 +252,6 @@ export default function PlanesPage() {
                 </summary>
                 <p className="mt-4 text-slate-600">
                   Sí, ambos planes incluyen certificados oficiales al completar cada nivel. Los certificados son descargables y verificables online.
-                </p>
-              </details>
-
-              <details className="bg-white rounded-xl p-6 shadow-md border border-slate-200">
-                <summary className="font-bold text-slate-900 cursor-pointer">
-                  ¿Hay descuentos para suscripciones anuales?
-                </summary>
-                <p className="mt-4 text-slate-600">
-                  Actualmente ofrecemos planes mensuales. Si estás interesado en un plan anual con descuento, <Link href="/contact" className="text-violet-600 font-bold hover:underline">contáctanos</Link> y te ofreceremos una oferta personalizada.
                 </p>
               </details>
             </div>

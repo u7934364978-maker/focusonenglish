@@ -19,24 +19,57 @@ export interface SubscriptionPlan {
 }
 
 export const SUBSCRIPTION_PLANS: Record<string, SubscriptionPlan> = {
-  // Plan con Publicidad
-  'with-ads': {
-    id: 'with-ads',
-    name: 'Con Publicidad',
-    price: 699, // €6.99
+  // Plan Básico Mensual
+  'basic-monthly': {
+    id: 'basic-monthly',
+    name: 'Básico Mensual',
+    price: 1499, // €14.99
     currency: 'eur',
     interval: 'month',
     features: [
-      'Acceso a todos los cursos (Viajes, Trabajo, Exámenes)',
+      'Cursos de preparación para exámenes oficiales',
       'Todos los niveles A1 a C2',
       'Material didáctico completo',
       'Ejercicios interactivos',
+      'Seguimiento de progreso',
       'Soporte por email',
       'Certificado al finalizar cada nivel',
     ],
     limitations: [
-      'Incluye anuncios publicitarios',
-      'Máximo 2 sesiones simultáneas',
+      'Solo cursos de exámenes oficiales',
+      'No incluye cursos especializados por sector',
+      'No incluye curso de viajes',
+    ],
+    color: {
+      border: 'border-blue-200',
+      bg: 'bg-blue-50',
+      text: 'text-blue-600',
+      gradient: 'from-blue-500 to-cyan-500',
+    },
+  },
+
+  // Plan Básico Anual (ahorro de ~11%)
+  'basic-yearly': {
+    id: 'basic-yearly',
+    name: 'Básico Anual',
+    price: 15999, // €159.99
+    currency: 'eur',
+    interval: 'year',
+    popular: true,
+    features: [
+      'Cursos de preparación para exámenes oficiales',
+      'Todos los niveles A1 a C2',
+      'Material didáctico completo',
+      'Ejercicios interactivos',
+      'Seguimiento de progreso',
+      'Soporte por email',
+      'Certificado al finalizar cada nivel',
+      '✨ Ahorra €19.89 al año (11% descuento)',
+    ],
+    limitations: [
+      'Solo cursos de exámenes oficiales',
+      'No incluye cursos especializados por sector',
+      'No incluye curso de viajes',
     ],
     color: {
       border: 'border-blue-200',
@@ -46,19 +79,19 @@ export const SUBSCRIPTION_PLANS: Record<string, SubscriptionPlan> = {
     },
   },
   
-  // Plan Premium
-  'premium': {
-    id: 'premium',
-    name: 'Premium',
-    price: 1499, // €14.99
+  // Plan Premium Mensual
+  'premium-monthly': {
+    id: 'premium-monthly',
+    name: 'Premium Mensual',
+    price: 2999, // €29.99
     currency: 'eur',
     interval: 'month',
-    popular: true,
     features: [
-      'Todo lo incluido en el plan con publicidad',
-      'Sin publicidad - Experiencia premium',
-      'Cursos para Viajes, Trabajo y Exámenes',
-      'Cursos especializados por sector profesional',
+      'Todo lo incluido en el plan Básico',
+      'Cursos genéricos de preparación para exámenes oficiales',
+      'Cursos especializados por sector laboral',
+      'Curso de inglés para viajes',
+      'Todos los niveles A1 a C2',
       'Sesiones ilimitadas',
       'Clases en vivo semanales con profesores',
       'Seguimiento personalizado',
@@ -68,6 +101,39 @@ export const SUBSCRIPTION_PLANS: Record<string, SubscriptionPlan> = {
       'Simulacros de exámenes oficiales',
       'Comunidad privada de estudiantes',
       'Prioridad en soporte técnico',
+    ],
+    limitations: [],
+    color: {
+      border: 'border-violet-200',
+      bg: 'bg-violet-50',
+      text: 'text-violet-600',
+      gradient: 'from-violet-600 to-purple-600',
+    },
+  },
+
+  // Plan Premium Anual (ahorro de ~17%)
+  'premium-yearly': {
+    id: 'premium-yearly',
+    name: 'Premium Anual',
+    price: 29999, // €299.99
+    currency: 'eur',
+    interval: 'year',
+    features: [
+      'Todo lo incluido en el plan Básico',
+      'Cursos genéricos de preparación para exámenes oficiales',
+      'Cursos especializados por sector laboral',
+      'Curso de inglés para viajes',
+      'Todos los niveles A1 a C2',
+      'Sesiones ilimitadas',
+      'Clases en vivo semanales con profesores',
+      'Seguimiento personalizado',
+      'Corrección de ejercicios en 24h',
+      'Material descargable en PDF',
+      'Acceso a contenido exclusivo',
+      'Simulacros de exámenes oficiales',
+      'Comunidad privada de estudiantes',
+      'Prioridad en soporte técnico',
+      '✨ Ahorra €59.89 al año (17% descuento)',
     ],
     limitations: [],
     color: {
