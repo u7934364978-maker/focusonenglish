@@ -1,22 +1,6 @@
-import Link from 'next/link';
-import { Metadata } from 'next';
+'use client';
 
-export const metadata: Metadata = {
-  title: 'Focus English - Cursos de Inglés Online en España | Trabajo, Viajes y Exámenes',
-  description: 'Aprende inglés online desde España con cursos especializados para trabajo, viajes y preparación de exámenes oficiales Cambridge, TOEFL e IELTS. Desde €6.99/mes.',
-  keywords: [
-    'cursos de inglés online España',
-    'aprender inglés online España',
-    'clases de inglés España',
-    'inglés para trabajar España',
-    'inglés para viajar',
-    'preparación Cambridge B2 España',
-    'preparación TOEFL España',
-    'preparación IELTS España',
-    'curso inglés b2',
-    'inglés empresarial España',
-  ],
-};
+import Link from 'next/link';
 
 export default function HomePage() {
   return (

@@ -1,0 +1,629 @@
+=== M1L2 - Key Transformations ===
+      {
+        id: 'b2-m1-l2-keytransform-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Conditionals & Inversion',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt1',
+            sentence: 'If I had known about the party, I would have come.',
+            keyWord: 'known',
+            startOfAnswer: 'Had',
+            correctAnswer: 'I known about the',
+            explanation: 'Inversion after "had" in third conditional for emphasis.',
+            points: 2
+          },
+          {
+            id: 'kt2',
+            sentence: 'She doesn\'t speak French, so she can\'t work in Paris.',
+            keyWord: 'if',
+            startOfAnswer: 'She could work',
+            correctAnswer: 'in Paris if she',
+            explanation: 'Second conditional: present unreal condition.',
+            points: 2
+          },
+          {
+            id: 'kt3',
+            sentence: 'I didn\'t bring an umbrella, so I got wet.',
+            keyWord: 'brought',
+            startOfAnswer: 'If I',
+            correctAnswer: 'had brought an umbrella',
+            explanation: 'Third conditional: past unreal condition with result.',
+            points: 2
+          },
+          {
+            id: 'kt4',
+            sentence: 'He rarely goes to the cinema.',
+            keyWord: 'seldom',
+            startOfAnswer: 'Seldom',
+            correctAnswer: 'does he go to',
+            explanation: 'Inversion after negative adverbs (seldom, rarely, never).',
+            points: 2
+          },
+          {
+            id: 'kt5',
+            sentence: 'I have never seen such a beautiful sunset.',
+            keyWord: 'never',
+            startOfAnswer: 'Never',
+            correctAnswer: 'have I seen such',
+            explanation: 'Inversion after "never" for emphasis.',
+            points: 2
+          },
+          {
+            id: 'kt6',
+            sentence: 'If he were taller, he would be a basketball player.',
+            keyWord: 'was',
+            startOfAnswer: 'If he',
+            correctAnswer: 'was taller he would',
+            explanation: 'Mixed conditional: present hypothetical condition.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l2-keytransform-2',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Advanced Conditionals',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt7',
+            sentence: 'I didn\'t save money, so I can\'t buy a car now.',
+            keyWord: 'had',
+            startOfAnswer: 'If I',
+            correctAnswer: 'had saved money I',
+            explanation: 'Mixed conditional: past action affecting present situation.',
+            points: 2
+          },
+          {
+            id: 'kt8',
+            sentence: 'She was rich, so she bought that mansion.',
+            keyWord: 'been',
+            startOfAnswer: 'If she hadn\'t',
+            correctAnswer: 'been rich she wouldn\'t',
+            explanation: 'Third conditional with negative form.',
+            points: 2
+          },
+          {
+            id: 'kt9',
+            sentence: 'Not only did he win the race, but he also broke the record.',
+            keyWord: 'only',
+            startOfAnswer: 'Not only',
+            correctAnswer: 'did he win the',
+            explanation: 'Inversion after "not only" for emphasis.',
+            points: 2
+          },
+          {
+            id: 'kt10',
+            sentence: 'I had hardly started cooking when the guests arrived.',
+            keyWord: 'hardly',
+            startOfAnswer: 'Hardly',
+            correctAnswer: 'had I started cooking',
+            explanation: 'Inversion after "hardly" in past perfect.',
+            points: 2
+          },
+          {
+            id: 'kt11',
+            sentence: 'Unless you study harder, you won\'t pass the exam.',
+            keyWord: 'if',
+            startOfAnswer: 'You won\'t pass',
+            correctAnswer: 'if you don\'t study',
+            explanation: 'Converting "unless" to "if not" in first conditional.',
+            points: 2
+          },
+          {
+            id: 'kt12',
+            sentence: 'Provided that it doesn\'t rain, we\'ll go to the beach.',
+            keyWord: 'long',
+            startOfAnswer: 'As',
+            correctAnswer: 'long as it doesn\'t',
+            explanation: 'Converting "provided that" to "as long as" in conditional.',
+            points: 2
+          }
+        ]
+      },
+
+=== M1L3 - Key Transformations ===
+      {
+        id: 'b2-m1-l3-keytransform-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Passive Voice',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt1',
+            sentence: 'They are repairing the road.',
+            keyWord: 'being',
+            startOfAnswer: 'The road',
+            correctAnswer: 'is being repaired',
+            explanation: 'Present continuous passive: is/are being + past participle.',
+            points: 2
+          },
+          {
+            id: 'kt2',
+            sentence: 'Someone must have stolen my wallet.',
+            keyWord: 'been',
+            startOfAnswer: 'My wallet',
+            correctAnswer: 'must have been stolen',
+            explanation: 'Modal perfect passive: modal + have been + past participle.',
+            points: 2
+          },
+          {
+            id: 'kt3',
+            sentence: 'They say that he is very rich.',
+            keyWord: 'said',
+            startOfAnswer: 'He',
+            correctAnswer: 'is said to be',
+            explanation: 'Impersonal passive with reporting verb.',
+            points: 2
+          },
+          {
+            id: 'kt4',
+            sentence: 'People believe that the treasure is buried here.',
+            keyWord: 'believed',
+            startOfAnswer: 'The treasure',
+            correctAnswer: 'is believed to be',
+            explanation: 'Impersonal passive: the treasure is believed to be.',
+            points: 2
+          },
+          {
+            id: 'kt5',
+            sentence: 'They had already finished the project when I arrived.',
+            keyWord: 'been',
+            startOfAnswer: 'The project',
+            correctAnswer: 'had already been finished',
+            explanation: 'Past perfect passive: had been + past participle.',
+            points: 2
+          },
+          {
+            id: 'kt6',
+            sentence: 'You should clean your room.',
+            keyWord: 'cleaned',
+            startOfAnswer: 'Your room',
+            correctAnswer: 'should be cleaned',
+            explanation: 'Modal passive: should be + past participle.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l3-keytransform-2',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Causative & Advanced Passive',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt7',
+            sentence: 'Someone is cutting my hair tomorrow.',
+            keyWord: 'having',
+            startOfAnswer: 'I am',
+            correctAnswer: 'having my hair cut',
+            explanation: 'Causative: have + object + past participle.',
+            points: 2
+          },
+          {
+            id: 'kt8',
+            sentence: 'A mechanic serviced my car last week.',
+            keyWord: 'had',
+            startOfAnswer: 'I',
+            correctAnswer: 'had my car serviced',
+            explanation: 'Causative in past: had + object + past participle.',
+            points: 2
+          },
+          {
+            id: 'kt9',
+            sentence: 'The doctor will examine you.',
+            keyWord: 'examined',
+            startOfAnswer: 'You',
+            correctAnswer: 'will be examined by',
+            explanation: 'Future passive with agent.',
+            points: 2
+          },
+          {
+            id: 'kt10',
+            sentence: 'They are going to demolish the old building.',
+            keyWord: 'demolished',
+            startOfAnswer: 'The old building',
+            correctAnswer: 'is going to be',
+            explanation: 'Future with "going to" in passive voice.',
+            points: 2
+          },
+          {
+            id: 'kt11',
+            sentence: 'Somebody needs to fix this computer.',
+            keyWord: 'needs',
+            startOfAnswer: 'This computer',
+            correctAnswer: 'needs to be fixed',
+            explanation: 'Passive infinitive: needs to be + past participle.',
+            points: 2
+          },
+          {
+            id: 'kt12',
+            sentence: 'They made him wait for two hours.',
+            keyWord: 'was',
+            startOfAnswer: 'He',
+            correctAnswer: 'was made to wait',
+            explanation: 'Passive causative with "made" requires "to" infinitive.',
+            points: 2
+          }
+        ]
+      },
+
+=== M1L4 - Key Transformations ===
+      {
+        id: 'b2-m1-l4-keytransform-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Cleft Sentences',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt1',
+            sentence: 'I need some rest more than anything.',
+            keyWord: 'what',
+            startOfAnswer: 'What',
+            correctAnswer: 'I need is some',
+            explanation: 'Cleft sentence with "what" for emphasis on object.',
+            points: 2
+          },
+          {
+            id: 'kt2',
+            sentence: 'She won the competition last year.',
+            keyWord: 'was',
+            startOfAnswer: 'It',
+            correctAnswer: 'was last year that',
+            explanation: 'It-cleft to emphasize time (last year).',
+            points: 2
+          },
+          {
+            id: 'kt3',
+            sentence: 'The noise bothers me most.',
+            keyWord: 'what',
+            startOfAnswer: 'What',
+            correctAnswer: 'bothers me most is',
+            explanation: 'What-cleft to emphasize subject.',
+            points: 2
+          },
+          {
+            id: 'kt4',
+            sentence: 'He bought the car in London.',
+            keyWord: 'where',
+            startOfAnswer: 'It was in',
+            correctAnswer: 'London where he bought',
+            explanation: 'It-cleft emphasizing place (where).',
+            points: 2
+          },
+          {
+            id: 'kt5',
+            sentence: 'I really enjoy listening to music.',
+            keyWord: 'what',
+            startOfAnswer: 'What',
+            correctAnswer: 'I really enjoy is',
+            explanation: 'What-cleft emphasizing the activity.',
+            points: 2
+          },
+          {
+            id: 'kt6',
+            sentence: 'John told me about the accident.',
+            keyWord: 'who',
+            startOfAnswer: 'It was',
+            correctAnswer: 'John who told me',
+            explanation: 'It-cleft emphasizing the person (who).',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l4-keytransform-2',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Emphasis & Focus',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt7',
+            sentence: 'I dislike his arrogance the most.',
+            keyWord: 'thing',
+            startOfAnswer: 'The',
+            correctAnswer: 'thing I dislike most',
+            explanation: 'The thing + relative clause for emphasis.',
+            points: 2
+          },
+          {
+            id: 'kt8',
+            sentence: 'We need better communication, not more rules.',
+            keyWord: 'what',
+            startOfAnswer: 'What',
+            correctAnswer: 'we need is better',
+            explanation: 'What-cleft emphasizing the real need.',
+            points: 2
+          },
+          {
+            id: 'kt9',
+            sentence: 'The weather ruined our picnic.',
+            keyWord: 'that',
+            startOfAnswer: 'It was the',
+            correctAnswer: 'weather that ruined our',
+            explanation: 'It-cleft emphasizing the cause.',
+            points: 2
+          },
+          {
+            id: 'kt10',
+            sentence: 'She loves traveling more than anything else.',
+            keyWord: 'thing',
+            startOfAnswer: 'The',
+            correctAnswer: 'thing she loves most',
+            explanation: 'The thing + relative clause structure.',
+            points: 2
+          },
+          {
+            id: 'kt11',
+            sentence: 'They finally understood the problem yesterday.',
+            keyWord: 'when',
+            startOfAnswer: 'It was',
+            correctAnswer: 'yesterday when they finally',
+            explanation: 'It-cleft with "when" emphasizing time.',
+            points: 2
+          },
+          {
+            id: 'kt12',
+            sentence: 'We should focus on quality, not quantity.',
+            keyWord: 'what',
+            startOfAnswer: 'What',
+            correctAnswer: 'we should focus on',
+            explanation: 'What-cleft emphasizing the right focus.',
+            points: 2
+          }
+        ]
+      },
+
+=== M1L5 - Key Transformations ===
+      {
+        id: 'b2-m1-l5-keytransform-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Literary & Critical Language',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt1',
+            sentence: 'The film was so moving that I cried.',
+            keyWord: 'such',
+            startOfAnswer: 'It was',
+            correctAnswer: 'such a moving film',
+            explanation: 'Convert "so + adjective" to "such + a + adjective + noun".',
+            points: 2
+          },
+          {
+            id: 'kt2',
+            sentence: 'The plot is very complex and hard to follow.',
+            keyWord: 'such',
+            startOfAnswer: 'The plot is',
+            correctAnswer: 'of such complexity that',
+            explanation: 'Using "of such + noun" for emphasis.',
+            points: 2
+          },
+          {
+            id: 'kt3',
+            sentence: 'The author describes the scene brilliantly.',
+            keyWord: 'brilliant',
+            startOfAnswer: 'The author\'s',
+            correctAnswer: 'description of the scene',
+            explanation: 'Convert verb to noun form (describes → description).',
+            points: 2
+          },
+          {
+            id: 'kt4',
+            sentence: 'Despite having a simple plot, the novel is engaging.',
+            keyWord: 'although',
+            startOfAnswer: 'Although',
+            correctAnswer: 'the plot is simple',
+            explanation: 'Convert prepositional phrase to clause with "although".',
+            points: 2
+          },
+          {
+            id: 'kt5',
+            sentence: 'The character development is what impressed me most.',
+            keyWord: 'was',
+            startOfAnswer: 'What',
+            correctAnswer: 'impressed me most was',
+            explanation: 'What-cleft for emphasis on subject.',
+            points: 2
+          },
+          {
+            id: 'kt6',
+            sentence: 'She is known for her vivid imagery.',
+            keyWord: 'known',
+            startOfAnswer: 'She',
+            correctAnswer: 'is known to use',
+            explanation: 'Passive reporting structure with infinitive.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l5-keytransform-2',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Review & Opinion Structures',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt7',
+            sentence: 'In my opinion, this is the best book of the year.',
+            keyWord: 'far',
+            startOfAnswer: 'This is',
+            correctAnswer: 'by far the best',
+            explanation: 'Using "by far" to emphasize superlative.',
+            points: 2
+          },
+          {
+            id: 'kt8',
+            sentence: 'The performances were so good that the audience stood up.',
+            keyWord: 'were',
+            startOfAnswer: 'Such',
+            correctAnswer: 'were the performances that',
+            explanation: 'Inversion with "such" for emphasis.',
+            points: 2
+          },
+          {
+            id: 'kt9',
+            sentence: 'I found the ending disappointing.',
+            keyWord: 'disappointed',
+            startOfAnswer: 'I was',
+            correctAnswer: 'disappointed by the ending',
+            explanation: 'Convert adjective to passive voice with emotion.',
+            points: 2
+          },
+          {
+            id: 'kt10',
+            sentence: 'The film didn\'t live up to my expectations.',
+            keyWord: 'as',
+            startOfAnswer: 'The film wasn\'t',
+            correctAnswer: 'as good as I',
+            explanation: 'Using comparative structure with "as...as".',
+            points: 2
+          },
+          {
+            id: 'kt11',
+            sentence: 'It\'s worth reading this book.',
+            keyWord: 'worth',
+            startOfAnswer: 'This book',
+            correctAnswer: 'is worth reading',
+            explanation: 'Subject change with "worth + -ing".',
+            points: 2
+          },
+          {
+            id: 'kt12',
+            sentence: 'I would recommend this film without hesitation.',
+            keyWord: 'hesitate',
+            startOfAnswer: 'I wouldn\'t',
+            correctAnswer: 'hesitate to recommend this',
+            explanation: 'Convert phrase to verb structure.',
+            points: 2
+          }
+        ]
+      },
+
+=== M1L6 - Key Transformations ===
+      {
+        id: 'b2-m1-l6-keytransform-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Module 1 Review (Part 1)',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt1',
+            sentence: 'By the time I arrived, they had already left.',
+            keyWord: 'left',
+            startOfAnswer: 'They had',
+            correctAnswer: 'already left by the',
+            explanation: 'Past perfect for action completed before another past action.',
+            points: 2
+          },
+          {
+            id: 'kt2',
+            sentence: 'If I were you, I would accept the offer.',
+            keyWord: 'place',
+            startOfAnswer: 'If I were',
+            correctAnswer: 'in your place I',
+            explanation: 'Alternative expression for "if I were you".',
+            points: 2
+          },
+          {
+            id: 'kt3',
+            sentence: 'The company is building a new factory.',
+            keyWord: 'being',
+            startOfAnswer: 'A new factory',
+            correctAnswer: 'is being built by',
+            explanation: 'Present continuous passive with agent.',
+            points: 2
+          },
+          {
+            id: 'kt4',
+            sentence: 'She succeeded because of her determination.',
+            keyWord: 'was',
+            startOfAnswer: 'It',
+            correctAnswer: 'was her determination that',
+            explanation: 'It-cleft emphasizing the cause.',
+            points: 2
+          },
+          {
+            id: 'kt5',
+            sentence: 'I haven\'t been to Paris for five years.',
+            keyWord: 'since',
+            startOfAnswer: 'It',
+            correctAnswer: 'is five years since',
+            explanation: 'Time expression with "it is...since".',
+            points: 2
+          },
+          {
+            id: 'kt6',
+            sentence: 'You must hand in your assignment by Friday.',
+            keyWord: 'handed',
+            startOfAnswer: 'Your assignment',
+            correctAnswer: 'must be handed in',
+            explanation: 'Modal passive obligation.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l6-keytransform-2',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Module 1 Review (Part 2)',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt7',
+            sentence: 'I regret not learning to play the piano.',
+            keyWord: 'wish',
+            startOfAnswer: 'I',
+            correctAnswer: 'wish I had learned',
+            explanation: 'Wish + past perfect for past regret.',
+            points: 2
+          },
+          {
+            id: 'kt8',
+            sentence: 'He is certain to win the competition.',
+            keyWord: 'will',
+            startOfAnswer: 'He',
+            correctAnswer: 'will definitely win the',
+            explanation: 'Converting certainty expression to future with adverb.',
+            points: 2
+          },
+          {
+            id: 'kt9',
+            sentence: 'No sooner had we started the meeting than the fire alarm rang.',
+            keyWord: 'hardly',
+            startOfAnswer: 'We had',
+            correctAnswer: 'hardly started the meeting',
+            explanation: 'Converting "no sooner" to "hardly" with same meaning.',
+            points: 2
+          },
+          {
+            id: 'kt10',
+            sentence: 'The main problem is lack of funding.',
+            keyWord: 'needs',
+            startOfAnswer: 'What',
+            correctAnswer: 'we need is more',
+            explanation: 'What-cleft converting problem to need.',
+            points: 2
+          },
+          {
+            id: 'kt11',
+            sentence: 'Someone should have told me about the changes.',
+            keyWord: 'been',
+            startOfAnswer: 'I should',
+            correctAnswer: 'have been told about',
+            explanation: 'Modal perfect passive.',
+            points: 2
+          },
+          {
+            id: 'kt12',
+            sentence: 'Despite being tired, she finished the project.',
+            keyWord: 'though',
+            startOfAnswer: 'Even',
+            correctAnswer: 'though she was tired',
+            explanation: 'Converting prepositional phrase to clause.',
+            points: 2
+          }
+        ]
+      },
