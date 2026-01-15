@@ -3404,6 +3404,87 @@ export const MODULE_3_LESSONS: Lesson[] = [
           'Avoid filler words (like, you know, etc.)',
           'End with: "Thank you for your attention. Are there any questions?"'
         ]
+      },
+      {
+        id: 'b2-m3-l1-cloze-1',
+        type: 'multiple-choice-cloze',
+        title: 'Multiple Choice Cloze: Professional Email Etiquette',
+        text: `In today's business world, email remains a primary form of professional communication. However, many people (1)_____ to follow basic email etiquette, which can damage their professional reputation. The first rule is to always (2)_____ a clear, descriptive subject line that accurately reflects the content of your message. When addressing recipients, it's important to (3)_____ the appropriate level of formality. While "Hi" might be acceptable for colleagues you know well, more formal greetings are (4)_____ when writing to senior management or external clients. The body of the email should be concise and well-organized, (5)_____ the main point early. Many professionals (6)_____ the mistake of writing lengthy emails that bury important information. Before sending, always (7)_____ your message for spelling and grammar errors. Finally, remember that tone can be difficult to (8)_____ in written communication, so choose your words carefully to avoid misunderstandings.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '1. _____',
+            options: ['fail', 'miss', 'lose', 'lack'],
+            correctAnswer: 'fail',
+            explanation: '"Fail to" means not succeed in doing something, the correct pattern for this context.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: '2. _____',
+            options: ['include', 'contain', 'comprise', 'consist'],
+            correctAnswer: 'include',
+            explanation: '"Include" is the most natural verb for adding something as a component.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: '3. _____',
+            options: ['employ', 'apply', 'use', 'utilize'],
+            correctAnswer: 'use',
+            explanation: '"Use" is the most straightforward and appropriate verb in this business context.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '4. _____',
+            options: ['required', 'demanded', 'necessary', 'compulsory'],
+            correctAnswer: 'required',
+            explanation: '"Required" means needed or expected in the context of professional standards.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: '5. _____',
+            options: ['stating', 'saying', 'telling', 'speaking'],
+            correctAnswer: 'stating',
+            explanation: '"Stating" means expressing something clearly and formally, fitting the professional context.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: '6. _____',
+            options: ['do', 'make', 'take', 'have'],
+            correctAnswer: 'make',
+            explanation: '"Make a/the mistake" is the correct collocation.',
+            points: 1
+          },
+          {
+            id: 'q7',
+            type: 'multiple-choice',
+            question: '7. _____',
+            options: ['proofread', 'review', 'check', 'revise'],
+            correctAnswer: 'proofread',
+            explanation: '"Proofread" specifically means to check for spelling and grammar errors.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            type: 'multiple-choice',
+            question: '8. _____',
+            options: ['convey', 'express', 'communicate', 'transmit'],
+            correctAnswer: 'convey',
+            explanation: '"Convey" means to communicate or make known, especially tone or feelings.',
+            points: 1
+          }
+        ],
+        focusAreas: ['Business vocabulary', 'Collocations', 'Formal writing']
       }
     ]
   },
@@ -3737,6 +3818,87 @@ Thank you for your attention. I'd be happy to take any questions.`,
           'Make clear recommendations',
           'Use passive voice where appropriate'
         ]
+      },
+      {
+        id: 'b2-m3-l3-cloze-1',
+        type: 'multiple-choice-cloze',
+        title: 'Multiple Choice Cloze: Academic Research and Writing',
+        text: `Academic writing requires precision, clarity, and rigorous attention to detail. When (1)_____ research, scholars must carefully evaluate sources to ensure they are reliable and relevant. The research process typically begins with formulating a clear hypothesis or research question. Researchers then (2)_____ a comprehensive literature review to understand what has already been published on the topic. This step is crucial because it helps identify (3)_____ in current knowledge and establishes the context for new research. Data collection methods must be carefully chosen and (4)_____ implemented to ensure valid results. Once data has been gathered, it must be systematically analyzed and interpreted. Research findings should be presented objectively, (5)_____ personal biases or opinions. When drawing conclusions, it's important to acknowledge any (6)_____ of the study. Finally, researchers must properly (7)_____ all sources to give credit to previous work and allow readers to verify information. Failing to do so can result in accusations of plagiarism, which can seriously (8)_____ an academic's reputation and career.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '1. _____',
+            options: ['conducting', 'making', 'doing', 'performing'],
+            correctAnswer: 'conducting',
+            explanation: '"Conducting research" is the standard academic collocation.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: '2. _____',
+            options: ['conduct', 'make', 'do', 'perform'],
+            correctAnswer: 'conduct',
+            explanation: '"Conduct a literature review" is the correct academic phrase.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: '3. _____',
+            options: ['gaps', 'holes', 'spaces', 'lacks'],
+            correctAnswer: 'gaps',
+            explanation: '"Gaps in knowledge" is the standard academic expression for missing areas of research.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '4. _____',
+            options: ['strictly', 'rigorously', 'strongly', 'firmly'],
+            correctAnswer: 'rigorously',
+            explanation: '"Rigorously implemented" means executed with extreme thoroughness and care.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: '5. _____',
+            options: ['avoiding', 'preventing', 'escaping', 'evading'],
+            correctAnswer: 'avoiding',
+            explanation: '"Avoiding" is the most straightforward and appropriate word for staying away from something.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: '6. _____',
+            options: ['limitations', 'restrictions', 'constraints', 'boundaries'],
+            correctAnswer: 'limitations',
+            explanation: '"Limitations of a study" is the standard academic term for acknowledging weaknesses.',
+            points: 1
+          },
+          {
+            id: 'q7',
+            type: 'multiple-choice',
+            question: '7. _____',
+            options: ['cite', 'quote', 'reference', 'mention'],
+            correctAnswer: 'cite',
+            explanation: '"Cite sources" is the correct academic term for providing references.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            type: 'multiple-choice',
+            question: '8. _____',
+            options: ['damage', 'harm', 'hurt', 'injure'],
+            correctAnswer: 'damage',
+            explanation: '"Damage reputation" is the correct collocation for harming one\'s professional standing.',
+            points: 1
+          }
+        ],
+        focusAreas: ['Academic collocations', 'Research vocabulary', 'Formal register']
       }
     ]
   },
@@ -4374,6 +4536,87 @@ James: Excellent. Thank you both for being so collaborative. This is a good exam
           'End positively, suggesting next steps',
           'Maintain professional, respectful tone throughout'
         ]
+      },
+      {
+        id: 'b2-m3-l5-cloze-1',
+        type: 'multiple-choice-cloze',
+        title: 'Multiple Choice Cloze: Workplace Communication Challenges',
+        text: `Effective communication in the workplace is essential for success, yet many organizations (1)_____ to create an environment where open dialogue can flourish. One common obstacle is the fear of speaking up, particularly when it (2)_____ to challenging established practices or questioning decisions made by senior management. Employees may worry about the potential (3)_____ of being perceived as difficult or negative. To address this issue, leaders must actively (4)_____ a culture where constructive criticism is welcomed and valued. This involves not only (5)_____ that employees can express concerns, but also demonstrating through actions that their input will be taken seriously. Regular feedback sessions and anonymous suggestion systems can help (6)_____ down communication barriers. However, it's equally important to establish clear guidelines about appropriate communication channels and professional conduct. When disagreements (7)_____, they should be handled promptly and respectfully, with a focus on finding solutions rather than assigning blame. By creating an atmosphere of mutual respect and trust, organizations can ensure that communication (8)_____ as a tool for improvement rather than a source of conflict.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '1. _____',
+            options: ['struggle', 'fight', 'battle', 'compete'],
+            correctAnswer: 'struggle',
+            explanation: '"Struggle to" means find it difficult to do something, fitting the context of workplace challenges.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: '2. _____',
+            options: ['comes', 'goes', 'gets', 'turns'],
+            correctAnswer: 'comes',
+            explanation: '"When it comes to" is an idiom meaning regarding or concerning a particular matter.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: '3. _____',
+            options: ['consequences', 'results', 'outcomes', 'effects'],
+            correctAnswer: 'consequences',
+            explanation: '"Consequences" suggests negative results, fitting the context of workplace fears.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '4. _____',
+            options: ['foster', 'grow', 'develop', 'raise'],
+            correctAnswer: 'foster',
+            explanation: '"Foster a culture" means to encourage and promote the development of something.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: '5. _____',
+            options: ['ensuring', 'assuring', 'securing', 'guaranteeing'],
+            correctAnswer: 'ensuring',
+            explanation: '"Ensuring" means making certain that something happens, the most appropriate choice.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: '6. _____',
+            options: ['break', 'tear', 'pull', 'knock'],
+            correctAnswer: 'break',
+            explanation: '"Break down barriers" is the correct phrasal verb meaning to remove obstacles.',
+            points: 1
+          },
+          {
+            id: 'q7',
+            type: 'multiple-choice',
+            question: '7. _____',
+            options: ['arise', 'raise', 'rise', 'occur'],
+            correctAnswer: 'arise',
+            explanation: '"Arise" means to come into being or appear, appropriate for disagreements emerging.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            type: 'multiple-choice',
+            question: '8. _____',
+            options: ['serves', 'works', 'acts', 'operates'],
+            correctAnswer: 'serves',
+            explanation: '"Serves as" means functions as or acts in the role of something.',
+            points: 1
+          }
+        ],
+        focusAreas: ['Business phrasal verbs', 'Workplace collocations', 'Professional communication']
       }
     ]
   },
