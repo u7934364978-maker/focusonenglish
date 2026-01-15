@@ -18,17 +18,17 @@ keywords: ["preparación Cambridge", "preparación TOEFL", "preparación IELTS",
       Más de <strong>2,500 estudiantes</strong> han conseguido su certificación siguiendo nuestro método probado. Cambridge, TOEFL o IELTS: tú eliges el destino, nosotros te damos el mapa.
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-bottom: 30px;">
-      <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 10px; text-align: center; backdrop-filter: blur(10px);">
+      <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 20px; border-radius: 10px; text-align: center; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); min-height: 50px;">
         <div style="font-size: 2.5em; margin-bottom: 8px;">✅</div>
         <div style="font-weight: 600; font-size: 1.1em;">Método Probado</div>
         <div style="font-size: 0.9em; opacity: 0.9;">Plan de 12 semanas</div>
       </div>
-      <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 10px; text-align: center; backdrop-filter: blur(10px);">
+      <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 20px; border-radius: 10px; text-align: center; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); min-height: 50px;">
         <div style="font-size: 2.5em; margin-bottom: 8px;">🎓</div>
         <div style="font-weight: 600; font-size: 1.1em;">Contenido Oficial</div>
         <div style="font-size: 0.9em; opacity: 0.9;">Basado en criterios reales</div>
       </div>
-      <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 10px; text-align: center; backdrop-filter: blur(10px);">
+      <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 20px; border-radius: 10px; text-align: center; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); min-height: 50px;">
         <div style="font-size: 2.5em; margin-bottom: 8px;">⚡</div>
         <div style="font-weight: 600; font-size: 1.1em;">Resultados Rápidos</div>
         <div style="font-size: 0.9em; opacity: 0.9;">Desde €6.99/mes</div>
@@ -38,7 +38,7 @@ keywords: ["preparación Cambridge", "preparación TOEFL", "preparación IELTS",
       <a href="/diagnostico" style="display: inline-block; background: white; color: #667eea; padding: 18px 40px; border-radius: 50px; font-weight: 700; font-size: 1.15em; text-decoration: none; box-shadow: 0 8px 20px rgba(0,0,0,0.2); transition: transform 0.3s; margin-right: 15px;">
         🎯 Evalúa Tu Nivel Gratis
       </a>
-      <a href="/cursos/examenes/b2" style="display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 18px 40px; border-radius: 50px; font-weight: 700; font-size: 1.15em; text-decoration: none; border: 2px solid white; backdrop-filter: blur(10px); transition: transform 0.3s;">
+      <a href="/cursos/examenes/b2" style="display: inline-block; background: #f0f0f0; background: rgba(255,255,255,0.2); color: white; padding: 18px 40px; border-radius: 50px; font-weight: 700; font-size: 1.15em; text-decoration: none; border: 2px solid white; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); transition: transform 0.3s;">
         📚 Ver Cursos
       </a>
     </div>
@@ -62,7 +62,7 @@ En esta guía completa descubrirás:
 ✅ **Errores fatales** que debes evitar (aprendidos de +2,500 estudiantes)  
 
 <div style="background: #fef3c7; padding: 20px; border-radius: 10px; border-left: 4px solid #f59e0b; margin: 25px 0;">
-  <div style="display: flex; align-items: center; gap: 15px;">
+  <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 15px;">
     <div style="font-size: 2.5em;">⚡</div>
     <div>
       <div style="font-weight: 700; color: #92400e; font-size: 1.15em; margin-bottom: 5px;">
@@ -862,7 +862,7 @@ Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo
 
 <!-- Nota Introductoria -->
 <div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 20px; border-radius: 12px; margin-bottom: 30px; border-left: 5px solid #f59e0b;">
-  <div style="display: flex; align-items: start; gap: 15px;">
+  <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: start; gap: 15px;">
     <div style="font-size: 2.5em;">⚠️</div>
     <div>
       <h4 style="margin: 0 0 10px 0; color: #92400e; font-size: 1.2em;">Sí, pero con matices importantes</h4>
@@ -882,7 +882,7 @@ Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo
     
     <!-- Conversión 1: Cambridge B2 First -->
     <div style="background: white; padding: 25px; border-radius: 12px; border-left: 6px solid #3b82f6;">
-      <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
         <div style="background: #dbeafe; padding: 15px; border-radius: 10px; min-width: 60px; text-align: center;">
           <div style="font-size: 1.8em;">🎓</div>
         </div>
@@ -915,7 +915,7 @@ Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo
     
     <!-- Conversión 2: TOEFL 100 -->
     <div style="background: white; padding: 25px; border-radius: 12px; border-left: 6px solid #8b5cf6;">
-      <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
         <div style="background: #f3e8ff; padding: 15px; border-radius: 10px; min-width: 60px; text-align: center;">
           <div style="font-size: 1.8em;">🇺🇸</div>
         </div>
@@ -948,7 +948,7 @@ Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo
     
     <!-- Conversión 3: IELTS 7.5 -->
     <div style="background: white; padding: 25px; border-radius: 12px; border-left: 6px solid #10b981;">
-      <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
         <div style="background: #d1fae5; padding: 15px; border-radius: 10px; min-width: 60px; text-align: center;">
           <div style="font-size: 1.8em;">🌍</div>
         </div>
@@ -984,7 +984,7 @@ Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo
 
 <!-- Consejo Final -->
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="display: flex; align-items: start; gap: 15px;">
+  <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: start; gap: 15px;">
     <div style="font-size: 2.5em;">💡</div>
     <div>
       <h4 style="margin: 0 0 12px 0; color: white; font-size: 1.2em;">Consejo de Oro</h4>
@@ -992,7 +992,7 @@ Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo
         Si una institución acepta varios exámenes, <strong>elige el que mejor se adapte a tus fortalezas</strong>, 
         no solo el que "parece más fácil" por las equivalencias. 
       </p>
-      <div style="margin-top: 15px; padding: 15px; background: rgba(255,255,255,0.15); border-radius: 8px;">
+      <div style="margin-top: 15px; padding: 15px; background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); border-radius: 8px;">
         <div style="color: white; font-size: 0.95em; line-height: 1.6;">
           <strong>Ejemplo:</strong> Si eres bueno en gramática → Cambridge | Si prefieres comprensión académica → TOEFL | 
           Si te gusta la conversación natural → IELTS
@@ -1019,17 +1019,17 @@ Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo
     </div>
     
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px;">
-      <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 12px; backdrop-filter: blur(10px); text-align: center;">
+      <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 25px; border-radius: 12px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); text-align: center;">
         <div style="font-size: 2.5em; margin-bottom: 10px;">📊</div>
         <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 8px; color: white;">Test de Diagnóstico</div>
         <div style="font-size: 0.95em; opacity: 0.9; color: white;">Descubre tu nivel actual en 15 minutos</div>
       </div>
-      <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 12px; backdrop-filter: blur(10px); text-align: center;">
+      <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 25px; border-radius: 12px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); text-align: center;">
         <div style="font-size: 2.5em; margin-bottom: 10px;">🎓</div>
         <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 8px; color: white;">Cursos Estructurados</div>
         <div style="font-size: 0.95em; opacity: 0.9; color: white;">A1 hasta C2, Cambridge y TOEFL</div>
       </div>
-      <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 12px; backdrop-filter: blur(10px); text-align: center;">
+      <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 25px; border-radius: 12px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); text-align: center;">
         <div style="font-size: 2.5em; margin-bottom: 10px;">⚡</div>
         <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 8px; color: white;">Desde €6.99/mes</div>
         <div style="font-size: 0.95em; opacity: 0.9; color: white;">Acceso completo a todos los niveles</div>
@@ -1040,7 +1040,7 @@ Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo
       <a href="/diagnostico" style="display: inline-block; background: white; color: #10b981; padding: 18px 45px; border-radius: 50px; font-weight: 700; font-size: 1.15em; text-decoration: none; box-shadow: 0 8px 20px rgba(0,0,0,0.25); margin: 0 10px 10px 10px; transition: transform 0.3s;">
         🎯 Empezar Test Gratis
       </a>
-      <a href="/cursos-especializados" style="display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 18px 45px; border-radius: 50px; font-weight: 700; font-size: 1.15em; text-decoration: none; border: 2px solid white; backdrop-filter: blur(10px); margin: 0 10px 10px 10px; transition: transform 0.3s;">
+      <a href="/cursos-especializados" style="display: inline-block; background: #f0f0f0; background: rgba(255,255,255,0.2); color: white; padding: 18px 45px; border-radius: 50px; font-weight: 700; font-size: 1.15em; text-decoration: none; border: 2px solid white; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); margin: 0 10px 10px 10px; transition: transform 0.3s;">
         📚 Ver Todos los Cursos
       </a>
     </div>
@@ -1079,7 +1079,7 @@ El examen se divide en **4 partes** que evalúan tus habilidades de forma integr
 
 <!-- Parte 1: Reading & Use of English -->
 <div style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+  <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
     <div style="background: white; padding: 15px; border-radius: 12px; min-width: 70px; text-align: center;">
       <div style="font-size: 2.5em;">📖</div>
     </div>
@@ -1147,7 +1147,7 @@ El examen se divide en **4 partes** que evalúan tus habilidades de forma integr
 
 <!-- Parte 2: Writing -->
 <div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+  <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
     <div style="background: white; padding: 15px; border-radius: 12px; min-width: 70px; text-align: center;">
       <div style="font-size: 2.5em;">✍️</div>
     </div>
@@ -1227,7 +1227,7 @@ El examen se divide en **4 partes** que evalúan tus habilidades de forma integr
 
 <!-- Parte 3: Listening -->
 <div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+  <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
     <div style="background: white; padding: 15px; border-radius: 12px; min-width: 70px; text-align: center;">
       <div style="font-size: 2.5em;">🎧</div>
     </div>
@@ -1275,7 +1275,7 @@ El examen se divide en **4 partes** que evalúan tus habilidades de forma integr
 
 <!-- Parte 4: Speaking -->
 <div style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+  <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
     <div style="background: white; padding: 15px; border-radius: 12px; min-width: 70px; text-align: center;">
       <div style="font-size: 2.5em;">💬</div>
     </div>
@@ -1541,7 +1541,7 @@ La preparación TOEFL requiere un enfoque específico porque este examen evalúa
 
 <!-- Nota Importante -->
 <div style="background: #fef3c7; padding: 20px; border-radius: 10px; border-left: 5px solid #f59e0b; margin-bottom: 20px;">
-  <div style="display: flex; align-items: start; gap: 15px;">
+  <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: start; gap: 15px;">
     <div style="font-size: 2em;">📌</div>
     <div>
       <h5 style="margin: 0 0 10px 0; color: #d97706; font-size: 1.1em;">Importante: Mínimos por Sección</h5>
@@ -1697,9 +1697,9 @@ La preparación IELTS tiene una filosofía única: evaluar tu capacidad para **c
     
     <!-- Banda 9.0 -->
     <div style="padding: 20px 25px; border-bottom: 1px solid #e5e7eb; background: linear-gradient(90deg, #fef3c7 0%, white 100%);">
-      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
-        <div style="display: flex; align-items: center; gap: 15px; flex: 1; min-width: 200px;">
-          <div style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); color: white; width: 70px; height: 70px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.8em; box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);">
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 15px; flex: 1; min-width: 200px;">
+          <div style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); color: white; width: 70px; height: 70px; border-radius: 12px; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.8em; box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);">
             9.0
           </div>
           <div style="flex: 1;">
@@ -1715,9 +1715,9 @@ La preparación IELTS tiene una filosofía única: evaluar tu capacidad para **c
     
     <!-- Banda 8.0-8.5 -->
     <div style="padding: 20px 25px; border-bottom: 1px solid #e5e7eb;">
-      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
-        <div style="display: flex; align-items: center; gap: 15px; flex: 1; min-width: 200px;">
-          <div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); color: white; width: 70px; height: 70px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; font-size: 1.5em; box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3); line-height: 1.1;">
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 15px; flex: 1; min-width: 200px;">
+          <div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); color: white; width: 70px; height: 70px; border-radius: 12px; display: -webkit-box; display: -webkit-flex; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; font-size: 1.5em; box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3); line-height: 1.1;">
             <div>8.0</div>
             <div style="font-size: 0.6em;">8.5</div>
           </div>
@@ -1734,9 +1734,9 @@ La preparación IELTS tiene una filosofía única: evaluar tu capacidad para **c
     
     <!-- Banda 7.0-7.5 -->
     <div style="padding: 20px 25px; border-bottom: 1px solid #e5e7eb;">
-      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
-        <div style="display: flex; align-items: center; gap: 15px; flex: 1; min-width: 200px;">
-          <div style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); color: white; width: 70px; height: 70px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; font-size: 1.5em; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3); line-height: 1.1;">
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 15px; flex: 1; min-width: 200px;">
+          <div style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); color: white; width: 70px; height: 70px; border-radius: 12px; display: -webkit-box; display: -webkit-flex; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; font-size: 1.5em; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3); line-height: 1.1;">
             <div>7.0</div>
             <div style="font-size: 0.6em;">7.5</div>
           </div>
@@ -1753,9 +1753,9 @@ La preparación IELTS tiene una filosofía única: evaluar tu capacidad para **c
     
     <!-- Banda 6.0-6.5 (MÁS COMÚN) -->
     <div style="padding: 20px 25px; border-bottom: 1px solid #e5e7eb; background: linear-gradient(90deg, #dcfce7 0%, white 100%);">
-      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
-        <div style="display: flex; align-items: center; gap: 15px; flex: 1; min-width: 200px;">
-          <div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; width: 70px; height: 70px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; font-size: 1.5em; box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3); line-height: 1.1;">
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 15px; flex: 1; min-width: 200px;">
+          <div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; width: 70px; height: 70px; border-radius: 12px; display: -webkit-box; display: -webkit-flex; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; font-size: 1.5em; box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3); line-height: 1.1;">
             <div>6.0</div>
             <div style="font-size: 0.6em;">6.5</div>
           </div>
@@ -1772,9 +1772,9 @@ La preparación IELTS tiene una filosofía única: evaluar tu capacidad para **c
     
     <!-- Banda 5.0-5.5 -->
     <div style="padding: 20px 25px;">
-      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
-        <div style="display: flex; align-items: center; gap: 15px; flex: 1; min-width: 200px;">
-          <div style="background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%); color: white; width: 70px; height: 70px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; font-size: 1.5em; box-shadow: 0 4px 12px rgba(107, 114, 128, 0.3); line-height: 1.1;">
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 15px; flex: 1; min-width: 200px;">
+          <div style="background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%); color: white; width: 70px; height: 70px; border-radius: 12px; display: -webkit-box; display: -webkit-flex; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; font-size: 1.5em; box-shadow: 0 4px 12px rgba(107, 114, 128, 0.3); line-height: 1.1;">
             <div>5.0</div>
             <div style="font-size: 0.6em;">5.5</div>
           </div>
@@ -1792,8 +1792,8 @@ La preparación IELTS tiene una filosofía única: evaluar tu capacidad para **c
   </div>
   
   <!-- Tip Box -->
-  <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 12px; margin-top: 20px; backdrop-filter: blur(10px); border: 2px solid rgba(255,255,255,0.3);">
-    <div style="display: flex; align-items: start; gap: 15px;">
+  <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 20px; border-radius: 12px; margin-top: 20px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); min-height: 50px; border: 2px solid rgba(255,255,255,0.3);">
+    <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: start; gap: 15px;">
       <div style="font-size: 2em;">💡</div>
       <div style="color: white; line-height: 1.6;">
         <div style="font-weight: 700; font-size: 1.1em; margin-bottom: 8px;">Tip Clave de Preparación IELTS</div>
@@ -1825,19 +1825,19 @@ La preparación IELTS tiene una filosofía única: evaluar tu capacidad para **c
       <div style="font-size: 0.95em; opacity: 0.9;">Para estudios universitarios y registro profesional</div>
     </div>
     
-    <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
+    <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 20px; border-radius: 12px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);">
       <div style="font-weight: 700; font-size: 1.1em; margin-bottom: 15px;">✅ Elige Academic si:</div>
       <div style="display: grid; gap: 12px;">
-        <div style="display: flex; align-items: start; gap: 10px;">
-          <div style="background: white; color: #3b82f6; width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">1</div>
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: start; gap: 10px;">
+          <div style="background: white; color: #3b82f6; width: 24px; height: 24px; border-radius: 6px; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">1</div>
           <div style="line-height: 1.5;">Vas a estudiar un grado o posgrado</div>
         </div>
-        <div style="display: flex; align-items: start; gap: 10px;">
-          <div style="background: white; color: #3b82f6; width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">2</div>
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: start; gap: 10px;">
+          <div style="background: white; color: #3b82f6; width: 24px; height: 24px; border-radius: 6px; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">2</div>
           <div style="line-height: 1.5;">Necesitas registro profesional (médicos, enfermeras)</div>
         </div>
-        <div style="display: flex; align-items: start; gap: 10px;">
-          <div style="background: white; color: #3b82f6; width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">3</div>
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: start; gap: 10px;">
+          <div style="background: white; color: #3b82f6; width: 24px; height: 24px; border-radius: 6px; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">3</div>
           <div style="line-height: 1.5;">Tu universidad específicamente pide "Academic"</div>
         </div>
       </div>
@@ -1852,23 +1852,23 @@ La preparación IELTS tiene una filosofía única: evaluar tu capacidad para **c
       <div style="font-size: 0.95em; opacity: 0.9;">Para inmigración, trabajo y experiencia laboral</div>
     </div>
     
-    <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
+    <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 20px; border-radius: 12px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);">
       <div style="font-weight: 700; font-size: 1.1em; margin-bottom: 15px;">✅ Elige General Training si:</div>
       <div style="display: grid; gap: 12px;">
-        <div style="display: flex; align-items: start; gap: 10px;">
-          <div style="background: white; color: #10b981; width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">1</div>
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: start; gap: 10px;">
+          <div style="background: white; color: #10b981; width: 24px; height: 24px; border-radius: 6px; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">1</div>
           <div style="line-height: 1.5;">Aplicas a residencia permanente (Canadá, Australia, Nueva Zelanda)</div>
         </div>
-        <div style="display: flex; align-items: start; gap: 10px;">
-          <div style="background: white; color: #10b981; width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">2</div>
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: start; gap: 10px;">
+          <div style="background: white; color: #10b981; width: 24px; height: 24px; border-radius: 6px; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">2</div>
           <div style="line-height: 1.5;">Vas a trabajar (no estudiar)</div>
         </div>
-        <div style="display: flex; align-items: start; gap: 10px;">
-          <div style="background: white; color: #10b981; width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">3</div>
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: start; gap: 10px;">
+          <div style="background: white; color: #10b981; width: 24px; height: 24px; border-radius: 6px; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">3</div>
           <div style="line-height: 1.5;">Necesitas visa de trabajo</div>
         </div>
-        <div style="display: flex; align-items: start; gap: 10px;">
-          <div style="background: white; color: #10b981; width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">4</div>
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: start; gap: 10px;">
+          <div style="background: white; color: #10b981; width: 24px; height: 24px; border-radius: 6px; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">4</div>
           <div style="line-height: 1.5;">Harás estudios no universitarios (cursos técnicos)</div>
         </div>
       </div>
@@ -1879,7 +1879,7 @@ La preparación IELTS tiene una filosofía única: evaluar tu capacidad para **c
 
 <!-- Nota Importante -->
 <div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 25px; border-radius: 12px; border-left: 5px solid #f59e0b; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
-  <div style="display: flex; align-items: start; gap: 15px;">
+  <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: start; gap: 15px;">
     <div style="font-size: 2.5em;">📌</div>
     <div>
       <div style="font-weight: 700; color: #92400e; font-size: 1.15em; margin-bottom: 8px;">Importante: ¿Cuál es la Diferencia Real?</div>
@@ -1900,7 +1900,7 @@ La preparación IELTS tiene una filosofía única: evaluar tu capacidad para **c
 
 <!-- Listening -->
 <div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+  <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
     <div style="background: white; padding: 15px; border-radius: 12px; min-width: 70px; text-align: center;">
       <div style="font-size: 2.5em;">🎧</div>
     </div>
@@ -1957,7 +1957,7 @@ La preparación IELTS tiene una filosofía única: evaluar tu capacidad para **c
 
 <!-- Reading -->
 <div style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+  <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
     <div style="background: white; padding: 15px; border-radius: 12px; min-width: 70px; text-align: center;">
       <div style="font-size: 2.5em;">📖</div>
     </div>
@@ -2068,7 +2068,7 @@ You should say:
 <!-- CTA de Conversión Estratégico #2 -->
 <div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); padding: 40px 30px; border-radius: 15px; margin: 40px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
   <div style="max-width: 900px; margin: 0 auto;">
-    <div style="display: flex; align-items: center; gap: 30px; flex-wrap: wrap;">
+    <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 30px; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px; color: white;">
         <div style="font-size: 2em; font-weight: 700; margin-bottom: 15px; line-height: 1.2;">
           🚀 ¿Listo para Pasar de la Teoría a la Acción?
@@ -2076,7 +2076,7 @@ You should say:
         <div style="font-size: 1.1em; margin-bottom: 20px; opacity: 0.95; line-height: 1.6;">
           Ya conoces la estructura de cada examen. Ahora necesitas un <strong>plan de acción personalizado</strong> que te lleve del punto A (tu nivel actual) al punto B (tu puntuación objetivo).
         </div>
-        <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 10px; margin-bottom: 20px; backdrop-filter: blur(10px);">
+        <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 20px; border-radius: 10px; margin-bottom: 20px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); min-height: 50px;">
           <div style="font-weight: 600; margin-bottom: 12px; font-size: 1.1em;">✅ En nuestros cursos obtendrás:</div>
           <div style="display: grid; gap: 8px; font-size: 0.95em;">
             <div>• 📊 Test de diagnóstico preciso</div>
@@ -2297,23 +2297,23 @@ Esta es la fase final de tu preparación Cambridge, preparación TOEFL o prepara
       </table>
     </div>
     
-    <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 10px; margin-top: 20px; backdrop-filter: blur(10px);">
+    <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 20px; border-radius: 10px; margin-top: 20px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); min-height: 50px;">
       <div style="color: white; font-weight: 700; margin-bottom: 12px; font-size: 1.1em;">📈 Esto te permite:</div>
       <div style="display: grid; gap: 10px; color: white; font-size: 0.95em;">
-        <div style="display: flex; align-items: center; gap: 10px;">
-          <div style="background: white; color: #8b5cf6; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">✓</div>
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 10px;">
+          <div style="background: white; color: #8b5cf6; width: 28px; height: 28px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">✓</div>
           <div>Ver tu progreso real (es motivante)</div>
         </div>
-        <div style="display: flex; align-items: center; gap: 10px;">
-          <div style="background: white; color: #8b5cf6; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">✓</div>
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 10px;">
+          <div style="background: white; color: #8b5cf6; width: 28px; height: 28px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">✓</div>
           <div>Identificar estancamientos (cambiar estrategia si no mejoras)</div>
         </div>
-        <div style="display: flex; align-items: center; gap: 10px;">
-          <div style="background: white; color: #8b5cf6; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">✓</div>
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 10px;">
+          <div style="background: white; color: #8b5cf6; width: 28px; height: 28px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">✓</div>
           <div>Ajustar tu plan de estudio</div>
         </div>
-        <div style="display: flex; align-items: center; gap: 10px;">
-          <div style="background: white; color: #8b5cf6; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">✓</div>
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 10px;">
+          <div style="background: white; color: #8b5cf6; width: 28px; height: 28px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">✓</div>
           <div>Predecir tu puntuación final</div>
         </div>
       </div>
@@ -2333,8 +2333,8 @@ Esta es la fase final de tu preparación Cambridge, preparación TOEFL o prepara
     
     <!-- Mandamiento 1 -->
     <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #3b82f6;">
-      <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <div style="background: #dbeafe; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #3b82f6; margin-right: 15px;">1</div>
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #dbeafe; width: 50px; height: 50px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #3b82f6; margin-right: 15px;">1</div>
         <h4 style="margin: 0; color: #1e40af; font-size: 1.1em;">Materiales Oficiales</h4>
       </div>
       <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
@@ -2344,8 +2344,8 @@ Esta es la fase final de tu preparación Cambridge, preparación TOEFL o prepara
     
     <!-- Mandamiento 2 -->
     <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #8b5cf6;">
-      <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <div style="background: #ede9fe; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #8b5cf6; margin-right: 15px;">2</div>
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #ede9fe; width: 50px; height: 50px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #8b5cf6; margin-right: 15px;">2</div>
         <h4 style="margin: 0; color: #6d28d9; font-size: 1.1em;">Cronómetro Siempre</h4>
       </div>
       <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
@@ -2355,8 +2355,8 @@ Esta es la fase final de tu preparación Cambridge, preparación TOEFL o prepara
     
     <!-- Mandamiento 3 -->
     <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #10b981;">
-      <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <div style="background: #d1fae5; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #10b981; margin-right: 15px;">3</div>
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #d1fae5; width: 50px; height: 50px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #10b981; margin-right: 15px;">3</div>
         <h4 style="margin: 0; color: #047857; font-size: 1.1em;">Consistencia > Intensidad</h4>
       </div>
       <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
@@ -2366,8 +2366,8 @@ Esta es la fase final de tu preparación Cambridge, preparación TOEFL o prepara
     
     <!-- Mandamiento 4 -->
     <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #f59e0b;">
-      <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <div style="background: #fef3c7; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #f59e0b; margin-right: 15px;">4</div>
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #fef3c7; width: 50px; height: 50px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #f59e0b; margin-right: 15px;">4</div>
         <h4 style="margin: 0; color: #d97706; font-size: 1.1em;">Mock Exams Semanales</h4>
       </div>
       <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
@@ -2377,8 +2377,8 @@ Esta es la fase final de tu preparación Cambridge, preparación TOEFL o prepara
     
     <!-- Mandamiento 5 -->
     <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #ef4444;">
-      <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <div style="background: #fee2e2; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #ef4444; margin-right: 15px;">5</div>
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #fee2e2; width: 50px; height: 50px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #ef4444; margin-right: 15px;">5</div>
         <h4 style="margin: 0; color: #dc2626; font-size: 1.1em;">Analiza TODOS tus Errores</h4>
       </div>
       <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
@@ -2388,8 +2388,8 @@ Esta es la fase final de tu preparación Cambridge, preparación TOEFL o prepara
     
     <!-- Mandamiento 6 -->
     <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #ec4899;">
-      <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <div style="background: #fce7f3; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #ec4899; margin-right: 15px;">6</div>
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #fce7f3; width: 50px; height: 50px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #ec4899; margin-right: 15px;">6</div>
         <h4 style="margin: 0; color: #db2777; font-size: 1.1em;">Vocabulario en Contexto</h4>
       </div>
       <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
@@ -2399,8 +2399,8 @@ Esta es la fase final de tu preparación Cambridge, preparación TOEFL o prepara
     
     <!-- Mandamiento 7 -->
     <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #14b8a6;">
-      <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <div style="background: #ccfbf1; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #14b8a6; margin-right: 15px;">7</div>
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #ccfbf1; width: 50px; height: 50px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #14b8a6; margin-right: 15px;">7</div>
         <h4 style="margin: 0; color: #0f766e; font-size: 1.1em;">Writing = Feedback</h4>
       </div>
       <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
@@ -2410,8 +2410,8 @@ Esta es la fase final de tu preparación Cambridge, preparación TOEFL o prepara
     
     <!-- Mandamiento 8 -->
     <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #6366f1;">
-      <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <div style="background: #e0e7ff; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #6366f1; margin-right: 15px;">8</div>
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #e0e7ff; width: 50px; height: 50px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #6366f1; margin-right: 15px;">8</div>
         <h4 style="margin: 0; color: #4f46e5; font-size: 1.1em;">Speaking = Grabación</h4>
       </div>
       <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
@@ -2421,8 +2421,8 @@ Esta es la fase final de tu preparación Cambridge, preparación TOEFL o prepara
     
     <!-- Mandamiento 9 -->
     <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #f97316;">
-      <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <div style="background: #ffedd5; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #f97316; margin-right: 15px;">9</div>
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #ffedd5; width: 50px; height: 50px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #f97316; margin-right: 15px;">9</div>
         <h4 style="margin: 0; color: #ea580c; font-size: 1.1em;">Simula el Día Real</h4>
       </div>
       <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
@@ -2432,8 +2432,8 @@ Esta es la fase final de tu preparación Cambridge, preparación TOEFL o prepara
     
     <!-- Mandamiento 10 -->
     <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #a855f7;">
-      <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <div style="background: #f3e8ff; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #a855f7; margin-right: 15px;">10</div>
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #f3e8ff; width: 50px; height: 50px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #a855f7; margin-right: 15px;">10</div>
         <h4 style="margin: 0; color: #9333ea; font-size: 1.1em;">Descansa la Última Semana</h4>
       </div>
       <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
@@ -2443,7 +2443,7 @@ Esta es la fase final de tu preparación Cambridge, preparación TOEFL o prepara
     
   </div>
   
-  <div style="background: rgba(255,255,255,0.2); padding: 20px; border-radius: 10px; margin-top: 25px; text-align: center;">
+  <div style="background: #f0f0f0; background: rgba(255,255,255,0.2); padding: 20px; border-radius: 10px; margin-top: 25px; text-align: center;">
     <p style="color: white; margin: 0; font-size: 1.1em; font-weight: 600;">
       ⚡ Sigue estos 10 principios y tu puntuación subirá 15-25 puntos garantizado
     </p>
@@ -2530,8 +2530,8 @@ IELTS:
       
       <!-- Testimonio 1 -->
       <div style="background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
-        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
-          <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.3em;">
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
+          <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); width: 50px; height: 50px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.3em;">
             M
           </div>
           <div>
@@ -2550,8 +2550,8 @@ IELTS:
       
       <!-- Testimonio 2 -->
       <div style="background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
-        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
-          <div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.3em;">
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
+          <div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); width: 50px; height: 50px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.3em;">
             C
           </div>
           <div>
@@ -2570,8 +2570,8 @@ IELTS:
       
       <!-- Testimonio 3 -->
       <div style="background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
-        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
-          <div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.3em;">
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
+          <div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); width: 50px; height: 50px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.3em;">
             L
           </div>
           <div>
@@ -2694,7 +2694,7 @@ IELTS:
         <tbody>
           <tr style="background: #ffffff; border-bottom: 1px solid #e5e7eb;">
             <td style="padding: 18px;">
-              <div style="display: flex; align-items: center; gap: 10px;">
+              <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 10px;">
                 <div style="font-size: 1.5em;">🎓</div>
                 <div style="font-weight: 700; color: #3b82f6;">Cambridge</div>
               </div>
@@ -2716,7 +2716,7 @@ IELTS:
           </tr>
           <tr style="background: #f9fafb; border-bottom: 1px solid #e5e7eb;">
             <td style="padding: 18px;">
-              <div style="display: flex; align-items: center; gap: 10px;">
+              <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 10px;">
                 <div style="font-size: 1.5em;">🇺🇸</div>
                 <div style="font-weight: 700; color: #8b5cf6;">TOEFL</div>
               </div>
@@ -2738,7 +2738,7 @@ IELTS:
           </tr>
           <tr style="background: #ffffff;">
             <td style="padding: 18px;">
-              <div style="display: flex; align-items: center; gap: 10px;">
+              <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 10px;">
                 <div style="font-size: 1.5em;">🌍</div>
                 <div style="font-weight: 700; color: #10b981;">IELTS</div>
               </div>
@@ -2762,7 +2762,7 @@ IELTS:
       </table>
     </div>
     
-    <div style="background: rgba(255,255,255,0.15); padding: 18px; border-radius: 10px; margin-top: 20px; backdrop-filter: blur(10px); border-left: 4px solid rgba(255,255,255,0.5);">
+    <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 18px; border-radius: 10px; margin-top: 20px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); min-height: 50px; border-left: 4px solid rgba(255,255,255,0.5);">
       <div style="color: white; font-size: 0.95em; line-height: 1.6;">
         <strong style="font-size: 1.05em;">⚡ Recomendación:</strong> Cambridge requiere planificación anticipada por sus pocas fechas. TOEFL e IELTS ofrecen más flexibilidad. Si tu deadline es urgente, evita Cambridge.
       </div>
@@ -2828,7 +2828,7 @@ IELTS:
     </div>
     
     <div style="background: white; padding: 20px; border-radius: 10px; border-left: 5px solid #f59e0b;">
-      <div style="display: flex; align-items: start; gap: 15px;">
+      <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: start; gap: 15px;">
         <div style="font-size: 2em;">💡</div>
         <div>
           <div style="font-weight: 700; color: #92400e; margin-bottom: 8px; font-size: 1.05em;">Tip Financiero Importante</div>
@@ -3066,27 +3066,27 @@ Nuestros cursos te preparan con las mismas estrategias, formatos y criterios que
         Has leído toda la guía. Conoces la estructura de cada examen. Sabes qué estrategias funcionan.
       </div>
       <div style="font-size: 1.4em; font-weight: 600; margin-bottom: 30px;">
-        Ahora solo falta una cosa: <span style="background: rgba(255,255,255,0.2); padding: 5px 15px; border-radius: 8px;">Dar el Primer Paso</span>
+        Ahora solo falta una cosa: <span style="background: #f0f0f0; background: rgba(255,255,255,0.2); padding: 5px 15px; border-radius: 8px;">Dar el Primer Paso</span>
       </div>
     </div>
     
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-bottom: 40px;">
-      <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 15px; backdrop-filter: blur(10px); text-align: center;">
+      <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 25px; border-radius: 15px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); text-align: center;">
         <div style="font-size: 3em; margin-bottom: 10px;">🎯</div>
         <div style="font-weight: 600; font-size: 1.2em; margin-bottom: 10px; color: white;">2,500+</div>
         <div style="font-size: 0.95em; opacity: 0.9; color: white;">Estudiantes certificados</div>
       </div>
-      <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 15px; backdrop-filter: blur(10px); text-align: center;">
+      <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 25px; border-radius: 15px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); text-align: center;">
         <div style="font-size: 3em; margin-bottom: 10px;">⭐</div>
         <div style="font-weight: 600; font-size: 1.2em; margin-bottom: 10px; color: white;">4.8/5</div>
         <div style="font-size: 0.95em; opacity: 0.9; color: white;">Valoración promedio</div>
       </div>
-      <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 15px; backdrop-filter: blur(10px); text-align: center;">
+      <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 25px; border-radius: 15px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); text-align: center;">
         <div style="font-size: 3em; margin-bottom: 10px;">⚡</div>
         <div style="font-weight: 600; font-size: 1.2em; margin-bottom: 10px; color: white;">12 semanas</div>
         <div style="font-size: 0.95em; opacity: 0.9; color: white;">Plan estructurado</div>
       </div>
-      <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 15px; backdrop-filter: blur(10px); text-align: center;">
+      <div style="background: rgba(248, 249, 250, 0.85); background: rgba(255,255,255,0.15); padding: 25px; border-radius: 15px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); text-align: center;">
         <div style="font-size: 3em; margin-bottom: 10px;">💎</div>
         <div style="font-weight: 600; font-size: 1.2em; margin-bottom: 10px; color: white;">€6.99/mes</div>
         <div style="font-size: 0.95em; opacity: 0.9; color: white;">Precio transparente</div>
@@ -3103,20 +3103,20 @@ Nuestros cursos te preparan con las mismas estrategias, formatos y criterios que
         </div>
       </div>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 25px;">
-        <div style="display: flex; align-items: center; gap: 10px; color: #1f2937;">
-          <div style="background: #10b981; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">✓</div>
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 10px; color: #1f2937;">
+          <div style="background: #10b981; color: white; width: 30px; height: 30px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700;">✓</div>
           <div style="font-size: 0.95em;">Test de nivel preciso</div>
         </div>
-        <div style="display: flex; align-items: center; gap: 10px; color: #1f2937;">
-          <div style="background: #10b981; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">✓</div>
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 10px; color: #1f2937;">
+          <div style="background: #10b981; color: white; width: 30px; height: 30px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700;">✓</div>
           <div style="font-size: 0.95em;">Plan personalizado A1-C2</div>
         </div>
-        <div style="display: flex; align-items: center; gap: 10px; color: #1f2937;">
-          <div style="background: #10b981; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">✓</div>
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 10px; color: #1f2937;">
+          <div style="background: #10b981; color: white; width: 30px; height: 30px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700;">✓</div>
           <div style="font-size: 0.95em;">Ejercicios tipo examen</div>
         </div>
-        <div style="display: flex; align-items: center; gap: 10px; color: #1f2937;">
-          <div style="background: #10b981; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">✓</div>
+        <div style="display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; gap: 10px; color: #1f2937;">
+          <div style="background: #10b981; color: white; width: 30px; height: 30px; border-radius: 50%; display: -webkit-box; display: -webkit-flex; display: flex; align-items: center; justify-content: center; font-weight: 700;">✓</div>
           <div style="font-size: 0.95em;">Cancela cuando quieras</div>
         </div>
       </div>
