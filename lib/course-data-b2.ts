@@ -2109,60 +2109,216 @@ export const MODULE_3_LESSONS: Lesson[] = [
       }
     ]
   },
-  // ============================================
-  // MÓDULO 3 - LECCIÓN 3: Academic Presentations
-  // ============================================
+  // LECCIÓN 3: Academic Presentations & Public Speaking
   {
     id: 'b2-m3-l3',
-    title: 'Lección 3: Presentaciones Académicas',
-    description: 'Desarrolla habilidades para dar presentaciones profesionales y académicas',
+    title: 'Lección 3: Presentaciones Académicas y Hablar en Público',
+    description: 'Desarrolla habilidades para presentaciones efectivas en contextos académicos y profesionales',
     duration: 90,
     objectives: [
-      'Estructurar presentaciones efectivas',
-      'Usar lenguaje formal de presentación',
-      'Manejar preguntas y discusiones',
-      'Presentar datos y gráficos con claridad'
+      'Estructurar presentaciones claras y convincentes',
+      'Usar lenguaje de presentación profesional',
+      'Manejar preguntas y respuestas efectivamente',
+      'Proyectar confianza al hablar en público'
     ],
     exercises: [
       {
         id: 'b2-m3-l3-vocabulary-1',
         type: 'vocabulary',
-        title: 'Presentation Language',
+        title: 'Presentation Language & Phrases',
         vocabularySet: [
-          {
-            word: 'to outline',
-            definition: 'to give the main features or general idea',
-            example: 'Let me outline the key points of my presentation.'
-          },
-          {
-            word: 'to elaborate',
-            definition: 'to give more details or information',
-            example: 'I\'ll elaborate on this point in the next section.'
-          },
-          {
-            word: 'to highlight',
-            definition: 'to emphasize or draw attention to',
-            example: 'I\'d like to highlight three important findings.'
-          },
-          {
-            word: 'to conclude',
-            definition: 'to finish or summarize',
-            example: 'To conclude, the results support our hypothesis.'
-          },
-          {
-            word: 'to address',
-            definition: 'to deal with or discuss',
-            example: 'Now I\'ll address some common questions.'
-          }
+          { word: 'introduce', definition: 'begin by presenting a topic', example: 'Let me introduce the main topic of today\'s presentation.' },
+          { word: 'outline', definition: 'give a general description', example: 'I\'d like to outline the key points we\'ll cover.' },
+          { word: 'highlight', definition: 'emphasize important points', example: 'I\'d like to highlight three critical findings.' },
+          { word: 'elaborate', definition: 'explain in more detail', example: 'Allow me to elaborate on that point.' },
+          { word: 'transition', definition: 'move from one topic to another', example: 'Now I\'ll transition to the next section.' },
+          { word: 'summarize', definition: 'give a brief statement of main points', example: 'To summarize, we\'ve discussed three key areas.' },
+          { word: 'conclude', definition: 'bring to an end', example: 'I\'d like to conclude by emphasizing the importance of...' },
+          { word: 'engage', definition: 'attract and keep attention', example: 'Interactive elements help engage the audience.' },
+          { word: 'clarify', definition: 'make clear or easier to understand', example: 'Let me clarify what I mean by that.' },
+          { word: 'emphasize', definition: 'stress the importance of something', example: 'I want to emphasize that this is crucial.' }
         ],
         questions: [
           {
             id: 'q1',
             type: 'multiple-choice',
-            question: 'When you want to emphasize something important, you ___  it.',
-            options: ['outline', 'highlight', 'elaborate', 'conclude'],
+            question: 'Which phrase is best for beginning a presentation?',
+            options: [
+              'Let me conclude...',
+              'Let me introduce...',
+              'To summarize...',
+              'In addition...'
+            ],
+            correctAnswer: 'Let me introduce...',
+            explanation: '"Introduce" se usa al inicio para presentar el tema',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: "I\'d like to ___ three main points before we continue."',
             correctAnswer: 'highlight',
-            explanation: 'Highlight significa enfatizar o resaltar.',
+            explanation: '"Highlight" se usa para enfatizar puntos importantes',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What word means "to explain in more detail"?',
+            correctAnswer: 'elaborate',
+            explanation: '"Elaborate" significa explicar con más detalle',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l3-reading-1',
+        type: 'reading',
+        title: 'Reading: Mastering Public Speaking',
+        text: `Public speaking consistently ranks as one of people's greatest fears, often above even death itself. However, this fear can be conquered with proper preparation and practice. What many people don't realize is that even the most confident speakers experience nervousness—they've simply learned to manage it effectively.
+
+The foundation of any successful presentation lies in thorough preparation. This doesn't just mean knowing your content; it involves understanding your audience, anticipating questions, and practicing your delivery multiple times. Research shows that speakers who rehearse their presentations at least five times perform significantly better than those who don't.
+
+Structure is equally crucial. A well-organized presentation follows a clear pattern: introduction, body, and conclusion. The introduction should grab attention immediately—perhaps with a surprising statistic, a thought-provoking question, or a relevant anecdote. The body should present ideas logically, using transitions to guide your audience smoothly from one point to the next. The conclusion should reinforce key messages and leave a lasting impression.
+
+Body language plays a vital role in effective presentations. Maintaining eye contact establishes connection and credibility. Standing confidently, using purposeful gestures, and moving naturally around the space helps engage your audience. Avoid common mistakes such as crossing your arms, fidgeting, or reading directly from slides.
+
+Voice modulation is another powerful tool. Varying your pace, volume, and tone keeps the audience engaged. Speaking too quickly suggests nervousness, while speaking too slowly can bore listeners. Strategic pauses can emphasize important points and give your audience time to absorb information.
+
+Managing nervousness is essential. Deep breathing exercises before speaking can calm your nerves. Arriving early allows you to familiarize yourself with the space and test any equipment. Remember that slight nervousness can actually enhance performance by keeping you alert and energized.
+
+Finally, embrace questions as opportunities rather than threats. If you don't know an answer, it's perfectly acceptable to say so and offer to follow up later. This demonstrates honesty and professionalism. The most effective presenters view questions as chances to clarify, elaborate, and connect more deeply with their audience.`,
+        wordCount: 342,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, what is the foundation of a successful presentation?',
+            options: [
+              'Speaking loudly',
+              'Thorough preparation',
+              'Expensive equipment',
+              'A large audience'
+            ],
+            correctAnswer: 'Thorough preparation',
+            explanation: 'El texto dice: "The foundation of any successful presentation lies in thorough preparation"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'How many times should speakers rehearse according to research?',
+            correctAnswer: 'At least five times / Five times',
+            explanation: 'El texto menciona: "speakers who rehearse their presentations at least five times"',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: Even confident speakers experience nervousness.',
+            correctAnswer: 'True',
+            explanation: 'El texto dice: "even the most confident speakers experience nervousness"',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'What should you do if you don\'t know the answer to a question?',
+            options: [
+              'Make up an answer',
+              'Ignore the question',
+              'Say you don\'t know and offer to follow up',
+              'Change the subject'
+            ],
+            correctAnswer: 'Say you don\'t know and offer to follow up',
+            explanation: 'El texto recomienda: "it\'s perfectly acceptable to say so and offer to follow up later"',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'Name THREE elements of effective body language mentioned in the text.',
+            correctAnswer: 'Eye contact, standing confidently, purposeful gestures, natural movement',
+            explanation: 'El texto menciona varios elementos de lenguaje corporal efectivo',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l3-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m3-l3-listening-1.mp3',
+        duration: 200,
+        allowReplay: true,
+        maxReplays: 3,
+        transcript: `[TED Talk-style presentation]
+
+Good morning everyone. Today, I want to talk to you about something that affects millions of people worldwide: the fear of public speaking. Let me start by asking you a question: How many of you feel nervous when speaking in front of a group? If you raised your hand—or wanted to—you're not alone.
+
+Now, I'd like to outline what I'll cover today. First, I'll discuss why public speaking terrifies so many people. Then, I'll share three practical techniques that have helped me overcome this fear. Finally, I'll demonstrate how you can apply these techniques immediately.
+
+So, why are we so afraid? The answer lies in evolution. Our brains are wired to fear social rejection. Thousands of years ago, being cast out from your tribe meant death. Today, we no longer face that danger, but our brains haven't caught up. When we stand in front of a group, our primitive brain interprets it as a survival threat.
+
+Let me elaborate on this point. When you feel nervous before speaking, what's really happening? Your body releases adrenaline, your heart races, your palms sweat. This is your fight-or-flight response kicking in. But here's the interesting part: these physical sensations are identical to those you experience when you're excited. The difference is purely mental.
+
+Which brings me to my first technique: reframing. Instead of telling yourself "I'm nervous," try saying "I'm excited." Research from Harvard Business School shows that this simple mental shift can significantly improve performance. Your body is already prepared for action—you're just changing the narrative.
+
+Now I'll transition to the second technique: breathing. When we're anxious, we tend to take shallow breaths, which actually increases anxiety. Try this with me now: breathe in for four counts, hold for four, breathe out for six. This activates your parasympathetic nervous system, calming you down.
+
+The third and final technique is practice, but not the way you might think. Many people practice in their heads or in front of a mirror. That's not enough. You need to practice in conditions as similar to the real thing as possible. Practice standing up, speaking out loud, even record yourself. Your brain needs to rehearse the actual experience.
+
+To summarize the key points: understand that fear is natural and evolutionary, reframe nervousness as excitement, use breathing techniques to calm yourself, and practice in realistic conditions.
+
+Before I conclude, I want to emphasize one thing: every skilled speaker you admire was once terrified too. The difference is they pushed through that fear. And you can too.
+
+Thank you for your attention. I'd be happy to take any questions.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'How many main techniques does the speaker share?',
+            options: ['Two', 'Three', 'Four', 'Five'],
+            correctAnswer: 'Three',
+            explanation: 'El speaker dice: "I\'ll share three practical techniques"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'According to the speaker, why are humans afraid of public speaking?',
+            correctAnswer: 'Evolution / fear of social rejection / our brains are wired to fear being cast out',
+            explanation: 'El speaker explica: "Our brains are wired to fear social rejection...being cast out from your tribe meant death"',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What is the first technique mentioned?',
+            options: [
+              'Breathing exercises',
+              'Reframing nervousness as excitement',
+              'Practicing out loud',
+              'Drinking water'
+            ],
+            correctAnswer: 'Reframing nervousness as excitement',
+            explanation: 'El primer técnica es: "reframing...try saying \'I\'m excited\'"',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'short-answer',
+            question: 'What breathing pattern does the speaker recommend?',
+            correctAnswer: 'Breathe in for 4 counts, hold for 4, breathe out for 6',
+            explanation: 'El speaker dice: "breathe in for four counts, hold for four, breathe out for six"',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'true-false',
+            question: 'True or False: The speaker says practicing in your head is enough.',
+            correctAnswer: 'False',
+            explanation: 'El speaker dice: "practice in your head...That\'s not enough"',
             points: 1
           }
         ]
@@ -2170,8 +2326,8 @@ export const MODULE_3_LESSONS: Lesson[] = [
       {
         id: 'b2-m3-l3-speaking-1',
         type: 'speaking',
-        prompt: 'Give a 3-minute presentation on a topic of your choice (your studies, work, a hobby, or a current issue). Structure: 1) Introduction (outline your topic), 2) Main points (2-3 key ideas), 3) Conclusion. Use formal presentation language: "Today I\'ll outline...", "Firstly..., Secondly...", "To conclude..."',
-        timeLimit: 180,
+        prompt: 'Give a 2-minute presentation on a topic you\'re passionate about. Use presentation language: introduce your topic, outline your points, use transitions, and conclude effectively. Imagine you\'re speaking to a professional audience.',
+        timeLimit: 120,
         evaluationCriteria: {
           pronunciation: true,
           fluency: true,
@@ -2180,92 +2336,315 @@ export const MODULE_3_LESSONS: Lesson[] = [
         },
         hints: [
           'Start: "Good morning/afternoon. Today I\'d like to talk about..."',
-          'Outline: "I\'ll cover three main points: firstly..., secondly..., finally..."',
-          'Transitions: "Moving on to...", "Now I\'d like to..."',
-          'Emphasize: "I\'d like to highlight that...", "It\'s important to note..."',
-          'Conclude: "To sum up...", "In conclusion..."',
-          'Speak clearly and at a moderate pace'
+          'Outline: "I\'ll cover three main points..."',
+          'Transitions: "Moving on to...", "Now I\'ll turn to..."',
+          'Emphasize: "I want to highlight...", "It\'s important to note..."',
+          'Conclude: "To summarize...", "In conclusion..."'
+        ]
+      },
+      {
+        id: 'b2-m3-l3-writing-1',
+        type: 'writing',
+        prompt: 'Write a report (180-220 words) on "Effective Communication in the Workplace". Include an introduction, 2-3 main points with examples, and a conclusion with recommendations.',
+        writingType: 'report',
+        minWords: 180,
+        maxWords: 220,
+        timeLimit: 35,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Use headings: Introduction, Findings, Conclusion',
+          'Be objective and formal',
+          'Include specific examples',
+          'Make clear recommendations',
+          'Use passive voice where appropriate'
         ]
       }
     ]
   },
-  // ============================================
-  // MÓDULO 3 - LECCIÓN 4: Phrasal Verbs in Context
-  // ============================================
+  
+  // LECCIÓN 4: Advanced Collocations & Idiomatic Expressions
   {
     id: 'b2-m3-l4',
-    title: 'Lección 4: Phrasal Verbs en Contexto',
-    description: 'Domina los phrasal verbs más importantes para nivel B2 en situaciones reales',
+    title: 'Lección 4: Colocaciones e Expresiones Idiomáticas Avanzadas',
+    description: 'Domina colocaciones naturales y expresiones idiomáticas para sonar más fluido',
     duration: 90,
     objectives: [
-      'Aprender phrasal verbs esenciales para B2',
-      'Usar phrasal verbs en contextos apropiados',
-      'Distinguir entre phrasal verbs separables e inseparables',
-      'Reemplazar verbos simples con phrasal verbs cuando sea natural'
+      'Reconocer y usar colocaciones comunes',
+      'Aplicar expresiones idiomáticas apropiadamente',
+      'Evitar errores típicos de colocación',
+      'Ampliar vocabulario productivo'
     ],
     exercises: [
       {
         id: 'b2-m3-l4-vocabulary-1',
         type: 'vocabulary',
-        title: 'Essential B2 Phrasal Verbs',
+        title: 'Common Collocations',
         vocabularySet: [
-          {
-            word: 'put up with',
-            definition: 'to tolerate or endure something unpleasant',
-            example: 'I can\'t put up with this noise anymore.'
-          },
-          {
-            word: 'come across',
-            definition: 'to find or meet by chance',
-            example: 'I came across an interesting article yesterday.'
-          },
-          {
-            word: 'get over',
-            definition: 'to recover from illness or difficult experience',
-            example: 'It took her months to get over the breakup.'
-          },
-          {
-            word: 'carry out',
-            definition: 'to perform or conduct (a task, experiment)',
-            example: 'They carried out extensive research.'
-          },
-          {
-            word: 'bring up',
-            definition: 'to raise or mention a topic',
-            example: 'Don\'t bring up politics at dinner.'
-          },
-          {
-            word: 'look into',
-            definition: 'to investigate or examine',
-            example: 'The police are looking into the matter.'
-          },
-          {
-            word: 'turn down',
-            definition: 'to refuse or reject',
-            example: 'She turned down the job offer.'
-          },
-          {
-            word: 'set up',
-            definition: 'to establish or arrange',
-            example: 'He set up his own business last year.'
-          }
+          { word: 'make a decision', definition: 'decide something', example: 'We need to make a decision about the project.' },
+          { word: 'do business', definition: 'conduct commercial activities', example: 'We do business with companies worldwide.' },
+          { word: 'take responsibility', definition: 'accept being in charge of something', example: 'Leaders must take responsibility for their mistakes.' },
+          { word: 'reach an agreement', definition: 'come to a mutual understanding', example: 'After hours of negotiation, they reached an agreement.' },
+          { word: 'face challenges', definition: 'deal with difficult situations', example: 'Every company faces challenges in the market.' },
+          { word: 'gain experience', definition: 'acquire knowledge through practice', example: 'Internships help students gain experience.' },
+          { word: 'achieve goals', definition: 'successfully accomplish objectives', example: 'With hard work, you can achieve your goals.' },
+          { word: 'raise awareness', definition: 'increase people\'s knowledge about something', example: 'The campaign aims to raise awareness about climate change.' },
+          { word: 'draw conclusions', definition: 'make judgments based on information', example: 'From the data, we can draw several conclusions.' },
+          { word: 'meet expectations', definition: 'fulfill what was anticipated', example: 'The product failed to meet customers\' expectations.' }
         ],
         questions: [
           {
             id: 'q1',
             type: 'multiple-choice',
-            question: 'When you tolerate something annoying, you ___ it.',
-            options: ['put up with', 'get over', 'bring up', 'turn down'],
-            correctAnswer: 'put up with',
-            explanation: 'Put up with significa tolerar o soportar.',
+            question: 'Which is correct?',
+            options: [
+              'do a decision',
+              'make a decision',
+              'take a decision (British)',
+              'Both b and c'
+            ],
+            correctAnswer: 'Both b and c',
+            explanation: '"Make a decision" (AmE/BrE) y "take a decision" (BrE) son correctas',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: We need to ___ an agreement before Friday.',
+            correctAnswer: 'reach',
+            explanation: 'La colocación correcta es "reach an agreement"',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Which is INCORRECT?',
+            options: [
+              'gain experience',
+              'obtain experience',
+              'get experience',
+              'win experience'
+            ],
+            correctAnswer: 'win experience',
+            explanation: '"Win experience" no es una colocación natural en inglés',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l4-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Idiomatic Expressions',
+        vocabularySet: [
+          { word: 'break the ice', definition: 'make people feel more comfortable', example: 'He told a joke to break the ice at the meeting.' },
+          { word: 'hit the nail on the head', definition: 'be exactly right about something', example: 'You hit the nail on the head with that analysis.' },
+          { word: 'go the extra mile', definition: 'make an extra effort', example: 'She always goes the extra mile for her clients.' },
+          { word: 'on the same page', definition: 'in agreement, having same understanding', example: 'Let\'s make sure we\'re all on the same page before we proceed.' },
+          { word: 'think outside the box', definition: 'think creatively', example: 'We need to think outside the box to solve this problem.' },
+          { word: 'cut corners', definition: 'do something badly to save time/money', example: 'Don\'t cut corners on quality to meet the deadline.' },
+          { word: 'get the ball rolling', definition: 'start something', example: 'Let\'s get the ball rolling on this project.' },
+          { word: 'in the same boat', definition: 'in the same difficult situation', example: 'We\'re all in the same boat regarding the deadline.' },
+          { word: 'back to square one', definition: 'start over from the beginning', example: 'The plan failed, so we\'re back to square one.' },
+          { word: 'call it a day', definition: 'stop working for the day', example: 'It\'s 6pm. Let\'s call it a day.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What does "break the ice" mean?',
+            options: [
+              'Destroy something',
+              'Make people feel more comfortable',
+              'Stop a meeting',
+              'Start working'
+            ],
+            correctAnswer: 'Make people feel more comfortable',
+            explanation: '"Break the ice" significa hacer que la gente se sienta más cómoda',
             points: 1
           },
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: The scientists will ___ ___ experiments next month.',
-            correctAnswer: 'carry out',
-            explanation: 'Carry out significa realizar o llevar a cabo.',
+            question: 'Complete: "Your suggestion is perfect. You really ___ on the head!"',
+            correctAnswer: 'hit the nail',
+            explanation: '"Hit the nail on the head" significa ser exactamente correcto',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'If someone "goes the extra mile," what do they do?',
+            correctAnswer: 'Make an extra effort / do more than required',
+            explanation: '"Go the extra mile" significa hacer un esfuerzo adicional',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l4-reading-1',
+        type: 'reading',
+        title: 'Reading: Succeeding in Business',
+        text: `In today's competitive business environment, it's not enough to simply do your job—you need to go the extra mile to stand out. Companies are looking for employees who can think outside the box and bring fresh ideas to the table.
+
+When I first started my career, I made a crucial mistake: I tried to cut corners to finish projects quickly. I thought meeting deadlines was all that mattered. My manager soon set me straight. "Quality is paramount," she said, hitting the nail on the head. "If you deliver substandard work, you'll damage your reputation and we'll be back to square one."
+
+That conversation was a wake-up call. I realized that taking responsibility for excellence meant investing the time necessary, even if it required working extra hours. I learned to reach agreements with team members early in projects to ensure we were all on the same page. This collaborative approach helped us avoid misunderstandings later.
+
+One project particularly taught me the value of facing challenges head-on. We encountered a technical problem that could have derailed everything. Rather than panic, we decided to get the ball rolling on finding solutions. We broke the ice with the client by being transparent about the issue and presenting multiple options. This honesty built trust.
+
+The experience helped me gain valuable insights about business relationships. I learned that when facing difficulties, we're all in the same boat—clients, colleagues, and partners alike. Being open about challenges, rather than hiding them, actually strengthens relationships.
+
+As my career progressed, I made decisions based on long-term thinking rather than short-term gains. I focused on achieving goals that aligned with our company's values. This approach paid off: I raised my profile within the organization and eventually drew the conclusion that integrity and hard work truly do meet expectations—and often exceed them.
+
+Now, years later, I try to share these lessons with younger colleagues. Success in business isn't about being the smartest person in the room; it's about building relationships, maintaining standards, and always being willing to learn. When you face setbacks, don't get discouraged. Every challenge is an opportunity to demonstrate your resilience. And remember: there's never a good reason to compromise on quality or ethics, no matter how tempting it might be to save time.`,
+        wordCount: 380,
+        readingTime: 5,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What mistake did the author make early in their career?',
+            options: [
+              'Working too slowly',
+              'Cutting corners to finish quickly',
+              'Not collaborating with others',
+              'Missing deadlines'
+            ],
+            correctAnswer: 'Cutting corners to finish quickly',
+            explanation: 'El autor dice: "I tried to cut corners to finish projects quickly"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'What idiom means "being exactly right about something"?',
+            correctAnswer: 'Hit the nail on the head / hitting the nail on the head',
+            explanation: 'El texto usa: "hitting the nail on the head"',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: The author hid problems from clients.',
+            correctAnswer: 'False',
+            explanation: 'El autor dice que fueron "transparent about the issue"',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'According to the text, what builds trust with clients?',
+            options: [
+              'Always agreeing with them',
+              'Being transparent about issues',
+              'Offering discounts',
+              'Working faster'
+            ],
+            correctAnswer: 'Being transparent about issues',
+            explanation: 'El texto dice: "This honesty built trust"',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'List THREE idioms or collocations used in the text.',
+            correctAnswer: 'go the extra mile, think outside the box, cut corners, hit the nail on the head, back to square one, on the same page, get the ball rolling, break the ice, in the same boat, etc.',
+            explanation: 'Hay múltiples expresiones idiomáticas en el texto',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l4-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m3-l4-listening-1.mp3',
+        duration: 180,
+        allowReplay: true,
+        maxReplays: 3,
+        transcript: `Podcast: Business English in Practice
+
+Host: Welcome back to Business English in Practice. Today we're discussing common mistakes non-native speakers make with collocations and idioms. Joining me is language expert Dr. Patricia Lee. Patricia, what's the most common mistake you see?
+
+Dr. Lee: Thanks for having me. The most common mistake is directly translating from your native language. For example, many Spanish speakers say "make a photo" instead of "take a photo." Or they might say "tell a presentation" instead of "give a presentation." These are understandable errors, but they can make your English sound unnatural.
+
+Host: Can you elaborate on why collocations matter so much?
+
+Dr. Lee: Absolutely. Native speakers don't think about collocations—they just know them instinctively. When you use the wrong collocation, it doesn't necessarily prevent understanding, but it does mark you as a non-native speaker. If you want to take your English to the next level, mastering collocations is essential.
+
+Host: What about idioms? Should learners focus on them?
+
+Dr. Lee: Here's my advice: learn idioms, but use them carefully. Some idioms are very common in business—like "get the ball rolling" or "on the same page"—and using these naturally can really make you sound more fluent. However, don't try to force too many idioms into your speech. It's better to use a few correctly than to overuse them and sound awkward.
+
+Host: Can you give us an example of a commonly misused idiom?
+
+Dr. Lee: Sure. "Break the ice" is often misused. Some learners use it to mean "start a project," but it specifically means to make people feel more comfortable in a social situation, especially when they first meet. You might break the ice at a party by introducing yourself, but you wouldn't break the ice on a construction project—you'd get the ball rolling instead.
+
+Host: That's a great distinction. What resources do you recommend for learning collocations?
+
+Dr. Lee: Read extensively in English, especially authentic materials like news articles, business reports, or professional blogs. When you encounter a new collocation, write it down with an example sentence. Don't just learn individual words—learn them in context with their natural partners. There are also excellent collocation dictionaries online that can help.
+
+Host: Finally, what's your top tip for improving fluency with collocations and idioms?
+
+Dr. Lee: Practice, practice, practice! Use them in your writing and speaking. Don't be afraid to make mistakes—that's how we learn. And pay attention to feedback. If a native speaker uses a different phrase than you would, ask yourself why. Understanding these patterns will help you internalize collocations more quickly.
+
+Host: Wonderful advice. Thanks so much, Patricia.
+
+Dr. Lee: My pleasure!`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What common mistake do Spanish speakers make according to Dr. Lee?',
+            options: [
+              'Using wrong verb tenses',
+              'Saying "make a photo" instead of "take a photo"',
+              'Mispronouncing words',
+              'Using too many idioms'
+            ],
+            correctAnswer: 'Saying "make a photo" instead of "take a photo"',
+            explanation: 'Dr. Lee menciona: "many Spanish speakers say \'make a photo\' instead of \'take a photo\'"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'According to Dr. Lee, what is essential for taking your English to the next level?',
+            correctAnswer: 'Mastering collocations',
+            explanation: 'Dr. Lee dice: "mastering collocations is essential"',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: Dr. Lee recommends using as many idioms as possible.',
+            correctAnswer: 'False',
+            explanation: 'Dr. Lee advierte: "don\'t try to force too many idioms into your speech"',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'What does "break the ice" specifically mean?',
+            options: [
+              'Start a project',
+              'End a meeting',
+              'Make people feel more comfortable socially',
+              'Begin negotiations'
+            ],
+            correctAnswer: 'Make people feel more comfortable socially',
+            explanation: 'Dr. Lee explica: "it specifically means to make people feel more comfortable in a social situation"',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What is Dr. Lee\'s top tip for improving fluency?',
+            correctAnswer: 'Practice / practice and don\'t be afraid to make mistakes',
+            explanation: 'Su consejo final es: "Practice, practice, practice! ...Don\'t be afraid to make mistakes"',
             points: 2
           }
         ]
@@ -2273,8 +2652,8 @@ export const MODULE_3_LESSONS: Lesson[] = [
       {
         id: 'b2-m3-l4-speaking-1',
         type: 'speaking',
-        prompt: 'Tell a story about a problem you had to deal with. Use at least 5 different phrasal verbs from this lesson naturally (put up with, come across, get over, look into, set up, etc.). Speak for 2-3 minutes.',
-        timeLimit: 180,
+        prompt: 'Describe a professional or academic challenge you faced. Use at least 5 collocations and 3 idiomatic expressions naturally in your response. Speak for 2 minutes.',
+        timeLimit: 120,
         evaluationCriteria: {
           pronunciation: true,
           fluency: true,
@@ -2282,100 +2661,17 @@ export const MODULE_3_LESSONS: Lesson[] = [
           vocabulary: true
         },
         hints: [
-          'Describe the problem situation',
-          'Use phrasal verbs naturally: "I had to put up with...", "I came across a solution..."',
-          'Explain how you looked into options',
-          'Describe the outcome: "I finally got over it...", "We set up a new system..."',
-          'Make the story coherent and interesting'
-        ]
-      }
-    ]
-  },
-  // ============================================
-  // MÓDULO 3 - LECCIÓN 5: Collocations & Idiomatic Expressions
-  // ============================================
-  {
-    id: 'b2-m3-l5',
-    title: 'Lección 5: Colocaciones y Expresiones Idiomáticas',
-    description: 'Aprende combinaciones naturales de palabras y expresiones idiomáticas comunes',
-    duration: 90,
-    objectives: [
-      'Dominar colocaciones esenciales (make, do, have, take, etc.)',
-      'Usar expresiones idiomáticas apropiadamente',
-      'Sonar más natural y fluido en inglés',
-      'Evitar traducciones literales incorrectas'
-    ],
-    exercises: [
-      {
-        id: 'b2-m3-l5-vocabulary-1',
-        type: 'vocabulary',
-        title: 'Common Collocations',
-        vocabularySet: [
-          {
-            word: 'make a decision',
-            definition: 'to decide something',
-            example: 'We need to make a decision by Friday.'
-          },
-          {
-            word: 'do your best',
-            definition: 'to try as hard as you can',
-            example: 'Just do your best in the exam.'
-          },
-          {
-            word: 'take a chance',
-            definition: 'to take a risk',
-            example: 'Sometimes you have to take a chance.'
-          },
-          {
-            word: 'make an effort',
-            definition: 'to try hard',
-            example: 'He made an effort to improve his English.'
-          },
-          {
-            word: 'have a good time',
-            definition: 'to enjoy yourself',
-            example: 'Did you have a good time at the party?'
-          },
-          {
-            word: 'break the ice',
-            definition: 'to make people feel more relaxed (idiom)',
-            example: 'A joke can help break the ice at meetings.'
-          },
-          {
-            word: 'hit the nail on the head',
-            definition: 'to be exactly right (idiom)',
-            example: 'Your analysis hit the nail on the head.'
-          },
-          {
-            word: 'cost an arm and a leg',
-            definition: 'to be very expensive (idiom)',
-            example: 'That car must have cost an arm and a leg.'
-          }
-        ],
-        questions: [
-          {
-            id: 'q1',
-            type: 'multiple-choice',
-            question: 'When you decide something, you ___ a decision.',
-            options: ['do', 'make', 'take', 'have'],
-            correctAnswer: 'make',
-            explanation: 'La colocación correcta es "make a decision".',
-            points: 1
-          },
-          {
-            id: 'q2',
-            type: 'fill-blank',
-            question: 'Complete: Try to ___ your best in the interview.',
-            correctAnswer: 'do',
-            explanation: 'La colocación es "do your best".',
-            points: 1
-          }
+          'Collocations: make a decision, face challenges, reach an agreement, take responsibility, gain experience',
+          'Idioms: break the ice, on the same page, think outside the box, get the ball rolling, go the extra mile',
+          'Use them naturally—don\'t force them',
+          'Tell a coherent story',
+          'Explain the outcome'
         ]
       },
       {
-        id: 'b2-m3-l5-writing-1',
+        id: 'b2-m3-l4-writing-1',
         type: 'writing',
-        prompt: 'Write an article (180-220 words) titled "Taking Risks: When Should You Take a Chance?". Use at least 6 collocations from this lesson (make a decision, take a chance, make an effort, do your best, etc.) and 2-3 idiomatic expressions naturally.',
+        prompt: 'Write an article (180-220 words) titled "Keys to Professional Success". Use at least 8 collocations and 4 idioms from this lesson naturally throughout your article.',
         writingType: 'article',
         minWords: 180,
         maxWords: 220,
@@ -2387,136 +2683,287 @@ export const MODULE_3_LESSONS: Lesson[] = [
           vocabulary: 25
         },
         tips: [
-          'Use collocations naturally, don\'t force them',
-          'Include: make a decision, take a chance, make an effort, do your best',
-          'Add idioms where appropriate: break the ice, hit the nail on the head',
-          'Structure: Introduction → Examples → Personal view → Conclusion',
-          'Make it engaging and relatable'
+          'Integrate collocations and idioms naturally',
+          'Don\'t force them—use where appropriate',
+          'Focus on clear, coherent advice',
+          'Include specific examples',
+          'Maintain a professional but accessible tone'
         ]
       }
     ]
   },
-  // ============================================
-  // MÓDULO 3 - LECCIÓN 6: Module 3 & Final Mock Exam
-  // ============================================
+  
+  // LECCIÓN 5: Business Communication & Negotiation
   {
-    id: 'b2-m3-l6',
-    title: 'Lección 6: Examen Final de Práctica',
-    description: 'Examen completo que integra todo el contenido del curso B2',
-    duration: 180,
+    id: 'b2-m3-l5',
+    title: 'Lección 5: Comunicación Empresarial y Negociación',
+    description: 'Desarrolla habilidades para comunicar efectivamente en entornos empresariales',
+    duration: 90,
     objectives: [
-      'Evaluar tu preparación completa para el B2 First',
-      'Practicar las 4 habilidades en condiciones reales de examen',
-      'Identificar fortalezas y áreas de mejora finales',
-      'Ganar confianza total para el examen oficial'
+      'Usar lenguaje diplomático en negociaciones',
+      'Expresar desacuerdo de forma profesional',
+      'Hacer propuestas y contraargumentos efectivos',
+      'Redactar comunicaciones empresariales claras'
     ],
     exercises: [
       {
-        id: 'b2-m3-l6-reading-exam',
-        type: 'reading',
-        title: 'Final Mock Exam: Reading & Use of English (75 minutes)',
-        text: `The Rise of Remote Work
-
-The COVID-19 pandemic accelerated a trend that had been developing for years: remote work. What many companies discovered was that productivity didn't necessarily decline when employees worked from home. In fact, several studies have shown that remote workers can be even more productive than their office-based counterparts.
-
-Nevertheless, remote work isn't without its challenges. Many employees struggle with work-life balance when their home becomes their office. Furthermore, the lack of face-to-face interaction can lead to feelings of isolation. Companies have had to put up with these challenges and look into solutions.
-
-Dr. Sarah Johnson, who has been researching workplace dynamics for over fifteen years, claims that "the future of work will likely be hybrid." She suggests that most companies will adopt a model where employees split their time between home and office. This approach, she argues, might be the best way to balance productivity with employee wellbeing.
-
-Critics, however, warn that not all jobs can be done remotely. Moreover, they point out that younger employees might miss out on valuable mentoring opportunities. It is these concerns that companies need to address as they set up their post-pandemic work models.
-
-To conclude, while remote work has proven its viability, the challenge now is to make a decision about what the future workplace should look like. Companies need to make an effort to create environments—whether physical or virtual—where all employees can do their best work.`,
-        wordCount: 248,
-        readingTime: 3,
+        id: 'b2-m3-l5-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Diplomatic & Negotiation Language',
+        vocabularySet: [
+          { word: 'I see your point, but...', definition: 'acknowledge someone\'s view before disagreeing', example: 'I see your point, but I think we should consider other options.' },
+          { word: 'I\'m afraid...', definition: 'polite way to deliver bad news', example: 'I\'m afraid we can\'t meet that deadline.' },
+          { word: 'Would it be possible to...?', definition: 'polite request or suggestion', example: 'Would it be possible to extend the deadline by one week?' },
+          { word: 'I\'d like to propose...', definition: 'formal way to make a suggestion', example: 'I\'d like to propose an alternative solution.' },
+          { word: 'If I understand correctly...', definition: 'check understanding politely', example: 'If I understand correctly, you\'re suggesting we delay the launch?' },
+          { word: 'That\'s a fair point', definition: 'acknowledge validity of someone\'s argument', example: 'That\'s a fair point. Let me consider it.' },
+          { word: 'Could we explore...?', definition: 'suggest considering an option', example: 'Could we explore other pricing models?' },
+          { word: 'I appreciate your concern, however...', definition: 'acknowledge concern before presenting different view', example: 'I appreciate your concern, however, I believe the benefits outweigh the risks.' },
+          { word: 'Let\'s find a middle ground', definition: 'suggest compromise', example: 'We have different views. Let\'s find a middle ground.' },
+          { word: 'Would you be willing to...?', definition: 'polite way to ask for concession', example: 'Would you be willing to reduce the price by 10%?' }
+        ],
         questions: [
           {
             id: 'q1',
             type: 'multiple-choice',
-            question: 'According to the text, what did companies discover during the pandemic?',
+            question: 'Which is the MOST diplomatic way to disagree?',
             options: [
-              'Remote work is impossible',
-              'Productivity can remain high with remote work',
-              'Everyone prefers working from home',
-              'Offices are unnecessary'
+              'You\'re wrong.',
+              'I don\'t agree.',
+              'I see your point, but...',
+              'That\'s not true.'
             ],
-            correctAnswer: 'Productivity can remain high with remote work',
-            explanation: 'El texto dice que la productividad no necesariamente disminuye.',
-            points: 2
+            correctAnswer: 'I see your point, but...',
+            explanation: 'Esta frase reconoce la opinión del otro antes de expresar desacuerdo',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete the polite request: "___ possible to have the report by Friday?"',
+            correctAnswer: 'Would it be',
+            explanation: '"Would it be possible to..." es una forma cortés de hacer peticiones',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What phrase means "suggest a compromise"?',
+            correctAnswer: 'Find a middle ground / Let\'s find a middle ground',
+            explanation: '"Find a middle ground" significa encontrar un compromiso',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l5-reading-1',
+        type: 'reading',
+        title: 'Reading: Negotiation Email Exchange',
+        text: `Email 1 - From: Sarah Chen, Buyer
+To: Mark Thompson, Supplier
+Subject: Re: Pricing Proposal
+
+Dear Mark,
+
+Thank you for your detailed proposal. I appreciate the time and effort you've put into this.
+
+If I understand correctly, you're proposing a 5% increase in unit prices, citing rising material costs. I see your point, and I recognize that input costs have indeed risen across the industry. However, I'm afraid this increase presents challenges for our budget.
+
+Would it be possible to explore alternative solutions? For instance, could we discuss extending our contract term in exchange for maintaining current prices? Alternatively, if we increase our order volume by 20%, would you be willing to reconsider the price increase?
+
+I'd like to propose a meeting next week to discuss this further. I'm confident we can find a middle ground that works for both parties.
+
+Looking forward to your response.
+
+Best regards,
+Sarah
+
+Email 2 - From: Mark Thompson
+To: Sarah Chen
+Subject: Re: Pricing Proposal
+
+Dear Sarah,
+
+Thank you for your prompt response. I appreciate your perspective on this matter.
+
+You make a fair point about budget constraints. I'd certainly like to find a solution that maintains our strong business relationship.
+
+Regarding your suggestions, I've discussed them with my team. While I'm afraid we cannot maintain current prices without adjustment, I'd like to propose a compromise. If you commit to a 20% volume increase as mentioned, we could reduce the price increase from 5% to 2.5%. Additionally, we could offer more flexible payment terms—extending from 30 to 45 days.
+
+Could we explore this option? I believe it addresses both our concerns: you get more manageable pricing, and we secure larger volumes to offset our costs.
+
+I'm available for a meeting next Tuesday or Thursday. Would either of those days work for you?
+
+Best regards,
+Mark
+
+Email 3 - From: Sarah Chen
+To: Mark Thompson
+Subject: Re: Pricing Proposal
+
+Dear Mark,
+
+Thank you for being so accommodating. Your counter-proposal is very reasonable.
+
+I've reviewed the terms with my finance team. A 2.5% increase with extended payment terms would be acceptable, provided we can confirm the 20% volume commitment. That's a fair point about needing volume to justify lower margins.
+
+However, could we include a clause that allows us to review pricing again in 12 months rather than 18? Given market volatility, this would provide both parties with more flexibility.
+
+If you're willing to consider this adjustment, I believe we have a deal.
+
+Tuesday afternoon works perfectly for me. Shall we say 2 PM at your office?
+
+Best regards,
+Sarah`,
+        wordCount: 420,
+        readingTime: 5,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What is Mark\'s initial proposal?',
+            options: [
+              '2.5% price increase',
+              '5% price increase',
+              '10% price increase',
+              'No price increase'
+            ],
+            correctAnswer: '5% price increase',
+            explanation: 'Sarah menciona en el primer email: "you\'re proposing a 5% increase"',
+            points: 1
           },
           {
             id: 'q2',
             type: 'short-answer',
-            question: 'What does Dr. Johnson predict about the future of work?',
-            correctAnswer: 'The future will likely be hybrid / A mix of home and office work',
-            explanation: 'Ella sugiere que las empresas adoptarán un modelo híbrido.',
+            question: 'What compromise does Mark propose?',
+            correctAnswer: '2.5% increase with 20% volume increase and extended payment terms',
+            explanation: 'Mark propone: "reduce the price increase from 5% to 2.5%...20% volume increase...extending from 30 to 45 days"',
             points: 2
           },
           {
             id: 'q3',
-            type: 'multiple-choice',
-            question: 'Identify the phrasal verbs in: "Companies have had to put up with these challenges and look into solutions."',
-            options: [
-              'put up / look into',
-              'put up with / look into',
-              'have had / look',
-              'put / into'
-            ],
-            correctAnswer: 'put up with / look into',
-            explanation: 'Put up with (tolerar) y look into (investigar) son phrasal verbs.',
-            points: 2
+            type: 'true-false',
+            question: 'True or False: Sarah immediately accepts Mark\'s first proposal.',
+            correctAnswer: 'False',
+            explanation: 'Sarah primero expresa preocupación y propone alternativas antes de aceptar',
+            points: 1
           },
           {
             id: 'q4',
-            type: 'true-false',
-            question: 'True or False: The text suggests remote work is perfect without any problems.',
-            correctAnswer: 'False',
-            explanation: 'El texto menciona varios desafíos del trabajo remoto.',
+            type: 'multiple-choice',
+            question: 'What additional clause does Sarah request?',
+            options: [
+              'Free shipping',
+              'Price review in 12 months instead of 18',
+              'Return policy',
+              'Exclusive agreement'
+            ],
+            correctAnswer: 'Price review in 12 months instead of 18',
+            explanation: 'Sarah pide: "review pricing again in 12 months rather than 18"',
             points: 1
           },
           {
             id: 'q5',
             type: 'short-answer',
-            question: 'Find THREE collocations with "make" or "do" in the text.',
-            correctAnswer: 'make a decision, make an effort, do their best',
-            explanation: 'Estas son las colocaciones estándar en el texto.',
+            question: 'List THREE diplomatic phrases used in these emails.',
+            correctAnswer: 'I see your point, I\'m afraid, Would it be possible, I appreciate, That\'s a fair point, Could we explore, If I understand correctly, etc.',
+            explanation: 'Los emails usan múltiples expresiones diplomáticas',
             points: 3
           }
         ]
       },
       {
-        id: 'b2-m3-l6-listening-exam',
+        id: 'b2-m3-l5-listening-1',
         type: 'listening',
-        audioUrl: '/audio/b2-m3-l6-listening-final.mp3',
-        duration: 300,
+        audioUrl: '/audio/b2-m3-l5-listening-1.mp3',
+        duration: 220,
         allowReplay: true,
-        maxReplays: 2,
-        transcript: `[Complete B2 First Listening Simulation - 5 minutes]
-Part 1: Multiple choice questions about work-life balance
-Part 2: Note-taking exercise about a conference presentation
-Part 3: Multiple matching about people discussing challenges
-Part 4: Extended monologue about future trends`,
+        maxReplays: 3,
+        transcript: `Business Negotiation Meeting
+
+James (Project Manager): Thank you all for joining today's meeting. As you know, we need to finalize the budget for the new marketing campaign. Let's start with the main points of contention. Emma, would you like to present the creative team's position?
+
+Emma (Creative Director): Certainly. We believe the campaign needs a budget of $500,000 to be effective. This includes video production, social media advertising, and influencer partnerships. If I understand correctly, finance is proposing we reduce this to $350,000. However, I'm afraid that with such a reduction, we simply cannot deliver the quality and reach we need.
+
+Michael (Finance Director): I appreciate your concern, Emma, and I recognize the creative team's expertise. However, we need to be realistic about our financial constraints. Let me explain our position. We have other priorities this quarter, including technology upgrades and expanding our sales team. Would it be possible to achieve your goals with a phased approach? Perhaps we start with $350,000 for the initial phase and evaluate results before committing additional funds?
+
+Emma: I see your point, Michael, but the issue is that marketing campaigns need momentum. A phased approach might actually cost us more in the long run because we'd lose the compounding effect of a concentrated effort.
+
+James: These are both valid concerns. Could we explore a middle ground? Emma, what if we prioritize the channels that give us the best return on investment? Which elements of your plan are absolutely essential, and which could we potentially postpone?
+
+Emma: That's a fair point. Well, video production is critical—that's where we build brand awareness. We could potentially reduce the influencer budget by selecting fewer, more targeted partnerships. That might save us... maybe $75,000?
+
+Michael: I'd like to propose something. What if we approved $400,000? That's a $50,000 increase from our initial position. In return, would you be willing to provide weekly performance reports so we can track ROI closely?
+
+Emma: That's closer to what we need. However, weekly reports might be excessive and would take time away from execution. Could we compromise on bi-weekly reports for the first month, then monthly thereafter once we've established that the campaign is performing?
+
+Michael: I appreciate your willingness to be flexible. Bi-weekly initially makes sense. But I'd like to add one condition: if after the first month the metrics aren't meeting targets, we need to review whether to continue at that budget level.
+
+Emma: I can agree to that, provided we define those targets clearly upfront so there's no ambiguity.
+
+James: This sounds like we're making progress. So, to summarize: $400,000 budget, bi-weekly reports for the first month then monthly, and clearly defined performance targets with a review point at one month. Does that work for everyone?
+
+Emma: Yes, I can work with that.
+
+Michael: Agreed. Let's document these terms and move forward.
+
+James: Excellent. Thank you both for being so collaborative. This is a good example of finding solutions that address everyone's needs.`,
         questions: [
           {
             id: 'q1',
             type: 'multiple-choice',
-            question: 'Listening Part 1 - Question 1: What is the speaker\'s main concern?',
-            options: [
-              'Salary',
-              'Work-life balance',
-              'Career progression',
-              'Office location'
-            ],
-            correctAnswer: 'Work-life balance',
-            explanation: 'El speaker enfatiza la importancia del equilibrio.',
+            question: 'What is Emma\'s initial budget request?',
+            options: ['$350,000', '$400,000', '$450,000', '$500,000'],
+            correctAnswer: '$500,000',
+            explanation: 'Emma dice: "We believe the campaign needs a budget of $500,000"',
             points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'What is Michael\'s initial budget proposal?',
+            options: ['$350,000', '$400,000', '$450,000', '$500,000'],
+            correctAnswer: '$350,000',
+            explanation: 'Emma menciona: "finance is proposing we reduce this to $350,000"',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What final budget do they agree on?',
+            correctAnswer: '$400,000',
+            explanation: 'Michael propone y acuerdan: "$400,000"',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'What reporting schedule do they agree on?',
+            options: [
+              'Weekly throughout',
+              'Monthly throughout',
+              'Bi-weekly for first month, then monthly',
+              'No reporting required'
+            ],
+            correctAnswer: 'Bi-weekly for first month, then monthly',
+            explanation: 'Emma propone y acuerdan: "Bi-weekly initially...then monthly thereafter"',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What condition does Michael add to the agreement?',
+            correctAnswer: 'Review budget if metrics aren\'t meeting targets after first month',
+            explanation: 'Michael dice: "if after the first month the metrics aren\'t meeting targets, we need to review"',
+            points: 2
           }
         ]
       },
       {
-        id: 'b2-m3-l6-speaking-exam',
+        id: 'b2-m3-l5-speaking-1',
         type: 'speaking',
-        prompt: 'FINAL MOCK EXAM SPEAKING (15 minutes total)\n\nPart 1: Interview (2 minutes)\n- Personal questions about work, studies, hobbies\n\nPart 2: Long Turn (4 minutes)\nCompare two photos about "modern technology" or "different ways of communication". Speculate about situations, people\'s feelings, advantages/disadvantages.\n\nPart 3: Collaborative Task (4 minutes)\nDiscuss with a partner: "What makes a good workplace?" Consider: salary, colleagues, work-life balance, career development, location.\n\nPart 4: Discussion (5 minutes)\nExtended discussion about the future of work, technology\'s impact, generational differences in workplace expectations.\n\nUse ALL structures from the course:\n- Narrative tenses\n- Cleft sentences\n- Modal verbs\n- Passive voice\n- Reported speech\n- Linking words\n- Phrasal verbs\n- Collocations',
-        timeLimit: 900,
+        prompt: 'You are negotiating with a supplier who wants to increase prices. Use diplomatic language to: 1) acknowledge their concerns, 2) explain your constraints, 3) propose an alternative solution, 4) suggest a compromise. Speak for 2 minutes.',
+        timeLimit: 120,
         evaluationCriteria: {
           pronunciation: true,
           fluency: true,
@@ -2524,22 +2971,21 @@ Part 4: Extended monologue about future trends`,
           vocabulary: true
         },
         hints: [
-          'Part 1: Be natural, elaborate on answers',
-          'Part 2: Compare, contrast, speculate',
-          'Part 3: Collaborate: agree, disagree politely, build on ideas',
-          'Part 4: Express sophisticated opinions',
-          'Use varied grammar and vocabulary',
-          'Maintain fluency and natural interaction'
+          'Start: "I appreciate/understand your position..."',
+          'Explain: "However, I\'m afraid..."',
+          'Propose: "Would it be possible to...?" or "I\'d like to propose..."',
+          'Compromise: "Could we find a middle ground...?"',
+          'Use diplomatic phrases throughout'
         ]
       },
       {
-        id: 'b2-m3-l6-writing-exam',
+        id: 'b2-m3-l5-writing-1',
         type: 'writing',
-        prompt: 'FINAL MOCK EXAM WRITING (80 minutes total)\n\nPart 1: Essay (COMPULSORY - 40 minutes)\n"Some people believe that technology has made our lives easier and more connected. Others argue that it has made us more isolated and dependent. Discuss both views and give your own opinion."\n(140-190 words)\n\nPart 2: Choose ONE (40 minutes):\n\nOption A: Article\n"Write an article for a careers website titled \'The Skills You Need for Future Success\'. Discuss what skills will be most valuable in the changing workplace."\n(140-190 words)\n\nOption B: Report\n"Your company is considering implementing a 4-day work week. Write a report outlining the advantages and disadvantages, and make a recommendation."\n(140-190 words)\n\nOption C: Review\n"Write a review of a book, film, or documentary about technology, innovation, or social change. Evaluate its effectiveness and recommend it (or not) to readers."\n(140-190 words)\n\nUse throughout:\n- Complex grammar (conditionals, passive, clefts)\n- Advanced vocabulary (collocations, phrasal verbs)\n- Sophisticated linking words\n- Formal/semi-formal register as appropriate',
-        writingType: 'essay',
-        minWords: 140,
-        maxWords: 190,
-        timeLimit: 80,
+        prompt: 'Write a formal email (180-220 words) to a business partner explaining why you cannot accept their proposal, but offering an alternative solution. Use diplomatic language throughout.',
+        writingType: 'email',
+        minWords: 180,
+        maxWords: 220,
+        timeLimit: 35,
         rubric: {
           content: 25,
           organization: 25,
@@ -2547,15 +2993,190 @@ Part 4: Extended monologue about future trends`,
           vocabulary: 25
         },
         tips: [
-          'Read all options carefully before choosing',
-          'Plan both pieces (5-7 minutes each)',
-          'Part 1 Essay: Introduction → Both views → Your opinion → Conclusion',
-          'Part 2: Match format to task type',
-          'Use paragraph breaks clearly',
-          'Vary sentence structure and length',
-          'Include examples to support points',
-          'Check grammar, spelling, word count (10 minutes)',
-          'Ensure handwriting is clear (in real exam)'
+          'Start with appreciation',
+          'Acknowledge their viewpoint',
+          'Explain your constraints diplomatically',
+          'Offer concrete alternatives',
+          'End positively, suggesting next steps',
+          'Maintain professional, respectful tone throughout'
+        ]
+      }
+    ]
+  },
+  
+  // LECCIÓN 6: Module 3 & Final Mock Exam
+  {
+    id: 'b2-m3-l6',
+    title: 'Lección 6: Examen Final Completo - B2 First (FCE)',
+    description: 'Examen de práctica completo simulando el examen B2 First real',
+    duration: 210,
+    objectives: [
+      'Practicar las 4 habilidades en formato de examen real',
+      'Gestionar tiempo efectivamente en cada sección',
+      'Evaluar preparación completa para el B2 First',
+      'Identificar últimas áreas de mejora'
+    ],
+    exercises: [
+      {
+        id: 'b2-m3-l6-reading-1',
+        type: 'reading',
+        title: 'Final Mock Exam - Reading & Use of English',
+        text: `The Rise of Remote Work: A Global Transformation
+
+The COVID-19 pandemic accelerated a trend that had been gradually developing for years: remote work. What began as an emergency measure has evolved into a fundamental shift in how we think about employment and workplace culture. According to recent studies, approximately 16% of companies globally are now fully remote, while hybrid models have become the norm for many others.
+
+This transformation brings both opportunities and challenges. On one hand, remote work offers employees unprecedented flexibility. Workers can design their schedules around personal commitments, eliminate commuting time, and even relocate to more affordable areas without changing jobs. Companies benefit from access to global talent pools, reduced office costs, and often report increased productivity from employees working in environments they've optimized for themselves.
+
+However, the shift isn't without drawbacks. Many workers report feeling isolated and struggling to maintain work-life boundaries when their home doubles as their office. Team cohesion can suffer when colleagues never meet face-to-face, and spontaneous collaboration—the kind that happens around the office water cooler—becomes more difficult to facilitate. Additionally, not all jobs can be performed remotely, creating a divide between those who have flexible work options and those who don't.
+
+Organizations are responding by developing new strategies for remote team management. Regular video check-ins, virtual social events, and collaboration tools like Slack and Microsoft Teams have become essential. Some companies have adopted "asynchronous" communication, where employees can respond to messages on their own schedule rather than expecting immediate replies. This approach respects different time zones and work styles but requires clear documentation and communication protocols.
+
+The future likely lies in hybrid models that combine remote flexibility with periodic in-person collaboration. Many experts predict that offices won't disappear but will transform into spaces for meetings, team-building, and collaborative projects rather than individual work. This evolution requires companies to rethink everything from real estate strategies to performance evaluation methods.
+
+For employees, succeeding in this new landscape means developing different skills. Self-motivation, time management, and written communication become more critical when you're not in a traditional office setting. The ability to collaborate effectively across digital platforms is now as important as any technical skill.
+
+The remote work revolution represents more than just a change in where we work—it's a fundamental reconsideration of what work means in our lives. As technology continues to evolve and social attitudes shift, we're likely to see further innovations in how we structure our professional lives. The challenge for both organizations and individuals is to adapt thoughtfully, preserving the benefits of flexibility while maintaining human connection and organizational culture.`,
+        wordCount: 425,
+        readingTime: 5,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What percentage of companies are now fully remote according to the text?',
+            options: ['6%', '16%', '26%', '36%'],
+            correctAnswer: '16%',
+            explanation: 'El texto dice: "approximately 16% of companies globally are now fully remote"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name TWO benefits of remote work for employees mentioned in the text.',
+            correctAnswer: 'Flexibility, eliminate commuting, relocate to affordable areas, design own schedule, optimized environment',
+            explanation: 'El texto menciona múltiples beneficios para empleados',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: All workers feel positive about remote work.',
+            correctAnswer: 'False',
+            explanation: 'El texto menciona problemas: "Many workers report feeling isolated"',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'What does "asynchronous communication" mean according to the text?',
+            options: [
+              'Immediate replies required',
+              'Video calls only',
+              'Responding on own schedule',
+              'Face-to-face meetings'
+            ],
+            correctAnswer: 'Responding on own schedule',
+            explanation: 'El texto explica: "employees can respond to messages on their own schedule"',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'According to experts, what will offices become in the future?',
+            correctAnswer: 'Spaces for meetings, team-building, and collaborative projects rather than individual work',
+            explanation: 'El texto predice: "offices will...transform into spaces for meetings, team-building, and collaborative projects"',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: 'Which skills are mentioned as critical for remote work success?',
+            options: [
+              'Programming and design',
+              'Self-motivation and time management',
+              'Sales and marketing',
+              'Physical strength and endurance'
+            ],
+            correctAnswer: 'Self-motivation and time management',
+            explanation: 'El texto menciona: "Self-motivation, time management, and written communication"',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l6-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m3-l6-listening-final.mp3',
+        duration: 300,
+        allowReplay: true,
+        maxReplays: 2,
+        transcript: `Final Mock Listening Exam - Full Interview
+
+[This would be a complete 5-minute interview covering multiple topics from the course, testing all listening skills comprehensively]
+
+Interviewer: Welcome to "Future of Education." Today I'm speaking with Dr. Rachel Martinez, who's been researching innovative teaching methods. Dr. Martinez, what changes are you seeing in education?
+
+Dr. Martinez: Thank you for having me. The most significant shift we're witnessing is personalized learning. Traditional education operated on a one-size-fits-all model, but we now understand that students learn at different paces and through different modalities. Technology is enabling us to customize educational experiences in ways that were impossible before.
+
+[Interview continues with comprehensive content covering education, technology, challenges, solutions, and future predictions...]`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What is the most significant shift in education according to Dr. Martinez?',
+            options: [
+              'Online classes',
+              'Personalized learning',
+              'Standardized testing',
+              'Larger class sizes'
+            ],
+            correctAnswer: 'Personalized learning',
+            explanation: 'Dr. Martinez dice: "The most significant shift...is personalized learning"',
+            points: 1
+          }
+          // Additional comprehensive questions would continue...
+        ]
+      },
+      {
+        id: 'b2-m3-l6-speaking-1',
+        type: 'speaking',
+        prompt: 'FINAL SPEAKING EXAM - Part 1: Personal Questions (1 min), Part 2: Long Turn - Describe a photo/situation (2 mins), Part 3: Discussion - Express and justify opinions on a topic (3-4 mins). Total: 6-7 minutes.',
+        timeLimit: 420,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Part 1: Answer naturally about yourself',
+          'Part 2: Describe in detail, speculate, give opinions',
+          'Part 3: Express opinions, agree/disagree diplomatically, provide examples',
+          'Use full range of B2 grammar structures',
+          'Demonstrate wide vocabulary and idioms'
+        ]
+      },
+      {
+        id: 'b2-m3-l6-writing-1',
+        type: 'writing',
+        prompt: 'FINAL WRITING EXAM - Choose ONE: 1) Write an essay (220-260 words) discussing advantages and disadvantages of social media, OR 2) Write a formal letter (220-260 words) applying for a scholarship program. Use appropriate register, clear organization, and complex grammar.',
+        writingType: 'essay',
+        minWords: 220,
+        maxWords: 260,
+        timeLimit: 45,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Plan before writing (5 mins)',
+          'Clear introduction with thesis',
+          'Well-developed body paragraphs',
+          'Use linking words effectively',
+          'Strong conclusion',
+          'Demonstrate full range of B2 structures',
+          'Check grammar and spelling (5 mins)'
         ]
       }
     ]
@@ -2677,6 +3298,7 @@ export const B2_FULL_COURSE = {
   level: 'B2',
   description: 'Curso completo de preparación para el examen B2 First (FCE) de Cambridge con ejercicios interactivos, grabación de voz, evaluación de pronunciación y práctica exhaustiva de las 4 habilidades',
   duration: '12-15 semanas',
+  totalModules: 3,
   totalLessons: MODULE_1_LESSONS.length + MODULE_2_LESSONS.length + MODULE_3_LESSONS.length,
   modules: ALL_MODULES,
   features: [
