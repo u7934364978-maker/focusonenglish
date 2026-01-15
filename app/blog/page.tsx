@@ -69,11 +69,11 @@ const blogCategories = [
     color: "from-blue-600 to-cyan-600",
     articles: [
       {
-        title: "La Noche Que Casi Duermo En El Aeropuerto de Heathrow Por No Entender 'Gate Change'",
+        title: "Confesiones de Un Ex-Azafato: Las 47 Frases Que Separan a Los Viajeros Que La Pasan Mal de Los Que Viajan Como Profesionales",
         slug: "ingles-esencial-viajar",
-        excerpt: "Cinco historias reales de viajeros españoles que aprendieron inglés de la forma más dura. Miguel, Carmen, Pedro, Laura y Javier te cuentan sus desastres.",
+        excerpt: "Después de 8 años asistiendo a 50,000+ pasajeros en vuelos internacionales, Javier Moreno revela las frases exactas que marcan la diferencia. Sistema probado de 47 frases en 7 días.",
         date: "2026-01-15",
-        readTime: "15 min"
+        readTime: "12 min"
       }
     ]
   },
