@@ -5,6 +5,7 @@ import path from "path";
 import matter from "gray-matter";
 import { notFound } from "next/navigation";
 import { ShareButton } from "./ShareButton";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schemas";
 
 const BLOG_DIR = path.join(process.cwd(), "content/blog");
 
@@ -31,16 +32,33 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const fileContent = fs.readFileSync(filePath, "utf-8");
   const { data } = matter(fileContent);
 
+  // Optimized title for SEO
+  const seoTitle = data.title.includes("2026") 
+    ? data.title 
+    : data.title.replace(/^Guía/, "Guía 2026:");
+
   return {
-    title: `${data.title} | Focus English Blog`,
+    title: `${seoTitle} | Blog Focus English`,
     description: data.description,
     keywords: data.keywords || [],
     authors: [{ name: data.author || "Focus English" }],
     openGraph: {
-      title: data.title,
+      title: seoTitle,
       description: data.description,
       type: "article",
       publishedTime: data.date,
+      modifiedTime: data.dateModified || data.date,
+      authors: [data.author || "Focus English"],
+      section: data.category,
+      tags: data.keywords,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: seoTitle,
+      description: data.description,
+    },
+    alternates: {
+      canonical: `/blog/${slug}`,
     },
   };
 }
@@ -55,6 +73,27 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
 
   const fileContent = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(fileContent);
+
+  // Generate Article Schema for SEO
+  const wordCount = content.split(/\s+/).length;
+  const articleSchema = generateArticleSchema({
+    title: data.title,
+    description: data.description,
+    image: "/blog/og-image.jpg", // TODO: Add specific images per article
+    datePublished: data.date,
+    dateModified: data.dateModified || data.date,
+    slug,
+    category: data.category,
+    keywords: data.keywords,
+    wordCount,
+  });
+
+  // Generate Breadcrumb Schema
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Inicio", url: "https://focus-on-english.com" },
+    { name: "Blog", url: "https://focus-on-english.com/blog" },
+    { name: data.title, url: `https://focus-on-english.com/blog/${slug}` },
+  ]);
 
   // Simple markdown to HTML conversion (basic)
   const htmlContent = content
@@ -78,15 +117,30 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
   return (
     <>
       <Navigation />
+      
+      {/* Schema.org structured data for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
       <main className="min-h-screen bg-white">
         {/* Article Header */}
         <article className="pt-32 pb-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            {/* Breadcrumb */}
-            <nav className="mb-8">
-              <Link href="/blog" className="text-violet-600 hover:text-violet-700 font-semibold text-sm">
-                ← Volver al Blog
-              </Link>
+            {/* Breadcrumb - Updated for SEO */}
+            <nav className="mb-8" aria-label="breadcrumb">
+              <ol className="flex items-center gap-2 text-sm text-slate-600">
+                <li><Link href="/" className="hover:text-violet-600 transition-colors">Inicio</Link></li>
+                <li className="text-slate-400">›</li>
+                <li><Link href="/blog" className="hover:text-violet-600 transition-colors">Blog</Link></li>
+                <li className="text-slate-400">›</li>
+                <li className="font-semibold text-slate-900">{data.category === "trabajo" ? "Inglés para Trabajar" : data.category === "viajes" ? "Inglés para Viajar" : "Preparación de Exámenes"}</li>
+              </ol>
             </nav>
 
             {/* Category Badge */}
