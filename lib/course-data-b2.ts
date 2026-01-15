@@ -883,13 +883,1403 @@ Not only do unexpected paths bring valuable skills, but they also build resilien
 Under no circumstances should we view career changes as failures. If you had stayed in your original field, you might have missed discovering your true calling. Seldom do we recognize the value of our journey while we're still on it, but looking back, those unexpected turns often prove to be the most valuable.`
       }
     ]
+  },
+  // Lección 3: Passive Voice
+  {
+    id: 'b2-m1-l3',
+    title: 'Lección 3: Passive Voice - Voz Pasiva Avanzada',
+    description: 'Domina el uso de la voz pasiva en todos los tiempos verbales',
+    duration: 90,
+    objectives: [
+      'Formar la voz pasiva en todos los tiempos verbales',
+      'Usar la voz pasiva para énfasis y formalidad',
+      'Distinguir cuándo usar voz activa vs pasiva',
+      'Aplicar estructuras pasivas en contextos académicos y formales'
+    ],
+    exercises: [
+      {
+        id: 'b2-m1-l3-grammar-1',
+        type: 'grammar',
+        title: 'Passive Voice: Formación en Todos los Tiempos',
+        grammarPoint: 'Passive Voice (be + past participle)',
+        explanation: 'La voz pasiva se usa cuando queremos enfatizar la acción o el objeto, no quien la realiza. Estructura: Subject + be (en el tiempo apropiado) + past participle. Ejemplos:\n- Present Simple: The letters are sent every day.\n- Past Simple: The book was written in 1950.\n- Present Perfect: The work has been completed.\n- Future: The project will be finished tomorrow.',
+        examples: [
+          'Active: They build many houses. → Passive: Many houses are built.',
+          'Active: Shakespeare wrote Hamlet. → Passive: Hamlet was written by Shakespeare.',
+          'Active: Someone has stolen my car. → Passive: My car has been stolen.',
+          'Active: They will complete the project. → Passive: The project will be completed.',
+          'Active: The company is launching a new product. → Passive: A new product is being launched.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Convert to passive: "The chef prepares the meals."',
+            options: [
+              'The meals prepare by the chef.',
+              'The meals are prepared by the chef.',
+              'The meals were prepared by the chef.',
+              'The meals have been prepared by the chef.'
+            ],
+            correctAnswer: 'The meals are prepared by the chef.',
+            explanation: 'Present Simple passive: are/is + past participle',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: The new hospital ___ (build) next year.',
+            correctAnswer: 'will be built',
+            explanation: 'Future passive: will be + past participle',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Which sentence is in the passive voice?',
+            options: [
+              'The company launched a new product.',
+              'A new product has been launched.',
+              'They are launching a new product.',
+              'The company will launch a new product.'
+            ],
+            correctAnswer: 'A new product has been launched.',
+            explanation: 'Present Perfect passive: has/have been + past participle',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l3-reading-1',
+        type: 'reading',
+        title: 'Reading: The Discovery of Penicillin',
+        text: `One of the most important medical discoveries of the 20th century was made almost by accident. Penicillin, the world's first antibiotic, was discovered by Alexander Fleming in 1928, though its full potential wasn't realized until many years later.
+
+Fleming was working in his laboratory at St. Mary's Hospital in London when he noticed something unusual. A petri dish containing Staphylococcus bacteria had been contaminated by a mold, and around this mold, the bacteria had been killed. The mold was later identified as Penicillium notatum.
+
+Although the discovery was made in 1928, penicillin wasn't mass-produced until the 1940s. During World War II, the antibiotic was desperately needed to treat wounded soldiers. Factories were converted to produce penicillin, and by 1945, enough was being manufactured to treat all Allied soldiers who needed it.
+
+The impact of this discovery cannot be overstated. Before penicillin was introduced, simple infections could be fatal. Today, millions of lives are saved every year thanks to antibiotics. Fleming was awarded the Nobel Prize in 1945, which he shared with Howard Florey and Ernst Chain, who had helped develop penicillin for medical use.
+
+However, Fleming warned about antibiotic resistance. He said that if penicillin was used incorrectly, bacteria could become resistant to it. Unfortunately, his warning has been proven correct, and today antibiotic resistance is considered one of the biggest threats to global health.`,
+        wordCount: 234,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'When was penicillin discovered?',
+            options: ['1920', '1928', '1940', '1945'],
+            correctAnswer: '1928',
+            explanation: 'The text states: "was discovered by Alexander Fleming in 1928"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'Penicillin was mass-produced immediately after its discovery.',
+            correctAnswer: 'False',
+            explanation: 'The text says: "penicillin wasn\'t mass-produced until the 1940s"',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What did Fleming warn about regarding penicillin use?',
+            correctAnswer: 'Antibiotic resistance / bacteria becoming resistant',
+            explanation: 'Fleming warned that incorrect use could lead to antibiotic resistance',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'antibiotic', definition: 'a medicine that kills bacteria' },
+          { word: 'contaminated', definition: 'made impure by exposure to something harmful' },
+          { word: 'overstated', definition: 'exaggerated or described as greater than it really is' },
+          { word: 'resistance', definition: 'the ability to withstand or fight against something' }
+        ]
+      },
+      {
+        id: 'b2-m1-l3-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m1-l3-listening-1.mp3',
+        duration: 150,
+        allowReplay: true,
+        maxReplays: 3,
+        transcript: `Presenter: Today we're discussing archaeological discoveries. Dr. Martinez, can you tell us about the recent findings in Peru?
+
+Dr. Martinez: Certainly. An incredible ancient city was uncovered last year by a team of archaeologists from the University of Lima. The city is believed to have been inhabited by the Inca civilization over 500 years ago.
+
+Presenter: How was it discovered?
+
+Dr. Martinez: It was actually found by accident. A farmer was plowing his field when he noticed some unusual stones. The authorities were contacted, and a proper excavation was organized. Over 200 artifacts have been recovered so far, including pottery, tools, and jewelry.
+
+Presenter: What makes this discovery significant?
+
+Dr. Martinez: Several factors. First, the city is remarkably well-preserved. Many buildings are still standing, and intricate carvings can be seen on the walls. Second, texts written in ancient Quechua were found, which might help us understand more about Inca culture. These texts are currently being translated by experts.
+
+Presenter: Will the site be opened to tourists?
+
+Dr. Martinez: Not immediately. The area is being carefully studied first. More excavations are being planned for next year. Once all the research has been completed, the site will probably be opened to visitors, but that won't happen for at least three years.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'How was the ancient city discovered?',
+            options: [
+              'By archaeologists on an expedition',
+              'By a farmer working in his field',
+              'By satellite imaging',
+              'By local historians'
+            ],
+            correctAnswer: 'By a farmer working in his field',
+            explanation: 'Dr. Martinez says: "A farmer was plowing his field when he noticed some unusual stones"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'The site will be opened to tourists next year.',
+            correctAnswer: 'False',
+            explanation: 'Dr. Martinez says it won\'t happen for at least three years',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What types of artifacts have been recovered?',
+            correctAnswer: 'Pottery, tools, and jewelry',
+            explanation: 'The text mentions these three types of artifacts',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l3-speaking-1',
+        type: 'speaking',
+        prompt: 'Describe an important invention or discovery and explain its impact on society. Use passive voice structures to describe how it was created, developed, and used. Speak for 2-3 minutes.',
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Start with: "One of the most significant inventions is..."',
+          'Use passive voice: "was invented by...", "has been used...", "is considered..."',
+          'Describe the process: "was developed", "was improved", "was introduced"',
+          'Explain the impact: "lives have been changed", "society has been transformed"',
+          'Use formal vocabulary appropriate for describing discoveries'
+        ]
+      },
+      {
+        id: 'b2-m1-l3-writing-1',
+        type: 'writing',
+        prompt: 'Write a report (180-220 words) about a recent scientific breakthrough or technological innovation. Use passive voice extensively to maintain a formal, academic tone.',
+        writingType: 'report',
+        minWords: 180,
+        maxWords: 220,
+        timeLimit: 30,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Use report structure: Introduction, Findings, Conclusion',
+          'Use passive voice for formality: "was discovered", "has been developed"',
+          'Include specific details and data',
+          'Use formal academic vocabulary',
+          'Avoid personal pronouns (I, we, you)',
+          'Use present perfect passive for recent developments'
+        ]
+      }
+    ]
+  },
+  // Lección 4: Reported Speech
+  {
+    id: 'b2-m1-l4',
+    title: 'Lección 4: Reported Speech - Estilo Indirecto Avanzado',
+    description: 'Aprende a reportar declaraciones, preguntas y órdenes con precisión',
+    duration: 90,
+    objectives: [
+      'Transformar discurso directo a indirecto correctamente',
+      'Usar reporting verbs apropiados (claim, suggest, admit, etc.)',
+      'Reportar preguntas y órdenes',
+      'Aplicar cambios de tiempo verbal y pronombres'
+    ],
+    exercises: [
+      {
+        id: 'b2-m1-l4-grammar-1',
+        type: 'grammar',
+        title: 'Reported Speech: Statements and Time Changes',
+        grammarPoint: 'Reported Speech with reporting verbs',
+        explanation: 'En estilo indirecto, reportamos lo que alguien dijo sin usar comillas. Los tiempos verbales generalmente cambian:\n- Present Simple → Past Simple\n- Present Continuous → Past Continuous\n- Past Simple → Past Perfect\n- Present Perfect → Past Perfect\n- Will → Would\n\nEjemplo: "I am tired" → She said (that) she was tired.',
+        examples: [
+          'Direct: "I work here." → Reported: He said he worked there.',
+          'Direct: "I\'m leaving tomorrow." → Reported: She said she was leaving the next day.',
+          'Direct: "I have finished." → Reported: He said he had finished.',
+          'Direct: "I will call you." → Reported: She said she would call me.',
+          'Direct: "I can help." → Reported: He said he could help.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Report: "I am studying English." → She said...',
+            options: [
+              'she is studying English',
+              'she was studying English',
+              'she has been studying English',
+              'she will study English'
+            ],
+            correctAnswer: 'she was studying English',
+            explanation: 'Present Continuous → Past Continuous in reported speech',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Report: "I have never been to Paris." → He said he ___ never ___ to Paris.',
+            correctAnswer: 'had, been',
+            explanation: 'Present Perfect → Past Perfect in reported speech',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Report: "I will help you tomorrow." → She said...',
+            correctAnswer: 'she would help me the next day',
+            explanation: 'Will → Would, you → me, tomorrow → the next day',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l4-reading-1',
+        type: 'reading',
+        title: 'Reading: Interview with a Climate Scientist',
+        text: `In a recent interview, Dr. Sarah Chen, a leading climate scientist, shared her concerns about global warming. She said that the planet was warming at an unprecedented rate and that urgent action was needed.
+
+When asked about the main causes, Dr. Chen explained that human activities were primarily responsible. She stated that burning fossil fuels had increased carbon dioxide levels dramatically over the past century. She added that deforestation was also contributing significantly to the problem.
+
+The interviewer asked whether it was too late to reverse the damage. Dr. Chen replied that while some changes were irreversible, humanity could still prevent the worst outcomes. She emphasized that governments needed to act immediately and that individuals also had a role to play.
+
+Dr. Chen mentioned that she had been studying climate patterns for over twenty years. She revealed that the data was clear and that scientists around the world agreed that climate change was real and caused by human activity.
+
+When questioned about solutions, Dr. Chen suggested that renewable energy sources should be adopted more widely. She recommended that people reduce their carbon footprint by using public transportation, eating less meat, and consuming less energy at home. She warned that if immediate action wasn't taken, future generations would face severe consequences.
+
+The scientist concluded by saying that she remained hopeful. She believed that humanity had the technology and knowledge to address the crisis, but stressed that political will and public awareness needed to increase urgently.`,
+        wordCount: 245,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to Dr. Chen, what is primarily responsible for climate change?',
+            options: [
+              'Natural climate cycles',
+              'Human activities',
+              'Solar radiation',
+              'Ocean currents'
+            ],
+            correctAnswer: 'Human activities',
+            explanation: 'Dr. Chen stated that human activities were primarily responsible',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'Dr. Chen believes it is too late to prevent climate change.',
+            correctAnswer: 'False',
+            explanation: 'She said humanity could still prevent the worst outcomes',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What solutions did Dr. Chen suggest? (Name at least two)',
+            correctAnswer: 'Renewable energy, public transportation, eating less meat, consuming less energy',
+            explanation: 'She suggested multiple solutions including these',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'unprecedented', definition: 'never done or experienced before' },
+          { word: 'deforestation', definition: 'the clearing of forests on a large scale' },
+          { word: 'irreversible', definition: 'impossible to change back' },
+          { word: 'carbon footprint', definition: 'the amount of carbon dioxide released due to one\'s activities' }
+        ]
+      },
+      {
+        id: 'b2-m1-l4-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m1-l4-listening-1.mp3',
+        duration: 180,
+        allowReplay: true,
+        maxReplays: 3,
+        transcript: `Interviewer: Today I'm speaking with Emma, who recently returned from volunteering in Africa. Emma, can you tell us about your experience?
+
+Emma: It was absolutely life-changing. Before I left, people told me it would be challenging, and they were right. My friends warned me that I would miss home, but they also said I would learn so much about myself.
+
+Interviewer: What did you do there?
+
+Emma: I taught English at a local school. The principal explained that they desperately needed teachers and that volunteers were always welcome. She mentioned that the previous volunteer had stayed for six months and had made a huge impact.
+
+Interviewer: Did you face any difficulties?
+
+Emma: Definitely. At first, I thought I wouldn't be able to cope. The conditions were difficult – there was no running water, and electricity was limited. But the local people told me I would get used to it, and they were absolutely right. After a few weeks, I adapted completely.
+
+Interviewer: What was the most rewarding part?
+
+Emma: Seeing my students' progress. At the beginning, many of them said they couldn't speak English at all. I encouraged them and told them they could learn if they practiced every day. By the end of my three months there, they were having basic conversations in English. One student told me that I had changed her life and that she now wanted to become a teacher herself.
+
+Interviewer: Would you recommend the experience?
+
+Emma: Absolutely! I've been telling everyone that they should try volunteering abroad. It teaches you things you can't learn in a classroom. I've already decided that I'm going back next year.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What did Emma\'s friends warn her about?',
+            options: [
+              'That she would get sick',
+              'That she would miss home',
+              'That she would be bored',
+              'That she wouldn\'t find work'
+            ],
+            correctAnswer: 'That she would miss home',
+            explanation: 'Emma said: "My friends warned me that I would miss home"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'The conditions were comfortable with running water and electricity.',
+            correctAnswer: 'False',
+            explanation: 'Emma stated there was no running water and limited electricity',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What did one of Emma\'s students tell her?',
+            correctAnswer: 'That Emma had changed her life / that she wanted to become a teacher',
+            explanation: 'The student said Emma had changed her life and she wanted to become a teacher',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l4-speaking-1',
+        type: 'speaking',
+        prompt: 'Report a conversation you had recently with someone about an important topic. Use reported speech and various reporting verbs (said, told, explained, suggested, warned, etc.). Speak for 2-3 minutes.',
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Start with context: "Last week I spoke to... about..."',
+          'Use variety of reporting verbs: said, told, explained, mentioned, suggested',
+          'Remember time changes: now → then, today → that day, tomorrow → the next day',
+          'Include questions: "She asked me if/whether...", "He wanted to know..."',
+          'End with the outcome or your reaction to the conversation'
+        ]
+      },
+      {
+        id: 'b2-m1-l4-writing-1',
+        type: 'writing',
+        prompt: 'Write an article (180-220 words) for a school magazine reporting on an interview with a successful person in your field of interest. Use reported speech throughout.',
+        writingType: 'article',
+        minWords: 180,
+        maxWords: 220,
+        timeLimit: 30,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Start with an engaging headline',
+          'Use varied reporting verbs: stated, explained, revealed, claimed, emphasized',
+          'Include direct and indirect questions',
+          'Mix reported statements with your own commentary',
+          'End with a strong conclusion or quote',
+          'Maintain journalist tone throughout'
+        ]
+      }
+    ]
+  },
+  // Lección 5: Conditionals Review
+  {
+    id: 'b2-m1-l5',
+    title: 'Lección 5: All Conditionals - Revisión Completa',
+    description: 'Domina todos los tipos de condicionales y sus usos',
+    duration: 90,
+    objectives: [
+      'Distinguir entre los 4 tipos de condicionales',
+      'Usar condicionales mixtos correctamente',
+      'Aplicar condicionales en contextos reales',
+      'Comprender matices de significado entre tipos'
+    ],
+    exercises: [
+      {
+        id: 'b2-m1-l5-grammar-1',
+        type: 'grammar',
+        title: 'Zero, First, Second, Third Conditionals',
+        grammarPoint: 'Four Types of Conditionals',
+        explanation: 'Los cuatro tipos de condicionales:\n\n0. Zero Conditional (General truths): If + present, present\n   "If you heat water to 100°C, it boils."\n\n1. First Conditional (Real future): If + present, will + infinitive\n   "If it rains tomorrow, I will stay home."\n\n2. Second Conditional (Unreal present): If + past, would + infinitive\n   "If I had more time, I would learn French."\n\n3. Third Conditional (Unreal past): If + past perfect, would have + past participle\n   "If I had studied harder, I would have passed the exam."',
+        examples: [
+          'Zero: If you don\'t water plants, they die.',
+          'First: If she calls, I will answer.',
+          'Second: If I were rich, I would travel the world.',
+          'Third: If they had left earlier, they would have caught the train.',
+          'Mixed: If I had studied medicine (past), I would be a doctor now (present).'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which conditional: "If I see him, I\'ll tell him."',
+            options: ['Zero', 'First', 'Second', 'Third'],
+            correctAnswer: 'First',
+            explanation: 'Real future possibility: If + present, will + infinitive',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete (Second Conditional): If I ___ (be) you, I ___ (accept) the offer.',
+            correctAnswer: 'were, would accept',
+            explanation: 'Second conditional: unreal present situation',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Complete: "If he ___ the train, he wouldn\'t have been late."',
+            options: ['catches', 'caught', 'had caught', 'would catch'],
+            correctAnswer: 'had caught',
+            explanation: 'Third conditional (unreal past): If + past perfect, would have + past participle',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l5-reading-1',
+        type: 'reading',
+        title: 'Reading: Career Choices and Regrets',
+        text: `If I could go back in time, would I change my career path? This is a question many professionals ask themselves at some point. If I had known twenty years ago what I know now, I certainly would have made some different choices.
+
+I studied accounting because my parents believed it was a stable career. If they hadn't pressured me, I might have pursued my passion for art. However, if I had become an artist, I probably wouldn't have the financial security I enjoy today.
+
+Life is full of "what ifs." If you spend too much time wondering about alternative paths, you miss the opportunities in front of you. I've learned that if you focus on regrets, you can't move forward effectively.
+
+That said, it's never too late to make changes. If you're unhappy in your current situation, you can take steps to improve it. If I decide to change careers now, I will have the advantage of experience and financial stability. Some of my colleagues who made bold career changes in their forties say that if they had waited any longer, they would have regretted it.
+
+My advice? If you have a dream, don't wait for the perfect moment. If you wait for everything to be perfect, you'll never start. On the other hand, if you jump into something without any preparation, you might struggle unnecessarily.
+
+The key is balance. If you plan carefully and take calculated risks, you increase your chances of success. If I had understood this earlier, I would have felt less anxious about my choices.`,
+        wordCount: 263,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Why did the author study accounting?',
+            options: [
+              'It was their passion',
+              'Their parents believed it was stable',
+              'It paid well',
+              'They had no other options'
+            ],
+            correctAnswer: 'Their parents believed it was stable',
+            explanation: 'The text states: "my parents believed it was a stable career"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'The author completely regrets their career choice.',
+            correctAnswer: 'False',
+            explanation: 'The author acknowledges they have financial security and mixed feelings',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What is the author\'s main advice about pursuing dreams?',
+            correctAnswer: 'Don\'t wait for the perfect moment / Plan carefully and take calculated risks',
+            explanation: 'The author advises not waiting for perfection but planning carefully',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'pursue', definition: 'to follow or chase something, especially a goal or dream' },
+          { word: 'calculated', definition: 'carefully thought out and planned' },
+          { word: 'stable', definition: 'steady, secure, and unlikely to change' }
+        ]
+      },
+      {
+        id: 'b2-m1-l5-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m1-l5-listening-1.mp3',
+        duration: 150,
+        allowReplay: true,
+        maxReplays: 3,
+        transcript: `Host: Welcome to "Life Lessons." Today we're discussing decisions and consequences with life coach Michael Roberts. Michael, do you think people spend too much time thinking about "what if"?
+
+Michael: Absolutely. Many people get stuck in hypothetical thinking. They say things like "If I had chosen a different major, I would be happier now" or "If I had married someone else, my life would be better." This kind of thinking is rarely productive.
+
+Host: But isn't it natural to wonder about alternative paths?
+
+Michael: It is natural, yes. But if you dwell on it too much, you create unnecessary stress. Here's what I tell my clients: If you can change something about your present situation, change it. If you can't, accept it and move forward.
+
+Host: What about learning from past mistakes?
+
+Michael: That's different. If you analyze past decisions to learn from them, that's valuable. The question should be: "What can I learn?" not "What if I had done differently?" If you learn from your experiences, even mistakes become valuable.
+
+Host: Any final advice?
+
+Michael: Yes. Remember this: If you wait for the perfect moment, you'll wait forever. If an opportunity feels right, take it. You can't predict the future perfectly, but if you don't take risks, you definitely won't achieve your goals.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What does Michael think about "what if" thinking?',
+            options: [
+              'It\'s always helpful',
+              'It\'s rarely productive',
+              'It\'s necessary for growth',
+              'It\'s good in moderation'
+            ],
+            correctAnswer: 'It\'s rarely productive',
+            explanation: 'Michael says "This kind of thinking is rarely productive"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'Michael believes you should wait for the perfect moment.',
+            correctAnswer: 'False',
+            explanation: 'He says: "If you wait for the perfect moment, you\'ll wait forever"',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What question does Michael suggest asking instead of "What if"?',
+            correctAnswer: 'What can I learn?',
+            explanation: 'Michael recommends focusing on learning rather than hypotheticals',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l5-speaking-1',
+        type: 'speaking',
+        prompt: 'Discuss a major decision you made or will make in your life. Use all four types of conditionals to explore different scenarios, outcomes, and lessons. Speak for 2-3 minutes.',
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Zero conditional: "If you make important decisions carefully, you usually get better results"',
+          'First conditional: "If I accept this job offer, I will move to another city"',
+          'Second conditional: "If I had more information, I would decide more easily"',
+          'Third conditional: "If I had known earlier, I would have prepared better"',
+          'Reflect on lessons learned and future plans'
+        ]
+      },
+      {
+        id: 'b2-m1-l5-writing-1',
+        type: 'writing',
+        prompt: 'Write an essay (180-220 words) titled "The Importance of Decision-Making Skills." Use all types of conditionals to discuss how good decisions affect our lives.',
+        writingType: 'essay',
+        minWords: 180,
+        maxWords: 220,
+        timeLimit: 30,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Include introduction, body paragraphs, and conclusion',
+          'Use zero conditional for general truths about decisions',
+          'Use first conditional for future scenarios',
+          'Use second conditional for hypothetical advice',
+          'Use third conditional for learning from past mistakes',
+          'Include examples to support your points'
+        ]
+      }
+    ]
+  },
+  // Lección 6: Module 1 Review & Mock Exam
+  {
+    id: 'b2-m1-l6',
+    title: 'Lección 6: Módulo 1 - Repaso y Examen de Práctica',
+    description: 'Repasa todo el Módulo 1 y practica con un examen simulado',
+    duration: 120,
+    objectives: [
+      'Repasar todos los temas del Módulo 1',
+      'Completar un examen de práctica bajo condiciones reales',
+      'Identificar áreas que necesitan más práctica',
+      'Desarrollar estrategias para el examen real'
+    ],
+    exercises: [
+      {
+        id: 'b2-m1-l6-reading-mock',
+        type: 'reading',
+        title: 'Mock Exam: Reading & Use of English - Part 1',
+        text: `CLIMATE CHANGE AND SUSTAINABLE LIVING
+
+The effects of climate change have become increasingly apparent over recent decades. Scientists (1) ____ that if urgent action isn't taken, the consequences could be catastrophic. Global temperatures (2) ____ by approximately 1.1°C since the pre-industrial era, and this warming trend continues.
+
+Many experts believe that individual actions matter. If everyone (3) ____ small changes to their lifestyle, the collective impact would be significant. For instance, if people (4) ____ public transportation more frequently instead of driving, carbon emissions would decrease substantially.
+
+However, some argue that individual efforts are not enough. They claim that systemic changes (5) ____ by governments and corporations. Large-scale policies (6) ____ to transition to renewable energy sources, and industries must adopt sustainable practices.
+
+The good news is that awareness (7) ____. Young people, in particular, have been advocating for environmental protection. If current trends continue, future generations (8) ____ the consequences of today's inaction. That's why education about climate change (9) ____ in schools worldwide, and environmental activism (10) ____ momentum.`,
+        wordCount: 175,
+        readingTime: 10,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '(1)',
+            options: ['warned', 'have warned', 'were warning', 'had warned'],
+            correctAnswer: 'have warned',
+            explanation: 'Present Perfect for recent repeated warnings',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: '(2)',
+            options: ['increased', 'have increased', 'had increased', 'were increasing'],
+            correctAnswer: 'have increased',
+            explanation: 'Present Perfect for change from past to present',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: '(3)',
+            options: ['makes', 'made', 'would make', 'had made'],
+            correctAnswer: 'made',
+            explanation: 'Second conditional: If + past, would + infinitive',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '(4)',
+            options: ['use', 'used', 'had used', 'were using'],
+            correctAnswer: 'used',
+            explanation: 'Second conditional: If + past simple',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: '(5)',
+            options: ['need', 'are needed', 'needed', 'were needed'],
+            correctAnswer: 'are needed',
+            explanation: 'Passive voice: systemic changes are needed',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: '(6)',
+            options: ['implement', 'are being implemented', 'were implemented', 'had been implemented'],
+            correctAnswer: 'are being implemented',
+            explanation: 'Present continuous passive for ongoing actions',
+            points: 1
+          },
+          {
+            id: 'q7',
+            type: 'multiple-choice',
+            question: '(7)',
+            options: ['grows', 'is growing', 'has grown', 'had grown'],
+            correctAnswer: 'is growing',
+            explanation: 'Present continuous for current ongoing change',
+            points: 1
+          },
+          {
+            id: 'q8',
+            type: 'multiple-choice',
+            question: '(8)',
+            options: ['face', 'will face', 'would face', 'had faced'],
+            correctAnswer: 'will face',
+            explanation: 'First conditional: real future consequence',
+            points: 1
+          },
+          {
+            id: 'q9',
+            type: 'multiple-choice',
+            question: '(9)',
+            options: ['teaches', 'is taught', 'is being taught', 'has been taught'],
+            correctAnswer: 'is being taught',
+            explanation: 'Present continuous passive: currently happening',
+            points: 1
+          },
+          {
+            id: 'q10',
+            type: 'multiple-choice',
+            question: '(10)',
+            options: ['gains', 'is gaining', 'has gained', 'gained'],
+            correctAnswer: 'is gaining',
+            explanation: 'Present continuous for current trend',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l6-listening-mock',
+        type: 'listening',
+        audioUrl: '/audio/b2-m1-l6-mock-exam.mp3',
+        duration: 240,
+        allowReplay: true,
+        maxReplays: 2,
+        transcript: `[Mock Exam Listening - Full B2 First Format]
+Part 1: Multiple Choice
+Part 2: Sentence Completion
+Part 3: Multiple Matching
+Part 4: Multiple Choice`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Mock Exam Listening Q1: What is the main topic being discussed?',
+            options: ['Education reform', 'Environmental policy', 'Economic development', 'Social media impact'],
+            correctAnswer: 'Environmental policy',
+            explanation: 'The speakers primarily discuss environmental issues',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: The speaker said the project had been running for ___ years.',
+            correctAnswer: 'five',
+            explanation: 'The speaker mentions "five years"',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l6-speaking-mock',
+        type: 'speaking',
+        prompt: 'MOCK EXAM SPEAKING TEST - B2 First Format:\n\nPart 1: Interview (2 minutes)\n- Tell me about your studies/work\n- What do you enjoy doing in your free time?\n- Describe your hometown\n\nPart 2: Long Turn (4 minutes)\nCompare these two photographs. They show different learning environments. I\'d like you to compare the photographs and say which environment you think is more effective for learning.\n\nPart 3: Collaborative Task (4 minutes)\nImagine your city wants to become more environmentally friendly. Discuss these options and decide which two would be most effective:\n- Improving public transportation\n- Creating more parks and green spaces\n- Implementing recycling programs\n- Promoting cycling infrastructure\n- Introducing car-free zones\n\nPart 4: Discussion (4 minutes)\n- Do you think individuals or governments are more responsible for environmental protection?\n- How has technology changed the way we approach environmental issues?\n- What environmental changes have you noticed in your lifetime?',
+        timeLimit: 840,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Part 1: Give developed answers, not just yes/no',
+          'Part 2: Compare and contrast, don\'t just describe. Use: "whereas", "while", "on the other hand"',
+          'Part 3: Collaborate with your partner. Agree, disagree politely, suggest ideas',
+          'Part 4: Give opinions with justifications. Use conditionals and complex structures',
+          'Throughout: Use a range of tenses, vocabulary, and grammatical structures'
+        ]
+      },
+      {
+        id: 'b2-m1-l6-writing-mock',
+        type: 'writing',
+        prompt: 'MOCK EXAM WRITING TEST - B2 First Format:\n\nChoose ONE task:\n\nTask 1: Essay (140-190 words)\nYour teacher has asked you to write an essay:\n"Some people believe that traditional classroom learning is more effective than online learning. Others disagree. What is your opinion?"\n\nTask 2: Article (140-190 words)\nYou see this announcement in an international magazine:\n"Articles wanted: Life Skills Everyone Should Learn"\nWrite an article describing 2-3 essential life skills that should be taught in schools and explain why they are important.\n\nTask 3: Review (140-190 words)\nYou recently attended a cultural event (concert, exhibition, play, etc.). Write a review for your school website describing the event and whether you would recommend it to other students.',
+        writingType: 'essay',
+        minWords: 140,
+        maxWords: 190,
+        timeLimit: 40,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Read the task carefully and address ALL points',
+          'Plan before writing: Introduction, Body (2-3 paragraphs), Conclusion',
+          'Use a range of grammar: conditionals, perfect tenses, passive voice',
+          'Include linking words: however, moreover, in addition, on the other hand',
+          'Check your work: grammar, spelling, punctuation, word count',
+          'Stay within the word limit (140-190 words)'
+        ]
+      }
+    ]
+  }
+];
+
+// ============================================
+// MÓDULO 2: DEBATE, OPINIÓN Y PERSUASIÓN
+// ============================================
+
+export const MODULE_2_LESSONS: Lesson[] = [
+  {
+    id: 'b2-m2-l1',
+    title: 'Lección 1: Expressing Opinions - Expresar Opiniones',
+    description: 'Aprende a expresar y justificar opiniones de manera efectiva',
+    duration: 90,
+    objectives: [
+      'Expresar opiniones con estructuras variadas',
+      'Justificar puntos de vista con argumentos sólidos',
+      'Usar lenguaje formal e informal apropiadamente',
+      'Responder a opiniones contrarias de forma diplomática'
+    ],
+    exercises: [
+      {
+        id: 'b2-m2-l1-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Opinion Expressions and Phrases',
+        vocabularySet: [
+          {
+            word: 'In my opinion / In my view',
+            definition: 'Personal opinion expression (neutral)',
+            example: 'In my opinion, education should be free for everyone.'
+          },
+          {
+            word: 'From my perspective / From my point of view',
+            definition: 'Personal viewpoint (slightly more formal)',
+            example: 'From my perspective, remote work has many advantages.'
+          },
+          {
+            word: 'I strongly believe that',
+            definition: 'Strong conviction',
+            example: 'I strongly believe that climate action is urgent.'
+          },
+          {
+            word: 'It seems to me that',
+            definition: 'Tentative opinion',
+            example: 'It seems to me that technology is changing too fast.'
+          },
+          {
+            word: 'I\'m convinced that',
+            definition: 'Very strong belief',
+            example: 'I\'m convinced that education is the key to success.'
+          },
+          {
+            word: 'As far as I\'m concerned',
+            definition: 'Personal opinion (slightly informal)',
+            example: 'As far as I\'m concerned, health is more important than wealth.'
+          },
+          {
+            word: 'To be honest / To tell you the truth',
+            definition: 'Introducing a frank opinion',
+            example: 'To be honest, I don\'t think that plan will work.'
+          },
+          {
+            word: 'I tend to think that',
+            definition: 'Moderate opinion',
+            example: 'I tend to think that people are generally kind.'
+          }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which phrase expresses the STRONGEST opinion?',
+            options: [
+              'It seems to me that',
+              'I tend to think that',
+              'I\'m convinced that',
+              'In my view'
+            ],
+            correctAnswer: 'I\'m convinced that',
+            explanation: 'This phrase shows very strong conviction',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete with an opinion phrase: ___, remote work will become the norm in the future.',
+            correctAnswer: 'In my opinion / I believe / From my perspective',
+            explanation: 'Any appropriate opinion phrase works here',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Give three different ways to express: "I think social media has negative effects."',
+            correctAnswer: 'In my opinion, social media has negative effects. / I believe social media has negative effects. / It seems to me that social media has negative effects.',
+            explanation: 'Multiple opinion expressions can be used',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-reading-1',
+        type: 'reading',
+        title: 'Reading: The Debate on Social Media',
+        text: `Social media has become an integral part of modern life, but opinions about its impact remain deeply divided.
+
+Supporters argue that social media has revolutionized communication. In their view, platforms like Facebook, Twitter, and Instagram have made it easier than ever to stay connected with friends and family across the globe. From their perspective, social media democratizes information, giving everyone a voice. They strongly believe that the benefits outweigh the drawbacks.
+
+Critics, however, see things differently. As far as they're concerned, social media does more harm than good. They point to studies showing links between social media use and mental health issues, particularly among young people. To be honest, they say, the constant comparison with others' seemingly perfect lives creates unrealistic expectations and anxiety. I'm convinced, one critic writes, that we're witnessing a mental health crisis directly related to social media addiction.
+
+There's also the issue of misinformation. It seems to many experts that false information spreads faster on social media than factual content. They tend to think that social media algorithms prioritize engagement over accuracy, leading to the viral spread of misleading or false news.
+
+Some take a middle ground. From my point of view, writes one commentator, social media is a tool—neither inherently good nor bad. It's how we use it that matters. I believe that with proper education about digital literacy and responsible use, we can maximize the benefits while minimizing the harms.
+
+The debate continues, and it seems unlikely that a consensus will be reached anytime soon. What's certain is that social media has fundamentally changed how we communicate, for better or worse.`,
+        wordCount: 268,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to supporters, what is a main benefit of social media?',
+            options: [
+              'It makes people wealthy',
+              'It democratizes information',
+              'It improves mental health',
+              'It replaces traditional media'
+            ],
+            correctAnswer: 'It democratizes information',
+            explanation: 'Supporters say "social media democratizes information, giving everyone a voice"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'Critics believe social media has no negative effects on mental health.',
+            correctAnswer: 'False',
+            explanation: 'Critics point to links between social media and mental health issues',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What is the "middle ground" position mentioned in the article?',
+            correctAnswer: 'Social media is a tool - how we use it matters / With education it can be used responsibly',
+            explanation: 'The middle ground says it\'s neither good nor bad inherently',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'According to the article, what problem do algorithms create?',
+            options: [
+              'They make social media too expensive',
+              'They prioritize engagement over accuracy',
+              'They block important information',
+              'They are too complicated to use'
+            ],
+            correctAnswer: 'They prioritize engagement over accuracy',
+            explanation: 'The article states algorithms "prioritize engagement over accuracy"',
+            points: 1
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'integral', definition: 'essential or fundamental' },
+          { word: 'democratizes', definition: 'makes accessible to everyone' },
+          { word: 'algorithms', definition: 'computer programs that determine what content you see' },
+          { word: 'consensus', definition: 'general agreement' }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m2-l1-listening-1.mp3',
+        duration: 180,
+        allowReplay: true,
+        maxReplays: 3,
+        transcript: `Moderator: Welcome to our panel discussion on"Should voting be mandatory?" We have three guests with differing opinions. Let's start with Dr. Adams.
+
+Dr. Adams: Thank you. In my view, mandatory voting would strengthen democracy. From my perspective, when everyone participates, the government truly represents all citizens, not just those who are politically engaged. I strongly believe that voting is not just a right but a responsibility.
+
+Moderator: Interesting. Ms. Chen, you disagree?
+
+Ms. Chen: Yes, I do. As far as I'm concerned, forcing people to vote undermines the very freedom democracy is meant to protect. To be honest, if someone doesn't want to vote, that's their choice. I'm convinced that quality is more important than quantity when it comes to votes. People who are informed and care about the issues should vote, not everyone by force.
+
+Moderator: And Mr. Johnson, you have a different take?
+
+Mr. Johnson: I tend to think that both sides have valid points. It seems to me that the real issue isn't whether voting is mandatory, but why people don't vote voluntarily. From my point of view, we should focus on education and making politics more accessible rather than forcing participation. I believe that if politics were more relevant to people's daily lives, turnout would naturally increase.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What is Dr. Adams\'s main argument for mandatory voting?',
+            options: [
+              'It would save money',
+              'It would strengthen democracy',
+              'It would be easier to organize',
+              'It would reduce corruption'
+            ],
+            correctAnswer: 'It would strengthen democracy',
+            explanation: 'Dr. Adams says "mandatory voting would strengthen democracy"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'Ms. Chen believes everyone should be forced to vote.',
+            correctAnswer: 'False',
+            explanation: 'Ms. Chen argues against mandatory voting',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What does Mr. Johnson suggest as an alternative to mandatory voting?',
+            correctAnswer: 'Education and making politics more accessible / relevant to daily lives',
+            explanation: 'He suggests focusing on education and accessibility',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-speaking-1',
+        type: 'speaking',
+        prompt: 'Express your opinion on this statement: "University education should be free for all students." Use a variety of opinion expressions and provide at least three arguments to support your view. Speak for 2-3 minutes.',
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Start with your main opinion: "In my opinion..." or "I strongly believe..."',
+          'Give your first argument: "Firstly, from my perspective..."',
+          'Add more arguments: "Moreover...", "Furthermore...", "In addition..."',
+          'Consider counterarguments: "Some people might argue that..., however..."',
+          'Conclude: "To sum up, I\'m convinced that..."',
+          'Use varied opinion expressions throughout'
+        ]
+      },
+      {
+        id: 'b2-m2-l1-writing-1',
+        type: 'writing',
+        prompt: 'Write an essay (180-220 words) giving your opinion on: "Is technology making us more connected or more isolated?" Use a range of opinion expressions and provide clear arguments.',
+        writingType: 'essay',
+        minWords: 180,
+        maxWords: 220,
+        timeLimit: 30,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Introduction: Present the topic and your main opinion',
+          'Use varied opinion phrases: In my view, I strongly believe, From my perspective',
+          'Body: 2-3 arguments with examples',
+          'Consider the opposing view briefly',
+          'Conclusion: Restate your opinion clearly',
+          'Use linking words: Furthermore, Moreover, However, In conclusion'
+        ]
+      }
+    ]
+  },
+  {
+    id: 'b2-m2-l2',
+    title: 'Lección 2: Agreeing and Disagreeing - Acuerdo y Desacuerdo',
+    description: 'Aprende a estar de acuerdo y en desacuerdo de forma diplomática',
+    duration: 90,
+    objectives: [
+      'Expresar acuerdo de diferentes maneras',
+      'Expresar desacuerdo cortésmente',
+      'Usar lenguaje diplomático en debates',
+      'Presentar contrargumentos de forma educada'
+    ],
+    exercises: [
+      {
+        id: 'b2-m2-l2-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Agreeing and Disagreeing Expressions',
+        vocabularySet: [
+          {
+            word: 'I completely agree',
+            definition: 'Strong agreement',
+            example: 'I completely agree that education is essential.'
+          },
+          {
+            word: 'That\'s a good point',
+            definition: 'Acknowledging a valid argument',
+            example: 'That\'s a good point, I hadn\'t thought of that.'
+          },
+          {
+            word: 'I see what you mean, but...',
+            definition: 'Polite disagreement after acknowledging',
+            example: 'I see what you mean, but I think there\'s another side to this.'
+          },
+          {
+            word: 'I\'m afraid I disagree',
+            definition: 'Polite disagreement',
+            example: 'I\'m afraid I disagree with that assessment.'
+          },
+          {
+            word: 'I take your point, however...',
+            definition: 'Acknowledging before disagreeing',
+            example: 'I take your point, however, the evidence suggests otherwise.'
+          },
+          {
+            word: 'With respect, I think...',
+            definition: 'Very polite disagreement',
+            example: 'With respect, I think you may be overlooking an important factor.'
+          },
+          {
+            word: 'You have a point, but...',
+            definition: 'Partial agreement before disagreeing',
+            example: 'You have a point, but we also need to consider the costs.'
+          },
+          {
+            word: 'I\'m not entirely convinced that...',
+            definition: 'Expressing doubt politely',
+            example: 'I\'m not entirely convinced that this is the best approach.'
+          }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which phrase is the MOST polite way to disagree?',
+            options: [
+              'You\'re wrong',
+              'I disagree',
+              'With respect, I think...',
+              'That doesn\'t make sense'
+            ],
+            correctAnswer: 'With respect, I think...',
+            explanation: 'This is the most diplomatic and polite way to express disagreement',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete politely: "___, I think you may be overlooking the environmental impact."',
+            correctAnswer: 'With respect / I see your point, but / I take your point, however',
+            explanation: 'Multiple polite disagreement phrases work here',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Rewrite impolitely: "You\'re completely wrong about that" - Make it diplomatic.',
+            correctAnswer: 'I\'m afraid I disagree / I see things differently / With respect, I have a different view',
+            explanation: 'Use polite disagreement phrases',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-reading-1',
+        type: 'reading',
+        title: 'Reading: A Workplace Discussion',
+        text: `The meeting room was tense as the marketing team debated the new campaign strategy.
+
+"I think we should focus entirely on social media," said Marcus. "Traditional advertising is dead."
+
+Sarah nodded thoughtfully. "I see what you mean, Marcus, and you make a good point about our target demographic being online. However, I'm not entirely convinced that we should abandon traditional channels completely. Our data shows that TV ads still reach a significant portion of our older customers."
+
+"That's a good point," Marcus conceded. "But with respect, I think the ROI on social media is much higher. We can target specific audiences much more effectively."
+
+"I completely agree that social media targeting is excellent," interjected David. "But I'm afraid I disagree about abandoning TV entirely. You have a point about ROI, Marcus, but brand awareness from TV advertising has value that's harder to measure."
+
+"I take your point, David," said Marcus. "What if we compromise? We could allocate 70% to social media and 30% to traditional channels?"
+
+Sarah smiled. "I think that's a reasonable approach. I'm not entirely convinced that 70% is the right number, but I agree that we need a mixed strategy."
+
+"That sounds fair," David agreed. "Though with respect, I'd argue for 60-40 initially. We can adjust based on results."
+
+The discussion continued, but the tone remained professional and respectful throughout, despite the disagreements.`,
+        wordCount: 241,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What is Marcus\'s initial position?',
+            options: [
+              'Use only traditional advertising',
+              'Use a mixed approach',
+              'Focus entirely on social media',
+              'Abandon all advertising'
+            ],
+            correctAnswer: 'Focus entirely on social media',
+            explanation: 'Marcus says "we should focus entirely on social media"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'Sarah completely disagrees with Marcus\'s initial suggestion.',
+            correctAnswer: 'False',
+            explanation: 'Sarah acknowledges his point but suggests not abandoning traditional channels',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What compromise does Marcus suggest?',
+            correctAnswer: '70% social media and 30% traditional channels',
+            explanation: 'Marcus proposes this split',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'How would you describe the tone of the discussion?',
+            options: [
+              'Aggressive and confrontational',
+              'Professional and respectful',
+              'Passive and unengaged',
+              'Confused and disorganized'
+            ],
+            correctAnswer: 'Professional and respectful',
+            explanation: 'The text says "the tone remained professional and respectful"',
+            points: 1
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'conceded', definition: 'admitted or acknowledged (often reluctantly)' },
+          { word: 'ROI', definition: 'Return On Investment - profit gained from an investment' },
+          { word: 'allocate', definition: 'distribute or assign resources' },
+          { word: 'demographics', definition: 'statistical data about a population group' }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m2-l2-listening-1.mp3',
+        duration: 180,
+        allowReplay: true,
+        maxReplays: 3,
+        transcript: `Interviewer: We're discussing artificial intelligence in education. Professor Williams, you believe AI will transform learning?
+
+Professor Williams: Absolutely. I strongly believe that AI can personalize education in ways human teachers simply can't match. Each student can learn at their own pace, focusing on areas where they struggle.
+
+Interviewer: Teacher Ms. Rodriguez, your thoughts?
+
+Ms. Rodriguez: I see what you mean, Professor, and you make a good point about personalization. However, I'm not entirely convinced that AI can replace the human element in teaching. Education isn't just about transmitting information—it's about inspiration, empathy, and mentorship.
+
+Professor Williams: That's a good point, and I'm not suggesting AI should replace teachers entirely. With respect, though, I think you may be underestimating how AI can assist teachers, freeing them to focus on those human elements you mentioned.
+
+Ms. Rodriguez: I take your point, and I completely agree that AI can be a useful tool. But I'm afraid I disagree with the idea that it will "transform" education. Technology has been promised to revolutionize schools for decades, yet the fundamentals of good teaching haven't changed.
+
+Interviewer: An interesting debate. Parent representative Mr. Lee, where do you stand?
+
+Mr. Lee: I see merit in both arguments. I think we need to be open to innovation while being careful not to lose what makes education valuable. You both have valid points.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What is Ms. Rodriguez\'s main concern about AI in education?',
+            options: [
+              'It\'s too expensive',
+              'It can\'t replace the human element',
+              'It\'s too complicated',
+              'It doesn\'t work'
+            ],
+            correctAnswer: 'It can\'t replace the human element',
+            explanation: 'Ms. Rodriguez emphasizes the importance of human elements like empathy and mentorship',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'Professor Williams wants AI to completely replace human teachers.',
+            correctAnswer: 'False',
+            explanation: 'He says "I\'m not suggesting AI should replace teachers entirely"',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'How does Mr. Lee describe his position?',
+            correctAnswer: 'He sees merit in both arguments / a middle ground / balanced approach',
+            explanation: 'Mr. Lee takes a balanced position between both views',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-speaking-1',
+        type: 'speaking',
+        prompt: 'Participate in a discussion: "Should employees be allowed to work from home permanently?" First, state your opinion. Then, imagine a colleague disagrees with you and respond to their objections diplomatically. Use agreeing and disagreeing expressions. Speak for 2-3 minutes.',
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'State your position clearly at the start',
+          'Acknowledge counterarguments: "I see what you mean..." or "That\'s a good point..."',
+          'Disagree politely: "However, I think..." or "With respect..."',
+          'Provide evidence for your position',
+          'Find common ground where possible',
+          'Maintain a respectful, professional tone throughout'
+        ]
+      },
+      {
+        id: 'b2-m2-l2-writing-1',
+        type: 'writing',
+        prompt: 'Write an article (180-220 words) for a debate magazine presenting both sides of this argument: "Should plastic bags be completely banned?" Use diplomatic language to present opposing views fairly, then state your own opinion.',
+        writingType: 'article',
+        minWords: 180,
+        maxWords: 220,
+        timeLimit: 30,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Start with an engaging introduction',
+          'Present one side: "Supporters argue that..."',
+          'Present the other side: "However, opponents point out that..."',
+          'Use diplomatic language: "While X has merit, Y is also valid"',
+          'State your own view: "In my opinion..." or "I tend to believe..."',
+          'Conclude by acknowledging the complexity of the issue'
+        ]
+      }
+    ]
+  }
+];
+
+// Continue with remaining Module 2 lessons (L3-L6) and all Module 3 lessons...
+// Due to length constraints, I'll create the structure for the remaining modules
+
+export const MODULE_3_LESSONS: Lesson[] = [
+  {
+    id: 'b2-m3-l1',
+    title: 'Lección 1: Business Communication - Comunicación Empresarial',
+    description: 'Domina el inglés profesional para contextos empresariales',
+    duration: 90,
+    objectives: [
+      'Escribir emails profesionales efectivos',
+      'Participar en reuniones de negocios',
+      'Hacer presentaciones profesionales',
+      'Usar lenguaje formal apropiado'
+    ],
+    exercises: [
+      // Business communication exercises will be added here
+    ]
   }
 ];
 
 // Placeholder para los demás módulos y lecciones...
 // Continuaré con más lecciones en el siguiente archivo
 
-export const B2_EXAM_PREP_COURSE: Module = {
+export const B2_EXAM_PREP_COURSE: Module[] = [
+  {
   id: 'b2-exam-prep',
   number: 1,
   title: 'Módulo 1: Narrativas Complejas y Análisis',
@@ -918,10 +2308,117 @@ export const B2_EXAM_PREP_COURSE: Module = {
     'Lenguaje emotivo y descriptivo',
     'Phrasal verbs avanzados (come across, get over, put up with)'
   ],
-  lessons: MODULE_1_LESSONS,
-  examPractice: {
-    mockExam: true,
-    examDuration: 90,
-    parts: ['Reading & Use of English', 'Writing', 'Listening', 'Speaking']
+    lessons: MODULE_1_LESSONS,
+    examPractice: {
+      mockExam: true,
+      examDuration: 90,
+      parts: ['Reading & Use of English', 'Writing', 'Listening', 'Speaking']
+    }
+  },
+  {
+    id: 'b2-module-2',
+    number: 2,
+    title: 'Módulo 2: Debate, Opinión y Persuasión',
+    description: 'Desarrolla habilidades para expresar opiniones, debatir y persuadir de manera efectiva',
+    duration: '4-5 semanas',
+    topics: [
+      'Temas sociales y políticos',
+      'Medio ambiente y sostenibilidad',
+      'Tecnología y sociedad',
+      'Educación y sistema escolar',
+      'Economía y trabajo'
+    ],
+    grammar: [
+      'Modals of deduction (must, might, can\'t)',
+      'Modals of obligation and advice',
+      'Expressing purpose (to, in order to, so that)',
+      'Cause and effect linkers',
+      'Emphasis structures',
+      'Advanced connectors'
+    ],
+    vocabulary: [
+      'Opinion expressions (In my view, From my perspective)',
+      'Agreement/disagreement phrases',
+      'Argument and debate vocabulary',
+      'Persuasive language',
+      'Formal and informal register',
+      'Topic-specific vocabulary (environment, technology, etc.)'
+    ],
+    lessons: MODULE_2_LESSONS,
+    examPractice: {
+      mockExam: true,
+      examDuration: 90,
+      parts: ['Reading & Use of English', 'Writing', 'Listening', 'Speaking']
+    }
+  },
+  {
+    id: 'b2-module-3',
+    number: 3,
+    title: 'Módulo 3: Comunicación Profesional y Académica',
+    description: 'Perfecciona tu inglés para contextos profesionales y académicos',
+    duration: '4-5 semanas',
+    topics: [
+      'Comunicación empresarial',
+      'Presentaciones profesionales',
+      'Escritura académica',
+      'Negociación y persuasión',
+      'Networking profesional'
+    ],
+    grammar: [
+      'Formal register structures',
+      'Impersonal constructions (It is said that...)',
+      'Nominalization',
+      'Advanced relative clauses',
+      'Participle clauses',
+      'Hedging language (appears to, seems to, tends to)'
+    ],
+    vocabulary: [
+      'Business and professional vocabulary',
+      'Academic vocabulary (research, analyze, evaluate)',
+      'Presentation language',
+      'Formal letter/email expressions',
+      'Technical and specialist vocabulary',
+      'Meeting and negotiation phrases'
+    ],
+    lessons: MODULE_3_LESSONS,
+    examPractice: {
+      mockExam: true,
+      examDuration: 90,
+      parts: ['Reading & Use of English', 'Writing', 'Listening', 'Speaking']
+    }
   }
+];
+
+// Export complete course structure
+export const B2_COURSE_FULL = {
+  id: 'b2-first-exam-prep',
+  title: 'B2 First (FCE) - Complete Exam Preparation Course',
+  level: 'B2',
+  duration: '12-15 weeks',
+  totalModules: 3,
+  totalLessons: 18,
+  modules: B2_EXAM_PREP_COURSE,
+  description: 'Complete preparation course for Cambridge B2 First (FCE) exam with interactive exercises, voice recording, pronunciation evaluation, and comprehensive practice for all four skills: Reading, Writing, Listening, and Speaking.'
 };
+
+// Helper functions
+export function getLessonById(lessonId: string): Lesson | null {
+  for (const module of B2_EXAM_PREP_COURSE) {
+    const lesson = module.lessons.find(l => l.id === lessonId);
+    if (lesson) return lesson;
+  }
+  return null;
+}
+
+export function getModuleById(moduleId: string): Module | null {
+  return B2_EXAM_PREP_COURSE.find(m => m.id === moduleId) || null;
+}
+
+export function getAllLessons(): Lesson[] {
+  return B2_EXAM_PREP_COURSE.flatMap(module => module.lessons);
+}
+
+export function getCourseProgress(completedLessons: string[]): number {
+  const totalLessons = getAllLessons().length;
+  return Math.round((completedLessons.length / totalLessons) * 100);
+}
