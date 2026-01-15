@@ -19,6 +19,98 @@ En esta guía completa te voy a enseñar exactamente cómo prepararte para los t
 
 ---
 
+## 📚 Índice de Contenidos
+
+<div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 30px; border-radius: 15px; margin: 30px 0; box-shadow: 0 8px 20px rgba(0,0,0,0.08);">
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
+    
+    <!-- Sección 1 -->
+    <a href="#comparativa" style="text-decoration: none;">
+      <div style="background: white; padding: 20px; border-radius: 10px; border-left: 4px solid #667eea; transition: transform 0.2s; cursor: pointer;">
+        <div style="font-size: 2em; margin-bottom: 10px;">🎯</div>
+        <h4 style="margin: 0 0 8px 0; color: #667eea; font-size: 1.1em;">¿Cuál Elegir?</h4>
+        <p style="margin: 0; font-size: 0.9em; color: #6b7280;">Comparativa completa de Cambridge, TOEFL e IELTS</p>
+      </div>
+    </a>
+    
+    <!-- Sección 2 -->
+    <a href="#equivalencias" style="text-decoration: none;">
+      <div style="background: white; padding: 20px; border-radius: 10px; border-left: 4px solid #f093fb; transition: transform 0.2s; cursor: pointer;">
+        <div style="font-size: 2em; margin-bottom: 10px;">📊</div>
+        <h4 style="margin: 0 0 8px 0; color: #f093fb; font-size: 1.1em;">Equivalencias CEFR</h4>
+        <p style="margin: 0; font-size: 0.9em; color: #6b7280;">¿Qué puntuación necesitas según tu nivel?</p>
+      </div>
+    </a>
+    
+    <!-- Sección 3 -->
+    <a href="#ejemplos" style="text-decoration: none;">
+      <div style="background: white; padding: 20px; border-radius: 10px; border-left: 4px solid #4facfe; transition: transform 0.2s; cursor: pointer;">
+        <div style="font-size: 2em; margin-bottom: 10px;">🎓</div>
+        <h4 style="margin: 0 0 8px 0; color: #4facfe; font-size: 1.1em;">Por Objetivo</h4>
+        <p style="margin: 0; font-size: 0.9em; color: #6b7280;">Universidades, Inmigración, Trabajo</p>
+      </div>
+    </a>
+    
+    <!-- Sección 4 -->
+    <a href="#cambridge" style="text-decoration: none;">
+      <div style="background: white; padding: 20px; border-radius: 10px; border-left: 4px solid #3b82f6; transition: transform 0.2s; cursor: pointer;">
+        <div style="font-size: 2em; margin-bottom: 10px;">📘</div>
+        <h4 style="margin: 0 0 8px 0; color: #3b82f6; font-size: 1.1em;">Cambridge B2 First</h4>
+        <p style="margin: 0; font-size: 0.9em; color: #6b7280;">Estructura completa y estrategias</p>
+      </div>
+    </a>
+    
+    <!-- Sección 5 -->
+    <a href="#toefl" style="text-decoration: none;">
+      <div style="background: white; padding: 20px; border-radius: 10px; border-left: 4px solid #8b5cf6; transition: transform 0.2s; cursor: pointer;">
+        <div style="font-size: 2em; margin-bottom: 10px;">🇺🇸</div>
+        <h4 style="margin: 0 0 8px 0; color: #8b5cf6; font-size: 1.1em;">TOEFL iBT</h4>
+        <p style="margin: 0; font-size: 0.9em; color: #6b7280;">Tu boleto a universidades americanas</p>
+      </div>
+    </a>
+    
+    <!-- Sección 6 -->
+    <a href="#ielts" style="text-decoration: none;">
+      <div style="background: white; padding: 20px; border-radius: 10px; border-left: 4px solid #10b981; transition: transform 0.2s; cursor: pointer;">
+        <div style="font-size: 2em; margin-bottom: 10px;">🌍</div>
+        <h4 style="margin: 0 0 8px 0; color: #10b981; font-size: 1.1em;">IELTS</h4>
+        <p style="margin: 0; font-size: 0.9em; color: #6b7280;">El pasaporte global</p>
+      </div>
+    </a>
+    
+    <!-- Sección 7 -->
+    <a href="#plan-12-semanas" style="text-decoration: none;">
+      <div style="background: white; padding: 20px; border-radius: 10px; border-left: 4px solid #f59e0b; transition: transform 0.2s; cursor: pointer;">
+        <div style="font-size: 2em; margin-bottom: 10px;">🎯</div>
+        <h4 style="margin: 0 0 8px 0; color: #f59e0b; font-size: 1.1em;">Plan de 12 Semanas</h4>
+        <p style="margin: 0; font-size: 0.9em; color: #6b7280;">Tu ruta completa al éxito</p>
+      </div>
+    </a>
+    
+    <!-- Sección 8 -->
+    <a href="#recursos" style="text-decoration: none;">
+      <div style="background: white; padding: 20px; border-radius: 10px; border-left: 4px solid #ef4444; transition: transform 0.2s; cursor: pointer;">
+        <div style="font-size: 2em; margin-bottom: 10px;">📚</div>
+        <h4 style="margin: 0 0 8px 0; color: #ef4444; font-size: 1.1em;">Recursos</h4>
+        <p style="margin: 0; font-size: 0.9em; color: #6b7280;">Materiales oficiales y apps</p>
+      </div>
+    </a>
+    
+  </div>
+  
+  <div style="margin-top: 20px; padding: 15px; background: rgba(255,255,255,0.7); border-radius: 8px; text-align: center;">
+    <p style="margin: 0; font-size: 0.9em; color: #4a5568;">
+      ⏱️ <strong>Tiempo de lectura:</strong> 25-30 minutos | 📖 <strong>Nivel:</strong> Todos | 🎯 <strong>Resultado:</strong> Plan completo de preparación
+    </p>
+  </div>
+  
+</div>
+
+---
+
+<div id="comparativa"></div>
+
 ## 🎯 ¿Cuál es el Mejor Examen para Ti?
 
 Antes de sumergirte en la preparación, necesitas elegir el examen correcto. Cada uno tiene sus particularidades y está diseñado para contextos específicos. Aquí está todo lo que necesitas saber:
@@ -320,6 +412,8 @@ La preparación IELTS es perfecta si buscas emigrar, trabajar o estudiar en Rein
 
 ### 🎯 Tabla de Equivalencias de Niveles: ¿Qué Puntuación Necesitas?
 
+<div id="equivalencias"></div>
+
 Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo nivel de inglés según el Marco Común Europeo (CEFR):
 
 <div style="margin: 30px 0;">
@@ -482,6 +576,8 @@ Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo
 </div>
 
 #### 📌 Ejemplos Prácticos por Objetivo Específico:
+
+<div id="ejemplos"></div>
 
 <div style="margin: 30px 0;">
 
@@ -716,6 +812,8 @@ Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo
 
 ## 📚 Preparación Cambridge: Domina el B2 First (FCE)
 
+<div id="cambridge"></div>
+
 El Cambridge B2 First es uno de los exámenes más solicitados del mundo. Demuestra que tienes un nivel **intermedio-alto (B2)** y que puedes desenvolverte con confianza en situaciones laborales y académicas en inglés.
 
 ### ¿Por Qué Cambridge es Diferente?
@@ -840,6 +938,8 @@ Conclusión (40 palabras)
 ---
 
 ## 🇺🇸 Preparación TOEFL: Tu Boleto a Universidades Americanas
+
+<div id="toefl"></div>
 
 El **TOEFL iBT** (Internet-Based Test) es el examen por excelencia para quien quiere estudiar en Estados Unidos. Más de 11,000 universidades en 150 países lo aceptan, especialmente en Norteamérica.
 
@@ -985,6 +1085,8 @@ Conclusion (50 palabras): Restate + final thought
 ---
 
 ## 🌍 Preparación IELTS: El Pasaporte Global
+
+<div id="ielts"></div>
 
 El IELTS (International English Language Testing System) es el examen más popular del mundo para inmigración y estudios en Reino Unido, Australia, Nueva Zelanda y Canadá. Más de 3 millones de personas lo hacen cada año.
 
@@ -1132,6 +1234,8 @@ You should say:
 ---
 
 ## 🎯 Plan de Estudio Definitivo: 12 Semanas para el Éxito
+
+<div id="plan-12-semanas"></div>
 
 Ya sea que estés haciendo preparación Cambridge, preparación TOEFL o preparación IELTS, necesitas un plan estructurado. Aquí está el método probado que han usado cientos de estudiantes para conseguir la puntuación que necesitan.
 
@@ -1282,7 +1386,140 @@ Esto te permite:
 
 ---
 
+## ⚡ Los 10 Mandamientos de la Preparación de Exámenes
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 15px; margin: 30px 0; box-shadow: 0 8px 20px rgba(0,0,0,0.1);">
+  <h3 style="color: white; text-align: center; margin: 0 0 30px 0; font-size: 1.5em;">Los Principios Inmutables del Éxito</h3>
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+    
+    <!-- Mandamiento 1 -->
+    <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #3b82f6;">
+      <div style="display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #dbeafe; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #3b82f6; margin-right: 15px;">1</div>
+        <h4 style="margin: 0; color: #1e40af; font-size: 1.1em;">Materiales Oficiales</h4>
+      </div>
+      <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
+        Usa SOLO materiales oficiales para practice tests. Los no oficiales tienen formatos diferentes que confunden.
+      </p>
+    </div>
+    
+    <!-- Mandamiento 2 -->
+    <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #8b5cf6;">
+      <div style="display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #ede9fe; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #8b5cf6; margin-right: 15px;">2</div>
+        <h4 style="margin: 0; color: #6d28d9; font-size: 1.1em;">Cronómetro Siempre</h4>
+      </div>
+      <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
+        NUNCA practiques sin cronómetro. La gestión del tiempo es el 40% del examen. Simula la presión real.
+      </p>
+    </div>
+    
+    <!-- Mandamiento 3 -->
+    <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #10b981;">
+      <div style="display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #d1fae5; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #10b981; margin-right: 15px;">3</div>
+        <h4 style="margin: 0; color: #047857; font-size: 1.1em;">Consistencia > Intensidad</h4>
+      </div>
+      <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
+        1 hora diaria durante 12 semanas > 8 horas los fines de semana. La constancia vence al talento.
+      </p>
+    </div>
+    
+    <!-- Mandamiento 4 -->
+    <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #f59e0b;">
+      <div style="display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #fef3c7; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #f59e0b; margin-right: 15px;">4</div>
+        <h4 style="margin: 0; color: #d97706; font-size: 1.1em;">Mock Exams Semanales</h4>
+      </div>
+      <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
+        Haz AL MENOS 1 mock exam completo por semana. Sin esto, no sabrás si estás mejorando realmente.
+      </p>
+    </div>
+    
+    <!-- Mandamiento 5 -->
+    <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #ef4444;">
+      <div style="display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #fee2e2; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #ef4444; margin-right: 15px;">5</div>
+        <h4 style="margin: 0; color: #dc2626; font-size: 1.1em;">Analiza TODOS tus Errores</h4>
+      </div>
+      <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
+        Dedicar 30 min a analizar POR QUÉ fallaste es más valioso que hacer 2 hours de práctica nueva.
+      </p>
+    </div>
+    
+    <!-- Mandamiento 6 -->
+    <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #ec4899;">
+      <div style="display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #fce7f3; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #ec4899; margin-right: 15px;">6</div>
+        <h4 style="margin: 0; color: #db2777; font-size: 1.1em;">Vocabulario en Contexto</h4>
+      </div>
+      <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
+        NO memorices listas. Aprende palabras con frases completas y úsalas inmediatamente en writing/speaking.
+      </p>
+    </div>
+    
+    <!-- Mandamiento 7 -->
+    <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #14b8a6;">
+      <div style="display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #ccfbf1; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #14b8a6; margin-right: 15px;">7</div>
+        <h4 style="margin: 0; color: #0f766e; font-size: 1.1em;">Writing = Feedback</h4>
+      </div>
+      <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
+        Tu writing NO mejorará sin corrección externa. Busca feedback de profesores o compañeros avanzados.
+      </p>
+    </div>
+    
+    <!-- Mandamiento 8 -->
+    <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #6366f1;">
+      <div style="display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #e0e7ff; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #6366f1; margin-right: 15px;">8</div>
+        <h4 style="margin: 0; color: #4f46e5; font-size: 1.1em;">Speaking = Grabación</h4>
+      </div>
+      <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
+        Graba tu speaking SIEMPRE. Escucharte es incómodo pero es el ÚNICO modo de mejorar objetivamente.
+      </p>
+    </div>
+    
+    <!-- Mandamiento 9 -->
+    <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #f97316;">
+      <div style="display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #ffedd5; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #f97316; margin-right: 15px;">9</div>
+        <h4 style="margin: 0; color: #ea580c; font-size: 1.1em;">Simula el Día Real</h4>
+      </div>
+      <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
+        Haz mock exams en el MISMO horario que tu examen real. Tu cerebro necesita acostumbrarse.
+      </p>
+    </div>
+    
+    <!-- Mandamiento 10 -->
+    <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #a855f7;">
+      <div style="display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="background: #f3e8ff; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #a855f7; margin-right: 15px;">10</div>
+        <h4 style="margin: 0; color: #9333ea; font-size: 1.1em;">Descansa la Última Semana</h4>
+      </div>
+      <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
+        La semana antes del examen: NO estudies contenido nuevo. Solo repasa y descansa. Cerebro fresco > cerebro agotado.
+      </p>
+    </div>
+    
+  </div>
+  
+  <div style="background: rgba(255,255,255,0.2); padding: 20px; border-radius: 10px; margin-top: 25px; text-align: center;">
+    <p style="color: white; margin: 0; font-size: 1.1em; font-weight: 600;">
+      ⚡ Sigue estos 10 principios y tu puntuación subirá 15-25 puntos garantizado
+    </p>
+  </div>
+  
+</div>
+
+---
+
 ## 📚 Recursos Recomendados
+
+<div id="recursos"></div>
+
+<div id="recursos"></div>
 
 ### Oficiales (Más Importantes)
 Cambridge:
