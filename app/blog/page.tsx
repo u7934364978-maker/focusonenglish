@@ -53,11 +53,11 @@ const blogCategories = [
     color: "from-violet-600 to-purple-600",
     articles: [
       {
-        title: "Cómo Dominar el Inglés Profesional para Tu Sector",
+        title: "El Día Que Perdí Un Ascenso Por No Saber Decir 'Implementar' en Inglés",
         slug: "ingles-profesional-sectores",
-        excerpt: "Guía completa para desarrollar habilidades de inglés específicas según tu industria profesional.",
-        date: "2026-01-12",
-        readTime: "10 min"
+        excerpt: "Tres profesionales españoles revelan cómo el inglés técnico de su sector transformó sus carreras. Historias reales de David, Clara y María.",
+        date: "2026-01-15",
+        readTime: "16 min"
       }
     ]
   },
@@ -69,11 +69,11 @@ const blogCategories = [
     color: "from-blue-600 to-cyan-600",
     articles: [
       {
-        title: "Inglés Esencial para Viajar: Frases y Situaciones Clave",
+        title: "La Noche Que Casi Duermo En El Aeropuerto de Heathrow Por No Entender 'Gate Change'",
         slug: "ingles-esencial-viajar",
-        excerpt: "Las frases y expresiones más importantes que necesitas dominar para viajar con confianza.",
-        date: "2026-01-12",
-        readTime: "8 min"
+        excerpt: "Cinco historias reales de viajeros españoles que aprendieron inglés de la forma más dura. Miguel, Carmen, Pedro, Laura y Javier te cuentan sus desastres.",
+        date: "2026-01-15",
+        readTime: "15 min"
       }
     ]
   },
@@ -85,11 +85,11 @@ const blogCategories = [
     color: "from-emerald-600 to-green-600",
     articles: [
       {
-        title: "Guía Completa para Preparar Exámenes Oficiales de Inglés",
+        title: "Secretos de Una Ex-Examinadora Cambridge: Lo Que Realmente Buscan en Tu Examen",
         slug: "preparar-examenes-oficiales",
-        excerpt: "Todo lo que necesitas saber para prepararte efectivamente para Cambridge, TOEFL e IELTS.",
-        date: "2026-01-12",
-        readTime: "15 min"
+        excerpt: "Después de evaluar más de 3,000 exámenes Cambridge, Ana Belén García revela por qué estudiantes con excelente inglés suspenden. Insider knowledge exclusivo.",
+        date: "2026-01-15",
+        readTime: "18 min"
       }
     ]
   },
