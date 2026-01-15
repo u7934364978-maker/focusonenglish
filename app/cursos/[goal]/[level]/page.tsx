@@ -1,6 +1,8 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { getCurriculumByLevel } from "@/lib/curriculum-data";
 import CurriculumSection from "@/components/sections/CurriculumSection";
+import { generateCourseSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schemas";
 
 const GOALS = ["trabajo", "viajes", "examenes"] as const;
 const LEVELS = ["a1","a2","b1","b2","c1","c2"] as const;
@@ -20,6 +22,12 @@ const GOAL_DESCRIPTION: Record<Goal, string> = {
   examenes: "Preparación siguiendo criterios de evaluación de exámenes oficiales internacionales (MCER)",
 };
 
+const GOAL_SEO_DESCRIPTION: Record<Goal, string> = {
+  trabajo: "Domina el inglés profesional para tu trabajo. Vocabulario técnico, presentaciones, emails corporativos y negociación. Certificación oficial incluida.",
+  viajes: "Aprende inglés práctico para viajar. Aeropuertos, hoteles, restaurantes y emergencias. Habla inglés con confianza en tus viajes.",
+  examenes: "Preparación completa para Cambridge, TOEFL e IELTS. Mock exams ilimitados, estrategias probadas y tutorías personalizadas.",
+};
+
 const LEVEL_LABEL: Record<Level, string> = {
   a1: "Nivel A1 - Principiante", 
   a2: "Nivel A2 - Elemental", 
@@ -28,6 +36,52 @@ const LEVEL_LABEL: Record<Level, string> = {
   c1: "Nivel C1 - Avanzado", 
   c2: "Nivel C2 - Maestría",
 };
+
+const LEVEL_SEO_DESCRIPTION: Record<Level, string> = {
+  a1: "A1 (Principiante) - Comienza desde cero con vocabulario básico y frases esenciales",
+  a2: "A2 (Elemental) - Comunícate en situaciones cotidianas con frases simples",
+  b1: "B1 (Intermedio) - Mantén conversaciones fluidas sobre temas familiares",
+  b2: "B2 (Intermedio Alto) - Argumenta con confianza y prepara Cambridge B2 First",
+  c1: "C1 (Avanzado) - Domina el inglés a nivel profesional y académico",
+  c2: "C2 (Maestría) - Alcanza nivel nativo con expresiones complejas",
+};
+
+// Generate dynamic metadata for SEO
+export async function generateMetadata({ params }: { params: Promise<{ goal: string; level: string }> }): Promise<Metadata> {
+  const { goal: goalParam, level: levelParam } = await params;
+  const goal = goalParam as Goal;
+  const level = levelParam as Level;
+
+  const title = `Curso de Inglés ${LEVEL_LABEL[level]} para ${GOAL_LABEL[goal]} | Focus English`;
+  const description = `${GOAL_SEO_DESCRIPTION[goal]} ${LEVEL_SEO_DESCRIPTION[level]}. Desde €6.99/mes. Prueba gratis 7 días.`;
+
+  return {
+    title,
+    description,
+    keywords: [
+      `curso inglés ${level}`,
+      `curso inglés ${goal}`,
+      `inglés ${level} online`,
+      `curso ${GOAL_LABEL[goal].toLowerCase()}`,
+      "cursos de inglés online",
+      "curso inglés certificado",
+    ],
+    openGraph: {
+      title,
+      description,
+      type: "website",
+      url: `https://focus-on-english.com/cursos/${goal}/${level}`,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+    alternates: {
+      canonical: `/cursos/${goal}/${level}`,
+    },
+  };
+}
 
 export default async function CursoLandingPage({ params }: { params: Promise<{ goal: string; level: string }> }) {
   const { goal: goalParam, level: levelParam } = await params;
@@ -48,10 +102,84 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
   // Get curriculum data for this level
   const curriculum = getCurriculumByLevel(level.toUpperCase());
 
+  // Generate Course Schema for SEO
+  const courseSchema = generateCourseSchema({
+    name: `Curso de Inglés ${LEVEL_LABEL[level]} para ${GOAL_LABEL[goal]}`,
+    description: `${GOAL_DESCRIPTION[goal]}. ${LEVEL_SEO_DESCRIPTION[level]}. Programa completo basado en especificaciones de Cambridge English.`,
+    level: LEVEL_LABEL[level],
+    goal: GOAL_LABEL[goal],
+    price: "6.99",
+    url: `https://focus-on-english.com/cursos/${goal}/${level}`,
+  });
+
+  // Generate Breadcrumb Schema for SEO
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Inicio", url: "https://focus-on-english.com" },
+    { name: "Cursos", url: "https://focus-on-english.com/cursos-especializados" },
+    { name: GOAL_LABEL[goal], url: `https://focus-on-english.com/cursos/${goal}/${level}` },
+  ]);
+
+  // Generate FAQ Schema for SEO
+  const faqs = [
+    {
+      question: `¿Qué nivel de inglés alcanzaré con el curso ${LEVEL_LABEL[level]}?`,
+      answer: `Al completar este curso de nivel ${level.toUpperCase()}, alcanzarás el nivel ${LEVEL_LABEL[level]} del Marco Común Europeo de Referencia (MCER). ${LEVEL_SEO_DESCRIPTION[level]}. Recibirás certificación oficial que acredita tu nivel.`,
+    },
+    {
+      question: "¿Cuánto dura el curso y cuántas horas debo dedicar?",
+      answer: `El curso tiene una duración aproximada de ${curriculum?.duration || '12 semanas'} con ${curriculum?.modules.length || 3} módulos completos. Recomendamos dedicar 1-2 horas diarias para un progreso óptimo, pero puedes avanzar a tu propio ritmo.`,
+    },
+    {
+      question: "¿Necesito conocimientos previos de inglés?",
+      answer: level === 'a1' 
+        ? "No, este curso está diseñado para principiantes absolutos. Comenzarás desde cero con el vocabulario y gramática básica." 
+        : `Sí, este curso requiere haber completado el nivel anterior (${LEVELS[LEVELS.indexOf(level) - 1]?.toUpperCase()}). Te recomendamos hacer nuestro test de nivel gratuito para confirmar que este es el curso adecuado para ti.`,
+    },
+    {
+      question: "¿Qué incluye la suscripción?",
+      answer: "Tu suscripción incluye acceso completo a TODOS los niveles (A1-C2), material actualizado, ejercicios interactivos, tutorías personalizadas, mock exams ilimitados y certificación oficial. Puedes cancelar en cualquier momento sin permanencia.",
+    },
+    {
+      question: `¿Este curso me prepara para ${goal === 'examenes' ? 'exámenes oficiales como Cambridge, TOEFL o IELTS' : goal === 'trabajo' ? 'entornos laborales profesionales' : 'viajar con confianza'}?`,
+      answer: goal === 'examenes'
+        ? `Sí, este curso está específicamente diseñado para prepararte para exámenes oficiales internacionales basados en el MCER. Incluye formato de examen, estrategias específicas, simulacros completos y criterios de evaluación utilizados por Cambridge, TOEFL e IELTS.`
+        : goal === 'trabajo'
+        ? `Sí, este curso incluye vocabulario técnico y profesional, comunicación en reuniones y presentaciones, emails corporativos, negociación y networking profesional. Todo el contenido está enfocado en situaciones laborales reales.`
+        : `Sí, este curso está diseñado para situaciones prácticas de viaje: aeropuertos, hoteles, restaurantes, transporte, compras y emergencias. Aprenderás frases y vocabulario que usarás inmediatamente en tus viajes.`,
+    },
+  ];
+
+  const faqSchema = generateFAQSchema(faqs);
+
   return (
     <main className="mx-auto max-w-full px-4 py-12">
+      {/* Schema.org structured data for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(courseSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+
       {/* Hero Section */}
       <div className="max-w-6xl mx-auto">
+        {/* Breadcrumbs */}
+        <nav aria-label="breadcrumb" className="mb-6">
+          <ol className="flex flex-wrap items-center gap-2 text-sm text-slate-600">
+            <li><Link href="/" className="hover:text-violet-600 transition-colors">Inicio</Link></li>
+            <li className="text-slate-400">›</li>
+            <li><Link href="/cursos-especializados" className="hover:text-violet-600 transition-colors">Cursos</Link></li>
+            <li className="text-slate-400">›</li>
+            <li className="font-semibold text-slate-900">{GOAL_LABEL[goal]} - {LEVEL_LABEL[level]}</li>
+          </ol>
+        </nav>
+
         <div className="text-center mb-12">
           <div className="text-[12px] font-extrabold text-slate-500 uppercase tracking-wide">Curso Especializado</div>
           <h1 className="mt-2 text-4xl md:text-5xl font-black tracking-tight text-slate-900">
@@ -222,6 +350,30 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
             Agendar consulta gratuita →
           </Link>
         </div>
+
+        {/* FAQ Section for SEO */}
+        <section className="mt-16">
+          <h2 className="text-3xl font-black text-slate-900 text-center mb-12">
+            Preguntas Frecuentes - {LEVEL_LABEL[level]}
+          </h2>
+          <div className="space-y-6 max-w-4xl mx-auto">
+            {faqs.map((faq, index) => (
+              <details 
+                key={index}
+                className="group bg-white rounded-xl border-2 border-slate-200 p-6 hover:border-violet-300 transition-colors"
+              >
+                <summary className="font-bold text-slate-900 cursor-pointer flex items-start gap-3 text-lg">
+                  <span className="text-violet-600 flex-shrink-0 mt-1">❓</span>
+                  <span className="flex-1">{faq.question}</span>
+                  <span className="text-slate-400 group-open:rotate-180 transition-transform flex-shrink-0">▼</span>
+                </summary>
+                <div className="mt-4 text-slate-700 leading-relaxed pl-9">
+                  {faq.answer}
+                </div>
+              </details>
+            ))}
+          </div>
+        </section>
       </div>
     </main>
   );
