@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { OrganizationSchema, WebsiteSchema } from "./schema";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://focus-on-english.com'),
@@ -78,6 +79,10 @@ export default function RootLayout({
   return (
     <html lang="es" className="scroll-smooth">
       <head>
+        {/* Schema.org structured data */}
+        <OrganizationSchema />
+        <WebsiteSchema />
+        
         {/* Anti-piracy protection */}
         <meta name="robots" content="max-image-preview:large" />
         <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
