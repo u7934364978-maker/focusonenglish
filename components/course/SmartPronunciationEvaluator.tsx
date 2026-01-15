@@ -337,25 +337,53 @@ export default function SmartPronunciationEvaluator({
     setEvaluationProgress(0);
     
     try {
-      // Progreso: Análisis de relevancia al tema
+      // Progreso: Llamando a IA para evaluación REAL
       setEvaluationProgress(10);
-      await new Promise(resolve => setTimeout(resolve, 500));
       
-      const topicAnalysis = analyzeTopicRelevance(prompt, transcript);
+      // NUEVO: Llamar a API de evaluación con IA
+      const aiResponse = await fetch('/api/evaluate-speaking', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          prompt,
+          transcript,
+          targetText
+        })
+      });
+      
+      if (!aiResponse.ok) {
+        throw new Error('AI evaluation failed');
+      }
+      
+      const { evaluation: aiEvaluation } = await aiResponse.json();
+      
+      setEvaluationProgress(30);
+      
+      // Usar evaluación de IA para topic analysis
+      const topicAnalysis: TopicAnalysis = {
+        isRelevant: aiEvaluation.isOnTopic,
+        relevanceScore: aiEvaluation.relevanceScore,
+        expectedKeywords: aiEvaluation.expectedConcepts,
+        foundKeywords: aiEvaluation.foundConcepts,
+        missingKeywords: aiEvaluation.missingConcepts,
+        offTopicWords: aiEvaluation.offTopicContent,
+        topicFeedback: aiEvaluation.detailedFeedback.split('\n\n')[0] // Primera parte del feedback
+      };
       
       // Progreso: Análisis de texto
-      setEvaluationProgress(25);
-      await new Promise(resolve => setTimeout(resolve, 500));
+      setEvaluationProgress(50);
       
       const normalizedTarget = targetText ? normalizeText(targetText) : normalizeText(prompt);
       const normalizedTranscript = normalizeText(transcript);
       
       // Progreso: Análisis palabra por palabra
-      setEvaluationProgress(45);
+      setEvaluationProgress(65);
       const wordDetails = targetText ? analyzeWordAccuracy(targetText, transcript) : [];
       
       // Progreso: Análisis de audio
-      setEvaluationProgress(65);
+      setEvaluationProgress(75);
       const audioCharacteristics = await analyzeAudioCharacteristics(audioBlob);
       
       // Progreso: Cálculo de métricas
@@ -375,11 +403,9 @@ export default function SmartPronunciationEvaluator({
       
       const { rhythm, intonation } = evaluateRhythmAndIntonation(transcript, targetText || prompt);
       
-      // NUEVAS MÉTRICAS: Relevancia y Coherencia
-      const relevance = topicAnalysis.relevanceScore;
-      const coherence = topicAnalysis.isRelevant ? 
-        Math.min(relevance + 10, 100) : 
-        Math.max(relevance - 20, 0);
+      // MÉTRICAS DE IA: Usar scores de evaluación real
+      const relevance = aiEvaluation.relevanceScore;
+      const coherence = aiEvaluation.coherenceScore;
       
       // Overall score con NUEVOS pesos incluyendo relevancia
       const overall = Math.round(
@@ -393,25 +419,28 @@ export default function SmartPronunciationEvaluator({
         coherence * 0.08         // NUEVO: 8% coherencia
       );
       
-      // Generar feedback
+      // Generar feedback usando evaluación de IA
       const strengths: string[] = [];
       const improvements: string[] = [];
       
-      // Análisis de RELEVANCIA (NUEVO Y PRIORITARIO)
-      if (relevance >= 80) {
-        strengths.push('🎯 Excellent topic relevance - you addressed all key points');
-      } else if (relevance >= 60) {
-        strengths.push('✓ Good topic coverage - you mentioned most important points');
-      } else if (relevance >= 40) {
-        improvements.push('📌 Stay more focused on the main topic - include key concepts mentioned in the prompt');
-      } else {
-        improvements.push('⚠️ Your response is off-topic - please address the question directly');
+      // FEEDBACK DE IA REAL
+      if (aiEvaluation.overallAssessment === 'off-topic') {
+        improvements.push('⚠️ Your response is completely off-topic - please address the question directly');
+        improvements.push(`📝 The exercise asks: "${prompt.substring(0, 80)}..."`);
+      } else if (aiEvaluation.overallAssessment === 'poor') {
+        improvements.push('📌 Your response needs significant improvement in addressing the topic');
+      } else if (aiEvaluation.overallAssessment === 'fair') {
+        improvements.push('📈 Your response partially addresses the topic but could be more complete');
+      } else if (aiEvaluation.overallAssessment === 'good') {
+        strengths.push('✓ Good topic coverage - you addressed most key points');
+      } else if (aiEvaluation.overallAssessment === 'excellent') {
+        strengths.push('🎯 Excellent! You fully addressed the topic with great detail');
       }
       
-      // Análisis de COHERENCIA (NUEVO)
-      if (!topicAnalysis.isRelevant) {
-        improvements.push(`📝 Topic mismatch: The exercise asks about "${prompt.substring(0, 60)}..." but your answer discusses different topics`);
-      }
+      // Añadir sugerencias de IA
+      aiEvaluation.suggestions.slice(0, 3).forEach((suggestion: string) => {
+        improvements.push(`💡 ${suggestion}`);
+      });
       
       // Resto de análisis...
       if (accuracy >= 90) {
@@ -462,32 +491,33 @@ export default function SmartPronunciationEvaluator({
         improvements.push('🔊 Speak louder for clearer audio capture');
       }
       
-      // Feedback detallado con ANÁLISIS DE RELEVANCIA
+      // Feedback detallado usando EVALUACIÓN DE IA
       let detailedFeedback = '';
       
       if (!topicAnalysis.isRelevant) {
-        // PRIORIDAD MÁXIMA: Feedback de off-topic
-        detailedFeedback = `🚫 **Topic Relevance Issue**: ${topicAnalysis.topicFeedback}\n\n`;
-        detailedFeedback += `Your response scored ${overall}%, but this is significantly affected by not addressing the main topic. `;
-        detailedFeedback += `The exercise specifically asks you to discuss: **${prompt.substring(0, 100)}...** `;
-        detailedFeedback += `\n\nTo improve, make sure you:\n`;
-        detailedFeedback += `• Read the prompt carefully before speaking\n`;
-        detailedFeedback += `• Include these key concepts: ${topicAnalysis.missingKeywords.slice(0, 5).join(', ')}\n`;
-        detailedFeedback += `• Stay focused on answering the specific question\n`;
-        detailedFeedback += `• Organize your thoughts around the main topic\n\n`;
-        detailedFeedback += `Your pronunciation and fluency are being evaluated, but **answering the correct topic is essential** for a good score.`;
-      } else if (overall >= 90) {
-        detailedFeedback = `🌟 Outstanding performance! ${topicAnalysis.topicFeedback} Your pronunciation is at an advanced level with excellent command of English pronunciation, accurate articulation, natural rhythm, proper intonation, and smooth fluency. Your word stress and overall delivery are nearly native-like. Keep up this excellent work!`;
-      } else if (overall >= 80) {
-        detailedFeedback = `🎯 Excellent work! ${topicAnalysis.topicFeedback} Your pronunciation is very good with only minor areas for refinement. You show strong command of individual sounds, good fluency, and natural intonation patterns. With just a bit more practice on specific challenging sounds, you'll reach an outstanding level.`;
-      } else if (overall >= 70) {
-        detailedFeedback = `👏 Very good! ${topicAnalysis.topicFeedback} Your pronunciation is clear and mostly accurate. You demonstrate good control over English sounds and decent fluency. Focus on the specific words marked for improvement and work on maintaining consistent rhythm throughout.`;
-      } else if (overall >= 60) {
-        detailedFeedback = `📈 Good effort! ${topicAnalysis.topicFeedback} Your pronunciation is understandable and you're on the right track. Pay special attention to staying on topic, individual word pronunciation, and your speaking pace. Consistent practice will bring noticeable improvement.`;
-      } else if (overall >= 40) {
-        detailedFeedback = `💪 You're making progress! ${topicAnalysis.topicFeedback} Make sure you understand what the exercise is asking before you speak. Focus on addressing the main topic directly, then work on your pronunciation by listening carefully to model audio and repeating. Break down challenging words and practice them individually.`;
+        // PRIORIDAD MÁXIMA: Feedback de off-topic con análisis de IA
+        detailedFeedback = `🚫 **AI-Powered Evaluation - Topic Relevance Issue**\n\n`;
+        detailedFeedback += `${aiEvaluation.detailedFeedback}\n\n`;
+        detailedFeedback += `**What the exercise asked for:**\n"${prompt}"\n\n`;
+        detailedFeedback += `**Key concepts you should mention:**\n`;
+        detailedFeedback += `${topicAnalysis.missingKeywords.slice(0, 8).map(k => `• ${k}`).join('\n')}\n\n`;
+        detailedFeedback += `**Your pronunciation and fluency scores are being evaluated**, but answering the correct topic is essential for a good overall score.`;
       } else {
-        detailedFeedback = `🌱 Keep going! ${topicAnalysis.topicFeedback} Start by carefully reading what the exercise asks you to do. Make sure your answer addresses that specific topic. Then focus on pronunciation by listening to model audio several times before attempting to speak. Practice one sentence at a time. You can do this!`;
+        // Usar feedback de IA cuando está on-topic
+        detailedFeedback = `🤖 **AI-Powered Evaluation**\n\n${aiEvaluation.detailedFeedback}\n\n`;
+        
+        // Añadir info de pronunciación si hay target text
+        if (targetText && wordDetails.length > 0) {
+          const correctPercentage = Math.round((correctWords / wordDetails.length) * 100);
+          detailedFeedback += `\n**Pronunciation Analysis:** You pronounced ${correctPercentage}% of the target words correctly. `;
+          if (correctPercentage >= 90) {
+            detailedFeedback += `Excellent work on pronunciation!`;
+          } else if (correctPercentage >= 75) {
+            detailedFeedback += `Good pronunciation with room for minor improvements.`;
+          } else {
+            detailedFeedback += `Focus on the highlighted words for pronunciation improvement.`;
+          }
+        }
       }
       
       setEvaluationProgress(100);
