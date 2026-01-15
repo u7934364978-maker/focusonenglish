@@ -798,15 +798,151 @@ Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo
 
 ### 🔄 ¿Puedo Convertir mi Puntuación entre Exámenes?
 
-**Sí, pero con matices**. Las equivalencias NO son exactas porque cada examen evalúa de forma diferente:
+<div style="margin: 30px 0;">
 
-| Si tienes | Equivale aproximadamente a | Pero ten en cuenta |
-|-----------|----------------------------|-------------------|
-| Cambridge B2 First (Grade A, 180+) | TOEFL 87-95 / IELTS 6.5-7.0 | Cambridge es más exigente en gramática |
-| TOEFL 100 | IELTS 7.0 / Cambridge C1 Advanced (160+) | TOEFL favorece comprensión académica |
-| IELTS 7.5 | TOEFL 100-110 / Cambridge C1 Advanced (180+) | IELTS evalúa más comunicación práctica |
+<!-- Nota Introductoria -->
+<div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 20px; border-radius: 12px; margin-bottom: 30px; border-left: 5px solid #f59e0b;">
+  <div style="display: flex; align-items: start; gap: 15px;">
+    <div style="font-size: 2.5em;">⚠️</div>
+    <div>
+      <h4 style="margin: 0 0 10px 0; color: #92400e; font-size: 1.2em;">Sí, pero con matices importantes</h4>
+      <p style="margin: 0; font-size: 1em; color: #78350f; line-height: 1.6;">
+        Las equivalencias <strong>NO son exactas</strong> porque cada examen evalúa de forma diferente. 
+        Usa estas conversiones como <strong>referencia orientativa</strong>, no como garantía absoluta.
+      </p>
+    </div>
+  </div>
+</div>
 
-💡 **Consejo**: Si una institución acepta varios exámenes, **elige el que mejor se adapte a tus fortalezas**, no solo el que "parece más fácil" por las equivalencias.
+<!-- Tabla de Conversiones -->
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 20px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <h4 style="color: white; margin: 0 0 20px 0; font-size: 1.3em;">🔄 Tabla de Conversión entre Exámenes</h4>
+  
+  <div style="display: grid; gap: 20px;">
+    
+    <!-- Conversión 1: Cambridge B2 First -->
+    <div style="background: white; padding: 25px; border-radius: 12px; border-left: 6px solid #3b82f6;">
+      <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+        <div style="background: #dbeafe; padding: 15px; border-radius: 10px; min-width: 60px; text-align: center;">
+          <div style="font-size: 1.8em;">🎓</div>
+        </div>
+        <div style="flex: 1;">
+          <h5 style="margin: 0 0 5px 0; color: #3b82f6; font-size: 1.2em;">Si tienes Cambridge B2 First</h5>
+          <div style="font-size: 0.95em; color: #6b7280;">Grade A, 180+ puntos</div>
+        </div>
+      </div>
+      
+      <div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+        <div style="font-weight: 600; color: #1e40af; margin-bottom: 10px;">📊 Equivale aproximadamente a:</div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px;">
+          <div style="background: white; padding: 12px; border-radius: 6px; text-align: center; border: 2px solid #8b5cf6;">
+            <div style="font-size: 0.85em; color: #6b7280; margin-bottom: 5px;">TOEFL iBT</div>
+            <div style="font-size: 1.3em; font-weight: 700; color: #8b5cf6;">87-95</div>
+          </div>
+          <div style="background: white; padding: 12px; border-radius: 6px; text-align: center; border: 2px solid #10b981;">
+            <div style="font-size: 0.85em; color: #6b7280; margin-bottom: 5px;">IELTS</div>
+            <div style="font-size: 1.3em; font-weight: 700; color: #10b981;">6.5-7.0</div>
+          </div>
+        </div>
+      </div>
+      
+      <div style="background: #fef3c7; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #f59e0b;">
+        <div style="font-size: 0.9em; color: #78350f;">
+          <strong>💡 Ten en cuenta:</strong> Cambridge es más exigente en gramática y vocabulario avanzado
+        </div>
+      </div>
+    </div>
+    
+    <!-- Conversión 2: TOEFL 100 -->
+    <div style="background: white; padding: 25px; border-radius: 12px; border-left: 6px solid #8b5cf6;">
+      <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+        <div style="background: #f3e8ff; padding: 15px; border-radius: 10px; min-width: 60px; text-align: center;">
+          <div style="font-size: 1.8em;">🇺🇸</div>
+        </div>
+        <div style="flex: 1;">
+          <h5 style="margin: 0 0 5px 0; color: #8b5cf6; font-size: 1.2em;">Si tienes TOEFL 100</h5>
+          <div style="font-size: 0.95em; color: #6b7280;">Puntuación total</div>
+        </div>
+      </div>
+      
+      <div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+        <div style="font-weight: 600; color: #6d28d9; margin-bottom: 10px;">📊 Equivale aproximadamente a:</div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px;">
+          <div style="background: white; padding: 12px; border-radius: 6px; text-align: center; border: 2px solid #10b981;">
+            <div style="font-size: 0.85em; color: #6b7280; margin-bottom: 5px;">IELTS</div>
+            <div style="font-size: 1.3em; font-weight: 700; color: #10b981;">7.0</div>
+          </div>
+          <div style="background: white; padding: 12px; border-radius: 6px; text-align: center; border: 2px solid #3b82f6;">
+            <div style="font-size: 0.85em; color: #6b7280; margin-bottom: 5px;">Cambridge C1</div>
+            <div style="font-size: 1.3em; font-weight: 700; color: #3b82f6;">160+</div>
+          </div>
+        </div>
+      </div>
+      
+      <div style="background: #fef3c7; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #f59e0b;">
+        <div style="font-size: 0.9em; color: #78350f;">
+          <strong>💡 Ten en cuenta:</strong> TOEFL favorece comprensión académica y vocabulario universitario
+        </div>
+      </div>
+    </div>
+    
+    <!-- Conversión 3: IELTS 7.5 -->
+    <div style="background: white; padding: 25px; border-radius: 12px; border-left: 6px solid #10b981;">
+      <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+        <div style="background: #d1fae5; padding: 15px; border-radius: 10px; min-width: 60px; text-align: center;">
+          <div style="font-size: 1.8em;">🌍</div>
+        </div>
+        <div style="flex: 1;">
+          <h5 style="margin: 0 0 5px 0; color: #10b981; font-size: 1.2em;">Si tienes IELTS 7.5</h5>
+          <div style="font-size: 0.95em; color: #6b7280;">Banda overall</div>
+        </div>
+      </div>
+      
+      <div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+        <div style="font-weight: 600; color: #047857; margin-bottom: 10px;">📊 Equivale aproximadamente a:</div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px;">
+          <div style="background: white; padding: 12px; border-radius: 6px; text-align: center; border: 2px solid #8b5cf6;">
+            <div style="font-size: 0.85em; color: #6b7280; margin-bottom: 5px;">TOEFL iBT</div>
+            <div style="font-size: 1.3em; font-weight: 700; color: #8b5cf6;">100-110</div>
+          </div>
+          <div style="background: white; padding: 12px; border-radius: 6px; text-align: center; border: 2px solid #3b82f6;">
+            <div style="font-size: 0.85em; color: #6b7280; margin-bottom: 5px;">Cambridge C1</div>
+            <div style="font-size: 1.3em; font-weight: 700; color: #3b82f6;">180+</div>
+          </div>
+        </div>
+      </div>
+      
+      <div style="background: #fef3c7; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #f59e0b;">
+        <div style="font-size: 0.9em; color: #78350f;">
+          <strong>💡 Ten en cuenta:</strong> IELTS evalúa más comunicación práctica y situaciones reales
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Consejo Final -->
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <div style="display: flex; align-items: start; gap: 15px;">
+    <div style="font-size: 2.5em;">💡</div>
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: white; font-size: 1.2em;">Consejo de Oro</h4>
+      <p style="margin: 0; font-size: 1em; color: rgba(255,255,255,0.95); line-height: 1.7;">
+        Si una institución acepta varios exámenes, <strong>elige el que mejor se adapte a tus fortalezas</strong>, 
+        no solo el que "parece más fácil" por las equivalencias. 
+      </p>
+      <div style="margin-top: 15px; padding: 15px; background: rgba(255,255,255,0.15); border-radius: 8px;">
+        <div style="color: white; font-size: 0.95em; line-height: 1.6;">
+          <strong>Ejemplo:</strong> Si eres bueno en gramática → Cambridge | Si prefieres comprensión académica → TOEFL | 
+          Si te gusta la conversación natural → IELTS
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
 
 ---
 
