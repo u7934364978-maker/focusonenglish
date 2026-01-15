@@ -49,7 +49,7 @@ export function SignupForm() {
       }
 
       // Success! Redirect to certificaciones page
-      router.push('/focus-on-english/certificaciones?registro=exitoso');
+      router.push('/cursos?registro=exitoso');
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Error al procesar el registro');
       setIsSubmitting(false);
