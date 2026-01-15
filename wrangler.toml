@@ -1,0 +1,40 @@
+# Configuración de Cloudflare Worker para Focus English
+# Geo-restricción: Solo España 🇪🇸
+
+name = "focus-english-geo"
+main = "workers/geo-restriction.js"
+compatibility_date = "2026-01-15"
+
+# Account ID (obtener de Cloudflare Dashboard)
+# account_id = "TU_ACCOUNT_ID_AQUI"
+
+# Workers configuration
+workers_dev = true
+route = ""
+zone_id = ""
+
+# Routes para producción (descomentar después de configurar)
+# [[routes]]
+# pattern = "focusenglish.com/*"
+# zone_name = "focusenglish.com"
+
+# [[routes]]
+# pattern = "www.focusenglish.com/*"
+# zone_name = "focusenglish.com"
+
+# Variables de entorno (opcional)
+[env.production]
+name = "focus-english-geo-production"
+
+[env.staging]
+name = "focus-english-geo-staging"
+
+# Límites y configuración
+[limits]
+cpu_ms = 50
+
+# Build configuration
+[build]
+command = ""
+cwd = ""
+watch_dirs = ["workers"]
