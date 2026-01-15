@@ -11,9 +11,9 @@ keywords: ["preparación Cambridge", "preparación TOEFL", "preparación IELTS",
 
 ¿Estás pensando en certificar tu nivel de inglés? Elegir el examen correcto y prepararte adecuadamente puede marcar la diferencia entre aprobar con la nota que necesitas o quedarte a medio camino de tus objetivos.
 
-Los **exámenes oficiales de inglés** son mucho más que una simple prueba: son tu pasaporte hacia universidades internacionales, mejores oportunidades laborales y procesos de inmigración exitosos. Pero aquí está el secreto que pocos te cuentan: **no se trata solo de saber inglés, sino de saber hacer el examen**.
+Los exámenes oficiales de inglés son mucho más que una simple prueba: son tu pasaporte hacia universidades internacionales, mejores oportunidades laborales y procesos de inmigración exitosos. Pero aquí está el secreto que pocos te cuentan: **no se trata solo de saber inglés, sino de saber hacer el examen**.
 
-En esta guía completa te voy a enseñar exactamente cómo prepararte para los tres exámenes más reconocidos a nivel mundial: **Cambridge**, **TOEFL** e **IELTS**. Descubrirás sus diferencias, estructuras, estrategias ganadoras y el plan de estudio definitivo para conseguir la puntuación que necesitas.
+En esta guía completa te voy a enseñar exactamente cómo prepararte para los tres exámenes más reconocidos a nivel mundial: Cambridge, TOEFL e IELTS. Descubrirás sus diferencias, estructuras, estrategias ganadoras y el plan de estudio definitivo para conseguir la puntuación que necesitas.
 
 **📌 Nota importante**: Esta guía es informativa y educativa. Focus English prepara a estudiantes siguiendo los criterios oficiales de evaluación de Cambridge, TOEFL e IELTS, pero no somos un centro examinador autorizado. Para realizar los exámenes oficiales, deberás inscribirte directamente con las instituciones certificadoras correspondientes.
 
@@ -25,7 +25,7 @@ Antes de sumergirte en la preparación, necesitas elegir el examen correcto. Cad
 
 ### Cambridge English: El Certificado para Toda la Vida
 
-La **preparación Cambridge** es ideal si buscas un certificado **permanente** que no caduca nunca. Los exámenes de Cambridge (B2 First, C1 Advanced, C2 Proficiency) son los más valorados en Europa, Reino Unido y el sector educativo internacional.
+La preparación Cambridge es ideal si buscas un certificado permanente que no caduca nunca. Los exámenes de Cambridge (B2 First, C1 Advanced, C2 Proficiency) son los más valorados en Europa, Reino Unido y el sector educativo internacional.
 
 **✅ Elige Cambridge si**:
 - Necesitas un certificado sin fecha de caducidad
@@ -35,7 +35,7 @@ La **preparación Cambridge** es ideal si buscas un certificado **permanente** q
 
 ### TOEFL: La Puerta a las Universidades Americanas
 
-La **preparación TOEFL** está diseñada específicamente para el contexto académico estadounidense. Si tu objetivo es estudiar en Estados Unidos, Canadá o cualquier universidad que requiera TOEFL, este es tu examen.
+La preparación TOEFL está diseñada específicamente para el contexto académico estadounidense. Si tu objetivo es estudiar en Estados Unidos, Canadá o cualquier universidad que requiera TOEFL, este es tu examen.
 
 **✅ Elige TOEFL si**:
 - Vas a aplicar a universidades en USA o Canadá
@@ -45,7 +45,7 @@ La **preparación TOEFL** está diseñada específicamente para el contexto acad
 
 ### IELTS: El Estándar Global para Inmigración
 
-La **preparación IELTS** es perfecta si buscas emigrar, trabajar o estudiar en Reino Unido, Australia, Nueva Zelanda o Canadá. Es el examen más aceptado para procesos de inmigración.
+La preparación IELTS es perfecta si buscas emigrar, trabajar o estudiar en Reino Unido, Australia, Nueva Zelanda o Canadá. Es el examen más aceptado para procesos de inmigración.
 
 **✅ Elige IELTS si**:
 - Planeas emigrar a países de habla inglesa
@@ -324,7 +324,7 @@ Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo
 
 <div style="overflow-x: auto;">
 
-| 📊 **Nivel CEFR** | 🎓 **Cambridge** | 🇺🇸 **TOEFL iBT** | 🌍 **IELTS** | 💼 **Qué Puedes Hacer con Este Nivel** |
+| 📊 **Nivel CEFR** | 🎓 Cambridge | 🇺🇸 **TOEFL iBT** | 🌍 IELTS | 💼 **Qué Puedes Hacer con Este Nivel** |
 |:------------------|:-----------------|:-------------------|:-------------|:----------------------------------------|
 | **C2**<br/>*Maestría*<br/>🏆 | **C2 Proficiency (CPE)**<br/>200-230 puntos<br/>**Grado A/B/C** | **115-120**<br/>*(Puntuación casi perfecta)* | **8.5-9.0**<br/>*(Banda superior)* | ✅ Nivel **casi nativo**<br/>✅ Puedes trabajar como **traductor profesional**<br/>✅ Enseñar inglés en universidades<br/>✅ Puestos que requieren inglés perfecto<br/>✅ Investigación académica de alto nivel |
 | **C1**<br/>*Avanzado*<br/>🎓 | **C1 Advanced (CAE)**<br/>180-199 puntos<br/>**Grado A/B/C** | **95-114**<br/>*(Muy competitivo)* | **7.0-8.0**<br/>*(Buen nivel)* | ✅ **Universidades top mundiales** (Ivy League, Oxford, Cambridge)<br/>✅ Puestos **gerenciales y de liderazgo**<br/>✅ Negociaciones internacionales<br/>✅ Investigación y publicaciones académicas<br/>✅ MBA y programas de posgrado competitivos |
@@ -531,7 +531,7 @@ El **TOEFL iBT** (Internet-Based Test) es el examen por excelencia para quien qu
 
 ### ¿Por Qué TOEFL es Único?
 
-La **preparación TOEFL** requiere un enfoque específico porque este examen evalúa tu capacidad para entender y usar inglés **en un contexto académico universitario**. No es inglés de la calle ni inglés de negocios: es el inglés que usarás en lectures, labs y seminarios.
+La preparación TOEFL requiere un enfoque específico porque este examen evalúa tu capacidad para entender y usar inglés **en un contexto académico universitario**. No es inglés de la calle ni inglés de negocios: es el inglés que usarás en lectures, labs y seminarios.
 
 **Características clave del TOEFL**:
 - ✅ **100% digital**: Todo se hace en computadora (incluido el speaking)
@@ -553,7 +553,7 @@ La **preparación TOEFL** requiere un enfoque específico porque este examen eva
 | **60-71** | B1 | Intermedio | Pathway programs | Programas preparatorios, pre-university |
 | **42-59** | A2-B1 | Elemental-Intermedio | Intensive English Programs (IEP) | Solo programas de idiomas intensivos |
 
-💡 **Tip de preparación TOEFL**: 
+💡 Tip de preparación TOEFL: 
 - **Mínimo competitivo**: 80 puntos (mayoría de universidades)
 - **Objetivo recomendado**: 100 puntos (universidades top)
 - **Excelencia**: 110+ (becas y admisiones altamente competitivas)
@@ -568,7 +568,7 @@ La **preparación TOEFL** requiere un enfoque específico porque este examen eva
 
 Leerás **3-4 pasajes académicos** de 700 palabras cada uno, similares a los textos que encontrarías en un libro universitario.
 
-**Temas típicos de preparación TOEFL**:
+Temas típicos de preparación TOEFL:
 - Vocabulary (significado en contexto)
 - Reference (a qué se refiere un pronombre)
 - Inference (conclusiones)
@@ -672,11 +672,11 @@ Conclusion (50 palabras): Restate + final thought
 
 ## 🌍 Preparación IELTS: El Pasaporte Global
 
-El **IELTS** (International English Language Testing System) es el examen más popular del mundo para inmigración y estudios en Reino Unido, Australia, Nueva Zelanda y Canadá. Más de 3 millones de personas lo hacen cada año.
+El IELTS (International English Language Testing System) es el examen más popular del mundo para inmigración y estudios en Reino Unido, Australia, Nueva Zelanda y Canadá. Más de 3 millones de personas lo hacen cada año.
 
 ### ¿Por Qué IELTS es Diferente?
 
-La **preparación IELTS** tiene una filosofía única: evaluar tu capacidad para **comunicarte en situaciones reales de la vida cotidiana**, no solo en contextos académicos. Por eso hay dos versiones:
+La preparación IELTS tiene una filosofía única: evaluar tu capacidad para **comunicarte en situaciones reales de la vida cotidiana**, no solo en contextos académicos. Por eso hay dos versiones:
 
 **🎓 IELTS Academic**: Para estudios universitarios y registro profesional
 **💼 IELTS General Training**: Para inmigración, trabajo y experiencia laboral
@@ -693,7 +693,7 @@ A diferencia del TOEFL (que usa números hasta 120), IELTS usa **bandas de 0 a 9
 | **6.0-6.5** | Competent | B2 | Suficiente para universidades |
 | **5.0-5.5** | Modest | B1 | Inglés básico-intermedio |
 
-💡 **Tip clave de preparación IELTS**: La mayoría de universidades del Reino Unido piden **banda 6.5 mínimo**, con al menos 6.0 en cada sección. Para inmigración a Canadá o Australia, suele pedirse 6.0-7.0 dependiendo del programa.
+💡 Tip clave de preparación IELTS: La mayoría de universidades del Reino Unido piden **banda 6.5 mínimo**, con al menos 6.0 en cada sección. Para inmigración a Canadá o Australia, suele pedirse 6.0-7.0 dependiendo del programa.
 
 ### Academic vs General Training: ¿Cuál Hacer?
 
@@ -819,7 +819,7 @@ You should say:
 
 ## 🎯 Plan de Estudio Definitivo: 12 Semanas para el Éxito
 
-Ya sea que estés haciendo **preparación Cambridge**, **preparación TOEFL** o **preparación IELTS**, necesitas un plan estructurado. Aquí está el método probado que han usado cientos de estudiantes para conseguir la puntuación que necesitan.
+Ya sea que estés haciendo preparación Cambridge, preparación TOEFL o preparación IELTS, necesitas un plan estructurado. Aquí está el método probado que han usado cientos de estudiantes para conseguir la puntuación que necesitan.
 
 ### Antes de Empezar: Tu Diagnóstico Inicial
 
@@ -880,7 +880,7 @@ Esta fase es crítica independientemente de si haces preparación Cambridge, TOE
 
 **Objetivo**: Mejorar sistemáticamente cada habilidad
 
-Aquí es donde tu **preparación Cambridge**, **preparación TOEFL** o **preparación IELTS** se vuelve intensa. Vas a dedicar más tiempo y hacer práctica más enfocada.
+Aquí es donde tu preparación Cambridge, preparación TOEFL o preparación IELTS se vuelve intensa. Vas a dedicar más tiempo y hacer práctica más enfocada.
 
 **📅 Rutina diaria (2 horas)**:
 
@@ -919,7 +919,7 @@ Aquí es donde tu **preparación Cambridge**, **preparación TOEFL** o **prepara
 
 **Objetivo**: Alcanzar tu puntuación objetivo con consistencia
 
-Esta es la fase final de tu **preparación Cambridge**, **preparación TOEFL** o **preparación IELTS**. Ya dominas el formato, ahora necesitas **consistencia** y **confianza**.
+Esta es la fase final de tu preparación Cambridge, preparación TOEFL o preparación IELTS. Ya dominas el formato, ahora necesitas **consistencia** y **confianza**.
 
 **📅 Rutina diaria (2.5-3 horas)**:
 
@@ -971,15 +971,15 @@ Esto te permite:
 ## 📚 Recursos Recomendados
 
 ### Oficiales (Más Importantes)
-**Cambridge**:
+Cambridge:
 - Cambridge English Complete (serie de libros)
 - Official Cambridge Guide to IELTS
 
-**TOEFL**:
+TOEFL:
 - The Official Guide to the TOEFL Test (ETS)
 - TOEFL iBT Practice Sets
 
-**IELTS**:
+IELTS:
 - Cambridge IELTS Practice Tests (1-17)
 - Road to IELTS (curso online oficial)
 
@@ -1084,9 +1084,9 @@ Esto te permite:
 
 | Examen | Inscribirse | Frecuencia | Disponibilidad |
 |--------|-------------|------------|----------------|
-| **Cambridge** | 3-4 meses antes | 3-4 veces/año | Plazas limitadas |
-| **TOEFL** | 2-3 meses antes | 50+ fechas/año | Alta disponibilidad |
-| **IELTS** | 2 meses antes | 4 veces/mes | Buena disponibilidad |
+| Cambridge | 3-4 meses antes | 3-4 veces/año | Plazas limitadas |
+| TOEFL | 2-3 meses antes | 50+ fechas/año | Alta disponibilidad |
+| IELTS | 2 meses antes | 4 veces/mes | Buena disponibilidad |
 
 ### Inversión por Examen (2026)
 
@@ -1117,7 +1117,7 @@ Esto te permite:
 
 ## 🏆 Tu Camino al Éxito: Resumen Final
 
-Has llegado hasta aquí, lo cual demuestra que estás serio sobre tu **preparación Cambridge**, **preparación TOEFL** o **preparación IELTS**. Ahora es momento de actuar.
+Has llegado hasta aquí, lo cual demuestra que estás serio sobre tu preparación Cambridge, preparación TOEFL o preparación IELTS. Ahora es momento de actuar.
 
 ### Lo Que Acabas de Aprender
 
@@ -1178,7 +1178,7 @@ Para realizar los exámenes oficiales de certificación, deberás inscribirte di
 
 - **Cambridge English**: www.cambridgeenglish.org
 - **TOEFL (ETS)**: www.ets.org/toefl  
-- **IELTS**: www.ielts.org (British Council) o www.ieltsidp.com (IDP)
+- IELTS: www.ielts.org (British Council) o www.ieltsidp.com (IDP)
 
 Nuestros cursos te preparan con las mismas estrategias, formatos y criterios que usan los examinadores oficiales, pero el examen final lo realizas independientemente.
 
