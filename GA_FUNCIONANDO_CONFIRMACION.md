@@ -75,7 +75,7 @@ Se creó accidentalmente una segunda propiedad que **NO** se está usando:
 ```
 Nombre: Focus En...
 ID de Propiedad: 520124954
-Measurement ID: G-6E0H0YK89W
+Measurement ID: G-34F4YG3ZHF
 Estado: ⚠️ NO CONFIGURADA - SIN DATOS
 ```
 
