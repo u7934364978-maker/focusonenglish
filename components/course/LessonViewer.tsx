@@ -26,7 +26,11 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   };
 
   const checkAnswers = () => {
-    if (currentExercise.type === 'grammar' || currentExercise.type === 'reading' || currentExercise.type === 'listening' || currentExercise.type === 'vocabulary') {
+    if (currentExercise.type === 'grammar' || 
+        currentExercise.type === 'reading' || 
+        currentExercise.type === 'listening' || 
+        currentExercise.type === 'vocabulary' ||
+        currentExercise.type === 'multiple-choice-cloze') {
       const questions = currentExercise.questions;
       let correctCount = 0;
       let totalPoints = 0;
@@ -42,6 +46,42 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         const isCorrect = correctAnswer.some(ca => userAnswer === ca || userAnswer?.includes(ca));
         if (isCorrect) {
           correctCount++;
+          earnedPoints += q.points;
+        }
+      });
+
+      const score = (earnedPoints / totalPoints) * 100;
+      setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
+      setShowFeedback(true);
+    } else if (currentExercise.type === 'key-word-transformation') {
+      const transformations = currentExercise.transformations;
+      let totalPoints = 0;
+      let earnedPoints = 0;
+
+      transformations.forEach((t: any) => {
+        totalPoints += t.points;
+        const userAnswer = answers[t.id]?.toLowerCase().trim();
+        const correctAnswer = t.correctAnswer.toLowerCase().trim();
+
+        if (userAnswer === correctAnswer) {
+          earnedPoints += t.points;
+        }
+      });
+
+      const score = (earnedPoints / totalPoints) * 100;
+      setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
+      setShowFeedback(true);
+    } else if (currentExercise.type === 'word-formation') {
+      const questions = currentExercise.questions;
+      let totalPoints = 0;
+      let earnedPoints = 0;
+
+      questions.forEach((q: any) => {
+        totalPoints += q.points;
+        const userAnswer = answers[q.id]?.toLowerCase().trim();
+        const acceptableAnswers = q.acceptableAnswers.map((a: string) => a.toLowerCase().trim());
+
+        if (acceptableAnswers.some((ans: string) => userAnswer === ans)) {
           earnedPoints += q.points;
         }
       });
@@ -658,6 +698,276 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               <div className="bg-green-50 rounded-xl p-6 border-2 border-green-200">
                 <p className="text-green-800 font-semibold mb-2">✓ Writing Submitted!</p>
                 <p className="text-slate-700">Your writing has been submitted for review. Your teacher will provide detailed feedback within 24-48 hours.</p>
+              </div>
+            )}
+          </div>
+        );
+
+      case 'key-word-transformation':
+        return (
+          <div className="space-y-6">
+            {/* Instructions */}
+            <div className="bg-amber-50 rounded-xl p-6 border-2 border-amber-200">
+              <h3 className="text-xl font-bold text-amber-900 mb-3 flex items-center gap-2">
+                <span>🔑</span>
+                <span>{currentExercise.title}</span>
+              </h3>
+              <p className="text-slate-700 whitespace-pre-line mb-3">{currentExercise.instructions}</p>
+              <div className="bg-amber-100 p-3 rounded-lg border border-amber-300">
+                <p className="text-sm text-amber-900 font-semibold">💡 Tip: You must use between 2 and 5 words, including the given key word.</p>
+              </div>
+            </div>
+
+            {/* Transformations */}
+            <div className="space-y-4">
+              {currentExercise.transformations.map((transformation: any, idx: number) => (
+                <div key={transformation.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
+                  <div className="space-y-3">
+                    {/* Original Sentence */}
+                    <div className="bg-blue-50 p-3 rounded-lg">
+                      <p className="text-sm text-blue-700 font-semibold mb-1">Original:</p>
+                      <p className="text-slate-900">{transformation.sentence}</p>
+                    </div>
+
+                    {/* Key Word */}
+                    <div className="flex items-center gap-3">
+                      <span className="text-sm text-slate-600">Key word:</span>
+                      <span className="px-3 py-1 bg-amber-100 text-amber-900 rounded-full font-bold text-sm">
+                        {transformation.keyWord}
+                      </span>
+                      <span className="text-slate-400">({transformation.points} {transformation.points === 1 ? 'point' : 'points'})</span>
+                    </div>
+
+                    {/* Answer Input */}
+                    <div className="space-y-2">
+                      <label className="text-sm font-semibold text-slate-700">Your answer:</label>
+                      <div className="flex items-center gap-2">
+                        <span className="text-slate-600">{transformation.startOfAnswer}</span>
+                        <input
+                          type="text"
+                          value={answers[transformation.id] || ''}
+                          onChange={(e) => handleAnswer(transformation.id, e.target.value)}
+                          placeholder="..."
+                          className="flex-1 px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-amber-500 focus:outline-none"
+                        />
+                      </div>
+                    </div>
+
+                    {/* Feedback */}
+                    {showFeedback && (
+                      <div className={`p-3 rounded-lg ${
+                        answers[transformation.id]?.toLowerCase().trim() === transformation.correctAnswer.toLowerCase().trim()
+                          ? 'bg-green-50 border-2 border-green-200'
+                          : 'bg-red-50 border-2 border-red-200'
+                      }`}>
+                        <p className="font-semibold mb-1">
+                          {answers[transformation.id]?.toLowerCase().trim() === transformation.correctAnswer.toLowerCase().trim()
+                            ? '✓ Correct!'
+                            : '✗ Incorrect'}
+                        </p>
+                        <p className="text-sm mb-2">
+                          <span className="font-semibold">Correct answer:</span> {transformation.startOfAnswer} <span className="text-green-700 font-bold">{transformation.correctAnswer}</span>
+                        </p>
+                        {transformation.explanation && (
+                          <p className="text-sm text-slate-700">
+                            <span className="font-semibold">Explanation:</span> {transformation.explanation}
+                          </p>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        );
+
+      case 'word-formation':
+        return (
+          <div className="space-y-6">
+            {/* Instructions */}
+            <div className="bg-purple-50 rounded-xl p-6 border-2 border-purple-200">
+              <h3 className="text-xl font-bold text-purple-900 mb-3 flex items-center gap-2">
+                <span>📝</span>
+                <span>{currentExercise.title}</span>
+              </h3>
+              <div className="bg-purple-100 p-3 rounded-lg border border-purple-300">
+                <p className="text-sm text-purple-900 font-semibold">💡 Instructions: Use the word given in capitals at the end of each line to form a word that fits in the gap.</p>
+              </div>
+            </div>
+
+            {/* Text with Gaps */}
+            <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
+              <p className="text-slate-700 whitespace-pre-line leading-relaxed text-lg">
+                {currentExercise.text}
+              </p>
+            </div>
+
+            {/* Questions */}
+            <div className="space-y-4">
+              <h4 className="text-lg font-bold text-slate-900">Complete the gaps:</h4>
+              {currentExercise.questions.map((question: any, idx: number) => (
+                <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
+                  <div className="space-y-3">
+                    <div className="flex items-center justify-between">
+                      <p className="font-semibold text-slate-900">
+                        Gap {question.gapNumber}: {question.baseWord}
+                      </p>
+                      <span className="text-sm text-blue-600">({question.points} {question.points === 1 ? 'point' : 'points'})</span>
+                    </div>
+
+                    <div className="space-y-2">
+                      <label className="text-sm font-semibold text-slate-700">Your answer:</label>
+                      <input
+                        type="text"
+                        value={answers[question.id] || ''}
+                        onChange={(e) => handleAnswer(question.id, e.target.value)}
+                        placeholder="Type the formed word..."
+                        className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-purple-500 focus:outline-none"
+                      />
+                    </div>
+
+                    {/* Feedback */}
+                    {showFeedback && (
+                      <div className={`p-3 rounded-lg ${
+                        question.acceptableAnswers.some((ans: string) => 
+                          answers[question.id]?.toLowerCase().trim() === ans.toLowerCase().trim()
+                        )
+                          ? 'bg-green-50 border-2 border-green-200'
+                          : 'bg-red-50 border-2 border-red-200'
+                      }`}>
+                        <p className="font-semibold mb-1">
+                          {question.acceptableAnswers.some((ans: string) => 
+                            answers[question.id]?.toLowerCase().trim() === ans.toLowerCase().trim()
+                          )
+                            ? '✓ Correct!'
+                            : '✗ Incorrect'}
+                        </p>
+                        <p className="text-sm mb-2">
+                          <span className="font-semibold">Correct answer:</span>{' '}
+                          <span className="text-green-700 font-bold">{question.correctAnswer}</span>
+                          {question.acceptableAnswers.length > 1 && (
+                            <span className="text-slate-600 text-xs ml-2">
+                              (Also accepted: {question.acceptableAnswers.filter((a: string) => a !== question.correctAnswer).join(', ')})
+                            </span>
+                          )}
+                        </p>
+                        <p className="text-sm text-slate-700 mb-1">
+                          <span className="font-semibold">Word type:</span> {question.wordType}
+                        </p>
+                        <p className="text-sm text-slate-700 mb-2">
+                          <span className="font-semibold">Transformation:</span> {question.transformation}
+                        </p>
+                        {question.explanation && (
+                          <p className="text-sm text-slate-700">
+                            <span className="font-semibold">Explanation:</span> {question.explanation}
+                          </p>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Focus Areas */}
+            {currentExercise.focusAreas && currentExercise.focusAreas.length > 0 && (
+              <div className="bg-purple-50 rounded-xl p-4 border-2 border-purple-200">
+                <p className="font-semibold text-purple-900 mb-2">📌 Focus Areas:</p>
+                <div className="flex flex-wrap gap-2">
+                  {currentExercise.focusAreas.map((area: string, idx: number) => (
+                    <span key={idx} className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">
+                      {area}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        );
+
+      case 'multiple-choice-cloze':
+        return (
+          <div className="space-y-6">
+            {/* Instructions */}
+            <div className="bg-teal-50 rounded-xl p-6 border-2 border-teal-200">
+              <h3 className="text-xl font-bold text-teal-900 mb-3 flex items-center gap-2">
+                <span>📋</span>
+                <span>{currentExercise.title}</span>
+              </h3>
+              <p className="text-slate-700">Read the text and choose the best word for each gap from the options provided.</p>
+            </div>
+
+            {/* Text */}
+            <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
+              <p className="text-slate-700 whitespace-pre-line leading-relaxed text-lg">
+                {currentExercise.text}
+              </p>
+            </div>
+
+            {/* Questions */}
+            <div className="space-y-4">
+              <h4 className="text-lg font-bold text-slate-900">Choose the correct words:</h4>
+              {currentExercise.questions.map((question: any, idx: number) => (
+                <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
+                  <p className="font-semibold text-slate-900 mb-3">
+                    Gap {question.gapNumber}: <span className="text-sm text-blue-600">({question.points} {question.points === 1 ? 'point' : 'points'})</span>
+                  </p>
+
+                  <div className="space-y-2">
+                    {question.options.map((option: string, optIdx: number) => (
+                      <label key={optIdx} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer transition-colors">
+                        <input
+                          type="radio"
+                          name={question.id}
+                          value={option}
+                          checked={answers[question.id] === option}
+                          onChange={(e) => handleAnswer(question.id, e.target.value)}
+                          className="w-4 h-4"
+                        />
+                        <span className="text-slate-700">{option}</span>
+                      </label>
+                    ))}
+                  </div>
+
+                  {/* Feedback */}
+                  {showFeedback && (
+                    <div className={`mt-3 p-3 rounded-lg ${
+                      answers[question.id] === question.correctAnswer
+                        ? 'bg-green-50 border-2 border-green-200'
+                        : 'bg-red-50 border-2 border-red-200'
+                    }`}>
+                      <p className="font-semibold mb-1">
+                        {answers[question.id] === question.correctAnswer
+                          ? '✓ Correct!'
+                          : '✗ Incorrect'}
+                      </p>
+                      <p className="text-sm mb-2">
+                        <span className="font-semibold">Correct answer:</span>{' '}
+                        <span className="text-green-700 font-bold">{question.correctAnswer}</span>
+                      </p>
+                      {question.explanation && (
+                        <p className="text-sm text-slate-700">
+                          <span className="font-semibold">Explanation:</span> {question.explanation}
+                        </p>
+                      )}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+
+            {/* Focus Areas */}
+            {currentExercise.focusAreas && currentExercise.focusAreas.length > 0 && (
+              <div className="bg-teal-50 rounded-xl p-4 border-2 border-teal-200">
+                <p className="font-semibold text-teal-900 mb-2">📌 Focus Areas:</p>
+                <div className="flex flex-wrap gap-2">
+                  {currentExercise.focusAreas.map((area: string, idx: number) => (
+                    <span key={idx} className="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-sm">
+                      {area}
+                    </span>
+                  ))}
+                </div>
               </div>
             )}
           </div>
