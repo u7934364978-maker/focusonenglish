@@ -1,6 +1,7 @@
 import Stripe from 'stripe';
 import { NextRequest, NextResponse } from 'next/server';
 import { SUBSCRIPTION_PLANS, getPlanById } from '@/lib/subscription-plans';
+import { getStripePriceId } from '@/lib/stripe-config';
 
 // Inicializar Stripe solo si la clave está disponible (evita errores en build time)
 const stripe = process.env.STRIPE_SECRET_KEY 
@@ -30,23 +31,21 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Obtener Price ID de Stripe
+    const stripePriceId = getStripePriceId(planId);
+    if (!stripePriceId) {
+      return NextResponse.json(
+        { error: 'Configuración de Stripe incompleta. Por favor, contacta al administrador.' },
+        { status: 500 }
+      );
+    }
+
     // Crear sesión de checkout en Stripe para suscripción
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
       line_items: [
         {
-          price_data: {
-            currency: plan.currency,
-            product_data: {
-              name: `Focus English - Plan ${plan.name}`,
-              description: plan.features.slice(0, 3).join(', ') + (plan.features.length > 3 ? '...' : ''),
-              images: ['https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=800'],
-            },
-            unit_amount: plan.price,
-            recurring: {
-              interval: plan.interval,
-            },
-          },
+          price: stripePriceId, // Usar Price ID predefinido de Stripe
           quantity: 1,
         },
       ],
