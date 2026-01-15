@@ -149,8 +149,19 @@ export default function ComingSoonPage() {
             </div>
           </div>
 
+          {/* Sign In for existing students */}
+          <div className="mt-8">
+            <a
+              href="/login"
+              className="inline-flex items-center gap-2 px-6 py-3 text-violet-600 font-semibold hover:text-violet-700 transition-colors group"
+            >
+              <span>¿Ya tienes acceso?</span>
+              <span className="text-xl group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+
           {/* Additional info - Eliminado el email */}
-          <div className="mt-12 pt-8 border-t border-slate-200">
+          <div className="mt-8 pt-8 border-t border-slate-200">
             <p className="text-sm text-slate-500">
               🚀 Lanzamiento estimado: Primer trimestre 2026
             </p>
