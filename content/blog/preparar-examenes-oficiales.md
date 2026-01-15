@@ -483,53 +483,220 @@ Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo
 
 #### 📌 Ejemplos Prácticos por Objetivo Específico:
 
-**🎓 Para Universidades (Grado/Pregrado)**:
-- 🇬🇧 **UK - Russell Group** (Oxford, Cambridge, LSE, Imperial):
-  - IELTS: **6.5-7.0** | Cambridge: **B2 First Grade B** o **C1 Advanced** | TOEFL: **90-100**
-- 🇺🇸 **USA - Ivy League** (Harvard, Yale, MIT, Stanford):
-  - TOEFL: **100-110** | IELTS: **7.5-8.0** | Cambridge: **C1 Advanced Grade B/C**
-- 🇪🇺 **Europa - Erasmus / Programas de Intercambio**:
-  - Cambridge: **B2 First** | IELTS: **6.0-6.5** | TOEFL: **80-90**
-- 🇦🇺 **Australia - Group of Eight** (Sydney, Melbourne, ANU):
-  - IELTS: **6.5-7.0** | TOEFL: **90-100** | Cambridge: **B2 First Grade A/B**
+<div style="margin: 30px 0;">
 
-**🎓 Para Posgrados (Maestrías/MBA/Doctorados)**:
-- 🌍 **Programas MBA Top 50**:
-  - TOEFL: **100-110+** | IELTS: **7.0-7.5** | Cambridge: **C1 Advanced**
-- 🌍 **Maestrías Competitivas**:
-  - TOEFL: **90-100** | IELTS: **6.5-7.0** | Cambridge: **B2 First Grade A** o **C1 Advanced**
-- 🌍 **Doctorados (PhD)**:
-  - TOEFL: **95-105** | IELTS: **7.0-8.0** | Cambridge: **C1 Advanced**
+<!-- Panel 1: Universidades -->
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <h4 style="color: white; margin: 0 0 20px 0; font-size: 1.2em;">🎓 Para Universidades (Grado/Pregrado)</h4>
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px;">
+    
+    <!-- UK - Russell Group -->
+    <div style="background: white; padding: 20px; border-radius: 10px;">
+      <div style="font-size: 1.5em; margin-bottom: 10px;">🇬🇧</div>
+      <h5 style="margin: 0 0 10px 0; color: #1e40af; font-size: 1em;">UK - Russell Group</h5>
+      <p style="font-size: 0.85em; color: #6b7280; margin: 0 0 10px 0;">Oxford, Cambridge, LSE, Imperial</p>
+      <div style="background: #f3f4f6; padding: 12px; border-radius: 6px; font-size: 0.9em;">
+        <div style="margin-bottom: 6px;"><strong style="color: #10b981;">IELTS:</strong> 6.5-7.0</div>
+        <div style="margin-bottom: 6px;"><strong style="color: #3b82f6;">Cambridge:</strong> B2 First Grade B o C1</div>
+        <div><strong style="color: #8b5cf6;">TOEFL:</strong> 90-100</div>
+      </div>
+    </div>
+    
+    <!-- USA - Ivy League -->
+    <div style="background: white; padding: 20px; border-radius: 10px;">
+      <div style="font-size: 1.5em; margin-bottom: 10px;">🇺🇸</div>
+      <h5 style="margin: 0 0 10px 0; color: #1e40af; font-size: 1em;">USA - Ivy League</h5>
+      <p style="font-size: 0.85em; color: #6b7280; margin: 0 0 10px 0;">Harvard, Yale, MIT, Stanford</p>
+      <div style="background: #f3f4f6; padding: 12px; border-radius: 6px; font-size: 0.9em;">
+        <div style="margin-bottom: 6px;"><strong style="color: #8b5cf6;">TOEFL:</strong> 100-110</div>
+        <div style="margin-bottom: 6px;"><strong style="color: #10b981;">IELTS:</strong> 7.5-8.0</div>
+        <div><strong style="color: #3b82f6;">Cambridge:</strong> C1 Advanced B/C</div>
+      </div>
+    </div>
+    
+    <!-- Europa - Erasmus -->
+    <div style="background: white; padding: 20px; border-radius: 10px;">
+      <div style="font-size: 1.5em; margin-bottom: 10px;">🇪🇺</div>
+      <h5 style="margin: 0 0 10px 0; color: #1e40af; font-size: 1em;">Europa - Erasmus</h5>
+      <p style="font-size: 0.85em; color: #6b7280; margin: 0 0 10px 0;">Programas de Intercambio</p>
+      <div style="background: #f3f4f6; padding: 12px; border-radius: 6px; font-size: 0.9em;">
+        <div style="margin-bottom: 6px;"><strong style="color: #3b82f6;">Cambridge:</strong> B2 First</div>
+        <div style="margin-bottom: 6px;"><strong style="color: #10b981;">IELTS:</strong> 6.0-6.5</div>
+        <div><strong style="color: #8b5cf6;">TOEFL:</strong> 80-90</div>
+      </div>
+    </div>
+    
+    <!-- Australia - Group of Eight -->
+    <div style="background: white; padding: 20px; border-radius: 10px;">
+      <div style="font-size: 1.5em; margin-bottom: 10px;">🇦🇺</div>
+      <h5 style="margin: 0 0 10px 0; color: #1e40af; font-size: 1em;">Australia - Group of Eight</h5>
+      <p style="font-size: 0.85em; color: #6b7280; margin: 0 0 10px 0;">Sydney, Melbourne, ANU</p>
+      <div style="background: #f3f4f6; padding: 12px; border-radius: 6px; font-size: 0.9em;">
+        <div style="margin-bottom: 6px;"><strong style="color: #10b981;">IELTS:</strong> 6.5-7.0</div>
+        <div style="margin-bottom: 6px;"><strong style="color: #8b5cf6;">TOEFL:</strong> 90-100</div>
+        <div><strong style="color: #3b82f6;">Cambridge:</strong> B2 First A/B</div>
+      </div>
+    </div>
+    
+  </div>
+</div>
 
-**✈️ Para Inmigración / Residencia Permanente**:
-- 🇨🇦 **Canadá - Express Entry (CLB 9)**:
-  - IELTS: **7.0 en las 4 skills** (Listening 8.0, Reading 7.0, Writing 7.0, Speaking 7.0)
-  - No aceptan TOEFL ni Cambridge para inmigración
-- 🇦🇺 **Australia - Skilled Migration (visa 189/190)**:
-  - IELTS: **6.0 mínimo** (Competent) | **7.0+** (Proficient - más puntos)
-  - También aceptan: PTE Academic
-- 🇳🇿 **Nueva Zelanda - Skilled Migrant**:
-  - IELTS: **6.5 promedio** (ninguna skill menor a 6.0)
-- 🇬🇧 **UK - Visas de Trabajo / Estudio**:
-  - IELTS: **B1-B2 (4.0-5.5)** según tipo de visa
-  - Cambridge B1/B2 también aceptado
+<!-- Panel 2: Posgrados -->
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <h4 style="color: white; margin: 0 0 20px 0; font-size: 1.2em;">🎓 Para Posgrados (Maestrías/MBA/Doctorados)</h4>
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px;">
+    
+    <!-- MBA Top 50 -->
+    <div style="background: white; padding: 20px; border-radius: 10px;">
+      <div style="font-size: 1.5em; margin-bottom: 10px;">🌍</div>
+      <h5 style="margin: 0 0 10px 0; color: #dc2626; font-size: 1em;">Programas MBA Top 50</h5>
+      <p style="font-size: 0.85em; color: #6b7280; margin: 0 0 10px 0;">Programas más competitivos</p>
+      <div style="background: #fef3c7; padding: 12px; border-radius: 6px; font-size: 0.9em;">
+        <div style="margin-bottom: 6px;"><strong style="color: #8b5cf6;">TOEFL:</strong> 100-110+</div>
+        <div style="margin-bottom: 6px;"><strong style="color: #10b981;">IELTS:</strong> 7.0-7.5</div>
+        <div><strong style="color: #3b82f6;">Cambridge:</strong> C1 Advanced</div>
+      </div>
+    </div>
+    
+    <!-- Maestrías Competitivas -->
+    <div style="background: white; padding: 20px; border-radius: 10px;">
+      <div style="font-size: 1.5em; margin-bottom: 10px;">🌍</div>
+      <h5 style="margin: 0 0 10px 0; color: #dc2626; font-size: 1em;">Maestrías Competitivas</h5>
+      <p style="font-size: 0.85em; color: #6b7280; margin: 0 0 10px 0;">Programas de alto nivel</p>
+      <div style="background: #f3f4f6; padding: 12px; border-radius: 6px; font-size: 0.9em;">
+        <div style="margin-bottom: 6px;"><strong style="color: #8b5cf6;">TOEFL:</strong> 90-100</div>
+        <div style="margin-bottom: 6px;"><strong style="color: #10b981;">IELTS:</strong> 6.5-7.0</div>
+        <div><strong style="color: #3b82f6;">Cambridge:</strong> B2 First A / C1</div>
+      </div>
+    </div>
+    
+    <!-- Doctorados -->
+    <div style="background: white; padding: 20px; border-radius: 10px;">
+      <div style="font-size: 1.5em; margin-bottom: 10px;">🌍</div>
+      <h5 style="margin: 0 0 10px 0; color: #dc2626; font-size: 1em;">Doctorados (PhD)</h5>
+      <p style="font-size: 0.85em; color: #6b7280; margin: 0 0 10px 0;">Investigación académica</p>
+      <div style="background: #f3f4f6; padding: 12px; border-radius: 6px; font-size: 0.9em;">
+        <div style="margin-bottom: 6px;"><strong style="color: #8b5cf6;">TOEFL:</strong> 95-105</div>
+        <div style="margin-bottom: 6px;"><strong style="color: #10b981;">IELTS:</strong> 7.0-8.0</div>
+        <div><strong style="color: #3b82f6;">Cambridge:</strong> C1 Advanced</div>
+      </div>
+    </div>
+    
+  </div>
+</div>
 
-**💼 Para Trabajos Internacionales**:
-- 🌐 **Corporaciones Multinacionales**:
-  - Mínimo: **B2** (TOEFL 72+, IELTS 5.5+, Cambridge B2 First)
-  - Preferido: **C1** (TOEFL 95+, IELTS 7.0+, Cambridge C1 Advanced)
-- 🌐 **Puestos Técnicos** (IT, Ingeniería):
-  - TOEFL: **80-90** | IELTS: **6.0-6.5** | Cambridge: **B2 First**
-- 🌐 **Puestos Gerenciales**:
-  - TOEFL: **100+** | IELTS: **7.0+** | Cambridge: **C1 Advanced**
+<!-- Panel 3: Inmigración -->
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 20px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <h4 style="color: white; margin: 0 0 20px 0; font-size: 1.2em;">✈️ Para Inmigración / Residencia Permanente</h4>
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px;">
+    
+    <!-- Canadá -->
+    <div style="background: white; padding: 20px; border-radius: 10px;">
+      <div style="font-size: 1.5em; margin-bottom: 10px;">🇨🇦</div>
+      <h5 style="margin: 0 0 10px 0; color: #dc2626; font-size: 1em;">Canadá - Express Entry</h5>
+      <p style="font-size: 0.85em; color: #6b7280; margin: 0 0 10px 0;">CLB 9 requerido</p>
+      <div style="background: #dcfce7; padding: 12px; border-radius: 6px; font-size: 0.9em;">
+        <div style="margin-bottom: 8px;"><strong style="color: #10b981;">IELTS:</strong> 7.0 en las 4 skills</div>
+        <div style="font-size: 0.85em; color: #6b7280;">(L: 8.0, R: 7.0, W: 7.0, S: 7.0)</div>
+        <div style="margin-top: 8px; padding: 8px; background: #fee2e2; border-radius: 4px; font-size: 0.85em; color: #991b1b;">
+          ⚠️ No aceptan TOEFL ni Cambridge
+        </div>
+      </div>
+    </div>
+    
+    <!-- Australia -->
+    <div style="background: white; padding: 20px; border-radius: 10px;">
+      <div style="font-size: 1.5em; margin-bottom: 10px;">🇦🇺</div>
+      <h5 style="margin: 0 0 10px 0; color: #dc2626; font-size: 1em;">Australia - Skilled Migration</h5>
+      <p style="font-size: 0.85em; color: #6b7280; margin: 0 0 10px 0;">Visa 189/190</p>
+      <div style="background: #f3f4f6; padding: 12px; border-radius: 6px; font-size: 0.9em;">
+        <div style="margin-bottom: 6px;"><strong style="color: #10b981;">IELTS:</strong> 6.0 mínimo</div>
+        <div style="margin-bottom: 8px; font-size: 0.85em; color: #059669;">7.0+ = Proficient (más puntos)</div>
+        <div style="font-size: 0.85em; color: #6b7280;">También: PTE Academic</div>
+      </div>
+    </div>
+    
+    <!-- Nueva Zelanda -->
+    <div style="background: white; padding: 20px; border-radius: 10px;">
+      <div style="font-size: 1.5em; margin-bottom: 10px;">🇳🇿</div>
+      <h5 style="margin: 0 0 10px 0; color: #dc2626; font-size: 1em;">Nueva Zelanda</h5>
+      <p style="font-size: 0.85em; color: #6b7280; margin: 0 0 10px 0;">Skilled Migrant</p>
+      <div style="background: #f3f4f6; padding: 12px; border-radius: 6px; font-size: 0.9em;">
+        <div style="margin-bottom: 6px;"><strong style="color: #10b981;">IELTS:</strong> 6.5 promedio</div>
+        <div style="font-size: 0.85em; color: #6b7280;">(Ninguna skill menor a 6.0)</div>
+      </div>
+    </div>
+    
+    <!-- UK -->
+    <div style="background: white; padding: 20px; border-radius: 10px;">
+      <div style="font-size: 1.5em; margin-bottom: 10px;">🇬🇧</div>
+      <h5 style="margin: 0 0 10px 0; color: #dc2626; font-size: 1em;">UK - Visas Trabajo/Estudio</h5>
+      <p style="font-size: 0.85em; color: #6b7280; margin: 0 0 10px 0;">Skilled Worker Visa</p>
+      <div style="background: #f3f4f6; padding: 12px; border-radius: 6px; font-size: 0.9em;">
+        <div style="margin-bottom: 6px;"><strong style="color: #10b981;">IELTS:</strong> B1-B2 (4.0-5.5)</div>
+        <div style="font-size: 0.85em; color: #6b7280;">Según tipo de visa</div>
+        <div style="margin-top: 6px;"><strong style="color: #3b82f6;">Cambridge:</strong> B1/B2 aceptado</div>
+      </div>
+    </div>
+    
+  </div>
+</div>
 
----
-- 🇬🇧 UK (Skilled Worker Visa): IELTS 4.0 (B1 mínimo)
+<!-- Panel 4: Trabajos Internacionales -->
+<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 20px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <h4 style="color: white; margin: 0 0 20px 0; font-size: 1.2em;">💼 Para Trabajos Internacionales</h4>
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px;">
+    
+    <!-- Corporaciones Multinacionales -->
+    <div style="background: white; padding: 20px; border-radius: 10px;">
+      <div style="font-size: 1.5em; margin-bottom: 10px;">🌐</div>
+      <h5 style="margin: 0 0 10px 0; color: #7c3aed; font-size: 1em;">Corporaciones Multinacionales</h5>
+      <div style="background: #f3f4f6; padding: 12px; border-radius: 6px; font-size: 0.9em; margin-bottom: 10px;">
+        <div style="font-weight: 600; margin-bottom: 8px; color: #059669;">Mínimo (B2):</div>
+        <div style="font-size: 0.9em; color: #4a5568;">
+          TOEFL 72+ | IELTS 5.5+ | Cambridge B2 First
+        </div>
+      </div>
+      <div style="background: #fef3c7; padding: 12px; border-radius: 6px; font-size: 0.9em;">
+        <div style="font-weight: 600; margin-bottom: 8px; color: #d97706;">Preferido (C1):</div>
+        <div style="font-size: 0.9em; color: #4a5568;">
+          TOEFL 95+ | IELTS 7.0+ | Cambridge C1 Advanced
+        </div>
+      </div>
+    </div>
+    
+    <!-- Puestos Técnicos -->
+    <div style="background: white; padding: 20px; border-radius: 10px;">
+      <div style="font-size: 1.5em; margin-bottom: 10px;">🌐</div>
+      <h5 style="margin: 0 0 10px 0; color: #7c3aed; font-size: 1em;">Puestos Técnicos</h5>
+      <p style="font-size: 0.85em; color: #6b7280; margin: 0 0 10px 0;">IT, Ingeniería, Desarrollo</p>
+      <div style="background: #f3f4f6; padding: 12px; border-radius: 6px; font-size: 0.9em;">
+        <div style="margin-bottom: 6px;"><strong style="color: #8b5cf6;">TOEFL:</strong> 80-90</div>
+        <div style="margin-bottom: 6px;"><strong style="color: #10b981;">IELTS:</strong> 6.0-6.5</div>
+        <div><strong style="color: #3b82f6;">Cambridge:</strong> B2 First</div>
+      </div>
+    </div>
+    
+    <!-- Puestos Gerenciales -->
+    <div style="background: white; padding: 20px; border-radius: 10px;">
+      <div style="font-size: 1.5em; margin-bottom: 10px;">🌐</div>
+      <h5 style="margin: 0 0 10px 0; color: #7c3aed; font-size: 1em;">Puestos Gerenciales</h5>
+      <p style="font-size: 0.85em; color: #6b7280; margin: 0 0 10px 0;">Management, Liderazgo</p>
+      <div style="background: #fef3c7; padding: 12px; border-radius: 6px; font-size: 0.9em;">
+        <div style="margin-bottom: 6px;"><strong style="color: #8b5cf6;">TOEFL:</strong> 100+</div>
+        <div style="margin-bottom: 6px;"><strong style="color: #10b981;">IELTS:</strong> 7.0+</div>
+        <div><strong style="color: #3b82f6;">Cambridge:</strong> C1 Advanced</div>
+      </div>
+    </div>
+    
+  </div>
+</div>
 
-**Para Trabajo**:
-- Multinacionales (entry-level): TOEFL 80+ / IELTS 6.0 / Cambridge B2 First
-- Puestos gerenciales: TOEFL 100+ / IELTS 7.5+ / Cambridge C1 Advanced
-- Trabajo remoto internacional: B2 mínimo (certificado recomendado pero no siempre obligatorio)
+</div>
 
 ---
 
