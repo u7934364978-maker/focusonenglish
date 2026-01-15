@@ -955,24 +955,190 @@ La preparación TOEFL requiere un enfoque específico porque este examen evalúa
 
 ### Puntuación TOEFL: ¿Qué Necesitas?
 
-**Total: 0-120 puntos** (30 puntos por sección)
+<div style="margin: 30px 0;">
 
-| 🎯 Puntuación TOEFL | 📊 Nivel CEFR | 🎓 Equivalente | 🏛️ Qué Universidades la Aceptan | 💼 Qué Puedes Hacer |
-|---------------------|---------------|----------------|----------------------------------|---------------------|
-| **115-120** | C2 | Maestría | Harvard, MIT, Stanford, Yale | Becas completas, PhD programs, investigación avanzada |
-| **100-114** | C1 | Avanzado Alto | Top 20 US universities, Ivy League | Admisión competitiva, Teaching Assistantships |
-| **90-99** | C1 | Avanzado | Most US universities (80%+) | Admisión estándar, mayoría de programas de grado |
-| **80-89** | B2+ | Intermedio-Alto Superior | State universities, muchas privadas | Admisión con posible conditional English |
-| **72-79** | B2 | Intermedio-Alto | Community colleges, algunas 4-year | Programas menos competitivos, ESL programs |
-| **60-71** | B1 | Intermedio | Pathway programs | Programas preparatorios, pre-university |
-| **42-59** | A2-B1 | Elemental-Intermedio | Intensive English Programs (IEP) | Solo programas de idiomas intensivos |
+<!-- Tabla de Puntuaciones TOEFL -->
+<div style="background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%); padding: 20px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <h4 style="color: white; margin: 0 0 10px 0; font-size: 1.3em;">🎯 Puntuaciones TOEFL y Equivalencias</h4>
+  <p style="color: rgba(255,255,255,0.9); margin: 0 0 20px 0; font-size: 1em;">Total: 0-120 puntos (30 puntos por sección)</p>
+  
+  <div style="background: white; border-radius: 10px; overflow: hidden;">
+    <table style="width: 100%; border-collapse: collapse;">
+      <thead>
+        <tr style="background: #f8f9fa;">
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #8b5cf6; border-bottom: 2px solid #e2e8f0;">🎯 Puntuación</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #8b5cf6; border-bottom: 2px solid #e2e8f0;">📊 CEFR</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #8b5cf6; border-bottom: 2px solid #e2e8f0;">🎓 Nivel</th>
+          <th style="padding: 15px; text-align: left; font-weight: 600; color: #8b5cf6; border-bottom: 2px solid #e2e8f0;">🏛️ Universidades</th>
+          <th style="padding: 15px; text-align: left; font-weight: 600; color: #8b5cf6; border-bottom: 2px solid #e2e8f0;">💼 Qué Puedes Hacer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 115-120: Elite -->
+        <tr style="background: #fef3c7;">
+          <td style="padding: 15px; text-align: center; font-weight: 700; font-size: 1.2em; color: #7c3aed;">115-120</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">C2</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">Maestría</td>
+          <td style="padding: 15px; color: #2d3748;">
+            <strong style="color: #dc2626;">Harvard, MIT, Stanford, Yale</strong>
+          </td>
+          <td style="padding: 15px; color: #2d3748;">
+            ✨ Becas completas<br/>
+            🎓 PhD programs<br/>
+            🔬 Investigación avanzada
+          </td>
+        </tr>
+        
+        <!-- 100-114: Excelente -->
+        <tr style="background: #ffffff;">
+          <td style="padding: 15px; text-align: center; font-weight: 700; font-size: 1.2em; color: #6366f1;">100-114</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">C1</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">Avanzado Alto</td>
+          <td style="padding: 15px; color: #2d3748;">
+            Top 20 US universities<br/>
+            <strong style="color: #059669;">Ivy League</strong>
+          </td>
+          <td style="padding: 15px; color: #2d3748;">
+            🏆 Admisión competitiva<br/>
+            👨‍🏫 Teaching Assistantships
+          </td>
+        </tr>
+        
+        <!-- 90-99: Muy Bueno -->
+        <tr style="background: #f7fafc;">
+          <td style="padding: 15px; text-align: center; font-weight: 700; font-size: 1.2em; color: #10b981;">90-99</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">C1</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">Avanzado</td>
+          <td style="padding: 15px; color: #2d3748;">
+            <strong style="color: #059669;">80%+ universidades USA</strong><br/>
+            Most US universities
+          </td>
+          <td style="padding: 15px; color: #2d3748;">
+            ✅ Admisión estándar<br/>
+            📚 Mayoría de programas
+          </td>
+        </tr>
+        
+        <!-- 80-89: Bueno -->
+        <tr style="background: #ffffff;">
+          <td style="padding: 15px; text-align: center; font-weight: 700; font-size: 1.2em; color: #f59e0b;">80-89</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">B2+</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">Intermedio-Alto+</td>
+          <td style="padding: 15px; color: #2d3748;">
+            State universities<br/>
+            Muchas privadas
+          </td>
+          <td style="padding: 15px; color: #2d3748;">
+            📝 Admisión con posible<br/>
+            conditional English
+          </td>
+        </tr>
+        
+        <!-- 72-79: Competente -->
+        <tr style="background: #f7fafc;">
+          <td style="padding: 15px; text-align: center; font-weight: 700; font-size: 1.1em; color: #f97316;">72-79</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">B2</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">Intermedio-Alto</td>
+          <td style="padding: 15px; color: #2d3748;">
+            Community colleges<br/>
+            Algunas 4-year
+          </td>
+          <td style="padding: 15px; color: #2d3748;">
+            📖 Programas menos<br/>
+            competitivos, ESL
+          </td>
+        </tr>
+        
+        <!-- 60-71: Básico -->
+        <tr style="background: #ffffff;">
+          <td style="padding: 15px; text-align: center; font-weight: 600; font-size: 1em; color: #6b7280;">60-71</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">B1</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">Intermedio</td>
+          <td style="padding: 15px; color: #2d3748;">
+            Pathway programs
+          </td>
+          <td style="padding: 15px; color: #2d3748;">
+            🔄 Programas preparatorios<br/>
+            Pre-university
+          </td>
+        </tr>
+        
+        <!-- 42-59: Elemental -->
+        <tr style="background: #f7fafc;">
+          <td style="padding: 15px; text-align: center; font-weight: 600; font-size: 1em; color: #9ca3af;">42-59</td>
+          <td style="padding: 15px; text-align: center; color: #6b7280;">A2-B1</td>
+          <td style="padding: 15px; text-align: center; color: #6b7280;">Elemental-Intermedio</td>
+          <td style="padding: 15px; color: #6b7280;">
+            Intensive English Programs
+          </td>
+          <td style="padding: 15px; color: #6b7280;">
+            📚 Solo programas de<br/>
+            idiomas intensivos
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
-💡 Tip de preparación TOEFL: 
-- **Mínimo competitivo**: 80 puntos (mayoría de universidades)
-- **Objetivo recomendado**: 100 puntos (universidades top)
-- **Excelencia**: 110+ (becas y admisiones altamente competitivas)
+<!-- Tips y Recomendaciones -->
+<div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); padding: 20px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <h4 style="color: white; margin: 0 0 15px 0; font-size: 1.2em;">💡 Tips de Preparación TOEFL</h4>
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px;">
+    
+    <!-- Mínimo Competitivo -->
+    <div style="background: rgba(255,255,255,0.95); padding: 20px; border-radius: 10px; border-left: 5px solid #f59e0b;">
+      <div style="font-size: 2em; margin-bottom: 10px;">⚡</div>
+      <h5 style="margin: 0 0 10px 0; color: #f59e0b; font-size: 1.1em;">Mínimo Competitivo</h5>
+      <div style="font-size: 2em; font-weight: 700; color: #f59e0b; margin: 10px 0;">80 puntos</div>
+      <p style="margin: 0; font-size: 0.9em; color: #4a5568;">
+        Aceptado por la mayoría de universidades estadounidenses
+      </p>
+    </div>
+    
+    <!-- Objetivo Recomendado -->
+    <div style="background: rgba(255,255,255,0.95); padding: 20px; border-radius: 10px; border-left: 5px solid #10b981;">
+      <div style="font-size: 2em; margin-bottom: 10px;">🎯</div>
+      <h5 style="margin: 0 0 10px 0; color: #10b981; font-size: 1.1em;">Objetivo Recomendado</h5>
+      <div style="font-size: 2em; font-weight: 700; color: #10b981; margin: 10px 0;">100 puntos</div>
+      <p style="margin: 0; font-size: 0.9em; color: #4a5568;">
+        Ideal para universidades top y programas competitivos
+      </p>
+    </div>
+    
+    <!-- Excelencia -->
+    <div style="background: rgba(255,255,255,0.95); padding: 20px; border-radius: 10px; border-left: 5px solid #7c3aed;">
+      <div style="font-size: 2em; margin-bottom: 10px;">🏆</div>
+      <h5 style="margin: 0 0 10px 0; color: #7c3aed; font-size: 1.1em;">Excelencia</h5>
+      <div style="font-size: 2em; font-weight: 700; color: #7c3aed; margin: 10px 0;">110+ puntos</div>
+      <p style="margin: 0; font-size: 0.9em; color: #4a5568;">
+        Becas completas y admisiones altamente competitivas
+      </p>
+    </div>
+    
+  </div>
+</div>
 
-📌 **Importante**: Muchas universidades también piden **mínimos por sección** (ej: 20+ en cada skill). No solo importa el total.
+<!-- Nota Importante -->
+<div style="background: #fef3c7; padding: 20px; border-radius: 10px; border-left: 5px solid #f59e0b; margin-bottom: 20px;">
+  <div style="display: flex; align-items: start; gap: 15px;">
+    <div style="font-size: 2em;">📌</div>
+    <div>
+      <h5 style="margin: 0 0 10px 0; color: #d97706; font-size: 1.1em;">Importante: Mínimos por Sección</h5>
+      <p style="margin: 0; font-size: 0.95em; color: #4a5568; line-height: 1.6;">
+        Muchas universidades también piden <strong>mínimos por sección</strong> (ej: 20+ en cada skill). 
+        <strong style="color: #dc2626;">No solo importa el total</strong>, sino que cada habilidad 
+        (Reading, Listening, Speaking, Writing) debe alcanzar el umbral mínimo requerido.
+      </p>
+      <div style="margin-top: 10px; padding: 10px; background: white; border-radius: 6px;">
+        <strong style="color: #059669;">Ejemplo común:</strong> TOEFL 90 total con mínimo 20 en cada sección
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
 
 ---
 
@@ -1002,9 +1168,9 @@ Temas típicos de preparación TOEFL:
 **3-4 lectures y 2-3 conversaciones**
 
 **Estructura de Lectures**:
-- Introducción del tema
-- Desarrollo con ejemplos
-- Conclusión o implicaciones
+🎯 Introducción del tema
+📚 Desarrollo con ejemplos
+💡 Conclusión o implicaciones
 
 **Toma de Notas**:
 ```
