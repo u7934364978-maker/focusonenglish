@@ -389,9 +389,58 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 <p className="text-slate-700">Your pronunciation has been evaluated. Click "Next Exercise" to continue.</p>
               </div>
             ) : (
-              <div className="bg-white rounded-xl border-2 border-green-200 p-6">
-                <p className="text-green-800 font-semibold mb-2">✓ Recording Submitted!</p>
-                <p className="text-slate-700">Your speaking exercise has been recorded successfully. Click "Next Exercise" to continue.</p>
+              <div className="space-y-4">
+                {/* Speaking Exercise Completed */}
+                <div className="bg-white rounded-xl border-2 border-green-200 p-6">
+                  <h3 className="text-xl font-bold text-green-800 mb-3 flex items-center gap-2">
+                    <span>✓</span>
+                    <span>Recording Submitted Successfully!</span>
+                  </h3>
+                  <p className="text-slate-700 mb-4">
+                    Your speaking exercise has been recorded. Here's what you said:
+                  </p>
+                  
+                  {/* Transcript */}
+                  {recordedAudio.transcript && (
+                    <div className="bg-blue-50 rounded-lg p-4 border border-blue-200 mb-4">
+                      <h4 className="font-semibold text-blue-900 mb-2 flex items-center gap-2">
+                        <span>📝</span>
+                        <span>Your Transcript:</span>
+                      </h4>
+                      <p className="text-slate-700 italic">"{recordedAudio.transcript}"</p>
+                      <p className="text-sm text-blue-700 mt-2">
+                        Word count: {recordedAudio.transcript.split(' ').length} words
+                      </p>
+                    </div>
+                  )}
+
+                  {/* Basic Feedback */}
+                  <div className="bg-purple-50 rounded-lg p-4 border border-purple-200">
+                    <h4 className="font-semibold text-purple-900 mb-2">Quick Feedback:</h4>
+                    <ul className="space-y-2">
+                      {recordedAudio.transcript && recordedAudio.transcript.split(' ').length >= 50 && (
+                        <li className="flex items-start gap-2 text-green-700">
+                          <span className="mt-0.5">✓</span>
+                          <span>Good length - you spoke enough to express your ideas</span>
+                        </li>
+                      )}
+                      {recordedAudio.transcript && recordedAudio.transcript.split(' ').length < 50 && (
+                        <li className="flex items-start gap-2 text-amber-700">
+                          <span className="mt-0.5">→</span>
+                          <span>Try to speak more to fully develop your answer</span>
+                        </li>
+                      )}
+                      <li className="flex items-start gap-2 text-blue-700">
+                        <span className="mt-0.5">💡</span>
+                        <span>In a real exam, a teacher would evaluate your: grammar, vocabulary, fluency, and pronunciation</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <p className="text-sm text-slate-600 mt-4 text-center">
+                    Click "Next Exercise" to continue to the next activity
+                  </p>
+                </div>
               </div>
             )}
           </div>
