@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { OrganizationSchema, WebsiteSchema } from "./schema";
 import GoogleAnalytics from "./components/GoogleAnalytics";
+import Cookiebot from "./components/Cookiebot";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://focus-on-english.com'),
@@ -125,6 +126,9 @@ export default function RootLayout({
         }} />
       </head>
       <body className="antialiased bg-white text-slate-900">
+        {/* Cookiebot Consent Management */}
+        <Cookiebot />
+        
         {/* Google Analytics */}
         <GoogleAnalytics />
         
