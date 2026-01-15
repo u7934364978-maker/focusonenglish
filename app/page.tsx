@@ -280,7 +280,7 @@ export default function HomePage() {
                   </span>
                   <span className="text-xs text-slate-500">16 min</span>
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-violet-600 transition-colors">
+                <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-violet-600 transition-colors tracking-tight">
                   El Día Que Perdí Un Ascenso Por No Saber Decir 'Implementar' en Inglés
                 </h3>
                 <p className="text-slate-600 text-sm">
@@ -298,7 +298,7 @@ export default function HomePage() {
                   </span>
                   <span className="text-xs text-slate-500">15 min</span>
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
+                <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors tracking-tight">
                   La Noche Que Casi Duermo En Heathrow Por No Entender 'Gate Change'
                 </h3>
                 <p className="text-slate-600 text-sm">
@@ -316,7 +316,7 @@ export default function HomePage() {
                   </span>
                   <span className="text-xs text-slate-500">18 min</span>
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-emerald-600 transition-colors">
+                <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-emerald-600 transition-colors tracking-tight">
                   Secretos de Una Ex-Examinadora Cambridge: Lo Que Realmente Buscan
                 </h3>
                 <p className="text-slate-600 text-sm">
@@ -330,7 +330,7 @@ export default function HomePage() {
         {/* CTA Section */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-violet-600 via-purple-600 to-indigo-700 text-white">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl sm:text-5xl font-black mb-6">
+            <h2 className="font-display text-4xl sm:text-5xl font-black mb-6 tracking-tight">
               ¿Listo para Empezar?
             </h2>
             <p className="text-xl text-violet-100 mb-10 max-w-2xl mx-auto">

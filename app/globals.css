@@ -7,6 +7,27 @@
     --color-primary: 124 58 237; /* violet-600 */
     --color-primary-hover: 109 40 217; /* violet-700 */
   }
+  
+  /* Tipografía global */
+  body {
+    font-family: var(--font-dm-sans), system-ui, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-space-grotesk), system-ui, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  
+  h1 {
+    font-weight: 800;
+    letter-spacing: -0.03em;
+  }
+  
+  /* Mejor legibilidad */
+  p {
+    line-height: 1.7;
+  }
 }
 
 @layer utilities {

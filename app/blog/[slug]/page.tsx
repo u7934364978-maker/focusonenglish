@@ -97,10 +97,10 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
 
   // Simple markdown to HTML conversion (basic)
   const htmlContent = content
-    .replace(/^### (.*$)/gim, '<h3 class="text-2xl font-bold text-slate-900 mt-8 mb-4">$1</h3>')
-    .replace(/^## (.*$)/gim, '<h2 class="text-3xl font-black text-slate-900 mt-12 mb-6">$1</h2>')
-    .replace(/^# (.*$)/gim, '<h1 class="text-4xl font-black text-slate-900 mt-8 mb-6">$1</h1>')
-    .replace(/^\*\*(.*)\*\*/gim, '<strong class="font-bold text-slate-900">$1</strong>')
+    .replace(/^### (.*$)/gim, '<h3 class="font-display text-2xl font-bold text-slate-900 mt-8 mb-4">$1</h3>')
+    .replace(/^## (.*$)/gim, '<h2 class="font-display text-3xl font-black text-slate-900 mt-12 mb-6">$1</h2>')
+    .replace(/^# (.*$)/gim, '<h1 class="font-display text-4xl font-black text-slate-900 mt-8 mb-6">$1</h1>')
+    .replace(/^\*\*(.*)\*\*/gim, '<strong class="font-semibold text-slate-900">$1</strong>')
     .replace(/^- (.*$)/gim, '<li class="ml-6 text-slate-700">$1</li>')
     .replace(/^✅ (.*$)/gim, '<div class="flex items-start gap-2 mb-2"><span class="text-green-600 mt-1">✅</span><span class="text-slate-700">$1</span></div>')
     .replace(/^❌ (.*$)/gim, '<div class="flex items-start gap-2 mb-2"><span class="text-red-600 mt-1">❌</span><span class="text-slate-700">$1</span></div>')
@@ -153,7 +153,7 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
             </div>
 
             {/* Title */}
-            <h1 className="text-4xl sm:text-5xl font-black text-slate-900 mb-6 leading-tight">
+            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 mb-6 leading-tight tracking-tight">
               {data.title}
             </h1>
 
@@ -182,11 +182,11 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
             {/* Article Content */}
             <div 
               className="prose prose-slate prose-lg max-w-none
-                prose-headings:font-black
+                prose-headings:font-display prose-headings:font-black prose-headings:tracking-tight
                 prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6
                 prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4
                 prose-p:text-slate-700 prose-p:leading-relaxed prose-p:mb-4
-                prose-strong:text-slate-900 prose-strong:font-bold
+                prose-strong:text-slate-900 prose-strong:font-semibold
                 prose-a:text-violet-600 prose-a:no-underline hover:prose-a:underline
                 prose-code:bg-slate-100 prose-code:px-2 prose-code:py-1 prose-code:rounded
                 prose-pre:bg-slate-900 prose-pre:text-slate-100
@@ -197,10 +197,10 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
 
             {/* CTA Box */}
             <div className="mt-12 p-8 rounded-2xl bg-gradient-to-br from-violet-50 to-purple-50 border border-violet-200">
-              <h3 className="text-2xl font-black text-slate-900 mb-4">
+              <h3 className="font-display text-2xl font-black text-slate-900 mb-4 tracking-tight">
                 ¿Te gustaría profundizar en este tema?
               </h3>
-              <p className="text-slate-700 mb-6">
+              <p className="text-slate-700 mb-6 leading-relaxed">
                 Descubre nuestros cursos especializados y lleva tu inglés al siguiente nivel con programas personalizados.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -232,7 +232,7 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
         {/* Related Articles */}
         <section className="py-16 bg-slate-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-black text-slate-900 mb-8">
+            <h2 className="font-display text-3xl font-black text-slate-900 mb-8 tracking-tight">
               Artículos Relacionados
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
