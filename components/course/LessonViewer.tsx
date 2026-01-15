@@ -689,14 +689,27 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             ← Previous
           </button>
 
-          {(showFeedback || recordedAudio || currentExercise.type === 'writing') && (
-            <button
-              onClick={nextExercise}
-              className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all font-bold shadow-lg"
-            >
-              {currentExerciseIndex === lesson.exercises.length - 1 ? 'Complete Lesson' : 'Next Exercise →'}
-            </button>
-          )}
+          <div className="flex gap-3">
+            {/* Skip button (always visible) */}
+            {!showFeedback && !recordedAudio && currentExercise.type !== 'writing' && (
+              <button
+                onClick={nextExercise}
+                className="px-6 py-3 bg-slate-300 text-slate-700 rounded-xl hover:bg-slate-400 transition-colors font-bold"
+              >
+                Skip Exercise →
+              </button>
+            )}
+            
+            {/* Next button (after completing exercise) */}
+            {(showFeedback || recordedAudio || currentExercise.type === 'writing') && (
+              <button
+                onClick={nextExercise}
+                className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all font-bold shadow-lg"
+              >
+                {currentExerciseIndex === lesson.exercises.length - 1 ? 'Complete Lesson' : 'Next Exercise →'}
+              </button>
+            )}
+          </div>
         </div>
       </div>
     </div>
