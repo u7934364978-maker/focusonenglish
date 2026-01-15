@@ -31,24 +31,39 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Obtener Price ID de Stripe
+    // Obtener Price ID de Stripe (si está configurado)
     const stripePriceId = getStripePriceId(planId);
-    if (!stripePriceId) {
-      return NextResponse.json(
-        { error: 'Configuración de Stripe incompleta. Por favor, contacta al administrador.' },
-        { status: 500 }
-      );
-    }
+    
+    // Crear line_items dependiendo si hay Price ID configurado o no
+    const lineItems = stripePriceId
+      ? [
+          {
+            price: stripePriceId, // Usar Price ID predefinido
+            quantity: 1,
+          },
+        ]
+      : [
+          {
+            // Fallback: crear precio dinámicamente si no hay Price ID configurado
+            price_data: {
+              currency: plan.currency,
+              product_data: {
+                name: `Focus English - ${plan.name}`,
+                description: `Plan ${plan.name} - ${plan.features[0]}`,
+              },
+              unit_amount: plan.price,
+              recurring: {
+                interval: plan.interval,
+              },
+            },
+            quantity: 1,
+          },
+        ];
 
     // Crear sesión de checkout en Stripe para suscripción
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
-      line_items: [
-        {
-          price: stripePriceId, // Usar Price ID predefinido de Stripe
-          quantity: 1,
-        },
-      ],
+      line_items: lineItems,
       mode: 'subscription', // Cambio clave: de 'payment' a 'subscription'
       success_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/planes?canceled=true`,
