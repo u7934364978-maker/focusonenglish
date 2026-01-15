@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import EnhancedVoiceRecorder from '@/components/course/EnhancedVoiceRecorder';
-import EnhancedPronunciationEvaluator from '@/components/course/EnhancedPronunciationEvaluator';
+import SmartPronunciationEvaluator from '@/components/course/SmartPronunciationEvaluator';
 import { Lesson, Exercise, Question } from '@/lib/course-data-b2';
 
 interface LessonViewerProps {
@@ -377,8 +377,9 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 onComplete={handleVoiceRecordingComplete}
               />
             ) : !pronunciationFeedback ? (
-              <EnhancedPronunciationEvaluator
-                targetText={currentExercise.targetText || currentExercise.prompt}
+              <SmartPronunciationEvaluator
+                targetText={currentExercise.targetText}
+                prompt={currentExercise.prompt}
                 transcript={recordedAudio.transcript}
                 audioBlob={recordedAudio.blob}
                 modelAudioUrl={currentExercise.modelAudioUrl}
