@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import EnhancedVoiceRecorder from '@/components/course/EnhancedVoiceRecorder';
 import SmartPronunciationEvaluator from '@/components/course/SmartPronunciationEvaluator';
+import PronunciationPractice from '@/components/course/PronunciationPractice';
 import { Lesson, Exercise, Question } from '@/lib/course-data-b2';
 
 interface LessonViewerProps {
@@ -404,8 +405,22 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           </div>
         );
 
-      case 'speaking':
       case 'pronunciation':
+        return (
+          <PronunciationPractice
+            exerciseId={currentExercise.id}
+            prompt={currentExercise.prompt}
+            targetText={currentExercise.targetText || ''}
+            modelAudioUrl={currentExercise.modelAudioUrl}
+            hints={currentExercise.hints}
+            onComplete={(exerciseId, score, feedback) => {
+              setExerciseScores(prev => ({ ...prev, [exerciseId]: score }));
+              setPronunciationFeedback(feedback);
+            }}
+          />
+        );
+
+      case 'speaking':
         return (
           <div className="space-y-6">
             {!recordedAudio ? (
