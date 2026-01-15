@@ -1,4 +1,4 @@
-#!/usr/bin/env ts-node
+#!/usr/bin/env node
 
 /**
  * Script de Testing de Conexión a Supabase
@@ -7,25 +7,26 @@
  * y que todas las tablas estén configuradas.
  * 
  * Uso:
- *   npx tsx test-supabase-connection.ts
+ *   node test-supabase-simple.js
  */
 
-// Cargar variables de entorno desde .env.local
-import * as dotenv from 'dotenv';
-dotenv.config({ path: '.env.local' });
+// Cargar variables de entorno primero
+require('dotenv').config({ path: '.env.local' });
 
-import { supabase, supabaseAdmin } from './lib/supabase/client';
+const { createClient } = require('@supabase/supabase-js');
 
-interface TestResult {
-  name: string;
-  passed: boolean;
-  message?: string;
-  data?: any;
-}
+// Crear clientes de Supabase
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
-const results: TestResult[] = [];
+const supabase = createClient(supabaseUrl, supabaseAnonKey);
+const supabaseAdmin = createClient(supabaseUrl, supabaseServiceKey);
 
-function logTest(result: TestResult) {
+// Resultados de tests
+const results = [];
+
+function logTest(result) {
   results.push(result);
   const icon = result.passed ? '✅' : '❌';
   console.log(`${icon} ${result.name}`);
@@ -45,10 +46,6 @@ async function testSupabaseConnection() {
 
   // Test 1: Verificar variables de entorno
   try {
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-    const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-    const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
-
     if (!supabaseUrl || !supabaseAnonKey || !supabaseServiceKey) {
       throw new Error('Variables de entorno no configuradas');
     }
@@ -56,9 +53,14 @@ async function testSupabaseConnection() {
     logTest({
       name: 'Test 1: Environment Variables',
       passed: true,
-      message: 'All Supabase environment variables are set'
+      message: 'All Supabase environment variables are set',
+      data: {
+        url: supabaseUrl.substring(0, 30) + '...',
+        anon_key_length: supabaseAnonKey.length,
+        service_key_length: supabaseServiceKey.length
+      }
     });
-  } catch (error: any) {
+  } catch (error) {
     logTest({
       name: 'Test 1: Environment Variables',
       passed: false,
@@ -81,7 +83,7 @@ async function testSupabaseConnection() {
       passed: true,
       message: 'Successfully connected with anon key'
     });
-  } catch (error: any) {
+  } catch (error) {
     logTest({
       name: 'Test 2: Public Client Connection',
       passed: false,
@@ -103,7 +105,7 @@ async function testSupabaseConnection() {
       passed: true,
       message: 'Successfully connected with service role key'
     });
-  } catch (error: any) {
+  } catch (error) {
     logTest({
       name: 'Test 3: Admin Client Connection',
       passed: false,
@@ -125,7 +127,7 @@ async function testSupabaseConnection() {
       passed: true,
       message: `Table accessible, ${data?.length || 0} rows returned`
     });
-  } catch (error: any) {
+  } catch (error) {
     logTest({
       name: 'Test 4: Table "users" exists',
       passed: false,
@@ -147,7 +149,7 @@ async function testSupabaseConnection() {
       passed: true,
       message: `Table accessible, ${data?.length || 0} rows returned`
     });
-  } catch (error: any) {
+  } catch (error) {
     logTest({
       name: 'Test 5: Table "password_reset_tokens" exists',
       passed: false,
@@ -169,7 +171,7 @@ async function testSupabaseConnection() {
       passed: true,
       message: `Table accessible, ${data?.length || 0} rows returned`
     });
-  } catch (error: any) {
+  } catch (error) {
     logTest({
       name: 'Test 6: Table "subscriptions" exists',
       passed: false,
@@ -191,7 +193,7 @@ async function testSupabaseConnection() {
       passed: true,
       message: `Table accessible, ${data?.length || 0} rows returned`
     });
-  } catch (error: any) {
+  } catch (error) {
     logTest({
       name: 'Test 7: Table "course_progress" exists',
       passed: false,
@@ -226,35 +228,9 @@ async function testSupabaseConnection() {
       passed: true,
       message: `User created and deleted successfully (ID: ${data.id})`
     });
-  } catch (error: any) {
+  } catch (error) {
     logTest({
       name: 'Test 8: Insert & Delete Test User',
-      passed: false,
-      message: error.message
-    });
-  }
-
-  // Test 9: Contar registros en tablas
-  try {
-    const { data: usersData } = await supabaseAdmin
-      .from('users')
-      .select('*', { count: 'exact', head: true });
-
-    const { data: tokensData } = await supabaseAdmin
-      .from('password_reset_tokens')
-      .select('*', { count: 'exact', head: true });
-
-    logTest({
-      name: 'Test 9: Database Statistics',
-      passed: true,
-      data: {
-        total_users: usersData || 0,
-        total_tokens: tokensData || 0
-      }
-    });
-  } catch (error: any) {
-    logTest({
-      name: 'Test 9: Database Statistics',
       passed: false,
       message: error.message
     });
