@@ -2248,17 +2248,79 @@ Esta es la fase final de tu preparación Cambridge, preparación TOEFL o prepara
 
 **Registra TODOS tus mock exams** en una tabla como esta:
 
-| Fecha | Reading | Listening | Speaking | Writing | Total | Notas |
-|-------|---------|-----------|----------|---------|-------|-------|
-| Semana 1 | 23/30 | 19/30 | 21/30 | 18/30 | 81/120 | Listening muy débil |
-| Semana 2 | 24/30 | 21/30 | 22/30 | 19/30 | 86/120 | Mejoró listening |
-| Semana 4 | 25/30 | 23/30 | 23/30 | 21/30 | 92/120 | ✅ Objetivo casi alcanzado |
-
-Esto te permite:
-- ✅ Ver tu progreso real (es motivante)
-- ✅ Identificar estancamientos (cambiar estrategia si no mejoras)
-- ✅ Ajustar tu plan de estudio
-- ✅ Predecir tu puntuación final
+<div style="margin: 30px 0;">
+  <div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+    <h4 style="color: white; margin: 0 0 20px 0; font-size: 1.2em;">📊 Tabla de Seguimiento de Mock Exams</h4>
+    
+    <div style="background: white; border-radius: 10px; overflow-x: auto;">
+      <table style="width: 100%; border-collapse: collapse; min-width: 600px;">
+        <thead>
+          <tr style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+            <th style="padding: 15px; text-align: left; font-weight: 700; color: #2d3748; border-bottom: 3px solid #8b5cf6;">📅 Fecha</th>
+            <th style="padding: 15px; text-align: center; font-weight: 700; color: #2d3748; border-bottom: 3px solid #3b82f6;">📖 Reading</th>
+            <th style="padding: 15px; text-align: center; font-weight: 700; color: #2d3748; border-bottom: 3px solid #10b981;">🎧 Listening</th>
+            <th style="padding: 15px; text-align: center; font-weight: 700; color: #2d3748; border-bottom: 3px solid #f59e0b;">💬 Speaking</th>
+            <th style="padding: 15px; text-align: center; font-weight: 700; color: #2d3748; border-bottom: 3px solid #ef4444;">✍️ Writing</th>
+            <th style="padding: 15px; text-align: center; font-weight: 700; color: #8b5cf6; border-bottom: 3px solid #8b5cf6;">🎯 Total</th>
+            <th style="padding: 15px; text-align: left; font-weight: 700; color: #2d3748; border-bottom: 3px solid #6b7280;">📝 Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #ffffff;">
+            <td style="padding: 15px; font-weight: 600; color: #4a5568; border-bottom: 1px solid #e5e7eb;">Semana 1</td>
+            <td style="padding: 15px; text-align: center; background: #dbeafe; color: #1e40af; font-weight: 700; border-bottom: 1px solid #e5e7eb;">23/30</td>
+            <td style="padding: 15px; text-align: center; background: #fef2f2; color: #991b1b; font-weight: 700; border-bottom: 1px solid #e5e7eb;">19/30</td>
+            <td style="padding: 15px; text-align: center; background: #fef3c7; color: #92400e; font-weight: 700; border-bottom: 1px solid #e5e7eb;">21/30</td>
+            <td style="padding: 15px; text-align: center; background: #fef2f2; color: #991b1b; font-weight: 700; border-bottom: 1px solid #e5e7eb;">18/30</td>
+            <td style="padding: 15px; text-align: center; background: #faf5ff; color: #6d28d9; font-weight: 700; font-size: 1.1em; border-bottom: 1px solid #e5e7eb;">81/120</td>
+            <td style="padding: 15px; color: #6b7280; font-style: italic; border-bottom: 1px solid #e5e7eb;">Listening muy débil</td>
+          </tr>
+          <tr style="background: #f9fafb;">
+            <td style="padding: 15px; font-weight: 600; color: #4a5568; border-bottom: 1px solid #e5e7eb;">Semana 2</td>
+            <td style="padding: 15px; text-align: center; background: #dbeafe; color: #1e40af; font-weight: 700; border-bottom: 1px solid #e5e7eb;">24/30</td>
+            <td style="padding: 15px; text-align: center; background: #d1fae5; color: #065f46; font-weight: 700; border-bottom: 1px solid #e5e7eb;">21/30</td>
+            <td style="padding: 15px; text-align: center; background: #d1fae5; color: #065f46; font-weight: 700; border-bottom: 1px solid #e5e7eb;">22/30</td>
+            <td style="padding: 15px; text-align: center; background: #fef3c7; color: #92400e; font-weight: 700; border-bottom: 1px solid #e5e7eb;">19/30</td>
+            <td style="padding: 15px; text-align: center; background: #faf5ff; color: #6d28d9; font-weight: 700; font-size: 1.1em; border-bottom: 1px solid #e5e7eb;">86/120</td>
+            <td style="padding: 15px; color: #065f46; font-style: italic; border-bottom: 1px solid #e5e7eb;">Mejoró listening ⬆️</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 15px; font-weight: 600; color: #4a5568; border-bottom: 1px solid #e5e7eb;">Semana 4</td>
+            <td style="padding: 15px; text-align: center; background: #dbeafe; color: #1e40af; font-weight: 700; border-bottom: 1px solid #e5e7eb;">25/30</td>
+            <td style="padding: 15px; text-align: center; background: #d1fae5; color: #065f46; font-weight: 700; border-bottom: 1px solid #e5e7eb;">23/30</td>
+            <td style="padding: 15px; text-align: center; background: #d1fae5; color: #065f46; font-weight: 700; border-bottom: 1px solid #e5e7eb;">23/30</td>
+            <td style="padding: 15px; text-align: center; background: #d1fae5; color: #065f46; font-weight: 700; border-bottom: 1px solid #e5e7eb;">21/30</td>
+            <td style="padding: 15px; text-align: center; background: #d1fae5; color: #047857; font-weight: 700; font-size: 1.2em; border-bottom: 1px solid #e5e7eb;">92/120</td>
+            <td style="padding: 15px; color: #047857; font-weight: 600; border-bottom: 1px solid #e5e7eb;">✅ Objetivo casi alcanzado</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+    <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 10px; margin-top: 20px; backdrop-filter: blur(10px);">
+      <div style="color: white; font-weight: 700; margin-bottom: 12px; font-size: 1.1em;">📈 Esto te permite:</div>
+      <div style="display: grid; gap: 10px; color: white; font-size: 0.95em;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <div style="background: white; color: #8b5cf6; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">✓</div>
+          <div>Ver tu progreso real (es motivante)</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <div style="background: white; color: #8b5cf6; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">✓</div>
+          <div>Identificar estancamientos (cambiar estrategia si no mejoras)</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <div style="background: white; color: #8b5cf6; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">✓</div>
+          <div>Ajustar tu plan de estudio</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <div style="background: white; color: #8b5cf6; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">✓</div>
+          <div>Predecir tu puntuación final</div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
 
 ---
 
@@ -2615,19 +2677,170 @@ IELTS:
 
 ### Plazos de Inscripción Recomendados
 
-| Examen | Inscribirse | Frecuencia | Disponibilidad |
-|--------|-------------|------------|----------------|
-| Cambridge | 3-4 meses antes | 3-4 veces/año | Plazas limitadas |
-| TOEFL | 2-3 meses antes | 50+ fechas/año | Alta disponibilidad |
-| IELTS | 2 meses antes | 4 veces/mes | Buena disponibilidad |
+<div style="margin: 30px 0;">
+  <div style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+    <h4 style="color: white; margin: 0 0 20px 0; font-size: 1.2em;">📅 Cuándo Inscribirte: Plazos Recomendados</h4>
+    
+    <div style="background: white; border-radius: 10px; overflow-x: auto;">
+      <table style="width: 100%; border-collapse: collapse;">
+        <thead>
+          <tr style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+            <th style="padding: 18px; text-align: left; font-weight: 700; color: #2d3748; border-bottom: 3px solid #3b82f6; width: 25%;">Examen</th>
+            <th style="padding: 18px; text-align: center; font-weight: 700; color: #2d3748; border-bottom: 3px solid #3b82f6; width: 25%;">⏰ Inscribirse</th>
+            <th style="padding: 18px; text-align: center; font-weight: 700; color: #2d3748; border-bottom: 3px solid #3b82f6; width: 25%;">📊 Frecuencia</th>
+            <th style="padding: 18px; text-align: center; font-weight: 700; color: #2d3748; border-bottom: 3px solid #3b82f6; width: 25%;">✅ Disponibilidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #ffffff; border-bottom: 1px solid #e5e7eb;">
+            <td style="padding: 18px;">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="font-size: 1.5em;">🎓</div>
+                <div style="font-weight: 700; color: #3b82f6;">Cambridge</div>
+              </div>
+            </td>
+            <td style="padding: 18px; text-align: center;">
+              <div style="background: #fee2e2; color: #991b1b; padding: 8px 12px; border-radius: 8px; font-weight: 700; display: inline-block;">
+                ⚠️ 3-4 meses antes
+              </div>
+            </td>
+            <td style="padding: 18px; text-align: center; color: #dc3545; font-weight: 600;">
+              <div>3-4 veces/año</div>
+              <div style="font-size: 0.85em; color: #6b7280; margin-top: 4px;">Febrero, Junio, Noviembre</div>
+            </td>
+            <td style="padding: 18px; text-align: center;">
+              <div style="background: #fee2e2; color: #991b1b; padding: 8px 16px; border-radius: 8px; font-weight: 700; display: inline-block;">
+                ⚠️ Plazas limitadas
+              </div>
+            </td>
+          </tr>
+          <tr style="background: #f9fafb; border-bottom: 1px solid #e5e7eb;">
+            <td style="padding: 18px;">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="font-size: 1.5em;">🇺🇸</div>
+                <div style="font-weight: 700; color: #8b5cf6;">TOEFL</div>
+              </div>
+            </td>
+            <td style="padding: 18px; text-align: center;">
+              <div style="background: #d1fae5; color: #065f46; padding: 8px 12px; border-radius: 8px; font-weight: 700; display: inline-block;">
+                ✅ 2-3 meses antes
+              </div>
+            </td>
+            <td style="padding: 18px; text-align: center; color: #10b981; font-weight: 600;">
+              <div>50+ veces/año</div>
+              <div style="font-size: 0.85em; color: #6b7280; margin-top: 4px;">Fechas semanales</div>
+            </td>
+            <td style="padding: 18px; text-align: center;">
+              <div style="background: #d1fae5; color: #065f46; padding: 8px 16px; border-radius: 8px; font-weight: 700; display: inline-block;">
+                ✅ Alta disponibilidad
+              </div>
+            </td>
+          </tr>
+          <tr style="background: #ffffff;">
+            <td style="padding: 18px;">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="font-size: 1.5em;">🌍</div>
+                <div style="font-weight: 700; color: #10b981;">IELTS</div>
+              </div>
+            </td>
+            <td style="padding: 18px; text-align: center;">
+              <div style="background: #d1fae5; color: #065f46; padding: 8px 12px; border-radius: 8px; font-weight: 700; display: inline-block;">
+                ✅ 2 meses antes
+              </div>
+            </td>
+            <td style="padding: 18px; text-align: center; color: #10b981; font-weight: 600;">
+              <div>4 veces/mes</div>
+              <div style="font-size: 0.85em; color: #6b7280; margin-top: 4px;">48 fechas/año</div>
+            </td>
+            <td style="padding: 18px; text-align: center;">
+              <div style="background: #d1fae5; color: #065f46; padding: 8px 16px; border-radius: 8px; font-weight: 700; display: inline-block;">
+                ✅ Buena disponibilidad
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+    <div style="background: rgba(255,255,255,0.15); padding: 18px; border-radius: 10px; margin-top: 20px; backdrop-filter: blur(10px); border-left: 4px solid rgba(255,255,255,0.5);">
+      <div style="color: white; font-size: 0.95em; line-height: 1.6;">
+        <strong style="font-size: 1.05em;">⚡ Recomendación:</strong> Cambridge requiere planificación anticipada por sus pocas fechas. TOEFL e IELTS ofrecen más flexibilidad. Si tu deadline es urgente, evita Cambridge.
+      </div>
+    </div>
+    
+  </div>
+</div>
 
 ### Inversión por Examen (2026)
 
-- **Preparación Cambridge** + Examen B2 First: €200-230
-- **Preparación TOEFL** + TOEFL iBT: $200-250 USD (~€190-240)
-- **Preparación IELTS** + IELTS Academic/GT: €220-250
-
-💡 **Tip financiero**: La inversión en el examen es pequeña comparada con las oportunidades que abre. Una beca universitaria, un trabajo internacional o una visa de residencia valen miles o decenas de miles de euros. **NO escatimes** en tu preparación.
+<div style="margin: 30px 0;">
+  <div style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+    <h4 style="color: white; margin: 0 0 20px 0; font-size: 1.2em;">💰 Inversión Total (Preparación + Examen)</h4>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 20px;">
+      
+      <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #3b82f6;">
+        <div style="text-align: center; margin-bottom: 15px;">
+          <div style="font-size: 2.5em; margin-bottom: 10px;">🎓</div>
+          <div style="font-weight: 700; color: #1f2937; font-size: 1.1em; margin-bottom: 5px;">Cambridge B2 First</div>
+        </div>
+        <div style="text-align: center; padding: 15px; background: #dbeafe; border-radius: 8px;">
+          <div style="font-size: 0.85em; color: #6b7280; margin-bottom: 5px;">Costo del examen</div>
+          <div style="font-size: 2em; font-weight: 700; color: #3b82f6;">€200-230</div>
+        </div>
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #e5e7eb; font-size: 0.9em; color: #6b7280; text-align: center;">
+          ✅ Certificado permanente<br/>
+          <span style="font-size: 0.85em;">(no caduca nunca)</span>
+        </div>
+      </div>
+      
+      <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #8b5cf6;">
+        <div style="text-align: center; margin-bottom: 15px;">
+          <div style="font-size: 2.5em; margin-bottom: 10px;">🇺🇸</div>
+          <div style="font-weight: 700; color: #1f2937; font-size: 1.1em; margin-bottom: 5px;">TOEFL iBT</div>
+        </div>
+        <div style="text-align: center; padding: 15px; background: #f3e8ff; border-radius: 8px;">
+          <div style="font-size: 0.85em; color: #6b7280; margin-bottom: 5px;">Costo del examen</div>
+          <div style="font-size: 2em; font-weight: 700; color: #8b5cf6;">€185-240</div>
+          <div style="font-size: 0.85em; color: #6b7280; margin-top: 5px;">($200-250 USD)</div>
+        </div>
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #e5e7eb; font-size: 0.9em; color: #6b7280; text-align: center;">
+          ⚡ Resultados en 6 días<br/>
+          <span style="font-size: 0.85em;">(validez 2 años)</span>
+        </div>
+      </div>
+      
+      <div style="background: white; padding: 25px; border-radius: 12px; border-top: 5px solid #10b981;">
+        <div style="text-align: center; margin-bottom: 15px;">
+          <div style="font-size: 2.5em; margin-bottom: 10px;">🌍</div>
+          <div style="font-weight: 700; color: #1f2937; font-size: 1.1em; margin-bottom: 5px;">IELTS Academic/GT</div>
+        </div>
+        <div style="text-align: center; padding: 15px; background: #d1fae5; border-radius: 8px;">
+          <div style="font-size: 0.85em; color: #6b7280; margin-bottom: 5px;">Costo del examen</div>
+          <div style="font-size: 2em; font-weight: 700; color: #10b981;">€220-250</div>
+        </div>
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #e5e7eb; font-size: 0.9em; color: #6b7280; text-align: center;">
+          🌍 Más reconocido<br/>
+          <span style="font-size: 0.85em;">(validez 2 años)</span>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div style="background: white; padding: 20px; border-radius: 10px; border-left: 5px solid #f59e0b;">
+      <div style="display: flex; align-items: start; gap: 15px;">
+        <div style="font-size: 2em;">💡</div>
+        <div>
+          <div style="font-weight: 700; color: #92400e; margin-bottom: 8px; font-size: 1.05em;">Tip Financiero Importante</div>
+          <div style="color: #78350f; line-height: 1.6; font-size: 0.95em;">
+            La inversión en el examen es pequeña comparada con las oportunidades que abre. Una beca universitaria, un trabajo internacional o una visa de residencia valen <strong>miles o decenas de miles de euros</strong>. <strong>NO escatimes</strong> en tu preparación.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
 
 ### Dónde Inscribirte (Oficial)
 
