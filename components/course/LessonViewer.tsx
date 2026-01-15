@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import VoiceRecorder from '@/components/course/VoiceRecorder';
+import EnhancedVoiceRecorder from '@/components/course/EnhancedVoiceRecorder';
 import EnhancedPronunciationEvaluator from '@/components/course/EnhancedPronunciationEvaluator';
 import { Lesson, Exercise, Question } from '@/lib/course-data-b2';
 
@@ -367,7 +367,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         return (
           <div className="space-y-6">
             {!recordedAudio ? (
-              <VoiceRecorder
+              <EnhancedVoiceRecorder
                 exerciseId={currentExercise.id}
                 prompt={currentExercise.prompt}
                 targetText={currentExercise.targetText}
@@ -376,9 +376,9 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 hints={currentExercise.hints}
                 onComplete={handleVoiceRecordingComplete}
               />
-            ) : currentExercise.type === 'pronunciation' && !pronunciationFeedback ? (
+            ) : !pronunciationFeedback ? (
               <EnhancedPronunciationEvaluator
-                targetText={currentExercise.targetText || ''}
+                targetText={currentExercise.targetText || currentExercise.prompt}
                 transcript={recordedAudio.transcript}
                 audioBlob={recordedAudio.blob}
                 modelAudioUrl={currentExercise.modelAudioUrl}
