@@ -2977,11 +2977,6 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
   }
 ];
 
-// Export individual modules for easier testing
-export const MODULE_1_B2 = ALL_MODULES[0];
-export const MODULE_2_B2 = ALL_MODULES[1];
-export const MODULE_3_B2 = ALL_MODULES[2];
-
 // MÓDULO 2: DEBATE, OPINIÓN Y PERSUASIÓN
 export const MODULE_2_LESSONS: Lesson[] = [
   {
@@ -5297,3 +5292,9 @@ export const B2_FULL_COURSE = {
     'Acceso 24/7 a todos los materiales'
   ]
 };
+
+// Export individual modules for easier testing
+// These must be defined AFTER all modules are declared to avoid circular reference
+export const MODULE_1_B2 = ALL_MODULES[0];
+export const MODULE_2_B2 = ALL_MODULES[1];
+export const MODULE_3_B2 = ALL_MODULES[2];
