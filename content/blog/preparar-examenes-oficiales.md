@@ -53,49 +53,223 @@ La **preparación IELTS** es perfecta si buscas emigrar, trabajar o estudiar en 
 - Buscas un examen reconocido mundialmente
 - Necesitas flexibilidad (versión Academic o General Training)
 
-### 📊 Tabla Comparativa Completa: Cambridge vs TOEFL vs IELTS
+### 📊 Comparativa Visual: Cambridge vs TOEFL vs IELTS
 
-#### 📋 Información General
+<div style="margin: 30px 0;">
 
-| **Aspecto** | **🎓 Cambridge B2 First** | **🇺🇸 TOEFL iBT** | **🌍 IELTS Academic** |
-|:------------|:-------------------------|:-----------------|:---------------------|
-| **Organización** | Cambridge Assessment English | ETS (Educational Testing Service) | British Council / IDP Australia |
-| **Duración Total** | 3.5 horas (210 min) | 3 horas (180 min) | 2.75 horas (165 min) |
-| **Validez** | ✅ **PERMANENTE** | ⏳ 2 años | ⏳ 2 años |
-| **Formato** | Papel o Digital (tú eliges) | 100% Digital (obligatorio) | Papel o Digital (tú eliges) |
-| **Puntuación** | Grados A, B, C (160-190 pts) | 0-120 puntos (30/sección) | Bandas 0-9 (con medios) |
-| **Costo 2026** | €200-230 | €185-235 ($200-250) | €220-250 |
+<!-- Tabla 1: Información General -->
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <h4 style="color: white; margin: 0 0 20px 0; font-size: 1.3em;">📋 Información General</h4>
+  
+  <div style="background: white; border-radius: 10px; overflow: hidden;">
+    <table style="width: 100%; border-collapse: collapse;">
+      <thead>
+        <tr style="background: #f8f9fa;">
+          <th style="padding: 15px; text-align: left; font-weight: 600; color: #2d3748; border-bottom: 2px solid #e2e8f0;">Aspecto</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #3b82f6; border-bottom: 2px solid #e2e8f0;">🎓 Cambridge B2 First</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #8b5cf6; border-bottom: 2px solid #e2e8f0;">🇺🇸 TOEFL iBT</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #10b981; border-bottom: 2px solid #e2e8f0;">🌍 IELTS Academic</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background: #ffffff;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">Organización</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">Cambridge Assessment</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">ETS</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">British Council / IDP</td>
+        </tr>
+        <tr style="background: #f7fafc;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">Duración</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">3.5 horas</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">3 horas</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">2.75 horas</td>
+        </tr>
+        <tr style="background: #ffffff;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">Validez</td>
+          <td style="padding: 12px 15px; text-align: center; background: #d4edda; color: #155724; font-weight: 700;">✅ PERMANENTE</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">⏳ 2 años</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">⏳ 2 años</td>
+        </tr>
+        <tr style="background: #f7fafc;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">Formato</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">Papel o Digital</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">100% Digital</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">Papel o Digital</td>
+        </tr>
+        <tr style="background: #ffffff;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">Puntuación</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">Grados A, B, C</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">0-120 puntos</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">Bandas 0-9</td>
+        </tr>
+        <tr style="background: #fff3cd;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">💰 Costo 2026</td>
+          <td style="padding: 12px 15px; text-align: center; color: #856404; font-weight: 700;">€200-230</td>
+          <td style="padding: 12px 15px; text-align: center; color: #856404; font-weight: 700;">€185-235</td>
+          <td style="padding: 12px 15px; text-align: center; color: #856404; font-weight: 700;">€220-250</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
-#### 🎯 Estructura del Examen
+<!-- Tabla 2: Estructura del Examen -->
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <h4 style="color: white; margin: 0 0 20px 0; font-size: 1.3em;">🎯 Estructura del Examen</h4>
+  
+  <div style="background: white; border-radius: 10px; overflow: hidden;">
+    <table style="width: 100%; border-collapse: collapse;">
+      <thead>
+        <tr style="background: #f8f9fa;">
+          <th style="padding: 15px; text-align: left; font-weight: 600; color: #2d3748; border-bottom: 2px solid #e2e8f0;">Sección</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #3b82f6; border-bottom: 2px solid #e2e8f0;">🎓 Cambridge</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #8b5cf6; border-bottom: 2px solid #e2e8f0;">🇺🇸 TOEFL</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #10b981; border-bottom: 2px solid #e2e8f0;">🌍 IELTS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background: #ffffff;">
+          <td style="padding: 15px; font-weight: 600; color: #4a5568;">📖 Reading</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">1h 15min<br/><small>7 partes + Use of English<br/>52 preguntas</small></td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">54-72 min<br/><small>3-4 textos académicos<br/>30-40 preguntas</small></td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">60 min<br/><small>3 textos largos<br/>40 preguntas</small></td>
+        </tr>
+        <tr style="background: #f7fafc;">
+          <td style="padding: 15px; font-weight: 600; color: #4a5568;">✍️ Writing</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">1h 20min<br/><small>Essay + 1 tarea<br/>(article/review/letter)</small></td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">50 min<br/><small>Integrated Task<br/>Independent Essay</small></td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">60 min<br/><small>Task 1 (gráficos)<br/>Task 2 (Essay)</small></td>
+        </tr>
+        <tr style="background: #ffffff;">
+          <td style="padding: 15px; font-weight: 600; color: #4a5568;">🎧 Listening</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">40 min<br/><small>❗ 1 sola vez<br/>4 partes, 30 preguntas</small></td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">41-57 min<br/><small>✅ Tomar notas<br/>Lectures + conversaciones</small></td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">30 min + 10<br/><small>❗ 1 sola vez<br/>4 secciones, 40 preguntas</small></td>
+        </tr>
+        <tr style="background: #e8f5e9;">
+          <td style="padding: 15px; font-weight: 600; color: #4a5568;">💬 Speaking</td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">14 min<br/><small>✅ Con otro candidato<br/>✅ Conversación natural</small></td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">17 min<br/><small>🎙️ Grabado solo<br/>❌ Sin personas</small></td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">11-14 min<br/><small>✅ Con examinador<br/>✅ Entrevista personal</small></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
-| **Sección** | **🎓 Cambridge** | **🇺🇸 TOEFL** | **🌍 IELTS** |
-|:------------|:----------------|:-------------|:------------|
-| **📖 Reading** | 1h 15min<br/>7 partes + Use of English<br/>52 preguntas | 54-72 min<br/>3-4 textos académicos<br/>30-40 preguntas | 60 min<br/>3 textos largos<br/>40 preguntas |
-| **✍️ Writing** | 1h 20min<br/>Essay obligatorio<br/>+ 1 tarea (article/review/letter) | 50 min<br/>Integrated Task<br/>Independent Essay | 60 min<br/>Task 1 (gráficos/datos)<br/>Task 2 (Essay argumentativo) |
-| **🎧 Listening** | 40 min<br/>❗ Se escucha 1 sola vez<br/>4 partes, 30 preguntas | 41-57 min<br/>✅ Puedes tomar notas<br/>Lectures + conversaciones | 30 min + 10 transfer<br/>❗ Se escucha 1 sola vez<br/>4 secciones, 40 preguntas |
-| **💬 Speaking** | 14 min<br/>✅ Con otro candidato<br/>✅ Conversación natural | 17 min<br/>🎙️ Grabado (hablas solo)<br/>❌ Sin interacción humana | 11-14 min<br/>✅ Con examinador real<br/>✅ Entrevista personal |
+<!-- Tabla 3: Reconocimiento y Uso -->
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 20px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <h4 style="color: white; margin: 0 0 20px 0; font-size: 1.3em;">🌍 Reconocimiento y Disponibilidad</h4>
+  
+  <div style="background: white; border-radius: 10px; overflow: hidden;">
+    <table style="width: 100%; border-collapse: collapse;">
+      <thead>
+        <tr style="background: #f8f9fa;">
+          <th style="padding: 15px; text-align: left; font-weight: 600; color: #2d3748; border-bottom: 2px solid #e2e8f0;">Criterio</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #3b82f6; border-bottom: 2px solid #e2e8f0;">🎓 Cambridge</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #8b5cf6; border-bottom: 2px solid #e2e8f0;">🇺🇸 TOEFL</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #10b981; border-bottom: 2px solid #e2e8f0;">🌍 IELTS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background: #ffffff;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">Ideal para</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">Europa, Reino Unido</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">USA, Canadá</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">Inmigración, UK, Australia</td>
+        </tr>
+        <tr style="background: #f7fafc;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">Objetivo Principal</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">Certificado permanente</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">Admisión universitaria</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">Visa, residencia, trabajo</td>
+        </tr>
+        <tr style="background: #fff3cd;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">🏆 Ventaja Única</td>
+          <td style="padding: 12px 15px; text-align: center; color: #856404; font-weight: 700;">🥇 Nunca caduca</td>
+          <td style="padding: 12px 15px; text-align: center; color: #856404; font-weight: 700;">⚡ Resultados en 6 días</td>
+          <td style="padding: 12px 15px; text-align: center; color: #856404; font-weight: 700;">🌍 Más reconocido</td>
+        </tr>
+        <tr style="background: #ffffff;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">Disponibilidad</td>
+          <td style="padding: 12px 15px; text-align: center; color: #dc3545;">⚠️ 3-4 veces/año</td>
+          <td style="padding: 12px 15px; text-align: center; color: #28a745;">✅ 50+ veces/año</td>
+          <td style="padding: 12px 15px; text-align: center; color: #28a745;">✅ 48 veces/año</td>
+        </tr>
+        <tr style="background: #f7fafc;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">Tiempo de Resultados</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">2-3 semanas</td>
+          <td style="padding: 12px 15px; text-align: center; color: #28a745; font-weight: 700;">6 días ⚡</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">5-13 días</td>
+        </tr>
+        <tr style="background: #ffffff;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">Inscripción</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">Centro autorizado</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">100% online</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">Online o presencial</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
-#### 🌍 Reconocimiento y Uso
+<!-- Tabla 4: Análisis de Costos -->
+<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 20px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <h4 style="color: white; margin: 0 0 20px 0; font-size: 1.3em;">💰 Inversión a Largo Plazo</h4>
+  
+  <div style="background: white; border-radius: 10px; overflow: hidden;">
+    <table style="width: 100%; border-collapse: collapse;">
+      <thead>
+        <tr style="background: #f8f9fa;">
+          <th style="padding: 15px; text-align: left; font-weight: 600; color: #2d3748; border-bottom: 2px solid #e2e8f0;">Periodo</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #3b82f6; border-bottom: 2px solid #e2e8f0;">🎓 Cambridge</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #8b5cf6; border-bottom: 2px solid #e2e8f0;">🇺🇸 TOEFL</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #10b981; border-bottom: 2px solid #e2e8f0;">🌍 IELTS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background: #ffffff;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">Inicial</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">€200-230</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">€185-235</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">€220-250</td>
+        </tr>
+        <tr style="background: #f7fafc;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">2 años</td>
+          <td style="padding: 12px 15px; text-align: center; background: #d4edda; color: #155724; font-weight: 700;">€200-230 ✅</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">€185-235</td>
+          <td style="padding: 12px 15px; text-align: center; color: #2d3748;">€220-250</td>
+        </tr>
+        <tr style="background: #ffffff;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">5 años</td>
+          <td style="padding: 12px 15px; text-align: center; background: #d4edda; color: #155724; font-weight: 700;">€200-230 ✅</td>
+          <td style="padding: 12px 15px; text-align: center; color: #dc3545; font-weight: 600;">€463-588</td>
+          <td style="padding: 12px 15px; text-align: center; color: #dc3545; font-weight: 600;">€550-625</td>
+        </tr>
+        <tr style="background: #f7fafc;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">10 años</td>
+          <td style="padding: 12px 15px; text-align: center; background: #d4edda; color: #155724; font-weight: 700;">€200-230 ✅</td>
+          <td style="padding: 12px 15px; text-align: center; color: #dc3545; font-weight: 700;">€925-1,175</td>
+          <td style="padding: 12px 15px; text-align: center; color: #dc3545; font-weight: 700;">€1,100-1,250</td>
+        </tr>
+        <tr style="background: #ffffff;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">20 años</td>
+          <td style="padding: 12px 15px; text-align: center; background: #d4edda; color: #155724; font-weight: 700;">€200-230 ✅</td>
+          <td style="padding: 12px 15px; text-align: center; color: #dc3545; font-weight: 700;">€1,850-2,350</td>
+          <td style="padding: 12px 15px; text-align: center; color: #dc3545; font-weight: 700;">€2,200-2,500</td>
+        </tr>
+        <tr style="background: #fff3cd;">
+          <td style="padding: 12px 15px; font-weight: 600; color: #4a5568;">💡 ROI</td>
+          <td style="padding: 12px 15px; text-align: center; color: #155724; font-weight: 700;">🏆 MEJOR - 1 sola vez</td>
+          <td style="padding: 12px 15px; text-align: center; color: #856404;">⚠️ Moderado (2-4 años)</td>
+          <td style="padding: 12px 15px; text-align: center; color: #856404;">⚠️ Moderado (temporal)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
-| **Criterio** | **🎓 Cambridge** | **🇺🇸 TOEFL** | **🌍 IELTS** |
-|:-------------|:----------------|:-------------|:------------|
-| **Ideal para** | Europa, Reino Unido, Academia | USA, Canadá, Universidades | Inmigración, UK, Australia, NZ |
-| **Objetivo Principal** | Certificado permanente de inglés | Admisión universitaria americana | Visa, residencia, trabajo, estudios |
-| **Ventaja Única** | 🥇 Nunca caduca | ⚡ Resultados en 6 días | 🌍 Más reconocido mundialmente |
-| **Disponibilidad** | ⚠️ 3-4 veces/año (plazas limitadas) | ✅ 50+ veces/año (alta disponibilidad) | ✅ 48 veces/año (~4/mes) |
-| **Resultados** | 2-3 semanas | **6 días** (el más rápido) | 5-13 días (digital 5-7, papel 13) |
-| **Inscripción** | Centro autorizado Cambridge | 100% online (ets.org/toefl) | Online o presencial (British Council/IDP) |
-
-#### 💰 Análisis de Costos a Largo Plazo
-
-| **Periodo** | **🎓 Cambridge** | **🇺🇸 TOEFL** | **🌍 IELTS** |
-|:------------|:----------------|:-------------|:------------|
-| **Inicial** | €200-230 (1 vez) | €185-235 (1 vez) | €220-250 (1 vez) |
-| **2 años** | €200-230 (mismo certificado) | €185-235 (1 vez) | €220-250 (1 vez) |
-| **5 años** | €200-230 (mismo certificado) | €463-588 (repetir 2-3x) | €550-625 (repetir 2-3x) |
-| **10 años** | €200-230 (mismo certificado) | €925-1,175 (repetir 5x) | €1,100-1,250 (repetir 5x) |
-| **20 años** | €200-230 (NUNCA caduca) | €1,850-2,350 (repetir 10x) | €2,200-2,500 (repetir 10x) |
-| **ROI** | 🏆 **MEJOR** - Inversión única | ⚠️ Moderado (si necesitas 2-4 años) | ⚠️ Moderado (procesos temporales) |
+</div>
 
 #### ✅ Recomendaciones por Perfil
 
