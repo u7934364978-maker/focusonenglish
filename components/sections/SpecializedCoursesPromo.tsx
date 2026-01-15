@@ -138,7 +138,7 @@ export function SpecializedCoursesPromo() {
                 </li>
               </ul>
               <Link 
-                href="/focus-on-english/certificaciones"
+                href="/cursos"
                 className="inline-flex items-center justify-center w-full px-6 py-3 rounded-xl bg-emerald-600 text-white font-black hover:bg-emerald-700 transition-colors"
               >
                 Ver Certificaciones
