@@ -34,11 +34,35 @@ export async function POST(request: NextRequest) {
     // Obtener Price ID de Stripe (si está configurado)
     const stripePriceId = getStripePriceId(planId);
     
-    // Crear line_items dependiendo si hay Price ID configurado o no
-    const lineItems = stripePriceId
+    // Validar el Price ID si está configurado
+    let validatedPriceId = stripePriceId;
+    if (stripePriceId) {
+      try {
+        const price = await stripe.prices.retrieve(stripePriceId);
+        if (!price.active) {
+          console.warn(`⚠️ Price ${stripePriceId} está inactivo, usando fallback`);
+          validatedPriceId = null;
+        }
+      } catch (error: any) {
+        console.error(`❌ Price ${stripePriceId} no existe:`, error.message);
+        console.log('📝 Usando fallback para crear precio dinámicamente');
+        validatedPriceId = null;
+      }
+    }
+    
+    // Log para debugging
+    console.log('🔍 Checkout Debug:', {
+      planId,
+      configuredPriceId: stripePriceId,
+      validatedPriceId,
+      willUseFallback: !validatedPriceId
+    });
+    
+    // Crear line_items dependiendo si hay Price ID válido o no
+    const lineItems = validatedPriceId
       ? [
           {
-            price: stripePriceId, // Usar Price ID predefinido
+            price: validatedPriceId, // Usar Price ID validado
             quantity: 1,
           },
         ]
