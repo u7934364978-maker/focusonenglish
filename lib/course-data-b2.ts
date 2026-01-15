@@ -720,6 +720,86 @@ However, by the end of the first semester, I had adapted remarkably well. I had 
             points: 2
           }
         ]
+      },
+      // MULTIPLE CHOICE CLOZE - FCE Part 1 Practice
+      {
+        id: 'b2-m1-l1-cloze-1',
+        type: 'multiple-choice-cloze',
+        title: 'Multiple Choice Cloze: Life Changes and Experiences',
+        instructions: 'Read the text below and decide which answer (A, B, C or D) best fits each gap.',
+        text: `Making the Decision to Study Abroad
+
+When Sarah first {{1}} the idea of studying abroad, she wasn't sure it was the right choice for her. She had always been close to her family and the {{2}} of leaving them for a whole year seemed overwhelming. However, her friends kept {{3}} her that it would be an incredible opportunity.
+
+After much consideration, Sarah decided to {{4}} for a scholarship program in Spain. She spent months preparing her application and was thrilled when she finally {{5}} the news that she had been accepted. Despite her excitement, she couldn't {{6}} feeling nervous about the challenges ahead.
+
+The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for years, but understanding native speakers in real conversations was much harder than she had expected. {{8}}, she gradually adapted and soon found herself making friends and enjoying her new life.`,
+        questions: [
+          {
+            id: 'q1',
+            gapNumber: 1,
+            options: ['considered', 'regarded', 'believed', 'supposed'],
+            correctAnswer: 'considered',
+            explanation: '"Consider" is the correct verb for thinking about an idea or possibility. "Regard" needs a different structure, "believed" and "supposed" don\'t fit the context.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            gapNumber: 2,
+            options: ['thought', 'idea', 'opinion', 'view'],
+            correctAnswer: 'idea',
+            explanation: '"The idea of leaving" is the correct collocation. "Thought of leaving" would need a different structure, and "opinion/view" don\'t fit the meaning.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            gapNumber: 3,
+            options: ['saying', 'telling', 'speaking', 'talking'],
+            correctAnswer: 'telling',
+            explanation: '"Tell someone that..." is the correct structure. "Say" needs "to her", "speak" and "talk" require different constructions.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            gapNumber: 4,
+            options: ['apply', 'request', 'demand', 'ask'],
+            correctAnswer: 'apply',
+            explanation: '"Apply for" is the correct phrasal verb for scholarship applications. "Request", "demand", and "ask" use different prepositions or structures.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            gapNumber: 5,
+            options: ['accepted', 'received', 'took', 'got'],
+            correctAnswer: 'received',
+            explanation: '"Receive news" is the standard collocation. While "got" is possible, "received" is more formal and appropriate here.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            gapNumber: 6,
+            options: ['help', 'avoid', 'prevent', 'stop'],
+            correctAnswer: 'help',
+            explanation: '"Can\'t help feeling" means unable to stop feeling. "Avoid", "prevent", and "stop" require different grammatical structures.',
+            points: 1
+          },
+          {
+            id: 'q7',
+            gapNumber: 7,
+            options: ['learning', 'studying', 'teaching', 'training'],
+            correctAnswer: 'studying',
+            explanation: 'We "study" a language (academic context). "Learn" would need present perfect continuous, "teaching/training" have different meanings.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            gapNumber: 8,
+            options: ['Although', 'However', 'Despite', 'In spite'],
+            correctAnswer: 'However',
+            explanation: '"However" is correct as a sentence connector with comma. "Although/Despite/In spite" need different structures (clause or noun phrase).',
+            points: 1
+          }
+        ]
       }
     ]
   },
@@ -1597,6 +1677,86 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
             points: 2
           }
         ]
+      },
+      // MULTIPLE CHOICE CLOZE - FCE Part 1 Practice
+      {
+        id: 'b2-m1-l3-cloze-1',
+        type: 'multiple-choice-cloze',
+        title: 'Multiple Choice Cloze: Environmental Action',
+        instructions: 'Read the text below and decide which answer (A, B, C or D) best fits each gap.',
+        text: `Taking Action on Climate Change
+
+Climate change has become one of the most {{1}} issues facing humanity today. Scientists have been warning us for decades about the {{2}} consequences of global warming, yet progress in reducing emissions has been disappointingly slow. Many people feel overwhelmed by the {{3}} of the problem and wonder what difference individual actions can possibly make.
+
+{{4}}, experts insist that every small action counts. Simple changes like reducing energy consumption, using public transport, and choosing sustainable products can {{5}} a significant impact when adopted by millions of people. The key is to {{6}} these habits part of our daily routine rather than seeing them as occasional efforts.
+
+Governments and businesses also have a crucial {{7}} to play. New policies are being {{8}} to encourage renewable energy and discourage wasteful practices. While challenges remain, there are encouraging signs that society is finally taking this crisis seriously.`,
+        questions: [
+          {
+            id: 'q1',
+            gapNumber: 1,
+            options: ['urgent', 'immediate', 'instant', 'prompt'],
+            correctAnswer: 'urgent',
+            explanation: '"Urgent issue" is the standard collocation for important problems requiring immediate attention. "Immediate/instant/prompt" don\'t collocate naturally with "issue".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            gapNumber: 2,
+            options: ['possible', 'potential', 'probable', 'likely'],
+            correctAnswer: 'potential',
+            explanation: '"Potential consequences" is the correct collocation for possible future effects. "Possible consequences" is less common, "probable/likely" need different structures.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            gapNumber: 3,
+            options: ['scale', 'size', 'amount', 'extent'],
+            correctAnswer: 'scale',
+            explanation: '"The scale of the problem" refers to its magnitude. "Size" is for physical objects, "amount" for quantities, "extent" needs different context.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            gapNumber: 4,
+            options: ['Nevertheless', 'Moreover', 'Therefore', 'Otherwise'],
+            correctAnswer: 'Nevertheless',
+            explanation: '"Nevertheless" (despite this) contrasts with the previous negative statement. "Moreover" adds information, "Therefore" shows result, "Otherwise" means "if not".',
+            points: 1
+          },
+          {
+            id: 'q5',
+            gapNumber: 5,
+            options: ['make', 'do', 'have', 'take'],
+            correctAnswer: 'make',
+            explanation: '"Make an impact" is the correct collocation. "Have an impact" is possible but less common in this structure, "do/take" don\'t collocate with "impact".',
+            points: 1
+          },
+          {
+            id: 'q6',
+            gapNumber: 6,
+            options: ['make', 'do', 'have', 'keep'],
+            correctAnswer: 'make',
+            explanation: '"Make something part of" means to incorporate. "Do", "have", and "keep" don\'t fit this particular structure.',
+            points: 1
+          },
+          {
+            id: 'q7',
+            gapNumber: 7,
+            options: ['role', 'part', 'function', 'duty'],
+            correctAnswer: 'role',
+            explanation: '"Play a role" is the standard idiom for having a responsibility or function. "Play a part" is also possible, but "role" is more common. "Function/duty" don\'t collocate with "play".',
+            points: 1
+          },
+          {
+            id: 'q8',
+            gapNumber: 8,
+            options: ['introduced', 'presented', 'shown', 'displayed'],
+            correctAnswer: 'introduced',
+            explanation: 'Policies are "introduced" (brought into use). "Presented" means shown formally, "shown/displayed" are for visual presentation.',
+            points: 1
+          }
+        ]
       }
     ]
   },
@@ -2178,6 +2338,86 @@ James: It was three years after I started training. By then, I had climbed peaks
             correctAnswer: 'hesitate to recommend this',
             explanation: 'Convert phrase to verb structure.',
             points: 2
+          }
+        ]
+      },
+      // MULTIPLE CHOICE CLOZE - FCE Part 1 Practice
+      {
+        id: 'b2-m1-l5-cloze-1',
+        type: 'multiple-choice-cloze',
+        title: 'Multiple Choice Cloze: The Power of Reading',
+        instructions: 'Read the text below and decide which answer (A, B, C or D) best fits each gap.',
+        text: `Why Reading Fiction Matters
+
+In an age dominated by digital media and short-form content, reading novels might seem like an old-fashioned {{1}}. However, neuroscientists have discovered that reading fiction offers unique benefits that other forms of entertainment cannot {{2}}. When we immerse ourselves in a well-written story, our brains create detailed mental simulations of the characters and events.
+
+Research has {{3}} that regular readers of fiction tend to have greater empathy and better social skills than non-readers. This is because following complex narratives {{4}} us to understand different perspectives and imagine ourselves in others' situations. The more we read, the better we become at {{5}} the emotions and motivations of real people in our lives.
+
+Critics might {{6}} that watching films or series could provide similar benefits. While visual media certainly has value, reading requires more active mental {{7}} as we construct the imagery ourselves. Moreover, books allow us to {{8}} into characters' thoughts in ways that films rarely achieve.`,
+        questions: [
+          {
+            id: 'q1',
+            gapNumber: 1,
+            options: ['activity', 'action', 'practice', 'hobby'],
+            correctAnswer: 'activity',
+            explanation: '"Activity" is the most neutral and appropriate word for reading as a general pursuit. "Action" implies physical movement, "practice" suggests skill development, "hobby" is too informal here.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            gapNumber: 2,
+            options: ['match', 'equal', 'compare', 'compete'],
+            correctAnswer: 'match',
+            explanation: '"Cannot match" means cannot equal or be as good as. "Equal" could work but "match" is more natural here, "compare" means examine differences, "compete" implies rivalry.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            gapNumber: 3,
+            options: ['shown', 'displayed', 'exhibited', 'demonstrated'],
+            correctAnswer: 'shown',
+            explanation: '"Research has shown" is the standard collocation for presenting findings. "Demonstrated" is possible but less common, "displayed/exhibited" are for physical things.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            gapNumber: 4,
+            options: ['requires', 'demands', 'needs', 'asks'],
+            correctAnswer: 'requires',
+            explanation: '"Require someone to do" is the correct structure for necessitating an action. "Demand" is too strong, "need" doesn\'t take "to" naturally, "ask" means request.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            gapNumber: 5,
+            options: ['recognizing', 'knowing', 'understanding', 'realizing'],
+            correctAnswer: 'understanding',
+            explanation: '"Become better at understanding" emphasizes deep comprehension. "Recognizing" is identifying, "knowing" is having knowledge, "realizing" is becoming aware.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            gapNumber: 6,
+            options: ['argue', 'discuss', 'debate', 'dispute'],
+            correctAnswer: 'argue',
+            explanation: '"Argue that" introduces an opposing viewpoint. "Discuss" doesn\'t take "that", "debate" is for formal arguments, "dispute" means disagree with existing claims.',
+            points: 1
+          },
+          {
+            id: 'q7',
+            gapNumber: 7,
+            options: ['engagement', 'commitment', 'involvement', 'participation'],
+            correctAnswer: 'engagement',
+            explanation: '"Mental engagement" refers to active cognitive involvement. "Commitment" implies dedication over time, "involvement" is less specific, "participation" suggests group activity.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            gapNumber: 8,
+            options: ['get', 'go', 'reach', 'access'],
+            correctAnswer: 'access',
+            explanation: '"Access characters\' thoughts" means gain entry to. "Get into" would need "into", "go" doesn\'t fit, "reach" implies physical arrival.',
+            points: 1
           }
         ]
       }
