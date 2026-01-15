@@ -2272,11 +2272,807 @@ export const MODULE_3_LESSONS: Lesson[] = [
     exercises: [
       // Business communication exercises will be added here
     ]
+  },
+  // ============================================
+  // LECCIÓN 3: Cleft Sentences & Emphasis
+  // ============================================
+  {
+    id: 'b2-m1-l3',
+    title: 'Lección 3: Cleft Sentences & Emphasis Structures',
+    description: 'Aprende a enfatizar información usando estructuras avanzadas de énfasis',
+    duration: 90,
+    objectives: [
+      'Usar cleft sentences para enfatizar información específica',
+      'Dominar estructuras "What...", "It is/was... that/who..."',
+      'Aplicar inversión para énfasis en contextos formales',
+      'Escribir y hablar con mayor sofisticación'
+    ],
+    exercises: [
+      {
+        id: 'b2-m1-l3-grammar-1',
+        type: 'grammar',
+        title: 'Cleft Sentences: What I love is...',
+        grammarPoint: 'Cleft Sentences with "What"',
+        explanation: 'Las cleft sentences dividen una oración en dos partes para enfatizar un elemento específico. "What + clause + is/was + noun/infinitive". Ejemplo: "What I need is a good night\'s sleep" (Lo que necesito es una buena noche de sueño).',
+        examples: [
+          'What I love about London is the diversity.',
+          'What surprised me most was his honesty.',
+          'What we need to do is focus on solutions.',
+          'What matters is not the cost but the quality.',
+          'What she told me was completely unexpected.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which sentence emphasizes "his attitude"?',
+            options: [
+              'His attitude impressed me.',
+              'What impressed me was his attitude.',
+              'I was impressed by his attitude.',
+              'His attitude was impressive.'
+            ],
+            correctAnswer: 'What impressed me was his attitude.',
+            explanation: 'La estructura "What... was..." pone énfasis en "his attitude".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Rewrite using "What": "I dislike the noise most." → ___ the noise.',
+            correctAnswer: 'What I dislike most is',
+            explanation: 'What + subject + verb + is/was + elemento enfatizado',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Rewrite emphasizing "more practice": "You need more practice."',
+            correctAnswer: 'What you need is more practice.',
+            explanation: 'Usamos cleft sentence para enfatizar "more practice"',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l3-reading-1',
+        type: 'reading',
+        title: 'Reading: The Art of Effective Communication',
+        text: `What makes a great communicator? It's not just the words they use, but how they deliver their message. What truly matters in communication is the ability to connect with your audience on an emotional level.
+
+It was in my first year of university that I learned this valuable lesson. What I had always believed was that good communication meant using complex vocabulary and sophisticated grammar. It was my professor, Dr. Martinez, who showed me otherwise.
+
+"What you need to understand," she told me one day, "is that clarity trumps complexity." What she meant was that the most effective communicators make complex ideas simple, not the other way around. It was this insight that transformed my approach to writing and speaking.
+
+Not only did she teach us theory, but she also provided practical examples. What impressed me most about her teaching style was her use of storytelling. It was through stories that she illustrated abstract concepts, making them memorable and relatable. Rarely have I seen a teacher so dedicated to making her subject accessible.
+
+What I've learned over the years is that emphasis isn't just about using grammatical structures—it's about knowing what to emphasize. It is the speaker's passion and authenticity that ultimately capture an audience's attention. What audiences remember isn't the fancy language, but the genuine connection they felt with the speaker.`,
+        wordCount: 225,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, what truly matters in communication?',
+            options: [
+              'Using complex vocabulary',
+              'Connecting emotionally with the audience',
+              'Having sophisticated grammar',
+              'Speaking quickly and confidently'
+            ],
+            correctAnswer: 'Connecting emotionally with the audience',
+            explanation: 'El texto dice: "What truly matters in communication is the ability to connect with your audience on an emotional level."',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'True or False: The author initially believed good communication required complex vocabulary.',
+            correctAnswer: 'True',
+            explanation: 'El autor menciona: "What I had always believed was that good communication meant using complex vocabulary"',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What did Professor Martinez teach about effective communication?',
+            correctAnswer: 'That clarity is more important than complexity / that good communicators make complex ideas simple',
+            explanation: 'Ella dijo que "clarity trumps complexity" y que buenos comunicadores simplifican ideas complejas',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'trumps', definition: 'beats or surpasses in importance' },
+          { word: 'abstract', definition: 'existing in thought or as an idea but not having a physical existence' },
+          { word: 'accessible', definition: 'easy to understand or appreciate' },
+          { word: 'authenticity', definition: 'the quality of being genuine or real' }
+        ]
+      },
+      {
+        id: 'b2-m1-l3-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m1-l3-listening-1.mp3',
+        duration: 150,
+        allowReplay: true,
+        maxReplays: 3,
+        transcript: `Interviewer: What inspired you to start your own business?
+
+Emma: Well, what I realized after working in corporate for ten years was that I wanted more creative freedom. It wasn't the salary that bothered me—what frustrated me most was the lack of autonomy. It was during a particularly challenging project that I decided to take the leap.
+
+Interviewer: And what challenges did you face initially?
+
+Emma: Oh, many! But what surprised me wasn't the financial challenge—I had prepared for that. What really caught me off guard was the emotional rollercoaster. It is the uncertainty that tests you most as an entrepreneur. Not only do you have to manage the business, but you also have to manage your own doubts and fears.
+
+Interviewer: What advice would you give to aspiring entrepreneurs?
+
+Emma: What I always tell people is this: start before you feel ready. It was only after I launched that I learned what I really needed to know. What you think you need to learn beforehand isn't always what matters in practice. Rarely do you feel completely prepared, and that's okay. What counts is your willingness to learn and adapt as you go.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What frustrated Emma most about her corporate job?',
+            options: [
+              'The salary',
+              'The lack of autonomy',
+              'Long working hours',
+              'Difficult colleagues'
+            ],
+            correctAnswer: 'The lack of autonomy',
+            explanation: 'Emma dice: "what frustrated me most was the lack of autonomy"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'What surprised Emma most about entrepreneurship?',
+            correctAnswer: 'The emotional rollercoaster / the emotional challenges',
+            explanation: 'Ella menciona: "What really caught me off guard was the emotional rollercoaster"',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: Emma believes you should wait until you feel completely ready before starting a business.',
+            correctAnswer: 'False',
+            explanation: 'Emma aconseja: "start before you feel ready" y dice "Rarely do you feel completely prepared"',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l3-speaking-1',
+        type: 'speaking',
+        prompt: 'Talk about something that changed your perspective on life. Use cleft sentences to emphasize key points. For example: "What surprised me was...", "It was... that made me realize...". Speak for 2-3 minutes.',
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Use "What..." structures to emphasize: "What changed me was..."',
+          'Use "It was... that/who..." to highlight specific people or moments',
+          'Include inversion for added sophistication: "Never have I...", "Rarely do we..."',
+          'Describe the before and after of your perspective shift',
+          'Conclude with what this experience means to you now'
+        ]
+      },
+      {
+        id: 'b2-m1-l3-writing-1',
+        type: 'writing',
+        prompt: 'Write a review (180-220 words) of a book, film, or TV series that had a significant impact on you. Use cleft sentences and emphasis structures to make your review more engaging and sophisticated.',
+        writingType: 'review',
+        minWords: 180,
+        maxWords: 220,
+        timeLimit: 30,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Use at least 3 cleft sentences ("What I loved about...", "It was... that...")',
+          'Include your overall opinion in the introduction',
+          'Provide specific examples from the work',
+          'Use sophisticated vocabulary and varied sentence structures',
+          'End with a clear recommendation'
+        ]
+      }
+    ]
+  },
+  // ============================================
+  // LECCIÓN 4: Narrative Tenses Review
+  // ============================================
+  {
+    id: 'b2-m1-l4',
+    title: 'Lección 4: Narrative Tenses Comprehensive Review',
+    description: 'Revisa y practica todos los tiempos narrativos para contar historias complejas',
+    duration: 90,
+    objectives: [
+      'Combinar todos los tiempos pasados de manera natural',
+      'Narrar historias con secuencia temporal clara',
+      'Usar tiempos narrativos en contextos de examen B2',
+      'Desarrollar fluidez en narrativas complejas'
+    ],
+    exercises: [
+      {
+        id: 'b2-m1-l4-grammar-1',
+        type: 'grammar',
+        title: 'Narrative Tenses: Putting It All Together',
+        grammarPoint: 'All Narrative Tenses (Past Simple, Past Continuous, Past Perfect, Past Perfect Continuous)',
+        explanation: 'En narrativas usamos: 1) Past Simple para acciones principales, 2) Past Continuous para acciones en progreso, 3) Past Perfect para acciones anteriores, 4) Past Perfect Continuous para acciones prolongadas anteriores.',
+        examples: [
+          'She was walking home when she saw (main actions + background)',
+          'They had been waiting for hours before the train arrived (duration before main event)',
+          'I had finished my work, so I went out (completed action before main action)',
+          'While he was cooking, the phone rang (simultaneous past actions)',
+          'By the time we arrived, everyone had left (past perfect for earlier completion)'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose the correct combination: "When I ___ (get) home, my family ___ (have) dinner."',
+            options: [
+              'got / had',
+              'got / were having',
+              'was getting / had',
+              'had got / were having'
+            ],
+            correctAnswer: 'got / were having',
+            explanation: 'Past Simple (llegué) + Past Continuous (estaban cenando, acción en progreso)',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: "She ___ (study) French for five years before she ___ (move) to Paris."',
+            correctAnswer: 'had been studying / moved',
+            explanation: 'Past Perfect Continuous (duración) + Past Simple (acción principal)',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Write a sentence using all four narrative tenses about arriving late to a party.',
+            correctAnswer: 'When I arrived (PS), everyone was dancing (PC), and they had already eaten (PP) all the food they had been preparing (PPC) all afternoon.',
+            explanation: 'Ejemplo de combinación de los cuatro tiempos narrativos',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l4-reading-1',
+        type: 'reading',
+        title: 'Reading: The Unexpected Reunion',
+        text: `It was raining heavily as Sarah stood outside the café, trying to decide whether to go in. She had been walking around the city for over two hours, visiting all the places she remembered from her childhood. The streets looked different now—narrower somehow—and many of the shops had changed.
+
+She pushed open the café door. Inside, people were chatting quietly, and the smell of fresh coffee filled the air. Sarah ordered a cappuccino and found a seat by the window. As she was taking her first sip, she noticed a familiar face across the room.
+
+"Michael?" she said hesitantly. The man looked up from his newspaper. His eyes widened in recognition.
+
+"Sarah! I don't believe it!" He had been reading the same paragraph three times without really understanding it, his mind distracted by work problems. Now, seeing Sarah after fifteen years, those problems suddenly seemed insignificant.
+
+They had been best friends throughout university, but after graduation, they had lost touch. Sarah had moved to Australia for work, while Michael had stayed in London. They had promised to keep in contact, but as often happens, life had got in the way.
+
+For the next three hours, they talked non-stop. Sarah learned that Michael had started his own architecture firm, something he had been dreaming about since their student days. Michael discovered that Sarah had been living in Sydney for the past decade, working as a journalist—the career she had always wanted.
+
+As they were saying goodbye, Michael said, "You know, I had been thinking about you just this morning. I was wondering what had happened to you." Sarah smiled. Some friendships, it seemed, could survive even the longest silence.`,
+        wordCount: 295,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'How long had Sarah been walking before entering the café?',
+            options: [
+              'One hour',
+              'Over two hours',
+              'Three hours',
+              'Fifteen minutes'
+            ],
+            correctAnswer: 'Over two hours',
+            explanation: 'El texto dice: "She had been walking around the city for over two hours"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'True or False: Michael was concentrating fully on his newspaper when Sarah arrived.',
+            correctAnswer: 'False',
+            explanation: 'El texto dice que había leído el mismo párrafo tres veces sin entenderlo, estaba distraído',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Why had Sarah and Michael lost touch after university?',
+            correctAnswer: 'Sarah moved to Australia for work and Michael stayed in London / Life got in the way',
+            explanation: 'El texto explica que se mudaron a lugares diferentes y la vida se interpuso',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'How long had they not seen each other?',
+            options: [
+              'Five years',
+              'Ten years',
+              'Fifteen years',
+              'Twenty years'
+            ],
+            correctAnswer: 'Fifteen years',
+            explanation: 'El texto menciona: "seeing Sarah after fifteen years"',
+            points: 1
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'hesitantly', definition: 'in a tentative or uncertain manner' },
+          { word: 'widened', definition: 'became larger or more open' },
+          { word: 'insignificant', definition: 'not important or meaningful' },
+          { word: 'lost touch', definition: 'stopped communicating with someone' },
+          { word: 'got in the way', definition: 'prevented something from happening' }
+        ]
+      },
+      {
+        id: 'b2-m1-l4-speaking-1',
+        type: 'speaking',
+        prompt: 'Tell a story about an unexpected encounter or surprising event. Use all narrative tenses (Past Simple, Past Continuous, Past Perfect, Past Perfect Continuous) to make your story vivid and clear. Speak for 2-3 minutes.',
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Set the scene with Past Continuous: "I was walking..."',
+          'Use Past Perfect for background information: "I had been..."',
+          'Tell main events with Past Simple: "I saw...", "She said..."',
+          'Add depth with Past Perfect Continuous: "He had been waiting..."',
+          'Include time expressions: before, after, when, while, by the time'
+        ]
+      },
+      {
+        id: 'b2-m1-l4-writing-1',
+        type: 'writing',
+        prompt: 'Write a short story (180-220 words) titled "The Missed Connection". Use all narrative tenses appropriately to create a compelling narrative with clear time sequences.',
+        writingType: 'article',
+        minWords: 180,
+        maxWords: 220,
+        timeLimit: 30,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Use Past Perfect/Past Perfect Continuous to set the background',
+          'Use Past Simple for main story events in chronological order',
+          'Use Past Continuous to describe scenes and ongoing actions',
+          'Include at least one example of each narrative tense',
+          'Make sure time relationships are clear',
+          'Create an engaging opening and satisfying conclusion'
+        ]
+      }
+    ]
+  },
+  // ============================================
+  // LECCIÓN 5: Literary Analysis & Criticism
+  // ============================================
+  {
+    id: 'b2-m1-l5',
+    title: 'Lección 5: Literary Analysis and Cultural Criticism',
+    description: 'Desarrolla habilidades para analizar y discutir literatura, cine y arte',
+    duration: 90,
+    objectives: [
+      'Analizar obras literarias y culturales en inglés',
+      'Expresar opiniones críticas de manera sofisticada',
+      'Usar vocabulario específico de crítica y análisis',
+      'Escribir reseñas y análisis estructurados'
+    ],
+    exercises: [
+      {
+        id: 'b2-m1-l5-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Literary and Critical Vocabulary',
+        vocabularySet: [
+          { word: 'compelling', definition: 'evoking interest or attention', example: 'The novel presents a compelling argument about social justice.' },
+          { word: 'protagonist', definition: 'the main character in a story', example: 'The protagonist undergoes significant character development.' },
+          { word: 'theme', definition: 'a central idea or message', example: 'The main theme of the film is redemption.' },
+          { word: 'symbolism', definition: 'the use of symbols to represent ideas', example: 'The recurring motif of water symbolizes rebirth.' },
+          { word: 'narrative', definition: 'a story or account of events', example: 'The narrative is told from multiple perspectives.' },
+          { word: 'imagery', definition: 'vivid descriptive language', example: 'The author uses powerful imagery to evoke emotion.' },
+          { word: 'plot twist', definition: 'an unexpected change in the story', example: 'The plot twist at the end was completely unexpected.' },
+          { word: 'character development', definition: 'how characters change throughout a story', example: 'The character development is realistic and gradual.' },
+          { word: 'climax', definition: 'the most intense point of the story', example: 'The climax occurs in the final chapter.' },
+          { word: 'foreshadowing', definition: 'hints about future events', example: 'The author uses foreshadowing to build suspense.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'fill-blank',
+            question: 'The main character who drives the story forward is called the ___.',
+            correctAnswer: 'protagonist',
+            explanation: 'Protagonist es el personaje principal de una historia',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'Which word means "the central idea or message of a work"?',
+            options: ['Plot', 'Theme', 'Setting', 'Genre'],
+            correctAnswer: 'Theme',
+            explanation: 'Theme es el tema o idea central de una obra',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Define "foreshadowing" and give an example.',
+            correctAnswer: 'Foreshadowing is when an author hints at future events. Example: dark clouds appearing before a tragedy.',
+            explanation: 'Foreshadowing son pistas que anticipan eventos futuros',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l5-reading-1',
+        type: 'reading',
+        title: 'Reading: Review of "The Midnight Library"',
+        text: `Matt Haig's "The Midnight Library" is a thought-provoking exploration of regret, choice, and the paths not taken. What makes this novel particularly compelling is its unique premise: Nora Seed, the protagonist, finds herself in a mysterious library between life and death, where each book represents a different life she could have lived.
+
+The narrative structure is brilliantly crafted. Haig uses the library as a framework to explore various "what if" scenarios, allowing readers to consider their own life choices alongside Nora's journey. What impressed me most was how the author balances philosophical depth with accessibility—never becoming preachy, yet consistently thought-provoking.
+
+Character development is one of the novel's strongest elements. Nora begins as someone crushed by disappointment and regret, convinced that every decision she's made has been wrong. Through her experiences in different lives, she gradually learns that perfection doesn't exist and that her "root life" has value she had failed to recognize.
+
+The book's central theme—that every life has potential for meaning—is delivered without excessive sentimentality. Haig's prose is elegant yet straightforward, making complex philosophical ideas accessible to a broad audience. Not only does he tackle serious themes like depression and suicide, but he does so with sensitivity and hope.
+
+However, the novel isn't without flaws. Some parallel lives feel underdeveloped, serving merely as plot devices rather than fully realized narratives. Additionally, the resolution, while satisfying, arrives somewhat predictably.
+
+Despite these minor weaknesses, "The Midnight Library" succeeds in its primary goal: making readers reflect on their own lives with greater appreciation and less regret. It's a book that stays with you, gently reminding you that it's never too late to make meaningful changes. I highly recommend it to anyone seeking both entertainment and introspection.`,
+        wordCount: 285,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What is the main premise of "The Midnight Library"?',
+            options: [
+              'A woman travels through time',
+              'A woman explores different lives she could have lived',
+              'A woman works as a librarian',
+              'A woman writes a book about her regrets'
+            ],
+            correctAnswer: 'A woman explores different lives she could have lived',
+            explanation: 'El texto explica que cada libro representa una vida diferente que podría haber vivido',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'True or False: The reviewer thought all parallel lives were fully developed.',
+            correctAnswer: 'False',
+            explanation: 'El crítico menciona: "Some parallel lives feel underdeveloped"',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What does Nora learn through her journey?',
+            correctAnswer: 'That perfection doesn\'t exist and that her real life has value / that every life has potential for meaning',
+            explanation: 'El texto explica su desarrollo de personaje y lo que aprende',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'What is one criticism the reviewer has about the book?',
+            options: [
+              'The prose is too complex',
+              'The themes are too dark',
+              'The resolution is predictable',
+              'The book is too short'
+            ],
+            correctAnswer: 'The resolution is predictable',
+            explanation: 'El crítico menciona: "the resolution...arrives somewhat predictably"',
+            points: 1
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'thought-provoking', definition: 'stimulating careful consideration or reflection' },
+          { word: 'premise', definition: 'the underlying concept or idea' },
+          { word: 'preachy', definition: 'giving moral advice in a tedious way' },
+          { word: 'sentimentality', definition: 'excessive emotional appeal' },
+          { word: 'introspection', definition: 'self-examination or reflection' }
+        ]
+      },
+      {
+        id: 'b2-m1-l5-speaking-1',
+        type: 'speaking',
+        prompt: 'Discuss a book, film, or TV series that had a significant impact on you. Analyze its themes, characters, and why it was meaningful. Use literary vocabulary and sophisticated structures. Speak for 2-3 minutes.',
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Introduce the work: title, author/director, genre',
+          'Discuss the main theme(s) and how they\'re developed',
+          'Analyze character development or plot structure',
+          'Use literary vocabulary: protagonist, narrative, symbolism, etc.',
+          'Explain personal impact: "What resonated with me was..."',
+          'Give a clear recommendation with reasons'
+        ]
+      },
+      {
+        id: 'b2-m1-l5-writing-1',
+        type: 'writing',
+        prompt: 'Write a critical review (180-220 words) of a film, book, or TV series you recently watched/read. Include analysis of themes, character development, and your overall evaluation. Use sophisticated vocabulary and structures.',
+        writingType: 'review',
+        minWords: 180,
+        maxWords: 220,
+        timeLimit: 35,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Opening: Title, creator, and brief overview',
+          'Body: Analyze 2-3 key elements (theme, characters, plot, style)',
+          'Use critical vocabulary: compelling, protagonist, narrative, etc.',
+          'Include both strengths and weaknesses',
+          'Use cleft sentences for emphasis',
+          'Conclusion: Overall recommendation with clear reasons'
+        ]
+      }
+    ]
+  },
+  // ============================================
+  // LECCIÓN 6: Module 1 Practice Exam
+  // ============================================
+  {
+    id: 'b2-m1-l6',
+    title: 'Lección 6: Module 1 Practice Exam',
+    description: 'Examen de práctica completo del Módulo 1 con todas las habilidades',
+    duration: 120,
+    objectives: [
+      'Evaluar dominio de tiempos narrativos y estructuras de énfasis',
+      'Practicar formato de examen B2 First',
+      'Identificar áreas para mejorar antes del Módulo 2',
+      'Ganar confianza en condiciones de examen'
+    ],
+    exercises: [
+      {
+        id: 'b2-m1-l6-reading-exam',
+        type: 'reading',
+        title: 'Practice Exam: Reading Comprehension',
+        text: `The Psychology of Decision-Making
+
+What determines the choices we make? It's a question that has fascinated psychologists for decades. Recent research suggests that our decisions are influenced by far more factors than we consciously realize.
+
+Dr. Sarah Thompson, a cognitive psychologist at Cambridge University, has spent fifteen years studying decision-making patterns. What her research has revealed is surprising: the context in which we make decisions matters as much as the decision itself. "It was during a study on consumer behavior that we discovered this," she explains. "People who had been shopping for over an hour made significantly different choices than those who had just arrived at the store."
+
+The concept of "decision fatigue" has gained prominence in recent years. It suggests that the quality of our decisions deteriorates after making many choices. Not only do we become less analytical, but we also tend to either make impulsive decisions or avoid deciding altogether. This explains why successful leaders like Steve Jobs and Mark Zuckerberg famously wore the same outfit every day—they were preserving their decision-making energy for more important matters.
+
+However, what Thompson's latest research demonstrates is that decision fatigue can be managed. "What we've found is that simple strategies make a huge difference," she notes. "Taking breaks, limiting daily decisions, and establishing routines can all help maintain decision quality throughout the day."
+
+The implications extend beyond personal productivity. In healthcare, for instance, studies have shown that doctors make more conservative decisions later in the day, potentially affecting patient outcomes. It was this finding that led several hospitals to restructure their schedules, ensuring that critical decisions aren't always made during periods of peak fatigue.
+
+What experts now recommend is a more mindful approach to decision-making. Rather than treating all decisions as equal, we should categorize them by importance. Rarely do we need to agonize over trivial choices—saving our mental energy for decisions that truly matter is not just practical, it's essential for maintaining overall wellbeing.`,
+        wordCount: 320,
+        readingTime: 5,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to Dr. Thompson, what factor is as important as the decision itself?',
+            options: [
+              'The time of day',
+              'The context of the decision',
+              'The person\'s education level',
+              'The complexity of the choice'
+            ],
+            correctAnswer: 'The context of the decision',
+            explanation: 'El texto afirma: "the context in which we make decisions matters as much as the decision itself"',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'True or False: Decision fatigue causes people to make more analytical choices.',
+            correctAnswer: 'False',
+            explanation: 'El texto dice que nos volvemos "less analytical" y tomamos decisiones impulsivas o evitamos decidir',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Why did Steve Jobs wear the same outfit every day?',
+            options: [
+              'It was his personal style',
+              'To save money',
+              'To preserve decision-making energy',
+              'To start a fashion trend'
+            ],
+            correctAnswer: 'To preserve decision-making energy',
+            explanation: 'El texto explica: "they were preserving their decision-making energy for more important matters"',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'short-answer',
+            question: 'Name TWO strategies that can help manage decision fatigue according to the research.',
+            correctAnswer: 'Taking breaks, limiting daily decisions, establishing routines (any 2)',
+            explanation: 'El texto lista: taking breaks, limiting daily decisions, and establishing routines',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: 'How did hospitals respond to findings about doctor decision fatigue?',
+            options: [
+              'They hired more doctors',
+              'They restructured schedules',
+              'They reduced working hours',
+              'They provided more training'
+            ],
+            correctAnswer: 'They restructured schedules',
+            explanation: 'El texto dice: "led several hospitals to restructure their schedules"',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'short-answer',
+            question: 'What is the main recommendation from experts about decision-making?',
+            correctAnswer: 'Categorize decisions by importance and save mental energy for decisions that truly matter',
+            explanation: 'Los expertos recomiendan categorizar decisiones por importancia y reservar energía mental para lo que realmente importa',
+            points: 3
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'deteriorates', definition: 'becomes progressively worse' },
+          { word: 'impulsive', definition: 'acting without thinking' },
+          { word: 'prominence', definition: 'the state of being important or well-known' },
+          { word: 'agonize', definition: 'worry intensely about something' },
+          { word: 'trivial', definition: 'of little importance' }
+        ]
+      },
+      {
+        id: 'b2-m1-l6-writing-exam',
+        type: 'writing',
+        prompt: 'EXAM TASK: You recently attended a cultural event (concert, exhibition, theater performance) that was different from what you expected. Write an article for your school magazine (180-220 words) describing your experience. Use narrative tenses and emphasis structures to make your writing engaging.',
+        writingType: 'article',
+        minWords: 180,
+        maxWords: 220,
+        timeLimit: 40,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Include an engaging title',
+          'Use narrative tenses to describe what happened',
+          'Use cleft sentences for emphasis: "What surprised me..."',
+          'Include your expectations vs. reality',
+          'Describe your reactions and those of others',
+          'End with a recommendation or reflection',
+          'Check grammar, spelling, and word count'
+        ]
+      },
+      {
+        id: 'b2-m1-l6-listening-exam',
+        type: 'listening',
+        audioUrl: '/audio/b2-m1-l6-listening-exam.mp3',
+        duration: 240,
+        allowReplay: true,
+        maxReplays: 2,
+        transcript: `[Monologue: A talk about overcoming creative blocks]
+
+Speaker: Good morning, everyone. Today I want to talk about something that affects all creative professionals at some point: the dreaded creative block.
+
+What I've learned over my twenty years as a writer is that creative blocks aren't really about lack of ideas—they're about fear. It was during my third novel that I experienced the worst block of my career. I had been writing every day for months, but suddenly, nothing I wrote felt good enough. What frustrated me most wasn't the inability to write—it was the anxiety that came with it.
+
+I had tried everything: changing my writing location, setting stricter schedules, even taking a complete break. Not only did none of these strategies work, but they actually made things worse. I was becoming more anxious about not writing than I would have been if I'd just kept writing badly.
+
+It was my editor who finally helped me understand the problem. "What you're experiencing," she told me, "isn't a lack of creativity. You're trying too hard to be perfect." She was right. I had been so focused on writing something brilliant that I'd forgotten the joy of simply writing.
+
+What I discovered is that creative blocks often stem from setting impossible standards. Rarely do we create our best work when we're paralyzed by perfectionism. The solution isn't to push harder—it's to give yourself permission to create imperfectly.
+
+Now, when students ask me for advice on overcoming blocks, what I tell them is simple: lower your standards temporarily. Write badly on purpose. What matters isn't the quality of your first draft—what matters is that you keep moving forward. It is through the process of writing, not the result, that we develop as writers.
+
+By the time I finished that third novel, I had learned the most valuable lesson of my career: creativity requires courage, not perfection. What I had feared would be my worst book actually became my most successful, precisely because I stopped trying to control every word and allowed the story to flow naturally.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the speaker, what are creative blocks really about?',
+            options: [
+              'Lack of talent',
+              'Lack of ideas',
+              'Fear',
+              'Laziness'
+            ],
+            correctAnswer: 'Fear',
+            explanation: 'El hablante dice: "creative blocks aren\'t really about lack of ideas—they\'re about fear"',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'True or False: Changing location and taking breaks helped solve the speaker\'s creative block.',
+            correctAnswer: 'False',
+            explanation: 'El hablante dice que estas estrategias "actually made things worse"',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What advice did the editor give?',
+            correctAnswer: 'That the problem wasn\'t lack of creativity but trying too hard to be perfect',
+            explanation: 'La editora dijo: "You\'re trying too hard to be perfect"',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'What does the speaker now advise students to do when facing creative blocks?',
+            options: [
+              'Take a long break',
+              'Work harder',
+              'Lower standards temporarily',
+              'Find a new career'
+            ],
+            correctAnswer: 'Lower standards temporarily',
+            explanation: 'El consejo es: "lower your standards temporarily. Write badly on purpose"',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What was the outcome of the speaker\'s third novel?',
+            correctAnswer: 'It became their most successful book',
+            explanation: 'El hablante menciona que se convirtió en su libro más exitoso',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l6-speaking-exam',
+        type: 'speaking',
+        prompt: 'EXAM TASK Part 2: Describe a time when you had to make an important decision. Explain what led to the decision, what you decided, and how you feel about it now. You should speak for 3-4 minutes. The examiner will then ask you one or two questions. Use narrative tenses and emphasis structures.',
+        timeLimit: 240,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Structure: Introduction → Background → The Decision → Outcome → Reflection',
+          'Use Past Perfect to set the background: "I had been thinking about..."',
+          'Use narrative tenses to tell the story',
+          'Use cleft sentences for emphasis: "What really influenced me was..."',
+          'Include your feelings and reasoning',
+          'Reflect on whether you would make the same choice now',
+          'Speak naturally and maintain eye contact (imagine an examiner)'
+        ]
+      }
+    ]
   }
 ];
 
 // Placeholder para los demás módulos y lecciones...
-// Continuaré con más lecciones en el siguiente archivo
+// Continuaré con Módulo 2 y 3 a continuación
 
 export const B2_EXAM_PREP_COURSE: Module[] = [
   {
