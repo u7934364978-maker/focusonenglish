@@ -152,7 +152,7 @@ export default function ComingSoonPage() {
           {/* Sign In for existing students */}
           <div className="mt-8">
             <a
-              href="/login"
+              href="/signin"
               className="inline-flex items-center gap-2 px-6 py-3 text-violet-600 font-semibold hover:text-violet-700 transition-colors group"
             >
               <span>¿Ya tienes acceso?</span>
