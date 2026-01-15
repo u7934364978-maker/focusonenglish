@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { B2_EXAM_PREP_COURSE, B2_COURSE_FULL } from '@/lib/course-data-b2';
+import { B2_FULL_COURSE, ALL_MODULES } from '@/lib/course-data-b2';
 
 export const metadata = {
   title: 'B2 Exam Preparation Course - Focus English',
@@ -7,8 +7,8 @@ export const metadata = {
 };
 
 export default function B2ExamPrepCoursePage() {
-  const course = B2_COURSE_FULL;
-  const modules = B2_EXAM_PREP_COURSE;
+  const course = B2_FULL_COURSE;
+  const modules = ALL_MODULES;
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
