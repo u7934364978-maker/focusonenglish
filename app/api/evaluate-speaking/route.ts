@@ -85,7 +85,7 @@ Format your response as a JSON object with these exact keys:
 
     // Llamar a GPT para evaluación real
     const completion = await client.chat.completions.create({
-      model: 'gpt-5',
+      model: 'gpt-4o',
       messages: [
         { role: 'system', content: systemPrompt },
         { role: 'user', content: userPrompt }
