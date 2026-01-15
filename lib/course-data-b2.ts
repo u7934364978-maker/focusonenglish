@@ -2678,6 +2678,87 @@ export const MODULE_2_LESSONS: Lesson[] = [
           'Give reasons: "because...", "judging by..."',
           'Make multiple deductions about different aspects'
         ]
+      },
+      {
+        id: 'b2-m2-l1-cloze-1',
+        type: 'multiple-choice-cloze',
+        title: 'Multiple Choice Cloze: Making Deductions',
+        text: `Detective work requires careful observation and logical thinking. When examining a crime scene, investigators (1)_____ draw conclusions based on the evidence they find. They (2)_____ be completely certain at first, but as they gather more information, patterns begin to emerge. For example, if there are muddy footprints leading to a window, it (3)_____ that someone entered through that route. However, investigators (4)_____ rule out other possibilities too quickly. What appears obvious (5)_____ be misleading. A skilled detective knows that circumstances (6)_____ always be what they seem. That's why they (7)_____ consider multiple scenarios before reaching a final conclusion. In many cases, the smallest detail (8)_____ the key to solving the entire mystery.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '1. _____',
+            options: ['ought', 'must', 'should', 'would'],
+            correctAnswer: 'must',
+            explanation: '"Must" is used for strong logical deductions based on evidence.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: '2. _____',
+            options: ['mightn\'t', 'shouldn\'t', 'couldn\'t', 'mustn\'t'],
+            correctAnswer: 'mightn\'t',
+            explanation: '"Mightn\'t" (might not) expresses uncertainty, which fits the context of initial investigation.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: '3. _____',
+            options: ['proposes', 'suggests', 'offers', 'recommends'],
+            correctAnswer: 'suggests',
+            explanation: '"Suggests" is the correct verb for indicating evidence pointing to a conclusion.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '4. _____',
+            options: ['mustn\'t', 'needn\'t', 'wouldn\'t', 'mightn\'t'],
+            correctAnswer: 'mustn\'t',
+            explanation: '"Mustn\'t" means "must not" and expresses prohibition/strong advice not to do something.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: '5. _____',
+            options: ['must', 'should', 'may', 'ought'],
+            correctAnswer: 'may',
+            explanation: '"May" expresses possibility, fitting the context that obvious things can be misleading.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: '6. _____',
+            options: ['can\'t', 'mustn\'t', 'shouldn\'t', 'wouldn\'t'],
+            correctAnswer: 'can\'t',
+            explanation: '"Can\'t always be" means "are not always" - expressing impossibility of things always being as they seem.',
+            points: 1
+          },
+          {
+            id: 'q7',
+            type: 'multiple-choice',
+            question: '7. _____',
+            options: ['have', 'need', 'must', 'ought'],
+            correctAnswer: 'must',
+            explanation: '"Must" expresses strong necessity/obligation.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            type: 'multiple-choice',
+            question: '8. _____',
+            options: ['can prove', 'must prove', 'should prove', 'would prove'],
+            correctAnswer: 'can prove',
+            explanation: '"Can prove" expresses possibility/potential, fitting the context about details being potentially key.',
+            points: 1
+          }
+        ],
+        focusAreas: ['Modals of deduction', 'Modal verbs', 'Context clues']
       }
     ]
   },
@@ -2743,6 +2824,86 @@ export const MODULE_2_LESSONS: Lesson[] = [
           'Avoid personal pronouns (I, we)',
           'Use formal vocabulary',
           'Structure: Introduction → Process description → Conclusion'
+        ]
+      },
+      // MULTIPLE CHOICE CLOZE - FCE Part 1 Practice
+      {
+        id: 'b2-m2-l1-cloze-1',
+        type: 'multiple-choice-cloze',
+        title: 'Multiple Choice Cloze: The Rise of Remote Work',
+        instructions: 'Read the text below and decide which answer (A, B, C or D) best fits each gap.',
+        text: `The Remote Work Revolution
+
+The COVID-19 pandemic {{1}} brought about one of the most dramatic shifts in work culture in recent history. Millions of employees who had never considered working from home suddenly found themselves {{2}} to adapt to remote work virtually overnight. While many initially struggled with the transition, others quickly {{3}} to appreciate the benefits of this new arrangement.
+
+For employers, the shift required significant {{4}} in technology and management practices. Companies had to {{5}} in video conferencing software, project management tools, and cybersecurity measures. However, many have since realized that remote work can actually {{6}} productivity while reducing overhead costs.
+
+As we move forward, experts predict that hybrid models will become the {{7}}. Rather than returning to traditional office-based work, most organizations are likely to {{8}} flexible arrangements that allow employees to split their time between home and office. This represents a fundamental change in how we think about the workplace.`,
+        questions: [
+          {
+            id: 'q1',
+            gapNumber: 1,
+            options: ['suddenly', 'immediately', 'quickly', 'rapidly'],
+            correctAnswer: 'suddenly',
+            explanation: '"Suddenly brought about" emphasizes the unexpected nature of the change. "Immediately/quickly/rapidly" suggest speed but not unexpectedness.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            gapNumber: 2,
+            options: ['made', 'obliged', 'forced', 'required'],
+            correctAnswer: 'forced',
+            explanation: '"Forced to adapt" implies no choice in the matter. "Obliged/required" are less strong, "made" needs different structure (made + bare infinitive).',
+            points: 1
+          },
+          {
+            id: 'q3',
+            gapNumber: 3,
+            options: ['came', 'got', 'went', 'became'],
+            correctAnswer: 'came',
+            explanation: '"Came to appreciate" means gradually began to appreciate. "Got" would need "to appreciate" but is informal, "went/became" don\'t fit this structure.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            gapNumber: 4,
+            options: ['investment', 'spending', 'payment', 'expense'],
+            correctAnswer: 'investment',
+            explanation: '"Require investment in" refers to putting resources into development. "Spending" is less formal, "payment" is for transactions, "expense" is for costs incurred.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            gapNumber: 5,
+            options: ['invest', 'spend', 'put', 'place'],
+            correctAnswer: 'invest',
+            explanation: '"Invest in" means allocate money for future returns. "Spend on" is possible but less strategic, "put/place" need different prepositions.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            gapNumber: 6,
+            options: ['increase', 'raise', 'grow', 'rise'],
+            correctAnswer: 'increase',
+            explanation: '"Increase productivity" is transitive (takes an object). "Raise" needs specific contexts, "grow" is intransitive, "rise" is intransitive.',
+            points: 1
+          },
+          {
+            id: 'q7',
+            gapNumber: 7,
+            options: ['rule', 'norm', 'standard', 'usual'],
+            correctAnswer: 'norm',
+            explanation: '"Become the norm" means become the standard or typical situation. "Rule" is for regulations, "standard" needs different article, "usual" is an adjective.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            gapNumber: 8,
+            options: ['adopt', 'adapt', 'accept', 'approve'],
+            correctAnswer: 'adopt',
+            explanation: '"Adopt arrangements" means officially implement them. "Adapt" means modify, "accept" means agree with, "approve" means give permission.',
+            points: 1
+          }
         ]
       }
     ]
@@ -2813,6 +2974,87 @@ export const MODULE_2_LESSONS: Lesson[] = [
           'Report both statements and questions',
           'Make it natural and conversational'
         ]
+      },
+      {
+        id: 'b2-m2-l3-cloze-1',
+        type: 'multiple-choice-cloze',
+        title: 'Multiple Choice Cloze: Communication in the Digital Age',
+        text: `Recent studies have shown that digital communication is transforming the way people interact. Researchers (1)_____ that while technology offers unprecedented connectivity, it also presents unique challenges. Many experts (2)_____ concern about the decline in face-to-face conversations, particularly among younger generations. They (3)_____ that excessive screen time might be affecting social skills development. However, (4)_____ all agree that technology is inherently harmful. Some researchers (5)_____ out that digital tools can actually enhance communication when used appropriately. The key, they argue, (6)_____ in finding the right balance. Parents often (7)_____ their children to limit device usage, yet many struggle to (8)_____ a good example themselves. This inconsistency, psychologists warn, could undermine the message they're trying to convey.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '1. _____',
+            options: ['claim', 'demand', 'insist', 'require'],
+            correctAnswer: 'claim',
+            explanation: '"Claim" is used for reporting statements without "that" being mandatory, fitting reported speech context.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: '2. _____',
+            options: ['express', 'tell', 'say', 'speak'],
+            correctAnswer: 'express',
+            explanation: '"Express" collocates with "concern" to mean communicating worry or anxiety.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: '3. _____',
+            options: ['worry', 'afraid', 'concerned', 'anxious'],
+            correctAnswer: 'worry',
+            explanation: '"Worry" is the only option that can be followed by "that" clause in this context.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '4. _____',
+            options: ['not', 'no', 'none', 'neither'],
+            correctAnswer: 'not',
+            explanation: '"Not all" is the correct negative form meaning "some but not all".',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: '5. _____',
+            options: ['point', 'make', 'take', 'put'],
+            correctAnswer: 'point',
+            explanation: '"Point out" is a phrasal verb meaning to highlight or draw attention to something.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: '6. _____',
+            options: ['lies', 'lays', 'puts', 'places'],
+            correctAnswer: 'lies',
+            explanation: '"The key lies in" is the correct collocation meaning "the solution is found in".',
+            points: 1
+          },
+          {
+            id: 'q7',
+            type: 'multiple-choice',
+            question: '7. _____',
+            options: ['advise', 'suggest', 'recommend', 'propose'],
+            correctAnswer: 'advise',
+            explanation: '"Advise + person + to infinitive" is the correct pattern.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            type: 'multiple-choice',
+            question: '8. _____',
+            options: ['set', 'make', 'do', 'give'],
+            correctAnswer: 'set',
+            explanation: '"Set an example" is the correct collocation meaning to behave as a model for others.',
+            points: 1
+          }
+        ],
+        focusAreas: ['Reporting verbs', 'Collocations', 'Phrasal verbs']
       }
     ]
   },
@@ -2961,6 +3203,87 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
           'Use evidence: "For example..., Studies show that..."',
           'Conclude: "In conclusion..., Therefore..."'
         ]
+      },
+      {
+        id: 'b2-m2-l5-cloze-1',
+        type: 'multiple-choice-cloze',
+        title: 'Multiple Choice Cloze: The Power of Persuasion',
+        text: `Throughout history, the ability to persuade others has been a crucial skill. Ancient philosophers (1)_____ the art of rhetoric, developing techniques that remain relevant today. Successful persuasion (2)_____ not just on logical arguments, but also on emotional appeal and credibility. Modern research has (3)_____ light on why some messages are more persuasive than others. Scientists have discovered that people are more (4)_____ to be convinced when information is presented in certain ways. For instance, arguments that (5)_____ both sides of an issue tend to be more effective than one-sided presentations. (6)_____, the messenger matters as much as the message itself. We're naturally inclined to trust people who (7)_____ expertise or share our values. Understanding these principles can help us both craft more convincing arguments and (8)_____ guard against manipulation.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '1. _____',
+            options: ['mastered', 'commanded', 'controlled', 'dominated'],
+            correctAnswer: 'mastered',
+            explanation: '"Mastered" means to become highly skilled at something, fitting the context of learning rhetoric.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: '2. _____',
+            options: ['bases', 'relies', 'depends', 'rests'],
+            correctAnswer: 'relies',
+            explanation: '"Relies on" is the correct collocation meaning to depend on something.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: '3. _____',
+            options: ['thrown', 'cast', 'shed', 'made'],
+            correctAnswer: 'shed',
+            explanation: '"Shed light on" is an idiom meaning to provide clarification or reveal information.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '4. _____',
+            options: ['possible', 'probable', 'likely', 'potential'],
+            correctAnswer: 'likely',
+            explanation: '"Likely to be" expresses probability and is the correct structure.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: '5. _____',
+            options: ['acknowledge', 'accept', 'recognize', 'admit'],
+            correctAnswer: 'acknowledge',
+            explanation: '"Acknowledge" means to recognize or accept as valid, fitting the context of presenting both sides.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: '6. _____',
+            options: ['Therefore', 'However', 'Moreover', 'Nevertheless'],
+            correctAnswer: 'Moreover',
+            explanation: '"Moreover" adds additional information, fitting the context of adding another important point.',
+            points: 1
+          },
+          {
+            id: 'q7',
+            type: 'multiple-choice',
+            question: '7. _____',
+            options: ['demonstrate', 'show', 'display', 'exhibit'],
+            correctAnswer: 'demonstrate',
+            explanation: '"Demonstrate expertise" is the most formal and appropriate collocation in academic context.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            type: 'multiple-choice',
+            question: '8. _____',
+            options: ['more', 'better', 'well', 'good'],
+            correctAnswer: 'better',
+            explanation: '"Better guard" means more effectively protect, parallel to "more convincing" earlier.',
+            points: 1
+          }
+        ],
+        focusAreas: ['Academic vocabulary', 'Collocations', 'Linking words']
       }
     ]
   },
