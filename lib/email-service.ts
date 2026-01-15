@@ -5,7 +5,10 @@
 
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Solo inicializar Resend si la API key está disponible
+const resend = process.env.RESEND_API_KEY 
+  ? new Resend(process.env.RESEND_API_KEY)
+  : null;
 
 /**
  * Enviar email de recuperación de contraseña
@@ -15,6 +18,12 @@ export async function sendPasswordResetEmail(
   resetToken: string,
   userName: string
 ): Promise<boolean> {
+  // Si Resend no está configurado, simular éxito en desarrollo
+  if (!resend) {
+    console.warn('Resend not configured, skipping email send');
+    return process.env.NODE_ENV === 'development';
+  }
+
   try {
     const resetUrl = `${process.env.NEXTAUTH_URL}/reset-password?token=${resetToken}`;
 
@@ -155,6 +164,12 @@ export async function sendPasswordChangedEmail(
   email: string,
   userName: string
 ): Promise<boolean> {
+  // Si Resend no está configurado, simular éxito en desarrollo
+  if (!resend) {
+    console.warn('Resend not configured, skipping email send');
+    return process.env.NODE_ENV === 'development';
+  }
+
   try {
     const { data, error } = await resend.emails.send({
       from: 'Focus English <noreply@focus-on-english.com>',

@@ -7,13 +7,23 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 import bcrypt from 'bcryptjs';
 
-// Cliente de Supabase
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL || '',
-  process.env.SUPABASE_SERVICE_ROLE_KEY || ''
-);
+// Cliente de Supabase (solo si las variables de entorno están disponibles)
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
+
+const supabase = supabaseUrl && supabaseKey
+  ? createClient(supabaseUrl, supabaseKey)
+  : null;
 
 export async function POST(request: NextRequest) {
+  // Si Supabase no está configurado, retornar error
+  if (!supabase) {
+    return NextResponse.json(
+      { error: 'Service temporarily unavailable. Please try again later.' },
+      { status: 503 }
+    );
+  }
+
   try {
     const body = await request.json();
     const { name, email, password } = body;

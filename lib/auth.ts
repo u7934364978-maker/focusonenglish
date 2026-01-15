@@ -11,17 +11,22 @@ import { SupabaseAdapter } from '@auth/supabase-adapter';
 import { createClient } from '@supabase/supabase-js';
 import bcrypt from 'bcryptjs';
 
-// Cliente de Supabase
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL || '',
-  process.env.SUPABASE_SERVICE_ROLE_KEY || ''
-);
+// Cliente de Supabase (solo si las variables de entorno están disponibles)
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
+
+const supabase = supabaseUrl && supabaseKey 
+  ? createClient(supabaseUrl, supabaseKey)
+  : null;
 
 export const authOptions: NextAuthOptions = {
-  adapter: SupabaseAdapter({
-    url: process.env.NEXT_PUBLIC_SUPABASE_URL || '',
-    secret: process.env.SUPABASE_SERVICE_ROLE_KEY || '',
-  }),
+  // Solo usar adapter si Supabase está configurado
+  ...(supabase && supabaseUrl && supabaseKey ? {
+    adapter: SupabaseAdapter({
+      url: supabaseUrl,
+      secret: supabaseKey,
+    })
+  } : {}),
   
   providers: [
     // Autenticación con email y contraseña
@@ -34,6 +39,12 @@ export const authOptions: NextAuthOptions = {
       async authorize(credentials) {
         if (!credentials?.email || !credentials?.password) {
           throw new Error('Email y contraseña son requeridos');
+        }
+
+        // Si Supabase no está configurado, retornar null
+        if (!supabase) {
+          console.warn('Supabase not configured, skipping authentication');
+          return null;
         }
 
         try {
