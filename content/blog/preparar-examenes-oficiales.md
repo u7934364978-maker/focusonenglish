@@ -53,18 +53,182 @@ La **preparación IELTS** es perfecta si buscas emigrar, trabajar o estudiar en 
 - Buscas un examen reconocido mundialmente
 - Necesitas flexibilidad (versión Academic o General Training)
 
-### Tabla Comparativa Rápida
+### 📊 Tabla Comparativa Detallada: Cambridge vs TOEFL vs IELTS
 
-| Aspecto | Cambridge | TOEFL iBT | IELTS |
-|---------|-----------|-----------|-------|
-| **Organización** | Cambridge Assessment | ETS | British Council/IDP |
-| **Duración** | ~3.5 horas | ~3 horas | ~2.75 horas |
-| **Validez** | ✅ **Permanente** | ⏳ 2 años | ⏳ 2 años |
-| **Formato** | Papel/Digital | 100% Digital | Papel/Digital |
-| **Puntuación** | Grados A-C | 0-120 puntos | Bandas 0-9 |
-| **Speaking** | Con otro candidato | Grabado (solo) | Con examinador |
-| **Ideal para** | Europa/UK | USA/Canadá | Inmigración/UK |
-| **Costo aprox.** | €200-230 | $200-250 | €220-250 |
+<div style="overflow-x: auto;">
+
+| 🔍 **Aspecto** | 🎓 **Cambridge B2 First** | 🇺🇸 **TOEFL iBT** | 🌍 **IELTS Academic** |
+|:---------------|:--------------------------|:------------------|:----------------------|
+| **🏢 Organización** | Cambridge Assessment English | ETS (Educational Testing Service) | British Council / IDP Australia |
+| **⏱️ Duración Total** | **~3.5 horas** (210 min) | **~3 horas** (180 min) | **~2.75 horas** (165 min) |
+| **📅 Validez del Certificado** | ✅ **PERMANENTE**<br/>*(Válido para siempre)* | ⏳ **2 años**<br/>*(Debes repetir después)* | ⏳ **2 años**<br/>*(Debes repetir después)* |
+| **💻 Formato del Examen** | Papel **o** Computadora<br/>*(Tú eliges)* | **100% Digital**<br/>*(Obligatorio)* | Papel **o** Computadora<br/>*(Tú eliges)* |
+| **📊 Sistema de Puntuación** | **Grados:** A, B, C<br/>*(160-190 puntos)* | **0-120 puntos**<br/>*(30 por cada skill)* | **Bandas: 0-9**<br/>*(Con medios: 6.5, 7.0, etc.)* |
+| **💬 Speaking (Oral)** | **14 minutos**<br/>Con otro candidato + examinador<br/>🗣️ Conversación real | **17 minutos**<br/>Grabado (hablas solo al micrófono)<br/>🎙️ Sin interacción humana | **11-14 minutos**<br/>Entrevista con examinador real<br/>🗣️ Uno-a-uno |
+| **👥 Tipo de Interacción** | ✅ **Conversación real**<br/>*(Más natural)* | ⚡ **Individual**<br/>*(Hablas solo)* | ✅ **Conversación real**<br/>*(Más personal)* |
+| **📖 Reading (Lectura)** | **1h 15min**<br/>Incluye Use of English<br/>7 partes, 52 preguntas | **54-72 min**<br/>3-4 textos académicos<br/>30-40 preguntas | **60 minutos**<br/>3 textos largos<br/>40 preguntas |
+| **✍️ Writing (Escritura)** | **1h 20min**<br/>Essay + 1 tarea a elegir<br/>(Article/Review/Letter/Report) | **50 minutos**<br/>1 Integrated Task<br/>1 Independent Essay | **60 minutos**<br/>Task 1 (describir gráfico)<br/>Task 2 (Essay) |
+| **🎧 Listening (Escucha)** | **40 minutos**<br/>❗ Escuchas **UNA sola vez** | **41-57 minutos**<br/>✅ Puedes tomar notas | **30 min + 10 transfer**<br/>❗ Escuchas **UNA sola vez** |
+| **🌍 Ideal para...** | 🇪🇺 **Europa y Reino Unido**<br/>Certificado permanente | 🇺🇸 **USA y Canadá**<br/>Admisión universitaria | 🌏 **Inmigración global**<br/>UK/Australia/NZ/Canadá |
+| **🎯 Mejor si buscas...** | 📜 Certificado que **nunca caduca** | 🎓 Admisión a **universidades americanas** | ✈️ **Visa de residencia** o trabajo | **📍 Disponibilidad de Fechas** | ⚠️ **3-4 veces/año**<br/>*(Plazas limitadas)* | ✅ **50+ veces/año**<br/>*(Alta disponibilidad)* | ✅ **48 veces/año**<br/>*(~4 fechas por mes)* |
+| **💶 Costo Aproximado (2026)** | **€200-230** | **€185-235**<br/>*($200-250 USD)* | **€220-250** |
+| **📅 Tiempo de Resultados** | **2-3 semanas** | ⚡ **6 días**<br/>*(El más rápido)* | **5-13 días**<br/>*(Digital: 5-7 / Papel: 13)* |
+| **🔄 ¿Hay que Renovar?** | ❌ **NUNCA**<br/>*(Certificado permanente)* | ✅ **Cada 2 años** | ✅ **Cada 2 años** |
+| **💰 Costo en 10 años** | **€200-230**<br/>*(1 sola vez)* | **€925-1,175**<br/>*(Repetir 5 veces)* | **€1,100-1,250**<br/>*(Repetir 5 veces)* |
+| **📱 Inscripción** | Centro autorizado Cambridge | 🌐 **100% online**<br/>www.ets.org/toefl | 🌐 British Council o IDP<br/>*(Online o presencial)* |
+| **🏆 Ventaja Única** | 🥇 **Certificado de por vida**<br/>Prestigio de Cambridge | ⚡ **Resultados súper rápidos**<br/>Máxima flexibilidad de fechas | 🌍 **Más reconocido globalmente**<br/>Ideal para inmigración |
+
+</div>
+
+---
+
+---
+
+### 🎯 ¿Cuál Elegir? Decisión Rápida
+
+**Elige Cambridge B2 First si**:
+- ✅ Quieres un certificado **permanente** (nunca caduca)
+- ✅ Vas a trabajar o estudiar en **Europa o Reino Unido**
+- ✅ Prefieres interacción **real** en el speaking (con personas)
+- ✅ No tienes prisa (fechas más limitadas)
+- ✅ Buscas prestigio académico de Cambridge
+
+**Elige TOEFL iBT si**:
+- ✅ Aplicas a universidades en **USA o Canadá**
+- ✅ Te sientes cómodo con formato **100% digital**
+- ✅ Prefieres hablar solo (sin presión de otras personas)
+- ✅ Necesitas **resultados rápidos** (6 días)
+- ✅ Quieres **flexibilidad de fechas** (50+ opciones al año)
+
+**Elige IELTS si**:
+- ✅ Planeas **emigrar** a UK/Australia/Nueva Zelanda/Canadá
+- ✅ Buscas el examen más **reconocido mundialmente**
+- ✅ Prefieres speaking con **examinador real** (no grabado)
+- ✅ Necesitas elegir entre Academic o General Training
+- ✅ Quieres buena disponibilidad (4 fechas por mes)
+
+---
+
+### 💰 Análisis de Costos y ROI: ¿Cuál es la Mejor Inversión?
+
+<div style="overflow-x: auto;">
+
+| 💵 **Concepto** | 🎓 **Cambridge** | 🇺🇸 **TOEFL** | 🌍 **IELTS** |
+|:----------------|:-----------------|:---------------|:-------------|
+| **Costo del Examen (2026)** | **€200-230** | **€185-235** | **€220-250** |
+| **Validez del Certificado** | ♾️ **PERMANENTE**<br/>*(Toda la vida)* | ⏳ **2 años**<br/>*(Luego caduca)* | ⏳ **2 años**<br/>*(Luego caduca)* |
+| **Costo en 2 años** | **€200-230**<br/>*(1 sola vez)* | **€185-235**<br/>*(1 vez)* | **€220-250**<br/>*(1 vez)* |
+| **Costo en 5 años** | **€200-230**<br/>*(1 sola vez)* | **€463-588**<br/>*(Repetir 2-3 veces)* | **€550-625**<br/>*(Repetir 2-3 veces)* |
+| **Costo en 10 años** | **€200-230**<br/>*(1 sola vez - mismo certificado)* | **€925-1,175**<br/>*(Repetir 5 veces)* | **€1,100-1,250**<br/>*(Repetir 5 veces)* |
+| **Costo en 20 años** | **€200-230**<br/>*(1 sola vez - NUNCA caduca)* | **€1,850-2,350**<br/>*(Repetir 10 veces)* | **€2,200-2,500**<br/>*(Repetir 10 veces)* |
+| **Costo de Preparación** | **~€300-800**<br/>*(Curso + materiales)* | **~€200-600**<br/>*(Curso + materiales)* | **~€200-600**<br/>*(Curso + materiales)* |
+| **Inversión Total Inicial** | **€500-1,030** | **€385-835** | **€420-850** |
+| **ROI (Return on Investment)** | 🏆 **MEJOR**<br/>*Certificado de por vida* | ⚠️ **Moderado**<br/>*Si solo necesitas 2-4 años* | ⚠️ **Moderado**<br/>*Si solo necesitas 2-4 años* |
+| **Mejor para...** | 📜 **Inversión a largo plazo**<br/>Múltiples usos en tu carrera | ⚡ **Necesidad inmediata**<br/>Admisión universitaria específica | 🌍 **Inmigración**<br/>Procesos con fecha límite |
+
+</div>
+
+#### 💡 Análisis de Valor:
+
+**🏆 Cambridge es la inversión más inteligente si**:
+- ✅ Planeas usar tu certificado de inglés **durante toda tu carrera**
+- ✅ Trabajarás en **múltiples contextos** (estudios, trabajo, viajes)
+- ✅ Quieres **evitar repetir el examen** cada 2 años
+- ✅ Buscas el **prestigio de Cambridge** para tu CV
+- ✅ No tienes prisa por obtener el certificado
+
+**💵 Ahorro Acumulado con Cambridge**:
+- ✅ En 5 años ahorras: **€263-395** vs TOEFL | **€350-395** vs IELTS
+- ✅ En 10 años ahorras: **€725-945** vs TOEFL | **€900-1,020** vs IELTS
+- ✅ En 20 años ahorras: **€1,650-2,120** vs TOEFL | **€2,000-2,270** vs IELTS
+
+**⚡ TOEFL/IELTS son mejores si**:
+- ✅ Solo necesitas el certificado para **1 aplicación específica**
+- ✅ Tienes **fecha límite inmediata** (ej: deadline de universidad)
+- ✅ El destino **requiere específicamente** TOEFL o IELTS
+- ✅ No planeas usar inglés certificado después de 2-3 años
+
+---
+
+### 🎯 Tabla de Equivalencias de Niveles: ¿Qué Puntuación Necesitas?
+
+Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo nivel de inglés según el Marco Común Europeo (CEFR):
+
+<div style="overflow-x: auto;">
+
+| 📊 **Nivel CEFR** | 🎓 **Cambridge** | 🇺🇸 **TOEFL iBT** | 🌍 **IELTS** | 💼 **Qué Puedes Hacer con Este Nivel** |
+|:------------------|:-----------------|:-------------------|:-------------|:----------------------------------------|
+| **C2**<br/>*Maestría*<br/>🏆 | **C2 Proficiency (CPE)**<br/>200-230 puntos<br/>**Grado A/B/C** | **115-120**<br/>*(Puntuación casi perfecta)* | **8.5-9.0**<br/>*(Banda superior)* | ✅ Nivel **casi nativo**<br/>✅ Puedes trabajar como **traductor profesional**<br/>✅ Enseñar inglés en universidades<br/>✅ Puestos que requieren inglés perfecto<br/>✅ Investigación académica de alto nivel |
+| **C1**<br/>*Avanzado*<br/>🎓 | **C1 Advanced (CAE)**<br/>180-199 puntos<br/>**Grado A/B/C** | **95-114**<br/>*(Muy competitivo)* | **7.0-8.0**<br/>*(Buen nivel)* | ✅ **Universidades top mundiales** (Ivy League, Oxford, Cambridge)<br/>✅ Puestos **gerenciales y de liderazgo**<br/>✅ Negociaciones internacionales<br/>✅ Investigación y publicaciones académicas<br/>✅ MBA y programas de posgrado competitivos |
+| **B2**<br/>*Intermedio-Alto*<br/>⭐ | **B2 First (FCE)**<br/>160-179 puntos<br/>**Grado A/B/C** | **72-94**<br/>*(Entrada a universidades)* | **5.5-6.5**<br/>*(Competente)* | ✅ **Mayoría de universidades internacionales**<br/>✅ Trabajos que requieren inglés operativo<br/>✅ **Procesos de emigración** (Canadá, Australia)<br/>✅ Comunicación fluida en viajes<br/>✅ **El nivel más demandado** por empresas |
+| **B1**<br/>*Intermedio*<br/>📚 | **B1 Preliminary (PET)**<br/>140-159 puntos<br/>**Grado A/B/C** | **42-71**<br/>*(Nivel funcional)* | **4.0-5.0**<br/>*(Modesto)* | ✅ **Inglés funcional básico**<br/>✅ Viajes independientes<br/>✅ Trabajos que no requieren inglés avanzado<br/>✅ Programas preparatorios universitarios<br/>✅ Conversaciones cotidianas |
+| **A2**<br/>*Elemental*<br/>🔤 | **A2 Key (KET)**<br/>120-139 puntos<br/>**Grado A/B/C** | **-**<br/>*(No aplicable)* | **3.0-3.5**<br/>*(Limitado)* | ✅ **Inglés básico** para situaciones simples<br/>✅ Turismo con ayuda<br/>✅ Tareas cotidianas elementales<br/>✅ Base para continuar estudiando |
+
+</div>
+
+#### 📌 Ejemplos Prácticos por Objetivo Específico:
+
+**🎓 Para Universidades (Grado/Pregrado)**:
+- 🇬🇧 **UK - Russell Group** (Oxford, Cambridge, LSE, Imperial):
+  - IELTS: **6.5-7.0** | Cambridge: **B2 First Grade B** o **C1 Advanced** | TOEFL: **90-100**
+- 🇺🇸 **USA - Ivy League** (Harvard, Yale, MIT, Stanford):
+  - TOEFL: **100-110** | IELTS: **7.5-8.0** | Cambridge: **C1 Advanced Grade B/C**
+- 🇪🇺 **Europa - Erasmus / Programas de Intercambio**:
+  - Cambridge: **B2 First** | IELTS: **6.0-6.5** | TOEFL: **80-90**
+- 🇦🇺 **Australia - Group of Eight** (Sydney, Melbourne, ANU):
+  - IELTS: **6.5-7.0** | TOEFL: **90-100** | Cambridge: **B2 First Grade A/B**
+
+**🎓 Para Posgrados (Maestrías/MBA/Doctorados)**:
+- 🌍 **Programas MBA Top 50**:
+  - TOEFL: **100-110+** | IELTS: **7.0-7.5** | Cambridge: **C1 Advanced**
+- 🌍 **Maestrías Competitivas**:
+  - TOEFL: **90-100** | IELTS: **6.5-7.0** | Cambridge: **B2 First Grade A** o **C1 Advanced**
+- 🌍 **Doctorados (PhD)**:
+  - TOEFL: **95-105** | IELTS: **7.0-8.0** | Cambridge: **C1 Advanced**
+
+**✈️ Para Inmigración / Residencia Permanente**:
+- 🇨🇦 **Canadá - Express Entry (CLB 9)**:
+  - IELTS: **7.0 en las 4 skills** (Listening 8.0, Reading 7.0, Writing 7.0, Speaking 7.0)
+  - No aceptan TOEFL ni Cambridge para inmigración
+- 🇦🇺 **Australia - Skilled Migration (visa 189/190)**:
+  - IELTS: **6.0 mínimo** (Competent) | **7.0+** (Proficient - más puntos)
+  - También aceptan: PTE Academic
+- 🇳🇿 **Nueva Zelanda - Skilled Migrant**:
+  - IELTS: **6.5 promedio** (ninguna skill menor a 6.0)
+- 🇬🇧 **UK - Visas de Trabajo / Estudio**:
+  - IELTS: **B1-B2 (4.0-5.5)** según tipo de visa
+  - Cambridge B1/B2 también aceptado
+
+**💼 Para Trabajos Internacionales**:
+- 🌐 **Corporaciones Multinacionales**:
+  - Mínimo: **B2** (TOEFL 72+, IELTS 5.5+, Cambridge B2 First)
+  - Preferido: **C1** (TOEFL 95+, IELTS 7.0+, Cambridge C1 Advanced)
+- 🌐 **Puestos Técnicos** (IT, Ingeniería):
+  - TOEFL: **80-90** | IELTS: **6.0-6.5** | Cambridge: **B2 First**
+- 🌐 **Puestos Gerenciales**:
+  - TOEFL: **100+** | IELTS: **7.0+** | Cambridge: **C1 Advanced**
+
+---
+- 🇬🇧 UK (Skilled Worker Visa): IELTS 4.0 (B1 mínimo)
+
+**Para Trabajo**:
+- Multinacionales (entry-level): TOEFL 80+ / IELTS 6.0 / Cambridge B2 First
+- Puestos gerenciales: TOEFL 100+ / IELTS 7.5+ / Cambridge C1 Advanced
+- Trabajo remoto internacional: B2 mínimo (certificado recomendado pero no siempre obligatorio)
+
+---
+
+### 🔄 ¿Puedo Convertir mi Puntuación entre Exámenes?
+
+**Sí, pero con matices**. Las equivalencias NO son exactas porque cada examen evalúa de forma diferente:
+
+| Si tienes | Equivale aproximadamente a | Pero ten en cuenta |
+|-----------|----------------------------|-------------------|
+| Cambridge B2 First (Grade A, 180+) | TOEFL 87-95 / IELTS 6.5-7.0 | Cambridge es más exigente en gramática |
+| TOEFL 100 | IELTS 7.0 / Cambridge C1 Advanced (160+) | TOEFL favorece comprensión académica |
+| IELTS 7.5 | TOEFL 100-110 / Cambridge C1 Advanced (180+) | IELTS evalúa más comunicación práctica |
+
+💡 **Consejo**: Si una institución acepta varios exámenes, **elige el que mejor se adapte a tus fortalezas**, no solo el que "parece más fácil" por las equivalencias.
 
 ---
 
@@ -211,14 +375,22 @@ La **preparación TOEFL** requiere un enfoque específico porque este examen eva
 
 **Total: 0-120 puntos** (30 puntos por sección)
 
-| Puntuación | Nivel | Equivalente | Qué Significa |
-|------------|-------|-------------|---------------|
-| **110-120** | C2 | Avanzado Superior | Top universities (Harvard, MIT) |
-| **94-109** | C1 | Avanzado | Most US universities |
-| **72-93** | B2 | Intermedio-Alto | Community colleges, algunas unis |
-| **42-71** | B1 | Intermedio | Programas preparatorios |
+| 🎯 Puntuación TOEFL | 📊 Nivel CEFR | 🎓 Equivalente | 🏛️ Qué Universidades la Aceptan | 💼 Qué Puedes Hacer |
+|---------------------|---------------|----------------|----------------------------------|---------------------|
+| **115-120** | C2 | Maestría | Harvard, MIT, Stanford, Yale | Becas completas, PhD programs, investigación avanzada |
+| **100-114** | C1 | Avanzado Alto | Top 20 US universities, Ivy League | Admisión competitiva, Teaching Assistantships |
+| **90-99** | C1 | Avanzado | Most US universities (80%+) | Admisión estándar, mayoría de programas de grado |
+| **80-89** | B2+ | Intermedio-Alto Superior | State universities, muchas privadas | Admisión con posible conditional English |
+| **72-79** | B2 | Intermedio-Alto | Community colleges, algunas 4-year | Programas menos competitivos, ESL programs |
+| **60-71** | B1 | Intermedio | Pathway programs | Programas preparatorios, pre-university |
+| **42-59** | A2-B1 | Elemental-Intermedio | Intensive English Programs (IEP) | Solo programas de idiomas intensivos |
 
-💡 **Tip de preparación TOEFL**: La mayoría de universidades estadounidenses requieren **mínimo 80 puntos**, pero las competitivas piden 100+.
+💡 **Tip de preparación TOEFL**: 
+- **Mínimo competitivo**: 80 puntos (mayoría de universidades)
+- **Objetivo recomendado**: 100 puntos (universidades top)
+- **Excelencia**: 110+ (becas y admisiones altamente competitivas)
+
+📌 **Importante**: Muchas universidades también piden **mínimos por sección** (ej: 20+ en cada skill). No solo importa el total.
 
 ---
 

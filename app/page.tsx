@@ -10,13 +10,47 @@ export default function ComingSoonPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('loading');
+    setMessage('');
     
-    // Simulación de envío - aquí puedes integrar con tu API
-    setTimeout(() => {
+    try {
+      const response = await fetch('/api/notify-signup', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ 
+          email,
+          source: 'coming-soon-page',
+          interest: 'early-access'
+        }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Error al registrarte');
+      }
+
       setStatus('success');
-      setMessage('¡Gracias! Te notificaremos cuando estemos listos.');
+      setMessage('¡Perfecto! Te avisaremos cuando lancemos. Revisa tu email.');
       setEmail('');
-    }, 1000);
+      
+      // Reset después de 5 segundos
+      setTimeout(() => {
+        setStatus('idle');
+        setMessage('');
+      }, 5000);
+      
+    } catch (error) {
+      setStatus('error');
+      setMessage(error instanceof Error ? error.message : 'Hubo un error. Inténtalo de nuevo.');
+      
+      // Reset error después de 4 segundos
+      setTimeout(() => {
+        setStatus('idle');
+        setMessage('');
+      }, 4000);
+    }
   };
 
   return (
@@ -96,7 +130,10 @@ export default function ComingSoonPage() {
               </button>
             </div>
             {status === 'success' && (
-              <p className="mt-3 text-sm text-green-600 font-semibold">{message}</p>
+              <p className="mt-3 text-sm text-green-600 font-semibold animate-pulse">{message}</p>
+            )}
+            {status === 'error' && (
+              <p className="mt-3 text-sm text-red-600 font-semibold">{message}</p>
             )}
           </form>
 
@@ -112,17 +149,11 @@ export default function ComingSoonPage() {
             </div>
           </div>
 
-          {/* Additional info */}
+          {/* Additional info - Eliminado el email */}
           <div className="mt-12 pt-8 border-t border-slate-200">
-            <p className="text-sm text-slate-500 mb-4">
-              ¿Tienes preguntas? Contáctanos en
+            <p className="text-sm text-slate-500">
+              🚀 Lanzamiento estimado: Primer trimestre 2026
             </p>
-            <a 
-              href="mailto:info@focusenglish.com" 
-              className="text-violet-600 font-bold hover:text-violet-700 transition-colors"
-            >
-              info@focusenglish.com
-            </a>
           </div>
         </div>
 
