@@ -3,6 +3,23 @@ import "./globals.css";
 import { OrganizationSchema, WebsiteSchema } from "./schema";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import Cookiebot from "./components/Cookiebot";
+import { Space_Grotesk, DM_Sans } from "next/font/google";
+
+// Tipografía arriesgada y fresca para títulos
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-space-grotesk",
+  display: "swap",
+});
+
+// Tipografía moderna y cálida para cuerpo
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-dm-sans",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://focus-on-english.com'),
@@ -81,7 +98,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className="scroll-smooth">
+    <html lang="es" className={`scroll-smooth ${spaceGrotesk.variable} ${dmSans.variable}`}>
       <head>
         {/* Schema.org structured data */}
         <OrganizationSchema />
@@ -125,7 +142,7 @@ export default function RootLayout({
           `
         }} />
       </head>
-      <body className="antialiased bg-white text-slate-900">
+      <body className="antialiased bg-white text-slate-900 font-sans">
         {/* Cookiebot Consent Management */}
         <Cookiebot />
         

@@ -134,7 +134,7 @@ export default function BlogPage() {
                     </span>
                   </div>
 
-                  <h1 className="text-3xl lg:text-4xl font-black text-slate-900 mb-4 leading-tight">
+                  <h1 className="font-display text-3xl lg:text-4xl font-black text-slate-900 mb-4 leading-tight tracking-tight">
                     {featuredGuide.title}
                   </h1>
 
@@ -192,7 +192,7 @@ export default function BlogPage() {
 
                   <div className="relative z-10 text-center text-white">
                     <div className="text-6xl mb-6">📚</div>
-                    <div className="text-2xl font-black mb-4">+6,500 Palabras</div>
+                    <div className="font-display text-2xl font-black mb-4">+6,500 Palabras</div>
                     <div className="text-white/90 mb-8 max-w-xs mx-auto">
                       La guía más completa sobre cursos de inglés online en España
                     </div>
@@ -252,7 +252,7 @@ export default function BlogPage() {
         <section className="py-12 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl sm:text-4xl font-black text-slate-900 mb-4">
+              <h2 className="font-display text-3xl sm:text-4xl font-black text-slate-900 mb-4 tracking-tight">
                 Más Artículos del Blog
               </h2>
               <p className="text-lg text-slate-600 max-w-2xl mx-auto">
@@ -268,7 +268,7 @@ export default function BlogPage() {
                     <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
                     <div className="relative z-10">
                       <div className="text-5xl mb-3">{category.icon}</div>
-                      <h3 className="text-2xl font-black text-white mb-2">{category.name}</h3>
+                      <h3 className="font-display text-2xl font-black text-white mb-2 tracking-tight">{category.name}</h3>
                       <p className="text-white/90 text-sm leading-relaxed">{category.description}</p>
                     </div>
                   </div>
@@ -317,7 +317,7 @@ export default function BlogPage() {
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
           <div className="max-w-7xl mx-auto">
             <div className="flex items-center justify-between mb-8">
-              <h2 className="text-3xl font-black text-slate-900">Artículos Recientes</h2>
+              <h2 className="font-display text-3xl font-black text-slate-900 tracking-tight">Artículos Recientes</h2>
               <Link href="/blog" className="text-violet-600 font-semibold text-sm hover:text-violet-700 hidden md:block">
                 Ver todos →
               </Link>
@@ -338,7 +338,7 @@ export default function BlogPage() {
                       <span className="text-xs text-slate-400">•</span>
                       <span className="text-xs text-violet-600 font-semibold">{article.readTime}</span>
                     </div>
-                    <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-violet-600 transition-colors leading-snug">
+                    <h3 className="font-display text-xl font-bold text-slate-900 mb-3 group-hover:text-violet-600 transition-colors leading-snug tracking-tight">
                       {article.title}
                     </h3>
                     <p className="text-slate-600 text-sm mb-4 leading-relaxed">{article.excerpt}</p>
@@ -357,7 +357,7 @@ export default function BlogPage() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-3xl shadow-xl border border-slate-200 p-8 lg:p-12 text-center">
               <div className="text-4xl mb-4">📬</div>
-              <h2 className="text-3xl font-black text-slate-900 mb-4">
+              <h2 className="font-display text-3xl font-black text-slate-900 mb-4 tracking-tight">
                 Recibe Guías y Consejos Exclusivos
               </h2>
               <p className="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
@@ -389,7 +389,7 @@ export default function BlogPage() {
           </div>
 
           <div className="relative max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black mb-6">
+            <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-black mb-6 tracking-tight">
               ¿Listo para Empezar tu Viaje al Inglés?
             </h2>
             <p className="text-xl mb-10 text-violet-100 max-w-2xl mx-auto leading-relaxed">
