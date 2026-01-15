@@ -120,30 +120,30 @@ Antes de sumergirte en la preparación, necesitas elegir el examen correcto. Cad
 La preparación Cambridge es ideal si buscas un certificado permanente que no caduca nunca. Los exámenes de Cambridge (B2 First, C1 Advanced, C2 Proficiency) son los más valorados en Europa, Reino Unido y el sector educativo internacional.
 
 **✅ Elige Cambridge si**:
-- Necesitas un certificado sin fecha de caducidad
-- Vas a trabajar o estudiar en Europa
-- Prefieres un examen que evalúa tu inglés "real" (no solo académico)
-- Te sientes cómodo con exámenes más largos pero más flexibles
+✓ Necesitas un certificado sin fecha de caducidad
+✓ Vas a trabajar o estudiar en Europa
+✓ Prefieres un examen que evalúa tu inglés "real" (no solo académico)
+✓ Te sientes cómodo con exámenes más largos pero más flexibles
 
 ### TOEFL: La Puerta a las Universidades Americanas
 
 La preparación TOEFL está diseñada específicamente para el contexto académico estadounidense. Si tu objetivo es estudiar en Estados Unidos, Canadá o cualquier universidad que requiera TOEFL, este es tu examen.
 
 **✅ Elige TOEFL si**:
-- Vas a aplicar a universidades en USA o Canadá
-- Prefieres un formato 100% digital
-- Te sientes cómodo con inglés académico y científico
-- Necesitas un examen rápido de corregir (resultados en 6 días)
+✓ Vas a aplicar a universidades en USA o Canadá
+✓ Prefieres un formato 100% digital
+✓ Te sientes cómodo con inglés académico y científico
+✓ Necesitas un examen rápido de corregir (resultados en 6 días)
 
 ### IELTS: El Estándar Global para Inmigración
 
 La preparación IELTS es perfecta si buscas emigrar, trabajar o estudiar en Reino Unido, Australia, Nueva Zelanda o Canadá. Es el examen más aceptado para procesos de inmigración.
 
 **✅ Elige IELTS si**:
-- Planeas emigrar a países de habla inglesa
-- Prefieres interacción humana (speaking con examinador real)
-- Buscas un examen reconocido mundialmente
-- Necesitas flexibilidad (versión Academic o General Training)
+✓ Planeas emigrar a países de habla inglesa
+✓ Prefieres interacción humana (speaking con examinador real)
+✓ Buscas un examen reconocido mundialmente
+✓ Necesitas flexibilidad (versión Academic o General Training)
 
 ### 📊 Comparativa Visual: Cambridge vs TOEFL vs IELTS
 
@@ -822,9 +822,9 @@ A diferencia del TOEFL o IELTS, los **exámenes Cambridge** no caducan. Esto sig
 
 ### Niveles Cambridge: Encuentra el Tuyo
 
-- **📘 B2 First (FCE)** - Nivel intermedio-alto: Para trabajo y estudios internacionales
-- **📙 C1 Advanced (CAE)** - Nivel avanzado: Para universidades y puestos senior
-- **📕 C2 Proficiency (CPE)** - Nivel maestría: Inglés casi nativo
+• **📘 B2 First (FCE)** - Nivel intermedio-alto: Para trabajo y estudios internacionales
+• **📙 C1 Advanced (CAE)** - Nivel avanzado: Para universidades y puestos senior
+• **📕 C2 Proficiency (CPE)** - Nivel maestría: Inglés casi nativo
 
 ---
 
@@ -948,10 +948,10 @@ El **TOEFL iBT** (Internet-Based Test) es el examen por excelencia para quien qu
 La preparación TOEFL requiere un enfoque específico porque este examen evalúa tu capacidad para entender y usar inglés **en un contexto académico universitario**. No es inglés de la calle ni inglés de negocios: es el inglés que usarás en lectures, labs y seminarios.
 
 **Características clave del TOEFL**:
-- ✅ **100% digital**: Todo se hace en computadora (incluido el speaking)
-- ✅ **Formato integrado**: Combina múltiples skills (leer + escuchar + hablar)
-- ✅ **Vocabulario académico**: Biología, historia, física, psicología
-- ✅ **Resultados rápidos**: En 6 días (vs 2-3 semanas de otros exámenes)
+🔹 **100% digital**: Todo se hace en computadora (incluido el speaking)
+🔹 **Formato integrado**: Combina múltiples skills (leer + escuchar + hablar)
+🔹 **Vocabulario académico**: Biología, historia, física, psicología
+🔹 **Resultados rápidos**: En 6 días (vs 2-3 semanas de otros exámenes)
 
 ### Puntuación TOEFL: ¿Qué Necesitas?
 
@@ -983,11 +983,11 @@ La preparación TOEFL requiere un enfoque específico porque este examen evalúa
 Leerás **3-4 pasajes académicos** de 700 palabras cada uno, similares a los textos que encontrarías en un libro universitario.
 
 Temas típicos de preparación TOEFL:
-- Vocabulary (significado en contexto)
-- Reference (a qué se refiere un pronombre)
-- Inference (conclusiones)
-- Sentence insertion (dónde insertar una frase)
-- Summary (resumen del texto)
+📌 Vocabulary (significado en contexto)
+📌 Reference (a qué se refiere un pronombre)
+📌 Inference (conclusiones)
+📌 Sentence insertion (dónde insertar una frase)
+📌 Summary (resumen del texto)
 
 **Estrategias**:
 ✅ Tiempo: 18 minutos por pasaje
@@ -1114,15 +1114,15 @@ A diferencia del TOEFL (que usa números hasta 120), IELTS usa **bandas de 0 a 9
 ### Academic vs General Training: ¿Cuál Hacer?
 
 **Elige IELTS Academic si**:
-- Vas a estudiar un grado o posgrado
-- Necesitas registro profesional (médicos, enfermeras)
-- Tu universidad específicamente pide "Academic"
+🎓 Vas a estudiar un grado o posgrado
+🎓 Necesitas registro profesional (médicos, enfermeras)
+🎓 Tu universidad específicamente pide "Academic"
 
 **Elige IELTS General Training si**:
-- Aplicas a residencia permanente (Canadá, Australia, Nueva Zelanda)
-- Vas a trabajar (no estudiar)
-- Necesitas visa de trabajo
-- Harás estudios no universitarios (cursos técnicos)
+💼 Aplicas a residencia permanente (Canadá, Australia, Nueva Zelanda)
+💼 Vas a trabajar (no estudiar)
+💼 Necesitas visa de trabajo
+💼 Harás estudios no universitarios (cursos técnicos)
 
 **📌 Importante**: Las secciones de Listening y Speaking son **idénticas** en ambas versiones. Solo cambian Reading y Writing.
 
@@ -1139,11 +1139,11 @@ A diferencia del TOEFL (que usa números hasta 120), IELTS usa **bandas de 0 a 9
 **Section 4**: Monólogo académico (lecture)
 
 **Tipos de Respuesta**:
-- Multiple choice
-- Matching
-- Plan/map/diagram labelling
-- Form/note/table completion
-- Sentence completion
+▪️ Multiple choice
+▪️ Matching
+▪️ Plan/map/diagram labelling
+▪️ Form/note/table completion
+▪️ Sentence completion
 
 **Estrategias**:
 ✅ Solo escuchas UNA VEZ (no hay repetición)
@@ -1159,12 +1159,12 @@ A diferencia del TOEFL (que usa números hasta 120), IELTS usa **bandas de 0 a 9
 **General Training**: Textos más cortos y variados
 
 **Tipos de Preguntas**:
-1. Multiple choice
-2. True/False/Not Given
-3. Yes/No/Not Given
-4. Matching headings
-5. Sentence completion
-6. Summary completion
+1️⃣ Multiple choice
+2️⃣ True/False/Not Given
+3️⃣ Yes/No/Not Given
+4️⃣ Matching headings
+5️⃣ Sentence completion
+6️⃣ Summary completion
 
 **Estrategia para True/False/Not Given**:
 - **True**: La información coincide exactamente
@@ -1568,11 +1568,11 @@ IELTS:
 ✅ **Confía en tu primera impresión** (usualmente es correcta)
 
 ### 4. El Día del Examen
-- Llega 30 minutos antes
-- Lleva identificación válida
-- Desayuna bien
-- Lleva agua (si está permitido)
-- Desconecta el móvil
+✔️ Llega 30 minutos antes
+✔️ Lleva identificación válida
+✔️ Desayuna bien
+✔️ Lleva agua (si está permitido)
+✔️ Desconecta el móvil
 
 ---
 
