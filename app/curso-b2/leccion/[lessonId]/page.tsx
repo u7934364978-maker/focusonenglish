@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import LessonViewer from '@/components/course/LessonViewer';
-import { MODULE_1_LESSONS } from '@/lib/course-data-b2';
+import { ALL_MODULES } from '@/lib/course-data-b2';
 
 export default function LessonPage({ params }: { params: { lessonId: string } }) {
   const router = useRouter();
@@ -13,7 +13,8 @@ export default function LessonPage({ params }: { params: { lessonId: string } })
     params.then(p => setLessonId(p.lessonId));
   }, [params]);
 
-  const lesson = MODULE_1_LESSONS.find(l => l.id === lessonId);
+  // Buscar lección en TODOS los módulos
+  const lesson = ALL_MODULES.flatMap(m => m.lessons).find(l => l.id === lessonId);
 
   if (!lessonId) {
     return (
