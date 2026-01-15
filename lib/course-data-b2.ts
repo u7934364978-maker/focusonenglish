@@ -5271,7 +5271,8 @@ export const ALL_MODULES: Module[] = [
   }
 ];
 
-export const B2_EXAM_PREP_COURSE: Module = ALL_MODULES[0];
+// Calcular total de lecciones una vez
+const TOTAL_LESSONS = MODULE_1_LESSONS.length + MODULE_2_LESSONS.length + MODULE_3_LESSONS.length;
 
 export const B2_FULL_COURSE = {
   id: 'b2-exam-prep-complete',
@@ -5280,7 +5281,7 @@ export const B2_FULL_COURSE = {
   description: 'Curso completo de preparación para el examen B2 First (FCE) de Cambridge con ejercicios interactivos, grabación de voz, evaluación de pronunciación y práctica exhaustiva de las 4 habilidades',
   duration: '12-15 semanas',
   totalModules: 3,
-  totalLessons: MODULE_1_LESSONS.length + MODULE_2_LESSONS.length + MODULE_3_LESSONS.length,
+  totalLessons: TOTAL_LESSONS,
   modules: ALL_MODULES,
   features: [
     'Ejercicios interactivos de Reading, Writing, Listening y Speaking',
@@ -5292,6 +5293,9 @@ export const B2_FULL_COURSE = {
     'Acceso 24/7 a todos los materiales'
   ]
 };
+
+// Export for backward compatibility
+export const B2_EXAM_PREP_COURSE: Module = ALL_MODULES[0];
 
 // Export individual modules for easier testing
 // These must be defined AFTER all modules are declared to avoid circular reference
