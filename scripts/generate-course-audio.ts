@@ -3,6 +3,10 @@
 // Genera todos los audios necesarios con voces naturales
 // ============================================
 
+// Cargar variables de entorno
+import * as dotenv from 'dotenv';
+dotenv.config({ path: '.env.local' });
+
 import {
   generateReadingAudio,
   generateConversationAudio,
@@ -10,7 +14,7 @@ import {
   VOICE_IDS,
   getUsageInfo,
 } from '../lib/text-to-speech';
-import { B2_EXAM_PREP_COURSE } from '../lib/course-data-b2';
+import { ALL_MODULES } from '../lib/course-data-b2';
 import * as path from 'path';
 
 // Mapeo de tipos de ejercicio a tipos de voz
@@ -38,81 +42,53 @@ function collectAudiosToGenerate(): AudioToGenerate[] {
   const audios: AudioToGenerate[] = [];
 
   // Iterar por todos los módulos y lecciones
-  const lessons = B2_EXAM_PREP_COURSE.lessons;
+  ALL_MODULES.forEach((module) => {
+    module.lessons.forEach((lesson) => {
+      lesson.exercises.forEach((exercise) => {
+        // LISTENING EXERCISES
+        if (exercise.type === 'listening' && 'audioUrl' in exercise) {
+          const listeningEx = exercise as any;
+          
+          if (listeningEx.transcript) {
+            const outputPath = path.join(
+              process.cwd(),
+              'public',
+              listeningEx.audioUrl
+            );
 
-  lessons.forEach((lesson) => {
-    lesson.exercises.forEach((exercise) => {
-      // LISTENING EXERCISES
-      if (exercise.type === 'listening' && 'audioUrl' in exercise) {
-        const listeningEx = exercise as any;
-        
-        if (listeningEx.transcript) {
-          const outputPath = path.join(
-            process.cwd(),
-            'public',
-            'audio',
-            'b2',
-            `${lesson.id}-${exercise.id}.mp3`
-          );
-
-          audios.push({
-            lessonId: lesson.id,
-            exerciseId: exercise.id,
-            text: listeningEx.transcript,
-            voiceId: VOICE_IDS.british_female,
-            outputPath,
-            type: 'listening',
-          });
+            audios.push({
+              lessonId: lesson.id,
+              exerciseId: exercise.id,
+              text: listeningEx.transcript,
+              voiceId: VOICE_IDS.british_female,
+              outputPath,
+              type: 'listening',
+            });
+          }
         }
-      }
 
-      // READING EXERCISES (generar audio opcional para lectura)
-      if (exercise.type === 'reading' && 'text' in exercise) {
-        const readingEx = exercise as any;
-        
-        if (readingEx.text && readingEx.text.length > 100) {
-          const outputPath = path.join(
-            process.cwd(),
-            'public',
-            'audio',
-            'b2',
-            `${lesson.id}-${exercise.id}-reading.mp3`
-          );
+        // SPEAKING/PRONUNCIATION EXERCISES (generar modelos de audio)
+        if ((exercise.type === 'speaking' || exercise.type === 'pronunciation') && 'targetText' in exercise) {
+          const speakingEx = exercise as any;
+          
+          if (speakingEx.targetText && speakingEx.modelAudioUrl) {
+            const outputPath = path.join(
+              process.cwd(),
+              'public',
+              speakingEx.modelAudioUrl
+            );
 
-          audios.push({
-            lessonId: lesson.id,
-            exerciseId: exercise.id,
-            text: readingEx.text,
-            voiceId: VOICE_IDS.british_male,
-            outputPath,
-            type: 'reading',
-          });
+            audios.push({
+              lessonId: lesson.id,
+              exerciseId: exercise.id,
+              text: speakingEx.targetText,
+              voiceId: VOICE_IDS.american_female,
+              outputPath,
+              type: 'instruction',
+            });
+          }
         }
-      }
-
-      // SPEAKING EXERCISES (generar modelos de audio)
-      if (exercise.type === 'speaking' && 'prompt' in exercise) {
-        const speakingEx = exercise as any;
-        
-        if (speakingEx.targetText) {
-          const outputPath = path.join(
-            process.cwd(),
-            'public',
-            'audio',
-            'b2',
-            `${lesson.id}-${exercise.id}-model.mp3`
-          );
-
-          audios.push({
-            lessonId: lesson.id,
-            exerciseId: exercise.id,
-            text: speakingEx.targetText,
-            voiceId: VOICE_IDS.american_female,
-            outputPath,
-            type: 'instruction',
-          });
-        }
-      }
+      });
     });
   });
 
