@@ -38,11 +38,11 @@ Esta guía te proporciona el **inglés práctico y real** que necesitarás en tu
 ```
 
 **Vocabulario Clave**:
-- **Boarding pass** - Tarjeta de embarque
-- **Gate** - Puerta de embarque
-- **Baggage claim** - Recogida de equipaje
-- **Overhead bin** - Compartimento superior
-- **Carry-on luggage** - Equipaje de mano
+🎫 **Boarding pass** - Tarjeta de embarque
+🚪 **Gate** - Puerta de embarque
+🧳 **Baggage claim** - Recogida de equipaje
+📦 **Overhead bin** - Compartimento superior
+👜 **Carry-on luggage** - Equipaje de mano
 
 ---
 
@@ -64,10 +64,10 @@ You: "At the Hilton Hotel downtown" / "With friends"
 ```
 
 **Frases Útiles**:
-- ✅ "I'm here on vacation"
-- ✅ "I have a return ticket"
-- ✅ "This is my first visit"
-- ✅ "I'm staying for 10 days"
+✓ "I'm here on vacation"
+✓ "I have a return ticket"
+✓ "This is my first visit"
+✓ "I'm staying for 10 days"
 
 ---
 
@@ -182,11 +182,11 @@ You: "A glass of white wine, please"
 ```
 
 **Términos de Cocción de Carne**:
-- **Rare** - Poco hecha
-- **Medium rare** - Término medio poco hecho
-- **Medium** - Término medio
-- **Medium well** - Término medio bien hecho
-- **Well done** - Bien hecha
+🥩 **Rare** - Poco hecha
+🥩 **Medium rare** - Término medio poco hecho
+🥩 **Medium** - Término medio
+🥩 **Medium well** - Término medio bien hecho
+🥩 **Well done** - Bien hecha
 
 ---
 
@@ -233,9 +233,9 @@ You: "A glass of white wine, please"
 ```
 
 **Nota sobre Propinas**:
-- USA/Canadá: 15-20% es estándar
-- UK: 10-15% si no está incluido
-- Australia: Propina no es obligatoria
+💵 USA/Canadá: 15-20% es estándar
+💵 UK: 10-15% si no está incluido
+💵 Australia: Propina no es obligatoria
 
 ---
 
@@ -391,30 +391,30 @@ You: "A glass of white wine, please"
 ## 💡 Consejos Prácticos para Viajar
 
 ### 1. Preparación Antes del Viaje
-- **Descarga apps offline**: Google Translate, mapas sin conexión
-- **Aprende 20 frases clave** de este artículo
-- **Practica pronunciación** con apps como Forvo
+📱 **Descarga apps offline**: Google Translate, mapas sin conexión
+📚 **Aprende 20 frases clave** de este artículo
+🗣️ **Practica pronunciación** con apps como Forvo
 
 ### 2. Durante el Viaje
-- **No tengas miedo de pedir que repitan**: "Could you repeat that, please?"
-- **Habla despacio y claro**: Los nativos también te entenderán mejor
-- **Usa gestos**: La comunicación no verbal ayuda mucho
+🗨️ **No tengas miedo de pedir que repitan**: "Could you repeat that, please?"
+🐢 **Habla despacio y claro**: Los nativos también te entenderán mejor
+👋 **Usa gestos**: La comunicación no verbal ayuda mucho
 
 ### 3. Frases de Emergencia
-- "I don't understand" - No entiendo
-- "Could you speak more slowly?" - ¿Podría hablar más despacio?
-- "What does this mean?" - ¿Qué significa esto?
-- "Can you write it down?" - ¿Puede escribirlo?
+❓ "I don't understand" - No entiendo
+🐌 "Could you speak more slowly?" - ¿Podría hablar más despacio?
+🤔 "What does this mean?" - ¿Qué significa esto?
+✍️ "Can you write it down?" - ¿Puede escribirlo?
 
 ---
 
 ## Recursos Adicionales
 
 ### Apps Recomendadas
-- **Google Translate**: Traducción instantánea con cámara
-- **Duolingo**: Práctica de frases de viaje
-- **TripLingo**: Frases específicas para viajeros
-- **Citymapper**: Transporte público en ciudades principales
+📲 **Google Translate**: Traducción instantánea con cámara
+🦜 **Duolingo**: Práctica de frases de viaje
+✈️ **TripLingo**: Frases específicas para viajeros
+🗺️ **Citymapper**: Transporte público en ciudades principales
 
 ### Frases para Imprimir
 Crea una **tarjeta de referencia** con tus 10 frases más usadas y llévala siempre contigo.
@@ -424,14 +424,14 @@ Crea una **tarjeta de referencia** con tus 10 frases más usadas y llévala siem
 ## Plan de Estudio: 2 Semanas Antes de Tu Viaje
 
 ### Semana 1: Situaciones Básicas
-- **Días 1-2**: Aeropuerto y transporte
-- **Días 3-4**: Hotel
-- **Días 5-7**: Restaurantes y comida
+✈️ **Días 1-2**: Aeropuerto y transporte
+🏨 **Días 3-4**: Hotel
+🍽️ **Días 5-7**: Restaurantes y comida
 
 ### Semana 2: Situaciones Específicas
-- **Días 8-9**: Compras y tours
-- **Días 10-11**: Emergencias
-- **Días 12-14**: Práctica con role-play
+🛍️ **Días 8-9**: Compras y tours
+🚨 **Días 10-11**: Emergencias
+🎭 **Días 12-14**: Práctica con role-play
 
 ---
 
@@ -440,11 +440,11 @@ Crea una **tarjeta de referencia** con tus 10 frases más usadas y llévala siem
 Con estas **frases esenciales y un poco de práctica**, estarás preparado para comunicarte efectivamente en la mayoría de situaciones de viaje. Recuerda: **lo importante no es hablar perfecto, sino comunicarte con confianza**.
 
 ### Checklist de Viaje
-- ✅ Frases de aeropuerto memorizadas
-- ✅ Vocabulario de hotel practicado
-- ✅ Apps de traducción descargadas
-- ✅ Tarjeta de emergencia con frases clave
-- ✅ Números de embajada/consulado guardados
+✅ Frases de aeropuerto memorizadas
+✅ Vocabulario de hotel practicado
+✅ Apps de traducción descargadas
+✅ Tarjeta de emergencia con frases clave
+✅ Números de embajada/consulado guardados
 
 **¡Buen viaje y a disfrutar practicando tu inglés!**
 
