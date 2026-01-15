@@ -53,80 +53,74 @@ La **preparación IELTS** es perfecta si buscas emigrar, trabajar o estudiar en 
 - Buscas un examen reconocido mundialmente
 - Necesitas flexibilidad (versión Academic o General Training)
 
-### 📊 Tabla Comparativa Detallada: Cambridge vs TOEFL vs IELTS
+### 📊 Tabla Comparativa Completa: Cambridge vs TOEFL vs IELTS
 
-<div style="overflow-x: auto;">
+#### 📋 Información General
 
-| 🔍 **Aspecto** | 🎓 **Cambridge B2 First** | 🇺🇸 **TOEFL iBT** | 🌍 **IELTS Academic** |
-|:---------------|:--------------------------|:------------------|:----------------------|
-| **🏢 Organización** | Cambridge Assessment English | ETS (Educational Testing Service) | British Council / IDP Australia |
-| **⏱️ Duración Total** | **~3.5 horas** (210 min) | **~3 horas** (180 min) | **~2.75 horas** (165 min) |
-| **📅 Validez del Certificado** | ✅ **PERMANENTE**<br/>*(Válido para siempre)* | ⏳ **2 años**<br/>*(Debes repetir después)* | ⏳ **2 años**<br/>*(Debes repetir después)* |
-| **💻 Formato del Examen** | Papel **o** Computadora<br/>*(Tú eliges)* | **100% Digital**<br/>*(Obligatorio)* | Papel **o** Computadora<br/>*(Tú eliges)* |
-| **📊 Sistema de Puntuación** | **Grados:** A, B, C<br/>*(160-190 puntos)* | **0-120 puntos**<br/>*(30 por cada skill)* | **Bandas: 0-9**<br/>*(Con medios: 6.5, 7.0, etc.)* |
-| **💬 Speaking (Oral)** | **14 minutos**<br/>Con otro candidato + examinador<br/>🗣️ Conversación real | **17 minutos**<br/>Grabado (hablas solo al micrófono)<br/>🎙️ Sin interacción humana | **11-14 minutos**<br/>Entrevista con examinador real<br/>🗣️ Uno-a-uno |
-| **👥 Tipo de Interacción** | ✅ **Conversación real**<br/>*(Más natural)* | ⚡ **Individual**<br/>*(Hablas solo)* | ✅ **Conversación real**<br/>*(Más personal)* |
-| **📖 Reading (Lectura)** | **1h 15min**<br/>Incluye Use of English<br/>7 partes, 52 preguntas | **54-72 min**<br/>3-4 textos académicos<br/>30-40 preguntas | **60 minutos**<br/>3 textos largos<br/>40 preguntas |
-| **✍️ Writing (Escritura)** | **1h 20min**<br/>Essay + 1 tarea a elegir<br/>(Article/Review/Letter/Report) | **50 minutos**<br/>1 Integrated Task<br/>1 Independent Essay | **60 minutos**<br/>Task 1 (describir gráfico)<br/>Task 2 (Essay) |
-| **🎧 Listening (Escucha)** | **40 minutos**<br/>❗ Escuchas **UNA sola vez** | **41-57 minutos**<br/>✅ Puedes tomar notas | **30 min + 10 transfer**<br/>❗ Escuchas **UNA sola vez** |
-| **🌍 Ideal para...** | 🇪🇺 **Europa y Reino Unido**<br/>Certificado permanente | 🇺🇸 **USA y Canadá**<br/>Admisión universitaria | 🌏 **Inmigración global**<br/>UK/Australia/NZ/Canadá |
-| **🎯 Mejor si buscas...** | 📜 Certificado que **nunca caduca** | 🎓 Admisión a **universidades americanas** | ✈️ **Visa de residencia** o trabajo | **📍 Disponibilidad de Fechas** | ⚠️ **3-4 veces/año**<br/>*(Plazas limitadas)* | ✅ **50+ veces/año**<br/>*(Alta disponibilidad)* | ✅ **48 veces/año**<br/>*(~4 fechas por mes)* |
-| **💶 Costo Aproximado (2026)** | **€200-230** | **€185-235**<br/>*($200-250 USD)* | **€220-250** |
-| **📅 Tiempo de Resultados** | **2-3 semanas** | ⚡ **6 días**<br/>*(El más rápido)* | **5-13 días**<br/>*(Digital: 5-7 / Papel: 13)* |
-| **🔄 ¿Hay que Renovar?** | ❌ **NUNCA**<br/>*(Certificado permanente)* | ✅ **Cada 2 años** | ✅ **Cada 2 años** |
-| **💰 Costo en 10 años** | **€200-230**<br/>*(1 sola vez)* | **€925-1,175**<br/>*(Repetir 5 veces)* | **€1,100-1,250**<br/>*(Repetir 5 veces)* |
-| **📱 Inscripción** | Centro autorizado Cambridge | 🌐 **100% online**<br/>www.ets.org/toefl | 🌐 British Council o IDP<br/>*(Online o presencial)* |
-| **🏆 Ventaja Única** | 🥇 **Certificado de por vida**<br/>Prestigio de Cambridge | ⚡ **Resultados súper rápidos**<br/>Máxima flexibilidad de fechas | 🌍 **Más reconocido globalmente**<br/>Ideal para inmigración |
+| **Aspecto** | **🎓 Cambridge B2 First** | **🇺🇸 TOEFL iBT** | **🌍 IELTS Academic** |
+|:------------|:-------------------------|:-----------------|:---------------------|
+| **Organización** | Cambridge Assessment English | ETS (Educational Testing Service) | British Council / IDP Australia |
+| **Duración Total** | 3.5 horas (210 min) | 3 horas (180 min) | 2.75 horas (165 min) |
+| **Validez** | ✅ **PERMANENTE** | ⏳ 2 años | ⏳ 2 años |
+| **Formato** | Papel o Digital (tú eliges) | 100% Digital (obligatorio) | Papel o Digital (tú eliges) |
+| **Puntuación** | Grados A, B, C (160-190 pts) | 0-120 puntos (30/sección) | Bandas 0-9 (con medios) |
+| **Costo 2026** | €200-230 | €185-235 ($200-250) | €220-250 |
 
-</div>
+#### 🎯 Estructura del Examen
 
----
+| **Sección** | **🎓 Cambridge** | **🇺🇸 TOEFL** | **🌍 IELTS** |
+|:------------|:----------------|:-------------|:------------|
+| **📖 Reading** | 1h 15min<br/>7 partes + Use of English<br/>52 preguntas | 54-72 min<br/>3-4 textos académicos<br/>30-40 preguntas | 60 min<br/>3 textos largos<br/>40 preguntas |
+| **✍️ Writing** | 1h 20min<br/>Essay obligatorio<br/>+ 1 tarea (article/review/letter) | 50 min<br/>Integrated Task<br/>Independent Essay | 60 min<br/>Task 1 (gráficos/datos)<br/>Task 2 (Essay argumentativo) |
+| **🎧 Listening** | 40 min<br/>❗ Se escucha 1 sola vez<br/>4 partes, 30 preguntas | 41-57 min<br/>✅ Puedes tomar notas<br/>Lectures + conversaciones | 30 min + 10 transfer<br/>❗ Se escucha 1 sola vez<br/>4 secciones, 40 preguntas |
+| **💬 Speaking** | 14 min<br/>✅ Con otro candidato<br/>✅ Conversación natural | 17 min<br/>🎙️ Grabado (hablas solo)<br/>❌ Sin interacción humana | 11-14 min<br/>✅ Con examinador real<br/>✅ Entrevista personal |
 
----
+#### 🌍 Reconocimiento y Uso
 
-### 🎯 ¿Cuál Elegir? Decisión Rápida
+| **Criterio** | **🎓 Cambridge** | **🇺🇸 TOEFL** | **🌍 IELTS** |
+|:-------------|:----------------|:-------------|:------------|
+| **Ideal para** | Europa, Reino Unido, Academia | USA, Canadá, Universidades | Inmigración, UK, Australia, NZ |
+| **Objetivo Principal** | Certificado permanente de inglés | Admisión universitaria americana | Visa, residencia, trabajo, estudios |
+| **Ventaja Única** | 🥇 Nunca caduca | ⚡ Resultados en 6 días | 🌍 Más reconocido mundialmente |
+| **Disponibilidad** | ⚠️ 3-4 veces/año (plazas limitadas) | ✅ 50+ veces/año (alta disponibilidad) | ✅ 48 veces/año (~4/mes) |
+| **Resultados** | 2-3 semanas | **6 días** (el más rápido) | 5-13 días (digital 5-7, papel 13) |
+| **Inscripción** | Centro autorizado Cambridge | 100% online (ets.org/toefl) | Online o presencial (British Council/IDP) |
+
+#### 💰 Análisis de Costos a Largo Plazo
+
+| **Periodo** | **🎓 Cambridge** | **🇺🇸 TOEFL** | **🌍 IELTS** |
+|:------------|:----------------|:-------------|:------------|
+| **Inicial** | €200-230 (1 vez) | €185-235 (1 vez) | €220-250 (1 vez) |
+| **2 años** | €200-230 (mismo certificado) | €185-235 (1 vez) | €220-250 (1 vez) |
+| **5 años** | €200-230 (mismo certificado) | €463-588 (repetir 2-3x) | €550-625 (repetir 2-3x) |
+| **10 años** | €200-230 (mismo certificado) | €925-1,175 (repetir 5x) | €1,100-1,250 (repetir 5x) |
+| **20 años** | €200-230 (NUNCA caduca) | €1,850-2,350 (repetir 10x) | €2,200-2,500 (repetir 10x) |
+| **ROI** | 🏆 **MEJOR** - Inversión única | ⚠️ Moderado (si necesitas 2-4 años) | ⚠️ Moderado (procesos temporales) |
+
+#### ✅ Recomendaciones por Perfil
 
 **Elige Cambridge B2 First si**:
-- ✅ Quieres un certificado **permanente** (nunca caduca)
+- ✅ Quieres un certificado **permanente** que nunca caduca
 - ✅ Vas a trabajar o estudiar en **Europa o Reino Unido**
-- ✅ Prefieres interacción **real** en el speaking (con personas)
-- ✅ No tienes prisa (fechas más limitadas)
-- ✅ Buscas prestigio académico de Cambridge
+- ✅ Prefieres speaking con **conversación real** (más natural)
+- ✅ Buscas el **prestigio de Cambridge** en tu CV
+- ✅ Valoras la **inversión a largo plazo** (1 sola vez)
 
 **Elige TOEFL iBT si**:
 - ✅ Aplicas a universidades en **USA o Canadá**
 - ✅ Te sientes cómodo con formato **100% digital**
-- ✅ Prefieres hablar solo (sin presión de otras personas)
+- ✅ Prefieres hablar **solo** (sin presión de otras personas)
 - ✅ Necesitas **resultados rápidos** (6 días)
-- ✅ Quieres **flexibilidad de fechas** (50+ opciones al año)
+- ✅ Quieres **máxima flexibilidad** de fechas (50+ al año)
 
 **Elige IELTS si**:
-- ✅ Planeas **emigrar** a UK/Australia/Nueva Zelanda/Canadá
-- ✅ Buscas el examen más **reconocido mundialmente**
+- ✅ Planeas **emigrar** a UK, Australia, Nueva Zelanda o Canadá
+- ✅ Necesitas el examen más **reconocido mundialmente**
 - ✅ Prefieres speaking con **examinador real** (no grabado)
-- ✅ Necesitas elegir entre Academic o General Training
-- ✅ Quieres buena disponibilidad (4 fechas por mes)
+- ✅ Necesitas elegir entre **Academic o General Training**
+- ✅ Buscas buena disponibilidad (4 fechas por mes)
 
----
 
-### 💰 Análisis de Costos y ROI: ¿Cuál es la Mejor Inversión?
-
-<div style="overflow-x: auto;">
-
-| 💵 **Concepto** | 🎓 **Cambridge** | 🇺🇸 **TOEFL** | 🌍 **IELTS** |
-|:----------------|:-----------------|:---------------|:-------------|
-| **Costo del Examen (2026)** | **€200-230** | **€185-235** | **€220-250** |
-| **Validez del Certificado** | ♾️ **PERMANENTE**<br/>*(Toda la vida)* | ⏳ **2 años**<br/>*(Luego caduca)* | ⏳ **2 años**<br/>*(Luego caduca)* |
-| **Costo en 2 años** | **€200-230**<br/>*(1 sola vez)* | **€185-235**<br/>*(1 vez)* | **€220-250**<br/>*(1 vez)* |
-| **Costo en 5 años** | **€200-230**<br/>*(1 sola vez)* | **€463-588**<br/>*(Repetir 2-3 veces)* | **€550-625**<br/>*(Repetir 2-3 veces)* |
-| **Costo en 10 años** | **€200-230**<br/>*(1 sola vez - mismo certificado)* | **€925-1,175**<br/>*(Repetir 5 veces)* | **€1,100-1,250**<br/>*(Repetir 5 veces)* |
-| **Costo en 20 años** | **€200-230**<br/>*(1 sola vez - NUNCA caduca)* | **€1,850-2,350**<br/>*(Repetir 10 veces)* | **€2,200-2,500**<br/>*(Repetir 10 veces)* |
-| **Costo de Preparación** | **~€300-800**<br/>*(Curso + materiales)* | **~€200-600**<br/>*(Curso + materiales)* | **~€200-600**<br/>*(Curso + materiales)* |
-| **Inversión Total Inicial** | **€500-1,030** | **€385-835** | **€420-850** |
-| **ROI (Return on Investment)** | 🏆 **MEJOR**<br/>*Certificado de por vida* | ⚠️ **Moderado**<br/>*Si solo necesitas 2-4 años* | ⚠️ **Moderado**<br/>*Si solo necesitas 2-4 años* |
-| **Mejor para...** | 📜 **Inversión a largo plazo**<br/>Múltiples usos en tu carrera | ⚡ **Necesidad inmediata**<br/>Admisión universitaria específica | 🌍 **Inmigración**<br/>Procesos con fecha límite |
-
-</div>
 
 #### 💡 Análisis de Valor:
 
