@@ -322,15 +322,162 @@ La preparación IELTS es perfecta si buscas emigrar, trabajar o estudiar en Rein
 
 Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo nivel de inglés según el Marco Común Europeo (CEFR):
 
-<div style="overflow-x: auto;">
+<div style="margin: 30px 0;">
 
-| 📊 **Nivel CEFR** | 🎓 Cambridge | 🇺🇸 **TOEFL iBT** | 🌍 IELTS | 💼 **Qué Puedes Hacer con Este Nivel** |
-|:------------------|:-----------------|:-------------------|:-------------|:----------------------------------------|
-| **C2**<br/>*Maestría*<br/>🏆 | **C2 Proficiency (CPE)**<br/>200-230 puntos<br/>**Grado A/B/C** | **115-120**<br/>*(Puntuación casi perfecta)* | **8.5-9.0**<br/>*(Banda superior)* | ✅ Nivel **casi nativo**<br/>✅ Puedes trabajar como **traductor profesional**<br/>✅ Enseñar inglés en universidades<br/>✅ Puestos que requieren inglés perfecto<br/>✅ Investigación académica de alto nivel |
-| **C1**<br/>*Avanzado*<br/>🎓 | **C1 Advanced (CAE)**<br/>180-199 puntos<br/>**Grado A/B/C** | **95-114**<br/>*(Muy competitivo)* | **7.0-8.0**<br/>*(Buen nivel)* | ✅ **Universidades top mundiales** (Ivy League, Oxford, Cambridge)<br/>✅ Puestos **gerenciales y de liderazgo**<br/>✅ Negociaciones internacionales<br/>✅ Investigación y publicaciones académicas<br/>✅ MBA y programas de posgrado competitivos |
-| **B2**<br/>*Intermedio-Alto*<br/>⭐ | **B2 First (FCE)**<br/>160-179 puntos<br/>**Grado A/B/C** | **72-94**<br/>*(Entrada a universidades)* | **5.5-6.5**<br/>*(Competente)* | ✅ **Mayoría de universidades internacionales**<br/>✅ Trabajos que requieren inglés operativo<br/>✅ **Procesos de emigración** (Canadá, Australia)<br/>✅ Comunicación fluida en viajes<br/>✅ **El nivel más demandado** por empresas |
-| **B1**<br/>*Intermedio*<br/>📚 | **B1 Preliminary (PET)**<br/>140-159 puntos<br/>**Grado A/B/C** | **42-71**<br/>*(Nivel funcional)* | **4.0-5.0**<br/>*(Modesto)* | ✅ **Inglés funcional básico**<br/>✅ Viajes independientes<br/>✅ Trabajos que no requieren inglés avanzado<br/>✅ Programas preparatorios universitarios<br/>✅ Conversaciones cotidianas |
-| **A2**<br/>*Elemental*<br/>🔤 | **A2 Key (KET)**<br/>120-139 puntos<br/>**Grado A/B/C** | **-**<br/>*(No aplicable)* | **3.0-3.5**<br/>*(Limitado)* | ✅ **Inglés básico** para situaciones simples<br/>✅ Turismo con ayuda<br/>✅ Tareas cotidianas elementales<br/>✅ Base para continuar estudiando |
+<!-- Tabla de Equivalencias CEFR -->
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <h4 style="color: white; margin: 0 0 20px 0; font-size: 1.3em;">📊 Equivalencias CEFR - Cambridge - TOEFL - IELTS</h4>
+  
+  <div style="background: white; border-radius: 10px; overflow: hidden;">
+    <table style="width: 100%; border-collapse: collapse;">
+      <thead>
+        <tr style="background: #f8f9fa;">
+          <th style="padding: 15px; text-align: left; font-weight: 600; color: #2d3748; border-bottom: 2px solid #e2e8f0;">📊 Nivel CEFR</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #3b82f6; border-bottom: 2px solid #e2e8f0;">🎓 Cambridge</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #8b5cf6; border-bottom: 2px solid #e2e8f0;">🇺🇸 TOEFL iBT</th>
+          <th style="padding: 15px; text-align: center; font-weight: 600; color: #10b981; border-bottom: 2px solid #e2e8f0;">🌍 IELTS</th>
+          <th style="padding: 15px; text-align: left; font-weight: 600; color: #f59e0b; border-bottom: 2px solid #e2e8f0;">💼 Qué Puedes Hacer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- C2 - Maestría -->
+        <tr style="background: #ffffff;">
+          <td style="padding: 15px; font-weight: 700; color: #7c3aed; border-right: 2px solid #e2e8f0;">
+            <div style="font-size: 1.1em;">C2</div>
+            <div style="font-size: 0.85em; color: #6b7280; font-weight: 400;">Maestría 🏆</div>
+          </td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">
+            <div style="font-weight: 600; color: #3b82f6;">C2 Proficiency (CPE)</div>
+            <div style="font-size: 0.9em; margin-top: 4px;">200-230 puntos</div>
+            <div style="font-size: 0.85em; color: #059669; margin-top: 2px;">Grado A/B/C</div>
+          </td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">
+            <div style="font-weight: 700; font-size: 1.2em; color: #8b5cf6;">115-120</div>
+            <div style="font-size: 0.85em; color: #6b7280; margin-top: 2px;">Casi perfecta</div>
+          </td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">
+            <div style="font-weight: 700; font-size: 1.2em; color: #10b981;">8.5-9.0</div>
+            <div style="font-size: 0.85em; color: #6b7280; margin-top: 2px;">Banda superior</div>
+          </td>
+          <td style="padding: 15px; font-size: 0.9em; color: #4a5568;">
+            • Nivel casi nativo<br/>
+            • Traductor profesional<br/>
+            • Enseñar en universidades<br/>
+            • Investigación de alto nivel
+          </td>
+        </tr>
+        
+        <!-- C1 - Avanzado -->
+        <tr style="background: #f7fafc;">
+          <td style="padding: 15px; font-weight: 700; color: #6366f1; border-right: 2px solid #e2e8f0;">
+            <div style="font-size: 1.1em;">C1</div>
+            <div style="font-size: 0.85em; color: #6b7280; font-weight: 400;">Avanzado 🎓</div>
+          </td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">
+            <div style="font-weight: 600; color: #3b82f6;">C1 Advanced (CAE)</div>
+            <div style="font-size: 0.9em; margin-top: 4px;">180-199 puntos</div>
+            <div style="font-size: 0.85em; color: #059669; margin-top: 2px;">Grado A/B/C</div>
+          </td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">
+            <div style="font-weight: 700; font-size: 1.2em; color: #8b5cf6;">95-114</div>
+            <div style="font-size: 0.85em; color: #6b7280; margin-top: 2px;">Muy competitivo</div>
+          </td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">
+            <div style="font-weight: 700; font-size: 1.2em; color: #10b981;">7.0-8.0</div>
+            <div style="font-size: 0.85em; color: #6b7280; margin-top: 2px;">Buen nivel</div>
+          </td>
+          <td style="padding: 15px; font-size: 0.9em; color: #4a5568;">
+            • Universidades top (Ivy, Oxford)<br/>
+            • Puestos gerenciales<br/>
+            • Negociaciones internacionales<br/>
+            • MBA y posgrados competitivos
+          </td>
+        </tr>
+        
+        <!-- B2 - Intermedio-Alto -->
+        <tr style="background: #ffffff;">
+          <td style="padding: 15px; font-weight: 700; color: #10b981; border-right: 2px solid #e2e8f0;">
+            <div style="font-size: 1.1em;">B2</div>
+            <div style="font-size: 0.85em; color: #6b7280; font-weight: 400;">Intermedio-Alto ⭐</div>
+          </td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">
+            <div style="font-weight: 600; color: #3b82f6;">B2 First (FCE)</div>
+            <div style="font-size: 0.9em; margin-top: 4px;">160-179 puntos</div>
+            <div style="font-size: 0.85em; color: #059669; margin-top: 2px;">Grado A/B/C</div>
+          </td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">
+            <div style="font-weight: 700; font-size: 1.2em; color: #8b5cf6;">72-94</div>
+            <div style="font-size: 0.85em; color: #6b7280; margin-top: 2px;">Entrada universidades</div>
+          </td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">
+            <div style="font-weight: 700; font-size: 1.2em; color: #10b981;">5.5-6.5</div>
+            <div style="font-size: 0.85em; color: #6b7280; margin-top: 2px;">Competente</div>
+          </td>
+          <td style="padding: 15px; font-size: 0.9em; color: #4a5568; background: #fef3c7;">
+            • Mayoría universidades<br/>
+            • Trabajo operativo en inglés<br/>
+            • Emigración (Canadá, Australia)<br/>
+            • <strong>Nivel más demandado</strong>
+          </td>
+        </tr>
+        
+        <!-- B1 - Intermedio -->
+        <tr style="background: #f7fafc;">
+          <td style="padding: 15px; font-weight: 700; color: #f59e0b; border-right: 2px solid #e2e8f0;">
+            <div style="font-size: 1.1em;">B1</div>
+            <div style="font-size: 0.85em; color: #6b7280; font-weight: 400;">Intermedio 📚</div>
+          </td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">
+            <div style="font-weight: 600; color: #3b82f6;">B1 Preliminary (PET)</div>
+            <div style="font-size: 0.9em; margin-top: 4px;">140-159 puntos</div>
+            <div style="font-size: 0.85em; color: #059669; margin-top: 2px;">Grado A/B/C</div>
+          </td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">
+            <div style="font-weight: 700; font-size: 1.2em; color: #8b5cf6;">42-71</div>
+            <div style="font-size: 0.85em; color: #6b7280; margin-top: 2px;">Nivel funcional</div>
+          </td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">
+            <div style="font-weight: 700; font-size: 1.2em; color: #10b981;">4.0-5.0</div>
+            <div style="font-size: 0.85em; color: #6b7280; margin-top: 2px;">Modesto</div>
+          </td>
+          <td style="padding: 15px; font-size: 0.9em; color: #4a5568;">
+            • Inglés funcional básico<br/>
+            • Viajes independientes<br/>
+            • Programas preparatorios<br/>
+            • Conversaciones cotidianas
+          </td>
+        </tr>
+        
+        <!-- A2 - Elemental -->
+        <tr style="background: #ffffff;">
+          <td style="padding: 15px; font-weight: 700; color: #ef4444; border-right: 2px solid #e2e8f0;">
+            <div style="font-size: 1.1em;">A2</div>
+            <div style="font-size: 0.85em; color: #6b7280; font-weight: 400;">Elemental 🔤</div>
+          </td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">
+            <div style="font-weight: 600; color: #3b82f6;">A2 Key (KET)</div>
+            <div style="font-size: 0.9em; margin-top: 4px;">120-139 puntos</div>
+            <div style="font-size: 0.85em; color: #059669; margin-top: 2px;">Grado A/B/C</div>
+          </td>
+          <td style="padding: 15px; text-align: center; color: #9ca3af;">
+            <div style="font-weight: 700; font-size: 1.2em;">—</div>
+            <div style="font-size: 0.85em; margin-top: 2px;">No aplicable</div>
+          </td>
+          <td style="padding: 15px; text-align: center; color: #2d3748;">
+            <div style="font-weight: 700; font-size: 1.2em; color: #10b981;">3.0-3.5</div>
+            <div style="font-size: 0.85em; color: #6b7280; margin-top: 2px;">Limitado</div>
+          </td>
+          <td style="padding: 15px; font-size: 0.9em; color: #4a5568;">
+            • Inglés básico<br/>
+            • Turismo con ayuda<br/>
+            • Tareas cotidianas simples<br/>
+            • Base para continuar
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
 </div>
 
