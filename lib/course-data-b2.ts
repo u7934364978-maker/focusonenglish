@@ -800,6 +800,200 @@ The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for y
             points: 1
           }
         ]
+      },
+      {
+        id: 'b2-m1-l1-wordform-1',
+        type: 'word-formation',
+        title: 'Word Formation: Life Transitions',
+        text: `Making major life changes requires careful (1. CONSIDER)_____ and planning. Many people find the process both (2. EXCITE)_____ and overwhelming. It's important to approach transitions with a positive (3. THINK)_____ rather than dwelling on potential (4. DIFFICULT)_____. Research shows that (5. SUCCESS)_____ adaptation depends largely on mental (6. FLEXIBLE)_____. Those who maintain an (7. OPTIMISM)_____ outlook tend to navigate changes more smoothly. However, it's also (8. ESSENCE)_____ to acknowledge challenges realistically and seek support when needed.`,
+        questions: [
+          {
+            id: 'q1',
+            gapNumber: 1,
+            baseWord: 'CONSIDER',
+            correctAnswer: 'consideration',
+            acceptableAnswers: ['consideration'],
+            explanation: 'Need noun form: "careful consideration" (the act of thinking carefully about something).',
+            wordType: 'noun',
+            transformation: 'verb → noun (-ation)',
+            points: 1
+          },
+          {
+            id: 'q2',
+            gapNumber: 2,
+            baseWord: 'EXCITE',
+            correctAnswer: 'exciting',
+            acceptableAnswers: ['exciting'],
+            explanation: 'Need adjective form: "exciting" (causing excitement). Not "excited" because the process causes the feeling.',
+            wordType: 'adjective',
+            transformation: 'verb → adjective (-ing)',
+            points: 1
+          },
+          {
+            id: 'q3',
+            gapNumber: 3,
+            baseWord: 'THINK',
+            correctAnswer: 'mindset',
+            acceptableAnswers: ['mindset', 'thinking'],
+            explanation: 'Need noun form: "positive mindset/thinking" (way of thinking about things).',
+            wordType: 'noun',
+            transformation: 'verb → noun (compound/gerund)',
+            points: 1
+          },
+          {
+            id: 'q4',
+            gapNumber: 4,
+            baseWord: 'DIFFICULT',
+            correctAnswer: 'difficulties',
+            acceptableAnswers: ['difficulties'],
+            explanation: 'Need noun plural: "difficulties" (problems or challenges).',
+            wordType: 'noun',
+            transformation: 'adjective → noun (-y → -ies)',
+            points: 1
+          },
+          {
+            id: 'q5',
+            gapNumber: 5,
+            baseWord: 'SUCCESS',
+            correctAnswer: 'successful',
+            acceptableAnswers: ['successful'],
+            explanation: 'Need adjective form: "successful adaptation" (achieving desired results).',
+            wordType: 'adjective',
+            transformation: 'noun → adjective (-ful)',
+            points: 1
+          },
+          {
+            id: 'q6',
+            gapNumber: 6,
+            baseWord: 'FLEXIBLE',
+            correctAnswer: 'flexibility',
+            acceptableAnswers: ['flexibility'],
+            explanation: 'Need noun form: "mental flexibility" (the quality of being flexible).',
+            wordType: 'noun',
+            transformation: 'adjective → noun (-ible → -ility)',
+            points: 1
+          },
+          {
+            id: 'q7',
+            gapNumber: 7,
+            baseWord: 'OPTIMISM',
+            correctAnswer: 'optimistic',
+            acceptableAnswers: ['optimistic'],
+            explanation: 'Need adjective form: "optimistic outlook" (hopeful and positive).',
+            wordType: 'adjective',
+            transformation: 'noun → adjective (-istic)',
+            points: 1
+          },
+          {
+            id: 'q8',
+            gapNumber: 8,
+            baseWord: 'ESSENCE',
+            correctAnswer: 'essential',
+            acceptableAnswers: ['essential'],
+            explanation: 'Need adjective form: "essential to acknowledge" (absolutely necessary).',
+            wordType: 'adjective',
+            transformation: 'noun → adjective (-tial)',
+            points: 1
+          }
+        ],
+        focusAreas: ['Noun formation', 'Adjective formation', 'Suffix patterns']
+      },
+      {
+        id: 'b2-m1-l1-wordform-2',
+        type: 'word-formation',
+        title: 'Word Formation: Personal Development',
+        text: `Personal growth is a (1. CONTINUE)_____ journey that requires (2. DEDICATE)_____ and self-awareness. Many experts emphasize the (3. IMPORTANT)_____ of setting realistic goals. Rather than pursuing (4. PERFECT)_____, it's more productive to focus on gradual (5. IMPROVE)_____. Developing new skills often involves moments of (6. COMFORT)_____, which is actually a sign of progress. The most (7. INFLUENCE)_____ factor in personal development is often our (8. WILLING)_____ to learn from mistakes and adapt our approach.`,
+        questions: [
+          {
+            id: 'q1',
+            gapNumber: 1,
+            baseWord: 'CONTINUE',
+            correctAnswer: 'continuous',
+            acceptableAnswers: ['continuous', 'continuing'],
+            explanation: 'Need adjective form: "continuous journey" (happening without interruption).',
+            wordType: 'adjective',
+            transformation: 'verb → adjective (-ous/-ing)',
+            points: 1
+          },
+          {
+            id: 'q2',
+            gapNumber: 2,
+            baseWord: 'DEDICATE',
+            correctAnswer: 'dedication',
+            acceptableAnswers: ['dedication'],
+            explanation: 'Need noun form: "requires dedication" (the quality of being committed to something).',
+            wordType: 'noun',
+            transformation: 'verb → noun (-ation)',
+            points: 1
+          },
+          {
+            id: 'q3',
+            gapNumber: 3,
+            baseWord: 'IMPORTANT',
+            correctAnswer: 'importance',
+            acceptableAnswers: ['importance'],
+            explanation: 'Need noun form: "the importance of" (the state of being important).',
+            wordType: 'noun',
+            transformation: 'adjective → noun (-ance)',
+            points: 1
+          },
+          {
+            id: 'q4',
+            gapNumber: 4,
+            baseWord: 'PERFECT',
+            correctAnswer: 'perfection',
+            acceptableAnswers: ['perfection'],
+            explanation: 'Need noun form: "pursuing perfection" (the state of being perfect).',
+            wordType: 'noun',
+            transformation: 'adjective → noun (-ion)',
+            points: 1
+          },
+          {
+            id: 'q5',
+            gapNumber: 5,
+            baseWord: 'IMPROVE',
+            correctAnswer: 'improvement',
+            acceptableAnswers: ['improvement', 'improvements'],
+            explanation: 'Need noun form: "focus on improvement" (the act of making or becoming better).',
+            wordType: 'noun',
+            transformation: 'verb → noun (-ment)',
+            points: 1
+          },
+          {
+            id: 'q6',
+            gapNumber: 6,
+            baseWord: 'COMFORT',
+            correctAnswer: 'discomfort',
+            acceptableAnswers: ['discomfort'],
+            explanation: 'Need negative noun: "moments of discomfort" (absence of comfort). Prefix dis- indicates negation.',
+            wordType: 'noun',
+            transformation: 'noun → negative noun (dis-)',
+            points: 1
+          },
+          {
+            id: 'q7',
+            gapNumber: 7,
+            baseWord: 'INFLUENCE',
+            correctAnswer: 'influential',
+            acceptableAnswers: ['influential'],
+            explanation: 'Need adjective form: "influential factor" (having great influence).',
+            wordType: 'adjective',
+            transformation: 'noun → adjective (-tial)',
+            points: 1
+          },
+          {
+            id: 'q8',
+            gapNumber: 8,
+            baseWord: 'WILLING',
+            correctAnswer: 'willingness',
+            acceptableAnswers: ['willingness'],
+            explanation: 'Need noun form: "our willingness to learn" (the quality of being ready to do something).',
+            wordType: 'noun',
+            transformation: 'adjective → noun (-ness)',
+            points: 1
+          }
+        ],
+        focusAreas: ['Noun suffixes', 'Negative prefixes', 'Adjective to noun']
       }
     ]
   },
@@ -1272,6 +1466,40 @@ Under no circumstances should we view career changes as failures. If you had sta
             points: 2
           }
         ]
+      },
+      {
+        id: 'b2-m1-l2-wordform-1',
+        type: 'word-formation',
+        title: 'Word Formation: Conditional Thinking',
+        text: `The ability to think (1. CONDITION)_____ is crucial for problem-solving. When facing complex decisions, (2. SUCCESS)_____ individuals consider multiple scenarios and their potential outcomes. This type of thinking requires both (3. LOGIC)_____ reasoning and (4. CREATE)_____ imagination. Research suggests that practicing hypothetical scenarios can enhance our (5. DECIDE)_____ skills. Moreover, understanding the (6. RELATE)_____ between actions and consequences helps us make more informed choices. While some people seem (7. NATURE)_____ good at this, it's a skill that can be developed through practice and (8. AWARE)_____.`,
+        questions: [
+          { id: 'q1', gapNumber: 1, baseWord: 'CONDITION', correctAnswer: 'conditionally', acceptableAnswers: ['conditionally'], explanation: '"Think conditionally" means considering conditions and possibilities.', wordType: 'adverb', transformation: 'adjective → adverb (-ly)', points: 1 },
+          { id: 'q2', gapNumber: 2, baseWord: 'SUCCESS', correctAnswer: 'successful', acceptableAnswers: ['successful'], explanation: '"Successful individuals" - those who achieve their goals.', wordType: 'adjective', transformation: 'noun → adjective (-ful)', points: 1 },
+          { id: 'q3', gapNumber: 3, baseWord: 'LOGIC', correctAnswer: 'logical', acceptableAnswers: ['logical'], explanation: '"Logical reasoning" - based on clear thinking and reason.', wordType: 'adjective', transformation: 'noun → adjective (-al)', points: 1 },
+          { id: 'q4', gapNumber: 4, baseWord: 'CREATE', correctAnswer: 'creative', acceptableAnswers: ['creative'], explanation: '"Creative imagination" - ability to imagine new ideas.', wordType: 'adjective', transformation: 'verb → adjective (-ive)', points: 1 },
+          { id: 'q5', gapNumber: 5, baseWord: 'DECIDE', correctAnswer: 'decision-making', acceptableAnswers: ['decision-making', 'decisiveness'], explanation: '"Decision-making skills" - ability to make good decisions.', wordType: 'noun', transformation: 'verb → compound noun', points: 1 },
+          { id: 'q6', gapNumber: 6, baseWord: 'RELATE', correctAnswer: 'relationship', acceptableAnswers: ['relationship'], explanation: '"Relationship between" - connection or link between things.', wordType: 'noun', transformation: 'verb → noun (-ship)', points: 1 },
+          { id: 'q7', gapNumber: 7, baseWord: 'NATURE', correctAnswer: 'naturally', acceptableAnswers: ['naturally'], explanation: '"Naturally good" - having a natural talent or ability.', wordType: 'adverb', transformation: 'noun → adverb (-ally)', points: 1 },
+          { id: 'q8', gapNumber: 8, baseWord: 'AWARE', correctAnswer: 'awareness', acceptableAnswers: ['awareness'], explanation: '"Through awareness" - state of being conscious and informed.', wordType: 'noun', transformation: 'adjective → noun (-ness)', points: 1 }
+        ],
+        focusAreas: ['Word formation', 'Prefixes and suffixes', 'Part of speech changes']
+      },
+      {
+        id: 'b2-m1-l2-wordform-2',
+        type: 'word-formation',
+        title: 'Word Formation: Consequences and Choices',
+        text: `Every choice we make has (1. PREDICT)_____ and sometimes (2. EXPECT)_____ consequences. Understanding this principle is fundamental to personal (3. RESPONSIBLE)_____. When we act (4. IMPULSE)_____, we often overlook important factors that should influence our decisions. The (5. WISE)_____ of hindsight teaches us valuable lessons about cause and effect. However, it's (6. POINT)_____ to dwell on past mistakes; instead, we should focus on developing better (7. JUDGE)_____. By learning from our experiences, both positive and negative, we can become more (8. SKILL)_____ decision-makers.`,
+        questions: [
+          { id: 'q1', gapNumber: 1, baseWord: 'PREDICT', correctAnswer: 'predictable', acceptableAnswers: ['predictable'], explanation: '"Predictable consequences" - can be foreseen or anticipated.', wordType: 'adjective', transformation: 'verb → adjective (-able)', points: 1 },
+          { id: 'q2', gapNumber: 2, baseWord: 'EXPECT', correctAnswer: 'unexpected', acceptableAnswers: ['unexpected'], explanation: '"Unexpected consequences" - not anticipated. Negative prefix un-.', wordType: 'adjective', transformation: 'verb → negative adjective (un-)', points: 1 },
+          { id: 'q3', gapNumber: 3, baseWord: 'RESPONSIBLE', correctAnswer: 'responsibility', acceptableAnswers: ['responsibility'], explanation: '"Personal responsibility" - being accountable for one\'s actions.', wordType: 'noun', transformation: 'adjective → noun (-ity)', points: 1 },
+          { id: 'q4', gapNumber: 4, baseWord: 'IMPULSE', correctAnswer: 'impulsively', acceptableAnswers: ['impulsively'], explanation: '"Act impulsively" - without thinking carefully first.', wordType: 'adverb', transformation: 'noun → adverb (-ively)', points: 1 },
+          { id: 'q5', gapNumber: 5, baseWord: 'WISE', correctAnswer: 'wisdom', acceptableAnswers: ['wisdom'], explanation: '"Wisdom of hindsight" - understanding gained from past experience.', wordType: 'noun', transformation: 'adjective → noun (-dom)', points: 1 },
+          { id: 'q6', gapNumber: 6, baseWord: 'POINT', correctAnswer: 'pointless', acceptableAnswers: ['pointless'], explanation: '"Pointless to dwell" - having no purpose or use.', wordType: 'adjective', transformation: 'noun → negative adjective (-less)', points: 1 },
+          { id: 'q7', gapNumber: 7, baseWord: 'JUDGE', correctAnswer: 'judgment', acceptableAnswers: ['judgment', 'judgement'], explanation: '"Better judgment" - ability to make sensible decisions.', wordType: 'noun', transformation: 'verb → noun (-ment)', points: 1 },
+          { id: 'q8', gapNumber: 8, baseWord: 'SKILL', correctAnswer: 'skillful', acceptableAnswers: ['skillful', 'skilful'], explanation: '"Skillful decision-makers" - having and showing skill.', wordType: 'adjective', transformation: 'noun → adjective (-ful)', points: 1 }
+        ],
+        focusAreas: ['Word formation', 'Negative prefixes', 'Suffix patterns']
       }
     ]
   },
