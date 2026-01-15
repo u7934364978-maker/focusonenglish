@@ -4,8 +4,6 @@ import { useState } from 'react';
 import EnhancedVoiceRecorder from '@/components/course/EnhancedVoiceRecorder';
 import SmartPronunciationEvaluator from '@/components/course/SmartPronunciationEvaluator';
 import PronunciationPractice from '@/components/course/PronunciationPractice';
-import AdController from '@/components/ads/AdController';
-import { AdBannerInFeed, AdBannerHorizontal } from '@/components/ads/AdBanner';
 import { Lesson, Exercise, Question } from '@/lib/course-data-b2';
 
 interface LessonViewerProps {
@@ -1070,13 +1068,6 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
           {renderExercise()}
         </div>
-
-        {/* Ad Banner - Mostrar cada 3 ejercicios para usuarios con plan with-ads */}
-        {(currentExerciseIndex + 1) % 3 === 0 && (
-          <AdController showByDefault={false}>
-            <AdBannerInFeed className="mb-6" />
-          </AdController>
-        )}
 
         {/* Navigation Buttons */}
         <div className="flex justify-between gap-4">

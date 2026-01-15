@@ -3,7 +3,6 @@ import "./globals.css";
 import { OrganizationSchema, WebsiteSchema } from "./schema";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import Cookiebot from "./components/Cookiebot";
-import AdSenseScript from "@/components/ads/AdSenseScript";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://focus-on-english.com'),
@@ -132,9 +131,6 @@ export default function RootLayout({
         
         {/* Google Analytics */}
         <GoogleAnalytics />
-        
-        {/* Google AdSense */}
-        <AdSenseScript />
         
         {/* Copyright watermark */}
         <div style={{
