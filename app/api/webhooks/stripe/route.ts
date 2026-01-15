@@ -56,43 +56,115 @@ export async function POST(request: NextRequest) {
         console.log('Amount Total:', session.amount_total);
         console.log('Metadata:', session.metadata);
 
-        // Aquí puedes:
-        // 1. Guardar en base de datos
-        // 2. Enviar email de confirmación al estudiante
-        // 3. Crear acceso al curso en tu plataforma
-        // 4. Actualizar HubSpot con el estado de pago
-        // 5. Enviar notificación al equipo
-
-        // Ejemplo de actualización a HubSpot
+        // Integración completa con HubSpot
         if (session.metadata && session.customer_email) {
           try {
-            await fetch(`${process.env.HUBSPOT_API_URL}/crm/v3/objects/contacts`, {
-              method: 'PATCH',
-              headers: {
-                'Authorization': `Bearer ${process.env.HUBSPOT_ACCESS_TOKEN}`,
-                'Content-Type': 'application/json',
-              },
-              body: JSON.stringify({
-                properties: {
-                  email: session.customer_email,
-                  payment_status: 'paid',
-                  course_purchased: session.metadata.courseLevel,
-                  purchase_date: new Date().toISOString(),
-                  stripe_session_id: session.id,
+            // 1. Crear o actualizar contacto en HubSpot
+            const hubspotContact = {
+              properties: {
+                email: session.customer_email,
+                firstname: session.metadata.firstName || '',
+                lastname: session.metadata.lastName || '',
+                phone: session.metadata.phone || '',
+                
+                // Información de la suscripción
+                subscription_plan: session.metadata.planId || session.metadata.planName,
+                subscription_status: 'active',
+                payment_status: 'paid',
+                
+                // Información del pago
+                stripe_customer_id: session.customer as string,
+                stripe_session_id: session.id,
+                subscription_start_date: new Date().toISOString(),
+                last_payment_date: new Date().toISOString(),
+                last_payment_amount: (session.amount_total || 0) / 100,
+                
+                // Información del curso
+                current_level: session.metadata.currentLevel || 'unknown',
+                
+                // Lifecycle stage
+                lifecyclestage: 'customer',
+              }
+            };
+
+            // Crear/actualizar contacto en HubSpot
+            const hubspotResponse = await fetch(
+              `https://api.hubapi.com/crm/v3/objects/contacts`,
+              {
+                method: 'POST',
+                headers: {
+                  'Authorization': `Bearer ${process.env.HUBSPOT_ACCESS_TOKEN}`,
+                  'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(hubspotContact)
+              }
+            );
+
+            if (hubspotResponse.ok) {
+              console.log('✅ HubSpot contact created/updated');
+              
+              // 2. Registrar evento de compra en HubSpot
+              const contactData = await hubspotResponse.json();
+              const contactId = contactData.id;
+              
+              // Crear engagement/nota en HubSpot
+              const engagement = {
+                engagement: {
+                  active: true,
+                  type: 'NOTE',
+                  timestamp: Date.now()
+                },
+                associations: {
+                  contactIds: [contactId]
+                },
+                metadata: {
+                  body: `Nueva suscripción completada:\n\n` +
+                        `Plan: ${session.metadata.planName}\n` +
+                        `Monto: €${(session.amount_total || 0) / 100}\n` +
+                        `Stripe Session: ${session.id}\n` +
+                        `Fecha: ${new Date().toLocaleString('es-ES')}`
                 }
-              })
-            });
-            console.log('✅ HubSpot updated');
-          } catch (hubspotError) {
-            console.error('Error updating HubSpot:', hubspotError);
+              };
+
+              await fetch(
+                `https://api.hubapi.com/engagements/v1/engagements`,
+                {
+                  method: 'POST',
+                  headers: {
+                    'Authorization': `Bearer ${process.env.HUBSPOT_ACCESS_TOKEN}`,
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify(engagement)
+                }
+              );
+
+              console.log('✅ HubSpot engagement created');
+
+            } else {
+              // Si falla POST (contacto ya existe), intentar PATCH
+              const emailEncoded = encodeURIComponent(session.customer_email);
+              const updateResponse = await fetch(
+                `https://api.hubapi.com/crm/v3/objects/contacts/${emailEncoded}?idProperty=email`,
+                {
+                  method: 'PATCH',
+                  headers: {
+                    'Authorization': `Bearer ${process.env.HUBSPOT_ACCESS_TOKEN}`,
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify(hubspotContact)
+                }
+              );
+              
+              if (updateResponse.ok) {
+                console.log('✅ HubSpot contact updated (already existed)');
+              }
+            }
+            
+          } catch (hubspotError: any) {
+            console.error('Error updating HubSpot:', hubspotError.message);
             // No fallar el webhook si HubSpot falla
           }
         }
-
-        // TODO: Implementar tu lógica de negocio aquí
-        // Por ejemplo:
-        // - await createCourseAccess(session.metadata.email, session.metadata.courseLevel);
-        // - await sendWelcomeEmail(session.customer_email, session.metadata);
         
         break;
       }
@@ -104,16 +176,112 @@ export async function POST(request: NextRequest) {
         break;
       }
 
-      case 'payment_intent.succeeded': {
-        const paymentIntent = event.data.object as Stripe.PaymentIntent;
-        console.log('💰 Payment intent succeeded:', paymentIntent.id);
+      case 'customer.subscription.updated': {
+        const subscription = event.data.object as Stripe.Subscription;
+        console.log('🔄 Subscription updated:', subscription.id);
+        
+        // Actualizar estado de suscripción en HubSpot
+        if (subscription.customer) {
+          try {
+            const customer = await stripe.customers.retrieve(subscription.customer as string) as Stripe.Customer;
+            
+            if (customer.email) {
+              const emailEncoded = encodeURIComponent(customer.email);
+              await fetch(
+                `https://api.hubapi.com/crm/v3/objects/contacts/${emailEncoded}?idProperty=email`,
+                {
+                  method: 'PATCH',
+                  headers: {
+                    'Authorization': `Bearer ${process.env.HUBSPOT_ACCESS_TOKEN}`,
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify({
+                    properties: {
+                      subscription_status: subscription.status,
+                      subscription_current_period_end: new Date(subscription.current_period_end * 1000).toISOString(),
+                    }
+                  })
+                }
+              );
+              console.log('✅ HubSpot updated - subscription status');
+            }
+          } catch (error: any) {
+            console.error('Error updating subscription in HubSpot:', error.message);
+          }
+        }
+        break;
+      }
+
+      case 'customer.subscription.deleted': {
+        const subscription = event.data.object as Stripe.Subscription;
+        console.log('❌ Subscription cancelled:', subscription.id);
+        
+        // Actualizar estado de cancelación en HubSpot
+        if (subscription.customer) {
+          try {
+            const customer = await stripe.customers.retrieve(subscription.customer as string) as Stripe.Customer;
+            
+            if (customer.email) {
+              const emailEncoded = encodeURIComponent(customer.email);
+              await fetch(
+                `https://api.hubapi.com/crm/v3/objects/contacts/${emailEncoded}?idProperty=email`,
+                {
+                  method: 'PATCH',
+                  headers: {
+                    'Authorization': `Bearer ${process.env.HUBSPOT_ACCESS_TOKEN}`,
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify({
+                    properties: {
+                      subscription_status: 'cancelled',
+                      subscription_cancellation_date: new Date().toISOString(),
+                      lifecyclestage: 'customer', // Mantener como customer pero inactivo
+                    }
+                  })
+                }
+              );
+              console.log('✅ HubSpot updated - subscription cancelled');
+            }
+          } catch (error: any) {
+            console.error('Error updating cancellation in HubSpot:', error.message);
+          }
+        }
         break;
       }
 
       case 'payment_intent.payment_failed': {
         const paymentIntent = event.data.object as Stripe.PaymentIntent;
         console.log('❌ Payment failed:', paymentIntent.id);
-        // TODO: Notificar al usuario del fallo
+        
+        // Registrar fallo de pago en HubSpot
+        if (paymentIntent.customer) {
+          try {
+            const customer = await stripe.customers.retrieve(paymentIntent.customer as string) as Stripe.Customer;
+            
+            if (customer.email) {
+              const emailEncoded = encodeURIComponent(customer.email);
+              await fetch(
+                `https://api.hubapi.com/crm/v3/objects/contacts/${emailEncoded}?idProperty=email`,
+                {
+                  method: 'PATCH',
+                  headers: {
+                    'Authorization': `Bearer ${process.env.HUBSPOT_ACCESS_TOKEN}`,
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify({
+                    properties: {
+                      last_payment_status: 'failed',
+                      last_payment_failure_date: new Date().toISOString(),
+                    }
+                  })
+                }
+              );
+              console.log('✅ HubSpot updated - payment failed');
+            }
+          } catch (error: any) {
+            console.error('Error updating payment failure in HubSpot:', error.message);
+          }
+        }
         break;
       }
 
