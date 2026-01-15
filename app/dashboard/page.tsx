@@ -5,7 +5,7 @@
 // Panel principal con progreso, estadísticas y acceso rápido
 // ============================================
 
-import { useSession } from 'next-auth/react';
+// import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
@@ -23,9 +23,11 @@ const icons = {
 };
 
 export default function DashboardPage() {
-  const { data: session, status } = useSession();
+  // TODO: Reactivar autenticación con SessionProvider
+  // const { data: session, status } = useSession();
+  const session = { user: { name: 'Estudiante' } }; // Mock session
   const router = useRouter();
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [progress, setProgress] = useState({
     currentLevel: 'B2',
     currentModule: 1,
@@ -38,15 +40,16 @@ export default function DashboardPage() {
   });
 
   useEffect(() => {
-    if (status === 'unauthenticated') {
-      router.push('/login');
-    } else if (status === 'authenticated') {
-      // TODO: Cargar datos reales del usuario desde la API
-      setLoading(false);
-    }
-  }, [status, router]);
+    // TODO: Reactivar verificación de autenticación
+    // if (status === 'unauthenticated') {
+    //   router.push('/login');
+    // } else if (status === 'authenticated') {
+    //   setLoading(false);
+    // }
+    setLoading(false);
+  }, [router]);
 
-  if (loading || status === 'loading') {
+  if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
