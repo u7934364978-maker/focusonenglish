@@ -8,7 +8,7 @@ export default function GoogleAnalytics() {
   const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
   const pathname = usePathname();
 
-  // Rutas EXCLUIDAS de Google Analytics (contenido de pago)
+  // Rutas EXCLUIDAS de Google Analytics (contenido de pago y áreas privadas)
   const excludedRoutes = [
     '/curso-a1',
     '/curso-a2', 
@@ -20,6 +20,7 @@ export default function GoogleAnalytics() {
     '/profile',
     '/settings',
     '/leccion',
+    '/certificados',
   ];
 
   // Verificar si la ruta actual debe ser excluida
