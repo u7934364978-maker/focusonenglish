@@ -966,110 +966,286 @@ A diferencia del TOEFL o IELTS, los **exámenes Cambridge** no caducan. Esto sig
 
 ### 🎯 Estructura Completa del B2 First (Cambridge)
 
+<div style="margin: 30px 0;">
+
 El examen se divide en **4 partes** que evalúan tus habilidades de forma integral. Aquí te explico cada una con estrategias específicas de preparación Cambridge:
 
-#### 📖 Parte 1: Reading & Use of English (1h 15min)
-
-Esta es la parte más larga y la que más peso tiene. Combina **comprensión lectora** con dominio gramatical y léxico.
-
-**7 partes, 52 preguntas totales**
-
-**Use of English (Partes 1-4)** - El corazón de Cambridge:
-- ✍️ **Parte 1**: Multiple choice cloze (vocabulario en contexto)
-- ✍️ **Parte 2**: Open cloze (gramática pura - sin opciones)
-- Word formation (formación de palabras)
-- Key word transformations (transformaciones)
-
-**Parte 5-7: Reading**
-- Multiple choice (comprensión detallada)
-- Gapped text (coherencia y estructura)
-- Multiple matching (lectura rápida)
-
-**Estrategias**:
-✅ Lee el texto completo primero antes de responder
-✅ Presta atención a los conectores (however, although, therefore)
-✅ Busca sinónimos, no palabras exactas
-✅ Gestiona tu tiempo: 10 minutos por parte
-
----
-
-#### ✍️ Writing (1h 20min)
-**2 tareas obligatorias**
-
-**Part 1 (obligatoria): Essay**
-- 140-190 palabras
-- Argumentativo: presentar opinión con razones
-
-**Part 2 (elige 1): **
-- Article
-- Email/Letter
-- Review
-- Report
-
-**Estructura de Essay**:
-```
-Introducción (40 palabras)
-→ Hook + thesis statement
-
-Body Paragraph 1 (50 palabras)
-→ Primera razón + ejemplo
-
-Body Paragraph 2 (50 palabras)
-→ Segunda razón + ejemplo
-
-Conclusión (40 palabras)
-→ Resumen + opinión final
-```
-
-**Frases Útiles**:
-- "It is often argued that..."
-- "On the one hand... On the other hand..."
-- "Furthermore/Moreover/In addition..."
-- "In conclusion, I believe that..."
-
----
-
-#### 🎧 Listening (40min)
-**4 partes, 30 preguntas**
-
-**Parte 1**: Multiple choice (8 preguntas cortas)
-**Parte 2**: Sentence completion (10 huecos)
-**Parte 3**: Multiple choice (5 preguntas de conversación)
-**Parte 4**: Multiple matching (10 coincidencias)
-
-**Estrategias**:
-✅ Lee las preguntas ANTES de escuchar
-✅ Escucha sinónimos y paráfrasis
-✅ Concéntrate en palabras clave
-✅ No dejes respuestas en blanco
+<!-- Parte 1: Reading & Use of English -->
+<div style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+    <div style="background: white; padding: 15px; border-radius: 12px; min-width: 70px; text-align: center;">
+      <div style="font-size: 2.5em;">📖</div>
+    </div>
+    <div>
+      <h4 style="margin: 0 0 5px 0; color: white; font-size: 1.4em;">Parte 1: Reading & Use of English</h4>
+      <div style="color: rgba(255,255,255,0.9); font-size: 1em;">⏱️ Duración: 1h 15min | 📊 7 partes, 52 preguntas</div>
+    </div>
+  </div>
+  
+  <div style="background: rgba(255,255,255,0.95); padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+    <p style="margin: 0 0 15px 0; color: #1e40af; font-weight: 600; font-size: 1em;">
+      Esta es la parte más larga y la que más peso tiene. Combina <strong>comprensión lectora</strong> con dominio gramatical y léxico.
+    </p>
+    
+    <div style="margin-bottom: 20px;">
+      <h5 style="margin: 0 0 12px 0; color: #1e40af; font-size: 1.1em; border-bottom: 2px solid #3b82f6; padding-bottom: 8px;">
+        💎 Use of English (Partes 1-4) - El Corazón de Cambridge
+      </h5>
+      <div style="display: grid; gap: 10px;">
+        <div style="background: #f0f9ff; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #3b82f6;">
+          <strong style="color: #1e40af;">✍️ Parte 1:</strong> Multiple choice cloze (vocabulario en contexto)
+        </div>
+        <div style="background: #f0f9ff; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #3b82f6;">
+          <strong style="color: #1e40af;">✍️ Parte 2:</strong> Open cloze (gramática pura - sin opciones)
+        </div>
+        <div style="background: #f0f9ff; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #3b82f6;">
+          <strong style="color: #1e40af;">✍️ Parte 3:</strong> Word formation (formación de palabras)
+        </div>
+        <div style="background: #f0f9ff; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #3b82f6;">
+          <strong style="color: #1e40af;">✍️ Parte 4:</strong> Key word transformations (transformaciones)
+        </div>
+      </div>
+    </div>
+    
+    <div style="margin-bottom: 20px;">
+      <h5 style="margin: 0 0 12px 0; color: #1e40af; font-size: 1.1em; border-bottom: 2px solid #3b82f6; padding-bottom: 8px;">
+        📚 Reading (Partes 5-7)
+      </h5>
+      <div style="display: grid; gap: 10px;">
+        <div style="background: #f0f9ff; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #06b6d4;">
+          <strong style="color: #0e7490;">📖 Parte 5:</strong> Multiple choice (comprensión detallada)
+        </div>
+        <div style="background: #f0f9ff; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #06b6d4;">
+          <strong style="color: #0e7490;">📖 Parte 6:</strong> Gapped text (coherencia y estructura)
+        </div>
+        <div style="background: #f0f9ff; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #06b6d4;">
+          <strong style="color: #0e7490;">📖 Parte 7:</strong> Multiple matching (lectura rápida)
+        </div>
+      </div>
+    </div>
+    
+    <div style="background: #dcfce7; padding: 15px; border-radius: 8px; border-left: 4px solid #10b981;">
+      <h5 style="margin: 0 0 10px 0; color: #047857; font-size: 1em;">🎯 Estrategias Clave:</h5>
+      <div style="display: grid; gap: 8px; color: #065f46; font-size: 0.95em;">
+        <div>✅ Lee el texto completo primero antes de responder</div>
+        <div>✅ Presta atención a los conectores (however, although, therefore)</div>
+        <div>✅ Busca sinónimos, no palabras exactas</div>
+        <div>✅ Gestiona tu tiempo: 10 minutos por parte</div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 
-#### 💬 Speaking (14min)
-**4 partes con examinador y otro candidato**
+<!-- Parte 2: Writing -->
+<div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+    <div style="background: white; padding: 15px; border-radius: 12px; min-width: 70px; text-align: center;">
+      <div style="font-size: 2.5em;">✍️</div>
+    </div>
+    <div>
+      <h4 style="margin: 0 0 5px 0; color: white; font-size: 1.4em;">Parte 2: Writing</h4>
+      <div style="color: rgba(255,255,255,0.9); font-size: 1em;">⏱️ Duración: 1h 20min | 📝 2 tareas obligatorias</div>
+    </div>
+  </div>
+  
+  <div style="background: rgba(255,255,255,0.95); padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+    
+    <div style="margin-bottom: 20px;">
+      <h5 style="margin: 0 0 12px 0; color: #7c3aed; font-size: 1.1em; border-bottom: 2px solid #8b5cf6; padding-bottom: 8px;">
+        📄 Part 1 (Obligatoria): Essay
+      </h5>
+      <div style="background: #faf5ff; padding: 15px; border-radius: 8px; border-left: 4px solid #8b5cf6; margin-bottom: 15px;">
+        <div style="margin-bottom: 8px;"><strong style="color: #6d28d9;">📏 Extensión:</strong> 140-190 palabras</div>
+        <div><strong style="color: #6d28d9;">🎯 Tipo:</strong> Argumentativo - presentar opinión con razones</div>
+      </div>
+    </div>
+    
+    <div style="margin-bottom: 20px;">
+      <h5 style="margin: 0 0 12px 0; color: #7c3aed; font-size: 1.1em; border-bottom: 2px solid #8b5cf6; padding-bottom: 8px;">
+        📝 Part 2 (Elige 1 opción):
+      </h5>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px;">
+        <div style="background: #faf5ff; padding: 12px; border-radius: 8px; text-align: center; border: 2px solid #c084fc;">
+          <div style="font-weight: 600; color: #7c3aed;">📰 Article</div>
+        </div>
+        <div style="background: #faf5ff; padding: 12px; border-radius: 8px; text-align: center; border: 2px solid #c084fc;">
+          <div style="font-weight: 600; color: #7c3aed;">📧 Email/Letter</div>
+        </div>
+        <div style="background: #faf5ff; padding: 12px; border-radius: 8px; text-align: center; border: 2px solid #c084fc;">
+          <div style="font-weight: 600; color: #7c3aed;">⭐ Review</div>
+        </div>
+        <div style="background: #faf5ff; padding: 12px; border-radius: 8px; text-align: center; border: 2px solid #c084fc;">
+          <div style="font-weight: 600; color: #7c3aed;">📊 Report</div>
+        </div>
+      </div>
+    </div>
+    
+    <div style="margin-bottom: 15px;">
+      <h5 style="margin: 0 0 12px 0; color: #7c3aed; font-size: 1.1em;">🏗️ Estructura de Essay:</h5>
+      <div style="background: #f3f4f6; padding: 15px; border-radius: 8px; font-family: monospace; font-size: 0.9em;">
+        <div style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #d1d5db;">
+          <strong style="color: #7c3aed;">📝 Introducción (40 palabras)</strong><br/>
+          <span style="color: #6b7280;">→ Hook + thesis statement</span>
+        </div>
+        <div style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #d1d5db;">
+          <strong style="color: #7c3aed;">📄 Body Paragraph 1 (50 palabras)</strong><br/>
+          <span style="color: #6b7280;">→ Primera razón + ejemplo</span>
+        </div>
+        <div style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #d1d5db;">
+          <strong style="color: #7c3aed;">📄 Body Paragraph 2 (50 palabras)</strong><br/>
+          <span style="color: #6b7280;">→ Segunda razón + ejemplo</span>
+        </div>
+        <div>
+          <strong style="color: #7c3aed;">✅ Conclusión (40 palabras)</strong><br/>
+          <span style="color: #6b7280;">→ Resumen + opinión final</span>
+        </div>
+      </div>
+    </div>
+    
+    <div style="background: #fef3c7; padding: 15px; border-radius: 8px; border-left: 4px solid #f59e0b;">
+      <h5 style="margin: 0 0 10px 0; color: #92400e; font-size: 1em;">💬 Frases Útiles:</h5>
+      <div style="display: grid; gap: 6px; color: #78350f; font-size: 0.9em;">
+        <div>💭 "It is often argued that..."</div>
+        <div>⚖️ "On the one hand... On the other hand..."</div>
+        <div>➕ "Furthermore/Moreover/In addition..."</div>
+        <div>🎯 "In conclusion, I believe that..."</div>
+      </div>
+    </div>
+  </div>
+</div>
 
-**Part 1 (2min)**: Preguntas personales
-- "Where are you from?"
-- "What do you do?"
-- "What are your hobbies?"
+---
 
-**Part 2 (4min)**: Long turn (1 minuto cada uno)
-- Describir y comparar fotos
-- Responder pregunta adicional
+<!-- Parte 3: Listening -->
+<div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+    <div style="background: white; padding: 15px; border-radius: 12px; min-width: 70px; text-align: center;">
+      <div style="font-size: 2.5em;">🎧</div>
+    </div>
+    <div>
+      <h4 style="margin: 0 0 5px 0; color: white; font-size: 1.4em;">Parte 3: Listening</h4>
+      <div style="color: rgba(255,255,255,0.9); font-size: 1em;">⏱️ Duración: 40 minutos | 📝 4 partes, 30 preguntas</div>
+    </div>
+  </div>
+  
+  <div style="background: rgba(255,255,255,0.95); padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+    
+    <div style="margin-bottom: 20px;">
+      <h5 style="margin: 0 0 12px 0; color: #059669; font-size: 1.1em; border-bottom: 2px solid #10b981; padding-bottom: 8px;">
+        🔊 Partes del Listening
+      </h5>
+      <div style="display: grid; gap: 10px;">
+        <div style="background: #d1fae5; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #10b981;">
+          <strong style="color: #047857;">🎯 Parte 1:</strong> Multiple choice — 8 preguntas cortas
+        </div>
+        <div style="background: #d1fae5; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #10b981;">
+          <strong style="color: #047857;">✍️ Parte 2:</strong> Sentence completion — 10 huecos para completar
+        </div>
+        <div style="background: #d1fae5; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #10b981;">
+          <strong style="color: #047857;">💬 Parte 3:</strong> Multiple choice — 5 preguntas de conversación
+        </div>
+        <div style="background: #d1fae5; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #10b981;">
+          <strong style="color: #047857;">🔗 Parte 4:</strong> Multiple matching — 10 coincidencias
+        </div>
+      </div>
+    </div>
+    
+    <div style="background: #fef3c7; padding: 15px; border-radius: 8px; border-left: 4px solid #f59e0b;">
+      <h5 style="margin: 0 0 10px 0; color: #92400e; font-size: 1em;">🎯 Estrategias Clave:</h5>
+      <div style="display: grid; gap: 8px; color: #78350f; font-size: 0.95em;">
+        <div><strong>✅ Lee las preguntas ANTES de escuchar</strong> — prepara tu mente</div>
+        <div><strong>✅ Escucha sinónimos y paráfrasis</strong> — no busques palabras exactas</div>
+        <div><strong>✅ Concéntrate en palabras clave</strong> — nombres, números, lugares</div>
+        <div><strong>✅ No dejes respuestas en blanco</strong> — no se penalizan errores</div>
+      </div>
+    </div>
+  </div>
+</div>
 
-**Part 3 (4min)**: Collaborative task
-- Discutir opciones con tu compañero
-- Llegar a una decisión conjunta
+---
 
-**Part 4 (4min)**: Discussion
-- Conversación sobre temas del Part 3
-- Expresar opiniones y justificar
-
-**Expresiones Clave**:
-- "I think/believe/feel that..."
-- "In my opinion..."
-- "What do you think?"
-- "I agree/disagree because..."
+<!-- Parte 4: Speaking -->
+<div style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+    <div style="background: white; padding: 15px; border-radius: 12px; min-width: 70px; text-align: center;">
+      <div style="font-size: 2.5em;">💬</div>
+    </div>
+    <div>
+      <h4 style="margin: 0 0 5px 0; color: white; font-size: 1.4em;">Parte 4: Speaking</h4>
+      <div style="color: rgba(255,255,255,0.9); font-size: 1em;">⏱️ Duración: 14 minutos | 👥 Con examinador y otro candidato</div>
+    </div>
+  </div>
+  
+  <div style="background: rgba(255,255,255,0.95); padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+    
+    <div style="margin-bottom: 20px;">
+      <h5 style="margin: 0 0 12px 0; color: #d97706; font-size: 1.1em; border-bottom: 2px solid #f59e0b; padding-bottom: 8px;">
+        🗣️ Las 4 Partes del Speaking
+      </h5>
+      <div style="display: grid; gap: 15px;">
+        
+        <div style="background: #fef3c7; padding: 15px; border-radius: 8px; border-left: 4px solid #f59e0b;">
+          <div style="margin-bottom: 10px;">
+            <strong style="color: #92400e; font-size: 1.05em;">👋 Part 1 (2 minutos): Preguntas Personales</strong>
+          </div>
+          <div style="color: #78350f; font-size: 0.95em; line-height: 1.6;">
+            <div>💭 <em>"Where are you from?"</em></div>
+            <div>💼 <em>"What do you do?"</em></div>
+            <div>🎨 <em>"What are your hobbies?"</em></div>
+          </div>
+        </div>
+        
+        <div style="background: #fef3c7; padding: 15px; border-radius: 8px; border-left: 4px solid #f59e0b;">
+          <div style="margin-bottom: 10px;">
+            <strong style="color: #92400e; font-size: 1.05em;">📸 Part 2 (4 minutos): Long Turn</strong>
+          </div>
+          <div style="color: #78350f; font-size: 0.95em; line-height: 1.6;">
+            <div>🖼️ <strong>Cada candidato habla 1 minuto</strong></div>
+            <div>📷 Describir y comparar dos fotos</div>
+            <div>❓ Responder una pregunta adicional del examinador</div>
+          </div>
+        </div>
+        
+        <div style="background: #fef3c7; padding: 15px; border-radius: 8px; border-left: 4px solid #f59e0b;">
+          <div style="margin-bottom: 10px;">
+            <strong style="color: #92400e; font-size: 1.05em;">🤝 Part 3 (4 minutos): Collaborative Task</strong>
+          </div>
+          <div style="color: #78350f; font-size: 0.95em; line-height: 1.6;">
+            <div>💡 Discutir varias opciones con tu compañero</div>
+            <div>🎯 Llegar a una decisión conjunta</div>
+            <div>🗨️ Negociar y expresar acuerdo/desacuerdo</div>
+          </div>
+        </div>
+        
+        <div style="background: #fef3c7; padding: 15px; border-radius: 8px; border-left: 4px solid #f59e0b;">
+          <div style="margin-bottom: 10px;">
+            <strong style="color: #92400e; font-size: 1.05em;">💭 Part 4 (4 minutos): Discussion</strong>
+          </div>
+          <div style="color: #78350f; font-size: 0.95em; line-height: 1.6;">
+            <div>🔄 Conversación sobre temas del Part 3</div>
+            <div>🎤 Expresar opiniones y justificarlas</div>
+            <div>📊 Evaluar y analizar diferentes perspectivas</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div style="background: #dbeafe; padding: 15px; border-radius: 8px; border-left: 4px solid #3b82f6;">
+      <h5 style="margin: 0 0 10px 0; color: #1e40af; font-size: 1em;">💬 Expresiones Clave para Usar:</h5>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 8px; color: #1e3a8a; font-size: 0.95em;">
+        <div><strong>💭</strong> <em>"I think/believe/feel that..."</em></div>
+        <div><strong>🎯</strong> <em>"In my opinion..."</em></div>
+        <div><strong>❓</strong> <em>"What do you think?"</em></div>
+        <div><strong>✅</strong> <em>"I agree/disagree because..."</em></div>
+        <div><strong>🤔</strong> <em>"That's a good point, but..."</em></div>
+        <div><strong>💡</strong> <em>"I see what you mean..."</em></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 
