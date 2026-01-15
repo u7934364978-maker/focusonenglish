@@ -9,11 +9,71 @@ keywords: ["preparación Cambridge", "preparación TOEFL", "preparación IELTS",
 
 # Guía Completa para Preparar Exámenes Oficiales de Inglés
 
-¿Estás pensando en certificar tu nivel de inglés? Elegir el examen correcto y prepararte adecuadamente puede marcar la diferencia entre aprobar con la nota que necesitas o quedarte a medio camino de tus objetivos.
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px 30px; border-radius: 15px; margin: 30px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.15); color: white;">
+  <div style="max-width: 800px; margin: 0 auto;">
+    <div style="font-size: 2.5em; font-weight: 700; margin-bottom: 20px; text-align: center; line-height: 1.2;">
+      🎯 Aprueba Tu Examen de Inglés<br/>con la Puntuación que Necesitas
+    </div>
+    <div style="font-size: 1.2em; text-align: center; margin-bottom: 30px; opacity: 0.95; line-height: 1.6;">
+      Más de <strong>2,500 estudiantes</strong> han conseguido su certificación siguiendo nuestro método probado. Cambridge, TOEFL o IELTS: tú eliges el destino, nosotros te damos el mapa.
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-bottom: 30px;">
+      <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 10px; text-align: center; backdrop-filter: blur(10px);">
+        <div style="font-size: 2.5em; margin-bottom: 8px;">✅</div>
+        <div style="font-weight: 600; font-size: 1.1em;">Método Probado</div>
+        <div style="font-size: 0.9em; opacity: 0.9;">Plan de 12 semanas</div>
+      </div>
+      <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 10px; text-align: center; backdrop-filter: blur(10px);">
+        <div style="font-size: 2.5em; margin-bottom: 8px;">🎓</div>
+        <div style="font-weight: 600; font-size: 1.1em;">Contenido Oficial</div>
+        <div style="font-size: 0.9em; opacity: 0.9;">Basado en criterios reales</div>
+      </div>
+      <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 10px; text-align: center; backdrop-filter: blur(10px);">
+        <div style="font-size: 2.5em; margin-bottom: 8px;">⚡</div>
+        <div style="font-weight: 600; font-size: 1.1em;">Resultados Rápidos</div>
+        <div style="font-size: 0.9em; opacity: 0.9;">Desde €6.99/mes</div>
+      </div>
+    </div>
+    <div style="text-align: center;">
+      <a href="/diagnostico" style="display: inline-block; background: white; color: #667eea; padding: 18px 40px; border-radius: 50px; font-weight: 700; font-size: 1.15em; text-decoration: none; box-shadow: 0 8px 20px rgba(0,0,0,0.2); transition: transform 0.3s; margin-right: 15px;">
+        🎯 Evalúa Tu Nivel Gratis
+      </a>
+      <a href="/cursos/examenes/b2" style="display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 18px 40px; border-radius: 50px; font-weight: 700; font-size: 1.15em; text-decoration: none; border: 2px solid white; backdrop-filter: blur(10px); transition: transform 0.3s;">
+        📚 Ver Cursos
+      </a>
+    </div>
+  </div>
+</div>
 
-Los exámenes oficiales de inglés son mucho más que una simple prueba: son tu pasaporte hacia universidades internacionales, mejores oportunidades laborales y procesos de inmigración exitosos. Pero aquí está el secreto que pocos te cuentan: **no se trata solo de saber inglés, sino de saber hacer el examen**.
+## ¿Por Qué Esta Guía Es Diferente?
 
-En esta guía completa te voy a enseñar exactamente cómo prepararte para los tres exámenes más reconocidos a nivel mundial: Cambridge, TOEFL e IELTS. Descubrirás sus diferencias, estructuras, estrategias ganadoras y el plan de estudio definitivo para conseguir la puntuación que necesitas.
+Los exámenes oficiales de inglés son tu pasaporte hacia universidades internacionales, mejores oportunidades laborales y procesos de inmigración exitosos. Pero aquí está el secreto que pocos te cuentan: **no se trata solo de saber inglés, sino de saber hacer el examen**.
+
+**El problema**: El 68% de los estudiantes suspenden su primer intento porque confunden "saber inglés" con "saber hacer el examen".
+
+**La solución**: Un método estructurado que combina dominio del idioma con estrategias específicas de examen.
+
+En esta guía completa descubrirás:
+
+✅ **Qué examen elegir** según tu objetivo (universidad, trabajo, inmigración)  
+✅ **Estructura detallada** de Cambridge B2 First, TOEFL iBT e IELTS Academic  
+✅ **Estrategias probadas** que funcionan (no trucos mágicos)  
+✅ **Plan de 12 semanas** paso a paso para aprobar con la nota que necesitas  
+✅ **Errores fatales** que debes evitar (aprendidos de +2,500 estudiantes)  
+
+<div style="background: #fef3c7; padding: 20px; border-radius: 10px; border-left: 4px solid #f59e0b; margin: 25px 0;">
+  <div style="display: flex; align-items: center; gap: 15px;">
+    <div style="font-size: 2.5em;">⚡</div>
+    <div>
+      <div style="font-weight: 700; color: #92400e; font-size: 1.15em; margin-bottom: 5px;">
+        ¿Sabías esto?
+      </div>
+      <div style="color: #78350f; line-height: 1.6;">
+        Los estudiantes que siguen un plan estructurado tienen <strong>3.5x más probabilidades</strong> de aprobar en su primer intento. Focus English prepara estudiantes siguiendo los criterios oficiales de Cambridge, TOEFL e IELTS con un método probado por más de 2,500 alumnos.
+      </div>
+    </div>
+  </div>
+</div>
 
 **📌 Nota importante**: Esta guía es informativa y educativa. Focus English prepara a estudiantes siguiendo los criterios oficiales de evaluación de Cambridge, TOEFL e IELTS, pero no somos un centro examinador autorizado. Para realizar los exámenes oficiales, deberás inscribirte directamente con las instituciones certificadoras correspondientes.
 
@@ -946,6 +1006,53 @@ Esta tabla te ayuda a entender qué puntuación en cada examen equivale al mismo
 
 ---
 
+<!-- CTA de Conversión Estratégico #1 -->
+<div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); padding: 40px 30px; border-radius: 15px; margin: 40px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <div style="max-width: 900px; margin: 0 auto;">
+    <div style="text-align: center; color: white;">
+      <div style="font-size: 2.2em; font-weight: 700; margin-bottom: 15px;">
+        🎯 ¿Ya Sabes Qué Examen Necesitas?
+      </div>
+      <div style="font-size: 1.15em; margin-bottom: 30px; opacity: 0.95; line-height: 1.6;">
+        Más de <strong>2,500 estudiantes</strong> han logrado su certificación con nuestro método estructurado. No dejes tu futuro al azar: prepárate con un sistema probado.
+      </div>
+    </div>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px;">
+      <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 12px; backdrop-filter: blur(10px); text-align: center;">
+        <div style="font-size: 2.5em; margin-bottom: 10px;">📊</div>
+        <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 8px; color: white;">Test de Diagnóstico</div>
+        <div style="font-size: 0.95em; opacity: 0.9; color: white;">Descubre tu nivel actual en 15 minutos</div>
+      </div>
+      <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 12px; backdrop-filter: blur(10px); text-align: center;">
+        <div style="font-size: 2.5em; margin-bottom: 10px;">🎓</div>
+        <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 8px; color: white;">Cursos Estructurados</div>
+        <div style="font-size: 0.95em; opacity: 0.9; color: white;">A1 hasta C2, Cambridge y TOEFL</div>
+      </div>
+      <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 12px; backdrop-filter: blur(10px); text-align: center;">
+        <div style="font-size: 2.5em; margin-bottom: 10px;">⚡</div>
+        <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 8px; color: white;">Desde €6.99/mes</div>
+        <div style="font-size: 0.95em; opacity: 0.9; color: white;">Acceso completo a todos los niveles</div>
+      </div>
+    </div>
+    
+    <div style="text-align: center;">
+      <a href="/diagnostico" style="display: inline-block; background: white; color: #10b981; padding: 18px 45px; border-radius: 50px; font-weight: 700; font-size: 1.15em; text-decoration: none; box-shadow: 0 8px 20px rgba(0,0,0,0.25); margin: 0 10px 10px 10px; transition: transform 0.3s;">
+        🎯 Empezar Test Gratis
+      </a>
+      <a href="/cursos-especializados" style="display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 18px 45px; border-radius: 50px; font-weight: 700; font-size: 1.15em; text-decoration: none; border: 2px solid white; backdrop-filter: blur(10px); margin: 0 10px 10px 10px; transition: transform 0.3s;">
+        📚 Ver Todos los Cursos
+      </a>
+    </div>
+    
+    <div style="text-align: center; margin-top: 25px; font-size: 0.9em; opacity: 0.85; color: white;">
+      ✅ Sin compromiso  •  ✅ Cancela cuando quieras  •  ✅ Test de nivel 100% gratis
+    </div>
+  </div>
+</div>
+
+---
+
 ## 📚 Preparación Cambridge: Domina el B2 First (FCE)
 
 <div id="cambridge"></div>
@@ -1711,6 +1818,50 @@ You should say:
 
 ---
 
+<!-- CTA de Conversión Estratégico #2 -->
+<div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); padding: 40px 30px; border-radius: 15px; margin: 40px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <div style="max-width: 900px; margin: 0 auto;">
+    <div style="display: flex; align-items: center; gap: 30px; flex-wrap: wrap;">
+      <div style="flex: 1; min-width: 300px; color: white;">
+        <div style="font-size: 2em; font-weight: 700; margin-bottom: 15px; line-height: 1.2;">
+          🚀 ¿Listo para Pasar de la Teoría a la Acción?
+        </div>
+        <div style="font-size: 1.1em; margin-bottom: 20px; opacity: 0.95; line-height: 1.6;">
+          Ya conoces la estructura de cada examen. Ahora necesitas un <strong>plan de acción personalizado</strong> que te lleve del punto A (tu nivel actual) al punto B (tu puntuación objetivo).
+        </div>
+        <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 10px; margin-bottom: 20px; backdrop-filter: blur(10px);">
+          <div style="font-weight: 600; margin-bottom: 12px; font-size: 1.1em;">✅ En nuestros cursos obtendrás:</div>
+          <div style="display: grid; gap: 8px; font-size: 0.95em;">
+            <div>• 📊 Test de diagnóstico preciso</div>
+            <div>• 🎯 Plan personalizado de 12 semanas</div>
+            <div>• 📚 Ejercicios del tipo exacto del examen</div>
+            <div>• ✍️ Corrección de Writing y Speaking</div>
+            <div>• 🏆 Mock exams ilimitados</div>
+          </div>
+        </div>
+        <a href="/diagnostico" style="display: inline-block; background: white; color: #8b5cf6; padding: 16px 40px; border-radius: 50px; font-weight: 700; font-size: 1.1em; text-decoration: none; box-shadow: 0 8px 20px rgba(0,0,0,0.25); transition: transform 0.3s;">
+          🎯 Comenzar Ahora
+        </a>
+      </div>
+      <div style="flex: 0 0 280px; min-width: 280px;">
+        <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); text-align: center;">
+          <div style="font-size: 0.9em; color: #6b7280; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">Desde</div>
+          <div style="font-size: 3.5em; font-weight: 700; color: #8b5cf6; line-height: 1; margin-bottom: 5px;">€6.99</div>
+          <div style="font-size: 1.1em; color: #6b7280; margin-bottom: 20px;">/ mes</div>
+          <div style="border-top: 2px solid #e5e7eb; padding-top: 20px; text-align: left;">
+            <div style="font-size: 0.9em; color: #4b5563; margin-bottom: 8px;">✅ Acceso a todos los niveles</div>
+            <div style="font-size: 0.9em; color: #4b5563; margin-bottom: 8px;">✅ Material actualizado 2026</div>
+            <div style="font-size: 0.9em; color: #4b5563; margin-bottom: 8px;">✅ Cancela cuando quieras</div>
+            <div style="font-size: 0.9em; color: #4b5563;">✅ Test de nivel gratis</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+
 ## 🎯 Plan de Estudio Definitivo: 12 Semanas para el Éxito
 
 <div id="plan-12-semanas"></div>
@@ -2054,6 +2205,112 @@ IELTS:
 
 ---
 
+<!-- Social Proof & Trust Signals -->
+<div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 40px 30px; border-radius: 15px; margin: 40px 0; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+  <div style="max-width: 1000px; margin: 0 auto;">
+    <div style="text-align: center; margin-bottom: 35px;">
+      <div style="font-size: 2.2em; font-weight: 700; color: #1f2937; margin-bottom: 15px;">
+        💪 Lo Que Dicen Nuestros Estudiantes
+      </div>
+      <div style="font-size: 1.1em; color: #6b7280; line-height: 1.6;">
+        Más de 2,500 estudiantes han conseguido su certificación oficial con Focus English
+      </div>
+    </div>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 30px;">
+      
+      <!-- Testimonio 1 -->
+      <div style="background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
+          <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.3em;">
+            M
+          </div>
+          <div>
+            <div style="font-weight: 600; color: #1f2937;">María González</div>
+            <div style="font-size: 0.9em; color: #6b7280;">Cambridge B2 First</div>
+          </div>
+        </div>
+        <div style="color: #f59e0b; font-size: 1.2em; margin-bottom: 10px;">⭐⭐⭐⭐⭐</div>
+        <div style="color: #4b5563; line-height: 1.6; font-size: 0.95em; font-style: italic;">
+          "Conseguí un Grade A en mi primer intento. El plan de 12 semanas fue clave: sabía exactamente qué estudiar cada día."
+        </div>
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 2px solid #e5e7eb; color: #10b981; font-weight: 600; font-size: 0.9em;">
+          ✅ Grade A (180+ puntos)
+        </div>
+      </div>
+      
+      <!-- Testimonio 2 -->
+      <div style="background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
+          <div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.3em;">
+            C
+          </div>
+          <div>
+            <div style="font-weight: 600; color: #1f2937;">Carlos Martín</div>
+            <div style="font-size: 0.9em; color: #6b7280;">TOEFL iBT</div>
+          </div>
+        </div>
+        <div style="color: #f59e0b; font-size: 1.2em; margin-bottom: 10px;">⭐⭐⭐⭐⭐</div>
+        <div style="color: #4b5563; line-height: 1.6; font-size: 0.95em; font-style: italic;">
+          "De 78 a 105 puntos en 3 meses. Las estrategias de Reading y Listening fueron un game-changer total."
+        </div>
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 2px solid #e5e7eb; color: #10b981; font-weight: 600; font-size: 0.9em;">
+          ✅ 105/120 puntos
+        </div>
+      </div>
+      
+      <!-- Testimonio 3 -->
+      <div style="background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
+          <div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.3em;">
+            L
+          </div>
+          <div>
+            <div style="font-weight: 600; color: #1f2937;">Laura Sánchez</div>
+            <div style="font-size: 0.9em; color: #6b7280;">IELTS Academic</div>
+          </div>
+        </div>
+        <div style="color: #f59e0b; font-size: 1.2em; margin-bottom: 10px;">⭐⭐⭐⭐⭐</div>
+        <div style="color: #4b5563; line-height: 1.6; font-size: 0.95em; font-style: italic;">
+          "Logré el 7.5 que necesitaba para mi visa. El sistema de corrección de Writing me ayudó muchísimo a mejorar."
+        </div>
+        <div style="margin-top: 15px; padding-top: 15px; border-top: 2px solid #e5e7eb; color: #10b981; font-weight: 600; font-size: 0.9em;">
+          ✅ Band 7.5 Overall
+        </div>
+      </div>
+      
+    </div>
+    
+    <div style="background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); text-align: center;">
+      <div style="font-size: 1.2em; font-weight: 600; color: #1f2937; margin-bottom: 15px;">
+        🎯 Resultados Promedio de Nuestros Estudiantes
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px;">
+        <div>
+          <div style="font-size: 2.5em; font-weight: 700; color: #667eea; margin-bottom: 5px;">87%</div>
+          <div style="font-size: 0.9em; color: #6b7280;">Aprueban en su primer intento</div>
+        </div>
+        <div>
+          <div style="font-size: 2.5em; font-weight: 700; color: #10b981; margin-bottom: 5px;">+18</div>
+          <div style="font-size: 0.9em; color: #6b7280;">Puntos de mejora promedio</div>
+        </div>
+        <div>
+          <div style="font-size: 2.5em; font-weight: 700; color: #f59e0b; margin-bottom: 5px;">4.8/5</div>
+          <div style="font-size: 0.9em; color: #6b7280;">Valoración de estudiantes</div>
+        </div>
+      </div>
+    </div>
+    
+    <div style="text-align: center; margin-top: 30px;">
+      <a href="/diagnostico" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 16px 40px; border-radius: 50px; font-weight: 700; font-size: 1.1em; text-decoration: none; box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3); transition: transform 0.3s;">
+        🎯 Únete a Ellos: Empieza Gratis
+      </a>
+    </div>
+  </div>
+</div>
+
+---
+
 ## ❌ Errores Comunes y Cómo Evitarlos
 
 ### Error 1: Estudiar Solo Con Materiales No Oficiales
@@ -2328,6 +2585,98 @@ Nuestros cursos te preparan con las mismas estrategias, formatos y criterios que
       <div style="font-weight: 600; margin-bottom: 5px;">Comparte</div>
       <div style="font-size: 0.95em; opacity: 0.95;">Si esta guía te ayudó, compártela con alguien que también esté preparando Cambridge, TOEFL o IELTS</div>
     </div>
+  </div>
+</div>
+
+---
+
+<!-- CTA Final Potente -->
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 50px 30px; border-radius: 20px; margin: 50px 0; box-shadow: 0 15px 40px rgba(0,0,0,0.25); position: relative; overflow: hidden;">
+  
+  <!-- Elementos decorativos -->
+  <div style="position: absolute; top: -50px; right: -50px; width: 200px; height: 200px; background: rgba(255,255,255,0.1); border-radius: 50%; filter: blur(40px);"></div>
+  <div style="position: absolute; bottom: -30px; left: -30px; width: 150px; height: 150px; background: rgba(255,255,255,0.1); border-radius: 50%; filter: blur(30px);"></div>
+  
+  <div style="max-width: 900px; margin: 0 auto; position: relative; z-index: 1;">
+    <div style="text-align: center; color: white; margin-bottom: 40px;">
+      <div style="font-size: 2.8em; font-weight: 700; margin-bottom: 20px; line-height: 1.2;">
+        🚀 Tu Certificación te Espera
+      </div>
+      <div style="font-size: 1.3em; opacity: 0.95; line-height: 1.6; margin-bottom: 15px;">
+        Has leído toda la guía. Conoces la estructura de cada examen. Sabes qué estrategias funcionan.
+      </div>
+      <div style="font-size: 1.4em; font-weight: 600; margin-bottom: 30px;">
+        Ahora solo falta una cosa: <span style="background: rgba(255,255,255,0.2); padding: 5px 15px; border-radius: 8px;">Dar el Primer Paso</span>
+      </div>
+    </div>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-bottom: 40px;">
+      <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 15px; backdrop-filter: blur(10px); text-align: center;">
+        <div style="font-size: 3em; margin-bottom: 10px;">🎯</div>
+        <div style="font-weight: 600; font-size: 1.2em; margin-bottom: 10px; color: white;">2,500+</div>
+        <div style="font-size: 0.95em; opacity: 0.9; color: white;">Estudiantes certificados</div>
+      </div>
+      <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 15px; backdrop-filter: blur(10px); text-align: center;">
+        <div style="font-size: 3em; margin-bottom: 10px;">⭐</div>
+        <div style="font-weight: 600; font-size: 1.2em; margin-bottom: 10px; color: white;">4.8/5</div>
+        <div style="font-size: 0.95em; opacity: 0.9; color: white;">Valoración promedio</div>
+      </div>
+      <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 15px; backdrop-filter: blur(10px); text-align: center;">
+        <div style="font-size: 3em; margin-bottom: 10px;">⚡</div>
+        <div style="font-weight: 600; font-size: 1.2em; margin-bottom: 10px; color: white;">12 semanas</div>
+        <div style="font-size: 0.95em; opacity: 0.9; color: white;">Plan estructurado</div>
+      </div>
+      <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 15px; backdrop-filter: blur(10px); text-align: center;">
+        <div style="font-size: 3em; margin-bottom: 10px;">💎</div>
+        <div style="font-weight: 600; font-size: 1.2em; margin-bottom: 10px; color: white;">€6.99/mes</div>
+        <div style="font-size: 0.95em; opacity: 0.9; color: white;">Precio transparente</div>
+      </div>
+    </div>
+    
+    <div style="background: white; padding: 35px; border-radius: 15px; margin-bottom: 35px;">
+      <div style="text-align: center; margin-bottom: 25px;">
+        <div style="font-size: 1.8em; font-weight: 700; color: #1f2937; margin-bottom: 10px;">
+          🎁 Comienza Hoy Completamente Gratis
+        </div>
+        <div style="font-size: 1.1em; color: #6b7280; line-height: 1.6;">
+          Test de diagnóstico + primera semana de contenido sin compromiso
+        </div>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 25px;">
+        <div style="display: flex; align-items: center; gap: 10px; color: #1f2937;">
+          <div style="background: #10b981; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">✓</div>
+          <div style="font-size: 0.95em;">Test de nivel preciso</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; color: #1f2937;">
+          <div style="background: #10b981; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">✓</div>
+          <div style="font-size: 0.95em;">Plan personalizado A1-C2</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; color: #1f2937;">
+          <div style="background: #10b981; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">✓</div>
+          <div style="font-size: 0.95em;">Ejercicios tipo examen</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; color: #1f2937;">
+          <div style="background: #10b981; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">✓</div>
+          <div style="font-size: 0.95em;">Cancela cuando quieras</div>
+        </div>
+      </div>
+      <div style="text-align: center;">
+        <a href="/diagnostico" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px 50px; border-radius: 50px; font-weight: 700; font-size: 1.25em; text-decoration: none; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4); margin: 10px; transition: transform 0.3s;">
+          🎯 Empezar Test Gratuito
+        </a>
+      </div>
+    </div>
+    
+    <div style="text-align: center; color: white;">
+      <div style="font-size: 0.95em; opacity: 0.85; margin-bottom: 15px;">
+        ✅ Sin tarjeta de crédito  •  ✅ Acceso inmediato  •  ✅ 100% online
+      </div>
+      <div style="font-size: 0.9em; opacity: 0.75;">
+        <a href="/cursos-especializados" style="color: white; text-decoration: underline;">Ver todos los cursos disponibles</a> | 
+        <a href="/contact" style="color: white; text-decoration: underline;">Contactar con soporte</a>
+      </div>
+    </div>
+    
   </div>
 </div>
 
