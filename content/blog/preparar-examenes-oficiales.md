@@ -2217,41 +2217,127 @@ Nuestros cursos te preparan con las mismas estrategias, formatos y criterios que
 
 **P: "¿Puedo prepararme solo o necesito un curso?"**
 
-R: Puedes prepararte solo SI tienes disciplina férrea y acceso a materiales oficiales. Un curso estructurado acelera tu progreso 2-3x porque:
-- Te da accountability (responsabilidad)
-- Corrige tus errores de writing y speaking
-- Te da feedback personalizado
-- Evita que pierdas tiempo en estrategias incorrectas
+<div style="background: rgba(255,255,255,0.95); padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+  <div style="margin-bottom: 12px; color: #1f2937;">
+    <strong style="color: #3b82f6;">R:</strong> Puedes prepararte solo <strong>SI</strong> tienes disciplina férrea y acceso a materiales oficiales. Un curso estructurado acelera tu progreso 2-3x porque:
+  </div>
+  <div style="display: grid; gap: 8px; margin-top: 12px;">
+    <div style="background: #dbeafe; padding: 10px 15px; border-radius: 6px; border-left: 3px solid #3b82f6;">
+      ✅ Te da accountability (responsabilidad)
+    </div>
+    <div style="background: #dbeafe; padding: 10px 15px; border-radius: 6px; border-left: 3px solid #3b82f6;">
+      ✅ Corrige tus errores de writing y speaking
+    </div>
+    <div style="background: #dbeafe; padding: 10px 15px; border-radius: 6px; border-left: 3px solid #3b82f6;">
+      ✅ Te da feedback personalizado
+    </div>
+    <div style="background: #dbeafe; padding: 10px 15px; border-radius: 6px; border-left: 3px solid #3b82f6;">
+      ✅ Evita que pierdas tiempo en estrategias incorrectas
+    </div>
+  </div>
+</div>
 
-**P: "¿Cuánto tiempo necesito realmente?"**
+<div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <div style="color: white; font-size: 1.15em; margin-bottom: 8px; font-weight: 600;">
+    ❓ ¿Cuánto tiempo necesito realmente?
+  </div>
+  <div style="background: rgba(255,255,255,0.95); padding: 18px; border-radius: 8px;">
+    <div style="margin-bottom: 12px; color: #1f2937;">
+      <strong style="color: #7c3aed;">R:</strong> Depende de tu nivel actual:
+    </div>
+    <div style="display: grid; gap: 10px; margin-top: 12px;">
+      <div style="background: #faf5ff; padding: 12px 15px; border-radius: 6px; border-left: 4px solid #10b981;">
+        <strong style="color: #047857;">⏱️ 8-10 semanas</strong> — Si estás a 10-15 puntos de tu objetivo
+      </div>
+      <div style="background: #faf5ff; padding: 12px 15px; border-radius: 6px; border-left: 4px solid #f59e0b;">
+        <strong style="color: #92400e;">⏱️ 12-16 semanas</strong> — Si estás a 20-25 puntos
+      </div>
+      <div style="background: #faf5ff; padding: 12px 15px; border-radius: 6px; border-left: 4px solid #ef4444;">
+        <strong style="color: #991b1b;">⏱️ 6+ meses</strong> — Si estás a 30+ puntos (mejor mejorar inglés general primero)
+      </div>
+    </div>
+  </div>
+</div>
 
-R: Depende de tu nivel actual:
-- Si estás a 10-15 puntos de tu objetivo: **8-10 semanas**
-- Si estás a 20-25 puntos: **12-16 semanas**
-- Si estás a 30+ puntos: **6+ meses** (mejor mejorar inglés general primero)
+<div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <div style="color: white; font-size: 1.15em; margin-bottom: 8px; font-weight: 600;">
+    ❓ ¿Qué pasa si suspendo?
+  </div>
+  <div style="background: rgba(255,255,255,0.95); padding: 18px; border-radius: 8px;">
+    <div style="margin-bottom: 12px; color: #1f2937;">
+      <strong style="color: #059669;">R:</strong> <strong>NO</strong> es el fin del mundo. La mayoría de estudiantes exitosos han repetido el examen al menos una vez. Ventajas de repetir:
+    </div>
+    <div style="display: grid; gap: 8px; margin-top: 12px;">
+      <div style="background: #d1fae5; padding: 10px 15px; border-radius: 6px; border-left: 3px solid #10b981;">
+        ✨ Ya conoces el formato perfectamente
+      </div>
+      <div style="background: #d1fae5; padding: 10px 15px; border-radius: 6px; border-left: 3px solid #10b981;">
+        ✨ Sabes exactamente qué mejorar
+      </div>
+      <div style="background: #d1fae5; padding: 10px 15px; border-radius: 6px; border-left: 3px solid #10b981;">
+        ✨ Menos ansiedad la segunda vez
+      </div>
+      <div style="background: #d1fae5; padding: 10px 15px; border-radius: 6px; border-left: 3px solid #10b981;">
+        ✨ Puedes inscribirte inmediatamente (TOEFL/IELTS) o esperar la siguiente convocatoria (Cambridge)
+      </div>
+    </div>
+  </div>
+</div>
 
-**P: "¿Qué pasa si suspendo?"**
-
-R: NO es el fin del mundo. La mayoría de estudiantes exitosos han repetido el examen al menos una vez. Ventajas de repetir:
-- Ya conoces el formato perfectamente
-- Sabes exactamente qué mejorar
-- Menos ansiedad la segunda vez
-- Puedes inscribirte inmediatamente (TOEFL/IELTS) o esperar la siguiente convocatoria (Cambridge)
-
-**P: "¿Cambridge, TOEFL o IELTS es más fácil?"**
-
-R: NO hay uno "más fácil". Depende de tu perfil:
-- **¿Te gusta leer y escribir?** → Cambridge o IELTS
-- **¿Prefieres todo digital?** → TOEFL
-- **¿Te cuesta el speaking?** → TOEFL (grabado, menos pressure)
-- **¿Te gusta la conversación?** → IELTS (speaking con persona real)
+<div style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <div style="color: white; font-size: 1.15em; margin-bottom: 8px; font-weight: 600;">
+    ❓ ¿Cambridge, TOEFL o IELTS es más fácil?
+  </div>
+  <div style="background: rgba(255,255,255,0.95); padding: 18px; border-radius: 8px;">
+    <div style="margin-bottom: 12px; color: #1f2937;">
+      <strong style="color: #d97706;">R:</strong> <strong>NO</strong> hay uno "más fácil". Depende de tu perfil:
+    </div>
+    <div style="display: grid; gap: 10px; margin-top: 12px;">
+      <div style="background: #fef3c7; padding: 12px 15px; border-radius: 6px; border-left: 4px solid #8b5cf6;">
+        <strong style="color: #7c3aed;">📚 ¿Te gusta leer y escribir?</strong> → Cambridge o IELTS
+      </div>
+      <div style="background: #fef3c7; padding: 12px 15px; border-radius: 6px; border-left: 4px solid #3b82f6;">
+        <strong style="color: #1e40af;">💻 ¿Prefieres todo digital?</strong> → TOEFL
+      </div>
+      <div style="background: #fef3c7; padding: 12px 15px; border-radius: 6px; border-left: 4px solid #10b981;">
+        <strong style="color: #047857;">🎙️ ¿Te cuesta el speaking?</strong> → TOEFL (grabado, menos pressure)
+      </div>
+      <div style="background: #fef3c7; padding: 12px 15px; border-radius: 6px; border-left: 4px solid #ec4899;">
+        <strong style="color: #be185d;">💬 ¿Te gusta la conversación?</strong> → IELTS (speaking con persona real)
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 
-**✍️ Artículo actualizado**: 14 de enero de 2026  
-**📚 Autor**: Focus English - Especialistas en Preparación de Exámenes Oficiales  
-**🔗 Comparte**: Si esta guía te ayudó, compártela con alguien que también esté preparando Cambridge, TOEFL o IELTS
+<div style="background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%); padding: 25px; border-radius: 12px; margin: 30px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; color: white;">
+    <div style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 8px; border-left: 4px solid #a78bfa;">
+      <div style="font-size: 1.5em; margin-bottom: 5px;">✍️</div>
+      <div style="font-weight: 600; margin-bottom: 5px;">Artículo actualizado</div>
+      <div style="font-size: 0.95em; opacity: 0.95;">14 de enero de 2026</div>
+    </div>
+    <div style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 8px; border-left: 4px solid #a78bfa;">
+      <div style="font-size: 1.5em; margin-bottom: 5px;">📚</div>
+      <div style="font-weight: 600; margin-bottom: 5px;">Autor</div>
+      <div style="font-size: 0.95em; opacity: 0.95;">Focus English - Especialistas en Preparación de Exámenes Oficiales</div>
+    </div>
+    <div style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 8px; border-left: 4px solid #a78bfa;">
+      <div style="font-size: 1.5em; margin-bottom: 5px;">🔗</div>
+      <div style="font-weight: 600; margin-bottom: 5px;">Comparte</div>
+      <div style="font-size: 0.95em; opacity: 0.95;">Si esta guía te ayudó, compártela con alguien que también esté preparando Cambridge, TOEFL o IELTS</div>
+    </div>
+  </div>
+</div>
 
 ---
 
-*¿Tienes preguntas sobre preparación Cambridge, preparación TOEFL o preparación IELTS? [Contáctanos](/contact) o empieza tu [prueba de nivel gratuita](/diagnostico) hoy mismo.*
+<div style="background: #fef3c7; padding: 20px; border-radius: 10px; border-left: 4px solid #f59e0b; margin: 25px 0;">
+  <div style="color: #92400e; font-size: 1.05em; line-height: 1.6;">
+    ❓ <strong>¿Tienes preguntas sobre preparación Cambridge, preparación TOEFL o preparación IELTS?</strong>
+  </div>
+  <div style="color: #78350f; margin-top: 12px; font-size: 0.95em;">
+    <a href="/contact" style="color: #d97706; font-weight: 600; text-decoration: none; border-bottom: 2px solid #f59e0b;">Contáctanos</a> o empieza tu <a href="/diagnostico" style="color: #d97706; font-weight: 600; text-decoration: none; border-bottom: 2px solid #f59e0b;">prueba de nivel gratuita</a> hoy mismo.
+  </div>
+</div>
