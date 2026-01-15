@@ -54,26 +54,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     
-    // Herramientas de conversión
+    // Contacto
     {
-      url: `${baseUrl}/diagnostico`,
+      url: `${baseUrl}/contact`,
       lastModified: now,
       changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    
-    // Páginas de autenticación (prioridad baja, pero indexables)
-    {
-      url: `${baseUrl}/signin`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/signup`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.3,
+      priority: 0.6,
     },
   ];
 
@@ -94,28 +80,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
   
   goals.forEach(goal => {
     levels.forEach(level => {
-      const priority = (goal === 'examenes' && level === 'b2') ? 0.8 : 0.6; // B2 First más demandado
+      // Prioridad más alta para B2 en exámenes (más demandado)
+      let priority = 0.6;
+      if (goal === 'examenes' && level === 'b2') {
+        priority = 0.8;
+      } else if (goal === 'examenes' && level === 'c1') {
+        priority = 0.7;
+      }
+      
       urls.push({
         url: `${baseUrl}/cursos/${goal}/${level}`,
         lastModified: now,
         changeFrequency: "monthly" as const,
         priority,
       });
-    });
-  });
-
-  // Páginas específicas de exámenes (alta demanda SEO)
-  const examSpecificPages = [
-    { slug: 'b2', priority: 0.85 }, // Cambridge B2 First - muy demandado
-    { slug: 'c1', priority: 0.75 }, // Cambridge C1 Advanced
-  ];
-  
-  examSpecificPages.forEach(({ slug, priority }) => {
-    urls.push({
-      url: `${baseUrl}/cursos/examenes/${slug}`,
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority,
     });
   });
 
