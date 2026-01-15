@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { OrganizationSchema, WebsiteSchema } from "./schema";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://focus-on-english.com'),
@@ -124,6 +125,9 @@ export default function RootLayout({
         }} />
       </head>
       <body className="antialiased bg-white text-slate-900">
+        {/* Google Analytics */}
+        <GoogleAnalytics />
+        
         {/* Copyright watermark */}
         <div style={{
           position: 'fixed',
