@@ -6,6 +6,8 @@ import matter from "gray-matter";
 import { notFound } from "next/navigation";
 import { ShareButton } from "./ShareButton";
 import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schemas";
+import { BlogEnhancements } from "@/components/blog/BlogEnhancements";
+import { TableOfContents } from "@/components/blog/TableOfContents";
 
 const BLOG_DIR = path.join(process.cwd(), "content/blog");
 
@@ -120,6 +122,9 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
     <>
       <Navigation />
       
+      {/* Blog Enhancements (Progress Bar + Scroll to Top) */}
+      <BlogEnhancements />
+      
       {/* Schema.org structured data for SEO */}
       <script
         type="application/ld+json"
@@ -133,17 +138,20 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
       <main className="min-h-screen bg-white">
         {/* Article Header */}
         <article className="pt-32 pb-16">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            {/* Breadcrumb - Updated for SEO */}
-            <nav className="mb-8" aria-label="breadcrumb">
-              <ol className="flex items-center gap-2 text-sm text-slate-600">
-                <li><Link href="/" className="hover:text-violet-600 transition-colors">Inicio</Link></li>
-                <li className="text-slate-400">›</li>
-                <li><Link href="/blog" className="hover:text-violet-600 transition-colors">Blog</Link></li>
-                <li className="text-slate-400">›</li>
-                <li className="font-semibold text-slate-900">{data.category === "trabajo" ? "Inglés para Trabajar" : data.category === "viajes" ? "Inglés para Viajar" : "Preparación de Exámenes"}</li>
-              </ol>
-            </nav>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 xl:grid-cols-[1fr_280px] gap-12">
+              {/* Main Content */}
+              <div className="max-w-4xl">
+                {/* Breadcrumb - Updated for SEO */}
+                <nav className="mb-8" aria-label="breadcrumb">
+                  <ol className="flex items-center gap-2 text-sm text-slate-600">
+                    <li><Link href="/" className="hover:text-violet-600 transition-colors">Inicio</Link></li>
+                    <li className="text-slate-400">›</li>
+                    <li><Link href="/blog" className="hover:text-violet-600 transition-colors">Blog</Link></li>
+                    <li className="text-slate-400">›</li>
+                    <li className="font-semibold text-slate-900">{data.category === "trabajo" ? "Inglés para Trabajar" : data.category === "viajes" ? "Inglés para Viajar" : "Preparación de Exámenes"}</li>
+                  </ol>
+                </nav>
 
             {/* Category Badge */}
             <div className="mb-6 animate-fade-in-up">
@@ -256,17 +264,26 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
               </p>
             </div>
 
-            {/* Back to Blog */}
-            <div className="mt-12 text-center">
-              <Link 
-                href="/blog" 
-                className="inline-flex items-center gap-2 text-violet-600 font-semibold hover:text-violet-700 transition-colors group"
-              >
-                <svg className="w-5 h-5 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-                <span>Volver al blog</span>
-              </Link>
+                {/* Back to Blog */}
+                <div className="mt-12 text-center">
+                  <Link 
+                    href="/blog" 
+                    className="inline-flex items-center gap-2 text-violet-600 font-semibold hover:text-violet-700 transition-colors group"
+                  >
+                    <svg className="w-5 h-5 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                    </svg>
+                    <span>Volver al blog</span>
+                  </Link>
+                </div>
+              </div>
+
+              {/* Sidebar - Table of Contents */}
+              <aside className="hidden xl:block">
+                <div className="sticky top-24">
+                  <TableOfContents />
+                </div>
+              </aside>
             </div>
           </div>
         </article>
