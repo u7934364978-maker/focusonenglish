@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Navigation from '@/components/sections/Navigation';
+import { Navigation } from '@/components/sections/Navigation';
 
 export const metadata: Metadata = {
   title: 'Preparación de Exámenes de Inglés | Cambridge, IELTS, TOEFL | Focus English',
