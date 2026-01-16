@@ -12,6 +12,8 @@ Plataforma de cursos de inglés especializados para profesionales y estudiantes.
 - ✅ **Cursos dinámicos** (18 páginas)
 - ✅ **Protección anti-piratería**
 - ✅ **Responsive design**
+- ✅ **Sistema CRM con Python** integrado con HubSpot API
+- ✅ **Integración con Stripe** para pagos y suscripciones
 
 ## 📁 Estructura del Proyecto
 
@@ -31,15 +33,23 @@ webapp/
 │   └── sections/             # Componentes reutilizables
 ├── content/
 │   └── blog/                 # Artículos en Markdown
+├── lib/
+│   └── crm/                  # CRM TypeScript para Next.js
 ├── public/                   # Archivos estáticos
 ├── src/                      # Código fuente adicional
-├── package.json              # Dependencias
+├── crm_manager.py            # 🐍 Sistema CRM con Python
+├── test_crm.py               # 🧪 Suite de pruebas CRM
+├── ejemplos_crm.py           # 📚 Ejemplos prácticos CRM
+├── stripe_webhook_integration.py # 🔗 Webhooks de Stripe
+├── requirements.txt          # Dependencias Python
+├── package.json              # Dependencias Node.js
 ├── tsconfig.json             # Configuración TypeScript
 └── tailwind.config.js        # Configuración Tailwind
 ```
 
 ## 🛠️ Instalación
 
+### Next.js (Frontend)
 ```bash
 # Instalar dependencias
 npm install
@@ -53,6 +63,27 @@ npm run build
 # Iniciar en producción
 npm start
 ```
+
+### Python CRM (Backend)
+```bash
+# Instalar dependencias Python
+pip install -r requirements.txt
+
+# Configurar variables de entorno
+cp .env.example .env
+# Editar .env y agregar HUBSPOT_ACCESS_TOKEN
+
+# Probar CRM
+python test_crm.py
+
+# Ver ejemplos
+python ejemplos_crm.py
+```
+
+Para más información sobre el CRM, consulta:
+- **QUICKSTART_CRM.md** - Inicio rápido
+- **CRM_PYTHON_README.md** - Guía completa
+- **CRM_PYTHON_DOCS.md** - API Reference
 
 ## 📄 Páginas Principales
 
@@ -159,20 +190,39 @@ HUBSPOT_API_URL=https://api.hubapi.com
 
 ## 📚 Documentación Adicional
 
+### Next.js / Frontend
 - `IMPLEMENTATION_SUMMARY.md` - Resumen de implementaciones
 - `CURSOS_ESPECIALIZADOS.md` - Estructura de cursos
 - `public/og-image-placeholder.txt` - Instrucciones para imagen OG
+- `HUBSPOT_INTEGRATION_GUIDE.md` - Configuración de HubSpot workflows
+
+### Python CRM / Backend
+- **`QUICKSTART_CRM.md`** - Guía de inicio rápido (5 minutos)
+- **`CRM_PYTHON_README.md`** - Documentación completa del sistema CRM
+- **`CRM_PYTHON_DOCS.md`** - API Reference detallada
+- **`crm_manager.py`** - Módulo principal del CRM
+- **`test_crm.py`** - Suite de pruebas interactiva
+- **`ejemplos_crm.py`** - 8 ejemplos prácticos de uso
+- **`stripe_webhook_integration.py`** - Integración con webhooks de Stripe
 
 ## ⚠️ Notas Importantes
 
 1. **Imagen Open Graph**: Actualmente usa una imagen temporal de Unsplash. Para producción, crear una imagen personalizada de 1200x630px.
 
-2. **Formularios**: Los formularios están integrados con HubSpot CRM:
-   - **Formulario de Signup**: Integrado con HubSpot CRM para gestionar registros
-   - **Configuración**: Ver `HUBSPOT_SETUP.md` para instrucciones completas
-   - **Contacto**: Pendiente de integración (puede usar la misma API)
+2. **Formularios & CRM**: 
+   - ✅ **Formulario de Signup**: Totalmente integrado con HubSpot CRM
+   - ✅ **Sistema CRM Python**: Gestión completa de contactos, suscripciones y pagos
+   - ✅ **Integración con Stripe**: Webhooks configurados para sincronización automática
+   - 📖 **Guías**: Ver `QUICKSTART_CRM.md` y `CRM_PYTHON_README.md`
 
 3. **Test de Nivel**: La funcionalidad del test está pendiente de implementación completa.
+
+4. **CRM Python**: 
+   - ✅ Sistema completo implementado con HubSpot API
+   - ✅ Gestión de contactos, notas, deals y propiedades personalizadas
+   - ✅ Integración con Stripe webhooks
+   - ✅ Suite de pruebas y ejemplos incluidos
+   - 📖 Ver documentación en `CRM_PYTHON_README.md`
 
 ## 🤝 Contribución
 
