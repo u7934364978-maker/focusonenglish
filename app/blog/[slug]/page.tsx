@@ -107,9 +107,11 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
     .replace(/\n\n/g, '</p><p class="text-slate-700 leading-relaxed mb-4">');
 
   const categoryColors: Record<string, string> = {
-    trabajo: "bg-violet-100 text-violet-800",
-    viajes: "bg-blue-100 text-blue-800",
-    examenes: "bg-emerald-100 text-emerald-800",
+    trabajo: "bg-violet-100 text-violet-800 border-violet-200",
+    viajes: "bg-blue-100 text-blue-800 border-blue-200",
+    examenes: "bg-emerald-100 text-emerald-800 border-emerald-200",
+    aprendizaje: "bg-amber-100 text-amber-800 border-amber-200",
+    metodos: "bg-pink-100 text-pink-800 border-pink-200",
   };
 
   const categoryColor = categoryColors[data.category] || "bg-slate-100 text-slate-800";
@@ -144,23 +146,32 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
             </nav>
 
             {/* Category Badge */}
-            <div className="mb-4">
-              <span className={`inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide ${categoryColor}`}>
+            <div className="mb-6 animate-fade-in-up">
+              <span className={`badge-pill ${categoryColor}`}>
                 {data.category === "trabajo" && "Inglés para Trabajar"}
                 {data.category === "viajes" && "Inglés para Viajar"}
                 {data.category === "examenes" && "Preparación de Exámenes"}
+                {data.category === "aprendizaje" && "Aprendizaje"}
+                {data.category === "metodos" && "Métodos"}
               </span>
             </div>
 
             {/* Title */}
-            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 mb-6 leading-tight tracking-tight">
+            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 mb-6 leading-tight tracking-tight animate-fade-in-up" style={{animationDelay: '0.1s'}}>
               {data.title}
             </h1>
 
+            {/* Description */}
+            {data.description && (
+              <p className="text-xl text-slate-600 mb-8 leading-relaxed animate-fade-in-up" style={{animationDelay: '0.2s'}}>
+                {data.description}
+              </p>
+            )}
+
             {/* Meta Info */}
-            <div className="flex flex-wrap items-center gap-4 text-sm text-slate-600 mb-8 pb-8 border-b border-slate-200">
-              <div className="flex items-center gap-2">
-                <span className="font-semibold">📅</span>
+            <div className="meta-info animate-fade-in-up" style={{animationDelay: '0.3s'}}>
+              <div className="meta-item">
+                <span className="text-lg">📅</span>
                 <time dateTime={data.date}>
                   {new Date(data.date).toLocaleDateString('es-ES', { 
                     year: 'numeric', 
@@ -169,75 +180,176 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
                   })}
                 </time>
               </div>
-              <div className="flex items-center gap-2">
-                <span className="font-semibold">✍️</span>
+              <div className="meta-item">
+                <span className="text-lg">✍️</span>
                 <span>{data.author}</span>
               </div>
-              <div className="flex items-center gap-2">
-                <span className="font-semibold">⏱️</span>
+              <div className="meta-item">
+                <span className="text-lg">⏱️</span>
                 <span>{Math.ceil(content.split(' ').length / 200)} min lectura</span>
+              </div>
+              <div className="meta-item">
+                <span className="text-lg">📖</span>
+                <span>{content.split(' ').length.toLocaleString()} palabras</span>
               </div>
             </div>
 
             {/* Article Content */}
             <div 
-              className="prose prose-slate prose-lg max-w-none
+              className="article-content prose prose-slate prose-lg max-w-none mt-12
                 prose-headings:font-display prose-headings:font-black prose-headings:tracking-tight
-                prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6
-                prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4
-                prose-p:text-slate-700 prose-p:leading-relaxed prose-p:mb-4
+                prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:scroll-mt-24
+                prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-h3:scroll-mt-24
+                prose-p:text-slate-700 prose-p:leading-relaxed prose-p:mb-6
                 prose-strong:text-slate-900 prose-strong:font-semibold
-                prose-a:text-violet-600 prose-a:no-underline hover:prose-a:underline
-                prose-code:bg-slate-100 prose-code:px-2 prose-code:py-1 prose-code:rounded
-                prose-pre:bg-slate-900 prose-pre:text-slate-100
-                prose-li:text-slate-700
-                prose-blockquote:border-l-4 prose-blockquote:border-violet-600 prose-blockquote:pl-4 prose-blockquote:italic"
+                prose-a:text-violet-600 prose-a:font-semibold prose-a:no-underline hover:prose-a:underline
+                prose-code:bg-slate-100 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:text-violet-700 prose-code:font-mono prose-code:text-sm
+                prose-pre:bg-slate-900 prose-pre:text-slate-100 prose-pre:rounded-xl prose-pre:shadow-xl
+                prose-li:text-slate-700 prose-li:leading-relaxed
+                prose-blockquote:border-l-4 prose-blockquote:border-violet-600 prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:text-slate-700
+                prose-table:w-full prose-table:border-collapse
+                prose-img:rounded-xl prose-img:shadow-lg"
               dangerouslySetInnerHTML={{ __html: htmlContent }}
             />
 
             {/* CTA Box */}
-            <div className="mt-12 p-8 rounded-2xl bg-gradient-to-br from-violet-50 to-purple-50 border border-violet-200">
+            <div className="cta-box mt-16 p-8 rounded-2xl bg-gradient-to-br from-violet-50 to-purple-50 border-2 border-violet-200 shadow-lg hover:shadow-xl transition-all duration-300">
               <h3 className="font-display text-2xl font-black text-slate-900 mb-4 tracking-tight">
-                ¿Te gustaría profundizar en este tema?
+                🎓 ¿Te gustaría profundizar en este tema?
               </h3>
-              <p className="text-slate-700 mb-6 leading-relaxed">
-                Descubre nuestros cursos especializados y lleva tu inglés al siguiente nivel con programas personalizados.
+              <p className="text-slate-700 mb-6 leading-relaxed text-lg">
+                Descubre nuestros cursos especializados y lleva tu inglés al siguiente nivel con programas personalizados y profesores nativos.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/cursos-especializados"
-                  className="inline-flex items-center justify-center bg-violet-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-violet-700 transition-colors"
+                  className="group inline-flex items-center justify-center bg-violet-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-violet-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
                 >
-                  Ver Cursos Especializados
+                  <span>Ver Cursos Especializados</span>
+                  <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
                 </Link>
                 <Link
                   href="/diagnostico"
-                  className="inline-flex items-center justify-center bg-white text-violet-600 border-2 border-violet-600 px-6 py-3 rounded-lg font-bold hover:bg-violet-50 transition-colors"
+                  className="group inline-flex items-center justify-center bg-white text-violet-600 border-2 border-violet-600 px-8 py-4 rounded-xl font-bold hover:bg-violet-50 transition-all duration-300 hover:scale-105"
                 >
-                  Hacer Test de Nivel
+                  <span>Hacer Test de Nivel</span>
+                  <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
                 </Link>
               </div>
             </div>
 
             {/* Share Section */}
-            <div className="mt-12 pt-8 border-t border-slate-200">
-              <p className="text-sm text-slate-600 mb-4">Comparte este artículo:</p>
-              <div className="flex gap-4">
+            <div className="mt-16 pt-8 border-t-2 border-slate-200">
+              <h4 className="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
+                <span className="text-2xl">📤</span>
+                Comparte este artículo:
+              </h4>
+              <div className="flex flex-wrap gap-3">
                 <ShareButton title={data.title} description={data.description} />
               </div>
+              <p className="mt-6 text-sm text-slate-500 italic">
+                Si te ha parecido útil este contenido, compártelo con quien lo necesite 💜
+              </p>
+            </div>
+
+            {/* Back to Blog */}
+            <div className="mt-12 text-center">
+              <Link 
+                href="/blog" 
+                className="inline-flex items-center gap-2 text-violet-600 font-semibold hover:text-violet-700 transition-colors group"
+              >
+                <svg className="w-5 h-5 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+                <span>Volver al blog</span>
+              </Link>
             </div>
           </div>
         </article>
 
         {/* Related Articles */}
-        <section className="py-16 bg-slate-50">
+        <section className="py-20 bg-gradient-to-b from-slate-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="font-display text-3xl font-black text-slate-900 mb-8 tracking-tight">
-              Artículos Relacionados
-            </h2>
+            <div className="text-center mb-12">
+              <h2 className="font-display text-4xl font-black text-slate-900 mb-4 tracking-tight">
+                Artículos Relacionados
+              </h2>
+              <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+                Continúa aprendiendo con más contenido de calidad
+              </p>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <Link href="/blog" className="block bg-white rounded-xl shadow-sm border border-slate-200 p-6 hover:shadow-lg transition-shadow">
-                <span className="text-violet-600 font-semibold">Ver más artículos →</span>
+              <Link 
+                href="/blog" 
+                className="group block bg-white rounded-2xl shadow-md border-2 border-slate-200 p-8 hover:shadow-2xl hover:border-violet-300 transition-all duration-300 hover:-translate-y-2"
+              >
+                <div className="w-12 h-12 bg-violet-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-violet-600 transition-colors">
+                  <svg className="w-6 h-6 text-violet-600 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+                <h3 className="font-bold text-xl text-slate-900 mb-2 group-hover:text-violet-600 transition-colors">
+                  Ver todos los artículos
+                </h3>
+                <p className="text-slate-600 mb-4">
+                  Explora nuestra biblioteca completa de guías y recursos para aprender inglés
+                </p>
+                <span className="inline-flex items-center gap-2 text-violet-600 font-semibold group-hover:gap-3 transition-all">
+                  <span>Explorar blog</span>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </span>
+              </Link>
+
+              <Link 
+                href="/cursos-especializados" 
+                className="group block bg-white rounded-2xl shadow-md border-2 border-slate-200 p-8 hover:shadow-2xl hover:border-emerald-300 transition-all duration-300 hover:-translate-y-2"
+              >
+                <div className="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-emerald-600 transition-colors">
+                  <svg className="w-6 h-6 text-emerald-600 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  </svg>
+                </div>
+                <h3 className="font-bold text-xl text-slate-900 mb-2 group-hover:text-emerald-600 transition-colors">
+                  Cursos especializados
+                </h3>
+                <p className="text-slate-600 mb-4">
+                  Programas diseñados para tus objetivos específicos con profesores nativos
+                </p>
+                <span className="inline-flex items-center gap-2 text-emerald-600 font-semibold group-hover:gap-3 transition-all">
+                  <span>Ver cursos</span>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </span>
+              </Link>
+
+              <Link 
+                href="/diagnostico" 
+                className="group block bg-white rounded-2xl shadow-md border-2 border-slate-200 p-8 hover:shadow-2xl hover:border-blue-300 transition-all duration-300 hover:-translate-y-2"
+              >
+                <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
+                  <svg className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                  </svg>
+                </div>
+                <h3 className="font-bold text-xl text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  Test de nivel gratuito
+                </h3>
+                <p className="text-slate-600 mb-4">
+                  Descubre tu nivel actual y recibe recomendaciones personalizadas
+                </p>
+                <span className="inline-flex items-center gap-2 text-blue-600 font-semibold group-hover:gap-3 transition-all">
+                  <span>Hacer test</span>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </span>
               </Link>
             </div>
           </div>
