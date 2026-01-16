@@ -59,7 +59,7 @@ export default function HomePage() {
               {/* CTAs */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
                 <Link
-                  href="/diagnostico"
+                  href="/test-nivel"
                   className="inline-flex items-center gap-2 bg-white text-violet-600 px-10 py-5 rounded-xl font-black text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
                 >
                   🎯 Hacer Test de Nivel Gratis
@@ -141,7 +141,7 @@ export default function HomePage() {
                   </ul>
                   
                   <Link
-                    href="/cursos/trabajo/b2"
+                    href="/cursos/trabajo"
                     className="block text-center bg-gradient-to-r from-violet-600 to-purple-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
                   >
                     Ver cursos →
@@ -188,7 +188,7 @@ export default function HomePage() {
                   </ul>
                   
                   <Link
-                    href="/cursos/viajes/a2"
+                    href="/cursos/viajes"
                     className="block text-center bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
                   >
                     Ver cursos →
@@ -235,7 +235,7 @@ export default function HomePage() {
                   </ul>
                   
                   <Link
-                    href="/cursos/examenes/b2"
+                    href="/cursos/examenes"
                     className="block text-center bg-gradient-to-r from-emerald-600 to-green-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
                   >
                     Ver cursos →
@@ -338,7 +338,7 @@ export default function HomePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/diagnostico"
+                href="/test-nivel"
                 className="bg-white text-violet-600 px-10 py-5 rounded-xl font-black text-lg hover:shadow-2xl hover:scale-105 transition-all"
               >
                 🎯 Hacer Test de Nivel
@@ -374,9 +374,9 @@ export default function HomePage() {
             <div>
               <h4 className="font-bold mb-4">Cursos</h4>
               <ul className="space-y-2 text-sm text-slate-400">
-                <li><Link href="/cursos/trabajo/b2" className="hover:text-white transition-colors">Inglés para Trabajar</Link></li>
-                <li><Link href="/cursos/viajes/a2" className="hover:text-white transition-colors">Inglés para Viajar</Link></li>
-                <li><Link href="/cursos/examenes/b2" className="hover:text-white transition-colors">Preparación Exámenes</Link></li>
+                <li><Link href="/cursos/trabajo" className="hover:text-white transition-colors">Inglés para Trabajar</Link></li>
+                <li><Link href="/cursos/viajes" className="hover:text-white transition-colors">Inglés para Viajar</Link></li>
+                <li><Link href="/cursos/examenes" className="hover:text-white transition-colors">Preparación Exámenes</Link></li>
               </ul>
             </div>
 
@@ -384,7 +384,7 @@ export default function HomePage() {
               <h4 className="font-bold mb-4">Recursos</h4>
               <ul className="space-y-2 text-sm text-slate-400">
                 <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-                <li><Link href="/diagnostico" className="hover:text-white transition-colors">Test de Nivel</Link></li>
+                <li><Link href="/test-nivel" className="hover:text-white transition-colors">Test de Nivel</Link></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Contacto</Link></li>
               </ul>
             </div>
