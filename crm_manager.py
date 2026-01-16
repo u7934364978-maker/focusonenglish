@@ -470,6 +470,19 @@ class FocusEnglishCRM:
         """
         print(f"\n📝 Registrando estudiante: {firstname} {lastname} ({email})")
         
+        # Mapear niveles a los valores de HubSpot (en español)
+        level_mapping = {
+            'A1': 'A1 Principiante',
+            'A2': 'A2 Elemental',
+            'B1': 'B1 Intermedio',
+            'B2': 'B2 Intermedio Alto',
+            'C1': 'C1 Avanzado',
+            'C2': 'C2 Maestría',
+            'UNKNOWN': 'unknown'
+        }
+        
+        mapped_level = level_mapping.get(current_level.upper(), 'unknown') if current_level else 'unknown'
+        
         # Crear o actualizar contacto
         result = self.hubspot.create_or_update_contact(
             email=email,
@@ -477,7 +490,7 @@ class FocusEnglishCRM:
             lastname=lastname,
             phone=phone,
             course_interest=course_interest,
-            current_level=current_level.upper() if current_level else 'unknown'
+            current_level=mapped_level
         )
         
         # Si hay mensaje, agregarlo como nota
