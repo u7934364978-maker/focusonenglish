@@ -57,6 +57,26 @@ const nextConfig = {
         destination: '/cursos',
         permanent: true,
       },
+      
+      // CURSOS - Redirigir goal/nivel → cursos/goal/nivel
+      // Trabajo
+      {
+        source: '/trabajo/:nivel',
+        destination: '/cursos/trabajo/:nivel',
+        permanent: true,
+      },
+      // Viajes
+      {
+        source: '/viajes/:nivel',
+        destination: '/cursos/viajes/:nivel',
+        permanent: true,
+      },
+      // Exámenes
+      {
+        source: '/examenes/:nivel',
+        destination: '/cursos/examenes/:nivel',
+        permanent: true,
+      },
     ];
   },
   
