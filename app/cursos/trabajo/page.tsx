@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Navigation from '@/components/sections/Navigation';
+import { Navigation } from '@/components/sections/Navigation';
 
 export const metadata: Metadata = {
   title: 'Inglés para Trabajar | Cursos Profesionales Online | Focus English',
