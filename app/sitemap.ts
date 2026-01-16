@@ -28,22 +28,42 @@ export default function sitemap(): MetadataRoute.Sitemap {
     
     // Páginas principales de conversión
     {
-      url: `${baseUrl}/cursos-especializados`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/certificaciones`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
       url: `${baseUrl}/planes`,
       lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/test-nivel`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/cursos`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    
+    // Landing pages principales de cursos
+    {
+      url: `${baseUrl}/cursos/trabajo`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/cursos/viajes`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/cursos/examenes`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.85,
     },
     
     // Blog - Contenido SEO
@@ -56,10 +76,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     
     // Contacto
     {
-      url: `${baseUrl}/contact`,
+      url: `${baseUrl}/contacto`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.6,
+    },
+    
+    // Autenticación (baja prioridad, no indexar en robots.txt)
+    {
+      url: `${baseUrl}/cuenta/login`,
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${baseUrl}/cuenta/registro`,
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.3,
     },
   ];
 

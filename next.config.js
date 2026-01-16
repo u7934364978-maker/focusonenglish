@@ -1,5 +1,65 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // ==========================================
+  // REDIRECTS 301 - Reestructuración Fase 1
+  // ==========================================
+  async redirects() {
+    return [
+      // AUTENTICACIÓN - Unificar rutas duplicadas
+      {
+        source: '/signin',
+        destination: '/cuenta/login',
+        permanent: true,
+      },
+      {
+        source: '/login',
+        destination: '/cuenta/login',
+        permanent: true,
+      },
+      {
+        source: '/register',
+        destination: '/cuenta/registro',
+        permanent: true,
+      },
+      {
+        source: '/signup',
+        destination: '/cuenta/registro',
+        permanent: true,
+      },
+      {
+        source: '/forgot-password',
+        destination: '/cuenta/recuperar',
+        permanent: true,
+      },
+      
+      // RENOMBRAR PÁGINAS PRINCIPALES
+      {
+        source: '/diagnostico',
+        destination: '/test-nivel',
+        permanent: true,
+      },
+      {
+        source: '/contact',
+        destination: '/contacto',
+        permanent: true,
+      },
+      
+      // ÁREA DE ESTUDIANTE
+      {
+        source: '/dashboard',
+        destination: '/estudiante/dashboard',
+        permanent: true,
+      },
+      
+      // ELIMINAR PÁGINAS OBSOLETAS
+      {
+        source: '/certificaciones',
+        destination: '/cursos',
+        permanent: true,
+      },
+    ];
+  },
+  
   images: {
     domains: ['images.unsplash.com'],
     remotePatterns: [
