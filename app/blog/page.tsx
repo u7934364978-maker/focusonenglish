@@ -58,6 +58,13 @@ const blogCategories = [
         excerpt: "Tres profesionales españoles revelan cómo el inglés técnico de su sector transformó sus carreras. Historias reales de David, Clara y María.",
         date: "2026-01-15",
         readTime: "16 min"
+      },
+      {
+        title: "La Conversación de 3 Minutos Que Me Costó Mi Beca Erasmus",
+        slug: "entrevista-erasmus-ingles",
+        excerpt: "Después de coordinar 847 entrevistas Erasmus, Sandra López revela los 5 errores fatales que destruyen tu entrevista en inglés. No es tu nivel, es tu preparación.",
+        date: "2026-01-16",
+        readTime: "16 min"
       }
     ]
   },
@@ -90,6 +97,29 @@ const blogCategories = [
         excerpt: "Después de evaluar más de 3,000 exámenes Cambridge, Ana Belén García revela por qué estudiantes con excelente inglés suspenden. Insider knowledge exclusivo.",
         date: "2026-01-15",
         readTime: "18 min"
+      }
+    ]
+  },
+  {
+    name: "Métodos de Aprendizaje",
+    slug: "metodos",
+    description: "Técnicas y estrategias efectivas para aprender inglés",
+    icon: "🎯",
+    color: "from-amber-600 to-orange-600",
+    articles: [
+      {
+        title: "El Profesor Que Me Suspendió en Selectividad Me Enseñó La Lección Más Valiosa",
+        slug: "errores-aprender-ingles-selectividad",
+        excerpt: "Después de 22 años evaluando Selectividad y ver suspender a 3,000+ estudiantes con buen nivel, Miguel Ángel Romero revela los 5 errores que se repiten generación tras generación.",
+        date: "2026-01-16",
+        readTime: "17 min"
+      },
+      {
+        title: "Cómo Aprendí Inglés Viendo Friends (Y Por Qué Netflix No Te Va A Salvar)",
+        slug: "aprender-ingles-series-netflix",
+        excerpt: "8 años, 2,000 horas viendo series, y mi inglés seguía siendo un desastre. Hasta que descubrí qué estaba haciendo mal. No es lo que los 'expertos' dicen.",
+        date: "2026-01-16",
+        readTime: "15 min"
       }
     ]
   },
