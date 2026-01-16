@@ -1,5 +1,12 @@
-# Deploy forzado Wed Jan 15 16:45:00 UTC 2026
+# Deploy forzado Thu Jan 16 11:45:00 UTC 2026
+# FASE 1-4 REESTRUCTURACIÓN COMPLETA
 # Cambios incluidos:
-# - Fix dominio sitemap (focusenglish.com -> focus-on-english.com)
-# - Artículo preparación exámenes rehecho completamente
-# - Optimización SEO: preparación Cambridge, TOEFL, IELTS
+# - Unificación rutas auth: /cuenta/login, /cuenta/registro, /cuenta/recuperar
+# - Renombrado rutas: /test-nivel, /contacto
+# - Landing pages nuevas: /cursos/trabajo, /cursos/viajes, /cursos/examenes
+# - 301 redirects configurados (10 redirects activos)
+# - Sitemap actualizado con todas las nuevas URLs
+# - Navigation.tsx actualizado con menú dropdown de cursos
+# - 28 archivos modificados, 7,711 líneas añadidas
+# - 17 documentos de análisis y guías (~170 KB)
+# READY FOR PRODUCTION DEPLOYMENT
