@@ -51,7 +51,7 @@ const blogCategories = [
     slug: "trabajo",
     description: "Guías y consejos para el inglés profesional y empresarial",
     icon: "💼",
-    color: "from-violet-600 to-purple-600",
+    color: "from-coral-600 to-peach-600",
     articles: [
       {
         title: "El Día Que Perdí Un Ascenso Por No Saber Decir 'Implementar' en Inglés",
@@ -74,7 +74,7 @@ const blogCategories = [
     slug: "viajes",
     description: "Inglés práctico para tus aventuras internacionales",
     icon: "✈️",
-    color: "from-blue-600 to-cyan-600",
+    color: "from-coral-600 to-cyan-600",
     articles: [
       {
         title: "Confesiones de Un Ex-Azafato: Las 47 Frases Que Separan a Los Viajeros Que La Pasan Mal de Los Que Viajan Como Profesionales",
@@ -136,16 +136,16 @@ export default function BlogPage() {
         {/* Featured Guide - Hero Section */}
         <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
           {/* Animated background */}
-          <div className="absolute inset-0 bg-gradient-to-br from-violet-50 via-purple-50 to-indigo-50">
-            <div className="absolute top-20 right-20 w-72 h-72 bg-violet-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
-            <div className="absolute bottom-20 left-20 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-indigo-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-coral-50 via-peach-50 to-melon-50">
+            <div className="absolute top-20 right-20 w-72 h-72 bg-coral-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
+            <div className="absolute bottom-20 left-20 w-72 h-72 bg-peach-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-melon-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
           </div>
 
           <div className="relative max-w-7xl mx-auto">
             {/* Badge */}
             <div className="flex justify-center mb-6">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-violet-600 to-purple-600 text-white text-sm font-bold shadow-lg">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-coral-500 to-peach-500 text-white text-sm font-bold shadow-lg">
                 <span className="animate-pulse">⭐</span>
                 <span>GUÍA DESTACADA 2026</span>
                 <span className="animate-pulse">⭐</span>
@@ -158,7 +158,7 @@ export default function BlogPage() {
                 {/* Left Side - Content */}
                 <div className="p-8 lg:p-12">
                   <div className="flex items-center gap-3 mb-4">
-                    <span className="px-3 py-1 rounded-full bg-violet-100 text-violet-700 text-xs font-bold uppercase tracking-wide">
+                    <span className="px-3 py-1 rounded-full bg-coral-100 text-coral-700 text-xs font-bold uppercase tracking-wide">
                       {featuredGuide.category}
                     </span>
                     <span className="text-slate-500 text-sm">
@@ -187,15 +187,15 @@ export default function BlogPage() {
                   {/* Stats */}
                   <div className="flex gap-6 mb-8 pb-8 border-b border-slate-200">
                     <div>
-                      <div className="text-2xl font-black text-violet-600">{featuredGuide.stats.words}</div>
+                      <div className="text-2xl font-black text-coral-600">{featuredGuide.stats.words}</div>
                       <div className="text-xs text-slate-500 uppercase tracking-wide">Palabras</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-black text-purple-600">{featuredGuide.stats.sections}</div>
+                      <div className="text-2xl font-black text-peach-600">{featuredGuide.stats.sections}</div>
                       <div className="text-xs text-slate-500 uppercase tracking-wide">Secciones</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-black text-indigo-600">{featuredGuide.stats.keywords}</div>
+                      <div className="text-2xl font-black text-melon-600">{featuredGuide.stats.keywords}</div>
                       <div className="text-xs text-slate-500 uppercase tracking-wide">Keywords</div>
                     </div>
                     <div>
@@ -206,7 +206,7 @@ export default function BlogPage() {
 
                   <Link
                     href={`/blog/${featuredGuide.slug}`}
-                    className="inline-flex items-center gap-2 bg-gradient-to-r from-violet-600 to-purple-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
+                    className="inline-flex items-center gap-2 bg-gradient-to-r from-coral-500 to-peach-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
                   >
                     <span>Leer Guía Completa</span>
                     <span className="text-xl">→</span>
@@ -214,7 +214,7 @@ export default function BlogPage() {
                 </div>
 
                 {/* Right Side - Visual */}
-                <div className="bg-gradient-to-br from-violet-600 via-purple-600 to-indigo-600 p-8 lg:p-12 flex items-center justify-center relative overflow-hidden">
+                <div className="bg-gradient-to-br from-coral-500 via-peach-500 to-melon-500 p-8 lg:p-12 flex items-center justify-center relative overflow-hidden">
                   {/* Decorative elements */}
                   <div className="absolute inset-0 opacity-10">
                     <div className="absolute top-10 right-10 w-40 h-40 border-4 border-white rounded-full"></div>
@@ -314,15 +314,15 @@ export default function BlogPage() {
                           href={`/blog/${article.slug}`}
                           className="block group"
                         >
-                          <article className="border-l-4 border-slate-200 group-hover:border-violet-600 pl-4 py-2 transition-all duration-300">
+                          <article className="border-l-4 border-slate-200 group-hover:border-coral-600 pl-4 py-2 transition-all duration-300">
                             <div className="flex items-center gap-2 mb-2">
                               <span className="text-xs text-slate-500 font-semibold">
                                 {new Date(article.date).toLocaleDateString('es-ES', { month: 'short', day: 'numeric' })}
                               </span>
                               <span className="text-xs text-slate-400">•</span>
-                              <span className="text-xs text-violet-600 font-semibold">{article.readTime}</span>
+                              <span className="text-xs text-coral-600 font-semibold">{article.readTime}</span>
                             </div>
-                            <h4 className="font-bold text-slate-900 group-hover:text-violet-600 transition-colors mb-2 leading-snug">
+                            <h4 className="font-bold text-slate-900 group-hover:text-coral-600 transition-colors mb-2 leading-snug">
                               {article.title}
                             </h4>
                             <p className="text-sm text-slate-600 leading-relaxed">{article.excerpt}</p>
@@ -333,7 +333,7 @@ export default function BlogPage() {
 
                     <Link
                       href={`/blog?category=${category.slug}`}
-                      className="mt-6 inline-flex items-center text-violet-600 font-semibold text-sm hover:text-violet-700 hover:gap-2 gap-1 transition-all"
+                      className="mt-6 inline-flex items-center text-coral-600 font-semibold text-sm hover:text-coral-700 hover:gap-2 gap-1 transition-all"
                     >
                       Ver todos los artículos
                       <span>→</span>
@@ -350,7 +350,7 @@ export default function BlogPage() {
           <div className="max-w-7xl mx-auto">
             <div className="flex items-center justify-between mb-8">
               <h2 className="font-display text-3xl font-black text-slate-900 tracking-tight">Artículos Recientes</h2>
-              <Link href="/blog" className="text-violet-600 font-semibold text-sm hover:text-violet-700 hidden md:block">
+              <Link href="/blog" className="text-coral-600 font-semibold text-sm hover:text-coral-700 hidden md:block">
                 Ver todos →
               </Link>
             </div>
@@ -368,13 +368,13 @@ export default function BlogPage() {
                         {new Date(article.date).toLocaleDateString('es-ES', { month: 'short', day: 'numeric', year: 'numeric' })}
                       </time>
                       <span className="text-xs text-slate-400">•</span>
-                      <span className="text-xs text-violet-600 font-semibold">{article.readTime}</span>
+                      <span className="text-xs text-coral-600 font-semibold">{article.readTime}</span>
                     </div>
-                    <h3 className="font-display text-xl font-bold text-slate-900 mb-3 group-hover:text-violet-600 transition-colors leading-snug tracking-tight">
+                    <h3 className="font-display text-xl font-bold text-slate-900 mb-3 group-hover:text-coral-600 transition-colors leading-snug tracking-tight">
                       {article.title}
                     </h3>
                     <p className="text-slate-600 text-sm mb-4 leading-relaxed">{article.excerpt}</p>
-                    <span className="text-violet-600 font-semibold text-sm inline-flex items-center group-hover:gap-2 gap-1 transition-all">
+                    <span className="text-coral-600 font-semibold text-sm inline-flex items-center group-hover:gap-2 gap-1 transition-all">
                       Leer artículo <span>→</span>
                     </span>
                   </div>
@@ -399,9 +399,9 @@ export default function BlogPage() {
                 <input
                   type="email"
                   placeholder="tu@email.com"
-                  className="flex-1 px-6 py-4 rounded-xl border-2 border-slate-200 focus:border-violet-600 focus:outline-none text-slate-900"
+                  className="flex-1 px-6 py-4 rounded-xl border-2 border-slate-200 focus:border-coral-600 focus:outline-none text-slate-900"
                 />
-                <button className="bg-gradient-to-r from-violet-600 to-purple-600 text-white px-8 py-4 rounded-xl font-bold hover:shadow-xl transition-shadow whitespace-nowrap">
+                <button className="bg-gradient-to-r from-coral-500 to-peach-500 text-white px-8 py-4 rounded-xl font-bold hover:shadow-xl transition-shadow whitespace-nowrap">
                   Suscribirme
                 </button>
               </div>
@@ -413,7 +413,7 @@ export default function BlogPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-violet-600 via-purple-600 to-indigo-700 text-white relative overflow-hidden">
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-coral-500 via-peach-500 to-melon-500 text-white relative overflow-hidden">
           {/* Animated background */}
           <div className="absolute inset-0 opacity-20">
             <div className="absolute top-20 right-20 w-64 h-64 bg-white rounded-full mix-blend-overlay filter blur-3xl animate-blob"></div>
@@ -424,19 +424,19 @@ export default function BlogPage() {
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-black mb-6 tracking-tight">
               ¿Listo para Empezar tu Viaje al Inglés?
             </h2>
-            <p className="text-xl mb-10 text-violet-100 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl mb-10 text-coral-100 max-w-2xl mx-auto leading-relaxed">
               Descubre nuestros cursos especializados diseñados para profesionales españoles y comienza a dominar el inglés en 90 días
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/cursos-especializados"
-                className="bg-white text-violet-600 px-10 py-5 rounded-xl font-black text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
+                className="bg-white text-coral-600 px-10 py-5 rounded-xl font-black text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
               >
                 🎯 Ver Cursos
               </Link>
               <Link
                 href="/diagnostico"
-                className="bg-violet-700 text-white px-10 py-5 rounded-xl font-black text-lg hover:bg-violet-800 transition-all duration-300 border-2 border-white/20"
+                className="bg-coral-600 text-white px-10 py-5 rounded-xl font-black text-lg hover:bg-coral-700 transition-all duration-300 border-2 border-white/20"
               >
                 📊 Test de Nivel Gratis
               </Link>
@@ -468,7 +468,7 @@ export default function BlogPage() {
             {/* Brand */}
             <div className="md:col-span-2">
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-violet-600 to-purple-600 flex items-center justify-center text-white font-black text-xl">
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-coral-500 to-peach-500 flex items-center justify-center text-white font-black text-xl">
                   F
                 </div>
                 <span className="text-xl font-black">Focus English</span>

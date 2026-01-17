@@ -109,8 +109,8 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
     .replace(/\n\n/g, '</p><p class="text-slate-700 leading-relaxed mb-4">');
 
   const categoryColors: Record<string, string> = {
-    trabajo: "bg-violet-100 text-violet-800 border-violet-200",
-    viajes: "bg-blue-100 text-blue-800 border-blue-200",
+    trabajo: "bg-coral-100 text-coral-800 border-coral-200",
+    viajes: "bg-sky-100 text-coral-800 border-sky-200",
     examenes: "bg-emerald-100 text-emerald-800 border-emerald-200",
     aprendizaje: "bg-amber-100 text-amber-800 border-amber-200",
     metodos: "bg-pink-100 text-pink-800 border-pink-200",
@@ -145,9 +145,9 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
                 {/* Breadcrumb - Updated for SEO */}
                 <nav className="mb-8" aria-label="breadcrumb">
                   <ol className="flex items-center gap-2 text-sm text-slate-600">
-                    <li><Link href="/" className="hover:text-violet-600 transition-colors">Inicio</Link></li>
+                    <li><Link href="/" className="hover:text-coral-600 transition-colors">Inicio</Link></li>
                     <li className="text-slate-400">›</li>
-                    <li><Link href="/blog" className="hover:text-violet-600 transition-colors">Blog</Link></li>
+                    <li><Link href="/blog" className="hover:text-coral-600 transition-colors">Blog</Link></li>
                     <li className="text-slate-400">›</li>
                     <li className="font-semibold text-slate-900">{data.category === "trabajo" ? "Inglés para Trabajar" : data.category === "viajes" ? "Inglés para Viajar" : "Preparación de Exámenes"}</li>
                   </ol>
@@ -210,18 +210,18 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
                 prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-h3:scroll-mt-24
                 prose-p:text-slate-700 prose-p:leading-relaxed prose-p:mb-6
                 prose-strong:text-slate-900 prose-strong:font-semibold
-                prose-a:text-violet-600 prose-a:font-semibold prose-a:no-underline hover:prose-a:underline
-                prose-code:bg-slate-100 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:text-violet-700 prose-code:font-mono prose-code:text-sm
+                prose-a:text-coral-600 prose-a:font-semibold prose-a:no-underline hover:prose-a:underline
+                prose-code:bg-slate-100 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:text-coral-700 prose-code:font-mono prose-code:text-sm
                 prose-pre:bg-slate-900 prose-pre:text-slate-100 prose-pre:rounded-xl prose-pre:shadow-xl
                 prose-li:text-slate-700 prose-li:leading-relaxed
-                prose-blockquote:border-l-4 prose-blockquote:border-violet-600 prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:text-slate-700
+                prose-blockquote:border-l-4 prose-blockquote:border-coral-600 prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:text-slate-700
                 prose-table:w-full prose-table:border-collapse
                 prose-img:rounded-xl prose-img:shadow-lg"
               dangerouslySetInnerHTML={{ __html: htmlContent }}
             />
 
             {/* CTA Box */}
-            <div className="cta-box mt-16 p-8 rounded-2xl bg-gradient-to-br from-violet-50 to-purple-50 border-2 border-violet-200 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="cta-box mt-16 p-8 rounded-2xl bg-gradient-to-br from-coral-50 to-peach-50 border-2 border-coral-200 shadow-lg hover:shadow-xl transition-all duration-300">
               <h3 className="font-display text-2xl font-black text-slate-900 mb-4 tracking-tight">
                 🎓 ¿Te gustaría profundizar en este tema?
               </h3>
@@ -231,7 +231,7 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/cursos-especializados"
-                  className="group inline-flex items-center justify-center bg-violet-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-violet-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+                  className="group inline-flex items-center justify-center bg-coral-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-coral-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
                 >
                   <span>Ver Cursos Especializados</span>
                   <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -240,7 +240,7 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
                 </Link>
                 <Link
                   href="/diagnostico"
-                  className="group inline-flex items-center justify-center bg-white text-violet-600 border-2 border-violet-600 px-8 py-4 rounded-xl font-bold hover:bg-violet-50 transition-all duration-300 hover:scale-105"
+                  className="group inline-flex items-center justify-center bg-white text-coral-600 border-2 border-coral-600 px-8 py-4 rounded-xl font-bold hover:bg-coral-50 transition-all duration-300 hover:scale-105"
                 >
                   <span>Hacer Test de Nivel</span>
                   <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -268,7 +268,7 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
                 <div className="mt-12 text-center">
                   <Link 
                     href="/blog" 
-                    className="inline-flex items-center gap-2 text-violet-600 font-semibold hover:text-violet-700 transition-colors group"
+                    className="inline-flex items-center gap-2 text-coral-600 font-semibold hover:text-coral-700 transition-colors group"
                   >
                     <svg className="w-5 h-5 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -302,20 +302,20 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <Link 
                 href="/blog" 
-                className="group block bg-white rounded-2xl shadow-md border-2 border-slate-200 p-8 hover:shadow-2xl hover:border-violet-300 transition-all duration-300 hover:-translate-y-2"
+                className="group block bg-white rounded-2xl shadow-md border-2 border-slate-200 p-8 hover:shadow-2xl hover:border-coral-300 transition-all duration-300 hover:-translate-y-2"
               >
-                <div className="w-12 h-12 bg-violet-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-violet-600 transition-colors">
-                  <svg className="w-6 h-6 text-violet-600 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 bg-coral-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-coral-600 transition-colors">
+                  <svg className="w-6 h-6 text-coral-600 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </div>
-                <h3 className="font-bold text-xl text-slate-900 mb-2 group-hover:text-violet-600 transition-colors">
+                <h3 className="font-bold text-xl text-slate-900 mb-2 group-hover:text-coral-600 transition-colors">
                   Ver todos los artículos
                 </h3>
                 <p className="text-slate-600 mb-4">
                   Explora nuestra biblioteca completa de guías y recursos para aprender inglés
                 </p>
-                <span className="inline-flex items-center gap-2 text-violet-600 font-semibold group-hover:gap-3 transition-all">
+                <span className="inline-flex items-center gap-2 text-coral-600 font-semibold group-hover:gap-3 transition-all">
                   <span>Explorar blog</span>
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -348,20 +348,20 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
 
               <Link 
                 href="/diagnostico" 
-                className="group block bg-white rounded-2xl shadow-md border-2 border-slate-200 p-8 hover:shadow-2xl hover:border-blue-300 transition-all duration-300 hover:-translate-y-2"
+                className="group block bg-white rounded-2xl shadow-md border-2 border-slate-200 p-8 hover:shadow-2xl hover:border-sky-300 transition-all duration-300 hover:-translate-y-2"
               >
-                <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
-                  <svg className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 bg-sky-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-coral-600 transition-colors">
+                  <svg className="w-6 h-6 text-coral-600 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                   </svg>
                 </div>
-                <h3 className="font-bold text-xl text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
+                <h3 className="font-bold text-xl text-slate-900 mb-2 group-hover:text-coral-600 transition-colors">
                   Test de nivel gratuito
                 </h3>
                 <p className="text-slate-600 mb-4">
                   Descubre tu nivel actual y recibe recomendaciones personalizadas
                 </p>
-                <span className="inline-flex items-center gap-2 text-blue-600 font-semibold group-hover:gap-3 transition-all">
+                <span className="inline-flex items-center gap-2 text-coral-600 font-semibold group-hover:gap-3 transition-all">
                   <span>Hacer test</span>
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />

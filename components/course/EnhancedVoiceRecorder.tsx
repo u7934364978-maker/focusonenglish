@@ -282,10 +282,10 @@ export default function EnhancedVoiceRecorder({
   const isLowTime = timeRemaining < 30 && isRecording;
 
   return (
-    <div className="bg-gradient-to-br from-white to-blue-50 rounded-2xl border-2 border-blue-200 p-8 space-y-6 shadow-lg">
+    <div className="bg-gradient-to-br from-white to-sky-50 rounded-2xl border-2 border-sky-200 p-8 space-y-6 shadow-lg">
       {/* Header */}
       <div className="flex items-center gap-3 mb-6">
-        <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl flex items-center justify-center text-3xl shadow-lg">
+        <div className="w-16 h-16 bg-gradient-to-br from-sky-500 to-peach-500 rounded-2xl flex items-center justify-center text-3xl shadow-lg">
           🎤
         </div>
         <div>
@@ -295,15 +295,15 @@ export default function EnhancedVoiceRecorder({
       </div>
 
       {/* Prompt */}
-      <div className="bg-white rounded-xl p-6 border-2 border-blue-200 shadow-md">
-        <h4 className="font-bold text-blue-900 mb-3 flex items-center gap-2 text-lg">
+      <div className="bg-white rounded-xl p-6 border-2 border-sky-200 shadow-md">
+        <h4 className="font-bold text-coral-900 mb-3 flex items-center gap-2 text-lg">
           <span>📝</span>
           <span>Your Task</span>
         </h4>
         <p className="text-slate-800 text-lg leading-relaxed">{prompt}</p>
         {targetText && (
-          <div className="mt-4 p-4 bg-blue-50 rounded-lg border-2 border-blue-200">
-            <p className="text-sm font-bold text-blue-900 mb-2">Target Text:</p>
+          <div className="mt-4 p-4 bg-sky-50 rounded-lg border-2 border-sky-200">
+            <p className="text-sm font-bold text-coral-900 mb-2">Target Text:</p>
             <p className="text-slate-700 italic leading-relaxed">{targetText}</p>
           </div>
         )}
@@ -342,15 +342,15 @@ export default function EnhancedVoiceRecorder({
 
       {/* Hints */}
       {hints.length > 0 && (
-        <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-6 border-2 border-purple-200 shadow-md">
-          <h4 className="font-bold text-purple-900 mb-4 flex items-center gap-2 text-lg">
+        <div className="bg-gradient-to-r from-peach-50 to-pink-50 rounded-xl p-6 border-2 border-peach-200 shadow-md">
+          <h4 className="font-bold text-peach-900 mb-4 flex items-center gap-2 text-lg">
             <span>💡</span>
             <span>Helpful Tips</span>
           </h4>
           <ul className="space-y-3">
             {hints.map((hint, index) => (
-              <li key={index} className="flex items-start gap-3 text-purple-800">
-                <span className="text-purple-500 text-xl mt-0.5 font-bold">•</span>
+              <li key={index} className="flex items-start gap-3 text-peach-800">
+                <span className="text-peach-500 text-xl mt-0.5 font-bold">•</span>
                 <span className="text-base">{hint}</span>
               </li>
             ))}
@@ -391,7 +391,7 @@ export default function EnhancedVoiceRecorder({
               className={`h-full rounded-full transition-all duration-300 ${
                 progressPercentage > 90 ? 'bg-gradient-to-r from-red-500 to-red-600' : 
                 progressPercentage > 70 ? 'bg-gradient-to-r from-amber-500 to-orange-500' : 
-                'bg-gradient-to-r from-blue-500 to-purple-500'
+                'bg-gradient-to-r from-sky-500 to-peach-500'
               }`}
               style={{ width: `${Math.min(progressPercentage, 100)}%` }}
             />
@@ -501,7 +501,7 @@ export default function EnhancedVoiceRecorder({
 
         {/* Audio Playback */}
         {audioURL && (
-          <div className="p-6 bg-gradient-to-r from-slate-50 to-blue-50 rounded-xl border-2 border-slate-200 shadow-inner">
+          <div className="p-6 bg-gradient-to-r from-slate-50 to-sky-50 rounded-xl border-2 border-slate-200 shadow-inner">
             <div className="flex items-center gap-3 mb-3">
               <span className="text-2xl">🎧</span>
               <p className="font-bold text-slate-900 text-lg">Your Recording</p>
@@ -545,30 +545,30 @@ export default function EnhancedVoiceRecorder({
       </div>
 
       {/* Tips Panel */}
-      <div className="bg-blue-50 rounded-xl p-5 border-2 border-blue-200">
-        <h4 className="font-bold text-blue-900 mb-3 flex items-center gap-2">
+      <div className="bg-sky-50 rounded-xl p-5 border-2 border-sky-200">
+        <h4 className="font-bold text-coral-900 mb-3 flex items-center gap-2">
           <span>📌</span>
           <span>Recording Tips</span>
         </h4>
-        <ul className="space-y-2 text-sm text-blue-800">
+        <ul className="space-y-2 text-sm text-coral-800">
           <li className="flex items-start gap-2">
-            <span className="text-blue-500 mt-0.5">•</span>
+            <span className="text-sky-500 mt-0.5">•</span>
             <span>Speak clearly and at a moderate pace</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-blue-500 mt-0.5">•</span>
+            <span className="text-sky-500 mt-0.5">•</span>
             <span>Keep your microphone 6-12 inches from your mouth</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-blue-500 mt-0.5">•</span>
+            <span className="text-sky-500 mt-0.5">•</span>
             <span>Monitor the audio level - aim for "Good" quality</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-blue-500 mt-0.5">•</span>
+            <span className="text-sky-500 mt-0.5">•</span>
             <span>Listen to the model audio first for reference</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-blue-500 mt-0.5">•</span>
+            <span className="text-sky-500 mt-0.5">•</span>
             <span>You can pause and resume if you need a moment to think</span>
           </li>
         </ul>

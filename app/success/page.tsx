@@ -66,11 +66,11 @@ function SuccessContent() {
         </Link>
       </div>
 
-      <div className="mt-12 p-6 bg-violet-50 rounded-xl border border-violet-200 max-w-xl mx-auto">
+      <div className="mt-12 p-6 bg-coral-50 rounded-xl border border-coral-200 max-w-xl mx-auto">
         <p className="text-sm text-slate-600">
           <strong className="text-slate-900">¿Tienes preguntas?</strong> Nuestro equipo está disponible para ayudarte en cualquier momento.
         </p>
-        <p className="text-sm text-violet-600 font-bold mt-2">
+        <p className="text-sm text-coral-600 font-bold mt-2">
           📞 Contacto: info@focusenglish.com
         </p>
       </div>

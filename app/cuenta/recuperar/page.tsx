@@ -43,7 +43,7 @@ export default function ForgotPasswordPage() {
 
   if (success) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-cream-50 via-white to-coral-50 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-md w-full space-y-8 bg-white p-8 rounded-2xl shadow-xl">
           <div className="text-center">
             <div className="text-6xl mb-4">✅</div>
@@ -58,11 +58,11 @@ export default function ForgotPasswordPage() {
             </p>
           </div>
 
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-            <h3 className="font-semibold text-blue-900 mb-2">
+          <div className="bg-coral-50 border border-coral-200 rounded-lg p-4">
+            <h3 className="font-semibold text-coral-900 mb-2">
               ⏰ Importante:
             </h3>
-            <ul className="text-sm text-blue-800 space-y-1">
+            <ul className="text-sm text-coral-800 space-y-1">
               <li>• El enlace expirará en <strong>1 hora</strong></li>
               <li>• Solo puedes usarlo <strong>una vez</strong></li>
               <li>• Si no recibes el email, revisa spam</li>
@@ -72,7 +72,7 @@ export default function ForgotPasswordPage() {
           <div className="space-y-3">
             <Link
               href="/login"
-              className="w-full block text-center bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+              className="w-full block text-center bg-coral-600 text-white py-3 px-4 rounded-lg hover:bg-coral-700 transition-colors font-medium"
             >
               Volver al login
             </Link>
@@ -92,7 +92,7 @@ export default function ForgotPasswordPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-cream-50 via-white to-coral-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8 bg-white p-8 rounded-2xl shadow-xl">
         {/* Header */}
         <div className="text-center">
@@ -124,7 +124,7 @@ export default function ForgotPasswordPage() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-coral-500 focus:border-transparent"
               placeholder="tu@email.com"
               disabled={loading}
             />
@@ -136,7 +136,7 @@ export default function ForgotPasswordPage() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed font-medium"
+            className="w-full bg-coral-600 text-white py-3 px-4 rounded-lg hover:bg-coral-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed font-medium"
           >
             {loading ? (
               <span className="flex items-center justify-center gap-2">
@@ -166,7 +166,7 @@ export default function ForgotPasswordPage() {
         <div className="text-center">
           <Link
             href="/login"
-            className="text-sm font-medium text-blue-600 hover:text-blue-500"
+            className="text-sm font-medium text-coral-600 hover:text-coral-500"
           >
             ← Volver al login
           </Link>
@@ -176,7 +176,7 @@ export default function ForgotPasswordPage() {
         <div className="text-center pt-4 border-t border-gray-200">
           <p className="text-xs text-gray-500">
             ¿Tienes problemas?{' '}
-            <a href="mailto:soporte@focus-on-english.com" className="text-blue-600 hover:text-blue-500">
+            <a href="mailto:soporte@focus-on-english.com" className="text-coral-600 hover:text-coral-500">
               Contacta a soporte
             </a>
           </p>

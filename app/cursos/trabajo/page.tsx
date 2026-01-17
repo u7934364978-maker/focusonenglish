@@ -39,7 +39,7 @@ const LEVELS = [
     description: 'Comunicación efectiva en reuniones. Redacción de informes y presentaciones básicas.',
     duration: '4 meses',
     price: '€119/mes',
-    color: 'from-blue-400 to-blue-600',
+    color: 'from-sky-400 to-coral-600',
     topics: ['Reuniones de trabajo', 'Informes y reportes', 'Negociación básica', 'Presentaciones simples'],
   },
   {
@@ -48,7 +48,7 @@ const LEVELS = [
     description: 'Confianza profesional total. Participación activa en reuniones internacionales y presentaciones complejas.',
     duration: '4 meses',
     price: '€119/mes',
-    color: 'from-blue-500 to-blue-700',
+    color: 'from-sky-500 to-coral-700',
     popular: true,
     topics: ['Negociación avanzada', 'Presentaciones corporativas', 'Escritura profesional', 'Liderazgo de equipos'],
   },
@@ -58,7 +58,7 @@ const LEVELS = [
     description: 'Inglés profesional sofisticado. Manejo de situaciones complejas y comunicación estratégica.',
     duration: '5 meses',
     price: '€139/mes',
-    color: 'from-purple-500 to-purple-700',
+    color: 'from-peach-500 to-peach-700',
     topics: ['Estrategia corporativa', 'Comunicación ejecutiva', 'Análisis crítico', 'Networking profesional'],
   },
   {
@@ -67,7 +67,7 @@ const LEVELS = [
     description: 'Dominio completo del inglés profesional. Comunicación al nivel de un nativo en cualquier contexto laboral.',
     duration: '5 meses',
     price: '€139/mes',
-    color: 'from-purple-600 to-purple-900',
+    color: 'from-peach-600 to-peach-900',
     topics: ['Liderazgo global', 'Negociaciones complejas', 'Escritura ejecutiva', 'Consultoría y asesoramiento'],
   },
 ];
@@ -118,20 +118,20 @@ const BENEFITS = [
 
 export default function TrabajoPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-sky-50">
       <Navigation />
       <CourseLaunchBanner />
 
       {/* Hero Section */}
       <section className="relative py-20 px-4 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-purple-600/10"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-coral-600/10 to-peach-600/10"></div>
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center max-w-4xl mx-auto">
-            <div className="inline-block px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold text-sm mb-6">
+            <div className="inline-block px-4 py-2 bg-sky-100 text-coral-700 rounded-full font-semibold text-sm mb-6">
               💼 Cursos Profesionales
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6">
-              Inglés para <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Trabajar</span>
+              Inglés para <span className="text-transparent bg-clip-text bg-gradient-to-r from-coral-600 to-peach-600">Trabajar</span>
             </h1>
             <p className="text-xl text-slate-600 mb-8 leading-relaxed">
               Domina el inglés profesional y abre las puertas a mejores oportunidades de carrera. 
@@ -140,7 +140,7 @@ export default function TrabajoPage() {
             <div className="flex flex-wrap gap-4 justify-center">
               <Link
                 href="/test-nivel"
-                className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                className="px-8 py-4 bg-gradient-to-r from-coral-600 to-peach-600 text-white rounded-xl hover:from-coral-700 hover:to-peach-700 transition-all font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
               >
                 Test de Nivel Gratuito
               </Link>
@@ -155,11 +155,11 @@ export default function TrabajoPage() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 mt-16 max-w-3xl mx-auto">
               <div>
-                <div className="text-4xl font-bold text-blue-600 mb-2">87%</div>
+                <div className="text-4xl font-bold text-coral-600 mb-2">87%</div>
                 <div className="text-sm text-slate-600">Mejora salarial tras el curso</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-purple-600 mb-2">2,500+</div>
+                <div className="text-4xl font-bold text-peach-600 mb-2">2,500+</div>
                 <div className="text-sm text-slate-600">Profesionales formados</div>
               </div>
               <div>
@@ -186,12 +186,12 @@ export default function TrabajoPage() {
               <div
                 key={level.level}
                 className={`bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 border-2 ${
-                  level.popular ? 'border-blue-500 relative' : 'border-transparent'
+                  level.popular ? 'border-sky-500 relative' : 'border-transparent'
                 }`}
               >
                 {level.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <span className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-1 rounded-full text-sm font-bold">
+                    <span className="bg-gradient-to-r from-coral-600 to-peach-600 text-white px-4 py-1 rounded-full text-sm font-bold">
                       ⭐ Más Popular
                     </span>
                   </div>
@@ -214,7 +214,7 @@ export default function TrabajoPage() {
                   <ul className="space-y-2">
                     {level.topics.map((topic, idx) => (
                       <li key={idx} className="text-sm text-slate-600 flex items-start gap-2">
-                        <span className="text-blue-600">✓</span>
+                        <span className="text-coral-600">✓</span>
                         <span>{topic}</span>
                       </li>
                     ))}
@@ -223,7 +223,7 @@ export default function TrabajoPage() {
 
                 <Link
                   href={`/cursos/trabajo/${level.level.toLowerCase()}`}
-                  className="block w-full text-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all font-bold"
+                  className="block w-full text-center px-6 py-3 bg-gradient-to-r from-coral-600 to-peach-600 text-white rounded-xl hover:from-coral-700 hover:to-peach-700 transition-all font-bold"
                 >
                   Ver Curso {level.level}
                 </Link>
@@ -247,7 +247,7 @@ export default function TrabajoPage() {
             {SECTORS.map((sector, idx) => (
               <div
                 key={idx}
-                className="bg-gradient-to-br from-slate-50 to-blue-50 rounded-xl p-6 hover:shadow-lg transition-all border-2 border-slate-200"
+                className="bg-gradient-to-br from-slate-50 to-sky-50 rounded-xl p-6 hover:shadow-lg transition-all border-2 border-slate-200"
               >
                 <div className="text-4xl mb-4">{sector.icon}</div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">{sector.name}</h3>
@@ -281,24 +281,24 @@ export default function TrabajoPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-blue-600 to-purple-600">
+      <section className="py-20 px-4 bg-gradient-to-r from-coral-600 to-peach-600">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
             ¿Listo para impulsar tu carrera profesional?
           </h2>
-          <p className="text-xl text-blue-100 mb-8">
+          <p className="text-xl text-sky-100 mb-8">
             Descubre tu nivel actual con nuestro test gratuito y comienza hoy mismo
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
               href="/test-nivel"
-              className="px-8 py-4 bg-white text-blue-600 rounded-xl hover:bg-blue-50 transition-all font-bold text-lg shadow-lg"
+              className="px-8 py-4 bg-white text-coral-600 rounded-xl hover:bg-sky-50 transition-all font-bold text-lg shadow-lg"
             >
               Test de Nivel Gratuito
             </Link>
             <Link
               href="/planes"
-              className="px-8 py-4 bg-blue-700 text-white rounded-xl hover:bg-blue-800 transition-all font-bold text-lg shadow-lg border-2 border-white/30"
+              className="px-8 py-4 bg-coral-700 text-white rounded-xl hover:bg-coral-800 transition-all font-bold text-lg shadow-lg border-2 border-white/30"
             >
               Ver Planes y Precios
             </Link>

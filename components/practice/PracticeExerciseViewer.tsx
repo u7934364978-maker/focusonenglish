@@ -84,7 +84,7 @@ export default function PracticeExerciseViewer({
 
   if (!currentQuestion) {
     return (
-      <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-50 to-purple-50">
+      <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-sky-50 to-peach-50">
         <div className="text-center">
           <p className="text-xl text-gray-600">No questions available</p>
           <button
@@ -99,7 +99,7 @@ export default function PracticeExerciseViewer({
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex flex-col">
+    <div className="min-h-screen bg-gradient-to-br from-sky-50 to-peach-50 flex flex-col">
       {/* Header simple con progreso */}
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 py-4">
@@ -117,7 +117,7 @@ export default function PracticeExerciseViewer({
           {/* Barra de progreso */}
           <div className="w-full bg-gray-200 rounded-full h-3">
             <div
-              className="bg-gradient-to-r from-green-400 to-blue-500 h-3 rounded-full transition-all duration-300"
+              className="bg-gradient-to-r from-green-400 to-sky-500 h-3 rounded-full transition-all duration-300"
               style={{ width: `${progress}%` }}
             />
           </div>
@@ -167,7 +167,7 @@ export default function PracticeExerciseViewer({
                   onChange={(e) => setAnswer(e.target.value)}
                   onKeyPress={(e) => e.key === 'Enter' && answer && checkAnswer()}
                   placeholder="Type your answer..."
-                  className="w-full px-6 py-4 text-lg border-2 border-gray-300 rounded-xl focus:border-blue-500 focus:outline-none transition-colors"
+                  className="w-full px-6 py-4 text-lg border-2 border-gray-300 rounded-xl focus:border-sky-500 focus:outline-none transition-colors"
                   autoFocus
                   disabled={showFeedback}
                 />
@@ -205,7 +205,7 @@ export default function PracticeExerciseViewer({
                       }
                       setAnsweredQuestions(answeredQuestions + 1);
                     }}
-                    className="w-full p-4 text-left border-2 border-gray-300 rounded-xl hover:border-blue-400 hover:bg-blue-50 transition-all font-medium text-gray-900"
+                    className="w-full p-4 text-left border-2 border-gray-300 rounded-xl hover:border-sky-400 hover:bg-sky-50 transition-all font-medium text-gray-900"
                   >
                     {option}
                   </button>
@@ -248,7 +248,7 @@ export default function PracticeExerciseViewer({
               className={`w-full py-4 px-6 rounded-xl font-bold text-lg transition-colors shadow-lg ${
                 isCorrect
                   ? 'bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white'
-                  : 'bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white'
+                  : 'bg-gradient-to-r from-sky-500 to-coral-600 hover:from-coral-600 hover:to-coral-700 text-white'
               }`}
             >
               {currentQuestionIndex < totalQuestions - 1 ? 'Continue' : 'Finish Exercise'}
@@ -259,7 +259,7 @@ export default function PracticeExerciseViewer({
           {!showFeedback && answer && (
             <button
               onClick={checkAnswer}
-              className="w-full py-4 px-6 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-xl font-bold text-lg hover:from-blue-600 hover:to-purple-600 transition-all shadow-lg"
+              className="w-full py-4 px-6 bg-gradient-to-r from-sky-500 to-peach-500 text-white rounded-xl font-bold text-lg hover:from-coral-600 hover:to-peach-600 transition-all shadow-lg"
             >
               Verificar
             </button>

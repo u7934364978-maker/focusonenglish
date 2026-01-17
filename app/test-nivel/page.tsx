@@ -14,12 +14,12 @@ export default function DiagnosticoPage() {
     <>
       <Navigation />
       <CourseLaunchBanner />
-      <main className="min-h-screen bg-gradient-to-b from-violet-50 via-white to-slate-50">
+      <main className="min-h-screen bg-gradient-to-b from-coral-50 via-white to-slate-50">
         {/* Hero Section */}
         <section className="pt-32 pb-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-100 text-violet-700 text-sm font-bold mb-6">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-coral-100 text-coral-700 text-sm font-bold mb-6">
                 <span>📊</span>
                 <span>Test de Nivel Gratuito</span>
               </div>
@@ -34,19 +34,19 @@ export default function DiagnosticoPage() {
               
               <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-slate-600">
                 <div className="flex items-center gap-2">
-                  <span className="text-violet-600">✓</span>
+                  <span className="text-coral-600">✓</span>
                   <span>15-20 minutos</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="text-violet-600">✓</span>
+                  <span className="text-coral-600">✓</span>
                   <span>Resultados inmediatos</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="text-violet-600">✓</span>
+                  <span className="text-coral-600">✓</span>
                   <span>Nivel A1 hasta C2</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="text-violet-600">✓</span>
+                  <span className="text-coral-600">✓</span>
                   <span>Sin registro</span>
                 </div>
               </div>
@@ -65,8 +65,8 @@ export default function DiagnosticoPage() {
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="bg-gradient-to-br from-violet-50 to-purple-50 rounded-2xl p-6 border border-violet-200">
-                <div className="w-12 h-12 rounded-xl bg-violet-600 flex items-center justify-center text-white text-2xl mb-4">
+              <div className="bg-gradient-to-br from-coral-50 to-peach-50 rounded-2xl p-6 border border-coral-200">
+                <div className="w-12 h-12 rounded-xl bg-coral-600 flex items-center justify-center text-white text-2xl mb-4">
                   🎯
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">
@@ -77,8 +77,8 @@ export default function DiagnosticoPage() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-6 border border-blue-200">
-                <div className="w-12 h-12 rounded-xl bg-blue-600 flex items-center justify-center text-white text-2xl mb-4">
+              <div className="bg-gradient-to-br from-sky-50 to-cyan-50 rounded-2xl p-6 border border-sky-200">
+                <div className="w-12 h-12 rounded-xl bg-coral-600 flex items-center justify-center text-white text-2xl mb-4">
                   ⚡
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">
@@ -127,7 +127,7 @@ export default function DiagnosticoPage() {
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              <div className="bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-violet-400 transition-all">
+              <div className="bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-coral-400 transition-all">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-red-500 to-orange-500 flex items-center justify-center text-white font-black">
                     A1
@@ -142,7 +142,7 @@ export default function DiagnosticoPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-violet-400 transition-all">
+              <div className="bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-coral-400 transition-all">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-orange-500 to-amber-500 flex items-center justify-center text-white font-black">
                     A2
@@ -157,7 +157,7 @@ export default function DiagnosticoPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-violet-400 transition-all">
+              <div className="bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-coral-400 transition-all">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-yellow-500 to-lime-500 flex items-center justify-center text-white font-black">
                     B1
@@ -172,7 +172,7 @@ export default function DiagnosticoPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-violet-400 transition-all">
+              <div className="bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-coral-400 transition-all">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center text-white font-black">
                     B2
@@ -187,9 +187,9 @@ export default function DiagnosticoPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-violet-400 transition-all">
+              <div className="bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-coral-400 transition-all">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-indigo-500 flex items-center justify-center text-white font-black">
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-sky-500 to-melon-500 flex items-center justify-center text-white font-black">
                     C1
                   </div>
                   <div>
@@ -202,9 +202,9 @@ export default function DiagnosticoPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-violet-400 transition-all">
+              <div className="bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-coral-400 transition-all">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-black">
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-peach-500 to-pink-500 flex items-center justify-center text-white font-black">
                     C2
                   </div>
                   <div>
@@ -231,7 +231,7 @@ export default function DiagnosticoPage() {
               <details className="group bg-slate-50 rounded-xl p-6 border border-slate-200">
                 <summary className="font-bold text-slate-900 cursor-pointer list-none flex items-center justify-between">
                   ¿Es realmente gratis?
-                  <span className="text-violet-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-coral-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <p className="text-slate-700 mt-4">
                   Sí, el test de nivel es completamente gratuito y no requiere registro. Puedes hacerlo cuantas veces quieras.
@@ -241,7 +241,7 @@ export default function DiagnosticoPage() {
               <details className="group bg-slate-50 rounded-xl p-6 border border-slate-200">
                 <summary className="font-bold text-slate-900 cursor-pointer list-none flex items-center justify-between">
                   ¿Cuánto tarda el test?
-                  <span className="text-violet-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-coral-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <p className="text-slate-700 mt-4">
                   El test tiene 24 preguntas y generalmente toma entre 15 y 20 minutos. Puedes hacerlo a tu propio ritmo.
@@ -251,7 +251,7 @@ export default function DiagnosticoPage() {
               <details className="group bg-slate-50 rounded-xl p-6 border border-slate-200">
                 <summary className="font-bold text-slate-900 cursor-pointer list-none flex items-center justify-between">
                   ¿Qué tan preciso es el resultado?
-                  <span className="text-violet-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-coral-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <p className="text-slate-700 mt-4">
                   Nuestro test está diseñado por expertos siguiendo los estándares CEFR oficiales. Es una evaluación orientativa muy confiable para conocer tu nivel actual.
@@ -261,7 +261,7 @@ export default function DiagnosticoPage() {
               <details className="group bg-slate-50 rounded-xl p-6 border border-slate-200">
                 <summary className="font-bold text-slate-900 cursor-pointer list-none flex items-center justify-between">
                   ¿Puedo usar diccionario o traductor?
-                  <span className="text-violet-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-coral-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <p className="text-slate-700 mt-4">
                   Para obtener resultados precisos, te recomendamos no usar ayudas externas. El objetivo es evaluar tu nivel real actual.
@@ -271,7 +271,7 @@ export default function DiagnosticoPage() {
               <details className="group bg-slate-50 rounded-xl p-6 border border-slate-200">
                 <summary className="font-bold text-slate-900 cursor-pointer list-none flex items-center justify-between">
                   ¿Qué pasa después del test?
-                  <span className="text-violet-600 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-coral-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <p className="text-slate-700 mt-4">
                   Recibirás tu nivel CEFR, un desglose detallado de tu desempeño y recomendaciones personalizadas de cursos que se adaptan a tu nivel.

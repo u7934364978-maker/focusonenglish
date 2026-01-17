@@ -92,7 +92,7 @@ export function Navigation() {
             <div className="flex flex-col gap-4">
               <Link 
                 href="/planes" 
-                className="text-sm font-bold text-violet-600 hover:text-violet-700 transition-colors"
+                className="text-sm font-bold text-coral-600 hover:text-coral-700 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 💎 Planes y Precios
@@ -103,14 +103,14 @@ export function Navigation() {
                 <div className="text-sm font-bold text-slate-900">📚 Cursos</div>
                 <Link 
                   href="/cursos/trabajo" 
-                  className="text-sm font-semibold text-slate-700 hover:text-violet-600 transition-colors pl-4 block"
+                  className="text-sm font-semibold text-slate-700 hover:text-coral-600 transition-colors pl-4 block"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   💼 Inglés para Trabajar
                 </Link>
                 <Link 
                   href="/cursos/viajes" 
-                  className="text-sm font-semibold text-slate-700 hover:text-blue-600 transition-colors pl-4 block"
+                  className="text-sm font-semibold text-slate-700 hover:text-coral-600 transition-colors pl-4 block"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   ✈️ Inglés para Viajar
@@ -126,21 +126,21 @@ export function Navigation() {
               
               <Link 
                 href="/blog" 
-                className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors"
+                className="text-sm font-bold text-slate-700 hover:text-coral-600 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Blog
               </Link>
               <Link 
                 href="/test-nivel" 
-                className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors"
+                className="text-sm font-bold text-slate-700 hover:text-coral-600 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Test de Nivel
               </Link>
               <Link 
                 href="/cuenta/registro"
-                className="px-4 py-2 rounded-lg bg-gradient-to-r from-violet-600 to-purple-600 text-white font-black text-sm text-center"
+                className="px-4 py-2 rounded-lg bg-gradient-to-r from-coral-600 to-peach-600 text-white font-black text-sm text-center"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Empezar Ahora

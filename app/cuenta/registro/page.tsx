@@ -134,11 +134,11 @@ export default function SignupPage() {
   return (
     <>
       <Navigation />
-      <main className="min-h-screen bg-gradient-to-b from-violet-50 to-white">
+      <main className="min-h-screen bg-gradient-to-b from-cream-50 to-white">
         {/* Hero Section */}
         <section className="pt-32 pb-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-100 text-violet-700 text-sm font-bold mb-6">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-coral-100 text-coral-700 text-sm font-bold mb-6">
               <span>🎓</span>
               <span>Inscripción y Pago</span>
             </div>
@@ -170,12 +170,12 @@ export default function SignupPage() {
                   onClick={() => setSelectedPlan(plan.id)}
                   className={`relative text-left bg-white rounded-2xl p-8 border-2 transition-all hover:shadow-xl ${
                     selectedPlan === plan.id
-                      ? `${plan.color.border} shadow-xl ring-4 ring-${plan.id === 'premium' ? 'violet' : 'blue'}-100`
+                      ? `${plan.color.border} shadow-xl ring-4 ring-coral-100`
                       : 'border-slate-200 hover:border-slate-300'
                   } ${plan.popular ? 'md:scale-105' : ''}`}
                 >
                   {plan.popular && (
-                    <div className="absolute top-0 right-0 bg-gradient-to-r from-violet-600 to-purple-600 text-white px-4 py-1 rounded-bl-lg rounded-tr-lg font-bold text-sm">
+                    <div className="absolute top-0 right-0 bg-gradient-to-r from-coral-500 to-peach-500 text-white px-4 py-1 rounded-bl-lg rounded-tr-lg font-bold text-sm">
                       ⭐ Más Popular
                     </div>
                   )}
@@ -221,7 +221,7 @@ export default function SignupPage() {
             </div>
 
             <div className="mt-8 text-center">
-              <Link href="/planes" className="text-violet-600 font-bold hover:underline">
+              <Link href="/planes" className="text-coral-600 font-bold hover:underline">
                 Ver comparación completa de planes →
               </Link>
             </div>
@@ -267,7 +267,7 @@ export default function SignupPage() {
                         onChange={handleChange}
                         required
                         disabled={isSubmitting}
-                        className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-violet-600 focus:border-transparent disabled:bg-gray-100"
+                        className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-coral-600 focus:border-transparent disabled:bg-gray-100"
                         placeholder="Juan Pérez"
                       />
                     </div>
@@ -283,7 +283,7 @@ export default function SignupPage() {
                         onChange={handleChange}
                         required
                         disabled={isSubmitting}
-                        className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-violet-600 focus:border-transparent disabled:bg-gray-100"
+                        className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-coral-600 focus:border-transparent disabled:bg-gray-100"
                         placeholder="tu@email.com"
                       />
                     </div>
@@ -299,7 +299,7 @@ export default function SignupPage() {
                       value={formData.phone}
                       onChange={handleChange}
                       disabled={isSubmitting}
-                      className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-violet-600 focus:border-transparent disabled:bg-gray-100"
+                      className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-coral-600 focus:border-transparent disabled:bg-gray-100"
                       placeholder="+34 600 000 000"
                     />
                   </div>
@@ -313,7 +313,7 @@ export default function SignupPage() {
                       value={formData.currentLevel}
                       onChange={handleChange}
                       disabled={isSubmitting}
-                      className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-violet-600 focus:border-transparent disabled:bg-gray-100"
+                      className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-coral-600 focus:border-transparent disabled:bg-gray-100"
                     >
                       <option value="">No lo sé</option>
                       <option value="a1">A1 - Principiante</option>
@@ -335,7 +335,7 @@ export default function SignupPage() {
                       onChange={handleChange}
                       rows={3}
                       disabled={isSubmitting}
-                      className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-violet-600 focus:border-transparent disabled:bg-gray-100"
+                      className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-coral-600 focus:border-transparent disabled:bg-gray-100"
                       placeholder="Cuéntanos tus objetivos..."
                     />
                   </div>
@@ -353,14 +353,14 @@ export default function SignupPage() {
                     </label>
                   </div>
 
-                  <div className="bg-violet-50 border border-violet-200 rounded-lg p-4">
+                  <div className="bg-coral-50 border border-coral-200 rounded-lg p-4">
                     <div className="flex items-start gap-3">
-                      <svg className="w-5 h-5 text-violet-600 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 text-coral-600 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                       </svg>
                       <div className="flex-1">
-                        <p className="text-sm font-bold text-violet-900 mb-1">Suscripción Segura</p>
-                        <p className="text-xs text-violet-700">Al hacer clic en "Suscribirme", serás redirigido a Stripe, nuestra pasarela de pago segura. La suscripción se renovará automáticamente cada mes. Puedes cancelar en cualquier momento.</p>
+                        <p className="text-sm font-bold text-coral-900 mb-1">Suscripción Segura</p>
+                        <p className="text-xs text-coral-700">Al hacer clic en "Suscribirme", serás redirigido a Stripe, nuestra pasarela de pago segura. La suscripción se renovará automáticamente cada mes. Puedes cancelar en cualquier momento.</p>
                       </div>
                     </div>
                   </div>
@@ -368,7 +368,7 @@ export default function SignupPage() {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-gradient-to-r from-violet-600 to-purple-600 text-white py-4 rounded-lg font-bold text-lg hover:from-violet-700 hover:to-purple-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                    className="w-full bg-gradient-to-r from-coral-500 to-peach-500 text-white py-4 rounded-lg font-bold text-lg hover:from-coral-600 hover:to-peach-600 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                   >
                     {isSubmitting ? (
                       <>
