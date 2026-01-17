@@ -126,7 +126,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 ? q.correctAnswer.map(a => a.toLowerCase().trim())
                 : [q.correctAnswer.toLowerCase().trim()];
               const isCorrect = correctAnswer.some(ca => 
-                userAnswer.toLowerCase().trim() === ca || userAnswer.toLowerCase().includes(ca)
+                userAnswer.toLowerCase().trim() === ca
               );
               if (isCorrect) earnedPoints += q.points;
             }
@@ -137,7 +137,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               ? q.correctAnswer.map(a => a.toLowerCase().trim())
               : [q.correctAnswer.toLowerCase().trim()];
             const isCorrect = correctAnswer.some(ca => 
-              userAnswer.toLowerCase().trim() === ca || userAnswer.toLowerCase().includes(ca)
+              userAnswer.toLowerCase().trim() === ca
             );
             if (isCorrect) earnedPoints += q.points;
           }

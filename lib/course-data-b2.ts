@@ -288,8 +288,8 @@ export interface CourseProgress {
 export const MODULE_1_LESSONS: Lesson[] = [
   {
     id: 'b2-m1-l1',
-    title: 'Lección 1: Past Perfect y Past Perfect Continuous',
-    description: 'Domina el uso de tiempos perfectos en narrativas complejas',
+    title: 'Lesson 1: Past Perfect and Past Perfect Continuous',
+    description: 'Master the use of perfect tenses in complex narratives',
     duration: 90,
     objectives: [
       'Usar Past Perfect para acciones anteriores a otras en el pasado',
@@ -1248,8 +1248,8 @@ The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for y
   },
   {
     id: 'b2-m1-l2',
-    title: 'Lección 2: Mixed Conditionals y Inversión',
-    description: 'Domina estructuras condicionales complejas y énfasis mediante inversión',
+    title: 'Lesson 2: Mixed Conditionals and Inversion',
+    description: 'Master complex conditional structures and emphasis through inversion',
     duration: 90,
     objectives: [
       'Formar y usar mixed conditionals correctamente',
@@ -2051,7 +2051,7 @@ Understanding and correctly applying these structures enables researchers to con
   // LECCIÓN 3: Cleft Sentences & Emphasis
   {
     id: 'b2-m1-l3',
-    title: 'Lección 3: Cleft Sentences y Técnicas de Énfasis',
+    title: 'Lesson 3: Cleft Sentences and Emphasis Techniques',
     description: 'Aprende a usar estructuras enfáticas para mejorar tu escritura y expresión oral',
     duration: 90,
     objectives: [
@@ -2783,8 +2783,8 @@ However, overuse diminishes impact. It is judicious application that makes empha
   // LECCIÓN 4: Narrative Tenses Review
   {
     id: 'b2-m1-l4',
-    title: 'Lección 4: Revisión Completa de Tiempos Narrativos',
-    description: 'Integra todos los tiempos pasados para crear narrativas sofisticadas',
+    title: 'Lesson 4: Complete Review of Narrative Tenses',
+    description: 'Integrate all past tenses to create sophisticated narratives',
     duration: 90,
     objectives: [
       'Revisar y contrastar Past Simple, Past Continuous, Past Perfect',
@@ -3473,8 +3473,8 @@ Master storytellers understand that varying tenses isn't just grammatically corr
   // ============================================
   {
     id: 'b2-m1-l5',
-    title: 'Lección 5: Análisis Literario y Crítica',
-    description: 'Desarrolla habilidades de análisis crítico y vocabulario literario avanzado',
+    title: 'Lesson 5: Literary Analysis and Criticism',
+    description: 'Develop critical analysis skills and advanced literary vocabulary',
     duration: 90,
     objectives: [
       'Analizar textos literarios con profundidad',
@@ -3792,7 +3792,7 @@ Critics might {{6}} that watching films or series could provide similar benefits
   // ============================================
   {
     id: 'b2-m1-l6',
-    title: 'Lección 6: Examen de Práctica Módulo 1',
+    title: 'Lesson 6: Module 1 Practice Exam',
     description: 'Examen completo de práctica que integra todo el contenido del Módulo 1',
     duration: 120,
     objectives: [
@@ -4015,7 +4015,7 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
 export const MODULE_2_LESSONS: Lesson[] = [
   {
     id: 'b2-m2-l1',
-    title: 'Lección 1: Modales de Especulación y Deducción',
+    title: 'Lesson 1: Modals of Speculation and Deduction',
     description: 'Aprende a expresar probabilidad, posibilidad y hacer deducciones',
     duration: 90,
     objectives: [
@@ -4162,8 +4162,8 @@ export const MODULE_2_LESSONS: Lesson[] = [
   },
   {
     id: 'b2-m2-l2',
-    title: 'Lección 2: Voz Pasiva Avanzada',
-    description: 'Domina el uso de la voz pasiva en diferentes tiempos y contextos',
+    title: 'Lesson 2: Advanced Passive Voice',
+    description: 'Master the use of passive voice in different tenses and contexts',
     duration: 90,
     objectives: [
       'Usar voz pasiva en todos los tiempos verbales',
@@ -4311,8 +4311,8 @@ As we move forward, experts predict that hybrid models will become the {{7}}. Ra
   // ============================================
   {
     id: 'b2-m2-l3',
-    title: 'Lección 3: Estilo Indirecto Avanzado',
-    description: 'Domina el reported speech con reporting verbs y estructuras complejas',
+    title: 'Lesson 3: Advanced Reported Speech',
+    description: 'Master reported speech with reporting verbs and complex structures',
     duration: 90,
     objectives: [
       'Reportar declaraciones, preguntas y órdenes',
@@ -4461,7 +4461,7 @@ As we move forward, experts predict that hybrid models will become the {{7}}. Ra
   // ============================================
   {
     id: 'b2-m2-l4',
-    title: 'Lección 4: Conectores y Marcadores del Discurso',
+    title: 'Lesson 4: Connectors and Discourse Markers',
     description: 'Mejora la coherencia y cohesión de tu inglés con linking words avanzados',
     duration: 90,
     objectives: [
@@ -4543,8 +4543,8 @@ As we move forward, experts predict that hybrid models will become the {{7}}. Ra
   // ============================================
   {
     id: 'b2-m2-l5',
-    title: 'Lección 5: Técnicas de Argumentación',
-    description: 'Desarrolla habilidades para presentar y defender argumentos de manera efectiva',
+    title: 'Lesson 5: Argumentation Techniques',
+    description: 'Develop skills to present and defend arguments effectively',
     duration: 90,
     objectives: [
       'Estructurar argumentos lógicos y persuasivos',
@@ -4690,14 +4690,14 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
   // ============================================
   {
     id: 'b2-m2-l6',
-    title: 'Lección 6: Examen de Práctica Módulo 2',
-    description: 'Examen completo que integra debate, opinión y técnicas de persuasión',
+    title: 'Lesson 6: Module 2 Practice Exam',
+    description: 'Complete exam integrating debate, opinion and persuasion techniques',
     duration: 120,
     objectives: [
-      'Evaluar dominio del Módulo 2',
-      'Practicar argumentación bajo presión',
-      'Demostrar uso de conectores y reported speech',
-      'Prepararse para la parte de opinión del B2 First'
+      'Assess Module 2 mastery',
+      'Practice argumentation under pressure',
+      'Demonstrate use of connectors and reported speech',
+      'Prepare for the opinion section of B2 First'
     ],
     exercises: [
       {
@@ -4752,8 +4752,8 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
 export const MODULE_3_LESSONS: Lesson[] = [
   {
     id: 'b2-m3-l1',
-    title: 'Lección 1: Escritura Formal y Estructuras Complejas',
-    description: 'Domina las estructuras de escritura formal para contextos profesionales y académicos',
+    title: 'Lesson 1: Formal Writing and Complex Structures',
+    description: 'Master formal writing structures for professional and academic contexts',
     duration: 90,
     objectives: [
       'Usar estructuras formales apropiadas',
@@ -4888,7 +4888,7 @@ export const MODULE_3_LESSONS: Lesson[] = [
   },
   {
     id: 'b2-m3-l2',
-    title: 'Lección 2: Phrasal Verbs y Expresiones Idiomáticas',
+    title: 'Lesson 2: Phrasal Verbs and Idiomatic Expressions',
     description: 'Amplía tu vocabulario con phrasal verbs comunes y expresiones idiomáticas',
     duration: 90,
     objectives: [
@@ -4965,8 +4965,8 @@ export const MODULE_3_LESSONS: Lesson[] = [
   // LECCIÓN 3: Academic Presentations & Public Speaking
   {
     id: 'b2-m3-l3',
-    title: 'Lección 3: Presentaciones Académicas y Hablar en Público',
-    description: 'Desarrolla habilidades para presentaciones efectivas en contextos académicos y profesionales',
+    title: 'Lesson 3: Academic Presentations and Public Speaking',
+    description: 'Develop skills for effective presentations in academic and professional contexts',
     duration: 90,
     objectives: [
       'Estructurar presentaciones claras y convincentes',
@@ -5304,8 +5304,8 @@ Thank you for your attention. I'd be happy to take any questions.`,
   // LECCIÓN 4: Advanced Collocations & Idiomatic Expressions
   {
     id: 'b2-m3-l4',
-    title: 'Lección 4: Colocaciones e Expresiones Idiomáticas Avanzadas',
-    description: 'Domina colocaciones naturales y expresiones idiomáticas para sonar más fluido',
+    title: 'Lesson 4: Advanced Collocations and Idiomatic Expressions',
+    description: 'Master natural collocations and idiomatic expressions to sound more fluent',
     duration: 90,
     objectives: [
       'Reconocer y usar colocaciones comunes',
@@ -5630,8 +5630,8 @@ Dr. Lee: My pleasure!`,
   // LECCIÓN 5: Business Communication & Negotiation
   {
     id: 'b2-m3-l5',
-    title: 'Lección 5: Comunicación Empresarial y Negociación',
-    description: 'Desarrolla habilidades para comunicar efectivamente en entornos empresariales',
+    title: 'Lesson 5: Business Communication and Negotiation',
+    description: 'Develop skills to communicate effectively in business environments',
     duration: 90,
     objectives: [
       'Usar lenguaje diplomático en negociaciones',
@@ -6022,14 +6022,14 @@ James: Excellent. Thank you both for being so collaborative. This is a good exam
   // LECCIÓN 6: Module 3 & Final Mock Exam
   {
     id: 'b2-m3-l6',
-    title: 'Lección 6: Examen Final Completo - B2 First (FCE)',
-    description: 'Examen de práctica completo simulando el examen B2 First real',
+    title: 'Lesson 6: Complete Final Exam - B2 First (FCE)',
+    description: 'Complete practice exam simulating the real B2 First exam',
     duration: 210,
     objectives: [
-      'Practicar las 4 habilidades en formato de examen real',
-      'Gestionar tiempo efectivamente en cada sección',
-      'Evaluar preparación completa para el B2 First',
-      'Identificar últimas áreas de mejora'
+      'Practice all 4 skills in real exam format',
+      'Manage time effectively in each section',
+      'Assess complete B2 First preparation',
+      'Identify final areas for improvement'
     ],
     exercises: [
       {
@@ -6203,15 +6203,15 @@ export const ALL_MODULES: Module[] = [
   {
     id: 'b2-module-1',
     number: 1,
-    title: 'Módulo 1: Narrativas Complejas y Análisis',
-    description: 'Domina estructuras narrativas avanzadas, tiempos perfectos y técnicas de énfasis para el nivel B2 First (FCE)',
-    duration: '4-5 semanas',
+    title: 'Module 1: Complex Narratives and Analysis',
+    description: 'Master advanced narrative structures, perfect tenses, and emphasis techniques for B2 First (FCE) level',
+    duration: '4-5 weeks',
     topics: [
-      'Literatura y crítica',
-      'Cine, arte y cultura',
-      'Eventos históricos',
-      'Biografías detalladas',
-      'Análisis de situaciones'
+      'Literature and criticism',
+      'Cinema, art and culture',
+      'Historical events',
+      'Detailed biographies',
+      'Situation analysis'
     ],
     grammar: [
       'Perfect tenses review',
@@ -6222,11 +6222,11 @@ export const ALL_MODULES: Module[] = [
       'Cleft sentences'
     ],
     vocabulary: [
-      'Expresiones idiomáticas avanzadas',
-      'Colocaciones comunes',
-      'Vocabulario literario',
-      'Crítica y análisis',
-      'Phrasal verbs avanzados'
+      'Advanced idiomatic expressions',
+      'Common collocations',
+      'Literary vocabulary',
+      'Criticism and analysis',
+      'Advanced phrasal verbs'
     ],
     lessons: MODULE_1_LESSONS,
     examPractice: {
@@ -6238,29 +6238,29 @@ export const ALL_MODULES: Module[] = [
   {
     id: 'b2-module-2',
     number: 2,
-    title: 'Módulo 2: Debate, Opinión y Persuasión',
-    description: 'Desarrolla habilidades para expresar opiniones, hacer deducciones y construir argumentos persuasivos',
-    duration: '4-5 semanas',
+    title: 'Module 2: Debate, Opinion and Persuasion',
+    description: 'Develop skills to express opinions, make deductions and build persuasive arguments',
+    duration: '4-5 weeks',
     topics: [
-      'Problemas sociales',
-      'Medio ambiente',
-      'Tecnología y sociedad',
-      'Ética y valores',
-      'Debate y argumentación'
+      'Social issues',
+      'Environment',
+      'Technology and society',
+      'Ethics and values',
+      'Debate and argumentation'
     ],
     grammar: [
-      'Modal verbs para especulación',
-      'Voz pasiva avanzada',
-      'Reported speech avanzado',
-      'Linking words sofisticados',
-      'Estructuras de énfasis'
+      'Modal verbs for speculation',
+      'Advanced passive voice',
+      'Advanced reported speech',
+      'Sophisticated linking words',
+      'Emphasis structures'
     ],
     vocabulary: [
-      'Vocabulario de debate',
-      'Expresiones de opinión',
-      'Lenguaje persuasivo',
-      'Conectores lógicos',
-      'Vocabulario académico'
+      'Debate vocabulary',
+      'Opinion expressions',
+      'Persuasive language',
+      'Logical connectors',
+      'Academic vocabulary'
     ],
     lessons: MODULE_2_LESSONS,
     examPractice: {
@@ -6272,29 +6272,29 @@ export const ALL_MODULES: Module[] = [
   {
     id: 'b2-module-3',
     number: 3,
-    title: 'Módulo 3: Comunicación Profesional y Académica',
-    description: 'Perfecciona tu inglés para contextos profesionales, académicos y exámenes oficiales',
-    duration: '4-5 semanas',
+    title: 'Module 3: Professional and Academic Communication',
+    description: 'Perfect your English for professional, academic and official exam contexts',
+    duration: '4-5 weeks',
     topics: [
-      'Negocios y profesiones',
-      'Comunicación formal',
-      'Presentaciones académicas',
-      'Escritura profesional',
-      'Preparación de exámenes'
+      'Business and professions',
+      'Formal communication',
+      'Academic presentations',
+      'Professional writing',
+      'Exam preparation'
     ],
     grammar: [
-      'Estructuras formales complejas',
-      'Registro formal vs informal',
-      'Subjuntivo y estructuras condicionales',
+      'Complex formal structures',
+      'Formal vs informal register',
+      'Subjunctive and conditional structures',
       'Nominalization',
-      'Cohesión textual avanzada'
+      'Advanced textual cohesion'
     ],
     vocabulary: [
-      'Vocabulario profesional',
-      'Phrasal verbs en contexto',
-      'Colocaciones y expresiones',
-      'Vocabulario de examen',
-      'Lenguaje idiomático'
+      'Professional vocabulary',
+      'Phrasal verbs in context',
+      'Collocations and expressions',
+      'Exam vocabulary',
+      'Idiomatic language'
     ],
     lessons: MODULE_3_LESSONS,
     examPractice: {
