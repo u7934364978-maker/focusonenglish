@@ -48,6 +48,11 @@ export interface LessonProgress {
 
 export async function getUserProfile(userId: string): Promise<UserProfile | null> {
   try {
+    if (!supabase) {
+      console.warn('Supabase client not initialized');
+      return null;
+    }
+
     const { data, error } = await supabase
       .from('user_profiles')
       .select('*')
@@ -71,6 +76,10 @@ export async function updateUserProfile(
   updates: Partial<UserProfile>
 ): Promise<{ success: boolean; error?: string }> {
   try {
+    if (!supabase) {
+      return { success: false, error: 'Supabase client not initialized' };
+    }
+
     const { error } = await supabase
       .from('user_profiles')
       .update({
@@ -125,6 +134,11 @@ export async function createUserProfile(profile: UserProfile): Promise<{ success
 
 export async function getUserProgress(userId: string): Promise<UserProgress | null> {
   try {
+    if (!supabase) {
+      console.warn('Supabase client not initialized');
+      return null;
+    }
+
     const { data, error } = await supabase
       .from('user_progress')
       .select('*')
@@ -174,6 +188,11 @@ export async function updateUserProgress(
 
 export async function getUserLessonProgress(userId: string): Promise<LessonProgress[]> {
   try {
+    if (!supabase) {
+      console.warn('Supabase client not initialized');
+      return [];
+    }
+
     const { data, error } = await supabase
       .from('lesson_progress')
       .select('*')
@@ -224,6 +243,11 @@ export async function saveLessonProgress(
 
 export async function getRecentActivity(userId: string, limit: number = 10) {
   try {
+    if (!supabase) {
+      console.warn('Supabase client not initialized');
+      return [];
+    }
+
     const { data, error } = await supabase
       .from('lesson_progress')
       .select('*')
@@ -263,6 +287,16 @@ export async function getUserStats(userId: string) {
 
 export async function getSkillsBreakdown(userId: string) {
   try {
+    if (!supabase) {
+      console.warn('Supabase client not initialized');
+      return {
+        reading: 0,
+        writing: 0,
+        listening: 0,
+        speaking: 0,
+      };
+    }
+
     // Query exercises by type and calculate average scores
     const { data: exerciseResults, error } = await supabase
       .from('exercise_results')
