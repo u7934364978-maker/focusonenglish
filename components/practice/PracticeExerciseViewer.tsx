@@ -57,27 +57,44 @@ export default function PracticeExerciseViewer({
       ? currentQuestion.correctAnswer.map(a => a.toLowerCase().trim())
       : [currentQuestion.correctAnswer.toLowerCase().trim()];
 
+    console.log('DEBUG - User answer:', userAnswer);
+    console.log('DEBUG - Correct answers:', correctAnswers);
+    console.log('DEBUG - Has options:', currentQuestion.options ? 'YES' : 'NO');
+    if (currentQuestion.options) {
+      console.log('DEBUG - Options:', currentQuestion.options);
+    }
+
     // If question has options, also accept the actual text from the correct option
     let correct = correctAnswers.some(ca => userAnswer === ca);
+    
+    console.log('DEBUG - Direct match:', correct);
     
     // If not correct and has options, check if user wrote the actual answer text
     if (!correct && currentQuestion.options && currentQuestion.options.length > 0) {
       // Find the correct option based on the letter
       const correctLetter = correctAnswers[0]; // e.g., "a"
+      console.log('DEBUG - Looking for option starting with:', correctLetter + ')');
+      
       const correctOption = currentQuestion.options.find(opt => 
         opt.trim().toLowerCase().startsWith(correctLetter + ')')
       );
       
+      console.log('DEBUG - Found correct option:', correctOption);
+      
       if (correctOption) {
         // Extract the text after "A) ", "B) ", etc.
         const optionText = correctOption.substring(correctOption.indexOf(')') + 1).trim().toLowerCase();
+        console.log('DEBUG - Option text extracted:', optionText);
         
         // Check if user answer matches the option text
         if (userAnswer === optionText) {
           correct = true;
+          console.log('DEBUG - Match with option text!');
         }
       }
     }
+
+    console.log('DEBUG - Final result:', correct ? 'CORRECT' : 'INCORRECT');
 
     setIsCorrect(correct);
     setShowFeedback(true);
