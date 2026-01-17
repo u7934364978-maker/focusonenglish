@@ -45,7 +45,7 @@ export function CourseLaunchBanner() {
   };
 
   return (
-    <div className="sticky top-0 z-50 bg-gradient-to-r from-coral-50 via-peach-50 to-melon-50 border-b border-coral-200 shadow-md">
+    <div className="sticky top-16 z-[90] bg-gradient-to-r from-coral-50 via-peach-50 to-melon-50 border-b border-coral-200 shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
           
