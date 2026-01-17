@@ -21,6 +21,7 @@ export default function GoogleAnalytics() {
     '/settings',
     '/leccion',
     '/certificados',
+    '/practica', // Área de práctica con ejercicios interactivos
   ];
 
   // Verificar si la ruta actual debe ser excluida
