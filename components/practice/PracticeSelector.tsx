@@ -90,91 +90,60 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
-      <div className="bg-white rounded-2xl shadow-lg p-8">
-        {/* Header */}
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        {/* Header compacto */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-3">
-            ¿Qué quieres practicar hoy? 🚀
+          <h1 className="text-3xl font-bold text-gray-900 mb-2">
+            ¿Qué quieres practicar?
           </h1>
-          <p className="text-lg text-gray-600">
-            Ejercicios ilimitados adaptados a tu nivel
-          </p>
+          <p className="text-gray-600">Selecciona un tipo de ejercicio para comenzar</p>
         </div>
 
-        {/* Selector de Categoría */}
-        <div className="mb-8">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">1. Elige una categoría</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
-            {categories.map(cat => (
-              <button
-                key={cat.id}
-                onClick={() => {
-                  setSelectedCategory(cat.id);
-                  setSelectedType(''); // Reset tipo al cambiar categoría
-                }}
-                className={`
-                  p-4 rounded-xl border-2 transition-all flex flex-col items-center gap-2
-                  ${selectedCategory === cat.id 
-                    ? 'border-blue-600 bg-blue-50 shadow-md' 
-                    : 'border-gray-200 hover:border-blue-300 hover:bg-gray-50'}
-                `}
-              >
-                <span className="text-3xl">{cat.icon}</span>
-                <span className="text-sm font-medium text-gray-900">{cat.nameES}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Selector de Tipo de Ejercicio */}
-        <div className="mb-8">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">2. Selecciona el tipo de ejercicio</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {/* Selector de Tipo de Ejercicio - Vista compacta */}
+        <div className="mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {filteredTypes.map(type => (
               <button
                 key={type.id}
                 onClick={() => setSelectedType(type.id)}
                 className={`
-                  p-5 rounded-xl border-2 transition-all text-left
+                  p-4 rounded-xl border-2 transition-all text-left hover:scale-[1.02]
                   ${selectedType === type.id 
-                    ? 'border-blue-600 bg-blue-50 shadow-md' 
-                    : 'border-gray-200 hover:border-blue-300 hover:bg-gray-50'}
+                    ? 'border-green-500 bg-green-50 shadow-lg' 
+                    : 'border-gray-200 hover:border-blue-300 bg-white'}
                 `}
               >
-                <div className="flex items-start gap-3 mb-2">
-                  <span className="text-2xl">{type.icon}</span>
+                <div className="flex items-center gap-3">
+                  <span className="text-3xl">{type.icon}</span>
                   <div className="flex-1">
-                    <h3 className="font-bold text-gray-900">{type.nameES}</h3>
-                    <p className="text-xs text-gray-600 mt-1">{type.descriptionES}</p>
+                    <h3 className="font-bold text-gray-900 text-sm">{type.nameES}</h3>
+                    <p className="text-xs text-gray-500 mt-0.5">⏱️ {type.estimatedTime} min</p>
                   </div>
-                </div>
-                <div className="flex items-center gap-2 mt-3 text-xs text-gray-500">
-                  <span>⏱️ {type.estimatedTime} min</span>
-                  {selectedType === type.id && <span className="ml-auto text-blue-600 font-bold">✓ Seleccionado</span>}
+                  {selectedType === type.id && (
+                    <span className="text-green-600 text-xl">✓</span>
+                  )}
                 </div>
               </button>
             ))}
           </div>
         </div>
 
-        {/* Configuración adicional - Solo si hay tipo seleccionado */}
+        {/* Configuración - Solo si hay tipo seleccionado */}
         {selectedType && selectedTypeConfig && (
-          <div className="space-y-6 mb-8 p-6 bg-gray-50 rounded-xl">
-            <h2 className="text-xl font-bold text-gray-900">3. Configura tu práctica</h2>
-
-            {/* Selector de Tema */}
+          <div className="space-y-4 mb-6">
+            {/* Selector de Tema - Inline */}
             {(selectedTypeConfig.category === 'grammar' || selectedTypeConfig.category === 'vocabulary') && (
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Tema específico (opcional)
+              <div className="bg-white rounded-xl p-4 border-2 border-gray-200">
+                <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  Tema (opcional)
                 </label>
                 <select
                   value={selectedTopic}
                   onChange={(e) => setSelectedTopic(e.target.value)}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 >
-                  <option value="">Tema general</option>
+                  <option value="">Todos los temas</option>
                   {selectedTypeConfig.category === 'grammar' && B2_GRAMMAR_TOPICS.map(topic => (
                     <option key={topic.id} value={topic.id}>{topic.nameES}</option>
                   ))}
@@ -185,20 +154,20 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
               </div>
             )}
 
-            {/* Selector de Dificultad */}
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Nivel de dificultad
+            {/* Selector de Dificultad - Compacto */}
+            <div className="bg-white rounded-xl p-4 border-2 border-gray-200">
+              <label className="block text-sm font-semibold text-gray-700 mb-2">
+                Dificultad
               </label>
-              <div className="grid grid-cols-3 gap-3">
+              <div className="grid grid-cols-3 gap-2">
                 {(['easy', 'medium', 'hard'] as DifficultyLevel[]).map(level => (
                   <button
                     key={level}
                     onClick={() => setDifficulty(level)}
                     className={`
-                      p-3 rounded-lg border-2 font-medium transition-all
+                      p-2 rounded-lg border-2 font-medium transition-all text-sm
                       ${difficulty === level 
-                        ? 'border-blue-600 bg-blue-50 text-blue-700' 
+                        ? 'border-blue-500 bg-blue-50 text-blue-700' 
                         : 'border-gray-300 hover:border-blue-300 text-gray-700'}
                     `}
                   >
@@ -208,60 +177,33 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
                   </button>
                 ))}
               </div>
-              <p className="text-xs text-gray-600 mt-2">
-                {selectedTypeConfig.difficultySettings[difficulty]}
-              </p>
-            </div>
-
-            {/* Info de práctica infinita */}
-            <div className="bg-gradient-to-r from-purple-50 to-blue-50 p-4 rounded-lg border-2 border-purple-200">
-              <div className="flex items-start gap-3">
-                <span className="text-2xl">∞</span>
-                <div>
-                  <h4 className="font-bold text-gray-900 mb-1">Práctica Ilimitada</h4>
-                  <p className="text-sm text-gray-700">
-                    Los ejercicios se generarán uno a uno de forma continua. Practica todo el tiempo que quieras y sal cuando termines.
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         )}
 
-        {/* Botón de inicio */}
+        {/* Botón de inicio - Grande y llamativo */}
         <div className="flex justify-center">
           <button
             onClick={handleStartPractice}
             disabled={!selectedType || loading}
             className={`
-              px-8 py-4 rounded-xl font-bold text-lg transition-all
+              w-full max-w-md px-8 py-4 rounded-xl font-bold text-lg transition-all
               ${selectedType && !loading
-                ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl'
+                ? 'bg-gradient-to-r from-green-500 to-green-600 text-white hover:from-green-600 hover:to-green-700 shadow-lg hover:shadow-xl transform hover:scale-105'
                 : 'bg-gray-300 text-gray-500 cursor-not-allowed'}
             `}
           >
             {loading ? (
-              <span className="flex items-center gap-2">
+              <span className="flex items-center justify-center gap-2">
                 <span className="animate-spin">⏳</span>
-                Generando ejercicios...
+                Generando...
               </span>
             ) : (
-              <span className="flex items-center gap-2">
-                🚀 Comenzar Práctica
+              <span className="flex items-center justify-center gap-2">
+                Comenzar
               </span>
             )}
           </button>
-        </div>
-
-        {/* Info adicional */}
-        <div className="mt-8 p-4 bg-blue-50 rounded-lg border border-blue-200">
-          <h3 className="font-bold text-blue-900 mb-2">💡 ¿Cómo funciona?</h3>
-          <ul className="text-sm text-blue-800 space-y-1">
-            <li>✓ Ejercicios generados al instante</li>
-            <li>✓ Contenido siempre nuevo y diferente</li>
-            <li>✓ Adaptado a tu nivel B2 y preferencias</li>
-            <li>✓ Feedback inmediato y explicaciones detalladas</li>
-          </ul>
         </div>
       </div>
     </div>
