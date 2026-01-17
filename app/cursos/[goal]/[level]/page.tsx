@@ -210,7 +210,7 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
 
         {/* Quick Info Cards */}
         <div className="grid md:grid-cols-3 gap-6 mb-12">
-          <div className="bg-white rounded-xl border-2 border-sky-200 p-6 text-center">
+          <div className="bg-white rounded-xl border-2 border-orange-200 p-6 text-center">
             <div className="text-3xl mb-2">⏱️</div>
             <div className="font-bold text-slate-900">Duración</div>
             <div className="text-coral-600 font-semibold">{curriculum?.duration || '12 semanas'}</div>
@@ -220,10 +220,10 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
             <div className="font-bold text-slate-900">Módulos</div>
             <div className="text-peach-600 font-semibold">{curriculum?.modules.length || 3} módulos completos</div>
           </div>
-          <div className="bg-white rounded-xl border-2 border-green-200 p-6 text-center">
+          <div className="bg-white rounded-xl border-2 border-amber-200 p-6 text-center">
             <div className="text-3xl mb-2">🎓</div>
             <div className="font-bold text-slate-900">Certificación</div>
-            <div className="text-green-600 font-semibold">Preparación oficial</div>
+            <div className="text-amber-600 font-semibold">Preparación oficial</div>
           </div>
         </div>
       </div>
@@ -316,7 +316,7 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
         {/* Pricing CTA */}
         <section className="mt-12 bg-gradient-to-r from-coral-600 to-peach-600 rounded-2xl p-8 text-white text-center">
           <h2 className="text-3xl font-black mb-4">Acceso Completo con Suscripción</h2>
-          <p className="text-lg mb-6 text-sky-100">
+          <p className="text-lg mb-6 text-orange-100">
             Accede a este curso y todos los niveles (A1-C2) con nuestra suscripción mensual
           </p>
           <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -332,7 +332,7 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
           </div>
           <Link
             href="/planes"
-            className="inline-block bg-white text-coral-600 px-8 py-4 rounded-xl font-bold text-lg hover:bg-sky-50 transition-all shadow-lg"
+            className="inline-block bg-white text-coral-600 px-8 py-4 rounded-xl font-bold text-lg hover:bg-orange-50 transition-all shadow-lg"
           >
             Ver Planes y Características →
           </Link>

@@ -60,10 +60,10 @@ export function SpecializedCoursesPromo() {
           </div>
 
           {/* Inglés para Viajar */}
-          <div className="group relative overflow-hidden rounded-2xl border-2 border-slate-200 bg-white hover:border-sky-300 transition-all">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-sky-100 to-transparent rounded-bl-full"></div>
+          <div className="group relative overflow-hidden rounded-2xl border-2 border-slate-200 bg-white hover:border-orange-300 transition-all">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-orange-100 to-transparent rounded-bl-full"></div>
             <div className="relative p-8">
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-coral-600 to-cyan-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-coral-600 to-peach-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -105,10 +105,10 @@ export function SpecializedCoursesPromo() {
           </div>
 
           {/* Preparar Exámenes */}
-          <div className="group relative overflow-hidden rounded-2xl border-2 border-slate-200 bg-white hover:border-emerald-300 transition-all">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-emerald-100 to-transparent rounded-bl-full"></div>
+          <div className="group relative overflow-hidden rounded-2xl border-2 border-slate-200 bg-white hover:border-amber-300 transition-all">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-amber-100 to-transparent rounded-bl-full"></div>
             <div className="relative p-8">
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-emerald-600 to-green-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-600 to-amber-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -119,19 +119,19 @@ export function SpecializedCoursesPromo() {
               </p>
               <ul className="space-y-2 mb-6 text-sm text-slate-600">
                 <li className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-emerald-600" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   Cambridge B2 First & C1
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-emerald-600" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   TOEFL iBT
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-emerald-600" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   IELTS Academic
@@ -139,7 +139,7 @@ export function SpecializedCoursesPromo() {
               </ul>
               <Link 
                 href="/cursos"
-                className="inline-flex items-center justify-center w-full px-6 py-3 rounded-xl bg-emerald-600 text-white font-black hover:bg-emerald-700 transition-colors"
+                className="inline-flex items-center justify-center w-full px-6 py-3 rounded-xl bg-amber-600 text-white font-black hover:bg-amber-700 transition-colors"
               >
                 Ver Certificaciones
                 <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

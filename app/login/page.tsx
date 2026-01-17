@@ -56,7 +56,7 @@ function LoginForm() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-50 via-white to-peach-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-orange-50 via-white to-peach-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8 bg-white p-8 rounded-2xl shadow-xl">
         {/* Header */}
         <div className="text-center">
@@ -135,7 +135,7 @@ function LoginForm() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
               placeholder="tu@email.com"
             />
           </div>
@@ -150,7 +150,7 @@ function LoginForm() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
               placeholder="••••••••"
             />
           </div>
@@ -160,7 +160,7 @@ function LoginForm() {
               <input
                 id="remember"
                 type="checkbox"
-                className="h-4 w-4 text-coral-600 focus:ring-sky-500 border-gray-300 rounded"
+                className="h-4 w-4 text-coral-600 focus:ring-orange-500 border-gray-300 rounded"
               />
               <label htmlFor="remember" className="ml-2 block text-sm text-gray-700">
                 Recordarme
@@ -169,7 +169,7 @@ function LoginForm() {
 
             <Link
               href="/forgot-password"
-              className="text-sm font-medium text-coral-600 hover:text-sky-500"
+              className="text-sm font-medium text-coral-600 hover:text-orange-500"
             >
               ¿Olvidaste tu contraseña?
             </Link>
@@ -187,7 +187,7 @@ function LoginForm() {
         {/* Register Link */}
         <p className="text-center text-sm text-gray-600">
           ¿No tienes cuenta?{' '}
-          <Link href="/register" className="font-medium text-coral-600 hover:text-sky-500">
+          <Link href="/register" className="font-medium text-coral-600 hover:text-orange-500">
             Regístrate gratis
           </Link>
         </p>
@@ -199,7 +199,7 @@ function LoginForm() {
 export default function LoginPage() {
   return (
     <Suspense fallback={
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-50 via-white to-peach-50">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-orange-50 via-white to-peach-50">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-coral-600 mx-auto"></div>
           <p className="mt-4 text-gray-600">Cargando...</p>

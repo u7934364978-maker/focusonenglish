@@ -16,7 +16,7 @@ interface EnhancedFeedbackProps {
 export default function EnhancedFeedback({ type, evaluation, userAnswer, correctAnswer, loading }: EnhancedFeedbackProps) {
   if (loading) {
     return (
-      <div className="mt-4 p-6 bg-sky-50 border-2 border-sky-200 rounded-lg animate-pulse">
+      <div className="mt-4 p-6 bg-orange-50 border-2 border-orange-200 rounded-lg animate-pulse">
         <div className="flex items-center gap-3">
           <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-coral-600"></div>
           <p className="text-coral-800 font-semibold">Evaluating your answer with AI...</p>
@@ -33,7 +33,7 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
     
     return (
       <div className={`mt-4 p-6 rounded-xl border-2 ${
-        textEval.isCorrect ? 'bg-green-50 border-green-300' : 
+        textEval.isCorrect ? 'bg-amber-50 border-amber-300' : 
         textEval.score >= 60 ? 'bg-yellow-50 border-yellow-300' : 
         'bg-red-50 border-red-300'
       }`}>
@@ -84,7 +84,7 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
               <div className="flex-1 bg-slate-200 rounded-full h-4 overflow-hidden">
                 <div 
                   className={`h-full rounded-full transition-all ${
-                    value >= 80 ? 'bg-green-500' : 
+                    value >= 80 ? 'bg-amber-500' : 
                     value >= 60 ? 'bg-yellow-500' : 
                     'bg-red-500'
                   }`}
@@ -98,11 +98,11 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
 
         {/* Concepts Covered */}
         {textEval.conceptsCovered.length > 0 && (
-          <div className="mb-4 p-4 bg-green-50 rounded-lg border border-green-200">
-            <p className="text-sm font-semibold text-green-900 mb-2">✓ Concepts You Covered:</p>
+          <div className="mb-4 p-4 bg-amber-50 rounded-lg border border-amber-200">
+            <p className="text-sm font-semibold text-amber-900 mb-2">✓ Concepts You Covered:</p>
             <div className="flex flex-wrap gap-2">
               {textEval.conceptsCovered.map((concept, i) => (
-                <span key={i} className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
+                <span key={i} className="px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-sm">
                   {concept}
                 </span>
               ))}
@@ -132,7 +132,7 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
               {textEval.grammarErrors.slice(0, 5).map((error, i) => (
                 <div key={i} className="bg-white p-3 rounded border border-red-200">
                   <p className="text-sm text-red-800"><span className="font-semibold">Error:</span> {error.error}</p>
-                  <p className="text-sm text-green-800"><span className="font-semibold">Correction:</span> {error.correction}</p>
+                  <p className="text-sm text-amber-800"><span className="font-semibold">Correction:</span> {error.correction}</p>
                   <p className="text-xs text-slate-600 mt-1">{error.explanation}</p>
                 </div>
               ))}
@@ -142,12 +142,12 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
 
         {/* Suggestions */}
         {textEval.suggestions.length > 0 && (
-          <div className="p-4 bg-sky-50 rounded-lg border border-sky-200">
+          <div className="p-4 bg-orange-50 rounded-lg border border-orange-200">
             <p className="text-sm font-semibold text-coral-900 mb-2">💡 Suggestions for Improvement:</p>
             <ul className="space-y-1">
               {textEval.suggestions.map((suggestion, i) => (
                 <li key={i} className="text-sm text-coral-800 flex items-start gap-2">
-                  <span className="text-sky-500 mt-0.5">•</span>
+                  <span className="text-orange-500 mt-0.5">•</span>
                   <span>{suggestion}</span>
                 </li>
               ))}
@@ -178,7 +178,7 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
     
     return (
       <div className={`mt-4 p-6 rounded-xl border-2 ${
-        writingEval.isAcceptable ? 'bg-green-50 border-green-300' : 'bg-yellow-50 border-yellow-300'
+        writingEval.isAcceptable ? 'bg-amber-50 border-amber-300' : 'bg-yellow-50 border-yellow-300'
       }`}>
         {/* Header */}
         <div className="flex items-center justify-between mb-4">
@@ -195,7 +195,7 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
 
         {/* Word Count */}
         <div className={`mb-4 p-4 rounded-lg ${
-          writingEval.wordCountFeedback.includes('Good') ? 'bg-green-100' : 'bg-yellow-100'
+          writingEval.wordCountFeedback.includes('Good') ? 'bg-amber-100' : 'bg-yellow-100'
         }`}>
           <p className="text-sm font-semibold mb-1">📏 Word Count:</p>
           <p className="text-sm">{writingEval.wordCountFeedback}</p>
@@ -215,12 +215,12 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
 
         {/* Strengths */}
         {writingEval.strengths.length > 0 && (
-          <div className="mb-4 p-4 bg-green-50 rounded-lg border border-green-200">
-            <p className="text-sm font-semibold text-green-900 mb-2">✓ Strengths:</p>
+          <div className="mb-4 p-4 bg-amber-50 rounded-lg border border-amber-200">
+            <p className="text-sm font-semibold text-amber-900 mb-2">✓ Strengths:</p>
             <ul className="space-y-1">
               {writingEval.strengths.map((strength, i) => (
-                <li key={i} className="text-sm text-green-800 flex items-start gap-2">
-                  <span className="text-green-500 mt-0.5">✓</span>
+                <li key={i} className="text-sm text-amber-800 flex items-start gap-2">
+                  <span className="text-amber-500 mt-0.5">✓</span>
                   <span>{strength}</span>
                 </li>
               ))}
@@ -254,7 +254,7 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
                 <div key={i} className="bg-white p-3 rounded border border-red-200">
                   <p className="text-xs text-slate-500 mb-1">{error.category.toUpperCase()}</p>
                   <p className="text-sm text-red-800 mb-1"><span className="font-semibold">❌</span> {error.sentence}</p>
-                  <p className="text-sm text-green-800 mb-1"><span className="font-semibold">✓</span> {error.correction}</p>
+                  <p className="text-sm text-amber-800 mb-1"><span className="font-semibold">✓</span> {error.correction}</p>
                   <p className="text-xs text-slate-600">{error.explanation}</p>
                 </div>
               ))}
@@ -264,12 +264,12 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
 
         {/* Recommendations */}
         {writingEval.recommendations.length > 0 && (
-          <div className="p-4 bg-sky-50 rounded-lg border border-sky-200">
+          <div className="p-4 bg-orange-50 rounded-lg border border-orange-200">
             <p className="text-sm font-semibold text-coral-900 mb-2">💡 Recommendations:</p>
             <ul className="space-y-1">
               {writingEval.recommendations.map((rec, i) => (
                 <li key={i} className="text-sm text-coral-800 flex items-start gap-2">
-                  <span className="text-sky-500 mt-0.5">•</span>
+                  <span className="text-orange-500 mt-0.5">•</span>
                   <span>{rec}</span>
                 </li>
               ))}
@@ -286,7 +286,7 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
     
     return (
       <div className={`mt-4 p-4 rounded-lg border-2 ${
-        mcEval.isCorrect ? 'bg-green-50 border-green-300' : 'bg-red-50 border-red-300'
+        mcEval.isCorrect ? 'bg-amber-50 border-amber-300' : 'bg-red-50 border-red-300'
       }`}>
         <div className="flex items-center gap-3 mb-3">
           <span className="text-2xl">{mcEval.isCorrect ? '✓' : '✗'}</span>
@@ -316,8 +316,8 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
         )}
 
         {correctAnswer && !mcEval.isCorrect && (
-          <div className="p-3 bg-green-100 rounded border border-green-200">
-            <p className="text-sm text-green-900"><span className="font-semibold">Correct answer:</span> {correctAnswer}</p>
+          <div className="p-3 bg-amber-100 rounded border border-amber-200">
+            <p className="text-sm text-amber-900"><span className="font-semibold">Correct answer:</span> {correctAnswer}</p>
           </div>
         )}
       </div>

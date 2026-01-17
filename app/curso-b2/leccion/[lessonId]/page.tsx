@@ -26,7 +26,7 @@ export default function LessonPage({ params }: { params: { lessonId: string } })
 
   if (!lesson) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-sky-50 p-4">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-orange-50 p-4">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-slate-900 mb-4">Lesson Not Found</h1>
           <p className="text-slate-600 mb-6">The lesson you're looking for doesn't exist.</p>

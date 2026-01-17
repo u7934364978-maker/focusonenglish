@@ -53,7 +53,7 @@ export default function DashboardPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sky-50 via-white to-peach-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-peach-50">
       {/* Header */}
       <header className="bg-white border-b border-gray-200 sticky top-0 z-10 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -89,12 +89,12 @@ export default function DashboardPage() {
               <h2 className="text-3xl font-bold mb-3">
                 Tu Enfoque Actual
               </h2>
-              <p className="text-xl text-sky-100 mb-8">
+              <p className="text-xl text-orange-100 mb-8">
                 {userData.currentTopic}
               </p>
               <Link
                 href="/practica"
-                className="inline-block px-10 py-4 bg-white text-coral-600 rounded-xl hover:bg-sky-50 transition-all font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transform"
+                className="inline-block px-10 py-4 bg-white text-coral-600 rounded-xl hover:bg-orange-50 transition-all font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transform"
               >
                 🚀 Continuar Practicando
               </Link>
@@ -131,7 +131,7 @@ export default function DashboardPage() {
               {/* Explorar Temas */}
               <Link
                 href="/curso-b2"
-                className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all border-2 border-sky-100 hover:border-sky-300 hover:-translate-y-1 transform"
+                className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all border-2 border-orange-100 hover:border-orange-300 hover:-translate-y-1 transform"
               >
                 <div className="flex flex-col items-center text-center">
                   <span className="text-5xl mb-4">📚</span>
@@ -147,11 +147,11 @@ export default function DashboardPage() {
               {/* Test de Nivel */}
               <Link
                 href="/test-nivel"
-                className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all border-2 border-green-100 hover:border-green-300 hover:-translate-y-1 transform"
+                className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all border-2 border-amber-100 hover:border-amber-300 hover:-translate-y-1 transform"
               >
                 <div className="flex flex-col items-center text-center">
                   <span className="text-5xl mb-4">📊</span>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-green-600 transition-colors">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-amber-600 transition-colors">
                     Test de Nivel
                   </h3>
                   <p className="text-sm text-gray-600">

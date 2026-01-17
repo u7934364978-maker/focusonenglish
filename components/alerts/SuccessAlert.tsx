@@ -20,7 +20,7 @@ export function SuccessAlert() {
 
   return (
     <div className="fixed top-24 left-1/2 transform -translate-x-1/2 z-50 max-w-md w-full mx-4">
-      <div className="bg-gradient-to-r from-emerald-500 to-green-500 text-white p-6 rounded-2xl shadow-2xl border-2 border-emerald-300 animate-slide-down">
+      <div className="bg-gradient-to-r from-amber-500 to-amber-500 text-white p-6 rounded-2xl shadow-2xl border-2 border-amber-300 animate-slide-down">
         <div className="flex items-start gap-4">
           <div className="flex-shrink-0">
             <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center">
@@ -29,7 +29,7 @@ export function SuccessAlert() {
           </div>
           <div className="flex-1">
             <h3 className="text-lg font-black mb-1">¡Registro Exitoso!</h3>
-            <p className="text-sm text-emerald-50">
+            <p className="text-sm text-amber-50">
               Tu cuenta ha sido creada. Ahora puedes explorar nuestros cursos de preparación para certificaciones oficiales.
             </p>
           </div>

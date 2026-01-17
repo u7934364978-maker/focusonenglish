@@ -12,16 +12,16 @@ interface SentenceBuilderProps {
 
 // Colores por tipo de palabra
 const wordTypeColors: Record<WordType, { bg: string; border: string; text: string }> = {
-  subject: { bg: 'bg-sky-100', border: 'border-sky-400', text: 'text-coral-900' },
+  subject: { bg: 'bg-orange-100', border: 'border-orange-400', text: 'text-coral-900' },
   verb: { bg: 'bg-red-100', border: 'border-red-400', text: 'text-red-900' },
-  object: { bg: 'bg-green-100', border: 'border-green-400', text: 'text-green-900' },
+  object: { bg: 'bg-amber-100', border: 'border-amber-400', text: 'text-amber-900' },
   adjective: { bg: 'bg-peach-100', border: 'border-peach-400', text: 'text-peach-900' },
   adverb: { bg: 'bg-pink-100', border: 'border-pink-400', text: 'text-pink-900' },
   preposition: { bg: 'bg-orange-100', border: 'border-orange-400', text: 'text-orange-900' },
   article: { bg: 'bg-yellow-100', border: 'border-yellow-400', text: 'text-yellow-900' },
   auxiliary: { bg: 'bg-melon-100', border: 'border-melon-400', text: 'text-melon-900' },
-  conjunction: { bg: 'bg-teal-100', border: 'border-teal-400', text: 'text-teal-900' },
-  complement: { bg: 'bg-cyan-100', border: 'border-cyan-400', text: 'text-cyan-900' },
+  conjunction: { bg: 'bg-amber-100', border: 'border-amber-400', text: 'text-amber-900' },
+  complement: { bg: 'bg-peach-100', border: 'border-peach-400', text: 'text-peach-900' },
   pronoun: { bg: 'bg-coral-100', border: 'border-coral-400', text: 'text-coral-900' },
   determiner: { bg: 'bg-amber-100', border: 'border-amber-400', text: 'text-amber-900' },
 };
@@ -225,14 +225,14 @@ export default function SentenceBuilder({ challenge, showHints, showTranslations
 
       {/* Tips */}
       {challenge.tips && challenge.tips.length > 0 && (
-        <details className="bg-sky-50 rounded-lg p-4 border border-sky-200">
+        <details className="bg-orange-50 rounded-lg p-4 border border-orange-200">
           <summary className="cursor-pointer font-semibold text-coral-900 hover:text-coral-700">
             💡 Need help? Click for tips
           </summary>
           <ul className="mt-3 space-y-1">
             {challenge.tips.map((tip, i) => (
               <li key={i} className="text-sm text-coral-800 flex items-start gap-2">
-                <span className="text-sky-500 mt-0.5">•</span>
+                <span className="text-orange-500 mt-0.5">•</span>
                 <span>{tip}</span>
               </li>
             ))}
@@ -375,21 +375,21 @@ export default function SentenceBuilder({ challenge, showHints, showTranslations
       {/* Feedback */}
       {feedback && (
         <div className={`p-6 rounded-xl border-2 ${
-          feedback.isCorrect ? 'bg-green-50 border-green-300' : 'bg-orange-50 border-orange-300'
+          feedback.isCorrect ? 'bg-amber-50 border-amber-300' : 'bg-orange-50 border-orange-300'
         }`}>
           <div className="flex items-center gap-3 mb-3">
             <span className="text-3xl">{feedback.isCorrect ? '🎉' : '🤔'}</span>
             <div className="flex-1">
-              <p className={`font-bold text-lg ${feedback.isCorrect ? 'text-green-900' : 'text-orange-900'}`}>
+              <p className={`font-bold text-lg ${feedback.isCorrect ? 'text-amber-900' : 'text-orange-900'}`}>
                 {feedback.isCorrect ? 'Correct!' : 'Not Quite Right'}
               </p>
-              <p className={`text-sm ${feedback.isCorrect ? 'text-green-800' : 'text-orange-800'}`}>
+              <p className={`text-sm ${feedback.isCorrect ? 'text-amber-800' : 'text-orange-800'}`}>
                 Score: {feedback.score}/100
               </p>
             </div>
           </div>
           
-          <p className={`${feedback.isCorrect ? 'text-green-800' : 'text-orange-800'} mb-3`}>
+          <p className={`${feedback.isCorrect ? 'text-amber-800' : 'text-orange-800'} mb-3`}>
             {feedback.message}
           </p>
 

@@ -86,7 +86,7 @@ export default function LevelTestInteractive() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <div className="bg-gradient-to-br from-sky-50 to-cyan-50 rounded-xl p-6 border border-sky-200">
+            <div className="bg-gradient-to-br from-orange-50 to-peach-50 rounded-xl p-6 border border-orange-200">
               <div className="flex items-center gap-3 mb-2">
                 <Clock className="w-5 h-5 text-coral-600" />
                 <h3 className="font-bold text-slate-900">Duración</h3>
@@ -102,9 +102,9 @@ export default function LevelTestInteractive() {
               <p className="text-sm text-slate-600">{LEVEL_TEST_QUESTIONS.length} preguntas</p>
             </div>
 
-            <div className="bg-gradient-to-br from-emerald-50 to-green-50 rounded-xl p-6 border border-emerald-200">
+            <div className="bg-gradient-to-br from-amber-50 to-amber-50 rounded-xl p-6 border border-amber-200">
               <div className="flex items-center gap-3 mb-2">
-                <Award className="w-5 h-5 text-emerald-600" />
+                <Award className="w-5 h-5 text-amber-600" />
                 <h3 className="font-bold text-slate-900">Niveles</h3>
               </div>
               <p className="text-sm text-slate-600">A1 hasta C2</p>
@@ -197,7 +197,7 @@ export default function LevelTestInteractive() {
             <div className="space-y-3 mb-8">
               {result.recommendations.map((rec, index) => (
                 <div key={index} className="flex items-start gap-3 p-4 bg-slate-50 rounded-xl border border-slate-200">
-                  <CheckCircle2 className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
                   <span className="text-slate-700">{rec}</span>
                 </div>
               ))}
@@ -287,8 +287,8 @@ export default function LevelTestInteractive() {
         {/* Question header */}
         <div className="flex items-center gap-3 mb-6">
           <div className={`w-12 h-12 rounded-xl ${
-            currentQuestion.skill === 'grammar' ? 'bg-sky-100 text-coral-600' :
-            currentQuestion.skill === 'vocabulary' ? 'bg-emerald-100 text-emerald-600' :
+            currentQuestion.skill === 'grammar' ? 'bg-orange-100 text-coral-600' :
+            currentQuestion.skill === 'vocabulary' ? 'bg-amber-100 text-amber-600' :
             'bg-amber-100 text-amber-600'
           } flex items-center justify-center font-bold`}>
             {currentQuestion.skill === 'grammar' ? '📝' : 

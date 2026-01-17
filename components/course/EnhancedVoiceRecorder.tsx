@@ -282,10 +282,10 @@ export default function EnhancedVoiceRecorder({
   const isLowTime = timeRemaining < 30 && isRecording;
 
   return (
-    <div className="bg-gradient-to-br from-white to-sky-50 rounded-2xl border-2 border-sky-200 p-8 space-y-6 shadow-lg">
+    <div className="bg-gradient-to-br from-white to-orange-50 rounded-2xl border-2 border-orange-200 p-8 space-y-6 shadow-lg">
       {/* Header */}
       <div className="flex items-center gap-3 mb-6">
-        <div className="w-16 h-16 bg-gradient-to-br from-sky-500 to-peach-500 rounded-2xl flex items-center justify-center text-3xl shadow-lg">
+        <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-peach-500 rounded-2xl flex items-center justify-center text-3xl shadow-lg">
           🎤
         </div>
         <div>
@@ -295,14 +295,14 @@ export default function EnhancedVoiceRecorder({
       </div>
 
       {/* Prompt */}
-      <div className="bg-white rounded-xl p-6 border-2 border-sky-200 shadow-md">
+      <div className="bg-white rounded-xl p-6 border-2 border-orange-200 shadow-md">
         <h4 className="font-bold text-coral-900 mb-3 flex items-center gap-2 text-lg">
           <span>📝</span>
           <span>Your Task</span>
         </h4>
         <p className="text-slate-800 text-lg leading-relaxed">{prompt}</p>
         {targetText && (
-          <div className="mt-4 p-4 bg-sky-50 rounded-lg border-2 border-sky-200">
+          <div className="mt-4 p-4 bg-orange-50 rounded-lg border-2 border-orange-200">
             <p className="text-sm font-bold text-coral-900 mb-2">Target Text:</p>
             <p className="text-slate-700 italic leading-relaxed">{targetText}</p>
           </div>
@@ -367,7 +367,7 @@ export default function EnhancedVoiceRecorder({
               <div className={`w-4 h-4 rounded-full ${
                 isRecording && !isPaused ? 'bg-red-500 animate-pulse' : 
                 isPaused ? 'bg-amber-500' : 
-                audioURL ? 'bg-green-500' : 'bg-slate-300'
+                audioURL ? 'bg-amber-500' : 'bg-slate-300'
               }`} />
               <span className="font-bold text-slate-900 text-lg">
                 {isRecording && !isPaused ? '🔴 Recording...' : 
@@ -391,7 +391,7 @@ export default function EnhancedVoiceRecorder({
               className={`h-full rounded-full transition-all duration-300 ${
                 progressPercentage > 90 ? 'bg-gradient-to-r from-red-500 to-red-600' : 
                 progressPercentage > 70 ? 'bg-gradient-to-r from-amber-500 to-orange-500' : 
-                'bg-gradient-to-r from-sky-500 to-peach-500'
+                'bg-gradient-to-r from-orange-500 to-peach-500'
               }`}
               style={{ width: `${Math.min(progressPercentage, 100)}%` }}
             />
@@ -415,7 +415,7 @@ export default function EnhancedVoiceRecorder({
             <div className="flex items-center justify-between">
               <span className="text-sm font-semibold text-slate-700">Microphone Level:</span>
               <span className={`text-sm font-bold ${
-                recordingQuality === 'good' ? 'text-green-600' :
+                recordingQuality === 'good' ? 'text-amber-600' :
                 recordingQuality === 'low' ? 'text-amber-600' :
                 'text-red-600'
               }`}>
@@ -434,7 +434,7 @@ export default function EnhancedVoiceRecorder({
                     audioLevel > (i * 12) ? 
                       audioLevel > 180 ? 'bg-red-500' :
                       audioLevel > 120 ? 'bg-amber-500' :
-                      'bg-green-500'
+                      'bg-amber-500'
                     : 'bg-slate-200'
                   }`}
                   style={{ 
@@ -490,7 +490,7 @@ export default function EnhancedVoiceRecorder({
               </button>
               <button
                 onClick={submitRecording}
-                className="flex-1 min-w-[200px] flex items-center justify-center gap-3 px-8 py-5 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-xl hover:from-green-700 hover:to-emerald-700 transition-all font-bold text-lg shadow-xl transform hover:scale-105"
+                className="flex-1 min-w-[200px] flex items-center justify-center gap-3 px-8 py-5 bg-gradient-to-r from-amber-600 to-amber-600 text-white rounded-xl hover:from-amber-700 hover:to-amber-700 transition-all font-bold text-lg shadow-xl transform hover:scale-105"
               >
                 <span className="text-2xl">✓</span>
                 <span>Submit & Get Feedback</span>
@@ -501,7 +501,7 @@ export default function EnhancedVoiceRecorder({
 
         {/* Audio Playback */}
         {audioURL && (
-          <div className="p-6 bg-gradient-to-r from-slate-50 to-sky-50 rounded-xl border-2 border-slate-200 shadow-inner">
+          <div className="p-6 bg-gradient-to-r from-slate-50 to-orange-50 rounded-xl border-2 border-slate-200 shadow-inner">
             <div className="flex items-center gap-3 mb-3">
               <span className="text-2xl">🎧</span>
               <p className="font-bold text-slate-900 text-lg">Your Recording</p>
@@ -512,18 +512,18 @@ export default function EnhancedVoiceRecorder({
 
         {/* Live Transcript */}
         {transcript && (
-          <div className="p-6 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl border-2 border-green-200 shadow-md">
+          <div className="p-6 bg-gradient-to-r from-amber-50 to-amber-50 rounded-xl border-2 border-amber-200 shadow-md">
             <div className="flex items-center gap-3 mb-3">
               <span className="text-2xl">📝</span>
               <div>
-                <p className="font-bold text-green-900 text-lg">Live Transcript</p>
-                <p className="text-sm text-green-700">Real-time speech recognition</p>
+                <p className="font-bold text-amber-900 text-lg">Live Transcript</p>
+                <p className="text-sm text-amber-700">Real-time speech recognition</p>
               </div>
             </div>
-            <div className="bg-white rounded-lg p-4 border border-green-200">
+            <div className="bg-white rounded-lg p-4 border border-amber-200">
               <p className="text-slate-800 leading-relaxed">{transcript}</p>
             </div>
-            <div className="mt-3 flex items-center gap-2 text-sm text-green-700">
+            <div className="mt-3 flex items-center gap-2 text-sm text-amber-700">
               <span>📊</span>
               <span>Word count: <strong>{transcript.trim().split(/\s+/).length}</strong> words</span>
             </div>
@@ -545,30 +545,30 @@ export default function EnhancedVoiceRecorder({
       </div>
 
       {/* Tips Panel */}
-      <div className="bg-sky-50 rounded-xl p-5 border-2 border-sky-200">
+      <div className="bg-orange-50 rounded-xl p-5 border-2 border-orange-200">
         <h4 className="font-bold text-coral-900 mb-3 flex items-center gap-2">
           <span>📌</span>
           <span>Recording Tips</span>
         </h4>
         <ul className="space-y-2 text-sm text-coral-800">
           <li className="flex items-start gap-2">
-            <span className="text-sky-500 mt-0.5">•</span>
+            <span className="text-orange-500 mt-0.5">•</span>
             <span>Speak clearly and at a moderate pace</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-sky-500 mt-0.5">•</span>
+            <span className="text-orange-500 mt-0.5">•</span>
             <span>Keep your microphone 6-12 inches from your mouth</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-sky-500 mt-0.5">•</span>
+            <span className="text-orange-500 mt-0.5">•</span>
             <span>Monitor the audio level - aim for "Good" quality</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-sky-500 mt-0.5">•</span>
+            <span className="text-orange-500 mt-0.5">•</span>
             <span>Listen to the model audio first for reference</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-sky-500 mt-0.5">•</span>
+            <span className="text-orange-500 mt-0.5">•</span>
             <span>You can pause and resume if you need a moment to think</span>
           </li>
         </ul>

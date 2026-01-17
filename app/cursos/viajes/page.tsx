@@ -12,15 +12,15 @@ export const metadata: Metadata = {
 const LEVELS = [
   { level: 'A1', title: 'Supervivencia', price: '€79/mes', duration: '2 meses', color: 'from-orange-400 to-orange-600' },
   { level: 'A2', title: 'Viajero Básico', price: '€79/mes', duration: '2 meses', color: 'from-orange-500 to-orange-700', popular: true },
-  { level: 'B1', title: 'Independiente', price: '€99/mes', duration: '3 meses', color: 'from-teal-400 to-teal-600' },
-  { level: 'B2', title: 'Experto', price: '€99/mes', duration: '3 meses', color: 'from-teal-500 to-teal-700' },
-  { level: 'C1', title: 'Sofisticado', price: '€119/mes', duration: '4 meses', color: 'from-cyan-500 to-cyan-700' },
-  { level: 'C2', title: 'Ciudadano Mundial', price: '€119/mes', duration: '4 meses', color: 'from-cyan-600 to-cyan-900' },
+  { level: 'B1', title: 'Independiente', price: '€99/mes', duration: '3 meses', color: 'from-amber-400 to-amber-600' },
+  { level: 'B2', title: 'Experto', price: '€99/mes', duration: '3 meses', color: 'from-amber-500 to-amber-700' },
+  { level: 'C1', title: 'Sofisticado', price: '€119/mes', duration: '4 meses', color: 'from-peach-500 to-peach-700' },
+  { level: 'C2', title: 'Ciudadano Mundial', price: '€119/mes', duration: '4 meses', color: 'from-peach-600 to-peach-900' },
 ];
 
 export default function ViajesPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 to-teal-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">
       <Navigation />
       <CourseLaunchBanner />
       
@@ -30,13 +30,13 @@ export default function ViajesPage() {
             ✈️ Cursos para Viajeros
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6">
-            Inglés para <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-teal-600">Viajar</span>
+            Inglés para <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-amber-600">Viajar</span>
           </h1>
           <p className="text-xl text-slate-600 mb-8 max-w-3xl mx-auto">
             Viaja con confianza. Aprende inglés práctico para aeropuertos, hoteles, restaurantes y todas tus aventuras.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/test-nivel" className="px-8 py-4 bg-gradient-to-r from-orange-600 to-teal-600 text-white rounded-xl hover:from-orange-700 hover:to-teal-700 font-bold text-lg shadow-lg">
+            <Link href="/test-nivel" className="px-8 py-4 bg-gradient-to-r from-orange-600 to-amber-600 text-white rounded-xl hover:from-orange-700 hover:to-amber-700 font-bold text-lg shadow-lg">
               Test de Nivel Gratuito
             </Link>
             <Link href="/contacto" className="px-8 py-4 bg-white text-slate-700 rounded-xl hover:bg-slate-50 font-bold text-lg shadow-lg border-2 border-slate-200">
@@ -59,7 +59,7 @@ export default function ViajesPage() {
                   <span>📅 {level.duration}</span>
                   <span>💰 {level.price}</span>
                 </div>
-                <Link href={`/cursos/viajes/${level.level.toLowerCase()}`} className="block w-full text-center px-6 py-3 bg-gradient-to-r from-orange-600 to-teal-600 text-white rounded-xl hover:from-orange-700 hover:to-teal-700 font-bold">
+                <Link href={`/cursos/viajes/${level.level.toLowerCase()}`} className="block w-full text-center px-6 py-3 bg-gradient-to-r from-orange-600 to-amber-600 text-white rounded-xl hover:from-orange-700 hover:to-amber-700 font-bold">
                   Ver Curso {level.level}
                 </Link>
               </div>
@@ -68,7 +68,7 @@ export default function ViajesPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-gradient-to-r from-orange-600 to-teal-600">
+      <section className="py-20 px-4 bg-gradient-to-r from-orange-600 to-amber-600">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white mb-6">¿Listo para tu próxima aventura?</h2>
           <p className="text-xl text-orange-100 mb-8">Descubre tu nivel y empieza a hablar inglés con confianza</p>

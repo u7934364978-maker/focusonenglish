@@ -11,7 +11,7 @@ function SuccessContent() {
 
   return (
     <div className="text-center">
-      <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-br from-emerald-500 to-green-500 mb-6">
+      <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-br from-amber-500 to-amber-500 mb-6">
         <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
         </svg>
@@ -25,21 +25,21 @@ function SuccessContent() {
         Tu inscripción ha sido procesada correctamente. ¡Bienvenido a Focus English!
       </p>
 
-      <div className="bg-emerald-50 border-2 border-emerald-200 rounded-xl p-6 mb-8 max-w-xl mx-auto">
-        <h2 className="text-lg font-bold text-emerald-900 mb-3">
+      <div className="bg-amber-50 border-2 border-amber-200 rounded-xl p-6 mb-8 max-w-xl mx-auto">
+        <h2 className="text-lg font-bold text-amber-900 mb-3">
           ¿Qué sigue ahora?
         </h2>
         <ul className="text-left space-y-3 text-slate-700">
           <li className="flex items-start gap-3">
-            <span className="text-emerald-600 mt-1">📧</span>
+            <span className="text-amber-600 mt-1">📧</span>
             <span>Recibirás un email de confirmación con los detalles de tu curso</span>
           </li>
           <li className="flex items-start gap-3">
-            <span className="text-emerald-600 mt-1">🎓</span>
+            <span className="text-amber-600 mt-1">🎓</span>
             <span>Nuestro equipo te contactará en las próximas 24 horas para darte acceso a la plataforma</span>
           </li>
           <li className="flex items-start gap-3">
-            <span className="text-emerald-600 mt-1">📚</span>
+            <span className="text-amber-600 mt-1">📚</span>
             <span>Prepara tus materiales y ¡prepárate para empezar tu aprendizaje!</span>
           </li>
         </ul>
@@ -54,13 +54,13 @@ function SuccessContent() {
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <Link
           href="/"
-          className="inline-flex items-center justify-center bg-emerald-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-emerald-700 transition-colors"
+          className="inline-flex items-center justify-center bg-amber-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-amber-700 transition-colors"
         >
           Volver al Inicio
         </Link>
         <Link
           href="/contact"
-          className="inline-flex items-center justify-center bg-white text-emerald-600 border-2 border-emerald-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-emerald-50 transition-colors"
+          className="inline-flex items-center justify-center bg-white text-amber-600 border-2 border-amber-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-amber-50 transition-colors"
         >
           Contactar Soporte
         </Link>
@@ -82,12 +82,12 @@ export default function SuccessPage() {
   return (
     <>
       <Navigation />
-      <main className="min-h-screen bg-gradient-to-b from-emerald-50 to-white">
+      <main className="min-h-screen bg-gradient-to-b from-amber-50 to-white">
         <section className="pt-32 pb-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <Suspense fallback={
               <div className="text-center">
-                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-emerald-600 mx-auto"></div>
+                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-amber-600 mx-auto"></div>
                 <p className="mt-4 text-slate-600">Cargando...</p>
               </div>
             }>
