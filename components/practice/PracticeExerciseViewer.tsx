@@ -28,6 +28,8 @@ interface PracticeExerciseViewerProps {
   onSkip: () => void;
   currentNumber: number;
   totalExercises: number;
+  showNextButton?: boolean;
+  onNextExercise?: () => void;
 }
 
 export default function PracticeExerciseViewer({
@@ -35,7 +37,9 @@ export default function PracticeExerciseViewer({
   onComplete,
   onSkip,
   currentNumber,
-  totalExercises
+  totalExercises,
+  showNextButton = false,
+  onNextExercise
 }: PracticeExerciseViewerProps) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answer, setAnswer] = useState('');
@@ -43,6 +47,7 @@ export default function PracticeExerciseViewer({
   const [isCorrect, setIsCorrect] = useState(false);
   const [score, setScore] = useState(0);
   const [answeredQuestions, setAnsweredQuestions] = useState(0);
+  const [exerciseCompleted, setExerciseCompleted] = useState(false);
 
   const questions = exercise.questions || [];
   const currentQuestion = questions[currentQuestionIndex];
@@ -108,8 +113,9 @@ export default function PracticeExerciseViewer({
       setShowFeedback(false);
       setIsCorrect(false);
     } else {
-      // Ejercicio completado
+      // Ejercicio completado - calcular puntuación y marcar como completado
       const finalScore = totalQuestions > 0 ? (score / (totalQuestions * (currentQuestion?.points || 1))) * 100 : 0;
+      setExerciseCompleted(true);
       onComplete(finalScore);
     }
   };
@@ -132,26 +138,21 @@ export default function PracticeExerciseViewer({
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 to-peach-50 flex flex-col">
-      {/* Header simple con progreso */}
+      {/* Header simple - sin progreso ya que es 1 pregunta */}
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 py-4">
-          <div className="flex items-center justify-between mb-3">
+          <div className="flex items-center justify-between">
             <button
               onClick={onSkip}
-              className="text-gray-600 hover:text-gray-800 font-semibold"
+              className="text-gray-600 hover:text-gray-800 font-semibold flex items-center gap-2"
             >
-              ✕
+              <span>✕</span>
+              <span className="hidden sm:inline">Salir</span>
             </button>
-            <div className="text-sm text-gray-600">
-              Question {currentQuestionIndex + 1} of {totalQuestions}
+            <div className="text-sm font-semibold text-gray-700">
+              Ejercicio #{currentNumber}
             </div>
-          </div>
-          {/* Barra de progreso */}
-          <div className="w-full bg-gray-200 rounded-full h-3">
-            <div
-              className="bg-gradient-to-r from-amber-400 to-orange-500 h-3 rounded-full transition-all duration-300"
-              style={{ width: `${progress}%` }}
-            />
+            <div className="w-8"></div> {/* Spacer para centrar */}
           </div>
         </div>
       </div>
@@ -160,14 +161,12 @@ export default function PracticeExerciseViewer({
       <div className="flex-1 flex items-center justify-center px-4 py-8">
         <div className="w-full max-w-2xl">
           {/* Título del ejercicio */}
-          {currentQuestionIndex === 0 && (
-            <div className="mb-8 text-center">
-              <h2 className="text-2xl font-bold text-gray-900 mb-2">{exercise.title}</h2>
-              {exercise.instructions && (
-                <p className="text-gray-600">{exercise.instructions}</p>
-              )}
-            </div>
-          )}
+          <div className="mb-8 text-center">
+            <h2 className="text-2xl font-bold text-gray-900 mb-2">{exercise.title}</h2>
+            {exercise.instructions && (
+              <p className="text-gray-600">{exercise.instructions}</p>
+            )}
+          </div>
 
           {/* Reading passage - Always visible for reading comprehension */}
           {exercise.text && (
@@ -302,7 +301,7 @@ export default function PracticeExerciseViewer({
           </div>
 
           {/* Botón de continuar */}
-          {showFeedback && (
+          {showFeedback && !exerciseCompleted && (
             <button
               onClick={nextQuestion}
               className={`w-full py-4 px-6 rounded-xl font-bold text-lg transition-colors shadow-lg ${
@@ -313,6 +312,31 @@ export default function PracticeExerciseViewer({
             >
               {currentQuestionIndex < totalQuestions - 1 ? 'Continue' : 'Finish Exercise'}
             </button>
+          )}
+
+          {/* Botón "Next Exercise" después de completar */}
+          {exerciseCompleted && showNextButton && onNextExercise && (
+            <div className="space-y-4">
+              <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-6 border-2 border-green-200">
+                <div className="text-center">
+                  <span className="text-4xl mb-3 block">🎉</span>
+                  <h3 className="text-2xl font-black text-green-800 mb-2">¡Ejercicio completado!</h3>
+                  <p className="text-green-700">¿Quieres practicar con otro ejercicio?</p>
+                </div>
+              </div>
+              <button
+                onClick={onNextExercise}
+                className="w-full py-4 px-6 bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white rounded-xl font-bold text-lg transition-all shadow-lg"
+              >
+                Siguiente Ejercicio →
+              </button>
+              <button
+                onClick={onSkip}
+                className="w-full py-3 px-6 bg-gray-200 text-gray-700 rounded-xl font-semibold hover:bg-gray-300 transition-colors"
+              >
+                Terminar Sesión
+              </button>
+            </div>
           )}
 
           {/* Botón de verificar */}
