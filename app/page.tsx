@@ -218,7 +218,7 @@ export default function HomePage() {
                   <div className="relative z-10">
                     <div className="text-5xl mb-4">📝</div>
                     <h3 className="text-2xl font-black mb-2">Preparación de Exámenes</h3>
-                    <p className="text-amber-100">Estrategias y recursos para aprobar exámenes oficiales</p>
+                    <p className="text-amber-50">Estrategias y recursos para aprobar exámenes oficiales</p>
                   </div>
                 </div>
                 
