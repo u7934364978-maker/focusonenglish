@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Navigation } from '@/components/sections/Navigation';
+import { CourseLaunchBanner } from '@/components/CourseLaunchBanner';
 
 export const metadata: Metadata = {
   title: 'Preparación de Exámenes de Inglés | Cambridge, IELTS, TOEFL | Focus English',
@@ -73,6 +74,7 @@ export default function ExamenesPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
       <Navigation />
+      <CourseLaunchBanner />
       
       <section className="relative py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">

@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/sections/Navigation";
+import { CourseLaunchBanner } from "@/components/CourseLaunchBanner";
 import Link from "next/link";
 import { Metadata } from "next";
 
@@ -129,6 +130,7 @@ export default function BlogPage() {
   return (
     <>
       <Navigation />
+      <CourseLaunchBanner />
       <main className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50">
         
         {/* Featured Guide - Hero Section */}
