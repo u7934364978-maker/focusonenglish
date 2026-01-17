@@ -78,16 +78,14 @@ El **Present Simple** es el tiempo verbal más básico y frecuente en inglés. L
 
 **Regla básica:** Sujeto + verbo en infinitivo (sin "to")
 
-```
-I work
-You work
-He works    ← ¡AÑADIR -S!
-She works   ← ¡AÑADIR -S!
-It works    ← ¡AÑADIR -S!
-We work
-You work
-They work
-```
+| Pronombre | Forma del Verbo | Nota |
+|-----------|----------------|------|
+| I | work | Sin cambios |
+| You | work | Sin cambios |
+| He/She/It | work**s** | ¡AÑADIR -S! |
+| We | work | Sin cambios |
+| You | work | Sin cambios |
+| They | work | Sin cambios |
 
 ⚠️ **REGLA DE ORO:** En tercera persona singular (he/she/it) SIEMPRE añadimos **-s** o **-es** al verbo.
 
@@ -144,16 +142,13 @@ They work
 
 **Estructura:** Sujeto + **DO NOT / DOES NOT** + verbo (infinitivo sin -s)
 
-```
-I do not work     → I don't work
-You do not work   → You don't work
-He does not work  → He doesn't work
-She does not work → She doesn't work
-It does not work  → It doesn't work
-We do not work    → We don't work
-You do not work   → You don't work
-They do not work  → They don't work
-```
+| Forma Completa | Forma Corta | Ejemplo |
+|----------------|-------------|----------|
+| I do not work | I don't work | I don't like coffee |
+| You do not work | You don't work | You don't live here |
+| He/She/It does not work | He/She/It doesn't work | He doesn't work on Saturdays |
+| We do not work | We don't work | We don't have a car |
+| They do not work | They don't work | They don't speak French |
 
 ⚠️ **MUY IMPORTANTE:** Cuando usamos **does not / doesn't**, el verbo vuelve a su forma base (SIN -s):
 
@@ -185,16 +180,13 @@ They do not work  → They don't work
 
 **Estructura:** **DO / DOES** + sujeto + verbo (infinitivo sin -s) + ?
 
-```
-Do I work?
-Do you work?
-Does he work?
-Does she work?
-Does it work?
-Do we work?
-Do you work?
-Do they work?
-```
+| Pregunta | Respuesta Afirmativa | Respuesta Negativa |
+|----------|---------------------|--------------------|
+| Do I work? | Yes, you do. | No, you don't. |
+| Do you work? | Yes, I do. | No, I don't. |
+| Does he/she/it work? | Yes, he/she/it does. | No, he/she/it doesn't. |
+| Do we work? | Yes, we do. | No, we don't. |
+| Do they work? | Yes, they do. | No, they don't. |
 
 #### Tabla de Preguntas
 
@@ -255,33 +247,34 @@ Estas palabras y expresiones casi siempre van con presente simple:
 El verbo "to be" (ser/estar) es irregular y NO usa do/does:
 
 #### Afirmativo
-```
-I am (I'm)
-You are (You're)
-He/She/It is (He's/She's/It's)
-We are (We're)
-You are (You're)
-They are (They're)
-```
+
+| Pronombre | Forma Completa | Forma Corta |
+|-----------|----------------|-------------|
+| I | am | I'm |
+| You | are | You're |
+| He/She/It | is | He's/She's/It's |
+| We | are | We're |
+| They | are | They're |
 
 #### Negativo
-```
-I am not (I'm not)
-You are not (You aren't / You're not)
-He/She/It is not (He/She/It isn't)
-We are not (We aren't / We're not)
-They are not (They aren't / They're not)
-```
+
+| Pronombre | Forma Completa | Forma Corta 1 | Forma Corta 2 |
+|-----------|----------------|---------------|---------------|
+| I | am not | I'm not | — |
+| You | are not | You aren't | You're not |
+| He/She/It | is not | He/She/It isn't | He's/She's/It's not |
+| We | are not | We aren't | We're not |
+| They | are not | They aren't | They're not |
 
 #### Interrogativo
-```
-Am I...?
-Are you...?
-Is he/she/it...?
-Are we...?
-Are you...?
-Are they...?
-```
+
+| Pregunta | Respuesta Afirmativa | Respuesta Negativa |
+|----------|---------------------|--------------------|
+| Am I...? | Yes, you are. | No, you aren't. |
+| Are you...? | Yes, I am. / Yes, we are. | No, I'm not. / No, we aren't. |
+| Is he/she/it...? | Yes, he/she/it is. | No, he/she/it isn't. |
+| Are we...? | Yes, you are. | No, you aren't. |
+| Are they...? | Yes, they are. | No, they aren't. |
 
 **Ejemplos:**
 - I **am** a teacher. (Soy profesor)
@@ -310,17 +303,13 @@ El **Present Continuous** (también llamado Present Progressive) se usa para hab
 
 **Estructura:** Sujeto + **AM/IS/ARE** + verbo**-ING**
 
-```
-I am working
-You are working
-He is working
-She is working
-It is working
-We are working
-You are working
-They are working
-```
-
+| Pronombre | Forma de BE | Verbo -ING | Ejemplo |
+|-----------|-------------|------------|----------|
+| I | am | working | I am working |
+| You | are | working | You are working |
+| He/She/It | is | working | He/She/It is working |
+| We | are | working | We are working |
+| They | are | working | They are working |
 #### Paso 1: Elige la Forma Correcta de "TO BE"
 
 | Sujeto | Forma de BE |
@@ -397,15 +386,13 @@ They are working
 
 **Estructura:** Sujeto + **AM/IS/ARE + NOT** + verbo-ING
 
-```
-I am not working    → I'm not working
-You are not working → You aren't working / You're not working
-He is not working   → He isn't working / He's not working
-She is not working  → She isn't working / She's not working
-It is not working   → It isn't working / It's not working
-We are not working  → We aren't working / We're not working
-They are not working → They aren't working / They're not working
-```
+| Forma Completa | Forma Corta 1 | Forma Corta 2 |
+|----------------|---------------|---------------|
+| I am not working | I'm not working | — |
+| You are not working | You aren't working | You're not working |
+| He/She/It is not working | He/She/It isn't working | He's/She's/It's not working |
+| We are not working | We aren't working | We're not working |
+| They are not working | They aren't working | They're not working |
 
 **Ejemplos:**
 - I'**m not watching** TV now. (No estoy viendo la tele ahora)
@@ -417,15 +404,13 @@ They are not working → They aren't working / They're not working
 
 **Estructura:** **AM/IS/ARE** + sujeto + verbo-ING + ?
 
-```
-Am I working?
-Are you working?
-Is he working?
-Is she working?
-Is it working?
-Are we working?
-Are they working?
-```
+| Pregunta | Respuesta Afirmativa | Respuesta Negativa |
+|----------|---------------------|--------------------|
+| Am I working? | Yes, you are. | No, you aren't. |
+| Are you working? | Yes, I am. | No, I'm not. |
+| Is he/she/it working? | Yes, he/she/it is. | No, he/she/it isn't. |
+| Are we working? | Yes, we are. | No, we aren't. |
+| Are they working? | Yes, they are. | No, they aren't. |
 
 **Ejemplos de preguntas:**
 - **Are you listening** to me? (¿Me estás escuchando?)
