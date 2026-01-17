@@ -19,6 +19,8 @@ export default function PracticePage() {
   const [error, setError] = useState<string | null>(null);
   const [exercisesCompleted, setExercisesCompleted] = useState(0);
   const [totalScore, setTotalScore] = useState(0);
+  const [isFallback, setIsFallback] = useState(false);
+  const [fallbackMessage, setFallbackMessage] = useState<string | null>(null);
 
   const generateNextExercise = async (config: PracticeConfig) => {
     setLoading(true);
@@ -45,6 +47,16 @@ export default function PracticePage() {
       }
 
       console.log('✅ Ejercicio generado:', data);
+
+      // Detectar si está usando fallback
+      if (data.fallback) {
+        setIsFallback(true);
+        setFallbackMessage(data.message || 'Usando ejercicios de demostración');
+        console.warn('⚠️ Sistema en modo fallback');
+      } else {
+        setIsFallback(false);
+        setFallbackMessage(null);
+      }
 
       // Convertir ejercicio generado al formato de Lesson
       const lesson = convertToLesson(data.exercises, config);
@@ -160,16 +172,54 @@ export default function PracticePage() {
           </div>
         </div>
 
+        {/* Fallback Warning Banner */}
+        {isFallback && fallbackMessage && (
+          <div className="bg-yellow-50 border-b-2 border-yellow-400">
+            <div className="max-w-7xl mx-auto px-4 py-3">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">⚠️</span>
+                <div className="flex-1">
+                  <h4 className="font-bold text-yellow-900 mb-1">
+                    Modo de Demostración
+                  </h4>
+                  <p className="text-sm text-yellow-800 mb-2">
+                    {fallbackMessage}
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <a
+                      href="/SETUP_OPENAI_VERCEL.md"
+                      target="_blank"
+                      className="text-xs bg-yellow-200 hover:bg-yellow-300 text-yellow-900 px-3 py-1 rounded-full font-medium transition-colors"
+                    >
+                      📖 Ver guía de configuración
+                    </a>
+                    <a
+                      href="https://vercel.com/dashboard"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded-full font-medium transition-colors"
+                    >
+                      🚀 Ir a Vercel Dashboard
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Loading overlay para siguiente ejercicio */}
         {loading && (
           <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
             <div className="bg-white rounded-2xl p-8 max-w-md text-center">
               <div className="animate-spin text-6xl mb-4">📚</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                Generando siguiente ejercicio...
+                {isFallback ? 'Cargando ejercicio...' : 'Generando siguiente ejercicio...'}
               </h3>
               <p className="text-gray-600">
-                Creando contenido personalizado
+                {isFallback 
+                  ? 'Preparando ejercicio de demostración' 
+                  : 'Creando contenido personalizado con IA'}
               </p>
               <div className="mt-4 flex justify-center">
                 <div className="flex gap-2">
