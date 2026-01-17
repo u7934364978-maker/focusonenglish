@@ -3,6 +3,8 @@
 // ============================================
 // DASHBOARD DEL ESTUDIANTE
 // Panel principal con progreso, estadísticas y acceso rápido
+// Version: 2.0 - Sistema de ejercicios infinitos
+// Updated: 2026-01-17
 // ============================================
 
 // import { useSession } from 'next-auth/react';
