@@ -34,15 +34,21 @@ export async function POST(request: NextRequest) {
         .select();
 
       if (error) {
-        // If table doesn't exist or other DB error, log but don't fail
-        console.error('Supabase error:', error);
-        
-        // Return success anyway for better UX
-        return NextResponse.json({ 
-          success: true,
-          message: '¡Gracias! Te avisaremos cuando lancemos los cursos.',
-          fallback: true
+        // Log the error with details
+        console.error('Supabase error details:', {
+          message: error.message,
+          details: error.details,
+          hint: error.hint,
+          code: error.code
         });
+        
+        // Return error to user so we can debug
+        return NextResponse.json({ 
+          success: false,
+          error: `Error al guardar: ${error.message}`,
+          details: error.details || 'No additional details',
+          hint: error.hint || 'No hint available'
+        }, { status: 500 });
       }
 
       return NextResponse.json({ 
@@ -51,14 +57,14 @@ export async function POST(request: NextRequest) {
         data 
       });
     } else {
-      // No Supabase configured, just log to console
-      console.log('Newsletter subscription (no DB):', email);
+      // No Supabase configured, return error
+      console.error('Supabase not configured - missing env variables');
       
       return NextResponse.json({ 
-        success: true,
-        message: '¡Gracias! Te avisaremos cuando lancemos los cursos.',
-        fallback: true
-      });
+        success: false,
+        error: 'Configuración de base de datos incompleta',
+        details: `URL: ${supabaseUrl ? 'configured' : 'missing'}, Key: ${supabaseServiceKey ? 'configured' : 'missing'}`
+      }, { status: 500 });
     }
 
   } catch (error) {
