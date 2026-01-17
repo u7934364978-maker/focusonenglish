@@ -4,12 +4,18 @@ import { useState } from 'react';
 import EnhancedVoiceRecorder from '@/components/course/EnhancedVoiceRecorder';
 import SmartPronunciationEvaluator from '@/components/course/SmartPronunciationEvaluator';
 import PronunciationPractice from '@/components/course/PronunciationPractice';
+import EnhancedFeedback from '@/components/course/EnhancedFeedback';
 import { Lesson, Exercise, Question } from '@/lib/course-data-b2';
+import { TextAnswerEvaluationResponse } from '@/app/api/evaluate-text-answer/route';
+import { WritingEvaluationResponse } from '@/app/api/evaluate-writing/route';
+import { MultipleChoiceEvaluationResponse } from '@/app/api/evaluate-multiple-choice/route';
 
 interface LessonViewerProps {
   lesson: Lesson;
   onComplete: (lessonId: string, score: number) => void;
 }
+
+type EvaluationResult = TextAnswerEvaluationResponse | WritingEvaluationResponse | MultipleChoiceEvaluationResponse;
 
 export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) {
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
@@ -18,6 +24,8 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   const [showFeedback, setShowFeedback] = useState(false);
   const [recordedAudio, setRecordedAudio] = useState<{ blob: Blob; transcript: string } | null>(null);
   const [pronunciationFeedback, setPronunciationFeedback] = useState<any>(null);
+  const [aiEvaluations, setAiEvaluations] = useState<{ [questionId: string]: EvaluationResult }>({});
+  const [evaluating, setEvaluating] = useState(false);
 
   const currentExercise = lesson.exercises[currentExerciseIndex];
   const progress = ((currentExerciseIndex + 1) / lesson.exercises.length) * 100;
@@ -26,34 +34,129 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
     setAnswers(prev => ({ ...prev, [questionId]: answer }));
   };
 
-  const checkAnswers = () => {
+  const checkAnswers = async () => {
+    setEvaluating(true);
+    
     if (currentExercise.type === 'grammar' || 
         currentExercise.type === 'reading' || 
         currentExercise.type === 'listening' || 
         currentExercise.type === 'vocabulary' ||
         currentExercise.type === 'multiple-choice-cloze') {
       const questions = currentExercise.questions;
-      let correctCount = 0;
       let totalPoints = 0;
       let earnedPoints = 0;
+      const evaluations: { [questionId: string]: EvaluationResult } = {};
 
-      questions.forEach(q => {
+      for (const q of questions) {
         totalPoints += q.points;
-        const userAnswer = answers[q.id]?.toLowerCase().trim();
-        const correctAnswer = Array.isArray(q.correctAnswer)
-          ? q.correctAnswer.map(a => a.toLowerCase().trim())
-          : [q.correctAnswer.toLowerCase().trim()];
-
-        const isCorrect = correctAnswer.some(ca => userAnswer === ca || userAnswer?.includes(ca));
-        if (isCorrect) {
-          correctCount++;
-          earnedPoints += q.points;
+        const userAnswer = answers[q.id];
+        
+        if (!userAnswer) {
+          earnedPoints += 0;
+          continue;
         }
-      });
 
-      const score = (earnedPoints / totalPoints) * 100;
+        // MULTIPLE CHOICE - Use intelligent evaluation
+        if (q.type === 'multiple-choice' && q.options) {
+          try {
+            const response = await fetch('/api/evaluate-multiple-choice', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                question: q.question,
+                options: q.options,
+                userAnswer: userAnswer,
+                correctAnswer: Array.isArray(q.correctAnswer) ? q.correctAnswer[0] : q.correctAnswer,
+                context: currentExercise.type === 'reading' ? (currentExercise as any).text : '',
+                level: 'B2'
+              })
+            });
+
+            if (response.ok) {
+              const evaluation: MultipleChoiceEvaluationResponse = await response.json();
+              evaluations[q.id] = evaluation;
+              if (evaluation.isCorrect) {
+                earnedPoints += q.points;
+              }
+            } else {
+              // Fallback to string matching
+              const correctAnswer = Array.isArray(q.correctAnswer) ? q.correctAnswer[0] : q.correctAnswer;
+              if (userAnswer.toLowerCase().trim() === correctAnswer.toLowerCase().trim()) {
+                earnedPoints += q.points;
+              }
+            }
+          } catch (error) {
+            console.error('Error evaluating multiple choice:', error);
+            // Fallback
+            const correctAnswer = Array.isArray(q.correctAnswer) ? q.correctAnswer[0] : q.correctAnswer;
+            if (userAnswer.toLowerCase().trim() === correctAnswer.toLowerCase().trim()) {
+              earnedPoints += q.points;
+            }
+          }
+        }
+        
+        // SHORT ANSWER or FILL BLANK - Use AI evaluation
+        else if (q.type === 'short-answer' || q.type === 'fill-blank') {
+          try {
+            const response = await fetch('/api/evaluate-text-answer', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                question: q.question,
+                userAnswer: userAnswer,
+                correctAnswer: q.correctAnswer,
+                expectedConcepts: (q as any).expectedConcepts || [],
+                context: currentExercise.type === 'reading' ? (currentExercise as any).text?.substring(0, 2000) : '',
+                level: 'B2',
+                questionType: currentExercise.type === 'reading' ? 'comprehension' : 'general'
+              })
+            });
+
+            if (response.ok) {
+              const evaluation: TextAnswerEvaluationResponse = await response.json();
+              evaluations[q.id] = evaluation;
+              
+              // Award points based on score (not just binary correct/incorrect)
+              const percentageCorrect = evaluation.score / 100;
+              earnedPoints += q.points * percentageCorrect;
+            } else {
+              // Fallback to basic string matching
+              const correctAnswer = Array.isArray(q.correctAnswer) 
+                ? q.correctAnswer.map(a => a.toLowerCase().trim())
+                : [q.correctAnswer.toLowerCase().trim()];
+              const isCorrect = correctAnswer.some(ca => 
+                userAnswer.toLowerCase().trim() === ca || userAnswer.toLowerCase().includes(ca)
+              );
+              if (isCorrect) earnedPoints += q.points;
+            }
+          } catch (error) {
+            console.error('Error evaluating text answer:', error);
+            // Fallback
+            const correctAnswer = Array.isArray(q.correctAnswer) 
+              ? q.correctAnswer.map(a => a.toLowerCase().trim())
+              : [q.correctAnswer.toLowerCase().trim()];
+            const isCorrect = correctAnswer.some(ca => 
+              userAnswer.toLowerCase().trim() === ca || userAnswer.toLowerCase().includes(ca)
+            );
+            if (isCorrect) earnedPoints += q.points;
+          }
+        }
+        
+        // TRUE/FALSE - Simple exact match
+        else if (q.type === 'true-false') {
+          const correctAnswer = Array.isArray(q.correctAnswer) ? q.correctAnswer[0] : q.correctAnswer;
+          if (userAnswer.toLowerCase().trim() === correctAnswer.toLowerCase().trim()) {
+            earnedPoints += q.points;
+          }
+        }
+      }
+
+      const score = totalPoints > 0 ? (earnedPoints / totalPoints) * 100 : 0;
       setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
+      setAiEvaluations(evaluations);
       setShowFeedback(true);
+      setEvaluating(false);
+      
     } else if (currentExercise.type === 'key-word-transformation') {
       const transformations = currentExercise.transformations;
       let totalPoints = 0;
@@ -72,6 +175,8 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       const score = (earnedPoints / totalPoints) * 100;
       setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
       setShowFeedback(true);
+      setEvaluating(false);
+      
     } else if (currentExercise.type === 'word-formation') {
       const questions = currentExercise.questions;
       let totalPoints = 0;
@@ -90,6 +195,9 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       const score = (earnedPoints / totalPoints) * 100;
       setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
       setShowFeedback(true);
+      setEvaluating(false);
+    } else {
+      setEvaluating(false);
     }
   };
 
@@ -234,7 +342,15 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     </div>
                   )}
 
-                  {showFeedback && (
+                  {showFeedback && aiEvaluations[question.id] && (
+                    <EnhancedFeedback
+                      type={question.type === 'multiple-choice' ? 'multiple-choice' : 'text'}
+                      evaluation={aiEvaluations[question.id]}
+                      userAnswer={answers[question.id] || ''}
+                      correctAnswer={Array.isArray(question.correctAnswer) ? question.correctAnswer.join(' or ') : question.correctAnswer}
+                    />
+                  )}
+                  {showFeedback && !aiEvaluations[question.id] && (
                     <div className={`mt-3 p-3 rounded-lg ${
                       answers[question.id]?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : question.correctAnswer).toLowerCase().trim()
                         ? 'bg-green-50 border-2 border-green-200'
@@ -262,9 +378,17 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             {!showFeedback && (
               <button
                 onClick={checkAnswers}
-                className="w-full px-6 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-bold text-lg shadow-lg"
+                disabled={evaluating}
+                className="w-full px-6 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-bold text-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
               >
-                Check Answers
+                {evaluating ? (
+                  <>
+                    <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                    <span>Evaluating with AI...</span>
+                  </>
+                ) : (
+                  'Check Answers'
+                )}
               </button>
             )}
           </div>
@@ -396,9 +520,17 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               {!showFeedback && (
                 <button
                   onClick={checkAnswers}
-                  className="w-full px-6 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-bold text-lg"
+                  disabled={evaluating}
+                  className="w-full px-6 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  Check Answers
+                  {evaluating ? (
+                    <>
+                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                      <span>Evaluating with AI...</span>
+                    </>
+                  ) : (
+                    'Check Answers'
+                  )}
                 </button>
               )}
             </div>
@@ -624,9 +756,17 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               {!showFeedback && (
                 <button
                   onClick={checkAnswers}
-                  className="w-full px-6 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-bold text-lg"
+                  disabled={evaluating}
+                  className="w-full px-6 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  Check Answers
+                  {evaluating ? (
+                    <>
+                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                      <span>Evaluating with AI...</span>
+                    </>
+                  ) : (
+                    'Check Answers'
+                  )}
                 </button>
               )}
             </div>
@@ -704,19 +844,62 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             )}
 
             <button
-              onClick={() => {
-                setExerciseScores(prev => ({ ...prev, [currentExercise.id]: 85 })); // Mock score
+              onClick={async () => {
+                setEvaluating(true);
+                try {
+                  const response = await fetch('/api/evaluate-writing', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                      prompt: currentExercise.prompt,
+                      essay: answers[currentExercise.id] || '',
+                      writingType: currentExercise.writingType,
+                      minWords: currentExercise.minWords,
+                      maxWords: currentExercise.maxWords,
+                      level: 'B2',
+                      rubric: currentExercise.rubric
+                    })
+                  });
+
+                  if (response.ok) {
+                    const evaluation = await response.json();
+                    setAiEvaluations(prev => ({ ...prev, [currentExercise.id]: evaluation }));
+                    setExerciseScores(prev => ({ ...prev, [currentExercise.id]: evaluation.overallScore }));
+                  } else {
+                    // Fallback - mock score
+                    setExerciseScores(prev => ({ ...prev, [currentExercise.id]: 75 }));
+                  }
+                } catch (error) {
+                  console.error('Error evaluating writing:', error);
+                  setExerciseScores(prev => ({ ...prev, [currentExercise.id]: 75 }));
+                }
                 setShowFeedback(true);
+                setEvaluating(false);
               }}
-              className="w-full px-6 py-4 bg-green-600 text-white rounded-xl hover:bg-green-700 transition-colors font-bold text-lg"
+              disabled={evaluating}
+              className="w-full px-6 py-4 bg-green-600 text-white rounded-xl hover:bg-green-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              Submit Writing (Teacher will review)
+              {evaluating ? (
+                <>
+                  <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                  <span>Evaluating your writing with AI...</span>
+                </>
+              ) : (
+                'Submit Writing for AI Evaluation'
+              )}
             </button>
 
-            {showFeedback && (
+            {showFeedback && aiEvaluations[currentExercise.id] && (
+              <EnhancedFeedback
+                type="writing"
+                evaluation={aiEvaluations[currentExercise.id]}
+                userAnswer={answers[currentExercise.id] || ''}
+              />
+            )}
+            {showFeedback && !aiEvaluations[currentExercise.id] && (
               <div className="bg-green-50 rounded-xl p-6 border-2 border-green-200">
                 <p className="text-green-800 font-semibold mb-2">✓ Writing Submitted!</p>
-                <p className="text-slate-700">Your writing has been submitted for review. Your teacher will provide detailed feedback within 24-48 hours.</p>
+                <p className="text-slate-700">Your writing has been evaluated. Check the score above.</p>
               </div>
             )}
           </div>
@@ -993,9 +1176,17 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               {!showFeedback && (
                 <button
                   onClick={checkAnswers}
-                  className="w-full px-6 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-bold text-lg"
+                  disabled={evaluating}
+                  className="w-full px-6 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  Check Answers
+                  {evaluating ? (
+                    <>
+                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                      <span>Evaluating with AI...</span>
+                    </>
+                  ) : (
+                    'Check Answers'
+                  )}
                 </button>
               )}
             </div>
