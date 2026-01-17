@@ -8,7 +8,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import PracticeSelector, { PracticeConfig } from '@/components/practice/PracticeSelector';
-import LessonViewer from '@/components/course/LessonViewer';
+import PracticeExerciseViewer from '@/components/practice/PracticeExerciseViewer';
 
 export default function PracticePage() {
   const router = useRouter();
@@ -78,7 +78,7 @@ export default function PracticePage() {
     await generateNextExercise(config);
   };
 
-  const handleComplete = async (lessonId: string, score: number) => {
+  const handleComplete = async (score: number) => {
     console.log(`Ejercicio completado con puntuación: ${score}%`);
     
     const newExercisesCompleted = exercisesCompleted + 1;
@@ -88,19 +88,9 @@ export default function PracticePage() {
     setExercisesCompleted(newExercisesCompleted);
     setTotalScore(newTotalScore);
 
-    // Mostrar feedback y preguntar si quiere continuar
-    const message = score >= 80 
-      ? `¡Excelente trabajo! 🎉\n\nPuntuación: ${Math.round(score)}%\nEjercicios completados: ${newExercisesCompleted}\nPromedio: ${Math.round(averageScore)}%\n\n¿Quieres practicar otro ejercicio?`
-      : `Buen intento 👍\n\nPuntuación: ${Math.round(score)}%\nEjercicios completados: ${newExercisesCompleted}\nPromedio: ${Math.round(averageScore)}%\n\n¿Quieres practicar otro ejercicio?`;
-    
-    if (confirm(message)) {
-      // Generar siguiente ejercicio automáticamente
-      if (practiceConfig) {
-        await generateNextExercise(practiceConfig);
-      }
-    } else {
-      // Salir de la práctica
-      handleExit();
+    // Generar siguiente ejercicio automáticamente sin confirmación
+    if (practiceConfig) {
+      await generateNextExercise(practiceConfig);
     }
   };
 
@@ -123,118 +113,47 @@ export default function PracticePage() {
     setTotalScore(0);
   };
 
-  const handleBackToSelector = () => {
-    const averageScore = exercisesCompleted > 0 ? Math.round(totalScore / exercisesCompleted) : 0;
-    
-    const message = `¿Seguro que quieres salir?\n\n` +
-      `Has completado ${exercisesCompleted} ejercicio(s)\n` +
-      `Promedio: ${averageScore}%\n\n` +
-      `Tu progreso se guardará.`;
-    
-    if (confirm(message)) {
+  const handleSkip = () => {
+    if (confirm('¿Seguro que quieres salir de la práctica?')) {
       handleExit();
     }
   };
 
-  if (practicing && currentExercises) {
-    return (
-      <div>
-        {/* Back Button with Stats */}
-        <div className="bg-white border-b border-slate-200 sticky top-0 z-10">
-          <div className="max-w-7xl mx-auto px-4 py-3">
-            <div className="flex items-center justify-between">
-              <button
-                onClick={handleBackToSelector}
-                className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors"
-              >
-                <span>←</span>
-                <span>Salir de la práctica</span>
-              </button>
-              
-              {/* Stats */}
-              <div className="flex items-center gap-4 text-sm">
-                <div className="flex items-center gap-1">
-                  <span className="font-bold text-gray-900">{exercisesCompleted}</span>
-                  <span className="text-gray-600">ejercicios</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  <span className="font-bold text-blue-600">
-                    {exercisesCompleted > 0 ? Math.round(totalScore / exercisesCompleted) : 0}%
-                  </span>
-                  <span className="text-gray-600">promedio</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  <span className="text-2xl">∞</span>
-                  <span className="text-gray-600">ilimitado</span>
-                </div>
+  if (practicing && currentExercises && currentExercises.exercises && currentExercises.exercises[0]) {
+    const currentExercise = currentExercises.exercises[0];
+    
+    // Loading overlay para siguiente ejercicio
+    if (loading) {
+      return (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-2xl p-8 max-w-md text-center">
+            <div className="animate-spin text-6xl mb-4">📚</div>
+            <h3 className="text-2xl font-bold text-gray-900 mb-2">
+              Cargando siguiente ejercicio...
+            </h3>
+            <p className="text-gray-600">
+              Preparando contenido personalizado
+            </p>
+            <div className="mt-4 flex justify-center">
+              <div className="flex gap-2">
+                <div className="w-3 h-3 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></div>
+                <div className="w-3 h-3 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></div>
+                <div className="w-3 h-3 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></div>
               </div>
             </div>
           </div>
         </div>
-
-        {/* Fallback Warning Banner */}
-        {isFallback && fallbackMessage && (
-          <div className="bg-yellow-50 border-b-2 border-yellow-400">
-            <div className="max-w-7xl mx-auto px-4 py-3">
-              <div className="flex items-start gap-3">
-                <span className="text-2xl">⚠️</span>
-                <div className="flex-1">
-                  <h4 className="font-bold text-yellow-900 mb-1">
-                    Modo de Demostración
-                  </h4>
-                  <p className="text-sm text-yellow-800 mb-2">
-                    {fallbackMessage}
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <a
-                      href="/SETUP_OPENAI_VERCEL.md"
-                      target="_blank"
-                      className="text-xs bg-yellow-200 hover:bg-yellow-300 text-yellow-900 px-3 py-1 rounded-full font-medium transition-colors"
-                    >
-                      📖 Ver guía de configuración
-                    </a>
-                    <a
-                      href="https://vercel.com/dashboard"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-xs bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded-full font-medium transition-colors"
-                    >
-                      🚀 Ir a Vercel Dashboard
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* Loading overlay para siguiente ejercicio */}
-        {loading && (
-          <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-            <div className="bg-white rounded-2xl p-8 max-w-md text-center">
-              <div className="animate-spin text-6xl mb-4">📚</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                {isFallback ? 'Cargando ejercicio...' : 'Generando siguiente ejercicio...'}
-              </h3>
-              <p className="text-gray-600">
-                {isFallback 
-                  ? 'Preparando ejercicio de demostración' 
-                  : 'Creando contenido personalizado con IA'}
-              </p>
-              <div className="mt-4 flex justify-center">
-                <div className="flex gap-2">
-                  <div className="w-3 h-3 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></div>
-                  <div className="w-3 h-3 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></div>
-                  <div className="w-3 h-3 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* Lesson Viewer con ejercicio generado */}
-        <LessonViewer lesson={currentExercises} onComplete={handleComplete} />
-      </div>
+      );
+    }
+    
+    return (
+      <PracticeExerciseViewer
+        exercise={currentExercise}
+        onComplete={handleComplete}
+        onSkip={handleSkip}
+        currentNumber={exercisesCompleted + 1}
+        totalExercises={999} // Infinito
+      />
     );
   }
 
