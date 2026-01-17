@@ -9,6 +9,7 @@ import {
   getExerciseCache,
   validateGeneratedExercise
 } from '@/lib/ai/exercise-generator';
+import { generateFallbackExercise, shouldUseFallback } from '@/lib/ai/fallback-exercises';
 import {
   GenerateExerciseRequest,
   ExerciseType,
@@ -58,6 +59,27 @@ export async function POST(request: NextRequest) {
       });
     }
 
+    // Verificar si debemos usar fallback
+    if (shouldUseFallback()) {
+      console.warn('⚠️ OpenAI API key not configured - using fallback exercises');
+      
+      const fallbackExercise = generateFallbackExercise(
+        generateRequest.exerciseType,
+        generateRequest.topic,
+        generateRequest.difficulty,
+        generateRequest.level
+      );
+      
+      return NextResponse.json({
+        success: true,
+        exercises: [fallbackExercise],
+        generated: 1,
+        cached: false,
+        fallback: true,
+        message: '⚠️ Usando ejercicios de demostración. Configura OPENAI_API_KEY en Vercel para ejercicios generados con IA.'
+      });
+    }
+
     // Si no está en caché, generar con IA
     console.log('🤖 Generating new exercises with AI...');
     const generator = getExerciseGenerator();
@@ -69,10 +91,23 @@ export async function POST(request: NextRequest) {
     );
 
     if (validExercises.length === 0) {
-      return NextResponse.json(
-        { error: 'Failed to generate valid exercises. Please try again.' },
-        { status: 500 }
+      console.warn('⚠️ AI generation failed - using fallback');
+      
+      const fallbackExercise = generateFallbackExercise(
+        generateRequest.exerciseType,
+        generateRequest.topic,
+        generateRequest.difficulty,
+        generateRequest.level
       );
+      
+      return NextResponse.json({
+        success: true,
+        exercises: [fallbackExercise],
+        generated: 1,
+        cached: false,
+        fallback: true,
+        message: 'Generación con IA falló. Usando ejercicio de demostración.'
+      });
     }
 
     // Guardar en caché
@@ -82,7 +117,8 @@ export async function POST(request: NextRequest) {
       success: true,
       exercises: validExercises,
       cached: false,
-      generated: validExercises.length
+      generated: validExercises.length,
+      fallback: false
     });
 
   } catch (error) {
