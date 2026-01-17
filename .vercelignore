@@ -1,0 +1,10 @@
+# Ignorar archivos de documentación grandes para acelerar deploy
+*.md
+!README.md
+*.txt
+!requirements.txt
+*.py
+!create-admin-user.js
+mockup-design.png
+temp_key_transformations.txt
+wordform_exercises_m1l2-l6.txt
