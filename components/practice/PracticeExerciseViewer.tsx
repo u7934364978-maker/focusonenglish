@@ -64,34 +64,30 @@ export default function PracticeExerciseViewer({
       console.log('DEBUG - Options:', currentQuestion.options);
     }
 
-    // If question has options, also accept the actual text from the correct option
+    // Direct match check
     let correct = correctAnswers.some(ca => userAnswer === ca);
     
     console.log('DEBUG - Direct match:', correct);
     
-    // If not correct and has options, check if user wrote the actual answer text
+    // If not correct and has options, check against option text or letter
     if (!correct && currentQuestion.options && currentQuestion.options.length > 0) {
-      // Find the correct option based on the letter
-      const correctLetter = correctAnswers[0]; // e.g., "a"
-      console.log('DEBUG - Looking for option starting with:', correctLetter + ')');
-      
-      const correctOption = currentQuestion.options.find(opt => 
-        opt.trim().toLowerCase().startsWith(correctLetter + ')')
-      );
-      
-      console.log('DEBUG - Found correct option:', correctOption);
-      
-      if (correctOption) {
-        // Extract the text after "A) ", "B) ", etc.
-        const optionText = correctOption.substring(correctOption.indexOf(')') + 1).trim().toLowerCase();
-        console.log('DEBUG - Option text extracted:', optionText);
+      currentQuestion.options.forEach((opt, idx) => {
+        // Generate letter for this option (0=a, 1=b, 2=c, 3=d)
+        const optionLetter = String.fromCharCode(97 + idx);
+        const optionText = opt.toLowerCase().trim();
         
-        // Check if user answer matches the option text
-        if (userAnswer === optionText) {
-          correct = true;
-          console.log('DEBUG - Match with option text!');
+        // Check if this option is the correct one
+        const isCorrectOption = correctAnswers.some(ca => ca === optionLetter);
+        
+        if (isCorrectOption) {
+          console.log(`DEBUG - Option ${idx} (${optionLetter}) is the correct one:`, opt);
+          // Check if user wrote the text of this option
+          if (userAnswer === optionText) {
+            console.log('DEBUG - User answer matches the text of correct option!');
+            correct = true;
+          }
         }
-      }
+      });
     }
 
     console.log('DEBUG - Final result:', correct ? 'CORRECT' : 'INCORRECT');
@@ -222,30 +218,43 @@ export default function PracticeExerciseViewer({
                       setAnswer(selectedOption);
                       
                       console.log('=== CLICK ON OPTION ===');
+                      console.log('Option index:', idx);
                       console.log('Selected option:', selectedOption);
-                      console.log('Option raw:', JSON.stringify(selectedOption));
                       
-                      // Extract letter from option (e.g., "A) answer" -> "A")
-                      const optionLetter = selectedOption.split(')')[0].trim();
-                      console.log('Extracted letter:', optionLetter);
-                      console.log('Letter lowercase:', optionLetter.toLowerCase());
+                      // Determine the option letter
+                      let optionLetter: string;
                       
-                      // Check answer with the option letter
-                      const userAnswer = optionLetter.toLowerCase();
+                      // Check if option has format "A) text" or just "text"
+                      if (selectedOption.includes(')')) {
+                        // Format: "A) text"
+                        optionLetter = selectedOption.split(')')[0].trim().toLowerCase();
+                      } else {
+                        // Format: just "text" - use index (0=a, 1=b, 2=c, 3=d)
+                        optionLetter = String.fromCharCode(97 + idx); // 97 is 'a'
+                      }
+                      
+                      console.log('Option letter:', optionLetter);
+                      
+                      // Get correct answers
                       const correctAnswers = Array.isArray(currentQuestion.correctAnswer)
                         ? currentQuestion.correctAnswer.map(a => a.toLowerCase().trim())
                         : [currentQuestion.correctAnswer.toLowerCase().trim()];
                       
                       console.log('Correct answers:', correctAnswers);
-                      console.log('Comparing:', userAnswer, 'with', correctAnswers);
                       
-                      // Validate answer - exact match only
+                      // Check if answer is correct
+                      // Accept both: the letter (a, b, c, d) OR the text content
+                      const userAnswerLetter = optionLetter;
+                      const userAnswerText = selectedOption.toLowerCase().trim();
+                      
                       const correct = correctAnswers.some(ca => {
-                        console.log(`Checking: "${userAnswer}" === "${ca}" ?`, userAnswer === ca);
-                        return userAnswer === ca;
+                        const matchLetter = userAnswerLetter === ca;
+                        const matchText = userAnswerText === ca;
+                        console.log(`Checking "${userAnswerLetter}" or "${userAnswerText}" vs "${ca}":`, matchLetter || matchText);
+                        return matchLetter || matchText;
                       });
                       
-                      console.log('Final result:', correct ? 'CORRECT' : 'INCORRECT');
+                      console.log('Final result:', correct ? 'CORRECT ✓' : 'INCORRECT ✗');
                       console.log('======================');
                       
                       setIsCorrect(correct);
