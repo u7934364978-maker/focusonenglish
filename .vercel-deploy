@@ -1,6 +1,8 @@
-Sat Jan 18 02:50:00 UTC 2026
-FORCE REDEPLOY: A1 course system with complete documentation
-- Deploy curso-a1 page and practice routes
-- Full A1 exercise system with AI
-- 35+ exercise types, 9 categories, 3 difficulty levels
-- Cambridge A1 curriculum integrated
+Sat Jan 18 03:50:00 UTC 2026
+MAJOR UPDATE: Random Exercise Generation System
+- Implemented 25 structured topics across 6 modules
+- Full random generation (topics, categories, types)
+- Auto-redirect to practice (no configuration needed)
+- 1 question per exercise for faster practice
+- Simplified metrics and improved UI
+- Cache disabled for unique exercises every time
