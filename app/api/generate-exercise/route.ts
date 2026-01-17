@@ -10,6 +10,7 @@ import {
   validateGeneratedExercise
 } from '@/lib/ai/exercise-generator';
 import { generateFallbackExercise, shouldUseFallback } from '@/lib/ai/fallback-exercises';
+import { generateSessionId } from '@/lib/ai/exercise-tracker';
 import {
   GenerateExerciseRequest,
   ExerciseType,
@@ -38,6 +39,12 @@ export async function POST(request: NextRequest) {
     // Parsear body
     const body = await request.json();
 
+    // Obtener sessionId del header o generar uno nuevo
+    const sessionId = request.headers.get('x-session-id') || body.sessionId || generateSessionId();
+    const userId = request.headers.get('x-user-id') || body.userId;
+
+    console.log('📝 Session info:', { sessionId: sessionId.substring(0, 20) + '...', userId });
+
     // Validar request
     const validationError = validateRequest(body);
     if (validationError) {
@@ -55,6 +62,13 @@ export async function POST(request: NextRequest) {
       count: body.count || 1,
       customPrompt: body.customPrompt
     };
+
+    console.log('🎯 Generate request:', {
+      type: generateRequest.exerciseType,
+      level: generateRequest.level,
+      difficulty: generateRequest.difficulty,
+      count: generateRequest.count
+    });
 
     // Intentar obtener del caché primero
     const cache = getExerciseCache();
@@ -90,13 +104,14 @@ export async function POST(request: NextRequest) {
         generated: exercises.length,
         cached: false,
         fallback: true,
+        sessionId,
         message: '⚠️ Usando ejercicios de demostración. Configura OPENAI_API_KEY para ejercicios generados con IA.'
       });
     }
 
     // Si no está en caché, generar con IA
     console.log('🤖 Generating new exercises with AI...');
-    const generator = getExerciseGenerator();
+    const generator = getExerciseGenerator(sessionId, userId);
     
     if (!generator) {
       // Fallback secundario en caso de error
@@ -117,7 +132,8 @@ export async function POST(request: NextRequest) {
         exercises: exercises,
         generated: exercises.length,
         cached: false,
-        fallback: true
+        fallback: true,
+        sessionId
       });
     }
     
@@ -144,6 +160,7 @@ export async function POST(request: NextRequest) {
         generated: 1,
         cached: false,
         fallback: true,
+        sessionId,
         message: 'Generación con IA falló. Usando ejercicio de demostración.'
       });
     }
@@ -156,7 +173,8 @@ export async function POST(request: NextRequest) {
       exercises: validExercises,
       cached: false,
       generated: validExercises.length,
-      fallback: false
+      fallback: false,
+      sessionId // Retornar el sessionId para que el cliente lo guarde
     });
 
   } catch (error) {

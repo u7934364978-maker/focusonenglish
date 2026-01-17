@@ -25,31 +25,62 @@ function PracticeContent() {
   const [totalScore, setTotalScore] = useState(0);
   const [sessionStartTime] = useState(Date.now());
   const [bestScore, setBestScore] = useState(0);
+  const [sessionId, setSessionId] = useState<string>('');
+
+  // Inicializar sessionId
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const STORAGE_KEY = 'a1_practice_session_id';
+      let sid = localStorage.getItem(STORAGE_KEY);
+      
+      if (!sid) {
+        sid = `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+        localStorage.setItem(STORAGE_KEY, sid);
+      }
+      
+      setSessionId(sid);
+      console.log('📝 Session ID initialized:', sid.substring(0, 20) + '...');
+    }
+  }, []);
 
   // Generar primer ejercicio al cargar
   useEffect(() => {
-    generateNextExercise();
-  }, []);
+    if (sessionId) {
+      generateNextExercise();
+    }
+  }, [sessionId]); // Esperar a que sessionId esté disponible
 
   const generateNextExercise = async () => {
+    if (!sessionId) {
+      console.log('⏳ Esperando sessionId...');
+      return;
+    }
+
     setLoading(true);
     setError(null);
 
     try {
-      console.log('🚀 Generando ejercicio A1:', { category, exerciseType, difficulty });
+      console.log('🚀 Generando ejercicio A1:', { 
+        category, 
+        exerciseType, 
+        difficulty,
+        sessionId: sessionId.substring(0, 20) + '...' 
+      });
 
       const response = await fetch('/api/generate-exercise', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
+          'x-session-id': sessionId // Enviar sessionId en header
         },
         body: JSON.stringify({
-          level: 'A1',
+          level: 'A1', // ✅ NIVEL A1 CORRECTO
           category: category,
           exerciseType: exerciseType,
           difficulty: difficulty,
           count: 1,
-          topic: 'general' // A1 general topics
+          topic: 'general', // A1 general topics
+          sessionId: sessionId // También en body como backup
         })
       });
 
@@ -60,6 +91,14 @@ function PracticeContent() {
       }
 
       console.log('✅ Ejercicio A1 generado:', data);
+      
+      // Actualizar sessionId si el servidor devuelve uno nuevo
+      if (data.sessionId && data.sessionId !== sessionId) {
+        setSessionId(data.sessionId);
+        if (typeof window !== 'undefined') {
+          localStorage.setItem('a1_practice_session_id', data.sessionId);
+        }
+      }
 
       // Convertir ejercicio generado al formato esperado
       const lesson = convertToLesson(data.exercises, {
