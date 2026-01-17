@@ -75,18 +75,17 @@ Cuando lees subtítulos en español, tu cerebro:
 - **Resultado:** Mejoras en velocidad de lectura en español, no en comprensión oral en inglés
 
 **Gráfica de atención cerebral:**
-```
-CON SUBTÍTULOS EN ESPAÑOL:
-Lectura subtítulos: ████████████████████ 90%
-Audio en inglés:    ██ 10%
 
-CON SUBTÍTULOS EN INGLÉS:
-Lectura subtítulos: ████████████ 60%
-Audio en inglés:    ████████ 40%
+**CON SUBTÍTULOS EN ESPAÑOL:**
+- Lectura subtítulos: ████████████████████ 90%
+- Audio en inglés: ██ 10%
 
-SIN SUBTÍTULOS (después de preparación):
-Audio en inglés:    ████████████████████ 100%
-```
+**CON SUBTÍTULOS EN INGLÉS:**
+- Lectura subtítulos: ████████████ 60%
+- Audio en inglés: ████████ 40%
+
+**SIN SUBTÍTULOS (después de preparación):**
+- Audio en inglés: ████████████████████ 100%
 
 ---
 
@@ -150,38 +149,36 @@ La activación del conocimiento previo (schema activation) facilita comprensión
 
 **Formato de notebook:**
 
-```
-EPISODIO: Friends S01E01 - "The One Where Monica Gets a Roommate"
+**EPISODIO:** Friends S01E01 - "The One Where Monica Gets a Roommate"
 
-TIMESTAMP: 03:45
-FRASE: "There's nothing to tell!"
-CONTEXTO: Rachel está evitando explicar algo
-MI EJEMPLO: "How was your date?" - "There's nothing to tell!"
-FUNCIÓN: Rechazar educadamente compartir información
+**TIMESTAMP:** 03:45
+- **FRASE:** "There's nothing to tell!"
+- **CONTEXTO:** Rachel está evitando explicar algo
+- **MI EJEMPLO:** "How was your date?" - "There's nothing to tell!"
+- **FUNCIÓN:** Rechazar educadamente compartir información
 
-TIMESTAMP: 08:22
-FRASE: "Can I get you anything? Coffee? Tea? Me?"
-CONTEXTO: Chandler intentando ligar con humor
-NOTA: Estructura "Can I get you...?" para ofrecer cosas
-MI EJEMPLO: "Can I get you a glass of water?"
+**TIMESTAMP:** 08:22
+- **FRASE:** "Can I get you anything? Coffee? Tea? Me?"
+- **CONTEXTO:** Chandler intentando ligar con humor
+- **NOTA:** Estructura "Can I get you...?" para ofrecer cosas
+- **MI EJEMPLO:** "Can I get you a glass of water?"
 
-TIMESTAMP: 12:10
-VOCABULARIO: "Cleansing" (limpieza, purificación)
-FRASE COMPLETA: "I'm doing a cleanse this week"
-USO: Contexto de wellness/dieta
-```
+**TIMESTAMP:** 12:10
+- **VOCABULARIO:** "Cleansing" (limpieza, purificación)
+- **FRASE COMPLETA:** "I'm doing a cleanse this week"
+- **USO:** Contexto de wellness/dieta
 
 **Cantidad objetivo:**
 - 10-15 frases/expresiones por episodio de 22 minutos
 - 5-8 palabras de vocabulario nuevo
 
 **Criterio de selección:**
-✓ Útil en tu vida real
-✓ Aparece frecuentemente en inglés
-✓ Estructuralmente interesante
-❌ Demasiado específico
-❌ Argot obsoleto
-❌ Nombres propios sin valor educativo
+- ✅ Útil en tu vida real
+- ✅ Aparece frecuentemente en inglés
+- ✅ Estructuralmente interesante
+- ❌ Demasiado específico
+- ❌ Argot obsoleto
+- ❌ Nombres propios sin valor educativo
 
 #### Paso 3: Revisión Inmediata (5 min)
 
@@ -220,13 +217,11 @@ Ver el episodio completo sin pausa, sin subtítulos
 
 **Ejemplo:**
 
-```
-TUS NOTAS (Pasada 1):
-[✓] "There's nothing to tell!" → ¡La escuché claramente!
-[✓] "Can I get you anything?" → La reconocí
-[?] "Cleansing" → La escuché pero no estoy seguro
-[✗] "Bobbing for apples" → No la identifiqué en el audio
-```
+**TUS NOTAS (Pasada 1):**
+- [✓] "There's nothing to tell!" → ¡La escuché claramente!
+- [✓] "Can I get you anything?" → La reconocí
+- [?] "Cleansing" → La escuché pero no estoy seguro
+- [✗] "Bobbing for apples" → No la identifiqué en el audio
 
 **Métrica de progreso:**
 
@@ -314,13 +309,11 @@ Grábate respondiendo:
 Elige una escena con 2 personajes. Actúa AMBOS roles en voz alta.
 
 **Ejemplo de Friends:**
-```
-Tú (como Ross): "I need to tell you something..."
-[Pausa, cambia de personaje]
-Tú (como Rachel): "What is it?"
-[Pausa]
-Tú (como Ross): "I've had feelings for you since..."
-```
+> **Tú (como Ross):** "I need to tell you something..."
+> [Pausa, cambia de personaje]
+> **Tú (como Rachel):** "What is it?"
+> [Pausa]
+> **Tú (como Ross):** "I've had feelings for you since..."
 
 **Beneficio:** Practicas cambiar entre registros, entonaciones y estilos de habla.
 
@@ -475,13 +468,12 @@ Ver 10 episodios seguidos sin pausa ni notas = entretenimiento, no aprendizaje
 - Mejor: 1 episodio procesado completamente que 10 vistos pasivamente
 
 **Comparación:**
-```
-MARATÓN (método ineficaz):
-30 episodios/mes × 0% retención = 0 aprendizaje
 
-MÉTODO 3 PASADAS (eficaz):
-3 episodios/semana × 60% retención = progreso medible
-```
+**MARATÓN (método ineficaz):**
+- 30 episodios/mes × 0% retención = 0 aprendizaje
+
+**MÉTODO 3 PASADAS (eficaz):**
+- 3 episodios/semana × 60% retención = progreso medible
 
 ### Error #2: Elegir Series Demasiado Difíciles
 
@@ -782,12 +774,10 @@ Series cubren principalmente **comprensión oral**.
 
 **Para inglés completo necesitas:**
 
-```
-40% - Comprensión oral (series, podcasts)
-30% - Producción oral (conversación, shadowing)
-20% - Lectura
-10% - Escritura
-```
+- **40%** - Comprensión oral (series, podcasts)
+- **30%** - Producción oral (conversación, shadowing)
+- **20%** - Lectura
+- **10%** - Escritura
 
 **Recomendación:**
 - Series como base (estructura tu día alrededor de esto)
