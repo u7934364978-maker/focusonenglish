@@ -26,38 +26,40 @@ export default function HomePage() {
       
       <main className="min-h-screen">
         
-        {/* Hero Section - Purple Gradient */}
-        <section className="relative bg-gradient-to-br from-violet-600 via-purple-600 to-indigo-700 pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-          {/* Animated background blobs */}
-          <div className="absolute inset-0 opacity-20">
-            <div className="absolute top-20 right-20 w-96 h-96 bg-white rounded-full mix-blend-overlay filter blur-3xl animate-blob"></div>
-            <div className="absolute bottom-20 left-20 w-96 h-96 bg-white rounded-full mix-blend-overlay filter blur-3xl animate-blob animation-delay-2000"></div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-white rounded-full mix-blend-overlay filter blur-3xl animate-blob animation-delay-4000"></div>
+        {/* Hero Section - Coral/Peach Gradient */}
+        <section className="hero-gradient relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+          {/* Animated background elements */}
+          <div className="absolute inset-0 opacity-10">
+            <div className="absolute top-20 right-20 w-96 h-96 bg-[#FF6B6B] rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
+            <div className="absolute bottom-20 left-20 w-96 h-96 bg-[#FFA06B] rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#FFBE98] rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000"></div>
           </div>
 
           <div className="relative max-w-7xl mx-auto">
             {/* Badge */}
             <div className="flex justify-center mb-6">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm text-white text-sm font-bold">
-                <span className="w-2 h-2 bg-yellow-300 rounded-full animate-pulse"></span>
-                Cursos de Inglés Especializados para España
+              <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white shadow-lg text-sm font-black">
+                <span className="w-2 h-2 bg-[#FF6B6B] rounded-full animate-pulse"></span>
+                <span className="bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] bg-clip-text text-transparent">
+                  Cursos de Inglés Especializados para España
+                </span>
               </div>
             </div>
 
             {/* Main Heading */}
-            <div className="text-center text-white mb-12">
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black mb-6 leading-tight">
+            <div className="text-center mb-12">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black mb-6 leading-tight text-gray-900">
                 Domina el Inglés<br />
-                <span className="bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] bg-clip-text text-transparent">
                   Para Tu Objetivo
                 </span>
               </h1>
               
-              <p className="text-xl sm:text-2xl text-violet-100 max-w-3xl mx-auto mb-4 leading-relaxed">
-                Cursos de inglés online desde España, especializados en <span className="font-bold text-white">trabajo</span>, <span className="font-bold text-white">viajes</span> o <span className="font-bold text-white">exámenes oficiales</span>.
+              <p className="text-xl sm:text-2xl text-gray-700 max-w-3xl mx-auto mb-4 leading-relaxed font-semibold">
+                Cursos de inglés online desde España, especializados en <span className="font-black text-[#FF6B6B]">trabajo</span>, <span className="font-black text-[#FF6B6B]">viajes</span> o <span className="font-black text-[#FF6B6B]">exámenes oficiales</span>.
               </p>
               
-              <p className="text-lg text-violet-200 mb-10">
+              <p className="text-lg text-gray-600 mb-10 font-semibold">
                 Programas personalizados de 90 días. Desde €6.99/mes.
               </p>
 
@@ -65,14 +67,14 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
                 <Link
                   href="/test-nivel"
-                  className="inline-flex items-center gap-2 bg-white text-violet-600 px-10 py-5 rounded-xl font-black text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
+                  className="cta-primary inline-flex items-center gap-2"
                 >
                   🎯 Hacer Test de Nivel Gratis
                 </Link>
                 
                 <Link
                   href="#cursos"
-                  className="inline-flex items-center gap-2 bg-violet-700/50 backdrop-blur-sm text-white px-10 py-5 rounded-xl font-black text-lg hover:bg-violet-700 transition-all duration-300 border-2 border-white/20"
+                  className="cta-secondary inline-flex items-center gap-2"
                 >
                   Ver Cursos →
                 </Link>
@@ -80,18 +82,19 @@ export default function HomePage() {
             </div>
 
             {/* Trust Indicators */}
-            <div className="flex flex-wrap items-center justify-center gap-8 text-white/90">
-              <div className="flex items-center gap-2">
-                <span className="text-yellow-300">⭐⭐⭐⭐⭐</span>
-                <span className="font-semibold">4.8/5 (2,500+ reseñas)</span>
+            <div className="flex flex-wrap items-center justify-center gap-8">
+              <div className="flex items-center gap-3 bg-white px-6 py-3 rounded-xl shadow-lg">
+                <span className="text-yellow-400">⭐⭐⭐⭐⭐</span>
+                <span className="font-black text-gray-900">4.8/5</span>
+                <span className="text-gray-600 font-semibold">(2,500+ reseñas)</span>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-3 bg-white px-6 py-3 rounded-xl shadow-lg">
                 <span className="text-2xl">🇪🇸</span>
-                <span className="font-semibold">100% enfocado en España</span>
+                <span className="font-black text-gray-900">100% enfocado en España</span>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-3 bg-white px-6 py-3 rounded-xl shadow-lg">
                 <span className="text-2xl">📚</span>
-                <span className="font-semibold">18 niveles (A1-C2)</span>
+                <span className="font-black text-gray-900">18 niveles (A1-C2)</span>
               </div>
             </div>
           </div>
