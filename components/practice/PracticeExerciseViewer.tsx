@@ -168,8 +168,12 @@ export default function PracticeExerciseViewer({
                     onClick={() => {
                       const selectedOption = option;
                       setAnswer(selectedOption);
-                      // Check answer with the selected option directly
-                      const userAnswer = selectedOption.trim().toLowerCase();
+                      
+                      // Extract letter from option (e.g., "A) answer" -> "A")
+                      const optionLetter = selectedOption.split(')')[0].trim();
+                      
+                      // Check answer with the option letter
+                      const userAnswer = optionLetter.toLowerCase();
                       const correctAnswers = Array.isArray(currentQuestion.correctAnswer)
                         ? currentQuestion.correctAnswer.map(a => a.toLowerCase().trim())
                         : [currentQuestion.correctAnswer.toLowerCase().trim()];
