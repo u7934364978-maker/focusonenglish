@@ -57,8 +57,27 @@ export default function PracticeExerciseViewer({
       ? currentQuestion.correctAnswer.map(a => a.toLowerCase().trim())
       : [currentQuestion.correctAnswer.toLowerCase().trim()];
 
-    // Validate answer - exact match only
-    const correct = correctAnswers.some(ca => userAnswer === ca);
+    // If question has options, also accept the actual text from the correct option
+    let correct = correctAnswers.some(ca => userAnswer === ca);
+    
+    // If not correct and has options, check if user wrote the actual answer text
+    if (!correct && currentQuestion.options && currentQuestion.options.length > 0) {
+      // Find the correct option based on the letter
+      const correctLetter = correctAnswers[0]; // e.g., "a"
+      const correctOption = currentQuestion.options.find(opt => 
+        opt.trim().toLowerCase().startsWith(correctLetter + ')')
+      );
+      
+      if (correctOption) {
+        // Extract the text after "A) ", "B) ", etc.
+        const optionText = correctOption.substring(correctOption.indexOf(')') + 1).trim().toLowerCase();
+        
+        // Check if user answer matches the option text
+        if (userAnswer === optionText) {
+          correct = true;
+        }
+      }
+    }
 
     setIsCorrect(correct);
     setShowFeedback(true);
