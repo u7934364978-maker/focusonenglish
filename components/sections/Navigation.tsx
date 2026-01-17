@@ -39,20 +39,22 @@ export function Navigation() {
               </button>
               
               {cursosMenuOpen && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-2xl shadow-coral-lg border-2 border-[#FFE8D9] py-2 animate-slide-down z-[9999]">
-                  <Link href="/cursos/trabajo" className="block px-4 py-3 text-sm text-gray-700 hover:bg-gradient-to-r hover:from-[#FFF4ED] hover:to-[#FFE8D9] hover:text-[#FF6B6B] transition-all font-semibold rounded-lg mx-2">
-                    <span className="text-lg mr-2">💼</span> Inglés para Trabajar
-                  </Link>
-                  <Link href="/cursos/viajes" className="block px-4 py-3 text-sm text-gray-700 hover:bg-gradient-to-r hover:from-[#FFF4ED] hover:to-[#FFE8D9] hover:text-[#FF6B6B] transition-all font-semibold rounded-lg mx-2">
-                    <span className="text-lg mr-2">✈️</span> Inglés para Viajar
-                  </Link>
-                  <Link href="/cursos/examenes" className="block px-4 py-3 text-sm text-gray-700 hover:bg-gradient-to-r hover:from-[#FFF4ED] hover:to-[#FFE8D9] hover:text-[#FF6B6B] transition-all font-semibold rounded-lg mx-2">
-                    <span className="text-lg mr-2">🎓</span> Preparación de Exámenes
-                  </Link>
-                  <div className="border-t-2 border-[#FFE8D9] my-2 mx-2"></div>
-                  <Link href="/cursos" className="block px-4 py-3 text-sm text-[#FF6B6B] hover:bg-gradient-to-r hover:from-[#FFF4ED] hover:to-[#FFE8D9] transition-all font-black rounded-lg mx-2">
-                    Ver todos los cursos →
-                  </Link>
+                <div className="absolute top-full left-0 pt-2 w-64 z-[9999]">
+                  <div className="bg-white rounded-2xl shadow-coral-lg border-2 border-[#FFE8D9] py-2 animate-slide-down">
+                    <Link href="/cursos/trabajo" className="block px-4 py-3 text-sm text-gray-700 hover:bg-gradient-to-r hover:from-[#FFF4ED] hover:to-[#FFE8D9] hover:text-[#FF6B6B] transition-all font-semibold rounded-lg mx-2">
+                      <span className="text-lg mr-2">💼</span> Inglés para Trabajar
+                    </Link>
+                    <Link href="/cursos/viajes" className="block px-4 py-3 text-sm text-gray-700 hover:bg-gradient-to-r hover:from-[#FFF4ED] hover:to-[#FFE8D9] hover:text-[#FF6B6B] transition-all font-semibold rounded-lg mx-2">
+                      <span className="text-lg mr-2">✈️</span> Inglés para Viajar
+                    </Link>
+                    <Link href="/cursos/examenes" className="block px-4 py-3 text-sm text-gray-700 hover:bg-gradient-to-r hover:from-[#FFF4ED] hover:to-[#FFE8D9] hover:text-[#FF6B6B] transition-all font-semibold rounded-lg mx-2">
+                      <span className="text-lg mr-2">🎓</span> Preparación de Exámenes
+                    </Link>
+                    <div className="border-t-2 border-[#FFE8D9] my-2 mx-2"></div>
+                    <Link href="/cursos" className="block px-4 py-3 text-sm text-[#FF6B6B] hover:bg-gradient-to-r hover:from-[#FFF4ED] hover:to-[#FFE8D9] transition-all font-black rounded-lg mx-2">
+                      Ver todos los cursos →
+                    </Link>
+                  </div>
                 </div>
               )}
             </div>
