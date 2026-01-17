@@ -75,7 +75,7 @@ export default function MaterialTabs({
                   className={[
                     "inline-flex h-10 items-center justify-center rounded-2xl border px-4 text-sm font-black",
                     isActive
-                      ? "border-violet-600 bg-violet-600 text-white"
+                      ? "border-coral-600 bg-coral-600 text-white"
                       : "border-slate-200 bg-white text-slate-800 hover:bg-slate-50",
                   ].join(" ")}
                 >
