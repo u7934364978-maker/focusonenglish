@@ -1062,6 +1062,187 @@ The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for y
           }
         ],
         focusAreas: ['Noun suffixes', 'Negative prefixes', 'Adjective to noun']
+      },
+      {
+        id: 'b2-m1-l1-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Time Expressions with Past Perfect',
+        vocabularySet: [
+          { word: 'by the time', definition: 'before a particular moment', example: 'By the time we arrived, the concert had already started.' },
+          { word: 'prior to', definition: 'before (formal)', example: 'She had worked abroad prior to starting her own business.' },
+          { word: 'previously', definition: 'at an earlier time', example: 'They had previously lived in Spain for three years.' },
+          { word: 'up until', definition: 'continuously before a point', example: 'Up until last month, I had never tried sushi.' },
+          { word: 'beforehand', definition: 'at an earlier or preceding time', example: 'We should have booked beforehand - the restaurant was full.' },
+          { word: 'in the meantime', definition: 'during the time between two events', example: 'The train was delayed; in the meantime, we had grabbed some coffee.' },
+          { word: 'already', definition: 'before the time mentioned', example: 'When I called, they had already left.' },
+          { word: 'just', definition: 'very recently', example: 'She had just finished when the bell rang.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose the best time expression: ___ I got home, my family had eaten dinner.',
+            options: ['By the time', 'Previously', 'Beforehand', 'Just'],
+            correctAnswer: 'By the time',
+            explanation: '"By the time" connects two past actions, showing one happened before the other.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: '___ to moving here, I had lived in three different countries.',
+            options: ['Just', 'Prior to', 'Already', 'In the meantime'],
+            correctAnswer: 'Prior to',
+            explanation: '"Prior to" (formal) means before, perfect for describing what happened earlier.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'Complete: When we arrived at the party, everyone had ___ left.',
+            correctAnswer: 'already',
+            explanation: '"Already" emphasizes that the action was completed before the expected time.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'I had never seen snow ___ I visited Switzerland.',
+            options: ['up until', 'just', 'prior to', 'beforehand'],
+            correctAnswer: 'up until',
+            explanation: '"Up until" shows the continuous situation before a specific point.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l1-cloze-2',
+        type: 'multiple-choice-cloze',
+        title: 'Past Perfect in Context: A Life-Changing Decision',
+        text: `Emma sat in the airport lounge, reflecting on how much her life (1)___ in the past year. She (2)___ her comfortable job in London to pursue a dream she (3)___ since childhood. Before taking this leap, she (4)___ extensively about working abroad. Her friends (5)___ her decision with surprise, as they (6)___ her as someone who avoided risks. However, Emma knew that if she (7)___ this opportunity, she would have regretted it forever. Now, as her flight was called, she realized she (8)___ the right choice.`,
+        questions: [
+          {
+            id: 'q1',
+            gapNumber: 1,
+            question: '(1)',
+            options: ['had changed', 'has changed', 'changed', 'was changing'],
+            correctAnswer: 'had changed',
+            explanation: 'Past Perfect shows the change occurred before the moment of reflection.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            gapNumber: 2,
+            question: '(2)',
+            options: ['left', 'has left', 'had left', 'was leaving'],
+            correctAnswer: 'had left',
+            explanation: 'She left before sitting in the lounge - Past Perfect for earlier action.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            gapNumber: 3,
+            question: '(3)',
+            options: ['had had', 'has had', 'had', 'was having'],
+            correctAnswer: 'had had',
+            explanation: 'The dream existed before leaving her job - Past Perfect.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            gapNumber: 4,
+            question: '(4)',
+            options: ['researched', 'had researched', 'has researched', 'was researching'],
+            correctAnswer: 'had researched',
+            explanation: 'Research happened before making the decision - Past Perfect.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            gapNumber: 5,
+            question: '(5)',
+            options: ['greeted', 'had greeted', 'have greeted', 'were greeting'],
+            correctAnswer: 'had greeted',
+            explanation: 'Their reaction happened before the current moment - Past Perfect.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            gapNumber: 6,
+            question: '(6)',
+            options: ['knew', 'had known', 'have known', 'were knowing'],
+            correctAnswer: 'had known',
+            explanation: 'Their previous perception of her - Past Perfect.',
+            points: 1
+          },
+          {
+            id: 'q7',
+            gapNumber: 7,
+            question: '(7)',
+            options: ['didn\'t take', 'hadn\'t taken', 'hasn\'t taken', 'won\'t take'],
+            correctAnswer: 'hadn\'t taken',
+            explanation: 'Hypothetical past situation - Past Perfect in conditional.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            gapNumber: 8,
+            question: '(8)',
+            options: ['made', 'had made', 'has made', 'was making'],
+            correctAnswer: 'had made',
+            explanation: 'Decision made before the realization - Past Perfect.',
+            points: 1
+          }
+        ],
+        focusAreas: ['Past Perfect usage', 'Narrative context', 'Time sequence']
+      },
+      {
+        id: 'b2-m1-l1-sentence-1',
+        type: 'sentence-building',
+        title: 'Build Complex Past Perfect Sentences',
+        instructions: 'Arrange the words in the correct order to form grammatically correct sentences using Past Perfect.',
+        sentences: [
+          {
+            id: 's1',
+            words: ['by', 'the', 'time', 'I', 'arrived', ',', 'they', 'had', 'already', 'finished', 'dinner', '.'],
+            correctOrder: ['by', 'the', 'time', 'I', 'arrived', ',', 'they', 'had', 'already', 'finished', 'dinner', '.'],
+            translation: 'Para cuando llegué, ellos ya habían terminado la cena.',
+            hint: 'Start with the time expression "by the time"',
+            points: 2
+          },
+          {
+            id: 's2',
+            words: ['she', 'had', 'never', 'seen', 'the', 'ocean', 'until', 'she', 'moved', 'to', 'California', '.'],
+            correctOrder: ['she', 'had', 'never', 'seen', 'the', 'ocean', 'until', 'she', 'moved', 'to', 'California', '.'],
+            translation: 'Ella nunca había visto el océano hasta que se mudó a California.',
+            hint: '"never" comes before the past participle',
+            points: 2
+          },
+          {
+            id: 's3',
+            words: ['we', 'realized', 'that', 'we', 'had', 'left', 'our', 'passports', 'at', 'home', '.'],
+            correctOrder: ['we', 'realized', 'that', 'we', 'had', 'left', 'our', 'passports', 'at', 'home', '.'],
+            translation: 'Nos dimos cuenta de que habíamos dejado nuestros pasaportes en casa.',
+            hint: 'Main clause (realized) + subordinate clause with Past Perfect',
+            points: 2
+          },
+          {
+            id: 's4',
+            words: ['had', 'you', 'ever', 'tried', 'sushi', 'before', 'you', 'visited', 'Japan', '?'],
+            correctOrder: ['had', 'you', 'ever', 'tried', 'sushi', 'before', 'you', 'visited', 'Japan', '?'],
+            translation: '¿Habías probado sushi alguna vez antes de visitar Japón?',
+            hint: 'Question form: Had + subject + ever + past participle',
+            points: 2
+          },
+          {
+            id: 's5',
+            words: ['the', 'movie', 'had', 'already', 'started', 'when', 'we', 'got', 'to', 'the', 'cinema', '.'],
+            correctOrder: ['the', 'movie', 'had', 'already', 'started', 'when', 'we', 'got', 'to', 'the', 'cinema', '.'],
+            translation: 'La película ya había empezado cuando llegamos al cine.',
+            hint: 'Past Perfect clause first, then Past Simple',
+            points: 2
+          }
+        ]
       }
     ]
   },
@@ -1568,6 +1749,302 @@ Under no circumstances should we view career changes as failures. If you had sta
           { id: 'q8', gapNumber: 8, baseWord: 'SKILL', correctAnswer: 'skillful', acceptableAnswers: ['skillful', 'skilful'], explanation: '"Skillful decision-makers" - having and showing skill.', wordType: 'adjective', transformation: 'noun → adjective (-ful)', points: 1 }
         ],
         focusAreas: ['Word formation', 'Negative prefixes', 'Suffix patterns']
+      },
+      {
+        id: 'b2-m1-l2-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Inversion and Emphasis Vocabulary',
+        vocabularySet: [
+          { word: 'seldom', definition: 'rarely; not often', example: 'Seldom have I seen such dedication.' },
+          { word: 'scarcely', definition: 'almost not; hardly', example: 'Scarcely had we arrived when it started raining.' },
+          { word: 'no sooner', definition: 'immediately after', example: 'No sooner had she left than the phone rang.' },
+          { word: 'under no circumstances', definition: 'never; in no situation', example: 'Under no circumstances should you reveal this information.' },
+          { word: 'not only', definition: 'used to emphasize addition', example: 'Not only did he win, but he also broke the record.' },
+          { word: 'barely', definition: 'only just; almost not', example: 'Barely had I closed my eyes when the alarm went off.' },
+          { word: 'never before', definition: 'at no time previously', example: 'Never before had we experienced such chaos.' },
+          { word: 'little did', definition: 'used to express surprise about something unknown', example: 'Little did we know that our lives would change forever.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '___ have I witnessed such an incredible performance.',
+            options: ['Seldom', 'Often', 'Usually', 'Sometimes'],
+            correctAnswer: 'Seldom',
+            explanation: '"Seldom" creates emphasis through inversion, meaning "rarely".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: '___ had we finished dinner when guests arrived.',
+            options: ['Already', 'No sooner', 'Soon', 'Later'],
+            correctAnswer: 'No sooner',
+            explanation: '"No sooner...than" shows immediate sequence with inversion.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'Complete: ___ no circumstances should you enter that room.',
+            correctAnswer: 'Under',
+            explanation: '"Under no circumstances" is a strong negative expression requiring inversion.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'Little ___ we know what awaited us.',
+            options: ['do', 'did', 'does', 'had'],
+            correctAnswer: 'did',
+            explanation: '"Little did" uses past tense for past situations, creating emphasis.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l2-reading-1',
+        type: 'reading',
+        title: 'Understanding Conditional Structures in Academic Writing',
+        text: `Academic writing frequently employs complex conditional structures to express hypothetical situations, critique past research, and propose future directions. Mixed conditionals, in particular, allow writers to connect past actions with present consequences or present states with past outcomes.
+
+Consider this example: "If researchers had paid more attention to climate data in the 1990s, we might have better solutions today." This mixed conditional (Type 1) links a past hypothetical situation with a present result, a common pattern in scientific discourse when discussing missed opportunities.
+
+Conversely, mixed conditional Type 2 appears when present states affect past possibilities: "If we had more funding today, we would have conducted a larger study last year." This structure helps researchers explain how current limitations influenced past decisions.
+
+Inversion with conditionals adds formality and emphasis. Rather than writing "If we had known," academic texts often employ "Had we known," particularly in formal reports and papers. This inverted form, though less common in everyday speech, demonstrates sophisticated command of English grammar and elevates the register of the writing.
+
+Understanding and correctly applying these structures enables researchers to construct nuanced arguments that acknowledge the complex relationship between past decisions, present circumstances, and future possibilities.`,
+        wordCount: 195,
+        readingTime: 2,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What is the main purpose of the passage?',
+            options: [
+              'To critique academic writing styles',
+              'To explain the use of conditional structures in formal writing',
+              'To propose new grammar rules',
+              'To discuss climate change research'
+            ],
+            correctAnswer: 'To explain the use of conditional structures in formal writing',
+            explanation: 'The passage focuses on how conditionals are used in academic contexts.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'Mixed conditional Type 1 connects:',
+            options: [
+              'Past action with past result',
+              'Present state with present result',
+              'Past action with present result',
+              'Future action with present result'
+            ],
+            correctAnswer: 'Past action with present result',
+            explanation: 'The passage explicitly states Type 1 "links a past hypothetical situation with a present result".',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'Inverted conditionals are more common in spoken English than in academic writing.',
+            correctAnswer: 'false',
+            explanation: 'The passage states inverted forms are "less common in everyday speech" but used in "formal reports and papers".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'short-answer',
+            question: 'According to the text, what does using complex conditionals demonstrate?',
+            correctAnswer: 'sophisticated command of English grammar',
+            explanation: 'The passage states this ability "demonstrates sophisticated command of English grammar".',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l2-keytransform-2',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Conditionals',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Use between two and five words.',
+        transformations: [
+          {
+            id: 't1',
+            sentence: 'I didn\'t bring my umbrella, so I got wet.',
+            keyWord: 'HAD',
+            startOfAnswer: 'If I',
+            correctAnswer: 'had brought my umbrella',
+            explanation: 'Third conditional: If + had + past participle for past hypothetical.',
+            points: 2
+          },
+          {
+            id: 't2',
+            sentence: 'She doesn\'t speak French, so she didn\'t apply for the job.',
+            keyWord: 'SPOKE',
+            startOfAnswer: 'If she',
+            correctAnswer: 'spoke French, she would',
+            explanation: 'Mixed conditional Type 2: present state affecting past action.',
+            points: 2
+          },
+          {
+            id: 't3',
+            sentence: 'They didn\'t invest in technology, so they are behind now.',
+            keyWord: 'INVESTED',
+            startOfAnswer: 'If they had',
+            correctAnswer: 'invested in technology, they',
+            explanation: 'Mixed conditional Type 1: past action affecting present state.',
+            points: 2
+          },
+          {
+            id: 't4',
+            sentence: 'He rarely arrives on time.',
+            keyWord: 'SELDOM',
+            startOfAnswer: 'Seldom',
+            correctAnswer: 'does he arrive on',
+            explanation: 'Negative adverb "seldom" requires inversion: seldom + auxiliary + subject.',
+            points: 2
+          },
+          {
+            id: 't5',
+            sentence: 'I had never experienced such kindness before.',
+            keyWord: 'NEVER',
+            startOfAnswer: 'Never before',
+            correctAnswer: 'had I experienced such',
+            explanation: 'Inversion with "never before": never + had + subject + past participle.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l2-cloze-2',
+        type: 'multiple-choice-cloze',
+        title: 'Conditionals and Inversion in Context',
+        text: `Sarah often reflected on her decision to leave her hometown. (1)___ she stayed, she would probably be running her family's business now. However, she (2)___ regret her choice. Never (3)___ she felt more alive than during her travels abroad. If she (4)___ more courage earlier, she would have left sooner. (5)___ had she known how transformative the experience would be! Her friends were surprised; little (6)___ they understand her need for adventure. Now, if someone asks if she would change anything, she replies with confidence: "Not (7)___ any circumstances would I alter my path. Had I (8)___ differently, I wouldn't be the person I am today."`,
+        questions: [
+          {
+            id: 'q1',
+            gapNumber: 1,
+            question: '(1)',
+            options: ['If', 'Had', 'Should', 'Were'],
+            correctAnswer: 'Had',
+            explanation: 'Inverted conditional: "Had she stayed" = "If she had stayed".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            gapNumber: 2,
+            question: '(2)',
+            options: ['doesn\'t', 'didn\'t', 'hasn\'t', 'hadn\'t'],
+            correctAnswer: 'doesn\'t',
+            explanation: 'Present simple for current state: she doesn\'t regret now.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            gapNumber: 3,
+            question: '(3)',
+            options: ['did', 'had', 'has', 'does'],
+            correctAnswer: 'had',
+            explanation: 'Inversion with "never": Never had she felt (Past Perfect).',
+            points: 1
+          },
+          {
+            id: 'q4',
+            gapNumber: 4,
+            question: '(4)',
+            options: ['had', 'had had', 'has had', 'would have'],
+            correctAnswer: 'had had',
+            explanation: 'Mixed conditional: past state (had had) affecting past action.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            gapNumber: 5,
+            question: '(5)',
+            options: ['If', 'Only', 'Had', 'Little'],
+            correctAnswer: 'Little',
+            explanation: '"Little had she known" - emphatic inversion expressing surprise.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            gapNumber: 6,
+            question: '(6)',
+            options: ['do', 'did', 'does', 'had'],
+            correctAnswer: 'did',
+            explanation: 'Inversion with "little": little did they understand (past).',
+            points: 1
+          },
+          {
+            id: 'q7',
+            gapNumber: 7,
+            question: '(7)',
+            options: ['in', 'under', 'at', 'for'],
+            correctAnswer: 'under',
+            explanation: '"Not under any circumstances" = "Under no circumstances" - strong negative.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            gapNumber: 8,
+            question: '(8)',
+            options: ['choose', 'chosen', 'chose', 'choosing'],
+            correctAnswer: 'chosen',
+            explanation: 'Past conditional: "Had I chosen" = "If I had chosen".',
+            points: 1
+          }
+        ],
+        focusAreas: ['Mixed conditionals', 'Inversion', 'Emphasis structures']
+      },
+      {
+        id: 'b2-m1-l2-sentence-1',
+        type: 'sentence-building',
+        title: 'Build Sentences with Inversion',
+        instructions: 'Arrange the words to create emphatic sentences using inversion.',
+        sentences: [
+          {
+            id: 's1',
+            words: ['never', 'before', 'had', 'I', 'seen', 'such', 'a', 'beautiful', 'sunset', '.'],
+            correctOrder: ['never', 'before', 'had', 'I', 'seen', 'such', 'a', 'beautiful', 'sunset', '.'],
+            translation: 'Nunca antes había visto una puesta de sol tan hermosa.',
+            hint: 'Start with "never before", then invert subject and auxiliary',
+            points: 2
+          },
+          {
+            id: 's2',
+            words: ['no', 'sooner', 'had', 'we', 'arrived', 'than', 'it', 'started', 'raining', '.'],
+            correctOrder: ['no', 'sooner', 'had', 'we', 'arrived', 'than', 'it', 'started', 'raining', '.'],
+            translation: 'Apenas habíamos llegado cuando empezó a llover.',
+            hint: '"No sooner...than" pattern with inverted auxiliary',
+            points: 2
+          },
+          {
+            id: 's3',
+            words: ['rarely', 'does', 'she', 'complain', 'about', 'anything', '.'],
+            correctOrder: ['rarely', 'does', 'she', 'complain', 'about', 'anything', '.'],
+            translation: 'Rara vez se queja de algo.',
+            hint: 'Negative adverb first, then does + subject + base verb',
+            points: 2
+          },
+          {
+            id: 's4',
+            words: ['under', 'no', 'circumstances', 'should', 'you', 'open', 'this', 'door', '.'],
+            correctOrder: ['under', 'no', 'circumstances', 'should', 'you', 'open', 'this', 'door', '.'],
+            translation: 'Bajo ninguna circunstancia deberías abrir esta puerta.',
+            hint: 'Strong negative expression with modal inversion',
+            points: 2
+          },
+          {
+            id: 's5',
+            words: ['little', 'did', 'we', 'know', 'what', 'awaited', 'us', '.'],
+            correctOrder: ['little', 'did', 'we', 'know', 'what', 'awaited', 'us', '.'],
+            translation: 'Poco sabíamos lo que nos esperaba.',
+            hint: '"Little" expresses surprise with did + subject + verb',
+            points: 2
+          }
+        ]
       }
     ]
   },
@@ -2087,6 +2564,219 @@ Governments and businesses also have a crucial {{7}} to play. New policies are b
           { id: 'q8', gapNumber: 8, baseWord: 'ECONOMY', correctAnswer: 'economical', acceptableAnswers: ['economical'], explanation: '"More economical" - giving good value for money.', wordType: 'adjective', transformation: 'noun → adjective (-ical)', points: 1 }
         ],
         focusAreas: ['-able suffix', 'Adverb formation', 'Environmental vocabulary']
+      },
+      {
+        id: 'b2-m1-l3-reading-1',
+        type: 'reading',
+        title: 'The Power of Emphasis in Persuasive Writing',
+        text: `What makes persuasive writing truly effective is not just the arguments presented, but how those arguments are emphasized. It is through strategic emphasis that writers draw readers' attention to key points. What distinguishes amateur writers from professionals is their mastery of emphasis techniques.
+
+Consider cleft sentences. Rather than stating "The lack of funding caused the project's failure," a skilled writer might write: "It was the lack of funding that caused the project's failure." This small restructuring places unmistakable emphasis on the cause. Similarly, instead of "We need immediate action," "What we need is immediate action" creates a more forceful statement.
+
+The technique appears frequently in academic and professional contexts. It is in formal proposals where we most often encounter these structures. What researchers appreciate about cleft sentences is their ability to highlight specific information without resorting to informal intensifiers or exclamation marks.
+
+However, overuse diminishes impact. It is judicious application that makes emphasis effective. What good writers understand is that these structures should enhance, not overwhelm, their message.`,
+        wordCount: 175,
+        readingTime: 2,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the passage, what distinguishes professional writers?',
+            options: [
+              'Their vocabulary range',
+              'Their mastery of emphasis techniques',
+              'Their use of complex sentences',
+              'Their formal tone'
+            ],
+            correctAnswer: 'Their mastery of emphasis techniques',
+            explanation: 'The passage states "What distinguishes amateur writers from professionals is their mastery of emphasis techniques."',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'Cleft sentences are described as particularly useful for:',
+            options: [
+              'Making writing more informal',
+              'Adding emotion to arguments',
+              'Highlighting specific information',
+              'Making sentences shorter'
+            ],
+            correctAnswer: 'Highlighting specific information',
+            explanation: 'The text mentions "their ability to highlight specific information".',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'The passage suggests that emphasis structures should be used as frequently as possible.',
+            correctAnswer: 'false',
+            explanation: 'The passage warns that "overuse diminishes impact" and advocates for "judicious application".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'short-answer',
+            question: 'Where do cleft sentences appear frequently, according to the text?',
+            correctAnswer: 'academic and professional contexts / formal proposals',
+            explanation: 'The passage specifically mentions these contexts.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l3-keytransform-2',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Cleft Sentences',
+        instructions: 'Complete the second sentence using the word given. Use between two and five words.',
+        transformations: [
+          {
+            id: 't1',
+            sentence: 'Her determination impressed me most.',
+            keyWord: 'WHAT',
+            startOfAnswer: 'What',
+            correctAnswer: 'impressed me most was',
+            explanation: 'What-cleft focuses on the subject: What + impressed me most + was + her determination.',
+            points: 2
+          },
+          {
+            id: 't2',
+            sentence: 'We saw the meteor shower last night.',
+            keyWord: 'IT',
+            startOfAnswer: 'It was',
+            correctAnswer: 'last night that we',
+            explanation: 'It-cleft emphasizes time: It was last night that we saw the meteor shower.',
+            points: 2
+          },
+          {
+            id: 't3',
+            sentence: 'I really enjoy the creative process.',
+            keyWord: 'WHAT',
+            startOfAnswer: 'What I',
+            correctAnswer: 'really enjoy is the',
+            explanation: 'What-cleft: What I really enjoy is the creative process.',
+            points: 2
+          },
+          {
+            id: 't4',
+            sentence: 'Sarah discovered the mistake, not Tom.',
+            keyWord: 'WHO',
+            startOfAnswer: 'It was',
+            correctAnswer: 'Sarah who discovered the',
+            explanation: 'It-cleft with who for emphasis on person: It was Sarah who discovered...',
+            points: 2
+          },
+          {
+            id: 't5',
+            sentence: 'The constant interruptions frustrated me.',
+            keyWord: 'IT',
+            startOfAnswer: 'It was',
+            correctAnswer: 'the constant interruptions that',
+            explanation: 'It-cleft emphasizing the cause: It was...that frustrated me.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l3-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Emphasis and Focus Expressions',
+        vocabularySet: [
+          { word: 'precisely', definition: 'exactly; accurately', example: 'It was precisely this attitude that led to success.' },
+          { word: 'specifically', definition: 'for a particular purpose', example: 'What we need specifically is more time.' },
+          { word: 'notably', definition: 'especially; in particular', example: 'Many factors contributed, notably the weather.' },
+          { word: 'particularly', definition: 'especially; to a higher degree', example: 'It is particularly important to verify sources.' },
+          { word: 'primarily', definition: 'mainly; chiefly', example: 'What concerns us primarily is student safety.' },
+          { word: 'essentially', definition: 'fundamentally; basically', example: 'It is essentially a question of resources.' },
+          { word: 'distinctly', definition: 'clearly; noticeably', example: 'I distinctly remember what happened that day.' },
+          { word: 'undoubtedly', definition: 'certainly; without doubt', example: 'It was undoubtedly the best performance.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose the best word: It was ___ this moment that changed everything.',
+            options: ['precisely', 'primarily', 'essentially', 'notably'],
+            correctAnswer: 'precisely',
+            explanation: '"Precisely" emphasizes the exact moment with strong focus.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'What we need ___ is better communication.',
+            options: ['distinctly', 'particularly', 'undoubtedly', 'essentially'],
+            correctAnswer: 'particularly',
+            explanation: '"Particularly" emphasizes this specific need above others.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'Complete: It is ___ a matter of timing, not talent.',
+            correctAnswer: 'essentially',
+            explanation: '"Essentially" means fundamentally or basically.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '___ several factors influenced the decision, ___ cost was the main concern.',
+            options: ['Primarily / notably', 'Notably / particularly', 'Precisely / distinctly', 'Essentially / undoubtedly'],
+            correctAnswer: 'Notably / particularly',
+            explanation: '"Notably" introduces factors, "particularly" emphasizes the main one.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l3-sentence-1',
+        type: 'sentence-building',
+        title: 'Build Cleft Sentences',
+        instructions: 'Arrange the words to create emphatic cleft sentences.',
+        sentences: [
+          {
+            id: 's1',
+            words: ['what', 'matters', 'most', 'is', 'your', 'dedication', ',', 'not', 'your', 'experience', '.'],
+            correctOrder: ['what', 'matters', 'most', 'is', 'your', 'dedication', ',', 'not', 'your', 'experience', '.'],
+            translation: 'Lo que más importa es tu dedicación, no tu experiencia.',
+            hint: 'What-cleft: What + verb + is + focus',
+            points: 2
+          },
+          {
+            id: 's2',
+            words: ['it', 'was', 'Maria', 'who', 'solved', 'the', 'problem', ',', 'not', 'John', '.'],
+            correctOrder: ['it', 'was', 'Maria', 'who', 'solved', 'the', 'problem', ',', 'not', 'John', '.'],
+            translation: 'Fue María quien resolvió el problema, no John.',
+            hint: 'It-cleft with who for person: It was + person + who',
+            points: 2
+          },
+          {
+            id: 's3',
+            words: ['what', 'I', 'really', 'appreciate', 'is', 'your', 'honesty', '.'],
+            correctOrder: ['what', 'I', 'really', 'appreciate', 'is', 'your', 'honesty', '.'],
+            translation: 'Lo que realmente aprecio es tu honestidad.',
+            hint: 'What I + verb + is + noun phrase',
+            points: 2
+          },
+          {
+            id: 's4',
+            words: ['it', 'is', 'the', 'small', 'details', 'that', 'make', 'the', 'difference', '.'],
+            correctOrder: ['it', 'is', 'the', 'small', 'details', 'that', 'make', 'the', 'difference', '.'],
+            translation: 'Son los pequeños detalles los que marcan la diferencia.',
+            hint: 'It is + subject + that + verb phrase',
+            points: 2
+          },
+          {
+            id: 's5',
+            words: ['what', 'we', 'need', 'now', 'is', 'a', 'clear', 'plan', '.'],
+            correctOrder: ['what', 'we', 'need', 'now', 'is', 'a', 'clear', 'plan', '.'],
+            translation: 'Lo que necesitamos ahora es un plan claro.',
+            hint: 'What we need + adverb + is + noun phrase',
+            points: 2
+          }
+        ]
       }
     ]
   },
@@ -2499,6 +3189,282 @@ James: It was three years after I started training. By then, I had climbed peaks
           { id: 'q8', gapNumber: 8, baseWord: 'SKEPTIC', correctAnswer: 'skepticism', acceptableAnswers: ['skepticism', 'scepticism'], explanation: '"Appropriate skepticism" - attitude of doubting claims.', wordType: 'noun', transformation: 'noun → abstract noun (-ism)', points: 1 }
         ],
         focusAreas: ['Prefix re-', 'Negative prefix in-', 'Abstract nouns']
+      },
+      {
+        id: 'b2-m1-l4-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Narrative and Time Sequence Markers',
+        vocabularySet: [
+          { word: 'meanwhile', definition: 'at the same time', example: 'She was studying. Meanwhile, her brother was playing video games.' },
+          { word: 'subsequently', definition: 'afterwards; later', example: 'He graduated in 2020 and subsequently moved to London.' },
+          { word: 'simultaneously', definition: 'at exactly the same time', example: 'The two events occurred simultaneously.' },
+          { word: 'thereafter', definition: 'after that time', example: 'She moved to Paris in 2015 and remained there thereafter.' },
+          { word: 'formerly', definition: 'in the past; previously', example: 'The building, formerly a hospital, is now a museum.' },
+          { word: 'initially', definition: 'at first; at the beginning', example: 'Initially, she was nervous, but she soon relaxed.' },
+          { word: 'eventually', definition: 'in the end; after a long time', example: 'After years of practice, he eventually became fluent.' },
+          { word: 'prior to', definition: 'before', example: 'Prior to joining the company, she worked freelance.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '___ she was hesitant, but she decided to accept the challenge.',
+            options: ['Eventually', 'Initially', 'Subsequently', 'Thereafter'],
+            correctAnswer: 'Initially',
+            explanation: '"Initially" means at first or at the beginning.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'The team practiced hard and ___ won the championship.',
+            options: ['meanwhile', 'formerly', 'eventually', 'initially'],
+            correctAnswer: 'eventually',
+            explanation: '"Eventually" means after a period of time or effort.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'Complete: He left the company in March and moved abroad ___.',
+            correctAnswer: 'thereafter / subsequently',
+            explanation: '"Thereafter" or "subsequently" both mean after that time.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '___ his departure, he had been working there for ten years.',
+            options: ['Prior to', 'Meanwhile', 'Subsequently', 'Thereafter'],
+            correctAnswer: 'Prior to',
+            explanation: '"Prior to" is a formal way of saying "before".',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l4-reading-1',
+        type: 'reading',
+        title: 'The Art of Storytelling Through Tenses',
+        text: `Effective storytelling relies heavily on the skillful use of narrative tenses. When writers combine Past Simple, Past Continuous, Past Perfect, and Past Perfect Continuous, they create a rich temporal landscape that brings stories to life.
+
+Consider this narrative: "Sarah was walking through the park when she noticed an old friend she hadn't seen in years. They had been living in different cities, but fate had brought them together that afternoon." This simple passage demonstrates the interplay of four different tenses, each serving a specific purpose.
+
+The Past Continuous ("was walking") sets the scene, creating a backdrop for the main action. The Past Simple ("noticed") introduces the key event that drives the story forward. The Past Perfect ("hadn't seen") provides essential background information, explaining the significance of the encounter. Finally, the Past Perfect Continuous ("had been living") describes an ongoing situation in the past that contextualizes the present moment.
+
+Master storytellers understand that varying tenses isn't just grammatically correct—it's emotionally resonant. The choice of tense can emphasize action, build suspense, or create poignancy. When we read "She had been waiting for hours," we feel her impatience more acutely than if we simply read "She waited."`,
+        wordCount: 195,
+        readingTime: 2,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the passage, what is the primary purpose of Past Continuous in narratives?',
+            options: [
+              'To introduce key events',
+              'To set the scene or backdrop',
+              'To provide background information',
+              'To describe completed actions'
+            ],
+            correctAnswer: 'To set the scene or backdrop',
+            explanation: 'The passage states Past Continuous "sets the scene, creating a backdrop for the main action".',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'Past Perfect is described as useful for:',
+            options: [
+              'Creating suspense',
+              'Introducing main events',
+              'Providing background information',
+              'Setting the atmosphere'
+            ],
+            correctAnswer: 'Providing background information',
+            explanation: 'The text explicitly states Past Perfect "provides essential background information".',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'The passage suggests that tense variation is only important for grammatical correctness.',
+            correctAnswer: 'false',
+            explanation: 'The passage states varying tenses "isn\'t just grammatically correct—it\'s emotionally resonant".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'short-answer',
+            question: 'What emotional effect can tense choice create, according to the final paragraph?',
+            correctAnswer: 'emphasis / suspense / poignancy',
+            explanation: 'The passage mentions these specific emotional effects.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l4-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m1-l4-listening-1.mp3',
+        transcript: 'I was living in Madrid when I first heard about the opportunity. I had been working as a teacher for three years, but I had always wanted to try something different. One day, while I was having coffee with a friend, she mentioned that her company was looking for someone with my skills. By the time she finished explaining the role, I had already decided to apply. Two weeks later, they offered me the position. I had never imagined my life would change so dramatically.',
+        duration: 45,
+        allowReplay: true,
+        maxReplays: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Where was the speaker living when they heard about the opportunity?',
+            options: ['Barcelona', 'Madrid', 'Valencia', 'Seville'],
+            correctAnswer: 'Madrid',
+            explanation: 'The speaker clearly states "I was living in Madrid".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'How long had they been working as a teacher?',
+            options: ['Two years', 'Three years', 'Four years', 'Five years'],
+            correctAnswer: 'Three years',
+            explanation: 'The speaker says "I had been working as a teacher for three years".',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'The speaker heard about the job while at work.',
+            correctAnswer: 'false',
+            explanation: 'They heard about it "while having coffee with a friend".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'short-answer',
+            question: 'How long did it take to receive the job offer after applying?',
+            correctAnswer: 'two weeks',
+            explanation: 'The speaker states "Two weeks later, they offered me the position".',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l4-speaking-1',
+        type: 'speaking',
+        prompt: 'Tell a story about a memorable moment from your past. Use a variety of narrative tenses (Past Simple, Past Continuous, Past Perfect) to make your story engaging. Speak for 1-2 minutes.',
+        timeLimit: 120,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Start by setting the scene with Past Continuous',
+          'Use Past Simple for main events',
+          'Use Past Perfect to provide background',
+          'Include time markers like "meanwhile", "suddenly", "by the time"'
+        ]
+      },
+      {
+        id: 'b2-m1-l4-keytransform-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Narrative Tenses',
+        instructions: 'Complete the second sentence using the word given. Use between two and five words.',
+        transformations: [
+          {
+            id: 't1',
+            sentence: 'She started working here five years before I arrived.',
+            keyWord: 'BEEN',
+            startOfAnswer: 'She had',
+            correctAnswer: 'been working here for',
+            explanation: 'Past Perfect Continuous shows duration before past point: had been working.',
+            points: 2
+          },
+          {
+            id: 't2',
+            sentence: 'It was my first visit to London.',
+            keyWord: 'NEVER',
+            startOfAnswer: 'I had',
+            correctAnswer: 'never been to London',
+            explanation: 'Past Perfect with never for first experience: had never been.',
+            points: 2
+          },
+          {
+            id: 't3',
+            sentence: 'The meeting began before I got there.',
+            keyWord: 'ALREADY',
+            startOfAnswer: 'When I',
+            correctAnswer: 'got there, the meeting',
+            explanation: 'Already with Past Perfect shows prior completion: had already begun.',
+            points: 2
+          },
+          {
+            id: 't4',
+            sentence: 'She was in the middle of cooking dinner when I called.',
+            keyWord: 'COOKING',
+            startOfAnswer: 'She was',
+            correctAnswer: 'cooking dinner when I',
+            explanation: 'Past Continuous for interrupted action: was cooking.',
+            points: 2
+          },
+          {
+            id: 't5',
+            sentence: 'They lived in Paris for two years, then moved to Berlin.',
+            keyWord: 'AFTER',
+            startOfAnswer: 'After',
+            correctAnswer: 'living in Paris for',
+            explanation: 'After + verb-ing or After + Past Perfect shows sequence.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l4-sentence-1',
+        type: 'sentence-building',
+        title: 'Build Complex Narrative Sentences',
+        instructions: 'Arrange the words to create grammatically correct narrative sentences.',
+        sentences: [
+          {
+            id: 's1',
+            words: ['while', 'I', 'was', 'studying', ',', 'my', 'phone', 'rang', '.'],
+            correctOrder: ['while', 'I', 'was', 'studying', ',', 'my', 'phone', 'rang', '.'],
+            translation: 'Mientras estaba estudiando, sonó mi teléfono.',
+            hint: 'While + Past Continuous, + Past Simple',
+            points: 2
+          },
+          {
+            id: 's2',
+            words: ['by', 'the', 'time', 'we', 'arrived', ',', 'the', 'show', 'had', 'finished', '.'],
+            correctOrder: ['by', 'the', 'time', 'we', 'arrived', ',', 'the', 'show', 'had', 'finished', '.'],
+            translation: 'Para cuando llegamos, el show había terminado.',
+            hint: 'By the time + Past Simple, + Past Perfect',
+            points: 2
+          },
+          {
+            id: 's3',
+            words: ['she', 'had', 'been', 'living', 'there', 'for', 'years', 'before', 'I', 'met', 'her', '.'],
+            correctOrder: ['she', 'had', 'been', 'living', 'there', 'for', 'years', 'before', 'I', 'met', 'her', '.'],
+            translation: 'Ella había estado viviendo allí durante años antes de que la conociera.',
+            hint: 'Past Perfect Continuous + before + Past Simple',
+            points: 2
+          },
+          {
+            id: 's4',
+            words: ['I', 'was', 'sleeping', 'when', 'the', 'storm', 'started', '.'],
+            correctOrder: ['I', 'was', 'sleeping', 'when', 'the', 'storm', 'started', '.'],
+            translation: 'Estaba durmiendo cuando empezó la tormenta.',
+            hint: 'Past Continuous + when + Past Simple',
+            points: 2
+          },
+          {
+            id: 's5',
+            words: ['they', 'had', 'never', 'tried', 'surfing', 'until', 'last', 'summer', '.'],
+            correctOrder: ['they', 'had', 'never', 'tried', 'surfing', 'until', 'last', 'summer', '.'],
+            translation: 'Nunca habían probado el surf hasta el verano pasado.',
+            hint: 'Past Perfect + never + until + time reference',
+            points: 2
+          }
+        ]
       }
     ]
   },
