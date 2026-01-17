@@ -8,21 +8,21 @@ export function Navigation() {
   const [cursosMenuOpen, setCursosMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-lg border-b-2 border-[#FFE8D9] shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-violet-600 to-purple-600 flex items-center justify-center text-white font-black">
+          <Link href="/" className="flex items-center gap-2 group">
+            <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-[#FF6B6B] to-[#FF8E53] flex items-center justify-center text-white font-black text-xl shadow-coral transform group-hover:scale-110 transition-transform">
               F
             </div>
-            <span className="text-lg font-black text-slate-900">Focus English</span>
+            <span className="text-xl font-black bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] bg-clip-text text-transparent">Focus English</span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
-            <Link href="/planes" className="text-sm font-bold text-violet-600 hover:text-violet-700 transition-colors">
-              💎 Planes
+          <div className="hidden md:flex items-center gap-6">
+            <Link href="/planes" className="text-sm font-bold text-[#FF6B6B] hover:text-[#FF8E53] transition-colors flex items-center gap-1">
+              <span className="text-lg">💎</span> Planes
             </Link>
             
             {/* Menú desplegable Cursos */}
@@ -31,41 +31,41 @@ export function Navigation() {
               onMouseEnter={() => setCursosMenuOpen(true)}
               onMouseLeave={() => setCursosMenuOpen(false)}
             >
-              <button className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors flex items-center gap-1">
-                📚 Cursos
+              <button className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors flex items-center gap-1">
+                <span className="text-lg">📚</span> Cursos
                 <svg className={`w-4 h-4 transition-transform ${cursosMenuOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
               
               {cursosMenuOpen && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-xl border border-slate-200 py-2">
-                  <Link href="/cursos/trabajo" className="block px-4 py-2 text-sm text-slate-700 hover:bg-violet-50 hover:text-violet-600 transition-colors">
-                    💼 Inglés para Trabajar
+                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-2xl shadow-coral-lg border-2 border-[#FFE8D9] py-2 animate-slide-down">
+                  <Link href="/cursos/trabajo" className="block px-4 py-3 text-sm text-gray-700 hover:bg-gradient-to-r hover:from-[#FFF4ED] hover:to-[#FFE8D9] hover:text-[#FF6B6B] transition-all font-semibold rounded-lg mx-2">
+                    <span className="text-lg mr-2">💼</span> Inglés para Trabajar
                   </Link>
-                  <Link href="/cursos/viajes" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
-                    ✈️ Inglés para Viajar
+                  <Link href="/cursos/viajes" className="block px-4 py-3 text-sm text-gray-700 hover:bg-gradient-to-r hover:from-[#FFF4ED] hover:to-[#FFE8D9] hover:text-[#FF6B6B] transition-all font-semibold rounded-lg mx-2">
+                    <span className="text-lg mr-2">✈️</span> Inglés para Viajar
                   </Link>
-                  <Link href="/cursos/examenes" className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-600 transition-colors">
-                    🎓 Preparación de Exámenes
+                  <Link href="/cursos/examenes" className="block px-4 py-3 text-sm text-gray-700 hover:bg-gradient-to-r hover:from-[#FFF4ED] hover:to-[#FFE8D9] hover:text-[#FF6B6B] transition-all font-semibold rounded-lg mx-2">
+                    <span className="text-lg mr-2">🎓</span> Preparación de Exámenes
                   </Link>
-                  <div className="border-t border-slate-200 my-2"></div>
-                  <Link href="/cursos" className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 transition-colors font-semibold">
+                  <div className="border-t-2 border-[#FFE8D9] my-2 mx-2"></div>
+                  <Link href="/cursos" className="block px-4 py-3 text-sm text-[#FF6B6B] hover:bg-gradient-to-r hover:from-[#FFF4ED] hover:to-[#FFE8D9] transition-all font-black rounded-lg mx-2">
                     Ver todos los cursos →
                   </Link>
                 </div>
               )}
             </div>
             
-            <Link href="/blog" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
+            <Link href="/blog" className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors">
               Blog
             </Link>
-            <Link href="/test-nivel" className="text-sm font-bold text-slate-700 hover:text-violet-600 transition-colors">
+            <Link href="/test-nivel" className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors">
               Test de Nivel
             </Link>
             <Link 
               href="/cuenta/registro"
-              className="px-4 py-2 rounded-lg bg-gradient-to-r from-violet-600 to-purple-600 text-white font-black text-sm hover:shadow-lg transition-all"
+              className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] text-white font-black text-sm hover:shadow-coral-lg transition-all transform hover:scale-105"
             >
               Empezar Ahora
             </Link>
