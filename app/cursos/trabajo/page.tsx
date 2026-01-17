@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Navigation } from '@/components/sections/Navigation';
+import { CourseLaunchBanner } from '@/components/CourseLaunchBanner';
 
 export const metadata: Metadata = {
   title: 'Inglés para Trabajar | Cursos Profesionales Online | Focus English',
@@ -119,6 +120,7 @@ export default function TrabajoPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       <Navigation />
+      <CourseLaunchBanner />
 
       {/* Hero Section */}
       <section className="relative py-20 px-4 overflow-hidden">

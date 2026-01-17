@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/sections/Navigation";
+import { CourseLaunchBanner } from "@/components/CourseLaunchBanner";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -12,6 +13,7 @@ export default function ContactPage() {
   return (
     <>
       <Navigation />
+      <CourseLaunchBanner />
       <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hero Section */}
         <section className="pt-32 pb-16">
