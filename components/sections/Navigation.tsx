@@ -8,7 +8,7 @@ export function Navigation() {
   const [cursosMenuOpen, setCursosMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-lg border-b-2 border-[#FFE8D9] shadow-sm">
+    <nav className="sticky top-0 z-[100] bg-white/95 backdrop-blur-lg border-b-2 border-[#FFE8D9] shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -39,7 +39,7 @@ export function Navigation() {
               </button>
               
               {cursosMenuOpen && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-2xl shadow-coral-lg border-2 border-[#FFE8D9] py-2 animate-slide-down">
+                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-2xl shadow-coral-lg border-2 border-[#FFE8D9] py-2 animate-slide-down z-[110]">
                   <Link href="/cursos/trabajo" className="block px-4 py-3 text-sm text-gray-700 hover:bg-gradient-to-r hover:from-[#FFF4ED] hover:to-[#FFE8D9] hover:text-[#FF6B6B] transition-all font-semibold rounded-lg mx-2">
                     <span className="text-lg mr-2">💼</span> Inglés para Trabajar
                   </Link>
