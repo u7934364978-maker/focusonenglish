@@ -255,6 +255,19 @@ export default function DashboardPage() {
                   <span className="font-medium text-gray-900">Ver todas las lecciones</span>
                 </Link>
                 <Link
+                  href="/practica"
+                  className="w-full flex items-center gap-3 p-3 bg-gradient-to-r from-purple-50 to-blue-50 hover:from-purple-100 hover:to-blue-100 rounded-lg transition-colors border-2 border-purple-200 relative"
+                >
+                  <span className="text-2xl">🤖</span>
+                  <div className="flex-1">
+                    <div className="font-bold text-gray-900">Práctica con IA</div>
+                    <div className="text-xs text-gray-600">Ejercicios infinitos generados</div>
+                  </div>
+                  <span className="absolute top-2 right-2 text-[10px] bg-purple-600 text-white px-2 py-0.5 rounded-full font-bold">
+                    NUEVO
+                  </span>
+                </Link>
+                <Link
                   href="/certificados"
                   className="w-full flex items-center gap-3 p-3 bg-purple-50 hover:bg-purple-100 rounded-lg transition-colors"
                 >
