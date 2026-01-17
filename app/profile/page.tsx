@@ -15,10 +15,6 @@ import {
 } from '@/lib/services/profile-service';
 import { syncProfileToHubSpot } from '@/lib/services/hubspot-sync-service';
 
-// Force dynamic rendering
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
-
 type TabType = 'overview' | 'personal' | 'progress' | 'settings';
 
 export default function ProfilePage() {
