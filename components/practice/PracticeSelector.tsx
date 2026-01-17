@@ -100,7 +100,7 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
             ¿Qué quieres practicar hoy? 🚀
           </h1>
           <p className="text-lg text-gray-600">
-            Genera ejercicios ilimitados con IA adaptados a tu nivel
+            Ejercicios ilimitados adaptados a tu nivel
           </p>
         </div>
 
@@ -267,7 +267,7 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
         <div className="mt-8 p-4 bg-blue-50 rounded-lg border border-blue-200">
           <h3 className="font-bold text-blue-900 mb-2">💡 ¿Cómo funciona?</h3>
           <ul className="text-sm text-blue-800 space-y-1">
-            <li>✓ Ejercicios generados al instante con Inteligencia Artificial</li>
+            <li>✓ Ejercicios generados al instante</li>
             <li>✓ Contenido siempre nuevo y diferente</li>
             <li>✓ Adaptado a tu nivel B2 y preferencias</li>
             <li>✓ Feedback inmediato y explicaciones detalladas</li>
@@ -275,5 +275,8 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
         </div>
       </div>
     </div>
+  );
+}
+ </div>
   );
 }
