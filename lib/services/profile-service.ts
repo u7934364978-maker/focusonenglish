@@ -247,15 +247,73 @@ export async function getUserStats(userId: string) {
   try {
     const progress = await getUserProgress(userId);
     const recentLessons = await getRecentActivity(userId, 5);
+    const skillsBreakdown = await getSkillsBreakdown(userId);
 
     return {
       progress,
       recentLessons,
+      skillsBreakdown,
       nextMilestone: calculateNextMilestone(progress),
     };
   } catch (error) {
     console.error('Error in getUserStats:', error);
     return null;
+  }
+}
+
+export async function getSkillsBreakdown(userId: string) {
+  try {
+    // Query exercises by type and calculate average scores
+    const { data: exerciseResults, error } = await supabase
+      .from('exercise_results')
+      .select('exercise_type, score')
+      .eq('user_id', userId);
+
+    if (error) {
+      console.error('Error fetching exercise results:', error);
+      return {
+        reading: 0,
+        writing: 0,
+        listening: 0,
+        speaking: 0,
+      };
+    }
+
+    // Calculate averages per skill type
+    const skillScores: { [key: string]: number[] } = {
+      reading: [],
+      writing: [],
+      listening: [],
+      speaking: [],
+    };
+
+    exerciseResults?.forEach((result: any) => {
+      const type = result.exercise_type?.toLowerCase();
+      if (type && skillScores[type]) {
+        skillScores[type].push(result.score || 0);
+      }
+    });
+
+    // Calculate averages
+    const calculateAverage = (scores: number[]) =>
+      scores.length > 0
+        ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length)
+        : 0;
+
+    return {
+      reading: calculateAverage(skillScores.reading),
+      writing: calculateAverage(skillScores.writing),
+      listening: calculateAverage(skillScores.listening),
+      speaking: calculateAverage(skillScores.speaking),
+    };
+  } catch (error) {
+    console.error('Error in getSkillsBreakdown:', error);
+    return {
+      reading: 0,
+      writing: 0,
+      listening: 0,
+      speaking: 0,
+    };
   }
 }
 
