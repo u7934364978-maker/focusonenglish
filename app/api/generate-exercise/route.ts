@@ -67,9 +67,14 @@ export async function POST(request: NextRequest) {
       type: generateRequest.exerciseType,
       level: generateRequest.level,
       difficulty: generateRequest.difficulty,
-      count: generateRequest.count
+      count: generateRequest.count,
+      sessionId: sessionId.substring(0, 15) + '...'
     });
 
+    // DESHABILITAR CACHÉ para práctica continua A1/B2
+    // El caché causa que se devuelva el mismo ejercicio
+    // Comentado para forzar generación nueva cada vez
+    /*
     // Intentar obtener del caché primero
     const cache = getExerciseCache();
     const cachedExercises = cache.get(generateRequest, generateRequest.count);
@@ -82,6 +87,7 @@ export async function POST(request: NextRequest) {
         cached: true
       });
     }
+    */
 
     // Verificar si debemos usar fallback (sin API key)
     if (shouldUseFallback()) {
@@ -165,8 +171,9 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    // Guardar en caché
-    cache.set(generateRequest, validExercises);
+    // NO guardar en caché para práctica continua
+    // Cada ejercicio debe ser único
+    // cache.set(generateRequest, validExercises);
 
     return NextResponse.json({
       success: true,

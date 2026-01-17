@@ -1,22 +1,17 @@
 'use client';
 
 // ============================================
-// PÁGINA: PRÁCTICA A1 CON EJERCICIOS ILIMITADOS
-// Sistema de generación automática para nivel A1
+// PÁGINA: PRÁCTICA A1 CON GENERACIÓN ALEATORIA COMPLETA
+// Sistema de generación automática con temas, categorías y tipos aleatorios
 // ============================================
 
 import { useState, useEffect, Suspense } from 'react';
-import { useSearchParams, useRouter } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import PracticeExerciseViewer from '@/components/practice/PracticeExerciseViewer';
-import { getExerciseById } from '@/lib/course-data-a1';
+import { generateRandomExerciseConfig, getCategoryDisplayName, getExerciseTypeDisplayName, getCategoryEmoji } from '@/lib/random-exercise-generator';
 
 function PracticeContent() {
-  const searchParams = useSearchParams();
   const router = useRouter();
-  
-  const category = searchParams.get('category') || 'all';
-  const exerciseType = searchParams.get('exercise') || 'multiple-choice';
-  const difficulty = searchParams.get('difficulty') || 'medium';
 
   const [currentExercises, setCurrentExercises] = useState<any>(null);
   const [loading, setLoading] = useState(false);
@@ -24,8 +19,10 @@ function PracticeContent() {
   const [exercisesCompleted, setExercisesCompleted] = useState(0);
   const [totalScore, setTotalScore] = useState(0);
   const [sessionStartTime] = useState(Date.now());
-  const [bestScore, setBestScore] = useState(0);
   const [sessionId, setSessionId] = useState<string>('');
+  const [showNextButton, setShowNextButton] = useState(false);
+  const [exerciseKey, setExerciseKey] = useState(0);
+  const [currentConfig, setCurrentConfig] = useState<any>(null);
 
   // Inicializar sessionId
   useEffect(() => {
@@ -48,7 +45,7 @@ function PracticeContent() {
     if (sessionId) {
       generateNextExercise();
     }
-  }, [sessionId]); // Esperar a que sessionId esté disponible
+  }, [sessionId]);
 
   const generateNextExercise = async () => {
     if (!sessionId) {
@@ -60,27 +57,33 @@ function PracticeContent() {
     setError(null);
 
     try {
-      console.log('🚀 Generando ejercicio A1:', { 
-        category, 
-        exerciseType, 
-        difficulty,
-        sessionId: sessionId.substring(0, 20) + '...' 
+      // ✅ GENERAR CONFIGURACIÓN COMPLETAMENTE ALEATORIA
+      const config = generateRandomExerciseConfig('A1');
+      setCurrentConfig(config);
+      
+      console.log('🎲 Configuración aleatoria generada:', {
+        level: config.level,
+        category: config.category,
+        exerciseType: config.exerciseType,
+        topic: config.topicName,
+        sessionId: sessionId.substring(0, 20) + '...'
       });
 
       const response = await fetch('/api/generate-exercise', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'x-session-id': sessionId // Enviar sessionId en header
+          'x-session-id': sessionId
         },
         body: JSON.stringify({
-          level: 'A1', // ✅ NIVEL A1 CORRECTO
-          category: category,
-          exerciseType: exerciseType,
-          difficulty: difficulty,
+          level: config.level,
+          category: config.category,
+          exerciseType: config.exerciseType,
+          difficulty: 'medium', // Nivel fijo, dificultad ajustada por nivel
           count: 1,
-          topic: 'general', // A1 general topics
-          sessionId: sessionId // También en body como backup
+          topic: config.topic,
+          topicKeywords: config.topicKeywords,
+          sessionId: sessionId
         })
       });
 
@@ -90,7 +93,7 @@ function PracticeContent() {
         throw new Error(data.error || 'Error generando ejercicio');
       }
 
-      console.log('✅ Ejercicio A1 generado:', data);
+      console.log('✅ Ejercicio generado:', data);
       
       // Actualizar sessionId si el servidor devuelve uno nuevo
       if (data.sessionId && data.sessionId !== sessionId) {
@@ -101,12 +104,7 @@ function PracticeContent() {
       }
 
       // Convertir ejercicio generado al formato esperado
-      const lesson = convertToLesson(data.exercises, {
-        level: 'A1',
-        category,
-        exerciseType,
-        difficulty
-      });
+      const lesson = convertToLesson(data.exercises, config);
       setCurrentExercises(lesson);
 
     } catch (err) {
@@ -131,10 +129,14 @@ function PracticeContent() {
     setExercisesCompleted(newExercisesCompleted);
     setTotalScore(newTotalScore);
 
-    // Generar siguiente ejercicio automáticamente
-    setTimeout(() => {
-      generateNextExercise();
-    }, 500);
+    // Mostrar botón "Next Exercise" en lugar de generar automáticamente
+    setShowNextButton(true);
+  };
+
+  const handleNextExercise = () => {
+    setShowNextButton(false);
+    setExerciseKey(prev => prev + 1); // Incrementar key para forzar reset
+    generateNextExercise();
   };
 
   const handleExit = () => {
@@ -165,6 +167,9 @@ function PracticeContent() {
     const averageScore = exercisesCompleted > 0 ? Math.round(totalScore / exercisesCompleted) : 0;
     const sessionDuration = Math.round((Date.now() - sessionStartTime) / 60000);
     
+    // Calcular aciertos totales (cada ejercicio vale 100%)
+    const correctAnswers = Math.round((totalScore / 100) * exercisesCompleted);
+    
     // Loading overlay
     if (loading) {
       return (
@@ -178,22 +183,20 @@ function PracticeContent() {
                     <span className="text-3xl animate-pulse">📚</span>
                     <div>
                       <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Nivel A1</div>
-                      <div className="text-xl font-black text-gray-900">{exercisesCompleted} ejercicio{exercisesCompleted !== 1 ? 's' : ''}</div>
+                      <div className="text-xl font-black text-gray-900">{exercisesCompleted} completados</div>
                     </div>
                   </div>
                   <div className="hidden md:block h-12 w-px bg-gray-300"></div>
                   <div className="hidden md:flex items-center gap-4">
                     <div className="text-center px-4">
-                      <div className="text-xs text-gray-500 mb-1">Promedio</div>
-                      <div className="text-2xl font-black text-orange-600">{averageScore}%</div>
-                    </div>
-                    <div className="text-center px-4">
-                      <div className="text-xs text-gray-500 mb-1">Mejor</div>
-                      <div className="text-2xl font-black text-amber-600">{Math.round(bestScore)}%</div>
+                      <div className="text-xs text-gray-500 mb-1">Precisión</div>
+                      <div className={`text-2xl font-black ${averageScore >= 80 ? 'text-green-600' : averageScore >= 60 ? 'text-orange-600' : 'text-red-600'}`}>
+                        {averageScore}%
+                      </div>
                     </div>
                     <div className="text-center px-4">
                       <div className="text-xs text-gray-500 mb-1">Tiempo</div>
-                      <div className="text-2xl font-black text-red-600">{sessionDuration}m</div>
+                      <div className="text-2xl font-black text-blue-600">{sessionDuration}m</div>
                     </div>
                   </div>
                 </div>
@@ -238,28 +241,39 @@ function PracticeContent() {
         {/* Progress Bar */}
         <div className="bg-white border-b-2 border-orange-200 sticky top-0 z-50 shadow-lg">
           <div className="max-w-7xl mx-auto px-4 py-5">
+            {/* Current Topic & Category Badge */}
+            {currentConfig && (
+              <div className="mb-3 flex items-center gap-2 justify-center">
+                <span className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-100 to-pink-100 px-4 py-2 rounded-full text-sm font-bold text-purple-800 border-2 border-purple-200">
+                  <span>{getCategoryEmoji(currentConfig.category)}</span>
+                  <span>{getCategoryDisplayName(currentConfig.category)}</span>
+                </span>
+                <span className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-100 to-cyan-100 px-4 py-2 rounded-full text-sm font-bold text-blue-800 border-2 border-blue-200">
+                  <span>📚</span>
+                  <span>{currentConfig.topicName}</span>
+                </span>
+              </div>
+            )}
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-6">
                 <div className="flex items-center gap-3">
                   <span className="text-3xl">📚</span>
                   <div>
                     <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Nivel A1</div>
-                    <div className="text-xl font-black text-gray-900">{exercisesCompleted} ejercicio{exercisesCompleted !== 1 ? 's' : ''}</div>
+                    <div className="text-xl font-black text-gray-900">{exercisesCompleted} completados</div>
                   </div>
                 </div>
                 <div className="hidden md:block h-12 w-px bg-gray-300"></div>
                 <div className="hidden md:flex items-center gap-4">
                   <div className="text-center px-4">
-                    <div className="text-xs text-gray-500 mb-1">Promedio</div>
-                    <div className="text-2xl font-black text-orange-600">{averageScore}%</div>
-                  </div>
-                  <div className="text-center px-4">
-                    <div className="text-xs text-gray-500 mb-1">Mejor</div>
-                    <div className="text-2xl font-black text-amber-600">{Math.round(bestScore)}%</div>
+                    <div className="text-xs text-gray-500 mb-1">Precisión</div>
+                    <div className={`text-2xl font-black ${averageScore >= 80 ? 'text-green-600' : averageScore >= 60 ? 'text-orange-600' : 'text-red-600'}`}>
+                      {averageScore}%
+                    </div>
                   </div>
                   <div className="text-center px-4">
                     <div className="text-xs text-gray-500 mb-1">Tiempo</div>
-                    <div className="text-2xl font-black text-red-600">{sessionDuration}m</div>
+                    <div className="text-2xl font-black text-blue-600">{sessionDuration}m</div>
                   </div>
                 </div>
               </div>
@@ -274,11 +288,14 @@ function PracticeContent() {
         </div>
         
         <PracticeExerciseViewer
+          key={`exercise-${exerciseKey}`}
           exercise={currentExercise}
           onComplete={handleComplete}
           onSkip={handleSkip}
           currentNumber={exercisesCompleted + 1}
           totalExercises={999}
+          showNextButton={showNextButton}
+          onNextExercise={handleNextExercise}
         />
       </div>
     );
@@ -401,6 +418,11 @@ function convertToLesson(exercises: any[], config: any): any {
     exercises: exercises.map(ex => {
       const mappedType = mapExerciseType(ex.type, ex.category);
       
+      // ✅ LIMITAR A 1 PREGUNTA POR EJERCICIO
+      const singleQuestion = ex.content.questions && ex.content.questions.length > 0 
+        ? [ex.content.questions[0]]  // Solo la primera pregunta
+        : [];
+      
       return {
         id: ex.id,
         type: mappedType,
@@ -409,7 +431,7 @@ function convertToLesson(exercises: any[], config: any): any {
         grammarPoint: ex.topic || ex.content.topic || 'A1 General Practice',
         explanation: ex.content.explanation || `Practice exercise for ${ex.type}`,
         examples: ex.content.examples || [],
-        questions: ex.content.questions || [],
+        questions: singleQuestion, // ✅ Solo 1 pregunta
         transformations: ex.content.transformations || [],
         formations: ex.content.formations || [],
         challenges: ex.content.challenges || [],
