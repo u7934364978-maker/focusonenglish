@@ -17,7 +17,8 @@ import {
   CEFRLevel
 } from '@/lib/exercise-types';
 
-export const runtime = 'edge'; // Usar Edge Runtime para mejor performance
+// Usando Node.js runtime para acceder a process.env en runtime
+// export const runtime = 'edge'; // Edge Runtime tiene limitaciones con env vars
 
 // ============================================
 // POST - Generar ejercicio
@@ -25,6 +26,15 @@ export const runtime = 'edge'; // Usar Edge Runtime para mejor performance
 
 export async function POST(request: NextRequest) {
   try {
+    // Debug: Verificar disponibilidad de API keys
+    const hasOpenAI = !!process.env.OPENAI_API_KEY;
+    const hasGemini = !!process.env.GEMINI_API_KEY;
+    console.log('🔑 API Keys status:', { 
+      hasOpenAI, 
+      hasGemini,
+      openaiLength: process.env.OPENAI_API_KEY?.length || 0 
+    });
+    
     // Parsear body
     const body = await request.json();
 
@@ -59,30 +69,58 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    // Verificar si debemos usar fallback
+    // Verificar si debemos usar fallback (sin API key)
     if (shouldUseFallback()) {
       console.warn('⚠️ OpenAI API key not configured - using fallback exercises');
       
-      const fallbackExercise = generateFallbackExercise(
-        generateRequest.exerciseType,
-        generateRequest.topic,
-        generateRequest.difficulty,
-        generateRequest.level
-      );
+      const exercises = [];
+      for (let i = 0; i < generateRequest.count; i++) {
+        const fallbackExercise = generateFallbackExercise(
+          generateRequest.exerciseType,
+          generateRequest.topic,
+          generateRequest.difficulty,
+          generateRequest.level
+        );
+        exercises.push(fallbackExercise);
+      }
       
       return NextResponse.json({
         success: true,
-        exercises: [fallbackExercise],
-        generated: 1,
+        exercises: exercises,
+        generated: exercises.length,
         cached: false,
         fallback: true,
-        message: '⚠️ Usando ejercicios de demostración. Configura OPENAI_API_KEY en Vercel para ejercicios generados con IA.'
+        message: '⚠️ Usando ejercicios de demostración. Configura OPENAI_API_KEY para ejercicios generados con IA.'
       });
     }
 
     // Si no está en caché, generar con IA
     console.log('🤖 Generating new exercises with AI...');
     const generator = getExerciseGenerator();
+    
+    if (!generator) {
+      // Fallback secundario en caso de error
+      console.log('⚠️ AI generator not available. Using fallback exercises...');
+      const exercises = [];
+      for (let i = 0; i < generateRequest.count; i++) {
+        const fallbackExercise = generateFallbackExercise(
+          generateRequest.exerciseType,
+          generateRequest.topic,
+          generateRequest.difficulty,
+          generateRequest.level
+        );
+        exercises.push(fallbackExercise);
+      }
+      
+      return NextResponse.json({
+        success: true,
+        exercises: exercises,
+        generated: exercises.length,
+        cached: false,
+        fallback: true
+      });
+    }
+    
     const exercises = await generator.generateMultiple(generateRequest);
 
     // Validar ejercicios generados
