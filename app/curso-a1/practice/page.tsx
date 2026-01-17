@@ -167,8 +167,9 @@ function PracticeContent() {
     const averageScore = exercisesCompleted > 0 ? Math.round(totalScore / exercisesCompleted) : 0;
     const sessionDuration = Math.round((Date.now() - sessionStartTime) / 60000);
     
-    // Calcular aciertos totales (cada ejercicio vale 100%)
-    const correctAnswers = Math.round((totalScore / 100) * exercisesCompleted);
+    // Calcular aciertos (considerando que cada ejercicio correcto = 100 puntos)
+    const correctAnswers = Math.round((averageScore / 100) * exercisesCompleted);
+    const incorrectAnswers = exercisesCompleted - correctAnswers;
     
     // Loading overlay
     if (loading) {
@@ -189,9 +190,9 @@ function PracticeContent() {
                   <div className="hidden md:block h-12 w-px bg-gray-300"></div>
                   <div className="hidden md:flex items-center gap-4">
                     <div className="text-center px-4">
-                      <div className="text-xs text-gray-500 mb-1">Precisión</div>
+                      <div className="text-xs text-gray-500 mb-1">Aciertos</div>
                       <div className={`text-2xl font-black ${averageScore >= 80 ? 'text-green-600' : averageScore >= 60 ? 'text-orange-600' : 'text-red-600'}`}>
-                        {averageScore}%
+                        {correctAnswers}/{exercisesCompleted}
                       </div>
                     </div>
                     <div className="text-center px-4">
@@ -266,9 +267,9 @@ function PracticeContent() {
                 <div className="hidden md:block h-12 w-px bg-gray-300"></div>
                 <div className="hidden md:flex items-center gap-4">
                   <div className="text-center px-4">
-                    <div className="text-xs text-gray-500 mb-1">Precisión</div>
+                    <div className="text-xs text-gray-500 mb-1">Aciertos</div>
                     <div className={`text-2xl font-black ${averageScore >= 80 ? 'text-green-600' : averageScore >= 60 ? 'text-orange-600' : 'text-red-600'}`}>
-                      {averageScore}%
+                      {correctAnswers}/{exercisesCompleted}
                     </div>
                   </div>
                   <div className="text-center px-4">

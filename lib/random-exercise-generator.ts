@@ -10,61 +10,105 @@ export type ExerciseCategory =
   | 'reading'
   | 'writing'
   | 'listening'
-  | 'speaking';
+  | 'speaking'
+  | 'pronunciation'
+  | 'exam-practice';
 
 export type ExerciseType = 
-  // Grammar
+  // Grammar (6 tipos)
   | 'multiple-choice'
-  | 'fill-blank'
-  | 'sentence-transformation'
-  | 'error-correction'
-  // Vocabulary
+  | 'fill-in-blanks'
+  | 'word-formation'
+  | 'sentence-building'
+  | 'key-word-transformation'
+  | 'multiple-choice-cloze'
+  // Vocabulary (4 tipos)
   | 'vocabulary-matching'
   | 'vocabulary-multiple-choice'
-  | 'vocabulary-fill-blank'
-  // Reading
+  | 'vocabulary-context'
+  | 'vocabulary-images'
+  // Reading (4 tipos)
   | 'reading-comprehension'
   | 'reading-true-false'
-  | 'reading-multiple-choice'
-  // Writing
+  | 'reading-matching'
+  | 'reading-ordering'
+  // Writing (4 tipos)
   | 'guided-writing'
-  | 'sentence-writing'
-  // Listening
+  | 'writing-analysis'
+  | 'sentence-correction'
+  | 'paragraph-writing'
+  // Listening (4 tipos)
   | 'listening-comprehension'
   | 'listening-multiple-choice'
-  // Speaking
+  | 'listening-dictation'
+  | 'listening-matching'
+  // Speaking (4 tipos)
   | 'pronunciation-practice'
-  | 'speaking-prompt';
+  | 'oral-response'
+  | 'expression-analysis'
+  | 'dialogue-practice'
+  // Pronunciation (4 tipos)
+  | 'minimal-pairs'
+  | 'pronunciation-feedback'
+  | 'intonation-practice'
+  | 'word-stress'
+  // Exam Practice (4 tipos)
+  | 'reading-writing-exam'
+  | 'listening-speaking-exam'
+  | 'grammar-vocabulary-exam'
+  | 'full-mock-exam';
 
 // Mapeo de categorías a tipos de ejercicios disponibles
 const CATEGORY_EXERCISE_TYPES: Record<ExerciseCategory, ExerciseType[]> = {
   grammar: [
     'multiple-choice',
-    'fill-blank',
-    'sentence-transformation',
-    'error-correction'
+    'fill-in-blanks',
+    'word-formation',
+    'sentence-building',
+    'key-word-transformation',
+    'multiple-choice-cloze'
   ],
   vocabulary: [
     'vocabulary-matching',
     'vocabulary-multiple-choice',
-    'vocabulary-fill-blank'
+    'vocabulary-context',
+    'vocabulary-images'
   ],
   reading: [
     'reading-comprehension',
     'reading-true-false',
-    'reading-multiple-choice'
+    'reading-matching',
+    'reading-ordering'
   ],
   writing: [
     'guided-writing',
-    'sentence-writing'
+    'writing-analysis',
+    'sentence-correction',
+    'paragraph-writing'
   ],
   listening: [
     'listening-comprehension',
-    'listening-multiple-choice'
+    'listening-multiple-choice',
+    'listening-dictation',
+    'listening-matching'
   ],
   speaking: [
     'pronunciation-practice',
-    'speaking-prompt'
+    'oral-response',
+    'expression-analysis',
+    'dialogue-practice'
+  ],
+  pronunciation: [
+    'minimal-pairs',
+    'pronunciation-feedback',
+    'intonation-practice',
+    'word-stress'
+  ],
+  'exam-practice': [
+    'reading-writing-exam',
+    'listening-speaking-exam',
+    'grammar-vocabulary-exam',
+    'full-mock-exam'
   ]
 };
 
@@ -75,7 +119,9 @@ const ALL_CATEGORIES: ExerciseCategory[] = [
   'reading',
   'writing',
   'listening',
-  'speaking'
+  'speaking',
+  'pronunciation',
+  'exam-practice'
 ];
 
 export interface RandomExerciseConfig {
@@ -137,7 +183,9 @@ export function getCategoryDisplayName(category: ExerciseCategory): string {
     reading: 'Reading',
     writing: 'Writing',
     listening: 'Listening',
-    speaking: 'Speaking'
+    speaking: 'Speaking',
+    pronunciation: 'Pronunciation',
+    'exam-practice': 'Exam Practice'
   };
   return names[category];
 }
@@ -147,22 +195,48 @@ export function getCategoryDisplayName(category: ExerciseCategory): string {
  */
 export function getExerciseTypeDisplayName(type: ExerciseType): string {
   const names: Record<ExerciseType, string> = {
+    // Grammar
     'multiple-choice': 'Multiple Choice',
-    'fill-blank': 'Fill in the Blanks',
-    'sentence-transformation': 'Sentence Transformation',
-    'error-correction': 'Error Correction',
+    'fill-in-blanks': 'Fill in the Blanks',
+    'word-formation': 'Word Formation',
+    'sentence-building': 'Sentence Building',
+    'key-word-transformation': 'Key Word Transformation',
+    'multiple-choice-cloze': 'Multiple Choice Cloze',
+    // Vocabulary
     'vocabulary-matching': 'Vocabulary Matching',
     'vocabulary-multiple-choice': 'Vocabulary Quiz',
-    'vocabulary-fill-blank': 'Complete the Sentence',
+    'vocabulary-context': 'Vocabulary in Context',
+    'vocabulary-images': 'Vocabulary with Images',
+    // Reading
     'reading-comprehension': 'Reading Comprehension',
     'reading-true-false': 'True or False',
-    'reading-multiple-choice': 'Reading Quiz',
+    'reading-matching': 'Matching Paragraphs',
+    'reading-ordering': 'Paragraph Ordering',
+    // Writing
     'guided-writing': 'Guided Writing',
-    'sentence-writing': 'Write a Sentence',
+    'writing-analysis': 'Writing Analysis',
+    'sentence-correction': 'Sentence Correction',
+    'paragraph-writing': 'Paragraph Writing',
+    // Listening
     'listening-comprehension': 'Listening Comprehension',
     'listening-multiple-choice': 'Listening Quiz',
+    'listening-dictation': 'Dictation',
+    'listening-matching': 'Audio Matching',
+    // Speaking
     'pronunciation-practice': 'Pronunciation Practice',
-    'speaking-prompt': 'Speaking Exercise'
+    'oral-response': 'Oral Response',
+    'expression-analysis': 'Expression Analysis',
+    'dialogue-practice': 'Dialogue Practice',
+    // Pronunciation
+    'minimal-pairs': 'Minimal Pairs',
+    'pronunciation-feedback': 'Pronunciation Feedback',
+    'intonation-practice': 'Intonation Practice',
+    'word-stress': 'Word Stress',
+    // Exam Practice
+    'reading-writing-exam': 'Reading & Writing Exam',
+    'listening-speaking-exam': 'Listening & Speaking Exam',
+    'grammar-vocabulary-exam': 'Grammar & Vocabulary Exam',
+    'full-mock-exam': 'Full Mock Exam'
   };
   return names[type] || type;
 }
@@ -177,7 +251,9 @@ export function getCategoryEmoji(category: ExerciseCategory): string {
     reading: '📖',
     writing: '✍️',
     listening: '🎧',
-    speaking: '🗣️'
+    speaking: '🗣️',
+    pronunciation: '🔊',
+    'exam-practice': '🎓'
   };
   return emojis[category];
 }
