@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/sections/Navigation";
+import { CourseLaunchBanner } from "@/components/CourseLaunchBanner";
 import LevelTestInteractive from "@/components/test/LevelTestInteractive";
 import type { Metadata } from "next";
 
@@ -12,6 +13,7 @@ export default function DiagnosticoPage() {
   return (
     <>
       <Navigation />
+      <CourseLaunchBanner />
       <main className="min-h-screen bg-gradient-to-b from-violet-50 via-white to-slate-50">
         {/* Hero Section */}
         <section className="pt-32 pb-16">
