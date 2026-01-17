@@ -88,12 +88,12 @@ export default function PracticeExerciseViewer({
     return (
       <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-50 to-purple-50">
         <div className="text-center">
-          <p className="text-xl text-gray-600">No hay preguntas disponibles</p>
+          <p className="text-xl text-gray-600">No questions available</p>
           <button
             onClick={onSkip}
             className="mt-4 px-6 py-3 bg-gray-300 text-gray-700 rounded-xl hover:bg-gray-400 transition-colors font-bold"
           >
-            Saltar ejercicio
+            Skip Exercise
           </button>
         </div>
       </div>
@@ -113,7 +113,7 @@ export default function PracticeExerciseViewer({
               ✕
             </button>
             <div className="text-sm text-gray-600">
-              Pregunta {currentQuestionIndex + 1} de {totalQuestions}
+              Question {currentQuestionIndex + 1} of {totalQuestions}
             </div>
           </div>
           {/* Barra de progreso */}
@@ -153,12 +153,12 @@ export default function PracticeExerciseViewer({
                   value={answer}
                   onChange={(e) => setAnswer(e.target.value)}
                   onKeyPress={(e) => e.key === 'Enter' && answer && checkAnswer()}
-                  placeholder="Escribe tu respuesta..."
+                  placeholder="Type your answer..."
                   className="w-full px-6 py-4 text-lg border-2 border-gray-300 rounded-xl focus:border-blue-500 focus:outline-none transition-colors"
                   autoFocus
                   disabled={showFeedback}
                 />
-                <p className="text-sm text-gray-500">Presiona Enter para enviar</p>
+                <p className="text-sm text-gray-500">Press Enter to submit</p>
               </div>
             )}
 
@@ -190,11 +190,11 @@ export default function PracticeExerciseViewer({
                   <span className="text-3xl">{isCorrect ? '✓' : '✗'}</span>
                   <div className="flex-1">
                     <h4 className={`text-xl font-bold mb-2 ${isCorrect ? 'text-green-800' : 'text-red-800'}`}>
-                      {isCorrect ? '¡Correcto!' : 'Incorrecto'}
+                      {isCorrect ? 'Correct!' : 'Incorrect'}
                     </h4>
                     {!isCorrect && (
                       <p className="text-gray-700 mb-2">
-                        <strong>Respuesta correcta:</strong>{' '}
+                        <strong>Correct answer:</strong>{' '}
                         {Array.isArray(currentQuestion.correctAnswer)
                           ? currentQuestion.correctAnswer.join(' / ')
                           : currentQuestion.correctAnswer}
@@ -221,7 +221,7 @@ export default function PracticeExerciseViewer({
                   : 'bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white'
               }`}
             >
-              {currentQuestionIndex < totalQuestions - 1 ? 'Continuar' : 'Terminar ejercicio'}
+              {currentQuestionIndex < totalQuestions - 1 ? 'Continue' : 'Finish Exercise'}
             </button>
           )}
 
