@@ -10,13 +10,26 @@
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { Sidebar } from '@/components/dashboard/Sidebar';
 
 // Mock data - en producción vendría de Supabase
 const mockUserData = {
-  name: 'Administrador',
-  email: 'admin@focus-on-english.com',
-  level: 'Avanzado',
-  currentTopic: 'Estructuras Gramaticales Avanzadas',
+  name: 'Sarah',
+  email: 'sarah@focus-on-english.com',
+  level: 'Advanced Learner',
+  levelNumber: 5,
+  xp: 450,
+  xpTarget: 1000,
+  streakDays: 7,
+  currentTopic: 'Advanced Grammar Structures',
+  stats: {
+    lessonsCompleted: 1,
+    lessonsTarget: 2,
+    wordsCompleted: 15,
+    wordsTarget: 20,
+    listeningMinutes: 0,
+    listeningTarget: 15,
+  },
 };
 
 export default function DashboardPage() {
