@@ -221,8 +221,14 @@ export default function PracticeExerciseViewer({
                       const selectedOption = option;
                       setAnswer(selectedOption);
                       
+                      console.log('=== CLICK ON OPTION ===');
+                      console.log('Selected option:', selectedOption);
+                      console.log('Option raw:', JSON.stringify(selectedOption));
+                      
                       // Extract letter from option (e.g., "A) answer" -> "A")
                       const optionLetter = selectedOption.split(')')[0].trim();
+                      console.log('Extracted letter:', optionLetter);
+                      console.log('Letter lowercase:', optionLetter.toLowerCase());
                       
                       // Check answer with the option letter
                       const userAnswer = optionLetter.toLowerCase();
@@ -230,8 +236,17 @@ export default function PracticeExerciseViewer({
                         ? currentQuestion.correctAnswer.map(a => a.toLowerCase().trim())
                         : [currentQuestion.correctAnswer.toLowerCase().trim()];
                       
+                      console.log('Correct answers:', correctAnswers);
+                      console.log('Comparing:', userAnswer, 'with', correctAnswers);
+                      
                       // Validate answer - exact match only
-                      const correct = correctAnswers.some(ca => userAnswer === ca);
+                      const correct = correctAnswers.some(ca => {
+                        console.log(`Checking: "${userAnswer}" === "${ca}" ?`, userAnswer === ca);
+                        return userAnswer === ca;
+                      });
+                      
+                      console.log('Final result:', correct ? 'CORRECT' : 'INCORRECT');
+                      console.log('======================');
                       
                       setIsCorrect(correct);
                       setShowFeedback(true);
