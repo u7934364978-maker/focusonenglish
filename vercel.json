@@ -1,3 +1,6 @@
 {
-  "regions": ["fra1"]
+  "regions": ["fra1"],
+  "buildCommand": "npm run build",
+  "framework": "nextjs",
+  "cleanUrls": true
 }
