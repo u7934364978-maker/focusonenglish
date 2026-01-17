@@ -27,7 +27,7 @@ export default function HomePlacementCTAClient({ goal }: { goal: string }) {
         <>
           <Link
             href={`/app/placement/${goal}`}
-            className="inline-flex h-11 items-center justify-center rounded-xl bg-emerald-600 px-5 text-sm font-black text-white hover:brightness-110"
+            className="inline-flex h-11 items-center justify-center rounded-xl bg-amber-600 px-5 text-sm font-black text-white hover:brightness-110"
           >
             Hacer test de nivel (recomendado)
           </Link>
@@ -43,7 +43,7 @@ export default function HomePlacementCTAClient({ goal }: { goal: string }) {
         <>
           <Link
             href={`/app/cursos/${goal}/${recommended}/semana-01`}
-            className="inline-flex h-11 items-center justify-center rounded-xl bg-emerald-600 px-5 text-sm font-black text-white hover:brightness-110"
+            className="inline-flex h-11 items-center justify-center rounded-xl bg-amber-600 px-5 text-sm font-black text-white hover:brightness-110"
           >
             Continuar en tu nivel ({recLabel}) · Semana 01
           </Link>

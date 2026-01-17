@@ -18,7 +18,7 @@ export default function ContactPage() {
         {/* Hero Section */}
         <section className="pt-32 pb-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-sky-100 text-coral-700 text-sm font-bold mb-6">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-100 text-coral-700 text-sm font-bold mb-6">
               <span>💬</span>
               <span>Contáctanos</span>
             </div>
@@ -54,7 +54,7 @@ export default function ContactPage() {
 
               {/* Phone */}
               <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200 text-center">
-                <div className="w-16 h-16 rounded-full bg-sky-100 flex items-center justify-center text-coral-600 text-2xl mx-auto mb-4">
+                <div className="w-16 h-16 rounded-full bg-orange-100 flex items-center justify-center text-coral-600 text-2xl mx-auto mb-4">
                   📞
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-2">Teléfono</h3>
@@ -69,7 +69,7 @@ export default function ContactPage() {
 
               {/* WhatsApp */}
               <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200 text-center">
-                <div className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center text-green-600 text-2xl mx-auto mb-4">
+                <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center text-amber-600 text-2xl mx-auto mb-4">
                   💬
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-2">WhatsApp</h3>
@@ -78,7 +78,7 @@ export default function ContactPage() {
                   href="https://wa.me/34900123456"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-green-600 font-bold hover:text-green-700"
+                  className="text-amber-600 font-bold hover:text-amber-700"
                 >
                   Abrir chat
                 </a>
@@ -228,7 +228,7 @@ export default function ContactPage() {
 
               <Link
                 href="/cursos-especializados"
-                className="bg-gradient-to-br from-sky-50 to-cyan-50 rounded-xl p-6 border border-sky-200 hover:shadow-lg transition-shadow group"
+                className="bg-gradient-to-br from-orange-50 to-peach-50 rounded-xl p-6 border border-orange-200 hover:shadow-lg transition-shadow group"
               >
                 <div className="text-3xl mb-3">🎓</div>
                 <h3 className="font-bold text-slate-900 mb-2 group-hover:text-coral-600">
@@ -241,10 +241,10 @@ export default function ContactPage() {
 
               <Link
                 href="/signup"
-                className="bg-gradient-to-br from-emerald-50 to-green-50 rounded-xl p-6 border border-emerald-200 hover:shadow-lg transition-shadow group"
+                className="bg-gradient-to-br from-amber-50 to-amber-50 rounded-xl p-6 border border-amber-200 hover:shadow-lg transition-shadow group"
               >
                 <div className="text-3xl mb-3">✍️</div>
-                <h3 className="font-bold text-slate-900 mb-2 group-hover:text-emerald-600">
+                <h3 className="font-bold text-slate-900 mb-2 group-hover:text-amber-600">
                   Inscripción
                 </h3>
                 <p className="text-sm text-slate-600">

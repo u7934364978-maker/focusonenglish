@@ -41,10 +41,10 @@ export const SUBSCRIPTION_PLANS: Record<string, SubscriptionPlan> = {
       'No incluye curso de viajes',
     ],
     color: {
-      border: 'border-blue-200',
-      bg: 'bg-blue-50',
-      text: 'text-blue-600',
-      gradient: 'from-blue-500 to-cyan-500',
+      border: 'border-orange-200',
+      bg: 'bg-orange-50',
+      text: 'text-orange-600',
+      gradient: 'from-orange-500 to-peach-500',
     },
   },
 
@@ -72,10 +72,10 @@ export const SUBSCRIPTION_PLANS: Record<string, SubscriptionPlan> = {
       'No incluye curso de viajes',
     ],
     color: {
-      border: 'border-blue-200',
-      bg: 'bg-blue-50',
-      text: 'text-blue-600',
-      gradient: 'from-blue-500 to-cyan-500',
+      border: 'border-orange-200',
+      bg: 'bg-orange-50',
+      text: 'text-orange-600',
+      gradient: 'from-orange-500 to-peach-500',
     },
   },
   

@@ -59,7 +59,7 @@ export default function PlanesPage() {
                 }`}
               >
                 Anual
-                <span className="absolute -top-2 -right-2 bg-green-500 text-white text-xs px-2 py-1 rounded-full font-bold">
+                <span className="absolute -top-2 -right-2 bg-amber-500 text-white text-xs px-2 py-1 rounded-full font-bold">
                   Ahorra 11-17%
                 </span>
               </button>
@@ -67,19 +67,19 @@ export default function PlanesPage() {
 
             <div className="flex items-center justify-center gap-4 text-sm text-slate-600">
               <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <span>Sin permanencia</span>
               </div>
               <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <span>Cancela cuando quieras</span>
               </div>
               <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <span>Todos los niveles A1-C2</span>
@@ -121,7 +121,7 @@ export default function PlanesPage() {
                       </span>
                     </div>
                     {plan.interval === 'year' && (
-                      <div className="inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-bold mb-2">
+                      <div className="inline-block bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-bold mb-2">
                         💰 {plan.id.includes('basic') ? 'Ahorra €19.89/año' : 'Ahorra €59.89/año'}
                       </div>
                     )}

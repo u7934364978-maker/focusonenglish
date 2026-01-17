@@ -238,13 +238,13 @@ export default function PronunciationPractice({
   };
 
   const getScoreColor = (score: number) => {
-    if (score >= 80) return 'text-green-600';
+    if (score >= 80) return 'text-amber-600';
     if (score >= 60) return 'text-yellow-600';
     return 'text-red-600';
   };
 
   const getScoreBackground = (score: number) => {
-    if (score >= 80) return 'bg-green-50 border-green-200';
+    if (score >= 80) return 'bg-amber-50 border-amber-200';
     if (score >= 60) return 'bg-yellow-50 border-yellow-200';
     return 'bg-red-50 border-red-200';
   };
@@ -252,11 +252,11 @@ export default function PronunciationPractice({
   return (
     <div className="space-y-6">
       {/* Instructions */}
-      <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+      <div className="bg-orange-50 border border-orange-200 rounded-lg p-4">
         <h3 className="font-semibold text-coral-900 mb-2">📢 Pronunciation Practice</h3>
         <p className="text-coral-800 mb-2">{prompt}</p>
         {targetText && (
-          <div className="bg-white rounded p-3 mt-3 border border-sky-100">
+          <div className="bg-white rounded p-3 mt-3 border border-orange-100">
             <p className="font-medium text-gray-900 text-lg">&quot;{targetText}&quot;</p>
           </div>
         )}
@@ -375,7 +375,7 @@ export default function PronunciationPractice({
             <div className="flex gap-2">
               <button
                 onClick={playRecording}
-                className="flex-1 bg-green-600 text-white px-4 py-3 rounded-lg hover:bg-green-700 transition flex items-center justify-center gap-2 font-medium"
+                className="flex-1 bg-amber-600 text-white px-4 py-3 rounded-lg hover:bg-amber-700 transition flex items-center justify-center gap-2 font-medium"
               >
                 {isPlayingRecording ? (
                   <>
@@ -434,7 +434,7 @@ export default function PronunciationPractice({
           )}`}>
             <div className="flex items-center gap-3 mb-3">
               {evaluation.isOnTopic ? (
-                <CheckCircle2 className="h-8 w-8 text-green-600" />
+                <CheckCircle2 className="h-8 w-8 text-amber-600" />
               ) : (
                 <AlertCircle className="h-8 w-8 text-red-600" />
               )}
@@ -489,19 +489,19 @@ export default function PronunciationPractice({
 
           {/* Key Concepts */}
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-              <h4 className="font-semibold text-green-900 mb-2">✅ Concepts Covered</h4>
+            <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+              <h4 className="font-semibold text-amber-900 mb-2">✅ Concepts Covered</h4>
               {evaluation.foundConcepts.length > 0 ? (
                 <ul className="space-y-1">
                   {evaluation.foundConcepts.map((concept, index) => (
-                    <li key={index} className="text-green-800 flex items-start gap-2">
+                    <li key={index} className="text-amber-800 flex items-start gap-2">
                       <span>•</span>
                       {concept}
                     </li>
                   ))}
                 </ul>
               ) : (
-                <p className="text-green-700 text-sm">None identified</p>
+                <p className="text-amber-700 text-sm">None identified</p>
               )}
             </div>
 
@@ -538,7 +538,7 @@ export default function PronunciationPractice({
           )}
 
           {/* Suggestions */}
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-6">
+          <div className="bg-orange-50 border border-orange-200 rounded-lg p-6">
             <h4 className="font-semibold text-coral-900 mb-3">💡 Suggestions for Improvement</h4>
             <ul className="space-y-2">
               {evaluation.suggestions.map((suggestion, index) => (

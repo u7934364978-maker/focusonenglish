@@ -129,9 +129,9 @@ export default function StudyPremium({
         {(tips.length || mistakes.length) ? (
           <div className="mt-5 grid gap-3 md:grid-cols-2">
             {tips.length ? (
-              <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4">
-                <div className="text-xs font-extrabold text-emerald-800">TIPS</div>
-                <ul className="mt-2 list-disc pl-5 text-sm text-emerald-900">
+              <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4">
+                <div className="text-xs font-extrabold text-amber-800">TIPS</div>
+                <ul className="mt-2 list-disc pl-5 text-sm text-amber-900">
                   {tips.map((t, i) => <li key={i}>{t.replace(/^✅\s*/, "")}</li>)}
                 </ul>
               </div>

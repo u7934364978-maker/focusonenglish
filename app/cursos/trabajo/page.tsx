@@ -21,7 +21,7 @@ const LEVELS = [
     description: 'Primeras palabras y frases básicas para el trabajo. Presentaciones simples, correos básicos.',
     duration: '3 meses',
     price: '€99/mes',
-    color: 'from-green-400 to-green-600',
+    color: 'from-amber-400 to-amber-600',
     topics: ['Presentaciones personales', 'Vocabulario de oficina básico', 'Emails simples', 'Números y fechas'],
   },
   {
@@ -30,7 +30,7 @@ const LEVELS = [
     description: 'Conversaciones cotidianas de oficina. Comprensión de instrucciones laborales básicas.',
     duration: '3 meses',
     price: '€99/mes',
-    color: 'from-green-500 to-green-700',
+    color: 'from-amber-500 to-amber-700',
     topics: ['Llamadas telefónicas simples', 'Descripciones de tareas', 'Horarios y planificación', 'Conversaciones informales'],
   },
   {
@@ -39,7 +39,7 @@ const LEVELS = [
     description: 'Comunicación efectiva en reuniones. Redacción de informes y presentaciones básicas.',
     duration: '4 meses',
     price: '€119/mes',
-    color: 'from-sky-400 to-coral-600',
+    color: 'from-orange-400 to-coral-600',
     topics: ['Reuniones de trabajo', 'Informes y reportes', 'Negociación básica', 'Presentaciones simples'],
   },
   {
@@ -48,7 +48,7 @@ const LEVELS = [
     description: 'Confianza profesional total. Participación activa en reuniones internacionales y presentaciones complejas.',
     duration: '4 meses',
     price: '€119/mes',
-    color: 'from-sky-500 to-coral-700',
+    color: 'from-orange-500 to-coral-700',
     popular: true,
     topics: ['Negociación avanzada', 'Presentaciones corporativas', 'Escritura profesional', 'Liderazgo de equipos'],
   },
@@ -118,7 +118,7 @@ const BENEFITS = [
 
 export default function TrabajoPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-sky-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-orange-50">
       <Navigation />
       <CourseLaunchBanner />
 
@@ -127,7 +127,7 @@ export default function TrabajoPage() {
         <div className="absolute inset-0 bg-gradient-to-br from-coral-600/10 to-peach-600/10"></div>
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center max-w-4xl mx-auto">
-            <div className="inline-block px-4 py-2 bg-sky-100 text-coral-700 rounded-full font-semibold text-sm mb-6">
+            <div className="inline-block px-4 py-2 bg-orange-100 text-coral-700 rounded-full font-semibold text-sm mb-6">
               💼 Cursos Profesionales
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6">
@@ -163,7 +163,7 @@ export default function TrabajoPage() {
                 <div className="text-sm text-slate-600">Profesionales formados</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-green-600 mb-2">4.8/5</div>
+                <div className="text-4xl font-bold text-amber-600 mb-2">4.8/5</div>
                 <div className="text-sm text-slate-600">Satisfacción media</div>
               </div>
             </div>
@@ -186,7 +186,7 @@ export default function TrabajoPage() {
               <div
                 key={level.level}
                 className={`bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 border-2 ${
-                  level.popular ? 'border-sky-500 relative' : 'border-transparent'
+                  level.popular ? 'border-orange-500 relative' : 'border-transparent'
                 }`}
               >
                 {level.popular && (
@@ -247,7 +247,7 @@ export default function TrabajoPage() {
             {SECTORS.map((sector, idx) => (
               <div
                 key={idx}
-                className="bg-gradient-to-br from-slate-50 to-sky-50 rounded-xl p-6 hover:shadow-lg transition-all border-2 border-slate-200"
+                className="bg-gradient-to-br from-slate-50 to-orange-50 rounded-xl p-6 hover:shadow-lg transition-all border-2 border-slate-200"
               >
                 <div className="text-4xl mb-4">{sector.icon}</div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">{sector.name}</h3>
@@ -286,13 +286,13 @@ export default function TrabajoPage() {
           <h2 className="text-4xl font-bold text-white mb-6">
             ¿Listo para impulsar tu carrera profesional?
           </h2>
-          <p className="text-xl text-sky-100 mb-8">
+          <p className="text-xl text-orange-100 mb-8">
             Descubre tu nivel actual con nuestro test gratuito y comienza hoy mismo
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
               href="/test-nivel"
-              className="px-8 py-4 bg-white text-coral-600 rounded-xl hover:bg-sky-50 transition-all font-bold text-lg shadow-lg"
+              className="px-8 py-4 bg-white text-coral-600 rounded-xl hover:bg-orange-50 transition-all font-bold text-lg shadow-lg"
             >
               Test de Nivel Gratuito
             </Link>

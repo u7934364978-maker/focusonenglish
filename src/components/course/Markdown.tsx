@@ -198,7 +198,7 @@ export default function Markdown({ content }: { content: string }) {
                   className={[
                     "mt-[2px] inline-flex h-4 w-4 flex-none items-center justify-center rounded border",
                     props.checked
-                      ? "border-emerald-500 bg-emerald-500"
+                      ? "border-amber-500 bg-amber-500"
                       : "border-slate-300 bg-white",
                   ].join(" ")}
                 />

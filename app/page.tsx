@@ -131,19 +131,19 @@ export default function HomePage() {
                 <div className="p-8">
                   <ul className="space-y-3 mb-8">
                     <li className="flex items-start gap-3">
-                      <span className="text-green-500 font-bold text-xl">✓</span>
+                      <span className="text-amber-500 font-bold text-xl">✓</span>
                       <span className="text-slate-700">Vocabulario técnico por sector</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-green-500 font-bold text-xl">✓</span>
+                      <span className="text-amber-500 font-bold text-xl">✓</span>
                       <span className="text-slate-700">Comunicación empresarial</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-green-500 font-bold text-xl">✓</span>
+                      <span className="text-amber-500 font-bold text-xl">✓</span>
                       <span className="text-slate-700">Reuniones y presentaciones</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-green-500 font-bold text-xl">✓</span>
+                      <span className="text-amber-500 font-bold text-xl">✓</span>
                       <span className="text-slate-700">Emails profesionales</span>
                     </li>
                   </ul>
@@ -166,38 +166,38 @@ export default function HomePage() {
 
               {/* Inglés para Viajar */}
               <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                <div className="bg-gradient-to-br from-coral-600 to-cyan-600 p-8 text-white relative overflow-hidden">
+                <div className="bg-gradient-to-br from-coral-600 to-peach-600 p-8 text-white relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -mr-20 -mt-20"></div>
                   <div className="relative z-10">
                     <div className="text-5xl mb-4">✈️</div>
                     <h3 className="text-2xl font-black mb-2">Inglés para Viajar</h3>
-                    <p className="text-sky-100">Inglés práctico para tus aventuras internacionales</p>
+                    <p className="text-orange-100">Inglés práctico para tus aventuras internacionales</p>
                   </div>
                 </div>
                 
                 <div className="p-8">
                   <ul className="space-y-3 mb-8">
                     <li className="flex items-start gap-3">
-                      <span className="text-green-500 font-bold text-xl">✓</span>
+                      <span className="text-amber-500 font-bold text-xl">✓</span>
                       <span className="text-slate-700">Frases esenciales de aeropuerto</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-green-500 font-bold text-xl">✓</span>
+                      <span className="text-amber-500 font-bold text-xl">✓</span>
                       <span className="text-slate-700">Hoteles y restaurantes</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-green-500 font-bold text-xl">✓</span>
+                      <span className="text-amber-500 font-bold text-xl">✓</span>
                       <span className="text-slate-700">Situaciones de emergencia</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-green-500 font-bold text-xl">✓</span>
+                      <span className="text-amber-500 font-bold text-xl">✓</span>
                       <span className="text-slate-700">Transporte y direcciones</span>
                     </li>
                   </ul>
                   
                   <Link
                     href="/cursos/viajes"
-                    className="block text-center bg-gradient-to-r from-coral-600 to-cyan-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
+                    className="block text-center bg-gradient-to-r from-coral-600 to-peach-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
                   >
                     Ver cursos →
                   </Link>
@@ -213,45 +213,45 @@ export default function HomePage() {
 
               {/* Preparación de Exámenes */}
               <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                <div className="bg-gradient-to-br from-emerald-600 to-green-600 p-8 text-white relative overflow-hidden">
+                <div className="bg-gradient-to-br from-amber-600 to-amber-600 p-8 text-white relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -mr-20 -mt-20"></div>
                   <div className="relative z-10">
                     <div className="text-5xl mb-4">📝</div>
                     <h3 className="text-2xl font-black mb-2">Preparación de Exámenes</h3>
-                    <p className="text-emerald-100">Estrategias y recursos para aprobar exámenes oficiales</p>
+                    <p className="text-amber-100">Estrategias y recursos para aprobar exámenes oficiales</p>
                   </div>
                 </div>
                 
                 <div className="p-8">
                   <ul className="space-y-3 mb-8">
                     <li className="flex items-start gap-3">
-                      <span className="text-green-500 font-bold text-xl">✓</span>
+                      <span className="text-amber-500 font-bold text-xl">✓</span>
                       <span className="text-slate-700">Cambridge B2 First y C1</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-green-500 font-bold text-xl">✓</span>
+                      <span className="text-amber-500 font-bold text-xl">✓</span>
                       <span className="text-slate-700">TOEFL iBT</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-green-500 font-bold text-xl">✓</span>
+                      <span className="text-amber-500 font-bold text-xl">✓</span>
                       <span className="text-slate-700">IELTS Academic</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-green-500 font-bold text-xl">✓</span>
+                      <span className="text-amber-500 font-bold text-xl">✓</span>
                       <span className="text-slate-700">Estrategias de examinadores</span>
                     </li>
                   </ul>
                   
                   <Link
                     href="/cursos/examenes"
-                    className="block text-center bg-gradient-to-r from-emerald-600 to-green-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
+                    className="block text-center bg-gradient-to-r from-amber-600 to-amber-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
                   >
                     Ver cursos →
                   </Link>
                   
                   <Link
                     href="/blog/preparar-examenes-oficiales"
-                    className="block text-center mt-3 text-emerald-600 font-semibold hover:text-emerald-700"
+                    className="block text-center mt-3 text-amber-600 font-semibold hover:text-amber-700"
                   >
                     Leer artículo completo
                   </Link>
@@ -301,7 +301,7 @@ export default function HomePage() {
                 className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 hover:shadow-xl hover:-translate-y-1 transition-all group"
               >
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="px-3 py-1 rounded-full bg-sky-100 text-coral-700 text-xs font-bold uppercase">
+                  <span className="px-3 py-1 rounded-full bg-orange-100 text-coral-700 text-xs font-bold uppercase">
                     Viajes
                   </span>
                   <span className="text-xs text-slate-500">15 min</span>
@@ -319,12 +319,12 @@ export default function HomePage() {
                 className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 hover:shadow-xl hover:-translate-y-1 transition-all group"
               >
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="px-3 py-1 rounded-full bg-emerald-100 text-emerald-700 text-xs font-bold uppercase">
+                  <span className="px-3 py-1 rounded-full bg-amber-100 text-amber-700 text-xs font-bold uppercase">
                     Exámenes
                   </span>
                   <span className="text-xs text-slate-500">18 min</span>
                 </div>
-                <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-emerald-600 transition-colors tracking-tight">
+                <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-amber-600 transition-colors tracking-tight">
                   Secretos de Una Ex-Examinadora Cambridge: Lo Que Realmente Buscan
                 </h3>
                 <p className="text-slate-600 text-sm">

@@ -39,7 +39,7 @@ function LevelCard({
         <div className="text-xs font-extrabold tracking-wide text-slate-500">NIVEL</div>
 
         {recommended ? (
-          <span className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-extrabold text-emerald-800">
+          <span className="inline-flex items-center rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-xs font-extrabold text-amber-800">
             recomendado
           </span>
         ) : locked ? (
@@ -47,7 +47,7 @@ function LevelCard({
             bloqueado
           </span>
         ) : (
-          <span className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-extrabold text-emerald-800">
+          <span className="inline-flex items-center rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-xs font-extrabold text-amber-800">
             disponible
           </span>
         )}
@@ -161,7 +161,7 @@ export default function GoalPage({ params }: PageProps) {
         </Link>
 
         {placement ? (
-          <div className="inline-flex h-11 items-center justify-center rounded-xl border border-emerald-200 bg-emerald-50 px-5 text-sm font-black text-emerald-800">
+          <div className="inline-flex h-11 items-center justify-center rounded-xl border border-amber-200 bg-amber-50 px-5 text-sm font-black text-amber-800">
             Recomendado: {placement.recommendedLevel.toUpperCase()} · Máximo desbloqueado:{" "}
             {placement.unlockedMaxLevel.toUpperCase()}
           </div>

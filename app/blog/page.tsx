@@ -74,7 +74,7 @@ const blogCategories = [
     slug: "viajes",
     description: "Inglés práctico para tus aventuras internacionales",
     icon: "✈️",
-    color: "from-coral-600 to-cyan-600",
+    color: "from-coral-600 to-peach-600",
     articles: [
       {
         title: "Confesiones de Un Ex-Azafato: Las 47 Frases Que Separan a Los Viajeros Que La Pasan Mal de Los Que Viajan Como Profesionales",
@@ -90,7 +90,7 @@ const blogCategories = [
     slug: "examenes",
     description: "Estrategias y recursos para aprobar exámenes oficiales",
     icon: "📝",
-    color: "from-emerald-600 to-green-600",
+    color: "from-amber-600 to-amber-600",
     articles: [
       {
         title: "Secretos de Una Ex-Examinadora Cambridge: Lo Que Realmente Buscan en Tu Examen",
@@ -178,7 +178,7 @@ export default function BlogPage() {
                   <div className="grid grid-cols-2 gap-3 mb-8">
                     {featuredGuide.highlights.map((highlight, index) => (
                       <div key={index} className="flex items-center gap-2 text-sm">
-                        <span className="text-green-500 font-bold">✓</span>
+                        <span className="text-amber-500 font-bold">✓</span>
                         <span className="text-slate-700">{highlight}</span>
                       </div>
                     ))}
@@ -199,7 +199,7 @@ export default function BlogPage() {
                       <div className="text-xs text-slate-500 uppercase tracking-wide">Keywords</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-black text-emerald-600">{featuredGuide.readTime}</div>
+                      <div className="text-2xl font-black text-amber-600">{featuredGuide.readTime}</div>
                       <div className="text-xs text-slate-500 uppercase tracking-wide">Lectura</div>
                     </div>
                   </div>
