@@ -17,16 +17,14 @@ export type ExerciseType =
   | 'multiple-choice'
   | 'fill-blank'
   | 'true-false'
-  | 'short-answer'
-  | 'essay'
   | 'key-word-transformation'
   | 'word-formation'
   | 'multiple-choice-cloze'
   | 'sentence-building'
   | 'reading-comprehension'
   | 'listening-comprehension'
-  | 'speaking-prompt'
-  | 'writing-prompt'
+  | 'speaking-analysis'
+  | 'writing-analysis'
   | 'pronunciation-practice';
 
 export type DifficultyLevel = 'easy' | 'medium' | 'hard';
@@ -212,16 +210,24 @@ Create:
    - Vocabulary in context
    - Author's purpose/tone
 
+ALL QUESTIONS MUST BE MULTIPLE-CHOICE (4 options) or TRUE/FALSE
+NO short-answer questions - only test format questions
+
 Include:
 - title
 - text passage
 - wordCount
 - estimatedReadingTime (minutes)
 - questions array with:
-  * multiple-choice questions (4 options)
+  * multiple-choice questions (4 options each)
   * true/false questions
-  * short-answer questions
-  * Each with explanation
+  * Each with detailed explanation
+
+Make HARD questions by:
+- Using distractors that seem plausible
+- Requiring inference and deep comprehension
+- Testing vocabulary in context
+- Including "NOT mentioned" type questions
 
 Format as JSON.`,
     supportedLevels: ['A2', 'B1', 'B2', 'C1', 'C2'],
@@ -267,72 +273,115 @@ Format as JSON with sentences array containing:
     }
   },
   {
-    id: 'writing-prompt',
-    name: 'Writing Practice',
-    nameES: 'Práctica de Escritura',
+    id: 'writing-analysis',
+    name: 'Writing Analysis',
+    nameES: 'Análisis de Escritura',
     category: 'writing',
-    description: 'Write essays, articles, emails, or reports',
-    descriptionES: 'Escribe ensayos, artículos, correos o informes',
+    description: 'Analyze and choose the best writing options',
+    descriptionES: 'Analiza y elige las mejores opciones de escritura',
     icon: '✍️',
-    estimatedTime: 30,
-    aiPromptTemplate: `Generate a B2 writing task.
-Type: {{writingType}} (essay/article/email/review/report)
+    estimatedTime: 10,
+    aiPromptTemplate: `Generate a B2 writing analysis exercise (HARD difficulty).
 Topic: {{topic}}
 Difficulty: {{difficulty}}
 
-Create:
-1. Clear, authentic prompt (as in FCE exam)
-2. Word count requirements (140-190 words for FCE)
-3. Time limit suggestion
-4. Assessment rubric criteria:
-   - Content (5 points)
-   - Organization (5 points)
-   - Language/Grammar (5 points)
-   - Vocabulary (5 points)
-5. Tips for this writing type
-6. Optional: example response (150-180 words)
+Create 6-8 challenging multiple-choice questions about writing skills:
 
-Format as JSON with all fields.`,
+Question types to include:
+1. **Best sentence to start/conclude**: Given a context, which opening/closing is most appropriate
+2. **Coherence & cohesion**: Which linking word/phrase fits best
+3. **Register & tone**: Which option matches the required formality level
+4. **Redundancy elimination**: Which version is more concise and clear
+5. **Paragraph organization**: Which sentence order is most logical
+6. **Style appropriateness**: Which phrase suits the text type (email/article/essay)
+7. **Error identification**: Which sentence has NO errors (others have subtle mistakes)
+8. **Vocabulary precision**: Which word choice is most accurate
+
+Make questions DIFFICULT by:
+- Using subtle distinctions between options
+- Testing advanced vocabulary nuances
+- Including common errors as distractors
+- Requiring understanding of text type conventions
+
+Format as JSON:
+{
+  "title": "Writing Analysis: [topic]",
+  "instructions": "Choose the best option for each writing situation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "context": "Brief context or writing situation",
+      "question": "Question text",
+      "options": ["A", "B", "C", "D"],
+      "correctAnswer": "A",
+      "explanation": "Why this option is best and why others are incorrect",
+      "points": 2
+    }
+  ]
+}`,
     supportedLevels: ['B1', 'B2', 'C1'],
     difficultySettings: {
-      easy: 'Personal topics with simple requirements',
-      medium: 'Standard FCE topics requiring structured response',
-      hard: 'Complex abstract topics requiring nuanced argument'
+      easy: 'Clear errors and obvious best choices',
+      medium: 'Some subtle distinctions in register and style',
+      hard: 'Very subtle differences requiring deep understanding of writing conventions'
     }
   },
   {
-    id: 'speaking-prompt',
-    name: 'Speaking Practice',
-    nameES: 'Práctica Oral',
+    id: 'speaking-analysis',
+    name: 'Speaking Analysis',
+    nameES: 'Análisis de Expresión Oral',
     category: 'speaking',
-    description: 'Practice speaking with AI evaluation',
-    descriptionES: 'Practica speaking con evaluación de IA',
+    description: 'Analyze and choose the best speaking options',
+    descriptionES: 'Analiza y elige las mejores opciones de expresión oral',
     icon: '🎤',
-    estimatedTime: 5,
-    aiPromptTemplate: `Generate a B2 speaking exercise.
-Type: {{speakingType}} (monologue/discussion/presentation)
+    estimatedTime: 8,
+    aiPromptTemplate: `Generate a B2 speaking analysis exercise (HARD difficulty).
 Topic: {{topic}}
 Difficulty: {{difficulty}}
 
-Create:
-1. Clear prompt or question
-2. Time limit (1-2 minutes)
-3. Evaluation criteria:
-   - Pronunciation
-   - Fluency
-   - Grammar
-   - Vocabulary
-   - Task achievement
-4. Useful phrases/expressions for this topic
-5. 3-5 follow-up questions
-6. Tips for strong responses
+Create 6-8 challenging multiple-choice questions about spoken English:
 
-Format as JSON.`,
+Question types to include:
+1. **Appropriate response**: Given a conversation context, which reply is most natural
+2. **Formal vs informal register**: Which option matches the speaking situation
+3. **Idiomatic expressions**: Which phrase is used correctly in context
+4. **Discourse markers**: Which connector/filler is most appropriate
+5. **Politeness & tact**: Which version is most diplomatic/appropriate
+6. **Pronunciation-related**: Which word stress/intonation pattern is correct (describe in text)
+7. **Colloquial language**: Which informal expression fits the casual context
+8. **Turn-taking phrases**: Which phrase appropriately manages conversation flow
+
+Make questions DIFFICULT by:
+- Using very similar sounding options with different meanings
+- Testing subtle differences in formality/politeness
+- Including British vs American usage distinctions
+- Requiring cultural understanding of speaking conventions
+
+Each question should present a speaking scenario with 4 options.
+
+Format as JSON:
+{
+  "title": "Speaking Analysis: [topic]",
+  "instructions": "Choose the most appropriate option for each speaking situation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "scenario": "Speaking situation/context",
+      "question": "Question text",
+      "options": ["A", "B", "C", "D"],
+      "correctAnswer": "A",
+      "explanation": "Why this is the best choice in this speaking context",
+      "points": 2
+    }
+  ]
+}`,
     supportedLevels: ['A2', 'B1', 'B2', 'C1', 'C2'],
     difficultySettings: {
-      easy: 'Personal experience topics with clear structure',
-      medium: 'Opinion/discussion topics requiring reasoning',
-      hard: 'Abstract concepts requiring complex argumentation'
+      easy: 'Clear formal/informal distinctions',
+      medium: 'Subtle differences in politeness and appropriacy',
+      hard: 'Very nuanced social and cultural speaking conventions'
     }
   },
   {

@@ -24,7 +24,7 @@ Hemos reestructurado completamente el sistema de ejercicios de Focus English de 
 
 ### 1. Tipos de Ejercicios Disponibles
 
-El sistema soporta **10 tipos de ejercicios**:
+El sistema soporta **10 tipos de ejercicios** (TODOS en formato test/evaluable automáticamente):
 
 | Tipo | Categoría | Descripción | Tiempo |
 |------|-----------|-------------|--------|
@@ -32,12 +32,14 @@ El sistema soporta **10 tipos de ejercicios**:
 | Fill in the Blanks | Gramática | Completar espacios | 7 min |
 | Key Word Transformation | Examen | Transformación FCE | 10 min |
 | Word Formation | Vocabulario | Formación de palabras | 8 min |
-| Reading Comprehension | Lectura | Comprensión lectora | 15 min |
+| Reading Comprehension | Lectura | Comprensión lectora (solo test) | 15 min |
 | Sentence Building | Gramática | Constructor de oraciones | 6 min |
-| Writing Practice | Escritura | Ensayos, artículos, emails | 30 min |
-| Speaking Practice | Expresión Oral | Prompts con evaluación | 5 min |
+| Writing Analysis | Escritura | Análisis y elección de mejores opciones escritas | 10 min |
+| Speaking Analysis | Expresión Oral | Análisis de situaciones orales | 8 min |
 | Pronunciation | Pronunciación | Práctica fonética | 8 min |
 | Multiple Choice Cloze | Examen | Cloze estilo FCE | 10 min |
+
+**🎯 Nota importante**: Todos los ejercicios son **autocorregibles** (tipo test) para permitir evaluación automática inmediata sin necesidad de corrección manual o IA.
 
 ### 2. Categorías de Práctica
 

@@ -156,8 +156,8 @@ function validateRequest(body: any): string | null {
     'multiple-choice-cloze',
     'sentence-building',
     'reading-comprehension',
-    'writing-prompt',
-    'speaking-prompt',
+    'writing-analysis',
+    'speaking-analysis',
     'pronunciation-practice'
   ];
 
