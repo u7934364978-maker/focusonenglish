@@ -6,6 +6,7 @@ import SmartPronunciationEvaluator from '@/components/course/SmartPronunciationE
 import PronunciationPractice from '@/components/course/PronunciationPractice';
 import EnhancedFeedback from '@/components/course/EnhancedFeedback';
 import SentenceBuilder from '@/components/course/SentenceBuilder';
+import CelebrationModal from '@/components/course/CelebrationModal';
 import { Lesson, Exercise, Question, SentenceBuildingExercise } from '@/lib/course-data-b2';
 import { TextAnswerEvaluationResponse } from '@/app/api/evaluate-text-answer/route';
 import { WritingEvaluationResponse } from '@/app/api/evaluate-writing/route';
@@ -23,6 +24,8 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   const [answers, setAnswers] = useState<{ [questionId: string]: string }>({});
   const [exerciseScores, setExerciseScores] = useState<{ [exerciseId: string]: number }>({});
   const [showFeedback, setShowFeedback] = useState(false);
+  const [showCelebration, setShowCelebration] = useState(false);
+  const [currentScore, setCurrentScore] = useState(0);
   const [recordedAudio, setRecordedAudio] = useState<{ blob: Blob; transcript: string } | null>(null);
   const [pronunciationFeedback, setPronunciationFeedback] = useState<any>(null);
   const [aiEvaluations, setAiEvaluations] = useState<{ [questionId: string]: EvaluationResult }>({});
@@ -155,7 +158,9 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       const score = totalPoints > 0 ? (earnedPoints / totalPoints) * 100 : 0;
       setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
       setAiEvaluations(evaluations);
+      setCurrentScore(score);
       setShowFeedback(true);
+      setShowCelebration(true);
       setEvaluating(false);
       
     } else if (currentExercise.type === 'key-word-transformation') {
@@ -175,7 +180,9 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       const score = (earnedPoints / totalPoints) * 100;
       setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
+      setCurrentScore(score);
       setShowFeedback(true);
+      setShowCelebration(true);
       setEvaluating(false);
       
     } else if (currentExercise.type === 'word-formation') {
@@ -202,7 +209,9 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       const score = totalPoints > 0 ? (earnedPoints / totalPoints) * 100 : 0;
       setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
+      setCurrentScore(score);
       setShowFeedback(true);
+      setShowCelebration(true);
       setEvaluating(false);
     } else {
       setEvaluating(false);
@@ -1302,34 +1311,69 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-orange-50 py-8">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-orange-50 py-8">
       <div className="max-w-5xl mx-auto px-4">
-        {/* Header */}
-        <div className="bg-white rounded-xl shadow-lg p-6 mb-6 border-2 border-slate-200">
-          <div className="flex items-center justify-between mb-4">
-            <div>
-              <h1 className="text-3xl font-black text-slate-900">{lesson.title}</h1>
-              <p className="text-slate-600 mt-1">{lesson.description}</p>
-            </div>
-            <div className="text-right">
-              <div className="text-sm text-slate-600">Lesson Duration</div>
-              <div className="text-2xl font-bold text-coral-600">{lesson.duration} min</div>
+        {/* Enhanced Header with Visual Stats */}
+        <div className="bg-gradient-to-br from-white to-orange-50 rounded-2xl shadow-2xl p-8 mb-6 border-2 border-orange-200">
+          <div className="flex items-center justify-between mb-6">
+            <div className="flex-1">
+              <h1 className="text-4xl font-black text-slate-900 mb-2">{lesson.title}</h1>
+              <p className="text-slate-600 text-lg">{lesson.description}</p>
             </div>
           </div>
 
-          {/* Progress Bar */}
-          <div className="space-y-2">
-            <div className="flex items-center justify-between text-sm">
-              <span className="font-semibold text-slate-700">
-                Exercise {currentExerciseIndex + 1} of {lesson.exercises.length}
-              </span>
-              <span className="text-slate-600">{Math.round(progress)}% complete</span>
+          {/* Visual Statistics Row */}
+          <div className="grid grid-cols-3 gap-4 mb-6">
+            <div className="bg-gradient-to-br from-orange-100 to-orange-50 rounded-xl p-4 border-2 border-orange-300 shadow-md">
+              <div className="flex items-center gap-3">
+                <div className="text-3xl">📊</div>
+                <div>
+                  <div className="text-2xl font-black text-orange-900">{currentExerciseIndex + 1}/{lesson.exercises.length}</div>
+                  <div className="text-xs font-semibold text-orange-700">Exercises</div>
+                </div>
+              </div>
             </div>
-            <div className="w-full bg-slate-200 rounded-full h-3">
+            
+            <div className="bg-gradient-to-br from-amber-100 to-amber-50 rounded-xl p-4 border-2 border-amber-300 shadow-md">
+              <div className="flex items-center gap-3">
+                <div className="text-3xl">🎯</div>
+                <div>
+                  <div className="text-2xl font-black text-amber-900">{Math.round(progress)}%</div>
+                  <div className="text-xs font-semibold text-amber-700">Progress</div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-gradient-to-br from-red-100 to-red-50 rounded-xl p-4 border-2 border-red-300 shadow-md">
+              <div className="flex items-center gap-3">
+                <div className="text-3xl">⭐</div>
+                <div>
+                  <div className="text-2xl font-black text-red-900">
+                    {Object.keys(exerciseScores).length > 0 
+                      ? Math.round(Object.values(exerciseScores).reduce((sum, score) => sum + score, 0) / Object.keys(exerciseScores).length)
+                      : 0}%
+                  </div>
+                  <div className="text-xs font-semibold text-red-700">Avg Score</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Enhanced Progress Bar */}
+          <div className="space-y-3">
+            <div className="flex items-center justify-between text-sm">
+              <span className="font-black text-slate-800 text-base">
+                Current Progress
+              </span>
+              <span className="text-slate-600 font-bold">{Math.round(progress)}% complete</span>
+            </div>
+            <div className="w-full bg-slate-200 rounded-full h-4 shadow-inner overflow-hidden">
               <div
-                className="bg-gradient-to-r from-orange-500 to-peach-500 h-3 rounded-full transition-all duration-300"
+                className="bg-gradient-to-r from-orange-500 via-amber-500 to-red-500 h-4 rounded-full transition-all duration-500 shadow-lg relative"
                 style={{ width: `${progress}%` }}
-              />
+              >
+                <div className="absolute inset-0 bg-white/20 rounded-full animate-pulse"></div>
+              </div>
             </div>
           </div>
 
@@ -1396,6 +1440,13 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           </div>
         </div>
       </div>
+
+      {/* Celebration Modal */}
+      <CelebrationModal 
+        show={showCelebration} 
+        score={currentScore} 
+        onClose={() => setShowCelebration(false)} 
+      />
     </div>
   );
 }
