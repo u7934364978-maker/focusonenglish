@@ -45,11 +45,12 @@ const nextConfig = {
       },
       
       // ÁREA DE ESTUDIANTE
-      {
-        source: '/dashboard',
-        destination: '/estudiante/dashboard',
-        permanent: true,
-      },
+      // Dashboard ahora está directamente en /dashboard
+      // {
+      //   source: '/dashboard',
+      //   destination: '/estudiante/dashboard',
+      //   permanent: true,
+      // },
       
       // ELIMINAR PÁGINAS OBSOLETAS
       {
