@@ -16,10 +16,10 @@ interface EnhancedFeedbackProps {
 export default function EnhancedFeedback({ type, evaluation, userAnswer, correctAnswer, loading }: EnhancedFeedbackProps) {
   if (loading) {
     return (
-      <div className="mt-4 p-6 bg-blue-50 border-2 border-blue-200 rounded-lg animate-pulse">
+      <div className="mt-4 p-6 bg-sky-50 border-2 border-sky-200 rounded-lg animate-pulse">
         <div className="flex items-center gap-3">
-          <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
-          <p className="text-blue-800 font-semibold">Evaluating your answer with AI...</p>
+          <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-coral-600"></div>
+          <p className="text-coral-800 font-semibold">Evaluating your answer with AI...</p>
         </div>
       </div>
     );
@@ -55,7 +55,7 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
             </div>
           </div>
           <div className="text-right">
-            <div className="text-3xl font-black text-blue-600">{textEval.score}</div>
+            <div className="text-3xl font-black text-coral-600">{textEval.score}</div>
             <div className="text-xs text-slate-600">/ 100</div>
           </div>
         </div>
@@ -142,12 +142,12 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
 
         {/* Suggestions */}
         {textEval.suggestions.length > 0 && (
-          <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
-            <p className="text-sm font-semibold text-blue-900 mb-2">💡 Suggestions for Improvement:</p>
+          <div className="p-4 bg-sky-50 rounded-lg border border-sky-200">
+            <p className="text-sm font-semibold text-coral-900 mb-2">💡 Suggestions for Improvement:</p>
             <ul className="space-y-1">
               {textEval.suggestions.map((suggestion, i) => (
-                <li key={i} className="text-sm text-blue-800 flex items-start gap-2">
-                  <span className="text-blue-500 mt-0.5">•</span>
+                <li key={i} className="text-sm text-coral-800 flex items-start gap-2">
+                  <span className="text-sky-500 mt-0.5">•</span>
                   <span>{suggestion}</span>
                 </li>
               ))}
@@ -157,11 +157,11 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
 
         {/* Vocabulary Feedback */}
         {textEval.vocabularyFeedback.appropriateWords.length > 0 && (
-          <div className="mt-4 p-4 bg-purple-50 rounded-lg border border-purple-200">
-            <p className="text-sm font-semibold text-purple-900 mb-2">⭐ Great Vocabulary Used:</p>
+          <div className="mt-4 p-4 bg-peach-50 rounded-lg border border-peach-200">
+            <p className="text-sm font-semibold text-peach-900 mb-2">⭐ Great Vocabulary Used:</p>
             <div className="flex flex-wrap gap-2">
               {textEval.vocabularyFeedback.appropriateWords.map((word, i) => (
-                <span key={i} className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">
+                <span key={i} className="px-3 py-1 bg-peach-100 text-peach-800 rounded-full text-sm font-medium">
                   {word}
                 </span>
               ))}
@@ -187,7 +187,7 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
             <p className="text-sm text-slate-600">Comprehensive AI Assessment</p>
           </div>
           <div className="text-right">
-            <div className="text-4xl font-black text-blue-600">{writingEval.overallScore}</div>
+            <div className="text-4xl font-black text-coral-600">{writingEval.overallScore}</div>
             <div className="text-xs text-slate-600">/ 100</div>
             <div className="text-xs text-slate-500 mt-1">IELTS: {writingEval.bandScore?.toFixed(1)}</div>
           </div>
@@ -205,7 +205,7 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
         <div className="mb-4 grid grid-cols-2 md:grid-cols-4 gap-3">
           {Object.entries(writingEval.scores).map(([category, score]) => (
             <div key={category} className="p-3 bg-white rounded-lg border border-slate-200 text-center">
-              <div className="text-2xl font-bold text-blue-600">{score}</div>
+              <div className="text-2xl font-bold text-coral-600">{score}</div>
               <div className="text-xs text-slate-600 capitalize mt-1">
                 {category.replace(/([A-Z])/g, ' $1').trim()}
               </div>
@@ -264,12 +264,12 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
 
         {/* Recommendations */}
         {writingEval.recommendations.length > 0 && (
-          <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
-            <p className="text-sm font-semibold text-blue-900 mb-2">💡 Recommendations:</p>
+          <div className="p-4 bg-sky-50 rounded-lg border border-sky-200">
+            <p className="text-sm font-semibold text-coral-900 mb-2">💡 Recommendations:</p>
             <ul className="space-y-1">
               {writingEval.recommendations.map((rec, i) => (
-                <li key={i} className="text-sm text-blue-800 flex items-start gap-2">
-                  <span className="text-blue-500 mt-0.5">•</span>
+                <li key={i} className="text-sm text-coral-800 flex items-start gap-2">
+                  <span className="text-sky-500 mt-0.5">•</span>
                   <span>{rec}</span>
                 </li>
               ))}

@@ -119,12 +119,12 @@ export default function HomePage() {
               
               {/* Inglés para Trabajar */}
               <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                <div className="bg-gradient-to-br from-violet-600 to-purple-600 p-8 text-white relative overflow-hidden">
+                <div className="bg-gradient-to-br from-coral-600 to-peach-600 p-8 text-white relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -mr-20 -mt-20"></div>
                   <div className="relative z-10">
                     <div className="text-5xl mb-4">💼</div>
                     <h3 className="text-2xl font-black mb-2">Inglés para Trabajar</h3>
-                    <p className="text-violet-100">Guías y consejos para el inglés profesional y empresarial</p>
+                    <p className="text-coral-100">Guías y consejos para el inglés profesional y empresarial</p>
                   </div>
                 </div>
                 
@@ -150,14 +150,14 @@ export default function HomePage() {
                   
                   <Link
                     href="/cursos/trabajo"
-                    className="block text-center bg-gradient-to-r from-violet-600 to-purple-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
+                    className="block text-center bg-gradient-to-r from-coral-600 to-peach-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
                   >
                     Ver cursos →
                   </Link>
                   
                   <Link
                     href="/blog/ingles-profesional-sectores"
-                    className="block text-center mt-3 text-violet-600 font-semibold hover:text-violet-700"
+                    className="block text-center mt-3 text-coral-600 font-semibold hover:text-coral-700"
                   >
                     Leer artículo completo
                   </Link>
@@ -166,12 +166,12 @@ export default function HomePage() {
 
               {/* Inglés para Viajar */}
               <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                <div className="bg-gradient-to-br from-blue-600 to-cyan-600 p-8 text-white relative overflow-hidden">
+                <div className="bg-gradient-to-br from-coral-600 to-cyan-600 p-8 text-white relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -mr-20 -mt-20"></div>
                   <div className="relative z-10">
                     <div className="text-5xl mb-4">✈️</div>
                     <h3 className="text-2xl font-black mb-2">Inglés para Viajar</h3>
-                    <p className="text-blue-100">Inglés práctico para tus aventuras internacionales</p>
+                    <p className="text-sky-100">Inglés práctico para tus aventuras internacionales</p>
                   </div>
                 </div>
                 
@@ -197,14 +197,14 @@ export default function HomePage() {
                   
                   <Link
                     href="/cursos/viajes"
-                    className="block text-center bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
+                    className="block text-center bg-gradient-to-r from-coral-600 to-cyan-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
                   >
                     Ver cursos →
                   </Link>
                   
                   <Link
                     href="/blog/ingles-esencial-viajar"
-                    className="block text-center mt-3 text-blue-600 font-semibold hover:text-blue-700"
+                    className="block text-center mt-3 text-coral-600 font-semibold hover:text-coral-700"
                   >
                     Leer artículo completo
                   </Link>
@@ -271,7 +271,7 @@ export default function HomePage() {
               </div>
               <Link 
                 href="/blog"
-                className="hidden md:inline-flex items-center gap-2 text-violet-600 font-bold hover:text-violet-700"
+                className="hidden md:inline-flex items-center gap-2 text-coral-600 font-bold hover:text-coral-700"
               >
                 Ver todos →
               </Link>
@@ -283,12 +283,12 @@ export default function HomePage() {
                 className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 hover:shadow-xl hover:-translate-y-1 transition-all group"
               >
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="px-3 py-1 rounded-full bg-violet-100 text-violet-700 text-xs font-bold uppercase">
+                  <span className="px-3 py-1 rounded-full bg-coral-100 text-coral-700 text-xs font-bold uppercase">
                     Trabajo
                   </span>
                   <span className="text-xs text-slate-500">16 min</span>
                 </div>
-                <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-violet-600 transition-colors tracking-tight">
+                <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-coral-600 transition-colors tracking-tight">
                   El Día Que Perdí Un Ascenso Por No Saber Decir 'Implementar' en Inglés
                 </h3>
                 <p className="text-slate-600 text-sm">
@@ -301,12 +301,12 @@ export default function HomePage() {
                 className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 hover:shadow-xl hover:-translate-y-1 transition-all group"
               >
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="px-3 py-1 rounded-full bg-blue-100 text-blue-700 text-xs font-bold uppercase">
+                  <span className="px-3 py-1 rounded-full bg-sky-100 text-coral-700 text-xs font-bold uppercase">
                     Viajes
                   </span>
                   <span className="text-xs text-slate-500">15 min</span>
                 </div>
-                <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors tracking-tight">
+                <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-coral-600 transition-colors tracking-tight">
                   La Noche Que Casi Duermo En Heathrow Por No Entender 'Gate Change'
                 </h3>
                 <p className="text-slate-600 text-sm">
@@ -336,24 +336,24 @@ export default function HomePage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-violet-600 via-purple-600 to-indigo-700 text-white">
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-coral-600 via-peach-600 to-melon-700 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="font-display text-4xl sm:text-5xl font-black mb-6 tracking-tight">
               ¿Listo para Empezar?
             </h2>
-            <p className="text-xl text-violet-100 mb-10 max-w-2xl mx-auto">
+            <p className="text-xl text-coral-100 mb-10 max-w-2xl mx-auto">
               Haz el test de nivel gratis y descubre qué curso se adapta mejor a tu objetivo
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/test-nivel"
-                className="bg-white text-violet-600 px-10 py-5 rounded-xl font-black text-lg hover:shadow-2xl hover:scale-105 transition-all"
+                className="bg-white text-coral-600 px-10 py-5 rounded-xl font-black text-lg hover:shadow-2xl hover:scale-105 transition-all"
               >
                 🎯 Hacer Test de Nivel
               </Link>
               <Link
                 href="/blog"
-                className="bg-violet-700 text-white px-10 py-5 rounded-xl font-black text-lg hover:bg-violet-800 transition-all border-2 border-white/20"
+                className="bg-coral-700 text-white px-10 py-5 rounded-xl font-black text-lg hover:bg-coral-800 transition-all border-2 border-white/20"
               >
                 📚 Explorar Blog
               </Link>
@@ -369,7 +369,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div className="md:col-span-2">
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-violet-600 to-purple-600 flex items-center justify-center text-white font-black text-xl">
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-coral-600 to-peach-600 flex items-center justify-center text-white font-black text-xl">
                   F
                 </div>
                 <span className="text-xl font-black">Focus English</span>

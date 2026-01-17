@@ -48,12 +48,12 @@ function SignInForm() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-violet-600 via-purple-600 to-indigo-700 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-coral-500 via-peach-400 to-coral-600 flex items-center justify-center p-4">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-violet-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-indigo-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-coral-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-peach-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-melon-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
       </div>
 
       {/* Main content */}
@@ -62,7 +62,7 @@ function SignInForm() {
           {/* Logo/Icon */}
           <div className="flex justify-center mb-6">
             <Link href="/" className="group">
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-600 to-purple-600 flex items-center justify-center text-white text-3xl font-black shadow-lg group-hover:scale-105 transition-transform">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-coral-500 to-peach-500 flex items-center justify-center text-white text-3xl font-black shadow-lg group-hover:scale-105 transition-transform">
                 F
               </div>
             </Link>
@@ -98,7 +98,7 @@ function SignInForm() {
                 onChange={(e) => setEmail(e.target.value)}
                 required
                 disabled={loading}
-                className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-violet-500 focus:ring-4 focus:ring-violet-100 outline-none transition-all disabled:bg-slate-100 disabled:cursor-not-allowed text-slate-900 placeholder-slate-400"
+                className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-coral-500 focus:ring-4 focus:ring-coral-100 outline-none transition-all disabled:bg-slate-100 disabled:cursor-not-allowed text-slate-900 placeholder-slate-400"
                 placeholder="tu@email.com"
               />
             </div>
@@ -114,7 +114,7 @@ function SignInForm() {
                 onChange={(e) => setPassword(e.target.value)}
                 required
                 disabled={loading}
-                className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-violet-500 focus:ring-4 focus:ring-violet-100 outline-none transition-all disabled:bg-slate-100 disabled:cursor-not-allowed text-slate-900"
+                className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-coral-500 focus:ring-4 focus:ring-coral-100 outline-none transition-all disabled:bg-slate-100 disabled:cursor-not-allowed text-slate-900"
                 placeholder="••••••••"
               />
             </div>
@@ -123,7 +123,7 @@ function SignInForm() {
               <label className="flex items-center cursor-pointer group">
                 <input
                   type="checkbox"
-                  className="w-4 h-4 text-violet-600 border-slate-300 rounded focus:ring-2 focus:ring-violet-500"
+                  className="w-4 h-4 text-coral-600 border-slate-300 rounded focus:ring-2 focus:ring-coral-500"
                 />
                 <span className="ml-2 text-slate-600 group-hover:text-slate-900 transition-colors">
                   Recordarme
@@ -132,7 +132,7 @@ function SignInForm() {
 
               <Link
                 href="/cuenta/recuperar"
-                className="font-semibold text-violet-600 hover:text-violet-700 transition-colors"
+                className="font-semibold text-coral-600 hover:text-coral-700 transition-colors"
               >
                 ¿Olvidaste tu contraseña?
               </Link>
@@ -141,7 +141,7 @@ function SignInForm() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-gradient-to-r from-violet-600 to-purple-600 text-white font-bold py-4 px-6 rounded-xl hover:shadow-xl hover:scale-[1.02] transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+              className="w-full bg-gradient-to-r from-coral-500 to-peach-500 text-white font-bold py-4 px-6 rounded-xl hover:shadow-xl hover:scale-[1.02] transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
             >
               {loading ? (
                 <span className="flex items-center justify-center gap-2">
@@ -176,7 +176,7 @@ function SignInForm() {
             </p>
             <Link
               href="/"
-              className="inline-flex items-center gap-2 text-violet-600 font-bold hover:text-violet-700 transition-colors group"
+              className="inline-flex items-center gap-2 text-coral-600 font-bold hover:text-coral-700 transition-colors group"
             >
               <span>Volver al inicio</span>
               <span className="text-xl group-hover:translate-x-1 transition-transform">→</span>
@@ -214,7 +214,7 @@ function SignInForm() {
 export default function SignInPage() {
   return (
     <Suspense fallback={
-      <div className="min-h-screen bg-gradient-to-br from-violet-600 via-purple-600 to-indigo-700 flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-br from-coral-500 via-peach-400 to-coral-600 flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-4 border-white mx-auto"></div>
           <p className="mt-4 text-white font-semibold">Cargando...</p>

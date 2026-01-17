@@ -87,7 +87,7 @@ export function SignupForm() {
           required
           value={formData.fullName}
           onChange={handleChange}
-          className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+          className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-peach-600 focus:border-transparent"
           placeholder="Juan Pérez"
           disabled={isSubmitting}
         />
@@ -103,7 +103,7 @@ export function SignupForm() {
           required
           value={formData.email}
           onChange={handleChange}
-          className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+          className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-peach-600 focus:border-transparent"
           placeholder="tu@email.com"
           disabled={isSubmitting}
         />
@@ -118,7 +118,7 @@ export function SignupForm() {
           name="phone"
           value={formData.phone}
           onChange={handleChange}
-          className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+          className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-peach-600 focus:border-transparent"
           placeholder="+34 600 000 000"
           disabled={isSubmitting}
         />
@@ -133,7 +133,7 @@ export function SignupForm() {
           required
           value={formData.courseInterest}
           onChange={handleChange}
-          className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+          className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-peach-600 focus:border-transparent"
           disabled={isSubmitting}
         >
           <option value="">Selecciona un curso</option>
@@ -151,7 +151,7 @@ export function SignupForm() {
           name="currentLevel"
           value={formData.currentLevel}
           onChange={handleChange}
-          className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+          className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-peach-600 focus:border-transparent"
           disabled={isSubmitting}
         >
           <option value="">No lo sé / Quiero hacer el test</option>
@@ -173,7 +173,7 @@ export function SignupForm() {
           rows={4}
           value={formData.message}
           onChange={handleChange}
-          className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+          className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-peach-600 focus:border-transparent"
           placeholder="Cuéntanos sobre tus objetivos..."
           disabled={isSubmitting}
         />
@@ -192,11 +192,11 @@ export function SignupForm() {
         />
         <label htmlFor="terms" className="text-sm text-slate-600">
           Acepto los{' '}
-          <a href="/terms" className="text-purple-600 font-bold hover:text-purple-700" target="_blank">
+          <a href="/terms" className="text-peach-600 font-bold hover:text-peach-700" target="_blank">
             términos y condiciones
           </a>{' '}
           y la{' '}
-          <a href="/privacy" className="text-purple-600 font-bold hover:text-purple-700" target="_blank">
+          <a href="/privacy" className="text-peach-600 font-bold hover:text-peach-700" target="_blank">
             política de privacidad
           </a>
           . Consiento el tratamiento de mis datos para finalidades comerciales.
@@ -206,7 +206,7 @@ export function SignupForm() {
       <button
         type="submit"
         disabled={isSubmitting}
-        className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-4 rounded-lg font-bold text-lg hover:from-purple-700 hover:to-pink-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+        className="w-full bg-gradient-to-r from-peach-600 to-pink-600 text-white py-4 rounded-lg font-bold text-lg hover:from-peach-700 hover:to-pink-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {isSubmitting ? 'Enviando...' : 'Empezar Gratis'}
       </button>

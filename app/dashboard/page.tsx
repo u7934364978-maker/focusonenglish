@@ -45,7 +45,7 @@ export default function DashboardPage() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto"></div>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-coral-600 mx-auto"></div>
           <p className="mt-4 text-gray-600">Cargando...</p>
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function DashboardPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <div className="min-h-screen bg-gradient-to-br from-sky-50 via-white to-peach-50">
       {/* Header */}
       <header className="bg-white border-b border-gray-200 sticky top-0 z-10 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -63,7 +63,7 @@ export default function DashboardPage() {
                 ¡Hola, {userData.name.split(' ')[0]}! 👋
               </h1>
               <p className="text-base text-gray-600 mt-2">
-                Continúa fortaleciendo tu inglés • Nivel: <span className="font-bold text-blue-600">{userData.level}</span>
+                Continúa fortaleciendo tu inglés • Nivel: <span className="font-bold text-coral-600">{userData.level}</span>
               </p>
             </div>
             <Link
@@ -81,7 +81,7 @@ export default function DashboardPage() {
         <div className="space-y-10">
           
           {/* Hero Card - Tu Enfoque Actual */}
-          <div className="bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl p-10 text-white shadow-2xl">
+          <div className="bg-gradient-to-br from-coral-600 to-peach-600 rounded-2xl p-10 text-white shadow-2xl">
             <div className="text-center">
               <div className="inline-flex items-center justify-center w-20 h-20 bg-white/20 backdrop-blur rounded-full mb-6">
                 <span className="text-4xl">🎯</span>
@@ -89,12 +89,12 @@ export default function DashboardPage() {
               <h2 className="text-3xl font-bold mb-3">
                 Tu Enfoque Actual
               </h2>
-              <p className="text-xl text-blue-100 mb-8">
+              <p className="text-xl text-sky-100 mb-8">
                 {userData.currentTopic}
               </p>
               <Link
                 href="/practica"
-                className="inline-block px-10 py-4 bg-white text-blue-600 rounded-xl hover:bg-blue-50 transition-all font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transform"
+                className="inline-block px-10 py-4 bg-white text-coral-600 rounded-xl hover:bg-sky-50 transition-all font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transform"
               >
                 🚀 Continuar Practicando
               </Link>
@@ -110,16 +110,16 @@ export default function DashboardPage() {
               {/* Práctica Ilimitada */}
               <Link
                 href="/practica"
-                className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all border-2 border-purple-100 hover:border-purple-300 hover:-translate-y-1 transform"
+                className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all border-2 border-peach-100 hover:border-peach-300 hover:-translate-y-1 transform"
               >
                 <div className="flex flex-col items-center text-center">
                   <div className="relative mb-4">
                     <span className="text-5xl">🎯</span>
-                    <span className="absolute -top-2 -right-2 px-2 py-1 bg-purple-600 text-white text-xs font-bold rounded-full">
+                    <span className="absolute -top-2 -right-2 px-2 py-1 bg-peach-600 text-white text-xs font-bold rounded-full">
                       NUEVO
                     </span>
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-purple-600 transition-colors">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-peach-600 transition-colors">
                     Práctica Ilimitada
                   </h3>
                   <p className="text-sm text-gray-600">
@@ -131,11 +131,11 @@ export default function DashboardPage() {
               {/* Explorar Temas */}
               <Link
                 href="/curso-b2"
-                className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all border-2 border-blue-100 hover:border-blue-300 hover:-translate-y-1 transform"
+                className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all border-2 border-sky-100 hover:border-sky-300 hover:-translate-y-1 transform"
               >
                 <div className="flex flex-col items-center text-center">
                   <span className="text-5xl mb-4">📚</span>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-coral-600 transition-colors">
                     Explorar Temas
                   </h3>
                   <p className="text-sm text-gray-600">

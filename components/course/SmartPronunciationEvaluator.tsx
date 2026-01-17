@@ -560,7 +560,7 @@ export default function SmartPronunciationEvaluator({
   const getScoreColor = (score: number): string => {
     if (score >= 90) return 'text-emerald-700 bg-emerald-50 border-emerald-300';
     if (score >= 80) return 'text-green-700 bg-green-50 border-green-300';
-    if (score >= 70) return 'text-blue-700 bg-blue-50 border-blue-300';
+    if (score >= 70) return 'text-coral-700 bg-sky-50 border-sky-300';
     if (score >= 60) return 'text-amber-700 bg-amber-50 border-amber-300';
     if (score >= 40) return 'text-orange-700 bg-orange-50 border-orange-300';
     return 'text-red-700 bg-red-50 border-red-300';
@@ -584,7 +584,7 @@ export default function SmartPronunciationEvaluator({
 
   if (!feedback) {
     return (
-      <div className="bg-gradient-to-br from-white to-blue-50 rounded-2xl border-2 border-blue-200 p-8 shadow-lg">
+      <div className="bg-gradient-to-br from-white to-sky-50 rounded-2xl border-2 border-sky-200 p-8 shadow-lg">
         <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
           <span className="text-4xl">🎯</span>
           <span>Smart Pronunciation & Topic Evaluation</span>
@@ -592,14 +592,14 @@ export default function SmartPronunciationEvaluator({
         
         <div className="space-y-6">
           {/* Topic Analysis Preview */}
-          <div className="bg-purple-50 rounded-xl p-6 border-2 border-purple-200">
-            <h4 className="font-bold text-purple-900 mb-3 flex items-center gap-2 text-lg">
+          <div className="bg-peach-50 rounded-xl p-6 border-2 border-peach-200">
+            <h4 className="font-bold text-peach-900 mb-3 flex items-center gap-2 text-lg">
               <span>🎓</span>
               <span>What This Exercise Asks</span>
             </h4>
             <p className="text-slate-800 leading-relaxed">{prompt}</p>
-            <div className="mt-4 p-4 bg-white rounded-lg border border-purple-200">
-              <p className="text-sm text-purple-700">
+            <div className="mt-4 p-4 bg-white rounded-lg border border-peach-200">
+              <p className="text-sm text-peach-700">
                 💡 <strong>Important:</strong> Make sure your answer directly addresses this topic. 
                 The AI will check if you're speaking about the right subject!
               </p>
@@ -610,11 +610,11 @@ export default function SmartPronunciationEvaluator({
           <div className="bg-white rounded-xl p-6 border-2 border-slate-200 shadow-sm">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-2">
-                <p className="font-bold text-blue-900 text-lg flex items-center gap-2">
+                <p className="font-bold text-coral-900 text-lg flex items-center gap-2">
                   <span>📝</span>
                   <span>{targetText ? 'Target Text' : 'Your Task'}</span>
                 </p>
-                <div className="bg-blue-50 rounded-lg p-4 border-2 border-blue-200">
+                <div className="bg-sky-50 rounded-lg p-4 border-2 border-sky-200">
                   <p className="text-slate-800 leading-relaxed">{targetText || prompt}</p>
                 </div>
               </div>
@@ -634,15 +634,15 @@ export default function SmartPronunciationEvaluator({
 
           {/* Model Audio Player */}
           {modelAudioUrl && (
-            <div className="bg-purple-50 rounded-xl p-6 border-2 border-purple-200">
-              <p className="font-bold text-purple-900 mb-3 flex items-center gap-2">
+            <div className="bg-peach-50 rounded-xl p-6 border-2 border-peach-200">
+              <p className="font-bold text-peach-900 mb-3 flex items-center gap-2">
                 <span>🔊</span>
                 <span>Listen to the Model Pronunciation</span>
               </p>
               <audio controls className="w-full" src={modelAudioUrl}>
                 Your browser does not support the audio element.
               </audio>
-              <p className="text-sm text-purple-700 mt-2">
+              <p className="text-sm text-peach-700 mt-2">
                 💡 Tip: Listen to this model pronunciation before evaluating to compare
               </p>
             </div>
@@ -652,7 +652,7 @@ export default function SmartPronunciationEvaluator({
           <button
             onClick={evaluatePronunciation}
             disabled={isEvaluating || !transcript}
-            className="w-full flex items-center justify-center gap-3 px-8 py-5 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white rounded-2xl hover:from-blue-700 hover:via-purple-700 hover:to-pink-700 transition-all font-bold text-xl shadow-2xl disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105"
+            className="w-full flex items-center justify-center gap-3 px-8 py-5 bg-gradient-to-r from-coral-600 via-peach-600 to-pink-600 text-white rounded-2xl hover:from-coral-700 hover:via-peach-700 hover:to-pink-700 transition-all font-bold text-xl shadow-2xl disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105"
           >
             {isEvaluating ? (
               <>
@@ -679,11 +679,11 @@ export default function SmartPronunciationEvaluator({
                    evaluationProgress < 95 ? 'Calculating scores...' :
                    'Generating feedback...'}
                 </span>
-                <span className="text-sm font-bold text-blue-600">{evaluationProgress}%</span>
+                <span className="text-sm font-bold text-coral-600">{evaluationProgress}%</span>
               </div>
               <div className="w-full bg-slate-200 rounded-full h-3 overflow-hidden">
                 <div
-                  className="bg-gradient-to-r from-blue-500 to-purple-500 h-full transition-all duration-300 rounded-full"
+                  className="bg-gradient-to-r from-sky-500 to-peach-500 h-full transition-all duration-300 rounded-full"
                   style={{ width: `${evaluationProgress}%` }}
                 />
               </div>
@@ -708,7 +708,7 @@ export default function SmartPronunciationEvaluator({
 
   // Render detailed feedback (continúa en el siguiente mensaje por límite de espacio...)
   return (
-    <div className="bg-gradient-to-br from-white via-blue-50 to-purple-50 rounded-2xl border-2 border-slate-300 p-8 space-y-8 shadow-2xl">
+    <div className="bg-gradient-to-br from-white via-sky-50 to-peach-50 rounded-2xl border-2 border-slate-300 p-8 space-y-8 shadow-2xl">
       <h3 className="text-3xl font-bold text-slate-900 mb-4 flex items-center gap-3">
         <span className="text-5xl">🎯</span>
         <span>Your Complete Evaluation Report</span>
@@ -823,19 +823,19 @@ export default function SmartPronunciationEvaluator({
 
       {/* Audio Comparison */}
       {feedback.audioComparison && (
-        <div className="bg-white rounded-xl p-6 border-2 border-purple-200 shadow-md">
+        <div className="bg-white rounded-xl p-6 border-2 border-peach-200 shadow-md">
           <h4 className="font-bold text-slate-900 text-xl mb-4 flex items-center gap-2">
             <span>📊</span>
             <span>Audio Analysis</span>
           </h4>
           <div className="grid md:grid-cols-3 gap-4">
-            <div className="bg-purple-50 rounded-lg p-4 border border-purple-200">
-              <p className="text-sm text-purple-700 font-semibold mb-1">Similarity to Model</p>
-              <p className="text-2xl font-bold text-purple-900">{feedback.audioComparison.similarityScore}%</p>
+            <div className="bg-peach-50 rounded-lg p-4 border border-peach-200">
+              <p className="text-sm text-peach-700 font-semibold mb-1">Similarity to Model</p>
+              <p className="text-2xl font-bold text-peach-900">{feedback.audioComparison.similarityScore}%</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
-              <p className="text-sm text-blue-700 font-semibold mb-1">Speaking Speed</p>
-              <p className="text-2xl font-bold text-blue-900">{feedback.audioComparison.speedComparison}</p>
+            <div className="bg-sky-50 rounded-lg p-4 border border-sky-200">
+              <p className="text-sm text-coral-700 font-semibold mb-1">Speaking Speed</p>
+              <p className="text-2xl font-bold text-coral-900">{feedback.audioComparison.speedComparison}</p>
             </div>
             <div className="bg-green-50 rounded-lg p-4 border border-green-200">
               <p className="text-sm text-green-700 font-semibold mb-1">Volume Level</p>
@@ -846,7 +846,7 @@ export default function SmartPronunciationEvaluator({
       )}
 
       {/* Detailed Feedback */}
-      <div className="bg-gradient-to-r from-slate-50 to-blue-50 rounded-xl p-6 border-2 border-slate-300 shadow-md">
+      <div className="bg-gradient-to-r from-slate-50 to-sky-50 rounded-xl p-6 border-2 border-slate-300 shadow-md">
         <h4 className="font-bold text-slate-900 text-xl mb-3 flex items-center gap-2">
           <span>💬</span>
           <span>Expert Feedback</span>
@@ -924,8 +924,8 @@ export default function SmartPronunciationEvaluator({
             ))}
           </div>
           {feedback.wordAccuracy.some(w => !w.correct) && (
-            <div className="mt-6 bg-blue-50 rounded-lg p-4 border border-blue-200">
-              <p className="text-sm text-blue-800 flex items-start gap-2">
+            <div className="mt-6 bg-sky-50 rounded-lg p-4 border border-sky-200">
+              <p className="text-sm text-coral-800 flex items-start gap-2">
                 <span className="text-lg">💡</span>
                 <span>
                   <strong>Pro Tip:</strong> Words marked with ✗ need more practice. Try repeating them slowly while listening to the model audio.
@@ -943,14 +943,14 @@ export default function SmartPronunciationEvaluator({
             setFeedback(null);
             setEvaluationProgress(0);
           }}
-          className="flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all font-bold text-lg shadow-lg transform hover:scale-105"
+          className="flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-coral-600 to-coral-700 text-white rounded-xl hover:from-coral-700 hover:to-coral-800 transition-all font-bold text-lg shadow-lg transform hover:scale-105"
         >
           <span className="text-xl">🔄</span>
           <span>Try Again</span>
         </button>
         <button
           onClick={() => window.print()}
-          className="flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-purple-600 to-purple-700 text-white rounded-xl hover:from-purple-700 hover:to-purple-800 transition-all font-bold text-lg shadow-lg transform hover:scale-105"
+          className="flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-peach-600 to-peach-700 text-white rounded-xl hover:from-peach-700 hover:to-peach-800 transition-all font-bold text-lg shadow-lg transform hover:scale-105"
         >
           <span className="text-xl">🖨️</span>
           <span>Print Report</span>

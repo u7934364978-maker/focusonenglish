@@ -72,7 +72,7 @@ function ResetPasswordForm() {
 
   if (!token) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-50 via-white to-peach-50 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-md w-full space-y-8 bg-white p-8 rounded-2xl shadow-xl">
           <div className="text-center">
             <div className="text-6xl mb-4">❌</div>
@@ -85,7 +85,7 @@ function ResetPasswordForm() {
           </div>
           <Link
             href="/forgot-password"
-            className="w-full block text-center bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+            className="w-full block text-center bg-coral-600 text-white py-3 px-4 rounded-lg hover:bg-coral-700 transition-colors font-medium"
           >
             Solicitar nuevo enlace
           </Link>
@@ -96,7 +96,7 @@ function ResetPasswordForm() {
 
   if (success) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-50 via-white to-peach-50 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-md w-full space-y-8 bg-white p-8 rounded-2xl shadow-xl">
           <div className="text-center">
             <div className="text-6xl mb-4">✅</div>
@@ -119,7 +119,7 @@ function ResetPasswordForm() {
 
           <Link
             href="/login"
-            className="w-full block text-center bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+            className="w-full block text-center bg-coral-600 text-white py-3 px-4 rounded-lg hover:bg-coral-700 transition-colors font-medium"
           >
             Ir al login
           </Link>
@@ -129,7 +129,7 @@ function ResetPasswordForm() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-50 via-white to-peach-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8 bg-white p-8 rounded-2xl shadow-xl">
         {/* Header */}
         <div className="text-center">
@@ -161,7 +161,7 @@ function ResetPasswordForm() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent"
               placeholder="Mínimo 8 caracteres"
               disabled={loading}
             />
@@ -177,7 +177,7 @@ function ResetPasswordForm() {
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent"
               placeholder="Repite tu nueva contraseña"
               disabled={loading}
             />
@@ -201,7 +201,7 @@ function ResetPasswordForm() {
           <button
             type="submit"
             disabled={loading || !password || !confirmPassword}
-            className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed font-medium"
+            className="w-full bg-coral-600 text-white py-3 px-4 rounded-lg hover:bg-coral-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed font-medium"
           >
             {loading ? (
               <span className="flex items-center justify-center gap-2">
@@ -215,11 +215,11 @@ function ResetPasswordForm() {
         </form>
 
         {/* Security Tips */}
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-          <h3 className="font-semibold text-blue-900 mb-2 text-sm">
+        <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <h3 className="font-semibold text-coral-900 mb-2 text-sm">
             🔒 Consejos de seguridad:
           </h3>
-          <ul className="text-xs text-blue-800 space-y-1">
+          <ul className="text-xs text-coral-800 space-y-1">
             <li>• Usa una contraseña única y fuerte</li>
             <li>• No uses información personal (nombres, fechas)</li>
             <li>• Combina letras, números y símbolos</li>
@@ -231,7 +231,7 @@ function ResetPasswordForm() {
         <div className="text-center pt-4 border-t border-gray-200">
           <p className="text-xs text-gray-500">
             ¿Tienes problemas?{' '}
-            <a href="mailto:soporte@focus-on-english.com" className="text-blue-600 hover:text-blue-500">
+            <a href="mailto:soporte@focus-on-english.com" className="text-coral-600 hover:text-sky-500">
               Contacta a soporte
             </a>
           </p>
@@ -244,9 +244,9 @@ function ResetPasswordForm() {
 export default function ResetPasswordPage() {
   return (
     <Suspense fallback={
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-50 via-white to-peach-50">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto"></div>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-coral-600 mx-auto"></div>
           <p className="mt-4 text-gray-600">Cargando...</p>
         </div>
       </div>

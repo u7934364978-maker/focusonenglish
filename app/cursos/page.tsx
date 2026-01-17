@@ -82,11 +82,11 @@ const COURSES = [
     duration: "14 semanas",
     price: "€449",
     color: "blue",
-    gradient: "from-blue-500 to-indigo-500",
-    bgGradient: "from-blue-50 to-indigo-50",
-    borderColor: "border-blue-200",
-    textColor: "text-blue-600",
-    hoverBorder: "hover:border-blue-400",
+    gradient: "from-sky-500 to-melon-500",
+    bgGradient: "from-sky-50 to-melon-50",
+    borderColor: "border-sky-200",
+    textColor: "text-coral-600",
+    hoverBorder: "hover:border-sky-400",
     badge: "Más Popular",
     description: "Curso avanzado para dominio del inglés en contextos profesionales",
     topics: [
@@ -105,11 +105,11 @@ const COURSES = [
     duration: "16 semanas",
     price: "€499",
     color: "purple",
-    gradient: "from-purple-500 to-pink-500",
-    bgGradient: "from-purple-50 to-pink-50",
-    borderColor: "border-purple-200",
-    textColor: "text-purple-600",
-    hoverBorder: "hover:border-purple-400",
+    gradient: "from-peach-500 to-pink-500",
+    bgGradient: "from-peach-50 to-pink-50",
+    borderColor: "border-peach-200",
+    textColor: "text-peach-600",
+    hoverBorder: "hover:border-peach-400",
     description: "Curso de dominio avanzado para contextos profesionales de alto nivel",
     topics: [
       "Precisión y sutileza en la expresión",
@@ -152,17 +152,17 @@ export default function CursosPage() {
       <CourseLaunchBanner />
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
-        <section className="pt-32 pb-16 bg-gradient-to-br from-violet-50 via-purple-50 to-pink-50">
+        <section className="pt-32 pb-16 bg-gradient-to-br from-coral-50 via-peach-50 to-pink-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-100 text-violet-700 text-sm font-bold mb-6">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-coral-100 text-coral-700 text-sm font-bold mb-6">
                 <span>📚</span>
                 <span>Cursos por Niveles</span>
               </div>
               
               <h1 className="text-5xl sm:text-6xl font-black text-slate-900 mb-6">
                 Encuentra Tu{" "}
-                <span className="bg-gradient-to-r from-violet-600 to-purple-600 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-coral-600 to-peach-600 bg-clip-text text-transparent">
                   Nivel Perfecto
                 </span>
               </h1>
@@ -174,13 +174,13 @@ export default function CursosPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   href="/diagnostico"
-                  className="inline-flex items-center justify-center bg-violet-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-violet-700 transition-colors"
+                  className="inline-flex items-center justify-center bg-coral-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-coral-700 transition-colors"
                 >
                   Descubre tu Nivel
                 </Link>
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center bg-white text-violet-600 border-2 border-violet-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-violet-50 transition-colors"
+                  className="inline-flex items-center justify-center bg-white text-coral-600 border-2 border-coral-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-coral-50 transition-colors"
                 >
                   Consulta Gratuita
                 </Link>
@@ -320,17 +320,17 @@ export default function CursosPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 bg-gradient-to-br from-violet-600 to-purple-600 text-white">
+        <section className="py-20 bg-gradient-to-br from-coral-600 to-peach-600 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-4xl font-black mb-6">
               ¿No Estás Seguro de Tu Nivel?
             </h2>
-            <p className="text-xl mb-8 text-violet-100 max-w-2xl mx-auto">
+            <p className="text-xl mb-8 text-coral-100 max-w-2xl mx-auto">
               Realiza nuestro test de nivel gratuito en 15 minutos y descubre qué curso es perfecto para ti.
             </p>
             <Link
               href="/diagnostico"
-              className="inline-flex items-center justify-center bg-white text-violet-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-violet-50 transition-colors"
+              className="inline-flex items-center justify-center bg-white text-coral-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-coral-50 transition-colors"
             >
               Hacer Test de Nivel Gratis
             </Link>

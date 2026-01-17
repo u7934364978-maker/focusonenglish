@@ -11,7 +11,7 @@ export default function B2ExamPrepCoursePage() {
   const modules = ALL_MODULES;
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+    <main className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-sky-50">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-amber-600 to-orange-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -60,14 +60,14 @@ export default function B2ExamPrepCoursePage() {
             Course Features
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl p-6 border-2 border-blue-200 shadow-lg">
+            <div className="bg-white rounded-xl p-6 border-2 border-sky-200 shadow-lg">
               <div className="text-5xl mb-4">🎤</div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">Voice Recording</h3>
               <p className="text-slate-600">
                 Record your speaking exercises with live transcription and playback. Practice until you're confident.
               </p>
             </div>
-            <div className="bg-white rounded-xl p-6 border-2 border-purple-200 shadow-lg">
+            <div className="bg-white rounded-xl p-6 border-2 border-peach-200 shadow-lg">
               <div className="text-5xl mb-4">📊</div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">Pronunciation Evaluation</h3>
               <p className="text-slate-600">
@@ -95,7 +95,7 @@ export default function B2ExamPrepCoursePage() {
                 Authentic texts with vocabulary help and comprehension questions to build your reading skills.
               </p>
             </div>
-            <div className="bg-white rounded-xl p-6 border-2 border-indigo-200 shadow-lg">
+            <div className="bg-white rounded-xl p-6 border-2 border-melon-200 shadow-lg">
               <div className="text-5xl mb-4">📝</div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">Grammar & Vocabulary</h3>
               <p className="text-slate-600">
@@ -125,7 +125,7 @@ export default function B2ExamPrepCoursePage() {
                 {/* Module Header */}
                 <div className="mb-6">
                   <div className="flex items-center gap-4 mb-3">
-                    <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-600 to-purple-600 text-white flex items-center justify-center font-black text-2xl">
+                    <div className="w-16 h-16 rounded-full bg-gradient-to-br from-coral-600 to-peach-600 text-white flex items-center justify-center font-black text-2xl">
                       {module.number}
                     </div>
                     <div>
@@ -138,20 +138,20 @@ export default function B2ExamPrepCoursePage() {
 
                 {/* Module Content Preview */}
                 <div className="grid md:grid-cols-3 gap-6 mb-8">
-                  <div className="bg-blue-50 rounded-xl p-4 border border-blue-200">
-                    <h4 className="text-sm font-bold text-blue-900 mb-2 flex items-center gap-2">
+                  <div className="bg-sky-50 rounded-xl p-4 border border-sky-200">
+                    <h4 className="text-sm font-bold text-coral-900 mb-2 flex items-center gap-2">
                       <span>📖</span>
                       <span>Topics</span>
                     </h4>
                     <ul className="space-y-1">
                       {module.topics.slice(0, 3).map((topic, idx) => (
-                        <li key={idx} className="text-xs text-blue-800 flex items-start gap-1">
-                          <span className="text-blue-500 mt-0.5">•</span>
+                        <li key={idx} className="text-xs text-coral-800 flex items-start gap-1">
+                          <span className="text-sky-500 mt-0.5">•</span>
                           <span>{topic}</span>
                         </li>
                       ))}
                       {module.topics.length > 3 && (
-                        <li className="text-xs text-blue-600 font-semibold">+ {module.topics.length - 3} more</li>
+                        <li className="text-xs text-coral-600 font-semibold">+ {module.topics.length - 3} more</li>
                       )}
                     </ul>
                   </div>
@@ -174,20 +174,20 @@ export default function B2ExamPrepCoursePage() {
                     </ul>
                   </div>
 
-                  <div className="bg-purple-50 rounded-xl p-4 border border-purple-200">
-                    <h4 className="text-sm font-bold text-purple-900 mb-2 flex items-center gap-2">
+                  <div className="bg-peach-50 rounded-xl p-4 border border-peach-200">
+                    <h4 className="text-sm font-bold text-peach-900 mb-2 flex items-center gap-2">
                       <span>💬</span>
                       <span>Vocabulary</span>
                     </h4>
                     <ul className="space-y-1">
                       {module.vocabulary.slice(0, 3).map((vocab, idx) => (
-                        <li key={idx} className="text-xs text-purple-800 flex items-start gap-1">
-                          <span className="text-purple-500 mt-0.5">•</span>
+                        <li key={idx} className="text-xs text-peach-800 flex items-start gap-1">
+                          <span className="text-peach-500 mt-0.5">•</span>
                           <span>{vocab}</span>
                         </li>
                       ))}
                       {module.vocabulary.length > 3 && (
-                        <li className="text-xs text-purple-600 font-semibold">+ {module.vocabulary.length - 3} more</li>
+                        <li className="text-xs text-peach-600 font-semibold">+ {module.vocabulary.length - 3} more</li>
                       )}
                     </ul>
                   </div>
@@ -199,15 +199,15 @@ export default function B2ExamPrepCoursePage() {
                     <Link
                       key={lesson.id}
                       href={`/curso-b2/leccion/${lesson.id}`}
-                      className="block bg-white rounded-xl p-5 border border-slate-200 hover:border-blue-400 hover:shadow-lg transition-all group"
+                      className="block bg-white rounded-xl p-5 border border-slate-200 hover:border-sky-400 hover:shadow-lg transition-all group"
                     >
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-3 flex-1">
-                          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 text-white flex items-center justify-center font-bold text-sm">
+                          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-sky-500 to-peach-500 text-white flex items-center justify-center font-bold text-sm">
                             {lessonIdx + 1}
                           </div>
                           <div className="flex-1">
-                            <h5 className="font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+                            <h5 className="font-bold text-slate-900 group-hover:text-coral-600 transition-colors">
                               {lesson.title}
                             </h5>
                             <p className="text-xs text-slate-600">
@@ -233,7 +233,7 @@ export default function B2ExamPrepCoursePage() {
                               </span>
                             ))}
                           </div>
-                          <div className="px-3 py-1 bg-blue-600 text-white rounded-lg group-hover:bg-blue-700 transition-colors text-sm font-semibold">
+                          <div className="px-3 py-1 bg-coral-600 text-white rounded-lg group-hover:bg-coral-700 transition-colors text-sm font-semibold">
                             Start →
                           </div>
                         </div>
@@ -298,7 +298,7 @@ export default function B2ExamPrepCoursePage() {
       {/* CTA Section */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-12 text-white">
+          <div className="bg-gradient-to-r from-coral-600 to-peach-600 rounded-2xl p-12 text-white">
             <h2 className="text-4xl font-black mb-4">Ready to Start?</h2>
             <p className="text-xl mb-8 opacity-90">
               Begin your B2 exam preparation journey with our comprehensive interactive course
@@ -306,7 +306,7 @@ export default function B2ExamPrepCoursePage() {
             <div className="flex flex-wrap justify-center gap-4">
               <Link
                 href="/curso-b2/leccion/b2-m1-l1"
-                className="px-8 py-4 bg-white text-blue-600 rounded-xl font-bold text-lg hover:bg-blue-50 transition-all shadow-2xl"
+                className="px-8 py-4 bg-white text-coral-600 rounded-xl font-bold text-lg hover:bg-sky-50 transition-all shadow-2xl"
               >
                 Start First Lesson
               </Link>

@@ -12,17 +12,17 @@ interface SentenceBuilderProps {
 
 // Colores por tipo de palabra
 const wordTypeColors: Record<WordType, { bg: string; border: string; text: string }> = {
-  subject: { bg: 'bg-blue-100', border: 'border-blue-400', text: 'text-blue-900' },
+  subject: { bg: 'bg-sky-100', border: 'border-sky-400', text: 'text-coral-900' },
   verb: { bg: 'bg-red-100', border: 'border-red-400', text: 'text-red-900' },
   object: { bg: 'bg-green-100', border: 'border-green-400', text: 'text-green-900' },
-  adjective: { bg: 'bg-purple-100', border: 'border-purple-400', text: 'text-purple-900' },
+  adjective: { bg: 'bg-peach-100', border: 'border-peach-400', text: 'text-peach-900' },
   adverb: { bg: 'bg-pink-100', border: 'border-pink-400', text: 'text-pink-900' },
   preposition: { bg: 'bg-orange-100', border: 'border-orange-400', text: 'text-orange-900' },
   article: { bg: 'bg-yellow-100', border: 'border-yellow-400', text: 'text-yellow-900' },
-  auxiliary: { bg: 'bg-indigo-100', border: 'border-indigo-400', text: 'text-indigo-900' },
+  auxiliary: { bg: 'bg-melon-100', border: 'border-melon-400', text: 'text-melon-900' },
   conjunction: { bg: 'bg-teal-100', border: 'border-teal-400', text: 'text-teal-900' },
   complement: { bg: 'bg-cyan-100', border: 'border-cyan-400', text: 'text-cyan-900' },
-  pronoun: { bg: 'bg-violet-100', border: 'border-violet-400', text: 'text-violet-900' },
+  pronoun: { bg: 'bg-coral-100', border: 'border-coral-400', text: 'text-coral-900' },
   determiner: { bg: 'bg-amber-100', border: 'border-amber-400', text: 'text-amber-900' },
 };
 
@@ -208,14 +208,14 @@ export default function SentenceBuilder({ challenge, showHints, showTranslations
   return (
     <div className="space-y-6">
       {/* Prompt */}
-      <div className="bg-gradient-to-r from-violet-50 to-purple-50 rounded-xl p-6 border-2 border-violet-200">
+      <div className="bg-gradient-to-r from-coral-50 to-peach-50 rounded-xl p-6 border-2 border-coral-200">
         <div className="flex items-start gap-3">
           <span className="text-3xl">🎯</span>
           <div className="flex-1">
-            <h3 className="text-xl font-bold text-violet-900 mb-2">Build this sentence:</h3>
+            <h3 className="text-xl font-bold text-coral-900 mb-2">Build this sentence:</h3>
             <p className="text-lg text-slate-800 font-medium">{challenge.prompt}</p>
             {challenge.grammarFocus && (
-              <div className="mt-3 inline-block px-3 py-1 bg-violet-100 text-violet-800 rounded-full text-sm font-semibold">
+              <div className="mt-3 inline-block px-3 py-1 bg-coral-100 text-coral-800 rounded-full text-sm font-semibold">
                 📚 Focus: {challenge.grammarFocus}
               </div>
             )}
@@ -225,14 +225,14 @@ export default function SentenceBuilder({ challenge, showHints, showTranslations
 
       {/* Tips */}
       {challenge.tips && challenge.tips.length > 0 && (
-        <details className="bg-blue-50 rounded-lg p-4 border border-blue-200">
-          <summary className="cursor-pointer font-semibold text-blue-900 hover:text-blue-700">
+        <details className="bg-sky-50 rounded-lg p-4 border border-sky-200">
+          <summary className="cursor-pointer font-semibold text-coral-900 hover:text-coral-700">
             💡 Need help? Click for tips
           </summary>
           <ul className="mt-3 space-y-1">
             {challenge.tips.map((tip, i) => (
-              <li key={i} className="text-sm text-blue-800 flex items-start gap-2">
-                <span className="text-blue-500 mt-0.5">•</span>
+              <li key={i} className="text-sm text-coral-800 flex items-start gap-2">
+                <span className="text-sky-500 mt-0.5">•</span>
                 <span>{tip}</span>
               </li>
             ))}
@@ -266,7 +266,7 @@ export default function SentenceBuilder({ challenge, showHints, showTranslations
 
         <div
           className={`min-h-[80px] bg-white rounded-xl p-4 border-2 border-dashed ${
-            sentenceWords.length === 0 ? 'border-slate-300' : 'border-violet-400'
+            sentenceWords.length === 0 ? 'border-slate-300' : 'border-coral-400'
           } flex flex-wrap items-center gap-2`}
           onDragOver={handleDragOver}
           onDrop={() => handleDropInSentence()}
@@ -278,7 +278,7 @@ export default function SentenceBuilder({ challenge, showHints, showTranslations
               <React.Fragment key={word.id}>
                 {/* Drop zone before word */}
                 <div
-                  className="w-2 h-12 bg-violet-200 rounded opacity-0 hover:opacity-100 transition-opacity"
+                  className="w-2 h-12 bg-coral-200 rounded opacity-0 hover:opacity-100 transition-opacity"
                   onDragOver={handleDragOver}
                   onDrop={() => handleDropInSentence(index)}
                 />
@@ -291,7 +291,7 @@ export default function SentenceBuilder({ challenge, showHints, showTranslations
                   className={`px-4 py-2 rounded-lg border-2 font-medium cursor-move hover:scale-105 transition-transform ${
                     showHints
                       ? `${wordTypeColors[word.type].bg} ${wordTypeColors[word.type].border} ${wordTypeColors[word.type].text}`
-                      : 'bg-violet-100 border-violet-300 text-violet-900'
+                      : 'bg-coral-100 border-coral-300 text-coral-900'
                   }`}
                   title={showHints ? wordTypeLabels[word.type] : undefined}
                 >
@@ -359,7 +359,7 @@ export default function SentenceBuilder({ challenge, showHints, showTranslations
         <button
           onClick={checkAnswer}
           disabled={sentenceWords.length === 0 || submitted}
-          className="flex-1 px-6 py-3 bg-gradient-to-r from-violet-600 to-purple-600 text-white rounded-xl hover:from-violet-700 hover:to-purple-700 transition-all font-bold text-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+          className="flex-1 px-6 py-3 bg-gradient-to-r from-coral-600 to-peach-600 text-white rounded-xl hover:from-coral-700 hover:to-peach-700 transition-all font-bold text-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
         >
           {submitted ? '✓ Submitted' : 'Check Answer'}
         </button>

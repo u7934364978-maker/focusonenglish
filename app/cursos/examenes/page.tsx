@@ -15,7 +15,7 @@ const EXAMS = [
     exam: 'PET (B1 Preliminary)', 
     price: '€99/mes', 
     duration: '3 meses',
-    color: 'from-blue-400 to-blue-600',
+    color: 'from-sky-400 to-coral-600',
     description: 'Certifica inglés intermedio para estudios y trabajo básico'
   },
   { 
@@ -23,7 +23,7 @@ const EXAMS = [
     exam: 'FCE (B2 First)', 
     price: '€119/mes', 
     duration: '4 meses',
-    color: 'from-blue-500 to-blue-700',
+    color: 'from-sky-500 to-coral-700',
     popular: true,
     description: 'El examen más solicitado para universidad y trabajo profesional'
   },
@@ -32,7 +32,7 @@ const EXAMS = [
     exam: 'CAE (C1 Advanced)', 
     price: '€139/mes', 
     duration: '5 meses',
-    color: 'from-indigo-500 to-indigo-700',
+    color: 'from-melon-500 to-melon-700',
     description: 'Nivel avanzado para postgrados y posiciones ejecutivas'
   },
   { 
@@ -40,7 +40,7 @@ const EXAMS = [
     exam: 'CPE (C2 Proficiency)', 
     price: '€139/mes', 
     duration: '5 meses',
-    color: 'from-indigo-600 to-indigo-900',
+    color: 'from-melon-600 to-melon-900',
     description: 'Máximo nivel, equivalente a nativo educado'
   },
   { 
@@ -48,7 +48,7 @@ const EXAMS = [
     exam: 'IELTS', 
     price: '€119/mes', 
     duration: '4 meses',
-    color: 'from-purple-500 to-purple-700',
+    color: 'from-peach-500 to-peach-700',
     description: 'Para inmigración, estudios en UK, Australia, Canadá'
   },
   { 
@@ -56,7 +56,7 @@ const EXAMS = [
     exam: 'TOEFL', 
     price: '€119/mes', 
     duration: '4 meses',
-    color: 'from-violet-500 to-violet-700',
+    color: 'from-coral-500 to-coral-700',
     description: 'Requerido por universidades americanas y canadienses'
   },
 ];
@@ -72,23 +72,23 @@ const FEATURES = [
 
 export default function ExamenesPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
+    <div className="min-h-screen bg-gradient-to-br from-sky-50 to-melon-50">
       <Navigation />
       <CourseLaunchBanner />
       
       <section className="relative py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="inline-block px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold text-sm mb-6">
+          <div className="inline-block px-4 py-2 bg-sky-100 text-coral-700 rounded-full font-semibold text-sm mb-6">
             🎓 Preparación Oficial
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6">
-            Preparación de <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Exámenes</span>
+            Preparación de <span className="text-transparent bg-clip-text bg-gradient-to-r from-coral-600 to-melon-600">Exámenes</span>
           </h1>
           <p className="text-xl text-slate-600 mb-8 max-w-3xl mx-auto">
             Aprueba tu examen oficial al primer intento. Preparación especializada para Cambridge, IELTS y TOEFL con garantía de resultado.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/test-nivel" className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl hover:from-blue-700 hover:to-indigo-700 font-bold text-lg shadow-lg">
+            <Link href="/test-nivel" className="px-8 py-4 bg-gradient-to-r from-coral-600 to-melon-600 text-white rounded-xl hover:from-coral-700 hover:to-melon-700 font-bold text-lg shadow-lg">
               Test de Nivel Gratuito
             </Link>
             <Link href="/contacto" className="px-8 py-4 bg-white text-slate-700 rounded-xl hover:bg-slate-50 font-bold text-lg shadow-lg border-2 border-slate-200">
@@ -98,11 +98,11 @@ export default function ExamenesPage() {
           
           <div className="grid grid-cols-3 gap-8 mt-16 max-w-3xl mx-auto">
             <div>
-              <div className="text-4xl font-bold text-blue-600 mb-2">95%</div>
+              <div className="text-4xl font-bold text-coral-600 mb-2">95%</div>
               <div className="text-sm text-slate-600">Tasa de aprobación</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-indigo-600 mb-2">1,200+</div>
+              <div className="text-4xl font-bold text-melon-600 mb-2">1,200+</div>
               <div className="text-sm text-slate-600">Alumnos aprobados</div>
             </div>
             <div>
@@ -118,10 +118,10 @@ export default function ExamenesPage() {
           <h2 className="text-4xl font-bold text-center text-slate-900 mb-12">Elige tu Examen</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {EXAMS.map((exam) => (
-              <div key={exam.exam} className={`bg-white rounded-2xl shadow-lg p-8 border-2 ${exam.popular ? 'border-blue-500 relative' : 'border-transparent'}`}>
+              <div key={exam.exam} className={`bg-white rounded-2xl shadow-lg p-8 border-2 ${exam.popular ? 'border-sky-500 relative' : 'border-transparent'}`}>
                 {exam.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <span className="bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-bold">⭐ Más Demandado</span>
+                    <span className="bg-coral-600 text-white px-4 py-1 rounded-full text-sm font-bold">⭐ Más Demandado</span>
                   </div>
                 )}
                 <div className={`inline-block px-4 py-2 bg-gradient-to-r ${exam.color} text-white rounded-xl font-bold mb-4`}>
@@ -133,7 +133,7 @@ export default function ExamenesPage() {
                   <span>📅 {exam.duration}</span>
                   <span>💰 {exam.price}</span>
                 </div>
-                <Link href={`/cursos/examenes/${exam.level.toLowerCase()}`} className="block w-full text-center px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl hover:from-blue-700 hover:to-indigo-700 font-bold">
+                <Link href={`/cursos/examenes/${exam.level.toLowerCase()}`} className="block w-full text-center px-6 py-3 bg-gradient-to-r from-coral-600 to-melon-600 text-white rounded-xl hover:from-coral-700 hover:to-melon-700 font-bold">
                   Ver Curso
                 </Link>
               </div>
@@ -157,15 +157,15 @@ export default function ExamenesPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-gradient-to-r from-blue-600 to-indigo-600">
+      <section className="py-20 px-4 bg-gradient-to-r from-coral-600 to-melon-600">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white mb-6">¿Listo para aprobar tu examen?</h2>
-          <p className="text-xl text-blue-100 mb-8">Descubre qué examen necesitas y comienza tu preparación hoy</p>
+          <p className="text-xl text-sky-100 mb-8">Descubre qué examen necesitas y comienza tu preparación hoy</p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/test-nivel" className="px-8 py-4 bg-white text-blue-600 rounded-xl hover:bg-blue-50 font-bold text-lg shadow-lg">
+            <Link href="/test-nivel" className="px-8 py-4 bg-white text-coral-600 rounded-xl hover:bg-sky-50 font-bold text-lg shadow-lg">
               Test de Nivel Gratuito
             </Link>
-            <Link href="/planes" className="px-8 py-4 bg-blue-700 text-white rounded-xl hover:bg-blue-800 font-bold text-lg shadow-lg border-2 border-white/30">
+            <Link href="/planes" className="px-8 py-4 bg-coral-700 text-white rounded-xl hover:bg-coral-800 font-bold text-lg shadow-lg border-2 border-white/30">
               Ver Planes
             </Link>
           </div>
