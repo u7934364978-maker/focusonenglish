@@ -17,6 +17,7 @@ interface Exercise {
   type: string;
   title: string;
   instructions?: string;
+  text?: string; // For reading comprehension passages
   questions?: Question[];
   transformations?: any[];
 }
@@ -133,6 +134,21 @@ export default function PracticeExerciseViewer({
               {exercise.instructions && (
                 <p className="text-gray-600">{exercise.instructions}</p>
               )}
+            </div>
+          )}
+
+          {/* Reading passage - Always visible for reading comprehension */}
+          {exercise.text && (
+            <div className="bg-white rounded-2xl shadow-lg p-8 mb-6">
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-2xl">📖</span>
+                <h3 className="text-lg font-bold text-gray-900">Reading Passage</h3>
+              </div>
+              <div className="prose max-w-none">
+                <p className="text-gray-700 leading-relaxed whitespace-pre-line">
+                  {exercise.text}
+                </p>
+              </div>
             </div>
           )}
 
