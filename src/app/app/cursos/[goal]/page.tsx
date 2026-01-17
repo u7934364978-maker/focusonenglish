@@ -63,7 +63,7 @@ function LevelCard({
             className={[
               "inline-flex h-11 items-center justify-center rounded-xl px-5 text-sm font-black",
               primary
-                ? "bg-violet-600 text-white hover:brightness-95"
+                ? "bg-coral-600 text-white hover:brightness-95"
                 : "border border-slate-200 bg-white text-slate-900 hover:bg-slate-50",
             ].join(" ")}
           >
@@ -155,7 +155,7 @@ export default function GoalPage({ params }: PageProps) {
       <div className="mt-6 flex flex-wrap gap-3">
         <Link
           href={`/app/placement/${goal}`}
-          className="inline-flex h-11 items-center justify-center rounded-xl bg-violet-600 px-5 text-sm font-black text-white hover:brightness-95"
+          className="inline-flex h-11 items-center justify-center rounded-xl bg-coral-600 px-5 text-sm font-black text-white hover:brightness-95"
         >
           Hacer placement test
         </Link>

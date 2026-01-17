@@ -63,7 +63,7 @@ function WeekCard({
         {available ? (
           <Link
             href={weekHref}
-            className="inline-flex h-11 w-full items-center justify-center rounded-xl bg-violet-600 px-5 text-sm font-black text-white hover:brightness-95"
+            className="inline-flex h-11 w-full items-center justify-center rounded-xl bg-coral-600 px-5 text-sm font-black text-white hover:brightness-95"
           >
             Abrir semana
           </Link>
