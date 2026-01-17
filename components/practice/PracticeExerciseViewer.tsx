@@ -170,13 +170,12 @@ export default function PracticeExerciseViewer({
                     key={idx}
                     onClick={() => {
                       setAnswer(option);
-                      setTimeout(() => {
-                        const temp = option;
-                        setAnswer(temp);
+                      // Esperar un momento para que se actualice el estado antes de verificar
+                      requestAnimationFrame(() => {
                         checkAnswer();
-                      }, 100);
+                      });
                     }}
-                    className="w-full p-4 text-left border-2 border-gray-300 rounded-xl hover:border-blue-400 hover:bg-blue-50 transition-all font-medium"
+                    className="w-full p-4 text-left border-2 border-gray-300 rounded-xl hover:border-blue-400 hover:bg-blue-50 transition-all font-medium text-gray-900"
                   >
                     {option}
                   </button>
