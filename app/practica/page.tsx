@@ -21,7 +21,7 @@ export default function PracticePage() {
     setError(null);
 
     try {
-      console.log('🚀 Generando ejercicios con configuración:', config);
+      console.log('🚀 Preparando ejercicios con configuración:', config);
 
       const response = await fetch('/api/generate-exercise', {
         method: 'POST',
@@ -105,12 +105,12 @@ export default function PracticePage() {
       {loading && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
           <div className="bg-white rounded-2xl p-8 max-w-md text-center">
-            <div className="animate-spin text-6xl mb-4">🤖</div>
+            <div className="animate-spin text-6xl mb-4">📚</div>
             <h3 className="text-2xl font-bold text-gray-900 mb-2">
-              Generando ejercicios...
+              Preparando ejercicios...
             </h3>
             <p className="text-gray-600">
-              La IA está creando contenido personalizado para ti
+              Creando contenido personalizado para tu nivel
             </p>
             <div className="mt-4 flex justify-center">
               <div className="flex gap-2">
