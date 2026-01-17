@@ -124,6 +124,36 @@ const blogCategories = [
       }
     ]
   },
+  {
+    name: "Material de Estudio",
+    slug: "material-estudio",
+    description: "Guías completas y recursos estructurados para aprender inglés",
+    icon: "📚",
+    color: "from-blue-600 to-indigo-600",
+    articles: [
+      {
+        title: "Gramática Básica de Inglés A1: Guía Completa para Principiantes [2026]",
+        slug: "gramatica-basica-ingles-a1-principiantes",
+        excerpt: "Domina los fundamentos de la gramática inglesa nivel A1 con esta guía estructurada. Aprende las estructuras esenciales, reglas claras y ejercicios prácticos para construir una base sólida en inglés.",
+        date: "2026-01-17",
+        readTime: "18 min"
+      },
+      {
+        title: "Vocabulario Esencial Inglés A1: 500 Palabras Clave para Principiantes [2026]",
+        slug: "vocabulario-esencial-ingles-a1-principiantes",
+        excerpt: "Aprende las 500 palabras más importantes del inglés nivel A1 organizadas por categorías. Vocabulario esencial con pronunciación, ejemplos prácticos y técnicas de memorización efectivas.",
+        date: "2026-01-17",
+        readTime: "20 min"
+      },
+      {
+        title: "Tiempos Verbales Inglés A1: Guía Completa de Presente Simple y Presente Continuo [2026]",
+        slug: "tiempos-verbales-ingles-a1-presente",
+        excerpt: "Domina los dos tiempos verbales esenciales del inglés A1: presente simple y presente continuo. Aprende cuándo usar cada uno, cómo conjugarlos y evita los errores más comunes de hispanohablantes.",
+        date: "2026-01-17",
+        readTime: "22 min"
+      }
+    ]
+  },
 ];
 
 export default function BlogPage() {

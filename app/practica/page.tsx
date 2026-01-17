@@ -2,7 +2,9 @@
 
 // ============================================
 // PÁGINA: PRÁCTICA INFINITA CON EJERCICIOS ILIMITADOS
-// Version: 2.0 - Infinite Exercise System
+// Version: 3.0 - Seamless Infinite Exercise System
+// Updated: 2026-01-17
+// Sistema mejorado con generación automática y fluida de ejercicios
 // ============================================
 
 import { useState } from 'react';
@@ -21,6 +23,8 @@ export default function PracticePage() {
   const [totalScore, setTotalScore] = useState(0);
   const [isFallback, setIsFallback] = useState(false);
   const [fallbackMessage, setFallbackMessage] = useState<string | null>(null);
+  const [sessionStartTime] = useState(Date.now());
+  const [bestScore, setBestScore] = useState(0);
 
   const generateNextExercise = async (config: PracticeConfig) => {
     setLoading(true);
@@ -85,23 +89,35 @@ export default function PracticePage() {
     const newTotalScore = totalScore + score;
     const averageScore = newTotalScore / newExercisesCompleted;
     
+    // Actualizar mejor puntuación
+    if (score > bestScore) {
+      setBestScore(score);
+    }
+    
     setExercisesCompleted(newExercisesCompleted);
     setTotalScore(newTotalScore);
 
     // Generar siguiente ejercicio automáticamente sin confirmación
     if (practiceConfig) {
-      await generateNextExercise(practiceConfig);
+      // Pequeño delay para mostrar feedback antes de cargar el siguiente
+      setTimeout(() => {
+        generateNextExercise(practiceConfig);
+      }, 500);
     }
   };
 
   const handleExit = () => {
     const finalAverage = exercisesCompleted > 0 ? Math.round(totalScore / exercisesCompleted) : 0;
+    const sessionDuration = Math.round((Date.now() - sessionStartTime) / 60000); // minutos
     
-    const summary = `📊 Resumen de tu práctica:\n\n` +
-      `Ejercicios completados: ${exercisesCompleted}\n` +
-      `Puntuación promedio: ${finalAverage}%\n` +
-      `Puntuación total: ${Math.round(totalScore)} puntos\n\n` +
-      `¡Buen trabajo! 🎉`;
+    const summary = `🎉 ¡Excelente sesión de práctica!\n\n` +
+      `📊 Resumen:\n` +
+      `• Ejercicios completados: ${exercisesCompleted}\n` +
+      `• Puntuación promedio: ${finalAverage}%\n` +
+      `• Mejor puntuación: ${Math.round(bestScore)}%\n` +
+      `• Tiempo de práctica: ${sessionDuration} minutos\n` +
+      `• Puntuación total: ${Math.round(totalScore)} puntos\n\n` +
+      `¡Sigue así! Cada sesión te acerca más a tu objetivo. 💪`;
     
     alert(summary);
     
@@ -111,6 +127,7 @@ export default function PracticePage() {
     setPracticeConfig(null);
     setExercisesCompleted(0);
     setTotalScore(0);
+    setBestScore(0);
   };
 
   const handleSkip = () => {
@@ -121,24 +138,70 @@ export default function PracticePage() {
 
   if (practicing && currentExercises && currentExercises.exercises && currentExercises.exercises[0]) {
     const currentExercise = currentExercises.exercises[0];
+    const averageScore = exercisesCompleted > 0 ? Math.round(totalScore / exercisesCompleted) : 0;
+    const sessionDuration = Math.round((Date.now() - sessionStartTime) / 60000); // minutos
     
     // Loading overlay para siguiente ejercicio
     if (loading) {
       return (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-2xl p-8 max-w-md text-center">
-            <div className="animate-spin text-6xl mb-4">📚</div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">
-              Cargando siguiente ejercicio...
-            </h3>
-            <p className="text-gray-600">
-              Preparando contenido personalizado
-            </p>
-            <div className="mt-4 flex justify-center">
-              <div className="flex gap-2">
-                <div className="w-3 h-3 bg-coral-600 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></div>
-                <div className="w-3 h-3 bg-coral-600 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></div>
-                <div className="w-3 h-3 bg-coral-600 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></div>
+        <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-peach-50">
+          {/* Progress Bar at top - Enhanced */}
+          <div className="bg-white border-b-2 border-coral-200 sticky top-0 z-50 shadow-lg">
+            <div className="max-w-7xl mx-auto px-4 py-5">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-6">
+                  <div className="flex items-center gap-3">
+                    <span className="text-3xl animate-pulse">🎯</span>
+                    <div>
+                      <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Sesión en Curso</div>
+                      <div className="text-xl font-black text-gray-900">{exercisesCompleted} ejercicio{exercisesCompleted !== 1 ? 's' : ''}</div>
+                    </div>
+                  </div>
+                  <div className="hidden md:block h-12 w-px bg-gray-300"></div>
+                  <div className="hidden md:flex items-center gap-4">
+                    <div className="text-center px-4">
+                      <div className="text-xs text-gray-500 mb-1">Promedio</div>
+                      <div className="text-2xl font-black text-coral-600">{averageScore}%</div>
+                    </div>
+                    <div className="text-center px-4">
+                      <div className="text-xs text-gray-500 mb-1">Mejor</div>
+                      <div className="text-2xl font-black text-peach-600">{Math.round(bestScore)}%</div>
+                    </div>
+                    <div className="text-center px-4">
+                      <div className="text-xs text-gray-500 mb-1">Tiempo</div>
+                      <div className="text-2xl font-black text-amber-600">{sessionDuration}m</div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  onClick={handleSkip}
+                  className="px-6 py-3 bg-gradient-to-r from-coral-500 to-peach-500 hover:from-coral-600 hover:to-peach-600 text-white rounded-xl text-sm font-bold transition-all shadow-lg hover:shadow-xl"
+                >
+                  Finalizar Sesión
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          {/* Loading content - Enhanced */}
+          <div className="flex items-center justify-center min-h-[80vh]">
+            <div className="bg-white rounded-3xl p-12 max-w-lg text-center shadow-2xl border-2 border-coral-100">
+              <div className="animate-spin text-7xl mb-6">📚</div>
+              <h3 className="text-3xl font-black text-gray-900 mb-3">
+                Preparando siguiente ejercicio...
+              </h3>
+              <p className="text-lg text-gray-600 mb-6">
+                Creando contenido personalizado para ti
+              </p>
+              <div className="flex justify-center gap-2 mb-8">
+                <div className="w-4 h-4 bg-coral-600 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></div>
+                <div className="w-4 h-4 bg-peach-600 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></div>
+                <div className="w-4 h-4 bg-orange-600 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></div>
+              </div>
+              <div className="bg-gradient-to-r from-coral-50 to-peach-50 rounded-xl p-4">
+                <p className="text-sm text-gray-600">
+                  <span className="font-bold text-coral-600">💡 Consejo:</span> Cada ejercicio te acerca más a tu objetivo
+                </p>
               </div>
             </div>
           </div>
@@ -147,50 +210,96 @@ export default function PracticePage() {
     }
     
     return (
-      <PracticeExerciseViewer
-        exercise={currentExercise}
-        onComplete={handleComplete}
-        onSkip={handleSkip}
-        currentNumber={exercisesCompleted + 1}
-        totalExercises={999} // Infinito
-      />
+      <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-peach-50">
+        {/* Progress Bar at top - Enhanced */}
+        <div className="bg-white border-b-2 border-coral-200 sticky top-0 z-50 shadow-lg">
+          <div className="max-w-7xl mx-auto px-4 py-5">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-6">
+                <div className="flex items-center gap-3">
+                  <span className="text-3xl">🎯</span>
+                  <div>
+                    <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Sesión en Curso</div>
+                    <div className="text-xl font-black text-gray-900">{exercisesCompleted} ejercicio{exercisesCompleted !== 1 ? 's' : ''}</div>
+                  </div>
+                </div>
+                <div className="hidden md:block h-12 w-px bg-gray-300"></div>
+                <div className="hidden md:flex items-center gap-4">
+                  <div className="text-center px-4">
+                    <div className="text-xs text-gray-500 mb-1">Promedio</div>
+                    <div className="text-2xl font-black text-coral-600">{averageScore}%</div>
+                  </div>
+                  <div className="text-center px-4">
+                    <div className="text-xs text-gray-500 mb-1">Mejor</div>
+                    <div className="text-2xl font-black text-peach-600">{Math.round(bestScore)}%</div>
+                  </div>
+                  <div className="text-center px-4">
+                    <div className="text-xs text-gray-500 mb-1">Tiempo</div>
+                    <div className="text-2xl font-black text-amber-600">{sessionDuration}m</div>
+                  </div>
+                </div>
+              </div>
+              <button
+                onClick={handleSkip}
+                className="px-6 py-3 bg-gradient-to-r from-coral-500 to-peach-500 hover:from-coral-600 hover:to-peach-600 text-white rounded-xl text-sm font-bold transition-all shadow-lg hover:shadow-xl"
+              >
+                Finalizar Sesión
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <PracticeExerciseViewer
+          exercise={currentExercise}
+          onComplete={handleComplete}
+          onSkip={handleSkip}
+          currentNumber={exercisesCompleted + 1}
+          totalExercises={999} // Infinito
+        />
+      </div>
     );
   }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-peach-50">
-      {/* Loading overlay inicial */}
+      {/* Loading overlay inicial - Enhanced */}
       {loading && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-2xl p-8 max-w-md text-center">
-            <div className="animate-spin text-6xl mb-4">📚</div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">
+        <div className="fixed inset-0 bg-gradient-to-br from-coral-500/90 via-peach-500/90 to-orange-500/90 backdrop-blur-sm flex items-center justify-center z-50">
+          <div className="bg-white rounded-3xl p-12 max-w-lg text-center shadow-2xl border-4 border-white/50">
+            <div className="animate-spin text-7xl mb-6">📚</div>
+            <h3 className="text-3xl font-black text-gray-900 mb-4">
               Preparando tu primer ejercicio...
             </h3>
-            <p className="text-gray-600">
+            <p className="text-lg text-gray-600 mb-6">
               Creando contenido personalizado para tu nivel
             </p>
-            <div className="mt-4 flex justify-center">
-              <div className="flex gap-2">
-                <div className="w-3 h-3 bg-coral-600 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></div>
-                <div className="w-3 h-3 bg-coral-600 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></div>
-                <div className="w-3 h-3 bg-coral-600 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></div>
-              </div>
+            <div className="flex justify-center gap-2 mb-8">
+              <div className="w-4 h-4 bg-coral-600 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></div>
+              <div className="w-4 h-4 bg-peach-600 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></div>
+              <div className="w-4 h-4 bg-orange-600 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></div>
+            </div>
+            <div className="bg-gradient-to-r from-coral-50 to-peach-50 rounded-xl p-6">
+              <p className="text-base text-gray-700 font-medium">
+                ✨ Sistema de práctica ilimitada activado
+              </p>
+              <p className="text-sm text-gray-600 mt-2">
+                Los ejercicios se generarán automáticamente hasta que decidas terminar
+              </p>
             </div>
           </div>
         </div>
       )}
 
-      {/* Error message */}
+      {/* Error message - Enhanced */}
       {error && (
         <div className="max-w-2xl mx-auto mt-8 px-4">
-          <div className="bg-red-50 border border-red-200 rounded-xl p-6 text-center">
-            <span className="text-4xl mb-2 block">⚠️</span>
-            <h3 className="text-xl font-bold text-red-900 mb-2">Error</h3>
-            <p className="text-red-700">{error}</p>
+          <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-8 text-center shadow-xl">
+            <span className="text-5xl mb-4 block">⚠️</span>
+            <h3 className="text-2xl font-bold text-red-900 mb-3">Error</h3>
+            <p className="text-red-700 text-lg mb-6">{error}</p>
             <button
               onClick={() => setError(null)}
-              className="mt-4 px-6 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
+              className="px-8 py-3 bg-red-600 text-white rounded-xl hover:bg-red-700 transition-all font-bold shadow-lg"
             >
               Cerrar
             </button>
