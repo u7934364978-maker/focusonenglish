@@ -194,8 +194,8 @@ export default function PracticeExerciseViewer({
               {currentQuestion.question}
             </h3>
 
-            {/* Campo de respuesta para fill-blank */}
-            {(currentQuestion.type === 'fill-blank' || !currentQuestion.options) && !showFeedback && (
+            {/* Campo de respuesta para fill-blank - SOLO si NO hay opciones */}
+            {!currentQuestion.options && !showFeedback && (
               <div className="space-y-4">
                 <input
                   type="text"
