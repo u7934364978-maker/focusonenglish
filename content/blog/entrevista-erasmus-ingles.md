@@ -167,19 +167,16 @@ Cuando salió de su guion memorizado, **colapsó completamente**.
 #### El Método de las Ideas Clave (No Scripts)
 
 En lugar de memorizar:
-```
-❌ "I want to study in Germany because Germany has excellent 
-universities with strong engineering programs and German 
-engineering is world-renowned..."
-```
+
+**❌ Ejemplo malo:**
+> "I want to study in Germany because Germany has excellent universities with strong engineering programs and German engineering is world-renowned..."
 
 Memoriza **IDEAS CLAVE:**
-```
-✓ Germany → Engineering excellence
-✓ TU Berlin → Renewable energy lab (Prof. Schmidt's research)
-✓ Personal connection → Summer internship in Hamburg
-✓ Career goal → Work in EU energy policy
-```
+
+- ✅ Germany → Engineering excellence
+- ✅ TU Berlin → Renewable energy lab (Prof. Schmidt's research)
+- ✅ Personal connection → Summer internship in Hamburg
+- ✅ Career goal → Work in EU energy policy
 
 **En la entrevista, conéctalo naturalmente:**
 
@@ -233,16 +230,15 @@ Memoriza **IDEAS CLAVE:**
 **Paso 1 - Vocabulario de Entrevistas Internalizado (2 semanas antes):**
 
 NO aprendas traducciones:
-```
-❌ "Fortaleza = Strength"
-```
+
+**❌ Ejemplo malo:**
+> "Fortaleza = Strength"
 
 Aprende FRASES COMPLETAS:
-```
-✓ "One of my strengths is..."
-✓ "I'm particularly good at..."
-✓ "I excel in situations where..."
-```
+
+- ✅ "One of my strengths is..."
+- ✅ "I'm particularly good at..."
+- ✅ "I excel in situations where..."
 
 **Paso 2 - Práctica de "Thinking in English" (10 min diarios):**
 
@@ -262,13 +258,12 @@ Elige pregunta random:
 Cuando necesitas tiempo para pensar, NO te quedes en silencio.
 
 **Frases salva-vidas:**
-```
-✓ "That's a great question..."
-✓ "Let me think about that for a moment..."
-✓ "Well, I'd say..."
-✓ "You know, that's interesting because..."
-✓ "Hmm, I think..."
-```
+
+- ✅ "That's a great question..."
+- ✅ "Let me think about that for a moment..."
+- ✅ "Well, I'd say..."
+- ✅ "You know, that's interesting because..."
+- ✅ "Hmm, I think..."
 
 **Mientras dices la frase (2-3 seg), tu cerebro organiza la respuesta.**
 
@@ -331,43 +326,19 @@ María me dio **su historia**.
 Antes de la entrevista, prepara 5 historias cortas (60-90 segundos cada una):
 
 **Historia 1 - Por qué elegiste tu carrera:**
-```
-"When I was 16, my grandmother got scammed by a fake investment scheme. 
-Watching her lose her savings made me realize how important consumer 
-protection law is. That's why I chose law – not for the courtroom 
-drama, but to protect people like her."
-```
+> "When I was 16, my grandmother got scammed by a fake investment scheme. Watching her lose her savings made me realize how important consumer protection law is. That's why I chose law – not for the courtroom drama, but to protect people like her."
 
 **Historia 2 - Tu mayor aprendizaje académico:**
-```
-"In my constitutional law class, we debated free speech vs. hate speech 
-for weeks. I was convinced I was right until a classmate from [country] 
-shared how [experience]. That moment taught me that law isn't black and 
-white – context matters."
-```
+> "In my constitutional law class, we debated free speech vs. hate speech for weeks. I was convinced I was right until a classmate from [country] shared how [experience]. That moment taught me that law isn't black and white – context matters."
 
 **Historia 3 - Experiencia de trabajo/voluntariado:**
-```
-"During my internship at [org], I worked on a case about [topic]. 
-Initially I thought [assumption], but after talking with the client, 
-I realized [insight]. That experience showed me the gap between 
-textbook law and real-world application."
-```
+> "During my internship at [org], I worked on a case about [topic]. Initially I thought [assumption], but after talking with the client, I realized [insight]. That experience showed me the gap between textbook law and real-world application."
 
 **Historia 4 - Superación de un desafío:**
-```
-"In second year, I failed [subject] for the first time ever. Instead 
-of giving up, I [specific actions]. I retook it and got a 9. That 
-failure taught me more than any A I'd ever gotten."
-```
+> "In second year, I failed [subject] for the first time ever. Instead of giving up, I [specific actions]. I retook it and got a 9. That failure taught me more than any A I'd ever gotten."
 
 **Historia 5 - Por qué este programa específico:**
-```
-"I've been following Professor [name]'s research on [topic] since I 
-read [article/book]. When I saw this program, I realized it's the only 
-place in Europe where I can study [specific focus] while also [specific 
-opportunity]. That combination doesn't exist anywhere else."
-```
+> "I've been following Professor [name]'s research on [topic] since I read [article/book]. When I saw this program, I realized it's the only place in Europe where I can study [specific focus] while also [specific opportunity]. That combination doesn't exist anywhere else."
 
 **En la entrevista, weave estas historias naturalmente.**
 
@@ -429,13 +400,9 @@ Para cada punto, prepara:
 **CV dice:** "Volunteer work at animal shelter (2019)"
 
 **Preparación:**
-```
-Historia: "Started because my dog died and I needed to process grief"
-Detalle: "There was this senior dog nobody wanted – I spent 3 months 
-          socializing him until he got adopted"
-Lección: "Taught me patience and the importance of consistent effort – 
-          same skills I use in legal research"
-```
+- **Historia:** "Started because my dog died and I needed to process grief"
+- **Detalle:** "There was this senior dog nobody wanted – I spent 3 months socializing him until he got adopted"
+- **Lección:** "Taught me patience and the importance of consistent effort – same skills I use in legal research"
 
 **Small talk temas comunes:**
 - Hobbies del CV
@@ -753,11 +720,10 @@ Prepara **IDEAS CLAVE** (NO scripts completos) para 15 preguntas core:
 **NUNCA adivines y respondas cualquier cosa.**
 
 **Frases salva-vidas:**
-```
-✓ "I'm sorry, could you repeat that?"
-✓ "Just to make sure I understand – you're asking about [paraphrase]?"
-✓ "Could you rephrase that question?"
-```
+
+- ✅ "I'm sorry, could you repeat that?"
+- ✅ "Just to make sure I understand – you're asking about [paraphrase]?"
+- ✅ "Could you rephrase that question?"
 
 **Es 100% aceptable pedir clarificación 1-2 veces.**
 
