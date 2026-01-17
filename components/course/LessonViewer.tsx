@@ -5,7 +5,8 @@ import EnhancedVoiceRecorder from '@/components/course/EnhancedVoiceRecorder';
 import SmartPronunciationEvaluator from '@/components/course/SmartPronunciationEvaluator';
 import PronunciationPractice from '@/components/course/PronunciationPractice';
 import EnhancedFeedback from '@/components/course/EnhancedFeedback';
-import { Lesson, Exercise, Question } from '@/lib/course-data-b2';
+import SentenceBuilder from '@/components/course/SentenceBuilder';
+import { Lesson, Exercise, Question, SentenceBuildingExercise } from '@/lib/course-data-b2';
 import { TextAnswerEvaluationResponse } from '@/app/api/evaluate-text-answer/route';
 import { WritingEvaluationResponse } from '@/app/api/evaluate-writing/route';
 import { MultipleChoiceEvaluationResponse } from '@/app/api/evaluate-multiple-choice/route';
@@ -1190,6 +1191,55 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 </button>
               )}
             </div>
+          </div>
+        );
+
+      case 'sentence-building':
+        const sbExercise = currentExercise as SentenceBuildingExercise;
+        return (
+          <div className="space-y-6">
+            {/* Exercise Description */}
+            <div className="bg-violet-50 rounded-xl p-6 border-2 border-violet-200">
+              <h3 className="text-xl font-bold text-violet-900 mb-2 flex items-center gap-2">
+                <span>🏗️</span>
+                <span>{sbExercise.title}</span>
+              </h3>
+              <p className="text-slate-700 mb-3">{sbExercise.description}</p>
+              <div className="bg-violet-100 rounded-lg p-3 border border-violet-300">
+                <p className="text-sm text-violet-900 font-semibold">📝 Instructions:</p>
+                <p className="text-sm text-violet-800">{sbExercise.instructions}</p>
+              </div>
+            </div>
+
+            {/* Challenges */}
+            {sbExercise.challenges.map((challenge, idx) => (
+              <div key={challenge.id}>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="px-3 py-1 bg-violet-600 text-white rounded-full font-bold">
+                    {idx + 1} / {sbExercise.challenges.length}
+                  </span>
+                  <span className="text-sm text-slate-600">
+                    Difficulty: <span className="font-semibold capitalize">{challenge.difficulty}</span>
+                  </span>
+                </div>
+
+                <SentenceBuilder
+                  challenge={challenge}
+                  showHints={sbExercise.showHints}
+                  showTranslations={sbExercise.showTranslations}
+                  onComplete={(isCorrect, userSentence, score) => {
+                    // Update scores
+                    const currentScores = exerciseScores[sbExercise.id] || 0;
+                    const newScore = ((currentScores * idx) + score) / (idx + 1);
+                    setExerciseScores(prev => ({ ...prev, [sbExercise.id]: newScore }));
+                  }}
+                />
+
+                {idx < sbExercise.challenges.length - 1 && (
+                  <hr className="my-8 border-slate-300" />
+                )}
+              </div>
+            ))}
           </div>
         );
 

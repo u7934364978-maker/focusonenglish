@@ -12,7 +12,8 @@ export type ExerciseType =
   | 'pronunciation-practice' // NUEVO: Pronunciación con evaluación real
   | 'key-word-transformation'
   | 'word-formation'
-  | 'multiple-choice-cloze';
+  | 'multiple-choice-cloze'
+  | 'sentence-building'; // NUEVO: Constructor de frases interactivo
 
 export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 
@@ -172,6 +173,53 @@ export interface MultipleChoiceClozeExercise {
   questions: ClozeQuestion[];
 }
 
+// NUEVO: Sentence Building Exercise - Constructor de Frases Interactivo
+export type WordType = 
+  | 'subject' // Sujeto (I, you, he, she, it, we, they, John, etc.)
+  | 'verb' // Verbo principal
+  | 'object' // Objeto directo
+  | 'adjective' // Adjetivo
+  | 'adverb' // Adverbio
+  | 'preposition' // Preposición
+  | 'article' // Artículo (a, an, the)
+  | 'auxiliary' // Verbo auxiliar (do, does, did, have, has, will, etc.)
+  | 'conjunction' // Conjunción (and, but, or, because, etc.)
+  | 'complement' // Complemento (at home, yesterday, very much, etc.)
+  | 'pronoun' // Pronombre
+  | 'determiner'; // Determinante (this, that, some, many, etc.)
+
+export interface Word {
+  id: string;
+  text: string;
+  type: WordType;
+  hint?: string; // Ayuda contextual
+  translation?: string; // Traducción en español
+}
+
+export interface SentenceBuildingChallenge {
+  id: string;
+  prompt: string; // "Forma una pregunta: '¿Dónde vives?'"
+  targetSentence: string; // Respuesta correcta: "Where do you live?"
+  words: Word[]; // Palabras desordenadas
+  difficulty: 'easy' | 'medium' | 'hard';
+  grammarFocus: string; // "Present Simple - Questions"
+  tips: string[]; // Consejos para formar la frase
+  points: number;
+  acceptableVariations?: string[]; // Variaciones aceptadas
+}
+
+export interface SentenceBuildingExercise {
+  id: string;
+  type: 'sentence-building';
+  title: string;
+  description: string;
+  instructions: string;
+  challenges: SentenceBuildingChallenge[];
+  showHints: boolean; // Mostrar colores por tipo de palabra
+  showTranslations: boolean; // Mostrar traducciones
+  timeLimit?: number; // Tiempo límite opcional en segundos
+}
+
 export type Exercise = 
   | VoiceRecordingExercise
   | ListeningExercise
@@ -182,7 +230,8 @@ export type Exercise =
   | KeyWordTransformationExercise
   | WordFormationExercise
   | MultipleChoiceClozeExercise
-  | PronunciationPracticeExercise; // NUEVO
+  | PronunciationPracticeExercise
+  | SentenceBuildingExercise; // NUEVO
 
 export interface Lesson {
   id: string;
