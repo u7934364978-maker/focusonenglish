@@ -88,10 +88,30 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error('Error generating exercise:', error);
     
+    // Mensaje de error más específico
+    let errorMessage = 'Failed to generate exercise. ';
+    let errorDetails = '';
+    
+    if (error instanceof Error) {
+      errorDetails = error.message;
+      
+      // Detectar errores comunes
+      if (errorDetails.includes('API key')) {
+        errorMessage += 'OpenAI API key is not configured or invalid.';
+      } else if (errorDetails.includes('rate limit')) {
+        errorMessage += 'Rate limit exceeded. Please try again in a moment.';
+      } else if (errorDetails.includes('timeout')) {
+        errorMessage += 'Request timed out. Please try again.';
+      } else {
+        errorMessage += 'Please try again.';
+      }
+    }
+    
     return NextResponse.json(
       { 
-        error: 'Failed to generate exercise',
-        details: error instanceof Error ? error.message : 'Unknown error'
+        error: errorMessage,
+        details: errorDetails,
+        success: false
       },
       { status: 500 }
     );
