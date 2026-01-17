@@ -77,7 +77,7 @@ export default function DiagnosticoPage() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-sky-50 to-cyan-50 rounded-2xl p-6 border border-sky-200">
+              <div className="bg-gradient-to-br from-orange-50 to-peach-50 rounded-2xl p-6 border border-orange-200">
                 <div className="w-12 h-12 rounded-xl bg-coral-600 flex items-center justify-center text-white text-2xl mb-4">
                   ⚡
                 </div>
@@ -89,8 +89,8 @@ export default function DiagnosticoPage() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl p-6 border border-emerald-200">
-                <div className="w-12 h-12 rounded-xl bg-emerald-600 flex items-center justify-center text-white text-2xl mb-4">
+              <div className="bg-gradient-to-br from-amber-50 to-amber-50 rounded-2xl p-6 border border-amber-200">
+                <div className="w-12 h-12 rounded-xl bg-amber-600 flex items-center justify-center text-white text-2xl mb-4">
                   📈
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">
@@ -174,7 +174,7 @@ export default function DiagnosticoPage() {
 
               <div className="bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-coral-400 transition-all">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center text-white font-black">
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-amber-500 to-amber-500 flex items-center justify-center text-white font-black">
                     B2
                   </div>
                   <div>
@@ -189,7 +189,7 @@ export default function DiagnosticoPage() {
 
               <div className="bg-white rounded-xl p-6 border-2 border-slate-200 hover:border-coral-400 transition-all">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-sky-500 to-melon-500 flex items-center justify-center text-white font-black">
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-orange-500 to-melon-500 flex items-center justify-center text-white font-black">
                     C1
                   </div>
                   <div>

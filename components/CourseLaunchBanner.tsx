@@ -76,9 +76,9 @@ export function CourseLaunchBanner() {
           {/* Form Section */}
           <div className="w-full lg:w-auto lg:min-w-[400px]">
             {status === 'success' ? (
-              <div className="bg-green-50 border-2 border-green-200 rounded-xl p-6 text-center">
+              <div className="bg-amber-50 border-2 border-amber-200 rounded-xl p-6 text-center">
                 <div className="text-4xl mb-2">✅</div>
-                <p className="text-green-800 font-bold text-lg">
+                <p className="text-amber-800 font-bold text-lg">
                   {message}
                 </p>
               </div>

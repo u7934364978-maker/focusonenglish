@@ -116,8 +116,8 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
                 className={`
                   p-4 rounded-xl border-2 transition-all flex flex-col items-center gap-2
                   ${selectedCategory === cat.id 
-                    ? 'border-coral-600 bg-sky-50 shadow-md' 
-                    : 'border-gray-200 hover:border-sky-300 hover:bg-gray-50'}
+                    ? 'border-coral-600 bg-orange-50 shadow-md' 
+                    : 'border-gray-200 hover:border-orange-300 hover:bg-gray-50'}
                 `}
               >
                 <span className="text-3xl">{cat.icon}</span>
@@ -138,8 +138,8 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
                 className={`
                   p-5 rounded-xl border-2 transition-all text-left
                   ${selectedType === type.id 
-                    ? 'border-coral-600 bg-sky-50 shadow-md' 
-                    : 'border-gray-200 hover:border-sky-300 hover:bg-gray-50'}
+                    ? 'border-coral-600 bg-orange-50 shadow-md' 
+                    : 'border-gray-200 hover:border-orange-300 hover:bg-gray-50'}
                 `}
               >
                 <div className="flex items-start gap-3 mb-2">
@@ -172,7 +172,7 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
                 <select
                   value={selectedTopic}
                   onChange={(e) => setSelectedTopic(e.target.value)}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
                 >
                   <option value="">General topic</option>
                   {selectedTypeConfig.category === 'grammar' && B2_GRAMMAR_TOPICS.map(topic => (
@@ -198,8 +198,8 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
                     className={`
                       p-3 rounded-lg border-2 font-medium transition-all
                       ${difficulty === level 
-                        ? 'border-coral-600 bg-sky-50 text-coral-700' 
-                        : 'border-gray-300 hover:border-sky-300 text-gray-700'}
+                        ? 'border-coral-600 bg-orange-50 text-coral-700' 
+                        : 'border-gray-300 hover:border-orange-300 text-gray-700'}
                     `}
                   >
                     {level === 'easy' && '😊 Easy'}
@@ -214,7 +214,7 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
             </div>
 
             {/* Info de práctica infinita */}
-            <div className="bg-gradient-to-r from-peach-50 to-sky-50 p-4 rounded-lg border-2 border-peach-200">
+            <div className="bg-gradient-to-r from-peach-50 to-orange-50 p-4 rounded-lg border-2 border-peach-200">
               <div className="flex items-start gap-3">
                 <span className="text-2xl">∞</span>
                 <div>
@@ -254,7 +254,7 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
         </div>
 
         {/* Info adicional */}
-        <div className="mt-8 p-4 bg-sky-50 rounded-lg border border-sky-200">
+        <div className="mt-8 p-4 bg-orange-50 rounded-lg border border-orange-200">
           <h3 className="font-bold text-coral-900 mb-2">💡 How does it work?</h3>
           <ul className="text-sm text-coral-800 space-y-1">
             <li>✓ Exercises generated instantly</li>

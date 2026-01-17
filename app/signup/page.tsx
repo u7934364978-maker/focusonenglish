@@ -241,7 +241,7 @@ export default function SignupPage() {
                     <div
                       className={`p-4 rounded-lg ${
                         submitStatus.type === "success"
-                          ? "bg-green-100 border border-green-300 text-green-800"
+                          ? "bg-amber-100 border border-amber-300 text-amber-800"
                           : "bg-red-100 border border-red-300 text-red-800"
                       }`}
                     >

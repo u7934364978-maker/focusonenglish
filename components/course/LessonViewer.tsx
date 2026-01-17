@@ -246,7 +246,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         return (
           <div className="space-y-6">
             {/* Explanation */}
-            <div className="bg-sky-50 rounded-xl p-6 border-2 border-sky-200">
+            <div className="bg-orange-50 rounded-xl p-6 border-2 border-orange-200">
               <h3 className="text-xl font-bold text-coral-900 mb-3 flex items-center gap-2">
                 <span>📚</span>
                 <span>{currentExercise.title}</span>
@@ -266,7 +266,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     <ul className="space-y-1">
                       {currentExercise.examples.map((example, idx) => (
                         <li key={idx} className="text-slate-700 flex items-start gap-2">
-                          <span className="text-sky-500">•</span>
+                          <span className="text-orange-500">•</span>
                           <span className="italic">{example}</span>
                         </li>
                       ))}
@@ -309,7 +309,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       value={answers[question.id] || ''}
                       onChange={(e) => handleAnswer(question.id, e.target.value)}
                       placeholder="Your answer..."
-                      className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-sky-500 focus:outline-none"
+                      className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-orange-500 focus:outline-none"
                     />
                   )}
 
@@ -319,7 +319,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       onChange={(e) => handleAnswer(question.id, e.target.value)}
                       placeholder="Your answer..."
                       rows={3}
-                      className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-sky-500 focus:outline-none"
+                      className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-orange-500 focus:outline-none"
                     />
                   )}
 
@@ -361,7 +361,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                   {showFeedback && !aiEvaluations[question.id] && (
                     <div className={`mt-3 p-3 rounded-lg ${
                       answers[question.id]?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : question.correctAnswer).toLowerCase().trim()
-                        ? 'bg-green-50 border-2 border-green-200'
+                        ? 'bg-amber-50 border-2 border-amber-200'
                         : 'bg-red-50 border-2 border-red-200'
                     }`}>
                       <p className="font-semibold mb-1">
@@ -471,7 +471,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       onChange={(e) => handleAnswer(question.id, e.target.value)}
                       placeholder="Your answer..."
                       rows={3}
-                      className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-sky-500 focus:outline-none"
+                      className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-orange-500 focus:outline-none"
                     />
                   )}
 
@@ -504,7 +504,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     <div className={`mt-3 p-3 rounded-lg ${
                       answers[question.id]?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : question.correctAnswer).toLowerCase().trim() ||
                       (Array.isArray(question.correctAnswer) && question.correctAnswer.some(ca => answers[question.id]?.toLowerCase().includes(ca.toLowerCase())))
-                        ? 'bg-green-50 border-2 border-green-200'
+                        ? 'bg-amber-50 border-2 border-amber-200'
                         : 'bg-red-50 border-2 border-red-200'
                     }`}>
                       <p className="font-semibold mb-1">
@@ -583,15 +583,15 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 onEvaluationComplete={handlePronunciationEvaluationComplete}
               />
             ) : pronunciationFeedback ? (
-              <div className="bg-white rounded-xl border-2 border-green-200 p-6">
-                <p className="text-green-800 font-semibold mb-2">✓ Exercise Completed!</p>
+              <div className="bg-white rounded-xl border-2 border-amber-200 p-6">
+                <p className="text-amber-800 font-semibold mb-2">✓ Exercise Completed!</p>
                 <p className="text-slate-700">Your pronunciation has been evaluated. Click "Next Exercise" to continue.</p>
               </div>
             ) : (
               <div className="space-y-4">
                 {/* Speaking Exercise Completed */}
-                <div className="bg-white rounded-xl border-2 border-green-200 p-6">
-                  <h3 className="text-xl font-bold text-green-800 mb-3 flex items-center gap-2">
+                <div className="bg-white rounded-xl border-2 border-amber-200 p-6">
+                  <h3 className="text-xl font-bold text-amber-800 mb-3 flex items-center gap-2">
                     <span>✓</span>
                     <span>Recording Submitted Successfully!</span>
                   </h3>
@@ -601,7 +601,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                   
                   {/* Transcript */}
                   {recordedAudio.transcript && (
-                    <div className="bg-sky-50 rounded-lg p-4 border border-sky-200 mb-4">
+                    <div className="bg-orange-50 rounded-lg p-4 border border-orange-200 mb-4">
                       <h4 className="font-semibold text-coral-900 mb-2 flex items-center gap-2">
                         <span>📝</span>
                         <span>Your Transcript:</span>
@@ -618,7 +618,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     <h4 className="font-semibold text-peach-900 mb-2">Quick Feedback:</h4>
                     <ul className="space-y-2">
                       {recordedAudio.transcript && recordedAudio.transcript.split(' ').length >= 50 && (
-                        <li className="flex items-start gap-2 text-green-700">
+                        <li className="flex items-start gap-2 text-amber-700">
                           <span className="mt-0.5">✓</span>
                           <span>Good length - you spoke enough to express your ideas</span>
                         </li>
@@ -707,7 +707,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       onChange={(e) => handleAnswer(question.id, e.target.value)}
                       placeholder="Your answer..."
                       rows={3}
-                      className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-sky-500 focus:outline-none"
+                      className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-orange-500 focus:outline-none"
                     />
                   )}
 
@@ -740,7 +740,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     <div className={`mt-3 p-3 rounded-lg ${
                       answers[question.id]?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : question.correctAnswer).toLowerCase().trim() ||
                       (Array.isArray(question.correctAnswer) && question.correctAnswer.some(ca => answers[question.id]?.toLowerCase().includes(ca.toLowerCase())))
-                        ? 'bg-green-50 border-2 border-green-200'
+                        ? 'bg-amber-50 border-2 border-amber-200'
                         : 'bg-red-50 border-2 border-red-200'
                     }`}>
                       <p className="font-semibold mb-1">
@@ -807,7 +807,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             </div>
 
             {currentExercise.tips && currentExercise.tips.length > 0 && (
-              <div className="bg-sky-50 rounded-lg p-4 border border-sky-200">
+              <div className="bg-orange-50 rounded-lg p-4 border border-orange-200">
                 <h4 className="font-bold text-coral-900 mb-2 flex items-center gap-2">
                   <span>💡</span>
                   <span>Writing Tips:</span>
@@ -815,7 +815,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 <ul className="space-y-1">
                   {currentExercise.tips.map((tip, idx) => (
                     <li key={idx} className="text-sm text-coral-800 flex items-start gap-2">
-                      <span className="text-sky-500 mt-0.5">•</span>
+                      <span className="text-orange-500 mt-0.5">•</span>
                       <span>{tip}</span>
                     </li>
                   ))}
@@ -830,7 +830,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 onChange={(e) => handleAnswer(currentExercise.id, e.target.value)}
                 placeholder="Start writing here..."
                 rows={15}
-                className="w-full px-4 py-3 rounded-lg border-2 border-slate-300 focus:border-sky-500 focus:outline-none font-mono text-sm"
+                className="w-full px-4 py-3 rounded-lg border-2 border-slate-300 focus:border-orange-500 focus:outline-none font-mono text-sm"
               />
               <div className="flex justify-between items-center mt-2 text-sm text-slate-600">
                 <span>
@@ -885,7 +885,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 setEvaluating(false);
               }}
               disabled={evaluating}
-              className="w-full px-6 py-4 bg-green-600 text-white rounded-xl hover:bg-green-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full px-6 py-4 bg-amber-600 text-white rounded-xl hover:bg-amber-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {evaluating ? (
                 <>
@@ -905,8 +905,8 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               />
             )}
             {showFeedback && !aiEvaluations[currentExercise.id] && (
-              <div className="bg-green-50 rounded-xl p-6 border-2 border-green-200">
-                <p className="text-green-800 font-semibold mb-2">✓ Writing Submitted!</p>
+              <div className="bg-amber-50 rounded-xl p-6 border-2 border-amber-200">
+                <p className="text-amber-800 font-semibold mb-2">✓ Writing Submitted!</p>
                 <p className="text-slate-700">Your writing has been evaluated. Check the score above.</p>
               </div>
             )}
@@ -934,7 +934,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 <div key={transformation.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
                   <div className="space-y-3">
                     {/* Original Sentence */}
-                    <div className="bg-sky-50 p-3 rounded-lg">
+                    <div className="bg-orange-50 p-3 rounded-lg">
                       <p className="text-sm text-coral-700 font-semibold mb-1">Original:</p>
                       <p className="text-slate-900">{transformation.sentence}</p>
                     </div>
@@ -967,7 +967,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     {showFeedback && (
                       <div className={`p-3 rounded-lg ${
                         answers[transformation.id]?.toLowerCase().trim() === transformation.correctAnswer.toLowerCase().trim()
-                          ? 'bg-green-50 border-2 border-green-200'
+                          ? 'bg-amber-50 border-2 border-amber-200'
                           : 'bg-red-50 border-2 border-red-200'
                       }`}>
                         <p className="font-semibold mb-1">
@@ -976,7 +976,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                             : '✗ Incorrect'}
                         </p>
                         <p className="text-sm mb-2">
-                          <span className="font-semibold">Correct answer:</span> {transformation.startOfAnswer} <span className="text-green-700 font-bold">{transformation.correctAnswer}</span>
+                          <span className="font-semibold">Correct answer:</span> {transformation.startOfAnswer} <span className="text-amber-700 font-bold">{transformation.correctAnswer}</span>
                         </p>
                         {transformation.explanation && (
                           <p className="text-sm text-slate-700">
@@ -1030,7 +1030,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
                     {/* Hint */}
                     {question.hint && (
-                      <div className="bg-sky-50 p-3 rounded-lg border border-sky-200">
+                      <div className="bg-orange-50 p-3 rounded-lg border border-orange-200">
                         <p className="text-sm text-coral-800">
                           <span className="font-semibold">💡 Hint:</span> {question.hint}
                         </p>
@@ -1084,7 +1084,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                         (question.acceptableAnswers && question.acceptableAnswers.some((ans: string) => 
                           answers[question.id]?.toLowerCase().trim() === ans.toLowerCase().trim()
                         ))
-                          ? 'bg-green-50 border-2 border-green-200'
+                          ? 'bg-amber-50 border-2 border-amber-200'
                           : 'bg-red-50 border-2 border-red-200'
                       }`}>
                         <p className="font-semibold mb-1">
@@ -1097,7 +1097,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                         </p>
                         <p className="text-sm mb-2">
                           <span className="font-semibold">Correct answer:</span>{' '}
-                          <span className="text-green-700 font-bold">{question.correctAnswer}</span>
+                          <span className="text-amber-700 font-bold">{question.correctAnswer}</span>
                           {question.acceptableAnswers && question.acceptableAnswers.length > 1 && (
                             <span className="text-slate-600 text-xs ml-2">
                               (Also accepted: {question.acceptableAnswers.filter((a: string) => a !== question.correctAnswer).join(', ')})
@@ -1147,8 +1147,8 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           <div className="grid lg:grid-cols-2 gap-6">
             {/* Text - Sticky on large screens */}
             <div className="lg:sticky lg:top-4 lg:self-start">
-              <div className="bg-teal-50 rounded-xl p-6 border-2 border-teal-200 mb-4">
-                <h3 className="text-xl font-bold text-teal-900 mb-3 flex items-center gap-2">
+              <div className="bg-amber-50 rounded-xl p-6 border-2 border-amber-200 mb-4">
+                <h3 className="text-xl font-bold text-amber-900 mb-3 flex items-center gap-2">
                   <span>📋</span>
                   <span>{currentExercise.title}</span>
                 </h3>
@@ -1191,7 +1191,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                   {showFeedback && (
                     <div className={`mt-3 p-3 rounded-lg ${
                       answers[question.id] === question.correctAnswer
-                        ? 'bg-green-50 border-2 border-green-200'
+                        ? 'bg-amber-50 border-2 border-amber-200'
                         : 'bg-red-50 border-2 border-red-200'
                     }`}>
                       <p className="font-semibold mb-1">
@@ -1201,7 +1201,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       </p>
                       <p className="text-sm mb-2">
                         <span className="font-semibold">Correct answer:</span>{' '}
-                        <span className="text-green-700 font-bold">{question.correctAnswer}</span>
+                        <span className="text-amber-700 font-bold">{question.correctAnswer}</span>
                       </p>
                       {question.explanation && (
                         <p className="text-sm text-slate-700">
@@ -1215,11 +1215,11 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
               {/* Focus Areas */}
               {currentExercise.focusAreas && currentExercise.focusAreas.length > 0 && (
-                <div className="bg-teal-50 rounded-xl p-4 border-2 border-teal-200">
-                  <p className="font-semibold text-teal-900 mb-2">📌 Focus Areas:</p>
+                <div className="bg-amber-50 rounded-xl p-4 border-2 border-amber-200">
+                  <p className="font-semibold text-amber-900 mb-2">📌 Focus Areas:</p>
                   <div className="flex flex-wrap gap-2">
                     {currentExercise.focusAreas.map((area: string, idx: number) => (
-                      <span key={idx} className="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-sm">
+                      <span key={idx} className="px-3 py-1 bg-amber-100 text-amber-700 rounded-full text-sm">
                         {area}
                       </span>
                     ))}
@@ -1302,7 +1302,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-sky-50 py-8">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-orange-50 py-8">
       <div className="max-w-5xl mx-auto px-4">
         {/* Header */}
         <div className="bg-white rounded-xl shadow-lg p-6 mb-6 border-2 border-slate-200">
@@ -1327,7 +1327,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             </div>
             <div className="w-full bg-slate-200 rounded-full h-3">
               <div
-                className="bg-gradient-to-r from-sky-500 to-peach-500 h-3 rounded-full transition-all duration-300"
+                className="bg-gradient-to-r from-orange-500 to-peach-500 h-3 rounded-full transition-all duration-300"
                 style={{ width: `${progress}%` }}
               />
             </div>
@@ -1341,7 +1341,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             <ul className="mt-2 space-y-1">
               {lesson.objectives.map((objective, idx) => (
                 <li key={idx} className="text-sm text-slate-700 flex items-start gap-2">
-                  <span className="text-sky-500 mt-0.5">✓</span>
+                  <span className="text-orange-500 mt-0.5">✓</span>
                   <span>{objective}</span>
                 </li>
               ))}
@@ -1355,7 +1355,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             <h2 className="text-2xl font-bold text-slate-900">
               Exercise {currentExerciseIndex + 1}: {currentExercise.type.charAt(0).toUpperCase() + currentExercise.type.slice(1)}
             </h2>
-            <span className="px-3 py-1 bg-sky-100 text-coral-700 rounded-full text-sm font-semibold">
+            <span className="px-3 py-1 bg-orange-100 text-coral-700 rounded-full text-sm font-semibold">
               {currentExercise.type}
             </span>
           </div>

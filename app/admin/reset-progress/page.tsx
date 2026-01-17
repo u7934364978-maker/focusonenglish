@@ -103,7 +103,7 @@ export default function AdminResetPage() {
                 value={userId}
                 onChange={(e) => setUserId(e.target.value)}
                 placeholder="UUID del usuario"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
               />
               <p className="text-xs text-gray-500 mt-1">
                 Ejemplo: 123e4567-e89b-12d3-a456-426614174000
@@ -118,7 +118,7 @@ export default function AdminResetPage() {
               <select
                 value={resetType}
                 onChange={(e) => setResetType(e.target.value as any)}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
               >
                 <option value="full">Full - Todo el progreso</option>
                 <option value="progress-only">Progress Only - Solo lecciones y ejercicios</option>
@@ -136,7 +136,7 @@ export default function AdminResetPage() {
                 value={adminSecret}
                 onChange={(e) => setAdminSecret(e.target.value)}
                 placeholder="Clave de administrador"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
               />
             </div>
 
@@ -170,16 +170,16 @@ export default function AdminResetPage() {
 
           {/* Resultado */}
           {result && (
-            <div className="mt-6 p-4 bg-green-50 border border-green-200 rounded-lg">
-              <h3 className="font-bold text-green-900 mb-2">✅ Resultado</h3>
-              <pre className="text-xs text-green-800 overflow-x-auto bg-white p-3 rounded border border-green-200">
+            <div className="mt-6 p-4 bg-amber-50 border border-amber-200 rounded-lg">
+              <h3 className="font-bold text-amber-900 mb-2">✅ Resultado</h3>
+              <pre className="text-xs text-amber-800 overflow-x-auto bg-white p-3 rounded border border-amber-200">
                 {JSON.stringify(result, null, 2)}
               </pre>
             </div>
           )}
 
           {/* Información */}
-          <div className="mt-8 p-4 bg-sky-50 border border-sky-200 rounded-lg">
+          <div className="mt-8 p-4 bg-orange-50 border border-orange-200 rounded-lg">
             <h3 className="font-bold text-coral-900 mb-2">ℹ️ Información</h3>
             <ul className="text-sm text-coral-800 space-y-1">
               <li><strong>Full:</strong> Resetea todo (lecciones, ejercicios, sesiones, estadísticas)</li>

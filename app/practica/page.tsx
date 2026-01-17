@@ -158,7 +158,7 @@ export default function PracticePage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sky-50 via-white to-peach-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-peach-50">
       {/* Loading overlay inicial */}
       {loading && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">

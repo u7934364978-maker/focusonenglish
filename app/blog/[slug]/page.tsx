@@ -104,14 +104,14 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
     .replace(/^# (.*$)/gim, '<h1 class="font-display text-4xl font-black text-slate-900 mt-8 mb-6">$1</h1>')
     .replace(/^\*\*(.*)\*\*/gim, '<strong class="font-semibold text-slate-900">$1</strong>')
     .replace(/^- (.*$)/gim, '<li class="ml-6 text-slate-700">$1</li>')
-    .replace(/^✅ (.*$)/gim, '<div class="flex items-start gap-2 mb-2"><span class="text-green-600 mt-1">✅</span><span class="text-slate-700">$1</span></div>')
+    .replace(/^✅ (.*$)/gim, '<div class="flex items-start gap-2 mb-2"><span class="text-amber-600 mt-1">✅</span><span class="text-slate-700">$1</span></div>')
     .replace(/^❌ (.*$)/gim, '<div class="flex items-start gap-2 mb-2"><span class="text-red-600 mt-1">❌</span><span class="text-slate-700">$1</span></div>')
     .replace(/\n\n/g, '</p><p class="text-slate-700 leading-relaxed mb-4">');
 
   const categoryColors: Record<string, string> = {
     trabajo: "bg-coral-100 text-coral-800 border-coral-200",
-    viajes: "bg-sky-100 text-coral-800 border-sky-200",
-    examenes: "bg-emerald-100 text-emerald-800 border-emerald-200",
+    viajes: "bg-orange-100 text-coral-800 border-orange-200",
+    examenes: "bg-amber-100 text-amber-800 border-amber-200",
     aprendizaje: "bg-amber-100 text-amber-800 border-amber-200",
     metodos: "bg-pink-100 text-pink-800 border-pink-200",
   };
@@ -325,20 +325,20 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
 
               <Link 
                 href="/cursos-especializados" 
-                className="group block bg-white rounded-2xl shadow-md border-2 border-slate-200 p-8 hover:shadow-2xl hover:border-emerald-300 transition-all duration-300 hover:-translate-y-2"
+                className="group block bg-white rounded-2xl shadow-md border-2 border-slate-200 p-8 hover:shadow-2xl hover:border-amber-300 transition-all duration-300 hover:-translate-y-2"
               >
-                <div className="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-emerald-600 transition-colors">
-                  <svg className="w-6 h-6 text-emerald-600 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-amber-600 transition-colors">
+                  <svg className="w-6 h-6 text-amber-600 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                   </svg>
                 </div>
-                <h3 className="font-bold text-xl text-slate-900 mb-2 group-hover:text-emerald-600 transition-colors">
+                <h3 className="font-bold text-xl text-slate-900 mb-2 group-hover:text-amber-600 transition-colors">
                   Cursos especializados
                 </h3>
                 <p className="text-slate-600 mb-4">
                   Programas diseñados para tus objetivos específicos con profesores nativos
                 </p>
-                <span className="inline-flex items-center gap-2 text-emerald-600 font-semibold group-hover:gap-3 transition-all">
+                <span className="inline-flex items-center gap-2 text-amber-600 font-semibold group-hover:gap-3 transition-all">
                   <span>Ver cursos</span>
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -348,9 +348,9 @@ export default async function BlogArticle({ params }: { params: Promise<{ slug: 
 
               <Link 
                 href="/diagnostico" 
-                className="group block bg-white rounded-2xl shadow-md border-2 border-slate-200 p-8 hover:shadow-2xl hover:border-sky-300 transition-all duration-300 hover:-translate-y-2"
+                className="group block bg-white rounded-2xl shadow-md border-2 border-slate-200 p-8 hover:shadow-2xl hover:border-orange-300 transition-all duration-300 hover:-translate-y-2"
               >
-                <div className="w-12 h-12 bg-sky-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-coral-600 transition-colors">
+                <div className="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-coral-600 transition-colors">
                   <svg className="w-6 h-6 text-coral-600 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                   </svg>

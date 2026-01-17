@@ -11,7 +11,7 @@ export default function B2ExamPrepCoursePage() {
   const modules = ALL_MODULES;
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-sky-50">
+    <main className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-orange-50">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-amber-600 to-orange-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -60,7 +60,7 @@ export default function B2ExamPrepCoursePage() {
             Course Features
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl p-6 border-2 border-sky-200 shadow-lg">
+            <div className="bg-white rounded-xl p-6 border-2 border-orange-200 shadow-lg">
               <div className="text-5xl mb-4">🎤</div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">Voice Recording</h3>
               <p className="text-slate-600">
@@ -74,7 +74,7 @@ export default function B2ExamPrepCoursePage() {
                 Get instant feedback on your pronunciation with detailed word-by-word analysis and improvement suggestions.
               </p>
             </div>
-            <div className="bg-white rounded-xl p-6 border-2 border-green-200 shadow-lg">
+            <div className="bg-white rounded-xl p-6 border-2 border-amber-200 shadow-lg">
               <div className="text-5xl mb-4">🎧</div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">Listening Exercises</h3>
               <p className="text-slate-600">
@@ -138,7 +138,7 @@ export default function B2ExamPrepCoursePage() {
 
                 {/* Module Content Preview */}
                 <div className="grid md:grid-cols-3 gap-6 mb-8">
-                  <div className="bg-sky-50 rounded-xl p-4 border border-sky-200">
+                  <div className="bg-orange-50 rounded-xl p-4 border border-orange-200">
                     <h4 className="text-sm font-bold text-coral-900 mb-2 flex items-center gap-2">
                       <span>📖</span>
                       <span>Topics</span>
@@ -146,7 +146,7 @@ export default function B2ExamPrepCoursePage() {
                     <ul className="space-y-1">
                       {module.topics.slice(0, 3).map((topic, idx) => (
                         <li key={idx} className="text-xs text-coral-800 flex items-start gap-1">
-                          <span className="text-sky-500 mt-0.5">•</span>
+                          <span className="text-orange-500 mt-0.5">•</span>
                           <span>{topic}</span>
                         </li>
                       ))}
@@ -156,20 +156,20 @@ export default function B2ExamPrepCoursePage() {
                     </ul>
                   </div>
 
-                  <div className="bg-green-50 rounded-xl p-4 border border-green-200">
-                    <h4 className="text-sm font-bold text-green-900 mb-2 flex items-center gap-2">
+                  <div className="bg-amber-50 rounded-xl p-4 border border-amber-200">
+                    <h4 className="text-sm font-bold text-amber-900 mb-2 flex items-center gap-2">
                       <span>📝</span>
                       <span>Grammar</span>
                     </h4>
                     <ul className="space-y-1">
                       {module.grammar.slice(0, 3).map((grammar, idx) => (
-                        <li key={idx} className="text-xs text-green-800 flex items-start gap-1">
-                          <span className="text-green-500 mt-0.5">•</span>
+                        <li key={idx} className="text-xs text-amber-800 flex items-start gap-1">
+                          <span className="text-amber-500 mt-0.5">•</span>
                           <span>{grammar}</span>
                         </li>
                       ))}
                       {module.grammar.length > 3 && (
-                        <li className="text-xs text-green-600 font-semibold">+ {module.grammar.length - 3} more</li>
+                        <li className="text-xs text-amber-600 font-semibold">+ {module.grammar.length - 3} more</li>
                       )}
                     </ul>
                   </div>
@@ -199,11 +199,11 @@ export default function B2ExamPrepCoursePage() {
                     <Link
                       key={lesson.id}
                       href={`/curso-b2/leccion/${lesson.id}`}
-                      className="block bg-white rounded-xl p-5 border border-slate-200 hover:border-sky-400 hover:shadow-lg transition-all group"
+                      className="block bg-white rounded-xl p-5 border border-slate-200 hover:border-orange-400 hover:shadow-lg transition-all group"
                     >
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-3 flex-1">
-                          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-sky-500 to-peach-500 text-white flex items-center justify-center font-bold text-sm">
+                          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-peach-500 text-white flex items-center justify-center font-bold text-sm">
                             {lessonIdx + 1}
                           </div>
                           <div className="flex-1">
@@ -306,7 +306,7 @@ export default function B2ExamPrepCoursePage() {
             <div className="flex flex-wrap justify-center gap-4">
               <Link
                 href="/curso-b2/leccion/b2-m1-l1"
-                className="px-8 py-4 bg-white text-coral-600 rounded-xl font-bold text-lg hover:bg-sky-50 transition-all shadow-2xl"
+                className="px-8 py-4 bg-white text-coral-600 rounded-xl font-bold text-lg hover:bg-orange-50 transition-all shadow-2xl"
               >
                 Start First Lesson
               </Link>

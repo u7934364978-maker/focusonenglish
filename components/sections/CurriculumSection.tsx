@@ -15,11 +15,11 @@ export default function CurriculumSection({ curriculum }: CurriculumSectionProps
   };
 
   return (
-    <section className="py-16 bg-gradient-to-br from-slate-50 via-white to-sky-50">
+    <section className="py-16 bg-gradient-to-br from-slate-50 via-white to-orange-50">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="inline-block bg-sky-100 text-coral-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+          <div className="inline-block bg-orange-100 text-coral-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
             Nivel {curriculum.level} - {curriculum.cefr}
           </div>
           <h2 className="text-4xl font-bold text-slate-900 mb-4">
@@ -195,15 +195,15 @@ interface ContentBlockProps {
 
 function ContentBlock({ title, icon, items, color }: ContentBlockProps) {
   const colorClasses = {
-    blue: 'bg-sky-50 text-coral-900 border-sky-200',
-    green: 'bg-green-50 text-green-900 border-green-200',
+    blue: 'bg-orange-50 text-coral-900 border-orange-200',
+    green: 'bg-amber-50 text-amber-900 border-amber-200',
     purple: 'bg-peach-50 text-peach-900 border-peach-200',
     amber: 'bg-amber-50 text-amber-900 border-amber-200'
   };
 
   const bulletColors = {
-    blue: 'text-sky-500',
-    green: 'text-green-500',
+    blue: 'text-orange-500',
+    green: 'text-amber-500',
     purple: 'text-peach-500',
     amber: 'text-amber-500'
   };
@@ -233,15 +233,15 @@ interface SkillCardProps {
 
 function SkillCard({ title, items, color }: SkillCardProps) {
   const borderColors = {
-    blue: 'border-sky-200',
-    green: 'border-green-200',
+    blue: 'border-orange-200',
+    green: 'border-amber-200',
     purple: 'border-peach-200',
     amber: 'border-amber-200'
   };
 
   const textColors = {
     blue: 'text-coral-700',
-    green: 'text-green-700',
+    green: 'text-amber-700',
     purple: 'text-peach-700',
     amber: 'text-amber-700'
   };

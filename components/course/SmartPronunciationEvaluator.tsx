@@ -558,9 +558,9 @@ export default function SmartPronunciationEvaluator({
   };
 
   const getScoreColor = (score: number): string => {
-    if (score >= 90) return 'text-emerald-700 bg-emerald-50 border-emerald-300';
-    if (score >= 80) return 'text-green-700 bg-green-50 border-green-300';
-    if (score >= 70) return 'text-coral-700 bg-sky-50 border-sky-300';
+    if (score >= 90) return 'text-amber-700 bg-amber-50 border-amber-300';
+    if (score >= 80) return 'text-amber-700 bg-amber-50 border-amber-300';
+    if (score >= 70) return 'text-coral-700 bg-orange-50 border-orange-300';
     if (score >= 60) return 'text-amber-700 bg-amber-50 border-amber-300';
     if (score >= 40) return 'text-orange-700 bg-orange-50 border-orange-300';
     return 'text-red-700 bg-red-50 border-red-300';
@@ -576,15 +576,15 @@ export default function SmartPronunciationEvaluator({
   };
 
   const getConfidenceColor = (confidence: number): string => {
-    if (confidence >= 85) return 'bg-emerald-100 border-emerald-300 text-emerald-900';
-    if (confidence >= 70) return 'bg-green-100 border-green-300 text-green-900';
+    if (confidence >= 85) return 'bg-amber-100 border-amber-300 text-amber-900';
+    if (confidence >= 70) return 'bg-amber-100 border-amber-300 text-amber-900';
     if (confidence >= 50) return 'bg-amber-100 border-amber-300 text-amber-900';
     return 'bg-red-100 border-red-300 text-red-900';
   };
 
   if (!feedback) {
     return (
-      <div className="bg-gradient-to-br from-white to-sky-50 rounded-2xl border-2 border-sky-200 p-8 shadow-lg">
+      <div className="bg-gradient-to-br from-white to-orange-50 rounded-2xl border-2 border-orange-200 p-8 shadow-lg">
         <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
           <span className="text-4xl">🎯</span>
           <span>Smart Pronunciation & Topic Evaluation</span>
@@ -614,16 +614,16 @@ export default function SmartPronunciationEvaluator({
                   <span>📝</span>
                   <span>{targetText ? 'Target Text' : 'Your Task'}</span>
                 </p>
-                <div className="bg-sky-50 rounded-lg p-4 border-2 border-sky-200">
+                <div className="bg-orange-50 rounded-lg p-4 border-2 border-orange-200">
                   <p className="text-slate-800 leading-relaxed">{targetText || prompt}</p>
                 </div>
               </div>
               <div className="space-y-2">
-                <p className="font-bold text-green-900 text-lg flex items-center gap-2">
+                <p className="font-bold text-amber-900 text-lg flex items-center gap-2">
                   <span>🎤</span>
                   <span>What You Said</span>
                 </p>
-                <div className="bg-green-50 rounded-lg p-4 border-2 border-green-200">
+                <div className="bg-amber-50 rounded-lg p-4 border-2 border-amber-200">
                   <p className="text-slate-800 leading-relaxed">
                     {transcript || 'No transcript available'}
                   </p>
@@ -683,7 +683,7 @@ export default function SmartPronunciationEvaluator({
               </div>
               <div className="w-full bg-slate-200 rounded-full h-3 overflow-hidden">
                 <div
-                  className="bg-gradient-to-r from-sky-500 to-peach-500 h-full transition-all duration-300 rounded-full"
+                  className="bg-gradient-to-r from-orange-500 to-peach-500 h-full transition-all duration-300 rounded-full"
                   style={{ width: `${evaluationProgress}%` }}
                 />
               </div>
@@ -708,7 +708,7 @@ export default function SmartPronunciationEvaluator({
 
   // Render detailed feedback (continúa en el siguiente mensaje por límite de espacio...)
   return (
-    <div className="bg-gradient-to-br from-white via-sky-50 to-peach-50 rounded-2xl border-2 border-slate-300 p-8 space-y-8 shadow-2xl">
+    <div className="bg-gradient-to-br from-white via-orange-50 to-peach-50 rounded-2xl border-2 border-slate-300 p-8 space-y-8 shadow-2xl">
       <h3 className="text-3xl font-bold text-slate-900 mb-4 flex items-center gap-3">
         <span className="text-5xl">🎯</span>
         <span>Your Complete Evaluation Report</span>
@@ -756,23 +756,23 @@ export default function SmartPronunciationEvaluator({
       {/* NUEVO: Topic Analysis Panel */}
       <div className={`rounded-xl p-6 border-2 shadow-md ${
         feedback.topicAnalysis.isRelevant 
-          ? 'bg-gradient-to-r from-green-50 to-emerald-50 border-green-300'
+          ? 'bg-gradient-to-r from-amber-50 to-amber-50 border-amber-300'
           : 'bg-gradient-to-r from-red-50 to-orange-50 border-red-300'
       }`}>
         <h4 className={`font-bold text-xl mb-4 flex items-center gap-2 ${
-          feedback.topicAnalysis.isRelevant ? 'text-green-900' : 'text-red-900'
+          feedback.topicAnalysis.isRelevant ? 'text-amber-900' : 'text-red-900'
         }`}>
           <span>{feedback.topicAnalysis.isRelevant ? '✓' : '⚠️'}</span>
           <span>Topic Relevance Analysis</span>
         </h4>
         
         <div className="grid md:grid-cols-2 gap-4 mb-4">
-          <div className="bg-white rounded-lg p-4 border-2 border-green-200">
-            <p className="text-sm font-semibold text-green-900 mb-2">✓ Key Concepts You Mentioned:</p>
+          <div className="bg-white rounded-lg p-4 border-2 border-amber-200">
+            <p className="text-sm font-semibold text-amber-900 mb-2">✓ Key Concepts You Mentioned:</p>
             <div className="flex flex-wrap gap-2">
               {feedback.topicAnalysis.foundKeywords.length > 0 ? (
                 feedback.topicAnalysis.foundKeywords.map((keyword, idx) => (
-                  <span key={idx} className="px-2 py-1 bg-green-100 border border-green-300 rounded text-green-900 text-sm">
+                  <span key={idx} className="px-2 py-1 bg-amber-100 border border-amber-300 rounded text-amber-900 text-sm">
                     {keyword}
                   </span>
                 ))
@@ -795,7 +795,7 @@ export default function SmartPronunciationEvaluator({
         </div>
         
         <div className="bg-white rounded-lg p-4 border-2 border-slate-200">
-          <p className={`text-lg ${feedback.topicAnalysis.isRelevant ? 'text-green-800' : 'text-red-800'}`}>
+          <p className={`text-lg ${feedback.topicAnalysis.isRelevant ? 'text-amber-800' : 'text-red-800'}`}>
             {feedback.topicAnalysis.topicFeedback}
           </p>
         </div>
@@ -833,20 +833,20 @@ export default function SmartPronunciationEvaluator({
               <p className="text-sm text-peach-700 font-semibold mb-1">Similarity to Model</p>
               <p className="text-2xl font-bold text-peach-900">{feedback.audioComparison.similarityScore}%</p>
             </div>
-            <div className="bg-sky-50 rounded-lg p-4 border border-sky-200">
+            <div className="bg-orange-50 rounded-lg p-4 border border-orange-200">
               <p className="text-sm text-coral-700 font-semibold mb-1">Speaking Speed</p>
               <p className="text-2xl font-bold text-coral-900">{feedback.audioComparison.speedComparison}</p>
             </div>
-            <div className="bg-green-50 rounded-lg p-4 border border-green-200">
-              <p className="text-sm text-green-700 font-semibold mb-1">Volume Level</p>
-              <p className="text-2xl font-bold text-green-900">{feedback.audioComparison.volumeLevel}</p>
+            <div className="bg-amber-50 rounded-lg p-4 border border-amber-200">
+              <p className="text-sm text-amber-700 font-semibold mb-1">Volume Level</p>
+              <p className="text-2xl font-bold text-amber-900">{feedback.audioComparison.volumeLevel}</p>
             </div>
           </div>
         </div>
       )}
 
       {/* Detailed Feedback */}
-      <div className="bg-gradient-to-r from-slate-50 to-sky-50 rounded-xl p-6 border-2 border-slate-300 shadow-md">
+      <div className="bg-gradient-to-r from-slate-50 to-orange-50 rounded-xl p-6 border-2 border-slate-300 shadow-md">
         <h4 className="font-bold text-slate-900 text-xl mb-3 flex items-center gap-2">
           <span>💬</span>
           <span>Expert Feedback</span>
@@ -856,15 +856,15 @@ export default function SmartPronunciationEvaluator({
 
       {/* Strengths */}
       {feedback.strengths.length > 0 && (
-        <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-6 border-2 border-green-300 shadow-md">
-          <h4 className="font-bold text-green-900 text-xl mb-4 flex items-center gap-2">
+        <div className="bg-gradient-to-r from-amber-50 to-amber-50 rounded-xl p-6 border-2 border-amber-300 shadow-md">
+          <h4 className="font-bold text-amber-900 text-xl mb-4 flex items-center gap-2">
             <span>✨</span>
             <span>Your Strengths</span>
           </h4>
           <ul className="space-y-3">
             {feedback.strengths.map((strength, index) => (
-              <li key={index} className="flex items-start gap-3 text-green-800 text-lg">
-                <span className="text-green-500 text-2xl mt-0.5">✓</span>
+              <li key={index} className="flex items-start gap-3 text-amber-800 text-lg">
+                <span className="text-amber-500 text-2xl mt-0.5">✓</span>
                 <span>{strength}</span>
               </li>
             ))}
@@ -907,7 +907,7 @@ export default function SmartPronunciationEvaluator({
                 <div className="flex items-center gap-2">
                   <span className="font-bold text-lg">{item.word}</span>
                   {item.correct ? (
-                    <span className="text-emerald-600 text-xl">✓</span>
+                    <span className="text-amber-600 text-xl">✓</span>
                   ) : (
                     <span className="text-red-600 text-xl">✗</span>
                   )}
@@ -924,7 +924,7 @@ export default function SmartPronunciationEvaluator({
             ))}
           </div>
           {feedback.wordAccuracy.some(w => !w.correct) && (
-            <div className="mt-6 bg-sky-50 rounded-lg p-4 border border-sky-200">
+            <div className="mt-6 bg-orange-50 rounded-lg p-4 border border-orange-200">
               <p className="text-sm text-coral-800 flex items-start gap-2">
                 <span className="text-lg">💡</span>
                 <span>
@@ -956,7 +956,7 @@ export default function SmartPronunciationEvaluator({
           <span>Print Report</span>
         </button>
         <button
-          className="flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-green-600 to-green-700 text-white rounded-xl hover:from-green-700 hover:to-green-800 transition-all font-bold text-lg shadow-lg transform hover:scale-105"
+          className="flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-amber-600 to-amber-700 text-white rounded-xl hover:from-amber-700 hover:to-amber-800 transition-all font-bold text-lg shadow-lg transform hover:scale-105"
         >
           <span className="text-xl">→</span>
           <span>Next Exercise</span>
