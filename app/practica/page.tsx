@@ -1,7 +1,8 @@
 'use client';
 
 // ============================================
-// PÁGINA: PRÁCTICA DINÁMICA CON IA
+// PÁGINA: PRÁCTICA INFINITA CON EJERCICIOS ILIMITADOS
+// Version: 2.0 - Infinite Exercise System
 // ============================================
 
 import { useState } from 'react';
@@ -12,37 +13,42 @@ import LessonViewer from '@/components/course/LessonViewer';
 export default function PracticePage() {
   const router = useRouter();
   const [practicing, setPracticing] = useState(false);
+  const [practiceConfig, setPracticeConfig] = useState<PracticeConfig | null>(null);
   const [currentExercises, setCurrentExercises] = useState<any>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [exercisesCompleted, setExercisesCompleted] = useState(0);
+  const [totalScore, setTotalScore] = useState(0);
 
-  const handleStartPractice = async (config: PracticeConfig) => {
+  const generateNextExercise = async (config: PracticeConfig) => {
     setLoading(true);
     setError(null);
 
     try {
-      console.log('🚀 Preparando ejercicios con configuración:', config);
+      console.log('🚀 Generando ejercicio con configuración:', config);
 
       const response = await fetch('/api/generate-exercise', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(config)
+        body: JSON.stringify({
+          ...config,
+          count: 1 // Always generate just one exercise
+        })
       });
 
       const data = await response.json();
 
       if (!response.ok || !data.success) {
-        throw new Error(data.error || 'Error generando ejercicios');
+        throw new Error(data.error || 'Error generando ejercicio');
       }
 
-      console.log('✅ Ejercicios generados:', data);
+      console.log('✅ Ejercicio generado:', data);
 
-      // Convertir ejercicios generados al formato de Lesson
+      // Convertir ejercicio generado al formato de Lesson
       const lesson = convertToLesson(data.exercises, config);
       setCurrentExercises(lesson);
-      setPracticing(true);
 
     } catch (err) {
       console.error('Error:', err);
@@ -52,48 +58,131 @@ export default function PracticePage() {
     }
   };
 
-  const handleComplete = (lessonId: string, score: number) => {
-    console.log(`Práctica completada con puntuación: ${score}%`);
+  const handleStartPractice = async (config: PracticeConfig) => {
+    setPracticeConfig(config);
+    setPracticing(true);
+    setExercisesCompleted(0);
+    setTotalScore(0);
+    await generateNextExercise(config);
+  };
+
+  const handleComplete = async (lessonId: string, score: number) => {
+    console.log(`Ejercicio completado con puntuación: ${score}%`);
     
-    // Mostrar modal de completado
+    const newExercisesCompleted = exercisesCompleted + 1;
+    const newTotalScore = totalScore + score;
+    const averageScore = newTotalScore / newExercisesCompleted;
+    
+    setExercisesCompleted(newExercisesCompleted);
+    setTotalScore(newTotalScore);
+
+    // Mostrar feedback y preguntar si quiere continuar
     const message = score >= 80 
-      ? `¡Excelente trabajo! 🎉\n\nPuntuación: ${Math.round(score)}%\n\n¿Quieres practicar más?`
-      : `Buen intento 👍\n\nPuntuación: ${Math.round(score)}%\n\nSigue practicando para mejorar.`;
+      ? `¡Excelente trabajo! 🎉\n\nPuntuación: ${Math.round(score)}%\nEjercicios completados: ${newExercisesCompleted}\nPromedio: ${Math.round(averageScore)}%\n\n¿Quieres practicar otro ejercicio?`
+      : `Buen intento 👍\n\nPuntuación: ${Math.round(score)}%\nEjercicios completados: ${newExercisesCompleted}\nPromedio: ${Math.round(averageScore)}%\n\n¿Quieres practicar otro ejercicio?`;
     
     if (confirm(message)) {
-      // Volver al selector
-      setPracticing(false);
-      setCurrentExercises(null);
+      // Generar siguiente ejercicio automáticamente
+      if (practiceConfig) {
+        await generateNextExercise(practiceConfig);
+      }
     } else {
-      // Ir al dashboard
-      router.push('/dashboard');
+      // Salir de la práctica
+      handleExit();
     }
   };
 
+  const handleExit = () => {
+    const finalAverage = exercisesCompleted > 0 ? Math.round(totalScore / exercisesCompleted) : 0;
+    
+    const summary = `📊 Resumen de tu práctica:\n\n` +
+      `Ejercicios completados: ${exercisesCompleted}\n` +
+      `Puntuación promedio: ${finalAverage}%\n` +
+      `Puntuación total: ${Math.round(totalScore)} puntos\n\n` +
+      `¡Buen trabajo! 🎉`;
+    
+    alert(summary);
+    
+    // Volver al selector
+    setPracticing(false);
+    setCurrentExercises(null);
+    setPracticeConfig(null);
+    setExercisesCompleted(0);
+    setTotalScore(0);
+  };
+
   const handleBackToSelector = () => {
-    if (confirm('¿Seguro que quieres salir? Tu progreso no se guardará.')) {
-      setPracticing(false);
-      setCurrentExercises(null);
+    const averageScore = exercisesCompleted > 0 ? Math.round(totalScore / exercisesCompleted) : 0;
+    
+    const message = `¿Seguro que quieres salir?\n\n` +
+      `Has completado ${exercisesCompleted} ejercicio(s)\n` +
+      `Promedio: ${averageScore}%\n\n` +
+      `Tu progreso se guardará.`;
+    
+    if (confirm(message)) {
+      handleExit();
     }
   };
 
   if (practicing && currentExercises) {
     return (
       <div>
-        {/* Back Button */}
-        <div className="bg-white border-b border-slate-200">
+        {/* Back Button with Stats */}
+        <div className="bg-white border-b border-slate-200 sticky top-0 z-10">
           <div className="max-w-7xl mx-auto px-4 py-3">
-            <button
-              onClick={handleBackToSelector}
-              className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors"
-            >
-              <span>←</span>
-              <span>Volver al selector</span>
-            </button>
+            <div className="flex items-center justify-between">
+              <button
+                onClick={handleBackToSelector}
+                className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors"
+              >
+                <span>←</span>
+                <span>Salir de la práctica</span>
+              </button>
+              
+              {/* Stats */}
+              <div className="flex items-center gap-4 text-sm">
+                <div className="flex items-center gap-1">
+                  <span className="font-bold text-gray-900">{exercisesCompleted}</span>
+                  <span className="text-gray-600">ejercicios</span>
+                </div>
+                <div className="flex items-center gap-1">
+                  <span className="font-bold text-blue-600">
+                    {exercisesCompleted > 0 ? Math.round(totalScore / exercisesCompleted) : 0}%
+                  </span>
+                  <span className="text-gray-600">promedio</span>
+                </div>
+                <div className="flex items-center gap-1">
+                  <span className="text-2xl">∞</span>
+                  <span className="text-gray-600">ilimitado</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        {/* Lesson Viewer con ejercicios generados */}
+        {/* Loading overlay para siguiente ejercicio */}
+        {loading && (
+          <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+            <div className="bg-white rounded-2xl p-8 max-w-md text-center">
+              <div className="animate-spin text-6xl mb-4">📚</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                Generando siguiente ejercicio...
+              </h3>
+              <p className="text-gray-600">
+                Creando contenido personalizado
+              </p>
+              <div className="mt-4 flex justify-center">
+                <div className="flex gap-2">
+                  <div className="w-3 h-3 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></div>
+                  <div className="w-3 h-3 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></div>
+                  <div className="w-3 h-3 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Lesson Viewer con ejercicio generado */}
         <LessonViewer lesson={currentExercises} onComplete={handleComplete} />
       </div>
     );
@@ -101,13 +190,13 @@ export default function PracticePage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
-      {/* Loading overlay */}
+      {/* Loading overlay inicial */}
       {loading && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
           <div className="bg-white rounded-2xl p-8 max-w-md text-center">
             <div className="animate-spin text-6xl mb-4">📚</div>
             <h3 className="text-2xl font-bold text-gray-900 mb-2">
-              Preparando ejercicios...
+              Preparando tu primer ejercicio...
             </h3>
             <p className="text-gray-600">
               Creando contenido personalizado para tu nivel
@@ -147,7 +236,7 @@ export default function PracticePage() {
 }
 
 // ============================================
-// HELPER: Convertir ejercicios generados a formato Lesson
+// HELPER: Convertir ejercicio generado a formato Lesson
 // ============================================
 
 function convertToLesson(exercises: any[], config: PracticeConfig): any {
@@ -156,8 +245,8 @@ function convertToLesson(exercises: any[], config: PracticeConfig): any {
   return {
     id: `practice_${Date.now()}`,
     title: `Práctica: ${firstExercise.type}`,
-    description: `Ejercicios de ${firstExercise.category} - Nivel ${config.difficulty}`,
-    duration: firstExercise.estimatedTime * exercises.length,
+    description: `Ejercicio de ${firstExercise.category} - Nivel ${config.difficulty}`,
+    duration: firstExercise.estimatedTime,
     objectives: [
       `Practicar ${firstExercise.type}`,
       `Mejorar en ${config.topic || 'inglés general'}`,
