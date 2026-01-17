@@ -67,23 +67,21 @@ Stephen Krashen (lingüista de USC) demostró que adquirimos idiomas cuando ente
 
 **Distribución efectiva del tiempo de estudio:**
 
-```
-70% - COMUNICACIÓN AUTÉNTICA
-→ Conversación real (aunque cometas errores)
-→ Escritura funcional (emails, posts, diarios)
-→ Lectura extensiva de temas de interés
-→ Listening activo (podcasts, series con propósito)
+**70% - COMUNICACIÓN AUTÉNTICA**
+- Conversación real (aunque cometas errores)
+- Escritura funcional (emails, posts, diarios)
+- Lectura extensiva de temas de interés
+- Listening activo (podcasts, series con propósito)
 
-20% - CORRECCIÓN ESPECÍFICA
-→ Identificar tus errores recurrentes
-→ Practicar deliberadamente esa estructura
-→ Aplicar inmediatamente en contexto comunicativo
+**20% - CORRECCIÓN ESPECÍFICA**
+- Identificar tus errores recurrentes
+- Practicar deliberadamente esa estructura
+- Aplicar inmediatamente en contexto comunicativo
 
-10% - ESTUDIO DE REGLAS
-→ Gramática como explicación (no como punto de partida)
-→ Solo cuando ya has intentado usar la estructura
-→ Para entender el "por qué" de lo que ya sabes usar
-```
+**10% - ESTUDIO DE REGLAS**
+- Gramática como explicación (no como punto de partida)
+- Solo cuando ya has intentado usar la estructura
+- Para entender el "por qué" de lo que ya sabes usar
 
 **Ejemplo práctico:**
 
@@ -379,12 +377,12 @@ La profesora Swain (Universidad de Toronto) demostró que el **output (producci�
 ### El Problema: Vocabulario Descontextualizado
 
 **Método tradicional:**
-```
-Make = hacer
-Do = hacer
-Get = obtener
-Take = tomar
-```
+
+**Ejemplo de traducción palabra por palabra:**
+- Make = hacer
+- Do = hacer
+- Get = obtener
+- Take = tomar
 
 **Resultado:**
 - Sabes la traducción
@@ -438,26 +436,28 @@ Take = tomar
 **Paso 1: Recopilar Chunks (no palabras)**
 
 ❌ **Vocabulario tradicional:**
-```
-Important = importante
-Decision = decisión
-Make = hacer
-```
 
-✓ **Notebook de chunks:**
-```
-It's important to + VERB
-→ It's important to study every day
-→ It's important to practice speaking
+**Ejemplo aislado:**
+- Important = importante
+- Decision = decisión
+- Make = hacer
 
-Make a decision
-→ I need to make a decision soon
-→ She made the right decision
+✅ **Notebook de chunks:**
 
-Find it + ADJ + to VERB
-→ I find it difficult to speak in English
-→ She finds it easy to remember vocabulary
-```
+**Chunk 1:**
+- **Pattern:** It's important to + VERB
+- **Ejemplo 1:** It's important to study every day
+- **Ejemplo 2:** It's important to practice speaking
+
+**Chunk 2:**
+- **Pattern:** Make a decision
+- **Ejemplo 1:** I need to make a decision soon
+- **Ejemplo 2:** She made the right decision
+
+**Chunk 3:**
+- **Pattern:** Find it + ADJ + to VERB
+- **Ejemplo 1:** I find it difficult to speak in English
+- **Ejemplo 2:** She finds it easy to remember vocabulary
 
 **Formato ideal:**
 | Chunk | Ejemplo 1 | Ejemplo 2 | Mi ejemplo |
