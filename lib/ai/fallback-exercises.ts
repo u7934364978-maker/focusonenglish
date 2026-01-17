@@ -195,22 +195,100 @@ Looking ahead, experts predict that a hybrid model—combining office and remote
   },
 
   'word-formation': {
-    title: 'Word Formation Practice',
-    instructions: 'Forma la palabra correcta a partir de la palabra entre paréntesis.',
+    title: 'Word Formation: Professional Development',
+    instructions: 'Use the word given in capitals at the end of each line to form a word that fits in the gap.',
+    text: `Building a successful career requires careful (1. PLAN)_____ and continuous (2. DEVELOP)_____. Many professionals find that maintaining a positive (3. THINK)_____ is essential for growth. It's important to be (4. FLEX)_____ and adapt to changing workplace demands. Those who show (5. CREATE)_____ in problem-solving often achieve greater (6. SUCCESS)_____. However, it's also (7. ESSENCE)_____ to maintain work-life balance and avoid (8. EXHAUST)_____.`,
     questions: [
       {
         id: 'q1',
-        question: 'The _____ (decide) was difficult to make.',
-        correctAnswer: 'decision',
-        explanation: 'Se necesita un sustantivo. "Decide" (verbo) → "decision" (sustantivo).'
+        gapNumber: 1,
+        baseWord: 'PLAN',
+        correctAnswer: 'planning',
+        acceptableAnswers: ['planning'],
+        explanation: 'Need noun/gerund form: "careful planning" (the process of making plans).',
+        wordType: 'noun/gerund',
+        transformation: 'verb → noun (-ing)',
+        points: 1
       },
       {
         id: 'q2',
-        question: 'She\'s very _____ (create) when it comes to solving problems.',
-        correctAnswer: 'creative',
-        explanation: 'Se necesita un adjetivo. "Create" (verbo) → "creative" (adjetivo).'
+        gapNumber: 2,
+        baseWord: 'DEVELOP',
+        correctAnswer: 'development',
+        acceptableAnswers: ['development'],
+        explanation: 'Need noun form: "continuous development" (the process of developing).',
+        wordType: 'noun',
+        transformation: 'verb → noun (-ment)',
+        points: 1
+      },
+      {
+        id: 'q3',
+        gapNumber: 3,
+        baseWord: 'THINK',
+        correctAnswer: 'mindset',
+        acceptableAnswers: ['mindset', 'thinking'],
+        explanation: 'Need noun form: "positive mindset/thinking" (way of thinking).',
+        wordType: 'noun',
+        transformation: 'verb → noun (compound/gerund)',
+        points: 1
+      },
+      {
+        id: 'q4',
+        gapNumber: 4,
+        baseWord: 'FLEX',
+        correctAnswer: 'flexible',
+        acceptableAnswers: ['flexible'],
+        explanation: 'Need adjective form: "be flexible" (able to change easily).',
+        wordType: 'adjective',
+        transformation: 'noun → adjective (-ible)',
+        points: 1
+      },
+      {
+        id: 'q5',
+        gapNumber: 5,
+        baseWord: 'CREATE',
+        correctAnswer: 'creativity',
+        acceptableAnswers: ['creativity'],
+        explanation: 'Need noun form: "show creativity" (the quality of being creative).',
+        wordType: 'noun',
+        transformation: 'verb → noun (-ivity)',
+        points: 1
+      },
+      {
+        id: 'q6',
+        gapNumber: 6,
+        baseWord: 'SUCCESS',
+        correctAnswer: 'success',
+        acceptableAnswers: ['success'],
+        explanation: 'Already a noun: "achieve success" (no transformation needed).',
+        wordType: 'noun',
+        transformation: 'noun → noun (no change)',
+        points: 1
+      },
+      {
+        id: 'q7',
+        gapNumber: 7,
+        baseWord: 'ESSENCE',
+        correctAnswer: 'essential',
+        acceptableAnswers: ['essential'],
+        explanation: 'Need adjective form: "essential to maintain" (absolutely necessary).',
+        wordType: 'adjective',
+        transformation: 'noun → adjective (-tial)',
+        points: 1
+      },
+      {
+        id: 'q8',
+        gapNumber: 8,
+        baseWord: 'EXHAUST',
+        correctAnswer: 'exhaustion',
+        acceptableAnswers: ['exhaustion'],
+        explanation: 'Need noun form: "avoid exhaustion" (extreme tiredness).',
+        wordType: 'noun',
+        transformation: 'verb → noun (-ion)',
+        points: 1
       }
-    ]
+    ],
+    focusAreas: ['Noun formation', 'Adjective formation', 'Suffix patterns', 'Word transformation']
   },
 
   'multiple-choice-cloze': {
