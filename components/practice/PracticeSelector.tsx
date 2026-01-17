@@ -277,6 +277,3 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
     </div>
   );
 }
- </div>
-  );
-}
