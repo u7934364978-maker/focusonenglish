@@ -122,7 +122,9 @@ export class ExerciseGenerator {
     // Agregar instrucciones finales
     prompt += `\n\nIMPORTANT: 
 - Return ONLY valid JSON, no markdown formatting
-- All content MUST be in ENGLISH (this is an English learning course)
+- All exercise content (questions, answers, options) MUST be in ENGLISH
+- All explanations MUST be in SPANISH (to help Spanish-speaking students understand)
+- Instructions can be in English
 - Ensure educational value and accuracy
 - Make exercises engaging and realistic
 - Follow Cambridge B2 First (FCE) standards where applicable`;

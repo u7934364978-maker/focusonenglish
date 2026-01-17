@@ -30,7 +30,7 @@ const FALLBACK_EXERCISES: Record<ExerciseType, any> = {
           'D) would have studied'
         ],
         correctAnswer: 'B',
-        explanation: 'This is a mixed conditional (type 3 + type 2). The past condition (had studied) affects the present result (would have).'
+        explanation: 'Esta es una oración condicional mixta (tipo 3 + tipo 2). La condición pasada (had studied) afecta el resultado presente (would have).'
       },
       {
         id: 'q2',
@@ -42,7 +42,7 @@ const FALLBACK_EXERCISES: Record<ExerciseType, any> = {
           'D) practices'
         ],
         correctAnswer: 'B',
-        explanation: 'Mixed conditional: the past action (had practiced) has an effect on the present (would be).'
+        explanation: 'Condicional mixto: la acción pasada (had practiced) tiene efecto en el presente (would be).'
       },
       {
         id: 'q3',
@@ -54,7 +54,7 @@ const FALLBACK_EXERCISES: Record<ExerciseType, any> = {
           'D) are'
         ],
         correctAnswer: 'B',
-        explanation: 'The lack of care in the past (had been) causes the present situation (wouldn\'t be).'
+        explanation: 'La falta de cuidado en el pasado (had been) causa la situación presente (wouldn\'t be).'
       },
       {
         id: 'q4',
@@ -66,7 +66,7 @@ const FALLBACK_EXERCISES: Record<ExerciseType, any> = {
           'D) don\'t accept'
         ],
         correctAnswer: 'B',
-        explanation: 'Type 3 conditional: hypothetical past situation (had known) with past result (wouldn\'t have accepted).'
+        explanation: 'Condicional tipo 3: situación hipotética pasada (had known) con resultado pasado (wouldn\'t have accepted).'
       }
     ]
   },
@@ -79,25 +79,25 @@ const FALLBACK_EXERCISES: Record<ExerciseType, any> = {
         id: 'q1',
         question: 'I _____ (visit) Paris three times in my life.',
         correctAnswer: 'have visited',
-        explanation: 'Present Perfect is used for life experiences without a specific time.'
+        explanation: 'Present Perfect se usa para experiencias de vida sin tiempo específico.'
       },
       {
         id: 'q2',
         question: 'She _____ (go) to London last summer.',
         correctAnswer: 'went',
-        explanation: 'Past Simple is used with a specific time in the past (last summer).'
+        explanation: 'Past Simple se usa con un tiempo específico en el pasado (last summer).'
       },
       {
         id: 'q3',
         question: 'They _____ (not/finish) the project yet.',
         correctAnswer: 'haven\'t finished',
-        explanation: 'Present Perfect with "yet" indicates an action not completed until now.'
+        explanation: 'Present Perfect con "yet" indica una acción no completada hasta ahora.'
       },
       {
         id: 'q4',
         question: 'When _____ you _____ (learn) to drive?',
         correctAnswer: 'did/learn',
-        explanation: 'Past Simple with "when" asks about the specific moment of a past action.'
+        explanation: 'Past Simple con "when" pregunta por el momento específico de una acción pasada.'
       }
     ]
   },
@@ -110,19 +110,19 @@ const FALLBACK_EXERCISES: Record<ExerciseType, any> = {
         sentence: 'It\'s a pity I can\'t speak French.',
         keyWord: 'WISH',
         correctAnswer: 'I wish I could speak French',
-        explanation: 'Wish + Past Simple to express wishes about the present.'
+        explanation: 'Wish + Past Simple para expresar deseos sobre el presente.'
       },
       {
         sentence: 'She started learning English five years ago.',
         keyWord: 'BEEN',
         correctAnswer: 'She has been learning English for five years',
-        explanation: 'Present Perfect Continuous with "for" indicates duration from a point in the past.'
+        explanation: 'Present Perfect Continuous con "for" indica duración desde un punto en el pasado.'
       },
       {
         sentence: 'The coffee was too hot to drink.',
         keyWord: 'SO',
         correctAnswer: 'The coffee was so hot (that) I couldn\'t drink it',
-        explanation: 'So + adjective + that transforms "too + adjective + to infinitive".'
+        explanation: 'So + adjective + that transforma "too + adjective + to infinitive".'
       }
     ]
   },
@@ -145,7 +145,7 @@ Looking ahead, experts predict that a hybrid model—combining office and remote
           'D) A company policy'
         ],
         correctAnswer: 'B',
-        explanation: 'The text clearly states "started as a temporary measure".'
+        explanation: 'El texto dice claramente "started as a temporary measure".'
       },
       {
         id: 'q2',
@@ -157,7 +157,7 @@ Looking ahead, experts predict that a hybrid model—combining office and remote
           'D) Technical difficulties'
         ],
         correctAnswer: 'C',
-        explanation: 'The text mentions "feelings of isolation" as one of the challenges.'
+        explanation: 'El texto menciona "feelings of isolation" como uno de los desafíos.'
       },
       {
         id: 'q3',
@@ -169,7 +169,7 @@ Looking ahead, experts predict that a hybrid model—combining office and remote
           'D) Uncertain'
         ],
         correctAnswer: 'C',
-        explanation: 'The text predicts that "a hybrid model... will become the norm".'
+        explanation: 'El texto predice que "a hybrid model... will become the norm".'
       }
     ]
   },
@@ -183,13 +183,13 @@ Looking ahead, experts predict that a hybrid model—combining office and remote
         id: 'q1',
         statement: 'The present perfect is used to talk about completed actions at a specific time in the past.',
         correctAnswer: false,
-        explanation: 'False. The Present Perfect is NOT used with specific times in the past.'
+        explanation: 'Falso. El Present Perfect NO se usa con tiempos específicos en el pasado.'
       },
       {
         id: 'q2',
         statement: 'Modal verbs are followed by the infinitive without "to".',
         correctAnswer: true,
-        explanation: 'True. Modal verbs (can, could, should, etc.) are followed by the infinitive without "to".'
+        explanation: 'Verdadero. Los verbos modales (can, could, should, etc.) van seguidos del infinitivo sin "to".'
       }
     ]
   },
@@ -300,13 +300,13 @@ Looking ahead, experts predict that a hybrid model—combining office and remote
         id: 'q1',
         options: ['A) easy', 'B) challenging', 'C) boring', 'D) simple'],
         correctAnswer: 'B',
-        explanation: '"But rewarding" indicates contrast, so "challenging" is the best option.'
+        explanation: '"But rewarding" indica contraste, entonces "challenging" es la mejor opción.'
       },
       {
         id: 'q2',
         options: ['A) luck', 'B) money', 'C) patience', 'D) time'],
         correctAnswer: 'C',
-        explanation: '"Patience" fits best with the context of learning a language.'
+        explanation: '"Patience" encaja mejor con el contexto de aprender un idioma.'
       }
     ]
   },
@@ -333,7 +333,7 @@ Looking ahead, experts predict that a hybrid model—combining office and remote
         question: 'What is the main topic?',
         options: ['A) Travel', 'B) Education', 'C) Technology', 'D) Sports'],
         correctAnswer: 'B',
-        explanation: 'This is a demonstration exercise.'
+        explanation: 'Este es un ejercicio de demostración.'
       }
     ]
   },
@@ -366,9 +366,9 @@ Looking ahead, experts predict that a hybrid model—combining office and remote
     title: 'Pronunciation Exercise',
     instructions: 'Practice the pronunciation of the following words.',
     words: [
-      { word: 'thought', phonetic: '/θɔːt/', tip: 'The "th" is pronounced with the tongue between the teeth.' },
-      { word: 'through', phonetic: '/θruː/', tip: 'Similar to "thought" but with the /uː/ sound at the end.' },
-      { word: 'although', phonetic: '/ɔːlˈðəʊ/', tip: 'The "th" here is voiced, like in "the".' }
+      { word: 'thought', phonetic: '/θɔːt/', tip: 'La "th" se pronuncia con la lengua entre los dientes.' },
+      { word: 'through', phonetic: '/θruː/', tip: 'Similar a "thought" pero con el sonido /uː/ al final.' },
+      { word: 'although', phonetic: '/ɔːlˈðəʊ/', tip: 'La "th" aquí es sonora, como en "the".' }
     ]
   }
 };
