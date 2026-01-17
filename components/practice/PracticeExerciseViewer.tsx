@@ -212,7 +212,7 @@ export default function PracticeExerciseViewer({
                     )}
                     {currentQuestion.explanation && (
                       <p className="text-gray-700 text-sm mt-2">
-                        <strong>Explanation:</strong> {currentQuestion.explanation}
+                        <strong>Explicación:</strong> {currentQuestion.explanation}
                       </p>
                     )}
                   </div>
