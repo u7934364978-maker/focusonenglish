@@ -69,14 +69,14 @@ El verbo "to be" es el más importante en inglés nivel A1. Tiene tres formas en
 
 #### Formas Afirmativas
 
-```
-I am (I'm) → Yo soy/estoy
-You are (You're) → Tú eres/estás
-He/She/It is (He's/She's/It's) → Él/Ella es/está
-We are (We're) → Nosotros somos/estamos
-You are (You're) → Vosotros sois/estáis
-They are (They're) → Ellos son/están
-```
+| Pronombre | Verbo To Be | Forma Corta | Ejemplo |
+|-----------|-------------|-------------|----------|
+| I | am | I'm | I'm 25 years old |
+| You | are | You're | You're nice |
+| He/She/It | is | He's/She's/It's | He's from Spain |
+| We | are | We're | We're at home |
+| You | are | You're | You're students |
+| They | are | They're | They're doctors |
 
 **Ejemplos en contexto:**
 - I am 25 years old. (Tengo 25 años)
@@ -88,14 +88,13 @@ They are (They're) → Ellos son/están
 
 Para formar negaciones, añadimos **"not"** después del verbo:
 
-```
-I am not (I'm not)
-You are not (You aren't / You're not)
-He/She/It is not (He/She/It isn't / He's/She's/It's not)
-We are not (We aren't / We're not)
-You are not (You aren't / You're not)
-They are not (They aren't / They're not)
-```
+| Forma Completa | Contracción 1 | Contracción 2 | Ejemplo |
+|----------------|---------------|---------------|----------|
+| I am not | I'm not | — | I'm not tired |
+| You are not | You aren't | You're not | You aren't ready |
+| He/She/It is not | He/She/It isn't | He's/She's/It's not | He isn't a teacher |
+| We are not | We aren't | We're not | We aren't ready |
+| They are not | They aren't | They're not | They aren't students |
 
 **Ejemplos:**
 - I am not tired. (No estoy cansado)
@@ -106,14 +105,13 @@ They are not (They aren't / They're not)
 
 Para hacer preguntas, invertimos el orden: **verbo + sujeto**
 
-```
-Am I...?
-Are you...?
-Is he/she/it...?
-Are we...?
-Are you...?
-Are they...?
-```
+| Pregunta | Respuesta Afirmativa | Respuesta Negativa |
+|----------|---------------------|--------------------|
+| Am I...? | Yes, you are. | No, you aren't. |
+| Are you...? | Yes, I am. | No, I'm not. |
+| Is he/she/it...? | Yes, he/she/it is. | No, he/she/it isn't. |
+| Are we...? | Yes, you are. | No, you aren't. |
+| Are they...? | Yes, they are. | No, they aren't. |
 
 **Ejemplos:**
 - Are you Spanish? → Yes, I am. / No, I'm not.
@@ -162,22 +160,21 @@ El presente simple se usa para rutinas, hábitos, hechos y verdades generales.
 
 **Estructura básica:** Sujeto + verbo (infinitivo sin "to")
 
-```
-I work
-You work
-He/She/It workS ← ¡Añadimos -s!
-We work
-You work
-They work
-```
+- **I** work
+- **You** work
+- **He/She/It** work**S** ← ¡Añadimos -s!
+- **We** work
+- **You** work
+- **They** work
 
 **⚠️ Regla crucial:** En tercera persona singular (he/she/it) añadimos **-s** o **-es**:
 
-- work → works
-- play → plays
-- watch → watches (terminados en -ch, -sh, -x, -o → añadir -es)
-- study → studies (terminado en consonante + y → cambiar y por -ies)
-- have → has (irregular)
+| Regla | Ejemplos |
+|-------|----------|
+| Regla general: añadir -s | work → works, play → plays |
+| Terminados en -ch, -sh, -x, -o: añadir -es | watch → watches, go → goes |
+| Consonante + y: cambiar y por -ies | study → studies, try → tries |
+| Verbo irregular | have → has |
 
 **Ejemplos:**
 - I **live** in Madrid. (Vivo en Madrid)
@@ -189,14 +186,12 @@ They work
 
 **Estructura:** Sujeto + **do not / does not** + verbo (infinitivo sin -s)
 
-```
-I do not work (I don't work)
-You do not work (You don't work)
-He/She/It does not work (He/She/It doesn't work)
-We do not work (We don't work)
-You do not work (You don't work)
-They do not work (They don't work)
-```
+- **I do not** work (I don't work)
+- **You do not** work (You don't work)
+- **He/She/It does not** work (He/She/It doesn't work)
+- **We do not** work (We don't work)
+- **You do not** work (You don't work)
+- **They do not** work (They don't work)
 
 **⚠️ Importante:** Con "does not", el verbo vuelve a su forma base (sin -s):
 - ✅ He doesn't work
@@ -211,14 +206,12 @@ They do not work (They don't work)
 
 **Estructura:** **Do / Does** + sujeto + verbo (infinitivo)
 
-```
-Do I work?
-Do you work?
-Does he/she/it work?
-Do we work?
-Do you work?
-Do they work?
-```
+- **Do I** work?
+- **Do you** work?
+- **Does he/she/it** work?
+- **Do we** work?
+- **Do you** work?
+- **Do they** work?
 
 **Respuestas cortas:**
 - Do you speak English? → Yes, I do. / No, I don't.
@@ -230,14 +223,12 @@ Con el presente simple, usamos adverbios de frecuencia para indicar con qué reg
 
 **Orden:** Sujeto + adverbio + verbo (excepto con "to be")
 
-```
-always (siempre) → 100%
-usually (normalmente) → 80%
-often (a menudo) → 60%
-sometimes (a veces) → 40%
-rarely (raramente) → 20%
-never (nunca) → 0%
-```
+- **always** (siempre) → 100%
+- **usually** (normalmente) → 80%
+- **often** (a menudo) → 60%
+- **sometimes** (a veces) → 40%
+- **rarely** (raramente) → 20%
+- **never** (nunca) → 0%
 
 **Ejemplos:**
 - I **always** wake up at 7:00. (Siempre me despierto a las 7)
@@ -424,9 +415,7 @@ Las "question words" o palabras interrogativas son esenciales para hacer pregunt
 ### Estructura de Preguntas con "Question Words"
 
 **Con el verbo "to be":**
-```
-Question Word + is/are + sujeto?
-```
+**Question Word + is/are + sujeto?**
 
 **Ejemplos:**
 - **What** is your name? (¿Cuál es tu nombre?)
@@ -435,9 +424,7 @@ Question Word + is/are + sujeto?
 - **How old** are you? (¿Cuántos años tienes?)
 
 **Con otros verbos (presente simple):**
-```
-Question Word + do/does + sujeto + verbo?
-```
+**Question Word + do/does + sujeto + verbo?**
 
 **Ejemplos:**
 - **What** do you do? (¿A qué te dedicas?)

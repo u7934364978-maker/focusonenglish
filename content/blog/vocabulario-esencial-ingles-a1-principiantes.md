@@ -161,28 +161,30 @@ Fundamentales para preguntar precios, dar direcciones, decir tu edad, etc.
 #### Números Cardinales (0-100)
 
 **0-20 (memoriza todos):**
-```
-0 = zero
-1 = one          11 = eleven
-2 = two          12 = twelve
-3 = three        13 = thirteen
-4 = four         14 = fourteen
-5 = five         15 = fifteen
-6 = six          16 = sixteen
-7 = seven        17 = seventeen
-8 = eight        18 = eighteen
-9 = nine         19 = nineteen
-10 = ten         20 = twenty
-```
+
+| Número | Inglés | Número | Inglés |
+|--------|--------|--------|--------|
+| 0 | zero | 11 | eleven |
+| 1 | one | 12 | twelve |
+| 2 | two | 13 | thirteen |
+| 3 | three | 14 | fourteen |
+| 4 | four | 15 | fifteen |
+| 5 | five | 16 | sixteen |
+| 6 | six | 17 | seventeen |
+| 7 | seven | 18 | eighteen |
+| 8 | eight | 19 | nineteen |
+| 9 | nine | 20 | twenty |
+| 10 | ten | | |
 
 **Decenas (20-100):**
-```
-20 = twenty      60 = sixty
-30 = thirty      70 = seventy
-40 = forty       80 = eighty
-50 = fifty       90 = ninety
-100 = one hundred
-```
+
+| Número | Inglés | Número | Inglés |
+|--------|--------|--------|--------|
+| 20 | twenty | 60 | sixty |
+| 30 | thirty | 70 | seventy |
+| 40 | forty | 80 | eighty |
+| 50 | fifty | 90 | ninety |
+| 100 | one hundred | | |
 
 **Números intermedios:** Se forman uniendo decena + unidad
 - 21 = twenty-one
@@ -283,27 +285,23 @@ Vocabulario esencial para hablar de ti y tu entorno:
 
 **⚠️ También van con mayúscula:**
 
-```
-January (Jan.) = enero
-February (Feb.) = febrero
-March (Mar.) = marzo
-April (Apr.) = abril
-May = mayo
-June (Jun.) = junio
-July (Jul.) = julio
-August (Aug.) = agosto
-September (Sept.) = septiembre
-October (Oct.) = octubre
-November (Nov.) = noviembre
-December (Dec.) = diciembre
-```
+| Mes | Inglés | Abreviatura | Mes | Inglés | Abreviatura |
+|-----|--------|-------------|-----|--------|-------------|
+| 1 | January | Jan. | 7 | July | Jul. |
+| 2 | February | Feb. | 8 | August | Aug. |
+| 3 | March | Mar. | 9 | September | Sept. |
+| 4 | April | Apr. | 10 | October | Oct. |
+| 5 | May | May | 11 | November | Nov. |
+| 6 | June | Jun. | 12 | December | Dec. |
 
 #### Estaciones
 
-- spring = primavera
-- summer = verano
-- autumn / fall = otoño
-- winter = invierno
+| Estación | Inglés | Uso en inglés británico | Uso en inglés americano |
+|----------|--------|------------------------|------------------------|
+| Primavera | spring | spring | spring |
+| Verano | summer | summer | summer |
+| Otoño | autumn | autumn | fall |
+| Invierno | winter | winter | winter |
 
 #### Expresiones de Tiempo
 
