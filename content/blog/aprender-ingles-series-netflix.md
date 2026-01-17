@@ -225,12 +225,10 @@ Ver el episodio completo sin pausa, sin subtítulos
 
 **Métrica de progreso:**
 
-| Reconocimiento | Interpretación |
-|----------------|----------------|
-| 70-100% | Excelente - siguiente episodio |
-| 50-70% | Bien - continúa con Pasada 3 |
-| 30-50% | El episodio era muy difícil - elige serie más fácil |
-| <30% | Demasiado avanzado - baja de nivel |
+- **70-100%** → Excelente - siguiente episodio
+- **50-70%** → Bien - continúa con Pasada 3
+- **30-50%** → El episodio era muy difícil - elige serie más fácil
+- **<30%** → Demasiado avanzado - baja de nivel
 
 **Reflexión post-visionado (5 min):**
 - "¿Cuánto entendí sin subtítulos vs. con subtítulos?"
@@ -502,11 +500,9 @@ Subtítulos en español = ver una película/serie doblada pero peor
 
 **Efectividad por tipo de subtítulo:**
 
-| Tipo | Mejora Listening | Mejora Reading | Mejora Speaking |
-|------|-----------------|----------------|-----------------|
-| **Español** | 5% | 10% (español) | 0% |
-| **Inglés** | 40% | 60% | 15% |
-| **Sin subtítulos (tras prep)** | 95% | 0% | 30% |
+- **Español:** Listening 5% | Reading 10% (español) | Speaking 0%
+- **Inglés:** Listening 40% | Reading 60% | Speaking 15%
+- **Sin subtítulos (tras prep):** Listening 95% | Reading 0% | Speaking 30%
 
 **Progresión recomendada:**
 
@@ -670,13 +666,13 @@ Ver episodio → aprender 15 frases → nunca revisarlas → olvidarlas en 3 dí
 
 ### Plataformas de Streaming
 
-| Plataforma | Catálogo Inglés | Calidad Subtítulos | Precio España |
-|-----------|----------------|-------------------|---------------|
-| **Netflix** | ★★★★★ | ★★★★★ | €5.49-€19.99/mes |
-| **Disney+** | ★★★★☆ | ★★★★☆ | €8.99/mes |
-| **HBO Max** | ★★★★☆ | ★★★★★ | €9.99/mes |
-| **Amazon Prime** | ★★★☆☆ | ★★★☆☆ | €4.99/mes |
-| **Apple TV+** | ★★★☆☆ | ★★★★★ | €9.99/mes |
+**Comparativa de servicios:**
+
+- **Netflix** → Catálogo ★★★★★ | Subtítulos ★★★★★ | €5.49-€19.99/mes
+- **Disney+** → Catálogo ★★★★☆ | Subtítulos ★★★★☆ | €8.99/mes
+- **HBO Max** → Catálogo ★★★★☆ | Subtítulos ★★★★★ | €9.99/mes
+- **Amazon Prime** → Catálogo ★★★☆☆ | Subtítulos ★★★☆☆ | €4.99/mes
+- **Apple TV+** → Catálogo ★★★☆☆ | Subtítulos ★★★★★ | €9.99/mes
 
 **Recomendación:** Netflix (mejor catálogo + subtítulos + funciona con Language Reactor)
 

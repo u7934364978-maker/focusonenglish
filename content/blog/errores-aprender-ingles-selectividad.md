@@ -238,18 +238,16 @@ La profesora Swain (Universidad de Toronto) demostró que el **output (producci�
 
 **Los 10 pares críticos para españoles:**
 
-| Par | Diferencia | Práctica |
-|-----|-----------|----------|
-| ship / sheep | i corta vs ee larga | "I need six sheep" / "I arrived by ship" |
-| bad / bed | a vs e | "That's a bad idea" / "Go to bed" |
-| lock / look | o vs u | "Lock the door" / "Look at this" |
-| three / tree | th vs tr | "Three trees in the garden" |
-| very / berry | v vs b | "Very good berries" |
-| fail / fell | ei vs e | "I failed the exam" / "He fell down" |
-| live / leave | i vs i: | "I live here" / "I need to leave" |
-| beach / bitch | i: vs i | "Beautiful beach" (¡cuidado con este!) |
-| walk / work | ɔ: vs ɜ: | "I walk to work" |
-| full / fool | u vs u: | "The glass is full" / "Don't be a fool" |
+- **ship / sheep** (i corta vs ee larga) → *"I need six sheep" / "I arrived by ship"*
+- **bad / bed** (a vs e) → *"That's a bad idea" / "Go to bed"*
+- **lock / look** (o vs u) → *"Lock the door" / "Look at this"*
+- **three / tree** (th vs tr) → *"Three trees in the garden"*
+- **very / berry** (v vs b) → *"Very good berries"*
+- **fail / fell** (ei vs e) → *"I failed the exam" / "He fell down"*
+- **live / leave** (i vs i:) → *"I live here" / "I need to leave"*
+- **beach / bitch** (i: vs i) → *"Beautiful beach"* (¡cuidado con este!)
+- **walk / work** (ɔ: vs ɜ:) → *"I walk to work"*
+- **full / fool** (u vs u:) → *"The glass is full" / "Don't be a fool"*
 
 **Ejercicio diario (10 min):**
 1. Escuchar par de palabras
@@ -459,10 +457,12 @@ La profesora Swain (Universidad de Toronto) demostró que el **output (producci�
 - **Ejemplo 1:** I find it difficult to speak in English
 - **Ejemplo 2:** She finds it easy to remember vocabulary
 
-**Formato ideal:**
-| Chunk | Ejemplo 1 | Ejemplo 2 | Mi ejemplo |
-|-------|----------|----------|------------|
-| make a decision | I need to make a decision | She made the right decision | I have to make a decision about my career |
+**Formato ideal para practicar chunks:**
+
+**Chunk:** make a decision
+- **Ejemplo 1:** I need to make a decision
+- **Ejemplo 2:** She made the right decision  
+- **Mi ejemplo:** I have to make a decision about my career
 
 **Paso 2: Categorizar por Función**
 

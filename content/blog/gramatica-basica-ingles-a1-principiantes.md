@@ -50,16 +50,16 @@ Esta guía completa cubre todos los elementos gramaticales esenciales del nivel 
 
 Los pronombres personales son la base de cualquier oración en inglés. A diferencia del español, en inglés **siempre debemos usar el pronombre sujeto**:
 
-| Inglés | Español | Ejemplo |
-|--------|---------|---------|
-| I | Yo | I am a student |
-| You | Tú / Usted | You are nice |
-| He | Él | He is my brother |
-| She | Ella | She is a teacher |
-| It | Él/Ella (cosas/animales) | It is a cat |
-| We | Nosotros/Nosotras | We are friends |
-| You | Vosotros/Ustedes | You are students |
-| They | Ellos/Ellas | They are happy |
+**Pronombres personales en inglés:**
+
+- **I** (Yo) → *I am a student*
+- **You** (Tú / Usted) → *You are nice*
+- **He** (Él) → *He is my brother*
+- **She** (Ella) → *She is a teacher*
+- **It** (Él/Ella para cosas/animales) → *It is a cat*
+- **We** (Nosotros/Nosotras) → *We are friends*
+- **You** (Vosotros/Ustedes) → *You are students*
+- **They** (Ellos/Ellas) → *They are happy*
 
 **⚠️ Error común para españoles:** En español podemos decir "soy estudiante" sin pronombre, pero en inglés debemos decir **"I am a student"** siempre.
 
@@ -255,16 +255,16 @@ never (nunca) → 0%
 
 Los adjetivos posesivos indican pertenencia:
 
-| Pronombre | Adjetivo Posesivo | Ejemplo |
-|-----------|-------------------|---------|
-| I | my | my book |
-| you | your | your car |
-| he | his | his house |
-| she | her | her phone |
-| it | its | its name |
-| we | our | our family |
-| you | your | your friends |
-| they | their | their dog |
+**Adjetivos posesivos:**
+
+- **I** → **my** (mi/mis) → *my book*
+- **you** → **your** (tu/tus) → *your car*
+- **he** → **his** (su/sus de él) → *his house*
+- **she** → **her** (su/sus de ella) → *her phone*
+- **it** → **its** (su/sus de cosa) → *its name*
+- **we** → **our** (nuestro/a/os/as) → *our family*
+- **you** → **your** (vuestro/a/os/as) → *your friends*
+- **they** → **their** (su/sus de ellos) → *their dog*
 
 **⚠️ Diferencias con el español:**
 1. En inglés, el adjetivo posesivo concuerda con el **poseedor**, no con la cosa poseída:
@@ -285,10 +285,13 @@ Los adjetivos posesivos indican pertenencia:
 
 Los adjetivos demostrativos señalan objetos o personas:
 
-| Singular | Plural | Uso |
-|----------|--------|-----|
-| this | these | Cerca (esto/esta, estos/estas) |
-| that | those | Lejos (eso/esa, esos/esas) |
+**Demostrativos (cerca):**
+- **this** (singular) → esto/esta
+- **these** (plural) → estos/estas
+
+**Demostrativos (lejos):**
+- **that** (singular) → eso/esa
+- **those** (plural) → esos/esas
 
 **Ejemplos:**
 - **This** book is interesting. (Este libro es interesante) - cerca
@@ -334,17 +337,17 @@ Los adjetivos demostrativos señalan objetos o personas:
 
 Estos plurales debes memorizarlos:
 
-| Singular | Plural |
-|----------|--------|
-| man | men |
-| woman | women |
-| child | children |
-| person | people |
-| tooth | teeth |
-| foot | feet |
-| mouse | mice |
-| fish | fish |
-| sheep | sheep |
+**Plurales irregulares comunes:**
+
+- **man** → **men** (hombre/hombres)
+- **woman** → **women** (mujer/mujeres)
+- **child** → **children** (niño/niños)
+- **person** → **people** (persona/personas)
+- **tooth** → **teeth** (diente/dientes)
+- **foot** → **feet** (pie/pies)
+- **mouse** → **mice** (ratón/ratones)
+- **fish** → **fish** (pez/peces - igual)
+- **sheep** → **sheep** (oveja/ovejas - igual)
 
 **Ejemplos:**
 - One **man**, two **men**. (Un hombre, dos hombres)
@@ -406,17 +409,17 @@ Las preposiciones de lugar indican dónde está algo o alguien:
 
 Las "question words" o palabras interrogativas son esenciales para hacer preguntas específicas:
 
-| Question Word | Significado | Pregunta por |
-|---------------|-------------|--------------|
-| What | Qué | Cosas, información |
-| Who | Quién | Personas |
-| Where | Dónde | Lugares |
-| When | Cuándo | Tiempo |
-| Why | Por qué | Razones |
-| How | Cómo | Manera |
-| How much | Cuánto | Cantidad (incontable) |
-| How many | Cuántos | Cantidad (contable) |
-| How old | Qué edad | Edad |
+**Palabras interrogativas (Question Words):**
+
+- **What** (Qué) → pregunta por cosas, información
+- **Who** (Quién) → pregunta por personas
+- **Where** (Dónde) → pregunta por lugares
+- **When** (Cuándo) → pregunta por tiempo
+- **Why** (Por qué) → pregunta por razones
+- **How** (Cómo) → pregunta por manera
+- **How much** (Cuánto) → cantidad incontable
+- **How many** (Cuántos) → cantidad contable
+- **How old** (Qué edad) → pregunta por edad
 
 ### Estructura de Preguntas con "Question Words"
 
@@ -451,15 +454,16 @@ Question Word + do/does + sujeto + verbo?
 
 Ya hemos visto las negaciones con "to be" y el presente simple, pero resumamos las estructuras principales:
 
-### Tabla Resumen de Negaciones
+### Resumen de Negaciones
 
-| Verbo | Afirmativa | Negativa | Forma Corta |
-|-------|------------|----------|-------------|
-| to be | I am | I am not | I'm not |
-| to be | He is | He is not | He isn't |
-| to be | They are | They are not | They aren't |
-| Present Simple | I work | I do not work | I don't work |
-| Present Simple | She works | She does not work | She doesn't work |
+**Con "to be":**
+- **I am** → I am not (I'm not)
+- **He is** → He is not (He isn't)
+- **They are** → They are not (They aren't)
+
+**Con Presente Simple:**
+- **I work** → I do not work (I don't work)
+- **She works** → She does not work (She doesn't work)
 
 **Ejemplos en contexto:**
 - I'm **not** hungry. (No tengo hambre)
@@ -585,19 +589,19 @@ Ya hemos visto las negaciones con "to be" y el presente simple, pero resumamos l
 
 Si buscas una metodología integral que te guíe paso a paso por toda la gramática A1 con ejercicios prácticos, profesores nativos y feedback personalizado, [explora nuestros cursos de inglés nivel A1](https://focus-english.com/cursos/a1) diseñados específicamente para hispanohablantes.
 
-## Tabla Resumen: Gramática Esencial A1
+## Resumen: Gramática Esencial A1
 
-| Elemento Gramatical | Uso Principal | Ejemplo Clave |
-|---------------------|---------------|---------------|
-| To Be | Identificar, describir | I am a student |
-| Present Simple | Rutinas, hábitos | I work every day |
-| Artículos a/an/the | Especificar sustantivos | A book, the book |
-| Posesivos | Indicar pertenencia | My book, his car |
-| Demostrativos | Señalar objetos | This book, those cars |
-| Plurales | Más de uno | Books, children |
-| Preposiciones lugar | Ubicación | In, on, at, under |
-| Preposiciones tiempo | Cuándo | At 5 pm, on Monday |
-| Question Words | Hacer preguntas | What, where, when |
+**Elementos gramaticales fundamentales:**
+
+- **To Be** → Identificar, describir → *I am a student*
+- **Present Simple** → Rutinas, hábitos → *I work every day*
+- **Artículos a/an/the** → Especificar sustantivos → *A book, the book*
+- **Posesivos** → Indicar pertenencia → *My book, his car*
+- **Demostrativos** → Señalar objetos → *This book, those cars*
+- **Plurales** → Más de uno → *Books, children*
+- **Preposiciones lugar** → Ubicación → *In, on, at, under*
+- **Preposiciones tiempo** → Cuándo → *At 5 pm, on Monday*
+- **Question Words** → Hacer preguntas → *What, where, when*
 
 ## Checklist de Dominio: ¿Has Alcanzado el Nivel A1 en Gramática?
 
