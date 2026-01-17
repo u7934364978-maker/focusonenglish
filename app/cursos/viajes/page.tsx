@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Navigation } from '@/components/sections/Navigation';
+import { CourseLaunchBanner } from '@/components/CourseLaunchBanner';
 
 export const metadata: Metadata = {
   title: 'Inglés para Viajar | Aprende Inglés para Turismo | Focus English',
@@ -21,6 +22,7 @@ export default function ViajesPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 to-teal-50">
       <Navigation />
+      <CourseLaunchBanner />
       
       <section className="relative py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">

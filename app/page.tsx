@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/sections/Navigation";
+import { CourseLaunchBanner } from "@/components/CourseLaunchBanner";
 import Link from "next/link";
 import { Metadata } from "next";
 
@@ -19,6 +20,10 @@ export default function HomePage() {
   return (
     <>
       <Navigation />
+      
+      {/* Course Launch Banner */}
+      <CourseLaunchBanner />
+      
       <main className="min-h-screen">
         
         {/* Hero Section - Purple Gradient */}
