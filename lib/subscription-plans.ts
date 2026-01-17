@@ -104,10 +104,10 @@ export const SUBSCRIPTION_PLANS: Record<string, SubscriptionPlan> = {
     ],
     limitations: [],
     color: {
-      border: 'border-violet-200',
-      bg: 'bg-violet-50',
-      text: 'text-violet-600',
-      gradient: 'from-violet-600 to-purple-600',
+      border: 'border-coral-200',
+      bg: 'bg-coral-50',
+      text: 'text-coral-600',
+      gradient: 'from-coral-600 to-peach-600',
     },
   },
 
@@ -137,10 +137,10 @@ export const SUBSCRIPTION_PLANS: Record<string, SubscriptionPlan> = {
     ],
     limitations: [],
     color: {
-      border: 'border-violet-200',
-      bg: 'bg-violet-50',
-      text: 'text-violet-600',
-      gradient: 'from-violet-600 to-purple-600',
+      border: 'border-coral-200',
+      bg: 'bg-coral-50',
+      text: 'text-coral-600',
+      gradient: 'from-coral-600 to-peach-600',
     },
   },
 };

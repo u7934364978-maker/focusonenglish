@@ -151,7 +151,7 @@ export default function PlacementGoalPage({ params }: PageProps) {
             </div>
             <div className="mt-2 h-3 w-full rounded-full bg-slate-100">
               <div
-                className="h-3 rounded-full bg-violet-600 transition-all"
+                className="h-3 rounded-full bg-coral-600 transition-all"
                 style={{ width: `${Math.round((answeredCount / total) * 100)}%` }}
               />
             </div>
@@ -173,7 +173,7 @@ export default function PlacementGoalPage({ params }: PageProps) {
                       onClick={() => setAnswers((a) => ({ ...a, [q.id]: i }))}
                       className={[
                         "text-left rounded-2xl border px-4 py-3 text-sm font-semibold",
-                        answers[q.id] === i ? "border-violet-400 bg-violet-50" : "border-slate-200 bg-white hover:bg-slate-50",
+                        answers[q.id] === i ? "border-coral-400 bg-coral-50" : "border-slate-200 bg-white hover:bg-slate-50",
                       ].join(" ")}
                     >
                       {opt}
