@@ -252,11 +252,11 @@ export default function PronunciationPractice({
   return (
     <div className="space-y-6">
       {/* Instructions */}
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-        <h3 className="font-semibold text-blue-900 mb-2">📢 Pronunciation Practice</h3>
-        <p className="text-blue-800 mb-2">{prompt}</p>
+      <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+        <h3 className="font-semibold text-coral-900 mb-2">📢 Pronunciation Practice</h3>
+        <p className="text-coral-800 mb-2">{prompt}</p>
         {targetText && (
-          <div className="bg-white rounded p-3 mt-3 border border-blue-100">
+          <div className="bg-white rounded p-3 mt-3 border border-sky-100">
             <p className="font-medium text-gray-900 text-lg">&quot;{targetText}&quot;</p>
           </div>
         )}
@@ -264,8 +264,8 @@ export default function PronunciationPractice({
 
       {/* Model Audio */}
       {modelAudioUrl && (
-        <div className="bg-purple-50 border border-purple-200 rounded-lg p-4">
-          <h4 className="font-semibold text-purple-900 mb-3 flex items-center gap-2">
+        <div className="bg-peach-50 border border-peach-200 rounded-lg p-4">
+          <h4 className="font-semibold text-peach-900 mb-3 flex items-center gap-2">
             <Volume2 className="h-5 w-5" />
             Listen to the Model
           </h4>
@@ -277,7 +277,7 @@ export default function PronunciationPractice({
           />
           <button
             onClick={playModelAudio}
-            className="w-full bg-purple-600 text-white px-4 py-3 rounded-lg hover:bg-purple-700 transition flex items-center justify-center gap-2 font-medium"
+            className="w-full bg-peach-600 text-white px-4 py-3 rounded-lg hover:bg-peach-700 transition flex items-center justify-center gap-2 font-medium"
           >
             {isPlayingModel ? (
               <>
@@ -339,7 +339,7 @@ export default function PronunciationPractice({
               className={`w-full px-6 py-4 rounded-lg font-medium transition flex items-center justify-center gap-2 ${
                 isRecording
                   ? 'bg-red-600 hover:bg-red-700 text-white'
-                  : 'bg-blue-600 hover:bg-blue-700 text-white'
+                  : 'bg-coral-600 hover:bg-coral-700 text-white'
               }`}
             >
               {isRecording ? (
@@ -411,7 +411,7 @@ export default function PronunciationPractice({
               <button
                 onClick={evaluatePronunciation}
                 disabled={isEvaluating}
-                className="w-full bg-blue-600 text-white px-6 py-4 rounded-lg hover:bg-blue-700 transition font-medium disabled:bg-gray-400 disabled:cursor-not-allowed"
+                className="w-full bg-coral-600 text-white px-6 py-4 rounded-lg hover:bg-coral-700 transition font-medium disabled:bg-gray-400 disabled:cursor-not-allowed"
               >
                 {isEvaluating ? (
                   <>🔄 Evaluating...</>
@@ -538,11 +538,11 @@ export default function PronunciationPractice({
           )}
 
           {/* Suggestions */}
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
-            <h4 className="font-semibold text-blue-900 mb-3">💡 Suggestions for Improvement</h4>
+          <div className="bg-sky-50 border border-sky-200 rounded-lg p-6">
+            <h4 className="font-semibold text-coral-900 mb-3">💡 Suggestions for Improvement</h4>
             <ul className="space-y-2">
               {evaluation.suggestions.map((suggestion, index) => (
-                <li key={index} className="text-blue-800 flex items-start gap-2">
+                <li key={index} className="text-coral-800 flex items-start gap-2">
                   <span className="font-bold">{index + 1}.</span>
                   {suggestion}
                 </li>

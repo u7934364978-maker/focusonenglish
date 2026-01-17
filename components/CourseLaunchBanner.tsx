@@ -45,13 +45,13 @@ export function CourseLaunchBanner() {
   };
 
   return (
-    <div className="sticky top-0 z-50 bg-gradient-to-r from-violet-50 via-purple-50 to-indigo-50 border-b border-violet-200 shadow-md">
+    <div className="sticky top-0 z-50 bg-gradient-to-r from-coral-50 via-peach-50 to-melon-50 border-b border-coral-200 shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
           
           {/* Message Section */}
           <div className="flex-1 text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-violet-100 text-violet-700 text-sm font-bold mb-3">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-coral-100 text-coral-700 text-sm font-bold mb-3">
               <span className="animate-pulse">🚀</span>
               Próximamente
             </div>
@@ -65,7 +65,7 @@ export function CourseLaunchBanner() {
               Mientras tanto, puedes explorar nuestro{' '}
               <Link 
                 href="/blog" 
-                className="text-violet-600 font-bold hover:text-violet-700 underline decoration-2 underline-offset-2"
+                className="text-coral-600 font-bold hover:text-coral-700 underline decoration-2 underline-offset-2"
               >
                 blog con guías y recursos gratuitos
               </Link>
@@ -83,7 +83,7 @@ export function CourseLaunchBanner() {
                 </p>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="bg-white rounded-xl shadow-lg border-2 border-violet-200 p-6">
+              <form onSubmit={handleSubmit} className="bg-white rounded-xl shadow-lg border-2 border-coral-200 p-6">
                 <label className="block mb-3">
                   <span className="text-slate-900 font-bold text-lg block mb-2">
                     📧 Avísame del lanzamiento
@@ -93,7 +93,7 @@ export function CourseLaunchBanner() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="tu@email.com"
-                    className="w-full px-4 py-3 rounded-lg border-2 border-slate-200 focus:border-violet-500 focus:ring-2 focus:ring-violet-200 outline-none transition-all text-slate-900 placeholder:text-slate-400"
+                    className="w-full px-4 py-3 rounded-lg border-2 border-slate-200 focus:border-coral-500 focus:ring-2 focus:ring-coral-200 outline-none transition-all text-slate-900 placeholder:text-slate-400"
                     disabled={status === 'loading'}
                     required
                   />
@@ -108,7 +108,7 @@ export function CourseLaunchBanner() {
                 <button
                   type="submit"
                   disabled={status === 'loading'}
-                  className="w-full bg-gradient-to-r from-violet-600 to-purple-600 text-white py-3 px-6 rounded-lg font-bold text-lg hover:shadow-xl hover:scale-105 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+                  className="w-full bg-gradient-to-r from-coral-600 to-peach-600 text-white py-3 px-6 rounded-lg font-bold text-lg hover:shadow-xl hover:scale-105 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
                 >
                   {status === 'loading' ? (
                     <span className="flex items-center justify-center gap-2">

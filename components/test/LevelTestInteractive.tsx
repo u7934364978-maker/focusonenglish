@@ -74,7 +74,7 @@ export default function LevelTestInteractive() {
       <div className="max-w-3xl mx-auto">
         <div className="bg-white rounded-2xl shadow-xl border border-slate-200 p-8 md:p-12">
           <div className="text-center mb-8">
-            <div className="w-20 h-20 bg-gradient-to-br from-violet-500 to-purple-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <div className="w-20 h-20 bg-gradient-to-br from-coral-500 to-peach-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
               <BarChart3 className="w-10 h-10 text-white" />
             </div>
             <h2 className="text-3xl font-black text-slate-900 mb-4">
@@ -86,17 +86,17 @@ export default function LevelTestInteractive() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 border border-blue-200">
+            <div className="bg-gradient-to-br from-sky-50 to-cyan-50 rounded-xl p-6 border border-sky-200">
               <div className="flex items-center gap-3 mb-2">
-                <Clock className="w-5 h-5 text-blue-600" />
+                <Clock className="w-5 h-5 text-coral-600" />
                 <h3 className="font-bold text-slate-900">Duración</h3>
               </div>
               <p className="text-sm text-slate-600">15-20 minutos</p>
             </div>
 
-            <div className="bg-gradient-to-br from-violet-50 to-purple-50 rounded-xl p-6 border border-violet-200">
+            <div className="bg-gradient-to-br from-coral-50 to-peach-50 rounded-xl p-6 border border-coral-200">
               <div className="flex items-center gap-3 mb-2">
-                <BarChart3 className="w-5 h-5 text-violet-600" />
+                <BarChart3 className="w-5 h-5 text-coral-600" />
                 <h3 className="font-bold text-slate-900">Preguntas</h3>
               </div>
               <p className="text-sm text-slate-600">{LEVEL_TEST_QUESTIONS.length} preguntas</p>
@@ -138,7 +138,7 @@ export default function LevelTestInteractive() {
 
           <button
             onClick={handleStart}
-            className="w-full bg-gradient-to-r from-violet-600 to-purple-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-violet-700 hover:to-purple-700 transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
+            className="w-full bg-gradient-to-r from-coral-600 to-peach-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-coral-700 hover:to-peach-700 transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
           >
             Comenzar Test
             <ArrowRight className="w-5 h-5" />
@@ -240,7 +240,7 @@ export default function LevelTestInteractive() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href={result.courseUrl}
-                className="flex-1 bg-gradient-to-r from-violet-600 to-purple-600 text-white px-8 py-4 rounded-xl font-bold text-center hover:from-violet-700 hover:to-purple-700 transition-all shadow-lg hover:shadow-xl"
+                className="flex-1 bg-gradient-to-r from-coral-600 to-peach-600 text-white px-8 py-4 rounded-xl font-bold text-center hover:from-coral-700 hover:to-peach-700 transition-all shadow-lg hover:shadow-xl"
               >
                 Ver Curso Recomendado →
               </Link>
@@ -271,12 +271,12 @@ export default function LevelTestInteractive() {
             Pregunta {currentQuestionIndex + 1} de {LEVEL_TEST_QUESTIONS.length}
           </span>
           <span className="text-sm text-slate-600">
-            Nivel: <span className="font-bold text-violet-600">{currentQuestion.level}</span>
+            Nivel: <span className="font-bold text-coral-600">{currentQuestion.level}</span>
           </span>
         </div>
         <div className="h-2 bg-slate-200 rounded-full overflow-hidden">
           <div
-            className="h-full bg-gradient-to-r from-violet-600 to-purple-600 transition-all duration-300"
+            className="h-full bg-gradient-to-r from-coral-600 to-peach-600 transition-all duration-300"
             style={{ width: `${progress}%` }}
           />
         </div>
@@ -287,7 +287,7 @@ export default function LevelTestInteractive() {
         {/* Question header */}
         <div className="flex items-center gap-3 mb-6">
           <div className={`w-12 h-12 rounded-xl ${
-            currentQuestion.skill === 'grammar' ? 'bg-blue-100 text-blue-600' :
+            currentQuestion.skill === 'grammar' ? 'bg-sky-100 text-coral-600' :
             currentQuestion.skill === 'vocabulary' ? 'bg-emerald-100 text-emerald-600' :
             'bg-amber-100 text-amber-600'
           } flex items-center justify-center font-bold`}>
@@ -330,14 +330,14 @@ export default function LevelTestInteractive() {
                 onClick={() => handleAnswer(index)}
                 className={`w-full text-left p-5 rounded-xl border-2 transition-all ${
                   isSelected
-                    ? 'border-violet-600 bg-violet-50 shadow-md'
-                    : 'border-slate-200 bg-white hover:border-violet-300 hover:bg-slate-50'
+                    ? 'border-coral-600 bg-coral-50 shadow-md'
+                    : 'border-slate-200 bg-white hover:border-coral-300 hover:bg-slate-50'
                 }`}
               >
                 <div className="flex items-center gap-4">
                   <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center flex-shrink-0 font-bold ${
                     isSelected
-                      ? 'border-violet-600 bg-violet-600 text-white'
+                      ? 'border-coral-600 bg-coral-600 text-white'
                       : 'border-slate-300 text-slate-400'
                   }`}>
                     {String.fromCharCode(65 + index)}
@@ -368,7 +368,7 @@ export default function LevelTestInteractive() {
           disabled={!hasAnswered}
           className={`flex-1 flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold text-lg transition-all ${
             hasAnswered
-              ? 'bg-gradient-to-r from-violet-600 to-purple-600 text-white hover:from-violet-700 hover:to-purple-700 shadow-lg hover:shadow-xl'
+              ? 'bg-gradient-to-r from-coral-600 to-peach-600 text-white hover:from-coral-700 hover:to-peach-700 shadow-lg hover:shadow-xl'
               : 'bg-slate-200 text-slate-400 cursor-not-allowed'
           }`}
         >
