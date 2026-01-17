@@ -1,69 +1,85 @@
 'use client';
 
 // ============================================
-// DASHBOARD DEL ESTUDIANTE
-// Panel principal con progreso, estadísticas y acceso rápido
-// Version: 2.1 - Sistema de ejercicios infinitos
-// Updated: 2026-01-17 - FORCE REBUILD
-// Build ID: 20260117-001
+// DASHBOARD INFINITO - Sistema de Ejercicios Ilimitados
+// Basado en TEMAS, FUERZA y DOMINIO (no en cantidad de ejercicios)
+// Version: 3.0 - Infinite Exercise System
+// Updated: 2026-01-17
 // ============================================
 
-// import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
-// Icons (usando emojis simples por ahora)
+// Mock data - en producción vendría de Supabase
+const mockUserData = {
+  name: 'Administrador',
+  email: 'admin@focus-on-english.com',
+  stats: {
+    streakDays: 7,
+    totalStudyMinutes: 1440, // 24 horas
+    topicsStarted: 8,
+    topicsCompleted: 3,
+    averageStrength: 72, // Promedio de fuerza en todos los temas
+  },
+  currentFocus: {
+    topicId: 'advanced-grammar-structures',
+    topicName: 'Estructuras Gramaticales Avanzadas',
+    strengthLevel: 65,
+    proficiency: 'intermediate' as const,
+    minutesThisWeek: 120,
+  },
+  recentTopics: [
+    { id: '1', name: 'Mixed Conditionals', strength: 85, change: +5, category: 'grammar' },
+    { id: '2', name: 'Inversion for Emphasis', strength: 78, change: +8, category: 'grammar' },
+    { id: '3', name: 'Academic Vocabulary', strength: 72, change: +3, category: 'vocabulary' },
+  ],
+  weeklyGoals: {
+    practiceMinutes: { current: 180, target: 300 },
+    topicsDominated: { current: 2, target: 3 },
+    strengthGain: { current: 45, target: 75 },
+  },
+};
+
 const icons = {
-  book: '📚',
-  trophy: '🏆',
   fire: '🔥',
-  chart: '📊',
-  certificate: '🎓',
-  clock: '⏰',
+  clock: '⏱️',
   target: '🎯',
+  trophy: '🏆',
+  brain: '🧠',
+  chart: '📊',
+  book: '📚',
   star: '⭐',
+  rocket: '🚀',
+  muscle: '💪',
 };
 
 export default function DashboardPage() {
-  // TODO: Reactivar autenticación con SessionProvider
-  // const { data: session, status } = useSession();
-  const session = { user: { name: 'Estudiante' } }; // Mock session
   const router = useRouter();
   const [loading, setLoading] = useState(false);
-  const [progress, setProgress] = useState({
-    currentLevel: 'B2',
-    currentModule: 1,
-    completedLessons: 3,
-    totalLessons: 18,
-    overallProgress: 17, // Percentage
-    streakDays: 7,
-    totalStudyHours: 24,
-    certificatesEarned: 0,
-  });
+  const [userData] = useState(mockUserData);
 
   useEffect(() => {
-    // TODO: Reactivar verificación de autenticación
-    // if (status === 'unauthenticated') {
-    //   router.push('/login');
-    // } else if (status === 'authenticated') {
-    //   setLoading(false);
-    // }
     setLoading(false);
-  }, [router]);
+  }, []);
 
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto"></div>
-          <p className="mt-4 text-gray-600">Cargando tu dashboard...</p>
+          <p className="mt-4 text-gray-600">Cargando tu progreso...</p>
         </div>
       </div>
     );
   }
 
-  const progressPercentage = (progress.completedLessons / progress.totalLessons) * 100;
+  // Calcular nivel de dominio general
+  const overallMastery = userData.stats.averageStrength;
+  const masteryLevel = 
+    overallMastery >= 90 ? 'Maestría' :
+    overallMastery >= 70 ? 'Avanzado' :
+    overallMastery >= 40 ? 'Intermedio' : 'Principiante';
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
@@ -73,17 +89,17 @@ export default function DashboardPage() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold text-gray-900">
-                ¡Hola, {session?.user?.name?.split(' ')[0] || 'Estudiante'}! 👋
+                ¡Hola, {userData.name.split(' ')[0]}! 👋
               </h1>
               <p className="text-sm text-gray-600 mt-1">
-                Continúa tu camino hacia la fluidez en inglés
+                Continúa fortaleciendo tu inglés • Nivel: <span className="font-bold text-blue-600">{masteryLevel}</span>
               </p>
             </div>
             <Link
               href="/profile"
               className="flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
             >
-              <span className="text-2xl">{session?.user?.image ? '👤' : '😊'}</span>
+              <span className="text-2xl">😊</span>
               <span className="text-sm font-medium">Perfil</span>
             </Link>
           </div>
@@ -91,151 +107,148 @@ export default function DashboardPage() {
       </header>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Stats Cards */}
+        {/* Stats Cards - Sistema Infinito */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           {/* Racha */}
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
             <div className="flex items-center justify-between mb-2">
               <span className="text-3xl">{icons.fire}</span>
               <span className="text-xs font-medium text-orange-600 bg-orange-50 px-2 py-1 rounded">
-                Activo
+                ¡En racha!
               </span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900">{progress.streakDays} días</h3>
-            <p className="text-sm text-gray-600">Racha de estudio</p>
+            <h3 className="text-2xl font-bold text-gray-900">{userData.stats.streakDays} días</h3>
+            <p className="text-sm text-gray-600">Racha de práctica</p>
           </div>
 
-          {/* Lecciones Completadas */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-            <div className="flex items-center justify-between mb-2">
-              <span className="text-3xl">{icons.book}</span>
-              <span className="text-xs font-medium text-blue-600 bg-blue-50 px-2 py-1 rounded">
-                Progreso
-              </span>
-            </div>
-            <h3 className="text-2xl font-bold text-gray-900">
-              {progress.completedLessons}/{progress.totalLessons}
-            </h3>
-            <p className="text-sm text-gray-600">Lecciones completadas</p>
-          </div>
-
-          {/* Horas de Estudio */}
+          {/* Tiempo de Estudio */}
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
             <div className="flex items-center justify-between mb-2">
               <span className="text-3xl">{icons.clock}</span>
-              <span className="text-xs font-medium text-green-600 bg-green-50 px-2 py-1 rounded">
+              <span className="text-xs font-medium text-blue-600 bg-blue-50 px-2 py-1 rounded">
                 Total
               </span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900">{progress.totalStudyHours}h</h3>
-            <p className="text-sm text-gray-600">Horas de estudio</p>
+            <h3 className="text-2xl font-bold text-gray-900">
+              {Math.floor(userData.stats.totalStudyMinutes / 60)}h
+            </h3>
+            <p className="text-sm text-gray-600">Tiempo de práctica</p>
           </div>
 
-          {/* Certificados */}
+          {/* Fuerza Promedio */}
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
             <div className="flex items-center justify-between mb-2">
-              <span className="text-3xl">{icons.certificate}</span>
-              <span className="text-xs font-medium text-purple-600 bg-purple-50 px-2 py-1 rounded">
-                Logros
+              <span className="text-3xl">{icons.muscle}</span>
+              <span className="text-xs font-medium text-green-600 bg-green-50 px-2 py-1 rounded">
+                Dominio
               </span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900">{progress.certificatesEarned}</h3>
-            <p className="text-sm text-gray-600">Certificados obtenidos</p>
+            <h3 className="text-2xl font-bold text-gray-900">{userData.stats.averageStrength}%</h3>
+            <p className="text-sm text-gray-600">Fuerza promedio</p>
+          </div>
+
+          {/* Temas Activos */}
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <div className="flex items-center justify-between mb-2">
+              <span className="text-3xl">{icons.brain}</span>
+              <span className="text-xs font-medium text-purple-600 bg-purple-50 px-2 py-1 rounded">
+                Temas
+              </span>
+            </div>
+            <h3 className="text-2xl font-bold text-gray-900">
+              {userData.stats.topicsStarted}
+            </h3>
+            <p className="text-sm text-gray-600">Temas en progreso</p>
           </div>
         </div>
 
         {/* Main Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Left Column - Progress */}
+          {/* Left Column - Current Focus */}
           <div className="lg:col-span-2 space-y-6">
-            {/* Current Course Progress */}
+            {/* Enfoque Actual */}
             <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-xl font-bold text-gray-900">
-                  {icons.target} Tu Progreso Actual
+                  {icons.target} Tu Enfoque Actual
                 </h2>
-                <span className="text-sm font-medium text-blue-600">
-                  Nivel {progress.currentLevel}
+                <span className="text-sm font-medium text-blue-600 capitalize">
+                  {userData.currentFocus.proficiency === 'beginner' && 'Principiante'}
+                  {userData.currentFocus.proficiency === 'intermediate' && 'Intermedio'}
+                  {userData.currentFocus.proficiency === 'advanced' && 'Avanzado'}
+                  {userData.currentFocus.proficiency === 'mastery' && 'Maestría'}
                 </span>
               </div>
 
-              {/* Progress Bar */}
-              <div className="mb-6">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-sm font-medium text-gray-700">
-                    Módulo {progress.currentModule} - Preparación de Exámenes
-                  </span>
-                  <span className="text-sm font-bold text-blue-600">
-                    {progressPercentage.toFixed(0)}%
-                  </span>
+              {/* Topic Card */}
+              <div className="mb-6 p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg border-2 border-blue-200">
+                <h3 className="font-bold text-gray-900 mb-2">{userData.currentFocus.topicName}</h3>
+                
+                {/* Strength Bar */}
+                <div className="mb-3">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-sm font-medium text-gray-700">Nivel de Dominio</span>
+                    <span className="text-sm font-bold text-blue-600">
+                      {userData.currentFocus.strengthLevel}% {icons.muscle}
+                    </span>
+                  </div>
+                  <div className="w-full bg-gray-200 rounded-full h-3">
+                    <div
+                      className="bg-gradient-to-r from-blue-500 to-purple-600 h-3 rounded-full transition-all duration-500"
+                      style={{ width: `${userData.currentFocus.strengthLevel}%` }}
+                    ></div>
+                  </div>
                 </div>
-                <div className="w-full bg-gray-200 rounded-full h-3">
-                  <div
-                    className="bg-gradient-to-r from-blue-500 to-blue-600 h-3 rounded-full transition-all duration-500"
-                    style={{ width: `${progressPercentage}%` }}
-                  ></div>
+
+                <div className="text-sm text-gray-600">
+                  {icons.clock} {userData.currentFocus.minutesThisWeek} minutos esta semana
                 </div>
               </div>
 
-              {/* Continue Learning Button */}
+              {/* Continue Button */}
               <Link
-                href="/curso-b2"
-                className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-6 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all flex items-center justify-center gap-2 font-medium"
+                href="/practica"
+                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-6 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all flex items-center justify-center gap-2 font-medium"
               >
-                <span className="text-xl">{icons.book}</span>
-                Continuar Aprendiendo
+                <span className="text-xl">{icons.rocket}</span>
+                Continuar Practicando
               </Link>
             </div>
 
-            {/* Recent Lessons */}
+            {/* Temas Recientes */}
             <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
               <h2 className="text-xl font-bold text-gray-900 mb-4">
-                {icons.chart} Lecciones Recientes
+                {icons.chart} Temas Recientes
               </h2>
               <div className="space-y-3">
-                {[
-                  { id: 1, title: 'Past Perfect y Past Perfect Continuous', score: 92, completed: true },
-                  { id: 2, title: 'Mixed Conditionals', score: 88, completed: true },
-                  { id: 3, title: 'Inversion for Emphasis', score: 85, completed: true },
-                  { id: 4, title: 'Modales de Especulación', score: null, completed: false },
-                ].map((lesson) => (
+                {userData.recentTopics.map((topic) => (
                   <div
-                    key={lesson.id}
+                    key={topic.id}
                     className="flex items-center justify-between p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
                   >
                     <div className="flex items-center gap-3">
-                      <div
-                        className={`w-10 h-10 rounded-full flex items-center justify-center ${
-                          lesson.completed
-                            ? 'bg-green-100 text-green-600'
-                            : 'bg-gray-200 text-gray-400'
-                        }`}
-                      >
-                        {lesson.completed ? '✓' : lesson.id}
+                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center text-2xl">
+                        {topic.category === 'grammar' ? '📝' : '📚'}
                       </div>
                       <div>
-                        <h3 className="font-medium text-gray-900">{lesson.title}</h3>
-                        <p className="text-sm text-gray-600">
-                          Lección {lesson.id} - Módulo 1
-                        </p>
+                        <h3 className="font-medium text-gray-900">{topic.name}</h3>
+                        <div className="flex items-center gap-2 mt-1">
+                          <div className="w-24 bg-gray-200 rounded-full h-2">
+                            <div
+                              className="bg-blue-600 h-2 rounded-full"
+                              style={{ width: `${topic.strength}%` }}
+                            ></div>
+                          </div>
+                          <span className="text-xs text-gray-600">{topic.strength}%</span>
+                        </div>
                       </div>
                     </div>
-                    {lesson.completed && (
-                      <div className="text-right">
-                        <div className="text-lg font-bold text-green-600">
-                          {lesson.score}%
-                        </div>
-                        <div className="text-xs text-gray-500">Puntuación</div>
+                    <div className="text-right">
+                      <div className={`text-sm font-bold ${topic.change > 0 ? 'text-green-600' : 'text-gray-600'}`}>
+                        {topic.change > 0 ? '+' : ''}{topic.change}%
                       </div>
-                    )}
-                    {!lesson.completed && (
-                      <Link
-                        href={`/curso-b2/leccion/b2-m1-l${lesson.id}`}
-                        className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
-                      >
-                        Comenzar
-                      </Link>
-                    )}
+                      <div className="text-xs text-gray-500">esta semana</div>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -251,34 +264,27 @@ export default function DashboardPage() {
               </h2>
               <div className="space-y-3">
                 <Link
-                  href="/curso-b2"
-                  className="w-full flex items-center gap-3 p-3 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors"
-                >
-                  <span className="text-2xl">{icons.book}</span>
-                  <span className="font-medium text-gray-900">Ver todas las lecciones</span>
-                </Link>
-                <Link
                   href="/practica"
-                  className="w-full flex items-center gap-3 p-3 bg-gradient-to-r from-purple-50 to-blue-50 hover:from-purple-100 hover:to-blue-100 rounded-lg transition-colors border-2 border-purple-200 relative"
+                  className="w-full flex items-center gap-3 p-3 bg-gradient-to-r from-purple-50 to-blue-50 hover:from-purple-100 hover:to-blue-100 rounded-lg transition-colors border-2 border-purple-200"
                 >
                   <span className="text-2xl">🎯</span>
-                  <div className="flex-1">
+                  <div className="flex-1 text-left">
                     <div className="font-bold text-gray-900">Práctica Ilimitada</div>
-                    <div className="text-xs text-gray-600">Ejercicios personalizados</div>
+                    <div className="text-xs text-gray-600">Ejercicios infinitos</div>
                   </div>
-                  <span className="absolute top-2 right-2 text-[10px] bg-purple-600 text-white px-2 py-0.5 rounded-full font-bold">
+                  <span className="text-[10px] bg-purple-600 text-white px-2 py-0.5 rounded-full font-bold">
                     NUEVO
                   </span>
                 </Link>
                 <Link
-                  href="/certificados"
-                  className="w-full flex items-center gap-3 p-3 bg-purple-50 hover:bg-purple-100 rounded-lg transition-colors"
+                  href="/curso-b2"
+                  className="w-full flex items-center gap-3 p-3 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors"
                 >
-                  <span className="text-2xl">{icons.certificate}</span>
-                  <span className="font-medium text-gray-900">Mis certificados</span>
+                  <span className="text-2xl">{icons.book}</span>
+                  <span className="font-medium text-gray-900">Explorar Temas</span>
                 </Link>
                 <Link
-                  href="/diagnostico"
+                  href="/test-nivel"
                   className="w-full flex items-center gap-3 p-3 bg-green-50 hover:bg-green-100 rounded-lg transition-colors"
                 >
                   <span className="text-2xl">{icons.chart}</span>
@@ -287,45 +293,62 @@ export default function DashboardPage() {
               </div>
             </div>
 
-            {/* Study Goals */}
+            {/* Weekly Goals */}
             <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
               <h2 className="text-lg font-bold text-gray-900 mb-4">
-                {icons.trophy} Objetivos de la Semana
+                {icons.trophy} Objetivos Semanales
               </h2>
               <div className="space-y-4">
+                {/* Practice Minutes */}
                 <div>
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-sm font-medium text-gray-700">Lecciones completadas</span>
-                    <span className="text-sm font-bold text-blue-600">3/5</span>
+                    <span className="text-sm font-medium text-gray-700">Minutos de práctica</span>
+                    <span className="text-sm font-bold text-blue-600">
+                      {userData.weeklyGoals.practiceMinutes.current}/{userData.weeklyGoals.practiceMinutes.target}
+                    </span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
                     <div
                       className="bg-blue-600 h-2 rounded-full"
-                      style={{ width: '60%' }}
+                      style={{ 
+                        width: `${(userData.weeklyGoals.practiceMinutes.current / userData.weeklyGoals.practiceMinutes.target) * 100}%` 
+                      }}
                     ></div>
                   </div>
                 </div>
+
+                {/* Topics Dominated */}
                 <div>
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-sm font-medium text-gray-700">Minutos de estudio</span>
-                    <span className="text-sm font-bold text-green-600">180/300</span>
+                    <span className="text-sm font-medium text-gray-700">Temas dominados</span>
+                    <span className="text-sm font-bold text-green-600">
+                      {userData.weeklyGoals.topicsDominated.current}/{userData.weeklyGoals.topicsDominated.target}
+                    </span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
                     <div
                       className="bg-green-600 h-2 rounded-full"
-                      style={{ width: '60%' }}
+                      style={{ 
+                        width: `${(userData.weeklyGoals.topicsDominated.current / userData.weeklyGoals.topicsDominated.target) * 100}%` 
+                      }}
                     ></div>
                   </div>
                 </div>
+
+                {/* Strength Gain */}
                 <div>
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-sm font-medium text-gray-700">Días de racha</span>
-                    <span className="text-sm font-bold text-orange-600">7/7 {icons.fire}</span>
+                    <span className="text-sm font-medium text-gray-700">Ganancia de fuerza</span>
+                    <span className="text-sm font-bold text-orange-600">
+                      +{userData.weeklyGoals.strengthGain.current}/{userData.weeklyGoals.strengthGain.target}
+                    </span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
                     <div
                       className="bg-orange-600 h-2 rounded-full"
-                      style={{ width: '100%' }}
+                      style={{ 
+                        width: `${(userData.weeklyGoals.strengthGain.current / userData.weeklyGoals.strengthGain.target) * 100}%` 
+                      }}
                     ></div>
                   </div>
                 </div>
@@ -335,7 +358,7 @@ export default function DashboardPage() {
             {/* Achievements */}
             <div className="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl p-6 shadow-sm border border-yellow-200">
               <h2 className="text-lg font-bold text-gray-900 mb-4">
-                {icons.star} Logros Recientes
+                {icons.star} Logros Destacados
               </h2>
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
@@ -346,10 +369,10 @@ export default function DashboardPage() {
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
-                  <span className="text-3xl">{icons.book}</span>
+                  <span className="text-3xl">{icons.muscle}</span>
                   <div>
-                    <h3 className="font-medium text-gray-900">Primer módulo iniciado</h3>
-                    <p className="text-sm text-gray-600">Has comenzado tu viaje</p>
+                    <h3 className="font-medium text-gray-900">Dominio Creciente</h3>
+                    <p className="text-sm text-gray-600">72% de fuerza promedio</p>
                   </div>
                 </div>
               </div>
