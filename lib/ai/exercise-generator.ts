@@ -319,11 +319,17 @@ export class ExerciseCache {
 let generatorInstance: ExerciseGenerator | null = null;
 let cacheInstance: ExerciseCache | null = null;
 
-export function getExerciseGenerator(): ExerciseGenerator {
+export function getExerciseGenerator(): ExerciseGenerator | null {
+  const apiKey = process.env.OPENAI_API_KEY || process.env.GEMINI_API_KEY || '';
+  
+  // Si no hay API key, retornar null para usar fallback exercises
+  if (!apiKey) {
+    console.warn('⚠️  No AI API key configured. Using fallback exercises.');
+    return null;
+  }
+  
   if (!generatorInstance) {
-    const apiKey = process.env.OPENAI_API_KEY || process.env.GEMINI_API_KEY || '';
     const provider = process.env.OPENAI_API_KEY ? 'openai' : 'gemini';
-    
     generatorInstance = new ExerciseGenerator(apiKey, { provider });
   }
   return generatorInstance;
@@ -413,4 +419,342 @@ function validateReading(exercise: any): boolean {
     Array.isArray(exercise.questions) &&
     exercise.questions.length > 0
   );
+}
+
+// ============================================
+// FALLBACK EXERCISES
+// ============================================
+// Ejercicios pre-generados para cuando no hay API key
+
+export function getFallbackExercise(request: GenerateExerciseRequest): GeneratedExercise {
+  const exerciseConfig = getExerciseTypeConfig(request.exerciseType);
+  
+  if (!exerciseConfig) {
+    throw new Error(`Exercise type ${request.exerciseType} not found`);
+  }
+
+  // Seleccionar ejercicio de fallback basado en el tipo
+  let content: any;
+  
+  switch (request.exerciseType) {
+    case 'multiple-choice':
+      content = getFallbackMultipleChoice(request);
+      break;
+    case 'fill-blank':
+      content = getFallbackFillBlank(request);
+      break;
+    case 'key-word-transformation':
+      content = getFallbackKeyWordTransformation(request);
+      break;
+    case 'reading-comprehension':
+      content = getFallbackReading(request);
+      break;
+    case 'sentence-building':
+      content = getFallbackSentenceBuilding(request);
+      break;
+    case 'writing-analysis':
+      content = getFallbackWritingAnalysis(request);
+      break;
+    case 'speaking-analysis':
+      content = getFallbackSpeakingAnalysis(request);
+      break;
+    default:
+      content = getFallbackMultipleChoice(request); // Default to multiple choice
+  }
+
+  return {
+    id: `fallback_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+    type: request.exerciseType,
+    category: exerciseConfig.category,
+    topic: request.topic || 'General English',
+    difficulty: request.difficulty,
+    level: request.level,
+    content: content,
+    createdAt: new Date(),
+    estimatedTime: exerciseConfig.estimatedTime
+  };
+}
+
+function getFallbackMultipleChoice(request: GenerateExerciseRequest): any {
+  return {
+    title: `${request.topic || 'English'} Practice - Multiple Choice`,
+    instructions: 'Elige la respuesta correcta para cada pregunta.',
+    questions: [
+      {
+        id: 'q1',
+        question: 'If I _____ you were coming, I would have prepared something to eat.',
+        options: ['knew', 'had known', 'would know', 'know'],
+        correctAnswer: 'had known',
+        explanation: 'Usamos past perfect (had known) en la condición de un tercer condicional porque la acción no pasada en el pasado. "If I had known" expresa que no sabía en ese momento.'
+      },
+      {
+        id: 'q2',
+        question: 'She suggested _____ to the new restaurant downtown.',
+        options: ['to go', 'going', 'go', 'that we go'],
+        correctAnswer: 'going',
+        explanation: '"Suggest" va seguido de un gerundio (going) o "that + subjuntivo". En este caso, "going" es la forma más común y natural.'
+      },
+      {
+        id: 'q3',
+        question: 'The project _____ by the end of next month.',
+        options: ['will complete', 'will be completed', 'will have completed', 'is completing'],
+        correctAnswer: 'will be completed',
+        explanation: 'Usamos voz pasiva en futuro simple (will be completed) porque el proyecto es el objeto que recibe la acción, no quien la realiza.'
+      },
+      {
+        id: 'q4',
+        question: 'I wish I _____ more time to study for the exam.',
+        options: ['have', 'had', 'would have', 'will have'],
+        correctAnswer: 'had',
+        explanation: 'Después de "I wish" usamos past simple (had) para expresar un deseo sobre el presente. "I wish I had" = Ojalá tuviera (ahora).'
+      }
+    ]
+  };
+}
+
+function getFallbackFillBlank(request: GenerateExerciseRequest): any {
+  return {
+    title: `${request.topic || 'English'} Practice - Complete the Sentences`,
+    instructions: 'Completa las oraciones con la forma correcta de las palabras entre paréntesis.',
+    questions: [
+      { id: 'q1', question: 'By this time next year, I _____ (finish) my degree.', correctAnswer: 'will have finished', explanation: 'Future perfect para una acción que se completará antes de un momento en el futuro.' },
+      { id: 'q2', question: 'The meeting _____ (already/start) when I arrived.', correctAnswer: 'had already started', explanation: 'Past perfect porque la acción ocurrió antes de otra acción en el pasado.' },
+      { id: 'q3', question: 'I\'m not used to _____ (work) night shifts.', correctAnswer: 'working', explanation: '"Be used to" va seguido de gerundio (working).' },
+      { id: 'q4', question: 'She made me _____ (wait) for over an hour.', correctAnswer: 'wait', explanation: '"Make" + persona + infinitivo sin "to" (wait).' },
+      { id: 'q5', question: 'The book _____ (write) by a famous author.', correctAnswer: 'was written', explanation: 'Voz pasiva en pasado simple (was written).' },
+      { id: 'q6', question: 'If you _____ (study) harder, you would have passed the exam.', correctAnswer: 'had studied', explanation: 'Past perfect en el tercer condicional.' },
+      { id: 'q7', question: 'Despite _____ (feel) tired, she continued working.', correctAnswer: 'feeling', explanation: '"Despite" va seguido de gerundio o sustantivo.' },
+      { id: 'q8', question: 'The new policy will come _____ effect next month.', correctAnswer: 'into', explanation: 'La colocación correcta es "come into effect".' }
+    ]
+  };
+}
+
+function getFallbackKeyWordTransformation(request: GenerateExerciseRequest): any {
+  return {
+    title: 'Key Word Transformation Practice',
+    instructions: 'Completa la segunda oración usando la palabra clave para que signifique lo mismo que la primera. Debes usar entre 2 y 5 palabras, incluyendo la palabra clave.',
+    transformations: [
+      {
+        id: 't1',
+        sentence: 'I last saw John three years ago.',
+        keyWord: 'SEEN',
+        startOfAnswer: 'I haven\'t',
+        correctAnswer: 'I haven\'t seen John',
+        explanation: 'Present perfect con "for" o "since" para expresar el tiempo transcurrido desde la última vez.'
+      },
+      {
+        id: 't2',
+        sentence: '"Why don\'t we go to the cinema?" she said.',
+        keyWord: 'SUGGESTED',
+        startOfAnswer: 'She',
+        correctAnswer: 'She suggested going',
+        explanation: '"Suggest" + gerundio para reportar una sugerencia.'
+      },
+      {
+        id: 't3',
+        sentence: 'It\'s possible that they missed the train.',
+        keyWord: 'MAY',
+        startOfAnswer: 'They',
+        correctAnswer: 'They may have missed',
+        explanation: '"May have" + past participle para expresar posibilidad en el pasado.'
+      },
+      {
+        id: 't4',
+        sentence: 'I regret not studying harder for the exam.',
+        keyWord: 'WISH',
+        startOfAnswer: 'I',
+        correctAnswer: 'I wish I had studied',
+        explanation: '"I wish" + past perfect para expresar arrepentimiento sobre el pasado.'
+      },
+      {
+        id: 't5',
+        sentence: 'The concert was cancelled because of the bad weather.',
+        keyWord: 'DUE',
+        startOfAnswer: 'The concert was cancelled',
+        correctAnswer: 'The concert was cancelled due to',
+        explanation: '"Due to" es una expresión formal que significa "a causa de".'
+      }
+    ]
+  };
+}
+
+function getFallbackReading(request: GenerateExerciseRequest): any {
+  return {
+    title: 'The Future of Remote Work',
+    text: `The COVID-19 pandemic has dramatically transformed the way we work, with remote work becoming the new normal for millions of employees worldwide. What started as a temporary measure has evolved into a permanent shift in workplace culture. Companies that were once hesitant about remote work have now embraced it, realizing the benefits of increased flexibility and reduced overhead costs.\n\nHowever, this transition hasn\'t been without its challenges. Many employees struggle with maintaining work-life balance when their home becomes their office. The lack of face-to-face interaction can lead to feelings of isolation and decreased team cohesion. Additionally, not all jobs can be performed remotely, creating a divide between those who can work from home and those who cannot.\n\nDespite these challenges, experts predict that hybrid work models will dominate the future. These models combine the flexibility of remote work with the benefits of in-person collaboration. Companies are investing in technology and redesigning office spaces to support this new way of working. The key to success will be finding the right balance that works for both employers and employees.`,
+    wordCount: 178,
+    estimatedReadingTime: 2,
+    questions: [
+      {
+        id: 'q1',
+        type: 'multiple-choice',
+        question: 'According to the passage, what was the initial cause of the shift to remote work?',
+        options: [
+          'A) Companies wanting to reduce costs',
+          'B) The COVID-19 pandemic',
+          'C) Employee demands for flexibility',
+          'D) Advances in technology'
+        ],
+        correctAnswer: 'B',
+        explanation: 'El texto dice claramente: "The COVID-19 pandemic has dramatically transformed the way we work".'
+      },
+      {
+        id: 'q2',
+        type: 'multiple-choice',
+        question: 'What is mentioned as a challenge of remote work?',
+        options: [
+          'A) Higher costs for companies',
+          'B) Increased commute times',
+          'C) Difficulty maintaining work-life balance',
+          'D) Lack of qualified workers'
+        ],
+        correctAnswer: 'C',
+        explanation: 'El texto menciona: "Many employees struggle with maintaining work-life balance".'
+      },
+      {
+        id: 'q3',
+        type: 'multiple-choice',
+        question: 'What do experts predict about the future of work?',
+        options: [
+          'A) Everyone will work remotely',
+          'B) Offices will disappear completely',
+          'C) Hybrid models will be dominant',
+          'D) Remote work will be banned'
+        ],
+        correctAnswer: 'C',
+        explanation: 'El texto dice: "experts predict that hybrid work models will dominate the future".'
+      },
+      {
+        id: 'q4',
+        type: 'true-false',
+        question: 'All types of jobs can be performed remotely.',
+        correctAnswer: 'FALSE',
+        explanation: 'El texto afirma: "not all jobs can be performed remotely".'
+      },
+      {
+        id: 'q5',
+        type: 'multiple-choice',
+        question: 'What are companies doing to support the new way of working?',
+        options: [
+          'A) Increasing salaries',
+          'B) Investing in technology and redesigning offices',
+          'C) Hiring more employees',
+          'D) Reducing working hours'
+        ],
+        correctAnswer: 'B',
+        explanation: 'El texto menciona: "Companies are investing in technology and redesigning office spaces".'
+      }
+    ]
+  };
+}
+
+function getFallbackSentenceBuilding(request: GenerateExerciseRequest): any {
+  return {
+    title: 'Sentence Building Practice',
+    instructions: 'Ordena las palabras para formar oraciones gramaticalmente correctas.',
+    sentences: [
+      {
+        id: 's1',
+        words: ['never', 'I', 'such', 'have', 'seen', 'a', 'beautiful', 'place', '.'],
+        correctOrder: ['I', 'have', 'never', 'seen', 'such', 'a', 'beautiful', 'place', '.'],
+        translation: 'Nunca he visto un lugar tan hermoso.',
+        hint: 'Present perfect con adverbio de frecuencia.',
+        points: 2
+      },
+      {
+        id: 's2',
+        words: ['studying', 'she', 'when', 'was', 'I', 'arrived', '.'],
+        correctOrder: ['she', 'was', 'studying', 'when', 'I', 'arrived', '.'],
+        translation: 'Ella estaba estudiando cuando llegué.',
+        hint: 'Past continuous + when + past simple.',
+        points: 2
+      },
+      {
+        id: 's3',
+        words: ['would', 'if', 'I', 'rich', 'were', ',', 'I', 'travel', 'the', 'world', '.'],
+        correctOrder: ['if', 'I', 'were', 'rich', ',', 'I', 'would', 'travel', 'the', 'world', '.'],
+        translation: 'Si fuera rico, viajaría por el mundo.',
+        hint: 'Segundo condicional (irreal en presente).',
+        points: 2
+      }
+    ]
+  };
+}
+
+function getFallbackWritingAnalysis(request: GenerateExerciseRequest): any {
+  return {
+    title: 'Writing Analysis: Formal Correspondence',
+    instructions: 'Elige la mejor opción para cada situación de escritura.',
+    questions: [
+      {
+        id: 'q1',
+        type: 'multiple-choice',
+        context: 'You are writing a formal email to a potential employer.',
+        question: 'Which opening is most appropriate?',
+        options: [
+          'A) Hey there,',
+          'B) Dear Sir/Madam,',
+          'C) Hi!',
+          'D) To whom it may concern,'
+        ],
+        correctAnswer: 'B',
+        explanation: '"Dear Sir/Madam" es el saludo formal más apropiado cuando conoces la organización pero no el nombre específico del destinatario.',
+        points: 2
+      },
+      {
+        id: 'q2',
+        type: 'multiple-choice',
+        context: 'You need to connect two ideas in an essay.',
+        question: 'Which linking phrase shows contrast most effectively?',
+        options: [
+          'A) Also,',
+          'B) Furthermore,',
+          'C) However,',
+          'D) In addition,'
+        ],
+        correctAnswer: 'C',
+        explanation: '"However" es el conector de contraste más efectivo para escritura formal.',
+        points: 2
+      }
+    ]
+  };
+}
+
+function getFallbackSpeakingAnalysis(request: GenerateExerciseRequest): any {
+  return {
+    title: 'Speaking Analysis: Social Situations',
+    instructions: 'Elige la opción más apropiada para cada situación de conversación.',
+    questions: [
+      {
+        id: 'q1',
+        type: 'multiple-choice',
+        scenario: 'You want to politely disagree with someone in a business meeting.',
+        question: 'Which phrase is most diplomatic?',
+        options: [
+          'A) You\'re wrong.',
+          'B) I see your point, but I have a different perspective.',
+          'C) That\'s stupid.',
+          'D) No way!'
+        ],
+        correctAnswer: 'B',
+        explanation: '"I see your point, but..." reconoce la opinión del otro antes de presentar tu desacuerdo, siendo diplomático.',
+        points: 2
+      },
+      {
+        id: 'q2',
+        type: 'multiple-choice',
+        scenario: 'Someone thanks you for helping them.',
+        question: 'Which response is most natural in British English?',
+        options: [
+          'A) You\'re welcome.',
+          'B) No problem.',
+          'C) Don\'t mention it.',
+          'D) All of the above'
+        ],
+        correctAnswer: 'D',
+        explanation: 'Todas estas respuestas son naturales y comunes en inglés británico para responder a un agradecimiento.',
+        points: 2
+      }
+    ]
+  };
 }

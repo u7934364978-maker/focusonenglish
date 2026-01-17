@@ -292,6 +292,33 @@ export default function PracticePage() {
 function convertToLesson(exercises: any[], config: PracticeConfig): any {
   const firstExercise = exercises[0];
   
+  // Mapear tipos de ejercicios a tipos que LessonViewer puede renderizar
+  const mapExerciseType = (type: string, category: string): string => {
+    switch (type) {
+      case 'multiple-choice':
+      case 'fill-blank':
+      case 'true-false':
+        // Estos se renderizan como 'grammar' o 'vocabulary'
+        return category === 'vocabulary' ? 'vocabulary' : 'grammar';
+      case 'reading-comprehension':
+        return 'reading';
+      case 'key-word-transformation':
+        return 'key-word-transformation';
+      case 'word-formation':
+        return 'word-formation';
+      case 'sentence-building':
+        return 'sentence-building';
+      case 'writing-analysis':
+        return 'writing';
+      case 'speaking-analysis':
+        return 'speaking';
+      case 'multiple-choice-cloze':
+        return 'multiple-choice-cloze';
+      default:
+        return 'grammar';
+    }
+  };
+  
   return {
     id: `practice_${Date.now()}`,
     title: `Práctica: ${firstExercise.type}`,
@@ -302,10 +329,25 @@ function convertToLesson(exercises: any[], config: PracticeConfig): any {
       `Mejorar en ${config.topic || 'inglés general'}`,
       `Nivel de dificultad: ${config.difficulty}`
     ],
-    exercises: exercises.map(ex => ({
-      ...ex.content,
-      id: ex.id,
-      type: ex.type
-    }))
+    exercises: exercises.map(ex => {
+      const mappedType = mapExerciseType(ex.type, ex.category);
+      
+      return {
+        id: ex.id,
+        type: mappedType,
+        title: ex.content.title || `${ex.type} Exercise`,
+        instructions: ex.content.instructions,
+        grammarPoint: ex.topic || ex.content.topic || config.topic || 'General Practice',
+        explanation: ex.content.explanation || `Practice exercise for ${ex.type}`,
+        examples: ex.content.examples || [],
+        questions: ex.content.questions || [],
+        transformations: ex.content.transformations || [],
+        text: ex.content.text,
+        wordCount: ex.content.wordCount,
+        readingTime: ex.content.estimatedReadingTime || ex.estimatedTime,
+        vocabularyHelp: ex.content.vocabularyHelp || [],
+        ...ex.content
+      };
+    })
   };
 }
