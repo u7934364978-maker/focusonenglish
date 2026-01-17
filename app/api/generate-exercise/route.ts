@@ -17,7 +17,8 @@ import {
   CEFRLevel
 } from '@/lib/exercise-types';
 
-export const runtime = 'edge'; // Usar Edge Runtime para mejor performance
+// Usando Node.js runtime para acceder a process.env en runtime
+// export const runtime = 'edge'; // Edge Runtime tiene limitaciones con env vars
 
 // ============================================
 // POST - Generar ejercicio
@@ -25,6 +26,15 @@ export const runtime = 'edge'; // Usar Edge Runtime para mejor performance
 
 export async function POST(request: NextRequest) {
   try {
+    // Debug: Verificar disponibilidad de API keys
+    const hasOpenAI = !!process.env.OPENAI_API_KEY;
+    const hasGemini = !!process.env.GEMINI_API_KEY;
+    console.log('🔑 API Keys status:', { 
+      hasOpenAI, 
+      hasGemini,
+      openaiLength: process.env.OPENAI_API_KEY?.length || 0 
+    });
+    
     // Parsear body
     const body = await request.json();
 
