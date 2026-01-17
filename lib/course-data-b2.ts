@@ -3189,6 +3189,282 @@ James: It was three years after I started training. By then, I had climbed peaks
           { id: 'q8', gapNumber: 8, baseWord: 'SKEPTIC', correctAnswer: 'skepticism', acceptableAnswers: ['skepticism', 'scepticism'], explanation: '"Appropriate skepticism" - attitude of doubting claims.', wordType: 'noun', transformation: 'noun → abstract noun (-ism)', points: 1 }
         ],
         focusAreas: ['Prefix re-', 'Negative prefix in-', 'Abstract nouns']
+      },
+      {
+        id: 'b2-m1-l4-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Narrative and Time Sequence Markers',
+        vocabularySet: [
+          { word: 'meanwhile', definition: 'at the same time', example: 'She was studying. Meanwhile, her brother was playing video games.' },
+          { word: 'subsequently', definition: 'afterwards; later', example: 'He graduated in 2020 and subsequently moved to London.' },
+          { word: 'simultaneously', definition: 'at exactly the same time', example: 'The two events occurred simultaneously.' },
+          { word: 'thereafter', definition: 'after that time', example: 'She moved to Paris in 2015 and remained there thereafter.' },
+          { word: 'formerly', definition: 'in the past; previously', example: 'The building, formerly a hospital, is now a museum.' },
+          { word: 'initially', definition: 'at first; at the beginning', example: 'Initially, she was nervous, but she soon relaxed.' },
+          { word: 'eventually', definition: 'in the end; after a long time', example: 'After years of practice, he eventually became fluent.' },
+          { word: 'prior to', definition: 'before', example: 'Prior to joining the company, she worked freelance.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '___ she was hesitant, but she decided to accept the challenge.',
+            options: ['Eventually', 'Initially', 'Subsequently', 'Thereafter'],
+            correctAnswer: 'Initially',
+            explanation: '"Initially" means at first or at the beginning.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'The team practiced hard and ___ won the championship.',
+            options: ['meanwhile', 'formerly', 'eventually', 'initially'],
+            correctAnswer: 'eventually',
+            explanation: '"Eventually" means after a period of time or effort.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'Complete: He left the company in March and moved abroad ___.',
+            correctAnswer: 'thereafter / subsequently',
+            explanation: '"Thereafter" or "subsequently" both mean after that time.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '___ his departure, he had been working there for ten years.',
+            options: ['Prior to', 'Meanwhile', 'Subsequently', 'Thereafter'],
+            correctAnswer: 'Prior to',
+            explanation: '"Prior to" is a formal way of saying "before".',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l4-reading-1',
+        type: 'reading',
+        title: 'The Art of Storytelling Through Tenses',
+        text: `Effective storytelling relies heavily on the skillful use of narrative tenses. When writers combine Past Simple, Past Continuous, Past Perfect, and Past Perfect Continuous, they create a rich temporal landscape that brings stories to life.
+
+Consider this narrative: "Sarah was walking through the park when she noticed an old friend she hadn't seen in years. They had been living in different cities, but fate had brought them together that afternoon." This simple passage demonstrates the interplay of four different tenses, each serving a specific purpose.
+
+The Past Continuous ("was walking") sets the scene, creating a backdrop for the main action. The Past Simple ("noticed") introduces the key event that drives the story forward. The Past Perfect ("hadn't seen") provides essential background information, explaining the significance of the encounter. Finally, the Past Perfect Continuous ("had been living") describes an ongoing situation in the past that contextualizes the present moment.
+
+Master storytellers understand that varying tenses isn't just grammatically correct—it's emotionally resonant. The choice of tense can emphasize action, build suspense, or create poignancy. When we read "She had been waiting for hours," we feel her impatience more acutely than if we simply read "She waited."`,
+        wordCount: 195,
+        readingTime: 2,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the passage, what is the primary purpose of Past Continuous in narratives?',
+            options: [
+              'To introduce key events',
+              'To set the scene or backdrop',
+              'To provide background information',
+              'To describe completed actions'
+            ],
+            correctAnswer: 'To set the scene or backdrop',
+            explanation: 'The passage states Past Continuous "sets the scene, creating a backdrop for the main action".',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'Past Perfect is described as useful for:',
+            options: [
+              'Creating suspense',
+              'Introducing main events',
+              'Providing background information',
+              'Setting the atmosphere'
+            ],
+            correctAnswer: 'Providing background information',
+            explanation: 'The text explicitly states Past Perfect "provides essential background information".',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'The passage suggests that tense variation is only important for grammatical correctness.',
+            correctAnswer: 'false',
+            explanation: 'The passage states varying tenses "isn\'t just grammatically correct—it\'s emotionally resonant".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'short-answer',
+            question: 'What emotional effect can tense choice create, according to the final paragraph?',
+            correctAnswer: 'emphasis / suspense / poignancy',
+            explanation: 'The passage mentions these specific emotional effects.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l4-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m1-l4-listening-1.mp3',
+        transcript: 'I was living in Madrid when I first heard about the opportunity. I had been working as a teacher for three years, but I had always wanted to try something different. One day, while I was having coffee with a friend, she mentioned that her company was looking for someone with my skills. By the time she finished explaining the role, I had already decided to apply. Two weeks later, they offered me the position. I had never imagined my life would change so dramatically.',
+        duration: 45,
+        allowReplay: true,
+        maxReplays: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Where was the speaker living when they heard about the opportunity?',
+            options: ['Barcelona', 'Madrid', 'Valencia', 'Seville'],
+            correctAnswer: 'Madrid',
+            explanation: 'The speaker clearly states "I was living in Madrid".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'How long had they been working as a teacher?',
+            options: ['Two years', 'Three years', 'Four years', 'Five years'],
+            correctAnswer: 'Three years',
+            explanation: 'The speaker says "I had been working as a teacher for three years".',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'The speaker heard about the job while at work.',
+            correctAnswer: 'false',
+            explanation: 'They heard about it "while having coffee with a friend".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'short-answer',
+            question: 'How long did it take to receive the job offer after applying?',
+            correctAnswer: 'two weeks',
+            explanation: 'The speaker states "Two weeks later, they offered me the position".',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l4-speaking-1',
+        type: 'speaking',
+        prompt: 'Tell a story about a memorable moment from your past. Use a variety of narrative tenses (Past Simple, Past Continuous, Past Perfect) to make your story engaging. Speak for 1-2 minutes.',
+        timeLimit: 120,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Start by setting the scene with Past Continuous',
+          'Use Past Simple for main events',
+          'Use Past Perfect to provide background',
+          'Include time markers like "meanwhile", "suddenly", "by the time"'
+        ]
+      },
+      {
+        id: 'b2-m1-l4-keytransform-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Narrative Tenses',
+        instructions: 'Complete the second sentence using the word given. Use between two and five words.',
+        transformations: [
+          {
+            id: 't1',
+            sentence: 'She started working here five years before I arrived.',
+            keyWord: 'BEEN',
+            startOfAnswer: 'She had',
+            correctAnswer: 'been working here for',
+            explanation: 'Past Perfect Continuous shows duration before past point: had been working.',
+            points: 2
+          },
+          {
+            id: 't2',
+            sentence: 'It was my first visit to London.',
+            keyWord: 'NEVER',
+            startOfAnswer: 'I had',
+            correctAnswer: 'never been to London',
+            explanation: 'Past Perfect with never for first experience: had never been.',
+            points: 2
+          },
+          {
+            id: 't3',
+            sentence: 'The meeting began before I got there.',
+            keyWord: 'ALREADY',
+            startOfAnswer: 'When I',
+            correctAnswer: 'got there, the meeting',
+            explanation: 'Already with Past Perfect shows prior completion: had already begun.',
+            points: 2
+          },
+          {
+            id: 't4',
+            sentence: 'She was in the middle of cooking dinner when I called.',
+            keyWord: 'COOKING',
+            startOfAnswer: 'She was',
+            correctAnswer: 'cooking dinner when I',
+            explanation: 'Past Continuous for interrupted action: was cooking.',
+            points: 2
+          },
+          {
+            id: 't5',
+            sentence: 'They lived in Paris for two years, then moved to Berlin.',
+            keyWord: 'AFTER',
+            startOfAnswer: 'After',
+            correctAnswer: 'living in Paris for',
+            explanation: 'After + verb-ing or After + Past Perfect shows sequence.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l4-sentence-1',
+        type: 'sentence-building',
+        title: 'Build Complex Narrative Sentences',
+        instructions: 'Arrange the words to create grammatically correct narrative sentences.',
+        sentences: [
+          {
+            id: 's1',
+            words: ['while', 'I', 'was', 'studying', ',', 'my', 'phone', 'rang', '.'],
+            correctOrder: ['while', 'I', 'was', 'studying', ',', 'my', 'phone', 'rang', '.'],
+            translation: 'Mientras estaba estudiando, sonó mi teléfono.',
+            hint: 'While + Past Continuous, + Past Simple',
+            points: 2
+          },
+          {
+            id: 's2',
+            words: ['by', 'the', 'time', 'we', 'arrived', ',', 'the', 'show', 'had', 'finished', '.'],
+            correctOrder: ['by', 'the', 'time', 'we', 'arrived', ',', 'the', 'show', 'had', 'finished', '.'],
+            translation: 'Para cuando llegamos, el show había terminado.',
+            hint: 'By the time + Past Simple, + Past Perfect',
+            points: 2
+          },
+          {
+            id: 's3',
+            words: ['she', 'had', 'been', 'living', 'there', 'for', 'years', 'before', 'I', 'met', 'her', '.'],
+            correctOrder: ['she', 'had', 'been', 'living', 'there', 'for', 'years', 'before', 'I', 'met', 'her', '.'],
+            translation: 'Ella había estado viviendo allí durante años antes de que la conociera.',
+            hint: 'Past Perfect Continuous + before + Past Simple',
+            points: 2
+          },
+          {
+            id: 's4',
+            words: ['I', 'was', 'sleeping', 'when', 'the', 'storm', 'started', '.'],
+            correctOrder: ['I', 'was', 'sleeping', 'when', 'the', 'storm', 'started', '.'],
+            translation: 'Estaba durmiendo cuando empezó la tormenta.',
+            hint: 'Past Continuous + when + Past Simple',
+            points: 2
+          },
+          {
+            id: 's5',
+            words: ['they', 'had', 'never', 'tried', 'surfing', 'until', 'last', 'summer', '.'],
+            correctOrder: ['they', 'had', 'never', 'tried', 'surfing', 'until', 'last', 'summer', '.'],
+            translation: 'Nunca habían probado el surf hasta el verano pasado.',
+            hint: 'Past Perfect + never + until + time reference',
+            points: 2
+          }
+        ]
       }
     ]
   },
