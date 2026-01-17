@@ -186,14 +186,21 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       questions.forEach((q: any) => {
         totalPoints += q.points;
         const userAnswer = answers[q.id]?.toLowerCase().trim();
-        const acceptableAnswers = q.acceptableAnswers.map((a: string) => a.toLowerCase().trim());
-
-        if (acceptableAnswers.some((ans: string) => userAnswer === ans)) {
+        
+        // Check against correct answer first
+        if (userAnswer === q.correctAnswer?.toLowerCase().trim()) {
           earnedPoints += q.points;
+        }
+        // Then check against acceptable answers array if it exists
+        else if (q.acceptableAnswers && Array.isArray(q.acceptableAnswers)) {
+          const acceptableAnswers = q.acceptableAnswers.map((a: string) => a.toLowerCase().trim());
+          if (acceptableAnswers.some((ans: string) => userAnswer === ans)) {
+            earnedPoints += q.points;
+          }
         }
       });
 
-      const score = (earnedPoints / totalPoints) * 100;
+      const score = totalPoints > 0 ? (earnedPoints / totalPoints) * 100 : 0;
       setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
       setShowFeedback(true);
       setEvaluating(false);
@@ -995,23 +1002,25 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 <span>{currentExercise.title}</span>
               </h3>
               <div className="bg-purple-100 p-3 rounded-lg border border-purple-300">
-                <p className="text-sm text-purple-900 font-semibold">💡 Instructions: Use the word given in capitals at the end of each line to form a word that fits in the gap.</p>
+                <p className="text-sm text-purple-900 font-semibold">💡 Instructions: Choose the correct form of the word given in capitals to complete each sentence.</p>
               </div>
             </div>
 
             {/* Text with Gaps */}
-            <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
-              <p className="text-slate-700 whitespace-pre-line leading-relaxed text-lg">
-                {currentExercise.text}
-              </p>
-            </div>
+            {currentExercise.text && (
+              <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                <p className="text-slate-700 whitespace-pre-line leading-relaxed text-lg">
+                  {currentExercise.text}
+                </p>
+              </div>
+            )}
 
             {/* Questions */}
             <div className="space-y-4">
               <h4 className="text-lg font-bold text-slate-900">Complete the gaps:</h4>
               {currentExercise.questions.map((question: any, idx: number) => (
                 <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
-                  <div className="space-y-3">
+                  <div className="space-y-4">
                     <div className="flex items-center justify-between">
                       <p className="font-semibold text-slate-900">
                         Gap {question.gapNumber}: {question.baseWord}
@@ -1019,48 +1028,92 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       <span className="text-sm text-blue-600">({question.points} {question.points === 1 ? 'point' : 'points'})</span>
                     </div>
 
-                    <div className="space-y-2">
-                      <label className="text-sm font-semibold text-slate-700">Your answer:</label>
-                      <input
-                        type="text"
-                        value={answers[question.id] || ''}
-                        onChange={(e) => handleAnswer(question.id, e.target.value)}
-                        placeholder="Type the formed word..."
-                        className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-purple-500 focus:outline-none"
-                      />
-                    </div>
+                    {/* Hint */}
+                    {question.hint && (
+                      <div className="bg-blue-50 p-3 rounded-lg border border-blue-200">
+                        <p className="text-sm text-blue-800">
+                          <span className="font-semibold">💡 Hint:</span> {question.hint}
+                        </p>
+                      </div>
+                    )}
+
+                    {/* Multiple Choice Options or Text Input */}
+                    {question.options && question.options.length > 0 ? (
+                      <div className="space-y-2">
+                        <label className="text-sm font-semibold text-slate-700">Choose the correct answer:</label>
+                        <div className="space-y-2">
+                          {question.options.map((option: string, optIdx: number) => (
+                            <label
+                              key={optIdx}
+                              className={`flex items-center gap-3 p-4 rounded-lg border-2 hover:bg-purple-50 cursor-pointer transition-all ${
+                                answers[question.id] === option
+                                  ? 'border-purple-500 bg-purple-50'
+                                  : 'border-slate-200'
+                              }`}
+                            >
+                              <input
+                                type="radio"
+                                name={question.id}
+                                value={option}
+                                checked={answers[question.id] === option}
+                                onChange={(e) => handleAnswer(question.id, e.target.value)}
+                                className="w-5 h-5 text-purple-600"
+                              />
+                              <span className="text-slate-900 font-medium">{option}</span>
+                            </label>
+                          ))}
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="space-y-2">
+                        <label className="text-sm font-semibold text-slate-700">Type your answer:</label>
+                        <input
+                          type="text"
+                          value={answers[question.id] || ''}
+                          onChange={(e) => handleAnswer(question.id, e.target.value)}
+                          placeholder="Type the formed word..."
+                          className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-purple-500 focus:outline-none"
+                        />
+                      </div>
+                    )}
 
                     {/* Feedback */}
                     {showFeedback && (
                       <div className={`p-3 rounded-lg ${
-                        question.acceptableAnswers.some((ans: string) => 
+                        (answers[question.id]?.toLowerCase().trim() === question.correctAnswer?.toLowerCase().trim()) ||
+                        (question.acceptableAnswers && question.acceptableAnswers.some((ans: string) => 
                           answers[question.id]?.toLowerCase().trim() === ans.toLowerCase().trim()
-                        )
+                        ))
                           ? 'bg-green-50 border-2 border-green-200'
                           : 'bg-red-50 border-2 border-red-200'
                       }`}>
                         <p className="font-semibold mb-1">
-                          {question.acceptableAnswers.some((ans: string) => 
+                          {(answers[question.id]?.toLowerCase().trim() === question.correctAnswer?.toLowerCase().trim()) ||
+                          (question.acceptableAnswers && question.acceptableAnswers.some((ans: string) => 
                             answers[question.id]?.toLowerCase().trim() === ans.toLowerCase().trim()
-                          )
+                          ))
                             ? '✓ Correct!'
                             : '✗ Incorrect'}
                         </p>
                         <p className="text-sm mb-2">
                           <span className="font-semibold">Correct answer:</span>{' '}
                           <span className="text-green-700 font-bold">{question.correctAnswer}</span>
-                          {question.acceptableAnswers.length > 1 && (
+                          {question.acceptableAnswers && question.acceptableAnswers.length > 1 && (
                             <span className="text-slate-600 text-xs ml-2">
                               (Also accepted: {question.acceptableAnswers.filter((a: string) => a !== question.correctAnswer).join(', ')})
                             </span>
                           )}
                         </p>
-                        <p className="text-sm text-slate-700 mb-1">
-                          <span className="font-semibold">Word type:</span> {question.wordType}
-                        </p>
-                        <p className="text-sm text-slate-700 mb-2">
-                          <span className="font-semibold">Transformation:</span> {question.transformation}
-                        </p>
+                        {question.wordType && (
+                          <p className="text-sm text-slate-700 mb-1">
+                            <span className="font-semibold">Word type:</span> {question.wordType}
+                          </p>
+                        )}
+                        {question.transformation && (
+                          <p className="text-sm text-slate-700 mb-2">
+                            <span className="font-semibold">Transformation:</span> {question.transformation}
+                          </p>
+                        )}
                         {question.explanation && (
                           <p className="text-sm text-slate-700">
                             <span className="font-semibold">Explanation:</span> {question.explanation}
