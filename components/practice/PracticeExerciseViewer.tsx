@@ -56,11 +56,8 @@ export default function PracticeExerciseViewer({
       ? currentQuestion.correctAnswer.map(a => a.toLowerCase().trim())
       : [currentQuestion.correctAnswer.toLowerCase().trim()];
 
-    const correct = correctAnswers.some(ca => 
-      userAnswer === ca || 
-      userAnswer.includes(ca) ||
-      ca.includes(userAnswer)
-    );
+    // Validate answer - exact match only
+    const correct = correctAnswers.some(ca => userAnswer === ca);
 
     setIsCorrect(correct);
     setShowFeedback(true);
@@ -169,11 +166,24 @@ export default function PracticeExerciseViewer({
                   <button
                     key={idx}
                     onClick={() => {
-                      setAnswer(option);
-                      // Esperar un momento para que se actualice el estado antes de verificar
-                      requestAnimationFrame(() => {
-                        checkAnswer();
-                      });
+                      const selectedOption = option;
+                      setAnswer(selectedOption);
+                      // Check answer with the selected option directly
+                      const userAnswer = selectedOption.trim().toLowerCase();
+                      const correctAnswers = Array.isArray(currentQuestion.correctAnswer)
+                        ? currentQuestion.correctAnswer.map(a => a.toLowerCase().trim())
+                        : [currentQuestion.correctAnswer.toLowerCase().trim()];
+                      
+                      // Validate answer - exact match only
+                      const correct = correctAnswers.some(ca => userAnswer === ca);
+                      
+                      setIsCorrect(correct);
+                      setShowFeedback(true);
+                      
+                      if (correct) {
+                        setScore(score + currentQuestion.points);
+                      }
+                      setAnsweredQuestions(answeredQuestions + 1);
                     }}
                     className="w-full p-4 text-left border-2 border-gray-300 rounded-xl hover:border-blue-400 hover:bg-blue-50 transition-all font-medium text-gray-900"
                   >
@@ -202,7 +212,7 @@ export default function PracticeExerciseViewer({
                     )}
                     {currentQuestion.explanation && (
                       <p className="text-gray-700 text-sm mt-2">
-                        <strong>Explicación:</strong> {currentQuestion.explanation}
+                        <strong>Explanation:</strong> {currentQuestion.explanation}
                       </p>
                     )}
                   </div>
