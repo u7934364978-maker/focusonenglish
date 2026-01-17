@@ -12,6 +12,8 @@ import {
   getExerciseTypeConfig,
   EXERCISE_TYPE_CATALOG
 } from '@/lib/exercise-types';
+import { buildCurriculumPrompt } from '@/lib/ai/curriculum-helper';
+import { getExerciseTracker } from '@/lib/ai/exercise-tracker';
 
 // ============================================
 // INTERFAZ DE IA
@@ -39,10 +41,14 @@ const DEFAULT_AI_CONFIG: AIGeneratorConfig = {
 export class ExerciseGenerator {
   private config: AIGeneratorConfig;
   private apiKey: string;
+  private sessionId?: string;
+  private userId?: string;
 
-  constructor(apiKey: string, config?: Partial<AIGeneratorConfig>) {
+  constructor(apiKey: string, config?: Partial<AIGeneratorConfig>, sessionId?: string, userId?: string) {
     this.apiKey = apiKey;
     this.config = { ...DEFAULT_AI_CONFIG, ...config };
+    this.sessionId = sessionId;
+    this.userId = userId;
   }
 
   /**
@@ -59,7 +65,44 @@ export class ExerciseGenerator {
     const prompt = this.buildPrompt(exerciseConfig, request);
 
     // Llamar a la IA para generar el contenido
-    const content = await this.callAI(prompt);
+    const content = await this.callAI(prompt, request.level);
+
+    // Verificar si el ejercicio ya fue usado (anti-repetición)
+    const tracker = getExerciseTracker();
+    const isUsed = tracker.isExerciseUsed(
+      content,
+      request.exerciseType,
+      request.level,
+      this.userId,
+      this.sessionId
+    );
+
+    // Si ya fue usado, generar uno nuevo (máximo 3 intentos)
+    if (isUsed) {
+      console.log('🔄 Exercise already used, generating a new one...');
+      let attempts = 0;
+      let newContent = content;
+      
+      while (attempts < 3 && tracker.isExerciseUsed(newContent, request.exerciseType, request.level, this.userId, this.sessionId)) {
+        newContent = await this.callAI(prompt + '\n\nGenerate a COMPLETELY DIFFERENT exercise with NEW content.', request.level);
+        attempts++;
+      }
+      
+      if (attempts >= 3) {
+        console.warn('⚠️ Could not generate unique exercise after 3 attempts');
+      } else {
+        content = newContent;
+      }
+    }
+
+    // Registrar el ejercicio en el tracker
+    tracker.trackExercise(
+      content,
+      request.exerciseType,
+      request.level,
+      this.userId,
+      this.sessionId
+    );
 
     // Crear el ejercicio generado
     const exercise: GeneratedExercise = {
@@ -114,12 +157,31 @@ export class ExerciseGenerator {
     const difficultyContext = exerciseConfig.difficultySettings[request.difficulty];
     prompt = prompt.replace(/\{\{difficultyContext\}\}/g, difficultyContext);
 
+    // NUEVO: Agregar contexto del curriculum
+    const curriculumPrompt = buildCurriculumPrompt(
+      request.level as any,
+      exerciseConfig.category,
+      request.exerciseType,
+      request.difficulty
+    );
+    prompt += curriculumPrompt;
+
+    // NUEVO: Agregar información de ejercicios recientes (anti-repetición)
+    const tracker = getExerciseTracker();
+    const exclusionPrompt = tracker.getExclusionPrompt(
+      request.exerciseType,
+      request.level,
+      this.userId,
+      this.sessionId
+    );
+    prompt += exclusionPrompt;
+
     // Si hay prompt personalizado, agregarlo
     if (request.customPrompt) {
       prompt += `\n\nAdditional requirements: ${request.customPrompt}`;
     }
 
-    // Agregar instrucciones finales
+    // Agregar instrucciones finales actualizadas
     prompt += `\n\nIMPORTANT: 
 - Return ONLY valid JSON, no markdown formatting
 - All exercise content (questions, answers, options) MUST be in ENGLISH
@@ -127,7 +189,14 @@ export class ExerciseGenerator {
 - Instructions can be in English
 - Ensure educational value and accuracy
 - Make exercises engaging and realistic
-- Follow Cambridge B2 First (FCE) standards where applicable`;
+- ${request.level === 'A1' ? 'Follow A1 CEFR level standards - VERY BASIC English for absolute beginners' : ''}
+- ${request.level === 'A2' ? 'Follow A2 CEFR level standards - Elementary English' : ''}
+- ${request.level === 'B1' ? 'Follow B1 CEFR level standards - Intermediate English' : ''}
+- ${request.level === 'B2' ? 'Follow B2 First (FCE) Cambridge standards - Upper-Intermediate English' : ''}
+- ${request.level === 'C1' ? 'Follow C1 Advanced (CAE) Cambridge standards - Advanced English' : ''}
+- ${request.level === 'C2' ? 'Follow C2 Proficiency (CPE) Cambridge standards - Proficient English' : ''}
+- USE ONLY the curriculum topics and grammar specified above for ${request.level} level
+- Generate UNIQUE content - avoid repetition from recent exercises`;
 
     return prompt;
   }
@@ -135,11 +204,11 @@ export class ExerciseGenerator {
   /**
    * Llama a la IA para generar contenido
    */
-  private async callAI(prompt: string): Promise<any> {
+  private async callAI(prompt: string, level: CEFRLevel = 'B2'): Promise<any> {
     if (this.config.provider === 'openai') {
-      return this.callOpenAI(prompt);
+      return this.callOpenAI(prompt, level);
     } else if (this.config.provider === 'gemini') {
-      return this.callGemini(prompt);
+      return this.callGemini(prompt, level);
     } else {
       throw new Error(`Unsupported AI provider: ${this.config.provider}`);
     }
@@ -148,7 +217,7 @@ export class ExerciseGenerator {
   /**
    * Llama a OpenAI API
    */
-  private async callOpenAI(prompt: string): Promise<any> {
+  private async callOpenAI(prompt: string, level: CEFRLevel = 'B2'): Promise<any> {
     const response = await fetch('https://api.openai.com/v1/chat/completions', {
       method: 'POST',
       headers: {
@@ -160,7 +229,15 @@ export class ExerciseGenerator {
         messages: [
           {
             role: 'system',
-            content: 'You are an expert English language teacher specializing in B2 level (FCE) exercises. You create high-quality, pedagogically sound exercises that follow Cambridge exam standards.'
+            content: `You are an expert English language teacher specializing in CEFR-aligned exercises. 
+You create high-quality, pedagogically sound exercises that follow ${level === 'A1' ? 'A1 (Beginner)' : level === 'A2' ? 'A2 (Elementary)' : level === 'B1' ? 'B1 (Intermediate)' : level === 'B2' ? 'B2 (Upper-Intermediate) - Cambridge FCE' : level === 'C1' ? 'C1 (Advanced) - Cambridge CAE' : 'C2 (Proficient) - Cambridge CPE'} standards.
+
+For ${level} level, you MUST:
+- Use ONLY grammar and vocabulary appropriate for ${level} level
+- Follow the curriculum topics provided in the prompt
+- Create exercises that match the specified difficulty level
+- Generate UNIQUE content that hasn't been used before
+- Ensure all content is educationally appropriate and accurate`
           },
           {
             role: 'user',
@@ -192,7 +269,7 @@ export class ExerciseGenerator {
   /**
    * Llama a Gemini API
    */
-  private async callGemini(prompt: string): Promise<any> {
+  private async callGemini(prompt: string, level: CEFRLevel = 'B2'): Promise<any> {
     const response = await fetch(
       `https://generativelanguage.googleapis.com/v1beta/models/${this.config.model}:generateContent?key=${this.apiKey}`,
       {
@@ -321,7 +398,7 @@ export class ExerciseCache {
 let generatorInstance: ExerciseGenerator | null = null;
 let cacheInstance: ExerciseCache | null = null;
 
-export function getExerciseGenerator(): ExerciseGenerator | null {
+export function getExerciseGenerator(sessionId?: string, userId?: string): ExerciseGenerator | null {
   const apiKey = process.env.OPENAI_API_KEY || process.env.GEMINI_API_KEY || '';
   
   // Si no hay API key, retornar null para usar fallback exercises
@@ -330,10 +407,11 @@ export function getExerciseGenerator(): ExerciseGenerator | null {
     return null;
   }
   
-  if (!generatorInstance) {
-    const provider = process.env.OPENAI_API_KEY ? 'openai' : 'gemini';
-    generatorInstance = new ExerciseGenerator(apiKey, { provider });
-  }
+  // Siempre crear una nueva instancia con el sessionId/userId actual
+  // Esto permite tracking por sesión
+  const provider = process.env.OPENAI_API_KEY ? 'openai' : 'gemini';
+  generatorInstance = new ExerciseGenerator(apiKey, { provider }, sessionId, userId);
+  
   return generatorInstance;
 }
 
