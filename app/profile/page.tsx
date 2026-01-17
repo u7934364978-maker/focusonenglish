@@ -7,6 +7,7 @@ import {
   getUserProfile, 
   getUserProgress, 
   getUserLessonProgress,
+  getSkillsBreakdown,
   updateUserProfile,
   UserProfile,
   UserProgress,
@@ -24,6 +25,12 @@ export default function ProfilePage() {
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [progress, setProgress] = useState<UserProgress | null>(null);
   const [recentLessons, setRecentLessons] = useState<LessonProgress[]>([]);
+  const [skillsBreakdown, setSkillsBreakdown] = useState<{ reading: number; writing: number; listening: number; speaking: number }>({
+    reading: 0,
+    writing: 0,
+    listening: 0,
+    speaking: 0,
+  });
   const [isEditing, setIsEditing] = useState(false);
   const [editedProfile, setEditedProfile] = useState<Partial<UserProfile>>({});
 
@@ -38,75 +45,30 @@ export default function ProfilePage() {
   const loadProfileData = async () => {
     setLoading(true);
     try {
-      // Simulate loading - in production these would be real API calls
-      await new Promise(resolve => setTimeout(resolve, 800));
-      
-      // Mock data - replace with real Supabase calls
-      const mockProfile: UserProfile = {
-        id: userId,
-        email: userEmail,
-        full_name: 'Sarah Johnson',
-        avatar_url: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah',
-        phone: '+1 (555) 123-4567',
-        country: 'United States',
-        language_level: 'B2 - Upper Intermediate',
-        learning_goals: ['Business English', 'Exam Preparation', 'Conversation Practice'],
-        bio: 'Learning English to advance my career in international business.',
-        timezone: 'America/New_York',
-        notifications_enabled: true,
-        email_notifications: true,
-      };
+      // Get real data from Supabase
+      const [profileData, progressData, lessonsData, skillsData] = await Promise.all([
+        getUserProfile(userId),
+        getUserProgress(userId),
+        getUserLessonProgress(userId),
+        getSkillsBreakdown(userId)
+      ]);
 
-      const mockProgress: UserProgress = {
-        user_id: userId,
-        total_lessons_completed: 47,
-        total_exercises_completed: 324,
-        total_study_minutes: 1250,
-        current_streak_days: 12,
-        longest_streak_days: 28,
-        average_score: 87,
-        total_xp: 4750,
-        level: 5,
-        achievements: ['First Lesson', 'Week Warrior', 'Perfect Score', 'Century Club'],
-      };
+      if (profileData) {
+        setProfile(profileData);
+        setEditedProfile(profileData);
+      }
 
-      const mockRecentLessons: LessonProgress[] = [
-        {
-          id: '1',
-          user_id: userId,
-          lesson_id: 'b2-m1-l3',
-          lesson_title: 'Advanced Grammar Structures',
-          completed: true,
-          score: 92,
-          time_spent_minutes: 25,
-          completed_at: new Date(Date.now() - 2 * 60 * 60 * 1000).toISOString(),
-        },
-        {
-          id: '2',
-          user_id: userId,
-          lesson_id: 'b2-m1-l2',
-          lesson_title: 'Business Vocabulary',
-          completed: true,
-          score: 88,
-          time_spent_minutes: 30,
-          completed_at: new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString(),
-        },
-        {
-          id: '3',
-          user_id: userId,
-          lesson_id: 'b2-m1-l1',
-          lesson_title: 'Pronunciation Practice',
-          completed: true,
-          score: 85,
-          time_spent_minutes: 20,
-          completed_at: new Date(Date.now() - 48 * 60 * 60 * 1000).toISOString(),
-        },
-      ];
+      if (progressData) {
+        setProgress(progressData);
+      }
 
-      setProfile(mockProfile);
-      setProgress(mockProgress);
-      setRecentLessons(mockRecentLessons);
-      setEditedProfile(mockProfile);
+      if (lessonsData && lessonsData.length > 0) {
+        setRecentLessons(lessonsData.slice(0, 5)); // Get last 5 lessons
+      }
+
+      if (skillsData) {
+        setSkillsBreakdown(skillsData);
+      }
     } catch (error) {
       console.error('Error loading profile:', error);
     } finally {
@@ -120,10 +82,11 @@ export default function ProfilePage() {
     setSaving(true);
     try {
       // Update profile in Supabase
-      // const result = await updateUserProfile(profile.id, editedProfile);
+      const result = await updateUserProfile(profile.id, editedProfile);
       
-      // Simulate save
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      if (!result.success) {
+        throw new Error(result.error || 'Failed to update profile');
+      }
 
       // Sync to HubSpot
       const hubspotSync = await syncProfileToHubSpot(
@@ -187,25 +150,13 @@ export default function ProfilePage() {
       <header className="bg-gradient-to-r from-orange-600 via-amber-600 to-red-600 text-white shadow-xl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-6">
-              <div className="relative">
-                <img
-                  src={profile.avatar_url || 'https://api.dicebear.com/7.x/avataaars/svg?seed=default'}
-                  alt={profile.full_name}
-                  className="w-24 h-24 rounded-full border-4 border-white shadow-2xl"
-                />
-                <div className="absolute -bottom-2 -right-2 bg-white rounded-full p-2 shadow-lg">
-                  <span className="text-2xl">🎓</span>
-                </div>
-              </div>
-              <div>
-                <h1 className="text-4xl font-black mb-2">{profile.full_name}</h1>
-                <p className="text-lg text-orange-100 flex items-center gap-2">
-                  <span className="font-semibold">{profile.language_level}</span>
-                  <span className="text-white/60">•</span>
-                  <span>Level {progress?.level || 1}</span>
-                </p>
-              </div>
+            <div>
+              <h1 className="text-4xl font-black mb-2">{profile.full_name}</h1>
+              <p className="text-lg text-orange-100 flex items-center gap-2">
+                <span className="font-semibold">{profile.language_level}</span>
+                <span className="text-white/60">•</span>
+                <span>Level {progress?.level || 1}</span>
+              </p>
             </div>
             <Link
               href="/dashboard"
@@ -599,20 +550,28 @@ export default function ProfilePage() {
 
           <div className="space-y-4">
             {[
-              { skill: 'Reading', percentage: 90, color: 'orange' },
-              { skill: 'Writing', percentage: 85, color: 'amber' },
-              { skill: 'Listening', percentage: 88, color: 'red' },
-              { skill: 'Speaking', percentage: 82, color: 'purple' },
+              { skill: 'Reading', percentage: skillsBreakdown.reading, color: 'orange' },
+              { skill: 'Writing', percentage: skillsBreakdown.writing, color: 'amber' },
+              { skill: 'Listening', percentage: skillsBreakdown.listening, color: 'red' },
+              { skill: 'Speaking', percentage: skillsBreakdown.speaking, color: 'purple' },
             ].map((item) => (
               <div key={item.skill}>
                 <div className="flex items-center justify-between mb-2">
                   <span className="font-bold text-slate-700">{item.skill}</span>
-                  <span className={`font-black text-${item.color}-600 text-lg`}>{item.percentage}%</span>
+                  <span className={`font-black text-lg`} style={{ color: `rgb(var(--${item.color}-600))` }}>
+                    {item.percentage}%
+                  </span>
                 </div>
                 <div className="w-full bg-slate-200 rounded-full h-4 overflow-hidden">
                   <div
-                    className={`h-4 bg-gradient-to-r from-${item.color}-500 to-${item.color}-600 rounded-full transition-all duration-1000`}
-                    style={{ width: `${item.percentage}%` }}
+                    className="h-4 rounded-full transition-all duration-1000"
+                    style={{ 
+                      width: `${item.percentage}%`,
+                      background: item.color === 'orange' ? 'linear-gradient(to right, #f97316, #ea580c)' :
+                                  item.color === 'amber' ? 'linear-gradient(to right, #f59e0b, #d97706)' :
+                                  item.color === 'red' ? 'linear-gradient(to right, #ef4444, #dc2626)' :
+                                  'linear-gradient(to right, #a855f7, #9333ea)'
+                    }}
                   />
                 </div>
               </div>
