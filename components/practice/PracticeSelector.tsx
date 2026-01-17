@@ -25,7 +25,7 @@ export interface PracticeConfig {
   topic?: string;
   difficulty: DifficultyLevel;
   level: CEFRLevel;
-  count: number;
+  // count removed - infinite exercises
 }
 
 export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: PracticeSelectorProps) {
@@ -34,7 +34,6 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
   const [selectedType, setSelectedType] = useState<string>('');
   const [selectedTopic, setSelectedTopic] = useState<string>('');
   const [difficulty, setDifficulty] = useState<DifficultyLevel>('medium');
-  const [count, setCount] = useState<number>(1);
   const [loading, setLoading] = useState(false);
 
   // Cargar tipos de ejercicios
@@ -84,8 +83,7 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
       exerciseType: selectedType,
       topic: selectedTopic || undefined,
       difficulty,
-      level: userLevel,
-      count
+      level: userLevel
     };
 
     onStartPractice(config);
@@ -215,25 +213,17 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
               </p>
             </div>
 
-            {/* Cantidad de ejercicios */}
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Número de ejercicios
-              </label>
-              <div className="flex items-center gap-4">
-                <input
-                  type="range"
-                  min="1"
-                  max="5"
-                  value={count}
-                  onChange={(e) => setCount(parseInt(e.target.value))}
-                  className="flex-1"
-                />
-                <span className="text-2xl font-bold text-blue-600 w-12 text-center">{count}</span>
+            {/* Info de práctica infinita */}
+            <div className="bg-gradient-to-r from-purple-50 to-blue-50 p-4 rounded-lg border-2 border-purple-200">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">∞</span>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-1">Práctica Ilimitada</h4>
+                  <p className="text-sm text-gray-700">
+                    Los ejercicios se generarán uno a uno de forma continua. Practica todo el tiempo que quieras y sal cuando termines.
+                  </p>
+                </div>
               </div>
-              <p className="text-xs text-gray-600 mt-2">
-                Tiempo estimado: ~{selectedTypeConfig.estimatedTime * count} minutos
-              </p>
             </div>
           </div>
         )}
