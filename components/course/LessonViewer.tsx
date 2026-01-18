@@ -425,7 +425,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       type="text"
                       value={answers[question.id] || ''}
                       onChange={(e) => handleAnswer(question.id, e.target.value)}
-                      placeholder="Your answer..."
+                      placeholder="Tu respuesta..."
                       className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-orange-500 focus:outline-none"
                     />
                   )}
@@ -434,7 +434,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     <textarea
                       value={answers[question.id] || ''}
                       onChange={(e) => handleAnswer(question.id, e.target.value)}
-                      placeholder="Your answer..."
+                      placeholder="Tu respuesta..."
                       rows={3}
                       className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-orange-500 focus:outline-none"
                     />
@@ -472,7 +472,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       type={question.type === 'multiple-choice' ? 'multiple-choice' : 'text'}
                       evaluation={aiEvaluations[question.id]}
                       userAnswer={answers[question.id] || ''}
-                      correctAnswer={Array.isArray(question.correctAnswer) ? question.correctAnswer.join(' or ') : question.correctAnswer}
+                      correctAnswer={Array.isArray(question.correctAnswer) ? question.correctAnswer.join(' o ') : question.correctAnswer}
                     />
                   )}
                   {showFeedback && !aiEvaluations[question.id] && (
@@ -483,15 +483,15 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     }`}>
                       <p className="font-semibold mb-1">
                         {answers[question.id]?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : question.correctAnswer).toLowerCase().trim()
-                          ? '✓ Correct!'
-                          : '✗ Incorrect'}
+                          ? '✓ ¡Correcto!'
+                          : '✗ Incorrecto'}
                       </p>
                       <p className="text-sm mb-1">
-                        <strong>Correct answer:</strong> {Array.isArray(question.correctAnswer) ? question.correctAnswer.join(' or ') : question.correctAnswer}
+                        <strong>Respuesta correcta:</strong> {Array.isArray(question.correctAnswer) ? question.correctAnswer.join(' o ') : question.correctAnswer}
                       </p>
                       {question.explanation && (
                         <p className="text-sm text-slate-700">
-                          <strong>Explanation:</strong> {question.explanation}
+                          <strong>Explicación:</strong> {question.explanation}
                         </p>
                       )}
                     </div>
@@ -509,10 +509,10 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 {evaluating ? (
                   <>
                     <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                    <span>Evaluating with AI...</span>
+                    <span>Evaluando con IA...</span>
                   </>
                 ) : (
-                  'Check Answers'
+                  'Evaluar Respuestas'
                 )}
               </button>
             )}
@@ -586,7 +586,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     <textarea
                       value={answers[question.id] || ''}
                       onChange={(e) => handleAnswer(question.id, e.target.value)}
-                      placeholder="Your answer..."
+                      placeholder="Tu respuesta..."
                       rows={3}
                       className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-orange-500 focus:outline-none"
                     />
@@ -651,10 +651,10 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                   {evaluating ? (
                     <>
                       <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                      <span>Evaluating with AI...</span>
+                      <span>Evaluando con IA...</span>
                     </>
                   ) : (
-                    'Check Answers'
+                    'Evaluar Respuestas'
                   )}
                 </button>
               )}
@@ -822,7 +822,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     <textarea
                       value={answers[question.id] || ''}
                       onChange={(e) => handleAnswer(question.id, e.target.value)}
-                      placeholder="Your answer..."
+                      placeholder="Tu respuesta..."
                       rows={3}
                       className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-orange-500 focus:outline-none"
                     />
@@ -887,10 +887,10 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                   {evaluating ? (
                     <>
                       <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                      <span>Evaluating with AI...</span>
+                      <span>Evaluando con IA...</span>
                     </>
                   ) : (
-                    'Check Answers'
+                    'Evaluar Respuestas'
                   )}
                 </button>
               )}
@@ -1058,7 +1058,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
                     {/* Key Word */}
                     <div className="flex items-center gap-3">
-                      <span className="text-sm text-slate-600">Key word:</span>
+                      <span className="text-sm text-slate-600">Palabra clave:</span>
                       <span className="px-3 py-1 bg-amber-100 text-amber-900 rounded-full font-bold text-sm">
                         {transformation.keyWord}
                       </span>
@@ -1067,7 +1067,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
                     {/* Answer Input */}
                     <div className="space-y-2">
-                      <label className="text-sm font-semibold text-slate-700">Your answer:</label>
+                      <label className="text-sm font-semibold text-slate-700">Tu respuesta:</label>
                       <div className="flex items-center gap-2">
                         <span className="text-slate-600">{transformation.startOfAnswer}</span>
                         <input
@@ -1127,7 +1127,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 <span>{currentExercise.title}</span>
               </h3>
               <div className="bg-peach-100 p-3 rounded-lg border border-peach-300">
-                <p className="text-sm text-peach-900 font-semibold">💡 Instructions: Choose the correct form of the word given in capitals to complete each sentence.</p>
+                <p className="text-sm text-peach-900 font-semibold">💡 Instrucciones: Elige la forma correcta de la palabra indicada en mayúsculas para completar cada oración.</p>
               </div>
             </div>
 
@@ -1142,13 +1142,13 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
             {/* Questions */}
             <div className="space-y-4">
-              <h4 className="text-lg font-bold text-slate-900">Complete the gaps:</h4>
+              <h4 className="text-lg font-bold text-slate-900">Completa los huecos:</h4>
               {currentExercise.questions.map((question: any, idx: number) => (
                 <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
                   <div className="space-y-4">
                     <div className="flex items-center justify-between">
                       <p className="font-semibold text-slate-900">
-                        Gap {question.gapNumber}: {question.baseWord}
+                        Hueco {question.gapNumber}: {question.baseWord}
                       </p>
                       <span className="text-sm text-coral-600">({question.points} {question.points === 1 ? 'point' : 'points'})</span>
                     </div>
@@ -1165,7 +1165,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     {/* Multiple Choice Options or Text Input */}
                     {question.options && question.options.length > 0 ? (
                       <div className="space-y-2">
-                        <label className="text-sm font-semibold text-slate-700">Choose the correct answer:</label>
+                        <label className="text-sm font-semibold text-slate-700">Elige la respuesta correcta:</label>
                         <div className="space-y-2">
                           {question.options.map((option: string, optIdx: number) => (
                             <label
@@ -1191,7 +1191,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       </div>
                     ) : (
                       <div className="space-y-2">
-                        <label className="text-sm font-semibold text-slate-700">Type your answer:</label>
+                        <label className="text-sm font-semibold text-slate-700">Escribe tu respuesta:</label>
                         <input
                           type="text"
                           value={answers[question.id] || ''}
@@ -1298,11 +1298,11 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
             {/* Questions - Scrollable */}
             <div className="space-y-4">
-              <h4 className="text-lg font-bold text-slate-900">Choose the correct words:</h4>
+              <h4 className="text-lg font-bold text-slate-900">Elige las palabras correctas:</h4>
               {currentExercise.questions.map((question: any, idx: number) => (
                 <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
                   <p className="font-semibold text-slate-900 mb-3">
-                    Gap {question.gapNumber}: <span className="text-sm text-coral-600">({question.points} {question.points === 1 ? 'point' : 'points'})</span>
+                    Hueco {question.gapNumber}: <span className="text-sm text-coral-600">({question.points} {question.points === 1 ? 'punto' : 'puntos'})</span>
                   </p>
 
                   <div className="space-y-2">
@@ -1370,10 +1370,10 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                   {evaluating ? (
                     <>
                       <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                      <span>Evaluating with AI...</span>
+                      <span>Evaluando con IA...</span>
                     </>
                   ) : (
-                    'Check Answers'
+                    'Evaluar Respuestas'
                   )}
                 </button>
               )}
