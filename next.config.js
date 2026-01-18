@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Configuración para Railway deployment
+  output: 'standalone',
+  
   // ==========================================
   // REDIRECTS 301 - Reestructuración Fase 1
   // ==========================================
