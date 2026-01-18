@@ -1041,7 +1041,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               </h3>
               <p className="text-slate-700 whitespace-pre-line mb-3">{currentExercise.instructions}</p>
               <div className="bg-amber-100 p-3 rounded-lg border border-amber-300">
-                <p className="text-sm text-amber-900 font-semibold">💡 Tip: You must use between 2 and 5 words, including the given key word.</p>
+                <p className="text-sm text-amber-900 font-semibold">💡 Consejo: Debes usar entre 2 y 5 palabras, incluyendo la palabra clave indicada.</p>
               </div>
             </div>
 
@@ -1052,7 +1052,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                   <div className="space-y-3">
                     {/* Original Sentence */}
                     <div className="bg-orange-50 p-3 rounded-lg">
-                      <p className="text-sm text-coral-700 font-semibold mb-1">Original:</p>
+                      <p className="text-sm text-coral-700 font-semibold mb-1">Oración original:</p>
                       <p className="text-slate-900">{transformation.sentence}</p>
                     </div>
 
@@ -1062,7 +1062,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       <span className="px-3 py-1 bg-amber-100 text-amber-900 rounded-full font-bold text-sm">
                         {transformation.keyWord}
                       </span>
-                      <span className="text-slate-400">({transformation.points} {transformation.points === 1 ? 'point' : 'points'})</span>
+                      <span className="text-slate-400">({transformation.points} {transformation.points === 1 ? 'punto' : 'puntos'})</span>
                     </div>
 
                     {/* Answer Input */}
@@ -1097,15 +1097,15 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       }`}>
                         <p className="font-semibold mb-1">
                           {answers[transformation.id]?.toLowerCase().trim() === transformation.correctAnswer.toLowerCase().trim()
-                            ? '✓ Correct!'
-                            : '✗ Incorrect'}
+                            ? '✓ ¡Correcto!'
+                            : '✗ Incorrecto'}
                         </p>
                         <p className="text-sm mb-2">
-                          <span className="font-semibold">Correct answer:</span> {transformation.startOfAnswer} <span className="text-amber-700 font-bold">{transformation.correctAnswer}</span>
+                          <span className="font-semibold">Respuesta correcta:</span> {transformation.startOfAnswer} <span className="text-amber-700 font-bold">{transformation.correctAnswer}</span>
                         </p>
                         {transformation.explanation && (
                           <p className="text-sm text-slate-700">
-                            <span className="font-semibold">Explanation:</span> {transformation.explanation}
+                            <span className="font-semibold">Explicación:</span> {transformation.explanation}
                           </p>
                         )}
                       </div>
