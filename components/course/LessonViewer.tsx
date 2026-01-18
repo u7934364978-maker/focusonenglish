@@ -1114,6 +1114,24 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 </div>
               ))}
             </div>
+
+            {/* Check Answers Button */}
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating}
+                className="w-full px-6 py-4 bg-coral-600 text-white rounded-xl hover:bg-coral-700 transition-colors font-bold text-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+              >
+                {evaluating ? (
+                  <>
+                    <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                    <span>Evaluando con IA...</span>
+                  </>
+                ) : (
+                  'Evaluar Respuestas'
+                )}
+              </button>
+            )}
           </div>
         );
 
