@@ -43,7 +43,7 @@ export async function generateExercise(config: ExerciseConfig): Promise<Exercise
   const selectedType = availableTypes[Math.floor(Math.random() * availableTypes.length)];
 
   // Call the API to generate the exercise
-  const response = await fetch('/api/exercises/generate', {
+  const response = await fetch('/api/generate-exercise', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -51,27 +51,37 @@ export async function generateExercise(config: ExerciseConfig): Promise<Exercise
     body: JSON.stringify({
       exerciseType: selectedType,
       level: config.level,
-      topic: config.topicName,
-      keywords: config.topicKeywords,
+      category: config.category,
+      difficulty: 'medium', // Default difficulty
+      count: 1,
+      topic: config.topic,
+      topicKeywords: config.topicKeywords,
       customInstructions: `Generate a ${config.level} level ${config.category} exercise about ${config.topicName}. Keywords: ${config.topicKeywords.join(', ')}`
     })
   });
 
   if (!response.ok) {
-    const error = await response.json();
-    throw new Error(error.message || 'Failed to generate exercise');
+    const error = await response.json().catch(() => ({ error: 'Failed to generate exercise' }));
+    throw new Error(error.error || error.message || 'Failed to generate exercise');
   }
 
   const data = await response.json();
   
+  // The API returns { success: true, exercises: [...], sessionId: '...' }
+  if (!data.success || !data.exercises || data.exercises.length === 0) {
+    throw new Error('No exercise generated');
+  }
+
+  const generatedExercise = data.exercises[0]; // Get first exercise
+  
   return {
-    id: data.id || `ex-${Date.now()}`,
+    id: generatedExercise.id || `ex-${Date.now()}`,
     type: selectedType,
     level: config.level,
     topic: config.topic,
     topicName: config.topicName,
-    content: data.content,
+    content: generatedExercise.content,
     createdAt: new Date(),
-    estimatedTime: data.estimatedTime || 10
+    estimatedTime: generatedExercise.estimatedTime || 10
   };
 }
