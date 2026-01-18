@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT",
+    "start": "node server.js",
+    "start:next": "next start -p ${PORT:-3000}",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "generate-audio": "ts-node --esm scripts/generate-course-audio.ts",
