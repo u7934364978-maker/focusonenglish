@@ -96,31 +96,37 @@ export interface SpeakingPart3Exercise {
   type: 'speaking-part3';
   title: string;
   instructions: string;
-  centralQuestion: string; // "Why might people choose these activities?"
-  optionsWithImages: {
+  scenario: string;
+  question: string;
+  centralQuestion?: string; // Legacy field
+  options: {
     id: string;
-    option: string;
+    text: string;
+    option?: string; // Legacy field
     imageUrl?: string;
-    description: string;
+    description?: string;
   }[];
-  taskPhase1: {
-    instruction: string; // "Discuss all options"
-    timeLimit: number; // 2 minutos
+  optionsWithImages?: any; // Legacy field
+  phase1Duration: number;
+  phase2Duration: number;
+  taskPhase1?: {
+    instruction: string;
+    timeLimit: number;
   };
-  taskPhase2: {
-    instruction: string; // "Now decide which TWO would be best"
-    timeLimit: number; // 1 minuto
+  taskPhase2?: {
+    instruction: string;
+    timeLimit: number;
   };
+  usefulPhrases?: string[];
   evaluationCriteria: {
     pronunciation: boolean;
     fluency: boolean;
     grammar: boolean;
     vocabulary: boolean;
-    turntaking: boolean;
-    negotiation: boolean;
-    reachingDecision: boolean;
+    turntaking?: boolean;
+    negotiation?: boolean;
+    reachingDecision?: boolean;
   };
-  usefulPhrases: string[];
 }
 
 // PART 4: Discussion (Extended Speaking)
@@ -853,47 +859,54 @@ Had you finished your homework?`,
         type: 'speaking-part3',
         title: 'FCE Speaking Part 3: Collaborative Task - Planning',
         instructions: 'Tú y tu compañero van a hablar sobre diferentes formas de mejorar el inglés. Primero, hablen sobre todas las opciones (2 minutos). Luego, decidan cuáles DOS serían más efectivas (1 minuto).',
-        centralQuestion: '¿Qué tan efectivos podrían ser estos métodos para mejorar el inglés?',
-        optionsWithImages: [
+        scenario: 'You and your partner want to improve your English',
+        question: 'How effective might these methods be for improving English?',
+        options: [
           {
             id: 'opt1',
-            option: 'Watching English movies and TV series',
+            text: 'Watching English movies and TV series',
             imageUrl: 'https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=400&q=80',
             description: 'Person watching English content with subtitles'
           },
           {
             id: 'opt2',
-            option: 'Taking an intensive English course',
+            text: 'Taking an intensive English course',
             imageUrl: 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=400&q=80',
             description: 'Students in an English class with a teacher'
           },
           {
             id: 'opt3',
-            option: 'Living in an English-speaking country',
+            text: 'Living in an English-speaking country',
             imageUrl: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=400&q=80',
             description: 'Person immersed in English-speaking environment'
           },
           {
             id: 'opt4',
-            option: 'Practicing with language exchange partners online',
+            text: 'Practicing with language exchange partners online',
             imageUrl: 'https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=400&q=80',
             description: 'Person having video call for language exchange'
           },
           {
             id: 'opt5',
-            option: 'Reading English books and newspapers',
+            text: 'Reading English books and newspapers',
             imageUrl: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=400&q=80',
             description: 'Person reading English literature'
           }
         ],
-        taskPhase1: {
-          instruction: 'First, talk together about how effective each method might be for improving English. You have about 2 minutes.',
-          timeLimit: 120
-        },
-        taskPhase2: {
-          instruction: 'Now decide which TWO methods would be most effective for someone who wants to improve their English quickly. You have about 1 minute.',
-          timeLimit: 60
-        },
+        phase1Duration: 120,
+        phase2Duration: 60,
+        usefulPhrases: [
+          'What do you think about...?',
+          'I agree with you',
+          'That\'s a good point',
+          'Perhaps we could...',
+          'I see what you mean',
+          'On the other hand...',
+          'So shall we say...?',
+          'Let\'s consider...',
+          'I\'d say that...',
+          'How about...?'
+        ],
         evaluationCriteria: {
           pronunciation: true,
           fluency: true,

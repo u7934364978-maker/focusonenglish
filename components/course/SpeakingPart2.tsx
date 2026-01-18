@@ -5,8 +5,9 @@ import EnhancedVoiceRecorder from './EnhancedVoiceRecorder';
 import Image from 'next/image';
 
 interface Photo {
-  url: string;
-  alt: string;
+  id?: string;
+  imageUrl: string;
+  description: string;
 }
 
 interface SpeakingPart2Props {
@@ -171,8 +172,8 @@ export default function SpeakingPart2({
             <div key={index} className="relative">
               <div className="aspect-[4/3] relative rounded-lg overflow-hidden border-2 border-violet-200 bg-slate-100">
                 <Image
-                  src={photo.url}
-                  alt={photo.alt}
+                  src={photo.imageUrl}
+                  alt={photo.description}
                   fill
                   className="object-cover"
                 />
