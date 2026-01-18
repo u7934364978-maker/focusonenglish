@@ -69,7 +69,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json<TextAnswerEvaluationResponse>({
         isCorrect: false,
         score: 0,
-        feedback: 'Your answer is too short. Please provide a more complete response.',
+        feedback: 'Tu respuesta es demasiado corta. Por favor, proporciona una respuesta más completa.',
         detailedAnalysis: {
           semanticMatch: 0,
           grammaticalAccuracy: 0,
@@ -78,10 +78,10 @@ export async function POST(request: NextRequest) {
         },
         conceptsCovered: [],
         missingConcepts: expectedConcepts,
-        suggestions: ['Write a more detailed answer that fully addresses the question.'],
+        suggestions: ['Escribe una respuesta más detallada que aborde completamente la pregunta.'],
         grammarErrors: [],
         vocabularyFeedback: {
-          level: 'insufficient',
+          level: 'insuficiente',
           appropriateWords: [],
         },
         overallAssessment: 'incorrect'
@@ -89,85 +89,85 @@ export async function POST(request: NextRequest) {
     }
 
     // Build the system prompt for GPT-4o
-    const systemPrompt = `You are an expert English language evaluator for ${level} level students.
-Your task is to evaluate student answers with ZERO false negatives and ZERO false positives.
+    const systemPrompt = `Eres un evaluador experto de idioma inglés para estudiantes de nivel ${level}.
+Tu tarea es evaluar respuestas de estudiantes con CERO falsos negativos y CERO falsos positivos.
 
-CRITICAL EVALUATION PRINCIPLES:
-1. SEMANTIC EQUIVALENCE: Accept answers that express the same meaning with different words
-2. SYNONYM RECOGNITION: Recognize synonyms and paraphrases as correct
-3. GRAMMATICAL FLEXIBILITY: Minor grammar mistakes should not mark a semantically correct answer as wrong
-4. CONCEPTUAL ACCURACY: Focus on whether the student understood the concept, not exact wording
-5. CONTEXT AWARENESS: Consider the question type and expected response level
+PRINCIPIOS DE EVALUACIÓN CRÍTICOS:
+1. EQUIVALENCIA SEMÁNTICA: Acepta respuestas que expresen el mismo significado con palabras diferentes
+2. RECONOCIMIENTO DE SINÓNIMOS: Reconoce sinónimos y paráfrasis como correctos
+3. FLEXIBILIDAD GRAMATICAL: Errores gramaticales menores no deben marcar una respuesta semánticamente correcta como incorrecta
+4. PRECISIÓN CONCEPTUAL: Enfócate en si el estudiante entendió el concepto, no en la redacción exacta
+5. CONCIENCIA DE CONTEXTO: Considera el tipo de pregunta y el nivel de respuesta esperado
 
-SCORING GUIDELINES:
-- 90-100: Perfect semantic match with excellent grammar
-- 75-89: Correct meaning with minor grammar/vocabulary issues
-- 60-74: Partially correct - some key concepts present
-- 40-59: Incomplete but shows some understanding
-- 0-39: Incorrect or off-topic
+GUÍAS DE PUNTUACIÓN:
+- 90-100: Coincidencia semántica perfecta con excelente gramática
+- 75-89: Significado correcto con problemas menores de gramática/vocabulario
+- 60-74: Parcialmente correcto - algunos conceptos clave presentes
+- 40-59: Incompleto pero muestra algo de comprensión
+- 0-39: Incorrecto o fuera de tema
 
-Return a JSON response with detailed evaluation.`;
+Devuelve una respuesta JSON con evaluación detallada en español.`;
 
-    const userPrompt = `QUESTION TYPE: ${questionType}
-ENGLISH LEVEL: ${level}
+    const userPrompt = `TIPO DE PREGUNTA: ${questionType}
+NIVEL DE INGLÉS: ${level}
 
-QUESTION:
+PREGUNTA:
 "${question}"
 
-${correctAnswer ? `EXPECTED ANSWER(S):
+${correctAnswer ? `RESPUESTA(S) ESPERADA(S):
 ${Array.isArray(correctAnswer) ? correctAnswer.map((a, i) => `${i + 1}. ${a}`).join('\n') : correctAnswer}` : ''}
 
-${expectedConcepts.length > 0 ? `KEY CONCEPTS TO IDENTIFY:
+${expectedConcepts.length > 0 ? `CONCEPTOS CLAVE A IDENTIFICAR:
 ${expectedConcepts.map((c, i) => `${i + 1}. ${c}`).join('\n')}` : ''}
 
-${context ? `CONTEXT/PASSAGE:
+${context ? `CONTEXTO/PASAJE:
 ${context.substring(0, 1000)}...` : ''}
 
-STUDENT'S ANSWER:
+RESPUESTA DEL ESTUDIANTE:
 "${userAnswer}"
 
-EVALUATE THIS ANSWER AND RETURN A JSON OBJECT WITH:
+EVALÚA ESTA RESPUESTA Y DEVUELVE UN OBJETO JSON CON (en español):
 {
-  "isCorrect": boolean, // true if semantically correct regardless of exact wording
+  "isCorrect": boolean, // true si es semánticamente correcto independientemente de la redacción exacta
   "score": number, // 0-100
-  "feedback": "string", // Clear, encouraging feedback in English
+  "feedback": "string", // Retroalimentación clara y alentadora en español
   "detailedAnalysis": {
-    "semanticMatch": number, // 0-100, how well meaning matches
+    "semanticMatch": number, // 0-100, qué tan bien coincide el significado
     "grammaticalAccuracy": number, // 0-100
-    "vocabularyLevel": number, // 0-100, appropriate for ${level}
-    "completeness": number // 0-100, all aspects addressed
+    "vocabularyLevel": number, // 0-100, apropiado para ${level}
+    "completeness": number // 0-100, todos los aspectos abordados
   },
-  "conceptsCovered": ["concept1", "concept2"], // which key concepts were mentioned
-  "missingConcepts": ["concept3"], // which key concepts are missing
-  "suggestions": ["suggestion1", "suggestion2"], // specific improvements
+  "conceptsCovered": ["concepto1", "concepto2"], // qué conceptos clave se mencionaron
+  "missingConcepts": ["concepto3"], // qué conceptos clave faltan
+  "suggestions": ["sugerencia1", "sugerencia2"], // mejoras específicas
   "grammarErrors": [
     {
-      "error": "specific error in answer",
-      "correction": "how to correct it",
-      "explanation": "why it's wrong"
+      "error": "error específico en la respuesta",
+      "correction": "cómo corregirlo",
+      "explanation": "por qué está mal"
     }
   ],
   "vocabularyFeedback": {
-    "level": "excellent|good|adequate|needs-improvement",
-    "appropriateWords": ["word1", "word2"], // good vocabulary used
+    "level": "excelente|bueno|adecuado|necesita-mejora",
+    "appropriateWords": ["palabra1", "palabra2"], // buen vocabulario utilizado
     "betterAlternatives": [
       {
-        "word": "basic word used",
-        "alternative": "more sophisticated option",
-        "reason": "why it's better"
+        "word": "palabra básica usada",
+        "alternative": "opción más sofisticada",
+        "reason": "por qué es mejor"
       }
     ]
   },
   "overallAssessment": "excellent|good|fair|needs-improvement|incorrect"
 }
 
-IMPORTANT EVALUATION RULES:
-1. If the meaning is correct but expressed differently, mark as correct
-2. Give credit for synonyms and paraphrases
-3. Minor grammar errors should NOT fail a semantically correct answer
-4. Be encouraging and constructive in feedback
-5. For ${level} level, expect vocabulary and grammar appropriate to that level
-6. If most key concepts are covered, score should be at least 60`;
+REGLAS IMPORTANTES DE EVALUACIÓN:
+1. Si el significado es correcto pero expresado de manera diferente, marca como correcto
+2. Da crédito por sinónimos y paráfrasis
+3. Errores gramaticales menores NO deben reprobar una respuesta semánticamente correcta
+4. Sé alentador y constructivo en la retroalimentación
+5. Para el nivel ${level}, espera vocabulario y gramática apropiados para ese nivel
+6. Si la mayoría de los conceptos clave están cubiertos, la puntuación debe ser al menos 60`;
 
     // Call GPT-4o for evaluation
     const completion = await openai.chat.completions.create({
@@ -194,7 +194,7 @@ IMPORTANT EVALUATION RULES:
       if (coveragePercent >= 75 && evaluationResult.score < 60) {
         evaluationResult.score = Math.max(evaluationResult.score, 70);
         evaluationResult.isCorrect = true;
-        evaluationResult.feedback += ' Your answer covers most key concepts, which is excellent!';
+        evaluationResult.feedback += ' Tu respuesta cubre la mayoría de los conceptos clave, ¡lo cual es excelente!';
       }
     }
 
@@ -202,7 +202,7 @@ IMPORTANT EVALUATION RULES:
     const response: TextAnswerEvaluationResponse = {
       isCorrect: evaluationResult.isCorrect ?? false,
       score: Math.min(100, Math.max(0, evaluationResult.score ?? 0)),
-      feedback: evaluationResult.feedback || 'Evaluation completed.',
+      feedback: evaluationResult.feedback || 'Evaluación completada.',
       detailedAnalysis: evaluationResult.detailedAnalysis || {
         semanticMatch: 50,
         grammaticalAccuracy: 50,
@@ -214,7 +214,7 @@ IMPORTANT EVALUATION RULES:
       suggestions: evaluationResult.suggestions || [],
       grammarErrors: evaluationResult.grammarErrors || [],
       vocabularyFeedback: evaluationResult.vocabularyFeedback || {
-        level: 'adequate',
+        level: 'adecuado',
         appropriateWords: []
       },
       overallAssessment: evaluationResult.overallAssessment || 'fair'
@@ -228,9 +228,9 @@ IMPORTANT EVALUATION RULES:
     // Fallback response in case of error
     return NextResponse.json(
       {
-        error: 'Failed to evaluate answer',
+        error: 'Error al evaluar la respuesta',
         details: error.message,
-        fallbackMessage: 'Please try again. If the problem persists, contact support.'
+        fallbackMessage: 'Por favor, inténtalo nuevamente. Si el problema persiste, contacta a soporte.'
       },
       { status: 500 }
     );
@@ -241,7 +241,7 @@ IMPORTANT EVALUATION RULES:
 export async function GET() {
   return NextResponse.json({
     status: 'healthy',
-    service: 'text-answer-evaluation',
+    service: 'evaluacion-respuesta-texto',
     version: '1.0.0'
   });
 }

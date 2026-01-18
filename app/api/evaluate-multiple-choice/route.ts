@@ -80,9 +80,9 @@ export async function POST(request: NextRequest) {
         confidence: 100,
         userAnswerIndex,
         correctAnswerIndex,
-        feedback: '✓ Correct! Well done.',
+        feedback: '✓ ¡Correcto! Bien hecho.',
         possibleTypo: false,
-        conceptTested: 'Multiple choice question'
+        conceptTested: 'Pregunta de opción múltiple'
       });
     }
 
@@ -127,25 +127,25 @@ export async function POST(request: NextRequest) {
     // If very similar (>90%), likely a typo - ask AI to verify
     if (similarityScore >= 90) {
       // Use AI to determine if it's a typo or actually selected wrong answer
-      const aiPrompt = `Question: "${question}"
-Options: ${options.map((opt, i) => `${i + 1}. ${opt}`).join(', ')}
-Correct Answer: "${correctAnswer}"
-User Selected: "${userAnswer}"
+      const aiPrompt = `Pregunta: "${question}"
+Opciones: ${options.map((opt, i) => `${i + 1}. ${opt}`).join(', ')}
+Respuesta Correcta: "${correctAnswer}"
+Usuario Seleccionó: "${userAnswer}"
 
-The user's answer is ${similarityScore}% similar to the correct answer.
-Is this likely a typo/transcription error, or did the user actually select a different option?
+La respuesta del usuario es ${similarityScore}% similar a la respuesta correcta.
+¿Es esto probablemente un error tipográfico/transcripción, o el usuario realmente seleccionó una opción diferente?
 
-Respond in JSON:
+Responde en JSON:
 {
   "isTypo": boolean,
   "confidence": number (0-100),
-  "reasoning": "brief explanation"
+  "reasoning": "breve explicación"
 }`;
 
       const completion = await openai.chat.completions.create({
         model: 'gpt-4o-mini', // Using mini for simple typo detection
         messages: [
-          { role: 'system', content: 'You are a helpful assistant that detects typos in multiple choice answers.' },
+          { role: 'system', content: 'Eres un asistente útil que detecta errores tipográficos en respuestas de opción múltiple.' },
           { role: 'user', content: aiPrompt }
         ],
         response_format: { type: "json_object" },
@@ -161,38 +161,38 @@ Respond in JSON:
           confidence: 95,
           userAnswerIndex,
           correctAnswerIndex,
-          feedback: '✓ Correct! (We detected a minor typo in your selection, but your intent was clear)',
+          feedback: '✓ ¡Correcto! (Detectamos un pequeño error tipográfico en tu selección, pero tu intención era clara)',
           possibleTypo: true,
           fuzzyMatchScore: similarityScore,
           didYouMean: correctAnswer,
-          conceptTested: 'Multiple choice question'
+          conceptTested: 'Pregunta de opción múltiple'
         });
       }
     }
 
     // LEVEL 3: User selected wrong answer - provide educational feedback
     // Use AI to explain why answer is wrong
-    const explanationPrompt = `${context ? `Context: ${context}\n\n` : ''}Question: "${question}"
+    const explanationPrompt = `${context ? `Contexto: ${context}\n\n` : ''}Pregunta: "${question}"
 
-Options:
+Opciones:
 ${options.map((opt, i) => `${i + 1}. ${opt}`).join('\n')}
 
-Correct Answer: "${correctAnswer}"
-User Selected: "${userAnswer}"
-Level: ${level}
+Respuesta Correcta: "${correctAnswer}"
+Usuario Seleccionó: "${userAnswer}"
+Nivel: ${level}
 
-Provide educational feedback in JSON:
+Proporciona retroalimentación educativa en JSON (en español):
 {
-  "explanation": "Why the correct answer is correct (brief, 1-2 sentences)",
-  "whyWrong": "Why the user's answer is wrong (brief, 1-2 sentences)",
-  "conceptTested": "What grammar/vocabulary concept is being tested",
-  "hint": "A helpful hint to remember this in future"
+  "explanation": "Por qué la respuesta correcta es correcta (breve, 1-2 oraciones)",
+  "whyWrong": "Por qué la respuesta del usuario es incorrecta (breve, 1-2 oraciones)",
+  "conceptTested": "Qué concepto gramatical/vocabulario se está evaluando",
+  "hint": "Un consejo útil para recordar esto en el futuro"
 }`;
 
     const explanationCompletion = await openai.chat.completions.create({
       model: 'gpt-4o-mini',
       messages: [
-        { role: 'system', content: `You are an encouraging English teacher for ${level} students.` },
+        { role: 'system', content: `Eres un profesor alentador de inglés para estudiantes de nivel ${level}. Proporciona todas las respuestas en español.` },
         { role: 'user', content: explanationPrompt }
       ],
       response_format: { type: "json_object" },
@@ -207,10 +207,10 @@ Provide educational feedback in JSON:
       confidence: 100,
       userAnswerIndex,
       correctAnswerIndex,
-      feedback: '✗ Not quite right. Review the explanation below.',
-      explanation: explanationResult.explanation || 'The correct answer is provided above.',
-      whyWrong: explanationResult.whyWrong || 'Your answer does not match the correct option.',
-      conceptTested: explanationResult.conceptTested || 'Multiple choice question',
+      feedback: '✗ No del todo correcto. Revisa la explicación a continuación.',
+      explanation: explanationResult.explanation || 'La respuesta correcta se proporciona arriba.',
+      whyWrong: explanationResult.whyWrong || 'Tu respuesta no coincide con la opción correcta.',
+      conceptTested: explanationResult.conceptTested || 'Pregunta de opción múltiple',
       possibleTypo: false
     });
 
@@ -225,9 +225,9 @@ Provide educational feedback in JSON:
       confidence: 90,
       userAnswerIndex: -1,
       correctAnswerIndex: -1,
-      feedback: isCorrect ? '✓ Correct!' : '✗ Incorrect. The correct answer is: ' + correctAnswer,
+      feedback: isCorrect ? '✓ ¡Correcto!' : '✗ Incorrecto. La respuesta correcta es: ' + correctAnswer,
       possibleTypo: false,
-      conceptTested: 'Multiple choice question'
+      conceptTested: 'Pregunta de opción múltiple'
     });
   }
 }
@@ -235,7 +235,7 @@ Provide educational feedback in JSON:
 export async function GET() {
   return NextResponse.json({
     status: 'healthy',
-    service: 'multiple-choice-evaluation',
+    service: 'evaluacion-opcion-multiple',
     version: '1.0.0'
   });
 }
