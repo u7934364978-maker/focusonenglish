@@ -76,42 +76,42 @@ export async function POST(request: NextRequest) {
     // Step 3: Evaluate with GPT-4
     console.log('🤖 Evaluating with GPT-4...');
     
-    const evaluationPrompt = `You are an expert English language teacher evaluating a student's speaking performance.
+    const evaluationPrompt = `Eres un profesor experto de inglés evaluando el desempeño oral de un estudiante.
 
-LEVEL: ${level}
-PROMPT GIVEN TO STUDENT: "${prompt}"
-${expectedResponse ? `EXPECTED RESPONSE: "${expectedResponse}"` : ''}
-${targetWords.length > 0 ? `TARGET WORDS TO USE: ${targetWords.join(', ')}` : ''}
+NIVEL: ${level}
+INSTRUCCIÓN DADA AL ESTUDIANTE: "${prompt}"
+${expectedResponse ? `RESPUESTA ESPERADA: "${expectedResponse}"` : ''}
+${targetWords.length > 0 ? `PALABRAS OBJETIVO A USAR: ${targetWords.join(', ')}` : ''}
 
-STUDENT'S TRANSCRIBED RESPONSE: "${transcription}"
+RESPUESTA TRANSCRITA DEL ESTUDIANTE: "${transcription}"
 
-Evaluate the student's speaking performance and provide scores (0-100) for:
-1. Pronunciation - clarity and correctness of sounds
-2. Fluency - smoothness, natural pace, hesitations
-3. Grammar - correctness of sentence structures and tenses
-4. Vocabulary - appropriateness and variety of words used
+Evalúa el desempeño oral del estudiante y proporciona puntuaciones (0-100) para:
+1. Pronunciación - claridad y corrección de los sonidos
+2. Fluidez - suavidad, ritmo natural, vacilaciones
+3. Gramática - corrección de estructuras de oraciones y tiempos verbales
+4. Vocabulario - adecuación y variedad de palabras utilizadas
 
-Also provide:
-- Overall feedback (2-3 sentences in Spanish)
-- 2-3 specific strengths
-- 2-3 areas for improvement
-- List of target words they used correctly
-- List of target words they missed (if applicable)
+También proporciona:
+- Retroalimentación general (2-3 oraciones en español)
+- 2-3 fortalezas específicas
+- 2-3 áreas de mejora
+- Lista de palabras objetivo que usaron correctamente
+- Lista de palabras objetivo que omitieron (si aplica)
 
-Consider the CEFR ${level} level standards when scoring.
+Considera los estándares del nivel MCER ${level} al calificar.
 
-Respond in JSON format:
+Responde en formato JSON:
 {
   "pronunciationScore": number,
   "fluencyScore": number,
   "grammarScore": number,
   "vocabularyScore": number,
   "overallScore": number,
-  "feedback": "Encouraging feedback in Spanish",
-  "strengths": ["strength 1", "strength 2"],
-  "improvements": ["improvement 1", "improvement 2"],
-  "detectedWords": ["word1", "word2"],
-  "missedWords": ["word3", "word4"]
+  "feedback": "Retroalimentación alentadora en español",
+  "strengths": ["fortaleza 1", "fortaleza 2"],
+  "improvements": ["mejora 1", "mejora 2"],
+  "detectedWords": ["palabra1", "palabra2"],
+  "missedWords": ["palabra3", "palabra4"]
 }`;
 
     const completion = await openai.chat.completions.create({
@@ -119,7 +119,7 @@ Respond in JSON format:
       messages: [
         {
           role: 'system',
-          content: `You are an encouraging English teacher providing constructive feedback for ${level} level students. Be supportive but honest about areas for improvement.`
+          content: `Eres un profesor alentador de inglés que proporciona retroalimentación constructiva para estudiantes de nivel ${level}. Sé comprensivo pero honesto sobre las áreas de mejora. Proporciona todas las respuestas en español.`
         },
         {
           role: 'user',
@@ -142,7 +142,7 @@ Respond in JSON format:
       grammarScore: evaluation.grammarScore || 70,
       vocabularyScore: evaluation.vocabularyScore || 70,
       overallScore: evaluation.overallScore || 70,
-      feedback: evaluation.feedback || 'Good effort! Keep practicing.',
+      feedback: evaluation.feedback || '¡Buen esfuerzo! Sigue practicando.',
       strengths: evaluation.strengths || [],
       improvements: evaluation.improvements || [],
       detectedWords: evaluation.detectedWords || [],
@@ -155,21 +155,21 @@ Respond in JSON format:
     console.error('❌ Error evaluating speaking:', error);
     
     // Provide helpful error messages
-    let errorMessage = 'Failed to evaluate speaking exercise.';
+    let errorMessage = 'Error al evaluar el ejercicio de expresión oral.';
     
     if (error.message?.includes('API key')) {
-      errorMessage = 'OpenAI API key is not configured or invalid.';
+      errorMessage = 'La clave API de OpenAI no está configurada o es inválida.';
     } else if (error.message?.includes('audio')) {
-      errorMessage = 'Failed to process audio. Please try recording again.';
+      errorMessage = 'Error al procesar el audio. Por favor, intenta grabar nuevamente.';
     } else if (error.message?.includes('rate limit')) {
-      errorMessage = 'Rate limit exceeded. Please try again in a moment.';
+      errorMessage = 'Límite de tasa excedido. Por favor, intenta nuevamente en un momento.';
     }
     
     return NextResponse.json(
       { 
         error: errorMessage,
         details: error.message,
-        transcription: 'Could not transcribe audio. Please try again.'
+        transcription: 'No se pudo transcribir el audio. Por favor, intenta nuevamente.'
       },
       { status: 500 }
     );
@@ -179,14 +179,14 @@ Respond in JSON format:
 export async function GET() {
   return NextResponse.json({
     status: 'healthy',
-    service: 'speaking-evaluation',
+    service: 'evaluacion-expresion-oral',
     version: '1.0.0',
     features: [
-      'Speech-to-Text (Whisper)',
-      'Pronunciation Analysis',
-      'Fluency Evaluation',
-      'Grammar Assessment',
-      'Vocabulary Analysis'
+      'Conversión de voz a texto (Whisper)',
+      'Análisis de pronunciación',
+      'Evaluación de fluidez',
+      'Evaluación de gramática',
+      'Análisis de vocabulario'
     ]
   });
 }
