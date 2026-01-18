@@ -110,7 +110,7 @@ export default function PronunciationFeedback() {
     // Simulate recording
     setTimeout(() => {
       setIsRecording(false)
-      analyzePronu nciation()
+      analyzePronunciation()
     }, 3000)
   }
 
