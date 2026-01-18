@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // Configuración para Railway deployment
-  output: 'standalone',
+  // output: 'standalone', // Comentado para DigitalOcean App Platform
   
   // ==========================================
   // REDIRECTS 301 - Reestructuración Fase 1
