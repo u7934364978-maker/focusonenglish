@@ -818,12 +818,12 @@ Had you finished your homework?`,
         photos: [
           {
             id: 'photo1',
-            imageUrl: '/images/speaking/b2-people-studying-library.jpg',
+            imageUrl: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80',
             description: 'Students studying together in a library, with books and laptops'
           },
           {
             id: 'photo2',
-            imageUrl: '/images/speaking/b2-person-studying-home.jpg',
+            imageUrl: 'https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=800&q=80',
             description: 'A person studying alone at home with headphones on'
           }
         ],
@@ -858,31 +858,31 @@ Had you finished your homework?`,
           {
             id: 'opt1',
             option: 'Watching English movies and TV series',
-            imageUrl: '/images/speaking/b2-watching-tv.jpg',
+            imageUrl: 'https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=400&q=80',
             description: 'Person watching English content with subtitles'
           },
           {
             id: 'opt2',
             option: 'Taking an intensive English course',
-            imageUrl: '/images/speaking/b2-english-class.jpg',
+            imageUrl: 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=400&q=80',
             description: 'Students in an English class with a teacher'
           },
           {
             id: 'opt3',
             option: 'Living in an English-speaking country',
-            imageUrl: '/images/speaking/b2-living-abroad.jpg',
+            imageUrl: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=400&q=80',
             description: 'Person immersed in English-speaking environment'
           },
           {
             id: 'opt4',
             option: 'Practicing with language exchange partners online',
-            imageUrl: '/images/speaking/b2-online-exchange.jpg',
+            imageUrl: 'https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=400&q=80',
             description: 'Person having video call for language exchange'
           },
           {
             id: 'opt5',
             option: 'Reading English books and newspapers',
-            imageUrl: '/images/speaking/b2-reading.jpg',
+            imageUrl: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=400&q=80',
             description: 'Person reading English literature'
           }
         ],
