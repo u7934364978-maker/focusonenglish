@@ -340,13 +340,41 @@ Looking ahead, experts predict that a hybrid model—combining office and remote
 
   'speaking-analysis': {
     title: 'Speaking Practice',
-    instructions: 'Prepare a 2-minute response on the following topic.',
-    topic: 'Describe a memorable experience from your childhood.',
-    criteria: [
-      'Vocabulary range',
-      'Grammatical accuracy',
-      'Fluency and coherence',
-      'Pronunciation'
+    instructions: 'Record your response to the following question. Speak for about 1-2 minutes.',
+    questions: [
+      {
+        id: 'sq1',
+        prompt: 'Introduce yourself. Tell me your name, where you are from, and what you like to do in your free time.',
+        hints: [
+          'Start with: "Hello, my name is..."',
+          'Talk about your hobbies or interests',
+          'Speak clearly and at a natural pace'
+        ],
+        targetWords: ['name', 'from', 'like', 'free time', 'hobby', 'enjoy'],
+        expectedResponse: 'A natural self-introduction including name, origin, and hobbies'
+      },
+      {
+        id: 'sq2',
+        prompt: 'Describe your daily routine. What do you usually do in the morning, afternoon, and evening?',
+        hints: [
+          'Use time expressions: "in the morning", "at night"',
+          'Use present simple: "I wake up", "I go to work"',
+          'Describe activities in order'
+        ],
+        targetWords: ['wake up', 'breakfast', 'work', 'lunch', 'dinner', 'sleep'],
+        expectedResponse: 'A description of daily activities with time expressions'
+      },
+      {
+        id: 'sq3',
+        prompt: 'Talk about a place you would like to visit. Why would you like to go there?',
+        hints: [
+          'Name the place clearly',
+          'Give 2-3 reasons why you want to visit',
+          'Use "I would like to..." or "I want to..."'
+        ],
+        targetWords: ['visit', 'because', 'interesting', 'culture', 'food', 'people'],
+        expectedResponse: 'Description of a place with reasons for wanting to visit'
+      }
     ]
   },
 
