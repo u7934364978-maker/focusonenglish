@@ -16,8 +16,8 @@ services:
       - path: /
     health_check:
       http_path: /
-      initial_delay_seconds: 60
-      period_seconds: 15
-      timeout_seconds: 10
+      initial_delay_seconds: 180
+      period_seconds: 30
+      timeout_seconds: 20
       success_threshold: 1
-      failure_threshold: 5
+      failure_threshold: 10
