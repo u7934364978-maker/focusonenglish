@@ -31,46 +31,56 @@ export type ExerciseType =
   | 'pronunciation-practice';
 
 // Mapeo de categorías a tipos de ejercicios disponibles
-// Solo usa los tipos válidos del API
+// SOLO LOS 12 TIPOS VÁLIDOS QUE EL API RECONOCE
 const CATEGORY_EXERCISE_TYPES: Record<ExerciseCategory, ExerciseType[]> = {
   grammar: [
-    'multiple-choice',
-    'fill-blank',
-    'sentence-building',
-    'true-false'
+    'multiple-choice',          // ✅ MCQ de gramática
+    'fill-blank',               // ✅ Completar espacios
+    'sentence-building',        // ✅ Construir oraciones
+    'true-false',               // ✅ Verdadero/Falso
+    'key-word-transformation',  // ✅ Transformación
+    'word-formation',           // ✅ Formación de palabras
+    'multiple-choice-cloze',    // ✅ Cloze test
   ],
   vocabulary: [
-    'multiple-choice',
-    'word-formation',
-    'fill-blank'
+    'multiple-choice',          // ✅ MCQ de vocabulario
+    'word-formation',           // ✅ Formación de palabras
+    'fill-blank',               // ✅ Completar con vocabulario
+    'true-false',               // ✅ Verdadero/Falso
   ],
   reading: [
-    'reading-comprehension',
-    'multiple-choice',
-    'true-false'
+    'reading-comprehension',    // ✅ Comprensión lectora
+    'multiple-choice',          // ✅ MCQ sobre texto
+    'true-false',               // ✅ Verdadero/Falso
+    'multiple-choice-cloze',    // ✅ Cloze test de lectura
   ],
   writing: [
-    'writing-analysis',
-    'fill-blank',
-    'sentence-building'
+    'writing-analysis',         // ✅ Análisis de escritura
+    'fill-blank',               // ✅ Completar escritura
+    'sentence-building',        // ✅ Construir oraciones
   ],
   listening: [
-    'listening-comprehension',
-    'multiple-choice'
+    'listening-comprehension',  // ✅ Comprensión auditiva
+    'multiple-choice',          // ✅ MCQ de listening
+    'true-false',               // ✅ Verdadero/Falso
+    'fill-blank',               // ✅ Completar al escuchar
   ],
   speaking: [
-    'speaking-analysis',
-    'pronunciation-practice'
+    'speaking-analysis',        // ✅ Análisis de habla
+    'pronunciation-practice',   // ✅ Práctica de pronunciación
   ],
   pronunciation: [
-    'pronunciation-practice',
-    'speaking-analysis'
+    'pronunciation-practice',   // ✅ Práctica de pronunciación
+    'speaking-analysis',        // ✅ Análisis de pronunciación
   ],
   'exam-practice': [
-    'key-word-transformation',
-    'word-formation',
-    'multiple-choice-cloze',
-    'reading-comprehension'
+    'key-word-transformation',  // ✅ Transformación
+    'word-formation',           // ✅ Formación de palabras
+    'multiple-choice-cloze',    // ✅ Cloze test
+    'reading-comprehension',    // ✅ Comprensión lectora
+    'listening-comprehension',  // ✅ Comprensión auditiva
+    'multiple-choice',          // ✅ MCQ general
+    'fill-blank',               // ✅ Completar espacios
   ]
 };
 
