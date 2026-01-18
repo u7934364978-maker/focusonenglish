@@ -7,6 +7,10 @@ import PronunciationPractice from '@/components/course/PronunciationPractice';
 import EnhancedFeedback from '@/components/course/EnhancedFeedback';
 import SentenceBuilder from '@/components/course/SentenceBuilder';
 import CelebrationModal from '@/components/course/CelebrationModal';
+import SpeakingPart1 from '@/components/course/SpeakingPart1';
+import SpeakingPart2 from '@/components/course/SpeakingPart2';
+import SpeakingPart3 from '@/components/course/SpeakingPart3';
+import SpeakingPart4 from '@/components/course/SpeakingPart4';
 import { Lesson, Exercise, Question, SentenceBuildingExercise } from '@/lib/course-data-b2';
 import { TextAnswerEvaluationResponse } from '@/app/api/evaluate-text-answer/route';
 import { WritingEvaluationResponse } from '@/app/api/evaluate-writing/route';
@@ -760,6 +764,103 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               </div>
             )}
           </div>
+        );
+
+      case 'speaking-part1':
+        return (
+          <SpeakingPart1
+            exerciseId={currentExercise.id}
+            instructions={currentExercise.instructions}
+            questions={currentExercise.questions}
+            timeLimit={currentExercise.timeLimit}
+            onComplete={(data) => {
+              // Handle completion of Speaking Part 1
+              console.log('Speaking Part 1 completed:', data);
+              // Calculate a score based on number of recordings
+              const score = (data.recordings.length / currentExercise.questions.length) * 100;
+              setExerciseScores(prev => ({
+                ...prev,
+                [currentExercise.id]: score
+              }));
+              // Auto-advance to next exercise after a short delay
+              setTimeout(() => {
+                nextExercise();
+              }, 2000);
+            }}
+          />
+        );
+
+      case 'speaking-part2':
+        return (
+          <SpeakingPart2
+            exerciseId={currentExercise.id}
+            instructions={currentExercise.instructions}
+            photos={currentExercise.photos}
+            comparisonPrompt={currentExercise.comparisonPrompt}
+            followUpQuestion={currentExercise.followUpQuestion}
+            timeLimit={currentExercise.timeLimit}
+            tips={currentExercise.tips}
+            onComplete={(data) => {
+              // Handle completion of Speaking Part 2
+              console.log('Speaking Part 2 completed:', data);
+              // Full score for completing the long turn
+              setExerciseScores(prev => ({
+                ...prev,
+                [currentExercise.id]: 100
+              }));
+              // Don't auto-advance, let user click Next
+            }}
+          />
+        );
+
+      case 'speaking-part3':
+        return (
+          <SpeakingPart3
+            exerciseId={currentExercise.id}
+            instructions={currentExercise.instructions}
+            scenario={currentExercise.scenario}
+            question={currentExercise.question}
+            options={currentExercise.options}
+            phase1Duration={currentExercise.phase1Duration}
+            phase2Duration={currentExercise.phase2Duration}
+            usefulPhrases={currentExercise.usefulPhrases}
+            onComplete={(data) => {
+              // Handle completion of Speaking Part 3
+              console.log('Speaking Part 3 completed:', data);
+              // Full score for completing both phases
+              setExerciseScores(prev => ({
+                ...prev,
+                [currentExercise.id]: 100
+              }));
+              // Don't auto-advance, let user click Next
+            }}
+          />
+        );
+
+      case 'speaking-part4':
+        return (
+          <SpeakingPart4
+            exerciseId={currentExercise.id}
+            instructions={currentExercise.instructions}
+            topic={currentExercise.topic}
+            questions={currentExercise.questions}
+            usefulExpressions={currentExercise.usefulExpressions}
+            timeLimit={currentExercise.timeLimit}
+            onComplete={(data) => {
+              // Handle completion of Speaking Part 4
+              console.log('Speaking Part 4 completed:', data);
+              // Calculate score based on number of recordings
+              const score = (data.recordings.length / currentExercise.questions.length) * 100;
+              setExerciseScores(prev => ({
+                ...prev,
+                [currentExercise.id]: score
+              }));
+              // Auto-advance after short delay
+              setTimeout(() => {
+                nextExercise();
+              }, 2000);
+            }}
+          />
         );
 
       case 'listening':
