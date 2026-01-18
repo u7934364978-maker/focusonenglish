@@ -14,6 +14,13 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
   const [submitted, setSubmitted] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
 
+  // Debug: Log exercise content
+  console.log('📝 Exercise content:', {
+    type: exercise.type,
+    contentKeys: Object.keys(exercise.content || {}),
+    content: exercise.content
+  });
+
   const handleSubmit = () => {
     // Simple validation - this would be more complex in production
     setSubmitted(true);
@@ -52,15 +59,84 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
         </div>
 
         <div className="space-y-4">
-          {/* Question/Prompt */}
-          {exercise.content.question && (
+          {/* Questions array - for exercises with multiple questions */}
+          {exercise.content.questions && Array.isArray(exercise.content.questions) && (
+            <div className="space-y-6">
+              {exercise.content.questions.map((q: any, qIndex: number) => (
+                <div key={qIndex} className="bg-gray-50 rounded-lg p-6 border border-gray-200">
+                  <div className="mb-4">
+                    <span className="inline-block bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-3">
+                      Question {qIndex + 1}
+                    </span>
+                    <p className="text-lg text-gray-800 font-medium">{q.question || q.text}</p>
+                  </div>
+
+                  {/* Multiple choice options */}
+                  {q.options && Array.isArray(q.options) && (
+                    <div className="space-y-2">
+                      {q.options.map((option: any, optIndex: number) => (
+                        <button
+                          key={optIndex}
+                          onClick={() => !submitted && setUserAnswer({ questionIndex: qIndex, answer: optIndex })}
+                          disabled={submitted}
+                          className={`w-full text-left p-4 rounded-lg border-2 transition-all ${
+                            userAnswer?.questionIndex === qIndex && userAnswer?.answer === optIndex
+                              ? 'border-orange-500 bg-orange-50'
+                              : 'border-gray-200 hover:border-gray-300 bg-white'
+                          } ${
+                            submitted && optIndex === q.correctAnswer
+                              ? 'border-green-500 bg-green-50'
+                              : ''
+                          } ${
+                            submitted && userAnswer?.questionIndex === qIndex && userAnswer?.answer === optIndex && optIndex !== q.correctAnswer
+                              ? 'border-red-500 bg-red-50'
+                              : ''
+                          } disabled:cursor-not-allowed`}
+                        >
+                          <div className="flex items-center gap-3">
+                            <span className="font-bold text-gray-500">
+                              {String.fromCharCode(65 + optIndex)}.
+                            </span>
+                            <span className="text-gray-800">{typeof option === 'string' ? option : option.text}</span>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Fill-in-the-blank input */}
+                  {exercise.type === 'fill-blank' && !q.options && (
+                    <input
+                      type="text"
+                      value={userAnswer?.questionIndex === qIndex ? userAnswer?.answer || '' : ''}
+                      onChange={(e) => setUserAnswer({ questionIndex: qIndex, answer: e.target.value })}
+                      disabled={submitted}
+                      placeholder="Type your answer here..."
+                      className="w-full p-4 border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:outline-none disabled:bg-gray-100 disabled:cursor-not-allowed"
+                    />
+                  )}
+
+                  {/* Show explanation after submit */}
+                  {submitted && q.explanation && (
+                    <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                      <p className="text-sm font-semibold text-blue-900 mb-1">Explanation:</p>
+                      <p className="text-sm text-blue-800">{q.explanation}</p>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Single question/prompt */}
+          {exercise.content.question && !exercise.content.questions && (
             <div className="bg-gray-50 rounded-lg p-4 border border-gray-200">
               <p className="text-lg text-gray-800">{exercise.content.question}</p>
             </div>
           )}
 
-          {/* Options for multiple choice */}
-          {exercise.content.options && Array.isArray(exercise.content.options) && (
+          {/* Options for single multiple choice (legacy) */}
+          {exercise.content.options && Array.isArray(exercise.content.options) && !exercise.content.questions && (
             <div className="space-y-2">
               {exercise.content.options.map((option: any, index: number) => (
                 <button
@@ -92,8 +168,8 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
             </div>
           )}
 
-          {/* Text input for fill-in-the-blank */}
-          {exercise.type === 'fill-blank' && (
+          {/* Text input for fill-in-the-blank (single question legacy) */}
+          {exercise.type === 'fill-blank' && !exercise.content.questions && !exercise.content.options && (
             <input
               type="text"
               value={userAnswer || ''}
