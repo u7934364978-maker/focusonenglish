@@ -1,28 +1,15 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import LessonViewer from '@/components/course/LessonViewer';
 import { ALL_MODULES } from '@/lib/course-data-b2';
 
 export default function LessonPage({ params }: { params: { lessonId: string } }) {
   const router = useRouter();
-  const [lessonId, setLessonId] = useState<string>('');
+  const { lessonId } = params;
   
-  useEffect(() => {
-    params.then(p => setLessonId(p.lessonId));
-  }, [params]);
-
   // Buscar lección en TODOS los módulos
   const lesson = ALL_MODULES.flatMap(m => m.lessons).find(l => l.id === lessonId);
-
-  if (!lessonId) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="animate-spin text-6xl">⏳</div>
-      </div>
-    );
-  }
 
   if (!lesson) {
     return (
