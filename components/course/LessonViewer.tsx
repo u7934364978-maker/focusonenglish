@@ -167,19 +167,60 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       const transformations = currentExercise.transformations;
       let totalPoints = 0;
       let earnedPoints = 0;
+      const evaluations: { [transformationId: string]: EvaluationResult } = {};
 
-      transformations.forEach((t: any) => {
+      for (const t of transformations) {
         totalPoints += t.points;
-        const userAnswer = answers[t.id]?.toLowerCase().trim();
-        const correctAnswer = t.correctAnswer.toLowerCase().trim();
-
-        if (userAnswer === correctAnswer) {
-          earnedPoints += t.points;
+        const userAnswer = answers[t.id];
+        
+        if (!userAnswer) {
+          earnedPoints += 0;
+          continue;
         }
-      });
 
-      const score = (earnedPoints / totalPoints) * 100;
+        // Use AI evaluation for key-word transformation
+        try {
+          const fullUserSentence = `${t.startOfAnswer} ${userAnswer}`.trim();
+          const fullTargetSentence = `${t.startOfAnswer} ${t.correctAnswer}`.trim();
+          
+          const response = await fetch('/api/evaluate-sentence-building', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              userSentence: fullUserSentence,
+              targetSentence: fullTargetSentence,
+              grammarFocus: 'key word transformation',
+              words: [{ text: t.keyWord, type: 'key' }]
+            })
+          });
+
+          if (response.ok) {
+            const evaluation = await response.json();
+            evaluations[t.id] = evaluation;
+            // Award points based on AI score
+            earnedPoints += t.points * (evaluation.score / 100);
+          } else {
+            // Fallback to simple matching
+            const userAnswerNorm = userAnswer.toLowerCase().trim();
+            const correctAnswerNorm = t.correctAnswer.toLowerCase().trim();
+            if (userAnswerNorm === correctAnswerNorm) {
+              earnedPoints += t.points;
+            }
+          }
+        } catch (error) {
+          console.error('Error evaluating key-word transformation:', error);
+          // Fallback to simple matching
+          const userAnswerNorm = userAnswer.toLowerCase().trim();
+          const correctAnswerNorm = t.correctAnswer.toLowerCase().trim();
+          if (userAnswerNorm === correctAnswerNorm) {
+            earnedPoints += t.points;
+          }
+        }
+      }
+
+      const score = totalPoints > 0 ? (earnedPoints / totalPoints) * 100 : 0;
       setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
+      setAiEvaluations(evaluations);
       setCurrentScore(score);
       setShowFeedback(true);
       setShowCelebration(true);
@@ -189,24 +230,91 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       const questions = currentExercise.questions;
       let totalPoints = 0;
       let earnedPoints = 0;
+      const newEvaluations: any = {};
 
-      questions.forEach((q: any) => {
+      // Use AI evaluation for each word-formation question
+      for (const q of questions) {
         totalPoints += q.points;
-        const userAnswer = answers[q.id]?.toLowerCase().trim();
-        
-        // Check against correct answer first
-        if (userAnswer === q.correctAnswer?.toLowerCase().trim()) {
-          earnedPoints += q.points;
+        const userAnswer = answers[q.id] || '';
+
+        if (!userAnswer || userAnswer.trim() === '') {
+          newEvaluations[q.id] = {
+            isCorrect: false,
+            score: 0,
+            feedback: 'No se proporcionó respuesta',
+            detailedExplanation: 'Por favor, proporciona una respuesta.'
+          };
+          continue;
         }
-        // Then check against acceptable answers array if it exists
-        else if (q.acceptableAnswers && Array.isArray(q.acceptableAnswers)) {
-          const acceptableAnswers = q.acceptableAnswers.map((a: string) => a.toLowerCase().trim());
-          if (acceptableAnswers.some((ans: string) => userAnswer === ans)) {
+
+        try {
+          const response = await fetch('/api/evaluate-text-answer', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              question: `Transform the word "${q.baseWord}" to complete the gap. ${q.hint ? 'Hint: ' + q.hint : ''}`,
+              userAnswer: userAnswer,
+              correctAnswer: q.acceptableAnswers || [q.correctAnswer],
+              expectedConcepts: [q.wordType || 'word transformation', q.transformation || ''],
+              context: currentExercise.text || '',
+              level: 'B2',
+              questionType: 'word-formation'
+            })
+          });
+
+          if (response.ok) {
+            const evaluation = await response.json();
+            newEvaluations[q.id] = evaluation;
+            
+            if (evaluation.isCorrect) {
+              earnedPoints += q.points;
+            }
+          } else {
+            // Fallback to simple comparison
+            const userAnswerLower = userAnswer.toLowerCase().trim();
+            const isCorrect = userAnswerLower === q.correctAnswer?.toLowerCase().trim() ||
+              (q.acceptableAnswers && q.acceptableAnswers.some((ans: string) => 
+                userAnswerLower === ans.toLowerCase().trim()
+              ));
+            
+            if (isCorrect) {
+              earnedPoints += q.points;
+            }
+            
+            newEvaluations[q.id] = {
+              isCorrect,
+              score: isCorrect ? 100 : 0,
+              feedback: isCorrect ? '✓ ¡Correcto!' : '✗ Respuesta incorrecta',
+              detailedExplanation: isCorrect 
+                ? 'Tu respuesta es correcta.' 
+                : `La respuesta correcta es: ${q.correctAnswer}`
+            };
+          }
+        } catch (error) {
+          console.error('Error evaluating word-formation:', error);
+          // Fallback
+          const userAnswerLower = userAnswer.toLowerCase().trim();
+          const isCorrect = userAnswerLower === q.correctAnswer?.toLowerCase().trim() ||
+            (q.acceptableAnswers && q.acceptableAnswers.some((ans: string) => 
+              userAnswerLower === ans.toLowerCase().trim()
+            ));
+          
+          if (isCorrect) {
             earnedPoints += q.points;
           }
+          
+          newEvaluations[q.id] = {
+            isCorrect,
+            score: isCorrect ? 100 : 0,
+            feedback: isCorrect ? '✓ ¡Correcto!' : '✗ Respuesta incorrecta',
+            detailedExplanation: isCorrect 
+              ? 'Tu respuesta es correcta.' 
+              : `La respuesta correcta es: ${q.correctAnswer}`
+          };
         }
-      });
+      }
 
+      setAiEvaluations(newEvaluations);
       const score = totalPoints > 0 ? (earnedPoints / totalPoints) * 100 : 0;
       setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
       setCurrentScore(score);
@@ -973,7 +1081,15 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     </div>
 
                     {/* Feedback */}
-                    {showFeedback && (
+                    {showFeedback && aiEvaluations[transformation.id] && (
+                      <EnhancedFeedback
+                        type="text"
+                        evaluation={aiEvaluations[transformation.id]}
+                        userAnswer={`${transformation.startOfAnswer} ${answers[transformation.id] || ''}`}
+                        correctAnswer={`${transformation.startOfAnswer} ${transformation.correctAnswer}`}
+                      />
+                    )}
+                    {showFeedback && !aiEvaluations[transformation.id] && (
                       <div className={`p-3 rounded-lg ${
                         answers[transformation.id]?.toLowerCase().trim() === transformation.correctAnswer.toLowerCase().trim()
                           ? 'bg-amber-50 border-2 border-amber-200'
@@ -1086,49 +1202,58 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       </div>
                     )}
 
-                    {/* Feedback */}
+                    {/* Feedback - Enhanced with AI */}
                     {showFeedback && (
-                      <div className={`p-3 rounded-lg ${
-                        (answers[question.id]?.toLowerCase().trim() === question.correctAnswer?.toLowerCase().trim()) ||
-                        (question.acceptableAnswers && question.acceptableAnswers.some((ans: string) => 
-                          answers[question.id]?.toLowerCase().trim() === ans.toLowerCase().trim()
-                        ))
-                          ? 'bg-amber-50 border-2 border-amber-200'
-                          : 'bg-red-50 border-2 border-red-200'
-                      }`}>
-                        <p className="font-semibold mb-1">
-                          {(answers[question.id]?.toLowerCase().trim() === question.correctAnswer?.toLowerCase().trim()) ||
+                      aiEvaluations[question.id] ? (
+                        <EnhancedFeedback
+                          evaluation={aiEvaluations[question.id]}
+                          userAnswer={answers[question.id]}
+                          correctAnswer={question.correctAnswer}
+                          questionType="word-formation"
+                        />
+                      ) : (
+                        <div className={`p-3 rounded-lg ${
+                          (answers[question.id]?.toLowerCase().trim() === question.correctAnswer?.toLowerCase().trim()) ||
                           (question.acceptableAnswers && question.acceptableAnswers.some((ans: string) => 
                             answers[question.id]?.toLowerCase().trim() === ans.toLowerCase().trim()
                           ))
-                            ? '✓ Correct!'
-                            : '✗ Incorrect'}
-                        </p>
-                        <p className="text-sm mb-2">
-                          <span className="font-semibold">Correct answer:</span>{' '}
-                          <span className="text-amber-700 font-bold">{question.correctAnswer}</span>
-                          {question.acceptableAnswers && question.acceptableAnswers.length > 1 && (
-                            <span className="text-slate-600 text-xs ml-2">
-                              (Also accepted: {question.acceptableAnswers.filter((a: string) => a !== question.correctAnswer).join(', ')})
-                            </span>
+                            ? 'bg-amber-50 border-2 border-amber-200'
+                            : 'bg-red-50 border-2 border-red-200'
+                        }`}>
+                          <p className="font-semibold mb-1">
+                            {(answers[question.id]?.toLowerCase().trim() === question.correctAnswer?.toLowerCase().trim()) ||
+                            (question.acceptableAnswers && question.acceptableAnswers.some((ans: string) => 
+                              answers[question.id]?.toLowerCase().trim() === ans.toLowerCase().trim()
+                            ))
+                              ? '✓ ¡Correcto!'
+                              : '✗ Incorrecto'}
+                          </p>
+                          <p className="text-sm mb-2">
+                            <span className="font-semibold">Respuesta correcta:</span>{' '}
+                            <span className="text-amber-700 font-bold">{question.correctAnswer}</span>
+                            {question.acceptableAnswers && question.acceptableAnswers.length > 1 && (
+                              <span className="text-slate-600 text-xs ml-2">
+                                (También aceptado: {question.acceptableAnswers.filter((a: string) => a !== question.correctAnswer).join(', ')})
+                              </span>
+                            )}
+                          </p>
+                          {question.wordType && (
+                            <p className="text-sm text-slate-700 mb-1">
+                              <span className="font-semibold">Tipo de palabra:</span> {question.wordType}
+                            </p>
                           )}
-                        </p>
-                        {question.wordType && (
-                          <p className="text-sm text-slate-700 mb-1">
-                            <span className="font-semibold">Word type:</span> {question.wordType}
-                          </p>
-                        )}
-                        {question.transformation && (
-                          <p className="text-sm text-slate-700 mb-2">
-                            <span className="font-semibold">Transformation:</span> {question.transformation}
-                          </p>
-                        )}
-                        {question.explanation && (
-                          <p className="text-sm text-slate-700">
-                            <span className="font-semibold">Explanation:</span> {question.explanation}
-                          </p>
-                        )}
-                      </div>
+                          {question.transformation && (
+                            <p className="text-sm text-slate-700 mb-2">
+                              <span className="font-semibold">Transformación:</span> {question.transformation}
+                            </p>
+                          )}
+                          {question.explanation && (
+                            <p className="text-sm text-slate-700">
+                              <span className="font-semibold">Explicación:</span> {question.explanation}
+                            </p>
+                          )}
+                        </div>
+                      )
                     )}
                   </div>
                 </div>
