@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { 
   getCurriculum, 
@@ -16,7 +16,7 @@ interface PracticePageProps {
   level: CEFRLevel;
 }
 
-export default function PracticePage({ level }: PracticePageProps) {
+function PracticeContent({ level }: PracticePageProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [exercise, setExercise] = useState<Exercise | null>(null);
@@ -156,5 +156,25 @@ export default function PracticePage({ level }: PracticePageProps) {
         <ExerciseRenderer exercise={exercise} onComplete={handleNewExercise} />
       </div>
     </main>
+  );
+}
+
+export default function PracticePage({ level }: PracticePageProps) {
+  return (
+    <Suspense fallback={
+      <main className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-orange-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin text-7xl mb-6">🎓</div>
+          <h2 className="text-3xl font-black text-gray-900 mb-4">
+            Loading Practice...
+          </h2>
+          <p className="text-lg text-gray-600">
+            Preparing your exercise
+          </p>
+        </div>
+      </main>
+    }>
+      <PracticeContent level={level} />
+    </Suspense>
   );
 }
