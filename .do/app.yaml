@@ -9,15 +9,15 @@ services:
     build_command: npm install && npm run build
     run_command: npm start
     environment_slug: node-js
-    http_port: 3000
+    http_port: 8080
     instance_count: 1
     instance_size_slug: basic-xxs
     routes:
       - path: /
     health_check:
       http_path: /
-      initial_delay_seconds: 30
-      period_seconds: 10
-      timeout_seconds: 5
+      initial_delay_seconds: 60
+      period_seconds: 15
+      timeout_seconds: 10
       success_threshold: 1
-      failure_threshold: 3
+      failure_threshold: 5

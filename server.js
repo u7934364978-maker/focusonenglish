@@ -4,14 +4,16 @@ const next = require('next');
 
 // Determine environment
 const dev = process.env.NODE_ENV !== 'production';
-const hostname = process.env.HOSTNAME || '0.0.0.0';
-// Port priority: PORT env var > 3000 default
-const port = parseInt(process.env.PORT || '3000', 10);
+const hostname = '0.0.0.0'; // Always bind to 0.0.0.0 for DigitalOcean
+// Port priority: PORT env var > 8080 > 3000 default
+const port = parseInt(process.env.PORT || process.env.HTTP_PORT || '8080', 10);
 
 console.log('🚀 Starting Focus English server...');
 console.log('Environment:', dev ? 'development' : 'production');
 console.log('Hostname:', hostname);
 console.log('Port:', port);
+console.log('NODE_ENV:', process.env.NODE_ENV);
+console.log('All env vars:', Object.keys(process.env).filter(k => k.includes('PORT') || k.includes('HOST')));
 
 // Initialize Next.js app
 const app = next({ dev, hostname, port });
