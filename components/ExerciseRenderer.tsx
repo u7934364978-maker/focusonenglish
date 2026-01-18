@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { CheckCircle, XCircle, ArrowRight, Sparkles, Zap, Loader2 } from 'lucide-react';
 import type { Exercise } from '@/lib/exercise-generator';
 import EnhancedFeedback from './course/EnhancedFeedback';
+import SpeakingExercise from './SpeakingExercise';
 import type { MultipleChoiceEvaluationResponse } from '@/app/api/evaluate-multiple-choice/route';
 import type { TextAnswerEvaluationResponse } from '@/app/api/evaluate-text-answer/route';
 
@@ -145,8 +146,25 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
   };
 
   const renderExerciseContent = () => {
-    // This is a simplified renderer - the actual implementation would handle
-    // all exercise types properly
+    // Speaking exercises use dedicated component
+    if (exercise.type === 'speaking-analysis' && exercise.content.questions && Array.isArray(exercise.content.questions)) {
+      const question = exercise.content.questions[0]; // Use first question for now
+      return (
+        <SpeakingExercise
+          question={question}
+          level={exercise.level}
+          onComplete={(evaluation) => {
+            console.log('Speaking evaluation:', evaluation);
+            // Mark as complete after evaluation
+            setTimeout(() => {
+              onComplete();
+            }, 3000);
+          }}
+        />
+      );
+    }
+
+    // Regular exercise rendering for other types
     return (
       <div className={`bg-white rounded-xl shadow-lg p-8 border border-gray-200 transition-all duration-300 ${
         isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'

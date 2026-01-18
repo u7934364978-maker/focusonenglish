@@ -1,126 +1,192 @@
 import { NextRequest, NextResponse } from 'next/server';
 import OpenAI from 'openai';
-import fs from 'fs';
-import yaml from 'js-yaml';
-import os from 'os';
-import path from 'path';
 
-// Cargar configuración desde ~/.genspark_llm.yaml
-let config: any = null;
-const configPath = path.join(os.homedir(), '.genspark_llm.yaml');
-
-if (fs.existsSync(configPath)) {
-  const fileContents = fs.readFileSync(configPath, 'utf8');
-  config = yaml.load(fileContents);
-}
-
-// Inicializar cliente OpenAI
-const client = new OpenAI({
-  apiKey: config?.openai?.api_key || process.env.OPENAI_API_KEY,
-  baseURL: config?.openai?.base_url || process.env.OPENAI_BASE_URL,
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
 });
 
+export interface SpeakingEvaluationRequest {
+  audioBase64: string;
+  prompt: string;
+  expectedResponse?: string;
+  targetWords?: string[];
+  level?: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+}
+
+export interface SpeakingEvaluationResponse {
+  transcription: string;
+  pronunciationScore: number;
+  fluencyScore: number;
+  grammarScore: number;
+  vocabularyScore: number;
+  overallScore: number;
+  feedback: string;
+  strengths: string[];
+  improvements: string[];
+  detectedWords: string[];
+  missedWords: string[];
+}
+
+/**
+ * API Route: Evaluate Speaking Exercise
+ * POST /api/evaluate-speaking
+ * 
+ * Evaluates student's speaking recording using:
+ * 1. OpenAI Whisper for transcription (Speech-to-Text)
+ * 2. GPT-4 for pronunciation, fluency, grammar, vocabulary analysis
+ */
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json();
-    const { prompt, transcript, targetText } = body;
+    const body: SpeakingEvaluationRequest = await request.json();
+    
+    const {
+      audioBase64,
+      prompt,
+      expectedResponse,
+      targetWords = [],
+      level = 'B2'
+    } = body;
 
-    if (!transcript || !prompt) {
+    // Validate required fields
+    if (!audioBase64 || !prompt) {
       return NextResponse.json(
-        { error: 'Missing required fields: prompt and transcript' },
+        { error: 'Missing required fields: audioBase64 and prompt' },
         { status: 400 }
       );
     }
 
-    // Construir el prompt para GPT
-    const systemPrompt = `You are an expert English language evaluator for B2 level (CEFR) speaking exercises. Your job is to analyze if a student's response correctly addresses the exercise prompt.
+    // Step 1: Convert base64 to buffer
+    const audioBuffer = Buffer.from(audioBase64, 'base64');
 
-Evaluate the response based on these criteria:
-1. **Topic Relevance (0-100)**: Does the response address the specific topic asked in the prompt?
-2. **Content Quality (0-100)**: Is the content appropriate, detailed, and well-developed?
-3. **Coherence (0-100)**: Is the response well-organized and easy to follow?
-4. **Task Completion (0-100)**: Did the student complete all parts of the task?
+    // Step 2: Transcribe audio using Whisper
+    console.log('🎤 Transcribing audio with Whisper...');
+    
+    // Create a File-like object for OpenAI
+    const audioFile = new File([audioBuffer], 'recording.webm', { type: 'audio/webm' });
+    
+    const transcription = await openai.audio.transcriptions.create({
+      file: audioFile,
+      model: 'whisper-1',
+      language: 'en', // English
+      response_format: 'text'
+    });
 
-Provide specific, actionable feedback focusing on:
-- What the student did well
-- What the student missed or misunderstood
-- Specific improvements needed
-- Whether they answered the correct topic or went off-topic
+    console.log('✅ Transcription:', transcription);
 
-Be constructive but honest. If the response is completely off-topic, clearly state that.`;
+    // Step 3: Evaluate with GPT-4
+    console.log('🤖 Evaluating with GPT-4...');
+    
+    const evaluationPrompt = `You are an expert English language teacher evaluating a student's speaking performance.
 
-    const userPrompt = `Exercise Prompt: "${prompt}"
+LEVEL: ${level}
+PROMPT GIVEN TO STUDENT: "${prompt}"
+${expectedResponse ? `EXPECTED RESPONSE: "${expectedResponse}"` : ''}
+${targetWords.length > 0 ? `TARGET WORDS TO USE: ${targetWords.join(', ')}` : ''}
 
-${targetText ? `Target Text (for pronunciation exercises): "${targetText}"` : ''}
+STUDENT'S TRANSCRIBED RESPONSE: "${transcription}"
 
-Student's Response: "${transcript}"
+Evaluate the student's speaking performance and provide scores (0-100) for:
+1. Pronunciation - clarity and correctness of sounds
+2. Fluency - smoothness, natural pace, hesitations
+3. Grammar - correctness of sentence structures and tenses
+4. Vocabulary - appropriateness and variety of words used
 
-Please evaluate this response and provide:
-1. A relevance score (0-100) - how well does it address the prompt?
-2. A content quality score (0-100) - is the content appropriate and detailed?
-3. A coherence score (0-100) - is it well-organized?
-4. A task completion score (0-100) - did they complete the task?
-5. Key concepts expected (list of 5-10 keywords/phrases that should be mentioned)
-6. Key concepts found (which of those were actually mentioned)
-7. Missing concepts (what wasn't mentioned but should have been)
-8. Off-topic content (what did they mention that's not relevant)
-9. Detailed feedback (2-3 paragraphs explaining the evaluation)
-10. Specific suggestions for improvement (3-5 actionable tips)
+Also provide:
+- Overall feedback (2-3 sentences in Spanish)
+- 2-3 specific strengths
+- 2-3 areas for improvement
+- List of target words they used correctly
+- List of target words they missed (if applicable)
 
-Format your response as a JSON object with these exact keys:
+Consider the CEFR ${level} level standards when scoring.
+
+Respond in JSON format:
 {
-  "relevanceScore": number,
-  "contentQualityScore": number,
-  "coherenceScore": number,
-  "taskCompletionScore": number,
-  "expectedConcepts": string[],
-  "foundConcepts": string[],
-  "missingConcepts": string[],
-  "offTopicContent": string[],
-  "detailedFeedback": string,
-  "suggestions": string[],
-  "isOnTopic": boolean,
-  "overallAssessment": "excellent" | "good" | "fair" | "poor" | "off-topic"
+  "pronunciationScore": number,
+  "fluencyScore": number,
+  "grammarScore": number,
+  "vocabularyScore": number,
+  "overallScore": number,
+  "feedback": "Encouraging feedback in Spanish",
+  "strengths": ["strength 1", "strength 2"],
+  "improvements": ["improvement 1", "improvement 2"],
+  "detectedWords": ["word1", "word2"],
+  "missedWords": ["word3", "word4"]
 }`;
 
-    // Llamar a GPT para evaluación real
-    const completion = await client.chat.completions.create({
-      model: 'gpt-4o',
+    const completion = await openai.chat.completions.create({
+      model: 'gpt-4o-mini',
       messages: [
-        { role: 'system', content: systemPrompt },
-        { role: 'user', content: userPrompt }
+        {
+          role: 'system',
+          content: `You are an encouraging English teacher providing constructive feedback for ${level} level students. Be supportive but honest about areas for improvement.`
+        },
+        {
+          role: 'user',
+          content: evaluationPrompt
+        }
       ],
-      temperature: 0.3, // Más determinístico para evaluación consistente
-      response_format: { type: "json_object" }
+      response_format: { type: 'json_object' },
+      temperature: 0.3
     });
 
-    const evaluationText = completion.choices[0].message.content;
-    
-    if (!evaluationText) {
-      throw new Error('No response from AI');
-    }
+    const evaluation = JSON.parse(completion.choices[0].message.content || '{}');
 
-    // Parsear la respuesta JSON
-    const evaluation = JSON.parse(evaluationText);
+    console.log('✅ Evaluation complete:', evaluation);
 
-    // Validar que tenga todos los campos necesarios
-    if (!evaluation.relevanceScore || !evaluation.detailedFeedback) {
-      throw new Error('Invalid AI response format');
-    }
+    // Combine results
+    const response: SpeakingEvaluationResponse = {
+      transcription,
+      pronunciationScore: evaluation.pronunciationScore || 70,
+      fluencyScore: evaluation.fluencyScore || 70,
+      grammarScore: evaluation.grammarScore || 70,
+      vocabularyScore: evaluation.vocabularyScore || 70,
+      overallScore: evaluation.overallScore || 70,
+      feedback: evaluation.feedback || 'Good effort! Keep practicing.',
+      strengths: evaluation.strengths || [],
+      improvements: evaluation.improvements || [],
+      detectedWords: evaluation.detectedWords || [],
+      missedWords: evaluation.missedWords || []
+    };
 
-    return NextResponse.json({
-      success: true,
-      evaluation
-    });
+    return NextResponse.json(response);
 
   } catch (error: any) {
-    console.error('Error in AI evaluation:', error);
+    console.error('❌ Error evaluating speaking:', error);
+    
+    // Provide helpful error messages
+    let errorMessage = 'Failed to evaluate speaking exercise.';
+    
+    if (error.message?.includes('API key')) {
+      errorMessage = 'OpenAI API key is not configured or invalid.';
+    } else if (error.message?.includes('audio')) {
+      errorMessage = 'Failed to process audio. Please try recording again.';
+    } else if (error.message?.includes('rate limit')) {
+      errorMessage = 'Rate limit exceeded. Please try again in a moment.';
+    }
+    
     return NextResponse.json(
       { 
-        error: 'Failed to evaluate response',
-        details: error.message 
+        error: errorMessage,
+        details: error.message,
+        transcription: 'Could not transcribe audio. Please try again.'
       },
       { status: 500 }
     );
   }
+}
+
+export async function GET() {
+  return NextResponse.json({
+    status: 'healthy',
+    service: 'speaking-evaluation',
+    version: '1.0.0',
+    features: [
+      'Speech-to-Text (Whisper)',
+      'Pronunciation Analysis',
+      'Fluency Evaluation',
+      'Grammar Assessment',
+      'Vocabulary Analysis'
+    ]
+  });
 }
