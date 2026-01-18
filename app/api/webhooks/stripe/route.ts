@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from 'next/server';
 // Inicializar Stripe solo si la clave está disponible (evita errores en build time)
 const stripe = process.env.STRIPE_SECRET_KEY 
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
-      apiVersion: '2024-12-18.acacia',
+      apiVersion: '2024-11-20.acacia',
     })
   : null;
 
