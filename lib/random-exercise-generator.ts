@@ -14,101 +14,63 @@ export type ExerciseCategory =
   | 'pronunciation'
   | 'exam-practice';
 
+// TIPOS VÁLIDOS RECONOCIDOS POR EL API (de exercise-types.ts)
+// Solo estos 12 tipos son aceptados por el generador de ejercicios
 export type ExerciseType = 
-  // Grammar (6 tipos)
   | 'multiple-choice'
-  | 'fill-in-blanks'
-  | 'word-formation'
-  | 'sentence-building'
+  | 'fill-blank'
+  | 'true-false'
   | 'key-word-transformation'
+  | 'word-formation'
   | 'multiple-choice-cloze'
-  // Vocabulary (4 tipos)
-  | 'vocabulary-matching'
-  | 'vocabulary-multiple-choice'
-  | 'vocabulary-context'
-  | 'vocabulary-images'
-  // Reading (4 tipos)
+  | 'sentence-building'
   | 'reading-comprehension'
-  | 'reading-true-false'
-  | 'reading-matching'
-  | 'reading-ordering'
-  // Writing (4 tipos)
-  | 'guided-writing'
-  | 'writing-analysis'
-  | 'sentence-correction'
-  | 'paragraph-writing'
-  // Listening (4 tipos)
   | 'listening-comprehension'
-  | 'listening-multiple-choice'
-  | 'listening-dictation'
-  | 'listening-matching'
-  // Speaking (4 tipos)
-  | 'pronunciation-practice'
-  | 'oral-response'
-  | 'expression-analysis'
-  | 'dialogue-practice'
-  // Pronunciation (4 tipos)
-  | 'minimal-pairs'
-  | 'pronunciation-feedback'
-  | 'intonation-practice'
-  | 'word-stress'
-  // Exam Practice (4 tipos)
-  | 'reading-writing-exam'
-  | 'listening-speaking-exam'
-  | 'grammar-vocabulary-exam'
-  | 'full-mock-exam';
+  | 'speaking-analysis'
+  | 'writing-analysis'
+  | 'pronunciation-practice';
 
 // Mapeo de categorías a tipos de ejercicios disponibles
+// Solo usa los tipos válidos del API
 const CATEGORY_EXERCISE_TYPES: Record<ExerciseCategory, ExerciseType[]> = {
   grammar: [
     'multiple-choice',
-    'fill-in-blanks',
-    'word-formation',
+    'fill-blank',
     'sentence-building',
-    'key-word-transformation',
-    'multiple-choice-cloze'
+    'true-false'
   ],
   vocabulary: [
-    'vocabulary-matching',
-    'vocabulary-multiple-choice',
-    'vocabulary-context',
-    'vocabulary-images'
+    'multiple-choice',
+    'word-formation',
+    'fill-blank'
   ],
   reading: [
     'reading-comprehension',
-    'reading-true-false',
-    'reading-matching',
-    'reading-ordering'
+    'multiple-choice',
+    'true-false'
   ],
   writing: [
-    'guided-writing',
     'writing-analysis',
-    'sentence-correction',
-    'paragraph-writing'
+    'fill-blank',
+    'sentence-building'
   ],
   listening: [
     'listening-comprehension',
-    'listening-multiple-choice',
-    'listening-dictation',
-    'listening-matching'
+    'multiple-choice'
   ],
   speaking: [
-    'pronunciation-practice',
-    'oral-response',
-    'expression-analysis',
-    'dialogue-practice'
+    'speaking-analysis',
+    'pronunciation-practice'
   ],
   pronunciation: [
-    'minimal-pairs',
-    'pronunciation-feedback',
-    'intonation-practice',
-    'word-stress'
+    'pronunciation-practice',
+    'speaking-analysis'
   ],
   'exam-practice': [
-    'reading-writing-exam',
-    'listening-speaking-exam',
-    'grammar-vocabulary-exam',
-    'full-mock-exam'
+    'key-word-transformation',
+    'word-formation',
+    'multiple-choice-cloze',
+    'reading-comprehension'
   ]
 };
 
@@ -195,48 +157,18 @@ export function getCategoryDisplayName(category: ExerciseCategory): string {
  */
 export function getExerciseTypeDisplayName(type: ExerciseType): string {
   const names: Record<ExerciseType, string> = {
-    // Grammar
     'multiple-choice': 'Multiple Choice',
-    'fill-in-blanks': 'Fill in the Blanks',
-    'word-formation': 'Word Formation',
-    'sentence-building': 'Sentence Building',
+    'fill-blank': 'Fill in the Blanks',
+    'true-false': 'True or False',
     'key-word-transformation': 'Key Word Transformation',
+    'word-formation': 'Word Formation',
     'multiple-choice-cloze': 'Multiple Choice Cloze',
-    // Vocabulary
-    'vocabulary-matching': 'Vocabulary Matching',
-    'vocabulary-multiple-choice': 'Vocabulary Quiz',
-    'vocabulary-context': 'Vocabulary in Context',
-    'vocabulary-images': 'Vocabulary with Images',
-    // Reading
+    'sentence-building': 'Sentence Building',
     'reading-comprehension': 'Reading Comprehension',
-    'reading-true-false': 'True or False',
-    'reading-matching': 'Matching Paragraphs',
-    'reading-ordering': 'Paragraph Ordering',
-    // Writing
-    'guided-writing': 'Guided Writing',
-    'writing-analysis': 'Writing Analysis',
-    'sentence-correction': 'Sentence Correction',
-    'paragraph-writing': 'Paragraph Writing',
-    // Listening
     'listening-comprehension': 'Listening Comprehension',
-    'listening-multiple-choice': 'Listening Quiz',
-    'listening-dictation': 'Dictation',
-    'listening-matching': 'Audio Matching',
-    // Speaking
-    'pronunciation-practice': 'Pronunciation Practice',
-    'oral-response': 'Oral Response',
-    'expression-analysis': 'Expression Analysis',
-    'dialogue-practice': 'Dialogue Practice',
-    // Pronunciation
-    'minimal-pairs': 'Minimal Pairs',
-    'pronunciation-feedback': 'Pronunciation Feedback',
-    'intonation-practice': 'Intonation Practice',
-    'word-stress': 'Word Stress',
-    // Exam Practice
-    'reading-writing-exam': 'Reading & Writing Exam',
-    'listening-speaking-exam': 'Listening & Speaking Exam',
-    'grammar-vocabulary-exam': 'Grammar & Vocabulary Exam',
-    'full-mock-exam': 'Full Mock Exam'
+    'speaking-analysis': 'Speaking Analysis',
+    'writing-analysis': 'Writing Analysis',
+    'pronunciation-practice': 'Pronunciation Practice'
   };
   return names[type] || type;
 }
