@@ -22,9 +22,17 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
   const [isEvaluating, setIsEvaluating] = useState(false);
   const [aiEvaluation, setAiEvaluation] = useState<MultipleChoiceEvaluationResponse | TextAnswerEvaluationResponse | null>(null);
 
-  // Animación de entrada
+  // Animación de entrada y reset de estado cuando cambia el ejercicio
   useEffect(() => {
+    // Reset completo del estado solo cuando cambia el ejercicio
+    setUserAnswer(null);
+    setSubmitted(false);
+    setIsCorrect(false);
+    setShowConfetti(false);
+    setIsEvaluating(false);
+    setAiEvaluation(null);
     setIsAnimating(true);
+    
     const timer = setTimeout(() => setIsAnimating(false), 300);
     return () => clearTimeout(timer);
   }, [exercise.id]);
@@ -136,12 +144,8 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
   };
 
   const handleNext = () => {
-    setUserAnswer(null);
-    setSubmitted(false);
-    setIsCorrect(false);
-    setShowConfetti(false);
-    setIsEvaluating(false);
-    setAiEvaluation(null);
+    // ✅ NO resetear el estado aquí - mantener la respuesta visible
+    // El reset se hará automáticamente cuando cambie el exercise.id en useEffect
     onComplete();
   };
 
