@@ -59,6 +59,9 @@ export function Navigation() {
               )}
             </div>
             
+            <Link href="/ejercicios-inteligentes" className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors flex items-center gap-1">
+              <span className="text-lg">🧠</span> Ejercicios IA
+            </Link>
             <Link href="/blog" className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors">
               Blog
             </Link>
@@ -126,6 +129,13 @@ export function Navigation() {
                 </Link>
               </div>
               
+              <Link 
+                href="/ejercicios-inteligentes" 
+                className="text-sm font-bold text-slate-700 hover:text-coral-600 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                🧠 Ejercicios IA
+              </Link>
               <Link 
                 href="/blog" 
                 className="text-sm font-bold text-slate-700 hover:text-coral-600 transition-colors"
