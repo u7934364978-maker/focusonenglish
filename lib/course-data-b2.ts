@@ -756,6 +756,237 @@ Had you finished your homework?`,
           'Link words smoothly: "I d_been", "they d_never"'
         ]
       },
+      // ============================================
+      // FCE SPEAKING - 4 PARTS (COMPLETE EXAM FORMAT)
+      // ============================================
+      {
+        id: 'b2-m1-l1-speaking-part1',
+        type: 'speaking-part1',
+        title: 'FCE Speaking Part 1: Interview - Personal Information',
+        instructions: 'El examinador te hará preguntas sobre ti mismo, tu vida diaria, intereses, etc. Responde de forma natural y proporciona detalles. Habla durante aproximadamente 20-30 segundos por pregunta.',
+        questions: [
+          {
+            id: 'q1',
+            question: 'What do you enjoy most about your studies or work?',
+            topic: 'daily-life',
+            suggestedAnswerLength: 25,
+            sampleAnswer: 'Well, I really enjoy the creative aspects of my work. I get to work with different people on interesting projects, which keeps things fresh and exciting. What I like most is when we successfully complete a challenging task together.'
+          },
+          {
+            id: 'q2',
+            question: 'Tell me about a hobby or interest you have.',
+            topic: 'interests',
+            suggestedAnswerLength: 30,
+            sampleAnswer: 'I\'m really into photography. I\'ve been taking photos for about three years now, and I love capturing everyday moments that people might overlook. I usually go out on weekends to different locations around the city to practice.'
+          },
+          {
+            id: 'q3',
+            question: 'How do you usually spend your free time during the week?',
+            topic: 'daily-life',
+            suggestedAnswerLength: 25,
+            sampleAnswer: 'During the week I don\'t have much free time, but when I do, I like to relax by reading or watching series. Sometimes I meet up with friends for coffee or we go for a walk if the weather\'s nice.'
+          },
+          {
+            id: 'q4',
+            question: 'What are your plans for the future?',
+            topic: 'future-plans',
+            suggestedAnswerLength: 30,
+            sampleAnswer: 'I\'m planning to finish my degree next year, and then I\'d like to gain some work experience in my field. Ideally, I\'d love to work abroad for a while to improve my language skills and experience different cultures.'
+          },
+          {
+            id: 'q5',
+            question: 'Can you tell me about a memorable experience from your childhood?',
+            topic: 'past-experiences',
+            suggestedAnswerLength: 35,
+            sampleAnswer: 'One of my best childhood memories is when my family went camping by the lake. I must have been about eight years old. We spent a whole week there, swimming, fishing, and having barbecues every evening. It was the first time I\'d ever slept in a tent, and I found it really exciting.'
+          }
+        ],
+        timeLimit: 150,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          interactiveResponse: true
+        }
+      },
+      {
+        id: 'b2-m1-l1-speaking-part2',
+        type: 'speaking-part2',
+        title: 'FCE Speaking Part 2: Long Turn - Photo Comparison',
+        instructions: 'Compara estas dos fotos. Debes hablar sobre lo que puedes ver en las fotos, compararlas y contrastarlas, y especular sobre lo que las personas podrían estar pensando o sintiendo. Tienes 1 minuto para hablar.',
+        photos: [
+          {
+            id: 'photo1',
+            imageUrl: '/images/speaking/b2-people-studying-library.jpg',
+            description: 'Students studying together in a library, with books and laptops'
+          },
+          {
+            id: 'photo2',
+            imageUrl: '/images/speaking/b2-person-studying-home.jpg',
+            description: 'A person studying alone at home with headphones on'
+          }
+        ],
+        prompt: 'Here are two photos showing different study situations. Compare the photos and say what advantages and disadvantages each situation might have.',
+        followUpQuestion: '[To second candidate] Which way of studying do you prefer?',
+        timeLimit: 60,
+        preparationTime: 0,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          compareAndContrast: true,
+          speculation: true
+        },
+        tips: [
+          'Usa lenguaje comparativo: "whereas", "while", "on the other hand", "in contrast"',
+          'Especula con verbos modales: "might be", "could be", "may be feeling"',
+          'Compara similitudes: "both photos show...", "in both situations..."',
+          'Contrasta diferencias: "unlike the first photo...", "whereas in this photo..."',
+          'Organiza tu respuesta: introducción → similitudes → diferencias → especulación',
+          '¡Sigue hablando durante todo el minuto - no pares antes!'
+        ]
+      },
+      {
+        id: 'b2-m1-l1-speaking-part3',
+        type: 'speaking-part3',
+        title: 'FCE Speaking Part 3: Collaborative Task - Planning',
+        instructions: 'Tú y tu compañero van a hablar sobre diferentes formas de mejorar el inglés. Primero, hablen sobre todas las opciones (2 minutos). Luego, decidan cuáles DOS serían más efectivas (1 minuto).',
+        centralQuestion: '¿Qué tan efectivos podrían ser estos métodos para mejorar el inglés?',
+        optionsWithImages: [
+          {
+            id: 'opt1',
+            option: 'Watching English movies and TV series',
+            imageUrl: '/images/speaking/b2-watching-tv.jpg',
+            description: 'Person watching English content with subtitles'
+          },
+          {
+            id: 'opt2',
+            option: 'Taking an intensive English course',
+            imageUrl: '/images/speaking/b2-english-class.jpg',
+            description: 'Students in an English class with a teacher'
+          },
+          {
+            id: 'opt3',
+            option: 'Living in an English-speaking country',
+            imageUrl: '/images/speaking/b2-living-abroad.jpg',
+            description: 'Person immersed in English-speaking environment'
+          },
+          {
+            id: 'opt4',
+            option: 'Practicing with language exchange partners online',
+            imageUrl: '/images/speaking/b2-online-exchange.jpg',
+            description: 'Person having video call for language exchange'
+          },
+          {
+            id: 'opt5',
+            option: 'Reading English books and newspapers',
+            imageUrl: '/images/speaking/b2-reading.jpg',
+            description: 'Person reading English literature'
+          }
+        ],
+        taskPhase1: {
+          instruction: 'First, talk together about how effective each method might be for improving English. You have about 2 minutes.',
+          timeLimit: 120
+        },
+        taskPhase2: {
+          instruction: 'Now decide which TWO methods would be most effective for someone who wants to improve their English quickly. You have about 1 minute.',
+          timeLimit: 60
+        },
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          turntaking: true,
+          negotiation: true,
+          reachingDecision: true
+        },
+        usefulPhrases: [
+          'What do you think about...?',
+          'I agree with you, but...',
+          'That\'s a good point, however...',
+          'I see what you mean, but have you considered...?',
+          'Shall we move on to the next one?',
+          'So, we both agree that...',
+          'I think this one would be more effective because...',
+          'That might work, but don\'t you think...?',
+          'So, shall we choose these two?',
+          'Yes, I think we\'ve reached a decision.'
+        ]
+      },
+      {
+        id: 'b2-m1-l1-speaking-part4',
+        type: 'speaking-part4',
+        title: 'FCE Speaking Part 4: Discussion - Language Learning',
+        instructions: 'El examinador te hará preguntas relacionadas con el aprendizaje de idiomas. Desarrolla tus respuestas con ejemplos y razones. Expresa y justifica tus opiniones.',
+        topic: 'Language Learning and Communication',
+        questions: [
+          {
+            id: 'q1',
+            question: 'Why do you think some people find it easier to learn languages than others?',
+            type: 'speculation',
+            followUpQuestions: [
+              'Do you think age is an important factor?',
+              'What about motivation - how important is that?'
+            ]
+          },
+          {
+            id: 'q2',
+            question: 'How important is it for people to learn English in today\'s world?',
+            type: 'opinion',
+            followUpQuestions: [
+              'Do you think everyone should learn English?',
+              'What are the disadvantages of English being so dominant?'
+            ]
+          },
+          {
+            id: 'q3',
+            question: 'Some people say traditional classroom learning is better than online learning. What\'s your opinion?',
+            type: 'comparison',
+            followUpQuestions: [
+              'How has technology changed the way we learn languages?',
+              'Do you think classroom teachers will become unnecessary in the future?'
+            ]
+          },
+          {
+            id: 'q4',
+            question: 'In your country, how important is it for young people to speak foreign languages?',
+            type: 'evaluation',
+            followUpQuestions: [
+              'How could language education be improved?',
+              'Should all students be required to learn a second language?'
+            ]
+          }
+        ],
+        timeLimit: 240,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          developingArguments: true,
+          expressingOpinions: true,
+          justifyingViews: true
+        },
+        usefulLanguage: [
+          'In my opinion...',
+          'I strongly believe that...',
+          'From my point of view...',
+          'It seems to me that...',
+          'I would argue that...',
+          'On the one hand... On the other hand...',
+          'The main advantage/disadvantage is...',
+          'This is because...',
+          'For example...',
+          'Take... for instance...',
+          'What I mean is...',
+          'In other words...',
+          'That\'s an interesting question. I think...',
+          'Well, it depends on...'
+        ]
+      },
       {
         id: 'b2-m1-l1-writing-1',
         type: 'writing',
