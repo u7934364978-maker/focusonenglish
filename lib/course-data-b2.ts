@@ -3353,6 +3353,218 @@ However, overuse diminishes impact. It is judicious application that makes empha
             points: 2
           }
         ]
+      },
+      // Speaking Part 1: Interview - Communication and Expression
+      {
+        id: 'b2-m1-l3-speaking-part1',
+        type: 'speaking-part1',
+        title: 'FCE Speaking Part 1: Interview - Communication and Expression',
+        instructions: 'El examinador te hará preguntas sobre comunicación, expresión y cómo te relacionas con otros. Usa estructuras enfáticas cuando sea apropiado.',
+        questions: [
+          {
+            id: 'q1',
+            question: 'What is it that you enjoy most about learning languages?',
+            topic: 'Language learning',
+            suggestedDuration: 30,
+            sampleAnswer: 'What I enjoy most is the ability to connect with people from different cultures. It\'s the cultural exchange that really fascinates me.'
+          },
+          {
+            id: 'q2',
+            question: 'Who has been the most influential person in your life? Why?',
+            topic: 'Personal influence',
+            suggestedDuration: 35,
+            sampleAnswer: 'It was my English teacher who had the biggest impact on me. What she taught me wasn\'t just grammar - it was confidence in expressing myself.'
+          },
+          {
+            id: 'q3',
+            question: 'What do you think is the key to effective communication?',
+            topic: 'Communication skills',
+            suggestedDuration: 30,
+            sampleAnswer: 'What I believe is most important is active listening. It\'s not just about speaking well - it\'s understanding the other person that matters.'
+          },
+          {
+            id: 'q4',
+            question: 'Where do you feel most comfortable expressing your ideas?',
+            topic: 'Expression contexts',
+            suggestedDuration: 25,
+            sampleAnswer: 'It\'s in small group discussions where I feel most at ease. What helps me is the informal atmosphere and the chance to really exchange ideas.'
+          },
+          {
+            id: 'q5',
+            question: 'What achievement are you most proud of?',
+            topic: 'Personal achievements',
+            suggestedDuration: 30,
+            sampleAnswer: 'What I\'m proudest of is completing my English certification. It wasn\'t the certificate itself that mattered - it was proving to myself that I could do it.'
+          }
+        ],
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          interaction: true
+        }
+      },
+      // Speaking Part 2: Long Turn - Different Forms of Communication
+      {
+        id: 'b2-m1-l3-speaking-part2',
+        type: 'speaking-part2',
+        title: 'FCE Speaking Part 2: Long Turn - Forms of Communication',
+        instructions: 'Compara estas dos fotos que muestran diferentes formas de comunicación. Habla sobre lo que hace efectiva cada forma de comunicación y especula sobre las ventajas.',
+        photos: [
+          {
+            id: 'photo1',
+            imageUrl: 'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&q=80',
+            description: 'Person giving a public presentation or speech to an audience'
+          },
+          {
+            id: 'photo2',
+            imageUrl: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?w=800&q=80',
+            description: 'Two people having an intimate one-on-one conversation'
+          }
+        ],
+        comparisonPrompt: 'Here are two photos showing different ways of communicating. Compare the photos and say what makes each type of communication effective.',
+        followUpQuestion: 'Which form of communication do you find more challenging?',
+        timeLimit: 60,
+        tips: [
+          'Usa cleft sentences para énfasis: "What makes presentations effective is..."',
+          'Compara las ventajas: "It\'s the direct feedback that makes conversations valuable"',
+          'Especula sobre los desafíos de cada uno',
+          'Menciona contextos apropiados para cada tipo',
+          'Usa énfasis: "It\'s not just what you say, but how you say it"',
+          'Concluye con tu preferencia personal'
+        ],
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          comparison: true,
+          speculation: true
+        }
+      },
+      // Speaking Part 3: Collaborative Task - Important Communication Skills
+      {
+        id: 'b2-m1-l3-speaking-part3',
+        type: 'speaking-part3',
+        title: 'FCE Speaking Part 3: Collaborative Task - Communication Skills',
+        instructions: 'Tú y tu compañero van a hablar sobre habilidades de comunicación importantes. Primero, discutan todas las opciones (2 minutos). Luego, decidan cuáles DOS son las más esenciales para el éxito profesional (1 minuto).',
+        scenario: 'Employers look for candidates with strong communication skills',
+        question: 'How important might these communication skills be for professional success?',
+        options: [
+          {
+            id: 'opt1',
+            text: 'Public speaking and presentations',
+            imageUrl: 'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=400&q=80',
+            description: 'Person presenting to a large audience'
+          },
+          {
+            id: 'opt2',
+            text: 'Active listening',
+            imageUrl: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400&q=80',
+            description: 'People listening attentively in a meeting'
+          },
+          {
+            id: 'opt3',
+            text: 'Written communication and emails',
+            imageUrl: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&q=80',
+            description: 'Person writing professional email'
+          },
+          {
+            id: 'opt4',
+            text: 'Body language and non-verbal cues',
+            imageUrl: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=400&q=80',
+            description: 'Professional body language in business setting'
+          },
+          {
+            id: 'opt5',
+            text: 'Negotiation and persuasion',
+            imageUrl: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?w=400&q=80',
+            description: 'Business negotiation or deal making'
+          }
+        ],
+        phase1Duration: 120,
+        phase2Duration: 60,
+        usefulPhrases: [
+          'What I think is most important is...',
+          'It\'s clear that... plays a crucial role',
+          'What we need to consider is...',
+          'It\'s not just... but also...',
+          'What strikes me about this option is...',
+          'Where I think we agree is...',
+          'What makes this skill essential is...',
+          'It\'s the combination of... that matters',
+          'Shall we say that... and... are the most crucial?',
+          'I\'d emphasize that...'
+        ],
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          collaboration: true,
+          negotiation: true
+        }
+      },
+      // Speaking Part 4: Discussion - Communication in Modern Society
+      {
+        id: 'b2-m1-l3-speaking-part4',
+        type: 'speaking-part4',
+        title: 'FCE Speaking Part 4: Discussion - Communication in Modern Society',
+        instructions: 'El examinador te hará preguntas más profundas sobre la comunicación en la sociedad moderna. Usa estructuras enfáticas para expresar tus ideas con mayor impacto.',
+        topic: 'Communication in Modern Society',
+        questions: [
+          {
+            id: 'q1',
+            question: 'What do you think has been the biggest change in how people communicate over the past decade?',
+            topic: 'Communication changes',
+            suggestedDuration: 60
+          },
+          {
+            id: 'q2',
+            question: 'Do you believe that social media has improved or damaged genuine communication? Why?',
+            topic: 'Social media impact',
+            suggestedDuration: 60
+          },
+          {
+            id: 'q3',
+            question: 'What is it that makes some people better communicators than others?',
+            topic: 'Communication skills',
+            suggestedDuration: 60
+          },
+          {
+            id: 'q4',
+            question: 'How important is face-to-face communication in a world of video calls and messaging?',
+            topic: 'Face-to-face vs digital',
+            suggestedDuration: 60
+          }
+        ],
+        usefulExpressions: [
+          'What I find most striking is...',
+          'It\'s clear that...',
+          'What concerns me is...',
+          'It\'s not that... but rather...',
+          'What we often overlook is...',
+          'It\'s the lack of... that causes...',
+          'What I\'ve noticed is...',
+          'It was... who/that first said...',
+          'Where the problem lies is...',
+          'What really matters is...',
+          'It\'s worth noting that...',
+          'What distinguishes... from... is...',
+          'The reason why... is that...',
+          'All... does is...'
+        ],
+        timeLimit: 240,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          opinion: true,
+          development: true
+        }
       }
     ]
   },
@@ -4733,6 +4945,218 @@ export const MODULE_2_LESSONS: Lesson[] = [
           }
         ],
         focusAreas: ['Modals of deduction', 'Modal verbs', 'Context clues']
+      },
+      // Speaking Part 1: Interview - Speculation and Certainty
+      {
+        id: 'b2-m2-l1-speaking-part1',
+        type: 'speaking-part1',
+        title: 'FCE Speaking Part 1: Interview - Making Deductions',
+        instructions: 'El examinador te hará preguntas donde tendrás que especular y hacer deducciones. Usa modales de especulación apropiadamente.',
+        questions: [
+          {
+            id: 'q1',
+            question: 'What might be the biggest challenge facing your generation?',
+            topic: 'Future challenges',
+            suggestedDuration: 30,
+            sampleAnswer: 'I think it must be climate change. There can\'t be any doubt that we need to take action now. The evidence suggests that things could get much worse if we don\'t act.'
+          },
+          {
+            id: 'q2',
+            question: 'Why do you think some people are more successful than others?',
+            topic: 'Success factors',
+            suggestedDuration: 35,
+            sampleAnswer: 'It might be a combination of factors. They could have had better opportunities, or they may be more determined. But I believe it can\'t just be luck - hard work must play a huge role.'
+          },
+          {
+            id: 'q3',
+            question: 'What could be done to improve education in your country?',
+            topic: 'Education improvements',
+            suggestedDuration: 30,
+            sampleAnswer: 'Schools might need to focus more on practical skills. Teachers could use more technology in the classroom. The system may need complete reform to prepare students for the modern world.'
+          },
+          {
+            id: 'q4',
+            question: 'Where do you see yourself in five years?',
+            topic: 'Future plans',
+            suggestedDuration: 25,
+            sampleAnswer: 'I might be working abroad, or I could be finishing my master\'s degree. It\'s hard to say for certain, but I must admit I hope to be doing something I\'m passionate about.'
+          },
+          {
+            id: 'q5',
+            question: 'What do you think your friend would say about you?',
+            topic: 'Self-perception',
+            suggestedDuration: 30,
+            sampleAnswer: 'They might say I\'m reliable. They could mention that I\'m always there when needed. I suppose they must think I\'m a good listener, because they often come to me with problems.'
+          }
+        ],
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          interaction: true
+        }
+      },
+      // Speaking Part 2: Long Turn - Observing and Speculating
+      {
+        id: 'b2-m2-l1-speaking-part2',
+        type: 'speaking-part2',
+        title: 'FCE Speaking Part 2: Long Turn - Making Deductions from Images',
+        instructions: 'Mira estas dos fotos y especula sobre lo que está pasando. Usa modales para expresar diferentes niveles de certeza sobre las situaciones.',
+        photos: [
+          {
+            id: 'photo1',
+            imageUrl: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80',
+            description: 'Business people in what appears to be an important meeting or negotiation'
+          },
+          {
+            id: 'photo2',
+            imageUrl: 'https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=800&q=80',
+            description: 'Students or young people working together on a project'
+          }
+        ],
+        comparisonPrompt: 'Here are two photos showing people working together. Speculate about what might be happening in each situation and compare the challenges they could be facing.',
+        followUpQuestion: 'Which situation do you think requires more careful planning?',
+        timeLimit: 60,
+        tips: [
+          'Usa "might/could/may" para especulación: "They might be discussing..."',
+          'Usa "must" para deducciones fuertes: "They must be working on..."',
+          'Usa "can\'t" para imposibilidad: "They can\'t be enjoying..."',
+          'Compara los niveles de formalidad',
+          'Especula sobre los desafíos que enfrentan',
+          'Concluye con qué situación parece más desafiante'
+        ],
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          comparison: true,
+          speculation: true
+        }
+      },
+      // Speaking Part 3: Collaborative Task - Future Predictions
+      {
+        id: 'b2-m2-l1-speaking-part3',
+        type: 'speaking-part3',
+        title: 'FCE Speaking Part 3: Collaborative Task - Future Developments',
+        instructions: 'Tú y tu compañero van a hablar sobre posibles desarrollos futuros. Primero, especulen sobre cada opción (2 minutos). Luego, decidan cuáles DOS podrían tener el mayor impacto (1 minuto).',
+        scenario: 'Technology and society are changing rapidly',
+        question: 'How might these developments change our lives in the next 10 years?',
+        options: [
+          {
+            id: 'opt1',
+            text: 'Artificial Intelligence in everyday life',
+            imageUrl: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&q=80',
+            description: 'AI technology and robots'
+          },
+          {
+            id: 'opt2',
+            text: 'Working remotely from anywhere',
+            imageUrl: 'https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=400&q=80',
+            description: 'Person working remotely with laptop'
+          },
+          {
+            id: 'opt3',
+            text: 'Electric and self-driving vehicles',
+            imageUrl: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=400&q=80',
+            description: 'Electric car or autonomous vehicle'
+          },
+          {
+            id: 'opt4',
+            text: 'Virtual reality for education and training',
+            imageUrl: 'https://images.unsplash.com/photo-1617802690992-15d93263d3a9?w=400&q=80',
+            description: 'Person using VR headset'
+          },
+          {
+            id: 'opt5',
+            text: 'Renewable energy everywhere',
+            imageUrl: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?w=400&q=80',
+            description: 'Solar panels or wind turbines'
+          }
+        ],
+        phase1Duration: 120,
+        phase2Duration: 60,
+        usefulPhrases: [
+          'This might completely change...',
+          'It could have a huge impact on...',
+          'I think this must be one of the most important',
+          'There can\'t be any doubt that...',
+          'We may see significant changes in...',
+          'This development might not happen as quickly as...',
+          'It\'s possible that...',
+          'What do you think could be the consequences?',
+          'I suppose we must consider...',
+          'Shall we agree that these two might be the most significant?'
+        ],
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          collaboration: true,
+          negotiation: true
+        }
+      },
+      // Speaking Part 4: Discussion - Predictions and Possibilities
+      {
+        id: 'b2-m2-l1-speaking-part4',
+        type: 'speaking-part4',
+        title: 'FCE Speaking Part 4: Discussion - Future and Predictions',
+        instructions: 'El examinador te hará preguntas sobre el futuro y predicciones. Usa modales de especulación para expresar diferentes niveles de certeza.',
+        topic: 'The Future and Making Predictions',
+        questions: [
+          {
+            id: 'q1',
+            question: 'Do you think traditional jobs might disappear due to automation? Which ones?',
+            topic: 'Future of work',
+            suggestedDuration: 60
+          },
+          {
+            id: 'q2',
+            question: 'What impact could climate change have on where people choose to live?',
+            topic: 'Climate and migration',
+            suggestedDuration: 60
+          },
+          {
+            id: 'q3',
+            question: 'How might education be different for your children or future generations?',
+            topic: 'Future of education',
+            suggestedDuration: 60
+          },
+          {
+            id: 'q4',
+            question: 'Do you believe scientists will find solutions to current global problems? Why or why not?',
+            topic: 'Science and solutions',
+            suggestedDuration: 60
+          }
+        ],
+        usefulExpressions: [
+          'It might be that...',
+          'There must be a way to...',
+          'I can\'t imagine that...',
+          'It could well be that...',
+          'They may have already found...',
+          'This can\'t continue without...',
+          'We might see dramatic changes in...',
+          'It\'s possible that...',
+          'I doubt that... could...',
+          'Scientists must be working on...',
+          'The situation may improve if...',
+          'There\'s no way that... can...',
+          'I\'d say there might be...',
+          'It must be difficult to predict...'
+        ],
+        timeLimit: 240,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          opinion: true,
+          development: true
+        }
       }
     ]
   },
@@ -5459,6 +5883,218 @@ export const MODULE_3_LESSONS: Lesson[] = [
           }
         ],
         focusAreas: ['Business vocabulary', 'Collocations', 'Formal writing']
+      },
+      // Speaking Part 1: Interview - Professional and Academic Life
+      {
+        id: 'b2-m3-l1-speaking-part1',
+        type: 'speaking-part1',
+        title: 'FCE Speaking Part 1: Interview - Professional Context',
+        instructions: 'El examinador te hará preguntas sobre situaciones profesionales y académicas. Mantén un registro apropiado en tus respuestas.',
+        questions: [
+          {
+            id: 'q1',
+            question: 'What kind of professional environment would you like to work in?',
+            topic: 'Work environment',
+            suggestedDuration: 30,
+            sampleAnswer: 'I would prefer to work in a collaborative environment where innovation is encouraged. I believe that professional growth requires both challenge and support from colleagues.'
+          },
+          {
+            id: 'q2',
+            question: 'How important is it to maintain a work-life balance?',
+            topic: 'Work-life balance',
+            suggestedDuration: 35,
+            sampleAnswer: 'I consider it essential. While career advancement is important, personal wellbeing should not be compromised. A balanced approach ultimately leads to better productivity and job satisfaction.'
+          },
+          {
+            id: 'q3',
+            question: 'What qualities do you think make a good leader?',
+            topic: 'Leadership',
+            suggestedDuration: 30,
+            sampleAnswer: 'In my view, effective leaders demonstrate both competence and empathy. They should be able to inspire their team while also listening to concerns and providing constructive guidance.'
+          },
+          {
+            id: 'q4',
+            question: 'How has technology changed the way people work?',
+            topic: 'Technology and work',
+            suggestedDuration: 25,
+            sampleAnswer: 'Technology has fundamentally transformed the workplace. Remote work has become commonplace, and digital tools have increased efficiency significantly. However, this has also created new challenges regarding work boundaries.'
+          },
+          {
+            id: 'q5',
+            question: 'What advice would you give someone entering your field?',
+            topic: 'Career advice',
+            suggestedDuration: 30,
+            sampleAnswer: 'I would recommend they focus on continuous learning and networking. Building professional relationships is crucial, as is staying updated with industry developments and being adaptable to change.'
+          }
+        ],
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          interaction: true
+        }
+      },
+      // Speaking Part 2: Long Turn - Formal vs Informal Contexts
+      {
+        id: 'b2-m3-l1-speaking-part2',
+        type: 'speaking-part2',
+        title: 'FCE Speaking Part 2: Long Turn - Professional Situations',
+        instructions: 'Compara estas dos fotos que muestran diferentes situaciones profesionales. Discute las diferencias en formalidad y expectativas.',
+        photos: [
+          {
+            id: 'photo1',
+            imageUrl: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=80',
+            description: 'Formal business meeting or conference with professional attire'
+          },
+          {
+            id: 'photo2',
+            imageUrl: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
+            description: 'Modern casual workplace with informal atmosphere'
+          }
+        ],
+        comparisonPrompt: 'Here are two photos showing different work environments. Compare the photos and discuss how the level of formality might affect communication and productivity in each setting.',
+        followUpQuestion: 'Which type of work environment would you find more conducive to creativity?',
+        timeLimit: 60,
+        tips: [
+          'Usa vocabulario formal: "professional atmosphere", "corporate culture"',
+          'Compara niveles de formalidad y sus efectos',
+          'Discute ventajas de cada enfoque',
+          'Menciona cómo la formalidad afecta la comunicación',
+          'Especula sobre la productividad en cada contexto',
+          'Mantén un registro apropiado en tu respuesta'
+        ],
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          comparison: true,
+          speculation: true
+        }
+      },
+      // Speaking Part 3: Collaborative Task - Professional Development
+      {
+        id: 'b2-m3-l1-speaking-part3',
+        type: 'speaking-part3',
+        title: 'FCE Speaking Part 3: Collaborative Task - Professional Development',
+        instructions: 'Tú y tu compañero van a hablar sobre formas de desarrollo profesional. Primero, discutan todas las opciones (2 minutos). Luego, decidan cuáles DOS son las más valiosas para el crecimiento profesional (1 minuto).',
+        scenario: 'Professionals need to continually develop their skills',
+        question: 'How beneficial might these professional development activities be?',
+        options: [
+          {
+            id: 'opt1',
+            text: 'Attending industry conferences and seminars',
+            imageUrl: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&q=80',
+            description: 'Professional conference or seminar'
+          },
+          {
+            id: 'opt2',
+            text: 'Taking online courses and certifications',
+            imageUrl: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=400&q=80',
+            description: 'Person taking online course'
+          },
+          {
+            id: 'opt3',
+            text: 'Finding a mentor in your field',
+            imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80',
+            description: 'Mentoring session'
+          },
+          {
+            id: 'opt4',
+            text: 'Networking with industry professionals',
+            imageUrl: 'https://images.unsplash.com/photo-1528605105345-5344ea20e269?w=400&q=80',
+            description: 'Professional networking event'
+          },
+          {
+            id: 'opt5',
+            text: 'Reading professional journals and publications',
+            imageUrl: 'https://images.unsplash.com/photo-1432821596592-e2c18b78144f?w=400&q=80',
+            description: 'Reading professional literature'
+          }
+        ],
+        phase1Duration: 120,
+        phase2Duration: 60,
+        usefulPhrases: [
+          'I would argue that...',
+          'From a professional perspective...',
+          'It is widely acknowledged that...',
+          'One might consider...',
+          'With regard to...',
+          'Furthermore, it should be noted that...',
+          'In light of these factors...',
+          'I would suggest that...',
+          'Taking into account...',
+          'Shall we conclude that...'
+        ],
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          collaboration: true,
+          negotiation: true
+        }
+      },
+      // Speaking Part 4: Discussion - Professional Standards and Ethics
+      {
+        id: 'b2-m3-l1-speaking-part4',
+        type: 'speaking-part4',
+        title: 'FCE Speaking Part 4: Discussion - Professional World',
+        instructions: 'El examinador te hará preguntas sobre el mundo profesional y estándares éticos. Mantén un nivel apropiado de formalidad y sofisticación.',
+        topic: 'Professional Standards and Career Development',
+        questions: [
+          {
+            id: 'q1',
+            question: 'How important is formal education compared to practical experience in today\'s job market?',
+            topic: 'Education vs experience',
+            suggestedDuration: 60
+          },
+          {
+            id: 'q2',
+            question: 'What role should companies play in the professional development of their employees?',
+            topic: 'Corporate responsibility',
+            suggestedDuration: 60
+          },
+          {
+            id: 'q3',
+            question: 'Do you think the concept of a "career for life" still exists? Why or why not?',
+            topic: 'Career stability',
+            suggestedDuration: 60
+          },
+          {
+            id: 'q4',
+            question: 'How can professionals maintain ethical standards while remaining competitive?',
+            topic: 'Ethics in business',
+            suggestedDuration: 60
+          }
+        ],
+        usefulExpressions: [
+          'I would contend that...',
+          'It is essential to consider...',
+          'From my perspective...',
+          'One could argue that...',
+          'In terms of...',
+          'Furthermore...',
+          'Nevertheless...',
+          'With respect to...',
+          'It has been demonstrated that...',
+          'I am inclined to believe that...',
+          'Taking everything into consideration...',
+          'On balance...',
+          'It would be advisable to...',
+          'This raises the question of...'
+        ],
+        timeLimit: 240,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true,
+          opinion: true,
+          development: true
+        }
       }
     ]
   },
