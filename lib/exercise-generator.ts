@@ -29,18 +29,26 @@ export interface ExerciseConfig {
  * Generate exercise from Cambridge curriculum
  */
 export async function generateExercise(config: ExerciseConfig): Promise<Exercise> {
-  // Map category to exercise type
+  // Map category to exercise type - SOLO USAR TIPOS QUE EL API ACEPTA
   const exerciseTypeMap: Record<string, ExerciseType[]> = {
-    grammar: ['multiple-choice', 'fill-blank', 'sentence-building', 'true-false'],
-    vocabulary: ['multiple-choice', 'word-formation', 'fill-blank'],
-    reading: ['reading-comprehension', 'multiple-choice', 'true-false'],
-    writing: ['writing-analysis', 'fill-blank', 'sentence-building'],
+    grammar: ['multiple-choice', 'fill-blank'],
+    vocabulary: ['multiple-choice', 'word-formation'],
+    reading: ['reading-comprehension', 'multiple-choice'],
+    writing: ['writing-analysis'],
     listening: ['listening-comprehension', 'multiple-choice'],
     speaking: ['speaking-analysis', 'pronunciation-practice']
   };
 
   const availableTypes = exerciseTypeMap[config.category] || ['multiple-choice'];
   const selectedType = availableTypes[Math.floor(Math.random() * availableTypes.length)];
+  
+  console.log('🎲 Selected exercise type:', {
+    category: config.category,
+    availableTypes,
+    selectedType,
+    level: config.level,
+    topic: config.topicName
+  });
 
   // Call the API to generate the exercise
   const response = await fetch('/api/generate-exercise', {
@@ -61,11 +69,30 @@ export async function generateExercise(config: ExerciseConfig): Promise<Exercise
   });
 
   if (!response.ok) {
-    const error = await response.json().catch(() => ({ error: 'Failed to generate exercise' }));
-    throw new Error(error.error || error.message || 'Failed to generate exercise');
+    const errorText = await response.text();
+    console.error('❌ API Error:', {
+      status: response.status,
+      statusText: response.statusText,
+      body: errorText
+    });
+    
+    let error;
+    try {
+      error = JSON.parse(errorText);
+    } catch {
+      error = { error: errorText || 'Failed to generate exercise' };
+    }
+    
+    throw new Error(error.error || error.message || `API Error: ${response.status}`);
   }
 
   const data = await response.json();
+  
+  console.log('✅ API Response:', {
+    success: data.success,
+    exercisesCount: data.exercises?.length,
+    firstExerciseType: data.exercises?.[0]?.type
+  });
   
   // The API returns { success: true, exercises: [...], sessionId: '...' }
   if (!data.success || !data.exercises || data.exercises.length === 0) {
