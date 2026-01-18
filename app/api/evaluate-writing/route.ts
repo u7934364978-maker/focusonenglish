@@ -104,53 +104,53 @@ export async function POST(request: NextRequest) {
     let wordCountPenalty = 0;
     
     if (wordCount < minWords) {
-      wordCountFeedback = `Your essay is too short (${wordCount} words). Minimum required: ${minWords} words. (-10 points)`;
+      wordCountFeedback = `Tu ensayo es demasiado corto (${wordCount} palabras). Mínimo requerido: ${minWords} palabras. (-10 puntos)`;
       wordCountPenalty = 10;
     } else if (wordCount > maxWords) {
-      wordCountFeedback = `Your essay exceeds the word limit (${wordCount} words). Maximum allowed: ${maxWords} words. (-5 points)`;
+      wordCountFeedback = `Tu ensayo excede el límite de palabras (${wordCount} palabras). Máximo permitido: ${maxWords} palabras. (-5 puntos)`;
       wordCountPenalty = 5;
     } else {
-      wordCountFeedback = `Good! Your essay has ${wordCount} words, which is within the required range (${minWords}-${maxWords}).`;
+      wordCountFeedback = `¡Bien! Tu ensayo tiene ${wordCount} palabras, lo cual está dentro del rango requerido (${minWords}-${maxWords}).`;
     }
 
     // Build comprehensive system prompt
-    const systemPrompt = `You are an expert English writing examiner for ${level} level (CEFR).
-You specialize in ${writingType} assessment and follow official Cambridge/IELTS marking criteria.
+    const systemPrompt = `Eres un examinador experto de redacción en inglés para nivel ${level} (MCER).
+Te especializas en la evaluación de ${writingType} y sigues los criterios oficiales de Cambridge/IELTS.
 
-EVALUATION STANDARDS FOR ${level}:
-- Content: Addresses all parts of prompt, develops ideas thoroughly
-- Organization: Clear structure with introduction, body, conclusion
-- Grammar: Range and accuracy appropriate for ${level}
-- Vocabulary: Appropriate range, collocations, less common lexis
-- Task Achievement: Fulfills all requirements of the prompt
+ESTÁNDARES DE EVALUACIÓN PARA ${level}:
+- Contenido: Aborda todas las partes del prompt, desarrolla ideas a fondo
+- Organización: Estructura clara con introducción, cuerpo, conclusión
+- Gramática: Rango y precisión apropiados para ${level}
+- Vocabulario: Rango apropiado, colocaciones, léxico menos común
+- Logro de la tarea: Cumple todos los requisitos del prompt
 
-SCORING PHILOSOPHY:
-- ZERO FALSE NEGATIVES: If writing shows ${level} competence, score accordingly
-- ZERO FALSE POSITIVES: Be accurate but not overly harsh
-- CONSTRUCTIVE: Focus on improvement, not just errors
-- FAIR: Credit good attempts even if not perfect
+FILOSOFÍA DE CALIFICACIÓN:
+- CERO FALSOS NEGATIVOS: Si la redacción muestra competencia de ${level}, califica en consecuencia
+- CERO FALSOS POSITIVOS: Sé preciso pero no excesivamente severo
+- CONSTRUCTIVO: Enfócate en la mejora, no solo en los errores
+- JUSTO: Da crédito a los buenos intentos aunque no sean perfectos
 
-Return detailed JSON evaluation following the rubric weights:
-Content: ${rubric.content}%
-Organization: ${rubric.organization}%
-Grammar: ${rubric.grammar}%
-Vocabulary: ${rubric.vocabulary}%`;
+Devuelve una evaluación JSON detallada siguiendo los pesos de la rúbrica:
+Contenido: ${rubric.content}%
+Organización: ${rubric.organization}%
+Gramática: ${rubric.grammar}%
+Vocabulario: ${rubric.vocabulary}%`;
 
-    const userPrompt = `WRITING TYPE: ${writingType.toUpperCase()}
-LEVEL: ${level}
-WORD REQUIREMENT: ${minWords}-${maxWords} words
-ACTUAL WORD COUNT: ${wordCount} words
+    const userPrompt = `TIPO DE REDACCIÓN: ${writingType.toUpperCase()}
+NIVEL: ${level}
+REQUISITO DE PALABRAS: ${minWords}-${maxWords} palabras
+CONTEO REAL DE PALABRAS: ${wordCount} palabras
 
 PROMPT:
 "${prompt}"
 
-STUDENT'S ${writingType.toUpperCase()}:
+${writingType.toUpperCase()} DEL ESTUDIANTE:
 ${essay}
 
-PROVIDE COMPREHENSIVE EVALUATION IN JSON FORMAT:
+PROPORCIONA UNA EVALUACIÓN COMPLETA EN FORMATO JSON (en español):
 {
-  "overallScore": number, // 0-100, considering word count penalty if applicable
-  "isAcceptable": boolean, // true if meets ${level} standards
+  "overallScore": number, // 0-100, considerando penalización por conteo de palabras si aplica
+  "isAcceptable": boolean, // true si cumple con los estándares de ${level}
   
   "scores": {
     "content": number, // 0-100
@@ -160,32 +160,32 @@ PROVIDE COMPREHENSIVE EVALUATION IN JSON FORMAT:
     "taskAchievement": number // 0-100
   },
   
-  "strengths": ["strength1", "strength2", "strength3"],
-  "weaknesses": ["weakness1", "weakness2"],
+  "strengths": ["fortaleza1", "fortaleza2", "fortaleza3"],
+  "weaknesses": ["debilidad1", "debilidad2"],
   
   "detailedFeedback": {
-    "content": "Detailed feedback on ideas, development, relevance",
-    "organization": "Feedback on structure, paragraphing, coherence",
-    "grammar": "Overall grammar assessment",
-    "vocabulary": "Range, accuracy, appropriacy of vocabulary",
-    "taskAchievement": "How well all parts of prompt were addressed"
+    "content": "Retroalimentación detallada sobre ideas, desarrollo, relevancia",
+    "organization": "Retroalimentación sobre estructura, párrafos, coherencia",
+    "grammar": "Evaluación general de gramática",
+    "vocabulary": "Rango, precisión, adecuación del vocabulario",
+    "taskAchievement": "Qué tan bien se abordaron todas las partes del prompt"
   },
   
   "grammarErrors": [
     {
-      "sentence": "exact sentence with error",
-      "error": "specific error identified",
-      "correction": "corrected version",
-      "explanation": "why it's wrong and rule",
-      "category": "verb tense|article|preposition|word order|etc"
+      "sentence": "oración exacta con error",
+      "error": "error específico identificado",
+      "correction": "versión corregida",
+      "explanation": "por qué está mal y regla",
+      "category": "tiempo verbal|artículo|preposición|orden de palabras|etc"
     }
   ],
   
   "vocabularyAnalysis": {
-    "level": "excellent|good|adequate|basic",
-    "sophisticatedWords": ["advanced word 1", "advanced word 2"],
-    "repetitiveWords": ["word repeated too much"],
-    "suggestions": ["Use more varied vocabulary", "Consider synonyms for X"]
+    "level": "excelente|bueno|adecuado|básico",
+    "sophisticatedWords": ["palabra avanzada 1", "palabra avanzada 2"],
+    "repetitiveWords": ["palabra repetida demasiado"],
+    "suggestions": ["Usa vocabulario más variado", "Considera sinónimos para X"]
   },
   
   "organizationAnalysis": {
@@ -193,26 +193,26 @@ PROVIDE COMPREHENSIVE EVALUATION IN JSON FORMAT:
     "hasBody": boolean,
     "hasConclusion": boolean,
     "paragraphCount": number,
-    "coherence": "excellent|good|adequate|poor",
-    "cohesion": "excellent|good|adequate|poor"
+    "coherence": "excelente|bueno|adecuado|pobre",
+    "cohesion": "excelente|bueno|adecuado|pobre"
   },
   
   "recommendations": [
-    "Specific actionable advice 1",
-    "Specific actionable advice 2",
-    "Specific actionable advice 3"
+    "Consejo específico y accionable 1",
+    "Consejo específico y accionable 2",
+    "Consejo específico y accionable 3"
   ],
   
   "estimatedCEFRLevel": "A1|A2|B1|B2|C1|C2",
-  "bandScore": number // IELTS-style 0-9 score
+  "bandScore": number // Puntuación estilo IELTS 0-9
 }
 
-IMPORTANT:
-1. List MAJOR grammar errors (max 10 most important)
-2. Be encouraging but honest
-3. Focus on patterns, not every single mistake
-4. Recognize good attempts and partial credit
-5. Consider ${level} standards - don't expect native-level perfection`;
+IMPORTANTE:
+1. Enumera los errores gramaticales PRINCIPALES (máximo 10 más importantes)
+2. Sé alentador pero honesto
+3. Enfócate en patrones, no en cada error individual
+4. Reconoce los buenos intentos y el crédito parcial
+5. Considera los estándares de ${level} - no esperes perfección de nivel nativo`;
 
     // Call GPT-4o for evaluation
     const completion = await openai.chat.completions.create({
@@ -252,17 +252,17 @@ IMPORTANT:
       weaknesses: evaluationResult.weaknesses || [],
       
       detailedFeedback: evaluationResult.detailedFeedback || {
-        content: 'No feedback available',
-        organization: 'No feedback available',
-        grammar: 'No feedback available',
-        vocabulary: 'No feedback available',
-        taskAchievement: 'No feedback available'
+        content: 'No hay retroalimentación disponible',
+        organization: 'No hay retroalimentación disponible',
+        grammar: 'No hay retroalimentación disponible',
+        vocabulary: 'No hay retroalimentación disponible',
+        taskAchievement: 'No hay retroalimentación disponible'
       },
       
       grammarErrors: evaluationResult.grammarErrors || [],
       
       vocabularyAnalysis: evaluationResult.vocabularyAnalysis || {
-        level: 'adequate',
+        level: 'adecuado',
         sophisticatedWords: [],
         repetitiveWords: [],
         suggestions: []
@@ -273,8 +273,8 @@ IMPORTANT:
         hasBody: true,
         hasConclusion: false,
         paragraphCount: 1,
-        coherence: 'adequate',
-        cohesion: 'adequate'
+        coherence: 'adecuado',
+        cohesion: 'adecuado'
       },
       
       recommendations: evaluationResult.recommendations || [],
@@ -289,7 +289,7 @@ IMPORTANT:
     
     return NextResponse.json(
       {
-        error: 'Failed to evaluate writing',
+        error: 'Error al evaluar la redacción',
         details: error.message
       },
       { status: 500 }
@@ -300,7 +300,7 @@ IMPORTANT:
 export async function GET() {
   return NextResponse.json({
     status: 'healthy',
-    service: 'writing-evaluation',
+    service: 'evaluacion-redaccion',
     version: '1.0.0'
   });
 }
