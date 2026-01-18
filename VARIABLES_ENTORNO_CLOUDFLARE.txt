@@ -1,0 +1,58 @@
+# 🔐 VARIABLES DE ENTORNO PARA CLOUDFLARE PAGES
+# Copia y pega estas variables en Cloudflare Dashboard
+
+## ⚠️ IMPORTANTE: 
+## - Para cada variable, marca "Production" y "Preview"
+## - Reemplaza los valores <TU_...> con tus credenciales reales
+
+# ============================================
+# VARIABLES OBLIGATORIAS (SIN ESTAS NO FUNCIONARÁ)
+# ============================================
+
+NEXTAUTH_SECRET=QWS4m1S6L2jQdxM2K8wDX8MDEfTdm7I12VPuCvkyZOk=
+NEXTAUTH_URL=https://focusonenglish.pages.dev
+
+NEXT_PUBLIC_SUPABASE_URL=<TU_URL_DE_SUPABASE>
+NEXT_PUBLIC_SUPABASE_ANON_KEY=<TU_ANON_KEY>
+SUPABASE_SERVICE_ROLE_KEY=<TU_SERVICE_ROLE_KEY>
+
+# ============================================
+# VARIABLES OPCIONALES (Añadir si las usas)
+# ============================================
+
+# OpenAI - Para ejercicios con IA
+# OPENAI_API_KEY=<TU_OPENAI_KEY>
+
+# Stripe - Para sistema de pagos
+# STRIPE_SECRET_KEY=<TU_STRIPE_SECRET>
+# STRIPE_PUBLISHABLE_KEY=<TU_STRIPE_PUBLIC>
+# NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=<TU_STRIPE_PUBLIC>
+
+# HubSpot - Para CRM
+# HUBSPOT_ACCESS_TOKEN=<TU_HUBSPOT_TOKEN>
+# HUBSPOT_PORTAL_ID=<TU_PORTAL_ID>
+
+# Resend - Para envío de emails
+# RESEND_API_KEY=<TU_RESEND_KEY>
+
+# ============================================
+# NOTAS IMPORTANTES
+# ============================================
+
+# 1. NEXTAUTH_SECRET ya está generado y listo para usar
+# 2. NEXTAUTH_URL debe ser exactamente: https://focusonenglish.pages.dev
+# 3. Las variables de Supabase las encuentras en: https://supabase.com/dashboard/project/TU_PROJECT/settings/api
+# 4. Las variables opcionales solo añádelas si vas a usar esa funcionalidad
+
+# ============================================
+# CÓMO OBTENER TUS CREDENCIALES DE SUPABASE
+# ============================================
+
+# 1. Ve a: https://supabase.com/dashboard
+# 2. Selecciona tu proyecto
+# 3. Settings → API
+# 4. Copia:
+#    - Project URL → NEXT_PUBLIC_SUPABASE_URL
+#    - anon/public key → NEXT_PUBLIC_SUPABASE_ANON_KEY
+#    - service_role key → SUPABASE_SERVICE_ROLE_KEY (⚠️ Mantén esta secreta)
+
