@@ -26,12 +26,12 @@ export interface AIGeneratorConfig {
   maxTokens: number;
 }
 
-// Configuración por defecto
+// Configuración por defecto - Optimizada para velocidad
 const DEFAULT_AI_CONFIG: AIGeneratorConfig = {
   provider: 'openai',
-  model: 'gpt-4-turbo-preview',
+  model: 'gpt-3.5-turbo', // Más rápido y económico que GPT-4
   temperature: 0.7,
-  maxTokens: 2000
+  maxTokens: 1500 // Reducido para respuestas más rápidas
 };
 
 // ============================================
@@ -326,7 +326,7 @@ export class ExerciseCache {
   private cache: Map<string, GeneratedExercise>;
   private maxSize: number;
 
-  constructor(maxSize: number = 100) {
+  constructor(maxSize: number = 500) { // Aumentado de 100 a 500
     this.cache = new Map();
     this.maxSize = maxSize;
   }
