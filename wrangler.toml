@@ -1,40 +1,21 @@
-# Configuración de Cloudflare Worker para Focus English
-# Geo-restricción: Solo España 🇪🇸
+name = "focus-english"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = ".vercel/output/static"
 
-name = "focus-english-geo"
-main = "workers/geo-restriction.js"
-compatibility_date = "2026-01-15"
+[site]
+bucket = ".vercel/output/static"
 
-# Account ID (obtener de Cloudflare Dashboard)
-# account_id = "TU_ACCOUNT_ID_AQUI"
-
-# Workers configuration
-workers_dev = true
-route = ""
-zone_id = ""
-
-# Routes para producción (descomentar después de configurar)
-# [[routes]]
-# pattern = "focusenglish.com/*"
-# zone_name = "focusenglish.com"
-
-# [[routes]]
-# pattern = "www.focusenglish.com/*"
-# zone_name = "focusenglish.com"
-
-# Variables de entorno (opcional)
-[env.production]
-name = "focus-english-geo-production"
-
-[env.staging]
-name = "focus-english-geo-staging"
-
-# Límites y configuración
-[limits]
-cpu_ms = 50
-
-# Build configuration
 [build]
-command = ""
+command = "npm run build"
 cwd = ""
-watch_dirs = ["workers"]
+
+[build.environment]
+NODE_VERSION = "20"
+
+# Variables de entorno (configurar en el dashboard de Cloudflare)
+# NEXTAUTH_SECRET = "tu_secreto_aqui"
+# NEXTAUTH_URL = "https://focus-english.pages.dev"
+# OPENAI_API_KEY = "sk-..."
+# GEMINI_API_KEY = "AIza..."
+# SUPABASE_URL = "https://..."
+# SUPABASE_ANON_KEY = "eyJ..."
