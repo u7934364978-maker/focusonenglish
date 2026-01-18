@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 
+// Ejercicios Inteligentes - DigitalOcean Deploy
 export const metadata: Metadata = {
   title: 'Ejercicios Inteligentes de Inglés - Todos los Niveles CEFR | Focus English',
   description: 'Practica inglés con ejercicios generados por IA adaptados a tu nivel (A1, A2, B1, B2, C1, C2). Gramática, vocabulario, lectura y más con feedback instantáneo.',
