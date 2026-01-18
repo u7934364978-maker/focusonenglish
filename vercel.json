@@ -1,6 +1,17 @@
 {
-  "regions": ["fra1"],
-  "buildCommand": "npm run build",
-  "framework": "nextjs",
-  "cleanUrls": true
+  "builds": [],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 410,
+      "dest": "/"
+    }
+  ],
+  "version": 2,
+  "public": false,
+  "github": {
+    "enabled": false,
+    "autoAlias": false,
+    "silent": true
+  }
 }
