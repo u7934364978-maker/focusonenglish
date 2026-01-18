@@ -36,6 +36,11 @@ export default function LevelPage({ level, levelTitle, colorFrom, colorTo }: Lev
     router.push(`/aula/${level.toLowerCase()}/practice?random=true`);
   };
 
+  const handleMixedPractice = (count: number = 5) => {
+    // Generate mixed practice session with varied exercises
+    router.push(`/aula/${level.toLowerCase()}/mixed-practice?count=${count}&variety=true`);
+  };
+
   if (!curriculum) {
     return (
       <main className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-orange-50 flex items-center justify-center">
@@ -77,21 +82,63 @@ export default function LevelPage({ level, levelTitle, colorFrom, colorTo }: Lev
         </div>
       </div>
 
-      {/* Quick Start Button */}
+      {/* Quick Start Buttons */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        <button
-          onClick={handleRandomPractice}
-          className={`w-full bg-gradient-to-r ${colorFrom} ${colorTo} text-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 p-6`}
-        >
-          <div className="flex items-center justify-center gap-3">
-            <Sparkles className="w-6 h-6" />
-            <span className="text-2xl font-black">Start Random Practice</span>
-            <Play className="w-6 h-6" />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {/* Mixed Practice - NUEVO Y DESTACADO */}
+          <button
+            onClick={() => handleMixedPractice(5)}
+            className={`bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 p-6 relative overflow-hidden group`}
+          >
+            <div className="absolute top-0 right-0 bg-yellow-400 text-yellow-900 px-3 py-1 text-xs font-black rounded-bl-lg">
+              ✨ NUEVO
+            </div>
+            <div className="flex items-center justify-center gap-3 mb-2">
+              <Sparkles className="w-6 h-6" />
+              <span className="text-2xl font-black">Práctica Mixta</span>
+            </div>
+            <p className="text-white/90 mb-3">
+              Genera automáticamente 5 ejercicios mezclando tipos y disciplinas
+            </p>
+            <div className="flex items-center justify-center gap-2 text-sm text-white/80">
+              <span>📝 Gramática</span>
+              <span>•</span>
+              <span>📚 Vocabulario</span>
+              <span>•</span>
+              <span>📖 Lectura</span>
+            </div>
+          </button>
+
+          {/* Random Practice - Original */}
+          <button
+            onClick={handleRandomPractice}
+            className={`bg-gradient-to-r ${colorFrom} ${colorTo} text-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 p-6`}
+          >
+            <div className="flex items-center justify-center gap-3 mb-2">
+              <Play className="w-6 h-6" />
+              <span className="text-2xl font-black">Ejercicio Aleatorio</span>
+            </div>
+            <p className="text-white/90">
+              Genera un ejercicio completamente aleatorio del currículo {level}
+            </p>
+          </button>
+        </div>
+
+        {/* Custom Session Options */}
+        <div className="mt-4 p-4 bg-white rounded-xl shadow-md border border-gray-200">
+          <p className="text-sm font-bold text-gray-700 mb-3">O elige cuántos ejercicios quieres practicar:</p>
+          <div className="flex flex-wrap gap-2">
+            {[3, 5, 10, 15, 20].map(count => (
+              <button
+                key={count}
+                onClick={() => handleMixedPractice(count)}
+                className="px-4 py-2 bg-orange-100 hover:bg-orange-200 text-orange-700 font-bold rounded-lg transition-colors text-sm"
+              >
+                {count} ejercicios
+              </button>
+            ))}
           </div>
-          <p className="text-white/90 mt-2">
-            Generate a completely random exercise from the {level} curriculum
-          </p>
-        </button>
+        </div>
       </div>
 
       {/* Categories Grid */}
