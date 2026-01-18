@@ -71,23 +71,28 @@ export async function POST(request: NextRequest) {
       sessionId: sessionId.substring(0, 15) + '...'
     });
 
-    // DESHABILITAR CACHÉ para práctica continua A1/B2
-    // El caché causa que se devuelva el mismo ejercicio
-    // Comentado para forzar generación nueva cada vez
-    /*
-    // Intentar obtener del caché primero
+    // HABILITAR CACHÉ - Cache inteligente con aleatoriedad
+    // Mantiene pool grande de ejercicios y devuelve aleatorios
     const cache = getExerciseCache();
-    const cachedExercises = cache.get(generateRequest, generateRequest.count);
+    const cachedExercises = cache.get(generateRequest, generateRequest.count * 3); // Obtener más para variedad
 
-    if (cachedExercises.length === generateRequest.count) {
-      console.log('✅ Returning cached exercises');
+    // Si hay ejercicios en caché, devolver algunos al azar
+    if (cachedExercises.length >= generateRequest.count) {
+      console.log(`✅ Cache hit! Returning ${generateRequest.count} random exercises from pool of ${cachedExercises.length}`);
+      
+      // Seleccionar ejercicios al azar del pool
+      const shuffled = cachedExercises.sort(() => 0.5 - Math.random());
+      const selected = shuffled.slice(0, generateRequest.count);
+      
       return NextResponse.json({
         success: true,
-        exercises: cachedExercises,
-        cached: true
+        exercises: selected,
+        cached: true,
+        sessionId
       });
     }
-    */
+
+    console.log(`💾 Cache miss. Cached: ${cachedExercises.length}, Needed: ${generateRequest.count}`);
 
     // Verificar si debemos usar fallback (sin API key)
     if (shouldUseFallback()) {
@@ -171,9 +176,13 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    // NO guardar en caché para práctica continua
-    // Cada ejercicio debe ser único
-    // cache.set(generateRequest, validExercises);
+    // GUARDAR en caché para respuestas más rápidas
+    // Pool grande permite variedad mientras mantiene velocidad
+    console.log(`💾 Saving ${validExercises.length} exercises to cache`);
+    const existingCache = cache.get(generateRequest, 100); // Obtener hasta 100 del pool
+    const updatedPool = [...existingCache, ...validExercises];
+    cache.set(generateRequest, updatedPool);
+    console.log(`✅ Cache updated. Pool size: ${updatedPool.length}`);
 
     return NextResponse.json({
       success: true,
@@ -181,6 +190,7 @@ export async function POST(request: NextRequest) {
       cached: false,
       generated: validExercises.length,
       fallback: false,
+      cachePoolSize: updatedPool.length,
       sessionId // Retornar el sessionId para que el cliente lo guarde
     });
 
