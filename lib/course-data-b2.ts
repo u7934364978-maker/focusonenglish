@@ -6,6 +6,10 @@ export type ExerciseType =
   | 'writing'
   | 'listening'
   | 'speaking'
+  | 'speaking-part1' // NUEVO: FCE Speaking Part 1 - Interview
+  | 'speaking-part2' // NUEVO: FCE Speaking Part 2 - Long Turn (Photo Comparison)
+  | 'speaking-part3' // NUEVO: FCE Speaking Part 3 - Collaborative Task
+  | 'speaking-part4' // NUEVO: FCE Speaking Part 4 - Discussion
   | 'grammar'
   | 'vocabulary'
   | 'pronunciation'
@@ -31,6 +35,118 @@ export interface VoiceRecordingExercise {
   };
   modelAudioUrl?: string; // Audio de ejemplo
   hints?: string[];
+}
+
+// ============================================
+// SPEAKING EXERCISES - CAMBRIDGE FCE FORMAT (4 PARTS)
+// ============================================
+
+// PART 1: Interview (Personal Questions)
+export interface SpeakingPart1Exercise {
+  id: string;
+  type: 'speaking-part1';
+  title: string;
+  instructions: string;
+  questions: {
+    id: string;
+    question: string;
+    topic: 'personal-info' | 'daily-life' | 'interests' | 'future-plans' | 'past-experiences';
+    suggestedAnswerLength: number; // segundos
+    sampleAnswer?: string;
+  }[];
+  timeLimit: number; // 2-3 minutos total
+  evaluationCriteria: {
+    pronunciation: boolean;
+    fluency: boolean;
+    grammar: boolean;
+    vocabulary: boolean;
+    interactiveResponse: boolean;
+  };
+}
+
+// PART 2: Long Turn (Photo Comparison)
+export interface SpeakingPart2Exercise {
+  id: string;
+  type: 'speaking-part2';
+  title: string;
+  instructions: string;
+  photos: {
+    id: string;
+    imageUrl: string;
+    description: string;
+  }[];
+  prompt: string; // "Compare these photos and say..."
+  followUpQuestion?: string; // Pregunta al otro candidato
+  timeLimit: number; // 1 minuto para hablar
+  preparationTime: number; // 0 segundos (sin preparación)
+  evaluationCriteria: {
+    pronunciation: boolean;
+    fluency: boolean;
+    grammar: boolean;
+    vocabulary: boolean;
+    compareAndContrast: boolean;
+    speculation: boolean;
+  };
+  tips: string[];
+}
+
+// PART 3: Collaborative Task (Discussion)
+export interface SpeakingPart3Exercise {
+  id: string;
+  type: 'speaking-part3';
+  title: string;
+  instructions: string;
+  centralQuestion: string; // "Why might people choose these activities?"
+  optionsWithImages: {
+    id: string;
+    option: string;
+    imageUrl?: string;
+    description: string;
+  }[];
+  taskPhase1: {
+    instruction: string; // "Discuss all options"
+    timeLimit: number; // 2 minutos
+  };
+  taskPhase2: {
+    instruction: string; // "Now decide which TWO would be best"
+    timeLimit: number; // 1 minuto
+  };
+  evaluationCriteria: {
+    pronunciation: boolean;
+    fluency: boolean;
+    grammar: boolean;
+    vocabulary: boolean;
+    turntaking: boolean;
+    negotiation: boolean;
+    reachingDecision: boolean;
+  };
+  usefulPhrases: string[];
+}
+
+// PART 4: Discussion (Extended Speaking)
+export interface SpeakingPart4Exercise {
+  id: string;
+  type: 'speaking-part4';
+  title: string;
+  instructions: string;
+  topic: string; // Related to Part 3
+  questions: {
+    id: string;
+    question: string;
+    type: 'opinion' | 'speculation' | 'evaluation' | 'comparison';
+    followUpQuestions?: string[];
+  }[];
+  timeLimit: number; // 4 minutos total
+  evaluationCriteria: {
+    pronunciation: boolean;
+    fluency: boolean;
+    grammar: boolean;
+    vocabulary: boolean;
+    developingArguments: boolean;
+    expressingOpinions: boolean;
+    justifyingViews: boolean;
+  };
+  usefulLanguage: string[];
 }
 
 export interface ListeningExercise {
@@ -222,6 +338,10 @@ export interface SentenceBuildingExercise {
 
 export type Exercise = 
   | VoiceRecordingExercise
+  | SpeakingPart1Exercise // NUEVO: FCE Speaking Part 1
+  | SpeakingPart2Exercise // NUEVO: FCE Speaking Part 2
+  | SpeakingPart3Exercise // NUEVO: FCE Speaking Part 3
+  | SpeakingPart4Exercise // NUEVO: FCE Speaking Part 4
   | ListeningExercise
   | ReadingExercise
   | WritingExercise
@@ -231,7 +351,7 @@ export type Exercise =
   | WordFormationExercise
   | MultipleChoiceClozeExercise
   | PronunciationPracticeExercise
-  | SentenceBuildingExercise; // NUEVO
+  | SentenceBuildingExercise;
 
 export interface Lesson {
   id: string;
