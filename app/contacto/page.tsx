@@ -312,7 +312,7 @@ export default function ContactPage() {
                   <span className="text-coral-600 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <p className="text-slate-600 mt-4">
-                  Sí, tenemos programas corporativos personalizados. Contáctanos con el asunto "Formación para empresas" y te enviaremos información detallada.
+                  Sí, tenemos programas corporativos personalizados. Contáctanos con el asunto &quot;Formación para empresas&quot; y te enviaremos información detallada.
                 </p>
               </details>
 
