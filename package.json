@@ -14,6 +14,7 @@
     "start:next": "next start -p ${PORT:-3000}",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
+    "verify-openai": "ts-node scripts/verify-openai-setup.ts",
     "generate-audio": "ts-node --esm scripts/generate-course-audio.ts",
     "generate-audio:test": "ts-node --esm scripts/generate-course-audio.ts test",
     "generate-audio:all": "ts-node --esm scripts/generate-course-audio.ts all"
