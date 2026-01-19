@@ -360,7 +360,7 @@ export default function SignupPage() {
                       </svg>
                       <div className="flex-1">
                         <p className="text-sm font-bold text-coral-900 mb-1">Suscripción Segura</p>
-                        <p className="text-xs text-coral-700">Al hacer clic en "Suscribirme", serás redirigido a Stripe, nuestra pasarela de pago segura. La suscripción se renovará automáticamente cada mes. Puedes cancelar en cualquier momento.</p>
+                        <p className="text-xs text-coral-700">Al hacer clic en &quot;Suscribirme&quot;, serás redirigido a Stripe, nuestra pasarela de pago segura. La suscripción se renovará automáticamente cada mes. Puedes cancelar en cualquier momento.</p>
                       </div>
                     </div>
                   </div>

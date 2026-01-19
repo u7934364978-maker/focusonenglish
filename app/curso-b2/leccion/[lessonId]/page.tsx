@@ -16,7 +16,7 @@ export default function LessonPage({ params }: { params: { lessonId: string } })
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-orange-50 p-4">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-slate-900 mb-4">Lesson Not Found</h1>
-          <p className="text-slate-600 mb-6">The lesson you're looking for doesn't exist.</p>
+          <p className="text-slate-600 mb-6">The lesson you&apos;re looking for doesn&apos;t exist.</p>
           <button
             onClick={() => router.push('/curso-b2')}
             className="px-6 py-3 bg-coral-600 text-white rounded-xl hover:bg-coral-700 transition-colors font-bold"
