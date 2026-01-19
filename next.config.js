@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Configuración para Railway deployment
-  // output: 'standalone', // Comentado para DigitalOcean App Platform
+  // Cloudflare Pages configuration
+  // The adapter will handle the build output
   
   // ==========================================
   // REDIRECTS 301 - Reestructuración Fase 1

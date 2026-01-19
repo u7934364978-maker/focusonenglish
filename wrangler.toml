@@ -1,29 +1,44 @@
 # Cloudflare Pages Configuration for Focus English
-# Note: This file is minimal for Pages. Build settings should be configured in the Cloudflare Dashboard.
+# This config works with @cloudflare/next-on-pages adapter
 
-name = "focus-english"
+name = "focusonenglish"
 compatibility_date = "2024-01-01"
+pages_build_output_dir = ".vercel/output/static"
 
-# Pages configuration
-pages_build_output_dir = ".next"
+# Compatibility flags for Node.js features
+compatibility_flags = ["nodejs_compat"]
 
-# Note: [site] and [build] sections are NOT supported in Cloudflare Pages
-# Configure build settings in the Cloudflare Pages dashboard instead:
+# Note: Build settings should be configured in Cloudflare Pages Dashboard:
 #
-# Framework preset: Next.js
-# Build command: npm run build
-# Build output directory: .next
+# Framework preset: Next.js (Static HTML Export)
+# Build command: npm run pages:build
+# Build output directory: .vercel/output/static
+# Root directory: /
 # Node version: 20.9.0
 #
-# Required Environment Variables (set in Cloudflare Dashboard):
-# - NODE_VERSION=20.9.0
-# - NEXT_PUBLIC_SITE_URL=https://your-domain.pages.dev
-# - NEXT_PUBLIC_SUPABASE_URL=https://xxxxx.supabase.co
-# - NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGc...
-# - SUPABASE_SERVICE_ROLE_KEY=eyJhbGc...
-# - NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_live_...
-# - STRIPE_SECRET_KEY=sk_live_...
-# - STRIPE_WEBHOOK_SECRET=whsec_...
-# - NEXTAUTH_SECRET=your_secret_here
-# - NEXTAUTH_URL=https://your-domain.pages.dev
-# - HUBSPOT_ACCESS_TOKEN=pat-... (optional)
+# Environment Variables (CRITICAL - Set in Cloudflare Dashboard > Settings > Environment variables):
+#
+# Production Environment:
+NODE_VERSION = "20.9.0"
+# NEXT_PUBLIC_SITE_URL = "https://focusonenglish.pages.dev"
+# 
+# Supabase (REQUIRED):
+# NEXT_PUBLIC_SUPABASE_URL = "https://xxxxx.supabase.co"
+# NEXT_PUBLIC_SUPABASE_ANON_KEY = "eyJhbGc..."
+# SUPABASE_SERVICE_ROLE_KEY = "eyJhbGc..."
+#
+# Stripe (REQUIRED):
+# NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY = "pk_live_..."
+# STRIPE_SECRET_KEY = "sk_live_..."
+# STRIPE_WEBHOOK_SECRET = "whsec_..."
+#
+# NextAuth (REQUIRED):
+# NEXTAUTH_SECRET = "generate_with_openssl_rand_base64_32"
+# NEXTAUTH_URL = "https://focusonenglish.pages.dev"
+#
+# OpenAI (REQUIRED for AI features):
+# OPENAI_API_KEY = "sk-..."
+#
+# HubSpot (OPTIONAL):
+# HUBSPOT_ACCESS_TOKEN = "pat-..."
+# HUBSPOT_PORTAL_ID = "147592708"
