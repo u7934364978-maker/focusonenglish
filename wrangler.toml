@@ -8,37 +8,26 @@ pages_build_output_dir = ".vercel/output/static"
 # Compatibility flags for Node.js features
 compatibility_flags = ["nodejs_compat"]
 
-# Note: Build settings should be configured in Cloudflare Pages Dashboard:
+# IMPORTANT: Build settings MUST be configured in Cloudflare Dashboard
+# Do NOT add [build] section here - it's not supported in Pages
 #
-# Framework preset: Next.js (Static HTML Export)
-# Build command: npm run pages:build
-# Build output directory: .vercel/output/static
-# Root directory: /
-# Node version: 20.9.0
+# In Cloudflare Dashboard > Pages > Build settings:
+#   Framework preset: Next.js (Static HTML Export)
+#   Build command: npm run pages:build
+#   Build output directory: .vercel/output/static
+#   Root directory: /
 #
-# Environment Variables (CRITICAL - Set in Cloudflare Dashboard > Settings > Environment variables):
-#
-# Production Environment:
-NODE_VERSION = "20.9.0"
-# NEXT_PUBLIC_SITE_URL = "https://focusonenglish.pages.dev"
-# 
-# Supabase (REQUIRED):
-# NEXT_PUBLIC_SUPABASE_URL = "https://xxxxx.supabase.co"
-# NEXT_PUBLIC_SUPABASE_ANON_KEY = "eyJhbGc..."
-# SUPABASE_SERVICE_ROLE_KEY = "eyJhbGc..."
-#
-# Stripe (REQUIRED):
-# NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY = "pk_live_..."
-# STRIPE_SECRET_KEY = "sk_live_..."
-# STRIPE_WEBHOOK_SECRET = "whsec_..."
-#
-# NextAuth (REQUIRED):
-# NEXTAUTH_SECRET = "generate_with_openssl_rand_base64_32"
-# NEXTAUTH_URL = "https://focusonenglish.pages.dev"
-#
-# OpenAI (REQUIRED for AI features):
-# OPENAI_API_KEY = "sk-..."
-#
-# HubSpot (OPTIONAL):
-# HUBSPOT_ACCESS_TOKEN = "pat-..."
-# HUBSPOT_PORTAL_ID = "147592708"
+# Environment Variables (Set in Dashboard > Settings > Environment variables):
+#   NODE_VERSION=20.9.0
+#   NEXT_PUBLIC_SITE_URL=https://focusonenglish.pages.dev
+#   NEXT_PUBLIC_SUPABASE_URL=https://xxxxx.supabase.co
+#   NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGc...
+#   SUPABASE_SERVICE_ROLE_KEY=eyJhbGc...
+#   NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_live_...
+#   STRIPE_SECRET_KEY=sk_live_...
+#   STRIPE_WEBHOOK_SECRET=whsec_...
+#   NEXTAUTH_SECRET=<generate_with_openssl>
+#   NEXTAUTH_URL=https://focusonenglish.pages.dev
+#   OPENAI_API_KEY=sk-...
+#   HUBSPOT_ACCESS_TOKEN=pat-... (optional)
+#   HUBSPOT_PORTAL_ID=147592708 (optional)
