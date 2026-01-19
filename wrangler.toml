@@ -1,21 +1,29 @@
+# Cloudflare Pages Configuration for Focus English
+# Note: This file is minimal for Pages. Build settings should be configured in the Cloudflare Dashboard.
+
 name = "focus-english"
 compatibility_date = "2024-01-01"
-pages_build_output_dir = ".vercel/output/static"
 
-[site]
-bucket = ".vercel/output/static"
+# Pages configuration
+pages_build_output_dir = ".next"
 
-[build]
-command = "npm run build"
-cwd = ""
-
-[build.environment]
-NODE_VERSION = "20"
-
-# Variables de entorno (configurar en el dashboard de Cloudflare)
-# NEXTAUTH_SECRET = "tu_secreto_aqui"
-# NEXTAUTH_URL = "https://focus-english.pages.dev"
-# OPENAI_API_KEY = "sk-..."
-# GEMINI_API_KEY = "AIza..."
-# SUPABASE_URL = "https://..."
-# SUPABASE_ANON_KEY = "eyJ..."
+# Note: [site] and [build] sections are NOT supported in Cloudflare Pages
+# Configure build settings in the Cloudflare Pages dashboard instead:
+#
+# Framework preset: Next.js
+# Build command: npm run build
+# Build output directory: .next
+# Node version: 20.9.0
+#
+# Required Environment Variables (set in Cloudflare Dashboard):
+# - NODE_VERSION=20.9.0
+# - NEXT_PUBLIC_SITE_URL=https://your-domain.pages.dev
+# - NEXT_PUBLIC_SUPABASE_URL=https://xxxxx.supabase.co
+# - NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGc...
+# - SUPABASE_SERVICE_ROLE_KEY=eyJhbGc...
+# - NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_live_...
+# - STRIPE_SECRET_KEY=sk_live_...
+# - STRIPE_WEBHOOK_SECRET=whsec_...
+# - NEXTAUTH_SECRET=your_secret_here
+# - NEXTAUTH_URL=https://your-domain.pages.dev
+# - HUBSPOT_ACCESS_TOKEN=pat-... (optional)
