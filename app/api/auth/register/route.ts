@@ -5,8 +5,7 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
-import bcrypt from 'bcryptjs';
-
+import { hashPassword } from '@/lib/edge-crypto';
 
 export const runtime = 'edge';
 // Cliente de Supabase (solo si las variables de entorno están disponibles)
@@ -69,8 +68,8 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Hash de la contraseña
-    const passwordHash = await bcrypt.hash(password, 10);
+    // Hash de la contraseña usando Web Crypto API (Edge compatible)
+    const { hash: passwordHash, salt: passwordSalt } = await hashPassword(password);
 
     // Crear usuario en Supabase
     const { data: newUser, error: insertError } = await supabase
@@ -79,6 +78,7 @@ export async function POST(request: NextRequest) {
         name,
         email: email.toLowerCase(),
         password_hash: passwordHash,
+        password_salt: passwordSalt,
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
       })
