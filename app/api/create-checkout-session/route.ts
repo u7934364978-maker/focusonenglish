@@ -3,6 +3,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { SUBSCRIPTION_PLANS, getPlanById } from '@/lib/subscription-plans';
 import { getStripePriceId } from '@/lib/stripe-config';
 
+
+export const runtime = 'edge';
 // Inicializar Stripe solo si la clave está disponible (evita errores en build time)
 const stripe = process.env.STRIPE_SECRET_KEY 
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
