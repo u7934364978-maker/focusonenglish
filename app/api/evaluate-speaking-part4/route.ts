@@ -1,9 +1,12 @@
 import { NextResponse } from 'next/server';
 import OpenAI from 'openai';
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+// Lazy initialization to avoid build-time errors when OPENAI_API_KEY is not set
+function getOpenAI() {
+  return new OpenAI({
+    apiKey: process.env.OPENAI_API_KEY || 'sk-dummy-key-for-build-only',
+  });
+}
 
 export interface SpeakingPart4Question {
   id: string;
@@ -105,6 +108,9 @@ Responde en formato JSON con esta estructura exacta:
   "cefrLevel": "string",
   "usedOpinionPhrases": ["string"]
 }`;
+
+    const openai = getOpenAI();
+
 
     const completion = await openai.chat.completions.create({
       model: 'gpt-4o',
