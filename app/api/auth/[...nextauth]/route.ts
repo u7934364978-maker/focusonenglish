@@ -6,7 +6,7 @@
 import NextAuth from 'next-auth';
 import { authOptions } from '@/lib/auth';
 
-export const runtime = 'nodejs';
+export const runtime = 'edge';
 
 const handler = NextAuth(authOptions);
 

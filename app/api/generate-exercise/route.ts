@@ -19,7 +19,7 @@ import {
 } from '@/lib/exercise-types';
 
 // Usando Node.js runtime para acceder a process.env en runtime
-// export const runtime = 'edge'; // Edge Runtime tiene limitaciones con env vars
+export const runtime = 'edge';
 
 // ============================================
 // POST - Generar ejercicio
