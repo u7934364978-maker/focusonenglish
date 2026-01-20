@@ -72,14 +72,15 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Hash de la nueva contraseña
-    const passwordHash = await bcrypt.hash(password, 10);
+    // Hash de la nueva contraseña usando Web Crypto API (Edge compatible)
+    const { hash: passwordHash, salt: passwordSalt } = await hashPassword(password);
 
     // Actualizar contraseña del usuario
     const { error: updateError } = await supabase
       .from('users')
       .update({
         password_hash: passwordHash,
+        password_salt: passwordSalt,
         updated_at: new Date().toISOString(),
       })
       .eq('id', tokenData.user_id);
