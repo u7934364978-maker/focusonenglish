@@ -4,6 +4,8 @@ import { useRouter } from 'next/navigation';
 import LessonViewer from '@/components/course/LessonViewer';
 import { ALL_MODULES } from '@/lib/course-data-b2';
 
+
+export const runtime = 'edge';
 export default function LessonPage({ params }: { params: { lessonId: string } }) {
   const router = useRouter();
   const { lessonId } = params;

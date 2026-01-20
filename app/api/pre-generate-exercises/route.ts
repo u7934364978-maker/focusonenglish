@@ -6,6 +6,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getExercisePreGenerator } from '@/lib/ai/exercise-pre-generator';
 
+
+export const runtime = 'edge';
 // ============================================
 // POST - Iniciar pre-generación
 // ============================================
