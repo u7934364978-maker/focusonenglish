@@ -1,9 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
 import OpenAI from 'openai';
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+// Lazy initialization to avoid build-time errors when OPENAI_API_KEY is not set
+function getOpenAI() {
+  return new OpenAI({
+    apiKey: process.env.OPENAI_API_KEY || 'sk-dummy-key-for-build-only',
+  });
+}
 
 export const runtime = 'edge';
 export const maxDuration = 30;
@@ -61,6 +64,8 @@ export async function POST(request: NextRequest) {
     );
 
     // Call OpenAI API
+    const openai = getOpenAI();
+
     const completion = await openai.chat.completions.create({
       model: 'gpt-4o-mini',
       messages: [

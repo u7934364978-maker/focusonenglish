@@ -1,9 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
 import OpenAI from 'openai';
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+// Lazy initialization to avoid build-time errors when OPENAI_API_KEY is not set
+function getOpenAI() {
+  return new OpenAI({
+    apiKey: process.env.OPENAI_API_KEY || 'sk-dummy-key-for-build-only',
+  });
+}
 
 export interface SpeakingEvaluationRequest {
   audioBase64: string;
@@ -63,6 +66,9 @@ export async function POST(request: NextRequest) {
     
     // Create a File-like object for OpenAI
     const audioFile = new File([audioBuffer], 'recording.webm', { type: 'audio/webm' });
+    
+    const openai = getOpenAI();
+
     
     const transcription = await openai.audio.transcriptions.create({
       file: audioFile,
