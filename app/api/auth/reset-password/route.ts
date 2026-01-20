@@ -9,7 +9,7 @@ import bcrypt from 'bcryptjs';
 import { sendPasswordChangedEmail } from '@/lib/email-service';
 
 
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 // Cliente de Supabase (solo si las variables de entorno están disponibles)
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
 const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
