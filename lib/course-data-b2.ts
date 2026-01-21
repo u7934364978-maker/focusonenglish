@@ -6014,6 +6014,830 @@ export const MODULE_2_LESSONS: Lesson[] = [
           }
         ],
         focusAreas: ['Modals of deduction', 'Modal verbs', 'Context clues']
+      },
+      {
+        id: 'b2-m2-l1-grammar-2',
+        type: 'grammar',
+        title: 'Modales de Deducción sobre el Pasado',
+        grammarPoint: 'must/might/could/can\'t + have + past participle',
+        explanation: 'Para deducciones sobre el pasado:\n- must have + p.p.: casi seguro que ocurrió\n- might/could/may have + p.p.: posiblemente ocurrió\n- can\'t have + p.p.: imposible que haya ocurrido\nEjemplo: "She must have forgotten" (Debe haberse olvidado)',
+        examples: [
+          'He must have left early. (Strong deduction - evidencia clara)',
+          'They might have missed the train. (Possibility)',
+          'She could have been delayed. (Possibility)',
+          'It can\'t have been easy. (Impossibility)',
+          'You must have been exhausted. (Logical deduction)'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose the correct form: They\'re not here. They ___ already.',
+            options: ['must leave', 'must have left', 'must be leaving', 'must have been left'],
+            correctAnswer: 'must have left',
+            explanation: 'Deducción fuerte sobre el pasado: must have + past participle.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: I can\'t find my keys. I ___ ___ them at work.',
+            correctAnswer: 'must have left/might have left',
+            explanation: 'Deducción sobre dónde dejé las llaves.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Rewrite using a modal of deduction: "I\'m sure she didn\'t see us."',
+            correctAnswer: 'She can\'t have seen us',
+            explanation: 'Can\'t have + p.p. para imposibilidad en el pasado.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-sentence-completion',
+        type: 'sentence-completion',
+        title: 'Sentence Completion: Making Deductions',
+        instructions: 'Complete each sentence with an appropriate modal of deduction and justification.',
+        sentences: [
+          {
+            id: 'sc1',
+            incompleteSentence: 'Looking at the empty streets and closed shops, the town',
+            sampleCompletions: [
+              'must be experiencing some kind of emergency or lockdown',
+              'can\'t be a major tourist destination',
+              'might have been affected by a recent event'
+            ],
+            evaluationCriteria: 'Should use appropriate modal (must/might/can\'t) + logical deduction',
+            points: 3
+          },
+          {
+            id: 'sc2',
+            incompleteSentence: 'Given her vast experience and qualifications, she',
+            sampleCompletions: [
+              'must have been offered the promotion',
+              'can\'t have been rejected for the position',
+              'might have applied for a higher role'
+            ],
+            evaluationCriteria: 'Modal of deduction about past + reasonable scenario',
+            points: 3
+          },
+          {
+            id: 'sc3',
+            incompleteSentence: 'The car won\'t start and the battery is dead, so someone',
+            sampleCompletions: [
+              'must have left the lights on overnight',
+              'might have forgotten to turn off the radio',
+              'could have used it without telling anyone'
+            ],
+            evaluationCriteria: 'Past modal deduction explaining the cause',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-error-identification',
+        type: 'error-identification',
+        title: 'Error Identification: Modal Deductions',
+        instructions: 'Each sentence contains ONE error with modals of deduction. Find and correct it.',
+        sentences: [
+          {
+            id: 'ei1',
+            sentence: 'She must be very tired yesterday after working 12 hours.',
+            error: 'must be...yesterday',
+            correction: 'must have been...yesterday',
+            explanation: 'For past deductions, use "must have been", not "must be".',
+            category: 'Past modals',
+            points: 2
+          },
+          {
+            id: 'ei2',
+            sentence: 'They can\'t be at home now because I saw them leaving an hour ago.',
+            error: 'No error',
+            correction: 'Sentence is correct',
+            explanation: 'Can\'t be is correct for present impossibility with present evidence.',
+            category: 'Trick question - correct sentence',
+            points: 2
+          },
+          {
+            id: 'ei3',
+            sentence: 'He might has forgotten about the meeting.',
+            error: 'might has',
+            correction: 'might have',
+            explanation: 'Modal + have (not has) + past participle for past possibility.',
+            category: 'Modal structure',
+            points: 2
+          },
+          {
+            id: 'ei4',
+            sentence: 'You must have been enjoyed the concert last night.',
+            error: 'have been enjoyed',
+            correction: 'have enjoyed',
+            explanation: 'Must have + past participle (enjoyed), not past participle of "be" + past participle.',
+            category: 'Modal perfect structure',
+            points: 2
+          },
+          {
+            id: 'ei5',
+            sentence: 'It couldn\'t be true what she said about winning the lottery.',
+            error: 'couldn\'t be',
+            correction: 'can\'t be',
+            explanation: 'For present impossibility, use "can\'t be" not "couldn\'t be".',
+            category: 'Present vs past modals',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-reading-1',
+        type: 'reading',
+        title: 'Reading: The Mystery of the Mary Celeste',
+        text: `One of history's greatest maritime mysteries involves the Mary Celeste, a merchant ship found adrift in the Atlantic Ocean in 1872. The vessel was discovered in perfect condition with its cargo intact, but not a single person was on board. The crew had vanished without a trace.
+
+When the rescue crew boarded the ship, they found the crew's belongings still in their quarters. Half-eaten meals sat on tables, and personal items remained untouched. The ship's lifeboat was missing, which suggested the crew had abandoned ship deliberately. However, there was no obvious reason why they would have done so. The ship wasn't taking on water, there was no fire damage, and the cargo was secure.
+
+Various theories have been proposed over the years. Some experts believe the crew must have panicked about something, possibly fearing an explosion from the alcohol cargo, though there was no evidence of danger. Others think they might have been affected by ergot poisoning from contaminated food, which could have caused hallucinations and irrational behavior.
+
+The captain's log offered few clues. The last entry was routine and gave no indication of problems. Weather records show that conditions had been challenging but not exceptional for the time of year. The crew must have abandoned ship quite suddenly, as they left behind valuable possessions that sailors would normally take.
+
+Some investigators have suggested that the crew might have seen what they thought was land and rowed toward it, only to be lost at sea when they couldn't find their way back. Others believe there could have been a brief but terrifying incident—perhaps a waterspout or minor seismic activity—that made them fear for their lives.
+
+The mystery remains unsolved to this day. The crew can't have simply disappeared into thin air, yet no bodies were ever found. They must have met some fate at sea, but what exactly happened may never be known. What we do know is that the Mary Celeste continues to fascinate historians and maritime enthusiasts more than 150 years after the incident.`,
+        wordCount: 340,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What condition was the Mary Celeste in when found?',
+            options: [
+              'Severely damaged',
+              'Taking on water',
+              'In perfect condition',
+              'On fire'
+            ],
+            correctAnswer: 'In perfect condition',
+            explanation: 'El texto dice: "The vessel was discovered in perfect condition".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'What evidence suggested the crew left deliberately rather than in an accident?',
+            correctAnswer: 'The lifeboat was missing / They took the lifeboat',
+            explanation: 'El texto menciona: "The ship\'s lifeboat was missing, which suggested the crew had abandoned ship deliberately".',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Which modal does the text use to express what probably happened to the crew?',
+            options: [
+              'The crew might have panicked',
+              'The crew should have left',
+              'The crew would have escaped',
+              'The crew could leave'
+            ],
+            correctAnswer: 'The crew might have panicked',
+            explanation: 'El texto usa "must have" y "might have" para especular sobre lo que pasó.',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'true-false',
+            question: 'True or False: The captain\'s log explained why the crew abandoned ship.',
+            correctAnswer: 'False',
+            explanation: 'El texto dice: "The captain\'s log offered few clues" y "gave no indication of problems".',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'Find and write ONE sentence from the text that uses "can\'t have" to express impossibility.',
+            correctAnswer: 'The crew can\'t have simply disappeared into thin air',
+            explanation: 'Esta oración usa can\'t have para expresar que es imposible que simplemente desaparecieran.',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'adrift', definition: 'floating without being controlled; drifting' },
+          { word: 'intact', definition: 'complete and not damaged' },
+          { word: 'vanished', definition: 'disappeared suddenly and completely' },
+          { word: 'waterspout', definition: 'a column of water and spray formed by a whirlwind over the sea' },
+          { word: 'seismic activity', definition: 'movements or shaking of the earth\'s surface' }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-paraphrasing',
+        type: 'paraphrasing',
+        title: 'Paraphrasing: Expressing Deductions',
+        instructions: 'Rewrite each sentence using a different modal of deduction while keeping the same level of certainty.',
+        sentences: [
+          {
+            id: 'p1',
+            original: 'I\'m certain she didn\'t receive my message.',
+            sampleParaphrases: [
+              'She can\'t have received my message.',
+              'She couldn\'t have received my message.',
+              'It\'s impossible that she received my message.'
+            ],
+            keyVocabulary: ['certain = can\'t have', 'didn\'t receive = negative past deduction'],
+            points: 3
+          },
+          {
+            id: 'p2',
+            original: 'Perhaps they got lost on the way here.',
+            sampleParaphrases: [
+              'They might have gotten lost on the way here.',
+              'They could have gotten lost on the way here.',
+              'It\'s possible they got lost on the way here.'
+            ],
+            keyVocabulary: ['perhaps = might/could have', 'possibility in past'],
+            points: 3
+          },
+          {
+            id: 'p3',
+            original: 'I\'m sure this is the correct address.',
+            sampleParaphrases: [
+              'This must be the correct address.',
+              'This has to be the correct address.',
+              'I\'m certain this is the right address.'
+            ],
+            keyVocabulary: ['sure = must be', 'strong present deduction'],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-collocation-matching',
+        type: 'collocation-matching',
+        title: 'Collocation Matching: Deduction & Speculation Verbs',
+        instructions: 'Match the verbs with appropriate nouns to form collocations commonly used when making deductions.',
+        pairs: [
+          { left: 'draw', right: 'a conclusion', distractor: false },
+          { left: 'reach', right: 'a verdict', distractor: false },
+          { left: 'make', right: 'an assumption', distractor: false },
+          { left: 'jump to', right: 'conclusions', distractor: false },
+          { left: 'gather', right: 'evidence', distractor: false },
+          { left: 'form', right: 'an opinion', distractor: false },
+          { left: 'rule out', right: 'possibilities', distractor: false },
+          { left: 'weigh up', right: 'options', distractor: false }
+        ],
+        distractors: [
+          { left: 'do', right: 'a conclusion' },
+          { left: 'take', right: 'an assumption' },
+          { left: 'create', right: 'evidence' }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l1-phrasal-verbs',
+        type: 'phrasal-verbs',
+        title: 'Phrasal Verbs: Investigation & Deduction',
+        instructions: 'Learn phrasal verbs commonly used when investigating, analyzing, and making deductions.',
+        verbs: [
+          {
+            verb: 'figure out',
+            meaning: 'to understand or solve something after thinking about it',
+            examples: [
+              'I can\'t figure out why she left so suddenly.',
+              'Scientists are trying to figure out what caused the phenomenon.'
+            ],
+            usage: 'separable',
+            synonyms: ['work out', 'solve', 'understand']
+          },
+          {
+            verb: 'look into',
+            meaning: 'to investigate or examine something',
+            examples: [
+              'The police are looking into the disappearance.',
+              'We need to look into all possible explanations.'
+            ],
+            usage: 'inseparable',
+            synonyms: ['investigate', 'examine', 'explore']
+          },
+          {
+            verb: 'piece together',
+            meaning: 'to create a complete picture from separate pieces of information',
+            examples: [
+              'Detectives pieced together the events of that night.',
+              'She\'s trying to piece together what happened from witness accounts.'
+            ],
+            usage: 'separable',
+            synonyms: ['reconstruct', 'assemble', 'compile']
+          },
+          {
+            verb: 'narrow down',
+            meaning: 'to reduce the number of possibilities',
+            examples: [
+              'We\'ve narrowed down the suspects to three people.',
+              'Can you narrow down the time when this occurred?'
+            ],
+            usage: 'separable',
+            synonyms: ['reduce', 'limit', 'focus']
+          },
+          {
+            verb: 'rule out',
+            meaning: 'to decide that something is not possible or cannot happen',
+            examples: [
+              'Police have ruled out foul play.',
+              'We can\'t rule out the possibility of human error.'
+            ],
+            usage: 'separable',
+            synonyms: ['eliminate', 'exclude', 'discount']
+          }
+        ],
+        exercises: [
+          {
+            id: 'pv1',
+            type: 'fill-blank',
+            sentence: 'Investigators are trying to _____ what caused the accident.',
+            correctAnswer: 'figure out',
+            points: 2
+          },
+          {
+            id: 'pv2',
+            type: 'multiple-choice',
+            question: 'Choose the correct phrasal verb: The committee needs to _____ the investigation thoroughly.',
+            options: ['look into', 'look at', 'look for', 'look after'],
+            correctAnswer: 'look into',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-idioms',
+        type: 'idioms-expressions',
+        title: 'Idioms & Expressions: Certainty & Speculation',
+        instructions: 'Learn idioms and expressions used to express different levels of certainty and speculation.',
+        idioms: [
+          {
+            idiom: 'put two and two together',
+            meaning: 'to guess or understand something by using the information you have',
+            example: 'When I saw them leaving together and heard they\'d resigned, I put two and two together.',
+            context: 'informal deduction',
+            culturalNote: 'From basic arithmetic (2+2=4), suggesting obvious connections'
+          },
+          {
+            idiom: 'read between the lines',
+            meaning: 'to understand the hidden meaning in what someone says or writes',
+            example: 'If you read between the lines of his email, he\'s clearly not happy with the decision.',
+            context: 'making inferences',
+            culturalNote: 'Suggests looking beyond surface meaning'
+          },
+          {
+            idiom: 'beyond (any) doubt',
+            meaning: 'completely certain; with no possibility of being wrong',
+            example: 'The evidence proves beyond doubt that he was at the scene.',
+            context: 'legal/formal certainty',
+            culturalNote: 'Often used in legal contexts: "beyond reasonable doubt"'
+          },
+          {
+            idiom: 'take something with a pinch/grain of salt',
+            meaning: 'to not completely believe something; to be skeptical',
+            example: 'He tends to exaggerate, so take his stories with a pinch of salt.',
+            context: 'expressing doubt',
+            culturalNote: 'Origins in ancient belief that salt protected against poison'
+          },
+          {
+            idiom: 'anyone\'s guess',
+            meaning: 'impossible to know or predict',
+            example: 'What will happen next is anyone\'s guess—the situation is completely unpredictable.',
+            context: 'complete uncertainty',
+            culturalNote: 'Emphasizes that even guessing is difficult'
+          },
+          {
+            idiom: 'the writing is on the wall',
+            meaning: 'there are clear signs that something bad will happen',
+            example: 'The writing was on the wall for months before the company finally went bankrupt.',
+            context: 'predicting negative outcomes',
+            culturalNote: 'Biblical origin from Book of Daniel'
+          }
+        ],
+        exercises: [
+          {
+            id: 'id1',
+            type: 'matching',
+            instruction: 'Match each idiom to its meaning',
+            pairs: [
+              { idiom: 'put two and two together', meaning: 'make a deduction from clues' },
+              { idiom: 'beyond doubt', meaning: 'completely certain' },
+              { idiom: 'anyone\'s guess', meaning: 'impossible to predict' }
+            ],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-gap-fill',
+        type: 'gap-fill-text',
+        title: 'Gap-Fill: Archaeological Discovery',
+        instructions: 'Complete the text using appropriate modals of deduction. Each gap requires ONE or TWO words.',
+        text: `When archaeologists discovered the ancient tomb in 2019, they immediately knew it (1)___ ___ of great historical significance. The elaborate decorations and expensive materials suggested that the occupant (2)___ ___ ___ a person of high social status, perhaps even royalty.
+
+However, several mysteries remained. The tomb contained no written records, so historians (3)___ ___ certain about the identity of the person buried there. The jewelry found inside (4)___ ___ belonged to a woman, but the skeletal remains were too damaged to confirm this definitively.
+
+What puzzled researchers most was the presence of Mediterranean artifacts. These items (5)___ ___ ___ from at least 500 miles away, indicating extensive trade networks. The occupant (6)___ ___ been a merchant or diplomat with international connections.
+
+The tomb (7)___ ___ ___ sealed around 500 BCE, based on carbon dating of organic materials found inside. Interestingly, there were signs of a hasty burial. The archaeologists believe something unexpected (8)___ ___ happened, forcing the burial party to finish quickly. Perhaps there was a threat of invasion, or maybe a natural disaster (9)___ ___ approaching.
+
+One thing is certain: whoever was buried here (10)___ ___ ___ important enough to merit such an elaborate tomb, even if completed in haste. The mystery (11)___ never be fully solved, but each new discovery helps piece together the story of this ancient civilization.`,
+        gaps: 11,
+        answers: [
+          { gapNumber: 1, correctAnswer: 'must be', acceptableAnswers: ['must be'], explanation: 'Strong deduction about present significance' },
+          { gapNumber: 2, correctAnswer: 'must have been', acceptableAnswers: ['must have been'], explanation: 'Strong deduction about past identity' },
+          { gapNumber: 3, correctAnswer: 'cannot be', acceptableAnswers: ['cannot be', 'can\'t be'], explanation: 'Impossibility of certainty without records' },
+          { gapNumber: 4, correctAnswer: 'might have', acceptableAnswers: ['might have', 'could have', 'may have'], explanation: 'Possibility based on jewelry' },
+          { gapNumber: 5, correctAnswer: 'must have come', acceptableAnswers: ['must have come'], explanation: 'Strong deduction about origin' },
+          { gapNumber: 6, correctAnswer: 'might have', acceptableAnswers: ['might have', 'could have', 'may have'], explanation: 'Speculation about occupation' },
+          { gapNumber: 7, correctAnswer: 'must have been', acceptableAnswers: ['must have been'], explanation: 'Deduction based on carbon dating' },
+          { gapNumber: 8, correctAnswer: 'must have', acceptableAnswers: ['must have'], explanation: 'Logical deduction from evidence of haste' },
+          { gapNumber: 9, correctAnswer: 'might have been', acceptableAnswers: ['might have been', 'could have been', 'may have been'], explanation: 'Speculation about natural disaster' },
+          { gapNumber: 10, correctAnswer: 'must have been', acceptableAnswers: ['must have been'], explanation: 'Strong deduction about importance' },
+          { gapNumber: 11, correctAnswer: 'may', acceptableAnswers: ['may', 'might'], explanation: 'Possibility that mystery remains unsolved' }
+        ],
+        points: 11
+      },
+      {
+        id: 'b2-m2-l1-sentence-reordering',
+        type: 'sentence-reordering',
+        title: 'Sentence Reordering: Building a Logical Argument',
+        instructions: 'Arrange these sentences to create a logical deduction about a situation.',
+        sentences: [
+          { id: 's1', text: 'Therefore, she must have decided to work from home today instead.', position: 7 },
+          { id: 's2', text: 'Sarah\'s car is still in the driveway this morning.', position: 1 },
+          { id: 's3', text: 'Additionally, her laptop bag is missing from its usual spot by the door.', position: 4 },
+          { id: 's4', text: 'She can\'t be on vacation because I saw her at the office yesterday.', position: 5 },
+          { id: 's5', text: 'This suggests she hasn\'t left for the office yet.', position: 2 },
+          { id: 's6', text: 'However, she might have taken a taxi or gotten a ride from someone.', position: 3 },
+          { id: 's7', text: 'This theory is supported by the fact that she mentioned having an important online meeting this afternoon.', position: 8 },
+          { id: 's8', text: 'That rules out the possibility of her being sick or taking an unexpected day off.', position: 6 }
+        ],
+        correctOrder: ['s2', 's5', 's6', 's3', 's4', 's8', 's1', 's7'],
+        explanation: 'Logical deduction structure: Initial observation → First conclusion → Alternative possibility → Supporting evidence → Ruling out alternatives → Final deduction → Supporting detail',
+        points: 8
+      },
+      {
+        id: 'b2-m2-l1-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m2-l1-listening-1.mp3',
+        duration: 120,
+        allowReplay: true,
+        maxReplays: 3,
+        transcript: `Detective: So, Ms. Johnson, you reported your neighbor's apartment door was open when you came home around 8 PM?
+
+Witness: Yes, that's right. It must have been open for some time because her mail was scattered on the floor.
+
+Detective: And you're certain Ms. Chen wasn't home?
+
+Witness: Well, I knocked several times and got no answer. She must have gone out, but it's strange because she never leaves her door open.
+
+Detective: Could someone have broken in?
+
+Witness: I don't think so. There was no sign of forced entry. She might have just forgotten to close it properly when she left.
+
+Detective: What about her habits? Does she usually go out in the evenings?
+
+Witness: Not really. She typically works from home. She could have had an emergency, I suppose.
+
+Detective: Did you notice anything else unusual?
+
+Witness: Her cat was in the hallway, which was odd. She can't have planned to be away long because she wouldn't have left the cat alone. She might have just run down to the corner shop and the door didn't latch properly.
+
+Detective: That's a reasonable explanation. We'll check the shop's security footage.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Why does the witness think the door had been open for some time?',
+            options: [
+              'The neighbor told her',
+              'The mail was scattered on the floor',
+              'The cat had escaped',
+              'She heard noises'
+            ],
+            correctAnswer: 'The mail was scattered on the floor',
+            explanation: 'La testigo dice: "It must have been open for some time because her mail was scattered on the floor".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'What modal does the witness use to express certainty that Ms. Chen wasn\'t home?',
+            correctAnswer: 'must have (gone out)',
+            explanation: '"She must have gone out" expresa certeza basada en evidencia.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: There were signs of a break-in.',
+            correctAnswer: 'False',
+            explanation: 'La testigo dice: "There was no sign of forced entry".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'Why does the witness think Ms. Chen can\'t have planned to be away long?',
+            options: [
+              'Her car was still there',
+              'Her lights were on',
+              'She wouldn\'t have left the cat alone',
+              'She had food cooking'
+            ],
+            correctAnswer: 'She wouldn\'t have left the cat alone',
+            explanation: '"She can\'t have planned to be away long because she wouldn\'t have left the cat alone".',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Degrees of Certainty',
+        vocabularySet: [
+          { word: 'definite', definition: 'certain and unlikely to change', example: 'We have definite proof that he was there.' },
+          { word: 'probable', definition: 'likely to happen or be true', example: 'It\'s highly probable that she\'ll accept the offer.' },
+          { word: 'plausible', definition: 'seeming reasonable or possible', example: 'That\'s a plausible explanation for what happened.' },
+          { word: 'conceivable', definition: 'possible to imagine or believe', example: 'It\'s conceivable that they got lost.' },
+          { word: 'dubious', definition: 'doubtful; not to be relied upon', example: 'I\'m dubious about the accuracy of these figures.' },
+          { word: 'irrefutable', definition: 'impossible to deny or disprove', example: 'The evidence against him is irrefutable.' },
+          { word: 'speculative', definition: 'based on guessing rather than knowledge', example: 'These theories are purely speculative.' },
+          { word: 'inconclusive', definition: 'not leading to a definite conclusion', example: 'The tests results were inconclusive.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which word means "impossible to deny or disprove"?',
+            options: ['dubious', 'irrefutable', 'plausible', 'conceivable'],
+            correctAnswer: 'irrefutable',
+            explanation: 'Irrefutable significa irrefutable, imposible de negar.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'The witness account seemed ___, but we need more evidence.',
+            correctAnswer: 'plausible',
+            explanation: 'Plausible = creíble, razonable.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-writing-1',
+        type: 'writing',
+        prompt: 'Write a short detective story or analysis (180-220 words) where you make deductions about a mysterious situation. Use at least 6 different modals of deduction (must/might/could/can\'t + present or perfect forms).',
+        writingType: 'article',
+        minWords: 180,
+        maxWords: 220,
+        timeLimit: 30,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Set the scene: describe the mysterious situation',
+          'Present evidence: what can be observed?',
+          'Make deductions using modals: "must have", "might be", "can\'t have", etc.',
+          'Consider multiple possibilities before reaching a conclusion',
+          'Use vocabulary of certainty: definite, probable, plausible',
+          'Structure: Setup → Evidence → Deductions → Conclusion'
+        ]
+      },
+      {
+        id: 'b2-m2-l1-keytransform-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Modal Deductions',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt1',
+            sentence: 'I\'m sure she didn\'t understand the instructions.',
+            keyWord: 'can\'t',
+            startOfAnswer: 'She',
+            correctAnswer: 'can\'t have understood the',
+            explanation: 'Can\'t have + past participle for strong negative deduction about past.',
+            points: 2
+          },
+          {
+            id: 'kt2',
+            sentence: 'Perhaps they forgot about the meeting.',
+            keyWord: 'might',
+            startOfAnswer: 'They',
+            correctAnswer: 'might have forgotten about',
+            explanation: 'Might have + past participle for past possibility.',
+            points: 2
+          },
+          {
+            id: 'kt3',
+            sentence: 'I\'m certain this is the right answer.',
+            keyWord: 'must',
+            startOfAnswer: 'This',
+            correctAnswer: 'must be the right',
+            explanation: 'Must be for strong present deduction.',
+            points: 2
+          },
+          {
+            id: 'kt4',
+            sentence: 'It\'s impossible that he knew about this.',
+            keyWord: 'have',
+            startOfAnswer: 'He can\'t',
+            correctAnswer: 'have known about this',
+            explanation: 'Can\'t have known = impossibility in past.',
+            points: 2
+          },
+          {
+            id: 'kt5',
+            sentence: 'I\'m sure they were surprised by the news.',
+            keyWord: 'must',
+            startOfAnswer: 'They',
+            correctAnswer: 'must have been surprised',
+            explanation: 'Must have been for strong past deduction.',
+            points: 2
+          },
+          {
+            id: 'kt6',
+            sentence: 'Maybe she is working late tonight.',
+            keyWord: 'could',
+            startOfAnswer: 'She',
+            correctAnswer: 'could be working late',
+            explanation: 'Could be + -ing for present possibility.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-wordform-1',
+        type: 'word-formation',
+        title: 'Word Formation: Investigation Vocabulary',
+        text: `Criminal investigations require both (1. SCIENCE)_____ analysis and logical (2. DEDUCE)_____. Forensic experts must examine evidence with great (3. CAREFUL)_____ to avoid (4. CONTAMINATE)_____ the crime scene. Their findings can provide (5. VALUE)_____ information that helps detectives establish the (6. PROBABLE)_____ sequence of events. However, even with modern technology, some cases remain (7. SOLVE)_____ due to (8. SUFFICE)_____ evidence.`,
+        questions: [
+          { id: 'q1', gapNumber: 1, baseWord: 'SCIENCE', correctAnswer: 'scientific', acceptableAnswers: ['scientific'], explanation: '"Scientific analysis" - relating to science.', wordType: 'adjective', transformation: 'noun → adjective (-ific)', points: 1 },
+          { id: 'q2', gapNumber: 2, baseWord: 'DEDUCE', correctAnswer: 'deduction', acceptableAnswers: ['deduction', 'deductions'], explanation: '"Logical deduction" - the process of reaching a conclusion through reasoning.', wordType: 'noun', transformation: 'verb → noun (-tion)', points: 1 },
+          { id: 'q3', gapNumber: 3, baseWord: 'CAREFUL', correctAnswer: 'care', acceptableAnswers: ['care'], explanation: '"With great care" - attention and caution.', wordType: 'noun', transformation: 'adjective → noun (remove -ful)', points: 1 },
+          { id: 'q4', gapNumber: 4, baseWord: 'CONTAMINATE', correctAnswer: 'contaminating', acceptableAnswers: ['contaminating'], explanation: '"Avoid contaminating" - prevent from polluting or corrupting.', wordType: 'gerund', transformation: 'verb → gerund (-ing)', points: 1 },
+          { id: 'q5', gapNumber: 5, baseWord: 'VALUE', correctAnswer: 'valuable', acceptableAnswers: ['valuable'], explanation: '"Valuable information" - very useful or important.', wordType: 'adjective', transformation: 'noun → adjective (-able)', points: 1 },
+          { id: 'q6', gapNumber: 6, baseWord: 'PROBABLE', correctAnswer: 'probable', acceptableAnswers: ['probable'], explanation: '"Probable sequence" - likely order of events. (No transformation needed)', wordType: 'adjective', transformation: 'no change', points: 1 },
+          { id: 'q7', gapNumber: 7, baseWord: 'SOLVE', correctAnswer: 'unsolved', acceptableAnswers: ['unsolved'], explanation: '"Remain unsolved" - not solved, still a mystery.', wordType: 'adjective', transformation: 'verb → negative adjective (un- + past participle)', points: 1 },
+          { id: 'q8', gapNumber: 8, baseWord: 'SUFFICE', correctAnswer: 'insufficient', acceptableAnswers: ['insufficient'], explanation: '"Insufficient evidence" - not enough.', wordType: 'adjective', transformation: 'verb → negative adjective (in- + -icient)', points: 1 }
+        ],
+        focusAreas: ['Negative prefixes (un-, in-)', 'Gerunds', 'Scientific vocabulary']
+      },
+      {
+        id: 'b2-m2-l1-pronunciation',
+        type: 'pronunciation',
+        title: 'Pronunciation: Modal Contractions & Weak Forms',
+        instructions: 'Practice pronouncing modal contractions and weak forms used in deductions.',
+        words: [
+          {
+            word: 'must have',
+            phonetic: '/məs(t)əv/ or /ˈmʌstəv/',
+            audioUrl: '/audio/must-have.mp3',
+            stressPattern: 'Weak form: must is unstressed, "have" sounds like /əv/',
+            commonErrors: 'Don\'t say "must of" - it\'s "must have" or "must\'ve"',
+            example: 'She must have /ˈmʌstəv/ left early.'
+          },
+          {
+            word: 'might have',
+            phonetic: '/ˈmaɪtəv/',
+            audioUrl: '/audio/might-have.mp3',
+            stressPattern: '"Have" weakens to /əv/ sound',
+            commonErrors: 'Native speakers often say "mighta" /ˈmaɪtə/',
+            example: 'They might have /ˈmaɪtəv/ forgotten.'
+          },
+          {
+            word: 'could have',
+            phonetic: '/ˈkʊdəv/',
+            audioUrl: '/audio/could-have.mp3',
+            stressPattern: '"Have" weakens to /əv/ sound',
+            commonErrors: 'Don\'t write "could of" - incorrect spelling',
+            example: 'You could have /ˈkʊdəv/ told me.'
+          },
+          {
+            word: 'can\'t have',
+            phonetic: '/ˈkɑːntəv/ (UK) or /ˈkæntəv/ (US)',
+            audioUrl: '/audio/cant-have.mp3',
+            stressPattern: 'Stress on "can\'t", "have" is weak',
+            commonErrors: 'Full form would be too formal in speech',
+            example: 'She can\'t have /ˈkɑːntəv/ known.'
+          },
+          {
+            word: 'would have',
+            phonetic: '/ˈwʊdəv/',
+            audioUrl: '/audio/would-have.mp3',
+            stressPattern: 'Often contracted to "would\'ve" /ˈwʊdəv/',
+            commonErrors: 'Never write "would of"',
+            example: 'I would have /ˈwʊdəv/ helped.'
+          }
+        ],
+        exercises: [
+          {
+            id: 'pr1',
+            type: 'pronunciation-practice',
+            instruction: 'Practice saying these sentences with natural weak forms',
+            sentences: [
+              'She must have been working late.',
+              'They might have missed the train.',
+              'You could have called me.',
+              'He can\'t have finished already.'
+            ],
+            points: 4
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-integrated-1',
+        type: 'reading',
+        title: 'Integrated Skills: The Disappearance at Dyatlov Pass',
+        text: `In 1959, nine experienced hikers died under mysterious circumstances in the Ural Mountains of Russia. The incident, known as the Dyatlov Pass Incident, remains one of history's most puzzling unsolved mysteries. Investigators found the group's tent cut open from the inside, and the hikers' bodies were discovered scattered across the snowy landscape, some partially clothed despite temperatures of -30°C.
+
+The evidence painted a confusing picture. The hikers must have left their tent in extreme panic—the tent had been slashed from inside, suggesting a desperate escape. However, there was no apparent threat. Investigators could find no evidence of an avalanche, animal attack, or human intruders. The footprints leading away from the tent indicated the group had left calmly at first, walking rather than running.
+
+Several bodies showed strange injuries. Two victims had fractured skulls, and another had broken ribs—injuries that, according to the medical examiner, would have required tremendous force, "equivalent to a car crash." Yet there were no external wounds. One victim's tongue was missing, though this might have been due to natural decomposition.
+
+The investigation reached puzzling conclusions. Officials initially blamed "an unknown compelling force," which only deepened the mystery. Some have speculated that the group might have been caught in a rare meteorological event, such as infrasound-generating winds that could have induced panic. Others believe they could have encountered military testing in the area—the region was known for secret Soviet activities.
+
+Modern theories suggest the hikers may have triggered a small avalanche, fled in terror, and then succumbed to hypothermia. However, this doesn't explain all the evidence. The injuries can't have been caused by hypothermia alone. The missing clothing might have been taken by survivors trying to help their dying companions, but why did they scatter in different directions?
+
+The truth must lie somewhere in the evidence, yet more than 60 years later, we still cannot be certain what happened that night. Each theory has plausible elements, but none accounts for all the facts. The Dyatlov Pass Incident may never be fully explained—a reminder that some mysteries resist even our most careful investigation.`,
+        wordCount: 340,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What does the cut tent suggest about how the hikers left?',
+            options: [
+              'They were attacked from outside',
+              'They left in a state of panic',
+              'They were trying to repair it',
+              'They were following normal procedure'
+            ],
+            correctAnswer: 'They left in a state of panic',
+            explanation: 'The text states: "The hikers must have left their tent in extreme panic".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Write the modal phrase the text uses to compare the force of the injuries.',
+            correctAnswer: 'equivalent to a car crash',
+            explanation: 'The medical examiner described injuries that "would have required tremendous force, equivalent to a car crash".',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'Complete this deduction from the text: "The injuries ___ ___ been caused by hypothermia alone."',
+            correctAnswer: 'can\'t have',
+            explanation: 'The text uses "can\'t have" to express impossibility.',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'According to the text, which theory involves unusual weather conditions?',
+            options: [
+              'Military testing',
+              'Avalanche',
+              'Infrasound-generating winds',
+              'Animal attack'
+            ],
+            correctAnswer: 'Infrasound-generating winds',
+            explanation: 'The text mentions "infrasound-generating winds that could have induced panic" as a meteorological theory.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'Why does the author say "some mysteries resist even our most careful investigation"?',
+            correctAnswer: 'Because we still cannot be certain what happened / No theory explains all the facts',
+            explanation: 'Despite extensive investigation, no single theory accounts for all evidence.',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'Writing Task: Write your own theory (80-100 words) about what might have happened at Dyatlov Pass. Use at least 4 different modals of deduction (must have, might have, could have, can\'t have). Support your theory with evidence from the text.',
+            correctAnswer: '',
+            explanation: 'This is an open-ended writing task. Evaluate based on: appropriate use of modals, logical reasoning, reference to textual evidence, and coherence.',
+            points: 10
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'scattered', definition: 'spread over a wide area in an untidy or irregular way' },
+          { word: 'fractured', definition: 'broken or cracked' },
+          { word: 'infrasound', definition: 'sound waves with frequencies below the range of human hearing' },
+          { word: 'succumbed', definition: 'failed to resist; died from' },
+          { word: 'hypothermia', definition: 'dangerous drop in body temperature' }
+        ]
       }
     ]
   },
@@ -6083,7 +6907,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
       },
       // MULTIPLE CHOICE CLOZE - FCE Part 1 Practice
       {
-        id: 'b2-m2-l1-cloze-1',
+        id: 'b2-m2-l2-cloze-1',
         type: 'multiple-choice-cloze',
         title: 'Multiple Choice Cloze: The Rise of Remote Work',
         instructions: 'Read the text below and decide which answer (A, B, C or D) best fits each gap.',
@@ -6159,6 +6983,840 @@ As we move forward, experts predict that hybrid models will become the {{7}}. Ra
             explanation: '"Adopt arrangements" means officially implement them. "Adapt" means modify, "accept" means agree with, "approve" means give permission.',
             points: 1
           }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-grammar-2',
+        type: 'grammar',
+        title: 'Have/Get Something Done',
+        grammarPoint: 'Causative structures: have/get + object + past participle',
+        explanation: 'Usamos "have/get something done" para expresar que otra persona hace algo por nosotros (servicio):\n- have + object + past participle (más formal)\n- get + object + past participle (menos formal)\n\nEjemplos:\n- I had my car serviced. (= Alguien revisó mi coche)\n- She\'s getting her house painted. (= Alguien está pintando su casa)',
+        examples: [
+          'I need to have my eyes tested.',
+          'We\'re getting the roof repaired next week.',
+          'She had her hair cut yesterday.',
+          'Did you get your computer fixed?',
+          'They\'re having the garden redesigned.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose the correct form: I ___ my watch repaired last week.',
+            options: ['had', 'have had', 'was having', 'have'],
+            correctAnswer: 'had',
+            explanation: 'Past simple para acción completada en el pasado.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: She\'s ___ her nails ___ at the salon.',
+            correctAnswer: 'getting/having, done',
+            explanation: 'Get/have + object + past participle para servicios.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Rewrite: "The mechanic is servicing my car." (use "have")',
+            correctAnswer: 'I\'m having my car serviced',
+            explanation: 'Present continuous causativo: am/is/are having + object + past participle.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-sentence-completion',
+        type: 'sentence-completion',
+        title: 'Sentence Completion: Passive Constructions',
+        instructions: 'Complete each sentence using an appropriate passive construction.',
+        sentences: [
+          {
+            id: 'sc1',
+            incompleteSentence: 'The new policy has been',
+            sampleCompletions: [
+              'implemented across all departments',
+              'approved by the board of directors',
+              'criticized by many stakeholders'
+            ],
+            evaluationCriteria: 'Should use present perfect passive + appropriate completion',
+            points: 3
+          },
+          {
+            id: 'sc2',
+            incompleteSentence: 'The research findings will be',
+            sampleCompletions: [
+              'published in a leading scientific journal',
+              'presented at the international conference',
+              'reviewed by independent experts'
+            ],
+            evaluationCriteria: 'Should use future passive + logical completion',
+            points: 3
+          },
+          {
+            id: 'sc3',
+            incompleteSentence: 'By the time we arrived, the decision had already been',
+            sampleCompletions: [
+              'made by the committee',
+              'announced to the public',
+              'implemented without consultation'
+            ],
+            evaluationCriteria: 'Should use past perfect passive + reasonable completion',
+            points: 3
+          },
+          {
+            id: 'sc4',
+            incompleteSentence: 'The bridge is currently being',
+            sampleCompletions: [
+              'renovated to improve safety',
+              'inspected for structural damage',
+              'constructed using sustainable materials'
+            ],
+            evaluationCriteria: 'Should use present continuous passive + logical action',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-error-identification',
+        type: 'error-identification',
+        title: 'Error Identification: Passive Voice Mistakes',
+        instructions: 'Each sentence contains ONE error related to passive voice. Find and correct it.',
+        sentences: [
+          {
+            id: 'ei1',
+            sentence: 'The report was been completed yesterday.',
+            error: 'was been',
+            correction: 'was',
+            explanation: 'Use "was completed" (past simple passive), not "was been completed".',
+            category: 'Passive structure',
+            points: 2
+          },
+          {
+            id: 'ei2',
+            sentence: 'The building is being build by a local company.',
+            error: 'build',
+            correction: 'built',
+            explanation: 'Past participle is "built", not "build".',
+            category: 'Irregular past participles',
+            points: 2
+          },
+          {
+            id: 'ei3',
+            sentence: 'The letter should be send before Friday.',
+            error: 'send',
+            correction: 'sent',
+            explanation: 'Past participle is "sent", not "send".',
+            category: 'Irregular past participles',
+            points: 2
+          },
+          {
+            id: 'ei4',
+            sentence: 'I had cut my hair at the salon yesterday.',
+            error: 'had cut',
+            correction: 'had my hair cut',
+            explanation: 'Use causative "had my hair cut" (someone else cut it).',
+            category: 'Causative have',
+            points: 2
+          },
+          {
+            id: 'ei5',
+            sentence: 'The results have published in the journal.',
+            error: 'have published',
+            correction: 'have been published',
+            explanation: 'Present perfect passive needs "have been" + past participle.',
+            category: 'Present perfect passive',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-reading-1',
+        type: 'reading',
+        title: 'Reading: The Restoration of the Sistine Chapel',
+        text: `Between 1980 and 1994, one of the most ambitious art restoration projects in history was undertaken: the cleaning of Michelangelo's frescoes in the Sistine Chapel. The project was initiated after centuries of dirt, candle smoke, and previous restoration attempts had darkened the original colors beyond recognition.
+
+The restoration was carried out by a team of expert conservators using cutting-edge technology. First, extensive scientific analysis was conducted to understand the composition of the original paint and the various layers of grime. Small sections were carefully cleaned using special solvents, and the results were documented photographically before proceeding further.
+
+As the cleaning progressed, startling discoveries were made. The vibrant colors that emerged contradicted centuries of art historical interpretation. Where Michelangelo had been praised for his somber, dark palette, it was now revealed that he had actually used bright, vivid colors. The figures that had been shrouded in darkness were transformed into brilliantly colored masterpieces.
+
+The project was not without controversy. Some critics argued that too much cleaning was being done, potentially removing not just dirt but also some of Michelangelo's original work. Others defended the restoration, claiming that for the first time in centuries, the artist's true vision was being uncovered.
+
+Throughout the fourteen-year project, sophisticated scaffolding systems were designed to allow conservators to work at great heights without damaging the frescoes. Every stage of the work was supervised by international experts and documented in minute detail. The project was funded by contributions from various sources, including the Vatican and international patrons.
+
+Today, the restored frescoes are considered one of the greatest achievements in art conservation. Millions of visitors each year are now able to see Michelangelo's work as it was originally intended—vibrant, colorful, and breathtaking in its detail.`,
+        wordCount: 300,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What does "was undertaken" in the first paragraph mean?',
+            options: [
+              'Was promised',
+              'Was started/begun',
+              'Was completed',
+              'Was cancelled'
+            ],
+            correctAnswer: 'Was started/begun',
+            explanation: '"Was undertaken" means was started or carried out.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'How many passive voice constructions can you find in paragraph 2? List at least 3.',
+            correctAnswer: 'was carried out, was conducted, were cleaned, were documented (any 3)',
+            explanation: 'Paragraph 2 contains multiple passive constructions.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: Everyone agreed that the restoration was done correctly.',
+            correctAnswer: 'False',
+            explanation: 'The text states "The project was not without controversy" and mentions critics.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'According to the text, what was discovered during the cleaning?',
+            options: [
+              'Michelangelo used dark colors',
+              'Michelangelo used bright, vivid colors',
+              'The frescoes were fake',
+              'The paint was damaged'
+            ],
+            correctAnswer: 'Michelangelo used bright, vivid colors',
+            explanation: 'The text states "he had actually used bright, vivid colors".',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'Who funded the restoration project?',
+            correctAnswer: 'The Vatican and international patrons',
+            explanation: 'The text states: "funded by contributions from various sources, including the Vatican and international patrons".',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'frescoes', definition: 'paintings done on wet plaster on a wall or ceiling' },
+          { word: 'grime', definition: 'dirt ingrained on the surface of something' },
+          { word: 'conservators', definition: 'professionals who restore and preserve artworks' },
+          { word: 'somber', definition: 'dark or dull in color or tone' },
+          { word: 'shrouded', definition: 'covered or hidden' }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-paraphrasing',
+        type: 'paraphrasing',
+        title: 'Paraphrasing: Active to Passive Conversion',
+        instructions: 'Rewrite each sentence in the passive voice while maintaining the same meaning.',
+        sentences: [
+          {
+            id: 'p1',
+            original: 'Scientists have discovered a new species of deep-sea fish.',
+            sampleParaphrases: [
+              'A new species of deep-sea fish has been discovered.',
+              'A new species of deep-sea fish has been discovered by scientists.'
+            ],
+            keyVocabulary: ['present perfect passive', 'by + agent (optional)'],
+            points: 3
+          },
+          {
+            id: 'p2',
+            original: 'Someone should investigate this matter immediately.',
+            sampleParaphrases: [
+              'This matter should be investigated immediately.',
+              'This matter ought to be investigated immediately.'
+            ],
+            keyVocabulary: ['modal passive', 'should be + past participle'],
+            points: 3
+          },
+          {
+            id: 'p3',
+            original: 'They are going to announce the results tomorrow.',
+            sampleParaphrases: [
+              'The results are going to be announced tomorrow.',
+              'The results will be announced tomorrow.'
+            ],
+            keyVocabulary: ['future passive', 'be going to be + past participle'],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-collocation-matching',
+        type: 'collocation-matching',
+        title: 'Collocation Matching: Passive Voice Verbs',
+        instructions: 'Match the passive verbs with appropriate nouns to form common collocations.',
+        pairs: [
+          { left: 'be conducted', right: 'research/an investigation', distractor: false },
+          { left: 'be published', right: 'a report/an article', distractor: false },
+          { left: 'be implemented', right: 'a policy/a plan', distractor: false },
+          { left: 'be launched', right: 'a campaign/a product', distractor: false },
+          { left: 'be established', right: 'a company/a tradition', distractor: false },
+          { left: 'be carried out', right: 'an experiment/a survey', distractor: false },
+          { left: 'be issued', right: 'a warning/a statement', distractor: false },
+          { left: 'be granted', right: 'permission/a license', distractor: false }
+        ],
+        distractors: [
+          { left: 'be made', right: 'research' },
+          { left: 'be done', right: 'a campaign' },
+          { left: 'be given', right: 'a policy' }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l2-phrasal-verbs',
+        type: 'phrasal-verbs',
+        title: 'Phrasal Verbs: Processes & Procedures',
+        instructions: 'Learn phrasal verbs commonly used in passive constructions when describing processes.',
+        verbs: [
+          {
+            verb: 'carry out',
+            meaning: 'to perform or conduct (research, experiment, task)',
+            examples: [
+              'The study was carried out over five years.',
+              'Tests are being carried out to ensure safety.'
+            ],
+            usage: 'separable',
+            synonyms: ['conduct', 'perform', 'execute']
+          },
+          {
+            verb: 'bring about',
+            meaning: 'to cause something to happen',
+            examples: [
+              'Major changes were brought about by the new legislation.',
+              'The revolution was brought about by economic hardship.'
+            ],
+            usage: 'separable',
+            synonyms: ['cause', 'produce', 'generate']
+          },
+          {
+            verb: 'set up',
+            meaning: 'to establish or create (organization, system)',
+            examples: [
+              'The committee was set up to investigate the claims.',
+              'A new fund has been set up to support research.'
+            ],
+            usage: 'separable',
+            synonyms: ['establish', 'create', 'found']
+          },
+          {
+            verb: 'take over',
+            meaning: 'to assume control or responsibility',
+            examples: [
+              'The project was taken over by a new manager.',
+              'The company has been taken over by a larger corporation.'
+            ],
+            usage: 'separable',
+            synonyms: ['assume control', 'acquire', 'seize']
+          },
+          {
+            verb: 'put forward',
+            meaning: 'to propose or suggest (idea, theory)',
+            examples: [
+              'Several theories have been put forward to explain the phenomenon.',
+              'A new proposal was put forward at the meeting.'
+            ],
+            usage: 'separable',
+            synonyms: ['propose', 'suggest', 'present']
+          }
+        ],
+        exercises: [
+          {
+            id: 'pv1',
+            type: 'fill-blank',
+            sentence: 'The research was _____ _____ by a team of international scientists.',
+            correctAnswer: 'carried out',
+            points: 2
+          },
+          {
+            id: 'pv2',
+            type: 'multiple-choice',
+            question: 'Choose the correct phrasal verb: A new theory has been _____ to explain the data.',
+            options: ['put forward', 'put up', 'put on', 'put off'],
+            correctAnswer: 'put forward',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-idioms',
+        type: 'idioms-expressions',
+        title: 'Idioms & Expressions: Formal & Academic Language',
+        instructions: 'Learn formal expressions commonly used with passive voice in academic writing.',
+        idioms: [
+          {
+            idiom: 'It is widely believed/accepted that...',
+            meaning: 'many people believe/accept that something is true',
+            example: 'It is widely believed that climate change poses a serious threat.',
+            context: 'formal/academic writing',
+            culturalNote: 'Impersonal passive structure for objective tone'
+          },
+          {
+            idiom: 'It has been suggested that...',
+            meaning: 'someone has proposed the idea that...',
+            example: 'It has been suggested that the policy needs revision.',
+            context: 'formal reports and papers',
+            culturalNote: 'Avoids naming who suggested it'
+          },
+          {
+            idiom: 'It should be noted that...',
+            meaning: 'it is important to recognize/remember that...',
+            example: 'It should be noted that these are preliminary findings.',
+            context: 'academic/formal contexts',
+            culturalNote: 'Draws attention to important information'
+          },
+          {
+            idiom: 'It is considered (to be)...',
+            meaning: 'it is generally regarded as...',
+            example: 'The discovery is considered to be a major breakthrough.',
+            context: 'formal evaluation',
+            culturalNote: 'Expresses general opinion objectively'
+          },
+          {
+            idiom: 'It has been demonstrated that...',
+            meaning: 'research/evidence has shown that...',
+            example: 'It has been demonstrated that exercise improves mental health.',
+            context: 'scientific writing',
+            culturalNote: 'Shows evidence-based conclusion'
+          },
+          {
+            idiom: 'It cannot be denied that...',
+            meaning: 'it is impossible to dispute that...',
+            example: 'It cannot be denied that the situation has improved.',
+            context: 'formal argumentation',
+            culturalNote: 'Acknowledges undeniable facts'
+          }
+        ],
+        exercises: [
+          {
+            id: 'id1',
+            type: 'matching',
+            instruction: 'Match each expression to its appropriate use',
+            pairs: [
+              { idiom: 'It has been demonstrated that', meaning: 'presenting research findings' },
+              { idiom: 'It is widely believed that', meaning: 'referring to common opinion' },
+              { idiom: 'It should be noted that', meaning: 'highlighting important information' }
+            ],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-gap-fill',
+        type: 'gap-fill-text',
+        title: 'Gap-Fill: The Discovery of Penicillin',
+        instructions: 'Complete the text using appropriate passive forms. Each gap requires ONE to THREE words.',
+        text: `The story of penicillin's discovery is one of the most famous examples of accidental scientific breakthroughs. In 1928, the antibiotic (1)___ ___ by Scottish scientist Alexander Fleming, though the discovery (2)___ ___ ___ by chance rather than systematic research.
+
+Fleming had been studying staphylococcus bacteria when he noticed that a mold contamination had killed the bacteria in one of his petri dishes. This observation (3)___ ___ ___ initially, but Fleming eventually recognized its significance. The mold (4)___ ___ and further experiments (5)___ ___ ___.
+
+However, it took more than a decade before penicillin (6)___ ___ ___ for widespread medical use. The process of mass production (7)___ ___ by Howard Florey and Ernst Boris Chain in the 1940s. Their work (8)___ ___ by the urgent need for antibiotics during World War II.
+
+Thanks to their efforts, penicillin (9)___ ___ available to treat wounded soldiers, saving countless lives. The discovery (10)___ ___ ___ as one of the greatest medical advances of the 20th century, and Fleming, Florey, and Chain (11)___ ___ the Nobel Prize in 1945.
+
+Today, millions of lives continue (12)___ ___ ___ by antibiotics derived from Fleming's accidental discovery.`,
+        gaps: 12,
+        answers: [
+          { gapNumber: 1, correctAnswer: 'was discovered', acceptableAnswers: ['was discovered'], explanation: 'Past simple passive', points: 1 },
+          { gapNumber: 2, correctAnswer: 'was made', acceptableAnswers: ['was made'], explanation: '"Made by chance" - passive construction', points: 1 },
+          { gapNumber: 3, correctAnswer: 'was almost ignored', acceptableAnswers: ['was almost ignored', 'was nearly ignored'], explanation: 'Past simple passive with adverb', points: 1 },
+          { gapNumber: 4, correctAnswer: 'was identified', acceptableAnswers: ['was identified', 'was isolated'], explanation: 'Past simple passive', points: 1 },
+          { gapNumber: 5, correctAnswer: 'were carried out', acceptableAnswers: ['were carried out', 'were conducted'], explanation: 'Passive phrasal verb', points: 1 },
+          { gapNumber: 6, correctAnswer: 'could be produced', acceptableAnswers: ['could be produced', 'was produced'], explanation: 'Modal passive or past simple passive', points: 1 },
+          { gapNumber: 7, correctAnswer: 'was developed', acceptableAnswers: ['was developed', 'was perfected'], explanation: 'Past simple passive', points: 1 },
+          { gapNumber: 8, correctAnswer: 'was driven', acceptableAnswers: ['was driven', 'was motivated'], explanation: '"Was driven by" = motivated/caused by', points: 1 },
+          { gapNumber: 9, correctAnswer: 'was made', acceptableAnswers: ['was made'], explanation: '"Made available" - passive causative', points: 1 },
+          { gapNumber: 10, correctAnswer: 'is now regarded', acceptableAnswers: ['is now regarded', 'is considered'], explanation: 'Present simple passive', points: 1 },
+          { gapNumber: 11, correctAnswer: 'were awarded', acceptableAnswers: ['were awarded', 'received'], explanation: 'Past simple passive', points: 1 },
+          { gapNumber: 12, correctAnswer: 'to be saved', acceptableAnswers: ['to be saved'], explanation: 'Passive infinitive after "continue"', points: 1 }
+        ],
+        points: 12
+      },
+      {
+        id: 'b2-m2-l2-sentence-reordering',
+        type: 'sentence-reordering',
+        title: 'Sentence Reordering: Scientific Process',
+        instructions: 'Arrange these sentences to describe a logical scientific process using passive voice.',
+        sentences: [
+          { id: 's1', text: 'The data was then analyzed using statistical software.', position: 5 },
+          { id: 's2', text: 'First, the research question was formulated by the team.', position: 1 },
+          { id: 's3', text: 'Finally, the findings were published in a peer-reviewed journal.', position: 8 },
+          { id: 's4', text: 'A detailed methodology was designed to test the hypothesis.', position: 2 },
+          { id: 's5', text: 'The results were interpreted in the context of existing literature.', position: 6 },
+          { id: 's6', text: 'Ethical approval was obtained from the university review board.', position: 3 },
+          { id: 's7', text: 'Data collection was carried out over a six-month period.', position: 4 },
+          { id: 's8', text: 'The conclusions were reviewed by independent experts before publication.', position: 7 }
+        ],
+        correctOrder: ['s2', 's4', 's6', 's7', 's1', 's5', 's8', 's3'],
+        explanation: 'Scientific research process: formulate question → design methodology → get approval → collect data → analyze → interpret → peer review → publish',
+        points: 8
+      },
+      {
+        id: 'b2-m2-l2-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m2-l2-listening-1.mp3',
+        duration: 150,
+        allowReplay: true,
+        maxReplays: 3,
+        transcript: `News Anchor: In science news today, a remarkable discovery has been made by researchers at Cambridge University. Dr. Sarah Mitchell joins us to explain. Dr. Mitchell, what exactly has been found?
+
+Dr. Mitchell: Thank you for having me. Well, a new technique has been developed that could revolutionize cancer treatment. The method was discovered somewhat accidentally during unrelated research into cell behavior.
+
+Anchor: How was this discovery made?
+
+Dr. Mitchell: The research team was investigating how certain proteins are produced by cancer cells. During one experiment, an unusual reaction was observed when a particular compound was introduced. Further tests were conducted, and it was found that the compound could effectively target and destroy cancer cells while leaving healthy cells unharmed.
+
+Anchor: That sounds promising. What happens next?
+
+Dr. Mitchell: More trials will be carried out over the next two years. First, the treatment will be tested on animal models, and if successful, human trials will be initiated. However, it should be noted that this is still early-stage research.
+
+Anchor: When might this treatment be made available to patients?
+
+Dr. Mitchell: If everything goes well, the therapy could be approved for clinical use within five to ten years. But it's important that expectations are managed—many promising treatments are abandoned during the trial phase when unexpected problems are encountered.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'How was the discovery described?',
+            options: [
+              'It was carefully planned',
+              'It was made accidentally',
+              'It was predicted by theory',
+              'It was copied from others'
+            ],
+            correctAnswer: 'It was made accidentally',
+            explanation: 'Dr. Mitchell says "discovered somewhat accidentally during unrelated research".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'What passive phrase does Dr. Mitchell use to describe what happened during the experiment?',
+            correctAnswer: 'an unusual reaction was observed',
+            explanation: 'She states: "an unusual reaction was observed when a particular compound was introduced".',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: The treatment is ready for use in hospitals now.',
+            correctAnswer: 'False',
+            explanation: 'Dr. Mitchell says trials will be carried out over the next two years and approval could take 5-10 years.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'What will happen first in the testing process?',
+            options: [
+              'Human trials',
+              'Clinical approval',
+              'Animal model tests',
+              'Public release'
+            ],
+            correctAnswer: 'Animal model tests',
+            explanation: 'Dr. Mitchell says: "First, the treatment will be tested on animal models".',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What phrase does Dr. Mitchell use to introduce an important caveat?',
+            correctAnswer: 'it should be noted that',
+            explanation: 'She uses the formal passive phrase "it should be noted that this is still early-stage research".',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Academic & Formal Verbs',
+        vocabularySet: [
+          { word: 'conduct', definition: 'to carry out or organize (research, survey)', example: 'The study was conducted over three years.' },
+          { word: 'implement', definition: 'to put a plan or system into operation', example: 'The new policy will be implemented next month.' },
+          { word: 'undertake', definition: 'to begin or commit to (a task, project)', example: 'The research was undertaken by a team of experts.' },
+          { word: 'demonstrate', definition: 'to show clearly through evidence', example: 'The experiment demonstrated the effectiveness of the treatment.' },
+          { word: 'establish', definition: 'to create, set up, or prove', example: 'The company was established in 1995.' },
+          { word: 'initiate', definition: 'to cause something to begin', example: 'The project was initiated last year.' },
+          { word: 'constitute', definition: 'to form or make up', example: 'These findings constitute important evidence.' },
+          { word: 'derive', definition: 'to obtain from a source', example: 'The data was derived from official records.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which word means "to carry out research"?',
+            options: ['constitute', 'conduct', 'derive', 'initiate'],
+            correctAnswer: 'conduct',
+            explanation: 'Conduct = realizar, llevar a cabo.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'The new system will be _____ across all branches.',
+            correctAnswer: 'implemented',
+            explanation: 'Implement = poner en práctica.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-speaking-1',
+        type: 'speaking',
+        prompt: 'Describe a process or procedure in your field (or a general process like "how a bill becomes law" or "how scientific research is conducted"). Use passive voice throughout to maintain objectivity. Speak for 2-3 minutes.',
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Use passive voice: "is conducted", "are analyzed", "was developed"',
+          'Include sequence markers: "first", "then", "after that", "finally"',
+          'Use formal vocabulary: "undertake", "implement", "establish"',
+          'Avoid personal pronouns (I, we, you)',
+          'Examples: research process, manufacturing, legislative process, application procedures'
+        ]
+      },
+      {
+        id: 'b2-m2-l2-keytransform-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Passive Voice',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt1',
+            sentence: 'They published the report last week.',
+            keyWord: 'was',
+            startOfAnswer: 'The report',
+            correctAnswer: 'was published last week',
+            explanation: 'Past simple passive: was + past participle.',
+            points: 2
+          },
+          {
+            id: 'kt2',
+            sentence: 'Someone needs to repair this machine urgently.',
+            keyWord: 'needs',
+            startOfAnswer: 'This machine',
+            correctAnswer: 'needs to be repaired',
+            explanation: 'Passive infinitive: needs + to be + past participle.',
+            points: 2
+          },
+          {
+            id: 'kt3',
+            sentence: 'A mechanic serviced my car yesterday.',
+            keyWord: 'had',
+            startOfAnswer: 'I',
+            correctAnswer: 'had my car serviced',
+            explanation: 'Causative have: had + object + past participle.',
+            points: 2
+          },
+          {
+            id: 'kt4',
+            sentence: 'They say that exercise improves health.',
+            keyWord: 'said',
+            startOfAnswer: 'It',
+            correctAnswer: 'is said that exercise',
+            explanation: 'Impersonal passive: It is said that...',
+            points: 2
+          },
+          {
+            id: 'kt5',
+            sentence: 'People believe that the company will expand.',
+            keyWord: 'believed',
+            startOfAnswer: 'The company',
+            correctAnswer: 'is believed to expand',
+            explanation: 'Personal passive: is believed + to-infinitive.',
+            points: 2
+          },
+          {
+            id: 'kt6',
+            sentence: 'Workers are building a new bridge.',
+            keyWord: 'being',
+            startOfAnswer: 'A new bridge',
+            correctAnswer: 'is being built by',
+            explanation: 'Present continuous passive: is being + past participle.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-wordform-1',
+        type: 'word-formation',
+        title: 'Word Formation: Scientific Research',
+        text: `Modern scientific research requires (1. COLLABORATE)_____ among experts from various fields. Projects are often (2. FUND)_____ by government agencies or private (3. INVEST)_____. Before any research can be conducted, (4. APPROVE)_____ must be obtained from ethics committees. The (5. COLLECT)_____ of data is carried out following strict protocols to ensure (6. RELY)_____. Results are subjected to rigorous (7. ANALYZE)_____ before being published. This process ensures the (8. VALID)_____ of scientific findings.`,
+        questions: [
+          { id: 'q1', gapNumber: 1, baseWord: 'COLLABORATE', correctAnswer: 'collaboration', acceptableAnswers: ['collaboration'], explanation: '"Requires collaboration" - working together.', wordType: 'noun', transformation: 'verb → noun (-tion)', points: 1 },
+          { id: 'q2', gapNumber: 2, baseWord: 'FUND', correctAnswer: 'funded', acceptableAnswers: ['funded'], explanation: '"Are funded" - passive voice, provided with money.', wordType: 'past participle', transformation: 'verb → past participle (-ed)', points: 1 },
+          { id: 'q3', gapNumber: 3, baseWord: 'INVEST', correctAnswer: 'investors', acceptableAnswers: ['investors'], explanation: '"Private investors" - people who invest money.', wordType: 'noun (plural)', transformation: 'verb → noun (-or) + plural', points: 1 },
+          { id: 'q4', gapNumber: 4, baseWord: 'APPROVE', correctAnswer: 'approval', acceptableAnswers: ['approval'], explanation: '"Approval must be obtained" - official permission.', wordType: 'noun', transformation: 'verb → noun (-al)', points: 1 },
+          { id: 'q5', gapNumber: 5, baseWord: 'COLLECT', correctAnswer: 'collection', acceptableAnswers: ['collection'], explanation: '"The collection of data" - the process of gathering.', wordType: 'noun', transformation: 'verb → noun (-tion)', points: 1 },
+          { id: 'q6', gapNumber: 6, baseWord: 'RELY', correctAnswer: 'reliability', acceptableAnswers: ['reliability'], explanation: '"Ensure reliability" - quality of being trustworthy.', wordType: 'noun', transformation: 'verb → noun (-ability)', points: 1 },
+          { id: 'q7', gapNumber: 7, baseWord: 'ANALYZE', correctAnswer: 'analysis', acceptableAnswers: ['analysis'], explanation: '"Subjected to analysis" - detailed examination.', wordType: 'noun', transformation: 'verb → noun (-sis)', points: 1 },
+          { id: 'q8', gapNumber: 8, baseWord: 'VALID', correctAnswer: 'validity', acceptableAnswers: ['validity'], explanation: '"The validity of findings" - quality of being sound or well-founded.', wordType: 'noun', transformation: 'adjective → noun (-ity)', points: 1 }
+        ],
+        focusAreas: ['Noun formation', 'Academic vocabulary', 'Passive voice contexts']
+      },
+      {
+        id: 'b2-m2-l2-pronunciation',
+        type: 'pronunciation',
+        title: 'Pronunciation: Past Participles',
+        instructions: 'Practice pronouncing common irregular past participles used in passive voice.',
+        words: [
+          {
+            word: 'conducted',
+            phonetic: '/kənˈdʌktɪd/',
+            audioUrl: '/audio/conducted.mp3',
+            stressPattern: 'Stress on second syllable: con-DUCT-ed',
+            commonErrors: 'Don\'t stress first syllable',
+            example: 'The research was conducted /kənˈdʌktɪd/ carefully.'
+          },
+          {
+            word: 'established',
+            phonetic: '/ɪˈstæblɪʃt/',
+            audioUrl: '/audio/established.mp3',
+            stressPattern: 'Stress on second syllable: es-TAB-lished',
+            commonErrors: 'Note the reduced -ed ending',
+            example: 'The company was established /ɪˈstæblɪʃt/ in 1995.'
+          },
+          {
+            word: 'undertaken',
+            phonetic: '/ˌʌndəˈteɪkən/',
+            audioUrl: '/audio/undertaken.mp3',
+            stressPattern: 'Primary stress on third syllable: un-der-TAK-en',
+            commonErrors: 'Weak stress on "der"',
+            example: 'The project was undertaken /ˌʌndəˈteɪkən/ last year.'
+          },
+          {
+            word: 'implemented',
+            phonetic: '/ˈɪmplɪmentɪd/',
+            audioUrl: '/audio/implemented.mp3',
+            stressPattern: 'Stress on first syllable: IM-ple-ment-ed',
+            commonErrors: 'Four syllables, not three',
+            example: 'The policy was implemented /ˈɪmplɪmentɪd/ successfully.'
+          },
+          {
+            word: 'demonstrated',
+            phonetic: '/ˈdemənstreɪtɪd/',
+            audioUrl: '/audio/demonstrated.mp3',
+            stressPattern: 'Stress on first syllable: DEM-on-strat-ed',
+            commonErrors: 'Middle syllable is weak /mən/',
+            example: 'The results were demonstrated /ˈdemənstreɪtɪd/ clearly.'
+          }
+        ],
+        exercises: [
+          {
+            id: 'pr1',
+            type: 'pronunciation-practice',
+            instruction: 'Practice these passive sentences with correct stress',
+            sentences: [
+              'The research was conducted by experts.',
+              'The company was established twenty years ago.',
+              'The project will be undertaken next month.',
+              'The new system was implemented successfully.',
+              'The theory has been demonstrated in practice.'
+            ],
+            points: 5
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-integrated-1',
+        type: 'reading',
+        title: 'Integrated Skills: The Panama Canal Construction',
+        text: `The construction of the Panama Canal stands as one of humanity's greatest engineering achievements. The canal, which connects the Atlantic and Pacific Oceans, was built between 1904 and 1914, though the idea had been conceived centuries earlier.
+
+The first serious attempt to construct the canal was undertaken by the French in 1881, led by Ferdinand de Lesseps, who had successfully built the Suez Canal. However, the project was plagued by problems. Thousands of workers were killed by tropical diseases such as yellow fever and malaria. Poor planning and inadequate funding meant that the French attempt was eventually abandoned in 1889 after an estimated 22,000 deaths.
+
+The United States took over the project in 1904. Under American leadership, revolutionary approaches were implemented. First, a massive health campaign was launched to control mosquito-borne diseases. Hospitals were built, swamps were drained, and strict sanitation measures were enforced. These efforts were led by Dr. William Gorgas, whose work dramatically reduced death rates.
+
+The engineering challenges were formidable. Mountains had to be excavated, rivers had to be redirected, and an ingenious system of locks had to be designed to raise and lower ships through different water levels. The Gatún Dam was constructed to create an artificial lake, which would form part of the canal route.
+
+Over 75,000 workers were employed during peak construction. The project was managed with military precision, and innovative construction techniques were developed to overcome the terrain challenges. Steam shovels and railways were used to remove millions of tons of earth and rock.
+
+Finally, on August 15, 1914, the canal was officially opened when the cargo ship SS Ancon completed the first official transit. The total cost has been estimated at $375 million—a massive sum at the time. The canal immediately proved its worth, reducing the sea journey from New York to San Francisco by approximately 8,000 miles.
+
+Today, the expanded Panama Canal can accommodate modern mega-ships and remains one of the world's most important maritime routes. The original construction is still regarded as a triumph of human engineering and determination.`,
+        wordCount: 350,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Why did the French attempt fail?',
+            options: [
+              'Lack of workers',
+              'Political opposition',
+              'Diseases and poor planning',
+              'Bad weather'
+            ],
+            correctAnswer: 'Diseases and poor planning',
+            explanation: 'The text mentions "thousands of workers were killed by tropical diseases" and "poor planning and inadequate funding".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Find and write 3 different passive voice constructions from paragraph 3.',
+            correctAnswer: 'were implemented, was launched, were built, were drained, were enforced (any 3)',
+            explanation: 'Paragraph 3 contains multiple passive constructions describing the American approach.',
+            points: 3
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: The French successfully completed the Suez Canal before attempting the Panama Canal.',
+            correctAnswer: 'True',
+            explanation: 'The text states de Lesseps "had successfully built the Suez Canal".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'short-answer',
+            question: 'How was the disease problem solved under American leadership?',
+            correctAnswer: 'Health campaign to control mosquitoes, hospitals built, swamps drained, sanitation measures enforced',
+            explanation: 'All these measures were implemented to combat disease.',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: 'What does "was undertaken" mean in paragraph 2?',
+            options: [
+              'Was started/begun',
+              'Was completed',
+              'Was cancelled',
+              'Was planned'
+            ],
+            correctAnswer: 'Was started/begun',
+            explanation: '"Was undertaken" means was started or initiated.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'Writing Task: Write a paragraph (100-120 words) describing a major construction project or technological achievement using passive voice. Include: what was built, who it was built by, what challenges were overcome, and how it is regarded today.',
+            correctAnswer: '',
+            explanation: 'Evaluate based on: correct use of passive voice, clear structure, appropriate vocabulary, and logical flow.',
+            points: 10
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'conceived', definition: 'formed or imagined (an idea)' },
+          { word: 'plagued', definition: 'continually troubled by' },
+          { word: 'formidable', definition: 'inspiring respect through being impressive or difficult' },
+          { word: 'excavated', definition: 'dug out and removed (earth, rock)' },
+          { word: 'precision', definition: 'accuracy and exactness' }
         ]
       }
     ]
@@ -6310,6 +7968,842 @@ As we move forward, experts predict that hybrid models will become the {{7}}. Ra
           }
         ],
         focusAreas: ['Reporting verbs', 'Collocations', 'Phrasal verbs']
+      },
+      {
+        id: 'b2-m2-l3-grammar-2',
+        type: 'grammar',
+        title: 'Backshifting Tenses in Reported Speech',
+        grammarPoint: 'Tense changes in reported speech',
+        explanation: 'Cuando reportamos algo que se dijo en el pasado, los tiempos verbales cambian (backshift):\n- Present Simple → Past Simple\n- Present Continuous → Past Continuous\n- Present Perfect → Past Perfect\n- Past Simple → Past Perfect\n- Will → Would\n- Can → Could\n\nEjemplo: "I am tired" → She said (that) she was tired.',
+        examples: [
+          '"I work here." → He said he worked there.',
+          '"I\'m leaving." → She said she was leaving.',
+          '"I have finished." → He said he had finished.',
+          '"I saw him yesterday." → She said she had seen him the day before.',
+          '"I will call you." → He said he would call me.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '"I can help you." → She said she ___ help me.',
+            options: ['can', 'could', 'will', 'would'],
+            correctAnswer: 'could',
+            explanation: 'Can cambia a could en reported speech.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: '"I have seen that movie." → He said he ___ ___ that movie.',
+            correctAnswer: 'had seen',
+            explanation: 'Present Perfect cambia a Past Perfect.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Report: "I am studying English." (She said...)',
+            correctAnswer: 'She said (that) she was studying English',
+            explanation: 'Present Continuous → Past Continuous.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-sentence-completion',
+        type: 'sentence-completion',
+        title: 'Sentence Completion: Reporting Verbs',
+        instructions: 'Complete each sentence using an appropriate reporting verb and structure.',
+        sentences: [
+          {
+            id: 'sc1',
+            incompleteSentence: 'The doctor warned',
+            sampleCompletions: [
+              'me not to lift heavy objects',
+              'us that the treatment could have side effects',
+              'patients about the risks of smoking'
+            ],
+            evaluationCriteria: 'Should use correct structure after "warn" (warn + object + (not) to infinitive / warn + that clause)',
+            points: 3
+          },
+          {
+            id: 'sc2',
+            incompleteSentence: 'She admitted',
+            sampleCompletions: [
+              'that she had made a mistake',
+              'to feeling nervous about the presentation',
+              'having taken the money'
+            ],
+            evaluationCriteria: 'Correct structure: admit + that clause / admit + to + -ing / admit + -ing',
+            points: 3
+          },
+          {
+            id: 'sc3',
+            incompleteSentence: 'The manager suggested',
+            sampleCompletions: [
+              'that we should postpone the meeting',
+              'postponing the meeting until next week',
+              'we postpone the meeting'
+            ],
+            evaluationCriteria: 'Correct structure: suggest + that clause / suggest + -ing',
+            points: 3
+          },
+          {
+            id: 'sc4',
+            incompleteSentence: 'They recommended',
+            sampleCompletions: [
+              'that we visit the museum',
+              'visiting the museum while in the city',
+              'us to book tickets in advance'
+            ],
+            evaluationCriteria: 'Appropriate structure for "recommend"',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-error-identification',
+        type: 'error-identification',
+        title: 'Error Identification: Reported Speech',
+        instructions: 'Each sentence contains ONE error in reported speech. Find and correct it.',
+        sentences: [
+          {
+            id: 'ei1',
+            sentence: 'He said me that he was tired.',
+            error: 'said me',
+            correction: 'told me',
+            explanation: 'Use "told + person", not "said + person". "Said" doesn\'t take an indirect object.',
+            category: 'Say vs. Tell',
+            points: 2
+          },
+          {
+            id: 'ei2',
+            sentence: 'She suggested to go to the cinema.',
+            error: 'suggested to go',
+            correction: 'suggested going',
+            explanation: 'Suggest + -ing, not suggest + to infinitive.',
+            category: 'Reporting verb patterns',
+            points: 2
+          },
+          {
+            id: 'ei3',
+            sentence: 'My teacher advised me study harder.',
+            error: 'advised me study',
+            correction: 'advised me to study',
+            explanation: 'Advise + object + to infinitive.',
+            category: 'Verb patterns',
+            points: 2
+          },
+          {
+            id: 'ei4',
+            sentence: 'He asked me where was I going.',
+            error: 'where was I going',
+            correction: 'where I was going',
+            explanation: 'In reported questions, use statement word order (subject + verb).',
+            category: 'Reported questions',
+            points: 2
+          },
+          {
+            id: 'ei5',
+            sentence: 'She said that she will call me tomorrow.',
+            error: 'will call',
+            correction: 'would call',
+            explanation: 'Will changes to would in reported speech (backshifting).',
+            category: 'Backshifting',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-reading-1',
+        type: 'reading',
+        title: 'Reading: The Interview',
+        text: `Maria sat nervously outside the interview room. When her name was called, she walked in and shook hands with the panel. The first interviewer, Mr. Thompson, asked her to tell them about her previous experience. Maria explained that she had worked for three years in marketing and had managed several successful campaigns. She emphasized that she had always enjoyed working in teams.
+
+Ms. Chen, the second interviewer, then inquired whether Maria would be willing to relocate. Maria replied that she would definitely consider it if the opportunity was right. She added that flexibility was important to her career development. She also mentioned that she had discussed the possibility with her family and they were supportive.
+
+The HR manager, Mr. Patel, asked what Maria's greatest weakness was. She admitted that she sometimes struggled with delegating tasks because she wanted everything to be perfect. However, she quickly added that she had been working on this and had made significant progress. She claimed that her attention to detail was actually one of her greatest strengths.
+
+Finally, Ms. Chen wanted to know why Maria was interested in leaving her current position. Maria carefully explained that while she appreciated her current role, she felt she had reached a ceiling in terms of growth. She said that she was looking for new challenges and believed this position would offer exactly that. She emphasized that she wasn't running away from anything but rather running toward new opportunities.
+
+Mr. Thompson concluded the interview by telling Maria that they would contact her within a week. He thanked her for coming and said that they had been impressed by her responses. Maria left feeling cautiously optimistic.`,
+        wordCount: 290,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What reporting verb is used when Maria talks about her experience?',
+            options: [
+              'said',
+              'explained',
+              'claimed',
+              'suggested'
+            ],
+            correctAnswer: 'explained',
+            explanation: 'The text states: "Maria explained that she had worked for three years..."',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Find and write one example of backshifting in the text.',
+            correctAnswer: 'had worked / had managed / had been working (any one)',
+            explanation: 'Present Perfect in direct speech becomes Past Perfect in reported speech.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: Maria refused to consider relocating.',
+            correctAnswer: 'False',
+            explanation: 'Maria "replied that she would definitely consider it".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'Which reporting verb does Maria use to acknowledge a weakness?',
+            options: [
+              'denied',
+              'admitted',
+              'suggested',
+              'recommended'
+            ],
+            correctAnswer: 'admitted',
+            explanation: 'Text states: "She admitted that she sometimes struggled with delegating".',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What did Mr. Thompson tell Maria at the end?',
+            correctAnswer: 'That they would contact her within a week / They had been impressed by her responses',
+            explanation: 'He told her both pieces of information.',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'inquired', definition: 'asked (formal)' },
+          { word: 'relocate', definition: 'move to a different place to live and work' },
+          { word: 'delegating', definition: 'giving tasks or responsibilities to others' },
+          { word: 'ceiling', definition: 'an upper limit' },
+          { word: 'cautiously optimistic', definition: 'hopeful but careful not to expect too much' }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-paraphrasing',
+        type: 'paraphrasing',
+        title: 'Paraphrasing: Direct to Reported Speech',
+        instructions: 'Convert each direct speech sentence into reported speech using the verb provided.',
+        sentences: [
+          {
+            id: 'p1',
+            original: '"I have never been to Japan," she said.',
+            sampleParaphrases: [
+              'She said (that) she had never been to Japan.',
+              'She mentioned (that) she had never been to Japan.',
+              'She stated (that) she had never been to Japan.'
+            ],
+            keyVocabulary: ['backshifting: have been → had been'],
+            points: 3
+          },
+          {
+            id: 'p2',
+            original: '"Don\'t touch that button!" the technician warned.',
+            sampleParaphrases: [
+              'The technician warned me not to touch that button.',
+              'The technician warned us not to touch that button.'
+            ],
+            keyVocabulary: ['warn + object + not to infinitive'],
+            points: 3
+          },
+          {
+            id: 'p3',
+            original: '"Why don\'t we take a break?" John suggested.',
+            sampleParaphrases: [
+              'John suggested taking a break.',
+              'John suggested that we (should) take a break.'
+            ],
+            keyVocabulary: ['suggest + -ing / suggest + that clause'],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-collocation-matching',
+        type: 'collocation-matching',
+        title: 'Collocation Matching: Reporting Verbs + Prepositions',
+        instructions: 'Match the reporting verbs with their correct prepositions or structures.',
+        pairs: [
+          { left: 'accuse someone', right: 'of doing something', distractor: false },
+          { left: 'apologize', right: 'for doing something', distractor: false },
+          { left: 'insist', right: 'on doing something', distractor: false },
+          { left: 'congratulate someone', right: 'on doing something', distractor: false },
+          { left: 'blame someone', right: 'for something', distractor: false },
+          { left: 'warn someone', right: 'about/against something', distractor: false },
+          { left: 'remind someone', right: 'to do something', distractor: false },
+          { left: 'persuade someone', right: 'to do something', distractor: false }
+        ],
+        distractors: [
+          { left: 'accuse someone', right: 'to do something' },
+          { left: 'apologize', right: 'to do something' },
+          { left: 'insist', right: 'for doing something' }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l3-phrasal-verbs',
+        type: 'phrasal-verbs',
+        title: 'Phrasal Verbs: Communication',
+        instructions: 'Learn phrasal verbs commonly used in reported speech and communication contexts.',
+        verbs: [
+          {
+            verb: 'bring up',
+            meaning: 'to mention or introduce a topic in conversation',
+            examples: [
+              'He brought up the issue of salary during the meeting.',
+              'She brought up an interesting point about the project.'
+            ],
+            usage: 'separable',
+            synonyms: ['mention', 'raise', 'introduce']
+          },
+          {
+            verb: 'point out',
+            meaning: 'to direct attention to something; to mention',
+            examples: [
+              'She pointed out several errors in the report.',
+              'He pointed out that we were running late.'
+            ],
+            usage: 'separable',
+            synonyms: ['indicate', 'highlight', 'mention']
+          },
+          {
+            verb: 'get across',
+            meaning: 'to successfully communicate an idea',
+            examples: [
+              'I don\'t think I got my point across clearly.',
+              'The speaker got his message across effectively.'
+            ],
+            usage: 'separable',
+            synonyms: ['communicate', 'convey', 'express']
+          },
+          {
+            verb: 'talk someone into',
+            meaning: 'to persuade someone to do something',
+            examples: [
+              'She talked me into joining the club.',
+              'They tried to talk him into accepting the offer.'
+            ],
+            usage: 'inseparable',
+            synonyms: ['persuade', 'convince']
+          },
+          {
+            verb: 'let on',
+            meaning: 'to reveal information, especially something secret',
+            examples: [
+              'He didn\'t let on that he knew about the surprise.',
+              'She let on that she was planning to quit.'
+            ],
+            usage: 'inseparable',
+            synonyms: ['reveal', 'disclose', 'hint']
+          }
+        ],
+        exercises: [
+          {
+            id: 'pv1',
+            type: 'fill-blank',
+            sentence: 'She _____ _____ that we needed to reconsider our strategy.',
+            correctAnswer: 'pointed out',
+            points: 2
+          },
+          {
+            id: 'pv2',
+            type: 'multiple-choice',
+            question: 'Choose the correct phrasal verb: He tried to _____ the issue during dinner.',
+            options: ['bring up', 'bring on', 'bring about', 'bring in'],
+            correctAnswer: 'bring up',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-idioms',
+        type: 'idioms-expressions',
+        title: 'Idioms & Expressions: Talking & Communicating',
+        instructions: 'Learn idioms and expressions related to speech and communication.',
+        idioms: [
+          {
+            idiom: 'beat around the bush',
+            meaning: 'to avoid talking directly about something',
+            example: 'Stop beating around the bush and tell me what happened.',
+            context: 'informal conversation',
+            culturalNote: 'Refers to hunting, where bushes were beaten to flush out birds'
+          },
+          {
+            idiom: 'get something off your chest',
+            meaning: 'to talk about something that has been worrying you',
+            example: 'I needed to get it off my chest, so I told her the truth.',
+            context: 'personal problems',
+            culturalNote: 'Physical metaphor for emotional relief'
+          },
+          {
+            idiom: 'put your foot in it / in your mouth',
+            meaning: 'to say something embarrassing or tactless',
+            example: 'I really put my foot in it when I asked about her ex-husband.',
+            context: 'social mistakes',
+            culturalNote: 'British: "in it" / American: "in your mouth"'
+          },
+          {
+            idiom: 'speak your mind',
+            meaning: 'to say exactly what you think',
+            example: 'Don\'t be afraid to speak your mind during the meeting.',
+            context: 'expressing opinions',
+            culturalNote: 'Usually considered positive (honesty)'
+          },
+          {
+            idiom: 'word of mouth',
+            meaning: 'information passed from person to person through conversation',
+            example: 'The restaurant became popular through word of mouth.',
+            context: 'informal advertising',
+            culturalNote: 'One of the oldest forms of communication'
+          },
+          {
+            idiom: 'hear it through the grapevine',
+            meaning: 'to hear news or gossip indirectly',
+            example: 'I heard through the grapevine that they\'re getting married.',
+            context: 'rumors and gossip',
+            culturalNote: 'From telegraph lines resembling grapevines'
+          }
+        ],
+        exercises: [
+          {
+            id: 'id1',
+            type: 'matching',
+            instruction: 'Match each idiom to its meaning',
+            pairs: [
+              { idiom: 'beat around the bush', meaning: 'avoid the main topic' },
+              { idiom: 'get something off your chest', meaning: 'talk about a worry' },
+              { idiom: 'speak your mind', meaning: 'say what you really think' }
+            ],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-gap-fill',
+        type: 'gap-fill-text',
+        title: 'Gap-Fill: A Difficult Conversation',
+        instructions: 'Complete the text using appropriate reported speech structures. Each gap requires ONE to FOUR words.',
+        text: `Last week, I had a difficult conversation with my colleague, James. He (1)___ ___ if we could talk privately, so we went to a quiet meeting room. He began by (2)___ ___ that he hadn't been happy with how I'd handled a recent project. He (3)___ ___ I had made decisions without consulting the team.
+
+I (4)___ ___ having made some mistakes but (5)___ ___ that I had been under a lot of pressure. I (6)___ him that I would be more collaborative in the future. He (7)___ ___ me not to take it personally, saying that he just wanted to improve our working relationship.
+
+James then (8)___ that we should have weekly check-in meetings. I (9)___ ___ it was a good idea and (10)___ ___ setting them up. He (11)___ me that communication was key to good teamwork. I (12)___ ___ ___ him for being honest and bringing up the issue.
+
+By the end of the conversation, I (13)___ much better. James (14)___ ___ he appreciated my willingness to listen. We (15)___ ___ ___ to make our partnership stronger going forward.`,
+        gaps: 15,
+        answers: [
+          { gapNumber: 1, correctAnswer: 'asked me', acceptableAnswers: ['asked me'], explanation: 'Ask + object + if', points: 1 },
+          { gapNumber: 2, correctAnswer: 'explaining/saying', acceptableAnswers: ['explaining', 'saying', 'mentioning'], explanation: 'Reporting verb for statements', points: 1 },
+          { gapNumber: 3, correctAnswer: 'claimed/said/suggested', acceptableAnswers: ['claimed', 'said', 'suggested', 'felt'], explanation: 'Reporting verb + that clause', points: 1 },
+          { gapNumber: 4, correctAnswer: 'admitted to', acceptableAnswers: ['admitted to', 'admitted'], explanation: 'Admit + to + -ing or admit + -ing', points: 1 },
+          { gapNumber: 5, correctAnswer: 'explained/pointed out', acceptableAnswers: ['explained', 'pointed out', 'mentioned'], explanation: 'Reporting verb for giving reasons', points: 1 },
+          { gapNumber: 6, correctAnswer: 'assured/promised', acceptableAnswers: ['assured', 'promised', 'told'], explanation: 'Promise or assure + that clause', points: 1 },
+          { gapNumber: 7, correctAnswer: 'told/asked/urged', acceptableAnswers: ['told', 'asked', 'urged'], explanation: 'Tell/ask/urge + object + not to infinitive', points: 1 },
+          { gapNumber: 8, correctAnswer: 'suggested/proposed', acceptableAnswers: ['suggested', 'proposed', 'recommended'], explanation: 'Suggest + that clause', points: 1 },
+          { gapNumber: 9, correctAnswer: 'agreed/said', acceptableAnswers: ['agreed', 'said', 'thought'], explanation: 'Expressing agreement', points: 1 },
+          { gapNumber: 10, correctAnswer: 'offered to', acceptableAnswers: ['offered to', 'volunteered to'], explanation: 'Offer + to infinitive', points: 1 },
+          { gapNumber: 11, correctAnswer: 'reminded/told', acceptableAnswers: ['reminded', 'told'], explanation: 'Remind/tell + object + that clause', points: 1 },
+          { gapNumber: 12, correctAnswer: 'thanked him for', acceptableAnswers: ['thanked him for'], explanation: 'Thank + object + for + -ing', points: 1 },
+          { gapNumber: 13, correctAnswer: 'felt', acceptableAnswers: ['felt'], explanation: 'Simple past for direct experience', points: 1 },
+          { gapNumber: 14, correctAnswer: 'said that', acceptableAnswers: ['said', 'said that', 'mentioned that'], explanation: 'Reporting verb + that clause', points: 1 },
+          { gapNumber: 15, correctAnswer: 'both agreed/agreed together', acceptableAnswers: ['both agreed', 'agreed together', 'both promised'], explanation: 'Expressing mutual agreement', points: 1 }
+        ],
+        points: 15
+      },
+      {
+        id: 'b2-m2-l3-sentence-reordering',
+        type: 'sentence-reordering',
+        title: 'Sentence Reordering: Reporting a Negotiation',
+        instructions: 'Arrange these sentences to create a logical narrative reporting a business negotiation.',
+        sentences: [
+          { id: 's1', text: 'The supplier then suggested meeting halfway on the price.', position: 5 },
+          { id: 's2', text: 'First, our manager explained that we needed better terms.', position: 1 },
+          { id: 's3', text: 'Finally, both parties agreed to sign the revised contract.', position: 8 },
+          { id: 's4', text: 'He emphasized that our budget was limited this quarter.', position: 2 },
+          { id: 's5', text: 'We admitted that we understood their position.', position: 6 },
+          { id: 's6', text: 'The supplier initially claimed they couldn\'t reduce the price.', position: 3 },
+          { id: 's7', text: 'After further discussion, we proposed a longer-term commitment.', position: 7 },
+          { id: 's8', text: 'They warned that their costs had increased significantly.', position: 4 }
+        ],
+        correctOrder: ['s2', 's4', 's6', 's8', 's1', 's5', 's7', 's3'],
+        explanation: 'Logical negotiation sequence: state needs → explain constraints → supplier refuses → supplier explains → compromise suggested → acknowledge → counter-proposal → agreement',
+        points: 8
+      },
+      {
+        id: 'b2-m2-l3-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m2-l3-listening-1.mp3',
+        duration: 140,
+        allowReplay: true,
+        maxReplays: 3,
+        transcript: `Reporter: I'm here with Dr. Elena Rodriguez, who has just published a groundbreaking study on sleep patterns. Dr. Rodriguez, could you tell us what your research revealed?
+
+Dr. Rodriguez: Certainly. Our study found that people who maintain regular sleep schedules are significantly healthier than those with irregular patterns. We recommended that adults should aim for seven to nine hours of sleep per night and go to bed at the same time each day.
+
+Reporter: What did participants say about implementing these changes?
+
+Dr. Rodriguez: Many admitted that they had been skeptical at first. However, after following the program for just two weeks, most reported feeling much more energetic. Several participants claimed that their productivity at work had improved dramatically. One person told us that she hadn't felt this good in years.
+
+Reporter: Did anyone experience difficulties?
+
+Dr. Rodriguez: Yes, some participants complained that it was hard to maintain the schedule on weekends. They explained that social commitments often interfered. However, we advised them to be as consistent as possible and suggested making gradual adjustments rather than drastic changes.
+
+Reporter: What do you say to people who insist they can function on less sleep?
+
+Dr. Rodriguez: The research clearly shows that this is a misconception. We found that people who claimed they only needed four or five hours actually performed worse on cognitive tests. I would urge everyone to prioritize sleep—your health depends on it.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What did the research recommend?',
+            options: [
+              'Sleeping more on weekends',
+              'Seven to nine hours per night at the same time',
+              'Taking afternoon naps',
+              'Varying sleep patterns'
+            ],
+            correctAnswer: 'Seven to nine hours per night at the same time',
+            explanation: 'Dr. Rodriguez says: "We recommended that adults should aim for seven to nine hours...and go to bed at the same time".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'What reporting verb does Dr. Rodriguez use to describe participants\' initial attitude?',
+            correctAnswer: 'admitted',
+            explanation: '"Many admitted that they had been skeptical".',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: All participants found it easy to maintain the schedule.',
+            correctAnswer: 'False',
+            explanation: 'Dr. Rodriguez says "some participants complained that it was hard to maintain the schedule on weekends".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'What did Dr. Rodriguez advise participants who had difficulties?',
+            options: [
+              'Give up the program',
+              'Sleep more on weekdays',
+              'Make gradual adjustments',
+              'Ignore social commitments'
+            ],
+            correctAnswer: 'Make gradual adjustments',
+            explanation: 'She "suggested making gradual adjustments rather than drastic changes".',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What verb does Dr. Rodriguez use in her final message to listeners?',
+            correctAnswer: 'urge',
+            explanation: '"I would urge everyone to prioritize sleep".',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Reporting Verbs',
+        vocabularySet: [
+          { word: 'claim', definition: 'to say something is true, often without proof', example: 'He claimed that he had never met her before.' },
+          { word: 'insist', definition: 'to demand something forcefully', example: 'She insisted that we arrive on time.' },
+          { word: 'urge', definition: 'to strongly recommend or advise', example: 'Doctors urge people to eat healthily.' },
+          { word: 'boast', definition: 'to talk with excessive pride about something', example: 'He boasted that he was the best player.' },
+          { word: 'complain', definition: 'to express dissatisfaction', example: 'They complained that the service was poor.' },
+          { word: 'emphasize', definition: 'to stress the importance of something', example: 'She emphasized that punctuality was essential.' },
+          { word: 'acknowledge', definition: 'to accept or admit the truth', example: 'He acknowledged that he had been wrong.' },
+          { word: 'reassure', definition: 'to comfort someone and remove their doubts', example: 'She reassured me that everything would be fine.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which verb means "to talk with excessive pride"?',
+            options: ['claim', 'boast', 'urge', 'acknowledge'],
+            correctAnswer: 'boast',
+            explanation: 'Boast = presumir, alardear.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'The teacher _____ the importance of regular practice.',
+            correctAnswer: 'emphasized',
+            explanation: 'Emphasize = enfatizar, recalcar.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-writing-1',
+        type: 'writing',
+        prompt: 'Write a narrative (200-220 words) reporting a conversation or meeting you had. Use at least 8 different reporting verbs (suggested, explained, admitted, warned, recommended, etc.). Focus on using correct reported speech structures and backshifting.',
+        writingType: 'article',
+        minWords: 200,
+        maxWords: 220,
+        timeLimit: 35,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Vary your reporting verbs—don\'t repeat "said"',
+          'Apply correct backshifting of tenses',
+          'Include both statements and questions',
+          'Use appropriate time expressions (the day before, the next day)',
+          'Structure: Context → Main content of conversation → Outcome',
+          'Check verb patterns: suggest + -ing, advise + to infinitive, etc.'
+        ]
+      },
+      {
+        id: 'b2-m2-l3-keytransform-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Reported Speech',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt1',
+            sentence: '"I didn\'t break the window," Tom said.',
+            keyWord: 'denied',
+            startOfAnswer: 'Tom',
+            correctAnswer: 'denied breaking the window',
+            explanation: 'Deny + -ing form.',
+            points: 2
+          },
+          {
+            id: 'kt2',
+            sentence: '"You should see a doctor," she told me.',
+            keyWord: 'advised',
+            startOfAnswer: 'She',
+            correctAnswer: 'advised me to see',
+            explanation: 'Advise + object + to infinitive.',
+            points: 2
+          },
+          {
+            id: 'kt3',
+            sentence: '"Let\'s go to the beach," Sarah suggested.',
+            keyWord: 'going',
+            startOfAnswer: 'Sarah suggested',
+            correctAnswer: 'going to the beach',
+            explanation: 'Suggest + -ing.',
+            points: 2
+          },
+          {
+            id: 'kt4',
+            sentence: '"I\'m sorry I\'m late," he said.',
+            keyWord: 'apologized',
+            startOfAnswer: 'He',
+            correctAnswer: 'apologized for being late',
+            explanation: 'Apologize + for + -ing.',
+            points: 2
+          },
+          {
+            id: 'kt5',
+            sentence: '"Don\'t forget to lock the door," Mom said to me.',
+            keyWord: 'reminded',
+            startOfAnswer: 'Mom',
+            correctAnswer: 'reminded me to lock',
+            explanation: 'Remind + object + to infinitive.',
+            points: 2
+          },
+          {
+            id: 'kt6',
+            sentence: '"You stole my idea!" she said to him.',
+            keyWord: 'accused',
+            startOfAnswer: 'She',
+            correctAnswer: 'accused him of stealing',
+            explanation: 'Accuse + object + of + -ing.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-wordform-1',
+        type: 'word-formation',
+        title: 'Word Formation: Communication Vocabulary',
+        text: `Effective communication requires more than just speaking clearly. It involves (1. ACTIVE)_____ listening to understand others' perspectives. Good communicators show (2. PATIENT)_____ and avoid making (3. ASSUME)_____ about what others mean. They seek (4. CLEAR)_____ when something is (5. CERTAIN)_____. In professional settings, (6. FORMAL)_____ is important, but so is (7. SINCERE)_____. People appreciate (8. HONEST)_____ even when the message is difficult to hear.`,
+        questions: [
+          { id: 'q1', gapNumber: 1, baseWord: 'ACTIVE', correctAnswer: 'active', acceptableAnswers: ['active', 'actively'], explanation: '"Active listening" - engaged and attentive. Can also use adverb "actively".', wordType: 'adjective/adverb', transformation: 'no change or + -ly', points: 1 },
+          { id: 'q2', gapNumber: 2, baseWord: 'PATIENT', correctAnswer: 'patience', acceptableAnswers: ['patience'], explanation: '"Show patience" - the quality of being patient.', wordType: 'noun', transformation: 'adjective → noun (-ence)', points: 1 },
+          { id: 'q3', gapNumber: 3, baseWord: 'ASSUME', correctAnswer: 'assumptions', acceptableAnswers: ['assumptions'], explanation: '"Making assumptions" - things believed without proof.', wordType: 'noun (plural)', transformation: 'verb → noun (-tion) + plural', points: 1 },
+          { id: 'q4', gapNumber: 4, baseWord: 'CLEAR', correctAnswer: 'clarification', acceptableAnswers: ['clarification', 'clarity'], explanation: '"Seek clarification" - the act of making something clear.', wordType: 'noun', transformation: 'adjective → noun (-ification or -ity)', points: 1 },
+          { id: 'q5', gapNumber: 5, baseWord: 'CERTAIN', correctAnswer: 'uncertain', acceptableAnswers: ['uncertain'], explanation: '"Is uncertain" - not clear or definite.', wordType: 'adjective', transformation: 'adjective → negative adjective (un-)', points: 1 },
+          { id: 'q6', gapNumber: 6, baseWord: 'FORMAL', correctAnswer: 'formality', acceptableAnswers: ['formality'], explanation: '"Formality is important" - being formal.', wordType: 'noun', transformation: 'adjective → noun (-ity)', points: 1 },
+          { id: 'q7', gapNumber: 7, baseWord: 'SINCERE', correctAnswer: 'sincerity', acceptableAnswers: ['sincerity'], explanation: '"Sincerity" - the quality of being genuine and honest.', wordType: 'noun', transformation: 'adjective → noun (-ity)', points: 1 },
+          { id: 'q8', gapNumber: 8, baseWord: 'HONEST', correctAnswer: 'honesty', acceptableAnswers: ['honesty'], explanation: '"Honesty" - the quality of being truthful.', wordType: 'noun', transformation: 'adjective → noun (-y)', points: 1 }
+        ],
+        focusAreas: ['Noun formation', 'Negative prefixes', 'Communication vocabulary']
+      },
+      {
+        id: 'b2-m2-l3-pronunciation',
+        type: 'pronunciation',
+        title: 'Pronunciation: Reporting Verbs',
+        instructions: 'Practice pronouncing common reporting verbs with correct stress.',
+        words: [
+          {
+            word: 'suggest',
+            phonetic: '/səˈdʒest/',
+            audioUrl: '/audio/suggest.mp3',
+            stressPattern: 'Stress on second syllable: sug-GEST',
+            commonErrors: 'Don\'t stress first syllable',
+            example: 'She suggested /səˈdʒest/ going to the cinema.'
+          },
+          {
+            word: 'recommend',
+            phonetic: '/ˌrekəˈmend/',
+            audioUrl: '/audio/recommend.mp3',
+            stressPattern: 'Primary stress on third syllable: rec-om-MEND',
+            commonErrors: 'Note secondary stress on first syllable',
+            example: 'They recommended /ˌrekəˈmend/ the restaurant.'
+          },
+          {
+            word: 'emphasize',
+            phonetic: '/ˈemfəsaɪz/',
+            audioUrl: '/audio/emphasize.mp3',
+            stressPattern: 'Stress on first syllable: EM-pha-size',
+            commonErrors: 'Middle syllable is weak /fə/',
+            example: 'She emphasized /ˈemfəsaɪz/ the importance of teamwork.'
+          },
+          {
+            word: 'apologize',
+            phonetic: '/əˈpɒlədʒaɪz/',
+            audioUrl: '/audio/apologize.mp3',
+            stressPattern: 'Stress on second syllable: a-POL-o-gize',
+            commonErrors: 'Don\'t stress first or last syllable',
+            example: 'He apologized /əˈpɒlədʒaɪz/ for being late.'
+          },
+          {
+            word: 'acknowledge',
+            phonetic: '/əkˈnɒlɪdʒ/',
+            audioUrl: '/audio/acknowledge.mp3',
+            stressPattern: 'Stress on second syllable: ac-KNOWL-edge',
+            commonErrors: 'Silent "k" in "knowl"',
+            example: 'She acknowledged /əkˈnɒlɪdʒ/ the mistake.'
+          }
+        ],
+        exercises: [
+          {
+            id: 'pr1',
+            type: 'pronunciation-practice',
+            instruction: 'Practice these reported speech sentences with correct stress',
+            sentences: [
+              'He suggested meeting at six o\'clock.',
+              'They recommended visiting the museum.',
+              'She emphasized the need for caution.',
+              'I apologized for the inconvenience.',
+              'He acknowledged that he was wrong.'
+            ],
+            points: 5
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-integrated-1',
+        type: 'reading',
+        title: 'Integrated Skills: The Whistleblower',
+        text: `Sarah Chen had been working at TechCorp for five years when she discovered irregularities in the company's financial reports. After several sleepless nights, she decided to report what she had found. She knew the consequences could be severe, but she felt it was the right thing to do.
+
+First, Sarah approached her direct supervisor, Mark, and explained that she had noticed some concerning patterns in the quarterly reports. Mark told her not to worry about it and suggested that she was probably misinterpreting the data. He warned her not to discuss it with anyone else. However, Sarah couldn't ignore what she had seen. She insisted that someone needed to investigate the matter properly.
+
+Feeling unsupported, Sarah contacted the company's ethics hotline. The compliance officer, Janet, listened carefully and asked Sarah to provide detailed documentation. Sarah admitted that she was nervous about potential retaliation but emphasized that she believed the company was at risk. Janet reassured her that the company protected whistleblowers and promised that her identity would remain confidential.
+
+An internal investigation was launched. Several weeks later, the CEO held a company-wide meeting. He announced that irregularities had been found and thanked the person who had reported them, without naming Sarah. He explained that the board had accepted the CFO's resignation and claimed that new procedures would prevent similar issues in the future.
+
+Mark, Sarah's supervisor, never acknowledged his mistake. However, he told her privately that he had been afraid of making waves. He apologized for not supporting her and admitted that he had known something was wrong but had chosen to look the other way. Sarah accepted his apology but suggested that they both needed to learn from the experience.
+
+Looking back, Sarah said she would do the same thing again. She emphasized that integrity was more important than job security and encouraged others to speak up when they witnessed wrongdoing. Her story became an inspiration to many employees at TechCorp and beyond.`,
+        wordCount: 340,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What did Mark suggest when Sarah first approached him?',
+            options: [
+              'She should investigate further',
+              'She was probably wrong',
+              'She should contact HR',
+              'She should tell everyone'
+            ],
+            correctAnswer: 'She was probably wrong',
+            explanation: 'Mark "suggested that she was probably misinterpreting the data".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Find and write 3 different reporting verbs used in paragraph 3.',
+            correctAnswer: 'listened, asked, admitted, emphasized, reassured, promised (any 3)',
+            explanation: 'Multiple reporting verbs are used to describe the conversation with Janet.',
+            points: 3
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: The CEO revealed Sarah\'s name during the company meeting.',
+            correctAnswer: 'False',
+            explanation: 'The text says he "thanked the person...without naming Sarah".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'short-answer',
+            question: 'What did Mark admit to Sarah privately?',
+            correctAnswer: 'That he had known something was wrong but had chosen to look the other way / He was afraid of making waves',
+            explanation: 'Mark admitted both pieces of information.',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: 'What did Sarah emphasize when reflecting on her experience?',
+            options: [
+              'Money is most important',
+              'Integrity matters more than job security',
+              'Never trust supervisors',
+              'Always follow orders'
+            ],
+            correctAnswer: 'Integrity matters more than job security',
+            explanation: 'Sarah "emphasized that integrity was more important than job security".',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'Writing Task: Write a paragraph (100-120 words) reporting a difficult conversation or ethical dilemma you faced or witnessed. Use at least 5 different reporting verbs and correct backshifting.',
+            correctAnswer: '',
+            explanation: 'Evaluate based on: correct use of reporting verbs, appropriate backshifting, varied verb patterns, and coherent narrative.',
+            points: 10
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'irregularities', definition: 'things that are not normal or correct' },
+          { word: 'retaliation', definition: 'revenge or punishment in response to an action' },
+          { word: 'whistleblower', definition: 'a person who reports wrongdoing in an organization' },
+          { word: 'making waves', definition: 'causing trouble or disruption' },
+          { word: 'integrity', definition: 'honesty and moral principles' }
+        ]
       }
     ]
   },
@@ -6391,6 +8885,991 @@ As we move forward, experts predict that hybrid models will become the {{7}}. Ra
           'Body paragraph 2: Disadvantages (with linking words)',
           'Conclusion: Balanced view',
           'Use: furthermore, nevertheless, moreover, on the other hand, whereas, consequently'
+        ]
+      },
+      {
+        id: 'b2-m2-l4-grammar-1',
+        type: 'grammar',
+        title: 'Linking Words: Addition',
+        grammarPoint: 'Adding information: furthermore, moreover, in addition, additionally, besides',
+        explanation: 'Estos conectores añaden información o argumentos adicionales:\n- Furthermore/Moreover: Además (formal)\n- In addition/Additionally: Además\n- Besides: Además de esto\n- What\'s more: Lo que es más (informal)\n\nNota: Van al principio de oración seguidos de coma.',
+        examples: [
+          'The course is expensive. Furthermore, it requires a lot of time.',
+          'She speaks French. Moreover, she lived in Paris for five years.',
+          'In addition to the salary, they offer excellent benefits.',
+          'The hotel is centrally located. Besides, it has great reviews.',
+          'He\'s qualified. What\'s more, he has relevant experience.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose the most formal connector: The project is over budget. ___, it\'s behind schedule.',
+            options: ['What\'s more', 'Furthermore', 'Besides', 'Plus'],
+            correctAnswer: 'Furthermore',
+            explanation: 'Furthermore es el conector más formal para añadir información.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: The apartment is spacious and well-lit. ___ ___, it has a beautiful view.',
+            correctAnswer: 'In addition/What\'s more/Moreover/Furthermore',
+            explanation: 'Cualquiera de estos conectores añade información positiva.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-grammar-2',
+        type: 'grammar',
+        title: 'Linking Words: Contrast',
+        grammarPoint: 'Contrasting ideas: however, nevertheless, on the other hand, whereas, while',
+        explanation: 'Conectores para contrastar ideas:\n- However/Nevertheless: Sin embargo (formal)\n- On the other hand: Por otro lado\n- Whereas/While: Mientras que (dentro de oración)\n- In contrast: En contraste\n- Despite/In spite of + noun/gerund',
+        examples: [
+          'The weather was bad. However, we enjoyed the trip.',
+          'The task was difficult. Nevertheless, they completed it.',
+          'I enjoy the city, whereas my partner prefers the countryside.',
+          'Online shopping is convenient. On the other hand, you can\'t try before buying.',
+          'Despite the rain, we went hiking.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which connector goes INSIDE the sentence?',
+            options: ['However', 'Nevertheless', 'Whereas', 'On the other hand'],
+            correctAnswer: 'Whereas',
+            explanation: 'Whereas se usa dentro de la oración para conectar dos cláusulas.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Combine using "despite": "It was raining. We played football."',
+            correctAnswer: 'Despite the rain, we played football/We played football despite the rain',
+            explanation: 'Despite + noun (the rain).',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-grammar-3',
+        type: 'grammar',
+        title: 'Linking Words: Cause and Effect',
+        grammarPoint: 'Expressing cause and result: consequently, therefore, as a result, due to, owing to',
+        explanation: 'Conectores de causa y efecto:\n- Consequently/Therefore/Thus: Por lo tanto (formal)\n- As a result: Como resultado\n- Due to/Owing to + noun: Debido a\n- Because of + noun\n- Since/As: Como (al principio)',
+        examples: [
+          'Sales dropped significantly. Consequently, the company laid off staff.',
+          'The evidence was compelling. Therefore, they reached a verdict.',
+          'He studied hard. As a result, he passed the exam.',
+          'The flight was cancelled due to bad weather.',
+          'Since you\'re here, let\'s discuss the project.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '"Due to" must be followed by:',
+            options: ['a verb', 'a clause', 'a noun/noun phrase', 'an adjective'],
+            correctAnswer: 'a noun/noun phrase',
+            explanation: 'Due to + noun/noun phrase (Due to the rain, Due to delays)',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: Traffic was terrible. ___, I arrived late.',
+            correctAnswer: 'Consequently/Therefore/As a result',
+            explanation: 'Conectores que expresan resultado.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-cloze-1',
+        type: 'multiple-choice-cloze',
+        title: 'Multiple Choice Cloze: The Future of Education',
+        text: `The education system has undergone dramatic changes in recent years. Traditional classroom-based learning has long been the norm. (1)_____, online education has emerged as a viable alternative. Many students now have access to courses from top universities worldwide. (2)_____, this democratization of education hasn't solved all problems.
+
+(3)_____ online learning offers flexibility and convenience, it also presents challenges. Students must be highly self-motivated, (4)_____ they risk falling behind. (5)_____, the lack of face-to-face interaction can make it difficult to build relationships with peers and instructors. (6)_____ these challenges, many institutions are developing hybrid models that combine the best of both approaches.
+
+(7)_____, technology continues to advance, we can expect further innovations in education. Virtual reality, for instance, could revolutionize how we teach complex subjects. (8)_____ the future of education will likely involve a blend of traditional and digital methods, rather than one completely replacing the other.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '1. _____',
+            options: ['Therefore', 'However', 'Consequently', 'Thus'],
+            correctAnswer: 'However',
+            explanation: 'However introduce un contraste con la idea anterior.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: '2. _____',
+            options: ['Furthermore', 'Nevertheless', 'Therefore', 'Consequently'],
+            correctAnswer: 'Nevertheless',
+            explanation: 'Nevertheless indica que a pesar del aspecto positivo, hay problemas.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: '3. _____',
+            options: ['Despite', 'Although', 'However', 'Nevertheless'],
+            correctAnswer: 'Although',
+            explanation: 'Although + clause (Although online learning offers...)',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '4. _____',
+            options: ['therefore', 'otherwise', 'moreover', 'furthermore'],
+            correctAnswer: 'otherwise',
+            explanation: 'Otherwise = si no, de lo contrario.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: '5. _____',
+            options: ['Therefore', 'Furthermore', 'However', 'Nevertheless'],
+            correctAnswer: 'Furthermore',
+            explanation: 'Furthermore añade otro desafío a la lista.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: '6. _____',
+            options: ['Despite', 'Although', 'However', 'In spite'],
+            correctAnswer: 'Despite',
+            explanation: 'Despite + noun phrase (Despite these challenges)',
+            points: 1
+          },
+          {
+            id: 'q7',
+            type: 'multiple-choice',
+            question: '7. _____',
+            options: ['Because', 'As', 'Since', 'Due to'],
+            correctAnswer: 'As',
+            explanation: 'As + clause al principio de oración expresa causa.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            type: 'multiple-choice',
+            question: '8. _____',
+            options: ['Consequently', 'Therefore', 'Thus', 'In conclusion'],
+            correctAnswer: 'In conclusion',
+            explanation: 'In conclusion introduce la conclusión final.',
+            points: 1
+          }
+        ],
+        focusAreas: ['Linking words', 'Discourse markers', 'Text cohesion']
+      },
+      {
+        id: 'b2-m2-l4-sentence-completion',
+        type: 'sentence-completion',
+        title: 'Sentence Completion: Using Connectors',
+        instructions: 'Complete each sentence with an appropriate continuation using linking words.',
+        sentences: [
+          {
+            id: 'sc1',
+            incompleteSentence: 'The company\'s profits increased significantly. Furthermore,',
+            sampleCompletions: [
+              'they expanded into new markets',
+              'employee satisfaction reached an all-time high',
+              'market share grew by 15%'
+            ],
+            evaluationCriteria: 'Should add related positive information',
+            points: 3
+          },
+          {
+            id: 'sc2',
+            incompleteSentence: 'The experiment yielded interesting results. Nevertheless,',
+            sampleCompletions: [
+              'more research is needed to confirm the findings',
+              'several variables remain unexplained',
+              'critics questioned the methodology'
+            ],
+            evaluationCriteria: 'Should contrast with a limitation or problem',
+            points: 3
+          },
+          {
+            id: 'sc3',
+            incompleteSentence: 'The roads were icy. Consequently,',
+            sampleCompletions: [
+              'many accidents occurred throughout the city',
+              'schools were closed for the day',
+              'traffic moved at a crawl'
+            ],
+            evaluationCriteria: 'Should show result/consequence',
+            points: 3
+          },
+          {
+            id: 'sc4',
+            incompleteSentence: 'I prefer working independently, whereas',
+            sampleCompletions: [
+              'my colleague thrives in team environments',
+              'some people need constant collaboration',
+              'others enjoy group projects'
+            ],
+            evaluationCriteria: 'Should provide contrasting preference',
+            points: 3
+          },
+          {
+            id: 'sc5',
+            incompleteSentence: 'Despite the challenges,',
+            sampleCompletions: [
+              'the team completed the project on time',
+              'we managed to achieve our goals',
+              'morale remained high throughout'
+            ],
+            evaluationCriteria: 'Should show success/positive outcome',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-error-identification',
+        type: 'error-identification',
+        title: 'Error Correction: Linking Words',
+        instructions: 'Identify and correct the errors in the use of linking words.',
+        sentences: [
+          {
+            id: 'err1',
+            sentence: 'The plan was expensive. Despite, they approved it.',
+            error: 'Despite',
+            correction: 'Despite this/Nevertheless',
+            explanation: 'Despite necesita un noun phrase después. Usa "Despite this" o cambia a "Nevertheless".',
+            points: 2
+          },
+          {
+            id: 'err2',
+            sentence: 'Although the weather, we went hiking.',
+            error: 'Although the weather',
+            correction: 'Despite the weather',
+            explanation: 'Although necesita una cláusula completa (Although the weather was bad). Con noun, usa Despite.',
+            points: 2
+          },
+          {
+            id: 'err3',
+            sentence: 'He studied hard, however he failed the exam.',
+            error: 'hard, however',
+            correction: 'hard. However, he/hard; however, he',
+            explanation: 'However es un adverbio conjuntivo, necesita punto y coma o punto antes.',
+            points: 2
+          },
+          {
+            id: 'err4',
+            sentence: 'The project was late due to the team didn\'t communicate well.',
+            error: 'due to the team didn\'t',
+            correction: 'because the team didn\'t/due to poor communication',
+            explanation: 'Due to + noun/noun phrase. Con cláusula completa, usa "because".',
+            points: 2
+          },
+          {
+            id: 'err5',
+            sentence: 'She is talented. Moreover that, she works very hard.',
+            error: 'Moreover that',
+            correction: 'Moreover,/In addition to that,',
+            explanation: 'Moreover no va seguido de "that". Usa "Moreover," solo o "In addition to that,"',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-reading-1',
+        type: 'reading',
+        title: 'Reading: The Benefits of Bilingualism',
+        text: `Learning a second language offers numerous cognitive benefits. Research has consistently shown that bilingual individuals perform better on tasks requiring attention and problem-solving. Furthermore, they demonstrate enhanced memory and multitasking abilities compared to monolingual peers.
+
+The advantages extend beyond cognitive function. Bilingualism can open doors to career opportunities in an increasingly globalized world. Moreover, it allows people to connect with different cultures and perspectives. On the other hand, learning a second language requires significant time and effort, particularly for adults.
+
+Despite these challenges, the benefits clearly outweigh the costs. Studies indicate that bilingual children show greater mental flexibility and creativity. Additionally, speaking multiple languages may help delay the onset of dementia and other age-related cognitive decline. Consequently, many education systems are introducing foreign language instruction at earlier ages.
+
+Nevertheless, critics argue that early language education can be confusing for young children. They worry that learning two languages simultaneously might slow down language development. However, research has largely debunked this myth. In fact, bilingual children often develop stronger metalinguistic awareness—an understanding of how language works.
+
+In conclusion, while becoming bilingual requires dedication, the cognitive, social, and professional advantages make it a worthwhile pursuit. As our world becomes more interconnected, the ability to communicate across linguistic barriers will only grow in importance.`,
+        wordCount: 220,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, what is one cognitive benefit of bilingualism?',
+            options: [
+              'Better athletic performance',
+              'Enhanced memory',
+              'Improved artistic skills',
+              'Faster reading speed'
+            ],
+            correctAnswer: 'Enhanced memory',
+            explanation: 'El texto menciona "enhanced memory" como uno de los beneficios cognitivos.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name TWO linking words from the text that add information.',
+            correctAnswer: 'Furthermore, Moreover, Additionally, In fact (any two)',
+            explanation: 'Estos conectores añaden información adicional.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What concern do critics have about early language education?',
+            options: [
+              'It costs too much',
+              'It might confuse children',
+              'Teachers are unqualified',
+              'It takes time from other subjects'
+            ],
+            correctAnswer: 'It might confuse children',
+            explanation: 'Los críticos "worry that learning two languages simultaneously might slow down language development".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'Complete this sentence from the text: "___ these challenges, the benefits clearly outweigh the costs."',
+            correctAnswer: 'Despite',
+            explanation: 'Despite + noun phrase para contrastar.',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'According to the text, what is "metalinguistic awareness"?',
+            correctAnswer: 'An understanding of how language works',
+            explanation: 'El texto define metalinguistic awareness como "an understanding of how language works".',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'cognitive', definition: 'related to thinking and mental processes' },
+          { word: 'monolingual', definition: 'speaking only one language' },
+          { word: 'onset', definition: 'the beginning or start of something' },
+          { word: 'dementia', definition: 'mental decline affecting memory and thinking' },
+          { word: 'debunked', definition: 'proved to be false' }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-paraphrasing',
+        type: 'paraphrasing',
+        title: 'Paraphrasing with Linking Words',
+        instructions: 'Rewrite each pair of sentences as one sentence using the linking word in parentheses.',
+        sentences: [
+          {
+            id: 'p1',
+            original: 'The price was high. We decided to buy it. (nevertheless)',
+            paraphrased: 'The price was high. Nevertheless, we decided to buy it.',
+            alternatives: [
+              'The price was high; nevertheless, we decided to buy it.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p2',
+            original: 'She speaks fluent Spanish. She has never been to Spain. (despite)',
+            paraphrased: 'Despite speaking fluent Spanish, she has never been to Spain./She speaks fluent Spanish despite never having been to Spain.',
+            alternatives: [
+              'Despite the fact that she speaks fluent Spanish, she has never been to Spain.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p3',
+            original: 'The restaurant has excellent food. The service is outstanding. (furthermore)',
+            paraphrased: 'The restaurant has excellent food. Furthermore, the service is outstanding.',
+            alternatives: [
+              'The restaurant has excellent food; furthermore, the service is outstanding.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p4',
+            original: 'It rained heavily. The concert was cancelled. (consequently)',
+            paraphrased: 'It rained heavily. Consequently, the concert was cancelled.',
+            alternatives: [
+              'It rained heavily; consequently, the concert was cancelled.',
+              'The concert was cancelled because it rained heavily.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p5',
+            original: 'I prefer tea. My sister prefers coffee. (whereas)',
+            paraphrased: 'I prefer tea, whereas my sister prefers coffee.',
+            alternatives: [
+              'Whereas I prefer tea, my sister prefers coffee.'
+            ],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-collocation-matching',
+        type: 'collocation-matching',
+        title: 'Collocation Matching: Discourse Markers',
+        instructions: 'Match the discourse markers with their functions.',
+        pairs: [
+          {
+            left: 'In conclusion',
+            right: 'Summarizing main points',
+            explanation: 'Usado para concluir y resumir.'
+          },
+          {
+            left: 'For instance',
+            right: 'Giving an example',
+            explanation: 'Introduce un ejemplo específico.'
+          },
+          {
+            left: 'On the contrary',
+            right: 'Contradicting a previous statement',
+            explanation: 'Contradice completamente lo dicho antes.'
+          },
+          {
+            left: 'To sum up',
+            right: 'Summarizing briefly',
+            explanation: 'Resume brevemente los puntos principales.'
+          },
+          {
+            left: 'That is to say',
+            right: 'Clarifying/rephrasing',
+            explanation: 'Clarifica o reformula la idea anterior.'
+          },
+          {
+            left: 'As a matter of fact',
+            right: 'Emphasizing truth',
+            explanation: 'Enfatiza que algo es verdadero.'
+          },
+          {
+            left: 'In other words',
+            right: 'Rephrasing for clarity',
+            explanation: 'Reformula con palabras más simples.'
+          },
+          {
+            left: 'At any rate',
+            right: 'Anyway/in any case',
+            explanation: 'Significa "de todos modos" o "en cualquier caso".'
+          }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l4-phrasal-verbs',
+        type: 'vocabulary',
+        title: 'Phrasal Verbs: Communication & Discussion',
+        vocabularySet: [
+          { word: 'bring up', definition: 'mention or introduce a topic', example: 'She brought up an interesting point during the meeting.' },
+          { word: 'point out', definition: 'draw attention to something', example: 'He pointed out several errors in the report.' },
+          { word: 'sum up', definition: 'summarize briefly', example: 'To sum up, we need to increase our marketing budget.' },
+          { word: 'go over', definition: 'review or examine', example: 'Let\'s go over the main points again.' },
+          { word: 'get across', definition: 'communicate successfully', example: 'It\'s difficult to get my ideas across in a foreign language.' },
+          { word: 'put forward', definition: 'propose or suggest', example: 'They put forward several innovative solutions.' },
+          { word: 'talk over', definition: 'discuss thoroughly', example: 'We need to talk over this issue before making a decision.' },
+          { word: 'spell out', definition: 'explain in detail', example: 'Could you spell out exactly what you mean?' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'fill-blank',
+            question: 'She ___ ___ an important issue that we had overlooked.',
+            correctAnswer: 'brought up',
+            explanation: 'Bring up = mencionar un tema.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'Which phrasal verb means "to explain clearly and in detail"?',
+            options: ['sum up', 'spell out', 'go over', 'get across'],
+            correctAnswer: 'spell out',
+            explanation: 'Spell out = explicar detalladamente.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'To ___ ___, I think we should postpone the launch.',
+            correctAnswer: 'sum up',
+            explanation: 'Sum up = resumir.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-idioms',
+        type: 'vocabulary',
+        title: 'Idioms: Discussion & Debate',
+        vocabularySet: [
+          { word: 'to get to the point', definition: 'to talk about the most important thing', example: 'Stop rambling and get to the point!' },
+          { word: 'to see eye to eye', definition: 'to agree with someone', example: 'We don\'t always see eye to eye on politics.' },
+          { word: 'to beat around the bush', definition: 'to avoid talking about the main issue', example: 'Don\'t beat around the bush—tell me what happened.' },
+          { word: 'to make a long story short', definition: 'to summarize quickly', example: 'To make a long story short, we missed the train.' },
+          { word: 'to get something off your chest', definition: 'to tell someone about something that has been worrying you', example: 'I need to get this off my chest—I\'ve been feeling anxious about the presentation.' },
+          { word: 'to have a say in something', definition: 'to have the right to give your opinion', example: 'Employees should have a say in company decisions.' },
+          { word: 'that\'s beside the point', definition: 'that\'s not relevant to the discussion', example: 'Whether it\'s expensive is beside the point—we need it.' },
+          { word: 'to put it mildly', definition: 'to understate something (it\'s actually worse)', example: 'The presentation was disappointing, to put it mildly.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'If someone is "beating around the bush," they are:',
+            options: [
+              'getting to the point quickly',
+              'avoiding the main issue',
+              'being very direct',
+              'summarizing effectively'
+            ],
+            correctAnswer: 'avoiding the main issue',
+            explanation: 'Beat around the bush = evitar el tema principal.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'We rarely ___ ___ ___ ___ on this topic—we always disagree.',
+            correctAnswer: 'see eye to eye',
+            explanation: 'See eye to eye = estar de acuerdo.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-gap-fill',
+        type: 'gap-fill',
+        title: 'Gap-fill: Climate Change Debate',
+        text: `The debate surrounding climate change has intensified in recent years. Scientists overwhelmingly agree that global temperatures are rising. (1)_____, there is disagreement about the best solutions to address this crisis.
+
+Some argue that renewable energy is the answer. (2)_____, solar and wind power have become increasingly affordable and efficient. (3)_____, they point out that transitioning away from fossil fuels would create millions of new jobs.
+
+(4)_____, critics raise concerns about the reliability of renewable energy. They argue that solar and wind are intermittent sources. (5)_____, they question whether these technologies can meet global energy demands.
+
+(6)_____ these objections, many countries have committed to ambitious climate targets. (7)_____, the European Union aims to achieve carbon neutrality by 2050. (8)_____, individual action alone won't solve the problem—systemic changes are essential.
+
+In conclusion, (9)_____ the challenges are significant, the cost of inaction would be far greater. (10)_____, we must act decisively to protect our planet for future generations.`,
+        gaps: [
+          { id: 'gap1', correctAnswers: ['However', 'Nevertheless'], explanation: 'Contrasta con el acuerdo sobre temperaturas.' },
+          { id: 'gap2', correctAnswers: ['For instance', 'For example'], explanation: 'Introduce un ejemplo.' },
+          { id: 'gap3', correctAnswers: ['Furthermore', 'Moreover', 'Additionally', 'In addition'], explanation: 'Añade otro argumento.' },
+          { id: 'gap4', correctAnswers: ['However', 'Nevertheless', 'On the other hand'], explanation: 'Introduce la posición contraria.' },
+          { id: 'gap5', correctAnswers: ['Furthermore', 'Moreover', 'Additionally'], explanation: 'Añade otra preocupación de los críticos.' },
+          { id: 'gap6', correctAnswers: ['Despite', 'Notwithstanding'], explanation: 'Despite + noun phrase.' },
+          { id: 'gap7', correctAnswers: ['For instance', 'For example'], explanation: 'Introduce un ejemplo específico.' },
+          { id: 'gap8', correctAnswers: ['However', 'Nevertheless', 'Nonetheless'], explanation: 'Contrasta con la acción de países.' },
+          { id: 'gap9', correctAnswers: ['although', 'while', 'though'], explanation: 'Although + clause.' },
+          { id: 'gap10', correctAnswers: ['Therefore', 'Consequently', 'Thus'], explanation: 'Expresa conclusión lógica.' }
+        ],
+        instructions: 'Fill in the gaps with appropriate linking words or discourse markers.',
+        points: 10
+      },
+      {
+        id: 'b2-m2-l4-sentence-reordering',
+        type: 'sentence-reordering',
+        title: 'Sentence Reordering: Building an Argument',
+        instructions: 'Put the sentences in the correct order to form a coherent paragraph.',
+        sentences: [
+          { id: 's1', text: 'In conclusion, regular exercise is essential for maintaining both physical and mental health.', order: 8 },
+          { id: 's2', text: 'Moreover, it can improve sleep quality and boost energy levels throughout the day.', order: 4 },
+          { id: 's3', text: 'On the other hand, finding time to exercise can be challenging for busy professionals.', order: 5 },
+          { id: 's4', text: 'Regular exercise offers numerous health benefits that extend far beyond physical fitness.', order: 1 },
+          { id: 's5', text: 'For instance, studies show that exercise reduces the risk of heart disease, diabetes, and certain cancers.', order: 2 },
+          { id: 's6', text: 'Nevertheless, even short periods of activity—such as a 20-minute walk—can make a significant difference.', order: 6 },
+          { id: 's7', text: 'Furthermore, physical activity has been proven to reduce stress and anxiety.', order: 3 },
+          { id: 's8', text: 'Therefore, incorporating some form of exercise into your daily routine should be a priority.', order: 7 }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l4-listening',
+        type: 'listening',
+        title: 'Listening: Interview with a Debate Coach',
+        audioUrl: '/audio/b2-m2-l4-debate-coach.mp3',
+        duration: 150,
+        transcript: `Interviewer: Today we're speaking with Sarah Mitchell, a professional debate coach. Sarah, what's the most important skill in debating?
+
+Sarah: Well, I'd say it's the ability to structure your arguments logically. You need to present your points clearly. Furthermore, you must support each claim with evidence. However, it's not just about what you say—it's also about how you respond to opposing viewpoints.
+
+Interviewer: How should someone respond to a counter-argument?
+
+Sarah: First, acknowledge the other person's point. You might say "That's a valid concern" or "I understand that perspective." Nevertheless, you then need to explain why your position is stronger. For instance, you could point out flaws in their reasoning or provide contradictory evidence.
+
+Interviewer: What about using linking words?
+
+Sarah: They're absolutely crucial. Linking words like "furthermore," "on the other hand," and "consequently" help your audience follow your train of thought. Moreover, they make you sound more credible and persuasive. Without them, your argument can seem disjointed.
+
+Interviewer: Any final advice?
+
+Sarah: Practice! Watch experienced debaters and note how they structure arguments. Additionally, read well-written opinion pieces to see how professionals use linking words. Most importantly, don't be afraid to engage in respectful discussions—that's how you improve.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to Sarah, what is the most important skill in debating?',
+            options: [
+              'Speaking loudly',
+              'Structuring arguments logically',
+              'Using difficult vocabulary',
+              'Winning at all costs'
+            ],
+            correctAnswer: 'Structuring arguments logically',
+            explanation: 'Sarah dice: "the ability to structure your arguments logically".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'What should you do FIRST when responding to a counter-argument?',
+            correctAnswer: 'Acknowledge the other person\'s point',
+            explanation: 'Sarah dice: "First, acknowledge the other person\'s point".',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Why are linking words important in debates?',
+            options: [
+              'They make you sound intelligent',
+              'They help the audience follow your thoughts',
+              'They confuse your opponent',
+              'They fill time'
+            ],
+            correctAnswer: 'They help the audience follow your thoughts',
+            explanation: 'Sarah menciona que ayudan a "follow your train of thought".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'Name TWO linking words Sarah mentions in the interview.',
+            correctAnswer: 'furthermore, nevertheless, moreover, on the other hand, consequently (any two)',
+            explanation: 'Sarah menciona varios linking words como ejemplos.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Academic Discourse Markers',
+        vocabularySet: [
+          { word: 'arguably', definition: 'it can be argued that (used to present an opinion)', example: 'This is arguably the most important issue of our time.' },
+          { word: 'notably', definition: 'especially; in particular', example: 'Several countries, notably Japan and Germany, have aging populations.' },
+          { word: 'primarily', definition: 'mainly; chiefly', example: 'The company focuses primarily on software development.' },
+          { word: 'namely', definition: 'specifically; that is to say', example: 'Only one person knew the truth, namely the CEO.' },
+          { word: 'accordingly', definition: 'therefore; as a result', example: 'The deadline was missed. Accordingly, the project was delayed.' },
+          { word: 'likewise', definition: 'in the same way; also', example: 'Germany increased spending. France did likewise.' },
+          { word: 'conversely', definition: 'in an opposite way', example: 'Online sales increased. Conversely, retail sales declined.' },
+          { word: 'nonetheless', definition: 'nevertheless; despite that', example: 'The task was difficult. Nonetheless, they succeeded.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which word means "in an opposite way"?',
+            options: ['likewise', 'conversely', 'accordingly', 'notably'],
+            correctAnswer: 'conversely',
+            explanation: 'Conversely indica lo opuesto.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: Several countries, ___ Sweden and Denmark, have excellent social welfare systems.',
+            correctAnswer: 'notably',
+            explanation: 'Notably = especialmente, en particular.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-speaking-1',
+        type: 'speaking',
+        prompt: 'Present a 2-3 minute argument on ONE of these topics: "Should students be allowed to use smartphones in class?" OR "Is social media doing more harm than good?" Structure your response with clear linking words (at least 6 different ones). Include: introduction, main points, counter-argument, and conclusion.',
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Introduction: "Today I\'d like to discuss..."',
+          'Main points: "Firstly..., Secondly..., Furthermore..."',
+          'Counter-argument: "Some people argue that... However..."',
+          'Conclusion: "In conclusion..., Therefore..."',
+          'Use variety: nevertheless, moreover, on the other hand, consequently, despite this'
+        ]
+      },
+      {
+        id: 'b2-m2-l4-key-word-transformation',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformation: Linking Words',
+        instructions: 'Complete the second sentence so that it means the same as the first, using the word given. Use 2-5 words including the word given.',
+        transformations: [
+          {
+            id: 't1',
+            original: 'The weather was terrible but we enjoyed the trip.',
+            keyword: 'DESPITE',
+            answer: 'Despite the terrible weather',
+            fullSentence: 'Despite the terrible weather, we enjoyed the trip.',
+            points: 2
+          },
+          {
+            id: 't2',
+            original: 'He didn\'t study, so he failed the exam.',
+            keyword: 'CONSEQUENTLY',
+            answer: 'didn\'t study. Consequently, he',
+            fullSentence: 'He didn\'t study. Consequently, he failed the exam.',
+            points: 2
+          },
+          {
+            id: 't3',
+            original: 'The job is well-paid. It also offers great benefits.',
+            keyword: 'ADDITION',
+            answer: 'well-paid. In addition, it',
+            fullSentence: 'The job is well-paid. In addition, it offers great benefits.',
+            points: 2
+          },
+          {
+            id: 't4',
+            original: 'I like classical music but my brother prefers rock.',
+            keyword: 'WHEREAS',
+            answer: 'classical music, whereas my brother',
+            fullSentence: 'I like classical music, whereas my brother prefers rock.',
+            points: 2
+          },
+          {
+            id: 't5',
+            original: 'The evidence was convincing, so they changed their minds.',
+            keyword: 'RESULT',
+            answer: 'convincing. As a result, they',
+            fullSentence: 'The evidence was convincing. As a result, they changed their minds.',
+            points: 2
+          },
+          {
+            id: 't6',
+            original: 'She worked hard but she didn\'t get the promotion.',
+            keyword: 'NEVERTHELESS',
+            answer: 'worked hard. Nevertheless, she',
+            fullSentence: 'She worked hard. Nevertheless, she didn\'t get the promotion.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-word-formation',
+        type: 'word-formation',
+        title: 'Word Formation: Abstract Nouns for Discussion',
+        instructions: 'Complete each sentence with the correct form of the word in capitals.',
+        words: [
+          {
+            id: 'wf1',
+            sentence: 'The ___ between the two theories is significant.',
+            baseWord: 'DIFFERENT',
+            correctAnswer: 'difference',
+            explanation: 'difference (noun)',
+            points: 1
+          },
+          {
+            id: 'wf2',
+            sentence: 'There is growing ___ about climate change among young people.',
+            baseWord: 'AWARE',
+            correctAnswer: 'awareness',
+            explanation: 'awareness (noun)',
+            points: 1
+          },
+          {
+            id: 'wf3',
+            sentence: 'The ___ of the argument was immediately clear.',
+            baseWord: 'STRONG',
+            correctAnswer: 'strength',
+            explanation: 'strength (noun)',
+            points: 1
+          },
+          {
+            id: 'wf4',
+            sentence: 'His ___ was that the policy would fail.',
+            baseWord: 'CONCLUDE',
+            correctAnswer: 'conclusion',
+            explanation: 'conclusion (noun)',
+            points: 1
+          },
+          {
+            id: 'wf5',
+            sentence: 'The ___ of both parties is required to reach an agreement.',
+            baseWord: 'COOPERATE',
+            correctAnswer: 'cooperation',
+            explanation: 'cooperation (noun)',
+            points: 1
+          },
+          {
+            id: 'wf6',
+            sentence: 'There was considerable ___ among the committee members.',
+            baseWord: 'AGREE',
+            correctAnswer: 'agreement/disagreement',
+            explanation: 'agreement or disagreement (both nouns are grammatically correct)',
+            points: 1
+          },
+          {
+            id: 'wf7',
+            sentence: 'The ___ of the evidence cannot be disputed.',
+            baseWord: 'RELEVANT',
+            correctAnswer: 'relevance',
+            explanation: 'relevance (noun)',
+            points: 1
+          },
+          {
+            id: 'wf8',
+            sentence: 'Effective ___ is essential in any debate.',
+            baseWord: 'COMMUNICATE',
+            correctAnswer: 'communication',
+            explanation: 'communication (noun)',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-pronunciation',
+        type: 'pronunciation',
+        title: 'Pronunciation: Stress in Discourse Markers',
+        instructions: 'Practice the pronunciation and stress patterns of these discourse markers. Listen and repeat.',
+        words: [
+          {
+            word: 'nevertheless',
+            phonetic: '/ˌnevəðəˈles/',
+            audioUrl: '/audio/pronunciation/nevertheless.mp3',
+            stressPattern: 'Primary stress on the final syllable: neverthe-LESS'
+          },
+          {
+            word: 'consequently',
+            phonetic: '/ˈkɒnsɪkwəntli/',
+            audioUrl: '/audio/pronunciation/consequently.mp3',
+            stressPattern: 'Primary stress on first syllable: CON-se-quent-ly'
+          },
+          {
+            word: 'furthermore',
+            phonetic: '/ˌfɜːðəˈmɔː(r)/',
+            audioUrl: '/audio/pronunciation/furthermore.mp3',
+            stressPattern: 'Primary stress on final syllable: further-MORE'
+          },
+          {
+            word: 'however',
+            phonetic: '/haʊˈevə(r)/',
+            audioUrl: '/audio/pronunciation/however.mp3',
+            stressPattern: 'Primary stress on second syllable: how-EV-er'
+          },
+          {
+            word: 'additionally',
+            phonetic: '/əˈdɪʃənəli/',
+            audioUrl: '/audio/pronunciation/additionally.mp3',
+            stressPattern: 'Primary stress on second syllable: ad-DI-tion-al-ly'
+          },
+          {
+            word: 'whereas',
+            phonetic: '/weərˈæz/',
+            audioUrl: '/audio/pronunciation/whereas.mp3',
+            stressPattern: 'Primary stress on second syllable: where-AS'
+          }
+        ],
+        points: 6
+      },
+      {
+        id: 'b2-m2-l4-integrated-1',
+        type: 'reading',
+        title: 'Integrated Skills: The Rise and Fall of Empires',
+        text: `Throughout history, empires have risen to great heights only to eventually collapse. Understanding why this pattern repeats can provide valuable insights into contemporary geopolitics. While each empire's story is unique, certain common factors emerge when we examine their trajectories.
+
+Economic prosperity typically fuels imperial expansion. For instance, the Roman Empire's wealth allowed it to maintain a vast military and extensive infrastructure. Similarly, the British Empire's industrial revolution provided the economic foundation for global dominance. Furthermore, technological advantages often played a crucial role—superior weaponry, navigation, or communication systems gave empires decisive edges over competitors.
+
+Nevertheless, success often contained the seeds of decline. As empires expanded, they faced increasing administrative challenges. Moreover, maintaining large territories required enormous resources. Consequently, many empires overextended themselves, stretching their military and economic capabilities too thin. The Mongol Empire, despite its extraordinary initial success, fragmented partly due to the impossibility of effectively governing such vast territories with medieval technology.
+
+On the other hand, internal factors frequently proved equally destructive. Political instability, succession crises, and corruption weakened empires from within. Whereas strong centralized authority characterized imperial rises, factional conflicts and weak leadership often marked their declines. The Ottoman Empire, for example, suffered from a gradual erosion of governmental effectiveness over several centuries.
+
+External pressures also contributed to imperial collapse. Rising powers challenged established empires, leading to costly conflicts. Additionally, subject populations sometimes rebelled against imperial rule, draining resources and undermining legitimacy. The Spanish Empire faced both issues: challenges from other European powers and independence movements in Latin America.
+
+Despite these historical patterns, some argue that modern nation-states are fundamentally different from ancient empires. They point to international institutions, global trade networks, and democratic governance as stabilizing factors. However, others contend that similar dynamics still apply. Economic inequality, political polarization, and overextension in foreign commitments echo historical warning signs.
+
+In conclusion, while technology and political systems have evolved, the fundamental challenges of maintaining power remain remarkably consistent. Arguably, the most important lesson from imperial history is that no dominance lasts forever. Therefore, understanding the causes of imperial decline may help contemporary powers navigate their own challenges more successfully.`,
+        wordCount: 360,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, what typically enables empires to expand?',
+            options: [
+              'Democratic government',
+              'Economic prosperity',
+              'Small territories',
+              'Peaceful diplomacy'
+            ],
+            correctAnswer: 'Economic prosperity',
+            explanation: 'El texto afirma: "Economic prosperity typically fuels imperial expansion".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name TWO linking words from the text that add information.',
+            correctAnswer: 'Furthermore, Moreover, Similarly, Additionally, Also (any two)',
+            explanation: 'Estos conectores añaden información relacionada.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'Complete: "___ strong centralized authority characterized imperial rises, factional conflicts often marked their declines."',
+            correctAnswer: 'Whereas',
+            explanation: 'Whereas contrasta dos ideas opuestas.',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'Why did the Mongol Empire fragment, according to the text?',
+            options: [
+              'Economic collapse',
+              'Military defeat',
+              'Impossibility of governing vast territories effectively',
+              'Religious conflicts'
+            ],
+            correctAnswer: 'Impossibility of governing vast territories effectively',
+            explanation: 'El texto menciona "the impossibility of effectively governing such vast territories".',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What two types of challenges did the Spanish Empire face?',
+            correctAnswer: 'Challenges from other European powers and independence movements in Latin America',
+            explanation: 'El texto menciona ambos desafíos explícitamente.',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'Writing Task: Do you think modern nations face similar challenges to historical empires? Write 100-120 words explaining your position. Use at least 5 different linking words from this lesson (furthermore, nevertheless, whereas, consequently, on the other hand, etc.).',
+            correctAnswer: '',
+            explanation: 'Evaluate based on: clear position, logical arguments, appropriate use of linking words, coherence, and grammar.',
+            points: 10
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'trajectories', definition: 'paths or progressions through time' },
+          { word: 'overextended', definition: 'expanded beyond capacity' },
+          { word: 'fragmented', definition: 'broke into separate parts' },
+          { word: 'erosion', definition: 'gradual decline or wearing away' },
+          { word: 'legitimacy', definition: 'right to rule; being valid or acceptable' },
+          { word: 'contend', definition: 'argue or claim' }
         ]
       }
     ]
@@ -6539,6 +10018,942 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
           }
         ],
         focusAreas: ['Academic vocabulary', 'Collocations', 'Linking words']
+      },
+      {
+        id: 'b2-m2-l5-grammar-1',
+        type: 'grammar',
+        title: 'Structures for Argumentation',
+        grammarPoint: 'Argumentation structures: It is argued that..., One could argue that..., There is evidence to suggest...',
+        explanation: 'Estructuras formales para presentar argumentos:\n- It is argued that... / It can be argued that...\n- There is evidence to suggest that...\n- One could argue that... / It could be argued that...\n- Research indicates that...\n- Studies have shown that...\n\nEstas estructuras añaden formalidad y credibilidad.',
+        examples: [
+          'It is argued that climate change is the greatest threat facing humanity.',
+          'There is evidence to suggest that bilingualism improves cognitive function.',
+          'One could argue that technology has improved education.',
+          'Research indicates that exercise reduces stress.',
+          'Studies have shown that reading enhances vocabulary.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which is the most formal way to present an argument?',
+            options: [
+              'I think that...',
+              'It is argued that...',
+              'People say that...',
+              'Everyone knows that...'
+            ],
+            correctAnswer: 'It is argued that...',
+            explanation: '"It is argued that" es la estructura más formal y académica.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: ___ ___ evidence to suggest that early education improves outcomes.',
+            correctAnswer: 'There is',
+            explanation: 'There is evidence to suggest that... (estructura formal)',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-grammar-2',
+        type: 'grammar',
+        title: 'Conditional Forms for Argumentation',
+        grammarPoint: 'If-clauses for presenting hypothetical arguments',
+        explanation: 'Condicionales para argumentar:\n- Second conditional (hipotético presente): If governments invested more, poverty would decrease.\n- Third conditional (hipotético pasado): If we had acted sooner, we could have prevented this.\n- Mixed conditional: If we had invested earlier, we would be leaders now.\n\nUsamos condicionales para explorar posibilidades y consecuencias.',
+        examples: [
+          'If education were free, more people would attend university.',
+          'If we banned plastic bags, pollution would decrease.',
+          'If companies had regulated AI earlier, we wouldn\'t face these ethical issues now.',
+          'If governments invested in renewables, climate change could be slowed.',
+          'If we took action today, future generations would benefit.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Complete: If governments ___ more in education, outcomes would improve.',
+            options: ['invest', 'invested', 'would invest', 'had invested'],
+            correctAnswer: 'invested',
+            explanation: 'Second conditional: If + past simple, would + verb',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Write a second conditional sentence arguing for renewable energy.',
+            correctAnswer: 'If we invested in renewable energy, we would reduce carbon emissions (or similar)',
+            explanation: 'Second conditional para argumento hipotético.',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-sentence-completion',
+        type: 'sentence-completion',
+        title: 'Sentence Completion: Building Arguments',
+        instructions: 'Complete each sentence to build a logical argument.',
+        sentences: [
+          {
+            id: 'sc1',
+            incompleteSentence: 'It is widely believed that',
+            sampleCompletions: [
+              'education is the key to economic prosperity',
+              'climate change poses an existential threat',
+              'technological innovation drives social progress'
+            ],
+            evaluationCriteria: 'Should express a commonly held belief or argument',
+            points: 3
+          },
+          {
+            id: 'sc2',
+            incompleteSentence: 'There is compelling evidence to suggest that',
+            sampleCompletions: [
+              'early childhood education has long-term benefits',
+              'exercise improves mental health',
+              'diverse teams are more innovative'
+            ],
+            evaluationCriteria: 'Should present an evidence-based claim',
+            points: 3
+          },
+          {
+            id: 'sc3',
+            incompleteSentence: 'Critics argue that, however,',
+            sampleCompletions: [
+              'the costs outweigh the benefits',
+              'there are significant practical challenges',
+              'the evidence is inconclusive'
+            ],
+            evaluationCriteria: 'Should present a counter-argument',
+            points: 3
+          },
+          {
+            id: 'sc4',
+            incompleteSentence: 'If society were to adopt this policy,',
+            sampleCompletions: [
+              'inequality would likely decrease',
+              'we could see significant improvements in public health',
+              'the economic benefits would be substantial'
+            ],
+            evaluationCriteria: 'Should use second conditional to express hypothetical outcome',
+            points: 3
+          },
+          {
+            id: 'sc5',
+            incompleteSentence: 'Proponents maintain that',
+            sampleCompletions: [
+              'the long-term benefits justify short-term costs',
+              'alternative approaches have proven ineffective',
+              'this represents the most viable solution'
+            ],
+            evaluationCriteria: 'Should express what supporters of an argument claim',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-error-identification',
+        type: 'error-identification',
+        title: 'Error Correction: Argumentation Language',
+        instructions: 'Identify and correct errors in argument structures.',
+        sentences: [
+          {
+            id: 'err1',
+            sentence: 'It is argue that renewable energy is essential.',
+            error: 'is argue',
+            correction: 'is argued',
+            explanation: 'Passive voice: It is argued that...',
+            points: 2
+          },
+          {
+            id: 'err2',
+            sentence: 'If governments will invest more, poverty would decrease.',
+            error: 'will invest',
+            correction: 'invested',
+            explanation: 'Second conditional: If + past simple, would + verb',
+            points: 2
+          },
+          {
+            id: 'err3',
+            sentence: 'There are evidences to suggest that exercise helps.',
+            error: 'evidences',
+            correction: 'evidence',
+            explanation: 'Evidence es un uncountable noun en este contexto.',
+            points: 2
+          },
+          {
+            id: 'err4',
+            sentence: 'Studies has shown that reading improves vocabulary.',
+            error: 'has',
+            correction: 'have',
+            explanation: 'Studies (plural) have shown',
+            points: 2
+          },
+          {
+            id: 'err5',
+            sentence: 'One could argues that technology benefits education.',
+            error: 'argues',
+            correction: 'argue',
+            explanation: 'Modal + base form: could argue',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-reading-2',
+        type: 'reading',
+        title: 'Reading: The Four-Day Work Week Debate',
+        text: `The concept of a four-day work week has gained traction in recent years, with several countries and companies experimenting with shorter working hours. Proponents argue that reducing the work week from five to four days could boost productivity, improve employee well-being, and even benefit the environment. However, critics question whether such a dramatic shift is feasible for all industries.
+
+Supporters point to successful trials in Iceland, where 86% of the working population gained the right to reduce their hours. The results were overwhelmingly positive: workers reported less stress, better work-life balance, and improved health. Furthermore, productivity either remained stable or actually increased in most cases. It is argued that well-rested employees are more focused and efficient during their working hours.
+
+There is also evidence to suggest environmental benefits. With fewer commuting days, carbon emissions could decrease significantly. Moreover, if companies close offices for an extra day, energy consumption would be reduced. One could argue that this policy represents a win-win situation for workers, employers, and the planet.
+
+Nevertheless, critics raise valid concerns. They point out that not all sectors can easily accommodate reduced hours. Healthcare, hospitality, and customer service industries, for instance, require continuous coverage. Additionally, some worry that compressed work schedules might actually increase stress, as employees struggle to complete tasks in fewer days. If we had considered these challenges more carefully from the outset, implementation might have been smoother.
+
+Financial implications also warrant consideration. While some studies suggest no loss in productivity, others indicate that certain businesses might struggle. Small companies, in particular, may lack the resources to reorganize effectively. There is evidence to suggest that transitioning to a four-day week requires careful planning and may not be suitable for every organization.
+
+Despite these challenges, the movement continues to grow. Proponents maintain that with proper planning and flexibility, most obstacles can be overcome. If society were to embrace this shift gradually, allowing industries to adapt at their own pace, the transition could prove successful. The four-day work week debate ultimately reflects broader questions about work-life balance in the 21st century.`,
+        wordCount: 340,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, what happened in Iceland\'s trial?',
+            options: [
+              'Productivity decreased significantly',
+              '86% of workers gained the right to reduce hours',
+              'Companies closed permanently',
+              'Most workers resigned'
+            ],
+            correctAnswer: '86% of workers gained the right to reduce hours',
+            explanation: 'El texto afirma: "86% of the working population gained the right to reduce their hours".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name TWO argumentation structures used in the text (e.g., "It is argued that...")',
+            correctAnswer: 'It is argued that, There is evidence to suggest, One could argue that (any two)',
+            explanation: 'El texto usa varias estructuras formales de argumentación.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Which industries does the text suggest might struggle with a four-day week?',
+            options: [
+              'Technology and finance',
+              'Healthcare and hospitality',
+              'Education and research',
+              'Manufacturing and retail'
+            ],
+            correctAnswer: 'Healthcare and hospitality',
+            explanation: 'El texto menciona "Healthcare, hospitality, and customer service industries".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'Complete from the text: "If we ___ ___ these challenges more carefully from the outset, implementation might have been smoother."',
+            correctAnswer: 'had considered',
+            explanation: 'Third conditional: If + past perfect, might have + past participle',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What environmental benefit is mentioned?',
+            correctAnswer: 'Reduced carbon emissions / Reduced energy consumption (either acceptable)',
+            explanation: 'El texto menciona reducción de emisiones y consumo de energía.',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'gained traction', definition: 'became increasingly popular or accepted' },
+          { word: 'feasible', definition: 'possible and practical to achieve' },
+          { word: 'accommodate', definition: 'provide for or adapt to' },
+          { word: 'compressed', definition: 'squeezed into a smaller space or time' },
+          { word: 'warrant', definition: 'justify or deserve' }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Argumentation Verbs',
+        vocabularySet: [
+          { word: 'claim', definition: 'state something is true (without proof)', example: 'Critics claim that the policy is too expensive.' },
+          { word: 'contend', definition: 'argue or assert (formal)', example: 'Experts contend that early intervention is crucial.' },
+          { word: 'maintain', definition: 'insist something is true', example: 'Supporters maintain that the benefits outweigh the costs.' },
+          { word: 'assert', definition: 'state confidently', example: 'The report asserts that climate action is urgent.' },
+          { word: 'refute', definition: 'prove an argument wrong', example: 'Research refutes the claim that vaccines are dangerous.' },
+          { word: 'concede', definition: 'admit something reluctantly', example: 'Critics concede that some improvements have been made.' },
+          { word: 'advocate', definition: 'publicly support or recommend', example: 'Many economists advocate for progressive taxation.' },
+          { word: 'dispute', definition: 'question or deny the truth of', example: 'Some scientists dispute these findings.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which verb means "to prove wrong"?',
+            options: ['claim', 'refute', 'maintain', 'advocate'],
+            correctAnswer: 'refute',
+            explanation: 'Refute = demostrar que algo es falso.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Supporters ___ that the new law will reduce inequality.',
+            correctAnswer: 'claim/contend/maintain/assert',
+            explanation: 'Cualquiera de estos verbos funciona para expresar una afirmación.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-writing-1',
+        type: 'writing',
+        prompt: 'Write an argumentative essay (200-220 words): "Should governments ban single-use plastics?" Present arguments for and against, then give your opinion. Use:\n- At least 3 argumentation structures (It is argued that..., There is evidence..., etc.)\n- At least 4 linking words\n- At least one conditional sentence\n- Argumentation verbs (claim, maintain, contend, etc.)',
+        writingType: 'essay',
+        minWords: 200,
+        maxWords: 220,
+        timeLimit: 35,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Introduction: State the issue and your position',
+          'Paragraph 2: Arguments FOR the ban',
+          'Paragraph 3: Arguments AGAINST the ban',
+          'Conclusion: Summarize and restate your opinion',
+          'Use formal language throughout',
+          'Include specific examples where possible'
+        ]
+      },
+      {
+        id: 'b2-m2-l5-paraphrasing',
+        type: 'paraphrasing',
+        title: 'Paraphrasing Arguments',
+        instructions: 'Paraphrase each argument using formal argumentation structures.',
+        sentences: [
+          {
+            id: 'p1',
+            original: 'Many people think that social media is harmful.',
+            paraphrased: 'It is widely believed that social media has detrimental effects./Many contend that social media poses significant risks.',
+            alternatives: [
+              'It is argued that social media causes harm.',
+              'There is a growing belief that social media is damaging.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p2',
+            original: 'Research shows that exercise helps mental health.',
+            paraphrased: 'Studies have shown that exercise improves mental well-being./There is evidence to suggest that physical activity benefits mental health.',
+            alternatives: [
+              'Research indicates that exercise enhances psychological wellness.',
+              'Evidence demonstrates that physical activity supports mental health.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p3',
+            original: 'Some say renewable energy costs too much.',
+            paraphrased: 'Critics claim that renewable energy is prohibitively expensive./It is argued that the cost of renewable energy is unsustainable.',
+            alternatives: [
+              'Some contend that renewable energy requires excessive investment.',
+              'Opponents maintain that renewable energy is economically unfeasible.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p4',
+            original: 'If we don\'t act now, the problem will get worse.',
+            paraphrased: 'If we fail to take action immediately, the situation will deteriorate./Unless we act now, the problem will intensify.',
+            alternatives: [
+              'Should we delay action, conditions will worsen.',
+              'In the absence of immediate intervention, the issue will escalate.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p5',
+            original: 'Experts believe education is the solution.',
+            paraphrased: 'It is maintained by experts that education represents the solution./Specialists contend that education offers the answer.',
+            alternatives: [
+              'Authorities assert that education provides the solution.',
+              'There is expert consensus that education is key.'
+            ],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-collocation-matching',
+        type: 'collocation-matching',
+        title: 'Collocation Matching: Argumentation Phrases',
+        instructions: 'Match the sentence beginnings with appropriate endings.',
+        pairs: [
+          {
+            left: 'It is widely',
+            right: 'believed that education reduces poverty',
+            explanation: 'Widely believed = ampliamente creído'
+          },
+          {
+            left: 'There is compelling',
+            right: 'evidence to support this claim',
+            explanation: 'Compelling evidence = evidencia convincente'
+          },
+          {
+            left: 'Critics raise',
+            right: 'valid concerns about the cost',
+            explanation: 'Raise concerns = plantear preocupaciones'
+          },
+          {
+            left: 'Proponents put',
+            right: 'forward several arguments',
+            explanation: 'Put forward = presentar (argumentos)'
+          },
+          {
+            left: 'Research has',
+            right: 'shed light on this issue',
+            explanation: 'Shed light on = arrojar luz sobre'
+          },
+          {
+            left: 'One could',
+            right: 'argue that both sides have merit',
+            explanation: 'One could argue = se podría argumentar'
+          },
+          {
+            left: 'The evidence',
+            right: 'suggests that change is needed',
+            explanation: 'Evidence suggests = la evidencia sugiere'
+          },
+          {
+            left: 'This view',
+            right: 'warrants careful consideration',
+            explanation: 'Warrants consideration = merece consideración'
+          }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l5-phrasal-verbs',
+        type: 'vocabulary',
+        title: 'Phrasal Verbs: Argumentation',
+        vocabularySet: [
+          { word: 'back up', definition: 'support with evidence', example: 'You need to back up your claims with data.' },
+          { word: 'come up with', definition: 'produce or think of (an idea)', example: 'We need to come up with a solution.' },
+          { word: 'break down', definition: 'analyze in detail', example: 'Let\'s break down the argument step by step.' },
+          { word: 'build on', definition: 'use as a basis for further development', example: 'This research builds on previous studies.' },
+          { word: 'shoot down', definition: 'reject or criticize strongly', example: 'The committee shot down every proposal.' },
+          { word: 'weigh up', definition: 'carefully consider pros and cons', example: 'We need to weigh up the advantages and disadvantages.' },
+          { word: 'stand up', definition: 'remain valid when tested', example: 'The theory doesn\'t stand up to scrutiny.' },
+          { word: 'fall apart', definition: 'fail or collapse (argument)', example: 'Her argument fell apart under questioning.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'fill-blank',
+            question: 'You should always ___ ___ your arguments with evidence.',
+            correctAnswer: 'back up',
+            explanation: 'Back up = apoyar con pruebas.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'Which phrasal verb means "to carefully consider advantages and disadvantages"?',
+            options: ['back up', 'weigh up', 'come up with', 'break down'],
+            correctAnswer: 'weigh up',
+            explanation: 'Weigh up = sopesar, considerar cuidadosamente.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-idioms',
+        type: 'vocabulary',
+        title: 'Idioms: Debates & Arguments',
+        vocabularySet: [
+          { word: 'play devil\'s advocate', definition: 'argue against something to test the strength of the argument', example: 'Let me play devil\'s advocate—what if this plan fails?' },
+          { word: 'take something with a grain of salt', definition: 'not completely believe something', example: 'You should take his claims with a grain of salt.' },
+          { word: 'sit on the fence', definition: 'avoid making a decision', example: 'Stop sitting on the fence and choose a side!' },
+          { word: 'have a leg to stand on', definition: 'have evidence or support for your position', example: 'Without data, you don\'t have a leg to stand on.' },
+          { word: 'make a case for', definition: 'argue in favor of something', example: 'She made a strong case for reform.' },
+          { word: 'pick holes in', definition: 'find faults in an argument', example: 'It\'s easy to pick holes in any theory.' },
+          { word: 'stand your ground', definition: 'maintain your position despite opposition', example: 'Despite criticism, she stood her ground.' },
+          { word: 'win someone over', definition: 'persuade someone to support you', example: 'He eventually won the committee over with his proposal.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'If you "play devil\'s advocate," you:',
+            options: [
+              'support the devil',
+              'argue against something to test it',
+              'lie about your position',
+              'refuse to participate'
+            ],
+            correctAnswer: 'argue against something to test it',
+            explanation: 'Play devil\'s advocate = argumentar en contra para probar la solidez del argumento.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Without evidence, you don\'t ___ ___ ___ ___ ___ ___.',
+            correctAnswer: 'have a leg to stand on',
+            explanation: 'Have a leg to stand on = tener base para tu argumento.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-gap-fill',
+        type: 'gap-fill',
+        title: 'Gap-fill: The Debate Over Artificial Intelligence',
+        text: `Artificial intelligence (AI) has become one of the most debated topics of our time. (1)_____ that AI will revolutionize every aspect of human life. From healthcare to transportation, AI systems are already transforming industries. (2)_____, experts (3)_____ that we must proceed with caution.
+
+There is (4)_____ evidence to suggest that AI offers tremendous benefits. For instance, machine learning algorithms can diagnose diseases more accurately than human doctors. (5)_____, AI-powered systems could solve complex problems like climate modeling. (6)_____ these advantages, society (7)_____ reap enormous rewards.
+
+(8)_____, critics (9)_____ valid concerns. They worry that AI could lead to mass unemployment as machines replace human workers. (10)_____ concerns about bias in AI systems—algorithms trained on flawed data may perpetuate discrimination. If we (11)_____ to address these issues, the consequences could be severe.
+
+The ethical implications (12)_____ careful consideration. (13)_____ argue that AI should be heavily regulated. Others (14)_____ that excessive regulation might stifle innovation. This debate ultimately reflects fundamental questions about the relationship between technology and humanity.`,
+        gaps: [
+          { id: 'gap1', correctAnswers: ['It is argued', 'Many contend', 'Proponents claim'], explanation: 'Estructura formal de argumento.' },
+          { id: 'gap2', correctAnswers: ['However', 'Nevertheless', 'Nonetheless'], explanation: 'Contraste.' },
+          { id: 'gap3', correctAnswers: ['maintain', 'argue', 'contend', 'assert'], explanation: 'Verbo de argumentación.' },
+          { id: 'gap4', correctAnswers: ['compelling', 'strong', 'substantial'], explanation: 'Adjetivo para "evidence".' },
+          { id: 'gap5', correctAnswers: ['Furthermore', 'Moreover', 'Additionally'], explanation: 'Añade información.' },
+          { id: 'gap6', correctAnswers: ['Given', 'Considering', 'With'], explanation: 'Preposición/conjunción.' },
+          { id: 'gap7', correctAnswers: ['could', 'would', 'might'], explanation: 'Modal para posibilidad.' },
+          { id: 'gap8', correctAnswers: ['However', 'Nevertheless', 'On the other hand'], explanation: 'Contraste.' },
+          { id: 'gap9', correctAnswers: ['raise', 'voice', 'express'], explanation: 'Verbo para concerns.' },
+          { id: 'gap10', correctAnswers: ['There are', 'Additionally there are', 'There are also'], explanation: 'Introduce más preocupaciones.' },
+          { id: 'gap11', correctAnswers: ['fail', 'failed'], explanation: 'Fail to address.' },
+          { id: 'gap12', correctAnswers: ['warrant', 'deserve', 'require'], explanation: 'Verbo formal.' },
+          { id: 'gap13', correctAnswers: ['Some', 'Critics', 'Many'], explanation: 'Sujeto.' },
+          { id: 'gap14', correctAnswers: ['contend', 'argue', 'maintain', 'claim'], explanation: 'Verbo de argumentación.' }
+        ],
+        instructions: 'Fill in the gaps with appropriate words or phrases from the lesson.',
+        points: 14
+      },
+      {
+        id: 'b2-m2-l5-sentence-reordering',
+        type: 'sentence-reordering',
+        title: 'Sentence Reordering: Structuring an Argument',
+        instructions: 'Put the sentences in logical order to create a well-structured argument about renewable energy.',
+        sentences: [
+          { id: 's1', text: 'In conclusion, while challenges exist, the transition to renewable energy is both necessary and achievable.', order: 8 },
+          { id: 's2', text: 'Critics, however, raise concerns about the reliability and cost of renewable technologies.', order: 5 },
+          { id: 's3', text: 'It is widely argued that renewable energy represents the solution to climate change.', order: 1 },
+          { id: 's4', text: 'There is compelling evidence that solar and wind power can meet global energy demands.', order: 2 },
+          { id: 's5', text: 'Nevertheless, these objections can be addressed through technological innovation and careful planning.', order: 6 },
+          { id: 's6', text: 'Furthermore, studies have shown that renewable energy creates more jobs than fossil fuels.', order: 3 },
+          { id: 's7', text: 'If governments were to invest adequately in infrastructure, these concerns would be mitigated.', order: 7 },
+          { id: 's8', text: 'Moreover, the environmental benefits of clean energy far outweigh the transition costs.', order: 4 }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l5-listening',
+        type: 'listening',
+        title: 'Listening: Panel Discussion on Education Reform',
+        audioUrl: '/audio/b2-m2-l5-education-debate.mp3',
+        duration: 180,
+        transcript: `Moderator: Welcome to today's panel on education reform. Dr. Stevens, let's start with you. What's your position?
+
+Dr. Stevens: Thank you. It is my contention that traditional education models are outdated. There is compelling evidence to suggest that personalized learning yields better outcomes. Studies have shown that students learn more effectively when instruction is tailored to their individual needs. Furthermore, technology now makes this approach feasible on a large scale.
+
+Moderator: Professor Martinez, you have concerns about this approach?
+
+Prof. Martinez: Indeed. While I acknowledge the potential benefits, one could argue that we're moving too quickly. If we implement these changes without proper teacher training, the results could be disastrous. Moreover, there's the question of equity—not all students have equal access to technology. Critics rightly point out that this could exacerbate existing inequalities.
+
+Dr. Stevens: Those are valid concerns. However, I would contend that maintaining the status quo is more dangerous. Research indicates that current methods are failing many students. If society were to invest in both technology and teacher training, we could address Professor Martinez's concerns while still making necessary progress.
+
+Prof. Martinez: I don't dispute the need for change. What I'm advocating for is a more measured approach. There is evidence to suggest that hybrid models—combining traditional and innovative methods—might be more effective than wholesale replacement.
+
+Moderator: Interesting points from both sides. Thank you.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What is Dr. Stevens\' main argument?',
+            options: [
+              'Education should never change',
+              'Traditional models are outdated',
+              'Technology is too expensive',
+              'Teachers need more training'
+            ],
+            correctAnswer: 'Traditional models are outdated',
+            explanation: 'Dr. Stevens afirma: "traditional education models are outdated".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name TWO argumentation structures used in the discussion.',
+            correctAnswer: 'It is my contention that, There is evidence to suggest, One could argue that, Research indicates (any two)',
+            explanation: 'Los panelistas usan varias estructuras formales.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What is Professor Martinez\'s main concern?',
+            options: [
+              'Change is happening too quickly without proper preparation',
+              'Technology doesn\'t work',
+              'Students don\'t want change',
+              'The cost is too high'
+            ],
+            correctAnswer: 'Change is happening too quickly without proper preparation',
+            explanation: 'Prof. Martinez dice: "one could argue that we\'re moving too quickly".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'What type of model does Professor Martinez advocate for?',
+            correctAnswer: 'Hybrid models/A hybrid model',
+            explanation: 'Prof. Martinez menciona "hybrid models" como solución.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Hedging Language',
+        vocabularySet: [
+          { word: 'arguably', definition: 'it can be argued that; possibly', example: 'This is arguably the best solution available.' },
+          { word: 'seemingly', definition: 'appearing to be; apparently', example: 'The plan is seemingly effective, but requires more testing.' },
+          { word: 'apparently', definition: 'according to what is said; seemingly', example: 'The policy has apparently reduced costs.' },
+          { word: 'presumably', definition: 'it is reasonable to suppose', example: 'Presumably, the government will take action.' },
+          { word: 'potentially', definition: 'possibly; with the capacity to develop', example: 'This could potentially solve the problem.' },
+          { word: 'tend to', definition: 'usually do something', example: 'Studies tend to show positive results.' },
+          { word: 'appear to', definition: 'seem to be', example: 'The changes appear to be working.' },
+          { word: 'suggest', definition: 'indicate indirectly', example: 'The data suggests improvement is needed.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Hedging language is used to:',
+            options: [
+              'Make statements more forceful',
+              'Make statements less absolute',
+              'Confuse the reader',
+              'Avoid giving opinions'
+            ],
+            correctAnswer: 'Make statements less absolute',
+            explanation: 'Hedging hace las afirmaciones menos absolutas y más académicas.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'This is ___ the most important issue facing humanity.',
+            correctAnswer: 'arguably/potentially',
+            explanation: 'Hedging adverbs suavizan la afirmación.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-speaking-2',
+        type: 'speaking',
+        prompt: 'Practice a formal debate. Choose a motion: "This house believes that space exploration is a waste of money" OR "This house believes that all citizens should complete mandatory community service."\n\nPrepare BOTH sides of the argument (For and Against). Present each side for 2 minutes, using:\n- Formal argumentation structures\n- Linking words\n- Conditional sentences\n- Argumentation verbs\n- Hedging language\n- Evidence and examples',
+        timeLimit: 240,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'For side: "It is argued that..., There is evidence..., Proponents maintain..."',
+          'Against side: "Critics contend that..., However..., If we consider..."',
+          'Use hedging: arguably, potentially, seemingly',
+          'Link ideas: furthermore, nevertheless, consequently',
+          'Give examples: "For instance..., Studies show..."',
+          'Conclude each side: "Therefore..., In conclusion..."'
+        ]
+      },
+      {
+        id: 'b2-m2-l5-key-word-transformation',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformation: Formal Argument Structures',
+        instructions: 'Transform the sentences using the word given. Use 2-6 words.',
+        transformations: [
+          {
+            id: 't1',
+            original: 'Many people believe education is important.',
+            keyword: 'ARGUED',
+            answer: 'It is widely argued that',
+            fullSentence: 'It is widely argued that education is important.',
+            points: 2
+          },
+          {
+            id: 't2',
+            original: 'Research shows exercise helps mental health.',
+            keyword: 'EVIDENCE',
+            answer: 'There is evidence to suggest/that',
+            fullSentence: 'There is evidence to suggest that exercise helps mental health.',
+            points: 2
+          },
+          {
+            id: 't3',
+            original: 'Some say the policy costs too much.',
+            keyword: 'CONTEND',
+            answer: 'Some contend that the policy',
+            fullSentence: 'Some contend that the policy costs too much.',
+            points: 2
+          },
+          {
+            id: 't4',
+            original: 'If the government invested more, poverty would decrease.',
+            keyword: 'WERE',
+            answer: 'If the government were to',
+            fullSentence: 'If the government were to invest more, poverty would decrease.',
+            points: 2
+          },
+          {
+            id: 't5',
+            original: 'Experts say that climate action is urgent.',
+            keyword: 'MAINTAIN',
+            answer: 'Experts maintain that climate action',
+            fullSentence: 'Experts maintain that climate action is urgent.',
+            points: 2
+          },
+          {
+            id: 't6',
+            original: 'Studies show renewable energy creates jobs.',
+            keyword: 'SHOWN',
+            answer: 'Studies have shown that renewable',
+            fullSentence: 'Studies have shown that renewable energy creates jobs.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-word-formation',
+        type: 'word-formation',
+        title: 'Word Formation: Academic Argumentation',
+        instructions: 'Complete each sentence with the correct form of the word in capitals.',
+        words: [
+          {
+            id: 'wf1',
+            sentence: 'The ___ of the argument was immediately clear.',
+            baseWord: 'STRONG',
+            correctAnswer: 'strength',
+            explanation: 'strength (noun)',
+            points: 1
+          },
+          {
+            id: 'wf2',
+            sentence: 'There is considerable ___ about the effectiveness of this approach.',
+            baseWord: 'DISAGREE',
+            correctAnswer: 'disagreement',
+            explanation: 'disagreement (noun)',
+            points: 1
+          },
+          {
+            id: 'wf3',
+            sentence: 'The ___ of both sides is required to reach a solution.',
+            baseWord: 'COOPERATE',
+            correctAnswer: 'cooperation',
+            explanation: 'cooperation (noun)',
+            points: 1
+          },
+          {
+            id: 'wf4',
+            sentence: 'Critics question the ___ of implementing such a policy.',
+            baseWord: 'FEASIBLE',
+            correctAnswer: 'feasibility',
+            explanation: 'feasibility (noun)',
+            points: 1
+          },
+          {
+            id: 'wf5',
+            sentence: 'The ___ benefits of this approach are well documented.',
+            baseWord: 'ENVIRONMENT',
+            correctAnswer: 'environmental',
+            explanation: 'environmental (adjective)',
+            points: 1
+          },
+          {
+            id: 'wf6',
+            sentence: 'There is growing ___ that action must be taken.',
+            baseWord: 'RECOGNIZE',
+            correctAnswer: 'recognition',
+            explanation: 'recognition (noun)',
+            points: 1
+          },
+          {
+            id: 'wf7',
+            sentence: 'The policy has proven ___ effective in reducing poverty.',
+            baseWord: 'REMARKABLE',
+            correctAnswer: 'remarkably',
+            explanation: 'remarkably (adverb)',
+            points: 1
+          },
+          {
+            id: 'wf8',
+            sentence: 'Economic ___ must be weighed against social benefits.',
+            baseWord: 'CONSIDER',
+            correctAnswer: 'considerations',
+            explanation: 'considerations (noun plural)',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-pronunciation',
+        type: 'pronunciation',
+        title: 'Pronunciation: Argumentation Verbs',
+        instructions: 'Practice the pronunciation and stress patterns of these argumentation verbs.',
+        words: [
+          {
+            word: 'contend',
+            phonetic: '/kənˈtend/',
+            audioUrl: '/audio/pronunciation/contend.mp3',
+            stressPattern: 'Stress on second syllable: con-TEND'
+          },
+          {
+            word: 'maintain',
+            phonetic: '/meɪnˈteɪn/',
+            audioUrl: '/audio/pronunciation/maintain.mp3',
+            stressPattern: 'Stress on second syllable: main-TAIN'
+          },
+          {
+            word: 'advocate',
+            phonetic: '/ˈædvəkeɪt/',
+            audioUrl: '/audio/pronunciation/advocate.mp3',
+            stressPattern: 'Stress on first syllable: AD-vo-cate (verb)'
+          },
+          {
+            word: 'demonstrate',
+            phonetic: '/ˈdemənstreɪt/',
+            audioUrl: '/audio/pronunciation/demonstrate.mp3',
+            stressPattern: 'Stress on first syllable: DEM-on-strate'
+          },
+          {
+            word: 'acknowledge',
+            phonetic: '/əkˈnɒlɪdʒ/',
+            audioUrl: '/audio/pronunciation/acknowledge.mp3',
+            stressPattern: 'Stress on second syllable: ac-KNOWL-edge'
+          },
+          {
+            word: 'refute',
+            phonetic: '/rɪˈfjuːt/',
+            audioUrl: '/audio/pronunciation/refute.mp3',
+            stressPattern: 'Stress on second syllable: re-FUTE'
+          }
+        ],
+        points: 6
+      },
+      {
+        id: 'b2-m2-l5-integrated-1',
+        type: 'reading',
+        title: 'Integrated Skills: The Ethics of Gene Editing',
+        text: `The development of CRISPR gene-editing technology has sparked intense debate about the ethics of modifying human DNA. It is widely argued that this technology could revolutionize medicine, potentially eliminating hereditary diseases. However, critics contend that we are tampering with nature in ways we don't fully understand, with potentially catastrophic consequences.
+
+Proponents maintain that gene editing offers unprecedented opportunities. There is compelling evidence to suggest that CRISPR could cure genetic disorders like sickle cell anemia and cystic fibrosis. Furthermore, it might allow us to enhance human capabilities—improving intelligence, physical strength, or resistance to disease. If society were to embrace this technology responsibly, the benefits could be transformative.
+
+From a medical perspective, the arguments are persuasive. Studies have shown that gene editing can successfully correct genetic mutations in laboratory settings. Moreover, early clinical trials have produced promising results. One could argue that denying patients access to potentially life-saving treatments would be unethical. As Dr. Jennifer Doudna, a CRISPR pioneer, asserts: "We have a moral obligation to use this technology to alleviate suffering."
+
+Nevertheless, significant ethical concerns warrant careful consideration. Critics raise valid objections about "designer babies"—the possibility that wealthy families might use gene editing to give their children advantages, creating genetic inequality. There is evidence to suggest that such enhancements could exacerbate social divisions. Additionally, some worry that mistakes in gene editing might create new health problems or have unforeseen consequences for future generations.
+
+Religious and philosophical objections also feature prominently in the debate. Many argue that humans shouldn't "play God" by altering the fundamental blueprint of life. Others contend that gene editing crosses moral boundaries, fundamentally changing what it means to be human. If we had considered these implications more thoroughly before advancing the technology, perhaps we could have developed better safeguards.
+
+The regulatory landscape remains complex and fragmented. Some countries have banned certain applications of gene editing, while others have adopted more permissive approaches. It is argued that international cooperation is essential—without global standards, rogue scientists might conduct dangerous experiments in jurisdictions with lax regulations.
+
+Despite these challenges, the technology continues to advance rapidly. Supporters claim that with proper oversight and ethical guidelines, gene editing can be used safely and beneficially. They maintain that the potential to eliminate suffering outweighs theoretical risks. Critics, however, argue that some risks—particularly those affecting future generations—are too great to ignore.
+
+In conclusion, the gene editing debate reflects fundamental questions about human progress, ethics, and the limits of scientific intervention. Arguably, this may be one of the most consequential decisions humanity will make. There is evidence to suggest that how we navigate this ethical terrain will profoundly shape our future. Therefore, it is imperative that we engage in thoughtful, inclusive dialogue before irreversible choices are made.`,
+        wordCount: 440,
+        readingTime: 5,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, what does CRISPR potentially allow us to do?',
+            options: [
+              'Only cure existing diseases',
+              'Eliminate hereditary diseases and enhance human capabilities',
+              'Create new species',
+              'Reverse aging'
+            ],
+            correctAnswer: 'Eliminate hereditary diseases and enhance human capabilities',
+            explanation: 'El texto menciona ambas posibilidades: curar enfermedades hereditarias y mejorar capacidades.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name THREE different argumentation structures used in the text.',
+            correctAnswer: 'It is widely argued, There is evidence to suggest, One could argue, It is argued, Arguably (any three)',
+            explanation: 'El texto usa numerosas estructuras formales de argumentación.',
+            points: 3
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'Complete the conditional from the text: "If society ___ ___ embrace this technology responsibly, the benefits could be transformative."',
+            correctAnswer: 'were to',
+            explanation: 'Formal conditional: were to + infinitive',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'What concern do critics have about "designer babies"?',
+            options: [
+              'They might be too intelligent',
+              'They could create genetic inequality',
+              'They would be too expensive',
+              'They might be unhealthy'
+            ],
+            correctAnswer: 'They could create genetic inequality',
+            explanation: 'El texto menciona que "wealthy families might use gene editing... creating genetic inequality".',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'According to the text, why is international cooperation important for gene editing?',
+            correctAnswer: 'To prevent rogue scientists conducting dangerous experiments in places with lax regulations / To establish global standards',
+            explanation: 'El texto explica la necesidad de estándares globales.',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'Writing Task: Do you think gene editing should be allowed for human enhancement (not just treating diseases)? Write 120-150 words presenting arguments on both sides and your opinion. Use:\n- At least 3 formal argumentation structures\n- At least 4 linking words\n- At least 2 argumentation verbs\n- At least 1 conditional sentence',
+            correctAnswer: '',
+            explanation: 'Evaluate based on: balanced arguments, use of required structures, clarity of position, coherence, and grammar.',
+            points: 15
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'hereditary', definition: 'passed from parents to children through genes' },
+          { word: 'tampering', definition: 'interfering with something in a harmful way' },
+          { word: 'catastrophic', definition: 'extremely harmful; disastrous' },
+          { word: 'unprecedented', definition: 'never done or known before' },
+          { word: 'alleviate', definition: 'make less severe; reduce' },
+          { word: 'exacerbate', definition: 'make worse' },
+          { word: 'imperative', definition: 'extremely important; essential' }
+        ]
       }
     ]
   },
@@ -6599,6 +11014,868 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
           'Use: "On one hand..., on the other hand..."',
           'Reference studies/reports using reported speech',
           'Conclude with your personal view'
+        ]
+      },
+      {
+        id: 'b2-m2-l6-reading-exam',
+        type: 'reading',
+        title: 'MOCK EXAM READING: The Changing Nature of Work',
+        text: `The Fourth Industrial Revolution is fundamentally transforming the nature of work. Automation, artificial intelligence, and digital technologies are reshaping industries at an unprecedented pace. It is widely argued that these changes present both opportunities and challenges for workers worldwide.
+
+Proponents of technological advancement maintain that automation will create new job categories while eliminating tedious, repetitive tasks. Furthermore, they contend that increased productivity could lead to shorter working hours and improved quality of life. Studies have shown that previous industrial revolutions ultimately created more jobs than they destroyed, despite initial disruption.
+
+Nevertheless, critics raise valid concerns about the transition period. They point out that workers in manufacturing, transportation, and administrative roles face significant displacement risks. Moreover, there is evidence to suggest that the benefits of automation have not been evenly distributed—while corporate profits have soared, wage growth for many workers has stagnated. If society fails to address these inequalities, social tensions could intensify.
+
+The skills required for future employment are also evolving rapidly. Whereas routine technical skills once guaranteed stable employment, today's job market increasingly values creativity, critical thinking, and emotional intelligence—capabilities that are difficult to automate. Consequently, education systems must adapt to prepare students for this changing landscape.
+
+Some experts advocate for a universal basic income as a solution to potential mass unemployment. Others argue that retraining programs and lifelong learning initiatives represent more practical approaches. One could argue that a combination of policies will be necessary to navigate this transition successfully.
+
+Despite the uncertainties, most economists agree that adaptation is essential. Those who embrace continuous learning and develop versatile skill sets will likely thrive in the evolving economy. On the other hand, resistance to change could leave individuals and communities vulnerable to economic disruption.`,
+        wordCount: 280,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, what do proponents believe about automation?',
+            options: [
+              'It will eliminate all jobs',
+              'It will create new job categories',
+              'It only benefits corporations',
+              'It should be banned'
+            ],
+            correctAnswer: 'It will create new job categories',
+            explanation: 'El texto afirma que los proponentes creen que la automatización "will create new job categories".',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name TWO skills that the text says are increasingly valued in today\'s job market.',
+            correctAnswer: 'Creativity, critical thinking, emotional intelligence (any two)',
+            explanation: 'El texto menciona estas tres capacidades como valoradas.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What criticism do opponents of automation raise?',
+            options: [
+              'Technology is too expensive',
+              'Benefits have not been evenly distributed',
+              'It makes people lazy',
+              'It is too complicated'
+            ],
+            correctAnswer: 'Benefits have not been evenly distributed',
+            explanation: 'El texto menciona que "the benefits of automation have not been evenly distributed".',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'Complete: "___ routine technical skills once guaranteed stable employment, today\'s job market increasingly values creativity."',
+            correctAnswer: 'Whereas',
+            explanation: 'Whereas contrasta el pasado con el presente.',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'Name TWO solutions mentioned in the text for dealing with employment challenges.',
+            correctAnswer: 'Universal basic income, retraining programs, lifelong learning initiatives (any two)',
+            explanation: 'El texto menciona estas opciones como posibles soluciones.',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'unprecedented', definition: 'never done or known before' },
+          { word: 'tedious', definition: 'too long, slow, or dull; tiresome or monotonous' },
+          { word: 'displacement', definition: 'the moving of something from its place or position' },
+          { word: 'stagnated', definition: 'ceased to develop; became inactive' },
+          { word: 'versatile', definition: 'able to adapt or be adapted to many different functions' }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-grammar-exam',
+        type: 'grammar',
+        title: 'EXAM: Modal Verbs Review',
+        grammarPoint: 'All modal uses from Module 2',
+        explanation: 'Review all modal verb uses covered in Module 2:\n- Modals of deduction (must/might/could/can\'t have)\n- Modals for opinions and speculation\n- Modals in reported speech',
+        examples: [
+          'She must have forgotten about the meeting. (past deduction)',
+          'It might rain tomorrow. (future possibility)',
+          'You should study more. (advice)',
+          'He said he would help us. (reported speech)',
+          'This can\'t be the right address. (impossibility)'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose the correct modal: The lights are on. Someone ___ be home.',
+            options: ['must', 'can\'t', 'might not', 'mustn\'t'],
+            correctAnswer: 'must',
+            explanation: 'Strong deduction based on evidence.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Report: "I will call you tomorrow." → He said he ___ call me the next day.',
+            correctAnswer: 'would',
+            explanation: 'Will → would in reported speech.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Past deduction: They\'re not here. They ___ already.',
+            options: ['must leave', 'must have left', 'must be leaving', 'must left'],
+            correctAnswer: 'must have left',
+            explanation: 'Must have + past participle for past deduction.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-passive-exam',
+        type: 'grammar',
+        title: 'EXAM: Passive Voice Review',
+        grammarPoint: 'Passive voice in all tenses',
+        explanation: 'Review passive voice structures:\n- Present: is/are + past participle\n- Past: was/were + past participle\n- Present Perfect: has/have been + past participle\n- Future: will be + past participle\n- Causative: have/get + object + past participle',
+        examples: [
+          'The report was published yesterday.',
+          'The results have been announced.',
+          'The meeting will be held next week.',
+          'I had my car serviced.',
+          'New technologies are being developed.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Transform to passive: "They are building a new bridge."',
+            options: [
+              'A new bridge is building.',
+              'A new bridge is being built.',
+              'A new bridge has been built.',
+              'A new bridge was built.'
+            ],
+            correctAnswer: 'A new bridge is being built.',
+            explanation: 'Present continuous passive: is/are being + past participle.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Rewrite using "have something done": "The mechanic serviced my car."',
+            correctAnswer: 'I had my car serviced',
+            explanation: 'Causative structure: have + object + past participle.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-reported-speech-exam',
+        type: 'grammar',
+        title: 'EXAM: Reported Speech Review',
+        grammarPoint: 'Reporting verbs and structures',
+        explanation: 'Review reported speech:\n- Say/tell patterns\n- Reporting verbs (claim, suggest, recommend, deny, admit)\n- Backshifting tenses\n- Reporting questions',
+        examples: [
+          'She said (that) she was tired.',
+          'He told me to wait.',
+          'They suggested going to the cinema.',
+          'She denied taking the money.',
+          'He asked where I lived.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '"I didn\'t steal it." → He ___ stealing it.',
+            options: ['denied', 'refused', 'rejected', 'disagreed'],
+            correctAnswer: 'denied',
+            explanation: 'Deny + -ing for negating an accusation.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: '"Why don\'t we go out?" → She ___ going out.',
+            correctAnswer: 'suggested',
+            explanation: 'Suggest + -ing for proposals.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Report: "I have seen that movie." → He said he ___ ___ that movie.',
+            correctAnswer: 'had seen',
+            explanation: 'Present perfect → past perfect in reported speech.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-linking-words-exam',
+        type: 'grammar',
+        title: 'EXAM: Linking Words Review',
+        grammarPoint: 'Advanced linking words and discourse markers',
+        explanation: 'Review linking words:\n- Addition: furthermore, moreover, in addition\n- Contrast: however, nevertheless, whereas, despite\n- Cause/Effect: consequently, therefore, due to\n- Example: for instance, such as',
+        examples: [
+          'The plan is expensive. Furthermore, it will take years.',
+          'The weather was bad. Nevertheless, we enjoyed it.',
+          'Sales dropped. Consequently, staff were laid off.',
+          'Despite the rain, we went hiking.',
+          'I like tea, whereas she prefers coffee.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose: The project was difficult. ___, we completed it.',
+            options: ['Consequently', 'Nevertheless', 'Furthermore', 'Therefore'],
+            correctAnswer: 'Nevertheless',
+            explanation: 'Nevertheless shows contrast between difficulty and completion.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'He didn\'t study. ___, he failed.',
+            correctAnswer: 'Consequently/Therefore/As a result',
+            explanation: 'Shows cause and effect.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Combine using "despite": "It was raining. We played football."',
+            correctAnswer: 'Despite the rain, we played football',
+            explanation: 'Despite + noun phrase.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-argumentation-exam',
+        type: 'grammar',
+        title: 'EXAM: Argumentation Structures Review',
+        grammarPoint: 'Formal argumentation language',
+        explanation: 'Review argumentation structures:\n- It is argued that...\n- There is evidence to suggest that...\n- One could argue that...\n- Studies have shown that...\n- Proponents/Critics maintain/contend/claim that...',
+        examples: [
+          'It is argued that education reduces poverty.',
+          'There is evidence to suggest that exercise improves health.',
+          'Critics contend that the costs are too high.',
+          'Studies have shown that bilingualism benefits cognition.',
+          'One could argue that both approaches have merit.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which is most formal?',
+            options: [
+              'People think that...',
+              'It is argued that...',
+              'I think that...',
+              'Everyone says that...'
+            ],
+            correctAnswer: 'It is argued that...',
+            explanation: 'Passive impersonal structure is most formal.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: '___ ___ evidence to suggest that climate change is accelerating.',
+            correctAnswer: 'There is',
+            explanation: 'Formal structure for presenting evidence.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-vocabulary-exam',
+        type: 'vocabulary',
+        title: 'EXAM: Module 2 Vocabulary Review',
+        vocabularySet: [
+          { word: 'contend', definition: 'argue or assert (formal)', example: 'Experts contend that action is needed.' },
+          { word: 'maintain', definition: 'insist something is true', example: 'She maintains her innocence.' },
+          { word: 'acknowledge', definition: 'recognize or admit', example: 'He acknowledged his mistake.' },
+          { word: 'furthermore', definition: 'in addition; moreover', example: 'The plan is expensive. Furthermore, it\'s risky.' },
+          { word: 'nevertheless', definition: 'despite that; however', example: 'It was difficult. Nevertheless, we succeeded.' },
+          { word: 'whereas', definition: 'while; in contrast', example: 'I prefer coffee, whereas she likes tea.' },
+          { word: 'consequently', definition: 'as a result', example: 'Sales fell. Consequently, staff were cut.' },
+          { word: 'allegedly', definition: 'reportedly but not proven', example: 'He allegedly stole the money.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which linking word shows CONTRAST?',
+            options: ['furthermore', 'consequently', 'nevertheless', 'therefore'],
+            correctAnswer: 'nevertheless',
+            explanation: 'Nevertheless introduces contrasting information.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Experts ___ that the policy will fail.',
+            correctAnswer: 'contend/maintain/argue/claim',
+            explanation: 'Argumentation verbs.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-error-correction-exam',
+        type: 'error-identification',
+        title: 'EXAM: Error Correction',
+        instructions: 'Find and correct errors in these sentences (Module 2 grammar).',
+        sentences: [
+          {
+            id: 'err1',
+            sentence: 'She must left early because her car isn\'t here.',
+            error: 'must left',
+            correction: 'must have left',
+            explanation: 'Past deduction: must have + past participle.',
+            points: 2
+          },
+          {
+            id: 'err2',
+            sentence: 'The report is publish next week.',
+            error: 'is publish',
+            correction: 'will be published/is being published',
+            explanation: 'Passive voice needed: will be/is being + past participle.',
+            points: 2
+          },
+          {
+            id: 'err3',
+            sentence: 'He said that he will help us tomorrow.',
+            error: 'will',
+            correction: 'would',
+            explanation: 'Reported speech: will → would.',
+            points: 2
+          },
+          {
+            id: 'err4',
+            sentence: 'Although the rain, we went hiking.',
+            error: 'Although the rain',
+            correction: 'Despite the rain',
+            explanation: 'Despite + noun; Although + clause.',
+            points: 2
+          },
+          {
+            id: 'err5',
+            sentence: 'It is argue that education is important.',
+            error: 'is argue',
+            correction: 'is argued',
+            explanation: 'Passive voice: is argued.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-cloze-exam',
+        type: 'multiple-choice-cloze',
+        title: 'EXAM: Multiple Choice Cloze - Climate Action',
+        text: `Climate change represents one of the most pressing challenges facing humanity. Scientists (1)_____ that global temperatures have risen significantly over the past century. (2)_____, the rate of change appears to be accelerating. There is compelling evidence to (3)_____ that human activities are the primary cause.
+
+(4)_____ these findings, some politicians continue to question the need for immediate action. They (5)_____ that the economic costs of transitioning to renewable energy are too high. (6)_____, environmental advocates maintain that the cost of inaction would be far greater. If governments (7)_____ to invest in green technologies now, future generations will face catastrophic consequences.
+
+International cooperation is (8)_____. Individual nations cannot solve this global problem alone.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '1. _____',
+            options: ['contend', 'deny', 'refuse', 'reject'],
+            correctAnswer: 'contend',
+            explanation: 'Contend = argue/maintain (formal).',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: '2. _____',
+            options: ['Therefore', 'Furthermore', 'However', 'Consequently'],
+            correctAnswer: 'Furthermore',
+            explanation: 'Furthermore adds information.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: '3. _____',
+            options: ['suggest', 'tell', 'say', 'speak'],
+            correctAnswer: 'suggest',
+            explanation: 'Evidence suggests = evidence indicates.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '4. _____',
+            options: ['Although', 'Despite', 'However', 'Because'],
+            correctAnswer: 'Despite',
+            explanation: 'Despite + noun phrase (these findings).',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: '5. _____',
+            options: ['argue', 'tell', 'say', 'speak'],
+            correctAnswer: 'argue',
+            explanation: 'Argue that = claim that.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: '6. _____',
+            options: ['Therefore', 'Furthermore', 'However', 'Consequently'],
+            correctAnswer: 'However',
+            explanation: 'However shows contrast.',
+            points: 1
+          },
+          {
+            id: 'q7',
+            type: 'multiple-choice',
+            question: '7. _____',
+            options: ['fail', 'will fail', 'failed', 'have failed'],
+            correctAnswer: 'fail',
+            explanation: 'First conditional: If + present, will + verb.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            type: 'multiple-choice',
+            question: '8. _____',
+            options: ['essential', 'essence', 'essentially', 'essentials'],
+            correctAnswer: 'essential',
+            explanation: 'Adjective needed: is essential.',
+            points: 1
+          }
+        ],
+        focusAreas: ['Argumentation verbs', 'Linking words', 'Conditionals']
+      },
+      {
+        id: 'b2-m2-l6-key-word-exam',
+        type: 'key-word-transformation',
+        title: 'EXAM: Key Word Transformation',
+        instructions: 'Complete using the word given (2-5 words including the keyword).',
+        transformations: [
+          {
+            id: 't1',
+            original: 'I\'m sure she didn\'t see us.',
+            keyword: 'HAVE',
+            answer: 'can\'t/couldn\'t have seen',
+            fullSentence: 'She can\'t have seen us.',
+            points: 2
+          },
+          {
+            id: 't2',
+            original: '"I will call you," he said.',
+            keyword: 'WOULD',
+            answer: 'said he would call',
+            fullSentence: 'He said he would call me.',
+            points: 2
+          },
+          {
+            id: 't3',
+            original: 'The weather was bad but we enjoyed it.',
+            keyword: 'DESPITE',
+            answer: 'Despite the bad weather',
+            fullSentence: 'Despite the bad weather, we enjoyed it.',
+            points: 2
+          },
+          {
+            id: 't4',
+            original: 'Someone is repairing my computer.',
+            keyword: 'HAVING',
+            answer: 'having my computer repaired',
+            fullSentence: 'I\'m having my computer repaired.',
+            points: 2
+          },
+          {
+            id: 't5',
+            original: 'Many people believe education is vital.',
+            keyword: 'ARGUED',
+            answer: 'It is widely argued',
+            fullSentence: 'It is widely argued that education is vital.',
+            points: 2
+          },
+          {
+            id: 't6',
+            original: 'He didn\'t study, so he failed.',
+            keyword: 'CONSEQUENTLY',
+            answer: 'didn\'t study. Consequently, he',
+            fullSentence: 'He didn\'t study. Consequently, he failed.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-paraphrasing-exam',
+        type: 'paraphrasing',
+        title: 'EXAM: Paraphrasing',
+        instructions: 'Paraphrase using formal structures and linking words.',
+        sentences: [
+          {
+            id: 'p1',
+            original: 'The plan is expensive and will take time.',
+            paraphrased: 'The plan is expensive. Furthermore, it will require considerable time./Not only is the plan expensive, but it will also take time.',
+            alternatives: [
+              'The plan is costly. Moreover, implementation will be time-consuming.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p2',
+            original: 'Studies show exercise helps mental health.',
+            paraphrased: 'There is evidence to suggest that exercise improves mental well-being./Research indicates that physical activity benefits mental health.',
+            alternatives: [
+              'Studies have shown that exercise enhances psychological wellness.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p3',
+            original: 'She probably missed the bus.',
+            paraphrased: 'She must have missed the bus./She might have missed the bus.',
+            alternatives: [
+              'It is likely that she missed the bus.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p4',
+            original: '"Why don\'t you try again?" she said to me.',
+            paraphrased: 'She suggested that I try again./She suggested trying again.',
+            alternatives: [
+              'She recommended that I make another attempt.'
+            ],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-listening-exam',
+        type: 'listening',
+        title: 'EXAM: Listening - Debate on Universal Healthcare',
+        audioUrl: '/audio/b2-m2-l6-healthcare-debate.mp3',
+        duration: 180,
+        transcript: `Moderator: Today we're discussing universal healthcare. Dr. Chen, your opening statement?
+
+Dr. Chen: Thank you. It is widely argued that healthcare is a fundamental human right. There is compelling evidence to suggest that universal healthcare systems achieve better health outcomes at lower costs than market-based systems. Furthermore, preventative care becomes more accessible when financial barriers are removed. Consequently, populations in countries with universal healthcare tend to be healthier overall.
+
+Moderator: Mr. Thompson, your response?
+
+Mr. Thompson: While I acknowledge Dr. Chen's points, one could argue that market-based systems drive innovation more effectively. Critics contend that government-run healthcare leads to longer waiting times and reduced quality of care. Moreover, the tax burden required to fund universal healthcare might have been underestimated. If we had implemented such a system, our economy could have suffered significantly.
+
+Dr. Chen: Those concerns have largely been debunked by international comparisons. Nevertheless, I concede that transitioning to universal healthcare requires careful planning. However, the evidence overwhelmingly suggests that the benefits outweigh the challenges.
+
+Moderator: Thank you both for a balanced discussion.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What is Dr. Chen\'s main argument?',
+            options: [
+              'Healthcare is too expensive',
+              'Healthcare is a fundamental human right',
+              'Private healthcare is better',
+              'Waiting times are too long'
+            ],
+            correctAnswer: 'Healthcare is a fundamental human right',
+            explanation: 'Dr. Chen afirma: "healthcare is a fundamental human right".',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name TWO argumentation structures used in the debate.',
+            correctAnswer: 'It is widely argued, There is evidence to suggest, One could argue, Critics contend (any two)',
+            explanation: 'Ambos participantes usan estructuras formales.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What concern does Mr. Thompson raise?',
+            options: [
+              'Universal healthcare is perfect',
+              'Government-run healthcare may lead to longer waiting times',
+              'Everyone supports it',
+              'It costs nothing'
+            ],
+            correctAnswer: 'Government-run healthcare may lead to longer waiting times',
+            explanation: 'Mr. Thompson menciona que podría llevar a "longer waiting times".',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'What does Dr. Chen say about Mr. Thompson\'s concerns?',
+            correctAnswer: 'They have been debunked by international comparisons',
+            explanation: 'Dr. Chen responde que las preocupaciones "have largely been debunked".',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-gap-fill-exam',
+        type: 'gap-fill',
+        title: 'EXAM: Gap-fill - The Digital Divide',
+        text: `The digital divide refers to the gap between those who have access to modern technology and those who do not. (1)_____ that this gap is widening in many parts of the world. (2)_____, rural communities often lack the infrastructure necessary for high-speed internet.
+
+There is (3)_____ evidence to suggest that digital access has become essential for economic participation. (4)_____ governments have invested in improving connectivity, progress has been uneven. (5)_____ we fail to address this issue, millions of people will be left behind.
+
+The pandemic (6)_____ the problem even more visible. Students without internet access (7)_____ participate in online learning. (8)_____, workers without digital skills struggled to adapt to remote work. This crisis has (9)_____ that digital literacy is no longer optional—it is a fundamental requirement for modern life.
+
+(10)_____, solving the digital divide will require coordinated efforts from governments, private companies, and communities.`,
+        gaps: [
+          { id: 'gap1', correctAnswers: ['It is argued', 'Many contend', 'Experts maintain'], explanation: 'Formal argument structure.' },
+          { id: 'gap2', correctAnswers: ['For instance', 'For example'], explanation: 'Introducing example.' },
+          { id: 'gap3', correctAnswers: ['compelling', 'strong', 'substantial'], explanation: 'Adjective for evidence.' },
+          { id: 'gap4', correctAnswers: ['Although', 'While', 'Though'], explanation: 'Contrast with clause.' },
+          { id: 'gap5', correctAnswers: ['If', 'Should'], explanation: 'Conditional.' },
+          { id: 'gap6', correctAnswers: ['made', 'rendered'], explanation: 'Made something visible.' },
+          { id: 'gap7', correctAnswers: ['couldn\'t', 'could not'], explanation: 'Past ability/inability.' },
+          { id: 'gap8', correctAnswers: ['Similarly', 'Likewise', 'Furthermore'], explanation: 'Adding related information.' },
+          { id: 'gap9', correctAnswers: ['shown', 'demonstrated', 'proven'], explanation: 'Past participle.' },
+          { id: 'gap10', correctAnswers: ['Therefore', 'Consequently', 'Thus'], explanation: 'Conclusion/result.' }
+        ],
+        instructions: 'Fill gaps with appropriate words from Module 2.',
+        points: 10
+      },
+      {
+        id: 'b2-m2-l6-sentence-reordering-exam',
+        type: 'sentence-reordering',
+        title: 'EXAM: Sentence Reordering',
+        instructions: 'Put sentences in logical order to form a coherent argument.',
+        sentences: [
+          { id: 's1', text: 'In conclusion, while social media presents challenges, its benefits for global communication are undeniable.', order: 8 },
+          { id: 's2', text: 'It is widely argued that social media has revolutionized how people communicate globally.', order: 1 },
+          { id: 's3', text: 'Furthermore, it has enabled marginalized voices to be heard and social movements to gain momentum.', order: 3 },
+          { id: 's4', text: 'Nevertheless, critics raise valid concerns about privacy, misinformation, and mental health impacts.', order: 4 },
+          { id: 's5', text: 'There is evidence to suggest that platforms facilitate instant connection across vast distances.', order: 2 },
+          { id: 's6', text: 'If platforms were to implement stronger content moderation, many of these issues could be mitigated.', order: 6 },
+          { id: 's7', text: 'These concerns cannot be dismissed and warrant serious consideration.', order: 5 },
+          { id: 's8', text: 'Therefore, a balanced approach that maximizes benefits while minimizing harms is essential.', order: 7 }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l6-pronunciation-exam',
+        type: 'pronunciation',
+        title: 'EXAM: Pronunciation Review',
+        instructions: 'Practice key vocabulary from Module 2.',
+        words: [
+          {
+            word: 'consequently',
+            phonetic: '/ˈkɒnsɪkwəntli/',
+            audioUrl: '/audio/pronunciation/consequently.mp3',
+            stressPattern: 'CON-se-quent-ly'
+          },
+          {
+            word: 'nevertheless',
+            phonetic: '/ˌnevəðəˈles/',
+            audioUrl: '/audio/pronunciation/nevertheless.mp3',
+            stressPattern: 'neverthe-LESS'
+          },
+          {
+            word: 'acknowledge',
+            phonetic: '/əkˈnɒlɪdʒ/',
+            audioUrl: '/audio/pronunciation/acknowledge.mp3',
+            stressPattern: 'ac-KNOWL-edge'
+          },
+          {
+            word: 'demonstrate',
+            phonetic: '/ˈdemənstreɪt/',
+            audioUrl: '/audio/pronunciation/demonstrate.mp3',
+            stressPattern: 'DEM-on-strate'
+          }
+        ],
+        points: 4
+      },
+      {
+        id: 'b2-m2-l6-word-formation-exam',
+        type: 'word-formation',
+        title: 'EXAM: Word Formation',
+        instructions: 'Complete with correct form of the word in capitals.',
+        words: [
+          {
+            id: 'wf1',
+            sentence: 'The ___ of the argument was impressive.',
+            baseWord: 'STRONG',
+            correctAnswer: 'strength',
+            explanation: 'strength (noun)',
+            points: 1
+          },
+          {
+            id: 'wf2',
+            sentence: 'There is considerable ___ about the best approach.',
+            baseWord: 'DISAGREE',
+            correctAnswer: 'disagreement',
+            explanation: 'disagreement (noun)',
+            points: 1
+          },
+          {
+            id: 'wf3',
+            sentence: 'The policy has proven ___ effective.',
+            baseWord: 'REMARKABLE',
+            correctAnswer: 'remarkably',
+            explanation: 'remarkably (adverb)',
+            points: 1
+          },
+          {
+            id: 'wf4',
+            sentence: 'International ___ is essential for solving global problems.',
+            baseWord: 'COOPERATE',
+            correctAnswer: 'cooperation',
+            explanation: 'cooperation (noun)',
+            points: 1
+          },
+          {
+            id: 'wf5',
+            sentence: 'The ___ benefits are well documented.',
+            baseWord: 'ENVIRONMENT',
+            correctAnswer: 'environmental',
+            explanation: 'environmental (adjective)',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-integrated-exam',
+        type: 'reading',
+        title: 'EXAM: Integrated Skills - Final Assessment',
+        text: `The concept of lifelong learning has gained unprecedented importance in the 21st century. It is widely argued that the rapid pace of technological and social change requires individuals to continuously update their skills and knowledge throughout their careers and lives.
+
+Proponents maintain that lifelong learning brings numerous benefits. There is compelling evidence to suggest that continuous education enhances employment prospects, increases earning potential, and improves overall quality of life. Furthermore, studies have shown that mentally active individuals experience slower cognitive decline as they age. Consequently, governments and organizations worldwide have begun investing heavily in adult education programs.
+
+Nevertheless, significant barriers remain. Critics point out that access to quality learning opportunities is often limited by factors such as cost, time constraints, and geographical location. Moreover, individuals from disadvantaged backgrounds may lack the resources or confidence to pursue further education. If society were to truly embrace lifelong learning as a priority, these systemic inequalities would need to be addressed.
+
+The digital revolution has both helped and hindered progress. On one hand, online learning platforms have democratized access to education, making world-class courses available to anyone with internet access. On the other hand, the same digital divide that affects other areas of society creates barriers for those without technological resources or digital literacy.
+
+Despite these challenges, the evidence overwhelmingly supports the importance of lifelong learning. Whereas traditional education models focused on front-loading knowledge in youth, modern approaches recognize that learning must be continuous and adaptive. One could argue that cultivating a genuine love of learning—rather than simply acquiring specific skills—represents the most sustainable approach to navigating an uncertain future.`,
+        wordCount: 270,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, why has lifelong learning become important?',
+            options: [
+              'Because schools are closing',
+              'Because of rapid technological and social change',
+              'Because it is mandatory',
+              'Because traditional education has failed'
+            ],
+            correctAnswer: 'Because of rapid technological and social change',
+            explanation: 'El texto menciona "the rapid pace of technological and social change".',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name THREE benefits of lifelong learning mentioned in the text.',
+            correctAnswer: 'Enhanced employment prospects, increased earning potential, improved quality of life, slower cognitive decline (any three)',
+            explanation: 'El texto enumera estos beneficios.',
+            points: 3
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'Complete: "___ traditional education focused on front-loading knowledge, modern approaches recognize continuous learning."',
+            correctAnswer: 'Whereas',
+            explanation: 'Whereas contrasta enfoques tradicionales y modernos.',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'How has the digital revolution affected lifelong learning?',
+            options: [
+              'Only positively',
+              'Only negatively',
+              'Both helped and hindered',
+              'Had no effect'
+            ],
+            correctAnswer: 'Both helped and hindered',
+            explanation: 'El texto dice "both helped and hindered progress".',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What barriers to lifelong learning does the text mention?',
+            correctAnswer: 'Cost, time constraints, geographical location, lack of resources, lack of confidence, digital divide (any three)',
+            explanation: 'El texto menciona múltiples barreras.',
+            points: 3
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'FINAL WRITING TASK: Do you agree that lifelong learning is essential in the modern world? Write 150-180 words presenting your argument. You MUST use:\n- At least 3 modal verbs\n- At least 4 linking words\n- At least 2 formal argumentation structures\n- At least 1 conditional sentence\n- Passive voice (at least once)',
+            correctAnswer: '',
+            explanation: 'Evaluate comprehensively on all Module 2 criteria: argumentation, linking words, modals, passive voice, reported speech awareness, formal register.',
+            points: 20
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'unprecedented', definition: 'never done or known before' },
+          { word: 'cognitive decline', definition: 'gradual loss of mental abilities' },
+          { word: 'democratized', definition: 'made accessible to everyone' },
+          { word: 'front-loading', definition: 'concentrating at the beginning' },
+          { word: 'sustainable', definition: 'able to be maintained long-term' }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-speaking-final',
+        type: 'speaking',
+        prompt: 'FINAL SPEAKING EXAM: Choose ONE topic and prepare a 3-4 minute presentation:\n\n1) "The most important skill for future success"\n2) "Should all education be free?"\n3) "The role of technology in modern society"\n\nYour presentation MUST include:\n- Clear introduction, body, and conclusion\n- At least 5 different linking words\n- At least 3 modal verbs (speculation/opinion)\n- At least 2 formal argumentation structures\n- Arguments both FOR and AGAINST\n- Your personal opinion with justification\n- Passive voice usage\n- Reference to studies/evidence (can use reported speech)',
+        timeLimit: 240,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Introduction: State topic and position clearly',
+          'Use: "It is widely argued that...", "There is evidence to suggest..."',
+          'Present both sides: "On one hand... On the other hand..."',
+          'Link ideas: furthermore, nevertheless, consequently, whereas',
+          'Modals: might, could, should, must',
+          'Conclusion: "In conclusion...", "Therefore..."',
+          'Speak clearly and at moderate pace',
+          'Use formal academic register throughout'
+        ]
+      },
+      {
+        id: 'b2-m2-l6-reflection',
+        type: 'writing',
+        prompt: 'EXAM REFLECTION: Write a brief reflection (100-120 words) on what you have learned in Module 2. Consider:\n- Which grammar structures were most challenging?\n- How will you use these skills in real life?\n- What areas need more practice?\n\nUse some of the vocabulary and structures from Module 2.',
+        writingType: 'essay',
+        minWords: 100,
+        maxWords: 120,
+        timeLimit: 15,
+        rubric: {
+          content: 40,
+          grammar: 30,
+          vocabulary: 30
+        },
+        tips: [
+          'Be honest about challenges',
+          'Give specific examples',
+          'Use Module 2 linking words',
+          'Mention specific grammar points (modals, passive, reported speech, etc.)',
+          'Think about real-world applications'
         ]
       }
     ]
