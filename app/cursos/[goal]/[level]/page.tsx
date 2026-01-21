@@ -4,8 +4,8 @@ import { getCurriculumByLevel } from "@/lib/curriculum-data";
 import CurriculumSection from "@/components/sections/CurriculumSection";
 import { generateCourseSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schemas";
 
-
-export const runtime = 'edge';
+// Note: Cannot use runtime = 'edge' with generateStaticParams in Next.js 15
+// These pages will be statically generated at build time
 const GOALS = ["trabajo", "viajes", "examenes"] as const;
 const LEVELS = ["a1","a2","b1","b2","c1","c2"] as const;
 
