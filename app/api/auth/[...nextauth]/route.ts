@@ -1,15 +1,26 @@
 // ============================================
-// NEXTAUTH API ROUTE
-// Handler para todas las rutas de autenticación
+// DEPRECATED - NEXTAUTH ROUTE
+// Redirige a nuevo sistema de autenticación con Supabase Auth
 // ============================================
 
-import NextAuth from 'next-auth';
-import { authOptions } from '@/lib/auth';
+import { NextRequest, NextResponse } from 'next/server';
 
-// REMOVED: export const runtime = 'edge';
-// NextAuth requires Node.js runtime for crypto and bcrypt modules
-// Cloudflare Pages will use Node.js compatibility mode
+export const runtime = 'edge';
 
-const handler = NextAuth(authOptions);
+// Todas las peticiones a NextAuth se redirigen al nuevo sistema
+export async function GET(request: NextRequest) {
+  return NextResponse.json(
+    { 
+      error: 'NextAuth deprecado. Usa las nuevas rutas de autenticación.',
+      newRoutes: {
+        login: '/api/auth/login',
+        signup: '/api/auth/signup',
+        logout: '/api/auth/logout',
+        me: '/api/auth/me',
+      }
+    },
+    { status: 410 } // 410 Gone
+  );
+}
 
-export { handler as GET, handler as POST };
+export { GET as POST };

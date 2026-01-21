@@ -7,8 +7,31 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 import { hashPassword } from '@/lib/edge-crypto';
 
-// REMOVED: export const runtime = 'edge';
-// bcryptjs requires Node.js runtime
+/**
+ * DEPRECATED - Redirige a /api/auth/signup
+ * Mantiene compatibilidad con código legacy
+ */
+
+import { NextRequest, NextResponse } from 'next/server';
+
+export const runtime = 'edge';
+
+export async function POST(request: NextRequest) {
+  // Obtener el body y reenviarlo a la nueva ruta
+  const body = await request.json();
+  
+  // Redirigir a la nueva API
+  const response = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/auth/signup`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(body),
+  });
+
+  const data = await response.json();
+  return NextResponse.json(data, { status: response.status });
+}
 // Cliente de Supabase (solo si las variables de entorno están disponibles)
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
 const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
