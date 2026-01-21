@@ -7,7 +7,7 @@
 // ============================================
 
 import { useState, Suspense } from 'react';
-import { signIn } from 'next-auth/react';
+import { signIn } from '@/lib/auth-helpers';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 
@@ -28,16 +28,11 @@ function SignInForm() {
     setLoading(true);
 
     try {
-      const result = await signIn('credentials', {
-        email,
-        password,
-        redirect: false,
-      });
+      const { user, error: authError } = await signIn(email, password);
 
-      if (result?.error) {
+      if (authError || !user) {
         setError('Email o contraseña incorrectos');
       } else {
-        // Redirigir al curso B2 por defecto
         router.push(callbackUrl);
       }
     } catch (err) {

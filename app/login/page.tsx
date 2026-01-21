@@ -6,7 +6,7 @@
 // ============================================
 
 import { useState, Suspense } from 'react';
-import { signIn } from 'next-auth/react';
+import { signIn, signInWithOAuth } from '@/lib/auth-helpers';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 
@@ -27,13 +27,9 @@ function LoginForm() {
     setLoading(true);
 
     try {
-      const result = await signIn('credentials', {
-        email,
-        password,
-        redirect: false,
-      });
+      const { user, error: authError } = await signIn(email, password);
 
-      if (result?.error) {
+      if (authError || !user) {
         setError('Email o contraseña incorrectos');
       } else {
         router.push(callbackUrl);
@@ -47,7 +43,7 @@ function LoginForm() {
 
   // Login con Google
   const handleGoogleLogin = () => {
-    signIn('google', { callbackUrl });
+    signInWithOAuth('google');
   };
 
   // Login con GitHub

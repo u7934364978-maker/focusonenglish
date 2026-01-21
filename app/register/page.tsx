@@ -6,7 +6,7 @@
 // ============================================
 
 import { useState } from 'react';
-import { signIn } from 'next-auth/react';
+import { signUp, signIn } from '@/lib/auth-helpers';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
@@ -21,6 +21,7 @@ export default function RegisterPage() {
   });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   // Manejar cambios en el formulario
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -62,34 +63,31 @@ export default function RegisterPage() {
     setLoading(true);
 
     try {
-      // Llamar a la API de registro
-      const response = await fetch('/api/auth/register', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          name: formData.name,
-          email: formData.email,
-          password: formData.password,
-        }),
-      });
+      const { user, error: signUpError } = await signUp(
+        formData.email,
+        formData.password,
+        formData.name
+      );
 
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.error || 'Error al registrar usuario');
+      if (signUpError) {
+        throw new Error(signUpError.message);
       }
 
-      // Iniciar sesión automáticamente después del registro
-      const result = await signIn('credentials', {
-        email: formData.email,
-        password: formData.password,
-        redirect: false,
-      });
+      // Supabase puede requerir confirmación de email
+      if (!user) {
+        setSuccess(true);
+        setError('Por favor, confirma tu email antes de iniciar sesión');
+        return;
+      }
 
-      if (result?.error) {
-        setError('Cuenta creada, pero error al iniciar sesión');
+      // Si no requiere confirmación, iniciar sesión automáticamente
+      const { user: signedInUser, error: signInError } = await signIn(
+        formData.email,
+        formData.password
+      );
+
+      if (signInError || !signedInUser) {
+        setError('Cuenta creada. Por favor, inicia sesión.');
       } else {
         router.push('/dashboard');
       }
