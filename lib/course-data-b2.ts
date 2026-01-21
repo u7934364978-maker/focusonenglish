@@ -14012,6 +14012,545 @@ Thank you for your attention. I'd be happy to take any questions.`,
           }
         ],
         focusAreas: ['Academic collocations', 'Research vocabulary', 'Formal register']
+      },
+      {
+        id: 'b2-m3-l3-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Presentation Signposting Language',
+        vocabularySet: [
+          { word: 'firstly / secondly / finally', definition: 'sequencing markers', example: 'Firstly, I\'ll discuss the methodology. Secondly, I\'ll present the findings.' },
+          { word: 'moving on to', definition: 'transition phrase', example: 'Moving on to the next section, let\'s examine the data.' },
+          { word: 'turning to', definition: 'topic transition', example: 'Turning to the financial implications, we can see...' },
+          { word: 'as I mentioned earlier', definition: 'reference back', example: 'As I mentioned earlier, this is a critical factor.' },
+          { word: 'let me draw your attention to', definition: 'focus audience', example: 'Let me draw your attention to this graph.' },
+          { word: 'it\'s worth noting that', definition: 'emphasis phrase', example: 'It\'s worth noting that results varied across regions.' },
+          { word: 'in other words', definition: 'rephrasing', example: 'The project failed, in other words, we need a new approach.' },
+          { word: 'to put it another way', definition: 'clarification', example: 'To put it another way, we\'re looking at a 30% increase.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which phrase is best for transitioning to a new topic?',
+            options: ['Finally', 'Moving on to', 'In conclusion', 'To summarize'],
+            correctAnswer: 'Moving on to',
+            explanation: '"Moving on to" indicates a transition to a new topic.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: "___, I\'d like to thank everyone for their participation."',
+            correctAnswer: 'Finally',
+            explanation: '"Finally" is used for the last point or conclusion.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l3-vocabulary-3',
+        type: 'vocabulary',
+        title: 'Academic Discussion Phrases',
+        vocabularySet: [
+          { word: 'raise a point', definition: 'bring up an issue for discussion', example: 'I\'d like to raise a point about the methodology.' },
+          { word: 'address a concern', definition: 'respond to a worry or problem', example: 'Let me address the concern you mentioned.' },
+          { word: 'build on', definition: 'expand or develop an idea', example: 'I\'d like to build on what Sarah just said.' },
+          { word: 'challenge the assumption', definition: 'question a belief', example: 'I want to challenge the assumption that this is cost-effective.' },
+          { word: 'draw a conclusion', definition: 'make a final judgment', example: 'Based on the evidence, we can draw the conclusion that...' },
+          { word: 'shed light on', definition: 'clarify or explain', example: 'This research sheds light on consumer behavior.' },
+          { word: 'take into account', definition: 'consider', example: 'We must take into account regional differences.' },
+          { word: 'warrant further investigation', definition: 'require more study', example: 'These findings warrant further investigation.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What phrase means "to question a belief"?',
+            options: ['raise a point', 'build on', 'challenge the assumption', 'shed light on'],
+            correctAnswer: 'challenge the assumption',
+            explanation: '"Challenge the assumption" means to question an underlying belief.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l3-grammar-1',
+        type: 'grammar',
+        title: 'Hedging Language in Academic Presentations',
+        explanation: `Hedging language makes statements less direct and more tentative, which is important in academic contexts where you want to avoid overgeneralizing. Common hedging techniques include:
+
+**Modal verbs:** may, might, could, would
+- "This could suggest that..." (instead of "This proves that...")
+- "The data might indicate..." (instead of "The data shows...")
+
+**Verbs of uncertainty:** seem, appear, tend to, suggest
+- "The results seem to support..." 
+- "Evidence suggests that..."
+
+**Adverbs:** possibly, probably, perhaps, likely
+- "This is probably the most effective approach."
+- "Perhaps we should consider alternative methods."
+
+**Phrases:** it is possible that, it appears that, there is evidence to suggest
+- "It is possible that factors we haven't considered are at play."
+- "There is evidence to suggest a correlation."
+
+**Quantifiers:** some, many, most (instead of all)
+- "Many studies support this view" (instead of "All studies...")`,
+        examples: [
+          { correct: 'The data suggests a correlation between the two variables.', incorrect: 'The data proves a correlation.', rule: 'Use "suggests" instead of "proves" to be more tentative.' },
+          { correct: 'This approach may be more effective in certain contexts.', incorrect: 'This approach is definitely more effective.', rule: 'Use modal verbs like "may" to hedge claims.' },
+          { correct: 'Most participants reported positive outcomes.', incorrect: 'All participants reported positive outcomes.', rule: 'Use "most" instead of "all" to avoid overgeneralizing.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which sentence uses appropriate hedging language?',
+            options: [
+              'This study proves that exercise cures depression.',
+              'This study suggests that exercise may help reduce depression.',
+              'Exercise definitely cures all depression.',
+              'Everyone should exercise to cure depression.'
+            ],
+            correctAnswer: 'This study suggests that exercise may help reduce depression.',
+            explanation: 'This option uses hedging with "suggests" and "may" to avoid overgeneralization.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete with a hedging phrase: "The results ___ indicate a positive trend."',
+            correctAnswer: 'seem to',
+            acceptableAnswers: ['appear to', 'tend to', 'might', 'may', 'could'],
+            explanation: 'Hedging phrases like "seem to", "appear to", or modals make the statement more tentative.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Which word is a hedging adverb?',
+            options: ['definitely', 'probably', 'certainly', 'absolutely'],
+            correctAnswer: 'probably',
+            explanation: '"Probably" expresses uncertainty, while the others express certainty.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l3-error-identification-1',
+        type: 'error-identification',
+        title: 'Common Presentation Errors',
+        sentences: [
+          {
+            sentence: 'Good morning. Today I want to talk you about climate change.',
+            error: 'talk you',
+            correction: 'talk to you',
+            explanation: 'The correct phrase is "talk to you" (not "talk you").',
+            points: 1
+          },
+          {
+            sentence: 'Let me to introduce our new product line.',
+            error: 'to introduce',
+            correction: 'introduce',
+            explanation: 'After "let me", use the base form without "to".',
+            points: 1
+          },
+          {
+            sentence: 'Firstable, I\'d like to outline the main objectives.',
+            error: 'Firstable',
+            correction: 'Firstly / First of all',
+            explanation: '"Firstable" is not a word. Use "Firstly" or "First of all".',
+            points: 1
+          },
+          {
+            sentence: 'This data shows that customers prefers our product.',
+            error: 'prefers',
+            correction: 'prefer',
+            explanation: 'The subject is "customers" (plural), so use "prefer" not "prefers".',
+            points: 1
+          },
+          {
+            sentence: 'I want to emphasize about the importance of teamwork.',
+            error: 'emphasize about',
+            correction: 'emphasize',
+            explanation: '"Emphasize" is not followed by "about". Say "emphasize the importance".',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l3-sentence-completion-1',
+        type: 'sentence-completion',
+        title: 'Complete the Presentation Phrases',
+        sentences: [
+          {
+            sentence: 'Let me ___ your attention to this important statistic.',
+            correctAnswer: 'draw',
+            acceptableAnswers: ['direct', 'bring'],
+            explanation: '"Draw your attention" is the standard phrase.',
+            points: 1
+          },
+          {
+            sentence: 'I\'d like to ___ on the point Sarah made earlier.',
+            correctAnswer: 'build',
+            acceptableAnswers: ['expand', 'elaborate'],
+            explanation: '"Build on" means to develop or expand an idea further.',
+            points: 1
+          },
+          {
+            sentence: 'This finding ___ light on consumer preferences.',
+            correctAnswer: 'sheds',
+            acceptableAnswers: ['throws', 'casts'],
+            explanation: '"Sheds light on" means to clarify or explain something.',
+            points: 1
+          },
+          {
+            sentence: 'The data ___ to suggest a positive correlation.',
+            correctAnswer: 'seems',
+            acceptableAnswers: ['appears', 'tends'],
+            explanation: 'Hedging language: "seems to suggest" is more tentative than "proves".',
+            points: 1
+          },
+          {
+            sentence: 'Before I ___, let me summarize the key points.',
+            correctAnswer: 'conclude',
+            acceptableAnswers: ['finish', 'end'],
+            explanation: '"Before I conclude" is a formal closing phrase.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l3-paraphrasing-1',
+        type: 'paraphrasing',
+        title: 'Paraphrase Academic Language',
+        pairs: [
+          {
+            original: 'The research indicates a significant correlation.',
+            paraphrase: 'The study shows a strong relationship.',
+            explanation: 'Simplifying academic language while maintaining meaning.',
+            points: 2
+          },
+          {
+            original: 'This methodology warrants further investigation.',
+            paraphrase: 'This method needs more research.',
+            explanation: 'Converting formal academic language to simpler terms.',
+            points: 2
+          },
+          {
+            original: 'The findings shed light on consumer behavior.',
+            paraphrase: 'The results explain how consumers behave.',
+            explanation: 'Replacing idiomatic phrase with direct explanation.',
+            points: 2
+          },
+          {
+            original: 'We must take into account regional variations.',
+            paraphrase: 'We must consider regional differences.',
+            explanation: 'Simplifying phrasal expression.',
+            points: 2
+          },
+          {
+            original: 'Let me elaborate on this particular aspect.',
+            paraphrase: 'Let me explain this point in more detail.',
+            explanation: 'Making academic language more accessible.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l3-collocation-matching-1',
+        type: 'collocation-matching',
+        title: 'Academic & Presentation Collocations',
+        pairs: [
+          { left: 'conduct', right: 'research', explanation: '"Conduct research" is the standard academic collocation.' },
+          { left: 'draw', right: 'conclusions', explanation: '"Draw conclusions" means to make final judgments based on evidence.' },
+          { left: 'raise', right: 'a point', explanation: '"Raise a point" means to bring up an issue for discussion.' },
+          { left: 'address', right: 'concerns', explanation: '"Address concerns" means to respond to worries or problems.' },
+          { left: 'shed light', right: 'on a topic', explanation: '"Shed light on" means to clarify or explain something.' },
+          { left: 'challenge', right: 'assumptions', explanation: '"Challenge assumptions" means to question underlying beliefs.' },
+          { left: 'warrant', right: 'investigation', explanation: '"Warrant investigation" means to require or deserve further study.' },
+          { left: 'take into', right: 'account', explanation: '"Take into account" means to consider or include in decision-making.' }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m3-l3-key-word-transformations-1',
+        type: 'key-word-transformations',
+        title: 'Key Word Transformations: Presentation Language',
+        transformations: [
+          {
+            original: 'I want to discuss the financial implications.',
+            keyword: 'TURN',
+            transformed: 'I want to TURN TO the financial implications.',
+            explanation: '"Turn to" is a presentation phrase for introducing a new topic.',
+            points: 2
+          },
+          {
+            original: 'The results prove there is a correlation.',
+            keyword: 'SUGGEST',
+            transformed: 'The results SUGGEST there is a correlation.',
+            explanation: 'Using hedging language to be more tentative.',
+            points: 2
+          },
+          {
+            original: 'Let me say that again in a different way.',
+            keyword: 'PUT',
+            transformed: 'Let me PUT that another way.',
+            explanation: '"Put it another way" means to rephrase or clarify.',
+            points: 2
+          },
+          {
+            original: 'We should consider regional differences.',
+            keyword: 'ACCOUNT',
+            transformed: 'We should take regional differences into ACCOUNT.',
+            explanation: '"Take into account" means to consider.',
+            points: 2
+          },
+          {
+            original: 'This research explains consumer behavior.',
+            keyword: 'LIGHT',
+            transformed: 'This research sheds LIGHT on consumer behavior.',
+            explanation: '"Shed light on" means to explain or clarify.',
+            points: 2
+          },
+          {
+            original: 'Finally, I want to emphasize this point.',
+            keyword: 'CONCLUDE',
+            transformed: 'Before I CONCLUDE, I want to emphasize this point.',
+            explanation: '"Before I conclude" is a formal closing phrase.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l3-word-formation-1',
+        type: 'word-formation',
+        title: 'Word Formation: Academic Nouns',
+        sentences: [
+          {
+            sentence: 'The ___ (INVESTIGATE) revealed surprising results.',
+            correctAnswer: 'investigation',
+            baseWord: 'INVESTIGATE',
+            explanation: 'Noun form: investigate → investigation',
+            points: 1
+          },
+          {
+            sentence: 'We need to conduct a thorough ___ (ANALYZE) of the data.',
+            correctAnswer: 'analysis',
+            baseWord: 'ANALYZE',
+            explanation: 'Noun form: analyze → analysis (irregular)',
+            points: 1
+          },
+          {
+            sentence: 'The ___ (PRESENT) was well-structured and engaging.',
+            correctAnswer: 'presentation',
+            baseWord: 'PRESENT',
+            explanation: 'Noun form: present → presentation',
+            points: 1
+          },
+          {
+            sentence: 'Student ___ (PARTICIPATE) is essential for learning.',
+            correctAnswer: 'participation',
+            baseWord: 'PARTICIPATE',
+            explanation: 'Noun form: participate → participation',
+            points: 1
+          },
+          {
+            sentence: 'The study has several ___ (LIMIT) that should be acknowledged.',
+            correctAnswer: 'limitations',
+            baseWord: 'LIMIT',
+            explanation: 'Noun form (plural): limit → limitations',
+            points: 1
+          },
+          {
+            sentence: 'Her ___ (EXPLAIN) was clear and concise.',
+            correctAnswer: 'explanation',
+            baseWord: 'EXPLAIN',
+            explanation: 'Noun form: explain → explanation',
+            points: 1
+          },
+          {
+            sentence: 'The research shows a strong ___ (CORRELATE) between the variables.',
+            correctAnswer: 'correlation',
+            baseWord: 'CORRELATE',
+            explanation: 'Noun form: correlate → correlation',
+            points: 1
+          },
+          {
+            sentence: 'We reached the ___ (CONCLUDE) that more research is needed.',
+            correctAnswer: 'conclusion',
+            baseWord: 'CONCLUDE',
+            explanation: 'Noun form: conclude → conclusion',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l3-gap-fill-1',
+        type: 'gap-fill',
+        title: 'Gap-Fill: Conference Presentation',
+        text: `Good afternoon, everyone. Thank you for joining this session. Today, I'd like to (1)___ the findings of our recent study on workplace productivity. 
+
+(2)___ I'll outline three main areas we investigated. Firstly, we examined the impact of flexible working hours. Secondly, we analyzed the effects of workspace design. Finally, we explored the role of team dynamics in overall productivity.
+
+(3)___ on to our first finding, the data (4)___ to suggest that flexible hours significantly improve employee satisfaction. It's (5)___ noting that productivity increased by an average of 15% when employees had control over their schedules.
+
+Now, let me (6)___ your attention to this graph, which shows the correlation between workspace design and creativity. As you can see, open-plan offices (7)___ both advantages and disadvantages. While they facilitate collaboration, they can also create distractions.
+
+(8)___ I conclude, I want to (9)___ that these findings (10)___ further investigation. We need to take into account individual differences and industry-specific factors. Thank you for your attention. I'd be happy to address any questions.`,
+        answers: [
+          { number: 1, answer: 'present', acceptableAnswers: ['share', 'discuss'] },
+          { number: 2, answer: 'Firstly', acceptableAnswers: ['First'] },
+          { number: 3, answer: 'Moving', acceptableAnswers: ['Turning'] },
+          { number: 4, answer: 'seems', acceptableAnswers: ['appears', 'tends'] },
+          { number: 5, answer: 'worth', acceptableAnswers: [] },
+          { number: 6, answer: 'draw', acceptableAnswers: ['direct'] },
+          { number: 7, answer: 'offer', acceptableAnswers: ['present', 'have'] },
+          { number: 8, answer: 'Before', acceptableAnswers: [] },
+          { number: 9, answer: 'emphasize', acceptableAnswers: ['stress', 'highlight'] },
+          { number: 10, answer: 'warrant', acceptableAnswers: ['require', 'need'] }
+        ],
+        points: 10
+      },
+      {
+        id: 'b2-m3-l3-sentence-reordering-1',
+        type: 'sentence-reordering',
+        title: 'Organize a Presentation Outline',
+        sentences: [
+          { id: 1, text: 'Good morning, everyone. Thank you for being here today.', position: 1 },
+          { id: 2, text: 'I\'d like to outline what I\'ll cover in the next 20 minutes.', position: 2 },
+          { id: 3, text: 'Firstly, I\'ll discuss the current market situation.', position: 3 },
+          { id: 4, text: 'Secondly, I\'ll present our proposed solution.', position: 4 },
+          { id: 5, text: 'Finally, I\'ll explain the expected benefits and timeline.', position: 5 },
+          { id: 6, text: 'Moving on to the market analysis, we can see three key trends.', position: 6 },
+          { id: 7, text: 'To summarize, our solution addresses all major pain points.', position: 7 },
+          { id: 8, text: 'Before I conclude, I want to emphasize the urgency of this project.', position: 8 }
+        ],
+        instruction: 'Arrange these sentences to create a logical presentation structure.',
+        points: 8
+      },
+      {
+        id: 'b2-m3-l3-pronunciation-1',
+        type: 'pronunciation',
+        title: 'Word Stress in Academic Vocabulary',
+        words: [
+          { word: 'presentation', phonetic: '/ˌprez.ənˈteɪ.ʃən/', stressPattern: 'ter-TAY-shun', syllables: 4, stressedSyllable: 3 },
+          { word: 'academic', phonetic: '/ˌæk.əˈdem.ɪk/', stressPattern: 'a-ca-DEM-ic', syllables: 4, stressedSyllable: 3 },
+          { word: 'analysis', phonetic: '/əˈnæl.ɪ.sɪs/', stressPattern: 'a-NAL-y-sis', syllables: 4, stressedSyllable: 2 },
+          { word: 'correlation', phonetic: '/ˌkɒr.əˈleɪ.ʃən/', stressPattern: 'cor-re-LAY-shun', syllables: 4, stressedSyllable: 3 },
+          { word: 'methodology', phonetic: '/ˌmeθ.əˈdɒl.ə.dʒi/', stressPattern: 'meth-o-DOL-o-gy', syllables: 5, stressedSyllable: 3 },
+          { word: 'elaborate', phonetic: '/ɪˈlæb.ər.ət/', stressPattern: 'e-LAB-or-ate', syllables: 4, stressedSyllable: 2 }
+        ],
+        instructions: 'Listen and repeat, paying attention to which syllable is stressed.'
+      },
+      {
+        id: 'b2-m3-l3-speaking-2',
+        type: 'speaking',
+        prompt: 'Practice answering presentation questions. Choose one of these questions and speak for 1 minute: 1) "Could you elaborate on your methodology?" 2) "How does this apply to small businesses?" 3) "What are the limitations of your study?"',
+        timeLimit: 60,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Start: "That\'s an excellent question..."',
+          'Use hedging: "I would suggest...", "It seems that..."',
+          'Give examples: "For instance...", "To illustrate..."',
+          'Be honest: "That\'s an area that warrants further research..."',
+          'Check understanding: "Does that answer your question?"'
+        ]
+      },
+      {
+        id: 'b2-m3-l3-integrated-reading-1',
+        type: 'reading',
+        title: 'Integrated Reading & Writing: TED Talk Analysis',
+        text: `The art of delivering a memorable presentation has evolved significantly in recent years, largely due to the influence of TED Talks. These short, powerful presentations have revolutionized how we think about public speaking, emphasizing storytelling, emotional connection, and visual simplicity over traditional lecture formats.
+
+What makes TED Talks so effective? Research suggests several key factors. First, successful TED speakers typically follow a clear narrative arc. They don't just present information; they tell stories that resonate emotionally with audiences. As presentation expert Nancy Duarte observes, the most memorable talks take listeners on a journey from "what is" to "what could be."
+
+Second, TED speakers use visual aids sparingly and strategically. Rather than slides crammed with bullet points, they favor striking images that complement rather than duplicate their words. This approach aligns with cognitive research showing that people process visual and verbal information through different channels. When these channels are overloaded with redundant information, learning suffers.
+
+Third, great presenters employ what psychologists call "the power of three." They organize content around three main points because this number is optimal for audience retention. Studies show that people can comfortably remember three to five pieces of information, but three seems to be the sweet spot for creating a sense of completeness without overwhelming listeners.
+
+Voice modulation and strategic pauses also play crucial roles. Varying pace, volume, and tone keeps audiences engaged, while well-placed pauses give listeners time to absorb important points. Some of the most powerful moments in presentations occur not when speakers are talking, but when they deliberately stop speaking.
+
+Perhaps most importantly, effective presenters demonstrate vulnerability and authenticity. They share personal failures, admit uncertainties, and acknowledge limitations. This hedging language and honest self-assessment actually increases credibility rather than diminishing it. When Brené Brown discusses her research on vulnerability, she doesn't claim to have all the answers—and that's precisely why millions trust her insights.
+
+The implications for business and academic presentations are clear. Whether you're pitching to investors, presenting research findings, or teaching students, the principles remain the same: tell stories, simplify visuals, organize around three main points, vary your delivery, and be authentic. As Brown herself emphasizes, "Connection is why we're here. It's what gives purpose and meaning to our lives."`,
+        wordCount: 370,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, what do successful TED speakers focus on?',
+            options: [
+              'Providing as much information as possible',
+              'Using complex technical language',
+              'Telling stories that resonate emotionally',
+              'Reading from detailed scripts'
+            ],
+            correctAnswer: 'Telling stories that resonate emotionally',
+            explanation: 'The text states: "They don\'t just present information; they tell stories that resonate emotionally".',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Why should visual aids NOT duplicate spoken words, according to cognitive research?',
+            correctAnswer: 'People process visual and verbal information through different channels; redundant information overloads these channels and reduces learning',
+            explanation: 'Explained in paragraph 3.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What is "the power of three"?',
+            options: [
+              'Speaking for three minutes',
+              'Using three visual slides',
+              'Organizing content around three main points',
+              'Pausing three times during a talk'
+            ],
+            correctAnswer: 'Organizing content around three main points',
+            explanation: 'The text explains: "They organize content around three main points".',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'true-false',
+            question: 'True or False: Showing vulnerability decreases a presenter\'s credibility.',
+            correctAnswer: 'False',
+            explanation: 'The text states: "This...honest self-assessment actually increases credibility rather than diminishing it".',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'List THREE techniques mentioned for effective presentation delivery.',
+            correctAnswer: 'Voice modulation, strategic pauses, varying pace/volume/tone, demonstrating vulnerability/authenticity, using visuals sparingly',
+            explanation: 'Multiple techniques are discussed in paragraphs 4-5.',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'writing',
+            writingPrompt: 'Write a short essay (120-150 words) explaining which TED Talk principle you find most useful and why. Support your answer with examples from your own experience or observations.',
+            rubric: {
+              content: 30,
+              organization: 30,
+              grammar: 20,
+              vocabulary: 20
+            },
+            minWords: 120,
+            maxWords: 150,
+            explanation: 'This integrated task assesses your ability to synthesize information from the reading and express your own ideas.',
+            points: 10
+          }
+        ]
       }
     ]
   },
@@ -14337,6 +14876,536 @@ Dr. Lee: My pleasure!`,
           'Focus on clear, coherent advice',
           'Include specific examples',
           'Maintain a professional but accessible tone'
+        ]
+      },
+      {
+        id: 'b2-m3-l4-vocabulary-3',
+        type: 'vocabulary',
+        title: 'Verb + Noun Collocations',
+        vocabularySet: [
+          { word: 'launch a product', definition: 'introduce a new product to market', example: 'The company will launch a product next month.' },
+          { word: 'run a business', definition: 'manage and operate a business', example: 'She runs a successful online business.' },
+          { word: 'meet a deadline', definition: 'finish something by a required time', example: 'We need to work overtime to meet the deadline.' },
+          { word: 'submit a report', definition: 'formally hand in a report', example: 'Please submit your report by Friday.' },
+          { word: 'attend a meeting', definition: 'be present at a meeting', example: 'All managers must attend the meeting.' },
+          { word: 'close a deal', definition: 'finalize an agreement', example: 'The sales team closed a major deal yesterday.' },
+          { word: 'boost sales', definition: 'increase the number of sales', example: 'The marketing campaign helped boost sales by 30%.' },
+          { word: 'conduct research', definition: 'carry out systematic investigation', example: 'Universities conduct research on various topics.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which collocation is correct?',
+            options: ['do a business', 'make a business', 'run a business', 'work a business'],
+            correctAnswer: 'run a business',
+            explanation: '"Run a business" es la colocación estándar para gestionar un negocio.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: The sales team managed to ___ the deal after weeks of negotiation.',
+            correctAnswer: 'close',
+            explanation: '"Close a deal" significa finalizar un acuerdo.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l4-vocabulary-4',
+        type: 'vocabulary',
+        title: 'Adjective + Noun Collocations',
+        vocabularySet: [
+          { word: 'strong candidate', definition: 'highly qualified applicant', example: 'She is a strong candidate for the position.' },
+          { word: 'tight deadline', definition: 'deadline with little time to complete', example: 'We\'re working under a tight deadline.' },
+          { word: 'keen interest', definition: 'enthusiastic interest', example: 'He has a keen interest in environmental issues.' },
+          { word: 'heavy workload', definition: 'large amount of work', example: 'The team is struggling with a heavy workload.' },
+          { word: 'viable option', definition: 'practical, workable alternative', example: 'Remote work is a viable option for many companies.' },
+          { word: 'fierce competition', definition: 'very strong competition', example: 'There is fierce competition in the smartphone market.' },
+          { word: 'solid foundation', definition: 'strong, reliable basis', example: 'Education provides a solid foundation for success.' },
+          { word: 'smooth transition', definition: 'easy, problem-free change', example: 'The merger resulted in a smooth transition.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which adjective collocates with "deadline"?',
+            options: ['heavy', 'tight', 'strong', 'fierce'],
+            correctAnswer: 'tight',
+            explanation: '"Tight deadline" significa un plazo con poco tiempo disponible.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l4-grammar-1',
+        type: 'grammar',
+        title: 'Collocation Patterns: Make, Do, Have, Take',
+        explanation: `Understanding which verb to use with which noun is essential for natural English. Here are common patterns:
+
+**MAKE** - Used for creating, producing, or choices:
+- make a decision, make a choice, make a mistake, make progress, make an effort, make money, make a profit, make a difference, make sense, make sure
+
+**DO** - Used for actions, activities, and work:
+- do business, do research, do homework, do your best, do a favor, do damage, do harm, do good, do an experiment, do the shopping
+
+**HAVE** - Used for experiences, eating/drinking, and activities:
+- have a meeting, have a conversation, have an idea, have difficulty, have experience, have lunch, have a break, have a good time, have a chance
+
+**TAKE** - Used for actions that require effort or time:
+- take responsibility, take action, take a break, take a chance, take notes, take time, take a course, take a photo, take a decision (BrE)
+
+Note: Some expressions can use different verbs with slight meaning changes. For example:
+- "make a decision" (AmE/BrE) vs. "take a decision" (mainly BrE)
+- Both are correct but "make a decision" is more universal`,
+        examples: [
+          { correct: 'We need to make a decision soon.', incorrect: 'We need to do a decision soon.', rule: 'Use "make" for decisions and choices.' },
+          { correct: 'Let\'s do business together.', incorrect: 'Let\'s make business together.', rule: 'Use "do" for business activities.' },
+          { correct: 'Can you take a photo of us?', incorrect: 'Can you make a photo of us?', rule: 'Use "take" for photos (not "make" as in some languages).' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Complete: We need to ___ research before launching the product.',
+            options: ['make', 'do', 'have', 'take'],
+            correctAnswer: 'do',
+            explanation: '"Do research" is the correct collocation.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'Complete: The new policy will ___ a big difference.',
+            options: ['make', 'do', 'have', 'take'],
+            correctAnswer: 'make',
+            explanation: '"Make a difference" es la colocación correcta.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'Complete: Leaders must ___ responsibility for their decisions.',
+            correctAnswer: 'take',
+            explanation: '"Take responsibility" es la colocación estándar.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l4-error-identification-1',
+        type: 'error-identification',
+        title: 'Common Collocation Errors',
+        sentences: [
+          {
+            sentence: 'We need to make business with international partners.',
+            error: 'make business',
+            correction: 'do business',
+            explanation: 'Correct: "do business" (not "make business").',
+            points: 1
+          },
+          {
+            sentence: 'Can you make me a photo with my phone?',
+            error: 'make me a photo',
+            correction: 'take a photo of me',
+            explanation: 'English uses "take a photo" (not "make a photo").',
+            points: 1
+          },
+          {
+            sentence: 'She achieved a big mistake during the presentation.',
+            error: 'achieved a big mistake',
+            correction: 'made a big mistake',
+            explanation: 'Correct: "make a mistake" (not "achieve a mistake").',
+            points: 1
+          },
+          {
+            sentence: 'The manager gave a decision after considering all options.',
+            error: 'gave a decision',
+            correction: 'made a decision',
+            explanation: 'Correct: "make a decision" (not "give a decision").',
+            points: 1
+          },
+          {
+            sentence: 'We must win experience before applying for senior positions.',
+            error: 'win experience',
+            correction: 'gain experience',
+            explanation: 'Correct: "gain experience" (not "win experience").',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l4-sentence-completion-1',
+        type: 'sentence-completion',
+        title: 'Complete with Collocations',
+        sentences: [
+          {
+            sentence: 'The company plans to ___ a new product line next quarter.',
+            correctAnswer: 'launch',
+            acceptableAnswers: ['introduce', 'release'],
+            explanation: '"Launch a product" es la colocación más natural.',
+            points: 1
+          },
+          {
+            sentence: 'We need creative thinkers who can ___ outside the box.',
+            correctAnswer: 'think',
+            explanation: '"Think outside the box" significa pensar creativamente.',
+            points: 1
+          },
+          {
+            sentence: 'The project requires us to work under a very ___ deadline.',
+            correctAnswer: 'tight',
+            acceptableAnswers: ['strict'],
+            explanation: '"Tight deadline" significa un plazo con poco tiempo.',
+            points: 1
+          },
+          {
+            sentence: 'Let\'s ___ the ball rolling on this initiative.',
+            correctAnswer: 'get',
+            explanation: '"Get the ball rolling" significa comenzar algo.',
+            points: 1
+          },
+          {
+            sentence: 'She always ___ the extra mile for her clients.',
+            correctAnswer: 'goes',
+            explanation: '"Go the extra mile" significa hacer un esfuerzo adicional.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l4-paraphrasing-1',
+        type: 'paraphrasing',
+        title: 'Paraphrase Using Idioms',
+        pairs: [
+          {
+            original: 'We need to start this project immediately.',
+            paraphrase: 'We need to get the ball rolling on this project.',
+            explanation: 'Using the idiom "get the ball rolling" for "start".',
+            points: 2
+          },
+          {
+            original: 'She did more than required to help the customer.',
+            paraphrase: 'She went the extra mile to help the customer.',
+            explanation: 'The idiom "go the extra mile" means doing more than expected.',
+            points: 2
+          },
+          {
+            original: 'We need to make sure everyone has the same understanding.',
+            paraphrase: 'We need to make sure everyone is on the same page.',
+            explanation: '"On the same page" means having the same understanding.',
+            points: 2
+          },
+          {
+            original: 'We have to start over from the beginning.',
+            paraphrase: 'We\'re back to square one.',
+            explanation: '"Back to square one" means starting over.',
+            points: 2
+          },
+          {
+            original: 'Your analysis is exactly correct.',
+            paraphrase: 'You hit the nail on the head with your analysis.',
+            explanation: '"Hit the nail on the head" means being exactly right.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l4-collocation-matching-1',
+        type: 'collocation-matching',
+        title: 'Match Verb + Noun Collocations',
+        pairs: [
+          { left: 'make', right: 'a decision', explanation: '"Make a decision" es una colocación estándar.' },
+          { left: 'do', right: 'research', explanation: '"Do research" es correcto (no "make research").' },
+          { left: 'take', right: 'responsibility', explanation: '"Take responsibility" significa aceptar la responsabilidad.' },
+          { left: 'meet', right: 'a deadline', explanation: '"Meet a deadline" significa cumplir con un plazo.' },
+          { left: 'reach', right: 'an agreement', explanation: '"Reach an agreement" significa llegar a un acuerdo.' },
+          { left: 'gain', right: 'experience', explanation: '"Gain experience" significa adquirir experiencia.' },
+          { left: 'face', right: 'challenges', explanation: '"Face challenges" significa enfrentar desafíos.' },
+          { left: 'launch', right: 'a product', explanation: '"Launch a product" significa lanzar un producto al mercado.' }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m3-l4-key-word-transformations-1',
+        type: 'key-word-transformations',
+        title: 'Key Word Transformations: Idioms & Collocations',
+        transformations: [
+          {
+            original: 'We need to begin this project today.',
+            keyword: 'BALL',
+            transformed: 'We need to get the BALL rolling on this project today.',
+            explanation: '"Get the ball rolling" significa comenzar algo.',
+            points: 2
+          },
+          {
+            original: 'Don\'t compromise quality to save time.',
+            keyword: 'CORNERS',
+            transformed: 'Don\'t cut CORNERS on quality to save time.',
+            explanation: '"Cut corners" significa hacer algo mal para ahorrar tiempo/dinero.',
+            points: 2
+          },
+          {
+            original: 'Your suggestion is exactly right.',
+            keyword: 'NAIL',
+            transformed: 'You hit the NAIL on the head with your suggestion.',
+            explanation: '"Hit the nail on the head" significa acertar exactamente.',
+            points: 2
+          },
+          {
+            original: 'We must all have the same understanding before proceeding.',
+            keyword: 'PAGE',
+            transformed: 'We must all be on the same PAGE before proceeding.',
+            explanation: '"On the same page" significa tener el mismo entendimiento.',
+            points: 2
+          },
+          {
+            original: 'She always does more than required.',
+            keyword: 'MILE',
+            transformed: 'She always goes the extra MILE.',
+            explanation: '"Go the extra mile" significa hacer un esfuerzo adicional.',
+            points: 2
+          },
+          {
+            original: 'We have to start from the beginning again.',
+            keyword: 'SQUARE',
+            transformed: 'We\'re back to SQUARE one.',
+            explanation: '"Back to square one" significa volver a empezar.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l4-word-formation-1',
+        type: 'word-formation',
+        title: 'Word Formation: Business Nouns',
+        sentences: [
+          {
+            sentence: 'The ___ (COMPETE) in the market is becoming fiercer.',
+            correctAnswer: 'competition',
+            baseWord: 'COMPETE',
+            explanation: 'Noun form: compete → competition',
+            points: 1
+          },
+          {
+            sentence: 'Successful ___ (NEGOTIATE) requires patience and skill.',
+            correctAnswer: 'negotiation',
+            baseWord: 'NEGOTIATE',
+            explanation: 'Noun form: negotiate → negotiation',
+            points: 1
+          },
+          {
+            sentence: 'The company\'s latest product ___ (INTRODUCE) was very successful.',
+            correctAnswer: 'introduction',
+            baseWord: 'INTRODUCE',
+            explanation: 'Noun form: introduce → introduction',
+            points: 1
+          },
+          {
+            sentence: 'Customer ___ (SATISFY) is our top priority.',
+            correctAnswer: 'satisfaction',
+            baseWord: 'SATISFY',
+            explanation: 'Noun form: satisfy → satisfaction',
+            points: 1
+          },
+          {
+            sentence: 'The ___ (COLLABORATE) between the two teams was excellent.',
+            correctAnswer: 'collaboration',
+            baseWord: 'COLLABORATE',
+            explanation: 'Noun form: collaborate → collaboration',
+            points: 1
+          },
+          {
+            sentence: 'We need to improve our ___ (COMMUNICATE) with clients.',
+            correctAnswer: 'communication',
+            baseWord: 'COMMUNICATE',
+            explanation: 'Noun form: communicate → communication',
+            points: 1
+          },
+          {
+            sentence: 'The ___ (EXPAND) of the business required significant investment.',
+            correctAnswer: 'expansion',
+            baseWord: 'EXPAND',
+            explanation: 'Noun form: expand → expansion',
+            points: 1
+          },
+          {
+            sentence: 'His ___ (ACHIEVE) in sales are impressive.',
+            correctAnswer: 'achievements',
+            baseWord: 'ACHIEVE',
+            explanation: 'Noun form (plural): achieve → achievements',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l4-gap-fill-1',
+        type: 'gap-fill',
+        title: 'Gap-Fill: Business Meeting',
+        text: `Good morning, everyone. Let's get the (1)___ rolling. As you know, we need to (2)___ a decision about the product launch strategy. I know we're working under a (3)___ deadline, but we can't (4)___ corners on quality.
+
+Last week, we (5)___ research with our target customers, and the results were fascinating. There's (6)___ competition in this market, but I believe we have a (7)___ candidate for success if we (8)___ outside the box.
+
+Sarah, you really (9)___ the nail on the head when you suggested focusing on sustainability. That's what sets us apart. We need to (10)___ awareness about our eco-friendly approach and make sure all stakeholders are on the same (11)___.
+
+To (12)___ our goals, everyone needs to go the (13)___ mile. Let's (14)___ an agreement on the timeline today, and then we can (15)___ the product next quarter. Are there any questions?`,
+        answers: [
+          { number: 1, answer: 'ball', acceptableAnswers: [] },
+          { number: 2, answer: 'make', acceptableAnswers: ['take'] },
+          { number: 3, answer: 'tight', acceptableAnswers: [] },
+          { number: 4, answer: 'cut', acceptableAnswers: [] },
+          { number: 5, answer: 'conducted', acceptableAnswers: ['did'] },
+          { number: 6, answer: 'fierce', acceptableAnswers: ['strong', 'heavy'] },
+          { number: 7, answer: 'strong', acceptableAnswers: ['good', 'solid'] },
+          { number: 8, answer: 'think', acceptableAnswers: [] },
+          { number: 9, answer: 'hit', acceptableAnswers: [] },
+          { number: 10, answer: 'raise', acceptableAnswers: ['boost', 'increase'] },
+          { number: 11, answer: 'page', acceptableAnswers: [] },
+          { number: 12, answer: 'achieve', acceptableAnswers: ['reach', 'meet'] },
+          { number: 13, answer: 'extra', acceptableAnswers: [] },
+          { number: 14, answer: 'reach', acceptableAnswers: [] },
+          { number: 15, answer: 'launch', acceptableAnswers: ['introduce', 'release'] }
+        ],
+        points: 15
+      },
+      {
+        id: 'b2-m3-l4-pronunciation-1',
+        type: 'pronunciation',
+        title: 'Word Stress in Business Collocations',
+        words: [
+          { word: 'collaboration', phonetic: '/kəˌlæb.əˈreɪ.ʃən/', stressPattern: 'col-LAB-or-AY-shun', syllables: 5, stressedSyllable: 4 },
+          { word: 'negotiation', phonetic: '/nɪˌɡəʊ.ʃiˈeɪ.ʃən/', stressPattern: 'ne-GO-ti-AY-shun', syllables: 5, stressedSyllable: 4 },
+          { word: 'competition', phonetic: '/ˌkɒm.pəˈtɪʃ.ən/', stressPattern: 'com-pe-TI-shun', syllables: 4, stressedSyllable: 3 },
+          { word: 'responsibility', phonetic: '/rɪˌspɒn.səˈbɪl.ə.ti/', stressPattern: 're-spon-si-BIL-i-ty', syllables: 6, stressedSyllable: 4 },
+          { word: 'achievement', phonetic: '/əˈtʃiːv.mənt/', stressPattern: 'a-CHEEVE-ment', syllables: 3, stressedSyllable: 2 },
+          { word: 'satisfaction', phonetic: '/ˌsæt.ɪsˈfæk.ʃən/', stressPattern: 'sat-is-FAC-shun', syllables: 4, stressedSyllable: 3 }
+        ],
+        instructions: 'Listen and repeat, paying attention to which syllable receives primary stress.'
+      },
+      {
+        id: 'b2-m3-l4-sentence-reordering-1',
+        type: 'sentence-reordering',
+        title: 'Organize a Business Proposal',
+        sentences: [
+          { id: 1, text: 'I\'d like to propose a new marketing strategy for our product.', position: 1 },
+          { id: 2, text: 'First, we need to conduct thorough market research to understand our target audience.', position: 2 },
+          { id: 3, text: 'This research will help us identify gaps in the competition.', position: 3 },
+          { id: 4, text: 'Next, we should think outside the box and develop creative campaigns.', position: 4 },
+          { id: 5, text: 'We\'ll need to work under tight deadlines, but we can\'t cut corners on quality.', position: 5 },
+          { id: 6, text: 'Everyone will need to go the extra mile to make this successful.', position: 6 },
+          { id: 7, text: 'If we all take responsibility and stay on the same page, we can achieve our goals.', position: 7 },
+          { id: 8, text: 'Let\'s get the ball rolling by meeting next week to finalize the plan.', position: 8 }
+        ],
+        instruction: 'Arrange these sentences to create a logical business proposal.',
+        points: 8
+      },
+      {
+        id: 'b2-m3-l4-speaking-2',
+        type: 'speaking',
+        prompt: 'Give advice to someone starting their first job. Use at least 5 business collocations and 3 idioms naturally. Speak for 90 seconds.',
+        timeLimit: 90,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Collocations: gain experience, face challenges, make mistakes, take responsibility, meet expectations',
+          'Idioms: think outside the box, go the extra mile, on the same page, break the ice',
+          'Give specific, practical advice',
+          'Use personal examples if possible',
+          'Be encouraging and supportive in tone'
+        ]
+      },
+      {
+        id: 'b2-m3-l4-integrated-reading-1',
+        type: 'reading',
+        title: 'Integrated Reading & Writing: Mastering Business English',
+        text: `One of the most challenging aspects of learning Business English is mastering collocations—those natural word combinations that native speakers use instinctively but non-native speakers often struggle with. You can have excellent grammar and a large vocabulary, but if you say "do a mistake" instead of "make a mistake," you immediately mark yourself as a non-native speaker.
+
+Why do collocations matter so much in business contexts? The answer lies in credibility and efficiency. When you use natural collocations, you sound more professional and confident. Conversely, incorrect collocations can distract your listeners and undermine your message, even if your ideas are excellent. In negotiations, presentations, or client meetings, this perception matters enormously.
+
+Consider the difference between these sentences: "We need to do research on customer preferences" versus "We need to conduct research on customer preferences." Both convey the same basic meaning, but "conduct research" is the standard academic and business collocation. Using "do research" isn't wrong—native speakers use it in casual conversation—but "conduct" signals formality and professionalism.
+
+The same principle applies to idioms. Business English contains many idiomatic expressions that add color and impact to communication. Phrases like "think outside the box," "get the ball rolling," and "on the same page" are so common in business contexts that avoiding them entirely can make your English sound overly formal or robotic. However, the key is using them appropriately and not forcing them into every sentence.
+
+Research suggests that the best way to learn collocations is through extensive reading and listening in authentic contexts. When you encounter a new collocation, notice the pattern. Does this verb typically go with this noun? Is this adjective commonly paired with this noun? Creating your own collocation notebook—organized by verb, noun, or theme—can help you internalize these patterns.
+
+Practice is equally essential. Don't be afraid to use new collocations and idioms in speaking and writing. Yes, you might make mistakes initially, but that's how learning happens. Native speakers will often correct you naturally in conversation, providing valuable feedback. Pay attention to how they phrase things differently from you.
+
+Finally, be patient with yourself. Native speakers have been absorbing these patterns since childhood. You're learning them consciously as an adult, which requires time and repeated exposure. However, the investment pays dividends. Once you master common business collocations and idioms, you'll find that your English becomes not just more accurate, but more fluent and natural-sounding. You'll spend less mental energy searching for the right word combinations and more energy focusing on your message and your audience—which is exactly where your attention should be in any business communication.`,
+        wordCount: 420,
+        readingTime: 5,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, why do collocations matter in business?',
+            options: [
+              'They make you sound more intelligent',
+              'They affect credibility and efficiency',
+              'They are required for grammar',
+              'They help you speak faster'
+            ],
+            correctAnswer: 'They affect credibility and efficiency',
+            explanation: 'The text states: "The answer lies in credibility and efficiency".',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'What is the difference between "do research" and "conduct research"?',
+            correctAnswer: '"Conduct research" is more formal and professional; "do research" is more casual',
+            explanation: 'Explained in paragraph 3.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: The text recommends avoiding all idioms in business English.',
+            correctAnswer: 'False',
+            explanation: 'The text says avoiding them "can make your English sound overly formal or robotic".',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'What does the text recommend for learning collocations?',
+            options: [
+              'Memorizing lists',
+              'Only using a dictionary',
+              'Extensive reading and listening in authentic contexts',
+              'Avoiding mistakes'
+            ],
+            correctAnswer: 'Extensive reading and listening in authentic contexts',
+            explanation: 'Stated in paragraph 5: "the best way to learn collocations is through extensive reading and listening".',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'According to the text, what should you do when you make collocation mistakes?',
+            correctAnswer: 'Don\'t be afraid to make mistakes; that\'s how learning happens / Pay attention to corrections',
+            explanation: 'The text encourages making mistakes as part of learning.',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'writing',
+            writingPrompt: 'Write a paragraph (100-130 words) describing your own experience learning collocations and idioms in English. What challenges have you faced? What strategies have helped you? Use at least 4 collocations or idioms from this lesson.',
+            rubric: {
+              content: 30,
+              organization: 25,
+              grammar: 20,
+              vocabulary: 25
+            },
+            minWords: 100,
+            maxWords: 130,
+            explanation: 'This integrated task assesses your ability to reflect on the reading and apply vocabulary from the lesson.',
+            points: 10
+          }
         ]
       }
     ]
@@ -14730,6 +15799,635 @@ James: Excellent. Thank you both for being so collaborative. This is a good exam
           }
         ],
         focusAreas: ['Business phrasal verbs', 'Workplace collocations', 'Professional communication']
+      },
+      {
+        id: 'b2-m3-l5-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Negotiation Phrases & Tactics',
+        vocabularySet: [
+          { word: 'make concessions', definition: 'agree to give up something in negotiation', example: 'Both parties will need to make concessions to reach an agreement.' },
+          { word: 'leverage', definition: 'power to influence a situation', example: 'Our large order gives us leverage in price negotiations.' },
+          { word: 'bottom line', definition: 'the minimum acceptable terms', example: 'Our bottom line is a 10% discount—we can\'t accept less.' },
+          { word: 'walk away', definition: 'end negotiations without agreement', example: 'If they won\'t budge on price, we may need to walk away.' },
+          { word: 'win-win situation', definition: 'outcome beneficial to all parties', example: 'Let\'s find a win-win situation where everyone benefits.' },
+          { word: 'bargaining chip', definition: 'something used to gain advantage in negotiation', example: 'Our exclusive technology is a strong bargaining chip.' },
+          { word: 'common ground', definition: 'shared interests or positions', example: 'Let\'s focus on areas where we have common ground.' },
+          { word: 'standoff', definition: 'deadlock where neither side will compromise', example: 'We\'ve reached a standoff on delivery terms.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What does "bottom line" mean in negotiations?',
+            options: [
+              'The final price',
+              'The minimum acceptable terms',
+              'The total cost',
+              'The contract signature line'
+            ],
+            correctAnswer: 'The minimum acceptable terms',
+            explanation: '"Bottom line" significa los términos mínimos aceptables en una negociación',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: Both sides will need to make ___ to reach a deal.',
+            correctAnswer: 'concessions',
+            explanation: '"Make concessions" significa ceder en algo durante la negociación',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What do you call a situation where both parties benefit?',
+            correctAnswer: 'A win-win situation / win-win',
+            explanation: '"Win-win situation" es cuando ambas partes se benefician',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l5-vocabulary-3',
+        type: 'vocabulary',
+        title: 'Meeting Language',
+        vocabularySet: [
+          { word: 'call to order', definition: 'formally begin a meeting', example: 'Let\'s call this meeting to order.' },
+          { word: 'move on to', definition: 'proceed to the next topic', example: 'Let\'s move on to the budget discussion.' },
+          { word: 'take the floor', definition: 'begin speaking at a meeting', example: 'I\'d like to take the floor to address this issue.' },
+          { word: 'table a discussion', definition: 'postpone a topic (US: propose for discussion)', example: 'Let\'s table this discussion until next week.' },
+          { word: 'reach a consensus', definition: 'achieve general agreement', example: 'We need to reach a consensus before we proceed.' },
+          { word: 'action items', definition: 'tasks to be completed after the meeting', example: 'Let\'s review the action items before we finish.' },
+          { word: 'take minutes', definition: 'record what is said in a meeting', example: 'Sarah will take minutes today.' },
+          { word: 'adjourn', definition: 'formally end a meeting', example: 'If there\'s no other business, we\'ll adjourn.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What does it mean to "take the floor"?',
+            options: [
+              'Clean the room',
+              'Begin speaking at a meeting',
+              'Leave the meeting',
+              'Take notes'
+            ],
+            correctAnswer: 'Begin speaking at a meeting',
+            explanation: '"Take the floor" significa tomar la palabra en una reunión',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: Let\'s ___ this meeting to order.',
+            correctAnswer: 'call',
+            explanation: '"Call to order" es la expresión para iniciar formalmente una reunión',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What are tasks to be completed after a meeting called?',
+            correctAnswer: 'Action items',
+            explanation: '"Action items" son las tareas a completar después de una reunión',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l5-grammar-1',
+        type: 'grammar',
+        title: 'Expressing Disagreement Politely',
+        explanation: `In professional contexts, disagreeing politely is crucial for maintaining relationships. Here are key strategies:
+
+**1. Acknowledge First, Then Disagree**
+- "I see your point, but/however..."
+- "That's a fair point, although..."
+- "I understand what you're saying, yet..."
+
+**2. Use Softening Language**
+- Modal verbs: "might", "could", "may"
+  ✗ "That is wrong"
+  ✓ "That might not be entirely accurate"
+
+**3. Use Tentative Language**
+- "I tend to think that..."
+- "It seems to me that..."
+- "I'm inclined to believe..."
+
+**4. Ask Questions Rather Than State**
+- ✗ "Your analysis is incorrect"
+- ✓ "Have you considered alternative interpretations?"
+
+**5. Use "I'm afraid" for Bad News**
+- "I'm afraid I can't agree with that"
+- "I'm afraid we have different views on this"
+
+**6. Offer Alternatives**
+- "I see it differently. What if we..."
+- "I'd like to propose an alternative approach"
+
+**Example Dialogue:**
+A: "We should launch next month."
+B: ✗ "No, that's a terrible idea."
+B: ✓ "I see your point about timing. However, I'm concerned that we might not be ready. Could we explore launching in two months instead?"`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which is the MOST polite way to disagree?',
+            options: [
+              'That\'s wrong.',
+              'I disagree.',
+              'I see your point, however...',
+              'No, you\'re mistaken.'
+            ],
+            correctAnswer: 'I see your point, however...',
+            explanation: 'Esta frase reconoce primero el punto de vista antes de expresar desacuerdo',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Rewrite politely: "Your data is wrong." Start with: "I\'m afraid..."',
+            correctAnswer: 'I\'m afraid there might be some issues with the data / I\'m afraid the data might not be accurate',
+            explanation: 'Usar "I\'m afraid" y lenguaje suavizado hace el desacuerdo más cortés',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Which modal verb is best for softening disagreement?',
+            options: ['will', 'must', 'might', 'shall'],
+            correctAnswer: 'might',
+            explanation: '"Might" es tentativo y suaviza el desacuerdo de manera cortés',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l5-error-identification-1',
+        type: 'error-identification',
+        title: 'Common Business Communication Errors',
+        sentences: [
+          {
+            sentence: 'I am not agree with your proposal.',
+            error: 'am not agree',
+            correction: 'do not agree / don\'t agree',
+            explanation: '"Agree" es un verbo regular que necesita auxiliar "do/does" para negación'
+          },
+          {
+            sentence: 'Would you mind to review the contract?',
+            error: 'to review',
+            correction: 'reviewing',
+            explanation: '"Mind" se sigue de gerundio (-ing), no infinitivo'
+          },
+          {
+            sentence: 'I am looking forward to hear from you.',
+            error: 'to hear',
+            correction: 'to hearing / hearing',
+            explanation: '"Look forward to" se sigue de gerundio porque "to" es preposición, no infinitivo'
+          },
+          {
+            sentence: 'We need discuss this matter urgently.',
+            error: 'need discuss',
+            correction: 'need to discuss',
+            explanation: '"Need" como verbo principal requiere "to" antes del infinitivo'
+          },
+          {
+            sentence: 'I suggest to postpone the meeting.',
+            error: 'to postpone',
+            correction: 'postponing / that we postpone',
+            explanation: '"Suggest" se sigue de gerundio o "that + clause", no infinitivo directo'
+          }
+        ],
+        instructions: 'Identify and correct the errors in these business communication sentences.',
+        points: 2
+      },
+      {
+        id: 'b2-m3-l5-gap-fill-1',
+        type: 'gap-fill',
+        title: 'Complete Diplomatic Phrases',
+        sentences: [
+          {
+            sentence: 'I ___ your concern about the timeline, however, I believe we can manage it.',
+            correctAnswer: 'appreciate',
+            acceptableAnswers: ['understand', 'recognize', 'acknowledge'],
+            explanation: 'Estas palabras muestran reconocimiento de la preocupación del otro',
+            points: 1
+          },
+          {
+            sentence: 'Would it be ___ to extend the deadline by one week?',
+            correctAnswer: 'possible',
+            explanation: '"Would it be possible to..." es una forma cortés de hacer peticiones',
+            points: 1
+          },
+          {
+            sentence: 'I\'m ___ we can\'t accept those terms.',
+            correctAnswer: 'afraid',
+            explanation: '"I\'m afraid" suaviza las malas noticias de manera cortés',
+            points: 1
+          },
+          {
+            sentence: 'Let\'s try to find a ___ ground on this issue.',
+            correctAnswer: 'middle',
+            acceptableAnswers: ['common'],
+            explanation: '"Middle ground" o "common ground" significan área de acuerdo',
+            points: 1
+          },
+          {
+            sentence: 'Would you be ___ to consider our alternative proposal?',
+            correctAnswer: 'willing',
+            acceptableAnswers: ['prepared', 'open'],
+            explanation: '"Willing to" es una forma cortés de preguntar si alguien consideraría algo',
+            points: 1
+          }
+        ],
+        instructions: 'Complete each sentence with the appropriate word to make it diplomatic and professional.'
+      },
+      {
+        id: 'b2-m3-l5-paraphrase-1',
+        type: 'paraphrase',
+        title: 'Paraphrase with Diplomatic Language',
+        sentences: [
+          {
+            original: 'You\'re wrong about the figures.',
+            paraphrase: 'I\'m afraid there might be some discrepancies in the figures.',
+            explanation: 'Usar "I\'m afraid" y lenguaje tentativo es más diplomático'
+          },
+          {
+            original: 'We can\'t do that.',
+            paraphrase: 'I\'m afraid that might not be feasible / Would it be possible to explore alternatives?',
+            explanation: 'Explicar imposibilidad con lenguaje suave y ofrecer alternativas'
+          },
+          {
+            original: 'Your idea is bad.',
+            paraphrase: 'I see your point, however, I have some concerns about that approach.',
+            explanation: 'Reconocer primero, luego expresar preocupaciones en lugar de juicios'
+          },
+          {
+            original: 'Give us a better price.',
+            paraphrase: 'Would you be willing to reconsider the pricing? / Could we discuss more competitive pricing?',
+            explanation: 'Usar preguntas corteses en lugar de demandas directas'
+          },
+          {
+            original: 'That won\'t work.',
+            paraphrase: 'I\'m concerned that approach might present some challenges.',
+            explanation: 'Expresar preocupación en lugar de rechazo directo'
+          }
+        ],
+        instructions: 'Compare the direct statements with their diplomatic equivalents. Notice how professional language softens the message.',
+        points: 2
+      },
+      {
+        id: 'b2-m3-l5-matching-1',
+        type: 'matching',
+        title: 'Business Communication Collocations',
+        pairs: [
+          { left: 'reach an', right: 'agreement', explanation: '"Reach an agreement" = llegar a un acuerdo' },
+          { left: 'make a', right: 'proposal', explanation: '"Make a proposal" = hacer una propuesta' },
+          { left: 'raise a', right: 'concern', explanation: '"Raise a concern" = plantear una preocupación' },
+          { left: 'address an', right: 'issue', explanation: '"Address an issue" = abordar un problema' },
+          { left: 'clarify a', right: 'point', explanation: '"Clarify a point" = aclarar un punto' },
+          { left: 'express', right: 'reservations', explanation: '"Express reservations" = expresar dudas/reservas' },
+          { left: 'seek', right: 'consensus', explanation: '"Seek consensus" = buscar consenso' },
+          { left: 'take into', right: 'account', explanation: '"Take into account" = tener en cuenta' }
+        ],
+        instructions: 'Match the verbs/phrases on the left with their correct collocations on the right.',
+        points: 1
+      },
+      {
+        id: 'b2-m3-l5-transformations-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations - Business Communication',
+        instructions: 'Complete the second sentence so it has a similar meaning to the first, using the word given. Use between 2-5 words.',
+        questions: [
+          {
+            firstSentence: 'I suggest we postpone the meeting.',
+            keyWord: 'PROPOSE',
+            secondSentence: 'I _______ the meeting.',
+            correctAnswer: 'propose postponing / propose that we postpone',
+            acceptableAnswers: ['propose we postpone'],
+            explanation: '"Propose" puede ir seguido de gerundio o "that + clause"',
+            points: 2
+          },
+          {
+            firstSentence: 'Thank you for your feedback on our proposal.',
+            keyWord: 'APPRECIATE',
+            secondSentence: 'I _______ on our proposal.',
+            correctAnswer: 'appreciate your feedback',
+            explanation: '"Appreciate" significa agradecer o valorar algo',
+            points: 2
+          },
+          {
+            firstSentence: 'Can you consider our alternative offer?',
+            keyWord: 'WILLING',
+            secondSentence: 'Would _______ our alternative offer?',
+            correctAnswer: 'you be willing to consider',
+            explanation: '"Would you be willing to" es una forma muy cortés de pedir',
+            points: 2
+          },
+          {
+            firstSentence: 'Does waiting until Monday bother you?',
+            keyWord: 'MIND',
+            secondSentence: 'Would _______ until Monday?',
+            correctAnswer: 'you mind waiting',
+            explanation: '"Would you mind + -ing" es una pregunta cortés',
+            points: 2
+          },
+          {
+            firstSentence: 'We should find a compromise.',
+            keyWord: 'GROUND',
+            secondSentence: 'We should find _______ .',
+            correctAnswer: 'a middle ground / some common ground',
+            explanation: '"Middle ground" o "common ground" significan compromiso/acuerdo',
+            points: 2
+          },
+          {
+            firstSentence: 'Unfortunately, we cannot accept those terms.',
+            keyWord: 'AFRAID',
+            secondSentence: '_______ accept those terms.',
+            correctAnswer: 'I\'m afraid we cannot / I\'m afraid we can\'t',
+            explanation: '"I\'m afraid" suaviza las malas noticias',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l5-word-formation-1',
+        type: 'word-formation',
+        title: 'Word Formation: Business Communication Nouns',
+        instructions: 'Form nouns from the words in brackets to complete the sentences.',
+        questions: [
+          {
+            sentence: 'The ___ (NEGOTIATE) lasted for three hours before we reached a deal.',
+            correctAnswer: 'negotiation',
+            explanation: 'negotiate → negotiation (sustantivo)',
+            points: 1
+          },
+          {
+            sentence: 'We need more ___ (CLEAR) on the contract terms.',
+            correctAnswer: 'clarity',
+            acceptableAnswers: ['clarification'],
+            explanation: 'clear → clarity / clarify → clarification',
+            points: 1
+          },
+          {
+            sentence: 'The ___ (PROPOSE) was well-received by the board.',
+            correctAnswer: 'proposal',
+            explanation: 'propose → proposal',
+            points: 1
+          },
+          {
+            sentence: 'Your ___ (FLEXIBLE) on pricing is much appreciated.',
+            correctAnswer: 'flexibility',
+            explanation: 'flexible → flexibility',
+            points: 1
+          },
+          {
+            sentence: 'We value your ___ (COMMIT) to quality.',
+            correctAnswer: 'commitment',
+            explanation: 'commit → commitment',
+            points: 1
+          },
+          {
+            sentence: 'The ___ (COMMUNICATE) breakdown led to misunderstandings.',
+            correctAnswer: 'communication',
+            explanation: 'communicate → communication',
+            points: 1
+          },
+          {
+            sentence: 'Both parties showed ___ (WILLING) to compromise.',
+            correctAnswer: 'willingness',
+            explanation: 'willing → willingness',
+            points: 1
+          },
+          {
+            sentence: 'The ___ (RESOLVE) of the conflict took several meetings.',
+            correctAnswer: 'resolution',
+            explanation: 'resolve → resolution',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l5-extended-gap-fill-1',
+        type: 'extended-gap-fill',
+        title: 'Gap-Fill: Contract Negotiation',
+        text: 'Good morning, everyone. Thank you for joining today\'s negotiation session. I (1)___ your willingness to meet on such short notice. As we all know, we need to (2)___ an agreement on the new supplier contract by the end of this week. Let me (3)___ the key points that remain unresolved. First, there\'s the question of pricing. I (4)___ your concerns about the proposed price increase, however, we need to (5)___ into account the rising costs of raw materials. Would it be (6)___ to explore a tiered pricing structure instead? This could provide more (7)___ for both parties. Second, regarding delivery schedules, I (8)___ we can\'t commit to the 48-hour delivery you\'re requesting. Our current capacity won\'t allow it. However, I\'d like to (9)___ a compromise: we could guarantee 72-hour delivery, with the option to expedite for an additional fee. I believe this is a fair (10)___ that addresses both our operational constraints and your need for timely delivery. Finally, on payment terms, I see your (11)___ about cash flow, but extending to 90 days would create significant challenges for us. Could we find a (12)___ ground at 60 days? If you\'re (13)___ to commit to a higher order volume, we might be able to offer more favorable payment terms. I\'m (14)___ that if we can\'t reach consensus on these three points today, we may need to (15)___ this discussion to next week, which would delay the entire project. So let\'s work together to find solutions that work for everyone. What are your thoughts?',
+        gaps: [
+          { id: 1, correctAnswer: 'appreciate', acceptableAnswers: ['value', 'welcome'], explanation: 'Expresión de gratitud formal' },
+          { id: 2, correctAnswer: 'reach', explanation: '"Reach an agreement" es la colocación correcta' },
+          { id: 3, correctAnswer: 'outline', acceptableAnswers: ['summarize', 'review'], explanation: 'Presentar los puntos principales' },
+          { id: 4, correctAnswer: 'understand', acceptableAnswers: ['appreciate', 'recognize', 'acknowledge'], explanation: 'Reconocer las preocupaciones del otro' },
+          { id: 5, correctAnswer: 'take', explanation: '"Take into account" significa considerar' },
+          { id: 6, correctAnswer: 'possible', explanation: '"Would it be possible" es una petición cortés' },
+          { id: 7, correctAnswer: 'flexibility', explanation: 'Sustantivo que describe adaptabilidad' },
+          { id: 8, correctAnswer: 'afraid', explanation: '"I\'m afraid" suaviza las malas noticias' },
+          { id: 9, correctAnswer: 'propose', acceptableAnswers: ['suggest', 'offer'], explanation: 'Hacer una propuesta formal' },
+          { id: 10, correctAnswer: 'solution', acceptableAnswers: ['compromise', 'proposal'], explanation: 'Una solución que satisface ambas partes' },
+          { id: 11, correctAnswer: 'point', acceptableAnswers: ['concern', 'position'], explanation: '"See your point" reconoce el argumento' },
+          { id: 12, correctAnswer: 'middle', acceptableAnswers: ['common'], explanation: '"Middle ground" = punto medio de compromiso' },
+          { id: 13, correctAnswer: 'willing', acceptableAnswers: ['prepared'], explanation: '"Willing to" = dispuesto a' },
+          { id: 14, correctAnswer: 'concerned', acceptableAnswers: ['worried', 'afraid'], explanation: 'Expresar preocupación profesionalmente' },
+          { id: 15, correctAnswer: 'table', acceptableAnswers: ['postpone', 'defer'], explanation: '"Table a discussion" = posponer' }
+        ],
+        instructions: 'Complete the negotiation dialogue with appropriate business communication vocabulary.',
+        points: 15
+      },
+      {
+        id: 'b2-m3-l5-sentence-ordering-1',
+        type: 'sentence-ordering',
+        title: 'Organize a Professional Email',
+        sentences: [
+          'I am writing to discuss the recent proposal you submitted regarding the partnership agreement.',
+          'Thank you for taking the time to meet with us last week.',
+          'However, I do have some concerns about the timeline you\'ve proposed.',
+          'I appreciate the effort you\'ve put into this comprehensive proposal.',
+          'Would it be possible to schedule a call next week to discuss this further?',
+          'I\'m confident that if we can address these points, we\'ll have a solid foundation for moving forward.',
+          'Would you be willing to consider extending the implementation period from 6 to 9 months?',
+          'I look forward to hearing from you soon.'
+        ],
+        correctOrder: [1, 0, 3, 2, 6, 4, 5, 7],
+        explanation: 'Un email profesional debe seguir: saludo/referencia → propósito → reconocimiento positivo → expresar preocupaciones → proponer soluciones → sugerir próximos pasos → cierre optimista → despedida',
+        instructions: 'Arrange the sentences to create a well-structured professional email.',
+        points: 8
+      },
+      {
+        id: 'b2-m3-l5-pronunciation-1',
+        type: 'pronunciation',
+        title: 'Word Stress in Business Communication',
+        words: [
+          {
+            word: 'negotiation',
+            ipa: '/nɪˌɡəʊ.ʃiˈeɪ.ʃən/',
+            stressPattern: 'ne-go-ti-A-tion',
+            audioUrl: '/audio/negotiation.mp3',
+            tips: 'Stress on 4th syllable "-A-"'
+          },
+          {
+            word: 'compromise',
+            ipa: '/ˈkɒm.prə.maɪz/',
+            stressPattern: 'COM-pro-mise',
+            audioUrl: '/audio/compromise.mp3',
+            tips: 'Stress on 1st syllable "COM-"'
+          },
+          {
+            word: 'diplomatic',
+            ipa: '/ˌdɪp.ləˈmæt.ɪk/',
+            stressPattern: 'dip-lo-MAT-ic',
+            audioUrl: '/audio/diplomatic.mp3',
+            tips: 'Stress on 3rd syllable "-MAT-"'
+          },
+          {
+            word: 'proposal',
+            ipa: '/prəˈpəʊ.zəl/',
+            stressPattern: 'pro-PO-sal',
+            audioUrl: '/audio/proposal.mp3',
+            tips: 'Stress on 2nd syllable "-PO-"'
+          },
+          {
+            word: 'collaborate',
+            ipa: '/kəˈlæb.ə.reɪt/',
+            stressPattern: 'co-LAB-o-rate',
+            audioUrl: '/audio/collaborate.mp3',
+            tips: 'Stress on 2nd syllable "-LAB-"'
+          },
+          {
+            word: 'flexibility',
+            ipa: '/ˌflek.sɪˈbɪl.ə.ti/',
+            stressPattern: 'flex-i-BIL-i-ty',
+            audioUrl: '/audio/flexibility.mp3',
+            tips: 'Stress on 3rd syllable "-BIL-"'
+          }
+        ],
+        instructions: 'Practice the correct stress patterns in these business communication terms.',
+        practiceType: 'stress-identification'
+      },
+      {
+        id: 'b2-m3-l5-speaking-2',
+        type: 'speaking',
+        prompt: 'Your team has proposed a new project, but your manager has serious objections about the budget and timeline. Handle the objections diplomatically by: 1) acknowledging their concerns, 2) explaining your reasoning, 3) offering compromises, 4) seeking common ground. Speak for 90 seconds.',
+        timeLimit: 90,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Acknowledge: "I completely understand your concerns about..."',
+          'Explain: "The reason we proposed this timeline is..."',
+          'Compromise: "Would you be willing to consider..." / "What if we..."',
+          'Seek agreement: "Could we find a middle ground..." / "I believe we can..."',
+          'Use diplomatic phrases throughout'
+        ]
+      },
+      {
+        id: 'b2-m3-l5-integrated-1',
+        type: 'integrated-reading-writing',
+        title: 'Integrated Task: Effective Negotiation Strategies',
+        readingText: `The Art of Successful Business Negotiation
+
+Negotiation is a fundamental skill in business, yet many professionals approach it with anxiety or aggression rather than strategic thinking. Understanding the psychology and tactics of effective negotiation can transform challenging discussions into mutually beneficial agreements.
+
+**Preparation is Paramount**
+The most successful negotiators invest significant time in preparation before entering discussions. This means researching the other party's needs, constraints, and alternatives. Understanding your BATNA (Best Alternative To a Negotiated Agreement) gives you confidence and clarity about when to walk away. Equally important is understanding the other party's BATNA, which reveals their leverage and pressure points.
+
+**Build Rapport First**
+Rushing into numbers and terms is a common mistake. Effective negotiators spend time building rapport and establishing trust. This might involve small talk, finding common ground, or sharing a meal. When people feel comfortable and respected, they're more likely to be flexible and creative in finding solutions. Research shows that negotiators who invest time in relationship-building achieve 12% better outcomes on average.
+
+**Focus on Interests, Not Positions**
+A position is what someone says they want; an interest is why they want it. For example, a supplier might demand a 20% price increase (position), but their real interest might be covering rising costs and maintaining profitability. By focusing on underlying interests, negotiators can find creative solutions that satisfy both parties' true needs. Perhaps a longer contract term or larger order volume could address the supplier's profitability concerns without a dramatic price increase.
+
+**Use Objective Criteria**
+Emotion-driven negotiations rarely end well. Successful negotiators anchor discussions in objective criteria: market rates, industry standards, precedents, or expert opinions. When disagreements arise, referring to external standards depersonalizes the conflict. Instead of "You're asking too much," you can say, "Based on industry benchmarks, the typical rate for this service is..."
+
+**Make Strategic Concessions**
+Concessions are inevitable in negotiation, but how you make them matters enormously. Never make the first concession too quickly or easily—it signals weakness and sets a precedent. When you do concede something, always request something in return, even if it's small. This maintains balance and prevents the other party from viewing concessions as entitlements. Also, make concessions progressively smaller: if your first concession is 10%, the next should be 5%, then 2%, signaling you're approaching your limit.
+
+**Master the Pause**
+Silence is one of the most powerful tools in negotiation. When presented with an offer or objection, resist the urge to respond immediately. A pause demonstrates thoughtful consideration and often prompts the other party to fill the silence with additional information or concessions. Many negotiators have watched in amazement as their counterpart, uncomfortable with silence, talks themselves into a better deal for them.
+
+**Know When to Walk Away**
+Not every negotiation should end in agreement. If the terms don't meet your minimum requirements or the other party is negotiating in bad faith, walking away preserves your resources for better opportunities. However, always leave the door open for future discussions. Today's impossible negotiation might become tomorrow's great deal if circumstances change.
+
+**The Win-Win Mindset**
+While competitive negotiation has its place, collaborative approaches typically create more value. Instead of viewing negotiation as a fixed pie to be divided, skilled negotiators look for ways to expand the pie through creative problem-solving. This requires genuine curiosity about the other party's needs and a willingness to share information. Studies consistently show that integrative, win-win negotiations produce higher satisfaction and stronger long-term business relationships than purely competitive approaches.
+
+Effective negotiation isn't about domination or manipulation—it's about strategic communication, preparation, and creating value. By developing these skills, professionals can transform potential conflicts into opportunities for mutually beneficial partnerships.`,
+        wordCount: 610,
+        readingTime: 7,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What does BATNA stand for?',
+            options: [
+              'Best Agreement To Negotiate Alternatives',
+              'Best Alternative To a Negotiated Agreement',
+              'Better Alternatives Through Negotiation Analysis',
+              'Basic Alternatives To New Agreements'
+            ],
+            correctAnswer: 'Best Alternative To a Negotiated Agreement',
+            explanation: 'El texto define BATNA como "Best Alternative To a Negotiated Agreement"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'According to research mentioned, how much better are outcomes when negotiators build rapport?',
+            options: ['5% better', '12% better', '20% better', '25% better'],
+            correctAnswer: '12% better',
+            explanation: 'El texto dice: "negotiators who invest time in relationship-building achieve 12% better outcomes"',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What is the difference between a "position" and an "interest" in negotiation?',
+            correctAnswer: 'A position is what someone says they want, an interest is why they want it',
+            explanation: 'El texto explica: "A position is what someone says they want; an interest is why they want it"',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'true-false',
+            question: 'True or False: You should make your first concession quickly to show goodwill.',
+            correctAnswer: 'False',
+            explanation: 'El texto dice: "Never make the first concession too quickly or easily—it signals weakness"',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: 'Why is silence described as powerful in negotiation?',
+            options: [
+              'It confuses the other party',
+              'It shows you\'re not interested',
+              'It often prompts the other party to provide more information',
+              'It wastes time'
+            ],
+            correctAnswer: 'It often prompts the other party to provide more information',
+            explanation: 'El texto explica: "often prompts the other party to fill the silence with additional information or concessions"',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'Based on the article, write a short paragraph (120-150 words) describing the three most important strategies for successful negotiation and explain why you think they are important.',
+            rubric: {
+              content: 40,
+              organization: 20,
+              grammar: 20,
+              vocabulary: 20
+            },
+            minWords: 120,
+            maxWords: 150,
+            points: 10
+          }
+        ]
       }
     ]
   },
@@ -14907,6 +16605,840 @@ Dr. Martinez: Thank you for having me. The most significant shift we're witnessi
           'Strong conclusion',
           'Demonstrate full range of B2 structures',
           'Check grammar and spelling (5 mins)'
+        ]
+      },
+      {
+        id: 'b2-m3-l6-cloze-1',
+        type: 'multiple-choice-cloze',
+        title: 'Mock Exam - Multiple Choice Cloze (Part 1)',
+        text: `Artificial intelligence has become increasingly (1)_____ in our daily lives, from voice assistants to recommendation algorithms. While many people (2)_____ AI with science fiction scenarios, the reality is often more mundane but equally significant. Modern AI systems excel at pattern recognition and data analysis, tasks that would (3)_____ humans days or weeks to complete. However, despite these impressive (4)_____, AI still struggles with tasks that humans find intuitive, such as understanding context or recognizing sarcasm. The (5)_____ between narrow AI, which excels at specific tasks, and general AI, which could match human intelligence across all domains, remains vast. Experts (6)_____ about when—or if—we'll achieve general AI, with predictions ranging from decades to never. Meanwhile, the (7)_____ implications of AI continue to spark debate. Issues such as job displacement, privacy concerns, and algorithmic bias require careful consideration as we (8)_____ this technology into society.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '1. _____',
+            options: ['familiar', 'popular', 'prevalent', 'common'],
+            correctAnswer: 'prevalent',
+            explanation: '"Prevalent" significa extendido o generalizado, el término más preciso para describir la presencia de AI',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: '2. _____',
+            options: ['associate', 'connect', 'relate', 'link'],
+            correctAnswer: 'associate',
+            explanation: '"Associate with" es la colocación correcta que significa relacionar mentalmente',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: '3. _____',
+            options: ['take', 'cost', 'spend', 'require'],
+            correctAnswer: 'take',
+            explanation: '"Take (time)" es la expresión correcta para indicar duración',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '4. _____',
+            options: ['capabilities', 'abilities', 'skills', 'talents'],
+            correctAnswer: 'capabilities',
+            explanation: '"Capabilities" es el término técnico apropiado para las capacidades de sistemas',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: '5. _____',
+            options: ['gap', 'distance', 'space', 'difference'],
+            correctAnswer: 'gap',
+            explanation: '"Gap" es el sustantivo correcto para indicar una brecha o diferencia significativa',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: '6. _____',
+            options: ['disagree', 'argue', 'debate', 'dispute'],
+            correctAnswer: 'disagree',
+            explanation: '"Disagree about" es la colocación correcta para expresar opiniones divergentes',
+            points: 1
+          },
+          {
+            id: 'q7',
+            type: 'multiple-choice',
+            question: '7. _____',
+            options: ['ethical', 'moral', 'right', 'proper'],
+            correctAnswer: 'ethical',
+            explanation: '"Ethical" es el término formal apropiado para cuestiones de ética',
+            points: 1
+          },
+          {
+            id: 'q8',
+            type: 'multiple-choice',
+            question: '8. _____',
+            options: ['integrate', 'include', 'incorporate', 'introduce'],
+            correctAnswer: 'integrate',
+            explanation: '"Integrate into" significa incorporar completamente en un sistema',
+            points: 1
+          }
+        ],
+        focusAreas: ['Vocabulary in context', 'Collocations', 'Register']
+      },
+      {
+        id: 'b2-m3-l6-open-cloze-1',
+        type: 'open-cloze',
+        title: 'Mock Exam - Open Cloze (Part 2)',
+        text: `The concept of work-life balance has evolved significantly (1)_____ recent decades. What was once viewed (2)_____ a simple matter of not working too many hours has become a complex discussion about mental health, productivity, and personal fulfillment. Many employees now prioritize flexibility and autonomy (3)_____ traditional markers of success like salary or job title. This shift has forced companies to rethink (4)_____ policies and culture. Remote work, flexible hours, and unlimited vacation policies have moved (5)_____ being perks to expectations, especially among younger workers. However, achieving genuine balance remains challenging. The boundaries between work and personal life have become increasingly blurred, particularly (6)_____ those who work from home. Technology, while enabling flexibility, also means we're never truly disconnected (7)_____ work. The key to success may lie not in achieving perfect balance—which may be impossible—but in finding an arrangement (8)_____ works for individual circumstances and values.`,
+        gaps: [
+          { id: 1, correctAnswer: 'in', explanation: '"In recent decades" es la preposición correcta con períodos de tiempo' },
+          { id: 2, correctAnswer: 'as', explanation: '"Viewed as" significa considerado como' },
+          { id: 3, correctAnswer: 'over', explanation: '"Prioritize X over Y" significa preferir X sobre Y' },
+          { id: 4, correctAnswer: 'their', explanation: 'Pronombre posesivo refiriéndose a "companies"' },
+          { id: 5, correctAnswer: 'from', explanation: '"Move from X to Y" indica transición' },
+          { id: 6, correctAnswer: 'for', explanation: '"Particularly for" introduce un grupo específico' },
+          { id: 7, correctAnswer: 'from', explanation: '"Disconnected from" es la preposición correcta' },
+          { id: 8, correctAnswer: 'that / which', explanation: 'Pronombre relativo introduciendo cláusula descriptiva' }
+        ],
+        instructions: 'Fill each gap with ONE word only.',
+        points: 8
+      },
+      {
+        id: 'b2-m3-l6-word-formation-2',
+        type: 'word-formation',
+        title: 'Mock Exam - Word Formation (Part 3)',
+        instructions: 'Use the word given in capitals to form a word that fits in the gap.',
+        questions: [
+          {
+            sentence: 'The company\'s ___ (DECIDE) to expand internationally proved highly successful.',
+            correctAnswer: 'decision',
+            explanation: 'decide → decision',
+            points: 1
+          },
+          {
+            sentence: 'Her ___ (KNOW) of three languages made her an ideal candidate.',
+            correctAnswer: 'knowledge',
+            explanation: 'know → knowledge',
+            points: 1
+          },
+          {
+            sentence: 'The ___ (ENVIRONMENT) impact of plastic waste is becoming increasingly serious.',
+            correctAnswer: 'environmental',
+            explanation: 'environment → environmental (adjetivo)',
+            points: 1
+          },
+          {
+            sentence: 'Scientists have made a ___ (REMARK) discovery in cancer research.',
+            correctAnswer: 'remarkable',
+            explanation: 'remark → remarkable (adjetivo)',
+            points: 1
+          },
+          {
+            sentence: 'The ___ (INTRODUCE) of new technology revolutionized the industry.',
+            correctAnswer: 'introduction',
+            explanation: 'introduce → introduction',
+            points: 1
+          },
+          {
+            sentence: 'He spoke ___ (PASSION) about the need for educational reform.',
+            correctAnswer: 'passionately',
+            explanation: 'passion → passionately (adverbio)',
+            points: 1
+          },
+          {
+            sentence: 'The museum\'s collection is ___ (TRUE) impressive.',
+            correctAnswer: 'truly',
+            explanation: 'true → truly (adverbio)',
+            points: 1
+          },
+          {
+            sentence: 'Regular exercise can ___ (STRENGTH) your immune system.',
+            correctAnswer: 'strengthen',
+            explanation: 'strength → strengthen (verbo)',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l6-transformations-1',
+        type: 'key-word-transformation',
+        title: 'Mock Exam - Key Word Transformations (Part 4)',
+        instructions: 'Complete the second sentence so it has a similar meaning to the first, using the word given. Use between 2-5 words.',
+        questions: [
+          {
+            firstSentence: 'They made me wait for two hours.',
+            keyWord: 'KEPT',
+            secondSentence: 'I _______ for two hours.',
+            correctAnswer: 'was kept waiting',
+            explanation: 'Estructura pasiva con "keep + -ing"',
+            points: 2
+          },
+          {
+            firstSentence: 'It wasn\'t necessary for you to bring a gift.',
+            keyWord: 'HAVE',
+            secondSentence: 'You _______ a gift.',
+            correctAnswer: 'didn\'t have to bring / needn\'t have brought',
+            explanation: 'Expresar falta de necesidad en pasado',
+            points: 2
+          },
+          {
+            firstSentence: 'Sarah said, "I will help you tomorrow."',
+            keyWord: 'PROMISED',
+            secondSentence: 'Sarah _______ the next day.',
+            correctAnswer: 'promised to help me',
+            explanation: 'Reported speech con "promise"',
+            points: 2
+          },
+          {
+            firstSentence: 'The concert was cancelled due to bad weather.',
+            keyWord: 'CALLED',
+            secondSentence: 'They _______ due to bad weather.',
+            correctAnswer: 'called off the concert / called the concert off',
+            explanation: '"Call off" es el phrasal verb para cancelar',
+            points: 2
+          },
+          {
+            firstSentence: 'I haven\'t seen John for three months.',
+            keyWord: 'LAST',
+            secondSentence: 'The _______ three months ago.',
+            correctAnswer: 'last time I saw John was',
+            explanation: 'Reformular usando "the last time"',
+            points: 2
+          },
+          {
+            firstSentence: 'Despite studying hard, he failed the exam.',
+            keyWord: 'ALTHOUGH',
+            secondSentence: '_______ he failed the exam.',
+            correctAnswer: 'Although he studied hard',
+            explanation: 'Convertir "despite + -ing" a "although + clause"',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l6-reading-2',
+        type: 'reading',
+        title: 'Mock Exam - Multiple Matching Reading',
+        text: `Four People Talk About Career Changes
+
+**Anna (Marketing Manager → Teacher)**
+When I left my corporate marketing job to become a primary school teacher, everyone thought I was crazy. I had a prestigious position, excellent salary, and clear career progression. But I felt empty. Every presentation, every campaign felt meaningless. Now, watching children's faces light up when they understand something new gives me a sense of purpose I never experienced in marketing. Yes, I earn significantly less, but I've never been happier. The work is exhausting, don't get me wrong, but it's fulfilling exhaustion rather than soul-draining stress.
+
+**Marcus (Lawyer → Chef)**
+After fifteen years practicing corporate law, I was successful but miserable. The long hours, the aggressive competitive environment, the constant pressure—it was destroying me. I'd always loved cooking; it was my escape from stress. Eventually, I took the plunge and enrolled in culinary school. My family was shocked, and my income took a massive hit initially. Now I run a small restaurant. The hours are still long, possibly longer than before, but the satisfaction of creating something with my hands, of making people happy with food I've prepared—there's no comparison to shuffling papers and arguing cases.
+
+**Sophie (Engineer → Photographer)**
+Engineering provided stability and financial security for twelve years, but it never sparked passion in me. Photography was my hobby, my creative outlet. When a photograph I took went viral and led to several commissions, I saw an opportunity. The transition wasn't easy—freelance photography is unpredictable, and there were months when I barely made rent. But gradually, I built a client base. What I love most is the variety. One day I'm shooting a wedding, the next a corporate event, then perhaps nature photography for a magazine. Every day is different, which my predictable engineering job never offered.
+
+**David (Financial Analyst → Yoga Instructor)**
+Numbers were my life for twenty years. I was good at financial analysis, worked for top firms, earned well. But I was also anxious, overweight, and unhappy. I discovered yoga during a particularly stressful period, and it transformed me. Not overnight—that's a myth—but gradually, systematically. Eventually, I trained as an instructor. The pay is a fraction of what I earned before, and I had to drastically simplify my lifestyle. But my health has improved dramatically, I sleep better, and I've found a community of like-minded people. I help others find the peace I found, and that's worth more than any paycheck.`,
+        wordCount: 410,
+        readingTime: 5,
+        questions: [
+          {
+            id: 'q1',
+            type: 'matching',
+            question: 'Who mentions that their new career involves physical creation?',
+            correctAnswer: 'Marcus',
+            explanation: 'Marcus menciona "creating something with my hands"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'matching',
+            question: 'Who had the longest career before changing?',
+            correctAnswer: 'David',
+            explanation: 'David trabajó 20 años, más que los otros',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'matching',
+            question: 'Who emphasizes variety in their new job?',
+            correctAnswer: 'Sophie',
+            explanation: 'Sophie dice: "What I love most is the variety...Every day is different"',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'matching',
+            question: 'Who experienced financial difficulties during the transition?',
+            correctAnswer: 'Sophie',
+            explanation: 'Sophie menciona: "there were months when I barely made rent"',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'matching',
+            question: 'Who mentions a sense of purpose they lacked before?',
+            correctAnswer: 'Anna',
+            explanation: 'Anna dice: "gives me a sense of purpose I never experienced in marketing"',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'matching',
+            question: 'Who still works long hours but is more satisfied?',
+            correctAnswer: 'Marcus',
+            explanation: 'Marcus: "The hours are still long, possibly longer than before, but the satisfaction..."',
+            points: 1
+          },
+          {
+            id: 'q7',
+            type: 'matching',
+            question: 'Who mentions improved health as a benefit?',
+            correctAnswer: 'David',
+            explanation: 'David: "my health has improved dramatically, I sleep better"',
+            points: 1
+          },
+          {
+            id: 'q8',
+            type: 'matching',
+            question: 'Who turned a hobby into a profession?',
+            correctAnswer: 'Sophie',
+            explanation: 'Sophie: "Photography was my hobby...I saw an opportunity"',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l6-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Review: Advanced Academic Vocabulary',
+        vocabularySet: [
+          { word: 'comprehensive', definition: 'complete and including everything necessary', example: 'We need a comprehensive review of all policies.' },
+          { word: 'facilitate', definition: 'make an action or process easier', example: 'Technology can facilitate communication between teams.' },
+          { word: 'substantial', definition: 'of considerable importance, size, or worth', example: 'The company made substantial investments in research.' },
+          { word: 'demonstrate', definition: 'clearly show the existence or truth of something', example: 'The study demonstrates the benefits of regular exercise.' },
+          { word: 'implement', definition: 'put a decision or plan into effect', example: 'We need to implement these changes immediately.' },
+          { word: 'significant', definition: 'sufficiently great or important to be worthy of attention', example: 'There has been a significant improvement in results.' },
+          { word: 'analyze', definition: 'examine in detail to discover meaning', example: 'We must analyze the data carefully before drawing conclusions.' },
+          { word: 'contemporary', definition: 'belonging to or occurring in the present', example: 'Contemporary art challenges traditional boundaries.' },
+          { word: 'subsequent', definition: 'coming after something in time', example: 'The initial meeting and subsequent discussions were productive.' },
+          { word: 'preliminary', definition: 'denoting an action or event preceding something more important', example: 'These are just preliminary findings; more research is needed.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What does "facilitate" mean?',
+            options: [
+              'Make more difficult',
+              'Make easier',
+              'Prevent from happening',
+              'Delay'
+            ],
+            correctAnswer: 'Make easier',
+            explanation: '"Facilitate" significa hacer más fácil o facilitar',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: The results show a ___ improvement in performance.',
+            correctAnswer: 'significant',
+            acceptableAnswers: ['substantial'],
+            explanation: '"Significant" o "substantial" describen mejoras importantes',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What word means "belonging to the present time"?',
+            correctAnswer: 'contemporary',
+            explanation: '"Contemporary" significa contemporáneo o actual',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l6-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Review: Business Collocations',
+        vocabularySet: [
+          { word: 'meet a deadline', definition: 'complete work by a specified time', example: 'We need to work overtime to meet the deadline.' },
+          { word: 'launch a product', definition: 'introduce a new product to the market', example: 'The company will launch its new product next month.' },
+          { word: 'close a deal', definition: 'successfully complete a business agreement', example: 'After weeks of negotiation, we finally closed the deal.' },
+          { word: 'boost sales', definition: 'increase the number of products sold', example: 'The marketing campaign helped boost sales by 30%.' },
+          { word: 'cut costs', definition: 'reduce expenses', example: 'The company needs to cut costs to remain profitable.' },
+          { word: 'meet expectations', definition: 'achieve what was hoped for or anticipated', example: 'The product failed to meet customer expectations.' },
+          { word: 'face competition', definition: 'deal with rival companies', example: 'Small businesses face fierce competition from large corporations.' },
+          { word: 'secure funding', definition: 'obtain financial backing', example: 'The startup secured funding from several investors.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which verb goes with "deadline"?',
+            options: ['reach', 'meet', 'achieve', 'get'],
+            correctAnswer: 'meet',
+            explanation: 'La colocación correcta es "meet a deadline"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: We need to ___ costs to increase profits.',
+            correctAnswer: 'cut',
+            acceptableAnswers: ['reduce'],
+            explanation: '"Cut costs" es la colocación más común, aunque "reduce" también es aceptable',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What collocation means "successfully complete a business agreement"?',
+            correctAnswer: 'close a deal',
+            explanation: '"Close a deal" significa cerrar un trato',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l6-vocabulary-3',
+        type: 'vocabulary',
+        title: 'Review: Phrasal Verbs - Business Context',
+        vocabularySet: [
+          { word: 'carry out', definition: 'perform or conduct', example: 'We need to carry out a thorough investigation.' },
+          { word: 'set up', definition: 'establish or create', example: 'She set up her own business last year.' },
+          { word: 'take on', definition: 'accept responsibility or hire', example: 'The company is taking on new employees.' },
+          { word: 'come up with', definition: 'think of or produce an idea', example: 'We need to come up with a solution quickly.' },
+          { word: 'look into', definition: 'investigate', example: 'I\'ll look into the problem and get back to you.' },
+          { word: 'turn down', definition: 'reject or refuse', example: 'She turned down the job offer.' },
+          { word: 'put off', definition: 'postpone', example: 'We had to put off the meeting until next week.' },
+          { word: 'bring up', definition: 'mention or introduce a topic', example: 'He brought up some important issues during the meeting.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What does "carry out" mean?',
+            options: ['Transport', 'Perform', 'Cancel', 'Delay'],
+            correctAnswer: 'Perform',
+            explanation: '"Carry out" significa realizar o llevar a cabo',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: We need to ___ ___ a creative solution.',
+            correctAnswer: 'come up with',
+            explanation: '"Come up with" significa idear o proponer',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'What phrasal verb means "postpone"?',
+            correctAnswer: 'put off',
+            explanation: '"Put off" significa posponer',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l6-grammar-1',
+        type: 'grammar',
+        title: 'Review: Mixed Grammar - B2 Level',
+        explanation: `This exercise tests your knowledge of key B2 grammar structures:
+
+**Conditionals:**
+- Mixed conditionals combine different time frames
+- Example: "If I had studied harder (past), I would be a doctor now (present)"
+
+**Passive Voice:**
+- Focus on action rather than doer
+- Example: "The building was designed by a famous architect"
+
+**Reported Speech:**
+- Backshift tenses when reporting
+- Example: "She said she was tired" (original: "I am tired")
+
+**Perfect Tenses:**
+- Present Perfect: actions with present relevance
+- Past Perfect: actions before other past actions
+
+**Modal Verbs:**
+- Speculation: must/might/could/can't have done
+- Deduction about past: "He must have forgotten"`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'If I _____ about the meeting, I would have attended.',
+            options: ['knew', 'had known', 'have known', 'know'],
+            correctAnswer: 'had known',
+            explanation: 'Third conditional requiere "had + past participle" en la condición',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'The report _____ by the end of the week.',
+            options: ['will complete', 'will be completed', 'will have completed', 'completes'],
+            correctAnswer: 'will be completed',
+            explanation: 'Voz pasiva futura: will be + past participle',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'She told me that she _____ to London the previous year.',
+            options: ['went', 'had gone', 'has gone', 'goes'],
+            correctAnswer: 'had gone',
+            explanation: 'Reported speech con backshift: simple past → past perfect',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'He _____ have left already. His coat is gone.',
+            options: ['must', 'should', 'would', 'can'],
+            correctAnswer: 'must',
+            explanation: '"Must have" expresa deducción fuerte sobre el pasado',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l6-error-identification-2',
+        type: 'error-identification',
+        title: 'Common B2 Errors - Final Review',
+        sentences: [
+          {
+            sentence: 'I have been knowing him for five years.',
+            error: 'have been knowing',
+            correction: 'have known',
+            explanation: '"Know" es un stative verb que no se usa en continuous'
+          },
+          {
+            sentence: 'Despite of the rain, we went for a walk.',
+            error: 'Despite of',
+            correction: 'Despite / In spite of',
+            explanation: '"Despite" no va seguido de "of"; usa "despite" o "in spite of"'
+          },
+          {
+            sentence: 'She suggested me to apply for the job.',
+            error: 'suggested me to apply',
+            correction: 'suggested that I apply / suggested I apply / suggested applying',
+            explanation: '"Suggest" no va seguido de objeto + infinitivo'
+          },
+          {
+            sentence: 'The movie was very bored.',
+            error: 'bored',
+            correction: 'boring',
+            explanation: 'La película es "boring" (aburrida); las personas están "bored"'
+          },
+          {
+            sentence: 'He asked me where was the station.',
+            error: 'where was the station',
+            correction: 'where the station was',
+            explanation: 'En preguntas indirectas, el orden es sujeto + verbo'
+          }
+        ],
+        instructions: 'Identify and correct the errors - typical B2 exam mistakes.',
+        points: 2
+      },
+      {
+        id: 'b2-m3-l6-gap-fill-2',
+        type: 'gap-fill',
+        title: 'Gap-Fill: Climate Change Action',
+        sentences: [
+          {
+            sentence: 'Scientists have been warning ___ climate change for decades.',
+            correctAnswer: 'about',
+            explanation: '"Warn about" es la preposición correcta',
+            points: 1
+          },
+          {
+            sentence: 'Governments need to take ___ action to reduce emissions.',
+            correctAnswer: 'immediate',
+            acceptableAnswers: ['urgent', 'swift', 'prompt'],
+            explanation: 'Adjetivos que expresan urgencia',
+            points: 1
+          },
+          {
+            sentence: 'Renewable energy is ___ increasingly affordable.',
+            correctAnswer: 'becoming',
+            acceptableAnswers: ['getting'],
+            explanation: '"Become/get" para describir cambio de estado',
+            points: 1
+          },
+          {
+            sentence: 'Many species are ___ risk of extinction.',
+            correctAnswer: 'at',
+            explanation: '"At risk" es la expresión fija',
+            points: 1
+          },
+          {
+            sentence: 'We must reduce our carbon ___ significantly.',
+            correctAnswer: 'footprint',
+            acceptableAnswers: ['emissions'],
+            explanation: '"Carbon footprint" o "carbon emissions" son colocaciones correctas',
+            points: 1
+          }
+        ],
+        instructions: 'Complete each sentence with ONE appropriate word.'
+      },
+      {
+        id: 'b2-m3-l6-sentence-ordering-2',
+        type: 'sentence-ordering',
+        title: 'Organize an Essay Paragraph',
+        sentences: [
+          'However, this approach has both advantages and disadvantages.',
+          'Firstly, online learning offers unprecedented flexibility.',
+          'In conclusion, while online education has drawbacks, its benefits are substantial.',
+          'Online education has become increasingly popular in recent years.',
+          'On the other hand, it can lead to feelings of isolation.',
+          'Students can study at their own pace and from any location.',
+          'Furthermore, many students miss the face-to-face interaction with teachers.',
+          'Additionally, it reduces costs associated with commuting and accommodation.'
+        ],
+        correctOrder: [3, 0, 1, 5, 7, 4, 6, 2],
+        explanation: 'Un párrafo de ensayo bien estructurado: introducción → reconocer ambos lados → ventajas con conectores → desventajas con conectores → conclusión balanceada',
+        instructions: 'Arrange the sentences to create a well-structured essay paragraph.',
+        points: 8
+      },
+      {
+        id: 'b2-m3-l6-pronunciation-2',
+        type: 'pronunciation',
+        title: 'Exam-Critical Pronunciation',
+        words: [
+          {
+            word: 'although',
+            ipa: '/ɔːlˈðəʊ/',
+            stressPattern: 'al-THO',
+            audioUrl: '/audio/although.mp3',
+            tips: 'Stress on 2nd syllable; "th" sound /ð/'
+          },
+          {
+            word: 'thorough',
+            ipa: '/ˈθʌr.ə/',
+            stressPattern: 'THOR-ough',
+            audioUrl: '/audio/thorough.mp3',
+            tips: 'Stress on 1st syllable; different "th" sound /θ/'
+          },
+          {
+            word: 'particularly',
+            ipa: '/pəˈtɪk.jə.lə.li/',
+            stressPattern: 'par-TIC-u-lar-ly',
+            audioUrl: '/audio/particularly.mp3',
+            tips: 'Stress on 2nd syllable "-TIC-"'
+          },
+          {
+            word: 'characteristic',
+            ipa: '/ˌkær.ək.təˈrɪs.tɪk/',
+            stressPattern: 'char-ac-ter-IS-tic',
+            audioUrl: '/audio/characteristic.mp3',
+            tips: 'Stress on 4th syllable "-IS-"'
+          },
+          {
+            word: 'pronunciation',
+            ipa: '/prəˌnʌn.siˈeɪ.ʃən/',
+            stressPattern: 'pro-nun-ci-A-tion',
+            audioUrl: '/audio/pronunciation.mp3',
+            tips: 'Stress on 4th syllable; note spelling vs. "pronounce"'
+          },
+          {
+            word: 'necessary',
+            ipa: '/ˈnes.ə.ser.i/',
+            stressPattern: 'NEC-es-sar-y',
+            audioUrl: '/audio/necessary.mp3',
+            tips: 'Stress on 1st syllable; one "c", double "s"'
+          }
+        ],
+        instructions: 'Practice these commonly mispronounced words for the speaking exam.',
+        practiceType: 'stress-identification'
+      },
+      {
+        id: 'b2-m3-l6-integrated-2',
+        type: 'integrated-reading-writing',
+        title: 'Final Integrated Task: The Future of Work',
+        readingText: `The workplace of 2030 will bear little resemblance to today's offices. This transformation isn't merely about where we work—though remote and hybrid models will certainly dominate—but about fundamental changes in how we conceive of work itself.
+
+**The Rise of the Gig Economy**
+Traditional employment with a single employer for decades is becoming increasingly rare. Instead, portfolio careers are emerging as the norm. Professionals increasingly combine multiple part-time roles, freelance projects, and entrepreneurial ventures. This shift offers autonomy and variety but demands new skills: self-marketing, financial management, and constant adaptation.
+
+**Automation and Human Skills**
+Contrary to dystopian predictions, automation won't eliminate human work; it will transform it. Routine tasks will indeed be automated, but this will free humans to focus on skills that machines can't replicate: creativity, emotional intelligence, complex problem-solving, and ethical judgment. The most valuable workers will be those who can collaborate effectively with AI systems while bringing uniquely human capabilities to bear.
+
+**Continuous Learning Imperative**
+The concept of "learning for 25 years, working for 40" is obsolete. In 2030, learning and working will be inseparable. Professionals will need to constantly update their skills, often while maintaining full-time employment. Employers increasingly recognize this, with many now offering learning sabbaticals and integrated training programs. The ability to learn quickly and adapt to new tools and methodologies will be as important as any specific technical skill.
+
+**Mental Health and Well-being**
+The pandemic normalized conversations about mental health in professional contexts. By 2030, workplace wellness programs will be standard, not perks. Companies recognize that burned-out employees are neither productive nor innovative. Expect four-day work weeks to become common, along with mandatory vacation policies and mental health days.
+
+**Purpose-Driven Work**
+Younger generations increasingly demand work that aligns with their values. They're willing to accept lower salaries for roles that contribute to social good or environmental sustainability. This is forcing companies to articulate clear missions beyond profit and to demonstrate genuine commitment to social responsibility.
+
+The transition won't be smooth. Issues of inequality loom large: not everyone has equal access to remote work opportunities or continuous learning resources. Regulatory frameworks lag behind technological capabilities, creating uncertainty. Yet the direction is clear: work is becoming more flexible, more human-centered, and more integrated with life's other dimensions. Those who adapt to these changes will thrive; those who resist will struggle.`,
+        wordCount: 410,
+        readingTime: 5,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What does "portfolio careers" refer to?',
+            options: [
+              'Working in finance',
+              'Combining multiple different roles',
+              'Investing in stocks',
+              'Having a long career'
+            ],
+            correctAnswer: 'Combining multiple different roles',
+            explanation: 'El texto explica: "combine multiple part-time roles, freelance projects, and entrepreneurial ventures"',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'True or False: Automation will eliminate most human jobs.',
+            correctAnswer: 'False',
+            explanation: 'El texto dice: "automation won\'t eliminate human work; it will transform it"',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'According to the text, what will be the most valuable skill?',
+            options: [
+              'Technical programming',
+              'Foreign languages',
+              'Ability to learn quickly and adapt',
+              'Management experience'
+            ],
+            correctAnswer: 'Ability to learn quickly and adapt',
+            explanation: 'El texto afirma: "The ability to learn quickly and adapt...will be as important as any specific technical skill"',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'short-answer',
+            question: 'What workplace benefit is expected to become common by 2030?',
+            correctAnswer: 'Four-day work weeks / mental health days / mandatory vacation',
+            explanation: 'El texto menciona varios beneficios que se volverán comunes',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: 'What issue does the text mention as problematic?',
+            options: [
+              'Too much free time',
+              'Inequality of access to opportunities',
+              'Excessive regulation',
+              'Too many jobs available'
+            ],
+            correctAnswer: 'Inequality of access to opportunities',
+            explanation: 'El texto menciona: "Issues of inequality loom large: not everyone has equal access"',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'Based on the article, write an essay (220-260 words) discussing whether the changes described will improve or worsen working conditions. Support your opinion with examples from the text and your own experience.',
+            rubric: {
+              content: 25,
+              organization: 25,
+              grammar: 25,
+              vocabulary: 25
+            },
+            minWords: 220,
+            maxWords: 260,
+            points: 15
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l6-final-assessment',
+        type: 'grammar',
+        title: 'Final Comprehensive Assessment',
+        explanation: `Congratulations on reaching the final exercise of the B2 First preparation course!
+
+This assessment covers all major grammar areas from the complete course:
+
+**Module 1: Narrative & Complex Structures**
+- Perfect tenses and narrative tenses
+- Inversion and cleft sentences
+- Mixed conditionals
+
+**Module 2: Opinion & Speculation**
+- Modal verbs for deduction
+- Advanced passive structures
+- Reported speech
+
+**Module 3: Professional Communication**
+- Formal structures
+- Diplomatic language
+- Complex sentence patterns
+
+Take your time with each question. This is your opportunity to demonstrate everything you've learned throughout the course.
+
+**Good luck!**`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'By this time next year, I _____ my degree.',
+            options: [
+              'will finish',
+              'will have finished',
+              'will be finishing',
+              'am finishing'
+            ],
+            correctAnswer: 'will have finished',
+            explanation: 'Future Perfect para acción que estará completada en un punto futuro',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'Rarely _____ such a beautiful sunset.',
+            options: [
+              'I have seen',
+              'have I seen',
+              'I saw',
+              'did I see'
+            ],
+            correctAnswer: 'have I seen',
+            explanation: 'Inversión después de adverbios negativos en posición inicial',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'He _____ have arrived by now. The train was due at 3pm.',
+            options: ['must', 'should', 'would', 'can'],
+            correctAnswer: 'should',
+            explanation: '"Should have" expresa expectativa basada en información',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'If I _____ harder at school, I _____ be in a better job now.',
+            options: [
+              'studied / would',
+              'had studied / would',
+              'have studied / will',
+              'study / would'
+            ],
+            correctAnswer: 'had studied / would',
+            explanation: 'Mixed conditional: past condition, present result',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: 'What I need right now _____ a long vacation.',
+            options: ['are', 'is', 'were', 'be'],
+            correctAnswer: 'is',
+            explanation: 'Cleft sentence: "what" clause toma verbo singular',
+            points: 2
+          }
         ]
       }
     ]
