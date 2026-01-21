@@ -172,6 +172,150 @@ export interface MultipleChoiceClozeExercise {
   questions: ClozeQuestion[];
 }
 
+export interface SentenceCompletionExercise {
+  id: string;
+  type: 'sentence-completion';
+  title: string;
+  instructions: string;
+  sentences: {
+    id: string;
+    prompt: string;
+    correctCompletion: string;
+    options?: string[];
+    explanation?: string;
+    points: number;
+  }[];
+}
+
+export interface ErrorIdentificationExercise {
+  id: string;
+  type: 'error-identification';
+  title: string;
+  instructions: string;
+  sentences: {
+    id: string;
+    sentence: string;
+    hasError: boolean;
+    errorWord?: string;
+    correction?: string;
+    explanation?: string;
+    points: number;
+  }[];
+}
+
+export interface ParaphrasingExercise {
+  id: string;
+  type: 'paraphrasing';
+  title: string;
+  instructions: string;
+  items: {
+    id: string;
+    originalSentence: string;
+    correctParaphrase: string;
+    alternatives?: string[];
+    explanation?: string;
+    points: number;
+  }[];
+}
+
+export interface CollocationMatchingExercise {
+  id: string;
+  type: 'collocation-matching';
+  title: string;
+  instructions: string;
+  pairs: {
+    id: string;
+    word: string;
+    correctMatch: string;
+    distractors: string[];
+    example?: string;
+    points: number;
+  }[];
+}
+
+export interface PhrasalVerbsExercise {
+  id: string;
+  type: 'phrasal-verbs';
+  title: string;
+  instructions: string;
+  items: {
+    id: string;
+    sentence: string;
+    phrasalVerb: string;
+    meaning: string;
+    correctAnswer: string;
+    options?: string[];
+    explanation?: string;
+    points: number;
+  }[];
+}
+
+export interface IdiomsExpressionsExercise {
+  id: string;
+  type: 'idioms-expressions';
+  title: string;
+  instructions: string;
+  items: {
+    id: string;
+    context: string;
+    idiom: string;
+    meaning: string;
+    correctUsage: string;
+    options?: string[];
+    explanation?: string;
+    points: number;
+  }[];
+}
+
+export interface SummaryWritingExercise {
+  id: string;
+  type: 'summary-writing';
+  title: string;
+  instructions: string;
+  sourceText: string;
+  targetWordCount: number;
+  minWords: number;
+  maxWords: number;
+  keyPoints: string[];
+  rubric: {
+    content: number;
+    conciseness: number;
+    accuracy: number;
+    grammar: number;
+  };
+}
+
+export interface GapFillTextExercise {
+  id: string;
+  type: 'gap-fill-text';
+  title: string;
+  instructions: string;
+  text: string; // Texto con marcadores como {{1}}, {{2}}, etc.
+  gaps: {
+    id: string;
+    gapNumber: number;
+    correctAnswer: string;
+    acceptableAlternatives?: string[];
+    explanation?: string;
+    points: number;
+  }[];
+}
+
+export interface SentenceReorderingExercise {
+  id: string;
+  type: 'sentence-reordering';
+  title: string;
+  instructions: string;
+  items: {
+    id: string;
+    shuffledSentences: string[];
+    correctOrder: number[];
+    context?: string;
+    explanation?: string;
+    points: number;
+  }[];
+}
+
 export type Exercise = 
   | VoiceRecordingExercise
   | ListeningExercise
