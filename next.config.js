@@ -111,6 +111,11 @@ const nextConfig = {
   },
   // Paquetes externos que deben ejecutarse en el servidor
   serverExternalPackages: ['@google-cloud/text-to-speech', 'elevenlabs-node'],
+
+  // Excluir archivos de cache grandes del output de build para Cloudflare Pages
+  outputFileTracingExcludes: {
+    '**/.next/cache/**': true,
+  },
   // TypeScript and ESLint errors are now enforced during build
   // This ensures type safety and code quality
   // Opciones de webpack para excluir styled-jsx
