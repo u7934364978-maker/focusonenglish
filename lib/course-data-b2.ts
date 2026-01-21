@@ -11015,6 +11015,868 @@ In conclusion, the gene editing debate reflects fundamental questions about huma
           'Reference studies/reports using reported speech',
           'Conclude with your personal view'
         ]
+      },
+      {
+        id: 'b2-m2-l6-reading-exam',
+        type: 'reading',
+        title: 'MOCK EXAM READING: The Changing Nature of Work',
+        text: `The Fourth Industrial Revolution is fundamentally transforming the nature of work. Automation, artificial intelligence, and digital technologies are reshaping industries at an unprecedented pace. It is widely argued that these changes present both opportunities and challenges for workers worldwide.
+
+Proponents of technological advancement maintain that automation will create new job categories while eliminating tedious, repetitive tasks. Furthermore, they contend that increased productivity could lead to shorter working hours and improved quality of life. Studies have shown that previous industrial revolutions ultimately created more jobs than they destroyed, despite initial disruption.
+
+Nevertheless, critics raise valid concerns about the transition period. They point out that workers in manufacturing, transportation, and administrative roles face significant displacement risks. Moreover, there is evidence to suggest that the benefits of automation have not been evenly distributed—while corporate profits have soared, wage growth for many workers has stagnated. If society fails to address these inequalities, social tensions could intensify.
+
+The skills required for future employment are also evolving rapidly. Whereas routine technical skills once guaranteed stable employment, today's job market increasingly values creativity, critical thinking, and emotional intelligence—capabilities that are difficult to automate. Consequently, education systems must adapt to prepare students for this changing landscape.
+
+Some experts advocate for a universal basic income as a solution to potential mass unemployment. Others argue that retraining programs and lifelong learning initiatives represent more practical approaches. One could argue that a combination of policies will be necessary to navigate this transition successfully.
+
+Despite the uncertainties, most economists agree that adaptation is essential. Those who embrace continuous learning and develop versatile skill sets will likely thrive in the evolving economy. On the other hand, resistance to change could leave individuals and communities vulnerable to economic disruption.`,
+        wordCount: 280,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, what do proponents believe about automation?',
+            options: [
+              'It will eliminate all jobs',
+              'It will create new job categories',
+              'It only benefits corporations',
+              'It should be banned'
+            ],
+            correctAnswer: 'It will create new job categories',
+            explanation: 'El texto afirma que los proponentes creen que la automatización "will create new job categories".',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name TWO skills that the text says are increasingly valued in today\'s job market.',
+            correctAnswer: 'Creativity, critical thinking, emotional intelligence (any two)',
+            explanation: 'El texto menciona estas tres capacidades como valoradas.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What criticism do opponents of automation raise?',
+            options: [
+              'Technology is too expensive',
+              'Benefits have not been evenly distributed',
+              'It makes people lazy',
+              'It is too complicated'
+            ],
+            correctAnswer: 'Benefits have not been evenly distributed',
+            explanation: 'El texto menciona que "the benefits of automation have not been evenly distributed".',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'Complete: "___ routine technical skills once guaranteed stable employment, today\'s job market increasingly values creativity."',
+            correctAnswer: 'Whereas',
+            explanation: 'Whereas contrasta el pasado con el presente.',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'Name TWO solutions mentioned in the text for dealing with employment challenges.',
+            correctAnswer: 'Universal basic income, retraining programs, lifelong learning initiatives (any two)',
+            explanation: 'El texto menciona estas opciones como posibles soluciones.',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'unprecedented', definition: 'never done or known before' },
+          { word: 'tedious', definition: 'too long, slow, or dull; tiresome or monotonous' },
+          { word: 'displacement', definition: 'the moving of something from its place or position' },
+          { word: 'stagnated', definition: 'ceased to develop; became inactive' },
+          { word: 'versatile', definition: 'able to adapt or be adapted to many different functions' }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-grammar-exam',
+        type: 'grammar',
+        title: 'EXAM: Modal Verbs Review',
+        grammarPoint: 'All modal uses from Module 2',
+        explanation: 'Review all modal verb uses covered in Module 2:\n- Modals of deduction (must/might/could/can\'t have)\n- Modals for opinions and speculation\n- Modals in reported speech',
+        examples: [
+          'She must have forgotten about the meeting. (past deduction)',
+          'It might rain tomorrow. (future possibility)',
+          'You should study more. (advice)',
+          'He said he would help us. (reported speech)',
+          'This can\'t be the right address. (impossibility)'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose the correct modal: The lights are on. Someone ___ be home.',
+            options: ['must', 'can\'t', 'might not', 'mustn\'t'],
+            correctAnswer: 'must',
+            explanation: 'Strong deduction based on evidence.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Report: "I will call you tomorrow." → He said he ___ call me the next day.',
+            correctAnswer: 'would',
+            explanation: 'Will → would in reported speech.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Past deduction: They\'re not here. They ___ already.',
+            options: ['must leave', 'must have left', 'must be leaving', 'must left'],
+            correctAnswer: 'must have left',
+            explanation: 'Must have + past participle for past deduction.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-passive-exam',
+        type: 'grammar',
+        title: 'EXAM: Passive Voice Review',
+        grammarPoint: 'Passive voice in all tenses',
+        explanation: 'Review passive voice structures:\n- Present: is/are + past participle\n- Past: was/were + past participle\n- Present Perfect: has/have been + past participle\n- Future: will be + past participle\n- Causative: have/get + object + past participle',
+        examples: [
+          'The report was published yesterday.',
+          'The results have been announced.',
+          'The meeting will be held next week.',
+          'I had my car serviced.',
+          'New technologies are being developed.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Transform to passive: "They are building a new bridge."',
+            options: [
+              'A new bridge is building.',
+              'A new bridge is being built.',
+              'A new bridge has been built.',
+              'A new bridge was built.'
+            ],
+            correctAnswer: 'A new bridge is being built.',
+            explanation: 'Present continuous passive: is/are being + past participle.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Rewrite using "have something done": "The mechanic serviced my car."',
+            correctAnswer: 'I had my car serviced',
+            explanation: 'Causative structure: have + object + past participle.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-reported-speech-exam',
+        type: 'grammar',
+        title: 'EXAM: Reported Speech Review',
+        grammarPoint: 'Reporting verbs and structures',
+        explanation: 'Review reported speech:\n- Say/tell patterns\n- Reporting verbs (claim, suggest, recommend, deny, admit)\n- Backshifting tenses\n- Reporting questions',
+        examples: [
+          'She said (that) she was tired.',
+          'He told me to wait.',
+          'They suggested going to the cinema.',
+          'She denied taking the money.',
+          'He asked where I lived.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '"I didn\'t steal it." → He ___ stealing it.',
+            options: ['denied', 'refused', 'rejected', 'disagreed'],
+            correctAnswer: 'denied',
+            explanation: 'Deny + -ing for negating an accusation.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: '"Why don\'t we go out?" → She ___ going out.',
+            correctAnswer: 'suggested',
+            explanation: 'Suggest + -ing for proposals.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Report: "I have seen that movie." → He said he ___ ___ that movie.',
+            correctAnswer: 'had seen',
+            explanation: 'Present perfect → past perfect in reported speech.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-linking-words-exam',
+        type: 'grammar',
+        title: 'EXAM: Linking Words Review',
+        grammarPoint: 'Advanced linking words and discourse markers',
+        explanation: 'Review linking words:\n- Addition: furthermore, moreover, in addition\n- Contrast: however, nevertheless, whereas, despite\n- Cause/Effect: consequently, therefore, due to\n- Example: for instance, such as',
+        examples: [
+          'The plan is expensive. Furthermore, it will take years.',
+          'The weather was bad. Nevertheless, we enjoyed it.',
+          'Sales dropped. Consequently, staff were laid off.',
+          'Despite the rain, we went hiking.',
+          'I like tea, whereas she prefers coffee.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose: The project was difficult. ___, we completed it.',
+            options: ['Consequently', 'Nevertheless', 'Furthermore', 'Therefore'],
+            correctAnswer: 'Nevertheless',
+            explanation: 'Nevertheless shows contrast between difficulty and completion.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'He didn\'t study. ___, he failed.',
+            correctAnswer: 'Consequently/Therefore/As a result',
+            explanation: 'Shows cause and effect.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Combine using "despite": "It was raining. We played football."',
+            correctAnswer: 'Despite the rain, we played football',
+            explanation: 'Despite + noun phrase.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-argumentation-exam',
+        type: 'grammar',
+        title: 'EXAM: Argumentation Structures Review',
+        grammarPoint: 'Formal argumentation language',
+        explanation: 'Review argumentation structures:\n- It is argued that...\n- There is evidence to suggest that...\n- One could argue that...\n- Studies have shown that...\n- Proponents/Critics maintain/contend/claim that...',
+        examples: [
+          'It is argued that education reduces poverty.',
+          'There is evidence to suggest that exercise improves health.',
+          'Critics contend that the costs are too high.',
+          'Studies have shown that bilingualism benefits cognition.',
+          'One could argue that both approaches have merit.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which is most formal?',
+            options: [
+              'People think that...',
+              'It is argued that...',
+              'I think that...',
+              'Everyone says that...'
+            ],
+            correctAnswer: 'It is argued that...',
+            explanation: 'Passive impersonal structure is most formal.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: '___ ___ evidence to suggest that climate change is accelerating.',
+            correctAnswer: 'There is',
+            explanation: 'Formal structure for presenting evidence.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-vocabulary-exam',
+        type: 'vocabulary',
+        title: 'EXAM: Module 2 Vocabulary Review',
+        vocabularySet: [
+          { word: 'contend', definition: 'argue or assert (formal)', example: 'Experts contend that action is needed.' },
+          { word: 'maintain', definition: 'insist something is true', example: 'She maintains her innocence.' },
+          { word: 'acknowledge', definition: 'recognize or admit', example: 'He acknowledged his mistake.' },
+          { word: 'furthermore', definition: 'in addition; moreover', example: 'The plan is expensive. Furthermore, it\'s risky.' },
+          { word: 'nevertheless', definition: 'despite that; however', example: 'It was difficult. Nevertheless, we succeeded.' },
+          { word: 'whereas', definition: 'while; in contrast', example: 'I prefer coffee, whereas she likes tea.' },
+          { word: 'consequently', definition: 'as a result', example: 'Sales fell. Consequently, staff were cut.' },
+          { word: 'allegedly', definition: 'reportedly but not proven', example: 'He allegedly stole the money.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which linking word shows CONTRAST?',
+            options: ['furthermore', 'consequently', 'nevertheless', 'therefore'],
+            correctAnswer: 'nevertheless',
+            explanation: 'Nevertheless introduces contrasting information.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Experts ___ that the policy will fail.',
+            correctAnswer: 'contend/maintain/argue/claim',
+            explanation: 'Argumentation verbs.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-error-correction-exam',
+        type: 'error-identification',
+        title: 'EXAM: Error Correction',
+        instructions: 'Find and correct errors in these sentences (Module 2 grammar).',
+        sentences: [
+          {
+            id: 'err1',
+            sentence: 'She must left early because her car isn\'t here.',
+            error: 'must left',
+            correction: 'must have left',
+            explanation: 'Past deduction: must have + past participle.',
+            points: 2
+          },
+          {
+            id: 'err2',
+            sentence: 'The report is publish next week.',
+            error: 'is publish',
+            correction: 'will be published/is being published',
+            explanation: 'Passive voice needed: will be/is being + past participle.',
+            points: 2
+          },
+          {
+            id: 'err3',
+            sentence: 'He said that he will help us tomorrow.',
+            error: 'will',
+            correction: 'would',
+            explanation: 'Reported speech: will → would.',
+            points: 2
+          },
+          {
+            id: 'err4',
+            sentence: 'Although the rain, we went hiking.',
+            error: 'Although the rain',
+            correction: 'Despite the rain',
+            explanation: 'Despite + noun; Although + clause.',
+            points: 2
+          },
+          {
+            id: 'err5',
+            sentence: 'It is argue that education is important.',
+            error: 'is argue',
+            correction: 'is argued',
+            explanation: 'Passive voice: is argued.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-cloze-exam',
+        type: 'multiple-choice-cloze',
+        title: 'EXAM: Multiple Choice Cloze - Climate Action',
+        text: `Climate change represents one of the most pressing challenges facing humanity. Scientists (1)_____ that global temperatures have risen significantly over the past century. (2)_____, the rate of change appears to be accelerating. There is compelling evidence to (3)_____ that human activities are the primary cause.
+
+(4)_____ these findings, some politicians continue to question the need for immediate action. They (5)_____ that the economic costs of transitioning to renewable energy are too high. (6)_____, environmental advocates maintain that the cost of inaction would be far greater. If governments (7)_____ to invest in green technologies now, future generations will face catastrophic consequences.
+
+International cooperation is (8)_____. Individual nations cannot solve this global problem alone.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '1. _____',
+            options: ['contend', 'deny', 'refuse', 'reject'],
+            correctAnswer: 'contend',
+            explanation: 'Contend = argue/maintain (formal).',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: '2. _____',
+            options: ['Therefore', 'Furthermore', 'However', 'Consequently'],
+            correctAnswer: 'Furthermore',
+            explanation: 'Furthermore adds information.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: '3. _____',
+            options: ['suggest', 'tell', 'say', 'speak'],
+            correctAnswer: 'suggest',
+            explanation: 'Evidence suggests = evidence indicates.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '4. _____',
+            options: ['Although', 'Despite', 'However', 'Because'],
+            correctAnswer: 'Despite',
+            explanation: 'Despite + noun phrase (these findings).',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: '5. _____',
+            options: ['argue', 'tell', 'say', 'speak'],
+            correctAnswer: 'argue',
+            explanation: 'Argue that = claim that.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: '6. _____',
+            options: ['Therefore', 'Furthermore', 'However', 'Consequently'],
+            correctAnswer: 'However',
+            explanation: 'However shows contrast.',
+            points: 1
+          },
+          {
+            id: 'q7',
+            type: 'multiple-choice',
+            question: '7. _____',
+            options: ['fail', 'will fail', 'failed', 'have failed'],
+            correctAnswer: 'fail',
+            explanation: 'First conditional: If + present, will + verb.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            type: 'multiple-choice',
+            question: '8. _____',
+            options: ['essential', 'essence', 'essentially', 'essentials'],
+            correctAnswer: 'essential',
+            explanation: 'Adjective needed: is essential.',
+            points: 1
+          }
+        ],
+        focusAreas: ['Argumentation verbs', 'Linking words', 'Conditionals']
+      },
+      {
+        id: 'b2-m2-l6-key-word-exam',
+        type: 'key-word-transformation',
+        title: 'EXAM: Key Word Transformation',
+        instructions: 'Complete using the word given (2-5 words including the keyword).',
+        transformations: [
+          {
+            id: 't1',
+            original: 'I\'m sure she didn\'t see us.',
+            keyword: 'HAVE',
+            answer: 'can\'t/couldn\'t have seen',
+            fullSentence: 'She can\'t have seen us.',
+            points: 2
+          },
+          {
+            id: 't2',
+            original: '"I will call you," he said.',
+            keyword: 'WOULD',
+            answer: 'said he would call',
+            fullSentence: 'He said he would call me.',
+            points: 2
+          },
+          {
+            id: 't3',
+            original: 'The weather was bad but we enjoyed it.',
+            keyword: 'DESPITE',
+            answer: 'Despite the bad weather',
+            fullSentence: 'Despite the bad weather, we enjoyed it.',
+            points: 2
+          },
+          {
+            id: 't4',
+            original: 'Someone is repairing my computer.',
+            keyword: 'HAVING',
+            answer: 'having my computer repaired',
+            fullSentence: 'I\'m having my computer repaired.',
+            points: 2
+          },
+          {
+            id: 't5',
+            original: 'Many people believe education is vital.',
+            keyword: 'ARGUED',
+            answer: 'It is widely argued',
+            fullSentence: 'It is widely argued that education is vital.',
+            points: 2
+          },
+          {
+            id: 't6',
+            original: 'He didn\'t study, so he failed.',
+            keyword: 'CONSEQUENTLY',
+            answer: 'didn\'t study. Consequently, he',
+            fullSentence: 'He didn\'t study. Consequently, he failed.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-paraphrasing-exam',
+        type: 'paraphrasing',
+        title: 'EXAM: Paraphrasing',
+        instructions: 'Paraphrase using formal structures and linking words.',
+        sentences: [
+          {
+            id: 'p1',
+            original: 'The plan is expensive and will take time.',
+            paraphrased: 'The plan is expensive. Furthermore, it will require considerable time./Not only is the plan expensive, but it will also take time.',
+            alternatives: [
+              'The plan is costly. Moreover, implementation will be time-consuming.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p2',
+            original: 'Studies show exercise helps mental health.',
+            paraphrased: 'There is evidence to suggest that exercise improves mental well-being./Research indicates that physical activity benefits mental health.',
+            alternatives: [
+              'Studies have shown that exercise enhances psychological wellness.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p3',
+            original: 'She probably missed the bus.',
+            paraphrased: 'She must have missed the bus./She might have missed the bus.',
+            alternatives: [
+              'It is likely that she missed the bus.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p4',
+            original: '"Why don\'t you try again?" she said to me.',
+            paraphrased: 'She suggested that I try again./She suggested trying again.',
+            alternatives: [
+              'She recommended that I make another attempt.'
+            ],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-listening-exam',
+        type: 'listening',
+        title: 'EXAM: Listening - Debate on Universal Healthcare',
+        audioUrl: '/audio/b2-m2-l6-healthcare-debate.mp3',
+        duration: 180,
+        transcript: `Moderator: Today we're discussing universal healthcare. Dr. Chen, your opening statement?
+
+Dr. Chen: Thank you. It is widely argued that healthcare is a fundamental human right. There is compelling evidence to suggest that universal healthcare systems achieve better health outcomes at lower costs than market-based systems. Furthermore, preventative care becomes more accessible when financial barriers are removed. Consequently, populations in countries with universal healthcare tend to be healthier overall.
+
+Moderator: Mr. Thompson, your response?
+
+Mr. Thompson: While I acknowledge Dr. Chen's points, one could argue that market-based systems drive innovation more effectively. Critics contend that government-run healthcare leads to longer waiting times and reduced quality of care. Moreover, the tax burden required to fund universal healthcare might have been underestimated. If we had implemented such a system, our economy could have suffered significantly.
+
+Dr. Chen: Those concerns have largely been debunked by international comparisons. Nevertheless, I concede that transitioning to universal healthcare requires careful planning. However, the evidence overwhelmingly suggests that the benefits outweigh the challenges.
+
+Moderator: Thank you both for a balanced discussion.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What is Dr. Chen\'s main argument?',
+            options: [
+              'Healthcare is too expensive',
+              'Healthcare is a fundamental human right',
+              'Private healthcare is better',
+              'Waiting times are too long'
+            ],
+            correctAnswer: 'Healthcare is a fundamental human right',
+            explanation: 'Dr. Chen afirma: "healthcare is a fundamental human right".',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name TWO argumentation structures used in the debate.',
+            correctAnswer: 'It is widely argued, There is evidence to suggest, One could argue, Critics contend (any two)',
+            explanation: 'Ambos participantes usan estructuras formales.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What concern does Mr. Thompson raise?',
+            options: [
+              'Universal healthcare is perfect',
+              'Government-run healthcare may lead to longer waiting times',
+              'Everyone supports it',
+              'It costs nothing'
+            ],
+            correctAnswer: 'Government-run healthcare may lead to longer waiting times',
+            explanation: 'Mr. Thompson menciona que podría llevar a "longer waiting times".',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'What does Dr. Chen say about Mr. Thompson\'s concerns?',
+            correctAnswer: 'They have been debunked by international comparisons',
+            explanation: 'Dr. Chen responde que las preocupaciones "have largely been debunked".',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-gap-fill-exam',
+        type: 'gap-fill',
+        title: 'EXAM: Gap-fill - The Digital Divide',
+        text: `The digital divide refers to the gap between those who have access to modern technology and those who do not. (1)_____ that this gap is widening in many parts of the world. (2)_____, rural communities often lack the infrastructure necessary for high-speed internet.
+
+There is (3)_____ evidence to suggest that digital access has become essential for economic participation. (4)_____ governments have invested in improving connectivity, progress has been uneven. (5)_____ we fail to address this issue, millions of people will be left behind.
+
+The pandemic (6)_____ the problem even more visible. Students without internet access (7)_____ participate in online learning. (8)_____, workers without digital skills struggled to adapt to remote work. This crisis has (9)_____ that digital literacy is no longer optional—it is a fundamental requirement for modern life.
+
+(10)_____, solving the digital divide will require coordinated efforts from governments, private companies, and communities.`,
+        gaps: [
+          { id: 'gap1', correctAnswers: ['It is argued', 'Many contend', 'Experts maintain'], explanation: 'Formal argument structure.' },
+          { id: 'gap2', correctAnswers: ['For instance', 'For example'], explanation: 'Introducing example.' },
+          { id: 'gap3', correctAnswers: ['compelling', 'strong', 'substantial'], explanation: 'Adjective for evidence.' },
+          { id: 'gap4', correctAnswers: ['Although', 'While', 'Though'], explanation: 'Contrast with clause.' },
+          { id: 'gap5', correctAnswers: ['If', 'Should'], explanation: 'Conditional.' },
+          { id: 'gap6', correctAnswers: ['made', 'rendered'], explanation: 'Made something visible.' },
+          { id: 'gap7', correctAnswers: ['couldn\'t', 'could not'], explanation: 'Past ability/inability.' },
+          { id: 'gap8', correctAnswers: ['Similarly', 'Likewise', 'Furthermore'], explanation: 'Adding related information.' },
+          { id: 'gap9', correctAnswers: ['shown', 'demonstrated', 'proven'], explanation: 'Past participle.' },
+          { id: 'gap10', correctAnswers: ['Therefore', 'Consequently', 'Thus'], explanation: 'Conclusion/result.' }
+        ],
+        instructions: 'Fill gaps with appropriate words from Module 2.',
+        points: 10
+      },
+      {
+        id: 'b2-m2-l6-sentence-reordering-exam',
+        type: 'sentence-reordering',
+        title: 'EXAM: Sentence Reordering',
+        instructions: 'Put sentences in logical order to form a coherent argument.',
+        sentences: [
+          { id: 's1', text: 'In conclusion, while social media presents challenges, its benefits for global communication are undeniable.', order: 8 },
+          { id: 's2', text: 'It is widely argued that social media has revolutionized how people communicate globally.', order: 1 },
+          { id: 's3', text: 'Furthermore, it has enabled marginalized voices to be heard and social movements to gain momentum.', order: 3 },
+          { id: 's4', text: 'Nevertheless, critics raise valid concerns about privacy, misinformation, and mental health impacts.', order: 4 },
+          { id: 's5', text: 'There is evidence to suggest that platforms facilitate instant connection across vast distances.', order: 2 },
+          { id: 's6', text: 'If platforms were to implement stronger content moderation, many of these issues could be mitigated.', order: 6 },
+          { id: 's7', text: 'These concerns cannot be dismissed and warrant serious consideration.', order: 5 },
+          { id: 's8', text: 'Therefore, a balanced approach that maximizes benefits while minimizing harms is essential.', order: 7 }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l6-pronunciation-exam',
+        type: 'pronunciation',
+        title: 'EXAM: Pronunciation Review',
+        instructions: 'Practice key vocabulary from Module 2.',
+        words: [
+          {
+            word: 'consequently',
+            phonetic: '/ˈkɒnsɪkwəntli/',
+            audioUrl: '/audio/pronunciation/consequently.mp3',
+            stressPattern: 'CON-se-quent-ly'
+          },
+          {
+            word: 'nevertheless',
+            phonetic: '/ˌnevəðəˈles/',
+            audioUrl: '/audio/pronunciation/nevertheless.mp3',
+            stressPattern: 'neverthe-LESS'
+          },
+          {
+            word: 'acknowledge',
+            phonetic: '/əkˈnɒlɪdʒ/',
+            audioUrl: '/audio/pronunciation/acknowledge.mp3',
+            stressPattern: 'ac-KNOWL-edge'
+          },
+          {
+            word: 'demonstrate',
+            phonetic: '/ˈdemənstreɪt/',
+            audioUrl: '/audio/pronunciation/demonstrate.mp3',
+            stressPattern: 'DEM-on-strate'
+          }
+        ],
+        points: 4
+      },
+      {
+        id: 'b2-m2-l6-word-formation-exam',
+        type: 'word-formation',
+        title: 'EXAM: Word Formation',
+        instructions: 'Complete with correct form of the word in capitals.',
+        words: [
+          {
+            id: 'wf1',
+            sentence: 'The ___ of the argument was impressive.',
+            baseWord: 'STRONG',
+            correctAnswer: 'strength',
+            explanation: 'strength (noun)',
+            points: 1
+          },
+          {
+            id: 'wf2',
+            sentence: 'There is considerable ___ about the best approach.',
+            baseWord: 'DISAGREE',
+            correctAnswer: 'disagreement',
+            explanation: 'disagreement (noun)',
+            points: 1
+          },
+          {
+            id: 'wf3',
+            sentence: 'The policy has proven ___ effective.',
+            baseWord: 'REMARKABLE',
+            correctAnswer: 'remarkably',
+            explanation: 'remarkably (adverb)',
+            points: 1
+          },
+          {
+            id: 'wf4',
+            sentence: 'International ___ is essential for solving global problems.',
+            baseWord: 'COOPERATE',
+            correctAnswer: 'cooperation',
+            explanation: 'cooperation (noun)',
+            points: 1
+          },
+          {
+            id: 'wf5',
+            sentence: 'The ___ benefits are well documented.',
+            baseWord: 'ENVIRONMENT',
+            correctAnswer: 'environmental',
+            explanation: 'environmental (adjective)',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-integrated-exam',
+        type: 'reading',
+        title: 'EXAM: Integrated Skills - Final Assessment',
+        text: `The concept of lifelong learning has gained unprecedented importance in the 21st century. It is widely argued that the rapid pace of technological and social change requires individuals to continuously update their skills and knowledge throughout their careers and lives.
+
+Proponents maintain that lifelong learning brings numerous benefits. There is compelling evidence to suggest that continuous education enhances employment prospects, increases earning potential, and improves overall quality of life. Furthermore, studies have shown that mentally active individuals experience slower cognitive decline as they age. Consequently, governments and organizations worldwide have begun investing heavily in adult education programs.
+
+Nevertheless, significant barriers remain. Critics point out that access to quality learning opportunities is often limited by factors such as cost, time constraints, and geographical location. Moreover, individuals from disadvantaged backgrounds may lack the resources or confidence to pursue further education. If society were to truly embrace lifelong learning as a priority, these systemic inequalities would need to be addressed.
+
+The digital revolution has both helped and hindered progress. On one hand, online learning platforms have democratized access to education, making world-class courses available to anyone with internet access. On the other hand, the same digital divide that affects other areas of society creates barriers for those without technological resources or digital literacy.
+
+Despite these challenges, the evidence overwhelmingly supports the importance of lifelong learning. Whereas traditional education models focused on front-loading knowledge in youth, modern approaches recognize that learning must be continuous and adaptive. One could argue that cultivating a genuine love of learning—rather than simply acquiring specific skills—represents the most sustainable approach to navigating an uncertain future.`,
+        wordCount: 270,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, why has lifelong learning become important?',
+            options: [
+              'Because schools are closing',
+              'Because of rapid technological and social change',
+              'Because it is mandatory',
+              'Because traditional education has failed'
+            ],
+            correctAnswer: 'Because of rapid technological and social change',
+            explanation: 'El texto menciona "the rapid pace of technological and social change".',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name THREE benefits of lifelong learning mentioned in the text.',
+            correctAnswer: 'Enhanced employment prospects, increased earning potential, improved quality of life, slower cognitive decline (any three)',
+            explanation: 'El texto enumera estos beneficios.',
+            points: 3
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'Complete: "___ traditional education focused on front-loading knowledge, modern approaches recognize continuous learning."',
+            correctAnswer: 'Whereas',
+            explanation: 'Whereas contrasta enfoques tradicionales y modernos.',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'How has the digital revolution affected lifelong learning?',
+            options: [
+              'Only positively',
+              'Only negatively',
+              'Both helped and hindered',
+              'Had no effect'
+            ],
+            correctAnswer: 'Both helped and hindered',
+            explanation: 'El texto dice "both helped and hindered progress".',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What barriers to lifelong learning does the text mention?',
+            correctAnswer: 'Cost, time constraints, geographical location, lack of resources, lack of confidence, digital divide (any three)',
+            explanation: 'El texto menciona múltiples barreras.',
+            points: 3
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'FINAL WRITING TASK: Do you agree that lifelong learning is essential in the modern world? Write 150-180 words presenting your argument. You MUST use:\n- At least 3 modal verbs\n- At least 4 linking words\n- At least 2 formal argumentation structures\n- At least 1 conditional sentence\n- Passive voice (at least once)',
+            correctAnswer: '',
+            explanation: 'Evaluate comprehensively on all Module 2 criteria: argumentation, linking words, modals, passive voice, reported speech awareness, formal register.',
+            points: 20
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'unprecedented', definition: 'never done or known before' },
+          { word: 'cognitive decline', definition: 'gradual loss of mental abilities' },
+          { word: 'democratized', definition: 'made accessible to everyone' },
+          { word: 'front-loading', definition: 'concentrating at the beginning' },
+          { word: 'sustainable', definition: 'able to be maintained long-term' }
+        ]
+      },
+      {
+        id: 'b2-m2-l6-speaking-final',
+        type: 'speaking',
+        prompt: 'FINAL SPEAKING EXAM: Choose ONE topic and prepare a 3-4 minute presentation:\n\n1) "The most important skill for future success"\n2) "Should all education be free?"\n3) "The role of technology in modern society"\n\nYour presentation MUST include:\n- Clear introduction, body, and conclusion\n- At least 5 different linking words\n- At least 3 modal verbs (speculation/opinion)\n- At least 2 formal argumentation structures\n- Arguments both FOR and AGAINST\n- Your personal opinion with justification\n- Passive voice usage\n- Reference to studies/evidence (can use reported speech)',
+        timeLimit: 240,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Introduction: State topic and position clearly',
+          'Use: "It is widely argued that...", "There is evidence to suggest..."',
+          'Present both sides: "On one hand... On the other hand..."',
+          'Link ideas: furthermore, nevertheless, consequently, whereas',
+          'Modals: might, could, should, must',
+          'Conclusion: "In conclusion...", "Therefore..."',
+          'Speak clearly and at moderate pace',
+          'Use formal academic register throughout'
+        ]
+      },
+      {
+        id: 'b2-m2-l6-reflection',
+        type: 'writing',
+        prompt: 'EXAM REFLECTION: Write a brief reflection (100-120 words) on what you have learned in Module 2. Consider:\n- Which grammar structures were most challenging?\n- How will you use these skills in real life?\n- What areas need more practice?\n\nUse some of the vocabulary and structures from Module 2.',
+        writingType: 'essay',
+        minWords: 100,
+        maxWords: 120,
+        timeLimit: 15,
+        rubric: {
+          content: 40,
+          grammar: 30,
+          vocabulary: 30
+        },
+        tips: [
+          'Be honest about challenges',
+          'Give specific examples',
+          'Use Module 2 linking words',
+          'Mention specific grammar points (modals, passive, reported speech, etc.)',
+          'Think about real-world applications'
+        ]
       }
     ]
   }
