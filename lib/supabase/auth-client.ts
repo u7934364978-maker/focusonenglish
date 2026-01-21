@@ -11,7 +11,10 @@ export function createBrowserClient() {
   const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
   if (!supabaseUrl || !supabaseAnonKey) {
-    throw new Error('Missing Supabase environment variables');
+    // Durante build time, las variables pueden no estar disponibles
+    // Retornar un cliente dummy que fallará en runtime si se usa
+    console.warn('Supabase environment variables not configured');
+    return null as any;
   }
 
   return createClient(supabaseUrl, supabaseAnonKey, {
@@ -47,7 +50,9 @@ export function createAdminClient() {
   const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
   if (!supabaseUrl || !supabaseServiceKey) {
-    throw new Error('Missing Supabase admin environment variables');
+    // Durante build time, las variables pueden no estar disponibles
+    console.warn('Supabase admin environment variables not configured');
+    return null as any;
   }
 
   return createClient(supabaseUrl, supabaseServiceKey, {
