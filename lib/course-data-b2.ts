@@ -2019,6 +2019,499 @@ Under no circumstances should we view career changes as failures. If you had sta
           { id: 'q8', gapNumber: 8, baseWord: 'SKILL', correctAnswer: 'skillful', acceptableAnswers: ['skillful', 'skilful'], explanation: '"Skillful decision-makers" - having and showing skill.', wordType: 'adjective', transformation: 'noun → adjective (-ful)', points: 1 }
         ],
         focusAreas: ['Word formation', 'Negative prefixes', 'Suffix patterns']
+      },
+      {
+        id: 'b2-m1-l2-sentence-1',
+        type: 'sentence-completion',
+        title: 'Complete Mixed Conditional Sentences',
+        instructions: 'Complete the sentences using mixed conditionals.',
+        sentences: [
+          {
+            id: 's1',
+            prompt: 'If I had learned to play the piano as a child, I',
+            correctCompletion: 'would be a musician now',
+            options: ['would be a musician now', 'will be a musician now', 'would have been a musician', 'am a musician now'],
+            explanation: 'Past condition (didn\'t learn) + present result (not a musician) = Mixed Conditional Type 1',
+            points: 2
+          },
+          {
+            id: 's2',
+            prompt: 'If she weren\'t so talented, she',
+            correctCompletion: 'wouldn\'t have won the competition',
+            options: ['wouldn\'t have won the competition', 'won\'t win the competition', 'wouldn\'t win the competition', 'didn\'t win the competition'],
+            explanation: 'Present condition (is talented) + past result (won) = Mixed Conditional Type 2',
+            points: 2
+          },
+          {
+            id: 's3',
+            prompt: 'If they had invested in that company, they',
+            correctCompletion: 'would be millionaires today',
+            explanation: 'Past action + present result.',
+            points: 2
+          },
+          {
+            id: 's4',
+            prompt: 'If I spoke Japanese fluently, I',
+            correctCompletion: 'would have taken the job in Tokyo',
+            explanation: 'Present ability + past opportunity.',
+            points: 2
+          },
+          {
+            id: 's5',
+            prompt: 'If he had listened to the warnings, he',
+            correctCompletion: 'wouldn\'t be in trouble now',
+            explanation: 'Past action + present situation.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l2-sentence-2',
+        type: 'sentence-completion',
+        title: 'Inversion for Emphasis',
+        instructions: 'Rewrite the sentences using inversion for emphasis.',
+        sentences: [
+          {
+            id: 's1',
+            prompt: 'I have never seen such a beautiful sunset. → Never',
+            correctCompletion: 'have I seen such a beautiful sunset',
+            explanation: 'Inversion after negative adverbs: Never + auxiliary + subject + main verb',
+            points: 2
+          },
+          {
+            id: 's2',
+            prompt: 'She had hardly finished speaking when the phone rang. → Hardly',
+            correctCompletion: 'had she finished speaking when the phone rang',
+            explanation: 'Hardly + had + subject emphasizes immediacy.',
+            points: 2
+          },
+          {
+            id: 's3',
+            prompt: 'I have rarely encountered such rudeness. → Rarely',
+            correctCompletion: 'have I encountered such rudeness',
+            explanation: 'Rarely at the beginning requires inversion.',
+            points: 2
+          },
+          {
+            id: 's4',
+            prompt: 'We had no sooner arrived than it started to rain. → No sooner',
+            correctCompletion: 'had we arrived than it started to rain',
+            explanation: 'No sooner + had + subject + past participle.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l2-error-1',
+        type: 'error-identification',
+        title: 'Mixed Conditional Errors',
+        instructions: 'Identify and correct errors in mixed conditional sentences.',
+        sentences: [
+          {
+            id: 'e1',
+            sentence: 'If I would have studied harder, I would be a doctor now.',
+            hasError: true,
+            errorWord: 'would have studied',
+            correction: 'had studied',
+            explanation: 'Don\'t use "would" in the if-clause. Use Past Perfect: "If I had studied".',
+            points: 2
+          },
+          {
+            id: 'e2',
+            sentence: 'If she had taken the job, she would live in Paris now.',
+            hasError: false,
+            explanation: 'Correct mixed conditional: past condition + present result.',
+            points: 2
+          },
+          {
+            id: 'e3',
+            sentence: 'If I am taller, I would have been selected for the team.',
+            hasError: true,
+            errorWord: 'am',
+            correction: 'were',
+            explanation: 'Use "were" for unreal present conditions in mixed conditionals.',
+            points: 2
+          },
+          {
+            id: 'e4',
+            sentence: 'If they listened to the advice, they wouldn\'t have lost money.',
+            hasError: true,
+            errorWord: 'listened',
+            correction: 'had listened',
+            explanation: 'Past condition needs Past Perfect: "had listened".',
+            points: 2
+          },
+          {
+            id: 'e5',
+            sentence: 'If he weren\'t so lazy, he would have finished the project.',
+            hasError: false,
+            explanation: 'Correct: present condition + past result.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l2-error-2',
+        type: 'error-identification',
+        title: 'Inversion Errors',
+        instructions: 'Find and correct errors in sentences using inversion.',
+        sentences: [
+          {
+            id: 'e1',
+            sentence: 'Never I have seen such a mess.',
+            hasError: true,
+            errorWord: 'I have',
+            correction: 'have I',
+            explanation: 'After "Never", use inversion: Never + auxiliary + subject.',
+            points: 2
+          },
+          {
+            id: 'e2',
+            sentence: 'Rarely have we encountered such difficulties.',
+            hasError: false,
+            explanation: 'Correct inversion after "Rarely".',
+            points: 2
+          },
+          {
+            id: 'e3',
+            sentence: 'Under no circumstances you should share your password.',
+            hasError: true,
+            errorWord: 'you should',
+            correction: 'should you',
+            explanation: 'Negative expressions require inversion: should you share.',
+            points: 2
+          },
+          {
+            id: 'e4',
+            sentence: 'Only then did I realize my mistake.',
+            hasError: false,
+            explanation: 'Correct inversion after "Only then".',
+            points: 2
+          },
+          {
+            id: 'e5',
+            sentence: 'Not only she is talented, but also hardworking.',
+            hasError: true,
+            errorWord: 'she is',
+            correction: 'is she',
+            explanation: 'Not only requires inversion: Not only is she talented.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l2-paraphrase-1',
+        type: 'paraphrasing',
+        title: 'Paraphrase Using Conditionals and Inversion',
+        instructions: 'Rewrite the sentences using the structures indicated.',
+        items: [
+          {
+            id: 'p1',
+            originalSentence: 'I didn\'t save money, so I can\'t buy a house now.',
+            correctParaphrase: 'If I had saved money, I could buy a house now.',
+            alternatives: ['Had I saved money, I could buy a house now.'],
+            explanation: 'Mixed conditional Type 1: past condition + present result.',
+            points: 2
+          },
+          {
+            id: 'p2',
+            originalSentence: 'I have never experienced such kindness.',
+            correctParaphrase: 'Never have I experienced such kindness.',
+            explanation: 'Inversion for emphasis with "Never".',
+            points: 2
+          },
+          {
+            id: 'p3',
+            originalSentence: 'Because I\'m not fluent in French, I didn\'t get the job in Paris.',
+            correctParaphrase: 'If I were fluent in French, I would have got the job in Paris.',
+            alternatives: ['Were I fluent in French, I would have got the job in Paris.'],
+            explanation: 'Mixed conditional Type 2: present condition + past result.',
+            points: 2
+          },
+          {
+            id: 'p4',
+            originalSentence: 'We rarely see such dedication.',
+            correctParaphrase: 'Rarely do we see such dedication.',
+            explanation: 'Inversion after frequency adverb "rarely".',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l2-collocation-1',
+        type: 'collocation-matching',
+        title: 'Conditional Collocations',
+        instructions: 'Match the conditional clauses with common collocations.',
+        pairs: [
+          {
+            id: 'c1',
+            word: 'If I had known',
+            correctMatch: 'in advance',
+            distractors: ['on time', 'at once', 'by chance'],
+            example: 'If I had known in advance, I would have prepared better.',
+            points: 1
+          },
+          {
+            id: 'c2',
+            word: 'If circumstances',
+            correctMatch: 'had been different',
+            distractors: ['were the same', 'are changing', 'will improve'],
+            example: 'If circumstances had been different, I would be living abroad now.',
+            points: 1
+          },
+          {
+            id: 'c3',
+            word: 'Had I',
+            correctMatch: 'realized sooner',
+            distractors: ['knew before', 'will understand', 'am thinking'],
+            example: 'Had I realized sooner, I could have prevented the problem.',
+            points: 1
+          },
+          {
+            id: 'c4',
+            word: 'Never in my',
+            correctMatch: 'wildest dreams',
+            distractors: ['best hopes', 'good thoughts', 'happy moments'],
+            example: 'Never in my wildest dreams did I imagine this would happen.',
+            points: 1
+          },
+          {
+            id: 'c5',
+            word: 'Under no',
+            correctMatch: 'circumstances',
+            distractors: ['conditions', 'situations', 'reasons'],
+            example: 'Under no circumstances should you reveal this information.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l2-phrasal-1',
+        type: 'phrasal-verbs',
+        title: 'Phrasal Verbs in Conditionals',
+        instructions: 'Complete the conditional sentences with the correct phrasal verb form.',
+        items: [
+          {
+            id: 'pv1',
+            sentence: 'If I hadn\'t ___ the opportunity, I wouldn\'t be successful now.',
+            phrasalVerb: 'take up',
+            meaning: 'to accept or begin something',
+            correctAnswer: 'taken up',
+            options: ['taken up', 'took up', 'taking up', 'takes up'],
+            explanation: 'Past Perfect in mixed conditional: "hadn\'t taken up".',
+            points: 2
+          },
+          {
+            id: 'pv2',
+            sentence: 'If she ___ with her studies, she would have graduated by now.',
+            phrasalVerb: 'keep up',
+            meaning: 'to continue at the same level',
+            correctAnswer: 'had kept up',
+            options: ['had kept up', 'kept up', 'has kept up', 'keeps up'],
+            explanation: 'Past Perfect for the condition.',
+            points: 2
+          },
+          {
+            id: 'pv3',
+            sentence: 'Had they not ___ on him, he would be in prison now.',
+            phrasalVerb: 'go easy',
+            meaning: 'to be lenient with someone',
+            correctAnswer: 'gone easy',
+            explanation: 'Inverted conditional with Past Perfect.',
+            points: 2
+          },
+          {
+            id: 'pv4',
+            sentence: 'If you ___ your old friends, you would have more support now.',
+            phrasalVerb: 'stick by',
+            meaning: 'to remain loyal to',
+            correctAnswer: 'had stuck by',
+            explanation: 'Past action affecting present situation.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l2-idioms-1',
+        type: 'idioms-expressions',
+        title: 'Idioms with Conditionals',
+        instructions: 'Complete the sentences with the appropriate idiom.',
+        items: [
+          {
+            id: 'i1',
+            context: 'If I had known what was coming, I would have...',
+            idiom: 'thought twice',
+            meaning: 'to carefully consider before doing something',
+            correctUsage: 'If I had known what was coming, I would have thought twice about accepting the job.',
+            options: ['thought twice', 'second guessed', 'double checked', 'reconsidered it'],
+            explanation: '"Think twice" means to carefully reconsider a decision.',
+            points: 2
+          },
+          {
+            id: 'i2',
+            context: 'Never in a million years...',
+            idiom: 'did I expect',
+            meaning: 'absolutely never',
+            correctUsage: 'Never in a million years did I expect to win the lottery.',
+            explanation: 'Emphatic expression meaning something is extremely unlikely.',
+            points: 2
+          },
+          {
+            id: 'i3',
+            context: 'If I were in your shoes, I would...',
+            idiom: 'play it safe',
+            meaning: 'to avoid taking risks',
+            correctUsage: 'If I were in your shoes, I would play it safe and not invest all my money.',
+            options: ['play it safe', 'take chances', 'risk everything', 'go all in'],
+            explanation: '"Play it safe" means to avoid risky decisions.',
+            points: 2
+          },
+          {
+            id: 'i4',
+            context: 'Had I known it would cause so much trouble, I would have...',
+            idiom: 'left well alone',
+            meaning: 'to not interfere with something',
+            correctUsage: 'Had I known it would cause trouble, I would have left well alone.',
+            explanation: '"Leave well alone" means to not get involved or interfere.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l2-gapfill-1',
+        type: 'gap-fill-text',
+        title: 'Mixed Conditionals in Context',
+        instructions: 'Complete the text with the correct form of the verbs in brackets.',
+        text: `If Sarah {{1}} (study) engineering instead of art, her life {{2}} (be) completely different now. She often wonders what {{3}} (happen) if she {{4}} (make) that choice. Her parents wanted her to be an engineer, and if she {{5}} (listen) to them, she {{6}} (have) a stable job by now. However, she doesn't regret her decision. Never {{7}} (she/feel) more fulfilled than she does in her current career as an artist. If she {{8}} (be) an engineer now, she {{9}} (miss) all the creative opportunities she's had. Only by following her passion {{10}} (she/discover) her true calling.`,
+        gaps: [
+          {
+            id: 'g1',
+            gapNumber: 1,
+            correctAnswer: 'had studied',
+            explanation: 'Past Perfect for unreal past condition.',
+            points: 1
+          },
+          {
+            id: 'g2',
+            gapNumber: 2,
+            correctAnswer: 'would be',
+            explanation: 'Present result in mixed conditional.',
+            points: 1
+          },
+          {
+            id: 'g3',
+            gapNumber: 3,
+            correctAnswer: 'would have happened',
+            explanation: 'Past result speculation.',
+            points: 1
+          },
+          {
+            id: 'g4',
+            gapNumber: 4,
+            correctAnswer: 'had made',
+            explanation: 'Past Perfect in conditional clause.',
+            points: 1
+          },
+          {
+            id: 'g5',
+            gapNumber: 5,
+            correctAnswer: 'had listened',
+            explanation: 'Past unreal condition.',
+            points: 1
+          },
+          {
+            id: 'g6',
+            gapNumber: 6,
+            correctAnswer: 'would have',
+            explanation: 'Present result: "would have a stable job".',
+            points: 1
+          },
+          {
+            id: 'g7',
+            gapNumber: 7,
+            correctAnswer: 'has she felt',
+            explanation: 'Inversion after "Never": has she felt.',
+            points: 1
+          },
+          {
+            id: 'g8',
+            gapNumber: 8,
+            correctAnswer: 'were',
+            explanation: 'Present unreal condition uses "were".',
+            points: 1
+          },
+          {
+            id: 'g9',
+            gapNumber: 9,
+            correctAnswer: 'would have missed',
+            acceptableAlternatives: ['would miss'],
+            explanation: 'Past result of present condition.',
+            points: 1
+          },
+          {
+            id: 'g10',
+            gapNumber: 10,
+            correctAnswer: 'did she discover',
+            explanation: 'Inversion after "Only by": did she discover.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l2-reorder-1',
+        type: 'sentence-reordering',
+        title: 'Reorder Conditional Sentences',
+        instructions: 'Put the sentence parts in the correct order to form proper conditional sentences.',
+        items: [
+          {
+            id: 'r1',
+            shuffledSentences: [
+              'I would be living in New York now',
+              'if',
+              'I had accepted',
+              'the job offer'
+            ],
+            correctOrder: [1, 3, 2, 0],
+            context: 'Create a mixed conditional sentence.',
+            explanation: 'If I had accepted the job offer, I would be living in New York now.',
+            points: 2
+          },
+          {
+            id: 'r2',
+            shuffledSentences: [
+              'have I seen',
+              'such a spectacular view',
+              'Never',
+              'in my life'
+            ],
+            correctOrder: [2, 3, 0, 1],
+            explanation: 'Never in my life have I seen such a spectacular view.',
+            points: 2
+          },
+          {
+            id: 'r3',
+            shuffledSentences: [
+              'would she have got',
+              'the promotion',
+              'If she weren\'t so talented',
+              'she'
+            ],
+            correctOrder: [2, 3, 0, 1],
+            explanation: 'If she weren\'t so talented, she would have got the promotion (implies she is talented and did get it).',
+            points: 2
+          },
+          {
+            id: 'r4',
+            shuffledSentences: [
+              'did we realize',
+              'the extent of the damage',
+              'Only after the inspection'
+            ],
+            correctOrder: [2, 0, 1],
+            explanation: 'Only after the inspection did we realize the extent of the damage.',
+            points: 2
+          }
+        ]
       }
     ]
   },
