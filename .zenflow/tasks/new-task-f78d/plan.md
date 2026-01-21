@@ -18,7 +18,7 @@ Do not make assumptions on important decisions — get clarification first.
 
 ## Workflow Steps
 
-### [ ] Step: Technical Specification
+### [x] Step: Technical Specification
 <!-- chat-id: 4db2ad27-2485-4090-b0e0-758aa3b3a79f -->
 
 Assess the task's difficulty, as underestimating it leads to poor outcomes.
