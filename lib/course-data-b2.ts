@@ -4502,6 +4502,583 @@ Critics might {{6}} that watching films or series could provide similar benefits
           { id: 'q8', gapNumber: 8, baseWord: 'SIMPLE', correctAnswer: 'simplistic', acceptableAnswers: ['simplistic'], explanation: '"Resist simplistic explanations" - overly simple, treating complex things as simple.', wordType: 'adjective', transformation: 'adjective → negative adjective (-istic)', points: 1 }
         ],
         focusAreas: ['Gerunds', 'Art vocabulary', '-ity/-ance suffixes']
+      },
+      {
+        id: 'b2-m1-l5-sentence-completion',
+        type: 'sentence-completion',
+        title: 'Sentence Completion: Literary Discussion',
+        instructions: 'Complete each sentence using appropriate literary or critical vocabulary. Your completion should be grammatically correct and contextually appropriate.',
+        sentences: [
+          {
+            id: 'sc1',
+            incompleteSentence: 'The novel\'s protagonist undergoes a significant transformation, evolving from',
+            sampleCompletions: [
+              'a naive young woman into a confident leader',
+              'an innocent child into a cynical adult',
+              'a selfish individual into someone who cares deeply about others'
+            ],
+            評valuationCriteria: 'Should show character development arc with contrasting states',
+            points: 3
+          },
+          {
+            id: 'sc2',
+            incompleteSentence: 'What makes this poem particularly powerful is',
+            sampleCompletions: [
+              'its use of vivid imagery to convey deep emotion',
+              'the way it captures universal human experiences',
+              'the contrast between its simple language and profound meaning'
+            ],
+            評valuationCriteria: 'Should identify specific literary quality or technique',
+            points: 3
+          },
+          {
+            id: 'sc3',
+            incompleteSentence: 'The author employs metaphor throughout the text to',
+            sampleCompletions: [
+              'represent the character\'s internal struggle',
+              'symbolize the passage of time and change',
+              'illustrate the contrast between appearance and reality'
+            ],
+            評valuationCriteria: 'Should explain purpose/effect of literary device',
+            points: 3
+          },
+          {
+            id: 'sc4',
+            incompleteSentence: 'Despite its flaws, the work remains compelling because',
+            sampleCompletions: [
+              'it addresses timeless themes that resonate with modern readers',
+              'the characters are so vividly drawn and relatable',
+              'it offers unique insights into human nature'
+            ],
+            評valuationCriteria: 'Should provide critical evaluation balancing weakness with strength',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l5-error-identification',
+        type: 'error-identification',
+        title: 'Error Identification: Literary Reviews',
+        instructions: 'Each sentence contains ONE grammatical or usage error common in literary criticism. Identify and correct it.',
+        sentences: [
+          {
+            id: 'ei1',
+            sentence: 'The novel explores themes such as identity, belonging, and what does it mean to be human.',
+            error: 'what does it mean',
+            correction: 'what it means',
+            explanation: 'In a list of noun phrases, use "what it means" (noun clause), not question form.',
+            category: 'Noun clauses in lists',
+            points: 2
+          },
+          {
+            id: 'ei2',
+            sentence: 'The character\'s motivations are so complex that is difficult to understand them fully.',
+            error: 'that is difficult',
+            correction: 'that it is difficult',
+            explanation: 'Need subject "it" before "is" in result clauses with "so...that".',
+            category: 'Result clauses',
+            points: 2
+          },
+          {
+            id: 'ei3',
+            sentence: 'What makes the story unique is the way how the author blends reality with fantasy.',
+            error: 'the way how',
+            correction: 'the way (that) / how',
+            explanation: 'Use either "the way (that)" or "how", never both together.',
+            category: 'Relative clauses',
+            points: 2
+          },
+          {
+            id: 'ei4',
+            sentence: 'The film adaptation fails capturing the nuanced emotions of the original novel.',
+            error: 'fails capturing',
+            correction: 'fails to capture',
+            explanation: '"Fail" is followed by infinitive with "to", not gerund.',
+            category: 'Verb patterns',
+            points: 2
+          },
+          {
+            id: 'ei5',
+            sentence: 'Had I known how disturbing the ending was, I wouldn\'t read it before bed.',
+            error: 'wouldn\'t read',
+            correction: 'wouldn\'t have read',
+            explanation: 'Third conditional requires "would have + past participle" in main clause.',
+            category: 'Conditionals',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l5-paraphrasing',
+        type: 'paraphrasing',
+        title: 'Paraphrasing: Critical Analysis',
+        instructions: 'Rewrite each sentence using different vocabulary and structures while maintaining the same meaning.',
+        sentences: [
+          {
+            id: 'p1',
+            original: 'The novel\'s complex narrative structure makes it challenging for casual readers.',
+            sampleParaphrases: [
+              'Casual readers may find the novel difficult due to its intricate way of telling the story.',
+              'The intricate way the story is told presents a challenge to readers seeking light entertainment.',
+              'Because of its complicated narrative approach, the book is not easily accessible to all readers.'
+            ],
+            keyVocabulary: ['complex → intricate/complicated', 'narrative structure → way of telling the story', 'challenging → difficult/not easily accessible'],
+            points: 3
+          },
+          {
+            id: 'p2',
+            original: 'The author\'s vivid descriptions bring the historical setting to life.',
+            sampleParaphrases: [
+              'Through detailed imagery, the writer makes the historical period feel real and immediate.',
+              'The historical context becomes vividly real thanks to the author\'s descriptive skill.',
+              'Readers can almost experience the historical era due to the writer\'s rich portrayals.'
+            ],
+            keyVocabulary: ['vivid descriptions → detailed imagery/rich portrayals', 'bring to life → make feel real/become vividly real'],
+            points: 3
+          },
+          {
+            id: 'p3',
+            original: 'What distinguishes this work from others in the genre is its psychological depth.',
+            sampleParaphrases: [
+              'This work stands out within its genre because of its profound exploration of psychology.',
+              'The profound psychological insight sets this piece apart from similar works.',
+              'Unlike other works in the same category, this one offers exceptional psychological complexity.'
+            ],
+            keyVocabulary: ['distinguishes → stands out/sets apart', 'psychological depth → profound exploration of psychology/psychological complexity'],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l5-collocation-matching',
+        type: 'collocation-matching',
+        title: 'Collocation Matching: Literary & Critical Language',
+        instructions: 'Match the verbs with the appropriate nouns to form common collocations used in literary analysis.',
+        pairs: [
+          { left: 'develop', right: 'a theme', distractor: false },
+          { left: 'convey', right: 'meaning', distractor: false },
+          { left: 'evoke', right: 'emotions', distractor: false },
+          { left: 'explore', right: 'issues', distractor: false },
+          { left: 'challenge', right: 'assumptions', distractor: false },
+          { left: 'construct', right: 'an argument', distractor: false },
+          { left: 'sustain', right: 'interest', distractor: false },
+          { left: 'provoke', right: 'thought', distractor: false }
+        ],
+        distractors: [
+          { left: 'do', right: 'a theme' },
+          { left: 'give', right: 'emotions' },
+          { left: 'make', right: 'assumptions' }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m1-l5-phrasal-verbs',
+        type: 'phrasal-verbs',
+        title: 'Phrasal Verbs: Literary Discussion',
+        instructions: 'Learn and practice these phrasal verbs commonly used when discussing literature and art.',
+        verbs: [
+          {
+            verb: 'come across',
+            meaning: 'to find or encounter by chance; to appear or seem',
+            examples: [
+              'I came across this fascinating poem in an old anthology.',
+              'The character comes across as arrogant at first, but later we see his vulnerability.'
+            ],
+            usage: 'separable/inseparable depending on meaning',
+            synonyms: ['encounter', 'find', 'seem']
+          },
+          {
+            verb: 'delve into',
+            meaning: 'to examine or explore something deeply',
+            examples: [
+              'The novel delves into complex psychological territory.',
+              'Critics have delved into the symbolism for decades.'
+            ],
+            usage: 'inseparable',
+            synonyms: ['explore deeply', 'investigate thoroughly']
+          },
+          {
+            verb: 'draw on',
+            meaning: 'to use something as a source or resource',
+            examples: [
+              'The author draws on her own experiences growing up in rural Ireland.',
+              'The film draws on classical mythology for its narrative structure.'
+            ],
+            usage: 'inseparable',
+            synonyms: ['use', 'utilize', 'make use of']
+          },
+          {
+            verb: 'take in',
+            meaning: 'to absorb or understand (information, art, atmosphere)',
+            examples: [
+              'There\'s so much detail in this painting—it takes time to take it all in.',
+              'The audience sat in silence, taking in the powerful performance.'
+            ],
+            usage: 'separable',
+            synonyms: ['absorb', 'comprehend', 'appreciate']
+          },
+          {
+            verb: 'spell out',
+            meaning: 'to explain something clearly and in detail',
+            examples: [
+              'The author never spells out the moral—readers must interpret it themselves.',
+              'Unlike some writers, she doesn\'t spell everything out for the reader.'
+            ],
+            usage: 'separable',
+            synonyms: ['explain explicitly', 'state clearly']
+          }
+        ],
+        exercises: [
+          {
+            id: 'pv1',
+            type: 'fill-blank',
+            sentence: 'The critic _____ the historical context to support her interpretation.',
+            correctAnswer: 'drew on',
+            points: 2
+          },
+          {
+            id: 'pv2',
+            type: 'multiple-choice',
+            question: 'Choose the correct phrasal verb: The novel _____ themes of loss and redemption.',
+            options: ['delves into', 'takes in', 'spells out', 'comes across'],
+            correctAnswer: 'delves into',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l5-idioms',
+        type: 'idioms-expressions',
+        title: 'Idioms & Expressions: Art & Literature',
+        instructions: 'Learn these idioms and expressions commonly used in discussing creative works.',
+        idioms: [
+          {
+            idiom: 'a page-turner',
+            meaning: 'a book that is so exciting you want to keep reading',
+            example: 'Despite its literary merit, the novel is also a real page-turner—I couldn\'t put it down.',
+            context: 'informal, positive',
+            culturalNote: 'Often used in book reviews to indicate readability'
+          },
+          {
+            idiom: 'read between the lines',
+            meaning: 'to understand the hidden or implied meaning',
+            example: 'If you read between the lines, you\'ll see the author is actually criticizing modern society.',
+            context: 'common in literary analysis',
+            culturalNote: 'Suggests deeper interpretation is needed'
+          },
+          {
+            idiom: 'strike a chord (with someone)',
+            meaning: 'to cause someone to feel sympathy or enthusiasm',
+            example: 'The play\'s themes of isolation really struck a chord with audiences during the pandemic.',
+            context: 'formal and informal',
+            culturalNote: 'Musical metaphor for emotional resonance'
+          },
+          {
+            idiom: 'food for thought',
+            meaning: 'something that makes you think seriously',
+            example: 'The documentary doesn\'t provide answers, but it certainly gives you food for thought.',
+            context: 'common in reviews and discussions',
+            culturalNote: 'Suggests intellectual nourishment'
+          },
+          {
+            idiom: 'ahead of its/his/her time',
+            meaning: 'having ideas too advanced or modern for the period',
+            example: 'The novel was poorly received when published but is now recognized as ahead of its time.',
+            context: 'historical/critical analysis',
+            culturalNote: 'Usually positive, suggesting visionary quality'
+          },
+          {
+            idiom: 'art for art\'s sake',
+            meaning: 'the belief that art should be valued for its own beauty, not for social or moral purposes',
+            example: 'The director clearly believes in art for art\'s sake rather than commercial appeal.',
+            context: 'aesthetic philosophy',
+            culturalNote: 'From French "l\'art pour l\'art"'
+          }
+        ],
+        exercises: [
+          {
+            id: 'id1',
+            type: 'matching',
+            instruction: 'Match each idiom to its meaning',
+            pairs: [
+              { idiom: 'page-turner', meaning: 'very exciting book' },
+              { idiom: 'read between the lines', meaning: 'find hidden meaning' },
+              { idiom: 'strike a chord', meaning: 'resonate emotionally' }
+            ],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l5-summary-writing',
+        type: 'summary-writing',
+        title: 'Summary Writing: Book Review',
+        originalText: `"The Midnight Library" by Matt Haig is a thought-provoking exploration of regret, choice, and the paths not taken in life. The novel follows Nora Seed, a woman in her thirties who finds herself at a crossroads, overwhelmed by disappointment and the feeling that her life has gone wrong in every possible way.
+
+When Nora attempts to end her life, she finds herself in the Midnight Library—a place between life and death where she can explore all the different lives she might have lived had she made different choices. Each book in the library represents an alternate reality: the life she would have had if she'd become an Olympic swimmer, if she'd married her ex-fiancé, if she'd pursued her band career, or if she'd accepted a job in Australia.
+
+What makes the novel particularly compelling is how it handles the universal human tendency to wonder "what if?" As Nora explores these alternate lives, she discovers that the grass isn't always greener on the other side. The perfect life she imagined often comes with unexpected drawbacks and complications. Through this journey, she begins to appreciate aspects of her "root life"—her original existence—that she had previously dismissed or undervalued.
+
+Haig's writing is accessible yet profound, dealing with heavy themes of depression and existential crisis while maintaining a sense of hope and possibility. The metaphor of the library is beautifully realized, and the philosophical questions the book raises about choice, regret, and the nature of happiness will stay with readers long after they finish.
+
+However, the novel does have some weaknesses. The resolution feels somewhat rushed, and some of the alternate lives Nora explores are more fully developed than others. Additionally, readers looking for a plot-driven narrative might find the repetitive structure—entering and exiting different realities—somewhat monotonous.
+
+Despite these minor flaws, "The Midnight Library" is a moving meditation on what it means to live a good life. It reminds us that our choices matter while also suggesting that there may be no single "right" path. For anyone who has ever felt stuck or wondered about roads not taken, this novel offers both comfort and food for thought.`,
+        wordCount: 350,
+        summaryTargetWords: 90,
+        summaryTargetRange: { min: 80, max: 100 },
+        keyPoints: [
+          'Protagonist Nora Seed explores alternate lives in the Midnight Library',
+          'The novel examines themes of regret, choice, and finding meaning',
+          'Nora learns that alternative lives aren\'t necessarily better',
+          'Accessible writing tackles serious themes with hope',
+          'Some structural weaknesses but overall a moving meditation on life'
+        ],
+        evaluationCriteria: {
+          contentAccuracy: 'Includes main plot and themes',
+          conciseness: 'Within 80-100 words',
+          paraphrasing: 'Uses own words, not copying phrases',
+          coherence: 'Flows logically and smoothly',
+          criticalElements: 'Mentions both strengths and weaknesses'
+        },
+        points: 10
+      },
+      {
+        id: 'b2-m1-l5-gap-fill',
+        type: 'gap-fill-text',
+        title: 'Gap-Fill: The Evolution of the Novel',
+        instructions: 'Complete the text about literary history using appropriate words. Each gap requires ONE word.',
+        text: `The novel as we know it today (1)___ through centuries of evolution. What distinguishes the novel from earlier narrative forms (2)___ its length, complexity, and focus on individual character development. It (3)___ in the 18th century that the novel began to emerge as a dominant literary form.
+
+Early novels were often written in the form of letters, (4)___ as "epistolary novels." Works like Samuel Richardson's "Pamela" demonstrated that prose fiction could explore psychological depth and moral questions. What (5)___ these early novels revolutionary was their focus on ordinary people rather than mythological heroes.
+
+The 19th century saw the novel reach new heights. Authors (6)___ as Charles Dickens and George Eliot created vast social panoramas, (7)___ entire communities and their interconnections. It was during this period (8)___ the novel became the primary vehicle for social commentary.
+
+The 20th century brought experimentation. Writers (9)___ been challenging traditional narrative structures, playing with time, perspective, and language itself. What modernist authors like Virginia Woolf and James Joyce (10)___ was transform the novel into a medium for exploring consciousness itself.
+
+Today, the novel continues to evolve, (11)___ on new technologies and global perspectives while maintaining its essential power to illuminate human experience. What remains constant is (12)___ capacity to help us understand ourselves and others more deeply.`,
+        gaps: 12,
+        answers: [
+          { gapNumber: 1, correctAnswer: 'evolved', acceptableAnswers: ['developed', 'emerged', 'evolved'], explanation: 'Past simple showing historical development' },
+          { gapNumber: 2, correctAnswer: 'is', acceptableAnswers: ['is'], explanation: 'Present simple for general truth' },
+          { gapNumber: 3, correctAnswer: 'was', acceptableAnswers: ['was'], explanation: 'It was...that cleft sentence for emphasis' },
+          { gapNumber: 4, correctAnswer: 'known', acceptableAnswers: ['known'], explanation: 'Past participle in passive "known as"' },
+          { gapNumber: 5, correctAnswer: 'made', acceptableAnswers: ['made'], explanation: 'Past simple: "made them revolutionary"' },
+          { gapNumber: 6, correctAnswer: 'such', acceptableAnswers: ['such'], explanation: '"such as" for giving examples' },
+          { gapNumber: 7, correctAnswer: 'depicting', acceptableAnswers: ['depicting', 'showing', 'portraying'], explanation: 'Present participle showing simultaneous action' },
+          { gapNumber: 8, correctAnswer: 'that', acceptableAnswers: ['that'], explanation: 'It was...that cleft sentence' },
+          { gapNumber: 9, correctAnswer: 'have', acceptableAnswers: ['have'], explanation: 'Present perfect continuous: have been challenging' },
+          { gapNumber: 10, correctAnswer: 'did', acceptableAnswers: ['did'], explanation: 'Auxiliary for emphasis: "what they did was transform"' },
+          { gapNumber: 11, correctAnswer: 'drawing', acceptableAnswers: ['drawing'], explanation: 'Present participle: drawing on' },
+          { gapNumber: 12, correctAnswer: 'its', acceptableAnswers: ['its', 'the'], explanation: 'Possessive referring to the novel\'s capacity' }
+        ],
+        points: 12
+      },
+      {
+        id: 'b2-m1-l5-sentence-reordering',
+        type: 'sentence-reordering',
+        title: 'Sentence Reordering: Film Review Structure',
+        instructions: 'Arrange these sentences to create a well-structured film review.',
+        sentences: [
+          { id: 's1', text: 'Despite some pacing issues in the middle act, the film ultimately delivers a powerful message about human resilience.', position: 7 },
+          { id: 's2', text: 'The cinematography deserves special mention, with each frame composed like a painting.', position: 5 },
+          { id: 's3', text: '"The Last Garden" is a visually stunning meditation on loss and memory that premiered at Cannes this year.', position: 1 },
+          { id: 's4', text: 'What makes the film truly remarkable, however, is the lead performance by newcomer Sofia Martinez.', position: 4 },
+          { id: 's5', text: 'The story follows an elderly woman returning to her childhood home after decades abroad.', position: 2 },
+          { id: 's6', text: 'Through a series of flashbacks, we witness the traumatic events that forced her family to flee.', position: 3 },
+          { id: 's7', text: 'For anyone interested in thoughtful, character-driven cinema, this is essential viewing.', position: 8 },
+          { id: 's8', text: 'Director Chen Li masterfully blends past and present, creating a dreamlike quality that mirrors the protagonist\'s fragmented memories.', position: 6 }
+        ],
+        correctOrder: ['s3', 's5', 's6', 's4', 's2', 's8', 's1', 's7'],
+        explanation: 'Standard review structure: Introduction with film title → Plot summary → Standout performance → Technical merits → Director\'s achievement → Balanced critique → Recommendation',
+        points: 8
+      },
+      {
+        id: 'b2-m1-l5-reading-2',
+        type: 'reading',
+        title: 'Reading: The Power of Metaphor in Poetry',
+        text: `Poetry's ability to compress profound meaning into few words relies heavily on figurative language, particularly metaphor. Unlike similes, which explicitly compare two things using "like" or "as," metaphors assert that one thing is another, creating a more immediate and powerful connection.
+
+Consider Emily Dickinson's famous line: "Hope is the thing with feathers." By identifying hope with a bird, Dickinson doesn't just compare the two—she transforms our understanding of hope itself. What makes this metaphor so effective is how it activates multiple associations simultaneously: birds are fragile yet persistent, they sing even in difficult conditions, and they can soar above earthly troubles.
+
+The best metaphors work on multiple levels. When Shakespeare writes that "all the world's a stage," he's not simply making an observation about life being theatrical. The metaphor extends through the entire passage, with people as "players" who have their "exits and entrances," and life stages as "acts." This sustained metaphor, or conceit, allows Shakespeare to explore the idea comprehensively.
+
+Modern poets continue to find fresh metaphors that make us see familiar things in new ways. Ocean Vuong writes of his mother's hands as "two tarnished knives," immediately conveying both her hardness (sharpened by difficult labor) and her value (silver, even if worn). What distinguishes powerful metaphors from clichéd ones is precisely this freshness—the unexpected connection that illuminates rather than obscures.
+
+However, metaphors can be overused or mixed confusingly. A "sea of troubles" makes sense, but if we then try to "take arms" against it or "build bridges" over it, the metaphor breaks down. Good writers know when to sustain a metaphor and when to let it go.
+
+For readers, developing the ability to recognize and interpret metaphors enriches the reading experience immeasurably. It was the critic I.A. Richards who pointed out that metaphor isn't merely decorative but is fundamental to how we think and understand abstract concepts. Love, time, ideas, emotions—we can hardly discuss these things without metaphor.`,
+        wordCount: 340,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, what is the main difference between similes and metaphors?',
+            options: [
+              'Metaphors are more decorative',
+              'Metaphors assert identity rather than comparison',
+              'Similes are more powerful',
+              'Similes are used in poetry, metaphors in prose'
+            ],
+            correctAnswer: 'Metaphors assert identity rather than comparison',
+            explanation: 'El texto dice: "metaphors assert that one thing is another" unlike similes which compare.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Why is Dickinson\'s "Hope is the thing with feathers" considered effective?',
+            correctAnswer: 'It activates multiple associations simultaneously / creates multiple meanings at once',
+            explanation: 'El texto explica que activa múltiples asociaciones: fragilidad, persistencia, canto, elevación.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What term does the text use for an extended, sustained metaphor?',
+            options: ['Simile', 'Conceit', 'Symbol', 'Personification'],
+            correctAnswer: 'Conceit',
+            explanation: 'El texto menciona "sustained metaphor, or conceit" al hablar del ejemplo de Shakespeare.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'true-false',
+            question: 'True or False: The text suggests mixing different metaphors is an effective technique.',
+            correctAnswer: 'False',
+            explanation: 'El texto advierte que mezclar metáforas confusamente hace que "the metaphor breaks down".',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'According to I.A. Richards, what role does metaphor play in human thought?',
+            correctAnswer: 'It is fundamental to how we think and understand abstract concepts',
+            explanation: 'Richards señaló que la metáfora "is fundamental to how we think and understand abstract concepts".',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'short-answer',
+            question: 'Give ONE example of a metaphor from the text and explain what two things are being compared.',
+            correctAnswer: 'Hope is the thing with feathers (hope = bird) / All the world\'s a stage (life = theater) / Mother\'s hands as two tarnished knives (hands = knives)',
+            explanation: 'El texto proporciona varios ejemplos de metáforas con explicaciones claras.',
+            points: 3
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'figurative language', definition: 'language that uses figures of speech like metaphor and simile' },
+          { word: 'assert', definition: 'to state something confidently and forcefully' },
+          { word: 'conceit', definition: 'an extended metaphor with complex logic' },
+          { word: 'tarnished', definition: 'dulled or damaged, especially metal that has lost its shine' },
+          { word: 'clichéd', definition: 'overused and consequently lacking in freshness or originality' },
+          { word: 'immeasurably', definition: 'to a great extent; in a way that cannot be measured' }
+        ]
+      },
+      {
+        id: 'b2-m1-l5-writing-2',
+        type: 'writing',
+        prompt: 'Write a short review (180-200 words) of a book, film, TV series, or play you\'ve experienced recently. Include: 1) Brief summary without spoilers, 2) What you found most compelling, 3) Any weaknesses, 4) Your recommendation. Use at least TWO cleft sentences for emphasis.',
+        writingType: 'review',
+        minWords: 180,
+        maxWords: 200,
+        timeLimit: 30,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Start with the title, creator/author, and genre',
+          'Use critical vocabulary: compelling, nuanced, portrayal, theme',
+          'Balance positive and negative points',
+          'Include cleft sentences: "What makes it special is..." or "It was...that impressed me"',
+          'End with clear recommendation for target audience'
+        ]
+      },
+      {
+        id: 'b2-m1-l5-pronunciation',
+        type: 'pronunciation',
+        title: 'Pronunciation: Academic & Critical Vocabulary',
+        instructions: 'Practice pronouncing these words commonly used in literary and artistic discussion. Pay attention to word stress.',
+        words: [
+          {
+            word: 'protagonist',
+            phonetic: '/prəˈtæɡ.ə.nɪst/',
+            audioUrl: '/audio/protagonist.mp3',
+            stressPattern: 'second syllable: pro-TA-go-nist',
+            commonErrors: 'Don\'t stress first syllable',
+            example: 'The protagonist faces many challenges.'
+          },
+          {
+            word: 'metaphor',
+            phonetic: '/ˈmet.ə.fɔːr/',
+            audioUrl: '/audio/metaphor.mp3',
+            stressPattern: 'first syllable: ME-ta-phor',
+            commonErrors: 'Don\'t say "meta-PHOR"',
+            example: 'This is a powerful metaphor for change.'
+          },
+          {
+            word: 'contemporary',
+            phonetic: '/kənˈtem.pər.ər.i/',
+            audioUrl: '/audio/contemporary.mp3',
+            stressPattern: 'second syllable: con-TEM-po-ra-ry',
+            commonErrors: 'Don\'t stress first syllable',
+            example: 'She writes contemporary fiction.'
+          },
+          {
+            word: 'analysis',
+            phonetic: '/əˈnæl.ə.sɪs/',
+            audioUrl: '/audio/analysis.mp3',
+            stressPattern: 'second syllable: a-NA-ly-sis',
+            commonErrors: 'Plural is analyses /əˈnæl.ə.siːz/',
+            example: 'This analysis is very thorough.'
+          },
+          {
+            word: 'aesthetic',
+            phonetic: '/esˈθet.ɪk/',
+            audioUrl: '/audio/aesthetic.mp3',
+            stressPattern: 'second syllable: aes-THE-tic',
+            commonErrors: 'Can also be /iːsˈθet.ɪk/ in US English',
+            example: 'The film has great aesthetic value.'
+          },
+          {
+            word: 'nuanced',
+            phonetic: '/ˈnjuː.ɑːnst/',
+            audioUrl: '/audio/nuanced.mp3',
+            stressPattern: 'first syllable: NU-anced',
+            commonErrors: 'Remember to pronounce the final -d',
+            example: 'Her performance was subtle and nuanced.'
+          },
+          {
+            word: 'compelling',
+            phonetic: '/kəmˈpel.ɪŋ/',
+            audioUrl: '/audio/compelling.mp3',
+            stressPattern: 'second syllable: com-PEL-ling',
+            commonErrors: 'Double L sound',
+            example: 'The story is absolutely compelling.'
+          }
+        ],
+        exercises: [
+          {
+            id: 'pr1',
+            type: 'stress-identification',
+            question: 'Which syllable is stressed in "protagonist"?',
+            options: ['1st', '2nd', '3rd', '4th'],
+            correctAnswer: '2nd',
+            points: 1
+          },
+          {
+            id: 'pr2',
+            type: 'minimal-pairs',
+            pairs: [
+              { word1: 'analysis', word2: 'analyses', difference: 'Singular vs plural pronunciation' }
+            ],
+            points: 2
+          }
+        ]
       }
     ]
   },
@@ -4724,6 +5301,568 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
           { id: 'q8', gapNumber: 8, baseWord: 'PROFICIENT', correctAnswer: 'proficiency', acceptableAnswers: ['proficiency'], explanation: '"Language proficiency" - skill and competence in using a language.', wordType: 'noun', transformation: 'adjective → noun (-ency)', points: 1 }
         ],
         focusAreas: ['Review vocabulary', 'Prefix multi-', 'Summary of transformations']
+      },
+      {
+        id: 'b2-m1-l6-cloze-exam',
+        type: 'multiple-choice-cloze',
+        title: 'Mock Exam: Multiple Choice Cloze',
+        instructions: 'Read the text below and decide which answer (A, B, C or D) best fits each gap. This is Part 1 of the Use of English exam.',
+        text: `The Art of Storytelling
+
+Throughout human history, storytelling has played a {{1}} role in preserving culture and transmitting knowledge. What {{2}} storytelling apart from other forms of communication is its unique ability to {{3}} complex ideas in memorable narratives. Long before writing was invented, people had {{4}} telling stories to explain natural phenomena, teach moral lessons, and strengthen social bonds.
+
+Modern neuroscience has {{5}} that our brains are essentially wired for stories. When we listen to a compelling narrative, multiple areas of the brain {{6}} simultaneously—not just the language processing centers, but also the regions associated with sensory experience and emotion. It {{7}} this multi-sensory engagement that makes stories so powerful and memorable.
+
+In today's digital age, the fundamental importance of storytelling {{8}} unchanged. What has changed is simply the medium through which stories are told.`,
+        questions: [
+          { id: 'q1', gapNumber: 1, options: ['crucial', 'critical', 'vital', 'essential'], correctAnswer: 'crucial', explanation: 'All options mean "very important" but "crucial" is the most common collocation with "role".', points: 1 },
+          { id: 'q2', gapNumber: 2, options: ['sets', 'puts', 'makes', 'keeps'], correctAnswer: 'sets', explanation: '"Sets apart" is the correct phrasal verb meaning "distinguishes from others".', points: 1 },
+          { id: 'q3', gapNumber: 3, options: ['pack', 'wrap', 'package', 'bundle'], correctAnswer: 'package', explanation: '"Package ideas" means to present them in an accessible form.', points: 1 },
+          { id: 'q4', gapNumber: 4, options: ['been', 'had', 'made', 'done'], correctAnswer: 'been', explanation: 'Past perfect continuous requires "had been + -ing" for duration before a past point.', points: 1 },
+          { id: 'q5', gapNumber: 5, options: ['shown', 'displayed', 'presented', 'revealed'], correctAnswer: 'revealed', explanation: '"Has revealed that" is the natural collocation for new scientific findings.', points: 1 },
+          { id: 'q6', gapNumber: 6, options: ['activate', 'motivate', 'stimulate', 'operate'], correctAnswer: 'activate', explanation: 'Brain regions "activate" (become active) when processing information.', points: 1 },
+          { id: 'q7', gapNumber: 7, options: ['was', 'is', 'has', 'does'], correctAnswer: 'is', explanation: 'It-cleft structure in present: "It is...that" for emphasis.', points: 1 },
+          { id: 'q8', gapNumber: 8, options: ['remains', 'stays', 'continues', 'keeps'], correctAnswer: 'remains', explanation: '"Remains unchanged" is the standard collocation for something staying the same.', points: 1 }
+        ]
+      },
+      {
+        id: 'b2-m1-l6-reading-comprehension',
+        type: 'reading',
+        title: 'Mock Exam: Extended Reading Comprehension',
+        text: `The Psychology of Habit Formation
+
+Habits shape our lives far more than we realize. What we think of as conscious decision-making often turns out to be habitual behavior operating on autopilot. Researchers estimate that up to 40% of our daily actions are habits rather than deliberate choices. Understanding how habits form—and how they can be changed—is therefore crucial for anyone seeking to improve their life.
+
+The habit loop, as described by neuroscientist Ann Graybiel, consists of three components: a cue (or trigger), a routine (the behavior itself), and a reward (the benefit you get from the behavior). It was Graybiel's research that revealed how habits become encoded in the basal ganglia, a primitive part of the brain that doesn't distinguish between good and bad habits—it simply automates repeated behaviors to conserve mental energy.
+
+What makes habits so powerful is their ability to operate beneath conscious awareness. When you first learn to drive, for example, every action requires focused attention: checking mirrors, coordinating the pedals, judging distances. The cognitive load is enormous. But after months of practice, these actions become automatic. Your basal ganglia have learned the routine, freeing your conscious mind to think about other things—like having a conversation while driving.
+
+The bad news is that this same mechanism makes breaking bad habits extremely difficult. When you try to quit smoking or stop checking your phone constantly, you're not just fighting willpower—you're fighting deeply ingrained neural pathways that have been strengthened through repetition. Your brain has associated certain cues (stress, boredom) with specific routines (reaching for a cigarette, scrolling through social media) that deliver rewards (relaxation, distraction).
+
+The good news, however, is that you don't need to eliminate the neural pathway. What habit researchers have discovered is that it's far more effective to keep the cue and the reward while changing the routine. If stress triggers your smoking habit, you can substitute a different stress-relief routine—like deep breathing or a brief walk—that provides a similar reward. It's the reward that your brain really wants; the routine is simply the path it has learned to get there.
+
+This insight has profound implications. It suggests that what we need is not superhuman willpower but rather strategic self-awareness. By identifying the cues that trigger our unwanted habits and finding healthier routines that provide similar rewards, we can work with our brain's habit-forming tendencies rather than against them. It was Charles Duhigg, author of "The Power of Habit," who popularized this approach, showing how everyone from individuals to organizations have successfully transformed their habits by understanding and manipulating the habit loop.
+
+Creating new positive habits follows the same principles. The key is to start small and make the new behavior as easy as possible. If you want to exercise regularly, don't commit to an hour at the gym—start with two minutes of stretching. What matters is consistency, not intensity. Once the habit is established, you can gradually increase the duration or difficulty. The crucial thing is to build the neural pathway through repetition until the behavior feels automatic.
+
+Environmental design can also support habit formation. By manipulating cues in your environment, you can make good habits easier and bad habits harder. Want to read more? Place a book on your pillow. Want to eat healthier? Put fruit at eye level in your fridge. These simple changes work because they align with how our brains actually function—responding automatically to environmental triggers.`,
+        wordCount: 568,
+        readingTime: 5,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, approximately what percentage of daily actions are habits?',
+            options: ['20%', '30%', '40%', '50%'],
+            correctAnswer: '40%',
+            explanation: 'El texto dice: "up to 40% of our daily actions are habits".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name the THREE components of the habit loop.',
+            correctAnswer: 'Cue (trigger), routine (behavior), reward',
+            explanation: 'Los tres componentes son: cue/trigger, routine/behavior, reward.',
+            points: 3
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Where in the brain are habits encoded according to Ann Graybiel?',
+            options: ['The prefrontal cortex', 'The basal ganglia', 'The hippocampus', 'The cerebral cortex'],
+            correctAnswer: 'The basal ganglia',
+            explanation: 'El texto menciona: "habits become encoded in the basal ganglia".',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'true-false',
+            question: 'True or False: The basal ganglia can distinguish between good and bad habits.',
+            correctAnswer: 'False',
+            explanation: 'El texto dice que "doesn\'t distinguish between good and bad habits".',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: 'According to researchers, what is the most effective way to break a bad habit?',
+            options: [
+              'Eliminate the cue completely',
+              'Use stronger willpower',
+              'Keep the cue and reward but change the routine',
+              'Remove all rewards'
+            ],
+            correctAnswer: 'Keep the cue and reward but change the routine',
+            explanation: 'El texto explica: "keep the cue and the reward while changing the routine".',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'short-answer',
+            question: 'When trying to establish a new positive habit, should you start with high intensity or consistency? Why?',
+            correctAnswer: 'Consistency (matters more than intensity to build neural pathways through repetition)',
+            explanation: 'El texto dice: "What matters is consistency, not intensity."',
+            points: 3
+          },
+          {
+            id: 'q7',
+            type: 'multiple-choice',
+            question: 'Who is the author of "The Power of Habit" mentioned in the text?',
+            options: ['Ann Graybiel', 'Charles Duhigg', 'The text doesn\'t say', 'Multiple authors'],
+            correctAnswer: 'Charles Duhigg',
+            explanation: 'El texto menciona: "Charles Duhigg, author of \'The Power of Habit\'".',
+            points: 1
+          },
+          {
+            id: 'q8',
+            type: 'short-answer',
+            question: 'Give ONE example from the text of how environmental design can support good habits.',
+            correctAnswer: 'Place a book on your pillow (to read more) / Put fruit at eye level (to eat healthier)',
+            explanation: 'El texto proporciona dos ejemplos concretos de diseño ambiental.',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'autopilot', definition: 'automatic behavior without conscious thought' },
+          { word: 'encoded', definition: 'converted and stored in a particular form (here: in the brain)' },
+          { word: 'basal ganglia', definition: 'a group of brain structures involved in habit formation' },
+          { word: 'cognitive load', definition: 'the amount of mental effort being used' },
+          { word: 'ingrained', definition: 'firmly established and difficult to change' },
+          { word: 'neural pathways', definition: 'connections between neurons in the brain' }
+        ]
+      },
+      {
+        id: 'b2-m1-l6-writing-exam',
+        type: 'writing',
+        prompt: 'MOCK EXAM WRITING TASK\n\nWrite an essay (220-260 words) responding to this statement:\n\n"Social media has had a negative impact on society."\n\nDiscuss both sides of the argument and give your own opinion. Use cleft sentences for emphasis and appropriate linking words to structure your argument.',
+        writingType: 'essay',
+        minWords: 220,
+        maxWords: 260,
+        timeLimit: 40,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Introduction: Paraphrase the question and state both sides exist',
+          'Body 1: Arguments FOR negative impact (e.g., addiction, misinformation, comparison culture)',
+          'Body 2: Arguments AGAINST / positive aspects (e.g., connection, access to information, social movements)',
+          'Conclusion: Your balanced opinion using cleft sentences',
+          'Use linking words: However, Moreover, On the other hand, Furthermore',
+          'Include at least 2 cleft sentences: "What concerns me most is..." or "It is...that..."'
+        ]
+      },
+      {
+        id: 'b2-m1-l6-listening-exam',
+        type: 'listening',
+        audioUrl: '/audio/b2-m1-l6-listening-exam.mp3',
+        duration: 180,
+        allowReplay: true,
+        maxReplays: 2,
+        transcript: `[EXAM CONDITIONS: Students hear this TWICE]
+
+Interviewer: Today I'm speaking with Dr. Marcus Williams, a researcher specializing in workplace productivity. Dr. Williams, what's the biggest mistake people make about productivity?
+
+Dr. Williams: Well, what most people don't realize is that productivity isn't about working more hours—it's about working smarter. I've been studying high performers for over a decade now, and what consistently sets them apart is not that they work harder, but that they work with more intention and focus.
+
+Interviewer: Can you give us an example?
+
+Dr. Williams: Certainly. It was during a study we conducted in 2018 that we discovered something surprising. We found that the most productive employees weren't those who stayed latest at the office. In fact, many of them left right on time. What they had been doing differently was protecting their peak energy hours. They knew when they were mentally sharpest—usually the first two to three hours after arriving—and they guarded that time fiercely for their most important work.
+
+Interviewer: So timing matters more than duration?
+
+Dr. Williams: Exactly. What research shows is that the human brain isn't designed for eight hours of continuous focused work. We operate in cycles—typically 90 to 120 minutes of high focus followed by a need for rest. The problem is that modern work culture ignores these natural rhythms. People push through fatigue, thinking they're being productive, when actually their work quality is declining.
+
+Interviewer: What do you recommend?
+
+Dr. Williams: What I tell people is to align their most challenging tasks with their peak energy periods. If you're sharpest in the morning, don't waste that time checking emails or attending routine meetings. Use it for deep, creative, or analytical work. Save the administrative tasks for your lower-energy periods in the afternoon.
+
+It was implementing this approach that transformed my own productivity. I now block my mornings for research and writing—the work that requires my full cognitive capacity. Meetings and emails get scheduled for the afternoon when I have less mental energy anyway.
+
+Interviewer: What about the modern obsession with multitasking?
+
+Dr. Williams: That's perhaps the biggest productivity myth of all. What neuroscience has demonstrated is that the human brain cannot actually multitask in the way we think it can. What we call multitasking is really rapid task-switching, and every switch comes with a cognitive cost. Studies show it can take 23 minutes to fully regain deep focus after an interruption.
+
+What successful people do instead is practice what I call "single-tasking"—giving full attention to one thing at a time. It might feel slower initially, but the quality of work is dramatically higher, and you actually complete tasks faster because you're not constantly reorienting yourself.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to Dr. Williams, what sets high performers apart?',
+            options: [
+              'Working longer hours',
+              'Natural talent',
+              'Working with intention and focus',
+              'Advanced education'
+            ],
+            correctAnswer: 'Working with intention and focus',
+            explanation: 'Dr. Williams dice: "what consistently sets them apart is...they work with more intention and focus".',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'In the 2018 study, what was surprising about the most productive employees?',
+            correctAnswer: 'They left work on time / They didn\'t stay late / They protected their peak energy hours',
+            explanation: 'El estudio descubrió que no se quedaban hasta tarde sino que protegían sus horas de mayor energía.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'The human brain operates in focus cycles of typically ___ to ___ minutes.',
+            correctAnswer: '90...120',
+            explanation: 'Dr. Williams menciona: "90 to 120 minutes of high focus".',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'true-false',
+            question: 'True or False: Dr. Williams recommends checking emails during peak energy hours.',
+            correctAnswer: 'False',
+            explanation: 'Él recomienda NO desperdiciar las horas pico en emails, sino usarlas para trabajo profundo.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: 'How long can it take to regain deep focus after an interruption?',
+            options: ['5 minutes', '15 minutes', '23 minutes', '30 minutes'],
+            correctAnswer: '23 minutes',
+            explanation: 'El texto menciona: "it can take 23 minutes to fully regain deep focus".',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'short-answer',
+            question: 'What does Dr. Williams call the practice of giving full attention to one thing at a time?',
+            correctAnswer: 'Single-tasking',
+            explanation: 'Él lo llama "single-tasking" en oposición al multitasking.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l6-grammar-review',
+        type: 'grammar',
+        title: 'Grammar Review: Module 1 Comprehensive',
+        grammarPoint: 'Passive Voice, Narrative Tenses, Cleft Sentences - Integration',
+        explanation: 'This exercise reviews all major grammar points from Module 1. You should demonstrate mastery of:\n- Passive constructions in various tenses\n- Narrative tenses for storytelling\n- Cleft sentences for emphasis\n- Perfect tenses and their uses',
+        examples: [
+          'The building was being renovated when the fire started. (Passive continuous + Past simple)',
+          'It was her dedication that made the difference. (It-cleft)',
+          'What surprised me was how quickly he adapted. (What-cleft)',
+          'I had been waiting for hours when she finally arrived. (Past perfect continuous + Past simple)',
+          'The decision will have been made by tomorrow. (Future perfect passive)'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose the correct form: The report ___ by the time you arrive tomorrow.',
+            options: [
+              'will finish',
+              'will be finished',
+              'will have been finished',
+              'will have finished'
+            ],
+            correctAnswer: 'will have been finished',
+            explanation: 'Future perfect passive for action completed before future time.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Transform for emphasis: "Her courage impressed me most." → What ___',
+            correctAnswer: 'impressed me most was her courage',
+            explanation: 'What-cleft moving emphasis to subject position.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Choose correct tenses: While I ___ home, I ___ my old teacher.',
+            options: [
+              'walked / met',
+              'was walking / met',
+              'walked / was meeting',
+              'had walked / met'
+            ],
+            correctAnswer: 'was walking / met',
+            explanation: 'Past continuous for background + Past simple for completed action.',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'short-answer',
+            question: 'Rewrite in passive: "Someone should have warned us."',
+            correctAnswer: 'We should have been warned',
+            explanation: 'Modal perfect passive structure.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l6-vocabulary-review',
+        type: 'vocabulary',
+        title: 'Vocabulary Review: Module 1',
+        vocabularySet: [
+          { word: 'compelling', definition: 'very interesting; able to hold attention', example: 'The documentary presents a compelling argument for action.' },
+          { word: 'nuanced', definition: 'characterized by subtle differences', example: 'Her nuanced performance captured the character\'s complexity.' },
+          { word: 'ubiquitous', definition: 'present everywhere', example: 'Smartphones have become ubiquitous in modern society.' },
+          { word: 'unprecedented', definition: 'never done or known before', example: 'The pandemic created unprecedented challenges.' },
+          { word: 'resilience', definition: 'ability to recover quickly from difficulties', example: 'The community showed remarkable resilience after the disaster.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which word means "present everywhere"?',
+            options: ['compelling', 'nuanced', 'ubiquitous', 'unprecedented'],
+            correctAnswer: 'ubiquitous',
+            explanation: 'Ubiquitous significa omnipresente, presente en todas partes.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'The team showed great ___ in recovering from their early defeats.',
+            correctAnswer: 'resilience',
+            explanation: 'Resilience = capacidad de recuperarse de dificultades.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l6-error-correction',
+        type: 'error-identification',
+        title: 'Error Correction: Module 1 Review',
+        instructions: 'Each sentence contains ONE error related to grammar covered in Module 1. Identify and correct it.',
+        sentences: [
+          {
+            id: 'ec1',
+            sentence: 'What I need it is more time to finish the project.',
+            error: 'it is',
+            correction: 'is',
+            explanation: 'In what-cleft sentences, don\'t include "it" after "what I need".',
+            category: 'Cleft sentences',
+            points: 2
+          },
+          {
+            id: 'ec2',
+            sentence: 'The bridge was building when the earthquake struck.',
+            error: 'was building',
+            correction: 'was being built',
+            explanation: 'Passive continuous: was/were being + past participle.',
+            category: 'Passive voice',
+            points: 2
+          },
+          {
+            id: 'ec3',
+            sentence: 'She was living in Paris for five years before moving to London.',
+            error: 'was living',
+            correction: 'had been living / had lived',
+            explanation: 'Use past perfect (continuous) for duration before past action.',
+            category: 'Narrative tenses',
+            points: 2
+          },
+          {
+            id: 'ec4',
+            sentence: 'It was in 2020 when everything changed.',
+            error: 'when',
+            correction: 'that',
+            explanation: 'It-cleft sentences use "that" (or "who" for people), not "when".',
+            category: 'Cleft sentences',
+            points: 2
+          },
+          {
+            id: 'ec5',
+            sentence: 'The decision should have made earlier.',
+            error: 'should have made',
+            correction: 'should have been made',
+            explanation: 'Modal perfect passive requires "been" before past participle.',
+            category: 'Passive voice',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l6-collocation-review',
+        type: 'collocation-matching',
+        title: 'Collocation Review: Module 1',
+        instructions: 'Match verbs with nouns to form collocations reviewed in Module 1.',
+        pairs: [
+          { left: 'make', right: 'a difference', distractor: false },
+          { left: 'take', right: 'responsibility', distractor: false },
+          { left: 'draw', right: 'a conclusion', distractor: false },
+          { left: 'reach', right: 'an agreement', distractor: false },
+          { left: 'raise', right: 'awareness', distractor: false },
+          { left: 'pose', right: 'a threat', distractor: false },
+          { left: 'yield', right: 'results', distractor: false },
+          { left: 'undergo', right: 'transformation', distractor: false }
+        ],
+        distractors: [
+          { left: 'do', right: 'a difference' },
+          { left: 'get', right: 'responsibility' },
+          { left: 'have', right: 'a conclusion' }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m1-l6-phrasal-verb-review',
+        type: 'phrasal-verbs',
+        title: 'Phrasal Verbs Review: Module 1',
+        instructions: 'Review phrasal verbs from Module 1 lessons.',
+        verbs: [
+          {
+            verb: 'bring about',
+            meaning: 'to cause something to happen',
+            examples: ['The new policies brought about significant changes.', 'What brought about this decision?'],
+            usage: 'separable',
+            synonyms: ['cause', 'produce', 'create']
+          },
+          {
+            verb: 'carry out',
+            meaning: 'to perform or complete a task',
+            examples: ['They carried out extensive research.', 'The plan was carried out successfully.'],
+            usage: 'separable',
+            synonyms: ['perform', 'execute', 'conduct']
+          },
+          {
+            verb: 'come across',
+            meaning: 'to find by chance; to seem',
+            examples: ['I came across this article yesterday.', 'She comes across as confident.'],
+            usage: 'inseparable',
+            synonyms: ['find', 'encounter', 'seem']
+          },
+          {
+            verb: 'point out',
+            meaning: 'to draw attention to something',
+            examples: ['He pointed out several errors.', 'As she pointed out, we need more time.'],
+            usage: 'separable',
+            synonyms: ['indicate', 'mention', 'highlight']
+          }
+        ],
+        exercises: [
+          {
+            id: 'pv1',
+            type: 'fill-blank',
+            sentence: 'The researchers _____ a comprehensive study on social behavior.',
+            correctAnswer: 'carried out',
+            points: 2
+          },
+          {
+            id: 'pv2',
+            type: 'fill-blank',
+            sentence: 'The new technology will _____ major changes in how we work.',
+            correctAnswer: 'bring about',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l6-exam-strategies',
+        type: 'reading',
+        title: 'Exam Strategies & Tips',
+        text: `Preparing for the B2 First Exam: Key Strategies
+
+Time Management:
+- Reading & Use of English: 75 minutes for 7 parts
+- Writing: 80 minutes for 2 tasks
+- Listening: 40 minutes (including transfer time)
+- Speaking: 14 minutes per pair
+
+Use of English Tips:
+1. Part 1 (Multiple Choice Cloze): Read the whole text first for context
+2. Part 2 (Open Cloze): Think about grammar (articles, prepositions, pronouns) and fixed phrases
+3. Part 3 (Word Formation): Consider prefix/suffix patterns and word class needed
+4. Part 4 (Key Word Transformations): Keep the meaning exact; count words carefully
+
+Reading Tips:
+- Skim the text quickly first to get the general idea
+- Read questions before detailed reading
+- Underline key words in both questions and text
+- Eliminate obviously wrong answers first
+
+Writing Tips:
+- Always plan before writing (5 minutes)
+- Check word count—too short loses marks
+- Use a variety of grammatical structures and vocabulary
+- Leave time to proofread (5 minutes)
+- For essays: clear introduction, 2-3 body paragraphs, conclusion
+
+Listening Tips:
+- Read questions carefully before listening
+- Listen for paraphrase—the answer often uses different words than the question
+- Don't panic if you miss something; focus on the next question
+- Use the second listening to check and complete answers
+
+Speaking Tips:
+- Don't memorize speeches—examiners can tell
+- It's okay to pause and think
+- If you don't understand, ask the examiner to repeat
+- Extend your answers with examples and reasons
+- In Part 4, listen to your partner and respond naturally`,
+        wordCount: 280,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'How long do you have for the Reading & Use of English section?',
+            options: ['60 minutes', '75 minutes', '80 minutes', '90 minutes'],
+            correctAnswer: '75 minutes',
+            explanation: 'El texto indica: "75 minutes for 7 parts".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'true-false',
+            question: 'True or False: In listening, the answer usually uses the same words as the question.',
+            correctAnswer: 'False',
+            explanation: 'El texto dice: "Listen for paraphrase—the answer often uses different words".',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'How much time should you spend planning your writing task?',
+            correctAnswer: '5 minutes',
+            explanation: 'El texto recomienda: "Always plan before writing (5 minutes)".',
+            points: 1
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'skim', definition: 'read quickly to get the general idea' },
+          { word: 'paraphrase', definition: 'express the same meaning using different words' },
+          { word: 'proofread', definition: 'read through to check for errors' }
+        ]
+      },
+      {
+        id: 'b2-m1-l6-final-assessment',
+        type: 'multiple-choice-cloze',
+        title: 'Final Assessment: Integrated Skills',
+        instructions: 'This final exercise integrates all aspects of Module 1. Read carefully and choose the best answer for each gap.',
+        text: `Reflections on Learning
+
+As we {{1}} the end of Module 1, it's worth reflecting on what we've accomplished. What {{2}} this module apart from basic English courses is its focus on advanced structures and sophisticated expression. It {{3}} through practice and repetition that these complex forms become natural.
+
+Throughout the lessons, we {{4}} passive constructions, narrative tenses, and cleft sentences—all essential tools for B2-level communication. What many students {{5}} is that mastering these structures isn't just about passing exams; it's about {{6}} yourself more precisely and persuasively in English.
+
+The skills you've been {{7}} will serve you in academic, professional, and social contexts. What {{8}} most is consistent practice and willingness to experiment with new structures even if you make mistakes initially.`,
+        questions: [
+          { id: 'q1', gapNumber: 1, options: ['approach', 'reach', 'arrive', 'come'], correctAnswer: 'approach', explanation: '"Approach the end" means to get near to the conclusion.', points: 1 },
+          { id: 'q2', gapNumber: 2, options: ['makes', 'sets', 'puts', 'takes'], correctAnswer: 'sets', explanation: '"Sets apart" means distinguishes from others.', points: 1 },
+          { id: 'q3', gapNumber: 3, options: ['is', 'was', 'has', 'does'], correctAnswer: 'is', explanation: 'It-cleft sentence present tense: "It is...that".', points: 1 },
+          { id: 'q4', gapNumber: 4, options: ['explored', 'have explored', 'had explored', 'were exploring'], correctAnswer: 'have explored', explanation: 'Present perfect for completed actions in module with present relevance.', points: 1 },
+          { id: 'q5', gapNumber: 5, options: ['don\'t realize', 'didn\'t realize', 'haven\'t realized', 'won\'t realize'], correctAnswer: 'don\'t realize', explanation: 'Present simple for general truth about students.', points: 1 },
+          { id: 'q6', gapNumber: 6, options: ['express', 'to express', 'expressing', 'expressed'], correctAnswer: 'expressing', explanation: '"About" is followed by gerund (-ing form).', points: 1 },
+          { id: 'q7', gapNumber: 7, options: ['developing', 'developed', 'develop', 'to develop'], correctAnswer: 'developing', explanation: 'Present perfect continuous: "have been developing".', points: 1 },
+          { id: 'q8', gapNumber: 8, options: ['important', 'matters', 'significant', 'essential'], correctAnswer: 'matters', explanation: '"What matters" is the correct what-cleft construction.', points: 1 }
+        ]
       }
     ]
   }
