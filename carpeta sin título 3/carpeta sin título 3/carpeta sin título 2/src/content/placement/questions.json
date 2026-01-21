@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "pl-001",
+      "skill": "grammar",
+      "prompt": "Choose the correct option:",
+      "sentence": "I ____ to the gym twice a week.",
+      "options": ["go", "goes", "going"],
+      "answerIndex": 0,
+      "levelHint": "A1"
+    },
+    {
+      "id": "pl-002",
+      "skill": "grammar",
+      "prompt": "Choose the correct option:",
+      "sentence": "She ____ English for three years.",
+      "options": ["studies", "has studied", "study"],
+      "answerIndex": 1,
+      "levelHint": "A2"
+    },
+    {
+      "id": "pl-003",
+      "skill": "grammar",
+      "prompt": "Choose the correct option:",
+      "sentence": "If I ____ more time, I would travel more.",
+      "options": ["have", "had", "will have"],
+      "answerIndex": 1,
+      "levelHint": "B1"
+    },
+    {
+      "id": "pl-004",
+      "skill": "vocabulary",
+      "prompt": "Choose the closest meaning:",
+      "sentence": "The meeting was postponed.",
+      "options": ["cancelled", "delayed", "finished"],
+      "answerIndex": 1,
+      "levelHint": "B1"
+    },
+    {
+      "id": "pl-005",
+      "skill": "grammar",
+      "prompt": "Choose the correct option:",
+      "sentence": "By next month, we ____ the project.",
+      "options": ["will finish", "will have finished", "finish"],
+      "answerIndex": 1,
+      "levelHint": "B2"
+    },
+    {
+      "id": "pl-006",
+      "skill": "reading",
+      "prompt": "Choose the best interpretation:",
+      "sentence": "Hardly had the report been submitted when the client requested further changes.",
+      "options": [
+        "The report was submitted late.",
+        "The client asked for changes immediately after submission.",
+        "The client never requested changes."
+      ],
+      "answerIndex": 1,
+      "levelHint": "C1"
+    }
+  ]
+}

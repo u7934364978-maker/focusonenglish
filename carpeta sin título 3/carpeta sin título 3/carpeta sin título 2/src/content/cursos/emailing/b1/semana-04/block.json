@@ -1,0 +1,134 @@
+[
+  {
+    "id": "b1-s04-ext-err-01",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "📘 GRAMMAR (B1+): Corrige 'to avoid any ambiguity' y estructura.",
+    "pairs": [
+      { "wrong": "To avoid any ambiguous, confirm the deadline.", "correct": "To avoid any ambiguity, could you confirm the deadline?", "explanation": "Ambiguity (noun) + pregunta educada." },
+      { "wrong": "To avoid any ambiguity could you confirm the deadline", "correct": "To avoid any ambiguity, could you confirm the deadline?", "explanation": "Coma + estructura completa." },
+      { "wrong": "To avoid ambiguities, you must confirm.", "correct": "To avoid any ambiguity, could you confirm?", "explanation": "Evita 'must' (tono)." }
+    ]
+  },
+  {
+    "id": "b1-s04-ext-err-02",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "✍️ WRITING (B1+): Corrige 'to make sure we’re aligned'.",
+    "pairs": [
+      { "wrong": "To make sure we are align, confirm the scope.", "correct": "To make sure we’re aligned, could you confirm the scope?", "explanation": "aligned (adj) + contracción we’re + pregunta educada." },
+      { "wrong": "To make sure we’re aligned could you confirm", "correct": "To make sure we’re aligned, could you confirm?", "explanation": "Coma + estructura correcta." },
+      { "wrong": "To make sure we’re aligned, you must confirm.", "correct": "To make sure we’re aligned, could you confirm?", "explanation": "Evita 'must'." }
+    ]
+  },
+  {
+    "id": "b1-s04-ext-err-03",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "🧠 VOCAB (B1+): Corrige ambiguity/aligned collocations.",
+    "pairs": [
+      { "wrong": "avoid ambiguous", "correct": "avoid ambiguity", "explanation": "Collocation: avoid ambiguity." },
+      { "wrong": "aligned about the scope", "correct": "aligned on the scope", "explanation": "aligned on + topic." },
+      { "wrong": "avoid misunderstand", "correct": "avoid misunderstandings", "explanation": "Plural habitual: misunderstandings." }
+    ]
+  },
+  {
+    "id": "b1-s04-ext-err-04",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "📩 READING (B1+): Cambia culpa por enfoque factual.",
+    "pairs": [
+      { "wrong": "You are unclear.", "correct": "To avoid any ambiguity, could you confirm the details?", "explanation": "Evita acusar; pide confirmación." },
+      { "wrong": "You misunderstood.", "correct": "To make sure we’re aligned, could you confirm the scope?", "explanation": "Alineación en lugar de culpa." },
+      { "wrong": "This is your fault.", "correct": "If anything is different, please let me know.", "explanation": "Flexibilidad profesional." }
+    ]
+  },
+  {
+    "id": "b1-s04-ext-err-05",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "✍️ WRITING (B1+): Mejora escaneabilidad con checklist + next step.",
+    "pairs": [
+      { "wrong": "Draft Tue Review Thu Final Fri confirm", "correct": "Just to confirm:\n- Draft by Tuesday\n- Review by Thursday\n- Final on Friday\n\nIf that’s correct, I’ll proceed.", "explanation": "Checklist + next step = claro." },
+      { "wrong": "Everything ok.", "correct": "So, we’re aligned on scope, version v3, and the Friday deadline.", "explanation": "Mejor ser específico." },
+      { "wrong": "Ok bye.", "correct": "Thanks in advance for the confirmation.", "explanation": "Cierre profesional." }
+    ]
+  },
+  {
+    "id": "b1-s04-ext-err-06",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "📘 GRAMMAR (B1+): Corrige next step con versión.",
+    "pairs": [
+      { "wrong": "If that’s correct, I proceed with v3.", "correct": "If that’s correct, I’ll proceed with v3.", "explanation": "Futuro natural: I’ll." },
+      { "wrong": "If correct, I’ll proceeds.", "correct": "If that’s correct, I’ll proceed.", "explanation": "Verbo base: proceed." },
+      { "wrong": "If that correct, I’ll proceed.", "correct": "If that’s correct, I’ll proceed.", "explanation": "That’s = correcto." }
+    ]
+  },
+  {
+    "id": "b1-s04-ext-err-07",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "🧠 VOCAB (B1+): Corrige 'confirmation'.",
+    "pairs": [
+      { "wrong": "Thanks in advance for confirm.", "correct": "Thanks in advance for the confirmation.", "explanation": "confirmation = noun." },
+      { "wrong": "Thanks for the confirm.", "correct": "Thanks for the confirmation.", "explanation": "confirmation." },
+      { "wrong": "Confirmations is needed.", "correct": "Confirmation is needed.", "explanation": "Aquí singular/uncountable." }
+    ]
+  },
+  {
+    "id": "b1-s04-ext-err-08",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "📘 GRAMMAR (B1+): Corrige 'When you say… do you mean…'.",
+    "pairs": [
+      { "wrong": "When you say final, you meaning approved?", "correct": "When you say “final”, do you mean approved?", "explanation": "do you mean = correcto." },
+      { "wrong": "When you say “final”, do you means approved?", "correct": "When you say “final”, do you mean approved?", "explanation": "mean base." },
+      { "wrong": "When you say “final”, you do mean approved?", "correct": "When you say “final”, do you mean approved?", "explanation": "Pregunta correcta con do." }
+    ]
+  },
+  {
+    "id": "b1-s04-ext-err-09",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "📩 READING (B1+): Corrige subject lines para tono profesional.",
+    "pairs": [
+      { "wrong": "You misunderstood", "correct": "To make sure we’re aligned: next steps", "explanation": "Evita culpa en subject." },
+      { "wrong": "READ NOW!!!", "correct": "To avoid any ambiguity: deadline confirmation", "explanation": "Más profesional." },
+      { "wrong": "Problem", "correct": "Quick clarification: scope and deadline", "explanation": "Más informativo." }
+    ]
+  },
+  {
+    "id": "b1-s04-ext-err-10",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "✍️ WRITING (B1+): Corrige alineación en una línea.",
+    "pairs": [
+      { "wrong": "We aligned about the scope.", "correct": "We’re aligned on the scope.", "explanation": "aligned on." },
+      { "wrong": "We are alignment on timeline.", "correct": "We’re aligned on the timeline.", "explanation": "aligned (adj) no alignment (noun) aquí." },
+      { "wrong": "Aligned on is Friday deadline.", "correct": "We’re aligned on the Friday deadline.", "explanation": "Estructura con sujeto." }
+    ]
+  },
+  {
+    "id": "b1-s04-ext-err-11",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "🧠 VOCAB (B1+): Corrige requirement/scope/version.",
+    "pairs": [
+      { "wrong": "The requirement is optional.", "correct": "A requirement is something needed.", "explanation": "Requirement = necesario." },
+      { "wrong": "Scope means deadline.", "correct": "Scope means what is included.", "explanation": "Scope ≠ deadline." },
+      { "wrong": "Version means meeting.", "correct": "Version means the file version (v2/v3).", "explanation": "Version = versión del documento." }
+    ]
+  },
+  {
+    "id": "b1-s04-ext-err-12",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "📘 GRAMMAR (B1+): Correcciones finales (plural/singular).",
+    "pairs": [
+      { "wrong": "The details is correct.", "correct": "The details are correct.", "explanation": "details plural → are." },
+      { "wrong": "The deadline are Friday.", "correct": "The deadline is Friday.", "explanation": "deadline singular → is." },
+      { "wrong": "Could you confirm me the scope?", "correct": "Could you confirm the scope?", "explanation": "Sin 'me'." }
+    ]
+  }
+]
