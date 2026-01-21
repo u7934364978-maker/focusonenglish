@@ -3031,6 +3031,340 @@ Governments and businesses also have a crucial {{7}} to play. New policies are b
           { id: 'q8', gapNumber: 8, baseWord: 'ECONOMY', correctAnswer: 'economical', acceptableAnswers: ['economical'], explanation: '"More economical" - giving good value for money.', wordType: 'adjective', transformation: 'noun → adjective (-ical)', points: 1 }
         ],
         focusAreas: ['-able suffix', 'Adverb formation', 'Environmental vocabulary']
+      },
+      // SENTENCE COMPLETION - Emphasis structures
+      {
+        id: 'b2-m1-l3-sentcomp-1',
+        type: 'sentence-completion',
+        title: 'Sentence Completion: Emphasis Structures',
+        instructions: 'Complete each sentence using an appropriate emphasis structure (cleft sentence).',
+        sentences: [
+          {
+            id: 'sc1',
+            prompt: 'I don\'t like his attitude.',
+            correctCompletion: 'What I don\'t like is his attitude',
+            options: ['What I don\'t like is his attitude', 'That I don\'t like his attitude', 'It is his attitude I don\'t like', 'His attitude is what I don\'t like'],
+            explanation: 'We use "What...is" to emphasize the object.',
+            points: 1
+          },
+          {
+            id: 'sc2',
+            prompt: 'She needs more practice, not theory.',
+            correctCompletion: 'What she needs is more practice, not theory',
+            explanation: 'What-cleft emphasizes what is needed.',
+            points: 1
+          },
+          {
+            id: 'sc3',
+            prompt: 'The manager made the final decision.',
+            correctCompletion: 'It was the manager who made the final decision',
+            options: ['It was the manager who made', 'It was the manager that made', 'The manager was who made', 'It is the manager who made'],
+            explanation: 'It-cleft with "who" emphasizes the person.',
+            points: 1
+          },
+          {
+            id: 'sc4',
+            prompt: 'I want honesty from you.',
+            correctCompletion: 'What I want from you is honesty',
+            explanation: 'What-cleft structure emphasizes the desired quality.',
+            points: 1
+          }
+        ]
+      },
+      // ERROR IDENTIFICATION - Cleft sentences
+      {
+        id: 'b2-m1-l3-error-1',
+        type: 'error-identification',
+        title: 'Error Identification: Cleft Sentence Mistakes',
+        instructions: 'Identify if each sentence contains an error. If yes, provide the correction.',
+        sentences: [
+          {
+            id: 'e1',
+            sentence: 'What I need it is more time.',
+            hasError: true,
+            errorWord: 'it',
+            correction: 'What I need is more time',
+            explanation: 'Remove "it" - redundant pronoun in what-cleft structure.',
+            points: 2
+          },
+          {
+            id: 'e2',
+            sentence: 'It was John who he called me yesterday.',
+            hasError: true,
+            errorWord: 'he',
+            correction: 'It was John who called me yesterday',
+            explanation: 'Remove "he" - the relative pronoun "who" replaces the subject.',
+            points: 2
+          },
+          {
+            id: 'e3',
+            sentence: 'What surprised me most was their generosity.',
+            hasError: false,
+            explanation: 'Correct what-cleft structure.',
+            points: 1
+          },
+          {
+            id: 'e4',
+            sentence: 'It is in Paris where I met my wife.',
+            hasError: true,
+            errorWord: 'where',
+            correction: 'It is in Paris that I met my wife',
+            explanation: 'Use "that" not "where" in it-cleft sentences for places.',
+            points: 2
+          }
+        ]
+      },
+      // PARAPHRASING - Emphasis
+      {
+        id: 'b2-m1-l3-para-1',
+        type: 'paraphrasing',
+        title: 'Paraphrasing: Adding Emphasis',
+        instructions: 'Rewrite each sentence using a cleft structure to add emphasis.',
+        items: [
+          {
+            id: 'p1',
+            originalSentence: 'The constant noise bothers me.',
+            correctParaphrase: 'What bothers me is the constant noise',
+            alternatives: ['It\'s the constant noise that bothers me'],
+            explanation: 'Both what-cleft and it-cleft can emphasize the subject.',
+            points: 2
+          },
+          {
+            id: 'p2',
+            originalSentence: 'I discovered the error, not Sarah.',
+            correctParaphrase: 'It was I who discovered the error, not Sarah',
+            alternatives: ['It was me who discovered the error, not Sarah'],
+            explanation: 'It-cleft emphasizes who performed the action.',
+            points: 2
+          },
+          {
+            id: 'p3',
+            originalSentence: 'You should apologize.',
+            correctParaphrase: 'What you should do is apologize',
+            explanation: 'What-cleft emphasizes the action needed.',
+            points: 2
+          }
+        ]
+      },
+      // COLLOCATION MATCHING - Focus vocabulary
+      {
+        id: 'b2-m1-l3-colloc-1',
+        type: 'collocation-matching',
+        title: 'Collocations: Focus and Attention',
+        instructions: 'Match each verb with its correct collocation related to focus and attention.',
+        pairs: [
+          {
+            id: 'col1',
+            word: 'pay',
+            correctMatch: 'attention',
+            distractors: ['focus', 'concentration', 'mind'],
+            example: 'You need to pay attention to the details.',
+            points: 1
+          },
+          {
+            id: 'col2',
+            word: 'lose',
+            correctMatch: 'concentration',
+            distractors: ['attention', 'focus', 'mind'],
+            example: 'I lose concentration after working for two hours straight.',
+            points: 1
+          },
+          {
+            id: 'col3',
+            word: 'maintain',
+            correctMatch: 'focus',
+            distractors: ['attention', 'mind', 'concentration'],
+            example: 'It\'s difficult to maintain focus in a noisy environment.',
+            points: 1
+          },
+          {
+            id: 'col4',
+            word: 'have something in',
+            correctMatch: 'mind',
+            distractors: ['attention', 'focus', 'brain'],
+            example: 'Do you have anything particular in mind for dinner?',
+            points: 1
+          },
+          {
+            id: 'col5',
+            word: 'draw',
+            correctMatch: 'attention to',
+            distractors: ['focus on', 'mind to', 'concentrate to'],
+            example: 'I\'d like to draw attention to this important issue.',
+            points: 1
+          }
+        ]
+      },
+      // PHRASAL VERBS - Communication & Emphasis
+      {
+        id: 'b2-m1-l3-phrasal-1',
+        type: 'phrasal-verbs',
+        title: 'Phrasal Verbs: Communication & Emphasis',
+        instructions: 'Choose the correct phrasal verb to complete each sentence.',
+        items: [
+          {
+            id: 'pv1',
+            sentence: 'The speaker _____ the importance of teamwork.',
+            phrasalVerb: 'pointed out',
+            meaning: 'drew attention to, emphasized',
+            correctAnswer: 'pointed out',
+            options: ['pointed out', 'pointed at', 'pointed to', 'pointed up'],
+            explanation: 'Point out = to draw attention to or mention something important.',
+            points: 1
+          },
+          {
+            id: 'pv2',
+            sentence: 'I couldn\'t _____ what he was trying to say.',
+            phrasalVerb: 'make out',
+            meaning: 'understand, decipher',
+            correctAnswer: 'make out',
+            options: ['make up', 'make out', 'make for', 'make off'],
+            explanation: 'Make out = to be able to see, hear, or understand something.',
+            points: 1
+          },
+          {
+            id: 'pv3',
+            sentence: 'The argument _____ from a simple misunderstanding.',
+            phrasalVerb: 'came about',
+            meaning: 'happened, occurred',
+            correctAnswer: 'came about',
+            options: ['came about', 'came across', 'came around', 'came along'],
+            explanation: 'Come about = to happen or start to happen.',
+            points: 1
+          },
+          {
+            id: 'pv4',
+            sentence: 'She _____ the proposal during the meeting.',
+            phrasalVerb: 'brought up',
+            meaning: 'mentioned, raised for discussion',
+            correctAnswer: 'brought up',
+            options: ['brought up', 'brought about', 'brought out', 'brought in'],
+            explanation: 'Bring up = to mention or introduce a topic for discussion.',
+            points: 1
+          }
+        ]
+      },
+      // IDIOMS - Emphasis & Focus
+      {
+        id: 'b2-m1-l3-idioms-1',
+        type: 'idioms-expressions',
+        title: 'Idioms: Emphasis and Focus',
+        instructions: 'Complete each sentence with the appropriate idiom.',
+        items: [
+          {
+            id: 'id1',
+            context: 'The manager wants to make sure everyone understands the new policy.',
+            idiom: 'drive the point home',
+            meaning: 'to make something very clear and emphatic',
+            correctUsage: 'He really drove the point home during the presentation',
+            options: ['drove the point home', 'hit the nail on the head', 'got to the point', 'made his point'],
+            explanation: 'Drive the point home = to emphasize something so it\'s clearly understood.',
+            points: 1
+          },
+          {
+            id: 'id2',
+            context: 'You correctly identified the main issue.',
+            idiom: 'hit the nail on the head',
+            meaning: 'to be exactly right about something',
+            correctUsage: 'You hit the nail on the head with your analysis',
+            options: ['hit the nail on the head', 'drove the point home', 'cut to the chase', 'got straight to the point'],
+            explanation: 'Hit the nail on the head = to describe exactly what is causing a situation or problem.',
+            points: 1
+          },
+          {
+            id: 'id3',
+            context: 'Stop talking about irrelevant things and tell me what happened.',
+            idiom: 'get to the point',
+            meaning: 'to talk about the most important thing',
+            correctUsage: 'Please get to the point, we don\'t have much time',
+            options: ['get to the point', 'beat around the bush', 'go off on a tangent', 'miss the point'],
+            explanation: 'Get to the point = to reach the main or most important part of what you are saying.',
+            points: 1
+          }
+        ]
+      },
+      // GAP-FILL TEXT - Emphasis structures
+      {
+        id: 'b2-m1-l3-gapfill-1',
+        type: 'gap-fill-text',
+        title: 'Gap-Fill: Emphasis in Context',
+        instructions: 'Complete the text with appropriate words. Each gap requires only ONE word.',
+        text: `In today's competitive job market, {{1}} truly sets successful candidates apart is not just their qualifications but their ability to communicate effectively. {{2}} was a recent survey by top recruiters {{3}} revealed this surprising fact: soft skills are now valued {{4}} highly as technical expertise.
+
+{{5}} many graduates fail to realize is that employers are looking for more than just academic achievements. {{6}} is the ability to work in teams and solve problems creatively {{7}} makes the real difference. {{8}} was during the pandemic that companies discovered the importance of adaptability and digital communication skills.
+
+So {{9}} should job seekers focus on? {{10}} they need to develop is a combination of technical knowledge and interpersonal skills. {{11}} isn't enough to be brilliant in your field—you also need to be able to collaborate and communicate your ideas clearly. {{12}} is this balance that employers are actively seeking in today's candidates.`,
+        gaps: [
+          { id: 'g1', gapNumber: 1, correctAnswer: 'what', acceptableAlternatives: ['What'], explanation: 'What-cleft structure: "What truly sets...is"', points: 1 },
+          { id: 'g2', gapNumber: 2, correctAnswer: 'It', acceptableAlternatives: ['it'], explanation: 'It-cleft structure: "It was...that"', points: 1 },
+          { id: 'g3', gapNumber: 3, correctAnswer: 'that', acceptableAlternatives: ['which'], explanation: 'Relative pronoun completing the it-cleft', points: 1 },
+          { id: 'g4', gapNumber: 4, correctAnswer: 'as', acceptableAlternatives: [], explanation: 'as...as comparison structure', points: 1 },
+          { id: 'g5', gapNumber: 5, correctAnswer: 'What', acceptableAlternatives: ['what'], explanation: 'What-cleft: "What many fail to realize is"', points: 1 },
+          { id: 'g6', gapNumber: 6, correctAnswer: 'It', acceptableAlternatives: ['it'], explanation: 'It-cleft emphasizing ability', points: 1 },
+          { id: 'g7', gapNumber: 7, correctAnswer: 'that', acceptableAlternatives: ['which'], explanation: 'Completes the it-cleft structure', points: 1 },
+          { id: 'g8', gapNumber: 8, correctAnswer: 'It', acceptableAlternatives: ['it'], explanation: 'It-cleft with time reference', points: 1 },
+          { id: 'g9', gapNumber: 9, correctAnswer: 'what', acceptableAlternatives: ['What'], explanation: 'Question word in what-structure', points: 1 },
+          { id: 'g10', gapNumber: 10, correctAnswer: 'What', acceptableAlternatives: ['what'], explanation: 'What-cleft: "What they need...is"', points: 1 },
+          { id: 'g11', gapNumber: 11, correctAnswer: 'It', acceptableAlternatives: ['it'], explanation: 'It + be + not enough construction', points: 1 },
+          { id: 'g12', gapNumber: 12, correctAnswer: 'It', acceptableAlternatives: ['it'], explanation: 'Final it-cleft for emphasis', points: 1 }
+        ]
+      },
+      // SENTENCE REORDERING - Emphasis narrative
+      {
+        id: 'b2-m1-l3-reorder-1',
+        type: 'sentence-reordering',
+        title: 'Sentence Reordering: Building an Argument',
+        instructions: 'Put the sentences in the correct logical order to form a coherent paragraph.',
+        items: [
+          {
+            id: 'sr1',
+            shuffledSentences: [
+              'It was this realization that changed my approach to learning.',
+              'What I discovered was that consistent practice matters more than long study sessions.',
+              'I had been studying for hours every day, but my progress was slow.',
+              'Now, what I do is practice for just 30 minutes daily, and my skills have improved dramatically.',
+              'The problem was that I was exhausting myself and losing motivation.'
+            ],
+            correctOrder: [2, 4, 1, 0, 3],
+            context: 'A student reflecting on their learning strategy',
+            explanation: 'Logical flow: problem description → identifying issue → realization → changed approach → current success',
+            points: 3
+          }
+        ]
+      },
+      // PRONUNCIATION PRACTICE - Emphasis patterns
+      {
+        id: 'b2-m1-l3-pronun-1',
+        type: 'pronunciation-practice',
+        title: 'Pronunciation: Stress in Cleft Sentences',
+        instructions: 'Practice pronouncing these cleft sentences with correct stress and intonation. Stressed words are in CAPITALS.',
+        targetSentences: [
+          {
+            sentence: 'What I NEED is more TIME.',
+            translation: 'Lo que necesito es más tiempo.',
+            phonetic: '/wɒt aɪ ˈniːd ɪz mɔː ˈtaɪm/',
+            audioUrl: '/audio/b2-m1-l3-pronun-1a.mp3'
+          },
+          {
+            sentence: 'It was MARIA who made the DECISION.',
+            translation: 'Fue María quien tomó la decisión.',
+            phonetic: '/ɪt wɒz məˈriːə huː meɪd ðə dɪˈsɪʒən/',
+            audioUrl: '/audio/b2-m1-l3-pronun-1b.mp3'
+          },
+          {
+            sentence: 'What SURPRISED me most was their HONESTY.',
+            translation: 'Lo que más me sorprendió fue su honestidad.',
+            phonetic: '/wɒt səˈpraɪzd miː məʊst wɒz ðeə ˈɒnəsti/',
+            audioUrl: '/audio/b2-m1-l3-pronun-1c.mp3'
+          }
+        ],
+        focusPoints: [
+          'Stress the emphasized element in cleft sentences',
+          'Use rising-falling intonation for emphasis',
+          'Clear pause after "what...is" structure'
+        ],
+        difficulty: 'medium',
+        timeLimit: 180
       }
     ]
   },
@@ -3443,6 +3777,412 @@ James: It was three years after I started training. By then, I had climbed peaks
           { id: 'q8', gapNumber: 8, baseWord: 'SKEPTIC', correctAnswer: 'skepticism', acceptableAnswers: ['skepticism', 'scepticism'], explanation: '"Appropriate skepticism" - attitude of doubting claims.', wordType: 'noun', transformation: 'noun → abstract noun (-ism)', points: 1 }
         ],
         focusAreas: ['Prefix re-', 'Negative prefix in-', 'Abstract nouns']
+      },
+      // SENTENCE COMPLETION - Narrative tenses
+      {
+        id: 'b2-m1-l4-sentcomp-1',
+        type: 'sentence-completion',
+        title: 'Sentence Completion: Narrative Tenses',
+        instructions: 'Complete each sentence with the correct narrative tense combination.',
+        sentences: [
+          {
+            id: 'sc1',
+            prompt: 'By the time we arrived, the film...',
+            correctCompletion: 'had already started',
+            options: ['had already started', 'already started', 'was already starting', 'has already started'],
+            explanation: 'Past Perfect for action completed before another past action.',
+            points: 1
+          },
+          {
+            id: 'sc2',
+            prompt: 'She was tired because she...',
+            correctCompletion: 'had been working all day',
+            options: ['had been working all day', 'was working all day', 'worked all day', 'has been working all day'],
+            explanation: 'Past Perfect Continuous shows duration causing the result.',
+            points: 1
+          },
+          {
+            id: 'sc3',
+            prompt: 'While I was walking home, I...',
+            correctCompletion: 'met an old friend',
+            options: ['met an old friend', 'was meeting an old friend', 'had met an old friend', 'have met an old friend'],
+            explanation: 'Past Simple for completed action interrupting continuous action.',
+            points: 1
+          },
+          {
+            id: 'sc4',
+            prompt: 'They had never seen snow until...',
+            correctCompletion: 'they visited Canada',
+            explanation: 'Past Perfect + Past Simple for first-time experience.',
+            points: 1
+          }
+        ]
+      },
+      // ERROR IDENTIFICATION - Past tenses
+      {
+        id: 'b2-m1-l4-error-1',
+        type: 'error-identification',
+        title: 'Error Identification: Past Tense Mistakes',
+        instructions: 'Identify and correct the tense errors in each sentence.',
+        sentences: [
+          {
+            id: 'e1',
+            sentence: 'When I arrived, they already left.',
+            hasError: true,
+            errorWord: 'left',
+            correction: 'When I arrived, they had already left',
+            explanation: 'Need Past Perfect (had left) for action before another past action.',
+            points: 2
+          },
+          {
+            id: 'e2',
+            sentence: 'She had been lived in Paris for three years when she got the job.',
+            hasError: true,
+            errorWord: 'lived',
+            correction: 'She had been living in Paris for three years when she got the job',
+            explanation: 'Past Perfect Continuous uses "had been + -ing", not past participle.',
+            points: 2
+          },
+          {
+            id: 'e3',
+            sentence: 'While he was reading, the phone rang.',
+            hasError: false,
+            explanation: 'Correct: Past Continuous interrupted by Past Simple.',
+            points: 1
+          },
+          {
+            id: 'e4',
+            sentence: 'I was knowing her for years before we became business partners.',
+            hasError: true,
+            errorWord: 'was knowing',
+            correction: 'I had known her for years before we became business partners',
+            explanation: '"Know" is a stative verb; use Past Perfect, not continuous.',
+            points: 2
+          },
+          {
+            id: 'e5',
+            sentence: 'They have finished dinner when we called.',
+            hasError: true,
+            errorWord: 'have finished',
+            correction: 'They had finished dinner when we called',
+            explanation: 'Use Past Perfect (had finished), not Present Perfect with past context.',
+            points: 2
+          }
+        ]
+      },
+      // PARAPHRASING - Narrative transformation
+      {
+        id: 'b2-m1-l4-para-1',
+        type: 'paraphrasing',
+        title: 'Paraphrasing: Narrative Rewrites',
+        instructions: 'Rewrite each pair of sentences as one sentence using appropriate narrative tenses.',
+        items: [
+          {
+            id: 'p1',
+            originalSentence: 'First, she finished her homework. Then, she went to bed.',
+            correctParaphrase: 'After she had finished her homework, she went to bed',
+            alternatives: ['She went to bed after she had finished her homework'],
+            explanation: 'Combine with Past Perfect + Past Simple.',
+            points: 2
+          },
+          {
+            id: 'p2',
+            originalSentence: 'He studied for hours. As a result, he was exhausted.',
+            correctParaphrase: 'He was exhausted because he had been studying for hours',
+            alternatives: ['Because he had been studying for hours, he was exhausted'],
+            explanation: 'Use Past Perfect Continuous to show cause and effect.',
+            points: 2
+          },
+          {
+            id: 'p3',
+            originalSentence: 'I was driving. Suddenly, I saw an accident.',
+            correctParaphrase: 'While I was driving, I saw an accident',
+            alternatives: ['I saw an accident while I was driving'],
+            explanation: 'Past Continuous + Past Simple for interrupted action.',
+            points: 2
+          }
+        ]
+      },
+      // COLLOCATION MATCHING - Narrative vocabulary
+      {
+        id: 'b2-m1-l4-colloc-1',
+        type: 'collocation-matching',
+        title: 'Collocations: Story and Narrative',
+        instructions: 'Match each verb with its correct narrative collocation.',
+        pairs: [
+          {
+            id: 'col1',
+            word: 'tell',
+            correctMatch: 'a story',
+            distractors: ['an experience', 'a memory', 'a situation'],
+            example: 'He told a story about his childhood.',
+            points: 1
+          },
+          {
+            id: 'col2',
+            word: 'recount',
+            correctMatch: 'an experience',
+            distractors: ['a story', 'a novel', 'a tale'],
+            example: 'She recounted her experience of traveling through Asia.',
+            points: 1
+          },
+          {
+            id: 'col3',
+            word: 'recall',
+            correctMatch: 'a memory',
+            distractors: ['a story', 'an experience', 'a narrative'],
+            example: 'I vividly recall the memory of our first meeting.',
+            points: 1
+          },
+          {
+            id: 'col4',
+            word: 'describe',
+            correctMatch: 'a situation',
+            distractors: ['a memory', 'a story', 'a tale'],
+            example: 'Can you describe the situation more clearly?',
+            points: 1
+          },
+          {
+            id: 'col5',
+            word: 'narrate',
+            correctMatch: 'events',
+            distractors: ['memories', 'situations', 'experiences'],
+            example: 'The documentary narrates events from the war.',
+            points: 1
+          }
+        ]
+      },
+      // PHRASAL VERBS - Time and sequence
+      {
+        id: 'b2-m1-l4-phrasal-1',
+        type: 'phrasal-verbs',
+        title: 'Phrasal Verbs: Time and Sequence',
+        instructions: 'Choose the correct phrasal verb for each narrative context.',
+        items: [
+          {
+            id: 'pv1',
+            sentence: 'The meeting _____ longer than expected.',
+            phrasalVerb: 'went on',
+            meaning: 'continued, lasted',
+            correctAnswer: 'went on',
+            options: ['went on', 'went off', 'went out', 'went through'],
+            explanation: 'Go on = to continue or last for a period of time.',
+            points: 1
+          },
+          {
+            id: 'pv2',
+            sentence: 'Looking back, I can see how everything _____.',
+            phrasalVerb: 'worked out',
+            meaning: 'developed, turned out',
+            correctAnswer: 'worked out',
+            options: ['worked out', 'worked up', 'worked off', 'worked in'],
+            explanation: 'Work out = to develop or turn out in a particular way.',
+            points: 1
+          },
+          {
+            id: 'pv3',
+            sentence: 'I _____ some old photos while cleaning the attic.',
+            phrasalVerb: 'came across',
+            meaning: 'found by chance',
+            correctAnswer: 'came across',
+            options: ['came across', 'came about', 'came along', 'came around'],
+            explanation: 'Come across = to find or discover something by chance.',
+            points: 1
+          },
+          {
+            id: 'pv4',
+            sentence: 'The tradition has been _____ for generations.',
+            phrasalVerb: 'passed down',
+            meaning: 'transmitted from one generation to another',
+            correctAnswer: 'passed down',
+            options: ['passed down', 'passed out', 'passed by', 'passed over'],
+            explanation: 'Pass down = to give or teach something to younger generations.',
+            points: 1
+          }
+        ]
+      },
+      // IDIOMS - Time and memory
+      {
+        id: 'b2-m1-l4-idioms-1',
+        type: 'idioms-expressions',
+        title: 'Idioms: Time and Memory',
+        instructions: 'Complete each narrative with the appropriate time-related idiom.',
+        items: [
+          {
+            id: 'id1',
+            context: 'The event happened so quickly that it\'s difficult to remember.',
+            idiom: 'in the blink of an eye',
+            meaning: 'very quickly, in an instant',
+            correctUsage: 'Everything changed in the blink of an eye',
+            options: ['in the blink of an eye', 'once in a blue moon', 'in the nick of time', 'against the clock'],
+            explanation: 'In the blink of an eye = extremely quickly.',
+            points: 1
+          },
+          {
+            id: 'id2',
+            context: 'We barely made it; we arrived just before the deadline.',
+            idiom: 'in the nick of time',
+            meaning: 'at the last possible moment',
+            correctUsage: 'We finished the project in the nick of time',
+            options: ['in the nick of time', 'in the blink of an eye', 'time after time', 'from time to time'],
+            explanation: 'In the nick of time = just before it\'s too late.',
+            points: 1
+          },
+          {
+            id: 'id3',
+            context: 'Looking back at that period of my life brings mixed emotions.',
+            idiom: 'down memory lane',
+            meaning: 'reminiscing about the past',
+            correctUsage: 'Taking a trip down memory lane always makes me nostalgic',
+            options: ['down memory lane', 'once in a while', 'the good old days', 'better late than never'],
+            explanation: 'Down memory lane = an imaginary path through remembered past.',
+            points: 1
+          }
+        ]
+      },
+      // GAP-FILL TEXT - Past tenses
+      {
+        id: 'b2-m1-l4-gapfill-1',
+        type: 'gap-fill-text',
+        title: 'Gap-Fill: A Memorable Journey',
+        instructions: 'Complete the narrative with the correct past tense forms. Write only ONE word per gap.',
+        text: `Last summer, I decided to visit a place I {{1}} never {{2}} to before—Iceland. I {{3}} {{4}} planning the trip for months when, unexpectedly, my best friend {{5}} she wanted to join me.
+
+We {{6}} in Reykjavik early one morning. The sun {{7}} {{8}} shining since 4 AM—we {{9}} {{10}} about the midnight sun, but experiencing it was completely different. While we {{11}} {{12}} our rental car, we met a local who recommended some hidden spots that tourists rarely visit.
+
+For the next week, we explored incredible landscapes. We {{13}} waterfalls that {{14}} {{15}} flowing for thousands of years, and walked on glaciers that {{16}} {{17}} slowly receding due to climate change. One afternoon, while we {{18}} {{19}} along a remote coastal road, we spotted a pod of whales. It was something I {{20}} {{21}} imagining for years, and now it {{22}} {{23}} happening right before my eyes.`,
+        gaps: [
+          { id: 'g1', gapNumber: 1, correctAnswer: 'had', explanation: 'Past Perfect: "had never been"', points: 1 },
+          { id: 'g2', gapNumber: 2, correctAnswer: 'been', acceptableAlternatives: ['gone', 'traveled', 'travelled'], explanation: 'Past participle completing Past Perfect', points: 1 },
+          { id: 'g3', gapNumber: 3, correctAnswer: 'had', explanation: 'Past Perfect Continuous: "had been planning"', points: 1 },
+          { id: 'g4', gapNumber: 4, correctAnswer: 'been', explanation: 'Completing Past Perfect Continuous', points: 1 },
+          { id: 'g5', gapNumber: 5, correctAnswer: 'said', acceptableAlternatives: ['announced', 'mentioned'], explanation: 'Past Simple for completed action', points: 1 },
+          { id: 'g6', gapNumber: 6, correctAnswer: 'arrived', acceptableAlternatives: ['landed'], explanation: 'Past Simple for main narrative action', points: 1 },
+          { id: 'g7', gapNumber: 7, correctAnswer: 'had', explanation: 'Past Perfect Continuous: "had been shining"', points: 1 },
+          { id: 'g8', gapNumber: 8, correctAnswer: 'been', explanation: 'Completing Past Perfect Continuous', points: 1 },
+          { id: 'g9', gapNumber: 9, correctAnswer: 'had', explanation: 'Past Perfect: "had read/heard"', points: 1 },
+          { id: 'g10', gapNumber: 10, correctAnswer: 'read', acceptableAlternatives: ['heard', 'known', 'learned', 'learnt'], explanation: 'Past participle', points: 1 },
+          { id: 'g11', gapNumber: 11, correctAnswer: 'were', explanation: 'Past Continuous: "were picking up"', points: 1 },
+          { id: 'g12', gapNumber: 12, correctAnswer: 'picking', acceptableAlternatives: ['collecting', 'getting'], explanation: 'Present participle for continuous', points: 1 },
+          { id: 'g13', gapNumber: 13, correctAnswer: 'saw', acceptableAlternatives: ['visited', 'found'], explanation: 'Past Simple for main action', points: 1 },
+          { id: 'g14', gapNumber: 14, correctAnswer: 'had', explanation: 'Past Perfect Continuous: "had been flowing"', points: 1 },
+          { id: 'g15', gapNumber: 15, correctAnswer: 'been', explanation: 'Completing Past Perfect Continuous', points: 1 },
+          { id: 'g16', gapNumber: 16, correctAnswer: 'were', acceptableAlternatives: ['had'], explanation: 'Past Continuous or Past Perfect Continuous', points: 1 },
+          { id: 'g17', gapNumber: 17, correctAnswer: 'slowly', acceptableAlternatives: ['been'], explanation: 'Adverb or continuous helper', points: 1 },
+          { id: 'g18', gapNumber: 18, correctAnswer: 'were', explanation: 'Past Continuous: "were driving"', points: 1 },
+          { id: 'g19', gapNumber: 19, correctAnswer: 'driving', explanation: 'Present participle', points: 1 },
+          { id: 'g20', gapNumber: 20, correctAnswer: 'had', explanation: 'Past Perfect Continuous: "had been imagining"', points: 1 },
+          { id: 'g21', gapNumber: 21, correctAnswer: 'been', explanation: 'Completing Past Perfect Continuous', points: 1 },
+          { id: 'g22', gapNumber: 22, correctAnswer: 'was', explanation: 'Past Continuous: "was happening"', points: 1 },
+          { id: 'g23', gapNumber: 23, correctAnswer: 'actually', acceptableAlternatives: ['really', 'finally'], explanation: 'Adverb for emphasis', points: 1 }
+        ]
+      },
+      // SENTENCE REORDERING - Narrative flow
+      {
+        id: 'b2-m1-l4-reorder-1',
+        type: 'sentence-reordering',
+        title: 'Sentence Reordering: Creating Narrative Flow',
+        instructions: 'Arrange the sentences in the correct chronological and logical order.',
+        items: [
+          {
+            id: 'sr1',
+            shuffledSentences: [
+              'By the time the rescue team arrived, we had been waiting for over three hours.',
+              'While we were hiking, dark clouds suddenly appeared on the horizon.',
+              'We had been planning this mountain trek for weeks.',
+              'The storm hit with unexpected intensity, forcing us to seek shelter.',
+              'Looking back, I realized we should have checked the weather forecast more carefully.'
+            ],
+            correctOrder: [2, 1, 3, 0, 4],
+            context: 'A mountain hiking experience gone wrong',
+            explanation: 'Correct sequence: planning (background) → hiking (setting) → storm (event) → waiting (consequence) → reflection',
+            points: 3
+          }
+        ]
+      },
+      // SUMMARY WRITING
+      {
+        id: 'b2-m1-l4-summary-1',
+        type: 'summary-writing',
+        title: 'Summary Writing: Condensing a Narrative',
+        instructions: 'Read the passage and write a summary in 70-90 words. Focus on the main events and outcome.',
+        sourceText: `Maria Rodriguez had always dreamed of opening her own bakery. For years, she had been working as a pastry chef in various restaurants, saving every penny she could. By 2019, she had finally accumulated enough capital to make her dream a reality. She found a perfect location in her neighborhood—a small corner shop that had been vacant for months.
+
+However, just as she was about to sign the lease, the COVID-19 pandemic hit. Everything came to a standstill. While others might have given up, Maria adapted. She started baking from her home kitchen and began selling online. Her business grew steadily through word of mouth and social media.
+
+By the end of 2021, when restrictions had eased, Maria not only opened her bakery but expanded it to include a small café. Her persistence during the difficult times had actually allowed her to build a loyal customer base before even opening her physical location. Today, "Maria's Kitchen" is one of the most popular spots in the neighborhood, and she's planning to open a second location.`,
+        targetWordCount: 80,
+        minWords: 70,
+        maxWords: 90,
+        keyPoints: [
+          'Maria\'s dream of owning a bakery',
+          'Pandemic disrupted original plans',
+          'Adapted by selling online from home',
+          'Built customer base before opening',
+          'Successfully opened and now expanding'
+        ],
+        rubric: {
+          content: 40,
+          conciseness: 30,
+          accuracy: 20,
+          grammar: 10
+        }
+      },
+      // MULTIPLE CHOICE CLOZE - Narrative
+      {
+        id: 'b2-m1-l4-cloze-1',
+        type: 'multiple-choice-cloze',
+        title: 'Multiple Choice Cloze: Discovery',
+        instructions: 'Choose the correct word to complete each gap in the narrative.',
+        text: `The old library {{1}} stood empty for decades when Sarah first {{2}} it. She {{3}} past the building countless times, but that morning something {{4}} her to stop and look closer. The heavy wooden doors {{5}} slightly open, revealing a glimpse of dusty bookshelves inside.
+
+Sarah {{6}} been researching local history for her dissertation, and this building {{7}} mentioned in several historical documents. What she {{8}} was that inside these walls {{9}} a collection of rare manuscripts that everyone {{10}} were lost forever. Her discovery would change not only her academic career but also the understanding of the region's cultural heritage.`,
+        questions: [
+          { id: 'q1', gapNumber: 1, options: ['has', 'had', 'have', 'having'], correctAnswer: 'had', explanation: 'Past Perfect for state before another past action', points: 1 },
+          { id: 'q2', gapNumber: 2, options: ['discovered', 'was discovering', 'had discovered', 'discovers'], correctAnswer: 'discovered', explanation: 'Past Simple for main narrative event', points: 1 },
+          { id: 'q3', gapNumber: 3, options: ['walked', 'was walking', 'had walked', 'had been walking'], correctAnswer: 'had walked', explanation: 'Past Perfect for repeated action before discovery', points: 1 },
+          { id: 'q4', gapNumber: 4, options: ['prompted', 'was prompting', 'had prompted', 'prompts'], correctAnswer: 'prompted', explanation: 'Past Simple for specific action', points: 1 },
+          { id: 'q5', gapNumber: 5, options: ['were', 'are', 'had been', 'have been'], correctAnswer: 'were', explanation: 'Past Simple for description', points: 1 },
+          { id: 'q6', gapNumber: 6, options: ['was', 'has', 'had', 'have'], correctAnswer: 'had', explanation: 'Past Perfect Continuous marker', points: 1 },
+          { id: 'q7', gapNumber: 7, options: ['is', 'was', 'had been', 'has been'], correctAnswer: 'had been', explanation: 'Past Perfect passive', points: 1 },
+          { id: 'q8', gapNumber: 8, options: ['didn\'t know', 'wasn\'t knowing', 'hadn\'t known', 'doesn\'t know'], correctAnswer: 'didn\'t know', explanation: 'Past Simple negative with stative verb', points: 1 },
+          { id: 'q9', gapNumber: 9, options: ['was', 'were', 'had been', 'has been'], correctAnswer: 'was', explanation: 'Past Simple for discovery', points: 1 },
+          { id: 'q10', gapNumber: 10, options: ['think', 'thought', 'had thought', 'were thinking'], correctAnswer: 'had thought', explanation: 'Past Perfect for prior belief', points: 1 }
+        ]
+      },
+      // PRONUNCIATION PRACTICE
+      {
+        id: 'b2-m1-l4-pronun-1',
+        type: 'pronunciation-practice',
+        title: 'Pronunciation: Past Tense Endings',
+        instructions: 'Practice pronouncing these past tense forms with correct /t/, /d/, or /ɪd/ endings.',
+        targetSentences: [
+          {
+            sentence: 'She had WORKED for YEARS before she was PROMOTED.',
+            translation: 'Ella había trabajado durante años antes de ser promovida.',
+            phonetic: '/ʃiː hæd ˈwɜːkt fɔː ˈjɪəz bɪˈfɔː ʃiː wɒz prəˈməʊtɪd/',
+            audioUrl: '/audio/b2-m1-l4-pronun-1a.mp3'
+          },
+          {
+            sentence: 'They had LIVED in PARIS before they MOVED to ROME.',
+            translation: 'Ellos habían vivido en París antes de mudarse a Roma.',
+            phonetic: '/ðeɪ hæd ˈlɪvd ɪn ˈpærɪs bɪˈfɔː ðeɪ ˈmuːvd tə ˈrəʊm/',
+            audioUrl: '/audio/b2-m1-l4-pronun-1b.mp3'
+          },
+          {
+            sentence: 'I had WANTED to VISIT for YEARS.',
+            translation: 'Había querido visitar durante años.',
+            phonetic: '/aɪ hæd ˈwɒntɪd tə ˈvɪzɪt fɔː ˈjɪəz/',
+            audioUrl: '/audio/b2-m1-l4-pronun-1c.mp3'
+          }
+        ],
+        focusPoints: [
+          '/t/ sound after voiceless consonants (worked, helped)',
+          '/d/ sound after voiced consonants and vowels (lived, played)',
+          '/ɪd/ sound after /t/ or /d/ (wanted, needed)'
+        ],
+        difficulty: 'medium',
+        timeLimit: 180
       }
     ]
   },
