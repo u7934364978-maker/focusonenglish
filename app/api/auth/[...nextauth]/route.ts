@@ -6,7 +6,9 @@
 import NextAuth from 'next-auth';
 import { authOptions } from '@/lib/auth';
 
-export const runtime = 'edge';
+// REMOVED: export const runtime = 'edge';
+// NextAuth requires Node.js runtime for crypto and bcrypt modules
+// Cloudflare Pages will use Node.js compatibility mode
 
 const handler = NextAuth(authOptions);
 

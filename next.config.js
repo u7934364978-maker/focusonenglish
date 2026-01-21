@@ -110,7 +110,12 @@ const nextConfig = {
     emotion: false,
   },
   // Paquetes externos que deben ejecutarse en el servidor
-  serverExternalPackages: ['@google-cloud/text-to-speech', 'elevenlabs-node'],
+  serverExternalPackages: [
+    '@google-cloud/text-to-speech', 
+    'elevenlabs-node',
+    'bcryptjs',  // Required for password hashing
+    'next-auth', // Required for authentication
+  ],
   // TypeScript and ESLint errors are now enforced during build
   // This ensures type safety and code quality
   // Opciones de webpack para excluir styled-jsx
