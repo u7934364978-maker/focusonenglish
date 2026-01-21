@@ -6083,7 +6083,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
       },
       // MULTIPLE CHOICE CLOZE - FCE Part 1 Practice
       {
-        id: 'b2-m2-l1-cloze-1',
+        id: 'b2-m2-l2-cloze-1',
         type: 'multiple-choice-cloze',
         title: 'Multiple Choice Cloze: The Rise of Remote Work',
         instructions: 'Read the text below and decide which answer (A, B, C or D) best fits each gap.',
