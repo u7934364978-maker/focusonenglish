@@ -7,7 +7,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 import { hashPassword } from '@/lib/edge-crypto';
 
-export const runtime = 'edge';
+// REMOVED: export const runtime = 'edge';
+// bcryptjs requires Node.js runtime
 // Cliente de Supabase (solo si las variables de entorno están disponibles)
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
 const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
