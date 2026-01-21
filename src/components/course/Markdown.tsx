@@ -144,8 +144,8 @@ export default function Markdown({ content }: { content: string }) {
         "prose-hr:my-6 prose-hr:border-slate-200",
         "prose-ul:pl-5 prose-li:my-1",
         "prose-pre:bg-slate-900 prose-pre:text-slate-50 prose-pre:rounded-2xl",
-        "prose-code:text-violet-700",
-        "prose-a:text-violet-700 prose-a:font-bold",
+        "prose-code:text-coral-700",
+        "prose-a:text-coral-700 prose-a:font-bold",
       ].join(" ")}
     >
       <ReactMarkdown
@@ -154,8 +154,8 @@ export default function Markdown({ content }: { content: string }) {
           // Callout visual (para tips en markdown usando "> ...")
           blockquote({ children }) {
             return (
-              <div className="my-4 rounded-2xl border border-violet-200 bg-violet-50 px-4 py-3 text-sm text-slate-800">
-                <div className="font-black text-violet-900">Tip</div>
+              <div className="my-4 rounded-2xl border border-coral-200 bg-coral-50 px-4 py-3 text-sm text-slate-800">
+                <div className="font-black text-coral-900">Tip</div>
                 <div className="mt-1">{children}</div>
               </div>
             );
@@ -198,7 +198,7 @@ export default function Markdown({ content }: { content: string }) {
                   className={[
                     "mt-[2px] inline-flex h-4 w-4 flex-none items-center justify-center rounded border",
                     props.checked
-                      ? "border-emerald-500 bg-emerald-500"
+                      ? "border-amber-500 bg-amber-500"
                       : "border-slate-300 bg-white",
                   ].join(" ")}
                 />

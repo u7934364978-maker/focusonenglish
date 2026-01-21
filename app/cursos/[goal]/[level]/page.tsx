@@ -4,6 +4,8 @@ import { getCurriculumByLevel } from "@/lib/curriculum-data";
 import CurriculumSection from "@/components/sections/CurriculumSection";
 import { generateCourseSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schemas";
 
+
+export const runtime = 'edge';
 const GOALS = ["trabajo", "viajes", "examenes"] as const;
 const LEVELS = ["a1","a2","b1","b2","c1","c2"] as const;
 
@@ -92,7 +94,7 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
     return (
       <main className="mx-auto max-w-[900px] px-4 py-12">
         <h1 className="text-2xl font-black">Curso no encontrado</h1>
-        <Link className="mt-4 inline-block text-violet-700 font-black" href="/">
+        <Link className="mt-4 inline-block text-coral-700 font-black" href="/">
           Volver a Home →
         </Link>
       </main>
@@ -172,9 +174,9 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
         {/* Breadcrumbs */}
         <nav aria-label="breadcrumb" className="mb-6">
           <ol className="flex flex-wrap items-center gap-2 text-sm text-slate-600">
-            <li><Link href="/" className="hover:text-violet-600 transition-colors">Inicio</Link></li>
+            <li><Link href="/" className="hover:text-coral-600 transition-colors">Inicio</Link></li>
             <li className="text-slate-400">›</li>
-            <li><Link href="/cursos-especializados" className="hover:text-violet-600 transition-colors">Cursos</Link></li>
+            <li><Link href="/cursos-especializados" className="hover:text-coral-600 transition-colors">Cursos</Link></li>
             <li className="text-slate-400">›</li>
             <li className="font-semibold text-slate-900">{GOAL_LABEL[goal]} - {LEVEL_LABEL[level]}</li>
           </ol>
@@ -185,7 +187,7 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
           <h1 className="mt-2 text-4xl md:text-5xl font-black tracking-tight text-slate-900">
             {GOAL_LABEL[goal]}
           </h1>
-          <div className="mt-3 text-2xl font-bold text-blue-600">
+          <div className="mt-3 text-2xl font-bold text-coral-600">
             {LEVEL_LABEL[level]}
           </div>
           <p className="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">
@@ -195,7 +197,7 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Link
               href="/signup"
-              className="inline-flex h-12 items-center justify-center rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 px-8 text-base font-bold text-white hover:from-blue-700 hover:to-purple-700 transition-all shadow-lg hover:shadow-xl"
+              className="inline-flex h-12 items-center justify-center rounded-xl bg-gradient-to-r from-coral-600 to-peach-600 px-8 text-base font-bold text-white hover:from-coral-700 hover:to-peach-700 transition-all shadow-lg hover:shadow-xl"
             >
               Inscribirme Ahora →
             </Link>
@@ -210,20 +212,20 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
 
         {/* Quick Info Cards */}
         <div className="grid md:grid-cols-3 gap-6 mb-12">
-          <div className="bg-white rounded-xl border-2 border-blue-200 p-6 text-center">
+          <div className="bg-white rounded-xl border-2 border-orange-200 p-6 text-center">
             <div className="text-3xl mb-2">⏱️</div>
             <div className="font-bold text-slate-900">Duración</div>
-            <div className="text-blue-600 font-semibold">{curriculum?.duration || '12 semanas'}</div>
+            <div className="text-coral-600 font-semibold">{curriculum?.duration || '12 semanas'}</div>
           </div>
-          <div className="bg-white rounded-xl border-2 border-purple-200 p-6 text-center">
+          <div className="bg-white rounded-xl border-2 border-peach-200 p-6 text-center">
             <div className="text-3xl mb-2">📚</div>
             <div className="font-bold text-slate-900">Módulos</div>
-            <div className="text-purple-600 font-semibold">{curriculum?.modules.length || 3} módulos completos</div>
+            <div className="text-peach-600 font-semibold">{curriculum?.modules.length || 3} módulos completos</div>
           </div>
-          <div className="bg-white rounded-xl border-2 border-green-200 p-6 text-center">
+          <div className="bg-white rounded-xl border-2 border-amber-200 p-6 text-center">
             <div className="text-3xl mb-2">🎓</div>
             <div className="font-bold text-slate-900">Certificación</div>
-            <div className="text-green-600 font-semibold">Preparación oficial</div>
+            <div className="text-amber-600 font-semibold">Preparación oficial</div>
           </div>
         </div>
       </div>
@@ -233,7 +235,7 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
 
       {/* Goal-Specific Content */}
       <div className="max-w-6xl mx-auto mt-16">
-        <section className="bg-gradient-to-br from-violet-50 to-purple-50 rounded-2xl border-2 border-violet-200 p-8">
+        <section className="bg-gradient-to-br from-coral-50 to-peach-50 rounded-2xl border-2 border-coral-200 p-8">
           <h2 className="text-2xl font-black text-slate-900 mb-6">
             {goal === 'trabajo' && '💼 Enfoque Profesional'}
             {goal === 'viajes' && '✈️ Enfoque en Viajes'}
@@ -245,19 +247,19 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
               <p>Este curso está diseñado específicamente para entornos laborales y profesionales:</p>
               <ul className="space-y-2 ml-4">
                 <li className="flex items-start gap-2">
-                  <span className="text-violet-600 mt-1">✓</span>
+                  <span className="text-coral-600 mt-1">✓</span>
                   <span>Vocabulario técnico y profesional de tu sector</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-violet-600 mt-1">✓</span>
+                  <span className="text-coral-600 mt-1">✓</span>
                   <span>Comunicación en reuniones y presentaciones</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-violet-600 mt-1">✓</span>
+                  <span className="text-coral-600 mt-1">✓</span>
                   <span>Emails y escritura corporativa</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-violet-600 mt-1">✓</span>
+                  <span className="text-coral-600 mt-1">✓</span>
                   <span>Negociación y networking profesional</span>
                 </li>
               </ul>
@@ -269,19 +271,19 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
               <p>Aprende inglés práctico para viajar con confianza:</p>
               <ul className="space-y-2 ml-4">
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-600 mt-1">✓</span>
+                  <span className="text-coral-600 mt-1">✓</span>
                   <span>Situaciones en aeropuertos y hoteles</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-600 mt-1">✓</span>
+                  <span className="text-coral-600 mt-1">✓</span>
                   <span>Restaurantes y compras</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-600 mt-1">✓</span>
+                  <span className="text-coral-600 mt-1">✓</span>
                   <span>Pedir direcciones y usar transporte</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-600 mt-1">✓</span>
+                  <span className="text-coral-600 mt-1">✓</span>
                   <span>Emergencias y situaciones médicas</span>
                 </li>
               </ul>
@@ -314,9 +316,9 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
         </section>
 
         {/* Pricing CTA */}
-        <section className="mt-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white text-center">
+        <section className="mt-12 bg-gradient-to-r from-coral-600 to-peach-600 rounded-2xl p-8 text-white text-center">
           <h2 className="text-3xl font-black mb-4">Acceso Completo con Suscripción</h2>
-          <p className="text-lg mb-6 text-blue-100">
+          <p className="text-lg mb-6 text-orange-100">
             Accede a este curso y todos los niveles (A1-C2) con nuestra suscripción mensual
           </p>
           <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -332,7 +334,7 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
           </div>
           <Link
             href="/planes"
-            className="inline-block bg-white text-blue-600 px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-50 transition-all shadow-lg"
+            className="inline-block bg-white text-coral-600 px-8 py-4 rounded-xl font-bold text-lg hover:bg-orange-50 transition-all shadow-lg"
           >
             Ver Planes y Características →
           </Link>
@@ -345,7 +347,7 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
           </p>
           <Link 
             href="/contact" 
-            className="mt-3 inline-flex items-center text-violet-600 font-bold text-sm hover:text-violet-700"
+            className="mt-3 inline-flex items-center text-coral-600 font-bold text-sm hover:text-coral-700"
           >
             Agendar consulta gratuita →
           </Link>
@@ -360,10 +362,10 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
             {faqs.map((faq, index) => (
               <details 
                 key={index}
-                className="group bg-white rounded-xl border-2 border-slate-200 p-6 hover:border-violet-300 transition-colors"
+                className="group bg-white rounded-xl border-2 border-slate-200 p-6 hover:border-coral-300 transition-colors"
               >
                 <summary className="font-bold text-slate-900 cursor-pointer flex items-start gap-3 text-lg">
-                  <span className="text-violet-600 flex-shrink-0 mt-1">❓</span>
+                  <span className="text-coral-600 flex-shrink-0 mt-1">❓</span>
                   <span className="flex-1">{faq.question}</span>
                   <span className="text-slate-400 group-open:rotate-180 transition-transform flex-shrink-0">▼</span>
                 </summary>

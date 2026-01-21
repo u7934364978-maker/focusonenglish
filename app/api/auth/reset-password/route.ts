@@ -8,6 +8,8 @@ import { createClient } from '@supabase/supabase-js';
 import bcrypt from 'bcryptjs';
 import { sendPasswordChangedEmail } from '@/lib/email-service';
 
+
+export const runtime = 'edge';
 // Cliente de Supabase (solo si las variables de entorno están disponibles)
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
 const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
@@ -70,14 +72,15 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Hash de la nueva contraseña
-    const passwordHash = await bcrypt.hash(password, 10);
+    // Hash de la nueva contraseña usando Web Crypto API (Edge compatible)
+    const { hash: passwordHash, salt: passwordSalt } = await hashPassword(password);
 
     // Actualizar contraseña del usuario
     const { error: updateError } = await supabase
       .from('users')
       .update({
         password_hash: passwordHash,
+        password_salt: passwordSalt,
         updated_at: new Date().toISOString(),
       })
       .eq('id', tokenData.user_id);

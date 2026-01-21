@@ -21,7 +21,7 @@ export function ShareButton({ title, description }: ShareButtonProps) {
   return (
     <button 
       onClick={handleShare}
-      className="text-sm text-violet-600 font-semibold hover:text-violet-700 cursor-pointer"
+      className="text-sm text-coral-600 font-semibold hover:text-coral-700 cursor-pointer"
       type="button"
     >
       Compartir 🔗

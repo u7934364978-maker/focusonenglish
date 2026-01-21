@@ -24,7 +24,7 @@ function CourseCard({
       <div className="mt-5 flex flex-wrap gap-3">
         <Link
           href={hrefPrimary}
-          className="inline-flex h-11 items-center justify-center rounded-xl bg-violet-600 px-5 text-sm font-black text-white hover:brightness-95"
+          className="inline-flex h-11 items-center justify-center rounded-xl bg-coral-600 px-5 text-sm font-black text-white hover:brightness-95"
         >
           {primaryLabel}
         </Link>
@@ -53,7 +53,7 @@ export default function CoursesIndexPage() {
       <h1 className="mt-3 text-3xl font-black tracking-tight text-slate-900">Cursos</h1>
       <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-600">
         Selecciona un curso y entra por nivel. Recomendado: empezar por{" "}
-        <Link className="font-black text-violet-700 hover:underline" href="/app/cursos/emailing/b1/semana-01">
+        <Link className="font-black text-coral-700 hover:underline" href="/app/cursos/emailing/b1/semana-01">
           Emailing B1 · Semana 01
         </Link>.
       </p>

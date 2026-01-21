@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getStripePriceId } from '@/lib/stripe-config';
 import { getAllPlans } from '@/lib/subscription-plans';
 
+
+export const runtime = 'edge';
 export async function GET(request: NextRequest) {
   try {
     const plans = getAllPlans();

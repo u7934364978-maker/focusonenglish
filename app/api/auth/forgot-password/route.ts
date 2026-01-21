@@ -5,9 +5,10 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
-import crypto from 'crypto';
+import { generateRandomToken } from '@/lib/edge-crypto';
 import { sendPasswordResetEmail } from '@/lib/email-service';
 
+export const runtime = 'edge';
 // Cliente de Supabase (solo si las variables de entorno están disponibles)
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
 const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
@@ -65,8 +66,8 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Generar token único y seguro
-    const resetToken = crypto.randomBytes(32).toString('hex');
+    // Generar token único y seguro usando Web Crypto API
+    const resetToken = generateRandomToken(32);
     
     // Token expira en 1 hora
     const expiresAt = new Date();

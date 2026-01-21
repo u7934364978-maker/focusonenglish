@@ -217,7 +217,7 @@ export default function ExercisesPanel({ data }: { data: ExercisesFile }) {
             className={[
               "inline-flex h-10 items-center justify-center rounded-2xl border px-4 text-sm font-black transition",
               showExtension
-                ? "border-violet-600 bg-violet-600 text-white"
+                ? "border-coral-600 bg-coral-600 text-white"
                 : "border-slate-200 bg-white text-slate-800 hover:bg-slate-50",
             ].join(" ")}
           >
@@ -240,12 +240,12 @@ export default function ExercisesPanel({ data }: { data: ExercisesFile }) {
           <div className="font-black text-slate-900">
             Completados: {completedCount}/{data.items.length}
           </div>
-          <div className="font-black text-violet-700">{percentAll}%</div>
+          <div className="font-black text-coral-700">{percentAll}%</div>
         </div>
 
         <div className="mt-3 h-4 w-full rounded-full bg-slate-100 overflow-hidden">
           <div 
-            className="h-4 rounded-full bg-gradient-to-r from-violet-500 to-violet-600 transition-all duration-500 ease-out" 
+            className="h-4 rounded-full bg-gradient-to-r from-coral-500 to-coral-600 transition-all duration-500 ease-out" 
             style={{ width: `${percentAll}%` }} 
           />
         </div>
@@ -288,14 +288,14 @@ export default function ExercisesPanel({ data }: { data: ExercisesFile }) {
               <button
                 type="button"
                 onClick={onResetCycle}
-                className="inline-flex h-11 items-center justify-center rounded-xl bg-violet-600 px-5 text-sm font-black text-white hover:brightness-95 transition"
+                className="inline-flex h-11 items-center justify-center rounded-xl bg-coral-600 px-5 text-sm font-black text-white hover:brightness-95 transition"
               >
                 🔄 Reset ciclo
               </button>
             ) : null}
 
             {gate.passed ? (
-              <span className="inline-flex h-11 items-center justify-center rounded-xl border border-emerald-200 bg-emerald-50 px-5 text-sm font-black text-emerald-800">
+              <span className="inline-flex h-11 items-center justify-center rounded-xl border border-amber-200 bg-amber-50 px-5 text-sm font-black text-amber-800">
                 ✅ Práctica aprobada
               </span>
             ) : null}
@@ -345,7 +345,7 @@ export default function ExercisesPanel({ data }: { data: ExercisesFile }) {
                   )}
 
                   {done ? (
-                    <span className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1.5 text-xs font-extrabold text-emerald-800">
+                    <span className="inline-flex items-center rounded-full border border-amber-200 bg-amber-50 px-3 py-1.5 text-xs font-extrabold text-amber-800">
                       ✓ done
                     </span>
                   ) : (

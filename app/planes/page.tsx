@@ -23,11 +23,11 @@ export default function PlanesPage() {
   return (
     <>
       <Navigation />
-      <main className="min-h-screen bg-gradient-to-br from-violet-50 via-purple-50 to-pink-50 py-20">
+      <main className="min-h-screen bg-gradient-to-br from-coral-50 via-peach-50 to-pink-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-100 text-violet-700 text-sm font-bold mb-4">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-coral-100 text-coral-700 text-sm font-bold mb-4">
               <span>💎</span>
               <span>Planes de Suscripción</span>
             </div>
@@ -44,7 +44,7 @@ export default function PlanesPage() {
                 onClick={() => setBillingCycle('month')}
                 className={`px-6 py-3 rounded-lg font-bold transition-all ${
                   billingCycle === 'month'
-                    ? 'bg-violet-600 text-white shadow-lg'
+                    ? 'bg-coral-600 text-white shadow-lg'
                     : 'bg-white text-slate-700 border-2 border-slate-200'
                 }`}
               >
@@ -54,12 +54,12 @@ export default function PlanesPage() {
                 onClick={() => setBillingCycle('year')}
                 className={`px-6 py-3 rounded-lg font-bold transition-all relative ${
                   billingCycle === 'year'
-                    ? 'bg-violet-600 text-white shadow-lg'
+                    ? 'bg-coral-600 text-white shadow-lg'
                     : 'bg-white text-slate-700 border-2 border-slate-200'
                 }`}
               >
                 Anual
-                <span className="absolute -top-2 -right-2 bg-green-500 text-white text-xs px-2 py-1 rounded-full font-bold">
+                <span className="absolute -top-2 -right-2 bg-amber-500 text-white text-xs px-2 py-1 rounded-full font-bold">
                   Ahorra 11-17%
                 </span>
               </button>
@@ -67,19 +67,19 @@ export default function PlanesPage() {
 
             <div className="flex items-center justify-center gap-4 text-sm text-slate-600">
               <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <span>Sin permanencia</span>
               </div>
               <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <span>Cancela cuando quieras</span>
               </div>
               <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <span>Todos los niveles A1-C2</span>
@@ -98,7 +98,7 @@ export default function PlanesPage() {
               >
                 {/* Popular Badge */}
                 {plan.popular && (
-                  <div className="absolute top-0 right-0 bg-gradient-to-r from-violet-600 to-purple-600 text-white px-6 py-2 rounded-bl-2xl font-bold text-sm">
+                  <div className="absolute top-0 right-0 bg-gradient-to-r from-coral-600 to-peach-600 text-white px-6 py-2 rounded-bl-2xl font-bold text-sm">
                     ⭐ Más Popular
                   </div>
                 )}
@@ -121,7 +121,7 @@ export default function PlanesPage() {
                       </span>
                     </div>
                     {plan.interval === 'year' && (
-                      <div className="inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-bold mb-2">
+                      <div className="inline-block bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-bold mb-2">
                         💰 {plan.id.includes('basic') ? 'Ahorra €19.89/año' : 'Ahorra €59.89/año'}
                       </div>
                     )}
@@ -131,7 +131,7 @@ export default function PlanesPage() {
                       </p>
                     )}
                     {plan.id.includes('premium') && (
-                      <p className="text-sm text-violet-600 font-bold">
+                      <p className="text-sm text-coral-600 font-bold">
                         ✨ Todos los cursos · Especialización profesional · Viajes
                       </p>
                     )}
@@ -179,7 +179,7 @@ export default function PlanesPage() {
                     disabled={isLoading === plan.id}
                     className={`w-full py-4 px-6 rounded-xl font-bold text-lg transition-all ${
                       plan.popular
-                        ? 'bg-gradient-to-r from-violet-600 to-purple-600 text-white hover:from-violet-700 hover:to-purple-700 shadow-lg hover:shadow-xl'
+                        ? 'bg-gradient-to-r from-coral-600 to-peach-600 text-white hover:from-coral-700 hover:to-peach-700 shadow-lg hover:shadow-xl'
                         : `bg-gradient-to-r ${plan.color.gradient} text-white hover:shadow-lg`
                     } disabled:opacity-50 disabled:cursor-not-allowed`}
                   >
@@ -258,7 +258,7 @@ export default function PlanesPage() {
           </div>
 
           {/* Bottom CTA */}
-          <div className="text-center mt-16 bg-gradient-to-r from-violet-600 to-purple-600 rounded-2xl p-12 text-white">
+          <div className="text-center mt-16 bg-gradient-to-r from-coral-600 to-peach-600 rounded-2xl p-12 text-white">
             <h2 className="text-3xl font-black mb-4">
               ¿Aún tienes dudas?
             </h2>
@@ -268,13 +268,13 @@ export default function PlanesPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center bg-white text-violet-600 px-8 py-3 rounded-lg font-bold hover:bg-slate-100 transition-colors"
+                className="inline-flex items-center justify-center bg-white text-coral-600 px-8 py-3 rounded-lg font-bold hover:bg-slate-100 transition-colors"
               >
                 💬 Hablar con un Asesor
               </Link>
               <Link
                 href="/diagnostico"
-                className="inline-flex items-center justify-center bg-violet-800 text-white px-8 py-3 rounded-lg font-bold hover:bg-violet-900 transition-colors"
+                className="inline-flex items-center justify-center bg-coral-800 text-white px-8 py-3 rounded-lg font-bold hover:bg-coral-900 transition-colors"
               >
                 🎯 Hacer Test de Nivel Gratis
               </Link>

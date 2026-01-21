@@ -1,5 +1,8 @@
-# Deploy forzado Wed Jan 15 16:45:00 UTC 2026
-# Cambios incluidos:
-# - Fix dominio sitemap (focusenglish.com -> focus-on-english.com)
-# - Artículo preparación exámenes rehecho completamente
-# - Optimización SEO: preparación Cambridge, TOEFL, IELTS
+Sat Jan 18 03:50:00 UTC 2026
+MAJOR UPDATE: Random Exercise Generation System
+- Implemented 25 structured topics across 6 modules
+- Full random generation (topics, categories, types)
+- Auto-redirect to practice (no configuration needed)
+- 1 question per exercise for faster practice
+- Simplified metrics and improved UI
+- Cache disabled for unique exercises every time

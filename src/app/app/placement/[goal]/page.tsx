@@ -151,7 +151,7 @@ export default function PlacementGoalPage({ params }: PageProps) {
             </div>
             <div className="mt-2 h-3 w-full rounded-full bg-slate-100">
               <div
-                className="h-3 rounded-full bg-violet-600 transition-all"
+                className="h-3 rounded-full bg-coral-600 transition-all"
                 style={{ width: `${Math.round((answeredCount / total) * 100)}%` }}
               />
             </div>
@@ -173,7 +173,7 @@ export default function PlacementGoalPage({ params }: PageProps) {
                       onClick={() => setAnswers((a) => ({ ...a, [q.id]: i }))}
                       className={[
                         "text-left rounded-2xl border px-4 py-3 text-sm font-semibold",
-                        answers[q.id] === i ? "border-violet-400 bg-violet-50" : "border-slate-200 bg-white hover:bg-slate-50",
+                        answers[q.id] === i ? "border-coral-400 bg-coral-50" : "border-slate-200 bg-white hover:bg-slate-50",
                       ].join(" ")}
                     >
                       {opt}
@@ -196,12 +196,12 @@ export default function PlacementGoalPage({ params }: PageProps) {
           </div>
         </>
       ) : (
-        <div className="mt-6 rounded-3xl border border-emerald-200 bg-emerald-50 p-6">
-          <div className="text-xs font-extrabold tracking-wide text-emerald-800">RESULTADO</div>
-          <h2 className="mt-2 text-2xl font-black text-emerald-900">
+        <div className="mt-6 rounded-3xl border border-amber-200 bg-amber-50 p-6">
+          <div className="text-xs font-extrabold tracking-wide text-amber-800">RESULTADO</div>
+          <h2 className="mt-2 text-2xl font-black text-amber-900">
             Nivel recomendado: {recommended?.toUpperCase()}
           </h2>
-          <p className="mt-2 text-sm text-emerald-900">
+          <p className="mt-2 text-sm text-amber-900">
             A partir de ahora, solo podrás acceder a este nivel y los que desbloquees avanzando (nivel siguiente se desbloquea al aprobar Semana 36).
           </p>
 
@@ -209,20 +209,20 @@ export default function PlacementGoalPage({ params }: PageProps) {
             <button
               type="button"
               onClick={goToRecommended}
-              className="inline-flex h-11 items-center justify-center rounded-xl bg-emerald-700 px-5 text-sm font-black text-white hover:bg-emerald-800"
+              className="inline-flex h-11 items-center justify-center rounded-xl bg-amber-700 px-5 text-sm font-black text-white hover:bg-amber-800"
             >
               Ir al nivel recomendado
             </button>
 
             <Link
               href={`/app/cursos/${goal}`}
-              className="inline-flex h-11 items-center justify-center rounded-xl border border-emerald-200 bg-white px-5 text-sm font-black text-emerald-900 hover:bg-emerald-50"
+              className="inline-flex h-11 items-center justify-center rounded-xl border border-amber-200 bg-white px-5 text-sm font-black text-amber-900 hover:bg-amber-50"
             >
               Volver a niveles
             </Link>
           </div>
 
-          <div className="mt-4 rounded-2xl border border-emerald-200 bg-white p-4 text-sm text-slate-700">
+          <div className="mt-4 rounded-2xl border border-amber-200 bg-white p-4 text-sm text-slate-700">
             <div className="font-black text-slate-900">Detalle (aciertos por banda)</div>
             <div className="mt-2 grid gap-1">
               {Object.entries(scores).map(([lvl, s]) => (

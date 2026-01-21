@@ -43,3 +43,6 @@ __MACOSX/
 # RTF files (temporary)
 *.rtf
 .env.local
+
+# Admin credentials (SENSITIVE - DO NOT COMMIT)
+ADMIN_CREDENTIALS.md

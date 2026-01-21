@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+
+export const runtime = 'edge';
 // Tipos para el formulario de notificación
 interface NotifySignupData {
   email: string;

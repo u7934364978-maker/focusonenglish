@@ -341,8 +341,8 @@ export function calculateLevel(score: number, totalPoints: number): LevelResult 
         'Preparación para contextos profesionales especializados'
       ],
       courseUrl: '/cursos/examenes/c2',
-      color: 'from-purple-500 to-pink-500',
-      gradient: 'bg-gradient-to-br from-purple-500 to-pink-500',
+      color: 'from-peach-500 to-pink-500',
+      gradient: 'bg-gradient-to-br from-peach-500 to-pink-500',
     };
   } else if (percentage >= 80) {
     return {
@@ -356,8 +356,8 @@ export function calculateLevel(score: number, totalPoints: number): LevelResult 
         'Redacción académica y profesional'
       ],
       courseUrl: '/cursos/examenes/c1',
-      color: 'from-blue-500 to-indigo-500',
-      gradient: 'bg-gradient-to-br from-blue-500 to-indigo-500',
+      color: 'from-orange-500 to-coral-500',
+      gradient: 'bg-gradient-to-br from-orange-500 to-coral-500',
     };
   } else if (percentage >= 65) {
     return {
@@ -371,8 +371,8 @@ export function calculateLevel(score: number, totalPoints: number): LevelResult 
         'Conversación avanzada'
       ],
       courseUrl: '/cursos/examenes/b2',
-      color: 'from-green-500 to-emerald-500',
-      gradient: 'bg-gradient-to-br from-green-500 to-emerald-500',
+      color: 'from-amber-500 to-amber-500',
+      gradient: 'bg-gradient-to-br from-amber-500 to-amber-500',
     };
   } else if (percentage >= 50) {
     return {

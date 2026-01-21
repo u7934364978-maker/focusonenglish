@@ -49,7 +49,7 @@ function WeekCard({
         </div>
 
         {available ? (
-          <span className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-extrabold text-emerald-800">
+          <span className="inline-flex items-center rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-xs font-extrabold text-amber-800">
             disponible
           </span>
         ) : (
@@ -63,7 +63,7 @@ function WeekCard({
         {available ? (
           <Link
             href={weekHref}
-            className="inline-flex h-11 w-full items-center justify-center rounded-xl bg-violet-600 px-5 text-sm font-black text-white hover:brightness-95"
+            className="inline-flex h-11 w-full items-center justify-center rounded-xl bg-coral-600 px-5 text-sm font-black text-white hover:brightness-95"
           >
             Abrir semana
           </Link>
