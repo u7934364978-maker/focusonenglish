@@ -12,7 +12,16 @@ export type ExerciseType =
   | 'pronunciation-practice' // NUEVO: Pronunciación con evaluación real
   | 'key-word-transformation'
   | 'word-formation'
-  | 'multiple-choice-cloze';
+  | 'multiple-choice-cloze'
+  | 'sentence-completion'
+  | 'error-identification'
+  | 'paraphrasing'
+  | 'collocation-matching'
+  | 'phrasal-verbs'
+  | 'idioms-expressions'
+  | 'summary-writing'
+  | 'gap-fill-text'
+  | 'sentence-reordering';
 
 export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 
@@ -326,7 +335,16 @@ export type Exercise =
   | KeyWordTransformationExercise
   | WordFormationExercise
   | MultipleChoiceClozeExercise
-  | PronunciationPracticeExercise; // NUEVO
+  | PronunciationPracticeExercise
+  | SentenceCompletionExercise
+  | ErrorIdentificationExercise
+  | ParaphrasingExercise
+  | CollocationMatchingExercise
+  | PhrasalVerbsExercise
+  | IdiomsExpressionsExercise
+  | SummaryWritingExercise
+  | GapFillTextExercise
+  | SentenceReorderingExercise;
 
 export interface Lesson {
   id: string;
@@ -1157,6 +1175,344 @@ The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for y
           }
         ],
         focusAreas: ['Noun suffixes', 'Negative prefixes', 'Adjective to noun']
+      },
+      {
+        id: 'b2-m1-l1-sentence-completion-1',
+        type: 'sentence-completion',
+        title: 'Complete the Sentences with Past Perfect',
+        instructions: 'Complete each sentence with the correct form of the verb in brackets using Past Perfect.',
+        sentences: [
+          {
+            id: 'sc1',
+            prompt: 'By the time we arrived at the cinema, the movie ___ (already/start).',
+            correctCompletion: 'had already started',
+            explanation: 'The movie started before we arrived, so we use Past Perfect.',
+            points: 1
+          },
+          {
+            id: 'sc2',
+            prompt: 'She ___ (never/see) such a beautiful sunset before that evening.',
+            correctCompletion: 'had never seen',
+            explanation: 'This describes an experience before a past moment, requiring Past Perfect.',
+            points: 1
+          },
+          {
+            id: 'sc3',
+            prompt: 'They were exhausted because they ___ (work) all night.',
+            correctCompletion: 'had been working',
+            explanation: 'Past Perfect Continuous emphasizes the duration of the action causing their exhaustion.',
+            points: 1
+          },
+          {
+            id: 'sc4',
+            prompt: 'I ___ (not/finish) my homework when my friends arrived.',
+            correctCompletion: 'had not finished',
+            explanation: 'The homework was incomplete before the friends arrived, so we use Past Perfect.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l1-sentence-completion-2',
+        type: 'sentence-completion',
+        title: 'Past Perfect Continuous Practice',
+        instructions: 'Choose the correct option to complete each sentence.',
+        sentences: [
+          {
+            id: 'sc1',
+            prompt: 'How long ___ before you finally found your keys?',
+            correctCompletion: 'had you been looking',
+            options: ['did you look', 'were you looking', 'had you looked', 'had you been looking'],
+            explanation: 'We use Past Perfect Continuous to emphasize the duration of the search.',
+            points: 1
+          },
+          {
+            id: 'sc2',
+            prompt: 'The garden was wet because it ___ all morning.',
+            correctCompletion: 'had been raining',
+            options: ['rained', 'was raining', 'had rained', 'had been raining'],
+            explanation: 'Past Perfect Continuous shows the rain continued for some time before the observation.',
+            points: 1
+          },
+          {
+            id: 'sc3',
+            prompt: 'We ___ for the bus for over an hour when it finally came.',
+            correctCompletion: 'had been waiting',
+            options: ['waited', 'were waiting', 'had waited', 'had been waiting'],
+            explanation: 'The duration of waiting (over an hour) requires Past Perfect Continuous.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l1-error-identification-1',
+        type: 'error-identification',
+        title: 'Identify Past Perfect Errors',
+        instructions: 'Identify if there is an error in each sentence. If there is, provide the correction.',
+        sentences: [
+          {
+            id: 'ei1',
+            sentence: 'When I got home, I realized I have forgotten my keys at work.',
+            hasError: true,
+            errorWord: 'have forgotten',
+            correction: 'had forgotten',
+            explanation: 'We need Past Perfect (had forgotten) because forgetting happened before realizing.',
+            points: 1
+          },
+          {
+            id: 'ei2',
+            sentence: 'She had been studying English for three years before she moved to London.',
+            hasError: false,
+            explanation: 'This sentence is correct. Past Perfect Continuous shows the duration of study before moving.',
+            points: 1
+          },
+          {
+            id: 'ei3',
+            sentence: 'They have been waiting for two hours when the concert finally started.',
+            hasError: true,
+            errorWord: 'have been waiting',
+            correction: 'had been waiting',
+            explanation: 'We need Past Perfect Continuous (had been waiting) because both actions are in the past.',
+            points: 1
+          },
+          {
+            id: 'ei4',
+            sentence: 'By 2015, he had lived in five different countries.',
+            hasError: false,
+            explanation: 'This sentence is correct. Past Perfect is used for experiences before a past point in time.',
+            points: 1
+          },
+          {
+            id: 'ei5',
+            sentence: 'I was tired because I didn\'t sleep well the night before.',
+            hasError: true,
+            errorWord: 'didn\'t sleep',
+            correction: 'hadn\'t slept',
+            explanation: 'Past Perfect (hadn\'t slept) is better here to show the night before was earlier than being tired.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l1-error-identification-2',
+        type: 'error-identification',
+        title: 'Advanced Past Perfect Error Detection',
+        instructions: 'Find and correct errors in these more complex sentences.',
+        sentences: [
+          {
+            id: 'ei1',
+            sentence: 'After she had ate breakfast, she went to work.',
+            hasError: true,
+            errorWord: 'had ate',
+            correction: 'had eaten',
+            explanation: 'The past participle of "eat" is "eaten", not "ate".',
+            points: 1
+          },
+          {
+            id: 'ei2',
+            sentence: 'He was angry because his team had been losing three games in a row.',
+            hasError: true,
+            errorWord: 'had been losing',
+            correction: 'had lost',
+            explanation: 'We use Past Perfect (had lost) for completed actions, not Past Perfect Continuous here.',
+            points: 1
+          },
+          {
+            id: 'ei3',
+            sentence: 'We had been living in that house for ten years when we decided to move.',
+            hasError: false,
+            explanation: 'Correct. Past Perfect Continuous emphasizes the duration (ten years) before deciding to move.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l1-paraphrasing-1',
+        type: 'paraphrasing',
+        title: 'Paraphrase Using Past Perfect',
+        instructions: 'Rewrite each sentence pair as a single sentence using Past Perfect or Past Perfect Continuous.',
+        items: [
+          {
+            id: 'p1',
+            originalSentence: 'First, I studied all the documents. Then, I made my decision.',
+            correctParaphrase: 'I had studied all the documents before I made my decision.',
+            explanation: 'Combine using Past Perfect for the first action, Past Simple for the second.',
+            points: 2
+          },
+          {
+            id: 'p2',
+            originalSentence: 'She practiced piano for hours every day. That\'s why she performed so well.',
+            correctParaphrase: 'She performed so well because she had been practicing piano for hours every day.',
+            explanation: 'Past Perfect Continuous emphasizes the ongoing practice that led to the good performance.',
+            points: 2
+          },
+          {
+            id: 'p3',
+            originalSentence: 'They arrived at the station at 9:05. The train left at 9:00.',
+            correctParaphrase: 'When they arrived at the station, the train had already left.',
+            explanation: 'The train leaving (9:00) happened before arrival (9:05), so we use Past Perfect.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l1-collocation-matching-1',
+        type: 'collocation-matching',
+        title: 'Common Collocations with Past Perfect',
+        instructions: 'Match each verb with the correct noun to form common collocations.',
+        pairs: [
+          {
+            id: 'cm1',
+            word: 'make',
+            correctMatch: 'a decision',
+            distractors: ['an effort', 'a choice', 'a mistake'],
+            example: 'By the time he arrived, I had already made a decision.',
+            points: 1
+          },
+          {
+            id: 'cm2',
+            word: 'take',
+            correctMatch: 'a break',
+            distractors: ['a rest', 'a pause', 'a stop'],
+            example: 'She had taken a break before continuing with her work.',
+            points: 1
+          },
+          {
+            id: 'cm3',
+            word: 'reach',
+            correctMatch: 'a conclusion',
+            distractors: ['a decision', 'an agreement', 'an understanding'],
+            example: 'The scientists had reached a conclusion after years of research.',
+            points: 1
+          },
+          {
+            id: 'cm4',
+            word: 'lose',
+            correctMatch: 'touch',
+            distractors: ['contact', 'connection', 'communication'],
+            example: 'They had lost touch with each other after moving to different cities.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l1-phrasal-verbs-1',
+        type: 'phrasal-verbs',
+        title: 'Phrasal Verbs in Past Perfect Context',
+        instructions: 'Complete each sentence with the correct phrasal verb in Past Perfect form.',
+        items: [
+          {
+            id: 'pv1',
+            sentence: 'She ___ her coat before leaving the house.',
+            phrasalVerb: 'put on',
+            meaning: 'to wear or dress in something',
+            correctAnswer: 'had put on',
+            options: ['had put on', 'had put off', 'had put up', 'had put away'],
+            explanation: 'Put on = to wear. She wore her coat before leaving.',
+            points: 1
+          },
+          {
+            id: 'pv2',
+            sentence: 'They ___ with a brilliant solution by the time the meeting started.',
+            phrasalVerb: 'come up',
+            meaning: 'to think of or suggest an idea',
+            correctAnswer: 'had come up',
+            options: ['had come up', 'had come across', 'had come down', 'had come over'],
+            explanation: 'Come up with = to think of an idea or solution.',
+            points: 1
+          },
+          {
+            id: 'pv3',
+            sentence: 'He ___ smoking a year before we met him.',
+            phrasalVerb: 'give up',
+            meaning: 'to stop doing something',
+            correctAnswer: 'had given up',
+            options: ['had given up', 'had given in', 'had given away', 'had given back'],
+            explanation: 'Give up = to stop or quit something, especially a habit.',
+            points: 1
+          },
+          {
+            id: 'pv4',
+            sentence: 'I ___ an old friend while shopping when I realized we ___ for years.',
+            phrasalVerb: 'run into / lose touch',
+            meaning: 'to meet by chance / to stop communicating',
+            correctAnswer: 'ran into / had lost touch',
+            explanation: 'Run into = meet by chance (Past Simple). Lost touch happened before, so Past Perfect.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l1-gap-fill-text-1',
+        type: 'gap-fill-text',
+        title: 'Past Perfect Text Completion',
+        instructions: 'Complete the text with the correct form of the verbs. Use Past Perfect or Past Perfect Continuous.',
+        text: `When Sarah arrived at the party, she quickly realized she {{1}} (make) a mistake. Everyone else {{2}} (dress) formally, but she {{3}} (wear) jeans and a t-shirt. She felt embarrassed because she {{4}} (not/read) the invitation carefully. 
+
+Her friend Tom noticed her discomfort and came over. He explained that the dress code {{5}} (change) at the last minute, and many people {{6}} (not/receive) the update. Sarah felt relieved. She {{7}} (worry) unnecessarily for the past hour. Tom {{8}} (be) such a good friend - he always knew how to make her feel better.`,
+        gaps: [
+          {
+            id: 'g1',
+            gapNumber: 1,
+            correctAnswer: 'had made',
+            explanation: 'Past Perfect because making the mistake happened before realizing it.',
+            points: 1
+          },
+          {
+            id: 'g2',
+            gapNumber: 2,
+            correctAnswer: 'had dressed',
+            acceptableAlternatives: ['had been dressing'],
+            explanation: 'Past Perfect shows others dressed before Sarah arrived.',
+            points: 1
+          },
+          {
+            id: 'g3',
+            gapNumber: 3,
+            correctAnswer: 'was wearing',
+            acceptableAlternatives: ['wore', 'had worn'],
+            explanation: 'Past Continuous or Past Simple describes what she was wearing at that moment.',
+            points: 1
+          },
+          {
+            id: 'g4',
+            gapNumber: 4,
+            correctAnswer: 'had not read',
+            acceptableAlternatives: ['hadn\'t read'],
+            explanation: 'Not reading the invitation happened before feeling embarrassed.',
+            points: 1
+          },
+          {
+            id: 'g5',
+            gapNumber: 5,
+            correctAnswer: 'had changed',
+            explanation: 'The dress code changed before the party, so Past Perfect.',
+            points: 1
+          },
+          {
+            id: 'g6',
+            gapNumber: 6,
+            correctAnswer: 'had not received',
+            acceptableAlternatives: ['hadn\'t received'],
+            explanation: 'Not receiving the update happened before the party.',
+            points: 1
+          },
+          {
+            id: 'g7',
+            gapNumber: 7,
+            correctAnswer: 'had been worrying',
+            explanation: 'Past Perfect Continuous emphasizes the duration of worrying (past hour).',
+            points: 1
+          },
+          {
+            id: 'g8',
+            gapNumber: 8,
+            correctAnswer: 'had been',
+            acceptableAlternatives: ['had always been'],
+            explanation: 'Past Perfect describes Tom\'s consistent quality as a friend.',
+            points: 1
+          }
+        ]
       }
     ]
   },
