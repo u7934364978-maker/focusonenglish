@@ -12,6 +12,23 @@ const LEVELS = ["a1","a2","b1","b2","c1","c2"] as const;
 type Goal = (typeof GOALS)[number];
 type Level = (typeof LEVELS)[number];
 
+// Generate static params for all course combinations
+// This ensures all routes are pre-rendered at build time for Cloudflare Pages
+export async function generateStaticParams() {
+  const params = [];
+  
+  for (const goal of GOALS) {
+    for (const level of LEVELS) {
+      params.push({
+        goal,
+        level,
+      });
+    }
+  }
+  
+  return params;
+}
+
 const GOAL_LABEL: Record<Goal, string> = {
   trabajo: "Inglés para Trabajar",
   viajes: "Inglés para Viajar",
