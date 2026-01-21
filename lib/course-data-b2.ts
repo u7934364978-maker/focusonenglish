@@ -12017,6 +12017,713 @@ export const MODULE_3_LESSONS: Lesson[] = [
           }
         ],
         focusAreas: ['Business vocabulary', 'Collocations', 'Formal writing']
+      },
+      {
+        id: 'b2-m3-l1-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Formal & Academic Vocabulary',
+        vocabularySet: [
+          {
+            word: 'subsequently',
+            definition: 'happening after something else (formal)',
+            example: 'The company expanded rapidly. Subsequently, it opened offices worldwide.'
+          },
+          {
+            word: 'commence',
+            definition: 'to begin (formal)',
+            example: 'The meeting will commence at 9 AM sharp.'
+          },
+          {
+            word: 'regarding',
+            definition: 'concerning; about',
+            example: 'I am writing regarding your recent inquiry.'
+          },
+          {
+            word: 'endeavor',
+            definition: 'to try hard to do something',
+            example: 'We shall endeavor to meet your expectations.'
+          },
+          {
+            word: 'ascertain',
+            definition: 'to find out or make sure of something',
+            example: 'Please ascertain whether the documents are accurate.'
+          },
+          {
+            word: 'requisite',
+            definition: 'necessary; required',
+            example: 'All requisite documentation must be submitted by Friday.'
+          },
+          {
+            word: 'facilitate',
+            definition: 'to make something easier',
+            example: 'This software will facilitate communication between teams.'
+          },
+          {
+            word: 'implement',
+            definition: 'to put a plan or system into operation',
+            example: 'The company plans to implement new policies next quarter.'
+          }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose the most formal synonym for "find out": We need to ___ the cause of the problem.',
+            options: ['figure out', 'ascertain', 'get', 'learn'],
+            correctAnswer: 'ascertain',
+            explanation: 'Ascertain is the most formal term for finding out information.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete with a formal word: The conference will ___ at 2 PM.',
+            correctAnswer: 'commence',
+            explanation: 'Commence is the formal equivalent of "begin" or "start".',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l1-grammar-1',
+        type: 'grammar',
+        title: 'Formal Inversion Structures',
+        grammarPoint: 'Inversion for emphasis in formal English: Negative adverbials',
+        explanation: 'En inglés formal, especialmente escrito, invertimos sujeto y verbo auxiliar después de adverbios negativos al inicio de oración:\n\n- Never/Rarely/Seldom + auxiliary + subject + verb\n- Not only... but also (inversión en la primera parte)\n- Under no circumstances + auxiliary + subject\n- Only when/after + auxiliary + subject\n- Little did + subject + know\n- No sooner... than / Hardly... when\n\nEsto añade énfasis y formalidad.',
+        examples: [
+          'Never have I seen such dedication. (= I have never seen such dedication)',
+          'Rarely does he make mistakes. (= He rarely makes mistakes)',
+          'Not only did she win the award, but she also broke the record.',
+          'Under no circumstances should you share this information.',
+          'Only when we analyzed the data did we understand the problem.',
+          'Little did they know what awaited them.',
+          'No sooner had we arrived than the meeting started.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Rewrite with inversion: "We had never encountered such a challenge." → "Never ___ such a challenge."',
+            options: ['we had encountered', 'had we encountered', 'we encountered', 'did we encountered'],
+            correctAnswer: 'had we encountered',
+            explanation: 'Never + auxiliary (had) + subject (we) + past participle.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Rewrite formally: "The company not only increased profits but also expanded globally."',
+            correctAnswer: 'Not only did the company increase profits, but it also expanded globally',
+            explanation: 'Not only + auxiliary + subject + verb para la primera parte.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Complete: "Rarely ___ such impressive results."',
+            options: ['we see', 'do we see', 'we do see', 'see we'],
+            correctAnswer: 'do we see',
+            explanation: 'Rarely + do/does/did + subject + base verb.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l1-grammar-2',
+        type: 'grammar',
+        title: 'Nominalization in Formal Writing',
+        grammarPoint: 'Converting verbs to nouns for formal academic style',
+        explanation: 'La nominalización convierte verbos en sustantivos, creando un estilo más formal y académico:\n\n- Verb → Noun:\n  * decide → decision\n  * develop → development\n  * analyze → analysis\n  * discover → discovery\n  * fail → failure\n  * succeed → success\n\nEn lugar de: "When we analyzed the data, we discovered..."\nFormal: "Analysis of the data led to the discovery of..."',
+        examples: [
+          'Informal: We decided to implement new policies.\nFormal: The decision to implement new policies was made.',
+          'Informal: The economy grew significantly.\nFormal: Significant economic growth occurred.',
+          'Informal: Scientists discovered a new species.\nFormal: The discovery of a new species was announced.',
+          'Informal: They failed to meet the deadline.\nFormal: The failure to meet the deadline caused delays.',
+          'Informal: Researchers investigated the phenomenon.\nFormal: Investigation of the phenomenon revealed...'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What is the noun form of "analyze"?',
+            options: ['analyzation', 'analysis', 'analyzer', 'analytic'],
+            correctAnswer: 'analysis',
+            explanation: 'Analysis is the noun form of analyze.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Rewrite formally using nominalization: "When we developed the software, we improved efficiency."',
+            correctAnswer: 'The development of the software led to improved efficiency/Development of the software resulted in efficiency improvements',
+            explanation: 'Use "development" (noun) instead of "developed" (verb).',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l1-reading-1',
+        type: 'reading',
+        title: 'Reading: Effective Business Communication',
+        text: `Effective business communication constitutes a fundamental prerequisite for organizational success. Research has consistently demonstrated that companies with superior communication practices exhibit higher employee satisfaction, increased productivity, and enhanced profitability. Nevertheless, many organizations continue to struggle with communication challenges that impede their performance.
+
+One primary obstacle involves the failure to establish clear communication protocols. In the absence of standardized procedures, messages frequently become distorted, deadlines are missed, and conflicts arise. Organizations that implement comprehensive communication guidelines, however, tend to experience fewer misunderstandings and greater operational efficiency.
+
+The advent of digital technology has simultaneously facilitated and complicated workplace communication. While email, messaging platforms, and video conferencing enable instantaneous global collaboration, they have also generated new challenges. The informality characteristic of digital communication sometimes undermines professionalism. Moreover, the sheer volume of messages can overwhelm employees, reducing rather than enhancing productivity.
+
+Cultural considerations represent another critical dimension of business communication. In an increasingly globalized economy, professionals regularly interact with colleagues from diverse backgrounds. What constitutes appropriate communication in one culture may be perceived as rude or inappropriate in another. For instance, direct feedback valued in some Western cultures might be considered excessively blunt in many Asian contexts. Cultural intelligence—the ability to function effectively across cultures—has become an essential competency.
+
+Effective listening constitutes an often-overlooked component of communication excellence. Many individuals focus primarily on articulating their own ideas while failing to genuinely comprehend others' perspectives. Active listening involves not merely hearing words but understanding underlying meanings, emotions, and intentions. This requires full attention, thoughtful questions, and the suspension of premature judgment.
+
+Organizations that prioritize communication training consistently outperform their competitors. Such training should encompass written and verbal skills, cross-cultural awareness, active listening techniques, and appropriate use of technology. Investment in communication development yields substantial returns through reduced conflicts, accelerated decision-making, and strengthened relationships.
+
+In conclusion, communication excellence demands ongoing attention and systematic development. Organizations must establish clear protocols, leverage technology judiciously, cultivate cultural intelligence, and develop active listening capabilities throughout their workforce.`,
+        wordCount: 320,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, companies with superior communication practices:',
+            options: [
+              'Have lower costs',
+              'Exhibit higher employee satisfaction',
+              'Require less training',
+              'Use more technology'
+            ],
+            correctAnswer: 'Exhibit higher employee satisfaction',
+            explanation: 'The text states that such companies "exhibit higher employee satisfaction, increased productivity, and enhanced profitability".',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'What does "cultural intelligence" mean according to the text?',
+            correctAnswer: 'The ability to function effectively across cultures',
+            explanation: 'Explicitly defined in the text.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'Digital technology has only benefited workplace communication.',
+            options: ['True', 'False'],
+            correctAnswer: 'False',
+            explanation: 'The text states technology has "simultaneously facilitated and complicated" communication.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'What is identified as an often-overlooked component of communication?',
+            options: [
+              'Writing skills',
+              'Technology use',
+              'Effective listening',
+              'Cultural awareness'
+            ],
+            correctAnswer: 'Effective listening',
+            explanation: 'The text explicitly states "Effective listening constitutes an often-overlooked component".',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'fill-blank',
+            question: 'Complete: "In the absence of standardized procedures, messages frequently become _____."',
+            correctAnswer: 'distorted',
+            explanation: 'Direct quote from the text.',
+            points: 1
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'prerequisite', definition: 'something required as a prior condition' },
+          { word: 'impede', definition: 'to delay or prevent by obstructing' },
+          { word: 'advent', definition: 'the arrival or coming of something important' },
+          { word: 'undermine', definition: 'to weaken or damage gradually' },
+          { word: 'articulating', definition: 'expressing clearly in words' }
+        ]
+      },
+      {
+        id: 'b2-m3-l1-writing-2',
+        type: 'writing',
+        prompt: 'Write a formal letter of complaint (200-220 words) to a company about a defective product you purchased. Include: 1) Details of the purchase, 2) Description of the problem, 3) Impact it has had, 4) What action you expect. Use formal register and appropriate structures (inversion, nominalization where suitable).',
+        writingType: 'email',
+        minWords: 200,
+        maxWords: 220,
+        timeLimit: 35,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Opening: "Dear Sir/Madam," or use specific name if available',
+          'First paragraph: State purpose (I am writing to express my dissatisfaction...)',
+          'Body: Details of purchase, problem description, impact',
+          'Final paragraph: Action required (I would appreciate... / I expect...)',
+          'Formal structures: "Never have I experienced...", "The failure of the product..."',
+          'Closing: "I look forward to your prompt response. Yours faithfully/sincerely"'
+        ]
+      },
+      {
+        id: 'b2-m3-l1-error-identification-1',
+        type: 'error-identification',
+        title: 'Identify Errors in Formal Writing',
+        sentences: [
+          {
+            id: 'e1',
+            sentence: "I'm writing to ask about the job you advertised.",
+            error: "I'm (contraction)",
+            correction: "I am writing to enquire about the position you advertised.",
+            explanation: 'Avoid contractions in formal writing. Use "I am" instead of "I\'m" and "enquire" is more formal than "ask".',
+            points: 2
+          },
+          {
+            id: 'e2',
+            sentence: 'We hardly had finished when the problems started.',
+            error: 'we hardly had finished',
+            correction: 'Hardly had we finished when the problems started.',
+            explanation: 'After negative adverbials like "hardly", use inversion: Hardly + auxiliary + subject.',
+            points: 2
+          },
+          {
+            id: 'e3',
+            sentence: 'The analyze of the data showed interesting results.',
+            error: 'analyze',
+            correction: 'The analysis of the data showed interesting results.',
+            explanation: '"Analyze" is a verb. The noun form is "analysis".',
+            points: 2
+          },
+          {
+            id: 'e4',
+            sentence: 'Thanks for your email. I got it yesterday.',
+            error: 'Thanks for your email. I got it yesterday.',
+            correction: 'Thank you for your email. I received it yesterday.',
+            explanation: 'Too informal. Use "Thank you" (not "Thanks") and "received" (not "got") in formal writing.',
+            points: 2
+          },
+          {
+            id: 'e5',
+            sentence: 'Not only the prices increased but also the quality decreased.',
+            error: 'Not only the prices increased',
+            correction: 'Not only did the prices increase, but the quality also decreased.',
+            explanation: 'After "Not only", use inversion: Not only + auxiliary + subject + verb.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l1-sentence-completion-1',
+        type: 'sentence-completion',
+        title: 'Complete Sentences with Formal Structures',
+        sentences: [
+          {
+            id: 's1',
+            prompt: 'I am writing to _____ about the conference scheduled for next month.',
+            correctAnswer: 'enquire/inquire',
+            alternatives: ['ask for information'],
+            explanation: 'Use "enquire/inquire" in formal writing instead of "ask about".',
+            points: 2
+          },
+          {
+            id: 's2',
+            prompt: 'Under no circumstances _____ this information be disclosed.',
+            correctAnswer: 'should',
+            alternatives: ['must'],
+            explanation: 'Inversion after negative adverbial: Under no circumstances + should/must + subject + base verb.',
+            points: 2
+          },
+          {
+            id: 's3',
+            prompt: 'I would be _____ if you could provide further details.',
+            correctAnswer: 'grateful',
+            alternatives: ['appreciative', 'thankful'],
+            explanation: '"I would be grateful if..." is a formal way to make polite requests.',
+            points: 1
+          },
+          {
+            id: 's4',
+            prompt: 'The _____ to implement these changes was made last quarter.',
+            correctAnswer: 'decision',
+            alternatives: [],
+            explanation: 'Nominalization: Use "decision" (noun) for formal style.',
+            points: 2
+          },
+          {
+            id: 's5',
+            prompt: 'Rarely _____ such excellent service in this industry.',
+            correctAnswer: 'do we encounter/have we seen',
+            alternatives: ['does one find', 'have I experienced'],
+            explanation: 'Inversion with "rarely": Rarely + auxiliary + subject + verb.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l1-paraphrasing-1',
+        type: 'paraphrasing',
+        title: 'Transform Informal to Formal Register',
+        sentences: [
+          {
+            id: 'p1',
+            original: "We've never seen this problem before.",
+            correctAnswer: 'Never have we encountered this issue previously/This issue has never been encountered before',
+            alternatives: ['Never before have we observed this problem', 'This problem has not been previously identified'],
+            explanation: 'Use inversion (Never have we...) or passive voice for formality.',
+            points: 3
+          },
+          {
+            id: 'p2',
+            original: 'Can you tell me when the meeting starts?',
+            correctAnswer: 'I would be grateful if you could inform me when the meeting commences/Could you please advise when the meeting is scheduled to commence',
+            alternatives: ['I would appreciate information regarding the meeting start time', 'Please inform me of the meeting commencement time'],
+            explanation: 'Use "commence" instead of "starts", formal request structures.',
+            points: 2
+          },
+          {
+            id: 'p3',
+            original: 'Thanks for getting back to me so quickly.',
+            correctAnswer: 'Thank you for your prompt response/I appreciate your swift reply',
+            alternatives: ['I am grateful for your timely response'],
+            explanation: 'Use "Thank you" (not Thanks), "prompt/swift/timely" instead of "quickly".',
+            points: 2
+          },
+          {
+            id: 'p4',
+            original: "Sorry, but I can't come to the meeting.",
+            correctAnswer: 'I regret to inform you that I am unable to attend the meeting/Unfortunately, I cannot attend the meeting',
+            alternatives: ['I apologize, but I will be unable to attend'],
+            explanation: 'Use formal apology structures: "I regret to inform you", "I am unable to".',
+            points: 2
+          },
+          {
+            id: 'p5',
+            original: 'We looked at the problem and found a solution.',
+            correctAnswer: 'Analysis of the problem led to the identification of a solution/Investigation of the issue resulted in a solution being found',
+            alternatives: ['Upon examining the problem, we identified a solution', 'Our examination of the issue revealed a solution'],
+            explanation: 'Use nominalization: "analysis" instead of "looked at", passive structures.',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l1-collocation-matching-1',
+        type: 'collocation-matching',
+        title: 'Formal Collocations',
+        pairs: [
+          { left: 'express', right: 'dissatisfaction', explanation: 'Common formal phrase for complaints' },
+          { left: 'lodge', right: 'a complaint', explanation: 'Formal way to make a complaint' },
+          { left: 'reach', right: 'a decision', explanation: 'To arrive at a decision formally' },
+          { left: 'conduct', right: 'research', explanation: 'To carry out research (formal)' },
+          { left: 'implement', right: 'policies', explanation: 'To put policies into effect' },
+          { left: 'submit', right: 'a proposal', explanation: 'To formally present a proposal' },
+          { left: 'address', right: 'concerns', explanation: 'To deal with worries or issues' },
+          { left: 'ascertain', right: 'the facts', explanation: 'To determine or find out facts' }
+        ],
+        distractors: ['a problem', 'happiness', 'an idea', 'quickly'],
+        points: 8
+      },
+      {
+        id: 'b2-m3-l1-key-word-transformation-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Formal Structures',
+        transformations: [
+          {
+            id: 't1',
+            original: "I have never attended such an impressive presentation.",
+            keyword: 'NEVER',
+            correctAnswer: 'Never have I attended such an impressive presentation',
+            alternatives: [],
+            explanation: 'Inversion with never: Never + have + subject + past participle.',
+            points: 2
+          },
+          {
+            id: 't2',
+            original: 'When they analyzed the situation, they understood the problem.',
+            keyword: 'ANALYSIS',
+            correctAnswer: 'Analysis of the situation led to understanding of the problem/The analysis of the situation enabled them to understand the problem',
+            alternatives: ['Their analysis of the situation resulted in understanding the problem'],
+            explanation: 'Use nominalization: "analysis" instead of "analyzed".',
+            points: 3
+          },
+          {
+            id: 't3',
+            original: "We don't allow smoking anywhere in the building.",
+            keyword: 'CIRCUMSTANCES',
+            correctAnswer: 'Under no circumstances is smoking allowed in the building/Under no circumstances do we allow smoking in the building',
+            alternatives: [],
+            explanation: 'Formal negative structure with inversion.',
+            points: 3
+          },
+          {
+            id: 't4',
+            original: 'She not only passed the exam but also received the highest grade.',
+            keyword: 'ONLY',
+            correctAnswer: 'Not only did she pass the exam, but she also received the highest grade',
+            alternatives: [],
+            explanation: 'Inversion after "Not only": Not only + did + subject + verb.',
+            points: 2
+          },
+          {
+            id: 't5',
+            original: "I'd like you to tell me when you'll be available.",
+            keyword: 'GRATEFUL',
+            correctAnswer: 'I would be grateful if you could inform me when you will be available',
+            alternatives: ['I would be grateful if you would advise me of your availability'],
+            explanation: 'Formal request structure: "I would be grateful if..."',
+            points: 2
+          },
+          {
+            id: 't6',
+            original: 'As soon as we arrived, the meeting began.',
+            keyword: 'SOONER',
+            correctAnswer: 'No sooner had we arrived than the meeting began',
+            alternatives: [],
+            explanation: 'Formal structure: No sooner + had + subject + past participle + than.',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l1-word-formation-1',
+        type: 'word-formation',
+        title: 'Word Formation: Formal Nouns',
+        words: [
+          { base: 'decide', answer: 'decision', context: 'The _____ to relocate was made after careful consideration.', points: 1 },
+          { base: 'develop', answer: 'development', context: 'The _____ of new technologies requires substantial investment.', points: 1 },
+          { base: 'analyze', answer: 'analysis', context: 'Our _____ of the data revealed significant trends.', points: 1 },
+          { base: 'fail', answer: 'failure', context: 'The _____ to meet deadlines resulted in financial losses.', points: 1 },
+          { base: 'succeed', answer: 'success', context: 'The _____ of the project exceeded all expectations.', points: 1 },
+          { base: 'discover', answer: 'discovery', context: 'The _____ of new evidence changed the investigation.', points: 1 },
+          { base: 'implement', answer: 'implementation', context: 'The _____ of these policies will commence next month.', points: 1 },
+          { base: 'communicate', answer: 'communication', context: 'Effective _____ is essential for organizational success.', points: 1 }
+        ]
+      },
+      {
+        id: 'b2-m3-l1-gap-fill-1',
+        type: 'gap-fill-text',
+        title: 'Gap-Fill: Formal Business Letter',
+        text: `Dear Mr. Thompson,
+
+I am writing to (1)_____ my dissatisfaction with the service I received at your hotel during my recent stay. (2)_____ the circumstances should such poor standards be acceptable.
+
+The room I was allocated was not the one I had specifically (3)_____. Furthermore, the facilities were in a deplorable (4)_____. Never (5)_____ I encountered such inadequate housekeeping in a supposedly five-star establishment.
+
+I attempted to (6)_____ these concerns with the front desk, however, the staff showed little inclination to (7)_____ the situation. The (8)_____ to provide satisfactory service has compelled me to seek a full refund.
+
+I (9)_____ be grateful if you could (10)_____ this matter urgently and respond within five business days.
+
+Yours sincerely,
+Jennifer Martin`,
+        answers: [
+          { gap: 1, correctAnswer: 'express', alternatives: ['convey', 'communicate'], points: 1 },
+          { gap: 2, correctAnswer: 'Under no', alternatives: ['In no'], points: 1 },
+          { gap: 3, correctAnswer: 'requested', alternatives: ['reserved', 'booked'], points: 1 },
+          { gap: 4, correctAnswer: 'condition', alternatives: ['state'], points: 1 },
+          { gap: 5, correctAnswer: 'have', alternatives: [], points: 1 },
+          { gap: 6, correctAnswer: 'address', alternatives: ['raise', 'discuss'], points: 1 },
+          { gap: 7, correctAnswer: 'rectify', alternatives: ['resolve', 'remedy'], points: 1 },
+          { gap: 8, correctAnswer: 'failure', alternatives: ['inability'], points: 1 },
+          { gap: 9, correctAnswer: 'would', alternatives: ['should'], points: 1 },
+          { gap: 10, correctAnswer: 'address', alternatives: ['investigate', 'resolve'], points: 1 }
+        ],
+        hints: [
+          'Use formal vocabulary throughout',
+          'Include inversion structures where appropriate',
+          'Maintain consistent formal register'
+        ]
+      },
+      {
+        id: 'b2-m3-l1-sentence-reordering-1',
+        type: 'sentence-reordering',
+        title: 'Organize a Formal Business Proposal',
+        sentences: [
+          { id: 's1', text: 'I am writing to propose a strategic partnership between our organizations.', order: 1 },
+          { id: 's2', text: 'This collaboration would enable both companies to expand into new markets while sharing resources and expertise.', order: 2 },
+          { id: 's3', text: 'Our preliminary analysis suggests that joint operations could reduce costs by approximately 25%.', order: 3 },
+          { id: 's4', text: 'Furthermore, the pooling of our technological capabilities would accelerate product development significantly.', order: 4 },
+          { id: 's5', text: 'Implementation of this partnership would commence with a pilot project in the European market.', order: 5 },
+          { id: 's6', text: 'Subsequently, pending successful outcomes, we would extend operations to Asia-Pacific regions.', order: 6 },
+          { id: 's7', text: 'I would be grateful if we could arrange a meeting to discuss this proposal in detail.', order: 7 },
+          { id: 's8', text: 'I look forward to your response and the possibility of a mutually beneficial collaboration.', order: 8 }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m3-l1-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m3-l1-listening-1.mp3',
+        transcript: 'Good morning, colleagues. Today I would like to present our quarterly financial results and outline our strategic objectives for the upcoming period. The third quarter has proven exceptionally successful, with revenue increasing by 18% compared to the same period last year. This growth can be attributed primarily to our expansion into emerging markets and the successful launch of our new product line. Operating costs have remained stable, resulting in improved profit margins. Nevertheless, several challenges require our attention. Supply chain disruptions continue to impact delivery schedules, and we must address these issues urgently. Furthermore, increased competition in our core markets necessitates enhanced innovation efforts. Moving forward, our priorities include: streamlining operations, investing in research and development, and strengthening customer relationships. I would now be pleased to address any questions you may have regarding these results or our strategic direction.',
+        duration: 90,
+        allowReplay: true,
+        maxReplays: 2,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What was the revenue increase compared to last year?',
+            options: ['8%', '15%', '18%', '25%'],
+            correctAnswer: '18%',
+            explanation: 'The speaker states "revenue increasing by 18%".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name TWO reasons given for the revenue growth.',
+            correctAnswer: 'Expansion into emerging markets, successful launch of new product line (any two)',
+            explanation: 'Both factors are explicitly mentioned.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What challenge is mentioned regarding supply chain?',
+            options: [
+              'Increased costs',
+              'Disruptions affecting delivery',
+              'Worker shortages',
+              'Technology problems'
+            ],
+            correctAnswer: 'Disruptions affecting delivery',
+            explanation: 'The speaker mentions "Supply chain disruptions continue to impact delivery schedules".',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'Complete: "Increased competition necessitates enhanced _____ efforts."',
+            correctAnswer: 'innovation',
+            explanation: 'Direct quote from the listening.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l1-pronunciation-1',
+        type: 'pronunciation',
+        title: 'Pronunciation: Formal Vocabulary',
+        words: [
+          { word: 'ascertain', phonetic: '/ˌæsəˈteɪn/', audioUrl: '/audio/pronunciation/ascertain.mp3' },
+          { word: 'subsequently', phonetic: '/ˈsʌbsɪkwəntli/', audioUrl: '/audio/pronunciation/subsequently.mp3' },
+          { word: 'endeavor', phonetic: '/ɪnˈdevə(r)/', audioUrl: '/audio/pronunciation/endeavor.mp3' },
+          { word: 'facilitate', phonetic: '/fəˈsɪlɪteɪt/', audioUrl: '/audio/pronunciation/facilitate.mp3' },
+          { word: 'requisite', phonetic: '/ˈrekwɪzɪt/', audioUrl: '/audio/pronunciation/requisite.mp3' },
+          { word: 'implementation', phonetic: '/ˌɪmplɪmenˈteɪʃn/', audioUrl: '/audio/pronunciation/implementation.mp3' }
+        ],
+        instructions: 'Listen to each word and repeat it clearly. Pay attention to stress patterns in multi-syllable words.',
+        targetText: 'The implementation of requisite procedures will facilitate our endeavor to ascertain the facts. Subsequently, we shall proceed accordingly.'
+      },
+      {
+        id: 'b2-m3-l1-speaking-2',
+        type: 'speaking',
+        prompt: 'Prepare and deliver a formal 3-minute speech on ONE topic: 1) "The importance of professional development in the modern workplace" OR 2) "Challenges facing international business today". Use formal register, inversion structures for emphasis (Never have we..., Rarely does...), and nominalization. Structure: Introduction, 3 main points, conclusion.',
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Opening: "Ladies and gentlemen, today I shall address..."',
+          'Use formal vocabulary: "facilitate", "implement", "ascertain"',
+          'Include inversion: "Never before have we faced...", "Rarely does one encounter..."',
+          'Use nominalization: "The implementation of...", "Development of skills..."',
+          'Signposting: "Firstly...", "Subsequently...", "In conclusion..."',
+          'Closing: "Thank you for your attention. I welcome any questions."'
+        ]
+      },
+      {
+        id: 'b2-m3-l1-integrated-reading-1',
+        type: 'reading',
+        title: 'Integrated Reading & Writing: Corporate Social Responsibility',
+        text: `Corporate Social Responsibility (CSR) has evolved from a peripheral concern to a central component of business strategy. This transformation reflects fundamental shifts in stakeholder expectations, regulatory frameworks, and market dynamics. Companies now recognize that sustainable practices constitute not merely ethical imperatives but also competitive advantages.
+
+The concept of CSR encompasses a broad spectrum of activities. These range from environmental stewardship and ethical labor practices to community engagement and transparent governance. Progressive organizations integrate these principles throughout their operations rather than treating them as isolated initiatives. This holistic approach yields multiple benefits: enhanced brand reputation, improved employee morale, risk mitigation, and increased customer loyalty.
+
+Research demonstrates compelling correlations between CSR commitment and financial performance. A comprehensive meta-analysis of 250 studies revealed that companies with robust CSR programs consistently outperform industry benchmarks. However, authenticity remains crucial. Consumers have grown increasingly sophisticated at detecting "greenwashing"—superficial CSR efforts designed primarily for public relations rather than genuine impact.
+
+Implementation challenges persist despite growing CSR awareness. Small and medium enterprises often lack resources to establish comprehensive programs. Moreover, measuring CSR impact presents methodological difficulties. Unlike financial metrics, social and environmental outcomes resist straightforward quantification. Organizations struggle to develop meaningful key performance indicators that capture their multifaceted contributions to society.
+
+The regulatory landscape continues evolving. Numerous jurisdictions have introduced mandatory CSR reporting requirements, compelling companies to disclose their social and environmental impacts. The European Union's Corporate Sustainability Reporting Directive represents a particularly significant development, requiring detailed sustainability disclosures from thousands of companies. This regulatory trend toward transparency seems irreversible.
+
+Technology offers promising solutions to CSR challenges. Blockchain enables supply chain transparency, allowing companies to verify ethical sourcing claims. Artificial intelligence facilitates environmental monitoring and resource optimization. Data analytics permits more sophisticated impact measurement. These technological tools help organizations translate CSR commitments into demonstrable outcomes.
+
+Looking forward, CSR will likely become even more integral to business models. Climate change pressures, social inequality concerns, and stakeholder activism show no signs of diminishing. Companies that embrace CSR as fundamental to their identity, rather than as peripheral obligation, will be best positioned for long-term success. The question is no longer whether businesses should engage in CSR, but rather how effectively they can integrate these principles into every aspect of their operations.`,
+        wordCount: 380,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, CSR has transformed from:',
+            options: [
+              'A legal requirement to an optional activity',
+              'A peripheral concern to a central business strategy component',
+              'An expensive burden to a cost-saving measure',
+              'A public relations tool to a legal obligation'
+            ],
+            correctAnswer: 'A peripheral concern to a central business strategy component',
+            explanation: 'Directly stated in the first sentence.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'What does "greenwashing" mean according to the text?',
+            correctAnswer: 'Superficial CSR efforts designed primarily for public relations rather than genuine impact',
+            explanation: 'Explicitly defined in paragraph 3.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What challenge does the text mention regarding CSR measurement?',
+            options: [
+              'It is too expensive',
+              'Social and environmental outcomes resist straightforward quantification',
+              'Companies refuse to share data',
+              'Technology is inadequate'
+            ],
+            correctAnswer: 'Social and environmental outcomes resist straightforward quantification',
+            explanation: 'Stated in paragraph 4.',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'Complete: "_____ enables supply chain transparency, allowing companies to verify ethical sourcing claims."',
+            correctAnswer: 'Blockchain',
+            explanation: 'Mentioned in paragraph 6.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'Name TWO benefits of integrating CSR throughout operations mentioned in the text.',
+            correctAnswer: 'Enhanced brand reputation, improved employee morale, risk mitigation, increased customer loyalty (any two)',
+            explanation: 'Listed in paragraph 2.',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'Write a formal essay (150-180 words): "Should CSR reporting be mandatory for all companies?" Use formal structures from this lesson including inversion, nominalization, and formal vocabulary. Include arguments for and against, then state your position.',
+            correctAnswer: '',
+            explanation: 'Assessment based on: use of formal structures (inversion, nominalization), formal vocabulary, coherent argumentation, appropriate register, grammar accuracy.',
+            points: 10
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'peripheral', definition: 'relating to or situated on the edge; marginal' },
+          { word: 'imperative', definition: 'of vital importance; crucial' },
+          { word: 'stewardship', definition: 'the job of supervising or taking care of something' },
+          { word: 'holistic', definition: 'characterized by the treatment of the whole rather than parts' },
+          { word: 'compelling', definition: 'evoking interest or attention; convincing' },
+          { word: 'irreversible', definition: 'not able to be undone or altered' }
+        ]
       }
     ]
   },
@@ -12092,6 +12799,880 @@ export const MODULE_3_LESSONS: Lesson[] = [
           'Natural integration: don\'t force phrasal verbs',
           'Tell a coherent story',
           'Explain the outcome'
+        ]
+      },
+      {
+        id: 'b2-m3-l2-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Work & Business Phrasal Verbs',
+        vocabularySet: [
+          {
+            word: 'carry out',
+            definition: 'to perform or complete a task',
+            example: 'We need to carry out a thorough investigation.'
+          },
+          {
+            word: 'take on',
+            definition: 'to accept responsibility or work',
+            example: 'She decided to take on the new project.'
+          },
+          {
+            word: 'set up',
+            definition: 'to establish or start something',
+            example: 'They set up a new business last year.'
+          },
+          {
+            word: 'figure out',
+            definition: 'to understand or solve',
+            example: 'I finally figured out how to use the software.'
+          },
+          {
+            word: 'call off',
+            definition: 'to cancel',
+            example: 'They had to call off the meeting due to bad weather.'
+          },
+          {
+            word: 'step down',
+            definition: 'to resign from a position',
+            example: 'The CEO stepped down after 20 years.'
+          },
+          {
+            word: 'go ahead',
+            definition: 'to proceed; to start',
+            example: 'The board gave us permission to go ahead with the plan.'
+          },
+          {
+            word: 'bring up',
+            definition: 'to mention or introduce a topic',
+            example: 'She brought up an important issue at the meeting.'
+          }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Complete: The manager decided to ___ the project due to budget constraints.',
+            options: ['call off', 'go ahead', 'set up', 'take on'],
+            correctAnswer: 'call off',
+            explanation: '"Call off" means to cancel.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: We need to ___ ___ a comprehensive market analysis.',
+            correctAnswer: 'carry out',
+            explanation: '"Carry out" means to perform or complete a task.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l2-vocabulary-3',
+        type: 'idioms-expressions',
+        title: 'Common English Idioms',
+        expressions: [
+          {
+            idiom: 'break the ice',
+            meaning: 'to initiate conversation in a social setting',
+            example: 'He told a joke to break the ice at the meeting.',
+            category: 'social'
+          },
+          {
+            idiom: 'hit the nail on the head',
+            meaning: 'to be exactly right about something',
+            example: 'Your analysis hit the nail on the head—that\'s exactly the problem.',
+            category: 'accuracy'
+          },
+          {
+            idiom: 'once in a blue moon',
+            meaning: 'very rarely',
+            example: 'I only eat fast food once in a blue moon.',
+            category: 'frequency'
+          },
+          {
+            idiom: 'get cold feet',
+            meaning: 'to become nervous about something you planned to do',
+            example: 'She got cold feet and canceled the presentation.',
+            category: 'emotion'
+          },
+          {
+            idiom: 'cost an arm and a leg',
+            meaning: 'to be very expensive',
+            example: 'That car must have cost an arm and a leg!',
+            category: 'money'
+          },
+          {
+            idiom: 'the ball is in your court',
+            meaning: 'it\'s your turn to take action',
+            example: 'I\'ve made my proposal. The ball is in your court now.',
+            category: 'responsibility'
+          },
+          {
+            idiom: 'let the cat out of the bag',
+            meaning: 'to reveal a secret',
+            example: 'Don\'t let the cat out of the bag about the surprise party.',
+            category: 'secrecy'
+          },
+          {
+            idiom: 'under the weather',
+            meaning: 'feeling ill',
+            example: 'I\'m feeling a bit under the weather today.',
+            category: 'health'
+          }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What does "hit the nail on the head" mean?',
+            options: ['To make a mistake', 'To be exactly right', 'To hurt yourself', 'To build something'],
+            correctAnswer: 'To be exactly right',
+            explanation: 'This idiom means to be precisely correct.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete the idiom: "That new phone costs an ___ and a ___."',
+            correctAnswer: 'arm, leg',
+            explanation: '"Cost an arm and a leg" means very expensive.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l2-grammar-1',
+        type: 'grammar',
+        title: 'Separable vs Inseparable Phrasal Verbs',
+        grammarPoint: 'Understanding which phrasal verbs can be separated and which cannot',
+        explanation: 'SEPARABLE phrasal verbs: El objeto puede ir entre el verbo y la partícula O después:\n- Turn off the TV / Turn the TV off ✓\n- Con pronombres, DEBE ir en medio: Turn it off ✓ (NOT: Turn off it ✗)\n\nINSEPARABLE phrasal verbs: El objeto siempre va después:\n- Look after the children ✓ (NOT: Look the children after ✗)\n- Look after them ✓ (NOT: Look them after ✗)\n\nCommon SEPARABLE: turn on/off, pick up, put on, take off, give up, fill in, work out\nCommon INSEPARABLE: look after, look for, come across, get over, run into, deal with, look forward to',
+        examples: [
+          'SEPARABLE: Please turn off the lights. / Please turn the lights off. / Turn them off.',
+          'SEPARABLE: She gave up smoking. / She gave smoking up. / She gave it up.',
+          'INSEPARABLE: I look after my sister. / I look after her. (NOT: I look her after)',
+          'INSEPARABLE: We came across an old friend. / We came across him. (NOT: We came him across)',
+          'THREE-WORD phrasal verbs are ALWAYS inseparable: I look forward to seeing you.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which is correct?',
+            options: ['Look the children after', 'Look after the children', 'Look the after children', 'After look the children'],
+            correctAnswer: 'Look after the children',
+            explanation: '"Look after" is inseparable—object goes after the complete phrasal verb.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'Replace with pronoun: "Please turn off the TV."',
+            options: ['Turn off it', 'Turn it off', 'Turn off them', 'It turn off'],
+            correctAnswer: 'Turn it off',
+            explanation: 'Separable phrasal verbs + pronoun = pronoun goes in the middle.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Is "put up with" separable or inseparable?',
+            correctAnswer: 'inseparable',
+            explanation: 'Three-word phrasal verbs are always inseparable.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l2-reading-1',
+        type: 'reading',
+        title: 'Reading: Breaking Into the Job Market',
+        text: `When Sarah graduated from university, she was eager to set up her career in marketing. However, breaking into the competitive job market turned out to be more challenging than she had anticipated. Month after month, she applied for positions, only to be turned down repeatedly. She began to wonder if she should give up her dreams and settle for something less ambitious.
+
+One day, while looking through job postings online, she came across an advertisement for an internship at a prestigious advertising agency. Although the position was unpaid, Sarah decided to go ahead and apply. To her surprise, she was called in for an interview. During the meeting, she brought up her portfolio and discussed several campaigns she had worked on during her studies. The interviewer was impressed and offered her the internship on the spot.
+
+The first few months were demanding. Sarah had to put up with long hours and sometimes tedious tasks. However, she was determined to make the most of the opportunity. She took on additional responsibilities whenever possible and went out of her way to help colleagues. Her hard work eventually paid off. When a junior position opened up, the company offered it to Sarah without hesitation.
+
+Looking back, Sarah realizes that the initial rejections, while difficult to get over, taught her resilience. She learned that success often comes to those who don't let obstacles stand in their way. Now, five years later, she has moved up the corporate ladder and often mentors new graduates, encouraging them to keep trying even when things look bleak.`,
+        wordCount: 260,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What does "set up" mean in the context "set up her career"?',
+            options: ['Establish', 'Destroy', 'Question', 'Change'],
+            correctAnswer: 'Establish',
+            explanation: '"Set up" means to establish or start.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'How did Sarah find the internship opportunity?',
+            correctAnswer: 'She came across it online/while looking through job postings',
+            explanation: 'The text states she "came across an advertisement" while looking online.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What does "put up with" mean in this context?',
+            options: ['Organize', 'Tolerate', 'Celebrate', 'Reject'],
+            correctAnswer: 'Tolerate',
+            explanation: '"Put up with" means to tolerate something unpleasant.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'Complete: Sarah had to ___ ___ long hours and tedious tasks.',
+            correctAnswer: 'put up with',
+            explanation: 'From the text: "put up with long hours".',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What did Sarah learn from the initial rejections?',
+            correctAnswer: 'Resilience/That success comes to those who don\'t let obstacles stand in their way',
+            explanation: 'Stated in the final paragraph.',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'bleak', definition: 'not hopeful or encouraging' },
+          { word: 'tedious', definition: 'boring and repetitive' },
+          { word: 'resilience', definition: 'the ability to recover from difficulties' }
+        ]
+      },
+      {
+        id: 'b2-m3-l2-writing-1',
+        type: 'writing',
+        prompt: 'Write a story (200-220 words) about overcoming a challenge. Use at least 8 different phrasal verbs naturally in your narrative. Underline or highlight the phrasal verbs you use. Tell a coherent story with: beginning (situation), middle (challenge and actions), end (resolution).',
+        writingType: 'essay',
+        minWords: 200,
+        maxWords: 220,
+        timeLimit: 30,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Use phrasal verbs naturally—don\'t force them',
+          'Common phrasal verbs: come across, deal with, figure out, give up, get over, carry out, turn down, take on',
+          'Vary your phrasal verbs',
+          'Make sure the story flows naturally',
+          'Check that phrasal verbs are used correctly (separable/inseparable)'
+        ]
+      },
+      {
+        id: 'b2-m3-l2-cloze-1',
+        type: 'multiple-choice-cloze',
+        title: 'Multiple Choice Cloze: Starting a Business',
+        text: `When Maria decided to (1)_____ her own business, many people told her she was crazy. However, she refused to (2)_____ her dream. She spent months (3)_____ a comprehensive business plan before approaching investors. Initially, several banks (4)_____ her loan application, but Maria didn't let these rejections (5)_____ her down.
+
+Eventually, she (6)_____ a potential partner at a networking event. Together, they managed to (7)_____ the necessary funding and (8)_____ with establishing their first office. The first year was challenging—they had to (9)_____ numerous setbacks and learn to (10)_____ problems quickly. However, their persistence paid off, and the business is now thriving.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '1. _____',
+            options: ['set up', 'give up', 'put up', 'make up'],
+            correctAnswer: 'set up',
+            explanation: '"Set up" means to establish or start.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: '2. _____',
+            options: ['call off', 'give up', 'turn down', 'put up with'],
+            correctAnswer: 'give up',
+            explanation: '"Give up" means to abandon or stop trying.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: '3. _____',
+            options: ['working out', 'carrying out', 'figuring out', 'turning out'],
+            correctAnswer: 'working out',
+            explanation: '"Working out" means developing or creating (a plan).',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '4. _____',
+            options: ['turned down', 'took on', 'came across', 'looked after'],
+            correctAnswer: 'turned down',
+            explanation: '"Turned down" means rejected.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: '5. _____',
+            options: ['get', 'put', 'take', 'make'],
+            correctAnswer: 'get',
+            explanation: '"Get someone down" means to discourage or depress.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: '6. _____',
+            options: ['came across', 'got over', 'looked after', 'put up with'],
+            correctAnswer: 'came across',
+            explanation: '"Came across" means found by chance.',
+            points: 1
+          },
+          {
+            id: 'q7',
+            type: 'multiple-choice',
+            question: '7. _____',
+            options: ['work out', 'figure out', 'carry out', 'set up'],
+            correctAnswer: 'work out',
+            explanation: '"Work out" can mean to achieve or arrange something successfully.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            type: 'multiple-choice',
+            question: '8. _____',
+            options: ['went ahead', 'gave up', 'turned down', 'called off'],
+            correctAnswer: 'went ahead',
+            explanation: '"Went ahead" means proceeded or continued.',
+            points: 1
+          },
+          {
+            id: 'q9',
+            type: 'multiple-choice',
+            question: '9. _____',
+            options: ['deal with', 'get over', 'look after', 'come across'],
+            correctAnswer: 'deal with',
+            explanation: '"Deal with" means to handle or manage.',
+            points: 1
+          },
+          {
+            id: 'q10',
+            type: 'multiple-choice',
+            question: '10. _____',
+            options: ['figure out', 'give up', 'turn down', 'call off'],
+            correctAnswer: 'figure out',
+            explanation: '"Figure out" means to solve or understand.',
+            points: 1
+          }
+        ],
+        focusAreas: ['Phrasal verbs in context', 'Business vocabulary']
+      },
+      {
+        id: 'b2-m3-l2-error-identification-1',
+        type: 'error-identification',
+        title: 'Common Phrasal Verb Errors',
+        sentences: [
+          {
+            id: 'e1',
+            sentence: 'Please look the children after while I\'m out.',
+            error: 'look the children after',
+            correction: 'Please look after the children while I\'m out.',
+            explanation: '"Look after" is inseparable—the object goes after the complete phrasal verb.',
+            points: 2
+          },
+          {
+            id: 'e2',
+            sentence: 'I need to give smoking up for my health.',
+            error: 'give smoking up',
+            correction: 'I need to give up smoking for my health.',
+            explanation: 'While "give up" is separable, it sounds more natural with the object after when it\'s a gerund.',
+            points: 2
+          },
+          {
+            id: 'e3',
+            sentence: 'She came him across at the conference.',
+            error: 'came him across',
+            correction: 'She came across him at the conference.',
+            explanation: '"Come across" is inseparable—pronouns go after the complete phrasal verb.',
+            points: 2
+          },
+          {
+            id: 'e4',
+            sentence: 'I\'m looking forward to meet you.',
+            error: 'to meet',
+            correction: 'I\'m looking forward to meeting you.',
+            explanation: '"Look forward to" is followed by a gerund (-ing form), not infinitive.',
+            points: 2
+          },
+          {
+            id: 'e5',
+            sentence: 'They had to call the meeting off it.',
+            error: 'call the meeting off it',
+            correction: 'They had to call the meeting off / call it off.',
+            explanation: 'Don\'t use both the noun and pronoun. Use either "call the meeting off" or "call it off".',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l2-sentence-completion-1',
+        type: 'sentence-completion',
+        title: 'Complete with Appropriate Phrasal Verbs',
+        sentences: [
+          {
+            id: 's1',
+            prompt: 'I _____ an old friend at the supermarket yesterday.',
+            correctAnswer: 'ran into/came across',
+            alternatives: ['bumped into'],
+            explanation: '"Run into" / "come across" / "bump into" all mean to meet by chance.',
+            points: 2
+          },
+          {
+            id: 's2',
+            prompt: 'We need to _____ a solution to this problem quickly.',
+            correctAnswer: 'figure out/work out',
+            alternatives: [],
+            explanation: '"Figure out" / "work out" mean to find or develop a solution.',
+            points: 2
+          },
+          {
+            id: 's3',
+            prompt: 'The concert was _____ due to bad weather.',
+            correctAnswer: 'called off',
+            alternatives: ['canceled'],
+            explanation: '"Called off" means canceled.',
+            points: 1
+          },
+          {
+            id: 's4',
+            prompt: 'I can\'t _____ his constant complaining anymore.',
+            correctAnswer: 'put up with',
+            alternatives: ['stand', 'tolerate'],
+            explanation: '"Put up with" means to tolerate something unpleasant.',
+            points: 2
+          },
+          {
+            id: 's5',
+            prompt: 'It took her months to _____ the disappointment.',
+            correctAnswer: 'get over',
+            alternatives: ['recover from'],
+            explanation: '"Get over" means to recover from an emotional setback.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l2-paraphrasing-1',
+        type: 'paraphrasing',
+        title: 'Replace Formal Verbs with Phrasal Verbs',
+        sentences: [
+          {
+            id: 'p1',
+            original: 'They postponed the meeting until next week.',
+            correctAnswer: 'They put off the meeting until next week',
+            alternatives: [],
+            explanation: '"Put off" = postpone (phrasal verb alternative).',
+            points: 2
+          },
+          {
+            id: 'p2',
+            original: 'She resembles her mother.',
+            correctAnswer: 'She takes after her mother',
+            alternatives: [],
+            explanation: '"Take after" = resemble (family members).',
+            points: 2
+          },
+          {
+            id: 'p3',
+            original: 'I encountered an old colleague at the airport.',
+            correctAnswer: 'I ran into an old colleague at the airport/I came across an old colleague at the airport',
+            alternatives: ['I bumped into an old colleague at the airport'],
+            explanation: '"Run into" / "come across" = encounter by chance.',
+            points: 2
+          },
+          {
+            id: 'p4',
+            original: 'We need to investigate this matter thoroughly.',
+            correctAnswer: 'We need to look into this matter thoroughly',
+            alternatives: [],
+            explanation: '"Look into" = investigate.',
+            points: 2
+          },
+          {
+            id: 'p5',
+            original: 'He invented an excuse for being late.',
+            correctAnswer: 'He made up an excuse for being late',
+            alternatives: [],
+            explanation: '"Make up" = invent (a story/excuse).',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l2-collocation-matching-1',
+        type: 'collocation-matching',
+        title: 'Match Phrasal Verbs with Objects',
+        pairs: [
+          { left: 'call off', right: 'a meeting', explanation: 'To cancel a meeting' },
+          { left: 'take on', right: 'responsibility', explanation: 'To accept responsibility' },
+          { left: 'carry out', right: 'research', explanation: 'To conduct research' },
+          { left: 'bring up', right: 'a topic', explanation: 'To mention a topic' },
+          { left: 'put forward', right: 'a proposal', explanation: 'To suggest a proposal' },
+          { left: 'look into', right: 'a problem', explanation: 'To investigate a problem' },
+          { left: 'set up', right: 'a business', explanation: 'To establish a business' },
+          { left: 'work out', right: 'a solution', explanation: 'To find a solution' }
+        ],
+        distractors: ['a question', 'an answer', 'quickly', 'tomorrow'],
+        points: 8
+      },
+      {
+        id: 'b2-m3-l2-gap-fill-1',
+        type: 'gap-fill-text',
+        title: 'Gap-Fill: A Day in the Office',
+        text: `Yesterday was a hectic day at work. I had to (1)_____ early to prepare for an important presentation. When I arrived, I discovered that my colleague had (2)_____ sick, so I had to (3)_____ her responsibilities as well as my own.
+
+During the morning meeting, my boss (4)_____ several issues that needed immediate attention. We spent hours trying to (5)_____ solutions to the problems. Just when we thought we had everything under control, a client (6)_____ to inform us they wanted to (7)_____ the project deadline.
+
+I spent the rest of the day (8)_____ the necessary changes and trying to (9)_____ with the additional pressure. By the time I left the office, I was exhausted. However, I felt satisfied that we had managed to (10)_____ all the challenges successfully.`,
+        answers: [
+          { gap: 1, correctAnswer: 'get up', alternatives: ['wake up'], points: 1 },
+          { gap: 2, correctAnswer: 'called in', alternatives: ['phoned in'], points: 1 },
+          { gap: 3, correctAnswer: 'take on', alternatives: [], points: 1 },
+          { gap: 4, correctAnswer: 'brought up', alternatives: ['raised'], points: 1 },
+          { gap: 5, correctAnswer: 'work out', alternatives: ['figure out'], points: 1 },
+          { gap: 6, correctAnswer: 'called up', alternatives: ['phoned', 'rang up'], points: 1 },
+          { gap: 7, correctAnswer: 'bring forward', alternatives: ['move up'], points: 1 },
+          { gap: 8, correctAnswer: 'carrying out', alternatives: ['making'], points: 1 },
+          { gap: 9, correctAnswer: 'cope', alternatives: ['deal'], points: 1 },
+          { gap: 10, correctAnswer: 'deal with', alternatives: ['handle', 'cope with'], points: 1 }
+        ],
+        hints: [
+          'Think about phrasal verbs related to work and daily routines',
+          'Consider the context of each gap carefully',
+          'Some gaps may have more than one possible answer'
+        ]
+      },
+      {
+        id: 'b2-m3-l2-sentence-reordering-1',
+        type: 'sentence-reordering',
+        title: 'Reorder Story: A Difficult Decision',
+        sentences: [
+          { id: 's1', text: 'After university, Tom was offered a well-paid job at a prestigious company.', order: 1 },
+          { id: 's2', text: 'However, he had always dreamed of setting up his own business.', order: 2 },
+          { id: 's3', text: 'He spent weeks trying to figure out what to do.', order: 3 },
+          { id: 's4', text: 'Eventually, he turned down the job offer and decided to go ahead with his entrepreneurial plans.', order: 4 },
+          { id: 's5', text: 'The first year was tough—he had to put up with financial uncertainty and long hours.', order: 5 },
+          { id: 's6', text: 'Several times, he almost gave up and looked for traditional employment.', order: 6 },
+          { id: 's7', text: 'But gradually, the business took off and became profitable.', order: 7 },
+          { id: 's8', text: 'Looking back, Tom is glad he didn\'t let fear stand in his way.', order: 8 }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m3-l2-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m3-l2-listening-1.mp3',
+        transcript: 'Interviewer: So, Rachel, tell us about your journey to becoming a successful entrepreneur. Rachel: Well, it certainly wasn\'t easy. When I first set up my company five years ago, I had to deal with countless challenges. I came across so many obstacles—from securing funding to building a team. At first, several investors turned down my proposals. I remember feeling like giving up more than once. But I kept going. I figured out what I needed to improve and worked on my pitch. Eventually, I ran into an investor at a networking event who believed in my vision. That chance encounter changed everything. We went ahead with the launch, and although the first year was difficult—I had to put up with long hours and financial stress—the business gradually took off. Now we\'re expanding internationally. My advice to aspiring entrepreneurs is simple: don\'t let setbacks get you down. Learn from rejections, keep working on your ideas, and never give up on your dreams.',
+        duration: 120,
+        allowReplay: true,
+        maxReplays: 2,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'How long ago did Rachel set up her company?',
+            options: ['Two years ago', 'Three years ago', 'Five years ago', 'Ten years ago'],
+            correctAnswer: 'Five years ago',
+            explanation: 'Rachel says "When I first set up my company five years ago".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'How did Rachel meet the investor who helped her?',
+            correctAnswer: 'She ran into/came across them at a networking event/By chance at a networking event',
+            explanation: 'Rachel mentions running into an investor at a networking event.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What happened when Rachel first approached investors?',
+            options: [
+              'They all invested immediately',
+              'Several turned down her proposals',
+              'They ignored her',
+              'They asked for more time'
+            ],
+            correctAnswer: 'Several turned down her proposals',
+            explanation: 'Rachel states "several investors turned down my proposals".',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'Complete Rachel\'s advice: "Don\'t let setbacks ___ you ___."',
+            correctAnswer: 'get, down',
+            explanation: 'Rachel advises not to let setbacks "get you down".',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l2-key-word-transformation-1',
+        type: 'key-word-transformation',
+        title: 'Transform Using Phrasal Verbs',
+        transformations: [
+          {
+            id: 't1',
+            original: 'They canceled the event due to low ticket sales.',
+            keyword: 'OFF',
+            correctAnswer: 'They called off the event due to low ticket sales/They called the event off due to low ticket sales',
+            alternatives: [],
+            explanation: '"Call off" = cancel.',
+            points: 2
+          },
+          {
+            id: 't2',
+            original: 'I need to tolerate his bad behavior at work.',
+            keyword: 'PUT',
+            correctAnswer: 'I need to put up with his bad behavior at work',
+            alternatives: [],
+            explanation: '"Put up with" = tolerate.',
+            points: 2
+          },
+          {
+            id: 't3',
+            original: 'She discovered the truth by accident.',
+            keyword: 'CAME',
+            correctAnswer: 'She came across the truth by accident',
+            alternatives: [],
+            explanation: '"Come across" = discover by chance.',
+            points: 2
+          },
+          {
+            id: 't4',
+            original: 'We must investigate this complaint immediately.',
+            keyword: 'LOOK',
+            correctAnswer: 'We must look into this complaint immediately',
+            alternatives: [],
+            explanation: '"Look into" = investigate.',
+            points: 2
+          },
+          {
+            id: 't5',
+            original: 'He abandoned his plan to study abroad.',
+            keyword: 'GAVE',
+            correctAnswer: 'He gave up his plan to study abroad',
+            alternatives: [],
+            explanation: '"Give up" = abandon.',
+            points: 2
+          },
+          {
+            id: 't6',
+            original: 'They established a new office in Singapore last year.',
+            keyword: 'SET',
+            correctAnswer: 'They set up a new office in Singapore last year',
+            alternatives: [],
+            explanation: '"Set up" = establish.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l2-pronunciation-1',
+        type: 'pronunciation',
+        title: 'Pronunciation: Phrasal Verb Stress',
+        words: [
+          { word: 'turn DOWN', phonetic: '/tɜːn ˈdaʊn/', audioUrl: '/audio/pronunciation/turn-down.mp3' },
+          { word: 'come aCROSS', phonetic: '/kʌm əˈkrɒs/', audioUrl: '/audio/pronunciation/come-across.mp3' },
+          { word: 'set UP', phonetic: '/set ˈʌp/', audioUrl: '/audio/pronunciation/set-up.mp3' },
+          { word: 'figure OUT', phonetic: '/ˈfɪɡə(r) ˈaʊt/', audioUrl: '/audio/pronunciation/figure-out.mp3' },
+          { word: 'put up WITH', phonetic: '/pʊt ʌp ˈwɪð/', audioUrl: '/audio/pronunciation/put-up-with.mp3' },
+          { word: 'look AFTER', phonetic: '/lʊk ˈɑːftə(r)/', audioUrl: '/audio/pronunciation/look-after.mp3' }
+        ],
+        instructions: 'In phrasal verbs, the stress usually falls on the particle (the second word), not the main verb. Listen and repeat, emphasizing the stressed syllable.',
+        targetText: 'I came across an old friend while setting up my new office. We figured out a time to meet up and catch up on old times.'
+      },
+      {
+        id: 'b2-m3-l2-speaking-2',
+        type: 'speaking',
+        prompt: 'Describe a time when you had to deal with a difficult person or situation. Speak for 2-3 minutes. Use at least 6 phrasal verbs: put up with, deal with, figure out, get over, work out, come across, give up, take on. Make sure to use them naturally in context.',
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Structure: Describe situation → Explain challenge → Actions taken → Result',
+          'Use phrasal verbs naturally—don\'t list them',
+          'Examples: "I had to put up with...", "I tried to figure out...", "I didn\'t give up..."',
+          'Speak clearly and at a natural pace',
+          'Use stress correctly on phrasal verbs (stress the particle)'
+        ]
+      },
+      {
+        id: 'b2-m3-l2-vocabulary-4',
+        type: 'phrasal-verbs',
+        title: 'Relationships & Social Phrasal Verbs',
+        phrasalVerbs: [
+          {
+            verb: 'get along/on (with)',
+            meaning: 'to have a good relationship',
+            example: 'I get along well with my colleagues.',
+            separable: false
+          },
+          {
+            verb: 'fall out (with)',
+            meaning: 'to have an argument and stop being friends',
+            example: 'They fell out over money and haven\'t spoken since.',
+            separable: false
+          },
+          {
+            verb: 'make up',
+            meaning: 'to become friends again after an argument',
+            example: 'They had a fight but made up the next day.',
+            separable: true
+          },
+          {
+            verb: 'grow up',
+            meaning: 'to become an adult',
+            example: 'I grew up in a small town.',
+            separable: false
+          },
+          {
+            verb: 'bring up',
+            meaning: 'to raise/care for a child',
+            example: 'She was brought up by her grandparents.',
+            separable: true
+          },
+          {
+            verb: 'ask out',
+            meaning: 'to invite on a date',
+            example: 'He finally asked her out to dinner.',
+            separable: true
+          },
+          {
+            verb: 'split up',
+            meaning: 'to end a relationship',
+            example: 'They split up after five years together.',
+            separable: false
+          },
+          {
+            verb: 'count on',
+            meaning: 'to rely on or trust someone',
+            example: 'You can always count on me for help.',
+            separable: false
+          }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose the correct phrasal verb: I can ___ you to keep this secret.',
+            options: ['count on', 'get along', 'fall out', 'split up'],
+            correctAnswer: 'count on',
+            explanation: '"Count on" means to rely on or trust someone.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: They had an argument but quickly ___ ___.',
+            correctAnswer: 'made up',
+            explanation: '"Made up" means became friends again after an argument.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l2-integrated-reading-1',
+        type: 'reading',
+        title: 'Integrated Reading: The Power of Persistence',
+        text: `Throughout history, countless successful individuals have one trait in common: they refused to give up when faced with obstacles. Whether in business, science, or the arts, those who persevere through challenges often end up achieving remarkable success.
+
+Consider Thomas Edison, who came across failure thousands of times before perfecting the light bulb. When asked about his repeated setbacks, he famously stated that he hadn't failed—he had simply figured out thousands of ways that didn't work. Instead of letting disappointment get him down, Edison looked upon each failed attempt as a learning opportunity. He carried out systematic experiments, took on new approaches, and eventually worked out a solution that revolutionized the world.
+
+Similarly, J.K. Rowling faced numerous rejections before her Harry Potter series took off. Multiple publishers turned down her manuscript, telling her that children's books wouldn't sell. She had to put up with financial difficulties, personal challenges, and professional disappointment. However, Rowling didn't call off her writing efforts. She kept working on her craft, brought up her daughter alone while writing, and maintained faith in her story. When a publisher finally agreed to take on her book, it became a global phenomenon.
+
+In the business world, Steve Jobs was famously forced out of Apple, the company he had set up years earlier. Many would have given up after such a devastating setback. Instead, Jobs went ahead and founded new companies, including Pixar. He looked into emerging technologies, dealt with new challenges, and continued innovating. When Apple brought him back years later, he transformed the company into one of the world's most valuable businesses.
+
+These examples illustrate a crucial principle: success rarely comes to those who give up at the first sign of difficulty. The ability to put up with temporary setbacks, figure out solutions to problems, and carry on despite obstacles often separates those who achieve their goals from those who don't. When you come across challenges in your own life, remember that persistence and resilience can help you work through even the most difficult situations.
+
+Research backs up this observation. Studies show that persistence—often called "grit"—predicts success more accurately than talent or intelligence alone. People who take on challenges, deal with setbacks constructively, and refuse to give up tend to go further in their careers and personal lives. The question isn't whether you'll face obstacles, but rather how you'll respond when difficulties come up.`,
+        wordCount: 390,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'short-answer',
+            question: 'According to the text, what did Edison say about his repeated failures?',
+            correctAnswer: 'He said he hadn\'t failed but had figured out thousands of ways that didn\'t work/He viewed them as learning opportunities',
+            explanation: 'Stated in paragraph 2.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'What happened to J.K. Rowling\'s manuscript initially?',
+            options: [
+              'It was immediately published',
+              'Multiple publishers turned it down',
+              'She gave up on it',
+              'It was stolen'
+            ],
+            correctAnswer: 'Multiple publishers turned it down',
+            explanation: 'The text states "Multiple publishers turned down her manuscript".',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'Complete: Steve Jobs was forced out of Apple, the company he had ___ ___ years earlier.',
+            correctAnswer: 'set up',
+            explanation: 'Direct quote from the text.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'short-answer',
+            question: 'According to research mentioned in the text, what predicts success more than talent or intelligence?',
+            correctAnswer: 'Persistence/Grit',
+            explanation: 'Stated in the final paragraph.',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: 'What is the main message of this text?',
+            options: [
+              'Talent is more important than hard work',
+              'Success requires persistence through obstacles',
+              'Famous people never face challenges',
+              'Giving up is sometimes the right choice'
+            ],
+            correctAnswer: 'Success requires persistence through obstacles',
+            explanation: 'This is the central theme throughout the text.',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'Write a paragraph (120-150 words) about a time when persistence helped you or someone you know overcome a challenge. Use at least 5 phrasal verbs from this lesson naturally in your writing.',
+            correctAnswer: '',
+            explanation: 'Assessment based on: natural use of phrasal verbs, coherent narrative, grammatical accuracy, appropriate length.',
+            points: 10
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'persevere', definition: 'to continue trying despite difficulties' },
+          { word: 'devastating', definition: 'highly destructive or damaging' },
+          { word: 'resilience', definition: 'the ability to recover from setbacks' },
+          { word: 'grit', definition: 'courage and determination; persistence' }
         ]
       }
     ]
