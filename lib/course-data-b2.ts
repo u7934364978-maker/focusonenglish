@@ -8886,6 +8886,991 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
           'Conclusion: Balanced view',
           'Use: furthermore, nevertheless, moreover, on the other hand, whereas, consequently'
         ]
+      },
+      {
+        id: 'b2-m2-l4-grammar-1',
+        type: 'grammar',
+        title: 'Linking Words: Addition',
+        grammarPoint: 'Adding information: furthermore, moreover, in addition, additionally, besides',
+        explanation: 'Estos conectores añaden información o argumentos adicionales:\n- Furthermore/Moreover: Además (formal)\n- In addition/Additionally: Además\n- Besides: Además de esto\n- What\'s more: Lo que es más (informal)\n\nNota: Van al principio de oración seguidos de coma.',
+        examples: [
+          'The course is expensive. Furthermore, it requires a lot of time.',
+          'She speaks French. Moreover, she lived in Paris for five years.',
+          'In addition to the salary, they offer excellent benefits.',
+          'The hotel is centrally located. Besides, it has great reviews.',
+          'He\'s qualified. What\'s more, he has relevant experience.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose the most formal connector: The project is over budget. ___, it\'s behind schedule.',
+            options: ['What\'s more', 'Furthermore', 'Besides', 'Plus'],
+            correctAnswer: 'Furthermore',
+            explanation: 'Furthermore es el conector más formal para añadir información.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: The apartment is spacious and well-lit. ___ ___, it has a beautiful view.',
+            correctAnswer: 'In addition/What\'s more/Moreover/Furthermore',
+            explanation: 'Cualquiera de estos conectores añade información positiva.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-grammar-2',
+        type: 'grammar',
+        title: 'Linking Words: Contrast',
+        grammarPoint: 'Contrasting ideas: however, nevertheless, on the other hand, whereas, while',
+        explanation: 'Conectores para contrastar ideas:\n- However/Nevertheless: Sin embargo (formal)\n- On the other hand: Por otro lado\n- Whereas/While: Mientras que (dentro de oración)\n- In contrast: En contraste\n- Despite/In spite of + noun/gerund',
+        examples: [
+          'The weather was bad. However, we enjoyed the trip.',
+          'The task was difficult. Nevertheless, they completed it.',
+          'I enjoy the city, whereas my partner prefers the countryside.',
+          'Online shopping is convenient. On the other hand, you can\'t try before buying.',
+          'Despite the rain, we went hiking.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which connector goes INSIDE the sentence?',
+            options: ['However', 'Nevertheless', 'Whereas', 'On the other hand'],
+            correctAnswer: 'Whereas',
+            explanation: 'Whereas se usa dentro de la oración para conectar dos cláusulas.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Combine using "despite": "It was raining. We played football."',
+            correctAnswer: 'Despite the rain, we played football/We played football despite the rain',
+            explanation: 'Despite + noun (the rain).',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-grammar-3',
+        type: 'grammar',
+        title: 'Linking Words: Cause and Effect',
+        grammarPoint: 'Expressing cause and result: consequently, therefore, as a result, due to, owing to',
+        explanation: 'Conectores de causa y efecto:\n- Consequently/Therefore/Thus: Por lo tanto (formal)\n- As a result: Como resultado\n- Due to/Owing to + noun: Debido a\n- Because of + noun\n- Since/As: Como (al principio)',
+        examples: [
+          'Sales dropped significantly. Consequently, the company laid off staff.',
+          'The evidence was compelling. Therefore, they reached a verdict.',
+          'He studied hard. As a result, he passed the exam.',
+          'The flight was cancelled due to bad weather.',
+          'Since you\'re here, let\'s discuss the project.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '"Due to" must be followed by:',
+            options: ['a verb', 'a clause', 'a noun/noun phrase', 'an adjective'],
+            correctAnswer: 'a noun/noun phrase',
+            explanation: 'Due to + noun/noun phrase (Due to the rain, Due to delays)',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: Traffic was terrible. ___, I arrived late.',
+            correctAnswer: 'Consequently/Therefore/As a result',
+            explanation: 'Conectores que expresan resultado.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-cloze-1',
+        type: 'multiple-choice-cloze',
+        title: 'Multiple Choice Cloze: The Future of Education',
+        text: `The education system has undergone dramatic changes in recent years. Traditional classroom-based learning has long been the norm. (1)_____, online education has emerged as a viable alternative. Many students now have access to courses from top universities worldwide. (2)_____, this democratization of education hasn't solved all problems.
+
+(3)_____ online learning offers flexibility and convenience, it also presents challenges. Students must be highly self-motivated, (4)_____ they risk falling behind. (5)_____, the lack of face-to-face interaction can make it difficult to build relationships with peers and instructors. (6)_____ these challenges, many institutions are developing hybrid models that combine the best of both approaches.
+
+(7)_____, technology continues to advance, we can expect further innovations in education. Virtual reality, for instance, could revolutionize how we teach complex subjects. (8)_____ the future of education will likely involve a blend of traditional and digital methods, rather than one completely replacing the other.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '1. _____',
+            options: ['Therefore', 'However', 'Consequently', 'Thus'],
+            correctAnswer: 'However',
+            explanation: 'However introduce un contraste con la idea anterior.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: '2. _____',
+            options: ['Furthermore', 'Nevertheless', 'Therefore', 'Consequently'],
+            correctAnswer: 'Nevertheless',
+            explanation: 'Nevertheless indica que a pesar del aspecto positivo, hay problemas.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: '3. _____',
+            options: ['Despite', 'Although', 'However', 'Nevertheless'],
+            correctAnswer: 'Although',
+            explanation: 'Although + clause (Although online learning offers...)',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: '4. _____',
+            options: ['therefore', 'otherwise', 'moreover', 'furthermore'],
+            correctAnswer: 'otherwise',
+            explanation: 'Otherwise = si no, de lo contrario.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: '5. _____',
+            options: ['Therefore', 'Furthermore', 'However', 'Nevertheless'],
+            correctAnswer: 'Furthermore',
+            explanation: 'Furthermore añade otro desafío a la lista.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: '6. _____',
+            options: ['Despite', 'Although', 'However', 'In spite'],
+            correctAnswer: 'Despite',
+            explanation: 'Despite + noun phrase (Despite these challenges)',
+            points: 1
+          },
+          {
+            id: 'q7',
+            type: 'multiple-choice',
+            question: '7. _____',
+            options: ['Because', 'As', 'Since', 'Due to'],
+            correctAnswer: 'As',
+            explanation: 'As + clause al principio de oración expresa causa.',
+            points: 1
+          },
+          {
+            id: 'q8',
+            type: 'multiple-choice',
+            question: '8. _____',
+            options: ['Consequently', 'Therefore', 'Thus', 'In conclusion'],
+            correctAnswer: 'In conclusion',
+            explanation: 'In conclusion introduce la conclusión final.',
+            points: 1
+          }
+        ],
+        focusAreas: ['Linking words', 'Discourse markers', 'Text cohesion']
+      },
+      {
+        id: 'b2-m2-l4-sentence-completion',
+        type: 'sentence-completion',
+        title: 'Sentence Completion: Using Connectors',
+        instructions: 'Complete each sentence with an appropriate continuation using linking words.',
+        sentences: [
+          {
+            id: 'sc1',
+            incompleteSentence: 'The company\'s profits increased significantly. Furthermore,',
+            sampleCompletions: [
+              'they expanded into new markets',
+              'employee satisfaction reached an all-time high',
+              'market share grew by 15%'
+            ],
+            evaluationCriteria: 'Should add related positive information',
+            points: 3
+          },
+          {
+            id: 'sc2',
+            incompleteSentence: 'The experiment yielded interesting results. Nevertheless,',
+            sampleCompletions: [
+              'more research is needed to confirm the findings',
+              'several variables remain unexplained',
+              'critics questioned the methodology'
+            ],
+            evaluationCriteria: 'Should contrast with a limitation or problem',
+            points: 3
+          },
+          {
+            id: 'sc3',
+            incompleteSentence: 'The roads were icy. Consequently,',
+            sampleCompletions: [
+              'many accidents occurred throughout the city',
+              'schools were closed for the day',
+              'traffic moved at a crawl'
+            ],
+            evaluationCriteria: 'Should show result/consequence',
+            points: 3
+          },
+          {
+            id: 'sc4',
+            incompleteSentence: 'I prefer working independently, whereas',
+            sampleCompletions: [
+              'my colleague thrives in team environments',
+              'some people need constant collaboration',
+              'others enjoy group projects'
+            ],
+            evaluationCriteria: 'Should provide contrasting preference',
+            points: 3
+          },
+          {
+            id: 'sc5',
+            incompleteSentence: 'Despite the challenges,',
+            sampleCompletions: [
+              'the team completed the project on time',
+              'we managed to achieve our goals',
+              'morale remained high throughout'
+            ],
+            evaluationCriteria: 'Should show success/positive outcome',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-error-identification',
+        type: 'error-identification',
+        title: 'Error Correction: Linking Words',
+        instructions: 'Identify and correct the errors in the use of linking words.',
+        sentences: [
+          {
+            id: 'err1',
+            sentence: 'The plan was expensive. Despite, they approved it.',
+            error: 'Despite',
+            correction: 'Despite this/Nevertheless',
+            explanation: 'Despite necesita un noun phrase después. Usa "Despite this" o cambia a "Nevertheless".',
+            points: 2
+          },
+          {
+            id: 'err2',
+            sentence: 'Although the weather, we went hiking.',
+            error: 'Although the weather',
+            correction: 'Despite the weather',
+            explanation: 'Although necesita una cláusula completa (Although the weather was bad). Con noun, usa Despite.',
+            points: 2
+          },
+          {
+            id: 'err3',
+            sentence: 'He studied hard, however he failed the exam.',
+            error: 'hard, however',
+            correction: 'hard. However, he/hard; however, he',
+            explanation: 'However es un adverbio conjuntivo, necesita punto y coma o punto antes.',
+            points: 2
+          },
+          {
+            id: 'err4',
+            sentence: 'The project was late due to the team didn\'t communicate well.',
+            error: 'due to the team didn\'t',
+            correction: 'because the team didn\'t/due to poor communication',
+            explanation: 'Due to + noun/noun phrase. Con cláusula completa, usa "because".',
+            points: 2
+          },
+          {
+            id: 'err5',
+            sentence: 'She is talented. Moreover that, she works very hard.',
+            error: 'Moreover that',
+            correction: 'Moreover,/In addition to that,',
+            explanation: 'Moreover no va seguido de "that". Usa "Moreover," solo o "In addition to that,"',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-reading-1',
+        type: 'reading',
+        title: 'Reading: The Benefits of Bilingualism',
+        text: `Learning a second language offers numerous cognitive benefits. Research has consistently shown that bilingual individuals perform better on tasks requiring attention and problem-solving. Furthermore, they demonstrate enhanced memory and multitasking abilities compared to monolingual peers.
+
+The advantages extend beyond cognitive function. Bilingualism can open doors to career opportunities in an increasingly globalized world. Moreover, it allows people to connect with different cultures and perspectives. On the other hand, learning a second language requires significant time and effort, particularly for adults.
+
+Despite these challenges, the benefits clearly outweigh the costs. Studies indicate that bilingual children show greater mental flexibility and creativity. Additionally, speaking multiple languages may help delay the onset of dementia and other age-related cognitive decline. Consequently, many education systems are introducing foreign language instruction at earlier ages.
+
+Nevertheless, critics argue that early language education can be confusing for young children. They worry that learning two languages simultaneously might slow down language development. However, research has largely debunked this myth. In fact, bilingual children often develop stronger metalinguistic awareness—an understanding of how language works.
+
+In conclusion, while becoming bilingual requires dedication, the cognitive, social, and professional advantages make it a worthwhile pursuit. As our world becomes more interconnected, the ability to communicate across linguistic barriers will only grow in importance.`,
+        wordCount: 220,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, what is one cognitive benefit of bilingualism?',
+            options: [
+              'Better athletic performance',
+              'Enhanced memory',
+              'Improved artistic skills',
+              'Faster reading speed'
+            ],
+            correctAnswer: 'Enhanced memory',
+            explanation: 'El texto menciona "enhanced memory" como uno de los beneficios cognitivos.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name TWO linking words from the text that add information.',
+            correctAnswer: 'Furthermore, Moreover, Additionally, In fact (any two)',
+            explanation: 'Estos conectores añaden información adicional.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What concern do critics have about early language education?',
+            options: [
+              'It costs too much',
+              'It might confuse children',
+              'Teachers are unqualified',
+              'It takes time from other subjects'
+            ],
+            correctAnswer: 'It might confuse children',
+            explanation: 'Los críticos "worry that learning two languages simultaneously might slow down language development".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'Complete this sentence from the text: "___ these challenges, the benefits clearly outweigh the costs."',
+            correctAnswer: 'Despite',
+            explanation: 'Despite + noun phrase para contrastar.',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'According to the text, what is "metalinguistic awareness"?',
+            correctAnswer: 'An understanding of how language works',
+            explanation: 'El texto define metalinguistic awareness como "an understanding of how language works".',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'cognitive', definition: 'related to thinking and mental processes' },
+          { word: 'monolingual', definition: 'speaking only one language' },
+          { word: 'onset', definition: 'the beginning or start of something' },
+          { word: 'dementia', definition: 'mental decline affecting memory and thinking' },
+          { word: 'debunked', definition: 'proved to be false' }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-paraphrasing',
+        type: 'paraphrasing',
+        title: 'Paraphrasing with Linking Words',
+        instructions: 'Rewrite each pair of sentences as one sentence using the linking word in parentheses.',
+        sentences: [
+          {
+            id: 'p1',
+            original: 'The price was high. We decided to buy it. (nevertheless)',
+            paraphrased: 'The price was high. Nevertheless, we decided to buy it.',
+            alternatives: [
+              'The price was high; nevertheless, we decided to buy it.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p2',
+            original: 'She speaks fluent Spanish. She has never been to Spain. (despite)',
+            paraphrased: 'Despite speaking fluent Spanish, she has never been to Spain./She speaks fluent Spanish despite never having been to Spain.',
+            alternatives: [
+              'Despite the fact that she speaks fluent Spanish, she has never been to Spain.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p3',
+            original: 'The restaurant has excellent food. The service is outstanding. (furthermore)',
+            paraphrased: 'The restaurant has excellent food. Furthermore, the service is outstanding.',
+            alternatives: [
+              'The restaurant has excellent food; furthermore, the service is outstanding.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p4',
+            original: 'It rained heavily. The concert was cancelled. (consequently)',
+            paraphrased: 'It rained heavily. Consequently, the concert was cancelled.',
+            alternatives: [
+              'It rained heavily; consequently, the concert was cancelled.',
+              'The concert was cancelled because it rained heavily.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p5',
+            original: 'I prefer tea. My sister prefers coffee. (whereas)',
+            paraphrased: 'I prefer tea, whereas my sister prefers coffee.',
+            alternatives: [
+              'Whereas I prefer tea, my sister prefers coffee.'
+            ],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-collocation-matching',
+        type: 'collocation-matching',
+        title: 'Collocation Matching: Discourse Markers',
+        instructions: 'Match the discourse markers with their functions.',
+        pairs: [
+          {
+            left: 'In conclusion',
+            right: 'Summarizing main points',
+            explanation: 'Usado para concluir y resumir.'
+          },
+          {
+            left: 'For instance',
+            right: 'Giving an example',
+            explanation: 'Introduce un ejemplo específico.'
+          },
+          {
+            left: 'On the contrary',
+            right: 'Contradicting a previous statement',
+            explanation: 'Contradice completamente lo dicho antes.'
+          },
+          {
+            left: 'To sum up',
+            right: 'Summarizing briefly',
+            explanation: 'Resume brevemente los puntos principales.'
+          },
+          {
+            left: 'That is to say',
+            right: 'Clarifying/rephrasing',
+            explanation: 'Clarifica o reformula la idea anterior.'
+          },
+          {
+            left: 'As a matter of fact',
+            right: 'Emphasizing truth',
+            explanation: 'Enfatiza que algo es verdadero.'
+          },
+          {
+            left: 'In other words',
+            right: 'Rephrasing for clarity',
+            explanation: 'Reformula con palabras más simples.'
+          },
+          {
+            left: 'At any rate',
+            right: 'Anyway/in any case',
+            explanation: 'Significa "de todos modos" o "en cualquier caso".'
+          }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l4-phrasal-verbs',
+        type: 'vocabulary',
+        title: 'Phrasal Verbs: Communication & Discussion',
+        vocabularySet: [
+          { word: 'bring up', definition: 'mention or introduce a topic', example: 'She brought up an interesting point during the meeting.' },
+          { word: 'point out', definition: 'draw attention to something', example: 'He pointed out several errors in the report.' },
+          { word: 'sum up', definition: 'summarize briefly', example: 'To sum up, we need to increase our marketing budget.' },
+          { word: 'go over', definition: 'review or examine', example: 'Let\'s go over the main points again.' },
+          { word: 'get across', definition: 'communicate successfully', example: 'It\'s difficult to get my ideas across in a foreign language.' },
+          { word: 'put forward', definition: 'propose or suggest', example: 'They put forward several innovative solutions.' },
+          { word: 'talk over', definition: 'discuss thoroughly', example: 'We need to talk over this issue before making a decision.' },
+          { word: 'spell out', definition: 'explain in detail', example: 'Could you spell out exactly what you mean?' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'fill-blank',
+            question: 'She ___ ___ an important issue that we had overlooked.',
+            correctAnswer: 'brought up',
+            explanation: 'Bring up = mencionar un tema.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'Which phrasal verb means "to explain clearly and in detail"?',
+            options: ['sum up', 'spell out', 'go over', 'get across'],
+            correctAnswer: 'spell out',
+            explanation: 'Spell out = explicar detalladamente.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'To ___ ___, I think we should postpone the launch.',
+            correctAnswer: 'sum up',
+            explanation: 'Sum up = resumir.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-idioms',
+        type: 'vocabulary',
+        title: 'Idioms: Discussion & Debate',
+        vocabularySet: [
+          { word: 'to get to the point', definition: 'to talk about the most important thing', example: 'Stop rambling and get to the point!' },
+          { word: 'to see eye to eye', definition: 'to agree with someone', example: 'We don\'t always see eye to eye on politics.' },
+          { word: 'to beat around the bush', definition: 'to avoid talking about the main issue', example: 'Don\'t beat around the bush—tell me what happened.' },
+          { word: 'to make a long story short', definition: 'to summarize quickly', example: 'To make a long story short, we missed the train.' },
+          { word: 'to get something off your chest', definition: 'to tell someone about something that has been worrying you', example: 'I need to get this off my chest—I\'ve been feeling anxious about the presentation.' },
+          { word: 'to have a say in something', definition: 'to have the right to give your opinion', example: 'Employees should have a say in company decisions.' },
+          { word: 'that\'s beside the point', definition: 'that\'s not relevant to the discussion', example: 'Whether it\'s expensive is beside the point—we need it.' },
+          { word: 'to put it mildly', definition: 'to understate something (it\'s actually worse)', example: 'The presentation was disappointing, to put it mildly.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'If someone is "beating around the bush," they are:',
+            options: [
+              'getting to the point quickly',
+              'avoiding the main issue',
+              'being very direct',
+              'summarizing effectively'
+            ],
+            correctAnswer: 'avoiding the main issue',
+            explanation: 'Beat around the bush = evitar el tema principal.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'We rarely ___ ___ ___ ___ on this topic—we always disagree.',
+            correctAnswer: 'see eye to eye',
+            explanation: 'See eye to eye = estar de acuerdo.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-gap-fill',
+        type: 'gap-fill',
+        title: 'Gap-fill: Climate Change Debate',
+        text: `The debate surrounding climate change has intensified in recent years. Scientists overwhelmingly agree that global temperatures are rising. (1)_____, there is disagreement about the best solutions to address this crisis.
+
+Some argue that renewable energy is the answer. (2)_____, solar and wind power have become increasingly affordable and efficient. (3)_____, they point out that transitioning away from fossil fuels would create millions of new jobs.
+
+(4)_____, critics raise concerns about the reliability of renewable energy. They argue that solar and wind are intermittent sources. (5)_____, they question whether these technologies can meet global energy demands.
+
+(6)_____ these objections, many countries have committed to ambitious climate targets. (7)_____, the European Union aims to achieve carbon neutrality by 2050. (8)_____, individual action alone won't solve the problem—systemic changes are essential.
+
+In conclusion, (9)_____ the challenges are significant, the cost of inaction would be far greater. (10)_____, we must act decisively to protect our planet for future generations.`,
+        gaps: [
+          { id: 'gap1', correctAnswers: ['However', 'Nevertheless'], explanation: 'Contrasta con el acuerdo sobre temperaturas.' },
+          { id: 'gap2', correctAnswers: ['For instance', 'For example'], explanation: 'Introduce un ejemplo.' },
+          { id: 'gap3', correctAnswers: ['Furthermore', 'Moreover', 'Additionally', 'In addition'], explanation: 'Añade otro argumento.' },
+          { id: 'gap4', correctAnswers: ['However', 'Nevertheless', 'On the other hand'], explanation: 'Introduce la posición contraria.' },
+          { id: 'gap5', correctAnswers: ['Furthermore', 'Moreover', 'Additionally'], explanation: 'Añade otra preocupación de los críticos.' },
+          { id: 'gap6', correctAnswers: ['Despite', 'Notwithstanding'], explanation: 'Despite + noun phrase.' },
+          { id: 'gap7', correctAnswers: ['For instance', 'For example'], explanation: 'Introduce un ejemplo específico.' },
+          { id: 'gap8', correctAnswers: ['However', 'Nevertheless', 'Nonetheless'], explanation: 'Contrasta con la acción de países.' },
+          { id: 'gap9', correctAnswers: ['although', 'while', 'though'], explanation: 'Although + clause.' },
+          { id: 'gap10', correctAnswers: ['Therefore', 'Consequently', 'Thus'], explanation: 'Expresa conclusión lógica.' }
+        ],
+        instructions: 'Fill in the gaps with appropriate linking words or discourse markers.',
+        points: 10
+      },
+      {
+        id: 'b2-m2-l4-sentence-reordering',
+        type: 'sentence-reordering',
+        title: 'Sentence Reordering: Building an Argument',
+        instructions: 'Put the sentences in the correct order to form a coherent paragraph.',
+        sentences: [
+          { id: 's1', text: 'In conclusion, regular exercise is essential for maintaining both physical and mental health.', order: 8 },
+          { id: 's2', text: 'Moreover, it can improve sleep quality and boost energy levels throughout the day.', order: 4 },
+          { id: 's3', text: 'On the other hand, finding time to exercise can be challenging for busy professionals.', order: 5 },
+          { id: 's4', text: 'Regular exercise offers numerous health benefits that extend far beyond physical fitness.', order: 1 },
+          { id: 's5', text: 'For instance, studies show that exercise reduces the risk of heart disease, diabetes, and certain cancers.', order: 2 },
+          { id: 's6', text: 'Nevertheless, even short periods of activity—such as a 20-minute walk—can make a significant difference.', order: 6 },
+          { id: 's7', text: 'Furthermore, physical activity has been proven to reduce stress and anxiety.', order: 3 },
+          { id: 's8', text: 'Therefore, incorporating some form of exercise into your daily routine should be a priority.', order: 7 }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l4-listening',
+        type: 'listening',
+        title: 'Listening: Interview with a Debate Coach',
+        audioUrl: '/audio/b2-m2-l4-debate-coach.mp3',
+        duration: 150,
+        transcript: `Interviewer: Today we're speaking with Sarah Mitchell, a professional debate coach. Sarah, what's the most important skill in debating?
+
+Sarah: Well, I'd say it's the ability to structure your arguments logically. You need to present your points clearly. Furthermore, you must support each claim with evidence. However, it's not just about what you say—it's also about how you respond to opposing viewpoints.
+
+Interviewer: How should someone respond to a counter-argument?
+
+Sarah: First, acknowledge the other person's point. You might say "That's a valid concern" or "I understand that perspective." Nevertheless, you then need to explain why your position is stronger. For instance, you could point out flaws in their reasoning or provide contradictory evidence.
+
+Interviewer: What about using linking words?
+
+Sarah: They're absolutely crucial. Linking words like "furthermore," "on the other hand," and "consequently" help your audience follow your train of thought. Moreover, they make you sound more credible and persuasive. Without them, your argument can seem disjointed.
+
+Interviewer: Any final advice?
+
+Sarah: Practice! Watch experienced debaters and note how they structure arguments. Additionally, read well-written opinion pieces to see how professionals use linking words. Most importantly, don't be afraid to engage in respectful discussions—that's how you improve.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to Sarah, what is the most important skill in debating?',
+            options: [
+              'Speaking loudly',
+              'Structuring arguments logically',
+              'Using difficult vocabulary',
+              'Winning at all costs'
+            ],
+            correctAnswer: 'Structuring arguments logically',
+            explanation: 'Sarah dice: "the ability to structure your arguments logically".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'What should you do FIRST when responding to a counter-argument?',
+            correctAnswer: 'Acknowledge the other person\'s point',
+            explanation: 'Sarah dice: "First, acknowledge the other person\'s point".',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Why are linking words important in debates?',
+            options: [
+              'They make you sound intelligent',
+              'They help the audience follow your thoughts',
+              'They confuse your opponent',
+              'They fill time'
+            ],
+            correctAnswer: 'They help the audience follow your thoughts',
+            explanation: 'Sarah menciona que ayudan a "follow your train of thought".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'Name TWO linking words Sarah mentions in the interview.',
+            correctAnswer: 'furthermore, nevertheless, moreover, on the other hand, consequently (any two)',
+            explanation: 'Sarah menciona varios linking words como ejemplos.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Academic Discourse Markers',
+        vocabularySet: [
+          { word: 'arguably', definition: 'it can be argued that (used to present an opinion)', example: 'This is arguably the most important issue of our time.' },
+          { word: 'notably', definition: 'especially; in particular', example: 'Several countries, notably Japan and Germany, have aging populations.' },
+          { word: 'primarily', definition: 'mainly; chiefly', example: 'The company focuses primarily on software development.' },
+          { word: 'namely', definition: 'specifically; that is to say', example: 'Only one person knew the truth, namely the CEO.' },
+          { word: 'accordingly', definition: 'therefore; as a result', example: 'The deadline was missed. Accordingly, the project was delayed.' },
+          { word: 'likewise', definition: 'in the same way; also', example: 'Germany increased spending. France did likewise.' },
+          { word: 'conversely', definition: 'in an opposite way', example: 'Online sales increased. Conversely, retail sales declined.' },
+          { word: 'nonetheless', definition: 'nevertheless; despite that', example: 'The task was difficult. Nonetheless, they succeeded.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which word means "in an opposite way"?',
+            options: ['likewise', 'conversely', 'accordingly', 'notably'],
+            correctAnswer: 'conversely',
+            explanation: 'Conversely indica lo opuesto.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: Several countries, ___ Sweden and Denmark, have excellent social welfare systems.',
+            correctAnswer: 'notably',
+            explanation: 'Notably = especialmente, en particular.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-speaking-1',
+        type: 'speaking',
+        prompt: 'Present a 2-3 minute argument on ONE of these topics: "Should students be allowed to use smartphones in class?" OR "Is social media doing more harm than good?" Structure your response with clear linking words (at least 6 different ones). Include: introduction, main points, counter-argument, and conclusion.',
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Introduction: "Today I\'d like to discuss..."',
+          'Main points: "Firstly..., Secondly..., Furthermore..."',
+          'Counter-argument: "Some people argue that... However..."',
+          'Conclusion: "In conclusion..., Therefore..."',
+          'Use variety: nevertheless, moreover, on the other hand, consequently, despite this'
+        ]
+      },
+      {
+        id: 'b2-m2-l4-key-word-transformation',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformation: Linking Words',
+        instructions: 'Complete the second sentence so that it means the same as the first, using the word given. Use 2-5 words including the word given.',
+        transformations: [
+          {
+            id: 't1',
+            original: 'The weather was terrible but we enjoyed the trip.',
+            keyword: 'DESPITE',
+            answer: 'Despite the terrible weather',
+            fullSentence: 'Despite the terrible weather, we enjoyed the trip.',
+            points: 2
+          },
+          {
+            id: 't2',
+            original: 'He didn\'t study, so he failed the exam.',
+            keyword: 'CONSEQUENTLY',
+            answer: 'didn\'t study. Consequently, he',
+            fullSentence: 'He didn\'t study. Consequently, he failed the exam.',
+            points: 2
+          },
+          {
+            id: 't3',
+            original: 'The job is well-paid. It also offers great benefits.',
+            keyword: 'ADDITION',
+            answer: 'well-paid. In addition, it',
+            fullSentence: 'The job is well-paid. In addition, it offers great benefits.',
+            points: 2
+          },
+          {
+            id: 't4',
+            original: 'I like classical music but my brother prefers rock.',
+            keyword: 'WHEREAS',
+            answer: 'classical music, whereas my brother',
+            fullSentence: 'I like classical music, whereas my brother prefers rock.',
+            points: 2
+          },
+          {
+            id: 't5',
+            original: 'The evidence was convincing, so they changed their minds.',
+            keyword: 'RESULT',
+            answer: 'convincing. As a result, they',
+            fullSentence: 'The evidence was convincing. As a result, they changed their minds.',
+            points: 2
+          },
+          {
+            id: 't6',
+            original: 'She worked hard but she didn\'t get the promotion.',
+            keyword: 'NEVERTHELESS',
+            answer: 'worked hard. Nevertheless, she',
+            fullSentence: 'She worked hard. Nevertheless, she didn\'t get the promotion.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-word-formation',
+        type: 'word-formation',
+        title: 'Word Formation: Abstract Nouns for Discussion',
+        instructions: 'Complete each sentence with the correct form of the word in capitals.',
+        words: [
+          {
+            id: 'wf1',
+            sentence: 'The ___ between the two theories is significant.',
+            baseWord: 'DIFFERENT',
+            correctAnswer: 'difference',
+            explanation: 'difference (noun)',
+            points: 1
+          },
+          {
+            id: 'wf2',
+            sentence: 'There is growing ___ about climate change among young people.',
+            baseWord: 'AWARE',
+            correctAnswer: 'awareness',
+            explanation: 'awareness (noun)',
+            points: 1
+          },
+          {
+            id: 'wf3',
+            sentence: 'The ___ of the argument was immediately clear.',
+            baseWord: 'STRONG',
+            correctAnswer: 'strength',
+            explanation: 'strength (noun)',
+            points: 1
+          },
+          {
+            id: 'wf4',
+            sentence: 'His ___ was that the policy would fail.',
+            baseWord: 'CONCLUDE',
+            correctAnswer: 'conclusion',
+            explanation: 'conclusion (noun)',
+            points: 1
+          },
+          {
+            id: 'wf5',
+            sentence: 'The ___ of both parties is required to reach an agreement.',
+            baseWord: 'COOPERATE',
+            correctAnswer: 'cooperation',
+            explanation: 'cooperation (noun)',
+            points: 1
+          },
+          {
+            id: 'wf6',
+            sentence: 'There was considerable ___ among the committee members.',
+            baseWord: 'AGREE',
+            correctAnswer: 'agreement/disagreement',
+            explanation: 'agreement or disagreement (both nouns are grammatically correct)',
+            points: 1
+          },
+          {
+            id: 'wf7',
+            sentence: 'The ___ of the evidence cannot be disputed.',
+            baseWord: 'RELEVANT',
+            correctAnswer: 'relevance',
+            explanation: 'relevance (noun)',
+            points: 1
+          },
+          {
+            id: 'wf8',
+            sentence: 'Effective ___ is essential in any debate.',
+            baseWord: 'COMMUNICATE',
+            correctAnswer: 'communication',
+            explanation: 'communication (noun)',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l4-pronunciation',
+        type: 'pronunciation',
+        title: 'Pronunciation: Stress in Discourse Markers',
+        instructions: 'Practice the pronunciation and stress patterns of these discourse markers. Listen and repeat.',
+        words: [
+          {
+            word: 'nevertheless',
+            phonetic: '/ˌnevəðəˈles/',
+            audioUrl: '/audio/pronunciation/nevertheless.mp3',
+            stressPattern: 'Primary stress on the final syllable: neverthe-LESS'
+          },
+          {
+            word: 'consequently',
+            phonetic: '/ˈkɒnsɪkwəntli/',
+            audioUrl: '/audio/pronunciation/consequently.mp3',
+            stressPattern: 'Primary stress on first syllable: CON-se-quent-ly'
+          },
+          {
+            word: 'furthermore',
+            phonetic: '/ˌfɜːðəˈmɔː(r)/',
+            audioUrl: '/audio/pronunciation/furthermore.mp3',
+            stressPattern: 'Primary stress on final syllable: further-MORE'
+          },
+          {
+            word: 'however',
+            phonetic: '/haʊˈevə(r)/',
+            audioUrl: '/audio/pronunciation/however.mp3',
+            stressPattern: 'Primary stress on second syllable: how-EV-er'
+          },
+          {
+            word: 'additionally',
+            phonetic: '/əˈdɪʃənəli/',
+            audioUrl: '/audio/pronunciation/additionally.mp3',
+            stressPattern: 'Primary stress on second syllable: ad-DI-tion-al-ly'
+          },
+          {
+            word: 'whereas',
+            phonetic: '/weərˈæz/',
+            audioUrl: '/audio/pronunciation/whereas.mp3',
+            stressPattern: 'Primary stress on second syllable: where-AS'
+          }
+        ],
+        points: 6
+      },
+      {
+        id: 'b2-m2-l4-integrated-1',
+        type: 'reading',
+        title: 'Integrated Skills: The Rise and Fall of Empires',
+        text: `Throughout history, empires have risen to great heights only to eventually collapse. Understanding why this pattern repeats can provide valuable insights into contemporary geopolitics. While each empire's story is unique, certain common factors emerge when we examine their trajectories.
+
+Economic prosperity typically fuels imperial expansion. For instance, the Roman Empire's wealth allowed it to maintain a vast military and extensive infrastructure. Similarly, the British Empire's industrial revolution provided the economic foundation for global dominance. Furthermore, technological advantages often played a crucial role—superior weaponry, navigation, or communication systems gave empires decisive edges over competitors.
+
+Nevertheless, success often contained the seeds of decline. As empires expanded, they faced increasing administrative challenges. Moreover, maintaining large territories required enormous resources. Consequently, many empires overextended themselves, stretching their military and economic capabilities too thin. The Mongol Empire, despite its extraordinary initial success, fragmented partly due to the impossibility of effectively governing such vast territories with medieval technology.
+
+On the other hand, internal factors frequently proved equally destructive. Political instability, succession crises, and corruption weakened empires from within. Whereas strong centralized authority characterized imperial rises, factional conflicts and weak leadership often marked their declines. The Ottoman Empire, for example, suffered from a gradual erosion of governmental effectiveness over several centuries.
+
+External pressures also contributed to imperial collapse. Rising powers challenged established empires, leading to costly conflicts. Additionally, subject populations sometimes rebelled against imperial rule, draining resources and undermining legitimacy. The Spanish Empire faced both issues: challenges from other European powers and independence movements in Latin America.
+
+Despite these historical patterns, some argue that modern nation-states are fundamentally different from ancient empires. They point to international institutions, global trade networks, and democratic governance as stabilizing factors. However, others contend that similar dynamics still apply. Economic inequality, political polarization, and overextension in foreign commitments echo historical warning signs.
+
+In conclusion, while technology and political systems have evolved, the fundamental challenges of maintaining power remain remarkably consistent. Arguably, the most important lesson from imperial history is that no dominance lasts forever. Therefore, understanding the causes of imperial decline may help contemporary powers navigate their own challenges more successfully.`,
+        wordCount: 360,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, what typically enables empires to expand?',
+            options: [
+              'Democratic government',
+              'Economic prosperity',
+              'Small territories',
+              'Peaceful diplomacy'
+            ],
+            correctAnswer: 'Economic prosperity',
+            explanation: 'El texto afirma: "Economic prosperity typically fuels imperial expansion".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name TWO linking words from the text that add information.',
+            correctAnswer: 'Furthermore, Moreover, Similarly, Additionally, Also (any two)',
+            explanation: 'Estos conectores añaden información relacionada.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'Complete: "___ strong centralized authority characterized imperial rises, factional conflicts often marked their declines."',
+            correctAnswer: 'Whereas',
+            explanation: 'Whereas contrasta dos ideas opuestas.',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'Why did the Mongol Empire fragment, according to the text?',
+            options: [
+              'Economic collapse',
+              'Military defeat',
+              'Impossibility of governing vast territories effectively',
+              'Religious conflicts'
+            ],
+            correctAnswer: 'Impossibility of governing vast territories effectively',
+            explanation: 'El texto menciona "the impossibility of effectively governing such vast territories".',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What two types of challenges did the Spanish Empire face?',
+            correctAnswer: 'Challenges from other European powers and independence movements in Latin America',
+            explanation: 'El texto menciona ambos desafíos explícitamente.',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'Writing Task: Do you think modern nations face similar challenges to historical empires? Write 100-120 words explaining your position. Use at least 5 different linking words from this lesson (furthermore, nevertheless, whereas, consequently, on the other hand, etc.).',
+            correctAnswer: '',
+            explanation: 'Evaluate based on: clear position, logical arguments, appropriate use of linking words, coherence, and grammar.',
+            points: 10
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'trajectories', definition: 'paths or progressions through time' },
+          { word: 'overextended', definition: 'expanded beyond capacity' },
+          { word: 'fragmented', definition: 'broke into separate parts' },
+          { word: 'erosion', definition: 'gradual decline or wearing away' },
+          { word: 'legitimacy', definition: 'right to rule; being valid or acceptable' },
+          { word: 'contend', definition: 'argue or claim' }
+        ]
       }
     ]
   },
@@ -9033,6 +10018,942 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
           }
         ],
         focusAreas: ['Academic vocabulary', 'Collocations', 'Linking words']
+      },
+      {
+        id: 'b2-m2-l5-grammar-1',
+        type: 'grammar',
+        title: 'Structures for Argumentation',
+        grammarPoint: 'Argumentation structures: It is argued that..., One could argue that..., There is evidence to suggest...',
+        explanation: 'Estructuras formales para presentar argumentos:\n- It is argued that... / It can be argued that...\n- There is evidence to suggest that...\n- One could argue that... / It could be argued that...\n- Research indicates that...\n- Studies have shown that...\n\nEstas estructuras añaden formalidad y credibilidad.',
+        examples: [
+          'It is argued that climate change is the greatest threat facing humanity.',
+          'There is evidence to suggest that bilingualism improves cognitive function.',
+          'One could argue that technology has improved education.',
+          'Research indicates that exercise reduces stress.',
+          'Studies have shown that reading enhances vocabulary.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which is the most formal way to present an argument?',
+            options: [
+              'I think that...',
+              'It is argued that...',
+              'People say that...',
+              'Everyone knows that...'
+            ],
+            correctAnswer: 'It is argued that...',
+            explanation: '"It is argued that" es la estructura más formal y académica.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: ___ ___ evidence to suggest that early education improves outcomes.',
+            correctAnswer: 'There is',
+            explanation: 'There is evidence to suggest that... (estructura formal)',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-grammar-2',
+        type: 'grammar',
+        title: 'Conditional Forms for Argumentation',
+        grammarPoint: 'If-clauses for presenting hypothetical arguments',
+        explanation: 'Condicionales para argumentar:\n- Second conditional (hipotético presente): If governments invested more, poverty would decrease.\n- Third conditional (hipotético pasado): If we had acted sooner, we could have prevented this.\n- Mixed conditional: If we had invested earlier, we would be leaders now.\n\nUsamos condicionales para explorar posibilidades y consecuencias.',
+        examples: [
+          'If education were free, more people would attend university.',
+          'If we banned plastic bags, pollution would decrease.',
+          'If companies had regulated AI earlier, we wouldn\'t face these ethical issues now.',
+          'If governments invested in renewables, climate change could be slowed.',
+          'If we took action today, future generations would benefit.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Complete: If governments ___ more in education, outcomes would improve.',
+            options: ['invest', 'invested', 'would invest', 'had invested'],
+            correctAnswer: 'invested',
+            explanation: 'Second conditional: If + past simple, would + verb',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Write a second conditional sentence arguing for renewable energy.',
+            correctAnswer: 'If we invested in renewable energy, we would reduce carbon emissions (or similar)',
+            explanation: 'Second conditional para argumento hipotético.',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-sentence-completion',
+        type: 'sentence-completion',
+        title: 'Sentence Completion: Building Arguments',
+        instructions: 'Complete each sentence to build a logical argument.',
+        sentences: [
+          {
+            id: 'sc1',
+            incompleteSentence: 'It is widely believed that',
+            sampleCompletions: [
+              'education is the key to economic prosperity',
+              'climate change poses an existential threat',
+              'technological innovation drives social progress'
+            ],
+            evaluationCriteria: 'Should express a commonly held belief or argument',
+            points: 3
+          },
+          {
+            id: 'sc2',
+            incompleteSentence: 'There is compelling evidence to suggest that',
+            sampleCompletions: [
+              'early childhood education has long-term benefits',
+              'exercise improves mental health',
+              'diverse teams are more innovative'
+            ],
+            evaluationCriteria: 'Should present an evidence-based claim',
+            points: 3
+          },
+          {
+            id: 'sc3',
+            incompleteSentence: 'Critics argue that, however,',
+            sampleCompletions: [
+              'the costs outweigh the benefits',
+              'there are significant practical challenges',
+              'the evidence is inconclusive'
+            ],
+            evaluationCriteria: 'Should present a counter-argument',
+            points: 3
+          },
+          {
+            id: 'sc4',
+            incompleteSentence: 'If society were to adopt this policy,',
+            sampleCompletions: [
+              'inequality would likely decrease',
+              'we could see significant improvements in public health',
+              'the economic benefits would be substantial'
+            ],
+            evaluationCriteria: 'Should use second conditional to express hypothetical outcome',
+            points: 3
+          },
+          {
+            id: 'sc5',
+            incompleteSentence: 'Proponents maintain that',
+            sampleCompletions: [
+              'the long-term benefits justify short-term costs',
+              'alternative approaches have proven ineffective',
+              'this represents the most viable solution'
+            ],
+            evaluationCriteria: 'Should express what supporters of an argument claim',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-error-identification',
+        type: 'error-identification',
+        title: 'Error Correction: Argumentation Language',
+        instructions: 'Identify and correct errors in argument structures.',
+        sentences: [
+          {
+            id: 'err1',
+            sentence: 'It is argue that renewable energy is essential.',
+            error: 'is argue',
+            correction: 'is argued',
+            explanation: 'Passive voice: It is argued that...',
+            points: 2
+          },
+          {
+            id: 'err2',
+            sentence: 'If governments will invest more, poverty would decrease.',
+            error: 'will invest',
+            correction: 'invested',
+            explanation: 'Second conditional: If + past simple, would + verb',
+            points: 2
+          },
+          {
+            id: 'err3',
+            sentence: 'There are evidences to suggest that exercise helps.',
+            error: 'evidences',
+            correction: 'evidence',
+            explanation: 'Evidence es un uncountable noun en este contexto.',
+            points: 2
+          },
+          {
+            id: 'err4',
+            sentence: 'Studies has shown that reading improves vocabulary.',
+            error: 'has',
+            correction: 'have',
+            explanation: 'Studies (plural) have shown',
+            points: 2
+          },
+          {
+            id: 'err5',
+            sentence: 'One could argues that technology benefits education.',
+            error: 'argues',
+            correction: 'argue',
+            explanation: 'Modal + base form: could argue',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-reading-2',
+        type: 'reading',
+        title: 'Reading: The Four-Day Work Week Debate',
+        text: `The concept of a four-day work week has gained traction in recent years, with several countries and companies experimenting with shorter working hours. Proponents argue that reducing the work week from five to four days could boost productivity, improve employee well-being, and even benefit the environment. However, critics question whether such a dramatic shift is feasible for all industries.
+
+Supporters point to successful trials in Iceland, where 86% of the working population gained the right to reduce their hours. The results were overwhelmingly positive: workers reported less stress, better work-life balance, and improved health. Furthermore, productivity either remained stable or actually increased in most cases. It is argued that well-rested employees are more focused and efficient during their working hours.
+
+There is also evidence to suggest environmental benefits. With fewer commuting days, carbon emissions could decrease significantly. Moreover, if companies close offices for an extra day, energy consumption would be reduced. One could argue that this policy represents a win-win situation for workers, employers, and the planet.
+
+Nevertheless, critics raise valid concerns. They point out that not all sectors can easily accommodate reduced hours. Healthcare, hospitality, and customer service industries, for instance, require continuous coverage. Additionally, some worry that compressed work schedules might actually increase stress, as employees struggle to complete tasks in fewer days. If we had considered these challenges more carefully from the outset, implementation might have been smoother.
+
+Financial implications also warrant consideration. While some studies suggest no loss in productivity, others indicate that certain businesses might struggle. Small companies, in particular, may lack the resources to reorganize effectively. There is evidence to suggest that transitioning to a four-day week requires careful planning and may not be suitable for every organization.
+
+Despite these challenges, the movement continues to grow. Proponents maintain that with proper planning and flexibility, most obstacles can be overcome. If society were to embrace this shift gradually, allowing industries to adapt at their own pace, the transition could prove successful. The four-day work week debate ultimately reflects broader questions about work-life balance in the 21st century.`,
+        wordCount: 340,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, what happened in Iceland\'s trial?',
+            options: [
+              'Productivity decreased significantly',
+              '86% of workers gained the right to reduce hours',
+              'Companies closed permanently',
+              'Most workers resigned'
+            ],
+            correctAnswer: '86% of workers gained the right to reduce hours',
+            explanation: 'El texto afirma: "86% of the working population gained the right to reduce their hours".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name TWO argumentation structures used in the text (e.g., "It is argued that...")',
+            correctAnswer: 'It is argued that, There is evidence to suggest, One could argue that (any two)',
+            explanation: 'El texto usa varias estructuras formales de argumentación.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Which industries does the text suggest might struggle with a four-day week?',
+            options: [
+              'Technology and finance',
+              'Healthcare and hospitality',
+              'Education and research',
+              'Manufacturing and retail'
+            ],
+            correctAnswer: 'Healthcare and hospitality',
+            explanation: 'El texto menciona "Healthcare, hospitality, and customer service industries".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'Complete from the text: "If we ___ ___ these challenges more carefully from the outset, implementation might have been smoother."',
+            correctAnswer: 'had considered',
+            explanation: 'Third conditional: If + past perfect, might have + past participle',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What environmental benefit is mentioned?',
+            correctAnswer: 'Reduced carbon emissions / Reduced energy consumption (either acceptable)',
+            explanation: 'El texto menciona reducción de emisiones y consumo de energía.',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'gained traction', definition: 'became increasingly popular or accepted' },
+          { word: 'feasible', definition: 'possible and practical to achieve' },
+          { word: 'accommodate', definition: 'provide for or adapt to' },
+          { word: 'compressed', definition: 'squeezed into a smaller space or time' },
+          { word: 'warrant', definition: 'justify or deserve' }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Argumentation Verbs',
+        vocabularySet: [
+          { word: 'claim', definition: 'state something is true (without proof)', example: 'Critics claim that the policy is too expensive.' },
+          { word: 'contend', definition: 'argue or assert (formal)', example: 'Experts contend that early intervention is crucial.' },
+          { word: 'maintain', definition: 'insist something is true', example: 'Supporters maintain that the benefits outweigh the costs.' },
+          { word: 'assert', definition: 'state confidently', example: 'The report asserts that climate action is urgent.' },
+          { word: 'refute', definition: 'prove an argument wrong', example: 'Research refutes the claim that vaccines are dangerous.' },
+          { word: 'concede', definition: 'admit something reluctantly', example: 'Critics concede that some improvements have been made.' },
+          { word: 'advocate', definition: 'publicly support or recommend', example: 'Many economists advocate for progressive taxation.' },
+          { word: 'dispute', definition: 'question or deny the truth of', example: 'Some scientists dispute these findings.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which verb means "to prove wrong"?',
+            options: ['claim', 'refute', 'maintain', 'advocate'],
+            correctAnswer: 'refute',
+            explanation: 'Refute = demostrar que algo es falso.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Supporters ___ that the new law will reduce inequality.',
+            correctAnswer: 'claim/contend/maintain/assert',
+            explanation: 'Cualquiera de estos verbos funciona para expresar una afirmación.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-writing-1',
+        type: 'writing',
+        prompt: 'Write an argumentative essay (200-220 words): "Should governments ban single-use plastics?" Present arguments for and against, then give your opinion. Use:\n- At least 3 argumentation structures (It is argued that..., There is evidence..., etc.)\n- At least 4 linking words\n- At least one conditional sentence\n- Argumentation verbs (claim, maintain, contend, etc.)',
+        writingType: 'essay',
+        minWords: 200,
+        maxWords: 220,
+        timeLimit: 35,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Introduction: State the issue and your position',
+          'Paragraph 2: Arguments FOR the ban',
+          'Paragraph 3: Arguments AGAINST the ban',
+          'Conclusion: Summarize and restate your opinion',
+          'Use formal language throughout',
+          'Include specific examples where possible'
+        ]
+      },
+      {
+        id: 'b2-m2-l5-paraphrasing',
+        type: 'paraphrasing',
+        title: 'Paraphrasing Arguments',
+        instructions: 'Paraphrase each argument using formal argumentation structures.',
+        sentences: [
+          {
+            id: 'p1',
+            original: 'Many people think that social media is harmful.',
+            paraphrased: 'It is widely believed that social media has detrimental effects./Many contend that social media poses significant risks.',
+            alternatives: [
+              'It is argued that social media causes harm.',
+              'There is a growing belief that social media is damaging.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p2',
+            original: 'Research shows that exercise helps mental health.',
+            paraphrased: 'Studies have shown that exercise improves mental well-being./There is evidence to suggest that physical activity benefits mental health.',
+            alternatives: [
+              'Research indicates that exercise enhances psychological wellness.',
+              'Evidence demonstrates that physical activity supports mental health.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p3',
+            original: 'Some say renewable energy costs too much.',
+            paraphrased: 'Critics claim that renewable energy is prohibitively expensive./It is argued that the cost of renewable energy is unsustainable.',
+            alternatives: [
+              'Some contend that renewable energy requires excessive investment.',
+              'Opponents maintain that renewable energy is economically unfeasible.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p4',
+            original: 'If we don\'t act now, the problem will get worse.',
+            paraphrased: 'If we fail to take action immediately, the situation will deteriorate./Unless we act now, the problem will intensify.',
+            alternatives: [
+              'Should we delay action, conditions will worsen.',
+              'In the absence of immediate intervention, the issue will escalate.'
+            ],
+            points: 3
+          },
+          {
+            id: 'p5',
+            original: 'Experts believe education is the solution.',
+            paraphrased: 'It is maintained by experts that education represents the solution./Specialists contend that education offers the answer.',
+            alternatives: [
+              'Authorities assert that education provides the solution.',
+              'There is expert consensus that education is key.'
+            ],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-collocation-matching',
+        type: 'collocation-matching',
+        title: 'Collocation Matching: Argumentation Phrases',
+        instructions: 'Match the sentence beginnings with appropriate endings.',
+        pairs: [
+          {
+            left: 'It is widely',
+            right: 'believed that education reduces poverty',
+            explanation: 'Widely believed = ampliamente creído'
+          },
+          {
+            left: 'There is compelling',
+            right: 'evidence to support this claim',
+            explanation: 'Compelling evidence = evidencia convincente'
+          },
+          {
+            left: 'Critics raise',
+            right: 'valid concerns about the cost',
+            explanation: 'Raise concerns = plantear preocupaciones'
+          },
+          {
+            left: 'Proponents put',
+            right: 'forward several arguments',
+            explanation: 'Put forward = presentar (argumentos)'
+          },
+          {
+            left: 'Research has',
+            right: 'shed light on this issue',
+            explanation: 'Shed light on = arrojar luz sobre'
+          },
+          {
+            left: 'One could',
+            right: 'argue that both sides have merit',
+            explanation: 'One could argue = se podría argumentar'
+          },
+          {
+            left: 'The evidence',
+            right: 'suggests that change is needed',
+            explanation: 'Evidence suggests = la evidencia sugiere'
+          },
+          {
+            left: 'This view',
+            right: 'warrants careful consideration',
+            explanation: 'Warrants consideration = merece consideración'
+          }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l5-phrasal-verbs',
+        type: 'vocabulary',
+        title: 'Phrasal Verbs: Argumentation',
+        vocabularySet: [
+          { word: 'back up', definition: 'support with evidence', example: 'You need to back up your claims with data.' },
+          { word: 'come up with', definition: 'produce or think of (an idea)', example: 'We need to come up with a solution.' },
+          { word: 'break down', definition: 'analyze in detail', example: 'Let\'s break down the argument step by step.' },
+          { word: 'build on', definition: 'use as a basis for further development', example: 'This research builds on previous studies.' },
+          { word: 'shoot down', definition: 'reject or criticize strongly', example: 'The committee shot down every proposal.' },
+          { word: 'weigh up', definition: 'carefully consider pros and cons', example: 'We need to weigh up the advantages and disadvantages.' },
+          { word: 'stand up', definition: 'remain valid when tested', example: 'The theory doesn\'t stand up to scrutiny.' },
+          { word: 'fall apart', definition: 'fail or collapse (argument)', example: 'Her argument fell apart under questioning.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'fill-blank',
+            question: 'You should always ___ ___ your arguments with evidence.',
+            correctAnswer: 'back up',
+            explanation: 'Back up = apoyar con pruebas.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'Which phrasal verb means "to carefully consider advantages and disadvantages"?',
+            options: ['back up', 'weigh up', 'come up with', 'break down'],
+            correctAnswer: 'weigh up',
+            explanation: 'Weigh up = sopesar, considerar cuidadosamente.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-idioms',
+        type: 'vocabulary',
+        title: 'Idioms: Debates & Arguments',
+        vocabularySet: [
+          { word: 'play devil\'s advocate', definition: 'argue against something to test the strength of the argument', example: 'Let me play devil\'s advocate—what if this plan fails?' },
+          { word: 'take something with a grain of salt', definition: 'not completely believe something', example: 'You should take his claims with a grain of salt.' },
+          { word: 'sit on the fence', definition: 'avoid making a decision', example: 'Stop sitting on the fence and choose a side!' },
+          { word: 'have a leg to stand on', definition: 'have evidence or support for your position', example: 'Without data, you don\'t have a leg to stand on.' },
+          { word: 'make a case for', definition: 'argue in favor of something', example: 'She made a strong case for reform.' },
+          { word: 'pick holes in', definition: 'find faults in an argument', example: 'It\'s easy to pick holes in any theory.' },
+          { word: 'stand your ground', definition: 'maintain your position despite opposition', example: 'Despite criticism, she stood her ground.' },
+          { word: 'win someone over', definition: 'persuade someone to support you', example: 'He eventually won the committee over with his proposal.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'If you "play devil\'s advocate," you:',
+            options: [
+              'support the devil',
+              'argue against something to test it',
+              'lie about your position',
+              'refuse to participate'
+            ],
+            correctAnswer: 'argue against something to test it',
+            explanation: 'Play devil\'s advocate = argumentar en contra para probar la solidez del argumento.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Without evidence, you don\'t ___ ___ ___ ___ ___ ___.',
+            correctAnswer: 'have a leg to stand on',
+            explanation: 'Have a leg to stand on = tener base para tu argumento.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-gap-fill',
+        type: 'gap-fill',
+        title: 'Gap-fill: The Debate Over Artificial Intelligence',
+        text: `Artificial intelligence (AI) has become one of the most debated topics of our time. (1)_____ that AI will revolutionize every aspect of human life. From healthcare to transportation, AI systems are already transforming industries. (2)_____, experts (3)_____ that we must proceed with caution.
+
+There is (4)_____ evidence to suggest that AI offers tremendous benefits. For instance, machine learning algorithms can diagnose diseases more accurately than human doctors. (5)_____, AI-powered systems could solve complex problems like climate modeling. (6)_____ these advantages, society (7)_____ reap enormous rewards.
+
+(8)_____, critics (9)_____ valid concerns. They worry that AI could lead to mass unemployment as machines replace human workers. (10)_____ concerns about bias in AI systems—algorithms trained on flawed data may perpetuate discrimination. If we (11)_____ to address these issues, the consequences could be severe.
+
+The ethical implications (12)_____ careful consideration. (13)_____ argue that AI should be heavily regulated. Others (14)_____ that excessive regulation might stifle innovation. This debate ultimately reflects fundamental questions about the relationship between technology and humanity.`,
+        gaps: [
+          { id: 'gap1', correctAnswers: ['It is argued', 'Many contend', 'Proponents claim'], explanation: 'Estructura formal de argumento.' },
+          { id: 'gap2', correctAnswers: ['However', 'Nevertheless', 'Nonetheless'], explanation: 'Contraste.' },
+          { id: 'gap3', correctAnswers: ['maintain', 'argue', 'contend', 'assert'], explanation: 'Verbo de argumentación.' },
+          { id: 'gap4', correctAnswers: ['compelling', 'strong', 'substantial'], explanation: 'Adjetivo para "evidence".' },
+          { id: 'gap5', correctAnswers: ['Furthermore', 'Moreover', 'Additionally'], explanation: 'Añade información.' },
+          { id: 'gap6', correctAnswers: ['Given', 'Considering', 'With'], explanation: 'Preposición/conjunción.' },
+          { id: 'gap7', correctAnswers: ['could', 'would', 'might'], explanation: 'Modal para posibilidad.' },
+          { id: 'gap8', correctAnswers: ['However', 'Nevertheless', 'On the other hand'], explanation: 'Contraste.' },
+          { id: 'gap9', correctAnswers: ['raise', 'voice', 'express'], explanation: 'Verbo para concerns.' },
+          { id: 'gap10', correctAnswers: ['There are', 'Additionally there are', 'There are also'], explanation: 'Introduce más preocupaciones.' },
+          { id: 'gap11', correctAnswers: ['fail', 'failed'], explanation: 'Fail to address.' },
+          { id: 'gap12', correctAnswers: ['warrant', 'deserve', 'require'], explanation: 'Verbo formal.' },
+          { id: 'gap13', correctAnswers: ['Some', 'Critics', 'Many'], explanation: 'Sujeto.' },
+          { id: 'gap14', correctAnswers: ['contend', 'argue', 'maintain', 'claim'], explanation: 'Verbo de argumentación.' }
+        ],
+        instructions: 'Fill in the gaps with appropriate words or phrases from the lesson.',
+        points: 14
+      },
+      {
+        id: 'b2-m2-l5-sentence-reordering',
+        type: 'sentence-reordering',
+        title: 'Sentence Reordering: Structuring an Argument',
+        instructions: 'Put the sentences in logical order to create a well-structured argument about renewable energy.',
+        sentences: [
+          { id: 's1', text: 'In conclusion, while challenges exist, the transition to renewable energy is both necessary and achievable.', order: 8 },
+          { id: 's2', text: 'Critics, however, raise concerns about the reliability and cost of renewable technologies.', order: 5 },
+          { id: 's3', text: 'It is widely argued that renewable energy represents the solution to climate change.', order: 1 },
+          { id: 's4', text: 'There is compelling evidence that solar and wind power can meet global energy demands.', order: 2 },
+          { id: 's5', text: 'Nevertheless, these objections can be addressed through technological innovation and careful planning.', order: 6 },
+          { id: 's6', text: 'Furthermore, studies have shown that renewable energy creates more jobs than fossil fuels.', order: 3 },
+          { id: 's7', text: 'If governments were to invest adequately in infrastructure, these concerns would be mitigated.', order: 7 },
+          { id: 's8', text: 'Moreover, the environmental benefits of clean energy far outweigh the transition costs.', order: 4 }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l5-listening',
+        type: 'listening',
+        title: 'Listening: Panel Discussion on Education Reform',
+        audioUrl: '/audio/b2-m2-l5-education-debate.mp3',
+        duration: 180,
+        transcript: `Moderator: Welcome to today's panel on education reform. Dr. Stevens, let's start with you. What's your position?
+
+Dr. Stevens: Thank you. It is my contention that traditional education models are outdated. There is compelling evidence to suggest that personalized learning yields better outcomes. Studies have shown that students learn more effectively when instruction is tailored to their individual needs. Furthermore, technology now makes this approach feasible on a large scale.
+
+Moderator: Professor Martinez, you have concerns about this approach?
+
+Prof. Martinez: Indeed. While I acknowledge the potential benefits, one could argue that we're moving too quickly. If we implement these changes without proper teacher training, the results could be disastrous. Moreover, there's the question of equity—not all students have equal access to technology. Critics rightly point out that this could exacerbate existing inequalities.
+
+Dr. Stevens: Those are valid concerns. However, I would contend that maintaining the status quo is more dangerous. Research indicates that current methods are failing many students. If society were to invest in both technology and teacher training, we could address Professor Martinez's concerns while still making necessary progress.
+
+Prof. Martinez: I don't dispute the need for change. What I'm advocating for is a more measured approach. There is evidence to suggest that hybrid models—combining traditional and innovative methods—might be more effective than wholesale replacement.
+
+Moderator: Interesting points from both sides. Thank you.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What is Dr. Stevens\' main argument?',
+            options: [
+              'Education should never change',
+              'Traditional models are outdated',
+              'Technology is too expensive',
+              'Teachers need more training'
+            ],
+            correctAnswer: 'Traditional models are outdated',
+            explanation: 'Dr. Stevens afirma: "traditional education models are outdated".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name TWO argumentation structures used in the discussion.',
+            correctAnswer: 'It is my contention that, There is evidence to suggest, One could argue that, Research indicates (any two)',
+            explanation: 'Los panelistas usan varias estructuras formales.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What is Professor Martinez\'s main concern?',
+            options: [
+              'Change is happening too quickly without proper preparation',
+              'Technology doesn\'t work',
+              'Students don\'t want change',
+              'The cost is too high'
+            ],
+            correctAnswer: 'Change is happening too quickly without proper preparation',
+            explanation: 'Prof. Martinez dice: "one could argue that we\'re moving too quickly".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'fill-blank',
+            question: 'What type of model does Professor Martinez advocate for?',
+            correctAnswer: 'Hybrid models/A hybrid model',
+            explanation: 'Prof. Martinez menciona "hybrid models" como solución.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Hedging Language',
+        vocabularySet: [
+          { word: 'arguably', definition: 'it can be argued that; possibly', example: 'This is arguably the best solution available.' },
+          { word: 'seemingly', definition: 'appearing to be; apparently', example: 'The plan is seemingly effective, but requires more testing.' },
+          { word: 'apparently', definition: 'according to what is said; seemingly', example: 'The policy has apparently reduced costs.' },
+          { word: 'presumably', definition: 'it is reasonable to suppose', example: 'Presumably, the government will take action.' },
+          { word: 'potentially', definition: 'possibly; with the capacity to develop', example: 'This could potentially solve the problem.' },
+          { word: 'tend to', definition: 'usually do something', example: 'Studies tend to show positive results.' },
+          { word: 'appear to', definition: 'seem to be', example: 'The changes appear to be working.' },
+          { word: 'suggest', definition: 'indicate indirectly', example: 'The data suggests improvement is needed.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Hedging language is used to:',
+            options: [
+              'Make statements more forceful',
+              'Make statements less absolute',
+              'Confuse the reader',
+              'Avoid giving opinions'
+            ],
+            correctAnswer: 'Make statements less absolute',
+            explanation: 'Hedging hace las afirmaciones menos absolutas y más académicas.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'This is ___ the most important issue facing humanity.',
+            correctAnswer: 'arguably/potentially',
+            explanation: 'Hedging adverbs suavizan la afirmación.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-speaking-2',
+        type: 'speaking',
+        prompt: 'Practice a formal debate. Choose a motion: "This house believes that space exploration is a waste of money" OR "This house believes that all citizens should complete mandatory community service."\n\nPrepare BOTH sides of the argument (For and Against). Present each side for 2 minutes, using:\n- Formal argumentation structures\n- Linking words\n- Conditional sentences\n- Argumentation verbs\n- Hedging language\n- Evidence and examples',
+        timeLimit: 240,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'For side: "It is argued that..., There is evidence..., Proponents maintain..."',
+          'Against side: "Critics contend that..., However..., If we consider..."',
+          'Use hedging: arguably, potentially, seemingly',
+          'Link ideas: furthermore, nevertheless, consequently',
+          'Give examples: "For instance..., Studies show..."',
+          'Conclude each side: "Therefore..., In conclusion..."'
+        ]
+      },
+      {
+        id: 'b2-m2-l5-key-word-transformation',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformation: Formal Argument Structures',
+        instructions: 'Transform the sentences using the word given. Use 2-6 words.',
+        transformations: [
+          {
+            id: 't1',
+            original: 'Many people believe education is important.',
+            keyword: 'ARGUED',
+            answer: 'It is widely argued that',
+            fullSentence: 'It is widely argued that education is important.',
+            points: 2
+          },
+          {
+            id: 't2',
+            original: 'Research shows exercise helps mental health.',
+            keyword: 'EVIDENCE',
+            answer: 'There is evidence to suggest/that',
+            fullSentence: 'There is evidence to suggest that exercise helps mental health.',
+            points: 2
+          },
+          {
+            id: 't3',
+            original: 'Some say the policy costs too much.',
+            keyword: 'CONTEND',
+            answer: 'Some contend that the policy',
+            fullSentence: 'Some contend that the policy costs too much.',
+            points: 2
+          },
+          {
+            id: 't4',
+            original: 'If the government invested more, poverty would decrease.',
+            keyword: 'WERE',
+            answer: 'If the government were to',
+            fullSentence: 'If the government were to invest more, poverty would decrease.',
+            points: 2
+          },
+          {
+            id: 't5',
+            original: 'Experts say that climate action is urgent.',
+            keyword: 'MAINTAIN',
+            answer: 'Experts maintain that climate action',
+            fullSentence: 'Experts maintain that climate action is urgent.',
+            points: 2
+          },
+          {
+            id: 't6',
+            original: 'Studies show renewable energy creates jobs.',
+            keyword: 'SHOWN',
+            answer: 'Studies have shown that renewable',
+            fullSentence: 'Studies have shown that renewable energy creates jobs.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-word-formation',
+        type: 'word-formation',
+        title: 'Word Formation: Academic Argumentation',
+        instructions: 'Complete each sentence with the correct form of the word in capitals.',
+        words: [
+          {
+            id: 'wf1',
+            sentence: 'The ___ of the argument was immediately clear.',
+            baseWord: 'STRONG',
+            correctAnswer: 'strength',
+            explanation: 'strength (noun)',
+            points: 1
+          },
+          {
+            id: 'wf2',
+            sentence: 'There is considerable ___ about the effectiveness of this approach.',
+            baseWord: 'DISAGREE',
+            correctAnswer: 'disagreement',
+            explanation: 'disagreement (noun)',
+            points: 1
+          },
+          {
+            id: 'wf3',
+            sentence: 'The ___ of both sides is required to reach a solution.',
+            baseWord: 'COOPERATE',
+            correctAnswer: 'cooperation',
+            explanation: 'cooperation (noun)',
+            points: 1
+          },
+          {
+            id: 'wf4',
+            sentence: 'Critics question the ___ of implementing such a policy.',
+            baseWord: 'FEASIBLE',
+            correctAnswer: 'feasibility',
+            explanation: 'feasibility (noun)',
+            points: 1
+          },
+          {
+            id: 'wf5',
+            sentence: 'The ___ benefits of this approach are well documented.',
+            baseWord: 'ENVIRONMENT',
+            correctAnswer: 'environmental',
+            explanation: 'environmental (adjective)',
+            points: 1
+          },
+          {
+            id: 'wf6',
+            sentence: 'There is growing ___ that action must be taken.',
+            baseWord: 'RECOGNIZE',
+            correctAnswer: 'recognition',
+            explanation: 'recognition (noun)',
+            points: 1
+          },
+          {
+            id: 'wf7',
+            sentence: 'The policy has proven ___ effective in reducing poverty.',
+            baseWord: 'REMARKABLE',
+            correctAnswer: 'remarkably',
+            explanation: 'remarkably (adverb)',
+            points: 1
+          },
+          {
+            id: 'wf8',
+            sentence: 'Economic ___ must be weighed against social benefits.',
+            baseWord: 'CONSIDER',
+            correctAnswer: 'considerations',
+            explanation: 'considerations (noun plural)',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l5-pronunciation',
+        type: 'pronunciation',
+        title: 'Pronunciation: Argumentation Verbs',
+        instructions: 'Practice the pronunciation and stress patterns of these argumentation verbs.',
+        words: [
+          {
+            word: 'contend',
+            phonetic: '/kənˈtend/',
+            audioUrl: '/audio/pronunciation/contend.mp3',
+            stressPattern: 'Stress on second syllable: con-TEND'
+          },
+          {
+            word: 'maintain',
+            phonetic: '/meɪnˈteɪn/',
+            audioUrl: '/audio/pronunciation/maintain.mp3',
+            stressPattern: 'Stress on second syllable: main-TAIN'
+          },
+          {
+            word: 'advocate',
+            phonetic: '/ˈædvəkeɪt/',
+            audioUrl: '/audio/pronunciation/advocate.mp3',
+            stressPattern: 'Stress on first syllable: AD-vo-cate (verb)'
+          },
+          {
+            word: 'demonstrate',
+            phonetic: '/ˈdemənstreɪt/',
+            audioUrl: '/audio/pronunciation/demonstrate.mp3',
+            stressPattern: 'Stress on first syllable: DEM-on-strate'
+          },
+          {
+            word: 'acknowledge',
+            phonetic: '/əkˈnɒlɪdʒ/',
+            audioUrl: '/audio/pronunciation/acknowledge.mp3',
+            stressPattern: 'Stress on second syllable: ac-KNOWL-edge'
+          },
+          {
+            word: 'refute',
+            phonetic: '/rɪˈfjuːt/',
+            audioUrl: '/audio/pronunciation/refute.mp3',
+            stressPattern: 'Stress on second syllable: re-FUTE'
+          }
+        ],
+        points: 6
+      },
+      {
+        id: 'b2-m2-l5-integrated-1',
+        type: 'reading',
+        title: 'Integrated Skills: The Ethics of Gene Editing',
+        text: `The development of CRISPR gene-editing technology has sparked intense debate about the ethics of modifying human DNA. It is widely argued that this technology could revolutionize medicine, potentially eliminating hereditary diseases. However, critics contend that we are tampering with nature in ways we don't fully understand, with potentially catastrophic consequences.
+
+Proponents maintain that gene editing offers unprecedented opportunities. There is compelling evidence to suggest that CRISPR could cure genetic disorders like sickle cell anemia and cystic fibrosis. Furthermore, it might allow us to enhance human capabilities—improving intelligence, physical strength, or resistance to disease. If society were to embrace this technology responsibly, the benefits could be transformative.
+
+From a medical perspective, the arguments are persuasive. Studies have shown that gene editing can successfully correct genetic mutations in laboratory settings. Moreover, early clinical trials have produced promising results. One could argue that denying patients access to potentially life-saving treatments would be unethical. As Dr. Jennifer Doudna, a CRISPR pioneer, asserts: "We have a moral obligation to use this technology to alleviate suffering."
+
+Nevertheless, significant ethical concerns warrant careful consideration. Critics raise valid objections about "designer babies"—the possibility that wealthy families might use gene editing to give their children advantages, creating genetic inequality. There is evidence to suggest that such enhancements could exacerbate social divisions. Additionally, some worry that mistakes in gene editing might create new health problems or have unforeseen consequences for future generations.
+
+Religious and philosophical objections also feature prominently in the debate. Many argue that humans shouldn't "play God" by altering the fundamental blueprint of life. Others contend that gene editing crosses moral boundaries, fundamentally changing what it means to be human. If we had considered these implications more thoroughly before advancing the technology, perhaps we could have developed better safeguards.
+
+The regulatory landscape remains complex and fragmented. Some countries have banned certain applications of gene editing, while others have adopted more permissive approaches. It is argued that international cooperation is essential—without global standards, rogue scientists might conduct dangerous experiments in jurisdictions with lax regulations.
+
+Despite these challenges, the technology continues to advance rapidly. Supporters claim that with proper oversight and ethical guidelines, gene editing can be used safely and beneficially. They maintain that the potential to eliminate suffering outweighs theoretical risks. Critics, however, argue that some risks—particularly those affecting future generations—are too great to ignore.
+
+In conclusion, the gene editing debate reflects fundamental questions about human progress, ethics, and the limits of scientific intervention. Arguably, this may be one of the most consequential decisions humanity will make. There is evidence to suggest that how we navigate this ethical terrain will profoundly shape our future. Therefore, it is imperative that we engage in thoughtful, inclusive dialogue before irreversible choices are made.`,
+        wordCount: 440,
+        readingTime: 5,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'According to the text, what does CRISPR potentially allow us to do?',
+            options: [
+              'Only cure existing diseases',
+              'Eliminate hereditary diseases and enhance human capabilities',
+              'Create new species',
+              'Reverse aging'
+            ],
+            correctAnswer: 'Eliminate hereditary diseases and enhance human capabilities',
+            explanation: 'El texto menciona ambas posibilidades: curar enfermedades hereditarias y mejorar capacidades.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Name THREE different argumentation structures used in the text.',
+            correctAnswer: 'It is widely argued, There is evidence to suggest, One could argue, It is argued, Arguably (any three)',
+            explanation: 'El texto usa numerosas estructuras formales de argumentación.',
+            points: 3
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'Complete the conditional from the text: "If society ___ ___ embrace this technology responsibly, the benefits could be transformative."',
+            correctAnswer: 'were to',
+            explanation: 'Formal conditional: were to + infinitive',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'What concern do critics have about "designer babies"?',
+            options: [
+              'They might be too intelligent',
+              'They could create genetic inequality',
+              'They would be too expensive',
+              'They might be unhealthy'
+            ],
+            correctAnswer: 'They could create genetic inequality',
+            explanation: 'El texto menciona que "wealthy families might use gene editing... creating genetic inequality".',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'According to the text, why is international cooperation important for gene editing?',
+            correctAnswer: 'To prevent rogue scientists conducting dangerous experiments in places with lax regulations / To establish global standards',
+            explanation: 'El texto explica la necesidad de estándares globales.',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'Writing Task: Do you think gene editing should be allowed for human enhancement (not just treating diseases)? Write 120-150 words presenting arguments on both sides and your opinion. Use:\n- At least 3 formal argumentation structures\n- At least 4 linking words\n- At least 2 argumentation verbs\n- At least 1 conditional sentence',
+            correctAnswer: '',
+            explanation: 'Evaluate based on: balanced arguments, use of required structures, clarity of position, coherence, and grammar.',
+            points: 15
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'hereditary', definition: 'passed from parents to children through genes' },
+          { word: 'tampering', definition: 'interfering with something in a harmful way' },
+          { word: 'catastrophic', definition: 'extremely harmful; disastrous' },
+          { word: 'unprecedented', definition: 'never done or known before' },
+          { word: 'alleviate', definition: 'make less severe; reduce' },
+          { word: 'exacerbate', definition: 'make worse' },
+          { word: 'imperative', definition: 'extremely important; essential' }
+        ]
       }
     ]
   },
