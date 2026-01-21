@@ -9,9 +9,7 @@ pages_build_output_dir = ".next"
 compatibility_flags = ["nodejs_compat"]
 
 # Build configuration for Cloudflare Pages
-[build]
-command = "npm run build"
-cwd = "/"
+build_command = "npm run build"
 #
 # Environment Variables (Set in Dashboard > Settings > Environment variables):
 #   NODE_VERSION=20.9.0
