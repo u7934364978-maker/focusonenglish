@@ -12,9 +12,9 @@ compatibility_flags = ["nodejs_compat"]
 # Do NOT add [build] section here - it's not supported in Pages
 #
 # In Cloudflare Dashboard > Pages > Build settings:
-#   Framework preset: Next.js (Static HTML Export)
-#   Build command: npm run pages:build
-#   Build output directory: .vercel/output/static
+#   Framework preset: Next.js
+#   Build command: npm run build
+#   Build output directory: .next
 #   Root directory: /
 #
 # Environment Variables (Set in Dashboard > Settings > Environment variables):

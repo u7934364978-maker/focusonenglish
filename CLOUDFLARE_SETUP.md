@@ -12,12 +12,19 @@
 
 ### 2. Configuración del Build
 
+**IMPORTANTE:** En el dashboard de Cloudflare Pages, configura:
+
 ```
 Framework preset: Next.js
 Build command: npm run build
 Build output directory: .next
-Root directory: /
-Node version: 20
+Root directory: (leave empty or /)
+```
+
+**Variables de build:**
+```
+NODE_VERSION=20
+NPM_FLAGS=--legacy-peer-deps
 ```
 
 ### 3. Variables de Entorno
