@@ -6014,6 +6014,830 @@ export const MODULE_2_LESSONS: Lesson[] = [
           }
         ],
         focusAreas: ['Modals of deduction', 'Modal verbs', 'Context clues']
+      },
+      {
+        id: 'b2-m2-l1-grammar-2',
+        type: 'grammar',
+        title: 'Modales de Deducción sobre el Pasado',
+        grammarPoint: 'must/might/could/can\'t + have + past participle',
+        explanation: 'Para deducciones sobre el pasado:\n- must have + p.p.: casi seguro que ocurrió\n- might/could/may have + p.p.: posiblemente ocurrió\n- can\'t have + p.p.: imposible que haya ocurrido\nEjemplo: "She must have forgotten" (Debe haberse olvidado)',
+        examples: [
+          'He must have left early. (Strong deduction - evidencia clara)',
+          'They might have missed the train. (Possibility)',
+          'She could have been delayed. (Possibility)',
+          'It can\'t have been easy. (Impossibility)',
+          'You must have been exhausted. (Logical deduction)'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose the correct form: They\'re not here. They ___ already.',
+            options: ['must leave', 'must have left', 'must be leaving', 'must have been left'],
+            correctAnswer: 'must have left',
+            explanation: 'Deducción fuerte sobre el pasado: must have + past participle.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: I can\'t find my keys. I ___ ___ them at work.',
+            correctAnswer: 'must have left/might have left',
+            explanation: 'Deducción sobre dónde dejé las llaves.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Rewrite using a modal of deduction: "I\'m sure she didn\'t see us."',
+            correctAnswer: 'She can\'t have seen us',
+            explanation: 'Can\'t have + p.p. para imposibilidad en el pasado.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-sentence-completion',
+        type: 'sentence-completion',
+        title: 'Sentence Completion: Making Deductions',
+        instructions: 'Complete each sentence with an appropriate modal of deduction and justification.',
+        sentences: [
+          {
+            id: 'sc1',
+            incompleteSentence: 'Looking at the empty streets and closed shops, the town',
+            sampleCompletions: [
+              'must be experiencing some kind of emergency or lockdown',
+              'can\'t be a major tourist destination',
+              'might have been affected by a recent event'
+            ],
+            evaluationCriteria: 'Should use appropriate modal (must/might/can\'t) + logical deduction',
+            points: 3
+          },
+          {
+            id: 'sc2',
+            incompleteSentence: 'Given her vast experience and qualifications, she',
+            sampleCompletions: [
+              'must have been offered the promotion',
+              'can\'t have been rejected for the position',
+              'might have applied for a higher role'
+            ],
+            evaluationCriteria: 'Modal of deduction about past + reasonable scenario',
+            points: 3
+          },
+          {
+            id: 'sc3',
+            incompleteSentence: 'The car won\'t start and the battery is dead, so someone',
+            sampleCompletions: [
+              'must have left the lights on overnight',
+              'might have forgotten to turn off the radio',
+              'could have used it without telling anyone'
+            ],
+            evaluationCriteria: 'Past modal deduction explaining the cause',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-error-identification',
+        type: 'error-identification',
+        title: 'Error Identification: Modal Deductions',
+        instructions: 'Each sentence contains ONE error with modals of deduction. Find and correct it.',
+        sentences: [
+          {
+            id: 'ei1',
+            sentence: 'She must be very tired yesterday after working 12 hours.',
+            error: 'must be...yesterday',
+            correction: 'must have been...yesterday',
+            explanation: 'For past deductions, use "must have been", not "must be".',
+            category: 'Past modals',
+            points: 2
+          },
+          {
+            id: 'ei2',
+            sentence: 'They can\'t be at home now because I saw them leaving an hour ago.',
+            error: 'No error',
+            correction: 'Sentence is correct',
+            explanation: 'Can\'t be is correct for present impossibility with present evidence.',
+            category: 'Trick question - correct sentence',
+            points: 2
+          },
+          {
+            id: 'ei3',
+            sentence: 'He might has forgotten about the meeting.',
+            error: 'might has',
+            correction: 'might have',
+            explanation: 'Modal + have (not has) + past participle for past possibility.',
+            category: 'Modal structure',
+            points: 2
+          },
+          {
+            id: 'ei4',
+            sentence: 'You must have been enjoyed the concert last night.',
+            error: 'have been enjoyed',
+            correction: 'have enjoyed',
+            explanation: 'Must have + past participle (enjoyed), not past participle of "be" + past participle.',
+            category: 'Modal perfect structure',
+            points: 2
+          },
+          {
+            id: 'ei5',
+            sentence: 'It couldn\'t be true what she said about winning the lottery.',
+            error: 'couldn\'t be',
+            correction: 'can\'t be',
+            explanation: 'For present impossibility, use "can\'t be" not "couldn\'t be".',
+            category: 'Present vs past modals',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-reading-1',
+        type: 'reading',
+        title: 'Reading: The Mystery of the Mary Celeste',
+        text: `One of history's greatest maritime mysteries involves the Mary Celeste, a merchant ship found adrift in the Atlantic Ocean in 1872. The vessel was discovered in perfect condition with its cargo intact, but not a single person was on board. The crew had vanished without a trace.
+
+When the rescue crew boarded the ship, they found the crew's belongings still in their quarters. Half-eaten meals sat on tables, and personal items remained untouched. The ship's lifeboat was missing, which suggested the crew had abandoned ship deliberately. However, there was no obvious reason why they would have done so. The ship wasn't taking on water, there was no fire damage, and the cargo was secure.
+
+Various theories have been proposed over the years. Some experts believe the crew must have panicked about something, possibly fearing an explosion from the alcohol cargo, though there was no evidence of danger. Others think they might have been affected by ergot poisoning from contaminated food, which could have caused hallucinations and irrational behavior.
+
+The captain's log offered few clues. The last entry was routine and gave no indication of problems. Weather records show that conditions had been challenging but not exceptional for the time of year. The crew must have abandoned ship quite suddenly, as they left behind valuable possessions that sailors would normally take.
+
+Some investigators have suggested that the crew might have seen what they thought was land and rowed toward it, only to be lost at sea when they couldn't find their way back. Others believe there could have been a brief but terrifying incident—perhaps a waterspout or minor seismic activity—that made them fear for their lives.
+
+The mystery remains unsolved to this day. The crew can't have simply disappeared into thin air, yet no bodies were ever found. They must have met some fate at sea, but what exactly happened may never be known. What we do know is that the Mary Celeste continues to fascinate historians and maritime enthusiasts more than 150 years after the incident.`,
+        wordCount: 340,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What condition was the Mary Celeste in when found?',
+            options: [
+              'Severely damaged',
+              'Taking on water',
+              'In perfect condition',
+              'On fire'
+            ],
+            correctAnswer: 'In perfect condition',
+            explanation: 'El texto dice: "The vessel was discovered in perfect condition".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'What evidence suggested the crew left deliberately rather than in an accident?',
+            correctAnswer: 'The lifeboat was missing / They took the lifeboat',
+            explanation: 'El texto menciona: "The ship\'s lifeboat was missing, which suggested the crew had abandoned ship deliberately".',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Which modal does the text use to express what probably happened to the crew?',
+            options: [
+              'The crew might have panicked',
+              'The crew should have left',
+              'The crew would have escaped',
+              'The crew could leave'
+            ],
+            correctAnswer: 'The crew might have panicked',
+            explanation: 'El texto usa "must have" y "might have" para especular sobre lo que pasó.',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'true-false',
+            question: 'True or False: The captain\'s log explained why the crew abandoned ship.',
+            correctAnswer: 'False',
+            explanation: 'El texto dice: "The captain\'s log offered few clues" y "gave no indication of problems".',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'Find and write ONE sentence from the text that uses "can\'t have" to express impossibility.',
+            correctAnswer: 'The crew can\'t have simply disappeared into thin air',
+            explanation: 'Esta oración usa can\'t have para expresar que es imposible que simplemente desaparecieran.',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'adrift', definition: 'floating without being controlled; drifting' },
+          { word: 'intact', definition: 'complete and not damaged' },
+          { word: 'vanished', definition: 'disappeared suddenly and completely' },
+          { word: 'waterspout', definition: 'a column of water and spray formed by a whirlwind over the sea' },
+          { word: 'seismic activity', definition: 'movements or shaking of the earth\'s surface' }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-paraphrasing',
+        type: 'paraphrasing',
+        title: 'Paraphrasing: Expressing Deductions',
+        instructions: 'Rewrite each sentence using a different modal of deduction while keeping the same level of certainty.',
+        sentences: [
+          {
+            id: 'p1',
+            original: 'I\'m certain she didn\'t receive my message.',
+            sampleParaphrases: [
+              'She can\'t have received my message.',
+              'She couldn\'t have received my message.',
+              'It\'s impossible that she received my message.'
+            ],
+            keyVocabulary: ['certain = can\'t have', 'didn\'t receive = negative past deduction'],
+            points: 3
+          },
+          {
+            id: 'p2',
+            original: 'Perhaps they got lost on the way here.',
+            sampleParaphrases: [
+              'They might have gotten lost on the way here.',
+              'They could have gotten lost on the way here.',
+              'It\'s possible they got lost on the way here.'
+            ],
+            keyVocabulary: ['perhaps = might/could have', 'possibility in past'],
+            points: 3
+          },
+          {
+            id: 'p3',
+            original: 'I\'m sure this is the correct address.',
+            sampleParaphrases: [
+              'This must be the correct address.',
+              'This has to be the correct address.',
+              'I\'m certain this is the right address.'
+            ],
+            keyVocabulary: ['sure = must be', 'strong present deduction'],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-collocation-matching',
+        type: 'collocation-matching',
+        title: 'Collocation Matching: Deduction & Speculation Verbs',
+        instructions: 'Match the verbs with appropriate nouns to form collocations commonly used when making deductions.',
+        pairs: [
+          { left: 'draw', right: 'a conclusion', distractor: false },
+          { left: 'reach', right: 'a verdict', distractor: false },
+          { left: 'make', right: 'an assumption', distractor: false },
+          { left: 'jump to', right: 'conclusions', distractor: false },
+          { left: 'gather', right: 'evidence', distractor: false },
+          { left: 'form', right: 'an opinion', distractor: false },
+          { left: 'rule out', right: 'possibilities', distractor: false },
+          { left: 'weigh up', right: 'options', distractor: false }
+        ],
+        distractors: [
+          { left: 'do', right: 'a conclusion' },
+          { left: 'take', right: 'an assumption' },
+          { left: 'create', right: 'evidence' }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l1-phrasal-verbs',
+        type: 'phrasal-verbs',
+        title: 'Phrasal Verbs: Investigation & Deduction',
+        instructions: 'Learn phrasal verbs commonly used when investigating, analyzing, and making deductions.',
+        verbs: [
+          {
+            verb: 'figure out',
+            meaning: 'to understand or solve something after thinking about it',
+            examples: [
+              'I can\'t figure out why she left so suddenly.',
+              'Scientists are trying to figure out what caused the phenomenon.'
+            ],
+            usage: 'separable',
+            synonyms: ['work out', 'solve', 'understand']
+          },
+          {
+            verb: 'look into',
+            meaning: 'to investigate or examine something',
+            examples: [
+              'The police are looking into the disappearance.',
+              'We need to look into all possible explanations.'
+            ],
+            usage: 'inseparable',
+            synonyms: ['investigate', 'examine', 'explore']
+          },
+          {
+            verb: 'piece together',
+            meaning: 'to create a complete picture from separate pieces of information',
+            examples: [
+              'Detectives pieced together the events of that night.',
+              'She\'s trying to piece together what happened from witness accounts.'
+            ],
+            usage: 'separable',
+            synonyms: ['reconstruct', 'assemble', 'compile']
+          },
+          {
+            verb: 'narrow down',
+            meaning: 'to reduce the number of possibilities',
+            examples: [
+              'We\'ve narrowed down the suspects to three people.',
+              'Can you narrow down the time when this occurred?'
+            ],
+            usage: 'separable',
+            synonyms: ['reduce', 'limit', 'focus']
+          },
+          {
+            verb: 'rule out',
+            meaning: 'to decide that something is not possible or cannot happen',
+            examples: [
+              'Police have ruled out foul play.',
+              'We can\'t rule out the possibility of human error.'
+            ],
+            usage: 'separable',
+            synonyms: ['eliminate', 'exclude', 'discount']
+          }
+        ],
+        exercises: [
+          {
+            id: 'pv1',
+            type: 'fill-blank',
+            sentence: 'Investigators are trying to _____ what caused the accident.',
+            correctAnswer: 'figure out',
+            points: 2
+          },
+          {
+            id: 'pv2',
+            type: 'multiple-choice',
+            question: 'Choose the correct phrasal verb: The committee needs to _____ the investigation thoroughly.',
+            options: ['look into', 'look at', 'look for', 'look after'],
+            correctAnswer: 'look into',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-idioms',
+        type: 'idioms-expressions',
+        title: 'Idioms & Expressions: Certainty & Speculation',
+        instructions: 'Learn idioms and expressions used to express different levels of certainty and speculation.',
+        idioms: [
+          {
+            idiom: 'put two and two together',
+            meaning: 'to guess or understand something by using the information you have',
+            example: 'When I saw them leaving together and heard they\'d resigned, I put two and two together.',
+            context: 'informal deduction',
+            culturalNote: 'From basic arithmetic (2+2=4), suggesting obvious connections'
+          },
+          {
+            idiom: 'read between the lines',
+            meaning: 'to understand the hidden meaning in what someone says or writes',
+            example: 'If you read between the lines of his email, he\'s clearly not happy with the decision.',
+            context: 'making inferences',
+            culturalNote: 'Suggests looking beyond surface meaning'
+          },
+          {
+            idiom: 'beyond (any) doubt',
+            meaning: 'completely certain; with no possibility of being wrong',
+            example: 'The evidence proves beyond doubt that he was at the scene.',
+            context: 'legal/formal certainty',
+            culturalNote: 'Often used in legal contexts: "beyond reasonable doubt"'
+          },
+          {
+            idiom: 'take something with a pinch/grain of salt',
+            meaning: 'to not completely believe something; to be skeptical',
+            example: 'He tends to exaggerate, so take his stories with a pinch of salt.',
+            context: 'expressing doubt',
+            culturalNote: 'Origins in ancient belief that salt protected against poison'
+          },
+          {
+            idiom: 'anyone\'s guess',
+            meaning: 'impossible to know or predict',
+            example: 'What will happen next is anyone\'s guess—the situation is completely unpredictable.',
+            context: 'complete uncertainty',
+            culturalNote: 'Emphasizes that even guessing is difficult'
+          },
+          {
+            idiom: 'the writing is on the wall',
+            meaning: 'there are clear signs that something bad will happen',
+            example: 'The writing was on the wall for months before the company finally went bankrupt.',
+            context: 'predicting negative outcomes',
+            culturalNote: 'Biblical origin from Book of Daniel'
+          }
+        ],
+        exercises: [
+          {
+            id: 'id1',
+            type: 'matching',
+            instruction: 'Match each idiom to its meaning',
+            pairs: [
+              { idiom: 'put two and two together', meaning: 'make a deduction from clues' },
+              { idiom: 'beyond doubt', meaning: 'completely certain' },
+              { idiom: 'anyone\'s guess', meaning: 'impossible to predict' }
+            ],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-gap-fill',
+        type: 'gap-fill-text',
+        title: 'Gap-Fill: Archaeological Discovery',
+        instructions: 'Complete the text using appropriate modals of deduction. Each gap requires ONE or TWO words.',
+        text: `When archaeologists discovered the ancient tomb in 2019, they immediately knew it (1)___ ___ of great historical significance. The elaborate decorations and expensive materials suggested that the occupant (2)___ ___ ___ a person of high social status, perhaps even royalty.
+
+However, several mysteries remained. The tomb contained no written records, so historians (3)___ ___ certain about the identity of the person buried there. The jewelry found inside (4)___ ___ belonged to a woman, but the skeletal remains were too damaged to confirm this definitively.
+
+What puzzled researchers most was the presence of Mediterranean artifacts. These items (5)___ ___ ___ from at least 500 miles away, indicating extensive trade networks. The occupant (6)___ ___ been a merchant or diplomat with international connections.
+
+The tomb (7)___ ___ ___ sealed around 500 BCE, based on carbon dating of organic materials found inside. Interestingly, there were signs of a hasty burial. The archaeologists believe something unexpected (8)___ ___ happened, forcing the burial party to finish quickly. Perhaps there was a threat of invasion, or maybe a natural disaster (9)___ ___ approaching.
+
+One thing is certain: whoever was buried here (10)___ ___ ___ important enough to merit such an elaborate tomb, even if completed in haste. The mystery (11)___ never be fully solved, but each new discovery helps piece together the story of this ancient civilization.`,
+        gaps: 11,
+        answers: [
+          { gapNumber: 1, correctAnswer: 'must be', acceptableAnswers: ['must be'], explanation: 'Strong deduction about present significance' },
+          { gapNumber: 2, correctAnswer: 'must have been', acceptableAnswers: ['must have been'], explanation: 'Strong deduction about past identity' },
+          { gapNumber: 3, correctAnswer: 'cannot be', acceptableAnswers: ['cannot be', 'can\'t be'], explanation: 'Impossibility of certainty without records' },
+          { gapNumber: 4, correctAnswer: 'might have', acceptableAnswers: ['might have', 'could have', 'may have'], explanation: 'Possibility based on jewelry' },
+          { gapNumber: 5, correctAnswer: 'must have come', acceptableAnswers: ['must have come'], explanation: 'Strong deduction about origin' },
+          { gapNumber: 6, correctAnswer: 'might have', acceptableAnswers: ['might have', 'could have', 'may have'], explanation: 'Speculation about occupation' },
+          { gapNumber: 7, correctAnswer: 'must have been', acceptableAnswers: ['must have been'], explanation: 'Deduction based on carbon dating' },
+          { gapNumber: 8, correctAnswer: 'must have', acceptableAnswers: ['must have'], explanation: 'Logical deduction from evidence of haste' },
+          { gapNumber: 9, correctAnswer: 'might have been', acceptableAnswers: ['might have been', 'could have been', 'may have been'], explanation: 'Speculation about natural disaster' },
+          { gapNumber: 10, correctAnswer: 'must have been', acceptableAnswers: ['must have been'], explanation: 'Strong deduction about importance' },
+          { gapNumber: 11, correctAnswer: 'may', acceptableAnswers: ['may', 'might'], explanation: 'Possibility that mystery remains unsolved' }
+        ],
+        points: 11
+      },
+      {
+        id: 'b2-m2-l1-sentence-reordering',
+        type: 'sentence-reordering',
+        title: 'Sentence Reordering: Building a Logical Argument',
+        instructions: 'Arrange these sentences to create a logical deduction about a situation.',
+        sentences: [
+          { id: 's1', text: 'Therefore, she must have decided to work from home today instead.', position: 7 },
+          { id: 's2', text: 'Sarah\'s car is still in the driveway this morning.', position: 1 },
+          { id: 's3', text: 'Additionally, her laptop bag is missing from its usual spot by the door.', position: 4 },
+          { id: 's4', text: 'She can\'t be on vacation because I saw her at the office yesterday.', position: 5 },
+          { id: 's5', text: 'This suggests she hasn\'t left for the office yet.', position: 2 },
+          { id: 's6', text: 'However, she might have taken a taxi or gotten a ride from someone.', position: 3 },
+          { id: 's7', text: 'This theory is supported by the fact that she mentioned having an important online meeting this afternoon.', position: 8 },
+          { id: 's8', text: 'That rules out the possibility of her being sick or taking an unexpected day off.', position: 6 }
+        ],
+        correctOrder: ['s2', 's5', 's6', 's3', 's4', 's8', 's1', 's7'],
+        explanation: 'Logical deduction structure: Initial observation → First conclusion → Alternative possibility → Supporting evidence → Ruling out alternatives → Final deduction → Supporting detail',
+        points: 8
+      },
+      {
+        id: 'b2-m2-l1-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m2-l1-listening-1.mp3',
+        duration: 120,
+        allowReplay: true,
+        maxReplays: 3,
+        transcript: `Detective: So, Ms. Johnson, you reported your neighbor's apartment door was open when you came home around 8 PM?
+
+Witness: Yes, that's right. It must have been open for some time because her mail was scattered on the floor.
+
+Detective: And you're certain Ms. Chen wasn't home?
+
+Witness: Well, I knocked several times and got no answer. She must have gone out, but it's strange because she never leaves her door open.
+
+Detective: Could someone have broken in?
+
+Witness: I don't think so. There was no sign of forced entry. She might have just forgotten to close it properly when she left.
+
+Detective: What about her habits? Does she usually go out in the evenings?
+
+Witness: Not really. She typically works from home. She could have had an emergency, I suppose.
+
+Detective: Did you notice anything else unusual?
+
+Witness: Her cat was in the hallway, which was odd. She can't have planned to be away long because she wouldn't have left the cat alone. She might have just run down to the corner shop and the door didn't latch properly.
+
+Detective: That's a reasonable explanation. We'll check the shop's security footage.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Why does the witness think the door had been open for some time?',
+            options: [
+              'The neighbor told her',
+              'The mail was scattered on the floor',
+              'The cat had escaped',
+              'She heard noises'
+            ],
+            correctAnswer: 'The mail was scattered on the floor',
+            explanation: 'La testigo dice: "It must have been open for some time because her mail was scattered on the floor".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'What modal does the witness use to express certainty that Ms. Chen wasn\'t home?',
+            correctAnswer: 'must have (gone out)',
+            explanation: '"She must have gone out" expresa certeza basada en evidencia.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: There were signs of a break-in.',
+            correctAnswer: 'False',
+            explanation: 'La testigo dice: "There was no sign of forced entry".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'Why does the witness think Ms. Chen can\'t have planned to be away long?',
+            options: [
+              'Her car was still there',
+              'Her lights were on',
+              'She wouldn\'t have left the cat alone',
+              'She had food cooking'
+            ],
+            correctAnswer: 'She wouldn\'t have left the cat alone',
+            explanation: '"She can\'t have planned to be away long because she wouldn\'t have left the cat alone".',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Degrees of Certainty',
+        vocabularySet: [
+          { word: 'definite', definition: 'certain and unlikely to change', example: 'We have definite proof that he was there.' },
+          { word: 'probable', definition: 'likely to happen or be true', example: 'It\'s highly probable that she\'ll accept the offer.' },
+          { word: 'plausible', definition: 'seeming reasonable or possible', example: 'That\'s a plausible explanation for what happened.' },
+          { word: 'conceivable', definition: 'possible to imagine or believe', example: 'It\'s conceivable that they got lost.' },
+          { word: 'dubious', definition: 'doubtful; not to be relied upon', example: 'I\'m dubious about the accuracy of these figures.' },
+          { word: 'irrefutable', definition: 'impossible to deny or disprove', example: 'The evidence against him is irrefutable.' },
+          { word: 'speculative', definition: 'based on guessing rather than knowledge', example: 'These theories are purely speculative.' },
+          { word: 'inconclusive', definition: 'not leading to a definite conclusion', example: 'The tests results were inconclusive.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which word means "impossible to deny or disprove"?',
+            options: ['dubious', 'irrefutable', 'plausible', 'conceivable'],
+            correctAnswer: 'irrefutable',
+            explanation: 'Irrefutable significa irrefutable, imposible de negar.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'The witness account seemed ___, but we need more evidence.',
+            correctAnswer: 'plausible',
+            explanation: 'Plausible = creíble, razonable.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-writing-1',
+        type: 'writing',
+        prompt: 'Write a short detective story or analysis (180-220 words) where you make deductions about a mysterious situation. Use at least 6 different modals of deduction (must/might/could/can\'t + present or perfect forms).',
+        writingType: 'article',
+        minWords: 180,
+        maxWords: 220,
+        timeLimit: 30,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Set the scene: describe the mysterious situation',
+          'Present evidence: what can be observed?',
+          'Make deductions using modals: "must have", "might be", "can\'t have", etc.',
+          'Consider multiple possibilities before reaching a conclusion',
+          'Use vocabulary of certainty: definite, probable, plausible',
+          'Structure: Setup → Evidence → Deductions → Conclusion'
+        ]
+      },
+      {
+        id: 'b2-m2-l1-keytransform-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Modal Deductions',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt1',
+            sentence: 'I\'m sure she didn\'t understand the instructions.',
+            keyWord: 'can\'t',
+            startOfAnswer: 'She',
+            correctAnswer: 'can\'t have understood the',
+            explanation: 'Can\'t have + past participle for strong negative deduction about past.',
+            points: 2
+          },
+          {
+            id: 'kt2',
+            sentence: 'Perhaps they forgot about the meeting.',
+            keyWord: 'might',
+            startOfAnswer: 'They',
+            correctAnswer: 'might have forgotten about',
+            explanation: 'Might have + past participle for past possibility.',
+            points: 2
+          },
+          {
+            id: 'kt3',
+            sentence: 'I\'m certain this is the right answer.',
+            keyWord: 'must',
+            startOfAnswer: 'This',
+            correctAnswer: 'must be the right',
+            explanation: 'Must be for strong present deduction.',
+            points: 2
+          },
+          {
+            id: 'kt4',
+            sentence: 'It\'s impossible that he knew about this.',
+            keyWord: 'have',
+            startOfAnswer: 'He can\'t',
+            correctAnswer: 'have known about this',
+            explanation: 'Can\'t have known = impossibility in past.',
+            points: 2
+          },
+          {
+            id: 'kt5',
+            sentence: 'I\'m sure they were surprised by the news.',
+            keyWord: 'must',
+            startOfAnswer: 'They',
+            correctAnswer: 'must have been surprised',
+            explanation: 'Must have been for strong past deduction.',
+            points: 2
+          },
+          {
+            id: 'kt6',
+            sentence: 'Maybe she is working late tonight.',
+            keyWord: 'could',
+            startOfAnswer: 'She',
+            correctAnswer: 'could be working late',
+            explanation: 'Could be + -ing for present possibility.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-wordform-1',
+        type: 'word-formation',
+        title: 'Word Formation: Investigation Vocabulary',
+        text: `Criminal investigations require both (1. SCIENCE)_____ analysis and logical (2. DEDUCE)_____. Forensic experts must examine evidence with great (3. CAREFUL)_____ to avoid (4. CONTAMINATE)_____ the crime scene. Their findings can provide (5. VALUE)_____ information that helps detectives establish the (6. PROBABLE)_____ sequence of events. However, even with modern technology, some cases remain (7. SOLVE)_____ due to (8. SUFFICE)_____ evidence.`,
+        questions: [
+          { id: 'q1', gapNumber: 1, baseWord: 'SCIENCE', correctAnswer: 'scientific', acceptableAnswers: ['scientific'], explanation: '"Scientific analysis" - relating to science.', wordType: 'adjective', transformation: 'noun → adjective (-ific)', points: 1 },
+          { id: 'q2', gapNumber: 2, baseWord: 'DEDUCE', correctAnswer: 'deduction', acceptableAnswers: ['deduction', 'deductions'], explanation: '"Logical deduction" - the process of reaching a conclusion through reasoning.', wordType: 'noun', transformation: 'verb → noun (-tion)', points: 1 },
+          { id: 'q3', gapNumber: 3, baseWord: 'CAREFUL', correctAnswer: 'care', acceptableAnswers: ['care'], explanation: '"With great care" - attention and caution.', wordType: 'noun', transformation: 'adjective → noun (remove -ful)', points: 1 },
+          { id: 'q4', gapNumber: 4, baseWord: 'CONTAMINATE', correctAnswer: 'contaminating', acceptableAnswers: ['contaminating'], explanation: '"Avoid contaminating" - prevent from polluting or corrupting.', wordType: 'gerund', transformation: 'verb → gerund (-ing)', points: 1 },
+          { id: 'q5', gapNumber: 5, baseWord: 'VALUE', correctAnswer: 'valuable', acceptableAnswers: ['valuable'], explanation: '"Valuable information" - very useful or important.', wordType: 'adjective', transformation: 'noun → adjective (-able)', points: 1 },
+          { id: 'q6', gapNumber: 6, baseWord: 'PROBABLE', correctAnswer: 'probable', acceptableAnswers: ['probable'], explanation: '"Probable sequence" - likely order of events. (No transformation needed)', wordType: 'adjective', transformation: 'no change', points: 1 },
+          { id: 'q7', gapNumber: 7, baseWord: 'SOLVE', correctAnswer: 'unsolved', acceptableAnswers: ['unsolved'], explanation: '"Remain unsolved" - not solved, still a mystery.', wordType: 'adjective', transformation: 'verb → negative adjective (un- + past participle)', points: 1 },
+          { id: 'q8', gapNumber: 8, baseWord: 'SUFFICE', correctAnswer: 'insufficient', acceptableAnswers: ['insufficient'], explanation: '"Insufficient evidence" - not enough.', wordType: 'adjective', transformation: 'verb → negative adjective (in- + -icient)', points: 1 }
+        ],
+        focusAreas: ['Negative prefixes (un-, in-)', 'Gerunds', 'Scientific vocabulary']
+      },
+      {
+        id: 'b2-m2-l1-pronunciation',
+        type: 'pronunciation',
+        title: 'Pronunciation: Modal Contractions & Weak Forms',
+        instructions: 'Practice pronouncing modal contractions and weak forms used in deductions.',
+        words: [
+          {
+            word: 'must have',
+            phonetic: '/məs(t)əv/ or /ˈmʌstəv/',
+            audioUrl: '/audio/must-have.mp3',
+            stressPattern: 'Weak form: must is unstressed, "have" sounds like /əv/',
+            commonErrors: 'Don\'t say "must of" - it\'s "must have" or "must\'ve"',
+            example: 'She must have /ˈmʌstəv/ left early.'
+          },
+          {
+            word: 'might have',
+            phonetic: '/ˈmaɪtəv/',
+            audioUrl: '/audio/might-have.mp3',
+            stressPattern: '"Have" weakens to /əv/ sound',
+            commonErrors: 'Native speakers often say "mighta" /ˈmaɪtə/',
+            example: 'They might have /ˈmaɪtəv/ forgotten.'
+          },
+          {
+            word: 'could have',
+            phonetic: '/ˈkʊdəv/',
+            audioUrl: '/audio/could-have.mp3',
+            stressPattern: '"Have" weakens to /əv/ sound',
+            commonErrors: 'Don\'t write "could of" - incorrect spelling',
+            example: 'You could have /ˈkʊdəv/ told me.'
+          },
+          {
+            word: 'can\'t have',
+            phonetic: '/ˈkɑːntəv/ (UK) or /ˈkæntəv/ (US)',
+            audioUrl: '/audio/cant-have.mp3',
+            stressPattern: 'Stress on "can\'t", "have" is weak',
+            commonErrors: 'Full form would be too formal in speech',
+            example: 'She can\'t have /ˈkɑːntəv/ known.'
+          },
+          {
+            word: 'would have',
+            phonetic: '/ˈwʊdəv/',
+            audioUrl: '/audio/would-have.mp3',
+            stressPattern: 'Often contracted to "would\'ve" /ˈwʊdəv/',
+            commonErrors: 'Never write "would of"',
+            example: 'I would have /ˈwʊdəv/ helped.'
+          }
+        ],
+        exercises: [
+          {
+            id: 'pr1',
+            type: 'pronunciation-practice',
+            instruction: 'Practice saying these sentences with natural weak forms',
+            sentences: [
+              'She must have been working late.',
+              'They might have missed the train.',
+              'You could have called me.',
+              'He can\'t have finished already.'
+            ],
+            points: 4
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l1-integrated-1',
+        type: 'reading',
+        title: 'Integrated Skills: The Disappearance at Dyatlov Pass',
+        text: `In 1959, nine experienced hikers died under mysterious circumstances in the Ural Mountains of Russia. The incident, known as the Dyatlov Pass Incident, remains one of history's most puzzling unsolved mysteries. Investigators found the group's tent cut open from the inside, and the hikers' bodies were discovered scattered across the snowy landscape, some partially clothed despite temperatures of -30°C.
+
+The evidence painted a confusing picture. The hikers must have left their tent in extreme panic—the tent had been slashed from inside, suggesting a desperate escape. However, there was no apparent threat. Investigators could find no evidence of an avalanche, animal attack, or human intruders. The footprints leading away from the tent indicated the group had left calmly at first, walking rather than running.
+
+Several bodies showed strange injuries. Two victims had fractured skulls, and another had broken ribs—injuries that, according to the medical examiner, would have required tremendous force, "equivalent to a car crash." Yet there were no external wounds. One victim's tongue was missing, though this might have been due to natural decomposition.
+
+The investigation reached puzzling conclusions. Officials initially blamed "an unknown compelling force," which only deepened the mystery. Some have speculated that the group might have been caught in a rare meteorological event, such as infrasound-generating winds that could have induced panic. Others believe they could have encountered military testing in the area—the region was known for secret Soviet activities.
+
+Modern theories suggest the hikers may have triggered a small avalanche, fled in terror, and then succumbed to hypothermia. However, this doesn't explain all the evidence. The injuries can't have been caused by hypothermia alone. The missing clothing might have been taken by survivors trying to help their dying companions, but why did they scatter in different directions?
+
+The truth must lie somewhere in the evidence, yet more than 60 years later, we still cannot be certain what happened that night. Each theory has plausible elements, but none accounts for all the facts. The Dyatlov Pass Incident may never be fully explained—a reminder that some mysteries resist even our most careful investigation.`,
+        wordCount: 340,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What does the cut tent suggest about how the hikers left?',
+            options: [
+              'They were attacked from outside',
+              'They left in a state of panic',
+              'They were trying to repair it',
+              'They were following normal procedure'
+            ],
+            correctAnswer: 'They left in a state of panic',
+            explanation: 'The text states: "The hikers must have left their tent in extreme panic".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Write the modal phrase the text uses to compare the force of the injuries.',
+            correctAnswer: 'equivalent to a car crash',
+            explanation: 'The medical examiner described injuries that "would have required tremendous force, equivalent to a car crash".',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'Complete this deduction from the text: "The injuries ___ ___ been caused by hypothermia alone."',
+            correctAnswer: 'can\'t have',
+            explanation: 'The text uses "can\'t have" to express impossibility.',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'According to the text, which theory involves unusual weather conditions?',
+            options: [
+              'Military testing',
+              'Avalanche',
+              'Infrasound-generating winds',
+              'Animal attack'
+            ],
+            correctAnswer: 'Infrasound-generating winds',
+            explanation: 'The text mentions "infrasound-generating winds that could have induced panic" as a meteorological theory.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'Why does the author say "some mysteries resist even our most careful investigation"?',
+            correctAnswer: 'Because we still cannot be certain what happened / No theory explains all the facts',
+            explanation: 'Despite extensive investigation, no single theory accounts for all evidence.',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'Writing Task: Write your own theory (80-100 words) about what might have happened at Dyatlov Pass. Use at least 4 different modals of deduction (must have, might have, could have, can\'t have). Support your theory with evidence from the text.',
+            correctAnswer: '',
+            explanation: 'This is an open-ended writing task. Evaluate based on: appropriate use of modals, logical reasoning, reference to textual evidence, and coherence.',
+            points: 10
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'scattered', definition: 'spread over a wide area in an untidy or irregular way' },
+          { word: 'fractured', definition: 'broken or cracked' },
+          { word: 'infrasound', definition: 'sound waves with frequencies below the range of human hearing' },
+          { word: 'succumbed', definition: 'failed to resist; died from' },
+          { word: 'hypothermia', definition: 'dangerous drop in body temperature' }
+        ]
       }
     ]
   },
@@ -6159,6 +6983,840 @@ As we move forward, experts predict that hybrid models will become the {{7}}. Ra
             explanation: '"Adopt arrangements" means officially implement them. "Adapt" means modify, "accept" means agree with, "approve" means give permission.',
             points: 1
           }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-grammar-2',
+        type: 'grammar',
+        title: 'Have/Get Something Done',
+        grammarPoint: 'Causative structures: have/get + object + past participle',
+        explanation: 'Usamos "have/get something done" para expresar que otra persona hace algo por nosotros (servicio):\n- have + object + past participle (más formal)\n- get + object + past participle (menos formal)\n\nEjemplos:\n- I had my car serviced. (= Alguien revisó mi coche)\n- She\'s getting her house painted. (= Alguien está pintando su casa)',
+        examples: [
+          'I need to have my eyes tested.',
+          'We\'re getting the roof repaired next week.',
+          'She had her hair cut yesterday.',
+          'Did you get your computer fixed?',
+          'They\'re having the garden redesigned.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Choose the correct form: I ___ my watch repaired last week.',
+            options: ['had', 'have had', 'was having', 'have'],
+            correctAnswer: 'had',
+            explanation: 'Past simple para acción completada en el pasado.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'Complete: She\'s ___ her nails ___ at the salon.',
+            correctAnswer: 'getting/having, done',
+            explanation: 'Get/have + object + past participle para servicios.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Rewrite: "The mechanic is servicing my car." (use "have")',
+            correctAnswer: 'I\'m having my car serviced',
+            explanation: 'Present continuous causativo: am/is/are having + object + past participle.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-sentence-completion',
+        type: 'sentence-completion',
+        title: 'Sentence Completion: Passive Constructions',
+        instructions: 'Complete each sentence using an appropriate passive construction.',
+        sentences: [
+          {
+            id: 'sc1',
+            incompleteSentence: 'The new policy has been',
+            sampleCompletions: [
+              'implemented across all departments',
+              'approved by the board of directors',
+              'criticized by many stakeholders'
+            ],
+            evaluationCriteria: 'Should use present perfect passive + appropriate completion',
+            points: 3
+          },
+          {
+            id: 'sc2',
+            incompleteSentence: 'The research findings will be',
+            sampleCompletions: [
+              'published in a leading scientific journal',
+              'presented at the international conference',
+              'reviewed by independent experts'
+            ],
+            evaluationCriteria: 'Should use future passive + logical completion',
+            points: 3
+          },
+          {
+            id: 'sc3',
+            incompleteSentence: 'By the time we arrived, the decision had already been',
+            sampleCompletions: [
+              'made by the committee',
+              'announced to the public',
+              'implemented without consultation'
+            ],
+            evaluationCriteria: 'Should use past perfect passive + reasonable completion',
+            points: 3
+          },
+          {
+            id: 'sc4',
+            incompleteSentence: 'The bridge is currently being',
+            sampleCompletions: [
+              'renovated to improve safety',
+              'inspected for structural damage',
+              'constructed using sustainable materials'
+            ],
+            evaluationCriteria: 'Should use present continuous passive + logical action',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-error-identification',
+        type: 'error-identification',
+        title: 'Error Identification: Passive Voice Mistakes',
+        instructions: 'Each sentence contains ONE error related to passive voice. Find and correct it.',
+        sentences: [
+          {
+            id: 'ei1',
+            sentence: 'The report was been completed yesterday.',
+            error: 'was been',
+            correction: 'was',
+            explanation: 'Use "was completed" (past simple passive), not "was been completed".',
+            category: 'Passive structure',
+            points: 2
+          },
+          {
+            id: 'ei2',
+            sentence: 'The building is being build by a local company.',
+            error: 'build',
+            correction: 'built',
+            explanation: 'Past participle is "built", not "build".',
+            category: 'Irregular past participles',
+            points: 2
+          },
+          {
+            id: 'ei3',
+            sentence: 'The letter should be send before Friday.',
+            error: 'send',
+            correction: 'sent',
+            explanation: 'Past participle is "sent", not "send".',
+            category: 'Irregular past participles',
+            points: 2
+          },
+          {
+            id: 'ei4',
+            sentence: 'I had cut my hair at the salon yesterday.',
+            error: 'had cut',
+            correction: 'had my hair cut',
+            explanation: 'Use causative "had my hair cut" (someone else cut it).',
+            category: 'Causative have',
+            points: 2
+          },
+          {
+            id: 'ei5',
+            sentence: 'The results have published in the journal.',
+            error: 'have published',
+            correction: 'have been published',
+            explanation: 'Present perfect passive needs "have been" + past participle.',
+            category: 'Present perfect passive',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-reading-1',
+        type: 'reading',
+        title: 'Reading: The Restoration of the Sistine Chapel',
+        text: `Between 1980 and 1994, one of the most ambitious art restoration projects in history was undertaken: the cleaning of Michelangelo's frescoes in the Sistine Chapel. The project was initiated after centuries of dirt, candle smoke, and previous restoration attempts had darkened the original colors beyond recognition.
+
+The restoration was carried out by a team of expert conservators using cutting-edge technology. First, extensive scientific analysis was conducted to understand the composition of the original paint and the various layers of grime. Small sections were carefully cleaned using special solvents, and the results were documented photographically before proceeding further.
+
+As the cleaning progressed, startling discoveries were made. The vibrant colors that emerged contradicted centuries of art historical interpretation. Where Michelangelo had been praised for his somber, dark palette, it was now revealed that he had actually used bright, vivid colors. The figures that had been shrouded in darkness were transformed into brilliantly colored masterpieces.
+
+The project was not without controversy. Some critics argued that too much cleaning was being done, potentially removing not just dirt but also some of Michelangelo's original work. Others defended the restoration, claiming that for the first time in centuries, the artist's true vision was being uncovered.
+
+Throughout the fourteen-year project, sophisticated scaffolding systems were designed to allow conservators to work at great heights without damaging the frescoes. Every stage of the work was supervised by international experts and documented in minute detail. The project was funded by contributions from various sources, including the Vatican and international patrons.
+
+Today, the restored frescoes are considered one of the greatest achievements in art conservation. Millions of visitors each year are now able to see Michelangelo's work as it was originally intended—vibrant, colorful, and breathtaking in its detail.`,
+        wordCount: 300,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What does "was undertaken" in the first paragraph mean?',
+            options: [
+              'Was promised',
+              'Was started/begun',
+              'Was completed',
+              'Was cancelled'
+            ],
+            correctAnswer: 'Was started/begun',
+            explanation: '"Was undertaken" means was started or carried out.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'How many passive voice constructions can you find in paragraph 2? List at least 3.',
+            correctAnswer: 'was carried out, was conducted, were cleaned, were documented (any 3)',
+            explanation: 'Paragraph 2 contains multiple passive constructions.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: Everyone agreed that the restoration was done correctly.',
+            correctAnswer: 'False',
+            explanation: 'The text states "The project was not without controversy" and mentions critics.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'According to the text, what was discovered during the cleaning?',
+            options: [
+              'Michelangelo used dark colors',
+              'Michelangelo used bright, vivid colors',
+              'The frescoes were fake',
+              'The paint was damaged'
+            ],
+            correctAnswer: 'Michelangelo used bright, vivid colors',
+            explanation: 'The text states "he had actually used bright, vivid colors".',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'Who funded the restoration project?',
+            correctAnswer: 'The Vatican and international patrons',
+            explanation: 'The text states: "funded by contributions from various sources, including the Vatican and international patrons".',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'frescoes', definition: 'paintings done on wet plaster on a wall or ceiling' },
+          { word: 'grime', definition: 'dirt ingrained on the surface of something' },
+          { word: 'conservators', definition: 'professionals who restore and preserve artworks' },
+          { word: 'somber', definition: 'dark or dull in color or tone' },
+          { word: 'shrouded', definition: 'covered or hidden' }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-paraphrasing',
+        type: 'paraphrasing',
+        title: 'Paraphrasing: Active to Passive Conversion',
+        instructions: 'Rewrite each sentence in the passive voice while maintaining the same meaning.',
+        sentences: [
+          {
+            id: 'p1',
+            original: 'Scientists have discovered a new species of deep-sea fish.',
+            sampleParaphrases: [
+              'A new species of deep-sea fish has been discovered.',
+              'A new species of deep-sea fish has been discovered by scientists.'
+            ],
+            keyVocabulary: ['present perfect passive', 'by + agent (optional)'],
+            points: 3
+          },
+          {
+            id: 'p2',
+            original: 'Someone should investigate this matter immediately.',
+            sampleParaphrases: [
+              'This matter should be investigated immediately.',
+              'This matter ought to be investigated immediately.'
+            ],
+            keyVocabulary: ['modal passive', 'should be + past participle'],
+            points: 3
+          },
+          {
+            id: 'p3',
+            original: 'They are going to announce the results tomorrow.',
+            sampleParaphrases: [
+              'The results are going to be announced tomorrow.',
+              'The results will be announced tomorrow.'
+            ],
+            keyVocabulary: ['future passive', 'be going to be + past participle'],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-collocation-matching',
+        type: 'collocation-matching',
+        title: 'Collocation Matching: Passive Voice Verbs',
+        instructions: 'Match the passive verbs with appropriate nouns to form common collocations.',
+        pairs: [
+          { left: 'be conducted', right: 'research/an investigation', distractor: false },
+          { left: 'be published', right: 'a report/an article', distractor: false },
+          { left: 'be implemented', right: 'a policy/a plan', distractor: false },
+          { left: 'be launched', right: 'a campaign/a product', distractor: false },
+          { left: 'be established', right: 'a company/a tradition', distractor: false },
+          { left: 'be carried out', right: 'an experiment/a survey', distractor: false },
+          { left: 'be issued', right: 'a warning/a statement', distractor: false },
+          { left: 'be granted', right: 'permission/a license', distractor: false }
+        ],
+        distractors: [
+          { left: 'be made', right: 'research' },
+          { left: 'be done', right: 'a campaign' },
+          { left: 'be given', right: 'a policy' }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l2-phrasal-verbs',
+        type: 'phrasal-verbs',
+        title: 'Phrasal Verbs: Processes & Procedures',
+        instructions: 'Learn phrasal verbs commonly used in passive constructions when describing processes.',
+        verbs: [
+          {
+            verb: 'carry out',
+            meaning: 'to perform or conduct (research, experiment, task)',
+            examples: [
+              'The study was carried out over five years.',
+              'Tests are being carried out to ensure safety.'
+            ],
+            usage: 'separable',
+            synonyms: ['conduct', 'perform', 'execute']
+          },
+          {
+            verb: 'bring about',
+            meaning: 'to cause something to happen',
+            examples: [
+              'Major changes were brought about by the new legislation.',
+              'The revolution was brought about by economic hardship.'
+            ],
+            usage: 'separable',
+            synonyms: ['cause', 'produce', 'generate']
+          },
+          {
+            verb: 'set up',
+            meaning: 'to establish or create (organization, system)',
+            examples: [
+              'The committee was set up to investigate the claims.',
+              'A new fund has been set up to support research.'
+            ],
+            usage: 'separable',
+            synonyms: ['establish', 'create', 'found']
+          },
+          {
+            verb: 'take over',
+            meaning: 'to assume control or responsibility',
+            examples: [
+              'The project was taken over by a new manager.',
+              'The company has been taken over by a larger corporation.'
+            ],
+            usage: 'separable',
+            synonyms: ['assume control', 'acquire', 'seize']
+          },
+          {
+            verb: 'put forward',
+            meaning: 'to propose or suggest (idea, theory)',
+            examples: [
+              'Several theories have been put forward to explain the phenomenon.',
+              'A new proposal was put forward at the meeting.'
+            ],
+            usage: 'separable',
+            synonyms: ['propose', 'suggest', 'present']
+          }
+        ],
+        exercises: [
+          {
+            id: 'pv1',
+            type: 'fill-blank',
+            sentence: 'The research was _____ _____ by a team of international scientists.',
+            correctAnswer: 'carried out',
+            points: 2
+          },
+          {
+            id: 'pv2',
+            type: 'multiple-choice',
+            question: 'Choose the correct phrasal verb: A new theory has been _____ to explain the data.',
+            options: ['put forward', 'put up', 'put on', 'put off'],
+            correctAnswer: 'put forward',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-idioms',
+        type: 'idioms-expressions',
+        title: 'Idioms & Expressions: Formal & Academic Language',
+        instructions: 'Learn formal expressions commonly used with passive voice in academic writing.',
+        idioms: [
+          {
+            idiom: 'It is widely believed/accepted that...',
+            meaning: 'many people believe/accept that something is true',
+            example: 'It is widely believed that climate change poses a serious threat.',
+            context: 'formal/academic writing',
+            culturalNote: 'Impersonal passive structure for objective tone'
+          },
+          {
+            idiom: 'It has been suggested that...',
+            meaning: 'someone has proposed the idea that...',
+            example: 'It has been suggested that the policy needs revision.',
+            context: 'formal reports and papers',
+            culturalNote: 'Avoids naming who suggested it'
+          },
+          {
+            idiom: 'It should be noted that...',
+            meaning: 'it is important to recognize/remember that...',
+            example: 'It should be noted that these are preliminary findings.',
+            context: 'academic/formal contexts',
+            culturalNote: 'Draws attention to important information'
+          },
+          {
+            idiom: 'It is considered (to be)...',
+            meaning: 'it is generally regarded as...',
+            example: 'The discovery is considered to be a major breakthrough.',
+            context: 'formal evaluation',
+            culturalNote: 'Expresses general opinion objectively'
+          },
+          {
+            idiom: 'It has been demonstrated that...',
+            meaning: 'research/evidence has shown that...',
+            example: 'It has been demonstrated that exercise improves mental health.',
+            context: 'scientific writing',
+            culturalNote: 'Shows evidence-based conclusion'
+          },
+          {
+            idiom: 'It cannot be denied that...',
+            meaning: 'it is impossible to dispute that...',
+            example: 'It cannot be denied that the situation has improved.',
+            context: 'formal argumentation',
+            culturalNote: 'Acknowledges undeniable facts'
+          }
+        ],
+        exercises: [
+          {
+            id: 'id1',
+            type: 'matching',
+            instruction: 'Match each expression to its appropriate use',
+            pairs: [
+              { idiom: 'It has been demonstrated that', meaning: 'presenting research findings' },
+              { idiom: 'It is widely believed that', meaning: 'referring to common opinion' },
+              { idiom: 'It should be noted that', meaning: 'highlighting important information' }
+            ],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-gap-fill',
+        type: 'gap-fill-text',
+        title: 'Gap-Fill: The Discovery of Penicillin',
+        instructions: 'Complete the text using appropriate passive forms. Each gap requires ONE to THREE words.',
+        text: `The story of penicillin's discovery is one of the most famous examples of accidental scientific breakthroughs. In 1928, the antibiotic (1)___ ___ by Scottish scientist Alexander Fleming, though the discovery (2)___ ___ ___ by chance rather than systematic research.
+
+Fleming had been studying staphylococcus bacteria when he noticed that a mold contamination had killed the bacteria in one of his petri dishes. This observation (3)___ ___ ___ initially, but Fleming eventually recognized its significance. The mold (4)___ ___ and further experiments (5)___ ___ ___.
+
+However, it took more than a decade before penicillin (6)___ ___ ___ for widespread medical use. The process of mass production (7)___ ___ by Howard Florey and Ernst Boris Chain in the 1940s. Their work (8)___ ___ by the urgent need for antibiotics during World War II.
+
+Thanks to their efforts, penicillin (9)___ ___ available to treat wounded soldiers, saving countless lives. The discovery (10)___ ___ ___ as one of the greatest medical advances of the 20th century, and Fleming, Florey, and Chain (11)___ ___ the Nobel Prize in 1945.
+
+Today, millions of lives continue (12)___ ___ ___ by antibiotics derived from Fleming's accidental discovery.`,
+        gaps: 12,
+        answers: [
+          { gapNumber: 1, correctAnswer: 'was discovered', acceptableAnswers: ['was discovered'], explanation: 'Past simple passive', points: 1 },
+          { gapNumber: 2, correctAnswer: 'was made', acceptableAnswers: ['was made'], explanation: '"Made by chance" - passive construction', points: 1 },
+          { gapNumber: 3, correctAnswer: 'was almost ignored', acceptableAnswers: ['was almost ignored', 'was nearly ignored'], explanation: 'Past simple passive with adverb', points: 1 },
+          { gapNumber: 4, correctAnswer: 'was identified', acceptableAnswers: ['was identified', 'was isolated'], explanation: 'Past simple passive', points: 1 },
+          { gapNumber: 5, correctAnswer: 'were carried out', acceptableAnswers: ['were carried out', 'were conducted'], explanation: 'Passive phrasal verb', points: 1 },
+          { gapNumber: 6, correctAnswer: 'could be produced', acceptableAnswers: ['could be produced', 'was produced'], explanation: 'Modal passive or past simple passive', points: 1 },
+          { gapNumber: 7, correctAnswer: 'was developed', acceptableAnswers: ['was developed', 'was perfected'], explanation: 'Past simple passive', points: 1 },
+          { gapNumber: 8, correctAnswer: 'was driven', acceptableAnswers: ['was driven', 'was motivated'], explanation: '"Was driven by" = motivated/caused by', points: 1 },
+          { gapNumber: 9, correctAnswer: 'was made', acceptableAnswers: ['was made'], explanation: '"Made available" - passive causative', points: 1 },
+          { gapNumber: 10, correctAnswer: 'is now regarded', acceptableAnswers: ['is now regarded', 'is considered'], explanation: 'Present simple passive', points: 1 },
+          { gapNumber: 11, correctAnswer: 'were awarded', acceptableAnswers: ['were awarded', 'received'], explanation: 'Past simple passive', points: 1 },
+          { gapNumber: 12, correctAnswer: 'to be saved', acceptableAnswers: ['to be saved'], explanation: 'Passive infinitive after "continue"', points: 1 }
+        ],
+        points: 12
+      },
+      {
+        id: 'b2-m2-l2-sentence-reordering',
+        type: 'sentence-reordering',
+        title: 'Sentence Reordering: Scientific Process',
+        instructions: 'Arrange these sentences to describe a logical scientific process using passive voice.',
+        sentences: [
+          { id: 's1', text: 'The data was then analyzed using statistical software.', position: 5 },
+          { id: 's2', text: 'First, the research question was formulated by the team.', position: 1 },
+          { id: 's3', text: 'Finally, the findings were published in a peer-reviewed journal.', position: 8 },
+          { id: 's4', text: 'A detailed methodology was designed to test the hypothesis.', position: 2 },
+          { id: 's5', text: 'The results were interpreted in the context of existing literature.', position: 6 },
+          { id: 's6', text: 'Ethical approval was obtained from the university review board.', position: 3 },
+          { id: 's7', text: 'Data collection was carried out over a six-month period.', position: 4 },
+          { id: 's8', text: 'The conclusions were reviewed by independent experts before publication.', position: 7 }
+        ],
+        correctOrder: ['s2', 's4', 's6', 's7', 's1', 's5', 's8', 's3'],
+        explanation: 'Scientific research process: formulate question → design methodology → get approval → collect data → analyze → interpret → peer review → publish',
+        points: 8
+      },
+      {
+        id: 'b2-m2-l2-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m2-l2-listening-1.mp3',
+        duration: 150,
+        allowReplay: true,
+        maxReplays: 3,
+        transcript: `News Anchor: In science news today, a remarkable discovery has been made by researchers at Cambridge University. Dr. Sarah Mitchell joins us to explain. Dr. Mitchell, what exactly has been found?
+
+Dr. Mitchell: Thank you for having me. Well, a new technique has been developed that could revolutionize cancer treatment. The method was discovered somewhat accidentally during unrelated research into cell behavior.
+
+Anchor: How was this discovery made?
+
+Dr. Mitchell: The research team was investigating how certain proteins are produced by cancer cells. During one experiment, an unusual reaction was observed when a particular compound was introduced. Further tests were conducted, and it was found that the compound could effectively target and destroy cancer cells while leaving healthy cells unharmed.
+
+Anchor: That sounds promising. What happens next?
+
+Dr. Mitchell: More trials will be carried out over the next two years. First, the treatment will be tested on animal models, and if successful, human trials will be initiated. However, it should be noted that this is still early-stage research.
+
+Anchor: When might this treatment be made available to patients?
+
+Dr. Mitchell: If everything goes well, the therapy could be approved for clinical use within five to ten years. But it's important that expectations are managed—many promising treatments are abandoned during the trial phase when unexpected problems are encountered.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'How was the discovery described?',
+            options: [
+              'It was carefully planned',
+              'It was made accidentally',
+              'It was predicted by theory',
+              'It was copied from others'
+            ],
+            correctAnswer: 'It was made accidentally',
+            explanation: 'Dr. Mitchell says "discovered somewhat accidentally during unrelated research".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'What passive phrase does Dr. Mitchell use to describe what happened during the experiment?',
+            correctAnswer: 'an unusual reaction was observed',
+            explanation: 'She states: "an unusual reaction was observed when a particular compound was introduced".',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: The treatment is ready for use in hospitals now.',
+            correctAnswer: 'False',
+            explanation: 'Dr. Mitchell says trials will be carried out over the next two years and approval could take 5-10 years.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'What will happen first in the testing process?',
+            options: [
+              'Human trials',
+              'Clinical approval',
+              'Animal model tests',
+              'Public release'
+            ],
+            correctAnswer: 'Animal model tests',
+            explanation: 'Dr. Mitchell says: "First, the treatment will be tested on animal models".',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What phrase does Dr. Mitchell use to introduce an important caveat?',
+            correctAnswer: 'it should be noted that',
+            explanation: 'She uses the formal passive phrase "it should be noted that this is still early-stage research".',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Academic & Formal Verbs',
+        vocabularySet: [
+          { word: 'conduct', definition: 'to carry out or organize (research, survey)', example: 'The study was conducted over three years.' },
+          { word: 'implement', definition: 'to put a plan or system into operation', example: 'The new policy will be implemented next month.' },
+          { word: 'undertake', definition: 'to begin or commit to (a task, project)', example: 'The research was undertaken by a team of experts.' },
+          { word: 'demonstrate', definition: 'to show clearly through evidence', example: 'The experiment demonstrated the effectiveness of the treatment.' },
+          { word: 'establish', definition: 'to create, set up, or prove', example: 'The company was established in 1995.' },
+          { word: 'initiate', definition: 'to cause something to begin', example: 'The project was initiated last year.' },
+          { word: 'constitute', definition: 'to form or make up', example: 'These findings constitute important evidence.' },
+          { word: 'derive', definition: 'to obtain from a source', example: 'The data was derived from official records.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which word means "to carry out research"?',
+            options: ['constitute', 'conduct', 'derive', 'initiate'],
+            correctAnswer: 'conduct',
+            explanation: 'Conduct = realizar, llevar a cabo.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'The new system will be _____ across all branches.',
+            correctAnswer: 'implemented',
+            explanation: 'Implement = poner en práctica.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-speaking-1',
+        type: 'speaking',
+        prompt: 'Describe a process or procedure in your field (or a general process like "how a bill becomes law" or "how scientific research is conducted"). Use passive voice throughout to maintain objectivity. Speak for 2-3 minutes.',
+        timeLimit: 180,
+        evaluationCriteria: {
+          pronunciation: true,
+          fluency: true,
+          grammar: true,
+          vocabulary: true
+        },
+        hints: [
+          'Use passive voice: "is conducted", "are analyzed", "was developed"',
+          'Include sequence markers: "first", "then", "after that", "finally"',
+          'Use formal vocabulary: "undertake", "implement", "establish"',
+          'Avoid personal pronouns (I, we, you)',
+          'Examples: research process, manufacturing, legislative process, application procedures'
+        ]
+      },
+      {
+        id: 'b2-m2-l2-keytransform-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Passive Voice',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt1',
+            sentence: 'They published the report last week.',
+            keyWord: 'was',
+            startOfAnswer: 'The report',
+            correctAnswer: 'was published last week',
+            explanation: 'Past simple passive: was + past participle.',
+            points: 2
+          },
+          {
+            id: 'kt2',
+            sentence: 'Someone needs to repair this machine urgently.',
+            keyWord: 'needs',
+            startOfAnswer: 'This machine',
+            correctAnswer: 'needs to be repaired',
+            explanation: 'Passive infinitive: needs + to be + past participle.',
+            points: 2
+          },
+          {
+            id: 'kt3',
+            sentence: 'A mechanic serviced my car yesterday.',
+            keyWord: 'had',
+            startOfAnswer: 'I',
+            correctAnswer: 'had my car serviced',
+            explanation: 'Causative have: had + object + past participle.',
+            points: 2
+          },
+          {
+            id: 'kt4',
+            sentence: 'They say that exercise improves health.',
+            keyWord: 'said',
+            startOfAnswer: 'It',
+            correctAnswer: 'is said that exercise',
+            explanation: 'Impersonal passive: It is said that...',
+            points: 2
+          },
+          {
+            id: 'kt5',
+            sentence: 'People believe that the company will expand.',
+            keyWord: 'believed',
+            startOfAnswer: 'The company',
+            correctAnswer: 'is believed to expand',
+            explanation: 'Personal passive: is believed + to-infinitive.',
+            points: 2
+          },
+          {
+            id: 'kt6',
+            sentence: 'Workers are building a new bridge.',
+            keyWord: 'being',
+            startOfAnswer: 'A new bridge',
+            correctAnswer: 'is being built by',
+            explanation: 'Present continuous passive: is being + past participle.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-wordform-1',
+        type: 'word-formation',
+        title: 'Word Formation: Scientific Research',
+        text: `Modern scientific research requires (1. COLLABORATE)_____ among experts from various fields. Projects are often (2. FUND)_____ by government agencies or private (3. INVEST)_____. Before any research can be conducted, (4. APPROVE)_____ must be obtained from ethics committees. The (5. COLLECT)_____ of data is carried out following strict protocols to ensure (6. RELY)_____. Results are subjected to rigorous (7. ANALYZE)_____ before being published. This process ensures the (8. VALID)_____ of scientific findings.`,
+        questions: [
+          { id: 'q1', gapNumber: 1, baseWord: 'COLLABORATE', correctAnswer: 'collaboration', acceptableAnswers: ['collaboration'], explanation: '"Requires collaboration" - working together.', wordType: 'noun', transformation: 'verb → noun (-tion)', points: 1 },
+          { id: 'q2', gapNumber: 2, baseWord: 'FUND', correctAnswer: 'funded', acceptableAnswers: ['funded'], explanation: '"Are funded" - passive voice, provided with money.', wordType: 'past participle', transformation: 'verb → past participle (-ed)', points: 1 },
+          { id: 'q3', gapNumber: 3, baseWord: 'INVEST', correctAnswer: 'investors', acceptableAnswers: ['investors'], explanation: '"Private investors" - people who invest money.', wordType: 'noun (plural)', transformation: 'verb → noun (-or) + plural', points: 1 },
+          { id: 'q4', gapNumber: 4, baseWord: 'APPROVE', correctAnswer: 'approval', acceptableAnswers: ['approval'], explanation: '"Approval must be obtained" - official permission.', wordType: 'noun', transformation: 'verb → noun (-al)', points: 1 },
+          { id: 'q5', gapNumber: 5, baseWord: 'COLLECT', correctAnswer: 'collection', acceptableAnswers: ['collection'], explanation: '"The collection of data" - the process of gathering.', wordType: 'noun', transformation: 'verb → noun (-tion)', points: 1 },
+          { id: 'q6', gapNumber: 6, baseWord: 'RELY', correctAnswer: 'reliability', acceptableAnswers: ['reliability'], explanation: '"Ensure reliability" - quality of being trustworthy.', wordType: 'noun', transformation: 'verb → noun (-ability)', points: 1 },
+          { id: 'q7', gapNumber: 7, baseWord: 'ANALYZE', correctAnswer: 'analysis', acceptableAnswers: ['analysis'], explanation: '"Subjected to analysis" - detailed examination.', wordType: 'noun', transformation: 'verb → noun (-sis)', points: 1 },
+          { id: 'q8', gapNumber: 8, baseWord: 'VALID', correctAnswer: 'validity', acceptableAnswers: ['validity'], explanation: '"The validity of findings" - quality of being sound or well-founded.', wordType: 'noun', transformation: 'adjective → noun (-ity)', points: 1 }
+        ],
+        focusAreas: ['Noun formation', 'Academic vocabulary', 'Passive voice contexts']
+      },
+      {
+        id: 'b2-m2-l2-pronunciation',
+        type: 'pronunciation',
+        title: 'Pronunciation: Past Participles',
+        instructions: 'Practice pronouncing common irregular past participles used in passive voice.',
+        words: [
+          {
+            word: 'conducted',
+            phonetic: '/kənˈdʌktɪd/',
+            audioUrl: '/audio/conducted.mp3',
+            stressPattern: 'Stress on second syllable: con-DUCT-ed',
+            commonErrors: 'Don\'t stress first syllable',
+            example: 'The research was conducted /kənˈdʌktɪd/ carefully.'
+          },
+          {
+            word: 'established',
+            phonetic: '/ɪˈstæblɪʃt/',
+            audioUrl: '/audio/established.mp3',
+            stressPattern: 'Stress on second syllable: es-TAB-lished',
+            commonErrors: 'Note the reduced -ed ending',
+            example: 'The company was established /ɪˈstæblɪʃt/ in 1995.'
+          },
+          {
+            word: 'undertaken',
+            phonetic: '/ˌʌndəˈteɪkən/',
+            audioUrl: '/audio/undertaken.mp3',
+            stressPattern: 'Primary stress on third syllable: un-der-TAK-en',
+            commonErrors: 'Weak stress on "der"',
+            example: 'The project was undertaken /ˌʌndəˈteɪkən/ last year.'
+          },
+          {
+            word: 'implemented',
+            phonetic: '/ˈɪmplɪmentɪd/',
+            audioUrl: '/audio/implemented.mp3',
+            stressPattern: 'Stress on first syllable: IM-ple-ment-ed',
+            commonErrors: 'Four syllables, not three',
+            example: 'The policy was implemented /ˈɪmplɪmentɪd/ successfully.'
+          },
+          {
+            word: 'demonstrated',
+            phonetic: '/ˈdemənstreɪtɪd/',
+            audioUrl: '/audio/demonstrated.mp3',
+            stressPattern: 'Stress on first syllable: DEM-on-strat-ed',
+            commonErrors: 'Middle syllable is weak /mən/',
+            example: 'The results were demonstrated /ˈdemənstreɪtɪd/ clearly.'
+          }
+        ],
+        exercises: [
+          {
+            id: 'pr1',
+            type: 'pronunciation-practice',
+            instruction: 'Practice these passive sentences with correct stress',
+            sentences: [
+              'The research was conducted by experts.',
+              'The company was established twenty years ago.',
+              'The project will be undertaken next month.',
+              'The new system was implemented successfully.',
+              'The theory has been demonstrated in practice.'
+            ],
+            points: 5
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l2-integrated-1',
+        type: 'reading',
+        title: 'Integrated Skills: The Panama Canal Construction',
+        text: `The construction of the Panama Canal stands as one of humanity's greatest engineering achievements. The canal, which connects the Atlantic and Pacific Oceans, was built between 1904 and 1914, though the idea had been conceived centuries earlier.
+
+The first serious attempt to construct the canal was undertaken by the French in 1881, led by Ferdinand de Lesseps, who had successfully built the Suez Canal. However, the project was plagued by problems. Thousands of workers were killed by tropical diseases such as yellow fever and malaria. Poor planning and inadequate funding meant that the French attempt was eventually abandoned in 1889 after an estimated 22,000 deaths.
+
+The United States took over the project in 1904. Under American leadership, revolutionary approaches were implemented. First, a massive health campaign was launched to control mosquito-borne diseases. Hospitals were built, swamps were drained, and strict sanitation measures were enforced. These efforts were led by Dr. William Gorgas, whose work dramatically reduced death rates.
+
+The engineering challenges were formidable. Mountains had to be excavated, rivers had to be redirected, and an ingenious system of locks had to be designed to raise and lower ships through different water levels. The Gatún Dam was constructed to create an artificial lake, which would form part of the canal route.
+
+Over 75,000 workers were employed during peak construction. The project was managed with military precision, and innovative construction techniques were developed to overcome the terrain challenges. Steam shovels and railways were used to remove millions of tons of earth and rock.
+
+Finally, on August 15, 1914, the canal was officially opened when the cargo ship SS Ancon completed the first official transit. The total cost has been estimated at $375 million—a massive sum at the time. The canal immediately proved its worth, reducing the sea journey from New York to San Francisco by approximately 8,000 miles.
+
+Today, the expanded Panama Canal can accommodate modern mega-ships and remains one of the world's most important maritime routes. The original construction is still regarded as a triumph of human engineering and determination.`,
+        wordCount: 350,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Why did the French attempt fail?',
+            options: [
+              'Lack of workers',
+              'Political opposition',
+              'Diseases and poor planning',
+              'Bad weather'
+            ],
+            correctAnswer: 'Diseases and poor planning',
+            explanation: 'The text mentions "thousands of workers were killed by tropical diseases" and "poor planning and inadequate funding".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Find and write 3 different passive voice constructions from paragraph 3.',
+            correctAnswer: 'were implemented, was launched, were built, were drained, were enforced (any 3)',
+            explanation: 'Paragraph 3 contains multiple passive constructions describing the American approach.',
+            points: 3
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: The French successfully completed the Suez Canal before attempting the Panama Canal.',
+            correctAnswer: 'True',
+            explanation: 'The text states de Lesseps "had successfully built the Suez Canal".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'short-answer',
+            question: 'How was the disease problem solved under American leadership?',
+            correctAnswer: 'Health campaign to control mosquitoes, hospitals built, swamps drained, sanitation measures enforced',
+            explanation: 'All these measures were implemented to combat disease.',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: 'What does "was undertaken" mean in paragraph 2?',
+            options: [
+              'Was started/begun',
+              'Was completed',
+              'Was cancelled',
+              'Was planned'
+            ],
+            correctAnswer: 'Was started/begun',
+            explanation: '"Was undertaken" means was started or initiated.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'Writing Task: Write a paragraph (100-120 words) describing a major construction project or technological achievement using passive voice. Include: what was built, who it was built by, what challenges were overcome, and how it is regarded today.',
+            correctAnswer: '',
+            explanation: 'Evaluate based on: correct use of passive voice, clear structure, appropriate vocabulary, and logical flow.',
+            points: 10
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'conceived', definition: 'formed or imagined (an idea)' },
+          { word: 'plagued', definition: 'continually troubled by' },
+          { word: 'formidable', definition: 'inspiring respect through being impressive or difficult' },
+          { word: 'excavated', definition: 'dug out and removed (earth, rock)' },
+          { word: 'precision', definition: 'accuracy and exactness' }
         ]
       }
     ]
@@ -6310,6 +7968,842 @@ As we move forward, experts predict that hybrid models will become the {{7}}. Ra
           }
         ],
         focusAreas: ['Reporting verbs', 'Collocations', 'Phrasal verbs']
+      },
+      {
+        id: 'b2-m2-l3-grammar-2',
+        type: 'grammar',
+        title: 'Backshifting Tenses in Reported Speech',
+        grammarPoint: 'Tense changes in reported speech',
+        explanation: 'Cuando reportamos algo que se dijo en el pasado, los tiempos verbales cambian (backshift):\n- Present Simple → Past Simple\n- Present Continuous → Past Continuous\n- Present Perfect → Past Perfect\n- Past Simple → Past Perfect\n- Will → Would\n- Can → Could\n\nEjemplo: "I am tired" → She said (that) she was tired.',
+        examples: [
+          '"I work here." → He said he worked there.',
+          '"I\'m leaving." → She said she was leaving.',
+          '"I have finished." → He said he had finished.',
+          '"I saw him yesterday." → She said she had seen him the day before.',
+          '"I will call you." → He said he would call me.'
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: '"I can help you." → She said she ___ help me.',
+            options: ['can', 'could', 'will', 'would'],
+            correctAnswer: 'could',
+            explanation: 'Can cambia a could en reported speech.',
+            points: 2
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: '"I have seen that movie." → He said he ___ ___ that movie.',
+            correctAnswer: 'had seen',
+            explanation: 'Present Perfect cambia a Past Perfect.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Report: "I am studying English." (She said...)',
+            correctAnswer: 'She said (that) she was studying English',
+            explanation: 'Present Continuous → Past Continuous.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-sentence-completion',
+        type: 'sentence-completion',
+        title: 'Sentence Completion: Reporting Verbs',
+        instructions: 'Complete each sentence using an appropriate reporting verb and structure.',
+        sentences: [
+          {
+            id: 'sc1',
+            incompleteSentence: 'The doctor warned',
+            sampleCompletions: [
+              'me not to lift heavy objects',
+              'us that the treatment could have side effects',
+              'patients about the risks of smoking'
+            ],
+            evaluationCriteria: 'Should use correct structure after "warn" (warn + object + (not) to infinitive / warn + that clause)',
+            points: 3
+          },
+          {
+            id: 'sc2',
+            incompleteSentence: 'She admitted',
+            sampleCompletions: [
+              'that she had made a mistake',
+              'to feeling nervous about the presentation',
+              'having taken the money'
+            ],
+            evaluationCriteria: 'Correct structure: admit + that clause / admit + to + -ing / admit + -ing',
+            points: 3
+          },
+          {
+            id: 'sc3',
+            incompleteSentence: 'The manager suggested',
+            sampleCompletions: [
+              'that we should postpone the meeting',
+              'postponing the meeting until next week',
+              'we postpone the meeting'
+            ],
+            evaluationCriteria: 'Correct structure: suggest + that clause / suggest + -ing',
+            points: 3
+          },
+          {
+            id: 'sc4',
+            incompleteSentence: 'They recommended',
+            sampleCompletions: [
+              'that we visit the museum',
+              'visiting the museum while in the city',
+              'us to book tickets in advance'
+            ],
+            evaluationCriteria: 'Appropriate structure for "recommend"',
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-error-identification',
+        type: 'error-identification',
+        title: 'Error Identification: Reported Speech',
+        instructions: 'Each sentence contains ONE error in reported speech. Find and correct it.',
+        sentences: [
+          {
+            id: 'ei1',
+            sentence: 'He said me that he was tired.',
+            error: 'said me',
+            correction: 'told me',
+            explanation: 'Use "told + person", not "said + person". "Said" doesn\'t take an indirect object.',
+            category: 'Say vs. Tell',
+            points: 2
+          },
+          {
+            id: 'ei2',
+            sentence: 'She suggested to go to the cinema.',
+            error: 'suggested to go',
+            correction: 'suggested going',
+            explanation: 'Suggest + -ing, not suggest + to infinitive.',
+            category: 'Reporting verb patterns',
+            points: 2
+          },
+          {
+            id: 'ei3',
+            sentence: 'My teacher advised me study harder.',
+            error: 'advised me study',
+            correction: 'advised me to study',
+            explanation: 'Advise + object + to infinitive.',
+            category: 'Verb patterns',
+            points: 2
+          },
+          {
+            id: 'ei4',
+            sentence: 'He asked me where was I going.',
+            error: 'where was I going',
+            correction: 'where I was going',
+            explanation: 'In reported questions, use statement word order (subject + verb).',
+            category: 'Reported questions',
+            points: 2
+          },
+          {
+            id: 'ei5',
+            sentence: 'She said that she will call me tomorrow.',
+            error: 'will call',
+            correction: 'would call',
+            explanation: 'Will changes to would in reported speech (backshifting).',
+            category: 'Backshifting',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-reading-1',
+        type: 'reading',
+        title: 'Reading: The Interview',
+        text: `Maria sat nervously outside the interview room. When her name was called, she walked in and shook hands with the panel. The first interviewer, Mr. Thompson, asked her to tell them about her previous experience. Maria explained that she had worked for three years in marketing and had managed several successful campaigns. She emphasized that she had always enjoyed working in teams.
+
+Ms. Chen, the second interviewer, then inquired whether Maria would be willing to relocate. Maria replied that she would definitely consider it if the opportunity was right. She added that flexibility was important to her career development. She also mentioned that she had discussed the possibility with her family and they were supportive.
+
+The HR manager, Mr. Patel, asked what Maria's greatest weakness was. She admitted that she sometimes struggled with delegating tasks because she wanted everything to be perfect. However, she quickly added that she had been working on this and had made significant progress. She claimed that her attention to detail was actually one of her greatest strengths.
+
+Finally, Ms. Chen wanted to know why Maria was interested in leaving her current position. Maria carefully explained that while she appreciated her current role, she felt she had reached a ceiling in terms of growth. She said that she was looking for new challenges and believed this position would offer exactly that. She emphasized that she wasn't running away from anything but rather running toward new opportunities.
+
+Mr. Thompson concluded the interview by telling Maria that they would contact her within a week. He thanked her for coming and said that they had been impressed by her responses. Maria left feeling cautiously optimistic.`,
+        wordCount: 290,
+        readingTime: 3,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What reporting verb is used when Maria talks about her experience?',
+            options: [
+              'said',
+              'explained',
+              'claimed',
+              'suggested'
+            ],
+            correctAnswer: 'explained',
+            explanation: 'The text states: "Maria explained that she had worked for three years..."',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Find and write one example of backshifting in the text.',
+            correctAnswer: 'had worked / had managed / had been working (any one)',
+            explanation: 'Present Perfect in direct speech becomes Past Perfect in reported speech.',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: Maria refused to consider relocating.',
+            correctAnswer: 'False',
+            explanation: 'Maria "replied that she would definitely consider it".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'Which reporting verb does Maria use to acknowledge a weakness?',
+            options: [
+              'denied',
+              'admitted',
+              'suggested',
+              'recommended'
+            ],
+            correctAnswer: 'admitted',
+            explanation: 'Text states: "She admitted that she sometimes struggled with delegating".',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What did Mr. Thompson tell Maria at the end?',
+            correctAnswer: 'That they would contact her within a week / They had been impressed by her responses',
+            explanation: 'He told her both pieces of information.',
+            points: 2
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'inquired', definition: 'asked (formal)' },
+          { word: 'relocate', definition: 'move to a different place to live and work' },
+          { word: 'delegating', definition: 'giving tasks or responsibilities to others' },
+          { word: 'ceiling', definition: 'an upper limit' },
+          { word: 'cautiously optimistic', definition: 'hopeful but careful not to expect too much' }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-paraphrasing',
+        type: 'paraphrasing',
+        title: 'Paraphrasing: Direct to Reported Speech',
+        instructions: 'Convert each direct speech sentence into reported speech using the verb provided.',
+        sentences: [
+          {
+            id: 'p1',
+            original: '"I have never been to Japan," she said.',
+            sampleParaphrases: [
+              'She said (that) she had never been to Japan.',
+              'She mentioned (that) she had never been to Japan.',
+              'She stated (that) she had never been to Japan.'
+            ],
+            keyVocabulary: ['backshifting: have been → had been'],
+            points: 3
+          },
+          {
+            id: 'p2',
+            original: '"Don\'t touch that button!" the technician warned.',
+            sampleParaphrases: [
+              'The technician warned me not to touch that button.',
+              'The technician warned us not to touch that button.'
+            ],
+            keyVocabulary: ['warn + object + not to infinitive'],
+            points: 3
+          },
+          {
+            id: 'p3',
+            original: '"Why don\'t we take a break?" John suggested.',
+            sampleParaphrases: [
+              'John suggested taking a break.',
+              'John suggested that we (should) take a break.'
+            ],
+            keyVocabulary: ['suggest + -ing / suggest + that clause'],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-collocation-matching',
+        type: 'collocation-matching',
+        title: 'Collocation Matching: Reporting Verbs + Prepositions',
+        instructions: 'Match the reporting verbs with their correct prepositions or structures.',
+        pairs: [
+          { left: 'accuse someone', right: 'of doing something', distractor: false },
+          { left: 'apologize', right: 'for doing something', distractor: false },
+          { left: 'insist', right: 'on doing something', distractor: false },
+          { left: 'congratulate someone', right: 'on doing something', distractor: false },
+          { left: 'blame someone', right: 'for something', distractor: false },
+          { left: 'warn someone', right: 'about/against something', distractor: false },
+          { left: 'remind someone', right: 'to do something', distractor: false },
+          { left: 'persuade someone', right: 'to do something', distractor: false }
+        ],
+        distractors: [
+          { left: 'accuse someone', right: 'to do something' },
+          { left: 'apologize', right: 'to do something' },
+          { left: 'insist', right: 'for doing something' }
+        ],
+        points: 8
+      },
+      {
+        id: 'b2-m2-l3-phrasal-verbs',
+        type: 'phrasal-verbs',
+        title: 'Phrasal Verbs: Communication',
+        instructions: 'Learn phrasal verbs commonly used in reported speech and communication contexts.',
+        verbs: [
+          {
+            verb: 'bring up',
+            meaning: 'to mention or introduce a topic in conversation',
+            examples: [
+              'He brought up the issue of salary during the meeting.',
+              'She brought up an interesting point about the project.'
+            ],
+            usage: 'separable',
+            synonyms: ['mention', 'raise', 'introduce']
+          },
+          {
+            verb: 'point out',
+            meaning: 'to direct attention to something; to mention',
+            examples: [
+              'She pointed out several errors in the report.',
+              'He pointed out that we were running late.'
+            ],
+            usage: 'separable',
+            synonyms: ['indicate', 'highlight', 'mention']
+          },
+          {
+            verb: 'get across',
+            meaning: 'to successfully communicate an idea',
+            examples: [
+              'I don\'t think I got my point across clearly.',
+              'The speaker got his message across effectively.'
+            ],
+            usage: 'separable',
+            synonyms: ['communicate', 'convey', 'express']
+          },
+          {
+            verb: 'talk someone into',
+            meaning: 'to persuade someone to do something',
+            examples: [
+              'She talked me into joining the club.',
+              'They tried to talk him into accepting the offer.'
+            ],
+            usage: 'inseparable',
+            synonyms: ['persuade', 'convince']
+          },
+          {
+            verb: 'let on',
+            meaning: 'to reveal information, especially something secret',
+            examples: [
+              'He didn\'t let on that he knew about the surprise.',
+              'She let on that she was planning to quit.'
+            ],
+            usage: 'inseparable',
+            synonyms: ['reveal', 'disclose', 'hint']
+          }
+        ],
+        exercises: [
+          {
+            id: 'pv1',
+            type: 'fill-blank',
+            sentence: 'She _____ _____ that we needed to reconsider our strategy.',
+            correctAnswer: 'pointed out',
+            points: 2
+          },
+          {
+            id: 'pv2',
+            type: 'multiple-choice',
+            question: 'Choose the correct phrasal verb: He tried to _____ the issue during dinner.',
+            options: ['bring up', 'bring on', 'bring about', 'bring in'],
+            correctAnswer: 'bring up',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-idioms',
+        type: 'idioms-expressions',
+        title: 'Idioms & Expressions: Talking & Communicating',
+        instructions: 'Learn idioms and expressions related to speech and communication.',
+        idioms: [
+          {
+            idiom: 'beat around the bush',
+            meaning: 'to avoid talking directly about something',
+            example: 'Stop beating around the bush and tell me what happened.',
+            context: 'informal conversation',
+            culturalNote: 'Refers to hunting, where bushes were beaten to flush out birds'
+          },
+          {
+            idiom: 'get something off your chest',
+            meaning: 'to talk about something that has been worrying you',
+            example: 'I needed to get it off my chest, so I told her the truth.',
+            context: 'personal problems',
+            culturalNote: 'Physical metaphor for emotional relief'
+          },
+          {
+            idiom: 'put your foot in it / in your mouth',
+            meaning: 'to say something embarrassing or tactless',
+            example: 'I really put my foot in it when I asked about her ex-husband.',
+            context: 'social mistakes',
+            culturalNote: 'British: "in it" / American: "in your mouth"'
+          },
+          {
+            idiom: 'speak your mind',
+            meaning: 'to say exactly what you think',
+            example: 'Don\'t be afraid to speak your mind during the meeting.',
+            context: 'expressing opinions',
+            culturalNote: 'Usually considered positive (honesty)'
+          },
+          {
+            idiom: 'word of mouth',
+            meaning: 'information passed from person to person through conversation',
+            example: 'The restaurant became popular through word of mouth.',
+            context: 'informal advertising',
+            culturalNote: 'One of the oldest forms of communication'
+          },
+          {
+            idiom: 'hear it through the grapevine',
+            meaning: 'to hear news or gossip indirectly',
+            example: 'I heard through the grapevine that they\'re getting married.',
+            context: 'rumors and gossip',
+            culturalNote: 'From telegraph lines resembling grapevines'
+          }
+        ],
+        exercises: [
+          {
+            id: 'id1',
+            type: 'matching',
+            instruction: 'Match each idiom to its meaning',
+            pairs: [
+              { idiom: 'beat around the bush', meaning: 'avoid the main topic' },
+              { idiom: 'get something off your chest', meaning: 'talk about a worry' },
+              { idiom: 'speak your mind', meaning: 'say what you really think' }
+            ],
+            points: 3
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-gap-fill',
+        type: 'gap-fill-text',
+        title: 'Gap-Fill: A Difficult Conversation',
+        instructions: 'Complete the text using appropriate reported speech structures. Each gap requires ONE to FOUR words.',
+        text: `Last week, I had a difficult conversation with my colleague, James. He (1)___ ___ if we could talk privately, so we went to a quiet meeting room. He began by (2)___ ___ that he hadn't been happy with how I'd handled a recent project. He (3)___ ___ I had made decisions without consulting the team.
+
+I (4)___ ___ having made some mistakes but (5)___ ___ that I had been under a lot of pressure. I (6)___ him that I would be more collaborative in the future. He (7)___ ___ me not to take it personally, saying that he just wanted to improve our working relationship.
+
+James then (8)___ that we should have weekly check-in meetings. I (9)___ ___ it was a good idea and (10)___ ___ setting them up. He (11)___ me that communication was key to good teamwork. I (12)___ ___ ___ him for being honest and bringing up the issue.
+
+By the end of the conversation, I (13)___ much better. James (14)___ ___ he appreciated my willingness to listen. We (15)___ ___ ___ to make our partnership stronger going forward.`,
+        gaps: 15,
+        answers: [
+          { gapNumber: 1, correctAnswer: 'asked me', acceptableAnswers: ['asked me'], explanation: 'Ask + object + if', points: 1 },
+          { gapNumber: 2, correctAnswer: 'explaining/saying', acceptableAnswers: ['explaining', 'saying', 'mentioning'], explanation: 'Reporting verb for statements', points: 1 },
+          { gapNumber: 3, correctAnswer: 'claimed/said/suggested', acceptableAnswers: ['claimed', 'said', 'suggested', 'felt'], explanation: 'Reporting verb + that clause', points: 1 },
+          { gapNumber: 4, correctAnswer: 'admitted to', acceptableAnswers: ['admitted to', 'admitted'], explanation: 'Admit + to + -ing or admit + -ing', points: 1 },
+          { gapNumber: 5, correctAnswer: 'explained/pointed out', acceptableAnswers: ['explained', 'pointed out', 'mentioned'], explanation: 'Reporting verb for giving reasons', points: 1 },
+          { gapNumber: 6, correctAnswer: 'assured/promised', acceptableAnswers: ['assured', 'promised', 'told'], explanation: 'Promise or assure + that clause', points: 1 },
+          { gapNumber: 7, correctAnswer: 'told/asked/urged', acceptableAnswers: ['told', 'asked', 'urged'], explanation: 'Tell/ask/urge + object + not to infinitive', points: 1 },
+          { gapNumber: 8, correctAnswer: 'suggested/proposed', acceptableAnswers: ['suggested', 'proposed', 'recommended'], explanation: 'Suggest + that clause', points: 1 },
+          { gapNumber: 9, correctAnswer: 'agreed/said', acceptableAnswers: ['agreed', 'said', 'thought'], explanation: 'Expressing agreement', points: 1 },
+          { gapNumber: 10, correctAnswer: 'offered to', acceptableAnswers: ['offered to', 'volunteered to'], explanation: 'Offer + to infinitive', points: 1 },
+          { gapNumber: 11, correctAnswer: 'reminded/told', acceptableAnswers: ['reminded', 'told'], explanation: 'Remind/tell + object + that clause', points: 1 },
+          { gapNumber: 12, correctAnswer: 'thanked him for', acceptableAnswers: ['thanked him for'], explanation: 'Thank + object + for + -ing', points: 1 },
+          { gapNumber: 13, correctAnswer: 'felt', acceptableAnswers: ['felt'], explanation: 'Simple past for direct experience', points: 1 },
+          { gapNumber: 14, correctAnswer: 'said that', acceptableAnswers: ['said', 'said that', 'mentioned that'], explanation: 'Reporting verb + that clause', points: 1 },
+          { gapNumber: 15, correctAnswer: 'both agreed/agreed together', acceptableAnswers: ['both agreed', 'agreed together', 'both promised'], explanation: 'Expressing mutual agreement', points: 1 }
+        ],
+        points: 15
+      },
+      {
+        id: 'b2-m2-l3-sentence-reordering',
+        type: 'sentence-reordering',
+        title: 'Sentence Reordering: Reporting a Negotiation',
+        instructions: 'Arrange these sentences to create a logical narrative reporting a business negotiation.',
+        sentences: [
+          { id: 's1', text: 'The supplier then suggested meeting halfway on the price.', position: 5 },
+          { id: 's2', text: 'First, our manager explained that we needed better terms.', position: 1 },
+          { id: 's3', text: 'Finally, both parties agreed to sign the revised contract.', position: 8 },
+          { id: 's4', text: 'He emphasized that our budget was limited this quarter.', position: 2 },
+          { id: 's5', text: 'We admitted that we understood their position.', position: 6 },
+          { id: 's6', text: 'The supplier initially claimed they couldn\'t reduce the price.', position: 3 },
+          { id: 's7', text: 'After further discussion, we proposed a longer-term commitment.', position: 7 },
+          { id: 's8', text: 'They warned that their costs had increased significantly.', position: 4 }
+        ],
+        correctOrder: ['s2', 's4', 's6', 's8', 's1', 's5', 's7', 's3'],
+        explanation: 'Logical negotiation sequence: state needs → explain constraints → supplier refuses → supplier explains → compromise suggested → acknowledge → counter-proposal → agreement',
+        points: 8
+      },
+      {
+        id: 'b2-m2-l3-listening-1',
+        type: 'listening',
+        audioUrl: '/audio/b2-m2-l3-listening-1.mp3',
+        duration: 140,
+        allowReplay: true,
+        maxReplays: 3,
+        transcript: `Reporter: I'm here with Dr. Elena Rodriguez, who has just published a groundbreaking study on sleep patterns. Dr. Rodriguez, could you tell us what your research revealed?
+
+Dr. Rodriguez: Certainly. Our study found that people who maintain regular sleep schedules are significantly healthier than those with irregular patterns. We recommended that adults should aim for seven to nine hours of sleep per night and go to bed at the same time each day.
+
+Reporter: What did participants say about implementing these changes?
+
+Dr. Rodriguez: Many admitted that they had been skeptical at first. However, after following the program for just two weeks, most reported feeling much more energetic. Several participants claimed that their productivity at work had improved dramatically. One person told us that she hadn't felt this good in years.
+
+Reporter: Did anyone experience difficulties?
+
+Dr. Rodriguez: Yes, some participants complained that it was hard to maintain the schedule on weekends. They explained that social commitments often interfered. However, we advised them to be as consistent as possible and suggested making gradual adjustments rather than drastic changes.
+
+Reporter: What do you say to people who insist they can function on less sleep?
+
+Dr. Rodriguez: The research clearly shows that this is a misconception. We found that people who claimed they only needed four or five hours actually performed worse on cognitive tests. I would urge everyone to prioritize sleep—your health depends on it.`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What did the research recommend?',
+            options: [
+              'Sleeping more on weekends',
+              'Seven to nine hours per night at the same time',
+              'Taking afternoon naps',
+              'Varying sleep patterns'
+            ],
+            correctAnswer: 'Seven to nine hours per night at the same time',
+            explanation: 'Dr. Rodriguez says: "We recommended that adults should aim for seven to nine hours...and go to bed at the same time".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'What reporting verb does Dr. Rodriguez use to describe participants\' initial attitude?',
+            correctAnswer: 'admitted',
+            explanation: '"Many admitted that they had been skeptical".',
+            points: 2
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: All participants found it easy to maintain the schedule.',
+            correctAnswer: 'False',
+            explanation: 'Dr. Rodriguez says "some participants complained that it was hard to maintain the schedule on weekends".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'What did Dr. Rodriguez advise participants who had difficulties?',
+            options: [
+              'Give up the program',
+              'Sleep more on weekdays',
+              'Make gradual adjustments',
+              'Ignore social commitments'
+            ],
+            correctAnswer: 'Make gradual adjustments',
+            explanation: 'She "suggested making gradual adjustments rather than drastic changes".',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What verb does Dr. Rodriguez use in her final message to listeners?',
+            correctAnswer: 'urge',
+            explanation: '"I would urge everyone to prioritize sleep".',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Reporting Verbs',
+        vocabularySet: [
+          { word: 'claim', definition: 'to say something is true, often without proof', example: 'He claimed that he had never met her before.' },
+          { word: 'insist', definition: 'to demand something forcefully', example: 'She insisted that we arrive on time.' },
+          { word: 'urge', definition: 'to strongly recommend or advise', example: 'Doctors urge people to eat healthily.' },
+          { word: 'boast', definition: 'to talk with excessive pride about something', example: 'He boasted that he was the best player.' },
+          { word: 'complain', definition: 'to express dissatisfaction', example: 'They complained that the service was poor.' },
+          { word: 'emphasize', definition: 'to stress the importance of something', example: 'She emphasized that punctuality was essential.' },
+          { word: 'acknowledge', definition: 'to accept or admit the truth', example: 'He acknowledged that he had been wrong.' },
+          { word: 'reassure', definition: 'to comfort someone and remove their doubts', example: 'She reassured me that everything would be fine.' }
+        ],
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'Which verb means "to talk with excessive pride"?',
+            options: ['claim', 'boast', 'urge', 'acknowledge'],
+            correctAnswer: 'boast',
+            explanation: 'Boast = presumir, alardear.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'fill-blank',
+            question: 'The teacher _____ the importance of regular practice.',
+            correctAnswer: 'emphasized',
+            explanation: 'Emphasize = enfatizar, recalcar.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-writing-1',
+        type: 'writing',
+        prompt: 'Write a narrative (200-220 words) reporting a conversation or meeting you had. Use at least 8 different reporting verbs (suggested, explained, admitted, warned, recommended, etc.). Focus on using correct reported speech structures and backshifting.',
+        writingType: 'article',
+        minWords: 200,
+        maxWords: 220,
+        timeLimit: 35,
+        rubric: {
+          content: 25,
+          organization: 25,
+          grammar: 25,
+          vocabulary: 25
+        },
+        tips: [
+          'Vary your reporting verbs—don\'t repeat "said"',
+          'Apply correct backshifting of tenses',
+          'Include both statements and questions',
+          'Use appropriate time expressions (the day before, the next day)',
+          'Structure: Context → Main content of conversation → Outcome',
+          'Check verb patterns: suggest + -ing, advise + to infinitive, etc.'
+        ]
+      },
+      {
+        id: 'b2-m2-l3-keytransform-1',
+        type: 'key-word-transformation',
+        title: 'Key Word Transformations: Reported Speech',
+        instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+        transformations: [
+          {
+            id: 'kt1',
+            sentence: '"I didn\'t break the window," Tom said.',
+            keyWord: 'denied',
+            startOfAnswer: 'Tom',
+            correctAnswer: 'denied breaking the window',
+            explanation: 'Deny + -ing form.',
+            points: 2
+          },
+          {
+            id: 'kt2',
+            sentence: '"You should see a doctor," she told me.',
+            keyWord: 'advised',
+            startOfAnswer: 'She',
+            correctAnswer: 'advised me to see',
+            explanation: 'Advise + object + to infinitive.',
+            points: 2
+          },
+          {
+            id: 'kt3',
+            sentence: '"Let\'s go to the beach," Sarah suggested.',
+            keyWord: 'going',
+            startOfAnswer: 'Sarah suggested',
+            correctAnswer: 'going to the beach',
+            explanation: 'Suggest + -ing.',
+            points: 2
+          },
+          {
+            id: 'kt4',
+            sentence: '"I\'m sorry I\'m late," he said.',
+            keyWord: 'apologized',
+            startOfAnswer: 'He',
+            correctAnswer: 'apologized for being late',
+            explanation: 'Apologize + for + -ing.',
+            points: 2
+          },
+          {
+            id: 'kt5',
+            sentence: '"Don\'t forget to lock the door," Mom said to me.',
+            keyWord: 'reminded',
+            startOfAnswer: 'Mom',
+            correctAnswer: 'reminded me to lock',
+            explanation: 'Remind + object + to infinitive.',
+            points: 2
+          },
+          {
+            id: 'kt6',
+            sentence: '"You stole my idea!" she said to him.',
+            keyWord: 'accused',
+            startOfAnswer: 'She',
+            correctAnswer: 'accused him of stealing',
+            explanation: 'Accuse + object + of + -ing.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-wordform-1',
+        type: 'word-formation',
+        title: 'Word Formation: Communication Vocabulary',
+        text: `Effective communication requires more than just speaking clearly. It involves (1. ACTIVE)_____ listening to understand others' perspectives. Good communicators show (2. PATIENT)_____ and avoid making (3. ASSUME)_____ about what others mean. They seek (4. CLEAR)_____ when something is (5. CERTAIN)_____. In professional settings, (6. FORMAL)_____ is important, but so is (7. SINCERE)_____. People appreciate (8. HONEST)_____ even when the message is difficult to hear.`,
+        questions: [
+          { id: 'q1', gapNumber: 1, baseWord: 'ACTIVE', correctAnswer: 'active', acceptableAnswers: ['active', 'actively'], explanation: '"Active listening" - engaged and attentive. Can also use adverb "actively".', wordType: 'adjective/adverb', transformation: 'no change or + -ly', points: 1 },
+          { id: 'q2', gapNumber: 2, baseWord: 'PATIENT', correctAnswer: 'patience', acceptableAnswers: ['patience'], explanation: '"Show patience" - the quality of being patient.', wordType: 'noun', transformation: 'adjective → noun (-ence)', points: 1 },
+          { id: 'q3', gapNumber: 3, baseWord: 'ASSUME', correctAnswer: 'assumptions', acceptableAnswers: ['assumptions'], explanation: '"Making assumptions" - things believed without proof.', wordType: 'noun (plural)', transformation: 'verb → noun (-tion) + plural', points: 1 },
+          { id: 'q4', gapNumber: 4, baseWord: 'CLEAR', correctAnswer: 'clarification', acceptableAnswers: ['clarification', 'clarity'], explanation: '"Seek clarification" - the act of making something clear.', wordType: 'noun', transformation: 'adjective → noun (-ification or -ity)', points: 1 },
+          { id: 'q5', gapNumber: 5, baseWord: 'CERTAIN', correctAnswer: 'uncertain', acceptableAnswers: ['uncertain'], explanation: '"Is uncertain" - not clear or definite.', wordType: 'adjective', transformation: 'adjective → negative adjective (un-)', points: 1 },
+          { id: 'q6', gapNumber: 6, baseWord: 'FORMAL', correctAnswer: 'formality', acceptableAnswers: ['formality'], explanation: '"Formality is important" - being formal.', wordType: 'noun', transformation: 'adjective → noun (-ity)', points: 1 },
+          { id: 'q7', gapNumber: 7, baseWord: 'SINCERE', correctAnswer: 'sincerity', acceptableAnswers: ['sincerity'], explanation: '"Sincerity" - the quality of being genuine and honest.', wordType: 'noun', transformation: 'adjective → noun (-ity)', points: 1 },
+          { id: 'q8', gapNumber: 8, baseWord: 'HONEST', correctAnswer: 'honesty', acceptableAnswers: ['honesty'], explanation: '"Honesty" - the quality of being truthful.', wordType: 'noun', transformation: 'adjective → noun (-y)', points: 1 }
+        ],
+        focusAreas: ['Noun formation', 'Negative prefixes', 'Communication vocabulary']
+      },
+      {
+        id: 'b2-m2-l3-pronunciation',
+        type: 'pronunciation',
+        title: 'Pronunciation: Reporting Verbs',
+        instructions: 'Practice pronouncing common reporting verbs with correct stress.',
+        words: [
+          {
+            word: 'suggest',
+            phonetic: '/səˈdʒest/',
+            audioUrl: '/audio/suggest.mp3',
+            stressPattern: 'Stress on second syllable: sug-GEST',
+            commonErrors: 'Don\'t stress first syllable',
+            example: 'She suggested /səˈdʒest/ going to the cinema.'
+          },
+          {
+            word: 'recommend',
+            phonetic: '/ˌrekəˈmend/',
+            audioUrl: '/audio/recommend.mp3',
+            stressPattern: 'Primary stress on third syllable: rec-om-MEND',
+            commonErrors: 'Note secondary stress on first syllable',
+            example: 'They recommended /ˌrekəˈmend/ the restaurant.'
+          },
+          {
+            word: 'emphasize',
+            phonetic: '/ˈemfəsaɪz/',
+            audioUrl: '/audio/emphasize.mp3',
+            stressPattern: 'Stress on first syllable: EM-pha-size',
+            commonErrors: 'Middle syllable is weak /fə/',
+            example: 'She emphasized /ˈemfəsaɪz/ the importance of teamwork.'
+          },
+          {
+            word: 'apologize',
+            phonetic: '/əˈpɒlədʒaɪz/',
+            audioUrl: '/audio/apologize.mp3',
+            stressPattern: 'Stress on second syllable: a-POL-o-gize',
+            commonErrors: 'Don\'t stress first or last syllable',
+            example: 'He apologized /əˈpɒlədʒaɪz/ for being late.'
+          },
+          {
+            word: 'acknowledge',
+            phonetic: '/əkˈnɒlɪdʒ/',
+            audioUrl: '/audio/acknowledge.mp3',
+            stressPattern: 'Stress on second syllable: ac-KNOWL-edge',
+            commonErrors: 'Silent "k" in "knowl"',
+            example: 'She acknowledged /əkˈnɒlɪdʒ/ the mistake.'
+          }
+        ],
+        exercises: [
+          {
+            id: 'pr1',
+            type: 'pronunciation-practice',
+            instruction: 'Practice these reported speech sentences with correct stress',
+            sentences: [
+              'He suggested meeting at six o\'clock.',
+              'They recommended visiting the museum.',
+              'She emphasized the need for caution.',
+              'I apologized for the inconvenience.',
+              'He acknowledged that he was wrong.'
+            ],
+            points: 5
+          }
+        ]
+      },
+      {
+        id: 'b2-m2-l3-integrated-1',
+        type: 'reading',
+        title: 'Integrated Skills: The Whistleblower',
+        text: `Sarah Chen had been working at TechCorp for five years when she discovered irregularities in the company's financial reports. After several sleepless nights, she decided to report what she had found. She knew the consequences could be severe, but she felt it was the right thing to do.
+
+First, Sarah approached her direct supervisor, Mark, and explained that she had noticed some concerning patterns in the quarterly reports. Mark told her not to worry about it and suggested that she was probably misinterpreting the data. He warned her not to discuss it with anyone else. However, Sarah couldn't ignore what she had seen. She insisted that someone needed to investigate the matter properly.
+
+Feeling unsupported, Sarah contacted the company's ethics hotline. The compliance officer, Janet, listened carefully and asked Sarah to provide detailed documentation. Sarah admitted that she was nervous about potential retaliation but emphasized that she believed the company was at risk. Janet reassured her that the company protected whistleblowers and promised that her identity would remain confidential.
+
+An internal investigation was launched. Several weeks later, the CEO held a company-wide meeting. He announced that irregularities had been found and thanked the person who had reported them, without naming Sarah. He explained that the board had accepted the CFO's resignation and claimed that new procedures would prevent similar issues in the future.
+
+Mark, Sarah's supervisor, never acknowledged his mistake. However, he told her privately that he had been afraid of making waves. He apologized for not supporting her and admitted that he had known something was wrong but had chosen to look the other way. Sarah accepted his apology but suggested that they both needed to learn from the experience.
+
+Looking back, Sarah said she would do the same thing again. She emphasized that integrity was more important than job security and encouraged others to speak up when they witnessed wrongdoing. Her story became an inspiration to many employees at TechCorp and beyond.`,
+        wordCount: 340,
+        readingTime: 4,
+        questions: [
+          {
+            id: 'q1',
+            type: 'multiple-choice',
+            question: 'What did Mark suggest when Sarah first approached him?',
+            options: [
+              'She should investigate further',
+              'She was probably wrong',
+              'She should contact HR',
+              'She should tell everyone'
+            ],
+            correctAnswer: 'She was probably wrong',
+            explanation: 'Mark "suggested that she was probably misinterpreting the data".',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'short-answer',
+            question: 'Find and write 3 different reporting verbs used in paragraph 3.',
+            correctAnswer: 'listened, asked, admitted, emphasized, reassured, promised (any 3)',
+            explanation: 'Multiple reporting verbs are used to describe the conversation with Janet.',
+            points: 3
+          },
+          {
+            id: 'q3',
+            type: 'true-false',
+            question: 'True or False: The CEO revealed Sarah\'s name during the company meeting.',
+            correctAnswer: 'False',
+            explanation: 'The text says he "thanked the person...without naming Sarah".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'short-answer',
+            question: 'What did Mark admit to Sarah privately?',
+            correctAnswer: 'That he had known something was wrong but had chosen to look the other way / He was afraid of making waves',
+            explanation: 'Mark admitted both pieces of information.',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: 'What did Sarah emphasize when reflecting on her experience?',
+            options: [
+              'Money is most important',
+              'Integrity matters more than job security',
+              'Never trust supervisors',
+              'Always follow orders'
+            ],
+            correctAnswer: 'Integrity matters more than job security',
+            explanation: 'Sarah "emphasized that integrity was more important than job security".',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'essay',
+            question: 'Writing Task: Write a paragraph (100-120 words) reporting a difficult conversation or ethical dilemma you faced or witnessed. Use at least 5 different reporting verbs and correct backshifting.',
+            correctAnswer: '',
+            explanation: 'Evaluate based on: correct use of reporting verbs, appropriate backshifting, varied verb patterns, and coherent narrative.',
+            points: 10
+          }
+        ],
+        vocabularyHelp: [
+          { word: 'irregularities', definition: 'things that are not normal or correct' },
+          { word: 'retaliation', definition: 'revenge or punishment in response to an action' },
+          { word: 'whistleblower', definition: 'a person who reports wrongdoing in an organization' },
+          { word: 'making waves', definition: 'causing trouble or disruption' },
+          { word: 'integrity', definition: 'honesty and moral principles' }
+        ]
       }
     ]
   },
