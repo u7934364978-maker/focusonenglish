@@ -5079,6 +5079,44 @@ For readers, developing the ability to recognize and interpret metaphors enriche
             points: 2
           }
         ]
+      },
+      {
+        id: 'b2-m1-l5-idioms-expressions-1',
+        type: 'idioms-expressions',
+        title: 'Critical Analysis Idioms',
+        instructions: 'Choose the correct idiom to complete each sentence about critical analysis and evaluation.',
+        items: [
+          {
+            id: 'ie1',
+            context: 'The journalist decided to ___ when investigating the politician\'s claims.',
+            idiom: 'read between the lines',
+            meaning: 'to find hidden or implied meaning',
+            correctUsage: 'read between the lines',
+            options: ['read between the lines', 'read the riot act', 'read my mind', 'read like a book'],
+            explanation: 'Read between the lines = to look for hidden meanings or implications in what someone says or writes.',
+            points: 1
+          },
+          {
+            id: 'ie2',
+            context: 'Don\'t ___ by its cover - the book may seem simple but has profound insights.',
+            idiom: 'judge a book',
+            meaning: 'don\'t form opinions based only on appearance',
+            correctUsage: 'judge a book',
+            options: ['judge a book', 'throw the book', 'close the book', 'hit the books'],
+            explanation: 'Judge a book by its cover = to form an opinion based only on outward appearance.',
+            points: 1
+          },
+          {
+            id: 'ie3',
+            context: 'His argument doesn\'t ___ when you examine the evidence carefully.',
+            idiom: 'hold water',
+            meaning: 'to be valid or credible under scrutiny',
+            correctUsage: 'hold water',
+            options: ['hold water', 'hold fire', 'hold court', 'hold the fort'],
+            explanation: 'Hold water = to be logical, valid, or able to withstand examination.',
+            points: 1
+          }
+        ]
       }
     ]
   },
@@ -5863,6 +5901,87 @@ The skills you've been {{7}} will serve you in academic, professional, and socia
           { id: 'q7', gapNumber: 7, options: ['developing', 'developed', 'develop', 'to develop'], correctAnswer: 'developing', explanation: 'Present perfect continuous: "have been developing".', points: 1 },
           { id: 'q8', gapNumber: 8, options: ['important', 'matters', 'significant', 'essential'], correctAnswer: 'matters', explanation: '"What matters" is the correct what-cleft construction.', points: 1 }
         ]
+      },
+      {
+        id: 'b2-m1-l6-sentence-reordering-1',
+        type: 'sentence-reordering',
+        title: 'Sentence Reordering: Module Summary',
+        instructions: 'Put the sentences in the correct order to create a logical paragraph about Module 1 learning objectives.',
+        items: [
+          {
+            id: 'sr1',
+            shuffledSentences: [
+              'This foundation is essential for success in the B2 First examination.',
+              'Module 1 has focused on developing advanced narrative and analytical skills.',
+              'By mastering these structures, students can communicate with greater precision and sophistication.',
+              'We have covered Past Perfect, conditionals, cleft sentences, and passive voice.'
+            ],
+            correctOrder: [1, 3, 2, 0],
+            explanation: 'The logical order: introduction of topic → specific content → results → conclusion about importance.',
+            points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l6-phrasal-verbs-1',
+        type: 'phrasal-verbs',
+        title: 'Module 1 Review: Phrasal Verbs',
+        instructions: 'Complete each sentence with the correct phrasal verb from Module 1 vocabulary.',
+        items: [
+          {
+            id: 'pv1',
+            sentence: 'Students who ___ with creative solutions often score higher on writing tasks.',
+            phrasalVerb: 'come up',
+            meaning: 'to think of or produce an idea',
+            correctAnswer: 'come up',
+            options: ['come up', 'come across', 'come down', 'come through'],
+            explanation: 'Come up with = to think of or suggest an idea or solution.',
+            points: 1
+          },
+          {
+            id: 'pv2',
+            sentence: 'Make sure to ___ over your essay before submitting it to catch any errors.',
+            phrasalVerb: 'go over',
+            meaning: 'to review or check carefully',
+            correctAnswer: 'go over',
+            options: ['go over', 'go through', 'go on', 'go off'],
+            explanation: 'Go over = to review or examine something carefully.',
+            points: 1
+          },
+          {
+            id: 'pv3',
+            sentence: 'The teacher ___ the importance of practicing all four language skills regularly.',
+            phrasalVerb: 'pointed out',
+            meaning: 'to emphasize or draw attention to',
+            correctAnswer: 'pointed out',
+            options: ['pointed out', 'pointed at', 'pointed to', 'pointed up'],
+            explanation: 'Point out = to emphasize or draw attention to something important.',
+            points: 1
+          }
+        ]
+      },
+      {
+        id: 'b2-m1-l6-summary-writing-1',
+        type: 'summary-writing',
+        title: 'Module 1 Summary Writing Task',
+        instructions: 'Write a summary of Module 1\'s key grammatical structures and their uses. Include Past Perfect, conditionals, cleft sentences, and passive voice.',
+        sourceText: `Module 1 has covered four major grammatical areas essential for B2-level English proficiency. First, we examined Past Perfect and Past Perfect Continuous, which allow us to express complex time relationships in narratives, showing which actions occurred before others in the past. Second, we explored mixed conditionals and inversion, structures that enable sophisticated expression of hypothetical situations and emphasis. Third, we studied cleft sentences (it...that, what...is), which help writers focus attention on specific parts of a sentence for rhetorical effect. Finally, we mastered passive constructions, including various tenses and structures with modals, essential for academic and formal writing where the action is more important than the agent. Throughout the module, we practiced integrating these structures into coherent, natural discourse rather than using them in isolation. The goal was not merely to recognize these forms but to deploy them strategically to enhance clarity, precision, and sophistication in both written and spoken English. By combining these advanced structures with appropriate vocabulary and discourse markers, students can communicate at the B2 level required for university study, professional contexts, and the Cambridge B2 First examination.`,
+        targetWordCount: 100,
+        minWords: 80,
+        maxWords: 120,
+        keyPoints: [
+          'Past Perfect for time relationships in narratives',
+          'Mixed conditionals for hypothetical situations',
+          'Cleft sentences for emphasis and focus',
+          'Passive voice for formal/academic writing',
+          'Integration of structures in natural discourse'
+        ],
+        rubric: {
+          content: 40,
+          conciseness: 20,
+          accuracy: 30,
+          grammar: 10
+        }
       }
     ]
   }
@@ -9666,123 +9785,6 @@ Sarah: Practice! Watch experienced debaters and note how they structure argument
         ]
       },
       {
-        id: 'b2-m2-l4-word-formation',
-        type: 'word-formation',
-        title: 'Word Formation: Abstract Nouns for Discussion',
-        instructions: 'Complete each sentence with the correct form of the word in capitals.',
-        words: [
-          {
-            id: 'wf1',
-            sentence: 'The ___ between the two theories is significant.',
-            baseWord: 'DIFFERENT',
-            correctAnswer: 'difference',
-            explanation: 'difference (noun)',
-            points: 1
-          },
-          {
-            id: 'wf2',
-            sentence: 'There is growing ___ about climate change among young people.',
-            baseWord: 'AWARE',
-            correctAnswer: 'awareness',
-            explanation: 'awareness (noun)',
-            points: 1
-          },
-          {
-            id: 'wf3',
-            sentence: 'The ___ of the argument was immediately clear.',
-            baseWord: 'STRONG',
-            correctAnswer: 'strength',
-            explanation: 'strength (noun)',
-            points: 1
-          },
-          {
-            id: 'wf4',
-            sentence: 'His ___ was that the policy would fail.',
-            baseWord: 'CONCLUDE',
-            correctAnswer: 'conclusion',
-            explanation: 'conclusion (noun)',
-            points: 1
-          },
-          {
-            id: 'wf5',
-            sentence: 'The ___ of both parties is required to reach an agreement.',
-            baseWord: 'COOPERATE',
-            correctAnswer: 'cooperation',
-            explanation: 'cooperation (noun)',
-            points: 1
-          },
-          {
-            id: 'wf6',
-            sentence: 'There was considerable ___ among the committee members.',
-            baseWord: 'AGREE',
-            correctAnswer: 'agreement/disagreement',
-            explanation: 'agreement or disagreement (both nouns are grammatically correct)',
-            points: 1
-          },
-          {
-            id: 'wf7',
-            sentence: 'The ___ of the evidence cannot be disputed.',
-            baseWord: 'RELEVANT',
-            correctAnswer: 'relevance',
-            explanation: 'relevance (noun)',
-            points: 1
-          },
-          {
-            id: 'wf8',
-            sentence: 'Effective ___ is essential in any debate.',
-            baseWord: 'COMMUNICATE',
-            correctAnswer: 'communication',
-            explanation: 'communication (noun)',
-            points: 1
-          }
-        ]
-      },
-      {
-        id: 'b2-m2-l4-pronunciation',
-        type: 'pronunciation',
-        title: 'Pronunciation: Stress in Discourse Markers',
-        instructions: 'Practice the pronunciation and stress patterns of these discourse markers. Listen and repeat.',
-        words: [
-          {
-            word: 'nevertheless',
-            phonetic: '/ˌnevəðəˈles/',
-            audioUrl: '/audio/pronunciation/nevertheless.mp3',
-            stressPattern: 'Primary stress on the final syllable: neverthe-LESS'
-          },
-          {
-            word: 'consequently',
-            phonetic: '/ˈkɒnsɪkwəntli/',
-            audioUrl: '/audio/pronunciation/consequently.mp3',
-            stressPattern: 'Primary stress on first syllable: CON-se-quent-ly'
-          },
-          {
-            word: 'furthermore',
-            phonetic: '/ˌfɜːðəˈmɔː(r)/',
-            audioUrl: '/audio/pronunciation/furthermore.mp3',
-            stressPattern: 'Primary stress on final syllable: further-MORE'
-          },
-          {
-            word: 'however',
-            phonetic: '/haʊˈevə(r)/',
-            audioUrl: '/audio/pronunciation/however.mp3',
-            stressPattern: 'Primary stress on second syllable: how-EV-er'
-          },
-          {
-            word: 'additionally',
-            phonetic: '/əˈdɪʃənəli/',
-            audioUrl: '/audio/pronunciation/additionally.mp3',
-            stressPattern: 'Primary stress on second syllable: ad-DI-tion-al-ly'
-          },
-          {
-            word: 'whereas',
-            phonetic: '/weərˈæz/',
-            audioUrl: '/audio/pronunciation/whereas.mp3',
-            stressPattern: 'Primary stress on second syllable: where-AS'
-          }
-        ],
-        points: 6
-      },
-      {
         id: 'b2-m2-l4-integrated-1',
         type: 'reading',
         title: 'Integrated Skills: The Rise and Fall of Empires',
@@ -10670,26 +10672,6 @@ Moderator: Interesting points from both sides. Thank you.`,
         ]
       },
       {
-        id: 'b2-m2-l5-speaking-2',
-        type: 'speaking',
-        prompt: 'Practice a formal debate. Choose a motion: "This house believes that space exploration is a waste of money" OR "This house believes that all citizens should complete mandatory community service."\n\nPrepare BOTH sides of the argument (For and Against). Present each side for 2 minutes, using:\n- Formal argumentation structures\n- Linking words\n- Conditional sentences\n- Argumentation verbs\n- Hedging language\n- Evidence and examples',
-        timeLimit: 240,
-        evaluationCriteria: {
-          pronunciation: true,
-          fluency: true,
-          grammar: true,
-          vocabulary: true
-        },
-        hints: [
-          'For side: "It is argued that..., There is evidence..., Proponents maintain..."',
-          'Against side: "Critics contend that..., However..., If we consider..."',
-          'Use hedging: arguably, potentially, seemingly',
-          'Link ideas: furthermore, nevertheless, consequently',
-          'Give examples: "For instance..., Studies show..."',
-          'Conclude each side: "Therefore..., In conclusion..."'
-        ]
-      },
-      {
         id: 'b2-m2-l5-key-word-transformation',
         type: 'key-word-transformation',
         title: 'Key Word Transformation: Formal Argument Structures',
@@ -10744,123 +10726,6 @@ Moderator: Interesting points from both sides. Thank you.`,
             points: 2
           }
         ]
-      },
-      {
-        id: 'b2-m2-l5-word-formation',
-        type: 'word-formation',
-        title: 'Word Formation: Academic Argumentation',
-        instructions: 'Complete each sentence with the correct form of the word in capitals.',
-        words: [
-          {
-            id: 'wf1',
-            sentence: 'The ___ of the argument was immediately clear.',
-            baseWord: 'STRONG',
-            correctAnswer: 'strength',
-            explanation: 'strength (noun)',
-            points: 1
-          },
-          {
-            id: 'wf2',
-            sentence: 'There is considerable ___ about the effectiveness of this approach.',
-            baseWord: 'DISAGREE',
-            correctAnswer: 'disagreement',
-            explanation: 'disagreement (noun)',
-            points: 1
-          },
-          {
-            id: 'wf3',
-            sentence: 'The ___ of both sides is required to reach a solution.',
-            baseWord: 'COOPERATE',
-            correctAnswer: 'cooperation',
-            explanation: 'cooperation (noun)',
-            points: 1
-          },
-          {
-            id: 'wf4',
-            sentence: 'Critics question the ___ of implementing such a policy.',
-            baseWord: 'FEASIBLE',
-            correctAnswer: 'feasibility',
-            explanation: 'feasibility (noun)',
-            points: 1
-          },
-          {
-            id: 'wf5',
-            sentence: 'The ___ benefits of this approach are well documented.',
-            baseWord: 'ENVIRONMENT',
-            correctAnswer: 'environmental',
-            explanation: 'environmental (adjective)',
-            points: 1
-          },
-          {
-            id: 'wf6',
-            sentence: 'There is growing ___ that action must be taken.',
-            baseWord: 'RECOGNIZE',
-            correctAnswer: 'recognition',
-            explanation: 'recognition (noun)',
-            points: 1
-          },
-          {
-            id: 'wf7',
-            sentence: 'The policy has proven ___ effective in reducing poverty.',
-            baseWord: 'REMARKABLE',
-            correctAnswer: 'remarkably',
-            explanation: 'remarkably (adverb)',
-            points: 1
-          },
-          {
-            id: 'wf8',
-            sentence: 'Economic ___ must be weighed against social benefits.',
-            baseWord: 'CONSIDER',
-            correctAnswer: 'considerations',
-            explanation: 'considerations (noun plural)',
-            points: 1
-          }
-        ]
-      },
-      {
-        id: 'b2-m2-l5-pronunciation',
-        type: 'pronunciation',
-        title: 'Pronunciation: Argumentation Verbs',
-        instructions: 'Practice the pronunciation and stress patterns of these argumentation verbs.',
-        words: [
-          {
-            word: 'contend',
-            phonetic: '/kənˈtend/',
-            audioUrl: '/audio/pronunciation/contend.mp3',
-            stressPattern: 'Stress on second syllable: con-TEND'
-          },
-          {
-            word: 'maintain',
-            phonetic: '/meɪnˈteɪn/',
-            audioUrl: '/audio/pronunciation/maintain.mp3',
-            stressPattern: 'Stress on second syllable: main-TAIN'
-          },
-          {
-            word: 'advocate',
-            phonetic: '/ˈædvəkeɪt/',
-            audioUrl: '/audio/pronunciation/advocate.mp3',
-            stressPattern: 'Stress on first syllable: AD-vo-cate (verb)'
-          },
-          {
-            word: 'demonstrate',
-            phonetic: '/ˈdemənstreɪt/',
-            audioUrl: '/audio/pronunciation/demonstrate.mp3',
-            stressPattern: 'Stress on first syllable: DEM-on-strate'
-          },
-          {
-            word: 'acknowledge',
-            phonetic: '/əkˈnɒlɪdʒ/',
-            audioUrl: '/audio/pronunciation/acknowledge.mp3',
-            stressPattern: 'Stress on second syllable: ac-KNOWL-edge'
-          },
-          {
-            word: 'refute',
-            phonetic: '/rɪˈfjuːt/',
-            audioUrl: '/audio/pronunciation/refute.mp3',
-            stressPattern: 'Stress on second syllable: re-FUTE'
-          }
-        ],
-        points: 6
       },
       {
         id: 'b2-m2-l5-integrated-1',
@@ -11855,27 +11720,6 @@ Despite these challenges, the evidence overwhelmingly supports the importance of
           'Conclusion: "In conclusion...", "Therefore..."',
           'Speak clearly and at moderate pace',
           'Use formal academic register throughout'
-        ]
-      },
-      {
-        id: 'b2-m2-l6-reflection',
-        type: 'writing',
-        prompt: 'EXAM REFLECTION: Write a brief reflection (100-120 words) on what you have learned in Module 2. Consider:\n- Which grammar structures were most challenging?\n- How will you use these skills in real life?\n- What areas need more practice?\n\nUse some of the vocabulary and structures from Module 2.',
-        writingType: 'essay',
-        minWords: 100,
-        maxWords: 120,
-        timeLimit: 15,
-        rubric: {
-          content: 40,
-          grammar: 30,
-          vocabulary: 30
-        },
-        tips: [
-          'Be honest about challenges',
-          'Give specific examples',
-          'Use Module 2 linking words',
-          'Mention specific grammar points (modals, passive, reported speech, etc.)',
-          'Think about real-world applications'
         ]
       }
     ]
@@ -17438,6 +17282,54 @@ Take your time with each question. This is your opportunity to demonstrate every
             correctAnswer: 'is',
             explanation: 'Cleft sentence: "what" clause toma verbo singular',
             points: 2
+          }
+        ]
+      },
+      {
+        id: 'b2-m3-l6-collocation-matching-1',
+        type: 'collocation-matching',
+        title: 'Final Review: Professional Collocations',
+        instructions: 'Match each verb with the correct noun to form professional collocations from Module 3.',
+        pairs: [
+          {
+            id: 'cm1',
+            word: 'conduct',
+            correctMatch: 'research',
+            distractors: ['a study', 'an investigation', 'an experiment'],
+            example: 'The university conducted extensive research on climate change.',
+            points: 1
+          },
+          {
+            id: 'cm2',
+            word: 'submit',
+            correctMatch: 'a proposal',
+            distractors: ['a plan', 'a suggestion', 'an idea'],
+            example: 'Please submit your proposal by Friday.',
+            points: 1
+          },
+          {
+            id: 'cm3',
+            word: 'meet',
+            correctMatch: 'a deadline',
+            distractors: ['a target', 'a goal', 'a time'],
+            example: 'We need to work overtime to meet the deadline.',
+            points: 1
+          },
+          {
+            id: 'cm4',
+            word: 'deliver',
+            correctMatch: 'a presentation',
+            distractors: ['a speech', 'a talk', 'a lecture'],
+            example: 'She will deliver the presentation at 3pm.',
+            points: 1
+          },
+          {
+            id: 'cm5',
+            word: 'implement',
+            correctMatch: 'a strategy',
+            distractors: ['a plan', 'a policy', 'a system'],
+            example: 'The company implemented a new marketing strategy.',
+            points: 1
           }
         ]
       }
