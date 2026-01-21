@@ -8,8 +8,14 @@ pages_build_output_dir = ".next"
 # Compatibility flags for Node.js features
 compatibility_flags = ["nodejs_compat"]
 
-# Build configuration for Cloudflare Pages
-build_command = "npm run build"
+# IMPORTANT: Build settings MUST be configured in Cloudflare Dashboard
+# DO NOT add [build] section here - it's not supported in Pages
+#
+# In Cloudflare Dashboard > Pages > Build settings:
+#   Framework preset: Next.js
+#   Build command: npm run build
+#   Build output directory: .next
+#   Root directory: /
 #
 # Environment Variables (Set in Dashboard > Settings > Environment variables):
 #   NODE_VERSION=20.9.0
