@@ -2581,7 +2581,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               {cmExercise.pairs.map((pair: any, idx: number) => {
                 const userAnswer = answers[pair.id] || '';
                 const isCorrect = aiEvaluations[pair.id]?.isCorrect;
-                const allOptions = [pair.correctMatch, ...pair.distractors].sort(() => Math.random() - 0.5);
+                const allOptions = [pair.correctMatch, ...(pair.distractors || [])].sort(() => Math.random() - 0.5);
                 
                 return (
                   <div key={pair.id} className="bg-white rounded-xl p-6 border-2 border-slate-200">
