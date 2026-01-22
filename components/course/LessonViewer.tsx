@@ -12,6 +12,7 @@ import SpeakingPart2 from '@/components/course/SpeakingPart2';
 import SpeakingPart3 from '@/components/course/SpeakingPart3';
 import SpeakingPart4 from '@/components/course/SpeakingPart4';
 import EnhancedSpeakingExercise from '@/components/EnhancedSpeakingExercise';
+import GappedTextExercise from '@/components/exercises/GappedTextExercise';
 import { GamificationWidget } from '@/components/gamification/GamificationPanel';
 import { XPGainAnimation } from '@/components/gamification/XPDisplay';
 import { BadgeNotification } from '@/components/gamification/BadgeDisplay';
@@ -1985,6 +1986,13 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             )}
           </div>
         );
+
+      case 'gapped-text':
+        return <GappedTextExercise exercise={currentExercise as any} onComplete={(score) => {
+          setCurrentScore(score);
+          setShowFeedback(true);
+          setShowCelebration(true);
+        }} />;
 
       case 'multiple-choice-cloze':
         return (
