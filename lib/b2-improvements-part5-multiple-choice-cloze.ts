@@ -472,15 +472,465 @@ However, proponents [GAP 5] out that human creativity also builds on existing id
         lexicalFocus: 'discourse marker: regardless of vs despite'
       }
     ]
+  },
+
+  {
+    id: 'b2-mcc-7',
+    type: 'multiple-choice-cloze',
+    title: 'The Economics of Climate Change',
+    instruction: 'For questions 1-8, read the text below and decide which answer (A, B, C or D) best fits each gap.',
+    difficulty: 'hard',
+    topic: 'Economics & Environment',
+    wordCount: 300,
+    text: `Climate change poses one of the most significant economic challenges of our time. The costs of inaction [GAP 1] far exceed the investments required for mitigation and adaptation. Yet governments and businesses have been slow to [GAP 2] comprehensive action.
+
+Part of the problem [GAP 3] from the disconnect between short-term political cycles and the long-term nature of climate impacts. Politicians face pressure to deliver immediate results, making it difficult to [GAP 4] policies whose benefits won't be fully realized for decades.
+
+The financial sector is beginning to [GAP 5] this risk seriously. Major banks and investment firms are increasingly [GAP 6] climate factors into their decision-making, recognizing that environmental damage will have profound economic consequences. Some are already [GAP 7] assets from fossil fuel companies, though critics argue this is too little, too late.
+
+Carbon pricing mechanisms, such as emissions trading schemes, have [GAP 8] varying degrees of success. While they create economic incentives for reducing emissions, their effectiveness depends heavily on design and implementation. The challenge is finding policies that drive change without causing economic disruption that undermines political support.`,
+    gaps: [
+      {
+        gapNumber: 1,
+        options: ['may', 'could', 'might', 'would'],
+        correctAnswer: 'may',
+        explanation: '"May well" is used to express strong probability/likelihood. It\'s more definite than "might" or "could", and more natural than "would" in this context.',
+        lexicalFocus: 'modal verb: may well (strong probability)'
+      },
+      {
+        gapNumber: 2,
+        options: ['undertake', 'undergo', 'take', 'make'],
+        correctAnswer: 'undertake',
+        explanation: '"Undertake action" means to commit to and begin a significant task. "Take action" works but is less formal. "Undergo" means to experience. "Make" doesn\'t fit.',
+        lexicalFocus: 'formal verb: undertake vs take'
+      },
+      {
+        gapNumber: 3,
+        options: ['stems', 'derives', 'comes', 'arises'],
+        correctAnswer: 'stems',
+        explanation: '"Stem from" means to originate/have as a source. "Derive from" is similar but less common in this context. "Come from" and "arise from" are less precise.',
+        lexicalFocus: 'phrasal verb: stem from (originate)'
+      },
+      {
+        gapNumber: 4,
+        options: ['justify', 'defend', 'support', 'back'],
+        correctAnswer: 'justify',
+        explanation: '"Justify policies" means to provide good reasons for them. "Defend" implies responding to criticism. "Support" and "back" mean to favor but don\'t capture the reasoning aspect.',
+        lexicalFocus: 'precise verb: justify vs defend'
+      },
+      {
+        gapNumber: 5,
+        options: ['take', 'treat', 'regard', 'consider'],
+        correctAnswer: 'take',
+        explanation: '"Take something seriously" is a fixed collocation meaning to consider it important. The other options don\'t form this phrase.',
+        lexicalFocus: 'fixed phrase: take seriously'
+      },
+      {
+        gapNumber: 6,
+        options: ['factoring', 'including', 'incorporating', 'integrating'],
+        correctAnswer: 'factoring',
+        explanation: '"Factor into" (or "factor in") means to include as a relevant element in calculations/decisions. "Incorporate into" works but "factor" is more specific for decision-making.',
+        lexicalFocus: 'phrasal verb: factor into/in'
+      },
+      {
+        gapNumber: 7,
+        options: ['divesting', 'withdrawing', 'removing', 'pulling'],
+        correctAnswer: 'divesting',
+        explanation: '"Divest assets from" is the financial term for selling off investments. "Withdraw" and "pull out" are less formal. "Remove" doesn\'t fit the grammar.',
+        lexicalFocus: 'financial vocabulary: divest'
+      },
+      {
+        gapNumber: 8,
+        options: ['met', 'achieved', 'reached', 'attained'],
+        correctAnswer: 'met',
+        explanation: '"Met with success/failure" is a formal expression for experiencing a result. "Achieve" needs direct object. "Reach" and "attain" don\'t fit this construction.',
+        lexicalFocus: 'formal expression: meet with (experience)'
+      }
+    ]
+  },
+
+  {
+    id: 'b2-mcc-8',
+    type: 'multiple-choice-cloze',
+    title: 'The Changing Nature of Friendship',
+    instruction: 'For questions 1-8, read the text below and decide which answer (A, B, C or D) best fits each gap.',
+    difficulty: 'medium',
+    topic: 'Society & Relationships',
+    wordCount: 290,
+    text: `Social media has fundamentally [GAP 1] the landscape of friendship. While these platforms enable us to stay in [GAP 2] with far more people than ever before, critics question whether these connections are truly meaningful.
+
+Research [GAP 3] light on this paradox. Studies show that while people have more online "friends," they report feeling lonelier than previous generations. The issue isn't the technology itself but how we [GAP 4] use of it. Passive scrolling through others' content provides little genuine connection.
+
+What [GAP 5] for strong friendships hasn't changed: regular interaction, mutual support, and shared experiences. However, maintaining these qualities [GAP 6] conscious effort in an era of digital distraction. Many people find themselves [GAP 7] too thin, trying to maintain superficial relationships with hundreds of people rather than nurturing deeper bonds with a smaller circle.
+
+The key may be using technology to enhance rather than replace face-to-face interaction. Video calls, shared photo albums, and group chats can [GAP 8] the gap when physical distance separates friends, but they work best as supplements to, not substitutes for, real-world connection.`,
+    gaps: [
+      {
+        gapNumber: 1,
+        options: ['altered', 'changed', 'modified', 'transformed'],
+        correctAnswer: 'transformed',
+        explanation: '"Transform" implies complete, fundamental change. "Alter" and "change" are less dramatic. "Modified" is too technical. "Transform the landscape" is a powerful collocation.',
+        lexicalFocus: 'precise verb: transform vs change'
+      },
+      {
+        gapNumber: 2,
+        options: ['touch', 'contact', 'connection', 'communication'],
+        correctAnswer: 'touch',
+        explanation: '"Stay in touch" is a fixed idiom for maintaining contact. "Keep in contact" works but is less common. "Connection" and "communication" don\'t form this phrase.',
+        lexicalFocus: 'idiom: stay in touch'
+      },
+      {
+        gapNumber: 3,
+        options: ['sheds', 'throws', 'casts', 'brings'],
+        correctAnswer: 'sheds',
+        explanation: '"Shed light on" is an idiom meaning to clarify/provide understanding. "Throw light on" is less common. "Cast" and "bring" don\'t form this phrase.',
+        lexicalFocus: 'idiom: shed light on'
+      },
+      {
+        gapNumber: 4,
+        options: ['make', 'do', 'have', 'take'],
+        correctAnswer: 'make',
+        explanation: '"Make use of" is a fixed collocation meaning to utilize. We don\'t say "do use of" or "have use of" in this context.',
+        lexicalFocus: 'fixed phrase: make use of'
+      },
+      {
+        gapNumber: 5,
+        options: ['makes', 'counts', 'matters', 'means'],
+        correctAnswer: 'makes',
+        explanation: '"What makes for" means what contributes to/creates something. This is a fixed expression. The other options don\'t fit this construction.',
+        lexicalFocus: 'expression: what makes for (contributes to)'
+      },
+      {
+        gapNumber: 6,
+        options: ['requires', 'demands', 'needs', 'calls'],
+        correctAnswer: 'requires',
+        explanation: '"Require effort" is the most natural collocation. "Demand" works but is stronger. "Need" is less formal. "Call for" would need "for" after "calls".',
+        lexicalFocus: 'collocation: require + effort/attention'
+      },
+      {
+        gapNumber: 7,
+        options: ['spread', 'stretched', 'extended', 'expanded'],
+        correctAnswer: 'stretched',
+        explanation: '"Stretched too thin" is an idiom meaning overextended/trying to do too much. This is a fixed expression. The other options don\'t form this phrase.',
+        lexicalFocus: 'idiom: stretched too thin'
+      },
+      {
+        gapNumber: 8,
+        options: ['bridge', 'cross', 'span', 'link'],
+        correctAnswer: 'bridge',
+        explanation: '"Bridge the gap" is an idiom meaning to reduce/overcome differences or distance. "Span" works but is less idiomatic. "Cross" and "link" don\'t fit.',
+        lexicalFocus: 'idiom: bridge the gap'
+      }
+    ]
+  },
+
+  {
+    id: 'b2-mcc-9',
+    type: 'multiple-choice-cloze',
+    title: 'The Art of Negotiation',
+    instruction: 'For questions 1-8, read the text below and decide which answer (A, B, C or D) best fits each gap.',
+    difficulty: 'hard',
+    topic: 'Business & Communication',
+    wordCount: 295,
+    text: `Effective negotiation is a crucial skill in both professional and personal contexts. Contrary to popular belief, good negotiators don't [GAP 1] over opponents through aggressive tactics. Instead, they focus on creating mutually beneficial outcomes that [GAP 2] all parties' interests.
+
+Preparation is [GAP 3] to successful negotiation. Before entering discussions, skilled negotiators thoroughly research the other party's position, identify their own priorities, and [GAP 4] potential areas of compromise. This groundwork enables them to respond flexibly as negotiations unfold.
+
+During negotiations, effective communicators [GAP 5] careful attention to both verbal and non-verbal signals. They ask open-ended questions to understand underlying interests rather than just stated positions. This [GAP 6] often reveals creative solutions that might otherwise [GAP 7] unnoticed.
+
+The best negotiators know when to [GAP 8] their ground and when to show flexibility. Being too rigid risks deadlock, while conceding too quickly can leave value on the table. The art lies in finding the balance that advances your interests while maintaining a productive relationship with the other party.`,
+    gaps: [
+      {
+        gapNumber: 1,
+        options: ['win', 'prevail', 'triumph', 'succeed'],
+        correctAnswer: 'prevail',
+        explanation: '"Prevail over" means to prove superior/gain victory over. "Win over" means to convince. "Triumph" needs "over" in different contexts. "Succeed" doesn\'t take "over".',
+        lexicalFocus: 'phrasal verb: prevail over vs win over'
+      },
+      {
+        gapNumber: 2,
+        options: ['serve', 'meet', 'satisfy', 'address'],
+        correctAnswer: 'serve',
+        explanation: '"Serve interests" is the formal collocation for advancing/benefiting interests. "Meet" works with "needs". "Satisfy" and "address" don\'t collocate as naturally with "interests".',
+        lexicalFocus: 'collocation: serve + interests/needs'
+      },
+      {
+        gapNumber: 3,
+        options: ['key', 'essential', 'vital', 'fundamental'],
+        correctAnswer: 'key',
+        explanation: '"Key to" means crucially important for. While all options mean important, "key to" is the most natural collocation in this structure.',
+        lexicalFocus: 'collocation: key to (crucial for)'
+      },
+      {
+        gapNumber: 4,
+        options: ['anticipate', 'predict', 'foresee', 'expect'],
+        correctAnswer: 'anticipate',
+        explanation: '"Anticipate" means to expect and prepare for. "Predict" is about forecasting. "Foresee" suggests seeing in advance. "Expect" is less formal. "Anticipate" best captures proactive preparation.',
+        lexicalFocus: 'precise verb: anticipate vs predict'
+      },
+      {
+        gapNumber: 5,
+        options: ['pay', 'give', 'take', 'show'],
+        correctAnswer: 'pay',
+        explanation: '"Pay attention to" is a fixed collocation. We don\'t say "give attention to" in this structure (though "give attention" alone works). "Take" and "show" don\'t fit.',
+        lexicalFocus: 'fixed phrase: pay attention to'
+      },
+      {
+        gapNumber: 6,
+        options: ['approach', 'method', 'technique', 'strategy'],
+        correctAnswer: 'approach',
+        explanation: '"Approach" is the most general term for a way of doing something. "Method" and "technique" are more specific/technical. "Strategy" is broader. Context needs "approach".',
+        lexicalFocus: 'precise noun: approach vs method'
+      },
+      {
+        gapNumber: 7,
+        options: ['go', 'pass', 'remain', 'stay'],
+        correctAnswer: 'go',
+        explanation: '"Go unnoticed" is a fixed collocation meaning to not be observed. "Pass unnoticed" also works but is less common. "Remain" and "stay" don\'t fit this construction.',
+        lexicalFocus: 'collocation: go unnoticed/undetected'
+      },
+      {
+        gapNumber: 8,
+        options: ['hold', 'stand', 'keep', 'maintain'],
+        correctAnswer: 'hold',
+        explanation: '"Hold your ground" is an idiom meaning to maintain your position despite opposition. "Stand your ground" also works but "hold" is more common in this exact phrase.',
+        lexicalFocus: 'idiom: hold/stand your ground'
+      }
+    ]
+  },
+
+  {
+    id: 'b2-mcc-10',
+    type: 'multiple-choice-cloze',
+    title: 'The Impact of Urbanization on Wildlife',
+    instruction: 'For questions 1-8, read the text below and decide which answer (A, B, C or D) best fits each gap.',
+    difficulty: 'medium',
+    topic: 'Environment & Biology',
+    wordCount: 295,
+    text: `As cities expand, wildlife faces mounting [GAP 1] to survive. Habitat loss, pollution, and human disturbance [GAP 2] significant challenges to urban wildlife populations. However, some species have demonstrated remarkable [GAP 3] in adapting to city life.
+
+Urban environments [GAP 4] unique opportunities alongside threats. Cities provide abundant food sources, from garbage bins to parks and gardens. Buildings offer shelter and nesting sites. Species that successfully [GAP 5] advantage of these resources can thrive, sometimes achieving higher population densities than in natural habitats.
+
+The relationship between humans and urban wildlife is complex. While many people [GAP 6] the presence of birds, squirrels, and other charismatic species, conflicts arise when wildlife causes property damage or poses health risks. Rats, pigeons, and gulls often [GAP 7] the line between tolerated neighbor and pest.
+
+Conservation biologists are increasingly [GAP 8] attention to urban ecology. Understanding how wildlife adapts to cities can inform strategies for creating more wildlife-friendly urban environments. Features like green roofs, wildlife corridors, and preserved green spaces can help cities accommodate both human residents and biodiversity.`,
+    gaps: [
+      {
+        gapNumber: 1,
+        options: ['pressure', 'stress', 'strain', 'burden'],
+        correctAnswer: 'pressure',
+        explanation: '"Mounting pressure" is a collocation meaning increasing force/urgency to do something. "Stress" and "strain" are close but "pressure" is most natural with "mounting".',
+        lexicalFocus: 'collocation: mounting pressure/tension'
+      },
+      {
+        gapNumber: 2,
+        options: ['pose', 'present', 'create', 'cause'],
+        correctAnswer: 'pose',
+        explanation: '"Pose challenges" is a fixed collocation. "Present challenges" works but is less common. "Create" and "cause" don\'t collocate naturally with "challenges".',
+        lexicalFocus: 'collocation: pose + challenges/threats'
+      },
+      {
+        gapNumber: 3,
+        options: ['adaptability', 'flexibility', 'adjustment', 'resilience'],
+        correctAnswer: 'adaptability',
+        explanation: '"Adaptability" specifically refers to the ability to adjust to new conditions. "Flexibility" is about being open to change. "Adjustment" is an action. "Resilience" is about recovering from difficulties.',
+        lexicalFocus: 'precise noun: adaptability vs flexibility'
+      },
+      {
+        gapNumber: 4,
+        options: ['present', 'offer', 'provide', 'give'],
+        correctAnswer: 'present',
+        explanation: '"Present opportunities" is a formal collocation meaning to make available. "Offer" and "provide" work but "present" is more formal/sophisticated. "Give" is too casual.',
+        lexicalFocus: 'formal verb: present vs offer'
+      },
+      {
+        gapNumber: 5,
+        options: ['take', 'make', 'have', 'get'],
+        correctAnswer: 'take',
+        explanation: '"Take advantage of" is a fixed phrase meaning to benefit from/exploit an opportunity. The other options don\'t form this collocation.',
+        lexicalFocus: 'fixed phrase: take advantage of'
+      },
+      {
+        gapNumber: 6,
+        options: ['appreciate', 'value', 'welcome', 'enjoy'],
+        correctAnswer: 'appreciate',
+        explanation: '"Appreciate" means to recognize the value/importance of something. "Value" and "welcome" work but "appreciate" best captures positive recognition. "Enjoy" is more casual.',
+        lexicalFocus: 'precise verb: appreciate vs value'
+      },
+      {
+        gapNumber: 7,
+        options: ['cross', 'blur', 'tread', 'walk'],
+        correctAnswer: 'blur',
+        explanation: '"Blur the line" is an idiom meaning to make the distinction unclear. "Tread the line" means to carefully avoid crossing boundaries. "Cross" and "walk" don\'t fit idiomatically.',
+        lexicalFocus: 'idiom: blur the line/boundary'
+      },
+      {
+        gapNumber: 8,
+        options: ['paying', 'giving', 'directing', 'focusing'],
+        correctAnswer: 'paying',
+        explanation: '"Pay attention to" is the standard collocation. While "direct attention to" works, "pay attention" is more natural. "Give" and "focus" don\'t fit this structure.',
+        lexicalFocus: 'collocation: pay attention to'
+      }
+    ]
+  },
+
+  {
+    id: 'b2-mcc-11',
+    type: 'multiple-choice-cloze',
+    title: 'The Philosophy of Education',
+    instruction: 'For questions 1-8, read the text below and decide which answer (A, B, C or D) best fits each gap.',
+    difficulty: 'hard',
+    topic: 'Education & Society',
+    wordCount: 300,
+    text: `What is the purpose of education? This fundamental question continues to [GAP 1] debate among educators, policymakers, and philosophers. Different cultures and historical periods have [GAP 2] varying answers, reflecting broader social values and priorities.
+
+Traditional approaches emphasized knowledge transmission and academic excellence. Students were expected to [GAP 3] established facts and theories, with success measured through standardized testing. This model has come under increasing [GAP 4] for promoting rote memorization over critical thinking.
+
+Progressive educators [GAP 5] that education should develop the whole person—fostering creativity, emotional intelligence, and social skills alongside academic knowledge. They stress learning through experience and discovery rather than passive reception. Critics, however, [GAP 6] this approach of lacking rigor and failing to ensure students master essential content.
+
+The debate has practical implications for policy. Should schools [GAP 7] primarily on preparing students for employment, or should they cultivate informed, engaged citizens? Can they achieve both goals simultaneously? As automation transforms the job market, these questions [GAP 8] new urgency. Skills that seemed essential decades ago may become obsolete, while abilities like adaptability and lifelong learning grow increasingly vital.`,
+    gaps: [
+      {
+        gapNumber: 1,
+        options: ['provoke', 'trigger', 'spark', 'stimulate'],
+        correctAnswer: 'spark',
+        explanation: '"Spark debate" is a natural collocation meaning to initiate discussion. "Provoke" is stronger/more negative. "Trigger" and "stimulate" work but "spark" is most idiomatic.',
+        lexicalFocus: 'collocation: spark + debate/interest'
+      },
+      {
+        gapNumber: 2,
+        options: ['yielded', 'produced', 'generated', 'provided'],
+        correctAnswer: 'yielded',
+        explanation: '"Yield answers" is a formal expression meaning to produce/provide answers. "Produce" works but is less sophisticated. "Generate" and "provide" are less natural in this context.',
+        lexicalFocus: 'formal verb: yield (produce)'
+      },
+      {
+        gapNumber: 3,
+        options: ['absorb', 'acquire', 'learn', 'gain'],
+        correctAnswer: 'absorb',
+        explanation: '"Absorb" suggests taking in information passively, fitting the criticism being made. "Acquire" and "learn" are active. "Gain" is less natural with "facts".',
+        lexicalFocus: 'precise verb: absorb vs acquire'
+      },
+      {
+        gapNumber: 4,
+        options: ['fire', 'attack', 'criticism', 'scrutiny'],
+        correctAnswer: 'fire',
+        explanation: '"Come under fire" is an idiom meaning to be criticized. "Come under attack" works but is more literal. "Criticism" and "scrutiny" don\'t form this collocation.',
+        lexicalFocus: 'idiom: come under fire (be criticized)'
+      },
+      {
+        gapNumber: 5,
+        options: ['argue', 'claim', 'maintain', 'contend'],
+        correctAnswer: 'contend',
+        explanation: '"Contend that" is a formal way to state a position in an argument. "Argue" and "maintain" work but "contend" is more academic. "Claim" suggests unproven assertions.',
+        lexicalFocus: 'formal verb: contend vs argue'
+      },
+      {
+        gapNumber: 6,
+        options: ['accuse', 'charge', 'blame', 'criticize'],
+        correctAnswer: 'accuse',
+        explanation: '"Accuse something of" means to claim it has a fault. "Charge with" works but needs different grammar. "Blame for" needs "for". "Criticize" doesn\'t take "of".',
+        lexicalFocus: 'verb pattern: accuse of vs charge with'
+      },
+      {
+        gapNumber: 7,
+        options: ['focus', 'concentrate', 'center', 'emphasize'],
+        correctAnswer: 'focus',
+        explanation: '"Focus on" is the most natural phrasal verb for directing attention/effort. "Concentrate on" works but is less common. "Center on" means "be mainly about". "Emphasize" is different.',
+        lexicalFocus: 'phrasal verb: focus on vs concentrate on'
+      },
+      {
+        gapNumber: 8,
+        options: ['assume', 'acquire', 'gain', 'take'],
+        correctAnswer: 'assume',
+        explanation: '"Assume urgency" means to take on/acquire urgent character. This is a formal expression. "Acquire" and "gain" work but are less sophisticated. "Take" doesn\'t fit.',
+        lexicalFocus: 'formal verb: assume (take on quality)'
+      }
+    ]
+  },
+
+  {
+    id: 'b2-mcc-12',
+    type: 'multiple-choice-cloze',
+    title: 'The Evolution of Language',
+    instruction: 'For questions 1-8, read the text below and decide which answer (A, B, C or D) best fits each gap.',
+    difficulty: 'medium',
+    topic: 'Linguistics & Culture',
+    wordCount: 290,
+    text: `Language is constantly evolving, [GAP 1] to reflect changes in society, technology, and culture. New words emerge while others fall into [GAP 2], and meanings shift over time. This dynamic nature often [GAP 3] concerns among people who view linguistic change as corruption rather than natural evolution.
+
+The internet has dramatically [GAP 4] the pace of language change. Abbreviations like "LOL" and "FOMO" have [GAP 5] from casual online chat into mainstream English. Emojis have created an entirely new dimension of communication, conveying emotion and nuance that text alone sometimes struggles to capture.
+
+Linguists [GAP 6] out that every generation believes language is declining, yet English has survived centuries of change while remaining functional and expressive. Language [GAP 7] doesn't follow prescriptive rules set by authorities but rather emerges organically from how people actually communicate.
+
+The key question isn't whether language change is good or bad—it's inevitable either way. Instead, we should [GAP 8] the balance between preserving clarity and embracing innovation. Language must remain comprehensible across generations while adapting to express new concepts and experiences that arise in an ever-changing world.`,
+    gaps: [
+      {
+        gapNumber: 1,
+        options: ['adapting', 'adjusting', 'altering', 'modifying'],
+        correctAnswer: 'adapting',
+        explanation: '"Adapt to reflect" means to change in response to new circumstances. "Adjust" is close but "adapt" is stronger. "Alter" and "modify" are less natural in this context.',
+        lexicalFocus: 'verb: adapt vs adjust'
+      },
+      {
+        gapNumber: 2,
+        options: ['disuse', 'obsolescence', 'redundancy', 'abandonment'],
+        correctAnswer: 'disuse',
+        explanation: '"Fall into disuse" is a fixed phrase meaning to stop being used. "Obsolescence" is the process. "Redundancy" means unnecessary. "Abandonment" is too strong.',
+        lexicalFocus: 'fixed phrase: fall into disuse'
+      },
+      {
+        gapNumber: 3,
+        options: ['raises', 'arouses', 'provokes', 'stirs'],
+        correctAnswer: 'raises',
+        explanation: '"Raise concerns" is the standard collocation. "Arouse" works but is less common. "Provoke" is stronger. "Stir" doesn\'t collocate naturally with "concerns".',
+        lexicalFocus: 'collocation: raise + concerns/questions'
+      },
+      {
+        gapNumber: 4,
+        options: ['accelerated', 'quickened', 'hastened', 'sped'],
+        correctAnswer: 'accelerated',
+        explanation: '"Accelerate" means to increase speed/rate, perfect for describing pace. "Quicken" is less formal. "Hasten" means to cause something to happen sooner. "Speed" needs "up".',
+        lexicalFocus: 'precise verb: accelerate vs speed up'
+      },
+      {
+        gapNumber: 5,
+        options: ['transferred', 'moved', 'migrated', 'shifted'],
+        correctAnswer: 'migrated',
+        explanation: '"Migrate from...into" is used for gradual movement between contexts/systems. "Transfer" is more direct. "Move" is too general. "Shift" doesn\'t fit "from...into" structure.',
+        lexicalFocus: 'verb: migrate from...into'
+      },
+      {
+        gapNumber: 6,
+        options: ['point', 'make', 'bring', 'set'],
+        correctAnswer: 'point',
+        explanation: '"Point out" is a phrasal verb meaning to draw attention to a fact. "Make out" means to perceive/understand. "Bring out" means reveal. "Set out" means to explain.',
+        lexicalFocus: 'phrasal verb: point out vs make out'
+      },
+      {
+        gapNumber: 7,
+        options: ['evolution', 'development', 'progress', 'growth'],
+        correctAnswer: 'evolution',
+        explanation: '"Evolution" specifically refers to gradual natural development over time. "Development" is similar but less specific. "Progress" implies improvement. "Growth" suggests expansion.',
+        lexicalFocus: 'precise noun: evolution vs development'
+      },
+      {
+        gapNumber: 8,
+        options: ['strike', 'achieve', 'reach', 'find'],
+        correctAnswer: 'strike',
+        explanation: '"Strike a balance" is an idiom meaning to find an appropriate middle point between extremes. This is a fixed collocation. The other verbs don\'t form this phrase.',
+        lexicalFocus: 'idiom: strike a balance'
+      }
+    ]
   }
 ];
 
 // Summary
 export const MULTIPLE_CHOICE_CLOZE_SUMMARY = {
-  total: 6,
-  implemented: 6,
+  total: 12,
+  implemented: 12,
   gapsPerExercise: 8,
-  totalGaps: 48,
+  totalGaps: 96,
   lexicalFocusAreas: [
     'Fixed collocations',
     'Phrasal verbs',
@@ -488,6 +938,8 @@ export const MULTIPLE_CHOICE_CLOZE_SUMMARY = {
     'Subtle lexical distinctions',
     'Verb patterns',
     'Precise vocabulary choice',
-    'Discourse markers'
+    'Discourse markers',
+    'Formal vs informal register',
+    'Advanced academic vocabulary'
   ]
 };
