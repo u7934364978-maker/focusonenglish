@@ -5,9 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && rm -rf .next/cache",
-    "build:next": "next build && rm -rf .next/cache",
-    "pages:build": "npx @cloudflare/next-on-pages",
+    "build": "next build",
+    "build:vercel": "vercel build",
     "preview": "npm run pages:build && wrangler pages dev",
     "deploy": "npm run pages:build && wrangler pages deploy",
     "cf:dev": "wrangler pages dev .vercel/output/static --compatibility-flag=nodejs_compat",
