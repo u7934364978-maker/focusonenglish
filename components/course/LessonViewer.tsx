@@ -431,6 +431,327 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       setShowCelebration(true);
       setEvaluating(false);
       
+    } else if (currentExercise.type === 'error-identification' ||
+               currentExercise.type === 'collocation-matching' ||
+               currentExercise.type === 'phrasal-verbs' ||
+               currentExercise.type === 'idioms-expressions' ||
+               currentExercise.type === 'key-word-transformations' ||
+               currentExercise.type === 'sentence-completion' ||
+               currentExercise.type === 'matching') {
+      
+      const exercise = currentExercise as any;
+      const items = exercise.sentences || exercise.pairs || exercise.items || exercise.transformations || [];
+      let totalPoints = 0;
+      let earnedPoints = 0;
+      const evaluations: { [id: string]: EvaluationResult } = {};
+
+      for (const item of items) {
+        const itemId = item.id || item.idiom;
+        totalPoints += item.points || 1;
+        const userAnswer = answers[itemId] || '';
+        
+        if (!userAnswer || userAnswer.trim() === '') {
+          evaluations[itemId] = {
+            isCorrect: false,
+            score: 0,
+            feedback: 'No answer provided',
+            detailedExplanation: item.explanation || ''
+          } as any;
+          continue;
+        }
+
+        let correctAnswer = item.correctAnswer || item.correctMatch || item.correctUsage || item.meaning || '';
+        
+        if (currentExercise.type === 'error-identification') {
+          const isCorrect = item.hasError ? userAnswer === 'error' : userAnswer === 'correct';
+          if (isCorrect) earnedPoints += item.points || 1;
+          evaluations[itemId] = {
+            isCorrect,
+            score: isCorrect ? 100 : 0,
+            feedback: isCorrect ? '✓ Correct!' : '✗ Incorrect',
+            detailedExplanation: item.explanation || ''
+          } as any;
+        } else {
+          const userAnswerNorm = userAnswer.toLowerCase().trim();
+          const correctAnswerNorm = correctAnswer.toLowerCase().trim();
+          const isCorrect = userAnswerNorm === correctAnswerNorm ||
+            (item.alternatives && item.alternatives.some((alt: string) => 
+              userAnswerNorm === alt.toLowerCase().trim()
+            ));
+          
+          if (isCorrect) earnedPoints += item.points || 1;
+          
+          evaluations[itemId] = {
+            isCorrect,
+            score: isCorrect ? 100 : 0,
+            feedback: isCorrect ? '✓ Correct!' : '✗ Incorrect',
+            detailedExplanation: item.explanation || (isCorrect ? 'Correct!' : `Correct answer: ${correctAnswer}`)
+          } as any;
+        }
+      }
+
+      const score = totalPoints > 0 ? (earnedPoints / totalPoints) * 100 : 0;
+      setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
+      setAiEvaluations(evaluations);
+      setCurrentScore(score);
+      setShowFeedback(true);
+      setShowCelebration(true);
+      setEvaluating(false);
+
+    } else if (currentExercise.type === 'paraphrasing' || currentExercise.type === 'paraphrase') {
+      const exercise = currentExercise as any;
+      const items = exercise.items || exercise.sentences || [];
+      let totalPoints = 0;
+      let earnedPoints = 0;
+      const evaluations: { [id: string]: EvaluationResult } = {};
+
+      for (const item of items) {
+        const itemId = item.id || `paraph-${items.indexOf(item)}`;
+        totalPoints += item.points || 2;
+        const userAnswer = answers[itemId] || '';
+        
+        if (!userAnswer || userAnswer.trim() === '') {
+          evaluations[itemId] = {
+            isCorrect: false,
+            score: 0,
+            feedback: 'No answer provided',
+            detailedExplanation: ''
+          } as any;
+          continue;
+        }
+
+        try {
+          const response = await fetch('/api/evaluate-text-answer', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              question: `Paraphrase: ${item.originalSentence || item.original}`,
+              userAnswer: userAnswer,
+              correctAnswer: [item.correctParaphrase || item.paraphrase],
+              expectedConcepts: ['paraphrasing'],
+              level: 'B2',
+              questionType: 'paraphrase'
+            })
+          });
+
+          if (response.ok) {
+            const evaluation: TextAnswerEvaluationResponse = await response.json();
+            evaluations[itemId] = evaluation;
+            if (evaluation.isCorrect || evaluation.score >= 70) {
+              earnedPoints += (item.points || 2) * (evaluation.score / 100);
+            }
+          } else {
+            evaluations[itemId] = {
+              isCorrect: false,
+              score: 50,
+              feedback: 'Partial credit',
+              detailedExplanation: item.explanation || ''
+            } as any;
+            earnedPoints += (item.points || 2) * 0.5;
+          }
+        } catch (error) {
+          console.error('Error evaluating paraphrase:', error);
+          evaluations[itemId] = {
+            isCorrect: false,
+            score: 50,
+            feedback: 'Partial credit',
+            detailedExplanation: item.explanation || ''
+          } as any;
+          earnedPoints += (item.points || 2) * 0.5;
+        }
+      }
+
+      const score = totalPoints > 0 ? (earnedPoints / totalPoints) * 100 : 0;
+      setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
+      setAiEvaluations(evaluations);
+      setCurrentScore(score);
+      setShowFeedback(true);
+      setShowCelebration(true);
+      setEvaluating(false);
+
+    } else if (currentExercise.type === 'sentence-reordering' || currentExercise.type === 'sentence-ordering') {
+      const exercise = currentExercise as any;
+      const items = exercise.items || [{ sentences: exercise.sentences, correctOrder: exercise.correctOrder, id: 'single' }];
+      let totalPoints = 0;
+      let earnedPoints = 0;
+
+      for (const item of items) {
+        const sentences = item.shuffledSentences || item.sentences || [];
+        const correctOrder = item.correctOrder || Array.from({length: sentences.length}, (_, i) => i);
+        totalPoints += sentences.length;
+        
+        for (let idx = 0; idx < sentences.length; idx++) {
+          const numberId = `${item.id || 'reorder-0'}-${idx}`;
+          const userOrder = parseInt(answers[numberId] || '0');
+          if (userOrder === correctOrder[idx] + 1) {
+            earnedPoints += 1;
+          }
+        }
+      }
+
+      const score = totalPoints > 0 ? (earnedPoints / totalPoints) * 100 : 0;
+      setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
+      setCurrentScore(score);
+      setShowFeedback(true);
+      setShowCelebration(true);
+      setEvaluating(false);
+
+    } else if (currentExercise.type === 'gap-fill' || 
+               currentExercise.type === 'extended-gap-fill' || 
+               currentExercise.type === 'open-cloze') {
+      const exercise = currentExercise as any;
+      const gaps = exercise.gaps || [];
+      let totalPoints = 0;
+      let earnedPoints = 0;
+      const evaluations: { [id: string]: EvaluationResult } = {};
+
+      for (const gap of gaps) {
+        const gapId = gap.id || `gap-${gaps.indexOf(gap) + 1}`;
+        totalPoints += 1;
+        const userAnswer = answers[gapId] || '';
+        
+        if (!userAnswer || userAnswer.trim() === '') {
+          evaluations[gapId] = {
+            isCorrect: false,
+            score: 0,
+            feedback: 'No answer provided',
+            detailedExplanation: gap.explanation || ''
+          } as any;
+          continue;
+        }
+
+        const correctAnswers = gap.correctAnswers || [gap.correctAnswer];
+        const userAnswerNorm = userAnswer.toLowerCase().trim();
+        const isCorrect = correctAnswers.some((ans: string) => 
+          userAnswerNorm === ans.toLowerCase().trim()
+        );
+        
+        if (isCorrect) earnedPoints += 1;
+        
+        evaluations[gapId] = {
+          isCorrect,
+          score: isCorrect ? 100 : 0,
+          feedback: isCorrect ? '✓ Correct!' : '✗ Incorrect',
+          detailedExplanation: gap.explanation || ''
+        } as any;
+      }
+
+      const score = totalPoints > 0 ? (earnedPoints / totalPoints) * 100 : 0;
+      setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
+      setAiEvaluations(evaluations);
+      setCurrentScore(score);
+      setShowFeedback(true);
+      setShowCelebration(true);
+      setEvaluating(false);
+
+    } else if (currentExercise.type === 'summary-writing') {
+      const exercise = currentExercise as any;
+      const userSummary = answers[exercise.id] || '';
+
+      if (!userSummary || userSummary.trim() === '') {
+        setEvaluating(false);
+        return;
+      }
+
+      try {
+        const response = await fetch('/api/evaluate-writing', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            writingText: userSummary,
+            taskType: 'summary',
+            sourceText: exercise.originalText || exercise.sourceText,
+            level: 'B2',
+            rubric: exercise.rubric || {
+              content: 40,
+              conciseness: 20,
+              accuracy: 20,
+              grammar: 20
+            }
+          })
+        });
+
+        if (response.ok) {
+          const evaluation: WritingEvaluationResponse = await response.json();
+          setAiEvaluations({ [exercise.id]: evaluation });
+          setExerciseScores(prev => ({ ...prev, [exercise.id]: evaluation.score }));
+          setCurrentScore(evaluation.score);
+        }
+      } catch (error) {
+        console.error('Error evaluating summary:', error);
+      }
+
+      setShowFeedback(true);
+      setShowCelebration(true);
+      setEvaluating(false);
+
+    } else if (currentExercise.type === 'integrated-reading-writing') {
+      const exercise = currentExercise as any;
+      const questions = exercise.questions || [];
+      let totalPoints = 0;
+      let earnedPoints = 0;
+      const evaluations: { [id: string]: EvaluationResult } = {};
+
+      for (const q of questions) {
+        totalPoints += q.points || 1;
+        const userAnswer = answers[q.id] || '';
+        
+        if (!userAnswer) {
+          evaluations[q.id] = {
+            isCorrect: false,
+            score: 0,
+            feedback: 'No answer provided',
+            detailedExplanation: ''
+          } as any;
+          continue;
+        }
+
+        if (q.type === 'multiple-choice' && q.options) {
+          const isCorrect = userAnswer === q.correctAnswer;
+          if (isCorrect) earnedPoints += q.points || 1;
+          evaluations[q.id] = {
+            isCorrect,
+            score: isCorrect ? 100 : 0,
+            feedback: isCorrect ? '✓ Correct!' : '✗ Incorrect',
+            detailedExplanation: q.explanation || ''
+          } as any;
+        } else {
+          try {
+            const response = await fetch('/api/evaluate-text-answer', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                question: q.question,
+                userAnswer: userAnswer,
+                correctAnswer: [q.correctAnswer],
+                expectedConcepts: ['reading comprehension'],
+                context: exercise.readingText,
+                level: 'B2',
+                questionType: 'short-answer'
+              })
+            });
+
+            if (response.ok) {
+              const evaluation: TextAnswerEvaluationResponse = await response.json();
+              evaluations[q.id] = evaluation;
+              if (evaluation.isCorrect || evaluation.score >= 70) {
+                earnedPoints += (q.points || 1) * (evaluation.score / 100);
+              }
+            }
+          } catch (error) {
+            console.error('Error evaluating answer:', error);
+          }
+        }
+      }
+
+      const score = totalPoints > 0 ? (earnedPoints / totalPoints) * 100 : 0;
+      setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
+      setAiEvaluations(evaluations);
+      setCurrentScore(score);
+      setShowFeedback(true);
+      setShowCelebration(true);
+      setEvaluating(false);
+
     } else {
       setEvaluating(false);
     }
@@ -1960,6 +2281,1181 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 ) : (
                   'Check Answers'
                 )}
+              </button>
+            )}
+          </div>
+        );
+
+      case 'error-identification':
+        const eiExercise = currentExercise as any;
+        return (
+          <div className="space-y-6">
+            <div className="bg-red-50 rounded-xl p-6 border-2 border-red-200">
+              <h3 className="text-xl font-bold text-red-900 mb-2 flex items-center gap-2">
+                <span>🔍</span>
+                <span>{eiExercise.title}</span>
+              </h3>
+              {eiExercise.instructions && (
+                <p className="text-slate-700 mt-2">💡 {eiExercise.instructions}</p>
+              )}
+            </div>
+
+            <div className="space-y-4">
+              {eiExercise.sentences.map((item: any, idx: number) => {
+                const userAnswer = answers[item.id] || '';
+                const evaluation = aiEvaluations[item.id];
+                
+                return (
+                  <div key={item.id} className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                    <div className="flex items-start gap-3 mb-4">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-red-600 text-white font-bold text-sm flex-shrink-0">
+                        {idx + 1}
+                      </span>
+                      <p className="text-lg text-slate-800 flex-1">{item.sentence}</p>
+                    </div>
+
+                    <div className="ml-11 space-y-3">
+                      <div className="flex gap-4">
+                        <label className="flex items-center gap-2 cursor-pointer">
+                          <input
+                            type="radio"
+                            name={item.id}
+                            value="correct"
+                            checked={userAnswer === 'correct'}
+                            onChange={() => handleAnswer(item.id, 'correct')}
+                            disabled={showFeedback}
+                            className="w-4 h-4 text-red-600"
+                          />
+                          <span>✓ Correct</span>
+                        </label>
+                        <label className="flex items-center gap-2 cursor-pointer">
+                          <input
+                            type="radio"
+                            name={item.id}
+                            value="error"
+                            checked={userAnswer === 'error'}
+                            onChange={() => handleAnswer(item.id, 'error')}
+                            disabled={showFeedback}
+                            className="w-4 h-4 text-red-600"
+                          />
+                          <span>✗ Has Error</span>
+                        </label>
+                      </div>
+
+                      {userAnswer === 'error' && (
+                        <input
+                          type="text"
+                          placeholder="What's the error? (optional)"
+                          value={answers[`${item.id}-detail`] || ''}
+                          onChange={(e) => handleAnswer(`${item.id}-detail`, e.target.value)}
+                          disabled={showFeedback}
+                          className="w-full px-4 py-2 border-2 border-slate-300 rounded-lg focus:border-red-500 focus:outline-none"
+                        />
+                      )}
+
+                      {showFeedback && (
+                        <div className={`mt-3 p-4 rounded-lg border-2 ${
+                          evaluation?.isCorrect ? 'bg-green-50 border-green-300' : 'bg-red-50 border-red-300'
+                        }`}>
+                          <div className="flex items-start gap-2">
+                            <span className="text-2xl">{evaluation?.isCorrect ? '✅' : '❌'}</span>
+                            <div className="flex-1 space-y-2">
+                              {item.hasError ? (
+                                <>
+                                  <p className="font-semibold text-red-700">Error: {item.errorWord}</p>
+                                  {item.correction && (
+                                    <p className="text-sm">
+                                      <span className="font-semibold">Correction:</span> {item.correction}
+                                    </p>
+                                  )}
+                                  {item.explanation && (
+                                    <p className="text-sm text-slate-700">💡 {item.explanation}</p>
+                                  )}
+                                </>
+                              ) : (
+                                <p className="font-semibold text-green-700">This sentence is correct!</p>
+                              )}
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating || Object.keys(answers).length === 0}
+                className="w-full py-4 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-xl hover:from-red-700 hover:to-red-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {evaluating ? 'Evaluating...' : 'Check Answers'}
+              </button>
+            )}
+          </div>
+        );
+
+      case 'collocation-matching':
+        const cmExercise = currentExercise as any;
+        return (
+          <div className="space-y-6">
+            <div className="bg-indigo-50 rounded-xl p-6 border-2 border-indigo-200">
+              <h3 className="text-xl font-bold text-indigo-900 mb-2 flex items-center gap-2">
+                <span>🔗</span>
+                <span>{cmExercise.title}</span>
+              </h3>
+              {cmExercise.instructions && (
+                <p className="text-slate-700 mt-2">💡 {cmExercise.instructions}</p>
+              )}
+            </div>
+
+            <div className="space-y-4">
+              {cmExercise.pairs.map((pair: any, idx: number) => {
+                const userAnswer = answers[pair.id] || '';
+                const isCorrect = aiEvaluations[pair.id]?.isCorrect;
+                const allOptions = [pair.correctMatch, ...pair.distractors].sort(() => Math.random() - 0.5);
+                
+                return (
+                  <div key={pair.id} className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                    <div className="flex items-start gap-3 mb-4">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-indigo-600 text-white font-bold text-sm flex-shrink-0">
+                        {idx + 1}
+                      </span>
+                      <div className="flex-1">
+                        <p className="text-lg font-semibold text-indigo-900 mb-3">{pair.word}</p>
+                        
+                        <div className="space-y-2">
+                          {allOptions.map((option: string, optIdx: number) => {
+                            const isSelected = userAnswer === option;
+                            const isCorrectOption = option === pair.correctMatch;
+                            const showAsCorrect = showFeedback && isCorrectOption;
+                            const showAsIncorrect = showFeedback && isSelected && !isCorrectOption;
+                            
+                            return (
+                              <button
+                                key={optIdx}
+                                onClick={() => !showFeedback && handleAnswer(pair.id, option)}
+                                disabled={showFeedback}
+                                className={`w-full text-left p-3 rounded-lg border-2 transition-all ${
+                                  isSelected && !showFeedback
+                                    ? 'border-indigo-500 bg-indigo-50'
+                                    : 'border-slate-200 hover:border-indigo-300 bg-white'
+                                } ${
+                                  showAsCorrect ? 'border-green-500 bg-green-50' : ''
+                                } ${
+                                  showAsIncorrect ? 'border-red-500 bg-red-50' : ''
+                                } disabled:cursor-not-allowed`}
+                              >
+                                <div className="flex items-center gap-3">
+                                  <span className={`font-bold ${
+                                    showAsCorrect ? 'text-green-600' : showAsIncorrect ? 'text-red-600' : 'text-slate-500'
+                                  }`}>
+                                    {showAsCorrect && '✓'}
+                                    {showAsIncorrect && '✗'}
+                                    {!showFeedback && `${String.fromCharCode(65 + optIdx)}.`}
+                                  </span>
+                                  <span>{option}</span>
+                                </div>
+                              </button>
+                            );
+                          })}
+                        </div>
+
+                        {showFeedback && (
+                          <div className={`mt-4 p-3 rounded-lg ${
+                            isCorrect ? 'bg-green-50' : 'bg-amber-50'
+                          }`}>
+                            {!isCorrect && (
+                              <p className="text-sm mb-2">
+                                <span className="font-semibold">Correct:</span> {pair.word} + {pair.correctMatch}
+                              </p>
+                            )}
+                            {pair.example && (
+                              <p className="text-sm text-slate-700">
+                                <span className="font-semibold">Example:</span> {pair.example}
+                              </p>
+                            )}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating}
+                className="w-full py-4 bg-gradient-to-r from-indigo-600 to-indigo-700 text-white rounded-xl hover:from-indigo-700 hover:to-indigo-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50"
+              >
+                {evaluating ? 'Evaluating...' : 'Check Answers'}
+              </button>
+            )}
+          </div>
+        );
+
+      case 'paraphrasing':
+      case 'paraphrase':
+        const paraphExercise = currentExercise as any;
+        return (
+          <div className="space-y-6">
+            <div className="bg-teal-50 rounded-xl p-6 border-2 border-teal-200">
+              <h3 className="text-xl font-bold text-teal-900 mb-2 flex items-center gap-2">
+                <span>🔄</span>
+                <span>{paraphExercise.title}</span>
+              </h3>
+              {paraphExercise.instructions && (
+                <p className="text-slate-700 mt-2">💡 {paraphExercise.instructions}</p>
+              )}
+            </div>
+
+            <div className="space-y-4">
+              {(paraphExercise.items || paraphExercise.sentences || []).map((item: any, idx: number) => {
+                const originalSentence = item.originalSentence || item.original;
+                const correctParaphrase = item.correctParaphrase || item.paraphrase;
+                const userAnswer = answers[item.id || `paraph-${idx}`] || '';
+                const evaluation = aiEvaluations[item.id || `paraph-${idx}`];
+                const isCorrect = evaluation?.isCorrect;
+                
+                return (
+                  <div key={item.id || `paraph-${idx}`} className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                    <div className="flex items-start gap-3 mb-4">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-teal-600 text-white font-bold text-sm flex-shrink-0">
+                        {idx + 1}
+                      </span>
+                      <div className="flex-1">
+                        <div className="mb-3 p-3 bg-slate-50 rounded-lg border-l-4 border-teal-500">
+                          <p className="text-sm text-slate-600 font-semibold mb-1">Original:</p>
+                          <p className="text-slate-800 italic">"{originalSentence}"</p>
+                        </div>
+                        
+                        <textarea
+                          value={userAnswer}
+                          onChange={(e) => handleAnswer(item.id || `paraph-${idx}`, e.target.value)}
+                          disabled={showFeedback}
+                          placeholder="Write your paraphrase here..."
+                          rows={3}
+                          className={`w-full px-4 py-3 border-2 rounded-lg transition-all ${
+                            showFeedback
+                              ? isCorrect
+                                ? 'border-green-500 bg-green-50'
+                                : 'border-amber-500 bg-amber-50'
+                              : userAnswer
+                              ? 'border-teal-500 bg-teal-50'
+                              : 'border-slate-300 hover:border-teal-400'
+                          } disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-teal-400`}
+                        />
+
+                        {showFeedback && (
+                          <div className={`mt-4 p-4 rounded-lg border-2 ${
+                            isCorrect ? 'bg-green-50 border-green-300' : 'bg-amber-50 border-amber-300'
+                          }`}>
+                            <div className="space-y-2">
+                              <div>
+                                <p className="text-sm text-slate-600 mb-1">Model Answer:</p>
+                                <p className="font-semibold text-teal-700">{correctParaphrase}</p>
+                              </div>
+                              {item.explanation && (
+                                <p className="text-sm text-slate-700 mt-2">
+                                  💡 {item.explanation}
+                                </p>
+                              )}
+                              {evaluation?.detailedExplanation && (
+                                <div className="mt-2 bg-white/50 rounded p-2 text-sm text-slate-700">
+                                  <strong>AI Feedback:</strong> {evaluation.detailedExplanation}
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating}
+                className="w-full py-4 bg-gradient-to-r from-teal-600 to-teal-700 text-white rounded-xl hover:from-teal-700 hover:to-teal-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50"
+              >
+                {evaluating ? 'Evaluating...' : 'Check Answers'}
+              </button>
+            )}
+          </div>
+        );
+
+      case 'sentence-reordering':
+      case 'sentence-ordering':
+        const srExercise = currentExercise as any;
+        return (
+          <div className="space-y-6">
+            <div className="bg-pink-50 rounded-xl p-6 border-2 border-pink-200">
+              <h3 className="text-xl font-bold text-pink-900 mb-2 flex items-center gap-2">
+                <span>🔢</span>
+                <span>{srExercise.title}</span>
+              </h3>
+              {srExercise.instructions && (
+                <p className="text-slate-700 mt-2">💡 {srExercise.instructions}</p>
+              )}
+            </div>
+
+            <div className="space-y-6">
+              {(srExercise.items || [{ sentences: srExercise.sentences, correctOrder: srExercise.correctOrder, id: 'single' }]).map((item: any, itemIdx: number) => {
+                const sentences = item.shuffledSentences || item.sentences || [];
+                const correctOrder = item.correctOrder || Array.from({length: sentences.length}, (_, i) => i);
+                const itemId = item.id || `reorder-${itemIdx}`;
+                
+                return (
+                  <div key={itemId} className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                    {item.context && (
+                      <div className="mb-4 p-3 bg-pink-50 rounded-lg">
+                        <p className="text-sm text-slate-700">{item.context}</p>
+                      </div>
+                    )}
+
+                    <div className="space-y-3">
+                      {sentences.map((sentence: string, idx: number) => {
+                        const numberId = `${itemId}-${idx}`;
+                        const userOrder = answers[numberId] || '';
+                        
+                        return (
+                          <div key={idx} className="flex items-start gap-3 p-3 bg-slate-50 rounded-lg border border-slate-200">
+                            <input
+                              type="number"
+                              min="1"
+                              max={sentences.length}
+                              value={userOrder}
+                              onChange={(e) => handleAnswer(numberId, e.target.value)}
+                              disabled={showFeedback}
+                              placeholder="#"
+                              className={`w-16 px-2 py-1 border-2 rounded text-center font-bold ${
+                                showFeedback
+                                  ? parseInt(userOrder) === correctOrder[idx] + 1
+                                    ? 'border-green-500 bg-green-50 text-green-700'
+                                    : 'border-red-500 bg-red-50 text-red-700'
+                                  : 'border-pink-300 focus:border-pink-500'
+                              } disabled:cursor-not-allowed`}
+                            />
+                            <p className="flex-1 text-slate-800">{sentence}</p>
+                            {showFeedback && (
+                              <span className={`px-2 py-1 rounded text-xs font-bold ${
+                                parseInt(userOrder) === correctOrder[idx] + 1
+                                  ? 'bg-green-100 text-green-700'
+                                  : 'bg-red-100 text-red-700'
+                              }`}>
+                                {correctOrder[idx] + 1}
+                              </span>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+
+                    {showFeedback && item.explanation && (
+                      <div className="mt-4 p-3 bg-blue-50 rounded-lg border border-blue-200">
+                        <p className="text-sm text-slate-700">💡 {item.explanation}</p>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating}
+                className="w-full py-4 bg-gradient-to-r from-pink-600 to-pink-700 text-white rounded-xl hover:from-pink-700 hover:to-pink-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50"
+              >
+                {evaluating ? 'Evaluating...' : 'Check Answers'}
+              </button>
+            )}
+          </div>
+        );
+
+      case 'phrasal-verbs':
+        const pvExercise = currentExercise as any;
+        return (
+          <div className="space-y-6">
+            <div className="bg-cyan-50 rounded-xl p-6 border-2 border-cyan-200">
+              <h3 className="text-xl font-bold text-cyan-900 mb-2 flex items-center gap-2">
+                <span>🚀</span>
+                <span>{pvExercise.title}</span>
+              </h3>
+              {pvExercise.instructions && (
+                <p className="text-slate-700 mt-2">💡 {pvExercise.instructions}</p>
+              )}
+            </div>
+
+            <div className="space-y-4">
+              {pvExercise.items.map((item: any, idx: number) => {
+                const userAnswer = answers[item.id] || '';
+                const evaluation = aiEvaluations[item.id];
+                const hasOptions = item.options && item.options.length > 0;
+                
+                return (
+                  <div key={item.id} className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                    <div className="flex items-start gap-3 mb-4">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-cyan-600 text-white font-bold text-sm flex-shrink-0">
+                        {idx + 1}
+                      </span>
+                      <div className="flex-1">
+                        <div className="mb-3 p-3 bg-cyan-50 rounded-lg">
+                          <p className="text-sm text-cyan-800 font-semibold mb-1">
+                            Phrasal Verb: <span className="text-cyan-900 text-base">{item.phrasalVerb}</span>
+                          </p>
+                          <p className="text-sm text-slate-600">Meaning: {item.meaning}</p>
+                        </div>
+
+                        <p className="text-lg text-slate-800 mb-3">{item.sentence}</p>
+
+                        {hasOptions ? (
+                          <div className="space-y-2">
+                            {item.options.map((option: string, optIdx: number) => {
+                              const isSelected = userAnswer === option;
+                              const isCorrectOption = option === item.correctAnswer;
+                              const showAsCorrect = showFeedback && isCorrectOption;
+                              const showAsIncorrect = showFeedback && isSelected && !isCorrectOption;
+                              
+                              return (
+                                <button
+                                  key={optIdx}
+                                  onClick={() => !showFeedback && handleAnswer(item.id, option)}
+                                  disabled={showFeedback}
+                                  className={`w-full text-left p-3 rounded-lg border-2 transition-all ${
+                                    isSelected && !showFeedback
+                                      ? 'border-cyan-500 bg-cyan-50'
+                                      : 'border-slate-200 hover:border-cyan-300 bg-white'
+                                  } ${
+                                    showAsCorrect ? 'border-green-500 bg-green-50' : ''
+                                  } ${
+                                    showAsIncorrect ? 'border-red-500 bg-red-50' : ''
+                                  } disabled:cursor-not-allowed`}
+                                >
+                                  <div className="flex items-center gap-3">
+                                    <span className={`font-bold ${
+                                      showAsCorrect ? 'text-green-600' : showAsIncorrect ? 'text-red-600' : 'text-slate-500'
+                                    }`}>
+                                      {showAsCorrect && '✓'}
+                                      {showAsIncorrect && '✗'}
+                                      {!showFeedback && `${String.fromCharCode(65 + optIdx)}.`}
+                                    </span>
+                                    <span>{option}</span>
+                                  </div>
+                                </button>
+                              );
+                            })}
+                          </div>
+                        ) : (
+                          <input
+                            type="text"
+                            value={userAnswer}
+                            onChange={(e) => handleAnswer(item.id, e.target.value)}
+                            disabled={showFeedback}
+                            placeholder="Type your answer..."
+                            className={`w-full px-4 py-3 border-2 rounded-lg ${
+                              showFeedback
+                                ? evaluation?.isCorrect
+                                  ? 'border-green-500 bg-green-50'
+                                  : 'border-red-500 bg-red-50'
+                                : 'border-cyan-300 focus:border-cyan-500'
+                            } disabled:cursor-not-allowed`}
+                          />
+                        )}
+
+                        {showFeedback && (
+                          <div className={`mt-4 p-3 rounded-lg ${
+                            evaluation?.isCorrect ? 'bg-green-50' : 'bg-amber-50'
+                          }`}>
+                            {!evaluation?.isCorrect && (
+                              <p className="text-sm mb-2">
+                                <span className="font-semibold">Correct:</span> {item.correctAnswer}
+                              </p>
+                            )}
+                            {item.explanation && (
+                              <p className="text-sm text-slate-700">💡 {item.explanation}</p>
+                            )}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating}
+                className="w-full py-4 bg-gradient-to-r from-cyan-600 to-cyan-700 text-white rounded-xl hover:from-cyan-700 hover:to-cyan-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50"
+              >
+                {evaluating ? 'Evaluating...' : 'Check Answers'}
+              </button>
+            )}
+          </div>
+        );
+
+      case 'idioms-expressions':
+        const ieExercise = currentExercise as any;
+        return (
+          <div className="space-y-6">
+            <div className="bg-yellow-50 rounded-xl p-6 border-2 border-yellow-200">
+              <h3 className="text-xl font-bold text-yellow-900 mb-2 flex items-center gap-2">
+                <span>💬</span>
+                <span>{ieExercise.title}</span>
+              </h3>
+              {ieExercise.instructions && (
+                <p className="text-slate-700 mt-2">💡 {ieExercise.instructions}</p>
+              )}
+            </div>
+
+            <div className="space-y-4">
+              {ieExercise.items.map((item: any, idx: number) => {
+                const userAnswer = answers[item.id] || '';
+                const evaluation = aiEvaluations[item.id];
+                const hasOptions = item.options && item.options.length > 0;
+                
+                return (
+                  <div key={item.id} className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                    <div className="flex items-start gap-3 mb-4">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-yellow-600 text-white font-bold text-sm flex-shrink-0">
+                        {idx + 1}
+                      </span>
+                      <div className="flex-1">
+                        <div className="mb-3 p-3 bg-yellow-50 rounded-lg">
+                          <p className="text-sm text-yellow-800 font-semibold mb-1">
+                            Idiom: <span className="text-yellow-900 text-base">"{item.idiom}"</span>
+                          </p>
+                          <p className="text-sm text-slate-600">Meaning: {item.meaning}</p>
+                        </div>
+
+                        <p className="text-lg text-slate-800 mb-3">{item.context}</p>
+
+                        {hasOptions ? (
+                          <div className="space-y-2">
+                            {item.options.map((option: string, optIdx: number) => {
+                              const isSelected = userAnswer === option;
+                              const isCorrectOption = option === item.correctUsage;
+                              const showAsCorrect = showFeedback && isCorrectOption;
+                              const showAsIncorrect = showFeedback && isSelected && !isCorrectOption;
+                              
+                              return (
+                                <button
+                                  key={optIdx}
+                                  onClick={() => !showFeedback && handleAnswer(item.id, option)}
+                                  disabled={showFeedback}
+                                  className={`w-full text-left p-3 rounded-lg border-2 transition-all ${
+                                    isSelected && !showFeedback
+                                      ? 'border-yellow-500 bg-yellow-50'
+                                      : 'border-slate-200 hover:border-yellow-300 bg-white'
+                                  } ${
+                                    showAsCorrect ? 'border-green-500 bg-green-50' : ''
+                                  } ${
+                                    showAsIncorrect ? 'border-red-500 bg-red-50' : ''
+                                  } disabled:cursor-not-allowed`}
+                                >
+                                  <div className="flex items-center gap-3">
+                                    <span className={`font-bold ${
+                                      showAsCorrect ? 'text-green-600' : showAsIncorrect ? 'text-red-600' : 'text-slate-500'
+                                    }`}>
+                                      {showAsCorrect && '✓'}
+                                      {showAsIncorrect && '✗'}
+                                      {!showFeedback && `${String.fromCharCode(65 + optIdx)}.`}
+                                    </span>
+                                    <span>{option}</span>
+                                  </div>
+                                </button>
+                              );
+                            })}
+                          </div>
+                        ) : (
+                          <input
+                            type="text"
+                            value={userAnswer}
+                            onChange={(e) => handleAnswer(item.id, e.target.value)}
+                            disabled={showFeedback}
+                            placeholder="Type your answer..."
+                            className={`w-full px-4 py-3 border-2 rounded-lg ${
+                              showFeedback
+                                ? evaluation?.isCorrect
+                                  ? 'border-green-500 bg-green-50'
+                                  : 'border-red-500 bg-red-50'
+                                : 'border-yellow-300 focus:border-yellow-500'
+                            } disabled:cursor-not-allowed`}
+                          />
+                        )}
+
+                        {showFeedback && (
+                          <div className={`mt-4 p-3 rounded-lg ${
+                            evaluation?.isCorrect ? 'bg-green-50' : 'bg-amber-50'
+                          }`}>
+                            {!evaluation?.isCorrect && (
+                              <p className="text-sm mb-2">
+                                <span className="font-semibold">Correct:</span> {item.correctUsage}
+                              </p>
+                            )}
+                            {item.explanation && (
+                              <p className="text-sm text-slate-700">💡 {item.explanation}</p>
+                            )}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating}
+                className="w-full py-4 bg-gradient-to-r from-yellow-600 to-yellow-700 text-white rounded-xl hover:from-yellow-700 hover:to-yellow-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50"
+              >
+                {evaluating ? 'Evaluating...' : 'Check Answers'}
+              </button>
+            )}
+          </div>
+        );
+
+      case 'gap-fill':
+      case 'extended-gap-fill':
+      case 'open-cloze':
+        const gapExercise = currentExercise as any;
+        return (
+          <div className="space-y-6">
+            <div className="bg-emerald-50 rounded-xl p-6 border-2 border-emerald-200">
+              <h3 className="text-xl font-bold text-emerald-900 mb-2 flex items-center gap-2">
+                <span>📋</span>
+                <span>{gapExercise.title}</span>
+              </h3>
+              {gapExercise.instructions && (
+                <p className="text-slate-700 mt-2">💡 {gapExercise.instructions}</p>
+              )}
+            </div>
+
+            <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
+              <div className="text-lg leading-relaxed text-slate-800">
+                {gapExercise.text.split(/(\(\d+\)___+|___+)/).map((part: string, index: number) => {
+                  const gapMatch = part.match(/\((\d+)\)___+/);
+                  if (gapMatch) {
+                    const gapNum = parseInt(gapMatch[1]);
+                    const gap = gapExercise.gaps.find((g: any) => (g.id === gapNum || g.id === `gap${gapNum}`));
+                    const gapId = gap?.id || `gap-${gapNum}`;
+                    const userAnswer = answers[gapId] || '';
+                    const isCorrect = aiEvaluations[gapId]?.isCorrect;
+                    
+                    return (
+                      <span key={index} className="inline-block mx-1 align-bottom">
+                        <span className="text-sm text-slate-500 mr-1">({gapNum})</span>
+                        <input
+                          type="text"
+                          value={userAnswer}
+                          onChange={(e) => handleAnswer(gapId, e.target.value)}
+                          disabled={showFeedback}
+                          className={`px-3 py-1 border-2 rounded-lg w-32 text-center font-semibold transition-all ${
+                            showFeedback
+                              ? isCorrect
+                                ? 'border-green-500 bg-green-50 text-green-900'
+                                : 'border-red-500 bg-red-50 text-red-900'
+                              : userAnswer
+                              ? 'border-emerald-500 bg-emerald-50'
+                              : 'border-slate-300 hover:border-emerald-400'
+                          } disabled:cursor-not-allowed`}
+                        />
+                      </span>
+                    );
+                  }
+                  return <span key={index}>{part}</span>;
+                })}
+              </div>
+
+              {showFeedback && (
+                <div className="mt-6 space-y-3">
+                  {gapExercise.gaps.map((gap: any, idx: number) => {
+                    const gapId = gap.id || `gap-${idx + 1}`;
+                    const userAnswer = answers[gapId] || '';
+                    const correctAnswers = gap.correctAnswers || [gap.correctAnswer];
+                    const isCorrect = aiEvaluations[gapId]?.isCorrect;
+                    
+                    return (
+                      <div key={gapId} className={`p-3 rounded-lg border ${
+                        isCorrect ? 'bg-green-50 border-green-300' : 'bg-red-50 border-red-300'
+                      }`}>
+                        <div className="flex items-start gap-2">
+                          <span className="font-bold text-emerald-700">({idx + 1})</span>
+                          <div className="flex-1">
+                            <p className="text-sm">
+                              <span className="font-semibold">Your answer:</span> {userAnswer || '(empty)'}
+                            </p>
+                            {!isCorrect && (
+                              <p className="text-sm">
+                                <span className="font-semibold">Correct:</span> {correctAnswers.join(' / ')}
+                              </p>
+                            )}
+                            {gap.explanation && (
+                              <p className="text-sm text-slate-700 mt-1">💡 {gap.explanation}</p>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating}
+                className="w-full py-4 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white rounded-xl hover:from-emerald-700 hover:to-emerald-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50"
+              >
+                {evaluating ? 'Evaluating...' : 'Check Answers'}
+              </button>
+            )}
+          </div>
+        );
+
+      case 'summary-writing':
+        const swExercise = currentExercise as any;
+        const wordCount = (answers[swExercise.id] || '').trim().split(/\s+/).filter(w => w.length > 0).length;
+        const targetMin = swExercise.minWords || swExercise.summaryTargetRange?.min || swExercise.summaryTargetWords - 10;
+        const targetMax = swExercise.maxWords || swExercise.summaryTargetRange?.max || swExercise.summaryTargetWords + 10;
+        const isWithinRange = wordCount >= targetMin && wordCount <= targetMax;
+        
+        return (
+          <div className="space-y-6">
+            <div className="bg-violet-50 rounded-xl p-6 border-2 border-violet-200">
+              <h3 className="text-xl font-bold text-violet-900 mb-2 flex items-center gap-2">
+                <span>✍️</span>
+                <span>{swExercise.title}</span>
+              </h3>
+              {swExercise.instructions && (
+                <p className="text-slate-700 mt-2">💡 {swExercise.instructions}</p>
+              )}
+              <div className="mt-3 flex gap-4 text-sm">
+                <span className="px-3 py-1 bg-violet-100 text-violet-700 rounded-full">
+                  Target: {swExercise.summaryTargetWords || swExercise.targetWordCount} words
+                </span>
+                <span className="px-3 py-1 bg-violet-100 text-violet-700 rounded-full">
+                  Range: {targetMin}-{targetMax} words
+                </span>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
+              <h4 className="font-bold text-slate-900 mb-3">Source Text:</h4>
+              <div className="p-4 bg-slate-50 rounded-lg max-h-96 overflow-y-auto">
+                <p className="text-slate-700 whitespace-pre-line">{swExercise.originalText || swExercise.sourceText}</p>
+              </div>
+            </div>
+
+            {swExercise.keyPoints && (
+              <div className="bg-violet-50 rounded-xl p-4 border border-violet-200">
+                <p className="font-semibold text-violet-900 mb-2">Key Points to Include:</p>
+                <ul className="space-y-1">
+                  {swExercise.keyPoints.map((point: string, idx: number) => (
+                    <li key={idx} className="text-sm text-slate-700 flex items-start gap-2">
+                      <span className="text-violet-600">•</span>
+                      <span>{point}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
+              <div className="flex items-center justify-between mb-3">
+                <h4 className="font-bold text-slate-900">Your Summary:</h4>
+                <span className={`px-3 py-1 rounded-full text-sm font-semibold ${
+                  isWithinRange
+                    ? 'bg-green-100 text-green-700'
+                    : wordCount < targetMin
+                    ? 'bg-amber-100 text-amber-700'
+                    : 'bg-red-100 text-red-700'
+                }`}>
+                  {wordCount} / {swExercise.summaryTargetWords || swExercise.targetWordCount} words
+                </span>
+              </div>
+              
+              <textarea
+                value={answers[swExercise.id] || ''}
+                onChange={(e) => handleAnswer(swExercise.id, e.target.value)}
+                disabled={showFeedback}
+                placeholder="Write your summary here..."
+                rows={8}
+                className={`w-full px-4 py-3 border-2 rounded-lg resize-none ${
+                  showFeedback
+                    ? 'border-violet-500 bg-violet-50'
+                    : 'border-slate-300 focus:border-violet-500'
+                } focus:outline-none disabled:cursor-not-allowed`}
+              />
+
+              {showFeedback && aiEvaluations[swExercise.id] && (
+                <div className="mt-4 p-4 rounded-lg bg-violet-50 border border-violet-200">
+                  <p className="font-semibold text-violet-900 mb-2">
+                    Score: {aiEvaluations[swExercise.id].score}/100
+                  </p>
+                  {aiEvaluations[swExercise.id].detailedExplanation && (
+                    <p className="text-sm text-slate-700">
+                      {aiEvaluations[swExercise.id].detailedExplanation}
+                    </p>
+                  )}
+                </div>
+              )}
+            </div>
+
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating || !isWithinRange}
+                className="w-full py-4 bg-gradient-to-r from-violet-600 to-violet-700 text-white rounded-xl hover:from-violet-700 hover:to-violet-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50"
+              >
+                {evaluating ? 'Evaluating...' : 'Submit Summary'}
+              </button>
+            )}
+          </div>
+        );
+
+      case 'key-word-transformations':
+        const kwtExercise = currentExercise as any;
+        return (
+          <div className="space-y-6">
+            <div className="bg-rose-50 rounded-xl p-6 border-2 border-rose-200">
+              <h3 className="text-xl font-bold text-rose-900 mb-2 flex items-center gap-2">
+                <span>🔑</span>
+                <span>{kwtExercise.title}</span>
+              </h3>
+              {kwtExercise.instructions && (
+                <p className="text-slate-700 mt-2">💡 {kwtExercise.instructions}</p>
+              )}
+            </div>
+
+            <div className="space-y-4">
+              {kwtExercise.transformations.map((t: any, idx: number) => {
+                const userAnswer = answers[t.id] || '';
+                const evaluation = aiEvaluations[t.id];
+                
+                return (
+                  <div key={t.id} className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                    <div className="flex items-start gap-3">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-rose-600 text-white font-bold text-sm flex-shrink-0">
+                        {idx + 1}
+                      </span>
+                      <div className="flex-1 space-y-3">
+                        <div className="p-3 bg-slate-50 rounded-lg">
+                          <p className="text-slate-800">{t.sentence}</p>
+                        </div>
+                        
+                        <div className="flex items-center gap-3">
+                          <p className="text-slate-600">{t.startOfAnswer}</p>
+                          <span className="px-3 py-1 bg-rose-100 text-rose-700 rounded font-bold text-sm">
+                            {t.keyWord}
+                          </span>
+                        </div>
+
+                        <input
+                          type="text"
+                          value={userAnswer}
+                          onChange={(e) => handleAnswer(t.id, e.target.value)}
+                          disabled={showFeedback}
+                          placeholder="Complete the transformation..."
+                          className={`w-full px-4 py-3 border-2 rounded-lg ${
+                            showFeedback
+                              ? evaluation?.isCorrect
+                                ? 'border-green-500 bg-green-50'
+                                : 'border-red-500 bg-red-50'
+                              : 'border-rose-300 focus:border-rose-500'
+                          } disabled:cursor-not-allowed`}
+                        />
+
+                        {showFeedback && (
+                          <div className={`p-3 rounded-lg ${
+                            evaluation?.isCorrect ? 'bg-green-50' : 'bg-amber-50'
+                          }`}>
+                            {!evaluation?.isCorrect && (
+                              <p className="text-sm mb-2">
+                                <span className="font-semibold">Correct:</span> {t.correctAnswer}
+                              </p>
+                            )}
+                            {t.explanation && (
+                              <p className="text-sm text-slate-700">💡 {t.explanation}</p>
+                            )}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating}
+                className="w-full py-4 bg-gradient-to-r from-rose-600 to-rose-700 text-white rounded-xl hover:from-rose-700 hover:to-rose-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50"
+              >
+                {evaluating ? 'Evaluating...' : 'Check Answers'}
+              </button>
+            )}
+          </div>
+        );
+
+      case 'pronunciation-practice':
+        const ppExercise = currentExercise as any;
+        return (
+          <div className="space-y-6">
+            <div className="bg-orange-50 rounded-xl p-6 border-2 border-orange-200">
+              <h3 className="text-xl font-bold text-orange-900 mb-2 flex items-center gap-2">
+                <span>🗣️</span>
+                <span>{ppExercise.title}</span>
+              </h3>
+              {ppExercise.instructions && (
+                <p className="text-slate-700 mt-2">💡 {ppExercise.instructions}</p>
+              )}
+              {ppExercise.focusPoints && (
+                <div className="mt-3">
+                  <p className="text-sm font-semibold text-orange-800 mb-2">Focus Points:</p>
+                  <div className="flex flex-wrap gap-2">
+                    {ppExercise.focusPoints.map((point: string, idx: number) => (
+                      <span key={idx} className="px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-sm">
+                        {point}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            <div className="space-y-4">
+              {ppExercise.targetSentences.map((item: any, idx: number) => (
+                <div key={idx} className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                  <div className="flex items-start gap-3">
+                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-orange-600 text-white font-bold text-sm flex-shrink-0">
+                      {idx + 1}
+                    </span>
+                    <div className="flex-1 space-y-3">
+                      <p className="text-lg font-semibold text-slate-900">{item.sentence}</p>
+                      {item.translation && (
+                        <p className="text-sm text-slate-600 italic">{item.translation}</p>
+                      )}
+                      {item.phonetic && (
+                        <p className="text-sm text-orange-700 font-mono">/{item.phonetic}/</p>
+                      )}
+                      {item.audioUrl && (
+                        <audio controls className="w-full mt-2">
+                          <source src={item.audioUrl} type="audio/mpeg" />
+                        </audio>
+                      )}
+                      <div className="pt-2">
+                        <EnhancedVoiceRecorder
+                          targetText={item.sentence}
+                          onRecordingComplete={(blob, transcript) => {
+                            setRecordedAudio({ blob, transcript });
+                            handleAnswer(`pronunciation-${idx}`, transcript);
+                          }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        );
+
+      case 'integrated-reading-writing':
+        const irwExercise = currentExercise as any;
+        return (
+          <div className="space-y-6">
+            <div className="bg-fuchsia-50 rounded-xl p-6 border-2 border-fuchsia-200">
+              <h3 className="text-xl font-bold text-fuchsia-900 mb-2 flex items-center gap-2">
+                <span>📖✍️</span>
+                <span>{irwExercise.title}</span>
+              </h3>
+              <div className="flex gap-3 text-sm mt-2">
+                <span className="px-3 py-1 bg-fuchsia-100 text-fuchsia-700 rounded-full">
+                  Reading Time: {irwExercise.readingTime} min
+                </span>
+                <span className="px-3 py-1 bg-fuchsia-100 text-fuchsia-700 rounded-full">
+                  {irwExercise.wordCount} words
+                </span>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
+              <h4 className="font-bold text-slate-900 mb-3">Reading Text:</h4>
+              <div className="prose max-w-none">
+                <div className="text-slate-700 whitespace-pre-line">{irwExercise.readingText}</div>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <h4 className="font-bold text-slate-900">Questions:</h4>
+              {irwExercise.questions.map((q: any, idx: number) => {
+                const userAnswer = answers[q.id] || '';
+                const evaluation = aiEvaluations[q.id];
+                
+                return (
+                  <div key={q.id} className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                    <div className="flex items-start gap-3">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-fuchsia-600 text-white font-bold text-sm flex-shrink-0">
+                        {idx + 1}
+                      </span>
+                      <div className="flex-1">
+                        <p className="text-lg text-slate-800 mb-3">{q.question}</p>
+
+                        {q.type === 'multiple-choice' && q.options ? (
+                          <div className="space-y-2">
+                            {q.options.map((option: string, optIdx: number) => {
+                              const isSelected = userAnswer === option;
+                              const isCorrectOption = option === q.correctAnswer;
+                              const showAsCorrect = showFeedback && isCorrectOption;
+                              const showAsIncorrect = showFeedback && isSelected && !isCorrectOption;
+                              
+                              return (
+                                <button
+                                  key={optIdx}
+                                  onClick={() => !showFeedback && handleAnswer(q.id, option)}
+                                  disabled={showFeedback}
+                                  className={`w-full text-left p-3 rounded-lg border-2 transition-all ${
+                                    isSelected && !showFeedback
+                                      ? 'border-fuchsia-500 bg-fuchsia-50'
+                                      : 'border-slate-200 hover:border-fuchsia-300 bg-white'
+                                  } ${
+                                    showAsCorrect ? 'border-green-500 bg-green-50' : ''
+                                  } ${
+                                    showAsIncorrect ? 'border-red-500 bg-red-50' : ''
+                                  } disabled:cursor-not-allowed`}
+                                >
+                                  <div className="flex items-center gap-3">
+                                    <span className={`font-bold ${
+                                      showAsCorrect ? 'text-green-600' : showAsIncorrect ? 'text-red-600' : 'text-slate-500'
+                                    }`}>
+                                      {showAsCorrect && '✓'}
+                                      {showAsIncorrect && '✗'}
+                                      {!showFeedback && `${String.fromCharCode(65 + optIdx)}.`}
+                                    </span>
+                                    <span>{option}</span>
+                                  </div>
+                                </button>
+                              );
+                            })}
+                          </div>
+                        ) : (
+                          <textarea
+                            value={userAnswer}
+                            onChange={(e) => handleAnswer(q.id, e.target.value)}
+                            disabled={showFeedback}
+                            placeholder="Type your answer..."
+                            rows={4}
+                            className={`w-full px-4 py-3 border-2 rounded-lg ${
+                              showFeedback
+                                ? evaluation?.isCorrect
+                                  ? 'border-green-500 bg-green-50'
+                                  : 'border-amber-500 bg-amber-50'
+                                : 'border-fuchsia-300 focus:border-fuchsia-500'
+                            } disabled:cursor-not-allowed`}
+                          />
+                        )}
+
+                        {showFeedback && q.explanation && (
+                          <div className="mt-3 p-3 bg-blue-50 rounded-lg">
+                            <p className="text-sm text-slate-700">💡 {q.explanation}</p>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating}
+                className="w-full py-4 bg-gradient-to-r from-fuchsia-600 to-fuchsia-700 text-white rounded-xl hover:from-fuchsia-700 hover:to-fuchsia-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50"
+              >
+                {evaluating ? 'Evaluating...' : 'Submit Answers'}
+              </button>
+            )}
+          </div>
+        );
+
+      case 'matching':
+        const matchExercise = currentExercise as any;
+        return (
+          <div className="space-y-6">
+            <div className="bg-lime-50 rounded-xl p-6 border-2 border-lime-200">
+              <h3 className="text-xl font-bold text-lime-900 mb-2 flex items-center gap-2">
+                <span>🔀</span>
+                <span>{matchExercise.title}</span>
+              </h3>
+              {matchExercise.instruction && (
+                <p className="text-slate-700 mt-2">💡 {matchExercise.instruction}</p>
+              )}
+            </div>
+
+            <div className="space-y-4">
+              {matchExercise.pairs.map((pair: any, idx: number) => {
+                const userAnswer = answers[pair.idiom || `match-${idx}`] || '';
+                
+                return (
+                  <div key={idx} className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                    <div className="flex items-start gap-3">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-lime-600 text-white font-bold text-sm flex-shrink-0">
+                        {idx + 1}
+                      </span>
+                      <div className="flex-1">
+                        <p className="text-lg font-semibold text-lime-900 mb-3">{pair.idiom}</p>
+                        
+                        <input
+                          type="text"
+                          value={userAnswer}
+                          onChange={(e) => handleAnswer(pair.idiom || `match-${idx}`, e.target.value)}
+                          disabled={showFeedback}
+                          placeholder="Type the matching meaning..."
+                          className={`w-full px-4 py-3 border-2 rounded-lg ${
+                            showFeedback
+                              ? userAnswer.toLowerCase().includes(pair.meaning.toLowerCase())
+                                ? 'border-green-500 bg-green-50'
+                                : 'border-red-500 bg-red-50'
+                              : 'border-lime-300 focus:border-lime-500'
+                          } disabled:cursor-not-allowed`}
+                        />
+
+                        {showFeedback && (
+                          <div className="mt-3 p-3 bg-green-50 rounded-lg">
+                            <p className="text-sm">
+                              <span className="font-semibold">Correct meaning:</span> {pair.meaning}
+                            </p>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating}
+                className="w-full py-4 bg-gradient-to-r from-lime-600 to-lime-700 text-white rounded-xl hover:from-lime-700 hover:to-lime-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50"
+              >
+                {evaluating ? 'Evaluating...' : 'Check Answers'}
               </button>
             )}
           </div>
