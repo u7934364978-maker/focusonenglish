@@ -1,6 +1,13 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
+import { 
+  requestMicrophonePermission, 
+  checkMicrophonePermission, 
+  releaseMicrophoneStream,
+  type MicrophoneError 
+} from '@/lib/utils/microphone-permission';
+import { MicrophonePermissionError, MicrophonePermissionPrompt } from '@/components/MicrophonePermission';
 
 interface EnhancedVoiceRecorderProps {
   exerciseId: string;
@@ -26,7 +33,9 @@ export default function EnhancedVoiceRecorder({
   const [recordingTime, setRecordingTime] = useState(0);
   const [audioURL, setAudioURL] = useState<string | null>(null);
   const [transcript, setTranscript] = useState('');
-  const [error, setError] = useState<string | null>(null);
+  const [micError, setMicError] = useState<MicrophoneError | null>(null);
+  const [permissionStatus, setPermissionStatus] = useState<'unknown' | 'granted' | 'denied' | 'prompt'>('unknown');
+  const [isRequestingPermission, setIsRequestingPermission] = useState(false);
   const [isPlayingModel, setIsPlayingModel] = useState(false);
   const [audioLevel, setAudioLevel] = useState(0);
   const [recordingQuality, setRecordingQuality] = useState<'good' | 'low' | 'none'>('none');
@@ -42,6 +51,13 @@ export default function EnhancedVoiceRecorder({
 
   // Initialize Speech Recognition
   useEffect(() => {
+    // Check initial permission status
+    checkMicrophonePermission().then(status => {
+      if (status !== 'unsupported') {
+        setPermissionStatus(status);
+      }
+    });
+
     if (typeof window !== 'undefined' && 'webkitSpeechRecognition' in window) {
       const SpeechRecognition = (window as any).webkitSpeechRecognition;
       recognitionRef.current = new SpeechRecognition();
@@ -64,8 +80,9 @@ export default function EnhancedVoiceRecorder({
 
       recognitionRef.current.onerror = (event: any) => {
         console.error('Speech recognition error:', event.error);
+        // Don't show error for common 'no-speech' scenario
         if (event.error === 'no-speech') {
-          setError('No speech detected. Try speaking closer to the microphone.');
+          console.log('No speech detected - this is normal');
         }
       };
     }
@@ -127,16 +144,41 @@ export default function EnhancedVoiceRecorder({
     }
   };
 
+  const handleRequestPermission = async () => {
+    setIsRequestingPermission(true);
+    setMicError(null);
+
+    const result = await requestMicrophonePermission();
+
+    setIsRequestingPermission(false);
+
+    if (result.granted && result.stream) {
+      setPermissionStatus('granted');
+      // Release the stream immediately, we'll request again when recording
+      releaseMicrophoneStream(result.stream);
+    } else if (result.error) {
+      setMicError(result.error);
+      setPermissionStatus('denied');
+    }
+  };
+
   const startRecording = async () => {
     try {
-      setError(null);
-      const stream = await navigator.mediaDevices.getUserMedia({ 
-        audio: {
-          echoCancellation: true,
-          noiseSuppression: true,
-          autoGainControl: true
-        } 
-      });
+      setMicError(null);
+
+      // Request permission with comprehensive error handling
+      const result = await requestMicrophonePermission();
+
+      if (!result.granted || !result.stream) {
+        if (result.error) {
+          setMicError(result.error);
+          setPermissionStatus('denied');
+        }
+        return;
+      }
+
+      const stream = result.stream;
+      setPermissionStatus('granted');
       
       // Setup audio visualization
       audioContextRef.current = new AudioContext();
@@ -171,7 +213,7 @@ export default function EnhancedVoiceRecorder({
         }
         
         // Stop all tracks
-        stream.getTracks().forEach(track => track.stop());
+        releaseMicrophoneStream(stream);
         
         // Close audio context
         if (audioContextRef.current) {
@@ -193,9 +235,14 @@ export default function EnhancedVoiceRecorder({
       // Start audio level monitoring
       updateAudioLevel();
 
-    } catch (err) {
-      console.error('Error accessing microphone:', err);
-      setError('Could not access microphone. Please check permissions.');
+    } catch (error: any) {
+      console.error('Error accessing microphone:', error);
+      setMicError({
+        type: 'Other',
+        message: error?.message || 'Unknown error',
+        userMessage: 'Error inesperado al acceder al micrófono.',
+        action: 'Intenta recargar la página o usar otro navegador.',
+      });
     }
   };
 
@@ -536,18 +583,19 @@ export default function EnhancedVoiceRecorder({
           </div>
         )}
 
-        {/* Error Message */}
-        {error && (
-          <div className="p-6 bg-gradient-to-r from-red-50 to-pink-50 rounded-xl border-2 border-red-200 shadow-md">
-            <div className="flex items-start gap-3">
-              <span className="text-2xl">⚠️</span>
-              <div>
-                <p className="font-bold text-red-900 text-lg mb-1">Error</p>
-                <p className="text-red-700">{error}</p>
-              </div>
-            </div>
-          </div>
-        )}
+        {/* Permission/Error UI */}
+        {micError ? (
+          <MicrophonePermissionError
+            error={micError}
+            onRetry={handleRequestPermission}
+            onDismiss={() => setMicError(null)}
+          />
+        ) : (permissionStatus === 'prompt' || permissionStatus === 'unknown') && !isRecording && !audioURL ? (
+          <MicrophonePermissionPrompt
+            onRequest={handleRequestPermission}
+            isRequesting={isRequestingPermission}
+          />
+        ) : null}
       </div>
 
       {/* Tips Panel */}

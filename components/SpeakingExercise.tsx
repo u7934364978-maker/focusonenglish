@@ -2,6 +2,13 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { Mic, Square, Play, Pause, RotateCcw, Volume2, Loader2, CheckCircle, AlertCircle } from 'lucide-react';
+import { 
+  requestMicrophonePermission, 
+  checkMicrophonePermission, 
+  releaseMicrophoneStream,
+  type MicrophoneError 
+} from '@/lib/utils/microphone-permission';
+import { MicrophonePermissionError, MicrophonePermissionPrompt } from '@/components/MicrophonePermission';
 
 interface SpeakingQuestion {
   id: string;
@@ -40,7 +47,9 @@ export default function SpeakingExercise({ question, onComplete, level }: Speaki
   const [evaluation, setEvaluation] = useState<SpeakingEvaluation | null>(null);
   const [recordingTime, setRecordingTime] = useState(0);
   const [hasRecorded, setHasRecorded] = useState(false);
-  const [micError, setMicError] = useState<string | null>(null);
+  const [micError, setMicError] = useState<MicrophoneError | null>(null);
+  const [permissionStatus, setPermissionStatus] = useState<'unknown' | 'granted' | 'denied' | 'prompt'>('unknown');
+  const [isRequestingPermission, setIsRequestingPermission] = useState(false);
 
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const audioChunksRef = useRef<Blob[]>([]);
@@ -48,15 +57,52 @@ export default function SpeakingExercise({ question, onComplete, level }: Speaki
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
+    // Check initial permission status
+    checkMicrophonePermission().then(status => {
+      if (status !== 'unsupported') {
+        setPermissionStatus(status);
+      }
+    });
+
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
       if (audioUrl) URL.revokeObjectURL(audioUrl);
     };
   }, [audioUrl]);
 
+  const handleRequestPermission = async () => {
+    setIsRequestingPermission(true);
+    setMicError(null);
+
+    const result = await requestMicrophonePermission();
+
+    setIsRequestingPermission(false);
+
+    if (result.granted && result.stream) {
+      setPermissionStatus('granted');
+      releaseMicrophoneStream(result.stream);
+    } else if (result.error) {
+      setMicError(result.error);
+      setPermissionStatus('denied');
+    }
+  };
+
   const startRecording = async () => {
     try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      setMicError(null);
+
+      const result = await requestMicrophonePermission();
+
+      if (!result.granted || !result.stream) {
+        if (result.error) {
+          setMicError(result.error);
+          setPermissionStatus('denied');
+        }
+        return;
+      }
+
+      const stream = result.stream;
+      setPermissionStatus('granted');
       const mediaRecorder = new MediaRecorder(stream);
       mediaRecorderRef.current = mediaRecorder;
       audioChunksRef.current = [];
@@ -75,7 +121,7 @@ export default function SpeakingExercise({ question, onComplete, level }: Speaki
         setHasRecorded(true);
         
         // Stop all tracks
-        stream.getTracks().forEach(track => track.stop());
+        releaseMicrophoneStream(stream);
       };
 
       mediaRecorder.start();
@@ -87,9 +133,14 @@ export default function SpeakingExercise({ question, onComplete, level }: Speaki
         setRecordingTime(prev => prev + 1);
       }, 1000);
 
-    } catch (error) {
+    } catch (error: any) {
       console.error('Error accessing microphone:', error);
-      setMicError('No se pudo acceder al micrófono. Por favor, verifica que has dado permisos de micrófono a este sitio web en la configuración de tu navegador.');
+      setMicError({
+        type: 'Other',
+        message: error?.message || 'Unknown error',
+        userMessage: 'Error inesperado al acceder al micrófono.',
+        action: 'Intenta recargar la página o usar otro navegador.',
+      });
     }
   };
 
@@ -210,30 +261,28 @@ export default function SpeakingExercise({ question, onComplete, level }: Speaki
           {/* Main Recording Button */}
           {!hasRecorded && !isRecording && (
             <div className="flex flex-col items-center gap-4">
-              {micError && (
-                <div className="w-full bg-red-50 border-2 border-red-200 rounded-lg p-4 mb-4">
-                  <div className="flex items-start gap-3">
-                    <AlertCircle className="h-5 w-5 text-red-600 flex-shrink-0 mt-0.5" />
-                    <div className="flex-1">
-                      <p className="font-semibold text-red-900 mb-1">Error de Micrófono</p>
-                      <p className="text-sm text-red-700">{micError}</p>
-                      <button
-                        onClick={() => setMicError(null)}
-                        className="mt-3 text-sm font-medium text-red-600 hover:text-red-700 underline"
-                      >
-                        Cerrar
-                      </button>
-                    </div>
-                  </div>
-                </div>
+              {micError ? (
+                <MicrophonePermissionError
+                  error={micError}
+                  onRetry={handleRequestPermission}
+                  onDismiss={() => setMicError(null)}
+                />
+              ) : (permissionStatus === 'prompt' || permissionStatus === 'unknown') ? (
+                <MicrophonePermissionPrompt
+                  onRequest={handleRequestPermission}
+                  isRequesting={isRequestingPermission}
+                />
+              ) : (
+                <>
+                  <button
+                    onClick={startRecording}
+                    className="w-24 h-24 bg-gradient-to-br from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white rounded-full flex items-center justify-center transition-all transform hover:scale-105 active:scale-95 shadow-2xl"
+                  >
+                    <Mic className="w-10 h-10" />
+                  </button>
+                  <p className="text-gray-600 font-semibold">Click to start recording</p>
+                </>
               )}
-              <button
-                onClick={startRecording}
-                className="w-24 h-24 bg-gradient-to-br from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white rounded-full flex items-center justify-center transition-all transform hover:scale-105 active:scale-95 shadow-2xl"
-              >
-                <Mic className="w-10 h-10" />
-              </button>
-              <p className="text-gray-600 font-semibold">Click to start recording</p>
             </div>
           )}
 

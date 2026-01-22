@@ -2,6 +2,13 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { Mic, Square, Play, Pause, Volume2, RefreshCw, CheckCircle2, AlertCircle } from 'lucide-react';
+import { 
+  requestMicrophonePermission, 
+  checkMicrophonePermission, 
+  releaseMicrophoneStream,
+  type MicrophoneError 
+} from '@/lib/utils/microphone-permission';
+import { MicrophonePermissionError, MicrophonePermissionPrompt } from '@/components/MicrophonePermission';
 
 interface PronunciationPracticeProps {
   exerciseId: string;
@@ -46,7 +53,9 @@ export default function PronunciationPractice({
   const [evaluation, setEvaluation] = useState<EvaluationResult | null>(null);
   const [recordingTime, setRecordingTime] = useState(0);
   const [showHints, setShowHints] = useState(false);
-  const [micError, setMicError] = useState<string | null>(null);
+  const [micError, setMicError] = useState<MicrophoneError | null>(null);
+  const [permissionStatus, setPermissionStatus] = useState<'unknown' | 'granted' | 'denied' | 'prompt'>('unknown');
+  const [isRequestingPermission, setIsRequestingPermission] = useState(false);
 
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const audioChunksRef = useRef<Blob[]>([]);
@@ -56,6 +65,13 @@ export default function PronunciationPractice({
   const recognitionRef = useRef<any>(null);
 
   useEffect(() => {
+    // Check initial permission status
+    checkMicrophonePermission().then(status => {
+      if (status !== 'unsupported') {
+        setPermissionStatus(status);
+      }
+    });
+
     // Inicializar Web Speech API para transcripción en tiempo real
     if (typeof window !== 'undefined' && 'webkitSpeechRecognition' in window) {
       const SpeechRecognition = (window as any).webkitSpeechRecognition;
@@ -87,9 +103,39 @@ export default function PronunciationPractice({
     };
   }, []);
 
+  const handleRequestPermission = async () => {
+    setIsRequestingPermission(true);
+    setMicError(null);
+
+    const result = await requestMicrophonePermission();
+
+    setIsRequestingPermission(false);
+
+    if (result.granted && result.stream) {
+      setPermissionStatus('granted');
+      releaseMicrophoneStream(result.stream);
+    } else if (result.error) {
+      setMicError(result.error);
+      setPermissionStatus('denied');
+    }
+  };
+
   const startRecording = async () => {
     try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      setMicError(null);
+
+      const result = await requestMicrophonePermission();
+
+      if (!result.granted || !result.stream) {
+        if (result.error) {
+          setMicError(result.error);
+          setPermissionStatus('denied');
+        }
+        return;
+      }
+
+      const stream = result.stream;
+      setPermissionStatus('granted');
       const mediaRecorder = new MediaRecorder(stream);
       mediaRecorderRef.current = mediaRecorder;
       audioChunksRef.current = [];
@@ -106,7 +152,7 @@ export default function PronunciationPractice({
         const url = URL.createObjectURL(blob);
         setAudioUrl(url);
         
-        stream.getTracks().forEach(track => track.stop());
+        releaseMicrophoneStream(stream);
         
         if (recordingTimerRef.current) {
           clearInterval(recordingTimerRef.current);
@@ -128,9 +174,14 @@ export default function PronunciationPractice({
         setRecordingTime(prev => prev + 1);
       }, 1000);
 
-    } catch (error) {
+    } catch (error: any) {
       console.error('Error accessing microphone:', error);
-      setMicError('No se pudo acceder al micrófono. Por favor, verifica que has dado permisos de micrófono a este sitio web en la configuración de tu navegador.');
+      setMicError({
+        type: 'Other',
+        message: error?.message || 'Unknown error',
+        userMessage: 'Error inesperado al acceder al micrófono.',
+        action: 'Intenta recargar la página o usar otro navegador.',
+      });
     }
   };
 
@@ -327,23 +378,18 @@ export default function PronunciationPractice({
 
         {!audioBlob ? (
           <div className="space-y-4">
-            {micError && (
-              <div className="bg-red-50 border-2 border-red-200 rounded-lg p-4">
-                <div className="flex items-start gap-3">
-                  <AlertCircle className="h-5 w-5 text-red-600 flex-shrink-0 mt-0.5" />
-                  <div className="flex-1">
-                    <p className="font-semibold text-red-900 mb-1">Error de Micrófono</p>
-                    <p className="text-sm text-red-700">{micError}</p>
-                    <button
-                      onClick={() => setMicError(null)}
-                      className="mt-3 text-sm font-medium text-red-600 hover:text-red-700 underline"
-                    >
-                      Cerrar
-                    </button>
-                  </div>
-                </div>
-              </div>
-            )}
+            {micError ? (
+              <MicrophonePermissionError
+                error={micError}
+                onRetry={handleRequestPermission}
+                onDismiss={() => setMicError(null)}
+              />
+            ) : (permissionStatus === 'prompt' || permissionStatus === 'unknown') && !isRecording ? (
+              <MicrophonePermissionPrompt
+                onRequest={handleRequestPermission}
+                isRequesting={isRequestingPermission}
+              />
+            ) : null}
 
             {isRecording && (
               <div className="text-center">
