@@ -10,7 +10,6 @@
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Sidebar } from '@/components/dashboard/Sidebar';
 
 // Mock data - en producción vendría de Supabase
 const mockUserData = {
