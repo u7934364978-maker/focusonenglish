@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Cloudflare Pages uses @cloudflare/next-on-pages adapter
-  // No need to specify output mode
-  
-  // TEMPORARY: Disable TypeScript/ESLint checks during build
-  // Remove these after fixing all errors (see TYPESCRIPT_ESLINT_AUDIT.md)
+  // Vercel deployment - native Next.js support
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -111,9 +107,7 @@ const nextConfig = {
   },
   // Paquetes externos que deben ejecutarse en el servidor
   serverExternalPackages: ['@google-cloud/text-to-speech', 'elevenlabs-node'],
-  // TypeScript and ESLint errors are now enforced during build
-  // This ensures type safety and code quality
-  // Opciones de webpack para excluir styled-jsx
+  // Webpack options to exclude styled-jsx
   webpack: (config, { isServer }) => {
     // Alias para excluir styled-jsx del bundle
     config.resolve.alias = {
