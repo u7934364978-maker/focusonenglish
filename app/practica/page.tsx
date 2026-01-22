@@ -13,7 +13,6 @@ import PracticeSelector, { PracticeConfig } from '@/components/practice/Practice
 import PracticeExerciseViewer from '@/components/practice/PracticeExerciseViewer';
 
 
-export const runtime = 'edge';
 export default function PracticePage() {
   const router = useRouter();
   const [practicing, setPracticing] = useState(false);

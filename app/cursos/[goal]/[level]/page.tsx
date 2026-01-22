@@ -5,7 +5,6 @@ import CurriculumSection from "@/components/sections/CurriculumSection";
 import { generateCourseSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schemas";
 
 
-export const runtime = 'edge';
 const GOALS = ["trabajo", "viajes", "examenes"] as const;
 const LEVELS = ["a1","a2","b1","b2","c1","c2"] as const;
 
