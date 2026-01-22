@@ -1,6 +1,27 @@
 // Curso B2 Preparación de Exámenes - Estructura Completa
 // Basado en curriculum-data.ts B2 Level
 
+// Import B2 improvements exercises
+import { 
+  OPEN_CLOZE_EXERCISES 
+} from './b2-improvements-part1-open-cloze';
+
+import { 
+  GAPPED_TEXT_EXERCISES 
+} from './b2-improvements-part2-gapped-text';
+
+import { 
+  MULTIPLE_MATCHING_EXERCISES 
+} from './b2-improvements-part3-multiple-matching';
+
+import { 
+  KEY_WORD_TRANSFORMATION_EXERCISES 
+} from './b2-improvements-part4-key-transformations';
+
+import { 
+  MULTIPLE_CHOICE_CLOZE_EXERCISES 
+} from './b2-improvements-part5-multiple-choice-cloze';
+
 export type ExerciseType = 
   | 'reading'
   | 'writing'
@@ -14,6 +35,8 @@ export type ExerciseType =
   | 'word-formation'
   | 'multiple-choice-cloze'
   | 'open-cloze' // NUEVO: Open Cloze (FCE Part 2)
+  | 'gapped-text' // NUEVO: Gapped Text (FCE Part 6)
+  | 'multiple-matching' // NUEVO: Multiple Matching (FCE Part 7)
   | 'sentence-completion'
   | 'error-identification'
   | 'paraphrasing'
@@ -59,6 +82,7 @@ export interface Question {
   question: string;
   options?: string[];
   correctAnswer: string | string[];
+  acceptableAnswers?: string[]; // Alternative acceptable answers for flexible validation
   explanation?: string;
   points: number;
 }
@@ -5956,6 +5980,63 @@ The skills you've been {{7}} will serve you in academic, professional, and socia
           grammar: 10
         }
       }
+    ]
+  },
+  // ============================================
+  // LECCIÓN 7: FCE USE OF ENGLISH - PRÁCTICA INTENSIVA
+  // ============================================
+  {
+    id: 'b2-m1-l7',
+    title: 'Lección 7: FCE Use of English - Complete Practice',
+    description: 'Práctica intensiva de todos los tipos de ejercicios del Use of English del FCE',
+    duration: 120,
+    objectives: [
+      'Dominar Open Cloze (Part 2) con gramática contextual',
+      'Completar Gapped Text (Part 6) con párrafos eliminados',
+      'Resolver Multiple Matching (Part 7) con textos múltiples',
+      'Perfeccionar Key Word Transformations (Part 4)',
+      'Practicar Multiple Choice Cloze (Part 1) con colocaciones'
+    ],
+    exercises: [
+      // Open Cloze Exercises (12 total)
+      ...OPEN_CLOZE_EXERCISES.map((ex, idx) => ({
+        ...ex,
+        id: `b2-m1-l7-open-cloze-${idx + 1}`,
+        title: `Open Cloze: ${ex.title}`,
+        type: 'open-cloze' as ExerciseType
+      })),
+      
+      // Gapped Text Exercises (6 total)
+      ...GAPPED_TEXT_EXERCISES.map((ex, idx) => ({
+        ...ex,
+        id: `b2-m1-l7-gapped-text-${idx + 1}`,
+        title: `Gapped Text: ${ex.title}`,
+        type: 'gapped-text' as ExerciseType
+      })),
+      
+      // Multiple Matching Exercises (6 total)
+      ...MULTIPLE_MATCHING_EXERCISES.map((ex, idx) => ({
+        ...ex,
+        id: `b2-m1-l7-multiple-matching-${idx + 1}`,
+        title: `Multiple Matching: ${ex.title}`,
+        type: 'multiple-matching' as ExerciseType
+      })),
+      
+      // Key Word Transformation Exercises (10 total)
+      ...KEY_WORD_TRANSFORMATION_EXERCISES.map((ex, idx) => ({
+        ...ex,
+        id: `b2-m1-l7-key-transformation-${idx + 1}`,
+        title: `Key Word Transformations: ${ex.title}`,
+        type: 'key-word-transformation' as ExerciseType
+      })),
+      
+      // Multiple Choice Cloze Exercises (12 total)
+      ...MULTIPLE_CHOICE_CLOZE_EXERCISES.map((ex, idx) => ({
+        ...ex,
+        id: `b2-m1-l7-mc-cloze-${idx + 1}`,
+        title: `Multiple Choice Cloze: ${ex.title}`,
+        type: 'multiple-choice-cloze' as ExerciseType
+      }))
     ]
   }
 ];
