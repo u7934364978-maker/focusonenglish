@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
+import MicrophonePermissionModal from './MicrophonePermissionModal';
 
 interface EnhancedVoiceRecorderProps {
   exerciseId: string;
@@ -30,6 +31,8 @@ export default function EnhancedVoiceRecorder({
   const [isPlayingModel, setIsPlayingModel] = useState(false);
   const [audioLevel, setAudioLevel] = useState(0);
   const [recordingQuality, setRecordingQuality] = useState<'good' | 'low' | 'none'>('none');
+  const [showPermissionModal, setShowPermissionModal] = useState(false);
+  const [hasPermission, setHasPermission] = useState(false);
 
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const audioChunksRef = useRef<Blob[]>([]);
@@ -127,6 +130,27 @@ export default function EnhancedVoiceRecorder({
     }
   };
 
+  const handleStartRecordingClick = () => {
+    // Check if we already have permission
+    if (hasPermission) {
+      startRecording();
+    } else {
+      // Show permission modal first
+      setShowPermissionModal(true);
+    }
+  };
+
+  const handlePermissionGranted = () => {
+    setHasPermission(true);
+    setShowPermissionModal(false);
+    // Start recording immediately after permission is granted
+    startRecording();
+  };
+
+  const handlePermissionCancel = () => {
+    setShowPermissionModal(false);
+  };
+
   const startRecording = async () => {
     try {
       setError(null);
@@ -193,9 +217,13 @@ export default function EnhancedVoiceRecorder({
       // Start audio level monitoring
       updateAudioLevel();
 
+      // Mark that we have permission
+      setHasPermission(true);
+
     } catch (err) {
       console.error('Error accessing microphone:', err);
       setError('Could not access microphone. Please check permissions.');
+      setHasPermission(false);
     }
   };
 
@@ -282,7 +310,16 @@ export default function EnhancedVoiceRecorder({
   const isLowTime = timeRemaining < 30 && isRecording;
 
   return (
-    <div className="bg-gradient-to-br from-white to-orange-50 rounded-2xl border-2 border-orange-200 p-8 space-y-6 shadow-lg">
+    <>
+      {/* Microphone Permission Modal */}
+      <MicrophonePermissionModal
+        isOpen={showPermissionModal}
+        onPermissionGranted={handlePermissionGranted}
+        onCancel={handlePermissionCancel}
+        exerciseTitle="Speaking Exercise"
+      />
+
+      <div className="bg-gradient-to-br from-white to-orange-50 rounded-2xl border-2 border-orange-200 p-8 space-y-6 shadow-lg">
       {/* Header */}
       <div className="flex items-center gap-3 mb-6">
         <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-peach-500 rounded-2xl flex items-center justify-center text-3xl shadow-lg">
@@ -452,7 +489,7 @@ export default function EnhancedVoiceRecorder({
         <div className="flex flex-wrap gap-3">
           {!isRecording && !audioURL && (
             <button
-              onClick={startRecording}
+              onClick={handleStartRecordingClick}
               className="flex-1 min-w-[200px] flex items-center justify-center gap-3 px-8 py-5 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-xl hover:from-red-700 hover:to-red-800 transition-all font-bold text-lg shadow-xl transform hover:scale-105"
             >
               <span className="text-2xl">🔴</span>
@@ -580,5 +617,6 @@ export default function EnhancedVoiceRecorder({
         </ul>
       </div>
     </div>
+    </>
   );
 }
