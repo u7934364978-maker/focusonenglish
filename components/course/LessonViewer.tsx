@@ -1801,6 +1801,170 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           </div>
         );
 
+      case 'sentence-completion':
+        const scExercise = currentExercise as any;
+        return (
+          <div className="space-y-6">
+            {/* Instructions */}
+            <div className="bg-purple-50 rounded-xl p-6 border-2 border-purple-200">
+              <h3 className="text-xl font-bold text-purple-900 mb-2 flex items-center gap-2">
+                <span>✏️</span>
+                <span>{scExercise.title}</span>
+              </h3>
+              {scExercise.instructions && (
+                <p className="text-slate-700 mt-2">💡 {scExercise.instructions}</p>
+              )}
+            </div>
+
+            {/* Sentences */}
+            <div className="space-y-4">
+              {scExercise.sentences.map((sentence: any, idx: number) => {
+                const sentenceId = sentence.id;
+                const userAnswer = answers[sentenceId] || '';
+                const evaluation = aiEvaluations[sentenceId];
+                const isCorrect = evaluation?.isCorrect;
+
+                return (
+                  <div key={sentenceId} className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                    {/* Sentence prompt */}
+                    <div className="mb-4">
+                      <div className="flex items-start gap-3">
+                        <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-purple-600 text-white font-bold text-sm flex-shrink-0">
+                          {idx + 1}
+                        </span>
+                        <p className="text-lg text-slate-800 flex-1">{sentence.prompt}</p>
+                      </div>
+                    </div>
+
+                    {/* Multiple choice options */}
+                    {sentence.options && sentence.options.length > 0 ? (
+                      <div className="space-y-2">
+                        {sentence.options.map((option: string, optIdx: number) => {
+                          const isSelected = userAnswer === option;
+                          const isCorrectOption = option === sentence.correctCompletion;
+                          const showAsCorrect = showFeedback && isCorrectOption;
+                          const showAsIncorrect = showFeedback && isSelected && !isCorrectOption;
+
+                          return (
+                            <button
+                              key={optIdx}
+                              onClick={() => !showFeedback && handleAnswer(sentenceId, option)}
+                              disabled={showFeedback}
+                              className={`w-full text-left p-4 rounded-lg border-2 transition-all ${
+                                isSelected && !showFeedback
+                                  ? 'border-purple-500 bg-purple-50'
+                                  : 'border-slate-200 hover:border-purple-300 bg-white'
+                              } ${
+                                showAsCorrect
+                                  ? 'border-green-500 bg-green-50'
+                                  : ''
+                              } ${
+                                showAsIncorrect
+                                  ? 'border-red-500 bg-red-50'
+                                  : ''
+                              } disabled:cursor-not-allowed`}
+                            >
+                              <div className="flex items-center gap-3">
+                                <span className={`font-bold ${
+                                  showAsCorrect ? 'text-green-600' : showAsIncorrect ? 'text-red-600' : 'text-slate-500'
+                                }`}>
+                                  {showAsCorrect && '✓'}
+                                  {showAsIncorrect && '✗'}
+                                  {!showFeedback && `${String.fromCharCode(65 + optIdx)}.`}
+                                  {showFeedback && !showAsCorrect && !showAsIncorrect && `${String.fromCharCode(65 + optIdx)}.`}
+                                </span>
+                                <span className="text-slate-800">{option}</span>
+                              </div>
+                            </button>
+                          );
+                        })}
+                      </div>
+                    ) : (
+                      /* Text input for open completion */
+                      <input
+                        type="text"
+                        value={userAnswer}
+                        onChange={(e) => handleAnswer(sentenceId, e.target.value)}
+                        disabled={showFeedback}
+                        placeholder="Type your completion here..."
+                        className={`w-full px-4 py-3 border-2 rounded-lg text-lg transition-all ${
+                          showFeedback
+                            ? isCorrect
+                              ? 'border-green-500 bg-green-50 text-green-900'
+                              : 'border-red-500 bg-red-50 text-red-900'
+                            : userAnswer
+                            ? 'border-purple-500 bg-purple-50'
+                            : 'border-slate-300 hover:border-purple-400'
+                        } disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-purple-400`}
+                      />
+                    )}
+
+                    {/* Feedback */}
+                    {showFeedback && (
+                      <div className={`mt-4 p-4 rounded-lg border-2 ${
+                        isCorrect
+                          ? 'bg-green-50 border-green-300'
+                          : 'bg-red-50 border-red-300'
+                      }`}>
+                        <div className="flex items-start gap-3">
+                          <span className="text-2xl">{isCorrect ? '✅' : '❌'}</span>
+                          <div className="flex-1 space-y-2">
+                            <div>
+                              <span className="text-sm text-slate-600">Your answer:</span>{' '}
+                              <span className={`font-semibold ${isCorrect ? 'text-green-700' : 'text-red-700'}`}>
+                                {userAnswer || '(empty)'}
+                              </span>
+                            </div>
+                            {!isCorrect && (
+                              <div>
+                                <span className="text-sm text-slate-600">Correct answer:</span>{' '}
+                                <span className="font-semibold text-green-700">
+                                  {sentence.correctCompletion}
+                                </span>
+                              </div>
+                            )}
+                            {sentence.explanation && (
+                              <div className="text-sm text-slate-700 mt-2">
+                                💡 <span className="italic">{sentence.explanation}</span>
+                              </div>
+                            )}
+                            {evaluation && evaluation.detailedExplanation && (
+                              <div className="mt-2 bg-white/50 rounded p-2 text-sm text-slate-700">
+                                <strong>AI Feedback:</strong> {evaluation.detailedExplanation}
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Submit button */}
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating || Object.keys(answers).length === 0}
+                className="w-full py-4 bg-gradient-to-r from-purple-600 to-purple-700 text-white rounded-xl hover:from-purple-700 hover:to-purple-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+              >
+                {evaluating ? (
+                  <>
+                    <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                    </svg>
+                    Evaluating...
+                  </>
+                ) : (
+                  'Check Answers'
+                )}
+              </button>
+            )}
+          </div>
+        );
+
       default:
         return <p>Unknown exercise type</p>;
     }
