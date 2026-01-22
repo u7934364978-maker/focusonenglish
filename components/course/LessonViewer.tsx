@@ -3401,23 +3401,32 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
             <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
               <div className="text-lg leading-relaxed text-slate-800">
-                {(gapExercise.text || '').split(/(\(\d+\)___+|___+)/).map((part: string, index: number) => {
-                  const gapMatch = part.match(/\((\d+)\)___+/);
+                {(gapExercise.text || '').split(/(\[\d+\]|\(\d+\)___+|___+)/).map((part: string, index: number) => {
+                  // Support both [1], [2] and (1)___ patterns
+                  const gapMatch = part.match(/\[(\d+)\]/) || part.match(/\((\d+)\)___+/);
                   if (gapMatch) {
                     const gapNum = parseInt(gapMatch[1]);
-                    const gap = gapExercise.gaps.find((g: any) => (g.id === gapNum || g.id === `gap${gapNum}`));
-                    const gapId = gap?.id || `gap-${gapNum}`;
+                    const gap = gapExercise.gaps?.find((g: any) => (g.number === gapNum || g.id === gapNum || g.id === `gap${gapNum}`));
+                    const gapId = gap ? `gap-${gapNum}` : `gap-${gapNum}`;
                     const userAnswer = answers[gapId] || '';
-                    const isCorrect = aiEvaluations[gapId]?.isCorrect;
+                    const correctAnswer = gap?.correctAnswer || '';
+                    const acceptableAnswers = gap?.acceptableAnswers || [];
+                    
+                    // Check if answer is correct
+                    const isCorrect = showFeedback && (
+                      userAnswer.toLowerCase().trim() === correctAnswer.toLowerCase().trim() ||
+                      acceptableAnswers.some((a: string) => a.toLowerCase().trim() === userAnswer.toLowerCase().trim())
+                    );
                     
                     return (
                       <span key={index} className="inline-block mx-1 align-bottom">
-                        <span className="text-sm text-slate-500 mr-1">({gapNum})</span>
+                        <span className="text-sm text-slate-500 mr-1">[{gapNum}]</span>
                         <input
                           type="text"
                           value={userAnswer}
                           onChange={(e) => handleAnswer(gapId, e.target.value)}
                           disabled={showFeedback}
+                          placeholder="..."
                           className={`px-3 py-1 border-2 rounded-lg w-32 text-center font-semibold transition-all ${
                             showFeedback
                               ? isCorrect
@@ -3435,34 +3444,44 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 })}
               </div>
 
-              {showFeedback && (
+              {showFeedback && gapExercise.gaps && (
                 <div className="mt-6 space-y-3">
                   {gapExercise.gaps.map((gap: any, idx: number) => {
-                    const gapId = gap.id || `gap-${idx + 1}`;
+                    const gapNum = gap.number || (idx + 1);
+                    const gapId = `gap-${gapNum}`;
                     const userAnswer = answers[gapId] || '';
-                    const correctAnswers = gap.correctAnswers || [gap.correctAnswer];
-                    const isCorrect = aiEvaluations[gapId]?.isCorrect;
+                    const correctAnswer = gap.correctAnswer || '';
+                    const acceptableAnswers = gap.acceptableAnswers || [];
+                    const isCorrect = userAnswer.toLowerCase().trim() === correctAnswer.toLowerCase().trim() ||
+                      acceptableAnswers.some((a: string) => a.toLowerCase().trim() === userAnswer.toLowerCase().trim());
                     
                     return (
                       <div key={gapId} className={`p-3 rounded-lg border ${
                         isCorrect ? 'bg-green-50 border-green-300' : 'bg-red-50 border-red-300'
                       }`}>
-                        <div className="flex items-start gap-2">
-                          <span className="font-bold text-emerald-700">({idx + 1})</span>
-                          <div className="flex-1">
-                            <p className="text-sm">
-                              <span className="font-semibold">Your answer:</span> {userAnswer || '(empty)'}
-                            </p>
-                            {!isCorrect && (
-                              <p className="text-sm">
-                                <span className="font-semibold">Correct:</span> {correctAnswers.join(' / ')}
-                              </p>
-                            )}
-                            {gap.explanation && (
-                              <p className="text-sm text-slate-700 mt-1">💡 {gap.explanation}</p>
-                            )}
-                          </div>
-                        </div>
+                        <p className="font-semibold mb-1">
+                          <span className="text-slate-600">Gap {gapNum}:</span>{' '}
+                          {isCorrect ? '✅ Correct!' : '❌ Incorrect'}
+                        </p>
+                        <p className="text-sm">
+                          <strong>Your answer:</strong> {userAnswer || '(no answer)'}
+                        </p>
+                        <p className="text-sm">
+                          <strong>Correct answer:</strong> {correctAnswer}
+                          {acceptableAnswers.length > 0 && (
+                            <span className="text-slate-600"> (also: {acceptableAnswers.join(', ')})</span>
+                          )}
+                        </p>
+                        {gap.explanation && (
+                          <p className="text-sm mt-1 text-slate-700">
+                            💡 <strong>Explanation:</strong> {gap.explanation}
+                          </p>
+                        )}
+                        {gap.category && (
+                          <p className="text-xs mt-1 text-slate-500">
+                            Category: {gap.category}
+                          </p>
+                        )}
                       </div>
                     );
                   })}
@@ -3481,6 +3500,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             )}
           </div>
         );
+
 
       case 'summary-writing':
         const swExercise = currentExercise as any;
