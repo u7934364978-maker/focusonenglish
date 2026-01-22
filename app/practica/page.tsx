@@ -1,7 +1,5 @@
 'use client';
 
-export const runtime = 'edge';
-
 // ============================================
 // PÁGINA: PRÁCTICA INFINITA CON EJERCICIOS ILIMITADOS
 // Version: 3.0 - Seamless Infinite Exercise System
