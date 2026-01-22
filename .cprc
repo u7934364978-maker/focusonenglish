@@ -5,6 +5,13 @@
       "/cuenta/login",
       "/cuenta/registro",
       "/cuenta/recuperar"
+    ],
+    "ignore": [
+      "/signin",
+      "/login",
+      "/register",
+      "/signup",
+      "/forgot-password"
     ]
   }
 }
