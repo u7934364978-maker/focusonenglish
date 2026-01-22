@@ -325,97 +325,112 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       setShowFeedback(true);
       setShowCelebration(true);
       setEvaluating(false);
-    } else if (currentExercise.type === 'open-cloze') {
-      const gaps = currentExercise.gaps;
-      let totalPoints = gaps.length;
+      
+    } else if (currentExercise.type === 'gap-fill-text') {
+      const gaps = (currentExercise as any).gaps;
+      let totalPoints = 0;
       let earnedPoints = 0;
-      const newEvaluations: any = {};
+      const evaluations: { [gapId: string]: EvaluationResult } = {};
 
-      // Evaluate each gap answer
       for (const gap of gaps) {
-        const gapId = `gap-${gap.id}`;
-        const userAnswer = answers[gapId] || '';
-
+        totalPoints += gap.points;
+        const userAnswer = answers[gap.id];
+        
         if (!userAnswer || userAnswer.trim() === '') {
-          newEvaluations[gapId] = {
+          earnedPoints += 0;
+          evaluations[gap.id] = {
             isCorrect: false,
             score: 0,
-            feedback: 'No se proporcionó respuesta',
-            detailedExplanation: 'Por favor, proporciona una respuesta.'
-          };
+            feedback: 'No answer provided',
+            detailedExplanation: gap.explanation || ''
+          } as any;
           continue;
         }
 
-        // Use AI evaluation for open cloze
+        // Use AI evaluation for gap-fill answers
         try {
+          const context = (currentExercise as any).text || '';
+          const acceptableAnswers = [gap.correctAnswer];
+          if (gap.acceptableAlternatives) {
+            acceptableAnswers.push(...gap.acceptableAlternatives);
+          }
+
           const response = await fetch('/api/evaluate-text-answer', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-              question: `Fill gap ${gap.id} in the text with ONE word only.`,
+              question: `Fill in gap ${gap.gapNumber}`,
               userAnswer: userAnswer,
-              correctAnswer: gap.correctAnswer,
-              context: currentExercise.text || '',
+              correctAnswer: acceptableAnswers,
+              expectedConcepts: [(currentExercise as any).title || 'grammar'],
+              context: context.substring(0, 2000),
               level: 'B2',
-              questionType: 'open-cloze'
+              questionType: 'gap-fill'
             })
           });
 
           if (response.ok) {
-            const evaluation = await response.json();
-            newEvaluations[gapId] = evaluation;
+            const evaluation: TextAnswerEvaluationResponse = await response.json();
+            evaluations[gap.id] = evaluation;
             
+            // Award full or partial points based on AI score
             if (evaluation.isCorrect) {
-              earnedPoints += 1;
+              earnedPoints += gap.points;
+            } else if (evaluation.score >= 70) {
+              // Partial credit for close answers
+              earnedPoints += gap.points * (evaluation.score / 100);
             }
           } else {
-            // Fallback to simple comparison
-            const userAnswerLower = userAnswer.toLowerCase().trim();
-            const correctAnswerLower = gap.correctAnswer.toLowerCase().trim();
-            const isCorrect = userAnswerLower === correctAnswerLower;
+            // Fallback to simple string matching
+            const userAnswerNorm = userAnswer.toLowerCase().trim();
+            const isCorrect = acceptableAnswers.some(ans => 
+              userAnswerNorm === ans.toLowerCase().trim()
+            );
             
             if (isCorrect) {
-              earnedPoints += 1;
+              earnedPoints += gap.points;
             }
             
-            newEvaluations[gapId] = {
+            evaluations[gap.id] = {
               isCorrect,
               score: isCorrect ? 100 : 0,
-              feedback: isCorrect ? '✓ ¡Correcto!' : '✗ Respuesta incorrecta',
-              detailedExplanation: gap.explanation || (isCorrect 
-                ? 'Tu respuesta es correcta.' 
-                : `La respuesta correcta es: ${gap.correctAnswer}`)
-            };
+              feedback: isCorrect ? '✓ Correct!' : '✗ Incorrect',
+              detailedExplanation: gap.explanation || (isCorrect ? 'Your answer is correct.' : `The correct answer is: ${gap.correctAnswer}`)
+            } as any;
           }
         } catch (error) {
-          console.error('Error evaluating open-cloze:', error);
-          // Fallback
-          const userAnswerLower = userAnswer.toLowerCase().trim();
-          const correctAnswerLower = gap.correctAnswer.toLowerCase().trim();
-          const isCorrect = userAnswerLower === correctAnswerLower;
+          console.error('Error evaluating gap-fill answer:', error);
+          // Fallback to simple matching
+          const userAnswerNorm = userAnswer.toLowerCase().trim();
+          const acceptableAnswers = [gap.correctAnswer];
+          if (gap.acceptableAlternatives) {
+            acceptableAnswers.push(...gap.acceptableAlternatives);
+          }
+          const isCorrect = acceptableAnswers.some(ans => 
+            userAnswerNorm === ans.toLowerCase().trim()
+          );
           
           if (isCorrect) {
-            earnedPoints += 1;
+            earnedPoints += gap.points;
           }
           
-          newEvaluations[gapId] = {
+          evaluations[gap.id] = {
             isCorrect,
             score: isCorrect ? 100 : 0,
-            feedback: isCorrect ? '✓ ¡Correcto!' : '✗ Respuesta incorrecta',
-            detailedExplanation: gap.explanation || (isCorrect 
-              ? 'Tu respuesta es correcta.' 
-              : `La respuesta correcta es: ${gap.correctAnswer}`)
-          };
+            feedback: isCorrect ? '✓ Correct!' : '✗ Incorrect',
+            detailedExplanation: gap.explanation || (isCorrect ? 'Your answer is correct.' : `The correct answer is: ${gap.correctAnswer}`)
+          } as any;
         }
       }
 
-      setAiEvaluations(newEvaluations);
       const score = totalPoints > 0 ? (earnedPoints / totalPoints) * 100 : 0;
       setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
+      setAiEvaluations(evaluations);
       setCurrentScore(score);
       setShowFeedback(true);
       setShowCelebration(true);
       setEvaluating(false);
+      
     } else {
       setEvaluating(false);
     }
@@ -1486,112 +1501,6 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           </div>
         );
 
-      case 'open-cloze':
-        return (
-          <div className="grid lg:grid-cols-2 gap-6">
-            {/* Text - Sticky on large screens */}
-            <div className="lg:sticky lg:top-4 lg:self-start">
-              <div className="bg-blue-50 rounded-xl p-6 border-2 border-blue-200 mb-4">
-                <h3 className="text-xl font-bold text-blue-900 mb-3 flex items-center gap-2">
-                  <span>✍️</span>
-                  <span>{currentExercise.title}</span>
-                </h3>
-                <div className="bg-blue-100 p-3 rounded-lg border border-blue-300">
-                  <p className="text-sm text-blue-900 font-semibold">
-                    💡 {currentExercise.instructions || 'Read the text and fill each gap with ONE word only.'}
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-white rounded-xl p-6 border-2 border-slate-200 lg:max-h-[calc(100vh-16rem)] lg:overflow-y-auto">
-                <p className="text-slate-700 whitespace-pre-line leading-relaxed text-lg">
-                  {currentExercise.text}
-                </p>
-              </div>
-            </div>
-
-            {/* Gap inputs - Scrollable */}
-            <div className="space-y-4">
-              <h4 className="text-lg font-bold text-slate-900">Escribe UNA palabra para cada hueco:</h4>
-              {currentExercise.gaps.map((gap: any, idx: number) => {
-                const gapId = `gap-${gap.id}`;
-                return (
-                  <div key={gapId} className="bg-white rounded-lg p-5 border-2 border-slate-200">
-                    <div className="space-y-3">
-                      <p className="font-semibold text-slate-900">
-                        Hueco ({gap.id})
-                      </p>
-
-                      {/* Text Input */}
-                      <input
-                        type="text"
-                        value={answers[gapId] || ''}
-                        onChange={(e) => handleAnswer(gapId, e.target.value)}
-                        placeholder="Type ONE word..."
-                        className="w-full px-4 py-3 rounded-lg border-2 border-slate-200 focus:border-blue-500 focus:outline-none text-lg"
-                        disabled={showFeedback}
-                      />
-
-                      {/* Feedback - Enhanced with AI */}
-                      {showFeedback && (
-                        aiEvaluations[gapId] ? (
-                          <EnhancedFeedback
-                            evaluation={aiEvaluations[gapId]}
-                            userAnswer={answers[gapId]}
-                            correctAnswer={gap.correctAnswer}
-                            questionType="open-cloze"
-                          />
-                        ) : (
-                          <div className={`p-3 rounded-lg ${
-                            answers[gapId]?.toLowerCase().trim() === gap.correctAnswer?.toLowerCase().trim()
-                              ? 'bg-green-50 border-2 border-green-200'
-                              : 'bg-red-50 border-2 border-red-200'
-                          }`}>
-                            <p className="font-semibold mb-1">
-                              {answers[gapId]?.toLowerCase().trim() === gap.correctAnswer?.toLowerCase().trim()
-                                ? '✓ ¡Correcto!'
-                                : '✗ Incorrecto'}
-                            </p>
-                            <p className="text-sm mb-2">
-                              <span className="font-semibold">Respuesta correcta:</span>{' '}
-                              <span className="text-green-700 font-bold">{gap.correctAnswer}</span>
-                            </p>
-                            {gap.explanation && (
-                              <p className="text-sm text-slate-700">
-                                <span className="font-semibold">Explicación:</span> {gap.explanation}
-                              </p>
-                            )}
-                          </div>
-                        )
-                      )}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-
-            {/* Submit Button - Full width at bottom */}
-            {!showFeedback && (
-              <div className="lg:col-span-2">
-                <button
-                  onClick={checkAnswers}
-                  disabled={evaluating}
-                  className="w-full px-6 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-bold text-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
-                >
-                  {evaluating ? (
-                    <>
-                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                      <span>Evaluando con IA...</span>
-                    </>
-                  ) : (
-                    'Evaluar Respuestas'
-                  )}
-                </button>
-              </div>
-            )}
-          </div>
-        );
-
       case 'multiple-choice-cloze':
         return (
           <div className="grid lg:grid-cols-2 gap-6">
@@ -1746,270 +1655,149 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           </div>
         );
 
-      case 'sentence-completion':
-        return (
-          <div className="space-y-6">
-            {/* Instructions */}
-            <div className="bg-purple-50 rounded-xl p-6 border-2 border-purple-200">
-              <h3 className="text-xl font-bold text-purple-900 mb-3 flex items-center gap-2">
-                <span>✏️</span>
-                <span>{currentExercise.title}</span>
-              </h3>
-              <div className="bg-purple-100 p-3 rounded-lg border border-purple-300">
-                <p className="text-sm text-purple-900 font-semibold">
-                  💡 {currentExercise.instructions}
-                </p>
-              </div>
-            </div>
-
-            {/* Sentences */}
-            <div className="space-y-4">
-              {currentExercise.sentences.map((sentence: any, idx: number) => (
-                <div key={sentence.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
-                  <div className="space-y-3">
-                    <p className="font-semibold text-slate-900">
-                      {idx + 1}. {sentence.prompt}
-                    </p>
-
-                    {/* Multiple choice options if available */}
-                    {sentence.options && sentence.options.length > 0 ? (
-                      <div className="space-y-2">
-                        {sentence.options.map((option: string, optIdx: number) => (
-                          <label
-                            key={optIdx}
-                            className={`flex items-center gap-3 p-3 rounded-lg border-2 hover:bg-purple-50 cursor-pointer transition-all ${
-                              answers[sentence.id] === option
-                                ? 'border-purple-500 bg-purple-50'
-                                : 'border-slate-200'
-                            }`}
-                          >
-                            <input
-                              type="radio"
-                              name={sentence.id}
-                              value={option}
-                              checked={answers[sentence.id] === option}
-                              onChange={(e) => handleAnswer(sentence.id, e.target.value)}
-                              className="w-4 h-4 text-purple-600"
-                              disabled={showFeedback}
-                            />
-                            <span className="text-slate-900">{option}</span>
-                          </label>
-                        ))}
-                      </div>
-                    ) : (
-                      <input
-                        type="text"
-                        value={answers[sentence.id] || ''}
-                        onChange={(e) => handleAnswer(sentence.id, e.target.value)}
-                        placeholder="Complete the sentence..."
-                        className="w-full px-4 py-3 rounded-lg border-2 border-slate-200 focus:border-purple-500 focus:outline-none"
-                        disabled={showFeedback}
-                      />
-                    )}
-
-                    {/* Feedback */}
-                    {showFeedback && (
-                      <div className={`p-3 rounded-lg ${
-                        answers[sentence.id]?.toLowerCase().trim() === sentence.correctCompletion?.toLowerCase().trim()
-                          ? 'bg-green-50 border-2 border-green-200'
-                          : 'bg-red-50 border-2 border-red-200'
-                      }`}>
-                        <p className="font-semibold mb-1">
-                          {answers[sentence.id]?.toLowerCase().trim() === sentence.correctCompletion?.toLowerCase().trim()
-                            ? '✓ ¡Correcto!'
-                            : '✗ Incorrecto'}
-                        </p>
-                        <p className="text-sm mb-1">
-                          <span className="font-semibold">Respuesta correcta:</span>{' '}
-                          <span className="text-green-700 font-bold">{sentence.correctCompletion}</span>
-                        </p>
-                        {sentence.explanation && (
-                          <p className="text-sm text-slate-700">
-                            <span className="font-semibold">Explicación:</span> {sentence.explanation}
-                          </p>
-                        )}
-                      </div>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {!showFeedback && (
-              <button
-                onClick={checkAnswers}
-                disabled={evaluating}
-                className="w-full px-6 py-4 bg-purple-600 text-white rounded-xl hover:bg-purple-700 transition-colors font-bold text-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
-              >
-                {evaluating ? (
-                  <>
-                    <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                    <span>Evaluando...</span>
-                  </>
-                ) : (
-                  'Evaluar Respuestas'
-                )}
-              </button>
-            )}
-          </div>
-        );
-
-      case 'error-identification':
-        return (
-          <div className="space-y-6">
-            {/* Instructions */}
-            <div className="bg-red-50 rounded-xl p-6 border-2 border-red-200">
-              <h3 className="text-xl font-bold text-red-900 mb-3 flex items-center gap-2">
-                <span>🔍</span>
-                <span>{currentExercise.title}</span>
-              </h3>
-              <div className="bg-red-100 p-3 rounded-lg border border-red-300">
-                <p className="text-sm text-red-900 font-semibold">
-                  💡 {currentExercise.instructions}
-                </p>
-              </div>
-            </div>
-
-            {/* Sentences */}
-            <div className="space-y-4">
-              {currentExercise.sentences.map((sentence: any, idx: number) => (
-                <div key={sentence.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
-                  <div className="space-y-3">
-                    <p className="text-lg text-slate-900 mb-3 leading-relaxed">
-                      {idx + 1}. "{sentence.sentence}"
-                    </p>
-
-                    {/* Error identification options */}
-                    <div className="space-y-2">
-                      <label className={`flex items-center gap-3 p-3 rounded-lg border-2 hover:bg-green-50 cursor-pointer transition-all ${
-                        answers[sentence.id] === 'correct'
-                          ? 'border-green-500 bg-green-50'
-                          : 'border-slate-200'
-                      }`}>
-                        <input
-                          type="radio"
-                          name={sentence.id}
-                          value="correct"
-                          checked={answers[sentence.id] === 'correct'}
-                          onChange={(e) => handleAnswer(sentence.id, e.target.value)}
-                          className="w-4 h-4 text-green-600"
-                          disabled={showFeedback}
-                        />
-                        <span className="text-slate-900 font-medium">✓ La oración es correcta</span>
-                      </label>
-
-                      <label className={`flex items-center gap-3 p-3 rounded-lg border-2 hover:bg-red-50 cursor-pointer transition-all ${
-                        answers[sentence.id] === 'error'
-                          ? 'border-red-500 bg-red-50'
-                          : 'border-slate-200'
-                      }`}>
-                        <input
-                          type="radio"
-                          name={sentence.id}
-                          value="error"
-                          checked={answers[sentence.id] === 'error'}
-                          onChange={(e) => handleAnswer(sentence.id, e.target.value)}
-                          className="w-4 h-4 text-red-600"
-                          disabled={showFeedback}
-                        />
-                        <span className="text-slate-900 font-medium">✗ La oración tiene un error</span>
-                      </label>
-                    </div>
-
-                    {/* Feedback */}
-                    {showFeedback && (
-                      <div className={`p-3 rounded-lg ${
-                        (sentence.hasError && answers[sentence.id] === 'error') || 
-                        (!sentence.hasError && answers[sentence.id] === 'correct')
-                          ? 'bg-green-50 border-2 border-green-200'
-                          : 'bg-red-50 border-2 border-red-200'
-                      }`}>
-                        <p className="font-semibold mb-1">
-                          {(sentence.hasError && answers[sentence.id] === 'error') || 
-                           (!sentence.hasError && answers[sentence.id] === 'correct')
-                            ? '✓ ¡Correcto!'
-                            : '✗ Incorrecto'}
-                        </p>
-                        <p className="text-sm mb-1">
-                          <span className="font-semibold">Respuesta correcta:</span>{' '}
-                          {sentence.hasError ? 'La oración tiene un error' : 'La oración es correcta'}
-                        </p>
-                        {sentence.hasError && (
-                          <>
-                            <p className="text-sm mb-1">
-                              <span className="font-semibold">Error:</span>{' '}
-                              <span className="text-red-700 font-bold">{sentence.errorWord}</span>
-                            </p>
-                            <p className="text-sm mb-1">
-                              <span className="font-semibold">Corrección:</span>{' '}
-                              <span className="text-green-700 font-bold">{sentence.correction}</span>
-                            </p>
-                          </>
-                        )}
-                        {sentence.explanation && (
-                          <p className="text-sm text-slate-700">
-                            <span className="font-semibold">Explicación:</span> {sentence.explanation}
-                          </p>
-                        )}
-                      </div>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {!showFeedback && (
-              <button
-                onClick={checkAnswers}
-                disabled={evaluating}
-                className="w-full px-6 py-4 bg-red-600 text-white rounded-xl hover:bg-red-700 transition-colors font-bold text-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
-              >
-                {evaluating ? (
-                  <>
-                    <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                    <span>Evaluando...</span>
-                  </>
-                ) : (
-                  'Evaluar Respuestas'
-                )}
-              </button>
-            )}
-          </div>
-        );
-
-      case 'paraphrasing':
       case 'gap-fill-text':
-      case 'collocation-matching':
-      case 'phrasal-verbs':
+        const gapFillExercise = currentExercise as any;
         return (
           <div className="space-y-6">
             {/* Instructions */}
-            <div className="bg-indigo-50 rounded-xl p-6 border-2 border-indigo-200">
-              <h3 className="text-xl font-bold text-indigo-900 mb-3 flex items-center gap-2">
+            <div className="bg-blue-50 rounded-xl p-6 border-2 border-blue-200">
+              <h3 className="text-xl font-bold text-blue-900 mb-2 flex items-center gap-2">
                 <span>📝</span>
-                <span>{currentExercise.title}</span>
+                <span>{gapFillExercise.title}</span>
               </h3>
-              <div className="bg-indigo-100 p-3 rounded-lg border border-indigo-300">
-                <p className="text-sm text-indigo-900 font-semibold">
-                  💡 {currentExercise.instructions || 'Complete este ejercicio'}
-                </p>
+              {gapFillExercise.instructions && (
+                <p className="text-slate-700 mt-2">💡 {gapFillExercise.instructions}</p>
+              )}
+            </div>
+
+            {/* Text with gaps */}
+            <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
+              <div className="text-lg leading-relaxed text-slate-800 whitespace-pre-line">
+                {gapFillExercise.text.split(/(\{\{\d+\}\})/).map((part: string, index: number) => {
+                  const gapMatch = part.match(/\{\{(\d+)\}\}/);
+                  if (gapMatch) {
+                    const gapNum = parseInt(gapMatch[1]);
+                    const gap = gapFillExercise.gaps.find((g: any) => g.gapNumber === gapNum);
+                    if (!gap) return part;
+                    
+                    const isAnswered = !!answers[gap.id];
+                    const userAnswer = answers[gap.id] || '';
+                    const isCorrect = aiEvaluations[gap.id]?.isCorrect;
+                    
+                    return (
+                      <span key={index} className="inline-block mx-1 align-bottom">
+                        <input
+                          type="text"
+                          value={userAnswer}
+                          onChange={(e) => handleAnswer(gap.id, e.target.value)}
+                          disabled={showFeedback}
+                          placeholder={`(${gapNum})`}
+                          className={`px-3 py-1 border-2 rounded-lg w-40 text-center font-semibold transition-all ${
+                            showFeedback
+                              ? isCorrect
+                                ? 'border-green-500 bg-green-50 text-green-900'
+                                : 'border-red-500 bg-red-50 text-red-900'
+                              : isAnswered
+                              ? 'border-blue-500 bg-blue-50'
+                              : 'border-slate-300 hover:border-blue-400'
+                          } disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-blue-400`}
+                        />
+                        {showFeedback && !isCorrect && (
+                          <div className="block mt-1 text-xs text-green-700 font-semibold">
+                            ✓ {gap.correctAnswer}
+                          </div>
+                        )}
+                      </span>
+                    );
+                  }
+                  return <span key={index}>{part}</span>;
+                })}
               </div>
             </div>
 
-            {/* Generic rendering for these types */}
-            <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
-              <p className="text-slate-700 text-center">
-                Este tipo de ejercicio ({currentExercise.type}) está en desarrollo. 
-                Por favor, usa los otros ejercicios disponibles mientras implementamos esta funcionalidad.
-              </p>
-            </div>
+            {/* Show feedback for each gap */}
+            {showFeedback && (
+              <div className="space-y-3">
+                <h4 className="text-lg font-bold text-slate-900">📊 Detailed Feedback:</h4>
+                {gapFillExercise.gaps.map((gap: any) => {
+                  const userAnswer = answers[gap.id] || '';
+                  const evaluation = aiEvaluations[gap.id];
+                  const isCorrect = evaluation?.isCorrect;
+                  
+                  return (
+                    <div
+                      key={gap.id}
+                      className={`rounded-lg p-4 border-2 ${
+                        isCorrect
+                          ? 'bg-green-50 border-green-300'
+                          : 'bg-red-50 border-red-300'
+                      }`}
+                    >
+                      <div className="flex items-start gap-3">
+                        <span className="text-2xl">{isCorrect ? '✅' : '❌'}</span>
+                        <div className="flex-1">
+                          <div className="font-semibold text-slate-900 mb-1">
+                            Gap {gap.gapNumber}
+                          </div>
+                          <div className="text-sm space-y-1">
+                            <div>
+                              <span className="text-slate-600">Your answer:</span>{' '}
+                              <span className={isCorrect ? 'text-green-700 font-semibold' : 'text-red-700 font-semibold'}>
+                                {userAnswer || '(empty)'}
+                              </span>
+                            </div>
+                            {!isCorrect && (
+                              <div>
+                                <span className="text-slate-600">Correct answer:</span>{' '}
+                                <span className="text-green-700 font-semibold">
+                                  {gap.correctAnswer}
+                                </span>
+                                {gap.acceptableAlternatives && gap.acceptableAlternatives.length > 0 && (
+                                  <span className="text-slate-500">
+                                    {' '}(Also: {gap.acceptableAlternatives.join(', ')})
+                                  </span>
+                                )}
+                              </div>
+                            )}
+                            {gap.explanation && (
+                              <div className="mt-2 text-slate-700">
+                                💡 <span className="italic">{gap.explanation}</span>
+                              </div>
+                            )}
+                            {evaluation && evaluation.detailedExplanation && (
+                              <div className="mt-2 bg-white/50 rounded p-2 text-slate-700">
+                                <strong>AI Feedback:</strong> {evaluation.detailedExplanation}
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
 
-            <button
-              onClick={() => setShowFeedback(false)}
-              className="w-full px-6 py-4 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition-colors font-bold text-lg shadow-lg"
-            >
-              Continuar
-            </button>
+            {/* Submit button */}
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating || Object.keys(answers).length === 0}
+                className="w-full py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+              >
+                {evaluating ? (
+                  <>
+                    <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                    </svg>
+                    Evaluating...
+                  </>
+                ) : (
+                  'Check Answers'
+                )}
+              </button>
+            )}
           </div>
         );
 
