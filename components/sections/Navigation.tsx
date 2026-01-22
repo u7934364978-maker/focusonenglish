@@ -59,14 +59,17 @@ export function Navigation() {
               )}
             </div>
             
-            <Link href="/ejercicios-inteligentes" className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors flex items-center gap-1">
-              <span className="text-lg">🧠</span> Ejercicios IA
-            </Link>
             <Link href="/blog" className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors">
               Blog
             </Link>
             <Link href="/test-nivel" className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors">
               Test de Nivel
+            </Link>
+            <Link 
+              href="/signin"
+              className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors"
+            >
+              Iniciar Sesión
             </Link>
             <Link 
               href="/cuenta/registro"
@@ -130,13 +133,6 @@ export function Navigation() {
               </div>
               
               <Link 
-                href="/ejercicios-inteligentes" 
-                className="text-sm font-bold text-slate-700 hover:text-coral-600 transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                🧠 Ejercicios IA
-              </Link>
-              <Link 
                 href="/blog" 
                 className="text-sm font-bold text-slate-700 hover:text-coral-600 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
@@ -149,6 +145,13 @@ export function Navigation() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Test de Nivel
+              </Link>
+              <Link 
+                href="/signin" 
+                className="text-sm font-bold text-slate-700 hover:text-coral-600 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Iniciar Sesión
               </Link>
               <Link 
                 href="/cuenta/registro"
