@@ -2849,6 +2849,112 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       case 'phrasal-verbs':
         const pvExercise = currentExercise as any;
+        
+        // Handle nested exercises format (verbs + exercises array)
+        if (pvExercise.verbs && pvExercise.exercises) {
+          return (
+            <div className="space-y-6">
+              <div className="bg-cyan-50 rounded-xl p-6 border-2 border-cyan-200">
+                <h3 className="text-xl font-bold text-cyan-900 mb-2 flex items-center gap-2">
+                  <span>🚀</span>
+                  <span>{pvExercise.title}</span>
+                </h3>
+                {pvExercise.instructions && (
+                  <p className="text-slate-700 mt-2">💡 {pvExercise.instructions}</p>
+                )}
+              </div>
+
+              {/* Reference section showing all phrasal verbs */}
+              <div className="bg-white rounded-xl p-6 border-2 border-cyan-200">
+                <h4 className="font-bold text-cyan-900 mb-4">📚 Phrasal Verbs Reference</h4>
+                <div className="grid gap-4">
+                  {pvExercise.verbs.map((verb: any, idx: number) => (
+                    <div key={idx} className="p-4 bg-cyan-50 rounded-lg">
+                      <p className="font-bold text-cyan-900 mb-1">{verb.verb}</p>
+                      <p className="text-sm text-slate-700 mb-2">{verb.meaning}</p>
+                      {verb.examples && verb.examples.length > 0 && (
+                        <div className="mt-2 space-y-1">
+                          {verb.examples.map((ex: string, exIdx: number) => (
+                            <p key={exIdx} className="text-xs italic text-slate-600">• {ex}</p>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Practice exercises */}
+              <div className="space-y-4">
+                <h4 className="font-bold text-cyan-900">✏️ Practice Exercises</h4>
+                {pvExercise.exercises.map((ex: any, idx: number) => {
+                  const userAnswer = answers[ex.id] || '';
+                  const isCorrect = userAnswer.toLowerCase().trim() === (ex.correctAnswer || '').toLowerCase().trim();
+                  
+                  return (
+                    <div key={ex.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
+                      <p className="text-slate-900 mb-3">
+                        {idx + 1}. {ex.sentence || ex.question}
+                      </p>
+                      
+                      {ex.options ? (
+                        <div className="space-y-2">
+                          {ex.options.map((opt: string, optIdx: number) => (
+                            <label key={optIdx} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer">
+                              <input
+                                type="radio"
+                                name={ex.id}
+                                value={opt}
+                                checked={userAnswer === opt}
+                                onChange={(e) => handleAnswer(ex.id, e.target.value)}
+                                disabled={showFeedback}
+                              />
+                              <span>{opt}</span>
+                            </label>
+                          ))}
+                        </div>
+                      ) : (
+                        <input
+                          type="text"
+                          value={userAnswer}
+                          onChange={(e) => handleAnswer(ex.id, e.target.value)}
+                          disabled={showFeedback}
+                          placeholder="Type your answer..."
+                          className="w-full px-4 py-2 border-2 border-cyan-300 rounded-lg focus:border-cyan-500 focus:outline-none disabled:bg-slate-50"
+                        />
+                      )}
+                      
+                      {showFeedback && (
+                        <div className={`mt-3 p-3 rounded-lg ${isCorrect ? 'bg-green-50' : 'bg-amber-50'}`}>
+                          {!isCorrect && (
+                            <p className="text-sm mb-1">
+                              <strong>Correct:</strong> {ex.correctAnswer}
+                            </p>
+                          )}
+                          {ex.explanation && (
+                            <p className="text-sm text-slate-700">💡 {ex.explanation}</p>
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+
+              {!showFeedback && (
+                <button
+                  onClick={checkAnswers}
+                  disabled={evaluating}
+                  className="w-full py-4 bg-gradient-to-r from-cyan-600 to-cyan-700 text-white rounded-xl hover:from-cyan-700 hover:to-cyan-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50"
+                >
+                  {evaluating ? 'Evaluating...' : 'Check Answers'}
+                </button>
+              )}
+            </div>
+          );
+        }
+        
+        // Handle standard items format
         return (
           <div className="space-y-6">
             <div className="bg-cyan-50 rounded-xl p-6 border-2 border-cyan-200">
@@ -2972,6 +3078,112 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       case 'idioms-expressions':
         const ieExercise = currentExercise as any;
+        
+        // Handle nested exercises format (idioms + exercises array)
+        if (ieExercise.idioms && ieExercise.exercises) {
+          return (
+            <div className="space-y-6">
+              <div className="bg-yellow-50 rounded-xl p-6 border-2 border-yellow-200">
+                <h3 className="text-xl font-bold text-yellow-900 mb-2 flex items-center gap-2">
+                  <span>💬</span>
+                  <span>{ieExercise.title}</span>
+                </h3>
+                {ieExercise.instructions && (
+                  <p className="text-slate-700 mt-2">💡 {ieExercise.instructions}</p>
+                )}
+              </div>
+
+              {/* Reference section showing all idioms */}
+              <div className="bg-white rounded-xl p-6 border-2 border-yellow-200">
+                <h4 className="font-bold text-yellow-900 mb-4">📚 Idioms & Expressions Reference</h4>
+                <div className="grid gap-4">
+                  {ieExercise.idioms.map((idiom: any, idx: number) => (
+                    <div key={idx} className="p-4 bg-yellow-50 rounded-lg">
+                      <p className="font-bold text-yellow-900 mb-1">{idiom.expression || idiom.idiom}</p>
+                      <p className="text-sm text-slate-700 mb-2">{idiom.meaning}</p>
+                      {idiom.examples && idiom.examples.length > 0 && (
+                        <div className="mt-2 space-y-1">
+                          {idiom.examples.map((ex: string, exIdx: number) => (
+                            <p key={exIdx} className="text-xs italic text-slate-600">• {ex}</p>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Practice exercises */}
+              <div className="space-y-4">
+                <h4 className="font-bold text-yellow-900">✏️ Practice Exercises</h4>
+                {ieExercise.exercises.map((ex: any, idx: number) => {
+                  const userAnswer = answers[ex.id] || '';
+                  const isCorrect = userAnswer.toLowerCase().trim() === (ex.correctAnswer || '').toLowerCase().trim();
+                  
+                  return (
+                    <div key={ex.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
+                      <p className="text-slate-900 mb-3">
+                        {idx + 1}. {ex.sentence || ex.question}
+                      </p>
+                      
+                      {ex.options ? (
+                        <div className="space-y-2">
+                          {ex.options.map((opt: string, optIdx: number) => (
+                            <label key={optIdx} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer">
+                              <input
+                                type="radio"
+                                name={ex.id}
+                                value={opt}
+                                checked={userAnswer === opt}
+                                onChange={(e) => handleAnswer(ex.id, e.target.value)}
+                                disabled={showFeedback}
+                              />
+                              <span>{opt}</span>
+                            </label>
+                          ))}
+                        </div>
+                      ) : (
+                        <input
+                          type="text"
+                          value={userAnswer}
+                          onChange={(e) => handleAnswer(ex.id, e.target.value)}
+                          disabled={showFeedback}
+                          placeholder="Type your answer..."
+                          className="w-full px-4 py-2 border-2 border-yellow-300 rounded-lg focus:border-yellow-500 focus:outline-none disabled:bg-slate-50"
+                        />
+                      )}
+                      
+                      {showFeedback && (
+                        <div className={`mt-3 p-3 rounded-lg ${isCorrect ? 'bg-green-50' : 'bg-amber-50'}`}>
+                          {!isCorrect && (
+                            <p className="text-sm mb-1">
+                              <strong>Correct:</strong> {ex.correctAnswer}
+                            </p>
+                          )}
+                          {ex.explanation && (
+                            <p className="text-sm text-slate-700">💡 {ex.explanation}</p>
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+
+              {!showFeedback && (
+                <button
+                  onClick={checkAnswers}
+                  disabled={evaluating}
+                  className="w-full py-4 bg-gradient-to-r from-yellow-600 to-yellow-700 text-white rounded-xl hover:from-yellow-700 hover:to-yellow-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50"
+                >
+                  {evaluating ? 'Evaluating...' : 'Check Answers'}
+                </button>
+              )}
+            </div>
+          );
+        }
+        
+        // Handle standard items format
         return (
           <div className="space-y-6">
             <div className="bg-yellow-50 rounded-xl p-6 border-2 border-yellow-200">
