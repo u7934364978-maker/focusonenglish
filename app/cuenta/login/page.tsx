@@ -13,7 +13,7 @@ import Link from 'next/link';
 
 function SignInForm() {
   const router = useRouter();
-  const callbackUrl = '/estudiante/dashboard';
+  const callbackUrl = '/dashboard';
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
