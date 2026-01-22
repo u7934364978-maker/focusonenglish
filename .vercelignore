@@ -1,3 +1,5 @@
-# Desactivar deployments automáticos de Vercel
-# La app se despliega solo en Digital Ocean
-*
+# Ignore these paths during Vercel build
+node_modules
+.next
+out
+.vercel

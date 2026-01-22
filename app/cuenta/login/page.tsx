@@ -208,14 +208,7 @@ function SignInForm() {
 
 export default function SignInPage() {
   return (
-    <Suspense fallback={
-      <div className="min-h-screen bg-gradient-to-br from-coral-500 via-peach-400 to-coral-600 flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-4 border-white mx-auto"></div>
-          <p className="mt-4 text-white font-semibold">Cargando...</p>
-        </div>
-      </div>
-    }>
+    <Suspense fallback={<div className="min-h-screen bg-gradient-to-br from-coral-500 via-peach-400 to-coral-600 flex items-center justify-center"><div className="text-white text-xl">Cargando...</div></div>}>
       <SignInForm />
     </Suspense>
   );

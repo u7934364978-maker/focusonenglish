@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Cloudflare Pages configuration
-  // The adapter will handle the build output
+  // Standard Next.js output for Cloudflare Pages
+  output: 'standalone',
   
   // TEMPORARY: Disable TypeScript/ESLint checks during build
   // Remove these after fixing all errors (see TYPESCRIPT_ESLINT_AUDIT.md)
@@ -58,11 +58,11 @@ const nextConfig = {
       
       // ÁREA DE ESTUDIANTE
       // Dashboard ahora está directamente en /dashboard
-      // {
-      //   source: '/dashboard',
-      //   destination: '/estudiante/dashboard',
-      //   permanent: true,
-      // },
+      {
+        source: '/estudiante/dashboard',
+        destination: '/dashboard',
+        permanent: true,
+      },
       
       // ELIMINAR PÁGINAS OBSOLETAS
       {

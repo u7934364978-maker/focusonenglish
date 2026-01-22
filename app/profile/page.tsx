@@ -1,5 +1,7 @@
 'use client';
 
+export const runtime = 'edge';
+
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
@@ -15,7 +17,6 @@ import {
 } from '@/lib/services/profile-service';
 import { syncProfileToHubSpot } from '@/lib/services/hubspot-sync-service';
 
-export const runtime = 'edge';
 
 type TabType = 'overview' | 'personal' | 'progress' | 'settings';
 

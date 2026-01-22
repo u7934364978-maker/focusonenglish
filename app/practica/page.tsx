@@ -1,5 +1,7 @@
 'use client';
 
+export const runtime = 'edge';
+
 // ============================================
 // PÁGINA: PRÁCTICA INFINITA CON EJERCICIOS ILIMITADOS
 // Version: 3.0 - Seamless Infinite Exercise System
@@ -12,7 +14,6 @@ import { useRouter } from 'next/navigation';
 import PracticeSelector, { PracticeConfig } from '@/components/practice/PracticeSelector';
 import PracticeExerciseViewer from '@/components/practice/PracticeExerciseViewer';
 
-export const runtime = 'edge';
 
 export default function PracticePage() {
   const router = useRouter();
