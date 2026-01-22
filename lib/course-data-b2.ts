@@ -442,9 +442,9 @@ export const MODULE_1_LESSONS: Lesson[] = [
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'By 2010, she ___ in London for five years.',
+            question: 'By 2010, she ___ in London for five years.',
             correctAnswer: 'had lived',
             explanation: 'Usamos Past Perfect porque la acción (vivir en Londres) comenzó y terminó antes de un punto específico en el pasado (2010).',
             points: 1
@@ -452,15 +452,21 @@ export const MODULE_1_LESSONS: Lesson[] = [
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: When I called her, she ___ (already/leave) the office.',
+            question: 'When I called her, she ___ (already/leave) the office.',
             correctAnswer: 'had already left',
             explanation: 'Usamos Past Perfect porque la acción de irse ocurrió antes de que yo llamara.',
             points: 1
           },
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: 'Complete: Which sentence is correct → ___',
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Which sentence is correct?',
+            options: [
+              'After he ate dinner, he had watched TV.',
+              'After he had eaten dinner, he watched TV.',
+              'After he has eaten dinner, he watched TV.',
+              'After he was eating dinner, he watched TV.'
+            ],
             correctAnswer: 'After he had eaten dinner, he watched TV.',
             explanation: 'La cena (had eaten) ocurrió primero, luego vio TV (watched). Past Perfect + Past Simple.',
             points: 1
@@ -474,8 +480,8 @@ export const MODULE_1_LESSONS: Lesson[] = [
             points: 2
           },
           {
-            id: '',
-            type: 'short-answer',
+            id: 'q5',
+            type: 'fill-blank',
             question: 'They ___ never ___ such a beautiful place before visiting Iceland.',
             correctAnswer: 'had...seen',
             explanation: 'Experiencia previa al viaje a Islandia requiere Past Perfect.',
@@ -498,9 +504,9 @@ export const MODULE_1_LESSONS: Lesson[] = [
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'She was out of breath because she ___.',
+            question: 'She was out of breath because she ___.',
             correctAnswer: 'had been running',
             explanation: 'Enfatizamos la duración de la actividad (correr) que causó el resultado (sin aliento).',
             points: 1
@@ -508,15 +514,21 @@ export const MODULE_1_LESSONS: Lesson[] = [
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: How long ___ (you/wait) when the train arrived?',
+            question: 'How long ___ (you/wait) when the train arrived?',
             correctAnswer: 'had you been waiting',
             explanation: 'Pregunta sobre la duración de la espera antes de la llegada del tren.',
             points: 1
           },
           {
-            id: '',
-            type: 'short-answer',
-            question: 'Choose the correct sentence:',
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Choose the correct question:',
+            options: [
+              'The children played outside all afternoon.',
+              'The children had been playing outside all afternoon when it started to rain.',
+              'The children had played outside all afternoon.',
+              'Both b and c are correct.'
+            ],
             correctAnswer: 'Both b and c are correct.',
             explanation: 'Ambas son correctas. "Had been playing" enfatiza duración; "had played" es más neutral.',
             points: 3
@@ -548,9 +560,9 @@ By the end of her three-week stay, Maria had visited temples, tried countless ne
         readingTime: 3,
         questions: [
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: 'What had Maria done before traveling to Japan. Answer: ___',
+            id: 'q1',
+            type: 'short-answer',
+            question: 'What had Maria done before traveling to Japan?',
             correctAnswer: 'She had studied Japanese for six months',
             explanation: 'El texto dice: "she had studied Japanese for six months"',
             points: 1
@@ -564,11 +576,17 @@ By the end of her three-week stay, Maria had visited temples, tried countless ne
             points: 1
           },
           {
-            id: '',
-            type: 'true-false',
-            question: 'The correct answer is "Maria had asked her for help" for: Why did the elderly woman approach Maria?',
-            correctAnswer: 'False',
-            explanation: 'Falso. El texto dice: "A kind elderly woman, who had noticed Maria looking confused, approached her"',
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'Why did the elderly woman approach Maria?',
+            options: [
+              'Maria had asked her for help',
+              'The woman had noticed Maria looking confused',
+              'They knew each other from before',
+              'Maria was blocking the sidewalk'
+            ],
+            correctAnswer: 'The woman had noticed Maria looking confused',
+            explanation: 'El texto dice: "A kind elderly woman, who had noticed Maria looking confused, approached her"',
             points: 1
           },
           {
@@ -580,10 +598,10 @@ By the end of her three-week stay, Maria had visited temples, tried countless ne
             points: 2
           },
           {
-            id: '',
+            id: 'q5',
             type: 'short-answer',
             question: 'How did Maria feel about her trip by the end?',
-            correctAnswer: 'It exceeded her expectations and changed her perspective',
+            correctAnswer: 'It exceeded her expectations and changed her perspective on life',
             explanation: 'El texto concluye: "had exceeded all her expectations and had changed her perspective on life"',
             points: 2
           },
@@ -632,9 +650,9 @@ Interviewer: And would you recommend the experience to others?
 Sarah: Absolutely! By the end of my two-year contract, I had grown both personally and professionally in ways I never could have if I had stayed in London. I had made lifelong friends, learned about a completely different way of doing business, and gained a much broader perspective on the world.`,
         questions: [
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: 'How long had Sarah been working in London before considering overseas opportunities. Answer: ___',
+            id: 'q1',
+            type: 'short-answer',
+            question: 'How long had Sarah been working in London before considering overseas opportunities?',
             correctAnswer: 'Five years',
             explanation: 'Sarah mentions: "I had been working in marketing for my company in London for five years"',
             points: 1
@@ -648,11 +666,17 @@ Sarah: Absolutely! By the end of my two-year contract, I had grown both personal
             points: 1
           },
           {
-            id: '',
-            type: 'true-false',
-            question: 'The correct answer is "A job advertisement" for: What inspired Sarah to consider Singapore?',
-            correctAnswer: 'False',
-            explanation: 'Falso. She met colleagues from Singapore office at a conference who talked about how amazing it was.',
+            id: 'q3',
+            type: 'multiple-choice',
+            question: 'What inspired Sarah to consider Singapore?',
+            options: [
+              'A job advertisement',
+              'Meeting colleagues from Singapore at a conference',
+              'A recommendation from her manager',
+              'She had always wanted to work there'
+            ],
+            correctAnswer: 'Meeting colleagues from Singapore at a conference',
+            explanation: 'Sarah explica: "I attended a conference where I met some colleagues from our Singapore office"',
             points: 1
           },
           {
@@ -664,9 +688,9 @@ Sarah: Absolutely! By the end of my two-year contract, I had grown both personal
             points: 2
           },
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'How long did Sarah work in Singapore. Answer: ___',
+            question: 'How long did Sarah work in Singapore?',
             correctAnswer: 'Two years',
             explanation: 'She mentions "my two-year contract"',
             points: 1
@@ -776,7 +800,7 @@ However, by the end of the first semester, I had adapted remarkably well. I had 
         transformations: [
           {
             id: 'kt1',
-            sentence: 'She learned Spanish before she moved to Madrid.',
+            question: 'She learned Spanish before she moved to Madrid.',
             keyWord: 'had',
             startOfAnswer: 'She',
             correctAnswer: 'had learned Spanish before',
@@ -785,7 +809,7 @@ However, by the end of the first semester, I had adapted remarkably well. I had 
           },
           {
             id: 'kt2',
-            sentence: 'It was the first time he visited Japan.',
+            question: 'It was the first time he visited Japan.',
             keyWord: 'never',
             startOfAnswer: 'He',
             correctAnswer: 'had never visited Japan',
@@ -812,7 +836,7 @@ However, by the end of the first semester, I had adapted remarkably well. I had 
           },
           {
             id: 'kt5',
-            sentence: 'She was tired because she had been working all night.',
+            question: 'She was tired because she had been working all night.',
             keyWord: 'been',
             startOfAnswer: 'She',
             correctAnswer: 'had been working all',
@@ -821,7 +845,7 @@ However, by the end of the first semester, I had adapted remarkably well. I had 
           },
           {
             id: 'kt6',
-            sentence: 'We expected the exam to be easier.',
+            question: 'We expected the exam to be easier.',
             keyWord: 'than',
             startOfAnswer: 'The exam was more',
             correctAnswer: 'difficult than we had',
@@ -838,7 +862,7 @@ However, by the end of the first semester, I had adapted remarkably well. I had 
         transformations: [
           {
             id: 'kt7',
-            sentence: 'I regret not studying harder for the test.',
+            question: 'I regret not studying harder for the test.',
             keyWord: 'wish',
             startOfAnswer: 'I',
             correctAnswer: 'wish I had studied',
@@ -856,7 +880,7 @@ However, by the end of the first semester, I had adapted remarkably well. I had 
           },
           {
             id: 'kt9',
-            sentence: 'Perhaps she missed the train.',
+            question: 'Perhaps she missed the train.',
             keyWord: 'might',
             startOfAnswer: 'She',
             correctAnswer: 'might have missed the',
@@ -865,7 +889,7 @@ However, by the end of the first semester, I had adapted remarkably well. I had 
           },
           {
             id: 'kt10',
-            sentence: 'Someone stole my bike last night.',
+            question: 'Someone stole my bike last night.',
             keyWord: 'was',
             startOfAnswer: 'My bike',
             correctAnswer: 'was stolen last night',
@@ -874,7 +898,7 @@ However, by the end of the first semester, I had adapted remarkably well. I had 
           },
           {
             id: 'kt11',
-            sentence: 'They say that she is the best player in the team.',
+            question: 'They say that she is the best player in the team.',
             keyWord: 'said',
             startOfAnswer: 'She',
             correctAnswer: 'is said to be',
@@ -1242,7 +1266,7 @@ The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for y
         sentences: [
           {
             id: 'ei1',
-            sentence: 'When I got home, I realized I have forgotten my keys at work.',
+            question: 'When I got home, I realized I have forgotten my keys at work.',
             hasError: true,
             errorWord: 'have forgotten',
             correction: 'had forgotten',
@@ -1251,14 +1275,14 @@ The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for y
           },
           {
             id: 'ei2',
-            sentence: 'She had been studying English for three years before she moved to London.',
+            question: 'She had been studying English for three years before she moved to London.',
             hasError: false,
             explanation: 'This sentence is correct. Past Perfect Continuous shows the duration of study before moving.',
             points: 1
           },
           {
             id: 'ei3',
-            sentence: 'They have been waiting for two hours when the concert finally started.',
+            question: 'They have been waiting for two hours when the concert finally started.',
             hasError: true,
             errorWord: 'have been waiting',
             correction: 'had been waiting',
@@ -1267,7 +1291,7 @@ The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for y
           },
           {
             id: 'ei4',
-            sentence: 'By 2015, he had lived in five different countries.',
+            question: 'By 2015, he had lived in five different countries.',
             hasError: false,
             explanation: 'This sentence is correct. Past Perfect is used for experiences before a past point in time.',
             points: 1
@@ -1291,7 +1315,7 @@ The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for y
         sentences: [
           {
             id: 'ei1',
-            sentence: 'After she had ate breakfast, she went to work.',
+            question: 'After she had ate breakfast, she went to work.',
             hasError: true,
             errorWord: 'had ate',
             correction: 'had eaten',
@@ -1300,7 +1324,7 @@ The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for y
           },
           {
             id: 'ei2',
-            sentence: 'He was angry because his team had been losing three games in a row.',
+            question: 'He was angry because his team had been losing three games in a row.',
             hasError: true,
             errorWord: 'had been losing',
             correction: 'had lost',
@@ -1309,7 +1333,7 @@ The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for y
           },
           {
             id: 'ei3',
-            sentence: 'We had been living in that house for ten years when we decided to move.',
+            question: 'We had been living in that house for ten years when we decided to move.',
             hasError: false,
             explanation: 'Correct. Past Perfect Continuous emphasizes the duration (ten years) before deciding to move.',
             points: 1
@@ -1393,7 +1417,7 @@ The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for y
         items: [
           {
             id: 'pv1',
-            sentence: 'She ___ her coat before leaving the house.',
+            question: 'She ___ her coat before leaving the house.',
             phrasalVerb: 'put on',
             meaning: 'to wear or dress in something',
             correctAnswer: 'had put on',
@@ -1403,7 +1427,7 @@ The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for y
           },
           {
             id: 'pv2',
-            sentence: 'They ___ with a brilliant solution by the time the meeting started.',
+            question: 'They ___ with a brilliant solution by the time the meeting started.',
             phrasalVerb: 'come up',
             meaning: 'to think of or suggest an idea',
             correctAnswer: 'had come up',
@@ -1413,7 +1437,7 @@ The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for y
           },
           {
             id: 'pv3',
-            sentence: 'He ___ smoking a year before we met him.',
+            question: 'He ___ smoking a year before we met him.',
             phrasalVerb: 'give up',
             meaning: 'to stop doing something',
             correctAnswer: 'had given up',
@@ -1423,7 +1447,7 @@ The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for y
           },
           {
             id: 'pv4',
-            sentence: 'I ___ an old friend while shopping when I realized we ___ for years.',
+            question: 'I ___ an old friend while shopping when I realized we ___ for years.',
             phrasalVerb: 'run into / lose touch',
             meaning: 'to meet by chance / to stop communicating',
             correctAnswer: 'ran into / had lost touch',
@@ -1533,9 +1557,9 @@ Her friend Tom noticed her discomfort and came over. He explained that the dress
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'If I ___ (save) more money, I ___ (buy) a car now.',
+            question: 'If I ___ (save) more money, I ___ (buy) a car now.',
             correctAnswer: 'had saved / would buy',
             explanation: 'Past condition (didn\\\'t save) + present result (don\\\'t have car now) = Mixed Conditional Type 1',
             points: 2
@@ -1543,7 +1567,7 @@ Her friend Tom noticed her discomfort and came over. He explained that the dress
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: If I were fluent in English, I ___ (get) that job last year.',
+            question: 'If I were fluent in English, I ___ (get) that job last year.',
             correctAnswer: 'would have got / would have gotten',
             explanation: 'Present unreal condition + past result = Mixed Conditional Type 2',
             points: 2
@@ -1557,7 +1581,7 @@ Her friend Tom noticed her discomfort and came over. He explained that the dress
             points: 2
           },
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'Which sentence shows a mixed conditional?',
             correctAnswer: 'If I had known, I would be there now.',
@@ -1583,9 +1607,9 @@ Her friend Tom noticed her discomfort and came over. He explained that the dress
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Rewrite with inversion: "I have never seen such a thing.". Answer: ___',
+            question: 'Rewrite with inversion: "I have never seen such a thing."?',
             correctAnswer: 'Never have I seen such a thing.',
             explanation: 'Negative adverb + auxiliary (have) + subject (I) + verb (seen)',
             points: 1
@@ -1607,7 +1631,7 @@ Her friend Tom noticed her discomfort and came over. He explained that the dress
             points: 2
           },
           {
-            id: '',
+            id: 'q2',
             type: 'short-answer',
             question: 'Which is correct?',
             correctAnswer: 'Under no circumstances should you tell anyone.',
@@ -1635,9 +1659,9 @@ No sooner had Jennifer launched her music education app than it became popular a
         readingTime: 4,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'What career did Jennifer actually pursue. Answer: ___',
+            question: 'What career did Jennifer actually pursue?',
             correctAnswer: 'Computer Science',
             explanation: 'El texto indica: "Instead, she chose to study computer science"',
             points: 1
@@ -1659,10 +1683,10 @@ No sooner had Jennifer launched her music education app than it became popular a
             points: 2
           },
           {
-            id: '',
+            id: 'q3',
             type: 'true-false',
-            question: 'The correct answer is "Alternative paths can lead to valuable unexpected opportunities" for: What does the text suggest about career decisions?',
-            correctAnswer: 'True',
+            question: 'What does the text suggest about career decisions?',
+            correctAnswer: 'TrueAlternative paths can lead to valuable unexpected opportunities',
             explanation: 'El tema central es cómo diferentes caminos ofrecen experiencias valiosas.',
             points: 2
           },
@@ -1715,7 +1739,7 @@ Host: That's encouraging. What advice would you give to our listeners?
 Dr. Chen: Not only should you reflect on past choices, but you should also focus on what you can do today. If you had perfect confidence, what would you try? Start there. And remember: if you don't try, you'll never know. Rarely do we regret the things we attempt; we usually regret the things we never tried.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'What is Dr. Chen\\',
             correctAnswer: 'Career counseling',
@@ -1739,18 +1763,18 @@ Dr. Chen: Not only should you reflect on past choices, but you should also focus
             points: 2
           },
           {
-            id: '',
+            id: 'q4',
             type: 'fill-blank',
-            sentence: 'What advantage did Mark gain from studying literature. Answer: ___',
+            question: 'What advantage did Mark gain from studying literature?',
             correctAnswer: 'Exceptional communication skills',
             explanation: 'Su estudio de literatura le dio "exceptional communication skills"',
             points: 1
           },
           {
-            id: '',
+            id: 'q2',
             type: 'true-false',
-            question: 'The correct answer is "Things we never tried" for: What does Dr. Chen say we usually regret?',
-            correctAnswer: 'True',
+            question: 'What does Dr. Chen say we usually regret?',
+            correctAnswer: 'TrueThings we never tried',
             explanation: 'Ella concluye: "we usually regret the things we never tried"',
             points: 1
           }
@@ -1831,7 +1855,7 @@ Under no circumstances should we view career changes as failures. If you had sta
         transformations: [
           {
             id: 'kt1',
-            sentence: 'If I had known about the party, I would have come.',
+            question: 'If I had known about the party, I would have come.',
             keyWord: 'known',
             startOfAnswer: 'Had',
             correctAnswer: 'I known about the',
@@ -1858,7 +1882,7 @@ Under no circumstances should we view career changes as failures. If you had sta
           },
           {
             id: 'kt4',
-            sentence: 'He rarely goes to the cinema.',
+            question: 'He rarely goes to the cinema.',
             keyWord: 'seldom',
             startOfAnswer: 'Seldom',
             correctAnswer: 'does he go to',
@@ -1867,7 +1891,7 @@ Under no circumstances should we view career changes as failures. If you had sta
           },
           {
             id: 'kt5',
-            sentence: 'I have never seen such a beautiful sunset.',
+            question: 'I have never seen such a beautiful sunset.',
             keyWord: 'never',
             startOfAnswer: 'Never',
             correctAnswer: 'have I seen such',
@@ -1876,7 +1900,7 @@ Under no circumstances should we view career changes as failures. If you had sta
           },
           {
             id: 'kt6',
-            sentence: 'If he were taller, he would be a basketball player.',
+            question: 'If he were taller, he would be a basketball player.',
             keyWord: 'was',
             startOfAnswer: 'If he',
             correctAnswer: 'was taller he would',
@@ -1902,7 +1926,7 @@ Under no circumstances should we view career changes as failures. If you had sta
           },
           {
             id: 'kt8',
-            sentence: 'She was rich, so she bought that mansion.',
+            question: 'She was rich, so she bought that mansion.',
             keyWord: 'been',
             startOfAnswer: 'If she hadn\'t',
             correctAnswer: 'been rich she wouldn\'t',
@@ -1911,7 +1935,7 @@ Under no circumstances should we view career changes as failures. If you had sta
           },
           {
             id: 'kt9',
-            sentence: 'Not only did he win the race, but he also broke the record.',
+            question: 'Not only did he win the race, but he also broke the record.',
             keyWord: 'only',
             startOfAnswer: 'Not only',
             correctAnswer: 'did he win the',
@@ -1920,7 +1944,7 @@ Under no circumstances should we view career changes as failures. If you had sta
           },
           {
             id: 'kt10',
-            sentence: 'I had hardly started cooking when the guests arrived.',
+            question: 'I had hardly started cooking when the guests arrived.',
             keyWord: 'hardly',
             startOfAnswer: 'Hardly',
             correctAnswer: 'had I started cooking',
@@ -2070,7 +2094,7 @@ Under no circumstances should we view career changes as failures. If you had sta
         sentences: [
           {
             id: 'e1',
-            sentence: 'If I would have studied harder, I would be a doctor now.',
+            question: 'If I would have studied harder, I would be a doctor now.',
             hasError: true,
             errorWord: 'would have studied',
             correction: 'had studied',
@@ -2079,14 +2103,14 @@ Under no circumstances should we view career changes as failures. If you had sta
           },
           {
             id: 'e2',
-            sentence: 'If she had taken the job, she would live in Paris now.',
+            question: 'If she had taken the job, she would live in Paris now.',
             hasError: false,
             explanation: 'Correct mixed conditional: past condition + present result.',
             points: 2
           },
           {
             id: 'e3',
-            sentence: 'If I am taller, I would have been selected for the team.',
+            question: 'If I am taller, I would have been selected for the team.',
             hasError: true,
             errorWord: 'am',
             correction: 'were',
@@ -2119,7 +2143,7 @@ Under no circumstances should we view career changes as failures. If you had sta
         sentences: [
           {
             id: 'e1',
-            sentence: 'Never I have seen such a mess.',
+            question: 'Never I have seen such a mess.',
             hasError: true,
             errorWord: 'I have',
             correction: 'have I',
@@ -2128,14 +2152,14 @@ Under no circumstances should we view career changes as failures. If you had sta
           },
           {
             id: 'e2',
-            sentence: 'Rarely have we encountered such difficulties.',
+            question: 'Rarely have we encountered such difficulties.',
             hasError: false,
             explanation: 'Correct inversion after "Rarely".',
             points: 2
           },
           {
             id: 'e3',
-            sentence: 'Under no circumstances you should share your password.',
+            question: 'Under no circumstances you should share your password.',
             hasError: true,
             errorWord: 'you should',
             correction: 'should you',
@@ -2144,14 +2168,14 @@ Under no circumstances should we view career changes as failures. If you had sta
           },
           {
             id: 'e4',
-            sentence: 'Only then did I realize my mistake.',
+            question: 'Only then did I realize my mistake.',
             hasError: false,
             explanation: 'Correct inversion after "Only then".',
             points: 2
           },
           {
             id: 'e5',
-            sentence: 'Not only she is talented, but also hardworking.',
+            question: 'Not only she is talented, but also hardworking.',
             hasError: true,
             errorWord: 'she is',
             correction: 'is she',
@@ -2264,7 +2288,7 @@ Under no circumstances should we view career changes as failures. If you had sta
           },
           {
             id: 'pv2',
-            sentence: 'If she ___ with her studies, she would have graduated by now.',
+            question: 'If she ___ with her studies, she would have graduated by now.',
             phrasalVerb: 'keep up',
             meaning: 'to continue at the same level',
             correctAnswer: 'had kept up',
@@ -2274,7 +2298,7 @@ Under no circumstances should we view career changes as failures. If you had sta
           },
           {
             id: 'pv3',
-            sentence: 'Had they not ___ on him, he would be in prison now.',
+            question: 'Had they not ___ on him, he would be in prison now.',
             phrasalVerb: 'go easy',
             meaning: 'to be lenient with someone',
             correctAnswer: 'gone easy',
@@ -2283,7 +2307,7 @@ Under no circumstances should we view career changes as failures. If you had sta
           },
           {
             id: 'pv4',
-            sentence: 'If you ___ your old friends, you would have more support now.',
+            question: 'If you ___ your old friends, you would have more support now.',
             phrasalVerb: 'stick by',
             meaning: 'to remain loyal to',
             correctAnswer: 'had stuck by',
@@ -2504,9 +2528,9 @@ Under no circumstances should we view career changes as failures. If you had sta
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Rewrite with emphasis on "the noise": "The noise woke me up.". Answer: ___',
+            question: 'Rewrite with emphasis on "the noise": "The noise woke me up."?',
             correctAnswer: 'It was the noise that woke me up.',
             explanation: 'Usamos "It was...that" para enfatizar el sujeto (the noise).',
             points: 1
@@ -2514,7 +2538,7 @@ Under no circumstances should we view career changes as failures. If you had sta
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: ___ was in 2020 ___ everything changed.',
+            question: '___ was in 2020 ___ everything changed.',
             correctAnswer: 'It...that',
             explanation: 'It was in 2020 that everything changed - énfasis en el tiempo.',
             points: 1
@@ -2544,9 +2568,9 @@ Under no circumstances should we view career changes as failures. If you had sta
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Complete: wh-cleft: "I want honesty." → ___',
+            question: 'wh-cleft: "I want honesty." → ___',
             correctAnswer: 'What I want is honesty.',
             explanation: 'What I want is + sustantivo/lo que queremos enfatizar.',
             points: 1
@@ -2554,7 +2578,7 @@ Under no circumstances should we view career changes as failures. If you had sta
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: ___ she said was absolutely right.',
+            question: '___ she said was absolutely right.',
             correctAnswer: 'What',
             explanation: 'What she said = lo que ella dijo.',
             points: 1
@@ -2578,7 +2602,7 @@ So what should we do about this? It's essential that we recognize the value of s
         readingTime: 3,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'According to the text, what truly distinguishes successful people?',
             correctAnswer: 'Their ability to focus',
@@ -2602,9 +2626,9 @@ So what should we do about this? It's essential that we recognize the value of s
             points: 1
           },
           {
-            id: '',
+            id: 'q5',
             type: 'fill-blank',
-            sentence: 'What did workers discover during the pandemic. Answer: ___',
+            question: 'What did workers discover during the pandemic?',
             correctAnswer: 'That working from home with focus blocks can be more productive',
             explanation: 'El texto indica que trabajar desde casa "often led to higher productivity"',
             points: 2
@@ -2650,7 +2674,7 @@ Interviewer: And what about technology? Should we avoid it entirely?
 Dr. Richardson: No, that's not realistic. What we need to do is use technology intentionally. It's not your smartphone that's the problem—it's having notifications turned on all the time. What successful people do is put their devices on "do not disturb" during focus sessions. What surprised me in my research was how much anxiety this initially caused people, but within a week, most felt liberated rather than disconnected.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'What does Dr. Richardson say about multitasking?',
             correctAnswer: 'It\\',
@@ -2746,7 +2770,7 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
         transformations: [
           {
             id: 'kt1',
-            sentence: 'They are repairing the road.',
+            question: 'They are repairing the road.',
             keyWord: 'being',
             startOfAnswer: 'The road',
             correctAnswer: 'is being repaired',
@@ -2755,7 +2779,7 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
           },
           {
             id: 'kt2',
-            sentence: 'Someone must have stolen my wallet.',
+            question: 'Someone must have stolen my wallet.',
             keyWord: 'been',
             startOfAnswer: 'My wallet',
             correctAnswer: 'must have been stolen',
@@ -2764,7 +2788,7 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
           },
           {
             id: 'kt3',
-            sentence: 'They say that he is very rich.',
+            question: 'They say that he is very rich.',
             keyWord: 'said',
             startOfAnswer: 'He',
             correctAnswer: 'is said to be',
@@ -2773,7 +2797,7 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
           },
           {
             id: 'kt4',
-            sentence: 'People believe that the treasure is buried here.',
+            question: 'People believe that the treasure is buried here.',
             keyWord: 'believed',
             startOfAnswer: 'The treasure',
             correctAnswer: 'is believed to be',
@@ -2782,7 +2806,7 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
           },
           {
             id: 'kt5',
-            sentence: 'They had already finished the project when I arrived.',
+            question: 'They had already finished the project when I arrived.',
             keyWord: 'been',
             startOfAnswer: 'The project',
             correctAnswer: 'had already been finished',
@@ -2791,7 +2815,7 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
           },
           {
             id: 'kt6',
-            sentence: 'You should clean your room.',
+            question: 'You should clean your room.',
             keyWord: 'cleaned',
             startOfAnswer: 'Your room',
             correctAnswer: 'should be cleaned',
@@ -2808,7 +2832,7 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
         transformations: [
           {
             id: 'kt7',
-            sentence: 'Someone is cutting my hair tomorrow.',
+            question: 'Someone is cutting my hair tomorrow.',
             keyWord: 'having',
             startOfAnswer: 'I am',
             correctAnswer: 'having my hair cut',
@@ -2817,7 +2841,7 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
           },
           {
             id: 'kt8',
-            sentence: 'A mechanic serviced my car last week.',
+            question: 'A mechanic serviced my car last week.',
             keyWord: 'had',
             startOfAnswer: 'I',
             correctAnswer: 'had my car serviced',
@@ -2826,7 +2850,7 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
           },
           {
             id: 'kt9',
-            sentence: 'The doctor will examine you.',
+            question: 'The doctor will examine you.',
             keyWord: 'examined',
             startOfAnswer: 'You',
             correctAnswer: 'will be examined by',
@@ -2835,7 +2859,7 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
           },
           {
             id: 'kt10',
-            sentence: 'They are going to demolish the old building.',
+            question: 'They are going to demolish the old building.',
             keyWord: 'demolished',
             startOfAnswer: 'The old building',
             correctAnswer: 'is going to be',
@@ -2844,7 +2868,7 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
           },
           {
             id: 'kt11',
-            sentence: 'Somebody needs to fix this computer.',
+            question: 'Somebody needs to fix this computer.',
             keyWord: 'needs',
             startOfAnswer: 'This computer',
             correctAnswer: 'needs to be fixed',
@@ -2853,7 +2877,7 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
           },
           {
             id: 'kt12',
-            sentence: 'They made him wait for two hours.',
+            question: 'They made him wait for two hours.',
             keyWord: 'was',
             startOfAnswer: 'He',
             correctAnswer: 'was made to wait',
@@ -3024,7 +3048,7 @@ Governments and businesses also have a crucial {{7}} to play. New policies are b
         sentences: [
           {
             id: 'e1',
-            sentence: 'What I need it is more time.',
+            question: 'What I need it is more time.',
             hasError: true,
             errorWord: 'it',
             correction: 'What I need is more time',
@@ -3033,7 +3057,7 @@ Governments and businesses also have a crucial {{7}} to play. New policies are b
           },
           {
             id: 'e2',
-            sentence: 'It was John who he called me yesterday.',
+            question: 'It was John who he called me yesterday.',
             hasError: true,
             errorWord: 'he',
             correction: 'It was John who called me yesterday',
@@ -3042,14 +3066,14 @@ Governments and businesses also have a crucial {{7}} to play. New policies are b
           },
           {
             id: 'e3',
-            sentence: 'What surprised me most was their generosity.',
+            question: 'What surprised me most was their generosity.',
             hasError: false,
             explanation: 'Correct what-cleft structure.',
             points: 1
           },
           {
             id: 'e4',
-            sentence: 'It is in Paris where I met my wife.',
+            question: 'It is in Paris where I met my wife.',
             hasError: true,
             errorWord: 'where',
             correction: 'It is in Paris that I met my wife',
@@ -3148,7 +3172,7 @@ Governments and businesses also have a crucial {{7}} to play. New policies are b
         items: [
           {
             id: 'pv1',
-            sentence: 'The speaker _____ the importance of teamwork.',
+            question: 'The speaker _____ the importance of teamwork.',
             phrasalVerb: 'pointed out',
             meaning: 'drew attention to, emphasized',
             correctAnswer: 'pointed out',
@@ -3168,7 +3192,7 @@ Governments and businesses also have a crucial {{7}} to play. New policies are b
           },
           {
             id: 'pv3',
-            sentence: 'The argument _____ from a simple misunderstanding.',
+            question: 'The argument _____ from a simple misunderstanding.',
             phrasalVerb: 'came about',
             meaning: 'happened, occurred',
             correctAnswer: 'came about',
@@ -3178,7 +3202,7 @@ Governments and businesses also have a crucial {{7}} to play. New policies are b
           },
           {
             id: 'pv4',
-            sentence: 'She _____ the proposal during the meeting.',
+            question: 'She _____ the proposal during the meeting.',
             phrasalVerb: 'brought up',
             meaning: 'mentioned, raised for discussion',
             correctAnswer: 'brought up',
@@ -3284,19 +3308,19 @@ So {{9}} should job seekers focus on? {{10}} they need to develop is a combinati
         instructions: 'Practice pronouncing these cleft sentences with correct stress and intonation. Stressed words are in CAPITALS.',
         targetSentences: [
           {
-            sentence: 'What I NEED is more TIME.',
+            question: 'What I NEED is more TIME.',
             translation: 'Lo que necesito es más tiempo.',
             phonetic: '/wɒt aɪ ˈniːd ɪz mɔː ˈtaɪm/',
             audioUrl: '/audio/b2-m1-l3-pronun-1a.mp3'
           },
           {
-            sentence: 'It was MARIA who made the DECISION.',
+            question: 'It was MARIA who made the DECISION.',
             translation: 'Fue María quien tomó la decisión.',
             phonetic: '/ɪt wɒz məˈriːə huː meɪd ðə dɪˈsɪʒən/',
             audioUrl: '/audio/b2-m1-l3-pronun-1b.mp3'
           },
           {
-            sentence: 'What SURPRISED me most was their HONESTY.',
+            question: 'What SURPRISED me most was their HONESTY.',
             translation: 'Lo que más me sorprendió fue su honestidad.',
             phonetic: '/wɒt səˈpraɪzd miː məʊst wɒz ðeə ˈɒnəsti/',
             audioUrl: '/audio/b2-m1-l3-pronun-1c.mp3'
@@ -3340,9 +3364,9 @@ So {{9}} should job seekers focus on? {{10}} they need to develop is a combinati
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Choose the correct combination: While I ___ TV, the phone ___.',
+            question: 'Choose the correct combination: While I ___ TV, the phone ___.',
             correctAnswer: 'was watching / rang',
             explanation: 'Acción en progreso (was watching) interrumpida por acción completada (rang).',
             points: 1
@@ -3350,7 +3374,7 @@ So {{9}} should job seekers focus on? {{10}} they need to develop is a combinati
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete the sentence: By the time we ___ (arrive), the movie ___ (already/start).',
+            question: 'Complete the question: By the time we ___ (arrive), the movie ___ (already/start).',
             correctAnswer: 'arrived...had already started',
             explanation: 'La película empezó (past perfect) antes de que llegáramos (past simple).',
             points: 2
@@ -3384,10 +3408,10 @@ Looking back now, Sarah realized that what had seemed like an ordinary day had a
         readingTime: 4,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "Three years" for: How long had Dr. Chen been working on her project when she made the discovery?',
-            correctAnswer: 'False',
+            question: 'How long had Dr. Chen been working on her project when she made the discovery?',
+            correctAnswer: 'FalseThree years',
             explanation: 'Falso. El texto dice: "had been working...for nearly five years"',
             points: 1
           },
@@ -3400,7 +3424,7 @@ Looking back now, Sarah realized that what had seemed like an ordinary day had a
             points: 1
           },
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'What was Professor Martinez doing when Sarah called him?',
             correctAnswer: 'At a conference in Berlin',
@@ -3460,9 +3484,9 @@ Host: When did you attempt Everest?
 James: It was three years after I started training. By then, I had climbed peaks in South America and had been working with an experienced mountain guide for over a year. When I finally stood at the summit of Everest, I was thinking about my friend. I wish he could have been there. But in a way, he was—it was his death that had given me the courage to truly live.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'What was James doing before he decided to climb Everest. Answer: ___',
+            question: 'What was James doing before he decided to climb Everest?',
             correctAnswer: 'He was living an ordinary office life',
             explanation: 'James menciona: "I had been living a pretty ordinary life—working in an office"',
             points: 1
@@ -3484,10 +3508,10 @@ James: It was three years after I started training. By then, I had climbed peaks
             points: 1
           },
           {
-            id: '',
+            id: 'q6',
             type: 'true-false',
-            question: 'The correct answer is "One year" for: How long after he started training did James attempt Everest?',
-            correctAnswer: 'False',
+            question: 'How long after he started training did James attempt Everest?',
+            correctAnswer: 'FalseOne year',
             explanation: 'Falso. James menciona: "It was three years after I started training"',
             points: 1
           },
@@ -3570,7 +3594,7 @@ James: It was three years after I started training. By then, I had climbed peaks
         transformations: [
           {
             id: 'kt1',
-            sentence: 'I need some rest more than anything.',
+            question: 'I need some rest more than anything.',
             keyWord: 'what',
             startOfAnswer: 'What',
             correctAnswer: 'I need is some',
@@ -3579,7 +3603,7 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'kt2',
-            sentence: 'She won the competition last year.',
+            question: 'She won the competition last year.',
             keyWord: 'was',
             startOfAnswer: 'It',
             correctAnswer: 'was last year that',
@@ -3588,7 +3612,7 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'kt3',
-            sentence: 'The noise bothers me most.',
+            question: 'The noise bothers me most.',
             keyWord: 'what',
             startOfAnswer: 'What',
             correctAnswer: 'bothers me most is',
@@ -3597,7 +3621,7 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'kt4',
-            sentence: 'He bought the car in London.',
+            question: 'He bought the car in London.',
             keyWord: 'where',
             startOfAnswer: 'It was in',
             correctAnswer: 'London where he bought',
@@ -3606,7 +3630,7 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'kt5',
-            sentence: 'I really enjoy listening to music.',
+            question: 'I really enjoy listening to music.',
             keyWord: 'what',
             startOfAnswer: 'What',
             correctAnswer: 'I really enjoy is',
@@ -3615,7 +3639,7 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'kt6',
-            sentence: 'John told me about the accident.',
+            question: 'John told me about the accident.',
             keyWord: 'who',
             startOfAnswer: 'It was',
             correctAnswer: 'John who told me',
@@ -3632,7 +3656,7 @@ James: It was three years after I started training. By then, I had climbed peaks
         transformations: [
           {
             id: 'kt7',
-            sentence: 'I dislike his arrogance the most.',
+            question: 'I dislike his arrogance the most.',
             keyWord: 'thing',
             startOfAnswer: 'The',
             correctAnswer: 'thing I dislike most',
@@ -3641,7 +3665,7 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'kt8',
-            sentence: 'We need better communication, not more rules.',
+            question: 'We need better communication, not more rules.',
             keyWord: 'what',
             startOfAnswer: 'What',
             correctAnswer: 'we need is better',
@@ -3650,7 +3674,7 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'kt9',
-            sentence: 'The weather ruined our picnic.',
+            question: 'The weather ruined our picnic.',
             keyWord: 'that',
             startOfAnswer: 'It was the',
             correctAnswer: 'weather that ruined our',
@@ -3659,7 +3683,7 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'kt10',
-            sentence: 'She loves traveling more than anything else.',
+            question: 'She loves traveling more than anything else.',
             keyWord: 'thing',
             startOfAnswer: 'The',
             correctAnswer: 'thing she loves most',
@@ -3668,7 +3692,7 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'kt11',
-            sentence: 'They finally understood the problem yesterday.',
+            question: 'They finally understood the problem yesterday.',
             keyWord: 'when',
             startOfAnswer: 'It was',
             correctAnswer: 'yesterday when they finally',
@@ -3677,7 +3701,7 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'kt12',
-            sentence: 'We should focus on quality, not quantity.',
+            question: 'We should focus on quality, not quantity.',
             keyWord: 'what',
             startOfAnswer: 'What',
             correctAnswer: 'we should focus on',
@@ -3769,7 +3793,7 @@ James: It was three years after I started training. By then, I had climbed peaks
         sentences: [
           {
             id: 'e1',
-            sentence: 'When I arrived, they already left.',
+            question: 'When I arrived, they already left.',
             hasError: true,
             errorWord: 'left',
             correction: 'When I arrived, they had already left',
@@ -3778,7 +3802,7 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'e2',
-            sentence: 'She had been lived in Paris for three years when she got the job.',
+            question: 'She had been lived in Paris for three years when she got the job.',
             hasError: true,
             errorWord: 'lived',
             correction: 'She had been living in Paris for three years when she got the job',
@@ -3787,14 +3811,14 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'e3',
-            sentence: 'While he was reading, the phone rang.',
+            question: 'While he was reading, the phone rang.',
             hasError: false,
             explanation: 'Correct: Past Continuous interrupted by Past Simple.',
             points: 1
           },
           {
             id: 'e4',
-            sentence: 'I was knowing her for years before we became business partners.',
+            question: 'I was knowing her for years before we became business partners.',
             hasError: true,
             errorWord: 'was knowing',
             correction: 'I had known her for years before we became business partners',
@@ -3803,7 +3827,7 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'e5',
-            sentence: 'They have finished dinner when we called.',
+            question: 'They have finished dinner when we called.',
             hasError: true,
             errorWord: 'have finished',
             correction: 'They had finished dinner when we called',
@@ -3903,7 +3927,7 @@ James: It was three years after I started training. By then, I had climbed peaks
         items: [
           {
             id: 'pv1',
-            sentence: 'The meeting _____ longer than expected.',
+            question: 'The meeting _____ longer than expected.',
             phrasalVerb: 'went on',
             meaning: 'continued, lasted',
             correctAnswer: 'went on',
@@ -3913,7 +3937,7 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'pv2',
-            sentence: 'Looking back, I can see how everything _____.',
+            question: 'Looking back, I can see how everything _____.',
             phrasalVerb: 'worked out',
             meaning: 'developed, turned out',
             correctAnswer: 'worked out',
@@ -3923,7 +3947,7 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'pv3',
-            sentence: 'I _____ some old photos while cleaning the attic.',
+            question: 'I _____ some old photos while cleaning the attic.',
             phrasalVerb: 'came across',
             meaning: 'found by chance',
             correctAnswer: 'came across',
@@ -3933,7 +3957,7 @@ James: It was three years after I started training. By then, I had climbed peaks
           },
           {
             id: 'pv4',
-            sentence: 'The tradition has been _____ for generations.',
+            question: 'The tradition has been _____ for generations.',
             phrasalVerb: 'passed down',
             meaning: 'transmitted from one generation to another',
             correctAnswer: 'passed down',
@@ -4100,19 +4124,19 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
         instructions: 'Practice pronouncing these past tense forms with correct /t/, /d/, or /ɪd/ endings.',
         targetSentences: [
           {
-            sentence: 'She had WORKED for YEARS before she was PROMOTED.',
+            question: 'She had WORKED for YEARS before she was PROMOTED.',
             translation: 'Ella había trabajado durante años antes de ser promovida.',
             phonetic: '/ʃiː hæd ˈwɜːkt fɔː ˈjɪəz bɪˈfɔː ʃiː wɒz prəˈməʊtɪd/',
             audioUrl: '/audio/b2-m1-l4-pronun-1a.mp3'
           },
           {
-            sentence: 'They had LIVED in PARIS before they MOVED to ROME.',
+            question: 'They had LIVED in PARIS before they MOVED to ROME.',
             translation: 'Ellos habían vivido en París antes de mudarse a Roma.',
             phonetic: '/ðeɪ hæd ˈlɪvd ɪn ˈpærɪs bɪˈfɔː ðeɪ ˈmuːvd tə ˈrəʊm/',
             audioUrl: '/audio/b2-m1-l4-pronun-1b.mp3'
           },
           {
-            sentence: 'I had WANTED to VISIT for YEARS.',
+            question: 'I had WANTED to VISIT for YEARS.',
             translation: 'Había querido visitar durante años.',
             phonetic: '/aɪ hæd ˈwɒntɪd tə ˈvɪzɪt fɔː ˈjɪəz/',
             audioUrl: '/audio/b2-m1-l4-pronun-1c.mp3'
@@ -4176,9 +4200,9 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'The main character in a story is called the ___.',
+            question: 'The main character in a story is called the ___.',
             correctAnswer: 'protagonist',
             explanation: 'El protagonista es el personaje principal.',
             points: 1
@@ -4228,7 +4252,7 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
         transformations: [
           {
             id: 'kt1',
-            sentence: 'The film was so moving that I cried.',
+            question: 'The film was so moving that I cried.',
             keyWord: 'such',
             startOfAnswer: 'It was',
             correctAnswer: 'such a moving film',
@@ -4237,7 +4261,7 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
           },
           {
             id: 'kt2',
-            sentence: 'The plot is very complex and hard to follow.',
+            question: 'The plot is very complex and hard to follow.',
             keyWord: 'such',
             startOfAnswer: 'The plot is',
             correctAnswer: 'of such complexity that',
@@ -4246,7 +4270,7 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
           },
           {
             id: 'kt3',
-            sentence: 'The author describes the scene brilliantly.',
+            question: 'The author describes the scene brilliantly.',
             keyWord: 'brilliant',
             startOfAnswer: 'The author\'s',
             correctAnswer: 'description of the scene',
@@ -4255,7 +4279,7 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
           },
           {
             id: 'kt4',
-            sentence: 'Despite having a simple plot, the novel is engaging.',
+            question: 'Despite having a simple plot, the novel is engaging.',
             keyWord: 'although',
             startOfAnswer: 'Although',
             correctAnswer: 'the plot is simple',
@@ -4264,7 +4288,7 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
           },
           {
             id: 'kt5',
-            sentence: 'The character development is what impressed me most.',
+            question: 'The character development is what impressed me most.',
             keyWord: 'was',
             startOfAnswer: 'What',
             correctAnswer: 'impressed me most was',
@@ -4273,7 +4297,7 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
           },
           {
             id: 'kt6',
-            sentence: 'She is known for her vivid imagery.',
+            question: 'She is known for her vivid imagery.',
             keyWord: 'known',
             startOfAnswer: 'She',
             correctAnswer: 'is known to use',
@@ -4290,7 +4314,7 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
         transformations: [
           {
             id: 'kt7',
-            sentence: 'In my opinion, this is the best book of the year.',
+            question: 'In my opinion, this is the best book of the year.',
             keyWord: 'far',
             startOfAnswer: 'This is',
             correctAnswer: 'by far the best',
@@ -4299,7 +4323,7 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
           },
           {
             id: 'kt8',
-            sentence: 'The performances were so good that the audience stood up.',
+            question: 'The performances were so good that the audience stood up.',
             keyWord: 'were',
             startOfAnswer: 'Such',
             correctAnswer: 'were the performances that',
@@ -4308,7 +4332,7 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
           },
           {
             id: 'kt9',
-            sentence: 'I found the ending disappointing.',
+            question: 'I found the ending disappointing.',
             keyWord: 'disappointed',
             startOfAnswer: 'I was',
             correctAnswer: 'disappointed by the ending',
@@ -4335,7 +4359,7 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
           },
           {
             id: 'kt12',
-            sentence: 'I would recommend this film without hesitation.',
+            question: 'I would recommend this film without hesitation.',
             keyWord: 'hesitate',
             startOfAnswer: 'I wouldn\'t',
             correctAnswer: 'hesitate to recommend this',
@@ -4518,7 +4542,7 @@ Critics might {{6}} that watching films or series could provide similar benefits
         sentences: [
           {
             id: 'ei1',
-            sentence: 'The novel explores themes such as identity, belonging, and what does it mean to be human.',
+            question: 'The novel explores themes such as identity, belonging, and what does it mean to be human.',
             error: 'what does it mean',
             correction: 'what it means',
             explanation: 'In a list of noun phrases, use "what it means" (noun clause), not question form.',
@@ -4536,7 +4560,7 @@ Critics might {{6}} that watching films or series could provide similar benefits
           },
           {
             id: 'ei3',
-            sentence: 'What makes the story unique is the way how the author blends reality with fantasy.',
+            question: 'What makes the story unique is the way how the author blends reality with fantasy.',
             error: 'the way how',
             correction: 'the way (that) / how',
             explanation: 'Use either "the way (that)" or "how", never both together.',
@@ -4545,7 +4569,7 @@ Critics might {{6}} that watching films or series could provide similar benefits
           },
           {
             id: 'ei4',
-            sentence: 'The film adaptation fails capturing the nuanced emotions of the original novel.',
+            question: 'The film adaptation fails capturing the nuanced emotions of the original novel.',
             error: 'fails capturing',
             correction: 'fails to capture',
             explanation: '"Fail" is followed by infinitive with "to", not gerund.',
@@ -4687,7 +4711,7 @@ Critics might {{6}} that watching films or series could provide similar benefits
           {
             id: 'pv1',
             type: 'fill-blank',
-            sentence: 'The critic _____ the historical context to support her interpretation.',
+            question: 'The critic _____ the historical context to support her interpretation.',
             correctAnswer: 'drew on',
             points: 2
           },
@@ -4867,9 +4891,9 @@ For readers, developing the ability to recognize and interpret metaphors enriche
         readingTime: 3,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'According to the text, what is the main difference between similes and metaphors. Answer: ___',
+            question: 'According to the text, what is the main difference between similes and metaphors?',
             correctAnswer: 'Metaphors assert identity rather than comparison',
             explanation: 'El texto dice: "metaphors assert that one thing is another" unlike similes which compare.',
             points: 2
@@ -4883,7 +4907,7 @@ For readers, developing the ability to recognize and interpret metaphors enriche
             points: 2
           },
           {
-            id: '',
+            id: 'q2',
             type: 'short-answer',
             question: 'What term does the text use for an extended, sustained metaphor?',
             correctAnswer: 'Conceit',
@@ -5096,9 +5120,9 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
         readingTime: 2,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'What is the main topic of the passage. Answer: ___',
+            question: 'What is the main topic of the passage?',
             correctAnswer: 'The science of déjà vu',
             explanation: 'El texto habla sobre la investigación científica del fenómeno déjà vu.',
             points: 2
@@ -5147,7 +5171,7 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
         transformations: [
           {
             id: 'kt1',
-            sentence: 'By the time I arrived, they had already left.',
+            question: 'By the time I arrived, they had already left.',
             keyWord: 'left',
             startOfAnswer: 'They had',
             correctAnswer: 'already left by the',
@@ -5156,7 +5180,7 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
           },
           {
             id: 'kt2',
-            sentence: 'If I were you, I would accept the offer.',
+            question: 'If I were you, I would accept the offer.',
             keyWord: 'place',
             startOfAnswer: 'If I were',
             correctAnswer: 'in your place I',
@@ -5165,7 +5189,7 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
           },
           {
             id: 'kt3',
-            sentence: 'The company is building a new factory.',
+            question: 'The company is building a new factory.',
             keyWord: 'being',
             startOfAnswer: 'A new factory',
             correctAnswer: 'is being built by',
@@ -5174,7 +5198,7 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
           },
           {
             id: 'kt4',
-            sentence: 'She succeeded because of her determination.',
+            question: 'She succeeded because of her determination.',
             keyWord: 'was',
             startOfAnswer: 'It',
             correctAnswer: 'was her determination that',
@@ -5192,7 +5216,7 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
           },
           {
             id: 'kt6',
-            sentence: 'You must hand in your assignment by Friday.',
+            question: 'You must hand in your assignment by Friday.',
             keyWord: 'handed',
             startOfAnswer: 'Your assignment',
             correctAnswer: 'must be handed in',
@@ -5209,7 +5233,7 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
         transformations: [
           {
             id: 'kt7',
-            sentence: 'I regret not learning to play the piano.',
+            question: 'I regret not learning to play the piano.',
             keyWord: 'wish',
             startOfAnswer: 'I',
             correctAnswer: 'wish I had learned',
@@ -5218,7 +5242,7 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
           },
           {
             id: 'kt8',
-            sentence: 'He is certain to win the competition.',
+            question: 'He is certain to win the competition.',
             keyWord: 'will',
             startOfAnswer: 'He',
             correctAnswer: 'will definitely win the',
@@ -5227,7 +5251,7 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
           },
           {
             id: 'kt9',
-            sentence: 'No sooner had we started the meeting than the fire alarm rang.',
+            question: 'No sooner had we started the meeting than the fire alarm rang.',
             keyWord: 'hardly',
             startOfAnswer: 'We had',
             correctAnswer: 'hardly started the meeting',
@@ -5236,7 +5260,7 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
           },
           {
             id: 'kt10',
-            sentence: 'The main problem is lack of funding.',
+            question: 'The main problem is lack of funding.',
             keyWord: 'needs',
             startOfAnswer: 'What',
             correctAnswer: 'we need is more',
@@ -5245,7 +5269,7 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
           },
           {
             id: 'kt11',
-            sentence: 'Someone should have told me about the changes.',
+            question: 'Someone should have told me about the changes.',
             keyWord: 'been',
             startOfAnswer: 'I should',
             correctAnswer: 'have been told about',
@@ -5254,7 +5278,7 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
           },
           {
             id: 'kt12',
-            sentence: 'Despite being tired, she finished the project.',
+            question: 'Despite being tired, she finished the project.',
             keyWord: 'though',
             startOfAnswer: 'Even',
             correctAnswer: 'though she was tired',
@@ -5345,7 +5369,7 @@ Environmental design can also support habit formation. By manipulating cues in y
         readingTime: 5,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'According to the text, approximately what percentage of daily actions are habits?',
             correctAnswer: '40%',
@@ -5361,9 +5385,9 @@ Environmental design can also support habit formation. By manipulating cues in y
             points: 3
           },
           {
-            id: '',
+            id: 'q3',
             type: 'fill-blank',
-            sentence: 'Where in the brain are habits encoded according to Ann Graybiel. Answer: ___',
+            question: 'Where in the brain are habits encoded according to Ann Graybiel?',
             correctAnswer: 'The basal ganglia',
             explanation: 'El texto menciona: "habits become encoded in the basal ganglia".',
             points: 2
@@ -5377,10 +5401,10 @@ Environmental design can also support habit formation. By manipulating cues in y
             points: 1
           },
           {
-            id: '',
+            id: 'q2',
             type: 'true-false',
-            question: 'The correct answer is "Keep the cue and reward but change the routine" for: According to researchers, what is the most effective way to break a bad habit?',
-            correctAnswer: 'True',
+            question: 'According to researchers, what is the most effective way to break a bad habit?',
+            correctAnswer: 'TrueKeep the cue and reward but change the routine',
             explanation: 'El texto explica: "keep the cue and the reward while changing the routine".',
             points: 2
           },
@@ -5393,7 +5417,7 @@ Environmental design can also support habit formation. By manipulating cues in y
             points: 3
           },
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'Who is the author of "The Power of Habit" mentioned in the text?',
             correctAnswer: 'Charles Duhigg',
@@ -5475,9 +5499,9 @@ Dr. Williams: That's perhaps the biggest productivity myth of all. What neurosci
 What successful people do instead is practice what I call "single-tasking"—giving full attention to one thing at a time. It might feel slower initially, but the quality of work is dramatically higher, and you actually complete tasks faster because you're not constantly reorienting yourself.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'According to Dr. Williams, what sets high performers apart. Answer: ___',
+            question: 'According to Dr. Williams, what sets high performers apart?',
             correctAnswer: 'Working with intention and focus',
             explanation: 'Dr. Williams dice: "what consistently sets them apart is...they work with more intention and focus".',
             points: 2
@@ -5507,10 +5531,10 @@ What successful people do instead is practice what I call "single-tasking"—giv
             points: 1
           },
           {
-            id: '',
+            id: 'q3',
             type: 'true-false',
-            question: 'The correct answer is "23 minutes" for: How long can it take to regain deep focus after an interruption?',
-            correctAnswer: 'True',
+            question: 'How long can it take to regain deep focus after an interruption?',
+            correctAnswer: 'True23 minutes',
             explanation: 'El texto menciona: "it can take 23 minutes to fully regain deep focus".',
             points: 1
           },
@@ -5539,9 +5563,9 @@ What successful people do instead is practice what I call "single-tasking"—giv
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'The report ___ by the time you arrive tomorrow.',
+            question: 'The report ___ by the time you arrive tomorrow.',
             correctAnswer: 'will have been finished',
             explanation: 'Future perfect passive for action completed before future time.',
             points: 2
@@ -5555,9 +5579,9 @@ What successful people do instead is practice what I call "single-tasking"—giv
             points: 2
           },
           {
-            id: '',
+            id: 'q4',
             type: 'fill-blank',
-            sentence: 'Choose correct tenses: While I ___ home, I ___ my old teacher.',
+            question: 'Choose correct tenses: While I ___ home, I ___ my old teacher.',
             correctAnswer: 'was walking / met',
             explanation: 'Past continuous for background + Past simple for completed action.',
             points: 2
@@ -5585,7 +5609,7 @@ What successful people do instead is practice what I call "single-tasking"—giv
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'Which word means "present everywhere"?',
             correctAnswer: 'ubiquitous',
@@ -5610,7 +5634,7 @@ What successful people do instead is practice what I call "single-tasking"—giv
         sentences: [
           {
             id: 'ec1',
-            sentence: 'What I need it is more time to finish the project.',
+            question: 'What I need it is more time to finish the project.',
             error: 'it is',
             correction: 'is',
             explanation: 'In what-cleft sentences, don\'t include "it" after "what I need".',
@@ -5619,7 +5643,7 @@ What successful people do instead is practice what I call "single-tasking"—giv
           },
           {
             id: 'ec2',
-            sentence: 'The bridge was building when the earthquake struck.',
+            question: 'The bridge was building when the earthquake struck.',
             error: 'was building',
             correction: 'was being built',
             explanation: 'Passive continuous: was/were being + past participle.',
@@ -5628,7 +5652,7 @@ What successful people do instead is practice what I call "single-tasking"—giv
           },
           {
             id: 'ec3',
-            sentence: 'She was living in Paris for five years before moving to London.',
+            question: 'She was living in Paris for five years before moving to London.',
             error: 'was living',
             correction: 'had been living / had lived',
             explanation: 'Use past perfect (continuous) for duration before past action.',
@@ -5637,7 +5661,7 @@ What successful people do instead is practice what I call "single-tasking"—giv
           },
           {
             id: 'ec4',
-            sentence: 'It was in 2020 when everything changed.',
+            question: 'It was in 2020 when everything changed.',
             error: 'when',
             correction: 'that',
             explanation: 'It-cleft sentences use "that" (or "who" for people), not "when".',
@@ -5646,7 +5670,7 @@ What successful people do instead is practice what I call "single-tasking"—giv
           },
           {
             id: 'ec5',
-            sentence: 'The decision should have made earlier.',
+            question: 'The decision should have made earlier.',
             error: 'should have made',
             correction: 'should have been made',
             explanation: 'Modal perfect passive requires "been" before past participle.',
@@ -5716,14 +5740,14 @@ What successful people do instead is practice what I call "single-tasking"—giv
           {
             id: 'pv1',
             type: 'fill-blank',
-            sentence: 'The researchers _____ a comprehensive study on social behavior.',
+            question: 'The researchers _____ a comprehensive study on social behavior.',
             correctAnswer: 'carried out',
             points: 2
           },
           {
             id: 'pv2',
             type: 'fill-blank',
-            sentence: 'The new technology will _____ major changes in how we work.',
+            question: 'The new technology will _____ major changes in how we work.',
             correctAnswer: 'bring about',
             points: 2
           }
@@ -5776,9 +5800,9 @@ Speaking Tips:
         readingTime: 3,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'How long do you have for the Reading & Use of English section. Answer: ___',
+            question: 'How long do you have for the Reading & Use of English section?',
             correctAnswer: '75 minutes',
             explanation: 'El texto indica: "75 minutes for 7 parts".',
             points: 1
@@ -5857,7 +5881,7 @@ The skills you've been {{7}} will serve you in academic, professional, and socia
         items: [
           {
             id: 'pv1',
-            sentence: 'Students who ___ with creative solutions often score higher on writing tasks.',
+            question: 'Students who ___ with creative solutions often score higher on writing tasks.',
             phrasalVerb: 'come up',
             meaning: 'to think of or produce an idea',
             correctAnswer: 'come up',
@@ -5867,7 +5891,7 @@ The skills you've been {{7}} will serve you in academic, professional, and socia
           },
           {
             id: 'pv2',
-            sentence: 'Make sure to ___ over your essay before submitting it to catch any errors.',
+            question: 'Make sure to ___ over your essay before submitting it to catch any errors.',
             phrasalVerb: 'go over',
             meaning: 'to review or check carefully',
             correctAnswer: 'go over',
@@ -5877,7 +5901,7 @@ The skills you've been {{7}} will serve you in academic, professional, and socia
           },
           {
             id: 'pv3',
-            sentence: 'The teacher ___ the importance of practicing all four language skills regularly.',
+            question: 'The teacher ___ the importance of practicing all four language skills regularly.',
             phrasalVerb: 'pointed out',
             meaning: 'to emphasize or draw attention to',
             correctAnswer: 'pointed out',
@@ -5943,7 +5967,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'Choose the correct modal: The lights are on. Someone ___ be home.',
             correctAnswer: 'must',
@@ -5953,7 +5977,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: She\'s not answering. She ___ be in a meeting.',
+            question: 'She\'s not answering. She ___ be in a meeting.',
             correctAnswer: 'might/could/may',
             explanation: 'Expresamos posibilidad, no certeza.',
             points: 1
@@ -6000,15 +6024,15 @@ export const MODULE_2_LESSONS: Lesson[] = [
         text: `Detective work requires careful observation and logical thinking. When examining a crime scene, investigators (1)_____ draw conclusions based on the evidence they find. They (2)_____ be completely certain at first, but as they gather more information, patterns begin to emerge. For example, if there are muddy footprints leading to a window, it (3)_____ that someone entered through that route. However, investigators (4)_____ rule out other possibilities too quickly. What appears obvious (5)_____ be misleading. A skilled detective knows that circumstances (6)_____ always be what they seem. That's why they (7)_____ consider multiple scenarios before reaching a final conclusion. In many cases, the smallest detail (8)_____ the key to solving the entire mystery.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: '1. _____',
+            question: '1. _____',
             correctAnswer: 'must',
             explanation: '"Must" is used for strong logical deductions based on evidence.',
             points: 1
           },
           {
-            id: '',
+            id: 'q2',
             type: 'true-false',
             question: '2. mightn\'t',
             correctAnswer: 'False',
@@ -6016,7 +6040,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
             points: 1
           },
           {
-            id: '',
+            id: 'q3',
             type: 'short-answer',
             question: '3. _____',
             correctAnswer: 'suggests',
@@ -6024,15 +6048,15 @@ export const MODULE_2_LESSONS: Lesson[] = [
             points: 2
           },
           {
-            id: '',
+            id: 'q4',
             type: 'fill-blank',
-            sentence: '4. _____',
+            question: '4. _____',
             correctAnswer: 'mustn\\',
             explanation: '"Mustn\\\'t" means "must not" and expresses prohibition/strong advice not to do something.',
             points: 1
           },
           {
-            id: '',
+            id: 'q5',
             type: 'true-false',
             question: '5. may',
             correctAnswer: 'True',
@@ -6040,23 +6064,23 @@ export const MODULE_2_LESSONS: Lesson[] = [
             points: 1
           },
           {
-            id: '',
+            id: 'q6',
             type: 'fill-blank',
-            sentence: '6. _____',
+            question: '6. _____',
             correctAnswer: 'can\\',
             explanation: '"Can\\\'t always be" means "are not always" - expressing impossibility of things always being as they seem.',
             points: 1
           },
           {
-            id: '',
+            id: 'q7',
             type: 'fill-blank',
-            sentence: '7. _____',
+            question: '7. _____',
             correctAnswer: 'must',
             explanation: '"Must" expresses strong necessity/obligation.',
             points: 1
           },
           {
-            id: '',
+            id: 'q8',
             type: 'short-answer',
             question: '8. _____',
             correctAnswer: 'can prove',
@@ -6081,9 +6105,9 @@ export const MODULE_2_LESSONS: Lesson[] = [
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Complete: form: They\\ → ___',
+            question: 'form: They\\ → ___',
             correctAnswer: 'must have left',
             explanation: 'Deducción fuerte sobre el pasado: must have + past participle.',
             points: 2
@@ -6091,7 +6115,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: I can\'t find my keys. I ___ ___ them at work.',
+            question: 'I can\'t find my keys. I ___ ___ them at work.',
             correctAnswer: 'must have left/might have left',
             explanation: 'Deducción sobre dónde dejé las llaves.',
             points: 2
@@ -6155,7 +6179,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
         sentences: [
           {
             id: 'ei1',
-            sentence: 'She must be very tired yesterday after working 12 hours.',
+            question: 'She must be very tired yesterday after working 12 hours.',
             error: 'must be...yesterday',
             correction: 'must have been...yesterday',
             explanation: 'For past deductions, use "must have been", not "must be".',
@@ -6173,7 +6197,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
           },
           {
             id: 'ei3',
-            sentence: 'He might has forgotten about the meeting.',
+            question: 'He might has forgotten about the meeting.',
             error: 'might has',
             correction: 'might have',
             explanation: 'Modal + have (not has) + past participle for past possibility.',
@@ -6182,7 +6206,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
           },
           {
             id: 'ei4',
-            sentence: 'You must have been enjoyed the concert last night.',
+            question: 'You must have been enjoyed the concert last night.',
             error: 'have been enjoyed',
             correction: 'have enjoyed',
             explanation: 'Must have + past participle (enjoyed), not past participle of "be" + past participle.',
@@ -6219,7 +6243,7 @@ The mystery remains unsolved to this day. The crew can't have simply disappeared
         readingTime: 3,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'What condition was the Mary Celeste in when found?',
             correctAnswer: 'In perfect condition',
@@ -6235,9 +6259,9 @@ The mystery remains unsolved to this day. The crew can't have simply disappeared
             points: 2
           },
           {
-            id: '',
+            id: 'q5',
             type: 'fill-blank',
-            sentence: 'Which modal does the text use to express what probably happened to the crew. Answer: ___',
+            question: 'Which modal does the text use to express what probably happened to the crew?',
             correctAnswer: 'The crew might have panicked',
             explanation: 'El texto usa "must have" y "might have" para especular sobre lo que pasó.',
             points: 2
@@ -6391,12 +6415,12 @@ The mystery remains unsolved to this day. The crew can't have simply disappeared
           {
             id: 'pv1',
             type: 'fill-blank',
-            sentence: 'Investigators are trying to _____ what caused the accident.',
+            question: 'Investigators are trying to _____ what caused the accident.',
             correctAnswer: 'figure out',
             points: 2
           },
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
             question: 'the correct phrasal verb: The committee needs to look into the investigation thoroughly.',
             correctAnswer: 'True',
@@ -6547,7 +6571,7 @@ Witness: Her cat was in the hallway, which was odd. She can't have planned to be
 Detective: That's a reasonable explanation. We'll check the shop's security footage.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'Why does the witness think the door had been open for some time?',
             correctAnswer: 'The mail was scattered on the floor',
@@ -6571,9 +6595,9 @@ Detective: That's a reasonable explanation. We'll check the shop's security foot
             points: 1
           },
           {
-            id: '',
+            id: 'q7',
             type: 'fill-blank',
-            sentence: 'Why does the witness think Ms. Chen can\\. Answer: ___',
+            question: 'Why does the witness think Ms. Chen can\\?',
             correctAnswer: 'She wouldn\\',
             explanation: '"She can\\\'t have planned to be away long because she wouldn\\\'t have left the cat alone".',
             points: 2
@@ -6596,10 +6620,10 @@ Detective: That's a reasonable explanation. We'll check the shop's security foot
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "irrefutable" for: Which word means "impossible to deny or disprove"?',
-            correctAnswer: 'True',
+            question: 'Which word means "impossible to deny or disprove"?',
+            correctAnswer: 'Trueirrefutable',
             explanation: 'Irrefutable significa irrefutable, imposible de negar.',
             points: 1
           },
@@ -6644,7 +6668,7 @@ Detective: That's a reasonable explanation. We'll check the shop's security foot
         transformations: [
           {
             id: 'kt1',
-            sentence: 'I\'m sure she didn\'t understand the instructions.',
+            question: 'I\'m sure she didn\'t understand the instructions.',
             keyWord: 'can\'t',
             startOfAnswer: 'She',
             correctAnswer: 'can\'t have understood the',
@@ -6653,7 +6677,7 @@ Detective: That's a reasonable explanation. We'll check the shop's security foot
           },
           {
             id: 'kt2',
-            sentence: 'Perhaps they forgot about the meeting.',
+            question: 'Perhaps they forgot about the meeting.',
             keyWord: 'might',
             startOfAnswer: 'They',
             correctAnswer: 'might have forgotten about',
@@ -6662,7 +6686,7 @@ Detective: That's a reasonable explanation. We'll check the shop's security foot
           },
           {
             id: 'kt3',
-            sentence: 'I\'m certain this is the right answer.',
+            question: 'I\'m certain this is the right answer.',
             keyWord: 'must',
             startOfAnswer: 'This',
             correctAnswer: 'must be the right',
@@ -6671,7 +6695,7 @@ Detective: That's a reasonable explanation. We'll check the shop's security foot
           },
           {
             id: 'kt4',
-            sentence: 'It\'s impossible that he knew about this.',
+            question: 'It\'s impossible that he knew about this.',
             keyWord: 'have',
             startOfAnswer: 'He can\'t',
             correctAnswer: 'have known about this',
@@ -6680,7 +6704,7 @@ Detective: That's a reasonable explanation. We'll check the shop's security foot
           },
           {
             id: 'kt5',
-            sentence: 'I\'m sure they were surprised by the news.',
+            question: 'I\'m sure they were surprised by the news.',
             keyWord: 'must',
             startOfAnswer: 'They',
             correctAnswer: 'must have been surprised',
@@ -6689,7 +6713,7 @@ Detective: That's a reasonable explanation. We'll check the shop's security foot
           },
           {
             id: 'kt6',
-            sentence: 'Maybe she is working late tonight.',
+            question: 'Maybe she is working late tonight.',
             keyWord: 'could',
             startOfAnswer: 'She',
             correctAnswer: 'could be working late',
@@ -6796,9 +6820,9 @@ The truth must lie somewhere in the evidence, yet more than 60 years later, we s
         readingTime: 4,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'What does the cut tent suggest about how the hikers left. Answer: ___',
+            question: 'What does the cut tent suggest about how the hikers left?',
             correctAnswer: 'They left in a state of panic',
             explanation: 'The text states: "The hikers must have left their tent in extreme panic".',
             points: 1
@@ -6820,9 +6844,9 @@ The truth must lie somewhere in the evidence, yet more than 60 years later, we s
             points: 2
           },
           {
-            id: '',
+            id: 'q8',
             type: 'fill-blank',
-            sentence: 'According to the text, which theory involves unusual weather conditions. Answer: ___',
+            question: 'According to the text, which theory involves unusual weather conditions?',
             correctAnswer: 'Infrasound-generating winds',
             explanation: 'The text mentions "infrasound-generating winds that could have induced panic" as a meteorological theory.',
             points: 1
@@ -6881,7 +6905,7 @@ The truth must lie somewhere in the evidence, yet more than 60 years later, we s
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'Transform to passive: "They are building a new hospital."',
             correctAnswer: 'A new hospital is being built.',
@@ -7007,9 +7031,9 @@ As we move forward, experts predict that hybrid models will become the {{7}}. Ra
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'I ___ my watch repaired last week.',
+            question: 'I ___ my watch repaired last week.',
             correctAnswer: 'had',
             explanation: 'Past simple para acción completada en el pasado.',
             points: 2
@@ -7017,7 +7041,7 @@ As we move forward, experts predict that hybrid models will become the {{7}}. Ra
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: She\'s ___ her nails ___ at the salon.',
+            question: 'She\'s ___ her nails ___ at the salon.',
             correctAnswer: 'getting/having, done',
             explanation: 'Get/have + object + past participle para servicios.',
             points: 2
@@ -7092,7 +7116,7 @@ As we move forward, experts predict that hybrid models will become the {{7}}. Ra
         sentences: [
           {
             id: 'ei1',
-            sentence: 'The report was been completed yesterday.',
+            question: 'The report was been completed yesterday.',
             error: 'was been',
             correction: 'was',
             explanation: 'Use "was completed" (past simple passive), not "was been completed".',
@@ -7101,7 +7125,7 @@ As we move forward, experts predict that hybrid models will become the {{7}}. Ra
           },
           {
             id: 'ei2',
-            sentence: 'The building is being build by a local company.',
+            question: 'The building is being build by a local company.',
             error: 'build',
             correction: 'built',
             explanation: 'Past participle is "built", not "build".',
@@ -7110,7 +7134,7 @@ As we move forward, experts predict that hybrid models will become the {{7}}. Ra
           },
           {
             id: 'ei3',
-            sentence: 'The letter should be send before Friday.',
+            question: 'The letter should be send before Friday.',
             error: 'send',
             correction: 'sent',
             explanation: 'Past participle is "sent", not "send".',
@@ -7119,7 +7143,7 @@ As we move forward, experts predict that hybrid models will become the {{7}}. Ra
           },
           {
             id: 'ei4',
-            sentence: 'I had cut my hair at the salon yesterday.',
+            question: 'I had cut my hair at the salon yesterday.',
             error: 'had cut',
             correction: 'had my hair cut',
             explanation: 'Use causative "had my hair cut" (someone else cut it).',
@@ -7128,7 +7152,7 @@ As we move forward, experts predict that hybrid models will become the {{7}}. Ra
           },
           {
             id: 'ei5',
-            sentence: 'The results have published in the journal.',
+            question: 'The results have published in the journal.',
             error: 'have published',
             correction: 'have been published',
             explanation: 'Present perfect passive needs "have been" + past participle.',
@@ -7156,7 +7180,7 @@ Today, the restored frescoes are considered one of the greatest achievements in 
         readingTime: 3,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'What does "was undertaken" in the first paragraph mean?',
             correctAnswer: 'Was started/begun',
@@ -7180,9 +7204,9 @@ Today, the restored frescoes are considered one of the greatest achievements in 
             points: 1
           },
           {
-            id: '',
+            id: 'q9',
             type: 'fill-blank',
-            sentence: 'According to the text, what was discovered during the cleaning. Answer: ___',
+            question: 'According to the text, what was discovered during the cleaning?',
             correctAnswer: 'Michelangelo used bright, vivid colors',
             explanation: 'The text states "he had actually used bright, vivid colors".',
             points: 2
@@ -7325,12 +7349,12 @@ Today, the restored frescoes are considered one of the greatest achievements in 
           {
             id: 'pv1',
             type: 'fill-blank',
-            sentence: 'The research was _____ _____ by a team of international scientists.',
+            question: 'The research was _____ _____ by a team of international scientists.',
             correctAnswer: 'carried out',
             points: 2
           },
           {
-            id: '',
+            id: 'q2',
             type: 'true-false',
             question: 'the correct phrasal verb: A new theory has been put forward to explain the data.',
             correctAnswer: 'True',
@@ -7476,7 +7500,7 @@ Anchor: When might this treatment be made available to patients?
 Dr. Mitchell: If everything goes well, the therapy could be approved for clinical use within five to ten years. But it's important that expectations are managed—many promising treatments are abandoned during the trial phase when unexpected problems are encountered.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'How was the discovery described?',
             correctAnswer: 'It was made accidentally',
@@ -7500,9 +7524,9 @@ Dr. Mitchell: If everything goes well, the therapy could be approved for clinica
             points: 1
           },
           {
-            id: '',
+            id: 'q10',
             type: 'fill-blank',
-            sentence: 'What will happen first in the testing process. Answer: ___',
+            question: 'What will happen first in the testing process?',
             correctAnswer: 'Animal model tests',
             explanation: 'Dr. Mitchell says: "First, the treatment will be tested on animal models".',
             points: 2
@@ -7533,10 +7557,10 @@ Dr. Mitchell: If everything goes well, the therapy could be approved for clinica
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "constitute" for: Which word means "to carry out research"?',
-            correctAnswer: 'False',
+            question: 'Which word means "to carry out research"?',
+            correctAnswer: 'Falseconstitute',
             explanation: 'Falso. Conduct = realizar, llevar a cabo.',
             points: 1
           },
@@ -7593,7 +7617,7 @@ Dr. Mitchell: If everything goes well, the therapy could be approved for clinica
         transformations: [
           {
             id: 'kt1',
-            sentence: 'They published the report last week.',
+            question: 'They published the report last week.',
             keyWord: 'was',
             startOfAnswer: 'The report',
             correctAnswer: 'was published last week',
@@ -7602,7 +7626,7 @@ Dr. Mitchell: If everything goes well, the therapy could be approved for clinica
           },
           {
             id: 'kt2',
-            sentence: 'Someone needs to repair this machine urgently.',
+            question: 'Someone needs to repair this machine urgently.',
             keyWord: 'needs',
             startOfAnswer: 'This machine',
             correctAnswer: 'needs to be repaired',
@@ -7611,7 +7635,7 @@ Dr. Mitchell: If everything goes well, the therapy could be approved for clinica
           },
           {
             id: 'kt3',
-            sentence: 'A mechanic serviced my car yesterday.',
+            question: 'A mechanic serviced my car yesterday.',
             keyWord: 'had',
             startOfAnswer: 'I',
             correctAnswer: 'had my car serviced',
@@ -7620,7 +7644,7 @@ Dr. Mitchell: If everything goes well, the therapy could be approved for clinica
           },
           {
             id: 'kt4',
-            sentence: 'They say that exercise improves health.',
+            question: 'They say that exercise improves health.',
             keyWord: 'said',
             startOfAnswer: 'It',
             correctAnswer: 'is said that exercise',
@@ -7629,7 +7653,7 @@ Dr. Mitchell: If everything goes well, the therapy could be approved for clinica
           },
           {
             id: 'kt5',
-            sentence: 'People believe that the company will expand.',
+            question: 'People believe that the company will expand.',
             keyWord: 'believed',
             startOfAnswer: 'The company',
             correctAnswer: 'is believed to expand',
@@ -7638,7 +7662,7 @@ Dr. Mitchell: If everything goes well, the therapy could be approved for clinica
           },
           {
             id: 'kt6',
-            sentence: 'Workers are building a new bridge.',
+            question: 'Workers are building a new bridge.',
             keyWord: 'being',
             startOfAnswer: 'A new bridge',
             correctAnswer: 'is being built by',
@@ -7748,9 +7772,9 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
         readingTime: 4,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Why did the French attempt fail. Answer: ___',
+            question: 'Why did the French attempt fail?',
             correctAnswer: 'Diseases and poor planning',
             explanation: 'The text mentions "thousands of workers were killed by tropical diseases" and "poor planning and inadequate funding".',
             points: 1
@@ -7780,9 +7804,9 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
             points: 2
           },
           {
-            id: '',
+            id: 'q4',
             type: 'fill-blank',
-            sentence: 'What does "was undertaken" mean in paragraph 2. Answer: ___',
+            question: 'What does "was undertaken" mean in paragraph 2?',
             correctAnswer: 'Was started/begun',
             explanation: '"Was undertaken" means was started or initiated.',
             points: 1
@@ -7836,7 +7860,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: '"I didn\\',
             correctAnswer: 'denied',
@@ -7893,15 +7917,15 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
         text: `Recent studies have shown that digital communication is transforming the way people interact. Researchers (1)_____ that while technology offers unprecedented connectivity, it also presents unique challenges. Many experts (2)_____ concern about the decline in face-to-face conversations, particularly among younger generations. They (3)_____ that excessive screen time might be affecting social skills development. However, (4)_____ all agree that technology is inherently harmful. Some researchers (5)_____ out that digital tools can actually enhance communication when used appropriately. The key, they argue, (6)_____ in finding the right balance. Parents often (7)_____ their children to limit device usage, yet many struggle to (8)_____ a good example themselves. This inconsistency, psychologists warn, could undermine the message they're trying to convey.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: '1. _____',
+            question: '1. _____',
             correctAnswer: 'claim',
             explanation: '"Claim" is used for reporting statements without "that" being mandatory, fitting reported speech context.',
             points: 1
           },
           {
-            id: '',
+            id: 'q2',
             type: 'short-answer',
             question: '2. _____',
             correctAnswer: 'express',
@@ -7909,15 +7933,15 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
             points: 2
           },
           {
-            id: '',
+            id: 'q3',
             type: 'fill-blank',
-            sentence: '3. _____',
+            question: '3. _____',
             correctAnswer: 'worry',
             explanation: '"Worry" is the only option that can be followed by "that" clause in this context.',
             points: 1
           },
           {
-            id: '',
+            id: 'q4',
             type: 'true-false',
             question: '4. not',
             correctAnswer: 'True',
@@ -7925,7 +7949,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
             points: 1
           },
           {
-            id: '',
+            id: 'q5',
             type: 'short-answer',
             question: '5. _____',
             correctAnswer: 'point',
@@ -7933,15 +7957,15 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
             points: 2
           },
           {
-            id: '',
+            id: 'q6',
             type: 'fill-blank',
-            sentence: '6. _____',
+            question: '6. _____',
             correctAnswer: 'lies',
             explanation: '"The key lies in" is the correct collocation meaning "the solution is found in".',
             points: 1
           },
           {
-            id: '',
+            id: 'q7',
             type: 'true-false',
             question: '7. advise',
             correctAnswer: 'True',
@@ -7949,9 +7973,9 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
             points: 1
           },
           {
-            id: '',
+            id: 'q8',
             type: 'fill-blank',
-            sentence: '8. _____',
+            question: '8. _____',
             correctAnswer: 'set',
             explanation: '"Set an example" is the correct collocation meaning to behave as a model for others.',
             points: 1
@@ -7974,9 +7998,9 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: '"I can help you." → She said she ___ help me.',
+            question: '"I can help you." → She said she ___ help me.',
             correctAnswer: 'could',
             explanation: 'Can cambia a could en reported speech.',
             points: 2
@@ -8059,7 +8083,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
         sentences: [
           {
             id: 'ei1',
-            sentence: 'He said me that he was tired.',
+            question: 'He said me that he was tired.',
             error: 'said me',
             correction: 'told me',
             explanation: 'Use "told + person", not "said + person". "Said" doesn\'t take an indirect object.',
@@ -8068,7 +8092,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
           },
           {
             id: 'ei2',
-            sentence: 'She suggested to go to the cinema.',
+            question: 'She suggested to go to the cinema.',
             error: 'suggested to go',
             correction: 'suggested going',
             explanation: 'Suggest + -ing, not suggest + to infinitive.',
@@ -8077,7 +8101,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
           },
           {
             id: 'ei3',
-            sentence: 'My teacher advised me study harder.',
+            question: 'My teacher advised me study harder.',
             error: 'advised me study',
             correction: 'advised me to study',
             explanation: 'Advise + object + to infinitive.',
@@ -8086,7 +8110,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
           },
           {
             id: 'ei4',
-            sentence: 'He asked me where was I going.',
+            question: 'He asked me where was I going.',
             error: 'where was I going',
             correction: 'where I was going',
             explanation: 'In reported questions, use statement word order (subject + verb).',
@@ -8095,7 +8119,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
           },
           {
             id: 'ei5',
-            sentence: 'She said that she will call me tomorrow.',
+            question: 'She said that she will call me tomorrow.',
             error: 'will call',
             correction: 'would call',
             explanation: 'Will changes to would in reported speech (backshifting).',
@@ -8121,7 +8145,7 @@ Mr. Thompson concluded the interview by telling Maria that they would contact he
         readingTime: 3,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'What reporting verb is used when Maria talks about her experience?',
             correctAnswer: 'explained',
@@ -8145,9 +8169,9 @@ Mr. Thompson concluded the interview by telling Maria that they would contact he
             points: 1
           },
           {
-            id: '',
+            id: 'q11',
             type: 'fill-blank',
-            sentence: 'Which reporting verb does Maria use to acknowledge a weakness. Answer: ___',
+            question: 'Which reporting verb does Maria use to acknowledge a weakness?',
             correctAnswer: 'admitted',
             explanation: 'Text states: "She admitted that she sometimes struggled with delegating".',
             points: 2
@@ -8291,12 +8315,12 @@ Mr. Thompson concluded the interview by telling Maria that they would contact he
           {
             id: 'pv1',
             type: 'fill-blank',
-            sentence: 'She _____ _____ that we needed to reconsider our strategy.',
+            question: 'She _____ _____ that we needed to reconsider our strategy.',
             correctAnswer: 'pointed out',
             points: 2
           },
           {
-            id: '',
+            id: 'q3',
             type: 'short-answer',
             question: 'Choose the correct phrasal verb: He tried to _____ the issue during dinner.',
             correctAnswer: 'bring up',
@@ -8443,9 +8467,9 @@ Reporter: What do you say to people who insist they can function on less sleep?
 Dr. Rodriguez: The research clearly shows that this is a misconception. We found that people who claimed they only needed four or five hours actually performed worse on cognitive tests. I would urge everyone to prioritize sleep—your health depends on it.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'What did the research recommend. Answer: ___',
+            question: 'What did the research recommend?',
             correctAnswer: 'Seven to nine hours per night at the same time',
             explanation: 'Dr. Rodriguez says: "We recommended that adults should aim for seven to nine hours...and go to bed at the same time".',
             points: 1
@@ -8467,10 +8491,10 @@ Dr. Rodriguez: The research clearly shows that this is a misconception. We found
             points: 1
           },
           {
-            id: '',
+            id: 'q12',
             type: 'true-false',
-            question: 'The correct answer is "Give up the program" for: What did Dr. Rodriguez advise participants who had difficulties?',
-            correctAnswer: 'False',
+            question: 'What did Dr. Rodriguez advise participants who had difficulties?',
+            correctAnswer: 'FalseGive up the program',
             explanation: 'Falso. She "suggested making gradual adjustments rather than drastic changes".',
             points: 2
           },
@@ -8500,7 +8524,7 @@ Dr. Rodriguez: The research clearly shows that this is a misconception. We found
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'Which verb means "to talk with excessive pride"?',
             correctAnswer: 'boast',
@@ -8548,7 +8572,7 @@ Dr. Rodriguez: The research clearly shows that this is a misconception. We found
         transformations: [
           {
             id: 'kt1',
-            sentence: '"I didn\'t break the window," Tom said.',
+            question: '"I didn\'t break the window," Tom said.',
             keyWord: 'denied',
             startOfAnswer: 'Tom',
             correctAnswer: 'denied breaking the window',
@@ -8557,7 +8581,7 @@ Dr. Rodriguez: The research clearly shows that this is a misconception. We found
           },
           {
             id: 'kt2',
-            sentence: '"You should see a doctor," she told me.',
+            question: '"You should see a doctor," she told me.',
             keyWord: 'advised',
             startOfAnswer: 'She',
             correctAnswer: 'advised me to see',
@@ -8566,7 +8590,7 @@ Dr. Rodriguez: The research clearly shows that this is a misconception. We found
           },
           {
             id: 'kt3',
-            sentence: '"Let\'s go to the beach," Sarah suggested.',
+            question: '"Let\'s go to the beach," Sarah suggested.',
             keyWord: 'going',
             startOfAnswer: 'Sarah suggested',
             correctAnswer: 'going to the beach',
@@ -8575,7 +8599,7 @@ Dr. Rodriguez: The research clearly shows that this is a misconception. We found
           },
           {
             id: 'kt4',
-            sentence: '"I\'m sorry I\'m late," he said.',
+            question: '"I\'m sorry I\'m late," he said.',
             keyWord: 'apologized',
             startOfAnswer: 'He',
             correctAnswer: 'apologized for being late',
@@ -8584,7 +8608,7 @@ Dr. Rodriguez: The research clearly shows that this is a misconception. We found
           },
           {
             id: 'kt5',
-            sentence: '"Don\'t forget to lock the door," Mom said to me.',
+            question: '"Don\'t forget to lock the door," Mom said to me.',
             keyWord: 'reminded',
             startOfAnswer: 'Mom',
             correctAnswer: 'reminded me to lock',
@@ -8593,7 +8617,7 @@ Dr. Rodriguez: The research clearly shows that this is a misconception. We found
           },
           {
             id: 'kt6',
-            sentence: '"You stole my idea!" she said to him.',
+            question: '"You stole my idea!" she said to him.',
             keyWord: 'accused',
             startOfAnswer: 'She',
             correctAnswer: 'accused him of stealing',
@@ -8701,9 +8725,9 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
         readingTime: 4,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'What did Mark suggest when Sarah first approached him. Answer: ___',
+            question: 'What did Mark suggest when Sarah first approached him?',
             correctAnswer: 'She was probably wrong',
             explanation: 'Mark "suggested that she was probably misinterpreting the data".',
             points: 1
@@ -8733,10 +8757,10 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
             points: 2
           },
           {
-            id: '',
+            id: 'q5',
             type: 'true-false',
-            question: 'The correct answer is "Money is most important" for: What did Sarah emphasize when reflecting on her experience?',
-            correctAnswer: 'False',
+            question: 'What did Sarah emphasize when reflecting on her experience?',
+            correctAnswer: 'FalseMoney is most important',
             explanation: 'Falso. Sarah "emphasized that integrity was more important than job security".',
             points: 1
           },
@@ -8807,9 +8831,9 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Choose the correct connector: The project was challenging. ___, we completed it on time.',
+            question: 'Choose the correct connector: The project was challenging. ___, we completed it on time.',
             correctAnswer: 'Nevertheless',
             explanation: 'Nevertheless introduce una idea contrastante.',
             points: 1
@@ -8853,9 +8877,9 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Choose the most formal connector: The project is over budget. ___, it\\',
+            question: 'Choose the most formal connector: The project is over budget. ___, it\\',
             correctAnswer: 'Furthermore',
             explanation: 'Furthermore es el conector más formal para añadir información.',
             points: 1
@@ -8863,7 +8887,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: The apartment is spacious and well-lit. ___ ___, it has a beautiful view.',
+            question: 'The apartment is spacious and well-lit. ___ ___, it has a beautiful view.',
             correctAnswer: 'In addition/What\'s more/Moreover/Furthermore',
             explanation: 'Cualquiera de estos conectores añade información positiva.',
             points: 2
@@ -8885,7 +8909,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'Which connector goes INSIDE the sentence?',
             correctAnswer: 'Whereas',
@@ -8917,9 +8941,9 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: '"Due to" must be followed by:. Answer: ___',
+            question: '"Due to" must be followed by:?',
             correctAnswer: 'a noun/noun phrase',
             explanation: 'Due to + noun/noun phrase (Due to the rain, Due to delays)',
             points: 2
@@ -8927,7 +8951,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: Traffic was terrible. ___, I arrived late.',
+            question: 'Traffic was terrible. ___, I arrived late.',
             correctAnswer: 'Consequently/Therefore/As a result',
             explanation: 'Conectores que expresan resultado.',
             points: 1
@@ -8945,7 +8969,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
 (7)_____, technology continues to advance, we can expect further innovations in education. Virtual reality, for instance, could revolutionize how we teach complex subjects. (8)_____ the future of education will likely involve a blend of traditional and digital methods, rather than one completely replacing the other.`,
         questions: [
           {
-            id: '',
+            id: 'q2',
             type: 'short-answer',
             question: '1. _____',
             correctAnswer: 'However',
@@ -8953,15 +8977,15 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
             points: 2
           },
           {
-            id: '',
+            id: 'q3',
             type: 'fill-blank',
-            sentence: '2. _____',
+            question: '2. _____',
             correctAnswer: 'Nevertheless',
             explanation: 'Nevertheless indica que a pesar del aspecto positivo, hay problemas.',
             points: 1
           },
           {
-            id: '',
+            id: 'q4',
             type: 'true-false',
             question: '3. Despite',
             correctAnswer: 'False',
@@ -8969,7 +8993,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
             points: 1
           },
           {
-            id: '',
+            id: 'q5',
             type: 'short-answer',
             question: '4. _____',
             correctAnswer: 'otherwise',
@@ -8977,15 +9001,15 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
             points: 2
           },
           {
-            id: '',
+            id: 'q6',
             type: 'fill-blank',
-            sentence: '5. _____',
+            question: '5. _____',
             correctAnswer: 'Furthermore',
             explanation: 'Furthermore añade otro desafío a la lista.',
             points: 1
           },
           {
-            id: '',
+            id: 'q7',
             type: 'true-false',
             question: '6. Despite',
             correctAnswer: 'True',
@@ -8993,17 +9017,17 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
             points: 1
           },
           {
-            id: '',
+            id: 'q8',
             type: 'fill-blank',
-            sentence: '7. _____',
+            question: '7. _____',
             correctAnswer: 'As',
             explanation: 'As + clause al principio de oración expresa causa.',
             points: 1
           },
           {
-            id: '',
+            id: 'q9',
             type: 'fill-blank',
-            sentence: '8. _____',
+            question: '8. _____',
             correctAnswer: 'In conclusion',
             explanation: 'In conclusion introduce la conclusión final.',
             points: 1
@@ -9082,7 +9106,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
         sentences: [
           {
             id: 'err1',
-            sentence: 'The plan was expensive. Despite, they approved it.',
+            question: 'The plan was expensive. Despite, they approved it.',
             error: 'Despite',
             correction: 'Despite this/Nevertheless',
             explanation: 'Despite necesita un noun phrase después. Usa "Despite this" o cambia a "Nevertheless".',
@@ -9090,7 +9114,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
           },
           {
             id: 'err2',
-            sentence: 'Although the weather, we went hiking.',
+            question: 'Although the weather, we went hiking.',
             error: 'Although the weather',
             correction: 'Despite the weather',
             explanation: 'Although necesita una cláusula completa (Although the weather was bad). Con noun, usa Despite.',
@@ -9098,7 +9122,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
           },
           {
             id: 'err3',
-            sentence: 'He studied hard, however he failed the exam.',
+            question: 'He studied hard, however he failed the exam.',
             error: 'hard, however',
             correction: 'hard. However, he/hard; however, he',
             explanation: 'However es un adverbio conjuntivo, necesita punto y coma o punto antes.',
@@ -9114,7 +9138,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
           },
           {
             id: 'err5',
-            sentence: 'She is talented. Moreover that, she works very hard.',
+            question: 'She is talented. Moreover that, she works very hard.',
             error: 'Moreover that',
             correction: 'Moreover,/In addition to that,',
             explanation: 'Moreover no va seguido de "that". Usa "Moreover," solo o "In addition to that,"',
@@ -9139,7 +9163,7 @@ In conclusion, while becoming bilingual requires dedication, the cognitive, soci
         readingTime: 3,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'According to the text, what is one cognitive benefit of bilingualism?',
             correctAnswer: 'Enhanced memory',
@@ -9155,9 +9179,9 @@ In conclusion, while becoming bilingual requires dedication, the cognitive, soci
             points: 2
           },
           {
-            id: '',
+            id: 'q6',
             type: 'fill-blank',
-            sentence: 'What concern do critics have about early language education. Answer: ___',
+            question: 'What concern do critics have about early language education?',
             correctAnswer: 'It might confuse children',
             explanation: 'Los críticos "worry that learning two languages simultaneously might slow down language development".',
             points: 1
@@ -9314,7 +9338,7 @@ In conclusion, while becoming bilingual requires dedication, the cognitive, soci
             points: 2
           },
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'Which phrasal verb means "to explain clearly and in detail"?',
             correctAnswer: 'spell out',
@@ -9347,9 +9371,9 @@ In conclusion, while becoming bilingual requires dedication, the cognitive, soci
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'If someone is "beating around the bush," they are:. Answer: ___',
+            question: 'If someone is "beating around the bush," they are:?',
             correctAnswer: 'avoiding the main issue',
             explanation: 'Beat around the bush = evitar el tema principal.',
             points: 1
@@ -9432,10 +9456,10 @@ Interviewer: Any final advice?
 Sarah: Practice! Watch experienced debaters and note how they structure arguments. Additionally, read well-written opinion pieces to see how professionals use linking words. Most importantly, don't be afraid to engage in respectful discussions—that's how you improve.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "Structuring arguments logically" for: According to Sarah, what is the most important skill in debating?',
-            correctAnswer: 'True',
+            question: 'According to Sarah, what is the most important skill in debating?',
+            correctAnswer: 'TrueStructuring arguments logically',
             explanation: 'Sarah dice: "the ability to structure your arguments logically".',
             points: 1
           },
@@ -9448,7 +9472,7 @@ Sarah: Practice! Watch experienced debaters and note how they structure argument
             points: 2
           },
           {
-            id: '',
+            id: 'q7',
             type: 'short-answer',
             question: 'Why are linking words important in debates?',
             correctAnswer: 'They help the audience follow your thoughts',
@@ -9481,9 +9505,9 @@ Sarah: Practice! Watch experienced debaters and note how they structure argument
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Which word means "in an opposite way". Answer: ___',
+            question: 'Which word means "in an opposite way"?',
             correctAnswer: 'conversely',
             explanation: 'Conversely indica lo opuesto.',
             points: 1
@@ -9491,7 +9515,7 @@ Sarah: Practice! Watch experienced debaters and note how they structure argument
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: Several countries, ___ Sweden and Denmark, have excellent social welfare systems.',
+            question: 'Several countries, ___ Sweden and Denmark, have excellent social welfare systems.',
             correctAnswer: 'notably',
             explanation: 'Notably = especialmente, en particular.',
             points: 2
@@ -9609,10 +9633,10 @@ In conclusion, while technology and political systems have evolved, the fundamen
         readingTime: 4,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "Economic prosperity" for: According to the text, what typically enables empires to expand?',
-            correctAnswer: 'True',
+            question: 'According to the text, what typically enables empires to expand?',
+            correctAnswer: 'TrueEconomic prosperity',
             explanation: 'El texto afirma: "Economic prosperity typically fuels imperial expansion".',
             points: 1
           },
@@ -9627,15 +9651,15 @@ In conclusion, while technology and political systems have evolved, the fundamen
           {
             id: 'q3',
             type: 'fill-blank',
-            question: 'Complete: "___ strong centralized authority characterized imperial rises, factional conflicts often marked their declines."',
+            question: '"___ strong centralized authority characterized imperial rises, factional conflicts often marked their declines."',
             correctAnswer: 'Whereas',
             explanation: 'Whereas contrasta dos ideas opuestas.',
             points: 2
           },
           {
-            id: '',
+            id: 'q13',
             type: 'fill-blank',
-            sentence: 'Why did the Mongol Empire fragment, according to the text. Answer: ___',
+            question: 'Why did the Mongol Empire fragment, according to the text?',
             correctAnswer: 'Impossibility of governing vast territories effectively',
             explanation: 'El texto menciona "the impossibility of effectively governing such vast territories".',
             points: 1
@@ -9698,9 +9722,9 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
         readingTime: 2,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'What is the main argument FOR UBI. Answer: ___',
+            question: 'What is the main argument FOR UBI?',
             correctAnswer: 'Automation is eliminating jobs',
             explanation: 'El texto menciona que la automatización está eliminando empleos.',
             points: 1
@@ -9748,7 +9772,7 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
         text: `Throughout history, the ability to persuade others has been a crucial skill. Ancient philosophers (1)_____ the art of rhetoric, developing techniques that remain relevant today. Successful persuasion (2)_____ not just on logical arguments, but also on emotional appeal and credibility. Modern research has (3)_____ light on why some messages are more persuasive than others. Scientists have discovered that people are more (4)_____ to be convinced when information is presented in certain ways. For instance, arguments that (5)_____ both sides of an issue tend to be more effective than one-sided presentations. (6)_____, the messenger matters as much as the message itself. We're naturally inclined to trust people who (7)_____ expertise or share our values. Understanding these principles can help us both craft more convincing arguments and (8)_____ guard against manipulation.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: '1. _____',
             correctAnswer: 'mastered',
@@ -9756,15 +9780,15 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
             points: 2
           },
           {
-            id: '',
+            id: 'q2',
             type: 'fill-blank',
-            sentence: '2. _____',
+            question: '2. _____',
             correctAnswer: 'relies',
             explanation: '"Relies on" is the correct collocation meaning to depend on something.',
             points: 1
           },
           {
-            id: '',
+            id: 'q3',
             type: 'short-answer',
             question: '3. _____',
             correctAnswer: 'shed',
@@ -9772,15 +9796,15 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
             points: 2
           },
           {
-            id: '',
+            id: 'q4',
             type: 'fill-blank',
-            sentence: '4. _____',
+            question: '4. _____',
             correctAnswer: 'likely',
             explanation: '"Likely to be" expresses probability and is the correct structure.',
             points: 1
           },
           {
-            id: '',
+            id: 'q5',
             type: 'true-false',
             question: '5. acknowledge',
             correctAnswer: 'True',
@@ -9788,7 +9812,7 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
             points: 1
           },
           {
-            id: '',
+            id: 'q6',
             type: 'short-answer',
             question: '6. _____',
             correctAnswer: 'Moreover',
@@ -9796,15 +9820,15 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
             points: 2
           },
           {
-            id: '',
+            id: 'q7',
             type: 'fill-blank',
-            sentence: '7. _____',
+            question: '7. _____',
             correctAnswer: 'demonstrate',
             explanation: '"Demonstrate expertise" is the most formal and appropriate collocation in academic context.',
             points: 1
           },
           {
-            id: '',
+            id: 'q8',
             type: 'true-false',
             question: '8. better',
             correctAnswer: 'True',
@@ -9829,9 +9853,9 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Which is the most formal way to present an argument. Answer: ___',
+            question: 'Which is the most formal way to present an argument?',
             correctAnswer: 'It is argued that...',
             explanation: '"It is argued that" es la estructura más formal y académica.',
             points: 1
@@ -9839,7 +9863,7 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: ___ ___ evidence to suggest that early education improves outcomes.',
+            question: '___ ___ evidence to suggest that early education improves outcomes.',
             correctAnswer: 'There is',
             explanation: 'There is evidence to suggest that... (estructura formal)',
             points: 2
@@ -9861,9 +9885,9 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Complete: If governments ___ more in education, outcomes would improve.',
+            question: 'If governments ___ more in education, outcomes would improve.',
             correctAnswer: 'invested',
             explanation: 'Second conditional: If + past simple, would + verb',
             points: 2
@@ -9949,7 +9973,7 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
         sentences: [
           {
             id: 'err1',
-            sentence: 'It is argue that renewable energy is essential.',
+            question: 'It is argue that renewable energy is essential.',
             error: 'is argue',
             correction: 'is argued',
             explanation: 'Passive voice: It is argued that...',
@@ -9957,7 +9981,7 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
           },
           {
             id: 'err2',
-            sentence: 'If governments will invest more, poverty would decrease.',
+            question: 'If governments will invest more, poverty would decrease.',
             error: 'will invest',
             correction: 'invested',
             explanation: 'Second conditional: If + past simple, would + verb',
@@ -9965,7 +9989,7 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
           },
           {
             id: 'err3',
-            sentence: 'There are evidences to suggest that exercise helps.',
+            question: 'There are evidences to suggest that exercise helps.',
             error: 'evidences',
             correction: 'evidence',
             explanation: 'Evidence es un uncountable noun en este contexto.',
@@ -9973,7 +9997,7 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
           },
           {
             id: 'err4',
-            sentence: 'Studies has shown that reading improves vocabulary.',
+            question: 'Studies has shown that reading improves vocabulary.',
             error: 'has',
             correction: 'have',
             explanation: 'Studies (plural) have shown',
@@ -9981,7 +10005,7 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
           },
           {
             id: 'err5',
-            sentence: 'One could argues that technology benefits education.',
+            question: 'One could argues that technology benefits education.',
             error: 'argues',
             correction: 'argue',
             explanation: 'Modal + base form: could argue',
@@ -10008,7 +10032,7 @@ Despite these challenges, the movement continues to grow. Proponents maintain th
         readingTime: 4,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'According to the text, what happened in Iceland\\',
             correctAnswer: '86% of workers gained the right to reduce hours',
@@ -10024,9 +10048,9 @@ Despite these challenges, the movement continues to grow. Proponents maintain th
             points: 2
           },
           {
-            id: '',
+            id: 'q8',
             type: 'fill-blank',
-            sentence: 'Which industries does the text suggest might struggle with a four-day week. Answer: ___',
+            question: 'Which industries does the text suggest might struggle with a four-day week?',
             correctAnswer: 'Healthcare and hospitality',
             explanation: 'El texto menciona "Healthcare, hospitality, and customer service industries".',
             points: 1
@@ -10072,7 +10096,7 @@ Despite these challenges, the movement continues to grow. Proponents maintain th
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'Which verb means "to prove wrong"?',
             correctAnswer: 'refute',
@@ -10243,9 +10267,9 @@ Despite these challenges, the movement continues to grow. Proponents maintain th
             points: 2
           },
           {
-            id: '',
+            id: 'q2',
             type: 'fill-blank',
-            sentence: 'Which phrasal verb means "to carefully consider advantages and disadvantages". Answer: ___',
+            question: 'Which phrasal verb means "to carefully consider advantages and disadvantages"?',
             correctAnswer: 'weigh up',
             explanation: 'Weigh up = sopesar, considerar cuidadosamente.',
             points: 1
@@ -10268,10 +10292,10 @@ Despite these challenges, the movement continues to grow. Proponents maintain th
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "support the devil" for: If you "play devil\\',
-            correctAnswer: 'False',
+            question: 'If you "play devil\\',
+            correctAnswer: 'Falsesupport the devil',
             explanation: 'Falso. Play devil\\\'s advocate = argumentar en contra para probar la solidez del argumento.',
             points: 1
           },
@@ -10353,7 +10377,7 @@ Prof. Martinez: I don't dispute the need for change. What I'm advocating for is 
 Moderator: Interesting points from both sides. Thank you.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'What is Dr. Stevens\\',
             correctAnswer: 'Traditional models are outdated',
@@ -10369,9 +10393,9 @@ Moderator: Interesting points from both sides. Thank you.`,
             points: 2
           },
           {
-            id: '',
+            id: 'q9',
             type: 'fill-blank',
-            sentence: 'What is Professor Martinez\\. Answer: ___',
+            question: 'What is Professor Martinez\\?',
             correctAnswer: 'Change is happening too quickly without proper preparation',
             explanation: 'Prof. Martinez dice: "one could argue that we\\\'re moving too quickly".',
             points: 1
@@ -10402,10 +10426,10 @@ Moderator: Interesting points from both sides. Thank you.`,
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "Make statements less absolute" for: Hedging language is used to:',
-            correctAnswer: 'True',
+            question: 'Hedging language is used to:',
+            correctAnswer: 'TrueMake statements less absolute',
             explanation: 'Hedging hace las afirmaciones menos absolutas y más académicas.',
             points: 1
           },
@@ -10498,9 +10522,9 @@ In conclusion, the gene editing debate reflects fundamental questions about huma
         readingTime: 5,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'According to the text, what does CRISPR potentially allow us to do. Answer: ___',
+            question: 'According to the text, what does CRISPR potentially allow us to do?',
             correctAnswer: 'Eliminate hereditary diseases and enhance human capabilities',
             explanation: 'El texto menciona ambas posibilidades: curar enfermedades hereditarias y mejorar capacidades.',
             points: 1
@@ -10522,9 +10546,9 @@ In conclusion, the gene editing debate reflects fundamental questions about huma
             points: 2
           },
           {
-            id: '',
+            id: 'q14',
             type: 'fill-blank',
-            sentence: 'What concern do critics have about "designer babies". Answer: ___',
+            question: 'What concern do critics have about "designer babies"?',
             correctAnswer: 'They could create genetic inequality',
             explanation: 'El texto menciona que "wealthy families might use gene editing... creating genetic inequality".',
             points: 1
@@ -10650,7 +10674,7 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
         readingTime: 3,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'According to the text, what do proponents believe about automation?',
             correctAnswer: 'It will create new job categories',
@@ -10666,9 +10690,9 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
             points: 2
           },
           {
-            id: '',
+            id: 'q10',
             type: 'fill-blank',
-            sentence: 'What criticism do opponents of automation raise. Answer: ___',
+            question: 'What criticism do opponents of automation raise?',
             correctAnswer: 'Benefits have not been evenly distributed',
             explanation: 'El texto menciona que "the benefits of automation have not been evenly distributed".',
             points: 2
@@ -10676,7 +10700,7 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
           {
             id: 'q4',
             type: 'fill-blank',
-            question: 'Complete: "___ routine technical skills once guaranteed stable employment, today\'s job market increasingly values creativity."',
+            question: '"___ routine technical skills once guaranteed stable employment, today\'s job market increasingly values creativity."',
             correctAnswer: 'Whereas',
             explanation: 'Whereas contrasta el pasado con el presente.',
             points: 2
@@ -10713,7 +10737,7 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'Choose the correct modal: The lights are on. Someone ___ be home.',
             correctAnswer: 'must',
@@ -10729,9 +10753,9 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
             points: 1
           },
           {
-            id: '',
+            id: 'q11',
             type: 'fill-blank',
-            sentence: 'Past deduction: They\\. Answer: ___',
+            question: 'Past deduction: They\\?',
             correctAnswer: 'must have left',
             explanation: 'Must have + past participle for past deduction.',
             points: 2
@@ -10753,10 +10777,10 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "A new bridge is building." for: Transform to passive: "They are building a new bridge."',
-            correctAnswer: 'False',
+            question: 'Transform to passive: "They are building a new bridge."',
+            correctAnswer: 'FalseA new bridge is building.',
             explanation: 'Falso. Present continuous passive: is/are being + past participle.',
             points: 2
           },
@@ -10785,7 +10809,7 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: '"I didn\\',
             correctAnswer: 'denied',
@@ -10825,9 +10849,9 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Choose: The project was difficult. ___, we completed it.',
+            question: 'Choose: The project was difficult. ___, we completed it.',
             correctAnswer: 'Nevertheless',
             explanation: 'Nevertheless shows contrast between difficulty and completion.',
             points: 1
@@ -10865,10 +10889,10 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "It is argued that..." for: Which is most formal?',
-            correctAnswer: 'True',
+            question: 'Which is most formal?',
+            correctAnswer: 'TrueIt is argued that...',
             explanation: 'Passive impersonal structure is most formal.',
             points: 1
           },
@@ -10898,9 +10922,9 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Which linking word shows CONTRAST. Answer: ___',
+            question: 'Which linking word shows CONTRAST?',
             correctAnswer: 'nevertheless',
             explanation: 'Nevertheless introduces contrasting information.',
             points: 1
@@ -10923,7 +10947,7 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
         sentences: [
           {
             id: 'err1',
-            sentence: 'She must left early because her car isn\'t here.',
+            question: 'She must left early because her car isn\'t here.',
             error: 'must left',
             correction: 'must have left',
             explanation: 'Past deduction: must have + past participle.',
@@ -10931,7 +10955,7 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
           },
           {
             id: 'err2',
-            sentence: 'The report is publish next week.',
+            question: 'The report is publish next week.',
             error: 'is publish',
             correction: 'will be published/is being published',
             explanation: 'Passive voice needed: will be/is being + past participle.',
@@ -10939,7 +10963,7 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
           },
           {
             id: 'err3',
-            sentence: 'He said that he will help us tomorrow.',
+            question: 'He said that he will help us tomorrow.',
             error: 'will',
             correction: 'would',
             explanation: 'Reported speech: will → would.',
@@ -10947,7 +10971,7 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
           },
           {
             id: 'err4',
-            sentence: 'Although the rain, we went hiking.',
+            question: 'Although the rain, we went hiking.',
             error: 'Although the rain',
             correction: 'Despite the rain',
             explanation: 'Despite + noun; Although + clause.',
@@ -10955,7 +10979,7 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
           },
           {
             id: 'err5',
-            sentence: 'It is argue that education is important.',
+            question: 'It is argue that education is important.',
             error: 'is argue',
             correction: 'is argued',
             explanation: 'Passive voice: is argued.',
@@ -10974,15 +10998,15 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
 International cooperation is (8)_____. Individual nations cannot solve this global problem alone.`,
         questions: [
           {
-            id: '',
+            id: 'q2',
             type: 'fill-blank',
-            sentence: '1. _____',
+            question: '1. _____',
             correctAnswer: 'contend',
             explanation: 'Contend = argue/maintain (formal).',
             points: 1
           },
           {
-            id: '',
+            id: 'q3',
             type: 'short-answer',
             question: '2. _____',
             correctAnswer: 'Furthermore',
@@ -10990,15 +11014,15 @@ International cooperation is (8)_____. Individual nations cannot solve this glob
             points: 2
           },
           {
-            id: '',
+            id: 'q4',
             type: 'fill-blank',
-            sentence: '3. _____',
+            question: '3. _____',
             correctAnswer: 'suggest',
             explanation: 'Evidence suggests = evidence indicates.',
             points: 1
           },
           {
-            id: '',
+            id: 'q5',
             type: 'short-answer',
             question: '4. _____',
             correctAnswer: 'Despite',
@@ -11006,15 +11030,15 @@ International cooperation is (8)_____. Individual nations cannot solve this glob
             points: 2
           },
           {
-            id: '',
+            id: 'q6',
             type: 'fill-blank',
-            sentence: '5. _____',
+            question: '5. _____',
             correctAnswer: 'argue',
             explanation: 'Argue that = claim that.',
             points: 1
           },
           {
-            id: '',
+            id: 'q7',
             type: 'true-false',
             question: '6. Therefore',
             correctAnswer: 'False',
@@ -11022,7 +11046,7 @@ International cooperation is (8)_____. Individual nations cannot solve this glob
             points: 1
           },
           {
-            id: '',
+            id: 'q8',
             type: 'short-answer',
             question: '7. _____',
             correctAnswer: 'fail',
@@ -11030,9 +11054,9 @@ International cooperation is (8)_____. Individual nations cannot solve this glob
             points: 2
           },
           {
-            id: '',
+            id: 'q9',
             type: 'fill-blank',
-            sentence: '8. _____',
+            question: '8. _____',
             correctAnswer: 'essential',
             explanation: 'Adjective needed: is essential.',
             points: 1
@@ -11159,10 +11183,10 @@ Dr. Chen: Those concerns have largely been debunked by international comparisons
 Moderator: Thank you both for a balanced discussion.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "Healthcare is a fundamental human right" for: What is Dr. Chen\\',
-            correctAnswer: 'True',
+            question: 'What is Dr. Chen\\',
+            correctAnswer: 'TrueHealthcare is a fundamental human right',
             explanation: 'Dr. Chen afirma: "healthcare is a fundamental human right".',
             points: 2
           },
@@ -11175,9 +11199,9 @@ Moderator: Thank you both for a balanced discussion.`,
             points: 2
           },
           {
-            id: '',
+            id: 'q12',
             type: 'fill-blank',
-            sentence: 'What concern does Mr. Thompson raise. Answer: ___',
+            question: 'What concern does Mr. Thompson raise?',
             correctAnswer: 'Government-run healthcare may lead to longer waiting times',
             explanation: 'Mr. Thompson menciona que podría llevar a "longer waiting times".',
             points: 2
@@ -11276,7 +11300,7 @@ The pandemic (6)_____ the problem even more visible. Students without internet a
         words: [
           {
             id: 'wf1',
-            sentence: 'The ___ of the argument was impressive.',
+            question: 'The ___ of the argument was impressive.',
             baseWord: 'STRONG',
             correctAnswer: 'strength',
             explanation: 'strength (noun)',
@@ -11284,7 +11308,7 @@ The pandemic (6)_____ the problem even more visible. Students without internet a
           },
           {
             id: 'wf2',
-            sentence: 'There is considerable ___ about the best approach.',
+            question: 'There is considerable ___ about the best approach.',
             baseWord: 'DISAGREE',
             correctAnswer: 'disagreement',
             explanation: 'disagreement (noun)',
@@ -11292,7 +11316,7 @@ The pandemic (6)_____ the problem even more visible. Students without internet a
           },
           {
             id: 'wf3',
-            sentence: 'The policy has proven ___ effective.',
+            question: 'The policy has proven ___ effective.',
             baseWord: 'REMARKABLE',
             correctAnswer: 'remarkably',
             explanation: 'remarkably (adverb)',
@@ -11300,7 +11324,7 @@ The pandemic (6)_____ the problem even more visible. Students without internet a
           },
           {
             id: 'wf4',
-            sentence: 'International ___ is essential for solving global problems.',
+            question: 'International ___ is essential for solving global problems.',
             baseWord: 'COOPERATE',
             correctAnswer: 'cooperation',
             explanation: 'cooperation (noun)',
@@ -11308,7 +11332,7 @@ The pandemic (6)_____ the problem even more visible. Students without internet a
           },
           {
             id: 'wf5',
-            sentence: 'The ___ benefits are well documented.',
+            question: 'The ___ benefits are well documented.',
             baseWord: 'ENVIRONMENT',
             correctAnswer: 'environmental',
             explanation: 'environmental (adjective)',
@@ -11333,9 +11357,9 @@ Despite these challenges, the evidence overwhelmingly supports the importance of
         readingTime: 3,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'According to the text, why has lifelong learning become important. Answer: ___',
+            question: 'According to the text, why has lifelong learning become important?',
             correctAnswer: 'Because of rapid technological and social change',
             explanation: 'El texto menciona "the rapid pace of technological and social change".',
             points: 2
@@ -11351,13 +11375,13 @@ Despite these challenges, the evidence overwhelmingly supports the importance of
           {
             id: 'q3',
             type: 'fill-blank',
-            question: 'Complete: "___ traditional education focused on front-loading knowledge, modern approaches recognize continuous learning."',
+            question: '"___ traditional education focused on front-loading knowledge, modern approaches recognize continuous learning."',
             correctAnswer: 'Whereas',
             explanation: 'Whereas contrasta enfoques tradicionales y modernos.',
             points: 2
           },
           {
-            id: '',
+            id: 'q15',
             type: 'short-answer',
             question: 'How has the digital revolution affected lifelong learning?',
             correctAnswer: 'Both helped and hindered',
@@ -11505,15 +11529,15 @@ export const MODULE_3_LESSONS: Lesson[] = [
         text: `In today's business world, email remains a primary form of professional communication. However, many people (1)_____ to follow basic email etiquette, which can damage their professional reputation. The first rule is to always (2)_____ a clear, descriptive subject line that accurately reflects the content of your message. When addressing recipients, it's important to (3)_____ the appropriate level of formality. While "Hi" might be acceptable for colleagues you know well, more formal greetings are (4)_____ when writing to senior management or external clients. The body of the email should be concise and well-organized, (5)_____ the main point early. Many professionals (6)_____ the mistake of writing lengthy emails that bury important information. Before sending, always (7)_____ your message for spelling and grammar errors. Finally, remember that tone can be difficult to (8)_____ in written communication, so choose your words carefully to avoid misunderstandings.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: '1. _____',
+            question: '1. _____',
             correctAnswer: 'fail',
             explanation: '"Fail to" means not succeed in doing something, the correct pattern for this context.',
             points: 1
           },
           {
-            id: '',
+            id: 'q2',
             type: 'short-answer',
             question: '2. _____',
             correctAnswer: 'include',
@@ -11521,15 +11545,15 @@ export const MODULE_3_LESSONS: Lesson[] = [
             points: 2
           },
           {
-            id: '',
+            id: 'q3',
             type: 'fill-blank',
-            sentence: '3. _____',
+            question: '3. _____',
             correctAnswer: 'use',
             explanation: '"Use" is the most straightforward and appropriate verb in this business context.',
             points: 1
           },
           {
-            id: '',
+            id: 'q4',
             type: 'true-false',
             question: '4. demanded',
             correctAnswer: 'False',
@@ -11537,7 +11561,7 @@ export const MODULE_3_LESSONS: Lesson[] = [
             points: 1
           },
           {
-            id: '',
+            id: 'q5',
             type: 'short-answer',
             question: '5. _____',
             correctAnswer: 'stating',
@@ -11545,15 +11569,15 @@ export const MODULE_3_LESSONS: Lesson[] = [
             points: 2
           },
           {
-            id: '',
+            id: 'q6',
             type: 'fill-blank',
-            sentence: '6. _____',
+            question: '6. _____',
             correctAnswer: 'make',
             explanation: '"Make a/the mistake" is the correct collocation.',
             points: 1
           },
           {
-            id: '',
+            id: 'q7',
             type: 'true-false',
             question: '7. proofread',
             correctAnswer: 'True',
@@ -11561,9 +11585,9 @@ export const MODULE_3_LESSONS: Lesson[] = [
             points: 1
           },
           {
-            id: '',
+            id: 'q8',
             type: 'fill-blank',
-            sentence: '8. _____',
+            question: '8. _____',
             correctAnswer: 'convey',
             explanation: '"Convey" means to communicate or make known, especially tone or feelings.',
             points: 1
@@ -11619,9 +11643,9 @@ export const MODULE_3_LESSONS: Lesson[] = [
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Choose the most formal synonym for "find out": We need to ___ the cause of the problem.',
+            question: 'Choose the most formal synonym for "find out": We need to ___ the cause of the problem.',
             correctAnswer: 'ascertain',
             explanation: 'Ascertain is the most formal term for finding out information.',
             points: 1
@@ -11653,7 +11677,7 @@ export const MODULE_3_LESSONS: Lesson[] = [
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'Rewrite with inversion: "We had never encountered such a challenge." → "Never ___ such a challenge."',
             correctAnswer: 'had we encountered',
@@ -11669,9 +11693,9 @@ export const MODULE_3_LESSONS: Lesson[] = [
             points: 2
           },
           {
-            id: '',
+            id: 'q13',
             type: 'fill-blank',
-            sentence: 'Complete: "Rarely ___ such impressive results."',
+            question: '"Rarely ___ such impressive results."',
             correctAnswer: 'do we see',
             explanation: 'Rarely + do/does/did + subject + base verb.',
             points: 2
@@ -11693,7 +11717,7 @@ export const MODULE_3_LESSONS: Lesson[] = [
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'What is the noun form of "analyze"?',
             correctAnswer: 'analysis',
@@ -11731,9 +11755,9 @@ In conclusion, communication excellence demands ongoing attention and systematic
         readingTime: 3,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'According to the text, companies with superior communication practices:. Answer: ___',
+            question: 'According to the text, companies with superior communication practices:?',
             correctAnswer: 'Exhibit higher employee satisfaction',
             explanation: 'The text states that such companies "exhibit higher employee satisfaction, increased productivity, and enhanced profitability".',
             points: 2
@@ -11756,17 +11780,17 @@ In conclusion, communication excellence demands ongoing attention and systematic
             points: 1
           },
           {
-            id: '',
+            id: 'q16',
             type: 'true-false',
-            question: 'The correct answer is "Effective listening" for: What is identified as an often-overlooked component of communication?',
-            correctAnswer: 'True',
+            question: 'What is identified as an often-overlooked component of communication?',
+            correctAnswer: 'TrueEffective listening',
             explanation: 'The text explicitly states "Effective listening constitutes an often-overlooked component".',
             points: 2
           },
           {
             id: 'q5',
             type: 'fill-blank',
-            question: 'Complete: "In the absence of standardized procedures, messages frequently become _____."',
+            question: '"In the absence of standardized procedures, messages frequently become _____."',
             correctAnswer: 'distorted',
             explanation: 'Direct quote from the text.',
             points: 1
@@ -11818,7 +11842,7 @@ In conclusion, communication excellence demands ongoing attention and systematic
           },
           {
             id: 'e2',
-            sentence: 'We hardly had finished when the problems started.',
+            question: 'We hardly had finished when the problems started.',
             error: 'we hardly had finished',
             correction: 'Hardly had we finished when the problems started.',
             explanation: 'After negative adverbials like "hardly", use inversion: Hardly + auxiliary + subject.',
@@ -11826,7 +11850,7 @@ In conclusion, communication excellence demands ongoing attention and systematic
           },
           {
             id: 'e3',
-            sentence: 'The analyze of the data showed interesting results.',
+            question: 'The analyze of the data showed interesting results.',
             error: 'analyze',
             correction: 'The analysis of the data showed interesting results.',
             explanation: '"Analyze" is a verb. The noun form is "analysis".',
@@ -11834,7 +11858,7 @@ In conclusion, communication excellence demands ongoing attention and systematic
           },
           {
             id: 'e4',
-            sentence: 'Thanks for your email. I got it yesterday.',
+            question: 'Thanks for your email. I got it yesterday.',
             error: 'Thanks for your email. I got it yesterday.',
             correction: 'Thank you for your email. I received it yesterday.',
             explanation: 'Too informal. Use "Thank you" (not "Thanks") and "received" (not "got") in formal writing.',
@@ -11842,7 +11866,7 @@ In conclusion, communication excellence demands ongoing attention and systematic
           },
           {
             id: 'e5',
-            sentence: 'Not only the prices increased but also the quality decreased.',
+            question: 'Not only the prices increased but also the quality decreased.',
             error: 'Not only the prices increased',
             correction: 'Not only did the prices increase, but the quality also decreased.',
             explanation: 'After "Not only", use inversion: Not only + auxiliary + subject + verb.',
@@ -12097,7 +12121,7 @@ Jennifer Martin`,
         maxReplays: 2,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'What was the revenue increase compared to last year?',
             correctAnswer: '18%',
@@ -12113,9 +12137,9 @@ Jennifer Martin`,
             points: 2
           },
           {
-            id: '',
+            id: 'q14',
             type: 'fill-blank',
-            sentence: 'What challenge is mentioned regarding supply chain. Answer: ___',
+            question: 'What challenge is mentioned regarding supply chain?',
             correctAnswer: 'Disruptions affecting delivery',
             explanation: 'The speaker mentions "Supply chain disruptions continue to impact delivery schedules".',
             points: 2
@@ -12123,7 +12147,7 @@ Jennifer Martin`,
           {
             id: 'q4',
             type: 'fill-blank',
-            question: 'Complete: "Increased competition necessitates enhanced _____ efforts."',
+            question: '"Increased competition necessitates enhanced _____ efforts."',
             correctAnswer: 'innovation',
             explanation: 'Direct quote from the listening.',
             points: 1
@@ -12202,10 +12226,10 @@ Looking forward, CSR will likely become even more integral to business models. C
         readingTime: 4,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "A peripheral concern to a central business strategy component" for: According to the text, CSR has transformed from:',
-            correctAnswer: 'True',
+            question: 'According to the text, CSR has transformed from:',
+            correctAnswer: 'TrueA peripheral concern to a central business strategy component',
             explanation: 'Directly stated in the first sentence.',
             points: 2
           },
@@ -12218,9 +12242,9 @@ Looking forward, CSR will likely become even more integral to business models. C
             points: 2
           },
           {
-            id: '',
+            id: 'q15',
             type: 'fill-blank',
-            sentence: 'What challenge does the text mention regarding CSR measurement. Answer: ___',
+            question: 'What challenge does the text mention regarding CSR measurement?',
             correctAnswer: 'Social and environmental outcomes resist straightforward quantification',
             explanation: 'Stated in paragraph 4.',
             points: 2
@@ -12228,7 +12252,7 @@ Looking forward, CSR will likely become even more integral to business models. C
           {
             id: 'q4',
             type: 'fill-blank',
-            question: 'Complete: "_____ enables supply chain transparency, allowing companies to verify ethical sourcing claims."',
+            question: '"_____ enables supply chain transparency, allowing companies to verify ethical sourcing claims."',
             correctAnswer: 'Blockchain',
             explanation: 'Mentioned in paragraph 6.',
             points: 1
@@ -12306,9 +12330,9 @@ Looking forward, CSR will likely become even more integral to business models. C
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Choose the correct phrasal verb: I ___ my old school photos while cleaning the attic.',
+            question: 'Choose the correct phrasal verb: I ___ my old school photos while cleaning the attic.',
             correctAnswer: 'came across',
             explanation: '"Come across" significa encontrar algo por casualidad.',
             points: 1
@@ -12395,9 +12419,9 @@ Looking forward, CSR will likely become even more integral to business models. C
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
-            question: 'Complete: The manager decided to ___ the project due to budget constraints.',
+            question: 'The manager decided to ___ the project due to budget constraints.',
             correctAnswer: 'call off',
             explanation: '"Call off" means to cancel.',
             points: 2
@@ -12405,7 +12429,7 @@ Looking forward, CSR will likely become even more integral to business models. C
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: We need to ___ ___ a comprehensive market analysis.',
+            question: 'We need to ___ ___ a comprehensive market analysis.',
             correctAnswer: 'carry out',
             explanation: '"Carry out" means to perform or complete a task.',
             points: 1
@@ -12468,9 +12492,9 @@ Looking forward, CSR will likely become even more integral to business models. C
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'What does "hit the nail on the head" mean. Answer: ___',
+            question: 'What does "hit the nail on the head" mean?',
             correctAnswer: 'To be exactly right',
             explanation: 'This idiom means to be precisely correct.',
             points: 1
@@ -12500,7 +12524,7 @@ Looking forward, CSR will likely become even more integral to business models. C
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'Which is correct?',
             correctAnswer: 'Look after the children',
@@ -12508,9 +12532,9 @@ Looking forward, CSR will likely become even more integral to business models. C
             points: 3
           },
           {
-            id: '',
+            id: 'q2',
             type: 'fill-blank',
-            sentence: 'Replace with pronoun: "Please turn off the TV.". Answer: ___',
+            question: 'Replace with pronoun: "Please turn off the TV."?',
             correctAnswer: 'Turn it off',
             explanation: 'Separable phrasal verbs + pronoun = pronoun goes in the middle.',
             points: 2
@@ -12540,10 +12564,10 @@ Looking back, Sarah realizes that the initial rejections, while difficult to get
         readingTime: 3,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "Establish" for: What does "set up" mean in the context "set up her career"?',
-            correctAnswer: 'True',
+            question: 'What does "set up" mean in the context "set up her career"?',
+            correctAnswer: 'TrueEstablish',
             explanation: '"Set up" means to establish or start.',
             points: 1
           },
@@ -12556,7 +12580,7 @@ Looking back, Sarah realizes that the initial rejections, while difficult to get
             points: 2
           },
           {
-            id: '',
+            id: 'q16',
             type: 'short-answer',
             question: 'What does "put up with" mean in this context?',
             correctAnswer: 'Tolerate',
@@ -12566,7 +12590,7 @@ Looking back, Sarah realizes that the initial rejections, while difficult to get
           {
             id: 'q4',
             type: 'fill-blank',
-            question: 'Complete: Sarah had to ___ ___ long hours and tedious tasks.',
+            question: 'Sarah had to ___ ___ long hours and tedious tasks.',
             correctAnswer: 'put up with',
             explanation: 'From the text: "put up with long hours".',
             points: 1
@@ -12617,15 +12641,15 @@ Looking back, Sarah realizes that the initial rejections, while difficult to get
 Eventually, she (6)_____ a potential partner at a networking event. Together, they managed to (7)_____ the necessary funding and (8)_____ with establishing their first office. The first year was challenging—they had to (9)_____ numerous setbacks and learn to (10)_____ problems quickly. However, their persistence paid off, and the business is now thriving.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: '1. _____',
+            question: '1. _____',
             correctAnswer: 'set up',
             explanation: '"Set up" means to establish or start.',
             points: 1
           },
           {
-            id: '',
+            id: 'q2',
             type: 'true-false',
             question: '2. give up',
             correctAnswer: 'True',
@@ -12633,23 +12657,23 @@ Eventually, she (6)_____ a potential partner at a networking event. Together, th
             points: 1
           },
           {
-            id: '',
+            id: 'q3',
             type: 'fill-blank',
-            sentence: '3. _____',
+            question: '3. _____',
             correctAnswer: 'working out',
             explanation: '"Working out" means developing or creating (a plan).',
             points: 1
           },
           {
-            id: '',
+            id: 'q4',
             type: 'fill-blank',
-            sentence: '4. _____',
+            question: '4. _____',
             correctAnswer: 'turned down',
             explanation: '"Turned down" means rejected.',
             points: 1
           },
           {
-            id: '',
+            id: 'q5',
             type: 'short-answer',
             question: '5. _____',
             correctAnswer: 'get',
@@ -12657,15 +12681,15 @@ Eventually, she (6)_____ a potential partner at a networking event. Together, th
             points: 2
           },
           {
-            id: '',
+            id: 'q6',
             type: 'fill-blank',
-            sentence: '6. _____',
+            question: '6. _____',
             correctAnswer: 'came across',
             explanation: '"Came across" means found by chance.',
             points: 1
           },
           {
-            id: '',
+            id: 'q7',
             type: 'short-answer',
             question: '7. _____',
             correctAnswer: 'work out',
@@ -12673,15 +12697,15 @@ Eventually, she (6)_____ a potential partner at a networking event. Together, th
             points: 2
           },
           {
-            id: '',
+            id: 'q8',
             type: 'fill-blank',
-            sentence: '8. _____',
+            question: '8. _____',
             correctAnswer: 'went ahead',
             explanation: '"Went ahead" means proceeded or continued.',
             points: 1
           },
           {
-            id: '',
+            id: 'q9',
             type: 'true-false',
             question: '9. get over',
             correctAnswer: 'False',
@@ -12689,7 +12713,7 @@ Eventually, she (6)_____ a potential partner at a networking event. Together, th
             points: 1
           },
           {
-            id: '',
+            id: 'q10',
             type: 'short-answer',
             question: '10. _____',
             correctAnswer: 'figure out',
@@ -12714,7 +12738,7 @@ Eventually, she (6)_____ a potential partner at a networking event. Together, th
           },
           {
             id: 'e2',
-            sentence: 'I need to give smoking up for my health.',
+            question: 'I need to give smoking up for my health.',
             error: 'give smoking up',
             correction: 'I need to give up smoking for my health.',
             explanation: 'While "give up" is separable, it sounds more natural with the object after when it\'s a gerund.',
@@ -12722,7 +12746,7 @@ Eventually, she (6)_____ a potential partner at a networking event. Together, th
           },
           {
             id: 'e3',
-            sentence: 'She came him across at the conference.',
+            question: 'She came him across at the conference.',
             error: 'came him across',
             correction: 'She came across him at the conference.',
             explanation: '"Come across" is inseparable—pronouns go after the complete phrasal verb.',
@@ -12738,7 +12762,7 @@ Eventually, she (6)_____ a potential partner at a networking event. Together, th
           },
           {
             id: 'e5',
-            sentence: 'They had to call the meeting off it.',
+            question: 'They had to call the meeting off it.',
             error: 'call the meeting off it',
             correction: 'They had to call the meeting off / call it off.',
             explanation: 'Don\'t use both the noun and pronoun. Use either "call the meeting off" or "call it off".',
@@ -12910,9 +12934,9 @@ I spent the rest of the day (8)_____ the necessary changes and trying to (9)____
         maxReplays: 2,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'How long ago did Rachel set up her company. Answer: ___',
+            question: 'How long ago did Rachel set up her company?',
             correctAnswer: 'Five years ago',
             explanation: 'Rachel says "When I first set up my company five years ago".',
             points: 1
@@ -12926,10 +12950,10 @@ I spent the rest of the day (8)_____ the necessary changes and trying to (9)____
             points: 2
           },
           {
-            id: '',
+            id: 'q17',
             type: 'true-false',
-            question: 'The correct answer is "Several turned down her proposals" for: What happened when Rachel first approached investors?',
-            correctAnswer: 'True',
+            question: 'What happened when Rachel first approached investors?',
+            correctAnswer: 'TrueSeveral turned down her proposals',
             explanation: 'Rachel states "several investors turned down my proposals".',
             points: 2
           },
@@ -13109,9 +13133,9 @@ I spent the rest of the day (8)_____ the necessary changes and trying to (9)____
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Choose the correct phrasal verb: I can ___ you to keep this secret.',
+            question: 'Choose the correct phrasal verb: I can ___ you to keep this secret.',
             correctAnswer: 'count on',
             explanation: '"Count on" means to rely on or trust someone.',
             points: 1
@@ -13119,7 +13143,7 @@ I spent the rest of the day (8)_____ the necessary changes and trying to (9)____
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: They had an argument but quickly ___ ___.',
+            question: 'They had an argument but quickly ___ ___.',
             correctAnswer: 'made up',
             explanation: '"Made up" means became friends again after an argument.',
             points: 1
@@ -13153,9 +13177,9 @@ Research backs up this observation. Studies show that persistence—often called
             points: 2
           },
           {
-            id: '',
+            id: 'q3',
             type: 'fill-blank',
-            sentence: 'What happened to J.K. Rowling\\. Answer: ___',
+            question: 'What happened to J.K. Rowling\\?',
             correctAnswer: 'Multiple publishers turned it down',
             explanation: 'The text states "Multiple publishers turned down her manuscript".',
             points: 2
@@ -13163,7 +13187,7 @@ Research backs up this observation. Studies show that persistence—often called
           {
             id: 'q3',
             type: 'fill-blank',
-            question: 'Complete: Steve Jobs was forced out of Apple, the company he had ___ ___ years earlier.',
+            question: 'Steve Jobs was forced out of Apple, the company he had ___ ___ years earlier.',
             correctAnswer: 'set up',
             explanation: 'Direct quote from the text.',
             points: 1
@@ -13177,7 +13201,7 @@ Research backs up this observation. Studies show that persistence—often called
             points: 2
           },
           {
-            id: '',
+            id: 'q6',
             type: 'short-answer',
             question: 'What is the main message of this text?',
             correctAnswer: 'Success requires persistence through obstacles',
@@ -13233,9 +13257,9 @@ Research backs up this observation. Studies show that persistence—often called
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Which phrase is best for beginning a presentation. Answer: ___',
+            question: 'Which phrase is best for beginning a presentation?',
             correctAnswer: 'Let me introduce...',
             explanation: '"Introduce" se usa al inicio para presentar el tema',
             points: 1
@@ -13243,7 +13267,7 @@ Research backs up this observation. Studies show that persistence—often called
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: "I\'d like to ___ three main points before we continue."',
+            question: '"I\'d like to ___ three main points before we continue."',
             correctAnswer: 'highlight',
             explanation: '"Highlight" se usa para enfatizar puntos importantes',
             points: 1
@@ -13279,7 +13303,7 @@ Finally, embrace questions as opportunities rather than threats. If you don't kn
         readingTime: 4,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'According to the text, what is the foundation of a successful presentation?',
             correctAnswer: 'Thorough preparation',
@@ -13303,9 +13327,9 @@ Finally, embrace questions as opportunities rather than threats. If you don't kn
             points: 1
           },
           {
-            id: '',
+            id: 'q17',
             type: 'fill-blank',
-            sentence: 'What should you do if you don\\. Answer: ___',
+            question: 'What should you do if you don\\?',
             correctAnswer: 'Say you don\\',
             explanation: 'El texto recomienda: "it\\\'s perfectly acceptable to say so and offer to follow up later"',
             points: 2
@@ -13350,10 +13374,10 @@ Before I conclude, I want to emphasize one thing: every skilled speaker you admi
 Thank you for your attention. I'd be happy to take any questions.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "Two" for: How many main techniques does the speaker share?',
-            correctAnswer: 'False',
+            question: 'How many main techniques does the speaker share?',
+            correctAnswer: 'FalseTwo',
             explanation: 'Falso. El speaker dice: "I\\\'ll share three practical techniques"',
             points: 1
           },
@@ -13366,7 +13390,7 @@ Thank you for your attention. I'd be happy to take any questions.`,
             points: 2
           },
           {
-            id: '',
+            id: 'q18',
             type: 'short-answer',
             question: 'What is the first technique mentioned?',
             correctAnswer: 'Reframing nervousness as excitement',
@@ -13453,15 +13477,15 @@ Thank you for your attention. I'd be happy to take any questions.`,
         text: `Academic writing requires precision, clarity, and rigorous attention to detail. When (1)_____ research, scholars must carefully evaluate sources to ensure they are reliable and relevant. The research process typically begins with formulating a clear hypothesis or research question. Researchers then (2)_____ a comprehensive literature review to understand what has already been published on the topic. This step is crucial because it helps identify (3)_____ in current knowledge and establishes the context for new research. Data collection methods must be carefully chosen and (4)_____ implemented to ensure valid results. Once data has been gathered, it must be systematically analyzed and interpreted. Research findings should be presented objectively, (5)_____ personal biases or opinions. When drawing conclusions, it's important to acknowledge any (6)_____ of the study. Finally, researchers must properly (7)_____ all sources to give credit to previous work and allow readers to verify information. Failing to do so can result in accusations of plagiarism, which can seriously (8)_____ an academic's reputation and career.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: '1. _____',
+            question: '1. _____',
             correctAnswer: 'conducting',
             explanation: '"Conducting research" is the standard academic collocation.',
             points: 1
           },
           {
-            id: '',
+            id: 'q2',
             type: 'true-false',
             question: '2. conduct',
             correctAnswer: 'True',
@@ -13469,23 +13493,23 @@ Thank you for your attention. I'd be happy to take any questions.`,
             points: 1
           },
           {
-            id: '',
+            id: 'q3',
             type: 'fill-blank',
-            sentence: '3. _____',
+            question: '3. _____',
             correctAnswer: 'gaps',
             explanation: '"Gaps in knowledge" is the standard academic expression for missing areas of research.',
             points: 1
           },
           {
-            id: '',
+            id: 'q4',
             type: 'fill-blank',
-            sentence: '4. _____',
+            question: '4. _____',
             correctAnswer: 'rigorously',
             explanation: '"Rigorously implemented" means executed with extreme thoroughness and care.',
             points: 1
           },
           {
-            id: '',
+            id: 'q5',
             type: 'short-answer',
             question: '5. _____',
             correctAnswer: 'avoiding',
@@ -13493,15 +13517,15 @@ Thank you for your attention. I'd be happy to take any questions.`,
             points: 2
           },
           {
-            id: '',
+            id: 'q6',
             type: 'fill-blank',
-            sentence: '6. _____',
+            question: '6. _____',
             correctAnswer: 'limitations',
             explanation: '"Limitations of a study" is the standard academic term for acknowledging weaknesses.',
             points: 1
           },
           {
-            id: '',
+            id: 'q7',
             type: 'short-answer',
             question: '7. _____',
             correctAnswer: 'cite',
@@ -13509,9 +13533,9 @@ Thank you for your attention. I'd be happy to take any questions.`,
             points: 2
           },
           {
-            id: '',
+            id: 'q8',
             type: 'fill-blank',
-            sentence: '8. _____',
+            question: '8. _____',
             correctAnswer: 'damage',
             explanation: '"Damage reputation" is the correct collocation for harming one\\\'s professional standing.',
             points: 1
@@ -13535,17 +13559,17 @@ Thank you for your attention. I'd be happy to take any questions.`,
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "Finally" for: Which phrase is best for transitioning to a new topic?',
-            correctAnswer: 'False',
+            question: 'Which phrase is best for transitioning to a new topic?',
+            correctAnswer: 'FalseFinally',
             explanation: 'Falso. "Moving on to" indicates a transition to a new topic.',
             points: 1
           },
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: "___, I\'d like to thank everyone for their participation."',
+            question: '"___, I\'d like to thank everyone for their participation."',
             correctAnswer: 'Finally',
             explanation: '"Finally" is used for the last point or conclusion.',
             points: 1
@@ -13568,7 +13592,7 @@ Thank you for your attention. I'd be happy to take any questions.`,
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'What phrase means "to question a belief"?',
             correctAnswer: 'challenge the assumption',
@@ -13608,9 +13632,9 @@ Thank you for your attention. I'd be happy to take any questions.`,
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Which sentence uses appropriate hedging language. Answer: ___',
+            question: 'Which sentence uses appropriate hedging language?',
             correctAnswer: 'This study suggests that exercise may help reduce depression.',
             explanation: 'This option uses hedging with "suggests" and "may" to avoid overgeneralization.',
             points: 2
@@ -13625,10 +13649,10 @@ Thank you for your attention. I'd be happy to take any questions.`,
             points: 2
           },
           {
-            id: '',
+            id: 'q19',
             type: 'true-false',
-            question: 'The correct answer is "definitely" for: Which word is a hedging adverb?',
-            correctAnswer: 'False',
+            question: 'Which word is a hedging adverb?',
+            correctAnswer: 'Falsedefinitely',
             explanation: 'Falso. "Probably" expresses uncertainty, while the others express certainty.',
             points: 1
           }
@@ -13640,35 +13664,35 @@ Thank you for your attention. I'd be happy to take any questions.`,
         title: 'Common Presentation Errors',
         sentences: [
           {
-            sentence: 'Good morning. Today I want to talk you about climate change.',
+            question: 'Good morning. Today I want to talk you about climate change.',
             error: 'talk you',
             correction: 'talk to you',
             explanation: 'The correct phrase is "talk to you" (not "talk you").',
             points: 1
           },
           {
-            sentence: 'Let me to introduce our new product line.',
+            question: 'Let me to introduce our new product line.',
             error: 'to introduce',
             correction: 'introduce',
             explanation: 'After "let me", use the base form without "to".',
             points: 1
           },
           {
-            sentence: 'Firstable, I\'d like to outline the main objectives.',
+            question: 'Firstable, I\'d like to outline the main objectives.',
             error: 'Firstable',
             correction: 'Firstly / First of all',
             explanation: '"Firstable" is not a word. Use "Firstly" or "First of all".',
             points: 1
           },
           {
-            sentence: 'This data shows that customers prefers our product.',
+            question: 'This data shows that customers prefers our product.',
             error: 'prefers',
             correction: 'prefer',
             explanation: 'The subject is "customers" (plural), so use "prefer" not "prefers".',
             points: 1
           },
           {
-            sentence: 'I want to emphasize about the importance of teamwork.',
+            question: 'I want to emphasize about the importance of teamwork.',
             error: 'emphasize about',
             correction: 'emphasize',
             explanation: '"Emphasize" is not followed by "about". Say "emphasize the importance".',
@@ -13682,35 +13706,35 @@ Thank you for your attention. I'd be happy to take any questions.`,
         title: 'Complete the Presentation Phrases',
         sentences: [
           {
-            sentence: 'Let me ___ your attention to this important statistic.',
+            question: 'Let me ___ your attention to this important statistic.',
             correctAnswer: 'draw',
             acceptableAnswers: ['direct', 'bring'],
             explanation: '"Draw your attention" is the standard phrase.',
             points: 1
           },
           {
-            sentence: 'I\'d like to ___ on the point Sarah made earlier.',
+            question: 'I\'d like to ___ on the point Sarah made earlier.',
             correctAnswer: 'build',
             acceptableAnswers: ['expand', 'elaborate'],
             explanation: '"Build on" means to develop or expand an idea further.',
             points: 1
           },
           {
-            sentence: 'This finding ___ light on consumer preferences.',
+            question: 'This finding ___ light on consumer preferences.',
             correctAnswer: 'sheds',
             acceptableAnswers: ['throws', 'casts'],
             explanation: '"Sheds light on" means to clarify or explain something.',
             points: 1
           },
           {
-            sentence: 'The data ___ to suggest a positive correlation.',
+            question: 'The data ___ to suggest a positive correlation.',
             correctAnswer: 'seems',
             acceptableAnswers: ['appears', 'tends'],
             explanation: 'Hedging language: "seems to suggest" is more tentative than "proves".',
             points: 1
           },
           {
-            sentence: 'Before I ___, let me summarize the key points.',
+            question: 'Before I ___, let me summarize the key points.',
             correctAnswer: 'conclude',
             acceptableAnswers: ['finish', 'end'],
             explanation: '"Before I conclude" is a formal closing phrase.',
@@ -13826,56 +13850,56 @@ Thank you for your attention. I'd be happy to take any questions.`,
         title: 'Word Formation: Academic Nouns',
         sentences: [
           {
-            sentence: 'The ___ (INVESTIGATE) revealed surprising results.',
+            question: 'The ___ (INVESTIGATE) revealed surprising results.',
             correctAnswer: 'investigation',
             baseWord: 'INVESTIGATE',
             explanation: 'Noun form: investigate → investigation',
             points: 1
           },
           {
-            sentence: 'We need to conduct a thorough ___ (ANALYZE) of the data.',
+            question: 'We need to conduct a thorough ___ (ANALYZE) of the data.',
             correctAnswer: 'analysis',
             baseWord: 'ANALYZE',
             explanation: 'Noun form: analyze → analysis (irregular)',
             points: 1
           },
           {
-            sentence: 'The ___ (PRESENT) was well-structured and engaging.',
+            question: 'The ___ (PRESENT) was well-structured and engaging.',
             correctAnswer: 'presentation',
             baseWord: 'PRESENT',
             explanation: 'Noun form: present → presentation',
             points: 1
           },
           {
-            sentence: 'Student ___ (PARTICIPATE) is essential for learning.',
+            question: 'Student ___ (PARTICIPATE) is essential for learning.',
             correctAnswer: 'participation',
             baseWord: 'PARTICIPATE',
             explanation: 'Noun form: participate → participation',
             points: 1
           },
           {
-            sentence: 'The study has several ___ (LIMIT) that should be acknowledged.',
+            question: 'The study has several ___ (LIMIT) that should be acknowledged.',
             correctAnswer: 'limitations',
             baseWord: 'LIMIT',
             explanation: 'Noun form (plural): limit → limitations',
             points: 1
           },
           {
-            sentence: 'Her ___ (EXPLAIN) was clear and concise.',
+            question: 'Her ___ (EXPLAIN) was clear and concise.',
             correctAnswer: 'explanation',
             baseWord: 'EXPLAIN',
             explanation: 'Noun form: explain → explanation',
             points: 1
           },
           {
-            sentence: 'The research shows a strong ___ (CORRELATE) between the variables.',
+            question: 'The research shows a strong ___ (CORRELATE) between the variables.',
             correctAnswer: 'correlation',
             baseWord: 'CORRELATE',
             explanation: 'Noun form: correlate → correlation',
             points: 1
           },
           {
-            sentence: 'We reached the ___ (CONCLUDE) that more research is needed.',
+            question: 'We reached the ___ (CONCLUDE) that more research is needed.',
             correctAnswer: 'conclusion',
             baseWord: 'CONCLUDE',
             explanation: 'Noun form: conclude → conclusion',
@@ -13995,9 +14019,9 @@ The implications for business and academic presentations are clear. Whether you'
         readingTime: 4,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'According to the text, what do successful TED speakers focus on. Answer: ___',
+            question: 'According to the text, what do successful TED speakers focus on?',
             correctAnswer: 'Telling stories that resonate emotionally',
             explanation: 'The text states: "They don\\\'t just present information; they tell stories that resonate emotionally".',
             points: 2
@@ -14011,9 +14035,9 @@ The implications for business and academic presentations are clear. Whether you'
             points: 2
           },
           {
-            id: '',
+            id: 'q20',
             type: 'fill-blank',
-            sentence: 'What is "the power of three". Answer: ___',
+            question: 'What is "the power of three"?',
             correctAnswer: 'Organizing content around three main points',
             explanation: 'The text explains: "They organize content around three main points".',
             points: 2
@@ -14085,7 +14109,7 @@ The implications for business and academic presentations are clear. Whether you'
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'Which is correct?',
             correctAnswer: 'Both b and c',
@@ -14095,15 +14119,15 @@ The implications for business and academic presentations are clear. Whether you'
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: We need to ___ an agreement before Friday.',
+            question: 'We need to ___ an agreement before Friday.',
             correctAnswer: 'reach',
             explanation: 'La colocación correcta es "reach an agreement"',
             points: 1
           },
           {
-            id: '',
+            id: 'q21',
             type: 'fill-blank',
-            sentence: 'Which is INCORRECT. Answer: ___',
+            question: 'Which is INCORRECT?',
             correctAnswer: 'win experience',
             explanation: '"Win experience" no es una colocación natural en inglés',
             points: 1
@@ -14128,7 +14152,7 @@ The implications for business and academic presentations are clear. Whether you'
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'What does "break the ice" mean?',
             correctAnswer: 'Make people feel more comfortable',
@@ -14138,7 +14162,7 @@ The implications for business and academic presentations are clear. Whether you'
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: "Your suggestion is perfect. You really ___ on the head!"',
+            question: '"Your suggestion is perfect. You really ___ on the head!"',
             correctAnswer: 'hit the nail',
             explanation: '"Hit the nail on the head" significa ser exactamente correcto',
             points: 1
@@ -14174,9 +14198,9 @@ Now, years later, I try to share these lessons with younger colleagues. Success 
         readingTime: 5,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'What mistake did the author make early in their career. Answer: ___',
+            question: 'What mistake did the author make early in their career?',
             correctAnswer: 'Cutting corners to finish quickly',
             explanation: 'El autor dice: "I tried to cut corners to finish projects quickly"',
             points: 1
@@ -14198,10 +14222,10 @@ Now, years later, I try to share these lessons with younger colleagues. Success 
             points: 1
           },
           {
-            id: '',
+            id: 'q18',
             type: 'true-false',
-            question: 'The correct answer is "Being transparent about issues" for: According to the text, what builds trust with clients?',
-            correctAnswer: 'True',
+            question: 'According to the text, what builds trust with clients?',
+            correctAnswer: 'TrueBeing transparent about issues',
             explanation: 'El texto dice: "This honesty built trust"',
             points: 2
           },
@@ -14253,7 +14277,7 @@ Host: Wonderful advice. Thanks so much, Patricia.
 Dr. Lee: My pleasure!`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'short-answer',
             question: 'What common mistake do Spanish speakers make according to Dr. Lee?',
             correctAnswer: 'Saying "make a photo" instead of "take a photo"',
@@ -14277,9 +14301,9 @@ Dr. Lee: My pleasure!`,
             points: 1
           },
           {
-            id: '',
+            id: 'q19',
             type: 'fill-blank',
-            sentence: 'What does "break the ice" specifically mean. Answer: ___',
+            question: 'What does "break the ice" specifically mean?',
             correctAnswer: 'Make people feel more comfortable socially',
             explanation: 'Dr. Lee explica: "it specifically means to make people feel more comfortable in a social situation"',
             points: 2
@@ -14366,17 +14390,17 @@ Dr. Lee: My pleasure!`,
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "do a business" for: Which collocation is correct?',
-            correctAnswer: 'False',
+            question: 'Which collocation is correct?',
+            correctAnswer: 'Falsedo a business',
             explanation: 'Falso. "Run a business" es la colocación estándar para gestionar un negocio.',
             points: 1
           },
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: The sales team managed to ___ the deal after weeks of negotiation.',
+            question: 'The sales team managed to ___ the deal after weeks of negotiation.',
             correctAnswer: 'close',
             explanation: '"Close a deal" significa finalizar un acuerdo.',
             points: 1
@@ -14399,9 +14423,9 @@ Dr. Lee: My pleasure!`,
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Which adjective collocates with "deadline". Answer: ___',
+            question: 'Which adjective collocates with "deadline"?',
             correctAnswer: 'tight',
             explanation: '"Tight deadline" significa un plazo con poco tiempo disponible.',
             points: 1
@@ -14436,17 +14460,17 @@ Note: Some expressions can use different verbs with slight meaning changes. For 
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Complete: We need to ___ research before launching the product.',
+            question: 'We need to ___ research before launching the product.',
             correctAnswer: 'do',
             explanation: '"Do research" is the correct collocation.',
             points: 1
           },
           {
-            id: '',
+            id: 'q2',
             type: 'short-answer',
-            question: 'Complete: The new policy will ___ a big difference.',
+            question: 'The new policy will ___ a big difference.',
             correctAnswer: 'make',
             explanation: '"Make a difference" es la colocación correcta.',
             points: 2
@@ -14454,7 +14478,7 @@ Note: Some expressions can use different verbs with slight meaning changes. For 
           {
             id: 'q3',
             type: 'fill-blank',
-            question: 'Complete: Leaders must ___ responsibility for their decisions.',
+            question: 'Leaders must ___ responsibility for their decisions.',
             correctAnswer: 'take',
             explanation: '"Take responsibility" es la colocación estándar.',
             points: 1
@@ -14467,35 +14491,35 @@ Note: Some expressions can use different verbs with slight meaning changes. For 
         title: 'Common Collocation Errors',
         sentences: [
           {
-            sentence: 'We need to make business with international partners.',
+            question: 'We need to make business with international partners.',
             error: 'make business',
             correction: 'do business',
             explanation: 'Correct: "do business" (not "make business").',
             points: 1
           },
           {
-            sentence: 'Can you make me a photo with my phone?',
+            question: 'Can you make me a photo with my phone?',
             error: 'make me a photo',
             correction: 'take a photo of me',
             explanation: 'English uses "take a photo" (not "make a photo").',
             points: 1
           },
           {
-            sentence: 'She achieved a big mistake during the presentation.',
+            question: 'She achieved a big mistake during the presentation.',
             error: 'achieved a big mistake',
             correction: 'made a big mistake',
             explanation: 'Correct: "make a mistake" (not "achieve a mistake").',
             points: 1
           },
           {
-            sentence: 'The manager gave a decision after considering all options.',
+            question: 'The manager gave a decision after considering all options.',
             error: 'gave a decision',
             correction: 'made a decision',
             explanation: 'Correct: "make a decision" (not "give a decision").',
             points: 1
           },
           {
-            sentence: 'We must win experience before applying for senior positions.',
+            question: 'We must win experience before applying for senior positions.',
             error: 'win experience',
             correction: 'gain experience',
             explanation: 'Correct: "gain experience" (not "win experience").',
@@ -14509,33 +14533,33 @@ Note: Some expressions can use different verbs with slight meaning changes. For 
         title: 'Complete with Collocations',
         sentences: [
           {
-            sentence: 'The company plans to ___ a new product line next quarter.',
+            question: 'The company plans to ___ a new product line next quarter.',
             correctAnswer: 'launch',
             acceptableAnswers: ['introduce', 'release'],
             explanation: '"Launch a product" es la colocación más natural.',
             points: 1
           },
           {
-            sentence: 'We need creative thinkers who can ___ outside the box.',
+            question: 'We need creative thinkers who can ___ outside the box.',
             correctAnswer: 'think',
             explanation: '"Think outside the box" significa pensar creativamente.',
             points: 1
           },
           {
-            sentence: 'The project requires us to work under a very ___ deadline.',
+            question: 'The project requires us to work under a very ___ deadline.',
             correctAnswer: 'tight',
             acceptableAnswers: ['strict'],
             explanation: '"Tight deadline" significa un plazo con poco tiempo.',
             points: 1
           },
           {
-            sentence: 'Let\'s ___ the ball rolling on this initiative.',
+            question: 'Let\'s ___ the ball rolling on this initiative.',
             correctAnswer: 'get',
             explanation: '"Get the ball rolling" significa comenzar algo.',
             points: 1
           },
           {
-            sentence: 'She always ___ the extra mile for her clients.',
+            question: 'She always ___ the extra mile for her clients.',
             correctAnswer: 'goes',
             explanation: '"Go the extra mile" significa hacer un esfuerzo adicional.',
             points: 1
@@ -14650,14 +14674,14 @@ Note: Some expressions can use different verbs with slight meaning changes. For 
         title: 'Word Formation: Business Nouns',
         sentences: [
           {
-            sentence: 'The ___ (COMPETE) in the market is becoming fiercer.',
+            question: 'The ___ (COMPETE) in the market is becoming fiercer.',
             correctAnswer: 'competition',
             baseWord: 'COMPETE',
             explanation: 'Noun form: compete → competition',
             points: 1
           },
           {
-            sentence: 'Successful ___ (NEGOTIATE) requires patience and skill.',
+            question: 'Successful ___ (NEGOTIATE) requires patience and skill.',
             correctAnswer: 'negotiation',
             baseWord: 'NEGOTIATE',
             explanation: 'Noun form: negotiate → negotiation',
@@ -14671,35 +14695,35 @@ Note: Some expressions can use different verbs with slight meaning changes. For 
             points: 1
           },
           {
-            sentence: 'Customer ___ (SATISFY) is our top priority.',
+            question: 'Customer ___ (SATISFY) is our top priority.',
             correctAnswer: 'satisfaction',
             baseWord: 'SATISFY',
             explanation: 'Noun form: satisfy → satisfaction',
             points: 1
           },
           {
-            sentence: 'The ___ (COLLABORATE) between the two teams was excellent.',
+            question: 'The ___ (COLLABORATE) between the two teams was excellent.',
             correctAnswer: 'collaboration',
             baseWord: 'COLLABORATE',
             explanation: 'Noun form: collaborate → collaboration',
             points: 1
           },
           {
-            sentence: 'We need to improve our ___ (COMMUNICATE) with clients.',
+            question: 'We need to improve our ___ (COMMUNICATE) with clients.',
             correctAnswer: 'communication',
             baseWord: 'COMMUNICATE',
             explanation: 'Noun form: communicate → communication',
             points: 1
           },
           {
-            sentence: 'The ___ (EXPAND) of the business required significant investment.',
+            question: 'The ___ (EXPAND) of the business required significant investment.',
             correctAnswer: 'expansion',
             baseWord: 'EXPAND',
             explanation: 'Noun form: expand → expansion',
             points: 1
           },
           {
-            sentence: 'His ___ (ACHIEVE) in sales are impressive.',
+            question: 'His ___ (ACHIEVE) in sales are impressive.',
             correctAnswer: 'achievements',
             baseWord: 'ACHIEVE',
             explanation: 'Noun form (plural): achieve → achievements',
@@ -14822,9 +14846,9 @@ Finally, be patient with yourself. Native speakers have been absorbing these pat
         readingTime: 5,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'According to the text, why do collocations matter in business. Answer: ___',
+            question: 'According to the text, why do collocations matter in business?',
             correctAnswer: 'They affect credibility and efficiency',
             explanation: 'The text states: "The answer lies in credibility and efficiency".',
             points: 2
@@ -14846,7 +14870,7 @@ Finally, be patient with yourself. Native speakers have been absorbing these pat
             points: 2
           },
           {
-            id: '',
+            id: 'q20',
             type: 'short-answer',
             question: 'What does the text recommend for learning collocations?',
             correctAnswer: 'Extensive reading and listening in authentic contexts',
@@ -14912,9 +14936,9 @@ Finally, be patient with yourself. Native speakers have been absorbing these pat
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Which is the MOST diplomatic way to disagree. Answer: ___',
+            question: 'Which is the MOST diplomatic way to disagree?',
             correctAnswer: 'I see your point, but...',
             explanation: 'Esta frase reconoce la opinión del otro antes de expresar desacuerdo',
             points: 1
@@ -15001,10 +15025,10 @@ Sarah`,
         readingTime: 5,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "5% price increase" for: What is Mark\\',
-            correctAnswer: 'True',
+            question: 'What is Mark\\',
+            correctAnswer: 'True5% price increase',
             explanation: 'Sarah menciona en el primer email: "you\\\'re proposing a 5% increase"',
             points: 1
           },
@@ -15025,7 +15049,7 @@ Sarah`,
             points: 1
           },
           {
-            id: '',
+            id: 'q21',
             type: 'short-answer',
             question: 'What additional clause does Sarah request?',
             correctAnswer: 'Price review in 12 months instead of 18',
@@ -15080,18 +15104,18 @@ Michael: Agreed. Let's document these terms and move forward.
 James: Excellent. Thank you both for being so collaborative. This is a good example of finding solutions that address everyone's needs.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'What is Emma\\. Answer: ___',
+            question: 'What is Emma\\?',
             correctAnswer: '$500,000',
             explanation: 'Emma dice: "We believe the campaign needs a budget of $500,000"',
             points: 1
           },
           {
-            id: '',
+            id: 'q2',
             type: 'true-false',
-            question: 'The correct answer is "$350" for: What is Michael\\',
-            correctAnswer: 'False',
+            question: 'What is Michael\\',
+            correctAnswer: 'False$350',
             explanation: 'Falso. Emma menciona: "finance is proposing we reduce this to $350,000"',
             points: 1
           },
@@ -15104,9 +15128,9 @@ James: Excellent. Thank you both for being so collaborative. This is a good exam
             points: 1
           },
           {
-            id: '',
+            id: 'q22',
             type: 'fill-blank',
-            sentence: 'What reporting schedule do they agree on. Answer: ___',
+            question: 'What reporting schedule do they agree on?',
             correctAnswer: 'Bi-weekly for first month, then monthly',
             explanation: 'Emma propone y acuerdan: "Bi-weekly initially...then monthly thereafter"',
             points: 2
@@ -15185,15 +15209,15 @@ James: Excellent. Thank you both for being so collaborative. This is a good exam
         text: `Effective communication in the workplace is essential for success, yet many organizations (1)_____ to create an environment where open dialogue can flourish. One common obstacle is the fear of speaking up, particularly when it (2)_____ to challenging established practices or questioning decisions made by senior management. Employees may worry about the potential (3)_____ of being perceived as difficult or negative. To address this issue, leaders must actively (4)_____ a culture where constructive criticism is welcomed and valued. This involves not only (5)_____ that employees can express concerns, but also demonstrating through actions that their input will be taken seriously. Regular feedback sessions and anonymous suggestion systems can help (6)_____ down communication barriers. However, it's equally important to establish clear guidelines about appropriate communication channels and professional conduct. When disagreements (7)_____, they should be handled promptly and respectfully, with a focus on finding solutions rather than assigning blame. By creating an atmosphere of mutual respect and trust, organizations can ensure that communication (8)_____ as a tool for improvement rather than a source of conflict.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: '1. _____',
+            question: '1. _____',
             correctAnswer: 'struggle',
             explanation: '"Struggle to" means find it difficult to do something, fitting the context of workplace challenges.',
             points: 1
           },
           {
-            id: '',
+            id: 'q2',
             type: 'short-answer',
             question: '2. _____',
             correctAnswer: 'comes',
@@ -15201,15 +15225,15 @@ James: Excellent. Thank you both for being so collaborative. This is a good exam
             points: 2
           },
           {
-            id: '',
+            id: 'q3',
             type: 'fill-blank',
-            sentence: '3. _____',
+            question: '3. _____',
             correctAnswer: 'consequences',
             explanation: '"Consequences" suggests negative results, fitting the context of workplace fears.',
             points: 1
           },
           {
-            id: '',
+            id: 'q4',
             type: 'short-answer',
             question: '4. _____',
             correctAnswer: 'foster',
@@ -15217,15 +15241,15 @@ James: Excellent. Thank you both for being so collaborative. This is a good exam
             points: 2
           },
           {
-            id: '',
+            id: 'q5',
             type: 'fill-blank',
-            sentence: '5. _____',
+            question: '5. _____',
             correctAnswer: 'ensuring',
             explanation: '"Ensuring" means making certain that something happens, the most appropriate choice.',
             points: 1
           },
           {
-            id: '',
+            id: 'q6',
             type: 'true-false',
             question: '6. tear',
             correctAnswer: 'False',
@@ -15233,7 +15257,7 @@ James: Excellent. Thank you both for being so collaborative. This is a good exam
             points: 1
           },
           {
-            id: '',
+            id: 'q7',
             type: 'short-answer',
             question: '7. _____',
             correctAnswer: 'arise',
@@ -15241,9 +15265,9 @@ James: Excellent. Thank you both for being so collaborative. This is a good exam
             points: 2
           },
           {
-            id: '',
+            id: 'q8',
             type: 'fill-blank',
-            sentence: '8. _____',
+            question: '8. _____',
             correctAnswer: 'serves',
             explanation: '"Serves as" means functions as or acts in the role of something.',
             points: 1
@@ -15267,17 +15291,17 @@ James: Excellent. Thank you both for being so collaborative. This is a good exam
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "The minimum acceptable terms" for: What does "bottom line" mean in negotiations?',
-            correctAnswer: 'True',
+            question: 'What does "bottom line" mean in negotiations?',
+            correctAnswer: 'TrueThe minimum acceptable terms',
             explanation: '"Bottom line" significa los términos mínimos aceptables en una negociación',
             points: 1
           },
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: Both sides will need to make ___ to reach a deal.',
+            question: 'Both sides will need to make ___ to reach a deal.',
             correctAnswer: 'concessions',
             explanation: '"Make concessions" significa ceder en algo durante la negociación',
             points: 1
@@ -15308,9 +15332,9 @@ James: Excellent. Thank you both for being so collaborative. This is a good exam
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'What does it mean to "take the floor". Answer: ___',
+            question: 'What does it mean to "take the floor"?',
             correctAnswer: 'Begin speaking at a meeting',
             explanation: '"Take the floor" significa tomar la palabra en una reunión',
             points: 1
@@ -15318,7 +15342,7 @@ James: Excellent. Thank you both for being so collaborative. This is a good exam
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: Let\'s ___ this meeting to order.',
+            question: 'Let\'s ___ this meeting to order.',
             correctAnswer: 'call',
             explanation: '"Call to order" es la expresión para iniciar formalmente una reunión',
             points: 1
@@ -15372,9 +15396,9 @@ B: ✗ "No, that's a terrible idea."
 B: ✓ "I see your point about timing. However, I'm concerned that we might not be ready. Could we explore launching in two months instead?"`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Which is the MOST polite way to disagree. Answer: ___',
+            question: 'Which is the MOST polite way to disagree?',
             correctAnswer: 'I see your point, however...',
             explanation: 'Esta frase reconoce primero el punto de vista antes de expresar desacuerdo',
             points: 1
@@ -15388,7 +15412,7 @@ B: ✓ "I see your point about timing. However, I'm concerned that we might not 
             points: 2
           },
           {
-            id: '',
+            id: 'q22',
             type: 'short-answer',
             question: 'Which modal verb is best for softening disagreement?',
             correctAnswer: 'might',
@@ -15403,31 +15427,31 @@ B: ✓ "I see your point about timing. However, I'm concerned that we might not 
         title: 'Common Business Communication Errors',
         sentences: [
           {
-            sentence: 'I am not agree with your proposal.',
+            question: 'I am not agree with your proposal.',
             error: 'am not agree',
             correction: 'do not agree / don\'t agree',
             explanation: '"Agree" es un verbo regular que necesita auxiliar "do/does" para negación'
           },
           {
-            sentence: 'Would you mind to review the contract?',
+            question: 'Would you mind to review the contract?',
             error: 'to review',
             correction: 'reviewing',
             explanation: '"Mind" se sigue de gerundio (-ing), no infinitivo'
           },
           {
-            sentence: 'I am looking forward to hear from you.',
+            question: 'I am looking forward to hear from you.',
             error: 'to hear',
             correction: 'to hearing / hearing',
             explanation: '"Look forward to" se sigue de gerundio porque "to" es preposición, no infinitivo'
           },
           {
-            sentence: 'We need discuss this matter urgently.',
+            question: 'We need discuss this matter urgently.',
             error: 'need discuss',
             correction: 'need to discuss',
             explanation: '"Need" como verbo principal requiere "to" antes del infinitivo'
           },
           {
-            sentence: 'I suggest to postpone the meeting.',
+            question: 'I suggest to postpone the meeting.',
             error: 'to postpone',
             correction: 'postponing / that we postpone',
             explanation: '"Suggest" se sigue de gerundio o "that + clause", no infinitivo directo'
@@ -15442,14 +15466,14 @@ B: ✓ "I see your point about timing. However, I'm concerned that we might not 
         title: 'Complete Diplomatic Phrases',
         sentences: [
           {
-            sentence: 'I ___ your concern about the timeline, however, I believe we can manage it.',
+            question: 'I ___ your concern about the timeline, however, I believe we can manage it.',
             correctAnswer: 'appreciate',
             acceptableAnswers: ['understand', 'recognize', 'acknowledge'],
             explanation: 'Estas palabras muestran reconocimiento de la preocupación del otro',
             points: 1
           },
           {
-            sentence: 'Would it be ___ to extend the deadline by one week?',
+            question: 'Would it be ___ to extend the deadline by one week?',
             correctAnswer: 'possible',
             explanation: '"Would it be possible to..." es una forma cortés de hacer peticiones',
             points: 1
@@ -15468,7 +15492,7 @@ B: ✓ "I see your point about timing. However, I'm concerned that we might not 
             points: 1
           },
           {
-            sentence: 'Would you be ___ to consider our alternative proposal?',
+            question: 'Would you be ___ to consider our alternative proposal?',
             correctAnswer: 'willing',
             acceptableAnswers: ['prepared', 'open'],
             explanation: '"Willing to" es una forma cortés de preguntar si alguien consideraría algo',
@@ -15592,50 +15616,50 @@ B: ✓ "I see your point about timing. However, I'm concerned that we might not 
         instructions: 'Form nouns from the words in brackets to complete the sentences.',
         questions: [
           {
-            sentence: 'The ___ (NEGOTIATE) lasted for three hours before we reached a deal.',
+            question: 'The ___ (NEGOTIATE) lasted for three hours before we reached a deal.',
             correctAnswer: 'negotiation',
             explanation: 'negotiate → negotiation (sustantivo)',
             points: 1
           },
           {
-            sentence: 'We need more ___ (CLEAR) on the contract terms.',
+            question: 'We need more ___ (CLEAR) on the contract terms.',
             correctAnswer: 'clarity',
             acceptableAnswers: ['clarification'],
             explanation: 'clear → clarity / clarify → clarification',
             points: 1
           },
           {
-            sentence: 'The ___ (PROPOSE) was well-received by the board.',
+            question: 'The ___ (PROPOSE) was well-received by the board.',
             correctAnswer: 'proposal',
             explanation: 'propose → proposal',
             points: 1
           },
           {
-            sentence: 'Your ___ (FLEXIBLE) on pricing is much appreciated.',
+            question: 'Your ___ (FLEXIBLE) on pricing is much appreciated.',
             correctAnswer: 'flexibility',
             explanation: 'flexible → flexibility',
             points: 1
           },
           {
-            sentence: 'We value your ___ (COMMIT) to quality.',
+            question: 'We value your ___ (COMMIT) to quality.',
             correctAnswer: 'commitment',
             explanation: 'commit → commitment',
             points: 1
           },
           {
-            sentence: 'The ___ (COMMUNICATE) breakdown led to misunderstandings.',
+            question: 'The ___ (COMMUNICATE) breakdown led to misunderstandings.',
             correctAnswer: 'communication',
             explanation: 'communicate → communication',
             points: 1
           },
           {
-            sentence: 'Both parties showed ___ (WILLING) to compromise.',
+            question: 'Both parties showed ___ (WILLING) to compromise.',
             correctAnswer: 'willingness',
             explanation: 'willing → willingness',
             points: 1
           },
           {
-            sentence: 'The ___ (RESOLVE) of the conflict took several meetings.',
+            question: 'The ___ (RESOLVE) of the conflict took several meetings.',
             correctAnswer: 'resolution',
             explanation: 'resolve → resolution',
             points: 1
@@ -15808,15 +15832,15 @@ Effective negotiation isn't about domination or manipulation—it's about strate
         readingTime: 7,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'What does BATNA stand for. Answer: ___',
+            question: 'What does BATNA stand for?',
             correctAnswer: 'Best Alternative To a Negotiated Agreement',
             explanation: 'El texto define BATNA como "Best Alternative To a Negotiated Agreement"',
             points: 1
           },
           {
-            id: '',
+            id: 'q2',
             type: 'short-answer',
             question: 'According to research mentioned, how much better are outcomes when negotiators build rapport?',
             correctAnswer: '12% better',
@@ -15840,9 +15864,9 @@ Effective negotiation isn't about domination or manipulation—it's about strate
             points: 1
           },
           {
-            id: '',
+            id: 'q7',
             type: 'fill-blank',
-            sentence: 'Why is silence described as powerful in negotiation. Answer: ___',
+            question: 'Why is silence described as powerful in negotiation?',
             correctAnswer: 'It often prompts the other party to provide more information',
             explanation: 'El texto explica: "often prompts the other party to fill the silence with additional information or concessions"',
             points: 1
@@ -15902,10 +15926,10 @@ The remote work revolution represents more than just a change in where we work�
         readingTime: 5,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "6%" for: What percentage of companies are now fully remote according to the text?',
-            correctAnswer: 'False',
+            question: 'What percentage of companies are now fully remote according to the text?',
+            correctAnswer: 'False6%',
             explanation: 'Falso. El texto dice: "approximately 16% of companies globally are now fully remote"',
             points: 1
           },
@@ -15926,7 +15950,7 @@ The remote work revolution represents more than just a change in where we work�
             points: 1
           },
           {
-            id: '',
+            id: 'q23',
             type: 'short-answer',
             question: 'What does "asynchronous communication" mean according to the text?',
             correctAnswer: 'Responding on own schedule',
@@ -15942,9 +15966,9 @@ The remote work revolution represents more than just a change in where we work�
             points: 2
           },
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'Which skills are mentioned as critical for remote work success. Answer: ___',
+            question: 'Which skills are mentioned as critical for remote work success?',
             correctAnswer: 'Self-motivation and time management',
             explanation: 'El texto menciona: "Self-motivation, time management, and written communication"',
             points: 1
@@ -15969,10 +15993,10 @@ Dr. Martinez: Thank you for having me. The most significant shift we're witnessi
 [Interview continues with comprehensive content covering education, technology, challenges, solutions, and future predictions...]`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "Personalized learning" for: What is the most significant shift in education according to Dr. Martinez?',
-            correctAnswer: 'True',
+            question: 'What is the most significant shift in education according to Dr. Martinez?',
+            correctAnswer: 'TruePersonalized learning',
             explanation: 'Dr. Martinez dice: "The most significant shift...is personalized learning"',
             points: 1
           }
@@ -16044,23 +16068,23 @@ Dr. Martinez: Thank you for having me. The most significant shift we're witnessi
         text: `Artificial intelligence has become increasingly (1)_____ in our daily lives, from voice assistants to recommendation algorithms. While many people (2)_____ AI with science fiction scenarios, the reality is often more mundane but equally significant. Modern AI systems excel at pattern recognition and data analysis, tasks that would (3)_____ humans days or weeks to complete. However, despite these impressive (4)_____, AI still struggles with tasks that humans find intuitive, such as understanding context or recognizing sarcasm. The (5)_____ between narrow AI, which excels at specific tasks, and general AI, which could match human intelligence across all domains, remains vast. Experts (6)_____ about when—or if—we'll achieve general AI, with predictions ranging from decades to never. Meanwhile, the (7)_____ implications of AI continue to spark debate. Issues such as job displacement, privacy concerns, and algorithmic bias require careful consideration as we (8)_____ this technology into society.`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: '1. _____',
+            question: '1. _____',
             correctAnswer: 'prevalent',
             explanation: '"Prevalent" significa extendido o generalizado, el término más preciso para describir la presencia de AI',
             points: 1
           },
           {
-            id: '',
+            id: 'q2',
             type: 'fill-blank',
-            sentence: '2. _____',
+            question: '2. _____',
             correctAnswer: 'associate',
             explanation: '"Associate with" es la colocación correcta que significa relacionar mentalmente',
             points: 1
           },
           {
-            id: '',
+            id: 'q3',
             type: 'short-answer',
             question: '3. _____',
             correctAnswer: 'take',
@@ -16068,15 +16092,15 @@ Dr. Martinez: Thank you for having me. The most significant shift we're witnessi
             points: 2
           },
           {
-            id: '',
+            id: 'q4',
             type: 'fill-blank',
-            sentence: '4. _____',
+            question: '4. _____',
             correctAnswer: 'capabilities',
             explanation: '"Capabilities" es el término técnico apropiado para las capacidades de sistemas',
             points: 1
           },
           {
-            id: '',
+            id: 'q5',
             type: 'short-answer',
             question: '5. _____',
             correctAnswer: 'gap',
@@ -16084,15 +16108,15 @@ Dr. Martinez: Thank you for having me. The most significant shift we're witnessi
             points: 2
           },
           {
-            id: '',
+            id: 'q6',
             type: 'fill-blank',
-            sentence: '6. _____',
+            question: '6. _____',
             correctAnswer: 'disagree',
             explanation: '"Disagree about" es la colocación correcta para expresar opiniones divergentes',
             points: 1
           },
           {
-            id: '',
+            id: 'q7',
             type: 'true-false',
             question: '7. ethical',
             correctAnswer: 'True',
@@ -16100,7 +16124,7 @@ Dr. Martinez: Thank you for having me. The most significant shift we're witnessi
             points: 1
           },
           {
-            id: '',
+            id: 'q8',
             type: 'short-answer',
             question: '8. _____',
             correctAnswer: 'integrate',
@@ -16135,49 +16159,49 @@ Dr. Martinez: Thank you for having me. The most significant shift we're witnessi
         instructions: 'Use the word given in capitals to form a word that fits in the gap.',
         questions: [
           {
-            sentence: 'The company\'s ___ (DECIDE) to expand internationally proved highly successful.',
+            question: 'The company\'s ___ (DECIDE) to expand internationally proved highly successful.',
             correctAnswer: 'decision',
             explanation: 'decide → decision',
             points: 1
           },
           {
-            sentence: 'Her ___ (KNOW) of three languages made her an ideal candidate.',
+            question: 'Her ___ (KNOW) of three languages made her an ideal candidate.',
             correctAnswer: 'knowledge',
             explanation: 'know → knowledge',
             points: 1
           },
           {
-            sentence: 'The ___ (ENVIRONMENT) impact of plastic waste is becoming increasingly serious.',
+            question: 'The ___ (ENVIRONMENT) impact of plastic waste is becoming increasingly serious.',
             correctAnswer: 'environmental',
             explanation: 'environment → environmental (adjetivo)',
             points: 1
           },
           {
-            sentence: 'Scientists have made a ___ (REMARK) discovery in cancer research.',
+            question: 'Scientists have made a ___ (REMARK) discovery in cancer research.',
             correctAnswer: 'remarkable',
             explanation: 'remark → remarkable (adjetivo)',
             points: 1
           },
           {
-            sentence: 'The ___ (INTRODUCE) of new technology revolutionized the industry.',
+            question: 'The ___ (INTRODUCE) of new technology revolutionized the industry.',
             correctAnswer: 'introduction',
             explanation: 'introduce → introduction',
             points: 1
           },
           {
-            sentence: 'He spoke ___ (PASSION) about the need for educational reform.',
+            question: 'He spoke ___ (PASSION) about the need for educational reform.',
             correctAnswer: 'passionately',
             explanation: 'passion → passionately (adverbio)',
             points: 1
           },
           {
-            sentence: 'The museum\'s collection is ___ (TRUE) impressive.',
+            question: 'The museum\'s collection is ___ (TRUE) impressive.',
             correctAnswer: 'truly',
             explanation: 'true → truly (adverbio)',
             points: 1
           },
           {
-            sentence: 'Regular exercise can ___ (STRENGTH) your immune system.',
+            question: 'Regular exercise can ___ (STRENGTH) your immune system.',
             correctAnswer: 'strengthen',
             explanation: 'strength → strengthen (verbo)',
             points: 1
@@ -16344,9 +16368,9 @@ Numbers were my life for twenty years. I was good at financial analysis, worked 
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'What does "facilitate" mean. Answer: ___',
+            question: 'What does "facilitate" mean?',
             correctAnswer: 'Make easier',
             explanation: '"Facilitate" significa hacer más fácil o facilitar',
             points: 1
@@ -16354,7 +16378,7 @@ Numbers were my life for twenty years. I was good at financial analysis, worked 
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: The results show a ___ improvement in performance.',
+            question: 'The results show a ___ improvement in performance.',
             correctAnswer: 'significant',
             acceptableAnswers: ['substantial'],
             explanation: '"Significant" o "substantial" describen mejoras importantes',
@@ -16386,17 +16410,17 @@ Numbers were my life for twenty years. I was good at financial analysis, worked 
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'true-false',
-            question: 'The correct answer is "meet" for: Which verb goes with "deadline"?',
-            correctAnswer: 'True',
+            question: 'Which verb goes with "deadline"?',
+            correctAnswer: 'Truemeet',
             explanation: 'La colocación correcta es "meet a deadline"',
             points: 1
           },
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: We need to ___ costs to increase profits.',
+            question: 'We need to ___ costs to increase profits.',
             correctAnswer: 'cut',
             acceptableAnswers: ['reduce'],
             explanation: '"Cut costs" es la colocación más común, aunque "reduce" también es aceptable',
@@ -16428,9 +16452,9 @@ Numbers were my life for twenty years. I was good at financial analysis, worked 
         ],
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'What does "carry out" mean. Answer: ___',
+            question: 'What does "carry out" mean?',
             correctAnswer: 'Perform',
             explanation: '"Carry out" significa realizar o llevar a cabo',
             points: 1
@@ -16438,7 +16462,7 @@ Numbers were my life for twenty years. I was good at financial analysis, worked 
           {
             id: 'q2',
             type: 'fill-blank',
-            question: 'Complete: We need to ___ ___ a creative solution.',
+            question: 'We need to ___ ___ a creative solution.',
             correctAnswer: 'come up with',
             explanation: '"Come up with" significa idear o proponer',
             points: 1
@@ -16480,15 +16504,15 @@ Numbers were my life for twenty years. I was good at financial analysis, worked 
 - Deduction about past: "He must have forgotten"`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'If I _____ about the meeting, I would have attended.',
+            question: 'If I _____ about the meeting, I would have attended.',
             correctAnswer: 'had known',
             explanation: 'Third conditional requiere "had + past participle" en la condición',
             points: 1
           },
           {
-            id: '',
+            id: 'q2',
             type: 'short-answer',
             question: 'The report _____ by the end of the week.',
             correctAnswer: 'will be completed',
@@ -16496,15 +16520,15 @@ Numbers were my life for twenty years. I was good at financial analysis, worked 
             points: 2
           },
           {
-            id: '',
+            id: 'q3',
             type: 'fill-blank',
-            sentence: 'She told me that she _____ to London the previous year.',
+            question: 'She told me that she _____ to London the previous year.',
             correctAnswer: 'had gone',
             explanation: 'Reported speech con backshift: simple past → past perfect',
             points: 1
           },
           {
-            id: '',
+            id: 'q4',
             type: 'short-answer',
             question: 'He _____ have left already. His coat is gone.',
             correctAnswer: 'must',
@@ -16519,31 +16543,31 @@ Numbers were my life for twenty years. I was good at financial analysis, worked 
         title: 'Common B2 Errors - Final Review',
         sentences: [
           {
-            sentence: 'I have been knowing him for five years.',
+            question: 'I have been knowing him for five years.',
             error: 'have been knowing',
             correction: 'have known',
             explanation: '"Know" es un stative verb que no se usa en continuous'
           },
           {
-            sentence: 'Despite of the rain, we went for a walk.',
+            question: 'Despite of the rain, we went for a walk.',
             error: 'Despite of',
             correction: 'Despite / In spite of',
             explanation: '"Despite" no va seguido de "of"; usa "despite" o "in spite of"'
           },
           {
-            sentence: 'She suggested me to apply for the job.',
+            question: 'She suggested me to apply for the job.',
             error: 'suggested me to apply',
             correction: 'suggested that I apply / suggested I apply / suggested applying',
             explanation: '"Suggest" no va seguido de objeto + infinitivo'
           },
           {
-            sentence: 'The movie was very bored.',
+            question: 'The movie was very bored.',
             error: 'bored',
             correction: 'boring',
             explanation: 'La película es "boring" (aburrida); las personas están "bored"'
           },
           {
-            sentence: 'He asked me where was the station.',
+            question: 'He asked me where was the station.',
             error: 'where was the station',
             correction: 'where the station was',
             explanation: 'En preguntas indirectas, el orden es sujeto + verbo'
@@ -16558,33 +16582,33 @@ Numbers were my life for twenty years. I was good at financial analysis, worked 
         title: 'Gap-Fill: Climate Change Action',
         sentences: [
           {
-            sentence: 'Scientists have been warning ___ climate change for decades.',
+            question: 'Scientists have been warning ___ climate change for decades.',
             correctAnswer: 'about',
             explanation: '"Warn about" es la preposición correcta',
             points: 1
           },
           {
-            sentence: 'Governments need to take ___ action to reduce emissions.',
+            question: 'Governments need to take ___ action to reduce emissions.',
             correctAnswer: 'immediate',
             acceptableAnswers: ['urgent', 'swift', 'prompt'],
             explanation: 'Adjetivos que expresan urgencia',
             points: 1
           },
           {
-            sentence: 'Renewable energy is ___ increasingly affordable.',
+            question: 'Renewable energy is ___ increasingly affordable.',
             correctAnswer: 'becoming',
             acceptableAnswers: ['getting'],
             explanation: '"Become/get" para describir cambio de estado',
             points: 1
           },
           {
-            sentence: 'Many species are ___ risk of extinction.',
+            question: 'Many species are ___ risk of extinction.',
             correctAnswer: 'at',
             explanation: '"At risk" es la expresión fija',
             points: 1
           },
           {
-            sentence: 'We must reduce our carbon ___ significantly.',
+            question: 'We must reduce our carbon ___ significantly.',
             correctAnswer: 'footprint',
             acceptableAnswers: ['emissions'],
             explanation: '"Carbon footprint" o "carbon emissions" son colocaciones correctas',
@@ -16689,9 +16713,9 @@ The transition won't be smooth. Issues of inequality loom large: not everyone ha
         readingTime: 5,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'What does "portfolio careers" refer to. Answer: ___',
+            question: 'What does "portfolio careers" refer to?',
             correctAnswer: 'Combining multiple different roles',
             explanation: 'El texto explica: "combine multiple part-time roles, freelance projects, and entrepreneurial ventures"',
             points: 1
@@ -16705,10 +16729,10 @@ The transition won't be smooth. Issues of inequality loom large: not everyone ha
             points: 1
           },
           {
-            id: '',
+            id: 'q23',
             type: 'true-false',
-            question: 'The correct answer is "Ability to learn quickly and adapt" for: According to the text, what will be the most valuable skill?',
-            correctAnswer: 'True',
+            question: 'According to the text, what will be the most valuable skill?',
+            correctAnswer: 'TrueAbility to learn quickly and adapt',
             explanation: 'El texto afirma: "The ability to learn quickly and adapt...will be as important as any specific technical skill"',
             points: 1
           },
@@ -16721,7 +16745,7 @@ The transition won't be smooth. Issues of inequality loom large: not everyone ha
             points: 2
           },
           {
-            id: '',
+            id: 'q8',
             type: 'short-answer',
             question: 'What issue does the text mention as problematic?',
             correctAnswer: 'Inequality of access to opportunities',
@@ -16772,15 +16796,15 @@ Take your time with each question. This is your opportunity to demonstrate every
 **Good luck!**`,
         questions: [
           {
-            id: '',
+            id: 'q1',
             type: 'fill-blank',
-            sentence: 'By this time next year, I _____ my degree.',
+            question: 'By this time next year, I _____ my degree.',
             correctAnswer: 'will have finished',
             explanation: 'Future Perfect para acción que estará completada en un punto futuro',
             points: 2
           },
           {
-            id: '',
+            id: 'q2',
             type: 'true-false',
             question: 'Rarely I have seen such a beautiful sunset.',
             correctAnswer: 'False',
@@ -16788,27 +16812,27 @@ Take your time with each question. This is your opportunity to demonstrate every
             points: 2
           },
           {
-            id: '',
+            id: 'q3',
             type: 'fill-blank',
-            sentence: 'He _____ have arrived by now. The train was due at 3pm.',
+            question: 'He _____ have arrived by now. The train was due at 3pm.',
             correctAnswer: 'should',
             explanation: '"Should have" expresa expectativa basada en información',
             points: 2
           },
           {
-            id: '',
+            id: 'q4',
             type: 'fill-blank',
-            sentence: 'If I _____ harder at school, I _____ be in a better job now.',
+            question: 'If I _____ harder at school, I _____ be in a better job now.',
             correctAnswer: 'had studied / would',
             explanation: 'Mixed conditional: past condition, present result',
             points: 2
           },
           {
-            id: '',
+            id: 'q5',
             type: 'short-answer',
             question: 'What I need right now _____ a long vacation.',
             correctAnswer: 'is',
-            explanation: 'Cleft sentence: "what" clause toma verbo singular',
+            explanation: 'Cleft question: "what" clause toma verbo singular',
             points: 3
           }
         ]
