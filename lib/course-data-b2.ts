@@ -12332,7 +12332,20 @@ Looking forward, CSR will likely become even more integral to business models. C
           'Natural integration: don\'t force phrasal verbs',
           'Tell a coherent story',
           'Explain the outcome'
-        ]
+        ],
+        targetWords: [
+          'put up with',
+          'came across',
+          'get over',
+          'deal with',
+          'work out',
+          'challenging situation',
+          'faced',
+          'phrasal verbs',
+          'coherent story',
+          'outcome'
+        ],
+        expectedResponse: 'A 2-minute narrative about a challenging situation using at least 5 phrasal verbs. Should include: (1) Description of the challenge, (2) Natural use of phrasal verbs ("put up with", "came across", "get over", "deal with", "work out"), (3) Coherent story structure (beginning, middle, end), (4) Explanation of how you dealt with it, (5) Clear outcome/resolution. Demonstrates ability to use phrasal verbs naturally in narrative context.'
       },
       {
         id: 'b2-m3-l2-vocabulary-2',
@@ -13023,7 +13036,22 @@ I spent the rest of the day (8)_____ the necessary changes and trying to (9)____
           'Examples: "I had to put up with...", "I tried to figure out...", "I didn\'t give up..."',
           'Speak clearly and at a natural pace',
           'Use stress correctly on phrasal verbs (stress the particle)'
-        ]
+        ],
+        targetWords: [
+          'put up with',
+          'deal with',
+          'figure out',
+          'get over',
+          'work out',
+          'come across',
+          'give up',
+          'take on',
+          'difficult person',
+          'situation',
+          'challenge',
+          'natural pace'
+        ],
+        expectedResponse: 'A 2-3 minute narrative about dealing with a difficult person/situation using at least 6 phrasal verbs naturally. Should include: (1) Clear structure (situation → challenge → actions → result), (2) Natural integration of phrasal verbs (put up with, deal with, figure out, get over, work out, come across, give up, take on), (3) Clear and natural speaking pace, (4) Correct stress on phrasal verbs (stress the particle), (5) Complete narrative arc. Demonstrates advanced phrasal verb usage in professional/personal contexts.'
       },
       {
         id: 'b2-m3-l2-vocabulary-4',
@@ -13380,7 +13408,21 @@ Thank you for your attention. I'd be happy to take any questions.`,
           'Transitions: "Moving on to...", "Now I\'ll turn to..."',
           'Emphasize: "I want to highlight...", "It\'s important to note..."',
           'Conclude: "To summarize...", "In conclusion..."'
-        ]
+        ],
+        targetWords: [
+          'good morning',
+          'I\'d like to talk about',
+          'I\'ll cover three main points',
+          'moving on to',
+          'now I\'ll turn to',
+          'I want to highlight',
+          'it\'s important to note',
+          'to summarize',
+          'in conclusion',
+          'presentation language',
+          'transitions'
+        ],
+        expectedResponse: 'A 2-minute professional presentation on a passionate topic. Should include: (1) Formal opening ("Good morning/afternoon. Today I\'d like to talk about..."), (2) Clear outline ("I\'ll cover three main points..."), (3) Smooth transitions ("Moving on to...", "Now I\'ll turn to..."), (4) Emphasis markers ("I want to highlight...", "It\'s important to note..."), (5) Strong conclusion ("To summarize...", "In conclusion..."). Demonstrates professional presentation skills with appropriate register and structure.'
       },
       {
         id: 'b2-m3-l3-writing-1',
@@ -13916,7 +13958,21 @@ Now, let me (6)___ your attention to this graph, which shows the correlation bet
           'Give examples: "For instance...", "To illustrate..."',
           'Be honest: "That\'s an area that warrants further research..."',
           'Check understanding: "Does that answer your question?"'
-        ]
+        ],
+        targetWords: [
+          'excellent question',
+          'I would suggest',
+          'it seems that',
+          'for instance',
+          'to illustrate',
+          'warrants further research',
+          'does that answer',
+          'hedging language',
+          'methodology',
+          'limitations',
+          'elaborate'
+        ],
+        expectedResponse: 'A 1-minute answer to a presentation question using professional Q&A techniques. Should include: (1) Acknowledgment (\"That\'s an excellent question...\"), (2) Hedging language (\"I would suggest...\", \"It seems that...\"), (3) Concrete examples (\"For instance...\", \"To illustrate...\"), (4) Honest acknowledgment of limitations if asked (\"That\'s an area that warrants further research...\"), (5) Check for understanding (\"Does that answer your question?\"). Demonstrates professional Q&A skills with appropriate hedging and examples.'
       },
       {
         id: 'b2-m3-l3-integrated-reading-1',
@@ -14255,7 +14311,22 @@ Dr. Lee: My pleasure!`,
           'Use them naturally—don\'t force them',
           'Tell a coherent story',
           'Explain the outcome'
-        ]
+        ],
+        targetWords: [
+          'make a decision',
+          'face challenges',
+          'reach an agreement',
+          'take responsibility',
+          'gain experience',
+          'break the ice',
+          'on the same page',
+          'think outside the box',
+          'get the ball rolling',
+          'go the extra mile',
+          'collocations',
+          'idiomatic expressions'
+        ],
+        expectedResponse: 'A 2-minute narrative about a professional/academic challenge using at least 5 collocations and 3 idioms naturally. Should include: (1) Description of challenge, (2) Natural use of collocations (make a decision, face challenges, reach an agreement, take responsibility, gain experience), (3) Natural integration of 3+ idioms (break the ice, on the same page, think outside the box, get the ball rolling, go the extra mile), (4) Coherent story structure, (5) Clear outcome. Demonstrates advanced vocabulary with natural collocation and idiom use.'
       },
       {
         id: 'b2-m3-l4-writing-1',
@@ -14714,7 +14785,21 @@ To (12)___ our goals, everyone needs to go the (13)___ mile. Let's (14)___ an ag
           'Give specific, practical advice',
           'Use personal examples if possible',
           'Be encouraging and supportive in tone'
-        ]
+        ],
+        targetWords: [
+          'gain experience',
+          'face challenges',
+          'make mistakes',
+          'take responsibility',
+          'meet expectations',
+          'think outside the box',
+          'go the extra mile',
+          'on the same page',
+          'break the ice',
+          'practical advice',
+          'first job'
+        ],
+        expectedResponse: 'A 90-second advice piece for someone starting their first job using 5+ business collocations and 3+ idioms naturally. Should include: (1) Practical, specific advice, (2) Business collocations (gain experience, face challenges, make mistakes, take responsibility, meet expectations), (3) Natural idiom use (think outside the box, go the extra mile, on the same page, break the ice), (4) Personal examples if applicable, (5) Encouraging, supportive tone. Demonstrates ability to give professional advice using advanced business vocabulary naturally.'
       },
       {
         id: 'b2-m3-l4-integrated-reading-1',
@@ -15053,7 +15138,22 @@ James: Excellent. Thank you both for being so collaborative. This is a good exam
           'Propose: "Would it be possible to...?" or "I\'d like to propose..."',
           'Compromise: "Could we find a middle ground...?"',
           'Use diplomatic phrases throughout'
-        ]
+        ],
+        targetWords: [
+          'I appreciate',
+          'I understand your position',
+          'however',
+          'I\'m afraid',
+          'would it be possible',
+          'I\'d like to propose',
+          'could we find',
+          'middle ground',
+          'diplomatic language',
+          'negotiate',
+          'compromise',
+          'alternative solution'
+        ],
+        expectedResponse: 'A 2-minute negotiation dialogue with a supplier using diplomatic language. Should include: (1) Acknowledgment of supplier concerns ("I appreciate/understand your position..."), (2) Explanation of your constraints ("However, I\'m afraid..."), (3) Alternative solution proposal ("Would it be possible to...?", "I\'d like to propose..."), (4) Compromise suggestion ("Could we find a middle ground...?"), (5) Diplomatic tone throughout. Demonstrates professional negotiation skills with tactful, solution-oriented language.'
       },
       {
         id: 'b2-m3-l5-writing-1',
@@ -15654,7 +15754,22 @@ B: ✓ "I see your point about timing. However, I'm concerned that we might not 
           'Compromise: "Would you be willing to consider..." / "What if we..."',
           'Seek agreement: "Could we find a middle ground..." / "I believe we can..."',
           'Use diplomatic phrases throughout'
-        ]
+        ],
+        targetWords: [
+          'I completely understand',
+          'your concerns about',
+          'the reason we proposed',
+          'would you be willing to',
+          'what if we',
+          'could we find',
+          'middle ground',
+          'I believe we can',
+          'diplomatic phrases',
+          'handle objections',
+          'compromises',
+          'common ground'
+        ],
+        expectedResponse: 'A 90-second response handling manager objections to a project proposal using diplomatic language. Should include: (1) Acknowledgment of concerns ("I completely understand your concerns about..."), (2) Clear reasoning ("The reason we proposed this timeline is..."), (3) Compromise offers ("Would you be willing to consider...", "What if we..."), (4) Seeking agreement ("Could we find a middle ground...", "I believe we can..."), (5) Diplomatic tone throughout. Demonstrates ability to handle professional objections tactfully while maintaining project advocacy.'
       },
       {
         id: 'b2-m3-l5-integrated-1',
@@ -15881,7 +15996,22 @@ Dr. Martinez: Thank you for having me. The most significant shift we're witnessi
           'Part 3: Express opinions, agree/disagree diplomatically, provide examples',
           'Use full range of B2 grammar structures',
           'Demonstrate wide vocabulary and idioms'
-        ]
+        ],
+        targetWords: [
+          'personal questions',
+          'describe in detail',
+          'speculate',
+          'give opinions',
+          'express opinions',
+          'agree/disagree diplomatically',
+          'provide examples',
+          'B2 grammar structures',
+          'wide vocabulary',
+          'idioms',
+          'long turn',
+          'discussion'
+        ],
+        expectedResponse: 'A 6-7 minute comprehensive final speaking exam with three parts. Part 1 (1 min): Natural answers to personal questions showing ability to talk about self, experiences, and opinions. Part 2 (2 min): Detailed photo/situation description with speculation (\"This might be...\", \"It appears that...\") and opinions. Part 3 (3-4 min): Extended discussion expressing and justifying opinions, agreeing/disagreeing diplomatically, providing concrete examples. Must demonstrate: (1) Full range of B2 grammar (conditionals, passive, reported speech, relative clauses, etc.), (2) Wide vocabulary including collocations and idioms, (3) Natural fluency and pronunciation, (4) Ability to sustain extended discourse. Demonstrates complete B2 speaking proficiency across all skills from Module 3.'
       },
       {
         id: 'b2-m3-l6-writing-1',
