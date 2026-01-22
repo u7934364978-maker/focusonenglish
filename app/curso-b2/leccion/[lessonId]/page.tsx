@@ -1,7 +1,5 @@
 'use client';
 
-export const runtime = 'edge';
-
 import { useRouter } from 'next/navigation';
 import LessonViewer from '@/components/course/LessonViewer';
 import { ALL_MODULES } from '@/lib/course-data-b2';
