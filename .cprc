@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opennextjs.org/cloudflare/.cprc.schema.json",
+  "prerender": {
+    "routes": [
+      "/cuenta/login",
+      "/cuenta/registro",
+      "/cuenta/recuperar"
+    ]
+  }
+}

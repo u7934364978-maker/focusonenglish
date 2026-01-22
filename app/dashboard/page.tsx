@@ -10,10 +10,9 @@
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Sidebar } from '@/components/dashboard/Sidebar';
-
 
 export const runtime = 'edge';
+
 // Mock data - en producción vendría de Supabase
 const mockUserData = {
   name: 'Sarah',

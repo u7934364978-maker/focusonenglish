@@ -1,0 +1,278 @@
+[
+  {
+    "id": "b1-s03-ext-err-01",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "📘 GRAMMAR (B1+): Corrige errores sutiles con 'Would … work for you?'",
+    "pairs": [
+      {
+        "wrong": "Would Tuesday at 11:00 works for you?",
+        "correct": "Would Tuesday at 11:00 work for you?",
+        "explanation": "Tras 'Would': verbo base (work), sin -s."
+      },
+      {
+        "wrong": "Would Tuesday at 11:00 worked for you?",
+        "correct": "Would Tuesday at 11:00 work for you?",
+        "explanation": "No se usa pasado tras 'Would'."
+      },
+      {
+        "wrong": "Would Tuesday 11:00 work you?",
+        "correct": "Would Tuesday at 11:00 work for you?",
+        "explanation": "Faltan preposiciones clave: at + for."
+      }
+    ]
+  },
+  {
+    "id": "b1-s03-ext-err-02",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "🧠 VOCAB (B1+): Corrige 'time zone' y pregunta profesional.",
+    "pairs": [
+      {
+        "wrong": "What time are you zone?",
+        "correct": "What time zone are you in?",
+        "explanation": "Pregunta correcta: What time zone are you in?"
+      },
+      {
+        "wrong": "I’m in the CET time.",
+        "correct": "I’m in the CET time zone.",
+        "explanation": "Añade 'time zone' para que sea completo."
+      },
+      {
+        "wrong": "Your time zone is weird.",
+        "correct": "Could you confirm your time zone?",
+        "explanation": "Evita juicio; pide confirmación de forma neutral."
+      }
+    ]
+  },
+  {
+    "id": "b1-s03-ext-err-03",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "✍️ WRITING (B1+): Convierte frases vagas en claras (con time zone).",
+    "pairs": [
+      {
+        "wrong": "Let’s meet at 10.",
+        "correct": "Would Thursday at 10:00 CET work for you?",
+        "explanation": "Añade día + hora + time zone para evitar confusiones."
+      },
+      {
+        "wrong": "We can meet sometime.",
+        "correct": "I’m available Thursday at 10:00 CET or Friday at 09:30 CET.",
+        "explanation": "Da 2 opciones concretas (mejor para scheduling)."
+      },
+      {
+        "wrong": "Meet later.",
+        "correct": "Could you share a couple of time slots that work for you?",
+        "explanation": "Pide 2–3 slots de forma educada y accionable."
+      }
+    ]
+  },
+  {
+    "id": "b1-s03-ext-err-04",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "📘 GRAMMAR (B1+): Corrige reschedule con estructura completa.",
+    "pairs": [
+      {
+        "wrong": "Would it be possible reschedule our call?",
+        "correct": "Would it be possible to reschedule our call?",
+        "explanation": "Falta 'to' + verbo base."
+      },
+      {
+        "wrong": "Could we move it Thursday at 10:00 CET?",
+        "correct": "Could we move it to Thursday at 10:00 CET?",
+        "explanation": "En 'move it' se usa 'to' antes del día/hora."
+      },
+      {
+        "wrong": "Sorry for change, something came.",
+        "correct": "Sorry for the change—something came up.",
+        "explanation": "Expresión natural: something came up."
+      }
+    ]
+  },
+  {
+    "id": "b1-s03-ext-err-05",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "🧠 VOCAB (B1+): Corrige collocations (calendar invite / time slots / calendar conflict).",
+    "pairs": [
+      {
+        "wrong": "send a calendar invitation",
+        "correct": "send a calendar invite",
+        "explanation": "Fórmula típica en trabajo: calendar invite."
+      },
+      {
+        "wrong": "share time slot",
+        "correct": "share a couple of time slots",
+        "explanation": "Plural + “a couple of” suena más natural."
+      },
+      {
+        "wrong": "meeting conflict",
+        "correct": "calendar conflict",
+        "explanation": "Collocation común: calendar conflict."
+      }
+    ]
+  },
+  {
+    "id": "b1-s03-ext-err-06",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "📩 READING (B1+): Corrige subject lines (más específicos, con time zone cuando ayuda).",
+    "pairs": [
+      {
+        "wrong": "Meeting",
+        "correct": "Scheduling options (CET)",
+        "explanation": "Más específico; añade CET si el equipo es global."
+      },
+      {
+        "wrong": "IMPORTANT",
+        "correct": "Rescheduling our call (CET)",
+        "explanation": "Evita alarmismo; indica objetivo concreto."
+      },
+      {
+        "wrong": "Hello",
+        "correct": "Scheduling a quick call this week",
+        "explanation": "Subject funcional y escaneable."
+      }
+    ]
+  },
+  {
+    "id": "b1-s03-ext-err-07",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "✍️ WRITING (B1+): Mejora escaneabilidad (opciones listadas + CET consistente).",
+    "pairs": [
+      {
+        "wrong": "Hi Maria, Tue 11 CET or Wed 15 CET or Thu 10:30 CET let me know",
+        "correct": "Hi Maria,\n\nWould Tuesday at 11:00 CET work for you?\nIf not, I’m also available Wednesday at 15:00 CET or Thursday at 10:30 CET.\n\nPlease let me know which option works best.\n\nBest regards,\nAna",
+        "explanation": "Preguntas claras + opciones consistentes + formato escaneable."
+      },
+      {
+        "wrong": "Reschedule Thursday 10 CET.",
+        "correct": "Would it be possible to reschedule our call?\nCould we move it to Thursday at 10:00 CET?",
+        "explanation": "Añade modal + estructura educada + hora completa."
+      },
+      {
+        "wrong": "Time zone??",
+        "correct": "What time zone are you in?",
+        "explanation": "Pregunta completa y profesional."
+      }
+    ]
+  },
+  {
+    "id": "b1-s03-ext-err-08",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "📘 GRAMMAR (B1+): Corrige preposiciones day/time.",
+    "pairs": [
+      {
+        "wrong": "at Thursday",
+        "correct": "on Thursday",
+        "explanation": "Días: on."
+      },
+      {
+        "wrong": "on 10:00",
+        "correct": "at 10:00",
+        "explanation": "Horas: at."
+      },
+      {
+        "wrong": "to Thursday 10:00",
+        "correct": "to Thursday at 10:00",
+        "explanation": "Añade 'at' antes de la hora."
+      }
+    ]
+  },
+  {
+    "id": "b1-s03-ext-err-09",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "🧠 VOCAB (B1+): availability vs available (mixed).",
+    "pairs": [
+      {
+        "wrong": "I am availability tomorrow.",
+        "correct": "I am available tomorrow.",
+        "explanation": "available = adjetivo."
+      },
+      {
+        "wrong": "Send me your available.",
+        "correct": "Could you share your availability?",
+        "explanation": "availability = sustantivo."
+      },
+      {
+        "wrong": "My availability are Tuesday.",
+        "correct": "My availability is Tuesday.",
+        "explanation": "En esta frase se trata como singular/uncountable."
+      }
+    ]
+  },
+  {
+    "id": "b1-s03-ext-err-10",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "📩 READING/TONO (B1+): Cambia frases duras por neutras.",
+    "pairs": [
+      {
+        "wrong": "Change it now.",
+        "correct": "Would it be possible to reschedule?",
+        "explanation": "Pregunta suave en vez de imperativo."
+      },
+      {
+        "wrong": "Pick a time.",
+        "correct": "Could you share a couple of time slots?",
+        "explanation": "Pide opciones educadamente."
+      },
+      {
+        "wrong": "Your calendar is wrong.",
+        "correct": "Could you confirm your time zone?",
+        "explanation": "Evita culpar; confirma la información."
+      }
+    ]
+  },
+  {
+    "id": "b1-s03-ext-err-11",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "✍️ WRITING (B1+): Corrige confirmación final (claridad + next step).",
+    "pairs": [
+      {
+        "wrong": "Confirmed Thursday 10 CET.",
+        "correct": "Just to confirm: Thursday at 10:00 CET, correct?",
+        "explanation": "Forma completa y educada (día + hora + CET)."
+      },
+      {
+        "wrong": "Ok time.",
+        "correct": "Great — I’ll send a calendar invite.",
+        "explanation": "Next step claro (invite)."
+      },
+      {
+        "wrong": "See you.",
+        "correct": "Once confirmed, I’ll share the meeting link.",
+        "explanation": "Cierra con acción concreta (link)."
+      }
+    ]
+  },
+  {
+    "id": "b1-s03-ext-err-12",
+    "type": "errorCorrection",
+    "track": "extension",
+    "instructions": "🧠 VOCAB (B1+): Corrige 'slot' y formulaciones.",
+    "pairs": [
+      {
+        "wrong": "Do you have a slot time on Thursday?",
+        "correct": "Do you have a 15-minute slot on Thursday?",
+        "explanation": "Slot + duración suena natural."
+      },
+      {
+        "wrong": "Give me slots.",
+        "correct": "Could you share a couple of time slots?",
+        "explanation": "Más educado y profesional."
+      },
+      {
+        "wrong": "I have a conflict of calendar.",
+        "correct": "I have a calendar conflict.",
+        "explanation": "Collocation correcta: calendar conflict."
+      }
+    ]
+  }
+]

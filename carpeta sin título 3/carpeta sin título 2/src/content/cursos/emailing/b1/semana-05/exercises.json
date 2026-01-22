@@ -1,0 +1,1691 @@
+{
+  "goal": "emailing",
+  "level": "b1",
+  "weekId": "semana-05",
+  "title": "Emailing B1 – Semana 05 (Recap + action items + ownership) | Core + Ampliación",
+  "items": [
+    {
+      "id": "b1-s05-core-mcq-01",
+      "type": "multipleChoice",
+      "track": "core",
+      "prompt": "📩 READING (B1): Choose the best subject line for a meeting recap email.",
+      "options": [
+        "Recap: next steps after today’s call",
+        "Hello",
+        "IMPORTANT!!!"
+      ],
+      "answerIndex": 0,
+      "explanation": "Subject claro: recap + next steps + contexto (today’s call)."
+    },
+    {
+      "id": "b1-s05-core-mcq-02",
+      "type": "multipleChoice",
+      "track": "core",
+      "prompt": "📘 GRAMMAR (B1): Which opening is neutral and professional for a recap?",
+      "options": [
+        "You missed the meeting.",
+        "Here’s a quick recap of today’s call.",
+        "As I said before…"
+      ],
+      "answerIndex": 1,
+      "explanation": "“Here’s a quick recap…” suena neutro y útil."
+    },
+    {
+      "id": "b1-s05-core-mcq-03",
+      "type": "multipleChoice",
+      "track": "core",
+      "prompt": "🧠 VOCAB (B1): What is an 'action item'?",
+      "options": [
+        "a task someone needs to do",
+        "a greeting",
+        "a subject line"
+      ],
+      "answerIndex": 0,
+      "explanation": "Action item = tarea/acción con responsable."
+    },
+    {
+      "id": "b1-s05-core-mcq-04",
+      "type": "multipleChoice",
+      "track": "core",
+      "prompt": "✍️ WRITING (B1): Which format is easiest to scan in a recap?",
+      "options": [
+        "One long paragraph",
+        "Bullets for key points + action items",
+        "No structure"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bullets + headings = scan rápido."
+    },
+    {
+      "id": "b1-s05-core-mcq-05",
+      "type": "multipleChoice",
+      "track": "core",
+      "prompt": "📘 GRAMMAR (B1): Which sentence assigns ownership politely?",
+      "options": [
+        "Maria must share the numbers.",
+        "Maria will share the numbers by Thursday.",
+        "Share the numbers now."
+      ],
+      "answerIndex": 1,
+      "explanation": "“will + verb” + deadline = claro sin sonar agresivo."
+    },
+    {
+      "id": "b1-s05-core-mcq-06",
+      "type": "multipleChoice",
+      "track": "core",
+      "prompt": "📩 READING (B1): Which line is best to invite corrections?",
+      "options": [
+        "If anything is missing, please let me know.",
+        "Don’t change anything.",
+        "No questions."
+      ],
+      "answerIndex": 0,
+      "explanation": "Reduce fricción y evita malentendidos."
+    },
+    {
+      "id": "b1-s05-core-mcq-07",
+      "type": "multipleChoice",
+      "track": "core",
+      "prompt": "🧠 VOCAB (B1): What does 'owner' mean in action items?",
+      "options": [
+        "the person responsible",
+        "the meeting room",
+        "the deadline"
+      ],
+      "answerIndex": 0,
+      "explanation": "Owner = responsable de la acción."
+    },
+    {
+      "id": "b1-s05-core-mcq-08",
+      "type": "multipleChoice",
+      "track": "core",
+      "prompt": "📘 GRAMMAR (B1): Choose the best 'we agreed' sentence.",
+      "options": [
+        "We agreed to finalize the draft by Friday.",
+        "We agree finalize Friday.",
+        "We agreed finalizing by Friday."
+      ],
+      "answerIndex": 0,
+      "explanation": "We agreed to + base verb."
+    },
+    {
+      "id": "b1-s05-core-mcq-09",
+      "type": "multipleChoice",
+      "track": "core",
+      "prompt": "✍️ WRITING (B1): Best next step line after listing action items?",
+      "options": [
+        "Next step: I’ll update the draft and share v3.",
+        "Ok bye.",
+        "This is your problem."
+      ],
+      "answerIndex": 0,
+      "explanation": "Next step claro cierra el hilo."
+    },
+    {
+      "id": "b1-s05-core-mcq-10",
+      "type": "multipleChoice",
+      "track": "core",
+      "prompt": "📩 READING (B1): Which is a good recap structure?",
+      "options": [
+        "Greeting → recap line → key points → action items → closing",
+        "Closing → random story → greeting",
+        "No greeting → no closing"
+      ],
+      "answerIndex": 0,
+      "explanation": "Estructura estándar = claridad."
+    },
+    {
+      "id": "b1-s05-core-mcq-11",
+      "type": "multipleChoice",
+      "track": "core",
+      "prompt": "🧠 VOCAB (B1): Which collocation is most natural?",
+      "options": [
+        "quick recap",
+        "fast recaply",
+        "recap quicking"
+      ],
+      "answerIndex": 0,
+      "explanation": "Collocation: quick recap."
+    },
+    {
+      "id": "b1-s05-core-mcq-12",
+      "type": "multipleChoice",
+      "track": "core",
+      "prompt": "✍️ WRITING (B1): Which action item line includes owner + deadline?",
+      "options": [
+        "Maria will share the numbers by Thursday.",
+        "Share numbers.",
+        "Numbers Thursday."
+      ],
+      "answerIndex": 0,
+      "explanation": "Owner + verb + deadline = perfecto."
+    },
+    {
+      "id": "b1-s05-core-fill-01",
+      "type": "fillBlanks",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Completa el recap email (EN) con estructura clara.",
+      "text": "Subject: ____\n\nHi Maria,\n\nHere’s a quick ____ of today’s call.\n\nKey points:\n- We agreed on the ____.\n- Version v3 will be the final draft for review.\n\nAction items:\n- Maria will share the final numbers by ____.\n- I’ll update the draft and share v3 by Friday.\n\nIf anything is missing, please let me know.\n\nBest regards,\nAna",
+      "answers": [
+        "Recap: next steps after today’s call",
+        "recap",
+        "timeline",
+        "Thursday"
+      ],
+      "explanation": "Recap + key points + action items + owner + deadline."
+    },
+    {
+      "id": "b1-s05-core-fill-02",
+      "type": "fillBlanks",
+      "track": "core",
+      "instructions": "🧠 VOCAB (B1): Completa la palabra clave.",
+      "text": "An action ____ is a task someone needs to do.",
+      "answers": [
+        "item"
+      ],
+      "explanation": "action item = tarea."
+    },
+    {
+      "id": "b1-s05-core-fill-03",
+      "type": "fillBlanks",
+      "track": "core",
+      "instructions": "📘 GRAMMAR (B1): Completa el patrón de resumen.",
+      "text": "Here’s a quick ____ of today’s call.",
+      "answers": [
+        "recap"
+      ],
+      "explanation": "Quick recap = resumen rápido."
+    },
+    {
+      "id": "b1-s05-core-fill-04",
+      "type": "fillBlanks",
+      "track": "core",
+      "instructions": "📘 GRAMMAR (B1): Completa 'We agreed to + verb'.",
+      "text": "We agreed to ____ the draft by Friday.",
+      "answers": [
+        "finalize"
+      ],
+      "explanation": "agreed to + base verb."
+    },
+    {
+      "id": "b1-s05-core-fill-05",
+      "type": "fillBlanks",
+      "track": "core",
+      "instructions": "🧠 VOCAB (B1): Completa con 'owner'.",
+      "text": "Please assign an ____ for each action item.",
+      "answers": [
+        "owner"
+      ],
+      "explanation": "owner = responsable."
+    },
+    {
+      "id": "b1-s05-core-fill-06",
+      "type": "fillBlanks",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Completa la frase de cierre (correcciones).",
+      "text": "If anything is ____, please let me know.",
+      "answers": [
+        "missing"
+      ],
+      "explanation": "Cierre útil para recaps."
+    },
+    {
+      "id": "b1-s05-core-fill-07",
+      "type": "fillBlanks",
+      "track": "core",
+      "instructions": "🧠 VOCAB (B1): Completa collocation.",
+      "text": "Key ____: timeline, version, next steps.",
+      "answers": [
+        "points"
+      ],
+      "explanation": "key points = puntos clave."
+    },
+    {
+      "id": "b1-s05-core-fill-08",
+      "type": "fillBlanks",
+      "track": "core",
+      "instructions": "📘 GRAMMAR (B1): Completa un action item con responsable.",
+      "text": "Maria ____ share the numbers by Thursday.",
+      "answers": [
+        "will"
+      ],
+      "explanation": "will + verb = acción asignada sin sonar duro."
+    },
+    {
+      "id": "b1-s05-core-fill-09",
+      "type": "fillBlanks",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Completa un next step claro.",
+      "text": "Next step: I’ll update the draft and ____ v3.",
+      "answers": [
+        "share"
+      ],
+      "explanation": "share v3 = siguiente acción concreta."
+    },
+    {
+      "id": "b1-s05-core-fill-10",
+      "type": "fillBlanks",
+      "track": "core",
+      "instructions": "🧠 VOCAB (B1): Completa con 'deadline'.",
+      "text": "Just to recap, the ____ is Friday.",
+      "answers": [
+        "deadline"
+      ],
+      "explanation": "deadline = fecha límite."
+    },
+    {
+      "id": "b1-s05-core-fill-11",
+      "type": "fillBlanks",
+      "track": "core",
+      "instructions": "📩 READING (B1): Completa el subject line.",
+      "text": "Subject: ____ + action items",
+      "answers": [
+        "Quick recap"
+      ],
+      "explanation": "Subject claro y escaneable."
+    },
+    {
+      "id": "b1-s05-core-fill-12",
+      "type": "fillBlanks",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Completa 'Just to recap'.",
+      "text": "Just to ____, we agreed on the timeline.",
+      "answers": [
+        "recap"
+      ],
+      "explanation": "Just to recap = fórmula típica."
+    },
+    {
+      "id": "b1-s05-core-reorder-01",
+      "type": "reorder",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Ordena un recap básico con next steps.",
+      "items": [
+        "Best regards,",
+        "Hi Maria,",
+        "Here’s a quick recap of today’s call.",
+        "Key points: we agreed on the timeline.",
+        "Action items: Maria will share the numbers by Thursday.",
+        "If anything is missing, please let me know.",
+        "Ana"
+      ],
+      "correctOrder": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        6
+      ],
+      "explanation": "Saludo → recap → key points → action items → cierre → sign-off."
+    },
+    {
+      "id": "b1-s05-core-reorder-02",
+      "type": "reorder",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Ordena un recap con 'Just to recap'.",
+      "items": [
+        "Hi Maria,",
+        "Just to recap: deadline Friday, version v3.",
+        "Action items: Maria confirm figures by Thursday; Ana share v3 by Friday.",
+        "Thanks!",
+        "Best,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Recap corto + action items + cierre."
+    },
+    {
+      "id": "b1-s05-core-reorder-03",
+      "type": "reorder",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Ordena una lista de action items (owner + deadline).",
+      "items": [
+        "Action items:",
+        "- Maria will share the numbers by Thursday.",
+        "- Ana will update the draft by Friday.",
+        "If anything is missing, please let me know."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Action items en bullets = escaneable."
+    },
+    {
+      "id": "b1-s05-core-reorder-04",
+      "type": "reorder",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Ordena un recap ultra corto.",
+      "items": [
+        "Hi Tom,",
+        "Here’s a quick recap.",
+        "Next step: I’ll share v3.",
+        "Thanks!",
+        "Best,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Corto pero completo."
+    },
+    {
+      "id": "b1-s05-core-reorder-05",
+      "type": "reorder",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Ordena un recap con 'We agreed to…'.",
+      "items": [
+        "Hi Maria,",
+        "We agreed to finalize the draft by Friday.",
+        "Maria will share the numbers by Thursday.",
+        "I’ll update and share v3 by Friday.",
+        "Best regards,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Decisión → acciones → cierre."
+    },
+    {
+      "id": "b1-s05-core-reorder-06",
+      "type": "reorder",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Ordena un recap con invitación a correcciones.",
+      "items": [
+        "Hi Maria,",
+        "Here’s a quick recap of the meeting.",
+        "If anything is missing, please let me know.",
+        "Thanks in advance.",
+        "Kind regards,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Cierre con 'missing' reduce malentendidos."
+    },
+    {
+      "id": "b1-s05-core-reorder-07",
+      "type": "reorder",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Ordena un recap con headings.",
+      "items": [
+        "Hi Maria,",
+        "Here’s a quick recap of today’s call.",
+        "Key points:",
+        "- Timeline confirmed.",
+        "Action items:",
+        "- Ana will share v3 by Friday.",
+        "Best,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "explanation": "Headings → bullets."
+    },
+    {
+      "id": "b1-s05-core-reorder-08",
+      "type": "reorder",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Ordena un recap para confirmar deadline.",
+      "items": [
+        "Hi Tom,",
+        "Just to recap, the deadline is Friday.",
+        "Next step: I’ll proceed and share v3.",
+        "Thanks!",
+        "Best regards,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Deadline → next step → thanks."
+    },
+    {
+      "id": "b1-s05-core-reorder-09",
+      "type": "reorder",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Ordena un recap con owner (Maria) y tu acción (I’ll).",
+      "items": [
+        "Hi Maria,",
+        "Maria will share the final numbers by Thursday.",
+        "I’ll update the draft today.",
+        "Best,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Ownership claro: Maria will… / I’ll…"
+    },
+    {
+      "id": "b1-s05-core-reorder-10",
+      "type": "reorder",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Ordena un recap con 'Key points' primero.",
+      "items": [
+        "Hi Maria,",
+        "Key points: timeline confirmed, version v3.",
+        "Action items: I’ll share v3 by Friday.",
+        "Thanks!",
+        "Best,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Key points antes de action items."
+    },
+    {
+      "id": "b1-s05-core-reorder-11",
+      "type": "reorder",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Ordena un recap para cerrar el hilo.",
+      "items": [
+        "Hi Maria,",
+        "Here’s a quick recap.",
+        "If that works, I’ll proceed.",
+        "Thanks in advance.",
+        "Kind regards,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Proceed = next step claro."
+    },
+    {
+      "id": "b1-s05-core-reorder-12",
+      "type": "reorder",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Ordena un recap mínimo con action items.",
+      "items": [
+        "Hi Tom,",
+        "Action items: Tom will approve by Thursday; Ana will share v3 by Friday.",
+        "Thanks!",
+        "Best,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Una línea de action items puede funcionar si es clara."
+    },
+    {
+      "id": "b1-s05-core-err-01",
+      "type": "errorCorrection",
+      "track": "core",
+      "instructions": "📘 GRAMMAR (B1): Cambia imperativos por ownership neutro.",
+      "pairs": [
+        {
+          "wrong": "Share the numbers now.",
+          "correct": "Maria will share the numbers by Thursday.",
+          "explanation": "Owner + will + deadline = neutro."
+        },
+        {
+          "wrong": "You must approve.",
+          "correct": "Could you approve it by Thursday if possible?",
+          "explanation": "Suaviza tono."
+        },
+        {
+          "wrong": "Do this.",
+          "correct": "I’ll proceed and share v3 if that works.",
+          "explanation": "Next step claro sin presión."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-core-err-02",
+      "type": "errorCorrection",
+      "track": "core",
+      "instructions": "📘 GRAMMAR (B1): Corrige 'We agreed to + verb'.",
+      "pairs": [
+        {
+          "wrong": "We agreed finalize by Friday.",
+          "correct": "We agreed to finalize the draft by Friday.",
+          "explanation": "agreed to + base verb."
+        },
+        {
+          "wrong": "We agreed to finalizing by Friday.",
+          "correct": "We agreed to finalize by Friday.",
+          "explanation": "Base verb: finalize."
+        },
+        {
+          "wrong": "We agreeed to finalize.",
+          "correct": "We agreed to finalize.",
+          "explanation": "Spelling: agreed."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-core-err-03",
+      "type": "errorCorrection",
+      "track": "core",
+      "instructions": "🧠 VOCAB (B1): Corrige collocations (quick recap / action items).",
+      "pairs": [
+        {
+          "wrong": "fast recaply",
+          "correct": "quick recap",
+          "explanation": "Collocation natural."
+        },
+        {
+          "wrong": "action things",
+          "correct": "action items",
+          "explanation": "Término estándar."
+        },
+        {
+          "wrong": "assign a responsible",
+          "correct": "assign an owner",
+          "explanation": "Owner = responsable."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-core-err-04",
+      "type": "errorCorrection",
+      "track": "core",
+      "instructions": "📩 READING (B1): Corrige subject lines vagos/agresivos.",
+      "pairs": [
+        {
+          "wrong": "Hello",
+          "correct": "Recap: next steps after today’s call",
+          "explanation": "Más específico."
+        },
+        {
+          "wrong": "IMPORTANT!!!",
+          "correct": "Quick recap + action items",
+          "explanation": "Evita alarmismo."
+        },
+        {
+          "wrong": "Random",
+          "correct": "Recap: timeline and action items",
+          "explanation": "Indica contenido real."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-core-err-05",
+      "type": "errorCorrection",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Mejora escaneabilidad.",
+      "pairs": [
+        {
+          "wrong": "Here is recap we agreed timeline Maria share numbers Thursday I update v3 Friday",
+          "correct": "Here’s a quick recap of today’s call.\n\nKey points:\n- We agreed on the timeline.\n\nAction items:\n- Maria will share the numbers by Thursday.\n- I’ll update and share v3 by Friday.",
+          "explanation": "Headings + bullets = scan."
+        },
+        {
+          "wrong": "No structure.",
+          "correct": "Key points:\n- Timeline confirmed.\nAction items:\n- Ana: share v3 by Friday.",
+          "explanation": "Estructura mínima."
+        },
+        {
+          "wrong": "Ok bye.",
+          "correct": "If anything is missing, please let me know.",
+          "explanation": "Cierre profesional."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-core-err-06",
+      "type": "errorCorrection",
+      "track": "core",
+      "instructions": "📘 GRAMMAR (B1): Corrige 'Here’s a quick recap'.",
+      "pairs": [
+        {
+          "wrong": "Here a quick recap.",
+          "correct": "Here’s a quick recap.",
+          "explanation": "Here’s = Here is."
+        },
+        {
+          "wrong": "Here’s quick recap of today call.",
+          "correct": "Here’s a quick recap of today’s call.",
+          "explanation": "a + today’s."
+        },
+        {
+          "wrong": "Here’s a quick recaps.",
+          "correct": "Here’s a quick recap.",
+          "explanation": "recap singular."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-core-err-07",
+      "type": "errorCorrection",
+      "track": "core",
+      "instructions": "🧠 VOCAB (B1): Corrige 'deadline' y uso.",
+      "pairs": [
+        {
+          "wrong": "The dead line is Friday.",
+          "correct": "The deadline is Friday.",
+          "explanation": "deadline = una palabra."
+        },
+        {
+          "wrong": "Deadline are Friday.",
+          "correct": "The deadline is Friday.",
+          "explanation": "deadline singular → is."
+        },
+        {
+          "wrong": "We have a deadline in Friday.",
+          "correct": "We have a deadline on Friday.",
+          "explanation": "on Friday."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-core-err-08",
+      "type": "errorCorrection",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Corrige action items (owner + verb).",
+      "pairs": [
+        {
+          "wrong": "Maria share the numbers.",
+          "correct": "Maria will share the numbers.",
+          "explanation": "will + base verb."
+        },
+        {
+          "wrong": "Ana will shares v3.",
+          "correct": "Ana will share v3.",
+          "explanation": "Base verb: share."
+        },
+        {
+          "wrong": "Owner is Maria will.",
+          "correct": "Owner: Maria.",
+          "explanation": "Owner como etiqueta simple."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-core-err-09",
+      "type": "errorCorrection",
+      "track": "core",
+      "instructions": "📩 READING (B1): Cambia tono duro por neutro.",
+      "pairs": [
+        {
+          "wrong": "You failed to send the numbers.",
+          "correct": "Maria will share the numbers by Thursday.",
+          "explanation": "Hecho + plan, sin culpa."
+        },
+        {
+          "wrong": "This is unacceptable.",
+          "correct": "If anything is missing, please let me know.",
+          "explanation": "Tono neutral."
+        },
+        {
+          "wrong": "Do it ASAP.",
+          "correct": "We agreed to finalize by Friday.",
+          "explanation": "Deadline factual."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-core-err-10",
+      "type": "errorCorrection",
+      "track": "core",
+      "instructions": "🧠 VOCAB (B1): Corrige 'key points'.",
+      "pairs": [
+        {
+          "wrong": "key pointes",
+          "correct": "key points",
+          "explanation": "Spelling."
+        },
+        {
+          "wrong": "keys points",
+          "correct": "key points",
+          "explanation": "No plural en key."
+        },
+        {
+          "wrong": "mainly points",
+          "correct": "key points",
+          "explanation": "Frase estándar."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-core-err-11",
+      "type": "errorCorrection",
+      "track": "core",
+      "instructions": "📘 GRAMMAR (B1): Corrige preposiciones básicas (by/on).",
+      "pairs": [
+        {
+          "wrong": "by on Friday",
+          "correct": "by Friday",
+          "explanation": "Deadline: by Friday."
+        },
+        {
+          "wrong": "on Thursday would be great by",
+          "correct": "By Thursday would be great.",
+          "explanation": "Orden natural."
+        },
+        {
+          "wrong": "share it in Thursday",
+          "correct": "share it on Thursday",
+          "explanation": "Day: on Thursday."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-core-err-12",
+      "type": "errorCorrection",
+      "track": "core",
+      "instructions": "✍️ WRITING (B1): Corrige cierre con next step.",
+      "pairs": [
+        {
+          "wrong": "Ok.",
+          "correct": "Next step: I’ll update the draft and share v3.",
+          "explanation": "Next step explícito."
+        },
+        {
+          "wrong": "I do next.",
+          "correct": "Next step: I’ll proceed.",
+          "explanation": "I’ll + verb."
+        },
+        {
+          "wrong": "No next step.",
+          "correct": "If anything is missing, please let me know.",
+          "explanation": "Cierre útil."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-ext-mcq-01",
+      "type": "multipleChoice",
+      "track": "extension",
+      "prompt": "✍️ WRITING (B1+): Choose the best subject line for a recap that includes action items.",
+      "options": [
+        "Recap + action items: next steps",
+        "Hello",
+        "FYI"
+      ],
+      "answerIndex": 0,
+      "explanation": "Más específico y orientado a acción."
+    },
+    {
+      "id": "b1-s05-ext-mcq-02",
+      "type": "multipleChoice",
+      "track": "extension",
+      "prompt": "📘 GRAMMAR (B1+): Which sentence assigns ownership without sounding demanding?",
+      "options": [
+        "Maria must share the numbers.",
+        "Maria will share the numbers by Thursday.",
+        "Maria, share the numbers."
+      ],
+      "answerIndex": 1,
+      "explanation": "will + deadline = claro y neutro."
+    },
+    {
+      "id": "b1-s05-ext-mcq-03",
+      "type": "multipleChoice",
+      "track": "extension",
+      "prompt": "🧠 VOCAB (B1+): What is the best meaning of 'key points'?",
+      "options": [
+        "small talk",
+        "the most important points",
+        "attachments"
+      ],
+      "answerIndex": 1,
+      "explanation": "Key points = puntos más importantes."
+    },
+    {
+      "id": "b1-s05-ext-mcq-04",
+      "type": "multipleChoice",
+      "track": "extension",
+      "prompt": "📩 READING (B1+): Which line is best to prevent misunderstandings after a call?",
+      "options": [
+        "If anything is missing, please let me know.",
+        "No changes allowed.",
+        "You should remember."
+      ],
+      "answerIndex": 0,
+      "explanation": "Invita a correcciones."
+    },
+    {
+      "id": "b1-s05-ext-mcq-05",
+      "type": "multipleChoice",
+      "track": "extension",
+      "prompt": "✍️ WRITING (B1+): Which format looks most professional for action items?",
+      "options": [
+        "Action items: Maria—numbers by Thu; Ana—v3 by Fri",
+        "Random sentences",
+        "No owners"
+      ],
+      "answerIndex": 0,
+      "explanation": "Owner + deadline en una línea funciona si está claro."
+    },
+    {
+      "id": "b1-s05-ext-mcq-06",
+      "type": "multipleChoice",
+      "track": "extension",
+      "prompt": "📘 GRAMMAR (B1+): Best sentence to summarize a decision?",
+      "options": [
+        "We agreed to finalize the draft by Friday.",
+        "We agree finalize Friday.",
+        "We agreed final."
+      ],
+      "answerIndex": 0,
+      "explanation": "We agreed to + verb = correcto."
+    },
+    {
+      "id": "b1-s05-ext-mcq-07",
+      "type": "multipleChoice",
+      "track": "extension",
+      "prompt": "🧠 VOCAB (B1+): Choose the best synonym for 'recap'.",
+      "options": [
+        "summary",
+        "argument",
+        "delay"
+      ],
+      "answerIndex": 0,
+      "explanation": "Recap ≈ summary."
+    },
+    {
+      "id": "b1-s05-ext-mcq-08",
+      "type": "multipleChoice",
+      "track": "extension",
+      "prompt": "✍️ WRITING (B1+): Best next-step line to close the thread?",
+      "options": [
+        "Next step: I’ll update the draft and share v3.",
+        "Ok bye.",
+        "Don’t reply."
+      ],
+      "answerIndex": 0,
+      "explanation": "Next step explícito."
+    },
+    {
+      "id": "b1-s05-ext-mcq-09",
+      "type": "multipleChoice",
+      "track": "extension",
+      "prompt": "📩 READING (B1+): Which is the most scannable recap style?",
+      "options": [
+        "Headings + bullets",
+        "One long paragraph",
+        "No structure"
+      ],
+      "answerIndex": 0,
+      "explanation": "Headings + bullets = scan."
+    },
+    {
+      "id": "b1-s05-ext-mcq-10",
+      "type": "multipleChoice",
+      "track": "extension",
+      "prompt": "🧠 VOCAB (B1+): What does 'follow-up' mean here?",
+      "options": [
+        "a recap/next message to continue the thread",
+        "a greeting",
+        "a file format"
+      ],
+      "answerIndex": 0,
+      "explanation": "Follow-up = seguimiento."
+    },
+    {
+      "id": "b1-s05-ext-mcq-11",
+      "type": "multipleChoice",
+      "track": "extension",
+      "prompt": "📘 GRAMMAR (B1+): Which line is best to assign yourself an action?",
+      "options": [
+        "I will update the draft today.",
+        "Update the draft.",
+        "You update my draft."
+      ],
+      "answerIndex": 0,
+      "explanation": "I will/I’ll = ownership propio."
+    },
+    {
+      "id": "b1-s05-ext-mcq-12",
+      "type": "multipleChoice",
+      "track": "extension",
+      "prompt": "✍️ WRITING (B1+): Choose the best closing line.",
+      "options": [
+        "If anything is missing, please let me know.",
+        "No more emails.",
+        "Stop asking."
+      ],
+      "answerIndex": 0,
+      "explanation": "Cierre neutral y útil."
+    },
+    {
+      "id": "b1-s05-ext-fill-01",
+      "type": "fillBlanks",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Completa un subject line profesional.",
+      "text": "Subject: ____: next steps after the call",
+      "answers": [
+        "Recap"
+      ],
+      "explanation": "Recap en subject = claro."
+    },
+    {
+      "id": "b1-s05-ext-fill-02",
+      "type": "fillBlanks",
+      "track": "extension",
+      "instructions": "🧠 VOCAB (B1+): Completa con 'summary'.",
+      "text": "Here’s a quick ____ of today’s call.",
+      "answers": [
+        "summary"
+      ],
+      "explanation": "summary = recap."
+    },
+    {
+      "id": "b1-s05-ext-fill-03",
+      "type": "fillBlanks",
+      "track": "extension",
+      "instructions": "📘 GRAMMAR (B1+): Completa 'We agreed to…'.",
+      "text": "We agreed to ____ the draft by Friday.",
+      "answers": [
+        "finalize"
+      ],
+      "explanation": "agreed to + base verb."
+    },
+    {
+      "id": "b1-s05-ext-fill-04",
+      "type": "fillBlanks",
+      "track": "extension",
+      "instructions": "🧠 VOCAB (B1+): Completa con 'action items'.",
+      "text": "Action ____: Maria—numbers by Thu; Ana—v3 by Fri.",
+      "answers": [
+        "items"
+      ],
+      "explanation": "Action items = tareas."
+    },
+    {
+      "id": "b1-s05-ext-fill-05",
+      "type": "fillBlanks",
+      "track": "extension",
+      "instructions": "🧠 VOCAB (B1+): Completa con 'owner'.",
+      "text": "Please assign an ____ for each task.",
+      "answers": [
+        "owner"
+      ],
+      "explanation": "owner = responsable."
+    },
+    {
+      "id": "b1-s05-ext-fill-06",
+      "type": "fillBlanks",
+      "track": "extension",
+      "instructions": "📘 GRAMMAR (B1+): Completa 'will'.",
+      "text": "Maria ____ share the numbers by Thursday.",
+      "answers": [
+        "will"
+      ],
+      "explanation": "will + verb."
+    },
+    {
+      "id": "b1-s05-ext-fill-07",
+      "type": "fillBlanks",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Completa next step.",
+      "text": "Next step: I’ll ____ the draft and share v3.",
+      "answers": [
+        "update"
+      ],
+      "explanation": "update = acción clara."
+    },
+    {
+      "id": "b1-s05-ext-fill-08",
+      "type": "fillBlanks",
+      "track": "extension",
+      "instructions": "📩 READING (B1+): Completa frase para invitar correcciones.",
+      "text": "If anything is ____, please let me know.",
+      "answers": [
+        "missing"
+      ],
+      "explanation": "Cierre útil."
+    },
+    {
+      "id": "b1-s05-ext-fill-09",
+      "type": "fillBlanks",
+      "track": "extension",
+      "instructions": "🧠 VOCAB (B1+): Completa 'deadline'.",
+      "text": "The ____ is Friday.",
+      "answers": [
+        "deadline"
+      ],
+      "explanation": "deadline = fecha límite."
+    },
+    {
+      "id": "b1-s05-ext-fill-10",
+      "type": "fillBlanks",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Completa con 'key points'.",
+      "text": "Key ____: timeline confirmed, version v3.",
+      "answers": [
+        "points"
+      ],
+      "explanation": "key points = puntos clave."
+    },
+    {
+      "id": "b1-s05-ext-fill-11",
+      "type": "fillBlanks",
+      "track": "extension",
+      "instructions": "🧠 VOCAB (B1+): Completa con 'follow-up'.",
+      "text": "This email is a ____ to our call.",
+      "answers": [
+        "follow-up"
+      ],
+      "explanation": "follow-up = seguimiento."
+    },
+    {
+      "id": "b1-s05-ext-fill-12",
+      "type": "fillBlanks",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Completa cierre con next step.",
+      "text": "If that works, I’ll ____.",
+      "answers": [
+        "proceed"
+      ],
+      "explanation": "proceed = seguir adelante."
+    },
+    {
+      "id": "b1-s05-ext-reorder-01",
+      "type": "reorder",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Ordena un recap con headings completos.",
+      "items": [
+        "Hi Maria,",
+        "Here’s a quick recap of today’s call.",
+        "Key points:",
+        "- Timeline confirmed.",
+        "Action items:",
+        "- Maria will share the numbers by Thursday.",
+        "- Ana will share v3 by Friday.",
+        "If anything is missing, please let me know.",
+        "Best regards,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "explanation": "Headings + bullets + cierre."
+    },
+    {
+      "id": "b1-s05-ext-reorder-02",
+      "type": "reorder",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Ordena un recap muy corto con action items.",
+      "items": [
+        "Hi Tom,",
+        "Quick recap:",
+        "Tom will approve by Thursday.",
+        "Ana will share v3 by Friday.",
+        "Thanks!",
+        "Best,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "explanation": "Corto pero con ownership."
+    },
+    {
+      "id": "b1-s05-ext-reorder-03",
+      "type": "reorder",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Ordena un recap con 'We agreed to…' + next step.",
+      "items": [
+        "Hi Maria,",
+        "We agreed to finalize the draft by Friday.",
+        "Next step: I’ll update and share v3.",
+        "Thanks in advance.",
+        "Best regards,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Decisión → next step → cierre."
+    },
+    {
+      "id": "b1-s05-ext-reorder-04",
+      "type": "reorder",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Ordena un recap con invitación a correcciones.",
+      "items": [
+        "Hi Maria,",
+        "Here’s a quick recap.",
+        "If anything is missing, please let me know.",
+        "Thanks!",
+        "Best,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Cierre colaborativo."
+    },
+    {
+      "id": "b1-s05-ext-reorder-05",
+      "type": "reorder",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Ordena un email para asignar owner explícito.",
+      "items": [
+        "Action items:",
+        "Owner: Maria — share numbers by Thursday.",
+        "Owner: Ana — share v3 by Friday.",
+        "Thanks!"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Owner label = claro."
+    },
+    {
+      "id": "b1-s05-ext-reorder-06",
+      "type": "reorder",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Ordena un recap para confirmar deadline.",
+      "items": [
+        "Hi Maria,",
+        "Just to recap, the deadline is Friday.",
+        "Action item: Ana will share v3 by Friday.",
+        "Best regards,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Deadline + acción."
+    },
+    {
+      "id": "b1-s05-ext-reorder-07",
+      "type": "reorder",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Ordena un recap con key points y un solo action item.",
+      "items": [
+        "Hi Tom,",
+        "Key points: timeline confirmed.",
+        "Action item: Tom will approve by Thursday.",
+        "Thanks!",
+        "Best,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Simple y escaneable."
+    },
+    {
+      "id": "b1-s05-ext-reorder-08",
+      "type": "reorder",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Ordena recap con follow-up line.",
+      "items": [
+        "Hi Maria,",
+        "This is a quick follow-up to our call.",
+        "Here are the action items:",
+        "Maria will share numbers by Thursday.",
+        "Thanks!",
+        "Best,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "explanation": "Follow-up + action items."
+    },
+    {
+      "id": "b1-s05-ext-reorder-09",
+      "type": "reorder",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Ordena recap con next step y proceed.",
+      "items": [
+        "Hi Maria,",
+        "Next step: I’ll proceed and share v3.",
+        "If anything is missing, please let me know.",
+        "Best regards,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Next step + cierre."
+    },
+    {
+      "id": "b1-s05-ext-reorder-10",
+      "type": "reorder",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Ordena recap con summary (sin repetir 'recap').",
+      "items": [
+        "Hi Tom,",
+        "Here’s a brief summary of the call.",
+        "Action items: Tom approve by Thu; Ana share v3 by Fri.",
+        "Thanks!",
+        "Best,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "summary = alternativa a recap."
+    },
+    {
+      "id": "b1-s05-ext-reorder-11",
+      "type": "reorder",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Ordena un recap con subject line (conceptual).",
+      "items": [
+        "Subject: Recap + action items",
+        "Hi Maria,",
+        "Here’s a quick recap.",
+        "Thanks!",
+        "Best,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Subject primero en concepto."
+    },
+    {
+      "id": "b1-s05-ext-reorder-12",
+      "type": "reorder",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Ordena un recap mínimo con key points.",
+      "items": [
+        "Hi Maria,",
+        "Key points: version v3, deadline Friday.",
+        "Thanks!",
+        "Best,",
+        "Ana"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Key points en una línea."
+    },
+    {
+      "id": "b1-s05-ext-err-01",
+      "type": "errorCorrection",
+      "track": "extension",
+      "instructions": "📘 GRAMMAR (B1+): Corrige tone (sin 'must').",
+      "pairs": [
+        {
+          "wrong": "Maria must share the numbers.",
+          "correct": "Maria will share the numbers by Thursday.",
+          "explanation": "will + deadline = neutro."
+        },
+        {
+          "wrong": "You must approve today.",
+          "correct": "Could you approve it today if possible?",
+          "explanation": "Soft request."
+        },
+        {
+          "wrong": "Do it now.",
+          "correct": "Next step: I’ll proceed and share v3.",
+          "explanation": "Next step sin presión."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-ext-err-02",
+      "type": "errorCorrection",
+      "track": "extension",
+      "instructions": "📘 GRAMMAR (B1+): Corrige 'We agreed to…'.",
+      "pairs": [
+        {
+          "wrong": "We agreed finalize by Friday.",
+          "correct": "We agreed to finalize by Friday.",
+          "explanation": "to + base verb."
+        },
+        {
+          "wrong": "We agreed to finalizing.",
+          "correct": "We agreed to finalize.",
+          "explanation": "Base verb."
+        },
+        {
+          "wrong": "We agreed for finalize.",
+          "correct": "We agreed to finalize.",
+          "explanation": "Preposición correcta: to."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-ext-err-03",
+      "type": "errorCorrection",
+      "track": "extension",
+      "instructions": "🧠 VOCAB (B1+): Corrige action items / owner.",
+      "pairs": [
+        {
+          "wrong": "action things",
+          "correct": "action items",
+          "explanation": "Término estándar."
+        },
+        {
+          "wrong": "assign a responsible",
+          "correct": "assign an owner",
+          "explanation": "Owner = responsable."
+        },
+        {
+          "wrong": "key pointes",
+          "correct": "key points",
+          "explanation": "Spelling."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-ext-err-04",
+      "type": "errorCorrection",
+      "track": "extension",
+      "instructions": "📩 READING (B1+): Corrige subject lines.",
+      "pairs": [
+        {
+          "wrong": "Hello",
+          "correct": "Recap + action items: next steps",
+          "explanation": "Más específico."
+        },
+        {
+          "wrong": "IMPORTANT!!!",
+          "correct": "Recap: timeline and action items",
+          "explanation": "Evita alarmismo."
+        },
+        {
+          "wrong": "FYI",
+          "correct": "Quick recap: decisions and next steps",
+          "explanation": "Más claro."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-ext-err-05",
+      "type": "errorCorrection",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Mejora scan (bullets).",
+      "pairs": [
+        {
+          "wrong": "Timeline confirmed. Maria numbers Thu. Ana v3 Fri.",
+          "correct": "Key points:\n- Timeline confirmed.\n\nAction items:\n- Maria will share the numbers by Thursday.\n- Ana will share v3 by Friday.",
+          "explanation": "Headings + bullets."
+        },
+        {
+          "wrong": "No headings.",
+          "correct": "Here’s a quick recap.\n\nAction items:\n- Maria: numbers by Thu\n- Ana: v3 by Fri",
+          "explanation": "Estructura mínima."
+        },
+        {
+          "wrong": "Ok bye.",
+          "correct": "If anything is missing, please let me know.",
+          "explanation": "Cierre profesional."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-ext-err-06",
+      "type": "errorCorrection",
+      "track": "extension",
+      "instructions": "📘 GRAMMAR (B1+): Corrige 'Here’s a quick recap'.",
+      "pairs": [
+        {
+          "wrong": "Here a quick recap.",
+          "correct": "Here’s a quick recap.",
+          "explanation": "Here’s = Here is."
+        },
+        {
+          "wrong": "Here’s quick recap of call.",
+          "correct": "Here’s a quick recap of the call.",
+          "explanation": "a + the call."
+        },
+        {
+          "wrong": "Here’s a quick recaps.",
+          "correct": "Here’s a quick recap.",
+          "explanation": "recap singular."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-ext-err-07",
+      "type": "errorCorrection",
+      "track": "extension",
+      "instructions": "🧠 VOCAB (B1+): deadline prepositions.",
+      "pairs": [
+        {
+          "wrong": "by on Friday",
+          "correct": "by Friday",
+          "explanation": "Deadline: by Friday."
+        },
+        {
+          "wrong": "in Friday",
+          "correct": "on Friday",
+          "explanation": "Day: on Friday."
+        },
+        {
+          "wrong": "deadline at Friday",
+          "correct": "deadline on Friday",
+          "explanation": "Day: on Friday."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-ext-err-08",
+      "type": "errorCorrection",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Corrige owner lines.",
+      "pairs": [
+        {
+          "wrong": "Owner Maria will share.",
+          "correct": "Owner: Maria — will share the numbers by Thursday.",
+          "explanation": "Formato claro: Owner: Name — action."
+        },
+        {
+          "wrong": "Ana will shares v3.",
+          "correct": "Ana will share v3.",
+          "explanation": "Base verb."
+        },
+        {
+          "wrong": "Tom approve by Thu.",
+          "correct": "Tom will approve by Thursday.",
+          "explanation": "will + verb."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-ext-err-09",
+      "type": "errorCorrection",
+      "track": "extension",
+      "instructions": "📩 READING (B1+): Cambia presión por neutralidad.",
+      "pairs": [
+        {
+          "wrong": "Do it ASAP.",
+          "correct": "We agreed to finalize by Friday.",
+          "explanation": "Deadline factual."
+        },
+        {
+          "wrong": "You failed.",
+          "correct": "Here’s a quick recap of the call.",
+          "explanation": "Neutral."
+        },
+        {
+          "wrong": "No excuses.",
+          "correct": "If anything is missing, please let me know.",
+          "explanation": "Colaborativo."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-ext-err-10",
+      "type": "errorCorrection",
+      "track": "extension",
+      "instructions": "🧠 VOCAB (B1+): recap vs summary.",
+      "pairs": [
+        {
+          "wrong": "Here’s a quick recaply.",
+          "correct": "Here’s a quick recap.",
+          "explanation": "recap (noun)."
+        },
+        {
+          "wrong": "Here’s a quick summarise.",
+          "correct": "Here’s a quick summary.",
+          "explanation": "summary (noun)."
+        },
+        {
+          "wrong": "This is a followup.",
+          "correct": "This is a follow-up.",
+          "explanation": "Hyphen: follow-up."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-ext-err-11",
+      "type": "errorCorrection",
+      "track": "extension",
+      "instructions": "📘 GRAMMAR (B1+): I’ll / will.",
+      "pairs": [
+        {
+          "wrong": "I proceed.",
+          "correct": "I’ll proceed.",
+          "explanation": "I’ll = natural future."
+        },
+        {
+          "wrong": "I’ll proceeds.",
+          "correct": "I’ll proceed.",
+          "explanation": "Base verb after I’ll."
+        },
+        {
+          "wrong": "I will to update.",
+          "correct": "I will update.",
+          "explanation": "Sin 'to'."
+        }
+      ]
+    },
+    {
+      "id": "b1-s05-ext-err-12",
+      "type": "errorCorrection",
+      "track": "extension",
+      "instructions": "✍️ WRITING (B1+): Mejora cierre.",
+      "pairs": [
+        {
+          "wrong": "Ok.",
+          "correct": "Next step: I’ll update the draft and share v3.",
+          "explanation": "Next step claro."
+        },
+        {
+          "wrong": "Bye.",
+          "correct": "If anything is missing, please let me know.",
+          "explanation": "Cierre profesional."
+        },
+        {
+          "wrong": "Stop replying.",
+          "correct": "Thanks in advance.",
+          "explanation": "Cierre neutral."
+        }
+      ]
+    }
+  ]
+}
