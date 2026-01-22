@@ -2861,7 +2861,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             </div>
 
             <div className="space-y-4">
-              {pvExercise.items.map((item: any, idx: number) => {
+              {(pvExercise.items || []).map((item: any, idx: number) => {
                 const userAnswer = answers[item.id] || '';
                 const evaluation = aiEvaluations[item.id];
                 const hasOptions = item.options && item.options.length > 0;
@@ -2984,7 +2984,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             </div>
 
             <div className="space-y-4">
-              {ieExercise.items.map((item: any, idx: number) => {
+              {(ieExercise.items || []).map((item: any, idx: number) => {
                 const userAnswer = answers[item.id] || '';
                 const evaluation = aiEvaluations[item.id];
                 const hasOptions = item.options && item.options.length > 0;
