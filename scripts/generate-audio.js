@@ -33,6 +33,9 @@ async function generateAudio() {
     // Use ElevenLabs API - Rachel voice (professional female voice)
     const voiceId = '21m00Tcm4TlvDq8ikWAM'; // Rachel voice
     
+    console.log('🔑 Using API key:', ELEVENLABS_API_KEY.substring(0, 10) + '...');
+    console.log('🎤 Generating audio with voice ID:', voiceId);
+    
     const response = await fetch(
       `https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`,
       {
@@ -44,7 +47,7 @@ async function generateAudio() {
         },
         body: JSON.stringify({
           text: transcript,
-          model_id: 'eleven_monolingual_v1',
+          model_id: 'eleven_turbo_v2_5',
           voice_settings: {
             stability: 0.5,
             similarity_boost: 0.75
@@ -54,6 +57,8 @@ async function generateAudio() {
     );
 
     if (!response.ok) {
+      const errorText = await response.text();
+      console.error('Response body:', errorText);
       throw new Error(`API error: ${response.status} ${response.statusText}`);
     }
 
