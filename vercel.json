@@ -10,8 +10,8 @@
   "version": 2,
   "public": false,
   "github": {
-    "enabled": false,
-    "autoAlias": false,
-    "silent": true
+    "enabled": true,
+    "autoAlias": true,
+    "silent": false
   }
 }
