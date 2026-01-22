@@ -6,7 +6,7 @@
 // Página dedicada para alumnos que ya tienen acceso
 // ============================================
 
-import { useState } from 'react';
+import { useState, Suspense } from 'react';
 import { signIn } from '@/lib/auth-helpers';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
@@ -207,5 +207,9 @@ function SignInForm() {
 }
 
 export default function SignInPage() {
-  return <SignInForm />;
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-gradient-to-br from-coral-500 via-peach-400 to-coral-600 flex items-center justify-center"><div className="text-white text-xl">Cargando...</div></div>}>
+      <SignInForm />
+    </Suspense>
+  );
 }
