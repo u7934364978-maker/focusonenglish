@@ -1237,7 +1237,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               <EnhancedVoiceRecorder
                 exerciseId={currentExercise.id}
                 prompt={currentExercise.prompt}
-                targetText={currentExercise.targetText}
+                targetText={currentExercise.targetText || ''}
                 timeLimit={currentExercise.timeLimit}
                 modelAudioUrl={currentExercise.modelAudioUrl}
                 hints={currentExercise.hints}
@@ -1245,7 +1245,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               />
             ) : !pronunciationFeedback ? (
               <SmartPronunciationEvaluator
-                targetText={currentExercise.targetText}
+                targetText={currentExercise.targetText || ''}
                 prompt={currentExercise.prompt}
                 transcript={recordedAudio.transcript}
                 audioBlob={recordedAudio.blob}
