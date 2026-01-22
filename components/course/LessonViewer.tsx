@@ -13,6 +13,9 @@ import SpeakingPart3 from '@/components/course/SpeakingPart3';
 import SpeakingPart4 from '@/components/course/SpeakingPart4';
 import EnhancedSpeakingExercise from '@/components/EnhancedSpeakingExercise';
 import GappedTextExercise from '@/components/exercises/GappedTextExercise';
+import MultipleMatchingExercise from '@/components/exercises/MultipleMatchingExercise';
+import KeyWordTransformationExercise from '@/components/exercises/KeyWordTransformationExercise';
+import MultipleChoiceClozeExercise from '@/components/exercises/MultipleChoiceClozeExercise';
 import { GamificationWidget } from '@/components/gamification/GamificationPanel';
 import { XPGainAnimation } from '@/components/gamification/XPDisplay';
 import { BadgeNotification } from '@/components/gamification/BadgeDisplay';
@@ -1724,109 +1727,11 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         );
 
       case 'key-word-transformation':
-        return (
-          <div className="space-y-6">
-            {/* Instructions */}
-            <div className="bg-amber-50 rounded-xl p-6 border-2 border-amber-200">
-              <h3 className="text-xl font-bold text-amber-900 mb-3 flex items-center gap-2">
-                <span>🔑</span>
-                <span>{currentExercise.title}</span>
-              </h3>
-              <p className="text-slate-700 whitespace-pre-line mb-3">{currentExercise.instructions}</p>
-              <div className="bg-amber-100 p-3 rounded-lg border border-amber-300">
-                <p className="text-sm text-amber-900 font-semibold">💡 Consejo: Debes usar entre 2 y 5 palabras, incluyendo la palabra clave indicada.</p>
-              </div>
-            </div>
-
-            {/* Transformations */}
-            <div className="space-y-4">
-              {(currentExercise.transformations || currentExercise.questions || []).map((transformation: any, idx: number) => (
-                <div key={transformation.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
-                  <div className="space-y-3">
-                    {/* Original Sentence */}
-                    <div className="bg-orange-50 p-3 rounded-lg">
-                      <p className="text-sm text-coral-700 font-semibold mb-1">Oración original:</p>
-                      <p className="text-slate-900">{transformation.sentence}</p>
-                    </div>
-
-                    {/* Key Word */}
-                    <div className="flex items-center gap-3">
-                      <span className="text-sm text-slate-600">Palabra clave:</span>
-                      <span className="px-3 py-1 bg-amber-100 text-amber-900 rounded-full font-bold text-sm">
-                        {transformation.keyWord}
-                      </span>
-                      <span className="text-slate-400">({transformation.points} {transformation.points === 1 ? 'punto' : 'puntos'})</span>
-                    </div>
-
-                    {/* Answer Input */}
-                    <div className="space-y-2">
-                      <label className="text-sm font-semibold text-slate-700">Tu respuesta:</label>
-                      <div className="flex items-center gap-2">
-                        <span className="text-slate-600">{transformation.startOfAnswer}</span>
-                        <input
-                          type="text"
-                          value={answers[transformation.id] || ''}
-                          onChange={(e) => handleAnswer(transformation.id, e.target.value)}
-                          placeholder="..."
-                          className="flex-1 px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-amber-500 focus:outline-none"
-                        />
-                      </div>
-                    </div>
-
-                    {/* Feedback */}
-                    {showFeedback && aiEvaluations[transformation.id] && (
-                      <EnhancedFeedback
-                        type="text"
-                        evaluation={aiEvaluations[transformation.id]}
-                        userAnswer={`${transformation.startOfAnswer} ${answers[transformation.id] || ''}`}
-                        correctAnswer={`${transformation.startOfAnswer} ${transformation.correctAnswer}`}
-                      />
-                    )}
-                    {showFeedback && !aiEvaluations[transformation.id] && (
-                      <div className={`p-3 rounded-lg ${
-                        answers[transformation.id]?.toLowerCase().trim() === transformation.correctAnswer.toLowerCase().trim()
-                          ? 'bg-amber-50 border-2 border-amber-200'
-                          : 'bg-red-50 border-2 border-red-200'
-                      }`}>
-                        <p className="font-semibold mb-1">
-                          {answers[transformation.id]?.toLowerCase().trim() === transformation.correctAnswer.toLowerCase().trim()
-                            ? '✓ ¡Correcto!'
-                            : '✗ Incorrecto'}
-                        </p>
-                        <p className="text-sm mb-2">
-                          <span className="font-semibold">Respuesta correcta:</span> {transformation.startOfAnswer} <span className="text-amber-700 font-bold">{transformation.correctAnswer}</span>
-                        </p>
-                        {transformation.explanation && (
-                          <p className="text-sm text-slate-700">
-                            <span className="font-semibold">Explicación:</span> {transformation.explanation}
-                          </p>
-                        )}
-                      </div>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Check Answers Button */}
-            {!showFeedback && (
-              <button
-                onClick={checkAnswers}
-                disabled={evaluating}
-                className="w-full px-6 py-4 bg-coral-600 text-white rounded-xl hover:bg-coral-700 transition-colors font-bold text-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
-              >
-                {evaluating ? (
-                  <>
-                    <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                    <span>Evaluando con IA...</span>
-                  </>
-                ) : (
-                  'Evaluar Respuestas'
-                )}
-              </button>
-            )}
-          </div>
-        );
+        return <KeyWordTransformationExercise exercise={currentExercise as any} onComplete={(score) => {
+          setCurrentScore(score);
+          setShowFeedback(true);
+          setShowCelebration(true);
+        }} />;
 
       case 'word-formation':
         return (
@@ -1994,110 +1899,19 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           setShowCelebration(true);
         }} />;
 
+      case 'multiple-matching':
+        return <MultipleMatchingExercise exercise={currentExercise as any} onComplete={(score) => {
+          setCurrentScore(score);
+          setShowFeedback(true);
+          setShowCelebration(true);
+        }} />;
+
       case 'multiple-choice-cloze':
-        return (
-          <div className="grid lg:grid-cols-2 gap-6">
-            {/* Text - Sticky on large screens */}
-            <div className="lg:sticky lg:top-4 lg:self-start">
-              <div className="bg-amber-50 rounded-xl p-6 border-2 border-amber-200 mb-4">
-                <h3 className="text-xl font-bold text-amber-900 mb-3 flex items-center gap-2">
-                  <span>📋</span>
-                  <span>{currentExercise.title}</span>
-                </h3>
-                <p className="text-slate-700">Read the text and choose the best word for each gap from the options provided.</p>
-              </div>
-
-              <div className="bg-white rounded-xl p-6 border-2 border-slate-200 lg:max-h-[calc(100vh-16rem)] lg:overflow-y-auto">
-                <p className="text-slate-700 whitespace-pre-line leading-relaxed text-lg">
-                  {currentExercise.text}
-                </p>
-              </div>
-            </div>
-
-            {/* Questions - Scrollable */}
-            <div className="space-y-4">
-              <h4 className="text-lg font-bold text-slate-900">Elige las palabras correctas:</h4>
-              {currentExercise.questions.map((question: any, idx: number) => (
-                <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
-                  <p className="font-semibold text-slate-900 mb-3">
-                    Hueco {question.gapNumber}: <span className="text-sm text-coral-600">({question.points} {question.points === 1 ? 'punto' : 'puntos'})</span>
-                  </p>
-
-                  <div className="space-y-2">
-                    {question.options.map((option: string, optIdx: number) => (
-                      <label key={optIdx} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer transition-colors">
-                        <input
-                          type="radio"
-                          name={question.id}
-                          value={option}
-                          checked={answers[question.id] === option}
-                          onChange={(e) => handleAnswer(question.id, e.target.value)}
-                          className="w-4 h-4"
-                        />
-                        <span className="text-slate-700">{option}</span>
-                      </label>
-                    ))}
-                  </div>
-
-                  {/* Feedback */}
-                  {showFeedback && (
-                    <div className={`mt-3 p-3 rounded-lg ${
-                      answers[question.id] === question.correctAnswer
-                        ? 'bg-amber-50 border-2 border-amber-200'
-                        : 'bg-red-50 border-2 border-red-200'
-                    }`}>
-                      <p className="font-semibold mb-1">
-                        {answers[question.id] === question.correctAnswer
-                          ? '✓ Correct!'
-                          : '✗ Incorrect'}
-                      </p>
-                      <p className="text-sm mb-2">
-                        <span className="font-semibold">Correct answer:</span>{' '}
-                        <span className="text-amber-700 font-bold">{question.correctAnswer}</span>
-                      </p>
-                      {question.explanation && (
-                        <p className="text-sm text-slate-700">
-                          <span className="font-semibold">Explanation:</span> {question.explanation}
-                        </p>
-                      )}
-                    </div>
-                  )}
-                </div>
-              ))}
-
-              {/* Focus Areas */}
-              {currentExercise.focusAreas && currentExercise.focusAreas.length > 0 && (
-                <div className="bg-amber-50 rounded-xl p-4 border-2 border-amber-200">
-                  <p className="font-semibold text-amber-900 mb-2">📌 Focus Areas:</p>
-                  <div className="flex flex-wrap gap-2">
-                    {currentExercise.focusAreas.map((area: string, idx: number) => (
-                      <span key={idx} className="px-3 py-1 bg-amber-100 text-amber-700 rounded-full text-sm">
-                        {area}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {!showFeedback && (
-                <button
-                  onClick={checkAnswers}
-                  disabled={evaluating}
-                  className="w-full px-6 py-4 bg-coral-600 text-white rounded-xl hover:bg-coral-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {evaluating ? (
-                    <>
-                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                      <span>Evaluando con IA...</span>
-                    </>
-                  ) : (
-                    'Evaluar Respuestas'
-                  )}
-                </button>
-              )}
-            </div>
-          </div>
-        );
+        return <MultipleChoiceClozeExercise exercise={currentExercise as any} onComplete={(score) => {
+          setCurrentScore(score);
+          setShowFeedback(true);
+          setShowCelebration(true);
+        }} />;
 
       case 'sentence-building':
         const sbExercise = currentExercise as SentenceBuildingExercise;
