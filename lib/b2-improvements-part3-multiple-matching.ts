@@ -1,633 +1,776 @@
 // ================================================================
 // PART 7: MULTIPLE MATCHING (FCE Reading)
 // ================================================================
-
-export interface MultipleMatchingText {
-  letter: 'A' | 'B' | 'C' | 'D' | 'E';
-  title: string;
-  author?: string;
-  content: string;
-}
-
-export interface MultipleMatchingQuestion {
-  number: number;
-  statement: string;
-  correctText: 'A' | 'B' | 'C' | 'D' | 'E';
-  explanation: string;
-}
+// Descripción: 10 statements, debe matchear con 4-5 textos (A, B, C, D, E)
+// Evalúa: scanning, detail reading, comprehension of multiple texts
+// Nota: Algunos statements pueden matchear con el mismo texto
+// ================================================================
 
 export interface MultipleMatchingExercise {
   id: string;
   type: 'multiple-matching';
   title: string;
   instruction: string;
-  texts: MultipleMatchingText[];
-  questions: MultipleMatchingQuestion[];
+  texts: {
+    letter: 'A' | 'B' | 'C' | 'D' | 'E';
+    title: string;
+    author?: string;
+    content: string;
+  }[];
+  questions: {
+    number: number;
+    statement: string;
+    correctText: 'A' | 'B' | 'C' | 'D' | 'E';
+    explanation: string;
+  }[];
   difficulty: 'medium' | 'hard';
   topic: string;
-  totalTexts: number;
+  totalWords: number;
 }
 
 export const MULTIPLE_MATCHING_EXERCISES: MultipleMatchingExercise[] = [
+  // Exercise 1
   {
     id: 'b2-mm-1',
     type: 'multiple-matching',
-    title: 'Career Advice from Industry Leaders',
-    instruction: 'You are going to read career advice from five different professionals. For questions 1-10, choose from the people (A-E). The people may be chosen more than once.',
+    title: 'Career Advice from Industry Professionals',
     difficulty: 'medium',
-    topic: 'Work & Career',
-    totalTexts: 5,
+    topic: 'Career & Work',
+    totalWords: 920,
+    instruction: 'You are going to read about four professionals talking about their career paths. For questions 1-10, choose from the people (A-D). The people may be chosen more than once.',
     texts: [
       {
         letter: 'A',
-        title: 'Sarah Chen - Tech Entrepreneur',
-        content: `I started my first company straight out of university, and it failed spectacularly within eighteen months. That experience taught me more than any MBA ever could. The key lesson? Don't be afraid of failure—be afraid of not trying. In the tech industry, we celebrate 'failing fast' because it means you're learning and iterating. My advice to young professionals is to take calculated risks early in your career when you have less to lose. Build your network relentlessly—I can't stress this enough. The opportunity that led to my current successful venture came through a casual conversation at a conference. Also, develop skills that complement your technical expertise. I studied computer science, but learning about business strategy, marketing, and finance made me a much more effective founder. Don't specialize so narrowly that you can't see the bigger picture.`
+        title: 'Dr. Sarah Chen - Emergency Medicine Physician',
+        content: `When I was younger, I thought being a doctor meant knowing all the answers. Medical school certainly reinforced that impression - we were tested constantly on our ability to recall facts and diagnose conditions correctly. However, the reality of emergency medicine has taught me something quite different. The most valuable skill I've developed isn't memorizing treatment protocols, but rather learning to make critical decisions with incomplete information while remaining calm under pressure.
+
+The path to becoming an ER doctor was longer and more challenging than I anticipated. After medical school came years of residency, where 80-hour work weeks were normal. There were moments when I questioned whether the sacrifice was worth it, particularly when I missed family events or important milestones in my children's lives. My advice to anyone considering medicine is to ensure you're passionate not just about the prestige or the salary, but about the actual day-to-day work. The glamorous image of doctors on television bears little resemblance to the reality of charting, insurance paperwork, and having difficult conversations with patients and their families.
+
+What keeps me going, despite the exhaustion and emotional toll, is the profound privilege of helping people during their most vulnerable moments. Last week, I held the hand of an elderly man as he took his final breaths, his family unable to reach the hospital in time due to a snowstorm. These intensely human moments, where medical expertise meets compassion, define why I chose this career. If you can't handle the weight of holding someone's life in your hands, both literally and figuratively, medicine might not be the right path.`
       },
       {
         letter: 'B',
-        title: 'Marcus Thompson - Creative Director',
-        content: `The creative industries have changed dramatically since I started twenty years ago. What hasn't changed is the importance of building a strong portfolio. Your degree matters less than what you can actually produce. I look at hundreds of applications every year, and the ones that stand out show genuine creativity and problem-solving skills. My path wasn't linear—I worked in advertising, then journalism, then design before finding my niche. Don't expect to have everything figured out immediately. Give yourself permission to explore different areas within your field. That said, once you identify what you're truly passionate about, commit to becoming exceptional at it. The difference between good and great is usually about the extra effort you're willing to put in. Seek feedback constantly, even when it's uncomfortable. The creative professionals who stagnate are usually the ones who become defensive about criticism.`
+        title: 'James Morrison - Software Engineering Manager',
+        content: `The tech industry moves at an incredible pace, and that's precisely what attracted me to it fifteen years ago. I started as a junior developer, spending my days writing code and debugging software. What I didn't realize then was how quickly technology would evolve and how essential continuous learning would become. Today, as a manager, I spend less time coding and more time mentoring younger developers, making architectural decisions, and ensuring our team delivers quality products on schedule.
+
+One of the biggest myths about tech careers is that you need to be a mathematical genius or have started coding as a child. I actually didn't write my first line of code until university, and I struggled initially. What mattered more than natural talent was persistence and curiosity. The developers who succeed aren't necessarily the smartest ones; they're the ones who enjoy problem-solving and don't mind spending hours tracking down elusive bugs.
+
+The work-life balance in tech can be excellent, but it varies dramatically between companies. At my current company, we have flexible hours and the option to work remotely, which has been invaluable for managing family responsibilities. However, I've also worked at startups where the expectation was to be available constantly, responding to messages at all hours. Before accepting any tech position, I now recommend thoroughly researching the company culture and speaking with current employees about their actual experiences, not just what's written on the careers page.`
       },
       {
         letter: 'C',
-        title: 'Dr. Amira Patel - Medical Researcher',
-        content: `Research is fundamentally about persistence and intellectual humility. You need to be comfortable with uncertainty and with being wrong—repeatedly. Most experiments fail, and that's not just normal, it's essential to the scientific process. I tell junior researchers that their hypothesis matters less than their methodology. Develop rigorous research skills, learn statistical analysis properly, and always be skeptical of your own conclusions. Collaboration has become increasingly important in modern science. The days of the lone genius are largely over. The most significant breakthroughs now happen at the intersection of disciplines. I work with clinicians, data scientists, and molecular biologists regularly. So my advice is to develop strong communication skills and be genuinely curious about fields adjacent to your own. Finally, think carefully about work-life balance. Science can be all-consuming, and burnout is a real problem in academia.`
+        title: 'Maria Rodriguez - High School English Teacher',
+        content: `Teaching chose me as much as I chose teaching. After working in corporate marketing for five years, I felt unfulfilled despite the good salary. I returned to university to get my teaching credential, and though my family worried about the pay cut, I've never regretted the decision. Teaching is uniquely challenging because success isn't easily measured. You might spend months working with a struggling student, unsure if you're making any difference, only to receive an email years later telling you how much impact you had on their life.
+
+The greatest misconception about teaching is that it's an easy job with great holidays. The reality is far different. I typically arrive at school by 7 AM and rarely leave before 5 PM. Evenings and weekends are spent planning lessons, grading assignments, and responding to parent emails. The summer "break" is often filled with professional development courses and preparing for the upcoming school year. Anyone entering teaching for the schedule is in for a rude awakening.
+
+However, the rewards are incomparable. Watching students who initially hated reading become passionate about literature, or seeing a shy teenager find their voice through creative writing - these moments make every challenge worthwhile. Teaching requires patience, creativity, and the ability to connect with young people, even when they're having a difficult day. It's not a job where you can simply follow a script; every student and every class is different, requiring constant adaptation and innovation. If you need immediate, tangible results to feel satisfied, teaching will frustrate you. But if you can find joy in small victories and trust in the long-term impact of education, it's an incredibly meaningful career.`
       },
       {
         letter: 'D',
-        title: 'James Rodriguez - Senior Civil Servant',
-        content: `Working in government is profoundly different from the private sector, and not everyone thrives in this environment. The pace is often slower because the stakes are higher—we're dealing with public money and policies that affect millions of people. You need patience and the ability to navigate complex bureaucracies. However, the impact you can have is enormous. I've worked on policies that improved educational outcomes for disadvantaged children and environmental regulations that reduced pollution significantly. That sense of public service is deeply rewarding. My advice? Develop strong writing and analytical skills. In government, the ability to write a clear, persuasive briefing document is invaluable. Also, understand that change happens incrementally. If you're someone who needs to see immediate results from your work, this might frustrate you. But if you're motivated by contributing to society and can appreciate long-term outcomes, public service offers unique opportunities.`
-      },
-      {
-        letter: 'E',
-        title: 'Lisa Kowalski - Freelance Consultant',
-        content: `Freelancing offers incredible freedom, but it requires discipline and business acumen that many people underestimate. You're not just doing your professional work—you're running a business. That means handling invoicing, taxes, marketing, and client relations. I spent my first year as a freelancer working far more hours than I did in corporate employment, earning less money, and stressing constantly about where the next project would come from. It took time to build a stable client base and learn to price my services appropriately. My biggest piece of advice is to start freelancing as a side project while you still have stable employment. Build your reputation and client roster gradually. Also, be ruthless about time management. Without office hours and colleagues, it's easy to either work constantly or procrastinate endlessly. Set clear boundaries for yourself. And definitely maintain a financial cushion—irregular income is one of the biggest challenges of freelance life.`
+        title: 'David Kim - Freelance Graphic Designer',
+        content: `The freelance life isn't for everyone, and I learned that the hard way. After five years working for a design agency, I was confident I could make it on my own. The reality of freelancing hit me quickly: irregular income, constant self-promotion, and the challenge of being both creative artist and business manager simultaneously. In agency work, I could focus purely on design while others handled client relationships and invoicing. As a freelancer, I'm responsible for everything from negotiating contracts to chasing late payments.
+
+What surprised me most was how much non-design work is involved in freelancing. I spend nearly as much time on administrative tasks, marketing my services, and maintaining my portfolio website as I do on actual design work. Building a sustainable freelance career requires business skills that aren't typically taught in art school. I've learned about tax planning, contract law, and client psychology - knowledge I never expected to need but which proved essential for survival.
+
+The freedom, however, is intoxicating. I choose my projects, set my own hours, and work from anywhere with an internet connection. Last year, I spent three months in Portugal, working with clients back in the US while enjoying a completely different lifestyle. This flexibility is particularly valuable for people with family responsibilities or health conditions that make traditional office work difficult. My advice to aspiring freelancers is to build up at least six months of living expenses before taking the leap, and to start building your client network while you're still employed. The transition is much smoother when you have some financial cushion and initial projects lined up.`
       }
     ],
     questions: [
       {
         number: 1,
-        statement: 'Which person emphasizes the importance of being open to making mistakes?',
+        statement: 'Which person mentions that their career requires making decisions without having complete information?',
         correctText: 'A',
-        explanation: 'Sarah Chen talks about not being afraid of failure and celebrating "failing fast" as a learning opportunity.'
+        explanation: 'Dr. Chen mentions "learning to make critical decisions with incomplete information" as a key skill in emergency medicine'
       },
       {
         number: 2,
-        statement: 'Which person suggests that immediate results might not always be achievable in their field?',
-        correctText: 'D',
-        explanation: 'James Rodriguez mentions that change happens incrementally in government and that people who need immediate results might be frustrated.'
+        statement: 'Which person suggests researching company culture thoroughly before accepting a job offer?',
+        correctText: 'B',
+        explanation: 'James Morrison recommends "thoroughly researching the company culture and speaking with current employees"'
       },
       {
         number: 3,
-        statement: 'Which person highlights the need to develop abilities beyond their main area of expertise?',
-        correctText: 'A',
-        explanation: 'Sarah Chen studied computer science but emphasizes learning about business, marketing, and finance to be more effective.'
+        statement: 'Which person changed careers from a better-paying job to pursue something more fulfilling?',
+        correctText: 'C',
+        explanation: 'Maria Rodriguez left "corporate marketing for five years" despite concerns about "the pay cut"'
       },
       {
         number: 4,
-        statement: 'Which person warns about the financial challenges of their career path?',
-        correctText: 'E',
-        explanation: 'Lisa Kowalski discusses irregular income as a major challenge and recommends maintaining a financial cushion.'
+        statement: 'Which person emphasizes that success in their field depends more on determination than natural ability?',
+        correctText: 'B',
+        explanation: 'James says "What mattered more than natural talent was persistence and curiosity"'
       },
       {
         number: 5,
-        statement: 'Which person believes that the quality of your work matters more than your qualifications?',
-        correctText: 'B',
-        explanation: 'Marcus Thompson states that "your degree matters less than what you can actually produce" and emphasizes portfolio quality.'
+        statement: 'Which person mentions unexpected administrative responsibilities in their work?',
+        correctText: 'D',
+        explanation: 'David Kim discusses spending "nearly as much time on administrative tasks" as on design work'
       },
       {
         number: 6,
-        statement: 'Which person recommends starting in a particular career path gradually?',
-        correctText: 'E',
-        explanation: 'Lisa Kowalski advises starting freelancing as a side project while maintaining stable employment.'
+        statement: 'Which person describes moments of uncertainty about whether their work is having an impact?',
+        correctText: 'C',
+        explanation: 'Maria mentions "You might spend months working with a struggling student, unsure if you\'re making any difference"'
       },
       {
         number: 7,
-        statement: 'Which person stresses the value of being receptive to constructive criticism?',
-        correctText: 'B',
-        explanation: 'Marcus Thompson says to "seek feedback constantly" and notes that stagnating professionals become defensive about criticism.'
+        statement: 'Which person discusses the importance of being prepared for the emotional demands of their job?',
+        correctText: 'A',
+        explanation: 'Dr. Chen warns "If you can\'t handle the weight of holding someone\'s life in your hands...medicine might not be the right path"'
       },
       {
         number: 8,
-        statement: 'Which person mentions the importance of working with people from different specializations?',
+        statement: 'Which person mentions that public perception of their career differs significantly from reality?',
         correctText: 'C',
-        explanation: 'Dr. Patel discusses working with clinicians, data scientists, and molecular biologists, and the importance of interdisciplinary collaboration.'
+        explanation: 'Maria discusses "The greatest misconception about teaching is that it\'s an easy job with great holidays"'
       },
       {
         number: 9,
-        statement: 'Which person indicates that their work provides a strong sense of purpose?',
+        statement: 'Which person recommends building financial security before pursuing their type of career?',
         correctText: 'D',
-        explanation: 'James Rodriguez talks about the "sense of public service" being deeply rewarding when working on policies that help millions.'
+        explanation: 'David advises to "build up at least six months of living expenses before taking the leap"'
       },
       {
         number: 10,
-        statement: 'Which person admits their career path was not straightforward?',
-        correctText: 'B',
-        explanation: 'Marcus Thompson explicitly states "My path wasn\'t linear" and describes working in advertising, journalism, then design before finding his niche.'
+        statement: 'Which person values the geographical flexibility their career provides?',
+        correctText: 'D',
+        explanation: 'David Kim mentions spending "three months in Portugal, working with clients back in the US"'
       }
     ]
   },
 
+  // Exercise 2
   {
     id: 'b2-mm-2',
     type: 'multiple-matching',
     title: 'Travel Experiences Around the World',
-    instruction: 'You are going to read about travel experiences from five different people. For questions 1-10, choose from the travelers (A-E). The travelers may be chosen more than once.',
     difficulty: 'medium',
     topic: 'Travel & Culture',
-    totalTexts: 5,
+    totalWords: 950,
+    instruction: 'You are going to read about five travelers describing their experiences in different countries. For questions 1-10, choose from the travelers (A-E). The travelers may be chosen more than once.',
     texts: [
       {
         letter: 'A',
-        title: 'Tom - Backpacking Through Southeast Asia',
-        content: `My three months in Southeast Asia completely changed my perspective on travel. I'd always been someone who planned everything meticulously, but this trip taught me the value of spontaneity. Some of my best experiences—staying with a family in rural Vietnam, joining an impromptu beach volleyball tournament in Thailand—happened because I abandoned my itinerary. The region is incredibly affordable, which allowed me to extend my trip by several weeks. However, the tourist trail can feel a bit repetitive. After a while, the hostels, the same faces, the identical experiences start to blur together. My advice? Venture off the beaten path. Take local buses instead of tourist shuttles. Eat where locals eat. I spent a week on a small Indonesian island that wasn't in any guidebook, and it was magical. The language barrier was occasionally frustrating, but people's kindness transcended words. I left feeling humbled by the hospitality I encountered and questioning many assumptions I'd had about my own privileged lifestyle.`
+        title: 'Emma - Backpacking Through Southeast Asia',
+        content: `Thailand was my first stop, and Bangkok immediately overwhelmed me with its heat, crowds, and sensory intensity. Coming from a quiet suburb in Canada, the chaos felt both terrifying and exhilarating. I spent three days navigating the city's labyrinthine streets, sampling street food that was simultaneously delicious and slightly worrying from a food safety perspective. The Grand Palace took my breath away, though the crowds of tourists made it difficult to appreciate the intricate architecture fully.
+
+Moving north to Chiang Mai provided a welcome contrast to Bangkok's frenetic energy. I took a cooking class where I learned to make pad thai from scratch, visited elephant sanctuaries (ensuring they were ethical ones that don't offer riding), and spent an evening at the famous night markets. What struck me most was how tourism has transformed these places - for better and worse. While it brings economic opportunities, I couldn't help but wonder about the authenticity of experiences designed primarily for foreign visitors.
+
+The highlight of my trip was definitely the month I spent in a small village in Laos, teaching English to local children. Living with a host family, I experienced daily life far removed from the tourist trail. We rose with the sun, worked in rice paddies, and ate meals together on the floor. The children's enthusiasm for learning, despite having almost no resources, put my own privileged education into perspective. This experience taught me more about resilience and community than any guidebook could convey.`
       },
       {
         letter: 'B',
-        title: 'Rachel - Solo Female Traveler in Iceland',
-        content: `Iceland had been on my bucket list for years, and traveling there solo was both empowering and challenging. The country's natural beauty is absolutely breathtaking—the waterfalls, geysers, and Northern Lights exceeded my expectations. However, Iceland is expensive. Even staying in hostels and cooking my own meals, I went significantly over budget. The weather was also more challenging than I anticipated. I'd planned a hiking trip in October, and several trails were closed due to conditions. That taught me an important lesson about researching seasonal factors more thoroughly. Despite the setbacks, traveling alone forced me out of my comfort zone in the best way. I joined group tours and met fascinating people from around the world. There's something liberating about being completely responsible for your own experience, making every decision yourself. I also felt remarkably safe throughout—Iceland has very low crime rates, and locals were consistently helpful and welcoming to solo travelers.`
+        title: 'Marcus - Solo Hiking in Patagonia',
+        content: `Patagonia had been on my bucket list for years, and finally standing at the base of Torres del Paine, I understood why it's considered one of Earth's most spectacular landscapes. The Argentine and Chilean sides each offer unique perspectives, though the logistics of crossing the border added unexpected complexity to my journey. I spent two weeks hiking the W Circuit, carrying everything I needed on my back and sleeping in refugios along the trail.
+
+The physical demands of multi-day hiking surprised someone like me who considered himself reasonably fit. My legs ached constantly, my shoulders bore painful marks from my backpack straps, and blisters made every step a small exercise in determination. Yet each morning, waking to views of jagged peaks reflected in glacial lakes made the discomfort seem trivial. The weather, notorious for changing rapidly in Patagonia, tested my adaptability - I experienced sunshine, rain, and near-blizzard conditions all in a single day.
+
+What I didn't anticipate was the profound sense of solitude, even on a popular trail. Hours would pass with only my thoughts for company, punctuated by occasional encounters with fellow hikers. This forced disconnection from technology and the constant stream of information was initially uncomfortable but ultimately liberating. I learned that I'm more capable than I believed - physically, mentally, and emotionally. The experience has changed how I approach challenges in my daily life, reminding me that discomfort is temporary but growth is lasting.`
       },
       {
         letter: 'C',
-        title: 'Jamal - Cultural Immersion in Japan',
-        content: `I spent six weeks in Japan taking a language course, and it was the most culturally enriching experience of my life. Living with a host family rather than in a hotel gave me genuine insight into daily Japanese life. I learned about customs and social etiquette that you'd never pick up as a typical tourist. The emphasis on respect, the attention to detail in every aspect of life, the cleanliness—it was eye-opening. Tokyo is fascinating but overwhelming. The crowds, the constant stimulation, the pace of life—it's intense. I preferred my time in Kyoto, where traditional culture is more visible. Cycling through temples and gardens, attending a tea ceremony, watching craftsmen at work—these slower experiences felt more meaningful. One challenge was the perfectionism in my language classes. I'm used to a more relaxed learning environment, and the structured, intensive approach was initially stressful. But my Japanese improved dramatically. I came to appreciate that pushing beyond your comfort zone is where real growth happens. I left with a deep respect for Japanese culture and a commitment to continue my language studies.`
+        title: 'Yuki - Cultural Exchange in Morocco',
+        content: `Arriving in Marrakech from Tokyo, I was immediately struck by the sensory differences. The call to prayer echoing across the city at dawn, the smell of spices in the souks, the vibrant colors of traditional textiles - everything felt intensely alive in a way that contrasted sharply with the ordered efficiency of Japanese cities. My first attempt at navigating the medina left me hopelessly lost, despite having a map and GPS on my phone.
+
+I stayed in a traditional riad, a beautiful historic house built around a central courtyard. The family who owned it welcomed me warmly, though communication was challenging with my limited French and their limited English. We mostly communicated through gestures, smiles, and shared meals. The mother taught me to make traditional tagine, showing me how to layer flavors and how patience in cooking yields the best results - a lesson I've applied beyond the kitchen.
+
+What fascinated me most was how Moroccan culture balances tradition with modernity. I witnessed this particularly in Fes, where centuries-old tanneries operate using traditional methods alongside the buzz of smartphones and social media. The younger generation navigates between respecting cultural traditions and embracing global influences, something I deeply related to as someone from a culture with similar tensions. This trip challenged my assumptions about what "modern" means and reminded me that development doesn't require abandoning cultural identity.`
       },
       {
         letter: 'D',
-        title: 'Maria - Family Road Trip Across America',
-        content: `Driving across the United States with my husband and two children was ambitious, but it created memories we'll treasure forever. We covered over 8,000 kilometers in five weeks, hitting national parks, quirky roadside attractions, and diverse cities. The logistics were complicated—finding accommodation that fit our budget, keeping the kids entertained during long drives, managing different dietary needs. There were definitely moments of stress, and I won't pretend every day was perfect. But seeing the Grand Canyon through my children's eyes, teaching them to spot wildlife in Yellowstone, experiencing the contrast between regions—it gave them an education no classroom could provide. Americans were incredibly friendly, particularly in smaller towns. We were invited to a local baseball game, given restaurant recommendations, helped when we had car trouble. The downside? The trip was exhausting. We probably tried to cover too much ground. In hindsight, I'd spend more time in fewer places. But the variety and scale of American landscapes are truly impressive, and doing it as a family strengthened our bonds in ways I didn't anticipate.`
+        title: 'Sophie - Road Trip Across Iceland',
+        content: `Iceland defies easy description. The landscape seems almost alien - vast lava fields, dramatic waterfalls, geothermal areas with bubbling mud pots, and glaciers that are simultaneously beautiful and terrifying reminders of climate change. My partner and I rented a 4x4 and spent two weeks driving the Ring Road, stopping whenever something caught our eye, which was approximately every ten minutes.
+
+The midnight sun during summer meant our sleep schedule became completely irregular. We'd find ourselves hiking at 11 PM in full daylight, or having breakfast at 4 AM because we were already awake. This temporal disorientation was oddly freeing - we followed our energy and curiosity rather than the clock. However, this freedom came with challenges. We underestimated distances between towns and once found ourselves driving for three hours on an empty road without passing a single gas station, watching our fuel gauge with growing anxiety.
+
+The environmental awareness in Iceland impressed me deeply. Despite their small population, Icelanders are serious about protecting their fragile ecosystem. We saw this in strict rules about staying on marked paths, the emphasis on geothermal energy, and locals' willingness to discuss climate change's visible effects on their glaciers. As tourists, we felt both privileged to experience such raw natural beauty and responsible for minimizing our impact. This experience has made me more conscious of my environmental footprint in all my travels.`
       },
       {
         letter: 'E',
-        title: 'Sophie - Volunteer Work in East Africa',
-        content: `I spent three months volunteering at a wildlife conservation project in Tanzania, and it was both rewarding and eye-opening in unexpected ways. I'd idealized the experience beforehand, imagining I'd be making a significant difference. The reality was more complex. Much of the work was physically demanding and repetitive—maintaining fences, collecting data, removing invasive plants. I learned that meaningful conservation is about consistent, unglamorous effort rather than dramatic interventions. Living conditions were basic, which I'd expected, but I underestimated how emotionally challenging it would be. Seeing the effects of poaching and habitat loss firsthand was heartbreaking. I also had to confront uncomfortable questions about voluntourism—was I genuinely helping, or was this partly about making myself feel good? The organization I worked with was ethical and had long-term local staff, which reassured me. The experience taught me humility and gave me a more nuanced understanding of conservation challenges. I left with enormous respect for the Tanzanian staff who dedicate their lives to this work for a fraction of what international volunteers pay to be there.`
+        title: 'Ahmed - Family Vacation in Italy',
+        content: `Traveling with three children under twelve changes everything about tourism. Our carefully planned itinerary for visiting Italy's cultural highlights quickly gave way to finding playgrounds, gelato shops, and places where the kids could run around without disturbing others. Rome's Colosseum fascinated our oldest, but the younger two were more interested in pigeons in the nearby park. We learned to appreciate this different perspective - seeing famous sites through their eyes of wonder rather than my checklist of "must-see" attractions.
+
+Venice presented unique challenges with its bridges and narrow passages, making our stroller feel like a liability. We got lost in the maze of streets repeatedly, but these unplanned detours led to discovering small neighborhood squares where local children played football and elderly residents sat watching the world go by. These authentic glimpses of daily Venetian life felt more valuable than photographing St. Mark's Square, beautiful as it was.
+
+The agriturismo we stayed at in Tuscany was the trip's highlight. The children loved feeding chickens, watching the owner make cheese, and picking vegetables for dinner. Without constant attractions and entertainment, they invented their own games and spent hours outdoors. This slower pace reminded me that travel with family doesn't have to mean cramming in as many sights as possible. Sometimes the best experiences are the unplanned ones, like our impromptu pasta-making lesson with the farmhouse owner's grandmother, conducted entirely in gestures and laughter despite our language barrier.`
       }
     ],
     questions: [
       {
         number: 1,
-        statement: 'Which traveler mentions exceeding their planned spending?',
-        correctText: 'B',
-        explanation: 'Rachel mentions that despite budget measures, she "went significantly over budget" in Iceland.'
+        statement: 'Which traveler learned to appreciate a slower pace of tourism?',
+        correctText: 'E',
+        explanation: 'Ahmed mentions "slower pace reminded me that travel with family doesn\'t have to mean cramming in as many sights as possible"'
       },
       {
         number: 2,
-        statement: 'Which traveler felt their experience led them to question aspects of their own lifestyle?',
+        statement: 'Which traveler describes an experience that made them question the authenticity of tourist activities?',
         correctText: 'A',
-        explanation: 'Tom mentions leaving "questioning many assumptions I\'d had about my own privileged lifestyle."'
+        explanation: 'Emma wondered "about the authenticity of experiences designed primarily for foreign visitors"'
       },
       {
         number: 3,
-        statement: 'Which traveler suggests they might have planned their trip differently in retrospect?',
+        statement: 'Which traveler mentions gaining a new perspective on environmental issues?',
         correctText: 'D',
-        explanation: 'Maria states "In hindsight, I\'d spend more time in fewer places" indicating she would change her approach.'
+        explanation: 'Sophie discusses how "This experience has made me more conscious of my environmental footprint in all my travels"'
       },
       {
         number: 4,
-        statement: 'Which traveler had to deal with weather-related limitations?',
-        correctText: 'B',
-        explanation: 'Rachel mentions several hiking trails were closed due to weather conditions in October.'
+        statement: 'Which traveler found parallels between their own culture and the one they visited?',
+        correctText: 'C',
+        explanation: 'Yuki mentions "something I deeply related to as someone from a culture with similar tensions"'
       },
       {
         number: 5,
-        statement: 'Which traveler found certain aspects of their trip emotionally difficult?',
-        correctText: 'E',
-        explanation: 'Sophie mentions finding it "emotionally challenging" and that seeing poaching effects was "heartbreaking."'
+        statement: 'Which traveler describes physical challenges that were ultimately rewarding?',
+        correctText: 'B',
+        explanation: 'Marcus discusses leg aches and blisters but says "each morning, waking to views...made the discomfort seem trivial"'
       },
       {
         number: 6,
-        statement: 'Which traveler appreciated the opportunity to make their own decisions?',
-        correctText: 'B',
-        explanation: 'Rachel talks about "something liberating about being completely responsible for your own experience, making every decision yourself."'
+        statement: 'Which traveler had to significantly modify their original travel plans?',
+        correctText: 'E',
+        explanation: 'Ahmed\'s "carefully planned itinerary...quickly gave way to finding playgrounds, gelato shops"'
       },
       {
         number: 7,
-        statement: 'Which traveler found that living with locals provided valuable cultural insights?',
+        statement: 'Which traveler experienced unexpected navigational difficulties?',
         correctText: 'C',
-        explanation: 'Jamal mentions that "Living with a host family gave me genuine insight into daily Japanese life" and customs.'
+        explanation: 'Yuki says "My first attempt at navigating the medina left me hopelessly lost, despite having a map and GPS"'
       },
       {
         number: 8,
-        statement: 'Which traveler believes their trip had educational benefits for others?',
-        correctText: 'D',
-        explanation: 'Maria talks about the trip giving her children "an education no classroom could provide."'
+        statement: 'Which traveler describes feeling overwhelmed upon first arrival?',
+        correctText: 'A',
+        explanation: 'Emma says "Bangkok immediately overwhelmed me with its heat, crowds, and sensory intensity"'
       },
       {
         number: 9,
-        statement: 'Which traveler discovered the importance of stepping away from typical tourist areas?',
-        correctText: 'A',
-        explanation: 'Tom advises "Venture off the beaten path" and describes his best experience on an island "that wasn\'t in any guidebook."'
+        statement: 'Which traveler found that unplanned moments became the most memorable?',
+        correctText: 'E',
+        explanation: 'Ahmed mentions "these unplanned detours led to discovering...authentic glimpses of daily Venetian life"'
       },
       {
         number: 10,
-        statement: 'Which traveler questioned the true value of their contribution?',
-        correctText: 'E',
-        explanation: 'Sophie asks herself "was I genuinely helping, or was this partly about making myself feel good?" reflecting on voluntourism.'
+        statement: 'Which traveler experienced a sense of isolation that led to personal growth?',
+        correctText: 'B',
+        explanation: 'Marcus describes "profound sense of solitude" and learning "I\'m more capable than I believed"'
       }
     ]
   },
 
+  // Exercise 3
   {
     id: 'b2-mm-3',
     type: 'multiple-matching',
     title: 'Reviews of Cultural Events',
-    instruction: 'You are going to read reviews of five different cultural events. For questions 1-10, choose from the reviews (A-E). The reviews may be chosen more than once.',
     difficulty: 'hard',
-    topic: 'Arts & Culture',
-    totalTexts: 5,
+    topic: 'Arts & Entertainment',
+    totalWords: 880,
+    instruction: 'You are going to read reviews of four different cultural events. For questions 1-10, choose from the reviews (A-D). The reviews may be chosen more than once.',
     texts: [
       {
         letter: 'A',
-        title: 'Modern Art Exhibition - "Fractured Perspectives"',
-        content: `The Contemporary Art Museum's latest exhibition promises to challenge conventional ways of seeing, and it delivers—though perhaps not always intentionally. Featuring works from fifteen emerging artists, "Fractured Perspectives" explores themes of identity and dislocation in the digital age. Some pieces are genuinely thought-provoking. Maya Chen's installation using broken mirrors and LED screens creates a disorienting but fascinating experience that captures how social media fragments our sense of self. However, the exhibition suffers from inconsistency. Several works feel derivative, offering nothing we haven't seen before in contemporary art. The accompanying text panels are often pretentious, using unnecessarily complex language to describe relatively simple concepts—a common problem in contemporary art curation. That said, the interactive elements are well-executed. Visitors can contribute to a collective digital artwork, which evolves throughout the exhibition's run. This participatory aspect makes repeat visits worthwhile. The space itself is beautifully designed, with lighting that enhances rather than overwhelms the artwork. Overall, it's worth visiting for several standout pieces, but temper your expectations—this isn't the revolutionary experience the publicity suggests.`
+        title: 'Film Review: "The Last Horizon"',
+        author: 'By Michael Torres',
+        content: `Director Sarah Williams' latest film is a visual masterpiece that unfortunately prioritizes style over substance. Shot entirely on location in Iceland, the cinematography is breathtaking - each frame could hang in an art gallery. The opening sequence, following our protagonist across black sand beaches toward an abandoned lighthouse, sets a hauntingly beautiful tone. However, Williams seems so enamored with the landscape that she forgets to develop the characters inhabiting it.
+
+The plot centers on a climate scientist returning to her childhood home to care for her aging father, wrestling with guilt about her long absence and anxiety about climate change's effects on the region she loves. It's a promising premise that sadly never fulfills its potential. The dialogue feels stiff and expository, with characters explaining their feelings rather than revealing them through actions or subtle emotional beats.
+
+The performances attempt to elevate the weak script. Lead actress Jennifer Chang brings depth to a underwritten role, conveying complex emotions through minimal dialogue and carefully measured movements. In less capable hands, this character would have been insufferable, but Chang makes us care about her internal struggles. The supporting cast, unfortunately, isn't given enough to work with, relegated to stock character types - the bitter father, the understanding best friend, the judgmental sibling.
+
+Where the film succeeds is in its meditation on time and change. Williams excels at showing how landscapes transform, drawing parallels between geological processes and human aging. A montage comparing archival footage of glaciers to their current diminished state is genuinely powerful, making the climate crisis feel personal rather than abstract. If only the human story matched the environmental one in emotional impact.`
       },
       {
         letter: 'B',
-        title: 'Theatre Production - "A Doll\'s House" Revival',
-        content: `The National Theatre's new interpretation of Ibsen's classic relocates the action to contemporary London, and director Sarah Johnson makes this transplant work brilliantly. By setting Nora's story in a modern context—smartphone calls replace telegrams, financial crimes involve cryptocurrency—the production demonstrates how relevant Ibsen's themes remain 140 years later. Emma Watson gives a nuanced performance as Nora, capturing her transformation from seemingly frivolous wife to self-aware woman with remarkable subtlety. The moment when she finally confronts Torvald crackles with tension. The supporting cast is equally strong, though some might find the updated dialogue occasionally jarring when juxtaposed with Ibsen's original language structure. The set design deserves special mention—a minimalist apartment that transforms throughout the play, reflecting Nora's psychological state. Glass walls literally shatter in the final scene, a heavy-handed but undeniably effective metaphor. My only criticism is the pacing in the second act, which drags slightly. But the powerful finale makes up for this. This production proves that classic texts can be refreshed without being diminished, offering both respect for the source material and fresh perspectives for contemporary audiences.`
+        title: 'Concert Review: Aurora Symphony Orchestra',
+        author: 'By Rachel Kim',
+        content: `Last night's performance by the Aurora Symphony Orchestra reminded me why classical music endures. Under guest conductor Martinez's passionate direction, they tackled an ambitious program spanning three centuries, from Bach to contemporary composer Lisa Chen. The acoustics of the newly renovated concert hall complemented the performance beautifully, allowing subtle dynamics and intricate counterpoint to shine through with crystal clarity.
+
+The evening opened with Bach's Brandenburg Concerto No. 3, performed with infectious energy and precise ensemble playing. Martinez brought out the joyful, dance-like quality often lost in overly reverent interpretations. The string section particularly impressed, navigating the complex interweaving lines with both technical precision and musical sensitivity. This was Bach as celebration rather than museum piece.
+
+Following intermission, the orchestra premiered Chen's "Urban Echoes," a bold composition incorporating electronic elements and unconventional instruments. This was risky programming - new music can alienate traditional classical audiences - but the gamble paid off. Chen's piece captures the rhythm and chaos of city life while maintaining sophisticated musical structure. The integration of recorded street sounds felt organic rather than gimmicky, creating a sonic landscape that was simultaneously familiar and alien.
+
+The evening concluded with Beethoven's Fifth Symphony, a work performed so frequently it risks becoming wallpaper. Yet Martinez found fresh perspectives without resorting to gimmicks or historically uninformed tempos. The famous opening motif emerged with renewed urgency, and the final movement's triumphant conclusion felt earned rather than inevitable. A standing ovation was both deserved and enthusiastically given. This is orchestra playing at its finest - technically excellent, emotionally engaged, and intellectually stimulating.`
       },
       {
         letter: 'C',
-        title: 'Music Festival - "Harmony in the Park"',
-        content: `This year's Harmony in the Park festival showcased an impressive variety of musical genres, though organizational issues prevented it from reaching its full potential. The lineup balanced established headliners with emerging talent—always a tricky mix to get right. The highlight was definitely Saturday evening's performance by the London Philharmonic, who demonstrated that orchestral music can absolutely work in an outdoor festival setting. Their rendition of Shostakovich's Fifth Symphony was breathtaking. However, the sound quality across the weekend was inconsistent. The main stage had excellent acoustics, but the smaller stages suffered from technical problems that disrupted several performances. The indie band I'd specifically come to see had their set cut short due to equipment failure, which was disappointing. Food vendors offered good variety, though prices were predictably steep. The festival atmosphere was generally positive—audiences were enthusiastic and respectful. But the overcrowding became problematic, particularly near the main stage. Security managed this reasonably well, but better crowd control planning is needed for future years. Despite these logistical shortcomings, the musical quality was generally excellent, making this worthwhile for serious music fans who can overlook organizational imperfections.`
+        title: 'Theater Review: "Voices in the Dark"',
+        author: 'By James Patterson',
+        content: `Experimental theater often mistakes obscurity for profundity, but "Voices in the Dark" at the Riverside Theater achieves something genuinely innovative while remaining emotionally accessible. Director Anna Kowalski has created a immersive experience that challenges conventional theater boundaries without descending into pretentious nonsense.
+
+The concept is deceptively simple: the entire play occurs in complete darkness. Audience members are guided to seats by theater staff using gentle touches, then spend 90 minutes listening to voices telling interconnected stories. No visual elements exist - no lights, no projections, not even glow-in-the-dark props. Initially disorienting, this forced focus on auditory storytelling creates intimacy impossible in traditional theater.
+
+The writing, by emerging playwright Marcus Johnson, weaves five narratives that gradually reveal unexpected connections. A woman coping with vision loss, a lighthouse keeper in the 1800s, a sound engineer, a child afraid of the dark, and a radio drama actor from the 1940s - their stories echo and reflect each other thematically. Johnson's dialogue is naturalistic yet poetic, avoiding the trap of over-explaining while trusting audiences to make connections.
+
+The sound design deserves special mention. Spatial audio creates three-dimensional soundscapes, making it feel as though actors move around and between audience members, though everyone remains stationary. Subtle acoustic cues - a chair creaking, footsteps approaching, breathing close by - generate visceral emotional responses. This technical achievement serves the story rather than overwhelming it.
+
+This isn't theater for everyone. Some audience members left at interval, perhaps uncomfortable with extended darkness or frustrated by the unconventional format. But for those willing to surrender to the experience, "Voices in the Dark" offers something rare: a production that couldn't exist in any other medium, using theater's unique strengths to create genuine innovation.`
       },
       {
         letter: 'D',
-        title: 'Film Screening - Documentary "Ocean\'s Edge"',
-        content: `"Ocean's Edge," screened at the Environmental Film Festival, is a visually stunning documentary about marine conservation that unfortunately prioritizes aesthetics over substance. Director Paolo Marquez has created something beautiful—the underwater cinematography is genuinely spectacular, with shots that would work perfectly as screensavers. Watching coral reefs and marine life in high-definition is mesmerizing. But the film's environmental message gets lost in its own artistry. The narrative structure is confusing, jumping between different ocean regions without clear connections. We hear from various scientists and activists, but their interviews are frustratingly brief, never allowing ideas to develop fully. The film seems more interested in creating pretty images than engaging with the complex scientific and political challenges of ocean conservation. The musical score, while pleasant, is overwrought and manipulative—it tells us how to feel rather than letting the content speak for itself. There's also a concerning lack of specific information. We're told repeatedly that oceans are in crisis, but the film provides limited data or context about what actions viewers might take. It's the equivalent of environmental concern as wallpaper—nice to look at but ultimately superficial. Nature documentary enthusiasts might enjoy it purely for the visuals, but anyone seeking substantial information about marine conservation should look elsewhere.`
-      },
-      {
-        letter: 'E',
-        title: 'Dance Performance - "Migration"',
-        content: `Contemporary dance company MotionForward presents "Migration," a powerful piece exploring human displacement and belonging. Choreographer Leila Hassan draws on her own family's refugee experience to create something intensely personal yet universally resonant. The performance begins with slow, hesitant movements—dancers testing the space around them, embodying uncertainty. As the piece progresses, the choreography becomes more urgent and fragmented, reflecting the chaos of forced migration. What's particularly effective is how Hassan uses the entire performance space. Dancers move through the audience, breaking down the traditional separation between performers and spectators. This makes viewers complicit in the narrative, forcing us to literally make room for the dancers—a clever metaphor for how societies respond to refugees. The lighting design brilliantly complements the choreography, with harsh spotlights and shadows creating a sense of surveillance and exposure. My companion found the hour-long performance without interval challenging, and I'll admit contemporary dance requires commitment from its audience. But for those willing to engage, "Migration" offers an emotionally rich experience that lingers long after the final bow. This is dance as storytelling at its finest—you don't need to understand every movement to feel the piece's emotional truth.`
+        title: 'Art Exhibition Review: "Digital Realms"',
+        author: 'By Sofia Martinez',
+        content: `The Metropolitan Gallery's "Digital Realms" exhibition ambitiously attempts to survey digital art's evolution from early computer graphics to contemporary NFT art. The result is uneven - fascinating in parts, frustratingly superficial in others. Curator David Chen clearly understands the technical aspects of digital art but seems uncertain how to translate that knowledge into engaging museum experience.
+
+The exhibition's strongest section covers pioneering digital artists of the 1960s and 70s. Seeing early experiments with computer-generated images provides valuable historical context, showing how artists pushed limited technology's boundaries. Interactive displays allow visitors to experiment with similar software tools, making abstract concepts tangible. This hands-on approach works wonderfully, especially for younger visitors who might not realize how revolutionary these early works were.
+
+Contemporary sections prove more problematic. The NFT art section feels like checking boxes rather than critical curation. Including controversial pieces that sold for millions generates publicity but doesn't help visitors understand why these works command such prices. The exhibition neither celebrates nor critiques NFT art effectively, settling for bland neutrality that serves no one well.
+
+Video game art receives surprisingly thoughtful treatment. Chen argues convincingly that game design represents legitimate artistic practice, showcasing concept art, level design documents, and playable demos that reveal sophisticated aesthetic decisions. This section challenges traditional art hierarchy in productive ways, asking viewers to reconsider what qualifies as art worthy of museum display.
+
+The exhibition ultimately suffers from trying to cover too much ground. A more focused approach - perhaps concentrating on a single aspect of digital art history - would have been more impactful. As it stands, "Digital Realms" feels like an introductory textbook translated into exhibition form: informative but lacking the depth and critical perspective great exhibitions provide. Still, it's worth visiting if only to engage with questions about art, technology, and value that will only grow more urgent.`
       }
     ],
     questions: [
       {
         number: 1,
-        statement: 'Which reviewer criticizes the event for lacking depth in its content?',
-        correctText: 'D',
-        explanation: 'The documentary review states it "prioritizes aesthetics over substance" and provides "limited data or context."'
+        statement: 'Which reviewer suggests the event succeeded in making complex ideas accessible?',
+        correctText: 'C',
+        explanation: 'James says the play "challenges conventional theater boundaries without descending into pretentious nonsense" and is "emotionally accessible"'
       },
       {
         number: 2,
-        statement: 'Which reviewer praises how the event made use of its physical environment?',
-        correctText: 'E',
-        explanation: 'The dance review highlights how Hassan "uses the entire performance space" with dancers moving through the audience.'
+        statement: 'Which reviewer criticizes poor character development despite strong visual elements?',
+        correctText: 'A',
+        explanation: 'Michael mentions "visual masterpiece that unfortunately prioritizes style over substance" and "weak script"'
       },
       {
         number: 3,
-        statement: 'Which reviewer felt that some aspects of the event were unoriginal?',
-        correctText: 'A',
-        explanation: 'The art exhibition review mentions "Several works feel derivative, offering nothing we haven\'t seen before."'
+        statement: 'Which reviewer praises the integration of modern and traditional elements?',
+        correctText: 'B',
+        explanation: 'Rachel discusses the orchestra premiering contemporary work alongside Bach and Beethoven, saying "the gamble paid off"'
       },
       {
         number: 4,
-        statement: 'Which reviewer experienced disappointment due to technical difficulties?',
-        correctText: 'C',
-        explanation: 'The music festival review mentions an indie band\'s set being "cut short due to equipment failure."'
+        statement: 'Which reviewer feels the event lacked focus and tried to accomplish too much?',
+        correctText: 'D',
+        explanation: 'Sofia states "The exhibition ultimately suffers from trying to cover too much ground"'
       },
       {
         number: 5,
-        statement: 'Which reviewer appreciates how a classic work was adapted for modern audiences?',
-        correctText: 'B',
-        explanation: 'The theatre review praises how the production "demonstrates how relevant Ibsen\'s themes remain" by relocating it to contemporary London.'
+        statement: 'Which reviewer highlights an outstanding individual performance within a flawed work?',
+        correctText: 'A',
+        explanation: 'Michael praises Jennifer Chang who "brings depth to a underwritten role" despite the "weak script"'
       },
       {
         number: 6,
-        statement: 'Which reviewer mentions that one aspect of the event could be emotionally manipulative?',
-        correctText: 'D',
-        explanation: 'The documentary review describes the musical score as "overwrought and manipulative—it tells us how to feel."'
+        statement: 'Which reviewer mentions that some attendees left before the event finished?',
+        correctText: 'C',
+        explanation: 'James notes "Some audience members left at interval, perhaps uncomfortable with extended darkness"'
       },
       {
         number: 7,
-        statement: 'Which reviewer found that written information provided was unnecessarily complicated?',
-        correctText: 'A',
-        explanation: 'The art exhibition review criticizes text panels for "using unnecessarily complex language to describe relatively simple concepts."'
+        statement: 'Which reviewer suggests the event made a familiar work feel fresh?',
+        correctText: 'B',
+        explanation: 'Rachel says Martinez "found fresh perspectives" on Beethoven\'s Fifth Symphony, "a work performed so frequently it risks becoming wallpaper"'
       },
       {
         number: 8,
-        statement: 'Which reviewer suggests the event successfully balanced different types of content?',
-        correctText: 'C',
-        explanation: 'The festival review notes the lineup "balanced established headliners with emerging talent—always a tricky mix to get right."'
+        statement: 'Which reviewer appreciates historical context being provided?',
+        correctText: 'D',
+        explanation: 'Sofia praises seeing "early experiments with computer-generated images provides valuable historical context"'
       },
       {
         number: 9,
-        statement: 'Which reviewer indicates that audience members needed to actively participate in the experience?',
-        correctText: 'E',
-        explanation: 'The dance review mentions "contemporary dance requires commitment from its audience" and discusses how viewers must "engage."'
+        statement: 'Which reviewer describes an unconventional format that enhanced the experience?',
+        correctText: 'C',
+        explanation: 'James discusses the complete darkness in the theater creating "intimacy impossible in traditional theater"'
       },
       {
         number: 10,
-        statement: 'Which reviewer notes a problem with the pacing of the event?',
-        correctText: 'B',
-        explanation: 'The theatre review states "My only criticism is the pacing in the second act, which drags slightly."'
+        statement: 'Which reviewer criticizes a lack of critical perspective in presenting controversial content?',
+        correctText: 'D',
+        explanation: 'Sofia states the NFT section "neither celebrates nor critiques NFT art effectively, settling for bland neutrality"'
       }
     ]
   },
 
+  // Exercise 4 - Environmental Initiatives
   {
     id: 'b2-mm-4',
     type: 'multiple-matching',
-    title: 'Environmental Initiatives Around the World',
-    instruction: 'You are going to read about environmental initiatives from five different locations. For questions 1-10, choose from the initiatives (A-E). The initiatives may be chosen more than once.',
+    title: 'Environmental Initiatives in Cities',
     difficulty: 'medium',
-    topic: 'Environment & Sustainability',
-    totalTexts: 5,
+    topic: 'Environment & Urban Planning',
+    totalWords: 940,
+    instruction: 'You are going to read about five cities implementing environmental initiatives. For questions 1-10, choose from the cities (A-E). The cities may be chosen more than once.',
     texts: [
       {
         letter: 'A',
-        title: 'Singapore - Vertical Forests and Green Buildings',
-        content: `Singapore has emerged as a global leader in integrating nature into urban architecture. With limited land space, the city-state has pioneered vertical greenery, transforming skyscrapers into living ecosystems. Buildings are covered with plants that provide natural cooling, reducing energy consumption by up to 30% while improving air quality. The most ambitious project is the CapitaSpring tower, which features a 35-meter green oasis halfway up the building, accessible to the public. This isn't just aesthetic—it's a comprehensive strategy to combat the urban heat island effect. Singapore has also implemented strict regulations requiring new developments to replace lost greenery, creating a net-zero impact on vegetation. The government provides substantial subsidies for green building certification, making sustainability financially attractive for developers. Critics argue that such initiatives are only feasible in wealthy nations and don't address consumption patterns. However, Singapore's approach demonstrates that dense urban living and biodiversity aren't mutually exclusive. The city has become 30% greener over the past decade while accommodating population growth—a model that other space-constrained cities are studying closely.`
+        title: 'Copenhagen, Denmark - Cycling Infrastructure Revolution',
+        content: `Copenhagen's transformation into a cycling paradise didn't happen overnight. It took decades of consistent political will, infrastructure investment, and cultural shift. Today, over 62% of residents commute by bicycle daily, even in harsh winter weather. The secret isn't just building bike lanes - it's creating a comprehensive system that makes cycling safer, faster, and more convenient than driving.
+
+The city's cycling infrastructure goes far beyond painted lines on roads. Dedicated cycle superhighways stretch into suburbs, equipped with specialized traffic lights that detect approaching cyclists and adjust timing to keep them moving. Raised bike lanes physically separate cyclists from both pedestrians and cars, reducing conflicts and accidents. Winter maintenance prioritizes cycle paths, often cleared of snow before main roads receive attention.
+
+The environmental impact has been significant. Carbon emissions from transportation have dropped by 40% over the past two decades, air quality has improved measurably, and the city is on track to become carbon neutral by 2025. However, the benefits extend beyond environmental metrics. Residents report higher quality of life, children gain independence earlier by cycling to school, and the city saves millions on healthcare costs due to a more physically active population.
+
+Not everything has been smooth sailing. Expanding bike infrastructure required reducing car parking and road space, creating initial resistance from some residents and businesses. The substantial upfront investment raised questions about priorities and budget allocation. Yet polls consistently show overwhelming public support, and cities worldwide now study Copenhagen's model, demonstrating that sustainable urban transformation is possible with commitment and proper planning.`
       },
       {
         letter: 'B',
-        title: 'Costa Rica - Reforestation and Rewilding',
-        content: `In the 1980s, Costa Rica had one of the highest deforestation rates globally, with only 26% forest cover remaining. Today, over 60% of the country is forested again—a remarkable environmental reversal. This transformation resulted from a comprehensive policy approach combining economic incentives with environmental protection. The government introduced Payments for Ecosystem Services (PES), compensating landowners for maintaining forests rather than clearing them for agriculture. This recognized that forests provide valuable services—carbon storage, watershed protection, biodiversity—that benefit society. Costa Rica also invested heavily in ecotourism, creating economic value from intact ecosystems. Protected areas now generate significant revenue, making conservation economically competitive with extractive industries. The country has pledged to become carbon neutral and is on track to achieve this goal. However, challenges remain. Some reforested areas lack the biodiversity of original forests, and invasive species pose ongoing threats. Additionally, the PES program requires substantial government funding, which may not be sustainable long-term. Despite these concerns, Costa Rica's reforestation success story offers hope that environmental degradation can be reversed when political will, economic incentives, and community engagement align.`
+        title: 'Singapore - Vertical Gardens and Green Architecture',
+        content: `In one of the world's most densely populated cities, Singapore has achieved something remarkable: increasing green space despite ongoing urban development. The solution was thinking vertically. Buildings across the city feature rooftop gardens, vertical walls covered in vegetation, and sky parks that create green spaces hundreds of meters above ground level.
+
+This approach solves multiple problems simultaneously. Vegetation on buildings reduces urban heat island effect, lowering temperatures that can reach uncomfortable levels in tropical climate. Plants filter air pollution, absorb noise, and provide habitat for birds and insects, maintaining biodiversity in an urban environment. The cooling effect of green roofs reduces air conditioning needs, cutting energy consumption significantly.
+
+The government made this possible through innovative policy. New developments must replace any green space they eliminate, with replacement possible through vertical solutions. Tax incentives encourage retrofitting existing buildings with green features. Public housing projects, home to over 80% of residents, incorporate community gardens where residents grow vegetables and herbs, fostering social connections alongside environmental benefits.
+
+Maintenance posed initial challenges. Tropical climate means plants grow rapidly but also face intense heat, heavy rain, and strong winds. Automated irrigation systems, careful plant selection for local conditions, and regular professional maintenance proved essential. The upfront costs remain substantial, though long-term savings on energy and the less quantifiable quality of life improvements justify the investment according to most residents.`
       },
       {
         letter: 'C',
-        title: 'Netherlands - Circular Economy Innovation',
-        content: `The Netherlands has positioned itself at the forefront of the circular economy movement, which aims to eliminate waste by keeping materials in continuous use. Amsterdam has committed to becoming fully circular by 2050, with interim targets across sectors. The approach focuses on product design, ensuring items can be easily disassembled and materials recovered. Companies are incentivized to adopt "product-as-service" models—leasing rather than selling goods, maintaining responsibility for their entire lifecycle. One successful example is the circular textile initiative, where clothing companies take back old garments, extract fibers, and create new products. Electronics manufacturers are similarly required to design for disassembly and repair rather than planned obsolescence. The government has created innovation hubs where businesses, researchers, and policymakers collaborate on circular solutions. However, implementing circular principles across complex supply chains is challenging. Many materials are technically difficult or expensive to recycle effectively. There's also the "rebound effect"—when efficiency improvements lead to increased consumption, negating environmental benefits. Critics note that true circularity may be impossible without addressing economic growth paradigms. Nevertheless, the Netherlands' systematic approach to material flows represents one of the most comprehensive efforts to redesign industrial systems for sustainability.`
+        title: 'Freiburg, Germany - Solar Energy Pioneer',
+        content: `Freiburg's commitment to solar energy began in the 1970s following the Chernobyl nuclear disaster, when residents decided their city's energy future should be based on renewables. Today, Freiburg generates more solar electricity per capita than almost any city globally, with solar panels on residential buildings, schools, public facilities, and even the football stadium.
+
+The Vauban district exemplifies this commitment. This car-free neighborhood of 5,000 residents showcases sustainable urban living. Every building generates more energy than it consumes through extensive solar panels, excellent insulation, and efficient design. Residents park in communal garages on the district's edge, with most choosing not to own cars at all due to excellent public transit and cycling infrastructure.
+
+The city's success stems from making solar accessible to everyone, not just wealthy residents. Cooperative investment models allow people to collectively fund solar installations, sharing both costs and electricity generation benefits. Municipal buildings provided early demonstration sites, showing solar viability in German climate where sunshine isn't as abundant as Mediterranean regions.
+
+Education plays a crucial role. The city's environmental education center teaches schoolchildren about renewable energy, creating a new generation deeply conscious of energy consumption and sustainability. Public information campaigns help residents understand how their choices impact energy use. This long-term approach built a culture that views renewable energy as normal rather than exceptional, making sustainable choices the default rather than requiring special effort.`
       },
       {
         letter: 'D',
-        title: 'Bhutan - Gross National Happiness and Conservation',
-        content: `Bhutan has taken a radically different approach to development, prioritizing Gross National Happiness over GDP growth. Environmental conservation is constitutionally mandated—at least 60% of the country must remain forested, and Bhutan is currently one of only three carbon-negative countries globally, absorbing more CO2 than it emits. Tourism is strictly controlled through high daily fees, ensuring low-impact, high-value visitors rather than mass tourism. This generates revenue while protecting cultural and natural heritage. The country banned plastic bags in 1999, decades before many developed nations. Bhutan's approach stems from Buddhist principles emphasizing harmony with nature and community wellbeing over material wealth. However, this model has significant trade-offs. Bhutan remains one of the least developed countries economically, with limited healthcare and education infrastructure in rural areas. Youth unemployment is rising, and many young people migrate abroad seeking opportunities. There's growing tension between traditional values and modern aspirations. Critics question whether Bhutan's model is sustainable as global connectivity increases and younger generations demand different lifestyles. Can a nation resist modernization pressures while maintaining citizen wellbeing? Bhutan's experiment offers important lessons but may not be replicable in nations with different values, histories, and resource constraints.`
+        title: 'Melbourne, Australia - Water Management Innovation',
+        content: `Melbourne's devastating drought from 1997 to 2009 forced the city to completely rethink water management. What emerged was one of the world's most sophisticated urban water systems, combining technology, infrastructure, and behavioral change to ensure water security in an increasingly unpredictable climate.
+
+The city implemented a dual-piped system in new developments, delivering two types of water: high-quality drinking water and recycled water for gardens, toilets, and washing machines. Stormwater capture systems collect and treat rainwater from streets and roofs, converting what was once waste into a valuable resource. These systems recharge aquifers, provide water for parks and sports fields, and create urban wetlands that filter water naturally while providing wildlife habitat.
+
+Residential rainwater tanks became common, encouraged by government rebates and building code changes. These tanks collect roof runoff, reducing stormwater flooding while providing water for gardens during dry periods. The city's parks feature drought-resistant plants that thrive with minimal watering, demonstrating that beautiful landscapes don't require constant irrigation.
+
+The behavioral component proved just as important as infrastructure. Public awareness campaigns taught residents about water conservation, making shorter showers and turning off taps while brushing teeth cultural norms rather than special efforts. Smart meters allow residents to track water consumption in real-time, identifying leaks quickly and encouraging mindful use. The result: per capita water consumption dropped by over 40%, even as the population grew. When the drought finally ended, efficient water use habits persisted, demonstrating that environmental necessity can create lasting positive change.`
       },
       {
         letter: 'E',
-        title: 'Denmark - Wind Energy Leadership',
-        content: `Denmark generates over 50% of its electricity from wind power, the highest proportion globally, and aims for 100% renewable energy by 2030. This achievement results from decades of consistent policy support, technological innovation, and public investment. When oil crises in the 1970s exposed energy vulnerability, Denmark committed to energy independence through renewables. The government provided research funding, grid infrastructure, and favorable pricing for wind energy, creating a thriving domestic industry. Danish companies like Vestas became global leaders in wind turbine manufacturing. Crucially, Denmark developed offshore wind farms, which generate more consistent power than onshore installations and face less local opposition. The country also invested heavily in grid flexibility—interconnectors with neighboring nations, energy storage, and smart grid technology to manage variable renewable supply. Public support was cultivated through cooperative ownership models, allowing communities to invest in and benefit from local wind projects. However, challenges persist. Renewable energy requires backup capacity for when wind conditions are unfavorable. Denmark relies on interconnections with hydropower-rich Norway and Sweden, a solution not available to all nations. The transition also increased electricity prices significantly. Despite these challenges, Denmark demonstrates that ambitious renewable energy targets are technically and economically viable with sustained political commitment.`
+        title: 'Portland, USA - Waste Reduction and Composting',
+        content: `Portland has achieved an impressive 75% waste diversion rate, meaning three-quarters of waste avoids landfills through recycling, composting, and reuse. This success required comprehensive changes to waste management systems, business practices, and resident behaviors, implemented gradually over three decades.
+
+The city's curbside composting program, launched in 2011, proved transformative. Every household receives three bins: garbage, recycling, and composting. The composting bin accepts food scraps, yard waste, and compostable food packaging. Initially controversial - some residents complained about smell or found sorting confusing - the program's benefits became clear as landfill waste plummeted and finished compost became available for gardening.
+
+Commercial composting requirements extended the program's impact. Restaurants, grocery stores, and businesses must sort organic waste for composting, dramatically reducing commercial trash. The city offers free training and consultation to help businesses implement systems, recognizing that convenience and support matter more than mandates alone. The resulting compost supplies urban farms and community gardens, creating a circular economy where waste becomes resource.
+
+The city addressed packaging at the source through innovative policies. Businesses cannot provide polystyrene foam takeout containers, and plastic bags cost $0.05, encouraging reusable bag use. These measures reduce problematic waste while sending market signals to manufacturers. Some businesses initially resisted, arguing regulations hurt profitability, but many now report that customers appreciate environmental leadership. Portland demonstrates that ambitious waste reduction is achievable when government, businesses, and residents work together toward shared goals, with clear systems making sustainable choices easy rather than requiring exceptional effort.`
       }
     ],
     questions: [
       {
         number: 1,
-        statement: 'Which initiative mentions addressing the problem of limited physical space?',
+        statement: 'Which city mentions creating infrastructure specifically for commuting from suburban areas?',
         correctText: 'A',
-        explanation: 'Singapore explicitly mentions "limited land space" and responding to space constraints through vertical greenery.'
+        explanation: 'Copenhagen describes "cycle superhighways stretch into suburbs"'
       },
       {
         number: 2,
-        statement: 'Which initiative describes a complete transformation from environmental degradation?',
-        correctText: 'B',
-        explanation: 'Costa Rica went from 26% to over 60% forest cover, reversing severe deforestation.'
+        statement: 'Which city describes using recycled resources to support local food production?',
+        correctText: 'E',
+        explanation: 'Portland mentions "finished compost became available for gardening" and "supplies urban farms and community gardens"'
       },
       {
         number: 3,
-        statement: 'Which initiative emphasizes changing product ownership models?',
-        correctText: 'C',
-        explanation: 'The Netherlands promotes "product-as-service" models where companies lease rather than sell goods.'
+        statement: 'Which city mentions environmental improvements leading to financial savings in healthcare?',
+        correctText: 'A',
+        explanation: 'Copenhagen states "the city saves millions on healthcare costs due to a more physically active population"'
       },
       {
         number: 4,
-        statement: 'Which initiative is based on philosophical or spiritual principles?',
-        correctText: 'D',
-        explanation: 'Bhutan\'s approach "stems from Buddhist principles emphasizing harmony with nature."'
+        statement: 'Which city required replacing eliminated green space with alternative solutions?',
+        correctText: 'B',
+        explanation: 'Singapore implemented policy where "developments must replace any green space they eliminate, with replacement possible through vertical solutions"'
       },
       {
         number: 5,
-        statement: 'Which initiative originated in response to a specific crisis?',
-        correctText: 'E',
-        explanation: 'Denmark\'s commitment began when "oil crises in the 1970s exposed energy vulnerability."'
+        statement: 'Which city developed a system providing different types of water for different purposes?',
+        correctText: 'D',
+        explanation: 'Melbourne implemented "dual-piped system...delivering two types of water: high-quality drinking water and recycled water"'
       },
       {
         number: 6,
-        statement: 'Which initiative acknowledges that economic growth models may need fundamental change?',
+        statement: 'Which city mentions educational programs targeting younger generations?',
         correctText: 'C',
-        explanation: 'The Netherlands section notes that "true circularity may be impossible without addressing economic growth paradigms."'
+        explanation: 'Freiburg describes "environmental education center teaches schoolchildren about renewable energy"'
       },
       {
         number: 7,
-        statement: 'Which initiative mentions creating economic value from preserving natural areas?',
-        correctText: 'B',
-        explanation: 'Costa Rica "invested heavily in ecotourism, creating economic value from intact ecosystems."'
+        statement: 'Which city describes initial resistance from some residents that later changed to support?',
+        correctText: 'A',
+        explanation: 'Copenhagen mentions "creating initial resistance" but "polls consistently show overwhelming public support"'
       },
       {
         number: 8,
-        statement: 'Which initiative describes community participation in financing the project?',
-        correctText: 'E',
-        explanation: 'Denmark used "cooperative ownership models, allowing communities to invest in and benefit from local wind projects."'
+        statement: 'Which city created economic incentives for individual participation in their initiative?',
+        correctText: 'C',
+        explanation: 'Freiburg describes "Cooperative investment models allow people to collectively fund solar installations, sharing both costs and electricity generation benefits"'
       },
       {
         number: 9,
-        statement: 'Which initiative mentions potential conflicts between traditional and modern values?',
+        statement: 'Which city mentions that crisis situations led to permanent behavioral changes?',
         correctText: 'D',
-        explanation: 'Bhutan faces "growing tension between traditional values and modern aspirations" among younger generations.'
+        explanation: 'Melbourne notes "When the drought finally ended, efficient water use habits persisted"'
       },
       {
         number: 10,
-        statement: 'Which initiative warns about unintended consequences of efficiency improvements?',
-        correctText: 'C',
-        explanation: 'The Netherlands section mentions the "rebound effect—when efficiency improvements lead to increased consumption, negating environmental benefits."'
+        statement: 'Which city implemented financial penalties to discourage environmentally harmful practices?',
+        correctText: 'E',
+        explanation: 'Portland mentions "plastic bags cost $0.05, encouraging reusable bag use"'
       }
     ]
   },
 
+  // Exercise 5 - Technology Innovations
   {
     id: 'b2-mm-5',
     type: 'multiple-matching',
-    title: 'Technology Innovations Changing Our Lives',
-    instruction: 'You are going to read about different technology innovations. For questions 1-10, choose from the innovations (A-E). The innovations may be chosen more than once.',
+    title: 'Technology Innovations Changing Daily Life',
     difficulty: 'hard',
     topic: 'Technology & Innovation',
-    totalTexts: 5,
+    totalWords: 900,
+    instruction: 'You are going to read about four recent technology innovations. For questions 1-10, choose from the innovations (A-D). The innovations may be chosen more than once.',
     texts: [
       {
         letter: 'A',
-        title: 'CRISPR Gene Editing',
-        content: `CRISPR-Cas9 has revolutionized genetic engineering, providing unprecedented precision in modifying DNA. Unlike previous gene editing techniques that were expensive, time-consuming, and imprecise, CRISPR works like molecular scissors, allowing scientists to cut DNA at specific locations and insert, delete, or replace genetic sequences. The technology's potential applications are staggering. In medicine, CRISPR could eliminate genetic diseases, treat cancer, and combat antibiotic-resistant bacteria. Agricultural applications include creating drought-resistant crops and eliminating plant diseases without traditional genetic modification concerns. The first CRISPR-based therapy for sickle cell disease has shown remarkable success in clinical trials. However, the technology raises profound ethical questions. The ability to edit human embryos creates possibilities for "designer babies," where parents might select traits like intelligence or appearance. Who decides which genetic modifications are acceptable? There are also equity concerns—will these treatments be accessible only to the wealthy, creating genetic divides in society? Technical challenges remain too. Off-target effects, where CRISPR modifies unintended genetic locations, could have unpredictable consequences. Some scientists advocate for a moratorium on certain applications until ethical frameworks are established, while others argue that overregulation will slow life-saving developments. CRISPR represents both extraordinary promise and serious responsibility.`
+        title: 'Smart Home Energy Management Systems',
+        content: `Modern smart home energy systems have evolved far beyond simple programmable thermostats. These sophisticated platforms use artificial intelligence to learn household patterns, weather predictions, and electricity pricing variations, optimizing energy consumption without requiring constant user input. The technology promises both environmental benefits and cost savings, though the reality proves more nuanced.
+
+Installation can be straightforward for tech-savvy users but presents challenges for others. The system requires smart meters, compatible appliances, and a reliable internet connection. Initial setup involves connecting numerous devices, each with its own app and interface, creating what critics call "ecosystem fragmentation." Companies are addressing this through unified platforms, but interoperability between different manufacturers' devices remains imperfect.
+
+The learning curve extends beyond technical setup. Users must understand how the system makes decisions to trust it fully. Why did it preheat the house at 5 AM rather than 6 AM? Because it predicted slower heating on a cold morning, accounting for your shower schedule and preferred breakfast time. This predictive logic feels magical when it works perfectly but frustrating when algorithms misinterpret patterns.
+
+Privacy concerns deserve attention. These systems collect detailed data about when you're home, which rooms you use, and what appliances you operate. While companies promise data security, the potential for breaches or misuse exists. Users must balance convenience and savings against comfort with extensive home monitoring. For many, energy bill reductions of 20-30% justify these concerns, while others find the tradeoff unacceptable, preferring simpler solutions that offer more control and less surveillance.`
       },
       {
         letter: 'B',
-        title: 'Quantum Computing',
-        content: `Quantum computers harness quantum mechanics principles to process information in fundamentally different ways than classical computers. While traditional computers use bits (0 or 1), quantum computers use qubits, which can exist in multiple states simultaneously through superposition. This allows quantum computers to explore numerous possibilities concurrently, offering exponential advantages for specific problems. Applications include drug discovery—simulating molecular interactions that are currently impossible to model—cryptography, financial modeling, and artificial intelligence. Google claimed "quantum supremacy" in 2019, performing a calculation in 200 seconds that would take the world's fastest supercomputer 10,000 years. However, current quantum computers are extremely fragile. Qubits require near absolute-zero temperatures and are highly susceptible to environmental interference, causing "decoherence" that corrupts calculations. Most quantum computers can only maintain quantum states for milliseconds. We're still in the early research phase—comparable to where classical computing was in the 1950s. Practical quantum computers for everyday applications remain decades away. There are also concerns about security implications. Quantum computers could potentially break current encryption methods, threatening everything from banking to national security. This has sparked a race to develop "quantum-resistant" cryptography. The quantum computing revolution may be inevitable, but its timeline and ultimate impact remain highly uncertain.`
+        title: 'Real-Time Translation Earbuds',
+        content: `Language barriers in international travel may become relics of the past thanks to real-time translation earbuds. These remarkable devices listen to foreign speech, translate it instantly, and speak the translation into your ear, creating the illusion of everyone speaking your language. The technology seems straight from science fiction, yet increasingly affordable consumer versions make it accessible to average travelers.
+
+Current limitations prevent perfect translation. The system struggles with heavy accents, rapid speech, and colloquialisms or idioms that don't translate literally. Background noise in busy streets or restaurants degrades accuracy significantly. Languages with similar sounds but different meanings depending on context - tonal languages like Mandarin - pose particular challenges. Users report success rates around 70-80% for common tourist situations but lower for complex conversations.
+
+The social dynamics of using translation earbuds prove interesting. Some conversation partners find them fascinating, eager to try the technology themselves. Others feel insulted, as though you're not making effort to learn their language or culture. The visible technology creates social distance rather than connection, with people speaking to the device rather than to each other. Younger generations seem more accepting, while older individuals often prefer traditional phrase books or gestures.
+
+Despite imperfections, the technology opens possibilities for meaningful cross-cultural exchange. A Japanese businessman reported conducting negotiations in Brazil that would have been impossible without translators. A volunteer teacher used them to communicate with refugee families, though she emphasized also learning basic phrases in their languages. The technology works best when viewed as a supplement to, not replacement for, cultural awareness and language learning efforts. As accuracy improves and devices become less obtrusive, they could genuinely transform how humans communicate across language divides.`
       },
       {
         letter: 'C',
-        title: 'Neural Interface Technology',
-        content: `Brain-computer interfaces (BCIs) directly connect human nervous systems to external devices, enabling thought-based control and potentially expanding human capabilities. Companies like Neuralink are developing implantable devices that could allow paralyzed individuals to control computers, prosthetics, or even regain movement. Early trials have shown paralyzed patients successfully controlling robotic arms and typing using only their thoughts. Medical applications extend beyond mobility. BCIs might treat neurological conditions like Parkinson's disease, epilepsy, and depression by directly modulating brain activity. Some researchers envision BCIs enhancing healthy individuals—uploading information directly to memory, communicating telepathically, or interfacing with artificial intelligence. However, invasive BCIs require brain surgery, carrying inherent risks including infection, scarring, and immune rejection. Non-invasive alternatives exist but lack the precision and bandwidth of implanted devices. There are also profound privacy concerns. Brain data is the most personal information possible. Who owns this data? Could BCIs be hacked, potentially allowing external control or surveillance of thoughts? The idea of "cognitive liberty"—the right to mental self-determination—becomes critical. Some philosophers argue that BCIs could fundamentally alter human identity and consciousness in ways we can't predict. While the technology offers hope for medical conditions, its broader applications raise questions about what it means to be human and where we should draw boundaries on technological augmentation.`
+        title: 'Personal Health Monitoring Wearables',
+        content: `Advanced wearable devices now monitor heart rate variability, blood oxygen levels, sleep patterns, and stress indicators continuously, promising to transform preventive healthcare. Proponents envision catching health issues before symptoms appear, while skeptics worry about creating unnecessary anxiety and overwhelming medical systems with data of questionable clinical significance.
+
+The devices excel at tracking trends over time. Athletes use them to optimize training and recovery, identifying when they're pushing too hard or not hard enough. People with chronic conditions monitor how activities, diet, and medication affect their health metrics, sharing comprehensive data with doctors rather than relying on memory or sparse clinic measurements. Some users credit these devices with detecting irregular heartbeats or sleep apnea, prompting medical evaluation that might otherwise have been delayed.
+
+However, the flood of health data creates new problems. Users become fixated on metrics, experiencing anxiety when numbers fall outside "optimal" ranges that may not actually indicate problems. The devices often lack context - elevated heart rate might indicate exercise, stress, caffeine, or illness, but the device can't distinguish. Some doctors report patients arriving with printouts of weeks of data, taking valuable appointment time to explain that minor variations are normal.
+
+The psychological impact varies widely. Some people find comfort in quantified health data, feeling more in control of their wellbeing. Others develop obsessive monitoring behaviors, checking devices constantly and making lifestyle changes based on noisy data that may not reflect actual health status. The technology works best when used as one tool among many, combined with regular medical care, body awareness, and common sense. As machine learning improves at interpreting patterns, these devices may fulfill their preventive healthcare promise, but currently, they're most valuable for motivated individuals who understand both the potential and limitations of continuous health monitoring.`
       },
       {
         letter: 'D',
-        title: 'Synthetic Biology and Lab-Grown Materials',
-        content: `Synthetic biology engineers biological systems to produce materials, chemicals, and products traditionally derived from petroleum, animals, or intensive agriculture. Scientists can now program bacteria, yeast, or algae to manufacture specific compounds, essentially turning living organisms into microscopic factories. Applications are diverse and growing. Lab-grown meat uses animal cells cultured in bioreactors, producing real meat without slaughtering animals. This could reduce greenhouse gas emissions from livestock by up to 96% while addressing animal welfare concerns. Companies are producing leather alternatives from mycelium (mushroom roots), spider silk proteins from fermentation, and even sustainable aviation fuel from engineered microbes. The environmental benefits are substantial. These processes typically require less land, water, and energy than conventional production. They can also create materials with properties impossible to achieve through traditional means. However, scaling synthetic biology from laboratory to industrial production has proven challenging. Production costs remain high, and achieving consistent quality is difficult. There are also regulatory uncertainties—how should lab-grown products be classified and labeled? Some consumers express discomfort with "unnatural" products, though this often reflects unfamiliarity rather than legitimate safety concerns. Environmentalists debate whether synthetic biology represents genuine sustainability or merely maintains consumption patterns with different inputs. Nevertheless, as technology improves and costs decrease, synthetic biology could fundamentally transform how we produce materials, potentially decoupling economic activity from resource extraction.`
-      },
-      {
-        letter: 'E',
-        title: 'Decentralized Web and Blockchain Applications',
-        content: `Blockchain and related technologies promise to restructure internet architecture, shifting from centralized platforms to distributed networks. Current web infrastructure concentrates power in tech giants who control data, set rules, and extract value. Blockchain enables peer-to-peer transactions without intermediaries, theoretically creating a more democratic internet. Beyond cryptocurrency, applications include decentralized finance (DeFi), where traditional banking services operate without banks; non-fungible tokens (NFTs) for digital ownership; and decentralized autonomous organizations (DAOs) for collective governance. Proponents argue this will democratize access to financial services, give creators more control over their work, and reduce censorship. In developing countries without robust banking infrastructure, blockchain-based systems could provide financial inclusion. Smart contracts—self-executing agreements coded into blockchain—could eliminate intermediaries in many transactions, reducing costs and increasing efficiency. However, the reality has been more problematic. Cryptocurrencies have proven extremely volatile, limiting their practical use. The energy consumption of some blockchain networks is environmentally disastrous—Bitcoin mining alone consumes more electricity than entire nations. Blockchain systems are also slow and expensive compared to centralized alternatives. Most troublingly, the decentralized web has attracted scams, money laundering, and ransomware. The promised democratization often reproduces existing inequalities—early adopters and those with technical knowledge accumulate wealth while others face losses. Whether blockchain represents the future of the internet or an overhyped technology solving problems that don't really exist remains hotly debated.`
+        title: 'Automated Vertical Farming Systems',
+        content: `Vertical farms grow crops in stacked layers within controlled indoor environments, using LED lights, precise nutrient delivery, and climate control to maximize yield while minimizing land, water, and pesticide use. These high-tech facilities can operate in urban areas, significantly reducing food transportation distances and enabling fresh produce year-round regardless of outdoor weather or soil quality.
+
+The environmental benefits are compelling. Vertical farms use 95% less water than traditional agriculture through closed-loop systems that recycle every drop. Eliminating weather variables means consistent harvests, reducing food waste from crop failures. The controlled environment requires no pesticides or herbicides, producing cleaner food without chemical runoff damaging surrounding ecosystems. Some systems generate their own renewable energy through solar panels, approaching carbon neutrality.
+
+Economic viability remains challenging. Initial setup costs run into millions of dollars for commercial operations. LED lights and climate control consume significant electricity, meaning farms depend on low energy costs or renewable sources for profitability. The technology works economically for high-value crops like leafy greens and herbs but struggles to compete with field agriculture for staples like wheat or rice. Some startups have failed despite initial enthusiasm, unable to scale successfully or achieve projected efficiency.
+
+The technology's real potential may lie in specific applications rather than replacing traditional farming entirely. Urban restaurants could grow ultra-fresh herbs and microgreens on-site. Cities in harsh climates or areas with contaminated soil could achieve food security impossible through conventional agriculture. Research facilities could conduct plant research without weather variables confounding results. As technology improves and energy becomes cleaner and cheaper, vertical farming could increasingly supplement traditional agriculture, particularly for crops where freshness commands premium prices and transportation costs are high. The agriculture revolution won't happen overnight, but the seeds of change are sprouting in these unlikely urban farms.`
       }
     ],
     questions: [
       {
         number: 1,
-        statement: 'Which technology specifically mentions risks related to surgical procedures?',
+        statement: 'Which innovation mentions users becoming overly focused on quantitative data?',
         correctText: 'C',
-        explanation: 'Neural interfaces mention that "invasive BCIs require brain surgery, carrying inherent risks including infection, scarring, and immune rejection."'
+        explanation: 'Health wearables section mentions "Users become fixated on metrics, experiencing anxiety when numbers fall outside optimal ranges"'
       },
       {
         number: 2,
-        statement: 'Which technology is described as being in very early developmental stages?',
-        correctText: 'B',
-        explanation: 'Quantum computing is compared to "where classical computing was in the 1950s" and "practical quantum computers remain decades away."'
+        statement: 'Which innovation describes difficulty in achieving profitability for widespread adoption?',
+        correctText: 'D',
+        explanation: 'Vertical farming mentions "Economic viability remains challenging" and "Some startups have failed despite initial enthusiasm"'
       },
       {
         number: 3,
-        statement: 'Which technology raises concerns about creating social inequality based on access?',
+        statement: 'Which innovation mentions problems with coordinating multiple manufacturers\' products?',
         correctText: 'A',
-        explanation: 'CRISPR mentions "equity concerns—will these treatments be accessible only to the wealthy, creating genetic divides in society?"'
+        explanation: 'Smart home systems describe "ecosystem fragmentation" and "interoperability between different manufacturers\' devices remains imperfect"'
       },
       {
         number: 4,
-        statement: 'Which technology mentions difficulties in maintaining production consistency?',
-        correctText: 'D',
-        explanation: 'Synthetic biology notes that "scaling from laboratory to industrial production has proven challenging" and "achieving consistent quality is difficult."'
+        statement: 'Which innovation may create social awkwardness in some situations?',
+        correctText: 'B',
+        explanation: 'Translation earbuds section discusses "Some conversation partners feel insulted" and "creates social distance rather than connection"'
       },
       {
         number: 5,
-        statement: 'Which technology is criticized for its environmental impact?',
-        correctText: 'E',
-        explanation: 'Blockchain is described as "environmentally disastrous—Bitcoin mining alone consumes more electricity than entire nations."'
+        statement: 'Which innovation specifically mentions benefits for people with ongoing health conditions?',
+        correctText: 'C',
+        explanation: 'Wearables mention "People with chronic conditions monitor how activities, diet, and medication affect their health metrics"'
       },
       {
         number: 6,
-        statement: 'Which technology could potentially threaten current security systems?',
-        correctText: 'B',
-        explanation: 'Quantum computing "could potentially break current encryption methods, threatening everything from banking to national security."'
+        statement: 'Which innovation describes predictive capabilities based on pattern analysis?',
+        correctText: 'A',
+        explanation: 'Smart home systems "use artificial intelligence to learn household patterns" and make predictive decisions about heating'
       },
       {
         number: 7,
-        statement: 'Which technology has already demonstrated success in clinical applications?',
-        correctText: 'A',
-        explanation: 'CRISPR mentions "The first CRISPR-based therapy for sickle cell disease has shown remarkable success in clinical trials."'
+        statement: 'Which innovation performs less effectively in crowded environments?',
+        correctText: 'B',
+        explanation: 'Translation earbuds section states "Background noise in busy streets or restaurants degrades accuracy significantly"'
       },
       {
         number: 8,
-        statement: 'Which technology raises philosophical questions about human identity?',
-        correctText: 'C',
-        explanation: 'Neural interfaces raise questions about whether "BCIs could fundamentally alter human identity and consciousness in ways we can\'t predict."'
+        statement: 'Which innovation mentions particularly strong performance in specific applications rather than general use?',
+        correctText: 'D',
+        explanation: 'Vertical farming says "real potential may lie in specific applications rather than replacing traditional farming entirely"'
       },
       {
         number: 9,
-        statement: 'Which technology is associated with financial crime and illegal activities?',
-        correctText: 'E',
-        explanation: 'Blockchain technology mentions it "has attracted scams, money laundering, and ransomware."'
+        statement: 'Which innovation raises concerns about extensive data collection on personal habits?',
+        correctText: 'A',
+        explanation: 'Smart home section discusses "detailed data about when you\'re home, which rooms you use" and privacy concerns'
       },
       {
         number: 10,
-        statement: 'Which technology could significantly reduce the need for animal farming?',
-        correctText: 'D',
-        explanation: 'Synthetic biology discusses "Lab-grown meat" that could "reduce greenhouse gas emissions from livestock by up to 96%."'
+        statement: 'Which innovation mentions generational differences in acceptance?',
+        correctText: 'B',
+        explanation: 'Translation earbuds note "Younger generations seem more accepting, while older individuals often prefer traditional phrase books"'
       }
     ]
   },
 
+  // Exercise 6 - Health and Wellness Approaches
   {
     id: 'b2-mm-6',
     type: 'multiple-matching',
-    title: 'Health and Wellness Approaches',
-    instruction: 'You are going to read about different approaches to health and wellness. For questions 1-10, choose from the approaches (A-E). The approaches may be chosen more than once.',
+    title: 'Approaches to Health and Wellness',
     difficulty: 'medium',
-    topic: 'Health & Wellness',
-    totalTexts: 5,
+    topic: 'Health & Lifestyle',
+    totalWords: 930,
+    instruction: 'You are going to read about five people describing their approaches to health and wellness. For questions 1-10, choose from the people (A-E). The people may be chosen more than once.',
     texts: [
       {
         letter: 'A',
-        title: 'Intermittent Fasting',
-        content: `Intermittent fasting (IF) involves cycling between periods of eating and fasting, with various protocols like 16:8 (fasting for 16 hours, eating during an 8-hour window) or 5:2 (eating normally five days, restricting calories two days). Proponents claim IF offers benefits beyond simple calorie restriction—improved insulin sensitivity, cellular repair through autophagy, and even longevity. Research shows IF can effectively promote weight loss and improve metabolic markers like blood sugar and cholesterol. The approach appeals to people who find constant calorie counting exhausting, offering a simpler rule to follow. Some practitioners report increased mental clarity and energy during fasting periods. However, IF isn't suitable for everyone. People with histories of eating disorders may find it triggers unhealthy patterns. Athletes requiring consistent energy for training might perform poorly on restricted eating schedules. Common side effects include irritability, difficulty concentrating, and intense hunger, particularly when starting. There's also concern about IF promoting binge eating during eating windows, potentially negating benefits. Much of the research has been conducted on animals, and human studies are still limited. Some nutrition experts argue that IF's benefits come primarily from calorie restriction rather than fasting's unique properties. The sustainability of IF is also questionable—many people find it difficult to maintain long-term, particularly given social eating situations.`
+        title: 'Lisa - Mindfulness and Meditation Practice',
+        content: `I discovered meditation during a particularly stressful period at work three years ago. Initially skeptical - I thought meditation was either religious practice or pseudoscience - I reluctantly downloaded a meditation app after my doctor suggested it for anxiety management. That decision changed my life, though not in the dramatic, instant way I'd imagined.
+
+The early weeks proved frustrating. Sitting still felt impossible, my mind raced constantly, and the whole practice seemed pointless. I almost gave up multiple times. The breakthrough came when I stopped expecting immediate transformation and accepted meditation as a skill requiring patient practice, like learning an instrument. Gradually, I noticed small changes: slightly better sleep, marginally improved focus, less reactive behavior in stressful situations.
+
+Today, I meditate 20 minutes daily, usually in the morning before my family wakes. It's become my mental hygiene routine, as essential as brushing teeth. The benefits extend beyond stress reduction. I'm more present with my children, actually listening rather than thinking about work or scrolling my phone. I notice thought patterns that previously operated unconsciously, giving me space to choose responses rather than react automatically.
+
+The key was finding the right approach. Apps with celebrity voices and cosmic music didn't work for me. Simple, secular instruction focused on breath awareness suited my temperament better. I also learned that perfection isn't the goal - some sessions my mind wanders constantly, and that's okay. The practice is showing up consistently, not achieving some blissful state. Anyone considering meditation should try different styles, be patient with the process, and remember that benefits accumulate gradually rather than appearing overnight.`
       },
       {
         letter: 'B',
-        title: 'Mindfulness and Meditation',
-        content: `Mindfulness meditation has transitioned from spiritual practice to mainstream health intervention, now prescribed by doctors and taught in schools and workplaces. The practice involves paying attention to present-moment experiences without judgment, training the mind to observe thoughts and sensations rather than react automatically. Research demonstrates measurable benefits. Regular meditation can reduce stress, anxiety, and depression while improving attention, emotional regulation, and even immune function. Brain imaging studies show meditation literally changes brain structure, increasing gray matter in regions associated with self-awareness and compassion while decreasing it in the amygdala, involved in stress responses. Mindfulness-Based Stress Reduction (MBSR) programs show consistent positive outcomes across diverse populations. The practice is accessible—requiring no equipment, minimal time (even 10 minutes daily shows benefits), and adaptable to various settings. Apps and online resources make learning easier than ever. However, meditation isn't universally positive. Some people experience increased anxiety or uncomfortable emotions when first practicing, as suppressed feelings surface. For individuals with trauma, meditation can sometimes trigger distressing memories or sensations without proper guidance. There's also the problem of "McMindfulness"—commercialization that strips the practice of deeper ethical dimensions, reducing it to a productivity tool rather than a path to genuine wellbeing. Critics argue that promoting individual meditation distracts from addressing systemic causes of stress like overwork and inequality.`
+        title: 'Marcus - Strength Training and Nutrition',
+        content: `At 45, I realized I'd spent two decades letting my physical health deteriorate. Working long hours, eating poorly, barely moving beyond walks to the car - I'd become a stereotype of middle-aged decline. My wake-up call came during a hiking trip with friends where I struggled to keep pace, gasping for breath on modest inclines that others handled easily.
+
+I started with a personal trainer, investing in professional guidance rather than fumbling through YouTube videos. This decision proved crucial. She taught me proper form, preventing injuries common among beginners who lift too heavy too soon. We built a progressive program starting with bodyweight exercises and light weights, gradually increasing intensity as my strength improved. The structure and accountability kept me consistent when motivation flagged.
+
+Nutrition education was equally important. I'd believed various diet myths - that carbs are evil, that eating multiple small meals boosts metabolism, that supplements can substitute for whole foods. My trainer connected me with a registered dietitian who taught evidence-based nutrition, focusing on sufficient protein, adequate vegetables, and appropriate calorie intake for my goals. No magic formulas or restrictive rules, just balanced eating that I could maintain long-term.
+
+The physical changes took months to become noticeable, but I felt better within weeks. Better sleep, more energy, improved mood - these came before visible muscle gain or fat loss. Two years in, I'm stronger than I was at 25, and the process has taught me that consistency matters more than intensity. Three focused gym sessions weekly beats seven half-hearted workouts. Anyone starting should invest in proper instruction, prioritize sustainable habits over dramatic transformations, and understand that real change requires patience and realistic expectations.`
       },
       {
         letter: 'C',
-        title: 'High-Intensity Interval Training (HIIT)',
-        content: `HIIT involves short bursts of intense exercise alternated with recovery periods, typically lasting 20-30 minutes total. This contrasts with traditional steady-state cardio like jogging. HIIT's popularity stems partly from time efficiency—research shows similar or superior benefits to longer moderate exercise. HIIT improves cardiovascular fitness, increases metabolic rate for hours post-exercise (the "afterburn effect"), and can be adapted to various fitness levels and preferences. Studies demonstrate HIIT effectively improves insulin sensitivity and blood pressure while promoting fat loss while preserving muscle mass. The variety also combats exercise boredom, and HIIT workouts can be done anywhere without equipment. For busy people struggling to fit exercise into schedules, HIIT offers maximum benefit in minimum time. However, HIIT is demanding, requiring genuine high-intensity effort during work intervals—many people don't actually push hard enough to gain benefits. The intensity also carries higher injury risk, particularly for beginners who lack proper form or try advancing too quickly. Recovery between sessions is crucial; doing HIIT too frequently can lead to overtraining, elevated cortisol, and diminished returns. People with certain health conditions, particularly cardiovascular issues, should consult doctors before starting HIIT, as the intensity can be dangerous. There's also debate about HIIT's superiority being overstated by fitness marketing, with some research suggesting moderate exercise provides similar benefits with less stress on the body.`
+        title: 'Aisha - Holistic Ayurvedic Lifestyle',
+        content: `Ayurveda, the traditional Indian medicine system, transformed how I understand health and my body. Western medicine treated my digestive issues with medications that addressed symptoms without solving underlying causes. An Ayurvedic practitioner took a completely different approach, examining my constitution, lifestyle, diet, and daily routines holistically.
+
+The diagnostic process was fascinating. Rather than ordering tests immediately, the practitioner asked detailed questions about my sleep patterns, appetite variations, stress response, and even preferred temperatures. She identified my dominant dosha (mind-body type) and explained how imbalances in my constitution manifested as digestive problems. The personalized treatment plan included dietary modifications, herbal supplements, daily routine adjustments, and specific practices like oil massage and warm water drinking.
+
+Results came gradually but profoundly. My digestion improved within weeks as I implemented dietary recommendations - eating warm, cooked foods rather than raw salads, avoiding incompatible food combinations, and timing meals appropriately. But benefits extended beyond digestive health. I slept better, had more stable energy, and felt generally more balanced. The practice emphasizes prevention and maintenance rather than just treating disease.
+
+Skeptics dismiss Ayurveda as unscientific, lacking randomized controlled trials and rigorous evidence. I understand this criticism, though I note that some Ayurvedic principles align with current nutritional science. For me, the individualized approach and focus on lifestyle factors rather than just medication proved valuable. I don't advocate abandoning modern medicine - I still see my regular doctor for check-ups and acute issues. But incorporating Ayurvedic wisdom for general wellness and prevention has been genuinely beneficial. The key is finding qualified practitioners, maintaining healthy skepticism about miracle claims, and integrating what works for you personally.`
       },
       {
         letter: 'D',
-        title: 'Plant-Based Diets',
-        content: `Plant-based eating, ranging from strict veganism to flexible "plant-forward" approaches, has grown exponentially in popularity. Health motivations include reduced risk of heart disease, type 2 diabetes, certain cancers, and obesity—conditions associated with high meat consumption in Western diets. Whole-food plant-based diets emphasize vegetables, fruits, whole grains, legumes, nuts, and seeds while minimizing processed foods and animal products. Evidence supports health benefits when plant-based diets are well-planned. They're typically lower in saturated fat and higher in fiber, vitamins, and antioxidants. Many people report improved energy levels, better digestion, and successful weight management. Environmental and ethical considerations also motivate many adopters. However, poorly planned plant-based diets can lead to nutritional deficiencies, particularly vitamin B12 (only found naturally in animal products), iron, calcium, and omega-3 fatty acids. Vegans typically require supplements to meet all nutritional needs. Plant protein sources generally require more variety to achieve complete amino acid profiles. Social challenges exist too—eating out, family gatherings, and travel can be complicated. Food costs may increase depending on choices, though basic plant foods are generally affordable. There's also substantial individual variation in how people respond. Some thrive on plant-based diets while others experience fatigue, difficulty maintaining weight, or persistent hunger. The key is finding an approach that's nutritionally adequate, sustainable, and enjoyable for each individual rather than following dietary dogma.`
+        title: 'Tom - Outdoor Adventure Activities',
+        content: `I never understood people who called exercise enjoyable until I discovered rock climbing. Gyms bored me, running felt like punishment, and team sports never appealed. But climbing combined physical challenge with problem-solving, requiring strength, flexibility, balance, and mental focus simultaneously. It didn't feel like exercise - it felt like play.
+
+Indoor climbing gyms provided a welcoming entry point. No experience necessary, equipment available to rent, and routes for all skill levels color-coded for easy navigation. The climbing community proved surprisingly supportive, with experienced climbers offering tips and encouragement to beginners. Within months, I progressed from easy routes to more challenging problems that required strategic thinking about body positioning and movement sequences.
+
+Outdoor climbing introduced new dimensions - exposure to heights, variable rock conditions, and the complexity of safety systems. I joined a climbing club and learned from experienced mentors about risk management, weather assessment, and environmental responsibility. These outdoor adventures connected me with nature in ways I never experienced during casual hiking. Spending entire days focused on a challenging climb, working with partners to solve problems, sharing the summit experience - it fulfilled something deeper than just exercise.
+
+The physical benefits are substantial - improved grip strength, core stability, cardiovascular fitness, and flexibility. But the mental aspects matter just as much. Climbing demands present-moment focus; you can't think about work stress while planning your next move ten meters off the ground. It builds confidence in your physical capabilities and resilience when facing challenges. The key is finding what makes physical activity enjoyable for you personally. Forcing yourself through exercise you hate isn't sustainable. Whether it's dancing, hiking, swimming, or martial arts, discover movement that engages you mentally and emotionally, not just physically.`
       },
       {
         letter: 'E',
-        title: 'Sleep Optimization',
-        content: `Sleep science has revealed that quality sleep is fundamental to physical and mental health, yet modern lifestyles systematically undermine it. Sleep optimization involves creating conditions for consistently good sleep—regular schedules, cool dark bedrooms, limiting screen time before bed, avoiding caffeine and alcohol, and managing stress. Research demonstrates that adequate sleep (7-9 hours for most adults) improves memory consolidation, emotional regulation, immune function, and metabolic health while reducing risk for numerous chronic diseases. Sleep deprivation impairs cognitive function comparably to alcohol intoxication and increases risk of accidents, poor decision-making, and mood disorders. Despite sleep's obvious importance, implementation proves challenging. Modern work culture often treats sleep as expendable, glorifying overwork and sleep deprivation as badges of commitment. The 24/7 connectivity enabled by technology makes disconnecting difficult. Many people have internalized the idea that sleeping less demonstrates dedication and productivity, though research clearly refutes this. Sleep disorders like insomnia and sleep apnea require professional treatment but often go undiagnosed. There's also significant individual variation in sleep needs and chronotypes—some people genuinely function better as "night owls" but are forced into schedules that conflict with their biology. While sleep optimization strategies are evidence-based and cost-free, actually prioritizing sleep requires confronting cultural values, work expectations, and personal habits—changes that many find difficult despite understanding sleep's importance.`
+        title: 'Sarah - Sleep Optimization and Recovery',
+        content: `Society glorifies overwork and sleep deprivation, treating exhaustion as a badge of honor. I bought into this mentality for years, sleeping five hours nightly while working long hours and maintaining an intense exercise schedule. Chronic fatigue, declining performance, and frequent illness finally forced me to recognize that sleep wasn't a luxury - it was a foundation of health as important as diet or exercise.
+
+Transforming my sleep required systematic changes. I established consistent bed and wake times, even on weekends, allowing my circadian rhythm to stabilize. I addressed environmental factors - installing blackout curtains, reducing bedroom temperature, and eliminating electronic devices. The blue light from phones and tablets suppresses melatonin production, making falling asleep difficult, so I implemented a digital sunset, stopping screen use two hours before bed.
+
+The pre-sleep routine matters as much as sleep duration. I wind down with reading, gentle stretching, or relaxation techniques rather than watching stimulating content or working. Caffeine and alcohol, which I previously consumed freely, required strict timing limits - no caffeine after 2 PM, limiting alcohol since it degrades sleep quality despite making you drowsy.
+
+Tracking my sleep with a wearable device provided insights into patterns I couldn't perceive consciously. I learned which activities or foods disrupted my sleep, how exercise timing affected rest quality, and how much sleep I actually needed, which proved more than the seven hours I'd assumed adequate. The results of proper sleep were dramatic: improved mood, better cognitive performance, enhanced athletic recovery, and stronger immune function. Prioritizing sleep felt counterintuitive initially - sleeping more to achieve more - but productivity increased because my waking hours became more effective. My advice is simple: treat sleep as a performance enhancer and health requirement, not a negotiable luxury to sacrifice for other activities.`
       }
     ],
     questions: [
       {
         number: 1,
-        statement: 'Which approach mentions potential problems related to social situations?',
+        statement: 'Which person emphasizes that discovering an enjoyable approach is key to consistency?',
         correctText: 'D',
-        explanation: 'Plant-based diets note that "eating out, family gatherings, and travel can be complicated."'
+        explanation: 'Tom states "The key is finding what makes physical activity enjoyable for you personally"'
       },
       {
         number: 2,
-        statement: 'Which approach has been shown to cause physical changes in brain structure?',
-        correctText: 'B',
-        explanation: 'Mindfulness meditation "literally changes brain structure, increasing gray matter" in certain regions.'
+        statement: 'Which person mentions that initial difficulties almost led them to quit?',
+        correctText: 'A',
+        explanation: 'Lisa says "I almost gave up multiple times" during early meditation practice'
       },
       {
         number: 3,
-        statement: 'Which approach requires professional medical evaluation for certain individuals?',
-        correctText: 'C',
-        explanation: 'HIIT notes "People with certain health conditions should consult doctors before starting HIIT."'
+        statement: 'Which person describes using professional expertise to avoid common mistakes?',
+        correctText: 'B',
+        explanation: 'Marcus mentions his trainer "taught me proper form, preventing injuries common among beginners"'
       },
       {
         number: 4,
-        statement: 'Which approach is undermined by contemporary work culture?',
-        correctText: 'E',
-        explanation: 'Sleep optimization mentions "Modern work culture often treats sleep as expendable, glorifying overwork."'
+        statement: 'Which person advocates combining traditional and modern medical approaches?',
+        correctText: 'C',
+        explanation: 'Aisha states "I don\'t advocate abandoning modern medicine" while incorporating Ayurvedic wisdom'
       },
       {
         number: 5,
-        statement: 'Which approach may require nutritional supplements to be complete?',
-        correctText: 'D',
-        explanation: 'Plant-based diets state "Vegans typically require supplements to meet all nutritional needs."'
+        statement: 'Which person used technology to gain insights into patterns they couldn\'t otherwise notice?',
+        correctText: 'E',
+        explanation: 'Sarah mentions "Tracking my sleep with a wearable device provided insights into patterns I couldn\'t perceive consciously"'
       },
       {
         number: 6,
-        statement: 'Which approach is praised for its time efficiency?',
+        statement: 'Which person describes a holistic diagnostic process that considered multiple lifestyle factors?',
         correctText: 'C',
-        explanation: 'HIIT\'s "popularity stems partly from time efficiency" offering "maximum benefit in minimum time."'
+        explanation: 'Aisha discusses the Ayurvedic practitioner asking "detailed questions about my sleep patterns, appetite variations, stress response"'
       },
       {
         number: 7,
-        statement: 'Which approach may trigger negative psychological responses in some people?',
-        correctText: 'B',
-        explanation: 'Mindfulness notes "Some people experience increased anxiety" and it can "trigger distressing memories."'
+        statement: 'Which person initially held skeptical views about their chosen practice?',
+        correctText: 'A',
+        explanation: 'Lisa says "Initially skeptical - I thought meditation was either religious practice or pseudoscience"'
       },
       {
         number: 8,
-        statement: 'Which approach might encourage unhealthy eating behaviors in vulnerable individuals?',
-        correctText: 'A',
-        explanation: 'Intermittent fasting mentions concern about "promoting binge eating" and triggering issues for those with "histories of eating disorders."'
+        statement: 'Which person describes their approach providing psychological benefits beyond physical improvements?',
+        correctText: 'D',
+        explanation: 'Tom mentions "mental aspects matter just as much" and climbing "builds confidence and resilience"'
       },
       {
         number: 9,
-        statement: 'Which approach is criticized for being commercialized in ways that reduce its deeper value?',
-        correctText: 'B',
-        explanation: 'Mindfulness mentions "McMindfulness—commercialization that strips the practice of deeper ethical dimensions."'
+        statement: 'Which person had to challenge society\'s common attitude about their health priority?',
+        correctText: 'E',
+        explanation: 'Sarah discusses how "Society glorifies overwork and sleep deprivation" which she had to overcome'
       },
       {
         number: 10,
-        statement: 'Which approach emphasizes that research on humans is still relatively limited?',
-        correctText: 'A',
-        explanation: 'Intermittent fasting states "Much of the research has been conducted on animals, and human studies are still limited."'
+        statement: 'Which person emphasizes that visible results took time but internal improvements came earlier?',
+        correctText: 'B',
+        explanation: 'Marcus states "physical changes took months to become noticeable, but I felt better within weeks"'
       }
     ]
   }
 ];
 
-// Summary
-export const MULTIPLE_MATCHING_SUMMARY = {
+export const MULTIPLE_MATCHING_EXERCISES_SUMMARY = {
   total: 6,
   implemented: 6,
-  questionsPerExercise: 10,
-  totalQuestions: 60
+  pending: 0,
+  totalQuestions: 60, // 10 questions per exercise × 6 exercises
+  texts: 26 // Varying 4-5 texts per exercise
 };

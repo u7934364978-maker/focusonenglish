@@ -4,7 +4,7 @@
 
 ### ✅ COMPLETADO
 
-#### 1. **Open Cloze Exercises (Part 2 FCE)** - 12 ejercicios
+#### 1. **Open Cloze Exercises (Part 2 FCE)** - 12 ejercicios ✅
 - Archivo: `b2-improvements-part1-open-cloze.ts`
 - Total gaps: 96 (8 por ejercicio)
 - Categorías: artículos, preposiciones, pronombres, modales, conectores
@@ -12,48 +12,45 @@
 - Nivel: Mix de medium (6) y hard (6)
 - **Estado**: ✅ 100% completo
 
-#### 2. **Gapped Text Exercises (Part 6 FCE)** - 3/6 completados
+#### 2. **Gapped Text Exercises (Part 6 FCE)** - 6/6 completados ✅
 - Archivo: `b2-improvements-part2-gapped-text.ts`
-- Total gaps: 18 completados (36 objetivo final)
+- Total gaps: 36 (6 por ejercicio + 1 distractor cada uno)
 - Incluye 1 distractor por ejercicio
 - Evalúa: coherencia, cohesión, estructura textual
-- Temas completados: Remote Work, Procrastination, Music Streaming
-- **Estado**: 🟡 50% completo
+- Temas completados: Remote Work, Procrastination, Music Streaming, Social Media, Sustainable Cities, Climate Change
+- **Estado**: ✅ 100% completo
+
+#### 3. **Multiple Matching (Part 7 FCE)** - 6/6 completados ✅
+- Archivo: `b2-improvements-part3-multiple-matching.ts`
+- Total questions: 60 (10 por ejercicio)
+- Total texts: 26 (4-5 por ejercicio)
+- Evalúa: scanning, detail reading, multiple text comprehension
+- Temas completados:
+  1. Career Advice from Industry Professionals ✅
+  2. Travel Experiences Around the World ✅
+  3. Reviews of Cultural Events ✅
+  4. Environmental Initiatives in Cities ✅
+  5. Technology Innovations Changing Daily Life ✅
+  6. Approaches to Health and Wellness ✅
+- **Estado**: ✅ 100% completo
 
 ---
 
 ### 🔄 EN PROGRESO / PENDIENTE
 
-#### 3. **Multiple Matching (Part 7 FCE)** - 0/6
-**Formato**: 10 statements, match to 4-5 texts
-**Temas propuestos**:
-1. Career Advice from Industry Leaders
-2. Travel Experiences Around the World
-3. Reviews of Cultural Events
-4. Environmental Initiatives
-5. Technology Innovations
-6. Health and Wellness Tips
-
-**Estructura por ejercicio**:
-```typescript
-{
-  id: 'b2-mm-X',
-  type: 'multiple-matching',
-  title: string,
-  instruction: string,
-  texts: [ // 4-5 texts (A, B, C, D, E)
-    { letter: 'A', title: string, content: string }
-  ],
-  questions: [ // 10 statements
-    { 
-      number: 1-10,
-      statement: string,
-      correctText: 'A'|'B'|'C'|'D'|'E',
-      explanation: string
-    }
-  ]
-}
-```
+#### 3. **Multiple Matching (Part 7 FCE)** - 6/6 completados ✅
+- Archivo: `b2-improvements-part3-multiple-matching.ts`
+- Total questions: 60 (10 por ejercicio)
+- Total texts: 26 (4-5 por ejercicio)
+- Evalúa: scanning, detail reading, multiple text comprehension
+- Temas completados:
+  1. Career Advice from Industry Professionals ✅
+  2. Travel Experiences Around the World ✅
+  3. Reviews of Cultural Events ✅
+  4. Environmental Initiatives in Cities ✅
+  5. Technology Innovations Changing Daily Life ✅
+  6. Approaches to Health and Wellness ✅
+- **Estado**: ✅ 100% completo
 
 ---
 
@@ -288,9 +285,9 @@ A) made  B) done  C) carried  D) worked
 
 ### 🔴 ALTA PRIORIDAD (Semana 1-2)
 1. ✅ Open Cloze (12 ejercicios) - COMPLETO
-2. 🟡 Gapped Text (completar 3 restantes) - 50% DONE
-3. ⏳ Multiple Matching (6 ejercicios)
-4. ⏳ Key Word Transformations mejoradas
+2. ✅ Gapped Text (6 ejercicios) - COMPLETO  
+3. ✅ Multiple Matching (6 ejercicios) - COMPLETO
+4. ⏳ Key Word Transformations mejoradas (30 ejercicios)
 
 ### 🟡 MEDIA PRIORIDAD (Semana 3)
 5. ⏳ Multiple Choice Cloze mejoradas
@@ -309,26 +306,26 @@ A) made  B) done  C) carried  D) worked
 | Componente | Objetivo | Completado | Pendiente | %  |
 |------------|----------|------------|-----------|-----|
 | Open Cloze | 12 | 12 | 0 | 100% |
-| Gapped Text | 6 | 3 | 3 | 50% |
-| Multiple Matching | 6 | 0 | 6 | 0% |
+| Gapped Text | 6 | 6 | 0 | 100% |
+| Multiple Matching | 6 | 6 | 0 | 100% |
 | Key Word Trans | 30+ | 0 | 30+ | 0% |
 | Multi Choice Cloze | 20+ | 0 | 20+ | 0% |
 | Speaking Parts | 4 | 0 | 4 | 0% |
 | Writing Types | 3 | 0 | 3 | 0% |
-| **TOTAL** | **100+** | **15** | **85+** | **15%** |
+| **TOTAL** | **100+** | **24** | **76+** | **24%** |
 
 ---
 
 ## 💡 PRÓXIMOS PASOS INMEDIATOS
 
-1. **Completar Gapped Text** (3 ejercicios restantes)
-2. **Crear Multiple Matching** (6 ejercicios completos)
-3. **Mejorar Key Word Transformations** (30 ejercicios B2 auténticos)
+1. ✅ ~~Completar Gapped Text~~ (COMPLETO)
+2. ✅ ~~Crear Multiple Matching~~ (COMPLETO)
+3. **Mejorar Key Word Transformations** (30 ejercicios B2 auténticos) ← SIGUIENTE
 4. **Commit y PR** de lo completado hasta ahora
 
 ---
 
 **Creado**: 2026-01-18
-**Actualizado**: En progreso
-**Estado**: 15% completado
-**Tiempo estimado restante**: 18-21 horas
+**Actualizado**: 2026-01-22
+**Estado**: 24% completado (Reading Parts 2, 6, 7 completos ✅)
+**Tiempo estimado restante**: 12-15 horas para Key Word Transformations + Speaking + Writing
