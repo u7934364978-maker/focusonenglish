@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { Mic, Square, Play, Pause, RotateCcw, Volume2, Loader2, CheckCircle } from 'lucide-react';
+import { Mic, Square, Play, Pause, RotateCcw, Volume2, Loader2, CheckCircle, AlertCircle } from 'lucide-react';
 
 interface SpeakingQuestion {
   id: string;
@@ -40,6 +40,7 @@ export default function SpeakingExercise({ question, onComplete, level }: Speaki
   const [evaluation, setEvaluation] = useState<SpeakingEvaluation | null>(null);
   const [recordingTime, setRecordingTime] = useState(0);
   const [hasRecorded, setHasRecorded] = useState(false);
+  const [micError, setMicError] = useState<string | null>(null);
 
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const audioChunksRef = useRef<Blob[]>([]);
@@ -88,7 +89,7 @@ export default function SpeakingExercise({ question, onComplete, level }: Speaki
 
     } catch (error) {
       console.error('Error accessing microphone:', error);
-      alert('Could not access microphone. Please check permissions.');
+      setMicError('No se pudo acceder al micrófono. Por favor, verifica que has dado permisos de micrófono a este sitio web en la configuración de tu navegador.');
     }
   };
 
@@ -209,6 +210,23 @@ export default function SpeakingExercise({ question, onComplete, level }: Speaki
           {/* Main Recording Button */}
           {!hasRecorded && !isRecording && (
             <div className="flex flex-col items-center gap-4">
+              {micError && (
+                <div className="w-full bg-red-50 border-2 border-red-200 rounded-lg p-4 mb-4">
+                  <div className="flex items-start gap-3">
+                    <AlertCircle className="h-5 w-5 text-red-600 flex-shrink-0 mt-0.5" />
+                    <div className="flex-1">
+                      <p className="font-semibold text-red-900 mb-1">Error de Micrófono</p>
+                      <p className="text-sm text-red-700">{micError}</p>
+                      <button
+                        onClick={() => setMicError(null)}
+                        className="mt-3 text-sm font-medium text-red-600 hover:text-red-700 underline"
+                      >
+                        Cerrar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              )}
               <button
                 onClick={startRecording}
                 className="w-24 h-24 bg-gradient-to-br from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white rounded-full flex items-center justify-center transition-all transform hover:scale-105 active:scale-95 shadow-2xl"

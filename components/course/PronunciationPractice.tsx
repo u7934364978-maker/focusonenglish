@@ -46,6 +46,7 @@ export default function PronunciationPractice({
   const [evaluation, setEvaluation] = useState<EvaluationResult | null>(null);
   const [recordingTime, setRecordingTime] = useState(0);
   const [showHints, setShowHints] = useState(false);
+  const [micError, setMicError] = useState<string | null>(null);
 
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const audioChunksRef = useRef<Blob[]>([]);
@@ -129,7 +130,7 @@ export default function PronunciationPractice({
 
     } catch (error) {
       console.error('Error accessing microphone:', error);
-      alert('Error accessing microphone. Please check permissions.');
+      setMicError('No se pudo acceder al micrófono. Por favor, verifica que has dado permisos de micrófono a este sitio web en la configuración de tu navegador.');
     }
   };
 
@@ -326,6 +327,24 @@ export default function PronunciationPractice({
 
         {!audioBlob ? (
           <div className="space-y-4">
+            {micError && (
+              <div className="bg-red-50 border-2 border-red-200 rounded-lg p-4">
+                <div className="flex items-start gap-3">
+                  <AlertCircle className="h-5 w-5 text-red-600 flex-shrink-0 mt-0.5" />
+                  <div className="flex-1">
+                    <p className="font-semibold text-red-900 mb-1">Error de Micrófono</p>
+                    <p className="text-sm text-red-700">{micError}</p>
+                    <button
+                      onClick={() => setMicError(null)}
+                      className="mt-3 text-sm font-medium text-red-600 hover:text-red-700 underline"
+                    >
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+
             {isRecording && (
               <div className="text-center">
                 <div className="inline-flex items-center gap-2 bg-red-50 text-red-600 px-4 py-2 rounded-full border border-red-200">
