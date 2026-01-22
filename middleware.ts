@@ -78,7 +78,7 @@ export async function middleware(req: NextRequest) {
 
   // Rutas protegidas que requieren autenticación
   const protectedPaths = [
-    // '/dashboard', // Temporalmente deshabilitado para desarrollo
+    '/dashboard',
     '/estudiante',
     '/curso-b2',
     '/profile',
@@ -97,6 +97,11 @@ export async function middleware(req: NextRequest) {
     const redirectUrl = new URL('/cuenta/login', req.url);
     redirectUrl.searchParams.set('callbackUrl', req.nextUrl.pathname);
     return NextResponse.redirect(redirectUrl);
+  }
+
+  // Si Supabase no está configurado, permitir acceso a rutas protegidas para desarrollo
+  if (isProtectedRoute && !supabase) {
+    return res;
   }
 
   return res;

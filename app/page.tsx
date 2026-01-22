@@ -352,6 +352,12 @@ export default function HomePage() {
                 🎯 Hacer Test de Nivel
               </Link>
               <Link
+                href="/cuenta/login?callbackUrl=/dashboard"
+                className="bg-blue-600 text-white px-10 py-5 rounded-xl font-black text-lg hover:bg-blue-700 transition-all border-2 border-white/20"
+              >
+                📊 Acceder Dashboard
+              </Link>
+              <Link
                 href="/blog"
                 className="bg-coral-700 text-white px-10 py-5 rounded-xl font-black text-lg hover:bg-coral-800 transition-all border-2 border-white/20"
               >
