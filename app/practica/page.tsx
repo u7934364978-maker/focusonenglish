@@ -12,8 +12,8 @@ import { useRouter } from 'next/navigation';
 import PracticeSelector, { PracticeConfig } from '@/components/practice/PracticeSelector';
 import PracticeExerciseViewer from '@/components/practice/PracticeExerciseViewer';
 
-
 export const runtime = 'edge';
+
 export default function PracticePage() {
   const router = useRouter();
   const [practicing, setPracticing] = useState(false);

@@ -15,8 +15,8 @@ import {
 } from '@/lib/services/profile-service';
 import { syncProfileToHubSpot } from '@/lib/services/hubspot-sync-service';
 
-
 export const runtime = 'edge';
+
 type TabType = 'overview' | 'personal' | 'progress' | 'settings';
 
 export default function ProfilePage() {

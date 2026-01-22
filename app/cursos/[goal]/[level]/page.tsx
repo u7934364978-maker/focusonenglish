@@ -4,8 +4,6 @@ import { getCurriculumByLevel } from "@/lib/curriculum-data";
 import CurriculumSection from "@/components/sections/CurriculumSection";
 import { generateCourseSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schemas";
 
-
-export const runtime = 'edge';
 const GOALS = ["trabajo", "viajes", "examenes"] as const;
 const LEVELS = ["a1","a2","b1","b2","c1","c2"] as const;
 
@@ -48,7 +46,16 @@ const LEVEL_SEO_DESCRIPTION: Record<Level, string> = {
   c2: "C2 (Maestría) - Alcanza nivel nativo con expresiones complejas",
 };
 
-// Generate dynamic metadata for SEO
+export async function generateStaticParams() {
+  const params = [];
+  for (const goal of GOALS) {
+    for (const level of LEVELS) {
+      params.push({ goal, level });
+    }
+  }
+  return params;
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ goal: string; level: string }> }): Promise<Metadata> {
   const { goal: goalParam, level: levelParam } = await params;
   const goal = goalParam as Goal;
