@@ -5,5 +5,10 @@
   "env": {
     "NODE_VERSION": "20.9.0",
     "NEXT_PUBLIC_SITE_URL": "https://focus-on-english.com"
+  },
+  "github": {
+    "enabled": true,
+    "autoAlias": true,
+    "silent": false
   }
 }
