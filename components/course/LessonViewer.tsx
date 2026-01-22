@@ -1488,52 +1488,49 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       case 'open-cloze':
         return (
-          <div className="space-y-6">
-            {/* Instructions */}
-            <div className="bg-blue-50 rounded-xl p-6 border-2 border-blue-200">
-              <h3 className="text-xl font-bold text-blue-900 mb-3 flex items-center gap-2">
-                <span>✍️</span>
-                <span>{currentExercise.title}</span>
-              </h3>
-              <div className="bg-blue-100 p-3 rounded-lg border border-blue-300">
-                <p className="text-sm text-blue-900 font-semibold">
-                  💡 {currentExercise.instructions}
+          <div className="grid lg:grid-cols-2 gap-6">
+            {/* Text - Sticky on large screens */}
+            <div className="lg:sticky lg:top-4 lg:self-start">
+              <div className="bg-blue-50 rounded-xl p-6 border-2 border-blue-200 mb-4">
+                <h3 className="text-xl font-bold text-blue-900 mb-3 flex items-center gap-2">
+                  <span>✍️</span>
+                  <span>{currentExercise.title}</span>
+                </h3>
+                <div className="bg-blue-100 p-3 rounded-lg border border-blue-300">
+                  <p className="text-sm text-blue-900 font-semibold">
+                    💡 {currentExercise.instructions || 'Read the text and fill each gap with ONE word only.'}
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 border-2 border-slate-200 lg:max-h-[calc(100vh-16rem)] lg:overflow-y-auto">
+                <p className="text-slate-700 whitespace-pre-line leading-relaxed text-lg">
+                  {currentExercise.text}
                 </p>
               </div>
             </div>
 
-            {/* Text with numbered gaps */}
-            <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
-              <p className="text-slate-700 whitespace-pre-line leading-relaxed text-lg">
-                {currentExercise.text}
-              </p>
-            </div>
-
-            {/* Gap inputs */}
+            {/* Gap inputs - Scrollable */}
             <div className="space-y-4">
-              <h4 className="text-lg font-bold text-slate-900">Complete los huecos con UNA palabra:</h4>
+              <h4 className="text-lg font-bold text-slate-900">Escribe UNA palabra para cada hueco:</h4>
               {currentExercise.gaps.map((gap: any, idx: number) => {
                 const gapId = `gap-${gap.id}`;
                 return (
                   <div key={gapId} className="bg-white rounded-lg p-5 border-2 border-slate-200">
-                    <div className="space-y-4">
-                      <div className="flex items-center justify-between">
-                        <p className="font-semibold text-slate-900">
-                          Hueco ({gap.id})
-                        </p>
-                      </div>
+                    <div className="space-y-3">
+                      <p className="font-semibold text-slate-900">
+                        Hueco ({gap.id})
+                      </p>
 
                       {/* Text Input */}
-                      <div className="space-y-2">
-                        <label className="text-sm font-semibold text-slate-700">Escribe UNA palabra:</label>
-                        <input
-                          type="text"
-                          value={answers[gapId] || ''}
-                          onChange={(e) => handleAnswer(gapId, e.target.value)}
-                          placeholder="Type ONE word..."
-                          className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-blue-500 focus:outline-none"
-                        />
-                      </div>
+                      <input
+                        type="text"
+                        value={answers[gapId] || ''}
+                        onChange={(e) => handleAnswer(gapId, e.target.value)}
+                        placeholder="Type ONE word..."
+                        className="w-full px-4 py-3 rounded-lg border-2 border-slate-200 focus:border-blue-500 focus:outline-none text-lg"
+                        disabled={showFeedback}
+                      />
 
                       {/* Feedback - Enhanced with AI */}
                       {showFeedback && (
@@ -1572,6 +1569,26 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 );
               })}
             </div>
+
+            {/* Submit Button - Full width at bottom */}
+            {!showFeedback && (
+              <div className="lg:col-span-2">
+                <button
+                  onClick={checkAnswers}
+                  disabled={evaluating}
+                  className="w-full px-6 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-bold text-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                >
+                  {evaluating ? (
+                    <>
+                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                      <span>Evaluando con IA...</span>
+                    </>
+                  ) : (
+                    'Evaluar Respuestas'
+                  )}
+                </button>
+              </div>
+            )}
           </div>
         );
 
