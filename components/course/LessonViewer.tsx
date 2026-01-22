@@ -2122,7 +2122,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             {/* Text with gaps */}
             <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
               <div className="text-lg leading-relaxed text-slate-800 whitespace-pre-line">
-                {gapFillExercise.text.split(/(\{\{\d+\}\})/).map((part: string, index: number) => {
+                {(gapFillExercise.text || '').split(/(\{\{\d+\}\})/).map((part: string, index: number) => {
                   const gapMatch = part.match(/\{\{(\d+)\}\}/);
                   if (gapMatch) {
                     const gapNum = parseInt(gapMatch[1]);
@@ -3058,6 +3058,86 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'extended-gap-fill':
       case 'open-cloze':
         const gapExercise = currentExercise as any;
+        
+        // Handle gap-fill exercises with sentences format (not text-based)
+        if (gapExercise.sentences && !gapExercise.text) {
+          return (
+            <div className="space-y-6">
+              <div className="bg-emerald-50 rounded-xl p-6 border-2 border-emerald-200">
+                <h3 className="text-xl font-bold text-emerald-900 mb-2 flex items-center gap-2">
+                  <span>📋</span>
+                  <span>{gapExercise.title}</span>
+                </h3>
+                {gapExercise.instructions && (
+                  <p className="text-slate-700 mt-2">💡 {gapExercise.instructions}</p>
+                )}
+              </div>
+
+              <div className="space-y-4">
+                {gapExercise.sentences.map((item: any, idx: number) => (
+                  <div key={idx} className="bg-white rounded-lg p-5 border-2 border-slate-200">
+                    <div className="flex items-start gap-3">
+                      <span className="flex-shrink-0 w-8 h-8 bg-emerald-600 text-white rounded-full flex items-center justify-center font-bold">
+                        {idx + 1}
+                      </span>
+                      <div className="flex-1 space-y-2">
+                        <p className="text-slate-900">{item.sentence}</p>
+                        <input
+                          type="text"
+                          value={answers[`gap-${idx}`] || ''}
+                          onChange={(e) => handleAnswer(`gap-${idx}`, e.target.value)}
+                          disabled={showFeedback}
+                          placeholder="Your answer..."
+                          className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-emerald-500 focus:outline-none disabled:bg-slate-50"
+                        />
+                        {showFeedback && (
+                          <div className={`p-3 rounded-lg ${
+                            (answers[`gap-${idx}`] || '').toLowerCase().trim() === item.correctAnswer.toLowerCase().trim() ||
+                            (item.acceptableAnswers && item.acceptableAnswers.some((a: string) => 
+                              a.toLowerCase().trim() === (answers[`gap-${idx}`] || '').toLowerCase().trim()
+                            ))
+                              ? 'bg-green-50 border-2 border-green-200'
+                              : 'bg-red-50 border-2 border-red-200'
+                          }`}>
+                            <p className="font-semibold mb-1">
+                              {(answers[`gap-${idx}`] || '').toLowerCase().trim() === item.correctAnswer.toLowerCase().trim() ||
+                              (item.acceptableAnswers && item.acceptableAnswers.some((a: string) => 
+                                a.toLowerCase().trim() === (answers[`gap-${idx}`] || '').toLowerCase().trim()
+                              ))
+                                ? '✓ Correct!'
+                                : '✗ Incorrect'}
+                            </p>
+                            <p className="text-sm">
+                              <strong>Correct answer:</strong> {item.correctAnswer}
+                              {item.acceptableAnswers && item.acceptableAnswers.length > 0 && (
+                                <span> (also acceptable: {item.acceptableAnswers.join(', ')})</span>
+                              )}
+                            </p>
+                            {item.explanation && (
+                              <p className="text-sm mt-1 text-slate-700">💡 {item.explanation}</p>
+                            )}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {!showFeedback && (
+                <button
+                  onClick={checkAnswers}
+                  disabled={evaluating}
+                  className="w-full py-4 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white rounded-xl hover:from-emerald-700 hover:to-emerald-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50"
+                >
+                  {evaluating ? 'Evaluating...' : 'Check Answers'}
+                </button>
+              )}
+            </div>
+          );
+        }
+        
+        // Handle text-based gap-fill exercises (open-cloze format)
         return (
           <div className="space-y-6">
             <div className="bg-emerald-50 rounded-xl p-6 border-2 border-emerald-200">
@@ -3072,7 +3152,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
             <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
               <div className="text-lg leading-relaxed text-slate-800">
-                {gapExercise.text.split(/(\(\d+\)___+|___+)/).map((part: string, index: number) => {
+                {(gapExercise.text || '').split(/(\(\d+\)___+|___+)/).map((part: string, index: number) => {
                   const gapMatch = part.match(/\((\d+)\)___+/);
                   if (gapMatch) {
                     const gapNum = parseInt(gapMatch[1]);
