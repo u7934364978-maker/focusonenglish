@@ -700,7 +700,20 @@ Sarah: Absolutely! By the end of my two-year contract, I had grown both personal
           'Describe what happened: "When the day arrived..."',
           'Reflect on the outcome: "Even though I had planned everything..."',
           'Use time expressions: by the time, before, after, when, while'
-        ]
+        ],
+        targetWords: [
+          'had been preparing',
+          'had studied',
+          'had practiced',
+          'had organized',
+          'had planned',
+          'turned out',
+          'expected',
+          'actually happened',
+          'by the time',
+          'even though'
+        ],
+        expectedResponse: 'A 2-3 minute narrative describing a past preparation and unexpected outcome. Should include: (1) Background using Past Perfect Continuous (\"I had been preparing/studying/practicing\"), (2) Specific preparations with Past Perfect (\"I had organized/studied/planned\"), (3) The unexpected outcome with Past Simple (\"What actually happened was...\"), (4) Reflection using Past Perfect (\"Even though I had planned everything...\"), (5) Use of time expressions (by the time, before, after, when, while). Demonstrates understanding of sequence of past events and ability to express preparation vs. reality.'
       },
       {
         id: 'b2-m1-l1-pronunciation-1',
@@ -1760,7 +1773,22 @@ Dr. Chen: Not only should you reflect on past choices, but you should also focus
           'Describe the actual outcome vs. the hypothetical one',
           'Reflect on whether you have any regrets',
           'Use expressions like: "Looking back...", "In retrospect...", "With hindsight..."'
-        ]
+        ],
+        targetWords: [
+          'if I had',
+          'would be',
+          'would have',
+          'never have I',
+          'rarely do I',
+          'looking back',
+          'in retrospect',
+          'with hindsight',
+          'decision',
+          'chosen differently',
+          'actual outcome',
+          'hypothetical'
+        ],
+        expectedResponse: 'A 2-3 minute discussion of an important past decision and its hypothetical alternative. Should include: (1) Description of the decision using Past Simple (\"I decided to...\"), (2) Mixed conditionals showing contrast between past action and present result (\"If I had chosen X, I would be/have Y now\"), (3) Inversion structures for emphasis (\"Never have I regretted...\", \"Rarely do I think about...\"), (4) Reflective expressions (\"Looking back\", \"In retrospect\", \"With hindsight\"), (5) Comparison of actual outcome vs. hypothetical scenario. Demonstrates ability to discuss hypothetical past situations and their present consequences.'
       },
       {
         id: 'b2-m1-l2-writing-1',
@@ -2672,7 +2700,20 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
           'Include: "What I\'ve learned is..."',
           'Try: "It\'s...that makes the difference"',
           'Examples: "What drives me is...", "It was my teacher who inspired me..."'
-        ]
+        ],
+        targetWords: [
+          'what matters most',
+          'it was...who',
+          'it was...that',
+          'what I\'ve learned',
+          'what drives me',
+          'it\'s...that makes the difference',
+          'career',
+          'studies',
+          'emphasize',
+          'influenced'
+        ],
+        expectedResponse: 'A 2-minute discussion about career/study priorities using cleft sentences for emphasis. Should include: (1) Opening with \"What matters most to me is...\" to state priorities, (2) \"It was [person] who...\" to emphasize influential people, (3) \"What I\'ve learned is...\" to share insights, (4) \"It\'s [factor] that makes the difference\" to highlight key elements, (5) Additional cleft structures like \"What drives me is...\" Demonstrates ability to use cleft sentences for emphasis and discuss personal values/goals effectively.'
       },
       {
         id: 'b2-m1-l3-writing-1',
@@ -3477,7 +3518,25 @@ James: It was three years after I started training. By then, I had climbed peaks
           'Main events with Past Simple: "Then I decided... / She told me..."',
           'Show duration with Past Perfect Continuous: "I had been waiting for..."',
           'Connect events with time expressions: when, while, before, after, by the time'
-        ]
+        ],
+        targetWords: [
+          'was living',
+          'was raining',
+          'had been hoping',
+          'had never experienced',
+          'decided',
+          'told',
+          'had been waiting',
+          'when',
+          'while',
+          'before',
+          'after',
+          'by the time',
+          'significant moment',
+          'vivid',
+          'engaging'
+        ],
+        expectedResponse: 'A 2-3 minute narrative about a significant life moment using varied past tenses. Should include: (1) Scene-setting with Past Continuous (\"I was living in...\", \"It was raining...\"), (2) Background information with Past Perfect (\"I had been hoping...\", \"I had never experienced...\"), (3) Main events in Past Simple (\"I decided...\", \"She told me...\"), (4) Duration/continuous actions with Past Perfect Continuous (\"I had been waiting for...\"), (5) Time connectors (when, while, before, after, by the time) to link events. Demonstrates mastery of narrative tenses and engaging storytelling.'
       },
       {
         id: 'b2-m1-l4-writing-1',
@@ -4144,7 +4203,21 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
           'Discuss themes or deeper meanings',
           'Use vocabulary: protagonist, theme, compelling, nuanced',
           'Give your personal critique'
-        ]
+        ],
+        targetWords: [
+          'protagonist',
+          'theme',
+          'compelling',
+          'nuanced',
+          'narrative style',
+          'characters',
+          'made an impression',
+          'analyze',
+          'effective',
+          'deeper meanings',
+          'critique'
+        ],
+        expectedResponse: 'A 2-3 minute analysis of a book, film, or TV series. Should include: (1) Introduction with title, author/director, and genre, (2) Brief plot summary without major spoilers, (3) Analysis of what made it compelling using literary vocabulary (protagonist, theme, nuanced, narrative style), (4) Discussion of deeper meanings or themes, (5) Personal critique and evaluation. Demonstrates ability to analyze cultural works critically and use advanced literary/analytical vocabulary.'
       },
       // KEY WORD TRANSFORMATIONS - FCE Part 4 Practice
       {
@@ -5048,7 +5121,22 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
           'Part 2: Structure your story chronologically',
           'Use all narrative tenses appropriately',
           'Part 3: Give extended answers with examples'
-        ]
+        ],
+        targetWords: [
+          'memorable experience',
+          'was living',
+          'had been',
+          'decided to',
+          'what made it memorable',
+          'it was...that',
+          'what I learned',
+          'looking back',
+          'narrative tenses',
+          'cleft sentences',
+          'chronologically',
+          'extended answers'
+        ],
+        expectedResponse: 'A 9-minute mock exam speaking section with three parts. Part 1 (2 min): Brief interview answering personal questions naturally and confidently. Part 2 (3 min): Long turn describing a memorable experience using narrative tenses (Past Simple, Continuous, Perfect, Perfect Continuous) in chronological order. Part 3 (4 min): Extended discussion about what makes experiences memorable, using cleft sentences for emphasis (\"What makes an experience memorable is...\", \"It was the people who...\") and giving examples. Demonstrates exam-level speaking proficiency with sophisticated grammar and vocabulary.'
       },
       // KEY WORD TRANSFORMATIONS - FCE Part 4 Practice
       {
@@ -5889,7 +5977,21 @@ export const MODULE_2_LESSONS: Lesson[] = [
           'Use "can\'t be" for impossibilities',
           'Give reasons: "because...", "judging by..."',
           'Make multiple deductions about different aspects'
-        ]
+        ],
+        targetWords: [
+          'must be',
+          'might be',
+          'could be',
+          'can\'t be',
+          'because',
+          'judging by',
+          'celebrating',
+          'just',
+          'deductions',
+          'possibilities',
+          'impossibilities'
+        ],
+        expectedResponse: 'A 2-minute description making deductions about a scene or situation using modal verbs. Should include: (1) Strong deductions with \"must be\" (\"They must be celebrating because...\"), (2) Possibilities with \"might/could be\" (\"They might have just arrived\"), (3) Impossibilities with \"can\'t be\" (\"It can\'t be a normal day\"), (4) Reasons for deductions (\"because...\", \"judging by...\"), (5) Multiple deductions about different aspects (people, setting, situation). Demonstrates understanding of modal verbs for speculation and ability to support deductions with evidence.'
       },
       {
         id: 'b2-m2-l1-cloze-1',
@@ -7465,7 +7567,23 @@ Dr. Mitchell: If everything goes well, the therapy could be approved for clinica
           'Use formal vocabulary: "undertake", "implement", "establish"',
           'Avoid personal pronouns (I, we, you)',
           'Examples: research process, manufacturing, legislative process, application procedures'
-        ]
+        ],
+        targetWords: [
+          'is conducted',
+          'are analyzed',
+          'was developed',
+          'first',
+          'then',
+          'after that',
+          'finally',
+          'undertake',
+          'implement',
+          'establish',
+          'process',
+          'procedure',
+          'objectivity'
+        ],
+        expectedResponse: 'A 2-3 minute description of a process using passive voice for objectivity. Should include: (1) Introduction of the process/procedure, (2) Sequential steps using passive constructions (\"is conducted\", \"are analyzed\", \"was developed\"), (3) Sequence markers (\"first\", \"then\", \"after that\", \"finally\"), (4) Formal vocabulary (\"undertake\", \"implement\", \"establish\"), (5) Avoidance of personal pronouns. Demonstrates mastery of passive voice for formal descriptions and ability to explain complex processes objectively.'
       },
       {
         id: 'b2-m2-l2-keytransform-1',
@@ -7752,7 +7870,21 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
           'Apply correct backshifting of tenses',
           'Report both statements and questions',
           'Make it natural and conversational'
-        ]
+        ],
+        targetWords: [
+          'suggested',
+          'claimed',
+          'admitted',
+          'warned',
+          'recommended',
+          'insisted',
+          'denied',
+          'reported',
+          'backshifting',
+          'conversation',
+          'reporting verbs'
+        ],
+        expectedResponse: 'A 2-3 minute report of a recent conversation using varied reporting verbs. Should include: (1) Context setting (when/where the conversation took place), (2) Varied reporting verbs beyond \"said\" (suggested, claimed, admitted, warned, recommended, insisted, denied), (3) Correct backshifting of tenses (\"She said she was tired\" from \"I am tired\"), (4) Reporting both statements and questions, (5) Natural, conversational tone. Demonstrates mastery of reported speech and variety in reporting verbs.'
       },
       {
         id: 'b2-m2-l3-cloze-1',
@@ -9383,7 +9515,22 @@ Sarah: Practice! Watch experienced debaters and note how they structure argument
           'Counter-argument: "Some people argue that... However..."',
           'Conclusion: "In conclusion..., Therefore..."',
           'Use variety: nevertheless, moreover, on the other hand, consequently, despite this'
-        ]
+        ],
+        targetWords: [
+          'firstly',
+          'secondly',
+          'furthermore',
+          'however',
+          'nevertheless',
+          'moreover',
+          'on the other hand',
+          'consequently',
+          'in conclusion',
+          'therefore',
+          'counter-argument',
+          'structured'
+        ],
+        expectedResponse: 'A 2-3 minute structured argument on smartphones in class OR social media impact. Should include: (1) Introduction (\"Today I\'d like to discuss...\"), (2) Main points with linking words (\"Firstly..., Secondly..., Furthermore...\"), (3) Counter-argument acknowledging opposing views (\"Some people argue that... However...\"), (4) Conclusion (\"In conclusion..., Therefore...\"), (5) At least 6 different linking words (nevertheless, moreover, on the other hand, consequently, despite this). Demonstrates ability to structure formal arguments with cohesive devices.'
       },
       {
         id: 'b2-m2-l4-key-word-transformation',
@@ -9577,7 +9724,22 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
           'Address counter-argument: "Some people argue that..., however..."',
           'Use evidence: "For example..., Studies show that..."',
           'Conclude: "In conclusion..., Therefore..."'
-        ]
+        ],
+        targetWords: [
+          'in my opinion',
+          'I strongly believe',
+          'firstly',
+          'secondly',
+          'furthermore',
+          'counter-argument',
+          'for example',
+          'studies show',
+          'in conclusion',
+          'therefore',
+          'controversial',
+          'position'
+        ],
+        expectedResponse: 'A 3-minute structured argument on a controversial topic (free education, social media regulation, OR remote work). Should include: (1) Clear position statement (\"In my opinion...\", \"I strongly believe that...\"), (2) 2-3 reasons with examples (\"Firstly..., For example...\"), (3) Counter-argument addressed (\"Some people argue that..., however...\"), (4) Evidence (\"Studies show that...\"), (5) Strong conclusion (\"In conclusion..., Therefore...\"). Demonstrates persuasive argumentation with logical structure and supporting evidence.'
       },
       {
         id: 'b2-m2-l5-cloze-1',
@@ -10453,7 +10615,21 @@ In conclusion, the gene editing debate reflects fundamental questions about huma
           'Use: "On one hand..., on the other hand..."',
           'Reference studies/reports using reported speech',
           'Conclude with your personal view'
-        ]
+        ],
+        targetWords: [
+          'might be',
+          'could be',
+          'must be',
+          'on one hand',
+          'on the other hand',
+          'it is argued',
+          'studies show',
+          'experts claim',
+          'compare',
+          'contrast',
+          'balanced arguments'
+        ],
+        expectedResponse: 'An 8-minute mock exam speaking section with three parts. Part 1 (2 min): Natural interview responses. Part 2 (2 min): Photo comparison using speculation (\"might be\", \"could be\", \"must be\") and comparison language (\"On one hand..., on the other hand...\"). Part 3 (4 min): Balanced discussion of social media using reported speech (\"Studies show...\", \"Experts claim...\"), argumentation techniques, and advanced linking words. Demonstrates exam-level speaking with all Module 2 grammar structures integrated.'
       },
       {
         id: 'b2-m2-l6-reading-exam',
@@ -11233,7 +11409,24 @@ Despite these challenges, the evidence overwhelmingly supports the importance of
           'Conclusion: "In conclusion...", "Therefore..."',
           'Speak clearly and at moderate pace',
           'Use formal academic register throughout'
-        ]
+        ],
+        targetWords: [
+          'it is widely argued',
+          'there is evidence',
+          'on one hand',
+          'on the other hand',
+          'furthermore',
+          'nevertheless',
+          'consequently',
+          'whereas',
+          'might',
+          'could',
+          'should',
+          'must',
+          'in conclusion',
+          'therefore'
+        ],
+        expectedResponse: 'A 3-4 minute formal presentation on ONE topic (future skills, free education, OR technology role). Must include ALL requirements: (1) Clear introduction, body, conclusion, (2) At least 5 linking words (furthermore, nevertheless, consequently, whereas, etc.), (3) At least 3 modal verbs (might, could, should, must), (4) At least 2 formal argumentation structures (\"It is widely argued...\", \"There is evidence...\"), (5) Arguments for AND against, (6) Personal opinion with justification, (7) Passive voice, (8) Reported speech for evidence. Demonstrates mastery of all Module 2 skills in formal academic presentation.'
       }
     ]
   }
@@ -11292,7 +11485,18 @@ export const MODULE_3_LESSONS: Lesson[] = [
           'Use formal vocabulary and complete sentences',
           'Avoid filler words (like, you know, etc.)',
           'End with: "Thank you for your attention. Are there any questions?"'
-        ]
+        ],
+        targetWords: [
+          'today I\'d like to discuss',
+          'my presentation focuses on',
+          'firstly',
+          'moving on to',
+          'in conclusion',
+          'formal vocabulary',
+          'signposting',
+          'thank you for your attention'
+        ],
+        expectedResponse: 'A 2-minute formal presentation about field of study/work. Should include: (1) Formal opening ("Today I\'d like to discuss..."), (2) Clear signposting ("Firstly...", "Moving on to..."), (3) Formal vocabulary and complete sentences, (4) Avoidance of filler words, (5) Professional closing ("Thank you for your attention. Are there any questions?"). Demonstrates formal register and presentation skills.'
       },
       {
         id: 'b2-m3-l1-cloze-1',
@@ -11959,7 +12163,23 @@ Jennifer Martin`,
           'Use nominalization: "The implementation of...", "Development of skills..."',
           'Signposting: "Firstly...", "Subsequently...", "In conclusion..."',
           'Closing: "Thank you for your attention. I welcome any questions."'
-        ]
+        ],
+        targetWords: [
+          'ladies and gentlemen',
+          'I shall address',
+          'facilitate',
+          'implement',
+          'ascertain',
+          'never before have we',
+          'rarely does one',
+          'the implementation of',
+          'development of',
+          'firstly',
+          'subsequently',
+          'nominalization',
+          'inversion'
+        ],
+        expectedResponse: 'A 3-minute formal speech on professional development OR international business challenges. Must include: (1) Formal opening ("Ladies and gentlemen..."), (2) Formal vocabulary (facilitate, implement, ascertain), (3) Inversion for emphasis ("Never before have we...", "Rarely does one..."), (4) Nominalization ("The implementation of..."), (5) 3 main points with signposting ("Firstly...", "Subsequently..."), (6) Conclusion, (7) Professional closing. Demonstrates advanced formal register with sophisticated grammatical structures.'
       },
       {
         id: 'b2-m3-l1-integrated-reading-1',
