@@ -8,7 +8,7 @@
 
 import { useState } from 'react';
 import { signIn } from '@/lib/auth-helpers';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 
 function SignInForm() {
