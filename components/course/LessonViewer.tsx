@@ -2787,9 +2787,10 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     )}
 
                     <div className="space-y-3">
-                      {sentences.map((sentence: string, idx: number) => {
+                      {sentences.map((sentence: any, idx: number) => {
                         const numberId = `${itemId}-${idx}`;
                         const userOrder = answers[numberId] || '';
+                        const sentenceText = typeof sentence === 'string' ? sentence : sentence.text;
                         
                         return (
                           <div key={idx} className="flex items-start gap-3 p-3 bg-slate-50 rounded-lg border border-slate-200">
@@ -2809,7 +2810,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                                   : 'border-pink-300 focus:border-pink-500'
                               } disabled:cursor-not-allowed`}
                             />
-                            <p className="flex-1 text-slate-800">{sentence}</p>
+                            <p className="flex-1 text-slate-800">{sentenceText}</p>
                             {showFeedback && (
                               <span className={`px-2 py-1 rounded text-xs font-bold ${
                                 parseInt(userOrder) === correctOrder[idx] + 1
