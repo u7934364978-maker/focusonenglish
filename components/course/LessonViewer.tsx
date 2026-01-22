@@ -1074,6 +1074,44 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     </div>
                   )}
 
+                  {question.type === 'writing' && (
+                    <div className="space-y-3">
+                      {(question as any).writingPrompt && (
+                        <div className="bg-violet-50 border-l-4 border-violet-500 p-4 rounded">
+                          <p className="text-violet-900 font-medium">✍️ Writing Task:</p>
+                          <p className="text-slate-700 mt-1">{(question as any).writingPrompt}</p>
+                          {(question as any).minWords && (question as any).maxWords && (
+                            <p className="text-sm text-violet-700 mt-2">
+                              📏 Word count: {(question as any).minWords}-{(question as any).maxWords} words
+                            </p>
+                          )}
+                        </div>
+                      )}
+                      <textarea
+                        value={answers[question.id] || ''}
+                        onChange={(e) => handleAnswer(question.id, e.target.value)}
+                        placeholder="Write your essay here..."
+                        rows={10}
+                        className="w-full px-4 py-3 rounded-lg border-2 border-violet-200 focus:border-violet-500 focus:outline-none font-sans"
+                      />
+                      <div className="flex items-center justify-between text-sm">
+                        <span className={`font-semibold ${
+                          (answers[question.id] || '').split(/\s+/).filter(w => w.length > 0).length >= ((question as any).minWords || 0) &&
+                          (answers[question.id] || '').split(/\s+/).filter(w => w.length > 0).length <= ((question as any).maxWords || 999)
+                            ? 'text-green-600'
+                            : 'text-amber-600'
+                        }`}>
+                          Word count: {(answers[question.id] || '').split(/\s+/).filter(w => w.length > 0).length} words
+                        </span>
+                        {(question as any).rubric && (
+                          <span className="text-xs text-slate-600">
+                            📊 Grading: Content {(question as any).rubric.content}% | Organization {(question as any).rubric.organization}% | Grammar {(question as any).rubric.grammar}% | Vocabulary {(question as any).rubric.vocabulary}%
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  )}
+
                   {showFeedback && (
                     <div className={`mt-3 p-3 rounded-lg ${
                       answers[question.id]?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : question.correctAnswer).toLowerCase().trim() ||
