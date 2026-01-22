@@ -639,7 +639,13 @@ export default function SmartPronunciationEvaluator({
                 <span>🔊</span>
                 <span>Listen to the Model Pronunciation</span>
               </p>
-              <audio controls className="w-full" src={modelAudioUrl}>
+              <audio 
+                controls 
+                className="w-full" 
+                src={modelAudioUrl}
+                preload="metadata"
+                controlsList="nodownload"
+              >
                 Your browser does not support the audio element.
               </audio>
               <p className="text-sm text-peach-700 mt-2">

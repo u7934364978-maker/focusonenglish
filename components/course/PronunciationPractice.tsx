@@ -274,6 +274,7 @@ export default function PronunciationPractice({
             src={modelAudioUrl}
             onEnded={() => setIsPlayingModel(false)}
             onPause={() => setIsPlayingModel(false)}
+            preload="metadata"
           />
           <button
             onClick={playModelAudio}
@@ -370,6 +371,7 @@ export default function PronunciationPractice({
               src={audioUrl || ''}
               onEnded={() => setIsPlayingRecording(false)}
               onPause={() => setIsPlayingRecording(false)}
+              preload="metadata"
             />
             
             <div className="flex gap-2">

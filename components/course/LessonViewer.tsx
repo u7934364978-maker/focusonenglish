@@ -1422,7 +1422,13 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                   <span>🎧</span>
                   <span>Listening Exercise</span>
                 </h3>
-                <audio src={currentExercise.audioUrl} controls className="w-full mb-3" />
+                <audio 
+                  src={currentExercise.audioUrl} 
+                  controls 
+                  className="w-full mb-3"
+                  preload="metadata"
+                  controlsList="nodownload"
+                />
                 <div className="text-sm text-peach-800">
                   <p>Duration: ~{Math.floor(currentExercise.duration / 60)} minutes {currentExercise.duration % 60} seconds</p>
                   <p>You can replay the audio up to {currentExercise.maxReplays} times</p>
@@ -1697,7 +1703,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
             {/* Transformations */}
             <div className="space-y-4">
-              {currentExercise.transformations.map((transformation: any, idx: number) => (
+              {(currentExercise.transformations || currentExercise.questions || []).map((transformation: any, idx: number) => (
                 <div key={transformation.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
                   <div className="space-y-3">
                     {/* Original Sentence */}
@@ -3375,7 +3381,12 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                         <p className="text-sm text-orange-700 font-mono">/{item.phonetic}/</p>
                       )}
                       {item.audioUrl && (
-                        <audio controls className="w-full mt-2">
+                        <audio 
+                          controls 
+                          className="w-full mt-2"
+                          preload="metadata"
+                          controlsList="nodownload"
+                        >
                           <source src={item.audioUrl} type="audio/mpeg" />
                         </audio>
                       )}

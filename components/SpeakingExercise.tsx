@@ -249,6 +249,7 @@ export default function SpeakingExercise({ question, onComplete, level }: Speaki
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
                 onEnded={() => setIsPlaying(false)}
+                preload="metadata"
               />
 
               <div className="flex items-center justify-center gap-4">

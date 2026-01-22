@@ -506,7 +506,13 @@ export default function EnhancedVoiceRecorder({
               <span className="text-2xl">🎧</span>
               <p className="font-bold text-slate-900 text-lg">Your Recording</p>
             </div>
-            <audio src={audioURL} controls className="w-full" />
+            <audio 
+              src={audioURL} 
+              controls 
+              className="w-full"
+              preload="metadata"
+              controlsList="nodownload"
+            />
           </div>
         )}
 
