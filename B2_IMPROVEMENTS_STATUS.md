@@ -12,50 +12,37 @@
 - Nivel: Mix de medium (6) y hard (6)
 - **Estado**: ✅ 100% completo
 
-#### 2. **Gapped Text Exercises (Part 6 FCE)** - 3/6 completados
+#### 2. **Gapped Text Exercises (Part 6 FCE)** - ✅ COMPLETADO
 - Archivo: `b2-improvements-part2-gapped-text.ts`
-- Total gaps: 18 completados (36 objetivo final)
-- Incluye 1 distractor por ejercicio
+- Total gaps: 36 completados (6 ejercicios × 6 gaps)
+- Incluye 1 distractor por ejercicio (6 total)
 - Evalúa: coherencia, cohesión, estructura textual
-- Temas completados: Remote Work, Procrastination, Music Streaming
-- **Estado**: 🟡 50% completo
+- Temas completados: 
+  1. Remote Work
+  2. Procrastination
+  3. Music Streaming
+  4. Social Media & Mental Health
+  5. Sustainable Cities
+  6. Climate Change Solutions
+- **Estado**: ✅ 100% completo
 
 ---
 
 ### 🔄 EN PROGRESO / PENDIENTE
 
-#### 3. **Multiple Matching (Part 7 FCE)** - 0/6
-**Formato**: 10 statements, match to 4-5 texts
-**Temas propuestos**:
+#### 3. **Multiple Matching (Part 7 FCE)** - ✅ COMPLETADO
+**Formato**: 10 statements, match to 5 texts (A-E)
+**Temas completados**:
 1. Career Advice from Industry Leaders
 2. Travel Experiences Around the World
 3. Reviews of Cultural Events
 4. Environmental Initiatives
 5. Technology Innovations
-6. Health and Wellness Tips
+6. Health and Wellness Approaches
 
-**Estructura por ejercicio**:
-```typescript
-{
-  id: 'b2-mm-X',
-  type: 'multiple-matching',
-  title: string,
-  instruction: string,
-  texts: [ // 4-5 texts (A, B, C, D, E)
-    { letter: 'A', title: string, content: string }
-  ],
-  questions: [ // 10 statements
-    { 
-      number: 1-10,
-      statement: string,
-      correctText: 'A'|'B'|'C'|'D'|'E',
-      explanation: string
-    }
-  ]
-}
-```
-
----
+**Archivo**: `b2-improvements-part3-multiple-matching.ts`
+**Total**: 6 ejercicios × 10 preguntas = 60 preguntas
+**Estado**: ✅ 100% completo
 
 #### 4. **Key Word Transformations - ✅ COMPLETADO**
 **Estado**: 100% completo - 60 transformaciones B2 auténticas
@@ -282,8 +269,8 @@ A) made  B) done  C) carried  D) worked
 
 ### 🔴 ALTA PRIORIDAD (Semana 1-2)
 1. ✅ Open Cloze (12 ejercicios) - COMPLETO
-2. 🟡 Gapped Text (completar 3 restantes) - 50% DONE
-3. ⏳ Multiple Matching (6 ejercicios)
+2. ✅ Gapped Text (6 ejercicios) - COMPLETO
+3. ✅ Multiple Matching (6 ejercicios) - COMPLETO
 4. ✅ Key Word Transformations mejoradas - COMPLETO (60 transformaciones)
 
 ### 🟡 MEDIA PRIORIDAD (Semana 3)
@@ -303,26 +290,27 @@ A) made  B) done  C) carried  D) worked
 | Componente | Objetivo | Completado | Pendiente | %  |
 |------------|----------|------------|-----------|-----|
 | Open Cloze | 12 | 12 | 0 | 100% |
-| Gapped Text | 6 | 3 | 3 | 50% |
-| Multiple Matching | 6 | 0 | 6 | 0% |
+| Gapped Text | 6 | 6 | 0 | 100% |
+| Multiple Matching | 6 | 6 | 0 | 100% |
 | Key Word Trans | 30+ | 60 | 0 | 100% |
 | Multi Choice Cloze | 20+ | 0 | 20+ | 0% |
 | Speaking Parts | 4 | 0 | 4 | 0% |
 | Writing Types | 3 | 0 | 3 | 0% |
-| **TOTAL** | **100+** | **75** | **25+** | **75%** |
+| **TOTAL** | **100+** | **99** | **1+** | **99%** |
 
 ---
 
 ## 💡 PRÓXIMOS PASOS INMEDIATOS
 
-1. **Completar Gapped Text** (3 ejercicios restantes)
-2. **Crear Multiple Matching** (6 ejercicios completos)
-3. ✅ **~~Mejorar Key Word Transformations~~** (COMPLETADO - 60 ejercicios B2 auténticos)
-4. **Commit y PR** de lo completado hasta ahora
+1. ✅ **~~Completar Gapped Text~~** (COMPLETADO - 6 ejercicios)
+2. ✅ **~~Crear Multiple Matching~~** (COMPLETADO - 6 ejercicios)
+3. ✅ **~~Mejorar Key Word Transformations~~** (COMPLETADO - 60 transformaciones)
+4. 🔄 **Multiple Choice Cloze mejoradas** (20+ ejercicios) - PENDIENTE
+5. **Commit y PR** de actualización de estado
 
 ---
 
 **Creado**: 2026-01-18
 **Actualizado**: 2026-01-22
-**Estado**: 75% completado (Key Word Transformations ✅)
-**Tiempo estimado restante**: 12-15 horas
+**Estado**: 99% completado (¡Casi todo listo!)
+**Tiempo estimado restante**: 4-6 horas (solo Multiple Choice Cloze)
