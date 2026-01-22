@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npx @cloudflare/next-on-pages && rm -rf .vercel/output/static/cache",
+    "build": "npx @cloudflare/next-on-pages && rm -rf .vercel/output/static/cache",
     "start": "next start -p ${PORT:-3000}",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
