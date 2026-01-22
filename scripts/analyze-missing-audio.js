@@ -13,9 +13,24 @@ for (const match of audioMatches) {
   referencedFiles.add(match[1]);
 }
 
-// Get existing files
+// Get existing files (recursively)
 const audioDir = path.join(__dirname, '../public/audio');
-const existingFiles = fs.readdirSync(audioDir).filter(f => f.endsWith('.mp3'));
+function getAudioFiles(dir, baseDir = dir) {
+  let files = [];
+  const items = fs.readdirSync(dir, { withFileTypes: true });
+  
+  for (const item of items) {
+    const fullPath = path.join(dir, item.name);
+    if (item.isDirectory()) {
+      files = files.concat(getAudioFiles(fullPath, baseDir));
+    } else if (item.name.endsWith('.mp3')) {
+      const relativePath = path.relative(baseDir, fullPath);
+      files.push(relativePath);
+    }
+  }
+  return files;
+}
+const existingFiles = getAudioFiles(audioDir);
 
 // Find missing files
 const missingFiles = Array.from(referencedFiles).filter(ref => !existingFiles.includes(ref));
