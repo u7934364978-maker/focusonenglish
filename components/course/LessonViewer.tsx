@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import EnhancedVoiceRecorder from '@/components/course/EnhancedVoiceRecorder';
 import SmartPronunciationEvaluator from '@/components/course/SmartPronunciationEvaluator';
 import PronunciationPractice from '@/components/course/PronunciationPractice';
@@ -12,6 +12,10 @@ import SpeakingPart2 from '@/components/course/SpeakingPart2';
 import SpeakingPart3 from '@/components/course/SpeakingPart3';
 import SpeakingPart4 from '@/components/course/SpeakingPart4';
 import EnhancedSpeakingExercise from '@/components/EnhancedSpeakingExercise';
+import { GamificationWidget } from '@/components/gamification/GamificationPanel';
+import { XPGainAnimation } from '@/components/gamification/XPDisplay';
+import { BadgeNotification } from '@/components/gamification/BadgeDisplay';
+import { useGamification } from '@/lib/hooks/use-gamification';
 import { Lesson, Exercise, Question, SentenceBuildingExercise } from '@/lib/course-data-b2';
 import { TextAnswerEvaluationResponse } from '@/app/api/evaluate-text-answer/route';
 import { WritingEvaluationResponse } from '@/app/api/evaluate-writing/route';
@@ -35,6 +39,12 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   const [pronunciationFeedback, setPronunciationFeedback] = useState<any>(null);
   const [aiEvaluations, setAiEvaluations] = useState<{ [questionId: string]: EvaluationResult }>({});
   const [evaluating, setEvaluating] = useState(false);
+  
+  // Gamification hooks
+  const gamification = useGamification();
+  const [showXPGain, setShowXPGain] = useState(false);
+  const [xpGained, setXPGained] = useState(0);
+  const [newBadges, setNewBadges] = useState<any[]>([]);
 
   const currentExercise = lesson.exercises[currentExerciseIndex];
   const progress = ((currentExerciseIndex + 1) / lesson.exercises.length) * 100;
@@ -766,7 +776,30 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
     }
   };
 
-  const nextExercise = () => {
+  const nextExercise = async () => {
+    // Award XP for completed exercise if it has a score
+    if (exerciseScores[currentExercise.id] !== undefined) {
+      const exerciseScore = exerciseScores[currentExercise.id];
+      const maxScore = 100; // Assume 100 as max for percentage calculation
+      
+      const result = await gamification.completeExercise(
+        currentExercise.id, 
+        exerciseScore, 
+        maxScore
+      );
+      
+      if (result?.newBadges && result.newBadges.length > 0) {
+        setNewBadges(result.newBadges);
+      }
+      
+      // Show XP gain animation
+      const xpAmount = Math.floor((exerciseScore / maxScore) * 20) + (exerciseScore === maxScore ? 10 : 0);
+      setXPGained(xpAmount);
+      setShowXPGain(true);
+      
+      setTimeout(() => setShowXPGain(false), 2000);
+    }
+    
     if (currentExerciseIndex < lesson.exercises.length - 1) {
       setCurrentExerciseIndex(prev => prev + 1);
       setShowFeedback(false);
@@ -776,6 +809,10 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
     } else {
       // Calcular puntuación total de la lección
       const totalScore = Object.values(exerciseScores).reduce((sum, score) => sum + score, 0) / Object.keys(exerciseScores).length;
+      
+      // Award XP for completing the lesson
+      await gamification.completeLesson(lesson.id, totalScore, 100);
+      
       onComplete(lesson.id, totalScore);
     }
   };
@@ -3876,6 +3913,24 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-orange-50 py-8">
       <div className="max-w-5xl mx-auto px-4">
+        {/* Gamification Widgets and Animations */}
+        {showXPGain && <XPGainAnimation amount={xpGained} />}
+        
+        {newBadges.map((badge) => (
+          <BadgeNotification
+            key={badge.badge_id}
+            badge={badge}
+            onClose={() => setNewBadges(prev => prev.filter(b => b.badge_id !== badge.badge_id))}
+          />
+        ))}
+
+        {/* Gamification Widget */}
+        {!gamification.isLoading && (
+          <div className="mb-6">
+            <GamificationWidget variant="compact" />
+          </div>
+        )}
+
         {/* Enhanced Header with Visual Stats */}
         <div className="bg-gradient-to-br from-white to-orange-50 rounded-2xl shadow-2xl p-8 mb-6 border-2 border-orange-200">
           <div className="flex items-center justify-between mb-6">
