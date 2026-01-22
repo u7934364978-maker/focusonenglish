@@ -13,6 +13,7 @@ export type ExerciseType =
   | 'key-word-transformation'
   | 'word-formation'
   | 'multiple-choice-cloze'
+  | 'open-cloze' // NUEVO: Open Cloze (FCE Part 2)
   | 'sentence-completion'
   | 'error-identification'
   | 'paraphrasing'
@@ -310,6 +311,20 @@ export interface GapFillTextExercise {
   }[];
 }
 
+export interface OpenClozeExercise {
+  id: string;
+  type: 'open-cloze';
+  title: string;
+  instructions: string;
+  text: string; // Texto con marcadores (1)___, (2)___, etc.
+  gaps: {
+    id: number;
+    correctAnswer: string;
+    explanation?: string;
+  }[];
+  points?: number;
+}
+
 export interface SentenceReorderingExercise {
   id: string;
   type: 'sentence-reordering';
@@ -344,6 +359,7 @@ export type Exercise =
   | IdiomsExpressionsExercise
   | SummaryWritingExercise
   | GapFillTextExercise
+  | OpenClozeExercise
   | SentenceReorderingExercise;
 
 export interface Lesson {

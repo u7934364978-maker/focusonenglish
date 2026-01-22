@@ -325,6 +325,97 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       setShowFeedback(true);
       setShowCelebration(true);
       setEvaluating(false);
+    } else if (currentExercise.type === 'open-cloze') {
+      const gaps = currentExercise.gaps;
+      let totalPoints = gaps.length;
+      let earnedPoints = 0;
+      const newEvaluations: any = {};
+
+      // Evaluate each gap answer
+      for (const gap of gaps) {
+        const gapId = `gap-${gap.id}`;
+        const userAnswer = answers[gapId] || '';
+
+        if (!userAnswer || userAnswer.trim() === '') {
+          newEvaluations[gapId] = {
+            isCorrect: false,
+            score: 0,
+            feedback: 'No se proporcionó respuesta',
+            detailedExplanation: 'Por favor, proporciona una respuesta.'
+          };
+          continue;
+        }
+
+        // Use AI evaluation for open cloze
+        try {
+          const response = await fetch('/api/evaluate-text-answer', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              question: `Fill gap ${gap.id} in the text with ONE word only.`,
+              userAnswer: userAnswer,
+              correctAnswer: gap.correctAnswer,
+              context: currentExercise.text || '',
+              level: 'B2',
+              questionType: 'open-cloze'
+            })
+          });
+
+          if (response.ok) {
+            const evaluation = await response.json();
+            newEvaluations[gapId] = evaluation;
+            
+            if (evaluation.isCorrect) {
+              earnedPoints += 1;
+            }
+          } else {
+            // Fallback to simple comparison
+            const userAnswerLower = userAnswer.toLowerCase().trim();
+            const correctAnswerLower = gap.correctAnswer.toLowerCase().trim();
+            const isCorrect = userAnswerLower === correctAnswerLower;
+            
+            if (isCorrect) {
+              earnedPoints += 1;
+            }
+            
+            newEvaluations[gapId] = {
+              isCorrect,
+              score: isCorrect ? 100 : 0,
+              feedback: isCorrect ? '✓ ¡Correcto!' : '✗ Respuesta incorrecta',
+              detailedExplanation: gap.explanation || (isCorrect 
+                ? 'Tu respuesta es correcta.' 
+                : `La respuesta correcta es: ${gap.correctAnswer}`)
+            };
+          }
+        } catch (error) {
+          console.error('Error evaluating open-cloze:', error);
+          // Fallback
+          const userAnswerLower = userAnswer.toLowerCase().trim();
+          const correctAnswerLower = gap.correctAnswer.toLowerCase().trim();
+          const isCorrect = userAnswerLower === correctAnswerLower;
+          
+          if (isCorrect) {
+            earnedPoints += 1;
+          }
+          
+          newEvaluations[gapId] = {
+            isCorrect,
+            score: isCorrect ? 100 : 0,
+            feedback: isCorrect ? '✓ ¡Correcto!' : '✗ Respuesta incorrecta',
+            detailedExplanation: gap.explanation || (isCorrect 
+              ? 'Tu respuesta es correcta.' 
+              : `La respuesta correcta es: ${gap.correctAnswer}`)
+          };
+        }
+      }
+
+      setAiEvaluations(newEvaluations);
+      const score = totalPoints > 0 ? (earnedPoints / totalPoints) * 100 : 0;
+      setExerciseScores(prev => ({ ...prev, [currentExercise.id]: score }));
+      setCurrentScore(score);
+      setShowFeedback(true);
+      setShowCelebration(true);
+      setEvaluating(false);
     } else {
       setEvaluating(false);
     }
@@ -1392,6 +1483,95 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 </div>
               </div>
             )}
+          </div>
+        );
+
+      case 'open-cloze':
+        return (
+          <div className="space-y-6">
+            {/* Instructions */}
+            <div className="bg-blue-50 rounded-xl p-6 border-2 border-blue-200">
+              <h3 className="text-xl font-bold text-blue-900 mb-3 flex items-center gap-2">
+                <span>✍️</span>
+                <span>{currentExercise.title}</span>
+              </h3>
+              <div className="bg-blue-100 p-3 rounded-lg border border-blue-300">
+                <p className="text-sm text-blue-900 font-semibold">
+                  💡 {currentExercise.instructions}
+                </p>
+              </div>
+            </div>
+
+            {/* Text with numbered gaps */}
+            <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
+              <p className="text-slate-700 whitespace-pre-line leading-relaxed text-lg">
+                {currentExercise.text}
+              </p>
+            </div>
+
+            {/* Gap inputs */}
+            <div className="space-y-4">
+              <h4 className="text-lg font-bold text-slate-900">Complete los huecos con UNA palabra:</h4>
+              {currentExercise.gaps.map((gap: any, idx: number) => {
+                const gapId = `gap-${gap.id}`;
+                return (
+                  <div key={gapId} className="bg-white rounded-lg p-5 border-2 border-slate-200">
+                    <div className="space-y-4">
+                      <div className="flex items-center justify-between">
+                        <p className="font-semibold text-slate-900">
+                          Hueco ({gap.id})
+                        </p>
+                      </div>
+
+                      {/* Text Input */}
+                      <div className="space-y-2">
+                        <label className="text-sm font-semibold text-slate-700">Escribe UNA palabra:</label>
+                        <input
+                          type="text"
+                          value={answers[gapId] || ''}
+                          onChange={(e) => handleAnswer(gapId, e.target.value)}
+                          placeholder="Type ONE word..."
+                          className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-blue-500 focus:outline-none"
+                        />
+                      </div>
+
+                      {/* Feedback - Enhanced with AI */}
+                      {showFeedback && (
+                        aiEvaluations[gapId] ? (
+                          <EnhancedFeedback
+                            evaluation={aiEvaluations[gapId]}
+                            userAnswer={answers[gapId]}
+                            correctAnswer={gap.correctAnswer}
+                            questionType="open-cloze"
+                          />
+                        ) : (
+                          <div className={`p-3 rounded-lg ${
+                            answers[gapId]?.toLowerCase().trim() === gap.correctAnswer?.toLowerCase().trim()
+                              ? 'bg-green-50 border-2 border-green-200'
+                              : 'bg-red-50 border-2 border-red-200'
+                          }`}>
+                            <p className="font-semibold mb-1">
+                              {answers[gapId]?.toLowerCase().trim() === gap.correctAnswer?.toLowerCase().trim()
+                                ? '✓ ¡Correcto!'
+                                : '✗ Incorrecto'}
+                            </p>
+                            <p className="text-sm mb-2">
+                              <span className="font-semibold">Respuesta correcta:</span>{' '}
+                              <span className="text-green-700 font-bold">{gap.correctAnswer}</span>
+                            </p>
+                            {gap.explanation && (
+                              <p className="text-sm text-slate-700">
+                                <span className="font-semibold">Explicación:</span> {gap.explanation}
+                              </p>
+                            )}
+                          </div>
+                        )
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         );
 
