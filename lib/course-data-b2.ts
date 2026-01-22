@@ -692,6 +692,8 @@ Sarah: Absolutely! By the end of my two-year contract, I had grown both personal
           grammar: true,
           vocabulary: true
         },
+        targetWords: ['had been', 'had prepared', 'had studied', 'had organized', 'turned out', 'expected'],
+        expectedResponse: 'A personal story using Past Perfect to describe preparation and Past Simple to describe the actual outcome.',
         hints: [
           'Start with background: "I had been preparing for..."',
           'Explain your preparation: "I had studied/practiced/organized..."',

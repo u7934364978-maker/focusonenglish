@@ -11,6 +11,7 @@ import SpeakingPart1 from '@/components/course/SpeakingPart1';
 import SpeakingPart2 from '@/components/course/SpeakingPart2';
 import SpeakingPart3 from '@/components/course/SpeakingPart3';
 import SpeakingPart4 from '@/components/course/SpeakingPart4';
+import EnhancedSpeakingExercise from '@/components/EnhancedSpeakingExercise';
 import { Lesson, Exercise, Question, SentenceBuildingExercise } from '@/lib/course-data-b2';
 import { TextAnswerEvaluationResponse } from '@/app/api/evaluate-text-answer/route';
 import { WritingEvaluationResponse } from '@/app/api/evaluate-writing/route';
@@ -1270,87 +1271,29 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       case 'speaking':
         return (
-          <div className="space-y-6">
-            {!recordedAudio ? (
-              <EnhancedVoiceRecorder
-                exerciseId={currentExercise.id}
-                prompt={currentExercise.prompt}
-                targetText={currentExercise.targetText || ''}
-                timeLimit={currentExercise.timeLimit}
-                modelAudioUrl={currentExercise.modelAudioUrl}
-                hints={currentExercise.hints}
-                onComplete={handleVoiceRecordingComplete}
-              />
-            ) : !pronunciationFeedback ? (
-              <SmartPronunciationEvaluator
-                targetText={currentExercise.targetText || ''}
-                prompt={currentExercise.prompt}
-                transcript={recordedAudio.transcript}
-                audioBlob={recordedAudio.blob}
-                modelAudioUrl={currentExercise.modelAudioUrl}
-                onEvaluationComplete={handlePronunciationEvaluationComplete}
-              />
-            ) : pronunciationFeedback ? (
-              <div className="bg-white rounded-xl border-2 border-amber-200 p-6">
-                <p className="text-amber-800 font-semibold mb-2">✓ Exercise Completed!</p>
-                <p className="text-slate-700">Your pronunciation has been evaluated. Click "Next Exercise" to continue.</p>
-              </div>
-            ) : (
-              <div className="space-y-4">
-                {/* Speaking Exercise Completed */}
-                <div className="bg-white rounded-xl border-2 border-amber-200 p-6">
-                  <h3 className="text-xl font-bold text-amber-800 mb-3 flex items-center gap-2">
-                    <span>✓</span>
-                    <span>Recording Submitted Successfully!</span>
-                  </h3>
-                  <p className="text-slate-700 mb-4">
-                    Your speaking exercise has been recorded. Here's what you said:
-                  </p>
-                  
-                  {/* Transcript */}
-                  {recordedAudio.transcript && (
-                    <div className="bg-orange-50 rounded-lg p-4 border border-orange-200 mb-4">
-                      <h4 className="font-semibold text-coral-900 mb-2 flex items-center gap-2">
-                        <span>📝</span>
-                        <span>Your Transcript:</span>
-                      </h4>
-                      <p className="text-slate-700 italic">"{recordedAudio.transcript}"</p>
-                      <p className="text-sm text-coral-700 mt-2">
-                        Word count: {recordedAudio.transcript.split(' ').length} words
-                      </p>
-                    </div>
-                  )}
-
-                  {/* Basic Feedback */}
-                  <div className="bg-peach-50 rounded-lg p-4 border border-peach-200">
-                    <h4 className="font-semibold text-peach-900 mb-2">Quick Feedback:</h4>
-                    <ul className="space-y-2">
-                      {recordedAudio.transcript && recordedAudio.transcript.split(' ').length >= 50 && (
-                        <li className="flex items-start gap-2 text-amber-700">
-                          <span className="mt-0.5">✓</span>
-                          <span>Good length - you spoke enough to express your ideas</span>
-                        </li>
-                      )}
-                      {recordedAudio.transcript && recordedAudio.transcript.split(' ').length < 50 && (
-                        <li className="flex items-start gap-2 text-amber-700">
-                          <span className="mt-0.5">→</span>
-                          <span>Try to speak more to fully develop your answer</span>
-                        </li>
-                      )}
-                      <li className="flex items-start gap-2 text-coral-700">
-                        <span className="mt-0.5">💡</span>
-                        <span>In a real exam, a teacher would evaluate your: grammar, vocabulary, fluency, and pronunciation</span>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <p className="text-sm text-slate-600 mt-4 text-center">
-                    Click "Next Exercise" to continue to the next activity
-                  </p>
-                </div>
-              </div>
-            )}
-          </div>
+          <EnhancedSpeakingExercise
+            question={{
+              id: currentExercise.id,
+              prompt: currentExercise.prompt,
+              expectedResponse: currentExercise.expectedResponse,
+              hints: currentExercise.hints,
+              targetWords: currentExercise.targetWords,
+              modelAudioUrl: currentExercise.modelAudioUrl,
+              timeLimit: currentExercise.timeLimit
+            }}
+            onComplete={(evaluation) => {
+              // Calculate score from evaluation
+              const score = evaluation.overallScore;
+              setExerciseScores(prev => ({
+                ...prev,
+                [currentExercise.id]: score
+              }));
+              // Mark as completed to enable next button
+              setShowFeedback(true);
+              console.log('Speaking evaluation:', evaluation);
+            }}
+            level="B2"
+          />
         );
 
       case 'speaking-part1':
