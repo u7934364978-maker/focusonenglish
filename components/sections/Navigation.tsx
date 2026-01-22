@@ -66,7 +66,7 @@ export function Navigation() {
               Test de Nivel
             </Link>
             <Link 
-              href="/signin"
+              href="/cuenta/login"
               className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors"
             >
               Iniciar Sesión
@@ -147,7 +147,7 @@ export function Navigation() {
                 Test de Nivel
               </Link>
               <Link 
-                href="/signin" 
+                href="/cuenta/login" 
                 className="text-sm font-bold text-slate-700 hover:text-coral-600 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >

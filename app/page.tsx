@@ -73,7 +73,7 @@ export default function HomePage() {
                 </Link>
                 
                 <Link
-                  href="/signin"
+                  href="/cuenta/login"
                   className="cta-primary inline-flex items-center gap-2"
                 >
                   🔑 Iniciar Sesión
