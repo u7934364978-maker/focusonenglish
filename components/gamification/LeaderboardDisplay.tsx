@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Trophy, Medal, Crown, TrendingUp, Users } from 'lucide-react';
-import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
+import { supabase } from '@/lib/supabase-client';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
@@ -24,7 +24,6 @@ export function LeaderboardDisplay({ currentUserId }: LeaderboardDisplayProps) {
   const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [timeframe, setTimeframe] = useState<'all' | 'week' | 'month'>('all');
-  const supabase = createClientComponentClient();
 
   useEffect(() => {
     loadLeaderboard();

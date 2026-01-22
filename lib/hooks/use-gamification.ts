@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
+import { supabase } from '@/lib/supabase-client';
 import { awardXP, calculateLevel } from '@/lib/gamification/xp';
 import { checkAndAwardBadges, type Badge } from '@/lib/gamification/badges';
 import { updateStreak, type StreakData } from '@/lib/gamification/streaks';
@@ -28,8 +28,6 @@ export function useGamification() {
     },
     isLoading: true,
   });
-
-  const supabase = createClientComponentClient();
 
   useEffect(() => {
     loadGamificationData();
