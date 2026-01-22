@@ -1697,7 +1697,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
             {/* Transformations */}
             <div className="space-y-4">
-              {currentExercise.transformations.map((transformation: any, idx: number) => (
+              {(currentExercise.transformations || currentExercise.questions || []).map((transformation: any, idx: number) => (
                 <div key={transformation.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
                   <div className="space-y-3">
                     {/* Original Sentence */}
