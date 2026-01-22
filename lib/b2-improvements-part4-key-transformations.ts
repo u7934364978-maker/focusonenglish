@@ -611,15 +611,163 @@ export const KEY_WORD_TRANSFORMATION_EXERCISES: KeyWordTransformationExercise[] 
         points: 2
       }
     ]
+  },
+
+  {
+    id: 'b2-kt-9',
+    type: 'key-word-transformation',
+    title: 'Key Word Transformations: Advanced Comparatives & Superlatives',
+    difficulty: 'hard',
+    focusArea: 'Comparative structures and intensifiers',
+    instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+    transformations: [
+      {
+        id: 'kt9-1',
+        sentence: 'No other city in Europe is as expensive as London.',
+        keyWord: 'most',
+        startOfAnswer: 'London',
+        correctAnswer: 'is the most expensive',
+        explanation: 'Use superlative form: the most + adjective + noun to express the highest degree',
+        grammaticalStructure: 'Superlative: the most + adjective',
+        points: 2
+      },
+      {
+        id: 'kt9-2',
+        sentence: 'The more you practice, the better you become.',
+        keyWord: 'get',
+        startOfAnswer: 'The more',
+        correctAnswer: 'you practice the better',
+        acceptableVariations: ['you practice, the better'],
+        explanation: 'Use double comparative structure: The more...the better + you get',
+        grammaticalStructure: 'Double comparative: The more...the better',
+        points: 2
+      },
+      {
+        id: 'kt9-3',
+        sentence: 'This task is much more difficult than I anticipated.',
+        keyWord: 'far',
+        startOfAnswer: 'This task',
+        correctAnswer: 'is far more difficult',
+        explanation: 'Use far + comparative to intensify the comparison (much = far)',
+        grammaticalStructure: 'Far + comparative (intensifier)',
+        points: 2
+      },
+      {
+        id: 'kt9-4',
+        sentence: "The train journey wasn't nearly as long as I expected.",
+        keyWord: 'much',
+        startOfAnswer: 'The train',
+        correctAnswer: 'journey was much shorter',
+        explanation: 'Use much + comparative adjective to show significant difference',
+        grammaticalStructure: 'Much + comparative adjective',
+        points: 2
+      },
+      {
+        id: 'kt9-5',
+        sentence: 'As she gets older, she becomes more patient.',
+        keyWord: 'the',
+        startOfAnswer: 'The',
+        correctAnswer: 'older she gets the',
+        acceptableVariations: ['older she gets, the'],
+        explanation: 'Use double comparative: The + comparative...the + comparative',
+        grammaticalStructure: 'Double comparative structure',
+        points: 2
+      },
+      {
+        id: 'kt9-6',
+        sentence: "I've never read such an interesting book.",
+        keyWord: 'by',
+        startOfAnswer: 'This is',
+        correctAnswer: 'by far the most',
+        explanation: 'Use by far + superlative to emphasize the highest degree',
+        grammaticalStructure: 'By far + superlative (emphasis)',
+        points: 2
+      }
+    ]
+  },
+
+  {
+    id: 'b2-kt-10',
+    type: 'key-word-transformation',
+    title: 'Key Word Transformations: Advanced Verb Patterns & Gerunds/Infinitives',
+    difficulty: 'hard',
+    focusArea: 'Complex verb patterns and gerund/infinitive structures',
+    instructions: 'Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.',
+    transformations: [
+      {
+        id: 'kt10-1',
+        sentence: 'They prevented me from entering the building.',
+        keyWord: 'allowed',
+        startOfAnswer: 'I',
+        correctAnswer: "wasn't allowed to enter",
+        acceptableVariations: ['was not allowed to enter'],
+        explanation: 'Prevent someone from doing = not allow someone to do',
+        grammaticalStructure: 'Be (not) allowed to + infinitive',
+        points: 2
+      },
+      {
+        id: 'kt10-2',
+        sentence: 'She avoids talking about her past.',
+        keyWord: 'tends',
+        startOfAnswer: 'She',
+        correctAnswer: 'tends not to talk',
+        explanation: 'Avoid doing something = tend not to do something (habitual behavior)',
+        grammaticalStructure: 'Tend (not) to + infinitive',
+        points: 2
+      },
+      {
+        id: 'kt10-3',
+        sentence: 'He denied stealing the money.',
+        keyWord: 'said',
+        startOfAnswer: 'He',
+        correctAnswer: "said he hadn't stolen",
+        acceptableVariations: ['said he had not stolen'],
+        explanation: 'Deny doing = say you didn\'t do (reported speech with past perfect)',
+        grammaticalStructure: 'Reported speech: said + past perfect',
+        points: 2
+      },
+      {
+        id: 'kt10-4',
+        sentence: 'The doctor advised me to rest for a week.',
+        keyWord: 'recommended',
+        startOfAnswer: 'The doctor',
+        correctAnswer: 'recommended that I rest',
+        acceptableVariations: ['recommended that I should rest', 'recommended I rest'],
+        explanation: 'Advise someone to do = recommend that someone do/should do (subjunctive)',
+        grammaticalStructure: 'Recommend + that + subjunctive',
+        points: 2
+      },
+      {
+        id: 'kt10-5',
+        sentence: "I can't stand people interrupting me while I'm working.",
+        keyWord: 'being',
+        startOfAnswer: 'I',
+        correctAnswer: "can't stand being interrupted",
+        acceptableVariations: ['cannot stand being interrupted'],
+        explanation: 'Can\'t stand + someone doing = can\'t stand + being + past participle (passive gerund)',
+        grammaticalStructure: 'Can\'t stand + passive gerund',
+        points: 2
+      },
+      {
+        id: 'kt10-6',
+        sentence: 'She regrets not taking that job offer.',
+        keyWord: 'wishes',
+        startOfAnswer: 'She',
+        correctAnswer: 'wishes she had taken',
+        explanation: 'Regret not doing = wish + past perfect (past regret)',
+        grammaticalStructure: 'Wish + past perfect (regret)',
+        points: 2
+      }
+    ]
   }
 ];
 
 // Summary
 export const KEY_WORD_TRANSFORMATION_SUMMARY = {
-  total: 8,
-  implemented: 8,
+  total: 10,
+  implemented: 10,
   transformationsPerExercise: 6,
-  totalTransformations: 48,
+  totalTransformations: 60,
   structures: [
     'Passive reporting verbs',
     'Causative have/get',
@@ -628,6 +776,8 @@ export const KEY_WORD_TRANSFORMATION_SUMMARY = {
     'Negative inversion',
     'Cleft sentences',
     'Mixed advanced structures',
-    'Modal verbs and alternatives'
+    'Modal verbs and alternatives',
+    'Advanced comparatives & superlatives',
+    'Verb patterns & gerunds/infinitives'
   ]
 };

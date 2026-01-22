@@ -57,47 +57,41 @@
 
 ---
 
-#### 4. **Key Word Transformations - MEJORADAS**
-**Problemas actuales**: Demasiado simples, nivel A2/B1
-**Mejoras necesarias**:
+#### 4. **Key Word Transformations - ✅ COMPLETADO**
+**Estado**: 100% completo - 60 transformaciones B2 auténticas
+**Mejoras realizadas**:
 
-**ANTES** (A2/B1 level):
+**COMPLETADO** (60 transformaciones B2 auténticas):
 ```
-Key: impossible
-Sentence: It's _____ to finish this today.
-Answer: impossible
-```
-
-**DESPUÉS** (B2 authentic):
-```
-Key: take
-It's about time the government _____ action on climate change.
-Answer: took
-(Past subjunctive after "It's time")
-
-Key: put
-I can't _____ his constant complaining any longer.
-Answer: put up with
-(Phrasal verb - tolerate)
-
-Key: reported
-The minister _____ the decision had been made.
-Answer: is reported to have made
-(Passive reporting structure)
-
-Key: have
-I'd _____ coffee to tea if that's possible.
-Answer: rather have
-(Would rather + infinitive)
+✅ 10 ejercicios totales (vs 8 anteriores)
+✅ 60 transformaciones (vs 48 anteriores)
+✅ 10 categorías gramaticales cubiertas
 ```
 
-**Estructuras B2 a incluir**:
-- Passive reporting verbs (be said/reported/believed to)
-- Causative (have/get something done)
-- Phrasal verbs (put up with, come up with, etc.)
-- Conditional structures (If only, I wish, It's time)
-- Inversion after negative adverbials
-- Cleft sentences (It was...that/who)
+**Ejercicios incluidos:**
+1. ✅ Passive Reporting Verbs (6 transformations)
+2. ✅ Causative Have/Get (6 transformations)
+3. ✅ Phrasal Verbs (6 transformations)
+4. ✅ Wish/If only/It's time (6 transformations)
+5. ✅ Negative Inversion (6 transformations)
+6. ✅ Cleft Sentences (6 transformations)
+7. ✅ Mixed Advanced Structures (6 transformations)
+8. ✅ Modal Verbs & Alternatives (6 transformations)
+9. ✅ **NEW** Advanced Comparatives & Superlatives (6 transformations)
+10. ✅ **NEW** Verb Patterns & Gerunds/Infinitives (6 transformations)
+
+**Estructuras B2 cubiertas:**
+- ✅ Passive reporting verbs (be said/reported/believed to)
+- ✅ Causative (have/get something done)
+- ✅ Phrasal verbs (put up with, come up with, etc.)
+- ✅ Conditional structures (If only, I wish, It's time)
+- ✅ Inversion after negative adverbials
+- ✅ Cleft sentences (It was...that/who)
+- ✅ Advanced comparatives & superlatives
+- ✅ Complex verb patterns & gerunds/infinitives
+
+**Archivo**: `lib/b2-improvements-part4-key-transformations.ts`
+**Documentación**: `KEY_TRANSFORMATIONS_IMPROVEMENT_SUMMARY.md`
 
 ---
 
@@ -290,7 +284,7 @@ A) made  B) done  C) carried  D) worked
 1. ✅ Open Cloze (12 ejercicios) - COMPLETO
 2. 🟡 Gapped Text (completar 3 restantes) - 50% DONE
 3. ⏳ Multiple Matching (6 ejercicios)
-4. ⏳ Key Word Transformations mejoradas
+4. ✅ Key Word Transformations mejoradas - COMPLETO (60 transformaciones)
 
 ### 🟡 MEDIA PRIORIDAD (Semana 3)
 5. ⏳ Multiple Choice Cloze mejoradas
@@ -311,11 +305,11 @@ A) made  B) done  C) carried  D) worked
 | Open Cloze | 12 | 12 | 0 | 100% |
 | Gapped Text | 6 | 3 | 3 | 50% |
 | Multiple Matching | 6 | 0 | 6 | 0% |
-| Key Word Trans | 30+ | 0 | 30+ | 0% |
+| Key Word Trans | 30+ | 60 | 0 | 100% |
 | Multi Choice Cloze | 20+ | 0 | 20+ | 0% |
 | Speaking Parts | 4 | 0 | 4 | 0% |
 | Writing Types | 3 | 0 | 3 | 0% |
-| **TOTAL** | **100+** | **15** | **85+** | **15%** |
+| **TOTAL** | **100+** | **75** | **25+** | **75%** |
 
 ---
 
@@ -323,12 +317,12 @@ A) made  B) done  C) carried  D) worked
 
 1. **Completar Gapped Text** (3 ejercicios restantes)
 2. **Crear Multiple Matching** (6 ejercicios completos)
-3. **Mejorar Key Word Transformations** (30 ejercicios B2 auténticos)
+3. ✅ **~~Mejorar Key Word Transformations~~** (COMPLETADO - 60 ejercicios B2 auténticos)
 4. **Commit y PR** de lo completado hasta ahora
 
 ---
 
 **Creado**: 2026-01-18
-**Actualizado**: En progreso
-**Estado**: 15% completado
-**Tiempo estimado restante**: 18-21 horas
+**Actualizado**: 2026-01-22
+**Estado**: 75% completado (Key Word Transformations ✅)
+**Tiempo estimado restante**: 12-15 horas
