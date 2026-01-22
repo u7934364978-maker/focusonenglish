@@ -143,10 +143,19 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               earnedPoints += q.points * percentageCorrect;
             } else {
               // Fallback to basic string matching
-              const correctAnswer = Array.isArray(q.correctAnswer) 
-                ? q.correctAnswer.map(a => a.toLowerCase().trim())
-                : [q.correctAnswer.toLowerCase().trim()];
-              const isCorrect = correctAnswer.some(ca => 
+              // Check acceptableAnswers first, then correctAnswer
+              const acceptableAnswers = (q as any).acceptableAnswers;
+              let answersToCheck: string[] = [];
+              
+              if (acceptableAnswers && Array.isArray(acceptableAnswers)) {
+                answersToCheck = acceptableAnswers.map(a => a.toLowerCase().trim());
+              } else if (Array.isArray(q.correctAnswer)) {
+                answersToCheck = q.correctAnswer.map(a => a.toLowerCase().trim());
+              } else {
+                answersToCheck = [q.correctAnswer.toLowerCase().trim()];
+              }
+              
+              const isCorrect = answersToCheck.some(ca => 
                 userAnswer.toLowerCase().trim() === ca
               );
               if (isCorrect) earnedPoints += q.points;
@@ -154,10 +163,19 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           } catch (error) {
             console.error('Error evaluating text answer:', error);
             // Fallback
-            const correctAnswer = Array.isArray(q.correctAnswer) 
-              ? q.correctAnswer.map(a => a.toLowerCase().trim())
-              : [q.correctAnswer.toLowerCase().trim()];
-            const isCorrect = correctAnswer.some(ca => 
+            // Check acceptableAnswers first, then correctAnswer
+            const acceptableAnswers = (q as any).acceptableAnswers;
+            let answersToCheck: string[] = [];
+            
+            if (acceptableAnswers && Array.isArray(acceptableAnswers)) {
+              answersToCheck = acceptableAnswers.map(a => a.toLowerCase().trim());
+            } else if (Array.isArray(q.correctAnswer)) {
+              answersToCheck = q.correctAnswer.map(a => a.toLowerCase().trim());
+            } else {
+              answersToCheck = [q.correctAnswer.toLowerCase().trim()];
+            }
+            
+            const isCorrect = answersToCheck.some(ca => 
               userAnswer.toLowerCase().trim() === ca
             );
             if (isCorrect) earnedPoints += q.points;

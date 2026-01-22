@@ -506,8 +506,9 @@ export const MODULE_1_LESSONS: Lesson[] = [
           {
             id: 'q1',
             type: 'fill-blank',
-            question: 'She was out of breath because she ___.',
+            question: 'She was out of breath because she ___ (run).',
             correctAnswer: 'had been running',
+            acceptableAnswers: ['had been running', 'had run'],
             explanation: 'Enfatizamos la duración de la actividad (correr) que causó el resultado (sin aliento).',
             points: 1
           },
@@ -516,6 +517,7 @@ export const MODULE_1_LESSONS: Lesson[] = [
             type: 'fill-blank',
             question: 'How long ___ (you/wait) when the train arrived?',
             correctAnswer: 'had you been waiting',
+            acceptableAnswers: ['had you been waiting', 'had you waited'],
             explanation: 'Pregunta sobre la duración de la espera antes de la llegada del tren.',
             points: 1
           },
@@ -538,6 +540,12 @@ export const MODULE_1_LESSONS: Lesson[] = [
             type: 'short-answer',
             question: 'Explain the difference: "He had worked" vs "He had been working"',
             correctAnswer: 'Had worked = acción completada. Had been working = énfasis en duración/proceso.',
+            acceptableAnswers: [
+              'Had worked = acción completada. Had been working = énfasis en duración/proceso.',
+              'He had worked: finished action. He had been working: continuous action.',
+              'Had worked = acción terminada. Had been working = duración/proceso.',
+              'Past Perfect = acción terminada. Past Perfect Continuous = duración/proceso.'
+            ],
             explanation: 'Past Perfect = acción terminada. Past Perfect Continuous = duración/proceso.',
             points: 2
           }
@@ -564,6 +572,13 @@ By the end of her three-week stay, Maria had visited temples, tried countless ne
             type: 'short-answer',
             question: 'What had Maria done before traveling to Japan?',
             correctAnswer: 'She had studied Japanese for six months',
+            acceptableAnswers: [
+              'She had studied Japanese for six months',
+              'she had studied Japanese for six month and had read countless books about Japanese culture',
+              'She had studied Japanese',
+              'studied Japanese for six months',
+              'She studied Japanese for six months'
+            ],
             explanation: 'El texto dice: "she had studied Japanese for six months"',
             points: 1
           },
@@ -602,6 +617,13 @@ By the end of her three-week stay, Maria had visited temples, tried countless ne
             type: 'short-answer',
             question: 'How did Maria feel about her trip by the end?',
             correctAnswer: 'It exceeded her expectations and changed her perspective on life',
+            acceptableAnswers: [
+              'It exceeded her expectations and changed her perspective on life',
+              'The trip had exceeded all her expectations and had changed her perspective on life',
+              'exceeded her expectations and changed her perspective',
+              'It exceeded her expectations',
+              'changed her perspective on life'
+            ],
             explanation: 'El texto concluye: "had exceeded all her expectations and had changed her perspective on life"',
             points: 2
           },
