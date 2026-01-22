@@ -66,7 +66,7 @@ export async function middleware(req: NextRequest) {
 
   // Rutas protegidas que requieren autenticación
   const protectedPaths = [
-    '/dashboard',
+    // '/dashboard', // Temporalmente deshabilitado para desarrollo
     '/estudiante',
     '/curso-b2',
     '/profile',
