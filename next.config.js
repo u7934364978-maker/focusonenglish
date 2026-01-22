@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Standard Next.js output for Cloudflare Pages
-  output: 'standalone',
+  // Cloudflare Pages uses @cloudflare/next-on-pages adapter
+  // No need to specify output mode
   
   // TEMPORARY: Disable TypeScript/ESLint checks during build
   // Remove these after fixing all errors (see TYPESCRIPT_ESLINT_AUDIT.md)
