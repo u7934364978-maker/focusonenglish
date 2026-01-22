@@ -1746,6 +1746,273 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           </div>
         );
 
+      case 'sentence-completion':
+        return (
+          <div className="space-y-6">
+            {/* Instructions */}
+            <div className="bg-purple-50 rounded-xl p-6 border-2 border-purple-200">
+              <h3 className="text-xl font-bold text-purple-900 mb-3 flex items-center gap-2">
+                <span>✏️</span>
+                <span>{currentExercise.title}</span>
+              </h3>
+              <div className="bg-purple-100 p-3 rounded-lg border border-purple-300">
+                <p className="text-sm text-purple-900 font-semibold">
+                  💡 {currentExercise.instructions}
+                </p>
+              </div>
+            </div>
+
+            {/* Sentences */}
+            <div className="space-y-4">
+              {currentExercise.sentences.map((sentence: any, idx: number) => (
+                <div key={sentence.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
+                  <div className="space-y-3">
+                    <p className="font-semibold text-slate-900">
+                      {idx + 1}. {sentence.prompt}
+                    </p>
+
+                    {/* Multiple choice options if available */}
+                    {sentence.options && sentence.options.length > 0 ? (
+                      <div className="space-y-2">
+                        {sentence.options.map((option: string, optIdx: number) => (
+                          <label
+                            key={optIdx}
+                            className={`flex items-center gap-3 p-3 rounded-lg border-2 hover:bg-purple-50 cursor-pointer transition-all ${
+                              answers[sentence.id] === option
+                                ? 'border-purple-500 bg-purple-50'
+                                : 'border-slate-200'
+                            }`}
+                          >
+                            <input
+                              type="radio"
+                              name={sentence.id}
+                              value={option}
+                              checked={answers[sentence.id] === option}
+                              onChange={(e) => handleAnswer(sentence.id, e.target.value)}
+                              className="w-4 h-4 text-purple-600"
+                              disabled={showFeedback}
+                            />
+                            <span className="text-slate-900">{option}</span>
+                          </label>
+                        ))}
+                      </div>
+                    ) : (
+                      <input
+                        type="text"
+                        value={answers[sentence.id] || ''}
+                        onChange={(e) => handleAnswer(sentence.id, e.target.value)}
+                        placeholder="Complete the sentence..."
+                        className="w-full px-4 py-3 rounded-lg border-2 border-slate-200 focus:border-purple-500 focus:outline-none"
+                        disabled={showFeedback}
+                      />
+                    )}
+
+                    {/* Feedback */}
+                    {showFeedback && (
+                      <div className={`p-3 rounded-lg ${
+                        answers[sentence.id]?.toLowerCase().trim() === sentence.correctCompletion?.toLowerCase().trim()
+                          ? 'bg-green-50 border-2 border-green-200'
+                          : 'bg-red-50 border-2 border-red-200'
+                      }`}>
+                        <p className="font-semibold mb-1">
+                          {answers[sentence.id]?.toLowerCase().trim() === sentence.correctCompletion?.toLowerCase().trim()
+                            ? '✓ ¡Correcto!'
+                            : '✗ Incorrecto'}
+                        </p>
+                        <p className="text-sm mb-1">
+                          <span className="font-semibold">Respuesta correcta:</span>{' '}
+                          <span className="text-green-700 font-bold">{sentence.correctCompletion}</span>
+                        </p>
+                        {sentence.explanation && (
+                          <p className="text-sm text-slate-700">
+                            <span className="font-semibold">Explicación:</span> {sentence.explanation}
+                          </p>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating}
+                className="w-full px-6 py-4 bg-purple-600 text-white rounded-xl hover:bg-purple-700 transition-colors font-bold text-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+              >
+                {evaluating ? (
+                  <>
+                    <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                    <span>Evaluando...</span>
+                  </>
+                ) : (
+                  'Evaluar Respuestas'
+                )}
+              </button>
+            )}
+          </div>
+        );
+
+      case 'error-identification':
+        return (
+          <div className="space-y-6">
+            {/* Instructions */}
+            <div className="bg-red-50 rounded-xl p-6 border-2 border-red-200">
+              <h3 className="text-xl font-bold text-red-900 mb-3 flex items-center gap-2">
+                <span>🔍</span>
+                <span>{currentExercise.title}</span>
+              </h3>
+              <div className="bg-red-100 p-3 rounded-lg border border-red-300">
+                <p className="text-sm text-red-900 font-semibold">
+                  💡 {currentExercise.instructions}
+                </p>
+              </div>
+            </div>
+
+            {/* Sentences */}
+            <div className="space-y-4">
+              {currentExercise.sentences.map((sentence: any, idx: number) => (
+                <div key={sentence.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
+                  <div className="space-y-3">
+                    <p className="text-lg text-slate-900 mb-3 leading-relaxed">
+                      {idx + 1}. "{sentence.sentence}"
+                    </p>
+
+                    {/* Error identification options */}
+                    <div className="space-y-2">
+                      <label className={`flex items-center gap-3 p-3 rounded-lg border-2 hover:bg-green-50 cursor-pointer transition-all ${
+                        answers[sentence.id] === 'correct'
+                          ? 'border-green-500 bg-green-50'
+                          : 'border-slate-200'
+                      }`}>
+                        <input
+                          type="radio"
+                          name={sentence.id}
+                          value="correct"
+                          checked={answers[sentence.id] === 'correct'}
+                          onChange={(e) => handleAnswer(sentence.id, e.target.value)}
+                          className="w-4 h-4 text-green-600"
+                          disabled={showFeedback}
+                        />
+                        <span className="text-slate-900 font-medium">✓ La oración es correcta</span>
+                      </label>
+
+                      <label className={`flex items-center gap-3 p-3 rounded-lg border-2 hover:bg-red-50 cursor-pointer transition-all ${
+                        answers[sentence.id] === 'error'
+                          ? 'border-red-500 bg-red-50'
+                          : 'border-slate-200'
+                      }`}>
+                        <input
+                          type="radio"
+                          name={sentence.id}
+                          value="error"
+                          checked={answers[sentence.id] === 'error'}
+                          onChange={(e) => handleAnswer(sentence.id, e.target.value)}
+                          className="w-4 h-4 text-red-600"
+                          disabled={showFeedback}
+                        />
+                        <span className="text-slate-900 font-medium">✗ La oración tiene un error</span>
+                      </label>
+                    </div>
+
+                    {/* Feedback */}
+                    {showFeedback && (
+                      <div className={`p-3 rounded-lg ${
+                        (sentence.hasError && answers[sentence.id] === 'error') || 
+                        (!sentence.hasError && answers[sentence.id] === 'correct')
+                          ? 'bg-green-50 border-2 border-green-200'
+                          : 'bg-red-50 border-2 border-red-200'
+                      }`}>
+                        <p className="font-semibold mb-1">
+                          {(sentence.hasError && answers[sentence.id] === 'error') || 
+                           (!sentence.hasError && answers[sentence.id] === 'correct')
+                            ? '✓ ¡Correcto!'
+                            : '✗ Incorrecto'}
+                        </p>
+                        <p className="text-sm mb-1">
+                          <span className="font-semibold">Respuesta correcta:</span>{' '}
+                          {sentence.hasError ? 'La oración tiene un error' : 'La oración es correcta'}
+                        </p>
+                        {sentence.hasError && (
+                          <>
+                            <p className="text-sm mb-1">
+                              <span className="font-semibold">Error:</span>{' '}
+                              <span className="text-red-700 font-bold">{sentence.errorWord}</span>
+                            </p>
+                            <p className="text-sm mb-1">
+                              <span className="font-semibold">Corrección:</span>{' '}
+                              <span className="text-green-700 font-bold">{sentence.correction}</span>
+                            </p>
+                          </>
+                        )}
+                        {sentence.explanation && (
+                          <p className="text-sm text-slate-700">
+                            <span className="font-semibold">Explicación:</span> {sentence.explanation}
+                          </p>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {!showFeedback && (
+              <button
+                onClick={checkAnswers}
+                disabled={evaluating}
+                className="w-full px-6 py-4 bg-red-600 text-white rounded-xl hover:bg-red-700 transition-colors font-bold text-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+              >
+                {evaluating ? (
+                  <>
+                    <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                    <span>Evaluando...</span>
+                  </>
+                ) : (
+                  'Evaluar Respuestas'
+                )}
+              </button>
+            )}
+          </div>
+        );
+
+      case 'paraphrasing':
+      case 'gap-fill-text':
+      case 'collocation-matching':
+      case 'phrasal-verbs':
+        return (
+          <div className="space-y-6">
+            {/* Instructions */}
+            <div className="bg-indigo-50 rounded-xl p-6 border-2 border-indigo-200">
+              <h3 className="text-xl font-bold text-indigo-900 mb-3 flex items-center gap-2">
+                <span>📝</span>
+                <span>{currentExercise.title}</span>
+              </h3>
+              <div className="bg-indigo-100 p-3 rounded-lg border border-indigo-300">
+                <p className="text-sm text-indigo-900 font-semibold">
+                  💡 {currentExercise.instructions || 'Complete este ejercicio'}
+                </p>
+              </div>
+            </div>
+
+            {/* Generic rendering for these types */}
+            <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
+              <p className="text-slate-700 text-center">
+                Este tipo de ejercicio ({currentExercise.type}) está en desarrollo. 
+                Por favor, usa los otros ejercicios disponibles mientras implementamos esta funcionalidad.
+              </p>
+            </div>
+
+            <button
+              onClick={() => setShowFeedback(false)}
+              className="w-full px-6 py-4 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition-colors font-bold text-lg shadow-lg"
+            >
+              Continuar
+            </button>
+          </div>
+        );
+
       default:
         return <p>Unknown exercise type</p>;
     }
