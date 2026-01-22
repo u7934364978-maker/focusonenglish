@@ -49,8 +49,11 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         currentExercise.type === 'reading' || 
         currentExercise.type === 'listening' || 
         currentExercise.type === 'vocabulary' ||
-        currentExercise.type === 'multiple-choice-cloze') {
-      const questions = currentExercise.questions;
+        currentExercise.type === 'multiple-choice-cloze' ||
+        (currentExercise.type === 'pronunciation' && (currentExercise as any).exercises)) {
+      const questions = currentExercise.type === 'pronunciation' 
+        ? (currentExercise as any).exercises 
+        : currentExercise.questions;
       let totalPoints = 0;
       let earnedPoints = 0;
       const evaluations: { [questionId: string]: EvaluationResult } = {};
@@ -103,8 +106,8 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           }
         }
         
-        // SHORT ANSWER or FILL BLANK - Use AI evaluation
-        else if (q.type === 'short-answer' || q.type === 'fill-blank') {
+        // SHORT ANSWER, FILL BLANK, or ESSAY - Use AI evaluation
+        else if (q.type === 'short-answer' || q.type === 'fill-blank' || q.type === 'essay') {
           try {
             const response = await fetch('/api/evaluate-text-answer', {
               method: 'POST',
@@ -150,12 +153,17 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           }
         }
         
-        // TRUE/FALSE - Simple exact match
-        else if (q.type === 'true-false') {
+        // TRUE/FALSE or STRESS-IDENTIFICATION - Simple exact match
+        else if (q.type === 'true-false' || q.type === 'stress-identification') {
           const correctAnswer = Array.isArray(q.correctAnswer) ? q.correctAnswer[0] : q.correctAnswer;
           if (userAnswer.toLowerCase().trim() === correctAnswer.toLowerCase().trim()) {
             earnedPoints += q.points;
           }
+        }
+        
+        // MINIMAL-PAIRS - Informational only, give full points for completion
+        else if (q.type === 'minimal-pairs') {
+          earnedPoints += q.points;
         }
       }
 
@@ -1023,6 +1031,24 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     />
                   )}
 
+                  {question.type === 'essay' && (
+                    <div className="space-y-2">
+                      <textarea
+                        value={answers[question.id] || ''}
+                        onChange={(e) => handleAnswer(question.id, e.target.value)}
+                        placeholder="Write your essay here..."
+                        rows={8}
+                        className="w-full px-4 py-3 rounded-lg border-2 border-slate-200 focus:border-orange-500 focus:outline-none font-sans"
+                      />
+                      <div className="flex items-center justify-between text-sm text-slate-600">
+                        <span>Word count: {(answers[question.id] || '').split(/\s+/).filter(w => w.length > 0).length} words</span>
+                        {question.explanation && !showFeedback && (
+                          <span className="text-xs italic">💡 {question.explanation}</span>
+                        )}
+                      </div>
+                    </div>
+                  )}
+
                   {question.type === 'true-false' && (
                     <div className="flex gap-4">
                       <label className="flex items-center gap-2 cursor-pointer">
@@ -1094,18 +1120,114 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         );
 
       case 'pronunciation':
+        const pronExercise = currentExercise as any;
         return (
-          <PronunciationPractice
-            exerciseId={currentExercise.id}
-            prompt={currentExercise.prompt}
-            targetText={currentExercise.targetText || ''}
-            modelAudioUrl={currentExercise.modelAudioUrl}
-            hints={currentExercise.hints}
-            onComplete={(exerciseId, score, feedback) => {
-              setExerciseScores(prev => ({ ...prev, [exerciseId]: score }));
-              setPronunciationFeedback(feedback);
-            }}
-          />
+          <div className="space-y-6">
+            <PronunciationPractice
+              exerciseId={currentExercise.id}
+              prompt={currentExercise.prompt}
+              targetText={currentExercise.targetText || ''}
+              modelAudioUrl={currentExercise.modelAudioUrl}
+              hints={currentExercise.hints}
+              onComplete={(exerciseId, score, feedback) => {
+                setExerciseScores(prev => ({ ...prev, [exerciseId]: score }));
+                setPronunciationFeedback(feedback);
+              }}
+            />
+
+            {pronExercise.exercises && pronExercise.exercises.length > 0 && (
+              <div className="space-y-4 mt-6">
+                <h4 className="text-lg font-bold text-slate-900">📝 Pronunciation Exercises:</h4>
+                {pronExercise.exercises.map((exercise: any, idx: number) => (
+                  <div key={exercise.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
+                    {exercise.type === 'stress-identification' && (
+                      <>
+                        <p className="font-semibold text-slate-900 mb-3">
+                          {idx + 1}. {exercise.question} <span className="text-sm text-coral-600">({exercise.points} points)</span>
+                        </p>
+                        <div className="space-y-2">
+                          {exercise.options.map((option: string, optIdx: number) => (
+                            <label key={optIdx} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer">
+                              <input
+                                type="radio"
+                                name={exercise.id}
+                                value={option}
+                                checked={answers[exercise.id] === option}
+                                onChange={(e) => handleAnswer(exercise.id, e.target.value)}
+                                disabled={showFeedback}
+                                className="w-4 h-4"
+                              />
+                              <span>{option} syllable</span>
+                            </label>
+                          ))}
+                        </div>
+                        {showFeedback && (
+                          <div className={`mt-3 p-3 rounded-lg ${
+                            answers[exercise.id] === exercise.correctAnswer
+                              ? 'bg-green-50 border-2 border-green-200'
+                              : 'bg-red-50 border-2 border-red-200'
+                          }`}>
+                            <p className="font-semibold mb-1">
+                              {answers[exercise.id] === exercise.correctAnswer ? '✓ Correct!' : '✗ Incorrect'}
+                            </p>
+                            <p className="text-sm">
+                              <strong>Correct answer:</strong> {exercise.correctAnswer} syllable
+                            </p>
+                          </div>
+                        )}
+                      </>
+                    )}
+
+                    {exercise.type === 'minimal-pairs' && (
+                      <>
+                        <p className="font-semibold text-slate-900 mb-3">
+                          {idx + 1}. Minimal Pairs Practice <span className="text-sm text-coral-600">({exercise.points} points)</span>
+                        </p>
+                        <div className="space-y-3">
+                          {exercise.pairs.map((pair: any, pairIdx: number) => (
+                            <div key={pairIdx} className="bg-slate-50 rounded-lg p-4 border border-slate-200">
+                              <div className="flex items-center gap-4 mb-2">
+                                <span className="font-semibold text-lg">{pair.word1}</span>
+                                <span className="text-slate-400">vs</span>
+                                <span className="font-semibold text-lg">{pair.word2}</span>
+                              </div>
+                              <p className="text-sm text-slate-600 italic">
+                                📢 {pair.difference}
+                              </p>
+                            </div>
+                          ))}
+                        </div>
+                        {showFeedback && (
+                          <div className="mt-3 p-3 rounded-lg bg-blue-50 border-2 border-blue-200">
+                            <p className="text-sm text-blue-900">
+                              💡 Practice these pairs to improve your pronunciation accuracy. Pay attention to the differences noted above.
+                            </p>
+                          </div>
+                        )}
+                      </>
+                    )}
+                  </div>
+                ))}
+
+                {!showFeedback && pronExercise.exercises.some((e: any) => e.type === 'stress-identification') && (
+                  <button
+                    onClick={checkAnswers}
+                    disabled={evaluating}
+                    className="w-full px-6 py-4 bg-coral-600 text-white rounded-xl hover:bg-coral-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    {evaluating ? (
+                      <>
+                        <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                        <span>Evaluating...</span>
+                      </>
+                    ) : (
+                      'Check Answers'
+                    )}
+                  </button>
+                )}
+              </div>
+            )}
+          </div>
         );
 
       case 'speaking':
