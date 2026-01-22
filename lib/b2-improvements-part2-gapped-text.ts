@@ -337,22 +337,325 @@ Despite these innovations, some music lovers maintain that streaming lacks the r
         explanation: `Continues vinyl discussion with data supporting the "unexpected resurgence" mentioned`
       }
     ]
+  },
+
+  // Exercise 4
+  {
+    id: 'b2-gt-4',
+    type: 'gapped-text',
+    title: 'Social Media and Mental Health',
+    difficulty: 'medium',
+    topic: 'Technology & Society',
+    wordCount: 470,
+    mainText: `The relationship between social media use and mental health has become one of the most debated topics in psychology and public health. While these platforms were designed to connect people, growing evidence suggests they may be contributing to rising rates of anxiety and depression, particularly among young people.
+
+[GAP 1]
+
+Research has identified several mechanisms through which social media affects mental wellbeing. The constant comparison with others' carefully curated lives can trigger feelings of inadequacy. When everyone else appears to be living their best life, our own everyday experiences can seem disappointing by comparison.
+
+[GAP 2]
+
+The dopamine-driven feedback loops built into these platforms are particularly concerning. Every notification, like, or comment triggers a small dopamine release in the brain, creating patterns similar to gambling addiction. Users find themselves checking their phones compulsively, even when they know it makes them feel worse.
+
+[GAP 3]
+
+Sleep disruption is another significant factor. The blue light from screens interferes with melatonin production, making it harder to fall asleep. More importantly, the emotionally engaging content keeps minds active when they should be winding down.
+
+[GAP 4]
+
+However, it's important to note that social media isn't inherently harmful. For many people, particularly those in isolated communities or with rare interests, these platforms provide valuable connections and support networks that wouldn't otherwise exist.
+
+[GAP 5]
+
+Some countries are taking regulatory action. France has banned smartphones in schools, while several nations are considering age restrictions on social media use. Tech companies themselves are introducing features like screen time tracking and "take a break" reminders.
+
+[GAP 6]
+
+Ultimately, the key may lie in developing healthier relationships with technology. Rather than pursuing complete abstinence, which seems unrealistic in our connected world, we need to cultivate mindful usage habits and maintain boundaries that protect our mental health.`,
+    removedParagraphs: [
+      {
+        letter: 'A',
+        text: `Studies show that teenagers who spend more than three hours per day on social media are significantly more likely to report mental health issues. The correlation is particularly strong for platforms that emphasize visual content and public metrics like follower counts.`,
+        isDistractor: false
+      },
+      {
+        letter: 'B',
+        text: `This phenomenon, known as "social comparison," has always existed, but social media amplifies it dramatically. Instead of comparing ourselves to a handful of peers, we're now exposed to thousands of people's highlight reels, creating unrealistic standards that are impossible to meet.`,
+        isDistractor: false
+      },
+      {
+        letter: 'C',
+        text: `Platform designers call this "engagement optimization," but critics argue it's manipulative. The infinite scroll feature, autoplay videos, and strategic notification timing are all designed to maximize time spent on the app, not user wellbeing.`,
+        isDistractor: false
+      },
+      {
+        letter: 'D',
+        text: `Many young people report checking their phones last thing before bed and first thing upon waking. This means their sleep is bookended by potentially stressful social interactions or anxiety-inducing news, preventing the mental rest necessary for good health.`,
+        isDistractor: false
+      },
+      {
+        letter: 'E',
+        text: `The impact varies greatly depending on how platforms are used. Passive scrolling and comparison tend to worsen mood, while active engagement - messaging friends, sharing experiences, joining interest groups - can enhance social connection and provide genuine emotional support.`,
+        isDistractor: false
+      },
+      {
+        letter: 'F',
+        text: `Traditional media like television and newspapers face declining audiences as people increasingly get their news from social platforms. This shift has raised concerns about information quality and the spread of misinformation.`,
+        isDistractor: true // DISTRACTOR
+      },
+      {
+        letter: 'G',
+        text: `Whether these measures will be effective remains to be seen. Critics argue that without addressing the underlying business models that prioritize engagement over wellbeing, superficial changes won't solve the fundamental problems.`,
+        isDistractor: false
+      }
+    ],
+    correctAnswers: [
+      {
+        gapNumber: 1,
+        correctLetter: 'A',
+        explanation: `Provides statistical evidence for the concern mentioned in the opening paragraph about social media affecting mental health`
+      },
+      {
+        gapNumber: 2,
+        correctLetter: 'B',
+        explanation: `Explains and names the "social comparison" phenomenon introduced in the previous paragraph`
+      },
+      {
+        gapNumber: 3,
+        correctLetter: 'C',
+        explanation: `Continues discussion of dopamine-driven design with specific examples (infinite scroll, autoplay)`
+      },
+      {
+        gapNumber: 4,
+        correctLetter: 'D',
+        explanation: `Expands on sleep disruption issue with specific behavior patterns (checking phone before bed/upon waking)`
+      },
+      {
+        gapNumber: 5,
+        correctLetter: 'E',
+        explanation: `Supports "isn't inherently harmful" claim by explaining when social media can be positive (active vs passive use)`
+      },
+      {
+        gapNumber: 6,
+        correctLetter: 'G',
+        explanation: `Responds to regulatory actions mentioned in previous paragraph with critical perspective on their effectiveness`
+      }
+    ]
+  },
+
+  // Exercise 5
+  {
+    id: 'b2-gt-5',
+    type: 'gapped-text',
+    title: 'Building Sustainable Cities',
+    difficulty: 'hard',
+    topic: 'Urban Planning & Environment',
+    wordCount: 485,
+    mainText: `As the world becomes increasingly urbanized, with over 60% of the global population expected to live in cities by 2050, the need for sustainable urban planning has never been more urgent. Cities are responsible for approximately 75% of global carbon emissions, making them both a major cause of climate change and a crucial part of the solution.
+
+[GAP 1]
+
+Transportation is one of the biggest challenges facing urban planners. Private car ownership has created sprawling cities with long commute times and significant air pollution. Progressive cities are now prioritizing public transit, cycling infrastructure, and pedestrian-friendly designs.
+
+[GAP 2]
+
+Green spaces serve multiple functions in sustainable cities. Parks and urban forests reduce the heat island effect, improve air quality, manage stormwater, and provide essential recreational spaces for residents. However, incorporating enough green space into dense urban environments requires creative solutions.
+
+[GAP 3]
+
+Energy efficiency in buildings represents another critical component. Modern construction techniques and materials can dramatically reduce energy consumption. Smart building systems adjust heating, cooling, and lighting based on occupancy and weather conditions.
+
+[GAP 4]
+
+Water management is equally important. Sustainable cities implement systems to capture and reuse rainwater, treat wastewater for non-potable uses, and reduce overall water consumption. Some innovative cities are even creating wetlands within urban areas to naturally filter water.
+
+[GAP 5]
+
+The concept of "15-minute cities" has gained traction recently. This urban planning philosophy ensures that residents can access essential services - work, shopping, education, healthcare, and recreation - within a 15-minute walk or bike ride from their homes.
+
+[GAP 6]
+
+Despite these innovations, transforming existing cities remains challenging. Unlike building new sustainable cities from scratch, retrofitting established urban areas requires navigating complex political, economic, and social factors while disrupting as little as possible.`,
+    removedParagraphs: [
+      {
+        letter: 'A',
+        text: `The transformation requires a holistic approach that considers environmental, social, and economic factors simultaneously. Sustainable cities must not only reduce their environmental impact but also ensure equitable access to resources and opportunities for all residents.`,
+        isDistractor: false
+      },
+      {
+        letter: 'B',
+        text: `Copenhagen and Amsterdam have become models for this approach, with comprehensive cycling networks that make bikes a practical choice for daily transportation. These cities have seen dramatic decreases in car use, with corresponding improvements in air quality and citizen health.`,
+        isDistractor: false
+      },
+      {
+        letter: 'C',
+        text: `Some cities are experimenting with vertical gardens on building facades, rooftop parks, and converting abandoned infrastructure like elevated railways into linear parks. Singapore has pioneered this approach, incorporating nature throughout its urban landscape.`,
+        isDistractor: false
+      },
+      {
+        letter: 'D',
+        text: `Retrofitting older buildings with modern insulation, solar panels, and efficient HVAC systems can reduce energy use by 30-50%. Some cities offer tax incentives or grants to property owners who implement these improvements.`,
+        isDistractor: false
+      },
+      {
+        letter: 'E',
+        text: `These strategies not only conserve water but also reduce the energy required for water treatment and distribution. Cities like Melbourne and Cape Town have implemented these systems successfully, particularly important in regions facing water scarcity.`,
+        isDistractor: false
+      },
+      {
+        letter: 'F',
+        text: `Rural communities face different sustainability challenges, including access to basic services and economic opportunities. Agricultural practices and land use patterns require entirely different approaches than urban planning.`,
+        isDistractor: true // DISTRACTOR
+      },
+      {
+        letter: 'G',
+        text: `This reduces car dependency, lowers emissions, and fosters stronger community connections. Paris has committed to becoming a 15-minute city by 2030, though critics question whether it's achievable in such a large, established metropolis.`,
+        isDistractor: false
+      }
+    ],
+    correctAnswers: [
+      {
+        gapNumber: 1,
+        correctLetter: 'A',
+        explanation: `Expands on what sustainable urban planning means (holistic approach) after introducing the need for it`
+      },
+      {
+        gapNumber: 2,
+        correctLetter: 'B',
+        explanation: `Provides concrete examples (Copenhagen, Amsterdam) of cities implementing the transportation solutions mentioned`
+      },
+      {
+        gapNumber: 3,
+        correctLetter: 'C',
+        explanation: `Describes the "creative solutions" for incorporating green space mentioned in previous paragraph (vertical gardens, rooftop parks)`
+      },
+      {
+        gapNumber: 4,
+        correctLetter: 'D',
+        explanation: `Gives specific examples of the energy efficiency techniques mentioned (retrofitting, incentives)`
+      },
+      {
+        gapNumber: 5,
+        correctLetter: 'E',
+        explanation: `Provides benefits and examples of water management systems mentioned in previous paragraph`
+      },
+      {
+        gapNumber: 6,
+        correctLetter: 'G',
+        explanation: `Explains benefits of 15-minute cities and provides Paris example, linking to the concept introduced before`
+      }
+    ]
+  },
+
+  // Exercise 6
+  {
+    id: 'b2-gt-6',
+    type: 'gapped-text',
+    title: 'Climate Change Solutions: Beyond Individual Action',
+    difficulty: 'medium',
+    topic: 'Environment & Policy',
+    wordCount: 475,
+    mainText: `We're often told that individual actions - using reusable bags, recycling, taking shorter showers - are key to fighting climate change. While these behaviors have value, focusing exclusively on personal responsibility obscures a more important truth: the climate crisis requires systemic change, not just individual virtue.
+
+[GAP 1]
+
+The emphasis on individual action isn't accidental. It emerged from successful public relations campaigns by major polluters seeking to deflect attention from industrial emissions. By making climate change a personal responsibility issue, they avoided regulatory scrutiny of their own practices.
+
+[GAP 2]
+
+This doesn't mean individual actions are worthless. Collective consumer choices can shift markets and create demand for sustainable products. Moreover, personal engagement with environmental issues often leads people to support broader policy changes.
+
+[GAP 3]
+
+Government policy represents the most powerful lever for change. Carbon pricing, renewable energy mandates, and regulations on industrial emissions can drive transformation at the scale and speed needed. Countries that have implemented strong climate policies have seen significant emissions reductions.
+
+[GAP 4]
+
+Corporate accountability is equally crucial. Many companies have made ambitious net-zero commitments, but scrutiny reveals that these often rely on questionable carbon offsets rather than actual emissions reductions. Stronger regulation and transparent reporting requirements are needed.
+
+[GAP 5]
+
+Technology will play a vital role, but it's not a magic solution. Innovations in renewable energy, battery storage, and carbon capture are important tools. However, waiting for technological breakthroughs to solve the problem while avoiding difficult political and economic decisions is irresponsible.
+
+[GAP 6]
+
+The path forward requires acknowledging uncomfortable truths about power, economics, and politics. Fighting climate change means challenging entrenched interests and reimagining systems that have been in place for generations. Individual actions alone cannot accomplish this - only collective political will can.`,
+    removedParagraphs: [
+      {
+        letter: 'A',
+        text: `Just 100 companies are responsible for 71% of global emissions. No amount of personal recycling or shorter showers can offset this industrial-scale pollution. The math simply doesn't work when individual actions are pitted against corporate emissions.`,
+        isDistractor: false
+      },
+      {
+        letter: 'B',
+        text: `The "carbon footprint" concept itself was popularized by BP in the early 2000s, deliberately shifting focus from corporate emissions to individual behavior. This framing has dominated climate discourse ever since, often to the detriment of more effective solutions.`,
+        isDistractor: false
+      },
+      {
+        letter: 'C',
+        text: `However, the relationship works both ways. People who make personal sustainable choices become emotionally invested in environmental outcomes and are more likely to vote for climate-conscious politicians and support environmental policies.`,
+        isDistractor: false
+      },
+      {
+        letter: 'D',
+        text: `Germany's Energiewende policy, which accelerated renewable energy adoption, demonstrates this potential. Despite challenges, the country has dramatically reduced emissions while maintaining economic growth, proving that climate action and prosperity aren't mutually exclusive.`,
+        isDistractor: false
+      },
+      {
+        letter: 'E',
+        text: `Investors are increasingly demanding genuine climate action from companies. Shareholder activism and ESG (Environmental, Social, Governance) criteria are creating pressure for real change, though progress remains uneven across industries.`,
+        isDistractor: false
+      },
+      {
+        letter: 'F',
+        text: `Developing countries argue that wealthy nations should bear more responsibility for climate action, given their historical emissions. This debate over climate justice complicates international negotiations and treaty implementation.`,
+        isDistractor: true // DISTRACTOR
+      },
+      {
+        letter: 'G',
+        text: `We need these innovations, but must deploy them alongside emissions reductions, not instead of them. The focus should be on rapidly scaling proven renewable technologies while researching next-generation solutions.`,
+        isDistractor: false
+      }
+    ],
+    correctAnswers: [
+      {
+        gapNumber: 1,
+        correctLetter: 'A',
+        explanation: `Provides the statistical evidence for why individual action isn't enough (100 companies = 71% emissions)`
+      },
+      {
+        gapNumber: 2,
+        correctLetter: 'B',
+        explanation: `Explains the origin of individual responsibility focus mentioned in previous paragraph (BP's carbon footprint concept)`
+      },
+      {
+        gapNumber: 3,
+        correctLetter: 'C',
+        explanation: `Elaborates on how individual actions lead to policy support, mentioned at end of previous paragraph`
+      },
+      {
+        gapNumber: 4,
+        correctLetter: 'D',
+        explanation: `Provides concrete example (Germany's Energiewende) of government policy effectiveness mentioned in previous paragraph`
+      },
+      {
+        gapNumber: 5,
+        correctLetter: 'E',
+        explanation: `Continues corporate accountability theme with discussion of investor pressure and ESG criteria`
+      },
+      {
+        gapNumber: 6,
+        correctLetter: 'G',
+        explanation: `Responds to technology discussion by clarifying the relationship between innovation and action ("need these innovations, but...")`
+      }
+    ]
   }
-
-// Continue with 3 more exercises to reach 6 total
-// Due to length constraints, I'll include titles and frameworks for the remaining 3
-
 ];
-
-// Remaining exercises to implement:
-// Exercise 4: "The Science of Sleep" (Psychology/Health)
-// Exercise 5: "Cryptocurrency and the Future of Money" (Finance/Technology)
-// Exercise 6: "The Art of Negotiation" (Business/Communication)
 
 export const GAPPED_TEXT_EXERCISES_SUMMARY = {
   total: 6,
-  implemented: 3,
-  pending: 3,
+  implemented: 6,
+  pending: 0,
   totalGaps: 36, // 6 gaps per exercise × 6 exercises
   distractors: 6 // 1 per exercise
 };
