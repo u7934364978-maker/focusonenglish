@@ -11,7 +11,7 @@ export class B2CourseHelper {
    */
   async goToHomepage() {
     await this.page.goto('/');
-    await this.page.waitForLoadState('networkidle');
+    await this.page.waitForLoadState('domcontentloaded', { timeout: 30000 });
   }
 
   /**
@@ -21,10 +21,10 @@ export class B2CourseHelper {
   async navigateToLesson7() {
     // Direct navigation to lesson 7 using correct route
     await this.page.goto('/curso-b2/leccion/b2-m1-l7');
-    await this.page.waitForLoadState('networkidle');
+    await this.page.waitForLoadState('domcontentloaded', { timeout: 30000 });
     
     // Wait a bit for React hydration
-    await this.page.waitForTimeout(2000);
+    await this.page.waitForTimeout(3000);
   }
 
   /**

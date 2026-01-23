@@ -8,8 +8,8 @@ test.describe('Open Cloze Exercise (FCE Part 2)', () => {
     helper = new OpenClozeHelper(page);
     // Navigate directly to Lesson 7
     await page.goto('/curso-b2/leccion/b2-m1-l7');
-    await page.waitForLoadState('networkidle');
-    await page.waitForTimeout(2000); // Wait for React hydration
+    await page.waitForLoadState('domcontentloaded', { timeout: 30000 });
+    await page.waitForTimeout(3000); // Wait for React hydration
   });
 
   test('should display Open Cloze exercise with correct structure', async ({ page }) => {

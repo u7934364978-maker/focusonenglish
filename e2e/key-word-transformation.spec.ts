@@ -7,8 +7,8 @@ test.describe('Key Word Transformation Exercise (FCE Part 4)', () => {
   test.beforeEach(async ({ page }) => {
     helper = new KeyWordTransformationHelper(page);
     await page.goto('/curso-b2/leccion/b2-m1-l7');
-    await page.waitForLoadState('networkidle');
-    await page.waitForTimeout(2000); // Wait for React hydration
+    await page.waitForLoadState('domcontentloaded', { timeout: 30000 });
+    await page.waitForTimeout(3000); // Wait for React hydration
   });
 
   test('should display Key Word Transformation exercise', async ({ page }) => {

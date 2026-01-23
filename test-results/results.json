@@ -1,0 +1,1294 @@
+{
+  "config": {
+    "configFile": "/home/user/webapp/playwright.config.ts",
+    "rootDir": "/home/user/webapp/e2e",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/user/webapp/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/user/webapp/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "/home/user/webapp/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/user/webapp/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "/home/user/webapp/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/user/webapp/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "/home/user/webapp/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "Mobile Chrome",
+        "name": "Mobile Chrome",
+        "testDir": "/home/user/webapp/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "/home/user/webapp/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "Mobile Safari",
+        "name": "Mobile Safari",
+        "testDir": "/home/user/webapp/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "open-cloze.spec.ts",
+      "file": "open-cloze.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Open Cloze Exercise (FCE Part 2)",
+          "file": "open-cloze.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should display Open Cloze exercise with correct structure",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 64440,
+                      "error": {
+                        "message": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.",
+                        "stack": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.\n    at /home/user/webapp/e2e/open-cloze.spec.ts:11:16",
+                        "location": {
+                          "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                          "column": 16,
+                          "line": 11
+                        },
+                        "snippet": "   9 |     // Navigate directly to Lesson 7\n  10 |     await page.goto('/curso-b2/leccion/b2-m1-l7');\n> 11 |     await page.waitForLoadState('networkidle');\n     |                ^\n  12 |     await page.waitForTimeout(2000); // Wait for React hydration\n  13 |   });\n  14 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                            "column": 16,
+                            "line": 11
+                          },
+                          "message": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.\n\n   9 |     // Navigate directly to Lesson 7\n  10 |     await page.goto('/curso-b2/leccion/b2-m1-l7');\n> 11 |     await page.waitForLoadState('networkidle');\n     |                ^\n  12 |     await page.waitForTimeout(2000); // Wait for React hydration\n  13 |   });\n  14 |\n    at /home/user/webapp/e2e/open-cloze.spec.ts:11:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:31:46.662Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-efc47-cise-with-correct-structure-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-efc47-cise-with-correct-structure-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-efc47-cise-with-correct-structure-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                        "column": 16,
+                        "line": 11
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-56236524a277f9622306",
+              "file": "open-cloze.spec.ts",
+              "line": 15,
+              "column": 7
+            },
+            {
+              "title": "should have the correct number of gaps (8)",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 64507,
+                      "error": {
+                        "message": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.",
+                        "stack": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.\n    at /home/user/webapp/e2e/open-cloze.spec.ts:11:16",
+                        "location": {
+                          "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                          "column": 16,
+                          "line": 11
+                        },
+                        "snippet": "   9 |     // Navigate directly to Lesson 7\n  10 |     await page.goto('/curso-b2/leccion/b2-m1-l7');\n> 11 |     await page.waitForLoadState('networkidle');\n     |                ^\n  12 |     await page.waitForTimeout(2000); // Wait for React hydration\n  13 |   });\n  14 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                            "column": 16,
+                            "line": 11
+                          },
+                          "message": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.\n\n   9 |     // Navigate directly to Lesson 7\n  10 |     await page.goto('/curso-b2/leccion/b2-m1-l7');\n> 11 |     await page.waitForLoadState('networkidle');\n     |                ^\n  12 |     await page.waitForTimeout(2000); // Wait for React hydration\n  13 |   });\n  14 |\n    at /home/user/webapp/e2e/open-cloze.spec.ts:11:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:32:52.426Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-bddb8-e-correct-number-of-gaps-8--chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-bddb8-e-correct-number-of-gaps-8--chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-bddb8-e-correct-number-of-gaps-8--chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                        "column": 16,
+                        "line": 11
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-b7fd252166d63b2f0368",
+              "file": "open-cloze.spec.ts",
+              "line": 27,
+              "column": 7
+            },
+            {
+              "title": "should allow typing in gap inputs",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 64347,
+                      "error": {
+                        "message": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.",
+                        "stack": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.\n    at /home/user/webapp/e2e/open-cloze.spec.ts:11:16",
+                        "location": {
+                          "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                          "column": 16,
+                          "line": 11
+                        },
+                        "snippet": "   9 |     // Navigate directly to Lesson 7\n  10 |     await page.goto('/curso-b2/leccion/b2-m1-l7');\n> 11 |     await page.waitForLoadState('networkidle');\n     |                ^\n  12 |     await page.waitForTimeout(2000); // Wait for React hydration\n  13 |   });\n  14 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                            "column": 16,
+                            "line": 11
+                          },
+                          "message": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.\n\n   9 |     // Navigate directly to Lesson 7\n  10 |     await page.goto('/curso-b2/leccion/b2-m1-l7');\n> 11 |     await page.waitForLoadState('networkidle');\n     |                ^\n  12 |     await page.waitForTimeout(2000); // Wait for React hydration\n  13 |   });\n  14 |\n    at /home/user/webapp/e2e/open-cloze.spec.ts:11:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:33:58.433Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-37ac4--allow-typing-in-gap-inputs-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-37ac4--allow-typing-in-gap-inputs-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-37ac4--allow-typing-in-gap-inputs-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                        "column": 16,
+                        "line": 11
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-189fd870785443038c87",
+              "file": "open-cloze.spec.ts",
+              "line": 32,
+              "column": 7
+            },
+            {
+              "title": "should validate answers when Check Answers is clicked",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 64484,
+                      "error": {
+                        "message": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.",
+                        "stack": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.\n    at /home/user/webapp/e2e/open-cloze.spec.ts:11:16",
+                        "location": {
+                          "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                          "column": 16,
+                          "line": 11
+                        },
+                        "snippet": "   9 |     // Navigate directly to Lesson 7\n  10 |     await page.goto('/curso-b2/leccion/b2-m1-l7');\n> 11 |     await page.waitForLoadState('networkidle');\n     |                ^\n  12 |     await page.waitForTimeout(2000); // Wait for React hydration\n  13 |   });\n  14 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                            "column": 16,
+                            "line": 11
+                          },
+                          "message": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.\n\n   9 |     // Navigate directly to Lesson 7\n  10 |     await page.goto('/curso-b2/leccion/b2-m1-l7');\n> 11 |     await page.waitForLoadState('networkidle');\n     |                ^\n  12 |     await page.waitForTimeout(2000); // Wait for React hydration\n  13 |   });\n  14 |\n    at /home/user/webapp/e2e/open-cloze.spec.ts:11:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:35:04.174Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-d483f-en-Check-Answers-is-clicked-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-d483f-en-Check-Answers-is-clicked-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-d483f-en-Check-Answers-is-clicked-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                        "column": 16,
+                        "line": 11
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-5217101a760fc5f14fa2",
+              "file": "open-cloze.spec.ts",
+              "line": 39,
+              "column": 7
+            },
+            {
+              "title": "should show correct/incorrect feedback with colors",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 60503,
+                      "error": {
+                        "message": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.",
+                        "stack": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.\n    at /home/user/webapp/e2e/open-cloze.spec.ts:11:16",
+                        "location": {
+                          "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                          "column": 16,
+                          "line": 11
+                        },
+                        "snippet": "   9 |     // Navigate directly to Lesson 7\n  10 |     await page.goto('/curso-b2/leccion/b2-m1-l7');\n> 11 |     await page.waitForLoadState('networkidle');\n     |                ^\n  12 |     await page.waitForTimeout(2000); // Wait for React hydration\n  13 |   });\n  14 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                            "column": 16,
+                            "line": 11
+                          },
+                          "message": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.\n\n   9 |     // Navigate directly to Lesson 7\n  10 |     await page.goto('/curso-b2/leccion/b2-m1-l7');\n> 11 |     await page.waitForLoadState('networkidle');\n     |                ^\n  12 |     await page.waitForTimeout(2000); // Wait for React hydration\n  13 |   });\n  14 |\n    at /home/user/webapp/e2e/open-cloze.spec.ts:11:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:36:10.174Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-a18b2-orrect-feedback-with-colors-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-a18b2-orrect-feedback-with-colors-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                        "column": 16,
+                        "line": 11
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-7bc926465681cd380d1c",
+              "file": "open-cloze.spec.ts",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "should display explanations after checking answers",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 64330,
+                      "error": {
+                        "message": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.",
+                        "stack": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.\n    at /home/user/webapp/e2e/open-cloze.spec.ts:11:16",
+                        "location": {
+                          "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                          "column": 16,
+                          "line": 11
+                        },
+                        "snippet": "   9 |     // Navigate directly to Lesson 7\n  10 |     await page.goto('/curso-b2/leccion/b2-m1-l7');\n> 11 |     await page.waitForLoadState('networkidle');\n     |                ^\n  12 |     await page.waitForTimeout(2000); // Wait for React hydration\n  13 |   });\n  14 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                            "column": 16,
+                            "line": 11
+                          },
+                          "message": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.\n\n   9 |     // Navigate directly to Lesson 7\n  10 |     await page.goto('/curso-b2/leccion/b2-m1-l7');\n> 11 |     await page.waitForLoadState('networkidle');\n     |                ^\n  12 |     await page.waitForTimeout(2000); // Wait for React hydration\n  13 |   });\n  14 |\n    at /home/user/webapp/e2e/open-cloze.spec.ts:11:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:37:12.102Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-faf9b-ions-after-checking-answers-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-faf9b-ions-after-checking-answers-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-faf9b-ions-after-checking-answers-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                        "column": 16,
+                        "line": 11
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-d3178e274747f0959801",
+              "file": "open-cloze.spec.ts",
+              "line": 67,
+              "column": 7
+            },
+            {
+              "title": "should show acceptable answer variations",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 64548,
+                      "error": {
+                        "message": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.",
+                        "stack": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.\n    at /home/user/webapp/e2e/open-cloze.spec.ts:11:16",
+                        "location": {
+                          "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                          "column": 16,
+                          "line": 11
+                        },
+                        "snippet": "   9 |     // Navigate directly to Lesson 7\n  10 |     await page.goto('/curso-b2/leccion/b2-m1-l7');\n> 11 |     await page.waitForLoadState('networkidle');\n     |                ^\n  12 |     await page.waitForTimeout(2000); // Wait for React hydration\n  13 |   });\n  14 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                            "column": 16,
+                            "line": 11
+                          },
+                          "message": "TimeoutError: page.waitForLoadState: Timeout 60000ms exceeded.\n\n   9 |     // Navigate directly to Lesson 7\n  10 |     await page.goto('/curso-b2/leccion/b2-m1-l7');\n> 11 |     await page.waitForLoadState('networkidle');\n     |                ^\n  12 |     await page.waitForTimeout(2000); // Wait for React hydration\n  13 |   });\n  14 |\n    at /home/user/webapp/e2e/open-cloze.spec.ts:11:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:38:17.940Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-4a67c-cceptable-answer-variations-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-4a67c-cceptable-answer-variations-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-4a67c-cceptable-answer-variations-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                        "column": 16,
+                        "line": 11
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-8d14a14153d45b93ea40",
+              "file": "open-cloze.spec.ts",
+              "line": 76,
+              "column": 7
+            },
+            {
+              "title": "should display score after checking answers",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 63566,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button').filter({ hasText: /Check Answers|Evaluar|Checking/i })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button').filter({ hasText: /Check Answers|Evaluar|Checking/i })\u001b[22m\n\n    at OpenClozeHelper.clickCheckAnswers (/home/user/webapp/e2e/helpers/course-helpers.ts:49:18)\n    at /home/user/webapp/e2e/open-cloze.spec.ts:92:18",
+                        "location": {
+                          "file": "/home/user/webapp/e2e/helpers/course-helpers.ts",
+                          "column": 18,
+                          "line": 49
+                        },
+                        "snippet": "   at helpers/course-helpers.ts:49\n\n  47 |   async clickCheckAnswers() {\n  48 |     const button = this.page.locator('button', { hasText: /Check Answers|Evaluar|Checking/i });\n> 49 |     await button.click();\n     |                  ^\n  50 |     \n  51 |     // Wait for evaluation to complete\n  52 |     await this.page.waitForTimeout(2000);"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/user/webapp/e2e/helpers/course-helpers.ts",
+                            "column": 18,
+                            "line": 49
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button').filter({ hasText: /Check Answers|Evaluar|Checking/i })\u001b[22m\n\n\n   at helpers/course-helpers.ts:49\n\n  47 |   async clickCheckAnswers() {\n  48 |     const button = this.page.locator('button', { hasText: /Check Answers|Evaluar|Checking/i });\n> 49 |     await button.click();\n     |                  ^\n  50 |     \n  51 |     // Wait for evaluation to complete\n  52 |     await this.page.waitForTimeout(2000);\n    at OpenClozeHelper.clickCheckAnswers (/home/user/webapp/e2e/helpers/course-helpers.ts:49:18)\n    at /home/user/webapp/e2e/open-cloze.spec.ts:92:18"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:39:23.987Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-7fffd-core-after-checking-answers-chromium/test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/user/webapp/e2e/helpers/course-helpers.ts",
+                        "column": 18,
+                        "line": 49
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-40a671b7a7dad0f37982",
+              "file": "open-cloze.spec.ts",
+              "line": 85,
+              "column": 7
+            },
+            {
+              "title": "should disable inputs after checking answers",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 69446,
+                      "error": {
+                        "message": "TimeoutError: locator.fill: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"1\"]').first()\u001b[22m\n",
+                        "stack": "TimeoutError: locator.fill: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"1\"]').first()\u001b[22m\n\n    at OpenClozeHelper.fillGap (/home/user/webapp/e2e/helpers/course-helpers.ts:109:17)\n    at /home/user/webapp/e2e/open-cloze.spec.ts:100:18",
+                        "location": {
+                          "file": "/home/user/webapp/e2e/helpers/course-helpers.ts",
+                          "column": 17,
+                          "line": 109
+                        },
+                        "snippet": "   at helpers/course-helpers.ts:109\n\n  107 | }\n  108 |\n> 109 | /**\n      |    ^\n  110 |  * Helper for Gapped Text exercises\n  111 |  */\n  112 | export class GappedTextHelper extends B2CourseHelper {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/user/webapp/e2e/helpers/course-helpers.ts",
+                            "column": 17,
+                            "line": 109
+                          },
+                          "message": "TimeoutError: locator.fill: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"1\"]').first()\u001b[22m\n\n\n   at helpers/course-helpers.ts:109\n\n  107 | }\n  108 |\n> 109 | /**\n      |    ^\n  110 |  * Helper for Gapped Text exercises\n  111 |  */\n  112 | export class GappedTextHelper extends B2CourseHelper {\n    at OpenClozeHelper.fillGap (/home/user/webapp/e2e/helpers/course-helpers.ts:109:17)\n    at /home/user/webapp/e2e/open-cloze.spec.ts:100:18"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:40:28.838Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-6fae0-puts-after-checking-answers-chromium/test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/user/webapp/e2e/helpers/course-helpers.ts",
+                        "column": 17,
+                        "line": 109
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-51033d8eb46503422179",
+              "file": "open-cloze.spec.ts",
+              "line": 99,
+              "column": 7
+            },
+            {
+              "title": "should have a Try Again button after checking",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 69744,
+                      "error": {
+                        "message": "TimeoutError: locator.fill: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"1\"]').first()\u001b[22m\n",
+                        "stack": "TimeoutError: locator.fill: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"1\"]').first()\u001b[22m\n\n    at OpenClozeHelper.fillGap (/home/user/webapp/e2e/helpers/course-helpers.ts:96:17)\n    at /home/user/webapp/e2e/open-cloze.spec.ts:108:18",
+                        "location": {
+                          "file": "/home/user/webapp/e2e/helpers/course-helpers.ts",
+                          "column": 17,
+                          "line": 96
+                        },
+                        "snippet": "   at helpers/course-helpers.ts:96\n\n  94 |   async fillGap(gapNumber: number, answer: string) {\n  95 |     const input = this.page.locator(`input[placeholder*=\"${gapNumber}\"]`).first();\n> 96 |     await input.fill(answer);\n     |                 ^\n  97 |   }\n  98 |\n  99 |   async getAllGapInputs() {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/user/webapp/e2e/helpers/course-helpers.ts",
+                            "column": 17,
+                            "line": 96
+                          },
+                          "message": "TimeoutError: locator.fill: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"1\"]').first()\u001b[22m\n\n\n   at helpers/course-helpers.ts:96\n\n  94 |   async fillGap(gapNumber: number, answer: string) {\n  95 |     const input = this.page.locator(`input[placeholder*=\"${gapNumber}\"]`).first();\n> 96 |     await input.fill(answer);\n     |                 ^\n  97 |   }\n  98 |\n  99 |   async getAllGapInputs() {\n    at OpenClozeHelper.fillGap (/home/user/webapp/e2e/helpers/course-helpers.ts:96:17)\n    at /home/user/webapp/e2e/open-cloze.spec.ts:108:18"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:41:39.626Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-dde0a-Again-button-after-checking-chromium/test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/user/webapp/e2e/helpers/course-helpers.ts",
+                        "column": 17,
+                        "line": 96
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-ebca45fce87edf725f58",
+              "file": "open-cloze.spec.ts",
+              "line": 107,
+              "column": 7
+            },
+            {
+              "title": "should reset exercise when Try Again is clicked",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 66246,
+                      "error": {
+                        "message": "TimeoutError: locator.fill: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"1\"]').first()\u001b[22m\n",
+                        "stack": "TimeoutError: locator.fill: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"1\"]').first()\u001b[22m\n\n    at OpenClozeHelper.fillGap (/home/user/webapp/e2e/helpers/course-helpers.ts:96:17)\n    at /home/user/webapp/e2e/open-cloze.spec.ts:116:18",
+                        "location": {
+                          "file": "/home/user/webapp/e2e/helpers/course-helpers.ts",
+                          "column": 17,
+                          "line": 96
+                        },
+                        "snippet": "   at helpers/course-helpers.ts:96\n\n  94 |   async fillGap(gapNumber: number, answer: string) {\n  95 |     const input = this.page.locator(`input[placeholder*=\"${gapNumber}\"]`).first();\n> 96 |     await input.fill(answer);\n     |                 ^\n  97 |   }\n  98 |\n  99 |   async getAllGapInputs() {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/user/webapp/e2e/helpers/course-helpers.ts",
+                            "column": 17,
+                            "line": 96
+                          },
+                          "message": "TimeoutError: locator.fill: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"1\"]').first()\u001b[22m\n\n\n   at helpers/course-helpers.ts:96\n\n  94 |   async fillGap(gapNumber: number, answer: string) {\n  95 |     const input = this.page.locator(`input[placeholder*=\"${gapNumber}\"]`).first();\n> 96 |     await input.fill(answer);\n     |                 ^\n  97 |   }\n  98 |\n  99 |   async getAllGapInputs() {\n    at OpenClozeHelper.fillGap (/home/user/webapp/e2e/helpers/course-helpers.ts:96:17)\n    at /home/user/webapp/e2e/open-cloze.spec.ts:116:18"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:42:50.764Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-d0572-e-when-Try-Again-is-clicked-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-d0572-e-when-Try-Again-is-clicked-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/user/webapp/e2e/helpers/course-helpers.ts",
+                        "column": 17,
+                        "line": 96
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-2f0ecbb81cadc361ad77",
+              "file": "open-cloze.spec.ts",
+              "line": 114,
+              "column": 7
+            },
+            {
+              "title": "should display tips section",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 10121,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=/tips|consejos|advice/i')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=/tips|consejos|advice/i')\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=/tips|consejos|advice/i')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=/tips|consejos|advice/i')\u001b[22m\n\n    at /home/user/webapp/e2e/open-cloze.spec.ts:129:64",
+                        "location": {
+                          "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                          "column": 64,
+                          "line": 129
+                        },
+                        "snippet": "  127 |\n  128 |   test('should display tips section', async ({ page }) => {\n> 129 |     await expect(page.locator('text=/tips|consejos|advice/i')).toBeVisible();\n      |                                                                ^\n  130 |   });\n  131 |\n  132 |   test('should show category for each gap in feedback', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                            "column": 64,
+                            "line": 129
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=/tips|consejos|advice/i')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=/tips|consejos|advice/i')\u001b[22m\n\n\n  127 |\n  128 |   test('should display tips section', async ({ page }) => {\n> 129 |     await expect(page.locator('text=/tips|consejos|advice/i')).toBeVisible();\n      |                                                                ^\n  130 |   });\n  131 |\n  132 |   test('should show category for each gap in feedback', async ({ page }) => {\n    at /home/user/webapp/e2e/open-cloze.spec.ts:129:64"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:43:58.470Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-6ad15-should-display-tips-section-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-6ad15-should-display-tips-section-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-6ad15-should-display-tips-section-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                        "column": 64,
+                        "line": 129
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-d84c07073d1ce4e81534",
+              "file": "open-cloze.spec.ts",
+              "line": 128,
+              "column": 7
+            },
+            {
+              "title": "should show category for each gap in feedback",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 64854,
+                      "error": {
+                        "message": "TimeoutError: locator.fill: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"1\"]').first()\u001b[22m\n",
+                        "stack": "TimeoutError: locator.fill: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"1\"]').first()\u001b[22m\n\n    at OpenClozeHelper.fillGap (/home/user/webapp/e2e/helpers/course-helpers.ts:96:17)\n    at /home/user/webapp/e2e/open-cloze.spec.ts:133:18",
+                        "location": {
+                          "file": "/home/user/webapp/e2e/helpers/course-helpers.ts",
+                          "column": 17,
+                          "line": 96
+                        },
+                        "snippet": "   at helpers/course-helpers.ts:96\n\n  94 |   async fillGap(gapNumber: number, answer: string) {\n  95 |     const input = this.page.locator(`input[placeholder*=\"${gapNumber}\"]`).first();\n> 96 |     await input.fill(answer);\n     |                 ^\n  97 |   }\n  98 |\n  99 |   async getAllGapInputs() {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/user/webapp/e2e/helpers/course-helpers.ts",
+                            "column": 17,
+                            "line": 96
+                          },
+                          "message": "TimeoutError: locator.fill: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"1\"]').first()\u001b[22m\n\n\n   at helpers/course-helpers.ts:96\n\n  94 |   async fillGap(gapNumber: number, answer: string) {\n  95 |     const input = this.page.locator(`input[placeholder*=\"${gapNumber}\"]`).first();\n> 96 |     await input.fill(answer);\n     |                 ^\n  97 |   }\n  98 |\n  99 |   async getAllGapInputs() {\n    at OpenClozeHelper.fillGap (/home/user/webapp/e2e/helpers/course-helpers.ts:96:17)\n    at /home/user/webapp/e2e/open-cloze.spec.ts:133:18"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:44:09.844Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-619c4-ry-for-each-gap-in-feedback-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-619c4-ry-for-each-gap-in-feedback-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-619c4-ry-for-each-gap-in-feedback-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/user/webapp/e2e/helpers/course-helpers.ts",
+                        "column": 17,
+                        "line": 96
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-d3eed3a985a6d08e90ae",
+              "file": "open-cloze.spec.ts",
+              "line": 132,
+              "column": 7
+            },
+            {
+              "title": "should handle empty submissions gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7339,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:45:15.876Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-143f2270197451969e6d",
+              "file": "open-cloze.spec.ts",
+              "line": 141,
+              "column": 7
+            },
+            {
+              "title": "should be responsive on mobile viewport",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 4854,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at /home/user/webapp/e2e/open-cloze.spec.ts:159:27",
+                        "location": {
+                          "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                          "column": 27,
+                          "line": 159
+                        },
+                        "snippet": "  157 |     // Check that exercise is still usable\n  158 |     const inputs = await helper.getAllGapInputs();\n> 159 |     expect(inputs.length).toBeGreaterThan(0);\n      |                           ^\n  160 |     \n  161 |     // Try filling a gap\n  162 |     await helper.fillGap(1, 'test');"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                            "column": 27,
+                            "line": 159
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n  157 |     // Check that exercise is still usable\n  158 |     const inputs = await helper.getAllGapInputs();\n> 159 |     expect(inputs.length).toBeGreaterThan(0);\n      |                           ^\n  160 |     \n  161 |     // Try filling a gap\n  162 |     await helper.fillGap(1, 'test');\n    at /home/user/webapp/e2e/open-cloze.spec.ts:159:27"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:45:23.419Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-0533d-sponsive-on-mobile-viewport-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-0533d-sponsive-on-mobile-viewport-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-0533d-sponsive-on-mobile-viewport-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                        "column": 27,
+                        "line": 159
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-724e0ef5a80d7c87d629",
+              "file": "open-cloze.spec.ts",
+              "line": 154,
+              "column": 7
+            },
+            {
+              "title": "should show difficulty badge",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 9902,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=/easy|medium|hard|fácil|medio|difícil/i').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=/easy|medium|hard|fácil|medio|difícil/i').first()\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=/easy|medium|hard|fácil|medio|difícil/i').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=/easy|medium|hard|fácil|medio|difícil/i').first()\u001b[22m\n\n    at /home/user/webapp/e2e/open-cloze.spec.ts:169:35",
+                        "location": {
+                          "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                          "column": 35,
+                          "line": 169
+                        },
+                        "snippet": "  167 |   test('should show difficulty badge', async ({ page }) => {\n  168 |     const difficultyBadge = page.locator('text=/easy|medium|hard|fácil|medio|difícil/i').first();\n> 169 |     await expect(difficultyBadge).toBeVisible();\n      |                                   ^\n  170 |   });\n  171 |\n  172 |   test('should show topic badge', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                            "column": 35,
+                            "line": 169
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=/easy|medium|hard|fácil|medio|difícil/i').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=/easy|medium|hard|fácil|medio|difícil/i').first()\u001b[22m\n\n\n  167 |   test('should show difficulty badge', async ({ page }) => {\n  168 |     const difficultyBadge = page.locator('text=/easy|medium|hard|fácil|medio|difícil/i').first();\n> 169 |     await expect(difficultyBadge).toBeVisible();\n      |                                   ^\n  170 |   });\n  171 |\n  172 |   test('should show topic badge', async ({ page }) => {\n    at /home/user/webapp/e2e/open-cloze.spec.ts:169:35"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:45:29.351Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-3c3e5-hould-show-difficulty-badge-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-3c3e5-hould-show-difficulty-badge-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/user/webapp/test-results/open-cloze-Open-Cloze-Exer-3c3e5-hould-show-difficulty-badge-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/user/webapp/e2e/open-cloze.spec.ts",
+                        "column": 35,
+                        "line": 169
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-30d86fd125d1d102a10a",
+              "file": "open-cloze.spec.ts",
+              "line": 167,
+              "column": 7
+            },
+            {
+              "title": "should show topic badge",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4945,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-23T07:45:40.533Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "efde740c158ddda311dd-243c7b2dd90f2f9cbd4d",
+              "file": "open-cloze.spec.ts",
+              "line": 172,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-23T07:31:45.401Z",
+    "duration": 840319.541,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 15,
+    "flaky": 0
+  }
+}
