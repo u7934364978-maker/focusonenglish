@@ -24,6 +24,7 @@ const PUBLIC_ROUTES = new Set([
 const AUTH_ONLY_ROUTES = new Set([
   '/profile',
   '/dashboard',
+  '/generador-b2',
 ]);
 
 function isBlogRoute(pathname: string): boolean {
