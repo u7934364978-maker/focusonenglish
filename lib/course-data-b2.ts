@@ -2759,7 +2759,7 @@ So what should we do about this? It's essential that we recognize the value of s
             points: 1
           },
           {
-            id: 'q5',
+            id: 'q4',
             type: 'fill-blank',
             question: 'What did workers discover during the pandemic?',
             correctAnswer: 'That working from home with focus blocks can be more productive',
