@@ -5895,71 +5895,72 @@ export const MODULE_2_LESSONS: Lesson[] = [
         id: 'b2-m2-l1-cloze-1',
         type: 'multiple-choice-cloze',
         title: 'Multiple Choice Cloze: Making Deductions',
+        instructions: 'Read the text below and choose the correct word for each gap from the dropdown menu. Each gap has four options (A, B, C, D). Choose the word that best fits the context and grammar of the sentence.',
         text: `Detective work requires careful observation and logical thinking. When examining a crime scene, investigators (1)_____ draw conclusions based on the evidence they find. They (2)_____ be completely certain at first, but as they gather more information, patterns begin to emerge. For example, if there are muddy footprints leading to a window, it (3)_____ that someone entered through that route. However, investigators (4)_____ rule out other possibilities too quickly. What appears obvious (5)_____ be misleading. A skilled detective knows that circumstances (6)_____ always be what they seem. That's why they (7)_____ consider multiple scenarios before reaching a final conclusion. In many cases, the smallest detail (8)_____ the key to solving the entire mystery.`,
         questions: [
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: '1. _____',
+            id: 'gap-1',
+            gapNumber: 1,
+            options: ['can', 'must', 'should', 'might'],
             correctAnswer: 'must',
             explanation: '"Must" is used for strong logical deductions based on evidence.',
             points: 1
           },
           {
-            id: '',
-            type: 'true-false',
-            question: '2. mightn\'t',
-            correctAnswer: 'False',
-            explanation: 'Falso. "Mightn\\\'t" (might not) expresses uncertainty, which fits the context of initial investigation.',
+            id: 'gap-2',
+            gapNumber: 2,
+            options: ['can\'t', 'mustn\'t', 'mightn\'t', 'shouldn\'t'],
+            correctAnswer: 'mightn\'t',
+            explanation: '"Mightn\'t" (might not) expresses uncertainty, which fits the context of initial investigation.',
             points: 1
           },
           {
-            id: '',
-            type: 'short-answer',
-            question: '3. _____',
+            id: 'gap-3',
+            gapNumber: 3,
+            options: ['shows', 'suggests', 'proves', 'indicates'],
             correctAnswer: 'suggests',
             explanation: '"Suggests" is the correct verb for indicating evidence pointing to a conclusion.',
-            points: 2
-          },
-          {
-            id: '',
-            type: 'fill-blank',
-            sentence: '4. _____',
-            correctAnswer: 'mustn\\',
-            explanation: '"Mustn\\\'t" means "must not" and expresses prohibition/strong advice not to do something.',
             points: 1
           },
           {
-            id: '',
-            type: 'true-false',
-            question: '5. may',
-            correctAnswer: 'True',
+            id: 'gap-4',
+            gapNumber: 4,
+            options: ['can\'t', 'shouldn\'t', 'mustn\'t', 'needn\'t'],
+            correctAnswer: 'mustn\'t',
+            explanation: '"Mustn\'t" means "must not" and expresses prohibition/strong advice not to do something.',
+            points: 1
+          },
+          {
+            id: 'gap-5',
+            gapNumber: 5,
+            options: ['must', 'may', 'should', 'will'],
+            correctAnswer: 'may',
             explanation: '"May" expresses possibility, fitting the context that obvious things can be misleading.',
             points: 1
           },
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: '6. _____',
-            correctAnswer: 'can\\',
-            explanation: '"Can\\\'t always be" means "are not always" - expressing impossibility of things always being as they seem.',
+            id: 'gap-6',
+            gapNumber: 6,
+            options: ['mustn\'t', 'can\'t', 'shouldn\'t', 'needn\'t'],
+            correctAnswer: 'can\'t',
+            explanation: '"Can\'t always be" means "are not always" - expressing impossibility of things always being as they seem.',
             points: 1
           },
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: '7. _____',
+            id: 'gap-7',
+            gapNumber: 7,
+            options: ['can', 'must', 'may', 'could'],
             correctAnswer: 'must',
             explanation: '"Must" expresses strong necessity/obligation.',
             points: 1
           },
           {
-            id: '',
-            type: 'short-answer',
-            question: '8. _____',
+            id: 'gap-8',
+            gapNumber: 8,
+            options: ['may be', 'can prove', 'must be', 'should be'],
             correctAnswer: 'can prove',
             explanation: '"Can prove" expresses possibility/potential, fitting the context about details being potentially key.',
-            points: 2
+            points: 1
           }
         ],
         focusAreas: ['Modals of deduction', 'Modal verbs', 'Context clues']
@@ -9585,69 +9586,70 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
         id: 'b2-m2-l5-cloze-1',
         type: 'multiple-choice-cloze',
         title: 'Multiple Choice Cloze: The Power of Persuasion',
+        instructions: 'Read the text below and choose the correct word for each gap from the dropdown menu. Each gap has four options (A, B, C, D). Choose the word that best fits the context and grammar of the sentence.',
         text: `Throughout history, the ability to persuade others has been a crucial skill. Ancient philosophers (1)_____ the art of rhetoric, developing techniques that remain relevant today. Successful persuasion (2)_____ not just on logical arguments, but also on emotional appeal and credibility. Modern research has (3)_____ light on why some messages are more persuasive than others. Scientists have discovered that people are more (4)_____ to be convinced when information is presented in certain ways. For instance, arguments that (5)_____ both sides of an issue tend to be more effective than one-sided presentations. (6)_____, the messenger matters as much as the message itself. We're naturally inclined to trust people who (7)_____ expertise or share our values. Understanding these principles can help us both craft more convincing arguments and (8)_____ guard against manipulation.`,
         questions: [
           {
-            id: '',
-            type: 'short-answer',
-            question: '1. _____',
+            id: 'gap-1',
+            gapNumber: 1,
+            options: ['studied', 'mastered', 'learned', 'practiced'],
             correctAnswer: 'mastered',
             explanation: '"Mastered" means to become highly skilled at something, fitting the context of learning rhetoric.',
-            points: 2
+            points: 1
           },
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: '2. _____',
+            id: 'gap-2',
+            gapNumber: 2,
+            options: ['depends', 'relies', 'counts', 'rests'],
             correctAnswer: 'relies',
             explanation: '"Relies on" is the correct collocation meaning to depend on something.',
             points: 1
           },
           {
-            id: '',
-            type: 'short-answer',
-            question: '3. _____',
+            id: 'gap-3',
+            gapNumber: 3,
+            options: ['thrown', 'cast', 'shed', 'put'],
             correctAnswer: 'shed',
             explanation: '"Shed light on" is an idiom meaning to provide clarification or reveal information.',
-            points: 2
+            points: 1
           },
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: '4. _____',
+            id: 'gap-4',
+            gapNumber: 4,
+            options: ['probable', 'likely', 'possible', 'potential'],
             correctAnswer: 'likely',
             explanation: '"Likely to be" expresses probability and is the correct structure.',
             points: 1
           },
           {
-            id: '',
-            type: 'true-false',
-            question: '5. acknowledge',
-            correctAnswer: 'True',
+            id: 'gap-5',
+            gapNumber: 5,
+            options: ['accept', 'acknowledge', 'recognize', 'admit'],
+            correctAnswer: 'acknowledge',
             explanation: '"Acknowledge" means to recognize or accept as valid, fitting the context of presenting both sides.',
             points: 1
           },
           {
-            id: '',
-            type: 'short-answer',
-            question: '6. _____',
+            id: 'gap-6',
+            gapNumber: 6,
+            options: ['However', 'Moreover', 'Therefore', 'Nevertheless'],
             correctAnswer: 'Moreover',
             explanation: '"Moreover" adds additional information, fitting the context of adding another important point.',
-            points: 2
+            points: 1
           },
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: '7. _____',
+            id: 'gap-7',
+            gapNumber: 7,
+            options: ['show', 'demonstrate', 'display', 'exhibit'],
             correctAnswer: 'demonstrate',
             explanation: '"Demonstrate expertise" is the most formal and appropriate collocation in academic context.',
             points: 1
           },
           {
-            id: '',
-            type: 'true-false',
-            question: '8. better',
-            correctAnswer: 'True',
+            id: 'gap-8',
+            gapNumber: 8,
+            options: ['more', 'better', 'well', 'much'],
+            correctAnswer: 'better',
             explanation: '"Better guard" means more effectively protect, parallel to "more convincing" earlier.',
             points: 1
           }
