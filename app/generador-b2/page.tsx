@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { 
   B2ComprehensiveGenerator, 
   type B2GeneratedExercise,
@@ -124,10 +124,13 @@ export default function GeneradorB2Page() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            🎓 Generador Completo B2
+            🎓 Generador Completo B2 (CEFR)
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Generador automático de ejercicios cubriendo TODO el temario oficial del nivel B2 (CEFR)
+            Generador automático de ejercicios con IA cubriendo TODO el temario oficial del nivel B2
+          </p>
+          <p className="text-sm text-gray-500 mt-2">
+            20+ puntos gramaticales • 18+ temas oficiales • 10+ funciones comunicativas
           </p>
         </div>
 
