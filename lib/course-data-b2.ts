@@ -962,86 +962,6 @@ However, by the end of the first semester, I had adapted remarkably well. I had 
           }
         ]
       },
-      // MULTIPLE CHOICE CLOZE - FCE Part 1 Practice
-      {
-        id: 'b2-m1-l1-cloze-1',
-        type: 'multiple-choice-cloze',
-        title: 'Multiple Choice Cloze: Life Changes and Experiences',
-        instructions: 'Read the text below and decide which answer (A, B, C or D) best fits each gap.',
-        text: `Making the Decision to Study Abroad
-
-When Sarah first {{1}} the idea of studying abroad, she wasn't sure it was the right choice for her. She had always been close to her family and the {{2}} of leaving them for a whole year seemed overwhelming. However, her friends kept {{3}} her that it would be an incredible opportunity.
-
-After much consideration, Sarah decided to {{4}} for a scholarship program in Spain. She spent months preparing her application and was thrilled when she finally {{5}} the news that she had been accepted. Despite her excitement, she couldn't {{6}} feeling nervous about the challenges ahead.
-
-The first few weeks in Madrid were difficult. Sarah had been {{7}} Spanish for years, but understanding native speakers in real conversations was much harder than she had expected. {{8}}, she gradually adapted and soon found herself making friends and enjoying her new life.`,
-        questions: [
-          {
-            id: 'q1',
-            gapNumber: 1,
-            options: ['considered', 'regarded', 'believed', 'supposed'],
-            correctAnswer: 'considered',
-            explanation: '"Consider" is the correct verb for thinking about an idea or possibility. "Regard" needs a different structure, "believed" and "supposed" don\'t fit the context.',
-            points: 1
-          },
-          {
-            id: 'q2',
-            gapNumber: 2,
-            options: ['thought', 'idea', 'opinion', 'view'],
-            correctAnswer: 'idea',
-            explanation: '"The idea of leaving" is the correct collocation. "Thought of leaving" would need a different structure, and "opinion/view" don\'t fit the meaning.',
-            points: 1
-          },
-          {
-            id: 'q3',
-            gapNumber: 3,
-            options: ['saying', 'telling', 'speaking', 'talking'],
-            correctAnswer: 'telling',
-            explanation: '"Tell someone that..." is the correct structure. "Say" needs "to her", "speak" and "talk" require different constructions.',
-            points: 1
-          },
-          {
-            id: 'q4',
-            gapNumber: 4,
-            options: ['apply', 'request', 'demand', 'ask'],
-            correctAnswer: 'apply',
-            explanation: '"Apply for" is the correct phrasal verb for scholarship applications. "Request", "demand", and "ask" use different prepositions or structures.',
-            points: 1
-          },
-          {
-            id: 'q5',
-            gapNumber: 5,
-            options: ['accepted', 'received', 'took', 'got'],
-            correctAnswer: 'received',
-            explanation: '"Receive news" is the standard collocation. While "got" is possible, "received" is more formal and appropriate here.',
-            points: 1
-          },
-          {
-            id: 'q6',
-            gapNumber: 6,
-            options: ['help', 'avoid', 'prevent', 'stop'],
-            correctAnswer: 'help',
-            explanation: '"Can\'t help feeling" means unable to stop feeling. "Avoid", "prevent", and "stop" require different grammatical structures.',
-            points: 1
-          },
-          {
-            id: 'q7',
-            gapNumber: 7,
-            options: ['learning', 'studying', 'teaching', 'training'],
-            correctAnswer: 'studying',
-            explanation: 'We "study" a language (academic context). "Learn" would need present perfect continuous, "teaching/training" have different meanings.',
-            points: 1
-          },
-          {
-            id: 'q8',
-            gapNumber: 8,
-            options: ['Although', 'However', 'Despite', 'In spite'],
-            correctAnswer: 'However',
-            explanation: '"However" is correct as a sentence connector with comma. "Although/Despite/In spite" need different structures (clause or noun phrase).',
-            points: 1
-          }
-        ]
-      },
       {
         id: 'b2-m1-l1-wordform-1',
         type: 'word-formation',
@@ -2932,86 +2852,7 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
           }
         ]
       },
-      // MULTIPLE CHOICE CLOZE - FCE Part 1 Practice
-      {
-        id: 'b2-m1-l3-cloze-1',
-        type: 'multiple-choice-cloze',
-        title: 'Multiple Choice Cloze: Environmental Action',
-        instructions: 'Read the text below and decide which answer (A, B, C or D) best fits each gap.',
-        text: `Taking Action on Climate Change
 
-Climate change has become one of the most {{1}} issues facing humanity today. Scientists have been warning us for decades about the {{2}} consequences of global warming, yet progress in reducing emissions has been disappointingly slow. Many people feel overwhelmed by the {{3}} of the problem and wonder what difference individual actions can possibly make.
-
-{{4}}, experts insist that every small action counts. Simple changes like reducing energy consumption, using public transport, and choosing sustainable products can {{5}} a significant impact when adopted by millions of people. The key is to {{6}} these habits part of our daily routine rather than seeing them as occasional efforts.
-
-Governments and businesses also have a crucial {{7}} to play. New policies are being {{8}} to encourage renewable energy and discourage wasteful practices. While challenges remain, there are encouraging signs that society is finally taking this crisis seriously.`,
-        questions: [
-          {
-            id: 'q1',
-            gapNumber: 1,
-            options: ['urgent', 'immediate', 'instant', 'prompt'],
-            correctAnswer: 'urgent',
-            explanation: '"Urgent issue" is the standard collocation for important problems requiring immediate attention. "Immediate/instant/prompt" don\'t collocate naturally with "issue".',
-            points: 1
-          },
-          {
-            id: 'q2',
-            gapNumber: 2,
-            options: ['possible', 'potential', 'probable', 'likely'],
-            correctAnswer: 'potential',
-            explanation: '"Potential consequences" is the correct collocation for possible future effects. "Possible consequences" is less common, "probable/likely" need different structures.',
-            points: 1
-          },
-          {
-            id: 'q3',
-            gapNumber: 3,
-            options: ['scale', 'size', 'amount', 'extent'],
-            correctAnswer: 'scale',
-            explanation: '"The scale of the problem" refers to its magnitude. "Size" is for physical objects, "amount" for quantities, "extent" needs different context.',
-            points: 1
-          },
-          {
-            id: 'q4',
-            gapNumber: 4,
-            options: ['Nevertheless', 'Moreover', 'Therefore', 'Otherwise'],
-            correctAnswer: 'Nevertheless',
-            explanation: '"Nevertheless" (despite this) contrasts with the previous negative statement. "Moreover" adds information, "Therefore" shows result, "Otherwise" means "if not".',
-            points: 1
-          },
-          {
-            id: 'q5',
-            gapNumber: 5,
-            options: ['make', 'do', 'have', 'take'],
-            correctAnswer: 'make',
-            explanation: '"Make an impact" is the correct collocation. "Have an impact" is possible but less common in this structure, "do/take" don\'t collocate with "impact".',
-            points: 1
-          },
-          {
-            id: 'q6',
-            gapNumber: 6,
-            options: ['make', 'do', 'have', 'keep'],
-            correctAnswer: 'make',
-            explanation: '"Make something part of" means to incorporate. "Do", "have", and "keep" don\'t fit this particular structure.',
-            points: 1
-          },
-          {
-            id: 'q7',
-            gapNumber: 7,
-            options: ['role', 'part', 'function', 'duty'],
-            correctAnswer: 'role',
-            explanation: '"Play a role" is the standard idiom for having a responsibility or function. "Play a part" is also possible, but "role" is more common. "Function/duty" don\'t collocate with "play".',
-            points: 1
-          },
-          {
-            id: 'q8',
-            gapNumber: 8,
-            options: ['introduced', 'presented', 'shown', 'displayed'],
-            correctAnswer: 'introduced',
-            explanation: 'Policies are "introduced" (brought into use). "Presented" means shown formally, "shown/displayed" are for visual presentation.',
-            points: 1
-          }
-        ]
-      },
       {
         id: 'b2-m1-l3-wordform-1',
         type: 'word-formation',
@@ -4140,28 +3981,7 @@ By the end of 2021, when restrictions had eased, Maria not only opened her baker
           grammar: 10
         }
       },
-      // MULTIPLE CHOICE CLOZE - Narrative
-      {
-        id: 'b2-m1-l4-cloze-1',
-        type: 'multiple-choice-cloze',
-        title: 'Multiple Choice Cloze: Discovery',
-        instructions: 'Choose the correct word to complete each gap in the narrative.',
-        text: `The old library {{1}} stood empty for decades when Sarah first {{2}} it. She {{3}} past the building countless times, but that morning something {{4}} her to stop and look closer. The heavy wooden doors {{5}} slightly open, revealing a glimpse of dusty bookshelves inside.
 
-Sarah {{6}} been researching local history for her dissertation, and this building {{7}} mentioned in several historical documents. What she {{8}} was that inside these walls {{9}} a collection of rare manuscripts that everyone {{10}} were lost forever. Her discovery would change not only her academic career but also the understanding of the region's cultural heritage.`,
-        questions: [
-          { id: 'q1', gapNumber: 1, options: ['has', 'had', 'have', 'having'], correctAnswer: 'had', explanation: 'Past Perfect for state before another past action', points: 1 },
-          { id: 'q2', gapNumber: 2, options: ['discovered', 'was discovering', 'had discovered', 'discovers'], correctAnswer: 'discovered', explanation: 'Past Simple for main narrative event', points: 1 },
-          { id: 'q3', gapNumber: 3, options: ['walked', 'was walking', 'had walked', 'had been walking'], correctAnswer: 'had walked', explanation: 'Past Perfect for repeated action before discovery', points: 1 },
-          { id: 'q4', gapNumber: 4, options: ['prompted', 'was prompting', 'had prompted', 'prompts'], correctAnswer: 'prompted', explanation: 'Past Simple for specific action', points: 1 },
-          { id: 'q5', gapNumber: 5, options: ['were', 'are', 'had been', 'have been'], correctAnswer: 'were', explanation: 'Past Simple for description', points: 1 },
-          { id: 'q6', gapNumber: 6, options: ['was', 'has', 'had', 'have'], correctAnswer: 'had', explanation: 'Past Perfect Continuous marker', points: 1 },
-          { id: 'q7', gapNumber: 7, options: ['is', 'was', 'had been', 'has been'], correctAnswer: 'had been', explanation: 'Past Perfect passive', points: 1 },
-          { id: 'q8', gapNumber: 8, options: ['didn\'t know', 'wasn\'t knowing', 'hadn\'t known', 'doesn\'t know'], correctAnswer: 'didn\'t know', explanation: 'Past Simple negative with stative verb', points: 1 },
-          { id: 'q9', gapNumber: 9, options: ['was', 'were', 'had been', 'has been'], correctAnswer: 'was', explanation: 'Past Simple for discovery', points: 1 },
-          { id: 'q10', gapNumber: 10, options: ['think', 'thought', 'had thought', 'were thinking'], correctAnswer: 'had thought', explanation: 'Past Perfect for prior belief', points: 1 }
-        ]
-      },
       // PRONUNCIATION PRACTICE
       {
         id: 'b2-m1-l4-pronun-1',
@@ -4414,86 +4234,7 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
           }
         ]
       },
-      // MULTIPLE CHOICE CLOZE - FCE Part 1 Practice
-      {
-        id: 'b2-m1-l5-cloze-1',
-        type: 'multiple-choice-cloze',
-        title: 'Multiple Choice Cloze: The Power of Reading',
-        instructions: 'Read the text below and decide which answer (A, B, C or D) best fits each gap.',
-        text: `Why Reading Fiction Matters
 
-In an age dominated by digital media and short-form content, reading novels might seem like an old-fashioned {{1}}. However, neuroscientists have discovered that reading fiction offers unique benefits that other forms of entertainment cannot {{2}}. When we immerse ourselves in a well-written story, our brains create detailed mental simulations of the characters and events.
-
-Research has {{3}} that regular readers of fiction tend to have greater empathy and better social skills than non-readers. This is because following complex narratives {{4}} us to understand different perspectives and imagine ourselves in others' situations. The more we read, the better we become at {{5}} the emotions and motivations of real people in our lives.
-
-Critics might {{6}} that watching films or series could provide similar benefits. While visual media certainly has value, reading requires more active mental {{7}} as we construct the imagery ourselves. Moreover, books allow us to {{8}} into characters' thoughts in ways that films rarely achieve.`,
-        questions: [
-          {
-            id: 'q1',
-            gapNumber: 1,
-            options: ['activity', 'action', 'practice', 'hobby'],
-            correctAnswer: 'activity',
-            explanation: '"Activity" is the most neutral and appropriate word for reading as a general pursuit. "Action" implies physical movement, "practice" suggests skill development, "hobby" is too informal here.',
-            points: 1
-          },
-          {
-            id: 'q2',
-            gapNumber: 2,
-            options: ['match', 'equal', 'compare', 'compete'],
-            correctAnswer: 'match',
-            explanation: '"Cannot match" means cannot equal or be as good as. "Equal" could work but "match" is more natural here, "compare" means examine differences, "compete" implies rivalry.',
-            points: 1
-          },
-          {
-            id: 'q3',
-            gapNumber: 3,
-            options: ['shown', 'displayed', 'exhibited', 'demonstrated'],
-            correctAnswer: 'shown',
-            explanation: '"Research has shown" is the standard collocation for presenting findings. "Demonstrated" is possible but less common, "displayed/exhibited" are for physical things.',
-            points: 1
-          },
-          {
-            id: 'q4',
-            gapNumber: 4,
-            options: ['requires', 'demands', 'needs', 'asks'],
-            correctAnswer: 'requires',
-            explanation: '"Require someone to do" is the correct structure for necessitating an action. "Demand" is too strong, "need" doesn\'t take "to" naturally, "ask" means request.',
-            points: 1
-          },
-          {
-            id: 'q5',
-            gapNumber: 5,
-            options: ['recognizing', 'knowing', 'understanding', 'realizing'],
-            correctAnswer: 'understanding',
-            explanation: '"Become better at understanding" emphasizes deep comprehension. "Recognizing" is identifying, "knowing" is having knowledge, "realizing" is becoming aware.',
-            points: 1
-          },
-          {
-            id: 'q6',
-            gapNumber: 6,
-            options: ['argue', 'discuss', 'debate', 'dispute'],
-            correctAnswer: 'argue',
-            explanation: '"Argue that" introduces an opposing viewpoint. "Discuss" doesn\'t take "that", "debate" is for formal arguments, "dispute" means disagree with existing claims.',
-            points: 1
-          },
-          {
-            id: 'q7',
-            gapNumber: 7,
-            options: ['engagement', 'commitment', 'involvement', 'participation'],
-            correctAnswer: 'engagement',
-            explanation: '"Mental engagement" refers to active cognitive involvement. "Commitment" implies dedication over time, "involvement" is less specific, "participation" suggests group activity.',
-            points: 1
-          },
-          {
-            id: 'q8',
-            gapNumber: 8,
-            options: ['get', 'go', 'reach', 'access'],
-            correctAnswer: 'access',
-            explanation: '"Access characters\' thoughts" means gain entry to. "Get into" would need "into", "go" doesn\'t fit, "reach" implies physical arrival.',
-            points: 1
-          }
-        ]
-      },
       {
         id: 'b2-m1-l5-wordform-1',
         type: 'word-formation',
@@ -5367,29 +5108,7 @@ Dr. Anne Cleary explains: "What happens is that your brain's recognition system 
         ],
         focusAreas: ['Review vocabulary', 'Prefix multi-', 'Summary of transformations']
       },
-      {
-        id: 'b2-m1-l6-cloze-exam',
-        type: 'multiple-choice-cloze',
-        title: 'Mock Exam: Multiple Choice Cloze',
-        instructions: 'Read the text below and decide which answer (A, B, C or D) best fits each gap. This is Part 1 of the Use of English exam.',
-        text: `The Art of Storytelling
 
-Throughout human history, storytelling has played a {{1}} role in preserving culture and transmitting knowledge. What {{2}} storytelling apart from other forms of communication is its unique ability to {{3}} complex ideas in memorable narratives. Long before writing was invented, people had {{4}} telling stories to explain natural phenomena, teach moral lessons, and strengthen social bonds.
-
-Modern neuroscience has {{5}} that our brains are essentially wired for stories. When we listen to a compelling narrative, multiple areas of the brain {{6}} simultaneously—not just the language processing centers, but also the regions associated with sensory experience and emotion. It {{7}} this multi-sensory engagement that makes stories so powerful and memorable.
-
-In today's digital age, the fundamental importance of storytelling {{8}} unchanged. What has changed is simply the medium through which stories are told.`,
-        questions: [
-          { id: 'q1', gapNumber: 1, options: ['crucial', 'critical', 'vital', 'essential'], correctAnswer: 'crucial', explanation: 'All options mean "very important" but "crucial" is the most common collocation with "role".', points: 1 },
-          { id: 'q2', gapNumber: 2, options: ['sets', 'puts', 'makes', 'keeps'], correctAnswer: 'sets', explanation: '"Sets apart" is the correct phrasal verb meaning "distinguishes from others".', points: 1 },
-          { id: 'q3', gapNumber: 3, options: ['pack', 'wrap', 'package', 'bundle'], correctAnswer: 'package', explanation: '"Package ideas" means to present them in an accessible form.', points: 1 },
-          { id: 'q4', gapNumber: 4, options: ['been', 'had', 'made', 'done'], correctAnswer: 'been', explanation: 'Past perfect continuous requires "had been + -ing" for duration before a past point.', points: 1 },
-          { id: 'q5', gapNumber: 5, options: ['shown', 'displayed', 'presented', 'revealed'], correctAnswer: 'revealed', explanation: '"Has revealed that" is the natural collocation for new scientific findings.', points: 1 },
-          { id: 'q6', gapNumber: 6, options: ['activate', 'motivate', 'stimulate', 'operate'], correctAnswer: 'activate', explanation: 'Brain regions "activate" (become active) when processing information.', points: 1 },
-          { id: 'q7', gapNumber: 7, options: ['was', 'is', 'has', 'does'], correctAnswer: 'is', explanation: 'It-cleft structure in present: "It is...that" for emphasis.', points: 1 },
-          { id: 'q8', gapNumber: 8, options: ['remains', 'stays', 'continues', 'keeps'], correctAnswer: 'remains', explanation: '"Remains unchanged" is the standard collocation for something staying the same.', points: 1 }
-        ]
-      },
       {
         id: 'b2-m1-l6-reading-comprehension',
         type: 'reading',
@@ -5876,29 +5595,7 @@ Speaking Tips:
           { word: 'proofread', definition: 'read through to check for errors' }
         ]
       },
-      {
-        id: 'b2-m1-l6-final-assessment',
-        type: 'multiple-choice-cloze',
-        title: 'Final Assessment: Integrated Skills',
-        instructions: 'This final exercise integrates all aspects of Module 1. Read carefully and choose the best answer for each gap.',
-        text: `Reflections on Learning
 
-As we {{1}} the end of Module 1, it's worth reflecting on what we've accomplished. What {{2}} this module apart from basic English courses is its focus on advanced structures and sophisticated expression. It {{3}} through practice and repetition that these complex forms become natural.
-
-Throughout the lessons, we {{4}} passive constructions, narrative tenses, and cleft sentences—all essential tools for B2-level communication. What many students {{5}} is that mastering these structures isn't just about passing exams; it's about {{6}} yourself more precisely and persuasively in English.
-
-The skills you've been {{7}} will serve you in academic, professional, and social contexts. What {{8}} most is consistent practice and willingness to experiment with new structures even if you make mistakes initially.`,
-        questions: [
-          { id: 'q1', gapNumber: 1, options: ['approach', 'reach', 'arrive', 'come'], correctAnswer: 'approach', explanation: '"Approach the end" means to get near to the conclusion.', points: 1 },
-          { id: 'q2', gapNumber: 2, options: ['makes', 'sets', 'puts', 'takes'], correctAnswer: 'sets', explanation: '"Sets apart" means distinguishes from others.', points: 1 },
-          { id: 'q3', gapNumber: 3, options: ['is', 'was', 'has', 'does'], correctAnswer: 'is', explanation: 'It-cleft sentence present tense: "It is...that".', points: 1 },
-          { id: 'q4', gapNumber: 4, options: ['explored', 'have explored', 'had explored', 'were exploring'], correctAnswer: 'have explored', explanation: 'Present perfect for completed actions in module with present relevance.', points: 1 },
-          { id: 'q5', gapNumber: 5, options: ['don\'t realize', 'didn\'t realize', 'haven\'t realized', 'won\'t realize'], correctAnswer: 'don\'t realize', explanation: 'Present simple for general truth about students.', points: 1 },
-          { id: 'q6', gapNumber: 6, options: ['express', 'to express', 'expressing', 'expressed'], correctAnswer: 'expressing', explanation: '"About" is followed by gerund (-ing form).', points: 1 },
-          { id: 'q7', gapNumber: 7, options: ['developing', 'developed', 'develop', 'to develop'], correctAnswer: 'developing', explanation: 'Present perfect continuous: "have been developing".', points: 1 },
-          { id: 'q8', gapNumber: 8, options: ['important', 'matters', 'significant', 'essential'], correctAnswer: 'matters', explanation: '"What matters" is the correct what-cleft construction.', points: 1 }
-        ]
-      },
       {
         id: 'b2-m1-l6-sentence-reordering-1',
         type: 'sentence-reordering',
@@ -5994,8 +5691,7 @@ The skills you've been {{7}} will serve you in academic, professional, and socia
       'Dominar Open Cloze (Part 2) con gramática contextual',
       'Completar Gapped Text (Part 6) con párrafos eliminados',
       'Resolver Multiple Matching (Part 7) con textos múltiples',
-      'Perfeccionar Key Word Transformations (Part 4)',
-      'Practicar Multiple Choice Cloze (Part 1) con colocaciones'
+      'Perfeccionar Key Word Transformations (Part 4)'
     ],
     exercises: [
       // Open Cloze Exercises (12 total)
@@ -6028,14 +5724,6 @@ The skills you've been {{7}} will serve you in academic, professional, and socia
         id: `b2-m1-l7-key-transformation-${idx + 1}`,
         title: `Key Word Transformations: ${ex.title}`,
         type: 'key-word-transformation' as ExerciseType
-      })),
-      
-      // Multiple Choice Cloze Exercises (12 total)
-      ...MULTIPLE_CHOICE_CLOZE_EXERCISES.map((ex, idx) => ({
-        ...ex,
-        id: `b2-m1-l7-mc-cloze-${idx + 1}`,
-        title: `Multiple Choice Cloze: ${ex.title}`,
-        type: 'multiple-choice-cloze' as ExerciseType
       }))
     ]
   }
@@ -6120,79 +5808,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
         ],
         expectedResponse: 'A 2-minute description making deductions about a scene or situation using modal verbs. Should include: (1) Strong deductions with \"must be\" (\"They must be celebrating because...\"), (2) Possibilities with \"might/could be\" (\"They might have just arrived\"), (3) Impossibilities with \"can\'t be\" (\"It can\'t be a normal day\"), (4) Reasons for deductions (\"because...\", \"judging by...\"), (5) Multiple deductions about different aspects (people, setting, situation). Demonstrates understanding of modal verbs for speculation and ability to support deductions with evidence.'
       },
-      {
-        id: 'b2-m2-l1-cloze-1',
-        type: 'multiple-choice-cloze',
-        title: 'Multiple Choice Cloze: Making Deductions',
-        text: `Detective work requires careful observation and logical thinking. When examining a crime scene, investigators (1)_____ draw conclusions based on the evidence they find. They (2)_____ be completely certain at first, but as they gather more information, patterns begin to emerge. For example, if there are muddy footprints leading to a window, it (3)_____ that someone entered through that route. However, investigators (4)_____ rule out other possibilities too quickly. What appears obvious (5)_____ be misleading. A skilled detective knows that circumstances (6)_____ always be what they seem. That's why they (7)_____ consider multiple scenarios before reaching a final conclusion. In many cases, the smallest detail (8)_____ the key to solving the entire mystery.`,
-        questions: [
-          {
-            id: 'q1',
-            type: 'fill-blank',
-            question: '1. _____',
-            correctAnswer: 'must',
-            explanation: '"Must" is used for strong logical deductions based on evidence.',
-            points: 1
-          },
-          {
-            id: 'q2',
-            type: 'true-false',
-            question: '2. mightn\'t',
-            correctAnswer: 'False',
-            explanation: 'Falso. "Mightn\\\'t" (might not) expresses uncertainty, which fits the context of initial investigation.',
-            points: 1
-          },
-          {
-            id: 'q3',
-            type: 'short-answer',
-            question: '3. _____',
-            correctAnswer: 'suggests',
-            explanation: '"Suggests" is the correct verb for indicating evidence pointing to a conclusion.',
-            points: 2
-          },
-          {
-            id: 'q4',
-            type: 'fill-blank',
-            question: '4. _____',
-            correctAnswer: 'mustn\\',
-            explanation: '"Mustn\\\'t" means "must not" and expresses prohibition/strong advice not to do something.',
-            points: 1
-          },
-          {
-            id: 'q5',
-            type: 'true-false',
-            question: '5. may',
-            correctAnswer: 'True',
-            explanation: '"May" expresses possibility, fitting the context that obvious things can be misleading.',
-            points: 1
-          },
-          {
-            id: 'q6',
-            type: 'fill-blank',
-            question: '6. _____',
-            correctAnswer: 'can\\',
-            explanation: '"Can\\\'t always be" means "are not always" - expressing impossibility of things always being as they seem.',
-            points: 1
-          },
-          {
-            id: 'q7',
-            type: 'fill-blank',
-            question: '7. _____',
-            correctAnswer: 'must',
-            explanation: '"Must" expresses strong necessity/obligation.',
-            points: 1
-          },
-          {
-            id: 'q8',
-            type: 'short-answer',
-            question: '8. _____',
-            correctAnswer: 'can prove',
-            explanation: '"Can prove" expresses possibility/potential, fitting the context about details being potentially key.',
-            points: 2
-          }
-        ],
-        focusAreas: ['Modals of deduction', 'Modal verbs', 'Context clues']
-      },
+
       {
         id: 'b2-m2-l1-grammar-2',
         type: 'grammar',
@@ -7039,86 +6655,7 @@ The truth must lie somewhere in the evidence, yet more than 60 years later, we s
           'Structure: Introduction → Process description → Conclusion'
         ]
       },
-      // MULTIPLE CHOICE CLOZE - FCE Part 1 Practice
-      {
-        id: 'b2-m2-l2-cloze-1',
-        type: 'multiple-choice-cloze',
-        title: 'Multiple Choice Cloze: The Rise of Remote Work',
-        instructions: 'Read the text below and decide which answer (A, B, C or D) best fits each gap.',
-        text: `The Remote Work Revolution
 
-The COVID-19 pandemic {{1}} brought about one of the most dramatic shifts in work culture in recent history. Millions of employees who had never considered working from home suddenly found themselves {{2}} to adapt to remote work virtually overnight. While many initially struggled with the transition, others quickly {{3}} to appreciate the benefits of this new arrangement.
-
-For employers, the shift required significant {{4}} in technology and management practices. Companies had to {{5}} in video conferencing software, project management tools, and cybersecurity measures. However, many have since realized that remote work can actually {{6}} productivity while reducing overhead costs.
-
-As we move forward, experts predict that hybrid models will become the {{7}}. Rather than returning to traditional office-based work, most organizations are likely to {{8}} flexible arrangements that allow employees to split their time between home and office. This represents a fundamental change in how we think about the workplace.`,
-        questions: [
-          {
-            id: 'q1',
-            gapNumber: 1,
-            options: ['suddenly', 'immediately', 'quickly', 'rapidly'],
-            correctAnswer: 'suddenly',
-            explanation: '"Suddenly brought about" emphasizes the unexpected nature of the change. "Immediately/quickly/rapidly" suggest speed but not unexpectedness.',
-            points: 1
-          },
-          {
-            id: 'q2',
-            gapNumber: 2,
-            options: ['made', 'obliged', 'forced', 'required'],
-            correctAnswer: 'forced',
-            explanation: '"Forced to adapt" implies no choice in the matter. "Obliged/required" are less strong, "made" needs different structure (made + bare infinitive).',
-            points: 1
-          },
-          {
-            id: 'q3',
-            gapNumber: 3,
-            options: ['came', 'got', 'went', 'became'],
-            correctAnswer: 'came',
-            explanation: '"Came to appreciate" means gradually began to appreciate. "Got" would need "to appreciate" but is informal, "went/became" don\'t fit this structure.',
-            points: 1
-          },
-          {
-            id: 'q4',
-            gapNumber: 4,
-            options: ['investment', 'spending', 'payment', 'expense'],
-            correctAnswer: 'investment',
-            explanation: '"Require investment in" refers to putting resources into development. "Spending" is less formal, "payment" is for transactions, "expense" is for costs incurred.',
-            points: 1
-          },
-          {
-            id: 'q5',
-            gapNumber: 5,
-            options: ['invest', 'spend', 'put', 'place'],
-            correctAnswer: 'invest',
-            explanation: '"Invest in" means allocate money for future returns. "Spend on" is possible but less strategic, "put/place" need different prepositions.',
-            points: 1
-          },
-          {
-            id: 'q6',
-            gapNumber: 6,
-            options: ['increase', 'raise', 'grow', 'rise'],
-            correctAnswer: 'increase',
-            explanation: '"Increase productivity" is transitive (takes an object). "Raise" needs specific contexts, "grow" is intransitive, "rise" is intransitive.',
-            points: 1
-          },
-          {
-            id: 'q7',
-            gapNumber: 7,
-            options: ['rule', 'norm', 'standard', 'usual'],
-            correctAnswer: 'norm',
-            explanation: '"Become the norm" means become the standard or typical situation. "Rule" is for regulations, "standard" needs different article, "usual" is an adjective.',
-            points: 1
-          },
-          {
-            id: 'q8',
-            gapNumber: 8,
-            options: ['adopt', 'adapt', 'accept', 'approve'],
-            correctAnswer: 'adopt',
-            explanation: '"Adopt arrangements" means officially implement them. "Adapt" means modify, "accept" means agree with, "approve" means give permission.',
-            points: 1
-          }
-        ]
-      },
       {
         id: 'b2-m2-l2-grammar-2',
         type: 'grammar',
@@ -8013,79 +7550,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
         ],
         expectedResponse: 'A 2-3 minute report of a recent conversation using varied reporting verbs. Should include: (1) Context setting (when/where the conversation took place), (2) Varied reporting verbs beyond \"said\" (suggested, claimed, admitted, warned, recommended, insisted, denied), (3) Correct backshifting of tenses (\"She said she was tired\" from \"I am tired\"), (4) Reporting both statements and questions, (5) Natural, conversational tone. Demonstrates mastery of reported speech and variety in reporting verbs.'
       },
-      {
-        id: 'b2-m2-l3-cloze-1',
-        type: 'multiple-choice-cloze',
-        title: 'Multiple Choice Cloze: Communication in the Digital Age',
-        text: `Recent studies have shown that digital communication is transforming the way people interact. Researchers (1)_____ that while technology offers unprecedented connectivity, it also presents unique challenges. Many experts (2)_____ concern about the decline in face-to-face conversations, particularly among younger generations. They (3)_____ that excessive screen time might be affecting social skills development. However, (4)_____ all agree that technology is inherently harmful. Some researchers (5)_____ out that digital tools can actually enhance communication when used appropriately. The key, they argue, (6)_____ in finding the right balance. Parents often (7)_____ their children to limit device usage, yet many struggle to (8)_____ a good example themselves. This inconsistency, psychologists warn, could undermine the message they're trying to convey.`,
-        questions: [
-          {
-            id: 'q1',
-            type: 'fill-blank',
-            question: '1. _____',
-            correctAnswer: 'claim',
-            explanation: '"Claim" is used for reporting statements without "that" being mandatory, fitting reported speech context.',
-            points: 1
-          },
-          {
-            id: 'q2',
-            type: 'short-answer',
-            question: '2. _____',
-            correctAnswer: 'express',
-            explanation: '"Express" collocates with "concern" to mean communicating worry or anxiety.',
-            points: 2
-          },
-          {
-            id: 'q3',
-            type: 'fill-blank',
-            question: '3. _____',
-            correctAnswer: 'worry',
-            explanation: '"Worry" is the only option that can be followed by "that" clause in this context.',
-            points: 1
-          },
-          {
-            id: 'q4',
-            type: 'true-false',
-            question: '4. not',
-            correctAnswer: 'True',
-            explanation: '"Not all" is the correct negative form meaning "some but not all".',
-            points: 1
-          },
-          {
-            id: 'q5',
-            type: 'short-answer',
-            question: '5. _____',
-            correctAnswer: 'point',
-            explanation: '"Point out" is a phrasal verb meaning to highlight or draw attention to something.',
-            points: 2
-          },
-          {
-            id: 'q6',
-            type: 'fill-blank',
-            question: '6. _____',
-            correctAnswer: 'lies',
-            explanation: '"The key lies in" is the correct collocation meaning "the solution is found in".',
-            points: 1
-          },
-          {
-            id: 'q7',
-            type: 'true-false',
-            question: '7. advise',
-            correctAnswer: 'True',
-            explanation: '"Advise + person + to infinitive" is the correct pattern.',
-            points: 1
-          },
-          {
-            id: 'q8',
-            type: 'fill-blank',
-            question: '8. _____',
-            correctAnswer: 'set',
-            explanation: '"Set an example" is the correct collocation meaning to behave as a model for others.',
-            points: 1
-          }
-        ],
-        focusAreas: ['Reporting verbs', 'Collocations', 'Phrasal verbs']
-      },
+
       {
         id: 'b2-m2-l3-grammar-2',
         type: 'grammar',
@@ -9061,83 +8526,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
           }
         ]
       },
-      {
-        id: 'b2-m2-l4-cloze-1',
-        type: 'multiple-choice-cloze',
-        title: 'Multiple Choice Cloze: The Future of Education',
-        text: `The education system has undergone dramatic changes in recent years. Traditional classroom-based learning has long been the norm. (1)_____, online education has emerged as a viable alternative. Many students now have access to courses from top universities worldwide. (2)_____, this democratization of education hasn't solved all problems.
 
-(3)_____ online learning offers flexibility and convenience, it also presents challenges. Students must be highly self-motivated, (4)_____ they risk falling behind. (5)_____, the lack of face-to-face interaction can make it difficult to build relationships with peers and instructors. (6)_____ these challenges, many institutions are developing hybrid models that combine the best of both approaches.
-
-(7)_____, technology continues to advance, we can expect further innovations in education. Virtual reality, for instance, could revolutionize how we teach complex subjects. (8)_____ the future of education will likely involve a blend of traditional and digital methods, rather than one completely replacing the other.`,
-        questions: [
-          {
-            id: 'q2',
-            type: 'short-answer',
-            question: '1. _____',
-            correctAnswer: 'However',
-            explanation: 'However introduce un contraste con la idea anterior.',
-            points: 2
-          },
-          {
-            id: 'q3',
-            type: 'fill-blank',
-            question: '2. _____',
-            correctAnswer: 'Nevertheless',
-            explanation: 'Nevertheless indica que a pesar del aspecto positivo, hay problemas.',
-            points: 1
-          },
-          {
-            id: 'q4',
-            type: 'true-false',
-            question: '3. Despite',
-            correctAnswer: 'False',
-            explanation: 'Falso. Although + clause (Although online learning offers...)',
-            points: 1
-          },
-          {
-            id: 'q5',
-            type: 'short-answer',
-            question: '4. _____',
-            correctAnswer: 'otherwise',
-            explanation: 'Otherwise = si no, de lo contrario.',
-            points: 2
-          },
-          {
-            id: 'q6',
-            type: 'fill-blank',
-            question: '5. _____',
-            correctAnswer: 'Furthermore',
-            explanation: 'Furthermore añade otro desafío a la lista.',
-            points: 1
-          },
-          {
-            id: 'q7',
-            type: 'true-false',
-            question: '6. Despite',
-            correctAnswer: 'True',
-            explanation: 'Despite + noun phrase (Despite these challenges)',
-            points: 1
-          },
-          {
-            id: 'q8',
-            type: 'fill-blank',
-            question: '7. _____',
-            correctAnswer: 'As',
-            explanation: 'As + clause al principio de oración expresa causa.',
-            points: 1
-          },
-          {
-            id: 'q9',
-            type: 'fill-blank',
-            question: '8. _____',
-            correctAnswer: 'In conclusion',
-            explanation: 'In conclusion introduce la conclusión final.',
-            points: 1
-          }
-        ],
-        focusAreas: ['Linking words', 'Discourse markers', 'Text cohesion']
-      },
       {
         id: 'b2-m2-l4-sentence-completion',
         type: 'sentence-completion',
@@ -9868,79 +9257,7 @@ In conclusion, while challenges exist, the potential benefits of UBI warrant ser
         ],
         expectedResponse: 'A 3-minute structured argument on a controversial topic (free education, social media regulation, OR remote work). Should include: (1) Clear position statement (\"In my opinion...\", \"I strongly believe that...\"), (2) 2-3 reasons with examples (\"Firstly..., For example...\"), (3) Counter-argument addressed (\"Some people argue that..., however...\"), (4) Evidence (\"Studies show that...\"), (5) Strong conclusion (\"In conclusion..., Therefore...\"). Demonstrates persuasive argumentation with logical structure and supporting evidence.'
       },
-      {
-        id: 'b2-m2-l5-cloze-1',
-        type: 'multiple-choice-cloze',
-        title: 'Multiple Choice Cloze: The Power of Persuasion',
-        text: `Throughout history, the ability to persuade others has been a crucial skill. Ancient philosophers (1)_____ the art of rhetoric, developing techniques that remain relevant today. Successful persuasion (2)_____ not just on logical arguments, but also on emotional appeal and credibility. Modern research has (3)_____ light on why some messages are more persuasive than others. Scientists have discovered that people are more (4)_____ to be convinced when information is presented in certain ways. For instance, arguments that (5)_____ both sides of an issue tend to be more effective than one-sided presentations. (6)_____, the messenger matters as much as the message itself. We're naturally inclined to trust people who (7)_____ expertise or share our values. Understanding these principles can help us both craft more convincing arguments and (8)_____ guard against manipulation.`,
-        questions: [
-          {
-            id: 'q1',
-            type: 'short-answer',
-            question: '1. _____',
-            correctAnswer: 'mastered',
-            explanation: '"Mastered" means to become highly skilled at something, fitting the context of learning rhetoric.',
-            points: 2
-          },
-          {
-            id: 'q2',
-            type: 'fill-blank',
-            question: '2. _____',
-            correctAnswer: 'relies',
-            explanation: '"Relies on" is the correct collocation meaning to depend on something.',
-            points: 1
-          },
-          {
-            id: 'q3',
-            type: 'short-answer',
-            question: '3. _____',
-            correctAnswer: 'shed',
-            explanation: '"Shed light on" is an idiom meaning to provide clarification or reveal information.',
-            points: 2
-          },
-          {
-            id: 'q4',
-            type: 'fill-blank',
-            question: '4. _____',
-            correctAnswer: 'likely',
-            explanation: '"Likely to be" expresses probability and is the correct structure.',
-            points: 1
-          },
-          {
-            id: 'q5',
-            type: 'true-false',
-            question: '5. acknowledge',
-            correctAnswer: 'True',
-            explanation: '"Acknowledge" means to recognize or accept as valid, fitting the context of presenting both sides.',
-            points: 1
-          },
-          {
-            id: 'q6',
-            type: 'short-answer',
-            question: '6. _____',
-            correctAnswer: 'Moreover',
-            explanation: '"Moreover" adds additional information, fitting the context of adding another important point.',
-            points: 2
-          },
-          {
-            id: 'q7',
-            type: 'fill-blank',
-            question: '7. _____',
-            correctAnswer: 'demonstrate',
-            explanation: '"Demonstrate expertise" is the most formal and appropriate collocation in academic context.',
-            points: 1
-          },
-          {
-            id: 'q8',
-            type: 'true-false',
-            question: '8. better',
-            correctAnswer: 'True',
-            explanation: '"Better guard" means more effectively protect, parallel to "more convincing" earlier.',
-            points: 1
-          }
-        ],
-        focusAreas: ['Academic vocabulary', 'Collocations', 'Linking words']
-      },
+
       {
         id: 'b2-m2-l5-grammar-1',
         type: 'grammar',
@@ -11090,83 +10407,7 @@ Despite the uncertainties, most economists agree that adaptation is essential. T
           }
         ]
       },
-      {
-        id: 'b2-m2-l6-cloze-exam',
-        type: 'multiple-choice-cloze',
-        title: 'EXAM: Multiple Choice Cloze - Climate Action',
-        text: `Climate change represents one of the most pressing challenges facing humanity. Scientists (1)_____ that global temperatures have risen significantly over the past century. (2)_____, the rate of change appears to be accelerating. There is compelling evidence to (3)_____ that human activities are the primary cause.
 
-(4)_____ these findings, some politicians continue to question the need for immediate action. They (5)_____ that the economic costs of transitioning to renewable energy are too high. (6)_____, environmental advocates maintain that the cost of inaction would be far greater. If governments (7)_____ to invest in green technologies now, future generations will face catastrophic consequences.
-
-International cooperation is (8)_____. Individual nations cannot solve this global problem alone.`,
-        questions: [
-          {
-            id: 'q2',
-            type: 'fill-blank',
-            question: '1. _____',
-            correctAnswer: 'contend',
-            explanation: 'Contend = argue/maintain (formal).',
-            points: 1
-          },
-          {
-            id: 'q3',
-            type: 'short-answer',
-            question: '2. _____',
-            correctAnswer: 'Furthermore',
-            explanation: 'Furthermore adds information.',
-            points: 2
-          },
-          {
-            id: 'q4',
-            type: 'fill-blank',
-            question: '3. _____',
-            correctAnswer: 'suggest',
-            explanation: 'Evidence suggests = evidence indicates.',
-            points: 1
-          },
-          {
-            id: 'q5',
-            type: 'short-answer',
-            question: '4. _____',
-            correctAnswer: 'Despite',
-            explanation: 'Despite + noun phrase (these findings).',
-            points: 2
-          },
-          {
-            id: 'q6',
-            type: 'fill-blank',
-            question: '5. _____',
-            correctAnswer: 'argue',
-            explanation: 'Argue that = claim that.',
-            points: 1
-          },
-          {
-            id: 'q7',
-            type: 'true-false',
-            question: '6. Therefore',
-            correctAnswer: 'False',
-            explanation: 'Falso. However shows contrast.',
-            points: 1
-          },
-          {
-            id: 'q8',
-            type: 'short-answer',
-            question: '7. _____',
-            correctAnswer: 'fail',
-            explanation: 'First conditional: If + present, will + verb.',
-            points: 2
-          },
-          {
-            id: 'q9',
-            type: 'fill-blank',
-            question: '8. _____',
-            correctAnswer: 'essential',
-            explanation: 'Adjective needed: is essential.',
-            points: 1
-          }
-        ],
-        focusAreas: ['Argumentation verbs', 'Linking words', 'Conditionals']
-      },
       {
         id: 'b2-m2-l6-key-word-exam',
         type: 'key-word-transformation',
@@ -11625,79 +10866,7 @@ export const MODULE_3_LESSONS: Lesson[] = [
         ],
         expectedResponse: 'A 2-minute formal presentation about field of study/work. Should include: (1) Formal opening ("Today I\'d like to discuss..."), (2) Clear signposting ("Firstly...", "Moving on to..."), (3) Formal vocabulary and complete sentences, (4) Avoidance of filler words, (5) Professional closing ("Thank you for your attention. Are there any questions?"). Demonstrates formal register and presentation skills.'
       },
-      {
-        id: 'b2-m3-l1-cloze-1',
-        type: 'multiple-choice-cloze',
-        title: 'Multiple Choice Cloze: Professional Email Etiquette',
-        text: `In today's business world, email remains a primary form of professional communication. However, many people (1)_____ to follow basic email etiquette, which can damage their professional reputation. The first rule is to always (2)_____ a clear, descriptive subject line that accurately reflects the content of your message. When addressing recipients, it's important to (3)_____ the appropriate level of formality. While "Hi" might be acceptable for colleagues you know well, more formal greetings are (4)_____ when writing to senior management or external clients. The body of the email should be concise and well-organized, (5)_____ the main point early. Many professionals (6)_____ the mistake of writing lengthy emails that bury important information. Before sending, always (7)_____ your message for spelling and grammar errors. Finally, remember that tone can be difficult to (8)_____ in written communication, so choose your words carefully to avoid misunderstandings.`,
-        questions: [
-          {
-            id: 'q1',
-            type: 'fill-blank',
-            question: '1. _____',
-            correctAnswer: 'fail',
-            explanation: '"Fail to" means not succeed in doing something, the correct pattern for this context.',
-            points: 1
-          },
-          {
-            id: 'q2',
-            type: 'short-answer',
-            question: '2. _____',
-            correctAnswer: 'include',
-            explanation: '"Include" is the most natural verb for adding something as a component.',
-            points: 2
-          },
-          {
-            id: 'q3',
-            type: 'fill-blank',
-            question: '3. _____',
-            correctAnswer: 'use',
-            explanation: '"Use" is the most straightforward and appropriate verb in this business context.',
-            points: 1
-          },
-          {
-            id: 'q4',
-            type: 'true-false',
-            question: '4. demanded',
-            correctAnswer: 'False',
-            explanation: 'Falso. "Required" means needed or expected in the context of professional standards.',
-            points: 1
-          },
-          {
-            id: 'q5',
-            type: 'short-answer',
-            question: '5. _____',
-            correctAnswer: 'stating',
-            explanation: '"Stating" means expressing something clearly and formally, fitting the professional context.',
-            points: 2
-          },
-          {
-            id: 'q6',
-            type: 'fill-blank',
-            question: '6. _____',
-            correctAnswer: 'make',
-            explanation: '"Make a/the mistake" is the correct collocation.',
-            points: 1
-          },
-          {
-            id: 'q7',
-            type: 'true-false',
-            question: '7. proofread',
-            correctAnswer: 'True',
-            explanation: '"Proofread" specifically means to check for spelling and grammar errors.',
-            points: 1
-          },
-          {
-            id: 'q8',
-            type: 'fill-blank',
-            question: '8. _____',
-            correctAnswer: 'convey',
-            explanation: '"Convey" means to communicate or make known, especially tone or feelings.',
-            points: 1
-          }
-        ],
-        focusAreas: ['Business vocabulary', 'Collocations', 'Formal writing']
-      },
+
       {
         id: 'b2-m3-l1-vocabulary-1',
         type: 'vocabulary',
@@ -12735,97 +11904,7 @@ Looking back, Sarah realizes that the initial rejections, while difficult to get
           'Check that phrasal verbs are used correctly (separable/inseparable)'
         ]
       },
-      {
-        id: 'b2-m3-l2-cloze-1',
-        type: 'multiple-choice-cloze',
-        title: 'Multiple Choice Cloze: Starting a Business',
-        text: `When Maria decided to (1)_____ her own business, many people told her she was crazy. However, she refused to (2)_____ her dream. She spent months (3)_____ a comprehensive business plan before approaching investors. Initially, several banks (4)_____ her loan application, but Maria didn't let these rejections (5)_____ her down.
 
-Eventually, she (6)_____ a potential partner at a networking event. Together, they managed to (7)_____ the necessary funding and (8)_____ with establishing their first office. The first year was challenging—they had to (9)_____ numerous setbacks and learn to (10)_____ problems quickly. However, their persistence paid off, and the business is now thriving.`,
-        questions: [
-          {
-            id: 'q1',
-            type: 'fill-blank',
-            question: '1. _____',
-            correctAnswer: 'set up',
-            explanation: '"Set up" means to establish or start.',
-            points: 1
-          },
-          {
-            id: 'q2',
-            type: 'true-false',
-            question: '2. give up',
-            correctAnswer: 'True',
-            explanation: '"Give up" means to abandon or stop trying.',
-            points: 1
-          },
-          {
-            id: 'q3',
-            type: 'fill-blank',
-            question: '3. _____',
-            correctAnswer: 'working out',
-            explanation: '"Working out" means developing or creating (a plan).',
-            points: 1
-          },
-          {
-            id: 'q4',
-            type: 'fill-blank',
-            question: '4. _____',
-            correctAnswer: 'turned down',
-            explanation: '"Turned down" means rejected.',
-            points: 1
-          },
-          {
-            id: 'q5',
-            type: 'short-answer',
-            question: '5. _____',
-            correctAnswer: 'get',
-            explanation: '"Get someone down" means to discourage or depress.',
-            points: 2
-          },
-          {
-            id: 'q6',
-            type: 'fill-blank',
-            question: '6. _____',
-            correctAnswer: 'came across',
-            explanation: '"Came across" means found by chance.',
-            points: 1
-          },
-          {
-            id: 'q7',
-            type: 'short-answer',
-            question: '7. _____',
-            correctAnswer: 'work out',
-            explanation: '"Work out" can mean to achieve or arrange something successfully.',
-            points: 2
-          },
-          {
-            id: 'q8',
-            type: 'fill-blank',
-            question: '8. _____',
-            correctAnswer: 'went ahead',
-            explanation: '"Went ahead" means proceeded or continued.',
-            points: 1
-          },
-          {
-            id: 'q9',
-            type: 'true-false',
-            question: '9. get over',
-            correctAnswer: 'False',
-            explanation: 'Falso. "Deal with" means to handle or manage.',
-            points: 1
-          },
-          {
-            id: 'q10',
-            type: 'short-answer',
-            question: '10. _____',
-            correctAnswer: 'figure out',
-            explanation: '"Figure out" means to solve or understand.',
-            points: 2
-          }
-        ],
-        focusAreas: ['Phrasal verbs in context', 'Business vocabulary']
-      },
       {
         id: 'b2-m3-l2-error-identification-1',
         type: 'error-identification',
@@ -13573,79 +12652,7 @@ Thank you for your attention. I'd be happy to take any questions.`,
           'Use passive voice where appropriate'
         ]
       },
-      {
-        id: 'b2-m3-l3-cloze-1',
-        type: 'multiple-choice-cloze',
-        title: 'Multiple Choice Cloze: Academic Research and Writing',
-        text: `Academic writing requires precision, clarity, and rigorous attention to detail. When (1)_____ research, scholars must carefully evaluate sources to ensure they are reliable and relevant. The research process typically begins with formulating a clear hypothesis or research question. Researchers then (2)_____ a comprehensive literature review to understand what has already been published on the topic. This step is crucial because it helps identify (3)_____ in current knowledge and establishes the context for new research. Data collection methods must be carefully chosen and (4)_____ implemented to ensure valid results. Once data has been gathered, it must be systematically analyzed and interpreted. Research findings should be presented objectively, (5)_____ personal biases or opinions. When drawing conclusions, it's important to acknowledge any (6)_____ of the study. Finally, researchers must properly (7)_____ all sources to give credit to previous work and allow readers to verify information. Failing to do so can result in accusations of plagiarism, which can seriously (8)_____ an academic's reputation and career.`,
-        questions: [
-          {
-            id: 'q1',
-            type: 'fill-blank',
-            question: '1. _____',
-            correctAnswer: 'conducting',
-            explanation: '"Conducting research" is the standard academic collocation.',
-            points: 1
-          },
-          {
-            id: 'q2',
-            type: 'true-false',
-            question: '2. conduct',
-            correctAnswer: 'True',
-            explanation: '"Conduct a literature review" is the correct academic phrase.',
-            points: 1
-          },
-          {
-            id: 'q3',
-            type: 'fill-blank',
-            question: '3. _____',
-            correctAnswer: 'gaps',
-            explanation: '"Gaps in knowledge" is the standard academic expression for missing areas of research.',
-            points: 1
-          },
-          {
-            id: 'q4',
-            type: 'fill-blank',
-            question: '4. _____',
-            correctAnswer: 'rigorously',
-            explanation: '"Rigorously implemented" means executed with extreme thoroughness and care.',
-            points: 1
-          },
-          {
-            id: 'q5',
-            type: 'short-answer',
-            question: '5. _____',
-            correctAnswer: 'avoiding',
-            explanation: '"Avoiding" is the most straightforward and appropriate word for staying away from something.',
-            points: 2
-          },
-          {
-            id: 'q6',
-            type: 'fill-blank',
-            question: '6. _____',
-            correctAnswer: 'limitations',
-            explanation: '"Limitations of a study" is the standard academic term for acknowledging weaknesses.',
-            points: 1
-          },
-          {
-            id: 'q7',
-            type: 'short-answer',
-            question: '7. _____',
-            correctAnswer: 'cite',
-            explanation: '"Cite sources" is the correct academic term for providing references.',
-            points: 2
-          },
-          {
-            id: 'q8',
-            type: 'fill-blank',
-            question: '8. _____',
-            correctAnswer: 'damage',
-            explanation: '"Damage reputation" is the correct collocation for harming one\\\'s professional standing.',
-            points: 1
-          }
-        ],
-        focusAreas: ['Academic collocations', 'Research vocabulary', 'Formal register']
-      },
+
       {
         id: 'b2-m3-l3-vocabulary-2',
         type: 'vocabulary',
@@ -15305,79 +14312,7 @@ James: Excellent. Thank you both for being so collaborative. This is a good exam
           'Maintain professional, respectful tone throughout'
         ]
       },
-      {
-        id: 'b2-m3-l5-cloze-1',
-        type: 'multiple-choice-cloze',
-        title: 'Multiple Choice Cloze: Workplace Communication Challenges',
-        text: `Effective communication in the workplace is essential for success, yet many organizations (1)_____ to create an environment where open dialogue can flourish. One common obstacle is the fear of speaking up, particularly when it (2)_____ to challenging established practices or questioning decisions made by senior management. Employees may worry about the potential (3)_____ of being perceived as difficult or negative. To address this issue, leaders must actively (4)_____ a culture where constructive criticism is welcomed and valued. This involves not only (5)_____ that employees can express concerns, but also demonstrating through actions that their input will be taken seriously. Regular feedback sessions and anonymous suggestion systems can help (6)_____ down communication barriers. However, it's equally important to establish clear guidelines about appropriate communication channels and professional conduct. When disagreements (7)_____, they should be handled promptly and respectfully, with a focus on finding solutions rather than assigning blame. By creating an atmosphere of mutual respect and trust, organizations can ensure that communication (8)_____ as a tool for improvement rather than a source of conflict.`,
-        questions: [
-          {
-            id: 'q1',
-            type: 'fill-blank',
-            question: '1. _____',
-            correctAnswer: 'struggle',
-            explanation: '"Struggle to" means find it difficult to do something, fitting the context of workplace challenges.',
-            points: 1
-          },
-          {
-            id: 'q2',
-            type: 'short-answer',
-            question: '2. _____',
-            correctAnswer: 'comes',
-            explanation: '"When it comes to" is an idiom meaning regarding or concerning a particular matter.',
-            points: 2
-          },
-          {
-            id: 'q3',
-            type: 'fill-blank',
-            question: '3. _____',
-            correctAnswer: 'consequences',
-            explanation: '"Consequences" suggests negative results, fitting the context of workplace fears.',
-            points: 1
-          },
-          {
-            id: 'q4',
-            type: 'short-answer',
-            question: '4. _____',
-            correctAnswer: 'foster',
-            explanation: '"Foster a culture" means to encourage and promote the development of something.',
-            points: 2
-          },
-          {
-            id: 'q5',
-            type: 'fill-blank',
-            question: '5. _____',
-            correctAnswer: 'ensuring',
-            explanation: '"Ensuring" means making certain that something happens, the most appropriate choice.',
-            points: 1
-          },
-          {
-            id: 'q6',
-            type: 'true-false',
-            question: '6. tear',
-            correctAnswer: 'False',
-            explanation: 'Falso. "Break down barriers" is the correct phrasal verb meaning to remove obstacles.',
-            points: 1
-          },
-          {
-            id: 'q7',
-            type: 'short-answer',
-            question: '7. _____',
-            correctAnswer: 'arise',
-            explanation: '"Arise" means to come into being or appear, appropriate for disagreements emerging.',
-            points: 2
-          },
-          {
-            id: 'q8',
-            type: 'fill-blank',
-            question: '8. _____',
-            correctAnswer: 'serves',
-            explanation: '"Serves as" means functions as or acts in the role of something.',
-            points: 1
-          }
-        ],
-        focusAreas: ['Business phrasal verbs', 'Workplace collocations', 'Professional communication']
-      },
+
       {
         id: 'b2-m3-l5-vocabulary-2',
         type: 'vocabulary',
@@ -16164,79 +15099,7 @@ Dr. Martinez: Thank you for having me. The most significant shift we're witnessi
           'Check grammar and spelling (5 mins)'
         ]
       },
-      {
-        id: 'b2-m3-l6-cloze-1',
-        type: 'multiple-choice-cloze',
-        title: 'Mock Exam - Multiple Choice Cloze (Part 1)',
-        text: `Artificial intelligence has become increasingly (1)_____ in our daily lives, from voice assistants to recommendation algorithms. While many people (2)_____ AI with science fiction scenarios, the reality is often more mundane but equally significant. Modern AI systems excel at pattern recognition and data analysis, tasks that would (3)_____ humans days or weeks to complete. However, despite these impressive (4)_____, AI still struggles with tasks that humans find intuitive, such as understanding context or recognizing sarcasm. The (5)_____ between narrow AI, which excels at specific tasks, and general AI, which could match human intelligence across all domains, remains vast. Experts (6)_____ about when—or if—we'll achieve general AI, with predictions ranging from decades to never. Meanwhile, the (7)_____ implications of AI continue to spark debate. Issues such as job displacement, privacy concerns, and algorithmic bias require careful consideration as we (8)_____ this technology into society.`,
-        questions: [
-          {
-            id: 'q1',
-            type: 'fill-blank',
-            question: '1. _____',
-            correctAnswer: 'prevalent',
-            explanation: '"Prevalent" significa extendido o generalizado, el término más preciso para describir la presencia de AI',
-            points: 1
-          },
-          {
-            id: 'q2',
-            type: 'fill-blank',
-            question: '2. _____',
-            correctAnswer: 'associate',
-            explanation: '"Associate with" es la colocación correcta que significa relacionar mentalmente',
-            points: 1
-          },
-          {
-            id: 'q3',
-            type: 'short-answer',
-            question: '3. _____',
-            correctAnswer: 'take',
-            explanation: '"Take (time)" es la expresión correcta para indicar duración',
-            points: 2
-          },
-          {
-            id: 'q4',
-            type: 'fill-blank',
-            question: '4. _____',
-            correctAnswer: 'capabilities',
-            explanation: '"Capabilities" es el término técnico apropiado para las capacidades de sistemas',
-            points: 1
-          },
-          {
-            id: 'q5',
-            type: 'short-answer',
-            question: '5. _____',
-            correctAnswer: 'gap',
-            explanation: '"Gap" es el sustantivo correcto para indicar una brecha o diferencia significativa',
-            points: 2
-          },
-          {
-            id: 'q6',
-            type: 'fill-blank',
-            question: '6. _____',
-            correctAnswer: 'disagree',
-            explanation: '"Disagree about" es la colocación correcta para expresar opiniones divergentes',
-            points: 1
-          },
-          {
-            id: 'q7',
-            type: 'true-false',
-            question: '7. ethical',
-            correctAnswer: 'True',
-            explanation: '"Ethical" es el término formal apropiado para cuestiones de ética',
-            points: 1
-          },
-          {
-            id: 'q8',
-            type: 'short-answer',
-            question: '8. _____',
-            correctAnswer: 'integrate',
-            explanation: '"Integrate into" significa incorporar completamente en un sistema',
-            points: 2
-          }
-        ],
-        focusAreas: ['Vocabulary in context', 'Collocations', 'Register']
-      },
+
       {
         id: 'b2-m3-l6-open-cloze-1',
         type: 'open-cloze',
