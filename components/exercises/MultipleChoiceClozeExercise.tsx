@@ -184,7 +184,7 @@ export default function MultipleChoiceClozeExercise({ exercise, onComplete }: Mu
   const score = showFeedback ? (earnedPoints / totalPoints) * 100 : 0;
 
   return (
-    <div className="max-w-5xl mx-auto p-6 space-y-6">
+    <div className="max-w-5xl mx-auto p-6 space-y-6" data-testid="multiple-choice-cloze-exercise">
       {/* Header */}
       <div className="bg-gradient-to-r from-teal-600 to-cyan-600 text-white p-6 rounded-lg">
         <div className="flex items-center justify-between mb-4">

@@ -6,8 +6,9 @@ test.describe('Key Word Transformation Exercise (FCE Part 4)', () => {
 
   test.beforeEach(async ({ page }) => {
     helper = new KeyWordTransformationHelper(page);
-    await page.goto('/courses/b2/module-1/lesson-7');
+    await page.goto('/curso-b2/leccion/b2-m1-l7');
     await page.waitForLoadState('networkidle');
+    await page.waitForTimeout(2000); // Wait for React hydration
   });
 
   test('should display Key Word Transformation exercise', async ({ page }) => {

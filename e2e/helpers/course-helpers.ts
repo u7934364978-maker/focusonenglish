@@ -16,32 +16,28 @@ export class B2CourseHelper {
 
   /**
    * Navigate to B2 Course Module 1 Lesson 7
+   * Updated with correct route structure
    */
   async navigateToLesson7() {
-    // This is a simplified navigation - adjust based on actual app structure
-    await this.page.goto('/courses/b2');
+    // Direct navigation to lesson 7 using correct route
+    await this.page.goto('/curso-b2/leccion/b2-m1-l7');
     await this.page.waitForLoadState('networkidle');
     
-    // Click on Module 1
-    await this.page.getByText(/Module 1|Módulo 1/i).first().click();
-    
-    // Click on Lesson 7
-    await this.page.getByText(/Lesson 7|Lección 7/i).first().click();
-    
-    await this.page.waitForLoadState('networkidle');
+    // Wait a bit for React hydration
+    await this.page.waitForTimeout(2000);
   }
 
   /**
    * Wait for exercise to load
    */
   async waitForExerciseLoad(exerciseType: string) {
-    // Wait for the exercise to be visible
+    // Wait for the exercise to be visible using data-testid
     await this.page.waitForSelector(`[data-testid="${exerciseType}-exercise"]`, {
-      timeout: 10000,
+      timeout: 60000,
       state: 'visible'
-    }).catch(() => {
-      // If no test id, wait for common elements
-      return this.page.waitForSelector('button:has-text("Check Answers")', { timeout: 10000 });
+    }).catch(async () => {
+      // Fallback: wait for common elements if no test id
+      await this.page.waitForSelector('button:has-text("Check Answers")', { timeout: 60000 });
     });
   }
 

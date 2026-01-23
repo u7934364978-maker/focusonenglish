@@ -6,8 +6,9 @@ test.describe('Multiple Choice Cloze Exercise (FCE Part 1)', () => {
 
   test.beforeEach(async ({ page }) => {
     helper = new MultipleChoiceClozeHelper(page);
-    await page.goto('/courses/b2/module-1/lesson-7');
+    await page.goto('/curso-b2/leccion/b2-m1-l7');
     await page.waitForLoadState('networkidle');
+    await page.waitForTimeout(2000); // Wait for React hydration
   });
 
   test('should display Multiple Choice Cloze exercise', async ({ page }) => {

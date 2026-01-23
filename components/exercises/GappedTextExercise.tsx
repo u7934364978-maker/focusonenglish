@@ -141,10 +141,10 @@ export default function GappedTextExercise({ exercise, onComplete }: GappedTextE
   };
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6" data-testid="gapped-text-exercise">
       {/* Header */}
-      <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-6 border-2 border-purple-200">
-        <h3 className="text-2xl font-bold text-purple-900 mb-2 flex items-center gap-2">
+      <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-6 border-2 border-purple-200" data-testid="exercise-header">
+        <h3 className="text-2xl font-bold text-purple-900 mb-2 flex items-center gap-2" data-testid="exercise-title">
           <span>📄</span>
           <span>{exercise.title}</span>
         </h3>

@@ -6,11 +6,9 @@ test.describe('Gapped Text Exercise (FCE Part 6)', () => {
 
   test.beforeEach(async ({ page }) => {
     helper = new GappedTextHelper(page);
-    await page.goto('/courses/b2/module-1/lesson-7');
+    await page.goto('/curso-b2/leccion/b2-m1-l7');
     await page.waitForLoadState('networkidle');
-    
-    // Navigate to Gapped Text exercise if needed
-    // May need to click through multiple exercises
+    await page.waitForTimeout(2000); // Wait for React hydration
   });
 
   test('should display Gapped Text exercise with correct structure', async ({ page }) => {

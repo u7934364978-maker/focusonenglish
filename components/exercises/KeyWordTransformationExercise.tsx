@@ -115,7 +115,7 @@ export default function KeyWordTransformationExercise({ exercise, onComplete }: 
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-6 space-y-6">
+    <div className="max-w-4xl mx-auto p-6 space-y-6" data-testid="key-word-transformation-exercise">
       {/* Header */}
       <div className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-6 rounded-lg">
         <div className="flex items-center justify-between mb-4">

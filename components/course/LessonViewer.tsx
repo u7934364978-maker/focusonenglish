@@ -3210,9 +3210,9 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         
         // Handle text-based gap-fill exercises (open-cloze format)
         return (
-          <div className="space-y-6">
-            <div className="bg-emerald-50 rounded-xl p-6 border-2 border-emerald-200">
-              <h3 className="text-xl font-bold text-emerald-900 mb-2 flex items-center gap-2">
+          <div className="space-y-6" data-testid="open-cloze-exercise">
+            <div className="bg-emerald-50 rounded-xl p-6 border-2 border-emerald-200" data-testid="exercise-header">
+              <h3 className="text-xl font-bold text-emerald-900 mb-2 flex items-center gap-2" data-testid="exercise-title">
                 <span>📋</span>
                 <span>{gapExercise.title}</span>
               </h3>

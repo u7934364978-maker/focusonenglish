@@ -99,7 +99,7 @@ export default function MultipleMatchingExercise({ exercise, onComplete }: Multi
   });
 
   return (
-    <div className="max-w-7xl mx-auto p-6 space-y-6">
+    <div className="max-w-7xl mx-auto p-6 space-y-6" data-testid="multiple-matching-exercise">
       {/* Header */}
       <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-6 rounded-lg">
         <div className="flex items-center justify-between mb-4">
