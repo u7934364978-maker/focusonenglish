@@ -128,7 +128,7 @@ export default function KeyWordTransformationExercise({ exercise, onComplete }: 
           </div>
           <div className="flex gap-2">
             <Badge className={`${getDifficultyColor(exercise.difficulty)} text-white`}>
-              {exercise.difficulty.charAt(0).toUpperCase() + exercise.difficulty.slice(1)}
+              {exercise.difficulty ? exercise.difficulty.charAt(0).toUpperCase() + exercise.difficulty.slice(1) : 'Medium'}
             </Badge>
             <Badge variant="secondary">{exercise.topic}</Badge>
           </div>
