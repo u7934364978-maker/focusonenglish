@@ -855,6 +855,17 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
     setExerciseScores(prev => ({ ...prev, [currentExercise.id]: feedback.score.overall }));
   };
 
+  const handleTryAgain = () => {
+    setAnswers({});
+    setShowFeedback(false);
+    setAiEvaluations({});
+    setCurrentScore(0);
+  };
+
+  const handleNext = () => {
+    nextExercise();
+  };
+
   const renderExercise = () => {
     switch (currentExercise.type) {
       case 'grammar':
@@ -1885,7 +1896,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             {!showFeedback && (
               <div className="flex justify-center">
                 <button
-                  onClick={handleCheckAnswer}
+                  onClick={checkAnswers}
                   disabled={evaluating || Object.keys(answers).length === 0}
                   className="px-8 py-4 bg-peach-600 text-white rounded-xl hover:bg-peach-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
