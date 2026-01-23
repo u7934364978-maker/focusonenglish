@@ -867,6 +867,48 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   };
 
   const renderExercise = () => {
+    // Check if exercise has required content
+    const hasContent = currentExercise.questions || 
+                      currentExercise.grammarPoint || 
+                      currentExercise.text || 
+                      currentExercise.prompt ||
+                      currentExercise.audioUrl ||
+                      (currentExercise as any).gaps ||
+                      (currentExercise as any).challenges;
+
+    // Render "Coming Soon" message for incomplete exercises
+    if (!hasContent) {
+      return (
+        <div className="space-y-6">
+          <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 text-center">
+            <div className="text-6xl mb-4">🚧</div>
+            <h3 className="text-2xl font-bold text-blue-900 mb-3">
+              Contenido en Desarrollo
+            </h3>
+            <p className="text-slate-700 mb-4">
+              Esta lección está actualmente en desarrollo y estará disponible pronto.
+            </p>
+            <div className="bg-white rounded-lg p-4 border border-blue-300 max-w-md mx-auto">
+              <p className="text-sm text-slate-600">
+                <strong>Ejercicio:</strong> {currentExercise.title || 'Sin título'}
+              </p>
+              <p className="text-sm text-slate-600 mt-2">
+                <strong>Tipo:</strong> {currentExercise.type}
+              </p>
+            </div>
+          </div>
+          <div className="flex justify-center">
+            <button
+              onClick={nextExercise}
+              className="px-8 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-bold text-lg"
+            >
+              Continuar a Siguiente Ejercicio →
+            </button>
+          </div>
+        </div>
+      );
+    }
+
     switch (currentExercise.type) {
       case 'grammar':
       case 'vocabulary':
@@ -879,14 +921,18 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 <span>{currentExercise.title}</span>
               </h3>
               <div className="space-y-3">
-                <div>
-                  <p className="font-semibold text-coral-800 mb-1">Grammar Point:</p>
-                  <p className="text-slate-700">{currentExercise.grammarPoint}</p>
-                </div>
-                <div>
-                  <p className="font-semibold text-coral-800 mb-1">Explanation:</p>
-                  <p className="text-slate-700 whitespace-pre-line">{currentExercise.explanation}</p>
-                </div>
+                {currentExercise.grammarPoint && (
+                  <div>
+                    <p className="font-semibold text-coral-800 mb-1">Grammar Point:</p>
+                    <p className="text-slate-700">{currentExercise.grammarPoint}</p>
+                  </div>
+                )}
+                {currentExercise.explanation && (
+                  <div>
+                    <p className="font-semibold text-coral-800 mb-1">Explanation:</p>
+                    <p className="text-slate-700 whitespace-pre-line">{currentExercise.explanation}</p>
+                  </div>
+                )}
                 {currentExercise.examples && currentExercise.examples.length > 0 && (
                   <div>
                     <p className="font-semibold text-coral-800 mb-2">Examples:</p>
@@ -904,9 +950,10 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             </div>
 
             {/* Questions */}
-            <div className="space-y-4">
-              <h4 className="text-lg font-bold text-slate-900">Practice Questions:</h4>
-              {currentExercise.questions.map((question, idx) => (
+            {currentExercise.questions && currentExercise.questions.length > 0 && (
+              <div className="space-y-4">
+                <h4 className="text-lg font-bold text-slate-900">Practice Questions:</h4>
+                {currentExercise.questions.map((question, idx) => (
                 <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
                   <p className="font-semibold text-slate-900 mb-3">
                     {idx + 1}. {question.question} <span className="text-sm text-coral-600">({question.points} {question.points === 1 ? 'point' : 'points'})</span>
@@ -1008,9 +1055,10 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                   )}
                 </div>
               ))}
-            </div>
+              </div>
+            )}
 
-            {!showFeedback && (
+            {!showFeedback && currentExercise.questions && currentExercise.questions.length > 0 && (
               <button
                 onClick={checkAnswers}
                 disabled={evaluating}
@@ -1030,6 +1078,27 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         );
 
       case 'reading':
+        // Check if reading exercise has required content
+        if (!currentExercise.text || !currentExercise.questions || currentExercise.questions.length === 0) {
+          return (
+            <div className="bg-yellow-50 rounded-xl p-8 border-2 border-yellow-200 text-center">
+              <div className="text-6xl mb-4">📖</div>
+              <h3 className="text-2xl font-bold text-yellow-900 mb-3">
+                Contenido de Lectura No Disponible
+              </h3>
+              <p className="text-slate-700 mb-4">
+                El texto de lectura y/o las preguntas para este ejercicio no están disponibles aún.
+              </p>
+              <button
+                onClick={nextExercise}
+                className="px-8 py-4 bg-yellow-600 text-white rounded-xl hover:bg-yellow-700 transition-colors font-bold text-lg"
+              >
+                Continuar →
+              </button>
+            </div>
+          );
+        }
+        
         return (
           <div className="grid lg:grid-cols-2 gap-6">
             {/* Reading Text - Sticky on large screens */}
@@ -1340,6 +1409,27 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         );
 
       case 'speaking':
+        // Check if speaking exercise has required content
+        if (!currentExercise.prompt) {
+          return (
+            <div className="bg-purple-50 rounded-xl p-8 border-2 border-purple-200 text-center">
+              <div className="text-6xl mb-4">🎤</div>
+              <h3 className="text-2xl font-bold text-purple-900 mb-3">
+                Contenido de Speaking No Disponible
+              </h3>
+              <p className="text-slate-700 mb-4">
+                Las instrucciones para este ejercicio de speaking no están disponibles aún.
+              </p>
+              <button
+                onClick={nextExercise}
+                className="px-8 py-4 bg-purple-600 text-white rounded-xl hover:bg-purple-700 transition-colors font-bold text-lg"
+              >
+                Continuar →
+              </button>
+            </div>
+          );
+        }
+        
         return (
           <EnhancedSpeakingExercise
             question={{
@@ -1464,6 +1554,27 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         );
 
       case 'listening':
+        // Check if listening exercise has required content
+        if (!currentExercise.audioUrl || !currentExercise.questions || currentExercise.questions.length === 0) {
+          return (
+            <div className="bg-peach-50 rounded-xl p-8 border-2 border-peach-200 text-center">
+              <div className="text-6xl mb-4">🎧</div>
+              <h3 className="text-2xl font-bold text-peach-900 mb-3">
+                Contenido de Audio No Disponible
+              </h3>
+              <p className="text-slate-700 mb-4">
+                El audio y/o las preguntas para este ejercicio no están disponibles aún.
+              </p>
+              <button
+                onClick={nextExercise}
+                className="px-8 py-4 bg-peach-600 text-white rounded-xl hover:bg-peach-700 transition-colors font-bold text-lg"
+              >
+                Continuar →
+              </button>
+            </div>
+          );
+        }
+        
         return (
           <div className="grid lg:grid-cols-2 gap-6">
             {/* Audio Player - Sticky on large screens */}
