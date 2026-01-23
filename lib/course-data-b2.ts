@@ -5509,34 +5509,116 @@ Despite these minor flaws, "The Midnight Library" is a moving meditation on what
       },
       {
         id: 'b2-m1-l5-gap-fill',
-        type: 'gap-fill-text',
+        type: 'multiple-choice-cloze',
         title: 'Gap-Fill: The Evolution of the Novel',
-        instructions: 'Complete the text about literary history using appropriate words. Each gap requires ONE word.',
-        text: `The novel as we know it today (1)___ through centuries of evolution. What distinguishes the novel from earlier narrative forms (2)___ its length, complexity, and focus on individual character development. It (3)___ in the 18th century that the novel began to emerge as a dominant literary form.
+        instructions: 'Read the text below and choose the correct word for each gap.',
+        text: `The novel as we know it today {{1}} through centuries of evolution. What distinguishes the novel from earlier narrative forms {{2}} its length, complexity, and focus on individual character development. It {{3}} in the 18th century that the novel began to emerge as a dominant literary form.
 
-Early novels were often written in the form of letters, (4)___ as "epistolary novels." Works like Samuel Richardson's "Pamela" demonstrated that prose fiction could explore psychological depth and moral questions. What (5)___ these early novels revolutionary was their focus on ordinary people rather than mythological heroes.
+Early novels were often written in the form of letters, {{4}} as "epistolary novels." Works like Samuel Richardson's "Pamela" demonstrated that prose fiction could explore psychological depth and moral questions. What {{5}} these early novels revolutionary was their focus on ordinary people rather than mythological heroes.
 
-The 19th century saw the novel reach new heights. Authors (6)___ as Charles Dickens and George Eliot created vast social panoramas, (7)___ entire communities and their interconnections. It was during this period (8)___ the novel became the primary vehicle for social commentary.
+The 19th century saw the novel reach new heights. Authors {{6}} as Charles Dickens and George Eliot created vast social panoramas, {{7}} entire communities and their interconnections. It was during this period {{8}} the novel became the primary vehicle for social commentary.
 
-The 20th century brought experimentation. Writers (9)___ been challenging traditional narrative structures, playing with time, perspective, and language itself. What modernist authors like Virginia Woolf and James Joyce (10)___ was transform the novel into a medium for exploring consciousness itself.
+The 20th century brought experimentation. Writers {{9}} been challenging traditional narrative structures, playing with time, perspective, and language itself. What modernist authors like Virginia Woolf and James Joyce {{10}} was transform the novel into a medium for exploring consciousness itself.
 
-Today, the novel continues to evolve, (11)___ on new technologies and global perspectives while maintaining its essential power to illuminate human experience. What remains constant is (12)___ capacity to help us understand ourselves and others more deeply.`,
-        gaps: 12,
-        answers: [
-          { gapNumber: 1, correctAnswer: 'evolved', acceptableAnswers: ['developed', 'emerged', 'evolved'], explanation: 'Past simple showing historical development' },
-          { gapNumber: 2, correctAnswer: 'is', acceptableAnswers: ['is'], explanation: 'Present simple for general truth' },
-          { gapNumber: 3, correctAnswer: 'was', acceptableAnswers: ['was'], explanation: 'It was...that cleft sentence for emphasis' },
-          { gapNumber: 4, correctAnswer: 'known', acceptableAnswers: ['known'], explanation: 'Past participle in passive "known as"' },
-          { gapNumber: 5, correctAnswer: 'made', acceptableAnswers: ['made'], explanation: 'Past simple: "made them revolutionary"' },
-          { gapNumber: 6, correctAnswer: 'such', acceptableAnswers: ['such'], explanation: '"such as" for giving examples' },
-          { gapNumber: 7, correctAnswer: 'depicting', acceptableAnswers: ['depicting', 'showing', 'portraying'], explanation: 'Present participle showing simultaneous action' },
-          { gapNumber: 8, correctAnswer: 'that', acceptableAnswers: ['that'], explanation: 'It was...that cleft sentence' },
-          { gapNumber: 9, correctAnswer: 'have', acceptableAnswers: ['have'], explanation: 'Present perfect continuous: have been challenging' },
-          { gapNumber: 10, correctAnswer: 'did', acceptableAnswers: ['did'], explanation: 'Auxiliary for emphasis: "what they did was transform"' },
-          { gapNumber: 11, correctAnswer: 'drawing', acceptableAnswers: ['drawing'], explanation: 'Present participle: drawing on' },
-          { gapNumber: 12, correctAnswer: 'its', acceptableAnswers: ['its', 'the'], explanation: 'Possessive referring to the novel\'s capacity' }
-        ],
-        points: 12
+Today, the novel continues to evolve, {{11}} on new technologies and global perspectives while maintaining its essential power to illuminate human experience. What remains constant is {{12}} capacity to help us understand ourselves and others more deeply.`,
+        questions: [
+          {
+            id: 'q1',
+            gapNumber: 1,
+            options: ['evolved', 'has evolved', 'was evolving', 'evolves'],
+            correctAnswer: 'evolved',
+            explanation: 'Past simple showing historical development over a completed period.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            gapNumber: 2,
+            options: ['is', 'are', 'was', 'were'],
+            correctAnswer: 'is',
+            explanation: 'Present simple for general truth; subject is "what distinguishes" (singular).',
+            points: 1
+          },
+          {
+            id: 'q3',
+            gapNumber: 3,
+            options: ['was', 'is', 'had been', 'has been'],
+            correctAnswer: 'was',
+            explanation: 'Cleft sentence "It was...that" for emphasis on timing.',
+            points: 1
+          },
+          {
+            id: 'q4',
+            gapNumber: 4,
+            options: ['known', 'called', 'named', 'referred'],
+            correctAnswer: 'known',
+            explanation: 'Past participle in passive construction "known as".',
+            points: 1
+          },
+          {
+            id: 'q5',
+            gapNumber: 5,
+            options: ['made', 'did', 'caused', 'created'],
+            correctAnswer: 'made',
+            explanation: 'Past simple: "made them revolutionary" = caused them to be revolutionary.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            gapNumber: 6,
+            options: ['such', 'like', 'as', 'so'],
+            correctAnswer: 'such',
+            explanation: '"Such as" is used for giving examples.',
+            points: 1
+          },
+          {
+            id: 'q7',
+            gapNumber: 7,
+            options: ['depicting', 'depicted', 'depict', 'to depict'],
+            correctAnswer: 'depicting',
+            explanation: 'Present participle showing simultaneous action with "created".',
+            points: 1
+          },
+          {
+            id: 'q8',
+            gapNumber: 8,
+            options: ['that', 'when', 'which', 'where'],
+            correctAnswer: 'that',
+            explanation: 'Cleft sentence "It was...that" for emphasis.',
+            points: 1
+          },
+          {
+            id: 'q9',
+            gapNumber: 9,
+            options: ['have', 'has', 'had', 'having'],
+            correctAnswer: 'have',
+            explanation: 'Present perfect continuous: "have been challenging".',
+            points: 1
+          },
+          {
+            id: 'q10',
+            gapNumber: 10,
+            options: ['did', 'do', 'done', 'does'],
+            correctAnswer: 'did',
+            explanation: 'Auxiliary "did" for emphasis in "what they did was transform".',
+            points: 1
+          },
+          {
+            id: 'q11',
+            gapNumber: 11,
+            options: ['drawing', 'drawn', 'draw', 'to draw'],
+            correctAnswer: 'drawing',
+            explanation: 'Present participle: "drawing on" (phrasal verb).',
+            points: 1
+          },
+          {
+            id: 'q12',
+            gapNumber: 12,
+            options: ['its', 'the', 'their', 'this'],
+            correctAnswer: 'its',
+            explanation: 'Possessive pronoun referring to the novel\'s capacity.',
+            points: 1
+          }
+        ]
       },
       {
         id: 'b2-m1-l5-sentence-reordering',
