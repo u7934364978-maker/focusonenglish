@@ -5198,23 +5198,57 @@ Critics might {{6}} that watching films or series could provide similar benefits
         id: 'b2-m1-l5-collocation-matching',
         type: 'collocation-matching',
         title: 'Collocation Matching: Literary & Critical Language',
-        instructions: 'Match the verbs with the appropriate nouns to form common collocations used in literary analysis.',
+        instructions: 'Match each verb with its correct collocation used in literary analysis.',
         pairs: [
-          { left: 'develop', right: 'a theme', distractor: false },
-          { left: 'convey', right: 'meaning', distractor: false },
-          { left: 'evoke', right: 'emotions', distractor: false },
-          { left: 'explore', right: 'issues', distractor: false },
-          { left: 'challenge', right: 'assumptions', distractor: false },
-          { left: 'construct', right: 'an argument', distractor: false },
-          { left: 'sustain', right: 'interest', distractor: false },
-          { left: 'provoke', right: 'thought', distractor: false }
-        ],
-        distractors: [
-          { left: 'do', right: 'a theme' },
-          { left: 'give', right: 'emotions' },
-          { left: 'make', right: 'assumptions' }
-        ],
-        points: 8
+          {
+            id: 'col1',
+            word: 'develop',
+            correctMatch: 'a theme',
+            distractors: ['an emotion', 'meaning', 'thought'],
+            example: 'The novel develops the theme of identity throughout.',
+            points: 1
+          },
+          {
+            id: 'col2',
+            word: 'convey',
+            correctMatch: 'meaning',
+            distractors: ['a theme', 'interest', 'thought'],
+            example: 'The author conveys meaning through symbolic imagery.',
+            points: 1
+          },
+          {
+            id: 'col3',
+            word: 'evoke',
+            correctMatch: 'emotions',
+            distractors: ['meaning', 'a theme', 'assumptions'],
+            example: 'The poem evokes strong emotions in the reader.',
+            points: 1
+          },
+          {
+            id: 'col4',
+            word: 'explore',
+            correctMatch: 'issues',
+            distractors: ['emotions', 'meaning', 'interest'],
+            example: 'The play explores complex moral issues.',
+            points: 1
+          },
+          {
+            id: 'col5',
+            word: 'challenge',
+            correctMatch: 'assumptions',
+            distractors: ['emotions', 'meaning', 'issues'],
+            example: 'This work challenges our assumptions about reality.',
+            points: 1
+          },
+          {
+            id: 'col6',
+            word: 'provoke',
+            correctMatch: 'thought',
+            distractors: ['assumptions', 'a theme', 'interest'],
+            example: 'The essay provokes serious thought about society.',
+            points: 1
+          }
+        ]
       },
       {
         id: 'b2-m1-l5-phrasal-verbs',
@@ -5737,6 +5771,36 @@ For readers, developing the ability to recognize and interpret metaphors enriche
             correctUsage: 'hold water',
             options: ['hold water', 'hold fire', 'hold court', 'hold the fort'],
             explanation: 'Hold water = to be logical, valid, or able to withstand examination.',
+            points: 1
+          },
+          {
+            id: 'ie4',
+            context: 'The critic completely ___ of the film and focused on irrelevant details.',
+            idiom: 'missed the point',
+            meaning: 'failed to understand the main idea',
+            correctUsage: 'missed the point',
+            options: ['missed the point', 'missed the boat', 'missed the mark', 'missed a beat'],
+            explanation: 'Miss the point = to fail to understand or grasp the main idea or purpose of something.',
+            points: 1
+          },
+          {
+            id: 'ie5',
+            context: 'Don\'t ___ about the author\'s intentions without reading her interviews.',
+            idiom: 'jump to conclusions',
+            meaning: 'form an opinion too quickly without full information',
+            correctUsage: 'jump to conclusions',
+            options: ['jump to conclusions', 'jump the gun', 'jump on the bandwagon', 'jump through hoops'],
+            explanation: 'Jump to conclusions = to form an opinion or make a decision too quickly before knowing all the facts.',
+            points: 1
+          },
+          {
+            id: 'ie6',
+            context: 'While the novel has merits, it ___ compared to the author\'s previous masterpiece.',
+            idiom: 'falls short',
+            meaning: 'does not meet expectations or standards',
+            correctUsage: 'falls short',
+            options: ['falls short', 'falls apart', 'falls through', 'falls behind'],
+            explanation: 'Fall short = to not be good enough or fail to reach the required standard or expectation.',
             points: 1
           }
         ]
