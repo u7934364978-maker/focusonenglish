@@ -2089,6 +2089,7 @@ Under no circumstances should we view career changes as failures. If you had sta
             id: 's3',
             prompt: 'If they had invested in that company, they',
             correctCompletion: 'would be millionaires today',
+            options: ['would be millionaires today', 'will be millionaires', 'would have been millionaires', 'are millionaires now'],
             explanation: 'Past action + present result.',
             points: 2
           },
@@ -2096,6 +2097,7 @@ Under no circumstances should we view career changes as failures. If you had sta
             id: 's4',
             prompt: 'If I spoke Japanese fluently, I',
             correctCompletion: 'would have taken the job in Tokyo',
+            options: ['would have taken the job in Tokyo', 'will take the job in Tokyo', 'would take the job in Tokyo', 'took the job in Tokyo'],
             explanation: 'Present ability + past opportunity.',
             points: 2
           },
@@ -2103,6 +2105,7 @@ Under no circumstances should we view career changes as failures. If you had sta
             id: 's5',
             prompt: 'If he had listened to the warnings, he',
             correctCompletion: 'wouldn\'t be in trouble now',
+            options: ['wouldn\'t be in trouble now', 'won\'t be in trouble', 'wouldn\'t have been in trouble', 'isn\'t in trouble now'],
             explanation: 'Past action + present situation.',
             points: 2
           }
@@ -2118,6 +2121,7 @@ Under no circumstances should we view career changes as failures. If you had sta
             id: 's1',
             prompt: 'I have never seen such a beautiful sunset. → Never',
             correctCompletion: 'have I seen such a beautiful sunset',
+            options: ['have I seen such a beautiful sunset', 'I have seen such a beautiful sunset', 'did I see such a beautiful sunset', 'I saw such a beautiful sunset'],
             explanation: 'Inversion after negative adverbs: Never + auxiliary + subject + main verb',
             points: 2
           },
@@ -2125,6 +2129,7 @@ Under no circumstances should we view career changes as failures. If you had sta
             id: 's2',
             prompt: 'She had hardly finished speaking when the phone rang. → Hardly',
             correctCompletion: 'had she finished speaking when the phone rang',
+            options: ['had she finished speaking when the phone rang', 'she had finished speaking when the phone rang', 'did she finish speaking when the phone rang', 'she finished speaking when the phone rang'],
             explanation: 'Hardly + had + subject emphasizes immediacy.',
             points: 2
           },
@@ -2132,6 +2137,7 @@ Under no circumstances should we view career changes as failures. If you had sta
             id: 's3',
             prompt: 'I have rarely encountered such rudeness. → Rarely',
             correctCompletion: 'have I encountered such rudeness',
+            options: ['have I encountered such rudeness', 'I have encountered such rudeness', 'did I encounter such rudeness', 'I encountered such rudeness'],
             explanation: 'Rarely at the beginning requires inversion.',
             points: 2
           },
@@ -2139,6 +2145,7 @@ Under no circumstances should we view career changes as failures. If you had sta
             id: 's4',
             prompt: 'We had no sooner arrived than it started to rain. → No sooner',
             correctCompletion: 'had we arrived than it started to rain',
+            options: ['had we arrived than it started to rain', 'we had arrived than it started to rain', 'did we arrive than it started to rain', 'we arrived than it started to rain'],
             explanation: 'No sooner + had + subject + past participle.',
             points: 2
           }
