@@ -10109,7 +10109,7 @@ Despite these challenges, the movement continues to grow. Proponents maintain th
             points: 2
           },
           {
-            id: 'b2-m2-l5-phrasal-verbs-q1',
+            id: 'b2-m2-l5-phrasal-verbs-q2',
             type: 'fill-blank',
             sentence: 'Which phrasal verb means "to carefully consider advantages and disadvantages". Answer: ___',
             correctAnswer: 'weigh up',
@@ -12933,7 +12933,7 @@ Research backs up this observation. Studies show that persistence—often called
             points: 2
           },
           {
-            id: 'b2-m3-l2-integrated-reading-1-q1',
+            id: 'b2-m3-l2-integrated-reading-1-q2',
             type: 'fill-blank',
             sentence: 'What happened to J.K. Rowling\\. Answer: ___',
             correctAnswer: 'Multiple publishers turned it down',
@@ -12941,7 +12941,7 @@ Research backs up this observation. Studies show that persistence—often called
             points: 2
           },
           {
-            id: 'b2-m3-l2-integrated-reading-1-q1-q3',
+            id: 'b2-m3-l2-integrated-reading-1-q3',
             type: 'fill-blank',
             question: 'Complete: Steve Jobs was forced out of Apple, the company he had ___ ___ years earlier.',
             correctAnswer: 'set up',
@@ -12949,7 +12949,7 @@ Research backs up this observation. Studies show that persistence—often called
             points: 1
           },
           {
-            id: 'b2-m3-l2-integrated-reading-1-q1-q4',
+            id: 'b2-m3-l2-integrated-reading-1-q4',
             type: 'short-answer',
             question: 'According to research mentioned in the text, what predicts success more than talent or intelligence?',
             correctAnswer: 'Persistence/Grit',
@@ -12957,7 +12957,7 @@ Research backs up this observation. Studies show that persistence—often called
             points: 2
           },
           {
-            id: 'b2-m3-l2-integrated-reading-1-q2',
+            id: 'b2-m3-l2-integrated-reading-1-q5',
             type: 'short-answer',
             question: 'What is the main message of this text?',
             correctAnswer: 'Success requires persistence through obstacles',
