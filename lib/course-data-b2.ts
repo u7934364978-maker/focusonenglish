@@ -15668,8 +15668,47 @@ Dr. Martinez: Thank you for having me. The most significant shift we're witnessi
             correctAnswer: 'True',
             explanation: 'Dr. Martinez dice: "The most significant shift...is personalized learning"',
             points: 1
+          },
+          {
+            id: 'b2-m3-l6-listening-1-q2',
+            type: 'short-answer',
+            question: 'What was the traditional education model according to Dr. Martinez?',
+            correctAnswer: 'One-size-fits-all',
+            explanation: 'Dr. Martinez menciona: "Traditional education operated on a one-size-fits-all model"',
+            points: 2
+          },
+          {
+            id: 'b2-m3-l6-listening-1-q3',
+            type: 'true-false',
+            question: 'True or False: All students learn at the same pace.',
+            correctAnswer: 'False',
+            explanation: 'Dr. Martinez explica: "students learn at different paces and through different modalities"',
+            points: 1
+          },
+          {
+            id: 'b2-m3-l6-listening-1-q4',
+            type: 'short-answer',
+            question: 'According to Dr. Martinez, what is enabling personalized learning experiences?',
+            correctAnswer: 'Technology',
+            explanation: 'Dice: "Technology is enabling us to customize educational experiences"',
+            points: 2
+          },
+          {
+            id: 'b2-m3-l6-listening-1-q5',
+            type: 'fill-blank',
+            sentence: 'Students learn through different _____.',
+            correctAnswer: 'modalities',
+            explanation: 'Dr. Martinez menciona: "students learn...through different modalities"',
+            points: 1
+          },
+          {
+            id: 'b2-m3-l6-listening-1-q6',
+            type: 'true-false',
+            question: 'True or False: Personalized learning was possible before modern technology.',
+            correctAnswer: 'False',
+            explanation: 'Dr. Martinez dice: "customize educational experiences in ways that were impossible before"',
+            points: 1
           }
-          // Additional comprehensive questions would continue...
         ]
       },
       {
