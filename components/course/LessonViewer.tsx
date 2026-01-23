@@ -1490,6 +1490,16 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     </div>
                   )}
 
+                  {question.type === 'fill-blank' && (
+                    <input
+                      type="text"
+                      value={answers[question.id] || ''}
+                      onChange={(e) => handleAnswer(question.id, e.target.value)}
+                      placeholder="Tu respuesta..."
+                      className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-orange-500 focus:outline-none"
+                    />
+                  )}
+
                   {showFeedback && (
                     <div className={`mt-3 p-3 rounded-lg ${
                       answers[question.id]?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : question.correctAnswer).toLowerCase().trim() ||
