@@ -5800,6 +5800,26 @@ For readers, developing the ability to recognize and interpret metaphors enriche
             example: 'The story is absolutely compelling.'
           }
         ],
+        targetSentences: [
+          {
+            question: 'The PROTAGONIST\'s journey through the novel is both COMPELLING and NUANCED.',
+            translation: 'El viaje del protagonista a través de la novela es cautivador y matizado.',
+            phonetic: '/ðə prəˈtæɡ.ə.nɪsts ˈdʒɜː.ni θruː ðə ˈnɒv.əl ɪz bəʊθ kəmˈpel.ɪŋ ənd ˈnjuː.ɑːnst/',
+            audioUrl: '/audio/b2-m1-l5-pronun-1a.mp3'
+          },
+          {
+            question: 'This CONTEMPORARY writer uses METAPHORS to explore AESTHETIC themes.',
+            translation: 'Este escritor contemporáneo usa metáforas para explorar temas estéticos.',
+            phonetic: '/ðɪs kənˈtem.pər.ər.i ˈraɪ.tə ˈjuː.zɪz ˈmet.ə.fɔːz tʊ ɪkˈsplɔː esˈθet.ɪk θiːmz/',
+            audioUrl: '/audio/b2-m1-l5-pronun-1b.mp3'
+          },
+          {
+            question: 'Her ANALYSIS of the text reveals how the author employs figurative language.',
+            translation: 'Su análisis del texto revela cómo el autor emplea el lenguaje figurativo.',
+            phonetic: '/hɜː əˈnæl.ə.sɪs əv ðə tekst rɪˈviːlz haʊ ði ˈɔː.θə ɪmˈplɔɪz ˈfɪɡ.ər.ə.tɪv ˈlæŋ.ɡwɪdʒ/',
+            audioUrl: '/audio/b2-m1-l5-pronun-1c.mp3'
+          }
+        ],
         exercises: [
           {
             id: 'pr1',
