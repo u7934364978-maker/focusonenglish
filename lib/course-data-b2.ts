@@ -7758,68 +7758,69 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
         id: 'b2-m2-l3-cloze-1',
         type: 'multiple-choice-cloze',
         title: 'Multiple Choice Cloze: Communication in the Digital Age',
+        instructions: 'Read the text below and choose the correct word for each gap from the dropdown menu. Each gap has four options (A, B, C, D). Choose the word that best fits the context and grammar of the sentence.',
         text: `Recent studies have shown that digital communication is transforming the way people interact. Researchers (1)_____ that while technology offers unprecedented connectivity, it also presents unique challenges. Many experts (2)_____ concern about the decline in face-to-face conversations, particularly among younger generations. They (3)_____ that excessive screen time might be affecting social skills development. However, (4)_____ all agree that technology is inherently harmful. Some researchers (5)_____ out that digital tools can actually enhance communication when used appropriately. The key, they argue, (6)_____ in finding the right balance. Parents often (7)_____ their children to limit device usage, yet many struggle to (8)_____ a good example themselves. This inconsistency, psychologists warn, could undermine the message they're trying to convey.`,
         questions: [
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: '1. _____',
+            id: 'gap-1',
+            gapNumber: 1,
+            options: ['argue', 'claim', 'mention', 'speak'],
             correctAnswer: 'claim',
             explanation: '"Claim" is used for reporting statements without "that" being mandatory, fitting reported speech context.',
             points: 1
           },
           {
-            id: '',
-            type: 'short-answer',
-            question: '2. _____',
+            id: 'gap-2',
+            gapNumber: 2,
+            options: ['express', 'tell', 'say', 'talk'],
             correctAnswer: 'express',
             explanation: '"Express" collocates with "concern" to mean communicating worry or anxiety.',
-            points: 2
+            points: 1
           },
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: '3. _____',
+            id: 'gap-3',
+            gapNumber: 3,
+            options: ['think', 'worry', 'believe', 'suppose'],
             correctAnswer: 'worry',
             explanation: '"Worry" is the only option that can be followed by "that" clause in this context.',
             points: 1
           },
           {
-            id: '',
-            type: 'true-false',
-            question: '4. not',
-            correctAnswer: 'True',
+            id: 'gap-4',
+            gapNumber: 4,
+            options: ['few', 'not', 'neither', 'none'],
+            correctAnswer: 'not',
             explanation: '"Not all" is the correct negative form meaning "some but not all".',
             points: 1
           },
           {
-            id: '',
-            type: 'short-answer',
-            question: '5. _____',
+            id: 'gap-5',
+            gapNumber: 5,
+            options: ['point', 'show', 'make', 'give'],
             correctAnswer: 'point',
             explanation: '"Point out" is a phrasal verb meaning to highlight or draw attention to something.',
-            points: 2
+            points: 1
           },
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: '6. _____',
+            id: 'gap-6',
+            gapNumber: 6,
+            options: ['stays', 'lies', 'goes', 'comes'],
             correctAnswer: 'lies',
             explanation: '"The key lies in" is the correct collocation meaning "the solution is found in".',
             points: 1
           },
           {
-            id: '',
-            type: 'true-false',
-            question: '7. advise',
-            correctAnswer: 'True',
+            id: 'gap-7',
+            gapNumber: 7,
+            options: ['advise', 'suggest', 'recommend', 'propose'],
+            correctAnswer: 'advise',
             explanation: '"Advise + person + to infinitive" is the correct pattern.',
             points: 1
           },
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: '8. _____',
+            id: 'gap-8',
+            gapNumber: 8,
+            options: ['make', 'do', 'set', 'give'],
             correctAnswer: 'set',
             explanation: '"Set an example" is the correct collocation meaning to behave as a model for others.',
             points: 1
