@@ -4617,6 +4617,7 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
         id: 'b2-m1-l5-vocabulary-1',
         type: 'vocabulary',
         title: 'Literary Terms and Critical Vocabulary',
+        explanation: 'Este vocabulario es esencial para analizar y discutir obras literarias, películas y otros textos críticos. Estos términos te permitirán expresar opiniones literarias de forma sofisticada y profesional.',
         vocabularySet: [
           {
             word: 'protagonist',
@@ -4651,6 +4652,48 @@ Sarah {{6}} been researching local history for her dissertation, and this buildi
             question: 'The main character in a story is called the ___.',
             correctAnswer: 'protagonist',
             explanation: 'El protagonista es el personaje principal.',
+            points: 1
+          },
+          {
+            id: 'q2',
+            type: 'multiple-choice',
+            question: 'Which word best describes "a central idea or message in a literary work"?',
+            options: ['protagonist', 'theme', 'metaphor', 'nuanced'],
+            correctAnswer: 'theme',
+            explanation: 'Theme es la idea central o mensaje de una obra literaria.',
+            points: 1
+          },
+          {
+            id: 'q3',
+            type: 'fill-blank',
+            question: 'A ___ is a figure of speech that compares two unlike things.',
+            correctAnswer: 'metaphor',
+            explanation: 'Una metáfora compara dos cosas diferentes sin usar "like" o "as".',
+            points: 1
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'Complete: "The documentary was so ___ that I watched it twice."',
+            options: ['protagonist', 'theme', 'compelling', 'metaphor'],
+            correctAnswer: 'compelling',
+            explanation: 'Compelling significa fascinante o que capta la atención.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'short-answer',
+            question: 'What does "nuanced" mean when describing a character portrayal?',
+            correctAnswer: 'characterized by subtle differences or distinctions',
+            explanation: 'Nuanced significa matizado, con diferencias sutiles y complejas.',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'fill-blank',
+            question: 'The author\'s ___ description of the setting made it feel very real.',
+            correctAnswer: 'nuanced',
+            explanation: 'Nuanced describe algo con detalles sutiles y complejos.',
             points: 1
           }
         ]
