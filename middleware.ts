@@ -35,8 +35,12 @@ function isB2CourseRoute(pathname: string): boolean {
   return pathname.startsWith('/curso-b2');
 }
 
+function isA1CourseRoute(pathname: string): boolean {
+  return pathname.startsWith('/curso-a1');
+}
+
 function isPublicRoute(pathname: string): boolean {
-  return PUBLIC_ROUTES.has(pathname) || isBlogRoute(pathname) || isB2CourseRoute(pathname) || pathname.startsWith('/api/webhooks') || pathname.startsWith('/audio/');
+  return PUBLIC_ROUTES.has(pathname) || isBlogRoute(pathname) || isB2CourseRoute(pathname) || isA1CourseRoute(pathname) || pathname.startsWith('/api/webhooks') || pathname.startsWith('/audio/');
 }
 
 function requiresAuthOnly(pathname: string): boolean {
@@ -85,8 +89,8 @@ export async function middleware(request: NextRequest) {
     return response;
   }
 
-  // Verificar suscripción activa para rutas premium
-  if (pathname.startsWith('/curso-') || pathname.startsWith('/aula') || pathname.startsWith('/practica')) {
+  // Verificar suscripción activa para rutas premium (excepto curso-a1)
+  if ((pathname.startsWith('/curso-') && !pathname.startsWith('/curso-a1')) || pathname.startsWith('/aula') || pathname.startsWith('/practica')) {
     // Obtener perfil del usuario con información de suscripción
     const { data: profile } = await supabase
       .from('users')
