@@ -7,6 +7,7 @@ import { A1_M1_L1_ALL_EXERCISES } from './a1-m1-l1-detailed';
 import { A1_M1_L2_ALL_EXERCISES } from './a1-m1-l2-detailed';
 import { A1_M1_L3_ALL_EXERCISES } from './a1-m1-l3-detailed';
 import { A1_M1_L4_ALL_EXERCISES } from './a1-m1-l4-detailed';
+import { A1_M1_L5_ALL_EXERCISES } from './a1-m1-l5-detailed';
 
 export type ExerciseType = 
   | 'reading'
@@ -202,105 +203,8 @@ export const MODULE_1_LESSONS: Lesson[] = [
     title: 'Lección 5: Family and Relationships',
     description: 'Practice Family vocabulary with comprehensive exercises',
     duration: 90, // minutes
-    exercises: [
-      {
-        id: 'a1-m1-l5-grammar-1',
-        type: 'grammar',
-        title: 'Family vocabulary - Formation and Use',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l5-grammar-2',
-        type: 'grammar',
-        title: 'Family vocabulary - Practice Exercises',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l5-reading-1',
-        type: 'reading',
-        title: 'Reading: Lección 5: Family and Friends',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l5-listening-1',
-        type: 'listening',
-        title: 'Listening: Lección 5: Family and Friends',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l5-speaking-1',
-        type: 'speaking',
-        title: 'Speaking Practice: Lección 5: Family and Friends',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l5-writing-1',
-        type: 'writing',
-        title: 'Writing: Lección 5: Family and Friends',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l5-pronunciation-1',
-        type: 'pronunciation-practice',
-        title: 'Pronunciation: Family vocabulary',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l5-vocabulary-1',
-        type: 'vocabulary',
-        title: 'Vocabulary: Lección 5: Family and Friends',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l5-vocabulary-2',
-        type: 'vocabulary',
-        title: 'Vocabulary Practice',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l5-fill-blanks-1',
-        type: 'fill-in-blanks',
-        title: 'Complete the Sentences - Family vocabulary',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l5-multiple-choice-1',
-        type: 'multiple-choice',
-        title: 'Multiple Choice: Family vocabulary',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l5-matching-1',
-        type: 'matching',
-        title: 'Match Words and Meanings',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l5-sentence-building-1',
-        type: 'sentence-building',
-        title: 'Build Sentences - Family vocabulary',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l5-true-false-1',
-        type: 'true-false',
-        title: 'True or False: Lección 5: Family and Friends',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l5-dialogue-1',
-        type: 'dialogue-practice',
-        title: 'Dialogue Practice: Lección 5: Family and Friends',
-        // Content will be added in future updates
-      } as Exercise,
-    ]
+    exercises: A1_M1_L5_ALL_EXERCISES as Exercise[]
   },
-  {
-    id: 'a1-m1-l6',
-    title: 'Lección 6: Mock Exam - Module 1',
-    description: 'Practice Module 1 Review with comprehensive exercises',
-    duration: 90, // minutes
-    exercises: [
       {
         id: 'a1-m1-l6-grammar-1',
         type: 'grammar',
