@@ -231,30 +231,37 @@ export default function MultipleMatchingExercise({ exercise, onComplete }: Multi
                     </div>
 
                     {/* Answer Selection */}
-                    <div className="flex flex-wrap gap-2">
-                      {exercise.texts.map((text) => (
-                        <button
-                          key={text.letter}
-                          onClick={() => handleAnswer(question.questionNumber, text.letter)}
-                          disabled={showFeedback}
-                          className={`
-                            px-4 py-2 rounded-lg font-semibold transition-all
-                            ${userAnswer === text.letter
-                              ? showFeedback
-                                ? isCorrect
+                    <div className="space-y-2">
+                      {!isAnswered && !showFeedback && (
+                        <div className="text-sm text-gray-500 italic">
+                          💡 Select a text (A-{String.fromCharCode(64 + exercise.totalTexts)}) that best answers this question
+                        </div>
+                      )}
+                      <div className="flex flex-wrap gap-2">
+                        {exercise.texts.map((text) => (
+                          <button
+                            key={text.letter}
+                            onClick={() => handleAnswer(question.questionNumber, text.letter)}
+                            disabled={showFeedback}
+                            className={`
+                              px-4 py-2 rounded-lg font-semibold transition-all
+                              ${userAnswer === text.letter
+                                ? showFeedback
+                                  ? isCorrect
+                                    ? 'bg-green-500 text-white'
+                                    : 'bg-red-500 text-white'
+                                  : 'bg-purple-600 text-white'
+                                : showFeedback && text.letter.toUpperCase() === question.correctText.toUpperCase()
                                   ? 'bg-green-500 text-white'
-                                  : 'bg-red-500 text-white'
-                                : 'bg-purple-600 text-white'
-                              : showFeedback && text.letter.toUpperCase() === question.correctText.toUpperCase()
-                                ? 'bg-green-500 text-white'
-                                : 'bg-gray-100 hover:bg-gray-200 text-gray-800'
-                            }
-                            ${showFeedback ? 'cursor-not-allowed' : 'cursor-pointer hover:scale-105'}
-                          `}
-                        >
-                          {text.letter}
-                        </button>
-                      ))}
+                                  : 'bg-gray-100 hover:bg-gray-200 text-gray-800'
+                              }
+                              ${showFeedback ? 'cursor-not-allowed' : 'cursor-pointer hover:scale-105'}
+                            `}
+                          >
+                            {text.letter}
+                          </button>
+                        ))}
+                      </div>
                     </div>
 
                     {/* Feedback */}
