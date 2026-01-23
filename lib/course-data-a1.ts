@@ -5,6 +5,7 @@
 // Import detailed exercises
 import { A1_M1_L1_ALL_EXERCISES } from './a1-m1-l1-detailed';
 import { A1_M1_L2_ALL_EXERCISES } from './a1-m1-l2-detailed';
+import { A1_M1_L3_ALL_EXERCISES } from './a1-m1-l3-detailed';
 
 export type ExerciseType = 
   | 'reading'
@@ -186,103 +187,12 @@ export const MODULE_1_LESSONS: Lesson[] = [
     title: 'Lección 3: Countries and Nationalities',
     description: 'Practice Questions with to be with comprehensive exercises',
     duration: 90, // minutes
-    exercises: [
-      {
-        id: 'a1-m1-l3-grammar-1',
-        type: 'grammar',
-        title: 'Questions with to be - Formation and Use',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l3-grammar-2',
-        type: 'grammar',
-        title: 'Questions with to be - Practice Exercises',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l3-reading-1',
-        type: 'reading',
-        title: 'Reading: Lección 3: Countries and Nationalities',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l3-listening-1',
-        type: 'listening',
-        title: 'Listening: Lección 3: Countries and Nationalities',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l3-speaking-1',
-        type: 'speaking',
-        title: 'Speaking Practice: Lección 3: Countries and Nationalities',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l3-writing-1',
-        type: 'writing',
-        title: 'Writing: Lección 3: Countries and Nationalities',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l3-pronunciation-1',
-        type: 'pronunciation-practice',
-        title: 'Pronunciation: Questions with to be',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l3-vocabulary-1',
-        type: 'vocabulary',
-        title: 'Vocabulary: Lección 3: Countries and Nationalities',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l3-vocabulary-2',
-        type: 'vocabulary',
-        title: 'Vocabulary Practice',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l3-fill-blanks-1',
-        type: 'fill-in-blanks',
-        title: 'Complete the Sentences - Questions with to be',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l3-multiple-choice-1',
-        type: 'multiple-choice',
-        title: 'Multiple Choice: Questions with to be',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l3-matching-1',
-        type: 'matching',
-        title: 'Match Words and Meanings',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l3-sentence-building-1',
-        type: 'sentence-building',
-        title: 'Build Sentences - Questions with to be',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l3-true-false-1',
-        type: 'true-false',
-        title: 'True or False: Lección 3: Countries and Nationalities',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l3-dialogue-1',
-        type: 'dialogue-practice',
-        title: 'Dialogue Practice: Lección 3: Countries and Nationalities',
-        // Content will be added in future updates
-      } as Exercise,
-    ]
+    exercises: A1_M1_L3_ALL_EXERCISES as Exercise[]
   },
   {
     id: 'a1-m1-l4',
-    title: 'Lección 4: Numbers and Dates',
-    description: 'Practice Numbers 0-100 with comprehensive exercises',
+    title: 'Lección 4: Numbers and Age',
+    description: 'Practice Numbers and expressing age with comprehensive exercises',
     duration: 90, // minutes
     exercises: [
       {
