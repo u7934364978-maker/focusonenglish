@@ -1597,9 +1597,15 @@ Her friend Tom noticed her discomfort and came over. He explained that the dress
             points: 2
           },
           {
-            id: 'q2',
-            type: 'short-answer',
-            question: 'Which is correct?',
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'Which sentence correctly uses inversion with a negative expression?',
+            options: [
+              'Under no circumstances you should tell anyone.',
+              'Under no circumstances should you tell anyone.',
+              'You should tell anyone under no circumstances.',
+              'You under no circumstances should tell anyone.'
+            ],
             correctAnswer: 'Under no circumstances should you tell anyone.',
             explanation: 'Negative expression + modal (should) + subject + infinitive',
             points: 2
