@@ -1163,56 +1163,56 @@ export const MODULE_2_LESSONS: Lesson[] = [
   },
   {
     id: 'a1-m2-l5',
-    title: 'Lección 5: Can and Can't for Ability',
-    description: 'Practice Can/Can't with comprehensive exercises',
+    title: 'Lección 5: Can and Cannot for Ability',
+    description: 'Practice Can/Cannot with comprehensive exercises',
     duration: 90, // minutes
     exercises: [
       {
         id: 'a1-m2-l5-grammar-1',
         type: 'grammar',
-        title: 'Can/Can't - Formation and Use',
+        title: 'Can/Cannot - Formation and Use',
         // Content will be added in future updates
       } as Exercise,
       {
         id: 'a1-m2-l5-grammar-2',
         type: 'grammar',
-        title: 'Can/Can't - Practice Exercises',
+        title: 'Can/Cannot - Practice Exercises',
         // Content will be added in future updates
       } as Exercise,
       {
         id: 'a1-m2-l5-reading-1',
         type: 'reading',
-        title: 'Reading: Lección 5: Can and Can't for Ability',
+        title: 'Reading: Lección 5: Can and Cannot for Ability',
         // Content will be added in future updates
       } as Exercise,
       {
         id: 'a1-m2-l5-listening-1',
         type: 'listening',
-        title: 'Listening: Lección 5: Can and Can't for Ability',
+        title: 'Listening: Lección 5: Can and Cannot for Ability',
         // Content will be added in future updates
       } as Exercise,
       {
         id: 'a1-m2-l5-speaking-1',
         type: 'speaking',
-        title: 'Speaking Practice: Lección 5: Can and Can't for Ability',
+        title: 'Speaking Practice: Lección 5: Can and Cannot for Ability',
         // Content will be added in future updates
       } as Exercise,
       {
         id: 'a1-m2-l5-writing-1',
         type: 'writing',
-        title: 'Writing: Lección 5: Can and Can't for Ability',
+        title: 'Writing: Lección 5: Can and Cannot for Ability',
         // Content will be added in future updates
       } as Exercise,
       {
         id: 'a1-m2-l5-pronunciation-1',
         type: 'pronunciation-practice',
-        title: 'Pronunciation: Can/Can't',
+        title: 'Pronunciation: Can/Cannot',
         // Content will be added in future updates
       } as Exercise,
       {
         id: 'a1-m2-l5-vocabulary-1',
         type: 'vocabulary',
-        title: 'Vocabulary: Lección 5: Can and Can't for Ability',
+        title: 'Vocabulary: Lección 5: Can and Cannot for Ability',
         // Content will be added in future updates
       } as Exercise,
       {
@@ -1224,13 +1224,13 @@ export const MODULE_2_LESSONS: Lesson[] = [
       {
         id: 'a1-m2-l5-fill-blanks-1',
         type: 'fill-in-blanks',
-        title: 'Complete the Sentences - Can/Can't',
+        title: 'Complete the Sentences - Can/Cannot',
         // Content will be added in future updates
       } as Exercise,
       {
         id: 'a1-m2-l5-multiple-choice-1',
         type: 'multiple-choice',
-        title: 'Multiple Choice: Can/Can't',
+        title: 'Multiple Choice: Can/Cannot',
         // Content will be added in future updates
       } as Exercise,
       {
@@ -1242,19 +1242,19 @@ export const MODULE_2_LESSONS: Lesson[] = [
       {
         id: 'a1-m2-l5-sentence-building-1',
         type: 'sentence-building',
-        title: 'Build Sentences - Can/Can't',
+        title: 'Build Sentences - Can/Cannot',
         // Content will be added in future updates
       } as Exercise,
       {
         id: 'a1-m2-l5-true-false-1',
         type: 'true-false',
-        title: 'True or False: Lección 5: Can and Can't for Ability',
+        title: 'True or False: Lección 5: Can and Cannot for Ability',
         // Content will be added in future updates
       } as Exercise,
       {
         id: 'a1-m2-l5-dialogue-1',
         type: 'dialogue-practice',
-        title: 'Dialogue Practice: Lección 5: Can and Can't for Ability',
+        title: 'Dialogue Practice: Lección 5: Can and Cannot for Ability',
         // Content will be added in future updates
       } as Exercise,
     ]
