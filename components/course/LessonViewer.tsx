@@ -54,7 +54,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         (currentExercise.type === 'pronunciation' && (currentExercise as any).exercises)) {
       const questions = currentExercise.type === 'pronunciation' 
         ? (currentExercise as any).exercises 
-        : currentExercise.questions;
+        : currentExercise.questions || [];
       let totalPoints = 0;
       let earnedPoints = 0;
       const evaluations: { [questionId: string]: EvaluationResult } = {};
@@ -240,7 +240,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       setEvaluating(false);
       
     } else if (currentExercise.type === 'word-formation') {
-      const questions = currentExercise.questions;
+      const questions = currentExercise.questions || [];
       let totalPoints = 0;
       let earnedPoints = 0;
       const newEvaluations: any = {};
