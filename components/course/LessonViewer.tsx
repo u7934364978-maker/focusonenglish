@@ -33,6 +33,9 @@ interface LessonViewerProps {
 type EvaluationResult = TextAnswerEvaluationResponse | WritingEvaluationResponse | MultipleChoiceEvaluationResponse;
 
 export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) {
+  // Detect lesson level from lesson ID (e.g., "a1-m1-l1" -> "A1", "b2-m1-l1" -> "B2")
+  const lessonLevel = (lesson.id.split('-')[0].toUpperCase()) as 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+  
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
   const [answers, setAnswers] = useState<{ [questionId: string]: string }>({});
   const [exerciseScores, setExerciseScores] = useState<{ [exerciseId: string]: number }>({});
@@ -94,7 +97,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 userAnswer: userAnswer,
                 correctAnswer: Array.isArray(q.correctAnswer) ? q.correctAnswer[0] : q.correctAnswer,
                 context: currentExercise.type === 'reading' ? (currentExercise as any).text : '',
-                level: 'B2'
+                level: lessonLevel
               })
             });
 
@@ -133,7 +136,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 correctAnswer: q.correctAnswer,
                 expectedConcepts: (q as any).expectedConcepts || [],
                 context: currentExercise.type === 'reading' ? (currentExercise as any).text?.substring(0, 2000) : '',
-                level: 'B2',
+                level: lessonLevel,
                 questionType: currentExercise.type === 'reading' ? 'comprehension' : 'general'
               })
             });
@@ -302,7 +305,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               correctAnswer: q.acceptableAnswers || [q.correctAnswer],
               expectedConcepts: [q.wordType || 'word transformation', q.transformation || ''],
               context: currentExercise.text || '',
-              level: 'B2',
+              level: lessonLevel,
               questionType: 'word-formation'
             })
           });
@@ -405,7 +408,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               correctAnswer: acceptableAnswers,
               expectedConcepts: [(currentExercise as any).title || 'grammar'],
               context: context.substring(0, 2000),
-              level: 'B2',
+              level: lessonLevel,
               questionType: 'gap-fill'
             })
           });
@@ -570,7 +573,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               userAnswer: userAnswer,
               correctAnswer: [item.correctParaphrase || item.paraphrase],
               expectedConcepts: ['paraphrasing'],
-              level: 'B2',
+              level: lessonLevel,
               questionType: 'paraphrase'
             })
           });
@@ -702,7 +705,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             writingText: userSummary,
             taskType: 'summary',
             sourceText: exercise.originalText || exercise.sourceText,
-            level: 'B2',
+            level: lessonLevel,
             rubric: exercise.rubric || {
               content: 40,
               conciseness: 20,
@@ -767,7 +770,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 correctAnswer: [q.correctAnswer],
                 expectedConcepts: ['reading comprehension'],
                 context: exercise.readingText,
-                level: 'B2',
+                level: lessonLevel,
                 questionType: 'short-answer'
               })
             });
@@ -1452,7 +1455,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               setShowFeedback(true);
               console.log('Speaking evaluation:', evaluation);
             }}
-            level="B2"
+            level={lessonLevel}
           />
         );
 
@@ -1799,7 +1802,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       writingType: currentExercise.writingType,
                       minWords: currentExercise.minWords,
                       maxWords: currentExercise.maxWords,
-                      level: 'B2',
+                      level: lessonLevel,
                       rubric: currentExercise.rubric
                     })
                   });
