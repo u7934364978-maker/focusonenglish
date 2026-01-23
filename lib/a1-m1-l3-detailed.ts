@@ -31,8 +31,8 @@ Short Answers:
   examples: [
     'Are you a student? - Yes, I am.',
     'Is she from Spain? - Yes, she is.',
-    'Are they happy? - No, they aren't.',
-    'Am I late? - No, you aren't.',
+    'Are they happy? - No, they aren\'t.',
+    'Am I late? - No, you aren\'t.',
     'Is it cold today? - Yes, it is.'
   ],
   questions: [
