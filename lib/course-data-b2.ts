@@ -1627,9 +1627,15 @@ Her friend Tom noticed her discomfort and came over. He explained that the dress
             points: 2
           },
           {
-            id: 'q1',
-            type: 'short-answer',
+            id: 'q4',
+            type: 'multiple-choice',
             question: 'Which sentence shows a mixed conditional?',
+            options: [
+              'If I knew, I would have gone.',
+              'If I had known, I would be there now.',
+              'If I know, I will go.',
+              'If I had known, I would have gone.'
+            ],
             correctAnswer: 'If I had known, I would be there now.',
             explanation: 'Combina Past Perfect (pasado) con would + infinitive (presente)',
             points: 2
