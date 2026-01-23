@@ -3183,6 +3183,22 @@ Governments and businesses also have a crucial {{7}} to play. New policies are b
             correctCompletion: 'What I want from you is honesty',
             explanation: 'What-cleft structure emphasizes the desired quality.',
             points: 1
+          },
+          {
+            id: 'sc5',
+            prompt: 'The lack of communication caused the problem.',
+            correctCompletion: 'What caused the problem was the lack of communication',
+            options: ['What caused the problem was the lack of communication', 'It was the lack of communication that caused', 'The lack of communication was what caused', 'It caused the problem was the lack of communication'],
+            explanation: 'What-cleft emphasizes the cause.',
+            points: 1
+          },
+          {
+            id: 'sc6',
+            prompt: 'The presentation impressed the investors most.',
+            correctCompletion: 'It was the presentation that impressed the investors most',
+            options: ['It was the presentation that impressed', 'What impressed was the presentation', 'The presentation was what impressed', 'It impressed was the presentation'],
+            explanation: 'It-cleft emphasizes which thing had the impact.',
+            points: 1
           }
         ]
       },
@@ -3226,6 +3242,22 @@ Governments and businesses also have a crucial {{7}} to play. New policies are b
             correction: 'It is in Paris that I met my wife',
             explanation: 'Use "that" not "where" in it-cleft sentences for places.',
             points: 2
+          },
+          {
+            id: 'e5',
+            question: 'What does she wants is more responsibility.',
+            hasError: true,
+            errorWord: 'does she wants',
+            correction: 'What she wants is more responsibility',
+            explanation: 'Don\'t use auxiliary "does" in what-cleft structures.',
+            points: 2
+          },
+          {
+            id: 'e6',
+            question: 'It was because of the traffic that we arrived late.',
+            hasError: false,
+            explanation: 'Correct it-cleft structure emphasizing the reason.',
+            points: 1
           }
         ]
       },
@@ -3257,6 +3289,30 @@ Governments and businesses also have a crucial {{7}} to play. New policies are b
             originalSentence: 'You should apologize.',
             correctParaphrase: 'What you should do is apologize',
             explanation: 'What-cleft emphasizes the action needed.',
+            points: 2
+          },
+          {
+            id: 'p4',
+            originalSentence: 'The weather ruined our picnic.',
+            correctParaphrase: 'It was the weather that ruined our picnic',
+            alternatives: ['What ruined our picnic was the weather'],
+            explanation: 'Both it-cleft and what-cleft can emphasize what caused something.',
+            points: 2
+          },
+          {
+            id: 'p5',
+            originalSentence: 'She misunderstood the instructions.',
+            correctParaphrase: 'It was she who misunderstood the instructions',
+            alternatives: ['What she misunderstood was the instructions'],
+            explanation: 'It-cleft emphasizes who performed the action.',
+            points: 2
+          },
+          {
+            id: 'p6',
+            originalSentence: 'We value your dedication the most.',
+            correctParaphrase: 'What we value most is your dedication',
+            alternatives: ['It\'s your dedication that we value the most'],
+            explanation: 'What-cleft emphasizes what is valued.',
             points: 2
           }
         ]
@@ -3307,6 +3363,14 @@ Governments and businesses also have a crucial {{7}} to play. New policies are b
             distractors: ['focus on', 'mind to', 'concentrate to'],
             example: 'I\'d like to draw attention to this important issue.',
             points: 1
+          },
+          {
+            id: 'col6',
+            word: 'keep',
+            correctMatch: 'track of',
+            distractors: ['attention of', 'mind of', 'focus of'],
+            example: 'It\'s hard to keep track of all these details.',
+            points: 1
           }
         ]
       },
@@ -3356,6 +3420,26 @@ Governments and businesses also have a crucial {{7}} to play. New policies are b
             options: ['brought up', 'brought about', 'brought out', 'brought in'],
             explanation: 'Bring up = to mention or introduce a topic for discussion.',
             points: 1
+          },
+          {
+            id: 'pv5',
+            question: 'Let me _____ the key advantages of this approach.',
+            phrasalVerb: 'spell out',
+            meaning: 'explain clearly and in detail',
+            correctAnswer: 'spell out',
+            options: ['spell out', 'speak out', 'set out', 'sort out'],
+            explanation: 'Spell out = to explain something in a very clear way with details.',
+            points: 1
+          },
+          {
+            id: 'pv6',
+            question: 'The discussion _____ into a heated debate.',
+            phrasalVerb: 'turned into',
+            meaning: 'became, developed into',
+            correctAnswer: 'turned into',
+            options: ['turned into', 'turned up', 'turned down', 'turned over'],
+            explanation: 'Turn into = to change or develop into something different.',
+            points: 1
           }
         ]
       },
@@ -3394,6 +3478,36 @@ Governments and businesses also have a crucial {{7}} to play. New policies are b
             correctUsage: 'Please get to the point, we don\'t have much time',
             options: ['get to the point', 'beat around the bush', 'go off on a tangent', 'miss the point'],
             explanation: 'Get to the point = to reach the main or most important part of what you are saying.',
+            points: 1
+          },
+          {
+            id: 'id4',
+            context: 'I need to emphasize this important safety rule.',
+            idiom: 'hammer home',
+            meaning: 'to emphasize forcefully',
+            correctUsage: 'The instructor hammered home the importance of wearing safety equipment',
+            options: ['hammered home', 'brought home', 'took home', 'sent home'],
+            explanation: 'Hammer home = to make something very clear by repeating or emphasizing it forcefully.',
+            points: 1
+          },
+          {
+            id: 'id5',
+            context: 'After hours of discussion, we finally understood the core issue.',
+            idiom: 'get to the bottom of',
+            meaning: 'to discover the real cause of something',
+            correctUsage: 'We finally got to the bottom of the problem',
+            options: ['got to the bottom of', 'got to grips with', 'got down to', 'got through to'],
+            explanation: 'Get to the bottom of = to find out the real cause or truth about a situation.',
+            points: 1
+          },
+          {
+            id: 'id6',
+            context: 'Your analysis is completely correct and well-presented.',
+            idiom: 'spot on',
+            meaning: 'exactly right, accurate',
+            correctUsage: 'Your assessment of the situation was spot on',
+            options: ['spot on', 'on point', 'on target', 'on track'],
+            explanation: 'Spot on = exactly correct or accurate.',
             points: 1
           }
         ]
