@@ -5725,15 +5725,54 @@ For readers, developing the ability to recognize and interpret metaphors enriche
             question: 'Which syllable is stressed in "protagonist"?',
             options: ['1st', '2nd', '3rd', '4th'],
             correctAnswer: '2nd',
+            explanation: 'Protagonist is stressed on the second syllable: pro-TA-go-nist.',
             points: 1
           },
           {
             id: 'pr2',
+            type: 'stress-identification',
+            question: 'Which syllable is stressed in "contemporary"?',
+            options: ['1st', '2nd', '3rd', '4th', '5th'],
+            correctAnswer: '2nd',
+            explanation: 'Contemporary is stressed on the second syllable: con-TEM-po-ra-ry.',
+            points: 1
+          },
+          {
+            id: 'pr3',
+            type: 'stress-identification',
+            question: 'Which syllable is stressed in "aesthetic"?',
+            options: ['1st', '2nd', '3rd'],
+            correctAnswer: '2nd',
+            explanation: 'Aesthetic is stressed on the second syllable: aes-THE-tic.',
+            points: 1
+          },
+          {
+            id: 'pr4',
+            type: 'stress-identification',
+            question: 'Which syllable is stressed in "metaphor"?',
+            options: ['1st', '2nd', '3rd'],
+            correctAnswer: '1st',
+            explanation: 'Metaphor is stressed on the first syllable: ME-ta-phor.',
+            points: 1
+          },
+          {
+            id: 'pr5',
+            type: 'stress-identification',
+            question: 'Which syllable is stressed in "compelling"?',
+            options: ['1st', '2nd', '3rd'],
+            correctAnswer: '2nd',
+            explanation: 'Compelling is stressed on the second syllable: com-PEL-ling.',
+            points: 1
+          },
+          {
+            id: 'pr6',
             type: 'minimal-pairs',
+            question: 'How does the pronunciation change between "analysis" (singular) and "analyses" (plural)?',
             pairs: [
-              { word1: 'analysis', word2: 'analyses', difference: 'Singular vs plural pronunciation' }
+              { word1: 'analysis /əˈnæl.ə.sɪs/', word2: 'analyses /əˈnæl.ə.siːz/', difference: 'The final syllable changes from /sɪs/ to /siːz/' }
             ],
-            points: 2
+            explanation: 'In the plural form "analyses", the final syllable changes pronunciation from /sɪs/ to /siːz/.',
+            points: 1
           }
         ]
       },
