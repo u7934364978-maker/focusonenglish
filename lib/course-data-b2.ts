@@ -8807,6 +8807,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
         id: 'b2-m2-l4-cloze-1',
         type: 'multiple-choice-cloze',
         title: 'Multiple Choice Cloze: The Future of Education',
+        instructions: 'Read the text below and choose the correct word for each gap from the dropdown menu. Each gap has four options (A, B, C, D). Choose the word that best fits the context and grammar of the sentence.',
         text: `The education system has undergone dramatic changes in recent years. Traditional classroom-based learning has long been the norm. (1)_____, online education has emerged as a viable alternative. Many students now have access to courses from top universities worldwide. (2)_____, this democratization of education hasn't solved all problems.
 
 (3)_____ online learning offers flexibility and convenience, it also presents challenges. Students must be highly self-motivated, (4)_____ they risk falling behind. (5)_____, the lack of face-to-face interaction can make it difficult to build relationships with peers and instructors. (6)_____ these challenges, many institutions are developing hybrid models that combine the best of both approaches.
@@ -8814,65 +8815,65 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
 (7)_____, technology continues to advance, we can expect further innovations in education. Virtual reality, for instance, could revolutionize how we teach complex subjects. (8)_____ the future of education will likely involve a blend of traditional and digital methods, rather than one completely replacing the other.`,
         questions: [
           {
-            id: '',
-            type: 'short-answer',
-            question: '1. _____',
+            id: 'gap-1',
+            gapNumber: 1,
+            options: ['Therefore', 'However', 'Moreover', 'Thus'],
             correctAnswer: 'However',
             explanation: 'However introduce un contraste con la idea anterior.',
-            points: 2
+            points: 1
           },
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: '2. _____',
+            id: 'gap-2',
+            gapNumber: 2,
+            options: ['Nevertheless', 'Therefore', 'Similarly', 'Consequently'],
             correctAnswer: 'Nevertheless',
             explanation: 'Nevertheless indica que a pesar del aspecto positivo, hay problemas.',
             points: 1
           },
           {
-            id: '',
-            type: 'true-false',
-            question: '3. Despite',
-            correctAnswer: 'False',
-            explanation: 'Falso. Although + clause (Although online learning offers...)',
+            id: 'gap-3',
+            gapNumber: 3,
+            options: ['Despite', 'Although', 'Because', 'Since'],
+            correctAnswer: 'Although',
+            explanation: 'Although + clause (Although online learning offers...)',
             points: 1
           },
           {
-            id: '',
-            type: 'short-answer',
-            question: '4. _____',
+            id: 'gap-4',
+            gapNumber: 4,
+            options: ['however', 'therefore', 'otherwise', 'moreover'],
             correctAnswer: 'otherwise',
             explanation: 'Otherwise = si no, de lo contrario.',
-            points: 2
+            points: 1
           },
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: '5. _____',
+            id: 'gap-5',
+            gapNumber: 5,
+            options: ['Furthermore', 'However', 'Therefore', 'Nevertheless'],
             correctAnswer: 'Furthermore',
             explanation: 'Furthermore añade otro desafío a la lista.',
             points: 1
           },
           {
-            id: '',
-            type: 'true-false',
-            question: '6. Despite',
-            correctAnswer: 'True',
+            id: 'gap-6',
+            gapNumber: 6,
+            options: ['Although', 'Despite', 'Because', 'Since'],
+            correctAnswer: 'Despite',
             explanation: 'Despite + noun phrase (Despite these challenges)',
             points: 1
           },
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: '7. _____',
+            id: 'gap-7',
+            gapNumber: 7,
+            options: ['As', 'Although', 'Despite', 'However'],
             correctAnswer: 'As',
             explanation: 'As + clause al principio de oración expresa causa.',
             points: 1
           },
           {
-            id: '',
-            type: 'fill-blank',
-            sentence: '8. _____',
+            id: 'gap-8',
+            gapNumber: 8,
+            options: ['Therefore', 'However', 'In conclusion', 'Nevertheless'],
             correctAnswer: 'In conclusion',
             explanation: 'In conclusion introduce la conclusión final.',
             points: 1
