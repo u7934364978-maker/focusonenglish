@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run pre-deploy-check && next build",
     "start": "next start -p ${PORT:-3000}",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
@@ -14,7 +14,9 @@
     "generate-audio:test": "ts-node --esm scripts/generate-course-audio.ts test",
     "generate-audio:all": "ts-node --esm scripts/generate-course-audio.ts all",
     "validate-exercises": "node scripts/validate-exercises.mjs",
-    "validate-exercise-types": "node scripts/validate-exercise-types.mjs"
+    "validate-exercise-types": "node scripts/validate-exercise-types.mjs",
+    "pre-deploy-check": "node scripts/pre-deploy-check.mjs",
+    "fix-empty-ids": "node scripts/fix-empty-ids.mjs"
   },
   "dependencies": {
     "@google-cloud/text-to-speech": "^6.4.0",
