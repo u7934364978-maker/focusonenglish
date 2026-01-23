@@ -91,7 +91,7 @@ export default function MultipleChoiceClozeExercise({ exercise, onComplete }: Mu
     const sortedQuestions = [...exercise.questions].sort((a, b) => a.gapNumber - b.gapNumber);
 
     sortedQuestions.forEach((question) => {
-      const gapPattern = new RegExp(`\\[${question.gapNumber}\\]`, 'g');
+      const gapPattern = new RegExp(`\\{\\{${question.gapNumber}\\}\\}`, 'g');
       const match = gapPattern.exec(text.substring(lastIndex));
       
       if (match) {

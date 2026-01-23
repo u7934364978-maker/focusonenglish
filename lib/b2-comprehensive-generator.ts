@@ -253,12 +253,10 @@ export class B2ComprehensiveGenerator {
       body: JSON.stringify({
         exerciseType: config.exerciseType,
         level: 'B2',
-        category: config.skill,
         difficulty: 'medium',
         count: 1,
-        topic: config.topic?.id || 'general',
-        topicKeywords: config.topic?.keywords || [],
-        customInstructions: prompt
+        topic: config.topic?.name || 'general',
+        customPrompt: prompt
       })
     });
 

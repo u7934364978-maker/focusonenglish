@@ -18,6 +18,7 @@ const PUBLIC_ROUTES = new Set([
   '/cuenta/recuperar',
   '/reset-password',
   '/success',
+  '/generador-b2',
 ]);
 
 // Rutas que requieren autenticación pero NO requieren suscripción
@@ -30,8 +31,12 @@ function isBlogRoute(pathname: string): boolean {
   return pathname === '/blog' || pathname.startsWith('/blog/');
 }
 
+function isB2CourseRoute(pathname: string): boolean {
+  return pathname.startsWith('/curso-b2');
+}
+
 function isPublicRoute(pathname: string): boolean {
-  return PUBLIC_ROUTES.has(pathname) || isBlogRoute(pathname) || pathname.startsWith('/api/webhooks');
+  return PUBLIC_ROUTES.has(pathname) || isBlogRoute(pathname) || isB2CourseRoute(pathname) || pathname.startsWith('/api/webhooks');
 }
 
 function requiresAuthOnly(pathname: string): boolean {
