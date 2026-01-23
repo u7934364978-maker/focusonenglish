@@ -2615,6 +2615,36 @@ Under no circumstances should we view career changes as failures. If you had sta
             correctAnswer: 'It was my brother who recommended this book.',
             explanation: 'Usamos "who" cuando enfatizamos una persona.',
             points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'Which cleft sentence is correct?',
+            options: [
+              'It was yesterday that I saw her.',
+              'It yesterday that I saw her.',
+              'It was yesterday when I saw her.',
+              'Yesterday it was that I saw her.'
+            ],
+            correctAnswer: 'It was yesterday that I saw her.',
+            explanation: 'Estructura correcta: It + was + elemento enfatizado + that',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'fill-blank',
+            question: 'Transform emphasizing WHERE: "We met at the conference."',
+            correctAnswer: 'It was at the conference that we met.',
+            explanation: 'It was + lugar + that para enfatizar dónde ocurrió la acción.',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'short-answer',
+            question: 'Rewrite emphasizing the reason: "She left because of the weather."',
+            correctAnswer: 'It was because of the weather that she left.',
+            explanation: 'It was + razón + that para enfatizar por qué.',
+            points: 2
           }
         ]
       },
@@ -2647,6 +2677,44 @@ Under no circumstances should we view career changes as failures. If you had sta
             correctAnswer: 'What',
             explanation: 'What she said = lo que ella dijo.',
             points: 1
+          },
+          {
+            id: 'q3',
+            type: 'short-answer',
+            question: 'Transform to wh-cleft: "We need better communication."',
+            correctAnswer: 'What we need is better communication.',
+            explanation: 'What + subject + verb + is/was + complemento enfatizado.',
+            points: 2
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'Which wh-cleft is correct?',
+            options: [
+              'What happened was unexpected.',
+              'What was happened was unexpected.',
+              'What did happen was unexpected.',
+              'That happened was unexpected.'
+            ],
+            correctAnswer: 'What happened was unexpected.',
+            explanation: 'What + subject + verb (sin auxiliar) + was/is + complemento.',
+            points: 1
+          },
+          {
+            id: 'q5',
+            type: 'fill-blank',
+            question: 'Complete: What surprised me ___ his attitude.',
+            correctAnswer: 'was',
+            explanation: 'What surprised me was his attitude - el verbo "to be" conecta las dos partes.',
+            points: 1
+          },
+          {
+            id: 'q6',
+            type: 'short-answer',
+            question: 'Transform emphasizing the action: "She loves traveling the most."',
+            correctAnswer: 'What she loves most is traveling.',
+            explanation: 'What-cleft para enfatizar qué es lo que ama.',
+            points: 2
           }
         ]
       },
@@ -2705,6 +2773,20 @@ So what should we do about this? It's essential that we recognize the value of s
             correctAnswer: 'It was Cal Newport who... / What many fail to realize is... / What Newport argues is... / It was a study... / etc.',
             explanation: 'El texto contiene múltiples cleft sentences usando "It was...who/that" y "What...is"',
             points: 3
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: 'What do successful professionals do differently according to the text?',
+            options: [
+              'They avoid technology completely',
+              'They create strict boundaries around focused work time',
+              'They work longer hours',
+              'They multitask more efficiently'
+            ],
+            correctAnswer: 'They create strict boundaries around focused work time',
+            explanation: 'El texto indica: "What successful professionals do differently is create strict boundaries around their focused work time"',
+            points: 2
           }
         ],
         vocabularyHelp: [
