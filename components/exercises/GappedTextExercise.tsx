@@ -87,10 +87,10 @@ export default function GappedTextExercise({ exercise, onComplete }: GappedTextE
                   onChange={(e) => handleAnswer(gapNum, e.target.value)}
                   className="px-4 py-2 border-2 border-slate-300 rounded-lg focus:border-emerald-500 focus:outline-none bg-white"
                 >
-                  <option value="">-- Select paragraph --</option>
+                  <option value="" disabled>Gap {gapNumber} ▼ Select paragraph...</option>
                   {exercise.removedParagraphs.map(para => (
                     <option key={para.letter} value={para.letter}>
-                      Paragraph {para.letter}
+                      {para.letter}. Paragraph {para.letter}
                     </option>
                   ))}
                 </select>

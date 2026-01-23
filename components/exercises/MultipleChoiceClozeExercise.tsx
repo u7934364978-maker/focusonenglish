@@ -135,10 +135,10 @@ export default function MultipleChoiceClozeExercise({ exercise, onComplete }: Mu
                 }
               `}
             >
-              <option value="">({question.gapNumber})</option>
+              <option value="" disabled>{question.gapNumber}▼ Select...</option>
               {question.options.map((option, idx) => (
                 <option key={idx} value={option}>
-                  {option}
+                  {String.fromCharCode(65 + idx)}. {option}
                 </option>
               ))}
             </select>
