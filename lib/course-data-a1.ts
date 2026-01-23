@@ -6,6 +6,7 @@
 import { A1_M1_L1_ALL_EXERCISES } from './a1-m1-l1-detailed';
 import { A1_M1_L2_ALL_EXERCISES } from './a1-m1-l2-detailed';
 import { A1_M1_L3_ALL_EXERCISES } from './a1-m1-l3-detailed';
+import { A1_M1_L4_ALL_EXERCISES } from './a1-m1-l4-detailed';
 
 export type ExerciseType = 
   | 'reading'
@@ -194,102 +195,11 @@ export const MODULE_1_LESSONS: Lesson[] = [
     title: 'Lección 4: Numbers and Age',
     description: 'Practice Numbers and expressing age with comprehensive exercises',
     duration: 90, // minutes
-    exercises: [
-      {
-        id: 'a1-m1-l4-grammar-1',
-        type: 'grammar',
-        title: 'Numbers 0-100 - Formation and Use',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l4-grammar-2',
-        type: 'grammar',
-        title: 'Numbers 0-100 - Practice Exercises',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l4-reading-1',
-        type: 'reading',
-        title: 'Reading: Lección 4: Numbers and Dates',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l4-listening-1',
-        type: 'listening',
-        title: 'Listening: Lección 4: Numbers and Dates',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l4-speaking-1',
-        type: 'speaking',
-        title: 'Speaking Practice: Lección 4: Numbers and Dates',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l4-writing-1',
-        type: 'writing',
-        title: 'Writing: Lección 4: Numbers and Dates',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l4-pronunciation-1',
-        type: 'pronunciation-practice',
-        title: 'Pronunciation: Numbers 0-100',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l4-vocabulary-1',
-        type: 'vocabulary',
-        title: 'Vocabulary: Lección 4: Numbers and Dates',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l4-vocabulary-2',
-        type: 'vocabulary',
-        title: 'Vocabulary Practice',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l4-fill-blanks-1',
-        type: 'fill-in-blanks',
-        title: 'Complete the Sentences - Numbers 0-100',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l4-multiple-choice-1',
-        type: 'multiple-choice',
-        title: 'Multiple Choice: Numbers 0-100',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l4-matching-1',
-        type: 'matching',
-        title: 'Match Words and Meanings',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l4-sentence-building-1',
-        type: 'sentence-building',
-        title: 'Build Sentences - Numbers 0-100',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l4-true-false-1',
-        type: 'true-false',
-        title: 'True or False: Lección 4: Numbers and Dates',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l4-dialogue-1',
-        type: 'dialogue-practice',
-        title: 'Dialogue Practice: Lección 4: Numbers and Dates',
-        // Content will be added in future updates
-      } as Exercise,
-    ]
+    exercises: A1_M1_L4_ALL_EXERCISES as Exercise[]
   },
   {
     id: 'a1-m1-l5',
-    title: 'Lección 5: Family and Friends',
+    title: 'Lección 5: Family and Relationships',
     description: 'Practice Family vocabulary with comprehensive exercises',
     duration: 90, // minutes
     exercises: [
