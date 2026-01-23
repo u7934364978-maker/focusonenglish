@@ -3669,6 +3669,36 @@ So {{9}} should job seekers focus on? {{10}} they need to develop is a combinati
             correctAnswer: 'I had been studying all night, so I felt exhausted in the morning. (or similar)',
             explanation: 'La acción prolongada (had been studying) causa el resultado (felt exhausted).',
             points: 3
+          },
+          {
+            id: 'q4',
+            type: 'multiple-choice',
+            question: 'Which sentence correctly combines narrative tenses?',
+            options: [
+              'When I arrived, they already left.',
+              'When I arrived, they had already left.',
+              'When I was arriving, they already left.',
+              'When I had arrived, they left.'
+            ],
+            correctAnswer: 'When I arrived, they had already left.',
+            explanation: 'Past Perfect (had left) para la acción anterior + Past Simple (arrived) para la acción principal.',
+            points: 2
+          },
+          {
+            id: 'q5',
+            type: 'fill-blank',
+            question: 'Complete: She ___ (wait) for an hour when he finally ___ (show up).',
+            correctAnswer: 'had been waiting...showed up',
+            explanation: 'Past Perfect Continuous para duración + Past Simple para la acción que interrumpe.',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'short-answer',
+            question: 'Rewrite using Past Continuous + Past Simple: "I studied. The lights went out."',
+            correctAnswer: 'I was studying when the lights went out.',
+            explanation: 'Acción en progreso (was studying) interrumpida por acción repentina (went out).',
+            points: 2
           }
         ]
       },
@@ -3707,7 +3737,7 @@ Looking back now, Sarah realized that what had seemed like an ordinary day had a
             points: 1
           },
           {
-            id: 'q1',
+            id: 'q3',
             type: 'short-answer',
             question: 'What was Professor Martinez doing when Sarah called him?',
             correctAnswer: 'At a conference in Berlin',
@@ -3729,6 +3759,20 @@ Looking back now, Sarah realized that what had seemed like an ordinary day had a
             correctAnswer: 'had been working (Past Perfect Continuous), would change (conditional), was (Past Simple), was analyzing (Past Continuous), caught (Past Simple)',
             explanation: 'El primer párrafo contiene múltiples tiempos narrativos.',
             points: 3
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: 'What attributes does the text suggest led to Sarah\'s success?',
+            options: [
+              'Luck and good timing',
+              'Persistence and attention to detail',
+              'Support from colleagues',
+              'Advanced technology'
+            ],
+            correctAnswer: 'Persistence and attention to detail',
+            explanation: 'El texto concluye: "It was her persistence and attention to detail that had made all the difference"',
+            points: 2
           }
         ],
         vocabularyHelp: [
@@ -3791,12 +3835,12 @@ James: It was three years after I started training. By then, I had climbed peaks
             points: 1
           },
           {
-            id: 'q6',
-            type: 'true-false',
+            id: 'q4',
+            type: 'short-answer',
             question: 'How long after he started training did James attempt Everest?',
-            correctAnswer: 'FalseOne year',
-            explanation: 'Falso. James menciona: "It was three years after I started training"',
-            points: 1
+            correctAnswer: 'Three years',
+            explanation: 'James menciona: "It was three years after I started training"',
+            points: 2
           },
           {
             id: 'q5',
@@ -3805,6 +3849,20 @@ James: It was three years after I started training. By then, I had climbed peaks
             correctAnswer: 'Mountaineering',
             explanation: 'James dice: "I had been fascinated by mountaineering since I was a teenager"',
             points: 1
+          },
+          {
+            id: 'q6',
+            type: 'multiple-choice',
+            question: 'Why did James decide to climb Everest?',
+            options: [
+              'He wanted to become famous',
+              'His friend\'s death made him realize he was postponing his dreams',
+              'He was bored with his office job',
+              'His doctor recommended more exercise'
+            ],
+            correctAnswer: 'His friend\'s death made him realize he was postponing his dreams',
+            explanation: 'James dice: "When he died, I realized I was doing exactly the same thing. I had been making excuses for years"',
+            points: 2
           }
         ]
       },
