@@ -18,13 +18,13 @@ const PUBLIC_ROUTES = new Set([
   '/cuenta/recuperar',
   '/reset-password',
   '/success',
+  '/generador-b2',
 ]);
 
 // Rutas que requieren autenticación pero NO requieren suscripción
 const AUTH_ONLY_ROUTES = new Set([
   '/profile',
   '/dashboard',
-  '/generador-b2',
 ]);
 
 function isBlogRoute(pathname: string): boolean {
