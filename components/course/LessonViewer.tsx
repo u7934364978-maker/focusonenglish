@@ -1185,7 +1185,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                           {idx + 1}. {exercise.question} <span className="text-sm text-coral-600">({exercise.points} points)</span>
                         </p>
                         <div className="space-y-2">
-                          {exercise.options.map((option: string, optIdx: number) => (
+                          {(exercise.options || []).map((option: string, optIdx: number) => (
                             <label key={optIdx} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer">
                               <input
                                 type="radio"
@@ -1223,7 +1223,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                           {idx + 1}. Minimal Pairs Practice <span className="text-sm text-coral-600">({exercise.points} points)</span>
                         </p>
                         <div className="space-y-3">
-                          {exercise.pairs.map((pair: any, pairIdx: number) => (
+                          {(exercise.pairs || []).map((pair: any, pairIdx: number) => (
                             <div key={pairIdx} className="bg-slate-50 rounded-lg p-4 border border-slate-200">
                               <div className="flex items-center gap-4 mb-2">
                                 <span className="font-semibold text-lg">{pair.word1}</span>
@@ -1993,31 +1993,32 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                   </div>
 
                   {/* Options as reference/hints */}
-                  <details className={`${showFeedback ? 'open' : ''}`}>
-                    <summary className="text-sm text-slate-600 cursor-pointer hover:text-slate-900 font-medium mb-2">
-                      📝 Ver opciones (A, B, C, D)
-                    </summary>
-                    <div className="space-y-2 mt-3">
-                      {question.options.map((option: string, optIdx: number) => (
-                        <div 
-                          key={optIdx}
-                          onClick={() => !showFeedback && handleAnswer(question.id, option)}
-                          className={`flex items-center gap-3 p-3 rounded-lg border-2 transition-colors ${
-                            showFeedback && option === question.correctAnswer
-                              ? 'border-green-500 bg-green-50'
-                              : 'border-slate-200 hover:bg-slate-50'
-                          } ${!showFeedback ? 'cursor-pointer' : ''}`}
-                        >
-                          <span className={`font-semibold text-sm ${
-                            showFeedback && option === question.correctAnswer ? 'text-green-700' : 'text-slate-500'
-                          }`}>
-                            {String.fromCharCode(65 + optIdx)}.
-                          </span>
-                          <span className={`${
-                            showFeedback && option === question.correctAnswer ? 'text-green-900 font-semibold' : 'text-slate-700'
-                          }`}>
-                            {option}
-                          </span>
+                  {question.options && question.options.length > 0 && (
+                    <details className={`${showFeedback ? 'open' : ''}`}>
+                      <summary className="text-sm text-slate-600 cursor-pointer hover:text-slate-900 font-medium mb-2">
+                        📝 Ver opciones (A, B, C, D)
+                      </summary>
+                      <div className="space-y-2 mt-3">
+                        {question.options.map((option: string, optIdx: number) => (
+                          <div 
+                            key={optIdx}
+                            onClick={() => !showFeedback && handleAnswer(question.id, option)}
+                            className={`flex items-center gap-3 p-3 rounded-lg border-2 transition-colors ${
+                              showFeedback && option === question.correctAnswer
+                                ? 'border-green-500 bg-green-50'
+                                : 'border-slate-200 hover:bg-slate-50'
+                            } ${!showFeedback ? 'cursor-pointer' : ''}`}
+                          >
+                            <span className={`font-semibold text-sm ${
+                              showFeedback && option === question.correctAnswer ? 'text-green-700' : 'text-slate-500'
+                            }`}>
+                              {String.fromCharCode(65 + optIdx)}.
+                            </span>
+                            <span className={`${
+                              showFeedback && option === question.correctAnswer ? 'text-green-900 font-semibold' : 'text-slate-700'
+                            }`}>
+                              {option}
+                            </span>
                           {showFeedback && option === question.correctAnswer && (
                             <span className="ml-auto text-green-600">✓</span>
                           )}
@@ -2025,6 +2026,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       ))}
                     </div>
                   </details>
+                  )}
 
                   {/* Feedback */}
                   {showFeedback && (
@@ -2290,6 +2292,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       case 'sentence-completion':
         const scExercise = currentExercise as any;
+        const scSentences = scExercise.sentences || [];
         return (
           <div className="space-y-6">
             {/* Instructions */}
@@ -2305,7 +2308,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
             {/* Sentences */}
             <div className="space-y-4">
-              {scExercise.sentences.map((sentence: any, idx: number) => {
+              {scSentences.map((sentence: any, idx: number) => {
                 const sentenceId = sentence.id;
                 const userAnswer = answers[sentenceId] || '';
                 const evaluation = aiEvaluations[sentenceId];
@@ -2454,6 +2457,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       case 'error-identification':
         const eiExercise = currentExercise as any;
+        const eiSentences = eiExercise.sentences || [];
         return (
           <div className="space-y-6">
             <div className="bg-red-50 rounded-xl p-6 border-2 border-red-200">
@@ -2467,7 +2471,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             </div>
 
             <div className="space-y-4">
-              {eiExercise.sentences.map((item: any, idx: number) => {
+              {eiSentences.map((item: any, idx: number) => {
                 const userAnswer = answers[item.id] || '';
                 const evaluation = aiEvaluations[item.id];
                 
@@ -2565,6 +2569,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       case 'collocation-matching':
         const cmExercise = currentExercise as any;
+        const cmPairs = cmExercise.pairs || [];
         return (
           <div className="space-y-6">
             <div className="bg-indigo-50 rounded-xl p-6 border-2 border-indigo-200">
@@ -2578,7 +2583,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             </div>
 
             <div className="space-y-4">
-              {cmExercise.pairs.map((pair: any, idx: number) => {
+              {cmPairs.map((pair: any, idx: number) => {
                 const userAnswer = answers[pair.id] || '';
                 const isCorrect = aiEvaluations[pair.id]?.isCorrect;
                 const allOptions = [pair.correctMatch, ...(pair.distractors || [])].sort(() => Math.random() - 0.5);
@@ -2887,7 +2892,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               {/* Practice exercises */}
               <div className="space-y-4">
                 <h4 className="font-bold text-cyan-900">✏️ Practice Exercises</h4>
-                {pvExercise.exercises.map((ex: any, idx: number) => {
+                {(pvExercise.exercises || []).map((ex: any, idx: number) => {
                   const userAnswer = answers[ex.id] || '';
                   const isCorrect = userAnswer.toLowerCase().trim() === (ex.correctAnswer || '').toLowerCase().trim();
                   
@@ -3116,7 +3121,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               {/* Practice exercises */}
               <div className="space-y-4">
                 <h4 className="font-bold text-yellow-900">✏️ Practice Exercises</h4>
-                {ieExercise.exercises.map((ex: any, idx: number) => {
+                {(ieExercise.exercises || []).map((ex: any, idx: number) => {
                   const userAnswer = answers[ex.id] || '';
                   const isCorrect = userAnswer.toLowerCase().trim() === (ex.correctAnswer || '').toLowerCase().trim();
                   
@@ -3326,7 +3331,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               </div>
 
               <div className="space-y-4">
-                {gapExercise.sentences.map((item: any, idx: number) => (
+                {(gapExercise.sentences || []).map((item: any, idx: number) => (
                   <div key={idx} className="bg-white rounded-lg p-5 border-2 border-slate-200">
                     <div className="flex items-start gap-3">
                       <span className="flex-shrink-0 w-8 h-8 bg-emerald-600 text-white rounded-full flex items-center justify-center font-bold">
@@ -3862,6 +3867,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       case 'matching':
         const matchExercise = currentExercise as any;
+        const matchPairs = matchExercise.pairs || [];
         return (
           <div className="space-y-6">
             <div className="bg-lime-50 rounded-xl p-6 border-2 border-lime-200">
@@ -3875,7 +3881,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             </div>
 
             <div className="space-y-4">
-              {matchExercise.pairs.map((pair: any, idx: number) => {
+              {matchPairs.map((pair: any, idx: number) => {
                 const userAnswer = answers[pair.idiom || `match-${idx}`] || '';
                 
                 return (
