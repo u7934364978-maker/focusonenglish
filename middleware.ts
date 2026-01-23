@@ -36,7 +36,7 @@ function isB2CourseRoute(pathname: string): boolean {
 }
 
 function isA1CourseRoute(pathname: string): boolean {
-  return pathname.startsWith('/curso-a1');
+  return pathname.startsWith('/curso-a1') || pathname.startsWith('/aula/a1') || pathname.startsWith('/ejercicios-inteligentes/a1');
 }
 
 function isPublicRoute(pathname: string): boolean {
@@ -89,8 +89,8 @@ export async function middleware(request: NextRequest) {
     return response;
   }
 
-  // Verificar suscripción activa para rutas premium (excepto curso-a1)
-  if ((pathname.startsWith('/curso-') && !pathname.startsWith('/curso-a1')) || pathname.startsWith('/aula') || pathname.startsWith('/practica')) {
+  // Verificar suscripción activa para rutas premium (excepto curso-a1 y aula/a1)
+  if ((pathname.startsWith('/curso-') && !pathname.startsWith('/curso-a1')) || (pathname.startsWith('/aula') && !pathname.startsWith('/aula/a1')) || pathname.startsWith('/practica')) {
     // Obtener perfil del usuario con información de suscripción
     const { data: profile } = await supabase
       .from('users')
