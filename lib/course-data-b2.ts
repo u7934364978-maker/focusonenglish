@@ -4122,6 +4122,22 @@ James: It was three years after I started training. By then, I had climbed peaks
             correctCompletion: 'they visited Canada',
             explanation: 'Past Perfect + Past Simple for first-time experience.',
             points: 1
+          },
+          {
+            id: 'sc5',
+            prompt: 'When I finally reached the summit, I realized I...',
+            correctCompletion: 'had been climbing for six hours',
+            options: ['had been climbing for six hours', 'was climbing for six hours', 'climbed for six hours', 'have been climbing for six hours'],
+            explanation: 'Past Perfect Continuous for duration before a past moment.',
+            points: 1
+          },
+          {
+            id: 'sc6',
+            prompt: 'The house looked different because they...',
+            correctCompletion: 'had renovated it',
+            options: ['had renovated it', 'were renovating it', 'renovated it', 'have renovated it'],
+            explanation: 'Past Perfect for completed action causing visible result.',
+            points: 1
           }
         ]
       },
@@ -4174,6 +4190,13 @@ James: It was three years after I started training. By then, I had climbed peaks
             correction: 'They had finished dinner when we called',
             explanation: 'Use Past Perfect (had finished), not Present Perfect with past context.',
             points: 2
+          },
+          {
+            id: 'e6',
+            question: 'When the rain stopped, we continued our journey.',
+            hasError: false,
+            explanation: 'Correct: Both actions in Past Simple when one follows the other sequentially.',
+            points: 1
           }
         ]
       },
@@ -4206,6 +4229,30 @@ James: It was three years after I started training. By then, I had climbed peaks
             correctParaphrase: 'While I was driving, I saw an accident',
             alternatives: ['I saw an accident while I was driving'],
             explanation: 'Past Continuous + Past Simple for interrupted action.',
+            points: 2
+          },
+          {
+            id: 'p4',
+            originalSentence: 'They lived in Spain for ten years. Then they moved to France.',
+            correctParaphrase: 'After they had lived in Spain for ten years, they moved to France',
+            alternatives: ['They moved to France after they had lived in Spain for ten years'],
+            explanation: 'Past Perfect for completed period before new action.',
+            points: 2
+          },
+          {
+            id: 'p5',
+            originalSentence: 'She trained for months. She felt ready for the marathon.',
+            correctParaphrase: 'She felt ready for the marathon because she had been training for months',
+            alternatives: ['Because she had been training for months, she felt ready for the marathon'],
+            explanation: 'Past Perfect Continuous shows duration causing the feeling.',
+            points: 2
+          },
+          {
+            id: 'p6',
+            originalSentence: 'The concert started. We were still looking for parking.',
+            correctParaphrase: 'The concert started while we were still looking for parking',
+            alternatives: ['While we were still looking for parking, the concert started'],
+            explanation: 'Past Simple + Past Continuous for simultaneous actions.',
             points: 2
           }
         ]
@@ -4256,6 +4303,14 @@ James: It was three years after I started training. By then, I had climbed peaks
             distractors: ['memories', 'situations', 'experiences'],
             example: 'The documentary narrates events from the war.',
             points: 1
+          },
+          {
+            id: 'col6',
+            word: 'share',
+            correctMatch: 'an anecdote',
+            distractors: ['a story', 'a tale', 'a memory'],
+            example: 'Let me share an anecdote from my university days.',
+            points: 1
           }
         ]
       },
@@ -4305,6 +4360,26 @@ James: It was three years after I started training. By then, I had climbed peaks
             options: ['passed down', 'passed out', 'passed by', 'passed over'],
             explanation: 'Pass down = to give or teach something to younger generations.',
             points: 1
+          },
+          {
+            id: 'pv5',
+            question: 'As time _____, I began to understand what had really happened.',
+            phrasalVerb: 'went by',
+            meaning: 'passed (of time)',
+            correctAnswer: 'went by',
+            options: ['went by', 'went on', 'went over', 'went through'],
+            explanation: 'Go by = to pass (especially referring to time).',
+            points: 1
+          },
+          {
+            id: 'pv6',
+            question: 'The documentary _____ the events that led to the revolution.',
+            phrasalVerb: 'looked back on',
+            meaning: 'remembered and reflected on',
+            correctAnswer: 'looked back on',
+            options: ['looked back on', 'looked up to', 'looked into', 'looked after'],
+            explanation: 'Look back on = to think about something in the past.',
+            points: 1
           }
         ]
       },
@@ -4343,6 +4418,36 @@ James: It was three years after I started training. By then, I had climbed peaks
             correctUsage: 'Taking a trip down memory lane always makes me nostalgic',
             options: ['down memory lane', 'once in a while', 'the good old days', 'better late than never'],
             explanation: 'Down memory lane = an imaginary path through remembered past.',
+            points: 1
+          },
+          {
+            id: 'id4',
+            context: 'When I reflect on those years, I realize they were special times.',
+            idiom: 'the good old days',
+            meaning: 'a time in the past when things were better',
+            correctUsage: 'Those were the good old days when we had no responsibilities',
+            options: ['the good old days', 'from time to time', 'day in, day out', 'any day now'],
+            explanation: 'The good old days = a nostalgic period in the past.',
+            points: 1
+          },
+          {
+            id: 'id5',
+            context: 'We were working continuously without a break for weeks.',
+            idiom: 'day in, day out',
+            meaning: 'repeatedly, every single day',
+            correctUsage: 'She practiced the piano day in, day out until she perfected the piece',
+            options: ['day in, day out', 'in the nick of time', 'once in a blue moon', 'day by day'],
+            explanation: 'Day in, day out = continuously and repeatedly over time.',
+            points: 1
+          },
+          {
+            id: 'id6',
+            context: 'The situation was improving gradually as time passed.',
+            idiom: 'as time went by',
+            meaning: 'as time passed, gradually over time',
+            correctUsage: 'As time went by, the pain of losing him became easier to bear',
+            options: ['as time went by', 'against the clock', 'once upon a time', 'from time to time'],
+            explanation: 'As time went by = gradually as time passed.',
             points: 1
           }
         ]
