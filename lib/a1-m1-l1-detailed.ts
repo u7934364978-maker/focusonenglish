@@ -514,6 +514,87 @@ export const A1_M1_L1_PRONUNCIATION = {
   ]
 };
 
+// ============================================
+// VOCABULARY EXERCISE 1
+// ============================================
+export const A1_M1_L1_VOCABULARY_1 = {
+  id: 'a1-m1-l1-vocabulary-1',
+  type: 'vocabulary',
+  title: 'Vocabulary: Personal Information',
+  vocabularySet: [
+    { word: 'name', definition: 'what you are called', example: 'My name is Maria.' },
+    { word: 'age', definition: 'how old you are', example: 'I am 25 years old.' },
+    { word: 'country', definition: 'the place where you are from', example: 'I am from Spain.' },
+    { word: 'job', definition: 'the work you do', example: 'I am a teacher.' },
+    { word: 'student', definition: 'a person who studies', example: 'She is a student.' },
+    { word: 'teacher', definition: 'a person who teaches', example: 'He is a teacher.' },
+    { word: 'happy', definition: 'feeling pleased', example: 'I am happy today.' },
+    { word: 'friendly', definition: 'kind and nice to others', example: 'They are friendly.' }
+  ],
+  questions: [
+    {
+      id: 'a1-m1-l1-v1-q1',
+      type: 'multiple-choice',
+      question: 'What is a "student"?',
+      options: ['A person who teaches', 'A person who studies', 'A person who works', 'A place to learn'],
+      correctAnswer: 'A person who studies',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q2',
+      type: 'multiple-choice',
+      question: 'What does "friendly" mean?',
+      options: ['Angry', 'Sad', 'Kind and nice', 'Tired'],
+      correctAnswer: 'Kind and nice',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q3',
+      type: 'fill-blank',
+      question: 'My ___ is John. (what you are called)',
+      correctAnswer: 'name',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q4',
+      type: 'fill-blank',
+      question: 'I am 30 years old. That is my ___.',
+      correctAnswer: 'age',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// VOCABULARY EXERCISE 2
+// ============================================
+export const A1_M1_L1_VOCABULARY_2 = {
+  id: 'a1-m1-l1-vocabulary-2',
+  type: 'vocabulary',
+  title: 'Vocabulary Practice',
+  vocabularySet: [
+    { word: 'tired', definition: 'needing rest', example: 'I am tired.' },
+    { word: 'excited', definition: 'very happy about something', example: 'We are excited!' },
+    { word: 'sad', definition: 'unhappy', example: 'She is sad today.' }
+  ],
+  questions: [
+    {
+      id: 'a1-m1-l1-v2-q1',
+      type: 'fill-blank',
+      question: 'I need to sleep. I am ___.',
+      correctAnswer: 'tired',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q2',
+      type: 'fill-blank',
+      question: 'The birthday party is today! I am ___!',
+      correctAnswer: 'excited',
+      points: 1
+    }
+  ]
+};
+
 // Export all exercises for Module 1, Lesson 1
 export const A1_M1_L1_ALL_EXERCISES = [
   A1_M1_L1_GRAMMAR_1,
@@ -522,5 +603,7 @@ export const A1_M1_L1_ALL_EXERCISES = [
   A1_M1_L1_LISTENING,
   A1_M1_L1_SPEAKING,
   A1_M1_L1_WRITING,
-  A1_M1_L1_PRONUNCIATION
+  A1_M1_L1_PRONUNCIATION,
+  A1_M1_L1_VOCABULARY_1,
+  A1_M1_L1_VOCABULARY_2
 ];
