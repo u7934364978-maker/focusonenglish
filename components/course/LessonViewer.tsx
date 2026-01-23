@@ -2472,15 +2472,16 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                         <p className="text-lg font-semibold text-indigo-900 mb-3">{pair.word}</p>
                         
                         <div className="space-y-2">
-                          {allOptions.map((option: string, optIdx: number) => {
+                          {allOptions.map((option: string) => {
                             const isSelected = userAnswer === option;
                             const isCorrectOption = option === pair.correctMatch;
                             const showAsCorrect = showFeedback && isCorrectOption;
                             const showAsIncorrect = showFeedback && isSelected && !isCorrectOption;
+                            const optIdx = allOptions.indexOf(option);
                             
                             return (
                               <button
-                                key={optIdx}
+                                key={`${pair.id}-${option}`}
                                 onClick={() => !showFeedback && handleAnswer(pair.id, option)}
                                 disabled={showFeedback}
                                 className={`w-full text-left p-3 rounded-lg border-2 transition-all ${
