@@ -8,6 +8,7 @@ import { A1_M1_L2_ALL_EXERCISES } from './a1-m1-l2-detailed';
 import { A1_M1_L3_ALL_EXERCISES } from './a1-m1-l3-detailed';
 import { A1_M1_L4_ALL_EXERCISES } from './a1-m1-l4-detailed';
 import { A1_M1_L5_ALL_EXERCISES } from './a1-m1-l5-detailed';
+import { A1_M1_L6_ALL_EXERCISES } from './a1-m1-l6-detailed';
 
 export type ExerciseType = 
   | 'reading'
@@ -205,99 +206,12 @@ export const MODULE_1_LESSONS: Lesson[] = [
     duration: 90, // minutes
     exercises: A1_M1_L5_ALL_EXERCISES as Exercise[]
   },
-      {
-        id: 'a1-m1-l6-grammar-1',
-        type: 'grammar',
-        title: 'Module 1 Review - Formation and Use',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l6-grammar-2',
-        type: 'grammar',
-        title: 'Module 1 Review - Practice Exercises',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l6-reading-1',
-        type: 'reading',
-        title: 'Reading: Lección 6: Mock Exam - Module 1',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l6-listening-1',
-        type: 'listening',
-        title: 'Listening: Lección 6: Mock Exam - Module 1',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l6-speaking-1',
-        type: 'speaking',
-        title: 'Speaking Practice: Lección 6: Mock Exam - Module 1',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l6-writing-1',
-        type: 'writing',
-        title: 'Writing: Lección 6: Mock Exam - Module 1',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l6-pronunciation-1',
-        type: 'pronunciation-practice',
-        title: 'Pronunciation: Module 1 Review',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l6-vocabulary-1',
-        type: 'vocabulary',
-        title: 'Vocabulary: Lección 6: Mock Exam - Module 1',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l6-vocabulary-2',
-        type: 'vocabulary',
-        title: 'Vocabulary Practice',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l6-fill-blanks-1',
-        type: 'fill-in-blanks',
-        title: 'Complete the Sentences - Module 1 Review',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l6-multiple-choice-1',
-        type: 'multiple-choice',
-        title: 'Multiple Choice: Module 1 Review',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l6-matching-1',
-        type: 'matching',
-        title: 'Match Words and Meanings',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l6-sentence-building-1',
-        type: 'sentence-building',
-        title: 'Build Sentences - Module 1 Review',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l6-true-false-1',
-        type: 'true-false',
-        title: 'True or False: Lección 6: Mock Exam - Module 1',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l6-dialogue-1',
-        type: 'dialogue-practice',
-        title: 'Dialogue Practice: Lección 6: Mock Exam - Module 1',
-        // Content will be added in future updates
-      } as Exercise,
-    ]
-  },
   {
+    id: 'a1-m1-l6',
+    title: 'Lección 6: Mock Exam - Module 1 Review',
+    description: 'Review and practice all topics from Module 1 with a mock exam',
+    duration: 90, // minutes
+    exercises: A1_M1_L6_ALL_EXERCISES as Exercise[]
     id: 'a1-m1-l7',
     title: 'Lección 7: Consolidation and Practice',
     description: 'Practice All Module 1 topics with comprehensive exercises',
