@@ -511,6 +511,61 @@ export const A1_M1_L1_PRONUNCIATION = {
     'In "are", the R sound is important in British English',
     'Listen carefully and repeat after each sentence',
     'Record yourself and compare with the model'
+  ],
+  questions: [
+    {
+      id: 'a1-m1-l1-pronun-q1',
+      type: 'multiple-choice',
+      question: 'How do you pronounce "I am"?',
+      options: ['/aɪ æm/', '/iː æm/', '/aɪ eɪm/', '/iː eɪm/'],
+      correctAnswer: '/aɪ æm/',
+      explanation: 'The correct pronunciation is /aɪ æm/. "I" sounds like "eye" and "am" has a short "a" sound.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q2',
+      type: 'multiple-choice',
+      question: 'What is the contracted form of "I am"?',
+      options: ["I'm", "Im", "I'am", "Iam"],
+      correctAnswer: "I'm",
+      explanation: 'The contraction of "I am" is "I\'m" with an apostrophe.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q3',
+      type: 'multiple-choice',
+      question: 'Which word has the weak form /ə/ in "I am a student"?',
+      options: ['I', 'am', 'a', 'student'],
+      correctAnswer: 'a',
+      explanation: 'The article "a" is pronounced with the weak form /ə/ (schwa sound) before consonants.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q4',
+      type: 'multiple-choice',
+      question: 'How do you pronounce "you are"?',
+      options: ['/juː ɑːr/', '/jɔː ɑːr/', '/juː eər/', '/jəʊ ɑːr/'],
+      correctAnswer: '/juː ɑːr/',
+      explanation: 'The correct pronunciation is /juː ɑːr/. "You" rhymes with "too" and "are" has a long "a" sound.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q5',
+      type: 'true-false',
+      question: 'The contraction "he\'s" can mean both "he is" and "he has".',
+      correctAnswer: 'True',
+      explanation: 'True. "He\'s" can be a contraction of both "he is" (He\'s a teacher) and "he has" (He\'s finished).',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q6',
+      type: 'fill-blank',
+      question: 'Write the contraction: "They are" = ___',
+      correctAnswer: "They're",
+      acceptableAnswers: ["They're", "they're", "Theyre", "theyre"],
+      explanation: 'The contraction of "they are" is "they\'re".',
+      points: 1
+    }
   ]
 };
 
@@ -538,6 +593,7 @@ export const A1_M1_L1_VOCABULARY_1 = {
       question: 'What is a "student"?',
       options: ['A person who teaches', 'A person who studies', 'A person who works', 'A place to learn'],
       correctAnswer: 'A person who studies',
+      explanation: 'A student is someone who learns or studies at school, college, or university.',
       points: 1
     },
     {
@@ -546,6 +602,7 @@ export const A1_M1_L1_VOCABULARY_1 = {
       question: 'What does "friendly" mean?',
       options: ['Angry', 'Sad', 'Kind and nice', 'Tired'],
       correctAnswer: 'Kind and nice',
+      explanation: 'Friendly means being kind, nice, and pleasant to others.',
       points: 1
     },
     {
@@ -553,6 +610,7 @@ export const A1_M1_L1_VOCABULARY_1 = {
       type: 'fill-blank',
       question: 'My ___ is John. (what you are called)',
       correctAnswer: 'name',
+      explanation: 'Your name is what people call you. Example: My name is John.',
       points: 1
     },
     {
@@ -560,6 +618,25 @@ export const A1_M1_L1_VOCABULARY_1 = {
       type: 'fill-blank',
       question: 'I am 30 years old. That is my ___.',
       correctAnswer: 'age',
+      explanation: 'Age tells us how old someone is. Example: I am 30 years old.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q5',
+      type: 'multiple-choice',
+      question: 'What is a "teacher"?',
+      options: ['A person who studies', 'A person who teaches', 'A person who cooks', 'A person who drives'],
+      correctAnswer: 'A person who teaches',
+      explanation: 'A teacher is someone who helps others learn and teaches lessons.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q6',
+      type: 'fill-blank',
+      question: 'I am from Spain. Spain is my ___.',
+      correctAnswer: 'country',
+      acceptableAnswers: ['country', 'Country'],
+      explanation: 'A country is the place where you are from. Example: Spain, Canada, Japan.',
       points: 1
     }
   ]
@@ -571,11 +648,16 @@ export const A1_M1_L1_VOCABULARY_1 = {
 export const A1_M1_L1_VOCABULARY_2 = {
   id: 'a1-m1-l1-vocabulary-2',
   type: 'vocabulary',
-  title: 'Vocabulary Practice',
+  title: 'Vocabulary: Feelings and Emotions',
   vocabularySet: [
-    { word: 'tired', definition: 'needing rest', example: 'I am tired.' },
-    { word: 'excited', definition: 'very happy about something', example: 'We are excited!' },
-    { word: 'sad', definition: 'unhappy', example: 'She is sad today.' }
+    { word: 'tired', definition: 'needing rest', example: 'I am tired after work.' },
+    { word: 'excited', definition: 'very happy about something', example: 'We are excited about the trip!' },
+    { word: 'sad', definition: 'unhappy', example: 'She is sad today.' },
+    { word: 'angry', definition: 'very upset', example: 'He is angry about the news.' },
+    { word: 'surprised', definition: 'feeling unexpected', example: 'I am surprised by the gift!' },
+    { word: 'hungry', definition: 'needing food', example: 'They are hungry for lunch.' },
+    { word: 'busy', definition: 'having a lot to do', example: 'We are busy with homework.' },
+    { word: 'ready', definition: 'prepared', example: 'I am ready for the test.' }
   ],
   questions: [
     {
@@ -583,6 +665,8 @@ export const A1_M1_L1_VOCABULARY_2 = {
       type: 'fill-blank',
       question: 'I need to sleep. I am ___.',
       correctAnswer: 'tired',
+      acceptableAnswers: ['tired', 'Tired'],
+      explanation: 'When you need rest or sleep, you feel tired.',
       points: 1
     },
     {
@@ -590,6 +674,43 @@ export const A1_M1_L1_VOCABULARY_2 = {
       type: 'fill-blank',
       question: 'The birthday party is today! I am ___!',
       correctAnswer: 'excited',
+      acceptableAnswers: ['excited', 'Excited', 'happy', 'Happy'],
+      explanation: 'When something good is happening, you feel excited or happy.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q3',
+      type: 'multiple-choice',
+      question: 'What does "hungry" mean?',
+      options: ['Needing sleep', 'Needing food', 'Needing water', 'Needing rest'],
+      correctAnswer: 'Needing food',
+      explanation: 'Hungry means you need to eat food. Example: I am hungry, let\'s have lunch!',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q4',
+      type: 'multiple-choice',
+      question: 'If you are "ready", you are...',
+      options: ['Tired', 'Prepared', 'Sad', 'Angry'],
+      correctAnswer: 'Prepared',
+      explanation: 'Ready means you are prepared for something. Example: I am ready for the exam.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q5',
+      type: 'fill-blank',
+      question: 'I have a lot of work. I am very ___.',
+      correctAnswer: 'busy',
+      acceptableAnswers: ['busy', 'Busy'],
+      explanation: 'When you have many things to do, you are busy.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q6',
+      type: 'true-false',
+      question: 'If you are "surprised", something unexpected happened.',
+      correctAnswer: 'True',
+      explanation: 'True. Surprised means something happened that you did not expect.',
       points: 1
     }
   ]
