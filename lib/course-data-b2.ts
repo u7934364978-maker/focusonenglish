@@ -5904,6 +5904,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
             options: ['can', 'must', 'should', 'might'],
             correctAnswer: 'must',
             explanation: '"Must" is used for strong logical deductions based on evidence.',
+            hint: 'Modal para deducciones fuertes basadas en evidencia.',
             points: 1
           },
           {
@@ -5912,6 +5913,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
             options: ['can\'t', 'mustn\'t', 'mightn\'t', 'shouldn\'t'],
             correctAnswer: 'mightn\'t',
             explanation: '"Mightn\'t" (might not) expresses uncertainty, which fits the context of initial investigation.',
+            hint: 'Modal negativo que expresa incertidumbre (might not).',
             points: 1
           },
           {
@@ -5920,6 +5922,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
             options: ['shows', 'suggests', 'proves', 'indicates'],
             correctAnswer: 'suggests',
             explanation: '"Suggests" is the correct verb for indicating evidence pointing to a conclusion.',
+            hint: 'Verbo que indica que evidencia apunta a una conclusión.',
             points: 1
           },
           {
@@ -5928,6 +5931,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
             options: ['can\'t', 'shouldn\'t', 'mustn\'t', 'needn\'t'],
             correctAnswer: 'mustn\'t',
             explanation: '"Mustn\'t" means "must not" and expresses prohibition/strong advice not to do something.',
+            hint: 'Prohibición fuerte: no deben hacer algo.',
             points: 1
           },
           {
@@ -5936,6 +5940,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
             options: ['must', 'may', 'should', 'will'],
             correctAnswer: 'may',
             explanation: '"May" expresses possibility, fitting the context that obvious things can be misleading.',
+            hint: 'Modal de posibilidad (puede ser).',
             points: 1
           },
           {
@@ -5944,6 +5949,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
             options: ['mustn\'t', 'can\'t', 'shouldn\'t', 'needn\'t'],
             correctAnswer: 'can\'t',
             explanation: '"Can\'t always be" means "are not always" - expressing impossibility of things always being as they seem.',
+            hint: 'No pueden ser siempre... (imposibilidad).',
             points: 1
           },
           {
@@ -5952,6 +5958,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
             options: ['can', 'must', 'may', 'could'],
             correctAnswer: 'must',
             explanation: '"Must" expresses strong necessity/obligation.',
+            hint: 'Obligación fuerte: deben considerar.',
             points: 1
           },
           {
@@ -5960,6 +5967,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
             options: ['may be', 'can prove', 'must be', 'should be'],
             correctAnswer: 'can prove',
             explanation: '"Can prove" expresses possibility/potential, fitting the context about details being potentially key.',
+            hint: 'Puede probar/resultar ser... (potencial).',
             points: 1
           }
         ],
@@ -7768,6 +7776,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
             options: ['argue', 'claim', 'mention', 'speak'],
             correctAnswer: 'claim',
             explanation: '"Claim" is used for reporting statements without "that" being mandatory, fitting reported speech context.',
+            hint: 'Busca un verbo de reporting que se usa para afirmaciones.',
             points: 1
           },
           {
@@ -7776,6 +7785,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
             options: ['express', 'tell', 'say', 'talk'],
             correctAnswer: 'express',
             explanation: '"Express" collocates with "concern" to mean communicating worry or anxiety.',
+            hint: '¿Qué verbo coloca con "concern"?',
             points: 1
           },
           {
@@ -7784,6 +7794,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
             options: ['think', 'worry', 'believe', 'suppose'],
             correctAnswer: 'worry',
             explanation: '"Worry" is the only option that can be followed by "that" clause in this context.',
+            hint: 'Busca un verbo que expresa preocupación y va seguido de "that".',
             points: 1
           },
           {
@@ -7792,6 +7803,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
             options: ['few', 'not', 'neither', 'none'],
             correctAnswer: 'not',
             explanation: '"Not all" is the correct negative form meaning "some but not all".',
+            hint: 'Forma negativa parcial: "_____ all" = algunos pero no todos.',
             points: 1
           },
           {
@@ -7800,6 +7812,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
             options: ['point', 'show', 'make', 'give'],
             correctAnswer: 'point',
             explanation: '"Point out" is a phrasal verb meaning to highlight or draw attention to something.',
+            hint: 'Phrasal verb: _____ out = señalar, destacar.',
             points: 1
           },
           {
@@ -7808,6 +7821,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
             options: ['stays', 'lies', 'goes', 'comes'],
             correctAnswer: 'lies',
             explanation: '"The key lies in" is the correct collocation meaning "the solution is found in".',
+            hint: 'Collocación fija: "the key _____ in" = la clave está en.',
             points: 1
           },
           {
@@ -7816,6 +7830,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
             options: ['advise', 'suggest', 'recommend', 'propose'],
             correctAnswer: 'advise',
             explanation: '"Advise + person + to infinitive" is the correct pattern.',
+            hint: 'Verbo que va con: _____ + person + to infinitive.',
             points: 1
           },
           {
@@ -7824,6 +7839,7 @@ Today, the expanded Panama Canal can accommodate modern mega-ships and remains o
             options: ['make', 'do', 'set', 'give'],
             correctAnswer: 'set',
             explanation: '"Set an example" is the correct collocation meaning to behave as a model for others.',
+            hint: 'Collocación: _____ an example = dar ejemplo.',
             points: 1
           }
         ],
@@ -8821,6 +8837,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
             options: ['Therefore', 'However', 'Moreover', 'Thus'],
             correctAnswer: 'However',
             explanation: 'However introduce un contraste con la idea anterior.',
+            hint: 'Busca un conector de contraste.',
             points: 1
           },
           {
@@ -8829,6 +8846,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
             options: ['Nevertheless', 'Therefore', 'Similarly', 'Consequently'],
             correctAnswer: 'Nevertheless',
             explanation: 'Nevertheless indica que a pesar del aspecto positivo, hay problemas.',
+            hint: 'A pesar de lo positivo anterior, hay problemas.',
             points: 1
           },
           {
@@ -8837,6 +8855,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
             options: ['Despite', 'Although', 'Because', 'Since'],
             correctAnswer: 'Although',
             explanation: 'Although + clause (Although online learning offers...)',
+            hint: 'Necesitas un conector seguido de clause (sujeto + verbo).',
             points: 1
           },
           {
@@ -8845,6 +8864,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
             options: ['however', 'therefore', 'otherwise', 'moreover'],
             correctAnswer: 'otherwise',
             explanation: 'Otherwise = si no, de lo contrario.',
+            hint: '"Si no" = _____ (una palabra).',
             points: 1
           },
           {
@@ -8853,6 +8873,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
             options: ['Furthermore', 'However', 'Therefore', 'Nevertheless'],
             correctAnswer: 'Furthermore',
             explanation: 'Furthermore añade otro desafío a la lista.',
+            hint: 'Conector que añade información adicional.',
             points: 1
           },
           {
@@ -8861,6 +8882,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
             options: ['Although', 'Despite', 'Because', 'Since'],
             correctAnswer: 'Despite',
             explanation: 'Despite + noun phrase (Despite these challenges)',
+            hint: 'Necesitas un conector seguido de noun phrase (these challenges).',
             points: 1
           },
           {
@@ -8869,6 +8891,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
             options: ['As', 'Although', 'Despite', 'However'],
             correctAnswer: 'As',
             explanation: 'As + clause al principio de oración expresa causa.',
+            hint: 'Conector causal que va al principio de oración.',
             points: 1
           },
           {
@@ -8877,6 +8900,7 @@ Looking back, Sarah said she would do the same thing again. She emphasized that 
             options: ['Therefore', 'However', 'In conclusion', 'Nevertheless'],
             correctAnswer: 'In conclusion',
             explanation: 'In conclusion introduce la conclusión final.',
+            hint: 'Frase que introduce conclusiones finales (2 palabras).',
             points: 1
           }
         ],
