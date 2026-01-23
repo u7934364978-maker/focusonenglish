@@ -5107,6 +5107,16 @@ Critics might {{6}} that watching films or series could provide similar benefits
             explanation: 'Third conditional requires "would have + past participle" in main clause.',
             category: 'Conditionals',
             points: 2
+          },
+          {
+            id: 'ei6',
+            question: 'The protagonist\'s journey is worth to explore in greater depth.',
+            hasError: true,
+            errorWord: 'worth to explore',
+            correction: 'worth exploring',
+            explanation: '"Worth" is followed by a gerund (-ing form), not infinitive with "to".',
+            category: 'Verb patterns',
+            points: 2
           }
         ]
       },
@@ -5115,39 +5125,72 @@ Critics might {{6}} that watching films or series could provide similar benefits
         type: 'paraphrasing',
         title: 'Paraphrasing: Critical Analysis',
         instructions: 'Rewrite each sentence using different vocabulary and structures while maintaining the same meaning.',
-        sentences: [
+        items: [
           {
             id: 'p1',
-            original: 'The novel\'s complex narrative structure makes it challenging for casual readers.',
-            sampleParaphrases: [
-              'Casual readers may find the novel difficult due to its intricate way of telling the story.',
-              'The intricate way the story is told presents a challenge to readers seeking light entertainment.',
-              'Because of its complicated narrative approach, the book is not easily accessible to all readers.'
+            originalSentence: 'The novel\'s complex narrative structure makes it challenging for casual readers.',
+            correctParaphrase: 'Casual readers may find the novel difficult due to its intricate way of telling the story',
+            alternatives: [
+              'The intricate way the story is told presents a challenge to readers seeking light entertainment',
+              'Because of its complicated narrative approach, the book is not easily accessible to all readers'
             ],
-            keyVocabulary: ['complex → intricate/complicated', 'narrative structure → way of telling the story', 'challenging → difficult/not easily accessible'],
-            points: 3
+            explanation: 'Key vocabulary changes: complex → intricate/complicated, narrative structure → way of telling the story, challenging → difficult/not easily accessible.',
+            points: 2
           },
           {
             id: 'p2',
-            original: 'The author\'s vivid descriptions bring the historical setting to life.',
-            sampleParaphrases: [
-              'Through detailed imagery, the writer makes the historical period feel real and immediate.',
-              'The historical context becomes vividly real thanks to the author\'s descriptive skill.',
-              'Readers can almost experience the historical era due to the writer\'s rich portrayals.'
+            originalSentence: 'The author\'s vivid descriptions bring the historical setting to life.',
+            correctParaphrase: 'Through detailed imagery, the writer makes the historical period feel real and immediate',
+            alternatives: [
+              'The historical context becomes vividly real thanks to the author\'s descriptive skill',
+              'Readers can almost experience the historical era due to the writer\'s rich portrayals'
             ],
-            keyVocabulary: ['vivid descriptions → detailed imagery/rich portrayals', 'bring to life → make feel real/become vividly real'],
-            points: 3
+            explanation: 'Key vocabulary changes: vivid descriptions → detailed imagery/rich portrayals, bring to life → make feel real/become vividly real.',
+            points: 2
           },
           {
             id: 'p3',
-            original: 'What distinguishes this work from others in the genre is its psychological depth.',
-            sampleParaphrases: [
-              'This work stands out within its genre because of its profound exploration of psychology.',
-              'The profound psychological insight sets this piece apart from similar works.',
-              'Unlike other works in the same category, this one offers exceptional psychological complexity.'
+            originalSentence: 'What distinguishes this work from others in the genre is its psychological depth.',
+            correctParaphrase: 'This work stands out within its genre because of its profound exploration of psychology',
+            alternatives: [
+              'The profound psychological insight sets this piece apart from similar works',
+              'Unlike other works in the same category, this one offers exceptional psychological complexity'
             ],
-            keyVocabulary: ['distinguishes → stands out/sets apart', 'psychological depth → profound exploration of psychology/psychological complexity'],
-            points: 3
+            explanation: 'Key vocabulary changes: distinguishes → stands out/sets apart, psychological depth → profound exploration of psychology/psychological complexity.',
+            points: 2
+          },
+          {
+            id: 'p4',
+            originalSentence: 'The character\'s moral ambiguity makes him one of the most memorable protagonists in recent fiction.',
+            correctParaphrase: 'He is one of recent fiction\'s most memorable protagonists due to his morally ambiguous nature',
+            alternatives: [
+              'The fact that the character is morally ambiguous contributes to making him a memorable protagonist',
+              'His lack of clear moral stance is what makes this character so memorable in contemporary literature'
+            ],
+            explanation: 'Key vocabulary changes: moral ambiguity → morally ambiguous/lack of clear moral stance, recent fiction → contemporary literature.',
+            points: 2
+          },
+          {
+            id: 'p5',
+            originalSentence: 'Critics argue that the film fails to capture the essence of the original novel.',
+            correctParaphrase: 'According to critics, the film does not successfully convey what makes the original novel special',
+            alternatives: [
+              'The essence of the source material is lost in the film adaptation, according to critics',
+              'Many critics believe the film misses the core qualities that define the original book'
+            ],
+            explanation: 'Key vocabulary changes: argue → according to/believe, fails to capture → does not successfully convey/is lost, essence → what makes special/core qualities.',
+            points: 2
+          },
+          {
+            id: 'p6',
+            originalSentence: 'The novelist skillfully weaves multiple storylines into a coherent narrative.',
+            correctParaphrase: 'Multiple storylines are skillfully integrated by the novelist to create a unified story',
+            alternatives: [
+              'The author demonstrates great skill in combining various plot threads into one cohesive narrative',
+              'Several narrative strands are expertly brought together to form a coherent whole'
+            ],
+            explanation: 'Key vocabulary changes: weaves → integrates/brings together, multiple storylines → various plot threads/narrative strands, coherent → unified/cohesive.',
+            points: 2
           }
         ]
       },
@@ -5236,7 +5279,8 @@ Critics might {{6}} that watching films or series could provide similar benefits
             type: 'fill-blank',
             question: 'The critic _____ the historical context to support her interpretation.',
             correctAnswer: 'drew on',
-            points: 2
+            explanation: '"Draw on" significa usar algo como fuente o recurso.',
+            points: 1
           },
           {
             id: 'pv2',
@@ -5244,7 +5288,42 @@ Critics might {{6}} that watching films or series could provide similar benefits
             question: 'Choose the correct phrasal verb: The novel _____ themes of loss and redemption.',
             options: ['delves into', 'takes in', 'spells out', 'comes across'],
             correctAnswer: 'delves into',
-            points: 2
+            explanation: '"Delve into" significa explorar o examinar algo profundamente.',
+            points: 1
+          },
+          {
+            id: 'pv3',
+            type: 'fill-blank',
+            question: 'The exhibition was overwhelming—it took me hours to _____ everything.',
+            correctAnswer: 'take in',
+            explanation: '"Take in" significa absorber o comprender información, arte o atmósfera.',
+            points: 1
+          },
+          {
+            id: 'pv4',
+            type: 'multiple-choice',
+            question: 'The protagonist _____ as confident at first, but later we see her insecurities.',
+            options: ['comes across', 'delves into', 'draws on', 'spells out'],
+            correctAnswer: 'comes across',
+            explanation: '"Come across" significa aparecer o parecer (dar cierta impresión).',
+            points: 1
+          },
+          {
+            id: 'pv5',
+            type: 'fill-blank',
+            question: 'The author doesn\'t _____ the message; readers must interpret it themselves.',
+            correctAnswer: 'spell out',
+            explanation: '"Spell out" significa explicar algo clara y detalladamente.',
+            points: 1
+          },
+          {
+            id: 'pv6',
+            type: 'multiple-choice',
+            question: 'I _____ this rare edition in a second-hand bookshop last week.',
+            options: ['came across', 'took in', 'drew on', 'delved into'],
+            correctAnswer: 'came across',
+            explanation: '"Come across" también significa encontrar algo por casualidad.',
+            points: 1
           }
         ]
       },
@@ -5297,17 +5376,66 @@ Critics might {{6}} that watching films or series could provide similar benefits
             culturalNote: 'From French "l\'art pour l\'art"'
           }
         ],
-        exercises: [
+        items: [
           {
             id: 'id1',
-            type: 'matching',
-            instruction: 'Match each idiom to its meaning',
-            pairs: [
-              { idiom: 'page-turner', meaning: 'very exciting book' },
-              { idiom: 'read between the lines', meaning: 'find hidden meaning' },
-              { idiom: 'strike a chord', meaning: 'resonate emotionally' }
-            ],
-            points: 3
+            context: 'The novel is so gripping that once you start, you can\'t stop.',
+            idiom: 'a page-turner',
+            meaning: 'a book that is so exciting you want to keep reading',
+            correctUsage: 'This thriller is a real page-turner—I finished it in one sitting',
+            options: ['a page-turner', 'food for thought', 'ahead of its time', 'art for art\'s sake'],
+            explanation: 'A page-turner es un libro tan emocionante que quieres seguir leyendo.',
+            points: 1
+          },
+          {
+            id: 'id2',
+            context: 'The author doesn\'t state it directly, but you can understand the deeper criticism.',
+            idiom: 'read between the lines',
+            meaning: 'to understand the hidden or implied meaning',
+            correctUsage: 'You need to read between the lines to understand what she really means',
+            options: ['read between the lines', 'strike a chord', 'a page-turner', 'food for thought'],
+            explanation: 'Read between the lines significa entender el significado oculto o implícito.',
+            points: 1
+          },
+          {
+            id: 'id3',
+            context: 'The film\'s message about family resonated deeply with audiences.',
+            idiom: 'strike a chord (with someone)',
+            meaning: 'to cause someone to feel sympathy or enthusiasm',
+            correctUsage: 'The story struck a chord with readers who had similar experiences',
+            options: ['strike a chord', 'read between the lines', 'ahead of its time', 'a page-turner'],
+            explanation: 'Strike a chord significa causar que alguien sienta simpatía o entusiasmo; resonar emocionalmente.',
+            points: 1
+          },
+          {
+            id: 'id4',
+            context: 'The essay doesn\'t give answers but makes you reflect deeply.',
+            idiom: 'food for thought',
+            meaning: 'something that makes you think seriously',
+            correctUsage: 'The documentary provides plenty of food for thought about climate change',
+            options: ['food for thought', 'a page-turner', 'art for art\'s sake', 'strike a chord'],
+            explanation: 'Food for thought es algo que te hace pensar seriamente; alimento para la reflexión.',
+            points: 1
+          },
+          {
+            id: 'id5',
+            context: 'When it was published in 1950, critics didn\'t appreciate its innovative style.',
+            idiom: 'ahead of its/his/her time',
+            meaning: 'having ideas too advanced or modern for the period',
+            correctUsage: 'The artist was ahead of her time—her work is only now being recognized',
+            options: ['ahead of its time', 'food for thought', 'a page-turner', 'read between the lines'],
+            explanation: 'Ahead of its time significa tener ideas demasiado avanzadas para la época; visionario.',
+            points: 1
+          },
+          {
+            id: 'id6',
+            context: 'The filmmaker creates beauty without any commercial or moral message.',
+            idiom: 'art for art\'s sake',
+            meaning: 'the belief that art should be valued for its own beauty, not for social or moral purposes',
+            correctUsage: 'She\'s a true believer in art for art\'s sake, not commercial success',
+            options: ['art for art\'s sake', 'ahead of its time', 'strike a chord', 'food for thought'],
+            explanation: 'Art for art\'s sake significa que el arte debe valorarse por su belleza propia, no por propósitos sociales o morales.',
+            points: 1
           }
         ]
       },
