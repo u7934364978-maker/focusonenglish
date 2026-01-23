@@ -1302,6 +1302,176 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       case 'pronunciation':
         const pronExercise = currentExercise as any;
+        
+        // Check if this is an A1-style pronunciation exercise with targetSentences and questions
+        if (pronExercise.targetSentences && pronExercise.questions) {
+          return (
+            <div className="space-y-6">
+              {/* Header */}
+              <div className="bg-orange-50 rounded-xl p-6 border-2 border-orange-200">
+                <h3 className="text-xl font-bold text-orange-900 mb-2 flex items-center gap-2">
+                  <span>🗣️</span>
+                  <span>{pronExercise.title}</span>
+                </h3>
+                {pronExercise.instructions && (
+                  <p className="text-slate-700 mt-2">💡 {pronExercise.instructions}</p>
+                )}
+                {pronExercise.focusPoints && pronExercise.focusPoints.length > 0 && (
+                  <div className="mt-3">
+                    <p className="text-sm font-semibold text-orange-800 mb-2">Focus Points:</p>
+                    <div className="space-y-1">
+                      {pronExercise.focusPoints.map((point: string, idx: number) => (
+                        <div key={idx} className="text-sm text-orange-700">
+                          • {point}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* Target Sentences with Audio */}
+              <div className="space-y-4">
+                <h4 className="text-lg font-bold text-slate-900">🎧 Listen and Repeat:</h4>
+                {pronExercise.targetSentences.map((item: any, idx: number) => (
+                  <div key={idx} className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                    <div className="flex items-start gap-3">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-orange-600 text-white font-bold text-sm flex-shrink-0">
+                        {idx + 1}
+                      </span>
+                      <div className="flex-1 space-y-3">
+                        <p className="text-lg font-semibold text-slate-900">{item.text || item.sentence}</p>
+                        {item.phonetic && (
+                          <p className="text-sm text-orange-700 font-mono">{item.phonetic}</p>
+                        )}
+                        {item.audioUrl && (
+                          <audio 
+                            controls 
+                            className="w-full mt-2"
+                            preload="metadata"
+                          >
+                            <source src={item.audioUrl} type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                          </audio>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Questions */}
+              {pronExercise.questions && pronExercise.questions.length > 0 && (
+                <div className="space-y-4">
+                  <h4 className="text-lg font-bold text-slate-900">📝 Pronunciation Questions:</h4>
+                  {pronExercise.questions.map((q: any, idx: number) => (
+                    <div key={q.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
+                      <p className="font-semibold text-slate-900 mb-3">
+                        {idx + 1}. {q.question} <span className="text-sm text-coral-600">({q.points} point{q.points !== 1 ? 's' : ''})</span>
+                      </p>
+                      
+                      {q.type === 'multiple-choice' && (
+                        <div className="space-y-2">
+                          {q.options.map((option: string, optIdx: number) => (
+                            <label key={optIdx} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer">
+                              <input
+                                type="radio"
+                                name={q.id}
+                                value={option}
+                                checked={answers[q.id] === option}
+                                onChange={(e) => handleAnswer(q.id, e.target.value)}
+                                disabled={showFeedback}
+                                className="w-4 h-4"
+                              />
+                              <span>{option}</span>
+                            </label>
+                          ))}
+                        </div>
+                      )}
+
+                      {q.type === 'true-false' && (
+                        <div className="space-y-2">
+                          {['True', 'False'].map((option: string) => (
+                            <label key={option} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer">
+                              <input
+                                type="radio"
+                                name={q.id}
+                                value={option}
+                                checked={answers[q.id] === option}
+                                onChange={(e) => handleAnswer(q.id, e.target.value)}
+                                disabled={showFeedback}
+                                className="w-4 h-4"
+                              />
+                              <span>{option}</span>
+                            </label>
+                          ))}
+                        </div>
+                      )}
+
+                      {q.type === 'fill-blank' && (
+                        <input
+                          type="text"
+                          value={answers[q.id] || ''}
+                          onChange={(e) => handleAnswer(q.id, e.target.value)}
+                          disabled={showFeedback}
+                          placeholder="Type your answer here..."
+                          className="w-full px-4 py-3 rounded-lg border-2 border-slate-300 focus:border-coral-500 focus:ring-2 focus:ring-coral-200 transition-all disabled:bg-slate-100"
+                        />
+                      )}
+
+                      {showFeedback && (
+                        <div className={`mt-3 p-3 rounded-lg ${
+                          answers[q.id] === q.correctAnswer || 
+                          (q.acceptableAnswers && q.acceptableAnswers.some((ans: string) => 
+                            ans.toLowerCase() === (answers[q.id] || '').toLowerCase()
+                          ))
+                            ? 'bg-green-50 border-2 border-green-200'
+                            : 'bg-red-50 border-2 border-red-200'
+                        }`}>
+                          <p className="font-semibold mb-1">
+                            {answers[q.id] === q.correctAnswer || 
+                            (q.acceptableAnswers && q.acceptableAnswers.some((ans: string) => 
+                              ans.toLowerCase() === (answers[q.id] || '').toLowerCase()
+                            ))
+                              ? '✓ Correct!' 
+                              : '✗ Incorrect'}
+                          </p>
+                          <p className="text-sm">
+                            <strong>Correct answer:</strong> {q.correctAnswer}
+                          </p>
+                          {q.explanation && (
+                            <p className="text-sm mt-2">
+                              <strong>Explanation:</strong> {q.explanation}
+                            </p>
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+
+                  {!showFeedback && (
+                    <button
+                      onClick={checkAnswers}
+                      disabled={evaluating}
+                      className="w-full px-6 py-4 bg-coral-600 text-white rounded-xl hover:bg-coral-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      {evaluating ? (
+                        <>
+                          <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                          <span>Evaluating...</span>
+                        </>
+                      ) : (
+                        'Check Answers'
+                      )}
+                    </button>
+                  )}
+                </div>
+              )}
+            </div>
+          );
+        }
+
+        // Otherwise, use the B2-style PronunciationPractice component
         return (
           <div className="space-y-6">
             <PronunciationPractice
