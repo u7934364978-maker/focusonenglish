@@ -15595,7 +15595,7 @@ The remote work revolution represents more than just a change in where we workâ€
         readingTime: 5,
         questions: [
           {
-            id: '',
+            id: 'b2-m3-l6-reading-1-q1',
             type: 'true-false',
             question: 'The correct answer is "6%" for: What percentage of companies are now fully remote according to the text?',
             correctAnswer: 'False',
@@ -15603,7 +15603,7 @@ The remote work revolution represents more than just a change in where we workâ€
             points: 1
           },
           {
-            id: 'q2',
+            id: 'b2-m3-l6-reading-1-q2',
             type: 'short-answer',
             question: 'Name TWO benefits of remote work for employees mentioned in the text.',
             correctAnswer: 'Flexibility, eliminate commuting, relocate to affordable areas, design own schedule, optimized environment',
@@ -15611,7 +15611,7 @@ The remote work revolution represents more than just a change in where we workâ€
             points: 2
           },
           {
-            id: 'q3',
+            id: 'b2-m3-l6-reading-1-q3',
             type: 'true-false',
             question: 'True or False: All workers feel positive about remote work.',
             correctAnswer: 'False',
@@ -15619,7 +15619,7 @@ The remote work revolution represents more than just a change in where we workâ€
             points: 1
           },
           {
-            id: '',
+            id: 'b2-m3-l6-reading-1-q4',
             type: 'short-answer',
             question: 'What does "asynchronous communication" mean according to the text?',
             correctAnswer: 'Responding on own schedule',
@@ -15627,7 +15627,7 @@ The remote work revolution represents more than just a change in where we workâ€
             points: 3
           },
           {
-            id: 'q5',
+            id: 'b2-m3-l6-reading-1-q5',
             type: 'short-answer',
             question: 'According to experts, what will offices become in the future?',
             correctAnswer: 'Spaces for meetings, team-building, and collaborative projects rather than individual work',
@@ -15635,7 +15635,7 @@ The remote work revolution represents more than just a change in where we workâ€
             points: 2
           },
           {
-            id: '',
+            id: 'b2-m3-l6-reading-1-q6',
             type: 'fill-blank',
             sentence: 'Which skills are mentioned as critical for remote work success. Answer: ___',
             correctAnswer: 'Self-motivation and time management',
@@ -15662,7 +15662,7 @@ Dr. Martinez: Thank you for having me. The most significant shift we're witnessi
 [Interview continues with comprehensive content covering education, technology, challenges, solutions, and future predictions...]`,
         questions: [
           {
-            id: '',
+            id: 'b2-m3-l6-listening-1-q1',
             type: 'true-false',
             question: 'The correct answer is "Personalized learning" for: What is the most significant shift in education according to Dr. Martinez?',
             correctAnswer: 'True',

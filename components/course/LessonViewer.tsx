@@ -177,7 +177,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       setEvaluating(false);
       
     } else if (currentExercise.type === 'key-word-transformation') {
-      const transformations = currentExercise.transformations;
+      const transformations = currentExercise.transformations || currentExercise.questions || [];
       let totalPoints = 0;
       let earnedPoints = 0;
       const evaluations: { [transformationId: string]: EvaluationResult } = {};
