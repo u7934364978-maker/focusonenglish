@@ -2,6 +2,9 @@
 // Replicando la estructura del curso B2 pero adaptado a nivel principiante
 // CEFR A1: Usuario Básico - Nivel Breakthrough
 
+// Import detailed exercises
+import { A1_M1_L1_ALL_EXERCISES } from './a1-m1-l1-detailed';
+
 export type ExerciseType = 
   | 'reading'
   | 'writing'
@@ -166,100 +169,9 @@ export const MODULE_1_LESSONS: Lesson[] = [
   {
     id: 'a1-m1-l1',
     title: 'Lección 1: Verb To Be - I am, You are',
-    description: 'Practice Verb to be with comprehensive exercises',
+    description: 'Learn the verb "to be" in present simple with comprehensive exercises',
     duration: 90, // minutes
-    exercises: [
-      {
-        id: 'a1-m1-l1-grammar-1',
-        type: 'grammar',
-        title: 'Verb to be - Formation and Use',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l1-grammar-2',
-        type: 'grammar',
-        title: 'Verb to be - Practice Exercises',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l1-reading-1',
-        type: 'reading',
-        title: 'Reading: Lección 1: Verb To Be - I am, You are',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l1-listening-1',
-        type: 'listening',
-        title: 'Listening: Lección 1: Verb To Be - I am, You are',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l1-speaking-1',
-        type: 'speaking',
-        title: 'Speaking Practice: Lección 1: Verb To Be - I am, You are',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l1-writing-1',
-        type: 'writing',
-        title: 'Writing: Lección 1: Verb To Be - I am, You are',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l1-pronunciation-1',
-        type: 'pronunciation-practice',
-        title: 'Pronunciation: Verb to be',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l1-vocabulary-1',
-        type: 'vocabulary',
-        title: 'Vocabulary: Lección 1: Verb To Be - I am, You are',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l1-vocabulary-2',
-        type: 'vocabulary',
-        title: 'Vocabulary Practice',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l1-fill-blanks-1',
-        type: 'fill-in-blanks',
-        title: 'Complete the Sentences - Verb to be',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l1-multiple-choice-1',
-        type: 'multiple-choice',
-        title: 'Multiple Choice: Verb to be',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l1-matching-1',
-        type: 'matching',
-        title: 'Match Words and Meanings',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l1-sentence-building-1',
-        type: 'sentence-building',
-        title: 'Build Sentences - Verb to be',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l1-true-false-1',
-        type: 'true-false',
-        title: 'True or False: Lección 1: Verb To Be - I am, You are',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l1-dialogue-1',
-        type: 'dialogue-practice',
-        title: 'Dialogue Practice: Lección 1: Verb To Be - I am, You are',
-        // Content will be added in future updates
-      } as Exercise,
-    ]
+    exercises: A1_M1_L1_ALL_EXERCISES
   },
   {
     id: 'a1-m1-l2',
