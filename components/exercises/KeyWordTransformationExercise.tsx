@@ -9,14 +9,16 @@ import { CheckCircle2, XCircle, Key, Target, RotateCcw, Lightbulb } from 'lucide
 
 interface KeyWordTransformation {
   id: string;
-  number: number;
-  sentenceA: string;
+  number?: number;
+  question?: string;  // Original sentence (alternative field)
+  sentence?: string;   // Original sentence (alternative field)
   keyWord: string;
-  sentenceB: string;
+  startOfAnswer: string;  // The beginning of the transformed sentence
   correctAnswer: string;
   acceptableAnswers?: string[];
   explanation: string;
-  category: string;
+  category?: string;
+  points?: number;
 }
 
 interface KeyWordTransformationExerciseProps {
@@ -207,7 +209,7 @@ export default function KeyWordTransformationExercise({ exercise, onComplete }: 
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <Badge variant="outline" className="text-lg">
-                    Question {transformation.number}
+                    Question {transformation.number || idx + 1}
                   </Badge>
                   {showFeedback && (
                     <Badge 
@@ -226,7 +228,8 @@ export default function KeyWordTransformationExercise({ exercise, onComplete }: 
               <CardContent className="space-y-4">
                 {/* Original Sentence */}
                 <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-                  <p className="text-gray-800 font-medium">{transformation.sentenceA}</p>
+                  <p className="text-sm text-gray-600 mb-1 font-semibold">Original sentence:</p>
+                  <p className="text-gray-800 font-medium">{transformation.question || transformation.sentence}</p>
                 </div>
 
                 {/* Key Word */}
@@ -238,10 +241,11 @@ export default function KeyWordTransformationExercise({ exercise, onComplete }: 
 
                 {/* Transformation Input */}
                 <div className="space-y-2">
+                  <p className="text-sm text-gray-600 font-semibold">Complete the sentence:</p>
                   <div className="bg-white p-4 rounded-lg border-2 border-gray-300">
-                    <div className="flex items-start gap-2">
-                      <span className="text-gray-700 font-medium">The</span>
-                      <div className="flex-1">
+                    <div className="flex items-start gap-2 flex-wrap">
+                      <span className="text-gray-700 font-medium">{transformation.startOfAnswer}</span>
+                      <div className="flex-1 min-w-[200px]">
                         <Input
                           type="text"
                           value={userAnswer}
@@ -257,9 +261,6 @@ export default function KeyWordTransformationExercise({ exercise, onComplete }: 
                           }`}
                         />
                       </div>
-                      <span className="text-gray-700 font-medium">
-                        {transformation.sentenceB}
-                      </span>
                     </div>
                   </div>
 
