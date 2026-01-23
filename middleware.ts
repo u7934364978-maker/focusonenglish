@@ -36,7 +36,7 @@ function isB2CourseRoute(pathname: string): boolean {
 }
 
 function isPublicRoute(pathname: string): boolean {
-  return PUBLIC_ROUTES.has(pathname) || isBlogRoute(pathname) || isB2CourseRoute(pathname) || pathname.startsWith('/api/webhooks');
+  return PUBLIC_ROUTES.has(pathname) || isBlogRoute(pathname) || isB2CourseRoute(pathname) || pathname.startsWith('/api/webhooks') || pathname.startsWith('/audio/');
 }
 
 function requiresAuthOnly(pathname: string): boolean {
