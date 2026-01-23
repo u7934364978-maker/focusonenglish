@@ -44,6 +44,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   const [currentScore, setCurrentScore] = useState(0);
   const [recordedAudio, setRecordedAudio] = useState<{ blob: Blob; transcript: string } | null>(null);
   const [pronunciationFeedback, setPronunciationFeedback] = useState<any>(null);
+  const [pronunciationRecordings, setPronunciationRecordings] = useState<{ [index: number]: { blob: Blob; transcript: string; evaluation?: any } }>({});
   const [aiEvaluations, setAiEvaluations] = useState<{ [questionId: string]: EvaluationResult }>({});
   const [evaluating, setEvaluating] = useState(false);
   
@@ -1303,6 +1304,70 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'pronunciation':
         const pronExercise = currentExercise as any;
         
+        // Function to evaluate pronunciation recordings
+        const evaluatePronunciationRecordings = async () => {
+          setEvaluating(true);
+          
+          try {
+            const recordingsArray = Object.entries(pronunciationRecordings);
+            if (recordingsArray.length === 0) {
+              alert('Please record at least one sentence before evaluating.');
+              setEvaluating(false);
+              return;
+            }
+
+            // Evaluate each recording
+            for (const [idxStr, recording] of recordingsArray) {
+              const idx = parseInt(idxStr);
+              const targetSentence = pronExercise.targetSentences[idx];
+              
+              if (!recording.evaluation) {
+                const response = await fetch('/api/evaluate-speaking', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify({
+                    transcript: recording.transcript,
+                    expectedText: targetSentence.text || targetSentence.sentence,
+                    exerciseType: 'pronunciation',
+                    level: currentLevel
+                  }),
+                });
+
+                if (!response.ok) {
+                  throw new Error('Failed to evaluate pronunciation');
+                }
+
+                const data = await response.json();
+                
+                if (data.success && data.evaluation) {
+                  setPronunciationRecordings(prev => ({
+                    ...prev,
+                    [idx]: {
+                      ...prev[idx],
+                      evaluation: data.evaluation
+                    }
+                  }));
+                }
+              }
+            }
+
+            // Calculate overall pronunciation score
+            const evaluatedRecordings = Object.values(pronunciationRecordings).filter(r => r.evaluation);
+            if (evaluatedRecordings.length > 0) {
+              const avgScore = evaluatedRecordings.reduce((sum, r) => sum + (r.evaluation?.overallScore || 0), 0) / evaluatedRecordings.length;
+              setExerciseScores(prev => ({ ...prev, [currentExercise.id]: avgScore }));
+            }
+
+          } catch (error) {
+            console.error('Error evaluating pronunciation:', error);
+            alert('Error evaluating pronunciation. Please try again.');
+          } finally {
+            setEvaluating(false);
+          }
+        };
+        
         // Check if this is an A1-style pronunciation exercise with targetSentences and questions
         if (pronExercise.targetSentences && pronExercise.questions) {
           return (
@@ -1345,20 +1410,85 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                           <p className="text-sm text-orange-700 font-mono">{item.phonetic}</p>
                         )}
                         {item.audioUrl && (
-                          <audio 
-                            controls 
-                            className="w-full mt-2"
-                            preload="metadata"
-                          >
-                            <source src={item.audioUrl} type="audio/mpeg" />
-                            Your browser does not support the audio element.
-                          </audio>
+                          <div className="space-y-2">
+                            <p className="text-sm font-semibold text-slate-700">🎧 Listen to the model:</p>
+                            <audio 
+                              controls 
+                              className="w-full"
+                              preload="metadata"
+                            >
+                              <source src={item.audioUrl} type="audio/mpeg" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </div>
                         )}
+                        <div className="pt-2">
+                          <p className="text-sm font-semibold text-slate-700 mb-2">🎤 Now you try:</p>
+                          <EnhancedVoiceRecorder
+                            targetText={item.text || item.sentence}
+                            onRecordingComplete={(blob, transcript) => {
+                              setPronunciationRecordings(prev => ({
+                                ...prev,
+                                [idx]: { blob, transcript }
+                              }));
+                            }}
+                          />
+                          {pronunciationRecordings[idx] && (
+                            <div className="mt-3 p-3 bg-blue-50 rounded-lg border border-blue-200">
+                              <p className="text-sm text-blue-900">
+                                <strong>Your recording:</strong> "{pronunciationRecordings[idx].transcript}"
+                              </p>
+                              {pronunciationRecordings[idx].evaluation && (
+                                <div className="mt-2">
+                                  <div className="flex items-center gap-2 mb-2">
+                                    <span className="text-sm font-semibold">Score:</span>
+                                    <div className="flex-1 bg-gray-200 rounded-full h-2">
+                                      <div 
+                                        className="bg-green-500 h-2 rounded-full transition-all"
+                                        style={{ width: `${pronunciationRecordings[idx].evaluation.overallScore}%` }}
+                                      ></div>
+                                    </div>
+                                    <span className="text-sm font-bold">{pronunciationRecordings[idx].evaluation.overallScore}%</span>
+                                  </div>
+                                  <p className="text-xs text-slate-600 mt-1">
+                                    {pronunciationRecordings[idx].evaluation.feedback}
+                                  </p>
+                                </div>
+                              )}
+                            </div>
+                          )}
+                        </div>
                       </div>
                     </div>
                   </div>
                 ))}
               </div>
+
+              {/* Evaluate Pronunciation Button */}
+              {Object.keys(pronunciationRecordings).length > 0 && (
+                <button
+                  onClick={evaluatePronunciationRecordings}
+                  disabled={evaluating || Object.values(pronunciationRecordings).every(r => r.evaluation)}
+                  className="w-full px-6 py-4 bg-orange-600 text-white rounded-xl hover:bg-orange-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {evaluating ? (
+                    <>
+                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                      <span>Evaluating Pronunciation...</span>
+                    </>
+                  ) : Object.values(pronunciationRecordings).every(r => r.evaluation) ? (
+                    <>
+                      <span>✓</span>
+                      <span>Pronunciation Evaluated</span>
+                    </>
+                  ) : (
+                    <>
+                      <span>🎯</span>
+                      <span>Evaluate My Pronunciation</span>
+                    </>
+                  )}
+                </button>
+              )}
 
               {/* Questions */}
               {pronExercise.questions && pronExercise.questions.length > 0 && (
