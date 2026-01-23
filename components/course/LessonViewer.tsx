@@ -836,7 +836,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             {/* Questions */}
             <div className="space-y-4">
               <h4 className="text-lg font-bold text-slate-900">Practice Questions:</h4>
-              {currentExercise.questions.map((question, idx) => (
+              {(currentExercise.questions || []).map((question, idx) => (
                 <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
                   <p className="font-semibold text-slate-900 mb-3">
                     {idx + 1}. {question.question} <span className="text-sm text-coral-600">({question.points} {question.points === 1 ? 'point' : 'points'})</span>
@@ -998,7 +998,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             {/* Reading Questions - Scrollable */}
             <div className="space-y-4">
               <h4 className="text-lg font-bold text-slate-900">Comprehension Questions:</h4>
-              {currentExercise.questions.map((question, idx) => (
+              {(currentExercise.questions || []).map((question, idx) => (
                 <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
                   <p className="font-semibold text-slate-900 mb-3">
                     {idx + 1}. {question.question} <span className="text-sm text-coral-600">({question.points} points)</span>
@@ -1431,7 +1431,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             {/* Listening Questions - Scrollable */}
             <div className="space-y-4">
               <h4 className="text-lg font-bold text-slate-900">Listening Comprehension Questions:</h4>
-              {currentExercise.questions.map((question, idx) => (
+              {(currentExercise.questions || []).map((question, idx) => (
                 <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
                   <p className="font-semibold text-slate-900 mb-3">
                     {idx + 1}. {question.question} <span className="text-sm text-coral-600">({question.points} points)</span>
@@ -1798,7 +1798,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             {/* Questions */}
             <div className="space-y-4">
               <h4 className="text-lg font-bold text-slate-900">Completa los huecos:</h4>
-              {currentExercise.questions.map((question: any, idx: number) => (
+              {(currentExercise.questions || []).map((question: any, idx: number) => (
                 <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
                   <div className="space-y-4">
                     <div className="flex items-center justify-between">
@@ -1954,7 +1954,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             {/* Questions - Scrollable */}
             <div className="space-y-4">
               <h4 className="text-lg font-bold text-slate-900">Elige las palabras correctas:</h4>
-              {currentExercise.questions.map((question: any, idx: number) => (
+              {(currentExercise.questions || []).map((question: any, idx: number) => (
                 <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
                   <p className="font-semibold text-slate-900 mb-3">
                     Hueco {question.gapNumber}: <span className="text-sm text-coral-600">({question.points} {question.points === 1 ? 'punto' : 'puntos'})</span>
@@ -2143,6 +2143,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       case 'gap-fill-text':
         const gapFillExercise = currentExercise as any;
+        const gapFillGaps = gapFillExercise.gaps || [];
         return (
           <div className="space-y-6">
             {/* Instructions */}
@@ -2163,7 +2164,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                   const gapMatch = part.match(/\{\{(\d+)\}\}/);
                   if (gapMatch) {
                     const gapNum = parseInt(gapMatch[1]);
-                    const gap = gapFillExercise.gaps.find((g: any) => g.gapNumber === gapNum);
+                    const gap = gapFillGaps.find((g: any) => g.gapNumber === gapNum);
                     if (!gap) return part;
                     
                     const isAnswered = !!answers[gap.id];
@@ -2205,7 +2206,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             {showFeedback && (
               <div className="space-y-3">
                 <h4 className="text-lg font-bold text-slate-900">📊 Detailed Feedback:</h4>
-                {gapFillExercise.gaps.map((gap: any) => {
+                {gapFillGaps.map((gap: any) => {
                   const userAnswer = answers[gap.id] || '';
                   const evaluation = aiEvaluations[gap.id];
                   const isCorrect = evaluation?.isCorrect;
@@ -3308,6 +3309,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'extended-gap-fill':
       case 'open-cloze':
         const gapExercise = currentExercise as any;
+        const gapExerciseGaps = gapExercise.gaps || [];
         
         // Handle gap-fill exercises with sentences format (not text-based)
         if (gapExercise.sentences && !gapExercise.text) {
@@ -3406,7 +3408,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                   const gapMatch = part.match(/\((\d+)\)___+/);
                   if (gapMatch) {
                     const gapNum = parseInt(gapMatch[1]);
-                    const gap = gapExercise.gaps.find((g: any) => (g.id === gapNum || g.id === `gap${gapNum}`));
+                    const gap = gapExerciseGaps.find((g: any) => (g.id === gapNum || g.id === `gap${gapNum}`));
                     const gapId = gap?.id || `gap-${gapNum}`;
                     const userAnswer = answers[gapId] || '';
                     const isCorrect = aiEvaluations[gapId]?.isCorrect;
@@ -3438,7 +3440,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
               {showFeedback && (
                 <div className="mt-6 space-y-3">
-                  {gapExercise.gaps.map((gap: any, idx: number) => {
+                  {gapExerciseGaps.map((gap: any, idx: number) => {
                     const gapId = gap.id || `gap-${idx + 1}`;
                     const userAnswer = answers[gapId] || '';
                     const correctAnswers = gap.correctAnswers || [gap.correctAnswer];
@@ -3586,6 +3588,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       case 'key-word-transformations':
         const kwtExercise = currentExercise as any;
+        const kwtTransformations = kwtExercise.transformations || kwtExercise.questions || [];
         return (
           <div className="space-y-6">
             <div className="bg-rose-50 rounded-xl p-6 border-2 border-rose-200">
@@ -3599,7 +3602,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             </div>
 
             <div className="space-y-4">
-              {kwtExercise.transformations.map((t: any, idx: number) => {
+              {kwtTransformations.map((t: any, idx: number) => {
                 const userAnswer = answers[t.id] || '';
                 const evaluation = aiEvaluations[t.id];
                 
@@ -3739,6 +3742,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       case 'integrated-reading-writing':
         const irwExercise = currentExercise as any;
+        const irwQuestions = irwExercise.questions || [];
         return (
           <div className="space-y-6">
             <div className="bg-fuchsia-50 rounded-xl p-6 border-2 border-fuchsia-200">
@@ -3765,7 +3769,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
             <div className="space-y-4">
               <h4 className="font-bold text-slate-900">Questions:</h4>
-              {irwExercise.questions.map((q: any, idx: number) => {
+              {irwQuestions.map((q: any, idx: number) => {
                 const userAnswer = answers[q.id] || '';
                 const evaluation = aiEvaluations[q.id];
                 
