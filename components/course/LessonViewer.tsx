@@ -3916,19 +3916,21 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           </div>
 
           {/* Learning Objectives */}
-          <details className="mt-4">
-            <summary className="cursor-pointer font-semibold text-coral-700 hover:text-coral-800">
-              🎯 Learning Objectives
-            </summary>
-            <ul className="mt-2 space-y-1">
-              {lesson.objectives.map((objective, idx) => (
-                <li key={idx} className="text-sm text-slate-700 flex items-start gap-2">
-                  <span className="text-orange-500 mt-0.5">✓</span>
-                  <span>{objective}</span>
-                </li>
-              ))}
-            </ul>
-          </details>
+          {lesson.objectives && lesson.objectives.length > 0 && (
+            <details className="mt-4">
+              <summary className="cursor-pointer font-semibold text-coral-700 hover:text-coral-800">
+                🎯 Learning Objectives
+              </summary>
+              <ul className="mt-2 space-y-1">
+                {lesson.objectives.map((objective, idx) => (
+                  <li key={idx} className="text-sm text-slate-700 flex items-start gap-2">
+                    <span className="text-orange-500 mt-0.5">✓</span>
+                    <span>{objective}</span>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          )}
         </div>
 
         {/* Exercise Content */}
