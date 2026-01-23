@@ -2356,7 +2356,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-red-600 text-white font-bold text-sm flex-shrink-0">
                         {idx + 1}
                       </span>
-                      <p className="text-lg text-slate-800 flex-1">{item.sentence}</p>
+                      <p className="text-lg text-slate-800 flex-1">{item.sentence || item.question}</p>
                     </div>
 
                     <div className="ml-11 space-y-3">
