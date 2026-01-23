@@ -248,3 +248,28 @@ export function getBadgesByCategory(category: BadgeCategory): Badge[] {
 export function getBadgesByRarity(rarity: Badge['rarity']): Badge[] {
   return BADGES.filter(badge => badge.rarity === rarity);
 }
+
+/**
+ * BADGE_DEFINITIONS - Object indexed by badge ID
+ * For easier lookup in components
+ */
+export const BADGE_DEFINITIONS: Record<string, Badge> = BADGES.reduce((acc, badge) => {
+  acc[badge.id] = badge;
+  return acc;
+}, {} as Record<string, Badge>);
+
+/**
+ * Check user progress and award new badges
+ * Returns array of newly awarded badges
+ */
+export async function checkAndAwardBadges(userId: string): Promise<Badge[]> {
+  // This is a placeholder implementation
+  // In a real implementation, this would:
+  // 1. Fetch user's current progress from database
+  // 2. Check which badge requirements are met
+  // 3. Award new badges to the user
+  // 4. Return the newly awarded badges
+  
+  // For now, return empty array to prevent runtime errors
+  return [];
+}
