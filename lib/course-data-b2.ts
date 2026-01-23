@@ -4979,47 +4979,81 @@ Critics might {{6}} that watching films or series could provide similar benefits
         sentences: [
           {
             id: 'sc1',
-            incompleteSentence: 'The novel\'s protagonist undergoes a significant transformation, evolving from',
-            sampleCompletions: [
+            prompt: 'The novel\'s protagonist undergoes a significant transformation, evolving from...',
+            correctCompletion: 'a naive young woman into a confident leader',
+            options: [
               'a naive young woman into a confident leader',
               'an innocent child into a cynical adult',
-              'a selfish individual into someone who cares deeply about others'
+              'a selfish individual into someone who cares deeply about others',
+              'a weak character into a strong one'
             ],
-            評valuationCriteria: 'Should show character development arc with contrasting states',
-            points: 3
+            explanation: 'Debe mostrar un arco de desarrollo del personaje con estados contrastantes.',
+            points: 2
           },
           {
             id: 'sc2',
-            incompleteSentence: 'What makes this poem particularly powerful is',
-            sampleCompletions: [
+            prompt: 'What makes this poem particularly powerful is...',
+            correctCompletion: 'its use of vivid imagery to convey deep emotion',
+            options: [
               'its use of vivid imagery to convey deep emotion',
               'the way it captures universal human experiences',
-              'the contrast between its simple language and profound meaning'
+              'the contrast between its simple language and profound meaning',
+              'that it rhymes well'
             ],
-            評valuationCriteria: 'Should identify specific literary quality or technique',
-            points: 3
+            explanation: 'Debe identificar una cualidad literaria o técnica específica.',
+            points: 2
           },
           {
             id: 'sc3',
-            incompleteSentence: 'The author employs metaphor throughout the text to',
-            sampleCompletions: [
+            prompt: 'The author employs metaphor throughout the text to...',
+            correctCompletion: 'represent the character\'s internal struggle',
+            options: [
               'represent the character\'s internal struggle',
               'symbolize the passage of time and change',
-              'illustrate the contrast between appearance and reality'
+              'illustrate the contrast between appearance and reality',
+              'make the text more confusing'
             ],
-            評valuationCriteria: 'Should explain purpose/effect of literary device',
-            points: 3
+            explanation: 'Debe explicar el propósito o efecto del recurso literario.',
+            points: 2
           },
           {
             id: 'sc4',
-            incompleteSentence: 'Despite its flaws, the work remains compelling because',
-            sampleCompletions: [
+            prompt: 'Despite its flaws, the work remains compelling because...',
+            correctCompletion: 'it addresses timeless themes that resonate with modern readers',
+            options: [
               'it addresses timeless themes that resonate with modern readers',
               'the characters are so vividly drawn and relatable',
-              'it offers unique insights into human nature'
+              'it offers unique insights into human nature',
+              'it was written by a famous author'
             ],
-            評valuationCriteria: 'Should provide critical evaluation balancing weakness with strength',
-            points: 3
+            explanation: 'Debe proporcionar una evaluación crítica equilibrando debilidad con fortaleza.',
+            points: 2
+          },
+          {
+            id: 'sc5',
+            prompt: 'The narrative structure of the novel is particularly effective because...',
+            correctCompletion: 'it builds suspense gradually while revealing character depth',
+            options: [
+              'it builds suspense gradually while revealing character depth',
+              'it uses flashbacks to provide crucial background information',
+              'it alternates between multiple perspectives to show different viewpoints',
+              'it is written in chapters'
+            ],
+            explanation: 'Debe analizar cómo la estructura narrativa contribuye al efecto general.',
+            points: 2
+          },
+          {
+            id: 'sc6',
+            prompt: 'The author\'s use of symbolism enhances the text by...',
+            correctCompletion: 'adding layers of meaning that reward careful reading',
+            options: [
+              'adding layers of meaning that reward careful reading',
+              'reinforcing the central themes throughout the work',
+              'creating connections between seemingly unrelated events',
+              'making the story longer'
+            ],
+            explanation: 'Debe explicar cómo el simbolismo enriquece la comprensión del texto.',
+            points: 2
           }
         ]
       },
