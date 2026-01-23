@@ -1812,8 +1812,13 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                           type="text"
                           value={answers[question.id] || ''}
                           onChange={(e) => handleAnswer(question.id, e.target.value)}
-                          placeholder="Type the formed word..."
-                          className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-peach-500 focus:outline-none"
+                          placeholder={`Enter the correct form of "${question.baseWord}"...`}
+                          disabled={showFeedback}
+                          className={`w-full px-4 py-2 rounded-lg border-2 focus:outline-none transition-all ${
+                            showFeedback
+                              ? 'bg-gray-50 border-gray-300 cursor-not-allowed'
+                              : 'border-slate-200 focus:border-peach-500'
+                          }`}
                         />
                       </div>
                     )}
@@ -1875,6 +1880,49 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 </div>
               ))}
             </div>
+
+            {/* Check Answers Button */}
+            {!showFeedback && (
+              <div className="flex justify-center">
+                <button
+                  onClick={handleCheckAnswer}
+                  disabled={evaluating || Object.keys(answers).length === 0}
+                  className="px-8 py-4 bg-peach-600 text-white rounded-xl hover:bg-peach-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {evaluating ? (
+                    <>
+                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                      <span>Evaluating with AI...</span>
+                    </>
+                  ) : (
+                    <>
+                      <span>✓</span>
+                      <span>Check Answers</span>
+                    </>
+                  )}
+                </button>
+              </div>
+            )}
+
+            {/* Try Again / Next Button */}
+            {showFeedback && (
+              <div className="flex justify-center gap-4">
+                <button
+                  onClick={handleTryAgain}
+                  className="px-8 py-4 bg-slate-200 text-slate-900 rounded-xl hover:bg-slate-300 transition-colors font-bold text-lg flex items-center justify-center gap-2"
+                >
+                  <span>↻</span>
+                  <span>Try Again</span>
+                </button>
+                <button
+                  onClick={handleNext}
+                  className="px-8 py-4 bg-green-600 text-white rounded-xl hover:bg-green-700 transition-colors font-bold text-lg flex items-center justify-center gap-2"
+                >
+                  <span>Next Exercise</span>
+                  <span>→</span>
+                </button>
+              </div>
+            )}
 
             {/* Focus Areas */}
             {currentExercise.focusAreas && currentExercise.focusAreas.length > 0 && (
