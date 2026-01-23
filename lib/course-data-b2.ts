@@ -2851,6 +2851,28 @@ Dr. Richardson: No, that's not realistic. What we need to do is use technology i
             correctAnswer: 'Her productivity doubled',
             explanation: 'Ella dice: "It was when I started using this method myself that my productivity doubled"',
             points: 2
+          },
+          {
+            id: 'q5',
+            type: 'multiple-choice',
+            question: 'According to Dr. Richardson, what is NOT the problem with technology?',
+            options: [
+              'The smartphone itself',
+              'Having notifications on all the time',
+              'Not using it intentionally',
+              'Being constantly connected'
+            ],
+            correctAnswer: 'The smartphone itself',
+            explanation: 'Ella dice: "It\'s not your smartphone that\'s the problem—it\'s having notifications turned on all the time"',
+            points: 2
+          },
+          {
+            id: 'q6',
+            type: 'short-answer',
+            question: 'How did people feel after a week of turning off notifications during focus sessions?',
+            correctAnswer: 'Liberated rather than disconnected',
+            explanation: 'El texto dice: "within a week, most felt liberated rather than disconnected"',
+            points: 2
           }
         ]
       },
