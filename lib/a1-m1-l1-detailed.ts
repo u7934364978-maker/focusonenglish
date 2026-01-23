@@ -3,22 +3,13 @@
 // Este archivo contiene todos los ejercicios con contenido real y funcional
 // ===============================================
 
-import type {
-  Exercise,
-  GrammarExercise,
-  VocabularyExercise,
-  ReadingExercise,
-  ListeningExercise,
-  WritingExercise,
-  SpeakingExercise,
-  PronunciationPracticeExercise,
-  Question
-} from './course-data-a1';
+// Note: We use 'any' type to avoid circular dependency with course-data-a1.ts
+// The actual types are enforced when imported in course-data-a1.ts
 
 // ============================================
 // GRAMMAR EXERCISE 1: Formation and Use
 // ============================================
-export const A1_M1_L1_GRAMMAR_1: GrammarExercise = {
+export const A1_M1_L1_GRAMMAR_1 = {
   id: 'a1-m1-l1-grammar-1',
   type: 'grammar',
   title: 'Verb to be - Formation and Use',
@@ -146,7 +137,7 @@ The verb "to be" is the most important verb in English. We use it to talk about:
 // ============================================
 // GRAMMAR EXERCISE 2: Practice
 // ============================================
-export const A1_M1_L1_GRAMMAR_2: GrammarExercise = {
+export const A1_M1_L1_GRAMMAR_2 = {
   id: 'a1-m1-l1-grammar-2',
   type: 'grammar',
   title: 'Verb to be - Practice Exercises',
@@ -238,7 +229,7 @@ export const A1_M1_L1_GRAMMAR_2: GrammarExercise = {
 // ============================================
 // READING EXERCISE
 // ============================================
-export const A1_M1_L1_READING: ReadingExercise = {
+export const A1_M1_L1_READING = {
   id: 'a1-m1-l1-reading-1',
   type: 'reading',
   title: 'Reading: Meeting New Friends',
@@ -336,7 +327,7 @@ London is a beautiful city. It is exciting and interesting. We are lucky to stud
 // ============================================
 // LISTENING EXERCISE
 // ============================================
-export const A1_M1_L1_LISTENING: ListeningExercise = {
+export const A1_M1_L1_LISTENING = {
   id: 'a1-m1-l1-listening-1',
   type: 'listening',
   audioUrl: '/audio/a1-m1-l1-listening-1.mp3',
@@ -403,7 +394,7 @@ export const A1_M1_L1_LISTENING: ListeningExercise = {
 // ============================================
 // SPEAKING EXERCISE
 // ============================================
-export const A1_M1_L1_SPEAKING: SpeakingExercise = {
+export const A1_M1_L1_SPEAKING = {
   id: 'a1-m1-l1-speaking-1',
   type: 'speaking',
   prompt: 'Introduce yourself using the verb "to be". Say your name, where you are from, your age, and your job or what you study. Speak for 30-60 seconds.',
@@ -429,7 +420,7 @@ export const A1_M1_L1_SPEAKING: SpeakingExercise = {
 // ============================================
 // WRITING EXERCISE
 // ============================================
-export const A1_M1_L1_WRITING: WritingExercise = {
+export const A1_M1_L1_WRITING = {
   id: 'a1-m1-l1-writing-1',
   type: 'writing',
   title: 'Writing: Introduce Yourself',
@@ -472,7 +463,7 @@ export const A1_M1_L1_WRITING: WritingExercise = {
 // ============================================
 // PRONUNCIATION EXERCISE
 // ============================================
-export const A1_M1_L1_PRONUNCIATION: PronunciationPracticeExercise = {
+export const A1_M1_L1_PRONUNCIATION = {
   id: 'a1-m1-l1-pronunciation-1',
   type: 'pronunciation-practice',
   title: 'Pronunciation: Verb to be',

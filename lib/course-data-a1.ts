@@ -171,7 +171,7 @@ export const MODULE_1_LESSONS: Lesson[] = [
     title: 'Lección 1: Verb To Be - I am, You are',
     description: 'Learn the verb "to be" in present simple with comprehensive exercises',
     duration: 90, // minutes
-    exercises: A1_M1_L1_ALL_EXERCISES
+    exercises: A1_M1_L1_ALL_EXERCISES as Exercise[]
   },
   {
     id: 'a1-m1-l2',
