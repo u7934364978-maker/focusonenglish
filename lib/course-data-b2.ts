@@ -15696,7 +15696,7 @@ Dr. Martinez: Thank you for having me. The most significant shift we're witnessi
           {
             id: 'b2-m3-l6-listening-1-q5',
             type: 'fill-blank',
-            sentence: 'Students learn through different _____.',
+            question: 'Students learn through different _____.',
             correctAnswer: 'modalities',
             explanation: 'Dr. Martinez menciona: "students learn...through different modalities"',
             points: 1
