@@ -9,6 +9,7 @@ import { A1_M1_L3_ALL_EXERCISES } from './a1-m1-l3-detailed';
 import { A1_M1_L4_ALL_EXERCISES } from './a1-m1-l4-detailed';
 import { A1_M1_L5_ALL_EXERCISES } from './a1-m1-l5-detailed';
 import { A1_M1_L6_ALL_EXERCISES } from './a1-m1-l6-detailed';
+import { A1_M1_L7_ALL_EXERCISES } from './a1-m1-l7-detailed';
 
 export type ExerciseType = 
   | 'reading'
@@ -212,102 +213,13 @@ export const MODULE_1_LESSONS: Lesson[] = [
     description: 'Review and practice all topics from Module 1 with a mock exam',
     duration: 90, // minutes
     exercises: A1_M1_L6_ALL_EXERCISES as Exercise[]
+  },
+  {
     id: 'a1-m1-l7',
     title: 'Lección 7: Consolidation and Practice',
     description: 'Practice All Module 1 topics with comprehensive exercises',
     duration: 90, // minutes
-    exercises: [
-      {
-        id: 'a1-m1-l7-grammar-1',
-        type: 'grammar',
-        title: 'All Module 1 topics - Formation and Use',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l7-grammar-2',
-        type: 'grammar',
-        title: 'All Module 1 topics - Practice Exercises',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l7-reading-1',
-        type: 'reading',
-        title: 'Reading: Lección 7: Consolidation and Practice',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l7-listening-1',
-        type: 'listening',
-        title: 'Listening: Lección 7: Consolidation and Practice',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l7-speaking-1',
-        type: 'speaking',
-        title: 'Speaking Practice: Lección 7: Consolidation and Practice',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l7-writing-1',
-        type: 'writing',
-        title: 'Writing: Lección 7: Consolidation and Practice',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l7-pronunciation-1',
-        type: 'pronunciation-practice',
-        title: 'Pronunciation: All Module 1 topics',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l7-vocabulary-1',
-        type: 'vocabulary',
-        title: 'Vocabulary: Lección 7: Consolidation and Practice',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l7-vocabulary-2',
-        type: 'vocabulary',
-        title: 'Vocabulary Practice',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l7-fill-blanks-1',
-        type: 'fill-in-blanks',
-        title: 'Complete the Sentences - All Module 1 topics',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l7-multiple-choice-1',
-        type: 'multiple-choice',
-        title: 'Multiple Choice: All Module 1 topics',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l7-matching-1',
-        type: 'matching',
-        title: 'Match Words and Meanings',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l7-sentence-building-1',
-        type: 'sentence-building',
-        title: 'Build Sentences - All Module 1 topics',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l7-true-false-1',
-        type: 'true-false',
-        title: 'True or False: Lección 7: Consolidation and Practice',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m1-l7-dialogue-1',
-        type: 'dialogue-practice',
-        title: 'Dialogue Practice: Lección 7: Consolidation and Practice',
-        // Content will be added in future updates
-      } as Exercise,
-    ]
+    exercises: A1_M1_L7_ALL_EXERCISES as Exercise[]
   },
 ];
 
