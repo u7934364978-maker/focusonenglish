@@ -1,5 +1,6 @@
 import OpenAI from 'openai';
 import { GenerateExerciseRequest, GeneratedExercise, CEFRLevel } from '@/lib/exercise-types';
+import { generateFallbackExercise } from '@/lib/ai/fallback-exercises';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY || '',
@@ -44,7 +45,8 @@ export async function generateExerciseV2(request: GenerateExerciseRequest): Prom
   console.log(`[IA V2] Solicitando ejercicio: ${exerciseType}, Nivel: ${level}, Tema: ${topic}, Dificultad: ${difficulty}`);
 
   if (!process.env.OPENAI_API_KEY) {
-    throw new Error("La API Key de OpenAI no está definida en el servidor.");
+    console.warn("[IA V2] API Key no configurada. Usando fallback.");
+    return generateFallbackExercise(request);
   }
 
   try {
@@ -82,7 +84,8 @@ export async function generateExerciseV2(request: GenerateExerciseRequest): Prom
       createdAt: new Date(),
     };
   } catch (error: any) {
-    console.error("[IA V2] Error en la llamada a OpenAI:", error.message);
-    throw error;
+    console.error("[IA V2] Error en OpenAI, usando fallback:", error.message);
+    // Si falla la cuota (429) o cualquier otro error de red/servidor, usamos el fallback
+    return generateFallbackExercise(request);
   }
 }

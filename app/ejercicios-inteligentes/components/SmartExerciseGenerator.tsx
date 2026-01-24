@@ -45,6 +45,7 @@ interface Exercise {
   questions: Question[];
   topic: string;
   difficulty: DifficultyLevel;
+  isFallback?: boolean;
 }
 
 interface ExerciseStats {
@@ -81,7 +82,7 @@ export default function SmartExerciseGenerator({
   const [currentExercise, setCurrentExercise] = useState<Exercise | null>(null);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState<Record<number, string>>({});
-  const [showResult, setShowResult] = useState(false);
+  const [validatedQuestions, setValidatedQuestions] = useState<Set<number>>(new Set());
   const [loading, setLoading] = useState(false);
   const [apiError, setApiError] = useState<string | null>(null);
   const [sessionStats, setSessionStats] = useState<ExerciseStats>({
@@ -113,6 +114,7 @@ export default function SmartExerciseGenerator({
       setCurrentExercise(null);
       setCurrentQuestionIndex(0);
       setUserAnswers({});
+      setValidatedQuestions(new Set());
     }
   }, [selectedCategory, difficulty]);
 
@@ -126,8 +128,8 @@ export default function SmartExerciseGenerator({
 
     setLoading(true);
     setApiError(null);
-    setShowResult(false);
     setUserAnswers({});
+    setValidatedQuestions(new Set());
     setCurrentQuestionIndex(0);
     setExerciseStartTime(Date.now());
 
@@ -176,6 +178,7 @@ export default function SmartExerciseGenerator({
           questions: questions,
           topic: selectedCategory,
           difficulty: difficulty,
+          isFallback: exerciseData.id.startsWith('fallback'),
         });
       }
     } catch (error: any) {
@@ -200,33 +203,28 @@ export default function SmartExerciseGenerator({
   };
 
   const checkAnswer = () => {
-    if (!currentExercise || Object.keys(userAnswers).length === 0) return;
+    if (!currentExercise || !userAnswers[currentQuestionIndex]) return;
 
-    const timeSpent = Math.floor((Date.now() - exerciseStartTime) / 1000);
     const isAnalysis = currentExercise.type.includes('analysis') || currentExercise.type.includes('practice');
+    const q = currentExercise.questions[currentQuestionIndex];
+    const userAnswer = userAnswers[currentQuestionIndex] || '';
     
-    let correctCount = 0;
-    currentExercise.questions.forEach((q, idx) => {
-      const userAnswer = userAnswers[idx] || '';
-      
-      if (isAnalysis) {
-        // Para tipos de análisis, cualquier respuesta no vacía es "correcta" en términos de progreso
-        if (userAnswer.trim().length > 0) correctCount++;
-      } else {
-        if (userAnswer.toLowerCase().trim() === q.correctAnswer.toLowerCase().trim()) {
-          correctCount++;
-        }
-      }
-    });
+    let isCorrect = false;
+    if (isAnalysis) {
+      isCorrect = userAnswer.trim().length > 0;
+    } else {
+      isCorrect = userAnswer.toLowerCase().trim() === q.correctAnswer.toLowerCase().trim();
+    }
     
-    setShowResult(true);
+    // Marcar como validada
+    setValidatedQuestions(prev => new Set(prev).add(currentQuestionIndex));
 
-    // Actualizar estadísticas (solo si no es análisis o si queremos contar progreso)
+    // Actualizar estadísticas en tiempo real
     const newStats: ExerciseStats = {
-      total: sessionStats.total + currentExercise.questions.length,
-      correct: sessionStats.correct + correctCount,
-      incorrect: sessionStats.incorrect + (currentExercise.questions.length - correctCount),
-      timeSpent: sessionStats.timeSpent + timeSpent,
+      total: sessionStats.total + 1,
+      correct: sessionStats.correct + (isCorrect ? 1 : 0),
+      incorrect: sessionStats.incorrect + (isCorrect ? 0 : 1),
+      timeSpent: sessionStats.timeSpent, // El tiempo se actualiza al final del pack o por sesión
     };
     
     saveStats(newStats);
@@ -255,7 +253,8 @@ export default function SmartExerciseGenerator({
   const currentQuestion = currentExercise?.questions[currentQuestionIndex];
   const totalQuestions = currentExercise?.questions.length || 0;
   const progress = totalQuestions > 0 ? ((currentQuestionIndex + 1) / totalQuestions) * 100 : 0;
-  const isAllAnswered = currentExercise?.questions.every((_, idx) => userAnswers[idx]);
+  const isCurrentValidated = validatedQuestions.has(currentQuestionIndex);
+  const isLastQuestion = currentQuestionIndex === totalQuestions - 1;
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
@@ -384,6 +383,16 @@ export default function SmartExerciseGenerator({
               </div>
             </div>
 
+            {/* Fallback Notice */}
+            {currentExercise?.isFallback && (
+              <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-6 flex items-center gap-3 text-amber-800">
+                <Sparkles className="w-5 h-5 text-amber-500" />
+                <p className="text-sm font-medium">
+                  <strong>Modo de Respaldo:</strong> La IA está ocupada. Mostrando un ejercicio de nuestra biblioteca de alta calidad.
+                </p>
+              </div>
+            )}
+
             {/* Loading */}
             {loading && (
               <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-12 text-center">
@@ -460,22 +469,22 @@ export default function SmartExerciseGenerator({
                           <button
                             key={index}
                             onClick={() => {
-                              if (!showResult) {
+                              if (!isCurrentValidated) {
                                 setUserAnswers(prev => ({ ...prev, [currentQuestionIndex]: option }));
                               }
                             }}
-                            disabled={showResult}
+                            disabled={isCurrentValidated}
                             className={`w-full text-left p-4 rounded-xl border-2 transition-all relative ${
                               isSelected
-                                ? showResult
+                                ? isCurrentValidated
                                   ? isCorrect
                                     ? 'border-green-500 bg-green-50'
                                     : 'border-red-500 bg-red-50'
                                   : 'border-violet-500 bg-violet-50'
-                                : showResult && isCorrect
+                                : isCurrentValidated && isCorrect
                                   ? 'border-green-500 bg-green-50'
                                   : 'border-gray-200 hover:border-violet-300 bg-white'
-                            } ${showResult ? 'cursor-default' : 'cursor-pointer'}`}
+                            } ${isCurrentValidated ? 'cursor-default' : 'cursor-pointer'}`}
                           >
                             <div className="flex items-center gap-3">
                               <span className={`w-8 h-8 flex items-center justify-center rounded-lg font-bold ${
@@ -485,7 +494,7 @@ export default function SmartExerciseGenerator({
                               </span>
                               <span className="font-medium text-gray-800">{option}</span>
                               
-                              {showResult && isSelected && (
+                              {isCurrentValidated && isSelected && (
                                 <div className="ml-auto">
                                   {isCorrect ? (
                                     <CheckCircle2 className="w-6 h-6 text-green-600" />
@@ -494,7 +503,7 @@ export default function SmartExerciseGenerator({
                                   )}
                                 </div>
                               )}
-                              {showResult && !isSelected && isCorrect && (
+                              {isCurrentValidated && !isSelected && isCorrect && (
                                 <div className="ml-auto">
                                   <CheckCircle2 className="w-6 h-6 text-green-600" />
                                 </div>
@@ -514,21 +523,21 @@ export default function SmartExerciseGenerator({
                           rows={currentExercise.type.includes('analysis') ? 4 : 1}
                           value={userAnswers[currentQuestionIndex] || ''}
                           onChange={(e) => {
-                            if (!showResult) {
+                            if (!isCurrentValidated) {
                               setUserAnswers(prev => ({ ...prev, [currentQuestionIndex]: e.target.value }));
                             }
                           }}
-                          disabled={showResult}
+                          disabled={isCurrentValidated}
                           placeholder={currentExercise.type.includes('analysis') ? "Escribe tu respuesta o ensayo aquí..." : "Escribe tu respuesta aquí..."}
                           className={`w-full px-6 py-4 border-2 rounded-xl focus:ring-4 text-lg transition-all ${
-                            showResult
+                            isCurrentValidated
                               ? (currentExercise.type.includes('analysis') || userAnswers[currentQuestionIndex]?.toLowerCase().trim() === currentQuestion.correctAnswer.toLowerCase().trim())
                                 ? 'border-green-500 bg-green-50 focus:ring-green-100'
                                 : 'border-red-500 bg-red-50 focus:ring-red-100'
                               : 'border-gray-300 focus:border-violet-500 focus:ring-violet-100'
                           }`}
                         />
-                        {showResult && (
+                        {isCurrentValidated && (
                           <div className="absolute right-4 top-6">
                             {(currentExercise.type.includes('analysis') || userAnswers[currentQuestionIndex]?.toLowerCase().trim() === currentQuestion.correctAnswer.toLowerCase().trim()) ? (
                               <CheckCircle2 className="w-6 h-6 text-green-600" />
@@ -538,7 +547,7 @@ export default function SmartExerciseGenerator({
                           </div>
                         )}
                       </div>
-                      {showResult && (
+                      {isCurrentValidated && (
                         <div className="mt-4 p-4 bg-green-50 rounded-xl border border-green-200">
                           <p className="text-sm text-green-800 font-bold mb-1">
                             {currentExercise.type.includes('analysis') ? 'Modelo de respuesta sugerido:' : 'Respuesta correcta:'}
@@ -552,7 +561,7 @@ export default function SmartExerciseGenerator({
                   )}
 
                   {/* Hint Button */}
-                  {!showResult && currentQuestion.hint && (
+                  {!isCurrentValidated && currentQuestion.hint && (
                     <div className="mb-6">
                       <button
                         onClick={() => alert(`Pista: ${currentQuestion.hint}`)}
@@ -565,7 +574,7 @@ export default function SmartExerciseGenerator({
                   )}
 
                   {/* Single Question Feedback */}
-                  {showResult && currentQuestion.explanation && (
+                  {isCurrentValidated && currentQuestion.explanation && (
                     <div className="bg-slate-50 rounded-xl p-6 mb-8 border border-slate-200">
                       <h5 className="font-black text-slate-900 mb-2 flex items-center gap-2">
                         <Zap className="w-4 h-4 text-amber-500" />
@@ -579,49 +588,37 @@ export default function SmartExerciseGenerator({
 
                   {/* Navigation and Action Buttons */}
                   <div className="flex flex-col sm:flex-row gap-4">
-                    {/* Multi-question Navigation */}
-                    {totalQuestions > 1 && (
-                      <div className="flex gap-2 flex-1">
-                        <button
-                          onClick={handlePrevQuestion}
-                          disabled={currentQuestionIndex === 0}
-                          className="px-4 py-4 rounded-xl border-2 border-gray-200 text-gray-600 hover:bg-gray-50 disabled:opacity-50 transition-all"
-                        >
-                          Anterior
-                        </button>
-                        <button
-                          onClick={handleNextQuestion}
-                          disabled={currentQuestionIndex === totalQuestions - 1}
-                          className="px-4 py-4 rounded-xl border-2 border-gray-200 text-gray-600 hover:bg-gray-50 disabled:opacity-50 transition-all flex-1"
-                        >
-                          Siguiente
-                        </button>
-                      </div>
-                    )}
-
-                    {!showResult ? (
+                    {!isCurrentValidated ? (
                       <button
                         onClick={checkAnswer}
-                        disabled={!isAllAnswered}
-                        className={`py-4 px-8 rounded-xl font-bold text-white transition-all ${
-                          totalQuestions > 1 ? 'flex-1 sm:flex-none sm:min-w-[200px]' : 'flex-1'
-                        } ${
-                          isAllAnswered
+                        disabled={!userAnswers[currentQuestionIndex]}
+                        className={`flex-1 py-4 px-8 rounded-xl font-bold text-white transition-all ${
+                          userAnswers[currentQuestionIndex]
                             ? `bg-gradient-to-r ${gradient} hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0`
                             : 'bg-gray-300 cursor-not-allowed'
                         }`}
                       >
-                        Comprobar Todo
+                        Comprobar Respuesta
                       </button>
                     ) : (
                       <>
-                        <button
-                          onClick={nextExercise}
-                          className={`flex-1 bg-gradient-to-r ${gradient} text-white py-4 rounded-xl font-bold hover:shadow-lg transition-all flex items-center justify-center gap-2 hover:-translate-y-0.5 active:translate-y-0`}
-                        >
-                          Siguiente Ejercicio
-                          <RefreshCw className="w-5 h-5" />
-                        </button>
+                        {!isLastQuestion ? (
+                          <button
+                            onClick={handleNextQuestion}
+                            className={`flex-1 bg-gradient-to-r ${gradient} text-white py-4 rounded-xl font-bold hover:shadow-lg transition-all flex items-center justify-center gap-2 hover:-translate-y-0.5 active:translate-y-0`}
+                          >
+                            Siguiente Pregunta
+                            <RefreshCw className="w-5 h-5" />
+                          </button>
+                        ) : (
+                          <button
+                            onClick={nextExercise}
+                            className={`flex-1 bg-gradient-to-r ${gradient} text-white py-4 rounded-xl font-bold hover:shadow-lg transition-all flex items-center justify-center gap-2 hover:-translate-y-0.5 active:translate-y-0`}
+                          >
+                            Generar Más Ejercicios
+                            <RefreshCw className="w-5 h-5" />
+                          </button>
+                        )}
                         <button
                           onClick={() => setSelectedCategory(null)}
                           className="px-6 py-4 rounded-xl border-2 border-gray-300 text-gray-700 font-bold hover:bg-gray-50 transition-all"
