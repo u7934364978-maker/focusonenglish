@@ -1580,13 +1580,13 @@ export const A1_M3_L1_VOCABULARY_2 = {
 // ============================================
 export const A1_M3_L1_FILL_BLANKS = {
   id: 'a1-m3-l1-fill-blanks-1',
-  type: 'fill-in-the-blanks',
+  type: 'fill-in-blanks',
   title: 'Complete the Sentences',
   instructions: 'Fill in the blanks with the correct word from the options.',
   questions: [
     {
       id: 'a1-m3-l1-fb-q1',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'I eat ___ apple every day.',
       correctAnswer: 'an',
       options: ['a', 'an', 'some', 'any'],
@@ -1595,7 +1595,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q2',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'She drinks ___ water after exercise.',
       correctAnswer: 'some',
       options: ['a', 'an', 'some', 'many'],
@@ -1604,7 +1604,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q3',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'There are three ___ on the table.',
       correctAnswer: 'bananas',
       options: ['banana', 'bananas', 'some banana', 'any banana'],
@@ -1613,7 +1613,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q4',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'Do you have ___ milk?',
       correctAnswer: 'any',
       options: ['a', 'an', 'some', 'any'],
@@ -1622,7 +1622,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q5',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'I would like ___ sandwich, please.',
       correctAnswer: 'a',
       options: ['a', 'an', 'some', 'any'],
@@ -1631,7 +1631,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q6',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'We don\'t have ___ bread.',
       correctAnswer: 'any',
       options: ['a', 'an', 'some', 'any'],
@@ -1640,7 +1640,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q7',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'She eats a lot of ___ .',
       correctAnswer: 'fruit',
       options: ['fruit', 'fruits', 'a fruit', 'an fruit'],
@@ -1649,7 +1649,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q8',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'How ___ eggs do you need?',
       correctAnswer: 'many',
       options: ['much', 'many', 'a lot', 'some'],
@@ -1658,7 +1658,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q9',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'He drinks ___ cup of coffee every morning.',
       correctAnswer: 'a',
       options: ['a', 'an', 'some', 'many'],
@@ -1667,7 +1667,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q10',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'There isn\'t ___ cheese in the fridge.',
       correctAnswer: 'any',
       options: ['a', 'an', 'some', 'any'],
@@ -1676,7 +1676,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q11',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'Can I have ___ orange juice?',
       correctAnswer: 'some',
       options: ['a', 'an', 'some', 'many'],
@@ -1685,7 +1685,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q12',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'They buy ___ tomatoes every week.',
       correctAnswer: 'some',
       options: ['a', 'an', 'some', 'much'],
@@ -1694,7 +1694,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q13',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'How ___ water do you drink?',
       correctAnswer: 'much',
       options: ['much', 'many', 'a', 'an'],
@@ -1703,7 +1703,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q14',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'I need ___ butter for the cake.',
       correctAnswer: 'some',
       options: ['a', 'an', 'some', 'many'],
@@ -1712,7 +1712,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q15',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'She wants ___ piece of chocolate.',
       correctAnswer: 'a',
       options: ['a', 'an', 'some', 'any'],
@@ -1721,7 +1721,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q16',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'Are there ___ cookies left?',
       correctAnswer: 'any',
       options: ['a', 'an', 'some', 'any'],
@@ -1730,7 +1730,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q17',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'We have ___ rice for dinner.',
       correctAnswer: 'some',
       options: ['a', 'an', 'some', 'many'],
@@ -1739,7 +1739,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q18',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'I drink ___ glass of milk before bed.',
       correctAnswer: 'a',
       options: ['a', 'an', 'some', 'any'],
@@ -1748,7 +1748,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q19',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'There are ___ apples in the bowl.',
       correctAnswer: 'some',
       options: ['a', 'an', 'some', 'much'],
@@ -1757,7 +1757,7 @@ export const A1_M3_L1_FILL_BLANKS = {
     },
     {
       id: 'a1-m3-l1-fb-q20',
-      type: 'fill-in-the-blank',
+      type: 'fill-blank',
       question: 'He doesn\'t eat ___ meat.',
       correctAnswer: 'any',
       options: ['a', 'an', 'some', 'any'],
@@ -1970,7 +1970,7 @@ export const A1_M3_L1_MATCHING = {
   questions: [
     {
       id: 'a1-m3-l1-match-q1',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Apple',
       options: ['A vegetable', 'A fruit', 'A drink', 'A dairy product'],
       correctAnswer: 'A fruit',
@@ -1979,7 +1979,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q2',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Milk',
       options: ['A fruit', 'A vegetable', 'A dairy product', 'A meat'],
       correctAnswer: 'A dairy product',
@@ -1988,7 +1988,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q3',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Chicken',
       options: ['A vegetable', 'A fruit', 'Meat', 'A drink'],
       correctAnswer: 'Meat',
@@ -1997,7 +1997,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q4',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Carrot',
       options: ['A fruit', 'A vegetable', 'Meat', 'A dairy product'],
       correctAnswer: 'A vegetable',
@@ -2006,7 +2006,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q5',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Coffee',
       options: ['A food', 'A drink', 'A vegetable', 'A fruit'],
       correctAnswer: 'A drink',
@@ -2015,7 +2015,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q6',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Cheese',
       options: ['A fruit', 'A vegetable', 'A dairy product', 'A drink'],
       correctAnswer: 'A dairy product',
@@ -2024,7 +2024,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q7',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Orange',
       options: ['A vegetable', 'A fruit', 'Meat', 'A dairy product'],
       correctAnswer: 'A fruit',
@@ -2033,7 +2033,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q8',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Fish',
       options: ['A vegetable', 'A fruit', 'Meat/Seafood', 'A dairy product'],
       correctAnswer: 'Meat/Seafood',
@@ -2042,7 +2042,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q9',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Bread',
       options: ['A fruit', 'A bakery product', 'A drink', 'A vegetable'],
       correctAnswer: 'A bakery product',
@@ -2051,7 +2051,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q10',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Water',
       options: ['A food', 'A drink', 'A fruit', 'Meat'],
       correctAnswer: 'A drink',
@@ -2060,7 +2060,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q11',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Tomato',
       options: ['A fruit (used as vegetable)', 'Meat', 'A dairy product', 'A drink'],
       correctAnswer: 'A fruit (used as vegetable)',
@@ -2069,7 +2069,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q12',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Butter',
       options: ['A fruit', 'A vegetable', 'A dairy product', 'Meat'],
       correctAnswer: 'A dairy product',
@@ -2078,7 +2078,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q13',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Banana',
       options: ['A vegetable', 'A fruit', 'A drink', 'Meat'],
       correctAnswer: 'A fruit',
@@ -2087,7 +2087,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q14',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Tea',
       options: ['A food', 'A drink', 'A fruit', 'A vegetable'],
       correctAnswer: 'A drink',
@@ -2096,7 +2096,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q15',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Egg',
       options: ['A fruit', 'A protein food', 'A vegetable', 'A drink'],
       correctAnswer: 'A protein food',
@@ -2105,7 +2105,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q16',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Rice',
       options: ['A fruit', 'A vegetable', 'A grain', 'Meat'],
       correctAnswer: 'A grain',
@@ -2114,7 +2114,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q17',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Juice',
       options: ['A food', 'A drink', 'A vegetable', 'Meat'],
       correctAnswer: 'A drink',
@@ -2123,7 +2123,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q18',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Potato',
       options: ['A fruit', 'A vegetable', 'Meat', 'A dairy product'],
       correctAnswer: 'A vegetable',
@@ -2132,7 +2132,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q19',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Sandwich',
       options: ['A drink', 'A meal/food item', 'A fruit', 'A vegetable'],
       correctAnswer: 'A meal/food item',
@@ -2141,7 +2141,7 @@ export const A1_M3_L1_MATCHING = {
     },
     {
       id: 'a1-m3-l1-match-q20',
-      type: 'matching',
+      type: 'multiple-choice',
       question: 'Match: Sugar',
       options: ['A fruit', 'A sweetener', 'Meat', 'A vegetable'],
       correctAnswer: 'A sweetener',
@@ -2162,7 +2162,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
   questions: [
     {
       id: 'a1-m3-l1-sb-q1',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: apple / I / an / eat',
       scrambledWords: ['apple', 'I', 'an', 'eat'],
       correctAnswer: 'I eat an apple',
@@ -2171,7 +2171,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q2',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: milk / She / drinks / some',
       scrambledWords: ['milk', 'She', 'drinks', 'some'],
       correctAnswer: 'She drinks some milk',
@@ -2180,7 +2180,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q3',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: are / bananas / There / three',
       scrambledWords: ['are', 'bananas', 'There', 'three'],
       correctAnswer: 'There are three bananas',
@@ -2189,7 +2189,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q4',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: rice / need / We / some',
       scrambledWords: ['rice', 'need', 'We', 'some'],
       correctAnswer: 'We need some rice',
@@ -2198,7 +2198,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q5',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: have / any / don\'t / We / bread',
       scrambledWords: ['have', 'any', 'don\'t', 'We', 'bread'],
       correctAnswer: 'We don\'t have any bread',
@@ -2207,7 +2207,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q6',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: cheese / in / is / the / There / fridge / some',
       scrambledWords: ['cheese', 'in', 'is', 'the', 'There', 'fridge', 'some'],
       correctAnswer: 'There is some cheese in the fridge',
@@ -2216,7 +2216,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q7',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: eggs / two / breakfast / He / for / eats',
       scrambledWords: ['eggs', 'two', 'breakfast', 'He', 'for', 'eats'],
       correctAnswer: 'He eats two eggs for breakfast',
@@ -2225,7 +2225,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q8',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: like / you / Do / coffee?',
       scrambledWords: ['like', 'you', 'Do', 'coffee?'],
       correctAnswer: 'Do you like coffee?',
@@ -2234,7 +2234,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q9',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: water / a lot of / I / drink',
       scrambledWords: ['water', 'a lot of', 'I', 'drink'],
       correctAnswer: 'I drink a lot of water',
@@ -2243,7 +2243,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q10',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: vegetables / eat / They / every day',
       scrambledWords: ['vegetables', 'eat', 'They', 'every day'],
       correctAnswer: 'They eat vegetables every day',
@@ -2252,7 +2252,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q11',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: any / Is / juice / there / orange?',
       scrambledWords: ['any', 'Is', 'juice', 'there', 'orange?'],
       correctAnswer: 'Is there any orange juice?',
@@ -2261,7 +2261,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q12',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: sandwich / a / wants / She',
       scrambledWords: ['sandwich', 'a', 'wants', 'She'],
       correctAnswer: 'She wants a sandwich',
@@ -2270,7 +2270,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q13',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: tea / morning / drink / every / I',
       scrambledWords: ['tea', 'morning', 'drink', 'every', 'I'],
       correctAnswer: 'I drink tea every morning',
@@ -2279,7 +2279,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q14',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: fish / doesn\'t / He / like',
       scrambledWords: ['fish', 'doesn\'t', 'He', 'like'],
       correctAnswer: 'He doesn\'t like fish',
@@ -2288,7 +2288,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q15',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: tomatoes / How many / need / you / do?',
       scrambledWords: ['tomatoes', 'How many', 'need', 'you', 'do?'],
       correctAnswer: 'How many tomatoes do you need?',
@@ -2297,7 +2297,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q16',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: fruit / a lot of / She / eats',
       scrambledWords: ['fruit', 'a lot of', 'She', 'eats'],
       correctAnswer: 'She eats a lot of fruit',
@@ -2306,7 +2306,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q17',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: butter / bread / on / Put / some / the',
       scrambledWords: ['butter', 'bread', 'on', 'Put', 'some', 'the'],
       correctAnswer: 'Put some butter on the bread',
@@ -2315,7 +2315,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q18',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: chicken / for / We / have / dinner',
       scrambledWords: ['chicken', 'for', 'We', 'have', 'dinner'],
       correctAnswer: 'We have chicken for dinner',
@@ -2324,7 +2324,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q19',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: like / Would / some / you / coffee?',
       scrambledWords: ['like', 'Would', 'some', 'you', 'coffee?'],
       correctAnswer: 'Would you like some coffee?',
@@ -2333,7 +2333,7 @@ export const A1_M3_L1_SENTENCE_BUILDING = {
     },
     {
       id: 'a1-m3-l1-sb-q20',
-      type: 'sentence-building',
+      type: 'short-answer',
       question: 'Put in order: are / apples / bowl / in / There / the / some',
       scrambledWords: ['are', 'apples', 'bowl', 'in', 'There', 'the', 'some'],
       correctAnswer: 'There are some apples in the bowl',
@@ -2520,7 +2520,7 @@ export const A1_M3_L1_TRUE_FALSE = {
 // ============================================
 export const A1_M3_L1_DIALOGUE = {
   id: 'a1-m3-l1-dialogue-1',
-  type: 'dialogue',
+  type: 'dialogue-practice',
   title: 'Dialogue Practice: At the Café',
   instructions: 'Read the dialogue and answer the questions.',
   dialogue: [
