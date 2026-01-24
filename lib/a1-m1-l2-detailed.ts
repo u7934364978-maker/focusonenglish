@@ -1076,7 +1076,7 @@ export const A1_M1_L2_PRONUNCIATION = {
       question: 'Which word has a /ð/ sound at the beginning?',
       options: ["their","his","her","my"],
       correctAnswer: 'their',
-      explanation: '"Their" starts with /ð/ (like "the"). The others don't.',
+      explanation: '"Their" starts with /ð/ (like "the"). The others don\'t.',
       points: 1
     },
     {
