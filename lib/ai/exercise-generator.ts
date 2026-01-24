@@ -48,16 +48,25 @@ export class ExerciseGenerator {
     this.sessionId = sessionId;
     this.userId = userId;
     
-    // Inicializar SDK oficial de OpenAI
-    this.openai = new OpenAI({
-      apiKey: this.apiKey || process.env.OPENAI_API_KEY || '',
-    });
+    // Inicializar SDK oficial de OpenAI solo si hay API key
+    if (this.apiKey || process.env.OPENAI_API_KEY) {
+      this.openai = new OpenAI({
+        apiKey: this.apiKey || process.env.OPENAI_API_KEY || '',
+      });
+    } else {
+      console.warn('⚠️ OpenAI API key not found. AI features will be disabled.');
+      // @ts-ignore - Permitir que sea null si no hay key, los métodos que lo usan fallarán controladamente
+      this.openai = null;
+    }
   }
 
   /**
    * Genera un ejercicio usando IA
    */
   async generateExercise(request: GenerateExerciseRequest): Promise<GeneratedExercise> {
+    if (!this.openai && this.config.provider === 'openai') {
+      throw new Error('OpenAI API key not configured');
+    }
     const exerciseConfig = getExerciseTypeConfig(request.exerciseType);
     
     if (!exerciseConfig) {

@@ -164,8 +164,12 @@ export default function SmartExerciseGenerator({
         // Transformar el ejercicio al formato esperado
         const questions: Question[] = [];
         
-        if (content.questions && Array.isArray(content.questions)) {
-          questions.push(...content.questions.map((q: any, idx: number) => ({
+        // El contenido puede ser el ejercicio directamente (formato antiguo) 
+        // o estar dentro de un objeto con title, instructions, questions, etc.
+        const source = content.questions ? content : exerciseData.content;
+
+        if (source.questions && Array.isArray(source.questions)) {
+          questions.push(...source.questions.map((q: any, idx: number) => ({
             id: q.id || `q_${idx}`,
             question: q.question || q.text || '',
             options: q.options || [],
@@ -175,13 +179,13 @@ export default function SmartExerciseGenerator({
             context: q.context || q.scenario || '',
           })));
         } else {
-          // Fallback para estructuras simples
+          // Fallback para estructuras simples (formato legacy o fallback simple)
           questions.push({
-            id: content.id || `q_0`,
-            question: content.question || content.text || 'Complete el ejercicio',
-            options: content.options || [],
-            correctAnswer: content.correctAnswer || content.answer || '',
-            explanation: content.explanation || '',
+            id: source.id || `q_0`,
+            question: source.question || source.text || 'Complete el ejercicio',
+            options: source.options || [],
+            correctAnswer: source.correctAnswer || source.answer || '',
+            explanation: source.explanation || '',
             type: exerciseData.type,
           });
         }
@@ -189,9 +193,9 @@ export default function SmartExerciseGenerator({
         const exercise: Exercise = {
           id: exerciseData.id || `ex_${Date.now()}`,
           type: exerciseData.type,
-          title: content.title || '',
-          instructions: content.instructions || '',
-          text: content.text || '',
+          title: source.title || '',
+          instructions: source.instructions || '',
+          text: source.text || '',
           questions: questions,
           topic: selectedCategory,
           difficulty: difficulty,
@@ -204,16 +208,18 @@ export default function SmartExerciseGenerator({
     } catch (error) {
       console.error('Error generating exercise:', error);
       
-      // Ejercicio de fallback
+      // Intentar usar un fallback local más robusto si el de la API falla o no llega
       const fallbackExercise: Exercise = {
         id: `fallback_${Date.now()}`,
         type: 'multiple-choice',
+        title: 'Práctica de Inglés (Modo Demo)',
+        instructions: 'El generador de IA no está disponible en este momento. Aquí tienes un ejercicio de práctica.',
         questions: [{
           id: 'q1',
-          question: `${level} ${selectedCategory} practice question (OpenAI API error)`,
-          options: ['Option A', 'Option B', 'Option C', 'Option D'],
-          correctAnswer: 'Option A',
-          explanation: 'This is a demo exercise due to an error generating the AI exercise.',
+          question: 'If I _____ more time, I would travel around the world.',
+          options: ['A) have', 'B) had', 'C) would have', 'D) will have'],
+          correctAnswer: 'B',
+          explanation: 'Esta es una oración condicional de tipo 2 (hypothetical present/future). Usamos Past Simple en la "if-clause".',
         }],
         topic: selectedCategory,
         difficulty: difficulty,
