@@ -2,7 +2,7 @@
 // Replicando la estructura del curso B2 pero adaptado a nivel principiante
 // CEFR A1: Usuario Básico - Nivel Breakthrough
 
-import { A1_MODULE_2_LESSON_3, type Lesson } from './a1-module2-lesson3';
+import type { Lesson } from './a1-module2-lesson3';
 
 // Import detailed exercises
 import { A1_M1_L1_ALL_EXERCISES } from './a1-m1-l1-detailed';
@@ -14,6 +14,7 @@ import { A1_M1_L6_ALL_EXERCISES } from './a1-m1-l6-detailed';
 import { A1_M1_L7_ALL_EXERCISES } from './a1-m1-l7-detailed';
 import { A1_M2_L1_ALL_EXERCISES } from './a1-m2-l1-detailed';
 import { A1_M2_L2_ALL_EXERCISES } from './a1-m2-l2-detailed';
+import { A1_M2_L3_ALL_EXERCISES } from './a1-m2-l3-detailed';
 
 export type ExerciseType = 
   | 'reading'
@@ -539,7 +540,13 @@ export const MODULE_2_LESSONS: Lesson[] = [
     duration: 90, // minutes
     exercises: A1_M2_L2_ALL_EXERCISES as Exercise[]
   },
-  A1_MODULE_2_LESSON_3,
+  {
+    id: 'a1-m2-l3',
+    title: 'Lección 3: Describing Places - There is/There are',
+    description: 'Practice There is/There are and prepositions with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: A1_M2_L3_ALL_EXERCISES as Exercise[]
+  },
   {
     id: 'a1-m2-l4',
     title: 'Lección 4: Free Time Activities',
