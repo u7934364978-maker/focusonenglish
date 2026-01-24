@@ -83,6 +83,7 @@ export default function SmartExerciseGenerator({
   const [userAnswers, setUserAnswers] = useState<Record<number, string>>({});
   const [showResult, setShowResult] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [apiError, setApiError] = useState<string | null>(null);
   const [sessionStats, setSessionStats] = useState<ExerciseStats>({
     total: 0,
     correct: 0,
@@ -124,108 +125,63 @@ export default function SmartExerciseGenerator({
     if (!selectedCategory) return;
 
     setLoading(true);
+    setApiError(null);
     setShowResult(false);
     setUserAnswers({});
     setCurrentQuestionIndex(0);
     setExerciseStartTime(Date.now());
 
     try {
-      // Obtener un tema aleatorio del currículo para esta categoría y nivel
       const topics = getTopicsByCategory(level, selectedCategory);
       const randomTopic = topics[Math.floor(Math.random() * topics.length)];
       
-      // Llamar a la API para generar ejercicio con IA
       const response = await fetch('/api/generate-exercise', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'x-session-id': sessionId,
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           exerciseType: getExerciseType(selectedCategory),
           topic: randomTopic?.name || selectedCategory,
-          topicKeywords: randomTopic?.keywords || [],
           difficulty: difficulty,
           level: level,
-          count: 1,
         }),
       });
 
-      if (!response.ok) {
-        throw new Error('Failed to generate exercise');
+      const data = await response.json();
+
+      if (!response.ok || !data.success) {
+        throw new Error(data.error || 'Error al conectar con la IA');
       }
 
-      const data = await response.json();
-      
-      if (data.success && data.exercises && data.exercises.length > 0) {
+      if (data.exercises && data.exercises.length > 0) {
         const exerciseData = data.exercises[0];
-        const content = exerciseData.content;
-        
-        // Transformar el ejercicio al formato esperado
+        const source = exerciseData.content;
         const questions: Question[] = [];
-        
-        // El contenido puede ser el ejercicio directamente (formato antiguo) 
-        // o estar dentro de un objeto con title, instructions, questions, etc.
-        const source = content.questions ? content : exerciseData.content;
 
         if (source.questions && Array.isArray(source.questions)) {
           questions.push(...source.questions.map((q: any, idx: number) => ({
             id: q.id || `q_${idx}`,
-            question: q.question || q.text || '',
+            question: q.question || '',
             options: q.options || [],
-            correctAnswer: q.correctAnswer || q.answer || '',
+            correctAnswer: q.correctAnswer || '',
             explanation: q.explanation || '',
-            type: q.type || exerciseData.type,
-            context: q.context || q.scenario || '',
           })));
-        } else {
-          // Fallback para estructuras simples (formato legacy o fallback simple)
-          questions.push({
-            id: source.id || `q_0`,
-            question: source.question || source.text || 'Complete el ejercicio',
-            options: source.options || [],
-            correctAnswer: source.correctAnswer || source.answer || '',
-            explanation: source.explanation || '',
-            type: exerciseData.type,
-          });
         }
 
-        const exercise: Exercise = {
-          id: exerciseData.id || `ex_${Date.now()}`,
+        setCurrentExercise({
+          id: exerciseData.id,
           type: exerciseData.type,
-          title: source.title || '',
-          instructions: source.instructions || '',
-          text: source.text || '',
+          title: source.title,
+          instructions: source.instructions,
+          text: source.text,
           questions: questions,
           topic: selectedCategory,
           difficulty: difficulty,
-        };
-        
-        setCurrentExercise(exercise);
-      } else {
-        throw new Error('No exercise data received');
+        });
       }
-    } catch (error) {
-      console.error('Error generating exercise:', error);
-      
-      // Intentar usar un fallback local más robusto si el de la API falla o no llega
-      const fallbackExercise: Exercise = {
-        id: `fallback_${Date.now()}`,
-        type: 'multiple-choice',
-        title: 'Práctica de Inglés (Modo Demo)',
-        instructions: 'El generador de IA no está disponible en este momento. Aquí tienes un ejercicio de práctica.',
-        questions: [{
-          id: 'q1',
-          question: 'If I _____ more time, I would travel around the world.',
-          options: ['A) have', 'B) had', 'C) would have', 'D) will have'],
-          correctAnswer: 'B',
-          explanation: 'Esta es una oración condicional de tipo 2 (hypothetical present/future). Usamos Past Simple en la "if-clause".',
-        }],
-        topic: selectedCategory,
-        difficulty: difficulty,
-      };
-      
-      setCurrentExercise(fallbackExercise);
+    } catch (error: any) {
+      console.error('IA Error:', error);
+      setApiError(error.message);
+      setCurrentExercise(null);
     } finally {
       setLoading(false);
     }
@@ -247,19 +203,25 @@ export default function SmartExerciseGenerator({
     if (!currentExercise || Object.keys(userAnswers).length === 0) return;
 
     const timeSpent = Math.floor((Date.now() - exerciseStartTime) / 1000);
+    const isAnalysis = currentExercise.type.includes('analysis') || currentExercise.type.includes('practice');
     
     let correctCount = 0;
     currentExercise.questions.forEach((q, idx) => {
       const userAnswer = userAnswers[idx] || '';
-      if (userAnswer.toLowerCase().trim() === q.correctAnswer.toLowerCase().trim()) {
-        correctCount++;
+      
+      if (isAnalysis) {
+        // Para tipos de análisis, cualquier respuesta no vacía es "correcta" en términos de progreso
+        if (userAnswer.trim().length > 0) correctCount++;
+      } else {
+        if (userAnswer.toLowerCase().trim() === q.correctAnswer.toLowerCase().trim()) {
+          correctCount++;
+        }
       }
     });
     
-    const allCorrect = correctCount === currentExercise.questions.length;
     setShowResult(true);
 
-    // Actualizar estadísticas
+    // Actualizar estadísticas (solo si no es análisis o si queremos contar progreso)
     const newStats: ExerciseStats = {
       total: sessionStats.total + currentExercise.questions.length,
       correct: sessionStats.correct + correctCount,
@@ -544,12 +506,12 @@ export default function SmartExerciseGenerator({
                     </div>
                   )}
 
-                  {/* Text Input (Fill in the Blank) */}
+                  {/* Text Input (Fill in the Blank / Analysis) */}
                   {(!currentQuestion.options || currentQuestion.options.length === 0) && (
                     <div className="mb-8">
                       <div className="relative">
-                        <input
-                          type="text"
+                        <textarea
+                          rows={currentExercise.type.includes('analysis') ? 4 : 1}
                           value={userAnswers[currentQuestionIndex] || ''}
                           onChange={(e) => {
                             if (!showResult) {
@@ -557,18 +519,18 @@ export default function SmartExerciseGenerator({
                             }
                           }}
                           disabled={showResult}
-                          placeholder="Escribe tu respuesta aquí..."
+                          placeholder={currentExercise.type.includes('analysis') ? "Escribe tu respuesta o ensayo aquí..." : "Escribe tu respuesta aquí..."}
                           className={`w-full px-6 py-4 border-2 rounded-xl focus:ring-4 text-lg transition-all ${
                             showResult
-                              ? (userAnswers[currentQuestionIndex]?.toLowerCase().trim() === currentQuestion.correctAnswer.toLowerCase().trim())
+                              ? (currentExercise.type.includes('analysis') || userAnswers[currentQuestionIndex]?.toLowerCase().trim() === currentQuestion.correctAnswer.toLowerCase().trim())
                                 ? 'border-green-500 bg-green-50 focus:ring-green-100'
                                 : 'border-red-500 bg-red-50 focus:ring-red-100'
                               : 'border-gray-300 focus:border-violet-500 focus:ring-violet-100'
                           }`}
                         />
                         {showResult && (
-                          <div className="absolute right-4 top-1/2 -translate-y-1/2">
-                            {userAnswers[currentQuestionIndex]?.toLowerCase().trim() === currentQuestion.correctAnswer.toLowerCase().trim() ? (
+                          <div className="absolute right-4 top-6">
+                            {(currentExercise.type.includes('analysis') || userAnswers[currentQuestionIndex]?.toLowerCase().trim() === currentQuestion.correctAnswer.toLowerCase().trim()) ? (
                               <CheckCircle2 className="w-6 h-6 text-green-600" />
                             ) : (
                               <XCircle className="w-6 h-6 text-red-600" />
@@ -576,11 +538,29 @@ export default function SmartExerciseGenerator({
                           </div>
                         )}
                       </div>
-                      {showResult && userAnswers[currentQuestionIndex]?.toLowerCase().trim() !== currentQuestion.correctAnswer.toLowerCase().trim() && (
-                        <p className="mt-3 text-sm text-green-700 font-bold">
-                          Respuesta correcta: {currentQuestion.correctAnswer}
-                        </p>
+                      {showResult && (
+                        <div className="mt-4 p-4 bg-green-50 rounded-xl border border-green-200">
+                          <p className="text-sm text-green-800 font-bold mb-1">
+                            {currentExercise.type.includes('analysis') ? 'Modelo de respuesta sugerido:' : 'Respuesta correcta:'}
+                          </p>
+                          <p className="text-green-900 font-medium">
+                            {currentQuestion.correctAnswer}
+                          </p>
+                        </div>
                       )}
+                    </div>
+                  )}
+
+                  {/* Hint Button */}
+                  {!showResult && currentQuestion.hint && (
+                    <div className="mb-6">
+                      <button
+                        onClick={() => alert(`Pista: ${currentQuestion.hint}`)}
+                        className="text-sm font-bold text-violet-600 hover:text-violet-700 flex items-center gap-1"
+                      >
+                        <Sparkles className="w-4 h-4" />
+                        ¿Necesitas una pista?
+                      </button>
                     </div>
                   )}
 
