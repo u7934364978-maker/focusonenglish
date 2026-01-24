@@ -857,6 +857,168 @@ export const A1_M1_L1_SPEAKING = {
     'You can add: "I am happy to be here"',
     'Try to speak slowly and clearly',
     'Don\'t worry about mistakes - practice makes perfect!'
+  ],
+  questions: [
+    {
+      id: 'a1-m1-l1-speak-q1',
+      type: 'speaking-prompt',
+      question: 'What is your name?',
+      targetResponse: 'My name is...',
+      expectedGrammar: 'Use: My name is [your name] or I am [your name]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q2',
+      type: 'speaking-prompt',
+      question: 'Where are you from?',
+      targetResponse: 'I am from...',
+      expectedGrammar: 'Use: I am from [country/city]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q3',
+      type: 'speaking-prompt',
+      question: 'How old are you?',
+      targetResponse: 'I am ... years old.',
+      expectedGrammar: 'Use: I am [number] years old',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q4',
+      type: 'speaking-prompt',
+      question: 'What is your job? or Are you a student?',
+      targetResponse: 'I am a...',
+      expectedGrammar: 'Use: I am a [profession] or I am a student',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q5',
+      type: 'speaking-prompt',
+      question: 'Are you happy today?',
+      targetResponse: 'Yes, I am happy. / No, I am not happy.',
+      expectedGrammar: 'Use: Yes, I am... / No, I am not...',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q6',
+      type: 'speaking-prompt',
+      question: 'What is your nationality?',
+      targetResponse: 'I am [nationality].',
+      expectedGrammar: 'Use: I am Spanish / I am American / etc.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q7',
+      type: 'speaking-prompt',
+      question: 'Are you married or single?',
+      targetResponse: 'I am married. / I am single.',
+      expectedGrammar: 'Use: I am married or I am single',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q8',
+      type: 'speaking-prompt',
+      question: 'Where is your family from?',
+      targetResponse: 'My family is from...',
+      expectedGrammar: 'Use: My family is from [place] or They are from [place]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q9',
+      type: 'speaking-prompt',
+      question: 'What is your favorite color?',
+      targetResponse: 'My favorite color is...',
+      expectedGrammar: 'Use: My favorite color is [color] or It is [color]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q10',
+      type: 'speaking-prompt',
+      question: 'Are you tired right now?',
+      targetResponse: 'Yes, I am tired. / No, I am not tired.',
+      expectedGrammar: 'Use: Yes, I am... / No, I am not...',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q11',
+      type: 'speaking-prompt',
+      question: 'What is your best friend\'s name?',
+      targetResponse: 'My best friend\'s name is... / He/She is...',
+      expectedGrammar: 'Use: His/Her name is [name] or He/She is [name]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q12',
+      type: 'speaking-prompt',
+      question: 'Are you a teacher or a student?',
+      targetResponse: 'I am a teacher. / I am a student.',
+      expectedGrammar: 'Use: I am a [profession/student]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q13',
+      type: 'speaking-prompt',
+      question: 'What city are you in now?',
+      targetResponse: 'I am in...',
+      expectedGrammar: 'Use: I am in [city name]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q14',
+      type: 'speaking-prompt',
+      question: 'Are you hungry?',
+      targetResponse: 'Yes, I am hungry. / No, I am not hungry.',
+      expectedGrammar: 'Use: Yes, I am... / No, I am not...',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q15',
+      type: 'speaking-prompt',
+      question: 'What is your mother\'s job?',
+      targetResponse: 'My mother is a... / She is a...',
+      expectedGrammar: 'Use: She is a [profession] or My mother is a [profession]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q16',
+      type: 'speaking-prompt',
+      question: 'Are you interested in learning English?',
+      targetResponse: 'Yes, I am interested. / Yes, I am.',
+      expectedGrammar: 'Use: Yes, I am interested or Yes, I am',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q17',
+      type: 'speaking-prompt',
+      question: 'What is the weather like today?',
+      targetResponse: 'It is sunny. / It is rainy. / It is cold.',
+      expectedGrammar: 'Use: It is [weather adjective]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q18',
+      type: 'speaking-prompt',
+      question: 'Are your parents at home now?',
+      targetResponse: 'Yes, they are at home. / No, they are not at home.',
+      expectedGrammar: 'Use: Yes, they are... / No, they are not...',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q19',
+      type: 'speaking-prompt',
+      question: 'What is your favorite food?',
+      targetResponse: 'My favorite food is...',
+      expectedGrammar: 'Use: My favorite food is [food] or It is [food]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q20',
+      type: 'speaking-prompt',
+      question: 'Are you ready to finish this exercise?',
+      targetResponse: 'Yes, I am ready. / No, I am not ready.',
+      expectedGrammar: 'Use: Yes, I am ready or No, I am not ready',
+      points: 1
+    }
   ]
 };
 
