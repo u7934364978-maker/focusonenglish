@@ -1195,7 +1195,19 @@ export const A1_M1_L1_VOCABULARY_1 = {
     { word: 'student', definition: 'a person who studies', example: 'She is a student.' },
     { word: 'teacher', definition: 'a person who teaches', example: 'He is a teacher.' },
     { word: 'happy', definition: 'feeling pleased', example: 'I am happy today.' },
-    { word: 'friendly', definition: 'kind and nice to others', example: 'They are friendly.' }
+    { word: 'friendly', definition: 'kind and nice to others', example: 'They are friendly.' },
+    { word: 'doctor', definition: 'a person who helps sick people', example: 'She is a doctor.' },
+    { word: 'nurse', definition: 'a person who helps doctors care for patients', example: 'He is a nurse.' },
+    { word: 'married', definition: 'having a husband or wife', example: 'I am married.' },
+    { word: 'single', definition: 'not married', example: 'She is single.' },
+    { word: 'family', definition: 'parents, children, and relatives', example: 'My family is from Italy.' },
+    { word: 'city', definition: 'a large town', example: 'London is a big city.' },
+    { word: 'home', definition: 'the place where you live', example: 'We are at home.' },
+    { word: 'nationality', definition: 'the country you belong to', example: 'My nationality is American.' },
+    { word: 'address', definition: 'where you live', example: 'What is your address?' },
+    { word: 'phone number', definition: 'numbers to call you', example: 'My phone number is 555-1234.' },
+    { word: 'email', definition: 'electronic mail address', example: 'What is your email?' },
+    { word: 'language', definition: 'words people speak', example: 'English is a language.' }
   ],
   questions: [
     {
@@ -1248,6 +1260,132 @@ export const A1_M1_L1_VOCABULARY_1 = {
       correctAnswer: 'country',
       acceptableAnswers: ['country', 'Country'],
       explanation: 'A country is the place where you are from. Example: Spain, Canada, Japan.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q7',
+      type: 'multiple-choice',
+      question: 'What is a "doctor"?',
+      options: ['A person who helps sick people', 'A person who teaches', 'A person who cooks', 'A person who drives'],
+      correctAnswer: 'A person who helps sick people',
+      explanation: 'A doctor is a medical professional who helps sick people get better.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q8',
+      type: 'multiple-choice',
+      question: 'What does "married" mean?',
+      options: ['Having a husband or wife', 'Being alone', 'Being a student', 'Being young'],
+      correctAnswer: 'Having a husband or wife',
+      explanation: 'Married means you have a husband or wife. Example: I am married to John.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q9',
+      type: 'fill-blank',
+      question: 'London is a big ___. (a large town)',
+      correctAnswer: 'city',
+      acceptableAnswers: ['city', 'City'],
+      explanation: 'A city is a large town. Example: New York is a big city.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q10',
+      type: 'multiple-choice',
+      question: 'What is "home"?',
+      options: ['The place where you live', 'A kind of food', 'A type of job', 'A feeling'],
+      correctAnswer: 'The place where you live',
+      explanation: 'Home is the place where you live. Example: I am at home.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q11',
+      type: 'fill-blank',
+      question: 'My parents and children are my ___.',
+      correctAnswer: 'family',
+      acceptableAnswers: ['family', 'Family'],
+      explanation: 'Family includes your parents, children, and relatives.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q12',
+      type: 'multiple-choice',
+      question: 'If someone is not married, they are ___.',
+      options: ['single', 'happy', 'old', 'tired'],
+      correctAnswer: 'single',
+      explanation: 'Single means not married. Example: She is single.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q13',
+      type: 'multiple-choice',
+      question: 'What is a "nurse"?',
+      options: ['A person who helps doctors', 'A type of building', 'A kind of food', 'A place to study'],
+      correctAnswer: 'A person who helps doctors',
+      explanation: 'A nurse is a person who helps doctors care for patients in hospitals.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q14',
+      type: 'fill-blank',
+      question: 'I am American. My ___ is American.',
+      correctAnswer: 'nationality',
+      acceptableAnswers: ['nationality', 'Nationality'],
+      explanation: 'Nationality is the country you belong to. Example: My nationality is Spanish.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q15',
+      type: 'multiple-choice',
+      question: 'What is "language"?',
+      options: ['Words people speak', 'A type of food', 'A place', 'A feeling'],
+      correctAnswer: 'Words people speak',
+      explanation: 'Language is the words people speak. Example: English, Spanish, French are languages.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q16',
+      type: 'fill-blank',
+      question: 'What is your ___? Where do you live?',
+      correctAnswer: 'address',
+      acceptableAnswers: ['address', 'Address'],
+      explanation: 'Address is where you live. Example: My address is 123 Main Street.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q17',
+      type: 'multiple-choice',
+      question: 'What is "email"?',
+      options: ['Electronic mail address', 'A phone number', 'A building', 'A person'],
+      correctAnswer: 'Electronic mail address',
+      explanation: 'Email is electronic mail. Example: My email is john@example.com',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q18',
+      type: 'fill-blank',
+      question: 'What is your ___ ___? I can call you. (numbers to call)',
+      correctAnswer: 'phone number',
+      acceptableAnswers: ['phone number', 'Phone number', 'telephone number', 'number'],
+      explanation: 'A phone number is numbers to call you. Example: My phone number is 555-1234.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q19',
+      type: 'multiple-choice',
+      question: 'I am a ___ because I work in a hospital and help sick people.',
+      options: ['doctor or nurse', 'teacher', 'student', 'cook'],
+      correctAnswer: 'doctor or nurse',
+      explanation: 'Doctors and nurses work in hospitals and help sick people.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v1-q20',
+      type: 'multiple-choice',
+      question: 'What do you need to give someone information about yourself?',
+      options: ['name, age, and country', 'only your name', 'only your job', 'nothing'],
+      correctAnswer: 'name, age, and country',
+      explanation: 'Personal information includes name, age, country, job, etc.',
       points: 1
     }
   ]
