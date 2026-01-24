@@ -1545,8 +1545,8 @@ export const A1_VOCABULARY_CATEGORIES = [
   { id: 'hobbies', name: 'Hobbies', items: ['Sports', 'Free time activities'] },
   { id: 'countries', name: 'Countries', items: ['Countries', 'Nationalities', 'Languages'] },
   { id: 'weather', name: 'Weather', items: ['Weather conditions', 'Temperature'] }
+];
 
-export default A1_COURSE_CONFIG;
 console.log(`✅ A1 Course Data loaded successfully`);
 console.log(`📚 Total Modules: ${ALL_MODULES.length}`);
 console.log(`📖 Total Lessons: ${TOTAL_LESSONS}`);
