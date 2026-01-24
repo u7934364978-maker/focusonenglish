@@ -36,7 +36,7 @@ function isB2CourseRoute(pathname: string): boolean {
 }
 
 function isA1CourseRoute(pathname: string): boolean {
-  return pathname.startsWith('/curso-a1') || pathname.startsWith('/aula/a1') || pathname.startsWith('/ejercicios-inteligentes/a1');
+  return pathname.startsWith('/curso-a1') || pathname.startsWith('/aula/a1') || pathname.startsWith('/ejercicios-inteligentes');
 }
 
 function isPublicRoute(pathname: string): boolean {
