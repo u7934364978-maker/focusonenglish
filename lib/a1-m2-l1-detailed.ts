@@ -38,7 +38,7 @@ const A1_M2_L1_GRAMMAR_1: Exercise = {
     },
     {
       id: 'a1-m2-l1-g1-q3',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'My father ___ (work) in an office.',
       correctAnswer: 'works',
       acceptableAnswers: ['works', 'Works'],
@@ -64,7 +64,7 @@ const A1_M2_L1_GRAMMAR_1: Exercise = {
     },
     {
       id: 'a1-m2-l1-g1-q6',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'He ___ (watch) TV in the evening.',
       correctAnswer: 'watches',
       acceptableAnswers: ['watches', 'Watches'],
@@ -108,7 +108,7 @@ const A1_M2_L1_GRAMMAR_2: Exercise = {
     },
     {
       id: 'a1-m2-l1-g2-q3',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: '___ you play tennis?',
       correctAnswer: 'Do',
       acceptableAnswers: ['Do', 'do'],
@@ -117,7 +117,7 @@ const A1_M2_L1_GRAMMAR_2: Exercise = {
     },
     {
       id: 'a1-m2-l1-g2-q4',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: '___ he live in London?',
       correctAnswer: 'Does',
       acceptableAnswers: ['Does', 'does'],
@@ -193,7 +193,7 @@ I go to bed at 10:30 PM. I need eight hours of sleep, so I try to sleep early. O
     },
     {
       id: 'a1-m2-l1-r-q4',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'Tom goes to the gym ___ times a week.',
       correctAnswer: 'three',
       acceptableAnswers: ['three', 'Three', '3'],
@@ -274,7 +274,7 @@ Sarah: You're welcome!`,
     },
     {
       id: 'a1-m2-l1-l-q2',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'Sarah wakes up at ___ AM.',
       correctAnswer: '5:30',
       acceptableAnswers: ['5:30', '5.30', 'five thirty', 'half past five'],
@@ -500,7 +500,7 @@ const A1_M2_L1_PRONUNCIATION: Exercise = {
     },
     {
       id: 'a1-m2-l1-p-q5',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'After vowels, -s usually sounds like ___.',
       correctAnswer: '/z/',
       acceptableAnswers: ['/z/', 'z'],
@@ -544,7 +544,7 @@ const A1_M2_L1_VOCABULARY_1: Exercise = {
     },
     {
       id: 'a1-m2-l1-v1-q2',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'I ___ a shower every morning. (wash my body)',
       correctAnswer: 'take',
       acceptableAnswers: ['take', 'Take'],
@@ -570,7 +570,7 @@ const A1_M2_L1_VOCABULARY_1: Exercise = {
     },
     {
       id: 'a1-m2-l1-v1-q5',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'She ___ dressed before breakfast. (puts on clothes)',
       correctAnswer: 'gets',
       acceptableAnswers: ['gets', 'Gets'],
@@ -615,7 +615,7 @@ const A1_M2_L1_VOCABULARY_2: Exercise = {
     },
     {
       id: 'a1-m2-l1-v2-q2',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'I go to the gym ___ day. (each day)',
       correctAnswer: 'every',
       acceptableAnswers: ['every', 'Every'],
@@ -641,7 +641,7 @@ const A1_M2_L1_VOCABULARY_2: Exercise = {
     },
     {
       id: 'a1-m2-l1-v2-q5',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'She ___ works late. (occasionally)',
       correctAnswer: 'sometimes',
       acceptableAnswers: ['sometimes', 'Sometimes'],

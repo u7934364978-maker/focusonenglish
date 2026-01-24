@@ -37,7 +37,7 @@ const A1_M1_L6_GRAMMAR_1: Exercise = {
     },
     {
       id: 'a1-m1-l6-g1-q3',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'This is Paul. ___ is my brother.',
       correctAnswer: 'He',
       acceptableAnswers: ['He', 'he'],
@@ -55,7 +55,7 @@ const A1_M1_L6_GRAMMAR_1: Exercise = {
     },
     {
       id: 'a1-m1-l6-g1-q5',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'Where ___ you from?',
       correctAnswer: 'are',
       acceptableAnswers: ['are', 'Are'],
@@ -96,7 +96,7 @@ const A1_M1_L6_GRAMMAR_2: Exercise = {
     },
     {
       id: 'a1-m1-l6-g2-q2',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'My sister is ___ years old. (18)',
       correctAnswer: 'eighteen',
       acceptableAnswers: ['eighteen', 'Eighteen', '18'],
@@ -114,7 +114,7 @@ const A1_M1_L6_GRAMMAR_2: Exercise = {
     },
     {
       id: 'a1-m1-l6-g2-q4',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'How old ___ your brother?',
       correctAnswer: 'is',
       acceptableAnswers: ['is', 'Is'],
@@ -282,7 +282,7 @@ Student: Thank you very much!`,
     },
     {
       id: 'a1-m1-l6-l-q3',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'Ana is ___ years old.',
       correctAnswer: '22',
       acceptableAnswers: ['22', 'twenty-two', 'twenty two'],
@@ -488,7 +488,7 @@ const A1_M1_L6_PRONUNCIATION: Exercise = {
     },
     {
       id: 'a1-m1-l6-p-q4',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'The "th" sound in "mother" is ___.',
       correctAnswer: 'voiced',
       acceptableAnswers: ['voiced', 'Voiced'],
@@ -541,7 +541,7 @@ const A1_M1_L6_VOCABULARY_1: Exercise = {
     },
     {
       id: 'a1-m1-l6-v1-q2',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'My ___ is Mexican. I am from Mexico.',
       correctAnswer: 'nationality',
       acceptableAnswers: ['nationality', 'Nationality'],
@@ -567,7 +567,7 @@ const A1_M1_L6_VOCABULARY_1: Exercise = {
     },
     {
       id: 'a1-m1-l6-v1-q5',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'How old is she? What is her ___?',
       correctAnswer: 'age',
       acceptableAnswers: ['age', 'Age'],
@@ -604,7 +604,7 @@ const A1_M1_L6_VOCABULARY_2: Exercise = {
     },
     {
       id: 'a1-m1-l6-v2-q2',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'I have one ___ (brother or sister).',
       correctAnswer: 'sibling',
       acceptableAnswers: ['sibling', 'brother', 'sister'],
@@ -622,7 +622,7 @@ const A1_M1_L6_VOCABULARY_2: Exercise = {
     },
     {
       id: 'a1-m1-l6-v2-q4',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'In 2024, I am 20 years old. I was born in ___.',
       correctAnswer: '2004',
       acceptableAnswers: ['2004', 'two thousand and four', 'two thousand four'],

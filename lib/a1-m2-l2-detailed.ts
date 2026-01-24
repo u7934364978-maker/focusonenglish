@@ -38,7 +38,7 @@ const A1_M2_L2_GRAMMAR_1: Exercise = {
     },
     {
       id: 'a1-m2-l2-g1-q3',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'What ___ you do? (ask about job)',
       correctAnswer: 'do',
       acceptableAnswers: ['do', 'Do'],
@@ -64,7 +64,7 @@ const A1_M2_L2_GRAMMAR_1: Exercise = {
     },
     {
       id: 'a1-m2-l2-g1-q6',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: '___ they speak English at work?',
       correctAnswer: 'Do',
       acceptableAnswers: ['Do', 'do'],
@@ -108,7 +108,7 @@ const A1_M2_L2_GRAMMAR_2: Exercise = {
     },
     {
       id: 'a1-m2-l2-g2-q3',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'I am ___ teacher. (a or an)',
       correctAnswer: 'a',
       acceptableAnswers: ['a', 'A'],
@@ -134,7 +134,7 @@ const A1_M2_L2_GRAMMAR_2: Exercise = {
     },
     {
       id: 'a1-m2-l2-g2-q6',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'They are ___. (no article needed)',
       correctAnswer: 'doctors',
       acceptableAnswers: ['doctors', 'Doctors', 'teachers', 'nurses', 'engineers'],
@@ -193,7 +193,7 @@ Do we all have the same schedule? No, we don't! But we all love what we do. That
     },
     {
       id: 'a1-m2-l2-r-q4',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'Anna is ___ engineer.',
       correctAnswer: 'an',
       acceptableAnswers: ['an', 'An'],
@@ -290,7 +290,7 @@ Maria: Thank you very much!`,
     },
     {
       id: 'a1-m2-l2-l-q2',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'Maria speaks Spanish, English, and ___.',
       correctAnswer: 'French',
       acceptableAnswers: ['French', 'french', 'a little French'],
@@ -507,7 +507,7 @@ const A1_M2_L2_PRONUNCIATION: Exercise = {
     },
     {
       id: 'a1-m2-l2-p-q4',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'The sound /ə/ is called the ___ sound.',
       correctAnswer: 'schwa',
       acceptableAnswers: ['schwa', 'Schwa'],
@@ -560,7 +560,7 @@ const A1_M2_L2_VOCABULARY_1: Exercise = {
     },
     {
       id: 'a1-m2-l2-v1-q2',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'A person who teaches students is a ___.',
       correctAnswer: 'teacher',
       acceptableAnswers: ['teacher', 'Teacher'],
@@ -586,7 +586,7 @@ const A1_M2_L2_VOCABULARY_1: Exercise = {
     },
     {
       id: 'a1-m2-l2-v1-q5',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'A ___ helps doctors care for patients.',
       correctAnswer: 'nurse',
       acceptableAnswers: ['nurse', 'Nurse'],
@@ -631,7 +631,7 @@ const A1_M2_L2_VOCABULARY_2: Exercise = {
     },
     {
       id: 'a1-m2-l2-v2-q2',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'A person you work with is your ___.',
       correctAnswer: 'colleague',
       acceptableAnswers: ['colleague', 'Colleague', 'coworker', 'co-worker'],
@@ -657,7 +657,7 @@ const A1_M2_L2_VOCABULARY_2: Exercise = {
     },
     {
       id: 'a1-m2-l2-v2-q5',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'If you work all normal hours, you have a ___-time job.',
       correctAnswer: 'full',
       acceptableAnswers: ['full', 'Full'],

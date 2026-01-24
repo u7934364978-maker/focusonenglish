@@ -18,7 +18,7 @@ const A1_M1_L7_GRAMMAR_1: Exercise = {
   questions: [
     {
       id: 'a1-m1-l7-g1-q1',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'My name ___ Carlos and I ___ from Mexico.',
       correctAnswer: 'is, am',
       acceptableAnswers: ['is, am', 'is am'],
@@ -36,7 +36,7 @@ const A1_M1_L7_GRAMMAR_1: Exercise = {
     },
     {
       id: 'a1-m1-l7-g1-q3',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'This is Maria. ___ is my sister. ___ is 18 years old.',
       correctAnswer: 'She, She',
       acceptableAnswers: ['She, She', 'she, she', 'She she'],
@@ -62,7 +62,7 @@ const A1_M1_L7_GRAMMAR_1: Exercise = {
     },
     {
       id: 'a1-m1-l7-g1-q6',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'I have two ___. They are my brother\'s children.',
       correctAnswer: 'nephews',
       acceptableAnswers: ['nephews', 'Nephews'],
@@ -94,7 +94,7 @@ const A1_M1_L7_GRAMMAR_2: Exercise = {
     },
     {
       id: 'a1-m1-l7-g2-q2',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'My grandmother is ___. She was born in 1943.',
       correctAnswer: '81',
       acceptableAnswers: ['81', 'eighty-one', 'eighty one'],
@@ -120,7 +120,7 @@ const A1_M1_L7_GRAMMAR_2: Exercise = {
     },
     {
       id: 'a1-m1-l7-g2-q5',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: '___ you married? - Yes, I ___. My wife is Japanese.',
       correctAnswer: 'Are, am',
       acceptableAnswers: ['Are, am', 'are, am', 'Are am'],
@@ -190,7 +190,7 @@ Family is very important to us, even when we live in different countries!`,
     },
     {
       id: 'a1-m1-l7-r-q4',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'Lisa has ___ children.',
       correctAnswer: 'two',
       acceptableAnswers: ['two', 'Two', '2'],
@@ -273,7 +273,7 @@ Sarah: Thank you! You too!`,
     },
     {
       id: 'a1-m1-l7-l-q2',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'Sarah is ___ years old.',
       correctAnswer: '22',
       acceptableAnswers: ['22', 'twenty-two', 'twenty two'],
@@ -492,7 +492,7 @@ const A1_M1_L7_PRONUNCIATION: Exercise = {
     },
     {
       id: 'a1-m1-l7-p-q4',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'In "mother" and "brother", the "th" sound is ___.',
       correctAnswer: 'voiced',
       acceptableAnswers: ['voiced', 'Voiced'],
@@ -545,7 +545,7 @@ const A1_M1_L7_VOCABULARY_1: Exercise = {
     },
     {
       id: 'a1-m1-l7-v1-q2',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'When you meet someone new, you ___ yourself.',
       correctAnswer: 'introduce',
       acceptableAnswers: ['introduce', 'Introduce'],
@@ -571,7 +571,7 @@ const A1_M1_L7_VOCABULARY_1: Exercise = {
     },
     {
       id: 'a1-m1-l7-v1-q5',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'Your brothers and sisters are your ___.',
       correctAnswer: 'siblings',
       acceptableAnswers: ['siblings', 'Siblings'],
@@ -608,7 +608,7 @@ const A1_M1_L7_VOCABULARY_2: Exercise = {
     },
     {
       id: 'a1-m1-l7-v2-q2',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'My aunt\'s daughter is my ___.',
       correctAnswer: 'cousin',
       acceptableAnswers: ['cousin', 'Cousin'],
@@ -634,7 +634,7 @@ const A1_M1_L7_VOCABULARY_2: Exercise = {
     },
     {
       id: 'a1-m1-l7-v2-q5',
-      type: 'fill-in',
+      type: 'fill-blank',
       question: 'Your grandmother and grandfather are your ___.',
       correctAnswer: 'grandparents',
       acceptableAnswers: ['grandparents', 'Grandparents'],
