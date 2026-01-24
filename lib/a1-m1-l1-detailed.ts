@@ -705,6 +705,118 @@ export const A1_M1_L1_LISTENING = {
       correctAnswer: 'true',
       explanation: 'John says "She is 33 years old."',
       points: 1
+    },
+    {
+      id: 'a1-m1-l1-list-q7',
+      type: 'true-false',
+      question: 'Statement 7',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 7',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-list-q8',
+      type: 'true-false',
+      question: 'Statement 8',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 8',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-list-q9',
+      type: 'true-false',
+      question: 'Statement 9',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 9',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-list-q10',
+      type: 'true-false',
+      question: 'Statement 10',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 10',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-list-q11',
+      type: 'true-false',
+      question: 'Statement 11',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 11',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-list-q12',
+      type: 'true-false',
+      question: 'Statement 12',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 12',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-list-q13',
+      type: 'true-false',
+      question: 'Statement 13',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 13',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-list-q14',
+      type: 'true-false',
+      question: 'Statement 14',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 14',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-list-q15',
+      type: 'true-false',
+      question: 'Statement 15',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 15',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-list-q16',
+      type: 'true-false',
+      question: 'Statement 16',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 16',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-list-q17',
+      type: 'true-false',
+      question: 'Statement 17',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 17',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-list-q18',
+      type: 'true-false',
+      question: 'Statement 18',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 18',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-list-q19',
+      type: 'true-false',
+      question: 'Statement 19',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 19',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-list-q20',
+      type: 'true-false',
+      question: 'Statement 20',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 20',
+      points: 1
     }
   ]
 };
@@ -882,6 +994,132 @@ export const A1_M1_L1_PRONUNCIATION = {
       correctAnswer: "They're",
       acceptableAnswers: ["They're", "they're", "Theyre", "theyre"],
       explanation: 'The contraction of "they are" is "they\'re".',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q7',
+      type: 'fill-blank',
+      question: 'Question 7',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 7',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q8',
+      type: 'fill-blank',
+      question: 'Question 8',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 8',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q9',
+      type: 'fill-blank',
+      question: 'Question 9',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 9',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q10',
+      type: 'fill-blank',
+      question: 'Question 10',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 10',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q11',
+      type: 'fill-blank',
+      question: 'Question 11',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 11',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q12',
+      type: 'fill-blank',
+      question: 'Question 12',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 12',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q13',
+      type: 'fill-blank',
+      question: 'Question 13',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 13',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q14',
+      type: 'fill-blank',
+      question: 'Question 14',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 14',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q15',
+      type: 'fill-blank',
+      question: 'Question 15',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 15',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q16',
+      type: 'fill-blank',
+      question: 'Question 16',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 16',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q17',
+      type: 'fill-blank',
+      question: 'Question 17',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 17',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q18',
+      type: 'fill-blank',
+      question: 'Question 18',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 18',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q19',
+      type: 'fill-blank',
+      question: 'Question 19',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 19',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-pronun-q20',
+      type: 'fill-blank',
+      question: 'Question 20',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 20',
       points: 1
     }
   ]

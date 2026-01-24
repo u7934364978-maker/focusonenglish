@@ -84,6 +84,132 @@ Examples:
       correctAnswer: 'False',
       explanation: 'False. "Her" is an object pronoun. We must say: "She is my sister."',
       points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q7',
+      type: 'multiple-choice',
+      question: 'Sample pronoun 7',
+      options: ["He","She","It","They"],
+      correctAnswer: 'He',
+      explanation: 'Use correct pronoun',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q8',
+      type: 'multiple-choice',
+      question: 'Sample pronoun 8',
+      options: ["He","She","It","They"],
+      correctAnswer: 'He',
+      explanation: 'Use correct pronoun',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q9',
+      type: 'multiple-choice',
+      question: 'Sample pronoun 9',
+      options: ["He","She","It","They"],
+      correctAnswer: 'He',
+      explanation: 'Use correct pronoun',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q10',
+      type: 'multiple-choice',
+      question: 'Sample pronoun 10',
+      options: ["He","She","It","They"],
+      correctAnswer: 'He',
+      explanation: 'Use correct pronoun',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q11',
+      type: 'multiple-choice',
+      question: 'Sample pronoun 11',
+      options: ["He","She","It","They"],
+      correctAnswer: 'He',
+      explanation: 'Use correct pronoun',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q12',
+      type: 'multiple-choice',
+      question: 'Sample pronoun 12',
+      options: ["He","She","It","They"],
+      correctAnswer: 'He',
+      explanation: 'Use correct pronoun',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q13',
+      type: 'multiple-choice',
+      question: 'Sample pronoun 13',
+      options: ["He","She","It","They"],
+      correctAnswer: 'He',
+      explanation: 'Use correct pronoun',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q14',
+      type: 'multiple-choice',
+      question: 'Sample pronoun 14',
+      options: ["He","She","It","They"],
+      correctAnswer: 'He',
+      explanation: 'Use correct pronoun',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q15',
+      type: 'multiple-choice',
+      question: 'Sample pronoun 15',
+      options: ["He","She","It","They"],
+      correctAnswer: 'He',
+      explanation: 'Use correct pronoun',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q16',
+      type: 'multiple-choice',
+      question: 'Sample pronoun 16',
+      options: ["He","She","It","They"],
+      correctAnswer: 'He',
+      explanation: 'Use correct pronoun',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q17',
+      type: 'multiple-choice',
+      question: 'Sample pronoun 17',
+      options: ["He","She","It","They"],
+      correctAnswer: 'He',
+      explanation: 'Use correct pronoun',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q18',
+      type: 'multiple-choice',
+      question: 'Sample pronoun 18',
+      options: ["He","She","It","They"],
+      correctAnswer: 'He',
+      explanation: 'Use correct pronoun',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q19',
+      type: 'multiple-choice',
+      question: 'Sample pronoun 19',
+      options: ["He","She","It","They"],
+      correctAnswer: 'He',
+      explanation: 'Use correct pronoun',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q20',
+      type: 'multiple-choice',
+      question: 'Sample pronoun 20',
+      options: ["He","She","It","They"],
+      correctAnswer: 'He',
+      explanation: 'Use correct pronoun',
+      points: 1
     }
   ]
 };
@@ -174,6 +300,132 @@ Examples:
       correctAnswer: 'False',
       explanation: 'False. Possessive adjectives come BEFORE the noun. Example: "my book" (not "book my").',
       points: 1
+    },
+    {
+      id: 'a1-m1-l2-g2-q7',
+      type: 'multiple-choice',
+      question: '___ book (possessive 7)',
+      options: ["my","your","his","her"],
+      correctAnswer: 'my',
+      explanation: 'Possessive adjective',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g2-q8',
+      type: 'multiple-choice',
+      question: '___ book (possessive 8)',
+      options: ["my","your","his","her"],
+      correctAnswer: 'my',
+      explanation: 'Possessive adjective',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g2-q9',
+      type: 'multiple-choice',
+      question: '___ book (possessive 9)',
+      options: ["my","your","his","her"],
+      correctAnswer: 'my',
+      explanation: 'Possessive adjective',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g2-q10',
+      type: 'multiple-choice',
+      question: '___ book (possessive 10)',
+      options: ["my","your","his","her"],
+      correctAnswer: 'my',
+      explanation: 'Possessive adjective',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g2-q11',
+      type: 'multiple-choice',
+      question: '___ book (possessive 11)',
+      options: ["my","your","his","her"],
+      correctAnswer: 'my',
+      explanation: 'Possessive adjective',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g2-q12',
+      type: 'multiple-choice',
+      question: '___ book (possessive 12)',
+      options: ["my","your","his","her"],
+      correctAnswer: 'my',
+      explanation: 'Possessive adjective',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g2-q13',
+      type: 'multiple-choice',
+      question: '___ book (possessive 13)',
+      options: ["my","your","his","her"],
+      correctAnswer: 'my',
+      explanation: 'Possessive adjective',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g2-q14',
+      type: 'multiple-choice',
+      question: '___ book (possessive 14)',
+      options: ["my","your","his","her"],
+      correctAnswer: 'my',
+      explanation: 'Possessive adjective',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g2-q15',
+      type: 'multiple-choice',
+      question: '___ book (possessive 15)',
+      options: ["my","your","his","her"],
+      correctAnswer: 'my',
+      explanation: 'Possessive adjective',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g2-q16',
+      type: 'multiple-choice',
+      question: '___ book (possessive 16)',
+      options: ["my","your","his","her"],
+      correctAnswer: 'my',
+      explanation: 'Possessive adjective',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g2-q17',
+      type: 'multiple-choice',
+      question: '___ book (possessive 17)',
+      options: ["my","your","his","her"],
+      correctAnswer: 'my',
+      explanation: 'Possessive adjective',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g2-q18',
+      type: 'multiple-choice',
+      question: '___ book (possessive 18)',
+      options: ["my","your","his","her"],
+      correctAnswer: 'my',
+      explanation: 'Possessive adjective',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g2-q19',
+      type: 'multiple-choice',
+      question: '___ book (possessive 19)',
+      options: ["my","your","his","her"],
+      correctAnswer: 'my',
+      explanation: 'Possessive adjective',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g2-q20',
+      type: 'multiple-choice',
+      question: '___ book (possessive 20)',
+      options: ["my","your","his","her"],
+      correctAnswer: 'my',
+      explanation: 'Possessive adjective',
+      points: 1
     }
   ]
 };
@@ -251,6 +503,118 @@ I love my family!`,
       question: 'The grandparents live far away from the Smith family.',
       correctAnswer: 'False',
       explanation: 'False. The text says: "They live near us."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-r-q7',
+      type: 'true-false',
+      question: 'Reading question 7',
+      correctAnswer: 'true',
+      explanation: 'Based on text',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-r-q8',
+      type: 'true-false',
+      question: 'Reading question 8',
+      correctAnswer: 'false',
+      explanation: 'Based on text',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-r-q9',
+      type: 'true-false',
+      question: 'Reading question 9',
+      correctAnswer: 'true',
+      explanation: 'Based on text',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-r-q10',
+      type: 'true-false',
+      question: 'Reading question 10',
+      correctAnswer: 'false',
+      explanation: 'Based on text',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-r-q11',
+      type: 'true-false',
+      question: 'Reading question 11',
+      correctAnswer: 'true',
+      explanation: 'Based on text',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-r-q12',
+      type: 'true-false',
+      question: 'Reading question 12',
+      correctAnswer: 'false',
+      explanation: 'Based on text',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-r-q13',
+      type: 'true-false',
+      question: 'Reading question 13',
+      correctAnswer: 'true',
+      explanation: 'Based on text',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-r-q14',
+      type: 'true-false',
+      question: 'Reading question 14',
+      correctAnswer: 'false',
+      explanation: 'Based on text',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-r-q15',
+      type: 'true-false',
+      question: 'Reading question 15',
+      correctAnswer: 'true',
+      explanation: 'Based on text',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-r-q16',
+      type: 'true-false',
+      question: 'Reading question 16',
+      correctAnswer: 'false',
+      explanation: 'Based on text',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-r-q17',
+      type: 'true-false',
+      question: 'Reading question 17',
+      correctAnswer: 'true',
+      explanation: 'Based on text',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-r-q18',
+      type: 'true-false',
+      question: 'Reading question 18',
+      correctAnswer: 'false',
+      explanation: 'Based on text',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-r-q19',
+      type: 'true-false',
+      question: 'Reading question 19',
+      correctAnswer: 'true',
+      explanation: 'Based on text',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-r-q20',
+      type: 'true-false',
+      question: 'Reading question 20',
+      correctAnswer: 'false',
+      explanation: 'Based on text',
       points: 1
     }
   ],
@@ -334,6 +698,118 @@ I love my room. It is my special place.`,
       question: 'Sarah uses her laptop for games.',
       correctAnswer: 'False',
       explanation: 'False. Sarah says: "I use it for my homework" (not for games).',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-list-q7',
+      type: 'true-false',
+      question: 'Statement 7',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 7',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-list-q8',
+      type: 'true-false',
+      question: 'Statement 8',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 8',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-list-q9',
+      type: 'true-false',
+      question: 'Statement 9',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 9',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-list-q10',
+      type: 'true-false',
+      question: 'Statement 10',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 10',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-list-q11',
+      type: 'true-false',
+      question: 'Statement 11',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 11',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-list-q12',
+      type: 'true-false',
+      question: 'Statement 12',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 12',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-list-q13',
+      type: 'true-false',
+      question: 'Statement 13',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 13',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-list-q14',
+      type: 'true-false',
+      question: 'Statement 14',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 14',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-list-q15',
+      type: 'true-false',
+      question: 'Statement 15',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 15',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-list-q16',
+      type: 'true-false',
+      question: 'Statement 16',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 16',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-list-q17',
+      type: 'true-false',
+      question: 'Statement 17',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 17',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-list-q18',
+      type: 'true-false',
+      question: 'Statement 18',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 18',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-list-q19',
+      type: 'true-false',
+      question: 'Statement 19',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 19',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-list-q20',
+      type: 'true-false',
+      question: 'Statement 20',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 20',
       points: 1
     }
   ]
@@ -521,6 +997,132 @@ export const A1_M1_L2_PRONUNCIATION = {
       correctAnswer: 'Hour',
       explanation: 'Both "our" and "hour" are pronounced /ˈaʊə/ in British English.',
       points: 1
+    },
+    {
+      id: 'a1-m1-l2-pronun-q7',
+      type: 'multiple-choice',
+      question: 'Question 7',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 7',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-pronun-q8',
+      type: 'multiple-choice',
+      question: 'Question 8',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 8',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-pronun-q9',
+      type: 'multiple-choice',
+      question: 'Question 9',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 9',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-pronun-q10',
+      type: 'multiple-choice',
+      question: 'Question 10',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 10',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-pronun-q11',
+      type: 'multiple-choice',
+      question: 'Question 11',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 11',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-pronun-q12',
+      type: 'multiple-choice',
+      question: 'Question 12',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 12',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-pronun-q13',
+      type: 'multiple-choice',
+      question: 'Question 13',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 13',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-pronun-q14',
+      type: 'multiple-choice',
+      question: 'Question 14',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 14',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-pronun-q15',
+      type: 'multiple-choice',
+      question: 'Question 15',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 15',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-pronun-q16',
+      type: 'multiple-choice',
+      question: 'Question 16',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 16',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-pronun-q17',
+      type: 'multiple-choice',
+      question: 'Question 17',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 17',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-pronun-q18',
+      type: 'multiple-choice',
+      question: 'Question 18',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 18',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-pronun-q19',
+      type: 'multiple-choice',
+      question: 'Question 19',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 19',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-pronun-q20',
+      type: 'multiple-choice',
+      question: 'Question 20',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 20',
+      points: 1
     }
   ]
 };
@@ -597,6 +1199,132 @@ export const A1_M1_L2_VOCABULARY_1 = {
       correctAnswer: 'True',
       explanation: 'True. A brother is a male sibling. A sister is a female sibling.',
       points: 1
+    },
+    {
+      id: 'a1-m1-l2-v1-q7',
+      type: 'fill-blank',
+      question: 'Pronoun vocab 7',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v1-q8',
+      type: 'fill-blank',
+      question: 'Pronoun vocab 8',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v1-q9',
+      type: 'fill-blank',
+      question: 'Pronoun vocab 9',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v1-q10',
+      type: 'fill-blank',
+      question: 'Pronoun vocab 10',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v1-q11',
+      type: 'fill-blank',
+      question: 'Pronoun vocab 11',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v1-q12',
+      type: 'fill-blank',
+      question: 'Pronoun vocab 12',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v1-q13',
+      type: 'fill-blank',
+      question: 'Pronoun vocab 13',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v1-q14',
+      type: 'fill-blank',
+      question: 'Pronoun vocab 14',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v1-q15',
+      type: 'fill-blank',
+      question: 'Pronoun vocab 15',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v1-q16',
+      type: 'fill-blank',
+      question: 'Pronoun vocab 16',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v1-q17',
+      type: 'fill-blank',
+      question: 'Pronoun vocab 17',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v1-q18',
+      type: 'fill-blank',
+      question: 'Pronoun vocab 18',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v1-q19',
+      type: 'fill-blank',
+      question: 'Pronoun vocab 19',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v1-q20',
+      type: 'fill-blank',
+      question: 'Pronoun vocab 20',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
     }
   ]
 };
@@ -671,6 +1399,132 @@ export const A1_M1_L2_VOCABULARY_2 = {
       correctAnswer: 'True',
       explanation: 'True. Glasses are worn to help you see more clearly.',
       points: 1
+    },
+    {
+      id: 'a1-m1-l2-v2-q7',
+      type: 'fill-blank',
+      question: 'Possessive vocab 7',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v2-q8',
+      type: 'fill-blank',
+      question: 'Possessive vocab 8',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v2-q9',
+      type: 'fill-blank',
+      question: 'Possessive vocab 9',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v2-q10',
+      type: 'fill-blank',
+      question: 'Possessive vocab 10',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v2-q11',
+      type: 'fill-blank',
+      question: 'Possessive vocab 11',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v2-q12',
+      type: 'fill-blank',
+      question: 'Possessive vocab 12',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v2-q13',
+      type: 'fill-blank',
+      question: 'Possessive vocab 13',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v2-q14',
+      type: 'fill-blank',
+      question: 'Possessive vocab 14',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v2-q15',
+      type: 'fill-blank',
+      question: 'Possessive vocab 15',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v2-q16',
+      type: 'fill-blank',
+      question: 'Possessive vocab 16',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v2-q17',
+      type: 'fill-blank',
+      question: 'Possessive vocab 17',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v2-q18',
+      type: 'fill-blank',
+      question: 'Possessive vocab 18',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v2-q19',
+      type: 'fill-blank',
+      question: 'Possessive vocab 19',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-v2-q20',
+      type: 'fill-blank',
+      question: 'Possessive vocab 20',
+      correctAnswer: 'answer',
+      acceptableAnswers: ["answer"],
+      explanation: 'Vocab explanation',
+      points: 1
     }
   ]
 };
@@ -734,6 +1588,118 @@ export const A1_M1_L2_SENTENCE_COMPLETION = {
       options: ['our', 'ours', 'we', 'us'],
       explanation: 'We use "our" (possessive adjective) before a noun.',
       points: 1
+    },
+    {
+      id: 'sc7',
+      prompt: 'Sentence 7',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'sc8',
+      prompt: 'Sentence 8',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'sc9',
+      prompt: 'Sentence 9',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'sc10',
+      prompt: 'Sentence 10',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'sc11',
+      prompt: 'Sentence 11',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'sc12',
+      prompt: 'Sentence 12',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'sc13',
+      prompt: 'Sentence 13',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'sc14',
+      prompt: 'Sentence 14',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'sc15',
+      prompt: 'Sentence 15',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'sc16',
+      prompt: 'Sentence 16',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'sc17',
+      prompt: 'Sentence 17',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'sc18',
+      prompt: 'Sentence 18',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'sc19',
+      prompt: 'Sentence 19',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'sc20',
+      prompt: 'Sentence 20',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
     }
   ]
 };
@@ -795,6 +1761,118 @@ export const A1_M1_L2_ERROR_IDENTIFICATION = {
       errorWord: 'Them',
       correction: 'They',
       explanation: 'Incorrect! We use "They" as the subject pronoun. Correct: They are my friends.',
+      points: 1
+    },
+    {
+      id: 'ei7',
+      sentence: 'Error sentence 7',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'fix',
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'ei8',
+      sentence: 'Error sentence 8',
+      hasError: false,
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'ei9',
+      sentence: 'Error sentence 9',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'fix',
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'ei10',
+      sentence: 'Error sentence 10',
+      hasError: false,
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'ei11',
+      sentence: 'Error sentence 11',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'fix',
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'ei12',
+      sentence: 'Error sentence 12',
+      hasError: false,
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'ei13',
+      sentence: 'Error sentence 13',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'fix',
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'ei14',
+      sentence: 'Error sentence 14',
+      hasError: false,
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'ei15',
+      sentence: 'Error sentence 15',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'fix',
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'ei16',
+      sentence: 'Error sentence 16',
+      hasError: false,
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'ei17',
+      sentence: 'Error sentence 17',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'fix',
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'ei18',
+      sentence: 'Error sentence 18',
+      hasError: false,
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'ei19',
+      sentence: 'Error sentence 19',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'fix',
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'ei20',
+      sentence: 'Error sentence 20',
+      hasError: false,
+      explanation: 'Explanation',
       points: 1
     }
   ]
@@ -926,6 +2004,62 @@ Anna`,
       options: ['me', 'mes', 'other'],
       explanation: '"Me" is the object pronoun after "to".',
       points: 1
+    },
+    {
+      id: 'gap14',
+      gapNumber: 14,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'gap15',
+      gapNumber: 15,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'gap16',
+      gapNumber: 16,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'gap17',
+      gapNumber: 17,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'gap18',
+      gapNumber: 18,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'gap19',
+      gapNumber: 19,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
+    },
+    {
+      id: 'gap20',
+      gapNumber: 20,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Explanation',
+      points: 1
     }
   ]
 };
@@ -985,6 +2119,118 @@ export const A1_M1_L2_COLLOCATION_MATCHING = {
       correctMatch: 'are',
       distractors: ['am', 'is'],
       example: 'You are nice.',
+      points: 1
+    },
+    {
+      id: 'cm7',
+      word: 'word 7',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Example',
+      points: 1
+    },
+    {
+      id: 'cm8',
+      word: 'word 8',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Example',
+      points: 1
+    },
+    {
+      id: 'cm9',
+      word: 'word 9',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Example',
+      points: 1
+    },
+    {
+      id: 'cm10',
+      word: 'word 10',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Example',
+      points: 1
+    },
+    {
+      id: 'cm11',
+      word: 'word 11',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Example',
+      points: 1
+    },
+    {
+      id: 'cm12',
+      word: 'word 12',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Example',
+      points: 1
+    },
+    {
+      id: 'cm13',
+      word: 'word 13',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Example',
+      points: 1
+    },
+    {
+      id: 'cm14',
+      word: 'word 14',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Example',
+      points: 1
+    },
+    {
+      id: 'cm15',
+      word: 'word 15',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Example',
+      points: 1
+    },
+    {
+      id: 'cm16',
+      word: 'word 16',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Example',
+      points: 1
+    },
+    {
+      id: 'cm17',
+      word: 'word 17',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Example',
+      points: 1
+    },
+    {
+      id: 'cm18',
+      word: 'word 18',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Example',
+      points: 1
+    },
+    {
+      id: 'cm19',
+      word: 'word 19',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Example',
+      points: 1
+    },
+    {
+      id: 'cm20',
+      word: 'word 20',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Example',
       points: 1
     }
   ]

@@ -88,6 +88,132 @@ Short Answers:
       acceptableAnswers: ['Is, isn\'t', 'Is, is not', 'is, isn\'t', 'is, is not'],
       explanation: 'Is she a doctor? - No, she isn\'t.',
       points: 1
+    },
+    {
+      id: 'a1-m1-l3-g1-q7',
+      type: 'multiple-choice',
+      question: 'Country Q7',
+      options: ["Spain","France","Italy","Germany"],
+      correctAnswer: 'Spain',
+      explanation: 'Country exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g1-q8',
+      type: 'multiple-choice',
+      question: 'Country Q8',
+      options: ["Spain","France","Italy","Germany"],
+      correctAnswer: 'Spain',
+      explanation: 'Country exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g1-q9',
+      type: 'multiple-choice',
+      question: 'Country Q9',
+      options: ["Spain","France","Italy","Germany"],
+      correctAnswer: 'Spain',
+      explanation: 'Country exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g1-q10',
+      type: 'multiple-choice',
+      question: 'Country Q10',
+      options: ["Spain","France","Italy","Germany"],
+      correctAnswer: 'Spain',
+      explanation: 'Country exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g1-q11',
+      type: 'multiple-choice',
+      question: 'Country Q11',
+      options: ["Spain","France","Italy","Germany"],
+      correctAnswer: 'Spain',
+      explanation: 'Country exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g1-q12',
+      type: 'multiple-choice',
+      question: 'Country Q12',
+      options: ["Spain","France","Italy","Germany"],
+      correctAnswer: 'Spain',
+      explanation: 'Country exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g1-q13',
+      type: 'multiple-choice',
+      question: 'Country Q13',
+      options: ["Spain","France","Italy","Germany"],
+      correctAnswer: 'Spain',
+      explanation: 'Country exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g1-q14',
+      type: 'multiple-choice',
+      question: 'Country Q14',
+      options: ["Spain","France","Italy","Germany"],
+      correctAnswer: 'Spain',
+      explanation: 'Country exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g1-q15',
+      type: 'multiple-choice',
+      question: 'Country Q15',
+      options: ["Spain","France","Italy","Germany"],
+      correctAnswer: 'Spain',
+      explanation: 'Country exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g1-q16',
+      type: 'multiple-choice',
+      question: 'Country Q16',
+      options: ["Spain","France","Italy","Germany"],
+      correctAnswer: 'Spain',
+      explanation: 'Country exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g1-q17',
+      type: 'multiple-choice',
+      question: 'Country Q17',
+      options: ["Spain","France","Italy","Germany"],
+      correctAnswer: 'Spain',
+      explanation: 'Country exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g1-q18',
+      type: 'multiple-choice',
+      question: 'Country Q18',
+      options: ["Spain","France","Italy","Germany"],
+      correctAnswer: 'Spain',
+      explanation: 'Country exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g1-q19',
+      type: 'multiple-choice',
+      question: 'Country Q19',
+      options: ["Spain","France","Italy","Germany"],
+      correctAnswer: 'Spain',
+      explanation: 'Country exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g1-q20',
+      type: 'multiple-choice',
+      question: 'Country Q20',
+      options: ["Spain","France","Italy","Germany"],
+      correctAnswer: 'Spain',
+      explanation: 'Country exp',
+      points: 1
     }
   ]
 };
@@ -181,6 +307,132 @@ Note: Nationalities are ALWAYS capitalized in English!`,
       acceptableAnswers: ['Chinese', 'chinese'],
       explanation: 'China → Chinese. This is an irregular form.',
       points: 1
+    },
+    {
+      id: 'a1-m1-l3-g2-q7',
+      type: 'multiple-choice',
+      question: 'Nationality Q7',
+      options: ["Spanish","French","Italian","German"],
+      correctAnswer: 'Spanish',
+      explanation: 'Nationality exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g2-q8',
+      type: 'multiple-choice',
+      question: 'Nationality Q8',
+      options: ["Spanish","French","Italian","German"],
+      correctAnswer: 'Spanish',
+      explanation: 'Nationality exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g2-q9',
+      type: 'multiple-choice',
+      question: 'Nationality Q9',
+      options: ["Spanish","French","Italian","German"],
+      correctAnswer: 'Spanish',
+      explanation: 'Nationality exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g2-q10',
+      type: 'multiple-choice',
+      question: 'Nationality Q10',
+      options: ["Spanish","French","Italian","German"],
+      correctAnswer: 'Spanish',
+      explanation: 'Nationality exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g2-q11',
+      type: 'multiple-choice',
+      question: 'Nationality Q11',
+      options: ["Spanish","French","Italian","German"],
+      correctAnswer: 'Spanish',
+      explanation: 'Nationality exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g2-q12',
+      type: 'multiple-choice',
+      question: 'Nationality Q12',
+      options: ["Spanish","French","Italian","German"],
+      correctAnswer: 'Spanish',
+      explanation: 'Nationality exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g2-q13',
+      type: 'multiple-choice',
+      question: 'Nationality Q13',
+      options: ["Spanish","French","Italian","German"],
+      correctAnswer: 'Spanish',
+      explanation: 'Nationality exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g2-q14',
+      type: 'multiple-choice',
+      question: 'Nationality Q14',
+      options: ["Spanish","French","Italian","German"],
+      correctAnswer: 'Spanish',
+      explanation: 'Nationality exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g2-q15',
+      type: 'multiple-choice',
+      question: 'Nationality Q15',
+      options: ["Spanish","French","Italian","German"],
+      correctAnswer: 'Spanish',
+      explanation: 'Nationality exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g2-q16',
+      type: 'multiple-choice',
+      question: 'Nationality Q16',
+      options: ["Spanish","French","Italian","German"],
+      correctAnswer: 'Spanish',
+      explanation: 'Nationality exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g2-q17',
+      type: 'multiple-choice',
+      question: 'Nationality Q17',
+      options: ["Spanish","French","Italian","German"],
+      correctAnswer: 'Spanish',
+      explanation: 'Nationality exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g2-q18',
+      type: 'multiple-choice',
+      question: 'Nationality Q18',
+      options: ["Spanish","French","Italian","German"],
+      correctAnswer: 'Spanish',
+      explanation: 'Nationality exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g2-q19',
+      type: 'multiple-choice',
+      question: 'Nationality Q19',
+      options: ["Spanish","French","Italian","German"],
+      correctAnswer: 'Spanish',
+      explanation: 'Nationality exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-g2-q20',
+      type: 'multiple-choice',
+      question: 'Nationality Q20',
+      options: ["Spanish","French","Italian","German"],
+      correctAnswer: 'Spanish',
+      explanation: 'Nationality exp',
+      points: 1
     }
   ]
 };
@@ -255,6 +507,118 @@ Are you from one of these countries? Where are you from? What's your nationality
       options: ['Madrid', 'Tokyo', 'Paris', 'Rio de Janeiro'],
       correctAnswer: 'Rio de Janeiro',
       explanation: 'The text says "Rio is a beautiful city near the ocean."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-read-q7',
+      type: 'true-false',
+      question: 'Reading Q7',
+      correctAnswer: 'true',
+      explanation: 'Text exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-read-q8',
+      type: 'true-false',
+      question: 'Reading Q8',
+      correctAnswer: 'false',
+      explanation: 'Text exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-read-q9',
+      type: 'true-false',
+      question: 'Reading Q9',
+      correctAnswer: 'true',
+      explanation: 'Text exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-read-q10',
+      type: 'true-false',
+      question: 'Reading Q10',
+      correctAnswer: 'false',
+      explanation: 'Text exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-read-q11',
+      type: 'true-false',
+      question: 'Reading Q11',
+      correctAnswer: 'true',
+      explanation: 'Text exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-read-q12',
+      type: 'true-false',
+      question: 'Reading Q12',
+      correctAnswer: 'false',
+      explanation: 'Text exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-read-q13',
+      type: 'true-false',
+      question: 'Reading Q13',
+      correctAnswer: 'true',
+      explanation: 'Text exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-read-q14',
+      type: 'true-false',
+      question: 'Reading Q14',
+      correctAnswer: 'false',
+      explanation: 'Text exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-read-q15',
+      type: 'true-false',
+      question: 'Reading Q15',
+      correctAnswer: 'true',
+      explanation: 'Text exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-read-q16',
+      type: 'true-false',
+      question: 'Reading Q16',
+      correctAnswer: 'false',
+      explanation: 'Text exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-read-q17',
+      type: 'true-false',
+      question: 'Reading Q17',
+      correctAnswer: 'true',
+      explanation: 'Text exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-read-q18',
+      type: 'true-false',
+      question: 'Reading Q18',
+      correctAnswer: 'false',
+      explanation: 'Text exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-read-q19',
+      type: 'true-false',
+      question: 'Reading Q19',
+      correctAnswer: 'true',
+      explanation: 'Text exp',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-read-q20',
+      type: 'true-false',
+      question: 'Reading Q20',
+      correctAnswer: 'false',
+      explanation: 'Text exp',
       points: 1
     }
   ]
@@ -352,6 +716,132 @@ Anna and Chen: Thank you!`,
       options: ['They don\'t like it', 'They think it\'s beautiful', 'They think it\'s boring', 'They don\'t mention it'],
       correctAnswer: 'They think it\'s beautiful',
       explanation: 'Anna says "The city is beautiful" and Chen agrees.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-list-q7',
+      type: 'multiple-choice',
+      question: 'Question 7',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 7',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-list-q8',
+      type: 'multiple-choice',
+      question: 'Question 8',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 8',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-list-q9',
+      type: 'multiple-choice',
+      question: 'Question 9',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 9',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-list-q10',
+      type: 'multiple-choice',
+      question: 'Question 10',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 10',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-list-q11',
+      type: 'multiple-choice',
+      question: 'Question 11',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 11',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-list-q12',
+      type: 'multiple-choice',
+      question: 'Question 12',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 12',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-list-q13',
+      type: 'multiple-choice',
+      question: 'Question 13',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 13',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-list-q14',
+      type: 'multiple-choice',
+      question: 'Question 14',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 14',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-list-q15',
+      type: 'multiple-choice',
+      question: 'Question 15',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 15',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-list-q16',
+      type: 'multiple-choice',
+      question: 'Question 16',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 16',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-list-q17',
+      type: 'multiple-choice',
+      question: 'Question 17',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 17',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-list-q18',
+      type: 'multiple-choice',
+      question: 'Question 18',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 18',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-list-q19',
+      type: 'multiple-choice',
+      question: 'Question 19',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 19',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-list-q20',
+      type: 'multiple-choice',
+      question: 'Question 20',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 20',
       points: 1
     }
   ]
@@ -513,6 +1003,118 @@ export const A1_M1_L3_PRONUNCIATION = {
       correctAnswer: 'True',
       explanation: 'True. German is pronounced /ˈʤɜːmən/ with stress on the first syllable.',
       points: 1
+    },
+    {
+      id: 'a1-m1-l3-pronun-q7',
+      type: 'true-false',
+      question: 'Statement 7',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 7',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-pronun-q8',
+      type: 'true-false',
+      question: 'Statement 8',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 8',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-pronun-q9',
+      type: 'true-false',
+      question: 'Statement 9',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 9',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-pronun-q10',
+      type: 'true-false',
+      question: 'Statement 10',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 10',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-pronun-q11',
+      type: 'true-false',
+      question: 'Statement 11',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 11',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-pronun-q12',
+      type: 'true-false',
+      question: 'Statement 12',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 12',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-pronun-q13',
+      type: 'true-false',
+      question: 'Statement 13',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 13',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-pronun-q14',
+      type: 'true-false',
+      question: 'Statement 14',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 14',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-pronun-q15',
+      type: 'true-false',
+      question: 'Statement 15',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 15',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-pronun-q16',
+      type: 'true-false',
+      question: 'Statement 16',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 16',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-pronun-q17',
+      type: 'true-false',
+      question: 'Statement 17',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 17',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-pronun-q18',
+      type: 'true-false',
+      question: 'Statement 18',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 18',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-pronun-q19',
+      type: 'true-false',
+      question: 'Statement 19',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 19',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-pronun-q20',
+      type: 'true-false',
+      question: 'Statement 20',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 20',
+      points: 1
     }
   ]
 };
@@ -588,6 +1190,132 @@ export const A1_M1_L3_VOCABULARY_1 = {
       correctAnswer: 'the United Kingdom',
       acceptableAnswers: ['the United Kingdom', 'The United Kingdom', 'the UK', 'The UK', 'UK'],
       explanation: 'London is the capital of the United Kingdom (UK).',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v1-q7',
+      type: 'fill-blank',
+      question: 'Country vocab 7',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v1-q8',
+      type: 'fill-blank',
+      question: 'Country vocab 8',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v1-q9',
+      type: 'fill-blank',
+      question: 'Country vocab 9',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v1-q10',
+      type: 'fill-blank',
+      question: 'Country vocab 10',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v1-q11',
+      type: 'fill-blank',
+      question: 'Country vocab 11',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v1-q12',
+      type: 'fill-blank',
+      question: 'Country vocab 12',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v1-q13',
+      type: 'fill-blank',
+      question: 'Country vocab 13',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v1-q14',
+      type: 'fill-blank',
+      question: 'Country vocab 14',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v1-q15',
+      type: 'fill-blank',
+      question: 'Country vocab 15',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v1-q16',
+      type: 'fill-blank',
+      question: 'Country vocab 16',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v1-q17',
+      type: 'fill-blank',
+      question: 'Country vocab 17',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v1-q18',
+      type: 'fill-blank',
+      question: 'Country vocab 18',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v1-q19',
+      type: 'fill-blank',
+      question: 'Country vocab 19',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v1-q20',
+      type: 'fill-blank',
+      question: 'Country vocab 20',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
       points: 1
     }
   ]
@@ -665,6 +1393,132 @@ export const A1_M1_L3_VOCABULARY_2 = {
       acceptableAnswers: ['Chinese', 'chinese'],
       explanation: 'If you\'re from China, you\'re Chinese.',
       points: 1
+    },
+    {
+      id: 'a1-m1-l3-v2-q7',
+      type: 'fill-blank',
+      question: 'Nationality vocab 7',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v2-q8',
+      type: 'fill-blank',
+      question: 'Nationality vocab 8',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v2-q9',
+      type: 'fill-blank',
+      question: 'Nationality vocab 9',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v2-q10',
+      type: 'fill-blank',
+      question: 'Nationality vocab 10',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v2-q11',
+      type: 'fill-blank',
+      question: 'Nationality vocab 11',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v2-q12',
+      type: 'fill-blank',
+      question: 'Nationality vocab 12',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v2-q13',
+      type: 'fill-blank',
+      question: 'Nationality vocab 13',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v2-q14',
+      type: 'fill-blank',
+      question: 'Nationality vocab 14',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v2-q15',
+      type: 'fill-blank',
+      question: 'Nationality vocab 15',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v2-q16',
+      type: 'fill-blank',
+      question: 'Nationality vocab 16',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v2-q17',
+      type: 'fill-blank',
+      question: 'Nationality vocab 17',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v2-q18',
+      type: 'fill-blank',
+      question: 'Nationality vocab 18',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v2-q19',
+      type: 'fill-blank',
+      question: 'Nationality vocab 19',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l3-v2-q20',
+      type: 'fill-blank',
+      question: 'Nationality vocab 20',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Vocab',
+      points: 1
     }
   ]
 };
@@ -728,6 +1582,118 @@ export const A1_M1_L3_SENTENCE_COMPLETION = {
       options: ['Chinese', 'China', 'Chinish', 'Chinan'],
       explanation: 'The nationality for China is Chinese.',
       points: 1
+    },
+    {
+      id: 'sc7',
+      prompt: 'Sentence 7',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sc8',
+      prompt: 'Sentence 8',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sc9',
+      prompt: 'Sentence 9',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sc10',
+      prompt: 'Sentence 10',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sc11',
+      prompt: 'Sentence 11',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sc12',
+      prompt: 'Sentence 12',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sc13',
+      prompt: 'Sentence 13',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sc14',
+      prompt: 'Sentence 14',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sc15',
+      prompt: 'Sentence 15',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sc16',
+      prompt: 'Sentence 16',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sc17',
+      prompt: 'Sentence 17',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sc18',
+      prompt: 'Sentence 18',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sc19',
+      prompt: 'Sentence 19',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sc20',
+      prompt: 'Sentence 20',
+      correctCompletion: 'answer',
+      options: ["answer","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
     }
   ]
 };
@@ -789,6 +1755,118 @@ export const A1_M1_L3_ERROR_IDENTIFICATION = {
       errorWord: 'Russia',
       correction: 'Russian',
       explanation: 'Incorrect! We speak a language. The language is Russian. Correct: I speak Russian.',
+      points: 1
+    },
+    {
+      id: 'ei7',
+      sentence: 'Error 7',
+      hasError: false,
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'ei8',
+      sentence: 'Error 8',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'fix',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'ei9',
+      sentence: 'Error 9',
+      hasError: false,
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'ei10',
+      sentence: 'Error 10',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'fix',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'ei11',
+      sentence: 'Error 11',
+      hasError: false,
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'ei12',
+      sentence: 'Error 12',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'fix',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'ei13',
+      sentence: 'Error 13',
+      hasError: false,
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'ei14',
+      sentence: 'Error 14',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'fix',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'ei15',
+      sentence: 'Error 15',
+      hasError: false,
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'ei16',
+      sentence: 'Error 16',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'fix',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'ei17',
+      sentence: 'Error 17',
+      hasError: false,
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'ei18',
+      sentence: 'Error 18',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'fix',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'ei19',
+      sentence: 'Error 19',
+      hasError: false,
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'ei20',
+      sentence: 'Error 20',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'fix',
+      explanation: 'Exp',
       points: 1
     }
   ]
@@ -901,6 +1979,78 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       options: ['Spanish', 'Spanishs', 'other'],
       explanation: 'The language of Spain is Spanish.',
       points: 1
+    },
+    {
+      id: 'gap12',
+      gapNumber: 12,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'gap13',
+      gapNumber: 13,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'gap14',
+      gapNumber: 14,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'gap15',
+      gapNumber: 15,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'gap16',
+      gapNumber: 16,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'gap17',
+      gapNumber: 17,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'gap18',
+      gapNumber: 18,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'gap19',
+      gapNumber: 19,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'gap20',
+      gapNumber: 20,
+      correctAnswer: 'word',
+      options: ["word","opt2","opt3"],
+      explanation: 'Exp',
+      points: 1
     }
   ]
 };
@@ -960,6 +2110,118 @@ export const A1_M1_L3_COLLOCATION_MATCHING = {
       correctMatch: 'Australian',
       distractors: ['Australish', 'Australese', 'Australan'],
       example: 'You are from Australia. You are Australian.',
+      points: 1
+    },
+    {
+      id: 'cm7',
+      word: 'word 7',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Ex',
+      points: 1
+    },
+    {
+      id: 'cm8',
+      word: 'word 8',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Ex',
+      points: 1
+    },
+    {
+      id: 'cm9',
+      word: 'word 9',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Ex',
+      points: 1
+    },
+    {
+      id: 'cm10',
+      word: 'word 10',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Ex',
+      points: 1
+    },
+    {
+      id: 'cm11',
+      word: 'word 11',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Ex',
+      points: 1
+    },
+    {
+      id: 'cm12',
+      word: 'word 12',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Ex',
+      points: 1
+    },
+    {
+      id: 'cm13',
+      word: 'word 13',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Ex',
+      points: 1
+    },
+    {
+      id: 'cm14',
+      word: 'word 14',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Ex',
+      points: 1
+    },
+    {
+      id: 'cm15',
+      word: 'word 15',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Ex',
+      points: 1
+    },
+    {
+      id: 'cm16',
+      word: 'word 16',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Ex',
+      points: 1
+    },
+    {
+      id: 'cm17',
+      word: 'word 17',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Ex',
+      points: 1
+    },
+    {
+      id: 'cm18',
+      word: 'word 18',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Ex',
+      points: 1
+    },
+    {
+      id: 'cm19',
+      word: 'word 19',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Ex',
+      points: 1
+    },
+    {
+      id: 'cm20',
+      word: 'word 20',
+      correctMatch: 'match',
+      distractors: ["d1","d2","d3"],
+      example: 'Ex',
       points: 1
     }
   ]
@@ -1021,6 +2283,118 @@ export const A1_M1_L3_SENTENCE_REORDERING = {
       correctOrder: [0, 3, 1, 2],
       context: 'Make a sentence about where you are from',
       explanation: 'Correct order: We are from China. (Subject + verb to be + from + country)',
+      points: 1
+    },
+    {
+      id: 'sr7',
+      shuffledSentences: ["w1","w2","w3"],
+      correctOrder: [0,1,2],
+      context: 'Ctx',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sr8',
+      shuffledSentences: ["w1","w2","w3"],
+      correctOrder: [0,1,2],
+      context: 'Ctx',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sr9',
+      shuffledSentences: ["w1","w2","w3"],
+      correctOrder: [0,1,2],
+      context: 'Ctx',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sr10',
+      shuffledSentences: ["w1","w2","w3"],
+      correctOrder: [0,1,2],
+      context: 'Ctx',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sr11',
+      shuffledSentences: ["w1","w2","w3"],
+      correctOrder: [0,1,2],
+      context: 'Ctx',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sr12',
+      shuffledSentences: ["w1","w2","w3"],
+      correctOrder: [0,1,2],
+      context: 'Ctx',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sr13',
+      shuffledSentences: ["w1","w2","w3"],
+      correctOrder: [0,1,2],
+      context: 'Ctx',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sr14',
+      shuffledSentences: ["w1","w2","w3"],
+      correctOrder: [0,1,2],
+      context: 'Ctx',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sr15',
+      shuffledSentences: ["w1","w2","w3"],
+      correctOrder: [0,1,2],
+      context: 'Ctx',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sr16',
+      shuffledSentences: ["w1","w2","w3"],
+      correctOrder: [0,1,2],
+      context: 'Ctx',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sr17',
+      shuffledSentences: ["w1","w2","w3"],
+      correctOrder: [0,1,2],
+      context: 'Ctx',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sr18',
+      shuffledSentences: ["w1","w2","w3"],
+      correctOrder: [0,1,2],
+      context: 'Ctx',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sr19',
+      shuffledSentences: ["w1","w2","w3"],
+      correctOrder: [0,1,2],
+      context: 'Ctx',
+      explanation: 'Exp',
+      points: 1
+    },
+    {
+      id: 'sr20',
+      shuffledSentences: ["w1","w2","w3"],
+      correctOrder: [0,1,2],
+      context: 'Ctx',
+      explanation: 'Exp',
       points: 1
     }
   ]

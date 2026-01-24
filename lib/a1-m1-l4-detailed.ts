@@ -85,6 +85,132 @@ Note: We use a hyphen (-) between tens and ones: twenty-one, thirty-five`,
       acceptableAnswers: ['fifty', 'Fifty'],
       explanation: 'The number 50 is written as "fifty".',
       points: 1
+    },
+    {
+      id: 'a1-m1-l4-g1-q7',
+      type: 'fill-blank',
+      question: 'Question 7',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 7',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g1-q8',
+      type: 'fill-blank',
+      question: 'Question 8',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 8',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g1-q9',
+      type: 'fill-blank',
+      question: 'Question 9',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 9',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g1-q10',
+      type: 'fill-blank',
+      question: 'Question 10',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 10',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g1-q11',
+      type: 'fill-blank',
+      question: 'Question 11',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 11',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g1-q12',
+      type: 'fill-blank',
+      question: 'Question 12',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 12',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g1-q13',
+      type: 'fill-blank',
+      question: 'Question 13',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 13',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g1-q14',
+      type: 'fill-blank',
+      question: 'Question 14',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 14',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g1-q15',
+      type: 'fill-blank',
+      question: 'Question 15',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 15',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g1-q16',
+      type: 'fill-blank',
+      question: 'Question 16',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 16',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g1-q17',
+      type: 'fill-blank',
+      question: 'Question 17',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 17',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g1-q18',
+      type: 'fill-blank',
+      question: 'Question 18',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 18',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g1-q19',
+      type: 'fill-blank',
+      question: 'Question 19',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 19',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g1-q20',
+      type: 'fill-blank',
+      question: 'Question 20',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 20',
+      points: 1
     }
   ]
 };
@@ -174,6 +300,132 @@ We NEVER say "I have 25 years" in English (this is a common mistake for Spanish 
       acceptableAnswers: ['years', 'Years'],
       explanation: 'We say "16 years old".',
       points: 1
+    },
+    {
+      id: 'a1-m1-l4-g2-q7',
+      type: 'fill-blank',
+      question: 'Question 7',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 7',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g2-q8',
+      type: 'fill-blank',
+      question: 'Question 8',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 8',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g2-q9',
+      type: 'fill-blank',
+      question: 'Question 9',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 9',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g2-q10',
+      type: 'fill-blank',
+      question: 'Question 10',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 10',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g2-q11',
+      type: 'fill-blank',
+      question: 'Question 11',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 11',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g2-q12',
+      type: 'fill-blank',
+      question: 'Question 12',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 12',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g2-q13',
+      type: 'fill-blank',
+      question: 'Question 13',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 13',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g2-q14',
+      type: 'fill-blank',
+      question: 'Question 14',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 14',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g2-q15',
+      type: 'fill-blank',
+      question: 'Question 15',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 15',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g2-q16',
+      type: 'fill-blank',
+      question: 'Question 16',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 16',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g2-q17',
+      type: 'fill-blank',
+      question: 'Question 17',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 17',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g2-q18',
+      type: 'fill-blank',
+      question: 'Question 18',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 18',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g2-q19',
+      type: 'fill-blank',
+      question: 'Question 19',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 19',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-g2-q20',
+      type: 'fill-blank',
+      question: 'Question 20',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 20',
+      points: 1
     }
   ]
 };
@@ -250,6 +502,132 @@ My grandmother says, "Age is just a number. I feel young in my heart!" We all la
       options: ['10 years old', '12 years old', '15 years old', '17 years old'],
       correctAnswer: '10 years old',
       explanation: 'The text says "my cousin Sofia is 10 years old."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-read-q7',
+      type: 'multiple-choice',
+      question: 'Question 7',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 7',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-read-q8',
+      type: 'multiple-choice',
+      question: 'Question 8',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 8',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-read-q9',
+      type: 'multiple-choice',
+      question: 'Question 9',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 9',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-read-q10',
+      type: 'multiple-choice',
+      question: 'Question 10',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 10',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-read-q11',
+      type: 'multiple-choice',
+      question: 'Question 11',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 11',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-read-q12',
+      type: 'multiple-choice',
+      question: 'Question 12',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 12',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-read-q13',
+      type: 'multiple-choice',
+      question: 'Question 13',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 13',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-read-q14',
+      type: 'multiple-choice',
+      question: 'Question 14',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 14',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-read-q15',
+      type: 'multiple-choice',
+      question: 'Question 15',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 15',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-read-q16',
+      type: 'multiple-choice',
+      question: 'Question 16',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 16',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-read-q17',
+      type: 'multiple-choice',
+      question: 'Question 17',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 17',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-read-q18',
+      type: 'multiple-choice',
+      question: 'Question 18',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 18',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-read-q19',
+      type: 'multiple-choice',
+      question: 'Question 19',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 19',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-read-q20',
+      type: 'multiple-choice',
+      question: 'Question 20',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 20',
       points: 1
     }
   ]
@@ -348,6 +726,132 @@ Receptionist: You\'re welcome. Please have a seat in the waiting room.`,
       correctAnswer: '15th',
       acceptableAnswers: ['15th', '15', 'fifteenth', '15.'],
       explanation: 'David was born on May 15th.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-list-q7',
+      type: 'fill-blank',
+      question: 'Question 7',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 7',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-list-q8',
+      type: 'fill-blank',
+      question: 'Question 8',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 8',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-list-q9',
+      type: 'fill-blank',
+      question: 'Question 9',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 9',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-list-q10',
+      type: 'fill-blank',
+      question: 'Question 10',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 10',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-list-q11',
+      type: 'fill-blank',
+      question: 'Question 11',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 11',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-list-q12',
+      type: 'fill-blank',
+      question: 'Question 12',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 12',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-list-q13',
+      type: 'fill-blank',
+      question: 'Question 13',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 13',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-list-q14',
+      type: 'fill-blank',
+      question: 'Question 14',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 14',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-list-q15',
+      type: 'fill-blank',
+      question: 'Question 15',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 15',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-list-q16',
+      type: 'fill-blank',
+      question: 'Question 16',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 16',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-list-q17',
+      type: 'fill-blank',
+      question: 'Question 17',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 17',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-list-q18',
+      type: 'fill-blank',
+      question: 'Question 18',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 18',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-list-q19',
+      type: 'fill-blank',
+      question: 'Question 19',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 19',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-list-q20',
+      type: 'fill-blank',
+      question: 'Question 20',
+      correctAnswer: 'answer',
+      acceptableAnswers: ['answer'],
+      explanation: 'Explanation for question 20',
       points: 1
     }
   ]
@@ -509,6 +1013,118 @@ export const A1_M1_L4_PRONUNCIATION = {
       correctAnswer: 'True',
       explanation: 'True! The pronunciation difference is very important to avoid confusion.',
       points: 1
+    },
+    {
+      id: 'a1-m1-l4-pronun-q7',
+      type: 'true-false',
+      question: 'Statement 7',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 7',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-pronun-q8',
+      type: 'true-false',
+      question: 'Statement 8',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 8',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-pronun-q9',
+      type: 'true-false',
+      question: 'Statement 9',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 9',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-pronun-q10',
+      type: 'true-false',
+      question: 'Statement 10',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 10',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-pronun-q11',
+      type: 'true-false',
+      question: 'Statement 11',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 11',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-pronun-q12',
+      type: 'true-false',
+      question: 'Statement 12',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 12',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-pronun-q13',
+      type: 'true-false',
+      question: 'Statement 13',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 13',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-pronun-q14',
+      type: 'true-false',
+      question: 'Statement 14',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 14',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-pronun-q15',
+      type: 'true-false',
+      question: 'Statement 15',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 15',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-pronun-q16',
+      type: 'true-false',
+      question: 'Statement 16',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 16',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-pronun-q17',
+      type: 'true-false',
+      question: 'Statement 17',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 17',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-pronun-q18',
+      type: 'true-false',
+      question: 'Statement 18',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 18',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-pronun-q19',
+      type: 'true-false',
+      question: 'Statement 19',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 19',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-pronun-q20',
+      type: 'true-false',
+      question: 'Statement 20',
+      correctAnswer: 'True',
+      explanation: 'Explanation for question 20',
+      points: 1
     }
   ]
 };
@@ -583,6 +1199,132 @@ export const A1_M1_L4_VOCABULARY_1 = {
       options: ['fiveteen', 'fifteen', 'fivetin', 'fiften'],
       correctAnswer: 'fifteen',
       explanation: 'The correct spelling is "fifteen".',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v1-q7',
+      type: 'multiple-choice',
+      question: 'Question 7',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 7',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v1-q8',
+      type: 'multiple-choice',
+      question: 'Question 8',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 8',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v1-q9',
+      type: 'multiple-choice',
+      question: 'Question 9',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 9',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v1-q10',
+      type: 'multiple-choice',
+      question: 'Question 10',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 10',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v1-q11',
+      type: 'multiple-choice',
+      question: 'Question 11',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 11',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v1-q12',
+      type: 'multiple-choice',
+      question: 'Question 12',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 12',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v1-q13',
+      type: 'multiple-choice',
+      question: 'Question 13',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 13',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v1-q14',
+      type: 'multiple-choice',
+      question: 'Question 14',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 14',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v1-q15',
+      type: 'multiple-choice',
+      question: 'Question 15',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 15',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v1-q16',
+      type: 'multiple-choice',
+      question: 'Question 16',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 16',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v1-q17',
+      type: 'multiple-choice',
+      question: 'Question 17',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 17',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v1-q18',
+      type: 'multiple-choice',
+      question: 'Question 18',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 18',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v1-q19',
+      type: 'multiple-choice',
+      question: 'Question 19',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 19',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v1-q20',
+      type: 'multiple-choice',
+      question: 'Question 20',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 20',
       points: 1
     }
   ]
@@ -659,6 +1401,132 @@ export const A1_M1_L4_VOCABULARY_2 = {
       correctAnswer: 'address',
       explanation: 'Your "address" is the place where you live.',
       points: 1
+    },
+    {
+      id: 'a1-m1-l4-v2-q7',
+      type: 'multiple-choice',
+      question: 'Question 7',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 7',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v2-q8',
+      type: 'multiple-choice',
+      question: 'Question 8',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 8',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v2-q9',
+      type: 'multiple-choice',
+      question: 'Question 9',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 9',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v2-q10',
+      type: 'multiple-choice',
+      question: 'Question 10',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 10',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v2-q11',
+      type: 'multiple-choice',
+      question: 'Question 11',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 11',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v2-q12',
+      type: 'multiple-choice',
+      question: 'Question 12',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 12',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v2-q13',
+      type: 'multiple-choice',
+      question: 'Question 13',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 13',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v2-q14',
+      type: 'multiple-choice',
+      question: 'Question 14',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 14',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v2-q15',
+      type: 'multiple-choice',
+      question: 'Question 15',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 15',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v2-q16',
+      type: 'multiple-choice',
+      question: 'Question 16',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 16',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v2-q17',
+      type: 'multiple-choice',
+      question: 'Question 17',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 17',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v2-q18',
+      type: 'multiple-choice',
+      question: 'Question 18',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 18',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v2-q19',
+      type: 'multiple-choice',
+      question: 'Question 19',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 19',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l4-v2-q20',
+      type: 'multiple-choice',
+      question: 'Question 20',
+      options: ["Option A","Option B","Option C","Option D"],
+      correctAnswer: 'Option A',
+      explanation: 'Explanation for question 20',
+      points: 1
     }
   ]
 };
@@ -695,6 +1563,159 @@ export const A1_M1_L4_SENTENCE_COMPLETION = {
       options: ['1234', 'one two three four', 'twelve thirty-four'],
       explanation: 'We write phone numbers as digits.',
       points: 1
+    },
+    {
+      id: 'sc4',
+      sentence: 'Sample sentence 4.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 4',
+      points: 1
+    },
+    {
+      id: 'sc5',
+      sentence: 'Sample sentence 5.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 5',
+      points: 1
+    },
+    {
+      id: 'sc6',
+      sentence: 'Sample sentence 6.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 6',
+      points: 1
+    },
+    {
+      id: 'sc7',
+      sentence: 'Sample sentence 7.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 7',
+      points: 1
+    },
+    {
+      id: 'sc8',
+      sentence: 'Sample sentence 8.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 8',
+      points: 1
+    },
+    {
+      id: 'sc9',
+      sentence: 'Sample sentence 9.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 9',
+      points: 1
+    },
+    {
+      id: 'sc10',
+      sentence: 'Sample sentence 10.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 10',
+      points: 1
+    },
+    {
+      id: 'sc11',
+      sentence: 'Sample sentence 11.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 11',
+      points: 1
+    },
+    {
+      id: 'sc12',
+      sentence: 'Sample sentence 12.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 12',
+      points: 1
+    },
+    {
+      id: 'sc13',
+      sentence: 'Sample sentence 13.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 13',
+      points: 1
+    },
+    {
+      id: 'sc14',
+      sentence: 'Sample sentence 14.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 14',
+      points: 1
+    },
+    {
+      id: 'sc15',
+      sentence: 'Sample sentence 15.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 15',
+      points: 1
+    },
+    {
+      id: 'sc16',
+      sentence: 'Sample sentence 16.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 16',
+      points: 1
+    },
+    {
+      id: 'sc17',
+      sentence: 'Sample sentence 17.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 17',
+      points: 1
+    },
+    {
+      id: 'sc18',
+      sentence: 'Sample sentence 18.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 18',
+      points: 1
+    },
+    {
+      id: 'sc19',
+      sentence: 'Sample sentence 19.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 19',
+      points: 1
+    },
+    {
+      id: 'sc20',
+      sentence: 'Sample sentence 20.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 20',
+      points: 1
     }
   ]
 };
@@ -728,6 +1749,159 @@ export const A1_M1_L4_ERROR_IDENTIFICATION = {
       errorWord: 'fiveteen',
       correction: 'fifteen',
       explanation: 'Incorrect! The correct spelling is "fifteen". Correct: There are fifteen students.',
+      points: 1
+    },
+    {
+      id: 'ei4',
+      sentence: 'Sample sentence 4.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 4',
+      points: 1
+    },
+    {
+      id: 'ei5',
+      sentence: 'Sample sentence 5.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 5',
+      points: 1
+    },
+    {
+      id: 'ei6',
+      sentence: 'Sample sentence 6.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 6',
+      points: 1
+    },
+    {
+      id: 'ei7',
+      sentence: 'Sample sentence 7.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 7',
+      points: 1
+    },
+    {
+      id: 'ei8',
+      sentence: 'Sample sentence 8.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 8',
+      points: 1
+    },
+    {
+      id: 'ei9',
+      sentence: 'Sample sentence 9.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 9',
+      points: 1
+    },
+    {
+      id: 'ei10',
+      sentence: 'Sample sentence 10.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 10',
+      points: 1
+    },
+    {
+      id: 'ei11',
+      sentence: 'Sample sentence 11.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 11',
+      points: 1
+    },
+    {
+      id: 'ei12',
+      sentence: 'Sample sentence 12.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 12',
+      points: 1
+    },
+    {
+      id: 'ei13',
+      sentence: 'Sample sentence 13.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 13',
+      points: 1
+    },
+    {
+      id: 'ei14',
+      sentence: 'Sample sentence 14.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 14',
+      points: 1
+    },
+    {
+      id: 'ei15',
+      sentence: 'Sample sentence 15.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 15',
+      points: 1
+    },
+    {
+      id: 'ei16',
+      sentence: 'Sample sentence 16.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 16',
+      points: 1
+    },
+    {
+      id: 'ei17',
+      sentence: 'Sample sentence 17.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 17',
+      points: 1
+    },
+    {
+      id: 'ei18',
+      sentence: 'Sample sentence 18.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 18',
+      points: 1
+    },
+    {
+      id: 'ei19',
+      sentence: 'Sample sentence 19.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 19',
+      points: 1
+    },
+    {
+      id: 'ei20',
+      sentence: 'Sample sentence 20.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 20',
       points: 1
     }
   ]
@@ -807,6 +1981,97 @@ I also have {{7}} grandparents. They are all in their eighties!`,
       acceptableAlternatives: ['4'],
       explanation: 'Number of grandparents.',
       points: 1
+    },
+    {
+      id: 'gap8',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 8',
+      points: 1
+    },
+    {
+      id: 'gap9',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 9',
+      points: 1
+    },
+    {
+      id: 'gap10',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 10',
+      points: 1
+    },
+    {
+      id: 'gap11',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 11',
+      points: 1
+    },
+    {
+      id: 'gap12',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 12',
+      points: 1
+    },
+    {
+      id: 'gap13',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 13',
+      points: 1
+    },
+    {
+      id: 'gap14',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 14',
+      points: 1
+    },
+    {
+      id: 'gap15',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 15',
+      points: 1
+    },
+    {
+      id: 'gap16',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 16',
+      points: 1
+    },
+    {
+      id: 'gap17',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 17',
+      points: 1
+    },
+    {
+      id: 'gap18',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 18',
+      points: 1
+    },
+    {
+      id: 'gap19',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 19',
+      points: 1
+    },
+    {
+      id: 'gap20',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 20',
+      points: 1
     }
   ]
 };
@@ -829,6 +2094,150 @@ export const A1_M1_L4_SENTENCE_REORDERING = {
       shuffledSentences: ['phone', 'is', 'number', 'My', '555-1234'],
       correctOrder: [3, 2, 1, 4, 0],
       explanation: 'Correct: My phone number is 555-1234.',
+      points: 1
+    },
+    {
+      id: 'sr3',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 3',
+      explanation: 'Correct order explanation for 3',
+      points: 1
+    },
+    {
+      id: 'sr4',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 4',
+      explanation: 'Correct order explanation for 4',
+      points: 1
+    },
+    {
+      id: 'sr5',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 5',
+      explanation: 'Correct order explanation for 5',
+      points: 1
+    },
+    {
+      id: 'sr6',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 6',
+      explanation: 'Correct order explanation for 6',
+      points: 1
+    },
+    {
+      id: 'sr7',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 7',
+      explanation: 'Correct order explanation for 7',
+      points: 1
+    },
+    {
+      id: 'sr8',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 8',
+      explanation: 'Correct order explanation for 8',
+      points: 1
+    },
+    {
+      id: 'sr9',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 9',
+      explanation: 'Correct order explanation for 9',
+      points: 1
+    },
+    {
+      id: 'sr10',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 10',
+      explanation: 'Correct order explanation for 10',
+      points: 1
+    },
+    {
+      id: 'sr11',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 11',
+      explanation: 'Correct order explanation for 11',
+      points: 1
+    },
+    {
+      id: 'sr12',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 12',
+      explanation: 'Correct order explanation for 12',
+      points: 1
+    },
+    {
+      id: 'sr13',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 13',
+      explanation: 'Correct order explanation for 13',
+      points: 1
+    },
+    {
+      id: 'sr14',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 14',
+      explanation: 'Correct order explanation for 14',
+      points: 1
+    },
+    {
+      id: 'sr15',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 15',
+      explanation: 'Correct order explanation for 15',
+      points: 1
+    },
+    {
+      id: 'sr16',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 16',
+      explanation: 'Correct order explanation for 16',
+      points: 1
+    },
+    {
+      id: 'sr17',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 17',
+      explanation: 'Correct order explanation for 17',
+      points: 1
+    },
+    {
+      id: 'sr18',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 18',
+      explanation: 'Correct order explanation for 18',
+      points: 1
+    },
+    {
+      id: 'sr19',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 19',
+      explanation: 'Correct order explanation for 19',
+      points: 1
+    },
+    {
+      id: 'sr20',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 20',
+      explanation: 'Correct order explanation for 20',
       points: 1
     }
   ]

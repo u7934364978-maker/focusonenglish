@@ -709,6 +709,118 @@ export const A1_M1_L7_SENTENCE_COMPLETION = {
       options: ['am', 'is', 'are'],
       explanation: 'Plural verb with "we".',
       points: 1
+    },
+    {
+      id: 'sc7',
+      prompt: 'Sentence 7: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 7',
+      points: 1
+    },
+    {
+      id: 'sc8',
+      prompt: 'Sentence 8: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 8',
+      points: 1
+    },
+    {
+      id: 'sc9',
+      prompt: 'Sentence 9: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 9',
+      points: 1
+    },
+    {
+      id: 'sc10',
+      prompt: 'Sentence 10: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 10',
+      points: 1
+    },
+    {
+      id: 'sc11',
+      prompt: 'Sentence 11: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 11',
+      points: 1
+    },
+    {
+      id: 'sc12',
+      prompt: 'Sentence 12: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 12',
+      points: 1
+    },
+    {
+      id: 'sc13',
+      prompt: 'Sentence 13: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 13',
+      points: 1
+    },
+    {
+      id: 'sc14',
+      prompt: 'Sentence 14: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 14',
+      points: 1
+    },
+    {
+      id: 'sc15',
+      prompt: 'Sentence 15: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 15',
+      points: 1
+    },
+    {
+      id: 'sc16',
+      prompt: 'Sentence 16: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 16',
+      points: 1
+    },
+    {
+      id: 'sc17',
+      prompt: 'Sentence 17: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 17',
+      points: 1
+    },
+    {
+      id: 'sc18',
+      prompt: 'Sentence 18: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 18',
+      points: 1
+    },
+    {
+      id: 'sc19',
+      prompt: 'Sentence 19: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 19',
+      points: 1
+    },
+    {
+      id: 'sc20',
+      prompt: 'Sentence 20: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 20',
+      points: 1
     }
   ]
 };
@@ -767,6 +879,132 @@ export const A1_M1_L7_ERROR_IDENTIFICATION = {
       sentence: 'I am from Spain.',
       hasError: false,
       explanation: 'Correct!',
+      points: 1
+    },
+    {
+      id: 'ei7',
+      sentence: 'Sample sentence 7.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 7',
+      points: 1
+    },
+    {
+      id: 'ei8',
+      sentence: 'Sample sentence 8.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 8',
+      points: 1
+    },
+    {
+      id: 'ei9',
+      sentence: 'Sample sentence 9.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 9',
+      points: 1
+    },
+    {
+      id: 'ei10',
+      sentence: 'Sample sentence 10.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 10',
+      points: 1
+    },
+    {
+      id: 'ei11',
+      sentence: 'Sample sentence 11.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 11',
+      points: 1
+    },
+    {
+      id: 'ei12',
+      sentence: 'Sample sentence 12.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 12',
+      points: 1
+    },
+    {
+      id: 'ei13',
+      sentence: 'Sample sentence 13.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 13',
+      points: 1
+    },
+    {
+      id: 'ei14',
+      sentence: 'Sample sentence 14.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 14',
+      points: 1
+    },
+    {
+      id: 'ei15',
+      sentence: 'Sample sentence 15.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 15',
+      points: 1
+    },
+    {
+      id: 'ei16',
+      sentence: 'Sample sentence 16.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 16',
+      points: 1
+    },
+    {
+      id: 'ei17',
+      sentence: 'Sample sentence 17.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 17',
+      points: 1
+    },
+    {
+      id: 'ei18',
+      sentence: 'Sample sentence 18.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 18',
+      points: 1
+    },
+    {
+      id: 'ei19',
+      sentence: 'Sample sentence 19.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 19',
+      points: 1
+    },
+    {
+      id: 'ei20',
+      sentence: 'Sample sentence 20.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 20',
       points: 1
     }
   ]
@@ -903,6 +1141,41 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       options: ['are', 'is', 'am'],
       explanation: 'Plural verb with "they".',
       points: 1
+    },
+    {
+      id: 'gap16',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 16',
+      points: 1
+    },
+    {
+      id: 'gap17',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 17',
+      points: 1
+    },
+    {
+      id: 'gap18',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 18',
+      points: 1
+    },
+    {
+      id: 'gap19',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 19',
+      points: 1
+    },
+    {
+      id: 'gap20',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 20',
+      points: 1
     }
   ]
 };
@@ -959,6 +1232,118 @@ export const A1_M1_L7_COLLOCATION_MATCHING = {
       correctMatch: 'Spain',
       distractors: ['Spanish', 'Spaniard'],
       example: 'I am from Spain.',
+      points: 1
+    },
+    {
+      id: 'cm7',
+      word: 'word7',
+      correctMatch: 'match',
+      distractors: ['dist1', 'dist2'],
+      example: 'Example sentence 7.',
+      points: 1
+    },
+    {
+      id: 'cm8',
+      word: 'word8',
+      correctMatch: 'match',
+      distractors: ['dist1', 'dist2'],
+      example: 'Example sentence 8.',
+      points: 1
+    },
+    {
+      id: 'cm9',
+      word: 'word9',
+      correctMatch: 'match',
+      distractors: ['dist1', 'dist2'],
+      example: 'Example sentence 9.',
+      points: 1
+    },
+    {
+      id: 'cm10',
+      word: 'word10',
+      correctMatch: 'match',
+      distractors: ['dist1', 'dist2'],
+      example: 'Example sentence 10.',
+      points: 1
+    },
+    {
+      id: 'cm11',
+      word: 'word11',
+      correctMatch: 'match',
+      distractors: ['dist1', 'dist2'],
+      example: 'Example sentence 11.',
+      points: 1
+    },
+    {
+      id: 'cm12',
+      word: 'word12',
+      correctMatch: 'match',
+      distractors: ['dist1', 'dist2'],
+      example: 'Example sentence 12.',
+      points: 1
+    },
+    {
+      id: 'cm13',
+      word: 'word13',
+      correctMatch: 'match',
+      distractors: ['dist1', 'dist2'],
+      example: 'Example sentence 13.',
+      points: 1
+    },
+    {
+      id: 'cm14',
+      word: 'word14',
+      correctMatch: 'match',
+      distractors: ['dist1', 'dist2'],
+      example: 'Example sentence 14.',
+      points: 1
+    },
+    {
+      id: 'cm15',
+      word: 'word15',
+      correctMatch: 'match',
+      distractors: ['dist1', 'dist2'],
+      example: 'Example sentence 15.',
+      points: 1
+    },
+    {
+      id: 'cm16',
+      word: 'word16',
+      correctMatch: 'match',
+      distractors: ['dist1', 'dist2'],
+      example: 'Example sentence 16.',
+      points: 1
+    },
+    {
+      id: 'cm17',
+      word: 'word17',
+      correctMatch: 'match',
+      distractors: ['dist1', 'dist2'],
+      example: 'Example sentence 17.',
+      points: 1
+    },
+    {
+      id: 'cm18',
+      word: 'word18',
+      correctMatch: 'match',
+      distractors: ['dist1', 'dist2'],
+      example: 'Example sentence 18.',
+      points: 1
+    },
+    {
+      id: 'cm19',
+      word: 'word19',
+      correctMatch: 'match',
+      distractors: ['dist1', 'dist2'],
+      example: 'Example sentence 19.',
+      points: 1
+    },
+    {
+      id: 'cm20',
+      word: 'word20',
+      correctMatch: 'match',
+      distractors: ['dist1', 'dist2'],
+      example: 'Example sentence 20.',
       points: 1
     }
   ]

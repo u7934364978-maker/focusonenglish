@@ -733,6 +733,118 @@ export const A1_M2_L1_SENTENCE_COMPLETION = {
       options: ['finish', 'finishes', 'finishs', 'finishing'],
       explanation: 'With third person singular, we add -es to verbs ending in -sh: finishes.',
       points: 1
+    },
+    {
+      id: 'sc7',
+      prompt: 'Sentence 7: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 7',
+      points: 1
+    },
+    {
+      id: 'sc8',
+      prompt: 'Sentence 8: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 8',
+      points: 1
+    },
+    {
+      id: 'sc9',
+      prompt: 'Sentence 9: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 9',
+      points: 1
+    },
+    {
+      id: 'sc10',
+      prompt: 'Sentence 10: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 10',
+      points: 1
+    },
+    {
+      id: 'sc11',
+      prompt: 'Sentence 11: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 11',
+      points: 1
+    },
+    {
+      id: 'sc12',
+      prompt: 'Sentence 12: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 12',
+      points: 1
+    },
+    {
+      id: 'sc13',
+      prompt: 'Sentence 13: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 13',
+      points: 1
+    },
+    {
+      id: 'sc14',
+      prompt: 'Sentence 14: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 14',
+      points: 1
+    },
+    {
+      id: 'sc15',
+      prompt: 'Sentence 15: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 15',
+      points: 1
+    },
+    {
+      id: 'sc16',
+      prompt: 'Sentence 16: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 16',
+      points: 1
+    },
+    {
+      id: 'sc17',
+      prompt: 'Sentence 17: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 17',
+      points: 1
+    },
+    {
+      id: 'sc18',
+      prompt: 'Sentence 18: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 18',
+      points: 1
+    },
+    {
+      id: 'sc19',
+      prompt: 'Sentence 19: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 19',
+      points: 1
+    },
+    {
+      id: 'sc20',
+      prompt: 'Sentence 20: Complete this ___.',
+      correctCompletion: 'word',
+      options: ['word', 'word2', 'word3'],
+      explanation: 'Explanation for sentence 20',
+      points: 1
     }
   ]
 };
@@ -794,6 +906,132 @@ export const A1_M2_L1_ERROR_IDENTIFICATION = {
       errorWord: 'studys',
       correction: 'studies',
       explanation: 'Incorrect! For verbs ending in consonant+y, change y to i and add -es: studies.',
+      points: 1
+    },
+    {
+      id: 'ei7',
+      sentence: 'Sample sentence 7.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 7',
+      points: 1
+    },
+    {
+      id: 'ei8',
+      sentence: 'Sample sentence 8.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 8',
+      points: 1
+    },
+    {
+      id: 'ei9',
+      sentence: 'Sample sentence 9.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 9',
+      points: 1
+    },
+    {
+      id: 'ei10',
+      sentence: 'Sample sentence 10.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 10',
+      points: 1
+    },
+    {
+      id: 'ei11',
+      sentence: 'Sample sentence 11.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 11',
+      points: 1
+    },
+    {
+      id: 'ei12',
+      sentence: 'Sample sentence 12.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 12',
+      points: 1
+    },
+    {
+      id: 'ei13',
+      sentence: 'Sample sentence 13.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 13',
+      points: 1
+    },
+    {
+      id: 'ei14',
+      sentence: 'Sample sentence 14.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 14',
+      points: 1
+    },
+    {
+      id: 'ei15',
+      sentence: 'Sample sentence 15.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 15',
+      points: 1
+    },
+    {
+      id: 'ei16',
+      sentence: 'Sample sentence 16.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 16',
+      points: 1
+    },
+    {
+      id: 'ei17',
+      sentence: 'Sample sentence 17.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 17',
+      points: 1
+    },
+    {
+      id: 'ei18',
+      sentence: 'Sample sentence 18.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 18',
+      points: 1
+    },
+    {
+      id: 'ei19',
+      sentence: 'Sample sentence 19.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 19',
+      points: 1
+    },
+    {
+      id: 'ei20',
+      sentence: 'Sample sentence 20.',
+      hasError: true,
+      errorWord: 'word',
+      correction: 'corrected',
+      explanation: 'Explanation for sentence 20',
       points: 1
     }
   ]
@@ -937,6 +1175,41 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       options: ['watch', 'watchs', 'other'],
       explanation: 'We watch (base form).',
       points: 1
+    },
+    {
+      id: 'gap16',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 16',
+      points: 1
+    },
+    {
+      id: 'gap17',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 17',
+      points: 1
+    },
+    {
+      id: 'gap18',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 18',
+      points: 1
+    },
+    {
+      id: 'gap19',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 19',
+      points: 1
+    },
+    {
+      id: 'gap20',
+      correctAnswer: 'word',
+      acceptableAnswers: ['word'],
+      explanation: 'Explanation for gap 20',
+      points: 1
     }
   ]
 };
@@ -996,6 +1269,118 @@ export const A1_M2_L1_SENTENCE_REORDERING = {
       correctOrder: [2, 1, 0, 3, 4],
       context: 'Make a sentence about school time',
       explanation: 'Correct: My school starts at 8:30. (Possessive + subject + verb + time)',
+      points: 1
+    },
+    {
+      id: 'sr7',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 7',
+      explanation: 'Correct order explanation for 7',
+      points: 1
+    },
+    {
+      id: 'sr8',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 8',
+      explanation: 'Correct order explanation for 8',
+      points: 1
+    },
+    {
+      id: 'sr9',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 9',
+      explanation: 'Correct order explanation for 9',
+      points: 1
+    },
+    {
+      id: 'sr10',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 10',
+      explanation: 'Correct order explanation for 10',
+      points: 1
+    },
+    {
+      id: 'sr11',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 11',
+      explanation: 'Correct order explanation for 11',
+      points: 1
+    },
+    {
+      id: 'sr12',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 12',
+      explanation: 'Correct order explanation for 12',
+      points: 1
+    },
+    {
+      id: 'sr13',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 13',
+      explanation: 'Correct order explanation for 13',
+      points: 1
+    },
+    {
+      id: 'sr14',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 14',
+      explanation: 'Correct order explanation for 14',
+      points: 1
+    },
+    {
+      id: 'sr15',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 15',
+      explanation: 'Correct order explanation for 15',
+      points: 1
+    },
+    {
+      id: 'sr16',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 16',
+      explanation: 'Correct order explanation for 16',
+      points: 1
+    },
+    {
+      id: 'sr17',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 17',
+      explanation: 'Correct order explanation for 17',
+      points: 1
+    },
+    {
+      id: 'sr18',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 18',
+      explanation: 'Correct order explanation for 18',
+      points: 1
+    },
+    {
+      id: 'sr19',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 19',
+      explanation: 'Correct order explanation for 19',
+      points: 1
+    },
+    {
+      id: 'sr20',
+      shuffledSentences: ['word1', 'word2', 'word3', 'word4'],
+      correctOrder: [0, 1, 2, 3],
+      context: 'Reorder sentence 20',
+      explanation: 'Correct order explanation for 20',
       points: 1
     }
   ]
