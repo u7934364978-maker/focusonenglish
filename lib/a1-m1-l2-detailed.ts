@@ -64,7 +64,7 @@ Examples:
       type: 'fill-blank',
       question: 'My friends are from Italy. ___ speak Italian.',
       correctAnswer: 'They',
-      acceptableAnswers: ['They', 'they'],
+      acceptableAnswers: ['They', \'they'],
       explanation: '"My friends" (more than one person) = They',
       points: 1
     },
@@ -79,7 +79,7 @@ Examples:
     },
     {
       id: 'a1-m1-l2-g1-q6',
-      type: 'true-false',
+      type: \'true-false',
       question: 'We can say: "Her is my sister."',
       correctAnswer: 'False',
       explanation: 'False. "Her" is an object pronoun. We must say: "She is my sister."',
@@ -271,7 +271,7 @@ Examples:
       type: 'fill-blank',
       question: 'Maria and Tom are married. ___ children are in school.',
       correctAnswer: 'Their',
-      acceptableAnswers: ['Their', 'their'],
+      acceptableAnswers: ['Their', \'their'],
       explanation: '"Their" shows the children belong to Maria and Tom (they).',
       points: 1
     },
@@ -295,7 +295,7 @@ Examples:
     },
     {
       id: 'a1-m1-l2-g2-q6',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Possessive adjectives come AFTER the noun.',
       correctAnswer: 'False',
       explanation: 'False. Possessive adjectives come BEFORE the noun. Example: "my book" (not "book my").',
@@ -315,7 +315,7 @@ Examples:
       type: 'multiple-choice',
       question: 'The students love ___ new classroom.',
       options: ["my","your","their","its"],
-      correctAnswer: 'their',
+      correctAnswer: \'their',
       explanation: 'The classroom belongs to "the students" (they), so we use "their".',
       points: 1
     },
@@ -369,7 +369,7 @@ Examples:
       type: 'multiple-choice',
       question: 'The children are playing with ___ toys.',
       options: ["my","your","their","its"],
-      correctAnswer: 'their',
+      correctAnswer: \'their',
       explanation: 'The toys belong to "the children" (they), so "their".',
       points: 1
     },
@@ -414,7 +414,7 @@ Examples:
       type: 'multiple-choice',
       question: 'Mr. and Mrs. Brown love ___ grandchildren.',
       options: ["my","your","our","their"],
-      correctAnswer: 'their',
+      correctAnswer: \'their',
       explanation: 'The grandchildren belong to Mr. and Mrs. Brown (they), so "their".',
       points: 1
     },
@@ -435,7 +435,7 @@ Examples:
 // ============================================
 export const A1_M1_L2_READING = {
   id: 'a1-m1-l2-reading-1',
-  type: 'reading',
+  type: \'reading',
   title: 'Reading: Meet the Smith Family',
   text: `Meet the Smith Family
 
@@ -482,16 +482,16 @@ I love my family!`,
     },
     {
       id: 'a1-m1-l2-r-q4',
-      type: 'short-answer',
+      type: \'short-answer',
       question: 'What is Tom\'s job?',
-      correctAnswer: 'doctor',
-      acceptableAnswers: ['doctor', 'Doctor', 'a doctor', 'A doctor', 'He is a doctor'],
+      correctAnswer: \'doctor',
+      acceptableAnswers: [\'doctor', 'Doctor', 'a doctor', 'A doctor', 'He is a doctor'],
       explanation: 'Tom is a doctor. He works in a hospital.',
       points: 1
     },
     {
       id: 'a1-m1-l2-r-q5',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Max plays football every Saturday.',
       correctAnswer: 'True',
       explanation: 'True. The text says: "He plays football every Saturday."',
@@ -499,7 +499,7 @@ I love my family!`,
     },
     {
       id: 'a1-m1-l2-r-q6',
-      type: 'true-false',
+      type: \'true-false',
       question: 'The grandparents live far away from the Smith family.',
       correctAnswer: 'False',
       explanation: 'False. The text says: "They live near us."',
@@ -507,7 +507,7 @@ I love my family!`,
     },
     {
       id: 'a1-m1-l2-r-q7',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Emma is 35 years old.',
       correctAnswer: 'True',
       explanation: 'True. The text says: "I am 35 years old."',
@@ -515,7 +515,7 @@ I love my family!`,
     },
     {
       id: 'a1-m1-l2-r-q8',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Tom is 35 years old.',
       correctAnswer: 'False',
       explanation: 'False. Tom is 38 years old, not 35.',
@@ -523,15 +523,15 @@ I love my family!`,
     },
     {
       id: 'a1-m1-l2-r-q9',
-      type: 'true-false',
-      question: "Lucy's favorite subject is art.",
+      type: \'true-false',
+      question: "Lucy\'s favorite subject is art.",
       correctAnswer: 'True',
       explanation: 'True. The text says: "Her favorite subject is art."',
       points: 1
     },
     {
       id: 'a1-m1-l2-r-q10',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Max is 10 years old.',
       correctAnswer: 'False',
       explanation: 'False. Max is 7 years old, not 10.',
@@ -539,7 +539,7 @@ I love my family!`,
     },
     {
       id: 'a1-m1-l2-r-q11',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Charlie is a golden retriever.',
       correctAnswer: 'True',
       explanation: 'True. The text says: "It is a golden retriever."',
@@ -547,7 +547,7 @@ I love my family!`,
     },
     {
       id: 'a1-m1-l2-r-q12',
-      type: 'true-false',
+      type: \'true-false',
       question: 'The Smith family lives in Manchester.',
       correctAnswer: 'False',
       explanation: 'False. They live in London, not Manchester.',
@@ -555,7 +555,7 @@ I love my family!`,
     },
     {
       id: 'a1-m1-l2-r-q13',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Tom works in a hospital.',
       correctAnswer: 'True',
       explanation: 'True. The text says: "His hospital is in the city center."',
@@ -563,7 +563,7 @@ I love my family!`,
     },
     {
       id: 'a1-m1-l2-r-q14',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Lucy loves playing football.',
       correctAnswer: 'False',
       explanation: 'False. Lucy loves drawing (art). Max is the one who plays football.',
@@ -571,7 +571,7 @@ I love my family!`,
     },
     {
       id: 'a1-m1-l2-r-q15',
-      type: 'true-false',
+      type: \'true-false',
       question: 'The family visits their grandparents on Sundays.',
       correctAnswer: 'True',
       explanation: 'True. The text says: "On Sundays, we visit our grandparents."',
@@ -579,7 +579,7 @@ I love my family!`,
     },
     {
       id: 'a1-m1-l2-r-q16',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Charlie is a cat.',
       correctAnswer: 'False',
       explanation: 'False. Charlie is a dog (golden retriever), not a cat.',
@@ -587,7 +587,7 @@ I love my family!`,
     },
     {
       id: 'a1-m1-l2-r-q17',
-      type: 'true-false',
+      type: \'true-false',
       question: "The grandparents' house has a big garden.",
       correctAnswer: 'True',
       explanation: 'True. The text says: "It has a big garden where the children can play."',
@@ -595,7 +595,7 @@ I love my family!`,
     },
     {
       id: 'a1-m1-l2-r-q18',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Emma has three children.',
       correctAnswer: 'False',
       explanation: 'False. Emma has two children: Lucy and Max.',
@@ -603,7 +603,7 @@ I love my family!`,
     },
     {
       id: 'a1-m1-l2-r-q19',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Charlie is very friendly.',
       correctAnswer: 'True',
       explanation: 'True. The text says: "It is very friendly and loves playing with the children."',
@@ -611,7 +611,7 @@ I love my family!`,
     },
     {
       id: 'a1-m1-l2-r-q20',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Tom loves playing football.',
       correctAnswer: 'False',
       explanation: 'False. The text says Tom loves his job. Max is the one who loves football.',
@@ -620,8 +620,8 @@ I love my family!`,
   ],
   vocabularyHelp: [
     { word: 'husband', definition: 'a married man' },
-    { word: 'daughter', definition: 'a female child' },
-    { word: 'son', definition: 'a male child' },
+    { word: \'daughter', definition: 'a female child' },
+    { word: \'son', definition: 'a male child' },
     { word: 'pet', definition: 'an animal that lives with you at home' },
     { word: 'friendly', definition: 'kind and nice to others' },
     { word: 'grandparents', definition: 'your mother and father\'s parents' }
@@ -677,7 +677,7 @@ I love my room. It is my special place.`,
     },
     {
       id: 'a1-m1-l2-list-q4',
-      type: 'short-answer',
+      type: \'short-answer',
       question: 'How many books does Sarah have?',
       correctAnswer: 'five',
       acceptableAnswers: ['five', 'Five', '5', 'five books', 'Five books'],
@@ -686,7 +686,7 @@ I love my room. It is my special place.`,
     },
     {
       id: 'a1-m1-l2-list-q5',
-      type: 'true-false',
+      type: \'true-false',
       question: 'The family photo is on the wall.',
       correctAnswer: 'True',
       explanation: 'True. Sarah says: "Look at the wall! That is my family photo."',
@@ -694,7 +694,7 @@ I love my room. It is my special place.`,
     },
     {
       id: 'a1-m1-l2-list-q6',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Sarah uses her laptop for games.',
       correctAnswer: 'False',
       explanation: 'False. Sarah says: "I use it for my homework" (not for games).',
@@ -702,7 +702,7 @@ I love my room. It is my special place.`,
     },
     {
       id: 'a1-m1-l2-list-q7',
-      type: 'true-false',
+      type: \'true-false',
       question: 'The teddy bear is brown.',
       correctAnswer: 'True',
       explanation: 'True. Sarah says: "It is brown and soft."',
@@ -710,7 +710,7 @@ I love my room. It is my special place.`,
     },
     {
       id: 'a1-m1-l2-list-q8',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Sarah has ten books.',
       correctAnswer: 'False',
       explanation: 'False. Sarah has five books, not ten.',
@@ -718,7 +718,7 @@ I love my room. It is my special place.`,
     },
     {
       id: 'a1-m1-l2-list-q9',
-      type: 'true-false',
+      type: \'true-false',
       question: 'The book covers are different colors.',
       correctAnswer: 'True',
       explanation: 'True. Sarah says: "Their covers are different colors."',
@@ -726,7 +726,7 @@ I love my room. It is my special place.`,
     },
     {
       id: 'a1-m1-l2-list-q10',
-      type: 'true-false',
+      type: \'true-false',
       question: 'The family photo is on the desk.',
       correctAnswer: 'False',
       explanation: 'False. The family photo is on the wall, not on the desk.',
@@ -734,15 +734,15 @@ I love my room. It is my special place.`,
     },
     {
       id: 'a1-m1-l2-list-q11',
-      type: 'true-false',
-      question: "Sarah's parents are in the middle of the photo.",
+      type: \'true-false',
+      question: "Sarah\'s parents are in the middle of the photo.",
       correctAnswer: 'True',
       explanation: 'True. Sarah says: "My parents are in the middle."',
       points: 1
     },
     {
       id: 'a1-m1-l2-list-q12',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Sarah loves her room.',
       correctAnswer: 'True',
       explanation: 'True. Sarah says: "I love my room. It is my special place."',
@@ -750,7 +750,7 @@ I love my room. It is my special place.`,
     },
     {
       id: 'a1-m1-l2-list-q13',
-      type: 'true-false',
+      type: \'true-false',
       question: 'The teddy bear is on the desk.',
       correctAnswer: 'False',
       explanation: 'False. The teddy bear is on the bed, not on the desk.',
@@ -758,7 +758,7 @@ I love my room. It is my special place.`,
     },
     {
       id: 'a1-m1-l2-list-q14',
-      type: 'true-false',
+      type: \'true-false',
       question: 'The books are next to the laptop.',
       correctAnswer: 'True',
       explanation: 'True. Sarah says: "My books are next to the laptop."',
@@ -766,7 +766,7 @@ I love my room. It is my special place.`,
     },
     {
       id: 'a1-m1-l2-list-q15',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Sarah uses her laptop for studying.',
       correctAnswer: 'True',
       explanation: 'True. Sarah says: "I use it for my homework."',
@@ -774,7 +774,7 @@ I love my room. It is my special place.`,
     },
     {
       id: 'a1-m1-l2-list-q16',
-      type: 'true-false',
+      type: \'true-false',
       question: 'The teddy bear is soft.',
       correctAnswer: 'True',
       explanation: 'True. Sarah says: "It is brown and soft."',
@@ -782,7 +782,7 @@ I love my room. It is my special place.`,
     },
     {
       id: 'a1-m1-l2-list-q17',
-      type: 'true-false',
+      type: \'true-false',
       question: 'The pillow is red.',
       correctAnswer: 'False',
       explanation: 'False. The pillow is blue, not red.',
@@ -790,7 +790,7 @@ I love my room. It is my special place.`,
     },
     {
       id: 'a1-m1-l2-list-q18',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Sarah likes the color of her pillow.',
       correctAnswer: 'True',
       explanation: 'True. Sarah says: "I love its color."',
@@ -798,16 +798,16 @@ I love my room. It is my special place.`,
     },
     {
       id: 'a1-m1-l2-list-q19',
-      type: 'true-false',
-      question: "Sarah's family is happy in the photo.",
+      type: \'true-false',
+      question: "Sarah\'s family is happy in the photo.",
       correctAnswer: 'True',
       explanation: 'True. Sarah says: "Our family is very happy in the photo."',
       points: 1
     },
     {
       id: 'a1-m1-l2-list-q20',
-      type: 'true-false',
-      question: "Sarah's room is special to her.",
+      type: \'true-false',
+      question: "Sarah\'s room is special to her.",
       correctAnswer: 'True',
       explanation: 'True. Sarah says: "It is my special place."',
       points: 1
@@ -820,7 +820,7 @@ I love my room. It is my special place.`,
 // ============================================
 export const A1_M1_L2_SPEAKING = {
   id: 'a1-m1-l2-speaking-1',
-  type: 'speaking',
+  type: \'speaking',
   prompt: 'Talk about your family and your possessions. Say who the people in your family are and describe some of your things. Use pronouns (I, he, she, they) and possessive adjectives (my, his, her, their). Speak for 45-60 seconds.',
   targetText: 'My name is... I have... My father/mother is... His/Her name is... Our family... Their...',
   timeLimit: 60,
@@ -901,7 +901,7 @@ export const A1_M1_L2_PRONUNCIATION = {
   instructions: 'Listen and repeat each sentence. Focus on the pronunciation of possessive \'s and pronouns.',
   targetSentences: [
     {
-      text: "This is John's book.",
+      text: "This is John\'s book.",
       audioUrl: "/audio/a1-m1-l2-pronun-1.mp3",
       phonetic: "/ðɪs ɪz ʤɒnz bʊk/"
     },
@@ -916,7 +916,7 @@ export const A1_M1_L2_PRONUNCIATION = {
       phonetic: "/ðeə haʊs ɪz bɪg/"
     },
     {
-      text: "My sister's car is new.",
+      text: "My sister\'s car is new.",
       audioUrl: "/audio/a1-m1-l2-pronun-4.mp3",
       phonetic: "/maɪ ˈsɪstəz kɑː ɪz njuː/"
     },
@@ -965,7 +965,7 @@ export const A1_M1_L2_PRONUNCIATION = {
     },
     {
       id: 'a1-m1-l2-pronun-q3',
-      type: 'true-false',
+      type: \'true-false',
       question: '"Their" and "there" sound the same.',
       correctAnswer: 'True',
       explanation: 'True. Both are pronounced /ðeə/, but they have different meanings and spellings.',
@@ -985,7 +985,7 @@ export const A1_M1_L2_PRONUNCIATION = {
       type: 'fill-blank',
       question: 'The possessive \'s can sound like /z/ or ___.',
       correctAnswer: '/s/',
-      acceptableAnswers: ['/s/', 's', 'S', '/s/ sound'],
+      acceptableAnswers: ['/s/', \'s', 'S', '/s/ sound'],
       explanation: 'The possessive \'s can sound like /z/ (after voiced sounds) or /s/ (after unvoiced sounds).',
       points: 1
     },
@@ -1047,8 +1047,8 @@ export const A1_M1_L2_PRONUNCIATION = {
       id: 'a1-m1-l2-pronun-q12',
       type: 'multiple-choice',
       question: 'Which two words sound the same?',
-      options: ["their/there","his/he's","her/hair","its/it's"],
-      correctAnswer: 'their/there',
+      options: ["their/there","his/he\'s","her/hair","its/it\'s"],
+      correctAnswer: \'their/there',
       explanation: '"Their" and "there" are homophones - they sound the same.',
       points: 1
     },
@@ -1075,7 +1075,7 @@ export const A1_M1_L2_PRONUNCIATION = {
       type: 'multiple-choice',
       question: 'Which word has a /ð/ sound at the beginning?',
       options: ["their","his","her","my"],
-      correctAnswer: 'their',
+      correctAnswer: \'their',
       explanation: '"Their" starts with /ð/ (like "the"). The others don\'t.',
       points: 1
     },
@@ -1084,7 +1084,7 @@ export const A1_M1_L2_PRONUNCIATION = {
       type: 'multiple-choice',
       question: 'The word "we" rhymes with:',
       options: ["see","way","why","say"],
-      correctAnswer: 'see',
+      correctAnswer: \'see',
       explanation: '"We" /wiː/ rhymes with "see" /siː/.',
       points: 1
     },
@@ -1100,10 +1100,10 @@ export const A1_M1_L2_PRONUNCIATION = {
     {
       id: 'a1-m1-l2-pronun-q18',
       type: 'multiple-choice',
-      question: 'In "Lisa's bag", the 's sounds like:',
+      question: 'In "Lisa\'s bag", the \'s sounds like:',
       options: ["/z/","/s/","/ɪz/","silent"],
       correctAnswer: '/z/',
-      explanation: 'After "Lisa" (ends with voiced /ə/), the 's sounds like /z/.',
+      explanation: 'After "Lisa" (ends with voiced /ə/), the \'s sounds like /z/.',
       points: 1
     },
     {
@@ -1137,10 +1137,10 @@ export const A1_M1_L2_VOCABULARY_1 = {
   vocabularySet: [
     { word: 'mother', definition: 'female parent', example: 'My mother is 45 years old.' },
     { word: 'father', definition: 'male parent', example: 'His father is a doctor.' },
-    { word: 'sister', definition: 'female sibling', example: 'Her sister is 18.' },
+    { word: \'sister', definition: 'female sibling', example: 'Her sister is 18.' },
     { word: 'brother', definition: 'male sibling', example: 'My brother is tall.' },
-    { word: 'daughter', definition: 'female child', example: 'Their daughter is 10.' },
-    { word: 'son', definition: 'male child', example: 'Our son is a student.' },
+    { word: \'daughter', definition: 'female child', example: 'Their daughter is 10.' },
+    { word: \'son', definition: 'male child', example: 'Our son is a student.' },
     { word: 'parents', definition: 'mother and father', example: 'My parents live in London.' },
     { word: 'grandparents', definition: 'parents of your parents', example: 'Her grandparents are very old.' },
     { word: 'husband', definition: 'married man', example: 'Her husband is kind.' },
@@ -1151,7 +1151,7 @@ export const A1_M1_L2_VOCABULARY_1 = {
       id: 'a1-m1-l2-v1-q1',
       type: 'multiple-choice',
       question: 'Your mother and father are your ___.',
-      options: ['grandparents', 'parents', 'children', 'siblings'],
+      options: ['grandparents', 'parents', 'children', \'siblings'],
       correctAnswer: 'parents',
       explanation: 'Your mother and father together are called your parents.',
       points: 1
@@ -1160,8 +1160,8 @@ export const A1_M1_L2_VOCABULARY_1 = {
       id: 'a1-m1-l2-v1-q2',
       type: 'multiple-choice',
       question: 'A male child is a ___.',
-      options: ['daughter', 'son', 'brother', 'father'],
-      correctAnswer: 'son',
+      options: [\'daughter', \'son', 'brother', 'father'],
+      correctAnswer: \'son',
       explanation: 'A son is a male child. A daughter is a female child.',
       points: 1
     },
@@ -1169,8 +1169,8 @@ export const A1_M1_L2_VOCABULARY_1 = {
       id: 'a1-m1-l2-v1-q3',
       type: 'fill-blank',
       question: 'My female sibling is my ___.',
-      correctAnswer: 'sister',
-      acceptableAnswers: ['sister', 'Sister'],
+      correctAnswer: \'sister',
+      acceptableAnswers: [\'sister', 'Sister'],
       explanation: 'A sister is a female sibling (brother or sister).',
       points: 1
     },
@@ -1194,7 +1194,7 @@ export const A1_M1_L2_VOCABULARY_1 = {
     },
     {
       id: 'a1-m1-l2-v1-q6',
-      type: 'true-false',
+      type: \'true-false',
       question: 'A brother is a male sibling.',
       correctAnswer: 'True',
       explanation: 'True. A brother is a male sibling. A sister is a female sibling.',
@@ -1203,19 +1203,19 @@ export const A1_M1_L2_VOCABULARY_1 = {
     {
       id: 'a1-m1-l2-v1-q7',
       type: 'fill-blank',
-      question: 'My father's wife is my ___.',
+      question: 'My father\'s wife is my ___.',
       correctAnswer: 'mother',
       acceptableAnswers: ["mother","Mother","mom","Mom"],
-      explanation: 'Your father's wife is your mother.',
+      explanation: 'Your father\'s wife is your mother.',
       points: 1
     },
     {
       id: 'a1-m1-l2-v1-q8',
       type: 'fill-blank',
-      question: 'My mother's son is my ___.',
+      question: 'My mother\'s son is my ___.',
       correctAnswer: 'brother',
       acceptableAnswers: ["brother","Brother"],
-      explanation: 'Your mother's son is your brother (if you are a girl) or yourself (if you are a boy).',
+      explanation: 'Your mother\'s son is your brother (if you are a girl) or yourself (if you are a boy).',
       points: 1
     },
     {
@@ -1231,7 +1231,7 @@ export const A1_M1_L2_VOCABULARY_1 = {
       id: 'a1-m1-l2-v1-q10',
       type: 'fill-blank',
       question: 'My parents' daughter is my ___.',
-      correctAnswer: 'sister',
+      correctAnswer: \'sister',
       acceptableAnswers: ["sister","Sister"],
       explanation: 'Your parents' daughter is your sister (or yourself if you are a girl).',
       points: 1
@@ -1239,35 +1239,35 @@ export const A1_M1_L2_VOCABULARY_1 = {
     {
       id: 'a1-m1-l2-v1-q11',
       type: 'fill-blank',
-      question: 'My uncle's child is my ___.',
+      question: 'My uncle\'s child is my ___.',
       correctAnswer: 'cousin',
       acceptableAnswers: ["cousin","Cousin"],
-      explanation: 'Your aunt or uncle's child is your cousin.',
+      explanation: 'Your aunt or uncle\'s child is your cousin.',
       points: 1
     },
     {
       id: 'a1-m1-l2-v1-q12',
       type: 'fill-blank',
-      question: 'My mother's mother is my ___.',
+      question: 'My mother\'s mother is my ___.',
       correctAnswer: 'grandmother',
       acceptableAnswers: ["grandmother","Grandmother","grandma","Grandma","granny","Granny"],
-      explanation: 'Your mother's mother is your grandmother.',
+      explanation: 'Your mother\'s mother is your grandmother.',
       points: 1
     },
     {
       id: 'a1-m1-l2-v1-q13',
       type: 'fill-blank',
-      question: 'My father's father is my ___.',
+      question: 'My father\'s father is my ___.',
       correctAnswer: 'grandfather',
       acceptableAnswers: ["grandfather","Grandfather","grandpa","Grandpa"],
-      explanation: 'Your father's father is your grandfather.',
+      explanation: 'Your father\'s father is your grandfather.',
       points: 1
     },
     {
       id: 'a1-m1-l2-v1-q14',
       type: 'fill-blank',
       question: 'Your sister and brother are your ___.',
-      correctAnswer: 'siblings',
+      correctAnswer: \'siblings',
       acceptableAnswers: ["siblings","Siblings"],
       explanation: 'Your brothers and sisters together are called siblings.',
       points: 1
@@ -1275,46 +1275,46 @@ export const A1_M1_L2_VOCABULARY_1 = {
     {
       id: 'a1-m1-l2-v1-q15',
       type: 'fill-blank',
-      question: 'My son's daughter is my ___.',
+      question: 'My son\'s daughter is my ___.',
       correctAnswer: 'granddaughter',
       acceptableAnswers: ["granddaughter","Granddaughter"],
-      explanation: 'Your son or daughter's daughter is your granddaughter.',
+      explanation: 'Your son or daughter\'s daughter is your granddaughter.',
       points: 1
     },
     {
       id: 'a1-m1-l2-v1-q16',
       type: 'fill-blank',
-      question: 'My daughter's son is my ___.',
+      question: 'My daughter\'s son is my ___.',
       correctAnswer: 'grandson',
       acceptableAnswers: ["grandson","Grandson"],
-      explanation: 'Your son or daughter's son is your grandson.',
+      explanation: 'Your son or daughter\'s son is your grandson.',
       points: 1
     },
     {
       id: 'a1-m1-l2-v1-q17',
       type: 'fill-blank',
-      question: 'My mother's sister is my ___.',
+      question: 'My mother\'s sister is my ___.',
       correctAnswer: 'aunt',
       acceptableAnswers: ["aunt","Aunt"],
-      explanation: 'Your mother or father's sister is your aunt.',
+      explanation: 'Your mother or father\'s sister is your aunt.',
       points: 1
     },
     {
       id: 'a1-m1-l2-v1-q18',
       type: 'fill-blank',
-      question: 'My father's brother is my ___.',
+      question: 'My father\'s brother is my ___.',
       correctAnswer: 'uncle',
       acceptableAnswers: ["uncle","Uncle"],
-      explanation: 'Your mother or father's brother is your uncle.',
+      explanation: 'Your mother or father\'s brother is your uncle.',
       points: 1
     },
     {
       id: 'a1-m1-l2-v1-q19',
       type: 'fill-blank',
-      question: 'My husband's parents are my ___.',
+      question: 'My husband\'s parents are my ___.',
       correctAnswer: 'in-laws',
       acceptableAnswers: ["in-laws","In-laws","parents-in-law","in laws"],
-      explanation: 'Your spouse's parents are your parents-in-law or in-laws.',
+      explanation: 'Your spouse\'s parents are your parents-in-law or in-laws.',
       points: 1
     },
     {
@@ -1342,8 +1342,8 @@ export const A1_M1_L2_VOCABULARY_2 = {
     { word: 'book', definition: 'printed pages to read', example: 'His book is interesting.' },
     { word: 'bag', definition: 'container to carry things', example: 'Their bags are heavy.' },
     { word: 'key', definition: 'object to open locks', example: 'My keys are in my pocket.' },
-    { word: 'wallet', definition: 'small case for money', example: 'His wallet is black.' },
-    { word: 'watch', definition: 'device to tell time', example: 'Her watch is expensive.' },
+    { word: 'wallet', definition: \'small case for money', example: 'His wallet is black.' },
+    { word: 'watch', definition: \'device to tell time', example: 'Her watch is expensive.' },
     { word: 'glasses', definition: 'worn to help you see', example: 'My glasses are broken.' }
   ],
   questions: [
@@ -1394,7 +1394,7 @@ export const A1_M1_L2_VOCABULARY_2 = {
     },
     {
       id: 'a1-m1-l2-v2-q6',
-      type: 'true-false',
+      type: \'true-false',
       question: 'Glasses help you see better.',
       correctAnswer: 'True',
       explanation: 'True. Glasses are worn to help you see more clearly.',
@@ -1521,7 +1521,7 @@ export const A1_M1_L2_VOCABULARY_2 = {
       id: 'a1-m1-l2-v2-q20',
       type: 'fill-blank',
       question: 'I store files on my USB ___.',
-      correctAnswer: 'drive',
+      correctAnswer: \'drive',
       acceptableAnswers: ["drive","Drive","stick"],
       explanation: 'A USB drive (or stick) is used to store and transfer digital files.',
       points: 1
@@ -1537,12 +1537,12 @@ export const A1_M1_L2_VOCABULARY_2 = {
 // ============================================
 export const A1_M1_L2_SENTENCE_COMPLETION = {
   id: 'a1-m1-l2-sentence-completion',
-  type: 'sentence-completion',
+  type: \'sentence-completion',
   title: 'Complete with Pronouns',
   instructions: 'Complete each sentence with the correct personal or possessive pronoun.',
   sentences: [
     {
-      id: 'sc1',
+      id: \'sc1',
       prompt: 'This is Maria. ___ is my sister.',
       correctCompletion: 'She',
       options: ['She', 'He', 'Her', 'His'],
@@ -1550,15 +1550,15 @@ export const A1_M1_L2_SENTENCE_COMPLETION = {
       points: 1
     },
     {
-      id: 'sc2',
+      id: \'sc2',
       prompt: 'I have a dog. ___ name is Max.',
       correctCompletion: 'Its',
-      options: ['Its', 'It', "It's", 'His'],
+      options: ['Its', 'It', "It\'s", 'His'],
       explanation: 'We use "Its" (possessive) for animals and things.',
       points: 1
     },
     {
-      id: 'sc3',
+      id: \'sc3',
       prompt: 'This book is ___. I bought it yesterday.',
       correctCompletion: 'mine',
       options: ['my', 'mine', 'me', 'I'],
@@ -1566,7 +1566,7 @@ export const A1_M1_L2_SENTENCE_COMPLETION = {
       points: 1
     },
     {
-      id: 'sc4',
+      id: \'sc4',
       prompt: 'John and Mary are here. ___ are waiting for you.',
       correctCompletion: 'They',
       options: ['They', 'Them', 'Their', 'We'],
@@ -1574,7 +1574,7 @@ export const A1_M1_L2_SENTENCE_COMPLETION = {
       points: 1
     },
     {
-      id: 'sc5',
+      id: \'sc5',
       prompt: 'Can you help ___? I need your help.',
       correctCompletion: 'me',
       options: ['me', 'I', 'my', 'mine'],
@@ -1582,7 +1582,7 @@ export const A1_M1_L2_SENTENCE_COMPLETION = {
       points: 1
     },
     {
-      id: 'sc6',
+      id: \'sc6',
       prompt: 'This is ___ car. We bought it last year.',
       correctCompletion: 'our',
       options: ['our', 'ours', 'we', 'us'],
@@ -1590,7 +1590,7 @@ export const A1_M1_L2_SENTENCE_COMPLETION = {
       points: 1
     },
     {
-      id: 'sc7',
+      id: \'sc7',
       prompt: 'Tom is my friend. I like ___ very much.',
       correctCompletion: 'him',
       options: ['him', 'he', 'his', 'her'],
@@ -1598,15 +1598,15 @@ export const A1_M1_L2_SENTENCE_COMPLETION = {
       points: 1
     },
     {
-      id: 'sc8',
+      id: \'sc8',
       prompt: 'These books belong to Sarah. They are ___.',
       correctCompletion: 'hers',
-      options: ['hers', 'her', 'she', 'his'],
+      options: ['hers', 'her', \'she', 'his'],
       explanation: 'We use "hers" as a possessive pronoun (without a noun).',
       points: 1
     },
     {
-      id: 'sc9',
+      id: \'sc9',
       prompt: '___ am a student at university.',
       correctCompletion: 'I',
       options: ['I', 'Me', 'My', 'Mine'],
@@ -1614,7 +1614,7 @@ export const A1_M1_L2_SENTENCE_COMPLETION = {
       points: 1
     },
     {
-      id: 'sc10',
+      id: \'sc10',
       prompt: 'Anna and ___ are going to the cinema.',
       correctCompletion: 'I',
       options: ['I', 'me', 'my', 'we'],
@@ -1622,15 +1622,15 @@ export const A1_M1_L2_SENTENCE_COMPLETION = {
       points: 1
     },
     {
-      id: 'sc11',
+      id: \'sc11',
       prompt: 'Give the book to ___. She needs it.',
       correctCompletion: 'her',
-      options: ['her', 'she', 'hers', 'his'],
+      options: ['her', \'she', 'hers', 'his'],
       explanation: 'We use "her" (object pronoun) after prepositions like "to".',
       points: 1
     },
     {
-      id: 'sc12',
+      id: \'sc12',
       prompt: 'That bag is ___. I bought it yesterday.',
       correctCompletion: 'mine',
       options: ['mine', 'my', 'me', 'I'],
@@ -1638,7 +1638,7 @@ export const A1_M1_L2_SENTENCE_COMPLETION = {
       points: 1
     },
     {
-      id: 'sc13',
+      id: \'sc13',
       prompt: 'Can you help ___ with this problem?',
       correctCompletion: 'us',
       options: ['us', 'we', 'our', 'ours'],
@@ -1646,7 +1646,7 @@ export const A1_M1_L2_SENTENCE_COMPLETION = {
       points: 1
     },
     {
-      id: 'sc14',
+      id: \'sc14',
       prompt: 'Mr. Brown is ___ teacher. We like him.',
       correctCompletion: 'our',
       options: ['our', 'ours', 'we', 'us'],
@@ -1654,7 +1654,7 @@ export const A1_M1_L2_SENTENCE_COMPLETION = {
       points: 1
     },
     {
-      id: 'sc15',
+      id: \'sc15',
       prompt: 'Look at that dog! ___ is so cute!',
       correctCompletion: 'It',
       options: ['It', 'Its', 'He', 'She'],
@@ -1662,7 +1662,7 @@ export const A1_M1_L2_SENTENCE_COMPLETION = {
       points: 1
     },
     {
-      id: 'sc16',
+      id: \'sc16',
       prompt: 'Is this pen ___? I found it on the table.',
       correctCompletion: 'yours',
       options: ['yours', 'your', 'you', 'yous'],
@@ -1670,15 +1670,15 @@ export const A1_M1_L2_SENTENCE_COMPLETION = {
       points: 1
     },
     {
-      id: 'sc17',
+      id: \'sc17',
       prompt: 'My parents work hard. I love ___ very much.',
-      correctCompletion: 'them',
-      options: ['them', 'they', 'their', 'theirs'],
+      correctCompletion: \'them',
+      options: [\'them', \'they', \'their', \'theirs'],
       explanation: 'We use "them" (object pronoun) after verbs.',
       points: 1
     },
     {
-      id: 'sc18',
+      id: \'sc18',
       prompt: 'This is Paul. ___ brother is my friend.',
       correctCompletion: 'His',
       options: ['His', 'He', 'Him', 'Her'],
@@ -1686,15 +1686,15 @@ export const A1_M1_L2_SENTENCE_COMPLETION = {
       points: 1
     },
     {
-      id: 'sc19',
+      id: \'sc19',
       prompt: 'These toys belong to my children. They are ___.',
-      correctCompletion: 'theirs',
-      options: ['theirs', 'their', 'they', 'them'],
+      correctCompletion: \'theirs',
+      options: [\'theirs', \'their', \'they', \'them'],
       explanation: 'We use "theirs" as a possessive pronoun.',
       points: 1
     },
     {
-      id: 'sc20',
+      id: \'sc20',
       prompt: 'Come with ___! We are going to the park.',
       correctCompletion: 'us',
       options: ['us', 'we', 'our', 'ours'],
@@ -1966,8 +1966,8 @@ Anna`,
     {
       id: 'gap9',
       gapNumber: 9,
-      correctAnswer: 'them',
-      options: ['them', 'thems', 'other'],
+      correctAnswer: \'them',
+      options: [\'them', \'thems', 'other'],
       explanation: '"Them" is the object pronoun for David and Emma.',
       points: 1
     },
