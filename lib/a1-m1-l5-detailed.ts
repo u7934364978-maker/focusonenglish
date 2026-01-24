@@ -673,6 +673,154 @@ export const A1_M1_L5_VOCABULARY_2 = {
 };
 
 // Export all exercises for Module 1, Lesson 5
+
+
+export const A1_M1_L5_SENTENCE_COMPLETION = {
+  id: 'a1-m1-l5-sentence-completion',
+  type: 'sentence-completion',
+  title: 'Complete Family Sentences',
+  instructions: 'Complete sentences about family.',
+  sentences: [
+    {
+      id: 'sc1',
+      prompt: 'My father\'s wife is my ___.',
+      correctCompletion: 'mother',
+      options: ['mother', 'sister', 'aunt', 'grandmother'],
+      explanation: 'Your father\'s wife is your mother.',
+      points: 1
+    },
+    {
+      id: 'sc2',
+      prompt: 'My mother\'s brother is my ___.',
+      correctCompletion: 'uncle',
+      options: ['uncle', 'aunt', 'cousin', 'brother'],
+      explanation: 'Your mother\'s brother is your uncle.',
+      points: 1
+    },
+    {
+      id: 'sc3',
+      prompt: 'My sister\'s son is my ___.',
+      correctCompletion: 'nephew',
+      options: ['nephew', 'niece', 'cousin', 'son'],
+      explanation: 'Your sister\'s son is your nephew.',
+      points: 1
+    }
+  ]
+};
+
+export const A1_M1_L5_ERROR_IDENTIFICATION = {
+  id: 'a1-m1-l5-error-identification',
+  type: 'error-identification',
+  title: 'Find Family Term Errors',
+  instructions: 'Find errors in family relationship sentences.',
+  sentences: [
+    {
+      id: 'ei1',
+      sentence: 'My father is my mother husband.',
+      hasError: true,
+      errorWord: 'mother',
+      correction: 'mother\'s',
+      explanation: 'Incorrect! We need the possessive form. Correct: My father is my mother\'s husband.',
+      points: 1
+    },
+    {
+      id: 'ei2',
+      sentence: 'My brother\'s daughter is my niece.',
+      hasError: false,
+      explanation: 'Correct! This is the right family relationship.',
+      points: 1
+    }
+  ]
+};
+
+export const A1_M1_L5_GAP_FILL = {
+  id: 'a1-m1-l5-gap-fill',
+  type: 'gap-fill-text',
+  title: 'My Family Tree',
+  instructions: 'Complete the text about family.',
+  text: `I have a big family. My {{1}} are John and Mary. I have one {{2}} and two {{3}}.
+
+My brother is married. His {{4}} is called Sarah. They have two children - my {{5}} Tom and my {{6}} Emma.
+
+My {{7}} (my mother\'s parents) live nearby. They are very kind.`,
+  gaps: [
+    {
+      id: 'gap1',
+      gapNumber: 1,
+      correctAnswer: 'parents',
+      explanation: 'Mother and father are your parents.',
+      points: 1
+    },
+    {
+      id: 'gap2',
+      gapNumber: 2,
+      correctAnswer: 'brother',
+      explanation: 'Male sibling.',
+      points: 1
+    },
+    {
+      id: 'gap3',
+      gapNumber: 3,
+      correctAnswer: 'sisters',
+      explanation: 'Female siblings.',
+      points: 1
+    },
+    {
+      id: 'gap4',
+      gapNumber: 4,
+      correctAnswer: 'wife',
+      explanation: 'His wife is Sarah.',
+      points: 1
+    },
+    {
+      id: 'gap5',
+      gapNumber: 5,
+      correctAnswer: 'nephew',
+      explanation: 'Brother\'s son is nephew.',
+      points: 1
+    },
+    {
+      id: 'gap6',
+      gapNumber: 6,
+      correctAnswer: 'niece',
+      explanation: 'Brother\'s daughter is niece.',
+      points: 1
+    },
+    {
+      id: 'gap7',
+      gapNumber: 7,
+      correctAnswer: 'grandparents',
+      explanation: 'Mother\'s parents are grandparents.',
+      points: 1
+    }
+  ]
+};
+
+export const A1_M1_L5_COLLOCATION_MATCHING = {
+  id: 'a1-m1-l5-collocation-matching',
+  type: 'collocation-matching',
+  title: 'Match Family Relationships',
+  instructions: 'Match the family member with their relationship.',
+  pairs: [
+    {
+      id: 'cm1',
+      word: 'Mother',
+      correctMatch: 'female parent',
+      distractors: ['male parent', 'sibling', 'child'],
+      example: 'My mother is very kind.',
+      points: 1
+    },
+    {
+      id: 'cm2',
+      word: 'Uncle',
+      correctMatch: 'parent\'s brother',
+      distractors: ['parent\'s sister', 'sibling\'s son', 'grandparent'],
+      example: 'My uncle is my father\'s brother.',
+      points: 1
+    }
+  ]
+};
+
 export const A1_M1_L5_ALL_EXERCISES = [
   A1_M1_L5_GRAMMAR_1,
   A1_M1_L5_GRAMMAR_2,
@@ -682,5 +830,9 @@ export const A1_M1_L5_ALL_EXERCISES = [
   A1_M1_L5_WRITING,
   A1_M1_L5_PRONUNCIATION,
   A1_M1_L5_VOCABULARY_1,
-  A1_M1_L5_VOCABULARY_2
+  A1_M1_L5_VOCABULARY_2,
+  A1_M1_L5_SENTENCE_COMPLETION,
+  A1_M1_L5_ERROR_IDENTIFICATION,
+  A1_M1_L5_GAP_FILL,
+  A1_M1_L5_COLLOCATION_MATCHING
 ];

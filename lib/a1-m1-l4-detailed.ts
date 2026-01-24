@@ -664,6 +664,169 @@ export const A1_M1_L4_VOCABULARY_2 = {
 };
 
 // Export all exercises for Module 1, Lesson 4
+
+
+export const A1_M1_L4_SENTENCE_COMPLETION = {
+  id: 'a1-m1-l4-sentence-completion',
+  type: 'sentence-completion',
+  title: 'Complete with Numbers',
+  instructions: 'Complete each sentence with the correct number or age expression.',
+  sentences: [
+    {
+      id: 'sc1',
+      prompt: 'I am ___ years old.',
+      correctCompletion: '25',
+      options: ['25', '25 year', 'years 25', '25s'],
+      explanation: 'We say "number + years old" for age.',
+      points: 1
+    },
+    {
+      id: 'sc2',
+      prompt: 'There are ___ months in a year.',
+      correctCompletion: 'twelve',
+      options: ['twelve', 'twelv', 'twelf', 'twelth'],
+      explanation: 'There are twelve months in a year.',
+      points: 1
+    },
+    {
+      id: 'sc3',
+      prompt: 'My phone number is 555-___.',
+      correctCompletion: '1234',
+      options: ['1234', 'one two three four', 'twelve thirty-four'],
+      explanation: 'We write phone numbers as digits.',
+      points: 1
+    }
+  ]
+};
+
+export const A1_M1_L4_ERROR_IDENTIFICATION = {
+  id: 'a1-m1-l4-error-identification',
+  type: 'error-identification',
+  title: 'Find Number Errors',
+  instructions: 'Find and correct errors with numbers and ages.',
+  sentences: [
+    {
+      id: 'ei1',
+      sentence: 'I have 30 year old.',
+      hasError: true,
+      errorWord: 'year',
+      correction: 'years',
+      explanation: 'Incorrect! We say "years old", not "year old" with numbers above 1. Correct: I have 30 years old.',
+      points: 1
+    },
+    {
+      id: 'ei2',
+      sentence: 'She is twenty-five.',
+      hasError: false,
+      explanation: 'Correct! This is the right way to write numbers as words.',
+      points: 1
+    },
+    {
+      id: 'ei3',
+      sentence: 'There are fiveteen students.',
+      hasError: true,
+      errorWord: 'fiveteen',
+      correction: 'fifteen',
+      explanation: 'Incorrect! The correct spelling is "fifteen". Correct: There are fifteen students.',
+      points: 1
+    }
+  ]
+};
+
+export const A1_M1_L4_GAP_FILL = {
+  id: 'a1-m1-l4-gap-fill',
+  type: 'gap-fill-text',
+  title: 'Family Ages',
+  instructions: 'Fill in the gaps with numbers and age expressions.',
+  text: `My name is Tom. I am {{1}} years old. I have a big family.
+
+My sister is {{2}}. She is {{3}} years old. My brother is older. He is {{4}}.
+
+My parents are in their fifties. My mother is {{5}} and my father is {{6}}.
+
+I also have {{7}} grandparents. They are all in their eighties!`,
+  gaps: [
+    {
+      id: 'gap1',
+      gapNumber: 1,
+      correctAnswer: '25',
+      acceptableAlternatives: ['twenty-five', 'twenty five'],
+      explanation: 'Age can be written as numbers or words.',
+      points: 1
+    },
+    {
+      id: 'gap2',
+      gapNumber: 2,
+      correctAnswer: 'younger',
+      explanation: 'Sister is younger than Tom.',
+      points: 1
+    },
+    {
+      id: 'gap3',
+      gapNumber: 3,
+      correctAnswer: '22',
+      acceptableAlternatives: ['twenty-two', 'twenty two'],
+      explanation: 'Age expression.',
+      points: 1
+    },
+    {
+      id: 'gap4',
+      gapNumber: 4,
+      correctAnswer: '28',
+      acceptableAlternatives: ['twenty-eight', 'twenty eight'],
+      explanation: 'Brother is older.',
+      points: 1
+    },
+    {
+      id: 'gap5',
+      gapNumber: 5,
+      correctAnswer: '52',
+      acceptableAlternatives: ['fifty-two', 'fifty two'],
+      explanation: 'Mother\'s age.',
+      points: 1
+    },
+    {
+      id: 'gap6',
+      gapNumber: 6,
+      correctAnswer: '55',
+      acceptableAlternatives: ['fifty-five', 'fifty five'],
+      explanation: 'Father\'s age.',
+      points: 1
+    },
+    {
+      id: 'gap7',
+      gapNumber: 7,
+      correctAnswer: 'four',
+      acceptableAlternatives: ['4'],
+      explanation: 'Number of grandparents.',
+      points: 1
+    }
+  ]
+};
+
+export const A1_M1_L4_SENTENCE_REORDERING = {
+  id: 'a1-m1-l4-sentence-reordering',
+  type: 'sentence-reordering',
+  title: 'Order Number Sentences',
+  instructions: 'Put the words in the correct order.',
+  items: [
+    {
+      id: 'sr1',
+      shuffledSentences: ['old', 'years', 'am', 'I', '30'],
+      correctOrder: [2, 3, 4, 1, 0],
+      explanation: 'Correct: I am 30 years old.',
+      points: 1
+    },
+    {
+      id: 'sr2',
+      shuffledSentences: ['phone', 'is', 'number', 'My', '555-1234'],
+      correctOrder: [3, 2, 1, 4, 0],
+      explanation: 'Correct: My phone number is 555-1234.',
+      points: 1
+    }
+  ]
+};
+
 export const A1_M1_L4_ALL_EXERCISES = [
   A1_M1_L4_GRAMMAR_1,
   A1_M1_L4_GRAMMAR_2,
@@ -673,5 +836,9 @@ export const A1_M1_L4_ALL_EXERCISES = [
   A1_M1_L4_WRITING,
   A1_M1_L4_PRONUNCIATION,
   A1_M1_L4_VOCABULARY_1,
-  A1_M1_L4_VOCABULARY_2
+  A1_M1_L4_VOCABULARY_2,
+  A1_M1_L4_SENTENCE_COMPLETION,
+  A1_M1_L4_ERROR_IDENTIFICATION,
+  A1_M1_L4_GAP_FILL,
+  A1_M1_L4_SENTENCE_REORDERING
 ];

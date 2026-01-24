@@ -676,6 +676,307 @@ export const A1_M1_L2_VOCABULARY_2 = {
 };
 
 // Export all exercises for Module 1, Lesson 2
+
+
+// ============================================
+// SENTENCE COMPLETION EXERCISE
+// ============================================
+export const A1_M1_L2_SENTENCE_COMPLETION = {
+  id: 'a1-m1-l2-sentence-completion',
+  type: 'sentence-completion',
+  title: 'Complete with Pronouns',
+  instructions: 'Complete each sentence with the correct personal or possessive pronoun.',
+  sentences: [
+    {
+      id: 'sc1',
+      prompt: 'This is Maria. ___ is my sister.',
+      correctCompletion: 'She',
+      options: ['She', 'He', 'Her', 'His'],
+      explanation: 'We use "She" as the subject pronoun for a female person.',
+      points: 1
+    },
+    {
+      id: 'sc2',
+      prompt: 'I have a dog. ___ name is Max.',
+      correctCompletion: 'Its',
+      options: ['Its', 'It', "It's", 'His'],
+      explanation: 'We use "Its" (possessive) for animals and things.',
+      points: 1
+    },
+    {
+      id: 'sc3',
+      prompt: 'This book is ___. I bought it yesterday.',
+      correctCompletion: 'mine',
+      options: ['my', 'mine', 'me', 'I'],
+      explanation: 'We use "mine" as a possessive pronoun (without a noun after it).',
+      points: 1
+    },
+    {
+      id: 'sc4',
+      prompt: 'John and Mary are here. ___ are waiting for you.',
+      correctCompletion: 'They',
+      options: ['They', 'Them', 'Their', 'We'],
+      explanation: 'We use "They" as the subject pronoun for plural people.',
+      points: 1
+    },
+    {
+      id: 'sc5',
+      prompt: 'Can you help ___? I need your help.',
+      correctCompletion: 'me',
+      options: ['me', 'I', 'my', 'mine'],
+      explanation: 'We use "me" as the object pronoun after verbs.',
+      points: 1
+    },
+    {
+      id: 'sc6',
+      prompt: 'This is ___ car. We bought it last year.',
+      correctCompletion: 'our',
+      options: ['our', 'ours', 'we', 'us'],
+      explanation: 'We use "our" (possessive adjective) before a noun.',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// ERROR IDENTIFICATION EXERCISE
+// ============================================
+export const A1_M1_L2_ERROR_IDENTIFICATION = {
+  id: 'a1-m1-l2-error-identification',
+  type: 'error-identification',
+  title: 'Find Pronoun Errors',
+  instructions: 'Find and correct the pronoun errors in these sentences.',
+  sentences: [
+    {
+      id: 'ei1',
+      sentence: 'Me am a student.',
+      hasError: true,
+      errorWord: 'Me',
+      correction: 'I',
+      explanation: 'Incorrect! We use "I" as the subject, not "me". Correct: I am a student.',
+      points: 1
+    },
+    {
+      id: 'ei2',
+      sentence: 'This is my book.',
+      hasError: false,
+      explanation: 'Correct! "My" is the correct possessive adjective.',
+      points: 1
+    },
+    {
+      id: 'ei3',
+      sentence: 'Her is a teacher.',
+      hasError: true,
+      errorWord: 'Her',
+      correction: 'She',
+      explanation: 'Incorrect! We use "She" as the subject, not "her". Correct: She is a teacher.',
+      points: 1
+    },
+    {
+      id: 'ei4',
+      sentence: 'The book is hers.',
+      hasError: false,
+      explanation: 'Correct! "Hers" is the correct possessive pronoun.',
+      points: 1
+    },
+    {
+      id: 'ei5',
+      sentence: 'Can you give it to I?',
+      hasError: true,
+      errorWord: 'I',
+      correction: 'me',
+      explanation: 'Incorrect! We use "me" as the object pronoun. Correct: Can you give it to me?',
+      points: 1
+    },
+    {
+      id: 'ei6',
+      sentence: 'Them are my friends.',
+      hasError: true,
+      errorWord: 'Them',
+      correction: 'They',
+      explanation: 'Incorrect! We use "They" as the subject pronoun. Correct: They are my friends.',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// GAP FILL TEXT EXERCISE
+// ============================================
+export const A1_M1_L2_GAP_FILL = {
+  id: 'a1-m1-l2-gap-fill',
+  type: 'gap-fill-text',
+  title: 'Complete the Email',
+  instructions: 'Fill in the gaps with the correct personal or possessive pronouns.',
+  text: `Hi Sarah,
+
+How are {{1}}? {{2}} am fine, thanks. I want to tell you about {{3}} new neighbor.
+
+{{4}} name is David and {{5}} is from Canada. {{6}} is very friendly. David has a sister. {{7}} name is Emma. {{8}} is a doctor. David and Emma are nice. I like {{9}}.
+
+David has a cat. {{10}} name is Whiskers. {{11}} is very cute!
+
+What about you? How is {{12}} family? Please write to {{13}} soon.
+
+Best wishes,
+Anna`,
+  gaps: [
+    {
+      id: 'gap1',
+      gapNumber: 1,
+      correctAnswer: 'you',
+      explanation: '"You" is the correct pronoun.',
+      points: 1
+    },
+    {
+      id: 'gap2',
+      gapNumber: 2,
+      correctAnswer: 'I',
+      explanation: '"I" is the subject pronoun.',
+      points: 1
+    },
+    {
+      id: 'gap3',
+      gapNumber: 3,
+      correctAnswer: 'my',
+      explanation: '"My" is the possessive adjective before "neighbor".',
+      points: 1
+    },
+    {
+      id: 'gap4',
+      gapNumber: 4,
+      correctAnswer: 'His',
+      explanation: '"His" is the possessive adjective for a male.',
+      points: 1
+    },
+    {
+      id: 'gap5',
+      gapNumber: 5,
+      correctAnswer: 'he',
+      explanation: '"He" is the subject pronoun for David.',
+      points: 1
+    },
+    {
+      id: 'gap6',
+      gapNumber: 6,
+      correctAnswer: 'He',
+      explanation: '"He" is the subject pronoun.',
+      points: 1
+    },
+    {
+      id: 'gap7',
+      gapNumber: 7,
+      correctAnswer: 'Her',
+      explanation: '"Her" is the possessive adjective for a female.',
+      points: 1
+    },
+    {
+      id: 'gap8',
+      gapNumber: 8,
+      correctAnswer: 'She',
+      explanation: '"She" is the subject pronoun for Emma.',
+      points: 1
+    },
+    {
+      id: 'gap9',
+      gapNumber: 9,
+      correctAnswer: 'them',
+      explanation: '"Them" is the object pronoun for David and Emma.',
+      points: 1
+    },
+    {
+      id: 'gap10',
+      gapNumber: 10,
+      correctAnswer: 'Its',
+      acceptableAlternatives: ['His'],
+      explanation: '"Its" is the possessive for animals/things.',
+      points: 1
+    },
+    {
+      id: 'gap11',
+      gapNumber: 11,
+      correctAnswer: 'It',
+      acceptableAlternatives: ['He', 'She'],
+      explanation: '"It" is the subject pronoun for animals.',
+      points: 1
+    },
+    {
+      id: 'gap12',
+      gapNumber: 12,
+      correctAnswer: 'your',
+      explanation: '"Your" is the possessive adjective.',
+      points: 1
+    },
+    {
+      id: 'gap13',
+      gapNumber: 13,
+      correctAnswer: 'me',
+      explanation: '"Me" is the object pronoun after "to".',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// COLLOCATION MATCHING EXERCISE
+// ============================================
+export const A1_M1_L2_COLLOCATION_MATCHING = {
+  id: 'a1-m1-l2-collocation-matching',
+  type: 'collocation-matching',
+  title: 'Match Pronouns with Verbs',
+  instructions: 'Match each pronoun with the correct verb form.',
+  pairs: [
+    {
+      id: 'cm1',
+      word: 'I',
+      correctMatch: 'am',
+      distractors: ['is', 'are'],
+      example: 'I am a student.',
+      points: 1
+    },
+    {
+      id: 'cm2',
+      word: 'He',
+      correctMatch: 'is',
+      distractors: ['am', 'are'],
+      example: 'He is my brother.',
+      points: 1
+    },
+    {
+      id: 'cm3',
+      word: 'They',
+      correctMatch: 'are',
+      distractors: ['am', 'is'],
+      example: 'They are teachers.',
+      points: 1
+    },
+    {
+      id: 'cm4',
+      word: 'She',
+      correctMatch: 'is',
+      distractors: ['am', 'are'],
+      example: 'She is happy.',
+      points: 1
+    },
+    {
+      id: 'cm5',
+      word: 'We',
+      correctMatch: 'are',
+      distractors: ['am', 'is'],
+      example: 'We are friends.',
+      points: 1
+    },
+    {
+      id: 'cm6',
+      word: 'You',
+      correctMatch: 'are',
+      distractors: ['am', 'is'],
+      example: 'You are nice.',
+      points: 1
+    }
+  ]
+};
+
 export const A1_M1_L2_ALL_EXERCISES = [
   A1_M1_L2_GRAMMAR_1,
   A1_M1_L2_GRAMMAR_2,
@@ -685,5 +986,9 @@ export const A1_M1_L2_ALL_EXERCISES = [
   A1_M1_L2_WRITING,
   A1_M1_L2_PRONUNCIATION,
   A1_M1_L2_VOCABULARY_1,
-  A1_M1_L2_VOCABULARY_2
+  A1_M1_L2_VOCABULARY_2,
+  A1_M1_L2_SENTENCE_COMPLETION,
+  A1_M1_L2_ERROR_IDENTIFICATION,
+  A1_M1_L2_GAP_FILL,
+  A1_M1_L2_COLLOCATION_MATCHING
 ];

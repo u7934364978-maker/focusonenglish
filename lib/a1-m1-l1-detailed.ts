@@ -717,6 +717,327 @@ export const A1_M1_L1_VOCABULARY_2 = {
 };
 
 // Export all exercises for Module 1, Lesson 1
+
+
+// ============================================
+// SENTENCE COMPLETION EXERCISE
+// ============================================
+export const A1_M1_L1_SENTENCE_COMPLETION = {
+  id: 'a1-m1-l1-sentence-completion',
+  type: 'sentence-completion',
+  title: 'Complete the Sentences',
+  instructions: 'Complete each sentence with the correct form of "to be" (am, is, are).',
+  sentences: [
+    {
+      id: 'sc1',
+      prompt: 'My name ___ Maria.',
+      correctCompletion: 'is',
+      options: ['am', 'is', 'are'],
+      explanation: 'We use "is" with third person singular (he, she, it, my name).',
+      points: 1
+    },
+    {
+      id: 'sc2',
+      prompt: 'I ___ from London.',
+      correctCompletion: 'am',
+      options: ['am', 'is', 'are'],
+      explanation: 'We always use "am" with "I".',
+      points: 1
+    },
+    {
+      id: 'sc3',
+      prompt: 'You ___ a good student.',
+      correctCompletion: 'are',
+      options: ['am', 'is', 'are'],
+      explanation: 'We use "are" with "you".',
+      points: 1
+    },
+    {
+      id: 'sc4',
+      prompt: 'They ___ my friends.',
+      correctCompletion: 'are',
+      options: ['am', 'is', 'are'],
+      explanation: 'We use "are" with "they".',
+      points: 1
+    },
+    {
+      id: 'sc5',
+      prompt: 'She ___ happy today.',
+      correctCompletion: 'is',
+      options: ['am', 'is', 'are'],
+      explanation: 'We use "is" with "she".',
+      points: 1
+    },
+    {
+      id: 'sc6',
+      prompt: 'We ___ in the classroom.',
+      correctCompletion: 'are',
+      options: ['am', 'is', 'are'],
+      explanation: 'We use "are" with "we".',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// ERROR IDENTIFICATION EXERCISE
+// ============================================
+export const A1_M1_L1_ERROR_IDENTIFICATION = {
+  id: 'a1-m1-l1-error-identification',
+  type: 'error-identification',
+  title: 'Find the Errors',
+  instructions: 'Read each sentence. If there is an error with the verb "to be", identify and correct it. If the sentence is correct, select "No error".',
+  sentences: [
+    {
+      id: 'ei1',
+      sentence: 'I is a teacher.',
+      hasError: true,
+      errorWord: 'is',
+      correction: 'am',
+      explanation: 'Incorrect! We use "am" with "I", not "is". Correct: I am a teacher.',
+      points: 1
+    },
+    {
+      id: 'ei2',
+      sentence: 'She are from Spain.',
+      hasError: true,
+      errorWord: 'are',
+      correction: 'is',
+      explanation: 'Incorrect! We use "is" with "she", not "are". Correct: She is from Spain.',
+      points: 1
+    },
+    {
+      id: 'ei3',
+      sentence: 'They are students.',
+      hasError: false,
+      explanation: 'Correct! This sentence has no errors.',
+      points: 1
+    },
+    {
+      id: 'ei4',
+      sentence: 'He am happy.',
+      hasError: true,
+      errorWord: 'am',
+      correction: 'is',
+      explanation: 'Incorrect! We use "is" with "he", not "am". Correct: He is happy.',
+      points: 1
+    },
+    {
+      id: 'ei5',
+      sentence: 'We is tired.',
+      hasError: true,
+      errorWord: 'is',
+      correction: 'are',
+      explanation: 'Incorrect! We use "are" with "we", not "is". Correct: We are tired.',
+      points: 1
+    },
+    {
+      id: 'ei6',
+      sentence: 'You are my friend.',
+      hasError: false,
+      explanation: 'Correct! This sentence has no errors.',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// GAP FILL TEXT EXERCISE
+// ============================================
+export const A1_M1_L1_GAP_FILL = {
+  id: 'a1-m1-l1-gap-fill',
+  type: 'gap-fill-text',
+  title: 'Complete the Text',
+  instructions: 'Read the text and fill in the gaps with the correct form of "to be" (am, is, are).',
+  text: `Hello! My name {{1}} John and I {{2}} from New York. I {{3}} 25 years old. I {{4}} a teacher. 
+
+My sister {{5}} Sarah. She {{6}} 22 years old and she {{7}} a student. We {{8}} very close. Our parents {{9}} doctors. They {{10}} very busy, but they {{11}} happy.
+
+My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since university. Tom and I {{15}} both teachers now.`,
+  gaps: [
+    {
+      id: 'gap1',
+      gapNumber: 1,
+      correctAnswer: 'is',
+      acceptableAlternatives: ["'s"],
+      explanation: '"My name" takes "is" (third person singular).',
+      points: 1
+    },
+    {
+      id: 'gap2',
+      gapNumber: 2,
+      correctAnswer: 'am',
+      acceptableAlternatives: ["'m"],
+      explanation: '"I" always takes "am".',
+      points: 1
+    },
+    {
+      id: 'gap3',
+      gapNumber: 3,
+      correctAnswer: 'am',
+      acceptableAlternatives: ["'m"],
+      explanation: '"I" always takes "am".',
+      points: 1
+    },
+    {
+      id: 'gap4',
+      gapNumber: 4,
+      correctAnswer: 'am',
+      acceptableAlternatives: ["'m"],
+      explanation: '"I" always takes "am".',
+      points: 1
+    },
+    {
+      id: 'gap5',
+      gapNumber: 5,
+      correctAnswer: 'is',
+      acceptableAlternatives: ["'s"],
+      explanation: '"My sister" (she) takes "is".',
+      points: 1
+    },
+    {
+      id: 'gap6',
+      gapNumber: 6,
+      correctAnswer: 'is',
+      acceptableAlternatives: ["'s"],
+      explanation: '"She" takes "is".',
+      points: 1
+    },
+    {
+      id: 'gap7',
+      gapNumber: 7,
+      correctAnswer: 'is',
+      acceptableAlternatives: ["'s"],
+      explanation: '"She" takes "is".',
+      points: 1
+    },
+    {
+      id: 'gap8',
+      gapNumber: 8,
+      correctAnswer: 'are',
+      acceptableAlternatives: ["'re"],
+      explanation: '"We" takes "are".',
+      points: 1
+    },
+    {
+      id: 'gap9',
+      gapNumber: 9,
+      correctAnswer: 'are',
+      acceptableAlternatives: ["'re"],
+      explanation: '"Our parents" (they) takes "are".',
+      points: 1
+    },
+    {
+      id: 'gap10',
+      gapNumber: 10,
+      correctAnswer: 'are',
+      acceptableAlternatives: ["'re"],
+      explanation: '"They" takes "are".',
+      points: 1
+    },
+    {
+      id: 'gap11',
+      gapNumber: 11,
+      correctAnswer: 'are',
+      acceptableAlternatives: ["'re"],
+      explanation: '"They" takes "are".',
+      points: 1
+    },
+    {
+      id: 'gap12',
+      gapNumber: 12,
+      correctAnswer: 'is',
+      acceptableAlternatives: ["'s"],
+      explanation: '"My best friend" (he) takes "is".',
+      points: 1
+    },
+    {
+      id: 'gap13',
+      gapNumber: 13,
+      correctAnswer: 'is',
+      acceptableAlternatives: ["'s"],
+      explanation: '"He" takes "is".',
+      points: 1
+    },
+    {
+      id: 'gap14',
+      gapNumber: 14,
+      correctAnswer: 'are',
+      acceptableAlternatives: ["'re"],
+      explanation: '"We" takes "are".',
+      points: 1
+    },
+    {
+      id: 'gap15',
+      gapNumber: 15,
+      correctAnswer: 'are',
+      acceptableAlternatives: ["'re"],
+      explanation: '"Tom and I" (we) takes "are".',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// SENTENCE REORDERING EXERCISE
+// ============================================
+export const A1_M1_L1_SENTENCE_REORDERING = {
+  id: 'a1-m1-l1-sentence-reordering',
+  type: 'sentence-reordering',
+  title: 'Put the Words in Order',
+  instructions: 'Arrange the words to make correct sentences with the verb "to be".',
+  items: [
+    {
+      id: 'sr1',
+      shuffledSentences: ['a', 'student', 'I', 'am'],
+      correctOrder: [2, 3, 0, 1],
+      context: 'Make a sentence about being a student',
+      explanation: 'Correct order: I am a student. (Subject + verb to be + complement)',
+      points: 1
+    },
+    {
+      id: 'sr2',
+      shuffledSentences: ['She', 'from', 'is', 'Italy'],
+      correctOrder: [0, 2, 1, 3],
+      context: 'Make a sentence about nationality',
+      explanation: 'Correct order: She is from Italy. (Subject + verb to be + from + country)',
+      points: 1
+    },
+    {
+      id: 'sr3',
+      shuffledSentences: ['We', 'teachers', 'are'],
+      correctOrder: [0, 2, 1],
+      context: 'Make a sentence about a job',
+      explanation: 'Correct order: We are teachers. (Subject + verb to be + job)',
+      points: 1
+    },
+    {
+      id: 'sr4',
+      shuffledSentences: ['happy', 'They', 'are', 'very'],
+      correctOrder: [1, 2, 3, 0],
+      context: 'Make a sentence about feelings',
+      explanation: 'Correct order: They are very happy. (Subject + verb to be + adverb + adjective)',
+      points: 1
+    },
+    {
+      id: 'sr5',
+      shuffledSentences: ['in', 'You', 'London', 'are'],
+      correctOrder: [1, 3, 0, 2],
+      context: 'Make a sentence about location',
+      explanation: 'Correct order: You are in London. (Subject + verb to be + in + place)',
+      points: 1
+    },
+    {
+      id: 'sr6',
+      shuffledSentences: ['old', 'years', 'I', 'am', '20'],
+      correctOrder: [2, 3, 4, 1, 0],
+      context: 'Make a sentence about age',
+      explanation: 'Correct order: I am 20 years old. (Subject + verb to be + number + years old)',
+      points: 1
+    }
+  ]
+};
+
 export const A1_M1_L1_ALL_EXERCISES = [
   A1_M1_L1_GRAMMAR_1,
   A1_M1_L1_GRAMMAR_2,
@@ -726,5 +1047,9 @@ export const A1_M1_L1_ALL_EXERCISES = [
   A1_M1_L1_WRITING,
   A1_M1_L1_PRONUNCIATION,
   A1_M1_L1_VOCABULARY_1,
-  A1_M1_L1_VOCABULARY_2
+  A1_M1_L1_VOCABULARY_2,
+  A1_M1_L1_SENTENCE_COMPLETION,
+  A1_M1_L1_ERROR_IDENTIFICATION,
+  A1_M1_L1_GAP_FILL,
+  A1_M1_L1_SENTENCE_REORDERING
 ];

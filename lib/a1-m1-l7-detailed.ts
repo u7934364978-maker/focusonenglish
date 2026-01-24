@@ -654,6 +654,92 @@ const A1_M1_L7_VOCABULARY_2: Exercise = {
 };
 
 // Export all exercises for Lesson 7
+
+
+export const A1_M1_L7_SENTENCE_COMPLETION = {
+  id: 'a1-m1-l7-sentence-completion',
+  type: 'sentence-completion',
+  title: 'Final Practice - Sentences',
+  instructions: 'Final practice with all topics.',
+  sentences: [
+    {
+      id: 'sc1',
+      prompt: 'This is ___ book.',
+      correctCompletion: 'my',
+      options: ['my', 'mine', 'I'],
+      explanation: 'Possessive adjective before noun.',
+      points: 1
+    }
+  ]
+};
+
+export const A1_M1_L7_ERROR_IDENTIFICATION = {
+  id: 'a1-m1-l7-error-identification',
+  type: 'error-identification',
+  title: 'Final Error Check',
+  instructions: 'Find any errors.',
+  sentences: [
+    {
+      id: 'ei1',
+      sentence: 'We is students.',
+      hasError: true,
+      errorWord: 'is',
+      correction: 'are',
+      explanation: 'We use "are" with "we".',
+      points: 1
+    }
+  ]
+};
+
+export const A1_M1_L7_GAP_FILL = {
+  id: 'a1-m1-l7-gap-fill',
+  type: 'gap-fill-text',
+  title: 'Consolidation Text',
+  instructions: 'Complete this final practice text.',
+  text: `I {{1}} Maria. I am {{2}} Spain. I am {{3}} years old.`,
+  gaps: [
+    {
+      id: 'gap1',
+      gapNumber: 1,
+      correctAnswer: 'am',
+      explanation: 'Verb to be.',
+      points: 1
+    },
+    {
+      id: 'gap2',
+      gapNumber: 2,
+      correctAnswer: 'from',
+      explanation: 'I am from...',
+      points: 1
+    },
+    {
+      id: 'gap3',
+      gapNumber: 3,
+      correctAnswer: '25',
+      acceptableAlternatives: ['twenty-five'],
+      explanation: 'Age.',
+      points: 1
+    }
+  ]
+};
+
+export const A1_M1_L7_COLLOCATION_MATCHING = {
+  id: 'a1-m1-l7-collocation-matching',
+  type: 'collocation-matching',
+  title: 'Final Matching',
+  instructions: 'Match items.',
+  pairs: [
+    {
+      id: 'cm1',
+      word: 'I',
+      correctMatch: 'am',
+      distractors: ['is', 'are'],
+      example: 'I am happy.',
+      points: 1
+    }
+  ]
+};
+
 export const A1_M1_L7_ALL_EXERCISES = [
   A1_M1_L7_GRAMMAR_1,
   A1_M1_L7_GRAMMAR_2,
@@ -663,5 +749,9 @@ export const A1_M1_L7_ALL_EXERCISES = [
   A1_M1_L7_WRITING,
   A1_M1_L7_PRONUNCIATION,
   A1_M1_L7_VOCABULARY_1,
-  A1_M1_L7_VOCABULARY_2
+  A1_M1_L7_VOCABULARY_2,
+  A1_M1_L7_SENTENCE_COMPLETION,
+  A1_M1_L7_ERROR_IDENTIFICATION,
+  A1_M1_L7_GAP_FILL,
+  A1_M1_L7_COLLOCATION_MATCHING
 ];

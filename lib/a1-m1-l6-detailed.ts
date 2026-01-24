@@ -650,6 +650,128 @@ const A1_M1_L6_VOCABULARY_2: Exercise = {
 };
 
 // Export all exercises for Lesson 6
+
+
+export const A1_M1_L6_SENTENCE_COMPLETION = {
+  id: 'a1-m1-l6-sentence-completion',
+  type: 'sentence-completion',
+  title: 'Module 1 Review - Complete Sentences',
+  instructions: 'Complete sentences reviewing all Module 1 topics.',
+  sentences: [
+    {
+      id: 'sc1',
+      prompt: 'I ___ a student.',
+      correctCompletion: 'am',
+      options: ['am', 'is', 'are'],
+      explanation: 'Review: "I" takes "am".',
+      points: 1
+    },
+    {
+      id: 'sc2',
+      prompt: 'She is from ___. She is French.',
+      correctCompletion: 'France',
+      options: ['France', 'French', 'Franch'],
+      explanation: 'Review: France is the country.',
+      points: 1
+    }
+  ]
+};
+
+export const A1_M1_L6_ERROR_IDENTIFICATION = {
+  id: 'a1-m1-l6-error-identification',
+  type: 'error-identification',
+  title: 'Review - Find All Errors',
+  instructions: 'Find errors reviewing all topics.',
+  sentences: [
+    {
+      id: 'ei1',
+      sentence: 'Me is happy.',
+      hasError: true,
+      errorWord: 'Me',
+      correction: 'I',
+      explanation: 'Use "I" as subject.',
+      points: 1
+    },
+    {
+      id: 'ei2',
+      sentence: 'They are students.',
+      hasError: false,
+      explanation: 'Correct!',
+      points: 1
+    }
+  ]
+};
+
+export const A1_M1_L6_GAP_FILL = {
+  id: 'a1-m1-l6-gap-fill',
+  type: 'gap-fill-text',
+  title: 'Review Text',
+  instructions: 'Complete this review text.',
+  text: `Hello! {{1}} name is Tom. I {{2}} 25 years old. I {{3}} from London, England. I {{4}} British.
+
+{{5}} family is big. I have two {{6}} and one brother.`,
+  gaps: [
+    {
+      id: 'gap1',
+      gapNumber: 1,
+      correctAnswer: 'My',
+      explanation: 'Possessive adjective.',
+      points: 1
+    },
+    {
+      id: 'gap2',
+      gapNumber: 2,
+      correctAnswer: 'am',
+      explanation: 'Verb to be with I.',
+      points: 1
+    },
+    {
+      id: 'gap3',
+      gapNumber: 3,
+      correctAnswer: 'am',
+      explanation: 'I am from.',
+      points: 1
+    },
+    {
+      id: 'gap4',
+      gapNumber: 4,
+      correctAnswer: 'am',
+      explanation: 'Nationality.',
+      points: 1
+    },
+    {
+      id: 'gap5',
+      gapNumber: 5,
+      correctAnswer: 'My',
+      explanation: 'Possessive.',
+      points: 1
+    },
+    {
+      id: 'gap6',
+      gapNumber: 6,
+      correctAnswer: 'sisters',
+      explanation: 'Female siblings.',
+      points: 1
+    }
+  ]
+};
+
+export const A1_M1_L6_SENTENCE_REORDERING = {
+  id: 'a1-m1-l6-sentence-reordering',
+  type: 'sentence-reordering',
+  title: 'Review - Order Words',
+  instructions: 'Put words in order.',
+  items: [
+    {
+      id: 'sr1',
+      shuffledSentences: ['am', 'I', 'from', 'Spain'],
+      correctOrder: [1, 0, 2, 3],
+      explanation: 'I am from Spain.',
+      points: 1
+    }
+  ]
+};
+
 export const A1_M1_L6_ALL_EXERCISES = [
   A1_M1_L6_GRAMMAR_1,
   A1_M1_L6_GRAMMAR_2,
@@ -659,5 +781,9 @@ export const A1_M1_L6_ALL_EXERCISES = [
   A1_M1_L6_WRITING,
   A1_M1_L6_PRONUNCIATION,
   A1_M1_L6_VOCABULARY_1,
-  A1_M1_L6_VOCABULARY_2
+  A1_M1_L6_VOCABULARY_2,
+  A1_M1_L6_SENTENCE_COMPLETION,
+  A1_M1_L6_ERROR_IDENTIFICATION,
+  A1_M1_L6_GAP_FILL,
+  A1_M1_L6_SENTENCE_REORDERING
 ];

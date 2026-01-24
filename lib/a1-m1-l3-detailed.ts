@@ -670,6 +670,290 @@ export const A1_M1_L3_VOCABULARY_2 = {
 };
 
 // Export all exercises for Module 1, Lesson 3
+
+
+// ============================================
+// SENTENCE COMPLETION EXERCISE  
+// ============================================
+export const A1_M1_L3_SENTENCE_COMPLETION = {
+  id: 'a1-m1-l3-sentence-completion',
+  type: 'sentence-completion',
+  title: 'Complete with Countries and Nationalities',
+  instructions: 'Complete each sentence with the correct country or nationality.',
+  sentences: [
+    {
+      id: 'sc1',
+      prompt: 'She is from France. She is ___.',
+      correctCompletion: 'French',
+      options: ['French', 'France', 'Franch', 'Francese'],
+      explanation: 'The nationality for France is French.',
+      points: 1
+    },
+    {
+      id: 'sc2',
+      prompt: 'I am ___. I am from Spain.',
+      correctCompletion: 'Spanish',
+      options: ['Spanish', 'Spain', 'Spainish', 'Span'],
+      explanation: 'The nationality for Spain is Spanish.',
+      points: 1
+    },
+    {
+      id: 'sc3',
+      prompt: 'He is Italian. He is from ___.',
+      correctCompletion: 'Italy',
+      options: ['Italy', 'Italian', 'Italie', 'Italya'],
+      explanation: 'Italian people are from Italy.',
+      points: 1
+    },
+    {
+      id: 'sc4',
+      prompt: 'They are from ___. They are British.',
+      correctCompletion: 'Britain',
+      options: ['Britain', 'British', 'England', 'the UK'],
+      explanation: 'British people are from Britain (the UK).',
+      points: 1
+    },
+    {
+      id: 'sc5',
+      prompt: 'We are German. We are from ___.',
+      correctCompletion: 'Germany',
+      options: ['Germany', 'German', 'Germania', 'Deutch'],
+      explanation: 'German people are from Germany.',
+      points: 1
+    },
+    {
+      id: 'sc6',
+      prompt: 'She is from China. She is ___.',
+      correctCompletion: 'Chinese',
+      options: ['Chinese', 'China', 'Chinish', 'Chinan'],
+      explanation: 'The nationality for China is Chinese.',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// ERROR IDENTIFICATION EXERCISE
+// ============================================
+export const A1_M1_L3_ERROR_IDENTIFICATION = {
+  id: 'a1-m1-l3-error-identification',
+  type: 'error-identification',
+  title: 'Find Errors with Countries',
+  instructions: 'Find and correct errors related to countries and nationalities.',
+  sentences: [
+    {
+      id: 'ei1',
+      sentence: 'I am from American.',
+      hasError: true,
+      errorWord: 'American',
+      correction: 'America',
+      explanation: 'Incorrect! "American" is the nationality. The country is America (or the USA). Correct: I am from America.',
+      points: 1
+    },
+    {
+      id: 'ei2',
+      sentence: 'She is Japanese.',
+      hasError: false,
+      explanation: 'Correct! "Japanese" is the correct nationality.',
+      points: 1
+    },
+    {
+      id: 'ei3',
+      sentence: 'He is from Brazilian.',
+      hasError: true,
+      errorWord: 'Brazilian',
+      correction: 'Brazil',
+      explanation: 'Incorrect! "Brazilian" is the nationality. The country is Brazil. Correct: He is from Brazil.',
+      points: 1
+    },
+    {
+      id: 'ei4',
+      sentence: 'They are from Poland.',
+      hasError: false,
+      explanation: 'Correct! This sentence has no errors.',
+      points: 1
+    },
+    {
+      id: 'ei5',
+      sentence: 'We are Turkey.',
+      hasError: true,
+      errorWord: 'Turkey',
+      correction: 'Turkish',
+      explanation: 'Incorrect! We should use the nationality "Turkish", not the country. Correct: We are Turkish.',
+      points: 1
+    },
+    {
+      id: 'ei6',
+      sentence: 'I speak Russia.',
+      hasError: true,
+      errorWord: 'Russia',
+      correction: 'Russian',
+      explanation: 'Incorrect! We speak a language. The language is Russian. Correct: I speak Russian.',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// GAP FILL TEXT EXERCISE
+// ============================================
+export const A1_M1_L3_GAP_FILL = {
+  id: 'a1-m1-l3-gap-fill',
+  type: 'gap-fill-text',
+  title: 'International Friends',
+  instructions: 'Fill in the gaps with the correct countries, nationalities, or languages.',
+  text: `Hello! My name is Maria and I am {{1}} Spain. I am {{2}}. I speak {{3}} and English.
+
+My best friend is from {{4}}. Her name is Sophie and she is {{5}}. She speaks French and English.
+
+I have another friend called Hans. He is {{6}}. He is from {{7}} and he speaks German.
+
+We all study together at university in London, {{8}}. We love learning about different cultures!
+
+My teacher is from {{9}}. She is {{10}} and she speaks English very well. She also speaks a little {{11}} because she lived in Madrid for two years.`,
+  gaps: [
+    {
+      id: 'gap1',
+      gapNumber: 1,
+      correctAnswer: 'from',
+      explanation: 'We say "I am from" + country.',
+      points: 1
+    },
+    {
+      id: 'gap2',
+      gapNumber: 2,
+      correctAnswer: 'Spanish',
+      explanation: 'The nationality for Spain is Spanish.',
+      points: 1
+    },
+    {
+      id: 'gap3',
+      gapNumber: 3,
+      correctAnswer: 'Spanish',
+      explanation: 'The language of Spain is Spanish.',
+      points: 1
+    },
+    {
+      id: 'gap4',
+      gapNumber: 4,
+      correctAnswer: 'France',
+      explanation: 'Sophie is French, so she is from France.',
+      points: 1
+    },
+    {
+      id: 'gap5',
+      gapNumber: 5,
+      correctAnswer: 'French',
+      explanation: 'The nationality for France is French.',
+      points: 1
+    },
+    {
+      id: 'gap6',
+      gapNumber: 6,
+      correctAnswer: 'German',
+      explanation: 'Hans is from Germany, so he is German.',
+      points: 1
+    },
+    {
+      id: 'gap7',
+      gapNumber: 7,
+      correctAnswer: 'Germany',
+      explanation: 'German people are from Germany.',
+      points: 1
+    },
+    {
+      id: 'gap8',
+      gapNumber: 8,
+      correctAnswer: 'England',
+      acceptableAlternatives: ['the UK', 'Britain'],
+      explanation: 'London is in England (the UK/Britain).',
+      points: 1
+    },
+    {
+      id: 'gap9',
+      gapNumber: 9,
+      correctAnswer: 'America',
+      acceptableAlternatives: ['the USA', 'the US'],
+      explanation: 'She is American, so she is from America.',
+      points: 1
+    },
+    {
+      id: 'gap10',
+      gapNumber: 10,
+      correctAnswer: 'American',
+      explanation: 'The nationality for America is American.',
+      points: 1
+    },
+    {
+      id: 'gap11',
+      gapNumber: 11,
+      correctAnswer: 'Spanish',
+      explanation: 'The language of Spain is Spanish.',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// COLLOCATION MATCHING EXERCISE
+// ============================================
+export const A1_M1_L3_COLLOCATION_MATCHING = {
+  id: 'a1-m1-l3-collocation-matching',
+  type: 'collocation-matching',
+  title: 'Match Countries with Nationalities',
+  instructions: 'Match each country with its correct nationality.',
+  pairs: [
+    {
+      id: 'cm1',
+      word: 'Japan',
+      correctMatch: 'Japanese',
+      distractors: ['Japanian', 'Japanish', 'Japane'],
+      example: 'I am from Japan. I am Japanese.',
+      points: 1
+    },
+    {
+      id: 'cm2',
+      word: 'Mexico',
+      correctMatch: 'Mexican',
+      distractors: ['Mexiconian', 'Mexic', 'Mexicish'],
+      example: 'She is from Mexico. She is Mexican.',
+      points: 1
+    },
+    {
+      id: 'cm3',
+      word: 'Canada',
+      correctMatch: 'Canadian',
+      distractors: ['Canadish', 'Canadan', 'Canadese'],
+      example: 'He is from Canada. He is Canadian.',
+      points: 1
+    },
+    {
+      id: 'cm4',
+      word: 'Egypt',
+      correctMatch: 'Egyptian',
+      distractors: ['Egyptish', 'Egyptan', 'Egyptese'],
+      example: 'They are from Egypt. They are Egyptian.',
+      points: 1
+    },
+    {
+      id: 'cm5',
+      word: 'India',
+      correctMatch: 'Indian',
+      distractors: ['Indish', 'Indiaese', 'Indianian'],
+      example: 'We are from India. We are Indian.',
+      points: 1
+    },
+    {
+      id: 'cm6',
+      word: 'Australia',
+      correctMatch: 'Australian',
+      distractors: ['Australish', 'Australese', 'Australan'],
+      example: 'You are from Australia. You are Australian.',
+      points: 1
+    }
+  ]
+};
+
 export const A1_M1_L3_ALL_EXERCISES = [
   A1_M1_L3_GRAMMAR_1,
   A1_M1_L3_GRAMMAR_2,
@@ -679,5 +963,9 @@ export const A1_M1_L3_ALL_EXERCISES = [
   A1_M1_L3_WRITING,
   A1_M1_L3_PRONUNCIATION,
   A1_M1_L3_VOCABULARY_1,
-  A1_M1_L3_VOCABULARY_2
+  A1_M1_L3_VOCABULARY_2,
+  A1_M1_L3_SENTENCE_COMPLETION,
+  A1_M1_L3_ERROR_IDENTIFICATION,
+  A1_M1_L3_GAP_FILL,
+  A1_M1_L3_COLLOCATION_MATCHING
 ];
