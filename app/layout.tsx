@@ -4,6 +4,7 @@ import { OrganizationSchema, WebsiteSchema } from "./schema";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import Cookiebot from "./components/Cookiebot";
 import { Space_Grotesk, DM_Sans } from "next/font/google";
+import HealthBreakWrapper from "@/components/HealthBreakWrapper";
 
 // Tipografía arriesgada y fresca para títulos
 const spaceGrotesk = Space_Grotesk({
@@ -148,6 +149,9 @@ export default function RootLayout({
         
         {/* Google Analytics */}
         <GoogleAnalytics />
+        
+        {/* Health Break System - Shows every 60 minutes */}
+        <HealthBreakWrapper />
         
         {/* Copyright watermark */}
         <div style={{
