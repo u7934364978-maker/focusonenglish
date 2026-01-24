@@ -8,45 +8,40 @@ const openai = new OpenAI({
 export async function generateExerciseV2(request: GenerateExerciseRequest): Promise<GeneratedExercise> {
   const { exerciseType, level, difficulty, topic } = request;
 
-  const systemPrompt = `You are an expert English teacher. 
-Create a high-quality ${level} level exercise about "${topic}".
-Difficulty: ${difficulty}.
-Return ONLY a JSON object. 
-Format:
-{
-  "title": "Exercise Title",
-  "instructions": "Instructions in Spanish",
-  "text": "Reading passage (only if reading-comprehension)",
-  "questions": [
-    {
-      "question": "Question text",
-      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
-      "correctAnswer": "The exact correct option text",
-      "explanation": "Explanation in Spanish"
-    }
-  ]
-}`;
+  console.log(`[IA V2] Solicitando ejercicio: ${exerciseType}, Nivel: ${level}, Tema: ${topic}`);
 
-  const response = await openai.chat.completions.create({
-    model: "gpt-4o",
-    messages: [
-      { role: "system", content: systemPrompt },
-      { role: "user", content: `Generate a ${exerciseType} exercise with 5 questions.` }
-    ],
-    response_format: { type: "json_object" },
-    temperature: 0.7,
-  });
+  if (!process.env.OPENAI_API_KEY) {
+    throw new Error("La API Key de OpenAI no está definida en el servidor.");
+  }
 
-  const content = JSON.parse(response.choices[0].message.content || '{}');
+  try {
+    const response = await openai.chat.completions.create({
+      model: "gpt-4o",
+      messages: [
+        { role: "system", content: systemPrompt },
+        { role: "user", content: `Generate a ${exerciseType} exercise with 5 questions. Make sure it is strictly ${level} level.` }
+      ],
+      response_format: { type: "json_object" },
+      temperature: 0.7,
+    });
 
-  return {
-    id: `ai_${Date.now()}`,
-    type: exerciseType,
-    category: 'practice',
-    topic: topic || 'General',
-    difficulty: difficulty as any,
-    level: level as any,
-    content: content,
-    createdAt: new Date(),
-  };
+    const rawContent = response.choices[0].message.content;
+    console.log("[IA V2] Respuesta recibida de OpenAI");
+    
+    const content = JSON.parse(rawContent || '{}');
+
+    return {
+      id: `ai_${Date.now()}`,
+      type: exerciseType,
+      category: 'practice',
+      topic: topic || 'General',
+      difficulty: difficulty as any,
+      level: level as any,
+      content: content,
+      createdAt: new Date(),
+    };
+  } catch (error: any) {
+    console.error("[IA V2] Error en la llamada a OpenAI:", error.message);
+    throw error;
+  }
 }

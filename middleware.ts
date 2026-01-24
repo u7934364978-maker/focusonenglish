@@ -19,6 +19,7 @@ const PUBLIC_ROUTES = new Set([
   '/reset-password',
   '/success',
   '/generador-b2',
+  '/api/generate-exercise',
 ]);
 
 // Rutas que requieren autenticación pero NO requieren suscripción
