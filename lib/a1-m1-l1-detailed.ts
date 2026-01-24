@@ -859,6 +859,7 @@ My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since univer
       id: 'gap1',
       gapNumber: 1,
       correctAnswer: 'is',
+      options: ['is', 'am', 'are'],
       acceptableAlternatives: ["'s"],
       explanation: '"My name" takes "is" (third person singular).',
       points: 1
@@ -867,6 +868,7 @@ My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since univer
       id: 'gap2',
       gapNumber: 2,
       correctAnswer: 'am',
+      options: ['am', 'is', 'are'],
       acceptableAlternatives: ["'m"],
       explanation: '"I" always takes "am".',
       points: 1
@@ -875,6 +877,7 @@ My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since univer
       id: 'gap3',
       gapNumber: 3,
       correctAnswer: 'am',
+      options: ['am', 'is', 'are'],
       acceptableAlternatives: ["'m"],
       explanation: '"I" always takes "am".',
       points: 1
@@ -883,6 +886,7 @@ My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since univer
       id: 'gap4',
       gapNumber: 4,
       correctAnswer: 'am',
+      options: ['am', 'is', 'are'],
       acceptableAlternatives: ["'m"],
       explanation: '"I" always takes "am".',
       points: 1
@@ -891,6 +895,7 @@ My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since univer
       id: 'gap5',
       gapNumber: 5,
       correctAnswer: 'is',
+      options: ['is', 'am', 'are'],
       acceptableAlternatives: ["'s"],
       explanation: '"My sister" (she) takes "is".',
       points: 1
@@ -899,6 +904,7 @@ My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since univer
       id: 'gap6',
       gapNumber: 6,
       correctAnswer: 'is',
+      options: ['is', 'am', 'are'],
       acceptableAlternatives: ["'s"],
       explanation: '"She" takes "is".',
       points: 1
@@ -907,6 +913,7 @@ My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since univer
       id: 'gap7',
       gapNumber: 7,
       correctAnswer: 'is',
+      options: ['is', 'am', 'are'],
       acceptableAlternatives: ["'s"],
       explanation: '"She" takes "is".',
       points: 1
@@ -915,6 +922,7 @@ My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since univer
       id: 'gap8',
       gapNumber: 8,
       correctAnswer: 'are',
+      options: ['are', 'is', 'am'],
       acceptableAlternatives: ["'re"],
       explanation: '"We" takes "are".',
       points: 1
@@ -923,6 +931,7 @@ My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since univer
       id: 'gap9',
       gapNumber: 9,
       correctAnswer: 'are',
+      options: ['are', 'is', 'am'],
       acceptableAlternatives: ["'re"],
       explanation: '"Our parents" (they) takes "are".',
       points: 1
@@ -931,6 +940,7 @@ My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since univer
       id: 'gap10',
       gapNumber: 10,
       correctAnswer: 'are',
+      options: ['are', 'is', 'am'],
       acceptableAlternatives: ["'re"],
       explanation: '"They" takes "are".',
       points: 1
@@ -939,6 +949,7 @@ My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since univer
       id: 'gap11',
       gapNumber: 11,
       correctAnswer: 'are',
+      options: ['are', 'is', 'am'],
       acceptableAlternatives: ["'re"],
       explanation: '"They" takes "are".',
       points: 1
@@ -947,6 +958,7 @@ My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since univer
       id: 'gap12',
       gapNumber: 12,
       correctAnswer: 'is',
+      options: ['is', 'am', 'are'],
       acceptableAlternatives: ["'s"],
       explanation: '"My best friend" (he) takes "is".',
       points: 1
@@ -955,6 +967,7 @@ My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since univer
       id: 'gap13',
       gapNumber: 13,
       correctAnswer: 'is',
+      options: ['is', 'am', 'are'],
       acceptableAlternatives: ["'s"],
       explanation: '"He" takes "is".',
       points: 1
@@ -963,6 +976,7 @@ My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since univer
       id: 'gap14',
       gapNumber: 14,
       correctAnswer: 'are',
+      options: ['are', 'is', 'am'],
       acceptableAlternatives: ["'re"],
       explanation: '"We" takes "are".',
       points: 1
@@ -971,6 +985,7 @@ My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since univer
       id: 'gap15',
       gapNumber: 15,
       correctAnswer: 'are',
+      options: ['are', 'is', 'am'],
       acceptableAlternatives: ["'re"],
       explanation: '"Tom and I" (we) takes "are".',
       points: 1

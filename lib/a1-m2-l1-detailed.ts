@@ -821,6 +821,7 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       id: 'gap1',
       gapNumber: 1,
       correctAnswer: 'wake',
+      options: ['wake', 'wakes', 'other'],
       explanation: 'I wake up (base form with "I").',
       points: 1
     },
@@ -828,6 +829,7 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       id: 'gap2',
       gapNumber: 2,
       correctAnswer: 'have',
+      options: ['have', 'haves', 'other'],
       explanation: 'I have (base form).',
       points: 1
     },
@@ -835,6 +837,7 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       id: 'gap3',
       gapNumber: 3,
       correctAnswer: 'get',
+      options: ['get', 'gets', 'other'],
       explanation: 'I get (base form).',
       points: 1
     },
@@ -842,6 +845,7 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       id: 'gap4',
       gapNumber: 4,
       correctAnswer: 'make',
+      options: ['make', 'makes', 'other'],
       explanation: 'I make (base form).',
       points: 1
     },
@@ -849,6 +853,7 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       id: 'gap5',
       gapNumber: 5,
       correctAnswer: 'leaves',
+      options: ['leaves', 'leavess', 'other'],
       explanation: 'He leaves (add -s for third person).',
       points: 1
     },
@@ -856,6 +861,7 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       id: 'gap6',
       gapNumber: 6,
       correctAnswer: 'works',
+      options: ['works', 'workss', 'other'],
       explanation: 'He works (add -s).',
       points: 1
     },
@@ -863,6 +869,7 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       id: 'gap7',
       gapNumber: 7,
       correctAnswer: 'go',
+      options: ['go', 'gos', 'other'],
       explanation: 'They go (base form with "they").',
       points: 1
     },
@@ -870,6 +877,7 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       id: 'gap8',
       gapNumber: 8,
       correctAnswer: 'start',
+      options: ['start', 'starts', 'other'],
       explanation: 'They start (base form).',
       points: 1
     },
@@ -877,6 +885,7 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       id: 'gap9',
       gapNumber: 9,
       correctAnswer: 'am',
+      options: ['am', 'is', 'are'],
       acceptableAlternatives: ["'m"],
       explanation: 'I am (verb to be).',
       points: 1
@@ -885,6 +894,7 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       id: 'gap10',
       gapNumber: 10,
       correctAnswer: 'teach',
+      options: ['teach', 'teachs', 'other'],
       explanation: 'I teach (base form).',
       points: 1
     },
@@ -892,6 +902,7 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       id: 'gap11',
       gapNumber: 11,
       correctAnswer: 'finish',
+      options: ['finish', 'finishs', 'other'],
       explanation: 'I finish (base form).',
       points: 1
     },
@@ -899,6 +910,7 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       id: 'gap12',
       gapNumber: 12,
       correctAnswer: 'eat',
+      options: ['eat', 'eats', 'other'],
       explanation: 'We eat (base form).',
       points: 1
     },
@@ -906,6 +918,7 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       id: 'gap13',
       gapNumber: 13,
       correctAnswer: 'does',
+      options: ['does', 'doess', 'other'],
       explanation: 'She does (irregular verb, add -es).',
       points: 1
     },
@@ -913,6 +926,7 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       id: 'gap14',
       gapNumber: 14,
       correctAnswer: 'plays',
+      options: ['plays', 'playss', 'other'],
       explanation: 'He plays (add -s).',
       points: 1
     },
@@ -920,6 +934,7 @@ In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her hom
       id: 'gap15',
       gapNumber: 15,
       correctAnswer: 'watch',
+      options: ['watch', 'watchs', 'other'],
       explanation: 'We watch (base form).',
       points: 1
     }

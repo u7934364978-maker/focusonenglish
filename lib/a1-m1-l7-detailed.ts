@@ -787,6 +787,7 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       id: 'gap1',
       gapNumber: 1,
       correctAnswer: 'am',
+      options: ['am', 'is', 'are'],
       explanation: 'Verb to be.',
       points: 1
     },
@@ -794,6 +795,7 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       id: 'gap2',
       gapNumber: 2,
       correctAnswer: 'from',
+      options: ['from', 'in', 'at'],
       explanation: 'I am from...',
       points: 1
     },
@@ -801,6 +803,7 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       id: 'gap3',
       gapNumber: 3,
       correctAnswer: '25',
+      options: ['25', '26', '24'],
       acceptableAlternatives: ['twenty-five'],
       explanation: 'Age.',
       points: 1
@@ -809,6 +812,7 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       id: 'gap4',
       gapNumber: 4,
       correctAnswer: 'am',
+      options: ['am', 'is', 'are'],
       explanation: 'Nationality with "I am".',
       points: 1
     },
@@ -816,6 +820,7 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       id: 'gap5',
       gapNumber: 5,
       correctAnswer: 'My',
+      options: ['My', 'His', 'Her'],
       explanation: 'Possessive adjective.',
       points: 1
     },
@@ -823,6 +828,7 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       id: 'gap6',
       gapNumber: 6,
       correctAnswer: 'is',
+      options: ['is', 'am', 'are'],
       explanation: 'Singular verb with father.',
       points: 1
     },
@@ -830,6 +836,7 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       id: 'gap7',
       gapNumber: 7,
       correctAnswer: 'He',
+      options: ['He', 'She', 'I'],
       explanation: 'Subject pronoun for male.',
       points: 1
     },
@@ -837,6 +844,7 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       id: 'gap8',
       gapNumber: 8,
       correctAnswer: 'he',
+      options: ['he', 'hes', 'other'],
       explanation: 'Subject pronoun.',
       points: 1
     },
@@ -844,6 +852,7 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       id: 'gap9',
       gapNumber: 9,
       correctAnswer: 'is',
+      options: ['is', 'am', 'are'],
       explanation: 'Singular verb with mother.',
       points: 1
     },
@@ -851,6 +860,7 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       id: 'gap10',
       gapNumber: 10,
       correctAnswer: 'She',
+      options: ['She', 'He', 'I'],
       explanation: 'Subject pronoun for female.',
       points: 1
     },
@@ -858,6 +868,7 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       id: 'gap11',
       gapNumber: 11,
       correctAnswer: 'she',
+      options: ['she', 'shes', 'other'],
       explanation: 'Subject pronoun.',
       points: 1
     },
@@ -865,6 +876,7 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       id: 'gap12',
       gapNumber: 12,
       correctAnswer: 'His',
+      options: ['His', 'Her', 'My'],
       explanation: 'Possessive adjective for male.',
       points: 1
     },
@@ -872,6 +884,7 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       id: 'gap13',
       gapNumber: 13,
       correctAnswer: 'is',
+      options: ['is', 'am', 'are'],
       explanation: 'Singular verb.',
       points: 1
     },
@@ -879,6 +892,7 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       id: 'gap14',
       gapNumber: 14,
       correctAnswer: 'His',
+      options: ['His', 'Her', 'My'],
       explanation: 'Possessive adjective.',
       points: 1
     },
@@ -886,6 +900,7 @@ I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife i
       id: 'gap15',
       gapNumber: 15,
       correctAnswer: 'are',
+      options: ['are', 'is', 'am'],
       explanation: 'Plural verb with "they".',
       points: 1
     }

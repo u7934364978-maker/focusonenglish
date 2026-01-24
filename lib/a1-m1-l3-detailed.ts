@@ -816,6 +816,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap1',
       gapNumber: 1,
       correctAnswer: 'from',
+      options: ['from', 'froms', 'other'],
       explanation: 'We say "I am from" + country.',
       points: 1
     },
@@ -823,6 +824,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap2',
       gapNumber: 2,
       correctAnswer: 'Spanish',
+      options: ['Spanish', 'Spanishs', 'other'],
       explanation: 'The nationality for Spain is Spanish.',
       points: 1
     },
@@ -830,6 +832,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap3',
       gapNumber: 3,
       correctAnswer: 'Spanish',
+      options: ['Spanish', 'Spanishs', 'other'],
       explanation: 'The language of Spain is Spanish.',
       points: 1
     },
@@ -837,6 +840,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap4',
       gapNumber: 4,
       correctAnswer: 'France',
+      options: ['France', 'Frances', 'other'],
       explanation: 'Sophie is French, so she is from France.',
       points: 1
     },
@@ -844,6 +848,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap5',
       gapNumber: 5,
       correctAnswer: 'French',
+      options: ['French', 'Frenchs', 'other'],
       explanation: 'The nationality for France is French.',
       points: 1
     },
@@ -851,6 +856,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap6',
       gapNumber: 6,
       correctAnswer: 'German',
+      options: ['German', 'Germans', 'other'],
       explanation: 'Hans is from Germany, so he is German.',
       points: 1
     },
@@ -858,6 +864,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap7',
       gapNumber: 7,
       correctAnswer: 'Germany',
+      options: ['Germany', 'Germanys', 'other'],
       explanation: 'German people are from Germany.',
       points: 1
     },
@@ -865,6 +872,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap8',
       gapNumber: 8,
       correctAnswer: 'England',
+      options: ['England', 'Englands', 'other'],
       acceptableAlternatives: ['the UK', 'Britain'],
       explanation: 'London is in England (the UK/Britain).',
       points: 1
@@ -873,6 +881,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap9',
       gapNumber: 9,
       correctAnswer: 'America',
+      options: ['America', 'Americas', 'other'],
       acceptableAlternatives: ['the USA', 'the US'],
       explanation: 'She is American, so she is from America.',
       points: 1
@@ -881,6 +890,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap10',
       gapNumber: 10,
       correctAnswer: 'American',
+      options: ['American', 'Americans', 'other'],
       explanation: 'The nationality for America is American.',
       points: 1
     },
@@ -888,6 +898,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap11',
       gapNumber: 11,
       correctAnswer: 'Spanish',
+      options: ['Spanish', 'Spanishs', 'other'],
       explanation: 'The language of Spain is Spanish.',
       points: 1
     }

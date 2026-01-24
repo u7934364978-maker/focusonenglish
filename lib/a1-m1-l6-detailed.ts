@@ -783,6 +783,7 @@ We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 a
       id: 'gap1',
       gapNumber: 1,
       correctAnswer: 'My',
+      options: ['My', 'His', 'Her'],
       explanation: 'Possessive adjective.',
       points: 1
     },
@@ -790,6 +791,7 @@ We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 a
       id: 'gap2',
       gapNumber: 2,
       correctAnswer: 'am',
+      options: ['am', 'is', 'are'],
       explanation: 'Verb to be with I.',
       points: 1
     },
@@ -797,6 +799,7 @@ We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 a
       id: 'gap3',
       gapNumber: 3,
       correctAnswer: 'am',
+      options: ['am', 'is', 'are'],
       explanation: 'I am from.',
       points: 1
     },
@@ -804,6 +807,7 @@ We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 a
       id: 'gap4',
       gapNumber: 4,
       correctAnswer: 'am',
+      options: ['am', 'is', 'are'],
       explanation: 'Nationality.',
       points: 1
     },
@@ -811,6 +815,7 @@ We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 a
       id: 'gap5',
       gapNumber: 5,
       correctAnswer: 'My',
+      options: ['My', 'His', 'Her'],
       explanation: 'Possessive.',
       points: 1
     },
@@ -818,6 +823,7 @@ We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 a
       id: 'gap6',
       gapNumber: 6,
       correctAnswer: 'sisters',
+      options: ['sisters', 'brothers', 'parents'],
       explanation: 'Female siblings.',
       points: 1
     },
@@ -825,6 +831,7 @@ We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 a
       id: 'gap7',
       gapNumber: 7,
       correctAnswer: 'His',
+      options: ['His', 'Her', 'My'],
       explanation: 'Possessive for male.',
       points: 1
     },
@@ -832,6 +839,7 @@ We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 a
       id: 'gap8',
       gapNumber: 8,
       correctAnswer: 'he',
+      options: ['he', 'hes', 'other'],
       explanation: 'Subject pronoun for male.',
       points: 1
     },
@@ -839,6 +847,7 @@ We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 a
       id: 'gap9',
       gapNumber: 9,
       correctAnswer: 'are',
+      options: ['are', 'is', 'am'],
       explanation: 'Plural verb to be.',
       points: 1
     },
@@ -846,6 +855,7 @@ We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 a
       id: 'gap10',
       gapNumber: 10,
       correctAnswer: 'is',
+      options: ['is', 'am', 'are'],
       explanation: 'Singular verb to be.',
       points: 1
     },
@@ -853,6 +863,7 @@ We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 a
       id: 'gap11',
       gapNumber: 11,
       correctAnswer: 'is',
+      options: ['is', 'am', 'are'],
       explanation: 'Singular verb to be.',
       points: 1
     },
@@ -860,6 +871,7 @@ We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 a
       id: 'gap12',
       gapNumber: 12,
       correctAnswer: 'are',
+      options: ['are', 'is', 'am'],
       explanation: 'Plural verb to be with "we".',
       points: 1
     },
@@ -867,6 +879,7 @@ We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 a
       id: 'gap13',
       gapNumber: 13,
       correctAnswer: 'are',
+      options: ['are', 'is', 'am'],
       explanation: 'Plural verb to be.',
       points: 1
     },
@@ -874,6 +887,7 @@ We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 a
       id: 'gap14',
       gapNumber: 14,
       correctAnswer: 'My',
+      options: ['My', 'His', 'Her'],
       explanation: 'Possessive adjective.',
       points: 1
     },
@@ -881,6 +895,7 @@ We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 a
       id: 'gap15',
       gapNumber: 15,
       correctAnswer: 'my',
+      options: ['my', 'his', 'her'],
       explanation: 'Possessive adjective.',
       points: 1
     }
