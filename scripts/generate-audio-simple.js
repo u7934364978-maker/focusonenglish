@@ -390,6 +390,42 @@ In essence, critical analysis is about thinking deeply and questioning thoroughl
 Consequently, as you develop this skill, your own academic work will become more sophisticated and convincing.`,
     voiceId: VOICES.american_male,
     duration: 200
+  },
+  // Curso A1 - Módulo 2
+  {
+    lessonId: 'a1-m2-l3',
+    exerciseId: 'listening-1',
+    text: `Tom: Hi Sarah! Welcome to my new apartment!
+
+Sarah: Wow, Tom! It's really nice! Is there a balcony?
+
+Tom: Yes, there is! It's behind the living room. Come, I'll show you around.
+
+Sarah: Great! So, where's the kitchen?
+
+Tom: The kitchen is next to the living room, on the left. There's a big table in the kitchen.
+
+Sarah: Cool! Are there many rooms?
+
+Tom: Well, there are two bedrooms and one bathroom. The bathroom is between the two bedrooms.
+
+Sarah: And where's your bedroom?
+
+Tom: My bedroom is at the end of the hall, on the right. There's a big bed and a desk in my room.
+
+Sarah: Is there a TV in the living room?
+
+Tom: Yes, there is. The TV is on the wall, above the sofa. And there are some plants next to the window.
+
+Sarah: It sounds perfect! Are there any shops near here?
+
+Tom: Yes, there are! There's a supermarket in front of the building, and there are some restaurants behind it.
+
+Sarah: That's so convenient! I really like your new place!
+
+Tom: Thanks! There's coffee in the kitchen. Let's have some!`,
+    voiceId: VOICES.american_male,
+    duration: 90
   }
 ];
 
@@ -405,7 +441,9 @@ async function generateAllAudios() {
 
   for (let i = 0; i < LISTENING_AUDIOS.length; i++) {
     const audio = LISTENING_AUDIOS[i];
-    const filename = `b2-${audio.lessonId.split('-')[1]}-${audio.lessonId.split('-')[2]}-${audio.exerciseId}.mp3`;
+    const parts = audio.lessonId.split('-');
+    const level = parts[0]; // 'a1' o 'b2'
+    const filename = `${level}-${parts[1]}-${parts[2]}-${audio.exerciseId}.mp3`;
     const outputPath = path.join(__dirname, '..', 'public', 'audio', filename);
     
     console.log(`\n[${i + 1}/${LISTENING_AUDIOS.length}] 🎙️  Generando: ${filename}`);

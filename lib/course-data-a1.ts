@@ -1,6 +1,8 @@
 // Curso A1 - Sistema de Generación de Ejercicios con IA
 // Los ejercicios se generan dinámicamente basados en categoría, tipo y dificultad
 
+import { A1_MODULE_2_LESSON_3, type Lesson } from './a1-module2-lesson3';
+
 export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 
 export type ExerciseCategory = 
@@ -573,6 +575,14 @@ export const A1_VOCABULARY_CATEGORIES = [
   { id: 'hobbies', name: 'Hobbies', items: ['Sports', 'Free time activities'] },
   { id: 'countries', name: 'Countries', items: ['Countries', 'Nationalities', 'Languages'] },
   { id: 'weather', name: 'Weather', items: ['Weather conditions', 'Temperature'] }
+];
+
+// ============================================
+// LECCIONES ESTRUCTURADAS - MÓDULO 2
+// ============================================
+
+export const A1_MODULE_2_LESSONS: Lesson[] = [
+  A1_MODULE_2_LESSON_3
 ];
 
 export default A1_COURSE_CONFIG;

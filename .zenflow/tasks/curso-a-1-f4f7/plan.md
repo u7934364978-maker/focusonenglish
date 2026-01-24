@@ -18,7 +18,7 @@ Do not make assumptions on important decisions — get clarification first.
 
 ## Workflow Steps
 
-### [ ] Step: Technical Specification
+### [x] Step: Technical Specification
 <!-- chat-id: 797d77b3-6938-4efd-b2c6-9f5e6b6b01cb -->
 
 Assess the task's difficulty, as underestimating it leads to poor outcomes.
@@ -51,7 +51,8 @@ Save to `{@artifacts_path}/plan.md`. If the feature is trivial and doesn't warra
 
 ---
 
-### [ ] Step: Implementation
+### [x] Step: Implementation
+<!-- chat-id: 70350582-1e2a-4eba-a52e-c04f2cfd7050 -->
 
 Implement the task according to the technical specification and general engineering best practices.
 
