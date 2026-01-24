@@ -15,6 +15,7 @@ import { A1_M1_L7_ALL_EXERCISES } from './a1-m1-l7-detailed';
 import { A1_M2_L1_ALL_EXERCISES } from './a1-m2-l1-detailed';
 import { A1_M2_L2_ALL_EXERCISES } from './a1-m2-l2-detailed';
 import { A1_M2_L3_ALL_EXERCISES } from './a1-m2-l3-detailed';
+import { A1_M3_L1_ALL_EXERCISES } from './a1-m3-l1-detailed';
 
 export type ExerciseType = 
   | 'reading'
@@ -952,98 +953,7 @@ export const MODULE_3_LESSONS: Lesson[] = [
     title: 'Lección 1: Food and Drinks',
     description: 'Practice Countable/Uncountable with comprehensive exercises',
     duration: 90, // minutes
-    exercises: [
-      {
-        id: 'a1-m3-l1-grammar-1',
-        type: 'grammar',
-        title: 'Countable/Uncountable - Formation and Use',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m3-l1-grammar-2',
-        type: 'grammar',
-        title: 'Countable/Uncountable - Practice Exercises',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m3-l1-reading-1',
-        type: 'reading',
-        title: 'Reading: Lección 1: Food and Drinks',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m3-l1-listening-1',
-        type: 'listening',
-        title: 'Listening: Lección 1: Food and Drinks',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m3-l1-speaking-1',
-        type: 'speaking',
-        title: 'Speaking Practice: Lección 1: Food and Drinks',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m3-l1-writing-1',
-        type: 'writing',
-        title: 'Writing: Lección 1: Food and Drinks',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m3-l1-pronunciation-1',
-        type: 'pronunciation-practice',
-        title: 'Pronunciation: Countable/Uncountable',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m3-l1-vocabulary-1',
-        type: 'vocabulary',
-        title: 'Vocabulary: Lección 1: Food and Drinks',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m3-l1-vocabulary-2',
-        type: 'vocabulary',
-        title: 'Vocabulary Practice',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m3-l1-fill-blanks-1',
-        type: 'fill-in-blanks',
-        title: 'Complete the Sentences - Countable/Uncountable',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m3-l1-multiple-choice-1',
-        type: 'multiple-choice',
-        title: 'Multiple Choice: Countable/Uncountable',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m3-l1-matching-1',
-        type: 'matching',
-        title: 'Match Words and Meanings',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m3-l1-sentence-building-1',
-        type: 'sentence-building',
-        title: 'Build Sentences - Countable/Uncountable',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m3-l1-true-false-1',
-        type: 'true-false',
-        title: 'True or False: Lección 1: Food and Drinks',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m3-l1-dialogue-1',
-        type: 'dialogue-practice',
-        title: 'Dialogue Practice: Lección 1: Food and Drinks',
-        // Content will be added in future updates
-      } as Exercise,
-    ]
+    exercises: A1_M3_L1_ALL_EXERCISES
   },
   {
     id: 'a1-m3-l2',
