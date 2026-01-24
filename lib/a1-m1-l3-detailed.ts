@@ -816,7 +816,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap1',
       gapNumber: 1,
       correctAnswer: 'from',
-      options: ['from', 'froms', 'other'],
+      options: ['from', 'in', 'at'],
       explanation: 'We say "I am from" + country.',
       points: 1
     },
@@ -824,7 +824,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap2',
       gapNumber: 2,
       correctAnswer: 'Spanish',
-      options: ['Spanish', 'Spanishs', 'other'],
+      options: ['Spanish', 'Spain', 'Spaniard'],
       explanation: 'The nationality for Spain is Spanish.',
       points: 1
     },
@@ -840,7 +840,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap4',
       gapNumber: 4,
       correctAnswer: 'France',
-      options: ['France', 'Frances', 'other'],
+      options: ['France', 'French', 'Paris'],
       explanation: 'Sophie is French, so she is from France.',
       points: 1
     },
@@ -848,7 +848,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap5',
       gapNumber: 5,
       correctAnswer: 'French',
-      options: ['French', 'Frenchs', 'other'],
+      options: ['French', 'France', 'Francais'],
       explanation: 'The nationality for France is French.',
       points: 1
     },
@@ -856,7 +856,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap6',
       gapNumber: 6,
       correctAnswer: 'German',
-      options: ['German', 'Germans', 'other'],
+      options: ['German', 'Germany', 'Deutsch'],
       explanation: 'Hans is from Germany, so he is German.',
       points: 1
     },
@@ -890,7 +890,7 @@ My teacher is from {{9}}. She is {{10}} and she speaks English very well. She al
       id: 'gap10',
       gapNumber: 10,
       correctAnswer: 'American',
-      options: ['American', 'Americans', 'other'],
+      options: ['American', 'America', 'USA'],
       explanation: 'The nationality for America is American.',
       points: 1
     },
@@ -965,6 +965,67 @@ export const A1_M1_L3_COLLOCATION_MATCHING = {
   ]
 };
 
+
+// ============================================
+// SENTENCE REORDERING EXERCISE
+// ============================================
+export const A1_M1_L3_SENTENCE_REORDERING = {
+  id: 'a1-m1-l3-sentence-reordering',
+  type: 'sentence-reordering',
+  title: 'Put the Words in Order',
+  instructions: 'Arrange the words to make correct sentences about countries and nationalities.',
+  items: [
+    {
+      id: 'sr1',
+      shuffledSentences: ['from', 'She', 'Spain', 'is'],
+      correctOrder: [1, 3, 0, 2],
+      context: 'Make a sentence about where she is from',
+      explanation: 'Correct order: She is from Spain. (Subject + verb to be + from + country)',
+      points: 1
+    },
+    {
+      id: 'sr2',
+      shuffledSentences: ['Japanese', 'He', 'is'],
+      correctOrder: [1, 2, 0],
+      context: 'Make a sentence about his nationality',
+      explanation: 'Correct order: He is Japanese. (Subject + verb to be + nationality)',
+      points: 1
+    },
+    {
+      id: 'sr3',
+      shuffledSentences: ['you', 'from', 'Are', 'Italy', '?'],
+      correctOrder: [2, 0, 1, 3, 4],
+      context: 'Make a question about country',
+      explanation: 'Correct order: Are you from Italy? (Verb to be + subject + from + country + ?)',
+      points: 1
+    },
+    {
+      id: 'sr4',
+      shuffledSentences: ['are', 'They', 'Brazilian'],
+      correctOrder: [1, 0, 2],
+      context: 'Make a sentence about their nationality',
+      explanation: 'Correct order: They are Brazilian. (Subject + verb to be + nationality)',
+      points: 1
+    },
+    {
+      id: 'sr5',
+      shuffledSentences: ['French', 'Is', 'she', '?'],
+      correctOrder: [1, 2, 0, 3],
+      context: 'Make a question about nationality',
+      explanation: 'Correct order: Is she French? (Verb to be + subject + nationality + ?)',
+      points: 1
+    },
+    {
+      id: 'sr6',
+      shuffledSentences: ['We', 'from', 'China', 'are'],
+      correctOrder: [0, 3, 1, 2],
+      context: 'Make a sentence about where you are from',
+      explanation: 'Correct order: We are from China. (Subject + verb to be + from + country)',
+      points: 1
+    }
+  ]
+};
+
 export const A1_M1_L3_ALL_EXERCISES = [
   A1_M1_L3_GRAMMAR_1,
   A1_M1_L3_GRAMMAR_2,
@@ -978,5 +1039,6 @@ export const A1_M1_L3_ALL_EXERCISES = [
   A1_M1_L3_SENTENCE_COMPLETION,
   A1_M1_L3_ERROR_IDENTIFICATION,
   A1_M1_L3_GAP_FILL,
+  A1_M1_L3_SENTENCE_REORDERING,
   A1_M1_L3_COLLOCATION_MATCHING
 ];
