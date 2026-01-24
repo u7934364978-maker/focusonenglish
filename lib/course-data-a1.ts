@@ -247,104 +247,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
     duration: 90, // minutes
     exercises: A1_M2_L2_ALL_EXERCISES as Exercise[]
   },
-  {
-    id: 'a1-m2-l3',
-    title: 'Lección 3: Time and Schedules',
-    description: 'Practice Time expressions with comprehensive exercises',
-    duration: 90, // minutes
-    exercises: [
-      {
-        id: 'a1-m2-l3-grammar-1',
-        type: 'grammar',
-        title: 'Time expressions - Formation and Use',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l3-grammar-2',
-        type: 'grammar',
-        title: 'Time expressions - Practice Exercises',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l3-reading-1',
-        type: 'reading',
-        title: 'Reading: Lección 3: Time and Schedules',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l3-listening-1',
-        type: 'listening',
-        title: 'Listening: Lección 3: Time and Schedules',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l3-speaking-1',
-        type: 'speaking',
-        title: 'Speaking Practice: Lección 3: Time and Schedules',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l3-writing-1',
-        type: 'writing',
-        title: 'Writing: Lección 3: Time and Schedules',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l3-pronunciation-1',
-        type: 'pronunciation-practice',
-        title: 'Pronunciation: Time expressions',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l3-vocabulary-1',
-        type: 'vocabulary',
-        title: 'Vocabulary: Lección 3: Time and Schedules',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l3-vocabulary-2',
-        type: 'vocabulary',
-        title: 'Vocabulary Practice',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l3-fill-blanks-1',
-        type: 'fill-in-blanks',
-        title: 'Complete the Sentences - Time expressions',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l3-multiple-choice-1',
-        type: 'multiple-choice',
-        title: 'Multiple Choice: Time expressions',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l3-matching-1',
-        type: 'matching',
-        title: 'Match Words and Meanings',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l3-sentence-building-1',
-        type: 'sentence-building',
-        title: 'Build Sentences - Time expressions',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l3-true-false-1',
-        type: 'true-false',
-        title: 'True or False: Lección 3: Time and Schedules',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l3-dialogue-1',
-        type: 'dialogue-practice',
-        title: 'Dialogue Practice: Lección 3: Time and Schedules',
-        // Content will be added in future updates
-      } as Exercise,
-    ]
-  },
+  A1_MODULE_2_LESSON_3,
   {
     id: 'a1-m2-l4',
     title: 'Lección 4: Free Time Activities',
@@ -1642,18 +1545,10 @@ export const A1_VOCABULARY_CATEGORIES = [
   { id: 'hobbies', name: 'Hobbies', items: ['Sports', 'Free time activities'] },
   { id: 'countries', name: 'Countries', items: ['Countries', 'Nationalities', 'Languages'] },
   { id: 'weather', name: 'Weather', items: ['Weather conditions', 'Temperature'] }
-];
-
-// ============================================
-// LECCIONES ESTRUCTURADAS - MÓDULO 2
-// ============================================
-
-export const A1_MODULE_2_LESSONS: Lesson[] = [
-  A1_MODULE_2_LESSON_3
-];
 
 export default A1_COURSE_CONFIG;
 console.log(`✅ A1 Course Data loaded successfully`);
 console.log(`📚 Total Modules: ${ALL_MODULES.length}`);
 console.log(`📖 Total Lessons: ${TOTAL_LESSONS}`);
 console.log(`🎯 CEFR Level: A1 - Beginner`);
+
