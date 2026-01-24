@@ -330,6 +330,114 @@ export const A1_M1_L1_GRAMMAR_2 = {
       acceptableAnswers: ['is', "'s"],
       explanation: 'Use "is" for places (London = it).',
       points: 1
+    },
+    {
+      id: 'a1-m1-l1-g2-q9',
+      type: 'fill-blank',
+      question: 'My parents ___ at work.',
+      correctAnswer: 'are',
+      acceptableAnswers: ['are', "'re"],
+      explanation: 'Use "are" with plural nouns. "My parents" = they.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g2-q10',
+      type: 'fill-blank',
+      question: 'The coffee ___ hot.',
+      correctAnswer: 'is',
+      acceptableAnswers: ['is', "'s"],
+      explanation: 'Use "is" with singular nouns. "Coffee" = it.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g2-q11',
+      type: 'fill-blank',
+      question: 'My brother ___ tall.',
+      correctAnswer: 'is',
+      acceptableAnswers: ['is', "'s"],
+      explanation: 'Use "is" with he/she. "My brother" = he.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g2-q12',
+      type: 'fill-blank',
+      question: 'We ___ tired today.',
+      correctAnswer: 'are',
+      acceptableAnswers: ['are', "'re"],
+      explanation: 'Use "are" with "we".',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g2-q13',
+      type: 'fill-blank',
+      question: 'The movie ___ interesting.',
+      correctAnswer: 'is',
+      acceptableAnswers: ['is', "'s"],
+      explanation: 'Use "is" with singular things. "The movie" = it.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g2-q14',
+      type: 'fill-blank',
+      question: 'My sister and I ___ students.',
+      correctAnswer: 'are',
+      acceptableAnswers: ['are', "'re"],
+      explanation: 'Use "are" with "my sister and I" = we.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g2-q15',
+      type: 'fill-blank',
+      question: 'The children ___ in the garden.',
+      correctAnswer: 'are',
+      acceptableAnswers: ['are', "'re"],
+      explanation: 'Use "are" with plural nouns. "Children" = they.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g2-q16',
+      type: 'fill-blank',
+      question: 'This book ___ expensive.',
+      correctAnswer: 'is',
+      acceptableAnswers: ['is', "'s"],
+      explanation: 'Use "is" with singular objects. "This book" = it.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g2-q17',
+      type: 'fill-blank',
+      question: 'I ___ happy to see you.',
+      correctAnswer: 'am',
+      acceptableAnswers: ['am', "'m"],
+      explanation: 'Use "am" with "I".',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g2-q18',
+      type: 'fill-blank',
+      question: 'The students ___ in class.',
+      correctAnswer: 'are',
+      acceptableAnswers: ['are', "'re"],
+      explanation: 'Use "are" with plural nouns. "Students" = they.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g2-q19',
+      type: 'fill-blank',
+      question: 'My car ___ blue.',
+      correctAnswer: 'is',
+      acceptableAnswers: ['is', "'s"],
+      explanation: 'Use "is" with singular possessions. "My car" = it.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g2-q20',
+      type: 'fill-blank',
+      question: 'You and Tom ___ friends.',
+      correctAnswer: 'are',
+      acceptableAnswers: ['are', "'re"],
+      explanation: 'Use "are" with "you and Tom" (plural).',
+      points: 1
     }
   ]
 };
