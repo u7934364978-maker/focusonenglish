@@ -144,7 +144,7 @@ const A1_M1_L7_READING: Exercise = {
   id: 'a1-m1-l7-reading-1',
   type: 'reading',
   title: 'Reading: A Global Family',
-  readingText: `A Global Family
+  text: `A Global Family
 
 My name is Lisa Chen and I have a very international family!
 
@@ -323,13 +323,17 @@ const A1_M1_L7_SPEAKING: Exercise = {
   type: 'speaking',
   title: 'Speaking: Complete Personal Introduction',
   instructions: 'Record a complete introduction about yourself covering all Module 1 topics. Speak for at least 90 seconds.',
-  prompts: [
-    'Introduce yourself (name, age, nationality)',
-    'Talk about your family members (at least 3 people)',
-    'Describe where they live and how old they are',
-    'Mention their jobs or studies',
-    'Talk about something you do with your family'
+  prompt: 'Introduce yourself completely covering: your name, age, nationality, family members (at least 3 people), where they live, their ages, their jobs or studies, and something you do with your family.',
+  expectedResponse: 'Student should provide a complete personal and family introduction with all required information, using correct grammar and pronunciation.',
+  hints: [
+    'Start with: My name is..., I am... years old, I am from...',
+    'Talk about family: I have... My [family member] is... years old.',
+    'Mention where people live: He/She lives in...',
+    'Describe jobs: My [family member] is a...',
+    'Use correct verb forms: is, are, am'
   ],
+  targetWords: ['name', 'age', 'from', 'family', 'mother', 'father', 'brother', 'sister', 'years old', 'lives', 'is', 'are'],
+  timeLimit: 120,
   expectedLength: 90,
   targetLevel: 'A1',
   evaluationCriteria: [
@@ -358,6 +362,12 @@ const A1_M1_L7_SPEAKING: Exercise = {
     {
       id: 'a1-m1-l7-s-q3',
       type: 'speaking',
+      question: 'Talk about family activities',
+      expectedAnswer: 'Student should mention activities they do with family.',
+      points: 3
+    }
+  ]
+};
       question: 'Talk about family activities',
       expectedAnswer: 'Student should mention activities they do with family.',
       points: 3
