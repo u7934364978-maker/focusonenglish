@@ -2485,7 +2485,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                                 : 'border-slate-300 hover:border-blue-400'
                             } disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-blue-400`}
                           >
-                            <option value="">(${gapNum})</option>
+                            <option value="">({gapNum})</option>
                             {gap.options.map((option: string, optIdx: number) => (
                               <option key={optIdx} value={option}>
                                 {option}
