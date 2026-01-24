@@ -830,58 +830,6 @@ export const A1_M1_L1_LISTENING = {
       acceptableAnswers: ['33', 'thirty-three', 'thirty three'],
       explanation: 'John says "She is 33 years old" about Sarah.',
       points: 1
-    },
-    {
-      id: 'a1-m1-l1-list-q21',
-      type: 'multiple-choice',
-      question: 'What word describes their home?',
-      options: ['Old', 'Small', 'New', 'Expensive'],
-      correctAnswer: 'New',
-      explanation: 'John says "our new home in London."',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-list-q22',
-      type: 'true-false',
-      question: 'Both John and Sarah have jobs.',
-      correctAnswer: 'true',
-      explanation: 'John is a teacher and Sarah is a doctor, so both work.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-list-q23',
-      type: 'multiple-choice',
-      question: 'Which word best describes John\'s marital status?',
-      options: ['Single', 'Married', 'Divorced', 'Widowed'],
-      correctAnswer: 'Married',
-      explanation: 'John explicitly says "I am married."',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-list-q24',
-      type: 'fill-blank',
-      question: 'John and Sarah are ___ in their new home.',
-      correctAnswer: 'happy',
-      acceptableAnswers: ['happy', 'Happy'],
-      explanation: 'John says "We are happy in our new home."',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-list-q25',
-      type: 'true-false',
-      question: 'John is younger than 40 years old.',
-      correctAnswer: 'true',
-      explanation: 'John is 35 years old, which is younger than 40.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-list-q26',
-      type: 'multiple-choice',
-      question: 'What is John\'s profession?',
-      options: ['Engineer', 'Doctor', 'Teacher', 'Lawyer'],
-      correctAnswer: 'Teacher',
-      explanation: 'John introduces himself saying "I am a teacher."',
-      points: 1
     }
   ]
 };
