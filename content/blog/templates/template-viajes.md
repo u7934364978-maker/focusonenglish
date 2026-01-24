@@ -2044,7 +2044,7 @@ No esperes hasta el último momento. Empieza a practicar:
 
 Si tienes alguna pregunta sobre viajar a [Destino] o sobre estas frases, déjanos un comentario o contáctanos:
 
-📧 **Email**: info@focusenglish.com  
+📧 **Email**: info@focus-on-english.com  
 💬 **WhatsApp**: [número]  
 📱 **Instagram**: [@focusenglish](URL)
 

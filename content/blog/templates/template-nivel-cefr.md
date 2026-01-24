@@ -2085,7 +2085,7 @@ Continúa tu aprendizaje con estos artículos:
 
 Si tienes alguna pregunta sobre el nivel [X] que no hayamos respondido, déjanos un comentario abajo o contáctanos:
 
-📧 **Email**: info@focusenglish.com  
+📧 **Email**: info@focus-on-english.com  
 💬 **WhatsApp**: [número]  
 📱 **Instagram**: [@focusenglish](URL)  
 📘 **Facebook**: [Focus English](URL)

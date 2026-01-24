@@ -22,7 +22,7 @@
 
 ### **Artículo:** "Guía Completa del Nivel A1: Tu Primer Paso en Inglés"
 
-**URL:** `https://focusenglish.com/blog/guia-completa-nivel-a1-principiantes`
+**URL:** `https://www.focus-on-english.com/blog/guia-completa-nivel-a1-principiantes`
 
 ### 🖼️ Vista Previa del Diseño
 
@@ -246,7 +246,7 @@ margin: 30px 0;
 
 ### **Artículo:** "Inglés B2 Avanzado: Domina el Inglés Profesional"
 
-**URL:** `https://focusenglish.com/blog/ingles-b2-avanzado-profesional`
+**URL:** `https://www.focus-on-english.com/blog/ingles-b2-avanzado-profesional`
 
 ### 🖼️ Vista Previa del Diseño
 
@@ -316,7 +316,7 @@ A1 ──→ A2 ──→ B1 ──→ [B2] ──→ C1 ──→ C2
 
 ### **Artículo:** "Inglés Esencial para el Aeropuerto: 200+ Frases Útiles"
 
-**URL:** `https://focusenglish.com/blog/ingles-aeropuerto-frases-utiles`
+**URL:** `https://www.focus-on-english.com/blog/ingles-aeropuerto-frases-utiles`
 
 ### 🖼️ Vista Previa del Diseño
 
@@ -408,7 +408,7 @@ A1 ──→ A2 ──→ B1 ──→ [B2] ──→ C1 ──→ C2
 
 ### **Artículo:** "Inglés Técnico para Programadores: Vocabulario IT Esencial"
 
-**URL:** `https://focusenglish.com/blog/ingles-tecnico-programadores-it`
+**URL:** `https://www.focus-on-english.com/blog/ingles-tecnico-programadores-it`
 
 ### 🖼️ Vista Previa del Diseño
 
@@ -525,7 +525,7 @@ A1 ──→ A2 ──→ B1 ──→ [B2] ──→ C1 ──→ C2
 
 ### **Artículo:** "Guía Completa de Preparación IELTS: Estrategias para 7+ Band Score"
 
-**URL:** `https://focusenglish.com/blog/preparacion-ielts-guia-completa`
+**URL:** `https://www.focus-on-english.com/blog/preparacion-ielts-guia-completa`
 
 ### 🖼️ Vista Previa del Diseño
 
@@ -1262,7 +1262,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
               "name": "Focus English",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://focusenglish.com/logo.png"
+                "url": "https://www.focus-on-english.com/logo.png"
               }
             },
             "datePublished": article?.publishedTime,

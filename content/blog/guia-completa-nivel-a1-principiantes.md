@@ -21,7 +21,7 @@ keywords:
   - "inglés desde cero"
   - "A1 CEFR requirements"
 metaDescription: "Aprende todo sobre el Nivel A1 de inglés: definición CEFR oficial, competencias, gramática, vocabulario esencial y cómo alcanzarlo en 2026. ¡Guía completa!"
-canonicalUrl: "https://focusenglish.com/blog/guia-completa-nivel-a1-principiantes"
+canonicalUrl: "https://www.focus-on-english.com/blog/guia-completa-nivel-a1-principiantes"
 ogImage: "https://www.genspark.ai/api/files/s/B2zc4dPl?cache_control=3600"
 ---
 
@@ -682,7 +682,7 @@ Una vez domines el nivel A1, estarás listo para avanzar al **nivel A2 (Elementa
 
 **🎯 Test de Nivel Gratuito:** [Evalúa tu nivel ahora](#)  
 **💬 Chat en Vivo:** Habla con un asesor (Lun-Vie 9h-18h)  
-**📧 Email:** [info@focusenglish.com](mailto:info@focusenglish.com)  
+**📧 Email:** [info@focus-on-english.com](mailto:info@focus-on-english.com)  
 **📱 WhatsApp:** +34 XXX XXX XXX
 
 ---
