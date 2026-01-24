@@ -1433,6 +1433,48 @@ export const A1_M1_L1_VOCABULARY_2 = {
   id: 'a1-m1-l1-vocabulary-2',
   type: 'vocabulary',
   title: 'Vocabulary: Feelings and Emotions',
+  explanation: `
+In this vocabulary exercise, you will learn **20 essential words** to express how you feel and describe your emotional state in English. Learning to talk about feelings and emotions is crucial for effective communication at the A1 level.
+
+## What You Will Learn:
+
+### 😊 **Positive Feelings**
+Express happiness and positive emotions: **happy, excited, glad, pleased, proud** - words to share good moments and achievements.
+
+### 😔 **Negative Feelings**
+Communicate sadness and difficult emotions: **sad, unhappy, disappointed, upset** - important for expressing when things aren't going well.
+
+### 😠 **Strong Emotions**
+Talk about intense feelings: **angry, frustrated, annoyed** - useful for expressing displeasure appropriately.
+
+### 😮 **Reactions and Surprises**
+Express unexpected reactions: **surprised, shocked, amazed** - for when something unexpected happens.
+
+### 😴 **Physical States**
+Describe how your body feels: **tired, sleepy, exhausted, hungry, thirsty, sick, ill** - essential for daily needs and health.
+
+### 🎯 **States of Being**
+Express your current condition: **busy, ready, free, bored, interested, worried, nervous, scared** - for various everyday situations.
+
+## Why This Vocabulary Is Important:
+
+✅ **Express Yourself**: Communicate how you feel clearly in any situation
+✅ **Connect with Others**: Understanding emotions helps build relationships
+✅ **Daily Conversations**: These words are used constantly in everyday English
+✅ **Get Help**: Knowing how to express feelings helps you ask for support when needed
+✅ **Cultural Communication**: Understanding emotions is key to natural conversation
+
+## Common Patterns with "to be":
+
+When expressing feelings in English, we use the verb "to be":
+- **I am** tired / happy / sad
+- **You are** busy / ready / excited
+- **He/She is** hungry / angry / surprised
+- **We are** interested / worried / pleased
+- **They are** bored / scared / sick
+
+**Practice Tip:** Pay attention to how you feel throughout the day and try to name those feelings in English!
+  `,
   vocabularySet: [
     { word: 'tired', definition: 'needing rest', example: 'I am tired after work.' },
     { word: 'excited', definition: 'very happy about something', example: 'We are excited about the trip!' },
@@ -1441,7 +1483,19 @@ export const A1_M1_L1_VOCABULARY_2 = {
     { word: 'surprised', definition: 'feeling unexpected', example: 'I am surprised by the gift!' },
     { word: 'hungry', definition: 'needing food', example: 'They are hungry for lunch.' },
     { word: 'busy', definition: 'having a lot to do', example: 'We are busy with homework.' },
-    { word: 'ready', definition: 'prepared', example: 'I am ready for the test.' }
+    { word: 'ready', definition: 'prepared', example: 'I am ready for the test.' },
+    { word: 'happy', definition: 'feeling joy and pleasure', example: 'I am happy with my results.' },
+    { word: 'bored', definition: 'not interested, feeling dull', example: 'She is bored in class.' },
+    { word: 'worried', definition: 'feeling anxious', example: 'He is worried about the exam.' },
+    { word: 'scared', definition: 'feeling fear', example: 'I am scared of spiders.' },
+    { word: 'nervous', definition: 'feeling anxious about something', example: 'They are nervous before the interview.' },
+    { word: 'sick', definition: 'not feeling well, ill', example: 'She is sick today.' },
+    { word: 'thirsty', definition: 'needing water or a drink', example: 'I am thirsty after running.' },
+    { word: 'sleepy', definition: 'feeling like you want to sleep', example: 'He is sleepy in the morning.' },
+    { word: 'upset', definition: 'unhappy or disappointed', example: 'She is upset about the result.' },
+    { word: 'proud', definition: 'feeling satisfaction about achievement', example: 'I am proud of my work.' },
+    { word: 'interested', definition: 'wanting to know more', example: 'They are interested in English.' },
+    { word: 'disappointed', definition: 'sad because something is not as expected', example: 'He is disappointed with the weather.' }
   ],
   questions: [
     {
@@ -1493,8 +1547,135 @@ export const A1_M1_L1_VOCABULARY_2 = {
       id: 'a1-m1-l1-v2-q6',
       type: 'true-false',
       question: 'If you are "surprised", something unexpected happened.',
+      options: ['True', 'False'],
       correctAnswer: 'True',
       explanation: 'True. Surprised means something happened that you did not expect.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q7',
+      type: 'multiple-choice',
+      question: 'What does "happy" mean?',
+      options: ['Feeling sad', 'Feeling joy and pleasure', 'Feeling angry', 'Feeling tired'],
+      correctAnswer: 'Feeling joy and pleasure',
+      explanation: 'Happy means feeling joy, pleasure, and contentment.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q8',
+      type: 'fill-blank',
+      question: 'The movie is not interesting. I am ___.',
+      correctAnswer: 'bored',
+      acceptableAnswers: ['bored', 'Bored'],
+      explanation: 'When something is not interesting, you feel bored.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q9',
+      type: 'multiple-choice',
+      question: 'If you are "worried", you feel...',
+      options: ['Happy', 'Anxious', 'Excited', 'Hungry'],
+      correctAnswer: 'Anxious',
+      explanation: 'Worried means feeling anxious or concerned about something.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q10',
+      type: 'fill-blank',
+      question: 'It is dark and I hear strange noises. I am ___.',
+      correctAnswer: 'scared',
+      acceptableAnswers: ['scared', 'Scared', 'nervous', 'Nervous', 'afraid', 'Afraid'],
+      explanation: 'When you feel fear, you are scared, nervous, or afraid.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q11',
+      type: 'multiple-choice',
+      question: 'What does "nervous" mean?',
+      options: ['Feeling calm', 'Feeling anxious about something', 'Feeling sleepy', 'Feeling angry'],
+      correctAnswer: 'Feeling anxious about something',
+      explanation: 'Nervous means feeling anxious, especially before an important event.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q12',
+      type: 'fill-blank',
+      question: 'I have a cold and a fever. I am ___.',
+      correctAnswer: 'sick',
+      acceptableAnswers: ['sick', 'Sick', 'ill', 'Ill'],
+      explanation: 'When you are not feeling well or have an illness, you are sick or ill.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q13',
+      type: 'multiple-choice',
+      question: 'If you are "thirsty", you need...',
+      options: ['Food', 'Sleep', 'Water or a drink', 'Exercise'],
+      correctAnswer: 'Water or a drink',
+      explanation: 'Thirsty means you need water or something to drink.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q14',
+      type: 'fill-blank',
+      question: 'It is late at night. I am very ___.',
+      correctAnswer: 'sleepy',
+      acceptableAnswers: ['sleepy', 'Sleepy', 'tired', 'Tired'],
+      explanation: 'When you want to sleep, especially at night, you feel sleepy or tired.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q15',
+      type: 'multiple-choice',
+      question: 'What does "upset" mean?',
+      options: ['Very happy', 'Unhappy or disappointed', 'Very excited', 'Very busy'],
+      correctAnswer: 'Unhappy or disappointed',
+      explanation: 'Upset means feeling unhappy, disappointed, or disturbed about something.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q16',
+      type: 'fill-blank',
+      question: 'I passed my exam! I am ___ of my work.',
+      correctAnswer: 'proud',
+      acceptableAnswers: ['proud', 'Proud', 'happy', 'Happy'],
+      explanation: 'When you feel satisfaction about an achievement, you are proud or happy.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q17',
+      type: 'multiple-choice',
+      question: 'If you are "interested" in something, you...',
+      options: ['Want to sleep', 'Want to know more', 'Want to eat', 'Want to leave'],
+      correctAnswer: 'Want to know more',
+      explanation: 'Interested means you want to know more about something or pay attention to it.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q18',
+      type: 'fill-blank',
+      question: 'The weather is bad. I am ___ about the trip.',
+      correctAnswer: 'disappointed',
+      acceptableAnswers: ['disappointed', 'Disappointed', 'sad', 'Sad', 'upset', 'Upset'],
+      explanation: 'When something is not as good as expected, you feel disappointed, sad, or upset.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q19',
+      type: 'multiple-choice',
+      question: 'Which verb do we use with feelings in English?',
+      options: ['to have', 'to be', 'to do', 'to make'],
+      correctAnswer: 'to be',
+      explanation: 'We use "to be" with feelings: I am happy, She is tired, They are excited.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-v2-q20',
+      type: 'multiple-choice',
+      question: 'Complete: "I ___ sad because it is raining."',
+      options: ['am', 'have', 'do', 'make'],
+      correctAnswer: 'am',
+      explanation: 'We use "am" (verb to be) with feelings: I am sad, I am happy, I am tired.',
       points: 1
     }
   ]
