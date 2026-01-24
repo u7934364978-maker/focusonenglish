@@ -3,7 +3,103 @@
 // ============================================
 // Ejercicios de ejemplo para usar cuando la API de OpenAI no está disponible
 
-import { GeneratedExercise, ExerciseType, DifficultyLevel, CEFRLevel } from '@/lib/exercise-types';
+import { GeneratedExercise, ExerciseType, DifficultyLevel, CEFRLevel, GenerateExerciseRequest } from '@/lib/exercise-types';
+
+/**
+ * Ejercicios de ejemplo por tipo y nivel (Biblioteca ampliada para evitar repeticiones)
+ */
+const FALLBACK_LIBRARY: Record<string, any[]> = {
+  'multiple-choice': [
+    {
+      title: 'Mixed Conditionals Practice',
+      instructions: 'Choose the correct answer to complete each conditional sentence.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'If I _____ harder last year, I would have better job opportunities now.',
+          options: ['A) studied', 'B) had studied', 'C) would study', 'D) would have studied'],
+          correctAnswer: 'B',
+          explanation: 'Condicional mixto (tipo 3 + tipo 2). La condición pasada (had studied) afecta el resultado presente.'
+        },
+        {
+          id: 'q2',
+          question: 'She would be fluent in English now if she _____ speaking it at home.',
+          options: ['A) practiced', 'B) had practiced', 'C) would practice', 'D) practices'],
+          correctAnswer: 'B',
+          explanation: 'Acción pasada (had practiced) con efecto en el presente (would be).'
+        }
+      ]
+    },
+    {
+      title: 'Business English: Meetings',
+      instructions: 'Select the most appropriate professional expression.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'Could we _____ the meeting to next Tuesday?',
+          options: ['A) put off', 'B) call off', 'C) set up', 'D) bring up'],
+          correctAnswer: 'A',
+          explanation: '"Put off" significa posponer.'
+        }
+      ]
+    }
+  ],
+  'fill-blank': [
+    {
+      title: 'Present Perfect vs Past Simple',
+      instructions: 'Fill in the blanks with the correct form of the verb.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'I _____ (visit) Paris three times in my life.',
+          correctAnswer: 'have visited',
+          explanation: 'Experiencias de vida sin tiempo específico.'
+        }
+      ]
+    },
+    {
+      title: 'Passive Voice Practice',
+      instructions: 'Complete the sentences using the passive form.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'The bridge _____ (build) in 1924.',
+          correctAnswer: 'was built',
+          explanation: 'Pasado simple pasivo (was/were + participio).'
+        }
+      ]
+    }
+  ],
+  'reading-comprehension': [
+    {
+      title: 'The Rise of Remote Work',
+      text: `The COVID-19 pandemic has fundamentally changed the way we work. Many companies have discovered that employees can be productive when working from home.`,
+      questions: [
+        {
+          id: 'q1',
+          question: 'How has the pandemic affected work?',
+          options: ['A) No change', 'B) Changed fundamentally', 'C) Made it harder', 'D) Stopped work'],
+          correctAnswer: 'B',
+          explanation: 'El texto dice "fundamentally changed the way we work".'
+        }
+      ]
+    }
+  ],
+  'writing-analysis': [
+    {
+      title: 'Task Achievement Practice',
+      instructions: 'Write a short paragraph about your hobbies.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'Explain what you like doing in your free time and why.',
+          correctAnswer: 'A natural description of personal interests and hobbies.',
+          explanation: 'Ensure you use present simple and connectors like "because" or "also".'
+        }
+      ]
+    }
+  ]
+};
 
 /**
  * Genera un ID único para ejercicios de fallback
@@ -404,25 +500,25 @@ Looking ahead, experts predict that a hybrid model—combining office and remote
 /**
  * Genera un ejercicio de fallback
  */
-export function generateFallbackExercise(
-  type: ExerciseType,
-  topic: string = 'General Practice',
-  difficulty: DifficultyLevel = 'medium',
-  level: CEFRLevel = 'B2'
-): GeneratedExercise {
-  const exerciseData = FALLBACK_EXERCISES[type] || FALLBACK_EXERCISES['multiple-choice'];
+export function generateFallbackExercise(request: GenerateExerciseRequest): GeneratedExercise {
+  const type = request.exerciseType;
+  const library = FALLBACK_LIBRARY[type] || FALLBACK_LIBRARY['multiple-choice'];
+  
+  // Selección aleatoria de la biblioteca para evitar repeticiones
+  const randomIndex = Math.floor(Math.random() * library.length);
+  const selectedContent = library[randomIndex];
   
   return {
     id: generateFallbackId(),
-    type,
-    category: getCategory(type),
-    topic,
-    difficulty,
-    level,
-    content: exerciseData,
+    type: request.exerciseType,
+    category: getCategory(request.exerciseType),
+    topic: request.topic || 'General Practice',
+    difficulty: request.difficulty || 'medium',
+    level: request.level || 'B2',
+    content: selectedContent,
     createdAt: new Date(),
     estimatedTime: 5,
-    isFallback: true // Marca para identificar ejercicios de fallback
+    isFallback: true
   };
 }
 

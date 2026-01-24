@@ -41,8 +41,18 @@ GUIDELINES:
 
 export async function generateExerciseV2(request: GenerateExerciseRequest): Promise<GeneratedExercise> {
   const { exerciseType, level, difficulty, topic } = request;
+  
+  // Inyectar aleatoriedad para evitar repeticiones de la IA
+  const randomSeed = Math.floor(Math.random() * 10000);
+  const contextExtra = [
+    "Focus on a specific, real-world scenario.",
+    "Use contemporary vocabulary.",
+    "Avoid common textbook examples.",
+    "Make the context professionally relevant.",
+    "Include subtle nuances appropriate for the level."
+  ][randomSeed % 5];
 
-  console.log(`[IA V2] Solicitando ejercicio: ${exerciseType}, Nivel: ${level}, Tema: ${topic}, Dificultad: ${difficulty}`);
+  console.log(`[IA V2] Solicitando ejercicio: ${exerciseType}, Nivel: ${level}, Tema: ${topic}, Semilla: ${randomSeed}`);
 
   if (!process.env.OPENAI_API_KEY) {
     console.warn("[IA V2] API Key no configurada. Usando fallback.");
@@ -60,12 +70,14 @@ export async function generateExerciseV2(request: GenerateExerciseRequest): Prom
           Level: ${level} 
           Difficulty: ${difficulty} 
           Topic: ${topic || 'General English'}
+          Random context seed: ${randomSeed}
+          Special instruction: ${contextExtra}
           
-          Ensure it is pedagogically sound and follows the requested level strictly.` 
+          Ensure it is pedagogically sound and unique.` 
         }
       ],
       response_format: { type: "json_object" },
-      temperature: 0.7,
+      temperature: 0.9, // Aumentamos la temperatura para más creatividad
     });
 
     const rawContent = response.choices[0].message.content;
