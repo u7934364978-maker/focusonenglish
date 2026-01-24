@@ -130,6 +130,114 @@ The verb "to be" is the most important verb in English. We use it to talk about:
       correctAnswer: 'am',
       explanation: 'We use "am" with "I".',
       points: 1
+    },
+    {
+      id: 'a1-m1-l1-g1-q9',
+      type: 'multiple-choice',
+      question: 'Complete: My name ___ Sarah.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'is',
+      explanation: 'We use "is" with singular nouns like "name".',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g1-q10',
+      type: 'multiple-choice',
+      question: 'Complete: Maria and Juan ___ from Mexico.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'are',
+      explanation: 'We use "are" with plural subjects (Maria and Juan = they).',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g1-q11',
+      type: 'multiple-choice',
+      question: 'Complete: My sister ___ a doctor.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'is',
+      explanation: 'We use "is" with he/she/it. "My sister" = she.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g1-q12',
+      type: 'multiple-choice',
+      question: 'Complete: The book ___ on the table.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'is',
+      explanation: 'We use "is" with singular objects. "The book" = it.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g1-q13',
+      type: 'multiple-choice',
+      question: 'Complete: My parents ___ Italian.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'are',
+      explanation: 'We use "are" with plural nouns. "Parents" = they.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g1-q14',
+      type: 'multiple-choice',
+      question: 'Complete: London ___ in England.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'is',
+      explanation: 'We use "is" with singular places. "London" = it.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g1-q15',
+      type: 'multiple-choice',
+      question: 'Complete: I ___ hungry right now.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'am',
+      explanation: 'We use "am" with "I" to describe feelings.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g1-q16',
+      type: 'multiple-choice',
+      question: 'Complete: The students ___ in the classroom.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'are',
+      explanation: 'We use "are" with plural nouns. "Students" = they.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g1-q17',
+      type: 'multiple-choice',
+      question: 'Complete: My friend ___ very friendly.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'is',
+      explanation: 'We use "is" with singular nouns. "My friend" = he/she.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g1-q18',
+      type: 'multiple-choice',
+      question: 'Complete: The weather ___ beautiful today.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'is',
+      explanation: 'We use "is" with "the weather" (= it).',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g1-q19',
+      type: 'multiple-choice',
+      question: 'Complete: We ___ ready to go.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'are',
+      explanation: 'We use "are" with "we".',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-g1-q20',
+      type: 'multiple-choice',
+      question: 'Complete: This ___ my new phone.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'is',
+      explanation: 'We use "is" with singular demonstratives. "This" refers to one thing = it.',
+      points: 1
     }
   ]
 };
