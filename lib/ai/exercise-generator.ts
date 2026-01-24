@@ -149,7 +149,14 @@ export class ExerciseGenerator {
     let prompt = exerciseConfig.aiPromptTemplate;
 
     // Reemplazar placeholders
-    prompt = prompt.replace(/\{\{topic\}\}/g, request.topic || 'general English practice');
+    let finalTopic = request.topic || 'general English practice';
+    
+    // Si hay palabras clave del tema, incluirlas para guiar a la IA
+    if (request.topicKeywords && request.topicKeywords.length > 0) {
+      finalTopic = `${finalTopic} (Focus on: ${request.topicKeywords.join(', ')})`;
+    }
+
+    prompt = prompt.replace(/\{\{topic\}\}/g, finalTopic);
     prompt = prompt.replace(/\{\{difficulty\}\}/g, request.difficulty);
     prompt = prompt.replace(/\{\{level\}\}/g, request.level);
 

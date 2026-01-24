@@ -57,6 +57,7 @@ export async function POST(request: NextRequest) {
     const generateRequest: GenerateExerciseRequest = {
       exerciseType: body.exerciseType,
       topic: body.topic,
+      topicKeywords: body.topicKeywords,
       difficulty: body.difficulty || 'medium',
       level: body.level || 'B2',
       count: body.count || 1,

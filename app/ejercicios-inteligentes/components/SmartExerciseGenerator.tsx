@@ -19,6 +19,7 @@ import {
   PenTool,
   Volume2
 } from 'lucide-react';
+import { getTopicsByCategory } from '@/lib/cambridge-curriculum';
 
 type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
 type ExerciseCategory = 'grammar' | 'vocabulary' | 'reading' | 'writing' | 'listening' | 'speaking';
@@ -92,6 +93,15 @@ export default function SmartExerciseGenerator({
     }
   }, [level]);
 
+  // Efecto para generar ejercicio automáticamente al cambiar categoría o dificultad
+  useEffect(() => {
+    if (selectedCategory) {
+      generateExercise();
+    } else {
+      setCurrentExercise(null);
+    }
+  }, [selectedCategory, difficulty]);
+
   const saveStats = (newStats: ExerciseStats) => {
     localStorage.setItem(`exercise_stats_${level}`, JSON.stringify(newStats));
     setSessionStats(newStats);
@@ -106,6 +116,10 @@ export default function SmartExerciseGenerator({
     setExerciseStartTime(Date.now());
 
     try {
+      // Obtener un tema aleatorio del currículo para esta categoría y nivel
+      const topics = getTopicsByCategory(level, selectedCategory);
+      const randomTopic = topics[Math.floor(Math.random() * topics.length)];
+      
       // Llamar a la API para generar ejercicio con IA
       const response = await fetch('/api/generate-exercise', {
         method: 'POST',
@@ -115,7 +129,8 @@ export default function SmartExerciseGenerator({
         },
         body: JSON.stringify({
           exerciseType: getExerciseType(selectedCategory),
-          topic: selectedCategory,
+          topic: randomTopic?.name || selectedCategory,
+          topicKeywords: randomTopic?.keywords || [],
           difficulty: difficulty,
           level: level,
           count: 1,
@@ -274,7 +289,6 @@ export default function SmartExerciseGenerator({
                     key={category.id}
                     onClick={() => {
                       setSelectedCategory(category.id as ExerciseCategory);
-                      setTimeout(() => generateExercise(), 100);
                     }}
                     className="bg-white rounded-2xl shadow-lg border-2 border-gray-200 p-8 hover:border-violet-500 hover:shadow-2xl transition-all hover:-translate-y-1 text-left"
                   >
@@ -309,7 +323,9 @@ export default function SmartExerciseGenerator({
                     <h3 className="text-2xl font-black text-gray-900">
                       {EXERCISE_CATEGORIES.find(c => c.id === selectedCategory)?.name}
                     </h3>
-                    <p className="text-sm text-gray-600">Nivel {level}</p>
+                    <p className="text-sm text-gray-600">
+                      Nivel {level} {currentExercise?.topic ? `• ${currentExercise.topic}` : ''}
+                    </p>
                   </div>
                 </div>
 
@@ -320,7 +336,6 @@ export default function SmartExerciseGenerator({
                       key={diff}
                       onClick={() => {
                         setDifficulty(diff);
-                        if (currentExercise) generateExercise();
                       }}
                       className={`px-4 py-2 rounded-lg font-semibold text-sm transition-all ${
                         difficulty === diff

@@ -514,6 +514,7 @@ export function getAllCategories(): ExerciseCategory[] {
 export interface GenerateExerciseRequest {
   exerciseType: ExerciseType;
   topic?: string;
+  topicKeywords?: string[];
   difficulty: DifficultyLevel;
   level: CEFRLevel;
   count?: number; // Número de ejercicios a generar
