@@ -134,109 +134,109 @@ The verb "to be" is the most important verb in English. We use it to talk about:
     {
       id: 'a1-m1-l1-g1-q9',
       type: 'multiple-choice',
-      question: 'They ___ doctors.',
-      options: ['am', 'is', 'are', 'be'],
-      correctAnswer: 'are',
-      explanation: '"They" always takes "are". They are doctors.',
+      question: 'Complete: My name ___ Sarah.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'is',
+      explanation: 'We use "is" with singular nouns like "name".',
       points: 1
     },
     {
       id: 'a1-m1-l1-g1-q10',
       type: 'multiple-choice',
-      question: 'My sister ___ a nurse.',
-      options: ['am', 'is', 'are', 'be'],
-      correctAnswer: 'is',
-      explanation: '"My sister" (she) takes "is". My sister is a nurse.',
+      question: 'Complete: Maria and Juan ___ from Mexico.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'are',
+      explanation: 'We use "are" with plural subjects (Maria and Juan = they).',
       points: 1
     },
     {
       id: 'a1-m1-l1-g1-q11',
-      type: 'fill-blank',
-      question: 'We ___ from London.',
-      correctAnswer: 'are',
-      acceptableAnswers: ['are', "'re"],
-      explanation: '"We" always takes "are". We are from London.',
+      type: 'multiple-choice',
+      question: 'Complete: My sister ___ a doctor.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'is',
+      explanation: 'We use "is" with he/she/it. "My sister" = she.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g1-q12',
       type: 'multiple-choice',
-      question: 'The book ___ interesting.',
-      options: ['am', 'is', 'are', 'be'],
+      question: 'Complete: The book ___ on the table.',
+      options: ['am', 'is', 'are'],
       correctAnswer: 'is',
-      explanation: '"The book" (it) takes "is". The book is interesting.',
+      explanation: 'We use "is" with singular objects. "The book" = it.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g1-q13',
-      type: 'fill-blank',
-      question: 'My parents ___ happy.',
+      type: 'multiple-choice',
+      question: 'Complete: My parents ___ Italian.',
+      options: ['am', 'is', 'are'],
       correctAnswer: 'are',
-      acceptableAnswers: ['are', "'re"],
-      explanation: '"My parents" (they) takes "are". My parents are happy.',
+      explanation: 'We use "are" with plural nouns. "Parents" = they.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g1-q14',
       type: 'multiple-choice',
-      question: 'I ___ tired today.',
-      options: ['am', 'is', 'are', 'be'],
-      correctAnswer: 'am',
-      explanation: '"I" always takes "am". I am tired today.',
+      question: 'Complete: London ___ in England.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'is',
+      explanation: 'We use "is" with singular places. "London" = it.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g1-q15',
-      type: 'fill-blank',
-      question: 'She ___ my best friend.',
-      correctAnswer: 'is',
-      acceptableAnswers: ['is', "'s"],
-      explanation: '"She" takes "is". She is my best friend.',
+      type: 'multiple-choice',
+      question: 'Complete: I ___ hungry right now.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'am',
+      explanation: 'We use "am" with "I" to describe feelings.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g1-q16',
       type: 'multiple-choice',
-      question: 'You ___ very kind.',
-      options: ['am', 'is', 'are', 'be'],
+      question: 'Complete: The students ___ in the classroom.',
+      options: ['am', 'is', 'are'],
       correctAnswer: 'are',
-      explanation: '"You" always takes "are". You are very kind.',
+      explanation: 'We use "are" with plural nouns. "Students" = they.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g1-q17',
-      type: 'fill-blank',
-      question: 'The cat ___ black.',
+      type: 'multiple-choice',
+      question: 'Complete: My friend ___ very friendly.',
+      options: ['am', 'is', 'are'],
       correctAnswer: 'is',
-      acceptableAnswers: ['is', "'s"],
-      explanation: '"The cat" (it) takes "is". The cat is black.',
+      explanation: 'We use "is" with singular nouns. "My friend" = he/she.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g1-q18',
       type: 'multiple-choice',
-      question: 'We ___ in the same class.',
-      options: ['am', 'is', 'are', 'be'],
-      correctAnswer: 'are',
-      explanation: '"We" takes "are". We are in the same class.',
+      question: 'Complete: The weather ___ beautiful today.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'is',
+      explanation: 'We use "is" with "the weather" (= it).',
       points: 1
     },
     {
       id: 'a1-m1-l1-g1-q19',
-      type: 'fill-blank',
-      question: 'Tom ___ my brother.',
-      correctAnswer: 'is',
-      acceptableAnswers: ['is', "'s"],
-      explanation: '"Tom" (he) takes "is". Tom is my brother.',
+      type: 'multiple-choice',
+      question: 'Complete: We ___ ready to go.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'are',
+      explanation: 'We use "are" with "we".',
       points: 1
     },
     {
       id: 'a1-m1-l1-g1-q20',
       type: 'multiple-choice',
-      question: 'They ___ at home now.',
-      options: ['am', 'is', 'are', 'be'],
-      correctAnswer: 'are',
-      explanation: '"They" takes "are". They are at home now.',
+      question: 'Complete: This ___ my new phone.',
+      options: ['am', 'is', 'are'],
+      correctAnswer: 'is',
+      explanation: 'We use "is" with singular demonstratives. "This" refers to one thing = it.',
       points: 1
     }
   ]
@@ -333,110 +333,110 @@ export const A1_M1_L1_GRAMMAR_2 = {
     },
     {
       id: 'a1-m1-l1-g2-q9',
-      type: 'multiple-choice',
-      question: '___ you a doctor?',
-      options: ['Am', 'Is', 'Are', 'Be'],
-      correctAnswer: 'Are',
-      explanation: 'Questions with "you" use "Are". Are you a doctor?',
+      type: 'fill-blank',
+      question: 'My parents ___ at work.',
+      correctAnswer: 'are',
+      acceptableAnswers: ['are', "'re"],
+      explanation: 'Use "are" with plural nouns. "My parents" = they.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g2-q10',
       type: 'fill-blank',
-      question: 'They ___ from Spain. (negative)',
-      correctAnswer: 'aren\'t',
-      acceptableAnswers: ['aren\'t', 'are not', 'arent', 'are  not'],
-      explanation: 'Negative with "they": They aren\'t from Spain.',
+      question: 'The coffee ___ hot.',
+      correctAnswer: 'is',
+      acceptableAnswers: ['is', "'s"],
+      explanation: 'Use "is" with singular nouns. "Coffee" = it.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g2-q11',
-      type: 'multiple-choice',
-      question: '___ she your sister?',
-      options: ['Am', 'Is', 'Are', 'Be'],
-      correctAnswer: 'Is',
-      explanation: 'Questions with "she" use "Is". Is she your sister?',
+      type: 'fill-blank',
+      question: 'My brother ___ tall.',
+      correctAnswer: 'is',
+      acceptableAnswers: ['is', "'s"],
+      explanation: 'Use "is" with he/she. "My brother" = he.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g2-q12',
       type: 'fill-blank',
-      question: 'I ___ happy today. (negative)',
-      correctAnswer: '\'m not',
-      acceptableAnswers: ['\'m not', 'am not', 'm not'],
-      explanation: 'Negative with "I": I\'m not happy / I am not happy.',
+      question: 'We ___ tired today.',
+      correctAnswer: 'are',
+      acceptableAnswers: ['are', "'re"],
+      explanation: 'Use "are" with "we".',
       points: 1
     },
     {
       id: 'a1-m1-l1-g2-q13',
-      type: 'multiple-choice',
-      question: '___ they students?',
-      options: ['Am', 'Is', 'Are', 'Be'],
-      correctAnswer: 'Are',
-      explanation: 'Questions with "they" use "Are". Are they students?',
+      type: 'fill-blank',
+      question: 'The movie ___ interesting.',
+      correctAnswer: 'is',
+      acceptableAnswers: ['is', "'s"],
+      explanation: 'Use "is" with singular things. "The movie" = it.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g2-q14',
       type: 'fill-blank',
-      question: 'The book ___ on the table. (negative)',
-      correctAnswer: 'isn\'t',
-      acceptableAnswers: ['isn\'t', 'is not', 'isnt'],
-      explanation: 'Negative with "it": The book isn\'t on the table.',
+      question: 'My sister and I ___ students.',
+      correctAnswer: 'are',
+      acceptableAnswers: ['are', "'re"],
+      explanation: 'Use "are" with "my sister and I" = we.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g2-q15',
-      type: 'multiple-choice',
-      question: '___ I late?',
-      options: ['Am', 'Is', 'Are', 'Be'],
-      correctAnswer: 'Am',
-      explanation: 'Questions with "I" use "Am". Am I late?',
+      type: 'fill-blank',
+      question: 'The children ___ in the garden.',
+      correctAnswer: 'are',
+      acceptableAnswers: ['are', "'re"],
+      explanation: 'Use "are" with plural nouns. "Children" = they.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g2-q16',
       type: 'fill-blank',
-      question: 'We ___ tired. (negative)',
-      correctAnswer: 'aren\'t',
-      acceptableAnswers: ['aren\'t', 'are not', 'arent'],
-      explanation: 'Negative with "we": We aren\'t tired.',
+      question: 'This book ___ expensive.',
+      correctAnswer: 'is',
+      acceptableAnswers: ['is', "'s"],
+      explanation: 'Use "is" with singular objects. "This book" = it.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g2-q17',
-      type: 'multiple-choice',
-      question: '___ it cold today?',
-      options: ['Am', 'Is', 'Are', 'Be'],
-      correctAnswer: 'Is',
-      explanation: 'Questions with "it" use "Is". Is it cold today?',
+      type: 'fill-blank',
+      question: 'I ___ happy to see you.',
+      correctAnswer: 'am',
+      acceptableAnswers: ['am', "'m"],
+      explanation: 'Use "am" with "I".',
       points: 1
     },
     {
       id: 'a1-m1-l1-g2-q18',
       type: 'fill-blank',
-      question: 'My parents ___ at home. (negative)',
-      correctAnswer: 'aren\'t',
-      acceptableAnswers: ['aren\'t', 'are not', 'arent'],
-      explanation: 'Negative with "they": My parents aren\'t at home.',
+      question: 'The students ___ in class.',
+      correctAnswer: 'are',
+      acceptableAnswers: ['are', "'re"],
+      explanation: 'Use "are" with plural nouns. "Students" = they.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g2-q19',
-      type: 'multiple-choice',
-      question: '___ your name John?',
-      options: ['Am', 'Is', 'Are', 'Be'],
-      correctAnswer: 'Is',
-      explanation: 'Questions with singular noun use "Is". Is your name John?',
+      type: 'fill-blank',
+      question: 'My car ___ blue.',
+      correctAnswer: 'is',
+      acceptableAnswers: ['is', "'s"],
+      explanation: 'Use "is" with singular possessions. "My car" = it.',
       points: 1
     },
     {
       id: 'a1-m1-l1-g2-q20',
       type: 'fill-blank',
-      question: 'She ___ a teacher. (negative)',
-      correctAnswer: 'isn\'t',
-      acceptableAnswers: ['isn\'t', 'is not', 'isnt'],
-      explanation: 'Negative with "she": She isn\'t a teacher.',
+      question: 'You and Tom ___ friends.',
+      correctAnswer: 'are',
+      acceptableAnswers: ['are', "'re"],
+      explanation: 'Use "are" with "you and Tom" (plural).',
       points: 1
     }
   ]
@@ -531,58 +531,33 @@ London is a beautiful city. It is exciting and interesting. We are lucky to stud
     },
     {
       id: 'a1-m1-l1-r1-q9',
-      type: 'multiple-choice',
-      question: 'How old is Maria?',
-      options: ['20', '21', '22', '23'],
+      type: 'fill-blank',
+      question: 'Maria is ___ years old.',
       correctAnswer: '22',
+      acceptableAnswers: ['22', 'twenty-two', 'twenty two'],
       explanation: 'The text says "I am 22 years old."',
       points: 1
     },
     {
       id: 'a1-m1-l1-r1-q10',
-      type: 'multiple-choice',
-      question: 'What does Maria study?',
-      options: ['Spanish', 'French', 'English', 'Math'],
-      correctAnswer: 'English',
+      type: 'fill-blank',
+      question: 'Maria studies English in ___.',
+      correctAnswer: 'London',
+      acceptableAnswers: ['London', 'london'],
       explanation: 'The text says "I study English in London."',
       points: 1
     },
     {
       id: 'a1-m1-l1-r1-q11',
       type: 'multiple-choice',
-      question: 'Where does Maria study?',
-      options: ['Spain', 'America', 'London', 'England'],
-      correctAnswer: 'London',
-      explanation: 'The text says "I study English in London."',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-r1-q12',
-      type: 'true-false',
-      question: 'Tom is a teacher.',
-      correctAnswer: 'false',
-      explanation: 'The text says "He is a student too."',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-r1-q13',
-      type: 'true-false',
-      question: 'Mrs. Brown is nice and friendly.',
-      correctAnswer: 'true',
+      question: 'What is Mrs. Brown like?',
+      options: ['Nice and friendly', 'Strict and serious', 'Boring', 'Angry'],
+      correctAnswer: 'Nice and friendly',
       explanation: 'The text says "She is very nice and friendly."',
       points: 1
     },
     {
-      id: 'a1-m1-l1-r1-q14',
-      type: 'multiple-choice',
-      question: 'Where is Tom from?',
-      options: ['Spain', 'England', 'America', 'London'],
-      correctAnswer: 'England',
-      explanation: 'The text says "He is from England."',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-r1-q15',
+      id: 'a1-m1-l1-r1-q12',
       type: 'true-false',
       question: 'Maria and Tom are happy in their English class.',
       correctAnswer: 'true',
@@ -590,33 +565,25 @@ London is a beautiful city. It is exciting and interesting. We are lucky to stud
       points: 1
     },
     {
-      id: 'a1-m1-l1-r1-q16',
-      type: 'multiple-choice',
-      question: 'How are the classmates described?',
-      options: ['Unfriendly', 'Friendly and helpful', 'Quiet', 'Boring'],
-      correctAnswer: 'Friendly and helpful',
-      explanation: 'The text says "They are friendly and helpful."',
+      id: 'a1-m1-l1-r1-q13',
+      type: 'fill-blank',
+      question: 'Tom is from ___.',
+      correctAnswer: 'England',
+      acceptableAnswers: ['England', 'england'],
+      explanation: 'The text says "He is from England."',
       points: 1
     },
     {
-      id: 'a1-m1-l1-r1-q17',
-      type: 'true-false',
-      question: 'London is exciting and interesting.',
-      correctAnswer: 'true',
-      explanation: 'The text says "It is exciting and interesting."',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-r1-q18',
+      id: 'a1-m1-l1-r1-q14',
       type: 'multiple-choice',
-      question: 'What does Maria say about the classroom?',
-      options: ['Small and uncomfortable', 'Big and comfortable', 'Old and small', 'New and beautiful'],
+      question: 'What adjectives describe the classroom?',
+      options: ['Small and old', 'Big and comfortable', 'Dark and cold', 'Noisy and crowded'],
       correctAnswer: 'Big and comfortable',
       explanation: 'The text says "The classroom is big and comfortable."',
       points: 1
     },
     {
-      id: 'a1-m1-l1-r1-q19',
+      id: 'a1-m1-l1-r1-q15',
       type: 'true-false',
       question: 'Maria is a teacher.',
       correctAnswer: 'false',
@@ -624,11 +591,47 @@ London is a beautiful city. It is exciting and interesting. We are lucky to stud
       points: 1
     },
     {
-      id: 'a1-m1-l1-r1-q20',
+      id: 'a1-m1-l1-r1-q16',
+      type: 'fill-blank',
+      question: 'The teacher\'s name is Mrs. ___.',
+      correctAnswer: 'Brown',
+      acceptableAnswers: ['Brown', 'brown'],
+      explanation: 'The text says "Our teacher is Mrs. Brown."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q17',
+      type: 'multiple-choice',
+      question: 'How are the classmates described?',
+      options: ['Unfriendly and rude', 'Friendly and helpful', 'Quiet and shy', 'Lazy and tired'],
+      correctAnswer: 'Friendly and helpful',
+      explanation: 'The text says "They are friendly and helpful."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q18',
       type: 'true-false',
-      question: 'Maria and Tom are lucky to study in London.',
-      correctAnswer: 'true',
+      question: 'London is described as boring.',
+      correctAnswer: 'false',
+      explanation: 'The text says London is "exciting and interesting."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q19',
+      type: 'fill-blank',
+      question: 'Maria and Tom are ___ to study in London.',
+      correctAnswer: 'lucky',
+      acceptableAnswers: ['lucky', 'Lucky'],
       explanation: 'The text says "We are lucky to study here!"',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q20',
+      type: 'multiple-choice',
+      question: 'What do Maria and Tom study?',
+      options: ['Spanish', 'French', 'English', 'German'],
+      correctAnswer: 'English',
+      explanation: 'The text says "I study English in London."',
       points: 1
     }
   ],
@@ -694,7 +697,8 @@ export const A1_M1_L1_LISTENING = {
       id: 'a1-m1-l1-list-q5',
       type: 'true-false',
       question: 'John has three children.',
-      correctAnswer: 'false',
+      options: ['True', 'False'],
+      correctAnswer: 'False',
       explanation: 'John says "I have two children."',
       points: 1
     },
@@ -702,120 +706,135 @@ export const A1_M1_L1_LISTENING = {
       id: 'a1-m1-l1-list-q6',
       type: 'true-false',
       question: 'Sarah is 33 years old.',
-      correctAnswer: 'true',
+      options: ['True', 'False'],
+      correctAnswer: 'True',
       explanation: 'John says "She is 33 years old."',
       points: 1
     },
     {
       id: 'a1-m1-l1-list-q7',
-      type: 'true-false',
-      question: 'Statement 7',
-      correctAnswer: 'True',
-      explanation: 'Explanation for question 7',
+      type: 'multiple-choice',
+      question: 'John is a ___.',
+      options: ['teacher', 'doctor', 'student', 'nurse'],
+      correctAnswer: 'teacher',
+      explanation: 'John clearly states his profession: "I am a teacher."',
       points: 1
     },
     {
       id: 'a1-m1-l1-list-q8',
-      type: 'true-false',
-      question: 'Statement 8',
-      correctAnswer: 'True',
-      explanation: 'Explanation for question 8',
+      type: 'multiple-choice',
+      question: 'Where do John and Sarah live?',
+      options: ['Canada', 'USA', 'London', 'Paris'],
+      correctAnswer: 'London',
+      explanation: 'John says "We are happy in our new home in London."',
       points: 1
     },
     {
       id: 'a1-m1-l1-list-q9',
       type: 'true-false',
-      question: 'Statement 9',
-      correctAnswer: 'True',
-      explanation: 'Explanation for question 9',
+      question: 'John is single.',
+      options: ['True', 'False'],
+      correctAnswer: 'False',
+      explanation: 'John says "I am married", so he is not single.',
       points: 1
     },
     {
       id: 'a1-m1-l1-list-q10',
-      type: 'true-false',
-      question: 'Statement 10',
-      correctAnswer: 'True',
-      explanation: 'Explanation for question 10',
+      type: 'multiple-choice',
+      question: 'John has ___ children.',
+      options: ['one', 'two', 'three', 'four'],
+      correctAnswer: 'two',
+      explanation: 'John says "I have two children."',
       points: 1
     },
     {
       id: 'a1-m1-l1-list-q11',
-      type: 'true-false',
-      question: 'Statement 11',
-      correctAnswer: 'True',
-      explanation: 'Explanation for question 11',
+      type: 'multiple-choice',
+      question: 'What is the relationship between John and Sarah?',
+      options: ['They are friends', 'They are colleagues', 'They are married', 'They are neighbors'],
+      correctAnswer: 'They are married',
+      explanation: 'John says "My wife is a doctor", indicating Sarah is his wife.',
       points: 1
     },
     {
       id: 'a1-m1-l1-list-q12',
       type: 'true-false',
-      question: 'Statement 12',
-      correctAnswer: 'True',
-      explanation: 'Explanation for question 12',
+      question: 'Sarah is older than John.',
+      options: ['True', 'False'],
+      correctAnswer: 'False',
+      explanation: 'John is 35 and Sarah is 33, so John is older.',
       points: 1
     },
     {
       id: 'a1-m1-l1-list-q13',
-      type: 'true-false',
-      question: 'Statement 13',
-      correctAnswer: 'True',
-      explanation: 'Explanation for question 13',
+      type: 'multiple-choice',
+      question: "John's wife's name is ___.",
+      options: ['Sarah', 'Maria', 'Emma', 'Laura'],
+      correctAnswer: 'Sarah',
+      explanation: 'John introduces his wife: "Her name is Sarah."',
       points: 1
     },
     {
       id: 'a1-m1-l1-list-q14',
-      type: 'true-false',
-      question: 'Statement 14',
-      correctAnswer: 'True',
-      explanation: 'Explanation for question 14',
+      type: 'multiple-choice',
+      question: 'How do John and Sarah feel about their home?',
+      options: ['They are sad', 'They are angry', 'They are happy', 'They are worried'],
+      correctAnswer: 'They are happy',
+      explanation: 'John says "We are happy in our new home."',
       points: 1
     },
     {
       id: 'a1-m1-l1-list-q15',
       type: 'true-false',
-      question: 'Statement 15',
-      correctAnswer: 'True',
-      explanation: 'Explanation for question 15',
+      question: 'Their home in London is old.',
+      options: ['True', 'False'],
+      correctAnswer: 'False',
+      explanation: 'John says "our new home", not old home.',
       points: 1
     },
     {
       id: 'a1-m1-l1-list-q16',
-      type: 'true-false',
-      question: 'Statement 16',
-      correctAnswer: 'True',
-      explanation: 'Explanation for question 16',
+      type: 'multiple-choice',
+      question: 'What country is John from?',
+      options: ['United Kingdom', 'United States', 'Canada', 'Australia'],
+      correctAnswer: 'Canada',
+      explanation: 'John states "I am from Canada."',
       points: 1
     },
     {
       id: 'a1-m1-l1-list-q17',
-      type: 'true-false',
-      question: 'Statement 17',
-      correctAnswer: 'True',
-      explanation: 'Explanation for question 17',
+      type: 'multiple-choice',
+      question: 'John is ___ years old.',
+      options: ['30', '33', '35', '40'],
+      correctAnswer: '35',
+      explanation: 'John says "I am 35 years old."',
       points: 1
     },
     {
       id: 'a1-m1-l1-list-q18',
       type: 'true-false',
-      question: 'Statement 18',
+      question: 'Sarah works in the medical profession.',
+      options: ['True', 'False'],
       correctAnswer: 'True',
-      explanation: 'Explanation for question 18',
+      explanation: 'Sarah is a doctor, which is a medical profession.',
       points: 1
     },
     {
       id: 'a1-m1-l1-list-q19',
-      type: 'true-false',
-      question: 'Statement 19',
-      correctAnswer: 'True',
-      explanation: 'Explanation for question 19',
+      type: 'multiple-choice',
+      question: 'How many people are in John\'s family?',
+      options: ['Two', 'Three', 'Four', 'Five'],
+      correctAnswer: 'Four',
+      explanation: 'John, Sarah, and their two children make four people.',
       points: 1
     },
     {
       id: 'a1-m1-l1-list-q20',
-      type: 'true-false',
-      question: 'Statement 20',
-      correctAnswer: 'True',
-      explanation: 'Explanation for question 20',
+      type: 'fill-blank',
+      question: 'Sarah is ___ years old.',
+      correctAnswer: '33',
+      acceptableAnswers: ['33', 'thirty-three', 'thirty three'],
+      explanation: 'John says "She is 33 years old" about Sarah.',
       points: 1
     }
   ]
@@ -844,6 +863,168 @@ export const A1_M1_L1_SPEAKING = {
     'You can add: "I am happy to be here"',
     'Try to speak slowly and clearly',
     'Don\'t worry about mistakes - practice makes perfect!'
+  ],
+  questions: [
+    {
+      id: 'a1-m1-l1-speak-q1',
+      type: 'speaking-prompt',
+      question: 'What is your name?',
+      targetResponse: 'My name is...',
+      expectedGrammar: 'Use: My name is [your name] or I am [your name]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q2',
+      type: 'speaking-prompt',
+      question: 'Where are you from?',
+      targetResponse: 'I am from...',
+      expectedGrammar: 'Use: I am from [country/city]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q3',
+      type: 'speaking-prompt',
+      question: 'How old are you?',
+      targetResponse: 'I am ... years old.',
+      expectedGrammar: 'Use: I am [number] years old',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q4',
+      type: 'speaking-prompt',
+      question: 'What is your job? or Are you a student?',
+      targetResponse: 'I am a...',
+      expectedGrammar: 'Use: I am a [profession] or I am a student',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q5',
+      type: 'speaking-prompt',
+      question: 'Are you happy today?',
+      targetResponse: 'Yes, I am happy. / No, I am not happy.',
+      expectedGrammar: 'Use: Yes, I am... / No, I am not...',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q6',
+      type: 'speaking-prompt',
+      question: 'What is your nationality?',
+      targetResponse: 'I am [nationality].',
+      expectedGrammar: 'Use: I am Spanish / I am American / etc.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q7',
+      type: 'speaking-prompt',
+      question: 'Are you married or single?',
+      targetResponse: 'I am married. / I am single.',
+      expectedGrammar: 'Use: I am married or I am single',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q8',
+      type: 'speaking-prompt',
+      question: 'Where is your family from?',
+      targetResponse: 'My family is from...',
+      expectedGrammar: 'Use: My family is from [place] or They are from [place]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q9',
+      type: 'speaking-prompt',
+      question: 'What is your favorite color?',
+      targetResponse: 'My favorite color is...',
+      expectedGrammar: 'Use: My favorite color is [color] or It is [color]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q10',
+      type: 'speaking-prompt',
+      question: 'Are you tired right now?',
+      targetResponse: 'Yes, I am tired. / No, I am not tired.',
+      expectedGrammar: 'Use: Yes, I am... / No, I am not...',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q11',
+      type: 'speaking-prompt',
+      question: 'What is your best friend\'s name?',
+      targetResponse: 'My best friend\'s name is... / He/She is...',
+      expectedGrammar: 'Use: His/Her name is [name] or He/She is [name]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q12',
+      type: 'speaking-prompt',
+      question: 'Are you a teacher or a student?',
+      targetResponse: 'I am a teacher. / I am a student.',
+      expectedGrammar: 'Use: I am a [profession/student]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q13',
+      type: 'speaking-prompt',
+      question: 'What city are you in now?',
+      targetResponse: 'I am in...',
+      expectedGrammar: 'Use: I am in [city name]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q14',
+      type: 'speaking-prompt',
+      question: 'Are you hungry?',
+      targetResponse: 'Yes, I am hungry. / No, I am not hungry.',
+      expectedGrammar: 'Use: Yes, I am... / No, I am not...',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q15',
+      type: 'speaking-prompt',
+      question: 'What is your mother\'s job?',
+      targetResponse: 'My mother is a... / She is a...',
+      expectedGrammar: 'Use: She is a [profession] or My mother is a [profession]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q16',
+      type: 'speaking-prompt',
+      question: 'Are you interested in learning English?',
+      targetResponse: 'Yes, I am interested. / Yes, I am.',
+      expectedGrammar: 'Use: Yes, I am interested or Yes, I am',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q17',
+      type: 'speaking-prompt',
+      question: 'What is the weather like today?',
+      targetResponse: 'It is sunny. / It is rainy. / It is cold.',
+      expectedGrammar: 'Use: It is [weather adjective]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q18',
+      type: 'speaking-prompt',
+      question: 'Are your parents at home now?',
+      targetResponse: 'Yes, they are at home. / No, they are not at home.',
+      expectedGrammar: 'Use: Yes, they are... / No, they are not...',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q19',
+      type: 'speaking-prompt',
+      question: 'What is your favorite food?',
+      targetResponse: 'My favorite food is...',
+      expectedGrammar: 'Use: My favorite food is [food] or It is [food]',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-speak-q20',
+      type: 'speaking-prompt',
+      question: 'Are you ready to finish this exercise?',
+      targetResponse: 'Yes, I am ready. / No, I am not ready.',
+      expectedGrammar: 'Use: Yes, I am ready or No, I am not ready',
+      points: 1
+    }
   ]
 };
 
@@ -995,132 +1176,6 @@ export const A1_M1_L1_PRONUNCIATION = {
       acceptableAnswers: ["They're", "they're", "Theyre", "theyre"],
       explanation: 'The contraction of "they are" is "they\'re".',
       points: 1
-    },
-    {
-      id: 'a1-m1-l1-pronun-q7',
-      type: 'fill-blank',
-      question: 'Question 7',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: 'Explanation for question 7',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-pronun-q8',
-      type: 'fill-blank',
-      question: 'Question 8',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: 'Explanation for question 8',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-pronun-q9',
-      type: 'fill-blank',
-      question: 'Question 9',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: 'Explanation for question 9',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-pronun-q10',
-      type: 'fill-blank',
-      question: 'Question 10',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: 'Explanation for question 10',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-pronun-q11',
-      type: 'fill-blank',
-      question: 'Question 11',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: 'Explanation for question 11',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-pronun-q12',
-      type: 'fill-blank',
-      question: 'Question 12',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: 'Explanation for question 12',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-pronun-q13',
-      type: 'fill-blank',
-      question: 'Question 13',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: 'Explanation for question 13',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-pronun-q14',
-      type: 'fill-blank',
-      question: 'Question 14',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: 'Explanation for question 14',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-pronun-q15',
-      type: 'fill-blank',
-      question: 'Question 15',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: 'Explanation for question 15',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-pronun-q16',
-      type: 'fill-blank',
-      question: 'Question 16',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: 'Explanation for question 16',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-pronun-q17',
-      type: 'fill-blank',
-      question: 'Question 17',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: 'Explanation for question 17',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-pronun-q18',
-      type: 'fill-blank',
-      question: 'Question 18',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: 'Explanation for question 18',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-pronun-q19',
-      type: 'fill-blank',
-      question: 'Question 19',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: 'Explanation for question 19',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l1-pronun-q20',
-      type: 'fill-blank',
-      question: 'Question 20',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: 'Explanation for question 20',
-      points: 1
     }
   ]
 };
@@ -1132,6 +1187,55 @@ export const A1_M1_L1_VOCABULARY_1 = {
   id: 'a1-m1-l1-vocabulary-1',
   type: 'vocabulary',
   title: 'Vocabulary: Personal Information',
+  explanation: `
+**En este ejercicio de vocabulario, aprenderás 20 palabras esenciales para hablar sobre ti mismo y presentarte en inglés. Este vocabulario es fundamental para el nivel A1 y te ayudará a comunicar información personal básica.**
+
+In this vocabulary exercise, you will learn 20 essential words to talk about yourself and introduce yourself in English. This vocabulary is fundamental for level A1 and will help you communicate basic personal information.
+
+**Lo que aprenderás / What You Will Learn:**
+
+**👤 Información Personal Básica / Basic Personal Information**
+Aprende a hablar sobre tu nombre, edad, país y nacionalidad - la información más básica al conocer a alguien nuevo.
+Learn to talk about your name, age, country, and nationality - the most basic information when meeting someone new.
+
+**💼 Ocupaciones y Profesiones / Occupations and Professions**
+Descubre palabras para describir diferentes trabajos: estudiante, profesor, doctor, enfermera - vocabulario esencial para decir a qué te dedicas.
+Discover words to describe different jobs: student, teacher, doctor, nurse - essential vocabulary to say what you do.
+
+**👨‍👩‍👧‍👦 Familia y Estado Civil / Family and Marital Status**
+Comprende cómo hablar sobre tu familia y estado civil (casado/soltero) - importante para describir tu vida personal.
+Understand how to talk about your family and marital status (married/single) - important for describing your personal life.
+
+**🏠 Lugares / Places**
+Aprende palabras relacionadas con dónde vives: hogar, ciudad, país - útil para hablar sobre ubicaciones.
+Learn words related to where you live: home, city, country - useful for talking about locations.
+
+**📱 Información de Contacto / Contact Information**
+Domina cómo dar tus datos de contacto: dirección, número de teléfono, correo electrónico - vocabulario práctico para situaciones cotidianas.
+Master how to give your contact details: address, phone number, email - practical vocabulary for everyday situations.
+
+**😊 Sentimientos y Cualidades / Feelings and Qualities**
+Expresa cómo te sientes: feliz, amigable - adjetivos básicos para describirse a uno mismo y a otros.
+Express how you feel: happy, friendly - basic adjectives to describe yourself and others.
+
+**🗣️ Idioma / Language**
+Habla sobre los idiomas que hablas - importante para la comunicación.
+Talk about the languages you speak - important for communication.
+
+**Por qué este vocabulario es importante / Why This Vocabulary Is Important:**
+
+✅ **Primeras Impresiones / First Impressions**: Este vocabulario te ayuda a presentarte con confianza / This vocabulary helps you introduce yourself confidently
+
+✅ **Situaciones de la Vida Real / Real-Life Situations**: Usa estas palabras en conversaciones diarias, formularios y presentaciones / Use these words in daily conversations, forms, and introductions
+
+✅ **Base para A1 / Foundation for A1**: Estos son los bloques fundamentales para la comunicación básica en inglés / These are the building blocks for basic English communication
+
+✅ **Aplicación Práctica / Practical Application**: Usarás estas palabras cada vez que conozcas a alguien nuevo / You'll use these words every time you meet someone new
+
+**Consejo de Práctica / Practice Tip:** 
+¡Después de aprender cada palabra, intenta usarla en una oración sobre ti mismo!
+After learning each word, try to use it in a sentence about yourself!
+  `,
   vocabularySet: [
     { word: 'name', definition: 'what you are called', example: 'My name is Maria.' },
     { word: 'age', definition: 'how old you are', example: 'I am 25 years old.' },
@@ -1140,7 +1244,19 @@ export const A1_M1_L1_VOCABULARY_1 = {
     { word: 'student', definition: 'a person who studies', example: 'She is a student.' },
     { word: 'teacher', definition: 'a person who teaches', example: 'He is a teacher.' },
     { word: 'happy', definition: 'feeling pleased', example: 'I am happy today.' },
-    { word: 'friendly', definition: 'kind and nice to others', example: 'They are friendly.' }
+    { word: 'friendly', definition: 'kind and nice to others', example: 'They are friendly.' },
+    { word: 'doctor', definition: 'a person who helps sick people', example: 'She is a doctor.' },
+    { word: 'nurse', definition: 'a person who helps doctors care for patients', example: 'He is a nurse.' },
+    { word: 'married', definition: 'having a husband or wife', example: 'I am married.' },
+    { word: 'single', definition: 'not married', example: 'She is single.' },
+    { word: 'family', definition: 'parents, children, and relatives', example: 'My family is from Italy.' },
+    { word: 'city', definition: 'a large town', example: 'London is a big city.' },
+    { word: 'home', definition: 'the place where you live', example: 'We are at home.' },
+    { word: 'nationality', definition: 'the country you belong to', example: 'My nationality is American.' },
+    { word: 'address', definition: 'where you live', example: 'What is your address?' },
+    { word: 'phone number', definition: 'numbers to call you', example: 'My phone number is 555-1234.' },
+    { word: 'email', definition: 'electronic mail address', example: 'What is your email?' },
+    { word: 'language', definition: 'words people speak', example: 'English is a language.' }
   ],
   questions: [
     {
@@ -1198,127 +1314,127 @@ export const A1_M1_L1_VOCABULARY_1 = {
     {
       id: 'a1-m1-l1-v1-q7',
       type: 'multiple-choice',
-      question: 'Which is a pronoun?',
-      options: ['book', 'she', 'happy', 'work'],
-      correctAnswer: 'she',
-      explanation: '"She" is a subject pronoun.',
+      question: 'What is a "doctor"?',
+      options: ['A person who helps sick people', 'A person who teaches', 'A person who cooks', 'A person who drives'],
+      correctAnswer: 'A person who helps sick people',
+      explanation: 'A doctor is a medical professional who helps sick people get better.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v1-q8',
-      type: 'fill-blank',
-      question: '___ am a student. (first person pronoun)',
-      correctAnswer: 'I',
-      acceptableAnswers: ['I'],
-      explanation: '"I" is the first person singular subject pronoun.',
+      type: 'multiple-choice',
+      question: 'What does "married" mean?',
+      options: ['Having a husband or wife', 'Being alone', 'Being a student', 'Being young'],
+      correctAnswer: 'Having a husband or wife',
+      explanation: 'Married means you have a husband or wife. Example: I am married to John.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v1-q9',
-      type: 'multiple-choice',
-      question: 'What is the plural of "I"?',
-      options: ['You', 'We', 'They', 'Us'],
-      correctAnswer: 'We',
-      explanation: '"We" is the plural of "I".',
+      type: 'fill-blank',
+      question: 'London is a big ___. (a large town)',
+      correctAnswer: 'city',
+      acceptableAnswers: ['city', 'City'],
+      explanation: 'A city is a large town. Example: New York is a big city.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v1-q10',
-      type: 'fill-blank',
-      question: '___ is my friend. (pronoun for male)',
-      correctAnswer: 'He',
-      acceptableAnswers: ['He', 'he'],
-      explanation: '"He" is the male subject pronoun.',
+      type: 'multiple-choice',
+      question: 'What is "home"?',
+      options: ['The place where you live', 'A kind of food', 'A type of job', 'A feeling'],
+      correctAnswer: 'The place where you live',
+      explanation: 'Home is the place where you live. Example: I am at home.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v1-q11',
-      type: 'multiple-choice',
-      question: 'Which pronoun refers to things?',
-      options: ['He', 'She', 'It', 'They'],
-      correctAnswer: 'It',
-      explanation: '"It" is used for things and animals.',
+      type: 'fill-blank',
+      question: 'My parents and children are my ___.',
+      correctAnswer: 'family',
+      acceptableAnswers: ['family', 'Family'],
+      explanation: 'Family includes your parents, children, and relatives.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v1-q12',
-      type: 'fill-blank',
-      question: '___ are students. (plural pronoun)',
-      correctAnswer: 'They',
-      acceptableAnswers: ['They', 'they'],
-      explanation: '"They" is the third person plural pronoun.',
+      type: 'multiple-choice',
+      question: 'If someone is not married, they are ___.',
+      options: ['single', 'happy', 'old', 'tired'],
+      correctAnswer: 'single',
+      explanation: 'Single means not married. Example: She is single.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v1-q13',
       type: 'multiple-choice',
-      question: 'Which pronoun do we use for a girl?',
-      options: ['He', 'She', 'It', 'They'],
-      correctAnswer: 'She',
-      explanation: '"She" is used for females.',
+      question: 'What is a "nurse"?',
+      options: ['A person who helps doctors', 'A type of building', 'A kind of food', 'A place to study'],
+      correctAnswer: 'A person who helps doctors',
+      explanation: 'A nurse is a person who helps doctors care for patients in hospitals.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v1-q14',
       type: 'fill-blank',
-      question: '___ are happy. (pronoun for speaker + others)',
-      correctAnswer: 'We',
-      acceptableAnswers: ['We', 'we'],
-      explanation: '"We" includes the speaker and other people.',
+      question: 'I am American. My ___ is American.',
+      correctAnswer: 'nationality',
+      acceptableAnswers: ['nationality', 'Nationality'],
+      explanation: 'Nationality is the country you belong to. Example: My nationality is Spanish.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v1-q15',
       type: 'multiple-choice',
-      question: 'Which is correct: "He are" or "He is"?',
-      options: ['He are', 'He is', 'Both', 'Neither'],
-      correctAnswer: 'He is',
-      explanation: '"He is" is correct. "He" takes "is".',
+      question: 'What is "language"?',
+      options: ['Words people speak', 'A type of food', 'A place', 'A feeling'],
+      correctAnswer: 'Words people speak',
+      explanation: 'Language is the words people speak. Example: English, Spanish, French are languages.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v1-q16',
       type: 'fill-blank',
-      question: '___ is a book. (pronoun for thing)',
-      correctAnswer: 'It',
-      acceptableAnswers: ['It', 'it'],
-      explanation: '"It" is used for things.',
+      question: 'What is your ___? Where do you live?',
+      correctAnswer: 'address',
+      acceptableAnswers: ['address', 'Address'],
+      explanation: 'Address is where you live. Example: My address is 123 Main Street.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v1-q17',
       type: 'multiple-choice',
-      question: 'Can we use "you" for one person or many people?',
-      options: ['Only one person', 'Only many people', 'Both', 'Neither'],
-      correctAnswer: 'Both',
-      explanation: '"You" can be singular or plural.',
+      question: 'What is "email"?',
+      options: ['Electronic mail address', 'A phone number', 'A building', 'A person'],
+      correctAnswer: 'Electronic mail address',
+      explanation: 'Email is electronic mail. Example: My email is john@example.com',
       points: 1
     },
     {
       id: 'a1-m1-l1-v1-q18',
       type: 'fill-blank',
-      question: '___ am from Spain. (which pronoun?)',
-      correctAnswer: 'I',
-      acceptableAnswers: ['I'],
-      explanation: 'Only "I" takes "am".',
+      question: 'What is your ___ ___? I can call you. (numbers to call)',
+      correctAnswer: 'phone number',
+      acceptableAnswers: ['phone number', 'Phone number', 'telephone number', 'number'],
+      explanation: 'A phone number is numbers to call you. Example: My phone number is 555-1234.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v1-q19',
       type: 'multiple-choice',
-      question: 'Which pronoun for "my brother"?',
-      options: ['I', 'He', 'She', 'We'],
-      correctAnswer: 'He',
-      explanation: '"My brother" is male, so we use "he".',
+      question: 'I am a ___ because I work in a hospital and help sick people.',
+      options: ['doctor or nurse', 'teacher', 'student', 'cook'],
+      correctAnswer: 'doctor or nurse',
+      explanation: 'Doctors and nurses work in hospitals and help sick people.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v1-q20',
-      type: 'fill-blank',
-      question: 'My sisters ___ doctors. Use the pronoun: ___',
-      correctAnswer: 'They',
-      acceptableAnswers: ['They', 'they'],
-      explanation: '"My sisters" = "they" (plural).',
+      type: 'multiple-choice',
+      question: 'What do you need to give someone information about yourself?',
+      options: ['name, age, and country', 'only your name', 'only your job', 'nothing'],
+      correctAnswer: 'name, age, and country',
+      explanation: 'Personal information includes name, age, country, job, etc.',
       points: 1
     }
   ]
@@ -1331,6 +1447,48 @@ export const A1_M1_L1_VOCABULARY_2 = {
   id: 'a1-m1-l1-vocabulary-2',
   type: 'vocabulary',
   title: 'Vocabulary: Feelings and Emotions',
+  explanation: `
+In this vocabulary exercise, you will learn **20 essential words** to express how you feel and describe your emotional state in English. Learning to talk about feelings and emotions is crucial for effective communication at the A1 level.
+
+## What You Will Learn:
+
+### 😊 **Positive Feelings**
+Express happiness and positive emotions: **happy, excited, glad, pleased, proud** - words to share good moments and achievements.
+
+### 😔 **Negative Feelings**
+Communicate sadness and difficult emotions: **sad, unhappy, disappointed, upset** - important for expressing when things aren't going well.
+
+### 😠 **Strong Emotions**
+Talk about intense feelings: **angry, frustrated, annoyed** - useful for expressing displeasure appropriately.
+
+### 😮 **Reactions and Surprises**
+Express unexpected reactions: **surprised, shocked, amazed** - for when something unexpected happens.
+
+### 😴 **Physical States**
+Describe how your body feels: **tired, sleepy, exhausted, hungry, thirsty, sick, ill** - essential for daily needs and health.
+
+### 🎯 **States of Being**
+Express your current condition: **busy, ready, free, bored, interested, worried, nervous, scared** - for various everyday situations.
+
+## Why This Vocabulary Is Important:
+
+✅ **Express Yourself**: Communicate how you feel clearly in any situation
+✅ **Connect with Others**: Understanding emotions helps build relationships
+✅ **Daily Conversations**: These words are used constantly in everyday English
+✅ **Get Help**: Knowing how to express feelings helps you ask for support when needed
+✅ **Cultural Communication**: Understanding emotions is key to natural conversation
+
+## Common Patterns with "to be":
+
+When expressing feelings in English, we use the verb "to be":
+- **I am** tired / happy / sad
+- **You are** busy / ready / excited
+- **He/She is** hungry / angry / surprised
+- **We are** interested / worried / pleased
+- **They are** bored / scared / sick
+
+**Practice Tip:** Pay attention to how you feel throughout the day and try to name those feelings in English!
+  `,
   vocabularySet: [
     { word: 'tired', definition: 'needing rest', example: 'I am tired after work.' },
     { word: 'excited', definition: 'very happy about something', example: 'We are excited about the trip!' },
@@ -1339,7 +1497,19 @@ export const A1_M1_L1_VOCABULARY_2 = {
     { word: 'surprised', definition: 'feeling unexpected', example: 'I am surprised by the gift!' },
     { word: 'hungry', definition: 'needing food', example: 'They are hungry for lunch.' },
     { word: 'busy', definition: 'having a lot to do', example: 'We are busy with homework.' },
-    { word: 'ready', definition: 'prepared', example: 'I am ready for the test.' }
+    { word: 'ready', definition: 'prepared', example: 'I am ready for the test.' },
+    { word: 'happy', definition: 'feeling joy and pleasure', example: 'I am happy with my results.' },
+    { word: 'bored', definition: 'not interested, feeling dull', example: 'She is bored in class.' },
+    { word: 'worried', definition: 'feeling anxious', example: 'He is worried about the exam.' },
+    { word: 'scared', definition: 'feeling fear', example: 'I am scared of spiders.' },
+    { word: 'nervous', definition: 'feeling anxious about something', example: 'They are nervous before the interview.' },
+    { word: 'sick', definition: 'not feeling well, ill', example: 'She is sick today.' },
+    { word: 'thirsty', definition: 'needing water or a drink', example: 'I am thirsty after running.' },
+    { word: 'sleepy', definition: 'feeling like you want to sleep', example: 'He is sleepy in the morning.' },
+    { word: 'upset', definition: 'unhappy or disappointed', example: 'She is upset about the result.' },
+    { word: 'proud', definition: 'feeling satisfaction about achievement', example: 'I am proud of my work.' },
+    { word: 'interested', definition: 'wanting to know more', example: 'They are interested in English.' },
+    { word: 'disappointed', definition: 'sad because something is not as expected', example: 'He is disappointed with the weather.' }
   ],
   questions: [
     {
@@ -1391,6 +1561,7 @@ export const A1_M1_L1_VOCABULARY_2 = {
       id: 'a1-m1-l1-v2-q6',
       type: 'true-false',
       question: 'If you are "surprised", something unexpected happened.',
+      options: ['True', 'False'],
       correctAnswer: 'True',
       explanation: 'True. Surprised means something happened that you did not expect.',
       points: 1
@@ -1398,860 +1569,133 @@ export const A1_M1_L1_VOCABULARY_2 = {
     {
       id: 'a1-m1-l1-v2-q7',
       type: 'multiple-choice',
-      question: 'What is the negative form of "I am"?',
-      options: ["I amn't", "I'm not", "I not", "I aren't"],
-      correctAnswer: "I'm not",
-      explanation: "The negative is I'm not or I am not.",
+      question: 'What does "happy" mean?',
+      options: ['Feeling sad', 'Feeling joy and pleasure', 'Feeling angry', 'Feeling tired'],
+      correctAnswer: 'Feeling joy and pleasure',
+      explanation: 'Happy means feeling joy, pleasure, and contentment.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v2-q8',
       type: 'fill-blank',
-      question: 'Short form of "she is": ___',
-      correctAnswer: "she's",
-      acceptableAnswers: ["she's", "shes"],
-      explanation: "She is = She's",
+      question: 'The movie is not interesting. I am ___.',
+      correctAnswer: 'bored',
+      acceptableAnswers: ['bored', 'Bored'],
+      explanation: 'When something is not interesting, you feel bored.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v2-q9',
       type: 'multiple-choice',
-      question: 'What is the negative of "they are"?',
-      options: ["they amn't", "they isn't", "they aren't", "they not"],
-      correctAnswer: "they aren't",
-      explanation: "The negative is they aren't or they are not.",
+      question: 'If you are "worried", you feel...',
+      options: ['Happy', 'Anxious', 'Excited', 'Hungry'],
+      correctAnswer: 'Anxious',
+      explanation: 'Worried means feeling anxious or concerned about something.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v2-q10',
       type: 'fill-blank',
-      question: 'Long form of "we\'re": ___',
-      correctAnswer: 'we are',
-      acceptableAnswers: ['we are', 'We are'],
-      explanation: "We're = we are",
+      question: 'It is dark and I hear strange noises. I am ___.',
+      correctAnswer: 'scared',
+      acceptableAnswers: ['scared', 'Scared', 'nervous', 'Nervous', 'afraid', 'Afraid'],
+      explanation: 'When you feel fear, you are scared, nervous, or afraid.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v2-q11',
       type: 'multiple-choice',
-      question: 'What is the short form of "it is"?',
-      options: ["its", "it's", "its'", "it is"],
-      correctAnswer: "it's",
-      explanation: "It is = It's (with apostrophe)",
+      question: 'What does "nervous" mean?',
+      options: ['Feeling calm', 'Feeling anxious about something', 'Feeling sleepy', 'Feeling angry'],
+      correctAnswer: 'Feeling anxious about something',
+      explanation: 'Nervous means feeling anxious, especially before an important event.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v2-q12',
       type: 'fill-blank',
-      question: 'Negative of "he is": ___',
-      correctAnswer: "he isn't",
-      acceptableAnswers: ["he isn't", 'he is not', 'he isnt'],
-      explanation: "He is not = He isn't",
+      question: 'I have a cold and a fever. I am ___.',
+      correctAnswer: 'sick',
+      acceptableAnswers: ['sick', 'Sick', 'ill', 'Ill'],
+      explanation: 'When you are not feeling well or have an illness, you are sick or ill.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v2-q13',
       type: 'multiple-choice',
-      question: 'Long form of "I\'m"?',
-      options: ['I are', 'I is', 'I am', 'I be'],
-      correctAnswer: 'I am',
-      explanation: "I'm = I am",
+      question: 'If you are "thirsty", you need...',
+      options: ['Food', 'Sleep', 'Water or a drink', 'Exercise'],
+      correctAnswer: 'Water or a drink',
+      explanation: 'Thirsty means you need water or something to drink.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v2-q14',
       type: 'fill-blank',
-      question: 'Short form of "you are not": ___',
-      correctAnswer: "you aren't",
-      acceptableAnswers: ["you aren't", "you're not", 'you arent'],
-      explanation: "You are not = You aren't or You're not",
+      question: 'It is late at night. I am very ___.',
+      correctAnswer: 'sleepy',
+      acceptableAnswers: ['sleepy', 'Sleepy', 'tired', 'Tired'],
+      explanation: 'When you want to sleep, especially at night, you feel sleepy or tired.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v2-q15',
       type: 'multiple-choice',
-      question: 'What is the short form of "she is not"?',
-      options: ["she amn't", "she isn't", "she aren't", "she not"],
-      correctAnswer: "she isn't",
-      explanation: "She is not = She isn't",
+      question: 'What does "upset" mean?',
+      options: ['Very happy', 'Unhappy or disappointed', 'Very excited', 'Very busy'],
+      correctAnswer: 'Unhappy or disappointed',
+      explanation: 'Upset means feeling unhappy, disappointed, or disturbed about something.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v2-q16',
       type: 'fill-blank',
-      question: 'Long form of "they\'re not": ___',
-      correctAnswer: 'they are not',
-      acceptableAnswers: ['they are not', 'They are not'],
-      explanation: "They're not = They are not",
+      question: 'I passed my exam! I am ___ of my work.',
+      correctAnswer: 'proud',
+      acceptableAnswers: ['proud', 'Proud', 'happy', 'Happy'],
+      explanation: 'When you feel satisfaction about an achievement, you are proud or happy.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v2-q17',
       type: 'multiple-choice',
-      question: 'What is "we are" in short form?',
-      options: ["wa're", "we're", "wer", "w'are"],
-      correctAnswer: "we're",
-      explanation: "We are = We're",
+      question: 'If you are "interested" in something, you...',
+      options: ['Want to sleep', 'Want to know more', 'Want to eat', 'Want to leave'],
+      correctAnswer: 'Want to know more',
+      explanation: 'Interested means you want to know more about something or pay attention to it.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v2-q18',
       type: 'fill-blank',
-      question: 'Negative long form of "it is": ___',
-      correctAnswer: 'it is not',
-      acceptableAnswers: ['it is not', 'It is not'],
-      explanation: "The negative is: it is not (or it isn't)",
+      question: 'The weather is bad. I am ___ about the trip.',
+      correctAnswer: 'disappointed',
+      acceptableAnswers: ['disappointed', 'Disappointed', 'sad', 'Sad', 'upset', 'Upset'],
+      explanation: 'When something is not as good as expected, you feel disappointed, sad, or upset.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v2-q19',
       type: 'multiple-choice',
-      question: 'Short form of "I am not"?',
-      options: ["I amn't", "I'm not", "I not", "I aren't"],
-      correctAnswer: "I'm not",
-      explanation: "I am not = I'm not",
+      question: 'Which verb do we use with feelings in English?',
+      options: ['to have', 'to be', 'to do', 'to make'],
+      correctAnswer: 'to be',
+      explanation: 'We use "to be" with feelings: I am happy, She is tired, They are excited.',
       points: 1
     },
     {
       id: 'a1-m1-l1-v2-q20',
-      type: 'fill-blank',
-      question: 'Short form of "they are": ___',
-      correctAnswer: "they're",
-      acceptableAnswers: ["they're", 'theyre'],
-      explanation: "They are = They're",
+      type: 'multiple-choice',
+      question: 'Complete: "I ___ sad because it is raining."',
+      options: ['am', 'have', 'do', 'make'],
+      correctAnswer: 'am',
+      explanation: 'We use "am" (verb to be) with feelings: I am sad, I am happy, I am tired.',
       points: 1
     }
   ]
 };
 
 // Export all exercises for Module 1, Lesson 1
-
-
-// ============================================
-// SENTENCE COMPLETION EXERCISE
-// ============================================
-export const A1_M1_L1_SENTENCE_COMPLETION = {
-  id: 'a1-m1-l1-sentence-completion',
-  type: 'sentence-completion',
-  title: 'Complete the Sentences',
-  instructions: 'Complete each sentence with the correct form of "to be" (am, is, are).',
-  sentences: [
-    {
-      id: 'sc1',
-      prompt: 'My name ___ Maria.',
-      correctCompletion: 'is',
-      options: ['am', 'is', 'are'],
-      explanation: 'We use "is" with third person singular (he, she, it, my name).',
-      points: 1
-    },
-    {
-      id: 'sc2',
-      prompt: 'I ___ from London.',
-      correctCompletion: 'am',
-      options: ['am', 'is', 'are'],
-      explanation: 'We always use "am" with "I".',
-      points: 1
-    },
-    {
-      id: 'sc3',
-      prompt: 'You ___ a good student.',
-      correctCompletion: 'are',
-      options: ['am', 'is', 'are'],
-      explanation: 'We use "are" with "you".',
-      points: 1
-    },
-    {
-      id: 'sc4',
-      prompt: 'They ___ my friends.',
-      correctCompletion: 'are',
-      options: ['am', 'is', 'are'],
-      explanation: 'We use "are" with "they".',
-      points: 1
-    },
-    {
-      id: 'sc5',
-      prompt: 'She ___ happy today.',
-      correctCompletion: 'is',
-      options: ['am', 'is', 'are'],
-      explanation: 'We use "is" with "she".',
-      points: 1
-    },
-    {
-      id: 'sc6',
-      prompt: 'We ___ in the classroom.',
-      correctCompletion: 'are',
-      options: ['am', 'is', 'are'],
-      explanation: 'We use "are" with "we".',
-      points: 1
-    },
-    {
-      id: 'sc7',
-      prompt: 'My friends ___ very kind.',
-      correctCompletion: 'are',
-      options: ['am', 'is', 'are'],
-      explanation: '"My friends" (they) takes "are".',
-      points: 1
-    },
-    {
-      id: 'sc8',
-      prompt: 'The weather ___ nice today.',
-      correctCompletion: 'is',
-      options: ['am', 'is', 'are'],
-      explanation: '"The weather" (it) takes "is".',
-      points: 1
-    },
-    {
-      id: 'sc9',
-      prompt: 'I ___ not tired.',
-      correctCompletion: 'am',
-      options: ['am', 'is', 'are'],
-      explanation: '"I" always takes "am". I am not tired.',
-      points: 1
-    },
-    {
-      id: 'sc10',
-      prompt: 'The cats ___ in the garden.',
-      correctCompletion: 'are',
-      options: ['am', 'is', 'are'],
-      explanation: '"The cats" (they) takes "are".',
-      points: 1
-    },
-    {
-      id: 'sc11',
-      prompt: 'My mother ___ a nurse.',
-      correctCompletion: 'is',
-      options: ['am', 'is', 'are'],
-      explanation: '"My mother" (she) takes "is".',
-      points: 1
-    },
-    {
-      id: 'sc12',
-      prompt: 'You ___ welcome.',
-      correctCompletion: 'are',
-      options: ['am', 'is', 'are'],
-      explanation: '"You" takes "are". You are welcome.',
-      points: 1
-    },
-    {
-      id: 'sc13',
-      prompt: 'It ___ cold outside.',
-      correctCompletion: 'is',
-      options: ['am', 'is', 'are'],
-      explanation: '"It" takes "is". It is cold outside.',
-      points: 1
-    },
-    {
-      id: 'sc14',
-      prompt: 'We ___ ready.',
-      correctCompletion: 'are',
-      options: ['am', 'is', 'are'],
-      explanation: '"We" takes "are". We are ready.',
-      points: 1
-    },
-    {
-      id: 'sc15',
-      prompt: 'The door ___ open.',
-      correctCompletion: 'is',
-      options: ['am', 'is', 'are'],
-      explanation: '"The door" (it) takes "is".',
-      points: 1
-    },
-    {
-      id: 'sc16',
-      prompt: 'My brothers ___ tall.',
-      correctCompletion: 'are',
-      options: ['am', 'is', 'are'],
-      explanation: '"My brothers" (they) takes "are".',
-      points: 1
-    },
-    {
-      id: 'sc17',
-      prompt: 'The car ___ new.',
-      correctCompletion: 'is',
-      options: ['am', 'is', 'are'],
-      explanation: '"The car" (it) takes "is".',
-      points: 1
-    },
-    {
-      id: 'sc18',
-      prompt: 'I ___ hungry.',
-      correctCompletion: 'am',
-      options: ['am', 'is', 'are'],
-      explanation: '"I" takes "am". I am hungry.',
-      points: 1
-    },
-    {
-      id: 'sc19',
-      prompt: 'They ___ at school.',
-      correctCompletion: 'are',
-      options: ['am', 'is', 'are'],
-      explanation: '"They" takes "are". They are at school.',
-      points: 1
-    },
-    {
-      id: 'sc20',
-      prompt: 'The book ___ interesting.',
-      correctCompletion: 'is',
-      options: ['am', 'is', 'are'],
-      explanation: '"The book" (it) takes "is".',
-      points: 1
-    }
-  ]
-};
-
-// ============================================
-// ERROR IDENTIFICATION EXERCISE
-// ============================================
-export const A1_M1_L1_ERROR_IDENTIFICATION = {
-  id: 'a1-m1-l1-error-identification',
-  type: 'error-identification',
-  title: 'Find the Errors',
-  instructions: 'Read each sentence. If there is an error with the verb "to be", identify and correct it. If the sentence is correct, select "No error".',
-  sentences: [
-    {
-      id: 'ei1',
-      sentence: 'I is a teacher.',
-      hasError: true,
-      errorWord: 'is',
-      correction: 'am',
-      explanation: 'Incorrect! We use "am" with "I", not "is". Correct: I am a teacher.',
-      points: 1
-    },
-    {
-      id: 'ei2',
-      sentence: 'She are from Spain.',
-      hasError: true,
-      errorWord: 'are',
-      correction: 'is',
-      explanation: 'Incorrect! We use "is" with "she", not "are". Correct: She is from Spain.',
-      points: 1
-    },
-    {
-      id: 'ei3',
-      sentence: 'They are students.',
-      hasError: false,
-      explanation: 'Correct! This sentence has no errors.',
-      points: 1
-    },
-    {
-      id: 'ei4',
-      sentence: 'He am happy.',
-      hasError: true,
-      errorWord: 'am',
-      correction: 'is',
-      explanation: 'Incorrect! We use "is" with "he", not "am". Correct: He is happy.',
-      points: 1
-    },
-    {
-      id: 'ei5',
-      sentence: 'We is tired.',
-      hasError: true,
-      errorWord: 'is',
-      correction: 'are',
-      explanation: 'Incorrect! We use "are" with "we", not "is". Correct: We are tired.',
-      points: 1
-    },
-    {
-      id: 'ei6',
-      sentence: 'You are my friend.',
-      hasError: false,
-      explanation: 'Correct! This sentence has no errors.',
-      points: 1
-    },
-    {
-      id: 'ei7',
-      sentence: 'She are happy.',
-      hasError: true,
-      errorWord: 'are',
-      correction: 'is',
-      explanation: 'Use "is" with "she". Correct: She is happy.',
-      points: 1
-    },
-    {
-      id: 'ei8',
-      sentence: 'I is a student.',
-      hasError: true,
-      errorWord: 'is',
-      correction: 'am',
-      explanation: 'Use "am" with "I". Correct: I am a student.',
-      points: 1
-    },
-    {
-      id: 'ei9',
-      sentence: 'We is tired.',
-      hasError: true,
-      errorWord: 'is',
-      correction: 'are',
-      explanation: 'Use "are" with "we". Correct: We are tired.',
-      points: 1
-    },
-    {
-      id: 'ei10',
-      sentence: 'The book is on the table.',
-      hasError: false,
-      explanation: 'Correct! No errors.',
-      points: 1
-    },
-    {
-      id: 'ei11',
-      sentence: 'My friends is nice.',
-      hasError: true,
-      errorWord: 'is',
-      correction: 'are',
-      explanation: 'Use "are" with plural. Correct: My friends are nice.',
-      points: 1
-    },
-    {
-      id: 'ei12',
-      sentence: 'You is welcome.',
-      hasError: true,
-      errorWord: 'is',
-      correction: 'are',
-      explanation: 'Use "are" with "you". Correct: You are welcome.',
-      points: 1
-    },
-    {
-      id: 'ei13',
-      sentence: 'It are cold today.',
-      hasError: true,
-      errorWord: 'are',
-      correction: 'is',
-      explanation: 'Use "is" with "it". Correct: It is cold today.',
-      points: 1
-    },
-    {
-      id: 'ei14',
-      sentence: 'I am from Spain.',
-      hasError: false,
-      explanation: 'Correct! No errors.',
-      points: 1
-    },
-    {
-      id: 'ei15',
-      sentence: 'They is students.',
-      hasError: true,
-      errorWord: 'is',
-      correction: 'are',
-      explanation: 'Use "are" with "they". Correct: They are students.',
-      points: 1
-    },
-    {
-      id: 'ei16',
-      sentence: 'My mother are a doctor.',
-      hasError: true,
-      errorWord: 'are',
-      correction: 'is',
-      explanation: 'Use "is" with singular. Correct: My mother is a doctor.',
-      points: 1
-    },
-    {
-      id: 'ei17',
-      sentence: 'We are happy today.',
-      hasError: false,
-      explanation: 'Correct! No errors.',
-      points: 1
-    },
-    {
-      id: 'ei18',
-      sentence: 'The cars is new.',
-      hasError: true,
-      errorWord: 'is',
-      correction: 'are',
-      explanation: 'Use "are" with plural. Correct: The cars are new.',
-      points: 1
-    },
-    {
-      id: 'ei19',
-      sentence: 'She am my sister.',
-      hasError: true,
-      errorWord: 'am',
-      correction: 'is',
-      explanation: 'Use "is" with "she". Correct: She is my sister.',
-      points: 1
-    },
-    {
-      id: 'ei20',
-      sentence: 'You and I am friends.',
-      hasError: true,
-      errorWord: 'am',
-      correction: 'are',
-      explanation: 'Use "are" with "you and I" (we). Correct: You and I are friends.',
-      points: 1
-    }
-  ]
-};
-
-// ============================================
-// GAP FILL TEXT EXERCISE
-// ============================================
-export const A1_M1_L1_GAP_FILL = {
-  id: 'a1-m1-l1-gap-fill',
-  type: 'gap-fill-text',
-  title: 'Complete the Text',
-  instructions: 'Read the text and fill in the gaps with the correct form of "to be" (am, is, are).',
-  text: `Hello! My name {{1}} John and I {{2}} from New York. I {{3}} 25 years old. I {{4}} a teacher. 
-
-My sister {{5}} Sarah. She {{6}} 22 years old and she {{7}} a student. We {{8}} very close. Our parents {{9}} doctors. They {{10}} very busy, but they {{11}} happy.
-
-My best friend {{12}} Tom. He {{13}} from London. We {{14}} friends since university. Tom and I {{15}} both teachers now.
-
-My family {{16}} very important to me. I {{17}} lucky to have them. They {{18}} always there for me. My life {{19}} good. I {{20}} grateful for everything.`,
-  gaps: [
-    {
-      id: 'gap1',
-      gapNumber: 1,
-      correctAnswer: 'is',
-      options: ['is', 'am', 'are'],
-      acceptableAlternatives: ["'s"],
-      explanation: '"My name" takes "is" (third person singular).',
-      points: 1
-    },
-    {
-      id: 'gap2',
-      gapNumber: 2,
-      correctAnswer: 'am',
-      options: ['am', 'is', 'are'],
-      acceptableAlternatives: ["'m"],
-      explanation: '"I" always takes "am".',
-      points: 1
-    },
-    {
-      id: 'gap3',
-      gapNumber: 3,
-      correctAnswer: 'am',
-      options: ['am', 'is', 'are'],
-      acceptableAlternatives: ["'m"],
-      explanation: '"I" always takes "am".',
-      points: 1
-    },
-    {
-      id: 'gap4',
-      gapNumber: 4,
-      correctAnswer: 'am',
-      options: ['am', 'is', 'are'],
-      acceptableAlternatives: ["'m"],
-      explanation: '"I" always takes "am".',
-      points: 1
-    },
-    {
-      id: 'gap5',
-      gapNumber: 5,
-      correctAnswer: 'is',
-      options: ['is', 'am', 'are'],
-      acceptableAlternatives: ["'s"],
-      explanation: '"My sister" (she) takes "is".',
-      points: 1
-    },
-    {
-      id: 'gap6',
-      gapNumber: 6,
-      correctAnswer: 'is',
-      options: ['is', 'am', 'are'],
-      acceptableAlternatives: ["'s"],
-      explanation: '"She" takes "is".',
-      points: 1
-    },
-    {
-      id: 'gap7',
-      gapNumber: 7,
-      correctAnswer: 'is',
-      options: ['is', 'am', 'are'],
-      acceptableAlternatives: ["'s"],
-      explanation: '"She" takes "is".',
-      points: 1
-    },
-    {
-      id: 'gap8',
-      gapNumber: 8,
-      correctAnswer: 'are',
-      options: ['are', 'is', 'am'],
-      acceptableAlternatives: ["'re"],
-      explanation: '"We" takes "are".',
-      points: 1
-    },
-    {
-      id: 'gap9',
-      gapNumber: 9,
-      correctAnswer: 'are',
-      options: ['are', 'is', 'am'],
-      acceptableAlternatives: ["'re"],
-      explanation: '"Our parents" (they) takes "are".',
-      points: 1
-    },
-    {
-      id: 'gap10',
-      gapNumber: 10,
-      correctAnswer: 'are',
-      options: ['are', 'is', 'am'],
-      acceptableAlternatives: ["'re"],
-      explanation: '"They" takes "are".',
-      points: 1
-    },
-    {
-      id: 'gap11',
-      gapNumber: 11,
-      correctAnswer: 'are',
-      options: ['are', 'is', 'am'],
-      acceptableAlternatives: ["'re"],
-      explanation: '"They" takes "are".',
-      points: 1
-    },
-    {
-      id: 'gap12',
-      gapNumber: 12,
-      correctAnswer: 'is',
-      options: ['is', 'am', 'are'],
-      acceptableAlternatives: ["'s"],
-      explanation: '"My best friend" (he) takes "is".',
-      points: 1
-    },
-    {
-      id: 'gap13',
-      gapNumber: 13,
-      correctAnswer: 'is',
-      options: ['is', 'am', 'are'],
-      acceptableAlternatives: ["'s"],
-      explanation: '"He" takes "is".',
-      points: 1
-    },
-    {
-      id: 'gap14',
-      gapNumber: 14,
-      correctAnswer: 'are',
-      options: ['are', 'is', 'am'],
-      acceptableAlternatives: ["'re"],
-      explanation: '"We" takes "are".',
-      points: 1
-    },
-    {
-      id: 'gap15',
-      gapNumber: 15,
-      correctAnswer: 'are',
-      options: ['are', 'is', 'am'],
-      acceptableAlternatives: ["'re"],
-      explanation: '"Tom and I" (we) takes "are".',
-      points: 1
-    },
-    {
-      id: 'gap16',
-      gapNumber: 16,
-      correctAnswer: 'is',
-      options: ['is', 'am', 'are'],
-      acceptableAlternatives: ["'s"],
-      explanation: '"My family" takes "is" (singular unit).',
-      points: 1
-    },
-    {
-      id: 'gap17',
-      gapNumber: 17,
-      correctAnswer: 'am',
-      options: ['am', 'is', 'are'],
-      acceptableAlternatives: ["'m"],
-      explanation: '"I" always takes "am".',
-      points: 1
-    },
-    {
-      id: 'gap18',
-      gapNumber: 18,
-      correctAnswer: 'are',
-      options: ['are', 'is', 'am'],
-      acceptableAlternatives: ["'re"],
-      explanation: '"They" takes "are".',
-      points: 1
-    },
-    {
-      id: 'gap19',
-      gapNumber: 19,
-      correctAnswer: 'is',
-      options: ['is', 'am', 'are'],
-      acceptableAlternatives: ["'s"],
-      explanation: '"My life" (it) takes "is".',
-      points: 1
-    },
-    {
-      id: 'gap20',
-      gapNumber: 20,
-      correctAnswer: 'am',
-      options: ['am', 'is', 'are'],
-      acceptableAlternatives: ["'m"],
-      explanation: '"I" takes "am". I am grateful.',
-      points: 1
-    }
-  ]
-};
-
-// ============================================
-// SENTENCE REORDERING EXERCISE
-// ============================================
-export const A1_M1_L1_SENTENCE_REORDERING = {
-  id: 'a1-m1-l1-sentence-reordering',
-  type: 'sentence-reordering',
-  title: 'Put the Words in Order',
-  instructions: 'Arrange the words to make correct sentences with the verb "to be".',
-  items: [
-    {
-      id: 'sr1',
-      shuffledSentences: ['a', 'student', 'I', 'am'],
-      correctOrder: [2, 3, 0, 1],
-      context: 'Make a sentence about being a student',
-      explanation: 'Correct order: I am a student. (Subject + verb to be + complement)',
-      points: 1
-    },
-    {
-      id: 'sr2',
-      shuffledSentences: ['She', 'from', 'is', 'Italy'],
-      correctOrder: [0, 2, 1, 3],
-      context: 'Make a sentence about nationality',
-      explanation: 'Correct order: She is from Italy. (Subject + verb to be + from + country)',
-      points: 1
-    },
-    {
-      id: 'sr3',
-      shuffledSentences: ['We', 'teachers', 'are'],
-      correctOrder: [0, 2, 1],
-      context: 'Make a sentence about a job',
-      explanation: 'Correct order: We are teachers. (Subject + verb to be + job)',
-      points: 1
-    },
-    {
-      id: 'sr4',
-      shuffledSentences: ['happy', 'They', 'are', 'very'],
-      correctOrder: [1, 2, 3, 0],
-      context: 'Make a sentence about feelings',
-      explanation: 'Correct order: They are very happy. (Subject + verb to be + adverb + adjective)',
-      points: 1
-    },
-    {
-      id: 'sr5',
-      shuffledSentences: ['in', 'You', 'London', 'are'],
-      correctOrder: [1, 3, 0, 2],
-      context: 'Make a sentence about location',
-      explanation: 'Correct order: You are in London. (Subject + verb to be + in + place)',
-      points: 1
-    },
-    {
-      id: 'sr6',
-      shuffledSentences: ['old', 'years', 'I', 'am', '20'],
-      correctOrder: [2, 3, 4, 1, 0],
-      context: 'Make a sentence about age',
-      explanation: 'Correct order: I am 20 years old. (Subject + verb to be + number + years old)',
-      points: 1
-    },
-    {
-      id: 'sr7',
-      shuffledSentences: ['is', 'My', 'name', 'Maria'],
-      correctOrder: [1, 2, 0, 3],
-      context: 'Make a sentence about name',
-      explanation: 'Correct order: My name is Maria. (Possessive + noun + verb + name)',
-      points: 1
-    },
-    {
-      id: 'sr8',
-      shuffledSentences: ['a', 'He', 'is', 'doctor'],
-      correctOrder: [1, 2, 0, 3],
-      context: 'Make a sentence about profession',
-      explanation: 'Correct order: He is a doctor. (Subject + verb + article + job)',
-      points: 1
-    },
-    {
-      id: 'sr9',
-      shuffledSentences: ['They', 'friends', 'good', 'are'],
-      correctOrder: [0, 3, 1, 2],
-      context: 'Make a sentence with adjective',
-      explanation: 'Correct order: They are good friends. (Subject + verb + adjective + noun)',
-      points: 1
-    },
-    {
-      id: 'sr10',
-      shuffledSentences: ['from', 'I', 'Spain', 'am'],
-      correctOrder: [1, 3, 0, 2],
-      context: 'Make a sentence about origin',
-      explanation: 'Correct order: I am from Spain. (Subject + verb + from + country)',
-      points: 1
-    },
-    {
-      id: 'sr11',
-      shuffledSentences: ['is', 'She', 'beautiful', 'very'],
-      correctOrder: [1, 0, 3, 2],
-      context: 'Make a sentence with adverb',
-      explanation: 'Correct order: She is very beautiful. (Subject + verb + adverb + adjective)',
-      points: 1
-    },
-    {
-      id: 'sr12',
-      shuffledSentences: ['school', 'at', 'We', 'are'],
-      correctOrder: [2, 3, 1, 0],
-      context: 'Make a sentence about location',
-      explanation: 'Correct order: We are at school. (Subject + verb + at + place)',
-      points: 1
-    },
-    {
-      id: 'sr13',
-      shuffledSentences: ['old', 'years', '30', 'am', 'I'],
-      correctOrder: [4, 3, 2, 1, 0],
-      context: 'Make a sentence about age',
-      explanation: 'Correct order: I am 30 years old. (Subject + verb + number + years old)',
-      points: 1
-    },
-    {
-      id: 'sr14',
-      shuffledSentences: ['is', 'The', 'book', 'interesting'],
-      correctOrder: [1, 2, 0, 3],
-      context: 'Make a sentence describing something',
-      explanation: 'Correct order: The book is interesting. (Article + noun + verb + adjective)',
-      points: 1
-    },
-    {
-      id: 'sr15',
-      shuffledSentences: ['tired', 'They', 'very', 'are'],
-      correctOrder: [1, 3, 2, 0],
-      context: 'Make a sentence with very',
-      explanation: 'Correct order: They are very tired. (Subject + verb + very + adjective)',
-      points: 1
-    },
-    {
-      id: 'sr16',
-      shuffledSentences: ['My', 'doctor', 'father', 'is', 'a'],
-      correctOrder: [0, 2, 3, 4, 1],
-      context: 'Make a sentence about family member',
-      explanation: 'Correct order: My father is a doctor. (Possessive + noun + verb + article + job)',
-      points: 1
-    },
-    {
-      id: 'sr17',
-      shuffledSentences: ['students', 'are', 'We', 'university'],
-      correctOrder: [2, 1, 3, 0],
-      context: 'Make a sentence about being students',
-      explanation: 'Correct order: We are university students. (Subject + verb + adjective + noun)',
-      points: 1
-    },
-    {
-      id: 'sr18',
-      shuffledSentences: ['is', 'cold', 'It', 'today'],
-      correctOrder: [2, 0, 1, 3],
-      context: 'Make a sentence about weather',
-      explanation: 'Correct order: It is cold today. (Subject + verb + adjective + time)',
-      points: 1
-    },
-    {
-      id: 'sr19',
-      shuffledSentences: ['sisters', 'My', 'nurses', 'are'],
-      correctOrder: [1, 0, 3, 2],
-      context: 'Make a sentence about family',
-      explanation: 'Correct order: My sisters are nurses. (Possessive + noun + verb + job)',
-      points: 1
-    },
-    {
-      id: 'sr20',
-      shuffledSentences: ['am', 'I', 'happy', 'very'],
-      correctOrder: [1, 0, 3, 2],
-      context: 'Make a sentence about feeling',
-      explanation: 'Correct order: I am very happy. (Subject + verb + adverb + adjective)',
-      points: 1
-    }
-  ]
-};
-
 export const A1_M1_L1_ALL_EXERCISES = [
   A1_M1_L1_GRAMMAR_1,
   A1_M1_L1_GRAMMAR_2,
@@ -2261,9 +1705,5 @@ export const A1_M1_L1_ALL_EXERCISES = [
   A1_M1_L1_WRITING,
   A1_M1_L1_PRONUNCIATION,
   A1_M1_L1_VOCABULARY_1,
-  A1_M1_L1_VOCABULARY_2,
-  A1_M1_L1_SENTENCE_COMPLETION,
-  A1_M1_L1_ERROR_IDENTIFICATION,
-  A1_M1_L1_GAP_FILL,
-  A1_M1_L1_SENTENCE_REORDERING
+  A1_M1_L1_VOCABULARY_2
 ];
