@@ -79,6 +79,7 @@ Save to `{@artifacts_path}/plan.md`.
 **Verification**: Question count = 40 additional questions (total 100 so far) ✓
 
 ### [ ] Task 1.3: Create Lesson 1 - Vocabulary and practice exercises
+<!-- chat-id: 8a5f0628-9bd4-4b79-a462-1418c930a24c -->
 **File**: `lib/a1-m3-l1-detailed.ts` (continuation)
 **Content**:
 - Vocabulary Exercise 1 (Food and drinks vocabulary) - 20 questions
