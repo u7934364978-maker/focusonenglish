@@ -237,6 +237,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
     duration: 90, // minutes
     exercises: A1_M2_L1_ALL_EXERCISES as Exercise[]
   },
+  {
     id: 'a1-m2-l2',
     title: 'Lección 2: Jobs and Professions',
     description: 'Practice Present Simple questions with comprehensive exercises',
