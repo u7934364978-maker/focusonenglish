@@ -713,10 +713,10 @@ export const A1_M1_L1_LISTENING = {
     },
     {
       id: 'a1-m1-l1-list-q7',
-      type: 'fill-blank',
+      type: 'multiple-choice',
       question: 'John is a ___.',
+      options: ['teacher', 'doctor', 'student', 'nurse'],
       correctAnswer: 'teacher',
-      acceptableAnswers: ['teacher', 'Teacher'],
       explanation: 'John clearly states his profession: "I am a teacher."',
       points: 1
     },
@@ -740,10 +740,10 @@ export const A1_M1_L1_LISTENING = {
     },
     {
       id: 'a1-m1-l1-list-q10',
-      type: 'fill-blank',
+      type: 'multiple-choice',
       question: 'John has ___ children.',
+      options: ['one', 'two', 'three', 'four'],
       correctAnswer: 'two',
-      acceptableAnswers: ['two', 'Two', '2'],
       explanation: 'John says "I have two children."',
       points: 1
     },
@@ -767,10 +767,10 @@ export const A1_M1_L1_LISTENING = {
     },
     {
       id: 'a1-m1-l1-list-q13',
-      type: 'fill-blank',
+      type: 'multiple-choice',
       question: "John's wife's name is ___.",
+      options: ['Sarah', 'Maria', 'Emma', 'Laura'],
       correctAnswer: 'Sarah',
-      acceptableAnswers: ['Sarah', 'sarah'],
       explanation: 'John introduces his wife: "Her name is Sarah."',
       points: 1
     },
@@ -803,10 +803,10 @@ export const A1_M1_L1_LISTENING = {
     },
     {
       id: 'a1-m1-l1-list-q17',
-      type: 'fill-blank',
+      type: 'multiple-choice',
       question: 'John is ___ years old.',
+      options: ['30', '33', '35', '40'],
       correctAnswer: '35',
-      acceptableAnswers: ['35', 'thirty-five', 'thirty five'],
       explanation: 'John says "I am 35 years old."',
       points: 1
     },
