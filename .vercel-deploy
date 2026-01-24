@@ -1,8 +1,1 @@
-Sat Jan 18 03:50:00 UTC 2026
-MAJOR UPDATE: Random Exercise Generation System
-- Implemented 25 structured topics across 6 modules
-- Full random generation (topics, categories, types)
-- Auto-redirect to practice (no configuration needed)
-- 1 question per exercise for faster practice
-- Simplified metrics and improved UI
-- Cache disabled for unique exercises every time
+Fri Jan 23 18:18:42 UTC 2026

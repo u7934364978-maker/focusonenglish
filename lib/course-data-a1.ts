@@ -1,467 +1,1534 @@
-// Curso A1 - Sistema de Generación de Ejercicios con IA
-// Los ejercicios se generan dinámicamente basados en categoría, tipo y dificultad
+// Curso A1 Completo - Estructura Basada en CEFR A1 Official
+// Replicando la estructura del curso B2 pero adaptado a nivel principiante
+// CEFR A1: Usuario Básico - Nivel Breakthrough
 
 import { A1_MODULE_2_LESSON_3, type Lesson } from './a1-module2-lesson3';
 
-export type DifficultyLevel = 'easy' | 'medium' | 'hard';
+// Import detailed exercises
+import { A1_M1_L1_ALL_EXERCISES } from './a1-m1-l1-detailed';
+import { A1_M1_L2_ALL_EXERCISES } from './a1-m1-l2-detailed';
+import { A1_M1_L3_ALL_EXERCISES } from './a1-m1-l3-detailed';
+import { A1_M1_L4_ALL_EXERCISES } from './a1-m1-l4-detailed';
+import { A1_M1_L5_ALL_EXERCISES } from './a1-m1-l5-detailed';
+import { A1_M1_L6_ALL_EXERCISES } from './a1-m1-l6-detailed';
+import { A1_M1_L7_ALL_EXERCISES } from './a1-m1-l7-detailed';
+import { A1_M2_L1_ALL_EXERCISES } from './a1-m2-l1-detailed';
+import { A1_M2_L2_ALL_EXERCISES } from './a1-m2-l2-detailed';
 
-export type ExerciseCategory = 
-  | 'all'
-  | 'grammar'
-  | 'vocabulary'
+export type ExerciseType = 
   | 'reading'
   | 'writing'
   | 'listening'
   | 'speaking'
+  | 'grammar'
+  | 'vocabulary'
   | 'pronunciation'
-  | 'exam-practice';
+  | 'pronunciation-practice'
+  | 'fill-in-blanks'
+  | 'multiple-choice'
+  | 'sentence-building'
+  | 'matching'
+  | 'true-false'
+  | 'dialogue-practice';
 
-// ============================================
-// TIPOS DE EJERCICIOS POR CATEGORÍA
-// ============================================
+export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 
-export interface ExerciseType {
+export interface Question {
   id: string;
-  name: string;
+  type: 'multiple-choice' | 'true-false' | 'fill-blank' | 'short-answer' | 'essay';
+  question: string;
+  options?: string[];
+  correctAnswer: string | string[];
+  acceptableAnswers?: string[];
+  explanation?: string;
+  points: number;
+}
+
+export interface GrammarExercise {
+  id: string;
+  type: 'grammar';
+  title: string;
+  grammarPoint: string;
+  explanation: string;
+  examples: string[];
+  questions: Question[];
+}
+
+export interface VocabularyExercise {
+  id: string;
+  type: 'vocabulary';
+  title: string;
+  vocabularySet: { word: string; definition: string; example: string }[];
+  questions: Question[];
+}
+
+export interface ReadingExercise {
+  id: string;
+  type: 'reading';
+  title: string;
+  text: string;
+  wordCount: number;
+  readingTime: number;
+  questions: Question[];
+  vocabularyHelp?: { word: string; definition: string }[];
+}
+
+export interface ListeningExercise {
+  id: string;
+  type: 'listening';
+  audioUrl: string;
+  transcript?: string;
+  duration: number;
+  questions: Question[];
+  allowReplay: boolean;
+  maxReplays?: number;
+}
+
+export interface WritingExercise {
+  id: string;
+  type: 'writing';
+  title: string;
+  prompt: string;
+  wordLimit: { min: number; max: number };
+  timeLimit?: number;
+  rubric: {
+    criteria: string;
+    points: number;
+    description: string;
+  }[];
+  tips: string[];
+  exampleResponse?: string;
+}
+
+export interface SpeakingExercise {
+  id: string;
+  type: 'speaking' | 'pronunciation';
+  prompt: string;
+  targetText?: string;
+  timeLimit?: number;
+  evaluationCriteria: {
+    pronunciation: boolean;
+    fluency: boolean;
+    grammar: boolean;
+    vocabulary: boolean;
+  };
+  modelAudioUrl?: string;
+  hints?: string[];
+}
+
+export interface PronunciationPracticeExercise {
+  id: string;
+  type: 'pronunciation-practice';
+  title: string;
+  targetSentences: {
+    text: string;
+    audioUrl: string;
+    phonetic: string;
+  }[];
+  focusPoints: string[];
+  tips: string[];
+}
+
+export type Exercise = 
+  | GrammarExercise
+  | VocabularyExercise
+  | ReadingExercise
+  | ListeningExercise
+  | WritingExercise
+  | SpeakingExercise
+  | PronunciationPracticeExercise
+  | { id: string; type: ExerciseType; title: string; [key: string]: any };
+
+export interface Lesson {
+  id: string;
+  title: string;
+  description?: string;
+  duration?: number;
+  exercises: Exercise[];
+}
+
+export interface Module {
+  id: string;
+  number: number;
+  title: string;
   description: string;
-  category: ExerciseCategory[];
-  estimatedDuration: number; // minutos
-  icon?: string;
-  aiPromptTemplate?: string; // Template para generar con IA
+  duration: string;
+  topics: string[];
+  grammar: string[];
+  vocabulary: string[];
+  lessons: Lesson[];
+  examPractice?: {
+    mockExam: boolean;
+    examDuration: number;
+    parts: string[];
+  };
 }
 
-// ============================================
-// GRAMÁTICA - GRAMMAR EXERCISES
-// ============================================
-
-export const GRAMMAR_EXERCISE_TYPES: ExerciseType[] = [
-  {
-    id: 'multiple-choice',
-    name: 'Opción Múltiple',
-    description: 'Elige la respuesta correcta entre varias opciones',
-    category: ['grammar', 'all'],
-    estimatedDuration: 5,
-    icon: '✓',
-    aiPromptTemplate: 'Generate A1 level multiple choice grammar questions about {{topic}}'
-  },
-  {
-    id: 'fill-in-blanks',
-    name: 'Completar Espacios',
-    description: 'Completa las oraciones con las palabras correctas',
-    category: ['grammar', 'all'],
-    estimatedDuration: 7,
-    icon: '___',
-    aiPromptTemplate: 'Generate A1 level fill-in-the-blank grammar exercises about {{topic}}'
-  },
-  {
-    id: 'word-formation',
-    name: 'Formación de Palabras',
-    description: 'Transforma palabras según el contexto',
-    category: ['grammar', 'vocabulary', 'all'],
-    estimatedDuration: 8,
-    icon: '📝',
-    aiPromptTemplate: 'Generate A1 level word formation exercises focusing on {{topic}}'
-  },
-  {
-    id: 'sentence-building',
-    name: 'Constructor de Oraciones',
-    description: 'Ordena las palabras para formar oraciones correctas',
-    category: ['grammar', 'all'],
-    estimatedDuration: 8,
-    icon: '🔨',
-    aiPromptTemplate: 'Generate A1 level sentence building exercises about {{topic}}'
-  },
-  {
-    id: 'key-word-transformation',
-    name: 'Transformación con Palabra Clave',
-    description: 'Reescribe oraciones usando una palabra clave dada',
-    category: ['grammar', 'all'],
-    estimatedDuration: 10,
-    icon: '🔑',
-    aiPromptTemplate: 'Generate A1 level key word transformation exercises about {{topic}}'
-  },
-  {
-    id: 'multiple-choice-cloze',
-    name: 'Cloze de Opción Múltiple',
-    description: 'Elige las palabras correctas para completar un texto',
-    category: ['grammar', 'reading', 'all'],
-    estimatedDuration: 10,
-    icon: '📄',
-    aiPromptTemplate: 'Generate A1 level multiple choice cloze text about {{topic}}'
-  }
-];
-
-// ============================================
-// VOCABULARIO - VOCABULARY EXERCISES
-// ============================================
-
-export const VOCABULARY_EXERCISE_TYPES: ExerciseType[] = [
-  {
-    id: 'vocabulary-matching',
-    name: 'Emparejar Vocabulario',
-    description: 'Conecta palabras con sus definiciones o traducciones',
-    category: ['vocabulary', 'all'],
-    estimatedDuration: 5,
-    icon: '🔗',
-    aiPromptTemplate: 'Generate A1 level vocabulary matching exercise about {{topic}}'
-  },
-  {
-    id: 'vocabulary-multiple-choice',
-    name: 'Vocabulario - Opción Múltiple',
-    description: 'Elige el significado correcto de palabras',
-    category: ['vocabulary', 'all'],
-    estimatedDuration: 5,
-    icon: '📚',
-    aiPromptTemplate: 'Generate A1 level vocabulary multiple choice questions about {{topic}}'
-  },
-  {
-    id: 'vocabulary-context',
-    name: 'Vocabulario en Contexto',
-    description: 'Completa oraciones con el vocabulario apropiado',
-    category: ['vocabulary', 'all'],
-    estimatedDuration: 7,
-    icon: '💬',
-    aiPromptTemplate: 'Generate A1 level vocabulary in context exercises about {{topic}}'
-  },
-  {
-    id: 'vocabulary-images',
-    name: 'Vocabulario con Imágenes',
-    description: 'Identifica vocabulario mediante imágenes',
-    category: ['vocabulary', 'all'],
-    estimatedDuration: 6,
-    icon: '🖼️',
-    aiPromptTemplate: 'Generate A1 level vocabulary exercise with image descriptions about {{topic}}'
-  }
-];
-
-// ============================================
-// LECTURA - READING EXERCISES
-// ============================================
-
-export const READING_EXERCISE_TYPES: ExerciseType[] = [
-  {
-    id: 'reading-comprehension',
-    name: 'Comprensión Lectora',
-    description: 'Lee un texto y responde preguntas',
-    category: ['reading', 'all'],
-    estimatedDuration: 15,
-    icon: '📖',
-    aiPromptTemplate: 'Generate A1 level reading comprehension text with questions about {{topic}}'
-  },
-  {
-    id: 'reading-true-false',
-    name: 'Verdadero o Falso',
-    description: 'Decide si las afirmaciones sobre el texto son verdaderas o falsas',
-    category: ['reading', 'all'],
-    estimatedDuration: 10,
-    icon: '✓✗',
-    aiPromptTemplate: 'Generate A1 level reading text with true/false statements about {{topic}}'
-  },
-  {
-    id: 'reading-matching',
-    name: 'Emparejar Párrafos',
-    description: 'Conecta títulos o ideas con párrafos',
-    category: ['reading', 'all'],
-    estimatedDuration: 12,
-    icon: '🔗',
-    aiPromptTemplate: 'Generate A1 level reading matching exercise about {{topic}}'
-  },
-  {
-    id: 'reading-order',
-    name: 'Ordenar Párrafos',
-    description: 'Organiza los párrafos en el orden correcto',
-    category: ['reading', 'all'],
-    estimatedDuration: 10,
-    icon: '📋',
-    aiPromptTemplate: 'Generate A1 level paragraph ordering exercise about {{topic}}'
-  }
-];
-
-// ============================================
-// ESCRITURA - WRITING EXERCISES
-// ============================================
-
-export const WRITING_EXERCISE_TYPES: ExerciseType[] = [
-  {
-    id: 'guided-writing',
-    name: 'Escritura Guiada',
-    description: 'Escribe siguiendo instrucciones específicas',
-    category: ['writing', 'all'],
-    estimatedDuration: 15,
-    icon: '✍️',
-    aiPromptTemplate: 'Generate A1 level guided writing exercise about {{topic}}'
-  },
-  {
-    id: 'writing-analysis',
-    name: 'Análisis de Escritura',
-    description: 'Analiza y elige las mejores opciones de escritura',
-    category: ['writing', 'all'],
-    estimatedDuration: 10,
-    icon: '🔍',
-    aiPromptTemplate: 'Generate A1 level writing analysis exercise about {{topic}}'
-  },
-  {
-    id: 'sentence-correction',
-    name: 'Corrección de Oraciones',
-    description: 'Identifica y corrige errores en oraciones',
-    category: ['writing', 'grammar', 'all'],
-    estimatedDuration: 8,
-    icon: '✏️',
-    aiPromptTemplate: 'Generate A1 level sentence correction exercise about {{topic}}'
-  },
-  {
-    id: 'paragraph-writing',
-    name: 'Escribir Párrafos',
-    description: 'Escribe párrafos cortos sobre temas dados',
-    category: ['writing', 'all'],
-    estimatedDuration: 20,
-    icon: '📝',
-    aiPromptTemplate: 'Generate A1 level paragraph writing prompt about {{topic}}'
-  }
-];
-
-// ============================================
-// ESCUCHA - LISTENING EXERCISES
-// ============================================
-
-export const LISTENING_EXERCISE_TYPES: ExerciseType[] = [
-  {
-    id: 'listening-comprehension',
-    name: 'Comprensión Auditiva',
-    description: 'Escucha y responde preguntas',
-    category: ['listening', 'all'],
-    estimatedDuration: 12,
-    icon: '🎧',
-    aiPromptTemplate: 'Generate A1 level listening comprehension exercise about {{topic}}'
-  },
-  {
-    id: 'listening-multiple-choice',
-    name: 'Escucha - Opción Múltiple',
-    description: 'Escucha y elige la respuesta correcta',
-    category: ['listening', 'all'],
-    estimatedDuration: 10,
-    icon: '🔊',
-    aiPromptTemplate: 'Generate A1 level listening multiple choice exercise about {{topic}}'
-  },
-  {
-    id: 'listening-fill-blanks',
-    name: 'Dictado - Completar Espacios',
-    description: 'Escucha y completa las palabras que faltan',
-    category: ['listening', 'all'],
-    estimatedDuration: 10,
-    icon: '👂',
-    aiPromptTemplate: 'Generate A1 level listening fill-in-the-blank exercise about {{topic}}'
-  },
-  {
-    id: 'listening-matching',
-    name: 'Emparejar Audio',
-    description: 'Conecta audios con imágenes o descripciones',
-    category: ['listening', 'all'],
-    estimatedDuration: 8,
-    icon: '🎵',
-    aiPromptTemplate: 'Generate A1 level listening matching exercise about {{topic}}'
-  }
-];
-
-// ============================================
-// HABLA - SPEAKING EXERCISES
-// ============================================
-
-export const SPEAKING_EXERCISE_TYPES: ExerciseType[] = [
-  {
-    id: 'pronunciation-practice',
-    name: 'Práctica de Pronunciación',
-    description: 'Practica pronunciación con feedback de IA',
-    category: ['speaking', 'pronunciation', 'all'],
-    estimatedDuration: 8,
-    icon: '🗣️',
-    aiPromptTemplate: 'Generate A1 level pronunciation practice sentences about {{topic}}'
-  },
-  {
-    id: 'speaking-response',
-    name: 'Respuesta Oral',
-    description: 'Responde preguntas oralmente',
-    category: ['speaking', 'all'],
-    estimatedDuration: 10,
-    icon: '🎤',
-    aiPromptTemplate: 'Generate A1 level speaking response prompts about {{topic}}'
-  },
-  {
-    id: 'oral-expression-analysis',
-    name: 'Análisis de Expresión Oral',
-    description: 'Analiza y elige las mejores opciones de expresión oral',
-    category: ['speaking', 'all'],
-    estimatedDuration: 8,
-    icon: '💭',
-    aiPromptTemplate: 'Generate A1 level oral expression analysis about {{topic}}'
-  },
-  {
-    id: 'dialogue-practice',
-    name: 'Práctica de Diálogo',
-    description: 'Practica conversaciones simuladas',
-    category: ['speaking', 'all'],
-    estimatedDuration: 12,
-    icon: '💬',
-    aiPromptTemplate: 'Generate A1 level dialogue practice exercise about {{topic}}'
-  }
-];
-
-// ============================================
-// PRONUNCIACIÓN - PRONUNCIATION EXERCISES
-// ============================================
-
-export const PRONUNCIATION_EXERCISE_TYPES: ExerciseType[] = [
-  {
-    id: 'pronunciation-minimal-pairs',
-    name: 'Pares Mínimos',
-    description: 'Practica sonidos similares que cambian el significado',
-    category: ['pronunciation', 'all'],
-    estimatedDuration: 8,
-    icon: '🔊',
-    aiPromptTemplate: 'Generate A1 level minimal pairs pronunciation exercise'
-  },
-  {
-    id: 'pronunciation-feedback',
-    name: 'Pronunciación con Feedback',
-    description: 'Practica pronunciación con evaluación de IA',
-    category: ['pronunciation', 'speaking', 'all'],
-    estimatedDuration: 8,
-    icon: '🎯',
-    aiPromptTemplate: 'Generate A1 level pronunciation practice with feedback about {{topic}}'
-  },
-  {
-    id: 'pronunciation-intonation',
-    name: 'Práctica de Entonación',
-    description: 'Practica la entonación en preguntas y afirmaciones',
-    category: ['pronunciation', 'all'],
-    estimatedDuration: 10,
-    icon: '📈',
-    aiPromptTemplate: 'Generate A1 level intonation practice exercise'
-  },
-  {
-    id: 'pronunciation-stress',
-    name: 'Acentuación de Palabras',
-    description: 'Practica dónde poner el énfasis en las palabras',
-    category: ['pronunciation', 'all'],
-    estimatedDuration: 8,
-    icon: '⚡',
-    aiPromptTemplate: 'Generate A1 level word stress practice exercise'
-  }
-];
-
-// ============================================
-// PRÁCTICA DE EXAMEN - EXAM PRACTICE
-// ============================================
-
-export const EXAM_PRACTICE_TYPES: ExerciseType[] = [
-  {
-    id: 'exam-reading-writing',
-    name: 'Examen: Reading & Writing',
-    description: 'Práctica completa de lectura y escritura',
-    category: ['exam-practice', 'all'],
-    estimatedDuration: 30,
-    icon: '📋',
-    aiPromptTemplate: 'Generate A1 level exam practice for reading and writing'
-  },
-  {
-    id: 'exam-listening-speaking',
-    name: 'Examen: Listening & Speaking',
-    description: 'Práctica completa de escucha y habla',
-    category: ['exam-practice', 'all'],
-    estimatedDuration: 25,
-    icon: '🎧',
-    aiPromptTemplate: 'Generate A1 level exam practice for listening and speaking'
-  },
-  {
-    id: 'exam-grammar-vocabulary',
-    name: 'Examen: Grammar & Vocabulary',
-    description: 'Práctica completa de gramática y vocabulario',
-    category: ['exam-practice', 'all'],
-    estimatedDuration: 20,
-    icon: '📚',
-    aiPromptTemplate: 'Generate A1 level exam practice for grammar and vocabulary'
-  },
-  {
-    id: 'exam-full-mock',
-    name: 'Examen Completo Simulado',
-    description: 'Simulación de examen completo nivel A1',
-    category: ['exam-practice', 'all'],
-    estimatedDuration: 60,
-    icon: '🎓',
-    aiPromptTemplate: 'Generate complete A1 level mock exam with all sections'
-  }
-];
-
-// ============================================
-// TODOS LOS TIPOS DE EJERCICIOS
-// ============================================
-
-export const ALL_EXERCISE_TYPES: ExerciseType[] = [
-  ...GRAMMAR_EXERCISE_TYPES,
-  ...VOCABULARY_EXERCISE_TYPES,
-  ...READING_EXERCISE_TYPES,
-  ...WRITING_EXERCISE_TYPES,
-  ...LISTENING_EXERCISE_TYPES,
-  ...SPEAKING_EXERCISE_TYPES,
-  ...PRONUNCIATION_EXERCISE_TYPES,
-  ...EXAM_PRACTICE_TYPES
-];
-
-// ============================================
-// FUNCIONES HELPER PARA FILTRAR EJERCICIOS
-// ============================================
-
-export function getExercisesByCategory(category: ExerciseCategory): ExerciseType[] {
-  if (category === 'all') {
-    return ALL_EXERCISE_TYPES;
-  }
-  return ALL_EXERCISE_TYPES.filter(ex => ex.category.includes(category));
+export interface CourseProgress {
+  completedLessons: string[];
+  currentLesson: string;
+  overallProgress: number;
 }
 
-export function getExerciseById(id: string): ExerciseType | undefined {
-  return ALL_EXERCISE_TYPES.find(ex => ex.id === id);
-}
 
-export function getExercisesByDuration(maxDuration: number): ExerciseType[] {
-  return ALL_EXERCISE_TYPES.filter(ex => ex.estimatedDuration <= maxDuration);
-}
+// ===============================================
+// Módulo 1: Introducción y Presentaciones
+// ===============================================
 
-// ============================================
-// CONFIGURACIÓN DEL CURSO A1
-// ============================================
+export const MODULE_1_LESSONS: Lesson[] = [
+  {
+    id: 'a1-m1-l1',
+    title: 'Lección 1: Verb To Be - I am, You are',
+    description: 'Learn the verb "to be" in present simple with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: A1_M1_L1_ALL_EXERCISES as Exercise[]
+  },
+  {
+    id: 'a1-m1-l2',
+    title: 'Lección 2: Personal Pronouns and Possessives',
+    description: 'Practice Personal pronouns with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: A1_M1_L2_ALL_EXERCISES as Exercise[]
+  },
+  {
+    id: 'a1-m1-l3',
+    title: 'Lección 3: Countries and Nationalities',
+    description: 'Practice Questions with to be with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: A1_M1_L3_ALL_EXERCISES as Exercise[]
+  },
+  {
+    id: 'a1-m1-l4',
+    title: 'Lección 4: Numbers and Age',
+    description: 'Practice Numbers and expressing age with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: A1_M1_L4_ALL_EXERCISES as Exercise[]
+  },
+  {
+    id: 'a1-m1-l5',
+    title: 'Lección 5: Family and Relationships',
+    description: 'Practice Family vocabulary with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: A1_M1_L5_ALL_EXERCISES as Exercise[]
+  },
+  {
+    id: 'a1-m1-l6',
+    title: 'Lección 6: Mock Exam - Module 1 Review',
+    description: 'Review and practice all topics from Module 1 with a mock exam',
+    duration: 90, // minutes
+    exercises: A1_M1_L6_ALL_EXERCISES as Exercise[]
+  },
+  {
+    id: 'a1-m1-l7',
+    title: 'Lección 7: Consolidation and Practice',
+    description: 'Practice All Module 1 topics with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: A1_M1_L7_ALL_EXERCISES as Exercise[]
+  },
+];
 
-export const A1_COURSE_CONFIG = {
+
+// ===============================================
+// Módulo 2: Vida Cotidiana y Rutinas
+// ===============================================
+
+export const MODULE_2_LESSONS: Lesson[] = [
+  {
+    id: 'a1-m2-l1',
+    title: 'Lección 1: Daily Routines',
+    description: 'Practice Present Simple with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: A1_M2_L1_ALL_EXERCISES as Exercise[]
+  },
+  {
+    id: 'a1-m2-l2',
+    title: 'Lección 2: Jobs and Professions',
+    description: 'Practice Present Simple questions with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: A1_M2_L2_ALL_EXERCISES as Exercise[]
+  },
+  {
+    id: 'a1-m2-l3',
+    title: 'Lección 3: Time and Schedules',
+    description: 'Practice Time expressions with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: [
+      {
+        id: 'a1-m2-l3-grammar-1',
+        type: 'grammar',
+        title: 'Time expressions - Formation and Use',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l3-grammar-2',
+        type: 'grammar',
+        title: 'Time expressions - Practice Exercises',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l3-reading-1',
+        type: 'reading',
+        title: 'Reading: Lección 3: Time and Schedules',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l3-listening-1',
+        type: 'listening',
+        title: 'Listening: Lección 3: Time and Schedules',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l3-speaking-1',
+        type: 'speaking',
+        title: 'Speaking Practice: Lección 3: Time and Schedules',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l3-writing-1',
+        type: 'writing',
+        title: 'Writing: Lección 3: Time and Schedules',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l3-pronunciation-1',
+        type: 'pronunciation-practice',
+        title: 'Pronunciation: Time expressions',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l3-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Lección 3: Time and Schedules',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l3-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Vocabulary Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l3-fill-blanks-1',
+        type: 'fill-in-blanks',
+        title: 'Complete the Sentences - Time expressions',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l3-multiple-choice-1',
+        type: 'multiple-choice',
+        title: 'Multiple Choice: Time expressions',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l3-matching-1',
+        type: 'matching',
+        title: 'Match Words and Meanings',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l3-sentence-building-1',
+        type: 'sentence-building',
+        title: 'Build Sentences - Time expressions',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l3-true-false-1',
+        type: 'true-false',
+        title: 'True or False: Lección 3: Time and Schedules',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l3-dialogue-1',
+        type: 'dialogue-practice',
+        title: 'Dialogue Practice: Lección 3: Time and Schedules',
+        // Content will be added in future updates
+      } as Exercise,
+    ]
+  },
+  {
+    id: 'a1-m2-l4',
+    title: 'Lección 4: Free Time Activities',
+    description: 'Practice Frequency adverbs with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: [
+      {
+        id: 'a1-m2-l4-grammar-1',
+        type: 'grammar',
+        title: 'Frequency adverbs - Formation and Use',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l4-grammar-2',
+        type: 'grammar',
+        title: 'Frequency adverbs - Practice Exercises',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l4-reading-1',
+        type: 'reading',
+        title: 'Reading: Lección 4: Free Time Activities',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l4-listening-1',
+        type: 'listening',
+        title: 'Listening: Lección 4: Free Time Activities',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l4-speaking-1',
+        type: 'speaking',
+        title: 'Speaking Practice: Lección 4: Free Time Activities',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l4-writing-1',
+        type: 'writing',
+        title: 'Writing: Lección 4: Free Time Activities',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l4-pronunciation-1',
+        type: 'pronunciation-practice',
+        title: 'Pronunciation: Frequency adverbs',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l4-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Lección 4: Free Time Activities',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l4-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Vocabulary Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l4-fill-blanks-1',
+        type: 'fill-in-blanks',
+        title: 'Complete the Sentences - Frequency adverbs',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l4-multiple-choice-1',
+        type: 'multiple-choice',
+        title: 'Multiple Choice: Frequency adverbs',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l4-matching-1',
+        type: 'matching',
+        title: 'Match Words and Meanings',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l4-sentence-building-1',
+        type: 'sentence-building',
+        title: 'Build Sentences - Frequency adverbs',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l4-true-false-1',
+        type: 'true-false',
+        title: 'True or False: Lección 4: Free Time Activities',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l4-dialogue-1',
+        type: 'dialogue-practice',
+        title: 'Dialogue Practice: Lección 4: Free Time Activities',
+        // Content will be added in future updates
+      } as Exercise,
+    ]
+  },
+  {
+    id: 'a1-m2-l5',
+    title: 'Lección 5: Can and Cannot for Ability',
+    description: 'Practice Can/Cannot with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: [
+      {
+        id: 'a1-m2-l5-grammar-1',
+        type: 'grammar',
+        title: 'Can/Cannot - Formation and Use',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l5-grammar-2',
+        type: 'grammar',
+        title: 'Can/Cannot - Practice Exercises',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l5-reading-1',
+        type: 'reading',
+        title: 'Reading: Lección 5: Can and Cannot for Ability',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l5-listening-1',
+        type: 'listening',
+        title: 'Listening: Lección 5: Can and Cannot for Ability',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l5-speaking-1',
+        type: 'speaking',
+        title: 'Speaking Practice: Lección 5: Can and Cannot for Ability',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l5-writing-1',
+        type: 'writing',
+        title: 'Writing: Lección 5: Can and Cannot for Ability',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l5-pronunciation-1',
+        type: 'pronunciation-practice',
+        title: 'Pronunciation: Can/Cannot',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l5-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Lección 5: Can and Cannot for Ability',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l5-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Vocabulary Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l5-fill-blanks-1',
+        type: 'fill-in-blanks',
+        title: 'Complete the Sentences - Can/Cannot',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l5-multiple-choice-1',
+        type: 'multiple-choice',
+        title: 'Multiple Choice: Can/Cannot',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l5-matching-1',
+        type: 'matching',
+        title: 'Match Words and Meanings',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l5-sentence-building-1',
+        type: 'sentence-building',
+        title: 'Build Sentences - Can/Cannot',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l5-true-false-1',
+        type: 'true-false',
+        title: 'True or False: Lección 5: Can and Cannot for Ability',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l5-dialogue-1',
+        type: 'dialogue-practice',
+        title: 'Dialogue Practice: Lección 5: Can and Cannot for Ability',
+        // Content will be added in future updates
+      } as Exercise,
+    ]
+  },
+  {
+    id: 'a1-m2-l6',
+    title: 'Lección 6: Mock Exam - Module 2',
+    description: 'Practice Module 2 Review with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: [
+      {
+        id: 'a1-m2-l6-grammar-1',
+        type: 'grammar',
+        title: 'Module 2 Review - Formation and Use',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l6-grammar-2',
+        type: 'grammar',
+        title: 'Module 2 Review - Practice Exercises',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l6-reading-1',
+        type: 'reading',
+        title: 'Reading: Lección 6: Mock Exam - Module 2',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l6-listening-1',
+        type: 'listening',
+        title: 'Listening: Lección 6: Mock Exam - Module 2',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l6-speaking-1',
+        type: 'speaking',
+        title: 'Speaking Practice: Lección 6: Mock Exam - Module 2',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l6-writing-1',
+        type: 'writing',
+        title: 'Writing: Lección 6: Mock Exam - Module 2',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l6-pronunciation-1',
+        type: 'pronunciation-practice',
+        title: 'Pronunciation: Module 2 Review',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l6-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Lección 6: Mock Exam - Module 2',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l6-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Vocabulary Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l6-fill-blanks-1',
+        type: 'fill-in-blanks',
+        title: 'Complete the Sentences - Module 2 Review',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l6-multiple-choice-1',
+        type: 'multiple-choice',
+        title: 'Multiple Choice: Module 2 Review',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l6-matching-1',
+        type: 'matching',
+        title: 'Match Words and Meanings',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l6-sentence-building-1',
+        type: 'sentence-building',
+        title: 'Build Sentences - Module 2 Review',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l6-true-false-1',
+        type: 'true-false',
+        title: 'True or False: Lección 6: Mock Exam - Module 2',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l6-dialogue-1',
+        type: 'dialogue-practice',
+        title: 'Dialogue Practice: Lección 6: Mock Exam - Module 2',
+        // Content will be added in future updates
+      } as Exercise,
+    ]
+  },
+  {
+    id: 'a1-m2-l7',
+    title: 'Lección 7: Consolidation and Practice',
+    description: 'Practice All Module 2 topics with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: [
+      {
+        id: 'a1-m2-l7-grammar-1',
+        type: 'grammar',
+        title: 'All Module 2 topics - Formation and Use',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l7-grammar-2',
+        type: 'grammar',
+        title: 'All Module 2 topics - Practice Exercises',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l7-reading-1',
+        type: 'reading',
+        title: 'Reading: Lección 7: Consolidation and Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l7-listening-1',
+        type: 'listening',
+        title: 'Listening: Lección 7: Consolidation and Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l7-speaking-1',
+        type: 'speaking',
+        title: 'Speaking Practice: Lección 7: Consolidation and Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l7-writing-1',
+        type: 'writing',
+        title: 'Writing: Lección 7: Consolidation and Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l7-pronunciation-1',
+        type: 'pronunciation-practice',
+        title: 'Pronunciation: All Module 2 topics',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l7-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Lección 7: Consolidation and Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l7-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Vocabulary Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l7-fill-blanks-1',
+        type: 'fill-in-blanks',
+        title: 'Complete the Sentences - All Module 2 topics',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l7-multiple-choice-1',
+        type: 'multiple-choice',
+        title: 'Multiple Choice: All Module 2 topics',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l7-matching-1',
+        type: 'matching',
+        title: 'Match Words and Meanings',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l7-sentence-building-1',
+        type: 'sentence-building',
+        title: 'Build Sentences - All Module 2 topics',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l7-true-false-1',
+        type: 'true-false',
+        title: 'True or False: Lección 7: Consolidation and Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m2-l7-dialogue-1',
+        type: 'dialogue-practice',
+        title: 'Dialogue Practice: Lección 7: Consolidation and Practice',
+        // Content will be added in future updates
+      } as Exercise,
+    ]
+  },
+];
+
+
+// ===============================================
+// Módulo 3: Compras, Comida y Lugares
+// ===============================================
+
+export const MODULE_3_LESSONS: Lesson[] = [
+  {
+    id: 'a1-m3-l1',
+    title: 'Lección 1: Food and Drinks',
+    description: 'Practice Countable/Uncountable with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: [
+      {
+        id: 'a1-m3-l1-grammar-1',
+        type: 'grammar',
+        title: 'Countable/Uncountable - Formation and Use',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l1-grammar-2',
+        type: 'grammar',
+        title: 'Countable/Uncountable - Practice Exercises',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l1-reading-1',
+        type: 'reading',
+        title: 'Reading: Lección 1: Food and Drinks',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l1-listening-1',
+        type: 'listening',
+        title: 'Listening: Lección 1: Food and Drinks',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l1-speaking-1',
+        type: 'speaking',
+        title: 'Speaking Practice: Lección 1: Food and Drinks',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l1-writing-1',
+        type: 'writing',
+        title: 'Writing: Lección 1: Food and Drinks',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l1-pronunciation-1',
+        type: 'pronunciation-practice',
+        title: 'Pronunciation: Countable/Uncountable',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l1-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Lección 1: Food and Drinks',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l1-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Vocabulary Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l1-fill-blanks-1',
+        type: 'fill-in-blanks',
+        title: 'Complete the Sentences - Countable/Uncountable',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l1-multiple-choice-1',
+        type: 'multiple-choice',
+        title: 'Multiple Choice: Countable/Uncountable',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l1-matching-1',
+        type: 'matching',
+        title: 'Match Words and Meanings',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l1-sentence-building-1',
+        type: 'sentence-building',
+        title: 'Build Sentences - Countable/Uncountable',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l1-true-false-1',
+        type: 'true-false',
+        title: 'True or False: Lección 1: Food and Drinks',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l1-dialogue-1',
+        type: 'dialogue-practice',
+        title: 'Dialogue Practice: Lección 1: Food and Drinks',
+        // Content will be added in future updates
+      } as Exercise,
+    ]
+  },
+  {
+    id: 'a1-m3-l2',
+    title: 'Lección 2: Shopping and Stores',
+    description: 'Practice Some/Any with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: [
+      {
+        id: 'a1-m3-l2-grammar-1',
+        type: 'grammar',
+        title: 'Some/Any - Formation and Use',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l2-grammar-2',
+        type: 'grammar',
+        title: 'Some/Any - Practice Exercises',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l2-reading-1',
+        type: 'reading',
+        title: 'Reading: Lección 2: Shopping and Stores',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l2-listening-1',
+        type: 'listening',
+        title: 'Listening: Lección 2: Shopping and Stores',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l2-speaking-1',
+        type: 'speaking',
+        title: 'Speaking Practice: Lección 2: Shopping and Stores',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l2-writing-1',
+        type: 'writing',
+        title: 'Writing: Lección 2: Shopping and Stores',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l2-pronunciation-1',
+        type: 'pronunciation-practice',
+        title: 'Pronunciation: Some/Any',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l2-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Lección 2: Shopping and Stores',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l2-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Vocabulary Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l2-fill-blanks-1',
+        type: 'fill-in-blanks',
+        title: 'Complete the Sentences - Some/Any',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l2-multiple-choice-1',
+        type: 'multiple-choice',
+        title: 'Multiple Choice: Some/Any',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l2-matching-1',
+        type: 'matching',
+        title: 'Match Words and Meanings',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l2-sentence-building-1',
+        type: 'sentence-building',
+        title: 'Build Sentences - Some/Any',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l2-true-false-1',
+        type: 'true-false',
+        title: 'True or False: Lección 2: Shopping and Stores',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l2-dialogue-1',
+        type: 'dialogue-practice',
+        title: 'Dialogue Practice: Lección 2: Shopping and Stores',
+        // Content will be added in future updates
+      } as Exercise,
+    ]
+  },
+  {
+    id: 'a1-m3-l3',
+    title: 'Lección 3: At the Restaurant',
+    description: 'Practice Would like with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: [
+      {
+        id: 'a1-m3-l3-grammar-1',
+        type: 'grammar',
+        title: 'Would like - Formation and Use',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l3-grammar-2',
+        type: 'grammar',
+        title: 'Would like - Practice Exercises',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l3-reading-1',
+        type: 'reading',
+        title: 'Reading: Lección 3: At the Restaurant',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l3-listening-1',
+        type: 'listening',
+        title: 'Listening: Lección 3: At the Restaurant',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l3-speaking-1',
+        type: 'speaking',
+        title: 'Speaking Practice: Lección 3: At the Restaurant',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l3-writing-1',
+        type: 'writing',
+        title: 'Writing: Lección 3: At the Restaurant',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l3-pronunciation-1',
+        type: 'pronunciation-practice',
+        title: 'Pronunciation: Would like',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l3-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Lección 3: At the Restaurant',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l3-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Vocabulary Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l3-fill-blanks-1',
+        type: 'fill-in-blanks',
+        title: 'Complete the Sentences - Would like',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l3-multiple-choice-1',
+        type: 'multiple-choice',
+        title: 'Multiple Choice: Would like',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l3-matching-1',
+        type: 'matching',
+        title: 'Match Words and Meanings',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l3-sentence-building-1',
+        type: 'sentence-building',
+        title: 'Build Sentences - Would like',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l3-true-false-1',
+        type: 'true-false',
+        title: 'True or False: Lección 3: At the Restaurant',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l3-dialogue-1',
+        type: 'dialogue-practice',
+        title: 'Dialogue Practice: Lección 3: At the Restaurant',
+        // Content will be added in future updates
+      } as Exercise,
+    ]
+  },
+  {
+    id: 'a1-m3-l4',
+    title: 'Lección 4: Giving Directions',
+    description: 'Practice Prepositions of place with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: [
+      {
+        id: 'a1-m3-l4-grammar-1',
+        type: 'grammar',
+        title: 'Prepositions of place - Formation and Use',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l4-grammar-2',
+        type: 'grammar',
+        title: 'Prepositions of place - Practice Exercises',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l4-reading-1',
+        type: 'reading',
+        title: 'Reading: Lección 4: Giving Directions',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l4-listening-1',
+        type: 'listening',
+        title: 'Listening: Lección 4: Giving Directions',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l4-speaking-1',
+        type: 'speaking',
+        title: 'Speaking Practice: Lección 4: Giving Directions',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l4-writing-1',
+        type: 'writing',
+        title: 'Writing: Lección 4: Giving Directions',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l4-pronunciation-1',
+        type: 'pronunciation-practice',
+        title: 'Pronunciation: Prepositions of place',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l4-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Lección 4: Giving Directions',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l4-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Vocabulary Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l4-fill-blanks-1',
+        type: 'fill-in-blanks',
+        title: 'Complete the Sentences - Prepositions of place',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l4-multiple-choice-1',
+        type: 'multiple-choice',
+        title: 'Multiple Choice: Prepositions of place',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l4-matching-1',
+        type: 'matching',
+        title: 'Match Words and Meanings',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l4-sentence-building-1',
+        type: 'sentence-building',
+        title: 'Build Sentences - Prepositions of place',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l4-true-false-1',
+        type: 'true-false',
+        title: 'True or False: Lección 4: Giving Directions',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l4-dialogue-1',
+        type: 'dialogue-practice',
+        title: 'Dialogue Practice: Lección 4: Giving Directions',
+        // Content will be added in future updates
+      } as Exercise,
+    ]
+  },
+  {
+    id: 'a1-m3-l5',
+    title: 'Lección 5: Present Continuous',
+    description: 'Practice Present Continuous with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: [
+      {
+        id: 'a1-m3-l5-grammar-1',
+        type: 'grammar',
+        title: 'Present Continuous - Formation and Use',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l5-grammar-2',
+        type: 'grammar',
+        title: 'Present Continuous - Practice Exercises',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l5-reading-1',
+        type: 'reading',
+        title: 'Reading: Lección 5: Present Continuous',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l5-listening-1',
+        type: 'listening',
+        title: 'Listening: Lección 5: Present Continuous',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l5-speaking-1',
+        type: 'speaking',
+        title: 'Speaking Practice: Lección 5: Present Continuous',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l5-writing-1',
+        type: 'writing',
+        title: 'Writing: Lección 5: Present Continuous',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l5-pronunciation-1',
+        type: 'pronunciation-practice',
+        title: 'Pronunciation: Present Continuous',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l5-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Lección 5: Present Continuous',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l5-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Vocabulary Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l5-fill-blanks-1',
+        type: 'fill-in-blanks',
+        title: 'Complete the Sentences - Present Continuous',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l5-multiple-choice-1',
+        type: 'multiple-choice',
+        title: 'Multiple Choice: Present Continuous',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l5-matching-1',
+        type: 'matching',
+        title: 'Match Words and Meanings',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l5-sentence-building-1',
+        type: 'sentence-building',
+        title: 'Build Sentences - Present Continuous',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l5-true-false-1',
+        type: 'true-false',
+        title: 'True or False: Lección 5: Present Continuous',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l5-dialogue-1',
+        type: 'dialogue-practice',
+        title: 'Dialogue Practice: Lección 5: Present Continuous',
+        // Content will be added in future updates
+      } as Exercise,
+    ]
+  },
+  {
+    id: 'a1-m3-l6',
+    title: 'Lección 6: Mock Exam - Module 3',
+    description: 'Practice Module 3 Review with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: [
+      {
+        id: 'a1-m3-l6-grammar-1',
+        type: 'grammar',
+        title: 'Module 3 Review - Formation and Use',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l6-grammar-2',
+        type: 'grammar',
+        title: 'Module 3 Review - Practice Exercises',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l6-reading-1',
+        type: 'reading',
+        title: 'Reading: Lección 6: Mock Exam - Module 3',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l6-listening-1',
+        type: 'listening',
+        title: 'Listening: Lección 6: Mock Exam - Module 3',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l6-speaking-1',
+        type: 'speaking',
+        title: 'Speaking Practice: Lección 6: Mock Exam - Module 3',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l6-writing-1',
+        type: 'writing',
+        title: 'Writing: Lección 6: Mock Exam - Module 3',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l6-pronunciation-1',
+        type: 'pronunciation-practice',
+        title: 'Pronunciation: Module 3 Review',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l6-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Lección 6: Mock Exam - Module 3',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l6-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Vocabulary Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l6-fill-blanks-1',
+        type: 'fill-in-blanks',
+        title: 'Complete the Sentences - Module 3 Review',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l6-multiple-choice-1',
+        type: 'multiple-choice',
+        title: 'Multiple Choice: Module 3 Review',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l6-matching-1',
+        type: 'matching',
+        title: 'Match Words and Meanings',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l6-sentence-building-1',
+        type: 'sentence-building',
+        title: 'Build Sentences - Module 3 Review',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l6-true-false-1',
+        type: 'true-false',
+        title: 'True or False: Lección 6: Mock Exam - Module 3',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l6-dialogue-1',
+        type: 'dialogue-practice',
+        title: 'Dialogue Practice: Lección 6: Mock Exam - Module 3',
+        // Content will be added in future updates
+      } as Exercise,
+    ]
+  },
+  {
+    id: 'a1-m3-l7',
+    title: 'Lección 7: Consolidation and Practice',
+    description: 'Practice All Module 3 topics with comprehensive exercises',
+    duration: 90, // minutes
+    exercises: [
+      {
+        id: 'a1-m3-l7-grammar-1',
+        type: 'grammar',
+        title: 'All Module 3 topics - Formation and Use',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l7-grammar-2',
+        type: 'grammar',
+        title: 'All Module 3 topics - Practice Exercises',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l7-reading-1',
+        type: 'reading',
+        title: 'Reading: Lección 7: Consolidation and Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l7-listening-1',
+        type: 'listening',
+        title: 'Listening: Lección 7: Consolidation and Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l7-speaking-1',
+        type: 'speaking',
+        title: 'Speaking Practice: Lección 7: Consolidation and Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l7-writing-1',
+        type: 'writing',
+        title: 'Writing: Lección 7: Consolidation and Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l7-pronunciation-1',
+        type: 'pronunciation-practice',
+        title: 'Pronunciation: All Module 3 topics',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l7-vocabulary-1',
+        type: 'vocabulary',
+        title: 'Vocabulary: Lección 7: Consolidation and Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l7-vocabulary-2',
+        type: 'vocabulary',
+        title: 'Vocabulary Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l7-fill-blanks-1',
+        type: 'fill-in-blanks',
+        title: 'Complete the Sentences - All Module 3 topics',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l7-multiple-choice-1',
+        type: 'multiple-choice',
+        title: 'Multiple Choice: All Module 3 topics',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l7-matching-1',
+        type: 'matching',
+        title: 'Match Words and Meanings',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l7-sentence-building-1',
+        type: 'sentence-building',
+        title: 'Build Sentences - All Module 3 topics',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l7-true-false-1',
+        type: 'true-false',
+        title: 'True or False: Lección 7: Consolidation and Practice',
+        // Content will be added in future updates
+      } as Exercise,
+      {
+        id: 'a1-m3-l7-dialogue-1',
+        type: 'dialogue-practice',
+        title: 'Dialogue Practice: Lección 7: Consolidation and Practice',
+        // Content will be added in future updates
+      } as Exercise,
+    ]
+  },
+];
+
+
+// ===============================================
+// ALL MODULES EXPORT
+// ===============================================
+
+export const ALL_MODULES: Module[] = [
+  {
+    id: 'a1-module-1',
+    number: 1,
+    title: 'Módulo 1: Introducción y Presentaciones',
+    description: 'Aprende a presentarte, hablar sobre ti mismo y tu familia en situaciones cotidianas básicas',
+    duration: '4-5 semanas',
+    topics: ['Saludos y despedidas', 'Información personal básica', 'Familia y amigos', 'Números y fechas', 'Países y nacionalidades'],
+    grammar: ['Verb to be (am/is/are)', 'Personal pronouns (I, you, he, she, it, we, they)', 'Possessive adjectives (my, your, his, her, our, their)', 'Present Simple - positive', 'Questions with to be', 'Articles (a/an/the)'],
+    vocabulary: ['Saludos básicos', 'Países y nacionalidades', 'Números 0-100', 'Días de la semana', 'Meses del año', 'Familia (mother, father, brother, sister)'],
+    lessons: MODULE_1_LESSONS,
+    examPractice: {
+      mockExam: true,
+      examDuration: 60,
+      parts: ['Reading & Writing', 'Listening', 'Speaking']
+    }
+  },
+  {
+    id: 'a1-module-2',
+    number: 2,
+    title: 'Módulo 2: Vida Cotidiana y Rutinas',
+    description: 'Descubre cómo hablar sobre tu rutina diaria, trabajo y actividades cotidianas',
+    duration: '4-5 semanas',
+    topics: ['Rutinas diarias', 'Trabajo y profesiones', 'Tiempo y horarios', 'Actividades de tiempo libre', 'Casa y habitaciones'],
+    grammar: ['Present Simple - negative and questions', 'Frequency adverbs (always, usually, sometimes, never)', 'Prepositions of time (in, on, at)', 'Time expressions', "Can/can't for ability", 'Object pronouns'],
+    vocabulary: ['Profesiones básicas', 'Verbos de rutina diaria', 'Expresiones de tiempo', 'Habitaciones de la casa', 'Muebles básicos', 'Actividades de ocio'],
+    lessons: MODULE_2_LESSONS,
+    examPractice: {
+      mockExam: true,
+      examDuration: 60,
+      parts: ['Reading & Writing', 'Listening', 'Speaking']
+    }
+  },
+  {
+    id: 'a1-module-3',
+    number: 3,
+    title: 'Módulo 3: Compras, Comida y Lugares',
+    description: 'Aprende a comprar, pedir comida y moverte por la ciudad en inglés',
+    duration: '4-5 semanas',
+    topics: ['Comida y bebidas', 'Compras y tiendas', 'Restaurantes y cafés', 'Direcciones y lugares', 'Transporte público'],
+    grammar: ['There is/There are', 'Some/any/no', 'Countable and uncountable nouns', 'How much/How many', 'Prepositions of place (in, on, under, next to)', 'Imperatives (turn left, go straight)', 'Present Continuous'],
+    vocabulary: ['Alimentos y bebidas', 'Tiendas y comercios', 'Expresiones en restaurantes', 'Direcciones básicas', 'Medios de transporte', 'Colores y adjetivos descriptivos'],
+    lessons: MODULE_3_LESSONS,
+    examPractice: {
+      mockExam: true,
+      examDuration: 60,
+      parts: ['Reading & Writing', 'Listening', 'Speaking']
+    }
+  },
+];
+
+// ===============================================
+// COURSE CONFIGURATION
+// ===============================================
+
+export const A1_FULL_COURSE = {
+  id: 'a1-beginner-complete',
+  title: 'A1 Beginner English Course - Complete Program',
   level: 'A1',
-  title: 'Curso de Inglés A1',
-  description: 'Práctica ilimitada de ejercicios adaptados a nivel principiante',
+  description: 'Curso completo de inglés para principiantes nivel A1 (CEFR) con ejercicios interactivos, grabación de voz, evaluación de pronunciación y práctica exhaustiva de las 4 habilidades básicas',
+  duration: '12-15 semanas',
+  totalModules: 3,
+  totalLessons: 21,
   cefrLevel: 'A1',
-  categories: [
-    { id: 'all', name: 'All', icon: '📚' },
-    { id: 'grammar', name: 'Grammar', icon: '📝' },
-    { id: 'vocabulary', name: 'Vocabulary', icon: '💬' },
-    { id: 'reading', name: 'Reading', icon: '📖' },
-    { id: 'writing', name: 'Writing', icon: '✍️' },
-    { id: 'listening', name: 'Listening', icon: '🎧' },
-    { id: 'speaking', name: 'Speaking', icon: '🗣️' },
-    { id: 'pronunciation', name: 'Pronunciation', icon: '🔊' },
-    { id: 'exam-practice', name: 'Exam Practice', icon: '🎓' }
-  ],
-  difficultyLevels: [
-    { id: 'easy', name: 'Easy', description: 'Mix of affirmations and negative forms' },
-    { id: 'medium', name: 'Medium', description: 'Mix of derivations and negative forms' },
-    { id: 'hard', name: 'Hard', description: 'Complex structures and mixed forms' }
-  ],
+  cefrDescription: 'Can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type. Can introduce themselves and others and can ask and answer questions about personal details such as where they live, people they know and things they have.',
+  skills: ['Reading', 'Writing', 'Listening', 'Speaking'],
   features: [
-    'Exercises generated instantly',
-    'Always new and different content',
-    'Adapted to your A1 level and preferences',
-    'Immediate feedback and detailed explanations'
+    'Interactive exercises with instant feedback',
+    'Voice recording for speaking practice',
+    'Pronunciation evaluation with AI',
+    'Authentic listening materials',
+    'Guided writing practice',
+    'Grammar explanations and practice',
+    'Essential vocabulary building',
+    'Mock exams for each module',
+    'Progress tracking',
+    'Mobile-friendly design'
+  ],
+  targetAudience: 'Complete beginners or false beginners who want to build a solid foundation in English',
+  learningOutcomes: [
+    'Introduce yourself and greet others',
+    'Talk about your family, work, and daily routines',
+    'Ask and answer simple questions',
+    'Understand basic instructions and information',
+    'Write simple sentences and short texts',
+    'Order food and ask for directions',
+    'Understand basic signs and notices'
   ]
 };
 
-// ============================================
-// TEMAS SUGERIDOS PARA A1 (Opcionales)
-// ============================================
+const TOTAL_LESSONS = MODULE_1_LESSONS.length + MODULE_2_LESSONS.length + MODULE_3_LESSONS.length;
 
 export const A1_SUGGESTED_TOPICS = [
   'General topic',
@@ -586,3 +1653,7 @@ export const A1_MODULE_2_LESSONS: Lesson[] = [
 ];
 
 export default A1_COURSE_CONFIG;
+console.log(`✅ A1 Course Data loaded successfully`);
+console.log(`📚 Total Modules: ${ALL_MODULES.length}`);
+console.log(`📖 Total Lessons: ${TOTAL_LESSONS}`);
+console.log(`🎯 CEFR Level: A1 - Beginner`);

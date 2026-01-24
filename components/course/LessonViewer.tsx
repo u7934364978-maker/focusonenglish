@@ -33,6 +33,9 @@ interface LessonViewerProps {
 type EvaluationResult = TextAnswerEvaluationResponse | WritingEvaluationResponse | MultipleChoiceEvaluationResponse;
 
 export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) {
+  // Detect lesson level from lesson ID (e.g., "a1-m1-l1" -> "A1", "b2-m1-l1" -> "B2")
+  const lessonLevel = (lesson.id.split('-')[0].toUpperCase()) as 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+  
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
   const [answers, setAnswers] = useState<{ [questionId: string]: string }>({});
   const [exerciseScores, setExerciseScores] = useState<{ [exerciseId: string]: number }>({});
@@ -41,6 +44,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   const [currentScore, setCurrentScore] = useState(0);
   const [recordedAudio, setRecordedAudio] = useState<{ blob: Blob; transcript: string } | null>(null);
   const [pronunciationFeedback, setPronunciationFeedback] = useState<any>(null);
+  const [pronunciationRecordings, setPronunciationRecordings] = useState<{ [index: number]: { blob: Blob; transcript: string; evaluation?: any } }>({});
   const [aiEvaluations, setAiEvaluations] = useState<{ [questionId: string]: EvaluationResult }>({});
   const [evaluating, setEvaluating] = useState(false);
   
@@ -94,7 +98,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 userAnswer: userAnswer,
                 correctAnswer: Array.isArray(q.correctAnswer) ? q.correctAnswer[0] : q.correctAnswer,
                 context: currentExercise.type === 'reading' ? (currentExercise as any).text : '',
-                level: 'B2'
+                level: lessonLevel
               })
             });
 
@@ -133,7 +137,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 correctAnswer: q.correctAnswer,
                 expectedConcepts: (q as any).expectedConcepts || [],
                 context: currentExercise.type === 'reading' ? (currentExercise as any).text?.substring(0, 2000) : '',
-                level: 'B2',
+                level: lessonLevel,
                 questionType: currentExercise.type === 'reading' ? 'comprehension' : 'general'
               })
             });
@@ -302,7 +306,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               correctAnswer: q.acceptableAnswers || [q.correctAnswer],
               expectedConcepts: [q.wordType || 'word transformation', q.transformation || ''],
               context: currentExercise.text || '',
-              level: 'B2',
+              level: lessonLevel,
               questionType: 'word-formation'
             })
           });
@@ -405,7 +409,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               correctAnswer: acceptableAnswers,
               expectedConcepts: [(currentExercise as any).title || 'grammar'],
               context: context.substring(0, 2000),
-              level: 'B2',
+              level: lessonLevel,
               questionType: 'gap-fill'
             })
           });
@@ -570,7 +574,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               userAnswer: userAnswer,
               correctAnswer: [item.correctParaphrase || item.paraphrase],
               expectedConcepts: ['paraphrasing'],
-              level: 'B2',
+              level: lessonLevel,
               questionType: 'paraphrase'
             })
           });
@@ -702,7 +706,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             writingText: userSummary,
             taskType: 'summary',
             sourceText: exercise.originalText || exercise.sourceText,
-            level: 'B2',
+            level: lessonLevel,
             rubric: exercise.rubric || {
               content: 40,
               conciseness: 20,
@@ -767,7 +771,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 correctAnswer: [q.correctAnswer],
                 expectedConcepts: ['reading comprehension'],
                 context: exercise.readingText,
-                level: 'B2',
+                level: lessonLevel,
                 questionType: 'short-answer'
               })
             });
@@ -867,6 +871,48 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   };
 
   const renderExercise = () => {
+    // Check if exercise has required content
+    const hasContent = currentExercise.questions || 
+                      currentExercise.grammarPoint || 
+                      currentExercise.text || 
+                      currentExercise.prompt ||
+                      currentExercise.audioUrl ||
+                      (currentExercise as any).gaps ||
+                      (currentExercise as any).challenges;
+
+    // Render "Coming Soon" message for incomplete exercises
+    if (!hasContent) {
+      return (
+        <div className="space-y-6">
+          <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 text-center">
+            <div className="text-6xl mb-4">🚧</div>
+            <h3 className="text-2xl font-bold text-blue-900 mb-3">
+              Contenido en Desarrollo
+            </h3>
+            <p className="text-slate-700 mb-4">
+              Esta lección está actualmente en desarrollo y estará disponible pronto.
+            </p>
+            <div className="bg-white rounded-lg p-4 border border-blue-300 max-w-md mx-auto">
+              <p className="text-sm text-slate-600">
+                <strong>Ejercicio:</strong> {currentExercise.title || 'Sin título'}
+              </p>
+              <p className="text-sm text-slate-600 mt-2">
+                <strong>Tipo:</strong> {currentExercise.type}
+              </p>
+            </div>
+          </div>
+          <div className="flex justify-center">
+            <button
+              onClick={nextExercise}
+              className="px-8 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-bold text-lg"
+            >
+              Continuar a Siguiente Ejercicio →
+            </button>
+          </div>
+        </div>
+      );
+    }
+
     switch (currentExercise.type) {
       case 'grammar':
       case 'vocabulary':
@@ -879,14 +925,18 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 <span>{currentExercise.title}</span>
               </h3>
               <div className="space-y-3">
-                <div>
-                  <p className="font-semibold text-coral-800 mb-1">Grammar Point:</p>
-                  <p className="text-slate-700">{currentExercise.grammarPoint}</p>
-                </div>
-                <div>
-                  <p className="font-semibold text-coral-800 mb-1">Explanation:</p>
-                  <p className="text-slate-700 whitespace-pre-line">{currentExercise.explanation}</p>
-                </div>
+                {currentExercise.grammarPoint && (
+                  <div>
+                    <p className="font-semibold text-coral-800 mb-1">Grammar Point:</p>
+                    <p className="text-slate-700">{currentExercise.grammarPoint}</p>
+                  </div>
+                )}
+                {currentExercise.explanation && (
+                  <div>
+                    <p className="font-semibold text-coral-800 mb-1">Explanation:</p>
+                    <p className="text-slate-700 whitespace-pre-line">{currentExercise.explanation}</p>
+                  </div>
+                )}
                 {currentExercise.examples && currentExercise.examples.length > 0 && (
                   <div>
                     <p className="font-semibold text-coral-800 mb-2">Examples:</p>
@@ -904,9 +954,10 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             </div>
 
             {/* Questions */}
-            <div className="space-y-4">
-              <h4 className="text-lg font-bold text-slate-900">Practice Questions:</h4>
-              {currentExercise.questions.map((question, idx) => (
+            {currentExercise.questions && currentExercise.questions.length > 0 && (
+              <div className="space-y-4">
+                <h4 className="text-lg font-bold text-slate-900">Practice Questions:</h4>
+                {currentExercise.questions.map((question, idx) => (
                 <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
                   <p className="font-semibold text-slate-900 mb-3">
                     {idx + 1}. {question.question} <span className="text-sm text-coral-600">({question.points} {question.points === 1 ? 'point' : 'points'})</span>
@@ -1008,9 +1059,10 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                   )}
                 </div>
               ))}
-            </div>
+              </div>
+            )}
 
-            {!showFeedback && (
+            {!showFeedback && currentExercise.questions && currentExercise.questions.length > 0 && (
               <button
                 onClick={checkAnswers}
                 disabled={evaluating}
@@ -1030,6 +1082,27 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         );
 
       case 'reading':
+        // Check if reading exercise has required content
+        if (!currentExercise.text || !currentExercise.questions || currentExercise.questions.length === 0) {
+          return (
+            <div className="bg-yellow-50 rounded-xl p-8 border-2 border-yellow-200 text-center">
+              <div className="text-6xl mb-4">📖</div>
+              <h3 className="text-2xl font-bold text-yellow-900 mb-3">
+                Contenido de Lectura No Disponible
+              </h3>
+              <p className="text-slate-700 mb-4">
+                El texto de lectura y/o las preguntas para este ejercicio no están disponibles aún.
+              </p>
+              <button
+                onClick={nextExercise}
+                className="px-8 py-4 bg-yellow-600 text-white rounded-xl hover:bg-yellow-700 transition-colors font-bold text-lg"
+              >
+                Continuar →
+              </button>
+            </div>
+          );
+        }
+        
         return (
           <div className="grid lg:grid-cols-2 gap-6">
             {/* Reading Text - Sticky on large screens */}
@@ -1230,6 +1303,305 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       case 'pronunciation':
         const pronExercise = currentExercise as any;
+        
+        // Function to evaluate pronunciation recordings
+        const evaluatePronunciationRecordings = async () => {
+          setEvaluating(true);
+          
+          try {
+            const recordingsArray = Object.entries(pronunciationRecordings);
+            if (recordingsArray.length === 0) {
+              alert('Please record at least one sentence before evaluating.');
+              setEvaluating(false);
+              return;
+            }
+
+            // Evaluate each recording
+            for (const [idxStr, recording] of recordingsArray) {
+              const idx = parseInt(idxStr);
+              const targetSentence = pronExercise.targetSentences[idx];
+              
+              if (!recording.evaluation) {
+                const response = await fetch('/api/evaluate-speaking', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify({
+                    transcript: recording.transcript,
+                    expectedText: targetSentence.text || targetSentence.sentence,
+                    exerciseType: 'pronunciation',
+                    level: currentLevel
+                  }),
+                });
+
+                if (!response.ok) {
+                  throw new Error('Failed to evaluate pronunciation');
+                }
+
+                const data = await response.json();
+                
+                if (data.success && data.evaluation) {
+                  setPronunciationRecordings(prev => ({
+                    ...prev,
+                    [idx]: {
+                      ...prev[idx],
+                      evaluation: data.evaluation
+                    }
+                  }));
+                }
+              }
+            }
+
+            // Calculate overall pronunciation score
+            const evaluatedRecordings = Object.values(pronunciationRecordings).filter(r => r.evaluation);
+            if (evaluatedRecordings.length > 0) {
+              const avgScore = evaluatedRecordings.reduce((sum, r) => sum + (r.evaluation?.overallScore || 0), 0) / evaluatedRecordings.length;
+              setExerciseScores(prev => ({ ...prev, [currentExercise.id]: avgScore }));
+            }
+
+          } catch (error) {
+            console.error('Error evaluating pronunciation:', error);
+            alert('Error evaluating pronunciation. Please try again.');
+          } finally {
+            setEvaluating(false);
+          }
+        };
+        
+        // Check if this is an A1-style pronunciation exercise with targetSentences and questions
+        if (pronExercise.targetSentences && pronExercise.questions) {
+          return (
+            <div className="space-y-6">
+              {/* Header */}
+              <div className="bg-orange-50 rounded-xl p-6 border-2 border-orange-200">
+                <h3 className="text-xl font-bold text-orange-900 mb-2 flex items-center gap-2">
+                  <span>🗣️</span>
+                  <span>{pronExercise.title}</span>
+                </h3>
+                {pronExercise.instructions && (
+                  <p className="text-slate-700 mt-2">💡 {pronExercise.instructions}</p>
+                )}
+                {pronExercise.focusPoints && pronExercise.focusPoints.length > 0 && (
+                  <div className="mt-3">
+                    <p className="text-sm font-semibold text-orange-800 mb-2">Focus Points:</p>
+                    <div className="space-y-1">
+                      {pronExercise.focusPoints.map((point: string, idx: number) => (
+                        <div key={idx} className="text-sm text-orange-700">
+                          • {point}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* Target Sentences with Audio */}
+              <div className="space-y-4">
+                <h4 className="text-lg font-bold text-slate-900">🎧 Listen and Repeat:</h4>
+                {pronExercise.targetSentences.map((item: any, idx: number) => (
+                  <div key={idx} className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                    <div className="flex items-start gap-3">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-orange-600 text-white font-bold text-sm flex-shrink-0">
+                        {idx + 1}
+                      </span>
+                      <div className="flex-1 space-y-3">
+                        <p className="text-lg font-semibold text-slate-900">{item.text || item.sentence}</p>
+                        {item.phonetic && (
+                          <p className="text-sm text-orange-700 font-mono">{item.phonetic}</p>
+                        )}
+                        {item.audioUrl && (
+                          <div className="space-y-2">
+                            <p className="text-sm font-semibold text-slate-700">🎧 Listen to the model:</p>
+                            <audio 
+                              controls 
+                              className="w-full"
+                              preload="metadata"
+                            >
+                              <source src={item.audioUrl} type="audio/mpeg" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </div>
+                        )}
+                        <div className="pt-2">
+                          <p className="text-sm font-semibold text-slate-700 mb-2">🎤 Now you try:</p>
+                          <EnhancedVoiceRecorder
+                            targetText={item.text || item.sentence}
+                            onRecordingComplete={(blob, transcript) => {
+                              setPronunciationRecordings(prev => ({
+                                ...prev,
+                                [idx]: { blob, transcript }
+                              }));
+                            }}
+                          />
+                          {pronunciationRecordings[idx] && (
+                            <div className="mt-3 p-3 bg-blue-50 rounded-lg border border-blue-200">
+                              <p className="text-sm text-blue-900">
+                                <strong>Your recording:</strong> "{pronunciationRecordings[idx].transcript}"
+                              </p>
+                              {pronunciationRecordings[idx].evaluation && (
+                                <div className="mt-2">
+                                  <div className="flex items-center gap-2 mb-2">
+                                    <span className="text-sm font-semibold">Score:</span>
+                                    <div className="flex-1 bg-gray-200 rounded-full h-2">
+                                      <div 
+                                        className="bg-green-500 h-2 rounded-full transition-all"
+                                        style={{ width: `${pronunciationRecordings[idx].evaluation.overallScore}%` }}
+                                      ></div>
+                                    </div>
+                                    <span className="text-sm font-bold">{pronunciationRecordings[idx].evaluation.overallScore}%</span>
+                                  </div>
+                                  <p className="text-xs text-slate-600 mt-1">
+                                    {pronunciationRecordings[idx].evaluation.feedback}
+                                  </p>
+                                </div>
+                              )}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Evaluate Pronunciation Button */}
+              {Object.keys(pronunciationRecordings).length > 0 && (
+                <button
+                  onClick={evaluatePronunciationRecordings}
+                  disabled={evaluating || Object.values(pronunciationRecordings).every(r => r.evaluation)}
+                  className="w-full px-6 py-4 bg-orange-600 text-white rounded-xl hover:bg-orange-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {evaluating ? (
+                    <>
+                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                      <span>Evaluating Pronunciation...</span>
+                    </>
+                  ) : Object.values(pronunciationRecordings).every(r => r.evaluation) ? (
+                    <>
+                      <span>✓</span>
+                      <span>Pronunciation Evaluated</span>
+                    </>
+                  ) : (
+                    <>
+                      <span>🎯</span>
+                      <span>Evaluate My Pronunciation</span>
+                    </>
+                  )}
+                </button>
+              )}
+
+              {/* Questions */}
+              {pronExercise.questions && pronExercise.questions.length > 0 && (
+                <div className="space-y-4">
+                  <h4 className="text-lg font-bold text-slate-900">📝 Pronunciation Questions:</h4>
+                  {pronExercise.questions.map((q: any, idx: number) => (
+                    <div key={q.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
+                      <p className="font-semibold text-slate-900 mb-3">
+                        {idx + 1}. {q.question} <span className="text-sm text-coral-600">({q.points} point{q.points !== 1 ? 's' : ''})</span>
+                      </p>
+                      
+                      {q.type === 'multiple-choice' && (
+                        <div className="space-y-2">
+                          {q.options.map((option: string, optIdx: number) => (
+                            <label key={optIdx} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer">
+                              <input
+                                type="radio"
+                                name={q.id}
+                                value={option}
+                                checked={answers[q.id] === option}
+                                onChange={(e) => handleAnswer(q.id, e.target.value)}
+                                disabled={showFeedback}
+                                className="w-4 h-4"
+                              />
+                              <span>{option}</span>
+                            </label>
+                          ))}
+                        </div>
+                      )}
+
+                      {q.type === 'true-false' && (
+                        <div className="space-y-2">
+                          {['True', 'False'].map((option: string) => (
+                            <label key={option} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer">
+                              <input
+                                type="radio"
+                                name={q.id}
+                                value={option}
+                                checked={answers[q.id] === option}
+                                onChange={(e) => handleAnswer(q.id, e.target.value)}
+                                disabled={showFeedback}
+                                className="w-4 h-4"
+                              />
+                              <span>{option}</span>
+                            </label>
+                          ))}
+                        </div>
+                      )}
+
+                      {q.type === 'fill-blank' && (
+                        <input
+                          type="text"
+                          value={answers[q.id] || ''}
+                          onChange={(e) => handleAnswer(q.id, e.target.value)}
+                          disabled={showFeedback}
+                          placeholder="Type your answer here..."
+                          className="w-full px-4 py-3 rounded-lg border-2 border-slate-300 focus:border-coral-500 focus:ring-2 focus:ring-coral-200 transition-all disabled:bg-slate-100"
+                        />
+                      )}
+
+                      {showFeedback && (
+                        <div className={`mt-3 p-3 rounded-lg ${
+                          answers[q.id] === q.correctAnswer || 
+                          (q.acceptableAnswers && q.acceptableAnswers.some((ans: string) => 
+                            ans.toLowerCase() === (answers[q.id] || '').toLowerCase()
+                          ))
+                            ? 'bg-green-50 border-2 border-green-200'
+                            : 'bg-red-50 border-2 border-red-200'
+                        }`}>
+                          <p className="font-semibold mb-1">
+                            {answers[q.id] === q.correctAnswer || 
+                            (q.acceptableAnswers && q.acceptableAnswers.some((ans: string) => 
+                              ans.toLowerCase() === (answers[q.id] || '').toLowerCase()
+                            ))
+                              ? '✓ Correct!' 
+                              : '✗ Incorrect'}
+                          </p>
+                          <p className="text-sm">
+                            <strong>Correct answer:</strong> {q.correctAnswer}
+                          </p>
+                          {q.explanation && (
+                            <p className="text-sm mt-2">
+                              <strong>Explanation:</strong> {q.explanation}
+                            </p>
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+
+                  {!showFeedback && (
+                    <button
+                      onClick={checkAnswers}
+                      disabled={evaluating}
+                      className="w-full px-6 py-4 bg-coral-600 text-white rounded-xl hover:bg-coral-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      {evaluating ? (
+                        <>
+                          <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                          <span>Evaluating...</span>
+                        </>
+                      ) : (
+                        'Check Answers'
+                      )}
+                    </button>
+                  )}
+                </div>
+              )}
+            </div>
+          );
+        }
+
+        // Otherwise, use the B2-style PronunciationPractice component
         return (
           <div className="space-y-6">
             <PronunciationPractice
@@ -1340,6 +1712,27 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         );
 
       case 'speaking':
+        // Check if speaking exercise has required content
+        if (!currentExercise.prompt) {
+          return (
+            <div className="bg-purple-50 rounded-xl p-8 border-2 border-purple-200 text-center">
+              <div className="text-6xl mb-4">🎤</div>
+              <h3 className="text-2xl font-bold text-purple-900 mb-3">
+                Contenido de Speaking No Disponible
+              </h3>
+              <p className="text-slate-700 mb-4">
+                Las instrucciones para este ejercicio de speaking no están disponibles aún.
+              </p>
+              <button
+                onClick={nextExercise}
+                className="px-8 py-4 bg-purple-600 text-white rounded-xl hover:bg-purple-700 transition-colors font-bold text-lg"
+              >
+                Continuar →
+              </button>
+            </div>
+          );
+        }
+        
         return (
           <EnhancedSpeakingExercise
             question={{
@@ -1362,7 +1755,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               setShowFeedback(true);
               console.log('Speaking evaluation:', evaluation);
             }}
-            level="B2"
+            level={lessonLevel}
           />
         );
 
@@ -1464,6 +1857,27 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         );
 
       case 'listening':
+        // Check if listening exercise has required content
+        if (!currentExercise.audioUrl || !currentExercise.questions || currentExercise.questions.length === 0) {
+          return (
+            <div className="bg-peach-50 rounded-xl p-8 border-2 border-peach-200 text-center">
+              <div className="text-6xl mb-4">🎧</div>
+              <h3 className="text-2xl font-bold text-peach-900 mb-3">
+                Contenido de Audio No Disponible
+              </h3>
+              <p className="text-slate-700 mb-4">
+                El audio y/o las preguntas para este ejercicio no están disponibles aún.
+              </p>
+              <button
+                onClick={nextExercise}
+                className="px-8 py-4 bg-peach-600 text-white rounded-xl hover:bg-peach-700 transition-colors font-bold text-lg"
+              >
+                Continuar →
+              </button>
+            </div>
+          );
+        }
+        
         return (
           <div className="grid lg:grid-cols-2 gap-6">
             {/* Audio Player - Sticky on large screens */}
@@ -1688,7 +2102,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       writingType: currentExercise.writingType,
                       minWords: currentExercise.minWords,
                       maxWords: currentExercise.maxWords,
-                      level: 'B2',
+                      level: lessonLevel,
                       rubric: currentExercise.rubric
                     })
                   });
@@ -3916,19 +4330,21 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           </div>
 
           {/* Learning Objectives */}
-          <details className="mt-4">
-            <summary className="cursor-pointer font-semibold text-coral-700 hover:text-coral-800">
-              🎯 Learning Objectives
-            </summary>
-            <ul className="mt-2 space-y-1">
-              {lesson.objectives.map((objective, idx) => (
-                <li key={idx} className="text-sm text-slate-700 flex items-start gap-2">
-                  <span className="text-orange-500 mt-0.5">✓</span>
-                  <span>{objective}</span>
-                </li>
-              ))}
-            </ul>
-          </details>
+          {lesson.objectives && lesson.objectives.length > 0 && (
+            <details className="mt-4">
+              <summary className="cursor-pointer font-semibold text-coral-700 hover:text-coral-800">
+                🎯 Learning Objectives
+              </summary>
+              <ul className="mt-2 space-y-1">
+                {lesson.objectives.map((objective, idx) => (
+                  <li key={idx} className="text-sm text-slate-700 flex items-start gap-2">
+                    <span className="text-orange-500 mt-0.5">✓</span>
+                    <span>{objective}</span>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          )}
         </div>
 
         {/* Exercise Content */}
