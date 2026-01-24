@@ -528,6 +528,111 @@ London is a beautiful city. It is exciting and interesting. We are lucky to stud
       correctAnswer: 'false',
       explanation: 'The text says "Our classmates are from different countries."',
       points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q9',
+      type: 'fill-blank',
+      question: 'Maria is ___ years old.',
+      correctAnswer: '22',
+      acceptableAnswers: ['22', 'twenty-two', 'twenty two'],
+      explanation: 'The text says "I am 22 years old."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q10',
+      type: 'fill-blank',
+      question: 'Maria studies English in ___.',
+      correctAnswer: 'London',
+      acceptableAnswers: ['London', 'london'],
+      explanation: 'The text says "I study English in London."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q11',
+      type: 'multiple-choice',
+      question: 'What is Mrs. Brown like?',
+      options: ['Nice and friendly', 'Strict and serious', 'Boring', 'Angry'],
+      correctAnswer: 'Nice and friendly',
+      explanation: 'The text says "She is very nice and friendly."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q12',
+      type: 'true-false',
+      question: 'Maria and Tom are happy in their English class.',
+      correctAnswer: 'true',
+      explanation: 'The text says "We are happy in our English class."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q13',
+      type: 'fill-blank',
+      question: 'Tom is from ___.',
+      correctAnswer: 'England',
+      acceptableAnswers: ['England', 'england'],
+      explanation: 'The text says "He is from England."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q14',
+      type: 'multiple-choice',
+      question: 'What adjectives describe the classroom?',
+      options: ['Small and old', 'Big and comfortable', 'Dark and cold', 'Noisy and crowded'],
+      correctAnswer: 'Big and comfortable',
+      explanation: 'The text says "The classroom is big and comfortable."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q15',
+      type: 'true-false',
+      question: 'Maria is a teacher.',
+      correctAnswer: 'false',
+      explanation: 'The text says "I am a student."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q16',
+      type: 'fill-blank',
+      question: 'The teacher\'s name is Mrs. ___.',
+      correctAnswer: 'Brown',
+      acceptableAnswers: ['Brown', 'brown'],
+      explanation: 'The text says "Our teacher is Mrs. Brown."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q17',
+      type: 'multiple-choice',
+      question: 'How are the classmates described?',
+      options: ['Unfriendly and rude', 'Friendly and helpful', 'Quiet and shy', 'Lazy and tired'],
+      correctAnswer: 'Friendly and helpful',
+      explanation: 'The text says "They are friendly and helpful."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q18',
+      type: 'true-false',
+      question: 'London is described as boring.',
+      correctAnswer: 'false',
+      explanation: 'The text says London is "exciting and interesting."',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q19',
+      type: 'fill-blank',
+      question: 'Maria and Tom are ___ to study in London.',
+      correctAnswer: 'lucky',
+      acceptableAnswers: ['lucky', 'Lucky'],
+      explanation: 'The text says "We are lucky to study here!"',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l1-r1-q20',
+      type: 'multiple-choice',
+      question: 'What do Maria and Tom study?',
+      options: ['Spanish', 'French', 'English', 'German'],
+      correctAnswer: 'English',
+      explanation: 'The text says "I study English in London."',
+      points: 1
     }
   ],
   vocabularyHelp: [
