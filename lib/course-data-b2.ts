@@ -1573,6 +1573,233 @@ Her friend Tom noticed her discomfort and came over. He explained that the dress
             points: 1
           }
         ]
+      },
+      // VOCABULARY EXERCISE - Health & Wellness Theme (20 questions)
+      {
+        id: 'b2-m1-l1-vocabulary-health',
+        type: 'vocabulary',
+        title: 'Health & Wellness Vocabulary',
+        vocabularySet: [
+          { word: 'nutritious', definition: 'containing substances that help the body stay healthy and grow', example: 'Eating nutritious meals is essential for maintaining good health.' },
+          { word: 'immune system', definition: 'the system that protects your body from diseases and infections', example: 'Regular exercise strengthens your immune system.' },
+          { word: 'well-being', definition: 'the state of being comfortable, healthy, and happy', example: 'Meditation improves both physical and mental well-being.' },
+          { word: 'ailment', definition: 'a minor illness or health problem', example: 'She suffered from various ailments throughout her life.' },
+          { word: 'chronic', definition: 'lasting for a long time or constantly recurring', example: 'He had been dealing with chronic back pain for years.' },
+          { word: 'diagnosis', definition: 'the identification of an illness or problem by examining symptoms', example: 'The doctor had given her a diagnosis before she started treatment.' },
+          { word: 'preventive', definition: 'intended to stop something before it happens', example: 'Preventive healthcare had saved many lives in the community.' },
+          { word: 'sedentary', definition: 'characterized by much sitting and little physical activity', example: 'A sedentary lifestyle can lead to serious health problems.' },
+          { word: 'symptom', definition: 'a physical or mental sign indicating a condition or disease', example: 'Fatigue is a common symptom of many illnesses.' },
+          { word: 'rehabilitation', definition: 'the process of helping someone recover from injury or illness', example: 'She had been undergoing rehabilitation after her surgery.' },
+          { word: 'metabolism', definition: 'the chemical processes in the body that convert food into energy', example: 'Exercise helps boost your metabolism.' },
+          { word: 'supplement', definition: 'something added to your diet to improve health or make up for deficiencies', example: 'Many people take vitamin supplements during winter.' },
+          { word: 'holistic', definition: 'treating the whole person rather than just symptoms', example: 'She preferred holistic medicine to traditional treatments.' },
+          { word: 'vigorous', definition: 'characterized by physical strength and active energy', example: 'Vigorous exercise had always been part of his routine.' },
+          { word: 'resilience', definition: 'the ability to recover quickly from difficulties or illness', example: 'Building resilience is important for mental health.' }
+        ],
+        questions: [
+          {
+            id: 'vh1',
+            type: 'multiple-choice',
+            question: 'Which word means "lasting for a long time or constantly recurring"?',
+            options: ['acute', 'temporary', 'chronic', 'brief'],
+            correctAnswer: 'chronic',
+            explanation: 'Chronic describes conditions that persist over long periods.',
+            points: 1
+          },
+          {
+            id: 'vh2',
+            type: 'fill-blank',
+            question: 'A(n) ___ lifestyle, with little physical activity, can lead to health problems.',
+            correctAnswer: 'sedentary',
+            explanation: 'Sedentary describes a lifestyle with much sitting and little movement.',
+            points: 1
+          },
+          {
+            id: 'vh3',
+            type: 'multiple-choice',
+            question: 'What does "well-being" refer to?',
+            options: [
+              'A state of being wealthy',
+              'A state of being comfortable, healthy, and happy',
+              'A medical treatment',
+              'A type of exercise'
+            ],
+            correctAnswer: 'A state of being comfortable, healthy, and happy',
+            explanation: 'Well-being encompasses physical, mental, and emotional health.',
+            points: 1
+          },
+          {
+            id: 'vh4',
+            type: 'fill-blank',
+            question: 'The doctor had given her a ___ before prescribing any medication.',
+            correctAnswer: 'diagnosis',
+            explanation: 'A diagnosis is the identification of an illness through examination.',
+            points: 1
+          },
+          {
+            id: 'vh5',
+            type: 'multiple-choice',
+            question: 'Which term describes the system that protects your body from diseases?',
+            options: ['digestive system', 'nervous system', 'immune system', 'circulatory system'],
+            correctAnswer: 'immune system',
+            explanation: 'The immune system defends the body against infections and diseases.',
+            points: 1
+          },
+          {
+            id: 'vh6',
+            type: 'fill-blank',
+            question: 'She had been taking vitamin ___ to improve her health during winter.',
+            correctAnswer: 'supplements',
+            explanation: 'Supplements are additions to your diet to improve health.',
+            points: 1
+          },
+          {
+            id: 'vh7',
+            type: 'multiple-choice',
+            question: 'What does "preventive" healthcare mean?',
+            options: [
+              'Healthcare that treats serious diseases',
+              'Healthcare intended to stop problems before they happen',
+              'Healthcare for elderly patients',
+              'Emergency medical care'
+            ],
+            correctAnswer: 'Healthcare intended to stop problems before they happen',
+            explanation: 'Preventive healthcare focuses on preventing diseases rather than treating them.',
+            points: 1
+          },
+          {
+            id: 'vh8',
+            type: 'fill-blank',
+            question: 'After her injury, she had been undergoing ___ to regain her strength.',
+            correctAnswer: 'rehabilitation',
+            explanation: 'Rehabilitation is the process of recovering from injury or illness.',
+            points: 1
+          },
+          {
+            id: 'vh9',
+            type: 'multiple-choice',
+            question: 'A "holistic" approach to medicine means:',
+            options: [
+              'Using only natural remedies',
+              'Treating the whole person, not just symptoms',
+              'Focusing only on mental health',
+              'Using expensive treatments'
+            ],
+            correctAnswer: 'Treating the whole person, not just symptoms',
+            explanation: 'Holistic medicine considers physical, mental, and emotional aspects of health.',
+            points: 1
+          },
+          {
+            id: 'vh10',
+            type: 'fill-blank',
+            question: 'Fatigue is a common ___ of many illnesses.',
+            correctAnswer: 'symptom',
+            explanation: 'A symptom is a physical or mental sign indicating a condition.',
+            points: 1
+          },
+          {
+            id: 'vh11',
+            type: 'multiple-choice',
+            question: 'Which word describes "characterized by physical strength and active energy"?',
+            options: ['lethargic', 'vigorous', 'passive', 'weak'],
+            correctAnswer: 'vigorous',
+            explanation: 'Vigorous describes energetic and forceful physical activity.',
+            points: 1
+          },
+          {
+            id: 'vh12',
+            type: 'fill-blank',
+            question: 'Eating ___ meals with plenty of vegetables is essential for good health.',
+            correctAnswer: 'nutritious',
+            explanation: 'Nutritious means containing substances that help the body stay healthy.',
+            points: 1
+          },
+          {
+            id: 'vh13',
+            type: 'multiple-choice',
+            question: 'Your ___ is the rate at which your body converts food into energy.',
+            options: ['circulation', 'respiration', 'metabolism', 'digestion'],
+            correctAnswer: 'metabolism',
+            explanation: 'Metabolism refers to chemical processes that convert food to energy.',
+            points: 1
+          },
+          {
+            id: 'vh14',
+            type: 'fill-blank',
+            question: 'Building mental ___ helps you recover quickly from difficult situations.',
+            correctAnswer: 'resilience',
+            explanation: 'Resilience is the ability to recover quickly from difficulties.',
+            points: 1
+          },
+          {
+            id: 'vh15',
+            type: 'multiple-choice',
+            question: 'A minor illness or health problem is called a(n):',
+            options: ['ailment', 'epidemic', 'syndrome', 'disorder'],
+            correctAnswer: 'ailment',
+            explanation: 'An ailment is a minor illness or health problem.',
+            points: 1
+          },
+          {
+            id: 'vh16',
+            type: 'short-answer',
+            question: 'Use "chronic" in a sentence about health.',
+            correctAnswer: 'Example: He had been suffering from chronic headaches for several years.',
+            acceptableAnswers: [
+              'He had been suffering from chronic headaches',
+              'She has chronic pain',
+              'Chronic diseases require ongoing treatment',
+              'He suffers from chronic illness'
+            ],
+            explanation: 'Chronic describes long-lasting or recurring health conditions.',
+            points: 2
+          },
+          {
+            id: 'vh17',
+            type: 'short-answer',
+            question: 'Explain the difference between "preventive" and "treatment" healthcare.',
+            correctAnswer: 'Preventive healthcare aims to stop diseases before they occur, while treatment healthcare addresses existing illnesses.',
+            acceptableAnswers: [
+              'Preventive healthcare aims to stop diseases before they occur, while treatment healthcare addresses existing illnesses',
+              'Preventive stops problems before they happen, treatment cures existing problems',
+              'Preventive is before illness, treatment is after illness',
+              'Preventive prevents disease, treatment cures disease'
+            ],
+            explanation: 'Preventive focuses on prevention; treatment focuses on cure.',
+            points: 2
+          },
+          {
+            id: 'vh18',
+            type: 'multiple-choice',
+            question: 'Complete: "She had been following a ___ exercise routine that included running and swimming."',
+            options: ['sedentary', 'vigorous', 'passive', 'gentle'],
+            correctAnswer: 'vigorous',
+            explanation: 'Vigorous describes intense, energetic physical activity.',
+            points: 1
+          },
+          {
+            id: 'vh19',
+            type: 'fill-blank',
+            question: 'The ___ approach considers not just physical symptoms but also mental and emotional health.',
+            correctAnswer: 'holistic',
+            explanation: 'Holistic medicine treats the whole person, not just symptoms.',
+            points: 1
+          },
+          {
+            id: 'vh20',
+            type: 'short-answer',
+            question: 'Write a sentence using "immune system" and "strengthen".',
+            correctAnswer: 'Example: Regular exercise and a healthy diet help strengthen your immune system.',
+            acceptableAnswers: [
+              'Regular exercise and a healthy diet help strengthen your immune system',
+              'Vitamin C strengthens the immune system',
+              'She had been trying to strengthen her immune system',
+              'Good sleep strengthens your immune system'
+            ],
+            explanation: 'The immune system protects the body and can be strengthened through healthy habits.',
+            points: 2
+          }
+        ]
       }
     ]
   },
