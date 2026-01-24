@@ -368,12 +368,6 @@ const A1_M1_L7_SPEAKING: Exercise = {
     }
   ]
 };
-      question: 'Talk about family activities',
-      expectedAnswer: 'Student should mention activities they do with family.',
-      points: 3
-    }
-  ]
-};
 
 // WRITING EXERCISE
 const A1_M1_L7_WRITING: Exercise = {
