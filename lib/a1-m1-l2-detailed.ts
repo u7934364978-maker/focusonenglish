@@ -1001,7 +1001,7 @@ export const A1_M1_L2_PRONUNCIATION = {
     {
       id: 'a1-m1-l2-pronun-q7',
       type: 'multiple-choice',
-      question: 'In "Kate's pen", how do we pronounce the 's?',
+      question: 'In "Kate\'s pen", how do we pronounce the \'s?',
       options: ["Like /z/","Like /s/","Like /ɪz/","Silent"],
       correctAnswer: 'Like /s/',
       explanation: 'After "Kate" (ends with unvoiced /t/), we say /s/.',
@@ -1055,10 +1055,10 @@ export const A1_M1_L2_PRONUNCIATION = {
     {
       id: 'a1-m1-l2-pronun-q13',
       type: 'multiple-choice',
-      question: 'In "Tom's bike", the 's sounds like:',
+      question: 'In "Tom\'s bike", the \'s sounds like:',
       options: ["/z/","/s/","/ɪz/","silent"],
       correctAnswer: '/z/',
-      explanation: 'After "Tom" (ends with voiced /m/), the 's sounds like /z/.',
+      explanation: 'After "Tom" (ends with voiced /m/), the \'s sounds like /z/.',
       points: 1
     },
     {
