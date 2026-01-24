@@ -12,7 +12,6 @@ import { A1_M1_L6_ALL_EXERCISES } from './a1-m1-l6-detailed';
 import { A1_M1_L7_ALL_EXERCISES } from './a1-m1-l7-detailed';
 import { A1_M2_L1_ALL_EXERCISES } from './a1-m2-l1-detailed';
 import { A1_M2_L2_ALL_EXERCISES } from './a1-m2-l2-detailed';
-import { A1_M2_L2_ALL_EXERCISES } from './a1-m2-l2-detailed';
 
 export type ExerciseType = 
   | 'reading'
