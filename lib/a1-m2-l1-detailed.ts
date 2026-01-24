@@ -670,5 +670,319 @@ export const A1_M2_L1_ALL_EXERCISES = [
   A1_M2_L1_WRITING,
   A1_M2_L1_PRONUNCIATION,
   A1_M2_L1_VOCABULARY_1,
-  A1_M2_L1_VOCABULARY_2
+  A1_M2_L1_VOCABULARY_2,
+  A1_M2_L1_SENTENCE_COMPLETION,
+  A1_M2_L1_ERROR_IDENTIFICATION,
+  A1_M2_L1_GAP_FILL,
+  A1_M2_L1_SENTENCE_REORDERING
 ];
+
+// ============================================
+// SENTENCE COMPLETION EXERCISE
+// ============================================
+export const A1_M2_L1_SENTENCE_COMPLETION = {
+  id: 'a1-m2-l1-sentence-completion',
+  type: 'sentence-completion',
+  title: 'Complete Daily Routine Sentences',
+  instructions: 'Complete each sentence with the correct form of the verb in Present Simple.',
+  sentences: [
+    {
+      id: 'sc1',
+      prompt: 'I ___ (wake) up at 7 am every day.',
+      correctCompletion: 'wake',
+      options: ['wake', 'wakes', 'waking', 'waked'],
+      explanation: 'With "I", we use the base form of the verb: wake.',
+      points: 1
+    },
+    {
+      id: 'sc2',
+      prompt: 'She ___ (go) to work by bus.',
+      correctCompletion: 'goes',
+      options: ['go', 'goes', 'going', 'gos'],
+      explanation: 'With "she", we add -es to "go": goes.',
+      points: 1
+    },
+    {
+      id: 'sc3',
+      prompt: 'They ___ (have) lunch at 1 pm.',
+      correctCompletion: 'have',
+      options: ['have', 'has', 'having', 'haves'],
+      explanation: 'With "they", we use the base form: have.',
+      points: 1
+    },
+    {
+      id: 'sc4',
+      prompt: 'He ___ (watch) TV in the evening.',
+      correctCompletion: 'watches',
+      options: ['watch', 'watches', 'watchs', 'watching'],
+      explanation: 'With "he", we add -es to verbs ending in -ch: watches.',
+      points: 1
+    },
+    {
+      id: 'sc5',
+      prompt: 'We ___ (study) English every Monday.',
+      correctCompletion: 'study',
+      options: ['study', 'studies', 'studys', 'studying'],
+      explanation: 'With "we", we use the base form: study.',
+      points: 1
+    },
+    {
+      id: 'sc6',
+      prompt: 'My sister ___ (finish) work at 6 pm.',
+      correctCompletion: 'finishes',
+      options: ['finish', 'finishes', 'finishs', 'finishing'],
+      explanation: 'With third person singular, we add -es to verbs ending in -sh: finishes.',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// ERROR IDENTIFICATION EXERCISE
+// ============================================
+export const A1_M2_L1_ERROR_IDENTIFICATION = {
+  id: 'a1-m2-l1-error-identification',
+  type: 'error-identification',
+  title: 'Find Present Simple Errors',
+  instructions: 'Find and correct errors in these sentences about daily routines.',
+  sentences: [
+    {
+      id: 'ei1',
+      sentence: 'She wake up at 7 am.',
+      hasError: true,
+      errorWord: 'wake',
+      correction: 'wakes',
+      explanation: 'Incorrect! With "she", we need -s: She wakes up at 7 am.',
+      points: 1
+    },
+    {
+      id: 'ei2',
+      sentence: 'They go to school every day.',
+      hasError: false,
+      explanation: 'Correct! "They" takes the base form "go".',
+      points: 1
+    },
+    {
+      id: 'ei3',
+      sentence: 'He don\'t like coffee.',
+      hasError: true,
+      errorWord: 'don\'t',
+      correction: 'doesn\'t',
+      explanation: 'Incorrect! With "he", we use "doesn\'t": He doesn\'t like coffee.',
+      points: 1
+    },
+    {
+      id: 'ei4',
+      sentence: 'I works in an office.',
+      hasError: true,
+      errorWord: 'works',
+      correction: 'work',
+      explanation: 'Incorrect! With "I", we don\'t add -s: I work in an office.',
+      points: 1
+    },
+    {
+      id: 'ei5',
+      sentence: 'We eat dinner at 8 pm.',
+      hasError: false,
+      explanation: 'Correct! This sentence has no errors.',
+      points: 1
+    },
+    {
+      id: 'ei6',
+      sentence: 'She studys English.',
+      hasError: true,
+      errorWord: 'studys',
+      correction: 'studies',
+      explanation: 'Incorrect! For verbs ending in consonant+y, change y to i and add -es: studies.',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// GAP FILL TEXT EXERCISE
+// ============================================
+export const A1_M2_L1_GAP_FILL = {
+  id: 'a1-m2-l1-gap-fill',
+  type: 'gap-fill-text',
+  title: 'My Daily Routine',
+  instructions: 'Fill in the gaps with the correct form of the verbs in Present Simple.',
+  text: `My name is Sarah and this is my daily routine.
+
+I {{1}} (wake) up at 6:30 every morning. I {{2}} (have) a shower and {{3}} (get) dressed. Then I {{4}} (make) breakfast for my family.
+
+My husband {{5}} (leave) for work at 7:30. He {{6}} (work) in a bank. My children {{7}} (go) to school by bus. They {{8}} (start) classes at 8:30.
+
+I {{9}} (be) a teacher. I {{10}} (teach) English at a high school. I {{11}} (finish) work at 3 pm.
+
+In the evening, we {{12}} (eat) dinner together. My daughter {{13}} (do) her homework and my son {{14}} (play) video games. We {{15}} (watch) TV before bed.`,
+  gaps: [
+    {
+      id: 'gap1',
+      gapNumber: 1,
+      correctAnswer: 'wake',
+      explanation: 'I wake up (base form with "I").',
+      points: 1
+    },
+    {
+      id: 'gap2',
+      gapNumber: 2,
+      correctAnswer: 'have',
+      explanation: 'I have (base form).',
+      points: 1
+    },
+    {
+      id: 'gap3',
+      gapNumber: 3,
+      correctAnswer: 'get',
+      explanation: 'I get (base form).',
+      points: 1
+    },
+    {
+      id: 'gap4',
+      gapNumber: 4,
+      correctAnswer: 'make',
+      explanation: 'I make (base form).',
+      points: 1
+    },
+    {
+      id: 'gap5',
+      gapNumber: 5,
+      correctAnswer: 'leaves',
+      explanation: 'He leaves (add -s for third person).',
+      points: 1
+    },
+    {
+      id: 'gap6',
+      gapNumber: 6,
+      correctAnswer: 'works',
+      explanation: 'He works (add -s).',
+      points: 1
+    },
+    {
+      id: 'gap7',
+      gapNumber: 7,
+      correctAnswer: 'go',
+      explanation: 'They go (base form with "they").',
+      points: 1
+    },
+    {
+      id: 'gap8',
+      gapNumber: 8,
+      correctAnswer: 'start',
+      explanation: 'They start (base form).',
+      points: 1
+    },
+    {
+      id: 'gap9',
+      gapNumber: 9,
+      correctAnswer: 'am',
+      acceptableAlternatives: ["'m"],
+      explanation: 'I am (verb to be).',
+      points: 1
+    },
+    {
+      id: 'gap10',
+      gapNumber: 10,
+      correctAnswer: 'teach',
+      explanation: 'I teach (base form).',
+      points: 1
+    },
+    {
+      id: 'gap11',
+      gapNumber: 11,
+      correctAnswer: 'finish',
+      explanation: 'I finish (base form).',
+      points: 1
+    },
+    {
+      id: 'gap12',
+      gapNumber: 12,
+      correctAnswer: 'eat',
+      explanation: 'We eat (base form).',
+      points: 1
+    },
+    {
+      id: 'gap13',
+      gapNumber: 13,
+      correctAnswer: 'does',
+      explanation: 'She does (irregular verb, add -es).',
+      points: 1
+    },
+    {
+      id: 'gap14',
+      gapNumber: 14,
+      correctAnswer: 'plays',
+      explanation: 'He plays (add -s).',
+      points: 1
+    },
+    {
+      id: 'gap15',
+      gapNumber: 15,
+      correctAnswer: 'watch',
+      explanation: 'We watch (base form).',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// SENTENCE REORDERING EXERCISE
+// ============================================
+export const A1_M2_L1_SENTENCE_REORDERING = {
+  id: 'a1-m2-l1-sentence-reordering',
+  type: 'sentence-reordering',
+  title: 'Order Daily Routine Sentences',
+  instructions: 'Put the words in the correct order to make sentences about daily routines.',
+  items: [
+    {
+      id: 'sr1',
+      shuffledSentences: ['breakfast', 'at', 'I', 'eat', '7 am'],
+      correctOrder: [2, 3, 0, 1, 4],
+      context: 'Make a sentence about breakfast time',
+      explanation: 'Correct: I eat breakfast at 7 am. (Subject + verb + object + time)',
+      points: 1
+    },
+    {
+      id: 'sr2',
+      shuffledSentences: ['to', 'She', 'goes', 'work', 'by', 'car'],
+      correctOrder: [1, 2, 3, 4, 5, 0],
+      context: 'Make a sentence about going to work',
+      explanation: 'Correct: She goes to work by car. (Subject + verb + to + place + by + transport)',
+      points: 1
+    },
+    {
+      id: 'sr3',
+      shuffledSentences: ['every', 'study', 'We', 'evening'],
+      correctOrder: [2, 1, 0, 3],
+      context: 'Make a sentence about studying',
+      explanation: 'Correct: We study every evening. (Subject + verb + frequency)',
+      points: 1
+    },
+    {
+      id: 'sr4',
+      shuffledSentences: ['doesn\'t', 'He', 'like', 'coffee'],
+      correctOrder: [1, 0, 2, 3],
+      context: 'Make a negative sentence',
+      explanation: 'Correct: He doesn\'t like coffee. (Subject + doesn\'t + verb + object)',
+      points: 1
+    },
+    {
+      id: 'sr5',
+      shuffledSentences: ['TV', 'watch', 'at', 'They', 'night'],
+      correctOrder: [3, 1, 0, 2, 4],
+      context: 'Make a sentence about watching TV',
+      explanation: 'Correct: They watch TV at night. (Subject + verb + object + time)',
+      points: 1
+    },
+    {
+      id: 'sr6',
+      shuffledSentences: ['school', 'starts', 'My', 'at', '8:30'],
+      correctOrder: [2, 1, 0, 3, 4],
+      context: 'Make a sentence about school time',
+      explanation: 'Correct: My school starts at 8:30. (Possessive + subject + verb + time)',
+      points: 1
+    }
+  ]
+};
+

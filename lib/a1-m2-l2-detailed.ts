@@ -686,5 +686,312 @@ export const A1_M2_L2_ALL_EXERCISES = [
   A1_M2_L2_WRITING,
   A1_M2_L2_PRONUNCIATION,
   A1_M2_L2_VOCABULARY_1,
-  A1_M2_L2_VOCABULARY_2
+  A1_M2_L2_VOCABULARY_2,
+  A1_M2_L2_SENTENCE_COMPLETION,
+  A1_M2_L2_ERROR_IDENTIFICATION,
+  A1_M2_L2_GAP_FILL,
+  A1_M2_L2_COLLOCATION_MATCHING
 ];
+
+// ============================================
+// SENTENCE COMPLETION EXERCISE
+// ============================================
+export const A1_M2_L2_SENTENCE_COMPLETION = {
+  id: 'a1-m2-l2-sentence-completion',
+  type: 'sentence-completion',
+  title: 'Complete Job Questions',
+  instructions: 'Complete questions about jobs and professions with the correct question words or verb forms.',
+  sentences: [
+    {
+      id: 'sc1',
+      prompt: '___ do you do? - I\'m a teacher.',
+      correctCompletion: 'What',
+      options: ['What', 'Where', 'Who', 'When'],
+      explanation: 'We use "What" to ask about jobs: What do you do?',
+      points: 1
+    },
+    {
+      id: 'sc2',
+      prompt: '___ does she work? - She works in a hospital.',
+      correctCompletion: 'Where',
+      options: ['What', 'Where', 'Who', 'How'],
+      explanation: 'We use "Where" to ask about place of work.',
+      points: 1
+    },
+    {
+      id: 'sc3',
+      prompt: '___ he a doctor? - Yes, he is.',
+      correctCompletion: 'Is',
+      options: ['Is', 'Does', 'Do', 'Are'],
+      explanation: 'We use "Is" to make yes/no questions with "to be".',
+      points: 1
+    },
+    {
+      id: 'sc4',
+      prompt: '___ they work in an office? - No, they don\'t.',
+      correctCompletion: 'Do',
+      options: ['Do', 'Does', 'Are', 'Is'],
+      explanation: 'We use "Do" for yes/no questions with plural subjects.',
+      points: 1
+    },
+    {
+      id: 'sc5',
+      prompt: '___ does your father work? - He works for a bank.',
+      correctCompletion: 'Where',
+      options: ['What', 'Where', 'Who', 'When'],
+      explanation: 'We use "Where" to ask about the place of work.',
+      points: 1
+    },
+    {
+      id: 'sc6',
+      prompt: '___ she like her job? - Yes, she does.',
+      correctCompletion: 'Does',
+      options: ['Do', 'Does', 'Is', 'Are'],
+      explanation: 'We use "Does" for yes/no questions with third person singular.',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// ERROR IDENTIFICATION EXERCISE
+// ============================================
+export const A1_M2_L2_ERROR_IDENTIFICATION = {
+  id: 'a1-m2-l2-error-identification',
+  type: 'error-identification',
+  title: 'Find Question Errors',
+  instructions: 'Find and correct errors in questions about jobs.',
+  sentences: [
+    {
+      id: 'ei1',
+      sentence: 'What she does?',
+      hasError: true,
+      errorWord: 'she does',
+      correction: 'does she do',
+      explanation: 'Incorrect! Question order: What does she do?',
+      points: 1
+    },
+    {
+      id: 'ei2',
+      sentence: 'Where do you work?',
+      hasError: false,
+      explanation: 'Correct! This question has proper word order.',
+      points: 1
+    },
+    {
+      id: 'ei3',
+      sentence: 'Does he is a teacher?',
+      hasError: true,
+      errorWord: 'Does',
+      correction: 'Is',
+      explanation: 'Incorrect! With "to be", use "Is": Is he a teacher?',
+      points: 1
+    },
+    {
+      id: 'ei4',
+      sentence: 'Do she work here?',
+      hasError: true,
+      errorWord: 'Do',
+      correction: 'Does',
+      explanation: 'Incorrect! With "she", use "Does": Does she work here?',
+      points: 1
+    },
+    {
+      id: 'ei5',
+      sentence: 'Are they students?',
+      hasError: false,
+      explanation: 'Correct! Proper question with "to be".',
+      points: 1
+    },
+    {
+      id: 'ei6',
+      sentence: 'Where works your mother?',
+      hasError: true,
+      errorWord: 'works your',
+      correction: 'does your mother work',
+      explanation: 'Incorrect! Question order: Where does your mother work?',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// GAP FILL TEXT EXERCISE
+// ============================================
+export const A1_M2_L2_GAP_FILL = {
+  id: 'a1-m2-l2-gap-fill',
+  type: 'gap-fill-text',
+  title: 'Interview About Jobs',
+  instructions: 'Complete this job interview with the correct question words and verb forms.',
+  text: `Interviewer: Hello! Thank you for coming. Let me ask you some questions.
+
+Interviewer: {{1}} do you do?
+Candidate: I {{2}} a software developer.
+
+Interviewer: {{3}} do you work?
+Candidate: I {{4}} for a technology company in the city center.
+
+Interviewer: {{5}} you like your job?
+Candidate: Yes, I {{6}}. It's very interesting.
+
+Interviewer: {{7}} does your company do?
+Candidate: We {{8}} mobile applications.
+
+Interviewer: {{9}} many people work there?
+Candidate: About 50 people {{10}} in my office.
+
+Interviewer: {{11}} you work on weekends?
+Candidate: No, I {{12}}. I work Monday to Friday.
+
+Interviewer: That sounds great! Thank you for your time.`,
+  gaps: [
+    {
+      id: 'gap1',
+      gapNumber: 1,
+      correctAnswer: 'What',
+      explanation: '"What" to ask about job.',
+      points: 1
+    },
+    {
+      id: 'gap2',
+      gapNumber: 2,
+      correctAnswer: 'am',
+      acceptableAlternatives: ["'m"],
+      explanation: 'I am a software developer.',
+      points: 1
+    },
+    {
+      id: 'gap3',
+      gapNumber: 3,
+      correctAnswer: 'Where',
+      explanation: '"Where" to ask about place.',
+      points: 1
+    },
+    {
+      id: 'gap4',
+      gapNumber: 4,
+      correctAnswer: 'work',
+      explanation: 'I work for...',
+      points: 1
+    },
+    {
+      id: 'gap5',
+      gapNumber: 5,
+      correctAnswer: 'Do',
+      explanation: '"Do you" for questions.',
+      points: 1
+    },
+    {
+      id: 'gap6',
+      gapNumber: 6,
+      correctAnswer: 'do',
+      explanation: 'Yes, I do.',
+      points: 1
+    },
+    {
+      id: 'gap7',
+      gapNumber: 7,
+      correctAnswer: 'What',
+      explanation: '"What does" for third person questions.',
+      points: 1
+    },
+    {
+      id: 'gap8',
+      gapNumber: 8,
+      correctAnswer: 'make',
+      acceptableAlternatives: ['develop', 'create'],
+      explanation: 'We make applications.',
+      points: 1
+    },
+    {
+      id: 'gap9',
+      gapNumber: 9,
+      correctAnswer: 'How',
+      explanation: '"How many" to ask about quantity.',
+      points: 1
+    },
+    {
+      id: 'gap10',
+      gapNumber: 10,
+      correctAnswer: 'work',
+      explanation: 'People work (plural).',
+      points: 1
+    },
+    {
+      id: 'gap11',
+      gapNumber: 11,
+      correctAnswer: 'Do',
+      explanation: '"Do you work".',
+      points: 1
+    },
+    {
+      id: 'gap12',
+      gapNumber: 12,
+      correctAnswer: "don't",
+      acceptableAlternatives: ['do not'],
+      explanation: 'No, I don\'t.',
+      points: 1
+    }
+  ]
+};
+
+// ============================================
+// COLLOCATION MATCHING EXERCISE
+// ============================================
+export const A1_M2_L2_COLLOCATION_MATCHING = {
+  id: 'a1-m2-l2-collocation-matching',
+  type: 'collocation-matching',
+  title: 'Match Jobs with Workplaces',
+  instructions: 'Match each job with the typical workplace.',
+  pairs: [
+    {
+      id: 'cm1',
+      word: 'Teacher',
+      correctMatch: 'school',
+      distractors: ['hospital', 'restaurant', 'office'],
+      example: 'A teacher works in a school.',
+      points: 1
+    },
+    {
+      id: 'cm2',
+      word: 'Doctor',
+      correctMatch: 'hospital',
+      distractors: ['school', 'shop', 'factory'],
+      example: 'A doctor works in a hospital.',
+      points: 1
+    },
+    {
+      id: 'cm3',
+      word: 'Chef',
+      correctMatch: 'restaurant',
+      distractors: ['hospital', 'school', 'bank'],
+      example: 'A chef works in a restaurant.',
+      points: 1
+    },
+    {
+      id: 'cm4',
+      word: 'Nurse',
+      correctMatch: 'hospital',
+      distractors: ['restaurant', 'shop', 'office'],
+      example: 'A nurse works in a hospital.',
+      points: 1
+    },
+    {
+      id: 'cm5',
+      word: 'Shop assistant',
+      correctMatch: 'shop',
+      distractors: ['hospital', 'school', 'factory'],
+      example: 'A shop assistant works in a shop.',
+      points: 1
+    },
+    {
+      id: 'cm6',
+      word: 'Engineer',
+      correctMatch: 'office',
+      distractors: ['hospital', 'restaurant', 'school'],
+      example: 'An engineer works in an office.',
+      points: 1
+    }
+  ]
+};
+

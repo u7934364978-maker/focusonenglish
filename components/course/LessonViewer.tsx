@@ -878,7 +878,11 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       currentExercise.prompt ||
                       currentExercise.audioUrl ||
                       (currentExercise as any).gaps ||
-                      (currentExercise as any).challenges;
+                      (currentExercise as any).challenges ||
+                      (currentExercise as any).sentences ||
+                      (currentExercise as any).items ||
+                      (currentExercise as any).pairs ||
+                      (currentExercise as any).transformations;
 
     // Render "Coming Soon" message for incomplete exercises
     if (!hasContent) {
