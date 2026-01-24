@@ -84,6 +84,131 @@ Examples:
       correctAnswer: 'False',
       explanation: 'False. "Her" is an object pronoun. We must say: "She is my sister."',
       points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q7',
+      type: 'multiple-choice',
+      question: 'Tom is my classmate. ___ is very intelligent.',
+      options: ['He', 'She', 'His', 'Him'],
+      correctAnswer: 'He',
+      explanation: 'Tom is a man/boy, so we use "He" (subject pronoun).',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q8',
+      type: 'multiple-choice',
+      question: 'My parents are at home. ___ are watching TV.',
+      options: ['He', 'She', 'They', 'Them'],
+      correctAnswer: 'They',
+      explanation: '"My parents" (two people) = They',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q9',
+      type: 'fill-blank',
+      question: 'This is my dog. ___ likes to play in the park.',
+      correctAnswer: 'It',
+      acceptableAnswers: ['It', 'it', 'He', 'he', 'She', 'she'],
+      explanation: 'For animals, we typically use "It", though "He" or "She" is also acceptable.',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q10',
+      type: 'multiple-choice',
+      question: 'My sister and her husband live in Paris. ___ speak French.',
+      options: ['He', 'She', 'We', 'They'],
+      correctAnswer: 'They',
+      explanation: '"My sister and her husband" (two people) = They',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q11',
+      type: 'fill-blank',
+      question: 'The car is new. ___ is very expensive.',
+      correctAnswer: 'It',
+      acceptableAnswers: ['It', 'it'],
+      explanation: 'For objects and things, we use "It".',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q12',
+      type: 'multiple-choice',
+      question: 'My teacher is Mrs. Brown. ___ teaches English.',
+      options: ['He', 'She', 'They', 'It'],
+      correctAnswer: 'She',
+      explanation: 'Mrs. Brown is a woman, so we use "She".',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q13',
+      type: 'fill-blank',
+      question: 'You and I are good friends. ___ like the same music.',
+      correctAnswer: 'We',
+      acceptableAnswers: ['We', 'we'],
+      explanation: '"You and I" = We (first person plural)',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q14',
+      type: 'multiple-choice',
+      question: 'The books are on the shelf. ___ are very old.',
+      options: ['It', 'Its', 'They', 'Them'],
+      correctAnswer: 'They',
+      explanation: '"The books" (plural) = They',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q15',
+      type: 'fill-blank',
+      question: 'Mr. Smith is my neighbor. ___ is very friendly.',
+      correctAnswer: 'He',
+      acceptableAnswers: ['He', 'he'],
+      explanation: 'Mr. Smith is a man, so we use "He".',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q16',
+      type: 'multiple-choice',
+      question: 'My aunt lives in London. ___ works in a bank.',
+      options: ['He', 'She', 'They', 'Her'],
+      correctAnswer: 'She',
+      explanation: '"My aunt" is a woman, so we use "She" (subject pronoun).',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q17',
+      type: 'fill-blank',
+      question: 'The children are playing outside. ___ are very happy.',
+      correctAnswer: 'They',
+      acceptableAnswers: ['They', 'they'],
+      explanation: '"The children" (plural) = They',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q18',
+      type: 'multiple-choice',
+      question: 'This is my house. ___ is big and beautiful.',
+      options: ['He', 'She', 'It', 'They'],
+      correctAnswer: 'It',
+      explanation: 'For buildings and places, we use "It".',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q19',
+      type: 'true-false',
+      question: 'We can say: "Me and John are friends."',
+      correctAnswer: 'False',
+      explanation: 'False. We must say: "John and I are friends." Use "I" (subject pronoun), not "me" (object pronoun).',
+      points: 1
+    },
+    {
+      id: 'a1-m1-l2-g1-q20',
+      type: 'fill-blank',
+      question: 'My grandparents are retired. ___ travel a lot.',
+      correctAnswer: 'They',
+      acceptableAnswers: ['They', 'they'],
+      explanation: '"My grandparents" (two people) = They',
+      points: 1
     }
   ]
 };
