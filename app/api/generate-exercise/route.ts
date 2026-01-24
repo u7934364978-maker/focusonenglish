@@ -18,8 +18,8 @@ import {
   CEFRLevel
 } from '@/lib/exercise-types';
 
-// Usando Node.js runtime para acceder a process.env en runtime
-export const runtime = 'edge';
+// Usando Node.js runtime por defecto para mayor compatibilidad con variables de entorno
+// export const runtime = 'edge';
 
 // ============================================
 // POST - Generar ejercicio
