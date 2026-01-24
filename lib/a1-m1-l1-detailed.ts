@@ -697,7 +697,8 @@ export const A1_M1_L1_LISTENING = {
       id: 'a1-m1-l1-list-q5',
       type: 'true-false',
       question: 'John has three children.',
-      correctAnswer: 'false',
+      options: ['True', 'False'],
+      correctAnswer: 'False',
       explanation: 'John says "I have two children."',
       points: 1
     },
@@ -705,7 +706,8 @@ export const A1_M1_L1_LISTENING = {
       id: 'a1-m1-l1-list-q6',
       type: 'true-false',
       question: 'Sarah is 33 years old.',
-      correctAnswer: 'true',
+      options: ['True', 'False'],
+      correctAnswer: 'True',
       explanation: 'John says "She is 33 years old."',
       points: 1
     },
@@ -731,7 +733,8 @@ export const A1_M1_L1_LISTENING = {
       id: 'a1-m1-l1-list-q9',
       type: 'true-false',
       question: 'John is single.',
-      correctAnswer: 'false',
+      options: ['True', 'False'],
+      correctAnswer: 'False',
       explanation: 'John says "I am married", so he is not single.',
       points: 1
     },
@@ -757,7 +760,8 @@ export const A1_M1_L1_LISTENING = {
       id: 'a1-m1-l1-list-q12',
       type: 'true-false',
       question: 'Sarah is older than John.',
-      correctAnswer: 'false',
+      options: ['True', 'False'],
+      correctAnswer: 'False',
       explanation: 'John is 35 and Sarah is 33, so John is older.',
       points: 1
     },
@@ -783,7 +787,8 @@ export const A1_M1_L1_LISTENING = {
       id: 'a1-m1-l1-list-q15',
       type: 'true-false',
       question: 'Their home in London is old.',
-      correctAnswer: 'false',
+      options: ['True', 'False'],
+      correctAnswer: 'False',
       explanation: 'John says "our new home", not old home.',
       points: 1
     },
@@ -809,7 +814,8 @@ export const A1_M1_L1_LISTENING = {
       id: 'a1-m1-l1-list-q18',
       type: 'true-false',
       question: 'Sarah works in the medical profession.',
-      correctAnswer: 'true',
+      options: ['True', 'False'],
+      correctAnswer: 'True',
       explanation: 'Sarah is a doctor, which is a medical profession.',
       points: 1
     },
