@@ -246,6 +246,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
     duration: 90, // minutes
     exercises: A1_M2_L2_ALL_EXERCISES as Exercise[]
   },
+  {
     id: 'a1-m2-l3',
     title: 'Lección 3: Time and Schedules',
     description: 'Practice Time expressions with comprehensive exercises',
