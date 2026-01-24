@@ -1187,6 +1187,41 @@ export const A1_M1_L1_VOCABULARY_1 = {
   id: 'a1-m1-l1-vocabulary-1',
   type: 'vocabulary',
   title: 'Vocabulary: Personal Information',
+  explanation: `
+In this vocabulary exercise, you will learn **20 essential words** to talk about yourself and introduce yourself in English. This vocabulary is fundamental for level A1 and will help you communicate basic personal information.
+
+## What You Will Learn:
+
+### 👤 **Basic Personal Information**
+Learn to talk about your **name, age, country, and nationality** - the most basic information when meeting someone new.
+
+### 💼 **Occupations and Professions**
+Discover words to describe different jobs: **student, teacher, doctor, nurse** - essential vocabulary to say what you do.
+
+### 👨‍👩‍👧‍👦 **Family and Marital Status**
+Understand how to talk about your **family, married/single** status - important for describing your personal life.
+
+### 🏠 **Places**
+Learn words related to where you live: **home, city, country** - useful for talking about locations.
+
+### 📱 **Contact Information**
+Master how to give your contact details: **address, phone number, email** - practical vocabulary for everyday situations.
+
+### 😊 **Feelings and Qualities**
+Express how you feel: **happy, friendly** - basic adjectives to describe yourself and others.
+
+### 🗣️ **Language**
+Talk about the languages you speak - important for communication.
+
+## Why This Vocabulary Is Important:
+
+✅ **First Impressions**: This vocabulary helps you introduce yourself confidently
+✅ **Real-Life Situations**: Use these words in daily conversations, forms, and introductions
+✅ **Foundation for A1**: These are the building blocks for basic English communication
+✅ **Practical Application**: You'll use these words every time you meet someone new
+
+**Practice Tip:** After learning each word, try to use it in a sentence about yourself!
+  `,
   vocabularySet: [
     { word: 'name', definition: 'what you are called', example: 'My name is Maria.' },
     { word: 'age', definition: 'how old you are', example: 'I am 25 years old.' },
