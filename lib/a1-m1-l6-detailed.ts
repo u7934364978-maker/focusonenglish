@@ -673,6 +673,38 @@ export const A1_M1_L6_SENTENCE_COMPLETION = {
       options: ['France', 'French', 'Franch'],
       explanation: 'Review: France is the country.',
       points: 1
+    },
+    {
+      id: 'sc3',
+      prompt: 'My brother ___ 30 years old.',
+      correctCompletion: 'is',
+      options: ['am', 'is', 'are'],
+      explanation: 'Review: "My brother" (he) takes "is".',
+      points: 1
+    },
+    {
+      id: 'sc4',
+      prompt: 'They ___ from Germany.',
+      correctCompletion: 'are',
+      options: ['am', 'is', 'are'],
+      explanation: 'Review: "They" takes "are".',
+      points: 1
+    },
+    {
+      id: 'sc5',
+      prompt: '___ mother is a teacher.',
+      correctCompletion: 'My',
+      options: ['My', 'I', 'Me'],
+      explanation: 'Review: Use possessive adjective "my" before noun.',
+      points: 1
+    },
+    {
+      id: 'sc6',
+      prompt: 'We ___ British.',
+      correctCompletion: 'are',
+      options: ['am', 'is', 'are'],
+      explanation: 'Review: "We" takes "are".',
+      points: 1
     }
   ]
 };
@@ -698,6 +730,40 @@ export const A1_M1_L6_ERROR_IDENTIFICATION = {
       hasError: false,
       explanation: 'Correct!',
       points: 1
+    },
+    {
+      id: 'ei3',
+      sentence: 'She are from Italy.',
+      hasError: true,
+      errorWord: 'are',
+      correction: 'is',
+      explanation: 'Use "is" with "she".',
+      points: 1
+    },
+    {
+      id: 'ei4',
+      sentence: 'My brother have 25 years.',
+      hasError: true,
+      errorWord: 'have',
+      correction: 'is',
+      explanation: 'Say "is 25 years old" not "have 25 years".',
+      points: 1
+    },
+    {
+      id: 'ei5',
+      sentence: 'We is from Canada.',
+      hasError: true,
+      errorWord: 'is',
+      correction: 'are',
+      explanation: 'Use "are" with "we".',
+      points: 1
+    },
+    {
+      id: 'ei6',
+      sentence: 'His name is Tom.',
+      hasError: false,
+      explanation: 'Correct!',
+      points: 1
     }
   ]
 };
@@ -709,7 +775,9 @@ export const A1_M1_L6_GAP_FILL = {
   instructions: 'Complete this review text.',
   text: `Hello! {{1}} name is Tom. I {{2}} 25 years old. I {{3}} from London, England. I {{4}} British.
 
-{{5}} family is big. I have two {{6}} and one brother.`,
+{{5}} family is big. I have two {{6}} and one brother. {{7}} name is Jack and {{8}} is 22 years old. My sisters {{9}} Anna and Lisa. Anna {{10}} 28 and Lisa {{11}} 20.
+
+We {{12}} a happy family. My parents {{13}} from Scotland. {{14}} father is 55 and {{15}} mother is 53.`,
   gaps: [
     {
       id: 'gap1',
@@ -752,6 +820,69 @@ export const A1_M1_L6_GAP_FILL = {
       correctAnswer: 'sisters',
       explanation: 'Female siblings.',
       points: 1
+    },
+    {
+      id: 'gap7',
+      gapNumber: 7,
+      correctAnswer: 'His',
+      explanation: 'Possessive for male.',
+      points: 1
+    },
+    {
+      id: 'gap8',
+      gapNumber: 8,
+      correctAnswer: 'he',
+      explanation: 'Subject pronoun for male.',
+      points: 1
+    },
+    {
+      id: 'gap9',
+      gapNumber: 9,
+      correctAnswer: 'are',
+      explanation: 'Plural verb to be.',
+      points: 1
+    },
+    {
+      id: 'gap10',
+      gapNumber: 10,
+      correctAnswer: 'is',
+      explanation: 'Singular verb to be.',
+      points: 1
+    },
+    {
+      id: 'gap11',
+      gapNumber: 11,
+      correctAnswer: 'is',
+      explanation: 'Singular verb to be.',
+      points: 1
+    },
+    {
+      id: 'gap12',
+      gapNumber: 12,
+      correctAnswer: 'are',
+      explanation: 'Plural verb to be with "we".',
+      points: 1
+    },
+    {
+      id: 'gap13',
+      gapNumber: 13,
+      correctAnswer: 'are',
+      explanation: 'Plural verb to be.',
+      points: 1
+    },
+    {
+      id: 'gap14',
+      gapNumber: 14,
+      correctAnswer: 'My',
+      explanation: 'Possessive adjective.',
+      points: 1
+    },
+    {
+      id: 'gap15',
+      gapNumber: 15,
+      correctAnswer: 'my',
+      explanation: 'Possessive adjective.',
+      points: 1
     }
   ]
 };
@@ -767,6 +898,41 @@ export const A1_M1_L6_SENTENCE_REORDERING = {
       shuffledSentences: ['am', 'I', 'from', 'Spain'],
       correctOrder: [1, 0, 2, 3],
       explanation: 'I am from Spain.',
+      points: 1
+    },
+    {
+      id: 'sr2',
+      shuffledSentences: ['is', 'She', 'teacher', 'a'],
+      correctOrder: [1, 0, 3, 2],
+      explanation: 'She is a teacher.',
+      points: 1
+    },
+    {
+      id: 'sr3',
+      shuffledSentences: ['They', 'are', 'from', 'Brazil'],
+      correctOrder: [0, 1, 2, 3],
+      explanation: 'They are from Brazil.',
+      points: 1
+    },
+    {
+      id: 'sr4',
+      shuffledSentences: ['old', 'years', 'He', 'is', '30'],
+      correctOrder: [2, 3, 4, 1, 0],
+      explanation: 'He is 30 years old.',
+      points: 1
+    },
+    {
+      id: 'sr5',
+      shuffledSentences: ['My', 'sister', 'French', 'is'],
+      correctOrder: [0, 1, 3, 2],
+      explanation: 'My sister is French.',
+      points: 1
+    },
+    {
+      id: 'sr6',
+      shuffledSentences: ['are', 'We', 'students', 'happy'],
+      correctOrder: [1, 0, 3, 2],
+      explanation: 'We are happy students.',
       points: 1
     }
   ]

@@ -669,6 +669,46 @@ export const A1_M1_L7_SENTENCE_COMPLETION = {
       options: ['my', 'mine', 'I'],
       explanation: 'Possessive adjective before noun.',
       points: 1
+    },
+    {
+      id: 'sc2',
+      prompt: '___ are from China.',
+      correctCompletion: 'They',
+      options: ['They', 'Their', 'Them'],
+      explanation: 'Subject pronoun for plural.',
+      points: 1
+    },
+    {
+      id: 'sc3',
+      prompt: 'My father ___ a doctor.',
+      correctCompletion: 'is',
+      options: ['am', 'is', 'are'],
+      explanation: 'Singular verb with "father".',
+      points: 1
+    },
+    {
+      id: 'sc4',
+      prompt: 'How old ___ you?',
+      correctCompletion: 'are',
+      options: ['am', 'is', 'are'],
+      explanation: 'Use "are" with "you".',
+      points: 1
+    },
+    {
+      id: 'sc5',
+      prompt: '___ sister is 18 years old.',
+      correctCompletion: 'His',
+      options: ['He', 'His', 'Him'],
+      explanation: 'Possessive adjective before noun.',
+      points: 1
+    },
+    {
+      id: 'sc6',
+      prompt: 'We ___ students at this school.',
+      correctCompletion: 'are',
+      options: ['am', 'is', 'are'],
+      explanation: 'Plural verb with "we".',
+      points: 1
     }
   ]
 };
@@ -687,6 +727,47 @@ export const A1_M1_L7_ERROR_IDENTIFICATION = {
       correction: 'are',
       explanation: 'We use "are" with "we".',
       points: 1
+    },
+    {
+      id: 'ei2',
+      sentence: 'My sister and I am from Italy.',
+      hasError: true,
+      errorWord: 'am',
+      correction: 'are',
+      explanation: 'Use "are" with compound subjects (my sister and I = we).',
+      points: 1
+    },
+    {
+      id: 'ei3',
+      sentence: 'She have 25 years.',
+      hasError: true,
+      errorWord: 'have',
+      correction: 'is',
+      explanation: 'Say "is 25 years old" not "have 25 years".',
+      points: 1
+    },
+    {
+      id: 'ei4',
+      sentence: 'They are from Japan.',
+      hasError: false,
+      explanation: 'Correct!',
+      points: 1
+    },
+    {
+      id: 'ei5',
+      sentence: 'Him brother is a teacher.',
+      hasError: true,
+      errorWord: 'Him',
+      correction: 'His',
+      explanation: 'Use possessive "His" before noun.',
+      points: 1
+    },
+    {
+      id: 'ei6',
+      sentence: 'I am from Spain.',
+      hasError: false,
+      explanation: 'Correct!',
+      points: 1
     }
   ]
 };
@@ -696,7 +777,11 @@ export const A1_M1_L7_GAP_FILL = {
   type: 'gap-fill-text',
   title: 'Consolidation Text',
   instructions: 'Complete this final practice text.',
-  text: `I {{1}} Maria. I am {{2}} Spain. I am {{3}} years old.`,
+  text: `I {{1}} Maria. I am {{2}} Spain. I am {{3}} years old. I {{4}} Spanish.
+
+{{5}} family is international. My father {{6}} from Italy. {{7}} is 58 years old and {{8}} is a doctor. My mother {{9}} British. {{10}} is 55 and {{11}} is a teacher.
+
+I have one brother. {{12}} name is Carlos. He {{13}} 28 years old. {{14}} wife is French. They {{15}} very happy together.`,
   gaps: [
     {
       id: 'gap1',
@@ -719,6 +804,90 @@ export const A1_M1_L7_GAP_FILL = {
       acceptableAlternatives: ['twenty-five'],
       explanation: 'Age.',
       points: 1
+    },
+    {
+      id: 'gap4',
+      gapNumber: 4,
+      correctAnswer: 'am',
+      explanation: 'Nationality with "I am".',
+      points: 1
+    },
+    {
+      id: 'gap5',
+      gapNumber: 5,
+      correctAnswer: 'My',
+      explanation: 'Possessive adjective.',
+      points: 1
+    },
+    {
+      id: 'gap6',
+      gapNumber: 6,
+      correctAnswer: 'is',
+      explanation: 'Singular verb with father.',
+      points: 1
+    },
+    {
+      id: 'gap7',
+      gapNumber: 7,
+      correctAnswer: 'He',
+      explanation: 'Subject pronoun for male.',
+      points: 1
+    },
+    {
+      id: 'gap8',
+      gapNumber: 8,
+      correctAnswer: 'he',
+      explanation: 'Subject pronoun.',
+      points: 1
+    },
+    {
+      id: 'gap9',
+      gapNumber: 9,
+      correctAnswer: 'is',
+      explanation: 'Singular verb with mother.',
+      points: 1
+    },
+    {
+      id: 'gap10',
+      gapNumber: 10,
+      correctAnswer: 'She',
+      explanation: 'Subject pronoun for female.',
+      points: 1
+    },
+    {
+      id: 'gap11',
+      gapNumber: 11,
+      correctAnswer: 'she',
+      explanation: 'Subject pronoun.',
+      points: 1
+    },
+    {
+      id: 'gap12',
+      gapNumber: 12,
+      correctAnswer: 'His',
+      explanation: 'Possessive adjective for male.',
+      points: 1
+    },
+    {
+      id: 'gap13',
+      gapNumber: 13,
+      correctAnswer: 'is',
+      explanation: 'Singular verb.',
+      points: 1
+    },
+    {
+      id: 'gap14',
+      gapNumber: 14,
+      correctAnswer: 'His',
+      explanation: 'Possessive adjective.',
+      points: 1
+    },
+    {
+      id: 'gap15',
+      gapNumber: 15,
+      correctAnswer: 'are',
+      explanation: 'Plural verb with "they".',
+      points: 1
     }
   ]
 };
@@ -735,6 +904,46 @@ export const A1_M1_L7_COLLOCATION_MATCHING = {
       correctMatch: 'am',
       distractors: ['is', 'are'],
       example: 'I am happy.',
+      points: 1
+    },
+    {
+      id: 'cm2',
+      word: 'She',
+      correctMatch: 'is',
+      distractors: ['am', 'are'],
+      example: 'She is from Italy.',
+      points: 1
+    },
+    {
+      id: 'cm3',
+      word: 'They',
+      correctMatch: 'are',
+      distractors: ['am', 'is'],
+      example: 'They are students.',
+      points: 1
+    },
+    {
+      id: 'cm4',
+      word: 'My',
+      correctMatch: 'mother',
+      distractors: ['she', 'her'],
+      example: 'My mother is a teacher.',
+      points: 1
+    },
+    {
+      id: 'cm5',
+      word: 'years',
+      correctMatch: 'old',
+      distractors: ['age', 'have'],
+      example: 'I am 25 years old.',
+      points: 1
+    },
+    {
+      id: 'cm6',
+      word: 'from',
+      correctMatch: 'Spain',
+      distractors: ['Spanish', 'Spaniard'],
+      example: 'I am from Spain.',
       points: 1
     }
   ]
