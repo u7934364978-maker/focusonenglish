@@ -1188,39 +1188,53 @@ export const A1_M1_L1_VOCABULARY_1 = {
   type: 'vocabulary',
   title: 'Vocabulary: Personal Information',
   explanation: `
-In this vocabulary exercise, you will learn **20 essential words** to talk about yourself and introduce yourself in English. This vocabulary is fundamental for level A1 and will help you communicate basic personal information.
+**En este ejercicio de vocabulario, aprenderás 20 palabras esenciales para hablar sobre ti mismo y presentarte en inglés. Este vocabulario es fundamental para el nivel A1 y te ayudará a comunicar información personal básica.**
 
-## What You Will Learn:
+In this vocabulary exercise, you will learn 20 essential words to talk about yourself and introduce yourself in English. This vocabulary is fundamental for level A1 and will help you communicate basic personal information.
 
-### 👤 **Basic Personal Information**
-Learn to talk about your **name, age, country, and nationality** - the most basic information when meeting someone new.
+**Lo que aprenderás / What You Will Learn:**
 
-### 💼 **Occupations and Professions**
-Discover words to describe different jobs: **student, teacher, doctor, nurse** - essential vocabulary to say what you do.
+**👤 Información Personal Básica / Basic Personal Information**
+Aprende a hablar sobre tu nombre, edad, país y nacionalidad - la información más básica al conocer a alguien nuevo.
+Learn to talk about your name, age, country, and nationality - the most basic information when meeting someone new.
 
-### 👨‍👩‍👧‍👦 **Family and Marital Status**
-Understand how to talk about your **family, married/single** status - important for describing your personal life.
+**💼 Ocupaciones y Profesiones / Occupations and Professions**
+Descubre palabras para describir diferentes trabajos: estudiante, profesor, doctor, enfermera - vocabulario esencial para decir a qué te dedicas.
+Discover words to describe different jobs: student, teacher, doctor, nurse - essential vocabulary to say what you do.
 
-### 🏠 **Places**
-Learn words related to where you live: **home, city, country** - useful for talking about locations.
+**👨‍👩‍👧‍👦 Familia y Estado Civil / Family and Marital Status**
+Comprende cómo hablar sobre tu familia y estado civil (casado/soltero) - importante para describir tu vida personal.
+Understand how to talk about your family and marital status (married/single) - important for describing your personal life.
 
-### 📱 **Contact Information**
-Master how to give your contact details: **address, phone number, email** - practical vocabulary for everyday situations.
+**🏠 Lugares / Places**
+Aprende palabras relacionadas con dónde vives: hogar, ciudad, país - útil para hablar sobre ubicaciones.
+Learn words related to where you live: home, city, country - useful for talking about locations.
 
-### 😊 **Feelings and Qualities**
-Express how you feel: **happy, friendly** - basic adjectives to describe yourself and others.
+**📱 Información de Contacto / Contact Information**
+Domina cómo dar tus datos de contacto: dirección, número de teléfono, correo electrónico - vocabulario práctico para situaciones cotidianas.
+Master how to give your contact details: address, phone number, email - practical vocabulary for everyday situations.
 
-### 🗣️ **Language**
+**😊 Sentimientos y Cualidades / Feelings and Qualities**
+Expresa cómo te sientes: feliz, amigable - adjetivos básicos para describirse a uno mismo y a otros.
+Express how you feel: happy, friendly - basic adjectives to describe yourself and others.
+
+**🗣️ Idioma / Language**
+Habla sobre los idiomas que hablas - importante para la comunicación.
 Talk about the languages you speak - important for communication.
 
-## Why This Vocabulary Is Important:
+**Por qué este vocabulario es importante / Why This Vocabulary Is Important:**
 
-✅ **First Impressions**: This vocabulary helps you introduce yourself confidently
-✅ **Real-Life Situations**: Use these words in daily conversations, forms, and introductions
-✅ **Foundation for A1**: These are the building blocks for basic English communication
-✅ **Practical Application**: You'll use these words every time you meet someone new
+✅ **Primeras Impresiones / First Impressions**: Este vocabulario te ayuda a presentarte con confianza / This vocabulary helps you introduce yourself confidently
 
-**Practice Tip:** After learning each word, try to use it in a sentence about yourself!
+✅ **Situaciones de la Vida Real / Real-Life Situations**: Usa estas palabras en conversaciones diarias, formularios y presentaciones / Use these words in daily conversations, forms, and introductions
+
+✅ **Base para A1 / Foundation for A1**: Estos son los bloques fundamentales para la comunicación básica en inglés / These are the building blocks for basic English communication
+
+✅ **Aplicación Práctica / Practical Application**: Usarás estas palabras cada vez que conozcas a alguien nuevo / You'll use these words every time you meet someone new
+
+**Consejo de Práctica / Practice Tip:** 
+¡Después de aprender cada palabra, intenta usarla en una oración sobre ti mismo!
+After learning each word, try to use it in a sentence about yourself!
   `,
   vocabularySet: [
     { word: 'name', definition: 'what you are called', example: 'My name is Maria.' },
