@@ -11,6 +11,8 @@ import { A1_M1_L5_ALL_EXERCISES } from './a1-m1-l5-detailed';
 import { A1_M1_L6_ALL_EXERCISES } from './a1-m1-l6-detailed';
 import { A1_M1_L7_ALL_EXERCISES } from './a1-m1-l7-detailed';
 import { A1_M2_L1_ALL_EXERCISES } from './a1-m2-l1-detailed';
+import { A1_M2_L2_ALL_EXERCISES } from './a1-m2-l2-detailed';
+import { A1_M2_L2_ALL_EXERCISES } from './a1-m2-l2-detailed';
 
 export type ExerciseType = 
   | 'reading'
@@ -242,100 +244,8 @@ export const MODULE_2_LESSONS: Lesson[] = [
     title: 'Lección 2: Jobs and Professions',
     description: 'Practice Present Simple questions with comprehensive exercises',
     duration: 90, // minutes
-    exercises: [
-      {
-        id: 'a1-m2-l2-grammar-1',
-        type: 'grammar',
-        title: 'Present Simple questions - Formation and Use',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l2-grammar-2',
-        type: 'grammar',
-        title: 'Present Simple questions - Practice Exercises',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l2-reading-1',
-        type: 'reading',
-        title: 'Reading: Lección 2: Jobs and Professions',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l2-listening-1',
-        type: 'listening',
-        title: 'Listening: Lección 2: Jobs and Professions',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l2-speaking-1',
-        type: 'speaking',
-        title: 'Speaking Practice: Lección 2: Jobs and Professions',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l2-writing-1',
-        type: 'writing',
-        title: 'Writing: Lección 2: Jobs and Professions',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l2-pronunciation-1',
-        type: 'pronunciation-practice',
-        title: 'Pronunciation: Present Simple questions',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l2-vocabulary-1',
-        type: 'vocabulary',
-        title: 'Vocabulary: Lección 2: Jobs and Professions',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l2-vocabulary-2',
-        type: 'vocabulary',
-        title: 'Vocabulary Practice',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l2-fill-blanks-1',
-        type: 'fill-in-blanks',
-        title: 'Complete the Sentences - Present Simple questions',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l2-multiple-choice-1',
-        type: 'multiple-choice',
-        title: 'Multiple Choice: Present Simple questions',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l2-matching-1',
-        type: 'matching',
-        title: 'Match Words and Meanings',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l2-sentence-building-1',
-        type: 'sentence-building',
-        title: 'Build Sentences - Present Simple questions',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l2-true-false-1',
-        type: 'true-false',
-        title: 'True or False: Lección 2: Jobs and Professions',
-        // Content will be added in future updates
-      } as Exercise,
-      {
-        id: 'a1-m2-l2-dialogue-1',
-        type: 'dialogue-practice',
-        title: 'Dialogue Practice: Lección 2: Jobs and Professions',
-        // Content will be added in future updates
-      } as Exercise,
-    ]
+    exercises: A1_M2_L2_ALL_EXERCISES as Exercise[]
   },
-  {
     id: 'a1-m2-l3',
     title: 'Lección 3: Time and Schedules',
     description: 'Practice Time expressions with comprehensive exercises',
