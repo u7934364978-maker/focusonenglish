@@ -2470,22 +2470,46 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     
                     return (
                       <span key={index} className="inline-block mx-1 align-bottom">
-                        <input
-                          type="text"
-                          value={userAnswer}
-                          onChange={(e) => handleAnswer(gap.id, e.target.value)}
-                          disabled={showFeedback}
-                          placeholder={`(${gapNum})`}
-                          className={`px-3 py-1 border-2 rounded-lg w-40 text-center font-semibold transition-all ${
-                            showFeedback
-                              ? isCorrect
-                                ? 'border-green-500 bg-green-50 text-green-900'
-                                : 'border-red-500 bg-red-50 text-red-900'
-                              : isAnswered
-                              ? 'border-blue-500 bg-blue-50'
-                              : 'border-slate-300 hover:border-blue-400'
-                          } disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-blue-400`}
-                        />
+                        {gap.options && gap.options.length > 0 ? (
+                          <select
+                            value={userAnswer}
+                            onChange={(e) => handleAnswer(gap.id, e.target.value)}
+                            disabled={showFeedback}
+                            className={`px-3 py-1 border-2 rounded-lg w-40 text-center font-semibold transition-all ${
+                              showFeedback
+                                ? isCorrect
+                                  ? 'border-green-500 bg-green-50 text-green-900'
+                                  : 'border-red-500 bg-red-50 text-red-900'
+                                : isAnswered
+                                ? 'border-blue-500 bg-blue-50'
+                                : 'border-slate-300 hover:border-blue-400'
+                            } disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-blue-400`}
+                          >
+                            <option value="">(${gapNum})</option>
+                            {gap.options.map((option: string, optIdx: number) => (
+                              <option key={optIdx} value={option}>
+                                {option}
+                              </option>
+                            ))}
+                          </select>
+                        ) : (
+                          <input
+                            type="text"
+                            value={userAnswer}
+                            onChange={(e) => handleAnswer(gap.id, e.target.value)}
+                            disabled={showFeedback}
+                            placeholder={`(${gapNum})`}
+                            className={`px-3 py-1 border-2 rounded-lg w-40 text-center font-semibold transition-all ${
+                              showFeedback
+                                ? isCorrect
+                                  ? 'border-green-500 bg-green-50 text-green-900'
+                                  : 'border-red-500 bg-red-50 text-red-900'
+                                : isAnswered
+                                ? 'border-blue-500 bg-blue-50'
+                                : 'border-slate-300 hover:border-blue-400'
+                            } disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-blue-400`}
+                          />
+                        )}
                         {showFeedback && !isCorrect && (
                           <div className="block mt-1 text-xs text-green-700 font-semibold">
                             ✓ {gap.correctAnswer}
