@@ -158,15 +158,19 @@ export default function SectorLevelPage({ params }: Props) {
                       <div className="space-y-3">
                         <h5 className="text-xs font-black text-slate-400 uppercase tracking-widest">Lecciones Disponibles</h5>
                         <div className="flex flex-wrap gap-2">
-                          {[1, 2, 3, 4].map((week) => (
-                            <Link
-                              key={week}
-                              href={`/cursos/trabajo/${sectorSlug}/${params.level}/trimestre${idx + 1}/semana0${week}`}
-                              className="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-bold text-slate-700 hover:border-coral-500 hover:text-coral-600 transition-all shadow-sm"
-                            >
-                              Semana {week}
-                            </Link>
-                          ))}
+                          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((w) => {
+                            const weekNum = (idx * 12) + w;
+                            const weekStr = weekNum < 10 ? `0${weekNum}` : `${weekNum}`;
+                            return (
+                              <Link
+                                key={w}
+                                href={`/cursos/trabajo/${sectorSlug}/${params.level}/trimestre${idx + 1}/semana${weekStr}`}
+                                className="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-bold text-slate-700 hover:border-coral-500 hover:text-coral-600 transition-all shadow-sm"
+                              >
+                                Semana {weekNum}
+                              </Link>
+                            );
+                          })}
                         </div>
                       </div>
                     </div>

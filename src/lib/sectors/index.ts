@@ -1,5 +1,4 @@
 import { FINANCE_SECTOR_CURRICULUM } from './finance-curriculum';
-import { MEDICAL_SECTOR_CURRICULUM } from './medical-curriculum';
 import { LEGAL_SECTOR_CURRICULUM } from './legal-curriculum';
 import { IT_SECTOR_CURRICULUM } from './it-curriculum';
 import { ENGINEERING_SECTOR_CURRICULUM } from './engineering-curriculum';
@@ -10,7 +9,6 @@ import { CurriculumModule } from '../curriculum-data';
 
 export const SECTOR_CURRICULUMS: Record<string, Record<string, CurriculumModule[]>> = {
   finanzas: FINANCE_SECTOR_CURRICULUM,
-  medicina: MEDICAL_SECTOR_CURRICULUM,
   legal: LEGAL_SECTOR_CURRICULUM,
   it: IT_SECTOR_CURRICULUM,
   ingenieria: ENGINEERING_SECTOR_CURRICULUM,
@@ -21,7 +19,6 @@ export const SECTOR_CURRICULUMS: Record<string, Record<string, CurriculumModule[
 
 export const SECTOR_NAMES: Record<string, string> = {
   finanzas: 'Finanzas y Banca',
-  medicina: 'Medicina y Salud',
   legal: 'Legal',
   it: 'Tecnología e IT',
   ingenieria: 'Ingeniería',
