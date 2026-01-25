@@ -253,6 +253,7 @@ export default function PracticePage() {
         </div>
         
         <PracticeExerciseViewer
+          key={currentExercise.id}
           exercise={currentExercise}
           onComplete={handleComplete}
           onSkip={handleSkip}

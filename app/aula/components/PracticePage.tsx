@@ -151,9 +151,12 @@ function PracticeContent({ level }: PracticePageProps) {
         </div>
       </div>
 
-      {/* Exercise Content */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <ExerciseRenderer exercise={exercise} onComplete={handleNewExercise} />
+        <ExerciseRenderer 
+          key={exercise.id}
+          exercise={exercise} 
+          onComplete={handleNewExercise} 
+        />
       </div>
     </main>
   );

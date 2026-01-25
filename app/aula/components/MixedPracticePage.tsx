@@ -326,6 +326,7 @@ function MixedPracticeContent({ level }: MixedPracticePageProps) {
         </div>
 
         <ExerciseRenderer 
+          key={currentExercise.id}
           exercise={currentExercise} 
           onComplete={handleNextExercise} 
         />

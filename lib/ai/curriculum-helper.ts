@@ -282,6 +282,70 @@ function getLevelSpecificInstructions(
 - Linking words: because, so, but, although
 - Complex A2 scenarios
 - Texts: 150-200 words`
+    },
+    'B1': {
+      'easy': `\n\n🎯 B1 EASY LEVEL REQUIREMENTS:
+- Past Continuous, Used to, Present Perfect Simple
+- First Conditional, basic Relative Clauses
+- Vocabulary: Education, Work, Environment, Entertainment
+- Texts: 200-250 words`,
+      'medium': `\n\n🎯 B1 MEDIUM LEVEL REQUIREMENTS:
+- Past Perfect, Passive Voice (simple), Second Conditional
+- Reported Speech basics, Modals of possibility
+- Vocabulary: Health, Travel, Technology, Social Media
+- Texts: 250-300 words`,
+      'hard': `\n\n🎯 B1 HARD LEVEL REQUIREMENTS:
+- Question tags, Verb + -ing or infinitive, Both/either/neither
+- Complex sentence linking (however, despite, in spite of)
+- Texts: 300-400 words`
+    },
+    'B2': {
+      'easy': `\n\n🎯 B2 EASY LEVEL REQUIREMENTS (Cambridge FCE standard):
+- Mixed Conditionals basics, Third Conditional
+- Passive Voice in various tenses, Reported Speech full range
+- Vocabulary: Business, Science, Society, Abstract concepts
+- Texts: 400-500 words`,
+      'medium': `\n\n🎯 B2 MEDIUM LEVEL REQUIREMENTS:
+- Perfect Modals (must have done, should have done)
+- Wish/If only, Future Continuous and Perfect
+- Vocabulary: Idiomatic expressions, Phrasal verbs, Collocations
+- Texts: 500-600 words`,
+      'hard': `\n\n🎯 B2 HARD LEVEL REQUIREMENTS:
+- Inversion for emphasis, Participle Clauses
+- Gerunds vs Infinitives (nuanced), Cleft sentences
+- High-level academic and professional vocabulary
+- Texts: 600-750 words`
+    },
+    'C1': {
+      'easy': `\n\n🎯 C1 EASY LEVEL REQUIREMENTS (Cambridge CAE standard):
+- Advanced structures: Fronting, Substitution, Ellipsis
+- Subjunctive mood, Mixed conditionals advanced
+- Vocabulary: Academic and professional nuances
+- Texts: 750-900 words`,
+      'medium': `\n\n🎯 C1 MEDIUM LEVEL REQUIREMENTS:
+- Complex nominalisation, Sophisticated cohesive devices
+- Advanced modal expressions (be bound to, be liable to)
+- Vocabulary: Specialized professional fields, high-level idioms
+- Texts: 900-1100 words`,
+      'hard': `\n\n🎯 C1 HARD LEVEL REQUIREMENTS:
+- Stylistic variation, Rhetorical devices for persuasion
+- Nuanced register control (formal to highly informal)
+- Texts: 1100-1300 words`
+    },
+    'C2': {
+      'easy': `\n\n🎯 C2 EASY LEVEL REQUIREMENTS (Cambridge CPE standard):
+- Near-native precision in all grammatical structures
+- Mastery of all aspects of syntax and register
+- Vocabulary: Literary and highly specialized terms
+- Texts: 1300-1500 words`,
+      'medium': `\n\n🎯 C2 MEDIUM LEVEL REQUIREMENTS:
+- Critical analysis of subtle stylistic choices
+- Explicit and implicit meanings, sarcasm, irony
+- Vocabulary: Mastery of collocations and idiomatic range`,
+      'hard': `\n\n🎯 C2 HARD LEVEL REQUIREMENTS:
+- Native-like rhetorical skills and intellectual debate
+- Archaisms, legalities, and specialized expertise
+- Total mastery of English in any context`
     }
   };
 

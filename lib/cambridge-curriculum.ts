@@ -594,6 +594,13 @@ const C1_CURRICULUM: LevelCurriculum = {
       category: 'grammar',
       description: 'Advanced cohesive devices',
       keywords: ['ellipsis', 'substitution', 'omission', 'cohesion']
+    },
+    {
+      id: 'c1-nominalisation',
+      name: 'Nominalisation',
+      category: 'grammar',
+      description: 'Converting verbs and adjectives into nouns for formal writing',
+      keywords: ['nominalisation', 'formal style', 'academic writing']
     }
   ],
   vocabulary: [
@@ -617,6 +624,13 @@ const C1_CURRICULUM: LevelCurriculum = {
       category: 'vocabulary',
       description: 'Professional and technical vocabulary',
       keywords: ['specialized', 'technical', 'professional', 'expertise']
+    },
+    {
+      id: 'c1-collocations-advanced',
+      name: 'Advanced Collocations',
+      category: 'vocabulary',
+      description: 'Natural word combinations at an advanced level',
+      keywords: ['collocations', 'idiomatic', 'natural english']
     }
   ],
   reading: [
@@ -626,6 +640,13 @@ const C1_CURRICULUM: LevelCurriculum = {
       category: 'reading',
       description: 'Literary and academic texts',
       keywords: ['literature', 'academic texts', 'complex', 'sophisticated']
+    },
+    {
+      id: 'c1-abstract-texts',
+      name: 'Abstract and Conceptual Texts',
+      category: 'reading',
+      description: 'Understanding complex theories and abstract concepts',
+      keywords: ['abstract', 'conceptual', 'theory', 'philosophy']
     }
   ],
   writing: [
@@ -651,6 +672,13 @@ const C1_CURRICULUM: LevelCurriculum = {
       category: 'listening',
       description: 'Understanding implicit meanings',
       keywords: ['complex audio', 'implicit', 'nuance', 'inference']
+    },
+    {
+      id: 'c1-lectures-extended',
+      name: 'Extended Lectures',
+      category: 'listening',
+      description: 'Following long presentations on unfamiliar topics',
+      keywords: ['lectures', 'extended speech', 'academic']
     }
   ],
   speaking: [
@@ -660,6 +688,13 @@ const C1_CURRICULUM: LevelCurriculum = {
       category: 'speaking',
       description: 'Natural, spontaneous communication',
       keywords: ['fluent', 'spontaneous', 'natural', 'interaction']
+    },
+    {
+      id: 'c1-public-speaking',
+      name: 'Public Speaking',
+      category: 'speaking',
+      description: 'Delivering clear, well-structured presentations',
+      keywords: ['presentation', 'public speaking', 'structure', 'rhetoric']
     }
   ]
 };
@@ -678,6 +713,20 @@ const C2_CURRICULUM: LevelCurriculum = {
       category: 'grammar',
       description: 'Complete command of grammar',
       keywords: ['mastery', 'advanced', 'complex', 'sophisticated', 'nuanced']
+    },
+    {
+      id: 'c2-stylistic-variation',
+      name: 'Stylistic Variation',
+      category: 'grammar',
+      description: 'Using grammar to create subtle effects in tone and style',
+      keywords: ['style', 'tone', 'rhetoric', 'emphasis']
+    },
+    {
+      id: 'c2-archaisms',
+      name: 'Archaisms and Formalities',
+      category: 'grammar',
+      description: 'Understanding and using rare or highly formal structures',
+      keywords: ['archaic', 'highly formal', 'legal', 'literary']
     }
   ],
   vocabulary: [
@@ -694,6 +743,13 @@ const C2_CURRICULUM: LevelCurriculum = {
       category: 'vocabulary',
       description: 'Expert-level terminology',
       keywords: ['specialized', 'expert', 'professional', 'technical', 'advanced']
+    },
+    {
+      id: 'c2-idiomatic-mastery',
+      name: 'Idiomatic Mastery',
+      category: 'vocabulary',
+      description: 'Full range of idiomatic and colloquial expressions',
+      keywords: ['idioms', 'slang', 'colloquial', 'metaphor']
     }
   ],
   reading: [
@@ -703,6 +759,13 @@ const C2_CURRICULUM: LevelCurriculum = {
       category: 'reading',
       description: 'Understanding any written material',
       keywords: ['all texts', 'complex', 'abstract', 'specialized', 'literary']
+    },
+    {
+      id: 'c2-critical-analysis',
+      name: 'Critical Textual Analysis',
+      category: 'reading',
+      description: 'Deconstructing complex arguments and stylistic choices',
+      keywords: ['critical', 'analysis', 'deconstruction', 'style']
     }
   ],
   writing: [
@@ -712,6 +775,13 @@ const C2_CURRICULUM: LevelCurriculum = {
       category: 'writing',
       description: 'Writing at a professional/academic level',
       keywords: ['sophisticated', 'professional', 'academic', 'precise', 'nuanced']
+    },
+    {
+      id: 'c2-creative-mastery',
+      name: 'Creative and Professional Mastery',
+      category: 'writing',
+      description: 'Writing with total flexibility of style and register',
+      keywords: ['creative', 'professional', 'flexibility', 'mastery']
     }
   ],
   listening: [
@@ -721,6 +791,13 @@ const C2_CURRICULUM: LevelCurriculum = {
       category: 'listening',
       description: 'Understanding any spoken language',
       keywords: ['all audio', 'native speed', 'accents', 'complex']
+    },
+    {
+      id: 'c2-implicit-meanings',
+      name: 'Implicit and Sarcastic Meanings',
+      category: 'listening',
+      description: 'Capturing the finest nuances of meaning and tone',
+      keywords: ['implicit', 'sarcasm', 'irony', 'nuance']
     }
   ],
   speaking: [
@@ -730,6 +807,13 @@ const C2_CURRICULUM: LevelCurriculum = {
       category: 'speaking',
       description: 'Speaking with precision and fluency',
       keywords: ['near-native', 'fluency', 'precision', 'sophisticated']
+    },
+    {
+      id: 'c2-rhetorical-skills',
+      name: 'Rhetorical Skills',
+      category: 'speaking',
+      description: 'Persuading and debating at a high intellectual level',
+      keywords: ['rhetoric', 'persuasion', 'debate', 'intellectual']
     }
   ]
 };

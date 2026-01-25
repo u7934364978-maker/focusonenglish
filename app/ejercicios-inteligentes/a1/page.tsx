@@ -154,6 +154,7 @@ export default function A1Page() {
         {/* Exercise Display */}
         {currentExercise && (
           <A1VisualExercise
+            key={currentExercise.id}
             exercise={currentExercise}
             onNext={handleNextExercise}
             gradient="from-emerald-500 to-teal-600"

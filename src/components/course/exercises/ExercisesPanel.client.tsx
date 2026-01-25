@@ -358,6 +358,7 @@ export default function ExercisesPanel({ data }: { data: ExercisesFile }) {
 
               <div className="mt-4">
                 <ExerciseRenderer
+                  key={ex.id}
                   ex={ex}
                   onResult={(isCorrect) => {
                     if ((ex as any).track === "core") {

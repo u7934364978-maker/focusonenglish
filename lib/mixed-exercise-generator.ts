@@ -208,7 +208,7 @@ function selectWeightedCategory(
   ensureVariety: boolean
 ): ExerciseCategory {
   // Si ensureVariety está activado, ajustar pesos para favorecer categorías menos usadas
-  let adjustedWeights = { ...weights };
+  const adjustedWeights = { ...weights };
   
   if (ensureVariety) {
     Object.keys(adjustedWeights).forEach(category => {

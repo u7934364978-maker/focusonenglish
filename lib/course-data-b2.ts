@@ -392,6 +392,8 @@ export interface Lesson {
   description: string;
   duration: number; // minutos
   objectives: string[];
+  videoUrl?: string;
+  theoryContent?: string;
   exercises: Exercise[];
   completed?: boolean;
   score?: number;

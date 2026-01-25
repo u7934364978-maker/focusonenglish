@@ -403,6 +403,7 @@ export default function SmartExerciseGenerator({
       setCurrentQuestionIndex(0);
       setUserAnswers({});
       setValidatedQuestions(new Set());
+      setEvaluation({});
     }
   }, [selectedCategory, difficulty]);
 
@@ -418,6 +419,7 @@ export default function SmartExerciseGenerator({
     setApiError(null);
     setUserAnswers({});
     setValidatedQuestions(new Set());
+    setEvaluation({});
     setCurrentQuestionIndex(0);
     setExerciseStartTime(Date.now());
     setTimeLeft(30);
@@ -753,7 +755,7 @@ export default function SmartExerciseGenerator({
             {loading && <ExerciseSkeleton />}
 
             {!loading && currentExercise?.type === 'roleplay' && roleplayScenario && (
-              <div className="space-y-6">
+              <div key={currentExercise.id} className="space-y-6">
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8">
                   <div className="flex items-center gap-4 mb-6">
                     <div className="bg-pink-100 p-3 rounded-2xl">
@@ -867,7 +869,7 @@ export default function SmartExerciseGenerator({
             )}
 
             {!loading && currentExercise && currentQuestion && currentExercise.type !== 'roleplay' && (
-              <div className="space-y-6">
+              <div key={`${currentExercise.id}-${currentQuestionIndex}`} className="space-y-6">
                 {currentExercise.text && (
                   <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8 overflow-y-auto max-h-[400px]">
                     <h4 className="text-xl font-black text-gray-900 mb-4">{currentExercise.title || 'Reading Passage'}</h4>

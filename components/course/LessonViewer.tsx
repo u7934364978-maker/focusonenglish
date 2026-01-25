@@ -1,6 +1,8 @@
 'use client';
 
+import Markdown from '@/src/components/course/Markdown';
 import { useState, useEffect } from 'react';
+import { ArrowRight, CheckCircle2, Star, Target, BarChart3, Video, BookOpen, PencilLine } from 'lucide-react';
 import EnhancedVoiceRecorder from '@/components/course/EnhancedVoiceRecorder';
 import SmartPronunciationEvaluator from '@/components/course/SmartPronunciationEvaluator';
 import PronunciationPractice from '@/components/course/PronunciationPractice';
@@ -37,6 +39,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   const lessonLevel = (lesson.id.split('-')[0].toUpperCase()) as 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
   
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
+  const [activeTab, setActiveTab] = useState<'theory' | 'practice'>('theory');
   const [answers, setAnswers] = useState<{ [questionId: string]: string }>({});
   const [exerciseScores, setExerciseScores] = useState<{ [exerciseId: string]: number }>({});
   const [showFeedback, setShowFeedback] = useState(false);
@@ -830,8 +833,11 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       setCurrentExerciseIndex(prev => prev + 1);
       setShowFeedback(false);
       setAnswers({});
+      setAiEvaluations({});
+      setCurrentScore(0);
       setRecordedAudio(null);
       setPronunciationFeedback(null);
+      setPronunciationRecordings({});
     } else {
       // Calcular puntuación total de la lección
       const totalScore = Object.values(exerciseScores).reduce((sum, score) => sum + score, 0) / Object.keys(exerciseScores).length;
@@ -864,6 +870,9 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
     setShowFeedback(false);
     setAiEvaluations({});
     setCurrentScore(0);
+    setRecordedAudio(null);
+    setPronunciationFeedback(null);
+    setPronunciationRecordings({});
   };
 
   const handleNext = () => {
@@ -887,7 +896,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
     // Render "Coming Soon" message for incomplete exercises
     if (!hasContent) {
       return (
-        <div className="space-y-6">
+        <div key={currentExercise.id} className="space-y-6">
           <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 text-center">
             <div className="text-6xl mb-4">🚧</div>
             <h3 className="text-2xl font-bold text-blue-900 mb-3">
@@ -921,7 +930,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'grammar':
       case 'vocabulary':
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             {/* Explanation */}
             <div className="bg-orange-50 rounded-xl p-6 border-2 border-orange-200">
               <h3 className="text-xl font-bold text-coral-900 mb-3 flex items-center gap-2">
@@ -1089,7 +1098,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         // Check if reading exercise has required content
         if (!currentExercise.text || !currentExercise.questions || currentExercise.questions.length === 0) {
           return (
-            <div className="bg-yellow-50 rounded-xl p-8 border-2 border-yellow-200 text-center">
+            <div key={currentExercise.id} className="bg-yellow-50 rounded-xl p-8 border-2 border-yellow-200 text-center">
               <div className="text-6xl mb-4">📖</div>
               <h3 className="text-2xl font-bold text-yellow-900 mb-3">
                 Contenido de Lectura No Disponible
@@ -1108,7 +1117,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         }
         
         return (
-          <div className="grid lg:grid-cols-2 gap-6">
+          <div key={currentExercise.id} className="grid lg:grid-cols-2 gap-6">
             {/* Reading Text - Sticky on large screens */}
             <div className="lg:sticky lg:top-4 lg:self-start">
               <div className="bg-slate-50 rounded-xl p-6 border-2 border-slate-200 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto">
@@ -1375,7 +1384,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         // Check if this is an A1-style pronunciation exercise with targetSentences and questions
         if (pronExercise.targetSentences && pronExercise.questions) {
           return (
-            <div className="space-y-6">
+            <div key={currentExercise.id} className="space-y-6">
               {/* Header */}
               <div className="bg-orange-50 rounded-xl p-6 border-2 border-orange-200">
                 <h3 className="text-xl font-bold text-orange-900 mb-2 flex items-center gap-2">
@@ -1429,8 +1438,11 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                         <div className="pt-2">
                           <p className="text-sm font-semibold text-slate-700 mb-2">🎤 Now you try:</p>
                           <EnhancedVoiceRecorder
+                            key={`${currentExercise.id}-pron-${idx}`}
+                            exerciseId={`${currentExercise.id}-pron-${idx}`}
+                            prompt="Listen to the model and repeat the sentence as accurately as possible."
                             targetText={item.text || item.sentence}
-                            onRecordingComplete={(blob, transcript) => {
+                            onComplete={(blob, transcript) => {
                               setPronunciationRecordings(prev => ({
                                 ...prev,
                                 [idx]: { blob, transcript }
@@ -1607,7 +1619,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
         // Otherwise, use the B2-style PronunciationPractice component
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             <PronunciationPractice
               exerciseId={currentExercise.id}
               prompt={currentExercise.prompt}
@@ -1719,7 +1731,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         // Check if speaking exercise has required content
         if (!currentExercise.prompt) {
           return (
-            <div className="bg-purple-50 rounded-xl p-8 border-2 border-purple-200 text-center">
+            <div key={currentExercise.id} className="bg-purple-50 rounded-xl p-8 border-2 border-purple-200 text-center">
               <div className="text-6xl mb-4">🎤</div>
               <h3 className="text-2xl font-bold text-purple-900 mb-3">
                 Contenido de Speaking No Disponible
@@ -1739,6 +1751,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         
         return (
           <EnhancedSpeakingExercise
+            key={currentExercise.id}
             question={{
               id: currentExercise.id,
               prompt: currentExercise.prompt,
@@ -1766,6 +1779,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'speaking-part1':
         return (
           <SpeakingPart1
+            key={currentExercise.id}
             exerciseId={currentExercise.id}
             instructions={currentExercise.instructions}
             questions={currentExercise.questions}
@@ -1790,6 +1804,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'speaking-part2':
         return (
           <SpeakingPart2
+            key={currentExercise.id}
             exerciseId={currentExercise.id}
             instructions={currentExercise.instructions}
             photos={currentExercise.photos}
@@ -1813,6 +1828,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'speaking-part3':
         return (
           <SpeakingPart3
+            key={currentExercise.id}
             exerciseId={currentExercise.id}
             instructions={currentExercise.instructions}
             scenario={currentExercise.scenario}
@@ -1837,6 +1853,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'speaking-part4':
         return (
           <SpeakingPart4
+            key={currentExercise.id}
             exerciseId={currentExercise.id}
             instructions={currentExercise.instructions}
             topic={currentExercise.topic}
@@ -1864,7 +1881,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         // Check if listening exercise has required content
         if (!currentExercise.audioUrl || !currentExercise.questions || currentExercise.questions.length === 0) {
           return (
-            <div className="bg-peach-50 rounded-xl p-8 border-2 border-peach-200 text-center">
+            <div key={currentExercise.id} className="bg-peach-50 rounded-xl p-8 border-2 border-peach-200 text-center">
               <div className="text-6xl mb-4">🎧</div>
               <h3 className="text-2xl font-bold text-peach-900 mb-3">
                 Contenido de Audio No Disponible
@@ -1883,7 +1900,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         }
         
         return (
-          <div className="grid lg:grid-cols-2 gap-6">
+          <div key={currentExercise.id} className="grid lg:grid-cols-2 gap-6">
             {/* Audio Player - Sticky on large screens */}
             <div className="lg:sticky lg:top-4 lg:self-start">
               <div className="bg-peach-50 rounded-xl p-6 border-2 border-peach-200">
@@ -2025,7 +2042,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       case 'writing':
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             <div className="bg-amber-50 rounded-xl p-6 border-2 border-amber-200">
               <h3 className="text-xl font-bold text-amber-900 mb-3 flex items-center gap-2">
                 <span>✍️</span>
@@ -2156,7 +2173,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         );
 
       case 'key-word-transformation':
-        return <KeyWordTransformationExercise exercise={currentExercise as any} onComplete={(score) => {
+        return <KeyWordTransformationExercise key={currentExercise.id} exercise={currentExercise as any} onComplete={(score) => {
           setCurrentScore(score);
           setShowFeedback(true);
           setShowCelebration(true);
@@ -2164,7 +2181,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
       case 'word-formation':
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             {/* Instructions */}
             <div className="bg-peach-50 rounded-xl p-6 border-2 border-peach-200">
               <h3 className="text-xl font-bold text-peach-900 mb-3 flex items-center gap-2">
@@ -2370,21 +2387,21 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         );
 
       case 'gapped-text':
-        return <GappedTextExercise exercise={currentExercise as any} onComplete={(score) => {
+        return <GappedTextExercise key={currentExercise.id} exercise={currentExercise as any} onComplete={(score) => {
           setCurrentScore(score);
           setShowFeedback(true);
           setShowCelebration(true);
         }} />;
 
       case 'multiple-matching':
-        return <MultipleMatchingExercise exercise={currentExercise as any} onComplete={(score) => {
+        return <MultipleMatchingExercise key={currentExercise.id} exercise={currentExercise as any} onComplete={(score) => {
           setCurrentScore(score);
           setShowFeedback(true);
           setShowCelebration(true);
         }} />;
 
       case 'multiple-choice-cloze':
-        return <MultipleChoiceClozeExercise exercise={currentExercise as any} onComplete={(score) => {
+        return <MultipleChoiceClozeExercise key={currentExercise.id} exercise={currentExercise as any} onComplete={(score) => {
           setCurrentScore(score);
           setShowFeedback(true);
           setShowCelebration(true);
@@ -2393,7 +2410,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'sentence-building':
         const sbExercise = currentExercise as SentenceBuildingExercise;
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             {/* Exercise Description */}
             <div className="bg-coral-50 rounded-xl p-6 border-2 border-coral-200">
               <h3 className="text-xl font-bold text-coral-900 mb-2 flex items-center gap-2">
@@ -2420,6 +2437,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 </div>
 
                 <SentenceBuilder
+                  key={challenge.id}
                   challenge={challenge}
                   showHints={sbExercise.showHints}
                   showTranslations={sbExercise.showTranslations}
@@ -2442,7 +2460,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'gap-fill-text':
         const gapFillExercise = currentExercise as any;
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             {/* Instructions */}
             <div className="bg-blue-50 rounded-xl p-6 border-2 border-blue-200">
               <h3 className="text-xl font-bold text-blue-900 mb-2 flex items-center gap-2">
@@ -2612,7 +2630,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'sentence-completion':
         const scExercise = currentExercise as any;
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             {/* Instructions */}
             <div className="bg-purple-50 rounded-xl p-6 border-2 border-purple-200">
               <h3 className="text-xl font-bold text-purple-900 mb-2 flex items-center gap-2">
@@ -2776,7 +2794,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'error-identification':
         const eiExercise = currentExercise as any;
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             <div className="bg-red-50 rounded-xl p-6 border-2 border-red-200">
               <h3 className="text-xl font-bold text-red-900 mb-2 flex items-center gap-2">
                 <span>🔍</span>
@@ -2887,7 +2905,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'collocation-matching':
         const cmExercise = currentExercise as any;
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             <div className="bg-indigo-50 rounded-xl p-6 border-2 border-indigo-200">
               <h3 className="text-xl font-bold text-indigo-900 mb-2 flex items-center gap-2">
                 <span>🔗</span>
@@ -2990,7 +3008,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'paraphrase':
         const paraphExercise = currentExercise as any;
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             <div className="bg-teal-50 rounded-xl p-6 border-2 border-teal-200">
               <h3 className="text-xl font-bold text-teal-900 mb-2 flex items-center gap-2">
                 <span>🔄</span>
@@ -3083,7 +3101,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'sentence-ordering':
         const srExercise = currentExercise as any;
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             <div className="bg-pink-50 rounded-xl p-6 border-2 border-pink-200">
               <h3 className="text-xl font-bold text-pink-900 mb-2 flex items-center gap-2">
                 <span>🔢</span>
@@ -3175,7 +3193,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         // Handle nested exercises format (verbs + exercises array)
         if (pvExercise.verbs && pvExercise.exercises) {
           return (
-            <div className="space-y-6">
+            <div key={currentExercise.id} className="space-y-6">
               <div className="bg-cyan-50 rounded-xl p-6 border-2 border-cyan-200">
                 <h3 className="text-xl font-bold text-cyan-900 mb-2 flex items-center gap-2">
                   <span>🚀</span>
@@ -3278,7 +3296,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         
         // Handle standard items format
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             <div className="bg-cyan-50 rounded-xl p-6 border-2 border-cyan-200">
               <h3 className="text-xl font-bold text-cyan-900 mb-2 flex items-center gap-2">
                 <span>🚀</span>
@@ -3404,7 +3422,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         // Handle nested exercises format (idioms + exercises array)
         if (ieExercise.idioms && ieExercise.exercises) {
           return (
-            <div className="space-y-6">
+            <div key={currentExercise.id} className="space-y-6">
               <div className="bg-yellow-50 rounded-xl p-6 border-2 border-yellow-200">
                 <h3 className="text-xl font-bold text-yellow-900 mb-2 flex items-center gap-2">
                   <span>💬</span>
@@ -3507,7 +3525,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         
         // Handle standard items format
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             <div className="bg-yellow-50 rounded-xl p-6 border-2 border-yellow-200">
               <h3 className="text-xl font-bold text-yellow-900 mb-2 flex items-center gap-2">
                 <span>💬</span>
@@ -3635,7 +3653,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         // Handle gap-fill exercises with sentences format (not text-based)
         if (gapExercise.sentences && !gapExercise.text) {
           return (
-            <div className="space-y-6">
+            <div key={currentExercise.id} className="space-y-6">
               <div className="bg-emerald-50 rounded-xl p-6 border-2 border-emerald-200">
                 <h3 className="text-xl font-bold text-emerald-900 mb-2 flex items-center gap-2">
                   <span>📋</span>
@@ -3712,7 +3730,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         
         // Handle text-based gap-fill exercises (open-cloze format)
         return (
-          <div className="space-y-6" data-testid="open-cloze-exercise">
+          <div key={currentExercise.id} className="space-y-6" data-testid="open-cloze-exercise">
             <div className="bg-emerald-50 rounded-xl p-6 border-2 border-emerald-200" data-testid="exercise-header">
               <h3 className="text-xl font-bold text-emerald-900 mb-2 flex items-center gap-2" data-testid="exercise-title">
                 <span>📋</span>
@@ -3834,7 +3852,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         const isWithinRange = wordCount >= targetMin && wordCount <= targetMax;
         
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             <div className="bg-violet-50 rounded-xl p-6 border-2 border-violet-200">
               <h3 className="text-xl font-bold text-violet-900 mb-2 flex items-center gap-2">
                 <span>✍️</span>
@@ -3930,7 +3948,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'key-word-transformations':
         const kwtExercise = currentExercise as any;
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             <div className="bg-rose-50 rounded-xl p-6 border-2 border-rose-200">
               <h3 className="text-xl font-bold text-rose-900 mb-2 flex items-center gap-2">
                 <span>🔑</span>
@@ -4015,7 +4033,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'pronunciation-practice':
         const ppExercise = currentExercise as any;
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             <div className="bg-orange-50 rounded-xl p-6 border-2 border-orange-200">
               <h3 className="text-xl font-bold text-orange-900 mb-2 flex items-center gap-2">
                 <span>🗣️</span>
@@ -4065,8 +4083,11 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       )}
                       <div className="pt-2">
                         <EnhancedVoiceRecorder
+                          key={`${currentExercise.id}-pron-sent-${idx}`}
+                          exerciseId={`${currentExercise.id}-pron-sent-${idx}`}
+                          prompt="Read the sentence aloud to practice your pronunciation."
                           targetText={item.sentence}
-                          onRecordingComplete={(blob, transcript) => {
+                          onComplete={(blob, transcript) => {
                             setRecordedAudio({ blob, transcript });
                             handleAnswer(`pronunciation-${idx}`, transcript);
                           }}
@@ -4083,7 +4104,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'integrated-reading-writing':
         const irwExercise = currentExercise as any;
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             <div className="bg-fuchsia-50 rounded-xl p-6 border-2 border-fuchsia-200">
               <h3 className="text-xl font-bold text-fuchsia-900 mb-2 flex items-center gap-2">
                 <span>📖✍️</span>
@@ -4202,7 +4223,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       case 'matching':
         const matchExercise = currentExercise as any;
         return (
-          <div className="space-y-6">
+          <div key={currentExercise.id} className="space-y-6">
             <div className="bg-lime-50 rounded-xl p-6 border-2 border-lime-200">
               <h3 className="text-xl font-bold text-lime-900 mb-2 flex items-center gap-2">
                 <span>🔀</span>
@@ -4375,52 +4396,143 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           )}
         </div>
 
-        {/* Exercise Content */}
-        <div className="bg-white rounded-xl shadow-lg p-6 mb-6 border-2 border-slate-200">
-          <div className="mb-4 flex items-center justify-between">
-            <h2 className="text-2xl font-bold text-slate-900">
-              Exercise {currentExerciseIndex + 1}: {currentExercise.type.charAt(0).toUpperCase() + currentExercise.type.slice(1)}
-            </h2>
-            <span className="px-3 py-1 bg-orange-100 text-coral-700 rounded-full text-sm font-semibold">
-              {currentExercise.type}
-            </span>
-          </div>
-
-          {renderExercise()}
-        </div>
-
-        {/* Navigation Buttons */}
-        <div className="flex justify-between gap-4">
+        {/* Navigation Tabs */}
+        <div className="flex border-b-2 border-slate-200 mb-6 bg-white rounded-t-2xl px-4">
           <button
-            onClick={previousExercise}
-            disabled={currentExerciseIndex === 0}
-            className="px-6 py-3 bg-slate-200 text-slate-700 rounded-xl hover:bg-slate-300 transition-colors font-bold disabled:opacity-50 disabled:cursor-not-allowed"
+            onClick={() => setActiveTab('theory')}
+            className={`px-6 py-4 font-bold text-lg transition-all border-b-4 -mb-0.5 ${
+              activeTab === 'theory' 
+                ? 'border-orange-500 text-orange-600' 
+                : 'border-transparent text-slate-500 hover:text-slate-700'
+            }`}
           >
-            ← Previous
+            📚 Teoría
           </button>
-
-          <div className="flex gap-3">
-            {/* Skip button (always visible) */}
-            {!showFeedback && !recordedAudio && currentExercise.type !== 'writing' && (
-              <button
-                onClick={nextExercise}
-                className="px-6 py-3 bg-slate-300 text-slate-700 rounded-xl hover:bg-slate-400 transition-colors font-bold"
-              >
-                Skip Exercise →
-              </button>
-            )}
-            
-            {/* Next button (after completing exercise) */}
-            {(showFeedback || recordedAudio || currentExercise.type === 'writing') && (
-              <button
-                onClick={nextExercise}
-                className="px-6 py-3 bg-gradient-to-r from-coral-600 to-peach-600 text-white rounded-xl hover:from-coral-700 hover:to-peach-700 transition-all font-bold shadow-lg"
-              >
-                {currentExerciseIndex === lesson.exercises.length - 1 ? 'Complete Lesson' : 'Next Exercise →'}
-              </button>
-            )}
-          </div>
+          <button
+            onClick={() => setActiveTab('practice')}
+            className={`px-6 py-4 font-bold text-lg transition-all border-b-4 -mb-0.5 ${
+              activeTab === 'practice' 
+                ? 'border-orange-500 text-orange-600' 
+                : 'border-transparent text-slate-500 hover:text-slate-700'
+            }`}
+          >
+            ✍️ Práctica
+          </button>
         </div>
+
+        {activeTab === 'theory' ? (
+          <div className="animate-fadeIn space-y-6">
+            {lesson.videoUrl && (
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden border-2 border-slate-200">
+                <div className="aspect-video bg-black">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src={lesson.videoUrl.replace('watch?v=', 'embed/')}
+                    title={lesson.title}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <div className="p-4 bg-slate-50 border-t border-slate-200">
+                  <p className="text-sm font-semibold text-slate-700 flex items-center gap-2">
+                    <span>📹</span> Video Lección: {lesson.title}
+                  </p>
+                </div>
+              </div>
+            )}
+
+            <div className="bg-white rounded-xl shadow-lg p-8 border-2 border-slate-200">
+              <h2 className="text-3xl font-black text-slate-900 mb-6">Contenido de la Lección</h2>
+              
+              {lesson.theoryContent ? (
+                <Markdown content={lesson.theoryContent} />
+              ) : (
+                <div className="text-center py-12 bg-slate-50 rounded-xl border-2 border-dashed border-slate-300">
+                  <div className="text-4xl mb-4">📝</div>
+                  <h3 className="text-xl font-bold text-slate-800">Esta lección es eminentemente práctica</h3>
+                  <p className="text-slate-600 mt-2">Haz clic en la pestaña de "Práctica" para comenzar los ejercicios.</p>
+                </div>
+              )}
+
+              {lesson.objectives && lesson.objectives.length > 0 && (
+                <div className="mt-12 pt-8 border-t border-slate-100">
+                  <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+                    <span className="text-orange-500">🎯</span> Objetivos de Aprendizaje
+                  </h3>
+                  <div className="grid md:grid-cols-2 gap-4">
+                    {lesson.objectives.map((obj, i) => (
+                      <div key={i} className="flex items-start gap-3 bg-orange-50/50 p-4 rounded-xl border border-orange-100">
+                        <span className="text-green-500 font-bold mt-0.5">✓</span>
+                        <span className="text-slate-700 font-medium">{obj}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              <div className="mt-12 flex justify-center">
+                <button
+                  onClick={() => setActiveTab('practice')}
+                  className="px-10 py-5 bg-gradient-to-r from-orange-600 to-coral-600 text-white rounded-2xl hover:from-orange-700 hover:to-coral-700 transition-all font-black text-xl shadow-xl transform hover:-translate-y-1 flex items-center gap-3"
+                >
+                  ¡Empezar Práctica!
+                  <ArrowRight className="w-6 h-6" />
+                </button>
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div className="animate-fadeIn">
+            {/* Exercise Content */}
+            <div className="bg-white rounded-xl shadow-lg p-6 mb-6 border-2 border-slate-200">
+              <div className="mb-4 flex items-center justify-between">
+                <h2 className="text-2xl font-bold text-slate-900">
+                  Ejercicio {currentExerciseIndex + 1}: {currentExercise.type.charAt(0).toUpperCase() + currentExercise.type.slice(1)}
+                </h2>
+                <span className="px-3 py-1 bg-orange-100 text-coral-700 rounded-full text-sm font-semibold">
+                  {currentExercise.type}
+                </span>
+              </div>
+
+              {renderExercise()}
+            </div>
+
+            {/* Navigation Buttons */}
+            <div className="flex justify-between gap-4">
+              <button
+                onClick={previousExercise}
+                disabled={currentExerciseIndex === 0}
+                className="px-6 py-3 bg-slate-200 text-slate-700 rounded-xl hover:bg-slate-300 transition-colors font-bold disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                ← Anterior
+              </button>
+
+              <div className="flex gap-3">
+                {/* Skip button (always visible) */}
+                {!showFeedback && !recordedAudio && currentExercise.type !== 'writing' && (
+                  <button
+                    onClick={nextExercise}
+                    className="px-6 py-3 bg-slate-300 text-slate-700 rounded-xl hover:bg-slate-400 transition-colors font-bold"
+                  >
+                    Saltar Ejercicio →
+                  </button>
+                )}
+                
+                {/* Next button (after completing exercise) */}
+                {(showFeedback || recordedAudio || currentExercise.type === 'writing') && (
+                  <button
+                    onClick={nextExercise}
+                    className="px-6 py-3 bg-gradient-to-r from-coral-600 to-peach-600 text-white rounded-xl hover:from-coral-700 hover:to-peach-700 transition-all font-bold shadow-lg"
+                  >
+                    {currentExerciseIndex === lesson.exercises.length - 1 ? 'Finalizar Lección' : 'Siguiente Ejercicio →'}
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Celebration Modal */}

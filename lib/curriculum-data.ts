@@ -1005,6 +1005,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           "Inglés legal avanzado",
           "Inglés médico especializado",
           "Inglés de negocios ejecutivo",
+          "Inglés para Tecnología e Inteligencia Artificial",
           "Traducción e interpretación",
           "Literatura inglesa (clásica y contemporánea)"
         ],

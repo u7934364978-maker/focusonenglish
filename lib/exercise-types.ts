@@ -29,7 +29,11 @@ export type ExerciseType =
   | 'writing-analysis'
   | 'pronunciation-practice'
   | 'dictation'
-  | 'roleplay';
+  | 'roleplay'
+  | 'ielts-graph-description'
+  | 'ielts-true-false-not-given'
+  | 'toefl-integrated-reading-listening'
+  | 'oxford-use-of-english';
 
 export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
@@ -545,6 +549,127 @@ Format as JSON:
       easy: 'Simple social interactions with helpful AI',
       medium: 'Professional or slightly challenging scenarios',
       hard: 'Debates, negotiations, or complex problem-solving'
+    }
+  },
+  {
+    id: 'ielts-graph-description',
+    name: 'IELTS Graph Description',
+    nameES: 'IELTS Descripción de Gráficos',
+    category: 'exam-practice',
+    description: 'Describe and analyze data from a graph or chart (IELTS Task 1)',
+    descriptionES: 'Describe y analiza datos de un gráfico o tabla (IELTS Tarea 1)',
+    icon: '📊',
+    estimatedTime: 20,
+    aiPromptTemplate: `Generate an IELTS Academic Writing Task 1 exercise.
+Topic: {{topic}}
+Difficulty: {{difficulty}}
+
+Create:
+1. A detailed description of a data visualization (bar chart, line graph, pie chart, or table)
+2. The data points to be included in the description
+3. Instructions for the student to write a summary of at least 150 words
+4. A model answer that demonstrates:
+   - Clear overview of main trends
+   - Accurate data reporting
+   - Appropriate academic vocabulary for trends and comparisons
+   - Logical organization
+
+Format as JSON with data, instructions, and modelAnswer.`,
+    supportedLevels: ['B2', 'C1', 'C2'],
+    difficultySettings: {
+      easy: 'Simple trends with clear data points',
+      medium: 'Multiple categories or fluctuating trends',
+      hard: 'Complex data with subtle correlations and multiple charts'
+    }
+  },
+  {
+    id: 'ielts-true-false-not-given',
+    name: 'IELTS True/False/Not Given',
+    nameES: 'IELTS Verdadero/Falso/No Mencionado',
+    category: 'exam-practice',
+    description: 'Determine if statements agree with the information in the text',
+    descriptionES: 'Determina si las afirmaciones coinciden con la información del texto',
+    icon: '❓',
+    estimatedTime: 15,
+    aiPromptTemplate: `Generate an IELTS-style Reading exercise: True/False/Not Given.
+Topic: {{topic}}
+Difficulty: {{difficulty}}
+
+Create:
+1. A complex academic text passage (300-400 words)
+2. 6-8 statements about the text
+3. For each statement, determine if it is:
+   - TRUE: the statement agrees with the information
+   - FALSE: the statement contradicts the information
+   - NOT GIVEN: there is no information on this
+
+Include:
+- The text passage
+- Questions array with statement, answer, and a detailed explanation in Spanish justifying why it's T/F/NG based on specific parts of the text.
+
+Format as JSON.`,
+    supportedLevels: ['B2', 'C1', 'C2'],
+    difficultySettings: {
+      easy: 'Explicit information with clear synonyms',
+      medium: 'Paraphrased information requiring careful reading',
+      hard: 'Subtle distinctions and complex paraphrasing, testing the difference between False and Not Given'
+    }
+  },
+  {
+    id: 'toefl-integrated-reading-listening',
+    name: 'TOEFL Integrated Task',
+    nameES: 'Tarea Integrada TOEFL',
+    category: 'exam-practice',
+    description: 'Read a passage, listen to a lecture, and synthesize the information',
+    descriptionES: 'Lee un texto, escucha una lección y sintetiza la información',
+    icon: '🎓',
+    estimatedTime: 25,
+    aiPromptTemplate: `Generate a TOEFL-style Integrated Writing/Speaking task.
+Topic: {{topic}}
+Difficulty: {{difficulty}}
+
+Create:
+1. A Reading Passage (250 words) presenting an academic argument or theory
+2. A script for a Listening Passage (Lecture) that provides opposing points or additional context
+3. A specific prompt asking the student to explain how the lecture challenges or supports the reading
+4. Key points from both passages that should be included in the response
+5. A model response
+
+Format as JSON with readingText, listeningScript, prompt, and keyPoints.`,
+    supportedLevels: ['B2', 'C1', 'C2'],
+    difficultySettings: {
+      easy: 'Clearly contrasting points with simple academic vocabulary',
+      medium: 'Nuanced arguments with standard academic complexity',
+      hard: 'Complex abstract theories with subtle points of contrast and sophisticated vocabulary'
+    }
+  },
+  {
+    id: 'oxford-use-of-english',
+    name: 'Oxford Use of English',
+    nameES: 'Oxford Uso del Inglés',
+    category: 'exam-practice',
+    description: 'Test grammar and vocabulary in context (Oxford Online Placement Test style)',
+    descriptionES: 'Evalúa gramática y vocabulario en contexto (estilo Oxford Online Placement Test)',
+    icon: '🇬🇧',
+    estimatedTime: 12,
+    aiPromptTemplate: `Generate an Oxford Online Placement Test style Use of English exercise.
+Topic: {{topic}}
+Level: {{level}}
+Difficulty: {{difficulty}}
+
+Include 10-12 questions focusing on:
+1. Short conversations: Choose the most natural response
+2. Gap-fills: Choose the correct word for a short sentence context
+3. Meaning identification: Choose the correct meaning of a phrase or sentence
+
+Make it adaptive in feel by varying difficulty within the set if requested.
+
+Format as JSON with a questions array.`,
+    supportedLevels: ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'],
+    difficultySettings: {
+      easy: 'Basic daily interactions and simple grammar',
+      medium: 'Natural idiomatic language and standard grammar',
+      hard: 'Highly idiomatic, subtle grammar points, and complex social context'
     }
   }
 ];
