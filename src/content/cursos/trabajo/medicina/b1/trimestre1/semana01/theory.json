@@ -1,0 +1,20 @@
+{
+  "title": "Patient Admissions and Body Systems",
+  "sections": [
+    {
+      "id": "body-systems",
+      "title": "The Human Body: Basic Systems",
+      "content": "To communicate effectively in a medical environment, you must know the names of the main body systems and organs.\n\nKey Systems:\n1. **Skeletal System**: Bones and joints (e.g., skull, ribs, spine).\n2. **Circulatory System**: Heart and blood vessels.\n3. **Respiratory System**: Lungs and airways.\n4. **Digestive System**: Stomach, intestines, and liver.\n5. **Nervous System**: Brain and nerves.\n\nCommon Organs:\n- **Heart**: Pumps blood.\n- **Lungs**: For breathing.\n- **Kidneys**: Filter waste from the blood.\n- **Liver**: Processes nutrients and toxins."
+    },
+    {
+      "id": "admissions",
+      "title": "Initial Patient Interaction (Admissions)",
+      "content": "When a patient arrives at the hospital or clinic, the first step is the **admission process**.\n\nUseful Phrases for Admissions:\n- \"Good morning. How can I help you today?\"\n- \"Can I have your full name and date of birth, please?\"\n- \"Do you have any medical insurance?\"\n- \"Are you allergic to any medications?\"\n- \"Who is your next of kin?\" (closest relative)\n- \"Please take a seat in the waiting area.\""
+    },
+    {
+      "id": "grammar-present-simple",
+      "title": "Grammar: Present Simple for Medical Routines",
+      "content": "We use the **Present Simple** to describe habitual actions, facts, and routines in the hospital.\n\nExamples:\n- *The nurse **checks** the patients' vitals every four hours.*\n- *Dr. Smith **works** in the cardiology department.*\n- *We **do not perform** surgery in this ward.*\n- *Does the patient **take** any regular medication?*"
+    }
+  ]
+}

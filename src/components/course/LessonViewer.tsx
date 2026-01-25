@@ -56,11 +56,19 @@ interface LessonViewerProps {
 }
 
 export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) {
-  // Detect lesson level from lesson ID (e.g., "a1-m1-l1" -> "A1", "b2-m1-l1" -> "B2")
-  const lessonLevel = (lesson.id.split('-')[0].toUpperCase()) as 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+  // Detect lesson level from lesson ID (e.g., "a1-m1-l1" -> "A1", "b2-m1-l1" -> "B2", or "finanzas-b1-..." -> "B1")
+  const getLevel = () => {
+    const parts = lesson.id.split('-');
+    // Check if any part matches a level pattern
+    const levelMatch = parts.find(p => /^[a-c][1-2]$/i.test(p));
+    if (levelMatch) return levelMatch.toUpperCase() as 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+    return 'B1'; // Default fallback
+  };
+  
+  const lessonLevel = getLevel();
   
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
-  const [activeTab, setActiveTab] = useState<'theory' | 'practice'>('theory');
+  const [activeTab, setActiveTab] = useState<'theory' | 'practice'>(lesson.theoryContent ? 'theory' : 'practice');
   const [answers, setAnswers] = useState<{ [questionId: string]: string }>({});
   const [exerciseScores, setExerciseScores] = useState<{ [exerciseId: string]: number }>({});
   const [showFeedback, setShowFeedback] = useState(false);
@@ -80,8 +88,8 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   const [xpGained, setXPGained] = useState(0);
   const [newBadges, setNewBadges] = useState<any[]>([]);
 
-  const currentExercise = lesson.exercises[currentExerciseIndex];
-  const progress = ((currentExerciseIndex + 1) / lesson.exercises.length) * 100;
+  const currentExercise = lesson.exercises.length > 0 ? lesson.exercises[currentExerciseIndex] : null;
+  const progress = lesson.exercises.length > 0 ? ((currentExerciseIndex + 1) / lesson.exercises.length) * 100 : 0;
 
   const handleAnswer = (questionId: string, answer: string) => {
     setAnswers(prev => ({ ...prev, [questionId]: answer }));
@@ -89,6 +97,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
   // Function to evaluate pronunciation recordings
   const evaluatePronunciationRecordings = async () => {
+    if (!currentExercise) return;
     setEvaluating(true);
     
     try {
@@ -155,6 +164,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   };
 
   const checkAnswers = async () => {
+    if (!currentExercise) return;
     setEvaluating(true);
     
     if (currentExercise.type === 'grammar' || 
@@ -908,6 +918,13 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   };
 
   const nextExercise = async () => {
+    if (!currentExercise) {
+      if (currentExerciseIndex < lesson.exercises.length - 1) {
+        setCurrentExerciseIndex(prev => prev + 1);
+      }
+      return;
+    }
+
     // Award XP for completed exercise if it has a score
     if (exerciseScores[currentExercise.id] !== undefined) {
       const exerciseScore = exerciseScores[currentExercise.id];
@@ -963,6 +980,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   };
 
   const handlePronunciationEvaluationComplete = (feedback: any) => {
+    if (!currentExercise) return;
     setPronunciationFeedback(feedback);
     setExerciseScores(prev => ({ ...prev, [currentExercise.id]: feedback.score.overall }));
   };
@@ -982,6 +1000,8 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   };
 
   const renderExercise = () => {
+    if (!currentExercise) return null;
+    
     // Check if exercise has required content
     const ex = currentExercise as any;
     const hasContent = ex.questions || 
@@ -3955,52 +3975,68 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           </div>
         ) : (
           <div className="animate-fadeIn">
-            {/* Exercise Content */}
-            <div className="bg-white rounded-xl shadow-lg p-6 mb-6 border-2 border-slate-200">
-              <div className="mb-4 flex items-center justify-between">
-                <h2 className="text-2xl font-bold text-slate-900">
-                  Ejercicio {currentExerciseIndex + 1}: {currentExercise.type.charAt(0).toUpperCase() + currentExercise.type.slice(1)}
-                </h2>
-                <span className="px-3 py-1 bg-orange-100 text-coral-700 rounded-full text-sm font-semibold">
-                  {currentExercise.type}
-                </span>
-              </div>
+            {currentExercise ? (
+              <>
+                {/* Exercise Content */}
+                <div className="bg-white rounded-xl shadow-lg p-6 mb-6 border-2 border-slate-200">
+                  <div className="mb-4 flex items-center justify-between">
+                    <h2 className="text-2xl font-bold text-slate-900">
+                      Ejercicio {currentExerciseIndex + 1}: {currentExercise.type.charAt(0).toUpperCase() + currentExercise.type.slice(1)}
+                    </h2>
+                    <span className="px-3 py-1 bg-orange-100 text-coral-700 rounded-full text-sm font-semibold">
+                      {currentExercise.type}
+                    </span>
+                  </div>
 
-              {renderExercise()}
-            </div>
+                  {renderExercise()}
+                </div>
 
-            {/* Navigation Buttons */}
-            <div className="flex justify-between gap-4">
-              <button
-                onClick={previousExercise}
-                disabled={currentExerciseIndex === 0}
-                className="px-6 py-3 bg-slate-200 text-slate-700 rounded-xl hover:bg-slate-300 transition-colors font-bold disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                ← Anterior
-              </button>
-
-              <div className="flex gap-3">
-                {/* Skip button (always visible) */}
-                {!showFeedback && !recordedAudio && currentExercise.type !== 'writing' && (
+                {/* Navigation Buttons */}
+                <div className="flex justify-between gap-4">
                   <button
-                    onClick={nextExercise}
-                    className="px-6 py-3 bg-slate-300 text-slate-700 rounded-xl hover:bg-slate-400 transition-colors font-bold"
+                    onClick={previousExercise}
+                    disabled={currentExerciseIndex === 0}
+                    className="px-6 py-3 bg-slate-200 text-slate-700 rounded-xl hover:bg-slate-300 transition-colors font-bold disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    Saltar Ejercicio →
+                    ← Anterior
                   </button>
-                )}
-                
-                {/* Next button (after completing exercise) */}
-                {(showFeedback || recordedAudio || currentExercise.type === 'writing') && (
-                  <button
-                    onClick={nextExercise}
-                    className="px-6 py-3 bg-gradient-to-r from-coral-600 to-peach-600 text-white rounded-xl hover:from-coral-700 hover:to-peach-700 transition-all font-bold shadow-lg"
-                  >
-                    {currentExerciseIndex === lesson.exercises.length - 1 ? 'Finalizar Lección' : 'Siguiente Ejercicio →'}
-                  </button>
-                )}
+
+                  <div className="flex gap-3">
+                    {/* Skip button (always visible) */}
+                    {!showFeedback && !recordedAudio && currentExercise.type !== 'writing' && (
+                      <button
+                        onClick={nextExercise}
+                        className="px-6 py-3 bg-slate-300 text-slate-700 rounded-xl hover:bg-slate-400 transition-colors font-bold"
+                      >
+                        Saltar Ejercicio →
+                      </button>
+                    )}
+                    
+                    {/* Next button (after completing exercise) */}
+                    {(showFeedback || recordedAudio || currentExercise.type === 'writing') && (
+                      <button
+                        onClick={nextExercise}
+                        className="px-6 py-3 bg-gradient-to-r from-coral-600 to-peach-600 text-white rounded-xl hover:from-coral-700 hover:to-peach-700 transition-all font-bold shadow-lg"
+                      >
+                        {currentExerciseIndex === lesson.exercises.length - 1 ? 'Finalizar Lección' : 'Siguiente Ejercicio →'}
+                      </button>
+                    )}
+                  </div>
+                </div>
+              </>
+            ) : (
+              <div className="text-center py-12 bg-white rounded-xl shadow-lg border-2 border-slate-200">
+                <div className="text-4xl mb-4">📚</div>
+                <h3 className="text-xl font-bold text-slate-800">Esta lección solo contiene teoría</h3>
+                <p className="text-slate-600 mt-2 mb-6">Revisa el contenido en la pestaña de "Teoría".</p>
+                <button
+                  onClick={() => setActiveTab('theory')}
+                  className="px-8 py-3 bg-orange-500 text-white rounded-xl font-bold hover:bg-orange-600 transition-colors"
+                >
+                  Volver a Teoría
+                </button>
               </div>
-            </div>
+            )}
           </div>
         )}
       </div>

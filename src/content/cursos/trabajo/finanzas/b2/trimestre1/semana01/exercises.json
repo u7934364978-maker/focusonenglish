@@ -1,0 +1,73 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana01",
+  "title": "Investment Banking & Risk Assessment",
+  "description": "Advanced focus on M&A, IPOs, and quantifying financial risk using sophisticated vocabulary and modal verbs.",
+  "items": [
+    {
+      "id": "finance-b2-w1-q1",
+      "type": "multipleChoice",
+      "prompt": "Which term describes the process where an investment bank helps a private company go public for the first time?",
+      "options": ["Leveraged Buyout", "Initial Public Offering (IPO)", "Asset Stripping", "Venture Capital"],
+      "answerIndex": 1,
+      "explanation": "An IPO is the process of offering shares of a private corporation to the public in a new stock issuance."
+    },
+    {
+      "id": "finance-b2-w1-q2",
+      "type": "multipleChoice",
+      "prompt": "If a company is highly 'leveraged', it means that it...?",
+      "options": [
+        "Has a lot of cash in hand",
+        "Has a very high stock price",
+        "Has a large amount of debt relative to its equity",
+        "Is operating in multiple international markets"
+      ],
+      "answerIndex": 2,
+      "explanation": "Leverage refers to the use of debt (borrowed funds) to amplify returns from an investment or project."
+    },
+    {
+      "id": "finance-b2-w1-q3",
+      "type": "multipleChoice",
+      "prompt": "In risk management, 'Credit Risk' specifically refers to the possibility that...?",
+      "options": [
+        "The stock market will crash",
+        "A borrower will fail to repay a loan",
+        "Internal computer systems will fail",
+        "Exchange rates will fluctuate wildly"
+      ],
+      "answerIndex": 1,
+      "explanation": "Credit risk is the probability of loss resulting from a borrower's failure to repay a loan or meet contractual obligations."
+    },
+    {
+      "id": "finance-b2-w1-grammar-1",
+      "type": "multipleChoice",
+      "prompt": "Which modal expresses the highest level of certainty? 'Based on the current bull market, the stock price ___ rise further.'",
+      "options": ["might", "could", "must", "may"],
+      "answerIndex": 2,
+      "explanation": "'Must' is used for strong deduction based on evidence."
+    },
+    {
+      "id": "finance-b2-w1-grammar-2",
+      "type": "multipleChoice",
+      "prompt": "Choose the most appropriate modal for a cautious prediction: 'If the central bank keeps the current policy, we ___ see a slight decrease in inflation.'",
+      "options": ["will", "must", "might", "shall"],
+      "answerIndex": 2,
+      "explanation": "'Might' expresses a possibility and is suitable for cautious predictions in financial contexts."
+    },
+    {
+      "id": "finance-b2-w1-reading1",
+      "type": "readingComprehension",
+      "prompt": "Extract from a Financial Report: 'The proposed merger between TechCorp and SoftSystems is currently undergoing rigorous due diligence. Analysts suggest that while the synergies are clear, the operational risk remains high due to incompatible legacy systems.' \n\nWhat is the main concern regarding the merger?",
+      "options": [
+        "The price is too high",
+        "Incompatible internal systems (Operational Risk)",
+        "The market is not ready for the merger",
+        "TechCorp has too much debt"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text explicitly mentions 'operational risk remains high due to incompatible legacy systems'."
+    }
+  ]
+}

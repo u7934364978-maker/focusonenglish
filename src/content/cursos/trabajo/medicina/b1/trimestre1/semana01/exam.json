@@ -1,0 +1,28 @@
+{
+  "title": "Weekly Exam: Anatomy & Admissions",
+  "questions": [
+    {
+      "id": "med-b1-w1-exam-q1",
+      "type": "multiple-choice",
+      "question": "Which organ filters waste from the blood to create urine?",
+      "options": ["Liver", "Lungs", "Kidneys", "Stomach"],
+      "correctAnswer": "Kidneys",
+      "explanation": "The kidneys are responsible for filtering blood and producing urine.",
+      "points": 10
+    },
+    {
+      "id": "med-b1-w1-exam-q2",
+      "type": "multiple-choice",
+      "question": "Which question is essential during a patient's admission to ensure safety?",
+      "options": [
+        "What is your favorite food?",
+        "Are you allergic to any medications?",
+        "Do you have a car?",
+        "Where did you go on holiday?"
+      ],
+      "correctAnswer": "Are you allergic to any medications?",
+      "explanation": "Checking for allergies is critical to prevent dangerous reactions to treatments.",
+      "points": 10
+    }
+  ]
+}

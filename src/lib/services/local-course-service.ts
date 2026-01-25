@@ -12,6 +12,10 @@ export const localCourseService = {
     try {
       const baseDir = path.join(process.cwd(), 'src/content/cursos/trabajo', sector, level, trimester, weekId);
       
+      if (!fs.existsSync(baseDir)) {
+        return null;
+      }
+
       const theoryPath = path.join(baseDir, 'theory.json');
       const exercisesPath = path.join(baseDir, 'exercises.json');
       const examPath = path.join(baseDir, 'exam.json');
@@ -24,6 +28,11 @@ export const localCourseService = {
       let exercisesData = null;
       if (fs.existsSync(exercisesPath)) {
         exercisesData = JSON.parse(fs.readFileSync(exercisesPath, 'utf8'));
+      }
+
+      // If neither theory nor exercises exist, return null
+      if (!theoryData && !exercisesData) {
+        return null;
       }
 
       // Convert local format to Lesson interface

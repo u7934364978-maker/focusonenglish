@@ -1,0 +1,37 @@
+{
+  "title": "Weekly Exam: Investment Banking & Risk",
+  "questions": [
+    {
+      "id": "finance-b2-w1-exam-q1",
+      "type": "multiple-choice",
+      "question": "An investment bank's role in 'underwriting' involves:",
+      "options": [
+        "Managing daily savings accounts",
+        "Guaranteeing the sale of a new issue of securities",
+        "Insuring the bank's physical assets",
+        "Writing letters of credit for small businesses"
+      ],
+      "correctAnswer": "Guaranteeing the sale of a new issue of securities",
+      "explanation": "Underwriting is the process by which investment banks raise investment capital from investors on behalf of corporations and governments that are issuing securities.",
+      "points": 10
+    },
+    {
+      "id": "finance-b2-w1-exam-q2",
+      "type": "multiple-choice",
+      "question": "Which type of risk is most closely associated with the 'inability to convert assets into cash quickly without significant loss'?",
+      "options": ["Market Risk", "Credit Risk", "Liquidity Risk", "Operational Risk"],
+      "correctAnswer": "Liquidity Risk",
+      "explanation": "Liquidity risk occurs when an individual investor, business, or financial institution cannot meet its short-term debt obligations or sell an asset quickly for cash.",
+      "points": 10
+    },
+    {
+      "id": "finance-b2-w1-exam-q3",
+      "type": "multiple-choice",
+      "question": "Identify the modal of deduction indicating something is impossible: 'The company ___ be profitable; they have lost 50% of their clients this year.'",
+      "options": ["shouldn't", "mustn't", "can't", "might not"],
+      "correctAnswer": "can't",
+      "explanation": "'Can't' is used for strong negative deduction (it is impossible).",
+      "points": 10
+    }
+  ]
+}

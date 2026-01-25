@@ -1,0 +1,20 @@
+{
+  "title": "Investment Banking and Risk Management",
+  "sections": [
+    {
+      "id": "investment-banking",
+      "title": "Introduction to Investment Banking",
+      "content": "Investment banking differs significantly from retail banking. While retail banks deal with individuals and small businesses, investment banks work with large corporations and governments.\n\nKey activities include:\n1. **Underwriting**: Assisting companies in issuing new securities (stocks or bonds).\n2. **M&A (Mergers and Acquisitions)**: Advising companies on buying other companies or merging with them.\n3. **Asset Management**: Managing large portfolios of investments for institutional clients.\n\nVocabulary for B2 level:\n- **IPO (Initial Public Offering)**: The first time a company offers its stock to the public.\n- **Due Diligence**: The thorough investigation of a business or person before signing a contract.\n- **Leverage**: Using borrowed capital for an investment, expecting the profits made to be greater than the interest payable."
+    },
+    {
+      "id": "risk-analysis",
+      "title": "Financial Risk Analysis",
+      "content": "Risk management is the process of identifying, assessing, and controlling threats to an organization's capital and earnings. \n\nTypes of risks:\n- **Market Risk**: Potential losses due to changes in market prices (interest rates, exchange rates).\n- **Credit Risk**: The risk that a borrower will default on their obligations.\n- **Operational Risk**: Risks arising from internal failures (systems, people, or processes).\n- **Liquidity Risk**: The risk that an entity will not be able to meet its short-term financial obligations."
+    },
+    {
+      "id": "grammar-modals",
+      "title": "Grammar: Modals of Deduction and Probability",
+      "content": "In financial reporting and risk analysis, we often use modals to express different levels of certainty:\n\n1. **Strong certainty (90-100%)**:\n   - *The market **must** be reacting to the news.*\n   - *Inflation **will** definitely increase next quarter.*\n\n2. **Probability (70-80%)**:\n   - *The merger **should** be finalized by June.*\n   - *We **ought to** see an improvement in the second half.*\n\n3. **Possibility (30-50%)**:\n   - *Interest rates **might/could/may** rise if the economy overheats.*\n\n4. **Impossibility/Strong doubt**:\n   - *That forecast **can't** be right; the data is outdated.*"
+    }
+  ]
+}

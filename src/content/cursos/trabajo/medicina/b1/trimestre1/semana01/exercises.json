@@ -1,0 +1,63 @@
+{
+  "goal": "medicina",
+  "level": "B1",
+  "trimester": 1,
+  "weekId": "semana01",
+  "title": "Admissions & Human Anatomy",
+  "description": "Foundations of patient intake and basic anatomical terminology.",
+  "items": [
+    {
+      "id": "med-b1-w1-q1",
+      "type": "multipleChoice",
+      "prompt": "Which body system is responsible for pumping blood throughout the body?",
+      "options": ["Respiratory system", "Skeletal system", "Circulatory system", "Digestive system"],
+      "answerIndex": 2,
+      "explanation": "The circulatory system, powered by the heart, moves blood through the body."
+    },
+    {
+      "id": "med-b1-w1-q2",
+      "type": "multipleChoice",
+      "prompt": "During admission, what does 'Next of Kin' refer to?",
+      "options": ["A type of medication", "The patient's closest relative", "A medical insurance provider", "The primary symptom"],
+      "answerIndex": 1,
+      "explanation": "'Next of kin' is a person's closest living relative, who should be contacted in case of emergency."
+    },
+    {
+      "id": "med-b1-w1-q3",
+      "type": "multipleChoice",
+      "prompt": "Which organ is primarily used for breathing?",
+      "options": ["Liver", "Kidneys", "Lungs", "Brain"],
+      "answerIndex": 2,
+      "explanation": "The lungs are the main organs of the respiratory system."
+    },
+    {
+      "id": "med-b1-w1-grammar-1",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct form: 'The doctor ___ (examine) patients every morning.'",
+      "options": ["examine", "examines", "examining", "is examine"],
+      "answerIndex": 1,
+      "explanation": "We use the third-person singular 'examines' for a routine action in the Present Simple."
+    },
+    {
+      "id": "med-b1-w1-grammar-2",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct question: '___ the patient have any allergies?'",
+      "options": ["Do", "Does", "Is", "Has"],
+      "answerIndex": 1,
+      "explanation": "'Does' is the correct auxiliary verb for the third-person singular (the patient) in Present Simple questions."
+    },
+    {
+      "id": "med-b1-w1-reading1",
+      "type": "readingComprehension",
+      "prompt": "Admission Note: 'Patient: Maria Garcia. Age: 45. Reason for admission: Severe abdominal pain. Allergies: Penicillin. Next of kin: Husband (Juan Garcia).' \n\nWhat medication should Maria NOT receive?",
+      "options": [
+        "Aspirin",
+        "Penicillin",
+        "Insulin",
+        "Paracetamol"
+      ],
+      "answerIndex": 1,
+      "explanation": "The note states Maria is allergic to Penicillin."
+    }
+  ]
+}
