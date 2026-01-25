@@ -11,9 +11,15 @@ export default function A1Page() {
   const [stats, setStats] = useState({ total: 0, correct: 0 });
 
   const handleNextExercise = () => {
-    // Ir al siguiente ejercicio o volver al menú
-    if (selectedExercise !== null && selectedExercise < A1_KIDS_EXERCISES.length - 1) {
-      setSelectedExercise(selectedExercise + 1);
+    // Generar ejercicio aleatorio infinitamente
+    if (selectedExercise !== null) {
+      // Seleccionar un ejercicio aleatorio diferente al actual
+      let nextExercise;
+      do {
+        nextExercise = Math.floor(Math.random() * A1_KIDS_EXERCISES.length);
+      } while (nextExercise === selectedExercise && A1_KIDS_EXERCISES.length > 1);
+      
+      setSelectedExercise(nextExercise);
     } else {
       setSelectedExercise(null);
     }

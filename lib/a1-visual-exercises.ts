@@ -3,11 +3,12 @@
 
 export const A1_IMAGE_BANK = {
   // COLORES - Bloques de color sólido (UN SOLO COLOR POR IMAGEN)
+  // Usando placehold.co que es más confiable
   colors: {
-    red: 'https://via.placeholder.com/600x400/FF0000/FF0000?text=+',
-    blue: 'https://via.placeholder.com/600x400/0000FF/0000FF?text=+',
-    yellow: 'https://via.placeholder.com/600x400/FFFF00/FFFF00?text=+',
-    green: 'https://via.placeholder.com/600x400/00FF00/00FF00?text=+',
+    red: 'https://placehold.co/600x400/ff0000/ff0000.png',
+    blue: 'https://placehold.co/600x400/0000ff/0000ff.png',
+    yellow: 'https://placehold.co/600x400/ffff00/ffff00.png',
+    green: 'https://placehold.co/600x400/00ff00/00ff00.png',
   },
 
   // ANIMALES - Fotos claras y directas

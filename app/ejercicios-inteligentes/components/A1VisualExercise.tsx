@@ -320,21 +320,24 @@ export default function A1VisualExercise({ exercise, onNext, gradient }: A1Visua
                 ✓ Comprobar Respuesta
               </button>
             ) : (
-              <button
-                onClick={handleNext}
-                className={`flex-1 bg-gradient-to-r ${gradient} text-white py-5 px-8 rounded-2xl font-black text-xl hover:shadow-2xl transition-all flex items-center justify-center gap-3 hover:scale-105`}
-              >
-                {isLastQuestion ? (
-                  <>
-                    🎉 Ver Resultados
-                  </>
-                ) : (
-                  <>
-                    Siguiente Pregunta
-                    <RefreshCw className="w-6 h-6" />
-                  </>
-                )}
-              </button>
+              <>
+                <button
+                  onClick={handleNext}
+                  className={`flex-1 bg-gradient-to-r ${gradient} text-white py-5 px-8 rounded-2xl font-black text-xl hover:shadow-2xl transition-all flex items-center justify-center gap-3 hover:scale-105`}
+                >
+                  {isLastQuestion ? (
+                    <>
+                      🎯 Siguiente Ejercicio
+                      <RefreshCw className="w-6 h-6" />
+                    </>
+                  ) : (
+                    <>
+                      Siguiente Pregunta
+                      <RefreshCw className="w-6 h-6" />
+                    </>
+                  )}
+                </button>
+              </>
             )}
           </div>
         </div>
