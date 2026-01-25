@@ -1,0 +1,47 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 1,
+  "weekId": "semana01",
+  "title": "Banca Personal y Corporativa: Fundamentos",
+  "description": "Carga lectiva: 10h. Enfoque en tipos de cuentas, presentaciones de clientes y transacciones básicas.",
+  "items": [
+    {
+      "id": "finance-b1-w1-q1",
+      "type": "multipleChoice",
+      "prompt": "Which type of account is best for daily transactions like paying bills and receiving salary?",
+      "options": ["Savings account", "Current account", "Fixed-deposit account", "Escrow account"],
+      "answerIndex": 1,
+      "explanation": "A current account (or checking account) is designed for frequent daily transactions."
+    },
+    {
+      "id": "finance-b1-w1-q2",
+      "type": "multipleChoice",
+      "prompt": "What do you call the amount of money you are allowed to spend beyond your current balance?",
+      "options": ["Interest rate", "Credit score", "Overdraft", "Collateral"],
+      "answerIndex": 2,
+      "explanation": "An overdraft allows you to spend more money than you have in your account up to a certain limit."
+    },
+    {
+      "id": "finance-b1-w1-q3",
+      "type": "multipleChoice",
+      "prompt": "When a company wants to send money to a supplier in another country, they usually perform a...?",
+      "options": ["Withdrawal", "Deposit", "Wire transfer", "Standing order"],
+      "answerIndex": 2,
+      "explanation": "A wire transfer is the standard method for moving funds electronically between banks, especially internationally."
+    },
+    {
+      "id": "finance-b1-w1-reading1",
+      "type": "readingComprehension",
+      "prompt": "Read the following dialogue and answer: Why is Mr. Smith opening a business account? \n\nBanker: Good morning, how can I help you?\nMr. Smith: Hello. I've just started a small consulting firm and I need to keep my professional expenses separate from my personal ones.\nBanker: I see. For a startup, I recommend our 'Business Essential' account. It has low monthly fees.",
+      "options": [
+        "To save for his retirement",
+        "To separate professional and personal expenses",
+        "Because he lost his credit card",
+        "To get a personal mortgage"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mr. Smith explicitly states he needs to keep his professional expenses separate from his personal ones."
+    }
+  ]
+}
