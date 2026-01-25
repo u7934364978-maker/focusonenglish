@@ -24,7 +24,9 @@ GUIDELINES:
          "question": "The question text",
          "options": ["Option A", "Option B", "Option C", "Option D"], (Include only for multiple-choice)
          "correctAnswer": "The exact correct answer",
-         "explanation": "Brief explanation in Spanish"
+         "explanation": "Brief explanation in Spanish",
+         "translation": "Spanish translation of the question (ONLY for A1 level)",
+         "visualHint": "Simple emoji or description that represents the concept (ONLY for A1 level)"
        }
      ]
    }
@@ -37,7 +39,17 @@ GUIDELINES:
    - speaking-analysis: A situational prompt for the student to respond to.
 
 5. Topic: Adapt the content to the requested topic if provided.
-6. Difficulty: Adjust the complexity within the CEFR level based on "easy", "medium", or "hard".`;
+6. Difficulty: Adjust the complexity within the CEFR level based on "easy", "medium", or "hard".
+
+**SPECIAL INSTRUCTIONS FOR A1 LEVEL (ABSOLUTE BEGINNERS):**
+- Include "translation" field in each question with Spanish translation
+- Include "visualHint" field with relevant emoji or simple description (e.g., "👋" for greetings, "🏠" for house, "🍎" for apple)
+- Use VERY SIMPLE vocabulary (max 500 most common words)
+- Use present simple tense primarily
+- Include cognates when possible (words similar in Spanish: "hotel", "hospital", "family")
+- Questions should focus on: greetings, numbers, colors, family, food, daily routines, basic objects
+- Provide contextual images hints through emojis
+- All options should be single words or very short phrases (2-3 words max)`;
 
 export async function generateExerciseV2(request: GenerateExerciseRequest): Promise<GeneratedExercise> {
   const { exerciseType, level, difficulty, topic } = request;
@@ -60,6 +72,22 @@ export async function generateExerciseV2(request: GenerateExerciseRequest): Prom
   }
 
   try {
+    // Instrucciones especiales para nivel A1
+    const a1Instructions = level === 'A1' ? `
+    
+    🎯 CRITICAL A1 BEGINNER REQUIREMENTS:
+    - Add "translation" field to EVERY question (Spanish translation)
+    - Add "visualHint" field to EVERY question (emoji that represents the concept)
+    - Use ONLY the 500 most common English words
+    - Focus on: greetings, numbers (1-20), colors, family members, basic food, daily actions
+    - Examples of good A1 questions:
+      * "What is this? 🍎" (options: apple, orange, banana, grape) 
+      * "How do you greet someone? 👋" (options: Hello, Goodbye, Please, Sorry)
+      * "This is my ___. 👨‍👩‍👧" (Fill: family/mother/father)
+    - Make it VISUAL and INTUITIVE for someone with ZERO English knowledge
+    - Include everyday situations: home, family, food, basic actions` 
+    : '';
+
     const response = await openai.chat.completions.create({
       model: "gpt-4o",
       messages: [
@@ -72,6 +100,7 @@ export async function generateExerciseV2(request: GenerateExerciseRequest): Prom
           Topic: ${topic || 'General English'}
           Random context seed: ${randomSeed}
           Special instruction: ${contextExtra}
+          ${a1Instructions}
           
           Ensure it is pedagogically sound and unique.` 
         }

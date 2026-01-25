@@ -9,6 +9,266 @@ import { GeneratedExercise, ExerciseType, DifficultyLevel, CEFRLevel, GenerateEx
  * Ejercicios de ejemplo por tipo y nivel (Biblioteca ampliada para evitar repeticiones)
  */
 const FALLBACK_LIBRARY: Record<string, any[]> = {
+  // ============================================
+  // EJERCICIOS ESPECIALES PARA A1 (PRINCIPIANTES ABSOLUTOS)
+  // ============================================
+  'multiple-choice-a1': [
+    {
+      title: 'Greetings and Introductions',
+      instructions: 'Choose the correct word to complete the sentence.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'Hello! My name ___ Maria.',
+          options: ['is', 'am', 'are', 'be'],
+          correctAnswer: 'is',
+          explanation: 'Usamos "is" con "My name" (tercera persona singular).',
+          translation: 'Hola! Mi nombre ___ María.',
+          visualHint: '👋'
+        },
+        {
+          id: 'q2',
+          question: 'Nice to ___ you!',
+          options: ['meet', 'meeting', 'meets', 'met'],
+          correctAnswer: 'meet',
+          explanation: 'La expresión es "Nice to meet you" (Encantado de conocerte).',
+          translation: 'Encantado de ___ te!',
+          visualHint: '🤝'
+        },
+        {
+          id: 'q3',
+          question: 'What is ___ name?',
+          options: ['you', 'your', 'yours', 'my'],
+          correctAnswer: 'your',
+          explanation: '"Your" es el posesivo de "you" (tu/su).',
+          translation: '¿Cuál es ___ nombre?',
+          visualHint: '❓'
+        },
+        {
+          id: 'q4',
+          question: 'I ___ from Spain.',
+          options: ['am', 'is', 'are', 'be'],
+          correctAnswer: 'am',
+          explanation: 'Usamos "am" con "I" (yo).',
+          translation: 'Yo ___ de España.',
+          visualHint: '🇪🇸'
+        },
+        {
+          id: 'q5',
+          question: 'How ___ you?',
+          options: ['are', 'is', 'am', 'do'],
+          correctAnswer: 'are',
+          explanation: 'Usamos "are" con "you" (tú/usted).',
+          translation: '¿Cómo ___ tú?',
+          visualHint: '😊'
+        }
+      ]
+    },
+    {
+      title: 'Colors and Objects',
+      instructions: 'Choose the correct color or object.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'The apple is ___.',
+          options: ['red', 'blue', 'yellow', 'green'],
+          correctAnswer: 'red',
+          explanation: 'Las manzanas típicamente son rojas.',
+          translation: 'La manzana es ___.',
+          visualHint: '🍎'
+        },
+        {
+          id: 'q2',
+          question: 'The sky is ___.',
+          options: ['blue', 'red', 'black', 'green'],
+          correctAnswer: 'blue',
+          explanation: 'El cielo es azul.',
+          translation: 'El cielo es ___.',
+          visualHint: '☁️'
+        },
+        {
+          id: 'q3',
+          question: 'This is a ___.',
+          options: ['book', 'cat', 'car', 'house'],
+          correctAnswer: 'book',
+          explanation: 'La imagen muestra un libro.',
+          translation: 'Esto es un ___.',
+          visualHint: '📚'
+        },
+        {
+          id: 'q4',
+          question: 'I have a ___ car.',
+          options: ['black', 'blue', 'red', 'white'],
+          correctAnswer: 'red',
+          explanation: 'Cualquier color es correcto, pero "red" es la respuesta del ejemplo.',
+          translation: 'Yo tengo un coche ___.',
+          visualHint: '🚗'
+        },
+        {
+          id: 'q5',
+          question: 'The ___ is yellow.',
+          options: ['sun', 'moon', 'star', 'cloud'],
+          correctAnswer: 'sun',
+          explanation: 'El sol es amarillo.',
+          translation: 'El ___ es amarillo.',
+          visualHint: '☀️'
+        }
+      ]
+    },
+    {
+      title: 'Family Members',
+      instructions: 'Choose the correct family member.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'My father\'s wife is my ___.',
+          options: ['mother', 'sister', 'aunt', 'grandmother'],
+          correctAnswer: 'mother',
+          explanation: 'La esposa de tu padre es tu madre.',
+          translation: 'La esposa de mi padre es mi ___.',
+          visualHint: '👨‍👩‍👧'
+        },
+        {
+          id: 'q2',
+          question: 'My mother\'s son is my ___.',
+          options: ['brother', 'father', 'uncle', 'cousin'],
+          correctAnswer: 'brother',
+          explanation: 'El hijo de tu madre es tu hermano.',
+          translation: 'El hijo de mi madre es mi ___.',
+          visualHint: '👦'
+        },
+        {
+          id: 'q3',
+          question: 'My parents\' daughter is my ___.',
+          options: ['sister', 'mother', 'aunt', 'cousin'],
+          correctAnswer: 'sister',
+          explanation: 'La hija de tus padres es tu hermana.',
+          translation: 'La hija de mis padres es mi ___.',
+          visualHint: '👧'
+        },
+        {
+          id: 'q4',
+          question: 'My father\'s father is my ___.',
+          options: ['grandfather', 'uncle', 'brother', 'father'],
+          correctAnswer: 'grandfather',
+          explanation: 'El padre de tu padre es tu abuelo.',
+          translation: 'El padre de mi padre es mi ___.',
+          visualHint: '👴'
+        },
+        {
+          id: 'q5',
+          question: 'I am my parents\' ___.',
+          options: ['child', 'parent', 'friend', 'teacher'],
+          correctAnswer: 'child',
+          explanation: 'Tú eres el hijo/hija de tus padres.',
+          translation: 'Yo soy el ___ de mis padres.',
+          visualHint: '👶'
+        }
+      ]
+    },
+    {
+      title: 'Numbers and Counting',
+      instructions: 'Choose the correct number.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'I have ___ hands.',
+          options: ['two', 'one', 'three', 'four'],
+          correctAnswer: 'two',
+          explanation: 'Las personas tienen dos manos.',
+          translation: 'Yo tengo ___ manos.',
+          visualHint: '✋✋'
+        },
+        {
+          id: 'q2',
+          question: 'A week has ___ days.',
+          options: ['seven', 'five', 'six', 'eight'],
+          correctAnswer: 'seven',
+          explanation: 'Una semana tiene siete días.',
+          translation: 'Una semana tiene ___ días.',
+          visualHint: '📅'
+        },
+        {
+          id: 'q3',
+          question: '___ plus two equals five.',
+          options: ['three', 'one', 'four', 'two'],
+          correctAnswer: 'three',
+          explanation: '3 + 2 = 5',
+          translation: '___ más dos es igual a cinco.',
+          visualHint: '➕'
+        },
+        {
+          id: 'q4',
+          question: 'I have ___ eyes.',
+          options: ['two', 'one', 'three', 'four'],
+          correctAnswer: 'two',
+          explanation: 'Las personas tienen dos ojos.',
+          translation: 'Yo tengo ___ ojos.',
+          visualHint: '👀'
+        },
+        {
+          id: 'q5',
+          question: 'Ten minus five equals ___.',
+          options: ['five', 'three', 'four', 'six'],
+          correctAnswer: 'five',
+          explanation: '10 - 5 = 5',
+          translation: 'Diez menos cinco es igual a ___.',
+          visualHint: '➖'
+        }
+      ]
+    },
+    {
+      title: 'Food and Drinks',
+      instructions: 'Choose the correct food or drink.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'I drink ___ in the morning.',
+          options: ['coffee', 'pizza', 'rice', 'chicken'],
+          correctAnswer: 'coffee',
+          explanation: 'El café es una bebida común por la mañana.',
+          translation: 'Yo bebo ___ por la mañana.',
+          visualHint: '☕'
+        },
+        {
+          id: 'q2',
+          question: 'An ___ is a fruit.',
+          options: ['apple', 'egg', 'bread', 'cheese'],
+          correctAnswer: 'apple',
+          explanation: 'La manzana es una fruta.',
+          translation: 'Una ___ es una fruta.',
+          visualHint: '🍎'
+        },
+        {
+          id: 'q3',
+          question: 'I eat ___ for breakfast.',
+          options: ['bread', 'water', 'juice', 'milk'],
+          correctAnswer: 'bread',
+          explanation: 'El pan es una comida común para el desayuno.',
+          translation: 'Yo como ___ para el desayuno.',
+          visualHint: '🍞'
+        },
+        {
+          id: 'q4',
+          question: '___ is white and comes from cows.',
+          options: ['milk', 'water', 'juice', 'coffee'],
+          correctAnswer: 'milk',
+          explanation: 'La leche es blanca y viene de las vacas.',
+          translation: '___ es blanca y viene de las vacas.',
+          visualHint: '🥛'
+        },
+        {
+          id: 'q5',
+          question: 'I like to eat ___.',
+          options: ['pizza', 'rain', 'sun', 'moon'],
+          correctAnswer: 'pizza',
+          explanation: 'La pizza es una comida.',
+          translation: 'Me gusta comer ___.',
+          visualHint: '🍕'
+        }
+      ]
+    }
+  ],
   'multiple-choice': [
     {
       title: 'Mixed Conditionals Practice',
@@ -502,7 +762,15 @@ Looking ahead, experts predict that a hybrid model—combining office and remote
  */
 export function generateFallbackExercise(request: GenerateExerciseRequest): GeneratedExercise {
   const type = request.exerciseType;
-  const library = FALLBACK_LIBRARY[type] || FALLBACK_LIBRARY['multiple-choice'];
+  const level = request.level;
+  
+  // Para nivel A1, usar ejercicios especiales con traducciones y emojis
+  let library;
+  if (level === 'A1' && type === 'multiple-choice') {
+    library = FALLBACK_LIBRARY['multiple-choice-a1'] || FALLBACK_LIBRARY['multiple-choice'];
+  } else {
+    library = FALLBACK_LIBRARY[type] || FALLBACK_LIBRARY['multiple-choice'];
+  }
   
   // Selección aleatoria de la biblioteca para evitar repeticiones
   const randomIndex = Math.floor(Math.random() * library.length);

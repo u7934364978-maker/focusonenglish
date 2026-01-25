@@ -34,6 +34,8 @@ interface Question {
   context?: string;
   scenario?: string;
   hint?: string;
+  translation?: string; // Traducción al español para A1
+  visualHint?: string; // Emoji o hint visual para A1
 }
 
 interface Exercise {
@@ -454,9 +456,25 @@ export default function SmartExerciseGenerator({
                     </div>
                   )}
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-8 leading-tight">
+                  {/* Visual Hint for A1 Level */}
+                  {level === 'A1' && currentQuestion.visualHint && (
+                    <div className="mb-6 flex items-center justify-center">
+                      <div className="text-6xl" role="img" aria-label="visual hint">
+                        {currentQuestion.visualHint}
+                      </div>
+                    </div>
+                  )}
+
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2 leading-tight">
                     {currentQuestion.question}
                   </h3>
+
+                  {/* Spanish Translation for A1 Level */}
+                  {level === 'A1' && currentQuestion.translation && (
+                    <p className="text-lg text-gray-600 mb-8 italic border-l-4 border-emerald-400 pl-4 bg-emerald-50 py-2 rounded-r-lg">
+                      🇪🇸 {currentQuestion.translation}
+                    </p>
+                  )}
 
                   {/* Options (Multiple Choice) */}
                   {currentQuestion.options && currentQuestion.options.length > 0 && (
