@@ -11,6 +11,8 @@ export type ExerciseCategory =
   | 'listening'
   | 'speaking'
   | 'pronunciation'
+  | 'dictation'
+  | 'roleplay'
   | 'exam-practice';
 
 export type ExerciseType = 
@@ -25,7 +27,9 @@ export type ExerciseType =
   | 'listening-comprehension'
   | 'speaking-analysis'
   | 'writing-analysis'
-  | 'pronunciation-practice';
+  | 'pronunciation-practice'
+  | 'dictation'
+  | 'roleplay';
 
 export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
@@ -452,6 +456,95 @@ Format as JSON with text and questions array.`,
       easy: 'Common collocations and frequent phrases',
       medium: 'Standard FCE difficulty with subtle distinctions',
       hard: 'Low-frequency collocations and advanced phrases'
+    }
+  },
+  {
+    id: 'dictation',
+    name: 'Intelligent Dictation',
+    nameES: 'Dictado Inteligente',
+    category: 'dictation',
+    description: 'Listen and transcribe sentences with multi-accent support',
+    descriptionES: 'Escucha y transcribe oraciones con soporte multi-acento',
+    icon: '👂',
+    estimatedTime: 8,
+    aiPromptTemplate: `Generate a B2 level dictation exercise about {{topic}}.
+Difficulty: {{difficulty}}
+
+Create 5-8 sentences that:
+1. Use relevant B2 vocabulary and grammar
+2. Vary in length and complexity
+3. Are natural and authentic
+
+Include:
+- The full English sentence
+- Spanish translation
+- Key vocabulary words tested
+- Difficulty rating for each sentence
+
+Format as JSON with sentences array:
+{
+  "title": "Dictation: [Topic]",
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The sentence to transcribe",
+      "translation": "La traducción",
+      "difficulty": "medium"
+    }
+  ]
+}`,
+    supportedLevels: ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'],
+    difficultySettings: {
+      easy: 'Short, clear sentences with basic vocabulary',
+      medium: 'Natural length with standard B2 structures',
+      hard: 'Longer, complex sentences with idiomatic language'
+    }
+  },
+  {
+    id: 'roleplay',
+    name: 'AI Roleplay',
+    nameES: 'Roleplay con IA',
+    category: 'roleplay',
+    description: 'Interactive conversation with AI in real-world scenarios',
+    descriptionES: 'Conversación interactiva con IA en escenarios reales',
+    icon: '🎭',
+    estimatedTime: 12,
+    aiPromptTemplate: `Generate an AI Roleplay scenario for B2 level.
+Topic: {{topic}}
+Difficulty: {{difficulty}}
+
+Create a scenario where the student must interact with an AI character.
+Scenario details:
+- AI Character Name and Role
+- Student's Role
+- Setting/Context
+- Main Goal of the conversation
+- 3-5 specific points/tasks to cover
+
+Include a 'startingMessage' from the AI to begin the conversation.
+
+Format as JSON:
+{
+  "scenario": {
+    "title": "Scenario Title",
+    "description": "General description",
+    "aiCharacter": {
+      "name": "Name",
+      "role": "Role description",
+      "personality": "Personality traits"
+    },
+    "studentRole": "What the student should do",
+    "context": "The setting",
+    "goal": "What to achieve",
+    "tasks": ["Task 1", "Task 2"],
+    "startingMessage": "Hello! How can I help you today?"
+  }
+}`,
+    supportedLevels: ['B1', 'B2', 'C1', 'C2'],
+    difficultySettings: {
+      easy: 'Simple social interactions with helpful AI',
+      medium: 'Professional or slightly challenging scenarios',
+      hard: 'Debates, negotiations, or complex problem-solving'
     }
   }
 ];

@@ -2,50 +2,42 @@
 
 ## Workflow Steps
 
-### [ ] Step: Requirements
-
-Create a Product Requirements Document (PRD) based on the feature description.
-
-1. Review existing codebase to understand current architecture and patterns
-2. Analyze the feature definition and identify unclear aspects
-3. Ask the user for clarifications on aspects that significantly impact scope or user experience
-4. Make reasonable decisions for minor details based on context and conventions
-5. If user can't clarify, make a decision, state the assumption, and continue
-
+### [x] Step: Requirements
+...
 Save the PRD to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/0dc0e937-98e6-48d6-99c6-ad5a108039ec/requirements.md`.
 
-### [ ] Step: Technical Specification
+### [x] Step: Technical Specification
 
 Create a technical specification based on the PRD in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/0dc0e937-98e6-48d6-99c6-ad5a108039ec/requirements.md`.
 
-1. Review existing codebase architecture and identify reusable components
-2. Define the implementation approach
+1. [x] Review existing codebase architecture and identify reusable components
+2. [x] Define the implementation approach
 
-Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/0dc0e937-98e6-48d6-99c6-ad5a108039ec/spec.md` with:
+Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/0dc0e937-98e6-48d6-99c6-ad5a108039ec/spec.md`.
 
-- Technical context (language, dependencies)
-- Implementation approach referencing existing code patterns
-- Source code structure changes
-- Data model / API / interface changes
-- Delivery phases (incremental, testable milestones)
-- Verification approach using project lint/test commands
-
-### [ ] Step: Planning
+### [x] Step: Planning
 
 Create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/.zencoder/chats/0dc0e937-98e6-48d6-99c6-ad5a108039ec/spec.md`.
 
-1. Break down the work into concrete tasks
-2. Each task should reference relevant contracts and include verification steps
-3. Replace the Implementation step below with the planned tasks
+1. [x] Break down Phase 1 into concrete tasks
+2. [x] Break down Phase 2 into concrete tasks
+3. [ ] Break down Phase 3 into concrete tasks
 
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint, write tests for a module). Avoid steps that are too granular (single function) or too broad (entire feature).
+### [ ] Step: Implementation - Smart Exercise Generator Enhancements
 
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
+- **Phase 1: Foundation & Gamification**
+    - [x] Task 1.1: Database Migration (SQL script for `user_errors` and `user_stats` updates)
+    - [x] Task 1.2: Implement Dynamic Difficulty state management in `SmartExerciseGenerator`
+    - [x] Task 1.3: XP Multipliers & Streak tracking logic (UI and session completion)
+    - [x] Task 1.4: Challenge Mode: Timer and UI toggle
 
-Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/0dc0e937-98e6-48d6-99c6-ad5a108039ec/plan.md`.
+- **Phase 2: Intelligence & Feedback**
+    - [ ] Task 2.1: Implement Error Memory System (Log incorrect answers to Supabase `user_errors`)
+    - [ ] Task 2.2: Enriched AI Feedback (Visual highlights and error metadata)
+    - [ ] Task 2.3: AI Rewrite Suggestions (Native-like alternatives)
+    - [ ] Task 2.4: Multi-accent Audio support & Intelligent Dictation mode
 
-### [ ] Step: Implementation
-
-This step should be replaced with detailed implementation tasks from the Planning step.
-
-If Planning didn't replace this step, execute the tasks in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/0dc0e937-98e6-48d6-99c6-ad5a108039ec/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+- **Phase 3: Advanced Interaction Modes**
+    - [ ] Interactive Sentence Builder component
+    - [ ] Visual Vocabulary Support (AI-generated image context)
+    - [ ] Dialogue Simulation (Contextual AI conversation)

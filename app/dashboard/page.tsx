@@ -79,6 +79,13 @@ export default function DashboardPage() {
                 </div>
               </div>
               <Link
+                href="/dashboard/analytics"
+                className="flex items-center gap-2 px-5 py-3 bg-white/20 backdrop-blur-sm hover:bg-white/30 rounded-xl transition-all"
+              >
+                <span className="text-2xl">📊</span>
+                <span className="text-sm font-medium hidden md:inline">Análisis</span>
+              </Link>
+              <Link
                 href="/profile"
                 className="flex items-center gap-2 px-5 py-3 bg-white/20 backdrop-blur-sm hover:bg-white/30 rounded-xl transition-all"
               >

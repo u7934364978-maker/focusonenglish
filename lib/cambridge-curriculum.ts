@@ -7,7 +7,7 @@ import { CEFRLevel } from './exercise-types';
 export interface CurriculumTopic {
   id: string;
   name: string;
-  category: 'grammar' | 'vocabulary' | 'reading' | 'writing' | 'listening' | 'speaking';
+  category: 'grammar' | 'vocabulary' | 'reading' | 'writing' | 'listening' | 'speaking' | 'pronunciation' | 'dictation' | 'roleplay';
   description: string;
   keywords: string[];
 }
@@ -22,6 +22,9 @@ export interface LevelCurriculum {
   writing: CurriculumTopic[];
   listening: CurriculumTopic[];
   speaking: CurriculumTopic[];
+  pronunciation?: CurriculumTopic[];
+  dictation?: CurriculumTopic[];
+  roleplay?: CurriculumTopic[];
 }
 
 // ============================================
@@ -770,10 +773,10 @@ export function getAllTopics(level: CEFRLevel): CurriculumTopic[] {
  */
 export function getTopicsByCategory(
   level: CEFRLevel,
-  category: 'grammar' | 'vocabulary' | 'reading' | 'writing' | 'listening' | 'speaking'
+  category: 'grammar' | 'vocabulary' | 'reading' | 'writing' | 'listening' | 'speaking' | 'pronunciation' | 'dictation'
 ): CurriculumTopic[] {
   const curriculum = getCurriculum(level);
-  return curriculum[category];
+  return curriculum[category] || [];
 }
 
 /**

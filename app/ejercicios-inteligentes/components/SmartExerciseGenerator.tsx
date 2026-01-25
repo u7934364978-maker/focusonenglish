@@ -18,7 +18,6 @@ import {
   PenTool,
   Volume2,
   ChevronRight,
-  ChevronLeft,
   AlertTriangle,
   Lightbulb,
   Mic,
@@ -28,6 +27,7 @@ import { getTopicsByCategory } from '@/lib/cambridge-curriculum';
 import ExerciseSkeleton from '@/components/ExerciseSkeleton';
 import { EvaluationResponse } from '@/lib/ai/evaluator';
 import SmartExerciseSummary from '@/components/exercises/SmartExerciseSummary';
+import VoiceWaveform from './VoiceWaveform';
 import { supabase } from '@/lib/supabase-client';
 import { CEFRLevel, ExerciseCategory, DifficultyLevel } from '@/lib/exercise-types';
 
@@ -37,6 +37,8 @@ interface Question {
   options?: string[];
   correctAnswer: string;
   explanation?: string;
+  correctiveFeedback?: string;
+  suggestions?: string[];
   type?: string;
   context?: string;
   scenario?: string;
@@ -76,8 +78,10 @@ const EXERCISE_CATEGORIES = [
   { id: 'vocabulary', name: 'Vocabulario', icon: Sparkles, color: 'purple' },
   { id: 'reading', name: 'Lectura', icon: Book, color: 'green' },
   { id: 'writing', name: 'Escritura', icon: PenTool, color: 'orange' },
+  { id: 'dictation', name: 'Dictado', icon: Volume2, color: 'yellow' },
   { id: 'listening', name: 'Escucha', icon: Volume2, color: 'red' },
   { id: 'speaking', name: 'Conversación', icon: MessageSquare, color: 'indigo' },
+  { id: 'roleplay', name: 'Roleplay AI', icon: MessageSquare, color: 'pink' },
 ];
 
 export default function SmartExerciseGenerator({ 
@@ -105,11 +109,60 @@ export default function SmartExerciseGenerator({
   const [isRecording, setIsRecording] = useState(false);
   const [recognition, setRecognition] = useState<any>(null);
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [roleplayScenario, setRoleplayScenario] = useState<any>(null);
+  const [conversation, setConversation] = useState<{ role: 'ai' | 'user'; content: string }[]>([]);
+  const [isProcessingAI, setIsProcessingAI] = useState(false);
   const [evaluation, setEvaluation] = useState<Record<number, EvaluationResponse>>({});
   const [isEvaluating, setIsEvaluating] = useState(false);
   const [showSummary, setShowSummary] = useState(false);
   const [sessionResults, setSessionResults] = useState<ExerciseStats | null>(null);
+  const [consecutiveCorrect, setConsecutiveCorrect] = useState(0);
+  const [consecutiveIncorrect, setConsecutiveIncorrect] = useState(0);
+  const [isChallengeMode, setIsChallengeMode] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(30);
+  const [isTimerActive, setIsTimerActive] = useState(false);
+  const [selectedVoice, setSelectedVoice] = useState<'alloy' | 'echo' | 'fable' | 'onyx' | 'nova' | 'shimmer'>('nova');
   const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  const logErrorToSupabase = async (q: Question, userAnswer: string) => {
+    try {
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) return;
+
+      // Check if error already exists for this topic
+      const { data: existingError } = await supabase
+        .from('user_errors')
+        .select('*')
+        .eq('user_id', user.id)
+        .eq('topic', currentExercise?.topic || selectedCategory)
+        .eq('wrong_answer', userAnswer)
+        .single();
+
+      if (existingError) {
+        await supabase
+          .from('user_errors')
+          .update({ 
+            count: (existingError.count || 1) + 1,
+            last_seen: new Date().toISOString()
+          })
+          .eq('id', existingError.id);
+      } else {
+        await supabase
+          .from('user_errors')
+          .insert({
+            user_id: user.id,
+            category: selectedCategory,
+            topic: currentExercise?.topic || selectedCategory,
+            wrong_answer: userAnswer,
+            correct_answer: q.correctAnswer,
+            error_type: currentExercise?.type,
+            count: 1
+          });
+      }
+    } catch (error) {
+      console.error('Error logging to user_errors:', error);
+    }
+  };
 
   const finishSession = async () => {
     const finalStats = { ...sessionStats };
@@ -138,7 +191,7 @@ export default function SmartExerciseGenerator({
 
         const { data: stats, error: statsFetchError } = await supabase
           .from('user_stats')
-          .select('total_exercises_completed, total_points, total_study_time_minutes')
+          .select('total_exercises_completed, total_points, total_study_time_minutes, current_streak, last_practice_date')
           .eq('user_id', user.id)
           .single();
 
@@ -146,11 +199,36 @@ export default function SmartExerciseGenerator({
           throw statsFetchError;
         }
 
+        // Calculate XP with multipliers
+        const baseXP = finalStats.correct * 5;
+        const diffMultiplier = difficulty === 'hard' ? 2 : difficulty === 'medium' ? 1.5 : 1;
+        const challengeMultiplier = isChallengeMode ? 1.2 : 1;
+        const totalXP = Math.round(baseXP * diffMultiplier * challengeMultiplier);
+
+        // Streak logic
+        let newStreak = 1;
+        const today = new Date().toISOString().split('T')[0];
+        
+        if (stats?.last_practice_date) {
+          const lastDate = new Date(stats.last_practice_date);
+          const yesterday = new Date();
+          yesterday.setDate(yesterday.getDate() - 1);
+          const yesterdayStr = yesterday.toISOString().split('T')[0];
+          
+          if (stats.last_practice_date === today) {
+            newStreak = stats.current_streak || 1;
+          } else if (stats.last_practice_date === yesterdayStr) {
+            newStreak = (stats.current_streak || 0) + 1;
+          }
+        }
+
         if (stats) {
           await supabase.from('user_stats').update({
             total_exercises_completed: (stats.total_exercises_completed || 0) + finalStats.total,
-            total_points: (stats.total_points || 0) + (finalStats.correct * 5),
+            total_points: (stats.total_points || 0) + totalXP,
             total_study_time_minutes: (stats.total_study_time_minutes || 0) + durationMinutes,
+            current_streak: newStreak,
+            last_practice_date: today,
             last_activity_date: new Date().toISOString(),
             updated_at: new Date().toISOString()
           }).eq('user_id', user.id);
@@ -158,8 +236,10 @@ export default function SmartExerciseGenerator({
           await supabase.from('user_stats').insert({
             user_id: user.id,
             total_exercises_completed: finalStats.total,
-            total_points: finalStats.correct * 5,
+            total_points: totalXP,
             total_study_time_minutes: durationMinutes,
+            current_streak: newStreak,
+            last_practice_date: today,
             last_activity_date: new Date().toISOString(),
             level: 1
           });
@@ -167,6 +247,48 @@ export default function SmartExerciseGenerator({
       }
     } catch (error) {
       console.error('Error saving session to Supabase:', error);
+    }
+  };
+
+  const sendRoleplayMessage = async (message: string) => {
+    if (!message.trim() || isProcessingAI) return;
+
+    const newUserMessage = { role: 'user' as const, content: message };
+    setConversation(prev => [...prev, newUserMessage]);
+    setIsProcessingAI(true);
+
+    try {
+      const response = await fetch('/api/roleplay-chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          scenario: roleplayScenario,
+          history: conversation,
+          message: message,
+          level: level
+        }),
+      });
+
+      const data = await response.json();
+      if (data.success) {
+        setConversation(prev => [...prev, { role: 'ai', content: data.reply }]);
+        speak(data.reply); // Automatically speak the AI's reply
+        if (data.isGoalAchieved) {
+          // Finalizar roleplay con éxito
+          const newStats: ExerciseStats = {
+            total: sessionStats.total + 1,
+            correct: sessionStats.correct + 1,
+            incorrect: sessionStats.incorrect,
+            timeSpent: sessionStats.timeSpent,
+          };
+          saveStats(newStats);
+          setValidatedQuestions(prev => new Set(prev).add(currentQuestionIndex));
+        }
+      }
+    } catch (error) {
+      console.error('Roleplay error:', error);
+    } finally {
+      setIsProcessingAI(false);
     }
   };
 
@@ -181,7 +303,7 @@ export default function SmartExerciseGenerator({
       const response = await fetch('/api/generate-audio', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text }),
+        body: JSON.stringify({ text, voice: selectedVoice }),
       });
 
       if (!response.ok) throw new Error('Error al generar audio');
@@ -229,6 +351,18 @@ export default function SmartExerciseGenerator({
       setIsRecording(false);
     }
   };
+
+  useEffect(() => {
+    let timer: NodeJS.Timeout;
+    if (isTimerActive && timeLeft > 0) {
+      timer = setInterval(() => {
+        setTimeLeft(prev => prev - 1);
+      }, 1000);
+    } else if (timeLeft === 0 && isTimerActive) {
+      checkAnswer();
+    }
+    return () => clearInterval(timer);
+  }, [timeLeft, isTimerActive]);
 
   useEffect(() => {
     if (typeof window !== 'undefined' && (window as any).webkitSpeechRecognition) {
@@ -286,9 +420,24 @@ export default function SmartExerciseGenerator({
     setValidatedQuestions(new Set());
     setCurrentQuestionIndex(0);
     setExerciseStartTime(Date.now());
+    setTimeLeft(30);
+    setIsTimerActive(isChallengeMode);
 
     try {
-      const topics = getTopicsByCategory(level, selectedCategory);
+      const { data: { user } } = await supabase.auth.getUser();
+      let recentErrors: any[] = [];
+      if (user && selectedCategory) {
+        const { data: errors } = await supabase
+          .from('user_errors')
+          .select('topic, wrong_answer, correct_answer')
+          .eq('user_id', user.id)
+          .eq('category', selectedCategory)
+          .order('count', { ascending: false })
+          .limit(5);
+        recentErrors = errors || [];
+      }
+
+      const topics = selectedCategory ? getTopicsByCategory(level, selectedCategory) : [];
       const randomTopic = topics[Math.floor(Math.random() * topics.length)];
       
       const response = await fetch('/api/generate-exercise', {
@@ -299,6 +448,7 @@ export default function SmartExerciseGenerator({
           topic: randomTopic?.name || selectedCategory,
           difficulty: difficulty,
           level: level,
+          recentErrors: recentErrors // Pass errors to AI
         }),
       });
 
@@ -313,13 +463,25 @@ export default function SmartExerciseGenerator({
         const source = exerciseData.content;
         const questions: Question[] = [];
 
-        if (source.questions && Array.isArray(source.questions)) {
+        if (exerciseData.type === 'roleplay' && source.scenario) {
+          setRoleplayScenario(source.scenario);
+          setConversation([{ role: 'ai', content: source.scenario.startingMessage }]);
+          speak(source.scenario.startingMessage);
+          questions.push({
+            id: 'roleplay_1',
+            question: source.scenario.goal,
+            correctAnswer: 'Roleplay completion',
+            explanation: source.scenario.description
+          });
+        } else if (source.questions && Array.isArray(source.questions)) {
           questions.push(...source.questions.map((q: any, idx: number) => ({
             id: q.id || `q_${idx}`,
             question: q.question || '',
             options: q.options || [],
             correctAnswer: q.correctAnswer || '',
             explanation: q.explanation || '',
+            correctiveFeedback: q.correctiveFeedback || '',
+            suggestions: q.suggestions || [],
           })));
         }
 
@@ -350,15 +512,21 @@ export default function SmartExerciseGenerator({
       vocabulary: 'multiple-choice',
       reading: 'reading-comprehension',
       writing: 'writing-analysis',
+      dictation: 'dictation',
       listening: 'listening-comprehension',
       speaking: 'speaking-analysis',
+      roleplay: 'roleplay',
+      pronunciation: 'pronunciation-practice',
+      'exam-practice': 'multiple-choice',
     };
     return typeMap[category] || 'multiple-choice';
   };
 
   const checkAnswer = async () => {
-    if (!currentExercise || !userAnswers[currentQuestionIndex]) return;
+    if (!currentExercise) return;
+    if (!userAnswers[currentQuestionIndex] && timeLeft > 0) return;
 
+    setIsTimerActive(false);
     const q = currentExercise.questions[currentQuestionIndex];
     const userAnswer = userAnswers[currentQuestionIndex] || '';
     
@@ -399,6 +567,30 @@ export default function SmartExerciseGenerator({
     
     setValidatedQuestions(prev => new Set(prev).add(currentQuestionIndex));
 
+    // Dynamic Difficulty Logic
+    if (isCorrect) {
+      setConsecutiveIncorrect(0);
+      const newCorrect = consecutiveCorrect + 1;
+      setConsecutiveCorrect(newCorrect);
+      
+      if (newCorrect >= 3) {
+        if (difficulty === 'easy') setDifficulty('medium');
+        else if (difficulty === 'medium') setDifficulty('hard');
+        setConsecutiveCorrect(0); // Reset after upgrade
+      }
+    } else {
+      logErrorToSupabase(q, userAnswer);
+      setConsecutiveCorrect(0);
+      const newIncorrect = consecutiveIncorrect + 1;
+      setConsecutiveIncorrect(newIncorrect);
+      
+      if (newIncorrect >= 2) {
+        if (difficulty === 'hard') setDifficulty('medium');
+        else if (difficulty === 'medium') setDifficulty('easy');
+        setConsecutiveIncorrect(0); // Reset after downgrade
+      }
+    }
+    
     const newStats: ExerciseStats = {
       total: sessionStats.total + 1,
       correct: sessionStats.correct + (isCorrect ? 1 : 0),
@@ -413,6 +605,8 @@ export default function SmartExerciseGenerator({
   const handleNextQuestion = () => {
     if (currentExercise && currentQuestionIndex < currentExercise.questions.length - 1) {
       setCurrentQuestionIndex(prev => prev + 1);
+      setTimeLeft(30);
+      setIsTimerActive(isChallengeMode);
     }
   };
   const handlePrevQuestion = () => {
@@ -443,7 +637,7 @@ export default function SmartExerciseGenerator({
               <Brain className="w-10 h-10" />
             </div>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <div className="bg-white/10 backdrop-blur rounded-xl p-4 border border-white/20">
               <Target className="w-6 h-6 mb-2" />
               <div className="text-2xl font-black">{sessionStats.total}</div>
@@ -455,14 +649,19 @@ export default function SmartExerciseGenerator({
               <div className="text-xs text-white/80">Correctos</div>
             </div>
             <div className="bg-white/10 backdrop-blur rounded-xl p-4 border border-white/20">
+              <Zap className={`w-6 h-6 mb-2 ${consecutiveCorrect > 0 ? 'text-yellow-300 animate-pulse' : ''}`} />
+              <div className="text-2xl font-black">{consecutiveCorrect}</div>
+              <div className="text-xs text-white/80">Combo</div>
+            </div>
+            <div className="bg-white/10 backdrop-blur rounded-xl p-4 border border-white/20">
               <Trophy className="w-6 h-6 mb-2" />
               <div className="text-2xl font-black">{accuracy}%</div>
               <div className="text-xs text-white/80">Precisión</div>
             </div>
             <div className="bg-white/10 backdrop-blur rounded-xl p-4 border border-white/20">
-              <Clock className="w-6 h-6 mb-2" />
-              <div className="text-2xl font-black">{Math.floor(sessionStats.timeSpent / 60)}m</div>
-              <div className="text-xs text-white/80">Tiempo</div>
+              <Clock className={`w-6 h-6 mb-2 ${isChallengeMode && timeLeft < 10 ? 'text-red-400 animate-bounce' : ''}`} />
+              <div className="text-2xl font-black">{isChallengeMode ? `${timeLeft}s` : `${Math.floor(sessionStats.timeSpent / 60)}m`}</div>
+              <div className="text-xs text-white/80">{isChallengeMode ? 'Tiempo Restante' : 'Tiempo'}</div>
             </div>
           </div>
         </div>
@@ -481,10 +680,29 @@ export default function SmartExerciseGenerator({
         )}
 
         {!selectedCategory && !showSummary && (
-          <div>
-            <h2 className="text-3xl font-black text-gray-900 mb-6 text-center">Selecciona una Categoría</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {EXERCISE_CATEGORIES.map((category) => {
+          <div className="space-y-8">
+            <div className="bg-white rounded-3xl shadow-xl border-2 border-gray-100 p-8 max-w-2xl mx-auto flex items-center justify-between">
+              <div className="flex items-center gap-4">
+                <div className={`p-3 rounded-2xl ${isChallengeMode ? 'bg-orange-100 text-orange-600' : 'bg-blue-100 text-blue-600'}`}>
+                  <Zap className={`w-8 h-8 ${isChallengeMode ? 'animate-pulse' : ''}`} />
+                </div>
+                <div>
+                  <h3 className="text-xl font-black text-gray-900">Modo Desafío</h3>
+                  <p className="text-sm text-gray-500">30 segundos por pregunta • Multiplicador XP 1.2x</p>
+                </div>
+              </div>
+              <button 
+                onClick={() => setIsChallengeMode(!isChallengeMode)}
+                className={`w-16 h-8 rounded-full transition-all relative ${isChallengeMode ? 'bg-orange-500' : 'bg-gray-200'}`}
+              >
+                <div className={`absolute top-1 w-6 h-6 bg-white rounded-full shadow transition-all ${isChallengeMode ? 'right-1' : 'left-1'}`} />
+              </button>
+            </div>
+
+            <div>
+              <h2 className="text-3xl font-black text-gray-900 mb-6 text-center">Selecciona una Categoría</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {EXERCISE_CATEGORIES.map((category) => {
                 const Icon = category.icon;
                 return (
                   <button key={category.id} onClick={() => setSelectedCategory(category.id as ExerciseCategory)} className="bg-white rounded-2xl shadow-lg border-2 border-gray-200 p-8 hover:border-violet-500 hover:shadow-2xl transition-all hover:-translate-y-1 text-left">
@@ -496,7 +714,8 @@ export default function SmartExerciseGenerator({
               })}
             </div>
           </div>
-        )}
+        </div>
+      )}
 
         {selectedCategory && !showSummary && (
           <div className="max-w-4xl mx-auto">
@@ -509,10 +728,17 @@ export default function SmartExerciseGenerator({
                     <p className="text-sm text-gray-600">Nivel {level} {currentExercise?.topic ? `• ${currentExercise.topic}` : ''}</p>
                   </div>
                 </div>
-                <div className="flex gap-2">
-                  {(['easy', 'medium', 'hard'] as DifficultyLevel[]).map((diff) => (
-                    <button key={diff} onClick={() => setDifficulty(diff)} className={`px-4 py-2 rounded-lg font-semibold text-sm transition-all ${difficulty === diff ? 'bg-violet-600 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}>{diff === 'easy' ? 'Fácil' : diff === 'medium' ? 'Medio' : 'Difícil'}</button>
-                  ))}
+                <div className="flex flex-col items-end gap-2">
+                  <div className="flex gap-1 bg-gray-100 p-1 rounded-xl">
+                    {(['easy', 'medium', 'hard'] as DifficultyLevel[]).map((diff) => (
+                      <button key={diff} onClick={() => setDifficulty(diff)} className={`px-3 py-1.5 rounded-lg font-bold text-xs transition-all ${difficulty === diff ? 'bg-white text-violet-600 shadow-sm' : 'text-gray-500 hover:text-gray-700'}`}>{diff === 'easy' ? 'Fácil' : diff === 'medium' ? 'Medio' : 'Difícil'}</button>
+                    ))}
+                  </div>
+                  <div className="flex gap-1 bg-violet-50 p-1 rounded-xl">
+                    {(['nova', 'alloy', 'echo', 'onyx', 'fable', 'shimmer'] as const).map((v) => (
+                      <button key={v} onClick={() => setSelectedVoice(v)} className={`px-2 py-1 rounded-lg font-bold text-[10px] uppercase transition-all ${selectedVoice === v ? 'bg-violet-600 text-white' : 'text-violet-400 hover:text-violet-600'}`} title={`Voz: ${v}`}>{v}</button>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
@@ -526,7 +752,121 @@ export default function SmartExerciseGenerator({
 
             {loading && <ExerciseSkeleton />}
 
-            {!loading && currentExercise && currentQuestion && (
+            {!loading && currentExercise?.type === 'roleplay' && roleplayScenario && (
+              <div className="space-y-6">
+                <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8">
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="bg-pink-100 p-3 rounded-2xl">
+                      <MessageSquare className="w-8 h-8 text-pink-600" />
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-black text-gray-900">{roleplayScenario.title}</h3>
+                      <p className="text-sm text-gray-600">{roleplayScenario.context}</p>
+                    </div>
+                  </div>
+
+                  <div className="bg-slate-50 rounded-2xl p-6 mb-8 border-l-4 border-pink-400">
+                    <h4 className="font-bold text-gray-900 mb-2">Tu Objetivo:</h4>
+                    <p className="text-gray-700">{roleplayScenario.goal}</p>
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      {roleplayScenario.tasks.map((task: string, i: number) => (
+                        <span key={i} className="bg-white px-3 py-1 rounded-full text-xs font-bold text-pink-600 border border-pink-100">
+                          {task}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="space-y-4 mb-8 max-h-[400px] overflow-y-auto p-4 bg-gray-50 rounded-2xl">
+                    {conversation.map((msg, i) => (
+                      <div key={i} className={`flex ${msg.role === 'ai' ? 'justify-start' : 'justify-end'}`}>
+                        <div className={`max-w-[80%] p-4 rounded-2xl ${
+                          msg.role === 'ai' 
+                            ? 'bg-white border border-gray-200 text-gray-800' 
+                            : 'bg-pink-600 text-white shadow-md'
+                        }`}>
+                          <p className="text-sm font-bold mb-1 opacity-70">
+                            {msg.role === 'ai' ? roleplayScenario.aiCharacter.name : 'Tú'}
+                          </p>
+                          <p className="leading-relaxed">{msg.content}</p>
+                        </div>
+                      </div>
+                    ))}
+                    {isProcessingAI && (
+                      <div className="flex justify-start">
+                        <div className="bg-white border border-gray-200 p-4 rounded-2xl">
+                          <div className="flex gap-1">
+                            <div className="w-2 h-2 bg-gray-300 rounded-full animate-bounce" />
+                            <div className="w-2 h-2 bg-gray-300 rounded-full animate-bounce [animation-delay:0.2s]" />
+                            <div className="w-2 h-2 bg-gray-300 rounded-full animate-bounce [animation-delay:0.4s]" />
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="relative">
+                    <textarea
+                      rows={2}
+                      value={userAnswers[currentQuestionIndex] || ''}
+                      onChange={(e) => setUserAnswers(prev => ({ ...prev, [currentQuestionIndex]: e.target.value }))}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter' && !e.shiftKey) {
+                          e.preventDefault();
+                          sendRoleplayMessage((e.target as HTMLTextAreaElement).value);
+                          setUserAnswers(prev => ({ ...prev, [currentQuestionIndex]: '' }));
+                        }
+                      }}
+                      placeholder="Escribe tu respuesta y presiona Enter..."
+                      className="w-full px-6 py-4 border-2 border-gray-200 rounded-2xl focus:border-pink-500 focus:ring-4 focus:ring-pink-100 transition-all text-lg pr-32"
+                      disabled={isProcessingAI || validatedQuestions.has(currentQuestionIndex)}
+                    />
+                    <div className="absolute right-4 bottom-4 flex gap-2 items-center">
+                      <VoiceWaveform isRecording={isRecording} color="pink" />
+                      <button 
+                        onClick={isRecording ? stopRecording : startRecording}
+                        className={`p-2 rounded-full transition-all ${isRecording ? 'bg-red-100 text-red-600 animate-pulse' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}
+                      >
+                        {isRecording ? <Square className="w-5 h-5" /> : <Mic className="w-5 h-5" />}
+                      </button>
+                      <button 
+                        onClick={() => {
+                          const val = userAnswers[currentQuestionIndex];
+                          if (val) {
+                            sendRoleplayMessage(val);
+                            setUserAnswers(prev => ({ ...prev, [currentQuestionIndex]: '' }));
+                          }
+                        }}
+                        disabled={isProcessingAI || validatedQuestions.has(currentQuestionIndex)}
+                        className="bg-pink-600 text-white p-2 rounded-xl hover:bg-pink-700 transition-all shadow-lg shadow-pink-200 disabled:opacity-50"
+                      >
+                        <ChevronRight className="w-5 h-5" />
+                      </button>
+                    </div>
+                  </div>
+
+                  {validatedQuestions.has(currentQuestionIndex) && (
+                    <div className="mt-8 p-6 bg-green-50 border-2 border-green-100 rounded-2xl flex items-center justify-between">
+                      <div className="flex items-center gap-4">
+                        <Trophy className="w-10 h-10 text-green-600" />
+                        <div>
+                          <h4 className="font-black text-green-900 text-lg">¡Misión Cumplida!</h4>
+                          <p className="text-green-700">Has logrado completar el escenario de roleplay.</p>
+                        </div>
+                      </div>
+                      <button 
+                        onClick={nextExercise}
+                        className="bg-green-600 text-white px-8 py-3 rounded-xl font-black hover:bg-green-700 transition-all shadow-lg shadow-green-200"
+                      >
+                        Siguiente Ejercicio
+                      </button>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {!loading && currentExercise && currentQuestion && currentExercise.type !== 'roleplay' && (
               <div className="space-y-6">
                 {currentExercise.text && (
                   <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8 overflow-y-auto max-h-[400px]">
@@ -558,9 +898,19 @@ export default function SmartExerciseGenerator({
                   )}
 
                   <div className="flex items-center justify-between mb-8 gap-4">
-                    <h3 className="text-2xl font-bold text-gray-900 leading-tight">{currentQuestion.question}</h3>
-                    <button onClick={() => speak(currentQuestion.question)} disabled={isSpeaking} className={`p-3 rounded-full transition-all ${isSpeaking ? 'bg-violet-100 text-violet-400' : 'bg-violet-50 text-violet-600 hover:bg-violet-100'}`} title="Escuchar pregunta">
-                      <Volume2 className={`w-6 h-6 ${isSpeaking ? 'animate-pulse' : ''}`} />
+                    <div className="flex-1">
+                      <h3 className="text-2xl font-bold text-gray-900 leading-tight">{currentQuestion.question}</h3>
+                      {currentExercise.type === 'dictation' && (
+                        <p className="text-sm text-violet-600 font-medium mt-1">Haz clic en el altavoz para escuchar la frase.</p>
+                      )}
+                    </div>
+                    <button 
+                      onClick={() => speak(currentExercise.type === 'dictation' ? currentQuestion.correctAnswer : currentQuestion.question)} 
+                      disabled={isSpeaking} 
+                      className={`p-6 rounded-2xl transition-all ${isSpeaking ? 'bg-violet-100 text-violet-400' : 'bg-violet-50 text-violet-600 hover:bg-violet-100 shadow-sm'}`} 
+                      title={currentExercise.type === 'dictation' ? 'Escuchar frase' : 'Escuchar pregunta'}
+                    >
+                      <Volume2 className={`w-10 h-10 ${isSpeaking ? 'animate-pulse' : ''}`} />
                     </button>
                   </div>
 
@@ -588,9 +938,12 @@ export default function SmartExerciseGenerator({
                       <div className="relative">
                         <textarea rows={currentExercise.type.includes('analysis') ? 4 : 1} value={userAnswers[currentQuestionIndex] || ''} onChange={(e) => { if (!isCurrentValidated) setUserAnswers(prev => ({ ...prev, [currentQuestionIndex]: e.target.value })); }} disabled={isCurrentValidated} placeholder={currentExercise.type.includes('speaking') ? "Haz clic en el micrófono y habla..." : "Escribe tu respuesta aquí..."} className={`w-full px-6 py-4 border-2 rounded-xl focus:ring-4 text-lg transition-all ${isCurrentValidated ? 'border-gray-200 bg-gray-50' : 'border-gray-300 focus:border-violet-500 focus:ring-violet-100'}`} />
                         {currentExercise.type.includes('speaking') && !isCurrentValidated && (
-                          <button onClick={isRecording ? stopRecording : startRecording} className={`absolute right-4 top-4 p-2 rounded-full transition-all ${isRecording ? 'bg-red-100 text-red-600 animate-pulse' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}>
-                            {isRecording ? <Square className="w-5 h-5" /> : <Mic className="w-5 h-5" />}
-                          </button>
+                          <div className="absolute right-4 top-4 flex items-center gap-2">
+                            <VoiceWaveform isRecording={isRecording} color="violet" />
+                            <button onClick={isRecording ? stopRecording : startRecording} className={`p-2 rounded-full transition-all ${isRecording ? 'bg-red-100 text-red-600 animate-pulse' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}>
+                              {isRecording ? <Square className="w-5 h-5" /> : <Mic className="w-5 h-5" />}
+                            </button>
+                          </div>
                         )}
                       </div>
                     </div>
@@ -608,7 +961,17 @@ export default function SmartExerciseGenerator({
                             </div>
                           </div>
                           <div className="p-6 space-y-6">
-                            <p className="text-gray-700 leading-relaxed italic">"{evaluation[currentQuestionIndex].feedback}"</p>
+                            {evaluation[currentQuestionIndex].metrics && (
+                              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
+                                {Object.entries(evaluation[currentQuestionIndex].metrics).map(([key, val]) => (
+                                  <div key={key} className="bg-slate-50 p-3 rounded-xl border border-slate-100 text-center">
+                                    <div className="text-[10px] font-black text-slate-400 uppercase tracking-tighter mb-1">{key === 'grammar' ? 'Gramática' : key === 'vocabulary' ? 'Vocabulario' : key === 'fluency' ? 'Fluidez' : key === 'pronunciation' ? 'Pronunciación' : 'Coherencia'}</div>
+                                    <div className={`text-lg font-black ${Number(val) >= 80 ? 'text-green-600' : Number(val) >= 50 ? 'text-amber-600' : 'text-red-600'}`}>{val}%</div>
+                                  </div>
+                                ))}
+                              </div>
+                            )}
+                            <p className="text-gray-700 leading-relaxed italic">&quot;{evaluation[currentQuestionIndex].feedback}&quot;</p>
                             {evaluation[currentQuestionIndex].corrections.length > 0 && (
                               <div>
                                 <h6 className="text-sm font-black text-gray-900 mb-3 flex items-center gap-2"><AlertTriangle className="w-4 h-4 text-amber-500" />Correcciones Sugeridas</h6>
@@ -624,12 +987,32 @@ export default function SmartExerciseGenerator({
                           </div>
                         </div>
                       ) : (
-                        currentQuestion.explanation && (
-                          <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
-                            <h5 className="font-black text-slate-900 mb-2 flex items-center gap-2"><Zap className="w-4 h-4 text-amber-500" />Explicación</h5>
-                            <p className="text-slate-700 leading-relaxed">{currentQuestion.explanation}</p>
-                          </div>
-                        )
+                        <div className="space-y-4">
+                          {currentQuestion.explanation && (
+                            <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
+                              <h5 className="font-black text-slate-900 mb-2 flex items-center gap-2"><Zap className="w-4 h-4 text-amber-500" />Explicación</h5>
+                              <p className="text-slate-700 leading-relaxed">{currentQuestion.explanation}</p>
+                            </div>
+                          )}
+                          
+                          {userAnswers[currentQuestionIndex]?.toLowerCase().trim() !== currentQuestion.correctAnswer.toLowerCase().trim() && currentQuestion.correctiveFeedback && (
+                            <div className="bg-red-50 rounded-xl p-6 border border-red-200">
+                              <h5 className="font-black text-red-900 mb-2 flex items-center gap-2"><AlertTriangle className="w-4 h-4 text-red-500" />¿Por qué es incorrecto?</h5>
+                              <p className="text-red-700 leading-relaxed">{currentQuestion.correctiveFeedback}</p>
+                            </div>
+                          )}
+
+                          {currentQuestion.suggestions && currentQuestion.suggestions.length > 0 && (
+                            <div className="bg-violet-50 rounded-xl p-6 border border-violet-200">
+                              <h5 className="font-black text-violet-900 mb-2 flex items-center gap-2"><Lightbulb className="w-4 h-4 text-violet-500" />Sugerencias Pro</h5>
+                              <ul className="list-disc list-inside space-y-1">
+                                {currentQuestion.suggestions.map((sug, idx) => (
+                                  <li key={idx} className="text-violet-700 text-sm leading-relaxed">{sug}</li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+                        </div>
                       )}
                     </div>
                   )}

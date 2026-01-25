@@ -6,6 +6,13 @@ export interface EvaluationResponse {
   feedback: string;
   corrections: string[];
   suggestions: string[];
+  metrics?: {
+    grammar: number;
+    vocabulary: number;
+    fluency?: number;
+    pronunciation?: number;
+    coherence?: number;
+  };
 }
 
 export async function evaluateWithAI(
@@ -33,7 +40,12 @@ Responde SIEMPRE en formato JSON con la siguiente estructura exacta:
   "score": número del 0 al 100,
   "feedback": "Retroalimentación general positiva y constructiva en español (máx 200 caracteres)",
   "corrections": ["lista de errores específicos encontrados y su corrección"],
-  "suggestions": ["lista de sugerencias para mejorar la respuesta o usar vocabulario más avanzado"]
+  "suggestions": ["lista de sugerencias para mejorar la respuesta o usar vocabulario más avanzado"],
+  "metrics": {
+    "grammar": número 0-100,
+    "vocabulary": número 0-100,
+    ${type === 'speaking' ? '"fluency": número 0-100, "pronunciation": número 0-100' : '"coherence": número 0-100'}
+  }
 }`;
 
   const userPrompt = `
@@ -66,7 +78,8 @@ RESPUESTA DEL ESTUDIANTE: "${userResponse}"
       score: evaluation.score ?? 0,
       feedback: evaluation.feedback ?? 'No se pudo generar feedback.',
       corrections: Array.isArray(evaluation.corrections) ? evaluation.corrections : [],
-      suggestions: Array.isArray(evaluation.suggestions) ? evaluation.suggestions : []
+      suggestions: Array.isArray(evaluation.suggestions) ? evaluation.suggestions : [],
+      metrics: evaluation.metrics
     };
   } catch (error: any) {
     console.error('Error in AI evaluation:', error);

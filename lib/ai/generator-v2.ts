@@ -25,6 +25,8 @@ GUIDELINES:
          "options": ["Option A", "Option B", "Option C", "Option D"], (Include only for multiple-choice)
          "correctAnswer": "The exact correct answer",
          "explanation": "Brief explanation in Spanish",
+         "correctiveFeedback": "Specific feedback in Spanish for why common mistakes might happen in this question (ONLY if useful)",
+         "suggestions": ["Native-like alternatives or related vocabulary"],
          "translation": "Spanish translation of the question (ONLY for A1 level)",
          "visualHint": "Simple emoji or description that represents the concept (ONLY for A1 level)"
        }
@@ -36,7 +38,21 @@ GUIDELINES:
    - reading-comprehension: A text followed by questions about it.
    - writing-analysis: A short prompt or sentence to correct/improve.
    - pronunciation-practice: Focus on phonetics or word stress.
+   - dictation: Generate a short sentence (5-10 words) as "correctAnswer". The "question" should be "Escucha y escribe lo que oyes."
    - speaking-analysis: A situational prompt for the student to respond to.
+   - roleplay: Instead of "questions", return a "scenario" object:
+     {
+       "scenario": {
+         "title": "Scenario Title",
+         "description": "General description",
+         "aiCharacter": { "name": "Name", "role": "Role", "personality": "Personality" },
+         "studentRole": "What the student should do",
+         "context": "The setting",
+         "goal": "What to achieve",
+         "tasks": ["Task 1", "Task 2"],
+         "startingMessage": "Hello!"
+       }
+     }
 
 5. Topic: Adapt the content to the requested topic if provided.
 6. Difficulty: Adjust the complexity within the CEFR level based on "easy", "medium", or "hard".
@@ -98,6 +114,11 @@ export async function generateExerciseV2(request: GenerateExerciseRequest): Prom
           Level: ${level} 
           Difficulty: ${difficulty} 
           Topic: ${topic || 'General English'}
+          ${request.recentErrors && request.recentErrors.length > 0 ? `
+          IMPORTANT: The student has recently struggled with the following topics/errors:
+          ${request.recentErrors.map((e: any) => `- Topic: ${e.topic}, Mistake: "${e.wrong_answer}" (Expected: "${e.correct_answer}")`).join('\n')}
+          
+          Please include at least 2 questions that specifically address these weak areas or similar concepts.` : ''}
           Random context seed: ${randomSeed}
           Special instruction: ${contextExtra}
           ${a1Instructions}
