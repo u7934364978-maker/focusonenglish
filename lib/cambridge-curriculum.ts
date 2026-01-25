@@ -2,7 +2,7 @@
 // CAMBRIDGE CURRICULUM DATA - CEFR ALIGNED
 // ============================================
 
-export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+import { CEFRLevel } from './exercise-types';
 
 export interface CurriculumTopic {
   id: string;

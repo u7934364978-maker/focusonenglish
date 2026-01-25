@@ -1,3 +1,5 @@
+import { CEFRLevel } from './exercise-types';
+
 // ============================================
 // TEMAS ESTRUCTURADOS POR NIVEL CEFR
 // ============================================
@@ -12,8 +14,6 @@ export interface Topic {
   keywords: string[];
   levels: CEFRLevel[];
 }
-
-export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
 
 export const TOPICS: Topic[] = [
   // MÓDULO 1: Personal Information & Daily Life

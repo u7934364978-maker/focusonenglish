@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { Brain, Sparkles, Target, TrendingUp, BarChart3, Award, ArrowRight, CheckCircle2, Zap } from 'lucide-react';
 
-type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+import { CEFRLevel } from '@/lib/exercise-types';
 
 interface LevelInfo {
   level: CEFRLevel;
