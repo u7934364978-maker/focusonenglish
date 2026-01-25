@@ -33,7 +33,7 @@ import TransformationRenderer from '@/components/course/renderers/Transformation
 import GapFillRenderer from '@/components/course/renderers/GapFillRenderer';
 import MatchingRenderer from '@/components/course/renderers/MatchingRenderer';
 import MiscRenderer from '@/components/course/renderers/MiscRenderer';
-import { 
+import type { 
   Lesson, 
   Exercise, 
   Question, 
