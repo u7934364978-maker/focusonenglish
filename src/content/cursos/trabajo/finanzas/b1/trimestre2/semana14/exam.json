@@ -1,0 +1,123 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 2,
+  "weekId": "semana14",
+  "title": "Exam: Stock Market and Investments",
+  "description": "Assessment of investment vocabulary and the first conditional in financial contexts (15 items).",
+  "items": [
+    {
+      "id": "finance-b1-w14-e1",
+      "type": "multiple-choice",
+      "question": "What is a 'portfolio' in the context of investment?",
+      "options": ["A leather bag for documents", "A collection of financial investments", "A list of bank employees", "A type of mortgage"],
+      "answer": "A collection of financial investments",
+      "explanation": "Portfolios are diversified to manage risk."
+    },
+    {
+      "id": "finance-b1-w14-e2",
+      "type": "fill-in-the-blank",
+      "question": "If the stock price ________ (reach) $100, I will sell my position.",
+      "answer": "reaches",
+      "explanation": "Present simple third-person singular in the 'if' clause."
+    },
+    {
+      "id": "finance-b1-w14-e3",
+      "type": "multiple-choice",
+      "question": "A 'Bull Market' indicates that:",
+      "options": ["Prices are falling", "Prices are rising", "Trading has stopped", "The market is closed for holidays"],
+      "answer": "Prices are rising",
+      "explanation": "Bull markets are periods of economic optimism."
+    },
+    {
+      "id": "finance-b1-w14-e4",
+      "type": "fill-in-the-blank",
+      "question": "The company ________ (pay) a dividend if they have a surplus of cash.",
+      "answer": "will pay",
+      "explanation": "First conditional result clause."
+    },
+    {
+      "id": "finance-b1-w14-e5",
+      "type": "multiple-choice",
+      "question": "Diversification is a strategy used to:",
+      "options": ["Increase risk", "Reduce risk by spreading investments", "Avoid paying taxes", "Buy only one type of stock"],
+      "answer": "Reduce risk by spreading investments",
+      "explanation": "Diversification prevents a single loss from ruining a portfolio."
+    },
+    {
+      "id": "finance-b1-w14-e6",
+      "type": "fill-in-the-blank",
+      "question": "If you ________ (not/hire) a broker, you will have to manage the trades yourself.",
+      "answer": "do not hire",
+      "explanation": "Negative present simple for the condition."
+    },
+    {
+      "id": "finance-b1-w14-e7",
+      "type": "multiple-choice",
+      "question": "What does a 'broker' do?",
+      "options": ["Sets the interest rates", "Regulates the stock market", "Acts as an intermediary for buying and selling assets", "Lends money to the government"],
+      "answer": "Acts as an intermediary for buying and selling assets",
+      "explanation": "Brokers execute trades for their clients."
+    },
+    {
+      "id": "finance-b1-w14-e8",
+      "type": "fill-in-the-blank",
+      "question": "The market ________ (become) more volatile if the political situation remains unstable.",
+      "answer": "will become",
+      "explanation": "Predicting a future state in the first conditional."
+    },
+    {
+      "id": "finance-b1-w14-e9",
+      "type": "multiple-choice",
+      "question": "A 'Capital Gain' occurs when:",
+      "options": ["You lose money on a stock", "You sell an investment for more than you paid", "You open a new bank account", "You pay a commission to a broker"],
+      "answer": "You sell an investment for more than you paid",
+      "explanation": "Capital gains are taxable profits from investments."
+    },
+    {
+      "id": "finance-b1-w14-e10",
+      "type": "fill-in-the-blank",
+      "question": "If the interest rates ________ (fall), the housing market will likely grow.",
+      "answer": "fall",
+      "explanation": "Present simple plural for the condition."
+    },
+    {
+      "id": "finance-b1-w14-e11",
+      "type": "multiple-choice",
+      "question": "Which term describes how easily an asset can be turned into cash?",
+      "options": ["Volatility", "Liquidity", "Yield", "Equity"],
+      "answer": "Liquidity",
+      "explanation": "High liquidity means the asset can be sold quickly without losing value."
+    },
+    {
+      "id": "finance-b1-w14-e12",
+      "type": "fill-in-the-blank",
+      "question": "Investors ________ (gain) a profit if they sell at the right time.",
+      "answer": "will gain",
+      "explanation": "First conditional result clause."
+    },
+    {
+      "id": "finance-b1-w14-e13",
+      "type": "multiple-choice",
+      "question": "What is an 'IPO'?",
+      "options": ["A type of bank loan", "The first sale of stock by a company to the public", "An insurance policy", "A professional investment organization"],
+      "answer": "The first sale of stock by a company to the public",
+      "explanation": "Initial Public Offerings mark a company's transition to being public."
+    },
+    {
+      "id": "finance-b1-w14-e14",
+      "type": "fill-in-the-blank",
+      "question": "If she ________ (diversify) her investments, she will be more protected.",
+      "answer": "diversifies",
+      "explanation": "Present simple third-person singular (ends in -es)."
+    },
+    {
+      "id": "finance-b1-w14-e15",
+      "type": "multiple-choice",
+      "question": "The 'yield' of an investment is:",
+      "options": ["The total amount invested", "The earnings generated (interest or dividends)", "The name of the broker", "The location of the stock exchange"],
+      "answer": "The earnings generated (interest or dividends)",
+      "explanation": "Yield is usually expressed as a percentage."
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 2,
+  "weekId": "semana14",
+  "title": "Stock Market and Investments",
+  "description": "Vocabulary for shares, portfolios, and market trends, plus the use of First Conditional for financial predictions (50 items).",
+  "items": [
+    {
+      "id": "finance-b1-w14-q1",
+      "type": "multiple-choice",
+      "question": "A range of investments held by a person or organization is called a:",
+      "options": ["Dividend", "Portfolio", "Broker", "Yield"],
+      "answer": "Portfolio",
+      "explanation": "A portfolio is a grouping of financial assets such as stocks, bonds, and cash equivalents."
+    },
+    {
+      "id": "finance-b1-w14-q2",
+      "type": "fill-in-the-blank",
+      "question": "If the market ________ (improve), we will buy more shares.",
+      "answer": "improves",
+      "explanation": "In the 'if' clause of the first conditional, we use the present simple."
+    },
+    {
+      "id": "finance-b1-w14-q3",
+      "type": "multiple-choice",
+      "question": "A market in which share prices are rising is known as a:",
+      "options": ["Bear Market", "Bull Market", "Static Market", "Closed Market"],
+      "answer": "Bull Market",
+      "explanation": "A bull market is characterized by optimism and investor confidence."
+    },
+    {
+      "id": "finance-b1-w14-q4",
+      "type": "fill-in-the-blank",
+      "question": "The client ________ (receive) a dividend if the company performs well.",
+      "answer": "will receive",
+      "explanation": "In the result clause of the first conditional, we use 'will' + base verb."
+    },
+    {
+      "id": "finance-b1-w14-q5",
+      "type": "multiple-choice",
+      "question": "The process of allocating capital to reduce exposure to a single risk is:",
+      "options": ["Diversification", "Concentration", "Capital Gain", "Allocation"],
+      "answer": "Diversification",
+      "explanation": "Diversification is a risk management strategy that mixes a wide variety of investments within a portfolio."
+    },
+    {
+      "id": "finance-b1-w14-q6",
+      "type": "fill-in-the-blank",
+      "question": "If you ________ (not/diversify) your assets, you will take on too much risk.",
+      "answer": "do not diversify",
+      "explanation": "Negative present simple for the 'if' clause."
+    },
+    {
+      "id": "finance-b1-w14-q7",
+      "type": "multiple-choice",
+      "question": "A sum of money paid regularly by a company to its shareholders is a:",
+      "options": ["Tax", "Dividend", "Commission", "Loan"],
+      "answer": "Dividend",
+      "explanation": "Dividends are payments made by a corporation to its shareholder members."
+    },
+    {
+      "id": "finance-b1-w14-q8",
+      "type": "fill-in-the-blank",
+      "question": "The broker ________ (charge) a commission if we execute the trade.",
+      "answer": "will charge",
+      "explanation": "First conditional result clause."
+    },
+    {
+      "id": "finance-b1-w14-q9",
+      "type": "multiple-choice",
+      "question": "The earnings generated on an investment over a period of time is the:",
+      "options": ["Yield", "Stock", "Capital", "Loss"],
+      "answer": "Yield",
+      "explanation": "Yield refers to the interest or dividends received from a security."
+    },
+    {
+      "id": "finance-b1-w14-q10",
+      "type": "fill-in-the-blank",
+      "question": "If interest rates ________ (go) up, bond prices will usually go down.",
+      "answer": "go",
+      "explanation": "Present simple for a general financial possibility."
+    },
+    {
+      "id": "finance-b1-w14-q11",
+      "type": "multiple-choice",
+      "question": "A 'Bear Market' is characterized by:",
+      "options": ["Rising prices", "Falling prices", "Stable prices", "High dividends"],
+      "answer": "Falling prices",
+      "explanation": "A bear market is a period when prices in a financial market are falling."
+    },
+    {
+      "id": "finance-b1-w14-q12",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (rebalance) the portfolio if the asset allocation changes significantly.",
+      "answer": "will rebalance",
+      "explanation": "First conditional result clause for a future action."
+    },
+    {
+      "id": "finance-b1-w14-q13",
+      "type": "multiple-choice",
+      "question": "A unit of ownership in a company is a:",
+      "options": ["Bond", "Share", "Mortgage", "Debit"],
+      "answer": "Share",
+      "explanation": "Shares represent a claim on part of the corporation's assets and earnings."
+    },
+    {
+      "id": "finance-b1-w14-q14",
+      "type": "fill-in-the-blank",
+      "question": "If she ________ (invest) in emerging markets, she might see higher returns.",
+      "answer": "invests",
+      "explanation": "Present simple third-person singular."
+    },
+    {
+      "id": "finance-b1-w14-q15",
+      "type": "multiple-choice",
+      "question": "A 'Broker' is someone who:",
+      "options": ["Owns the company", "Arranges transactions between buyers and sellers", "Only buys bonds", "Sets the interest rates"],
+      "answer": "Arranges transactions between buyers and sellers",
+      "explanation": "Brokers act as intermediaries in financial markets."
+    },
+    {
+      "id": "finance-b1-w14-q16",
+      "type": "fill-in-the-blank",
+      "question": "The value of the stock ________ (decrease) if the quarterly report is negative.",
+      "answer": "will decrease",
+      "explanation": "Predicting a future result based on a condition."
+    },
+    {
+      "id": "finance-b1-w14-q17",
+      "type": "multiple-choice",
+      "question": "A profit from the sale of an investment is a:",
+      "options": ["Capital Loss", "Capital Gain", "Revenue", "Margin"],
+      "answer": "Capital Gain",
+      "explanation": "A capital gain is an increase in a capital asset's value."
+    },
+    {
+      "id": "finance-b1-w14-q18",
+      "type": "fill-in-the-blank",
+      "question": "If you ________ (wait) too long, you will miss the opportunity.",
+      "answer": "wait",
+      "explanation": "Present simple for the 'if' clause."
+    },
+    {
+      "id": "finance-b1-w14-q19",
+      "type": "multiple-choice",
+      "question": "Which of these is a low-risk investment compared to stocks?",
+      "options": ["Cryptocurrency", "Government Bonds", "Small-cap stocks", "Options"],
+      "answer": "Government Bonds",
+      "explanation": "Bonds are generally considered safer than stocks."
+    },
+    {
+      "id": "finance-b1-w14-q20",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (call) the client if the stock reaches the target price.",
+      "answer": "will call",
+      "explanation": "Result clause for the speaker."
+    },
+    {
+      "id": "finance-b1-w14-q21",
+      "type": "multiple-choice",
+      "question": "The 'NASDAQ' is a famous:",
+      "options": ["Bank", "Stock Exchange", "Currency", "Investment Plan"],
+      "answer": "Stock Exchange",
+      "explanation": "The NASDAQ is an American stock exchange based in New York City."
+    },
+    {
+      "id": "finance-b1-w14-q22",
+      "type": "fill-in-the-blank",
+      "question": "If the company ________ (announce) a merger, the stock price will soar.",
+      "answer": "announces",
+      "explanation": "Present simple third-person singular."
+    },
+    {
+      "id": "finance-b1-w14-q23",
+      "type": "multiple-choice",
+      "question": "Volatility in the market means:",
+      "options": ["Prices are stable", "Prices change rapidly and unpredictably", "Trading has stopped", "Dividends are high"],
+      "answer": "Prices change rapidly and unpredictably",
+      "explanation": "Volatility represents the degree of variation of a trading price series over time."
+    },
+    {
+      "id": "finance-b1-w14-q24",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (not/buy) more shares if the volatility remains high.",
+      "answer": "will not buy",
+      "explanation": "Negative result clause."
+    },
+    {
+      "id": "finance-b1-w14-q25",
+      "type": "multiple-choice",
+      "question": "An 'Index' like the S&P 500 measures:",
+      "options": ["The value of a single company", "The performance of a group of stocks", "The bank's interest rate", "The CEO's salary"],
+      "answer": "The performance of a group of stocks",
+      "explanation": "Stock indices track the performance of a specific sector or the whole market."
+    },
+    {
+      "id": "finance-b1-w14-q26",
+      "type": "fill-in-the-blank",
+      "question": "If the economy ________ (enter) a recession, we will shift to defensive stocks.",
+      "answer": "enters",
+      "explanation": "Present simple for the condition."
+    },
+    {
+      "id": "finance-b1-w14-q27",
+      "type": "multiple-choice",
+      "question": "What is 'Liquidity'?",
+      "options": ["The amount of debt a company has", "The ease with which an asset can be converted into cash", "The water used in a factory", "The profit made in a year"],
+      "answer": "The ease with which an asset can be converted into cash",
+      "explanation": "Cash is the most liquid asset; real estate is typically less liquid."
+    },
+    {
+      "id": "finance-b1-w14-q28",
+      "type": "fill-in-the-blank",
+      "question": "Investors ________ (lose) confidence if the inflation rate keeps rising.",
+      "answer": "will lose",
+      "explanation": "Future prediction in the result clause."
+    },
+    {
+      "id": "finance-b1-w14-q29",
+      "type": "multiple-choice",
+      "question": "A 'Blue Chip' stock refers to:",
+      "options": ["A new and risky company", "A well-established and financially sound company", "A company that only sells technology", "A company with no shares"],
+      "answer": "A well-established and financially sound company",
+      "explanation": "Blue-chip stocks are known for their reliability and history of growth."
+    },
+    {
+      "id": "finance-b1-w14-q30",
+      "type": "fill-in-the-blank",
+      "question": "If the audit ________ (reveal) any errors, we will fix them immediately.",
+      "answer": "reveals",
+      "explanation": "Present simple third-person singular."
+    },
+    {
+      "id": "finance-b1-w14-q31",
+      "type": "multiple-choice",
+      "question": "Which of these describes 'Asset Allocation'?",
+      "options": ["Selling all stocks", "Choosing how much to invest in different categories like stocks and bonds", "Opening a savings account", "Paying off a mortgage"],
+      "answer": "Choosing how much to invest in different categories like stocks and bonds",
+      "explanation": "Asset allocation is a fundamental investment strategy."
+    },
+    {
+      "id": "finance-b1-w14-q32",
+      "type": "fill-in-the-blank",
+      "question": "The market ________ (respond) positively if the tax laws change.",
+      "answer": "will respond",
+      "explanation": "Future result in the first conditional."
+    },
+    {
+      "id": "finance-b1-w14-q33",
+      "type": "multiple-choice",
+      "question": "A 'Commodity' is:",
+      "options": ["A type of share", "A basic good used in commerce (like gold or oil)", "A bank employee", "A stock market crash"],
+      "answer": "A basic good used in commerce (like gold or oil)",
+      "explanation": "Commodities are often traded on specialized exchanges."
+    },
+    {
+      "id": "finance-b1-w14-q34",
+      "type": "fill-in-the-blank",
+      "question": "If you ________ (consult) with a broker, you will understand the options better.",
+      "answer": "consult",
+      "explanation": "Present simple in the 'if' clause."
+    },
+    {
+      "id": "finance-b1-w14-q35",
+      "type": "multiple-choice",
+      "question": "What is an 'IPO'?",
+      "options": ["Internal Profit Only", "Initial Public Offering", "International Price Option", "Investment Portfolio Order"],
+      "answer": "Initial Public Offering",
+      "explanation": "An IPO is the first time a company sells its shares to the public."
+    },
+    {
+      "id": "finance-b1-w14-q36",
+      "type": "fill-in-the-blank",
+      "question": "The shareholders ________ (vote) on the proposal if they meet next week.",
+      "answer": "will vote",
+      "explanation": "First conditional result clause."
+    },
+    {
+      "id": "finance-b1-w14-q37",
+      "type": "multiple-choice",
+      "question": "A 'Mutual Fund' is:",
+      "options": ["A fund for one person only", "An investment program funded by shareholders that trades in diversified holdings", "A loan from a bank", "A type of credit card"],
+      "answer": "An investment program funded by shareholders that trades in diversified holdings",
+      "explanation": "Mutual funds allow individual investors to access professionally managed portfolios."
+    },
+    {
+      "id": "finance-b1-w14-q38",
+      "type": "fill-in-the-blank",
+      "question": "If he ________ (not/sell) his shares now, he will risk losing money.",
+      "answer": "does not sell",
+      "explanation": "Negative present simple."
+    },
+    {
+      "id": "finance-b1-w14-q39",
+      "type": "multiple-choice",
+      "question": "To 'hedge' an investment means to:",
+      "options": ["Sell everything", "Take a position to offset potential losses", "Borrow more money", "Quit the market"],
+      "answer": "Take a position to offset potential losses",
+      "explanation": "Hedging is a risk management technique."
+    },
+    {
+      "id": "finance-b1-w14-q40",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (see) more growth if the innovation continues.",
+      "answer": "will see",
+      "explanation": "Future result based on a condition."
+    },
+    {
+      "id": "finance-b1-w14-q41",
+      "type": "multiple-choice",
+      "question": "What is 'Short Selling'?",
+      "options": ["Selling a stock you don't own to buy it back later at a lower price", "Selling a stock very quickly", "Buying a small amount of stocks", "Selling stocks to a family member"],
+      "answer": "Selling a stock you don't own to buy it back later at a lower price",
+      "explanation": "Short selling is a way to profit from falling prices."
+    },
+    {
+      "id": "finance-b1-w14-q42",
+      "type": "fill-in-the-blank",
+      "question": "If the interest rate ________ (stay) the same, the market will remain stable.",
+      "answer": "stays",
+      "explanation": "Present simple third-person singular."
+    },
+    {
+      "id": "finance-b1-w14-q43",
+      "type": "multiple-choice",
+      "question": "A 'Portfolio Manager' is responsible for:",
+      "options": ["Printing bank notes", "Making investment decisions for a fund or client", "Cleaning the bank", "Writing credit card laws"],
+      "answer": "Making investment decisions for a fund or client",
+      "explanation": "Portfolio managers implement the investment strategy."
+    },
+    {
+      "id": "finance-b1-w14-q44",
+      "type": "fill-in-the-blank",
+      "question": "The currency ________ (gain) value if the central bank raises rates.",
+      "answer": "will gain",
+      "explanation": "Future result in the first conditional."
+    },
+    {
+      "id": "finance-b1-w14-q45",
+      "type": "multiple-choice",
+      "question": "What is 'Capital'?",
+      "options": ["A city", "Financial assets or the value of a business", "A type of dividend", "A stock market crash"],
+      "answer": "Financial assets or the value of a business",
+      "explanation": "In finance, capital refers to the money and other assets used for investment."
+    },
+    {
+      "id": "finance-b1-w14-q46",
+      "type": "fill-in-the-blank",
+      "question": "If you ________ (start) investing early, you will benefit from compound interest.",
+      "answer": "start",
+      "explanation": "Present simple for the 'if' clause."
+    },
+    {
+      "id": "finance-b1-w14-q47",
+      "type": "multiple-choice",
+      "question": "A 'Correction' in the market is usually a drop of:",
+      "options": ["1%", "10% or more", "50%", "100%"],
+      "answer": "10% or more",
+      "explanation": "A correction is a common but temporary drop in market prices."
+    },
+    {
+      "id": "finance-b1-w14-q48",
+      "type": "fill-in-the-blank",
+      "question": "The bank ________ (approve) the loan if your credit score is high enough.",
+      "answer": "will approve",
+      "explanation": "First conditional result."
+    },
+    {
+      "id": "finance-b1-w14-q49",
+      "type": "multiple-choice",
+      "question": "What is a 'Dividend Yield'?",
+      "options": ["The total number of shares", "The ratio of a company's annual dividend to its share price", "The CEO's bonus", "The bank's address"],
+      "answer": "The ratio of a company's annual dividend to its share price",
+      "explanation": "Dividend yield is a way to measure the return on an investment in stocks."
+    },
+    {
+      "id": "finance-b1-w14-q50",
+      "type": "fill-in-the-blank",
+      "question": "If the company ________ (bankrupt), the shareholders will lose their investment.",
+      "answer": "goes",
+      "explanation": "Idiom 'to go bankrupt' in present simple."
+    }
+  ]
+}
