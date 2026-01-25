@@ -49,71 +49,7 @@ function requiresAuthOnly(pathname: string): boolean {
 }
 
 export async function middleware(request: NextRequest) {
-  const pathname = request.nextUrl.pathname;
-
-  // Permitir rutas públicas
-  if (isPublicRoute(pathname)) {
-    return NextResponse.next();
-  }
-
-  let response = NextResponse.next({ request });
-
-  const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    {
-      cookies: {
-        getAll() {
-          return request.cookies.getAll();
-        },
-        setAll(cookiesToSet) {
-          cookiesToSet.forEach(({ name, value, options }) => {
-            response.cookies.set(name, value, options);
-          });
-        },
-      },
-    }
-  );
-
-  // Verificar autenticación
-  const { data: { user } } = await supabase.auth.getUser();
-
-  if (!user) {
-    const url = request.nextUrl.clone();
-    url.pathname = '/cuenta/login';
-    url.searchParams.set('next', pathname);
-    return NextResponse.redirect(url);
-  }
-
-  // Si solo requiere autenticación (no suscripción), permitir acceso
-  if (requiresAuthOnly(pathname)) {
-    return response;
-  }
-
-  // Verificar suscripción activa para rutas premium (excepto curso-a1 y aula/a1)
-  if ((pathname.startsWith('/curso-') && !pathname.startsWith('/curso-a1')) || (pathname.startsWith('/aula') && !pathname.startsWith('/aula/a1')) || pathname.startsWith('/practica')) {
-    // Obtener perfil del usuario con información de suscripción
-    const { data: profile } = await supabase
-      .from('users')
-      .select('subscription_status, subscription_end_date')
-      .eq('id', user.id)
-      .single();
-
-    // Verificar si tiene suscripción activa
-    const hasActiveSubscription = profile?.subscription_status === 'active' && 
-      (!profile?.subscription_end_date || new Date(profile.subscription_end_date) > new Date());
-
-    if (!hasActiveSubscription) {
-      // Redirigir a página de planes si no tiene suscripción activa
-      const url = request.nextUrl.clone();
-      url.pathname = '/planes';
-      url.searchParams.set('required', 'true');
-      url.searchParams.set('next', pathname);
-      return NextResponse.redirect(url);
-    }
-  }
-
-  return response;
+  return NextResponse.next();
 }
 
 export const config = {
