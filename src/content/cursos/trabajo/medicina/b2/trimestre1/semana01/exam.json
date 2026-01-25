@@ -1,0 +1,123 @@
+{
+  "goal": "medicina",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana01",
+  "title": "Exam: Medical Specialties and Clinical Routines",
+  "description": "Assessment of vocabulary for specialties and the correct use of the Present Simple in a clinical context (15 items).",
+  "items": [
+    {
+      "id": "med-b2-w1-e1",
+      "type": "multiple-choice",
+      "question": "A patient with a suspected brain tumor should be referred to which two specialists?",
+      "options": ["Cardiologist and Neurologist", "Neurologist and Oncologist", "Oncologist and Geriatrician", "Neurologist and Orthopedist"],
+      "answer": "Neurologist and Oncologist",
+      "explanation": "Neurology deals with the brain, and Oncology deals with tumors."
+    },
+    {
+      "id": "med-b2-w1-e2",
+      "type": "fill-in-the-blank",
+      "question": "The endocrinologist ________ (manage) the patient's diabetes through insulin therapy.",
+      "answer": "manages",
+      "explanation": "Third-person singular for a professional responsibility."
+    },
+    {
+      "id": "med-b2-w1-e3",
+      "type": "multiple-choice",
+      "question": "What is the primary function of triage in an Emergency Department?",
+      "options": ["To prescribe medication", "To prioritize patients based on the severity of their condition", "To perform surgery", "To conduct hospital rounds"],
+      "answer": "To prioritize patients based on the severity of their condition",
+      "explanation": "Triage ensures that the most critical patients receive care first."
+    },
+    {
+      "id": "med-b2-w1-e4",
+      "type": "fill-in-the-blank",
+      "question": "________ (do) the hospital provide outpatient services on weekends?",
+      "answer": "Does",
+      "explanation": "Interrogative auxiliary for a singular subject (the hospital)."
+    },
+    {
+      "id": "med-b2-w1-e5",
+      "type": "multiple-choice",
+      "question": "Which verb describes the action of officially authorizing a patient to receive a specific medication?",
+      "options": ["Diagnose", "Prescribe", "Consult", "Triage"],
+      "answer": "Prescribe",
+      "explanation": "Physicians prescribe medications after a diagnosis."
+    },
+    {
+      "id": "med-b2-w1-e6",
+      "type": "fill-in-the-blank",
+      "question": "Pediatricians ________ (not/treat) adult patients.",
+      "answer": "do not treat",
+      "explanation": "Negative present simple for a professional fact/limitation."
+    },
+    {
+      "id": "med-b2-w1-e7",
+      "type": "multiple-choice",
+      "question": "Which specialty is correctly matched with its focus?",
+      "options": ["Hematology - Bones", "Orthopedics - Heart", "Geriatrics - Elderly", "Nephrology - Lungs"],
+      "answer": "Geriatrics - Elderly",
+      "explanation": "Geriatrics is the branch of medicine focused on aging and the elderly."
+    },
+    {
+      "id": "med-b2-w1-e8",
+      "type": "fill-in-the-blank",
+      "question": "The surgeon ________ (perform) rounds every morning at 7:00 AM.",
+      "answer": "performs",
+      "explanation": "Present simple for a clinical routine."
+    },
+    {
+      "id": "med-b2-w1-e9",
+      "type": "multiple-choice",
+      "question": "A 'Consultation' occurs when:",
+      "options": ["A patient leaves the hospital", "A doctor asks another specialist for their expert opinion", "A nurse administers medication", "The hospital bill is paid"],
+      "answer": "A doctor asks another specialist for their expert opinion",
+      "explanation": "Consultations are vital for collaborative patient care."
+    },
+    {
+      "id": "med-b2-w1-e10",
+      "type": "fill-in-the-blank",
+      "question": "The heart ________ (pump) oxygenated blood to the rest of the body.",
+      "answer": "pumps",
+      "explanation": "Biological fact in the present simple."
+    },
+    {
+      "id": "med-b2-w1-e11",
+      "type": "multiple-choice",
+      "question": "Dermatologists specialize in the treatment of:",
+      "options": ["Internal organs", "Skin, hair, and nails", "Mental illnesses", "Infectious diseases"],
+      "answer": "Skin, hair, and nails",
+      "explanation": "Dermatology is the branch of medicine concerned with the skin."
+    },
+    {
+      "id": "med-b2-w1-e12",
+      "type": "fill-in-the-blank",
+      "question": "Why ________ the patient need a neurological exam?",
+      "answer": "does",
+      "explanation": "Interrogative auxiliary for a singular subject (the patient)."
+    },
+    {
+      "id": "med-b2-w1-e13",
+      "type": "multiple-choice",
+      "question": "Which of these is NOT a core clinical routine?",
+      "options": ["Triage", "Diagnosis", "Rounding", "Vacationing"],
+      "answer": "Vacationing",
+      "explanation": "Vacationing is not a clinical routine."
+    },
+    {
+      "id": "med-b2-w1-e14",
+      "type": "fill-in-the-blank",
+      "question": "Insulin ________ (regulate) the amount of glucose in the blood.",
+      "answer": "regulates",
+      "explanation": "Biological/medical fact."
+    },
+    {
+      "id": "med-b2-w1-e15",
+      "type": "multiple-choice",
+      "question": "An Orthopedist would be most likely to treat which condition?",
+      "options": ["Pneumonia", "A fractured hip", "A skin rash", "Diabetes"],
+      "answer": "A fractured hip",
+      "explanation": "Orthopedics deals with the skeletal system and its injuries."
+    }
+  ]
+}

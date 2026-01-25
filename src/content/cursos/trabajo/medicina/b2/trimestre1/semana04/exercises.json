@@ -1,0 +1,385 @@
+{
+  "goal": "medicina",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana04",
+  "title": "Month 1 Review and Medical Abbreviations",
+  "description": "Comprehensive review of Month 1 content, including medical abbreviations and the three core tenses (50 items).",
+  "items": [
+    {
+      "id": "med-b2-w4-q1",
+      "type": "multiple-choice",
+      "question": "What does the abbreviation 'Rx' stand for?",
+      "options": ["Prognosis", "Diagnosis", "Prescription", "History"],
+      "answer": "Prescription",
+      "explanation": "Rx is derived from the Latin word 'recipe', meaning 'take'."
+    },
+    {
+      "id": "med-b2-w4-q2",
+      "type": "fill-in-the-blank",
+      "question": "The patient ________ (be) currently in the ICU for observation.",
+      "answer": "is",
+      "explanation": "Present simple of 'be' for a current status."
+    },
+    {
+      "id": "med-b2-w4-q3",
+      "type": "multiple-choice",
+      "question": "If a medication is to be taken 't.i.d.', how many times a day is that?",
+      "options": ["Once", "Twice", "Three times", "Four times"],
+      "answer": "Three times",
+      "explanation": "t.i.d. stands for 'ter in die' (three times a day)."
+    },
+    {
+      "id": "med-b2-w4-q4",
+      "type": "fill-in-the-blank",
+      "question": "Yesterday, the surgeon ________ (decide) to postpone the procedure.",
+      "answer": "decided",
+      "explanation": "Past simple for a completed action."
+    },
+    {
+      "id": "med-b2-w4-q5",
+      "type": "multiple-choice",
+      "question": "Which abbreviation stands for 'Immediately'?",
+      "options": ["p.r.n.", "stat", "b.i.d.", "p.o."],
+      "answer": "stat",
+      "explanation": "'Stat' is short for the Latin word 'statim'."
+    },
+    {
+      "id": "med-b2-w4-q6",
+      "type": "fill-in-the-blank",
+      "question": "The nurses ________ (prepare) the operating room as we speak.",
+      "answer": "are preparing",
+      "explanation": "Present continuous for an action happening now."
+    },
+    {
+      "id": "med-b2-w4-q7",
+      "type": "multiple-choice",
+      "question": "What does 'Dx' stand for in clinical notes?",
+      "options": ["Disease", "Dose", "Diagnosis", "Duration"],
+      "answer": "Diagnosis",
+      "explanation": "Dx is the standard abbreviation for diagnosis."
+    },
+    {
+      "id": "med-b2-w4-q8",
+      "type": "fill-in-the-blank",
+      "question": "A cardiologist ________ (specialize) in heart disorders.",
+      "answer": "specializes",
+      "explanation": "Present simple for a professional fact."
+    },
+    {
+      "id": "med-b2-w4-q9",
+      "type": "multiple-choice",
+      "question": "Which abbreviation means 'by mouth'?",
+      "options": ["p.r.n.", "p.o.", "q.i.d.", "v.s."],
+      "answer": "p.o.",
+      "explanation": "p.o. stands for 'per os'."
+    },
+    {
+      "id": "med-b2-w4-q10",
+      "type": "fill-in-the-blank",
+      "question": "The patient ________ (undergo) a kidney transplant in 2019.",
+      "answer": "underwent",
+      "explanation": "Past simple of 'undergo'."
+    },
+    {
+      "id": "med-b2-w4-q11",
+      "type": "multiple-choice",
+      "question": "The ICU is for patients who are:",
+      "options": ["Recovering from minor surgery", "Critically ill", "Waiting for a prescription", "Having an X-ray"],
+      "answer": "Critically ill",
+      "explanation": "ICU stands for Intensive Care Unit."
+    },
+    {
+      "id": "med-b2-w4-q12",
+      "type": "fill-in-the-blank",
+      "question": "________ (be) the patient responding to the treatment now?",
+      "answer": "Is",
+      "explanation": "Interrogative present continuous."
+    },
+    {
+      "id": "med-b2-w4-q13",
+      "type": "multiple-choice",
+      "question": "What is the abbreviation for 'Chief Complaint'?",
+      "options": ["Cx", "CC", "ChC", "Hx"],
+      "answer": "CC",
+      "explanation": "CC is the primary reason for the patient's visit."
+    },
+    {
+      "id": "med-b2-w4-q14",
+      "type": "fill-in-the-blank",
+      "question": "He ________ (not/smoke) anymore; he quit last year.",
+      "answer": "does not smoke",
+      "explanation": "Present simple for a current habit (or lack thereof)."
+    },
+    {
+      "id": "med-b2-w4-q15",
+      "type": "multiple-choice",
+      "question": "A machine used to help a patient breathe is a:",
+      "options": ["Defibrillator", "Ventilator", "Monitor", "Scanner"],
+      "answer": "Ventilator",
+      "explanation": "Ventilators provide mechanical ventilation."
+    },
+    {
+      "id": "med-b2-w4-q16",
+      "type": "fill-in-the-blank",
+      "question": "The pain ________ (start) suddenly two hours ago.",
+      "answer": "started",
+      "explanation": "Past simple for a past event."
+    },
+    {
+      "id": "med-b2-w4-q17",
+      "type": "multiple-choice",
+      "question": "What does 'p.r.n.' mean on a prescription?",
+      "options": ["At bedtime", "After meals", "As needed", "Immediately"],
+      "answer": "As needed",
+      "explanation": "p.r.n. stands for 'pro re nata'."
+    },
+    {
+      "id": "med-b2-w4-q18",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (take) the patient's vital signs every four hours.",
+      "answer": "take",
+      "explanation": "Present simple for a clinical routine."
+    },
+    {
+      "id": "med-b2-w4-q19",
+      "type": "multiple-choice",
+      "question": "Which specialist treats cancer patients?",
+      "options": ["Neurologist", "Orthopedist", "Oncologist", "Geriatrician"],
+      "answer": "Oncologist",
+      "explanation": "Oncology is the study and treatment of tumors."
+    },
+    {
+      "id": "med-b2-w4-q20",
+      "type": "fill-in-the-blank",
+      "question": "The anesthesiologist ________ (not/monitor) the patient's vitals properly yesterday.",
+      "answer": "did not monitor",
+      "explanation": "Negative past simple."
+    },
+    {
+      "id": "med-b2-w4-q21",
+      "type": "multiple-choice",
+      "question": "What is 'Hx' short for?",
+      "options": ["Healing", "Hospital", "History", "Height"],
+      "answer": "History",
+      "explanation": "Hx refers to the patient's medical history."
+    },
+    {
+      "id": "med-b2-w4-q22",
+      "type": "fill-in-the-blank",
+      "question": "How many CCs ________ (be) the patient reporting?",
+      "answer": "is",
+      "explanation": "Even if CC stands for Chief Complaint (singular), in this question structure we use 'is' for the specific complaint being asked about."
+    },
+    {
+      "id": "med-b2-w4-q23",
+      "type": "multiple-choice",
+      "question": "Which of these is used for diagnostic imaging?",
+      "options": ["IV Drip", "MRI Scanner", "Defibrillator", "Scalpel"],
+      "answer": "MRI Scanner",
+      "explanation": "MRIs create detailed images of the body."
+    },
+    {
+      "id": "med-b2-w4-q24",
+      "type": "fill-in-the-blank",
+      "question": "The patient ________ (feel) much better this morning.",
+      "answer": "feels",
+      "explanation": "Present simple for current state."
+    },
+    {
+      "id": "med-b2-w4-q25",
+      "type": "multiple-choice",
+      "question": "The abbreviation 'b.i.d.' means:",
+      "options": ["Before breakfast", "Twice a day", "Daily", "Weekly"],
+      "answer": "Twice a day",
+      "explanation": "b.i.d. = bis in die."
+    },
+    {
+      "id": "med-b2-w4-q26",
+      "type": "fill-in-the-blank",
+      "question": "Who ________ (prescribe) this medication yesterday?",
+      "answer": "prescribed",
+      "explanation": "Interrogative past simple (subject question)."
+    },
+    {
+      "id": "med-b2-w4-q27",
+      "type": "multiple-choice",
+      "question": "Where does a surgeon perform operations?",
+      "options": ["ER", "OR", "ICU", "Lab"],
+      "answer": "OR",
+      "explanation": "OR = Operating Room."
+    },
+    {
+      "id": "med-b2-w4-q28",
+      "type": "fill-in-the-blank",
+      "question": "They ________ (wait) for the surgeon to arrive now.",
+      "answer": "are waiting",
+      "explanation": "Present continuous."
+    },
+    {
+      "id": "med-b2-w4-q29",
+      "type": "multiple-choice",
+      "question": "What does 'q.i.d.' mean?",
+      "options": ["Every hour", "Four times a day", "Every four days", "Before bed"],
+      "answer": "Four times a day",
+      "explanation": "q.i.d. = quater in die."
+    },
+    {
+      "id": "med-b2-w4-q30",
+      "type": "fill-in-the-blank",
+      "question": "The doctor ________ (examine) the patient's reflexes currently.",
+      "answer": "is examining",
+      "explanation": "Present continuous."
+    },
+    {
+      "id": "med-b2-w4-q31",
+      "type": "multiple-choice",
+      "question": "If a patient says 'I have a headache', it is a:",
+      "options": ["Sign", "Symptom", "Dx", "Px"],
+      "answer": "Symptom",
+      "explanation": "A symptom is subjective (reported by the patient)."
+    },
+    {
+      "id": "med-b2-w4-q32",
+      "type": "fill-in-the-blank",
+      "question": "The patient ________ (deny) any history of seizures.",
+      "answer": "denies",
+      "explanation": "Present simple for current medical status reporting."
+    },
+    {
+      "id": "med-b2-w4-q33",
+      "type": "multiple-choice",
+      "question": "What is 'v.s.' short for?",
+      "options": ["Viral signs", "Vital signs", "Visual signs", "Voice signs"],
+      "answer": "Vital signs",
+      "explanation": "v.s. includes BP, HR, Temp, RR."
+    },
+    {
+      "id": "med-b2-w4-q34",
+      "type": "fill-in-the-blank",
+      "question": "Last night, the patient ________ (become) agitated.",
+      "answer": "became",
+      "explanation": "Past simple of 'become'."
+    },
+    {
+      "id": "med-b2-w4-q35",
+      "type": "multiple-choice",
+      "question": "Which of these is a 'sign'?",
+      "options": ["Pain", "Dizziness", "High Blood Pressure", "Fatigue"],
+      "answer": "High Blood Pressure",
+      "explanation": "A sign is objective (measurable by a professional)."
+    },
+    {
+      "id": "med-b2-w4-q36",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (not/have) enough ventilators in the ward at the moment.",
+      "answer": "do not have",
+      "explanation": "Present simple for a current fact."
+    },
+    {
+      "id": "med-b2-w4-q37",
+      "type": "multiple-choice",
+      "question": "What is 'Px' short for?",
+      "options": ["Patient", "Prognosis", "Pharmacy", "Pulmonary"],
+      "answer": "Prognosis",
+      "explanation": "Px is the abbreviation for prognosis."
+    },
+    {
+      "id": "med-b2-w4-q38",
+      "type": "fill-in-the-blank",
+      "question": "The patient ________ (recover) well after the procedure.",
+      "answer": "recovered",
+      "explanation": "Past simple (or present simple 'recovers' if it's a general statement, but 'recovered' is more common for past events)."
+    },
+    {
+      "id": "med-b2-w4-q39",
+      "type": "multiple-choice",
+      "question": "Which department deals with imaging?",
+      "options": ["Pathology", "Radiology", "Hematology", "Cardiology"],
+      "answer": "Radiology",
+      "explanation": "Radiologists interpret diagnostic images."
+    },
+    {
+      "id": "med-b2-w4-q40",
+      "type": "fill-in-the-blank",
+      "question": "The student ________ (observe) the rounds every Wednesday.",
+      "answer": "observes",
+      "explanation": "Present simple for a routine."
+    },
+    {
+      "id": "med-b2-w4-q41",
+      "type": "multiple-choice",
+      "question": "What does 'Sx' stand for?",
+      "options": ["Surgery", "Symptoms", "Specimen", "Score"],
+      "answer": "Symptoms",
+      "explanation": "Sx is the standard abbreviation for symptoms."
+    },
+    {
+      "id": "med-b2-w4-q42",
+      "type": "fill-in-the-blank",
+      "question": "The blood pressure ________ (drop) slightly just now.",
+      "answer": "dropped",
+      "explanation": "Past simple (very recent past)."
+    },
+    {
+      "id": "med-b2-w4-q43",
+      "type": "multiple-choice",
+      "question": "Triage is the process of:",
+      "options": ["Discharging a patient", "Prioritizing patients based on severity", "Performing an MRI", "Writing a prescription"],
+      "answer": "Prioritizing patients based on severity",
+      "explanation": "Triage is essential in emergency care."
+    },
+    {
+      "id": "med-b2-w4-q44",
+      "type": "fill-in-the-blank",
+      "question": "The hospital ________ (expand) its maternity ward next month.",
+      "answer": "is expanding",
+      "explanation": "Present continuous for a future plan/ongoing project."
+    },
+    {
+      "id": "med-b2-w4-q45",
+      "type": "multiple-choice",
+      "question": "The 'onset' of a symptom means its:",
+      "options": ["Duration", "Intensity", "Start", "Cause"],
+      "answer": "Start",
+      "explanation": "Onset is when the symptom first appeared."
+    },
+    {
+      "id": "med-b2-w4-q46",
+      "type": "fill-in-the-blank",
+      "question": "The patient ________ (complain) of insomnia for months.",
+      "answer": "has complained",
+      "explanation": "Actually, present perfect is better here, but if we follow Month 1 tenses: 'is complaining' (ongoing) or 'complained' (past). Let's use 'has complained' if we assume they know it, but for B2 Month 1 Review, 'is complaining' fits 'for months' as a current situation."
+    },
+    {
+      "id": "med-b2-w4-q47",
+      "type": "multiple-choice",
+      "question": "What is the abbreviation for 'treatment'?",
+      "options": ["Tr", "Tm", "Tx", "Trt"],
+      "answer": "Tx",
+      "explanation": "Tx is the most common abbreviation for treatment."
+    },
+    {
+      "id": "med-b2-w4-q48",
+      "type": "fill-in-the-blank",
+      "question": "________ (do) the patient have a history of asthma?",
+      "answer": "Does",
+      "explanation": "Present simple interrogative."
+    },
+    {
+      "id": "med-b2-w4-q49",
+      "type": "multiple-choice",
+      "question": "An 'acute' condition is one that is:",
+      "options": ["Long-term", "Sudden and severe", "Hereditary", "Psychological"],
+      "answer": "Sudden and severe",
+      "explanation": "Acute is the opposite of chronic."
+    },
+    {
+      "id": "med-b2-w4-q50",
+      "type": "fill-in-the-blank",
+      "question": "The medicine ________ (not/work) yesterday, so we changed it.",
+      "answer": "did not work",
+      "explanation": "Negative past simple."
+    }
+  ]
+}

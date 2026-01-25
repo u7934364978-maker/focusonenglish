@@ -1,0 +1,20 @@
+{
+  "title": "Month 1 Review and Medical Abbreviations",
+  "sections": [
+    {
+      "id": "medical-abbreviations",
+      "title": "Common Medical Abbreviations",
+      "content": "Medical professionals use many abbreviations in charts and communication.\n\n### General Abbreviations\n- **Hx**: History\n- **Dx**: Diagnosis\n- **Px**: Prognosis\n- **Rx**: Prescription / Treatment\n- **Sx**: Symptoms\n- **Tx**: Treatment / Transplant\n- **CC**: Chief Complaint\n- **v.s.**: Vital Signs\n\n### Medication & Timing\n- **b.i.d.**: Twice a day (bis in die)\n- **t.i.d.**: Three times a day (ter in die)\n- **q.i.d.**: Four times a day (quater in die)\n- **p.r.n.**: As needed (pro re nata)\n- **p.o.**: By mouth (per os)\n- **stat**: Immediately (statim)"
+    },
+    {
+      "id": "review-vocabulary",
+      "title": "Month 1 Vocabulary Recap",
+      "content": "A summary of the core concepts covered this month:\n- **Week 1**: Medical Specialties (Oncology, Cardiology, etc.) and Clinical Routines (Diagnose, Prescribe).\n- **Week 2**: Hospital Units (ICU, ER, OR) and Advanced Equipment (Ventilator, Defibrillator, MRI).\n- **Week 3**: Patient Intake (Medical/Social/Family History) and Symptom Analysis (Onset, Severity, Progression)."
+    },
+    {
+      "id": "grammar-review",
+      "title": "Month 1 Grammar Review",
+      "content": "Reviewing the three core tenses for clinical communication:\n\n1. **Present Simple**: For permanent facts and professional routines. \n   - *\"The nurse **checks** the vitals every morning.\"*\n\n2. **Present Continuous**: For ongoing actions or temporary situations. \n   - *\"The patient **is resting** in the recovery room right now.\"*\n\n3. **Past Simple**: For medical history and past clinical events. \n   - *\"The patient **developed** a fever after the procedure yesterday.\"*"
+    }
+  ]
+}

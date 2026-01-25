@@ -1,0 +1,123 @@
+{
+  "goal": "medicina",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana04",
+  "title": "Month 1 Final Exam: Clinical Fundamentals",
+  "description": "Comprehensive assessment of medical specialties, equipment, intake procedures, abbreviations, and core tenses (15 items).",
+  "items": [
+    {
+      "id": "med-b2-w4-e1",
+      "type": "multiple-choice",
+      "question": "A medication prescribed 'stat' must be administered:",
+      "options": ["Twice a day", "Immediately", "As needed", "By mouth"],
+      "answer": "Immediately",
+      "explanation": "'Stat' indicates the highest level of urgency."
+    },
+    {
+      "id": "med-b2-w4-e2",
+      "type": "fill-in-the-blank",
+      "question": "The patient ________ (undergo) an MRI scan two days ago to rule out a tumor.",
+      "answer": "underwent",
+      "explanation": "Past simple of 'undergo'."
+    },
+    {
+      "id": "med-b2-w4-e3",
+      "type": "multiple-choice",
+      "question": "What does the abbreviation 't.i.d.' stand for?",
+      "options": ["Twice daily", "Three times daily", "Four times daily", "Every four hours"],
+      "answer": "Three times daily",
+      "explanation": "t.i.d. = ter in die."
+    },
+    {
+      "id": "med-b2-w4-e4",
+      "type": "fill-in-the-blank",
+      "question": "The nurses ________ (monitor) the patient's vitals in the ICU right now.",
+      "answer": "are monitoring",
+      "explanation": "Present continuous for an ongoing action."
+    },
+    {
+      "id": "med-b2-w4-e5",
+      "type": "multiple-choice",
+      "question": "In a medical chart, 'CC' refers to:",
+      "options": ["Current Conditions", "Chief Complaint", "Clinical Consultation", "Cardiac Care"],
+      "answer": "Chief Complaint",
+      "explanation": "The CC is the primary reason the patient is seeking care."
+    },
+    {
+      "id": "med-b2-w4-e6",
+      "type": "fill-in-the-blank",
+      "question": "________ (do) the patient have any known history of drug allergies?",
+      "answer": "Does",
+      "explanation": "Present simple interrogative for a clinical fact."
+    },
+    {
+      "id": "med-b2-w4-e7",
+      "type": "multiple-choice",
+      "question": "Which specialist deals specifically with disorders of the nervous system?",
+      "options": ["Cardiologist", "Oncologist", "Neurologist", "Orthopedist"],
+      "answer": "Neurologist",
+      "explanation": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system."
+    },
+    {
+      "id": "med-b2-w4-e8",
+      "type": "fill-in-the-blank",
+      "question": "The pharmacist ________ (dispense) the wrong dosage yesterday by mistake.",
+      "answer": "dispensed",
+      "explanation": "Past simple for a completed past event."
+    },
+    {
+      "id": "med-b2-w4-e9",
+      "type": "multiple-choice",
+      "question": "A 'ventilator' is a piece of equipment used to:",
+      "options": ["Measure blood pressure", "Restore heart rhythm", "Assist with breathing", "Take X-ray images"],
+      "answer": "Assist with breathing",
+      "explanation": "Ventilators provide mechanical respiratory support."
+    },
+    {
+      "id": "med-b2-w4-e10",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (not/perform) surgery in this outpatient clinic; we only do consultations.",
+      "answer": "do not perform",
+      "explanation": "Present simple for a permanent routine/limitation."
+    },
+    {
+      "id": "med-b2-w4-e11",
+      "type": "multiple-choice",
+      "question": "What is the abbreviation for 'History'?",
+      "options": ["Hi", "Hx", "Hs", "Hy"],
+      "answer": "Hx",
+      "explanation": "Hx is the standard abbreviation for medical history."
+    },
+    {
+      "id": "med-b2-w4-e12",
+      "type": "fill-in-the-blank",
+      "question": "The swelling ________ (improve) significantly since we started the ice treatment.",
+      "answer": "has improved",
+      "explanation": "Present perfect is most appropriate here, but given Month 1 focus: 'is improving' (ongoing) or 'improved' (completed). Let's use 'has improved' as it bridges the past to now."
+    },
+    {
+      "id": "med-b2-w4-e13",
+      "type": "multiple-choice",
+      "question": "Which of these is considered a 'Social History' (SHx) factor?",
+      "options": ["Father's history of heart disease", "Previous appendectomy", "Smoking habits", "Blood pressure reading"],
+      "answer": "Smoking habits",
+      "explanation": "Social History includes lifestyle and habits."
+    },
+    {
+      "id": "med-b2-w4-e14",
+      "type": "fill-in-the-blank",
+      "question": "The surgeon ________ (perform) rounds at 8:00 AM every morning.",
+      "answer": "performs",
+      "explanation": "Present simple for a daily routine."
+    },
+    {
+      "id": "med-b2-w4-e15",
+      "type": "multiple-choice",
+      "question": "A patient referred to 'Pulmonology' likely has a problem with which organ?",
+      "options": ["Heart", "Brain", "Lungs", "Kidneys"],
+      "answer": "Lungs",
+      "explanation": "Pulmonology is the study of the respiratory system."
+    }
+  ]
+}

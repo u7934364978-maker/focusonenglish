@@ -1,0 +1,385 @@
+{
+  "goal": "medicina",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana01",
+  "title": "Medical Specialties and Clinical Routines",
+  "description": "Advanced vocabulary for specialties and the use of the Present Simple for facts and routines (50 items).",
+  "items": [
+    {
+      "id": "med-b2-w1-q1",
+      "type": "multiple-choice",
+      "question": "Which specialty deals with the diagnosis and treatment of tumors?",
+      "options": ["Cardiology", "Neurology", "Oncology", "Pediatrics"],
+      "answer": "Oncology",
+      "explanation": "Oncology is the branch of medicine dedicated to cancer research and treatment."
+    },
+    {
+      "id": "med-b2-w1-q2",
+      "type": "fill-in-the-blank",
+      "question": "The cardiologist ________ (examine) patients with heart conditions daily.",
+      "answer": "examines",
+      "explanation": "We use the third-person singular 'examines' for a professional routine."
+    },
+    {
+      "id": "med-b2-w1-q3",
+      "type": "multiple-choice",
+      "question": "A specialist who cares for elderly patients is a:",
+      "options": ["Pediatrician", "Geriatrician", "Orthopedist", "Endocrinologist"],
+      "answer": "Geriatrician",
+      "explanation": "Geriatrics is the specialty focused on the health care of elderly people."
+    },
+    {
+      "id": "med-b2-w1-q4",
+      "type": "fill-in-the-blank",
+      "question": "Nurses ________ (not/diagnose) diseases; they assist doctors in the process.",
+      "answer": "do not diagnose",
+      "explanation": "Negative present simple for a professional fact/limitation."
+    },
+    {
+      "id": "med-b2-w1-q5",
+      "type": "multiple-choice",
+      "question": "Which verb describes the process of identifying an illness from its symptoms?",
+      "options": ["Prescribe", "Diagnose", "Consult", "Triage"],
+      "answer": "Diagnose",
+      "explanation": "To diagnose is to determine the cause of a medical condition."
+    },
+    {
+      "id": "med-b2-w1-q6",
+      "type": "fill-in-the-blank",
+      "question": "How often ________ the chief surgeon perform rounds?",
+      "answer": "does",
+      "explanation": "Interrogative form for a routine, using the auxiliary 'does' for a singular subject."
+    },
+    {
+      "id": "med-b2-w1-q7",
+      "type": "multiple-choice",
+      "question": "Endocrinology is the study of:",
+      "options": ["The heart", "The brain", "Hormones and the endocrine system", "Bones"],
+      "answer": "Hormones and the endocrine system",
+      "explanation": "Endocrinology focuses on glands and the hormones they produce."
+    },
+    {
+      "id": "med-b2-w1-q8",
+      "type": "fill-in-the-blank",
+      "question": "The pancreas ________ (secrete) insulin to regulate blood sugar.",
+      "answer": "secretes",
+      "explanation": "Present simple for a biological fact."
+    },
+    {
+      "id": "med-b2-w1-q9",
+      "type": "multiple-choice",
+      "question": "What is the process of assigning urgency to patients based on their condition?",
+      "options": ["Rounding", "Triage", "Consultation", "Prescription"],
+      "answer": "Triage",
+      "explanation": "Triage is critical in emergency rooms to prioritize care."
+    },
+    {
+      "id": "med-b2-w1-q10",
+      "type": "fill-in-the-blank",
+      "question": "A neurologist ________ (specialize) in disorders of the nervous system.",
+      "answer": "specializes",
+      "explanation": "Third-person singular for a professional definition."
+    },
+    {
+      "id": "med-b2-w1-q11",
+      "type": "multiple-choice",
+      "question": "Which doctor would you see for a broken femur?",
+      "options": ["Neurologist", "Orthopedist", "Cardiologist", "Geriatrician"],
+      "answer": "Orthopedist",
+      "explanation": "Orthopedics deals with the musculoskeletal system."
+    },
+    {
+      "id": "med-b2-w1-q12",
+      "type": "fill-in-the-blank",
+      "question": "Medical students ________ (study) anatomy for many months.",
+      "answer": "study",
+      "explanation": "Plural subject takes the base form of the verb in present simple."
+    },
+    {
+      "id": "med-b2-w1-q13",
+      "type": "multiple-choice",
+      "question": "To advise and authorize the use of a medicine is to:",
+      "options": ["Consult", "Diagnose", "Prescribe", "Triage"],
+      "answer": "Prescribe",
+      "explanation": "Doctors prescribe medication to treat identified conditions."
+    },
+    {
+      "id": "med-b2-w1-q14",
+      "type": "fill-in-the-blank",
+      "question": "The hospital ________ (provide) emergency care 24/7.",
+      "answer": "provides",
+      "explanation": "A permanent situation/fact about the institution."
+    },
+    {
+      "id": "med-b2-w1-q15",
+      "type": "multiple-choice",
+      "question": "Pediatrics is the medical care of:",
+      "options": ["Elderly people", "Children", "Cancer patients", "Pregnant women"],
+      "answer": "Children",
+      "explanation": "Pediatrics focuses on the physical, emotional, and social health of children from birth to young adulthood."
+    },
+    {
+      "id": "med-b2-w1-q16",
+      "type": "fill-in-the-blank",
+      "question": "Does this medication ________ (cause) any side effects?",
+      "answer": "cause",
+      "explanation": "Interrogative form requires the base verb after the auxiliary 'does'."
+    },
+    {
+      "id": "med-b2-w1-q17",
+      "type": "multiple-choice",
+      "question": "The nervous system includes the brain, spinal cord, and:",
+      "options": ["Bones", "Nerves", "Muscles", "Hormones"],
+      "answer": "Nerves",
+      "explanation": "Neurology is the study of these three components."
+    },
+    {
+      "id": "med-b2-w1-q18",
+      "type": "fill-in-the-blank",
+      "question": "The red blood cells ________ (carry) oxygen to the tissues.",
+      "answer": "carry",
+      "explanation": "Biological fact with a plural subject."
+    },
+    {
+      "id": "med-b2-w1-q19",
+      "type": "multiple-choice",
+      "question": "When a doctor seeks advice from another specialist, it is a:",
+      "options": ["Triage", "Consultation", "Round", "Prescription"],
+      "answer": "Consultation",
+      "explanation": "Consultations are common between primary care physicians and specialists."
+    },
+    {
+      "id": "med-b2-w1-q20",
+      "type": "fill-in-the-blank",
+      "question": "An oncologist ________ (treat) various types of cancer.",
+      "answer": "treats",
+      "explanation": "Professional routine/specialty definition."
+    },
+    {
+      "id": "med-b2-w1-q21",
+      "type": "multiple-choice",
+      "question": "The heart pumps blood through the ________ system.",
+      "options": ["Endocrine", "Circulatory", "Nervous", "Skeletal"],
+      "answer": "Circulatory",
+      "explanation": "The circulatory system is the primary focus of cardiology."
+    },
+    {
+      "id": "med-b2-w1-q22",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (not/perform) surgery in this clinic.",
+      "answer": "do not perform",
+      "explanation": "Negative routine for a plural subject."
+    },
+    {
+      "id": "med-b2-w1-q23",
+      "type": "multiple-choice",
+      "question": "What is the collective term for a doctor's visits to patients in a hospital?",
+      "options": ["Meetings", "Triages", "Rounds", "Consults"],
+      "answer": "Rounds",
+      "explanation": "Hospitalists and residents perform rounds daily to check on patients."
+    },
+    {
+      "id": "med-b2-w1-q24",
+      "type": "fill-in-the-blank",
+      "question": "The endocrine system ________ (consist) of several glands.",
+      "answer": "consists",
+      "explanation": "Biological fact/definition."
+    },
+    {
+      "id": "med-b2-w1-q25",
+      "type": "multiple-choice",
+      "question": "Dermatology is the branch of medicine dealing with the:",
+      "options": ["Eyes", "Skin", "Ears", "Lungs"],
+      "answer": "Skin",
+      "explanation": "Dermatologists diagnose and treat skin disorders."
+    },
+    {
+      "id": "med-b2-w1-q26",
+      "type": "fill-in-the-blank",
+      "question": "How ________ a doctor diagnose a viral infection?",
+      "answer": "does",
+      "explanation": "Interrogative auxiliary for a singular subject."
+    },
+    {
+      "id": "med-b2-w1-q27",
+      "type": "multiple-choice",
+      "question": "Psychiatry deals with the diagnosis and treatment of ________ disorders.",
+      "options": ["Physical", "Mental", "Skeletal", "Infectious"],
+      "answer": "Mental",
+      "explanation": "Psychiatrists are medical doctors who specialize in mental health."
+    },
+    {
+      "id": "med-b2-w1-q28",
+      "type": "fill-in-the-blank",
+      "question": "The pediatrician ________ (monitor) the child's growth.",
+      "answer": "monitors",
+      "explanation": "Professional routine."
+    },
+    {
+      "id": "med-b2-w1-q29",
+      "type": "multiple-choice",
+      "question": "Which specialty deals with the female reproductive system?",
+      "options": ["Urology", "Gynecology", "Hematology", "Radiology"],
+      "answer": "Gynecology",
+      "explanation": "Gynecology is the medical practice dealing with the health of the female reproductive system."
+    },
+    {
+      "id": "med-b2-w1-q30",
+      "type": "fill-in-the-blank",
+      "question": "Antibiotics ________ (kill) bacteria, not viruses.",
+      "answer": "kill",
+      "explanation": "General scientific fact."
+    },
+    {
+      "id": "med-b2-w1-q31",
+      "type": "multiple-choice",
+      "question": "Gastroenterology focuses on the:",
+      "options": ["Heart", "Digestive system", "Lungs", "Brain"],
+      "answer": "Digestive system",
+      "explanation": "Gastroenterologists treat the stomach, intestines, liver, etc."
+    },
+    {
+      "id": "med-b2-w1-q32",
+      "type": "fill-in-the-blank",
+      "question": "The surgeon ________ (scrub) in before every procedure.",
+      "answer": "scrubs",
+      "explanation": "Standard clinical routine."
+    },
+    {
+      "id": "med-b2-w1-q33",
+      "type": "multiple-choice",
+      "question": "Ophthalmology is the study of:",
+      "options": ["The ears", "The eyes", "The throat", "The nose"],
+      "answer": "The eyes",
+      "explanation": "Ophthalmologists are specialists in medical and surgical eye care."
+    },
+    {
+      "id": "med-b2-w1-q34",
+      "type": "fill-in-the-blank",
+      "question": "Why ________ nurses wear scrubs?",
+      "answer": "do",
+      "explanation": "Interrogative auxiliary for a plural subject."
+    },
+    {
+      "id": "med-b2-w1-q35",
+      "type": "multiple-choice",
+      "question": "Hematology is the study of:",
+      "options": ["Hormones", "Heart", "Blood", "Hearing"],
+      "answer": "Blood",
+      "explanation": "Hematologists treat blood disorders and diseases."
+    },
+    {
+      "id": "med-b2-w1-q36",
+      "type": "fill-in-the-blank",
+      "question": "The patient ________ (suffer) from chronic back pain.",
+      "answer": "suffers",
+      "explanation": "Current status/general fact about the patient."
+    },
+    {
+      "id": "med-b2-w1-q37",
+      "type": "multiple-choice",
+      "question": "Radiology involves the use of ________ for diagnosis.",
+      "options": ["Microscopes", "Imaging (X-rays, MRI)", "Stethoscopes", "Scalpels"],
+      "answer": "Imaging (X-rays, MRI)",
+      "explanation": "Radiologists interpret medical images to diagnose conditions."
+    },
+    {
+      "id": "med-b2-w1-q38",
+      "type": "fill-in-the-blank",
+      "question": "The body ________ (use) glucose for energy.",
+      "answer": "uses",
+      "explanation": "Biological fact."
+    },
+    {
+      "id": "med-b2-w1-q39",
+      "type": "multiple-choice",
+      "question": "Urology deals with the urinary tract and the male ________ system.",
+      "options": ["Digestive", "Reproductive", "Nervous", "Respiratory"],
+      "answer": "Reproductive",
+      "explanation": "Urologists treat both the urinary tract and male reproductive organs."
+    },
+    {
+      "id": "med-b2-w1-q40",
+      "type": "fill-in-the-blank",
+      "question": "Doctors ________ (take) the Hippocratic Oath.",
+      "answer": "take",
+      "explanation": "General professional fact."
+    },
+    {
+      "id": "med-b2-w1-q41",
+      "type": "multiple-choice",
+      "question": "A 'general practitioner' (GP) is a doctor who:",
+      "options": ["Only performs surgery", "Treats acute and chronic illnesses and provides preventive care", "Only treats children", "Only works in radiology"],
+      "answer": "Treats acute and chronic illnesses and provides preventive care",
+      "explanation": "GPs provide primary care and are usually the first point of contact."
+    },
+    {
+      "id": "med-b2-w1-q42",
+      "type": "fill-in-the-blank",
+      "question": "The nurse ________ (record) the patient's vital signs.",
+      "answer": "records",
+      "explanation": "Regular clinical routine."
+    },
+    {
+      "id": "med-b2-w1-q43",
+      "type": "multiple-choice",
+      "question": "Which specialty focuses on the respiratory system?",
+      "options": ["Cardiology", "Pulmonology", "Neurology", "Hematology"],
+      "answer": "Pulmonology",
+      "explanation": "Pulmonologists treat diseases of the lungs and respiratory tract."
+    },
+    {
+      "id": "med-b2-w1-q44",
+      "type": "fill-in-the-blank",
+      "question": "Does he ________ (smoke) or drink alcohol?",
+      "answer": "smoke",
+      "explanation": "Interrogative form for habits/routines."
+    },
+    {
+      "id": "med-b2-w1-q45",
+      "type": "multiple-choice",
+      "question": "Nephrology is the study of:",
+      "options": ["The brain", "The kidneys", "The liver", "The lungs"],
+      "answer": "The kidneys",
+      "explanation": "Nephrologists specialize in kidney care and treating kidney diseases."
+    },
+    {
+      "id": "med-b2-w1-q46",
+      "type": "fill-in-the-blank",
+      "question": "The kidneys ________ (filter) waste from the blood.",
+      "answer": "filter",
+      "explanation": "Biological fact with plural subject."
+    },
+    {
+      "id": "med-b2-w1-q47",
+      "type": "multiple-choice",
+      "question": "What does an anesthesiologist do?",
+      "options": ["Performs surgery", "Administers drugs to prevent pain during surgery", "Treats skin conditions", "Diagnoses heart disease"],
+      "answer": "Administers drugs to prevent pain during surgery",
+      "explanation": "Anesthesiologists focus on pain management and sedation."
+    },
+    {
+      "id": "med-b2-w1-q48",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (use) a stethoscope to listen to the heart.",
+      "answer": "use",
+      "explanation": "General professional routine."
+    },
+    {
+      "id": "med-b2-w1-q49",
+      "type": "multiple-choice",
+      "question": "Which specialty deals with the immune system and allergies?",
+      "options": ["Hematology", "Immunology", "Neurology", "Oncology"],
+      "answer": "Immunology",
+      "explanation": "Immunologists treat disorders of the immune system, including allergies."
+    },
+    {
+      "id": "med-b2-w1-q50",
+      "type": "fill-in-the-blank",
+      "question": "The liver ________ (process) nutrients from the blood.",
+      "answer": "processes",
+      "explanation": "Biological fact (third-person singular)."
+    }
+  ]
+}
