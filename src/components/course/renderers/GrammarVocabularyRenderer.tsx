@@ -76,11 +76,11 @@ export default function GrammarVocabularyRenderer({
                 </div>
               )}
 
-              {exercise.type === 'vocabulary' && (exercise as VocabularyExercise).vocabularySet && (
+              {exercise.type === 'vocabulary' && ((exercise as VocabularyExercise).vocabularySet || (exercise as VocabularyExercise).words) && (
                 <div className="bg-indigo-900 dark:bg-indigo-950 rounded-2xl p-6 text-white shadow-lg">
                   <p className="font-black text-indigo-300 text-xs uppercase tracking-widest mb-4">Essential Vocabulary</p>
                   <div className="space-y-4 max-h-[300px] overflow-y-auto pr-2 custom-scrollbar">
-                    {(exercise as VocabularyExercise).vocabularySet.map((v, idx) => (
+                    {((exercise as VocabularyExercise).vocabularySet || (exercise as VocabularyExercise).words)!.map((v, idx) => (
                       <div key={idx} className="border-b border-indigo-800 pb-3 last:border-0 last:pb-0">
                         <p className="font-black text-white">{v.word}</p>
                         <p className="text-indigo-200 text-sm italic">{v.definition}</p>

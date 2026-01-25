@@ -4,14 +4,14 @@ import { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabase-client';
 import { awardXP, calculateLevel, XP_REWARDS } from '@/lib/gamification/xp';
 import { checkAndAwardBadges } from '@/lib/gamification/badges';
-import { type Badge } from '@/lib/gamification/types';
+import { type Badge, type EarnedBadge } from '@/lib/gamification/types';
 import { updateStreak, type StreakData } from '@/lib/gamification/streaks';
 
 export interface UserGamificationData {
   xp: number;
   level: number;
   xpToNextLevel: number;
-  badges: Badge[];
+  badges: EarnedBadge[];
   streak: StreakData;
   isLoading: boolean;
 }
@@ -197,6 +197,23 @@ export function useGamification() {
     }
   };
 
+  const completeMission = async (missionId: string, score: number) => {
+    try {
+      await recordActivity();
+
+      const baseXP = XP_REWARDS['ai-mission'] || 150;
+      const xpAmount = Math.floor((score / 100) * baseXP);
+      
+      await addXP(xpAmount, 'ai-mission', missionId, 
+        `Misión AI: ${missionId} completada con ${score}/100 puntos`);
+
+      const newBadges = await checkBadges();
+      return { newBadges };
+    } catch (error) {
+      console.error('Error completing mission:', error);
+    }
+  };
+
   return {
     ...data,
     addXP,
@@ -204,6 +221,7 @@ export function useGamification() {
     recordActivity,
     completeExercise,
     completeLesson,
+    completeMission,
     refresh: loadGamificationData,
   };
 }

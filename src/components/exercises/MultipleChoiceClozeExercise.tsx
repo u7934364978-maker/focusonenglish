@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -83,7 +83,7 @@ export default function MultipleChoiceClozeExercise({ exercise, onComplete }: Mu
   // Render text with gaps
   const renderTextWithGaps = () => {
     let text = exercise.text;
-    const parts: JSX.Element[] = [];
+    const parts: React.JSX.Element[] = [];
     let lastIndex = 0;
     let partKey = 0;
 

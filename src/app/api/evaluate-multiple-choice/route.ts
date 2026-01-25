@@ -21,6 +21,7 @@ export interface MultipleChoiceEvaluationRequest {
 
 export interface MultipleChoiceEvaluationResponse {
   isCorrect: boolean;
+  score: number;
   confidence: number; // 0-100, how confident we are in the evaluation
   userAnswerIndex: number; // Which option index did user select
   correctAnswerIndex: number; // Which option index is correct
@@ -86,6 +87,7 @@ export async function POST(request: NextRequest) {
     if (normalizedUserAnswer === normalizedCorrectAnswer) {
       return NextResponse.json<MultipleChoiceEvaluationResponse>({
         isCorrect: true,
+        score: 100,
         confidence: 100,
         userAnswerIndex,
         correctAnswerIndex,
@@ -168,6 +170,7 @@ Responde en JSON:
       if (aiResponse.isTypo) {
         return NextResponse.json<MultipleChoiceEvaluationResponse>({
           isCorrect: true, // Give credit despite typo
+          score: 100,
           confidence: 95,
           userAnswerIndex,
           correctAnswerIndex,
@@ -214,6 +217,7 @@ Proporciona retroalimentación educativa en JSON (en español):
 
     return NextResponse.json<MultipleChoiceEvaluationResponse>({
       isCorrect: false,
+      score: 0,
       confidence: 100,
       userAnswerIndex,
       correctAnswerIndex,
@@ -232,6 +236,7 @@ Proporciona retroalimentación educativa en JSON (en español):
     
     return NextResponse.json<MultipleChoiceEvaluationResponse>({
       isCorrect,
+      score: isCorrect ? 100 : 0,
       confidence: 90,
       userAnswerIndex: -1,
       correctAnswerIndex: -1,

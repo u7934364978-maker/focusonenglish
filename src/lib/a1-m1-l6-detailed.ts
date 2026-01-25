@@ -2,7 +2,7 @@
 // This lesson reviews all topics from Module 1
 // CEFR Level: A1
 
-import { Exercise } from './course-data';
+import { Exercise } from './exercise-types';
 
 // GRAMMAR EXERCISE 1: Module 1 Review - Verb "to be", pronouns, questions
 const A1_M1_L6_GRAMMAR_1: Exercise = {

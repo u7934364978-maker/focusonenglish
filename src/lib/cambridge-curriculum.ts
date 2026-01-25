@@ -2,12 +2,13 @@
 // CAMBRIDGE CURRICULUM DATA - CEFR ALIGNED
 // ============================================
 
-export { type CEFRLevel } from './exercise-types';
+import { type CEFRLevel, type ExerciseCategory } from './exercise-types';
+export { type CEFRLevel, type ExerciseCategory };
 
 export interface CurriculumTopic {
   id: string;
   name: string;
-  category: 'grammar' | 'vocabulary' | 'reading' | 'writing' | 'listening' | 'speaking' | 'pronunciation' | 'dictation' | 'roleplay' | 'exam-practice';
+  category: ExerciseCategory;
   description: string;
   keywords: string[];
 }

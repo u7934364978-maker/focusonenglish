@@ -47,11 +47,7 @@ import type {
   GrammarExercise,
   VoiceRecordingExercise,
   VocabularyExercise,
-  WordFormationExercise,
-  KeyWordTransformationExercise,
-  MultipleChoiceClozeExercise,
-  GappedTextExercise,
-  MultipleMatchingExercise
+  WordFormationExercise
 } from '@/lib/exercise-types';
 
 interface LessonViewerProps {
@@ -1509,7 +1505,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             onTimeUpdate={setAudioCurrentTime}
             onSeek={(time) => { if (audioRef.current) audioRef.current.currentTime = time; }}
             audioRef={audioRef}
-            nextExerciseAudioUrl={lesson.exercises[currentExerciseIndex + 1]?.audioUrl}
+            nextExerciseAudioUrl={(lesson.exercises[currentExerciseIndex + 1] as any)?.audioUrl}
           />
         );
 

@@ -375,8 +375,10 @@ export class ExerciseCache {
       
       // Si alcanzamos el límite, eliminar el más antiguo
       if (this.cache.size >= this.maxSize) {
-        const firstKey = this.cache.keys().next().value;
-        this.cache.delete(firstKey);
+        const next = this.cache.keys().next();
+        if (!next.done) {
+          this.cache.delete(next.value);
+        }
       }
 
       this.cache.set(cacheKey, exercise);
@@ -515,10 +517,5 @@ function validateReading(exercise: any): boolean {
 // Usar el generador de fallbacks unificado
 
 export function getFallbackExercise(request: GenerateExerciseRequest): GeneratedExercise {
-  return generateFallbackExercise(
-    request.exerciseType,
-    request.topic,
-    request.difficulty,
-    request.level
-  );
+  return generateFallbackExercise(request);
 }

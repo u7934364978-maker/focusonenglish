@@ -105,6 +105,9 @@ export async function updateUserProfile(
 
 export async function createUserProfile(profile: UserProfile): Promise<{ success: boolean; error?: string }> {
   try {
+    if (!supabase) {
+      return { success: false, error: 'Supabase client not initialized' };
+    }
     const { error } = await supabase
       .from('user_profiles')
       .insert([{
@@ -162,6 +165,9 @@ export async function updateUserProgress(
   updates: Partial<UserProgress>
 ): Promise<{ success: boolean; error?: string }> {
   try {
+    if (!supabase) {
+      return { success: false, error: 'Supabase client not initialized' };
+    }
     const { error } = await supabase
       .from('user_progress')
       .update(updates)
@@ -215,6 +221,9 @@ export async function saveLessonProgress(
   progress: Omit<LessonProgress, 'id'>
 ): Promise<{ success: boolean; error?: string }> {
   try {
+    if (!supabase) {
+      return { success: false, error: 'Supabase client not initialized' };
+    }
     const { error } = await supabase
       .from('lesson_progress')
       .insert([{

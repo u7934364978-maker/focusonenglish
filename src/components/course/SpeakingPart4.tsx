@@ -36,13 +36,13 @@ export default function SpeakingPart4({
   const currentQuestion = questions[currentQuestionIndex];
   const isLastQuestion = currentQuestionIndex === questions.length - 1;
 
-  const handleRecordingComplete = (data: { transcript: string; blob: Blob }) => {
+  const handleRecordingComplete = (blob: Blob, transcript: string) => {
     const newRecordings = [
       ...recordings,
       {
         questionId: currentQuestion.id,
-        transcript: data.transcript,
-        blob: data.blob
+        transcript: transcript,
+        blob: blob
       }
     ];
     

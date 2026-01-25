@@ -81,19 +81,23 @@ export default function ReadingRenderer({
               <BookOpen className="w-3.5 h-3.5" />
               <span>{exercise.title}</span>
             </div>
-            <div className="flex items-center gap-2 px-3 py-1.5 bg-slate-50 dark:bg-slate-700/50 text-slate-600 dark:text-slate-400 rounded-full text-xs font-bold">
-              <Clock className="w-3.5 h-3.5" />
-              <span>{exercise.readingTime} min read</span>
-            </div>
-            <div className="flex items-center gap-2 px-3 py-1.5 bg-slate-50 dark:bg-slate-700/50 text-slate-600 dark:text-slate-400 rounded-full text-xs font-bold">
-              <BarChart className="w-3.5 h-3.5" />
-              <span>{exercise.wordCount} words</span>
-            </div>
+            {exercise.readingTime && (
+              <div className="flex items-center gap-2 px-3 py-1.5 bg-slate-50 dark:bg-slate-700/50 text-slate-600 dark:text-slate-400 rounded-full text-xs font-bold">
+                <Clock className="w-3.5 h-3.5" />
+                <span>{exercise.readingTime} min read</span>
+              </div>
+            )}
+            {exercise.wordCount && (
+              <div className="flex items-center gap-2 px-3 py-1.5 bg-slate-50 dark:bg-slate-700/50 text-slate-600 dark:text-slate-400 rounded-full text-xs font-bold">
+                <BarChart className="w-3.5 h-3.5" />
+                <span>{exercise.wordCount} words</span>
+              </div>
+            )}
           </div>
 
           <div className="prose prose-slate dark:prose-invert max-w-none">
             <div className="text-slate-700 dark:text-slate-300 text-lg leading-relaxed whitespace-pre-line font-serif lg:max-h-[calc(100vh-18rem)] overflow-y-auto pr-4 custom-scrollbar">
-              {renderTextWithTooltips(exercise.text)}
+              {renderTextWithTooltips(exercise.text || exercise.readingText || '')}
             </div>
           </div>
 

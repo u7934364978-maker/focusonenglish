@@ -2,7 +2,7 @@
 // This lesson focuses on jobs, professions, and Present Simple questions
 // CEFR Level: A1
 
-import { Exercise } from './course-data';
+import { Exercise } from './exercise-types';
 
 // GRAMMAR EXERCISE 1: Present Simple Questions
 const A1_M2_L2_GRAMMAR_1: Exercise = {
@@ -675,23 +675,6 @@ const A1_M2_L2_VOCABULARY_2: Exercise = {
     }
   ]
 };
-
-// Export all exercises for Lesson 2
-export const A1_M2_L2_ALL_EXERCISES = [
-  A1_M2_L2_GRAMMAR_1,
-  A1_M2_L2_GRAMMAR_2,
-  A1_M2_L2_READING,
-  A1_M2_L2_LISTENING,
-  A1_M2_L2_SPEAKING,
-  A1_M2_L2_WRITING,
-  A1_M2_L2_PRONUNCIATION,
-  A1_M2_L2_VOCABULARY_1,
-  A1_M2_L2_VOCABULARY_2,
-  A1_M2_L2_SENTENCE_COMPLETION,
-  A1_M2_L2_ERROR_IDENTIFICATION,
-  A1_M2_L2_GAP_FILL,
-  A1_M2_L2_COLLOCATION_MATCHING
-];
 
 // ============================================
 // SENTENCE COMPLETION EXERCISE
@@ -1413,3 +1396,20 @@ export const A1_M2_L2_COLLOCATION_MATCHING = {
   ]
 };
 
+
+// Export all exercises for Lesson 2
+export const A1_M2_L2_ALL_EXERCISES = [
+  A1_M2_L2_GRAMMAR_1,
+  A1_M2_L2_GRAMMAR_2,
+  A1_M2_L2_READING,
+  A1_M2_L2_LISTENING,
+  A1_M2_L2_SPEAKING,
+  A1_M2_L2_WRITING,
+  A1_M2_L2_PRONUNCIATION,
+  A1_M2_L2_VOCABULARY_1,
+  A1_M2_L2_VOCABULARY_2,
+  A1_M2_L2_SENTENCE_COMPLETION,
+  A1_M2_L2_ERROR_IDENTIFICATION,
+  A1_M2_L2_GAP_FILL,
+  A1_M2_L2_COLLOCATION_MATCHING
+];

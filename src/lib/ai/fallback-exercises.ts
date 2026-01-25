@@ -3,7 +3,7 @@
 // ============================================
 // Ejercicios de ejemplo para usar cuando la API de OpenAI no está disponible
 
-import { GeneratedExercise, ExerciseType, DifficultyLevel, CEFRLevel, GenerateExerciseRequest } from '@/lib/exercise-types';
+import { GeneratedExercise, ExerciseType, ExerciseCategory, DifficultyLevel, CEFRLevel, GenerateExerciseRequest } from '@/lib/exercise-types';
 
 /**
  * Ejercicios de ejemplo por tipo y nivel (Biblioteca ampliada para evitar repeticiones)
@@ -371,7 +371,7 @@ function generateFallbackId(): string {
 /**
  * Ejercicios de ejemplo por tipo
  */
-const FALLBACK_EXERCISES: Record<ExerciseType, any> = {
+const FALLBACK_EXERCISES: Partial<Record<ExerciseType, any>> = {
   'multiple-choice': {
     title: 'Mixed Conditionals Practice',
     instructions: 'Choose the correct answer to complete each conditional sentence.',
@@ -793,8 +793,8 @@ export function generateFallbackExercise(request: GenerateExerciseRequest): Gene
 /**
  * Determina la categoría basada en el tipo
  */
-function getCategory(type: ExerciseType): string {
-  const categoryMap: Record<ExerciseType, string> = {
+function getCategory(type: ExerciseType): ExerciseCategory {
+  const categoryMap: Partial<Record<ExerciseType, ExerciseCategory>> = {
     'multiple-choice': 'grammar',
     'fill-blank': 'grammar',
     'true-false': 'grammar',
@@ -806,7 +806,8 @@ function getCategory(type: ExerciseType): string {
     'listening-comprehension': 'listening',
     'speaking-analysis': 'speaking',
     'writing-analysis': 'writing',
-    'pronunciation-practice': 'pronunciation'
+    'pronunciation-practice': 'pronunciation',
+    'ai-mission': 'ai-lab'
   };
   
   return categoryMap[type] || 'exam-practice';

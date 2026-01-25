@@ -4,7 +4,7 @@ import { Page, expect } from '@playwright/test';
  * Helper class for navigating the application and interacting with B2 course
  */
 export class B2CourseHelper {
-  constructor(private page: Page) {}
+  constructor(protected page: Page) {}
 
   /**
    * Navigate to the homepage

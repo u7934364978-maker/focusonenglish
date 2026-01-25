@@ -200,6 +200,7 @@ export async function generateExerciseV2(request: GenerateExerciseRequest): Prom
       level: level as any,
       content: content,
       createdAt: new Date(),
+      estimatedTime: 5,
     };
   } catch (error: any) {
     console.error("[IA V2] Error en OpenAI, usando fallback:", error.message);

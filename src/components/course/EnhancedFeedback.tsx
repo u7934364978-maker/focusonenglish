@@ -1,9 +1,11 @@
 'use client';
 
 import React from 'react';
-import { TextAnswerEvaluationResponse } from '@/app/api/evaluate-text-answer/route';
-import { WritingEvaluationResponse } from '@/app/api/evaluate-writing/route';
-import { MultipleChoiceEvaluationResponse } from '@/app/api/evaluate-multiple-choice/route';
+import { 
+  TextAnswerEvaluationResponse, 
+  WritingEvaluationResponse, 
+  MultipleChoiceEvaluationResponse 
+} from '@/lib/exercise-types';
 
 interface EnhancedFeedbackProps {
   type: 'text' | 'writing' | 'multiple-choice';

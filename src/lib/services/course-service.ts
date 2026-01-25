@@ -16,7 +16,7 @@ const ExerciseSchema = z.object({
   id: z.string(),
   type: z.string(),
   title: z.string(),
-  content: z.record(z.any()),
+  content: z.record(z.string(), z.any()),
 });
 
 const LessonSchema = z.object({
@@ -170,7 +170,7 @@ export const courseService = {
       return null;
     }
 
-    return {
+    const result = {
       id: lessonData.id,
       title: lessonData.title,
       description: lessonData.description,
@@ -217,7 +217,7 @@ export const courseService = {
       return [];
     }
 
-    return (lessonsRaw || []).map((lRaw: any) => {
+    const result = (lessonsRaw || []).map((lRaw: any) => {
       const lParsed = LessonSchema.safeParse(lRaw);
       if (!lParsed.success) return null;
       return {

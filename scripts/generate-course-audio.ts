@@ -15,6 +15,7 @@ import {
   getUsageInfo,
 } from '../src/lib/text-to-speech';
 import { ALL_MODULES } from '../src/lib/course-data-b2';
+import type { Module, Lesson, Exercise } from '../src/lib/exercise-types';
 import * as path from 'path';
 
 // Mapeo de tipos de ejercicio a tipos de voz
@@ -42,9 +43,9 @@ function collectAudiosToGenerate(): AudioToGenerate[] {
   const audios: AudioToGenerate[] = [];
 
   // Iterar por todos los módulos y lecciones
-  ALL_MODULES.forEach((module) => {
-    module.lessons.forEach((lesson) => {
-      lesson.exercises.forEach((exercise) => {
+  (ALL_MODULES as any[]).forEach((module: Module) => {
+    module.lessons.forEach((lesson: Lesson) => {
+      lesson.exercises.forEach((exercise: Exercise) => {
         // LISTENING EXERCISES
         if (exercise.type === 'listening' && 'audioUrl' in exercise) {
           const listeningEx = exercise as any;

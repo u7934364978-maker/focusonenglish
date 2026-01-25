@@ -38,12 +38,13 @@ export default function SpeakingPart3({
   const [phase1Recording, setPhase1Recording] = useState<{ transcript: string; blob: Blob } | null>(null);
   const [phase2Recording, setPhase2Recording] = useState<{ transcript: string; blob: Blob } | null>(null);
 
-  const handlePhase1Complete = (data: { transcript: string; blob: Blob }) => {
-    setPhase1Recording(data);
+  const handlePhase1Complete = (blob: Blob, transcript: string) => {
+    setPhase1Recording({ blob, transcript });
     setCurrentPhase('phase2');
   };
 
-  const handlePhase2Complete = (data: { transcript: string; blob: Blob }) => {
+  const handlePhase2Complete = (blob: Blob, transcript: string) => {
+    const data = { blob, transcript };
     setPhase2Recording(data);
     setCurrentPhase('completed');
     

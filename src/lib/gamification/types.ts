@@ -83,7 +83,8 @@ export type XPSource =
   | 'badge-unlock'
   | 'practice-session'
   | 'quiz-completion'
-  | 'daily-goal';
+  | 'daily-goal'
+  | 'ai-mission';
 
 /**
  * Leaderboard System
@@ -104,6 +105,17 @@ export interface Leaderboard {
   period: 'daily' | 'weekly' | 'monthly' | 'all-time';
   entries: LeaderboardEntry[];
   updatedAt: Date;
+}
+
+/**
+ * Earned Badge (from database)
+ */
+export interface EarnedBadge {
+  id: string;
+  user_id: string;
+  badge_id: string;
+  earned_at: string;
+  progress: number;
 }
 
 /**

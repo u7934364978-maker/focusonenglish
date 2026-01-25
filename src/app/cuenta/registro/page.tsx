@@ -113,7 +113,7 @@ export default function SignupPage() {
         window.location.href = url;
       } else {
         const stripe = await stripePromise;
-        const result = await stripe!.redirectToCheckout({ sessionId });
+        const result = await (stripe as any).redirectToCheckout({ sessionId });
         
         if (result.error) {
           throw new Error(result.error.message);

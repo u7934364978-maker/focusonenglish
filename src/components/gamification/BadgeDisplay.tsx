@@ -2,13 +2,14 @@
 
 import { motion } from 'framer-motion';
 import { Trophy, Star, Award, Zap, Target, Crown } from 'lucide-react';
-import { BADGE_DEFINITIONS, type Badge } from '@/lib/gamification/badges';
+import { BADGE_DEFINITIONS } from '@/lib/gamification/badges';
+import { type Badge as GamificationBadge, type EarnedBadge } from '@/lib/gamification/types';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
 import { Badge as UIBadge } from '@/components/ui/badge';
 
 interface BadgeDisplayProps {
-  badges: Badge[];
+  badges: EarnedBadge[];
   showProgress?: boolean;
 }
 
@@ -84,11 +85,11 @@ export function BadgeDisplay({ badges, showProgress = true }: BadgeDisplayProps)
                     </p>
                   )}
 
-                  {!isEarned && showProgress && requirement > 1 && (
+                  {!isEarned && showProgress && requirement.target > 1 && (
                     <div className="w-full space-y-1">
-                      <Progress value={(progress / requirement) * 100} />
+                      <Progress value={(progress / requirement.target) * 100} />
                       <p className="text-xs text-center text-gray-600">
-                        {progress}/{requirement}
+                        {progress}/{requirement.target}
                       </p>
                     </div>
                   )}
@@ -103,7 +104,7 @@ export function BadgeDisplay({ badges, showProgress = true }: BadgeDisplayProps)
 }
 
 interface BadgeNotificationProps {
-  badge: Badge;
+  badge: EarnedBadge;
   onClose: () => void;
 }
 

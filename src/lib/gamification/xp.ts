@@ -13,7 +13,8 @@ export const XP_REWARDS: Record<XPSource, number> = {
   'badge-unlock': 0, // Variable, depende del badge
   'practice-session': 20,
   'quiz-completion': 30,
-  'daily-goal': 50
+  'daily-goal': 50,
+  'ai-mission': 150
 };
 
 /**

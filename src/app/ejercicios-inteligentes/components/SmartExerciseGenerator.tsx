@@ -520,6 +520,7 @@ export default function SmartExerciseGenerator({
       roleplay: 'roleplay',
       pronunciation: 'pronunciation-practice',
       'exam-practice': 'multiple-choice',
+      'ai-lab': 'ai-mission',
     };
     return typeMap[category] || 'multiple-choice';
   };

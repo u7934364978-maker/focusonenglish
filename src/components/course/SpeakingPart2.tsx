@@ -34,9 +34,9 @@ export default function SpeakingPart2({
   const [showInstructions, setShowInstructions] = useState(true);
   const [hasCompleted, setHasCompleted] = useState(false);
 
-  const handleRecordingComplete = (data: { transcript: string; blob: Blob }) => {
+  const handleRecordingComplete = (blob: Blob, transcript: string) => {
     setHasCompleted(true);
-    onComplete(data);
+    onComplete({ blob, transcript });
   };
 
   if (showInstructions) {

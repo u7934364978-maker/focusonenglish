@@ -63,7 +63,7 @@ const projects: Project[] = [
     id: 'negotiation-simulation',
     title: 'Simulación de Negociación Internacional',
     description: 'Participa en una negociación comercial simulada con estudiantes de otros países',
-    difficulty: 'B2',
+    difficulty: 'B1-B2',
     duration: '1-2 semanas',
     type: 'negotiation',
     skills: ['Business English', 'Negotiation', 'Cultural Awareness', 'Speaking'],

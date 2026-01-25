@@ -3,8 +3,7 @@
 import { useState, useEffect } from 'react';
 import { CheckCircle, XCircle, ArrowRight, Sparkles, Zap, Trophy, Loader2 } from 'lucide-react';
 import EnhancedFeedback from './course/EnhancedFeedback';
-import type { MultipleChoiceEvaluationResponse } from '@/app/api/evaluate-multiple-choice/route';
-import type { TextAnswerEvaluationResponse } from '@/app/api/evaluate-text-answer/route';
+import type { MultipleChoiceEvaluationResponse, TextAnswerEvaluationResponse } from '@/lib/exercise-types';
 
 interface Question {
   id: string;

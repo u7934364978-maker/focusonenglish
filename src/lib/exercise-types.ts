@@ -13,10 +13,12 @@ export type ExerciseCategory =
   | 'pronunciation'
   | 'dictation'
   | 'roleplay'
-  | 'exam-practice';
+  | 'exam-practice'
+  | 'ai-lab';
 
 export type ExerciseType = 
   | 'multiple-choice'
+  | 'ai-mission'
   | 'fill-blank'
   | 'true-false'
   | 'key-word-transformation'
@@ -61,7 +63,8 @@ export type ExerciseType =
   | 'integrated-reading-writing'
   | 'key-word-transformations'
   | 'gapped-text'
-  | 'multiple-matching';
+  | 'multiple-matching'
+  | 'situational-discovery';
 
 export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
@@ -860,10 +863,344 @@ Format as JSON with a questions array.`,
       medium: 'Natural idiomatic language and standard grammar',
       hard: 'Highly idiomatic, subtle grammar points, and complex social context'
     }
+  },
+  {
+    id: 'ai-mission',
+    name: 'AI Mission',
+    nameES: 'Misión con IA',
+    category: 'ai-lab',
+    description: 'Immersive goal-oriented mission with AI interaction',
+    descriptionES: 'Misión inmersiva orientada a objetivos con interacción de IA',
+    icon: '🚀',
+    estimatedTime: 10,
+    aiPromptTemplate: `You are an AI Mission Master for an English learning platform.
+Topic: {{topic}}
+Level: {{level}}
+Difficulty: {{difficulty}}
+
+Generate a mission briefing in JSON format.
+The mission should have a clear goal (e.g., "Negotiate a 10% discount" or "Check in to a hospital").
+Include success criteria that the user must meet.
+
+Format as JSON:
+{
+  "missionId": "m1",
+  "title": "Mission Title",
+  "briefing": "Description of the mission and goal in Spanish",
+  "goal": "Specific goal in English",
+  "persona": {
+    "name": "AI Character Name",
+    "avatar": "Emoji",
+    "personality": "Personality description in English",
+    "accent": "US/UK/AU etc",
+    "role": "Role description"
+  },
+  "initialMessage": "First message from the AI character to start the conversation",
+  "successCriteria": [
+    "Criterion 1",
+    "Criterion 2"
+  ]
+}`,
+    supportedLevels: ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'],
+    difficultySettings: {
+      easy: 'Simple goals with clear instructions and helpful AI assistance',
+      medium: 'Moderate goals requiring natural language use and problem solving',
+      hard: 'Complex goals with challenging AI personas and high precision requirements'
+    }
   }
 ];
 
 import { B2_GRAMMAR, B2_TOPICS } from './b2-official-syllabus';
+
+// ============================================
+// AI MISSION DEFINITIONS
+// ============================================
+
+export interface AIMission {
+  id: string;
+  title: string;
+  briefing: string;
+  goal: string;
+  sector: 'tech' | 'marketing' | 'travel' | 'exams' | 'finance' | 'healthcare' | 'general';
+  level: CEFRLevel;
+  difficulty: DifficultyLevel;
+  persona: {
+    name: string;
+    avatar: string;
+    personality: string;
+    accent: string;
+    role: string;
+  };
+  initialMessage: string;
+  successCriteria: string[];
+}
+
+export const MISSION_CATALOG: AIMission[] = [
+  {
+    id: 'tech-agile-meeting',
+    title: 'Daily Stand-up Delay',
+    sector: 'tech',
+    level: 'B2',
+    difficulty: 'medium',
+    briefing: 'Debes explicar a tu equipo por qué el desarrollo de la nueva funcionalidad se ha retrasado y proponer una solución realista.',
+    goal: 'Explain the technical delay and propose a mitigation plan to the product owner.',
+    persona: {
+      name: 'Sarah',
+      avatar: '👩‍💻',
+      personality: 'Result-oriented, professional, but supportive.',
+      accent: 'US',
+      role: 'Senior Product Owner'
+    },
+    initialMessage: "Hi team! Let's start the stand-up. I noticed the 'Authentication Module' is still in progress. What happened there?",
+    successCriteria: [
+      "Explain the root cause of the delay",
+      "Propose a concrete solution or timeline",
+      "Maintain a professional tone"
+    ]
+  },
+  {
+    id: 'travel-refund',
+    title: 'The Cancelled Flight',
+    sector: 'travel',
+    level: 'B1',
+    difficulty: 'easy',
+    briefing: 'Tu vuelo a Londres ha sido cancelado. Debes hablar con el agente de la aerolínea para conseguir un reembolso o un vuelo alternativo hoy mismo.',
+    goal: 'Negotiate an alternative flight or a full refund with the airline agent.',
+    persona: {
+      name: 'Mark',
+      avatar: '👨‍✈️',
+      personality: 'Stressed, follows protocol strictly, but can be persuaded.',
+      accent: 'UK',
+      role: 'Airline Ground Agent'
+    },
+    initialMessage: "Next in line! Yes, how can I help you? As you know, all flights to London are currently grounded due to the weather.",
+    successCriteria: [
+      "Explain your situation clearly",
+      "Request a specific alternative or refund",
+      "Remain polite but firm"
+    ]
+  },
+  {
+    id: 'marketing-pitch',
+    title: 'The Viral Campaign Pitch',
+    sector: 'marketing',
+    level: 'C1',
+    difficulty: 'hard',
+    briefing: 'Tienes que convencer al Director de Marketing de que tu idea para la campaña de redes sociales es mejor que la de la agencia externa.',
+    goal: 'Persuade the CMO to adopt your social media strategy over the current one.',
+    persona: {
+      name: 'David',
+      avatar: '👨‍💼',
+      personality: 'Skeptical, values data over intuition, very busy.',
+      accent: 'AU',
+      role: 'Chief Marketing Officer'
+    },
+    initialMessage: "You have five minutes. Why should we spend another €50,000 on your 'influence' idea when our current agency has 20 years of experience?",
+    successCriteria: [
+      "Present data-backed arguments",
+      "Address the skepticism directly",
+      "Use advanced marketing vocabulary"
+    ]
+  },
+  {
+    id: 'finance-budget-cut',
+    title: 'The Quarterly Review',
+    sector: 'finance',
+    level: 'B2',
+    difficulty: 'hard',
+    briefing: 'Debes defender el presupuesto de tu departamento ante el CFO, quien quiere recortarlo un 20%.',
+    goal: 'Maintain at least 90% of your original budget by justifying your expenses.',
+    persona: {
+      name: 'Robert',
+      avatar: '💹',
+      personality: 'Cold, analytical, focused on the bottom line.',
+      accent: 'UK',
+      role: 'Chief Financial Officer'
+    },
+    initialMessage: "Looking at your department's projected spend for Q3, it's significantly higher than last year. I'm afraid we need to cut your budget by 20% effective immediately. What's your take on this?",
+    successCriteria: [
+      "Justify essential expenditures",
+      "Propose alternative minor cuts",
+      "Use financial terminology accurately"
+    ]
+  },
+  {
+    id: 'healthcare-emergency',
+    title: 'The ER Intake',
+    sector: 'healthcare',
+    level: 'A2',
+    difficulty: 'easy',
+    briefing: 'Has llegado a urgencias con un fuerte dolor abdominal. Debes explicar tus síntomas a la enfermera de triaje.',
+    goal: 'Clearly describe your symptoms and medical history to get admitted.',
+    persona: {
+      name: 'Nurse Elena',
+      avatar: '🏥',
+      personality: 'Efficient, calm, asking direct questions.',
+      accent: 'US',
+      role: 'Triage Nurse'
+    },
+    initialMessage: "Hello, I'm Elena. I see you're in some pain. Can you tell me exactly where it hurts and when it started?",
+    successCriteria: [
+      "Describe the location and intensity of the pain",
+      "Explain when the symptoms began",
+      "Follow basic medical instructions"
+    ]
+  },
+  {
+    id: 'general-job-interview',
+    title: 'The Dream Job',
+    sector: 'general',
+    level: 'B1',
+    difficulty: 'medium',
+    briefing: 'Estás en la entrevista final para el puesto de tus sueños. Debes demostrar por qué eres el candidato ideal.',
+    goal: 'Successfully answer behavioral questions and showcase your strengths.',
+    persona: {
+      name: 'Mr. Thompson',
+      avatar: '💼',
+      personality: 'Professional, observant, looks for soft skills.',
+      accent: 'US',
+      role: 'HR Manager'
+    },
+    initialMessage: "Welcome. We've seen your CV, and it's impressive. Tell me, what's been your biggest professional challenge so far and how did you handle it?",
+    successCriteria: [
+      "Use the STAR method for your answer",
+      "Highlight a relevant strength",
+      "Maintain professional etiquette"
+    ]
+  },
+  {
+    id: 'travel-hotel-complaint',
+    title: 'Room 404 Nightmare',
+    sector: 'travel',
+    level: 'B1',
+    difficulty: 'medium',
+    briefing: 'Tu habitación de hotel está sucia y el aire acondicionado no funciona. Debes conseguir un cambio de habitación o una compensación.',
+    goal: 'Convince the receptionist to move you to a better room without extra charge.',
+    persona: {
+      name: 'Sofia',
+      avatar: '🏨',
+      personality: 'Polite but dismissive, trying to avoid extra work.',
+      accent: 'ES',
+      role: 'Hotel Receptionist'
+    },
+    initialMessage: "Good evening! Is everything alright with your room? You look a bit upset.",
+    successCriteria: [
+      "List the specific problems with the room",
+      "Request a specific resolution (upgrade/change)",
+      "Express dissatisfaction politely"
+    ]
+  },
+  {
+    id: 'tech-code-review',
+    title: 'The Critical Bug',
+    sector: 'tech',
+    level: 'C1',
+    difficulty: 'hard',
+    briefing: 'Has encontrado un error crítico de seguridad en el código de un compañero Senior. Debes explicárselo sin ofenderle.',
+    goal: 'Convince the Senior Developer to rewrite the vulnerable function.',
+    persona: {
+      name: 'Alex',
+      avatar: '🛡️',
+      personality: 'Proud of their code, slightly defensive, but respects logic.',
+      accent: 'RU',
+      role: 'Senior Backend Developer'
+    },
+    initialMessage: "Hey, I saw you left some comments on my PR. That logic has been working for years, why do you want to change it now?",
+    successCriteria: [
+      "Explain the security vulnerability clearly",
+      "Propose a more secure alternative",
+      "Maintain a collaborative, non-confrontational tone"
+    ]
+  },
+  {
+    id: 'exams-ielts-speaking',
+    title: 'IELTS Part 3: Environment',
+    sector: 'exams',
+    level: 'B2',
+    difficulty: 'medium',
+    briefing: 'Estás en la Parte 3 del examen oral de IELTS. Debes discutir temas abstractos sobre el medio ambiente.',
+    goal: 'Provide long, well-structured answers using complex grammar.',
+    persona: {
+      name: 'Examiner James',
+      avatar: '📝',
+      personality: 'Formal, neutral, follows the script.',
+      accent: 'UK',
+      role: 'IELTS Examiner'
+    },
+    initialMessage: "Let's move on to Part 3. We've been talking about places you like. I'd like to discuss the environment. Do you think individuals can really make a difference in protecting the planet?",
+    successCriteria: [
+      "Use linkers to structure the response",
+      "Provide specific examples",
+      "Speculate about the future using conditionals"
+    ]
+  },
+  {
+    id: 'marketing-influencer-deal',
+    title: 'The Influencer Contract',
+    sector: 'marketing',
+    level: 'B2',
+    difficulty: 'medium',
+    briefing: 'Eres el manager de una marca y debes negociar el precio de una colaboración con un influencer famoso.',
+    goal: 'Close a deal for 3 posts at under $2,000 total.',
+    persona: {
+      name: 'Chloe',
+      avatar: '📸',
+      personality: 'High energy, knows her value, wants the best deal.',
+      accent: 'US',
+      role: 'Content Creator'
+    },
+    initialMessage: "Hey! I love your brand, but my standard rate is $1,500 per post. My engagement is at an all-time high right now. What can you offer?",
+    successCriteria: [
+      "Negotiate a bundle deal (multiple posts)",
+      "Justify a lower rate using ROI arguments",
+      "Set clear deliverables"
+    ]
+  },
+  {
+    id: 'general-flatmate-conflict',
+    title: 'The Messy Flatmate',
+    sector: 'general',
+    level: 'A2',
+    difficulty: 'easy',
+    briefing: 'Tu compañero de piso nunca limpia la cocina. Debes hablar con él para establecer reglas claras.',
+    goal: 'Agree on a cleaning schedule without damaging the friendship.',
+    persona: {
+      name: 'Jake',
+      avatar: '🍕',
+      personality: 'Relaxed, forgetful, hates conflict.',
+      accent: 'US',
+      role: 'Flatmate'
+    },
+    initialMessage: "Oh, hey! Sorry about the dishes, I was going to do them... eventually. Do you want to watch some TV?",
+    successCriteria: [
+      "Explain how the mess affects you",
+      "Propose a specific cleaning day or rule",
+      "Keep the conversation friendly"
+    ]
+  },
+  {
+    id: 'finance-loan-application',
+    title: 'Startup Funding',
+    sector: 'finance',
+    level: 'C1',
+    difficulty: 'hard',
+    briefing: 'Estás pidiendo un préstamo para tu nueva startup tecnológica. Debes convencer al director del banco.',
+    goal: 'Secure a $50,000 loan with a low interest rate.',
+    persona: {
+      name: 'Ms. Sterling',
+      avatar: '🏦',
+      personality: 'Conservative, risk-averse, looks for solid business plans.',
+      accent: 'UK',
+      role: 'Bank Manager'
+    },
+    initialMessage: "The tech sector is quite volatile lately. Why should the bank take a risk on your specific venture? Your collateral seems a bit low.",
+    successCriteria: [
+      "Explain the unique value proposition",
+      "Demonstrate a clear path to profitability",
+      "Negotiate terms professionally"
+    ]
+  }
+];
 
 // ================= ============================
 // TEMAS DE GRAMÁTICA B2 (Para generación)
@@ -909,6 +1246,7 @@ export interface GenerateExerciseRequest {
   level: CEFRLevel;
   count?: number; // Número de ejercicios a generar
   customPrompt?: string; // Prompt adicional del usuario
+  recentErrors?: any[];
 }
 
 export interface GeneratedExercise {
@@ -921,6 +1259,7 @@ export interface GeneratedExercise {
   content: any; // El contenido varía según el tipo
   createdAt: Date;
   estimatedTime: number;
+  isFallback?: boolean;
 }
 
 // ============================================
@@ -929,7 +1268,7 @@ export interface GeneratedExercise {
 
 export interface Question {
   id: string;
-  type: 'multiple-choice' | 'true-false' | 'fill-blank' | 'short-answer' | 'essay' | 'stress-identification' | 'minimal-pairs' | 'writing';
+  type: 'multiple-choice' | 'true-false' | 'fill-blank' | 'short-answer' | 'essay' | 'stress-identification' | 'minimal-pairs' | 'writing' | 'word-formation';
   question: string;
   options?: string[];
   correctAnswer: string | string[];
@@ -951,17 +1290,22 @@ export interface VoiceRecordingExercise {
   id: string;
   type: 'speaking' | 'pronunciation';
   title: string;
-  prompt: string;
+  instructions?: string;
+  prompt?: string;
+  prompts?: string[];
   expectedResponse?: string;
+  expectedLength?: number;
+  targetLevel?: string;
   targetText?: string;
   targetWords?: string[];
   timeLimit?: number;
-  evaluationCriteria: {
+  evaluationCriteria?: string[] | {
     pronunciation: boolean;
     fluency: boolean;
     grammar: boolean;
     vocabulary: boolean;
   };
+  questions?: any[];
   modelAudioUrl?: string;
   hints?: string[];
 }
@@ -1063,9 +1407,11 @@ export interface ReadingExercise {
   id: string;
   type: 'reading';
   title: string;
-  text: string;
-  wordCount: number;
-  readingTime: number;
+  text?: string;
+  readingText?: string;
+  instructions?: string;
+  wordCount?: number;
+  readingTime?: number;
   questions: Question[];
   vocabularyHelp?: { word: string; definition: string }[];
 }
@@ -1074,7 +1420,9 @@ export interface WritingExercise {
   id: string;
   type: 'writing';
   title: string;
+  instructions?: string;
   prompt: string;
+  targetLevel?: string;
   writingType?: 'essay' | 'article' | 'email' | 'review' | 'report' | 'description' | 'message' | 'letter' | 'story';
   minWords?: number;
   maxWords?: number;
@@ -1083,14 +1431,16 @@ export interface WritingExercise {
   rubric?: any;
   exampleResponse?: string;
   tips?: string[];
+  questions?: any[];
 }
 
 export interface GrammarExercise {
   id: string;
   type: 'grammar';
   title: string;
+  instructions?: string;
   grammarPoint?: string;
-  explanation: string;
+  explanation?: string;
   examples?: string[];
   questions: Question[];
 }
@@ -1099,8 +1449,10 @@ export interface VocabularyExercise {
   id: string;
   type: 'vocabulary';
   title: string;
+  instructions?: string;
   explanation?: string;
-  vocabularySet: { word: string; definition: string; example: string }[];
+  vocabularySet?: { word: string; definition: string; example: string }[];
+  words?: { word: string; definition: string; example: string }[];
   questions: Question[];
 }
 
@@ -1117,7 +1469,7 @@ export interface PronunciationPracticeExercise {
   targetSentences?: {
     sentence?: string;
     text?: string;
-    translation: string;
+    translation?: string;
     phonetic?: string;
     audioUrl?: string;
   }[];
@@ -1128,7 +1480,7 @@ export interface PronunciationPracticeExercise {
     audioUrl?: string;
     tips?: string;
   }[];
-  focusPoints: string[];
+  focusPoints?: string[];
   difficulty?: DifficultyLevel;
   timeLimit?: number;
   tips?: string[];
@@ -1189,8 +1541,10 @@ export interface KeyWordTransformationExercise {
   transformations: KeyWordTransformation[];
 }
 
-export interface WordFormation {
+export interface WordFormation extends Partial<Question> {
   id: string;
+  type: 'word-formation';
+  question: string;
   gapNumber?: number;
   baseWord: string;
   correctAnswer: string;
@@ -1561,19 +1915,23 @@ export interface TextAnswerEvaluationResponse {
 }
 
 export interface WritingEvaluationResponse {
-  overallScore: number;
-  isAcceptable: boolean;
+  overallScore: number; // 0-100
+  score: number; // Alias for overallScore
+  isAcceptable: boolean; // Meets minimum standards
   wordCount: number;
   wordCountFeedback: string;
+  
   scores: {
-    content: number;
-    organization: number;
-    grammar: number;
-    vocabulary: number;
-    taskAchievement: number;
+    content: number; // 0-100
+    organization: number; // 0-100
+    grammar: number; // 0-100
+    vocabulary: number; // 0-100
+    taskAchievement: number; // 0-100
   };
+  
   strengths: string[];
   weaknesses: string[];
+  
   detailedFeedback: {
     content: string;
     organization: string;
@@ -1581,15 +1939,34 @@ export interface WritingEvaluationResponse {
     vocabulary: string;
     taskAchievement: string;
   };
+  
   grammarErrors: Array<{
     sentence: string;
     error: string;
     correction: string;
     explanation: string;
-    category: string;
+    category: string; // e.g., "verb tense", "article", "preposition"
   }>;
-  bandScore?: number;
+  
+  vocabularyAnalysis: {
+    level: string; // "excellent", "good", "adequate", "basic"
+    sophisticatedWords: string[];
+    repetitiveWords: string[];
+    suggestions: string[];
+  };
+  
+  organizationAnalysis: {
+    hasIntroduction: boolean;
+    hasBody: boolean;
+    hasConclusion: boolean;
+    paragraphCount: number;
+    coherence: string; // "excellent", "good", "adequate", "poor"
+    cohesion: string; // "excellent", "good", "adequate", "poor"
+  };
+  
   recommendations: string[];
+  estimatedCEFRLevel: string;
+  bandScore?: number; // For IELTS-style scoring
   isCorrect: boolean;
   detailedExplanation?: string;
 }
@@ -1602,8 +1979,11 @@ export interface MultipleChoiceEvaluationResponse {
   feedback: string;
   explanation?: string;
   possibleTypo: boolean;
+  fuzzyMatchScore?: number;
+  didYouMean?: string;
   score: number;
   whyWrong?: string;
+  conceptTested?: string;
   detailedExplanation?: string;
 }
 

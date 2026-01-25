@@ -35,6 +35,7 @@ const CATEGORY_TO_EXERCISE_TYPES: Record<ExerciseCategory, ExerciseType[]> = {
   pronunciation: ['pronunciation-practice'],
   dictation: ['dictation'],
   roleplay: ['roleplay'],
+  'ai-lab': ['ai-mission'],
   'exam-practice': ['key-word-transformation', 'multiple-choice-cloze', 'word-formation', 'open-cloze', 'gapped-text', 'multiple-matching']
 };
 
@@ -54,7 +55,8 @@ const CATEGORY_WEIGHTS: Record<CEFRLevel, Record<ExerciseCategory, number>> = {
     pronunciation: 5,
     dictation: 0,
     roleplay: 0,
-    'exam-practice': 0
+    'exam-practice': 0,
+    'ai-lab': 0
   },
   A2: {
     grammar: 25,
@@ -66,7 +68,8 @@ const CATEGORY_WEIGHTS: Record<CEFRLevel, Record<ExerciseCategory, number>> = {
     pronunciation: 5,
     dictation: 5,
     roleplay: 0,
-    'exam-practice': 0
+    'exam-practice': 0,
+    'ai-lab': 0
   },
   B1: {
     grammar: 20,
@@ -78,7 +81,8 @@ const CATEGORY_WEIGHTS: Record<CEFRLevel, Record<ExerciseCategory, number>> = {
     pronunciation: 5,
     dictation: 5,
     roleplay: 5,
-    'exam-practice': 0
+    'exam-practice': 0,
+    'ai-lab': 5
   },
   B2: {
     grammar: 15,
@@ -90,7 +94,8 @@ const CATEGORY_WEIGHTS: Record<CEFRLevel, Record<ExerciseCategory, number>> = {
     pronunciation: 5,
     dictation: 5,
     roleplay: 5,
-    'exam-practice': 5
+    'exam-practice': 5,
+    'ai-lab': 10
   },
   C1: {
     grammar: 10,
@@ -102,7 +107,8 @@ const CATEGORY_WEIGHTS: Record<CEFRLevel, Record<ExerciseCategory, number>> = {
     pronunciation: 5,
     dictation: 5,
     roleplay: 5,
-    'exam-practice': 5
+    'exam-practice': 5,
+    'ai-lab': 10
   },
   C2: {
     grammar: 5,
@@ -114,7 +120,8 @@ const CATEGORY_WEIGHTS: Record<CEFRLevel, Record<ExerciseCategory, number>> = {
     pronunciation: 5,
     dictation: 10,
     roleplay: 5,
-    'exam-practice': 5
+    'exam-practice': 5,
+    'ai-lab': 10
   }
 };
 
@@ -325,7 +332,8 @@ export function describeExerciseSpec(spec: ExerciseSpec): string {
     'gapped-text': 'Texto con Huecos',
     'multiple-matching': 'Emparejamiento Múltiple',
     'dictation': 'Dictado',
-    'roleplay': 'Roleplay con IA'
+    'roleplay': 'Roleplay con IA',
+    'ai-mission': 'Misión de IA'
   };
   
   const categoryNames: Record<ExerciseCategory, string> = {
@@ -338,7 +346,8 @@ export function describeExerciseSpec(spec: ExerciseSpec): string {
     pronunciation: 'Pronunciación',
     dictation: 'Dictado',
     roleplay: 'Roleplay',
-    'exam-practice': 'Práctica de Examen'
+    'exam-practice': 'Práctica de Examen',
+    'ai-lab': 'AI Lab'
   };
   
   const typeName = typeNames[spec.type] || spec.type;

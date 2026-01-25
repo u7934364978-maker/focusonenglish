@@ -2,7 +2,7 @@
 // This lesson consolidates all topics from Module 1 with more challenging exercises
 // CEFR Level: A1
 
-import { Exercise } from './course-data';
+import { Exercise } from './exercise-types';
 
 // GRAMMAR EXERCISE 1: Mixed Module 1 Topics
 const A1_M1_L7_GRAMMAR_1: Exercise = {

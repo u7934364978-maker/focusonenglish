@@ -2,7 +2,7 @@
 // This lesson introduces Present Simple tense for daily routines
 // CEFR Level: A1
 
-import { Exercise } from './course-data';
+import { Exercise } from './exercise-types';
 
 // GRAMMAR EXERCISE 1: Present Simple - Formation
 const A1_M2_L1_GRAMMAR_1: Exercise = {
@@ -659,23 +659,6 @@ const A1_M2_L1_VOCABULARY_2: Exercise = {
     }
   ]
 };
-
-// Export all exercises for Lesson 1
-export const A1_M2_L1_ALL_EXERCISES = [
-  A1_M2_L1_GRAMMAR_1,
-  A1_M2_L1_GRAMMAR_2,
-  A1_M2_L1_READING,
-  A1_M2_L1_LISTENING,
-  A1_M2_L1_SPEAKING,
-  A1_M2_L1_WRITING,
-  A1_M2_L1_PRONUNCIATION,
-  A1_M2_L1_VOCABULARY_1,
-  A1_M2_L1_VOCABULARY_2,
-  A1_M2_L1_SENTENCE_COMPLETION,
-  A1_M2_L1_ERROR_IDENTIFICATION,
-  A1_M2_L1_GAP_FILL,
-  A1_M2_L1_SENTENCE_REORDERING
-];
 
 // ============================================
 // SENTENCE COMPLETION EXERCISE
@@ -1386,3 +1369,20 @@ export const A1_M2_L1_SENTENCE_REORDERING = {
   ]
 };
 
+
+// Export all exercises for Lesson 1
+export const A1_M2_L1_ALL_EXERCISES = [
+  A1_M2_L1_GRAMMAR_1,
+  A1_M2_L1_GRAMMAR_2,
+  A1_M2_L1_READING,
+  A1_M2_L1_LISTENING,
+  A1_M2_L1_SPEAKING,
+  A1_M2_L1_WRITING,
+  A1_M2_L1_PRONUNCIATION,
+  A1_M2_L1_VOCABULARY_1,
+  A1_M2_L1_VOCABULARY_2,
+  A1_M2_L1_SENTENCE_COMPLETION,
+  A1_M2_L1_ERROR_IDENTIFICATION,
+  A1_M2_L1_GAP_FILL,
+  A1_M2_L1_SENTENCE_REORDERING
+];

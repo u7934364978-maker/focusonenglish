@@ -7,8 +7,7 @@ import EnhancedFeedback from './course/EnhancedFeedback';
 import SpeakingExercise from './SpeakingExercise';
 import WordSearchExercise from './exercises/WordSearchExercise';
 import CrosswordExercise from './exercises/CrosswordExercise';
-import type { MultipleChoiceEvaluationResponse } from '@/app/api/evaluate-multiple-choice/route';
-import type { TextAnswerEvaluationResponse } from '@/app/api/evaluate-text-answer/route';
+import type { MultipleChoiceEvaluationResponse, TextAnswerEvaluationResponse } from '@/lib/exercise-types';
 
 interface ExerciseRendererProps {
   exercise: Exercise;
