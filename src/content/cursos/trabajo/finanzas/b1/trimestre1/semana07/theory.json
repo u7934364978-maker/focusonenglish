@@ -1,0 +1,20 @@
+{
+  "title": "Loans and Credit",
+  "sections": [
+    {
+      "id": "credit-basics",
+      "title": "Understanding Credit",
+      "content": "Credit allows you to borrow money or access goods or services with the understanding that you'll pay for them later.\n\n### Key Credit Terms\n- **Credit Score**: A number representing the creditworthiness of a person.\n- **Credit Limit**: The maximum amount of money a lender allows a consumer to spend on a single credit card or line of credit.\n- **Creditor**: The person or institution that lends money.\n- **Debtor**: The person or institution that owes money.\n- **Interest Rate**: The percentage of a loan amount charged by a lender to a borrower."
+    },
+    {
+      "id": "loan-types",
+      "title": "Types of Loans",
+      "content": "Loans are specific sums of money borrowed for a certain purpose.\n\n### Common Loans\n- **Mortgage**: A loan used to purchase a home or real estate.\n- **Personal Loan**: A loan for general personal use (travel, wedding, etc.).\n- **Auto Loan**: A loan used specifically to buy a vehicle.\n- **Installment**: One of several equal payments made over a period to pay off a loan.\n- **Collateral**: An asset (like a house or car) that a borrower offers to a lender as security for a loan."
+    },
+    {
+      "id": "grammar-adverbs-of-manner",
+      "title": "Grammar: Adverbs of Manner",
+      "content": "Adverbs of manner describe **how** something is done. They are very useful for describing financial behavior or professional actions.\n\n### Formation\nAdd **-ly** to an adjective:\n- Careful -> **Carefully** (*\"She reviewed the contract carefully.\"*)\n- Quick -> **Quickly** (*\"He paid the debt quickly.\"*)\n- Precise -> **Precisely** (*\"The figures were calculated precisely.\"*)\n\n### Irregular Adverbs\n- Good -> **Well** (*\"The company is doing well financially.\"*)\n- Fast -> **Fast** (*\"The market is moving fast.\"*)\n- Hard -> **Hard** (*\"They worked hard to get the loan approved.\"*)\n\n### Usage in Finance\n- *\"The customer explained the situation **clearly**.\"*\n- *\"We must handle this transaction **professionally**.\"*\n- *\"The interest rates increased **sharply**.\"*"
+    }
+  ]
+}

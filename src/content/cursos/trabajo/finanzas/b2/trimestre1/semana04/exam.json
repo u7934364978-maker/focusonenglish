@@ -1,0 +1,110 @@
+{
+  "title": "Week 4 Assessment: Financial Analysis & Month 1 Review",
+  "items": [
+    {
+      "id": "finance-b2-w4-e1",
+      "type": "multipleChoice",
+      "prompt": "Which ratio is calculated as Current Assets divided by Current Liabilities?",
+      "options": ["P/E Ratio", "Debt-to-Equity", "Current Ratio", "ROE"],
+      "answerIndex": 2
+    },
+    {
+      "id": "finance-b2-w4-e2",
+      "type": "multipleChoice",
+      "prompt": "What does a 'DCF' valuation primarily rely on?",
+      "options": ["Past stock prices", "Future discounted cash flows", "The company's logo value", "Current inventory levels"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w4-e3",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'The financial statements ___ (audit) by an external firm every year.'",
+      "options": ["are audited", "is audited", "audit", "was audited"],
+      "answerIndex": 0
+    },
+    {
+      "id": "finance-b2-w4-e4",
+      "type": "multipleChoice",
+      "prompt": "Review: What is 'Market Risk'?",
+      "options": ["Risk of borrower default", "Risk of loss due to price changes in the market", "Risk of employee fraud", "Risk of a fire in the market"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w4-e5",
+      "type": "multipleChoice",
+      "prompt": "What does 'ROE' measure?",
+      "options": ["Revenue On Expenses", "Return On Equity", "Rate Of Earnings", "Ratio Of Employees"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w4-e6",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Valor contable'",
+      "options": ["Market value", "Book value", "Price value", "Asset value"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w4-e7",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'If the P/E ratio ___ (be) too high, the stock ___ (be) overvalued.'",
+      "options": ["is / might be", "was / would be", "had been / would have been", "is / was"],
+      "answerIndex": 0
+    },
+    {
+      "id": "finance-b2-w4-e8",
+      "type": "multipleChoice",
+      "prompt": "Review: Which modal is for a recommendation? 'The bank ___ diversify its assets.'",
+      "options": ["must", "should", "can't", "mustn't"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w4-e9",
+      "type": "multipleChoice",
+      "prompt": "What is 'Enterprise Value'?",
+      "options": ["The price of the building", "Market Cap + Debt - Cash", "Total Assets + Liabilities", "Net Profit * 100"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w4-e10",
+      "type": "multipleChoice",
+      "prompt": "Review: What is 'Tax Evasion'?",
+      "options": ["Legal tax planning", "Illegal non-payment of taxes", "A tax on exports", "A type of bank loan"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w4-e11",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Flujo de caja'",
+      "options": ["Cash flow", "Money stream", "Bank flow", "Profit cash"],
+      "answerIndex": 0
+    },
+    {
+      "id": "finance-b2-w4-e12",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'If we ___ (not acquire) the rival last year, we ___ (not have) this market share today.'",
+      "options": ["don't acquire / won't have", "hadn't acquired / wouldn't have", "didn't acquire / wouldn't have had", "hadn't acquired / wouldn't have had"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w4-e13",
+      "type": "multipleChoice",
+      "prompt": "What is 'Sensitivity Analysis'?",
+      "options": ["Testing how variables impact a model", "Checking if employees are happy", "Auditing the marketing department", "Reducing the tax bill"],
+      "answerIndex": 0
+    },
+    {
+      "id": "finance-b2-w4-e14",
+      "type": "multipleChoice",
+      "prompt": "Review: What does a 'clean' audit opinion mean?",
+      "options": ["Qualified", "Unqualified", "Adverse", "Disclaimer"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w4-e15",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Quick Ratio' used for?",
+      "options": ["Valuing a stock", "Measuring immediate liquidity", "Calculating taxes", "Measuring employee speed"],
+      "answerIndex": 1
+    }
+  ]
+}

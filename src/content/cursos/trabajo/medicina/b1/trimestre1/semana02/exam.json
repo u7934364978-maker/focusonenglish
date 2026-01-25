@@ -1,0 +1,110 @@
+{
+  "title": "Week 2 Assessment: Symptoms and Vitals",
+  "items": [
+    {
+      "id": "medical-b1-w2-e1",
+      "type": "multipleChoice",
+      "prompt": "A patient describes a rhythmic pain that feels like their heartbeat. This is:",
+      "options": ["Sharp pain", "Throbbing pain", "Dull pain", "Burning pain"],
+      "answerIndex": 1
+    },
+    {
+      "id": "medical-b1-w2-e2",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a normal resting heart rate for an adult?",
+      "options": ["45 bpm", "75 bpm", "110 bpm", "150 bpm"],
+      "answerIndex": 1
+    },
+    {
+      "id": "medical-b1-w2-e3",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'The doctor ___ late for rounds.'",
+      "options": ["is rarely", "rarely is", "rarely be", "is rare"],
+      "answerIndex": 0
+    },
+    {
+      "id": "medical-b1-w2-e4",
+      "type": "multipleChoice",
+      "prompt": "What does 'hypotension' mean?",
+      "options": ["High blood pressure", "Low blood pressure", "High heart rate", "Low oxygen saturation"],
+      "answerIndex": 1
+    },
+    {
+      "id": "medical-b1-w2-e5",
+      "type": "multipleChoice",
+      "prompt": "A pain score of 9/10 indicates:",
+      "options": ["Mild pain", "Moderate pain", "Severe pain", "No pain"],
+      "answerIndex": 2
+    },
+    {
+      "id": "medical-b1-w2-e6",
+      "type": "multipleChoice",
+      "prompt": "Where is the 'radial pulse' measured?",
+      "options": ["Neck", "Ankle", "Wrist", "Chest"],
+      "answerIndex": 2
+    },
+    {
+      "id": "medical-b1-w2-e7",
+      "type": "multipleChoice",
+      "prompt": "Translate: '¿Con qué frecuencia tiene estos dolores?'",
+      "options": ["Where do you have these pains?", "How often do you have these pains?", "What is the frequency of your heart?", "Do you have these pains often?"],
+      "answerIndex": 1
+    },
+    {
+      "id": "medical-b1-w2-e8",
+      "type": "multipleChoice",
+      "prompt": "Which descriptor fits a sudden, intense pain like a knife?",
+      "options": ["Dull", "Sore", "Sharp", "Numb"],
+      "answerIndex": 2
+    },
+    {
+      "id": "medical-b1-w2-e9",
+      "type": "multipleChoice",
+      "prompt": "What is the unit of measurement for blood pressure?",
+      "options": ["bpm", "°C", "mmHg", "SpO2"],
+      "answerIndex": 2
+    },
+    {
+      "id": "medical-b1-w2-e10",
+      "type": "multipleChoice",
+      "prompt": "If a patient is 'afebrile', it means they:",
+      "options": ["Have a fever", "Do not have a fever", "Are in pain", "Are unconscious"],
+      "answerIndex": 1
+    },
+    {
+      "id": "medical-b1-w2-e11",
+      "type": "multipleChoice",
+      "prompt": "What is 'oxygen saturation'?",
+      "options": ["The amount of air in the lungs", "The percentage of oxygen in the blood", "The speed of breathing", "The pressure of the pulse"],
+      "answerIndex": 1
+    },
+    {
+      "id": "medical-b1-w2-e12",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'We ___ (sometimes / use) this monitor.'",
+      "options": ["sometimes use", "use sometimes", "sometimes uses", "are sometimes using"],
+      "answerIndex": 0
+    },
+    {
+      "id": "medical-b1-w2-e13",
+      "type": "multipleChoice",
+      "prompt": "A 'persistent' symptom is one that:",
+      "options": ["Goes away", "Is very strong", "Stays or keeps coming back", "Is very weak"],
+      "answerIndex": 2
+    },
+    {
+      "id": "medical-b1-w2-e14",
+      "type": "multipleChoice",
+      "prompt": "What is 'systolic' pressure?",
+      "options": ["Pressure when the heart beats", "Pressure when the heart rests", "The heart rate", "The respiratory rate"],
+      "answerIndex": 0
+    },
+    {
+      "id": "medical-b1-w2-e15",
+      "type": "multipleChoice",
+      "prompt": "Which descriptor is used for a painful throat?",
+      "options": ["Sharp", "Dull", "Sore", "Burning"],
+      "answerIndex": 2
+    }
+  ]
+}

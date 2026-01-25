@@ -1,0 +1,154 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana06",
+  "title": "Exam: Risk Management and Insurance",
+  "description": "15 questions evaluating knowledge of risk categories, insurance terms, and Modals of Deduction.",
+  "items": [
+    {
+      "id": "finance-b2-w6-exam-q1",
+      "type": "multiple_choice",
+      "question": "Which type of risk refers to the potential failure of internal systems and processes?",
+      "options": ["Credit Risk", "Operational Risk", "Systemic Risk", "Market Risk"],
+      "answer": "Operational Risk",
+      "explanation": "Operational risk is the prospect of loss resulting from inadequate or failed procedures."
+    },
+    {
+      "id": "finance-b2-w6-exam-q2",
+      "type": "fill_in_the_blank",
+      "question": "The analyst looks exhausted. He ________ (work) all night on the risk report.",
+      "answer": "must have been working",
+      "explanation": "Strong deduction about a continuous past action. (Also acceptable: 'must have worked')."
+    },
+    {
+      "id": "finance-b2-w6-exam-q3",
+      "type": "multiple_choice",
+      "question": "In insurance, the 'Premium' is:",
+      "options": [
+        "The amount paid out for a claim",
+        "The amount the insured pays for the policy",
+        "A type of bank account",
+        "The tax on a profit"
+      ],
+      "answer": "The amount the insured pays for the policy",
+      "explanation": "A premium is the periodic payment for insurance coverage."
+    },
+    {
+      "id": "finance-b2-w6-exam-q4",
+      "type": "multiple_choice",
+      "question": "Shifting risk to another party is known as risk:",
+      "options": ["Avoidance", "Retention", "Transfer", "Mitigation"],
+      "answer": "Transfer",
+      "explanation": "Risk transfer is often achieved through insurance or hedging."
+    },
+    {
+      "id": "finance-b2-w6-exam-q5",
+      "type": "fill_in_the_blank",
+      "question": "The firm didn't hedge their currency exposure. That ________ (be) the reason for their losses.",
+      "answer": "must be",
+      "explanation": "Present deduction based on known past facts."
+    },
+    {
+      "id": "finance-b2-w6-exam-q6",
+      "type": "multiple_choice",
+      "question": "What is a 'Deductible'?",
+      "options": [
+        "A discount on the premium",
+        "The out-of-pocket amount paid by the insured before the insurer pays",
+        "A tax-deductible expense",
+        "The maximum amount an insurance company will pay"
+      ],
+      "answer": "The out-of-pocket amount paid by the insured before the insurer pays",
+      "explanation": "Deductibles share the risk between the insurer and the policyholder."
+    },
+    {
+      "id": "finance-b2-w6-exam-q7",
+      "type": "multiple_choice",
+      "question": "Credit Risk is most relevant to:",
+      "options": ["Banks and lenders", "Marketing agencies", "Construction workers", "Designers"],
+      "answer": "Banks and lenders",
+      "explanation": "Lenders face the risk that borrowers will not repay loans."
+    },
+    {
+      "id": "finance-b2-w6-exam-q8",
+      "type": "fill_in_the_blank",
+      "question": "He ________ (know) about the data breach; he doesn't even have access to that system.",
+      "answer": "can't have known",
+      "explanation": "Strong negative deduction about the past."
+    },
+    {
+      "id": "finance-b2-w6-exam-q9",
+      "type": "multiple_choice",
+      "question": "Risk 'Mitigation' involves:",
+      "options": [
+        "Increasing the impact of a risk",
+        "Reducing the likelihood or impact of a risk",
+        "Ignoring a risk",
+        "Selling the company"
+      ],
+      "answer": "Reducing the likelihood or impact of a risk",
+      "explanation": "Mitigation makes a risk less severe."
+    },
+    {
+      "id": "finance-b2-w6-exam-q10",
+      "type": "fill_in_the_blank",
+      "question": "The regulatory changes ________ (affect) our profitability next year.",
+      "answer": "might affect",
+      "explanation": "Future possibility/deduction."
+    },
+    {
+      "id": "finance-b2-w6-exam-q11",
+      "type": "multiple_choice",
+      "question": "What is 'Force Majeure'?",
+      "options": [
+        "A legal term for 'Act of God'",
+        "A type of investment fund",
+        "A merger strategy",
+        "A financial audit"
+      ],
+      "answer": "A legal term for 'Act of God'",
+      "explanation": "Force majeure covers uncontrollable events like natural disasters."
+    },
+    {
+      "id": "finance-b2-w6-exam-q12",
+      "type": "multiple_choice",
+      "question": "Underwriting is the process of:",
+      "options": [
+        "Writing a book about finance",
+        "Evaluating and taking on risk for a fee",
+        "Paying off a loan early",
+        "Hiring new employees"
+      ],
+      "answer": "Evaluating and taking on risk for a fee",
+      "explanation": "Underwriting is core to insurance and investment banking."
+    },
+    {
+      "id": "finance-b2-w6-exam-q13",
+      "type": "fill_in_the_blank",
+      "question": "The company ________ (face) bankruptcy; their debt-to-equity ratio is terrifying.",
+      "answer": "must be facing",
+      "explanation": "Strong present continuous deduction."
+    },
+    {
+      "id": "finance-b2-w6-exam-q14",
+      "type": "multiple_choice",
+      "question": "What does D&O insurance protect?",
+      "options": [
+        "Dividends and Options",
+        "Directors and Officers",
+        "Debt and Output",
+        "Deliveries and Orders"
+      ],
+      "answer": "Directors and Officers",
+      "explanation": "D&O insurance covers personal liability of corporate leaders."
+    },
+    {
+      "id": "finance-b2-w6-exam-q15",
+      "type": "fill_in_the_blank",
+      "question": "They ________ (forgot) to hedge the commodity prices.",
+      "answer": "must have forgotten",
+      "explanation": "Strong deduction about a past omission."
+    }
+  ]
+}

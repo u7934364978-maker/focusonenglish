@@ -1,0 +1,20 @@
+{
+  "title": "Financial Analysis and Month 1 Review",
+  "sections": [
+    {
+      "id": "financial-ratios",
+      "title": "Financial Ratio Analysis",
+      "content": "Ratios are tools used to interpret financial statements and compare performance across companies or time periods.\n\n### Key Ratio Categories\n1. **Liquidity Ratios**: Measure the ability to pay short-term debts.\n   - *Current Ratio*: Current Assets / Current Liabilities.\n   - *Quick Ratio (Acid Test)*: (Current Assets - Inventory) / Current Liabilities.\n\n2. **Profitability Ratios**: Measure the efficiency in generating profit.\n   - *Return on Equity (ROE)*: Net Income / Shareholders' Equity.\n   - *Net Profit Margin*: Net Income / Revenue.\n\n3. **Leverage Ratios**: Measure the extent of debt usage.\n   - *Debt-to-Equity*: Total Liabilities / Total Equity.\n\n4. **Valuation Ratios**: Used by investors to determine if a stock is fairly priced.\n   - *P/E Ratio (Price-to-Earnings)*: Market Value per Share / Earnings per Share (EPS)."
+    },
+    {
+      "id": "valuation-methods",
+      "title": "Company Valuation Methods",
+      "content": "Valuation is the process of determining the present value of an asset or a company.\n\n### Common Approaches\n- **DCF (Discounted Cash Flow)**: Estimates the value based on future cash flows, discounted to the present value.\n- **Comparable Company Analysis (Comps)**: Valuing a company based on the metrics of similar public companies.\n- **Precedent Transactions**: Looking at prices paid for similar companies in past M&A deals."
+    },
+    {
+      "id": "month1-finance-review",
+      "title": "Month 1 Review: Investment Banking & Accounting",
+      "content": "Summary of Month 1 for Finance B2:\n\n1. **Week 1**: Investment Banking, M&A, IPOs, and Risk Management (Modals of Deduction).\n2. **Week 2**: Financial Statements (Balance Sheet, P&L, Cash Flow), Auditing, and Governance (Passive Voice).\n3. **Week 3**: Taxation (VAT, Avoidance vs. Evasion), International Finance (Forex), and ISA (Conditionals).\n4. **Week 4**: Financial Ratios and Valuation Methods.\n\n### Grammar Highlights\n- **Modals**: Speculating about risks and past errors (*\"They must have missed the debt.\"*)\n- **Passive Voice**: Formal reporting of results and findings (*\"Discrepancies were found.\"*)\n- **Conditionals**: Forecasting and hypothetical analysis (*\"If rates rise, profit will fall.\"*)"
+    }
+  ]
+}

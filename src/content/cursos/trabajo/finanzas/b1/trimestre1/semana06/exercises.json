@@ -1,0 +1,440 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 1,
+  "weekId": "semana06",
+  "title": "Budgeting and Expenses",
+  "description": "Vocabulary for income, expenses, surpluses, deficits, and the use of the Present Perfect (50 items).",
+  "items": [
+    {
+      "id": "finance-b1-w6-q1",
+      "type": "multiple_choice",
+      "question": "What is the term for the money you receive, such as your salary?",
+      "options": ["Expenses", "Income", "Deficit", "Overhead"],
+      "answer": "Income",
+      "explanation": "Income is the money received, especially on a regular basis, for work or through investments."
+    },
+    {
+      "id": "finance-b1-w6-q2",
+      "type": "fill_in_the_blank",
+      "question": "We ________ (prepare) the budget for the new project.",
+      "answer": "have prepared",
+      "explanation": "Present Perfect: Subject (We) + have + past participle (prepared)."
+    },
+    {
+      "id": "finance-b1-w6-q3",
+      "type": "multiple_choice",
+      "question": "Costs that stay the same every month, like rent, are called:",
+      "options": ["Variable expenses", "Fixed expenses", "Surplus", "Capital"],
+      "answer": "Fixed expenses",
+      "explanation": "Fixed expenses do not change regardless of activity or production levels."
+    },
+    {
+      "id": "finance-b1-w6-q4",
+      "type": "fill_in_the_blank",
+      "question": "The manager ________ (not / sign) the expense report yet.",
+      "answer": "has not signed",
+      "explanation": "Negative present perfect with 'yet' for singular subject."
+    },
+    {
+      "id": "finance-b1-w6-q5",
+      "type": "multiple_choice",
+      "question": "A 'surplus' occurs when:",
+      "options": [
+        "Income is greater than expenses",
+        "Expenses are greater than income",
+        "Income and expenses are equal",
+        "You have no money"
+      ],
+      "answer": "Income is greater than expenses",
+      "explanation": "A surplus indicates a profit or extra funds."
+    },
+    {
+      "id": "finance-b1-w6-q6",
+      "type": "fill_in_the_blank",
+      "question": "________ you ________ (ever / work) with a deficit?",
+      "answer": "Have ... ever worked",
+      "explanation": "Interrogative present perfect for experience."
+    },
+    {
+      "id": "finance-b1-w6-q7",
+      "type": "multiple_choice",
+      "question": "Ongoing costs like rent, utilities, and insurance are known as:",
+      "options": ["Overhead", "Net profit", "Revenue", "Investment"],
+      "answer": "Overhead",
+      "explanation": "Overhead refers to the ongoing business expenses not directly attributed to creating a product or service."
+    },
+    {
+      "id": "finance-b1-w6-q8",
+      "type": "fill_in_the_blank",
+      "question": "The accounting team ________ (finish) the quarterly review.",
+      "answer": "has finished",
+      "explanation": "Present perfect for a recently completed action."
+    },
+    {
+      "id": "finance-b1-w6-q9",
+      "type": "multiple_choice",
+      "question": "A document requesting payment for goods or services is a(n):",
+      "options": ["Receipt", "Invoice", "Statement", "Check"],
+      "answer": "Invoice",
+      "explanation": "An invoice is sent by a seller to a buyer to request payment."
+    },
+    {
+      "id": "finance-b1-w6-q10",
+      "type": "fill_in_the_blank",
+      "question": "I ________ (see) the new financial figures.",
+      "answer": "have seen",
+      "explanation": "Present perfect."
+    },
+    {
+      "id": "finance-b1-w6-q11",
+      "type": "multiple_choice",
+      "question": "Expenses that change, like electricity or food, are:",
+      "options": ["Fixed", "Variable", "Surplus", "Capital"],
+      "answer": "Variable",
+      "explanation": "Variable expenses fluctuate based on consumption."
+    },
+    {
+      "id": "finance-b1-w6-q12",
+      "type": "fill_in_the_blank",
+      "question": "The company ________ (cut) costs by 20% this year.",
+      "answer": "has cut",
+      "explanation": "The past participle of 'cut' is 'cut'."
+    },
+    {
+      "id": "finance-b1-w6-q13",
+      "type": "multiple_choice",
+      "question": "A document that proves a payment was made is a:",
+      "options": ["Invoice", "Receipt", "Budget", "Deficit"],
+      "answer": "Receipt",
+      "explanation": "A receipt is given after payment is received."
+    },
+    {
+      "id": "finance-b1-w6-q14",
+      "type": "fill_in_the_blank",
+      "question": "How many times ________ they ________ (recalculate) the numbers?",
+      "answer": "have ... recalculated",
+      "explanation": "Interrogative present perfect."
+    },
+    {
+      "id": "finance-b1-w6-q15",
+      "type": "multiple_choice",
+      "question": "A 'deficit' means:",
+      "options": [
+        "You have extra money",
+        "You have spent more than you earned",
+        "You have exactly enough money",
+        "You have no expenses"
+      ],
+      "answer": "You have spent more than you earned",
+      "explanation": "A deficit is a shortfall in funds."
+    },
+    {
+      "id": "finance-b1-w6-q16",
+      "type": "fill_in_the_blank",
+      "question": "We ________ (not / have) many variable expenses this month.",
+      "answer": "have not had",
+      "explanation": "Negative present perfect."
+    },
+    {
+      "id": "finance-b1-w6-q17",
+      "type": "multiple_choice",
+      "question": "Money spent on large assets like buildings or machinery is:",
+      "options": ["OpEx", "CapEx", "Overhead", "Variable expense"],
+      "answer": "CapEx",
+      "explanation": "CapEx (Capital Expenditure) is for long-term investments."
+    },
+    {
+      "id": "finance-b1-w6-q18",
+      "type": "fill_in_the_blank",
+      "question": "The CFO ________ (just / arrive) for the budget meeting.",
+      "answer": "has just arrived",
+      "explanation": "Use 'just' with present perfect for very recent events."
+    },
+    {
+      "id": "finance-b1-w6-q19",
+      "type": "multiple_choice",
+      "question": "Which of these is typically an 'income' source for a person?",
+      "options": ["Rent", "Salary", "Electricity bill", "Taxes"],
+      "answer": "Salary",
+      "explanation": "Salary is the primary source of income for most employees."
+    },
+    {
+      "id": "finance-b1-w6-q20",
+      "type": "fill_in_the_blank",
+      "question": "The auditors ________ (already / check) the receipts.",
+      "answer": "have already checked",
+      "explanation": "Use 'already' in affirmative present perfect."
+    },
+    {
+      "id": "finance-b1-w6-q21",
+      "type": "multiple_choice",
+      "question": "What is the primary goal of budgeting?",
+      "options": [
+        "To spend as much as possible",
+        "To track and control spending",
+        "To avoid paying taxes",
+        "To hire new staff"
+      ],
+      "answer": "To track and control spending",
+      "explanation": "Budgeting provides a roadmap for financial management."
+    },
+    {
+      "id": "finance-b1-w6-q22",
+      "type": "fill_in_the_blank",
+      "question": "I ________ (never / see) such a detailed budget.",
+      "answer": "have never seen",
+      "explanation": "Present perfect for experience."
+    },
+    {
+      "id": "finance-b1-w6-q23",
+      "type": "multiple_choice",
+      "question": "A 'balanced budget' is one where:",
+      "options": [
+        "Income is equal to expenses",
+        "Income is double the expenses",
+        "There are no expenses",
+        "There is no income"
+      ],
+      "answer": "Income is equal to expenses",
+      "explanation": "A balanced budget has neither a surplus nor a deficit."
+    },
+    {
+      "id": "finance-b1-w6-q24",
+      "type": "fill_in_the_blank",
+      "question": "________ the client ________ (pay) the invoice yet?",
+      "answer": "Has ... paid",
+      "explanation": "Present perfect question."
+    },
+    {
+      "id": "finance-b1-w6-q25",
+      "type": "multiple_choice",
+      "question": "Day-to-day business costs like office supplies are:",
+      "options": ["CapEx", "OpEx", "Deficit", "Assets"],
+      "answer": "OpEx",
+      "explanation": "OpEx (Operating Expenses) are the costs of running the business daily."
+    },
+    {
+      "id": "finance-b1-w6-q26",
+      "type": "fill_in_the_blank",
+      "question": "The price of oil ________ (rise) significantly this year.",
+      "answer": "has risen",
+      "explanation": "Present perfect for change over time."
+    },
+    {
+      "id": "finance-b1-w6-q27",
+      "type": "multiple_choice",
+      "question": "Which of these is a 'fixed expense' for most people?",
+      "options": ["Coffee", "Rent", "Movie tickets", "Clothing"],
+      "answer": "Rent",
+      "explanation": "Rent is usually the same amount every month."
+    },
+    {
+      "id": "finance-b1-w6-q28",
+      "type": "fill_in_the_blank",
+      "question": "We ________ (not / allocate) all the funds yet.",
+      "answer": "have not allocated",
+      "explanation": "Negative present perfect."
+    },
+    {
+      "id": "finance-b1-w6-q29",
+      "type": "multiple_choice",
+      "question": "Reducing expenses is often called:",
+      "options": ["Revenue growth", "Cost-cutting", "Investment", "Audit"],
+      "answer": "Cost-cutting",
+      "explanation": "Cost-cutting measures help improve profitability."
+    },
+    {
+      "id": "finance-b1-w6-q30",
+      "type": "fill_in_the_blank",
+      "question": "The department ________ (spend) its entire budget.",
+      "answer": "has spent",
+      "explanation": "Present perfect for result."
+    },
+    {
+      "id": "finance-b1-w6-q31",
+      "type": "multiple_choice",
+      "question": "What is 'Net Income'?",
+      "options": [
+        "The total income before taxes",
+        "The income remaining after all expenses and taxes are subtracted",
+        "The total amount of cash in the bank",
+        "The total value of a company's stock"
+      ],
+      "answer": "The income remaining after all expenses and taxes are subtracted",
+      "explanation": "Net income is often called 'the bottom line'."
+    },
+    {
+      "id": "finance-b1-w6-q32",
+      "type": "fill_in_the_blank",
+      "question": "How long ________ you ________ (be) in charge of this budget?",
+      "answer": "have ... been",
+      "explanation": "Present perfect for duration."
+    },
+    {
+      "id": "finance-b1-w6-q33",
+      "type": "multiple_choice",
+      "question": "Which of these is a 'variable expense' for a business?",
+      "options": ["Annual property tax", "Electricity usage", "Monthly rent", "Loan repayments"],
+      "answer": "Electricity usage",
+      "explanation": "Utility costs fluctuate based on consumption."
+    },
+    {
+      "id": "finance-b1-w6-q34",
+      "type": "fill_in_the_blank",
+      "question": "They ________ (find) a way to reduce overhead.",
+      "answer": "have found",
+      "explanation": "Present perfect for discovery."
+    },
+    {
+      "id": "finance-b1-w6-q35",
+      "type": "multiple_choice",
+      "question": "An 'expense report' is used by employees to:",
+      "options": [
+        "Ask for a raise",
+        "Request reimbursement for business costs they paid themselves",
+        "Predict future sales",
+        "List their coworkers' names"
+      ],
+      "answer": "Request reimbursement for business costs they paid themselves",
+      "explanation": "Employees submit reports with receipts to get their money back."
+    },
+    {
+      "id": "finance-b1-w6-q36",
+      "type": "fill_in_the_blank",
+      "question": "I ________ (not / hear) back from the accounting department.",
+      "answer": "have not heard",
+      "explanation": "Negative present perfect."
+    },
+    {
+      "id": "finance-b1-w6-q37",
+      "type": "multiple_choice",
+      "question": "What is 'Revenue'?",
+      "options": [
+        "The total money a company receives from sales",
+        "The profit after expenses",
+        "The taxes paid to the government",
+        "The money borrowed from a bank"
+      ],
+      "answer": "The total money a company receives from sales",
+      "explanation": "Revenue is the 'top line' of the income statement."
+    },
+    {
+      "id": "finance-b1-w6-q38",
+      "type": "fill_in_the_blank",
+      "question": "The software ________ (simplify) our budgeting process.",
+      "answer": "has simplified",
+      "explanation": "Present perfect for change/improvement."
+    },
+    {
+      "id": "finance-b1-w6-q39",
+      "type": "multiple_choice",
+      "question": "Which of these is NOT an expense?",
+      "options": ["Utility bill", "Employee salary", "Bank loan interest", "Stock sale proceeds"],
+      "answer": "Stock sale proceeds",
+      "explanation": "Proceeds from a sale are income/revenue, not an expense."
+    },
+    {
+      "id": "finance-b1-w6-q40",
+      "type": "fill_in_the_blank",
+      "question": "________ the prices ________ (go) up recently?",
+      "answer": "Have ... gone",
+      "explanation": "Present perfect question."
+    },
+    {
+      "id": "finance-b1-w6-q41",
+      "type": "multiple_choice",
+      "question": "A 'fiscal year' is:",
+      "options": [
+        "Always from January to December",
+        "A one-year period used for financial reporting",
+        "A year with no taxes",
+        "A leap year"
+      ],
+      "answer": "A one-year period used for financial reporting",
+      "explanation": "Many companies have fiscal years that start in different months."
+    },
+    {
+      "id": "finance-b1-w6-q42",
+      "type": "fill_in_the_blank",
+      "question": "The board ________ (approve) the capital expenditure.",
+      "answer": "has approved",
+      "explanation": "Present perfect for a recent decision."
+    },
+    {
+      "id": "finance-b1-w6-q43",
+      "type": "multiple_choice",
+      "question": "What is 'Cost of Goods Sold' (COGS)?",
+      "options": [
+        "The price a customer pays",
+        "The direct costs of producing the goods sold by a company",
+        "The shipping fees for customers",
+        "The marketing budget"
+      ],
+      "answer": "The direct costs of producing the goods sold by a company",
+      "explanation": "COGS includes materials and direct labor."
+    },
+    {
+      "id": "finance-b1-w6-q44",
+      "type": "fill_in_the_blank",
+      "question": "We ________ (not / receive) the invoice for the electricity.",
+      "answer": "have not received",
+      "explanation": "Negative present perfect."
+    },
+    {
+      "id": "finance-b1-w6-q45",
+      "type": "multiple_choice",
+      "question": "Which term describes 'paying yourself first'?",
+      "options": [
+        "Spending money on clothes",
+        "Automatically putting a portion of income into savings",
+        "Asking for a raise",
+        "Avoiding taxes"
+      ],
+      "answer": "Automatically putting a portion of income into savings",
+      "explanation": "This is a popular personal finance strategy."
+    },
+    {
+      "id": "finance-b1-w6-q46",
+      "type": "fill_in_the_blank",
+      "question": "The economy ________ (recover) slowly since the crisis.",
+      "answer": "has recovered",
+      "explanation": "Present perfect for an action connecting past and present."
+    },
+    {
+      "id": "finance-b1-w6-q47",
+      "type": "multiple_choice",
+      "question": "An 'emergency fund' should ideally cover how many months of expenses?",
+      "options": ["1 month", "3-6 months", "12 months", "None"],
+      "answer": "3-6 months",
+      "explanation": "Financial experts recommend 3-6 months of essential expenses."
+    },
+    {
+      "id": "finance-b1-w6-q48",
+      "type": "fill_in_the_blank",
+      "question": "________ you ________ (read) the latest financial news?",
+      "answer": "Have ... read",
+      "explanation": "Present perfect for experience/recent news."
+    },
+    {
+      "id": "finance-b1-w6-q49",
+      "type": "multiple_choice",
+      "question": "What is the 'bottom line'?",
+      "options": [
+        "The first line of an invoice",
+        "The net income or profit of a company",
+        "The physical line at a bank",
+        "The signature line on a contract"
+      ],
+      "answer": "The net income or profit of a company",
+      "explanation": "The bottom line refers to the final profit figure."
+    },
+    {
+      "id": "finance-b1-w6-q50",
+      "type": "fill_in_the_blank",
+      "question": "The team ________ (work) very hard on the budget proposal.",
+      "answer": "has worked",
+      "explanation": "Present perfect for a recently completed or ongoing effort."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Chronic Diseases and Lifestyle",
+  "sections": [
+    {
+      "id": "chronic-diseases",
+      "title": "Understanding Chronic Conditions",
+      "content": "Chronic diseases are long-term conditions that usually progress slowly and require ongoing medical management.\n\n### Common Chronic Diseases\n- **Diabetes**: A condition where the body cannot properly regulate blood sugar levels.\n- **Hypertension**: High blood pressure, which can lead to heart disease or stroke.\n- **Asthma**: A respiratory condition marked by spasms in the bronchi of the lungs.\n- **Arthritis**: Inflammation of the joints causing pain and stiffness.\n- **COPD (Chronic Obstructive Pulmonary Disease)**: A group of lung diseases that block airflow.\n\n### Key Terms\n- **Management**: The ongoing process of treating and controlling a disease.\n- **Progression**: The course of a disease as it becomes more severe over time.\n- **Remission**: A period where symptoms of a chronic disease disappear or decrease.\n- **Flare-up**: A sudden worsening of symptoms."
+    },
+    {
+      "id": "lifestyle-factors",
+      "title": "Lifestyle and Risk Factors",
+      "content": "Lifestyle choices significantly impact the development and management of chronic diseases.\n\n### Risk Factors\n- **Sedentary Lifestyle**: A way of life that involves little to no physical activity.\n- **Obesity**: Having an excessive amount of body fat.\n- **Diet**: The kinds of food a person habitually eats.\n- **Smoking/Tobacco use**: A major risk factor for lung and heart diseases.\n- **Alcohol consumption**: Can contribute to liver disease and hypertension.\n\n### Recommendations\n- **Balanced diet**: Eating various foods in the right proportions.\n- **Regular exercise**: Physical activity to improve health.\n- **Smoking cessation**: The process of quitting smoking."
+    },
+    {
+      "id": "grammar-present-perfect",
+      "title": "Grammar: Present Perfect",
+      "content": "The **Present Perfect** connects the past to the present. We use it to talk about experiences or actions that started in the past and continue today.\n\n### Structure\n- **Affirmative**: Subject + have/has + past participle\n  - *\"The patient has suffered from asthma since childhood.\"*\n- **Negative**: Subject + have/has + not + past participle\n  - *\"He hasn't taken his medication today.\"*\n- **Interrogative**: Have/Has + Subject + past participle?\n  - *\"Have you ever had high blood pressure?\"*\n\n### Usage in Medical History\n1. **Duration**: *\"She has lived with diabetes for ten years.\"*\n2. **Recent actions**: *\"The doctor has just reviewed your test results.\"*\n3. **Experience**: *\"Have you ever been hospitalized before?\"*"
+    }
+  ]
+}

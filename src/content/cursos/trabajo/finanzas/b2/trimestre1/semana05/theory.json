@@ -1,0 +1,20 @@
+{
+  "title": "Investment and Asset Management",
+  "sections": [
+    {
+      "id": "investment-concepts",
+      "title": "Core Investment Concepts",
+      "content": "Investment involves committing capital to assets with the expectation of generating a profit or income over time.\n\n### Types of Assets\n- **Equities (Stocks)**: Ownership shares in a company.\n- **Fixed Income (Bonds)**: Loans to a government or corporation that pay interest.\n- **Real Estate**: Physical property like land, buildings, or homes.\n- **Commodities**: Raw materials like gold, oil, or agricultural products.\n- **Derivatives**: Financial contracts whose value is linked to an underlying asset (e.g., options, futures).\n\n### Investment Strategies\n- **Diversification**: Spreading investments across various assets to reduce risk.\n- **Asset Allocation**: Balancing risk and reward by adjusting the percentage of each asset in a portfolio.\n- **Growth vs. Value**: Growth focuses on capital appreciation, while Value focuses on undervalued assets.\n- **Passive vs. Active**: Passive tracks an index (e.g., ETFs), while Active involves frequent trading by a manager."
+    },
+    {
+      "id": "asset-management-terms",
+      "title": "Asset Management and Performance",
+      "content": "Asset management is the professional management of various securities and assets to meet specified investment goals.\n\n### Key Performance Indicators (KPIs)\n- **ROI (Return on Investment)**: A measure of the gain or loss generated on an investment relative to its cost.\n- **Volatility**: The degree of variation in the price of a financial instrument over time.\n- **Liquidity**: How quickly an asset can be converted into cash without affecting its price.\n- **Benchmark**: A standard (usually an index) against which the performance of a portfolio is measured."
+    },
+    {
+      "id": "grammar-future-forms",
+      "title": "Grammar: Future Forms",
+      "content": "In financial forecasting and planning, we use different future forms depending on the level of certainty and the type of prediction.\n\n### Future with 'Will'\nUsed for predictions based on opinion, spontaneous decisions, or facts.\n- *\"The market **will** recover by Q4.\"*\n- *\"Interest rates **will** remain stable for now.\"*\n\n### Future with 'Going to'\nUsed for intentions or predictions based on current evidence.\n- *\"We **are going to** rebalance the portfolio next week.\"* (Plan)\n- *\"Look at the data; inflation **is going to** rise.\"* (Evidence)\n\n### Future Continuous (will be + -ing)\nUsed for actions that will be in progress at a certain time in the future.\n- *\"This time next year, we **will be managing** over $1 billion in assets.\"*\n\n### Future Perfect (will have + past participle)\nUsed for actions that will be completed by a specific point in the future.\n- *\"By 2030, the fund **will have achieved** its target return.\"*"
+    }
+  ]
+}

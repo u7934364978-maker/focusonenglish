@@ -1,0 +1,20 @@
+{
+  "title": "Medical Emergencies and First Aid",
+  "sections": [
+    {
+      "id": "emergency-vocabulary",
+      "title": "Emergency Room (ER) Vocabulary",
+      "content": "In an emergency, speed and clarity are essential. You must be familiar with common critical conditions and equipment.\n\n### Common Emergencies\n- **Cardiac Arrest**: The heart stops beating suddenly.\n- **Choking**: An object is stuck in the throat, blocking air.\n- **Seizure**: Sudden, uncontrolled electrical disturbance in the brain.\n- **Hemorrhage**: Severe or uncontrolled bleeding.\n- **Anaphylaxis**: A severe, potentially life-threatening allergic reaction.\n\n### First Aid Actions\n- **CPR (Cardiopulmonary Resuscitation)**: Emergency procedure to manually pump the heart.\n- **Defibrillation**: Using an AED to restore a normal heart rhythm.\n- **Apply pressure**: Action taken to stop a hemorrhage.\n- **Heimlich Maneuver**: Technique used to help a choking person.\n- **Stabilize**: To prevent a patient's condition from worsening."
+    },
+    {
+      "id": "grammar-past-continuous",
+      "title": "Grammar: Past Continuous",
+      "content": "We use the **Past Continuous** to describe actions that were in progress at a specific time in the past or when another action interrupted them.\n\n### Structure\n- **Affirmative**: Subject + was/were + verb(-ing)\n  - *\"The patient was breathing when we arrived.\"*\n- **Negative**: Subject + was/were + not + verb(-ing)\n  - *\"He wasn't responding to the stimuli.\"*\n- **Interrogative**: Was/Were + Subject + verb(-ing)?\n  - *\"Were they wearing gloves during the procedure?\"*\n\n### Usage in Medical Contexts\n1. **Background actions**: *\"The paramedics were performing CPR while the doctor prepared the medication.\"*\n2. **Interrupted actions**: *\"The patient was eating when the seizure started.\"*"
+    },
+    {
+      "id": "triage-basics",
+      "title": "Triage Basics",
+      "content": "Triage is the process of determining the priority of patients' treatments based on the severity of their condition.\n\n### Triage Categories\n- **Immediate (Red)**: Life-threatening injuries (e.g., major trauma, severe respiratory distress).\n- **Delayed (Yellow)**: Serious but not immediately life-threatening (e.g., stable fractures).\n- **Minimal (Green)**: Minor injuries (e.g., small cuts, sprains).\n- **Expectant (Black)**: Deceased or injuries so severe survival is unlikely."
+    }
+  ]
+}

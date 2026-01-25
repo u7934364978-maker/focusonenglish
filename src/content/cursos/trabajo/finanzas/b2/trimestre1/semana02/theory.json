@@ -1,0 +1,25 @@
+{
+  "title": "Financial Statements, Auditing and Governance",
+  "sections": [
+    {
+      "id": "financial-statements",
+      "title": "The Three Core Financial Statements",
+      "content": "Understanding financial statements is fundamental for analyzing a company's performance and health.\n\n1. **The Balance Sheet**: Provides a snapshot of a company's financial position at a specific point in time. It follows the formula: **Assets = Liabilities + Equity**.\n   - *Assets*: What the company owns (Cash, Inventory, PPE).\n   - *Liabilities*: What the company owes (Loans, Accounts Payable).\n   - *Equity*: The value belonging to shareholders.\n\n2. **The Income Statement (P&L)**: Shows the company's revenues and expenses over a period. It calculates the 'bottom line' or **Net Income**.\n   - *Gross Profit*: Revenue minus Cost of Goods Sold (COGS).\n   - *EBITDA*: Earnings Before Interest, Taxes, Depreciation, and Amortization.\n\n3. **The Cash Flow Statement**: Tracks the actual cash entering and leaving the company. It is divided into **Operating, Investing, and Financing activities**."
+    },
+    {
+      "id": "auditing-terminology",
+      "title": "External Audit and Assurance",
+      "content": "An audit is an independent examination of financial records to ensure they provide a 'true and fair' view.\n\n### Key Audit Terms\n- **Materiality**: The threshold above which missing or incorrect information is considered significant enough to impact investors' decisions.\n- **Discrepancy**: A difference or inconsistency found in the accounts.\n- **Unqualified Opinion**: A 'clean' audit report, meaning the financial statements are presented fairly.\n- **Qualified Opinion**: The auditor found specific issues but the overall statements are mostly reliable.\n- **Adverse Opinion**: The financial statements are significantly misrepresented and do not follow accounting standards.\n- **Internal Controls**: Processes implemented by a company to ensure integrity in financial reporting and prevent fraud."
+    },
+    {
+      "id": "corporate-governance",
+      "title": "Corporate Governance and Ethics",
+      "content": "Corporate governance refers to the system of rules, practices, and processes by which a firm is directed and controlled.\n\n### Core Components\n- **Board of Directors (BoD)**: A group of individuals elected by shareholders to oversee the management of the corporation.\n- **Fiduciary Duty**: The legal and ethical obligation of directors to act in the best interests of the company and its shareholders.\n- **Stakeholders**: Anyone affected by the company's actions, including employees, customers, suppliers, and the community.\n- **Transparency**: The requirement for companies to disclose relevant financial and operational information accurately and timely."
+    },
+    {
+      "id": "grammar-passive",
+      "title": "Grammar: The Passive Voice in Professional Reports",
+      "content": "In financial reporting and auditing, the passive voice is often used to maintain an objective and formal tone. It shifts the focus from the person performing the action to the action itself.\n\n### Formation\n**Subject + Verb 'to be' + Past Participle**\n\n### Usage in Finance\n1. **Reporting Results**:\n   - *Active*: \"We increased our revenue by 10%.\"\n   - *Passive*: \"Revenue **was increased** by 10%.\"\n\n2. **Audit Findings**:\n   - *Active*: \"The auditor found several discrepancies.\"\n   - *Passive*: \"Several discrepancies **were found** during the audit.\"\n\n3. **Formal Processes**:\n   - *Active*: \"The Board will approve the budget next week.\"\n   - *Passive*: \"The budget **will be approved** by the Board next week.\"\n\n4. **Impersonal Expressions**:\n   - *\"It is expected that...\"*\n   - *\"It has been decided that...\"*\n   - *\"The financial statements are believed to be accurate.\"*"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "title": "Week 3 Assessment: Taxation & International Finance",
+  "items": [
+    {
+      "id": "finance-b2-w3-e1",
+      "type": "multipleChoice",
+      "prompt": "What is the primary difference between tax evasion and tax avoidance?",
+      "options": ["Evasion is legal, avoidance is illegal", "Evasion is illegal, avoidance is legal", "They are both legal", "They are both illegal"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w3-e2",
+      "type": "multipleChoice",
+      "prompt": "Which rate is used for immediate currency exchange?",
+      "options": ["Forward rate", "Spot rate", "Swap rate", "Future rate"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w3-e3",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'If we ___ (not hedge) our currency risk, we ___ (be) in trouble now.'",
+      "options": ["don't hedge / will be", "hadn't hedged / would be", "didn't hedge / were", "hadn't hedged / would have been"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w3-e4",
+      "type": "multipleChoice",
+      "prompt": "What is 'VAT'?",
+      "options": ["A tax on company profits", "A consumption tax on products/services", "A tax on personal income", "A type of import duty"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w3-e5",
+      "type": "multipleChoice",
+      "prompt": "What does 'Professional Skepticism' involve?",
+      "options": ["Trusting the client completely", "A questioning mind and critical assessment of evidence", "Finding as many errors as possible", "Refusing to sign the report"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w3-e6",
+      "type": "multipleChoice",
+      "prompt": "What is 'Transfer Pricing'?",
+      "options": ["Charging customers for bank transfers", "The price of transactions between divisions of a multinational company", "Moving headquarters to another city", "The cost of changing currencies"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w3-e7",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'If the tax rate ___ (decrease), more businesses ___ (move) to this country.'",
+      "options": ["decreases / will move", "decrease / would move", "decreased / will move", "had decreased / would move"],
+      "answerIndex": 0
+    },
+    {
+      "id": "finance-b2-w3-e8",
+      "type": "multipleChoice",
+      "prompt": "What is 'Withholding Tax'?",
+      "options": ["Tax paid at the end of the year", "Tax deducted at source from payments to non-residents", "A tax on employee benefits", "A fine for late payment"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w3-e9",
+      "type": "multipleChoice",
+      "prompt": "What is an 'ISA' in auditing?",
+      "options": ["Internal Security Audit", "International Standard on Auditing", "Integrated Sales Analysis", "International Stock Agreement"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w3-e10",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Tax Haven'?",
+      "options": ["A high-tax country", "A country with low or no taxes for foreign investors", "A safe for storing tax documents", "A government grant"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w3-e11",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Tasa de cambio'",
+      "options": ["Tax rate", "Exchange rate", "Change fee", "Interest rate"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w3-e12",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'If the CFO ___ (be) more careful, the fraud ___ (not happen).'",
+      "options": ["was / wouldn't happen", "had been / wouldn't have happened", "were / wouldn't have happened", "had been / wouldn't happen"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w3-e13",
+      "type": "multipleChoice",
+      "prompt": "What is 'Audit Risk'?",
+      "options": ["The risk of losing the audit contract", "The risk that the auditor gives an incorrect opinion", "The risk of a fire in the audit office", "The cost of the audit"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w3-e14",
+      "type": "multipleChoice",
+      "prompt": "What is 'Double Taxation'?",
+      "options": ["Paying tax twice a year", "Being taxed twice on the same income by different jurisdictions", "A penalty for tax evasion", "A tax for two people"],
+      "answerIndex": 1
+    },
+    {
+      "id": "finance-b2-w3-e15",
+      "type": "multipleChoice",
+      "prompt": "What is 'Tax Liability'?",
+      "options": ["A tax refund", "The total amount of tax owed", "A tax deduction", "The cost of hiring a tax advisor"],
+      "answerIndex": 1
+    }
+  ]
+}

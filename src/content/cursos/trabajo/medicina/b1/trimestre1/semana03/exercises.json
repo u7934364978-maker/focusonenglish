@@ -1,0 +1,410 @@
+{
+  "goal": "medicina",
+  "level": "B1",
+  "trimester": 1,
+  "weekId": "semana03",
+  "title": "Medical Equipment and Medication",
+  "description": "Terminology for medical tools, drug administration, and using modals of obligation (50 items).",
+  "items": [
+    {
+      "id": "medical-b1-w3-q1",
+      "type": "multipleChoice",
+      "prompt": "Which tool is used by a doctor to listen to a patient's heartbeat?",
+      "options": ["Scalpel", "Stethoscope", "Syringe", "Gurney"],
+      "answerIndex": 1,
+      "explanation": "A stethoscope allows the professional to hear internal sounds of the body."
+    },
+    {
+      "id": "medical-b1-w3-q2",
+      "type": "multipleChoice",
+      "prompt": "What is a 'scalpel' primarily used for?",
+      "options": ["Measuring blood pressure", "Taking a pulse", "Making incisions during surgery", "Injecting medicine"],
+      "answerIndex": 2,
+      "explanation": "A scalpel is a small, extremely sharp bladed instrument used for surgery."
+    },
+    {
+      "id": "medical-b1-w3-q3",
+      "type": "multipleChoice",
+      "prompt": "What do 'analgesics' do?",
+      "options": ["Fight infections", "Relieve pain", "Reduce swelling", "Induce sleep"],
+      "answerIndex": 1,
+      "explanation": "Analgesics are commonly known as painkillers."
+    },
+    {
+      "id": "medical-b1-w3-q4",
+      "type": "multipleChoice",
+      "prompt": "Complete with the correct modal: 'You ___ (must / shouldn't) smoke in the hospital; it is strictly forbidden.'",
+      "options": ["must", "mustn't", "don't have to", "should"],
+      "answerIndex": 1,
+      "explanation": "'Mustn't' is used for prohibitions."
+    },
+    {
+      "id": "medical-b1-w3-q5",
+      "type": "multipleChoice",
+      "prompt": "Which route describes medicine taken by mouth?",
+      "options": ["Intravenous", "Oral", "Topical", "Intramuscular"],
+      "answerIndex": 1,
+      "explanation": "Oral administration means swallowing the medication."
+    },
+    {
+      "id": "medical-b1-w3-q6",
+      "type": "multipleChoice",
+      "prompt": "What is a 'gurney'?",
+      "options": ["A type of medicine", "A wheeled stretcher for transporting patients", "A surgical tool", "A protective mask"],
+      "answerIndex": 1,
+      "explanation": "A gurney (or stretcher) is used to move patients who cannot walk or are unconscious."
+    },
+    {
+      "id": "medical-b1-w3-q7",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'The patient has a mild cold. She ___ (should / must) rest and drink water.'",
+      "options": ["should", "mustn't", "don't have to", "has to"],
+      "answerIndex": 0,
+      "explanation": "'Should' is used for giving medical advice."
+    },
+    {
+      "id": "medical-b1-w3-q8",
+      "type": "multipleChoice",
+      "prompt": "What is 'dosage'?",
+      "options": ["The size of the hospital", "The price of the medicine", "The specific amount of medicine to be taken", "The name of the doctor"],
+      "answerIndex": 2,
+      "explanation": "Dosage is the amount and frequency of a medicinal drug."
+    },
+    {
+      "id": "medical-b1-w3-q9",
+      "type": "multipleChoice",
+      "prompt": "Which device is used to give an electric shock to restart the heart?",
+      "options": ["Ventilator", "Defibrillator", "IV Pole", "Sphygmomanometer"],
+      "answerIndex": 1,
+      "explanation": "A defibrillator is used in life-threatening cardiac situations."
+    },
+    {
+      "id": "medical-b1-w3-q10",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Efectos secundarios'",
+      "options": ["Second effects", "Side effects", "Bad results", "Drug reactions"],
+      "answerIndex": 1,
+      "explanation": "'Side effects' is the standard term for secondary, often unwanted, effects of a drug."
+    },
+    {
+      "id": "medical-b1-w3-q11",
+      "type": "multipleChoice",
+      "prompt": "What is an 'IV pole' used for?",
+      "options": ["To help a patient walk", "To hang bags of fluids for intravenous administration", "To measure height", "To support a broken leg"],
+      "answerIndex": 1,
+      "explanation": "An IV (Intravenous) pole holds bags of medicine or saline."
+    },
+    {
+      "id": "medical-b1-w3-q12",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'You ___ (must / don't have to) be a doctor to work in a hospital; you can also be a nurse or technician.'",
+      "options": ["must", "mustn't", "don't have to", "should"],
+      "answerIndex": 2,
+      "explanation": "'Don't have to' indicates a lack of obligation."
+    },
+    {
+      "id": "medical-b1-w3-q13",
+      "type": "multipleChoice",
+      "prompt": "What are 'antibiotics' used for?",
+      "options": ["Viruses", "Bacterial infections", "Broken bones", "Fever"],
+      "answerIndex": 1,
+      "explanation": "Antibiotics only work against bacteria, not viruses."
+    },
+    {
+      "id": "medical-b1-w3-q14",
+      "type": "multipleChoice",
+      "prompt": "A 'topical' medication is applied to:",
+      "options": ["The eyes", "The veins", "The skin", "The muscles"],
+      "answerIndex": 2,
+      "explanation": "Topical medications include creams, gels, and ointments applied to the skin."
+    },
+    {
+      "id": "medical-b1-w3-q15",
+      "type": "multipleChoice",
+      "prompt": "What does a 'pharmacist' do?",
+      "options": ["Performs surgery", "Prepares and dispenses medicinal drugs", "Cleans the hospital", "Drives the ambulance"],
+      "answerIndex": 1,
+      "explanation": "Pharmacists are experts in medicines and their use."
+    },
+    {
+      "id": "medical-b1-w3-q16",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'The surgeon ___ (have to / has to) wear gloves during the operation.'",
+      "options": ["have to", "has to", "shouldn't", "needn't"],
+      "answerIndex": 1,
+      "explanation": "Third person singular 'has to' for an external obligation/rule."
+    },
+    {
+      "id": "medical-b1-w3-q17",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Receta médica'",
+      "options": ["Medical recipe", "Doctor note", "Prescription", "Drug paper"],
+      "answerIndex": 2,
+      "explanation": "In English, a doctor writes a 'prescription' (recipe is for cooking)."
+    },
+    {
+      "id": "medical-b1-w3-q18",
+      "type": "multipleChoice",
+      "prompt": "What is a 'syringe' used for?",
+      "options": ["To cut skin", "To inject or withdraw fluids", "To listen to the heart", "To move a patient"],
+      "answerIndex": 1,
+      "explanation": "A syringe is used with a needle for injections."
+    },
+    {
+      "id": "medical-b1-w3-q19",
+      "type": "multipleChoice",
+      "prompt": "If a medicine is 'OTC' (Over-The-Counter), it means:",
+      "options": ["You need a prescription", "You don't need a prescription", "It is only for children", "It is very expensive"],
+      "answerIndex": 1,
+      "explanation": "OTC medicines can be bought directly from a pharmacy or store."
+    },
+    {
+      "id": "medical-b1-w3-q20",
+      "type": "multipleChoice",
+      "prompt": "Which modal is used for a strong internal obligation? 'I ___ remember to check the patient's vitals.'",
+      "options": ["must", "should", "don't have to", "might"],
+      "answerIndex": 0,
+      "explanation": "'Must' is often used for obligations the speaker feels are important."
+    },
+    {
+      "id": "medical-b1-w3-q21",
+      "type": "multipleChoice",
+      "prompt": "What is an 'ointment'?",
+      "options": ["A pill", "A smooth, oily substance rubbed on the skin", "A liquid for drinking", "An injection"],
+      "answerIndex": 1,
+      "explanation": "Ointments are a type of topical medication."
+    },
+    {
+      "id": "medical-b1-w3-q22",
+      "type": "multipleChoice",
+      "prompt": "What does 'b.i.d.' mean on a prescription?",
+      "options": ["Before dinner", "Twice a day", "Bed in day", "Breathe in deeply"],
+      "answerIndex": 1,
+      "explanation": "'b.i.d.' comes from the Latin 'bis in die', meaning twice a day."
+    },
+    {
+      "id": "medical-b1-w3-q23",
+      "type": "multipleChoice",
+      "prompt": "Which device helps a patient with breathing difficulties?",
+      "options": ["Wheelchair", "Ventilator", "Scalpel", "Sphygmomanometer"],
+      "answerIndex": 1,
+      "explanation": "A ventilator moves breathable air into and out of the lungs."
+    },
+    {
+      "id": "medical-b1-w3-q24",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'You ___ (mustn't / needn't) worry; the surgery was successful.'",
+      "options": ["mustn't", "needn't", "have to", "should"],
+      "answerIndex": 1,
+      "explanation": "'Needn't' (or don't need to) means there is no reason or necessity."
+    },
+    {
+      "id": "medical-b1-w3-q25",
+      "type": "multipleChoice",
+      "prompt": "What is 'anesthesia' used for?",
+      "options": ["To cure a cold", "To prevent pain during surgery", "To clean a wound", "To help a patient walk"],
+      "answerIndex": 1,
+      "explanation": "Anesthesia numbs the body or makes the patient sleep during procedures."
+    },
+    {
+      "id": "medical-b1-w3-q26",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Analgésicos'",
+      "options": ["Antibiotics", "Painkillers", "Vitamins", "Bandages"],
+      "answerIndex": 1,
+      "explanation": "'Painkillers' is the common name for analgesics."
+    },
+    {
+      "id": "medical-b1-w3-q27",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'surgical tool'?",
+      "options": ["Forceps", "Gurney", "Wheelchair", "IV Pole"],
+      "answerIndex": 0,
+      "explanation": "Forceps are used to grasp or hold objects during surgery."
+    },
+    {
+      "id": "medical-b1-w3-q28",
+      "type": "multipleChoice",
+      "prompt": "What does 't.i.d.' mean on a prescription?",
+      "options": ["Take in day", "Three times a day", "Twice in day", "Take immediately"],
+      "answerIndex": 1,
+      "explanation": "'t.i.d.' means 'ter in die' (three times a day)."
+    },
+    {
+      "id": "medical-b1-w3-q29",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'The nurse ___ (must / should) be very careful when preparing the dosage.'",
+      "options": ["must", "mustn't", "don't have to", "needn't"],
+      "answerIndex": 0,
+      "explanation": "'Must' indicates a critical requirement for safety."
+    },
+    {
+      "id": "medical-b1-w3-q30",
+      "type": "multipleChoice",
+      "prompt": "What is an 'antipyretic' used for?",
+      "options": ["To lower a fever", "To kill bacteria", "To stop itching", "To help breathing"],
+      "answerIndex": 0,
+      "explanation": "Antipyretics like paracetamol reduce body temperature."
+    },
+    {
+      "id": "medical-b1-w3-q31",
+      "type": "multipleChoice",
+      "prompt": "What is 'sterile' equipment?",
+      "options": ["Expensive equipment", "Equipment free from bacteria or microorganisms", "New equipment", "Broken equipment"],
+      "answerIndex": 1,
+      "explanation": "Sterility is essential in medical environments to prevent infection."
+    },
+    {
+      "id": "medical-b1-w3-q32",
+      "type": "multipleChoice",
+      "prompt": "Which modal expresses advice? 'The patient ___ (should / must) lose weight to improve his health.'",
+      "options": ["should", "mustn't", "has to", "needn't"],
+      "answerIndex": 0,
+      "explanation": "'Should' is the standard modal for advice."
+    },
+    {
+      "id": "medical-b1-w3-q33",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Venda'",
+      "options": ["Syringe", "Bandage", "Needle", "Stretcher"],
+      "answerIndex": 1,
+      "explanation": "A 'bandage' is used to cover or wrap a wound."
+    },
+    {
+      "id": "medical-b1-w3-q34",
+      "type": "multipleChoice",
+      "prompt": "What is 'triage'?",
+      "options": ["A type of surgery", "Prioritizing patients based on severity", "A room for doctors", "A type of medicine"],
+      "answerIndex": 1,
+      "explanation": "Triage ensures the most urgent cases are treated first."
+    },
+    {
+      "id": "medical-b1-w3-q35",
+      "type": "multipleChoice",
+      "prompt": "A 'capsule' is a type of ___ medication.",
+      "options": ["Oral", "Topical", "IV", "Inhaled"],
+      "answerIndex": 0,
+      "explanation": "Capsules are swallowed (oral route)."
+    },
+    {
+      "id": "medical-b1-w3-q36",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'In an emergency, you ___ (don't have to / must) act quickly.'",
+      "options": ["don't have to", "must", "mustn't", "shouldn't"],
+      "answerIndex": 1,
+      "explanation": "'Must' for a critical obligation."
+    },
+    {
+      "id": "medical-b1-w3-q37",
+      "type": "multipleChoice",
+      "prompt": "What is a 'reflex hammer' used for?",
+      "options": ["To fix equipment", "To test a patient's reflexes", "To help with walking", "To measure blood pressure"],
+      "answerIndex": 1,
+      "explanation": "Doctors use it to tap tendons and check neurological responses."
+    },
+    {
+      "id": "medical-b1-w3-q38",
+      "type": "multipleChoice",
+      "prompt": "What does 'q.d.' mean on a prescription?",
+      "options": ["Every day", "Quite difficult", "Quick dose", "Quiet down"],
+      "answerIndex": 0,
+      "explanation": "'q.d.' means 'quaque die' (every day)."
+    },
+    {
+      "id": "medical-b1-w3-q39",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Gasa'",
+      "options": ["Gas", "Gauze", "Glass", "Glue"],
+      "answerIndex": 1,
+      "explanation": "Gauze is a thin, translucent fabric used for bandages."
+    },
+    {
+      "id": "medical-b1-w3-q40",
+      "type": "multipleChoice",
+      "prompt": "What is an 'antihistamine' used for?",
+      "options": ["Allergic reactions", "Broken bones", "Fever", "Heart problems"],
+      "answerIndex": 0,
+      "explanation": "Antihistamines treat allergies like hay fever."
+    },
+    {
+      "id": "medical-b1-w3-q41",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'You ___ (shouldn't / don't have to) pay now; we will send the bill later.'",
+      "options": ["shouldn't", "don't have to", "mustn't", "has to"],
+      "answerIndex": 1,
+      "explanation": "'Don't have to' means it's not necessary."
+    },
+    {
+      "id": "medical-b1-w3-q42",
+      "type": "multipleChoice",
+      "prompt": "Which device measures 'oxygen saturation'?",
+      "options": ["Sphygmomanometer", "Pulse oximeter", "Thermometer", "Stethoscope"],
+      "answerIndex": 1,
+      "explanation": "A pulse oximeter is usually clipped onto a finger."
+    },
+    {
+      "id": "medical-b1-w3-q43",
+      "type": "multipleChoice",
+      "prompt": "What is a 'vial'?",
+      "options": ["A large hospital room", "A small container, typically made of glass, for liquid medicine", "A medical report", "A type of nurse"],
+      "answerIndex": 1,
+      "explanation": "Vials often hold medicine for injections."
+    },
+    {
+      "id": "medical-b1-w3-q44",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Enfermedad crónica'",
+      "options": ["Chronic illness", "Cold sickness", "Fast flu", "Old disease"],
+      "answerIndex": 0,
+      "explanation": "A chronic illness is long-lasting."
+    },
+    {
+      "id": "medical-b1-w3-q45",
+      "type": "multipleChoice",
+      "prompt": "What does 'p.r.n.' mean on a prescription?",
+      "options": ["As needed", "Please read notes", "Primary route next", "Permanent relief now"],
+      "answerIndex": 0,
+      "explanation": "'p.r.n.' means 'pro re nata' (as the occasion arises / as needed)."
+    },
+    {
+      "id": "medical-b1-w3-q46",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'The doctor ___ (must / doesn't have to) sign the prescription for it to be valid.'",
+      "options": ["must", "doesn't have to", "shouldn't", "needn't"],
+      "answerIndex": 0,
+      "explanation": "'Must' for a legal/official requirement."
+    },
+    {
+      "id": "medical-b1-w3-q47",
+      "type": "multipleChoice",
+      "prompt": "What is an 'antiseptic' used for?",
+      "options": ["To clean a wound and prevent infection", "To stop pain", "To help with sleep", "To measure weight"],
+      "answerIndex": 0,
+      "explanation": "Antiseptics slow or stop the growth of microorganisms."
+    },
+    {
+      "id": "medical-b1-w3-q48",
+      "type": "multipleChoice",
+      "prompt": "Which route is 'IM'?",
+      "options": ["Intramuscular", "Internal Medicine", "Immediate", "Intravenous"],
+      "answerIndex": 0,
+      "explanation": "IM stands for Intramuscular (injected into a muscle)."
+    },
+    {
+      "id": "medical-b1-w3-q49",
+      "type": "multipleChoice",
+      "prompt": "What is a 'nebulizer'?",
+      "options": ["A tool for surgery", "A machine used to turn liquid medicine into a mist to be inhaled", "A type of wheelchair", "A heart monitor"],
+      "answerIndex": 1,
+      "explanation": "Nebulizers are often used for asthma or respiratory conditions."
+    },
+    {
+      "id": "medical-b1-w3-q50",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'You ___ (should / mustn't) take all the antibiotics, even if you feel better.'",
+      "options": ["should", "mustn't", "don't have to", "needn't"],
+      "answerIndex": 0,
+      "explanation": "'Should' for critical medical advice (completing the course of antibiotics)."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "goal": "medicina",
+  "level": "B1",
+  "trimester": 1,
+  "weekId": "semana08",
+  "title": "Month 2 Final Exam: Clinical Review",
+  "description": "15 questions evaluating Month 2 topics: emergencies, chronic disease, mental health, and clinical communication.",
+  "items": [
+    {
+      "id": "medical-b1-w8-exam-q1",
+      "type": "multiple_choice",
+      "question": "Which component of SBAR involves suggesting what should be done next?",
+      "options": ["Situation", "Background", "Assessment", "Recommendation"],
+      "answer": "Recommendation",
+      "explanation": "'R' stands for Recommendation."
+    },
+    {
+      "id": "medical-b1-w8-exam-q2",
+      "type": "fill_in_the_blank",
+      "question": "The patient ________ (have) asthma for many years.",
+      "answer": "has had",
+      "explanation": "Present Perfect for duration."
+    },
+    {
+      "id": "medical-b1-w8-exam-q3",
+      "type": "multiple_choice",
+      "question": "A triage category of 'Immediate' (Red) requires treatment within:",
+      "options": ["Minutes", "2 hours", "24 hours", "A week"],
+      "answer": "Minutes",
+      "explanation": "Red is the highest priority for life-threatening conditions."
+    },
+    {
+      "id": "medical-b1-w8-exam-q4",
+      "type": "multiple_choice",
+      "question": "What is 'Anaphylaxis'?",
+      "options": [
+        "A type of surgery",
+        "A severe allergic reaction",
+        "A sleep disorder",
+        "A chronic bone disease"
+      ],
+      "answer": "A severe allergic reaction",
+      "explanation": "Anaphylaxis is life-threatening and needs immediate treatment."
+    },
+    {
+      "id": "medical-b1-w8-exam-q5",
+      "type": "fill_in_the_blank",
+      "question": "The paramedics ________ (be) performing CPR while the doctor prepared the AED.",
+      "answer": "were",
+      "explanation": "Past Continuous."
+    },
+    {
+      "id": "medical-b1-w8-exam-q6",
+      "type": "multiple_choice",
+      "question": "A 'flare-up' means the symptoms of a disease have:",
+      "options": ["Improved", "Disappeared", "Worsened suddenly", "Stopped forever"],
+      "answer": "Worsened suddenly",
+      "explanation": "A flare-up is a sudden worsening."
+    },
+    {
+      "id": "medical-b1-w8-exam-q7",
+      "type": "multiple_choice",
+      "question": "Which of these is an irregular adverb?",
+      "options": ["Quietly", "Well", "Slowly", "Positively"],
+      "answer": "Well",
+      "explanation": "'Well' is the adverb form of 'good'."
+    },
+    {
+      "id": "medical-b1-w8-exam-q8",
+      "type": "fill_in_the_blank",
+      "question": "The nurse listened ________ (attentive) to the patient's concerns.",
+      "answer": "attentively",
+      "explanation": "Adverb form of 'attentive'."
+    },
+    {
+      "id": "medical-b1-w8-exam-q9",
+      "type": "multiple_choice",
+      "question": "What is the goal of 'active listening'?",
+      "options": [
+        "To finish the conversation quickly",
+        "To demonstrate full understanding and attention",
+        "To write more prescriptions",
+        "To ignore the patient's feelings"
+      ],
+      "answer": "To demonstrate full understanding and attention",
+      "explanation": "Active listening is essential for clinical communication."
+    },
+    {
+      "id": "medical-b1-w8-exam-q10",
+      "type": "fill_in_the_blank",
+      "question": "How long ________ the patient ________ (be) in remission?",
+      "answer": "has ... been",
+      "explanation": "Present Perfect question."
+    },
+    {
+      "id": "medical-b1-w8-exam-q11",
+      "type": "multiple_choice",
+      "question": "Burnout is most likely caused by:",
+      "options": ["High-stress and long work hours", "Too much exercise", "Eating healthy", "Getting enough sleep"],
+      "answer": "High-stress and long work hours",
+      "explanation": "Burnout is chronic exhaustion from stress."
+    },
+    {
+      "id": "medical-b1-w8-exam-q12",
+      "type": "multiple_choice",
+      "question": "The Heimlich Maneuver is used for:",
+      "options": ["Heart attack", "Choking", "Seizure", "Broken leg"],
+      "answer": "Choking",
+      "explanation": "It helps clear the airway."
+    },
+    {
+      "id": "medical-b1-w8-exam-q13",
+      "type": "fill_in_the_blank",
+      "question": "The surgeon performed the incision ________ (neatly).",
+      "answer": "neatly",
+      "explanation": "Adverb form of 'neat'."
+    },
+    {
+      "id": "medical-b1-w8-exam-q14",
+      "type": "multiple_choice",
+      "question": "Which term describes 'high blood pressure'?",
+      "options": ["Hyperglycemia", "Hypertension", "Hypotension", "Hypoglycemia"],
+      "answer": "Hypertension",
+      "explanation": "Hypertension is high blood pressure."
+    },
+    {
+      "id": "medical-b1-w8-exam-q15",
+      "type": "fill_in_the_blank",
+      "question": "The patient ________ (not / see) his therapist this month.",
+      "answer": "has not seen",
+      "explanation": "Negative present perfect."
+    }
+  ]
+}

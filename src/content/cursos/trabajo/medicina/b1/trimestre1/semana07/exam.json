@@ -1,0 +1,124 @@
+{
+  "goal": "medicina",
+  "level": "B1",
+  "trimester": 1,
+  "weekId": "semana07",
+  "title": "Exam: Mental Health and Wellbeing",
+  "description": "15 questions evaluating knowledge of mental health disorders, emotional states, and Adverbs of Manner.",
+  "items": [
+    {
+      "id": "medical-b1-w7-exam-q1",
+      "type": "multiple_choice",
+      "question": "Which disorder is characterized by extreme mood swings (mania and depression)?",
+      "options": ["Anxiety", "Bipolar Disorder", "Insomnia", "Anemia"],
+      "answer": "Bipolar Disorder",
+      "explanation": "Bipolar disorder involves dramatic shifts in mood and energy."
+    },
+    {
+      "id": "medical-b1-w7-exam-q2",
+      "type": "fill_in_the_blank",
+      "question": "The psychologist spoke ________ (gentle) to the patient.",
+      "answer": "gently",
+      "explanation": "Adverb form of 'gentle'."
+    },
+    {
+      "id": "medical-b1-w7-exam-q3",
+      "type": "multiple_choice",
+      "question": "What is 'Insomnia'?",
+      "options": ["Inability to sleep", "Fear of spiders", "Loss of appetite", "Memory loss"],
+      "answer": "Inability to sleep",
+      "explanation": "Insomnia is a persistent difficulty falling or staying asleep."
+    },
+    {
+      "id": "medical-b1-w7-exam-q4",
+      "type": "multiple_choice",
+      "question": "A state of emotional and physical exhaustion from chronic stress is called:",
+      "options": ["Wellbeing", "Burnout", "Anxiety", "Depression"],
+      "answer": "Burnout",
+      "explanation": "Burnout is often seen in high-pressure medical environments."
+    },
+    {
+      "id": "medical-b1-w7-exam-q5",
+      "type": "fill_in_the_blank",
+      "question": "The patient's heart was beating ________ (fast).",
+      "answer": "fast",
+      "explanation": "'Fast' is an irregular adverb."
+    },
+    {
+      "id": "medical-b1-w7-exam-q6",
+      "type": "multiple_choice",
+      "question": "If a patient feels 'overwhelmed', they feel:",
+      "options": ["Happy", "Like they have too much to deal with", "Energetic", "Bored"],
+      "answer": "Like they have too much to deal with",
+      "explanation": "Being overwhelmed means the demands exceed the resources."
+    },
+    {
+      "id": "medical-b1-w7-exam-q7",
+      "type": "multiple_choice",
+      "question": "What does 'stigma' refer to in mental health?",
+      "options": ["A medication", "Social disapproval or disgrace", "A hospital room", "A physical symptom"],
+      "answer": "Social disapproval or disgrace",
+      "explanation": "Stigma is a major barrier to mental health care."
+    },
+    {
+      "id": "medical-b1-w7-exam-q8",
+      "type": "fill_in_the_blank",
+      "question": "The new drug worked ________ (effective) during the trial.",
+      "answer": "effectively",
+      "explanation": "Adverb form of 'effective'."
+    },
+    {
+      "id": "medical-b1-w7-exam-q9",
+      "type": "multiple_choice",
+      "question": "Which of these is a symptom of 'depression'?",
+      "options": ["High energy", "Persistent sadness", "Improved sleep", "Rapid weight gain"],
+      "answer": "Persistent sadness",
+      "explanation": "Depression involves long-lasting sadness and loss of interest."
+    },
+    {
+      "id": "medical-b1-w7-exam-q10",
+      "type": "fill_in_the_blank",
+      "question": "She listened ________ (patiently) to her concerns.",
+      "answer": "patiently",
+      "explanation": "Adverb form of 'patient'."
+    },
+    {
+      "id": "medical-b1-w7-exam-q11",
+      "type": "multiple_choice",
+      "question": "PTSD is triggered by:",
+      "options": ["Trauma", "Laughter", "Good diet", "Regular exercise"],
+      "answer": "Trauma",
+      "explanation": "PTSD results from traumatic experiences."
+    },
+    {
+      "id": "medical-b1-w7-exam-q12",
+      "type": "multiple_choice",
+      "question": "What is the primary focus of Cognitive Behavioral Therapy (CBT)?",
+      "options": ["Brain surgery", "Changing negative thought patterns", "Prescribing antibiotics", "Managing finances"],
+      "answer": "Changing negative thought patterns",
+      "explanation": "CBT is a common psychotherapy approach."
+    },
+    {
+      "id": "medical-b1-w7-exam-q13",
+      "type": "fill_in_the_blank",
+      "question": "He answered the questions ________ (honest).",
+      "answer": "honestly",
+      "explanation": "Adverb form of 'honest'."
+    },
+    {
+      "id": "medical-b1-w7-exam-q14",
+      "type": "multiple_choice",
+      "question": "Which professional helps with psychological problems through talking?",
+      "options": ["Surgeon", "Counselor/Therapist", "Radiologist", "Dentist"],
+      "answer": "Counselor/Therapist",
+      "explanation": "Therapists and counselors specialize in talk therapy."
+    },
+    {
+      "id": "medical-b1-w7-exam-q15",
+      "type": "fill_in_the_blank",
+      "question": "The wound is healing ________ (slow).",
+      "answer": "slowly",
+      "explanation": "Adverb form of 'slow'."
+    }
+  ]
+}

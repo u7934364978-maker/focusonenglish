@@ -1,0 +1,435 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana05",
+  "title": "Investment and Asset Management",
+  "description": "Vocabulary for asset classes, investment strategies, performance metrics, and the use of Future Forms (50 items).",
+  "items": [
+    {
+      "id": "finance-b2-w5-q1",
+      "type": "multiple_choice",
+      "question": "What is the term for spreading investments across various assets to reduce risk?",
+      "options": ["Speculation", "Diversification", "Concentration", "Liquidation"],
+      "answer": "Diversification",
+      "explanation": "Diversification is a risk management strategy that mixes a wide variety of investments within a portfolio."
+    },
+    {
+      "id": "finance-b2-w5-q2",
+      "type": "fill_in_the_blank",
+      "question": "We ________ (rebalance) the portfolio once the market stabilizes.",
+      "answer": "will rebalance",
+      "explanation": "We use 'will' for a decision or prediction about the future."
+    },
+    {
+      "id": "finance-b2-w5-q3",
+      "type": "multiple_choice",
+      "question": "Which asset class includes ownership shares in a company?",
+      "options": ["Bonds", "Equities", "Commodities", "Derivatives"],
+      "answer": "Equities",
+      "explanation": "Equities, or stocks, represent ownership interest in a corporation."
+    },
+    {
+      "id": "finance-b2-w5-q4",
+      "type": "fill_in_the_blank",
+      "question": "Next month, the firm ________ (manage) these assets for ten years.",
+      "answer": "will have been managing",
+      "explanation": "Future Perfect Continuous is used to show how long an action will have been in progress at a certain point in the future. (Acceptable: 'will have managed')."
+    },
+    {
+      "id": "finance-b2-w5-q5",
+      "type": "multiple_choice",
+      "question": "The degree of variation in the price of a financial instrument over time is known as:",
+      "options": ["Liquidity", "Volatility", "Solvency", "Inflation"],
+      "answer": "Volatility",
+      "explanation": "Volatility represents the rate at which the price of a stock increases or decreases."
+    },
+    {
+      "id": "finance-b2-w5-q6",
+      "type": "fill_in_the_blank",
+      "question": "Look at the trend; the stock price ________ (drop) significantly.",
+      "answer": "is going to drop",
+      "explanation": "We use 'going to' for predictions based on present evidence."
+    },
+    {
+      "id": "finance-b2-w5-q7",
+      "type": "multiple_choice",
+      "question": "What does ROI stand for?",
+      "options": [
+        "Rate of Inflation",
+        "Return on Investment",
+        "Ratio of Income",
+        "Risk of Insolvency"
+      ],
+      "answer": "Return on Investment",
+      "explanation": "ROI is a performance measure used to evaluate the efficiency of an investment."
+    },
+    {
+      "id": "finance-b2-w5-q8",
+      "type": "fill_in_the_blank",
+      "question": "By the end of the year, we ________ (achieve) our target return.",
+      "answer": "will have achieved",
+      "explanation": "Future Perfect is used for an action that will be completed by a certain time."
+    },
+    {
+      "id": "finance-b2-w5-q9",
+      "type": "multiple_choice",
+      "question": "A standard against which the performance of a portfolio is measured is a:",
+      "options": ["Liability", "Benchmark", "Derivative", "Commodity"],
+      "answer": "Benchmark",
+      "explanation": "Benchmarks are used to compare the performance of a fund or investment manager."
+    },
+    {
+      "id": "finance-b2-w5-q10",
+      "type": "fill_in_the_blank",
+      "question": "This time tomorrow, they ________ (present) the new investment strategy.",
+      "answer": "will be presenting",
+      "explanation": "Future Continuous for an action in progress in the future."
+    },
+    {
+      "id": "finance-b2-w5-q11",
+      "type": "multiple_choice",
+      "question": "Which strategy involves balancing risk and reward by adjusting asset percentages?",
+      "options": ["Asset Allocation", "Day Trading", "Short Selling", "Insider Trading"],
+      "answer": "Asset Allocation",
+      "explanation": "Asset allocation is the process of deciding how to distribute wealth among different investment classes."
+    },
+    {
+      "id": "finance-b2-w5-q12",
+      "type": "fill_in_the_blank",
+      "question": "I ________ (meet) with the fund manager at 3 PM today.",
+      "answer": "am going to meet",
+      "explanation": "'Going to' or Present Continuous can be used for planned future arrangements."
+    },
+    {
+      "id": "finance-b2-w5-q13",
+      "type": "multiple_choice",
+      "question": "Gold, oil, and agricultural products are examples of:",
+      "options": ["Equities", "Bonds", "Commodities", "Real Estate"],
+      "answer": "Commodities",
+      "explanation": "Commodities are basic goods used in commerce that are interchangeable with other goods of the same type."
+    },
+    {
+      "id": "finance-b2-w5-q14",
+      "type": "fill_in_the_blank",
+      "question": "I think the central bank ________ (raise) rates again.",
+      "answer": "will raise",
+      "explanation": "We use 'will' for predictions based on opinion/belief."
+    },
+    {
+      "id": "finance-b2-w5-q15",
+      "type": "multiple_choice",
+      "question": "What is 'Liquidity'?",
+      "options": [
+        "The ability to pay off all debts",
+        "How quickly an asset can be converted into cash",
+        "The total value of a company",
+        "The process of merging two firms"
+      ],
+      "answer": "How quickly an asset can be converted into cash",
+      "explanation": "Liquidity describes the degree to which an asset or security can be quickly bought or sold in the market."
+    },
+    {
+      "id": "finance-b2-w5-q16",
+      "type": "fill_in_the_blank",
+      "question": "They ________ (launch) the new ETF next quarter.",
+      "answer": "are going to launch",
+      "explanation": "Used for a planned intention."
+    },
+    {
+      "id": "finance-b2-w5-q17",
+      "type": "multiple_choice",
+      "question": "An investment contract whose value is linked to an underlying asset is a:",
+      "options": ["Bond", "Equity", "Derivative", "Mutual Fund"],
+      "answer": "Derivative",
+      "explanation": "Derivatives include options, futures, and swaps."
+    },
+    {
+      "id": "finance-b2-w5-q18",
+      "type": "fill_in_the_blank",
+      "question": "By 2026, the global economy ________ (recover) fully.",
+      "answer": "will have recovered",
+      "explanation": "Future Perfect for completion by a certain date."
+    },
+    {
+      "id": "finance-b2-w5-q19",
+      "type": "multiple_choice",
+      "question": "Passive investment strategies typically involve tracking a(n):",
+      "options": ["Individual stock", "Index", "Single commodity", "Private company"],
+      "answer": "Index",
+      "explanation": "Passive management, like index funds, aims to replicate the performance of a specific index."
+    },
+    {
+      "id": "finance-b2-w5-q20",
+      "type": "fill_in_the_blank",
+      "question": "We ________ (audit) the accounts all day on Friday.",
+      "answer": "will be auditing",
+      "explanation": "Future Continuous for an action that will take up a period of time in the future."
+    },
+    {
+      "id": "finance-b2-w5-q21",
+      "type": "multiple_choice",
+      "question": "Fixed Income investments are primarily:",
+      "options": ["Stocks", "Bonds", "Real Estate", "Venture Capital"],
+      "answer": "Bonds",
+      "explanation": "Bonds provide a fixed stream of income via interest payments."
+    },
+    {
+      "id": "finance-b2-w5-q22",
+      "type": "fill_in_the_blank",
+      "question": "I'm sure the CFO ________ (approve) the budget.",
+      "answer": "will approve",
+      "explanation": "Prediction based on belief."
+    },
+    {
+      "id": "finance-b2-w5-q23",
+      "type": "multiple_choice",
+      "question": "Which type of investment focuses on undervalued companies?",
+      "options": ["Growth", "Value", "Momentum", "Day Trading"],
+      "answer": "Value",
+      "explanation": "Value investing involves picking stocks that appear to be trading for less than their intrinsic value."
+    },
+    {
+      "id": "finance-b2-w5-q24",
+      "type": "fill_in_the_blank",
+      "question": "The analyst ________ (publish) her report by tomorrow morning.",
+      "answer": "will have published",
+      "explanation": "Future Perfect."
+    },
+    {
+      "id": "finance-b2-w5-q25",
+      "type": "multiple_choice",
+      "question": "What is 'Asset Management'?",
+      "options": [
+        "Buying things for personal use",
+        "Professional management of securities and assets to meet investment goals",
+        "The process of filing for bankruptcy",
+        "Printing money"
+      ],
+      "answer": "Professional management of securities and assets to meet investment goals",
+      "explanation": "Asset managers handle portfolios for individuals or institutional investors."
+    },
+    {
+      "id": "finance-b2-w5-q26",
+      "type": "fill_in_the_blank",
+      "question": "Are you ________ (attend) the investment seminar next week?",
+      "answer": "going to attend",
+      "explanation": "Future intention question."
+    },
+    {
+      "id": "finance-b2-w5-q27",
+      "type": "multiple_choice",
+      "question": "Which of these is a 'Growth' investment characteristic?",
+      "options": [
+        "High dividends and low risk",
+        "High potential for capital appreciation",
+        "Trading below book value",
+        "Government backing"
+      ],
+      "answer": "High potential for capital appreciation",
+      "explanation": "Growth stocks are expected to grow at a rate significantly above the average for the market."
+    },
+    {
+      "id": "finance-b2-w5-q28",
+      "type": "fill_in_the_blank",
+      "question": "The market ________ (close) by the time you reach the office.",
+      "answer": "will have closed",
+      "explanation": "Future Perfect."
+    },
+    {
+      "id": "finance-b2-w5-q29",
+      "type": "multiple_choice",
+      "question": "Active management involves:",
+      "options": [
+        "Following an index exactly",
+        "Frequent buying and selling to outperform a benchmark",
+        "Doing nothing for 10 years",
+        "Only buying gold"
+      ],
+      "answer": "Frequent buying and selling to outperform a benchmark",
+      "explanation": "Active managers rely on analytical research and their own judgment."
+    },
+    {
+      "id": "finance-b2-w5-q30",
+      "type": "fill_in_the_blank",
+      "question": "In ten years, people ________ (use) digital currencies for everything.",
+      "answer": "will be using",
+      "explanation": "Future Continuous for a future state/action in progress."
+    },
+    {
+      "id": "finance-b2-w5-q31",
+      "type": "multiple_choice",
+      "question": "A portfolio with 90% stocks and 10% bonds is considered:",
+      "options": ["Conservative", "Aggressive", "Risk-free", "Stable"],
+      "answer": "Aggressive",
+      "explanation": "High equity exposure generally means higher risk and higher potential return."
+    },
+    {
+      "id": "finance-b2-w5-q32",
+      "type": "fill_in_the_blank",
+      "question": "We ________ (see) more volatility in the coming weeks.",
+      "answer": "will see",
+      "explanation": "Prediction."
+    },
+    {
+      "id": "finance-b2-w5-q33",
+      "type": "multiple_choice",
+      "question": "What is an 'ETF'?",
+      "options": [
+        "Electronic Transfer Fund",
+        "Exchange-Traded Fund",
+        "Equity Trust Foundation",
+        "External Trade Finance"
+      ],
+      "answer": "Exchange-Traded Fund",
+      "explanation": "ETFs are investment funds traded on stock exchanges, much like individual stocks."
+    },
+    {
+      "id": "finance-b2-w5-q34",
+      "type": "fill_in_the_blank",
+      "question": "The board ________ (decide) on the merger by Friday.",
+      "answer": "will have decided",
+      "explanation": "Future Perfect."
+    },
+    {
+      "id": "finance-b2-w5-q35",
+      "type": "multiple_choice",
+      "question": "Real Estate investment can include:",
+      "options": ["Residential property", "Commercial property", "REITs", "All of the above"],
+      "answer": "All of the above",
+      "explanation": "Real estate covers various types of physical property and related financial vehicles."
+    },
+    {
+      "id": "finance-b2-w5-q36",
+      "type": "fill_in_the_blank",
+      "question": "Wait! I ________ (help) you with those financial models.",
+      "answer": "will help",
+      "explanation": "'Will' for a spontaneous offer."
+    },
+    {
+      "id": "finance-b2-w5-q37",
+      "type": "multiple_choice",
+      "question": "Which term describes the 'safety net' of cash in an investment plan?",
+      "options": ["Capital gain", "Cash reserve", "Bull market", "Bear market"],
+      "answer": "Cash reserve",
+      "explanation": "A cash reserve provides liquidity for emergencies or new opportunities."
+    },
+    {
+      "id": "finance-b2-w5-q38",
+      "type": "fill_in_the_blank",
+      "question": "The interns ________ (work) in the trading room next month.",
+      "answer": "will be working",
+      "explanation": "Future Continuous."
+    },
+    {
+      "id": "finance-b2-w5-q39",
+      "type": "multiple_choice",
+      "question": "What is a 'Capital Gain'?",
+      "options": [
+        "A tax you pay on income",
+        "The profit from the sale of an asset",
+        "The total debt of a company",
+        "A type of bank account"
+      ],
+      "answer": "The profit from the sale of an asset",
+      "explanation": "Capital gain occurs when an asset is sold for more than its purchase price."
+    },
+    {
+      "id": "finance-b2-w5-q40",
+      "type": "fill_in_the_blank",
+      "question": "By 5 PM, I ________ (finish) the portfolio review.",
+      "answer": "will have finished",
+      "explanation": "Future Perfect."
+    },
+    {
+      "id": "finance-b2-w5-q41",
+      "type": "multiple_choice",
+      "question": "Risk Tolerance refers to:",
+      "options": [
+        "The total amount of money invested",
+        "An investor's ability and willingness to lose some or all of an original investment",
+        "The legal rules for banks",
+        "The speed of a computer"
+      ],
+      "answer": "An investor's ability and willingness to lose some or all of an original investment",
+      "explanation": "Understanding risk tolerance is vital for appropriate asset allocation."
+    },
+    {
+      "id": "finance-b2-w5-q42",
+      "type": "fill_in_the_blank",
+      "question": "The company ________ (invest) $50 million in R&D next year.",
+      "answer": "is going to invest",
+      "explanation": "Intention/Plan."
+    },
+    {
+      "id": "finance-b2-w5-q43",
+      "type": "multiple_choice",
+      "question": "What happens in a 'Bear Market'?",
+      "options": [
+        "Prices are rising",
+        "Prices are falling",
+        "The market is closed for holidays",
+        "Bears are allowed to trade"
+      ],
+      "answer": "Prices are falling",
+      "explanation": "A bear market is a period of declining stock prices, typically by 20% or more."
+    },
+    {
+      "id": "finance-b2-w5-q44",
+      "type": "fill_in_the_blank",
+      "question": "They ________ (trade) until the bell rings.",
+      "answer": "will be trading",
+      "explanation": "Future Continuous."
+    },
+    {
+      "id": "finance-b2-w5-q45",
+      "type": "multiple_choice",
+      "question": "A 'Bull Market' is characterized by:",
+      "options": ["Pessimism", "Optimism and rising prices", "Zero interest rates", "High unemployment"],
+      "answer": "Optimism and rising prices",
+      "explanation": "A bull market is when the economy is great and stock prices are rising."
+    },
+    {
+      "id": "finance-b2-w5-q46",
+      "type": "fill_in_the_blank",
+      "question": "I ________ (not / be) at the office next Monday.",
+      "answer": "will not be",
+      "explanation": "Future negative (fact)."
+    },
+    {
+      "id": "finance-b2-w5-q47",
+      "type": "multiple_choice",
+      "question": "Yield is usually expressed as a:",
+      "options": ["Percentage", "Dollar amount", "Letter", "Fraction"],
+      "answer": "Percentage",
+      "explanation": "Yield is the income return on an investment, such as interest or dividends."
+    },
+    {
+      "id": "finance-b2-w5-q48",
+      "type": "fill_in_the_blank",
+      "question": "The dividends ________ (arrive) in your account tomorrow.",
+      "answer": "will arrive",
+      "explanation": "Future fact/prediction."
+    },
+    {
+      "id": "finance-b2-w5-q49",
+      "type": "multiple_choice",
+      "question": "What is 'Rebalancing' a portfolio?",
+      "options": [
+        "Withdrawing all cash",
+        "Adjusting the weights of assets back to the original target allocation",
+        "Closing the account",
+        "Opening a second account"
+      ],
+      "answer": "Adjusting the weights of assets back to the original target allocation",
+      "explanation": "Rebalancing ensures the risk level remains consistent with the investor's goals."
+    },
+    {
+      "id": "finance-b2-w5-q50",
+      "type": "fill_in_the_blank",
+      "question": "By next week, the team ________ (finalize) the asset management agreement.",
+      "answer": "will have finalized",
+      "explanation": "Future Perfect."
+    }
+  ]
+}

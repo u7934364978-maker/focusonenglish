@@ -1,0 +1,20 @@
+{
+  "title": "Medical Equipment and Medication",
+  "sections": [
+    {
+      "id": "medical-equipment",
+      "title": "Common Hospital Equipment",
+      "content": "Medical professionals must be familiar with the tools used for diagnosis and treatment.\n\nKey Equipment:\n1. **Stethoscope**: Used to listen to the heart and lungs.\n2. **Sphygmomanometer**: Used to measure blood pressure.\n3. **Scalpel**: A small, sharp knife used in surgery.\n4. **Syringe and Needle**: Used for injections or withdrawing blood.\n5. **Gurney/Stretcher**: A wheeled bed for moving patients.\n6. **Defibrillator**: A device that gives an electric shock to the heart.\n7. **IV Pole**: A stand used to hang intravenous fluids.\n8. **Wheelchair**: For patients who cannot walk."
+    },
+    {
+      "id": "medication-prescriptions",
+      "title": "Medication and Prescriptions",
+      "content": "When administering or prescribing drugs, accuracy is vital to patient safety.\n\nTypes of Medication:\n- **Antibiotics**: To treat bacterial infections.\n- **Analgesics**: To relieve pain (painkillers).\n- **Antipyretics**: To reduce fever.\n- **Antihistamines**: To treat allergies.\n- **Vaccines**: To prevent diseases.\n\nAdministration Routes:\n- **Oral**: Taken by mouth (tablets, capsules, liquids).\n- **Intravenous (IV)**: Injected into a vein.\n- **Intramuscular (IM)**: Injected into a muscle.\n- **Topical**: Applied to the skin (creams, ointments).\n\nUseful Vocabulary:\n- **Dosage**: The amount of medicine to be taken.\n- **Side effects**: Unwanted reactions to a drug.\n- **Prescription**: A formal instruction from a doctor for a patient to receive medicine."
+    },
+    {
+      "id": "grammar-modals-obligation",
+      "title": "Grammar: Modals of Obligation and Necessity",
+      "content": "In a medical setting, we use specific modals to talk about rules, advice, and requirements.\n\n1. **Must / Have to** (Obligation):\n   - *\"You **must** wash your hands before entering the ward.\"* (Strong rule/internal obligation)\n   - *\"The patient **has to** stay in bed for 24 hours.\"* (External requirement)\n\n2. **Should / Ought to** (Advice/Recommendation):\n   - *\"You **should** drink plenty of fluids.\"*\n   - *\"The patient **ought to** see a specialist.\"*\n\n3. **Mustn't** (Prohibition - DO NOT DO):\n   - *\"You **mustn't** eat anything before the surgery.\"*\n\n4. **Don't have to / Needn't** (Lack of obligation - NOT NECESSARY):\n   - *\"The patient **doesn't have to** pay for this test.\"*\n   - *\"You **needn't** worry about the results.\"*"
+    }
+  ]
+}

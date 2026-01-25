@@ -1,0 +1,25 @@
+{
+  "title": "Taxation and International Finance",
+  "sections": [
+    {
+      "id": "taxation-principles",
+      "title": "Corporate Taxation Principles",
+      "content": "Taxation is a major consideration in corporate decision-making and financial planning.\n\n### Key Tax Terms\n- **Corporate Tax**: A tax on the profits of a corporation.\n- **VAT (Value Added Tax)**: A consumption tax placed on a product whenever value is added at each stage of the supply chain.\n- **Withholding Tax**: Tax deducted at source from income (like dividends or interest) paid to non-residents.\n- **Tax Evasion**: The illegal non-payment or underpayment of taxes.\n- **Tax Avoidance**: The legal utilization of the tax regime to one's own advantage, to minimize the amount of tax that is payable.\n- **Deferred Tax**: An accounting concept representing taxes that are owed but not yet paid (or overpaid and to be recovered)."
+    },
+    {
+      "id": "international-finance",
+      "title": "International Finance and Exchange Rates",
+      "content": "Global companies must manage exposure to multiple currencies and international regulations.\n\n### Forex and Risk\n- **Forex (Foreign Exchange)**: The market where currencies are traded.\n- **Spot Rate**: The current exchange rate at which a currency pair can be bought or sold.\n- **Forward Rate**: An exchange rate quoted today for a transaction that will occur on a specific future date.\n- **Currency Hedging**: Using financial instruments to protect against losses from exchange rate fluctuations.\n- **Transfer Pricing**: The price at which divisions of a multi-national company transacts with each other (often scrutinized by tax authorities to prevent profit shifting)."
+    },
+    {
+      "id": "auditing-standards",
+      "title": "International Auditing Standards (ISA)",
+      "content": "Consistency in auditing across borders is maintained through international standards.\n\n- **ISA (International Standards on Auditing)**: Professional standards for the performance of financial audits of financial information.\n- **Professional Skepticism**: An attitude that includes a questioning mind and a critical assessment of audit evidence.\n- **Internal Audit vs. External Audit**: Internal auditors are employees who evaluate risk and controls, while external auditors are independent third parties who verify financial statements."
+    },
+    {
+      "id": "grammar-conditionals",
+      "title": "Grammar: Conditionals in Professional Contexts",
+      "content": "Conditionals are essential for discussing hypothetical scenarios, risks, and forecasts.\n\n1. **Zero Conditional** (Facts/General Truths):\n   - *\"If inflation **rises**, interest rates usually **follow**.\"*\n\n2. **First Conditional** (Real possibilities in the future):\n   - *\"If we **sign** the deal today, the funds **will be transferred** by Friday.\"*\n\n3. **Second Conditional** (Hypothetical/Unlikely present or future):\n   - *\"If we **had** more capital, we **would acquire** that competitor.\"*\n\n4. **Third Conditional** (Hypothetical past - Regrets or missed opportunities):\n   - *\"If the bank **had identified** the risk earlier, they **would have avoided** the bankruptcy.\"*\n\n### Mixed Conditionals\nUsed to link a past condition with a present result:\n- *\"If we **hadn't invested** in that startup last year, our balance sheet **would be** much stronger now.\"*"
+    }
+  ]
+}
