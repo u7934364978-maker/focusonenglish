@@ -69,7 +69,7 @@ function MixedPracticeContent({ level }: MixedPracticePageProps) {
         console.log(`🎯 Generating exercise ${currentExerciseIndex + 1}/${exerciseSpecs.length}:`, spec);
         
         const exercise = await generateExercise({
-          level: spec.topic,
+          level: level,
           category: spec.category,
           topic: spec.topic,
           topicName: spec.topicName,

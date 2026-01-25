@@ -78,6 +78,7 @@ export interface XPEvent {
 export type XPSource = 
   | 'lesson-completion'
   | 'perfect-score'
+  | 'perfect-exercise-bonus'
   | 'streak-bonus'
   | 'badge-unlock'
   | 'practice-session'

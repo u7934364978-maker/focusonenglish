@@ -248,7 +248,7 @@ export default function CursosPage() {
                     </div>
 
                     <Link
-                      href="/signup"
+                      href="/cuenta/registro"
                       className={`block w-full text-center bg-gradient-to-r ${course.gradient} text-white py-4 rounded-xl font-bold text-lg hover:opacity-90 transition-opacity`}
                     >
                       Inscribirme Ahora →

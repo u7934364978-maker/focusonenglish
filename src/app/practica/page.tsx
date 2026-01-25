@@ -9,14 +9,19 @@ export const runtime = 'edge';
 // Sistema mejorado con generación automática y fluida de ejercicios
 // ============================================
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import PracticeSelector, { PracticeConfig } from '@/components/practice/PracticeSelector';
 import PracticeExerciseViewer from '@/components/practice/PracticeExerciseViewer';
+import { useGamification } from '@/lib/hooks/use-gamification';
+import { supabase } from '@/lib/supabase-client';
+import { CEFRLevel } from '@/lib/exercise-types';
 
 
 export default function PracticePage() {
   const router = useRouter();
+  const gamification = useGamification();
+  const [userLevel, setUserLevel] = useState<CEFRLevel>('B2');
   const [practicing, setPracticing] = useState(false);
   const [practiceConfig, setPracticeConfig] = useState<PracticeConfig | null>(null);
   const [currentExercises, setCurrentExercises] = useState<any>(null);
@@ -26,8 +31,26 @@ export default function PracticePage() {
   const [totalScore, setTotalScore] = useState(0);
   const [isFallback, setIsFallback] = useState(false);
   const [fallbackMessage, setFallbackMessage] = useState<string | null>(null);
-  const [sessionStartTime] = useState(Date.now());
+  const [sessionStartTime, setSessionStartTime] = useState(Date.now());
   const [bestScore, setBestScore] = useState(0);
+
+  useEffect(() => {
+    async function loadUserLevel() {
+      const { data: { user } } = await supabase.auth.getUser();
+      if (user) {
+        const { data: profile } = await supabase
+          .from('users')
+          .select('language_level')
+          .eq('email', user.email)
+          .single();
+        
+        if (profile?.language_level) {
+          setUserLevel(profile.language_level);
+        }
+      }
+    }
+    loadUserLevel();
+  }, []);
 
   const generateNextExercise = async (config: PracticeConfig) => {
     setLoading(true);
@@ -100,6 +123,15 @@ export default function PracticePage() {
     setExercisesCompleted(newExercisesCompleted);
     setTotalScore(newTotalScore);
 
+    // Registrar en gamificación
+    if (currentExercises?.exercises?.[0]?.id) {
+      await gamification.completeExercise(
+        currentExercises.exercises[0].id,
+        score,
+        100
+      );
+    }
+
     // Generar siguiente ejercicio automáticamente sin confirmación
     if (practiceConfig) {
       // Pequeño delay para mostrar feedback antes de cargar el siguiente
@@ -109,10 +141,43 @@ export default function PracticePage() {
     }
   };
 
-  const handleExit = () => {
+  const handleExit = async () => {
     const finalAverage = exercisesCompleted > 0 ? Math.round(totalScore / exercisesCompleted) : 0;
     const sessionDuration = Math.round((Date.now() - sessionStartTime) / 60000); // minutos
     
+    // Guardar sesión en la base de datos
+    try {
+      const { data: { user } } = await supabase.auth.getUser();
+      if (user) {
+        await supabase.from('practice_sessions').insert({
+          user_id: user.id,
+          session_type: practiceConfig?.exerciseType || 'general',
+          duration_minutes: sessionDuration,
+          exercises_completed: exercisesCompleted,
+          correct_answers: Math.round((totalScore / 100)), // Estimación basada en score total
+          topics_practiced: practiceConfig?.topic ? [practiceConfig.topic] : [],
+          completed_at: new Date().toISOString()
+        });
+        
+        // También actualizar user_stats para Analytics
+        const { data: stats } = await supabase
+          .from('user_stats')
+          .select('total_exercises_completed, total_study_time_minutes')
+          .eq('user_id', user.id)
+          .single();
+        
+        await supabase.from('user_stats').upsert({
+          user_id: user.id,
+          total_exercises_completed: (stats?.total_exercises_completed || 0) + exercisesCompleted,
+          total_study_time_minutes: (stats?.total_study_time_minutes || 0) + sessionDuration,
+          last_activity_date: new Date().toISOString(),
+          updated_at: new Date().toISOString()
+        });
+      }
+    } catch (dbError) {
+      console.error('Error saving practice session:', dbError);
+    }
+
     const summary = `🎉 ¡Excelente sesión de práctica!\n\n` +
       `📊 Resumen:\n` +
       `• Ejercicios completados: ${exercisesCompleted}\n` +
@@ -312,7 +377,7 @@ export default function PracticePage() {
       )}
 
       {/* Practice Selector */}
-      <PracticeSelector onStartPractice={handleStartPractice} userLevel="B2" />
+      <PracticeSelector onStartPractice={handleStartPractice} userLevel={userLevel} />
     </div>
   );
 }

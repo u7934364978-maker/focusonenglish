@@ -206,7 +206,7 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
 
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Link
-              href="/signup"
+              href="/cuenta/registro"
               className="inline-flex h-12 items-center justify-center rounded-xl bg-gradient-to-r from-coral-600 to-peach-600 px-8 text-base font-bold text-white hover:from-coral-700 hover:to-peach-700 transition-all shadow-lg hover:shadow-xl"
             >
               Inscribirme Ahora →

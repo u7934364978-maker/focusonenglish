@@ -10,47 +10,141 @@
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { supabase } from '@/lib/supabase-client';
+import { getUser } from '@/lib/auth-helpers';
+import { calculateXPForLevel, getLevelTitle } from '@/lib/gamification/xp';
 
-
-// Mock data - en producción vendría de Supabase
-const mockUserData = {
-  name: 'Sarah',
-  email: 'sarah@focus-on-english.com',
-  level: 'Advanced Learner',
-  levelNumber: 5,
-  xp: 450,
-  xpTarget: 1000,
-  streakDays: 7,
-  currentTopic: 'Advanced Grammar Structures',
-  stats: {
-    lessonsCompleted: 12,
-    lessonsTarget: 20,
-    wordsCompleted: 156,
-    wordsTarget: 200,
-    listeningMinutes: 45,
-    listeningTarget: 60,
-    exercisesCompleted: 87,
-    averageScore: 85,
-    totalMinutes: 180,
-    perfectScores: 12,
-  },
+// Helper to map levels
+const levelLabels: { [key: string]: string } = {
+  'A1': 'Principiante (A1)',
+  'A2': 'Elemental (A2)',
+  'B1': 'Intermedio (B1)',
+  'B2': 'Intermedio Alto (B2)',
+  'C1': 'Avanzado (C1)',
+  'C2': 'Maestría (C2)',
 };
 
 export default function DashboardPage() {
   const router = useRouter();
-  const [loading, setLoading] = useState(false);
-  const [userData] = useState(mockUserData);
+  const [loading, setLoading] = useState(true);
+  const [userData, setUserData] = useState<any>(null);
+  const [stats, setStats] = useState<any>(null);
 
   useEffect(() => {
-    setLoading(false);
-  }, []);
+    async function loadDashboardData() {
+      try {
+        const { user, error: userError } = await getUser();
+        
+        if (userError || !user) {
+          router.push('/cuenta/login');
+          return;
+        }
 
-  if (loading) {
+        // Fetch profile data from public.users
+        const { data: profile, error: profileError } = await supabase
+          .from('users')
+          .select('*')
+          .eq('email', user.email)
+          .single();
+
+        // Fetch progress stats using RPC
+        const { data: progressStats, error: statsError } = await supabase
+          .rpc('get_user_progress_stats', { p_user_id: user.id });
+
+        // Fetch XP and Level
+        const { data: xpData, error: xpError } = await supabase
+          .from('user_xp')
+          .select('*')
+          .eq('user_id', user.id)
+          .single();
+
+        // Fetch Streak
+        const { data: streakData, error: streakError } = await supabase
+          .from('user_streaks')
+          .select('*')
+          .eq('user_id', user.id)
+          .single();
+
+        // Fetch User Stats for aggregate data
+        const { data: userStats, error: userStatsError } = await supabase
+          .from('user_stats')
+          .select('*')
+          .eq('user_id', user.id)
+          .single();
+
+        // Fetch Practice Sessions summary
+        const { data: practiceSessions, error: practiceError } = await supabase
+          .from('practice_sessions')
+          .select('duration_minutes, exercises_completed')
+          .eq('user_id', user.id);
+
+        if (profileError) console.error('Error fetching profile:', profileError);
+        if (statsError) console.error('Error fetching stats:', statsError);
+        if (xpError) console.error('Error fetching XP:', xpError);
+        if (streakError) console.error('Error fetching streak:', streakError);
+        if (userStatsError) console.error('Error fetching user stats:', userStatsError);
+        if (practiceError) console.error('Error fetching practice sessions:', practiceError);
+
+        // Calculate XP progress within current level
+        const currentLevel = xpData?.level || 1;
+        const totalXP = xpData?.total_xp || 0;
+        const xpAtStartOfCurrentLevel = calculateXPForLevel(currentLevel);
+        const xpInCurrentLevel = totalXP - xpAtStartOfCurrentLevel;
+        const xpToNextLevel = xpData?.xp_to_next_level || 100;
+        const xpTargetForLevel = xpInCurrentLevel + xpToNextLevel;
+
+        setUserData({
+          name: profile?.name || user.user_metadata?.name || 'Estudiante',
+          email: user.email,
+          level: profile?.language_level ? levelLabels[profile.language_level] : 'No asignado',
+          xp: xpInCurrentLevel,
+          xpTarget: xpTargetForLevel,
+          totalXp: totalXP,
+          streakDays: streakData?.current_streak || 0,
+          userLevel: currentLevel,
+          levelTitle: getLevelTitle(currentLevel),
+        });
+
+        const statsData = progressStats?.[0] || {
+          total_lessons: 0,
+          completed_lessons: 0,
+          average_score: 0,
+          total_time_spent: 0
+        };
+
+        // Aggregate practice session data
+        const practiceTotalMinutes = practiceSessions?.reduce((acc: number, s: any) => acc + (s.duration_minutes || 0), 0) || 0;
+        const practiceTotalExercises = practiceSessions?.reduce((acc: number, s: any) => acc + (s.exercises_completed || 0), 0) || 0;
+
+        setStats({
+          lessonsCompleted: statsData.completed_lessons,
+          lessonsTarget: statsData.total_lessons || 10,
+          wordsCompleted: userStats?.total_exercises_completed || practiceTotalExercises, 
+          wordsTarget: 500, // New target for vocabulary/exercises
+          listeningMinutes: Math.round(statsData.total_time_spent / 60) + practiceTotalMinutes,
+          listeningTarget: 120, // 2 hours target
+          exercisesCompleted: statsData.completed_lessons + practiceTotalExercises,
+          averageScore: Math.round(statsData.average_score || 0),
+          totalMinutes: Math.round(statsData.total_time_spent / 60) + practiceTotalMinutes,
+          perfectScores: 0, // Mock for now
+        });
+
+      } catch (error) {
+        console.error('Error loading dashboard:', error);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    loadDashboardData();
+  }, [router]);
+
+  if (loading || !userData) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-coral-600 mx-auto"></div>
-          <p className="mt-4 text-gray-600">Cargando...</p>
+          <p className="mt-4 text-gray-600">Cargando tu progreso...</p>
         </div>
       </div>
     );
@@ -67,7 +161,7 @@ export default function DashboardPage() {
                 ¡Hola, {userData.name.split(' ')[0]}! 👋
               </h1>
               <p className="text-base text-coral-100 mt-2">
-                Continúa fortaleciendo tu inglés • Nivel: <span className="font-bold text-white">{userData.level}</span>
+                Continúa fortaleciendo tu inglés • Nivel: <span className="font-bold text-white">{userData.level}</span> {userData.userLevel > 0 && <span className="ml-2 bg-white/20 px-3 py-1 rounded-full text-xs font-bold text-white border border-white/30">{userData.levelTitle} (Lvl {userData.userLevel})</span>}
               </p>
             </div>
             <div className="flex items-center gap-3">
@@ -150,7 +244,8 @@ export default function DashboardPage() {
                   {Math.round((userData.xp / userData.xpTarget) * 100)}%
                 </span>
               </div>
-              <h3 className="text-sm font-semibold text-gray-600 mb-2">Experiencia</h3>
+              <h3 className="text-sm font-semibold text-gray-600 mb-1">Nivel {userData.userLevel}</h3>
+              <p className="text-xs font-bold text-coral-500 mb-2 uppercase tracking-tighter">{userData.levelTitle}</p>
               <div className="relative h-2 bg-gray-200 rounded-full overflow-hidden">
                 <div 
                   className="absolute h-full bg-gradient-to-r from-coral-500 to-peach-500 rounded-full transition-all duration-500"
@@ -167,18 +262,18 @@ export default function DashboardPage() {
               <div className="flex items-center justify-between mb-3">
                 <span className="text-2xl">📚</span>
                 <span className="text-sm font-bold text-amber-600">
-                  {Math.round((userData.stats.lessonsCompleted / userData.stats.lessonsTarget) * 100)}%
+                  {stats.lessonsTarget > 0 ? Math.round((stats.lessonsCompleted / stats.lessonsTarget) * 100) : 0}%
                 </span>
               </div>
               <h3 className="text-sm font-semibold text-gray-600 mb-2">Lecciones</h3>
               <div className="relative h-2 bg-gray-200 rounded-full overflow-hidden">
                 <div 
                   className="absolute h-full bg-gradient-to-r from-amber-500 to-orange-500 rounded-full transition-all duration-500"
-                  style={{ width: `${Math.min((userData.stats.lessonsCompleted / userData.stats.lessonsTarget) * 100, 100)}%` }}
+                  style={{ width: `${stats.lessonsTarget > 0 ? Math.min((stats.lessonsCompleted / stats.lessonsTarget) * 100, 100) : 0}%` }}
                 ></div>
               </div>
               <p className="text-xs text-gray-500 mt-2">
-                {userData.stats.lessonsCompleted} / {userData.stats.lessonsTarget} completadas
+                {stats.lessonsCompleted} / {stats.lessonsTarget} completadas
               </p>
             </div>
 
@@ -187,18 +282,18 @@ export default function DashboardPage() {
               <div className="flex items-center justify-between mb-3">
                 <span className="text-2xl">📝</span>
                 <span className="text-sm font-bold text-peach-600">
-                  {Math.round((userData.stats.wordsCompleted / userData.stats.wordsTarget) * 100)}%
+                  {stats.wordsTarget > 0 ? Math.round((stats.wordsCompleted / stats.wordsTarget) * 100) : 0}%
                 </span>
               </div>
               <h3 className="text-sm font-semibold text-gray-600 mb-2">Vocabulario</h3>
               <div className="relative h-2 bg-gray-200 rounded-full overflow-hidden">
                 <div 
                   className="absolute h-full bg-gradient-to-r from-peach-500 to-orange-500 rounded-full transition-all duration-500"
-                  style={{ width: `${Math.min((userData.stats.wordsCompleted / userData.stats.wordsTarget) * 100, 100)}%` }}
+                  style={{ width: `${stats.wordsTarget > 0 ? Math.min((stats.wordsCompleted / stats.wordsTarget) * 100, 100) : 0}%` }}
                 ></div>
               </div>
               <p className="text-xs text-gray-500 mt-2">
-                {userData.stats.wordsCompleted} / {userData.stats.wordsTarget} palabras
+                {stats.wordsCompleted} / {stats.wordsTarget} palabras
               </p>
             </div>
 
@@ -207,38 +302,38 @@ export default function DashboardPage() {
               <div className="flex items-center justify-between mb-3">
                 <span className="text-2xl">🎯</span>
                 <span className="text-sm font-bold text-melon-600">
-                  {userData.stats.averageScore}%
+                  {stats.averageScore}%
                 </span>
               </div>
               <h3 className="text-sm font-semibold text-gray-600 mb-2">Promedio</h3>
               <div className="relative h-2 bg-gray-200 rounded-full overflow-hidden">
                 <div 
                   className="absolute h-full bg-gradient-to-r from-melon-500 to-coral-500 rounded-full transition-all duration-500"
-                  style={{ width: `${userData.stats.averageScore}%` }}
+                  style={{ width: `${stats.averageScore}%` }}
                 ></div>
               </div>
               <p className="text-xs text-gray-500 mt-2">
-                {userData.stats.exercisesCompleted} ejercicios completados
+                {stats.exercisesCompleted} ejercicios completados
               </p>
             </div>
           </div>
           
-          {/* Tu Progreso de Hoy */}
+          {/* Tu Progreso Acumulado */}
           <div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-coral-100">
             <div className="text-center">
               <span className="text-4xl mb-4 block">📈</span>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Tu Progreso Hoy</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Tu Progreso Acumulado</h3>
               <div className="grid grid-cols-3 gap-4">
                 <div>
-                  <div className="text-3xl font-black text-coral-600">{userData.stats.exercisesCompleted}</div>
-                  <div className="text-xs text-gray-600 mt-1">Ejercicios</div>
+                  <div className="text-3xl font-black text-coral-600">{stats.exercisesCompleted}</div>
+                  <div className="text-xs text-gray-600 mt-1">Actividades</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-black text-peach-600">{userData.stats.totalMinutes}</div>
+                  <div className="text-3xl font-black text-peach-600">{stats.totalMinutes}</div>
                   <div className="text-xs text-gray-600 mt-1">Minutos</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-black text-amber-600">{userData.stats.perfectScores}</div>
+                  <div className="text-3xl font-black text-amber-600">{stats.perfectScores}</div>
                   <div className="text-xs text-gray-600 mt-1">Perfectos</div>
                 </div>
               </div>

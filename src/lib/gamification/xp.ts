@@ -1,4 +1,5 @@
 import { UserLevel, XPEvent, XPSource } from './types';
+import { supabase } from '@/lib/supabase-client';
 
 /**
  * XP REWARDS CONFIGURATION
@@ -7,6 +8,7 @@ import { UserLevel, XPEvent, XPSource } from './types';
 export const XP_REWARDS: Record<XPSource, number> = {
   'lesson-completion': 100,
   'perfect-score': 50,
+  'perfect-exercise-bonus': 10,
   'streak-bonus': 25,
   'badge-unlock': 0, // Variable, depende del badge
   'practice-session': 20,
@@ -19,7 +21,6 @@ export const XP_REWARDS: Record<XPSource, number> = {
  */
 export const LEVEL_CONFIG = {
   BASE_XP: 100,
-  XP_MULTIPLIER: 1.5,
   MAX_LEVEL: 100
 };
 
@@ -43,45 +44,31 @@ export const LEVEL_TITLES: { min: number; max: number; title: string }[] = [
 ];
 
 /**
- * Calculate XP required for a specific level
+ * Calculate XP required for a specific level (start of level)
+ * Using quadratic formula: XP = (level - 1)^2 * 100
  */
 export function calculateXPForLevel(level: number): number {
   if (level <= 1) return 0;
-  return Math.floor(
-    LEVEL_CONFIG.BASE_XP * Math.pow(LEVEL_CONFIG.XP_MULTIPLIER, level - 1)
-  );
+  return Math.pow(level - 1, 2) * LEVEL_CONFIG.BASE_XP;
 }
 
 /**
- * Calculate total XP required from level 1 to target level
+ * Calculate total XP required to reach the END of a level (start of next level)
  */
 export function calculateTotalXPForLevel(level: number): number {
-  let total = 0;
-  for (let i = 2; i <= level; i++) {
-    total += calculateXPForLevel(i);
-  }
-  return total;
+  return calculateXPForLevel(level + 1);
 }
 
 /**
  * Calculate current level and progress from total XP
+ * Formula: level = sqrt(totalXP / 100) + 1
  */
 export function calculateLevelFromXP(totalXP: number): UserLevel {
-  let currentLevel = 1;
-  let xpAccumulated = 0;
-
-  // Find current level
-  for (let level = 1; level <= LEVEL_CONFIG.MAX_LEVEL; level++) {
-    const xpForNextLevel = calculateXPForLevel(level + 1);
-    if (xpAccumulated + xpForNextLevel > totalXP) {
-      currentLevel = level;
-      break;
-    }
-    xpAccumulated += xpForNextLevel;
-  }
-
-  const currentXP = totalXP - xpAccumulated;
-  const xpToNextLevel = calculateXPForLevel(currentLevel + 1);
+  const currentLevel = Math.floor(Math.sqrt(totalXP / LEVEL_CONFIG.BASE_XP)) + 1;
+  const xpAtStartOfCurrentLevel = calculateXPForLevel(currentLevel);
+  const currentXP = totalXP - xpAtStartOfCurrentLevel;
+  const xpAtStartOfNextLevel = calculateXPForLevel(currentLevel + 1);
+  const xpToNextLevel = xpAtStartOfNextLevel - totalXP;
   const title = getLevelTitle(currentLevel);
 
   return {
@@ -112,9 +99,68 @@ export function calculateXPPercentage(currentXP: number, xpToNextLevel: number):
 }
 
 /**
- * Award XP to user
+ * Award XP to user (Database version)
  */
-export function awardXP(
+export async function awardXP(
+  userId: string, 
+  amount: number, 
+  source: string, 
+  sourceId?: string, 
+  description?: string
+): Promise<{ totalXP: number; level: number; xpToNextLevel: number } | null> {
+  try {
+    // 1. Record transaction
+    const { error: txError } = await supabase
+      .from('xp_transactions')
+      .insert({
+        user_id: userId,
+        amount,
+        source,
+        source_id: sourceId,
+        description
+      });
+
+    if (txError) throw txError;
+
+    // 2. Get current XP
+    const { data: currentXPData, error: fetchError } = await supabase
+      .from('user_xp')
+      .select('total_xp')
+      .eq('user_id', userId)
+      .single();
+
+    if (fetchError && fetchError.code !== 'PGRST116') throw fetchError;
+
+    const newTotalXP = (currentXPData?.total_xp || 0) + amount;
+
+    // 3. Update user XP (trigger will handle leveling)
+    const { data: updatedData, error: updateError } = await supabase
+      .from('user_xp')
+      .upsert({
+        user_id: userId,
+        total_xp: newTotalXP,
+        updated_at: new Date().toISOString()
+      })
+      .select()
+      .single();
+
+    if (updateError) throw updateError;
+
+    return {
+      totalXP: updatedData.total_xp,
+      level: updatedData.level,
+      xpToNextLevel: updatedData.xp_to_next_level
+    };
+  } catch (error) {
+    console.error('Error in awardXP:', error);
+    return null;
+  }
+}
+
+/**
+ * Award XP to user (Pure function version)
+ */
+export function calculateAwardXP(
   currentLevel: UserLevel,
   amount: number,
   source: XPSource
@@ -131,6 +177,9 @@ export function awardXP(
     levelsGained
   };
 }
+
+// Alias for compatibility
+export const calculateLevel = calculateLevelFromXP;
 
 /**
  * Get XP reward for an action

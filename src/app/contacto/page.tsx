@@ -240,7 +240,7 @@ export default function ContactPage() {
               </Link>
 
               <Link
-                href="/signup"
+                href="/cuenta/registro"
                 className="bg-gradient-to-br from-amber-50 to-amber-50 rounded-xl p-6 border border-amber-200 hover:shadow-lg transition-shadow group"
               >
                 <div className="text-3xl mb-3">✍️</div>

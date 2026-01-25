@@ -23,6 +23,16 @@ import { GamificationWidget } from '@/components/gamification/GamificationPanel'
 import { XPGainAnimation } from '@/components/gamification/XPDisplay';
 import { BadgeNotification } from '@/components/gamification/BadgeDisplay';
 import { useGamification } from '@/lib/hooks/use-gamification';
+import GrammarVocabularyRenderer from '@/components/course/renderers/GrammarVocabularyRenderer';
+import ListeningRenderer from '@/components/course/renderers/ListeningRenderer';
+import ReadingRenderer from '@/components/course/renderers/ReadingRenderer';
+import SpeakingRenderer from '@/components/course/renderers/SpeakingRenderer';
+import PronunciationRenderer from '@/components/course/renderers/PronunciationRenderer';
+import WritingRenderer from '@/components/course/renderers/WritingRenderer';
+import TransformationRenderer from '@/components/course/renderers/TransformationRenderer';
+import GapFillRenderer from '@/components/course/renderers/GapFillRenderer';
+import MatchingRenderer from '@/components/course/renderers/MatchingRenderer';
+import MiscRenderer from '@/components/course/renderers/MiscRenderer';
 import { 
   Lesson, 
   Exercise, 
@@ -31,7 +41,11 @@ import {
   TextAnswerEvaluationResponse,
   WritingEvaluationResponse,
   MultipleChoiceEvaluationResponse,
-  EvaluationResult
+  EvaluationResult,
+  ReadingExercise,
+  ListeningExercise,
+  GrammarExercise,
+  SpeakingExercise
 } from '@/lib/exercise-types';
 
 interface LessonViewerProps {
@@ -69,6 +83,73 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
   const handleAnswer = (questionId: string, answer: string) => {
     setAnswers(prev => ({ ...prev, [questionId]: answer }));
+  };
+
+  // Function to evaluate pronunciation recordings
+  const evaluatePronunciationRecordings = async () => {
+    setEvaluating(true);
+    
+    try {
+      const recordingsArray = Object.entries(pronunciationRecordings);
+      if (recordingsArray.length === 0) {
+        alert('Please record at least one sentence before evaluating.');
+        setEvaluating(false);
+        return;
+      }
+
+      // We need the current exercise to get target sentences
+      const pronExercise = currentExercise as any;
+
+      // Evaluate each recording
+      for (const [idxStr, recording] of recordingsArray) {
+        const idx = parseInt(idxStr);
+        const targetSentence = pronExercise.targetSentences[idx];
+        
+        if (!recording.evaluation) {
+          const response = await fetch('/api/evaluate-speaking', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              transcript: recording.transcript,
+              expectedText: targetSentence.text || targetSentence.sentence,
+              exerciseType: 'pronunciation',
+              level: lessonLevel
+            }),
+          });
+
+          if (!response.ok) {
+            throw new Error('Failed to evaluate pronunciation');
+          }
+
+          const data = await response.json();
+          
+          if (data.success && data.evaluation) {
+            setPronunciationRecordings(prev => ({
+              ...prev,
+              [idx]: {
+                ...prev[idx],
+                evaluation: data.evaluation
+              }
+            }));
+          }
+        }
+      }
+
+      // Calculate overall pronunciation score
+      const evaluatedRecordings = Object.values(pronunciationRecordings).filter(r => r.evaluation);
+      if (evaluatedRecordings.length > 0) {
+        const avgScore = evaluatedRecordings.reduce((sum, r) => sum + (r.evaluation?.overallScore || 0), 0) / evaluatedRecordings.length;
+        setExerciseScores(prev => ({ ...prev, [currentExercise.id]: avgScore }));
+      }
+
+    } catch (error) {
+      console.error('Error evaluating pronunciation:', error);
+      alert('Error evaluating pronunciation. Please try again.');
+    } finally {
+      setEvaluating(false);
+    }
   };
 
   const checkAnswers = async () => {
@@ -949,390 +1030,32 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
     switch (currentExercise.type) {
       case 'grammar':
       case 'vocabulary':
-        const gvEx = currentExercise as any;
         return (
-          <div key={currentExercise.id} className="space-y-6">
-            {/* Explanation */}
-            <div className="bg-orange-50 rounded-xl p-6 border-2 border-orange-200">
-              <h3 className="text-xl font-bold text-coral-900 mb-3 flex items-center gap-2">
-                <span>📚</span>
-                <span>{currentExercise.title}</span>
-              </h3>
-              <div className="space-y-3">
-                {gvEx.grammarPoint && (
-                  <div>
-                    <p className="font-semibold text-coral-800 mb-1">Grammar Point:</p>
-                    <p className="text-slate-700">{gvEx.grammarPoint}</p>
-                  </div>
-                )}
-                {gvEx.explanation && (
-                  <div>
-                    <p className="font-semibold text-coral-800 mb-1">Explanation:</p>
-                    <p className="text-slate-700 whitespace-pre-line">{gvEx.explanation}</p>
-                  </div>
-                )}
-                {gvEx.examples && gvEx.examples.length > 0 && (
-                  <div>
-                    <p className="font-semibold text-coral-800 mb-2">Examples:</p>
-                    <ul className="space-y-1">
-                      {gvEx.examples.map((example: string, idx: number) => (
-                        <li key={idx} className="text-slate-700 flex items-start gap-2">
-                          <span className="text-orange-500">•</span>
-                          <span className="italic">{example}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
-              </div>
-            </div>
-
-            {/* Questions */}
-            {gvEx.questions && gvEx.questions.length > 0 && (
-              <div className="space-y-4">
-                <h4 className="text-lg font-bold text-slate-900">Practice Questions:</h4>
-                {gvEx.questions.map((question: any, idx: number) => (
-                <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
-                  <p className="font-semibold text-slate-900 mb-3">
-                    {idx + 1}. {question.question} <span className="text-sm text-coral-600">({question.points} {question.points === 1 ? 'point' : 'points'})</span>
-                  </p>
-
-                  {question.type === 'multiple-choice' && question.options && (
-                    <div className="space-y-2">
-                      {question.options.map((option: string, optIdx: number) => (
-                        <label key={optIdx} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer transition-colors">
-                          <input
-                            type="radio"
-                            name={question.id}
-                            value={option}
-                            checked={answers[question.id] === option}
-                            onChange={(e) => handleAnswer(question.id, e.target.value)}
-                            className="w-4 h-4"
-                          />
-                          <span className="text-slate-700">{option}</span>
-                        </label>
-                      ))}
-                    </div>
-                  )}
-
-                  {question.type === 'fill-blank' && (
-                    <input
-                      type="text"
-                      value={answers[question.id] || ''}
-                      onChange={(e) => handleAnswer(question.id, e.target.value)}
-                      placeholder="Tu respuesta..."
-                      className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-orange-500 focus:outline-none"
-                    />
-                  )}
-
-                  {question.type === 'short-answer' && (
-                    <textarea
-                      value={answers[question.id] || ''}
-                      onChange={(e) => handleAnswer(question.id, e.target.value)}
-                      placeholder="Tu respuesta..."
-                      rows={3}
-                      className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-orange-500 focus:outline-none"
-                    />
-                  )}
-
-                  {question.type === 'true-false' && (
-                    <div className="flex gap-4">
-                      <label className="flex items-center gap-2 cursor-pointer">
-                        <input
-                          type="radio"
-                          name={question.id}
-                          value="True"
-                          checked={answers[question.id] === 'True'}
-                          onChange={(e) => handleAnswer(question.id, e.target.value)}
-                          className="w-4 h-4"
-                        />
-                        <span className="text-slate-700 font-semibold">True</span>
-                      </label>
-                      <label className="flex items-center gap-2 cursor-pointer">
-                        <input
-                          type="radio"
-                          name={question.id}
-                          value="False"
-                          checked={answers[question.id] === 'False'}
-                          onChange={(e) => handleAnswer(question.id, e.target.value)}
-                          className="w-4 h-4"
-                        />
-                        <span className="text-slate-700 font-semibold">False</span>
-                      </label>
-                    </div>
-                  )}
-
-                  {showFeedback && aiEvaluations[question.id] && (
-                    <EnhancedFeedback
-                      type={question.type === 'multiple-choice' ? 'multiple-choice' : 'text'}
-                      evaluation={aiEvaluations[question.id]}
-                      userAnswer={answers[question.id] || ''}
-                      correctAnswer={Array.isArray(question.correctAnswer) ? question.correctAnswer.join(' o ') : question.correctAnswer}
-                    />
-                  )}
-                  {showFeedback && !aiEvaluations[question.id] && (
-                    <div className={`mt-3 p-3 rounded-lg ${
-                      answers[question.id]?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : question.correctAnswer).toLowerCase().trim()
-                        ? 'bg-amber-50 border-2 border-amber-200'
-                        : 'bg-red-50 border-2 border-red-200'
-                    }`}>
-                      <p className="font-semibold mb-1">
-                        {answers[question.id]?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : question.correctAnswer).toLowerCase().trim()
-                          ? '✓ ¡Correcto!'
-                          : '✗ Incorrecto'}
-                      </p>
-                      <p className="text-sm mb-1">
-                        <strong>Respuesta correcta:</strong> {Array.isArray(question.correctAnswer) ? question.correctAnswer.join(' o ') : question.correctAnswer}
-                      </p>
-                      {question.explanation && (
-                        <p className="text-sm text-slate-700">
-                          <strong>Explicación:</strong> {question.explanation}
-                        </p>
-                      )}
-                    </div>
-                  )}
-                </div>
-              ))}
-              </div>
-            )}
-
-            {!showFeedback && currentExercise.questions && currentExercise.questions.length > 0 && (
-              <button
-                onClick={checkAnswers}
-                disabled={evaluating}
-                className="w-full px-6 py-4 bg-coral-600 text-white rounded-xl hover:bg-coral-700 transition-colors font-bold text-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
-              >
-                {evaluating ? (
-                  <>
-                    <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                    <span>Evaluando con IA...</span>
-                  </>
-                ) : (
-                  'Evaluar Respuestas'
-                )}
-              </button>
-            )}
-          </div>
+          <GrammarVocabularyRenderer
+            key={currentExercise.id}
+            exercise={currentExercise as GrammarExercise | VocabularyExercise}
+            answers={answers}
+            onAnswer={handleAnswer}
+            showFeedback={showFeedback}
+            aiEvaluations={aiEvaluations}
+            onCheck={checkAnswers}
+            evaluating={evaluating}
+          />
         );
 
       case 'reading':
-        // Check if reading exercise has required content
-        if (!currentExercise.text || !currentExercise.questions || currentExercise.questions.length === 0) {
-          return (
-            <div key={currentExercise.id} className="bg-yellow-50 rounded-xl p-8 border-2 border-yellow-200 text-center">
-              <div className="text-6xl mb-4">📖</div>
-              <h3 className="text-2xl font-bold text-yellow-900 mb-3">
-                Contenido de Lectura No Disponible
-              </h3>
-              <p className="text-slate-700 mb-4">
-                El texto de lectura y/o las preguntas para este ejercicio no están disponibles aún.
-              </p>
-              <button
-                onClick={nextExercise}
-                className="px-8 py-4 bg-yellow-600 text-white rounded-xl hover:bg-yellow-700 transition-colors font-bold text-lg"
-              >
-                Continuar →
-              </button>
-            </div>
-          );
-        }
-        
         return (
-          <div key={currentExercise.id} className="grid lg:grid-cols-2 gap-6">
-            {/* Reading Text - Sticky on large screens */}
-            <div className="lg:sticky lg:top-4 lg:self-start">
-              <div className="bg-slate-50 rounded-xl p-6 border-2 border-slate-200 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto">
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-xl font-bold text-slate-900">{currentExercise.title}</h3>
-                  <div className="text-sm text-slate-600">
-                    <span>📖 {currentExercise.wordCount} words</span>
-                    <span className="mx-2">•</span>
-                    <span>⏱️ ~{currentExercise.readingTime} min</span>
-                  </div>
-                </div>
-                <div className="prose prose-slate max-w-none">
-                  <p className="text-slate-700 whitespace-pre-line leading-relaxed">{currentExercise.text}</p>
-                </div>
-
-                {currentExercise.vocabularyHelp && currentExercise.vocabularyHelp.length > 0 && (
-                  <details className="mt-4">
-                    <summary className="cursor-pointer font-semibold text-coral-700 hover:text-coral-800">
-                      💡 Vocabulary Help
-                    </summary>
-                    <div className="mt-3 space-y-2">
-                      {currentExercise.vocabularyHelp.map((vocab, idx) => (
-                        <div key={idx} className="flex gap-2">
-                          <span className="font-semibold text-slate-900">{vocab.word}:</span>
-                          <span className="text-slate-700">{vocab.definition}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </details>
-                )}
-              </div>
-            </div>
-
-            {/* Reading Questions - Scrollable */}
-            <div className="space-y-4">
-              <h4 className="text-lg font-bold text-slate-900">Comprehension Questions:</h4>
-              {currentExercise.questions.map((question, idx) => (
-                <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
-                  <p className="font-semibold text-slate-900 mb-3">
-                    {idx + 1}. {question.question} <span className="text-sm text-coral-600">({question.points} points)</span>
-                  </p>
-
-                  {question.type === 'multiple-choice' && question.options && (
-                    <div className="space-y-2">
-                      {question.options.map((option: string, optIdx: number) => (
-                        <label key={optIdx} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer">
-                          <input
-                            type="radio"
-                            name={question.id}
-                            value={option}
-                            checked={answers[question.id] === option}
-                            onChange={(e) => handleAnswer(question.id, e.target.value)}
-                            className="w-4 h-4"
-                          />
-                          <span>{option}</span>
-                        </label>
-                      ))}
-                    </div>
-                  )}
-
-                  {(question.type === 'short-answer' || question.type === 'fill-blank') && (
-                    <textarea
-                      value={answers[question.id] || ''}
-                      onChange={(e) => handleAnswer(question.id, e.target.value)}
-                      placeholder="Tu respuesta..."
-                      rows={3}
-                      className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-orange-500 focus:outline-none"
-                    />
-                  )}
-
-                  {question.type === 'essay' && (
-                    <div className="space-y-2">
-                      <textarea
-                        value={answers[question.id] || ''}
-                        onChange={(e) => handleAnswer(question.id, e.target.value)}
-                        placeholder="Write your essay here..."
-                        rows={8}
-                        className="w-full px-4 py-3 rounded-lg border-2 border-slate-200 focus:border-orange-500 focus:outline-none font-sans"
-                      />
-                      <div className="flex items-center justify-between text-sm text-slate-600">
-                        <span>Word count: {(answers[question.id] || '').split(/\s+/).filter(w => w.length > 0).length} words</span>
-                        {question.explanation && !showFeedback && (
-                          <span className="text-xs italic">💡 {question.explanation}</span>
-                        )}
-                      </div>
-                    </div>
-                  )}
-
-                  {question.type === 'true-false' && (
-                    <div className="flex gap-4">
-                      <label className="flex items-center gap-2 cursor-pointer">
-                        <input
-                          type="radio"
-                          name={question.id}
-                          value="True"
-                          checked={answers[question.id] === 'True'}
-                          onChange={(e) => handleAnswer(question.id, e.target.value)}
-                        />
-                        <span className="font-semibold">True</span>
-                      </label>
-                      <label className="flex items-center gap-2 cursor-pointer">
-                        <input
-                          type="radio"
-                          name={question.id}
-                          value="False"
-                          checked={answers[question.id] === 'False'}
-                          onChange={(e) => handleAnswer(question.id, e.target.value)}
-                        />
-                        <span className="font-semibold">False</span>
-                      </label>
-                    </div>
-                  )}
-
-                  {question.type === 'writing' && (
-                    <div className="space-y-3">
-                      {(question as any).writingPrompt && (
-                        <div className="bg-violet-50 border-l-4 border-violet-500 p-4 rounded">
-                          <p className="text-violet-900 font-medium">✍️ Writing Task:</p>
-                          <p className="text-slate-700 mt-1">{(question as any).writingPrompt}</p>
-                          {(question as any).minWords && (question as any).maxWords && (
-                            <p className="text-sm text-violet-700 mt-2">
-                              📏 Word count: {(question as any).minWords}-{(question as any).maxWords} words
-                            </p>
-                          )}
-                        </div>
-                      )}
-                      <textarea
-                        value={answers[question.id] || ''}
-                        onChange={(e) => handleAnswer(question.id, e.target.value)}
-                        placeholder="Write your essay here..."
-                        rows={10}
-                        className="w-full px-4 py-3 rounded-lg border-2 border-violet-200 focus:border-violet-500 focus:outline-none font-sans"
-                      />
-                      <div className="flex items-center justify-between text-sm">
-                        <span className={`font-semibold ${
-                          (answers[question.id] || '').split(/\s+/).filter(w => w.length > 0).length >= ((question as any).minWords || 0) &&
-                          (answers[question.id] || '').split(/\s+/).filter(w => w.length > 0).length <= ((question as any).maxWords || 999)
-                            ? 'text-green-600'
-                            : 'text-amber-600'
-                        }`}>
-                          Word count: {(answers[question.id] || '').split(/\s+/).filter(w => w.length > 0).length} words
-                        </span>
-                        {(question as any).rubric && (
-                          <span className="text-xs text-slate-600">
-                            📊 Grading: Content {(question as any).rubric.content}% | Organization {(question as any).rubric.organization}% | Grammar {(question as any).rubric.grammar}% | Vocabulary {(question as any).rubric.vocabulary}%
-                          </span>
-                        )}
-                      </div>
-                    </div>
-                  )}
-
-                  {showFeedback && (
-                    <div className={`mt-3 p-3 rounded-lg ${
-                      answers[question.id]?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : question.correctAnswer).toLowerCase().trim() ||
-                      (Array.isArray(question.correctAnswer) && question.correctAnswer.some(ca => answers[question.id]?.toLowerCase().includes(ca.toLowerCase())))
-                        ? 'bg-amber-50 border-2 border-amber-200'
-                        : 'bg-red-50 border-2 border-red-200'
-                    }`}>
-                      <p className="font-semibold mb-1">
-                        {answers[question.id]?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : question.correctAnswer).toLowerCase().trim()
-                          ? '✓ Correct!'
-                          : '✗ Incorrect'}
-                      </p>
-                      <p className="text-sm mb-1">
-                        <strong>Correct answer:</strong> {Array.isArray(question.correctAnswer) ? question.correctAnswer.join(' / ') : question.correctAnswer}
-                      </p>
-                      {question.explanation && (
-                        <p className="text-sm">
-                          <strong>Explanation:</strong> {question.explanation}
-                        </p>
-                      )}
-                    </div>
-                  )}
-                </div>
-              ))}
-
-              {!showFeedback && (
-                <button
-                  onClick={checkAnswers}
-                  disabled={evaluating}
-                  className="w-full px-6 py-4 bg-coral-600 text-white rounded-xl hover:bg-coral-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {evaluating ? (
-                    <>
-                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                      <span>Evaluando con IA...</span>
-                    </>
-                  ) : (
-                    'Evaluar Respuestas'
-                  )}
-                </button>
-              )}
-            </div>
-          </div>
+          <ReadingRenderer
+            key={currentExercise.id}
+            exercise={currentExercise as ReadingExercise}
+            answers={answers}
+            onAnswer={handleAnswer}
+            showFeedback={showFeedback}
+            aiEvaluations={aiEvaluations}
+            onCheck={checkAnswers}
+            evaluating={evaluating}
+            onNext={nextExercise}
+          />
         );
 
       case 'pronunciation':
@@ -1749,326 +1472,39 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         );
 
       case 'speaking':
-        // Check if speaking exercise has required content
-        if (!currentExercise.prompt) {
-          return (
-            <div key={currentExercise.id} className="bg-purple-50 rounded-xl p-8 border-2 border-purple-200 text-center">
-              <div className="text-6xl mb-4">🎤</div>
-              <h3 className="text-2xl font-bold text-purple-900 mb-3">
-                Contenido de Speaking No Disponible
-              </h3>
-              <p className="text-slate-700 mb-4">
-                Las instrucciones para este ejercicio de speaking no están disponibles aún.
-              </p>
-              <button
-                onClick={nextExercise}
-                className="px-8 py-4 bg-purple-600 text-white rounded-xl hover:bg-purple-700 transition-colors font-bold text-lg"
-              >
-                Continuar →
-              </button>
-            </div>
-          );
-        }
-        
-        return (
-          <EnhancedSpeakingExercise
-            key={currentExercise.id}
-            question={{
-              id: currentExercise.id,
-              prompt: currentExercise.prompt,
-              expectedResponse: currentExercise.expectedResponse,
-              hints: currentExercise.hints,
-              targetWords: currentExercise.targetWords,
-              modelAudioUrl: currentExercise.modelAudioUrl,
-              timeLimit: currentExercise.timeLimit
-            }}
-            onComplete={(evaluation) => {
-              // Calculate score from evaluation
-              const score = evaluation.overallScore;
-              setExerciseScores(prev => ({
-                ...prev,
-                [currentExercise.id]: score
-              }));
-              // Mark as completed to enable next button
-              setShowFeedback(true);
-              console.log('Speaking evaluation:', evaluation);
-            }}
-            level={lessonLevel}
-          />
-        );
-
       case 'speaking-part1':
-        return (
-          <SpeakingPart1
-            key={currentExercise.id}
-            exerciseId={currentExercise.id}
-            instructions={currentExercise.instructions}
-            questions={currentExercise.questions}
-            timeLimit={currentExercise.timeLimit}
-            onComplete={(data) => {
-              // Handle completion of Speaking Part 1
-              console.log('Speaking Part 1 completed:', data);
-              // Calculate a score based on number of recordings
-              const score = (data.recordings.length / currentExercise.questions.length) * 100;
-              setExerciseScores(prev => ({
-                ...prev,
-                [currentExercise.id]: score
-              }));
-              // Auto-advance to next exercise after a short delay
-              setTimeout(() => {
-                nextExercise();
-              }, 2000);
-            }}
-          />
-        );
-
       case 'speaking-part2':
-        return (
-          <SpeakingPart2
-            key={currentExercise.id}
-            exerciseId={currentExercise.id}
-            instructions={currentExercise.instructions}
-            photos={currentExercise.photos}
-            comparisonPrompt={currentExercise.comparisonPrompt}
-            followUpQuestion={currentExercise.followUpQuestion}
-            timeLimit={currentExercise.timeLimit}
-            tips={currentExercise.tips}
-            onComplete={(data) => {
-              // Handle completion of Speaking Part 2
-              console.log('Speaking Part 2 completed:', data);
-              // Full score for completing the long turn
-              setExerciseScores(prev => ({
-                ...prev,
-                [currentExercise.id]: 100
-              }));
-              // Don't auto-advance, let user click Next
-            }}
-          />
-        );
-
       case 'speaking-part3':
-        return (
-          <SpeakingPart3
-            key={currentExercise.id}
-            exerciseId={currentExercise.id}
-            instructions={currentExercise.instructions}
-            scenario={currentExercise.scenario}
-            question={currentExercise.question}
-            options={currentExercise.options}
-            phase1Duration={currentExercise.phase1Duration}
-            phase2Duration={currentExercise.phase2Duration}
-            usefulPhrases={currentExercise.usefulPhrases}
-            onComplete={(data) => {
-              // Handle completion of Speaking Part 3
-              console.log('Speaking Part 3 completed:', data);
-              // Full score for completing both phases
-              setExerciseScores(prev => ({
-                ...prev,
-                [currentExercise.id]: 100
-              }));
-              // Don't auto-advance, let user click Next
-            }}
-          />
-        );
-
       case 'speaking-part4':
         return (
-          <SpeakingPart4
+          <SpeakingRenderer
             key={currentExercise.id}
-            exerciseId={currentExercise.id}
-            instructions={currentExercise.instructions}
-            topic={currentExercise.topic}
-            questions={currentExercise.questions}
-            usefulExpressions={currentExercise.usefulExpressions}
-            timeLimit={currentExercise.timeLimit}
-            onComplete={(data) => {
-              // Handle completion of Speaking Part 4
-              console.log('Speaking Part 4 completed:', data);
-              // Calculate score based on number of recordings
-              const score = (data.recordings.length / currentExercise.questions.length) * 100;
-              setExerciseScores(prev => ({
-                ...prev,
-                [currentExercise.id]: score
-              }));
-              // Auto-advance after short delay
-              setTimeout(() => {
-                nextExercise();
-              }, 2000);
-            }}
+            exercise={currentExercise}
+            lessonLevel={lessonLevel}
+            onScoreUpdate={(id, score) => setExerciseScores(prev => ({ ...prev, [id]: score }))}
+            onNext={nextExercise}
+            setShowFeedback={setShowFeedback}
           />
         );
 
       case 'listening':
-        // Check if listening exercise has required content
-        if (!currentExercise.audioUrl || !currentExercise.questions || currentExercise.questions.length === 0) {
-          return (
-            <div key={currentExercise.id} className="bg-peach-50 rounded-xl p-8 border-2 border-peach-200 text-center">
-              <div className="text-6xl mb-4">🎧</div>
-              <h3 className="text-2xl font-bold text-peach-900 mb-3">
-                Contenido de Audio No Disponible
-              </h3>
-              <p className="text-slate-700 mb-4">
-                El audio y/o las preguntas para este ejercicio no están disponibles aún.
-              </p>
-              <button
-                onClick={nextExercise}
-                className="px-8 py-4 bg-peach-600 text-white rounded-xl hover:bg-peach-700 transition-colors font-bold text-lg"
-              >
-                Continuar →
-              </button>
-            </div>
-          );
-        }
-        
         return (
-          <div key={currentExercise.id} className="grid lg:grid-cols-2 gap-6">
-            {/* Audio Player - Sticky on large screens */}
-            <div className="lg:sticky lg:top-4 lg:self-start">
-              <div className="bg-peach-50 rounded-xl p-6 border-2 border-peach-200">
-                <h3 className="text-xl font-bold text-peach-900 mb-4 flex items-center gap-2">
-                  <span>🎧</span>
-                  <span>Listening Exercise</span>
-                </h3>
-                <audio 
-                  ref={audioRef}
-                  src={currentExercise.audioUrl} 
-                  controls 
-                  className="w-full mb-3"
-                  preload="metadata"
-                  controlsList="nodownload"
-                  onTimeUpdate={(e) => setAudioCurrentTime(e.currentTarget.currentTime)}
-                />
-                <div className="text-sm text-peach-800">
-                  <p>Duration: ~{Math.floor(currentExercise.duration / 60)} minutes {currentExercise.duration % 60} seconds</p>
-                  <p>You can replay the audio up to {currentExercise.maxReplays} times</p>
-                </div>
-
-                {(currentExercise as any).structuredTranscript ? (
-                  <div className="mt-4 h-[300px]">
-                    <InteractiveTranscript 
-                      transcript={(currentExercise as any).structuredTranscript}
-                      currentTime={audioCurrentTime}
-                      onSeek={handleSeek}
-                    />
-                  </div>
-                ) : currentExercise.transcript && (
-                  <details className="mt-4">
-                    <summary className="cursor-pointer font-semibold text-peach-700 hover:text-peach-800">
-                      📝 Show Transcript (only after completing)
-                    </summary>
-                    <div className="mt-3 p-3 bg-white rounded border border-peach-200">
-                      <p className="text-slate-700 whitespace-pre-line text-sm">{currentExercise.transcript}</p>
-                    </div>
-                  </details>
-                )}
-              </div>
-            </div>
-
-            {/* Listening Questions - Scrollable */}
-            <div className="space-y-4">
-              <h4 className="text-lg font-bold text-slate-900">Listening Comprehension Questions:</h4>
-              {currentExercise.questions.map((question, idx) => (
-                <div key={question.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
-                  <p className="font-semibold text-slate-900 mb-3">
-                    {idx + 1}. {question.question} <span className="text-sm text-coral-600">({question.points} points)</span>
-                  </p>
-
-                  {question.type === 'multiple-choice' && question.options && (
-                    <div className="space-y-2">
-                      {question.options.map((option: string, optIdx: number) => (
-                        <label key={optIdx} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer">
-                          <input
-                            type="radio"
-                            name={question.id}
-                            value={option}
-                            checked={answers[question.id] === option}
-                            onChange={(e) => handleAnswer(question.id, e.target.value)}
-                            className="w-4 h-4"
-                          />
-                          <span>{option}</span>
-                        </label>
-                      ))}
-                    </div>
-                  )}
-
-                  {question.type === 'short-answer' && (
-                    <textarea
-                      value={answers[question.id] || ''}
-                      onChange={(e) => handleAnswer(question.id, e.target.value)}
-                      placeholder="Tu respuesta..."
-                      rows={3}
-                      className="w-full px-4 py-2 rounded-lg border-2 border-slate-200 focus:border-orange-500 focus:outline-none"
-                    />
-                  )}
-
-                  {question.type === 'true-false' && (
-                    <div className="flex gap-4">
-                      <label className="flex items-center gap-2 cursor-pointer">
-                        <input
-                          type="radio"
-                          name={question.id}
-                          value="True"
-                          checked={answers[question.id] === 'True'}
-                          onChange={(e) => handleAnswer(question.id, e.target.value)}
-                        />
-                        <span className="font-semibold">True</span>
-                      </label>
-                      <label className="flex items-center gap-2 cursor-pointer">
-                        <input
-                          type="radio"
-                          name={question.id}
-                          value="False"
-                          checked={answers[question.id] === 'False'}
-                          onChange={(e) => handleAnswer(question.id, e.target.value)}
-                        />
-                        <span className="font-semibold">False</span>
-                      </label>
-                    </div>
-                  )}
-
-                  {showFeedback && (
-                    <div className={`mt-3 p-3 rounded-lg ${
-                      answers[question.id]?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : question.correctAnswer).toLowerCase().trim() ||
-                      (Array.isArray(question.correctAnswer) && question.correctAnswer.some(ca => answers[question.id]?.toLowerCase().includes(ca.toLowerCase())))
-                        ? 'bg-amber-50 border-2 border-amber-200'
-                        : 'bg-red-50 border-2 border-red-200'
-                    }`}>
-                      <p className="font-semibold mb-1">
-                        {answers[question.id]?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : question.correctAnswer).toLowerCase().trim()
-                          ? '✓ Correct!'
-                          : '✗ Incorrect'}
-                      </p>
-                      <p className="text-sm mb-1">
-                        <strong>Correct answer:</strong> {Array.isArray(question.correctAnswer) ? question.correctAnswer.join(' / ') : question.correctAnswer}
-                      </p>
-                      {question.explanation && (
-                        <p className="text-sm">
-                          <strong>Explanation:</strong> {question.explanation}
-                        </p>
-                      )}
-                    </div>
-                  )}
-                </div>
-              ))}
-
-              {!showFeedback && (
-                <button
-                  onClick={checkAnswers}
-                  disabled={evaluating}
-                  className="w-full px-6 py-4 bg-coral-600 text-white rounded-xl hover:bg-coral-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {evaluating ? (
-                    <>
-                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                      <span>Evaluando con IA...</span>
-                    </>
-                  ) : (
-                    'Evaluar Respuestas'
-                  )}
-                </button>
-              )}
-            </div>
-          </div>
+          <ListeningRenderer
+            key={currentExercise.id}
+            exercise={currentExercise as ListeningExercise}
+            answers={answers}
+            onAnswer={handleAnswer}
+            showFeedback={showFeedback}
+            aiEvaluations={aiEvaluations}
+            onCheck={checkAnswers}
+            evaluating={evaluating}
+            onNext={nextExercise}
+            currentTime={audioCurrentTime}
+            onTimeUpdate={setAudioCurrentTime}
+            onSeek={(time) => { if (audioRef.current) audioRef.current.currentTime = time; }}
+            audioRef={audioRef}
+            nextExerciseAudioUrl={lesson.exercises[currentExerciseIndex + 1]?.audioUrl}
+          />
         );
 
       case 'writing':

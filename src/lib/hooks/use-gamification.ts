@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabase-client';
-import { awardXP, calculateLevel } from '@/lib/gamification/xp';
-import { checkAndAwardBadges, type Badge } from '@/lib/gamification/badges';
+import { awardXP, calculateLevel, XP_REWARDS } from '@/lib/gamification/xp';
+import { checkAndAwardBadges } from '@/lib/gamification/badges';
+import { type Badge } from '@/lib/gamification/types';
 import { updateStreak, type StreakData } from '@/lib/gamification/streaks';
 
 export interface UserGamificationData {
@@ -158,8 +159,9 @@ export function useGamification() {
       await recordActivity();
 
       // Award XP based on score
-      const xpAmount = Math.floor((score / maxScore) * 20); // Base XP per exercise
-      const bonusXP = score === maxScore ? 10 : 0; // Bonus for perfect score
+      const baseXP = XP_REWARDS['practice-session'] || 20;
+      const xpAmount = Math.floor((score / maxScore) * baseXP);
+      const bonusXP = score === maxScore ? (XP_REWARDS['perfect-exercise-bonus'] || 10) : 0;
       
       await addXP(xpAmount + bonusXP, 'exercise', exerciseId, 
         `Completed exercise ${exerciseId} with ${score}/${maxScore} points`);
@@ -179,8 +181,9 @@ export function useGamification() {
       await recordActivity();
 
       // Award XP based on lesson completion
-      const xpAmount = Math.floor((totalScore / maxScore) * 100); // Base XP per lesson
-      const bonusXP = totalScore === maxScore ? 50 : 0; // Bonus for perfect lesson
+      const baseXP = XP_REWARDS['lesson-completion'] || 100;
+      const xpAmount = Math.floor((totalScore / maxScore) * baseXP);
+      const bonusXP = totalScore === maxScore ? (XP_REWARDS['perfect-score'] || 50) : 0;
       
       await addXP(xpAmount + bonusXP, 'lesson', lessonId, 
         `Completed lesson ${lessonId} with ${totalScore}/${maxScore} points`);
