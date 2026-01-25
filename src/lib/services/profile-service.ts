@@ -13,6 +13,11 @@ export interface UserProfile {
   timezone?: string;
   notifications_enabled?: boolean;
   email_notifications?: boolean;
+  subscription_status?: 'active' | 'inactive' | 'cancelled' | 'trialing';
+  subscription_plan?: 'free' | 'basic' | 'premium' | 'enterprise';
+  subscription_start_date?: string;
+  subscription_end_date?: string;
+  trial_end_date?: string;
   created_at?: string;
   updated_at?: string;
 }

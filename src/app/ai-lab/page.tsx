@@ -7,7 +7,7 @@ import { MissionCard } from '@/components/ai-lab/MissionCard';
 import { ArrowLeft, Sparkles, Filter } from 'lucide-react';
 
 export default function AILabDashboard() {
-  const [filter, setFilter] = useState<'all' | 'tech' | 'marketing' | 'travel' | 'exams'>('all');
+  const [filter, setFilter] = useState<'all' | 'tech' | 'marketing' | 'travel' | 'exams' | 'finance' | 'healthcare' | 'general'>('all');
 
   const filteredMissions = filter === 'all' 
     ? MISSION_CATALOG 
@@ -32,7 +32,7 @@ export default function AILabDashboard() {
             </div>
             
             <div className="hidden md:flex items-center gap-2 bg-slate-100 p-1 rounded-xl">
-              {(['all', 'tech', 'marketing', 'travel', 'exams'] as const).map((s) => (
+              {(['all', 'tech', 'marketing', 'travel', 'exams', 'finance', 'healthcare', 'general'] as const).map((s) => (
                 <button
                   key={s}
                   onClick={() => setFilter(s)}

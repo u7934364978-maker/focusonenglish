@@ -1069,6 +1069,50 @@ export const MISSION_CATALOG: AIMission[] = [
     ]
   },
   {
+    id: 'exams-speaking-part3',
+    title: 'Collaborative Decision',
+    sector: 'exams',
+    level: 'B2',
+    difficulty: 'medium',
+    briefing: 'Estás practicando el Speaking Part 3 de B2 First. Debes discutir diferentes opciones con tu compañero (la IA) y llegar a un acuerdo sobre cuál es la mejor.',
+    goal: 'Collaborate with your partner to choose the best option from a list of five.',
+    persona: {
+      name: 'Alex',
+      avatar: '🎓',
+      personality: 'Cooperative, shares opinions, but waits for your input.',
+      accent: 'UK',
+      role: 'Speaking Exam Partner'
+    },
+    initialMessage: "So, the question is: 'Which of these things is the most important for a healthy lifestyle?'. I think exercise is quite important, but what do you think about healthy eating?",
+    successCriteria: [
+      "Ask for your partner's opinion",
+      "Agree or disagree politely",
+      "Reach a final decision together"
+    ]
+  },
+  {
+    id: 'tech-salary-negotiation',
+    title: 'The Promotion Meeting',
+    sector: 'tech',
+    level: 'C1',
+    difficulty: 'hard',
+    briefing: 'Después de un año excelente, te reúnes con tu CTO para negociar un aumento de sueldo y un cambio de rol a Senior Developer.',
+    goal: 'Negotiate a 15% salary increase and a promotion to Senior Developer.',
+    persona: {
+      name: 'James',
+      avatar: '👨‍💻',
+      personality: 'Fair, data-driven, needs clear justification for costs.',
+      accent: 'US',
+      role: 'Chief Technology Officer'
+    },
+    initialMessage: "You've done some great work this year, particularly with the cloud migration. You wanted to discuss your role and compensation, right? What do you have in mind?",
+    successCriteria: [
+      "Quantify your achievements with data",
+      "Explain the value of your new role",
+      "Handle budget-related objections professionally"
+    ]
+  },
+  {
     id: 'travel-hotel-complaint',
     title: 'Room 404 Nightmare',
     sector: 'travel',
@@ -1198,6 +1242,50 @@ export const MISSION_CATALOG: AIMission[] = [
       "Explain the unique value proposition",
       "Demonstrate a clear path to profitability",
       "Negotiate terms professionally"
+    ]
+  },
+  {
+    id: 'healthcare-specialist-referral',
+    title: 'The Specialist Consultation',
+    sector: 'healthcare',
+    level: 'C1',
+    difficulty: 'hard',
+    briefing: 'Eres un médico de cabecera que debe derivar a un paciente a un especialista. Debes explicarle al paciente por qué es necesaria la derivación y qué esperar de la consulta.',
+    goal: 'Explain the need for a referral and address the patient\'s concerns about their condition.',
+    persona: {
+      name: 'Mrs. Gable',
+      avatar: '👵',
+      personality: 'Anxious, inquisitive, needs reassurance.',
+      accent: 'UK',
+      role: 'Patient'
+    },
+    initialMessage: "Doctor, you've been running so many tests. Why do I need to see a cardiologist now? Is it something serious?",
+    successCriteria: [
+      "Explain the medical reasoning for the referral",
+      "Use professional yet empathetic language",
+      "Explain the next steps clearly"
+    ]
+  },
+  {
+    id: 'legal-contract-dispute',
+    title: 'The Breached Contract',
+    sector: 'general',
+    level: 'C1',
+    difficulty: 'hard',
+    briefing: 'Un proveedor ha incumplido una cláusula crítica de confidencialidad. Debes confrontar al representante legal del proveedor y exigir una compensación o remediación inmediata.',
+    goal: 'Negotiate a settlement or a fix for the contract breach.',
+    persona: {
+      name: 'Arthur',
+      avatar: '⚖️',
+      personality: 'Stoic, precise, uses complex legal terminology.',
+      accent: 'US',
+      role: 'Legal Counsel'
+    },
+    initialMessage: "We acknowledge there was a slight delay in the data migration, but calling it a 'breach of confidentiality' seems like an exaggeration. What exactly is your demand?",
+    successCriteria: [
+      "Define the specific breach clearly",
+      "Use appropriate legal/business vocabulary",
+      "Propose a realistic settlement or fix"
     ]
   }
 ];

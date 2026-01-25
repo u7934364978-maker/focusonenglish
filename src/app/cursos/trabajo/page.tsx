@@ -73,14 +73,14 @@ const LEVELS = [
 ];
 
 const SECTORS = [
-  { icon: '💼', name: 'Finanzas y Banca', description: 'Vocabulario especializado para el sector financiero' },
-  { icon: '⚕️', name: 'Medicina y Salud', description: 'Terminología médica y atención al paciente' },
-  { icon: '⚖️', name: 'Legal', description: 'Inglés jurídico y documentación legal' },
-  { icon: '💻', name: 'Tecnología e IT', description: 'Tech vocabulary y comunicación en proyectos' },
-  { icon: '🏭', name: 'Ingeniería', description: 'Inglés técnico y gestión de proyectos' },
-  { icon: '📊', name: 'Marketing y Ventas', description: 'Presentaciones comerciales y negociación' },
-  { icon: '🏨', name: 'Turismo y Hostelería', description: 'Atención al cliente internacional' },
-  { icon: '🎓', name: 'Educación', description: 'Inglés académico y docencia' },
+  { slug: 'finanzas', icon: '💼', name: 'Finanzas y Banca', description: 'Vocabulario especializado para el sector financiero' },
+  { slug: 'medicina', icon: '⚕️', name: 'Medicina y Salud', description: 'Terminología médica y atención al paciente' },
+  { slug: 'legal', icon: '⚖️', name: 'Legal', description: 'Inglés jurídico y documentación legal' },
+  { slug: 'it', icon: '💻', name: 'Tecnología e IT', description: 'Tech vocabulary y comunicación en proyectos' },
+  { slug: 'ingenieria', icon: '🏭', name: 'Ingeniería', description: 'Inglés técnico y gestión de proyectos' },
+  { slug: 'marketing', icon: '📊', name: 'Marketing y Ventas', description: 'Presentaciones comerciales y negociación' },
+  { slug: 'turismo', icon: '🏨', name: 'Turismo y Hostelería', description: 'Atención al cliente internacional' },
+  { slug: 'educacion', icon: '🎓', name: 'Educación', description: 'Inglés académico y docencia' },
 ];
 
 const BENEFITS = [
@@ -245,14 +245,16 @@ export default function TrabajoPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {SECTORS.map((sector, idx) => (
-              <div
+              <Link
                 key={idx}
-                className="bg-gradient-to-br from-slate-50 to-orange-50 rounded-xl p-6 hover:shadow-lg transition-all border-2 border-slate-200"
+                href={`/cursos/trabajo/${sector.slug}/b2`}
+                className="bg-gradient-to-br from-slate-50 to-orange-50 rounded-xl p-6 hover:shadow-lg transition-all border-2 border-slate-200 group"
               >
-                <div className="text-4xl mb-4">{sector.icon}</div>
-                <h3 className="text-lg font-bold text-slate-900 mb-2">{sector.name}</h3>
-                <p className="text-sm text-slate-600">{sector.description}</p>
-              </div>
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">{sector.icon}</div>
+                <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-coral-600 transition-colors">{sector.name}</h3>
+                <p className="text-sm text-slate-600 mb-4">{sector.description}</p>
+                <span className="text-xs font-bold text-coral-600 uppercase tracking-wider">Ver Programa B2 →</span>
+              </Link>
             ))}
           </div>
         </div>

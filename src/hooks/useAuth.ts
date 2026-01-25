@@ -8,6 +8,7 @@
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { getUser, getSession, onAuthStateChange } from '@/lib/auth-helpers';
+import { getUserProfile, type UserProfile } from '@/lib/services/profile-service';
 import type { User, Session } from '@supabase/supabase-js';
 
 /**
@@ -82,11 +83,30 @@ export function useUser() {
  * Hook para verificar si el usuario tiene suscripción activa
  */
 export function useSubscription() {
-  // TODO: Implementar lógica real con Stripe
-  const hasActiveSubscription = false; // Placeholder
+  const { user, isLoading: userLoading } = useUser();
+  const [profile, setProfile] = useState<UserProfile | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const loadProfile = async () => {
+      if (user) {
+        const userProfile = await getUserProfile(user.id);
+        setProfile(userProfile);
+      }
+      setLoading(false);
+    };
+
+    if (!userLoading) {
+      loadProfile();
+    }
+  }, [user, userLoading]);
+
+  const hasActiveSubscription = profile?.subscription_status === 'active' || profile?.subscription_status === 'trialing';
 
   return {
     hasActiveSubscription,
-    subscriptionPlan: null, // Placeholder
+    subscriptionPlan: profile?.subscription_plan || 'free',
+    loading: loading || userLoading,
+    profile,
   };
 }

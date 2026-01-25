@@ -9,23 +9,46 @@ import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schemas";
 import { BlogEnhancements } from "@/components/blog/BlogEnhancements";
 import { TableOfContents } from "@/components/blog/TableOfContents";
 
-const BLOG_DIR = path.join(process.cwd(), "content/blog");
+const BLOG_DIR = path.join(process.cwd(), "src/content/blog");
+
+function getAllFiles(dirPath: string, arrayOfFiles: string[] = []): string[] {
+  const files = fs.readdirSync(dirPath);
+
+  files.forEach((file) => {
+    if (fs.statSync(path.join(dirPath, file)).isDirectory()) {
+      arrayOfFiles = getAllFiles(path.join(dirPath, file), arrayOfFiles);
+    } else {
+      arrayOfFiles.push(path.join(dirPath, file));
+    }
+  });
+
+  return arrayOfFiles;
+}
+
+function findArticleFile(slug: string): string | null {
+  const allFiles = getAllFiles(BLOG_DIR);
+  return allFiles.find(f => {
+    const base = path.basename(f);
+    return base === `${slug}.md` || base === `${slug}.mdx`;
+  }) || null;
+}
 
 export async function generateStaticParams() {
   if (!fs.existsSync(BLOG_DIR)) return [];
   
-  const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith(".md") || f.endsWith(".mdx"));
+  const allFiles = getAllFiles(BLOG_DIR);
+  const mds = allFiles.filter(f => f.endsWith(".md") || f.endsWith(".mdx"));
   
-  return files.map(file => ({
-    slug: file.replace(/\.mdx?$/, ""),
+  return mds.map(file => ({
+    slug: path.basename(file).replace(/\.mdx?$/, ""),
   }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const filePath = path.join(BLOG_DIR, `${slug}.md`);
+  const filePath = findArticleFile(slug);
   
-  if (!fs.existsSync(filePath)) {
+  if (!filePath || !fs.existsSync(filePath)) {
     return {
       title: "Article Not Found",
     };
@@ -67,13 +90,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function BlogArticle({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const filePath = path.join(BLOG_DIR, `${slug}.md`);
+  const filePath = findArticleFile(slug);
   
-  if (!fs.existsSync(filePath)) {
+  if (!filePath || !fs.existsSync(filePath)) {
     notFound();
   }
 
-  const fileContent = fs.readFileSync(filePath, "utf-8");
+  const fileContent = fs.readFileSync(filePath!, "utf-8");
   const { data, content } = matter(fileContent);
 
   // Generate Article Schema for SEO
