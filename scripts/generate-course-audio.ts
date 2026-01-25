@@ -13,8 +13,8 @@ import {
   generateInstructionAudio,
   VOICE_IDS,
   getUsageInfo,
-} from '../lib/text-to-speech';
-import { ALL_MODULES } from '../lib/course-data-b2';
+} from '../src/lib/text-to-speech';
+import { ALL_MODULES } from '../src/lib/course-data-b2';
 import * as path from 'path';
 
 // Mapeo de tipos de ejercicio a tipos de voz

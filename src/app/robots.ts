@@ -1,24 +1,29 @@
 import type { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
+  const baseUrl = "https://focus-on-english.com";
+
   return {
     rules: [
       {
         userAgent: "*",
-        // Indexamos solo marketing (B): home + listados + curriculum
-        allow: [
-          "/",
-          "/app/cursos",
-          "/app/cursos/",
-          "/app/cursos/emailing",
-          "/app/cursos/emailing/",
-          "/app/cursos/emailing/b1",
-          "/app/cursos/emailing/b1/",
+        allow: ["/", "/blog/"],
+        disallow: [
+          // Público pero NO indexable
+          "/diagnostico",
+          "/lecciondemuestra",
+
+          // Premium / backend
+          "/app/",
+          "/api/",
+          "/auth/",
+          "/checkout/",
+          "/acceder",
+          "/registro",
         ],
-        // Bloqueamos semanas premium
-        disallow: ["/app/cursos/*/*/semana-*"],
       },
     ],
-    sitemap: "https://englishworkinglab.com/sitemap.xml",
+    sitemap: `${baseUrl}/sitemap.xml`,
+    host: baseUrl,
   };
 }

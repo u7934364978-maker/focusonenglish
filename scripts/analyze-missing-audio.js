@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Extract all audio file references from course-data-b2.ts
-const courseDataPath = path.join(__dirname, '../lib/course-data-b2.ts');
+const courseDataPath = path.join(__dirname, '../src/lib/course-data-b2.ts');
 const courseData = fs.readFileSync(courseDataPath, 'utf8');
 
 // Find all audio URLs

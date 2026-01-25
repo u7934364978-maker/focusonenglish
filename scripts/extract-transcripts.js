@@ -6,7 +6,7 @@ const missingFilesPath = path.join(__dirname, 'missing-audio-files.json');
 const missingFiles = JSON.parse(fs.readFileSync(missingFilesPath, 'utf8'));
 
 // Read course data
-const courseDataPath = path.join(__dirname, '../lib/course-data-b2.ts');
+const courseDataPath = path.join(__dirname, '../src/lib/course-data-b2.ts');
 const courseData = fs.readFileSync(courseDataPath, 'utf8');
 
 // Map to store filename -> transcript

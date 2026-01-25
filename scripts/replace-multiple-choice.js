@@ -4,7 +4,7 @@ const path = require('path');
 // Script to replace all multiple-choice exercises with more engaging exercise types
 // This maintains pedagogical quality while improving user engagement
 
-const courseDataPath = path.join(__dirname, '../lib/course-data-b2.ts');
+const courseDataPath = path.join(__dirname, '../src/lib/course-data-b2.ts');
 let courseData = fs.readFileSync(courseDataPath, 'utf8');
 
 let replacements = 0;
