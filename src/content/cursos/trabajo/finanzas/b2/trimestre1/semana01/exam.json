@@ -7,11 +7,11 @@
       "question": "An investment bank's role in 'underwriting' involves:",
       "options": [
         "Managing daily savings accounts",
-        "Guaranteeing the sale of a new issue of securities",
+        "Guaranteeing the price of the shares and buying any unsold ones",
         "Insuring the bank's physical assets",
         "Writing letters of credit for small businesses"
       ],
-      "correctAnswer": "Guaranteeing the sale of a new issue of securities",
+      "correctAnswer": "Guaranteeing the price of the shares and buying any unsold ones",
       "explanation": "Underwriting is the process by which investment banks raise investment capital from investors on behalf of corporations and governments that are issuing securities.",
       "points": 10
     },
@@ -21,16 +21,44 @@
       "question": "Which type of risk is most closely associated with the 'inability to convert assets into cash quickly without significant loss'?",
       "options": ["Market Risk", "Credit Risk", "Liquidity Risk", "Operational Risk"],
       "correctAnswer": "Liquidity Risk",
-      "explanation": "Liquidity risk occurs when an individual investor, business, or financial institution cannot meet its short-term debt obligations or sell an asset quickly for cash.",
+      "explanation": "Liquidity risk occurs when an entity cannot meet its short-term debt obligations or sell an asset quickly for cash.",
       "points": 10
     },
     {
       "id": "finance-b2-w1-exam-q3",
       "type": "multiple-choice",
-      "question": "Identify the modal of deduction indicating something is impossible: 'The company ___ be profitable; they have lost 50% of their clients this year.'",
-      "options": ["shouldn't", "mustn't", "can't", "might not"],
-      "correctAnswer": "can't",
-      "explanation": "'Can't' is used for strong negative deduction (it is impossible).",
+      "question": "Which modal is correct for a strong deduction about a past mistake? 'The board ___ authorized that acquisition; it was obviously overpriced.'",
+      "options": ["mustn't have", "shouldn't have", "can't have", "might not have"],
+      "correctAnswer": "shouldn't have",
+      "explanation": "'Shouldn't have + past participle' is used to express criticism of a past action.",
+      "points": 10
+    },
+    {
+      "id": "finance-b2-w1-exam-q4",
+      "type": "multiple-choice",
+      "question": "In the IPO process, what is 'The Roadshow'?",
+      "options": [
+        "A celebration party after the IPO",
+        "A series of presentations to potential institutional investors",
+        "A legal investigation into the company's suppliers",
+        "A marketing campaign for the general public"
+      ],
+      "correctAnswer": "A series of presentations to potential institutional investors",
+      "explanation": "A roadshow is a series of professional presentations made in various locations to potential investors, typically to drum up interest for an IPO.",
+      "points": 10
+    },
+    {
+      "id": "finance-b2-w1-exam-q5",
+      "type": "multiple-choice",
+      "question": "What is 'Hedging' in financial risk management?",
+      "options": [
+        "Taking a high-risk position to maximize profit",
+        "Using financial instruments to offset potential losses",
+        "Reporting fraudulent activity to the authorities",
+        "Investing only in government-backed bonds"
+      ],
+      "correctAnswer": "Using financial instruments to offset potential losses",
+      "explanation": "Hedging is a risk management strategy used to offset potential losses in an investment by taking an opposite position in a related asset.",
       "points": 10
     }
   ]

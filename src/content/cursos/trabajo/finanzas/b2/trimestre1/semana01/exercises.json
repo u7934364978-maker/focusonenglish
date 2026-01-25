@@ -41,6 +41,105 @@
       "explanation": "Credit risk is the probability of loss resulting from a borrower's failure to repay a loan or meet contractual obligations."
     },
     {
+      "id": "finance-b2-w1-q4",
+      "type": "multipleChoice",
+      "prompt": "What does 'Underwriting' involve in the context of an IPO?",
+      "options": [
+        "Writing the company's annual report",
+        "Guaranteeing the price of the shares and buying unsold ones",
+        "Investigating the CEO's personal history",
+        "Closing all the company's existing bank accounts"
+      ],
+      "answerIndex": 1,
+      "explanation": "Underwriting is the process by which investment banks raise investment capital from investors on behalf of corporations and governments that are issuing securities."
+    },
+    {
+      "id": "finance-b2-w1-q5",
+      "type": "multipleChoice",
+      "prompt": "What is the primary objective of 'Due Diligence'?",
+      "options": [
+        "To maximize the marketing budget",
+        "To verify all financial and legal facts before a transaction",
+        "To train new employees for the merged company",
+        "To design the new company logo"
+      ],
+      "answerIndex": 1,
+      "explanation": "Due diligence is an investigation, audit, or review performed to confirm facts or details of a matter under consideration."
+    },
+    {
+      "id": "finance-b2-w1-q6",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Hostile Takeover'?",
+      "options": [
+        "A merger agreed upon by both boards of directors",
+        "An acquisition attempt that is resisted by the target company's management",
+        "The bankruptcy of a major competitor",
+        "A change in government regulations"
+      ],
+      "answerIndex": 1,
+      "explanation": "A hostile takeover is the acquisition of one company (the target company) by another (the acquirer) that is accomplished by going directly to the company's shareholders or fighting to replace management."
+    },
+    {
+      "id": "finance-b2-w1-q7",
+      "type": "multipleChoice",
+      "prompt": "What does 'ROI' stand for in financial analysis?",
+      "options": [
+        "Risk Of Investment",
+        "Return On Investment",
+        "Rate Of Inflation",
+        "Revenues On Interest"
+      ],
+      "answerIndex": 1,
+      "explanation": "Return on investment (ROI) is a performance measure used to evaluate the efficiency or profitability of an investment."
+    },
+    {
+      "id": "finance-b2-w1-q8",
+      "type": "multipleChoice",
+      "prompt": "Which type of risk is linked to the difficulty of selling an asset quickly without a large loss in value?",
+      "options": ["Market Risk", "Operational Risk", "Liquidity Risk", "Legal Risk"],
+      "answerIndex": 2,
+      "explanation": "Liquidity risk refers to the possibility that an investor will be unable to buy or sell an investment quickly enough to prevent or minimize a loss."
+    },
+    {
+      "id": "finance-b2-w1-reading1",
+      "type": "readingComprehension",
+      "prompt": "Extract from a Financial Report: 'The proposed merger between TechCorp and SoftSystems is currently undergoing rigorous due diligence. Analysts suggest that while the synergies are clear, the operational risk remains high due to incompatible legacy systems.' \n\nWhat is the main concern regarding the merger?",
+      "options": [
+        "The price is too high",
+        "Incompatible internal systems (Operational Risk)",
+        "The market is not ready for the merger",
+        "TechCorp has too much debt"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text explicitly mentions 'operational risk remains high due to incompatible legacy systems'."
+    },
+    {
+      "id": "finance-b2-w1-reading2",
+      "type": "readingComprehension",
+      "prompt": "CASE STUDY: 'Global Logistics Inc. recently underwent an IPO. Although the initial roadshow generated significant hype, the stock price fell by 12% on the first day of trading. Analysts attribute this to concerns over the company's high debt-to-equity ratio and potential supply chain disruptions in Asia.' \n\nWhy did the stock price likely fall after the IPO?",
+      "options": [
+        "The roadshow was not successful",
+        "Too many investors wanted to buy shares",
+        "Concerns about debt levels and supply chain risks",
+        "The company has no competition"
+      ],
+      "answerIndex": 2,
+      "explanation": "The text mentions 'concerns over the company's high debt-to-equity ratio and potential supply chain disruptions'."
+    },
+    {
+      "id": "finance-b2-w1-reading3",
+      "type": "readingComprehension",
+      "prompt": "TEXT: 'Hedging is a risk management strategy used to offset potential losses in an investment by taking an opposite position in a related asset. While it cannot eliminate risk entirely, it can significantly mitigate the impact of adverse market movements.' \n\nWhat is the primary purpose of hedging according to the text?",
+      "options": [
+        "To guarantee a profit on every trade",
+        "To eliminate all financial risk",
+        "To reduce the impact of negative market changes",
+        "To avoid paying taxes on investments"
+      ],
+      "answerIndex": 2,
+      "explanation": "The text states it is used to 'offset potential losses' and 'mitigate the impact of adverse market movements'."
+    },
+    {
       "id": "finance-b2-w1-grammar-1",
       "type": "multipleChoice",
       "prompt": "Which modal expresses the highest level of certainty? 'Based on the current bull market, the stock price ___ rise further.'",
@@ -57,17 +156,163 @@
       "explanation": "'Might' expresses a possibility and is suitable for cautious predictions in financial contexts."
     },
     {
-      "id": "finance-b2-w1-reading1",
-      "type": "readingComprehension",
-      "prompt": "Extract from a Financial Report: 'The proposed merger between TechCorp and SoftSystems is currently undergoing rigorous due diligence. Analysts suggest that while the synergies are clear, the operational risk remains high due to incompatible legacy systems.' \n\nWhat is the main concern regarding the merger?",
+      "id": "finance-b2-w1-grammar-3",
+      "type": "multipleChoice",
+      "prompt": "Complete the deduction: 'The CFO is looking very worried. The quarterly results ___ be as good as we expected.'",
+      "options": ["mustn't", "can't", "shouldn't", "won't"],
+      "answerIndex": 1,
+      "explanation": "'Can't' is used for strong negative deduction based on current evidence (the CFO's worry)."
+    },
+    {
+      "id": "finance-b2-w1-grammar-4",
+      "type": "multipleChoice",
+      "prompt": "Identify the correct modal for probability: 'The legal team has cleared the contract, so the deal ___ close by Friday.'",
+      "options": ["might", "should", "could", "may"],
+      "answerIndex": 1,
+      "explanation": "'Should' is used to express that something is likely or expected to happen."
+    },
+    {
+      "id": "finance-b2-w1-grammar-5",
+      "type": "multipleChoice",
+      "prompt": "Which sentence expresses a past possibility that didn't happen? 'We ___ invested in that startup, but we decided it was too risky.'",
       "options": [
-        "The price is too high",
-        "Incompatible internal systems (Operational Risk)",
-        "The market is not ready for the merger",
-        "TechCorp has too much debt"
+        "must have",
+        "could have",
+        "should have",
+        "might have"
       ],
       "answerIndex": 1,
-      "explanation": "The text explicitly mentions 'operational risk remains high due to incompatible legacy systems'."
+      "explanation": "'Could have' describes an ability or opportunity in the past that was not taken."
+    },
+    {
+      "id": "finance-b2-w1-grammar-6",
+      "type": "multipleChoice",
+      "prompt": "Select the correct form: 'The auditors found several discrepancies. There ___ been an error in the accounting software.'",
+      "options": [
+        "must have",
+        "can't have",
+        "should have",
+        "will have"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Must have + past participle' is used for strong deductions about the past."
+    },
+    {
+      "id": "finance-b2-w1-grammar-7",
+      "type": "multipleChoice",
+      "prompt": "Which modal indicates a recommendation that was ignored? 'They ___ performed more thorough due diligence before signing.'",
+      "options": [
+        "must have",
+        "could have",
+        "should have",
+        "might have"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Should have + past participle' expresses criticism or regret about a past action."
+    },
+    {
+      "id": "finance-b2-w1-vocabulary-1",
+      "type": "multipleChoice",
+      "prompt": "What is 'Asset Stripping'?",
+      "options": [
+        "Improving a company's assets to increase value",
+        "Selling off a company's assets piece by piece for profit",
+        "Buying new equipment for a factory",
+        "Hiring a new management team"
+      ],
+      "answerIndex": 1,
+      "explanation": "Asset stripping is the process of buying an undervalued company with the intent to sell off its assets for a profit."
+    },
+    {
+      "id": "finance-b2-w1-vocabulary-2",
+      "type": "multipleChoice",
+      "prompt": "What does 'Solvency' refer to?",
+      "options": [
+        "The ability to pay short-term bills",
+        "The ability to meet long-term financial obligations",
+        "The total amount of cash in the bank",
+        "The number of shares a company has issued"
+      ],
+      "answerIndex": 1,
+      "explanation": "Solvency is the ability of a company to meet its long-term fixed expenses and to accomplish long-term expansion and growth."
+    },
+    {
+      "id": "finance-b2-w1-vocabulary-3",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Blue Chip' company?",
+      "options": [
+        "A brand new technology startup",
+        "A large, well-established, and financially sound company",
+        "A company that is currently in bankruptcy",
+        "A company that only operates in the gambling industry"
+      ],
+      "answerIndex": 1,
+      "explanation": "Blue-chip stocks are shares of very large and well-recognized companies with a long history of sound financial performance."
+    },
+    {
+      "id": "finance-b2-w1-vocabulary-4",
+      "type": "multipleChoice",
+      "prompt": "What is 'Insider Trading'?",
+      "options": [
+        "Trading stocks within a specific country",
+        "The illegal practice of trading on the stock exchange to one's own advantage through having access to confidential information",
+        "Hiring employees from within the company",
+        "Selling products to company employees"
+      ],
+      "answerIndex": 1,
+      "explanation": "Insider trading involves trading in a public company's stock by someone who has non-public, material information about that stock for any reason."
+    },
+    {
+      "id": "finance-b2-w1-vocabulary-5",
+      "type": "multipleChoice",
+      "prompt": "What does 'Volatility' mean in the stock market?",
+      "options": [
+        "The market is very stable and predictable",
+        "The rate at which the price of a security increases or decreases",
+        "The total number of companies listed on an exchange",
+        "The time it takes to process a trade"
+      ],
+      "answerIndex": 1,
+      "explanation": "Volatility is a statistical measure of the dispersion of returns for a given security or market index."
+    },
+    {
+      "id": "finance-b2-w1-vocabulary-6",
+      "type": "multipleChoice",
+      "prompt": "What is 'Amortization'?",
+      "options": [
+        "Buying insurance for a loan",
+        "The process of gradually writing off the initial cost of an asset",
+        "Increasing the interest rate on a debt",
+        "A type of bank bankruptcy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Amortization is an accounting technique used to periodically lower the book value of a loan or an intangible asset over a set period of time."
+    },
+    {
+      "id": "finance-b2-w1-vocabulary-7",
+      "type": "multipleChoice",
+      "prompt": "What are 'Securities' in finance?",
+      "options": [
+        "The guards at a bank branch",
+        "Tradable financial assets like stocks and bonds",
+        "Insurance policies for high-value items",
+        "The passwords for online banking"
+      ],
+      "answerIndex": 1,
+      "explanation": "A security is a tradable financial asset. The term commonly refers to any form of financial instrument, but its legal definition varies by jurisdiction."
+    },
+    {
+      "id": "finance-b2-w1-vocabulary-8",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Bear Market'?",
+      "options": [
+        "A market where prices are rising rapidly",
+        "A market in which prices are falling, encouraging selling",
+        "A market for agricultural products",
+        "A market with no regulations"
+      ],
+      "answerIndex": 1,
+      "explanation": "A bear market is when a market experiences prolonged price declines. It typically describes a condition in which securities prices fall 20% or more from recent highs."
     }
   ]
 }
