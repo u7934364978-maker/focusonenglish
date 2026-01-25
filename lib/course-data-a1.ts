@@ -46,7 +46,9 @@ export type ExerciseType =
   | 'idioms-expressions'
   | 'summary-writing'
   | 'gap-fill-text'
-  | 'sentence-reordering';
+  | 'sentence-reordering'
+  | 'word-search'
+  | 'crossword';
 
 export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 
@@ -378,6 +380,34 @@ export interface GappedTextExercise {
     explanation: string;
   }[];
   difficulty: 'medium' | 'hard';
+}
+
+export interface WordSearchExercise {
+  id: string;
+  type: 'word-search';
+  title: string;
+  instructions: string;
+  words: string[];
+  gridSize: number;
+  clues?: { word: string; clue: string }[];
+  points: number;
+}
+
+export interface CrosswordItem {
+  word: string;
+  clue: string;
+  direction: 'across' | 'down';
+  row: number;
+  col: number;
+}
+
+export interface CrosswordExercise {
+  id: string;
+  type: 'crossword';
+  title: string;
+  instructions: string;
+  items: CrosswordItem[];
+  points: number;
 }
 
 export interface MultipleMatchingText {

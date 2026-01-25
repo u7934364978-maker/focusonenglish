@@ -33,7 +33,9 @@ export type ExerciseType =
   | 'ielts-graph-description'
   | 'ielts-true-false-not-given'
   | 'toefl-integrated-reading-listening'
-  | 'oxford-use-of-english';
+  | 'oxford-use-of-english'
+  | 'word-search'
+  | 'crossword';
 
 export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
@@ -390,6 +392,72 @@ Format as JSON:
       easy: 'Clear formal/informal distinctions',
       medium: 'Subtle differences in politeness and appropriacy',
       hard: 'Very nuanced social and cultural speaking conventions'
+    }
+  },
+  {
+    id: 'word-search',
+    name: 'Word Search',
+    nameES: 'Sopa de Letras',
+    category: 'vocabulary',
+    description: 'Find the hidden words in the grid',
+    descriptionES: 'Encuentra las palabras ocultas en la cuadrícula',
+    icon: '🔍',
+    estimatedTime: 5,
+    aiPromptTemplate: `Generate a word search exercise for level {{level}}.
+Topic: {{topic}}
+Difficulty: {{difficulty}}
+
+Include 8-12 words related to the topic.
+Format as JSON:
+{
+  "title": "Word Search: [topic]",
+  "instructions": "Find the hidden words in the grid",
+  "words": ["WORD1", "WORD2", ...],
+  "gridSize": 10,
+  "clues": [
+    {"word": "WORD1", "clue": "Optional clue in Spanish/English"}
+  ]
+}`,
+    supportedLevels: ['A1', 'A2', 'B1'],
+    difficultySettings: {
+      easy: 'Small grid (8x8), horizontal and vertical only',
+      medium: 'Standard grid (10x10), includes diagonal',
+      hard: 'Large grid (12x12), backwards and overlapping words'
+    }
+  },
+  {
+    id: 'crossword',
+    name: 'Crossword',
+    nameES: 'Crucigrama',
+    category: 'vocabulary',
+    description: 'Solve the crossword puzzle using the clues',
+    descriptionES: 'Resuelve el crucigrama usando las pistas',
+    icon: '🧩',
+    estimatedTime: 10,
+    aiPromptTemplate: `Generate a crossword exercise for level {{level}}.
+Topic: {{topic}}
+Difficulty: {{difficulty}}
+
+Include 6-10 words with clues.
+Format as JSON:
+{
+  "title": "Crossword: [topic]",
+  "instructions": "Complete the crossword puzzle",
+  "items": [
+    {
+      "word": "APPLE",
+      "clue": "A red or green fruit",
+      "direction": "across",
+      "row": 0,
+      "col": 0
+    }
+  ]
+}`,
+    supportedLevels: ['A1', 'A2', 'B1', 'B2'],
+    difficultySettings: {
+      easy: 'Simple words and direct clues',
+      medium: 'Common vocabulary with descriptive clues',
+      hard: 'Advanced vocabulary and cryptic/challengive clues'
     }
   },
   {

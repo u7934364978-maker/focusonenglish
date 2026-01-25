@@ -8,7 +8,7 @@ import { generateCourseSchema, generateBreadcrumbSchema, generateFAQSchema } fro
 export const runtime = 'edge';
 
 const GOALS = ["trabajo", "viajes", "examenes", "emailing"] as const;
-const LEVELS = ["a1","a2","b1","b2","c1","c2"] as const;
+const LEVELS = ["a1","a2","b1","b2","c1","c2", "a1_premium"] as const;
 
 type Goal = (typeof GOALS)[number];
 type Level = (typeof LEVELS)[number];
@@ -41,6 +41,7 @@ const LEVEL_LABEL: Record<Level, string> = {
   b2: "Nivel B2 - Intermedio Alto", 
   c1: "Nivel C1 - Avanzado", 
   c2: "Nivel C2 - Maestría",
+  a1_premium: "A1 Premium (9 Meses)",
 };
 
 const LEVEL_SEO_DESCRIPTION: Record<Level, string> = {
@@ -50,6 +51,7 @@ const LEVEL_SEO_DESCRIPTION: Record<Level, string> = {
   b2: "B2 (Intermedio Alto) - Argumenta con confianza y prepara Cambridge B2 First",
   c1: "C1 (Avanzado) - Domina el inglés a nivel profesional y académico",
   c2: "C2 (Maestría) - Alcanza nivel nativo con expresiones complejas",
+  a1_premium: "Curso A1 Premium de 9 meses - El programa más completo desde cero con juegos interactivos y técnicas digitales avanzadas.",
 };
 
 // Generate dynamic metadata for SEO

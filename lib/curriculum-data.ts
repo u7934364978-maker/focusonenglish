@@ -1,5 +1,6 @@
 // Currículum completo basado en especificaciones de Cambridge English (CEFR)
 // A1 - C2: Grammar, Vocabulary, Topics, Skills
+import { A1_PREMIUM_CURRICULUM } from './a1-premium-curriculum';
 
 export interface CurriculumModule {
   title: string;
@@ -193,7 +194,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
       }
     ]
   },
-
+  A1_PREMIUM: A1_PREMIUM_CURRICULUM,
   A2: {
     level: "A2",
     cefr: "Elemental",

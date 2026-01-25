@@ -5,6 +5,8 @@ import { CheckCircle, XCircle, ArrowRight, Sparkles, Zap, Loader2 } from 'lucide
 import type { Exercise } from '@/lib/exercise-generator';
 import EnhancedFeedback from './course/EnhancedFeedback';
 import SpeakingExercise from './SpeakingExercise';
+import WordSearchExercise from './exercises/WordSearchExercise';
+import CrosswordExercise from './exercises/CrosswordExercise';
 import type { MultipleChoiceEvaluationResponse } from '@/app/api/evaluate-multiple-choice/route';
 import type { TextAnswerEvaluationResponse } from '@/app/api/evaluate-text-answer/route';
 
@@ -165,6 +167,56 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
             }, 3000);
           }}
         />
+      );
+    }
+
+    // Word Search exercise
+    if (exercise.type === 'word-search') {
+      return (
+        <div className={`bg-white rounded-xl shadow-lg p-8 border border-gray-200 transition-all duration-300 ${
+          isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
+        }`}>
+          <div className="mb-6">
+            <h2 className="text-2xl font-black text-gray-900">{exercise.content.title || 'Sopa de Letras'}</h2>
+            <p className="text-gray-600 mt-2">{exercise.content.instructions || 'Encuentra las palabras ocultas en la cuadrícula.'}</p>
+          </div>
+          <WordSearchExercise 
+            words={exercise.content.words} 
+            gridSize={exercise.content.gridSize || 10} 
+            clues={exercise.content.clues}
+            onComplete={() => {
+              setShowConfetti(true);
+              setTimeout(() => {
+                setShowConfetti(false);
+                onComplete();
+              }, 3000);
+            }} 
+          />
+        </div>
+      );
+    }
+
+    // Crossword exercise
+    if (exercise.type === 'crossword') {
+      return (
+        <div className={`bg-white rounded-xl shadow-lg p-8 border border-gray-200 transition-all duration-300 ${
+          isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
+        }`}>
+          <div className="mb-6">
+            <h2 className="text-2xl font-black text-gray-900">{exercise.content.title || 'Crucigrama'}</h2>
+            <p className="text-gray-600 mt-2">{exercise.content.instructions || 'Completa el crucigrama usando las pistas.'}</p>
+          </div>
+          <CrosswordExercise 
+            items={exercise.content.items} 
+            onComplete={() => {
+              setShowConfetti(true);
+              setTimeout(() => {
+                setShowConfetti(false);
+                onComplete();
+              }, 3000);
+            }} 
+          />
+        </div>
       );
     }
 
