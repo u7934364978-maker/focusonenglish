@@ -7,8 +7,8 @@ import { generateCourseSchema, generateBreadcrumbSchema, generateFAQSchema } fro
 
 export const runtime = 'edge';
 
-const GOALS = ["trabajo", "viajes", "examenes"] as const;
-const LEVELS = ["a1","a2","b1","b2","c1","c2"] as const;
+const GOALS = ["trabajo", "viajes", "examenes", "emailing"] as const;
+const LEVELS = ["a1","a2","b1","b2","c1","c2", "a1_premium"] as const;
 
 type Goal = (typeof GOALS)[number];
 type Level = (typeof LEVELS)[number];
@@ -17,18 +17,21 @@ const GOAL_LABEL: Record<Goal, string> = {
   trabajo: "Inglés para Trabajar",
   viajes: "Inglés para Viajar",
   examenes: "Preparación de Exámenes Oficiales",
+  emailing: "Emailing (inglés laboral)",
 };
 
 const GOAL_DESCRIPTION: Record<Goal, string> = {
   trabajo: "Curso especializado en inglés profesional para entornos laborales",
   viajes: "Curso práctico de inglés para viajes y situaciones cotidianas",
   examenes: "Preparación siguiendo criterios de evaluación de exámenes oficiales internacionales (MCER)",
+  emailing: "Emails profesionales: estructura, tono neutro, requests, follow-ups, recap y claridad.",
 };
 
 const GOAL_SEO_DESCRIPTION: Record<Goal, string> = {
   trabajo: "Domina el inglés profesional para tu trabajo. Vocabulario técnico, presentaciones, emails corporativos y negociación. Certificación oficial incluida.",
   viajes: "Aprende inglés práctico para viajar. Aeropuertos, hoteles, restaurantes y emergencias. Habla inglés con confianza en tus viajes.",
   examenes: "Preparación completa para Cambridge, TOEFL e IELTS. Mock exams ilimitados, estrategias probadas y tutorías personalizadas.",
+  emailing: "Aprende a escribir emails profesionales efectivos en inglés. Estructura, tono y claridad para el entorno laboral.",
 };
 
 const LEVEL_LABEL: Record<Level, string> = {
@@ -38,6 +41,7 @@ const LEVEL_LABEL: Record<Level, string> = {
   b2: "Nivel B2 - Intermedio Alto", 
   c1: "Nivel C1 - Avanzado", 
   c2: "Nivel C2 - Maestría",
+  a1_premium: "A1 Premium (9 Meses)",
 };
 
 const LEVEL_SEO_DESCRIPTION: Record<Level, string> = {
@@ -47,6 +51,7 @@ const LEVEL_SEO_DESCRIPTION: Record<Level, string> = {
   b2: "B2 (Intermedio Alto) - Argumenta con confianza y prepara Cambridge B2 First",
   c1: "C1 (Avanzado) - Domina el inglés a nivel profesional y académico",
   c2: "C2 (Maestría) - Alcanza nivel nativo con expresiones complejas",
+  a1_premium: "Curso A1 Premium de 9 meses - El programa más completo desde cero con juegos interactivos y técnicas digitales avanzadas.",
 };
 
 // Generate dynamic metadata for SEO
@@ -54,6 +59,10 @@ export async function generateMetadata({ params }: { params: Promise<{ goal: str
   const { goal: goalParam, level: levelParam } = await params;
   const goal = goalParam as Goal;
   const level = levelParam as Level;
+
+  if (!GOALS.includes(goal) || !LEVELS.includes(level)) {
+    return { title: "Curso no encontrado | Focus English" };
+  }
 
   const title = `Curso de Inglés ${LEVEL_LABEL[level]} para ${GOAL_LABEL[goal]} | Focus English`;
   const description = `${GOAL_SEO_DESCRIPTION[goal]} ${LEVEL_SEO_DESCRIPTION[level]}. Desde €6.99/mes. Prueba gratis 7 días.`;

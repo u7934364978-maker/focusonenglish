@@ -60,6 +60,10 @@ export async function generateMetadata({ params }: { params: Promise<{ goal: str
   const goal = goalParam as Goal;
   const level = levelParam as Level;
 
+  if (!GOALS.includes(goal) || !LEVELS.includes(level)) {
+    return { title: "Curso no encontrado | Focus English" };
+  }
+
   const title = `Curso de Inglés ${LEVEL_LABEL[level]} para ${GOAL_LABEL[goal]} | Focus English`;
   const description = `${GOAL_SEO_DESCRIPTION[goal]} ${LEVEL_SEO_DESCRIPTION[level]}. Desde €6.99/mes. Prueba gratis 7 días.`;
 
