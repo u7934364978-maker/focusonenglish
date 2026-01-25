@@ -4,7 +4,7 @@
   "trimester": 1,
   "weekId": "semana01",
   "title": "Investment Banking & Risk Assessment",
-  "description": "Advanced focus on M&A, IPOs, and quantifying financial risk using sophisticated vocabulary and modal verbs.",
+  "description": "Advanced focus on M&A, IPOs, and quantifying financial risk using sophisticated vocabulary and modal verbs (50 items).",
   "items": [
     {
       "id": "finance-b2-w1-q1",
@@ -313,6 +313,198 @@
       ],
       "answerIndex": 1,
       "explanation": "A bear market is when a market experiences prolonged price declines. It typically describes a condition in which securities prices fall 20% or more from recent highs."
+    },
+    {
+      "id": "finance-b2-w1-q27",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Leveraged Buyout' (LBO)?",
+      "options": ["Buying a company with cash only", "Acquisition of a company using a significant amount of borrowed money", "Selling a company to employees", "A merger between two equal companies"],
+      "answerIndex": 1,
+      "explanation": "In an LBO, the assets of the company being acquired are often used as collateral for the loans."
+    },
+    {
+      "id": "finance-b2-w1-q28",
+      "type": "multipleChoice",
+      "prompt": "What does 'Market Capitalization' represent?",
+      "options": ["The total profit of a company", "The total value of a company's outstanding shares of stock", "The amount of taxes a company pays", "The total number of employees"],
+      "answerIndex": 1,
+      "explanation": "Market cap is calculated by multiplying the share price by the total number of outstanding shares."
+    },
+    {
+      "id": "finance-b2-w1-q29",
+      "type": "multipleChoice",
+      "prompt": "What is 'Venture Capital'?",
+      "options": ["Loans from traditional banks", "Financing provided to startups and small businesses with long-term growth potential", "Personal savings of the business owner", "Government grants"],
+      "answerIndex": 1,
+      "explanation": "Venture capital is a form of private equity provided by firms or funds to small, early-stage, high-potential companies."
+    },
+    {
+      "id": "finance-b2-w1-q30",
+      "type": "multipleChoice",
+      "prompt": "What is 'Arbitrage'?",
+      "options": ["Losing money on a trade", "Simultaneous purchase and sale of an asset to profit from an imbalance in the price", "A type of insurance", "The process of declaring bankruptcy"],
+      "answerIndex": 1,
+      "explanation": "Arbitrage exploits price differences of the same or similar financial instruments on different markets."
+    },
+    {
+      "id": "finance-b2-w1-q31",
+      "type": "multipleChoice",
+      "prompt": "What is 'Equity' in finance?",
+      "options": ["Total debt of a company", "Ownership interest in a corporation (stocks)", "The bank's reserve funds", "A type of government bond"],
+      "answerIndex": 1,
+      "explanation": "Equity represents the value that would be returned to shareholders if all assets were liquidated and all debts paid off."
+    },
+    {
+      "id": "finance-b2-w1-q32",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Derivative'?",
+      "options": ["A basic bank account", "A financial security with a value that is reliant upon an underlying asset", "A type of physical currency", "A loan with no interest"],
+      "answerIndex": 1,
+      "explanation": "Common derivatives include futures, options, forwards, and swaps."
+    },
+    {
+      "id": "finance-b2-w1-q33",
+      "type": "multipleChoice",
+      "prompt": "What is 'Quantitative Easing' (QE)?",
+      "options": ["Increasing taxes to reduce inflation", "A monetary policy where a central bank purchases government securities to increase money supply", "A type of accounting software", "Reducing the number of employees in a bank"],
+      "answerIndex": 1,
+      "explanation": "QE is used by central banks to stimulate the economy when standard monetary policy is ineffective."
+    },
+    {
+      "id": "finance-b2-w1-q34",
+      "type": "multipleChoice",
+      "prompt": "What is 'Working Capital'?",
+      "options": ["Total assets minus total liabilities", "Current assets minus current liabilities", "The money used to buy the building", "The CEO's salary"],
+      "answerIndex": 1,
+      "explanation": "Working capital measures a company's operational liquidity and short-term financial health."
+    },
+    {
+      "id": "finance-b2-w1-q35",
+      "type": "multipleChoice",
+      "prompt": "What is 'EBITDA'?",
+      "options": ["Earnings Before Interest, Taxes, Depreciation, and Amortization", "Every Bank In The District Association", "Electronic Bank International Trade Data Agreement", "Earnings Between Investment Trust Data Analysis"],
+      "answerIndex": 0,
+      "explanation": "EBITDA is a measure of a company's overall financial performance."
+    },
+    {
+      "id": "finance-b2-w1-q36",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Synergy' in M&A?",
+      "options": ["A conflict between managers", "The concept that the value and performance of two companies combined will be greater than the sum of the separate parts", "A type of legal document", "A government regulation"],
+      "answerIndex": 1,
+      "explanation": "Synergies are often used to justify the premium paid for an acquisition."
+    },
+    {
+      "id": "finance-b2-w1-q37",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Secondary Market'?",
+      "options": ["A market for used cars", "Where investors buy and sell securities they already own (e.g., NYSE)", "The market for small businesses only", "A market with no rules"],
+      "answerIndex": 1,
+      "explanation": "The primary market is where new securities are issued; the secondary market is where they are traded among investors."
+    },
+    {
+      "id": "finance-b2-w1-q38",
+      "type": "multipleChoice",
+      "prompt": "What is 'Diversification'?",
+      "options": ["Investing all money in one stock", "Spreading investments across various financial instruments and sectors to reduce risk", "Changing the bank's logo", "Moving the office to a new city"],
+      "answerIndex": 1,
+      "explanation": "Diversification is a core principle of risk management."
+    },
+    {
+      "id": "finance-b2-w1-q39",
+      "type": "multipleChoice",
+      "prompt": "What is 'Sovereign Debt'?",
+      "options": ["Debt owed by a large corporation", "Debt issued by a national government", "Personal debt of a king", "Debt between two private banks"],
+      "answerIndex": 1,
+      "explanation": "Sovereign debt is usually issued in the form of bonds."
+    },
+    {
+      "id": "finance-b2-w1-q40",
+      "type": "multipleChoice",
+      "prompt": "What is 'Yield'?",
+      "options": ["The total price of a bond", "The income returned on an investment, usually expressed as a percentage", "A type of bank fee", "The end of a contract"],
+      "answerIndex": 1,
+      "explanation": "Yield can refer to the interest or dividends received from a security."
+    },
+    {
+      "id": "finance-b2-w1-grammar-8",
+      "type": "multipleChoice",
+      "prompt": "Identify the modal of obligation in a past context: 'The company ___ disclosed the risk earlier, as per the regulations.'",
+      "options": ["should have", "must have", "might have", "could have"],
+      "answerIndex": 0,
+      "explanation": "'Should have' expresses that a past obligation was not met."
+    },
+    {
+      "id": "finance-b2-w1-grammar-9",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'Given the volatility, the investors ___ be more cautious next quarter.'",
+      "options": ["ought to", "can't", "mustn't", "won't"],
+      "answerIndex": 0,
+      "explanation": "'Ought to' expresses a strong recommendation or moral obligation."
+    },
+    {
+      "id": "finance-b2-w1-grammar-10",
+      "type": "multipleChoice",
+      "prompt": "Complete the logical deduction: 'They haven't announced the deal yet. There ___ be some last-minute legal hurdles.'",
+      "options": ["must", "can't", "shouldn't", "won't"],
+      "answerIndex": 0,
+      "explanation": "'Must' is used for positive logical deduction based on the fact the deal isn't announced."
+    },
+    {
+      "id": "finance-b2-w1-reading4",
+      "type": "readingComprehension",
+      "prompt": "REPORT: 'The target company’s valuation was deemed excessive by the acquiring firm's board. Consequently, the deal was aborted to protect shareholder value and prevent over-leveraging.' \n\nWhy was the deal cancelled?",
+      "options": ["The target company was too small", "The price was too high (excessive valuation)", "The government blocked it", "The acquiring firm went bankrupt"],
+      "answerIndex": 1,
+      "explanation": "The text states the valuation was 'deemed excessive'."
+    },
+    {
+      "id": "finance-b2-w1-reading5",
+      "type": "readingComprehension",
+      "prompt": "ANALYSIS: 'Market risk, also known as systematic risk, affects the entire market and cannot be eliminated through diversification. In contrast, unsystematic risk is specific to a company or industry and can be mitigated.' \n\nAccording to the text, which risk can be reduced by diversifying?",
+      "options": ["Market Risk", "Systematic Risk", "Unsystematic Risk", "All risks"],
+      "answerIndex": 2,
+      "explanation": "The text states unsystematic risk 'can be mitigated' (implying through diversification)."
+    },
+    {
+      "id": "finance-b2-w1-q46",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Fusión y Adquisición'",
+      "options": ["Fusion and Buying", "Merger and Acquisition (M&A)", "Join and Takeover", "Union and Purchase"],
+      "answerIndex": 1,
+      "explanation": "M&A is the standard professional abbreviation."
+    },
+    {
+      "id": "finance-b2-w1-q47",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Valoración'",
+      "options": ["Price tag", "Valuation", "Counting", "Costing"],
+      "answerIndex": 1,
+      "explanation": "Valuation is the process of determining the current worth of an asset or company."
+    },
+    {
+      "id": "finance-b2-w1-q48",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Riesgo de mercado'",
+      "options": ["Market danger", "Market risk", "Store risk", "Sale risk"],
+      "answerIndex": 1,
+      "explanation": "'Market risk' is the standard term."
+    },
+    {
+      "id": "finance-b2-w1-q49",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Diligencia debida'",
+      "options": ["Due diligence", "Right work", "Correct duty", "Proper task"],
+      "answerIndex": 0,
+      "explanation": "'Due diligence' is the specific legal/financial term."
+    },
+    {
+      "id": "finance-b2-w1-q50",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'If we ___ (mitigate) the operational risk, the board ___ (approve) the merger.'",
+      "options": ["mitigate / will approve", "mitigated / would approve", "will mitigate / approve", "mitigate / approve"],
+      "answerIndex": 1,
+      "explanation": "Second conditional (unlikely/hypothetical): Past Simple + would + verb."
     }
   ]
 }

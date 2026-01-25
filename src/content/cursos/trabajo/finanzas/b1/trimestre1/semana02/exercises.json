@@ -3,8 +3,8 @@
   "level": "B1",
   "trimester": 1,
   "weekId": "semana02",
-  "title": "Tarjetas y Préstamos: Asesoramiento al Cliente",
-  "description": "Carga lectiva: 10h. Enfoque en tipos de tarjetas, solicitud de préstamos y condicionales.",
+  "title": "Retail Banking: Cards, Loans, and Customer Service",
+  "description": "Comprehensive practice on daily banking operations, credit products, and customer interaction (50 items).",
   "items": [
     {
       "id": "finance-b1-w2-q1",
@@ -23,12 +23,388 @@
       "explanation": "Debit cards deduct funds directly and immediately from the linked account."
     },
     {
+      "id": "finance-b1-w2-q3",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'unsecured' loan?",
+      "options": ["Mortgage", "Personal loan", "Car loan (with car as collateral)", "Home equity loan"],
+      "answerIndex": 1,
+      "explanation": "A personal loan is often unsecured, meaning no collateral is required."
+    },
+    {
+      "id": "finance-b1-w2-q4",
+      "type": "multipleChoice",
+      "prompt": "What is the 'APR'?",
+      "options": ["Annual Percentage Rate", "Account Payment Receipt", "Average Profit Ratio", "Annual Personal Revenue"],
+      "answerIndex": 0,
+      "explanation": "APR stands for Annual Percentage Rate, the total cost of credit per year."
+    },
+    {
+      "id": "finance-b1-w2-q5",
+      "type": "multipleChoice",
+      "prompt": "If a card is 'stolen', what should the client do first?",
+      "options": ["Wait 24 hours", "Go shopping", "Cancel or block the card", "Change their address"],
+      "answerIndex": 2,
+      "explanation": "Blocking the card immediately prevents unauthorized transactions."
+    },
+    {
+      "id": "finance-b1-w2-q6",
+      "type": "multipleChoice",
+      "prompt": "What is a 'credit limit'?",
+      "options": ["The minimum you must pay", "The maximum you can spend on the card", "The interest rate", "The date the card expires"],
+      "answerIndex": 1,
+      "explanation": "The credit limit is the maximum amount a lender allows a consumer to spend on a credit card."
+    },
+    {
+      "id": "finance-b1-w2-q7",
+      "type": "multipleChoice",
+      "prompt": "A 'grace period' usually refers to:",
+      "options": ["The time before interest is charged on new purchases", "The time it takes to walk into the bank", "A religious holiday", "The time to open an account"],
+      "answerIndex": 0,
+      "explanation": "The grace period is the time during which you can pay your credit card balance in full without being charged interest."
+    },
+    {
+      "id": "finance-b1-w2-q8",
+      "type": "multipleChoice",
+      "prompt": "Which document is usually required for a loan application?",
+      "options": ["Gym membership", "Proof of income (pay slips)", "Library card", "Birth certificate of your pet"],
+      "answerIndex": 1,
+      "explanation": "Lenders need proof of income to ensure you can repay the loan."
+    },
+    {
+      "id": "finance-b1-w2-q9",
+      "type": "multipleChoice",
+      "prompt": "What does 'to default' on a loan mean?",
+      "options": ["To pay early", "To fail to make payments", "To increase the interest rate", "To change the bank"],
+      "answerIndex": 1,
+      "explanation": "Defaulting means failing to fulfill the legal obligations of a loan, usually by missing payments."
+    },
+    {
+      "id": "finance-b1-w2-q10",
+      "type": "multipleChoice",
+      "prompt": "What is 'collateral'?",
+      "options": ["A type of bank building", "An asset used to secure a loan", "A bank manager's assistant", "A monthly fee"],
+      "answerIndex": 1,
+      "explanation": "Collateral is an asset (like a house or car) that a borrower offers a lender to secure a loan."
+    },
+    {
       "id": "finance-b1-w2-grammar-1",
       "type": "multipleChoice",
       "prompt": "Complete: 'If you ___ (apply) for the loan today, you ___ (get) an answer by Friday.'",
       "options": ["apply / will get", "will apply / get", "applied / would get", "apply / get"],
       "answerIndex": 0,
       "explanation": "First conditional uses Present Simple in the 'if' clause and 'will' in the main clause."
+    },
+    {
+      "id": "finance-b1-w2-grammar-2",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'We ___ (waive) the fee if you ___ (open) a savings account.'",
+      "options": ["will waive / open", "waive / will open", "would waive / opened", "will waive / will open"],
+      "answerIndex": 0,
+      "explanation": "Standard first conditional structure for professional offers."
+    },
+    {
+      "id": "finance-b1-w2-grammar-3",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'If he ___ (not pay) on time, the bank ___ (charge) interest.'",
+      "options": ["doesn't pay / will charge", "don't pay / will charge", "won't pay / charges", "doesn't pay / charges"],
+      "answerIndex": 0,
+      "explanation": "Negative present simple 'doesn't pay' + future 'will charge'."
+    },
+    {
+      "id": "finance-b1-w2-grammar-4",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'What ___ you ___ (do) if they ___ (reject) your application?'",
+      "options": ["will / do / reject", "do / do / will reject", "would / do / rejected", "will / do / rejects"],
+      "answerIndex": 0,
+      "explanation": "First conditional question form."
+    },
+    {
+      "id": "finance-b1-w2-grammar-5",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct polite request:",
+      "options": ["Give me your ID.", "I want your ID now.", "Could you please provide your ID?", "ID, please!"],
+      "answerIndex": 2,
+      "explanation": "'Could you please...' is the standard polite form for customer service."
+    },
+    {
+      "id": "finance-b1-w2-vocab-1",
+      "type": "multipleChoice",
+      "prompt": "What is a 'statement'?",
+      "options": ["A document showing all transactions", "A type of loan", "A secret password", "The bank's entrance"],
+      "answerIndex": 0,
+      "explanation": "A bank statement summarizes all transactions in an account over a period."
+    },
+    {
+      "id": "finance-b1-w2-vocab-2",
+      "type": "multipleChoice",
+      "prompt": "What does 'ATM' stand for?",
+      "options": ["Automated Teller Machine", "Automatic Transfer Money", "Account Transaction Mode", "All Time Money"],
+      "answerIndex": 0,
+      "explanation": "ATM is the standard abbreviation for a cash machine."
+    },
+    {
+      "id": "finance-b1-w2-vocab-3",
+      "type": "multipleChoice",
+      "prompt": "A 'balance' is:",
+      "options": ["The amount of money in your account", "The weight of the bank building", "The number of cards you have", "A type of loan"],
+      "answerIndex": 0,
+      "explanation": "Balance refers to the current amount of funds available in an account."
+    },
+    {
+      "id": "finance-b1-w2-vocab-4",
+      "type": "multipleChoice",
+      "prompt": "To 'withdraw' money means:",
+      "options": ["To put money in", "To take money out", "To lose money", "To borrow money"],
+      "answerIndex": 1,
+      "explanation": "To withdraw is to remove funds from an account."
+    },
+    {
+      "id": "finance-b1-w2-vocab-5",
+      "type": "multipleChoice",
+      "prompt": "To 'deposit' money means:",
+      "options": ["To take money out", "To put money in", "To spend money", "To lend money"],
+      "answerIndex": 1,
+      "explanation": "To deposit is to place money into a bank account."
+    },
+    {
+      "id": "finance-b1-w2-q21",
+      "type": "multipleChoice",
+      "prompt": "What is 'identity theft'?",
+      "options": ["Losing your wallet", "Someone using your personal info to commit fraud", "Changing your name", "Forgetting your password"],
+      "answerIndex": 1,
+      "explanation": "Identity theft involves unauthorized use of someone's personal data."
+    },
+    {
+      "id": "finance-b1-w2-q22",
+      "type": "multipleChoice",
+      "prompt": "What is a 'PIN'?",
+      "options": ["Personal Identification Number", "Private Internet Network", "Public Interest Note", "Personal Income Net"],
+      "answerIndex": 0,
+      "explanation": "PIN is the secret code used for card transactions."
+    },
+    {
+      "id": "finance-b1-w2-q23",
+      "type": "multipleChoice",
+      "prompt": "What is an 'overdraft'?",
+      "options": ["Having more money than needed", "Spending more than you have in your account", "A type of savings", "A bank holiday"],
+      "answerIndex": 1,
+      "explanation": "An overdraft occurs when you withdraw more money than is available in your current account."
+    },
+    {
+      "id": "finance-b1-w2-q24",
+      "type": "multipleChoice",
+      "prompt": "What is 'interest' in banking?",
+      "options": ["How much you like the bank", "The cost of borrowing or the reward for saving", "A type of bank branch", "The color of the bank logo"],
+      "answerIndex": 1,
+      "explanation": "Interest is money paid regularly at a particular rate for the use of money lent."
+    },
+    {
+      "id": "finance-b1-w2-q25",
+      "type": "multipleChoice",
+      "prompt": "A 'bounced check' is one that:",
+      "options": ["Is made of rubber", "Cannot be processed because of insufficient funds", "Is very fast", "Is sent by mail"],
+      "answerIndex": 1,
+      "explanation": "A check bounces when the account doesn't have enough money to cover the amount."
+    },
+    {
+      "id": "finance-b1-w2-q26",
+      "type": "multipleChoice",
+      "prompt": "What is 'liquidity'?",
+      "options": ["The amount of cash available", "Water in the bank office", "A type of credit card", "The bank's electricity bill"],
+      "answerIndex": 0,
+      "explanation": "Liquidity refers to how easily assets can be converted into cash."
+    },
+    {
+      "id": "finance-b1-w2-q27",
+      "type": "multipleChoice",
+      "prompt": "What is a 'standing order'?",
+      "options": ["Waiting in line at the bank", "A fixed instruction to pay a set amount regularly", "A command from the manager", "A type of loan"],
+      "answerIndex": 1,
+      "explanation": "A standing order is a regular payment of a fixed amount."
+    },
+    {
+      "id": "finance-b1-w2-q28",
+      "type": "multipleChoice",
+      "prompt": "What is 'direct debit'?",
+      "options": ["Paying with cash", "An instruction to the bank to allow a third party to collect variable amounts", "A type of credit card", "A loan for a car"],
+      "answerIndex": 1,
+      "explanation": "Direct debit allows companies to take variable amounts from your account (e.g., utility bills)."
+    },
+    {
+      "id": "finance-b1-w2-q29",
+      "type": "multipleChoice",
+      "prompt": "What is 'phishing'?",
+      "options": ["A hobby for bankers", "Fraudulent emails used to steal passwords", "A type of account", "Checking the balance"],
+      "answerIndex": 1,
+      "explanation": "Phishing is a cybercrime where targets are contacted by email, telephone or text message by someone posing as a legitimate institution."
+    },
+    {
+      "id": "finance-b1-w2-q30",
+      "type": "multipleChoice",
+      "prompt": "What is a 'joint account'?",
+      "options": ["An account shared by two or more people", "An account for smokers", "An account with high interest", "A temporary account"],
+      "answerIndex": 0,
+      "explanation": "A joint account is a bank account held by more than one person."
+    },
+    {
+      "id": "finance-b1-w2-q31",
+      "type": "multipleChoice",
+      "prompt": "What is 'principal' in a loan?",
+      "options": ["The bank manager", "The original amount of money borrowed", "The interest paid", "The legal document"],
+      "answerIndex": 1,
+      "explanation": "Principal is the original sum of money lent or invested on which interest is paid."
+    },
+    {
+      "id": "finance-b1-w2-q32",
+      "type": "multipleChoice",
+      "prompt": "What is a 'fixed-rate' loan?",
+      "options": ["A loan where the interest rate stays the same", "A loan that cannot be moved", "A loan for a fixed period only", "A loan for repairing things"],
+      "answerIndex": 0,
+      "explanation": "A fixed-rate loan has an interest rate that remains constant for the life of the loan."
+    },
+    {
+      "id": "finance-b1-w2-q33",
+      "type": "multipleChoice",
+      "prompt": "What is a 'variable-rate' loan?",
+      "options": ["A loan where the interest rate can change", "A loan for various things", "A loan that changes banks", "A loan for travelers"],
+      "answerIndex": 0,
+      "explanation": "A variable-rate loan has an interest rate that fluctuates over time."
+    },
+    {
+      "id": "finance-b1-w2-q34",
+      "type": "multipleChoice",
+      "prompt": "What is a 'teller'?",
+      "options": ["Someone who tells stories", "A bank employee who deals directly with customers", "A type of ATM", "A bank's security guard"],
+      "answerIndex": 1,
+      "explanation": "A bank teller is an employee who handles transactions like deposits and withdrawals."
+    },
+    {
+      "id": "finance-b1-w2-q35",
+      "type": "multipleChoice",
+      "prompt": "What is 'branch banking'?",
+      "options": ["Banking in a forest", "Using physical bank locations", "Online banking only", "A type of investment"],
+      "answerIndex": 1,
+      "explanation": "Branch banking refers to banking services provided through physical offices."
+    },
+    {
+      "id": "finance-b1-w2-q36",
+      "type": "multipleChoice",
+      "prompt": "What is 'online banking'?",
+      "options": ["Banking while waiting in line", "Banking through the internet", "Banking at a computer store", "A type of loan"],
+      "answerIndex": 1,
+      "explanation": "Online banking allows customers to conduct financial transactions via the internet."
+    },
+    {
+      "id": "finance-b1-w2-q37",
+      "type": "multipleChoice",
+      "prompt": "What is 'mobile banking'?",
+      "options": ["Banking in a car", "Banking using a smartphone app", "Banking while moving house", "A bank on wheels"],
+      "answerIndex": 1,
+      "explanation": "Mobile banking is the use of a smartphone or other cellular device to perform online banking tasks."
+    },
+    {
+      "id": "finance-b1-w2-q38",
+      "type": "multipleChoice",
+      "prompt": "What is a 'credit score'?",
+      "options": ["The points you get for spending", "A number representing your creditworthiness", "The number of cards you have", "Your age"],
+      "answerIndex": 1,
+      "explanation": "A credit score is a numerical expression based on a level analysis of a person's credit files."
+    },
+    {
+      "id": "finance-b1-w2-q39",
+      "type": "multipleChoice",
+      "prompt": "What is a 'late fee'?",
+      "options": ["A fee for being late to work", "A charge for missing a payment deadline", "A fee for opening an account late", "A type of interest"],
+      "answerIndex": 1,
+      "explanation": "A late fee is a charge against a client by a company for not paying a bill or returning a rented or borrowed item by its due date."
+    },
+    {
+      "id": "finance-b1-w2-q40",
+      "type": "multipleChoice",
+      "prompt": "What is 'repayment'?",
+      "options": ["Paying again", "The act of paying back a loan", "Buying something new", "A type of refund"],
+      "answerIndex": 1,
+      "explanation": "Repayment is the act of paying back money borrowed from a lender."
+    },
+    {
+      "id": "finance-b1-w2-q41",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Solicitud de préstamo'",
+      "options": ["Loan application", "Loan requestion", "Lending ask", "Borrowing paper"],
+      "answerIndex": 0,
+      "explanation": "'Loan application' is the correct professional term."
+    },
+    {
+      "id": "finance-b1-w2-q42",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Tasa de interés'",
+      "options": ["Interest rate", "Interest tax", "Interest speed", "Interest price"],
+      "answerIndex": 0,
+      "explanation": "'Interest rate' is the standard term."
+    },
+    {
+      "id": "finance-b1-w2-q43",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Cajero automático'",
+      "options": ["Automatic cashier", "Cash machine / ATM", "Money box", "Bank robot"],
+      "answerIndex": 1,
+      "explanation": "Both 'ATM' and 'Cash machine' are common translations."
+    },
+    {
+      "id": "finance-b1-w2-q44",
+      "type": "multipleChoice",
+      "prompt": "Which phrase is used to offer help?",
+      "options": ["What do you want?", "How can I help you today?", "I am busy.", "Go away."],
+      "answerIndex": 1,
+      "explanation": "'How can I help you today?' is a standard professional greeting."
+    },
+    {
+      "id": "finance-b1-w2-q45",
+      "type": "multipleChoice",
+      "prompt": "Which phrase is used to apologize for a delay?",
+      "options": ["Wait!", "I am sorry for the wait.", "The system is slow, not me.", "Why are you complaining?"],
+      "answerIndex": 1,
+      "explanation": "'I am sorry for the wait' is polite and professional."
+    },
+    {
+      "id": "finance-b1-w2-q46",
+      "type": "multipleChoice",
+      "prompt": "What does 'insufficient funds' mean?",
+      "options": ["Too much money", "Not enough money to cover a transaction", "The bank is closed", "Wrong password"],
+      "answerIndex": 1,
+      "explanation": "It means the account balance is lower than the amount being requested."
+    },
+    {
+      "id": "finance-b1-w2-q47",
+      "type": "multipleChoice",
+      "prompt": "What is a 'savings account'?",
+      "options": ["An account for daily spending", "An account intended for long-term storage of money", "An account for businesses only", "A type of credit card"],
+      "answerIndex": 1,
+      "explanation": "Savings accounts are designed for accumulating money rather than frequent withdrawals."
+    },
+    {
+      "id": "finance-b1-w2-q48",
+      "type": "multipleChoice",
+      "prompt": "What is a 'current account' (UK) / 'checking account' (US)?",
+      "options": ["An account for daily transactions", "An account for old people", "A type of loan", "A secret account"],
+      "answerIndex": 0,
+      "explanation": "These accounts are designed for everyday financial activities."
+    },
+    {
+      "id": "finance-b1-w2-q49",
+      "type": "multipleChoice",
+      "prompt": "What is a 'statement period'?",
+      "options": ["The time the bank is open", "The time covered by a bank statement", "A holiday", "The time to get a loan"],
+      "answerIndex": 1,
+      "explanation": "The statement period is the date range for which transactions are listed on a statement."
+    },
+    {
+      "id": "finance-b1-w2-q50",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'If you ___ (provide) your pay slips, we ___ (process) the application.'",
+      "options": ["provide / will process", "will provide / process", "provided / would process", "provide / process"],
+      "answerIndex": 0,
+      "explanation": "First conditional: present simple + will + verb."
     }
   ]
 }

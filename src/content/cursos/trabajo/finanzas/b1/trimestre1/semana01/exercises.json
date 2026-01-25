@@ -6,298 +6,55 @@
   "title": "Banca Personal y Corporativa: Fundamentos",
   "description": "Carga lectiva: 10h. Enfoque en tipos de cuentas, presentaciones de clientes y transacciones básicas.",
   "items": [
-    {
-      "id": "finance-b1-w1-q1",
-      "type": "multipleChoice",
-      "prompt": "Which type of account is best for daily transactions like paying bills and receiving salary?",
-      "options": ["Savings account", "Current account", "Fixed-deposit account", "Escrow account"],
-      "answerIndex": 1,
-      "explanation": "A current account (or checking account) is designed for frequent daily transactions."
-    },
-    {
-      "id": "finance-b1-w1-q2",
-      "type": "multipleChoice",
-      "prompt": "What do you call the amount of money you are allowed to spend beyond your current balance?",
-      "options": ["Interest rate", "Credit score", "Overdraft", "Collateral"],
-      "answerIndex": 2,
-      "explanation": "An overdraft allows you to spend more money than you have in your account up to a certain limit."
-    },
-    {
-      "id": "finance-b1-w1-q3",
-      "type": "multipleChoice",
-      "prompt": "When a company wants to send money to a supplier in another country, they usually perform a...?",
-      "options": ["Withdrawal", "Deposit", "Wire transfer", "Standing order"],
-      "answerIndex": 2,
-      "explanation": "A wire transfer is the standard method for moving funds electronically between banks, especially internationally."
-    },
-    {
-      "id": "finance-b1-w1-q4",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Standing Order'?",
-      "options": [
-        "A physical order to stand in line at the bank",
-        "An instruction to pay a fixed amount to the same person at regular intervals",
-        "A request to close an account immediately",
-        "A type of high-interest investment"
-      ],
-      "answerIndex": 1,
-      "explanation": "A standing order is an instruction a bank account holder gives to their bank to pay a set amount at regular intervals to another's account."
-    },
-    {
-      "id": "finance-b1-w1-q5",
-      "type": "multipleChoice",
-      "prompt": "What does 'Direct Debit' mean?",
-      "options": [
-        "Paying cash directly to a vendor",
-        "An instruction to your bank to allow a third party to take varying amounts from your account",
-        "A loan given directly by the bank manager",
-        "Taking money out of an ATM"
-      ],
-      "answerIndex": 1,
-      "explanation": "Direct Debit is an arrangement made with a bank that allows a third party to transfer money from a person's account on agreed dates, usually to pay bills."
-    },
-    {
-      "id": "finance-b1-w1-q6",
-      "type": "multipleChoice",
-      "prompt": "What is the primary difference between a Debit Card and a Credit Card?",
-      "options": [
-        "Debit cards are plastic, credit cards are metal",
-        "Debit cards use your own money, credit cards use the bank's money (loan)",
-        "Debit cards can only be used at ATMs",
-        "There is no difference"
-      ],
-      "answerIndex": 1,
-      "explanation": "A debit card takes money directly from your current account, whereas a credit card allows you to borrow money up to a certain limit."
-    },
-    {
-      "id": "finance-b1-w1-q7",
-      "type": "multipleChoice",
-      "prompt": "What does it mean to 'default' on a loan?",
-      "options": [
-        "To pay it back early",
-        "To fail to make the required payments",
-        "To increase the interest rate",
-        "To sign the final agreement"
-      ],
-      "answerIndex": 1,
-      "explanation": "Defaulting occurs when a borrower fails to pay the interest or principal on a loan."
-    },
-    {
-      "id": "finance-b1-w1-q8",
-      "type": "multipleChoice",
-      "prompt": "What is 'Collateral'?",
-      "options": [
-        "The interest paid on a savings account",
-        "An asset used as a guarantee for a loan",
-        "The bank's internal profit margin",
-        "A type of currency exchange"
-      ],
-      "answerIndex": 1,
-      "explanation": "Collateral is an item of value that a lender can seize from a borrower if the borrower fails to repay a loan."
-    },
-    {
-      "id": "finance-b1-w1-reading1",
-      "type": "readingComprehension",
-      "prompt": "Read the following dialogue and answer: Why is Mr. Smith opening a business account? \n\nBanker: Good morning, how can I help you?\nMr. Smith: Hello. I've just started a small consulting firm and I need to keep my professional expenses separate from my personal ones.\nBanker: I see. For a startup, I recommend our 'Business Essential' account. It has low monthly fees.",
-      "options": [
-        "To save for his retirement",
-        "To separate professional and personal expenses",
-        "Because he lost his credit card",
-        "To get a personal mortgage"
-      ],
-      "answerIndex": 1,
-      "explanation": "Mr. Smith explicitly states he needs to keep his professional expenses separate from his personal ones."
-    },
-    {
-      "id": "finance-b1-w1-reading2",
-      "type": "readingComprehension",
-      "prompt": "TEXT: 'Most savings accounts offer a tiered interest rate system. This means that the more money you maintain in the balance, the higher the percentage of interest the bank credits to your account monthly. However, some accounts require a minimum monthly deposit to maintain these rates.' \n\nAccording to the text, how can a customer get a higher interest rate?",
-      "options": [
-        "By withdrawing money every week",
-        "By maintaining a higher balance in the account",
-        "By opening a current account instead",
-        "By visiting the bank branch in person"
-      ],
-      "answerIndex": 1,
-      "explanation": "The text states: 'the more money you maintain in the balance, the higher the percentage of interest'."
-    },
-    {
-      "id": "finance-b1-w1-reading3",
-      "type": "readingComprehension",
-      "prompt": "EMAIL EXCERPT: 'Dear Valued Customer, please be advised that our branch on High Street will be closed for renovations starting next Monday. During this time, you can perform all your transactions through our mobile app or visit the branch on North Road, which has extended its opening hours.' \n\nWhat is the main purpose of this email?",
-      "options": [
-        "To offer a new credit card",
-        "To inform about a temporary branch closure",
-        "To announce a change in interest rates",
-        "To introduce a new bank manager"
-      ],
-      "answerIndex": 1,
-      "explanation": "The email informs customers that the High Street branch will be closed for renovations."
-    },
-    {
-      "id": "finance-b1-w1-grammar-1",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct form: 'I ___ (open) my account three years ago.'",
-      "options": ["have opened", "opened", "was opening", "had opened"],
-      "answerIndex": 1,
-      "explanation": "We use the Past Simple ('opened') because 'three years ago' is a specific point in the past."
-    },
-    {
-      "id": "finance-b1-w1-grammar-2",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct form: 'We ___ (not / receive) the wire transfer yet.'",
-      "options": ["didn't receive", "haven't received", "don't receive", "hadn't received"],
-      "answerIndex": 1,
-      "explanation": "We use the Present Perfect ('haven't received') with 'yet' for actions that haven't happened up to now."
-    },
-    {
-      "id": "finance-b1-w1-grammar-3",
-      "type": "multipleChoice",
-      "prompt": "Identify the error: 'He has worked in this bank since five years.'",
-      "options": [
-        "has worked (should be 'worked')",
-        "in (should be 'at')",
-        "since (should be 'for')",
-        "No error"
-      ],
-      "answerIndex": 2,
-      "explanation": "We use 'for' with a period of time (five years) and 'since' with a specific point in time."
-    },
-    {
-      "id": "finance-b1-w1-grammar-4",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct sentence:",
-      "options": [
-        "Did you ever visit the headquarters in London?",
-        "Have you ever visited the headquarters in London?",
-        "Do you ever visited the headquarters in London?",
-        "Have you ever visit the headquarters in London?"
-      ],
-      "answerIndex": 1,
-      "explanation": "We use 'Have you ever + past participle' for life experiences (Present Perfect)."
-    },
-    {
-      "id": "finance-b1-w1-grammar-5",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct form: 'Mr. Tanaka ___ (be) a loyal customer since 1998.'",
-      "options": ["is", "was", "has been", "has"],
-      "answerIndex": 2,
-      "explanation": "Present Perfect is used with 'since' to describe a state that started in the past and continues to the present."
-    },
-    {
-      "id": "finance-b1-w1-grammar-6",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct form: '___ (you / speak) to the manager about your loan yet?'",
-      "options": [
-        "Did you speak",
-        "Have you spoken",
-        "Do you speak",
-        "Will you speak"
-      ],
-      "answerIndex": 1,
-      "explanation": "We use the Present Perfect with 'yet' for questions about recent actions."
-    },
-    {
-      "id": "finance-b1-w1-grammar-7",
-      "type": "multipleChoice",
-      "prompt": "Complete the sentence: 'Last year, the bank's profit ___ (increase) by 15%.'",
-      "options": ["has increased", "increases", "increased", "was increasing"],
-      "answerIndex": 2,
-      "explanation": "'Last year' indicates a finished time period, requiring the Past Simple."
-    },
-    {
-      "id": "finance-b1-w1-vocabulary-1",
-      "type": "multipleChoice",
-      "prompt": "What is the synonym of 'to credit' in a banking context?",
-      "options": ["To take money out", "To add money to an account", "To borrow money", "To lose money"],
-      "answerIndex": 1,
-      "explanation": "To credit an account means to add money to it."
-    },
-    {
-      "id": "finance-b1-w1-vocabulary-2",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Bank Statement'?",
-      "options": [
-        "A formal speech by the Bank President",
-        "A document showing all transactions in an account during a period",
-        "The physical building of the bank",
-        "A type of credit card"
-      ],
-      "answerIndex": 1,
-      "explanation": "A bank statement is a summary of financial transactions which have occurred over a given period on a bank account."
-    },
-    {
-      "id": "finance-b1-w1-vocabulary-3",
-      "type": "multipleChoice",
-      "prompt": "What does 'To withdraw' mean?",
-      "options": ["To put money in", "To take money out", "To sign a contract", "To ask for a loan"],
-      "answerIndex": 1,
-      "explanation": "To withdraw means to remove money from a bank account."
-    },
-    {
-      "id": "finance-b1-w1-vocabulary-4",
-      "type": "multipleChoice",
-      "prompt": "What is an 'ATM'?",
-      "options": [
-        "A type of bank account",
-        "Automated Teller Machine (Cash machine)",
-        "Annual Tax Management",
-        "Account Total Monitor"
-      ],
-      "answerIndex": 1,
-      "explanation": "ATM stands for Automated Teller Machine, used for withdrawing cash and other basic transactions."
-    },
-    {
-      "id": "finance-b1-w1-vocabulary-5",
-      "type": "multipleChoice",
-      "prompt": "What is 'Mortgage'?",
-      "options": [
-        "A loan specifically for buying property",
-        "A small personal loan",
-        "A type of savings interest",
-        "The fee for a wire transfer"
-      ],
-      "answerIndex": 0,
-      "explanation": "A mortgage is a loan used to purchase a home or other real estate."
-    },
-    {
-      "id": "finance-b1-w1-vocabulary-6",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Counterfeit' bill?",
-      "options": [
-        "A very expensive bill",
-        "A fake or fraudulent banknote",
-        "A bill from another country",
-        "A new digital currency"
-      ],
-      "answerIndex": 1,
-      "explanation": "Counterfeit refers to something made in imitation of something else with intent to deceive; a fake bill."
-    },
-    {
-      "id": "finance-b1-w1-vocabulary-7",
-      "type": "multipleChoice",
-      "prompt": "What does 'Insolvency' mean?",
-      "options": [
-        "Being very rich",
-        "The inability to pay one's debts",
-        "A type of insurance",
-        "The process of opening a bank"
-      ],
-      "answerIndex": 1,
-      "explanation": "Insolvency is the state of being unable to pay the debts, by a person or company, at maturity."
-    },
-    {
-      "id": "finance-b1-w1-vocabulary-8",
-      "type": "multipleChoice",
-      "prompt": "What is 'Liquidity'?",
-      "options": [
-        "Money that is in a liquid form",
-        "The availability of liquid assets (cash) to a market or company",
-        "A type of high-risk investment",
-        "The total value of a bank's building"
-      ],
-      "answerIndex": 1,
-      "explanation": "Liquidity refers to how easily an asset can be converted into cash without affecting its market price."
-    }
+    { "id": "fin-b1-w1-1", "type": "multipleChoice", "prompt": "Which type of account is best for daily transactions?", "options": ["Savings account", "Current account", "Fixed-deposit", "Escrow"], "answerIndex": 1, "explanation": "Current accounts are designed for frequent daily use." },
+    { "id": "fin-b1-w1-2", "type": "multipleChoice", "prompt": "What is an 'overdraft'?", "options": ["A type of tax", "Spending more than your balance", "A high-interest savings plan", "A bank manager's bonus"], "answerIndex": 1, "explanation": "An overdraft allows you to spend more money than you have in your account." },
+    { "id": "fin-b1-w1-3", "type": "multipleChoice", "prompt": "A 'Standing Order' is used for:", "options": ["Variable payments", "One-time transfers", "Fixed regular payments", "Withdrawing cash"], "answerIndex": 2, "explanation": "Standing orders are for fixed amounts paid regularly." },
+    { "id": "fin-b1-w1-4", "type": "multipleChoice", "prompt": "What does 'ATM' stand for?", "options": ["Automated Transfer Mode", "Automated Teller Machine", "Annual Tax Management", "All Time Money"], "answerIndex": 1, "explanation": "ATM is the standard term for a cash machine." },
+    { "id": "fin-b1-w1-5", "type": "multipleChoice", "prompt": "A 'Joint Account' is held by:", "options": ["Only one person", "Two or more people", "Only a company", "A bank employee"], "answerIndex": 1, "explanation": "Joint accounts are shared by multiple individuals." },
+    { "id": "fin-b1-w1-6", "type": "multipleChoice", "prompt": "What is 'Interest Rate'?", "options": ["The speed of a transaction", "The cost of borrowing or reward for saving", "The bank's closing time", "The number of customers"], "answerIndex": 1, "explanation": "Interest rate is the percentage charged or paid by the bank." },
+    { "id": "fin-b1-w1-7", "type": "multipleChoice", "prompt": "To 'credit' an account means to:", "options": ["Remove money", "Add money", "Close the account", "Change the password"], "answerIndex": 1, "explanation": "Crediting means adding funds." },
+    { "id": "fin-b1-w1-8", "type": "multipleChoice", "prompt": "A 'Bank Statement' shows:", "options": ["Future predictions", "Past transactions", "The bank's history", "The CEO's salary"], "answerIndex": 1, "explanation": "A statement lists all recent movements in an account." },
+    { "id": "fin-b1-w1-9", "type": "multipleChoice", "prompt": "What is a 'Mortgage'?", "options": ["A loan for a car", "A loan for a house", "A small gift", "A type of credit card"], "answerIndex": 1, "explanation": "Mortgages are specifically for real estate." },
+    { "id": "fin-b1-w1-10", "type": "multipleChoice", "prompt": "What is 'Collateral'?", "options": ["A bank's partner", "An asset used as security for a loan", "A type of coin", "A staff meeting"], "answerIndex": 1, "explanation": "Collateral is an asset the bank can seize if a loan isn't paid." },
+    { "id": "fin-b1-w1-11", "type": "multipleChoice", "prompt": "Which auxiliary is used for Present Perfect?", "options": ["Do/Does", "Did", "Have/Has", "Will"], "answerIndex": 2, "explanation": "Present Perfect uses have/has + past participle." },
+    { "id": "fin-b1-w1-12", "type": "multipleChoice", "prompt": "I ___ (open) my account last year.", "options": ["have opened", "opened", "opens", "was opening"], "answerIndex": 1, "explanation": "Use Past Simple for finished time periods (last year)." },
+    { "id": "fin-b1-w1-13", "type": "multipleChoice", "prompt": "I have worked here ___ 2010.", "options": ["for", "since", "during", "ago"], "answerIndex": 1, "explanation": "'Since' is used for a specific point in time." },
+    { "id": "fin-b1-w1-14", "type": "multipleChoice", "prompt": "We have had this office ___ five years.", "options": ["since", "for", "during", "ago"], "answerIndex": 1, "explanation": "'For' is used for a duration/period of time." },
+    { "id": "fin-b1-w1-15", "type": "multipleChoice", "prompt": "Have you ___ used online banking?", "options": ["never", "ever", "yet", "already"], "answerIndex": 1, "explanation": "'Ever' is used in questions about life experiences." },
+    { "id": "fin-b1-w1-16", "type": "multipleChoice", "prompt": "I haven't received the transfer ___.", "options": ["already", "ever", "yet", "since"], "answerIndex": 2, "explanation": "'Yet' is used at the end of negative sentences." },
+    { "id": "fin-b1-w1-17", "type": "multipleChoice", "prompt": "Has the manager ___ called you?", "options": ["already", "ever", "since", "for"], "answerIndex": 0, "explanation": "'Already' can be used to ask if something happened sooner than expected." },
+    { "id": "fin-b1-w1-18", "type": "multipleChoice", "prompt": "The client ___ (just / sign) the papers.", "options": ["just signed", "has just signed", "is just signing", "just signs"], "answerIndex": 1, "explanation": "'Just' is commonly used with Present Perfect for very recent actions." },
+    { "id": "fin-b1-w1-19", "type": "multipleChoice", "prompt": "What is the past participle of 'withdraw'?", "options": ["withdrew", "withdrawing", "withdrawn", "withdrawed"], "answerIndex": 2, "explanation": "Withdraw - withdrew - withdrawn." },
+    { "id": "fin-b1-w1-20", "type": "multipleChoice", "prompt": "What is the past participle of 'lend'?", "options": ["lended", "lent", "lending", "loaned"], "answerIndex": 1, "explanation": "Lend - lent - lent." },
+    { "id": "fin-b1-w1-21", "type": "multipleChoice", "prompt": "A 'direct debit' is usually for:", "options": ["Fixed amounts", "Variable amounts", "One-time payments only", "Cash withdrawals"], "answerIndex": 1, "explanation": "Direct debits are often for variable bills like utilities." },
+    { "id": "fin-b1-w1-22", "type": "multipleChoice", "prompt": "What is a 'balance'?", "options": ["A scale to weigh money", "The total amount in an account", "A bank's debt", "The interest paid"], "answerIndex": 1, "explanation": "Balance refers to the amount currently in the account." },
+    { "id": "fin-b1-w1-23", "type": "multipleChoice", "prompt": "To 'debit' an account means to:", "options": ["Add money", "Take money out", "Invest money", "Freeze the account"], "answerIndex": 1, "explanation": "Debiting means removing funds." },
+    { "id": "fin-b1-w1-24", "type": "multipleChoice", "prompt": "A 'teller' is a person who:", "options": ["Manages the bank", "Works at the counter helping customers", "Cleans the office", "Steals money"], "answerIndex": 1, "explanation": "A bank teller works directly with customers at the counter." },
+    { "id": "fin-b1-w1-25", "type": "multipleChoice", "prompt": "What is 'currency'?", "options": ["A current account", "The system of money used in a country", "The bank's profit", "A type of loan"], "answerIndex": 1, "explanation": "Currency refers to money like Euros, Dollars, etc." },
+    { "id": "fin-b1-w1-26", "type": "multipleChoice", "prompt": "A 'loan' must be paid back with:", "options": ["Gifts", "Interest", "Appreciations", "Nothing"], "answerIndex": 1, "explanation": "Loans accrue interest that must be repaid." },
+    { "id": "fin-b1-w1-27", "type": "multipleChoice", "prompt": "What is 'bankruptcy'?", "options": ["Being very rich", "The legal state of being unable to pay debts", "Opening a new branch", "Hiring more staff"], "answerIndex": 1, "explanation": "Bankruptcy occurs when one cannot meet financial obligations." },
+    { "id": "fin-b1-w1-28", "type": "multipleChoice", "prompt": "To 'default' means:", "options": ["To pay on time", "To fail to pay a loan", "To increase a balance", "To sign a cheque"], "answerIndex": 1, "explanation": "Defaulting is failing to fulfill a payment obligation." },
+    { "id": "fin-b1-w1-29", "type": "multipleChoice", "prompt": "What is 'credit history'?", "options": ["A book about banks", "A record of an individual's past borrowing and ruining", "The name of a bank", "A list of bank managers"], "answerIndex": 1, "explanation": "Credit history tracks how you've handled debt in the past." },
+    { "id": "fin-b1-w1-30", "type": "multipleChoice", "prompt": "What is a 'PIN'?", "options": ["Personal Identification Number", "Private Internal Network", "Permanent Income Notice", "Public Interest Node"], "answerIndex": 0, "explanation": "PIN is the secret code for your card." },
+    { "id": "fin-b1-w1-31", "type": "multipleChoice", "prompt": "A 'bounced cheque' is one that:", "options": ["Is made of rubber", "The bank refuses to pay due to lack of funds", "Is very old", "Is sent by mail"], "answerIndex": 1, "explanation": "A cheque 'bounces' if there isn't enough money to cover it." },
+    { "id": "fin-b1-w1-32", "type": "multipleChoice", "prompt": "What is 'phishing'?", "options": ["A hobby for bank managers", "A fraudulent attempt to get sensitive info online", "A type of high-speed transfer", "Cleaning the bank's windows"], "answerIndex": 1, "explanation": "Phishing is a common type of cyber-fraud in banking." },
+    { "id": "fin-b1-w1-33", "type": "multipleChoice", "prompt": "What is a 'transaction fee'?", "options": ["A reward for customers", "A charge for a specific service or transfer", "The bank's electricity bill", "A type of savings interest"], "answerIndex": 1, "explanation": "Fees are charges for banking activities." },
+    { "id": "fin-b1-w1-34", "type": "multipleChoice", "prompt": "To 'transfer' money means to:", "options": ["Burn it", "Move it from one place to another", "Hide it", "Earn it"], "answerIndex": 1, "explanation": "Transferring is moving funds between accounts." },
+    { "id": "fin-b1-w1-35", "type": "multipleChoice", "prompt": "What is 'net income'?", "options": ["Total income before taxes", "Total income after taxes and deductions", "The money you find on the street", "A loan from a friend"], "answerIndex": 1, "explanation": "Net income is the 'take-home' pay." },
+    { "id": "fin-b1-w1-36", "type": "multipleChoice", "prompt": "A 'fixed-term deposit' means you:", "options": ["Can take money out anytime", "Cannot take money out for a specific period", "Have no interest", "Must pay the bank monthly"], "answerIndex": 1, "explanation": "Fixed-term deposits lock money away for a higher return." },
+    { "id": "fin-b1-w1-37", "type": "multipleChoice", "prompt": "What is 'liquidity'?", "options": ["How much water the bank has", "The availability of cash to meet obligations", "A type of drink", "The bank's cleaning service"], "answerIndex": 1, "explanation": "Liquidity refers to how easily assets can be turned into cash." },
+    { "id": "fin-b1-w1-38", "type": "multipleChoice", "prompt": "To 'endorse' a cheque means to:", "options": ["Rip it up", "Sign the back of it to make it payable to someone else", "Lose it", "Photocopy it"], "answerIndex": 1, "explanation": "Endorsing is signing over a cheque." },
+    { "id": "fin-b1-w1-39", "type": "multipleChoice", "prompt": "What is 'base rate'?", "options": ["The lowest floor in the bank", "The interest rate set by the central bank", "The price of gold", "A monthly service fee"], "answerIndex": 1, "explanation": "The base rate influences all other interest rates." },
+    { "id": "fin-b1-w1-40", "type": "multipleChoice", "prompt": "What is 'capital'?", "options": ["A large city", "Wealth in the form of money or assets", "The top of a building", "A type of hat"], "answerIndex": 1, "explanation": "In finance, capital refers to financial assets." },
+    { "id": "fin-b1-w1-41", "type": "multipleChoice", "prompt": "I ___ (never / be) to New York.", "options": ["was never", "am never", "have never been", "never been"], "answerIndex": 2, "explanation": "Use Present Perfect for life experiences." },
+    { "id": "fin-b1-w1-42", "type": "multipleChoice", "prompt": "She ___ (already / finish) the report.", "options": ["already finished", "has already finished", "already finishes", "is already finishing"], "answerIndex": 1, "explanation": "Already + Present Perfect." },
+    { "id": "fin-b1-w1-43", "type": "multipleChoice", "prompt": "Did you ___ (see) the news this morning?", "options": ["saw", "seen", "see", "seeing"], "answerIndex": 2, "explanation": "Use infinitive with 'did' in questions." },
+    { "id": "fin-b1-w1-44", "type": "multipleChoice", "prompt": "We ___ (start) this project in January.", "options": ["have started", "started", "starts", "was starting"], "answerIndex": 1, "explanation": "Specific past time (in January) requires Past Simple." },
+    { "id": "fin-b1-w1-45", "type": "multipleChoice", "prompt": "How long ___ (you / have) your current job?", "options": ["do you have", "did you have", "have you had", "are you having"], "answerIndex": 2, "explanation": "Use Present Perfect for duration from past to present." },
+    { "id": "fin-b1-w1-46", "type": "multipleChoice", "prompt": "What is a 'branch'?", "options": ["A part of a tree", "A local office of a bank", "A type of loan", "A bank manager's desk"], "answerIndex": 1, "explanation": "A branch is a local bank location." },
+    { "id": "fin-b1-w1-47", "type": "multipleChoice", "prompt": "What is 'online banking'?", "options": ["Banking in a line at the office", "Performing transactions via the internet", "Playing games at the bank", "A type of physical safe"], "answerIndex": 1, "explanation": "Online banking uses web or mobile apps." },
+    { "id": "fin-b1-w1-48", "type": "multipleChoice", "prompt": "What is 'identity theft'?", "options": ["Stealing a person's wallet", "Illegal use of someone's personal data", "Forgetting your name", "Borrowing a friend's ID"], "answerIndex": 1, "explanation": "Identity theft is a serious financial crime." },
+    { "id": "fin-b1-w1-49", "type": "multipleChoice", "prompt": "What is a 'safe-deposit box'?", "options": ["A cardboard box", "A secure container in a bank vault for valuables", "A type of ATM", "The manager's lunchbox"], "answerIndex": 1, "explanation": "Banks rent these for storing important items." },
+    { "id": "fin-b1-w1-50", "type": "multipleChoice", "prompt": "What is 'insolvency'?", "options": ["Being very healthy", "Unable to pay debts when due", "A solution for a problem", "Opening a second account"], "answerIndex": 1, "explanation": "Insolvency leads to bankruptcy." }
   ]
 }
