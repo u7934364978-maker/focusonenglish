@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, use } from "react";
 import Link from "next/link";
 import type { LevelId, PlacementState } from "@/lib/gating";
 import { savePlacement } from "@/lib/gating";
@@ -70,18 +70,10 @@ function recommendLevel(scores: Record<LevelId, number>) {
 }
 
 export default function PlacementGoalPage({ params }: PageProps) {
-  const [goal, setGoal] = useState<string>("");
+  const { goal } = use(params);
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [done, setDone] = useState(false);
   const [recommended, setRecommended] = useState<LevelId | null>(null);
-
-  useMemo(() => {
-    (async () => {
-      const p = await params;
-      setGoal(p.goal);
-    })();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   const total = QUESTIONS.length;
   const answeredCount = Object.keys(answers).length;

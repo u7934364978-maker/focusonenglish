@@ -6,15 +6,16 @@ import { SECTOR_CURRICULUMS, SECTOR_NAMES } from '@/lib/sectors';
 import { CURRICULUM_BY_LEVEL } from '@/lib/curriculum-data';
 
 interface Props {
-  params: {
+  params: Promise<{
     sector: string;
     level: string;
-  };
+  }>;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const sectorName = SECTOR_NAMES[params.sector];
-  const level = params.level.toUpperCase();
+  const { sector: sectorSlug, level: levelSlug } = await params;
+  const sectorName = SECTOR_NAMES[sectorSlug];
+  const level = levelSlug.toUpperCase();
   
   if (!sectorName) return { title: 'Curso no encontrado' };
 
@@ -37,9 +38,9 @@ export async function generateStaticParams() {
   return params;
 }
 
-export default function SectorLevelPage({ params }: Props) {
-  const sectorSlug = params.sector;
-  const levelKey = params.level.toUpperCase();
+export default async function SectorLevelPage({ params }: Props) {
+  const { sector: sectorSlug, level: levelParam } = await params;
+  const levelKey = levelParam.toUpperCase();
   
   const sectorName = SECTOR_NAMES[sectorSlug];
   const sectorCurriculum = SECTOR_CURRICULUMS[sectorSlug]?.[levelKey];
@@ -164,7 +165,7 @@ export default function SectorLevelPage({ params }: Props) {
                             return (
                               <Link
                                 key={w}
-                                href={`/cursos/trabajo/${sectorSlug}/${params.level}/trimestre${idx + 1}/semana${weekStr}`}
+                                href={`/cursos/trabajo/${sectorSlug}/${levelParam}/trimestre${idx + 1}/semana${weekStr}`}
                                 className="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-bold text-slate-700 hover:border-coral-500 hover:text-coral-600 transition-all shadow-sm"
                               >
                                 Semana {weekNum}

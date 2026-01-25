@@ -3,16 +3,16 @@ import LessonClient from './LessonClient';
 import { notFound } from 'next/navigation';
 
 interface Props {
-  params: {
+  params: Promise<{
     sector: string;
     level: string;
     trimester: string;
     weekId: string;
-  };
+  }>;
 }
 
 export default async function ProfessionalLessonPage({ params }: Props) {
-  const { sector, level, trimester, weekId } = params;
+  const { sector, level, trimester, weekId } = await params;
   
   const lesson = await localCourseService.getProfessionalLesson(sector, level, trimester, weekId);
 
