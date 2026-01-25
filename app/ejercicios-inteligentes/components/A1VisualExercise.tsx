@@ -1,7 +1,7 @@
 'use client';
 
-import { useState } from 'react';
-import { CheckCircle2, XCircle, Volume2, RefreshCw } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { CheckCircle2, XCircle, Volume2, RefreshCw, Headphones } from 'lucide-react';
 
 interface A1Question {
   id: string;
@@ -29,9 +29,78 @@ export default function A1VisualExercise({ exercise, onNext, gradient }: A1Visua
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [isValidated, setIsValidated] = useState(false);
   const [score, setScore] = useState(0);
+  const [availableVoices, setAvailableVoices] = useState<SpeechSynthesisVoice[]>([]);
+  const [selectedVoice, setSelectedVoice] = useState<SpeechSynthesisVoice | null>(null);
+  const [isSpeaking, setIsSpeaking] = useState(false);
 
   const currentQuestion = exercise.questions[currentIndex];
   const isLastQuestion = currentIndex === exercise.questions.length - 1;
+
+  // Cargar voces disponibles
+  useEffect(() => {
+    const loadVoices = () => {
+      const voices = speechSynthesis.getVoices();
+      setAvailableVoices(voices);
+      
+      // Seleccionar la mejor voz disponible (priorizar voces naturales de Google)
+      const bestVoice = voices.find(v => 
+        v.lang.startsWith('en') && (
+          v.name.includes('Google') ||
+          v.name.includes('Natural') ||
+          v.name.includes('Premium') ||
+          v.name.includes('Enhanced')
+        )
+      ) || voices.find(v => v.lang.startsWith('en-US') && v.name.includes('Female'))
+         || voices.find(v => v.lang.startsWith('en-US'))
+         || voices.find(v => v.lang.startsWith('en'));
+      
+      setSelectedVoice(bestVoice || null);
+    };
+
+    loadVoices();
+    if (speechSynthesis.onvoiceschanged !== undefined) {
+      speechSynthesis.onvoiceschanged = loadVoices;
+    }
+  }, []);
+
+  // Función mejorada para reproducir audio
+  const playAudio = (text: string, rate: number = 0.75, repeat: number = 1) => {
+    // Cancelar cualquier audio previo
+    speechSynthesis.cancel();
+    setIsSpeaking(true);
+
+    let count = 0;
+    const speak = () => {
+      if (count < repeat) {
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'en-US';
+        utterance.rate = rate; // Velocidad ajustable
+        utterance.pitch = 1.0;
+        utterance.volume = 1.0;
+        
+        if (selectedVoice) {
+          utterance.voice = selectedVoice;
+        }
+        
+        utterance.onend = () => {
+          count++;
+          if (count < repeat) {
+            setTimeout(speak, 800); // Pausa entre repeticiones
+          } else {
+            setIsSpeaking(false);
+          }
+        };
+        
+        utterance.onerror = () => {
+          setIsSpeaking(false);
+        };
+        
+        speechSynthesis.speak(utterance);
+      }
+    };
+
+    speak();
+  };
 
   const handleSelectAnswer = (answer: string) => {
     if (!isValidated) {
@@ -109,21 +178,72 @@ export default function A1VisualExercise({ exercise, onNext, gradient }: A1Visua
             </div>
           </div>
 
-          {/* Audio Button (if available) */}
+          {/* Audio Buttons - Mejorados con voces naturales */}
           {currentQuestion.audioHint && (
-            <div className="mb-6 flex justify-center">
-              <button
-                onClick={() => {
-                  const utterance = new SpeechSynthesisUtterance(currentQuestion.audioHint);
-                  utterance.lang = 'en-US';
-                  utterance.rate = 0.8;
-                  speechSynthesis.speak(utterance);
-                }}
-                className="flex items-center gap-3 bg-blue-500 hover:bg-blue-600 text-white px-6 py-4 rounded-xl font-bold text-lg shadow-lg transition-all hover:scale-105"
-              >
-                <Volume2 className="w-6 h-6" />
-                🔊 Escuchar
-              </button>
+            <div className="mb-8">
+              {/* Información de la voz seleccionada */}
+              {selectedVoice && (
+                <div className="text-center mb-4 text-sm text-gray-600">
+                  <Headphones className="w-4 h-4 inline mr-2" />
+                  Voz: {selectedVoice.name.substring(0, 30)}
+                  {selectedVoice.name.includes('Google') && ' ✨'}
+                </div>
+              )}
+              
+              <div className="flex flex-col sm:flex-row justify-center gap-4">
+                {/* Botón de escucha normal */}
+                <button
+                  onClick={() => playAudio(currentQuestion.audioHint!, 0.75, 1)}
+                  disabled={isSpeaking}
+                  className={`flex items-center justify-center gap-3 px-8 py-5 rounded-2xl font-black text-xl shadow-lg transition-all ${
+                    isSpeaking 
+                      ? 'bg-gray-400 cursor-not-allowed'
+                      : 'bg-blue-500 hover:bg-blue-600 text-white hover:scale-105 active:scale-95'
+                  }`}
+                >
+                  <Volume2 className="w-7 h-7" />
+                  🔊 Escuchar
+                </button>
+                
+                {/* Botón de escucha lenta */}
+                <button
+                  onClick={() => playAudio(currentQuestion.audioHint!, 0.55, 1)}
+                  disabled={isSpeaking}
+                  className={`flex items-center justify-center gap-3 px-8 py-5 rounded-2xl font-black text-xl shadow-lg transition-all ${
+                    isSpeaking 
+                      ? 'bg-gray-400 cursor-not-allowed'
+                      : 'bg-purple-500 hover:bg-purple-600 text-white hover:scale-105 active:scale-95'
+                  }`}
+                >
+                  <Volume2 className="w-6 h-6" />
+                  🐌 Muy Lento
+                </button>
+                
+                {/* Botón de repetición múltiple */}
+                <button
+                  onClick={() => playAudio(currentQuestion.audioHint!, 0.65, 3)}
+                  disabled={isSpeaking}
+                  className={`flex items-center justify-center gap-3 px-8 py-5 rounded-2xl font-black text-xl shadow-lg transition-all ${
+                    isSpeaking 
+                      ? 'bg-gray-400 cursor-not-allowed'
+                      : 'bg-emerald-500 hover:bg-emerald-600 text-white hover:scale-105 active:scale-95'
+                  }`}
+                  title="Repetir 3 veces despacio"
+                >
+                  <RefreshCw className="w-6 h-6" />
+                  🔄 x3
+                </button>
+              </div>
+              
+              {/* Indicador de reproducción */}
+              {isSpeaking && (
+                <div className="text-center mt-4">
+                  <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-6 py-3 rounded-full font-bold">
+                    <Volume2 className="w-5 h-5 animate-pulse" />
+                    Reproduciendo...
+                  </div>
+                </div>
+              )}
             </div>
           )}
 

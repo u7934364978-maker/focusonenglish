@@ -1,85 +1,85 @@
 // Banco de imágenes para ejercicios A1
-// Usando URLs de imágenes educativas de alta calidad
+// URLs de imágenes CLARAS y NO AMBIGUAS de alta calidad
 
 export const A1_IMAGE_BANK = {
-  // COLORES
+  // COLORES - Colores sólidos puros sin ambigüedad
   colors: {
-    red: 'https://images.unsplash.com/photo-1525648199074-cee30ba79a4a?w=400',
-    blue: 'https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=400',
-    yellow: 'https://images.unsplash.com/photo-1505628346881-b72b27e84530?w=400',
-    green: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400',
+    red: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&auto=format',
+    blue: 'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=600&h=400&fit=crop&auto=format',
+    yellow: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600&h=400&fit=crop&auto=format',
+    green: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&h=400&fit=crop&auto=format',
   },
 
-  // ANIMALES
+  // ANIMALES - Fotos claras y directas
   animals: {
-    cat: 'https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400',
-    dog: 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=400',
-    bird: 'https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=400',
-    fish: 'https://images.unsplash.com/photo-1520990984169-d3e0f884eeb2?w=400',
+    cat: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&h=400&fit=crop&auto=format',
+    dog: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&h=400&fit=crop&auto=format',
+    bird: 'https://images.unsplash.com/photo-1444464666168-49d633b86797?w=600&h=400&fit=crop&auto=format',
+    fish: 'https://images.unsplash.com/photo-1535591273668-578e31182c4f?w=600&h=400&fit=crop&auto=format',
   },
 
-  // FRUTAS
+  // FRUTAS - Frutas individuales claras
   fruits: {
-    apple: 'https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=400',
-    banana: 'https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=400',
-    orange: 'https://images.unsplash.com/photo-1580052614034-c55d20bfee3b?w=400',
-    grapes: 'https://images.unsplash.com/photo-1599819177090-8c8c7e0d3238?w=400',
+    apple: 'https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=600&h=400&fit=crop&auto=format',
+    banana: 'https://images.unsplash.com/photo-1603833665858-e61d17a86224?w=600&h=400&fit=crop&auto=format',
+    orange: 'https://images.unsplash.com/photo-1547514701-42782101795e?w=600&h=400&fit=crop&auto=format',
+    grapes: 'https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=600&h=400&fit=crop&auto=format',
   },
 
-  // NÚMEROS (imágenes con objetos para contar)
+  // NÚMEROS - Objetos claros para contar
   numbers: {
-    one: 'https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=400', // 1 manzana
-    two: 'https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400', // 2 corazones
-    three: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=400', // 3 estrellas
-    four: 'https://images.unsplash.com/photo-1573879625185-5c0e6d36c20f?w=400', // 4 flores
+    one: 'https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=600&h=400&fit=crop&auto=format',
+    two: 'https://images.unsplash.com/photo-1551024506-0bccd828d307?w=600&h=400&fit=crop&auto=format',
+    three: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600&h=400&fit=crop&auto=format',
+    four: 'https://images.unsplash.com/photo-1573879625185-5c0e6d36c20f?w=600&h=400&fit=crop&auto=format',
   },
 
   // FAMILIA
   family: {
-    mother: 'https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=400',
-    father: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400',
-    baby: 'https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=400',
-    family: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?w=400',
+    mother: 'https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=600&h=400&fit=crop&auto=format',
+    father: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&h=400&fit=crop&auto=format',
+    baby: 'https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=600&h=400&fit=crop&auto=format',
+    family: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&h=400&fit=crop&auto=format',
   },
 
-  // OBJETOS COTIDIANOS
+  // OBJETOS COTIDIANOS - Objetos claramente identificables
   objects: {
-    book: 'https://images.unsplash.com/photo-1589998059171-988d887df646?w=400',
-    ball: 'https://images.unsplash.com/photo-1575361204480-aadea25e6e68?w=400',
-    car: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=400',
-    house: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=400',
+    book: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&h=400&fit=crop&auto=format',
+    ball: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&auto=format',
+    car: 'https://images.unsplash.com/photo-1502877338535-766e1452684a?w=600&h=400&fit=crop&auto=format',
+    house: 'https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=600&h=400&fit=crop&auto=format',
   },
 
   // COMIDA
   food: {
-    bread: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400',
-    milk: 'https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400',
-    cheese: 'https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=400',
-    egg: 'https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=400',
+    bread: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=400&fit=crop&auto=format',
+    milk: 'https://images.unsplash.com/photo-1563636619-e9143da7973b?w=600&h=400&fit=crop&auto=format',
+    cheese: 'https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=600&h=400&fit=crop&auto=format',
+    egg: 'https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=600&h=400&fit=crop&auto=format',
   },
 
   // ROPA
   clothes: {
-    shirt: 'https://images.unsplash.com/photo-1562157873-818bc0726f68?w=400',
-    shoes: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400',
-    hat: 'https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?w=400',
-    dress: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400',
+    shirt: 'https://images.unsplash.com/photo-1562157873-818bc0726f68?w=600&h=400&fit=crop&auto=format',
+    shoes: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=400&fit=crop&auto=format',
+    hat: 'https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?w=600&h=400&fit=crop&auto=format',
+    dress: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=400&fit=crop&auto=format',
   },
 
   // PARTES DEL CUERPO
   body: {
-    hand: 'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=400',
-    foot: 'https://images.unsplash.com/photo-1560343776-97e7d202ff0e?w=400',
-    eye: 'https://images.unsplash.com/photo-1585934733612-a63f7cd836b1?w=400',
-    mouth: 'https://images.unsplash.com/photo-1616528101862-d816c00e6eb0?w=400',
+    hand: 'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=600&h=400&fit=crop&auto=format',
+    foot: 'https://images.unsplash.com/photo-1560343776-97e7d202ff0e?w=600&h=400&fit=crop&auto=format',
+    eye: 'https://images.unsplash.com/photo-1585934733612-a63f7cd836b1?w=600&h=400&fit=crop&auto=format',
+    mouth: 'https://images.unsplash.com/photo-1616528101862-d816c00e6eb0?w=600&h=400&fit=crop&auto=format',
   },
 
   // SALUDOS Y EMOCIONES
   emotions: {
-    happy: 'https://images.unsplash.com/photo-1527613426441-4da17471b66d?w=400',
-    sad: 'https://images.unsplash.com/photo-1607193992726-233ac8a25264?w=400',
-    hello: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=400',
-    goodbye: 'https://images.unsplash.com/photo-1502139214982-d0ad755818d8?w=400',
+    happy: 'https://images.unsplash.com/photo-1527613426441-4da17471b66d?w=600&h=400&fit=crop&auto=format',
+    sad: 'https://images.unsplash.com/photo-1607193992726-233ac8a25264?w=600&h=400&fit=crop&auto=format',
+    hello: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&h=400&fit=crop&auto=format',
+    goodbye: 'https://images.unsplash.com/photo-1502139214982-d0ad755818d8?w=600&h=400&fit=crop&auto=format',
   },
 };
 
