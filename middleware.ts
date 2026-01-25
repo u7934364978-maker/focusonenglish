@@ -41,7 +41,7 @@ function isA1CourseRoute(pathname: string): boolean {
 }
 
 function isPublicRoute(pathname: string): boolean {
-  return PUBLIC_ROUTES.has(pathname) || isBlogRoute(pathname) || isB2CourseRoute(pathname) || isA1CourseRoute(pathname) || pathname.startsWith('/api/webhooks') || pathname.startsWith('/audio/');
+  return PUBLIC_ROUTES.has(pathname) || isBlogRoute(pathname) || isB2CourseRoute(pathname) || isA1CourseRoute(pathname) || pathname.startsWith('/api/webhooks') || pathname.startsWith('/audio/') || pathname === '/app/exams/mock-fce-reading';
 }
 
 function requiresAuthOnly(pathname: string): boolean {
