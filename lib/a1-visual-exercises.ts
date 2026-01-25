@@ -2,12 +2,12 @@
 // URLs de imágenes CLARAS y NO AMBIGUAS de alta calidad
 
 export const A1_IMAGE_BANK = {
-  // COLORES - Colores sólidos puros sin ambigüedad
+  // COLORES - Bloques de color sólido (UN SOLO COLOR POR IMAGEN)
   colors: {
-    red: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&auto=format',
-    blue: 'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=600&h=400&fit=crop&auto=format',
-    yellow: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600&h=400&fit=crop&auto=format',
-    green: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&h=400&fit=crop&auto=format',
+    red: 'https://via.placeholder.com/600x400/FF0000/FF0000?text=+',
+    blue: 'https://via.placeholder.com/600x400/0000FF/0000FF?text=+',
+    yellow: 'https://via.placeholder.com/600x400/FFFF00/FFFF00?text=+',
+    green: 'https://via.placeholder.com/600x400/00FF00/00FF00?text=+',
   },
 
   // ANIMALES - Fotos claras y directas
