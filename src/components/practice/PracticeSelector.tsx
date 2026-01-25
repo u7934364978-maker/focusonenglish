@@ -70,6 +70,8 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
     { id: 'listening', nameES: 'Listening', icon: '🎧' },
     { id: 'speaking', nameES: 'Speaking', icon: '🎤' },
     { id: 'pronunciation', nameES: 'Pronunciation', icon: '🗣️' },
+    { id: 'dictation', nameES: 'Dictation', icon: '👂' },
+    { id: 'roleplay', nameES: 'AI Roleplay', icon: '🎭' },
     { id: 'exam-practice', nameES: 'Exam Practice', icon: '🎓' },
   ];
 
@@ -164,7 +166,9 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
             <h2 className="text-xl font-bold text-gray-900">3. Configure your practice</h2>
 
             {/* Selector de Tema */}
-            {(selectedTypeConfig.category === 'grammar' || selectedTypeConfig.category === 'vocabulary') && (
+            {(selectedTypeConfig.category === 'grammar' || 
+              selectedTypeConfig.category === 'vocabulary' || 
+              selectedTypeConfig.category === 'exam-practice') && (
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   Specific topic (optional)
@@ -175,12 +179,16 @@ export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: 
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
                 >
                   <option value="">General topic</option>
-                  {selectedTypeConfig.category === 'grammar' && B2_GRAMMAR_TOPICS.map(topic => (
-                    <option key={topic.id} value={topic.id}>{topic.nameES}</option>
-                  ))}
-                  {selectedTypeConfig.category === 'vocabulary' && B2_VOCABULARY_TOPICS.map(topic => (
-                    <option key={topic.id} value={topic.id}>{topic.nameES}</option>
-                  ))}
+                  {(selectedTypeConfig.category === 'grammar' || selectedTypeConfig.category === 'exam-practice') && 
+                    B2_GRAMMAR_TOPICS.map(topic => (
+                      <option key={topic.id} value={topic.id}>{topic.nameES}</option>
+                    ))
+                  }
+                  {(selectedTypeConfig.category === 'vocabulary' || selectedTypeConfig.category === 'exam-practice') && 
+                    B2_VOCABULARY_TOPICS.map(topic => (
+                      <option key={topic.id} value={topic.id}>{topic.nameES}</option>
+                    ))
+                  }
                 </select>
               </div>
             )}

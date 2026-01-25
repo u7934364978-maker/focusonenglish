@@ -26,14 +26,16 @@ export interface ExerciseSpec {
 // ============================================
 
 const CATEGORY_TO_EXERCISE_TYPES: Record<ExerciseCategory, ExerciseType[]> = {
-  grammar: ['multiple-choice', 'fill-blank', 'sentence-building', 'key-word-transformation'],
-  vocabulary: ['multiple-choice', 'word-formation', 'fill-blank'],
-  reading: ['reading-comprehension', 'multiple-choice'],
+  grammar: ['multiple-choice', 'fill-blank', 'sentence-building', 'key-word-transformation', 'open-cloze'],
+  vocabulary: ['multiple-choice', 'word-formation', 'fill-blank', 'multiple-choice-cloze'],
+  reading: ['reading-comprehension', 'multiple-choice', 'gapped-text', 'multiple-matching'],
   writing: ['writing-analysis', 'sentence-building'],
-  listening: ['multiple-choice'], // Se puede expandir con listening-comprehension cuando esté disponible
+  listening: ['multiple-choice'], 
   speaking: ['speaking-analysis', 'pronunciation-practice'],
   pronunciation: ['pronunciation-practice'],
-  'exam-practice': ['key-word-transformation', 'multiple-choice-cloze', 'word-formation']
+  dictation: ['dictation'],
+  roleplay: ['roleplay'],
+  'exam-practice': ['key-word-transformation', 'multiple-choice-cloze', 'word-formation', 'open-cloze', 'gapped-text', 'multiple-matching']
 };
 
 // ============================================
@@ -45,61 +47,73 @@ const CATEGORY_WEIGHTS: Record<CEFRLevel, Record<ExerciseCategory, number>> = {
   A1: {
     grammar: 30,
     vocabulary: 30,
-    reading: 15,
+    reading: 10,
     writing: 10,
     listening: 10,
     speaking: 5,
-    pronunciation: 0,
+    pronunciation: 5,
+    dictation: 0,
+    roleplay: 0,
     'exam-practice': 0
   },
   A2: {
     grammar: 25,
     vocabulary: 25,
-    reading: 20,
-    writing: 15,
+    reading: 15,
+    writing: 10,
     listening: 10,
     speaking: 5,
-    pronunciation: 0,
+    pronunciation: 5,
+    dictation: 5,
+    roleplay: 0,
     'exam-practice': 0
   },
   B1: {
     grammar: 20,
     vocabulary: 20,
-    reading: 20,
-    writing: 15,
+    reading: 15,
+    writing: 10,
     listening: 10,
     speaking: 10,
     pronunciation: 5,
+    dictation: 5,
+    roleplay: 5,
     'exam-practice': 0
   },
   B2: {
     grammar: 15,
     vocabulary: 15,
-    reading: 20,
-    writing: 20,
+    reading: 15,
+    writing: 15,
     listening: 10,
     speaking: 10,
     pronunciation: 5,
+    dictation: 5,
+    roleplay: 5,
     'exam-practice': 5
   },
   C1: {
     grammar: 10,
     vocabulary: 15,
-    reading: 20,
-    writing: 25,
+    reading: 15,
+    writing: 20,
     listening: 10,
-    speaking: 15,
-    pronunciation: 0,
+    speaking: 10,
+    pronunciation: 5,
+    dictation: 5,
+    roleplay: 5,
     'exam-practice': 5
   },
   C2: {
     grammar: 5,
     vocabulary: 15,
-    reading: 20,
-    writing: 25,
-    listening: 15,
-    speaking: 15,
-    pronunciation: 0,
+    reading: 15,
+    writing: 20,
+    listening: 10,
+    speaking: 10,
+    pronunciation: 5,
+    dictation: 10,
+    roleplay: 5,
     'exam-practice': 5
   }
 };
@@ -294,7 +308,7 @@ function getDifficultyForLevel(level: CEFRLevel): 'easy' | 'medium' | 'hard' {
  * Genera una descripción legible de un ejercicio
  */
 export function describeExerciseSpec(spec: ExerciseSpec): string {
-  const typeNames: Record<ExerciseType, string> = {
+  const typeNames: Partial<Record<ExerciseType, string>> = {
     'multiple-choice': 'Opción Múltiple',
     'fill-blank': 'Completar Espacios',
     'key-word-transformation': 'Transformación con Palabra Clave',
@@ -306,7 +320,12 @@ export function describeExerciseSpec(spec: ExerciseSpec): string {
     'speaking-analysis': 'Análisis de Expresión Oral',
     'writing-analysis': 'Análisis de Escritura',
     'pronunciation-practice': 'Práctica de Pronunciación',
-    'true-false': 'Verdadero/Falso'
+    'true-false': 'Verdadero/Falso',
+    'open-cloze': 'Cloze Abierto',
+    'gapped-text': 'Texto con Huecos',
+    'multiple-matching': 'Emparejamiento Múltiple',
+    'dictation': 'Dictado',
+    'roleplay': 'Roleplay con IA'
   };
   
   const categoryNames: Record<ExerciseCategory, string> = {
@@ -317,8 +336,11 @@ export function describeExerciseSpec(spec: ExerciseSpec): string {
     listening: 'Comprensión Auditiva',
     speaking: 'Expresión Oral',
     pronunciation: 'Pronunciación',
+    dictation: 'Dictado',
+    roleplay: 'Roleplay',
     'exam-practice': 'Práctica de Examen'
   };
   
-  return `${typeNames[spec.type]} de ${categoryNames[spec.category]}: ${spec.topicName}`;
+  const typeName = typeNames[spec.type] || spec.type;
+  return `${typeName} de ${categoryNames[spec.category]}: ${spec.topicName}`;
 }

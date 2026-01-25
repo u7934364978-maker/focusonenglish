@@ -4,7 +4,11 @@ import { useState } from 'react';
 
 interface Question {
   id: string;
+  number?: number; // For cloze/formation
   question: string;
+  baseWord?: string; // For word-formation
+  keyWord?: string; // For key-word-transformation
+  startOfAnswer?: string; // For key-word-transformation
   type?: string;
   options?: string[];
   correctAnswer: string | string[];
@@ -20,6 +24,8 @@ interface Exercise {
   text?: string; // For reading comprehension passages
   questions?: Question[];
   transformations?: any[];
+  sections?: { id: string; content: string }[]; // For multiple-matching
+  options?: string[]; // For gapped-text
 }
 
 interface PracticeExerciseViewerProps {
@@ -120,6 +126,35 @@ export default function PracticeExerciseViewer({
     }
   };
 
+  // Helper to highlight current gap in text
+  const renderTextWithHighlights = (text: string, currentGap: number) => {
+    if (!text) return null;
+    
+    // Split by bracketed numbers like [1], [2], etc.
+    const parts = text.split(/(\[\d+\])/g);
+    
+    return parts.map((part, i) => {
+      const match = part.match(/\[(\d+)\]/);
+      if (match) {
+        const gapNum = parseInt(match[1]);
+        const isActive = gapNum === currentGap;
+        return (
+          <span 
+            key={i} 
+            className={`inline-flex items-center justify-center w-8 h-8 mx-1 rounded-full font-bold transition-all ${
+              isActive 
+                ? 'bg-coral-600 text-white scale-125 shadow-md' 
+                : 'bg-gray-200 text-gray-500'
+            }`}
+          >
+            {gapNum}
+          </span>
+        );
+      }
+      return <span key={i}>{part}</span>;
+    });
+  };
+
   if (!currentQuestion) {
     return (
       <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-orange-50 to-peach-50">
@@ -168,26 +203,79 @@ export default function PracticeExerciseViewer({
             )}
           </div>
 
-          {/* Reading passage - Always visible for reading comprehension */}
-          {exercise.text && (
-            <div className="bg-white rounded-2xl shadow-lg p-8 mb-6">
+          {/* Reading passage / Gapped Text Passage */}
+          {(exercise.text || exercise.type === 'gapped-text') && (
+            <div className="bg-white rounded-2xl shadow-lg p-8 mb-6 overflow-hidden">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-2xl">📖</span>
-                <h3 className="text-lg font-bold text-gray-900">Reading Passage</h3>
+                <span className="text-2xl">{exercise.type === 'gapped-text' ? '🧩' : '📖'}</span>
+                <h3 className="text-lg font-bold text-gray-900">
+                  {exercise.type === 'gapped-text' ? 'Complete the Text' : 'Reading Passage'}
+                </h3>
               </div>
               <div className="prose max-w-none">
                 <p className="text-gray-700 leading-relaxed whitespace-pre-line">
-                  {exercise.text}
+                  {exercise.type === 'gapped-text' 
+                    ? renderTextWithHighlights(exercise.text || '', currentQuestion.number || (currentQuestionIndex + 1))
+                    : exercise.text}
                 </p>
               </div>
             </div>
           )}
 
+          {/* Multiple Matching Sections */}
+          {exercise.sections && exercise.type === 'multiple-matching' && (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+              {exercise.sections.map((section) => (
+                <div key={section.id} className="bg-white rounded-xl shadow-sm p-5 border-t-4 border-coral-500">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="w-8 h-8 bg-coral-100 text-coral-700 rounded-lg flex items-center justify-center font-bold">
+                      {section.id}
+                    </span>
+                    <h4 className="font-bold text-gray-900">Section {section.id}</h4>
+                  </div>
+                  <p className="text-sm text-gray-600 line-clamp-4 hover:line-clamp-none transition-all cursor-pointer">
+                    {section.content}
+                  </p>
+                </div>
+              ))}
+            </div>
+          )}
+
           {/* Pregunta */}
           <div className="bg-white rounded-2xl shadow-lg p-8 mb-6">
-            <h3 className="text-xl font-bold text-gray-900 mb-6">
-              {currentQuestion.question}
-            </h3>
+            <div className="flex items-center gap-3 mb-4">
+              {currentQuestion.number && (
+                <span className="flex-shrink-0 w-10 h-10 bg-coral-100 text-coral-700 rounded-full flex items-center justify-center font-bold text-lg">
+                  {currentQuestion.number}
+                </span>
+              )}
+              <h3 className="text-xl font-bold text-gray-900">
+                {currentQuestion.question}
+              </h3>
+            </div>
+
+            {/* Special display for Key Word Transformation */}
+            {currentQuestion.keyWord && (
+              <div className="mb-6 p-4 bg-gray-50 rounded-xl border-2 border-dashed border-gray-300 text-center">
+                <span className="text-sm uppercase tracking-widest text-gray-500 font-bold block mb-1">Key Word</span>
+                <span className="text-2xl font-black text-coral-600">{currentQuestion.keyWord}</span>
+              </div>
+            )}
+
+            {/* Special display for Word Formation */}
+            {currentQuestion.baseWord && (
+              <div className="mb-6 p-4 bg-orange-50 rounded-xl border-2 border-orange-200 flex items-center justify-between">
+                <span className="text-sm font-bold text-orange-700 uppercase">Base Word:</span>
+                <span className="text-xl font-black text-orange-900 tracking-wider">{currentQuestion.baseWord}</span>
+              </div>
+            )}
+
+            {/* Display Start of Answer for transformations */}
+            {currentQuestion.startOfAnswer && (
+              <div className="mb-4 text-lg font-medium text-gray-700">
+                {currentQuestion.startOfAnswer} ...
+              </div>
+            )}
 
             {/* Campo de respuesta para fill-blank - SOLO si NO hay opciones */}
             {!currentQuestion.options && !showFeedback && (
@@ -207,9 +295,9 @@ export default function PracticeExerciseViewer({
             )}
 
             {/* Opciones múltiples */}
-            {currentQuestion.options && currentQuestion.options.length > 0 && !showFeedback && (
+            {(currentQuestion.options || exercise.options) && (currentQuestion.options || exercise.options || []).length > 0 && !showFeedback && (
               <div className="space-y-3">
-                {currentQuestion.options.map((option, idx) => (
+                {(currentQuestion.options || exercise.options || []).map((option, idx) => (
                   <button
                     key={idx}
                     onClick={() => {
@@ -284,9 +372,12 @@ export default function PracticeExerciseViewer({
                     {!isCorrect && (
                       <p className="text-gray-700 mb-2">
                         <strong>Correct answer:</strong>{' '}
-                        {Array.isArray(currentQuestion.correctAnswer)
-                          ? currentQuestion.correctAnswer.join(' / ')
-                          : currentQuestion.correctAnswer}
+                        {currentQuestion.startOfAnswer && <span className="text-gray-500 italic">{currentQuestion.startOfAnswer} </span>}
+                        <span className="font-bold">
+                          {Array.isArray(currentQuestion.correctAnswer)
+                            ? currentQuestion.correctAnswer.join(' / ')
+                            : currentQuestion.correctAnswer}
+                        </span>
                       </p>
                     )}
                     {currentQuestion.explanation && (

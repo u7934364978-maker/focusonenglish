@@ -7,7 +7,7 @@ export { type CEFRLevel } from './exercise-types';
 export interface CurriculumTopic {
   id: string;
   name: string;
-  category: 'grammar' | 'vocabulary' | 'reading' | 'writing' | 'listening' | 'speaking' | 'pronunciation' | 'dictation' | 'roleplay';
+  category: 'grammar' | 'vocabulary' | 'reading' | 'writing' | 'listening' | 'speaking' | 'pronunciation' | 'dictation' | 'roleplay' | 'exam-practice';
   description: string;
   keywords: string[];
 }
@@ -25,6 +25,7 @@ export interface LevelCurriculum {
   pronunciation?: CurriculumTopic[];
   dictation?: CurriculumTopic[];
   roleplay?: CurriculumTopic[];
+  examPractice?: CurriculumTopic[];
 }
 
 // ============================================
@@ -563,6 +564,57 @@ const B2_CURRICULUM: LevelCurriculum = {
       description: 'Participating in extended discussions',
       keywords: ['debate', 'discussion', 'argue', 'defend', 'point of view']
     }
+  ],
+  examPractice: [
+    {
+      id: 'fce-reading-part-1',
+      name: 'FCE Reading Part 1: Multiple Choice Cloze',
+      category: 'exam-practice',
+      description: 'Choose the correct word from four options to fill each gap in a text.',
+      keywords: ['collocations', 'fixed phrases', 'idioms', 'phrasal verbs']
+    },
+    {
+      id: 'fce-reading-part-2',
+      name: 'FCE Reading Part 2: Open Cloze',
+      category: 'exam-practice',
+      description: 'Fill in each gap in a text with one word.',
+      keywords: ['prepositions', 'articles', 'pronouns', 'connectors']
+    },
+    {
+      id: 'fce-reading-part-3',
+      name: 'FCE Reading Part 3: Word Formation',
+      category: 'exam-practice',
+      description: 'Transform a base word to fit a gap in a text.',
+      keywords: ['prefixes', 'suffixes', 'word families', 'derivatives']
+    },
+    {
+      id: 'fce-reading-part-4',
+      name: 'FCE Reading Part 4: Key Word Transformation',
+      category: 'exam-practice',
+      description: 'Rewrite a sentence using a given key word so that it has a similar meaning.',
+      keywords: ['paraphrasing', 'grammar structures', 'lexical patterns']
+    },
+    {
+      id: 'fce-reading-part-5',
+      name: 'FCE Reading Part 5: Multiple Choice',
+      category: 'exam-practice',
+      description: 'Answer questions about a long text by choosing from four options.',
+      keywords: ['detail', 'opinion', 'attitude', 'purpose', 'main idea']
+    },
+    {
+      id: 'fce-reading-part-6',
+      name: 'FCE Reading Part 6: Gapped Text',
+      category: 'exam-practice',
+      description: 'Choose the correct sentence to fill each gap in a text.',
+      keywords: ['cohesion', 'coherence', 'logical flow', 'reference words']
+    },
+    {
+      id: 'fce-reading-part-7',
+      name: 'FCE Reading Part 7: Multiple Matching',
+      category: 'exam-practice',
+      description: 'Match statements or questions to sections of a text.',
+      keywords: ['scanning', 'paraphrasing', 'finding specific information']
+    }
   ]
 };
 
@@ -848,7 +900,11 @@ export function getAllTopics(level: CEFRLevel): CurriculumTopic[] {
     ...curriculum.reading,
     ...curriculum.writing,
     ...curriculum.listening,
-    ...curriculum.speaking
+    ...curriculum.speaking,
+    ...(curriculum.pronunciation || []),
+    ...(curriculum.dictation || []),
+    ...(curriculum.roleplay || []),
+    ...(curriculum.examPractice || [])
   ];
 }
 
@@ -857,10 +913,42 @@ export function getAllTopics(level: CEFRLevel): CurriculumTopic[] {
  */
 export function getTopicsByCategory(
   level: CEFRLevel,
-  category: 'grammar' | 'vocabulary' | 'reading' | 'writing' | 'listening' | 'speaking' | 'pronunciation' | 'dictation'
+  category: ExerciseCategory
 ): CurriculumTopic[] {
   const curriculum = getCurriculum(level);
-  return curriculum[category] || [];
+  
+  // Mapping for custom categories to curriculum fields
+  const categoryMap: Record<string, keyof LevelCurriculum> = {
+    'grammar': 'grammar',
+    'vocabulary': 'vocabulary',
+    'reading': 'reading',
+    'writing': 'writing',
+    'listening': 'listening',
+    'speaking': 'speaking',
+    'pronunciation': 'pronunciation',
+    'dictation': 'dictation',
+    'roleplay': 'roleplay',
+    'exam-practice': 'examPractice'
+  };
+
+  const field = categoryMap[category];
+  if (field) {
+    const result = curriculum[field];
+    if (Array.isArray(result)) return result;
+  }
+
+  // Fallback: If category is exam-practice but no specific examPractice field, 
+  // combine reading, writing, grammar, vocabulary
+  if (category === 'exam-practice') {
+    return [
+      ...curriculum.grammar,
+      ...curriculum.vocabulary,
+      ...curriculum.reading,
+      ...curriculum.writing
+    ];
+  }
+  
+  return [];
 }
 
 /**

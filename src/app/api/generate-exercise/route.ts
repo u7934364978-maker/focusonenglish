@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { generateExerciseV2 } from '@/lib/ai/generator-v2';
+import { EXERCISE_TYPE_CATALOG } from '@/lib/exercise-types';
 
 export async function POST(request: NextRequest) {
   try {
@@ -36,6 +37,7 @@ export async function POST(request: NextRequest) {
 export async function GET() {
   return NextResponse.json({ 
     success: true, 
-    message: "Generador de IA V2 activo y listo." 
+    message: "Generador de IA V2 activo y listo.",
+    exerciseTypes: EXERCISE_TYPE_CATALOG
   });
 }

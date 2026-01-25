@@ -45,7 +45,13 @@ import {
   ReadingExercise,
   ListeningExercise,
   GrammarExercise,
-  SpeakingExercise
+  VoiceRecordingExercise,
+  VocabularyExercise,
+  WordFormationExercise,
+  KeyWordTransformationExercise,
+  MultipleChoiceClozeExercise,
+  GappedTextExercise,
+  MultipleMatchingExercise
 } from '@/lib/exercise-types';
 
 interface LessonViewerProps {

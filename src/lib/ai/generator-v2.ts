@@ -1,6 +1,8 @@
 import OpenAI from 'openai';
-import { GenerateExerciseRequest, GeneratedExercise, CEFRLevel } from '@/lib/exercise-types';
+import { GenerateExerciseRequest, GeneratedExercise, CEFRLevel, ExerciseCategory } from '@/lib/exercise-types';
 import { generateFallbackExercise } from '@/lib/ai/fallback-exercises';
+import { B2_GRAMMAR, B2_TOPICS, B2_FUNCTIONS } from '@/lib/b2-official-syllabus';
+import { getAllTopics } from '@/lib/cambridge-curriculum';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY || '',
@@ -18,11 +20,15 @@ GUIDELINES:
    {
      "title": "Clear exercise title",
      "instructions": "Clear instructions in English",
-     "text": "Reading passage if applicable (only for reading-comprehension)",
+     "text": "Reading passage if applicable (for reading-comprehension, word-formation, cloze exercises)",
      "questions": [
        {
-         "question": "The question text",
-         "options": ["Option A", "Option B", "Option C", "Option D"], (Include only for multiple-choice)
+         "number": 1, (For cloze/formation exercises)
+         "question": "The question text", (For discrete questions)
+         "baseWord": "BASE", (ONLY for word-formation)
+         "keyWord": "KEY", (ONLY for key-word-transformation)
+         "startOfAnswer": "Start...", (ONLY for key-word-transformation)
+         "options": ["Option A", "Option B", "Option C", "Option D"], (Include only for multiple-choice and multiple-choice-cloze)
          "correctAnswer": "The exact correct answer",
          "explanation": "Brief explanation in Spanish",
          "correctiveFeedback": "Specific feedback in Spanish for why common mistakes might happen in this question (ONLY if useful)",
@@ -40,6 +46,18 @@ GUIDELINES:
    - pronunciation-practice: Focus on phonetics or word stress.
    - dictation: Generate a short sentence (5-10 words) as "correctAnswer". The "question" should be "Escucha y escribe lo que oyes."
    - speaking-analysis: A situational prompt for the student to respond to.
+   - key-word-transformation: A sentence to rewrite using a given key word (2-5 words).
+     JSON: { "question": "Original sentence", "keyWord": "KEY", "startOfAnswer": "Start...", "correctAnswer": "rest of the answer" }
+   - word-formation: A text with gaps and base words to transform.
+     JSON: { "text": "Text with (1)___", "questions": [{ "number": 1, "baseWord": "ACT", "correctAnswer": "ACTION" }] }
+   - open-cloze: A text with gaps (no options provided).
+     JSON: { "text": "Text with (1)___", "questions": [{ "number": 1, "correctAnswer": "the" }] }
+   - multiple-choice-cloze: A text with gaps and 4 options each.
+     JSON: { "text": "Text with (1)___", "questions": [{ "number": 1, "options": ["A", "B", "C", "D"], "correctAnswer": "A" }] }
+   - gapped-text: A text with 6 gaps [1]-[6] and 7 sentences (A-G) to choose from (one extra).
+     JSON: { "text": "Passage with [1]...", "options": ["A: Sentence...", "B: Sentence..."], "questions": [{ "number": 1, "correctAnswer": "A", "explanation": "..." }] }
+   - multiple-matching: 4-5 short texts (A-E) and 10 statements to match.
+     JSON: { "sections": [{ "id": "A", "content": "..." }], "questions": [{ "question": "Statement...", "correctAnswer": "A", "explanation": "..." }] }
    - roleplay: Instead of "questions", return a "scenario" object:
      {
        "scenario": {
@@ -87,6 +105,43 @@ export async function generateExerciseV2(request: GenerateExerciseRequest): Prom
     return generateFallbackExercise(request);
   }
 
+  // Inyectar contexto del syllabus del nivel si aplica
+  let syllabusContext = '';
+  
+  // Buscar el topic en el curriculum general
+  const allLevelTopics = getAllTopics(level as CEFRLevel);
+  const curriculumTopic = allLevelTopics.find(t => t.id === topic);
+  
+  if (curriculumTopic) {
+    syllabusContext = `
+    🎯 ${level} OFFICIAL SYLLABUS CONTEXT:
+    Category: ${curriculumTopic.category}
+    Topic Name: ${curriculumTopic.name}
+    Description: ${curriculumTopic.description}
+    Keywords/Focus Areas: ${curriculumTopic.keywords.join(', ')}
+    Ensure the exercise covers this specific topic accurately and pedagogically.`;
+  } else if (level === 'B2') {
+    // Fallback al syllabus B2 legacy si no se encuentra en el nuevo
+    const grammarPoint = B2_GRAMMAR.find(g => g.id === topic);
+    const vocabularyTopic = B2_TOPICS.find(t => t.id === topic);
+    
+    if (grammarPoint) {
+      syllabusContext = `
+      🎯 B2 OFFICIAL SYLLABUS CONTEXT (Grammar):
+      Point: ${grammarPoint.name}
+      Description: ${grammarPoint.description}
+      Official Examples for reference:
+      ${grammarPoint.examples.map(ex => `- ${ex}`).join('\n')}
+      Ensure the exercise covers this specific grammar point accurately.`;
+    } else if (vocabularyTopic) {
+      syllabusContext = `
+      🎯 B2 OFFICIAL SYLLABUS CONTEXT (Vocabulary):
+      Topic: ${vocabularyTopic.name}
+      Key Areas/Keywords: ${vocabularyTopic.keywords.join(', ')}
+      Ensure the exercise uses vocabulary relevant to these specific areas.`;
+    }
+  }
+
   try {
     // Instrucciones especiales para nivel A1
     const a1Instructions = level === 'A1' ? `
@@ -114,6 +169,7 @@ export async function generateExerciseV2(request: GenerateExerciseRequest): Prom
           Level: ${level} 
           Difficulty: ${difficulty} 
           Topic: ${topic || 'General English'}
+          ${syllabusContext}
           ${request.recentErrors && request.recentErrors.length > 0 ? `
           IMPORTANT: The student has recently struggled with the following topics/errors:
           ${request.recentErrors.map((e: any) => `- Topic: ${e.topic}, Mistake: "${e.wrong_answer}" (Expected: "${e.correct_answer}")`).join('\n')}
@@ -138,7 +194,7 @@ export async function generateExerciseV2(request: GenerateExerciseRequest): Prom
     return {
       id: `ai_${Date.now()}`,
       type: exerciseType,
-      category: 'practice',
+      category: (curriculumTopic?.category as ExerciseCategory) || 'practice',
       topic: topic || 'General',
       difficulty: difficulty as any,
       level: level as any,

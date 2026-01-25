@@ -599,6 +599,101 @@ Format as JSON with sentences array:
     }
   },
   {
+    id: 'open-cloze',
+    name: 'Open Cloze',
+    nameES: 'Cloze Abierto',
+    category: 'exam-practice',
+    description: 'Think of the correct word to fill each gap',
+    descriptionES: 'Piensa en la palabra correcta para llenar cada espacio',
+    icon: '📝',
+    estimatedTime: 12,
+    aiPromptTemplate: `Generate an FCE-style Open Cloze (Part 2).
+Topic: {{topic}}
+Difficulty: {{difficulty}}
+
+Create:
+1. Engaging text passage (150-170 words) with 8 gaps
+2. Each gap requires ONLY ONE word
+3. Focus on grammar words: prepositions, articles, pronouns, connectors, auxiliary verbs, etc.
+
+For each gap:
+- Clear correct answer
+- Acceptable alternatives (if any)
+- Explanation of why it's correct
+
+Format as JSON with text and questions array.`,
+    supportedLevels: ['B2', 'C1'],
+    difficultySettings: {
+      easy: 'Basic grammatical structures and common connectors',
+      medium: 'Standard FCE difficulty with more subtle grammar points',
+      hard: 'Advanced grammatical structures and less frequent connectors'
+    }
+  },
+  {
+    id: 'gapped-text',
+    name: 'Gapped Text',
+    nameES: 'Texto con Huecos (Párrafos)',
+    category: 'exam-practice',
+    description: 'Choose the correct sentence to fill the gaps in a text',
+    descriptionES: 'Elige la oración correcta para llenar los huecos en un texto',
+    icon: '🧩',
+    estimatedTime: 15,
+    aiPromptTemplate: `Generate an FCE-style Gapped Text (Part 6).
+Topic: {{topic}}
+Difficulty: {{difficulty}}
+
+Create:
+1. A coherent text with 6 sentences removed (gaps numbered 1-6)
+2. 7 sentences (A-G) that could fit into the gaps (one extra sentence is a distractor)
+3. The text should have clear cohesion markers (pronouns, linkers, reference words)
+
+Include:
+- Full text with markers [1], [2], etc.
+- Sentences A-G
+- Correct mapping for each gap
+- Detailed explanation for each choice referring to cohesion markers
+
+Format as JSON with text, options, and questions array.`,
+    supportedLevels: ['B2', 'C1'],
+    difficultySettings: {
+      easy: 'Clear reference words and obvious logical flow',
+      medium: 'Standard FCE difficulty with subtle cohesion markers',
+      hard: 'Complex logical flow and sophisticated reference words'
+    }
+  },
+  {
+    id: 'multiple-matching',
+    name: 'Multiple Matching',
+    nameES: 'Emparejamiento Múltiple',
+    category: 'exam-practice',
+    description: 'Match statements to the correct section of a text',
+    descriptionES: 'Empareja afirmaciones con la sección correcta de un texto',
+    icon: '↔️',
+    estimatedTime: 15,
+    aiPromptTemplate: `Generate an FCE-style Multiple Matching exercise (Part 7).
+Topic: {{topic}}
+Difficulty: {{difficulty}}
+
+Create:
+1. A text divided into 4-5 sections (A, B, C, D, E)
+2. 10 statements/questions that must be matched to one of the sections
+3. Ensure paraphrasing is used between the statements and the text
+
+Include:
+- Sections A-E with titles/labels
+- 10 statements
+- Correct section for each statement
+- Explanation with the relevant quote from the text
+
+Format as JSON with sections, statements, and answers array.`,
+    supportedLevels: ['B2', 'C1'],
+    difficultySettings: {
+      easy: 'Simple paraphrasing and clear keywords',
+      medium: 'Standard FCE difficulty with nuanced paraphrasing',
+      hard: 'Complex abstract ideas and very subtle paraphrasing'
+    }
+  },
+  {
     id: 'roleplay',
     name: 'AI Roleplay',
     nameES: 'Roleplay con IA',
@@ -768,44 +863,27 @@ Format as JSON with a questions array.`,
   }
 ];
 
-// ============================================
+import { B2_GRAMMAR, B2_TOPICS } from './b2-official-syllabus';
+
+// ================= ============================
 // TEMAS DE GRAMÁTICA B2 (Para generación)
 // ============================================
 
-export const B2_GRAMMAR_TOPICS = [
-  { id: 'past-perfect', name: 'Past Perfect & Past Perfect Continuous', nameES: 'Pasado Perfecto y Continuo' },
-  { id: 'mixed-conditionals', name: 'Mixed Conditionals', nameES: 'Condicionales Mixtos' },
-  { id: 'inversion', name: 'Inversion for Emphasis', nameES: 'Inversión para Énfasis' },
-  { id: 'cleft-sentences', name: 'Cleft Sentences', nameES: 'Oraciones Escindidas' },
-  { id: 'passive-voice', name: 'Advanced Passive Structures', nameES: 'Estructuras Pasivas Avanzadas' },
-  { id: 'reported-speech', name: 'Reported Speech', nameES: 'Estilo Indirecto' },
-  { id: 'modal-verbs', name: 'Modal Verbs (Deduction, Obligation)', nameES: 'Verbos Modales' },
-  { id: 'relative-clauses', name: 'Defining & Non-defining Relative Clauses', nameES: 'Oraciones de Relativo' },
-  { id: 'wish-regret', name: 'Wish, If only, Regrets', nameES: 'Deseos y Arrepentimientos' },
-  { id: 'participle-clauses', name: 'Participle Clauses', nameES: 'Cláusulas Participiales' },
-  { id: 'future-forms', name: 'Future Forms in Context', nameES: 'Formas del Futuro' },
-  { id: 'linking-words', name: 'Advanced Linking Words', nameES: 'Conectores Avanzados' }
-];
+export const B2_GRAMMAR_TOPICS = B2_GRAMMAR.map(g => ({
+  id: g.id,
+  name: g.name,
+  nameES: g.description // Usamos la descripción como nombre en español si no hay otro
+}));
 
 // ============================================
 // TEMAS DE VOCABULARIO B2
 // ============================================
 
-export const B2_VOCABULARY_TOPICS = [
-  { id: 'work-career', name: 'Work & Career', nameES: 'Trabajo y Carrera' },
-  { id: 'education', name: 'Education & Learning', nameES: 'Educación y Aprendizaje' },
-  { id: 'technology', name: 'Technology & Innovation', nameES: 'Tecnología e Innovación' },
-  { id: 'environment', name: 'Environment & Sustainability', nameES: 'Medio Ambiente' },
-  { id: 'health', name: 'Health & Wellbeing', nameES: 'Salud y Bienestar' },
-  { id: 'travel', name: 'Travel & Tourism', nameES: 'Viajes y Turismo' },
-  { id: 'arts-culture', name: 'Arts & Culture', nameES: 'Arte y Cultura' },
-  { id: 'society', name: 'Society & Relationships', nameES: 'Sociedad y Relaciones' },
-  { id: 'media', name: 'Media & Communication', nameES: 'Medios y Comunicación' },
-  { id: 'science', name: 'Science & Research', nameES: 'Ciencia e Investigación' },
-  { id: 'phrasal-verbs', name: 'Phrasal Verbs', nameES: 'Verbos Frasales' },
-  { id: 'collocations', name: 'Common Collocations', nameES: 'Colocaciones Comunes' },
-  { id: 'idioms', name: 'Idioms & Expressions', nameES: 'Modismos y Expresiones' }
-];
+export const B2_VOCABULARY_TOPICS = B2_TOPICS.map(t => ({
+  id: t.id,
+  name: t.name,
+  nameES: t.name // Aquí podrías mapear a nombres en español si los tuvieras
+}));
 
 // ============================================
 // HELPER FUNCTIONS
@@ -1021,6 +1099,7 @@ export interface VocabularyExercise {
   id: string;
   type: 'vocabulary';
   title: string;
+  explanation?: string;
   vocabularySet: { word: string; definition: string; example: string }[];
   questions: Question[];
 }
@@ -1128,6 +1207,7 @@ export interface WordFormationExercise {
   type: 'word-formation';
   title: string;
   instructions: string;
+  explanation?: string;
   text?: string;
   questions: WordFormation[];
   focusAreas?: string[];
@@ -1312,42 +1392,35 @@ export interface GappedTextExercise {
   id: string;
   type: 'gapped-text';
   title: string;
-  mainText: string;
-  removedParagraphs: {
-    letter: string;
-    text: string;
-    isDistractor: boolean;
-  }[];
-  correctAnswers: {
-    gapNumber: number;
-    correctLetter: string;
+  instructions: string;
+  text: string;
+  options: string[];
+  questions: {
+    number: number;
+    correctAnswer: string;
+    explanation: string;
+    points: number;
   }[];
 }
 
-export interface MultipleMatchingText {
-  letter: 'A' | 'B' | 'C' | 'D' | 'E';
-  title: string;
-  author?: string;
+export interface MultipleMatchingSection {
+  id: string;
   content: string;
-}
-
-export interface MultipleMatchingQuestion {
-  number: number;
-  statement: string;
-  correctText: 'A' | 'B' | 'C' | 'D' | 'E';
-  explanation: string;
 }
 
 export interface MultipleMatchingExercise {
   id: string;
   type: 'multiple-matching';
   title: string;
-  instruction: string;
-  texts: MultipleMatchingText[];
-  questions: MultipleMatchingQuestion[];
-  difficulty: 'medium' | 'hard';
-  topic: string;
-  totalTexts: number;
+  instructions: string;
+  sections: MultipleMatchingSection[];
+  questions: {
+    id?: string;
+    question: string;
+    correctAnswer: string;
+    explanation: string;
+    points: number;
+  }[];
 }
 
 export interface IntegratedReadingWritingExercise {
