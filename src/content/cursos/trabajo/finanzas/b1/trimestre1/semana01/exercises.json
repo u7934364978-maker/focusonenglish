@@ -57,6 +57,45 @@
       "explanation": "Direct Debit is an arrangement made with a bank that allows a third party to transfer money from a person's account on agreed dates, usually to pay bills."
     },
     {
+      "id": "finance-b1-w1-q6",
+      "type": "multipleChoice",
+      "prompt": "What is the primary difference between a Debit Card and a Credit Card?",
+      "options": [
+        "Debit cards are plastic, credit cards are metal",
+        "Debit cards use your own money, credit cards use the bank's money (loan)",
+        "Debit cards can only be used at ATMs",
+        "There is no difference"
+      ],
+      "answerIndex": 1,
+      "explanation": "A debit card takes money directly from your current account, whereas a credit card allows you to borrow money up to a certain limit."
+    },
+    {
+      "id": "finance-b1-w1-q7",
+      "type": "multipleChoice",
+      "prompt": "What does it mean to 'default' on a loan?",
+      "options": [
+        "To pay it back early",
+        "To fail to make the required payments",
+        "To increase the interest rate",
+        "To sign the final agreement"
+      ],
+      "answerIndex": 1,
+      "explanation": "Defaulting occurs when a borrower fails to pay the interest or principal on a loan."
+    },
+    {
+      "id": "finance-b1-w1-q8",
+      "type": "multipleChoice",
+      "prompt": "What is 'Collateral'?",
+      "options": [
+        "The interest paid on a savings account",
+        "An asset used as a guarantee for a loan",
+        "The bank's internal profit margin",
+        "A type of currency exchange"
+      ],
+      "answerIndex": 1,
+      "explanation": "Collateral is an item of value that a lender can seize from a borrower if the borrower fails to repay a loan."
+    },
+    {
       "id": "finance-b1-w1-reading1",
       "type": "readingComprehension",
       "prompt": "Read the following dialogue and answer: Why is Mr. Smith opening a business account? \n\nBanker: Good morning, how can I help you?\nMr. Smith: Hello. I've just started a small consulting firm and I need to keep my professional expenses separate from my personal ones.\nBanker: I see. For a startup, I recommend our 'Business Essential' account. It has low monthly fees.",
@@ -81,6 +120,19 @@
       ],
       "answerIndex": 1,
       "explanation": "The text states: 'the more money you maintain in the balance, the higher the percentage of interest'."
+    },
+    {
+      "id": "finance-b1-w1-reading3",
+      "type": "readingComprehension",
+      "prompt": "EMAIL EXCERPT: 'Dear Valued Customer, please be advised that our branch on High Street will be closed for renovations starting next Monday. During this time, you can perform all your transactions through our mobile app or visit the branch on North Road, which has extended its opening hours.' \n\nWhat is the main purpose of this email?",
+      "options": [
+        "To offer a new credit card",
+        "To inform about a temporary branch closure",
+        "To announce a change in interest rates",
+        "To introduce a new bank manager"
+      ],
+      "answerIndex": 1,
+      "explanation": "The email informs customers that the High Street branch will be closed for renovations."
     },
     {
       "id": "finance-b1-w1-grammar-1",
@@ -125,6 +177,35 @@
       "explanation": "We use 'Have you ever + past participle' for life experiences (Present Perfect)."
     },
     {
+      "id": "finance-b1-w1-grammar-5",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct form: 'Mr. Tanaka ___ (be) a loyal customer since 1998.'",
+      "options": ["is", "was", "has been", "has"],
+      "answerIndex": 2,
+      "explanation": "Present Perfect is used with 'since' to describe a state that started in the past and continues to the present."
+    },
+    {
+      "id": "finance-b1-w1-grammar-6",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct form: '___ (you / speak) to the manager about your loan yet?'",
+      "options": [
+        "Did you speak",
+        "Have you spoken",
+        "Do you speak",
+        "Will you speak"
+      ],
+      "answerIndex": 1,
+      "explanation": "We use the Present Perfect with 'yet' for questions about recent actions."
+    },
+    {
+      "id": "finance-b1-w1-grammar-7",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence: 'Last year, the bank's profit ___ (increase) by 15%.'",
+      "options": ["has increased", "increases", "increased", "was increasing"],
+      "answerIndex": 2,
+      "explanation": "'Last year' indicates a finished time period, requiring the Past Simple."
+    },
+    {
       "id": "finance-b1-w1-vocabulary-1",
       "type": "multipleChoice",
       "prompt": "What is the synonym of 'to credit' in a banking context?",
@@ -144,6 +225,79 @@
       ],
       "answerIndex": 1,
       "explanation": "A bank statement is a summary of financial transactions which have occurred over a given period on a bank account."
+    },
+    {
+      "id": "finance-b1-w1-vocabulary-3",
+      "type": "multipleChoice",
+      "prompt": "What does 'To withdraw' mean?",
+      "options": ["To put money in", "To take money out", "To sign a contract", "To ask for a loan"],
+      "answerIndex": 1,
+      "explanation": "To withdraw means to remove money from a bank account."
+    },
+    {
+      "id": "finance-b1-w1-vocabulary-4",
+      "type": "multipleChoice",
+      "prompt": "What is an 'ATM'?",
+      "options": [
+        "A type of bank account",
+        "Automated Teller Machine (Cash machine)",
+        "Annual Tax Management",
+        "Account Total Monitor"
+      ],
+      "answerIndex": 1,
+      "explanation": "ATM stands for Automated Teller Machine, used for withdrawing cash and other basic transactions."
+    },
+    {
+      "id": "finance-b1-w1-vocabulary-5",
+      "type": "multipleChoice",
+      "prompt": "What is 'Mortgage'?",
+      "options": [
+        "A loan specifically for buying property",
+        "A small personal loan",
+        "A type of savings interest",
+        "The fee for a wire transfer"
+      ],
+      "answerIndex": 0,
+      "explanation": "A mortgage is a loan used to purchase a home or other real estate."
+    },
+    {
+      "id": "finance-b1-w1-vocabulary-6",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Counterfeit' bill?",
+      "options": [
+        "A very expensive bill",
+        "A fake or fraudulent banknote",
+        "A bill from another country",
+        "A new digital currency"
+      ],
+      "answerIndex": 1,
+      "explanation": "Counterfeit refers to something made in imitation of something else with intent to deceive; a fake bill."
+    },
+    {
+      "id": "finance-b1-w1-vocabulary-7",
+      "type": "multipleChoice",
+      "prompt": "What does 'Insolvency' mean?",
+      "options": [
+        "Being very rich",
+        "The inability to pay one's debts",
+        "A type of insurance",
+        "The process of opening a bank"
+      ],
+      "answerIndex": 1,
+      "explanation": "Insolvency is the state of being unable to pay the debts, by a person or company, at maturity."
+    },
+    {
+      "id": "finance-b1-w1-vocabulary-8",
+      "type": "multipleChoice",
+      "prompt": "What is 'Liquidity'?",
+      "options": [
+        "Money that is in a liquid form",
+        "The availability of liquid assets (cash) to a market or company",
+        "A type of high-risk investment",
+        "The total value of a bank's building"
+      ],
+      "answerIndex": 1,
+      "explanation": "Liquidity refers to how easily an asset can be converted into cash without affecting its market price."
     }
   ]
 }
