@@ -31,6 +31,32 @@
       "explanation": "A wire transfer is the standard method for moving funds electronically between banks, especially internationally."
     },
     {
+      "id": "finance-b1-w1-q4",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Standing Order'?",
+      "options": [
+        "A physical order to stand in line at the bank",
+        "An instruction to pay a fixed amount to the same person at regular intervals",
+        "A request to close an account immediately",
+        "A type of high-interest investment"
+      ],
+      "answerIndex": 1,
+      "explanation": "A standing order is an instruction a bank account holder gives to their bank to pay a set amount at regular intervals to another's account."
+    },
+    {
+      "id": "finance-b1-w1-q5",
+      "type": "multipleChoice",
+      "prompt": "What does 'Direct Debit' mean?",
+      "options": [
+        "Paying cash directly to a vendor",
+        "An instruction to your bank to allow a third party to take varying amounts from your account",
+        "A loan given directly by the bank manager",
+        "Taking money out of an ATM"
+      ],
+      "answerIndex": 1,
+      "explanation": "Direct Debit is an arrangement made with a bank that allows a third party to transfer money from a person's account on agreed dates, usually to pay bills."
+    },
+    {
       "id": "finance-b1-w1-reading1",
       "type": "readingComprehension",
       "prompt": "Read the following dialogue and answer: Why is Mr. Smith opening a business account? \n\nBanker: Good morning, how can I help you?\nMr. Smith: Hello. I've just started a small consulting firm and I need to keep my professional expenses separate from my personal ones.\nBanker: I see. For a startup, I recommend our 'Business Essential' account. It has low monthly fees.",
@@ -42,6 +68,19 @@
       ],
       "answerIndex": 1,
       "explanation": "Mr. Smith explicitly states he needs to keep his professional expenses separate from his personal ones."
+    },
+    {
+      "id": "finance-b1-w1-reading2",
+      "type": "readingComprehension",
+      "prompt": "TEXT: 'Most savings accounts offer a tiered interest rate system. This means that the more money you maintain in the balance, the higher the percentage of interest the bank credits to your account monthly. However, some accounts require a minimum monthly deposit to maintain these rates.' \n\nAccording to the text, how can a customer get a higher interest rate?",
+      "options": [
+        "By withdrawing money every week",
+        "By maintaining a higher balance in the account",
+        "By opening a current account instead",
+        "By visiting the bank branch in person"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text states: 'the more money you maintain in the balance, the higher the percentage of interest'."
     },
     {
       "id": "finance-b1-w1-grammar-1",
@@ -58,6 +97,53 @@
       "options": ["didn't receive", "haven't received", "don't receive", "hadn't received"],
       "answerIndex": 1,
       "explanation": "We use the Present Perfect ('haven't received') with 'yet' for actions that haven't happened up to now."
+    },
+    {
+      "id": "finance-b1-w1-grammar-3",
+      "type": "multipleChoice",
+      "prompt": "Identify the error: 'He has worked in this bank since five years.'",
+      "options": [
+        "has worked (should be 'worked')",
+        "in (should be 'at')",
+        "since (should be 'for')",
+        "No error"
+      ],
+      "answerIndex": 2,
+      "explanation": "We use 'for' with a period of time (five years) and 'since' with a specific point in time."
+    },
+    {
+      "id": "finance-b1-w1-grammar-4",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct sentence:",
+      "options": [
+        "Did you ever visit the headquarters in London?",
+        "Have you ever visited the headquarters in London?",
+        "Do you ever visited the headquarters in London?",
+        "Have you ever visit the headquarters in London?"
+      ],
+      "answerIndex": 1,
+      "explanation": "We use 'Have you ever + past participle' for life experiences (Present Perfect)."
+    },
+    {
+      "id": "finance-b1-w1-vocabulary-1",
+      "type": "multipleChoice",
+      "prompt": "What is the synonym of 'to credit' in a banking context?",
+      "options": ["To take money out", "To add money to an account", "To borrow money", "To lose money"],
+      "answerIndex": 1,
+      "explanation": "To credit an account means to add money to it."
+    },
+    {
+      "id": "finance-b1-w1-vocabulary-2",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Bank Statement'?",
+      "options": [
+        "A formal speech by the Bank President",
+        "A document showing all transactions in an account during a period",
+        "The physical building of the bank",
+        "A type of credit card"
+      ],
+      "answerIndex": 1,
+      "explanation": "A bank statement is a summary of financial transactions which have occurred over a given period on a bank account."
     }
   ]
 }
