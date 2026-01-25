@@ -1,0 +1,56 @@
+{
+  "id": "finance-b1-t1-w1-exam",
+  "title": "Review Exam: Banking Foundations",
+  "description": "Weekly review of account types and basic grammar.",
+  "level": "B1",
+  "durationInMinutes": 15,
+  "passingScore": 70,
+  "sections": [
+    {
+      "id": "vocabulary",
+      "title": "Banking Vocabulary",
+      "instructions": "Choose the best term for each definition.",
+      "items": [
+        {
+          "id": "q1",
+          "type": "multipleChoice",
+          "prompt": "An account where you keep money for a long time and earn interest.",
+          "options": ["Current account", "Savings account", "Overdraft", "Loan"],
+          "answerIndex": 1,
+          "explanation": "A savings account is for long-term storage and interest earning."
+        },
+        {
+          "id": "q2",
+          "type": "multipleChoice",
+          "prompt": "The amount of money currently in your account.",
+          "options": ["Yield", "Balance", "Statement", "Fee"],
+          "answerIndex": 1,
+          "explanation": "Balance refers to the current amount of funds available."
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "title": "Grammar: Tenses",
+      "instructions": "Choose the correct verb form.",
+      "items": [
+        {
+          "id": "q3",
+          "type": "multipleChoice",
+          "prompt": "Last month, the bank ___ its interest rates.",
+          "options": ["has raised", "raised", "raises", "was raised"],
+          "answerIndex": 1,
+          "explanation": "'Last month' requires Past Simple."
+        },
+        {
+          "id": "q4",
+          "type": "multipleChoice",
+          "prompt": "I ___ to my manager about the fraud case yet.",
+          "options": ["didn't speak", "haven't spoken", "don't speak", "wasn't speaking"],
+          "answerIndex": 1,
+          "explanation": "'Yet' requires Present Perfect."
+        }
+      ]
+    }
+  ]
+}

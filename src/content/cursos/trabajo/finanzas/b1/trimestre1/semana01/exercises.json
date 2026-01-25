@@ -42,6 +42,22 @@
       ],
       "answerIndex": 1,
       "explanation": "Mr. Smith explicitly states he needs to keep his professional expenses separate from his personal ones."
+    },
+    {
+      "id": "finance-b1-w1-grammar-1",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct form: 'I ___ (open) my account three years ago.'",
+      "options": ["have opened", "opened", "was opening", "had opened"],
+      "answerIndex": 1,
+      "explanation": "We use the Past Simple ('opened') because 'three years ago' is a specific point in the past."
+    },
+    {
+      "id": "finance-b1-w1-grammar-2",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct form: 'We ___ (not / receive) the wire transfer yet.'",
+      "options": ["didn't receive", "haven't received", "don't receive", "hadn't received"],
+      "answerIndex": 1,
+      "explanation": "We use the Present Perfect ('haven't received') with 'yet' for actions that haven't happened up to now."
     }
   ]
 }

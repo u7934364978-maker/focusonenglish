@@ -1,0 +1,20 @@
+{
+  "title": "Gestión de Cuentas Bancarias y Transacciones",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introducción a los Tipos de Cuentas",
+      "content": "En el sector financiero, es fundamental distinguir entre los diferentes tipos de cuentas que un cliente puede abrir. Las dos más comunes son:\n\n1. **Current Account** (Cuenta Corriente): Diseñada para el uso diario, pagos y depósitos frecuentes.\n2. **Savings Account** (Cuenta de Ahorros): Pensada para acumular dinero a largo plazo, generalmente con una tasa de interés más alta.\n\nOtros conceptos clave:\n- **Overdraft**: Permiso para gastar más dinero del que hay en la cuenta.\n- **Interest Rate**: El porcentaje que el banco paga por los ahorros o cobra por los préstamos.\n- **Joint Account**: Una cuenta compartida por dos o más personas."
+    },
+    {
+      "id": "grammar",
+      "title": "Gramática: Present Perfect vs Past Simple",
+      "content": "Usamos el **Past Simple** para acciones terminadas en un momento específico del pasado:\n- *I opened the account last Tuesday.*\n\nUsamos el **Present Perfect** para acciones que ocurrieron en un momento no especificado o que tienen relevancia ahora:\n- *Have you ever used an overdraft?*\n- *The client has already signed the contract.*"
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulario Esencial",
+      "content": "| Término | Significado |\n| :--- | :--- |\n| **Balance** | El saldo actual de la cuenta |\n| **Statement** | Extracto bancario |\n| **Withdrawal** | Retirada de efectivo |\n| **Deposit** | Ingreso de dinero |\n| **Transfer** | Transferencia entre cuentas |"
+    }
+  ]
+}

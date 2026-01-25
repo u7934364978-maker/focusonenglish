@@ -1,0 +1,20 @@
+{
+  "title": "Productos Financieros: Tarjetas y Préstamos",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Tarjetas de Crédito y Débito",
+      "content": "Es vital explicar la diferencia entre tarjetas a los clientes:\n\n1. **Debit Card**: El dinero se retira inmediatamente de la cuenta corriente.\n2. **Credit Card**: El banco presta el dinero hasta el final del mes o permite el pago a plazos.\n\nConceptos asociados:\n- **Credit Limit**: El máximo que se puede gastar con la tarjeta de crédito.\n- **Annual Fee**: Comisión anual por mantenimiento de la tarjeta.\n- **PIN**: Código de seguridad personal."
+    },
+    {
+      "id": "loans",
+      "title": "Préstamos (Loans) y Créditos",
+      "content": "Un **Loan** es una cantidad de dinero que se presta y se devuelve con intereses en un plazo determinado.\n- **Mortgage**: Préstamo específico para la compra de una vivienda.\n- **Collateral**: Garantía (como una casa) que el banco puede tomar si no se paga el préstamo.\n- **Installment**: Cada uno de los pagos mensuales."
+    },
+    {
+      "id": "grammar",
+      "title": "Gramática: First Conditional",
+      "content": "Usamos el **First Conditional** para situaciones reales o probables en el futuro, muy común en el asesoramiento financiero:\n\n*Structure: If + Present Simple, will + verb*\n\n- *If you open a savings account, you will earn more interest.*\n- *If the client pays on time, they won't have to pay a penalty.*"
+    }
+  ]
+}

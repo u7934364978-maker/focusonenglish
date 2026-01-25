@@ -1,0 +1,39 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 1,
+  "weekId": "semana04",
+  "title": "Atención al Cliente y Resolución de Conflictos",
+  "description": "Carga lectiva: 10h. Enfoque en comunicación efectiva, manejo de quejas y repaso mensual.",
+  "items": [
+    {
+      "id": "finance-b1-w4-q1",
+      "type": "multipleChoice",
+      "prompt": "If a client is angry about a fee, what should you do first?",
+      "options": [
+        "Tell them they are wrong",
+        "Acknowledge the problem and apologize",
+        "Hang up the phone",
+        "Immediately charge them another fee"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acknowledging the issue and apologizing is the first step in effective conflict resolution."
+    },
+    {
+      "id": "finance-b1-w4-q2",
+      "type": "multipleChoice",
+      "prompt": "What does the 'L' stand for in the L.A.S.T. strategy?",
+      "options": ["Loan", "Listen", "Learn", "Limit"],
+      "answerIndex": 1,
+      "explanation": "Listening carefully to the customer's complaint is essential."
+    },
+    {
+      "id": "finance-b1-w4-grammar-review",
+      "type": "multipleChoice",
+      "prompt": "Review: 'If we ___ the issue today, the client ___ happy.'",
+      "options": ["solve / will be", "will solve / is", "solved / will be", "solve / is"],
+      "answerIndex": 0,
+      "explanation": "First conditional: If + Present Simple, will + verb."
+    }
+  ]
+}

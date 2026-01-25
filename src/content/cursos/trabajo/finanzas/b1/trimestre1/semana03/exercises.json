@@ -1,0 +1,47 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 1,
+  "weekId": "semana03",
+  "title": "Seguridad y Tecnología en la Banca",
+  "description": "Carga lectiva: 10h. Enfoque en banca digital, seguridad y verbos modales.",
+  "items": [
+    {
+      "id": "finance-b1-w3-q1",
+      "type": "multipleChoice",
+      "prompt": "What is 2FA (Two-Factor Authentication)?",
+      "options": [
+        "A type of credit card",
+        "A security process requiring two forms of identification",
+        "A bank with only two branches",
+        "A loan for two people"
+      ],
+      "answerIndex": 1,
+      "explanation": "2FA adds an extra layer of security by requiring a second verification step."
+    },
+    {
+      "id": "finance-b1-w3-q2",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a scam where criminals send fake emails?",
+      "options": ["Phishing", "Encryption", "Budgeting", "Auditing"],
+      "answerIndex": 0,
+      "explanation": "Phishing involves fraudulent emails designed to steal sensitive information."
+    },
+    {
+      "id": "finance-b1-w3-grammar-1",
+      "type": "multipleChoice",
+      "prompt": "Choose the best modal: 'You ___ share your PIN with anyone, not even bank staff.'",
+      "options": ["must", "should", "mustn't", "can"],
+      "answerIndex": 2,
+      "explanation": "'Mustn't' indicates a strong prohibition for security reasons."
+    },
+    {
+      "id": "finance-b1-w3-grammar-2",
+      "type": "multipleChoice",
+      "prompt": "Choose the best modal: 'Clients ___ use a strong password for their account.'",
+      "options": ["should", "can't", "mustn't", "won't"],
+      "answerIndex": 0,
+      "explanation": "'Should' is used to give a strong recommendation or advice."
+    }
+  ]
+}

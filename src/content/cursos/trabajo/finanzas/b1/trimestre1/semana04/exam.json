@@ -1,0 +1,62 @@
+{
+  "id": "finance-b1-t1-m1-review-exam",
+  "title": "Monthly Review Exam: Month 1",
+  "description": "Comprehensive review of all topics covered in Month 1 (Weeks 1-4).",
+  "level": "B1",
+  "durationInMinutes": 30,
+  "passingScore": 75,
+  "sections": [
+    {
+      "id": "vocabulary",
+      "title": "Financial Vocabulary Review",
+      "items": [
+        {
+          "id": "rev-q1",
+          "type": "multipleChoice",
+          "prompt": "What do you call the money you owe the bank for your house?",
+          "options": ["Yield", "Mortgage", "Overdraft", "Statement"],
+          "answerIndex": 1,
+          "explanation": "A mortgage is a loan specifically for real estate."
+        },
+        {
+          "id": "rev-q2",
+          "type": "multipleChoice",
+          "prompt": "If someone steals your bank details, it is called...",
+          "options": ["Phishing", "Identity theft", "Audit", "Compliance"],
+          "answerIndex": 1,
+          "explanation": "Identity theft is the fraudulent acquisition of someone's personal information."
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "title": "Grammar Consolidation",
+      "items": [
+        {
+          "id": "rev-q3",
+          "type": "multipleChoice",
+          "prompt": "I ___ to my financial advisor last Monday.",
+          "options": ["have spoken", "spoke", "speak", "was spoken"],
+          "answerIndex": 1,
+          "explanation": "Past Simple is used for finished actions in the past."
+        },
+        {
+          "id": "rev-q4",
+          "type": "multipleChoice",
+          "prompt": "You ___ send sensitive information via unencrypted email.",
+          "options": ["must", "should", "mustn't", "can"],
+          "answerIndex": 2,
+          "explanation": "Mustn't indicates a prohibition."
+        },
+        {
+          "id": "rev-q5",
+          "type": "multipleChoice",
+          "prompt": "If interest rates ___ (rise), we ___ (need) to adjust the budget.",
+          "options": ["rise / will need", "will rise / need", "rises / will need", "rise / need"],
+          "answerIndex": 0,
+          "explanation": "First conditional structure."
+        }
+      ]
+    }
+  ]
+}
