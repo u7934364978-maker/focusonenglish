@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export async function generateStaticParams() {
   const sectors = Object.keys(SECTOR_CURRICULUMS);
-  const levels = ['b1', 'b2', 'c1'];
+  const levels = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
   
   const params = [];
   for (const sector of sectors) {

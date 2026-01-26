@@ -1,6 +1,166 @@
 import { CurriculumModule } from '../curriculum-data';
 
 export const TOURISM_SECTOR_CURRICULUM: Record<string, CurriculumModule[]> = {
+  A1: [
+    {
+      title: "Trimestre 1: El Hotel y lo Básico (Mes 1-3)",
+      topics: [
+        "Palabras clave: Habitación, Cama, Llave, Baño",
+        "Números de habitación y pisos",
+        "Información personal y registro de huéspedes",
+        "Saludos y cortesía básica en recepción"
+      ],
+      grammar: [
+        "Verb 'to be' para servicios de hotel",
+        "Pronombres personales y posesivos",
+        "Present Simple para horarios de desayuno"
+      ],
+      vocabulary: [
+        "Room, Bed, Key, Door",
+        "Floor, Elevator, Stairs, Lobby",
+        "Passport, Name, Date, Signature",
+        "Hello, Good morning, Have a nice stay"
+      ],
+      skills: {
+        reading: ["Lectura de números de habitación y señales"],
+        writing: ["Completar una ficha de registro de hotel"],
+        listening: ["Entender nombres y números de habitación"],
+        speaking: ["Presentarse y dar la bienvenida a un huésped"]
+      }
+    },
+    {
+      title: "Trimestre 2: Restaurante y Comida (Mes 4-6)",
+      topics: [
+        "Palabras clave: Agua, Pan, Café, Cuenta",
+        "Objetos de mesa: Plato, vaso, servilleta",
+        "Preposiciones de lugar en el comedor",
+        "Números y precios en el menú"
+      ],
+      grammar: [
+        "There is / There are para comida y bebida",
+        "Demostrativos (this, that, these, those)",
+        "Preposiciones de lugar básicas (on, in, next to)"
+      ],
+      vocabulary: [
+        "Water, Bread, Coffee, Tea",
+        "Plate, Glass, Knife, Fork",
+        "Menu, Bill, Receipt, Price",
+        "On the table, In the glass, Next to the window"
+      ],
+      skills: {
+        reading: ["Lectura de menús simples y precios"],
+        writing: ["Escribir una nota de pedido muy corta"],
+        listening: ["Entender instrucciones de mesa simples"],
+        speaking: ["Pedir comida o bebida básica"]
+      }
+    },
+    {
+      title: "Trimestre 3: Mi Trabajo en Turismo (Mes 7-9)",
+      topics: [
+        "Roles en el sector: Recepcionista, camarero, guía",
+        "Acciones diarias: Limpiar, servir, ayudar",
+        "Habilidades simples (Can/Can't)",
+        "Proyecto Final: Simulación de Check-in básico"
+      ],
+      grammar: [
+        "Can / Can't para permisos y habilidades",
+        "Adverbios de frecuencia básicos",
+        "Present Continuous para tareas actuales"
+      ],
+      vocabulary: [
+        "Receptionist, Waiter, Guide, Manager",
+        "To clean, To serve, To help, To call",
+        "Work, Tourist, Hotel, Map",
+        "Always, Usually, Never"
+      ],
+      skills: {
+        reading: ["Lectura de mensajes de huéspedes muy cortos"],
+        writing: ["Redacción de una nota de 'disfrute su estancia'"],
+        listening: ["Identificar tareas en un equipo de hotel"],
+        speaking: ["Describir lo que haces en tu puesto de turismo"]
+      }
+    }
+  ],
+  A2: [
+    {
+      title: "Trimestre 1: Viajes Pasados y Estancias (Mes 1-3)",
+      topics: [
+        "Descripción de viajes y vacaciones pasadas",
+        "Reportar problemas simples en la habitación",
+        "Uso de mapas y direcciones básicas",
+        "Comparación de hoteles y ciudades"
+      ],
+      grammar: [
+        "Past Simple de verbos de viaje comunes",
+        "Comparativos y superlativos de destinos",
+        "Conectores de secuencia (first, then, after)"
+      ],
+      vocabulary: [
+        "Trip, Vacation, Flight, Hotel",
+        "Arrived, Stayed, Visited, Liked (past)",
+        "Better, Hotter, Big, Small",
+        "Yesterday, Last summer, Two days ago"
+      ],
+      skills: {
+        reading: ["Lectura de folletos turísticos básicos"],
+        writing: ["Redacción de un resumen de viaje corto"],
+        listening: ["Entender la descripción de una estancia"],
+        speaking: ["Explicar qué hiciste en el hotel ayer"]
+      }
+    },
+    {
+      title: "Trimestre 2: Planes Futuros y Reservas (Mes 4-6)",
+      topics: [
+        "Planes para futuras excursiones y tours",
+        "Reservas de transporte simples",
+        "Información sobre el tiempo y clima",
+        "Predicciones sobre el viaje"
+      ],
+      grammar: [
+        "Future with 'going to' para planes de viaje",
+        "Will para predicciones y promesas al huésped",
+        "First Conditional para avisos de viaje"
+      ],
+      vocabulary: [
+        "Excursion, Tour, Booking, Ticket",
+        "Flight, Train, Bus, Rental",
+        "Sunny, Rainy, Cold, Hot",
+        "If you go now... you will see..."
+      ],
+      skills: {
+        reading: ["Lectura de itinerarios de tours"],
+        writing: ["Escribir un plan de excursión simple"],
+        listening: ["Entender consejos sobre destinos"],
+        speaking: ["Hablar sobre el tour de mañana"]
+      }
+    },
+    {
+      title: "Trimestre 3: Instrucciones y Ayuda al Turista (Mes 7-9)",
+      topics: [
+        "Instrucciones paso a paso para llegar a sitios",
+        "Manejo de quejas de huéspedes simples",
+        "Sugerencias de lugares para visitar",
+        "Proyecto Final: Simulación de asistencia en conserjería"
+      ],
+      grammar: [
+        "Imperativos para dar direcciones",
+        "Adverbios de modo (politely, quickly)",
+        "Present Perfect para servicios realizados"
+      ],
+      vocabulary: [
+        "Help, Guide, Direction, Way",
+        "Problem, Sorry, Solution, Change",
+        "Better, Recommended, Beautiful, Advice",
+        "I have cleaned, I have booked"
+      ],
+      skills: {
+        reading: ["Lectura de mapas y guías de ciudad simples"],
+        writing: ["Redacción de una nota de recomendación de restaurante"],
+        listening: ["Entender una petición de ayuda de un turista"],
+        speaking: ["Dar instrucciones de cómo llegar al museo"]
+      }
+    }
+  ],
   B1: [
     {
       title: "Trimestre 1: Operaciones de Hotel y Atención al Cliente (Mes 1-3)",
@@ -238,6 +398,86 @@ export const TOURISM_SECTOR_CURRICULUM: Record<string, CurriculumModule[]> = {
         writing: ["Redacción de manifiestos corporativos sobre ética"],
         listening: ["Seguir 'Keynote Speeches' de líderes del sector"],
         speaking: ["Liderazgo en cumbres mundiales de turismo"]
+      }
+    }
+  ],
+  C2: [
+    {
+      title: "Trimestre 1: Gestión de la Hospitalidad de Lujo y Experiencia Elite (Mes 1-3)",
+      topics: [
+        "Psicología del ultra-lujo y expectativas del cliente UHNWI",
+        "Diseño de experiencias hiper-personalizadas y mayordomía de élite",
+        "Gestión de marcas de lujo globales en el sector hospitality",
+        "Protocolo real y diplomático para eventos de alto nivel"
+      ],
+      grammar: [
+        "Mastery of extremely formal and refined register",
+        "Nuanced language for discretion and diplomatic communication",
+        "Advanced synthesis of aesthetic and commercial values"
+      ],
+      vocabulary: [
+        "UHNWI (Ultra High Net Worth Individual), Bespoke, Concierge",
+        "Stewardship, Discretion, Exclusivity, Heritage",
+        "Royalty, Protocol, Etiquette, Diplomatic immunity",
+        "Value proposition, Luxury branding, Prestige, Pedigree"
+      ],
+      skills: {
+        reading: ["Análisis crítico de estándares de calidad de 7 estrellas"],
+        writing: ["Redacción de manuales de servicio de ultra-lujo"],
+        listening: ["Seguir conferencias sobre la economía del lujo"],
+        speaking: ["Liderazgo en la gestión de crisis con clientes VIP"]
+      }
+    },
+    {
+      title: "Trimestre 2: Turismo Espacial y Hospitalidad Orbital (Mes 4-6)",
+      topics: [
+        "El mercado emergente del turismo espacial y suborbital",
+        "Diseño de hábitats y hoteles espaciales: Desafíos técnicos",
+        "Logística y seguridad en viajes fuera de la atmósfera",
+        "Ética de la exploración turística espacial"
+      ],
+      grammar: [
+        "Precise use of aerospace and hospitality terminology",
+        "Sophisticated modal structures for future tourism scenarios",
+        "Advanced synthesis of technical and promotional discourse"
+      ],
+      vocabulary: [
+        "Suborbital, Zero-gravity, Space hotel, Spaceport",
+        "Microgravity hospitality, Orbital, Re-entry, Payload",
+        "Extra-terrestrial, Space tourism, Astronaut experience",
+        "Safety protocol, Training, Acceleration, Weightlessness"
+      ],
+      skills: {
+        reading: ["Evaluación de planes de negocio de agencias espaciales"],
+        writing: ["Redacción de itinerarios para cruceros orbitales"],
+        listening: ["Entender presentaciones técnicas sobre hábitats espaciales"],
+        speaking: ["Venta de experiencias de viaje interplanetario"]
+      }
+    },
+    {
+      title: "Trimestre 3: Turismo Regenerativo y Preservación del Legado (Mes 7-9)",
+      topics: [
+        "Turismo regenerativo: Más allá de la sostenibilidad",
+        "Preservación de patrimonio mundial (UNESCO) y gestión de masas",
+        "Liderazgo en la industria turística post-carbono",
+        "Proyecto Final: Diseño de un modelo de destino regenerativo para 2070"
+      ],
+      grammar: [
+        "Integration of philosophical, ethical and environmental discourse",
+        "Full command of persuasive and visionary language",
+        "Absolute precision in high-stakes strategic policy drafting"
+      ],
+      vocabulary: [
+        "Regenerative tourism, Net-positive impact, Resilience",
+        "Heritage preservation, Over-tourism, Carrying capacity",
+        "Decarbonization, Circular tourism, Bio-diversity",
+        "Strategic foresight, Legacy, Cultural stewardship"
+      ],
+      skills: {
+        reading: ["Análisis de literatura sobre el futuro de los viajes y el clima"],
+        writing: ["Redacción de manifiestos sobre el turismo y el impacto global"],
+        listening: ["Interpretación de sutilizas en debates de visionarios del sector"],
+        speaking: ["Keynote speaker en cumbres mundiales de turismo y paz"]
       }
     }
   ]

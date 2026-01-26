@@ -1,6 +1,166 @@
 import { CurriculumModule } from '../curriculum-data';
 
 export const FINANCE_SECTOR_CURRICULUM: Record<string, CurriculumModule[]> = {
+  A1: [
+    {
+      title: "Trimestre 1: Números y Operaciones Básicas (Mes 1-3)",
+      topics: [
+        "Números grandes y monedas internacionales",
+        "Días de la semana y horarios bancarios",
+        "Información personal y formularios simples",
+        "Saludos y cortesía en la oficina"
+      ],
+      grammar: [
+        "Verb 'to be' en contextos financieros",
+        "Pronombres personales y posesivos",
+        "Present Simple para horarios y rutinas"
+      ],
+      vocabulary: [
+        "Dollar, Euro, Pound, Cash, Coins",
+        "One hundred, One thousand, Million",
+        "Bank, Office, ATM, Counter",
+        "Name, Address, Date of birth, ID card"
+      ],
+      skills: {
+        reading: ["Lectura de recibos y números de cuenta"],
+        writing: ["Completar formularios de registro básicos"],
+        listening: ["Entender cantidades de dinero y fechas"],
+        speaking: ["Presentarse y dar información personal básica"]
+      }
+    },
+    {
+      title: "Trimestre 2: Dinero Diario y Compras (Mes 4-6)",
+      topics: [
+        "Precios y compras de oficina",
+        "Pagos con tarjeta y efectivo",
+        "Localización en el banco y la ciudad",
+        "Descripción de objetos financieros (tarjetas, billetes)"
+      ],
+      grammar: [
+        "There is / There are para servicios",
+        "Demostrativos (this, that, these, those)",
+        "Preposiciones de lugar básicas"
+      ],
+      vocabulary: [
+        "Price, Cost, Receipt, Change",
+        "Credit card, Debit card, PIN, Wallet",
+        "Next to, Opposite, Between, Inside",
+        "Expensive, Cheap, New, Old"
+      ],
+      skills: {
+        reading: ["Lectura de etiquetas de precios y menús"],
+        writing: ["Escribir una lista de la compra de oficina"],
+        listening: ["Entender instrucciones de dirección simples"],
+        speaking: ["Preguntar precios y realizar pagos simples"]
+      }
+    },
+    {
+      title: "Trimestre 3: Mi Trabajo y el Banco (Mes 7-9)",
+      topics: [
+        "Profesiones en el sector financiero",
+        "Acciones diarias en el trabajo",
+        "Habilidades simples (Can/Can't)",
+        "Proyecto Final: Simulación de una transacción básica"
+      ],
+      grammar: [
+        "Can / Can't para habilidades y permisos",
+        "Adverbios de frecuencia básicos",
+        "Present Continuous para acciones actuales"
+      ],
+      vocabulary: [
+        "Banker, Cashier, Manager, Assistant",
+        "To pay, To withdraw, To deposit, To sign",
+        "Computer, Phone, Email, Meeting",
+        "Always, Sometimes, Never"
+      ],
+      skills: {
+        reading: ["Lectura de correos electrónicos muy cortos"],
+        writing: ["Redacción de mensajes simples de ausencia"],
+        listening: ["Identificar roles y tareas en un diálogo"],
+        speaking: ["Describir lo que haces en tu trabajo diario"]
+      }
+    }
+  ],
+  A2: [
+    {
+      title: "Trimestre 1: Trámites Bancarios y Pasado (Mes 1-3)",
+      topics: [
+        "Apertura de cuentas y requisitos",
+        "Descripción de transacciones pasadas",
+        "Problemas comunes: Pérdida de tarjetas",
+        "Comparación de tipos de cuentas"
+      ],
+      grammar: [
+        "Past Simple de verbos regulares e irregulares",
+        "Comparativos y superlativos básicos",
+        "Conectores simples (and, but, because)"
+      ],
+      vocabulary: [
+        "Savings account, Current account, Fee",
+        "Last week, Yesterday, Ago",
+        "Lost, Stolen, Blocked, Cancel",
+        "Better, Worse, More expensive, Faster"
+      ],
+      skills: {
+        reading: ["Lectura de extractos bancarios mensuales"],
+        writing: ["Redacción de un reporte corto de pérdida de tarjeta"],
+        listening: ["Entender una conversación sobre una cuenta"],
+        speaking: ["Explicar qué hiciste en el banco ayer"]
+      }
+    },
+    {
+      title: "Trimestre 2: Planes Futuros y Ahorro (Mes 4-6)",
+      topics: [
+        "Objetivos de ahorro y presupuestos",
+        "Préstamos personales y compras grandes",
+        "Seguros básicos (Vida, Hogar, Auto)",
+        "Predicciones económicas simples"
+      ],
+      grammar: [
+        "Future with 'going to' para planes",
+        "Will para predicciones y promesas",
+        "First Conditional (If + Present, Will)"
+      ],
+      vocabulary: [
+        "Save, Spend, Budget, Goal",
+        "Loan, Debt, Installment, Buy",
+        "Insurance, Policy, Coverage, Claim",
+        "Inflation, Growth, Market, Trend"
+      ],
+      skills: {
+        reading: ["Lectura de ofertas de préstamos y seguros"],
+        writing: ["Escribir un plan de ahorro personal"],
+        listening: ["Entender consejos sobre ahorro"],
+        speaking: ["Hablar sobre planes financieros futuros"]
+      }
+    },
+    {
+      title: "Trimestre 3: Atención al Cliente y Resolución (Mes 7-9)",
+      topics: [
+        "Manejo de quejas telefónicas",
+        "Instrucciones de banca online",
+        "Asesoramiento financiero básico",
+        "Proyecto Final: Simulación de asesoría para un cliente"
+      ],
+      grammar: [
+        "Imperativos para instrucciones",
+        "Adverbios de modo (quickly, carefully)",
+        "Present Perfect para experiencias recientes"
+      ],
+      vocabulary: [
+        "Complaint, Apology, Problem, Solution",
+        "Login, Password, Transfer, Download",
+        "Advice, Suggestion, Recommendation",
+        "Just, Already, Yet"
+      ],
+      skills: {
+        reading: ["Lectura de guías de ayuda de banca online"],
+        writing: ["Redacción de un email de disculpa a un cliente"],
+        listening: ["Entender una queja telefónica simple"],
+        speaking: ["Dar instrucciones de uso de un servicio"]
+      }
+    }
+  ],
   B1: [
     {
       title: "Trimestre 1: Fundamentos Bancarios y Atención al Cliente (Mes 1-3)",
@@ -229,6 +389,86 @@ export const FINANCE_SECTOR_CURRICULUM: Record<string, CurriculumModule[]> = {
         writing: ["Redacción de comunicados de prensa para inversores"],
         listening: ["Seguir 'Earnings Calls' de empresas del S&P 500"],
         speaking: ["Liderazgo en 'Roadshows' de inversores"]
+      }
+    }
+  ],
+  C2: [
+    {
+      title: "Trimestre 1: Macroeconomía Global y Geopolítica (Mes 1-3)",
+      topics: [
+        "Dinámicas de mercados emergentes y frontera",
+        "Impacto de la geopolítica en los mercados de capitales",
+        "Teoría monetaria avanzada y bancos centrales",
+        "Gobernanza financiera global y organismos internacionales"
+      ],
+      grammar: [
+        "Sophisticated use of rhetorical strategies",
+        "Nuanced modality for speculative economic analysis",
+        "Advanced synthesis of complex technical arguments"
+      ],
+      vocabulary: [
+        "Sovereign wealth funds, Quantitative easing, Tapering",
+        "Geopolitical risk, Hegemony, Multilateralism",
+        "Fiscal stimulus, Austerity, Deficit spending",
+        "Stability, Volatility, Systemic risk, Contagion"
+      ],
+      skills: {
+        reading: ["Análisis crítico de tratados económicos internacionales"],
+        writing: ["Redacción de white papers sobre estrategia macro"],
+        listening: ["Seguir debates de alto nivel en el Foro de Davos"],
+        speaking: ["Discurso de apertura en cumbres financieras mundiales"]
+      }
+    },
+    {
+      title: "Trimestre 2: Finanzas Cuantitativas y Algorítmicas (Mes 4-6)",
+      topics: [
+        "Modelización estocástica y cálculo de derivados",
+        "Trading de alta frecuencia y algoritmos de IA",
+        "Gestión de riesgos extremos (Tail Risk) y Cisnes Negros",
+        "Arquitectura de sistemas financieros de misión crítica"
+      ],
+      grammar: [
+        "Technical precision in complex mathematical contexts",
+        "Subtle distinction between probability and certainty",
+        "Mastery of high-level academic and professional register"
+      ],
+      vocabulary: [
+        "Black-Scholes, Monte Carlo simulation, Stochastic",
+        "Algorithmic trading, Latency, Liquidity provision",
+        "Tail risk, Black swan, Value at Risk (VaR)",
+        "Blockchain protocol, Smart contract audits, DeFi"
+      ],
+      skills: {
+        reading: ["Evaluación de algoritmos financieros y papers de investigación"],
+        writing: ["Redacción de especificaciones de arquitectura financiera"],
+        listening: ["Entender presentaciones técnicas de 'Quants' y matemáticos"],
+        speaking: ["Liderazgo en comités de riesgos cuantitativos"]
+      }
+    },
+    {
+      title: "Trimestre 3: Liderazgo Diplomático y Legado (Mes 7-9)",
+      topics: [
+        "Diplomacia financiera y resolución de crisis soberanas",
+        "Filantropía estratégica y gestión de grandes patrimonios",
+        "Ética existencial en las finanzas y el futuro del capital",
+        "Proyecto Final: Estrategia de reestructuración de la deuda de una nación"
+      ],
+      grammar: [
+        "Full command of diplomatic and persuasive language",
+        "Integration of philosophical and ethical nuances in discourse",
+        "Absolute precision in high-stakes legal-financial drafting"
+      ],
+      vocabulary: [
+        "Debt restructuring, Haircut, Sovereign default",
+        "Strategic philanthropy, Impact investing, Legacy",
+        "Ethical framework, Fiduciary responsibility, Stewardship",
+        "Sanctions, Embargo, Diplomatic leverage"
+      ],
+      skills: {
+        reading: ["Análisis de acuerdos de paz y tratados financieros"],
+        writing: ["Redacción de testamentos y legados institucionales"],
+        listening: ["Interpretación de sutilizas en negociaciones diplomáticas"],
+        speaking: ["Representación de alto nivel en organismos como el FMI/BM"]
       }
     }
   ]

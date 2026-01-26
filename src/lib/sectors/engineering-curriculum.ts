@@ -1,6 +1,166 @@
 import { CurriculumModule } from '../curriculum-data';
 
 export const ENGINEERING_SECTOR_CURRICULUM: Record<string, CurriculumModule[]> = {
+  A1: [
+    {
+      title: "Trimestre 1: Herramientas y Seguridad Básica (Mes 1-3)",
+      topics: [
+        "Nombres de herramientas: Martillo, destornillador, llave",
+        "Colores de seguridad y señales en la planta",
+        "Información personal y registro de entrada",
+        "Saludos y cortesía básica en el equipo técnico"
+      ],
+      grammar: [
+        "Verb 'to be' para identificar herramientas",
+        "Pronombres personales y posesivos",
+        "Present Simple para normas de seguridad básicas"
+      ],
+      vocabulary: [
+        "Hammer, Screwdriver, Wrench, Pliers",
+        "Helmet, Boots, Gloves, Vest",
+        "Red (Stop), Yellow (Caution), Green (Safe)",
+        "One, Two, Three... Metre, Kilo"
+      ],
+      skills: {
+        reading: ["Lectura de etiquetas de herramientas"],
+        writing: ["Completar un registro de entrada a la obra"],
+        listening: ["Entender nombres de herramientas y colores"],
+        speaking: ["Presentarse y nombrar equipo de protección básico"]
+      }
+    },
+    {
+      title: "Trimestre 2: Partes, Piezas y el Taller (Mes 4-6)",
+      topics: [
+        "Piezas comunes: Tornillo, tuerca, arandela",
+        "Localización en la fábrica y el almacén",
+        "Preposiciones de lugar en la caja de herramientas",
+        "Números y medidas simples (cm, mm, kg)"
+      ],
+      grammar: [
+        "There is / There are para materiales",
+        "Demostrativos (this, that, these, those)",
+        "Preposiciones de lugar básicas (on, in, under)"
+      ],
+      vocabulary: [
+        "Screw, Bolt, Nut, Washer",
+        "Box, Shelf, Bin, Workshop",
+        "Heavy, Light, Long, Short",
+        "On the table, In the box, Under the machine"
+      ],
+      skills: {
+        reading: ["Lectura de medidas y códigos de piezas"],
+        writing: ["Escribir una lista de materiales corta"],
+        listening: ["Entender instrucciones de localización simples"],
+        speaking: ["Pedir una pieza o herramienta específica"]
+      }
+    },
+    {
+      title: "Trimestre 3: Mi Trabajo en Ingeniería (Mes 7-9)",
+      topics: [
+        "Roles técnicos: Ingeniero, operario, técnico",
+        "Acciones diarias: Medir, cortar, unir",
+        "Habilidades simples (Can/Can't)",
+        "Proyecto Final: Simulación de revisión de seguridad inicial"
+      ],
+      grammar: [
+        "Can / Can't para permisos y habilidades",
+        "Adverbios de frecuencia básicos",
+        "Present Continuous para tareas actuales"
+      ],
+      vocabulary: [
+        "Engineer, Technician, Worker, Manager",
+        "To measure, To cut, To fix, To check",
+        "Work, Help, Safety, Machine",
+        "Always, Usually, Never"
+      ],
+      skills: {
+        reading: ["Lectura de avisos de seguridad muy cortos"],
+        writing: ["Redacción de una nota de 'máquina fuera de servicio'"],
+        listening: ["Identificar tareas en una charla de seguridad"],
+        speaking: ["Describir lo que haces en tu puesto de trabajo"]
+      }
+    }
+  ],
+  A2: [
+    {
+      title: "Trimestre 1: Reparaciones y el Pasado (Mes 1-3)",
+      topics: [
+        "Descripción de fallos mecánicos simples",
+        "Reportar reparaciones pasadas",
+        "Uso de manuales de montaje básicos",
+        "Comparación de materiales (metal vs plástico)"
+      ],
+      grammar: [
+        "Past Simple de verbos técnicos comunes",
+        "Comparativos y superlativos de materiales",
+        "Conectores de secuencia (first, then, after)"
+      ],
+      vocabulary: [
+        "Broken, Loose, Stuck, Fixed",
+        "Measured, Cut, Joined, Checked (past)",
+        "Hard, Soft, Strong, Weak",
+        "Yesterday, Last shift, This morning"
+      ],
+      skills: {
+        reading: ["Lectura de instrucciones de montaje básicas"],
+        writing: ["Redacción de un reporte de avería corto"],
+        listening: ["Entender la descripción de un problema mecánico"],
+        speaking: ["Explicar qué reparaste ayer"]
+      }
+    },
+    {
+      title: "Trimestre 2: Mantenimiento y Planes Futuros (Mes 4-6)",
+      topics: [
+        "Planes de mantenimiento preventivo",
+        "Pedido de nuevas herramientas y recambios",
+        "Seguridad avanzada: Bloqueo y etiquetado (LOTO)",
+        "Predicciones sobre el estado de la máquina"
+      ],
+      grammar: [
+        "Future with 'going to' para planes técnicos",
+        "Will para predicciones y advertencias",
+        "First Conditional para avisos de seguridad técnica"
+      ],
+      vocabulary: [
+        "Maintenance, Schedule, Plan, Replace",
+        "Order, Tool, Part, Spare",
+        "Warning, Danger, Lock, Tag",
+        "If the light is red... stop the machine..."
+      ],
+      skills: {
+        reading: ["Lectura de calendarios de mantenimiento"],
+        writing: ["Escribir un pedido de herramientas simple"],
+        listening: ["Entender avisos de peligro en la planta"],
+        speaking: ["Hablar sobre el mantenimiento de la próxima semana"]
+      }
+    },
+    {
+      title: "Trimestre 3: Instrucciones Técnicas y Guía (Mes 7-9)",
+      topics: [
+        "Instrucciones paso a paso para operar máquinas",
+        "Uso de listas de comprobación (Checklists)",
+        "Sugerencias de mejora de procesos",
+        "Proyecto Final: Simulación de formación de seguridad a un novato"
+      ],
+      grammar: [
+        "Imperativos para dar instrucciones técnicas",
+        "Adverbios de modo (safely, precisely)",
+        "Present Perfect para tareas completadas"
+      ],
+      vocabulary: [
+        "Start, Stop, Press, Turn",
+        "Checklist, Verify, OK, Error",
+        "Faster, Safer, Better, Recommendation",
+        "I have checked, I have finished"
+      ],
+      skills: {
+        reading: ["Lectura de listas de comprobación de seguridad"],
+        writing: ["Redacción de una guía de operación de 3 pasos"],
+        listening: ["Entender una petición de asistencia técnica"],
+        speaking: ["Dar instrucciones de apagado de emergencia"]
+      }
+    }
+  ],
   B1: [
     {
       title: "Trimestre 1: Fundamentos de Ingeniería y Materiales (Mes 1-3)",
@@ -238,6 +398,86 @@ export const ENGINEERING_SECTOR_CURRICULUM: Record<string, CurriculumModule[]> =
         writing: ["Redacción de manifiestos técnicos sobre el futuro"],
         listening: ["Seguir lanzamientos de misiones tecnológicas"],
         speaking: ["Liderazgo en foros internacionales de ingeniería"]
+      }
+    }
+  ],
+  C2: [
+    {
+      title: "Trimestre 1: Ingeniería Aeroespacial y Sistemas de Propulsión (Mes 1-3)",
+      topics: [
+        "Dinámica orbital y mecánica celeste avanzada",
+        "Sistemas de propulsión de próxima generación (Iónica, Plasma, Nuclear)",
+        "Ingeniería de naves espaciales y sistemas de soporte vital",
+        "Materiales para condiciones extremas y radiación espacial"
+      ],
+      grammar: [
+        "Precise use of terminology in aerospace and theoretical physics",
+        "Sophisticated modal structures for speculative engineering",
+        "Advanced synthesis of complex technical and physical arguments"
+      ],
+      vocabulary: [
+        "Orbital mechanics, Delta-v, Apogee, Perigee",
+        "Ion thruster, Specific impulse, Plasma propulsion",
+        "Life support, Avionics, Telemetry, Payload",
+        "Radiation shielding, Thermal protection, Ablative"
+      ],
+      skills: {
+        reading: ["Análisis crítico de misiones espaciales y papers técnicos"],
+        writing: ["Redacción de especificaciones de diseño aeroespacial"],
+        listening: ["Seguir telemetría y comunicaciones de misiones en tiempo real"],
+        speaking: ["Liderazgo en revisiones de diseño crítico (CDR) de naves"]
+      }
+    },
+    {
+      title: "Trimestre 2: Nanotecnología y Fabricación Molecular (Mes 4-6)",
+      topics: [
+        "Autoensamblaje molecular y nanobots",
+        "Materiales con memoria de forma y metamateriales",
+        "Ingeniería a escala atómica y microscopía avanzada",
+        "Impacto de la nanotecnología en la medicina y la energía"
+      ],
+      grammar: [
+        "Nuanced language for ethical and scientific debate",
+        "Mastery of technical register in quantum engineering",
+        "Strategic use of hedging in breakthrough research proposals"
+      ],
+      vocabulary: [
+        "Molecular assembly, Nanobot, Self-healing materials",
+        "Metamaterials, Negative refractive index, Cloaking",
+        "Atomic force microscopy, Scanning tunneling",
+        "Quantum dot, Nanotube, Graphene structures"
+      ],
+      skills: {
+        reading: ["Evaluación de papers sobre avances en nanociencia"],
+        writing: ["Redacción de protocolos de laboratorio a nanoescala"],
+        listening: ["Entender presentaciones técnicas de expertos en nanotecnología"],
+        speaking: ["Defensa de proyectos de investigación disruptiva"]
+      }
+    },
+    {
+      title: "Trimestre 3: Ingeniería a Escala Planetaria y Ética Global (Mes 7-9)",
+      topics: [
+        "Geoingeniería y terraformación: Desafíos técnicos",
+        "Megaestructuras espaciales (Dyson spheres, Elevadores espaciales)",
+        "Ética de la ingeniería en la era del Antropoceno",
+        "Proyecto Final: Diseño de una infraestructura para la colonización de Marte"
+      ],
+      grammar: [
+        "Integration of philosophical, ethical and engineering discourse",
+        "Full command of persuasive and visionary language",
+        "Absolute precision in high-stakes strategic planning"
+      ],
+      vocabulary: [
+        "Geoengineering, Carbon capture, Albedo modification",
+        "Space elevator, Dyson sphere, Orbital ring",
+        "Sustainability, Planetary boundaries, Anthropocene",
+        "Strategic foresight, Megaproject management, Legacy"
+      ],
+      skills: {
+        reading: ["Análisis de literatura sobre el futuro de la ingeniería planetaria"],
+        writing: ["Redacción de manifiestos sobre ingeniería y ética global"],
+        listening: ["Interpretación de sutilizas en debates de visionarios técnicos"],
+        speaking: ["Keynote speaker en cumbres mundiales de ingeniería y futuro"]
       }
     }
   ]
