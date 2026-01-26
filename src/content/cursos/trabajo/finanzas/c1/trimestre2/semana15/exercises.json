@@ -1,48 +1,655 @@
 {
-  "title": "Ejercicios: ESG y el Subjuntivo Formal",
+  "title": "Ejercicios: ESG, Finanzas Sostenibles y el Subjuntivo",
   "exercises": [
     {
       "id": "ex1",
       "type": "multiple-choice",
-      "question": "The auditor suggests that the firm ________ its ESG report immediately.",
+      "question": "The institutional investor recommends that the board ________ its diversity targets by next year.",
       "options": [
-        "updates",
-        "update",
-        "to update",
-        "updated"
+        "increases",
+        "increase",
+        "to increase",
+        "increasing"
       ],
       "correctAnswer": 1,
-      "explanation": "In formal English, verbs like 'suggest' followed by 'that' take the subjunctive (bare infinitive)."
+      "explanation": "After verbs of recommendation like 'recommend', the subjunctive (bare infinitive) is used in a 'that' clause."
     },
     {
       "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "It is vital that the company ________ (be) transparent about its carbon emissions.",
-      "answer": "be",
-      "explanation": "The subjunctive form of 'to be' is 'be' for all persons."
+      "type": "multiple-choice",
+      "question": "It is imperative that the CFO ________ present during the sustainability audit.",
+      "options": [
+        "is",
+        "be",
+        "to be",
+        "being"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adjectives like 'imperative', 'essential', or 'vital' followed by a 'that' clause trigger the subjunctive 'be'."
     },
     {
       "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the ESG concept with its description:",
-      "pairs": [
-        { "term": "Greenwashing", "definition": "Misleading claims about environmental benefits" },
-        { "term": "Net Zero", "definition": "Balancing greenhouse gases emitted with those removed" },
-        { "term": "Impact Investing", "definition": "Investing for positive social or environmental change" }
-      ]
+      "type": "multiple-choice",
+      "question": "The ESG committee suggests that the company ________ more capital to green bonds.",
+      "options": [
+        "allocates",
+        "allocate",
+        "allocating",
+        "to allocate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The subjunctive 'allocate' is used after 'suggest'."
     },
     {
       "id": "ex4",
       "type": "multiple-choice",
-      "question": "The regulation mandates that every director ________ a conflict-of-interest form.",
+      "question": "The new law mandates that every public company ________ its Scope 3 emissions.",
       "options": [
-        "signs",
-        "sign",
-        "signing",
-        "to sign"
+        "discloses",
+        "disclose",
+        "disclosing",
+        "to disclose"
       ],
       "correctAnswer": 1,
-      "explanation": "Mandates + that + subject + bare infinitive (subjunctive)."
+      "explanation": "Subjunctive used after 'mandate'."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple-choice",
+      "question": "It is essential that each employee ________ the new ethical investment guidelines.",
+      "options": [
+        "reads",
+        "read",
+        "reading",
+        "to read"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'read' (bare infinitive) follows 'It is essential that'."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "ESG stands for Environmental, ________, and Governance.",
+      "options": [
+        "Statistical",
+        "Social",
+        "Standard",
+        "Systemic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'S' in ESG stands for Social factors, such as employee relations and diversity."
+    },
+    {
+      "id": "ex7",
+      "type": "multiple-choice",
+      "question": "________ bonds are fixed-income instruments specifically earmarked to raise money for environmental projects.",
+      "options": [
+        "Blue",
+        "Green",
+        "Gold",
+        "Red"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Green bonds are a key tool in sustainable finance."
+    },
+    {
+      "id": "ex8",
+      "type": "multiple-choice",
+      "question": "The practice of making misleading claims about the environmental benefits of a product is called ________.",
+      "options": [
+        "whitewashing",
+        "greenwashing",
+        "backdating",
+        "shorting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Greenwashing is a major ethical concern for ESG investors."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "I suggest that the CEO ________ a statement regarding the recent oil spill.",
+      "options": [
+        "makes",
+        "make",
+        "making",
+        "to make"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'make' after 'suggest'."
+    },
+    {
+      "id": "ex10",
+      "type": "multiple-choice",
+      "question": "It is mandatory that all asset managers ________ their fiduciary duties at all times.",
+      "options": [
+        "uphold",
+        "upholds",
+        "upholding",
+        "to uphold"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Subjunctive 'uphold' (bare infinitive) after 'It is mandatory that'."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "________ investing aims to generate specific beneficial social or environmental effects in addition to financial gains.",
+      "options": [
+        "Speculative",
+        "Impact",
+        "Passive",
+        "Momentum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Impact investing focuses on measurable positive change."
+    },
+    {
+      "id": "ex12",
+      "type": "multiple-choice",
+      "question": "A company is said to be '________' when it balances the amount of greenhouse gases it emits with the amount it removes.",
+      "options": [
+        "carbon neutral",
+        "net zero",
+        "eco-friendly",
+        "sustainable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Net zero is a common goal for corporate sustainability programs."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "The regulator insists that the bank ________ its liquidity buffer.",
+      "options": [
+        "retains",
+        "retain",
+        "retaining",
+        "to retain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'retain' after 'insist'."
+    },
+    {
+      "id": "ex14",
+      "type": "multiple-choice",
+      "question": "It is crucial that the board ________ the long-term impact of its decisions.",
+      "options": [
+        "considers",
+        "consider",
+        "considering",
+        "to consider"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'consider' follows 'It is crucial that'."
+    },
+    {
+      "id": "ex15",
+      "type": "multiple-choice",
+      "question": "Scope 1 emissions are those from sources ________ owned or controlled by the company.",
+      "options": [
+        "directly",
+        "indirectly",
+        "partially",
+        "never"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Scope 1 refers to direct greenhouse gas emissions."
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "________ finance involves the integration of ESG criteria into financial services and investment decisions.",
+      "options": [
+        "Ethical",
+        "Sustainable",
+        "Global",
+        "Corporate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sustainable finance is the broad term for ESG-integrated financial activities."
+    },
+    {
+      "id": "ex17",
+      "type": "multiple-choice",
+      "question": "The auditor requested that the accountant ________ the original receipts.",
+      "options": [
+        "provides",
+        "provide",
+        "providing",
+        "to provide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'provide' after 'request'."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "It is vital that the fund ________ more than 10% in any single asset class.",
+      "options": [
+        "not invest",
+        "doesn't invest",
+        "don't invest",
+        "no investing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The negative subjunctive is 'not + bare infinitive'."
+    },
+    {
+      "id": "ex19",
+      "type": "multiple-choice",
+      "question": "GRI and SASB are widely used ________ for sustainability reporting.",
+      "options": [
+        "frameworks",
+        "regulators",
+        "currencies",
+        "indices"
+      ],
+      "correctAnswer": 0,
+      "explanation": "GRI (Global Reporting Initiative) and SASB (Sustainability Accounting Standards Board) provide standards for ESG disclosure."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "The 'G' in ESG focuses on things like ________ and executive compensation.",
+      "options": [
+        "geography",
+        "governance",
+        "geology",
+        "growth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Governance covers how a company is led and managed."
+    },
+    {
+      "id": "ex21",
+      "type": "multiple-choice",
+      "question": "I move that the meeting ________ adjourned until tomorrow morning.",
+      "options": [
+        "is",
+        "be",
+        "to be",
+        "being"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'be' used in formal motions (e.g., 'I move that...')."
+    },
+    {
+      "id": "ex22",
+      "type": "multiple-choice",
+      "question": "It is advisable that the firm ________ a dedicated ESG officer.",
+      "options": [
+        "appoints",
+        "appoint",
+        "appointing",
+        "to appoint"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'appoint' after 'It is advisable that'."
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "________ investing involves excluding certain sectors, such as tobacco or weapons, from a portfolio.",
+      "options": [
+        "Negative",
+        "Positive",
+        "Direct",
+        "Active"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Negative screening is a common ESG strategy."
+    },
+    {
+      "id": "ex24",
+      "type": "multiple-choice",
+      "question": "A ________ asset is an asset that has suffered from unanticipated or premature write-downs or devaluations, often due to climate policy.",
+      "options": [
+        "liquid",
+        "stranded",
+        "fixed",
+        "tangible"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stranded assets are a major risk in the transition to a low-carbon economy."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "The shareholders demand that the company ________ its lobbying activities.",
+      "options": [
+        "discloses",
+        "disclose",
+        "disclosing",
+        "to disclose"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'disclose' after 'demand'."
+    },
+    {
+      "id": "ex26",
+      "type": "multiple-choice",
+      "question": "It is necessary that the compliance team ________ the new regulations thoroughly.",
+      "options": [
+        "understands",
+        "understand",
+        "to understand",
+        "understanding"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'understand' after 'It is necessary that'."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "Renewable energy includes sources such as wind, solar, and ________ power.",
+      "options": [
+        "coal",
+        "hydroelectric",
+        "nuclear",
+        "diesel"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hydroelectric power is a renewable energy source."
+    },
+    {
+      "id": "ex28",
+      "type": "multiple-choice",
+      "question": "The TCFD (Task Force on Climate-related Financial Disclosures) provides recommendations for ________ climate-related risks.",
+      "options": [
+        "hiding",
+        "disclosing",
+        "ignoring",
+        "creating"
+      ],
+      "correctAnswer": 1,
+      "explanation": "TCFD focuses on transparency regarding climate risk."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "The consultant proposed that the bank ________ its lending to the fossil fuel industry.",
+      "options": [
+        "reduces",
+        "reduce",
+        "reducing",
+        "to reduce"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'reduce' after 'propose'."
+    },
+    {
+      "id": "ex30",
+      "type": "multiple-choice",
+      "question": "It is important that the policy ________ applied consistently across all branches.",
+      "options": [
+        "is",
+        "be",
+        "to be",
+        "being"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'be' after 'It is important that'."
+    },
+    {
+      "id": "ex31",
+      "type": "multiple-choice",
+      "question": "________ bonds are used to fund projects with clear social benefits, such as affordable housing.",
+      "options": [
+        "Green",
+        "Social",
+        "Corporate",
+        "Municipal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Social bonds complement green bonds in the sustainable finance market."
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "The United Nations Sustainable Development Goals (SDGs) consist of ________ specific goals to be achieved by 2030.",
+      "options": [
+        "10",
+        "17",
+        "25",
+        "50"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There are 17 SDGs."
+    },
+    {
+      "id": "ex33",
+      "type": "multiple-choice",
+      "question": "The regulation requires that every firm ________ a dedicated risk manager.",
+      "options": [
+        "has",
+        "have",
+        "having",
+        "to have"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'have' after 'require' (though 'requires that ... should have' or just 'has' is common, in formal/test English, 'have' is preferred)."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "It is crucial that the audit ________ not delayed.",
+      "options": [
+        "isn't",
+        "doesn't be",
+        "be not",
+        "is not"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The subjunctive form 'be' is negated with 'not' before it, but 'be not' is also a formal variant (though 'not be' is more standard: It is crucial that the audit not be delayed)."
+    },
+    {
+      "id": "ex35",
+      "type": "multiple-choice",
+      "question": "________ integration is the explicit inclusion by asset managers of ESG risks and opportunities into financial analysis.",
+      "options": [
+        "ESG",
+        "Market",
+        "Horizontal",
+        "Vertical"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ESG integration is a core strategy for modern asset management."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "Fiduciary ________ requires that investment managers act in the best interest of their clients.",
+      "options": [
+        "duty",
+        "breach",
+        "fee",
+        "limit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fiduciary duty is a legal and ethical obligation."
+    },
+    {
+      "id": "ex37",
+      "type": "multiple-choice",
+      "question": "I recommend that he ________ more attention to the non-financial disclosures.",
+      "options": [
+        "pays",
+        "pay",
+        "paying",
+        "to pay"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'pay' after 'recommend'."
+    },
+    {
+      "id": "ex38",
+      "type": "multiple-choice",
+      "question": "It is essential that the data ________ verified by a third party.",
+      "options": [
+        "is",
+        "be",
+        "to be",
+        "being"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'be' after 'It is essential that'."
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "________ risk refers to the risk that a company's operations will be disrupted by extreme weather events.",
+      "options": [
+        "Transition",
+        "Physical",
+        "Market",
+        "Credit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Physical risk is one of the two main categories of climate risk."
+    },
+    {
+      "id": "ex40",
+      "type": "multiple-choice",
+      "question": "Transition risk refers to the risks associated with the ________ to a low-carbon economy.",
+      "options": [
+        "resistance",
+        "shift",
+        "obstruction",
+        "reversion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transition risks include policy changes, reputation, and technology shifts."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "The chair suggested that the board ________ the vote until next week.",
+      "options": [
+        "postpones",
+        "postpone",
+        "postponing",
+        "to postpone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'postpone' after 'suggest'."
+    },
+    {
+      "id": "ex42",
+      "type": "multiple-choice",
+      "question": "It is mandatory that every director ________ any potential conflict of interest.",
+      "options": [
+        "declares",
+        "declare",
+        "declaring",
+        "to declare"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'declare' after 'It is mandatory that'."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "A ________ analysis helps companies identify which ESG issues are most significant to their business and stakeholders.",
+      "options": [
+        "materiality",
+        "technical",
+        "fundamental",
+        "quantitative"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Materiality is a central concept in sustainability reporting."
+    },
+    {
+      "id": "ex44",
+      "type": "multiple-choice",
+      "question": "Impact investing often involves a ________, where investors accept lower financial returns in exchange for higher social impact.",
+      "options": [
+        "windfall",
+        "trade-off",
+        "dividend",
+        "bonus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Trade-off refers to balancing two competing goals."
+    },
+    {
+      "id": "ex45",
+      "type": "multiple-choice",
+      "question": "The legal department advised that the contract ________ re-drafted.",
+      "options": [
+        "is",
+        "be",
+        "to be",
+        "being"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'be' after 'advise that'."
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "It is preferred that the report ________ submitted in PDF format.",
+      "options": [
+        "is",
+        "be",
+        "to be",
+        "being"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'be' after 'It is preferred that'."
+    },
+    {
+      "id": "ex47",
+      "type": "multiple-choice",
+      "question": "Sustainable development is development that meets the needs of the ________ without compromising the ability of future generations to meet their own needs.",
+      "options": [
+        "past",
+        "present",
+        "wealthy",
+        "government"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is the classic definition of sustainable development from the Brundtland Report."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "The 'E' in ESG stands for ________.",
+      "options": [
+        "Economic",
+        "Environmental",
+        "Ethical",
+        "Executive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'E' focuses on a company's impact on the natural environment."
+    },
+    {
+      "id": "ex49",
+      "type": "multiple-choice",
+      "question": "The NGO requested that the bank ________ funding the controversial pipeline.",
+      "options": [
+        "stops",
+        "stop",
+        "stopping",
+        "to stop"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'stop' after 'request'."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "It is vital that the company ________ its sustainability goals clearly.",
+      "options": [
+        "defines",
+        "define",
+        "defining",
+        "to define"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjunctive 'define' after 'It is vital that'."
     }
   ]
 }

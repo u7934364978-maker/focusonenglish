@@ -1,48 +1,655 @@
 {
-  "title": "Ejercicios: ERM y Formas Causativas",
+  "title": "Ejercicios: Gestión de Riesgos y Derivados",
   "exercises": [
     {
       "id": "ex1",
       "type": "multiple-choice",
-      "question": "The board decided to ________ the annual report ________ by a 'Big Four' firm.",
+      "question": "The compliance officer will have the new anti-money laundering policy ________ by the legal department.",
       "options": [
-        "have / audit",
-        "have / audited",
-        "get / audit",
-        "get / audited"
+        "review",
+        "reviewed",
+        "to review",
+        "reviewing"
       ],
       "correctAnswer": 1,
-      "explanation": "The causative structure 'have + object + past participle' is used for services performed by others."
+      "explanation": "Causative structure: 'have + object + past participle' for services performed by others."
     },
     {
       "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "It took weeks, but we finally ________ the investors ________ (accept) the new terms.",
-      "answer": "got / to accept",
-      "explanation": "'Get + object + to + infinitive' is used when persuasion is involved."
+      "type": "multiple-choice",
+      "question": "It was difficult, but the CFO finally got the board ________ the aggressive hedging strategy.",
+      "options": [
+        "approve",
+        "to approve",
+        "approved",
+        "approving"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Causative structure: 'get + person + to + infinitive' implies persuasion."
     },
     {
       "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the derivative with its function:",
-      "pairs": [
-        { "term": "CDS", "definition": "Protection against debt default" },
-        { "term": "Interest Rate Swap", "definition": "Exchanging fixed for floating rates" },
-        { "term": "Currency Forward", "definition": "Locking in an exchange rate for the future" }
-      ]
+      "type": "multiple-choice",
+      "question": "The internal auditor had the branch manager ________ all the ledger entries for the last quarter.",
+      "options": [
+        "explain",
+        "to explain",
+        "explained",
+        "explaining"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Causative structure: 'have + person + bare infinitive' is used for instructions or professional services."
     },
     {
       "id": "ex4",
       "type": "multiple-choice",
-      "question": "The CFO ________ the legal team ________ the non-disclosure agreements immediately.",
+      "question": "Strict regulations often make financial institutions ________ more capital in reserve.",
       "options": [
-        "had / draft",
-        "had / drafted",
-        "got / drafted",
-        "made / to draft"
+        "holding",
+        "to hold",
+        "hold",
+        "held"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Causative structure: 'make + person + bare infinitive' implies obligation."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple-choice",
+      "question": "We used a currency ________ to lock in the exchange rate for our upcoming payment in Yen.",
+      "options": [
+        "swap",
+        "forward",
+        "option",
+        "future"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A 'forward' contract is an agreement to buy or sell an asset at a set price on a future date."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "An interest rate ________ allows a company to exchange floating rate debt for fixed rate debt.",
+      "options": [
+        "swap",
+        "put",
+        "call",
+        "dividend"
       ],
       "correctAnswer": 0,
-      "explanation": "'Had + person + bare infinitive' is used when giving instructions/orders to someone to do something."
+      "explanation": "A swap is a derivative contract through which two parties exchange the cash flows or liabilities from two different financial instruments."
+    },
+    {
+      "id": "ex7",
+      "type": "multiple-choice",
+      "question": "A Credit Default Swap (CDS) acts like ________ for a lender against the risk of a borrower's default.",
+      "options": [
+        "equity",
+        "collateral",
+        "insurance",
+        "leverage"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A CDS is a financial derivative that allows an investor to 'swap' or offset their credit risk with that of another investor."
+    },
+    {
+      "id": "ex8",
+      "type": "multiple-choice",
+      "question": "If you believe the price of a stock will rise, you should buy a ________ option.",
+      "options": [
+        "put",
+        "call",
+        "short",
+        "spread"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A 'call' option gives the holder the right to buy an asset at a specified price."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "The company needs to get its risk management framework ________ by an external consultant.",
+      "options": [
+        "validate",
+        "validated",
+        "to validate",
+        "validating"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Causative: 'get + object + past participle'."
+    },
+    {
+      "id": "ex10",
+      "type": "multiple-choice",
+      "question": "The Risk Committee had the IT department ________ a new cybersecurity protocol.",
+      "options": [
+        "implement",
+        "to implement",
+        "implemented",
+        "implementing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Causative: 'have + person + bare infinitive'."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "Enterprise Risk Management (ERM) is a ________ approach to managing all risks across an organization.",
+      "options": [
+        "fragmented",
+        "holistic",
+        "superficial",
+        "random"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ERM is holistic because it looks at the entire organization rather than just individual silos."
+    },
+    {
+      "id": "ex12",
+      "type": "multiple-choice",
+      "question": "The amount of risk an organization is willing to accept in pursuit of its objectives is its risk ________.",
+      "options": [
+        "appetite",
+        "aversion",
+        "exposure",
+        "mitigation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Risk appetite is the level of risk that an organization is prepared to accept."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "We should have the treasury department ________ our exposure to the Euro.",
+      "options": [
+        "assess",
+        "to assess",
+        "assessed",
+        "assessing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Causative: 'have + person + bare infinitive'."
+    },
+    {
+      "id": "ex14",
+      "type": "multiple-choice",
+      "question": "Could you get the legal team ________ over the swap agreement one more time?",
+      "options": [
+        "look",
+        "to look",
+        "looked",
+        "looking"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Causative: 'get + person + to + infinitive'."
+    },
+    {
+      "id": "ex15",
+      "type": "multiple-choice",
+      "question": "A 'put' option gives the investor the right ________ an asset at a predetermined price.",
+      "options": [
+        "to buy",
+        "to sell",
+        "to lend",
+        "to borrow"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A 'put' option is the right to sell."
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "________ risk refers to the risk that a counterparty will fail to fulfill its contractual obligations.",
+      "options": [
+        "Market",
+        "Operational",
+        "Credit",
+        "Liquidity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Credit risk (or counterparty risk) is the possibility of loss resulting from a borrower's failure to repay a loan or meet contractual obligations."
+    },
+    {
+      "id": "ex17",
+      "type": "multiple-choice",
+      "question": "The CEO made the department heads ________ for the budget overruns.",
+      "options": [
+        "account",
+        "to account",
+        "accounted",
+        "accounting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Causative: 'make + person + bare infinitive'."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "The regulator had the bank ________ its stress test results publicly.",
+      "options": [
+        "publish",
+        "to publish",
+        "published",
+        "publishing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Causative: 'have + person + bare infinitive'."
+    },
+    {
+      "id": "ex19",
+      "type": "multiple-choice",
+      "question": "We need to get our derivatives portfolio ________ for market sensitivity.",
+      "options": [
+        "stress-test",
+        "stress-tested",
+        "to stress-test",
+        "stress-testing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Causative: 'get + object + past participle'."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "________ risk is the risk of loss resulting from inadequate or failed internal processes, people, and systems.",
+      "options": [
+        "Strategic",
+        "Operational",
+        "Systemic",
+        "Financial"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Operational risk focuses on the internal workings of a firm."
+    },
+    {
+      "id": "ex21",
+      "type": "multiple-choice",
+      "question": "The firm decided to have the contracts ________ into Mandarin for the new partners.",
+      "options": [
+        "translate",
+        "translated",
+        "to translate",
+        "translating"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Causative: 'have + object + past participle'."
+    },
+    {
+      "id": "ex22",
+      "type": "multiple-choice",
+      "question": "Did you manage to get the insurer ________ the premium after the audit?",
+      "options": [
+        "lower",
+        "to lower",
+        "lowered",
+        "lowering"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Causative: 'get + person + to + infinitive'."
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "A ________ is a derivative that gives the holder the right, but not the obligation, to trade an asset.",
+      "options": [
+        "forward",
+        "future",
+        "option",
+        "swap"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Options provide the 'right' but not the 'obligation', unlike forwards or futures."
+    },
+    {
+      "id": "ex24",
+      "type": "multiple-choice",
+      "question": "Hedging is a strategy used to ________ risk rather than to make a profit.",
+      "options": [
+        "eliminate",
+        "mitigate",
+        "maximize",
+        "ignore"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mitigate means to make less severe or serious."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "The auditor made the accountant ________ the figures three times.",
+      "options": [
+        "re-check",
+        "to re-check",
+        "re-checked",
+        "re-checking"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Causative: 'make + person + bare infinitive'."
+    },
+    {
+      "id": "ex26",
+      "type": "multiple-choice",
+      "question": "The bank had its credit rating ________ by Moody's last week.",
+      "options": [
+        "downgrade",
+        "downgraded",
+        "to downgrade",
+        "downgrading"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Causative: 'have + object + past participle'."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "Can we get the consultant ________ a report on our ESG compliance?",
+      "options": [
+        "write",
+        "to write",
+        "written",
+        "writing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Causative: 'get + person + to + infinitive'."
+    },
+    {
+      "id": "ex28",
+      "type": "multiple-choice",
+      "question": "The 'underlying asset' in a derivative is the asset ________ which the derivative's value is based.",
+      "options": [
+        "on",
+        "for",
+        "with",
+        "to"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The value of a derivative is derived from an 'underlying' asset."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "A ________ contract is traded on an exchange, whereas a forward contract is over-the-counter (OTC).",
+      "options": [
+        "future",
+        "bond",
+        "stock",
+        "loan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Futures are standardized contracts traded on central exchanges."
+    },
+    {
+      "id": "ex30",
+      "type": "multiple-choice",
+      "question": "The manager had the interns ________ all the physical files.",
+      "options": [
+        "digitize",
+        "to digitize",
+        "digitized",
+        "digitizing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Causative: 'have + person + bare infinitive'."
+    },
+    {
+      "id": "ex31",
+      "type": "multiple-choice",
+      "question": "We had our legal department ________ the force majeure clause in the contract.",
+      "options": [
+        "examine",
+        "to examine",
+        "examined",
+        "examining"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Causative: 'have + person + bare infinitive'."
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "Did you get the bank ________ the wire transfer fee?",
+      "options": [
+        "waive",
+        "to waive",
+        "waived",
+        "waiving"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Causative: 'get + person + to + infinitive'."
+    },
+    {
+      "id": "ex33",
+      "type": "multiple-choice",
+      "question": "The volatility of an asset is a key factor ________ determining the price of its options.",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "by"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Higher volatility usually leads to higher option premiums."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "The 'strike price' is the price at which the ________ of an option can buy or sell the asset.",
+      "options": [
+        "issuer",
+        "holder",
+        "underwriter",
+        "broker"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The holder (buyer) of the option has the right to use the strike price."
+    },
+    {
+      "id": "ex35",
+      "type": "multiple-choice",
+      "question": "The CFO had the reports ________ before the board meeting.",
+      "options": [
+        "finalize",
+        "finalized",
+        "to finalize",
+        "finalizing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Causative: 'have + object + past participle'."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "The new law will make all banks ________ more information about their leverage ratios.",
+      "options": [
+        "disclose",
+        "to disclose",
+        "disclosed",
+        "disclosing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Causative: 'make + person/entity + bare infinitive'."
+    },
+    {
+      "id": "ex37",
+      "type": "multiple-choice",
+      "question": "A ________ swap involves the exchange of principal and interest payments in different currencies.",
+      "options": [
+        "cross-currency",
+        "standard-rate",
+        "fixed-income",
+        "equity-based"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cross-currency swaps help manage exchange rate risk over long periods."
+    },
+    {
+      "id": "ex38",
+      "type": "multiple-choice",
+      "question": "Liquidity risk is the risk of not being ________ to sell an asset quickly without a significant price discount.",
+      "options": [
+        "capable",
+        "able",
+        "possible",
+        "likely"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Liquidity refers to the ease of converting an asset into cash."
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "The company had its website ________ against potential DDoS attacks.",
+      "options": [
+        "harden",
+        "hardened",
+        "to harden",
+        "hardening"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Causative: 'have + object + past participle'."
+    },
+    {
+      "id": "ex40",
+      "type": "multiple-choice",
+      "question": "Can you get the supervisor ________ this transaction?",
+      "options": [
+        "authorize",
+        "to authorize",
+        "authorized",
+        "authorizing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Causative: 'get + person + to + infinitive'."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "Systemic risk refers to the risk of a ________ of the entire financial system.",
+      "options": [
+        "growth",
+        "collapse",
+        "expansion",
+        "stabilization"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Systemic risk is the possibility that an event at the micro level of an individual bank could trigger instability or collapse an entire industry."
+    },
+    {
+      "id": "ex42",
+      "type": "multiple-choice",
+      "question": "The 'notional value' of a derivative is the ________ value of the underlying assets.",
+      "options": [
+        "market",
+        "face",
+        "total",
+        "discounted"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Notional value is the total value of a leveraged position's underlying assets."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "We had the external auditors ________ our internal controls last month.",
+      "options": [
+        "test",
+        "to test",
+        "tested",
+        "testing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Causative: 'have + person + bare infinitive'."
+    },
+    {
+      "id": "ex44",
+      "type": "multiple-choice",
+      "question": "Did they get the client ________ the risk disclosure form?",
+      "options": [
+        "sign",
+        "to sign",
+        "signed",
+        "signing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Causative: 'get + person + to + infinitive'."
+    },
+    {
+      "id": "ex45",
+      "type": "multiple-choice",
+      "question": "Which of these is a 'mitigation' strategy for risk?",
+      "options": [
+        "Avoiding the activity altogether",
+        "Buying insurance",
+        "Ignoring the potential loss",
+        "Maximizing exposure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transferring risk to an insurer is a common mitigation technique."
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "The 'Greeks' in option trading (Delta, Gamma, etc.) are used ________ measure different types of risk.",
+      "options": [
+        "for",
+        "to",
+        "at",
+        "by"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Greeks provide a way to quantify sensitivity to price, time, and volatility changes."
+    },
+    {
+      "id": "ex47",
+      "type": "multiple-choice",
+      "question": "The HR manager had the employees ________ a mandatory ethics training session.",
+      "options": [
+        "attend",
+        "to attend",
+        "attended",
+        "attending"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Causative: 'have + person + bare infinitive'."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "The regulator made the firm ________ its dividend payments until further notice.",
+      "options": [
+        "suspend",
+        "to suspend",
+        "suspended",
+        "suspending"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Causative: 'make + person + bare infinitive'."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "Effective ERM requires that risk management be ________ into the organization's culture.",
+      "options": [
+        "separated",
+        "embedded",
+        "removed",
+        "avoided"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Embedding risk management ensures it is considered at every decision level."
+    },
+    {
+      "id": "ex49",
+      "type": "multiple-choice",
+      "question": "We had our servers ________ by a cybersecurity firm to find vulnerabilities.",
+      "options": [
+        "audit",
+        "audited",
+        "to audit",
+        "auditing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Causative: 'have + object + past participle'."
     }
   ]
 }

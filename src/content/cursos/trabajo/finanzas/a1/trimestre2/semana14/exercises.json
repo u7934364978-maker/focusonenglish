@@ -8,42 +8,402 @@
     {
       "id": "fin-a1-w14-1",
       "type": "multipleChoice",
-      "prompt": "I don't have a card, I only have ___.",
-      "options": ["PIN", "Cash", "Wallet", "Debit"],
-      "answerIndex": 1,
-      "explanation": "Cash means physical money."
+      "prompt": "How do you say 'efectivo' in English?",
+      "options": ["Credit", "PIN", "Cash", "Wallet"],
+      "answerIndex": 2,
+      "explanation": "Cash means efectivo."
     },
     {
       "id": "fin-a1-w14-2",
       "type": "multipleChoice",
-      "prompt": "___ cards (here) are new.",
+      "prompt": "___ card in my hand is my debit card.",
       "options": ["This", "That", "These", "Those"],
-      "answerIndex": 2,
-      "explanation": "These is for plural near (here)."
+      "answerIndex": 0,
+      "explanation": "We use 'This' for singular items near us."
     },
     {
       "id": "fin-a1-w14-3",
       "type": "multipleChoice",
-      "prompt": "Please enter your ___ on the keypad.",
-      "options": ["Wallet", "Cash", "PIN", "Change"],
-      "answerIndex": 2,
-      "explanation": "PIN is the secret code for cards."
+      "prompt": "___ coins over there are euros.",
+      "options": ["This", "That", "These", "Those"],
+      "answerIndex": 3,
+      "explanation": "We use 'Those' for plural items far away."
     },
     {
       "id": "fin-a1-w14-4",
       "type": "multipleChoice",
-      "prompt": "___ bank (over there) is closed.",
-      "options": ["This", "That", "These", "Those"],
+      "prompt": "I put my money in my ___.",
+      "options": ["PIN", "wallet", "debit", "credit"],
       "answerIndex": 1,
-      "explanation": "That is for singular far (over there)."
+      "explanation": "A wallet is where you carry money and cards."
     },
     {
       "id": "fin-a1-w14-5",
       "type": "multipleChoice",
-      "prompt": "Where is my ___? I need my money.",
-      "options": ["Receipt", "Wallet", "Cost", "Price"],
+      "prompt": "Please enter your 4-digit ___.",
+      "options": ["PIN", "Cash", "Wallet", "Debit"],
+      "answerIndex": 0,
+      "explanation": "PIN is the code used for cards."
+    },
+    {
+      "id": "fin-a1-w14-6",
+      "type": "multipleChoice",
+      "prompt": "Is ___ your credit card on the desk?",
+      "options": ["this", "these", "those", "they"],
+      "answerIndex": 0,
+      "explanation": "'This' for singular near objects."
+    },
+    {
+      "id": "fin-a1-w14-7",
+      "type": "multipleChoice",
+      "prompt": "___ computers are very expensive.",
+      "options": ["That", "This", "Those", "It"],
+      "answerIndex": 2,
+      "explanation": "'Those' for plural objects."
+    },
+    {
+      "id": "fin-a1-w14-8",
+      "type": "multipleChoice",
+      "prompt": "Do you want to pay ___ cash?",
+      "options": ["on", "in", "by", "at"],
       "answerIndex": 1,
-      "explanation": "A wallet carries money and cards."
+      "explanation": "We say 'pay in cash'."
+    },
+    {
+      "id": "fin-a1-w14-9",
+      "type": "multipleChoice",
+      "prompt": "I don't have ___ coins.",
+      "options": ["some", "any", "a", "an"],
+      "answerIndex": 1,
+      "explanation": "Use 'any' in negative sentences."
+    },
+    {
+      "id": "fin-a1-w14-10",
+      "type": "multipleChoice",
+      "prompt": "Look at ___ bill on that table.",
+      "options": ["this", "that", "these", "those"],
+      "answerIndex": 1,
+      "explanation": "'That' for singular distant objects."
+    },
+    {
+      "id": "fin-a1-w14-11",
+      "type": "multipleChoice",
+      "prompt": "Can I pay by ___ card?",
+      "options": ["debit", "wallet", "cash", "pin"],
+      "answerIndex": 0,
+      "explanation": "Debit card is a form of payment."
+    },
+    {
+      "id": "fin-a1-w14-12",
+      "type": "multipleChoice",
+      "prompt": "Are ___ your documents here?",
+      "options": ["this", "that", "these", "it"],
+      "answerIndex": 2,
+      "explanation": "'These' for plural near objects."
+    },
+    {
+      "id": "fin-a1-w14-13",
+      "type": "multipleChoice",
+      "prompt": "___ is my new wallet.",
+      "options": ["This", "These", "Those", "They"],
+      "answerIndex": 0,
+      "explanation": "'This' is singular."
+    },
+    {
+      "id": "fin-a1-w14-14",
+      "type": "multipleChoice",
+      "prompt": "Where are ___ euros I gave you?",
+      "options": ["this", "that", "those", "it"],
+      "answerIndex": 2,
+      "explanation": "'Those' refers to plural items mentioned before or far away."
+    },
+    {
+      "id": "fin-a1-w14-15",
+      "type": "multipleChoice",
+      "prompt": "I need to ___ the bill.",
+      "options": ["pay", "cash", "pin", "wallet"],
+      "answerIndex": 0,
+      "explanation": "'Pay' is the verb for giving money for something."
+    },
+    {
+      "id": "fin-a1-w14-16",
+      "type": "multipleChoice",
+      "prompt": "Is ___ a credit card or a debit card?",
+      "options": ["this", "these", "those", "they"],
+      "answerIndex": 0,
+      "explanation": "Singular question about an object near or being held."
+    },
+    {
+      "id": "fin-a1-w14-17",
+      "type": "multipleChoice",
+      "prompt": "I have two ___ in my wallet.",
+      "options": ["card", "cards", "pin", "cash"],
+      "answerIndex": 1,
+      "explanation": "'Cards' is the plural form."
+    },
+    {
+      "id": "fin-a1-w14-18",
+      "type": "multipleChoice",
+      "prompt": "___ bank is very far from here.",
+      "options": ["This", "That", "These", "Those"],
+      "answerIndex": 1,
+      "explanation": "'That' for singular distant places."
+    },
+    {
+      "id": "fin-a1-w14-19",
+      "type": "multipleChoice",
+      "prompt": "I prefer to pay ___ credit card.",
+      "options": ["with", "by", "in", "on"],
+      "answerIndex": 1,
+      "explanation": "We say 'pay by credit card'."
+    },
+    {
+      "id": "fin-a1-w14-20",
+      "type": "multipleChoice",
+      "prompt": "How much cash is in ___ box?",
+      "options": ["these", "those", "this", "they"],
+      "answerIndex": 2,
+      "explanation": "'This' for singular near object."
+    },
+    {
+      "id": "fin-a1-w14-21",
+      "type": "multipleChoice",
+      "prompt": "___ is a lot of money.",
+      "options": ["This", "These", "Those", "They"],
+      "answerIndex": 0,
+      "explanation": "Money is uncountable and treated as singular."
+    },
+    {
+      "id": "fin-a1-w14-22",
+      "type": "multipleChoice",
+      "prompt": "Do you have ___ change?",
+      "options": ["some", "any", "a", "an"],
+      "answerIndex": 1,
+      "explanation": "Use 'any' in questions."
+    },
+    {
+      "id": "fin-a1-w14-23",
+      "type": "multipleChoice",
+      "prompt": "Give me ___ coins, please.",
+      "options": ["this", "that", "those", "it"],
+      "answerIndex": 2,
+      "explanation": "'Those' for plural objects at a distance."
+    },
+    {
+      "id": "fin-a1-w14-24",
+      "type": "multipleChoice",
+      "prompt": "I can't find my ___.",
+      "options": ["PIN", "wallet", "cash", "credit"],
+      "answerIndex": 1,
+      "explanation": "You usually look for your wallet if it's lost."
+    },
+    {
+      "id": "fin-a1-w14-25",
+      "type": "multipleChoice",
+      "prompt": "___ is the price of the laptop.",
+      "options": ["This", "These", "Those", "They"],
+      "answerIndex": 0,
+      "explanation": "Singular subject."
+    },
+    {
+      "id": "fin-a1-w14-26",
+      "type": "multipleChoice",
+      "prompt": "Are ___ your coins on the floor?",
+      "options": ["this", "that", "those", "it"],
+      "answerIndex": 2,
+      "explanation": "'Those' for plural distant objects."
+    },
+    {
+      "id": "fin-a1-w14-27",
+      "type": "multipleChoice",
+      "prompt": "I have ___ cash in my pocket.",
+      "options": ["some", "any", "a", "an"],
+      "answerIndex": 0,
+      "explanation": "Use 'some' in affirmative sentences."
+    },
+    {
+      "id": "fin-a1-w14-28",
+      "type": "multipleChoice",
+      "prompt": "Is ___ your signature?",
+      "options": ["this", "these", "those", "they"],
+      "answerIndex": 0,
+      "explanation": "'This' for singular near object."
+    },
+    {
+      "id": "fin-a1-w14-29",
+      "type": "multipleChoice",
+      "prompt": "Please, take ___ dollars.",
+      "options": ["this", "that", "these", "it"],
+      "answerIndex": 2,
+      "explanation": "'These' for plural near objects."
+    },
+    {
+      "id": "fin-a1-w14-30",
+      "type": "multipleChoice",
+      "prompt": "___ machines are broken.",
+      "options": ["That", "This", "Those", "It"],
+      "answerIndex": 2,
+      "explanation": "'Those' for plural objects."
+    },
+    {
+      "id": "fin-a1-w14-31",
+      "type": "multipleChoice",
+      "prompt": "My ___ card is from the national bank.",
+      "options": ["credit", "cash", "wallet", "pin"],
+      "answerIndex": 0,
+      "explanation": "Credit card is a common term."
+    },
+    {
+      "id": "fin-a1-w14-32",
+      "type": "multipleChoice",
+      "prompt": "Is ___ your house over there?",
+      "options": ["this", "that", "these", "those"],
+      "answerIndex": 1,
+      "explanation": "'That' for singular distant objects."
+    },
+    {
+      "id": "fin-a1-w14-33",
+      "type": "multipleChoice",
+      "prompt": "I don't like ___ office.",
+      "options": ["this", "these", "those", "they"],
+      "answerIndex": 0,
+      "explanation": "'This' for singular near object."
+    },
+    {
+      "id": "fin-a1-w14-34",
+      "type": "multipleChoice",
+      "prompt": "How much are ___ shoes?",
+      "options": ["this", "that", "these", "it"],
+      "answerIndex": 2,
+      "explanation": "'These' for plural near objects."
+    },
+    {
+      "id": "fin-a1-w14-35",
+      "type": "multipleChoice",
+      "prompt": "___ are the new terms of the contract.",
+      "options": ["This", "That", "These", "It"],
+      "answerIndex": 2,
+      "explanation": "'These' for plural objects near or recently mentioned."
+    },
+    {
+      "id": "fin-a1-w14-36",
+      "type": "multipleChoice",
+      "prompt": "I need a ___ to carry my cards.",
+      "options": ["wallet", "cash", "pin", "price"],
+      "answerIndex": 0,
+      "explanation": "A wallet is for carrying cards."
+    },
+    {
+      "id": "fin-a1-w14-37",
+      "type": "multipleChoice",
+      "prompt": "Is ___ your phone ringing?",
+      "options": ["this", "that", "these", "those"],
+      "answerIndex": 0,
+      "explanation": "'This' for singular near object."
+    },
+    {
+      "id": "fin-a1-w14-38",
+      "type": "multipleChoice",
+      "prompt": "___ people are waiting for the bank to open.",
+      "options": ["That", "This", "Those", "It"],
+      "answerIndex": 2,
+      "explanation": "'Those' for plural people at a distance."
+    },
+    {
+      "id": "fin-a1-w14-39",
+      "type": "multipleChoice",
+      "prompt": "Can you check ___ receipt?",
+      "options": ["this", "these", "those", "they"],
+      "answerIndex": 0,
+      "explanation": "'This' for singular near object."
+    },
+    {
+      "id": "fin-a1-w14-40",
+      "type": "multipleChoice",
+      "prompt": "___ is my debit card, and ___ is yours.",
+      "options": ["This / that", "These / those", "That / this", "This / these"],
+      "answerIndex": 0,
+      "explanation": "Used to distinguish between two singular objects at different distances."
+    },
+    {
+      "id": "fin-a1-w14-41",
+      "type": "multipleChoice",
+      "prompt": "I have ___ euro in my hand.",
+      "options": ["a", "an", "some", "any"],
+      "answerIndex": 0,
+      "explanation": "'Euro' starts with a consonant sound ('yoo-roh')."
+    },
+    {
+      "id": "fin-a1-w14-42",
+      "type": "multipleChoice",
+      "prompt": "Do you have ___ 10-euro notes?",
+      "options": ["any", "a", "an", "this"],
+      "answerIndex": 0,
+      "explanation": "'Any' for plural questions."
+    },
+    {
+      "id": "fin-a1-w14-43",
+      "type": "multipleChoice",
+      "prompt": "___ coins are very heavy.",
+      "options": ["This", "That", "These", "It"],
+      "answerIndex": 2,
+      "explanation": "'These' for plural near objects."
+    },
+    {
+      "id": "fin-a1-w14-44",
+      "type": "multipleChoice",
+      "prompt": "I forgot my ___ at home.",
+      "options": ["wallet", "pin", "cash", "debit"],
+      "answerIndex": 0,
+      "explanation": "Commonly forgotten item that holds money."
+    },
+    {
+      "id": "fin-a1-w14-45",
+      "type": "multipleChoice",
+      "prompt": "___ ATM is always out of service.",
+      "options": ["That", "These", "Those", "They"],
+      "answerIndex": 0,
+      "explanation": "'That' for singular distant object."
+    },
+    {
+      "id": "fin-a1-w14-46",
+      "type": "multipleChoice",
+      "prompt": "Who are ___ men in the office?",
+      "options": ["this", "that", "those", "it"],
+      "answerIndex": 2,
+      "explanation": "'Those' for plural distant people."
+    },
+    {
+      "id": "fin-a1-w14-47",
+      "type": "multipleChoice",
+      "prompt": "I want to buy ___ book.",
+      "options": ["this", "these", "those", "they"],
+      "answerIndex": 0,
+      "explanation": "'This' for singular near object."
+    },
+    {
+      "id": "fin-a1-w14-48",
+      "type": "multipleChoice",
+      "prompt": "___ is the key to the safe.",
+      "options": ["This", "These", "Those", "They"],
+      "answerIndex": 0,
+      "explanation": "Singular subject."
+    },
+    {
+      "id": "fin-a1-w14-49",
+      "type": "multipleChoice",
+      "prompt": "Are ___ your parents?",
+      "options": ["that", "those", "this", "it"],
+      "answerIndex": 1,
+      "explanation": "'Those' for plural people at a distance."
+    },
+    {
+      "id": "fin-a1-w14-50",
+      "type": "multipleChoice",
+      "prompt": "Please sign ___ documents.",
+      "options": ["this", "that", "these", "it"],
+      "answerIndex": 2,
+      "explanation": "'These' for plural near objects."
     }
   ]
 }

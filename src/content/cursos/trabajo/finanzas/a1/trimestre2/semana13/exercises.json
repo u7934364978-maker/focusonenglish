@@ -44,6 +44,366 @@
       "options": ["change", "price", "expensive", "cheap"],
       "answerIndex": 1,
       "explanation": "Price (precio) is the total amount."
+    },
+    {
+      "id": "fin-a1-w13-6",
+      "type": "multipleChoice",
+      "prompt": "How do you say 'barato' in English?",
+      "options": ["Cost", "Expensive", "Cheap", "Price"],
+      "answerIndex": 2,
+      "explanation": "Cheap means barato."
+    },
+    {
+      "id": "fin-a1-w13-7",
+      "type": "multipleChoice",
+      "prompt": "___ a new computer in the office.",
+      "options": ["There are", "Are there", "There is", "Is there"],
+      "answerIndex": 2,
+      "explanation": "We use 'There is' for singular items."
+    },
+    {
+      "id": "fin-a1-w13-8",
+      "type": "multipleChoice",
+      "prompt": "___ any pens in the drawer?",
+      "options": ["Is there", "There is", "Are there", "There are"],
+      "answerIndex": 2,
+      "explanation": "We use 'Are there' for questions in plural."
+    },
+    {
+      "id": "fin-a1-w13-9",
+      "type": "multipleChoice",
+      "prompt": "I need to pay __ cash.",
+      "options": ["on", "in", "by", "at"],
+      "answerIndex": 1,
+      "explanation": "We say 'in cash' (en efectivo)."
+    },
+    {
+      "id": "fin-a1-w13-10",
+      "type": "multipleChoice",
+      "prompt": "The ___ of this chair is 100 dollars.",
+      "options": ["cost", "change", "wallet", "pin"],
+      "answerIndex": 0,
+      "explanation": "Cost (coste) refers to the amount to be paid."
+    },
+    {
+      "id": "fin-a1-w13-11",
+      "type": "multipleChoice",
+      "prompt": "Is this ___ new printer?",
+      "options": ["a", "an", "the", "some"],
+      "answerIndex": 0,
+      "explanation": "We use 'a' before words starting with a consonant sound."
+    },
+    {
+      "id": "fin-a1-w13-12",
+      "type": "multipleChoice",
+      "prompt": "I have the money in my ___.",
+      "options": ["receipt", "wallet", "price", "office"],
+      "answerIndex": 1,
+      "explanation": "A wallet (cartera) is used to store money."
+    },
+    {
+      "id": "fin-a1-w13-13",
+      "type": "multipleChoice",
+      "prompt": "How ___ is this desk?",
+      "options": ["many", "much", "cost", "price"],
+      "answerIndex": 1,
+      "explanation": "We use 'How much' to ask for prices."
+    },
+    {
+      "id": "fin-a1-w13-14",
+      "type": "multipleChoice",
+      "prompt": "There ___ no money in the ATM.",
+      "options": ["is", "are", "am", "be"],
+      "answerIndex": 0,
+      "explanation": "'Money' is uncountable and takes a singular verb."
+    },
+    {
+      "id": "fin-a1-w13-15",
+      "type": "multipleChoice",
+      "prompt": "Please enter your ___.",
+      "options": ["PIN", "Wallet", "Receipt", "Change"],
+      "answerIndex": 0,
+      "explanation": "A PIN (Personal Identification Number) is required for card payments."
+    },
+    {
+      "id": "fin-a1-w13-16",
+      "type": "multipleChoice",
+      "prompt": "The book is ___ the desk.",
+      "options": ["on", "in", "between", "opposite"],
+      "answerIndex": 0,
+      "explanation": "'On' means on top of the surface."
+    },
+    {
+      "id": "fin-a1-w13-17",
+      "type": "multipleChoice",
+      "prompt": "___ is my credit card.",
+      "options": ["This", "These", "Those", "They"],
+      "answerIndex": 0,
+      "explanation": "We use 'This' for a single object near us."
+    },
+    {
+      "id": "fin-a1-w13-18",
+      "type": "multipleChoice",
+      "prompt": "___ are my office keys.",
+      "options": ["This", "That", "These", "It"],
+      "answerIndex": 2,
+      "explanation": "We use 'These' for multiple objects near us."
+    },
+    {
+      "id": "fin-a1-w13-19",
+      "type": "multipleChoice",
+      "prompt": "Where is the bank? It is ___ to the supermarket.",
+      "options": ["next", "between", "opposite", "inside"],
+      "answerIndex": 0,
+      "explanation": "'Next to' means beside."
+    },
+    {
+      "id": "fin-a1-w13-20",
+      "type": "multipleChoice",
+      "prompt": "The coffee shop is ___ the bank and the pharmacy.",
+      "options": ["next to", "opposite", "between", "inside"],
+      "answerIndex": 2,
+      "explanation": "'Between' is used for something in the middle of two things."
+    },
+    {
+      "id": "fin-a1-w13-21",
+      "type": "multipleChoice",
+      "prompt": "Do you have any ___?",
+      "options": ["change", "expensive", "cheap", "cost"],
+      "answerIndex": 0,
+      "explanation": "Change (suelto/cambio) refers to coins or small bills."
+    },
+    {
+      "id": "fin-a1-w13-22",
+      "type": "multipleChoice",
+      "prompt": "This laptop is very ___.",
+      "options": ["cheap", "price", "receipt", "change"],
+      "answerIndex": 0,
+      "explanation": "Cheap means it doesn't cost much money."
+    },
+    {
+      "id": "fin-a1-w13-23",
+      "type": "multipleChoice",
+      "prompt": "That car is very ___.",
+      "options": ["expensive", "cost", "wallet", "pin"],
+      "answerIndex": 0,
+      "explanation": "Expensive means it costs a lot of money."
+    },
+    {
+      "id": "fin-a1-w13-24",
+      "type": "multipleChoice",
+      "prompt": "___ is a bank over there.",
+      "options": ["There is", "There are", "Is there", "Are there"],
+      "answerIndex": 0,
+      "explanation": "We use 'There is' for one object at a distance."
+    },
+    {
+      "id": "fin-a1-w13-25",
+      "type": "multipleChoice",
+      "prompt": "How many chairs ___ there?",
+      "options": ["is", "are", "am", "be"],
+      "answerIndex": 1,
+      "explanation": "'Chairs' is plural, so we use 'are'."
+    },
+    {
+      "id": "fin-a1-w13-26",
+      "type": "multipleChoice",
+      "prompt": "Can I pay ___ credit card?",
+      "options": ["in", "by", "with", "on"],
+      "answerIndex": 1,
+      "explanation": "We say 'pay by credit card'."
+    },
+    {
+      "id": "fin-a1-w13-27",
+      "type": "multipleChoice",
+      "prompt": "The manager is ___ his office.",
+      "options": ["on", "inside", "between", "next"],
+      "answerIndex": 1,
+      "explanation": "'Inside' means within the space."
+    },
+    {
+      "id": "fin-a1-w13-28",
+      "type": "multipleChoice",
+      "prompt": "That is my ___ card.",
+      "options": ["debit", "wallet", "change", "price"],
+      "answerIndex": 0,
+      "explanation": "A debit card is used to pay with money from your account."
+    },
+    {
+      "id": "fin-a1-w13-29",
+      "type": "multipleChoice",
+      "prompt": "The office is ___ the street.",
+      "options": ["opposite", "between", "next", "inside"],
+      "answerIndex": 0,
+      "explanation": "'Opposite' means on the other side of."
+    },
+    {
+      "id": "fin-a1-w13-30",
+      "type": "multipleChoice",
+      "prompt": "___ are some documents on the floor.",
+      "options": ["There is", "Is there", "There are", "Are there"],
+      "answerIndex": 2,
+      "explanation": "Use 'There are' for plural affirmative sentences."
+    },
+    {
+      "id": "fin-a1-w13-31",
+      "type": "multipleChoice",
+      "prompt": "I don't have ___ money.",
+      "options": ["some", "any", "a", "an"],
+      "answerIndex": 1,
+      "explanation": "We use 'any' in negative sentences."
+    },
+    {
+      "id": "fin-a1-w13-32",
+      "type": "multipleChoice",
+      "prompt": "Is there ___ ATM near here?",
+      "options": ["a", "an", "the", "some"],
+      "answerIndex": 1,
+      "explanation": "Use 'an' before 'ATM' because it starts with a vowel sound (A-T-M)."
+    },
+    {
+      "id": "fin-a1-w13-33",
+      "type": "multipleChoice",
+      "prompt": "Those pens ___ very old.",
+      "options": ["is", "are", "am", "be"],
+      "answerIndex": 1,
+      "explanation": "'Those pens' is plural."
+    },
+    {
+      "id": "fin-a1-w13-34",
+      "type": "multipleChoice",
+      "prompt": "This desk is ___.",
+      "options": ["new", "next", "opposite", "between"],
+      "answerIndex": 0,
+      "explanation": "'New' (nuevo) is an adjective describing an object."
+    },
+    {
+      "id": "fin-a1-w13-35",
+      "type": "multipleChoice",
+      "prompt": "Is that ___ wallet?",
+      "options": ["you", "your", "yours", "me"],
+      "answerIndex": 1,
+      "explanation": "'Your' is the possessive adjective."
+    },
+    {
+      "id": "fin-a1-w13-36",
+      "type": "multipleChoice",
+      "prompt": "How much ___ the tickets?",
+      "options": ["is", "are", "am", "cost"],
+      "answerIndex": 1,
+      "explanation": "'Tickets' is plural."
+    },
+    {
+      "id": "fin-a1-w13-37",
+      "type": "multipleChoice",
+      "prompt": "There ___ a lot of people in the bank today.",
+      "options": ["is", "are", "am", "be"],
+      "answerIndex": 1,
+      "explanation": "'People' is plural."
+    },
+    {
+      "id": "fin-a1-w13-38",
+      "type": "multipleChoice",
+      "prompt": "Can you give me the ___?",
+      "options": ["receipt", "expensive", "cheap", "cost"],
+      "answerIndex": 0,
+      "explanation": "You ask for the receipt after paying."
+    },
+    {
+      "id": "fin-a1-w13-39",
+      "type": "multipleChoice",
+      "prompt": "My ___ is empty.",
+      "options": ["wallet", "price", "receipt", "pin"],
+      "answerIndex": 0,
+      "explanation": "You say your wallet is empty if you have no money."
+    },
+    {
+      "id": "fin-a1-w13-40",
+      "type": "multipleChoice",
+      "prompt": "Is this ___ bill?",
+      "options": ["a", "an", "some", "any"],
+      "answerIndex": 0,
+      "explanation": "'Bill' starts with a consonant sound."
+    },
+    {
+      "id": "fin-a1-w13-41",
+      "type": "multipleChoice",
+      "prompt": "There is a phone ___ the table.",
+      "options": ["on", "inside", "between", "opposite"],
+      "answerIndex": 0,
+      "explanation": "'On' describes the position on the surface."
+    },
+    {
+      "id": "fin-a1-w13-42",
+      "type": "multipleChoice",
+      "prompt": "Are there ___ coins in the box?",
+      "options": ["some", "any", "a", "an"],
+      "answerIndex": 1,
+      "explanation": "We use 'any' for questions."
+    },
+    {
+      "id": "fin-a1-w13-43",
+      "type": "multipleChoice",
+      "prompt": "That office is ___ the street.",
+      "options": ["across", "opposite", "next", "between"],
+      "answerIndex": 1,
+      "explanation": "'Opposite' is used for things on the other side."
+    },
+    {
+      "id": "fin-a1-w13-44",
+      "type": "multipleChoice",
+      "prompt": "These calculators ___ expensive.",
+      "options": ["is", "are", "am", "cost"],
+      "answerIndex": 1,
+      "explanation": "'These' and 'calculators' are plural."
+    },
+    {
+      "id": "fin-a1-w13-45",
+      "type": "multipleChoice",
+      "prompt": "I don't have my ___ code.",
+      "options": ["PIN", "wallet", "change", "receipt"],
+      "answerIndex": 0,
+      "explanation": "You need your PIN code for the card."
+    },
+    {
+      "id": "fin-a1-w13-46",
+      "type": "multipleChoice",
+      "prompt": "The total cost is 12 ___ 50.",
+      "options": ["euro", "euros", "pound", "dollar"],
+      "answerIndex": 1,
+      "explanation": "Plural of 'euro' is 'euros'."
+    },
+    {
+      "id": "fin-a1-w13-47",
+      "type": "multipleChoice",
+      "prompt": "___ is my new office.",
+      "options": ["This", "These", "Those", "They"],
+      "answerIndex": 0,
+      "explanation": "'This' for singular near object."
+    },
+    {
+      "id": "fin-a1-w13-48",
+      "type": "multipleChoice",
+      "prompt": "___ are some new chairs.",
+      "options": ["That", "This", "Those", "It"],
+      "answerIndex": 2,
+      "explanation": "'Those' for plural distant objects (or 'These' for near, but 'Those' is the only plural option here)."
+    },
+    {
+      "id": "fin-a1-w13-49",
+      "type": "multipleChoice",
+      "prompt": "There ___ a desk next to the window.",
+      "options": ["is", "are", "am", "be"],
+      "answerIndex": 0,
+      "explanation": "'A desk' is singular."
+    },
+    {
+      "id": "fin-a1-w13-50",
+      "type": "multipleChoice",
+      "prompt": "Is there ___ milk in the office fridge?",
+      "options": ["some", "any", "a", "an"],
+      "answerIndex": 1,
+      "explanation": "'Any' is used for questions with uncountable nouns."
     }
   ]
 }

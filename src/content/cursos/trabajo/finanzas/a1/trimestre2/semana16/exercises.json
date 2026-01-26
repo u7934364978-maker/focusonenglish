@@ -44,6 +44,366 @@
       "options": ["New", "This", "There is", "Between"],
       "answerIndex": 0,
       "explanation": "New is an adjective to describe the calculators."
+    },
+    {
+      "id": "fin-a1-w16-6",
+      "type": "multipleChoice",
+      "prompt": "That ___ bank is closed now.",
+      "options": ["Small", "Next to", "Between", "There are"],
+      "answerIndex": 0,
+      "explanation": "Small describes the bank."
+    },
+    {
+      "id": "fin-a1-w16-7",
+      "type": "multipleChoice",
+      "prompt": "Is your credit card ___?",
+      "options": ["Old", "Fast", "Between", "These"],
+      "answerIndex": 0,
+      "explanation": "Old is an adjective to describe the card."
+    },
+    {
+      "id": "fin-a1-w16-8",
+      "type": "multipleChoice",
+      "prompt": "We have a ___ meeting room.",
+      "options": ["Large", "Slow", "There is", "That"],
+      "answerIndex": 0,
+      "explanation": "Large describes the room size."
+    },
+    {
+      "id": "fin-a1-w16-9",
+      "type": "multipleChoice",
+      "prompt": "The internet here is very ___.",
+      "options": ["Fast", "New", "This", "Small"],
+      "answerIndex": 0,
+      "explanation": "Fast describes the speed."
+    },
+    {
+      "id": "fin-a1-w16-10",
+      "type": "multipleChoice",
+      "prompt": "These coins are very ___.",
+      "options": ["Old", "Fast", "Slow", "That"],
+      "answerIndex": 0,
+      "explanation": "Old describes the age of the coins."
+    },
+    {
+      "id": "fin-a1-w16-11",
+      "type": "multipleChoice",
+      "prompt": "My wallet is ___.",
+      "options": ["Small", "Fast", "Slow", "These"],
+      "answerIndex": 0,
+      "explanation": "Small describes the size."
+    },
+    {
+      "id": "fin-a1-w16-12",
+      "type": "multipleChoice",
+      "prompt": "The printer is very ___.",
+      "options": ["Slow", "New", "Large", "Between"],
+      "answerIndex": 0,
+      "explanation": "Slow describes the speed of the printer."
+    },
+    {
+      "id": "fin-a1-w16-13",
+      "type": "multipleChoice",
+      "prompt": "Is that a ___ office?",
+      "options": ["New", "Fast", "Slow", "Those"],
+      "answerIndex": 0,
+      "explanation": "New describes the office."
+    },
+    {
+      "id": "fin-a1-w16-14",
+      "type": "multipleChoice",
+      "prompt": "We use ___ computers in the bank.",
+      "options": ["Fast", "Old", "Small", "These"],
+      "answerIndex": 0,
+      "explanation": "Fast describes the computers."
+    },
+    {
+      "id": "fin-a1-w16-15",
+      "type": "multipleChoice",
+      "prompt": "This ATM is ___.",
+      "options": ["Old", "Between", "Inside", "There is"],
+      "answerIndex": 0,
+      "explanation": "Old is an adjective."
+    },
+    {
+      "id": "fin-a1-w16-16",
+      "type": "multipleChoice",
+      "prompt": "That is a ___ safe.",
+      "options": ["Large", "Fast", "Slow", "Those"],
+      "answerIndex": 0,
+      "explanation": "Large describes the size of the safe."
+    },
+    {
+      "id": "fin-a1-w16-17",
+      "type": "multipleChoice",
+      "prompt": "The bank has ___ windows.",
+      "options": ["Small", "Fast", "Slow", "There are"],
+      "answerIndex": 0,
+      "explanation": "Small describes the windows."
+    },
+    {
+      "id": "fin-a1-w16-18",
+      "type": "multipleChoice",
+      "prompt": "Is this calculator ___?",
+      "options": ["New", "Fast", "Slow", "These"],
+      "answerIndex": 0,
+      "explanation": "New is an adjective."
+    },
+    {
+      "id": "fin-a1-w16-19",
+      "type": "multipleChoice",
+      "prompt": "The lines in the bank are ___.",
+      "options": ["Slow", "New", "Large", "That"],
+      "answerIndex": 0,
+      "explanation": "Slow describes the movement of the lines."
+    },
+    {
+      "id": "fin-a1-w16-20",
+      "type": "multipleChoice",
+      "prompt": "We have ___ desks.",
+      "options": ["Large", "Fast", "Slow", "This"],
+      "answerIndex": 0,
+      "explanation": "Large describes the desks."
+    },
+    {
+      "id": "fin-a1-w16-21",
+      "type": "multipleChoice",
+      "prompt": "___ coins are from Europe.",
+      "options": ["These", "This", "There is", "New"],
+      "answerIndex": 0,
+      "explanation": "These is a plural demonstrative."
+    },
+    {
+      "id": "fin-a1-w16-22",
+      "type": "multipleChoice",
+      "prompt": "___ is a very fast computer.",
+      "options": ["This", "These", "There are", "Slow"],
+      "answerIndex": 0,
+      "explanation": "This is a singular demonstrative."
+    },
+    {
+      "id": "fin-a1-w16-23",
+      "type": "multipleChoice",
+      "prompt": "Are ___ cards yours?",
+      "options": ["those", "that", "this", "small"],
+      "answerIndex": 0,
+      "explanation": "Those is plural."
+    },
+    {
+      "id": "fin-a1-w16-24",
+      "type": "multipleChoice",
+      "prompt": "___ bank is very large.",
+      "options": ["That", "Those", "There is", "Fast"],
+      "answerIndex": 0,
+      "explanation": "That is singular."
+    },
+    {
+      "id": "fin-a1-w16-25",
+      "type": "multipleChoice",
+      "prompt": "There ___ a new ATM inside.",
+      "options": ["is", "are", "this", "that"],
+      "answerIndex": 0,
+      "explanation": "There is for singular."
+    },
+    {
+      "id": "fin-a1-w16-26",
+      "type": "multipleChoice",
+      "prompt": "There ___ many old coins in the box.",
+      "options": ["are", "is", "these", "those"],
+      "answerIndex": 0,
+      "explanation": "There are for plural."
+    },
+    {
+      "id": "fin-a1-w16-27",
+      "type": "multipleChoice",
+      "prompt": "The manager's office is ___ to the lobby.",
+      "options": ["next", "between", "inside", "large"],
+      "answerIndex": 0,
+      "explanation": "Next to is a preposition of place."
+    },
+    {
+      "id": "fin-a1-w16-28",
+      "type": "multipleChoice",
+      "prompt": "The ATM is ___ the two doors.",
+      "options": ["between", "next", "inside", "small"],
+      "answerIndex": 0,
+      "explanation": "Between is used for two things."
+    },
+    {
+      "id": "fin-a1-w16-29",
+      "type": "multipleChoice",
+      "prompt": "Put the money ___ the safe.",
+      "options": ["inside", "between", "next", "old"],
+      "answerIndex": 0,
+      "explanation": "Inside means dentro."
+    },
+    {
+      "id": "fin-a1-w16-30",
+      "type": "multipleChoice",
+      "prompt": "The bank is ___ the supermarket.",
+      "options": ["opposite", "between", "this", "fast"],
+      "answerIndex": 0,
+      "explanation": "Opposite means enfrente de."
+    },
+    {
+      "id": "fin-a1-w16-31",
+      "type": "multipleChoice",
+      "prompt": "This is a ___ receipt.",
+      "options": ["small", "fast", "slow", "these"],
+      "answerIndex": 0,
+      "explanation": "Small describes the receipt size."
+    },
+    {
+      "id": "fin-a1-w16-32",
+      "type": "multipleChoice",
+      "prompt": "Are those ___ bill counters?",
+      "options": ["new", "this", "that", "between"],
+      "answerIndex": 0,
+      "explanation": "New describes the counters."
+    },
+    {
+      "id": "fin-a1-w16-33",
+      "type": "multipleChoice",
+      "prompt": "The customer service is ___.",
+      "options": ["fast", "large", "this", "those"],
+      "answerIndex": 0,
+      "explanation": "Fast describes the speed of service."
+    },
+    {
+      "id": "fin-a1-w16-34",
+      "type": "multipleChoice",
+      "prompt": "These folders are ___.",
+      "options": ["large", "this", "that", "slow"],
+      "answerIndex": 0,
+      "explanation": "Large describes the folders."
+    },
+    {
+      "id": "fin-a1-w16-35",
+      "type": "multipleChoice",
+      "prompt": "I don't like ___ old office.",
+      "options": ["this", "these", "are", "is"],
+      "answerIndex": 0,
+      "explanation": "This is singular."
+    },
+    {
+      "id": "fin-a1-w16-36",
+      "type": "multipleChoice",
+      "prompt": "___ are new debit cards.",
+      "options": ["These", "This", "That", "Old"],
+      "answerIndex": 0,
+      "explanation": "These is plural."
+    },
+    {
+      "id": "fin-a1-w16-37",
+      "type": "multipleChoice",
+      "prompt": "There is a ___ bank in the city center.",
+      "options": ["large", "fast", "slow", "these"],
+      "answerIndex": 0,
+      "explanation": "Large describes the bank."
+    },
+    {
+      "id": "fin-a1-w16-38",
+      "type": "multipleChoice",
+      "prompt": "The connection is ___ today.",
+      "options": ["slow", "new", "small", "that"],
+      "answerIndex": 0,
+      "explanation": "Slow describes the speed."
+    },
+    {
+      "id": "fin-a1-w16-39",
+      "type": "multipleChoice",
+      "prompt": "Is there a ___ chair in the office?",
+      "options": ["small", "fast", "slow", "those"],
+      "answerIndex": 0,
+      "explanation": "Small describes the chair."
+    },
+    {
+      "id": "fin-a1-w16-40",
+      "type": "multipleChoice",
+      "prompt": "The vault is ___.",
+      "options": ["large", "fast", "this", "these"],
+      "answerIndex": 0,
+      "explanation": "Large describes the vault."
+    },
+    {
+      "id": "fin-a1-w16-41",
+      "type": "multipleChoice",
+      "prompt": "___ coins are very small.",
+      "options": ["Those", "That", "This", "There is"],
+      "answerIndex": 0,
+      "explanation": "Those is plural."
+    },
+    {
+      "id": "fin-a1-w16-42",
+      "type": "multipleChoice",
+      "prompt": "There are ___ new employees.",
+      "options": ["five", "this", "that", "slow"],
+      "answerIndex": 0,
+      "explanation": "Five is a number for plural."
+    },
+    {
+      "id": "fin-a1-w16-43",
+      "type": "multipleChoice",
+      "prompt": "The office is ___ the bank.",
+      "options": ["inside", "fast", "slow", "these"],
+      "answerIndex": 0,
+      "explanation": "Inside is a preposition."
+    },
+    {
+      "id": "fin-a1-w16-44",
+      "type": "multipleChoice",
+      "prompt": "This is an ___ computer.",
+      "options": ["old", "fast", "slow", "these"],
+      "answerIndex": 0,
+      "explanation": "Old starts with a vowel sound (an old)."
+    },
+    {
+      "id": "fin-a1-w16-45",
+      "type": "multipleChoice",
+      "prompt": "Is the new software ___?",
+      "options": ["fast", "small", "large", "those"],
+      "answerIndex": 0,
+      "explanation": "Fast describes the software."
+    },
+    {
+      "id": "fin-a1-w16-46",
+      "type": "multipleChoice",
+      "prompt": "Those boxes are very ___.",
+      "options": ["large", "this", "that", "slow"],
+      "answerIndex": 0,
+      "explanation": "Large describes the boxes."
+    },
+    {
+      "id": "fin-a1-w16-47",
+      "type": "multipleChoice",
+      "prompt": "There is a ___ desk in the corner.",
+      "options": ["small", "fast", "slow", "these"],
+      "answerIndex": 0,
+      "explanation": "Small describes the desk."
+    },
+    {
+      "id": "fin-a1-w16-48",
+      "type": "multipleChoice",
+      "prompt": "Is ___ your new wallet?",
+      "options": ["that", "those", "are", "between"],
+      "answerIndex": 0,
+      "explanation": "That is singular."
+    },
+    {
+      "id": "fin-a1-w16-49",
+      "type": "multipleChoice",
+      "prompt": "The bank is very ___ in the morning.",
+      "options": ["busy", "fast", "slow", "small"],
+      "answerIndex": 0,
+      "explanation": "Busy means con mucha gente (often used with banks)."
+    },
+    {
+      "id": "fin-a1-w16-50",
+      "type": "multipleChoice",
+      "prompt": "We have ___ many new accounts.",
+      "options": ["too", "this", "that", "those"],
+      "answerIndex": 0,
+      "explanation": "Too many means demasiados."
     }
   ]
 }
