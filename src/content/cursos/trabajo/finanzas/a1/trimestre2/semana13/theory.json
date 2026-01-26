@@ -1,0 +1,25 @@
+{
+  "title": "Precios y Compras de Oficina",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Vocabulario de Precios",
+      "content": "En esta lección aprenderemos a hablar de precios y objetos comunes de oficina.\n\n- **Price**: Precio\n- **Cost**: Coste / Costar\n- **Receipt**: Recibo / Factura simplificada\n- **Change**: Cambio (la vuelta)\n- **Budget**: Presupuesto\n- **Expensive**: Caro\n- **Cheap**: Barato"
+    },
+    {
+      "id": "grammar",
+      "title": "Gramática: There is / There are",
+      "content": "Usamos **There is** para singular y **There are** para plural.\n\n- **There is** a computer on the desk. (Hay un ordenador en la mesa)\n- **There are** three pens in the drawer. (Hay tres bolígrafos en el cajón)\n\nEn preguntas:\n- **Is there** a receipt? (¿Hay un recibo?)\n- **Are there** any stamps? (¿Hay sellos?)"
+    }
+  ],
+  "objectives": [
+    "Identificar vocabulario básico de precios y oficina",
+    "Utilizar 'There is' y 'There are' correctamente",
+    "Preguntar por el precio de objetos"
+  ],
+  "keyTerms": [
+    { "term": "Receipt", "definition": "A piece of paper that proves you paid for something." },
+    { "term": "Expensive", "definition": "Something that costs a lot of money." },
+    { "term": "Cheap", "definition": "Something that does not cost much money." }
+  ]
+}

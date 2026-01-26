@@ -1,0 +1,24 @@
+{
+  "title": "Comparación de Cuentas Bancarias",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Adjetivos para Comparar",
+      "content": "Palabras para describir y elegir el mejor producto financiero.\n\n- **Expensive**: Caro\n- **Cheap**: Barato\n- **High**: Alto\n- **Low**: Bajo\n- **Fast**: Rápido\n- **Safe**: Seguro\n- **Efficient**: Eficiente\n- **Convenient**: Conveniente / Práctico"
+    },
+    {
+      "id": "grammar",
+      "title": "Comparativos (Básico)",
+      "content": "Usamos los comparativos para decir que una cosa es 'más... que' otra.\n\n**Adjetivos cortos (+ er + than):**\n- This loan is **cheaper than** the other. (Este préstamo es más barato que el otro)\n- The interest rate is **higher than** last year. (El tipo de interés es más alto que el año pasado)\n\n**Adjetivos largos (more + adjective + than):**\n- This account is **more expensive than** that one. (Esta cuenta es más cara que esa)\n- Online banking is **more convenient than** visiting the branch. (La banca online es más práctica que visitar la sucursal)\n\n**Irregulares:**\n- Good -> **Better** (Mejor)\n- Bad -> **Worse** (Peor)"
+    }
+  ],
+  "objectives": [
+    "Comparar diferentes tipos de cuentas y servicios bancarios",
+    "Utilizar adjetivos comparativos regulares e irregulares",
+    "Expresar preferencias basadas en costos y beneficios"
+  ],
+  "keyTerms": [
+    { "term": "Interest rate", "definition": "The percentage of a sum of money charged for its use." },
+    { "term": "Benefits", "definition": "Advantages or positive features of a financial product." }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana14",
+  "title": "Ejercicios: Mercados de Capitales",
+  "items": [
+    {
+      "id": "fin-b2-w14-1",
+      "type": "multipleChoice",
+      "prompt": "If we ___ the risk earlier, we would have avoided the loss.",
+      "options": ["saw", "had seen", "would see", "have seen"],
+      "answerIndex": 1,
+      "explanation": "Third conditional: If + past perfect."
+    },
+    {
+      "id": "fin-b2-w14-2",
+      "type": "multipleChoice",
+      "prompt": "Gold and oil are examples of ___.",
+      "options": ["Stocks", "Bonds", "Commodities", "Derivatives"],
+      "answerIndex": 2,
+      "explanation": "Commodities are raw materials."
+    },
+    {
+      "id": "fin-b2-w14-3",
+      "type": "multipleChoice",
+      "prompt": "The investor ___ a profit if he had sold in January.",
+      "options": ["would make", "would have made", "had made", "will make"],
+      "answerIndex": 1,
+      "explanation": "Third conditional result: would have + past participle."
+    },
+    {
+      "id": "fin-b2-w14-4",
+      "type": "multipleChoice",
+      "prompt": "Options and futures are types of ___.",
+      "options": ["Equities", "Commodities", "Derivatives", "Fixed income"],
+      "answerIndex": 2,
+      "explanation": "Derivatives include options and futures."
+    },
+    {
+      "id": "fin-b2-w14-5",
+      "type": "multipleChoice",
+      "prompt": "If the audit ___ clear, the stock price wouldn't have fallen.",
+      "options": ["is", "was", "had been", "would be"],
+      "answerIndex": 2,
+      "explanation": "If + past perfect (had been)."
+    }
+  ]
+}

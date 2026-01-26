@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 2,
+  "weekId": "semana14",
+  "title": "Examen: Pagos con Tarjeta y Efectivo",
+  "items": [
+    {
+      "id": "fin-a1-w14-e1",
+      "type": "multipleChoice",
+      "prompt": "Can I ___ with credit card?",
+      "options": ["cost", "pay", "change", "receipt"],
+      "answerIndex": 1,
+      "explanation": "To pay (pagar) is the action."
+    },
+    {
+      "id": "fin-a1-w14-e2",
+      "type": "multipleChoice",
+      "prompt": "___ coins (in my hand) are heavy.",
+      "options": ["This", "That", "These", "Those"],
+      "answerIndex": 2,
+      "explanation": "These is for plural near."
+    },
+    {
+      "id": "fin-a1-w14-e3",
+      "type": "multipleChoice",
+      "prompt": "I lost my ___. All my cards are inside.",
+      "options": ["Wallet", "PIN", "Cash", "Price"],
+      "answerIndex": 0,
+      "explanation": "Wallet stores cards and money."
+    },
+    {
+      "id": "fin-a1-w14-e4",
+      "type": "multipleChoice",
+      "prompt": "___ receipt (on the counter far away) is for you.",
+      "options": ["This", "That", "These", "Those"],
+      "answerIndex": 1,
+      "explanation": "That is for singular far."
+    },
+    {
+      "id": "fin-a1-w14-e5",
+      "type": "multipleChoice",
+      "prompt": "You need a ___ to use the ATM.",
+      "options": ["Cash", "Change", "PIN", "Budget"],
+      "answerIndex": 2,
+      "explanation": "ATM requires a PIN."
+    }
+  ]
+}

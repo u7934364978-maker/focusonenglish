@@ -1,0 +1,48 @@
+{
+  "title": "Ejercicios: Problemas y Preguntas en Pasado",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What is the first thing you should do if your card is stolen?",
+      "options": [
+        "Go shopping",
+        "Call the bank to cancel it",
+        "Wait for two days",
+        "Buy a new wallet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "You must cancel a stolen card immediately to prevent fraud."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "________ (you / call) the security department? No, I ________ (not / have) the number.",
+      "answer": "Did you call / didn't have",
+      "explanation": "We use 'Did' for questions and 'didn't' for negatives in the past simple."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the problem with the action:",
+      "pairs": [
+        { "term": "Lost card", "definition": "Report and replace" },
+        { "term": "Unauthorized charge", "definition": "Dispute the transaction" },
+        { "term": "Forgot PIN", "definition": "Request a new one" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "Choose the correct negative sentence:",
+      "options": [
+        "I didn't lost my card.",
+        "I didn't lose my card.",
+        "I not lost my card.",
+        "I didn't losted my card."
+      ],
+      "correctAnswer": 1,
+      "explanation": "After 'didn't', we use the base form of the verb ('lose')."
+    }
+  ]
+}

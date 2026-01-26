@@ -1,0 +1,50 @@
+{
+  "title": "Examen: Inversión Sostenible y Reporting ESG",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is 'Greenwashing'?",
+      "options": [
+        "Investing only in renewable energy companies",
+        "The process of cleaning up environmental pollution",
+        "Making deceptive claims about the environmental benefits of a product or company",
+        "A tax break for companies that reduce their plastic use"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Greenwashing is a form of marketing spin in which PR and marketing are deceptively used to persuade the public that an organization's products, aims and policies are environmentally friendly."
+    },
+    {
+      "id": "q2",
+      "question": "Which sentence uses the subjunctive correctly?",
+      "options": [
+        "I insist that he stays until the meeting is over.",
+        "I insist that he stay until the meeting is over.",
+        "I insist him to stay until the meeting is over.",
+        "I insist that he is staying until the meeting is over."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Verbs like 'insist' require the subjunctive (bare infinitive) in formal 'that' clauses."
+    },
+    {
+      "id": "q3",
+      "question": "What does the 'S' in ESG stand for?",
+      "options": ["Sustainability", "Security", "Social", "Standardization"],
+      "correctAnswer": 2,
+      "explanation": "ESG stands for Environmental, Social, and Governance."
+    },
+    {
+      "id": "q4",
+      "question": "Which financial instrument is specifically designed to fund environmental projects?",
+      "options": ["High-yield bonds", "Green bonds", "Junk bonds", "Convertible bonds"],
+      "correctAnswer": 1,
+      "explanation": "Green bonds are fixed-income instruments specifically earmarked to raise money for climate and environmental projects."
+    },
+    {
+      "id": "q5",
+      "question": "Complete the instruction: 'The law requires that the board ________ the audit results.'",
+      "options": ["disclose", "discloses", "disclosing", "to disclose"],
+      "correctAnswer": 0,
+      "explanation": "The subjunctive 'disclose' is used after 'requires that'."
+    }
+  ]
+}

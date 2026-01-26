@@ -1,0 +1,45 @@
+{
+  "title": "Examen: Trámites de Apertura",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What do you call an account shared by two people?",
+      "options": ["Single account", "Shared account", "Joint account", "Double account"],
+      "correctAnswer": 2,
+      "explanation": "A joint account is a bank account held by two or more individuals."
+    },
+    {
+      "id": "q2",
+      "question": "Which of these is often a requirement to open an account?",
+      "options": ["A new car", "Proof of address", "A high school diploma", "A credit card from another bank"],
+      "correctAnswer": 1,
+      "explanation": "Proof of address is a standard requirement for verifying a customer's residence."
+    },
+    {
+      "id": "q3",
+      "question": "What is the past simple of 'open'?",
+      "options": ["Open", "Opening", "Opened", "Opens"],
+      "correctAnswer": 2,
+      "explanation": "'Open' is a regular verb, so we add -ed."
+    },
+    {
+      "id": "q4",
+      "question": "Complete the sentence: 'Last week, I ________ my monthly fee.'",
+      "options": ["pay", "paid", "pays", "paying"],
+      "correctAnswer": 1,
+      "explanation": "'Paid' is the irregular past simple of 'pay'."
+    },
+    {
+      "id": "q5",
+      "question": "What is a 'Monthly fee'?",
+      "options": [
+        "The money you earn every month",
+        "A charge the bank takes for maintaining the account",
+        "The interest you get from savings",
+        "The amount you deposit at the start"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A fee is a fixed charge for a service."
+    }
+  ]
+}

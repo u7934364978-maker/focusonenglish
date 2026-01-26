@@ -1,0 +1,24 @@
+{
+  "title": "Impuestos y Fiscalidad Básica",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Impuestos y Cumplimiento",
+      "content": "Aprenderemos a navegar por el sistema impositivo empresarial.\n\n- **VAT** (Value Added Tax): IVA\n- **Tax Return**: Declaración de impuestos\n- **Tax Refund**: Devolución de impuestos\n- **Corporate Tax**: Impuesto de sociedades\n- **Exempt**: Exento (de impuestos)\n- **Gross**: Bruto (antes de impuestos)\n- **Net**: Neto (después de impuestos)"
+    },
+    {
+      "id": "grammar",
+      "title": "Gramática: Zero Conditional",
+      "content": "Usamos el condicional cero para verdades universales, reglas y procesos automáticos.\n\nEstructura: **If + Present Simple, Present Simple**\n\n- **If** the company makes a profit, it **pays** corporate tax. (Si la empresa tiene beneficios, paga impuesto de sociedades)\n- **If** you are exempt, you **do not pay** VAT. (Si estás exento, no pagas IVA)\n- The price **is** gross **if** it includes taxes. (El precio es bruto si incluye impuestos)"
+    }
+  ],
+  "objectives": [
+    "Diferenciar entre términos fiscales básicos (VAT, Gross, Net)",
+    "Utilizar el condicional cero para reglas fiscales",
+    "Entender el proceso de una declaración de impuestos"
+  ],
+  "keyTerms": [
+    { "term": "VAT", "definition": "Value Added Tax, a tax on the amount by which the value of an article has been increased at each stage of its production or distribution." },
+    { "term": "Gross", "definition": "An amount of money before any taxes or costs have been taken away." }
+  ]
+}

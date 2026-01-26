@@ -1,0 +1,55 @@
+{
+  "title": "Examen: Números y Monedas",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the currency of the UK?",
+      "options": ["Dollar", "Euro", "Pound", "Yen"],
+      "correctAnswer": 2,
+      "explanation": "The currency of the United Kingdom is the British Pound (£)."
+    },
+    {
+      "id": "q2",
+      "question": "Select the correct number for 'Five hundred':",
+      "options": ["50", "500", "5,000", "500,000"],
+      "correctAnswer": 1,
+      "explanation": "Five hundred is 500."
+    },
+    {
+      "id": "q3",
+      "question": "Which sentence is correct?",
+      "options": [
+        "They is 20 dollars.",
+        "They am 20 dollars.",
+        "They are 20 dollars.",
+        "They be 20 dollars."
+      ],
+      "correctAnswer": 2,
+      "explanation": "We use 'are' with the pronoun 'they'."
+    },
+    {
+      "id": "q4",
+      "question": "What is 'Cash'?",
+      "options": [
+        "A credit card",
+        "Physical money (coins and notes)",
+        "A bank account",
+        "A financial report"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cash refers to money in the form of coins or notes."
+    },
+    {
+      "id": "q5",
+      "question": "How do you write $1,000,000 in words?",
+      "options": [
+        "One hundred thousand",
+        "One million",
+        "Ten million",
+        "One billion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$1,000,000 is one million dollars."
+    }
+  ]
+}

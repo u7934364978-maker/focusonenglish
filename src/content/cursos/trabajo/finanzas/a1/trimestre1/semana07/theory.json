@@ -1,0 +1,24 @@
+{
+  "title": "¿Quién trabaja en el banco?",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Profesiones en el Sector Financiero",
+      "content": "Conoceremos a las personas que trabajan con nosotros.\n\n- **Banker**: Banquero\n- **Cashier / Teller**: Cajero\n- **Manager**: Gerente\n- **Security Guard**: Guardia de seguridad\n- **Accountant**: Contable\n- **Assistant**: Asistente / Auxiliar\n- **Client / Customer**: Cliente"
+    },
+    {
+      "id": "grammar",
+      "title": "Wh-Questions (Preguntas de información)",
+      "content": "Para obtener información específica usamos palabras que empiezan por Wh-.\n\n- **Who**: Quién (e.g., *Who is the manager?*)\n- **What**: Qué (e.g., *What is your name?*)\n- **Where**: Dónde (e.g., *Where is the ATM?*)\n- **When**: Cuándo (e.g., *When does the bank open?*)\n\n**Estructura:**\n- **Wh- word + is + subject?**\n- **Wh- word + do/does + subject + verb?**"
+    }
+  ],
+  "objectives": [
+    "Identificar los roles profesionales dentro de una sucursal bancaria",
+    "Realizar preguntas de información utilizando 'Who', 'What', 'Where' y 'When'",
+    "Responder a preguntas básicas sobre el personal del banco"
+  ],
+  "keyTerms": [
+    { "term": "Staff", "definition": "All the people employed by a particular organization." },
+    { "term": "Role", "definition": "The function assumed or part played by a person in a particular situation." }
+  ]
+}

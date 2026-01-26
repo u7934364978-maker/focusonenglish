@@ -1,0 +1,50 @@
+{
+  "title": "Examen: Comparativa Financiera",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the comparative of 'expensive'?",
+      "options": ["Expensiver", "More expensive", "Most expensive", "Less expensiver"],
+      "correctAnswer": 1,
+      "explanation": "'Expensive' is a long adjective, so we use 'more'."
+    },
+    {
+      "id": "q2",
+      "question": "If Account A has a $5 fee and Account B has a $10 fee, Account A is:",
+      "options": ["Cheaper than Account B", "More expensive than Account B", "Higher than Account B", "Worse than Account B"],
+      "correctAnswer": 0,
+      "explanation": "A lower fee means the product is cheaper."
+    },
+    {
+      "id": "q3",
+      "question": "Which sentence is correct?",
+      "options": [
+        "Gold is more better than silver.",
+        "Gold is better than silver.",
+        "Gold is more good than silver.",
+        "Gold is gooder than silver."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Better' is already comparative, it doesn't need 'more'."
+    },
+    {
+      "id": "q4",
+      "question": "The ATM is ________ than going into the office.",
+      "options": ["more fast", "fast", "faster", "fastest"],
+      "correctAnswer": 2,
+      "explanation": "We use 'faster' to compare the speed of two things."
+    },
+    {
+      "id": "q5",
+      "question": "What does 'Low interest rate' usually mean for a borrower?",
+      "options": [
+        "It is more expensive to borrow money",
+        "It is cheaper to borrow money",
+        "The bank is very far away",
+        "The account is blocked"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A low interest rate means you pay less for the money you borrow."
+    }
+  ]
+}

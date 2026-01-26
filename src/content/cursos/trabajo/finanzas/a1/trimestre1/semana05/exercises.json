@@ -1,0 +1,48 @@
+{
+  "title": "Ejercicios: Horarios y Días",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "Which day comes after Tuesday?",
+      "options": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The order is Monday, Tuesday, Wednesday..."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "The bank ________ (open) at 8:30 and ________ (close) at 14:00.",
+      "answer": "opens / closes",
+      "explanation": "We add 's' to the verb for singular subjects like 'the bank'."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the term with the days:",
+      "pairs": [
+        { "term": "Weekdays", "definition": "Monday to Friday" },
+        { "term": "Weekend", "definition": "Saturday and Sunday" },
+        { "term": "Today", "definition": "The current day" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "The manager open the bank.",
+        "The manager opens the bank.",
+        "The manager opening the bank.",
+        "The manager are open the bank."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Manager (He/She) takes the 's' in Present Simple."
+    }
+  ]
+}

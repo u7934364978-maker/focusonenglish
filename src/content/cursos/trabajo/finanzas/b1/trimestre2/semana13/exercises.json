@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 2,
+  "weekId": "semana13",
+  "title": "Ejercicios: Facturación y Pagos Internacionales",
+  "items": [
+    {
+      "id": "fin-b1-w13-1",
+      "type": "multipleChoice",
+      "prompt": "Money that a company owes to its suppliers is called ___.",
+      "options": ["Accounts Receivable", "Accounts Payable", "Invoicing", "Wire Transfer"],
+      "answerIndex": 1,
+      "explanation": "Accounts Payable represents the company's short-term debts."
+    },
+    {
+      "id": "fin-b1-w13-2",
+      "type": "multipleChoice",
+      "prompt": "The wire transfer ___ by the bank this morning.",
+      "options": ["processed", "is processed", "was processed", "has process"],
+      "answerIndex": 2,
+      "explanation": "Past passive: was + past participle."
+    },
+    {
+      "id": "fin-b1-w13-3",
+      "type": "multipleChoice",
+      "prompt": "What is the 'due date' of an invoice?",
+      "options": ["The date it was sent", "The date the payment must be made", "The date the goods were made", "The date of the meeting"],
+      "answerIndex": 1,
+      "explanation": "The due date is the deadline for payment."
+    },
+    {
+      "id": "fin-b1-w13-4",
+      "type": "multipleChoice",
+      "prompt": "All transactions ___ in the general ledger.",
+      "options": ["are recorded", "is recorded", "record", "recording"],
+      "answerIndex": 0,
+      "explanation": "Present passive: are (plural) + past participle."
+    },
+    {
+      "id": "fin-b1-w13-5",
+      "type": "multipleChoice",
+      "prompt": "A 'wire transfer' is usually used for:",
+      "options": ["Paying in cash", "International or large electronic payments", "Buying office supplies with coins", "Sending a letter"],
+      "answerIndex": 1,
+      "explanation": "Wire transfers are electronic fund transfers."
+    }
+  ]
+}

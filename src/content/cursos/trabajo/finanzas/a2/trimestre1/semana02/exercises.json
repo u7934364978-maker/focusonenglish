@@ -1,0 +1,48 @@
+{
+  "title": "Ejercicios: Transacciones e Irregulares",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What is the past simple of 'buy'?",
+      "options": [
+        "Buyed",
+        "Bought",
+        "Boughted",
+        "Buying"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Buy' is an irregular verb: buy - bought."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "Last Monday, I ________ (send) a transfer to my landlord and I ________ (pay) the electricity bill.",
+      "answer": "sent / paid",
+      "explanation": "The past of 'send' is 'sent' and 'pay' is 'paid'."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the transaction with its action:",
+      "pairs": [
+        { "term": "Withdrawal", "definition": "Taking money out" },
+        { "term": "Deposit", "definition": "Putting money in" },
+        { "term": "Transfer", "definition": "Moving money to another account" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "Where can you see all your past transactions?",
+      "options": [
+        "On a credit card",
+        "In a bank statement",
+        "At the ATM",
+        "In a savings book"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A bank statement lists all transactions for a specific period."
+    }
+  ]
+}

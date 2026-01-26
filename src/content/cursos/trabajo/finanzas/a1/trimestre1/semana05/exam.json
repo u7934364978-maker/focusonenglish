@@ -1,0 +1,45 @@
+{
+  "title": "Examen: Tiempo y Horarios Bancarios",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What are 'Opening hours'?",
+      "options": [
+        "The time when the bank is closed",
+        "The time when the bank is available for customers",
+        "The lunch break of the employees",
+        "The time the manager arrives at home"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Opening hours are the hours during which a business is open to the public."
+    },
+    {
+      "id": "q2",
+      "question": "Select the correct plural form: 'The banks ________ on Saturdays.'",
+      "options": ["open", "opens", "opening", "are open"],
+      "correctAnswer": 0,
+      "explanation": "With plural subjects (the banks), we don't add 's' to the verb."
+    },
+    {
+      "id": "q3",
+      "question": "Which day is part of the 'Weekend'?",
+      "options": ["Wednesday", "Monday", "Sunday", "Thursday"],
+      "correctAnswer": 2,
+      "explanation": "The weekend consists of Saturday and Sunday."
+    },
+    {
+      "id": "q4",
+      "question": "Complete the sentence: 'The ATM ________ 24 hours a day.'",
+      "options": ["work", "works", "working", "is work"],
+      "correctAnswer": 1,
+      "explanation": "The ATM (It) takes the 's' ending in the present simple."
+    },
+    {
+      "id": "q5",
+      "question": "How do you say 'Jueves' in English?",
+      "options": ["Tuesday", "Thursday", "Tuesday", "Friday"],
+      "correctAnswer": 1,
+      "explanation": "Jueves is Thursday."
+    }
+  ]
+}

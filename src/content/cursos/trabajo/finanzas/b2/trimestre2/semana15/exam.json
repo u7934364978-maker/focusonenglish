@@ -1,0 +1,50 @@
+{
+  "title": "Examen: Finanzas Internacionales y Riesgo de Divisa",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the term for making an investment to reduce the risk of adverse price movements?",
+      "options": ["Arbitrage", "Hedging", "Speculation", "Leverage"],
+      "correctAnswer": 1,
+      "explanation": "'Hedging' is a strategy used to offset potential losses in one investment by making another."
+    },
+    {
+      "id": "q2",
+      "question": "Which term refers to the current value of one currency for immediate conversion to another?",
+      "options": ["Forward Rate", "Spot Rate", "Interest Rate", "Discount Rate"],
+      "correctAnswer": 1,
+      "explanation": "The 'Spot Rate' is the price quoted for immediate settlement on a currency, security, or commodity."
+    },
+    {
+      "id": "q3",
+      "question": "Complete the sentence: 'By the end of the fiscal year, our portfolio ________ in value.'",
+      "options": ["will increase", "will have increased", "increases", "is increasing"],
+      "correctAnswer": 1,
+      "explanation": "We use the Future Perfect ('will have increased') to describe an action that will be completed by a specific time in the future."
+    },
+    {
+      "id": "q4",
+      "question": "What does 'Arbitrage' involve?",
+      "options": [
+        "Buying insurance against losses",
+        "Predicting future interest rates",
+        "Taking advantage of price differences in different markets",
+        "Setting long-term financial goals"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Arbitrage is the simultaneous purchase and sale of an asset to profit from an imbalance in the price."
+    },
+    {
+      "id": "q5",
+      "question": "Select the correct Future Perfect question:",
+      "options": [
+        "Will you have finalized the audit by Friday?",
+        "Do you have finalized the audit by Friday?",
+        "Will you finalize the audit by Friday?",
+        "Have you finalize the audit by Friday?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The structure for Future Perfect questions is 'Will + subject + have + past participle'."
+    }
+  ]
+}

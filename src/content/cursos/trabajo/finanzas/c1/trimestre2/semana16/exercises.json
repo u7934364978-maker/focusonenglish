@@ -1,0 +1,48 @@
+{
+  "title": "Ejercicios: Cumplimiento y Lenguaje Preciso",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "The regulation states that banks ________ maintain a minimum liquidity ratio at all times.",
+      "options": [
+        "shall",
+        "might",
+        "could",
+        "should probably"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Shall' is the standard legal term for a mandatory requirement."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "The merger will be approved ________ (provided / that) the firm sells its subsidiary.",
+      "answer": "provided that",
+      "explanation": "'Provided that' introduces a necessary condition."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the term with its regulatory focus:",
+      "pairs": [
+        { "term": "Basel III", "definition": "Banking capital and liquidity" },
+        { "term": "Solvency II", "definition": "Insurance company regulation" },
+        { "term": "Stress Testing", "definition": "Evaluating resilience to economic shocks" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "Failure to comply with AML (Anti-Money Laundering) rules ________ in heavy fines.",
+      "options": [
+        "results",
+        "may result",
+        "shall result",
+        "resulted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'May result' is used when a consequence is possible but depends on the regulator's decision."
+    }
+  ]
+}

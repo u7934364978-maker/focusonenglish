@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana13",
+  "title": "Ejercicios: Gestión de Carteras y Diversificación",
+  "items": [
+    {
+      "id": "fin-b2-w13-1",
+      "type": "multipleChoice",
+      "prompt": "If we ___ more in bonds, our portfolio would be safer.",
+      "options": ["invest", "invested", "would invest", "investing"],
+      "answerIndex": 1,
+      "explanation": "Second conditional: If + past simple."
+    },
+    {
+      "id": "fin-b2-w13-2",
+      "type": "multipleChoice",
+      "prompt": "What is 'Portfolio Rebalancing'?",
+      "options": ["Selling all assets", "Adjusting asset weights back to the original plan", "Asking for a new loan", "Changing the bank manager"],
+      "answerIndex": 1,
+      "explanation": "Rebalancing ensures the asset allocation stays within the target risk levels."
+    },
+    {
+      "id": "fin-b2-w13-3",
+      "type": "multipleChoice",
+      "prompt": "We ___ achieve a higher yield if we accepted more risk.",
+      "options": ["will", "would", "are going", "did"],
+      "answerIndex": 1,
+      "explanation": "Second conditional result clause: would + verb."
+    },
+    {
+      "id": "fin-b2-w13-4",
+      "type": "multipleChoice",
+      "prompt": "A 'benchmark' is used to:",
+      "options": ["Calculate taxes", "Compare portfolio performance against a market index", "Store physical cash", "Print bank statements"],
+      "answerIndex": 1,
+      "explanation": "A benchmark like the S&P 500 is a standard for comparison."
+    },
+    {
+      "id": "fin-b2-w13-5",
+      "type": "multipleChoice",
+      "prompt": "If a client ___ low risk tolerance, we would avoid stocks.",
+      "options": ["have", "had", "has", "having"],
+      "answerIndex": 1,
+      "explanation": "If + past simple (had)."
+    }
+  ]
+}

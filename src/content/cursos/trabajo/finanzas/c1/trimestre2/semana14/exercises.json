@@ -1,0 +1,48 @@
+{
+  "title": "Ejercicios: Ética y Conectores Persuasivos",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "________ the market volatility, our long-term strategy remains unchanged.",
+      "options": [
+        "Albeit",
+        "Notwithstanding",
+        "Furthermore",
+        "Accordingly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Notwithstanding' means 'in spite of' and is formal."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "The CEO resigned ________ (on / grounds / that) he wanted to spend more time with family, but many suspect a conflict of interest.",
+      "answer": "on the grounds that",
+      "explanation": "'On the grounds that' is a formal way to express the reason for something."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the term with its ethical context:",
+      "pairs": [
+        { "term": "Fiduciary Duty", "definition": "Legal obligation to act in best interest" },
+        { "term": "Whistleblowing", "definition": "Reporting illegal activity" },
+        { "term": "Transparency", "definition": "Operating in an open and clear manner" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "The investment was successful, ________ the returns were lower than expected.",
+      "options": [
+        "notwithstanding",
+        "albeit",
+        "moreover",
+        "consequently"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Albeit' is used to introduce a concessive clause."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Gestión de Carteras y Diversificación",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Gestión de Activos",
+      "content": "En este nivel exploramos la gestión profesional de inversiones.\n\n- **Asset Allocation**: Asignación de activos\n- **Diversification**: Diversificación (no poner todos los huevos en la misma cesta)\n- **Portfolio Rebalancing**: Reequilibrio de cartera\n- **Risk Tolerance**: Tolerancia al riesgo\n- **Benchmark**: Punto de referencia (ej. S&P 500)\n- **Yield**: Rendimiento / Rentabilidad"
+    },
+    {
+      "id": "grammar",
+      "title": "Gramática: Second Conditional for Risk Simulations",
+      "content": "Usamos el segundo condicional para hablar de situaciones hipotéticas en el presente o futuro.\n\nEstructura: **If + Past Simple, would + Verb**\n\n- **If** the market **crashed** tomorrow, we **would lose** 10%. (Si el mercado cayera mañana, perderíamos un 10%)\n- **If** we **rebalanced** the portfolio now, we **would reduce** risk. (Si reequilibráramos la cartera ahora, reduciríamos el riesgo)\n- **What would happen if** interest rates **rose** suddenly? (¿Qué pasaría si los tipos de interés subieran de repente?)"
+    }
+  ],
+  "objectives": [
+    "Comprender la importancia de la diversificación de activos",
+    "Utilizar el segundo condicional para simular escenarios de riesgo",
+    "Analizar la tolerancia al riesgo de un inversor"
+  ],
+  "keyTerms": [
+    { "term": "Asset Allocation", "definition": "The implementation of an investment strategy that attempts to balance risk versus reward by adjusting the percentage of each asset in an investment portfolio." },
+    { "term": "Diversification", "definition": "A risk management strategy that mixes a wide variety of investments within a portfolio." }
+  ]
+}

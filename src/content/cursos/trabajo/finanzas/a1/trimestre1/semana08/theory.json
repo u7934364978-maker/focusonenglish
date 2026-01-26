@@ -1,0 +1,24 @@
+{
+  "title": "Acciones Diarias en el Banco",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Verbos de Acción",
+      "content": "Lo que hacemos todos los días en nuestro puesto de trabajo.\n\n- **To pay**: Pagar\n- **To withdraw**: Retirar (dinero)\n- **To deposit**: Depositar\n- **To sign**: Firmar\n- **To help**: Ayudar\n- **To talk**: Hablar\n- **To check**: Comprobar / Revisar"
+    },
+    {
+      "id": "grammar",
+      "title": "Consolidación: Present Simple",
+      "content": "Repasamos las tres formas (Afirmativa, Negativa e Interrogativa).\n\n**Afirmativa:**\n- I **work** in the bank. / He **works** in the bank.\n\n**Negativa:**\n- I **don't work** here. / He **doesn't work** here.\n\n**Interrogativa:**\n- **Do** you **work** here? / **Does** he **work** here?\n\n**Respuestas Cortas:**\n- Yes, I **do**. / No, I **don't**.\n- Yes, he **does**. / No, he **doesn't**."
+    }
+  ],
+  "objectives": [
+    "Describir tareas diarias básicas utilizando verbos financieros",
+    "Dominar las estructuras afirmativas, negativas e interrogativas del presente simple",
+    "Responder correctamente a preguntas cerradas sobre el trabajo diario"
+  ],
+  "keyTerms": [
+    { "term": "Daily routine", "definition": "The things that you do every day at the same time." },
+    { "term": "Task", "definition": "A piece of work to be done or undertaken." }
+  ]
+}

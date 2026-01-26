@@ -1,0 +1,24 @@
+{
+  "title": "Inversión Sostenible (ESG) y Reporting",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "ESG (Environmental, Social, and Governance)",
+      "content": "La inversión sostenible integra factores no financieros en el análisis de inversiones.\n\n- **ESG**: Ambiental, Social y de Gobernanza.\n- **Green Bonds**: Bonos verdes (para proyectos climáticos o ambientales).\n- **Impact Investing**: Inversión de impacto (genera beneficios sociales y financieros).\n- **Net Zero**: Emisiones netas cero.\n- **Sustainability Reporting**: Informes de sostenibilidad.\n- **Greenwashing**: Ecoblanqueo (engañar sobre lo respetuosa que es una empresa con el medio ambiente)."
+    },
+    {
+      "id": "grammar",
+      "title": "Subjunctive for Formal Recommendations and Mandates",
+      "content": "El subjuntivo se usa en inglés formal para expresar sugerencias fuertes, requerimientos o mandatos.\n\n**Estructura: Verb (suggest, insist, require, etc.) + THAT + Subject + Bare Infinitive (verbo sin 's' ni 'to')**\n\n- The committee **recommends that** the CEO **implement** ESG policies. (El comité recomienda que el CEO implemente políticas ESG)\n- It is **essential that** she **be** present at the board meeting. (Es esencial que ella esté presente en la reunión de la junta)\n- The law **requires that** companies **disclose** their carbon footprint. (La ley requiere que las empresas revelen su huella de carbono)"
+    }
+  ],
+  "objectives": [
+    "Evaluar la importancia de los criterios ESG en la valoración de empresas",
+    "Identificar prácticas de 'greenwashing' en el mercado",
+    "Emplear el modo subjuntivo en contextos de mandatos corporativos y regulatorios"
+  ],
+  "keyTerms": [
+    { "term": "Carbon Credits", "definition": "A permit that allows the company that holds it to emit a certain amount of carbon dioxide or other greenhouse gases." },
+    { "term": "Fiduciary Responsibility", "definition": "The legal duty of a person or organization to manage money or property for another in a way that is beneficial to them." }
+  ]
+}

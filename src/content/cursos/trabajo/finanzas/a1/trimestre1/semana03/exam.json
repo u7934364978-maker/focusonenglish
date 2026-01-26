@@ -1,0 +1,65 @@
+{
+  "title": "Examen: Información Personal y Preguntas",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What does 'DOB' usually mean on a form?",
+      "options": [
+        "Department of Banking",
+        "Date of Birth",
+        "Division of Business",
+        "Dollar or Bill"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DOB is a common abbreviation for Date of Birth."
+    },
+    {
+      "id": "q2",
+      "question": "Which question is correct to ask for an ID?",
+      "options": [
+        "Is this your ID card?",
+        "Are this your ID card?",
+        "Am this your ID card?",
+        "Be this your ID card?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We use 'Is' with 'this' (singular)."
+    },
+    {
+      "id": "q3",
+      "question": "Where do you write your name at the end of a document?",
+      "options": [
+        "In the Address section",
+        "In the Signature section",
+        "In the Date section",
+        "In the ID section"
+      ],
+      "correctAnswer": 1,
+      "explanation": "You sign your name in the Signature section."
+    },
+    {
+      "id": "q4",
+      "question": "If someone asks 'Are they managers?', what is a correct negative short answer?",
+      "options": [
+        "No, they isn't.",
+        "No, they aren't.",
+        "No, they not are.",
+        "No, they don't."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The negative short answer for 'Are they...?' is 'No, they aren't'."
+    },
+    {
+      "id": "q5",
+      "question": "What is 'Address'?",
+      "options": [
+        "Your name",
+        "Where you live",
+        "Your phone number",
+        "Your email"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Address is the place where a person lives or an organization is situated."
+    }
+  ]
+}

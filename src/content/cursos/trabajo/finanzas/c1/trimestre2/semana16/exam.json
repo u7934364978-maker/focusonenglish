@@ -1,0 +1,60 @@
+{
+  "title": "Examen: Regulación Financiera Global",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which regulatory framework primarily addresses the capital adequacy of insurance companies in the EU?",
+      "options": ["Basel III", "Solvency II", "Dodd-Frank Act", "MiFID II"],
+      "correctAnswer": 1,
+      "explanation": "Solvency II is a Directive in EU law that codifies and harmonizes the EU insurance regulation."
+    },
+    {
+      "id": "q2",
+      "question": "What is the main purpose of 'Stress Testing'?",
+      "options": [
+        "To reduce the number of employees in a bank",
+        "To evaluate how a financial institution handles adverse economic conditions",
+        "To calculate the annual bonuses of the board members",
+        "To test the speed of the bank's internet connection"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stress tests are simulations used to determine whether a financial institution has enough capital to withstand an economic crisis."
+    },
+    {
+      "id": "q3",
+      "question": "What does 'Tier 1 Capital' represent?",
+      "options": [
+        "The total value of loans given to customers",
+        "The bank's core capital, including common stock and retained earnings",
+        "Money borrowed from other central banks",
+        "The physical assets like buildings and equipment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tier 1 capital is the primary measure of a bank's financial strength from a regulator's point of view."
+    },
+    {
+      "id": "q4",
+      "question": "In a legal or regulatory text, what does 'shall' indicate?",
+      "options": [
+        "A possibility",
+        "A strong recommendation",
+        "A mandatory requirement",
+        "A past action"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Shall' is used to express a command or a mandatory obligation."
+    },
+    {
+      "id": "q5",
+      "question": "What is 'Systemic Risk'?",
+      "options": [
+        "The risk of a single computer system failing",
+        "The risk of a small business going bankrupt",
+        "The risk that the failure of one entity will cause a whole industry or economy to collapse",
+        "The risk of human error in accounting"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Systemic risk is the possibility that an event at the company level could trigger severe instability or collapse an entire industry or economy."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "A2",
+  "trimester": 2,
+  "weekId": "semana13",
+  "title": "Ejercicios: Objetos de Ahorro y Presupuestos",
+  "items": [
+    {
+      "id": "fin-a2-w13-1",
+      "type": "multipleChoice",
+      "prompt": "I want to buy a car, so I am ___ money.",
+      "options": ["spending", "saving", "budgeting", "going to"],
+      "answerIndex": 1,
+      "explanation": "Saving money is necessary to buy something expensive."
+    },
+    {
+      "id": "fin-a2-w13-2",
+      "type": "multipleChoice",
+      "prompt": "They ___ to open a new savings account.",
+      "options": ["go", "going", "are going", "is going"],
+      "answerIndex": 2,
+      "explanation": "Plural 'They' needs 'are going to'."
+    },
+    {
+      "id": "fin-a2-w13-3",
+      "type": "multipleChoice",
+      "prompt": "My monthly ___ are higher than my income.",
+      "options": ["savings", "budgets", "expenses", "goals"],
+      "answerIndex": 2,
+      "explanation": "Expenses are the money you spend."
+    },
+    {
+      "id": "fin-a2-w13-4",
+      "type": "multipleChoice",
+      "prompt": "She ___ buy a new laptop next month.",
+      "options": ["is going to", "are going to", "am going to", "goes to"],
+      "answerIndex": 0,
+      "explanation": "Singular 'She' needs 'is going to'."
+    },
+    {
+      "id": "fin-a2-w13-5",
+      "type": "multipleChoice",
+      "prompt": "A ___ is a plan for your money.",
+      "options": ["goal", "budget", "expense", "income"],
+      "answerIndex": 1,
+      "explanation": "A budget is a financial plan."
+    }
+  ]
+}

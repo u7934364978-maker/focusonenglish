@@ -1,0 +1,24 @@
+{
+  "title": "Gobierno Corporativo y Ética Profesional",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Corporate Governance and Ethics",
+      "content": "El gobierno corporativo es el sistema por el cual las empresas son dirigidas y controladas.\n\n- **Fiduciary Duty**: Deber fiduciario (obligación legal de actuar en el mejor interés de otro).\n- **Board of Directors**: Junta Directiva / Consejo de Administración.\n- **Stakeholders**: Partes interesadas (empleados, clientes, comunidad, etc.).\n- **Whistleblowing**: Denuncia de irregularidades (informar sobre actividades ilegales o poco éticas).\n- **Conflict of Interest**: Conflicto de intereses.\n- **Transparency and Accountability**: Transparencia y rendición de cuentas."
+    },
+    {
+      "id": "grammar",
+      "title": "Advanced Linking Words for Persuasive Arguments",
+      "content": "Para convencer a una junta directiva o a inversores, necesitamos conectores sofisticados.\n\n**Concesión y Contraste:**\n- **Notwithstanding**: A pesar de / No obstante. (e.g., *Notwithstanding the recent losses, we are optimistic.*)\n- **Albeit**: Aunque / Si bien. (e.g., *The progress was steady, albeit slow.*)\n\n**Adición y Refuerzo:**\n- **Moreover / Furthermore**: Además / Es más.\n- **Not only... but also**: No solo... sino también.\n\n**Causa y Efecto:**\n- **Accordingly**: En consecuencia / Por consiguiente.\n- **Consequently**: Como resultado.\n- **On the grounds that**: Bajo la premisa de que / Debido a que."
+    }
+  ],
+  "objectives": [
+    "Discutir los principios del buen gobierno corporativo",
+    "Evaluar dilemas éticos en el entorno financiero",
+    "Utilizar conectores avanzados para estructurar argumentos persuasivos"
+  ],
+  "keyTerms": [
+    { "term": "Stewardship", "definition": "The responsible oversight and management of resources entrusted to a person or entity." },
+    { "term": "Code of Conduct", "definition": "A set of rules outlining the social norms and religious rules and responsibilities of, or proper practices for, an individual, party or organization." }
+  ]
+}

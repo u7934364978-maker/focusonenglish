@@ -1,0 +1,24 @@
+{
+  "title": "Predicciones Económicas",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Tendencias del Mercado",
+      "content": "Aprenderemos a describir lo que sucede en la economía.\n\n- **Inflation**: Inflación\n- **Growth**: Crecimiento\n- **Market**: Mercado\n- **Trend**: Tendencia\n- **Increase / Go up**: Aumentar / Subir\n- **Decrease / Go down**: Disminuir / Bajar"
+    },
+    {
+      "id": "grammar",
+      "title": "Gramática: Predicciones con Will",
+      "content": "Usamos **Will** para hacer predicciones sobre el futuro basadas en lo que creemos o en tendencias.\n\n- I think inflation **will** go up next year. (Creo que la inflación subirá el año que viene)\n- The market **will** grow by 2%. (El mercado crecerá un 2%)\n- Interest rates **will not** decrease this month. (Los tipos de interés no bajarán este mes)"
+    }
+  ],
+  "objectives": [
+    "Identificar términos económicos básicos",
+    "Hacer predicciones sobre el mercado usando 'will'",
+    "Describir tendencias ascendentes y descendentes"
+  ],
+  "keyTerms": [
+    { "term": "Inflation", "definition": "A general increase in prices and fall in the purchasing value of money." },
+    { "term": "Trend", "definition": "A general direction in which something is developing or changing." }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Ejercicios: Profesiones y Preguntas",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "Who helps you with cash at the counter?",
+      "options": [
+        "The security guard",
+        "The teller",
+        "The customer",
+        "The accountant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A teller (or cashier) handles cash transactions at the counter."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "A: ________ is the manager? B: He is in his office. A: ________ is his name? B: His name is Mr. Smith.",
+      "answer": "Where / What",
+      "explanation": "'Where' asks for location and 'What' asks for identity/name."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the profession with the task:",
+      "pairs": [
+        { "term": "Security Guard", "definition": "Protects the bank" },
+        { "term": "Accountant", "definition": "Manages the books/numbers" },
+        { "term": "Assistant", "definition": "Helps the manager" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "Choose the correct question to ask about time:",
+      "options": [
+        "Who does the bank close?",
+        "Where does the bank close?",
+        "When does the bank close?",
+        "What does the bank close?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "We use 'When' to ask about time."
+    }
+  ]
+}

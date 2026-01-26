@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 2,
+  "weekId": "semana15",
+  "title": "Ejercicios: Impuestos y Fiscalidad Básica",
+  "items": [
+    {
+      "id": "fin-b1-w15-1",
+      "type": "multipleChoice",
+      "prompt": "If a product is ___, you don't pay VAT on it.",
+      "options": ["Gross", "Net", "Exempt", "Refund"],
+      "answerIndex": 2,
+      "explanation": "Exempt means not subject to a particular tax."
+    },
+    {
+      "id": "fin-b1-w15-2",
+      "type": "multipleChoice",
+      "prompt": "If you pay too much tax, the government ___ you a refund.",
+      "options": ["gives", "giving", "give", "gave"],
+      "answerIndex": 0,
+      "explanation": "Zero conditional (general rule): If + present, present."
+    },
+    {
+      "id": "fin-b1-w15-3",
+      "type": "multipleChoice",
+      "prompt": "Your 'take-home' pay after taxes is your ___ salary.",
+      "options": ["Gross", "Net", "VAT", "Exempt"],
+      "answerIndex": 1,
+      "explanation": "Net income is the amount remaining after deductions."
+    },
+    {
+      "id": "fin-b1-w15-4",
+      "type": "multipleChoice",
+      "prompt": "Companies must submit a tax ___ every year.",
+      "options": ["Refund", "Return", "Exempt", "Net"],
+      "answerIndex": 1,
+      "explanation": "A tax return is a document for reporting income and taxes."
+    },
+    {
+      "id": "fin-b1-w15-5",
+      "type": "multipleChoice",
+      "prompt": "What does VAT stand for?",
+      "options": ["Value Added Tax", "Variable Asset Transfer", "Virtual Account Total", "Very Accurate Tax"],
+      "answerIndex": 0,
+      "explanation": "VAT is the standard abbreviation for Value Added Tax."
+    }
+  ]
+}

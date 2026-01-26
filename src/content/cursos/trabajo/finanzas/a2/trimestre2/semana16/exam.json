@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "A2",
+  "trimester": 2,
+  "weekId": "semana16",
+  "title": "Examen: Predicciones Económicas",
+  "items": [
+    {
+      "id": "fin-a2-w16-e1",
+      "type": "multipleChoice",
+      "prompt": "We expect a 3% ___ in the economy.",
+      "options": ["inflation", "growth", "trend", "policy"],
+      "answerIndex": 1,
+      "explanation": "Growth (crecimiento) is positive economic progress."
+    },
+    {
+      "id": "fin-a2-w16-e2",
+      "type": "multipleChoice",
+      "prompt": "Inflation ___ probably increase in June.",
+      "options": ["will", "is", "goes", "does"],
+      "answerIndex": 0,
+      "explanation": "Will + probably is common for predictions."
+    },
+    {
+      "id": "fin-a2-w16-e3",
+      "type": "multipleChoice",
+      "prompt": "The current ___ is to invest in green energy.",
+      "options": ["inflation", "trend", "claim", "premium"],
+      "answerIndex": 1,
+      "explanation": "Trend refers to what is popular or common now."
+    },
+    {
+      "id": "fin-a2-w16-e4",
+      "type": "multipleChoice",
+      "prompt": "Do you think interest rates ___ go up?",
+      "options": ["will", "are", "do", "going to"],
+      "answerIndex": 0,
+      "explanation": "Question about a future prediction."
+    },
+    {
+      "id": "fin-a2-w16-e5",
+      "type": "multipleChoice",
+      "prompt": "A lot of people ___ lose money if the market crashes.",
+      "options": ["will", "going to", "do", "are"],
+      "answerIndex": 0,
+      "explanation": "Prediction about a possible consequence."
+    }
+  ]
+}

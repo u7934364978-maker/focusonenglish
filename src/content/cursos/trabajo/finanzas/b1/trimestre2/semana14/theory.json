@@ -1,20 +1,24 @@
 {
-  "title": "Stock Market and Investments",
+  "title": "Creación y Control de Presupuestos",
   "sections": [
     {
-      "id": "stock-market-basics",
-      "title": "Understanding the Stock Market",
-      "content": "The stock market is a place where shares of public-listed companies are issued, bought and sold.\n\n### Key Investment Terms\n- **Stock / Share**: A unit of ownership in a company.\n- **Dividend**: A sum of money paid regularly by a company to its shareholders out of its profits.\n- **Portfolio**: A range of investments held by a person or organization.\n- **Bull Market**: A market in which share prices are rising, encouraging buying.\n- **Bear Market**: A market in which prices are falling, encouraging selling.\n- **Broker**: A person or firm that arranges transactions between a buyer and a seller for a commission."
+      "id": "vocab",
+      "title": "Presupuestos y Gastos",
+      "content": "Aprenderemos a gestionar los recursos financieros de un departamento.\n\n- **Budget Allocation**: Asignación presupuestaria\n- **Expenditure**: Gasto / Desembolso\n- **Overhead Costs**: Gastos generales (luz, alquiler, etc.)\n- **Cash Flow**: Flujo de caja\n- **Shortfall**: Déficit / Escasez de fondos\n- **Surplus**: Superávit / Excedente"
     },
     {
-      "id": "investment-strategies",
-      "title": "Investment Strategies",
-      "content": "Professional banking involves advising clients on how to grow their wealth:\n- **Asset Allocation**: The implementation of an investment strategy that attempts to balance risk versus reward.\n- **Diversification**: The process of allocating capital in a way that reduces the exposure to any one particular asset or risk.\n- **Yield**: The earnings generated and realized on an investment over a particular period of time.\n- **Capital Gain**: A profit from the sale of property or of an investment."
-    },
-    {
-      "id": "grammar-first-conditional",
-      "title": "Grammar: First Conditional (Real Possibilities)",
-      "content": "We use the First Conditional to talk about things which are possible in the present or the future — things which may happen.\n\n### Structure\n**If + Present Simple, will + base verb**\n\n### Examples in Finance\n- \"If the market **rises**, we **will sell** our shares.\"\n- \"The client **will earn** more dividends if the company **makes** a profit.\"\n- \"If you **diversify** your portfolio, you **will reduce** your risk.\"\n\n### Usage\n- To give advice: \"If you invest now, you will see gains later.\"\n- To make predictions: \"If interest rates stay low, the market will continue to grow.\""
+      "id": "grammar",
+      "title": "Gramática: Comparatives and Superlatives (Business Focus)",
+      "content": "Usamos comparativos y superlativos para analizar el rendimiento financiero.\n\n- **Comparative**: This quarter was **more profitable than** the last one. (Este trimestre fue más rentable que el anterior)\n- **Superlative**: This is the **most expensive** project we have. (Este es el proyecto más caro que tenemos)\n\nIrregulares:\n- **Good** -> **Better** -> **Best**\n- **Bad** -> **Worse** -> **Worst**\n- **Far** -> **Further** -> **Furthest**"
     }
+  ],
+  "objectives": [
+    "Analizar desviaciones presupuestarias",
+    "Utilizar comparativos para evaluar el rendimiento",
+    "Identificar diferentes tipos de gastos empresariales"
+  ],
+  "keyTerms": [
+    { "term": "Overhead Costs", "definition": "Ongoing business expenses not directly attributed to creating a product or service." },
+    { "term": "Cash Flow", "definition": "The total amount of money being transferred into and out of a business." }
   ]
 }

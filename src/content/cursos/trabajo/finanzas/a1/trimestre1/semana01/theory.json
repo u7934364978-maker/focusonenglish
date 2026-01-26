@@ -1,0 +1,29 @@
+{
+  "title": "Números y Monedas Internacionales",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Monedas y Dinero",
+      "content": "Aprenderemos las monedas más comunes y cómo hablar de dinero.\n\n- **Dollar**: Dólar ($)\n- **Euro**: Euro (€)\n- **Pound**: Libra (£)\n- **Cash**: Efectivo\n- **Coins**: Monedas\n- **Notes / Bills**: Billetes\n- **Credit Card**: Tarjeta de crédito"
+    },
+    {
+      "id": "numbers",
+      "title": "Números Grandes",
+      "content": "En finanzas usamos números grandes todos los días.\n\n- **One hundred**: 100\n- **Five hundred**: 500\n- **One thousand**: 1.000\n- **Ten thousand**: 10.000\n- **One million**: 1.000.000"
+    },
+    {
+      "id": "grammar",
+      "title": "Gramática: Verb 'to be'",
+      "content": "El verbo 'to be' (ser/estar) es fundamental.\n\n- **I am** a banker. (Yo soy banquero)\n- **It is** ten dollars. (Son diez dólares)\n- **They are** euros. (Son euros)\n\n**Negativo:**\n- It **is not** (isn't) expensive. (No es caro)\n- They **are not** (aren't) pounds. (No son libras)"
+    }
+  ],
+  "objectives": [
+    "Identificar las principales monedas internacionales",
+    "Contar hasta un millón en inglés",
+    "Usar el verbo 'to be' para describir dinero y profesiones"
+  ],
+  "keyTerms": [
+    { "term": "Currency", "definition": "The system of money used in a particular country." },
+    { "term": "Amount", "definition": "A quantity of money." }
+  ]
+}

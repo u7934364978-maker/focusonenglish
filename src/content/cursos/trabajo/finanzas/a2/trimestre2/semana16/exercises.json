@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "A2",
+  "trimester": 2,
+  "weekId": "semana16",
+  "title": "Ejercicios: Predicciones Económicas",
+  "items": [
+    {
+      "id": "fin-a2-w16-1",
+      "type": "multipleChoice",
+      "prompt": "I think the market ___ grow this year.",
+      "options": ["will", "is going to", "goes", "doing"],
+      "answerIndex": 0,
+      "explanation": "Will is used for general predictions."
+    },
+    {
+      "id": "fin-a2-w16-2",
+      "type": "multipleChoice",
+      "prompt": "___ is when prices go up.",
+      "options": ["Trend", "Inflation", "Growth", "Interest"],
+      "answerIndex": 1,
+      "explanation": "Inflation means prices are increasing."
+    },
+    {
+      "id": "fin-a2-w16-3",
+      "type": "multipleChoice",
+      "prompt": "The experts say the economy ___ decrease.",
+      "options": ["will", "is going", "does", "going"],
+      "answerIndex": 0,
+      "explanation": "Will is used for predictions about the economy."
+    },
+    {
+      "id": "fin-a2-w16-4",
+      "type": "multipleChoice",
+      "prompt": "A ___ is a direction the market is moving.",
+      "options": ["inflation", "trend", "growth", "budget"],
+      "answerIndex": 1,
+      "explanation": "A trend (tendencia) shows the direction."
+    },
+    {
+      "id": "fin-a2-w16-5",
+      "type": "multipleChoice",
+      "prompt": "Prices ___ go down next month.",
+      "options": ["not will", "won't", "don't will", "aren't will"],
+      "answerIndex": 1,
+      "explanation": "Won't is the contraction of will not."
+    }
+  ]
+}

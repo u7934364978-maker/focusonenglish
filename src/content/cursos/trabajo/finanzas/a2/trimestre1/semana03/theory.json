@@ -1,0 +1,24 @@
+{
+  "title": "Problemas: Pérdida de Tarjetas",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Reportando un Problema",
+      "content": "Qué decir cuando algo sale mal con tus tarjetas.\n\n- **Lost**: Perdido\n- **Stolen**: Robado\n- **Blocked**: Bloqueado\n- **To cancel**: Cancelar\n- **To replace**: Reemplazar\n- **Unauthorized transaction**: Transacción no autorizada\n- **Security department**: Departamento de seguridad"
+    },
+    {
+      "id": "grammar",
+      "title": "Pasado Simple: Negativos y Preguntas",
+      "content": "Para negar o preguntar en pasado, usamos el auxiliar **DID**.\n\n**Negativo (Subject + did not / didn't + verb in base form):**\n- I **didn't see** my card this morning. (No vi mi tarjeta esta mañana)\n- He **didn't recognize** the charge. (Él no reconoció el cargo)\n\n**Preguntas (Did + subject + verb in base form?):**\n- **Did** you **lose** your wallet? (¿Perdiste tu cartera?)\n- **Did** they **block** the account? (¿Bloquearon ellos la cuenta?)\n\n*Recuerda: Cuando usamos 'did', el verbo principal vuelve a su forma normal.*"
+    }
+  ],
+  "objectives": [
+    "Reportar una tarjeta perdida o robada en inglés",
+    "Formular preguntas en pasado para investigar problemas",
+    "Utilizar la forma negativa del pasado simple correctamente"
+  ],
+  "keyTerms": [
+    { "term": "Fraud", "definition": "Wrongful or criminal deception intended to result in financial or personal gain." },
+    { "term": "Identity theft", "definition": "The fraudulent practice of using another person's name and personal information." }
+  ]
+}

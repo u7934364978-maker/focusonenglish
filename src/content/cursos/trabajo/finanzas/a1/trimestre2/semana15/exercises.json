@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 2,
+  "weekId": "semana15",
+  "title": "Ejercicios: Localización en el Banco",
+  "items": [
+    {
+      "id": "fin-a1-w15-1",
+      "type": "multipleChoice",
+      "prompt": "The ATM is ___ the door.",
+      "options": ["Between", "Next to", "Inside", "Those"],
+      "answerIndex": 1,
+      "explanation": "Next to means al lado de."
+    },
+    {
+      "id": "fin-a1-w15-2",
+      "type": "multipleChoice",
+      "prompt": "The manager is ___ his office.",
+      "options": ["Inside", "Opposite", "Between", "Next to"],
+      "answerIndex": 0,
+      "explanation": "Inside means dentro de."
+    },
+    {
+      "id": "fin-a1-w15-3",
+      "type": "multipleChoice",
+      "prompt": "The counter is ___ the entrance.",
+      "options": ["Opposite", "Between", "Those", "These"],
+      "answerIndex": 0,
+      "explanation": "Opposite means enfrente de."
+    },
+    {
+      "id": "fin-a1-w15-4",
+      "type": "multipleChoice",
+      "prompt": "The chair is ___ the two desks.",
+      "options": ["Next to", "Opposite", "Between", "Inside"],
+      "answerIndex": 2,
+      "explanation": "Between is used for two things."
+    },
+    {
+      "id": "fin-a1-w15-5",
+      "type": "multipleChoice",
+      "prompt": "What is a 'counter'?",
+      "options": ["A calculator", "A person", "A service desk", "A type of coin"],
+      "answerIndex": 2,
+      "explanation": "A counter is where tellers help customers."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Préstamos Personales",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Vocabulario de Préstamos",
+      "content": "Aprenderemos términos relacionados con pedir dinero prestado.\n\n- **Loan**: Préstamo\n- **Borrow**: Pedir prestado\n- **Lend**: Prestar\n- **Debt**: Deuda\n- **Installment**: Cuota / Plazo\n- **Interest**: Interés"
+    },
+    {
+      "id": "grammar",
+      "title": "Gramática: Will para Promesas y Decisiones Espontáneas",
+      "content": "Usamos **Will** para decisiones tomadas en el momento, promesas u ofertas.\n\n- I **will** pay you back tomorrow. (Te devolveré el dinero mañana - Promesa)\n- I **will** take this loan. (Cogeré este préstamo - Decisión espontánea)\n- The bank **will** send the contract. (El banco enviará el contrato)"
+    }
+  ],
+  "objectives": [
+    "Diferenciar entre 'borrow' y 'lend'",
+    "Utilizar 'will' para promesas y decisiones rápidas",
+    "Identificar los componentes de un préstamo personal"
+  ],
+  "keyTerms": [
+    { "term": "Installment", "definition": "One of a number of payments that are paid regularly until something has been paid for." },
+    { "term": "Debt", "definition": "An amount of money that you owe to a person or a bank." }
+  ]
+}

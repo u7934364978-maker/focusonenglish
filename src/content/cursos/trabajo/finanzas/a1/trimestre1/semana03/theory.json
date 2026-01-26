@@ -1,0 +1,24 @@
+{
+  "title": "Información Personal y Formularios",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Datos Personales",
+      "content": "Palabras necesarias para completar formularios en el banco.\n\n- **Name**: Nombre\n- **Surname / Last Name**: Apellido\n- **Address**: Dirección\n- **Date of Birth**: Fecha de nacimiento\n- **ID Card / Passport**: DNI / Pasaporte\n- **Phone Number**: Número de teléfono\n- **Email**: Correo electrónico\n- **Signature**: Firma"
+    },
+    {
+      "id": "grammar",
+      "title": "Preguntas con 'To Be'",
+      "content": "Para pedir información, cambiamos el orden del verbo.\n\n**Estructura: Verb + Subject + ...?**\n- **Are you** a customer? (¿Eres cliente?)\n- **Is it** your ID card? (¿Es tu DNI?)\n- **Are they** dollars? (¿Son dólares?)\n\n**Respuestas Cortas:**\n- Yes, **I am**. / No, **I'm not**.\n- Yes, **it is**. / No, **it isn't**.\n- Yes, **they are**. / No, **they aren't**."
+    }
+  ],
+  "objectives": [
+    "Completar un formulario bancario básico con datos personales",
+    "Hacer preguntas simples para verificar información",
+    "Responder de forma corta a preguntas con el verbo 'to be'"
+  ],
+  "keyTerms": [
+    { "term": "Form", "definition": "A document with blank spaces for information." },
+    { "term": "Registration", "definition": "The act of signing up or entering information into a system." }
+  ]
+}

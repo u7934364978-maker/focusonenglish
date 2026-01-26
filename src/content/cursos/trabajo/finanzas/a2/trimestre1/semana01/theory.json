@@ -1,0 +1,24 @@
+{
+  "title": "Apertura de Cuentas Bancarias",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Tipos de Cuentas y Requisitos",
+      "content": "Aprenderemos los nombres de las cuentas y lo que necesitas para abrirlas.\n\n- **Savings account**: Cuenta de ahorros\n- **Current account / Checking account**: Cuenta corriente\n- **Joint account**: Cuenta conjunta\n- **Requirement**: Requisito\n- **Proof of address**: Comprobante de domicilio\n- **Initial deposit**: Depósito inicial\n- **Monthly fee**: Comisión mensual"
+    },
+    {
+      "id": "grammar",
+      "title": "Repaso: Present Simple vs Past Simple",
+      "content": "Comparamos lo que haces habitualmente con lo que hiciste en el pasado.\n\n**Present Simple (Rutina):**\n- I **open** accounts every day. (Abro cuentas todos los días)\n- She **works** in the bank. (Ella trabaja en el banco)\n\n**Past Simple (Acción terminada):**\n- I **opened** an account yesterday. (Abrí una cuenta ayer)\n- She **worked** late last week. (Ella trabajó hasta tarde la semana pasada)\n\n*Nota: Los verbos regulares terminan en -ed.*"
+    }
+  ],
+  "objectives": [
+    "Diferenciar entre cuentas corrientes y de ahorros",
+    "Identificar los documentos necesarios para abrir una cuenta",
+    "Utilizar el pasado simple de verbos regulares en contextos bancarios"
+  ],
+  "keyTerms": [
+    { "term": "To open an account", "definition": "To start a new relationship with a bank to store money." },
+    { "term": "Balance", "definition": "The amount of money in a bank account." }
+  ]
+}

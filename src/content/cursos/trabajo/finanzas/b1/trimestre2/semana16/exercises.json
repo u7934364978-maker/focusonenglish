@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 2,
+  "weekId": "semana16",
+  "title": "Ejercicios: Financiación y Análisis de Riesgo",
+  "items": [
+    {
+      "id": "fin-b1-w16-1",
+      "type": "multipleChoice",
+      "prompt": "Raising capital by selling shares is called ___ financing.",
+      "options": ["Debt", "Equity", "Credit", "Venture"],
+      "answerIndex": 1,
+      "explanation": "Equity financing involves selling ownership in the company."
+    },
+    {
+      "id": "fin-b1-w16-2",
+      "type": "multipleChoice",
+      "prompt": "We ___ meet the board of directors tomorrow morning.",
+      "options": ["will", "are going to", "going to", "do"],
+      "answerIndex": 1,
+      "explanation": "Use 'are going to' for fixed plans."
+    },
+    {
+      "id": "fin-b1-w16-3",
+      "type": "multipleChoice",
+      "prompt": "The bank needs ___ to secure the loan.",
+      "options": ["Venture capital", "Collateral", "Equity", "Creditworthiness"],
+      "answerIndex": 1,
+      "explanation": "Collateral is security provided for a loan."
+    },
+    {
+      "id": "fin-b1-w16-4",
+      "type": "multipleChoice",
+      "prompt": "I think the stock market ___ recover quickly.",
+      "options": ["will", "is going to", "does", "going to"],
+      "answerIndex": 0,
+      "explanation": "Use 'will' for personal predictions."
+    },
+    {
+      "id": "fin-b1-w16-5",
+      "type": "multipleChoice",
+      "prompt": "If a company can pay its debts, it has high ___.",
+      "options": ["Interest", "Creditworthiness", "Expenditure", "Shortfall"],
+      "answerIndex": 1,
+      "explanation": "Creditworthiness is the measure of a borrower's ability to pay back."
+    }
+  ]
+}

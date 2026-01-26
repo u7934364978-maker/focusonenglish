@@ -1,0 +1,48 @@
+{
+  "title": "Ejercicios: Comparando Servicios",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "Which is the correct comparative for 'cheap'?",
+      "options": [
+        "More cheap",
+        "Cheaper",
+        "Cheapest",
+        "Cheapier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For short adjectives like 'cheap', we add -er."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "The savings account has a ________ (high) interest rate ________ the current account.",
+      "answer": "higher / than",
+      "explanation": "Comparative of 'high' is 'higher' followed by 'than'."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the opposite adjectives:",
+      "pairs": [
+        { "term": "Expensive", "definition": "Cheap" },
+        { "term": "High", "definition": "Low" },
+        { "term": "Safe", "definition": "Risky" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "This bank is ________ than the other one.",
+      "options": [
+        "gooder",
+        "better",
+        "best",
+        "more good"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Better' is the irregular comparative of 'good'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "¿Qué hora es?",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "La Hora en el Banco",
+      "content": "Para ser puntuales en nuestras citas y transacciones.\n\n- **What time is it?**: ¿Qué hora es?\n- **O'clock**: En punto (e.g., 9:00 - nine o'clock)\n- **Half past**: Y media (e.g., 9:30 - half past nine)\n- **Quarter past**: Y cuarto\n- **Quarter to**: Menos cuarto\n- **AM / PM**: Mañana / Tarde-Noche\n- **Noon**: Mediodía\n- **Midnight**: Medianoche"
+    },
+    {
+      "id": "grammar",
+      "title": "Present Simple: Negativo",
+      "content": "Para decir que algo no ocurre, usamos **DO NOT (don't)** o **DOES NOT (doesn't)**.\n\n**Estructura (I/You/We/They + don't + verb):**\n- I **don't work** on Saturdays. (No trabajo los sábados)\n- They **don't open** at noon. (No abren al mediodía)\n\n**Estructura (He/She/It + doesn't + verb):**\n- The bank **doesn't close** late. (El banco no cierra tarde)\n- She **doesn't have** the ID. (Ella no tiene el DNI)\n\n*Nota: Cuando usamos 'doesn't', el verbo ya no lleva la 's'.*"
+    }
+  ],
+  "objectives": [
+    "Decir y entender la hora en inglés",
+    "Utilizar el negativo en presente simple para describir lo que no ocurre",
+    "Diferenciar entre 'don't' y 'doesn't' según el sujeto"
+  ],
+  "keyTerms": [
+    { "term": "Appointment", "definition": "An arrangement to meet someone at a particular time and place." },
+    { "term": "Punctual", "definition": "Happening or doing something at the agreed or proper time." }
+  ]
+}

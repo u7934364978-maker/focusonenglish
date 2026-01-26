@@ -1,0 +1,48 @@
+{
+  "title": "Ejercicios: ESG y el Subjuntivo Formal",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "The auditor suggests that the firm ________ its ESG report immediately.",
+      "options": [
+        "updates",
+        "update",
+        "to update",
+        "updated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In formal English, verbs like 'suggest' followed by 'that' take the subjunctive (bare infinitive)."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "It is vital that the company ________ (be) transparent about its carbon emissions.",
+      "answer": "be",
+      "explanation": "The subjunctive form of 'to be' is 'be' for all persons."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the ESG concept with its description:",
+      "pairs": [
+        { "term": "Greenwashing", "definition": "Misleading claims about environmental benefits" },
+        { "term": "Net Zero", "definition": "Balancing greenhouse gases emitted with those removed" },
+        { "term": "Impact Investing", "definition": "Investing for positive social or environmental change" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "The regulation mandates that every director ________ a conflict-of-interest form.",
+      "options": [
+        "signs",
+        "sign",
+        "signing",
+        "to sign"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mandates + that + subject + bare infinitive (subjunctive)."
+    }
+  ]
+}

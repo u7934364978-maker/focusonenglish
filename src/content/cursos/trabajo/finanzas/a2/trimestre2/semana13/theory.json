@@ -1,0 +1,24 @@
+{
+  "title": "Objetivos de Ahorro y Presupuestos",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Vocabulario Financiero Personal",
+      "content": "Aprenderemos términos para planificar nuestras finanzas.\n\n- **Save**: Ahorrar\n- **Spend**: Gastar\n- **Budget**: Presupuesto\n- **Goal / Objective**: Objetivo\n- **Income**: Ingresos\n- **Expenses**: Gastos"
+    },
+    {
+      "id": "grammar",
+      "title": "Gramática: Future with 'Going to'",
+      "content": "Usamos **Going to** para planes e intenciones futuras que ya hemos decidido.\n\nEstructura: **Subject + am/is/are + going to + verb**\n\n- I **am going to** save 200 euros every month. (Voy a ahorrar 200 euros cada mes)\n- We **are going to** create a new budget. (Vamos a crear un nuevo presupuesto)\n- He **is not going to** spend money on coffee. (Él no va a gastar dinero en café)"
+    }
+  ],
+  "objectives": [
+    "Expresar intenciones de ahorro",
+    "Utilizar el futuro con 'going to' para planes financieros",
+    "Identificar ingresos y gastos en un presupuesto simple"
+  ],
+  "keyTerms": [
+    { "term": "Budget", "definition": "A plan that shows how much money a person or organization will earn and how they will spend it." },
+    { "term": "Expenses", "definition": "The money that you spend on things." }
+  ]
+}

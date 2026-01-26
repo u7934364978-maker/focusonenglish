@@ -1,0 +1,24 @@
+{
+  "title": "El Banco y Mis Pertenencias",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Vocabulario del Banco",
+      "content": "Palabras básicas que verás al entrar en un banco.\n\n- **Bank**: Banco\n- **Office**: Oficina\n- **ATM**: Cajero automático\n- **Counter**: Mostrador / Ventanilla\n- **Manager**: Gerente\n- **Customer**: Cliente\n- **Account**: Cuenta"
+    },
+    {
+      "id": "grammar",
+      "title": "Pronombres Personales y Posesivos",
+      "content": "Usamos los pronombres para hablar de personas y de quién es cada cosa.\n\n**Pronombres Personales (Sujeto):**\n- **I** (Yo), **You** (Tú), **He** (Él), **She** (Ella), **It** (Ello - cosas), **We** (Nosotros), **They** (Ellos).\n\n**Adjetivos Posesivos:**\n- **My** (Mi), **Your** (Tu), **His** (Su - de él), **Her** (Su - de ella), **Its** (Su - de cosa), **Our** (Nuestro), **Their** (Su - de ellos).\n\nEjemplos:\n- **My** account is new. (Mi cuenta es nueva)\n- **His** office is big. (Su oficina es grande)\n- **Their** bank is open. (Su banco está abierto)"
+    }
+  ],
+  "objectives": [
+    "Identificar las áreas y roles principales en un banco",
+    "Utilizar adjetivos posesivos para hablar de cuentas y oficinas",
+    "Diferenciar entre pronombres de sujeto y posesivos"
+  ],
+  "keyTerms": [
+    { "term": "Branch", "definition": "A local office of a large bank." },
+    { "term": "Owner", "definition": "The person who has the account." }
+  ]
+}

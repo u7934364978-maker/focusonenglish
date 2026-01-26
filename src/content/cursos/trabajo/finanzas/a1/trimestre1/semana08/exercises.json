@@ -1,0 +1,48 @@
+{
+  "title": "Ejercicios: Acciones y Repaso de Presente",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What do you do if you need money from your account?",
+      "options": [
+        "I deposit money",
+        "I withdraw money",
+        "I sign a book",
+        "I help a client"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To 'withdraw' means to take money out of an account."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "________ the customer ________ (sign) the document? Yes, she ________.",
+      "answer": "Does / sign / does",
+      "explanation": "Question with 'Does' for singular subject, base form of verb, and short answer 'does'."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the verb with the object:",
+      "pairs": [
+        { "term": "To pay", "definition": "A bill" },
+        { "term": "To sign", "definition": "A contract" },
+        { "term": "To help", "definition": "A customer" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "Choose the correct negative sentence:",
+      "options": [
+        "They doesn't deposit cash.",
+        "They don't deposit cash.",
+        "They don't deposits cash.",
+        "They not deposit cash."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'They' takes 'don't' in the negative."
+    }
+  ]
+}

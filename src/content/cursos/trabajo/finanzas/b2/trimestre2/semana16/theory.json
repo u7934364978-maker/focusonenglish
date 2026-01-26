@@ -1,0 +1,24 @@
+{
+  "title": "Inversiones Alternativas y Estrategias",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Hedge Funds y Private Equity",
+      "content": "Exploraremos vehículos de inversión que van más allá de la bolsa tradicional.\n\n- **Hedge Fund**: Fondo de cobertura (usa estrategias complejas para obtener retornos positivos).\n- **Private Equity (PE)**: Capital privado (inversión en empresas que no cotizan en bolsa).\n- **Venture Capital (VC)**: Capital de riesgo (inversión en startups).\n- **Leverage**: Apalancamiento (uso de deuda para financiar una inversión).\n- **Exit Strategy**: Estrategia de salida (plan para vender la inversión).\n- **Due Diligence**: Auditoría de compra / Diligencia debida."
+    },
+    {
+      "id": "grammar",
+      "title": "Gerunds vs Infinitives in Investment Strategy",
+      "content": "En finanzas, algunos verbos van seguidos de gerundio (-ing) y otros de infinitivo (to + verb).\n\n**Gerundio (-ing):**\n- We **avoid investing** in high-risk startups. (Evitamos invertir en startups de alto riesgo)\n- They **considered buying** more shares. (Consideraron comprar más acciones)\n\n**Infinitivo (to + verb):**\n- We **aim to diversify** our portfolio. (Nuestro objetivo es diversificar nuestra cartera)\n- The firm **agreed to acquire** the company. (La firma acordó adquirir la empresa)\n\n**Cambio de significado:**\n- We **stopped buying** stocks. (Dejamos de comprar acciones - acción terminada)\n- We **stopped to buy** stocks. (Paramos para comprar acciones - propósito)"
+    }
+  ],
+  "objectives": [
+    "Distinguir entre Hedge Funds y Private Equity",
+    "Utilizar correctamente gerundios e infinitivos al describir estrategias",
+    "Comprender el concepto de apalancamiento (leverage)"
+  ],
+  "keyTerms": [
+    { "term": "Leverage", "definition": "The use of borrowed money to increase the potential return of an investment." },
+    { "term": "Exit Strategy", "definition": "A pre-planned means of an owner or investor to sell their stake in a business." }
+  ]
+}

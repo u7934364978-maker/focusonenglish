@@ -1,0 +1,40 @@
+{
+  "title": "Examen: La Hora y Comunicación Negativa",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "If an appointment is at 'Quarter past two', what time is it?",
+      "options": ["2:15", "1:45", "2:30", "2:45"],
+      "correctAnswer": 0,
+      "explanation": "Quarter past two is 2:15."
+    },
+    {
+      "id": "q2",
+      "question": "What is the negative form of 'She opens'?",
+      "options": ["She don't open", "She doesn't opens", "She doesn't open", "She not opens"],
+      "correctAnswer": 2,
+      "explanation": "The correct negative is 'doesn't open'."
+    },
+    {
+      "id": "q3",
+      "question": "Which of these means 12:00 in the middle of the night?",
+      "options": ["Noon", "Midnight", "Lunchtime", "Morning"],
+      "correctAnswer": 1,
+      "explanation": "12:00 AM is midnight."
+    },
+    {
+      "id": "q4",
+      "question": "Complete: 'They ________ a credit card.'",
+      "options": ["don't have", "doesn't have", "not have", "don't has"],
+      "correctAnswer": 0,
+      "explanation": "We use 'don't' with 'They'."
+    },
+    {
+      "id": "q5",
+      "question": "How do you say 'En punto' in English?",
+      "options": ["Half past", "O'clock", "Quarter", "Time"],
+      "correctAnswer": 1,
+      "explanation": "We use 'o'clock' for the exact hour."
+    }
+  ]
+}

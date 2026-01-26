@@ -1,0 +1,55 @@
+{
+  "title": "Examen: Rutina y Gramática del Presente",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the opposite of 'To withdraw'?",
+      "options": ["To pay", "To sign", "To deposit", "To talk"],
+      "correctAnswer": 2,
+      "explanation": "To deposit (put money in) is the opposite of to withdraw (take money out)."
+    },
+    {
+      "id": "q2",
+      "question": "Which question is correct?",
+      "options": [
+        "Do he help the customers?",
+        "Does he helps the customers?",
+        "Does he help the customers?",
+        "Do he helps the customers?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Does + subject (he) + base form (help)."
+    },
+    {
+      "id": "q3",
+      "question": "If you want to say that the bank doesn't open on Sunday, you say:",
+      "options": [
+        "The bank don't open on Sunday.",
+        "The bank doesn't open on Sunday.",
+        "The bank not open on Sunday.",
+        "The bank doesn't opens on Sunday."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The bank (it) takes 'doesn't' + base form."
+    },
+    {
+      "id": "q4",
+      "question": "What does 'To sign' mean?",
+      "options": [
+        "To write your name on a document",
+        "To count money",
+        "To speak with the manager",
+        "To use the ATM"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To sign is to write one's name as a way of agreeing or identifying."
+    },
+    {
+      "id": "q5",
+      "question": "Select the correct short answer: 'Do you work here?'",
+      "options": ["Yes, I am.", "Yes, I do.", "Yes, I work.", "Yes, I does."],
+      "correctAnswer": 1,
+      "explanation": "Questions with 'Do you...?' are answered with 'Yes, I do' or 'No, I don't'."
+    }
+  ]
+}

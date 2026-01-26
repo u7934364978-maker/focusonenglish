@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 2,
+  "weekId": "semana15",
+  "title": "Examen: Impuestos y Fiscalidad Básica",
+  "items": [
+    {
+      "id": "fin-b1-w15-e1",
+      "type": "multipleChoice",
+      "prompt": "If a salary is ___, it means taxes are not yet deducted.",
+      "options": ["Net", "Gross", "Exempt", "Refund"],
+      "answerIndex": 1,
+      "explanation": "Gross income is the total before any deductions."
+    },
+    {
+      "id": "fin-b1-w15-e2",
+      "type": "multipleChoice",
+      "prompt": "If you are self-employed, you ___ your own tax return.",
+      "options": ["file", "files", "filing", "filed"],
+      "answerIndex": 0,
+      "explanation": "Zero conditional (general truth)."
+    },
+    {
+      "id": "fin-b1-w15-e3",
+      "type": "multipleChoice",
+      "prompt": "Corporate tax is a tax on a company's ___.",
+      "options": ["Revenue", "Profit", "Loss", "Location"],
+      "answerIndex": 1,
+      "explanation": "Corporate tax is calculated based on net profit."
+    },
+    {
+      "id": "fin-b1-w15-e4",
+      "type": "multipleChoice",
+      "prompt": "If you qualify for a ___, the money is returned to you.",
+      "options": ["Return", "Refund", "Exempt", "Gross"],
+      "answerIndex": 1,
+      "explanation": "A refund is a repayment of overpaid funds."
+    },
+    {
+      "id": "fin-b1-w15-e5",
+      "type": "multipleChoice",
+      "prompt": "If a service is VAT-exempt, the final price ___.",
+      "options": ["increases", "decreases", "stays the same", "is not possible"],
+      "answerIndex": 2,
+      "explanation": "Being exempt means no tax is added, so the price doesn't change due to VAT."
+    }
+  ]
+}

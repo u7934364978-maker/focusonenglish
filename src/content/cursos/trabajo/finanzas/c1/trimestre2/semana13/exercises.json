@@ -1,0 +1,48 @@
+{
+  "title": "Ejercicios: ERM y Formas Causativas",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "The board decided to ________ the annual report ________ by a 'Big Four' firm.",
+      "options": [
+        "have / audit",
+        "have / audited",
+        "get / audit",
+        "get / audited"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The causative structure 'have + object + past participle' is used for services performed by others."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "It took weeks, but we finally ________ the investors ________ (accept) the new terms.",
+      "answer": "got / to accept",
+      "explanation": "'Get + object + to + infinitive' is used when persuasion is involved."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the derivative with its function:",
+      "pairs": [
+        { "term": "CDS", "definition": "Protection against debt default" },
+        { "term": "Interest Rate Swap", "definition": "Exchanging fixed for floating rates" },
+        { "term": "Currency Forward", "definition": "Locking in an exchange rate for the future" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "The CFO ________ the legal team ________ the non-disclosure agreements immediately.",
+      "options": [
+        "had / draft",
+        "had / drafted",
+        "got / drafted",
+        "made / to draft"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Had + person + bare infinitive' is used when giving instructions/orders to someone to do something."
+    }
+  ]
+}

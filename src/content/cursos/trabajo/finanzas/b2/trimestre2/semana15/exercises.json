@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana15",
+  "title": "Ejercicios: Finanzas Internacionales y Riesgo de Divisa",
+  "items": [
+    {
+      "id": "fin-b2-w15-1",
+      "type": "multipleChoice",
+      "prompt": "By the end of the quarter, we ___ our international accounts.",
+      "options": ["will reconcile", "will have reconciled", "are reconciling", "have reconciled"],
+      "answerIndex": 1,
+      "explanation": "Future perfect: will have + past participle."
+    },
+    {
+      "id": "fin-b2-w15-2",
+      "type": "multipleChoice",
+      "prompt": "Using derivatives to protect against currency fluctuations is called ___.",
+      "options": ["Arbitrage", "Hedging", "Speculation", "Budgeting"],
+      "answerIndex": 1,
+      "explanation": "Hedging is a risk management strategy."
+    },
+    {
+      "id": "fin-b2-w15-3",
+      "type": "multipleChoice",
+      "prompt": "In three years, the company ___ its debt.",
+      "options": ["will pay off", "will have paid off", "is paying off", "pays off"],
+      "answerIndex": 1,
+      "explanation": "Future perfect for a completed action in the future."
+    },
+    {
+      "id": "fin-b2-w15-4",
+      "type": "multipleChoice",
+      "prompt": "What is 'Arbitrage'?",
+      "options": ["Buying and selling an asset in different markets to profit from a price difference", "A type of insurance", "The interest paid on a loan", "A bank's internal audit"],
+      "answerIndex": 0,
+      "explanation": "Arbitrage exploits market inefficiencies."
+    },
+    {
+      "id": "fin-b2-w15-5",
+      "type": "multipleChoice",
+      "prompt": "The ___ rate is for immediate currency delivery.",
+      "options": ["Forward", "Spot", "Interest", "Benchmark"],
+      "answerIndex": 1,
+      "explanation": "Spot rate is the current exchange rate."
+    }
+  ]
+}

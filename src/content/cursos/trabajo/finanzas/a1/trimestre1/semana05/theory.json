@@ -1,0 +1,24 @@
+{
+  "title": "Días de la Semana y Horarios Bancarios",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Días y Tiempo",
+      "content": "Aprenderemos cuándo abre el banco y los días de la semana.\n\n- **Monday**: Lunes\n- **Tuesday**: Martes\n- **Wednesday**: Miércoles\n- **Thursday**: Jueves\n- **Friday**: Viernes\n- **Saturday**: Sábado\n- **Sunday**: Domingo\n- **Opening hours**: Horario de apertura\n- **Week**: Semana\n- **Weekend**: Fin de semana"
+    },
+    {
+      "id": "grammar",
+      "title": "Present Simple para Horarios",
+      "content": "Usamos el Presente Simple para hablar de cosas que siempre son iguales, como los horarios.\n\n- The bank **opens** at 9:00 AM. (El banco abre a las 9:00)\n- We **close** on Sundays. (Cerramos los domingos)\n- It **works** every day. (Funciona todos los días)\n\n**Estructura (He/She/It + verb-s):**\n- The ATM **works** (It works).\n- The manager **opens** (He/She opens)."
+    }
+  ],
+  "objectives": [
+    "Nombrar los días de la semana en inglés",
+    "Expresar el horario de apertura y cierre del banco",
+    "Utilizar el presente simple para describir rutinas bancarias básicas"
+  ],
+  "keyTerms": [
+    { "term": "Working day", "definition": "A day on which most people work, usually Monday to Friday." },
+    { "term": "Holiday", "definition": "A day of festivity or recreation when no work is done." }
+  ]
+}

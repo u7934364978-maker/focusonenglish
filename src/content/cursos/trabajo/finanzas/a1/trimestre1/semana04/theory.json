@@ -1,0 +1,29 @@
+{
+  "title": "Saludos y Cortesía en la Oficina",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Saludos y Despedidas",
+      "content": "Cómo saludar a colegas y clientes de forma profesional.\n\n- **Hello / Hi**: Hola\n- **Good morning**: Buenos días\n- **Good afternoon**: Buenas tardes\n- **Good evening**: Buenas noches (al llegar)\n- **Goodbye / Bye**: Adiós\n- **See you later**: Hasta luego\n- **Have a nice day**: Tenga un buen día"
+    },
+    {
+      "id": "courtesy",
+      "title": "Expresiones de Cortesía",
+      "content": "Palabras 'mágicas' para el trabajo.\n\n- **Please**: Por favor\n- **Thank you / Thanks**: Gracias\n- **You're welcome**: De nada\n- **Excuse me**: Disculpe / Con permiso\n- **I'm sorry**: Lo siento / Perdón"
+    },
+    {
+      "id": "grammar",
+      "title": "Repaso: El Verbo 'To Be' en Acción",
+      "content": "Usamos todo lo aprendido para presentarnos.\n\n- **Hello, I am** Mark. **Are you** the manager?\n- **Yes, I am**. **Is it** your first day?\n- **No, it isn't**. **My** office is here."
+    }
+  ],
+  "objectives": [
+    "Utilizar saludos apropiados según el momento del día",
+    "Demostrar cortesía básica en interacciones de oficina",
+    "Presentarse y verificar la identidad de otros usando 'to be'"
+  ],
+  "keyTerms": [
+    { "term": "Polite", "definition": "Having or showing behavior that is respectful and considerate of other people." },
+    { "term": "Colleague", "definition": "A person with whom one works in a profession or business." }
+  ]
+}

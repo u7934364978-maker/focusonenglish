@@ -1,0 +1,48 @@
+{
+  "title": "Ejercicios: Información y Preguntas",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What is 'Surname'?",
+      "options": [
+        "First name",
+        "Last name",
+        "Date of birth",
+        "Phone number"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Surname is the same as family name or last name."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "________ (you) the new manager? Yes, I ________.",
+      "answer": "Are / am",
+      "explanation": "The question starts with 'Are you' and the short answer is 'I am'."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the field with the example:",
+      "pairs": [
+        { "term": "Date of Birth", "definition": "12/05/1990" },
+        { "term": "Email", "definition": "john@bank.com" },
+        { "term": "Signature", "definition": "(X) ________" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "Choose the correct question: 'Is he a customer?'",
+      "options": [
+        "Yes, he are.",
+        "Yes, he is.",
+        "Yes, he am.",
+        "Yes, is he."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct short answer for 'Is he...?' is 'Yes, he is'."
+    }
+  ]
+}

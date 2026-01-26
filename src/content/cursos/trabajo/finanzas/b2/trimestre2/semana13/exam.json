@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana13",
+  "title": "Examen: Gestión de Carteras y Diversificación",
+  "items": [
+    {
+      "id": "fin-b2-w13-e1",
+      "type": "multipleChoice",
+      "prompt": "Which asset allocation strategy is generally considered the most aggressive?",
+      "options": ["100% Cash", "60% Stocks / 40% Bonds", "90% Stocks / 10% Commodities", "100% Government Bonds"],
+      "answerIndex": 2,
+      "explanation": "High stock and commodity exposure indicates an aggressive, high-risk approach."
+    },
+    {
+      "id": "fin-b2-w13-e2",
+      "type": "multipleChoice",
+      "prompt": "If the central bank ___ the base rate, bond prices would fall.",
+      "options": ["increased", "increase", "will increase", "would increase"],
+      "answerIndex": 0,
+      "explanation": "Second conditional: If + past simple."
+    },
+    {
+      "id": "fin-b2-w13-e3",
+      "type": "multipleChoice",
+      "prompt": "Diversification is often described as 'the only ___ in finance'.",
+      "options": ["free lunch", "expensive debt", "guaranteed profit", "risky move"],
+      "answerIndex": 0,
+      "explanation": "It's a common saying because it reduces risk without necessarily reducing return."
+    },
+    {
+      "id": "fin-b2-w13-e4",
+      "type": "multipleChoice",
+      "prompt": "What ___ you do if your portfolio lost 20% in one month?",
+      "options": ["will", "would", "do", "did"],
+      "answerIndex": 1,
+      "explanation": "Hypothetical question (second conditional)."
+    },
+    {
+      "id": "fin-b2-w13-e5",
+      "type": "multipleChoice",
+      "prompt": "A portfolio's 'yield' refers specifically to:",
+      "options": ["The total value", "The income generated (dividends/interest)", "The cost of buying assets", "The bank's commission"],
+      "answerIndex": 1,
+      "explanation": "Yield is the income return on an investment."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Objetos Financieros y Adjetivos",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Adjetivos para Objetos",
+      "content": "Aprenderemos a describir los objetos que usamos en el banco.\n\n- **New**: Nuevo\n- **Old**: Viejo\n- **Small**: Pequeño\n- **Large**: Grande\n- **Fast**: Rápido\n- **Slow**: Lento"
+    },
+    {
+      "id": "practice",
+      "title": "Descripción de Objetos",
+      "content": "Combinamos el vocabulario aprendido hasta ahora.\n\n- This is a **new** credit card. (Esta es una tarjeta de crédito nueva)\n- Those computers are **slow**. (Esos ordenadores son lentos)\n- We have a **large** office. (Tenemos una oficina grande)"
+    }
+  ],
+  "objectives": [
+    "Describir objetos financieros con adjetivos básicos",
+    "Identificar características de productos y servicios",
+    "Repasar el uso de demostrativos con adjetivos"
+  ],
+  "keyTerms": [
+    { "term": "Large", "definition": "Big in size or amount." },
+    { "term": "Fast", "definition": "Moving or happening at high speed." }
+  ]
+}

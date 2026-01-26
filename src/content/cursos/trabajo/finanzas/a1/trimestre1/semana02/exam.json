@@ -1,0 +1,55 @@
+{
+  "title": "Examen: El Banco y Posesivos",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is an 'ATM'?",
+      "options": [
+        "A bank manager",
+        "A machine to get money",
+        "A type of bank account",
+        "A financial report"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ATM stands for Automated Teller Machine."
+    },
+    {
+      "id": "q2",
+      "question": "Complete: 'She is a manager. ________ office is on the first floor.'",
+      "options": ["His", "Her", "My", "Your"],
+      "correctAnswer": 1,
+      "explanation": "We use 'Her' for 'She'."
+    },
+    {
+      "id": "q3",
+      "question": "Where do you talk to a cashier in a bank?",
+      "options": [
+        "At the counter",
+        "In the elevator",
+        "At the ATM",
+        "In the parking lot"
+      ],
+      "correctAnswer": 0,
+      "explanation": "You usually talk to a cashier at the counter."
+    },
+    {
+      "id": "q4",
+      "question": "Which possessive is for 'We'?",
+      "options": ["Their", "Our", "Your", "Its"],
+      "correctAnswer": 1,
+      "explanation": "The possessive form of 'We' is 'Our'."
+    },
+    {
+      "id": "q5",
+      "question": "What is a 'Customer'?",
+      "options": [
+        "A person who works in the bank",
+        "A person who uses bank services",
+        "A type of currency",
+        "A bank building"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A customer is a person who buys goods or services from a business."
+    }
+  ]
+}

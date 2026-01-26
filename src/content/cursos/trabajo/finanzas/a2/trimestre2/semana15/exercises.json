@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "A2",
+  "trimester": 2,
+  "weekId": "semana15",
+  "title": "Ejercicios: Seguros y Coberturas",
+  "items": [
+    {
+      "id": "fin-a2-w15-1",
+      "type": "multipleChoice",
+      "prompt": "If you buy this ___, your home is protected.",
+      "options": ["premium", "policy", "claim", "debt"],
+      "answerIndex": 1,
+      "explanation": "A policy is the insurance contract."
+    },
+    {
+      "id": "fin-a2-w15-2",
+      "type": "multipleChoice",
+      "prompt": "If I ___ the premium, I will have coverage.",
+      "options": ["will pay", "pay", "paying", "paid"],
+      "answerIndex": 1,
+      "explanation": "First conditional: If + present simple."
+    },
+    {
+      "id": "fin-a2-w15-3",
+      "type": "multipleChoice",
+      "prompt": "The insurance company will pay if you make a ___.",
+      "options": ["premium", "claim", "budget", "loan"],
+      "answerIndex": 1,
+      "explanation": "A claim is a request for payment after an accident."
+    },
+    {
+      "id": "fin-a2-w15-4",
+      "type": "multipleChoice",
+      "prompt": "If she loses her job, the insurance ___ help her.",
+      "options": ["will", "is", "goes", "does"],
+      "answerIndex": 0,
+      "explanation": "First conditional: ... , will + verb."
+    },
+    {
+      "id": "fin-a2-w15-5",
+      "type": "multipleChoice",
+      "prompt": "What is 'coverage'?",
+      "options": ["The price of a car", "The amount of protection in a policy", "A bank loan", "A type of tax"],
+      "answerIndex": 1,
+      "explanation": "Coverage is what the insurance protects."
+    }
+  ]
+}

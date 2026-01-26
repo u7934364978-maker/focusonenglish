@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 2,
+  "weekId": "semana16",
+  "title": "Ejercicios: Objetos Financieros y Adjetivos",
+  "items": [
+    {
+      "id": "fin-a1-w16-1",
+      "type": "multipleChoice",
+      "prompt": "This computer is very ___, it takes a long time.",
+      "options": ["Fast", "Slow", "New", "Large"],
+      "answerIndex": 1,
+      "explanation": "Slow means lento."
+    },
+    {
+      "id": "fin-a1-w16-2",
+      "type": "multipleChoice",
+      "prompt": "I have a ___ coin from 1950.",
+      "options": ["New", "Old", "Fast", "Large"],
+      "answerIndex": 1,
+      "explanation": "Old means viejo."
+    },
+    {
+      "id": "fin-a1-w16-3",
+      "type": "multipleChoice",
+      "prompt": "The new ATM is very ___.",
+      "options": ["Fast", "Old", "Slow", "These"],
+      "answerIndex": 0,
+      "explanation": "New technology is usually fast."
+    },
+    {
+      "id": "fin-a1-w16-4",
+      "type": "multipleChoice",
+      "prompt": "We need a ___ office for 100 people.",
+      "options": ["Small", "Large", "Old", "Slow"],
+      "answerIndex": 1,
+      "explanation": "Large means grande."
+    },
+    {
+      "id": "fin-a1-w16-5",
+      "type": "multipleChoice",
+      "prompt": "These calculators are ___.",
+      "options": ["New", "This", "There is", "Between"],
+      "answerIndex": 0,
+      "explanation": "New is an adjective to describe the calculators."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Localización en el Banco",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Preposiciones de Lugar",
+      "content": "Aprenderemos a describir dónde están los objetos y oficinas.\n\n- **Next to**: Al lado de\n- **Opposite**: Enfrente de\n- **Between**: Entre (dos cosas)\n- **Inside**: Dentro\n- **Behind**: Detrás\n- **In front of**: Delante de"
+    },
+    {
+      "id": "grammar",
+      "title": "Gramática: Preposiciones Básicas",
+      "content": "Usamos estas preposiciones con el verbo 'to be'.\n\n- The ATM is **next to** the door. (El cajero está al lado de la puerta)\n- The manager's office is **opposite** the counter. (La oficina del director está enfrente del mostrador)\n- Your card is **inside** the envelope. (Tu tarjeta está dentro del sobre)"
+    }
+  ],
+  "objectives": [
+    "Identificar preposiciones de lugar básicas",
+    "Describir la ubicación de servicios bancarios",
+    "Entender instrucciones de dirección simples"
+  ],
+  "keyTerms": [
+    { "term": "Counter", "definition": "The flat surface where the bank teller works and helps customers." },
+    { "term": "Opposite", "definition": "Being on the other side of something." }
+  ]
+}

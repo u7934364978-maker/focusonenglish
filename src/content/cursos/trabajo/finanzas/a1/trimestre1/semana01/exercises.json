@@ -1,0 +1,48 @@
+{
+  "title": "Ejercicios: Números y Monedas",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "How do you say 1,000 in English?",
+      "options": [
+        "One hundred",
+        "One thousand",
+        "One million",
+        "Ten thousand"
+      ],
+      "correctAnswer": 1,
+      "explanation": "1,000 is 'one thousand'."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "The price ________ (be) 500 euros.",
+      "answer": "is",
+      "explanation": "We use 'is' for singular subjects like 'the price'."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the symbol with the currency:",
+      "pairs": [
+        { "term": "$", "definition": "Dollar" },
+        { "term": "€", "definition": "Euro" },
+        { "term": "£", "definition": "Pound" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "Choose the correct negative sentence:",
+      "options": [
+        "It not is a dollar.",
+        "It is not a dollar.",
+        "It am not a dollar.",
+        "It are not a dollar."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The negative structure is 'subject + is + not'."
+    }
+  ]
+}

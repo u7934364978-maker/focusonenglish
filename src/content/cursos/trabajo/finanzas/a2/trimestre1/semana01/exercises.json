@@ -1,0 +1,48 @@
+{
+  "title": "Ejercicios: Apertura de Cuentas",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "Which account is best for saving money for the future?",
+      "options": [
+        "Current account",
+        "Savings account",
+        "Business account",
+        "Expense account"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A savings account is designed for accumulating money over time."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "Yesterday, the customer ________ (visit) the branch and ________ (open) a joint account.",
+      "answer": "visited / opened",
+      "explanation": "We use the -ed ending for regular verbs in the past simple."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the requirement with its meaning:",
+      "pairs": [
+        { "term": "Proof of address", "definition": "A utility bill or bank statement" },
+        { "term": "Initial deposit", "definition": "The first money you put in the account" },
+        { "term": "ID Card", "definition": "Identification document" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "Choose the correct past sentence:",
+      "options": [
+        "He work at the bank last year.",
+        "He works at the bank last year.",
+        "He worked at the bank last year.",
+        "He working at the bank last year."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The past simple of 'work' is 'worked'."
+    }
+  ]
+}

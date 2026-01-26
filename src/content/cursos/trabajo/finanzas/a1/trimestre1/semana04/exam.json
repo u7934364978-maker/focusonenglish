@@ -1,0 +1,40 @@
+{
+  "title": "Examen: Cortesía y Comunicación Básica",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which phrase is used when you arrive at a meeting at 3:00 PM?",
+      "options": ["Good morning", "Good afternoon", "Good night", "Goodbye"],
+      "correctAnswer": 1,
+      "explanation": "3:00 PM is in the afternoon."
+    },
+    {
+      "id": "q2",
+      "question": "What should you say if you want to pass through a crowded hallway?",
+      "options": ["I'm sorry", "Excuse me", "You're welcome", "Hi"],
+      "correctAnswer": 1,
+      "explanation": "We use 'Excuse me' to politely ask someone to move or to get attention."
+    },
+    {
+      "id": "q3",
+      "question": "Complete the dialogue: 'A: Have a nice day! B: Thanks, ________!'",
+      "options": ["You're welcome", "You too", "Please", "Excuse me"],
+      "correctAnswer": 1,
+      "explanation": "'You too' is the polite response to 'Have a nice day'."
+    },
+    {
+      "id": "q4",
+      "question": "What is the polite way to ask for something?",
+      "options": ["Now", "Give me", "Please", "Hello"],
+      "correctAnswer": 2,
+      "explanation": "We use 'Please' to make a request polite."
+    },
+    {
+      "id": "q5",
+      "question": "If you spill coffee on a colleague's desk, you should say:",
+      "options": ["You're welcome", "I'm sorry", "Good morning", "Goodbye"],
+      "correctAnswer": 1,
+      "explanation": "We use 'I'm sorry' to apologize for a mistake or accident."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Ejercicios: La Hora y Negativos",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "How do you say 10:30 in English?",
+      "options": [
+        "Ten o'clock",
+        "Half past ten",
+        "Quarter past ten",
+        "Ten past half"
+      ],
+      "correctAnswer": 1,
+      "explanation": "10:30 is 'half past ten'."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (not / open) on Sundays and the manager ________ (not / work) on Saturdays.",
+      "answer": "don't open / doesn't work",
+      "explanation": "Use 'don't' for 'We' and 'doesn't' for 'The manager' (He/She)."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the time with the expression:",
+      "pairs": [
+        { "term": "12:00 PM", "definition": "Noon" },
+        { "term": "12:00 AM", "definition": "Midnight" },
+        { "term": "9:00", "definition": "Nine o'clock" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "Choose the correct negative sentence:",
+      "options": [
+        "He don't have the money.",
+        "He doesn't has the money.",
+        "He doesn't have the money.",
+        "He not has the money."
+      ],
+      "correctAnswer": 2,
+      "explanation": "After 'doesn't', we use the base form of the verb ('have'), not 'has'."
+    }
+  ]
+}

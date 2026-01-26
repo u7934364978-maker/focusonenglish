@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "A2",
+  "trimester": 2,
+  "weekId": "semana14",
+  "title": "Ejercicios: Préstamos Personales",
+  "items": [
+    {
+      "id": "fin-a2-w14-1",
+      "type": "multipleChoice",
+      "prompt": "Can I ___ 50 euros from you?",
+      "options": ["lend", "borrow", "loan", "debt"],
+      "answerIndex": 1,
+      "explanation": "Borrow means asking for a loan (pedir prestado)."
+    },
+    {
+      "id": "fin-a2-w14-2",
+      "type": "multipleChoice",
+      "prompt": "Don't worry, I ___ pay the debt.",
+      "options": ["am going", "will", "going to", "borrow"],
+      "answerIndex": 1,
+      "explanation": "Will is used for promises."
+    },
+    {
+      "id": "fin-a2-w14-3",
+      "type": "multipleChoice",
+      "prompt": "The monthly ___ is 150 euros.",
+      "options": ["installment", "interest", "debt", "loan"],
+      "answerIndex": 0,
+      "explanation": "Installment is the regular payment."
+    },
+    {
+      "id": "fin-a2-w14-4",
+      "type": "multipleChoice",
+      "prompt": "Will the bank ___ me the money?",
+      "options": ["borrow", "lend", "debt", "installment"],
+      "answerIndex": 1,
+      "explanation": "Lend means giving a loan (prestar)."
+    },
+    {
+      "id": "fin-a2-w14-5",
+      "type": "multipleChoice",
+      "prompt": "If you have a loan, you have a ___.",
+      "options": ["saving", "debt", "budget", "income"],
+      "answerIndex": 1,
+      "explanation": "A debt is money you owe."
+    }
+  ]
+}

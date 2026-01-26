@@ -1,0 +1,24 @@
+{
+  "title": "Mercados de Capitales",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Bolsa, Bonos y Derivados",
+      "content": "Aprenderemos a navegar por los diferentes instrumentos financieros.\n\n- **Stocks / Equities**: Acciones\n- **Bonds / Fixed Income**: Bonos / Renta fija\n- **Commodities**: Materias primas (oro, petróleo, etc.)\n- **Derivatives**: Derivados\n- **Futures and Options**: Futuros y Opciones\n- **Market Volatility**: Volatilidad del mercado"
+    },
+    {
+      "id": "grammar",
+      "title": "Gramática: Conditionals Type 3 for Risk Analysis",
+      "content": "Usamos el tercer condicional para hablar de situaciones pasadas que no ocurrieron y sus consecuencias hipotéticas.\n\nEstructura: **If + Past Perfect (had + p.p.), would have + Past Participle**\n\n- **If** we **had bought** those stocks in 2020, we **would have made** a huge profit. (Si hubiéramos comprado esas acciones en 2020, habríamos obtenido un gran beneficio)\n- **If** the market **hadn't been** so volatile, the merger **would have happened**. (Si el mercado no hubiera sido tan volátil, la fusión habría ocurrido)"
+    }
+  ],
+  "objectives": [
+    "Diferenciar entre acciones, bonos y materias primas",
+    "Utilizar el tercer condicional para analizar decisiones pasadas",
+    "Comprender el funcionamiento básico de los derivados"
+  ],
+  "keyTerms": [
+    { "term": "Commodities", "definition": "A raw material or primary agricultural product that can be bought and sold, such as copper or coffee." },
+    { "term": "Derivatives", "definition": "A financial contract whose value is dependent on an underlying asset, group of assets, or benchmark." }
+  ]
+}

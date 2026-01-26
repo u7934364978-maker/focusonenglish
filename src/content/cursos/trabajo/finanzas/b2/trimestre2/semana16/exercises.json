@@ -1,0 +1,48 @@
+{
+  "title": "Ejercicios: Inversiones Alternativas",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "The company ________ a full due diligence before the acquisition.",
+      "options": [
+        "suggested to do",
+        "suggested doing",
+        "agreed doing",
+        "decided doing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Suggest' is followed by a gerund (-ing)."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "We plan ________ (expand) our private equity division next year.",
+      "answer": "to expand",
+      "explanation": "'Plan' is followed by an infinitive."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the term with its meaning:",
+      "pairs": [
+        { "term": "Leverage", "definition": "Using debt to invest" },
+        { "term": "Venture Capital", "definition": "Investing in startups" },
+        { "term": "Exit Strategy", "definition": "Plan to sell investment" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "Investors ________ high fees in exchange for high returns.",
+      "options": [
+        "risk to pay",
+        "risk paying",
+        "hope paying",
+        "offer paying"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Risk' is followed by a gerund."
+    }
+  ]
+}

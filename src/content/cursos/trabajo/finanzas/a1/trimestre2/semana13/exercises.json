@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 2,
+  "weekId": "semana13",
+  "title": "Ejercicios: Precios y Compras de Oficina",
+  "items": [
+    {
+      "id": "fin-a1-w13-1",
+      "type": "multipleChoice",
+      "prompt": "How do you say 'caro' in English?",
+      "options": ["Cheap", "Price", "Expensive", "Cost"],
+      "answerIndex": 2,
+      "explanation": "Expensive means caro."
+    },
+    {
+      "id": "fin-a1-w13-2",
+      "type": "multipleChoice",
+      "prompt": "___ two calculators on the table.",
+      "options": ["There is", "There are", "Is there", "Are there"],
+      "answerIndex": 1,
+      "explanation": "We use 'There are' for plural (two calculators)."
+    },
+    {
+      "id": "fin-a1-w13-3",
+      "type": "multipleChoice",
+      "prompt": "___ a receipt in the bag?",
+      "options": ["There is", "There are", "Is there", "Are there"],
+      "answerIndex": 2,
+      "explanation": "We use 'Is there' for questions in singular."
+    },
+    {
+      "id": "fin-a1-w13-4",
+      "type": "multipleChoice",
+      "prompt": "What is a 'receipt'?",
+      "options": ["A type of coin", "A document showing payment", "A bank manager", "A credit card"],
+      "answerIndex": 1,
+      "explanation": "A receipt (recibo) proves you paid."
+    },
+    {
+      "id": "fin-a1-w13-5",
+      "type": "multipleChoice",
+      "prompt": "The total ___ is 50 euros.",
+      "options": ["change", "price", "expensive", "cheap"],
+      "answerIndex": 1,
+      "explanation": "Price (precio) is the total amount."
+    }
+  ]
+}

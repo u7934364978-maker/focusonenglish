@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "A2",
+  "trimester": 2,
+  "weekId": "semana13",
+  "title": "Examen: Objetivos de Ahorro y Presupuestos",
+  "items": [
+    {
+      "id": "fin-a2-w13-e1",
+      "type": "multipleChoice",
+      "prompt": "We need to reduce our ___ this month.",
+      "options": ["income", "expenses", "goals", "saving"],
+      "answerIndex": 1,
+      "explanation": "To save money, you should reduce expenses."
+    },
+    {
+      "id": "fin-a2-w13-e2",
+      "type": "multipleChoice",
+      "prompt": "I ___ to start a business next year.",
+      "options": ["am going", "is going", "are going", "go"],
+      "answerIndex": 0,
+      "explanation": "Subject 'I' needs 'am going to'."
+    },
+    {
+      "id": "fin-a2-w13-e3",
+      "type": "multipleChoice",
+      "prompt": "What is your financial ___ for this year?",
+      "options": ["budget", "goal", "expense", "spend"],
+      "answerIndex": 1,
+      "explanation": "A goal is something you want to achieve."
+    },
+    {
+      "id": "fin-a2-w13-e4",
+      "type": "multipleChoice",
+      "prompt": "Is he ___ invest in the stock market?",
+      "options": ["go to", "going to", "goes to", "gone to"],
+      "answerIndex": 1,
+      "explanation": "Question form of 'going to'."
+    },
+    {
+      "id": "fin-a2-w13-e5",
+      "type": "multipleChoice",
+      "prompt": "Your ___ is the total money you receive.",
+      "options": ["expense", "income", "budget", "saving"],
+      "answerIndex": 1,
+      "explanation": "Income is the money earned."
+    }
+  ]
+}

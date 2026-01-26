@@ -1,0 +1,55 @@
+{
+  "title": "Examen: Personal y Preguntas Wh-",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which word is for asking about a person?",
+      "options": ["What", "Where", "Who", "When"],
+      "correctAnswer": 2,
+      "explanation": "We use 'Who' to ask about people."
+    },
+    {
+      "id": "q2",
+      "question": "What does an 'Accountant' do?",
+      "options": [
+        "Sells coffee to customers",
+        "Keeps and inspects financial records",
+        "Cleans the bank office",
+        "Protects the main door"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Accountants are responsible for financial records and taxes."
+    },
+    {
+      "id": "q3",
+      "question": "Complete the question: '________ is the ATM?' 'It's next to the door.'",
+      "options": ["Who", "What", "When", "Where"],
+      "correctAnswer": 3,
+      "explanation": "We use 'Where' to ask for locations."
+    },
+    {
+      "id": "q4",
+      "question": "Who is the 'Client'?",
+      "options": [
+        "The person who gives the money to the bank staff",
+        "The person who owns the bank",
+        "The person who uses the bank's services",
+        "The person who fixes the computers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A client or customer is the person using the services."
+    },
+    {
+      "id": "q5",
+      "question": "What is the correct structure for a question?",
+      "options": [
+        "Where is my account?",
+        "Where my account is?",
+        "Where is your bank working?",
+        "Where the bank is?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Wh- questions with 'to be', the verb comes before the subject."
+    }
+  ]
+}

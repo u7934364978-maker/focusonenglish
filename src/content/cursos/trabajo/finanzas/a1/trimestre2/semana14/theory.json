@@ -1,0 +1,24 @@
+{
+  "title": "Pagos con Tarjeta y Efectivo",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Formas de Pago",
+      "content": "Aprenderemos los términos relacionados con el dinero físico y electrónico.\n\n- **Credit Card**: Tarjeta de crédito\n- **Debit Card**: Tarjeta de débito\n- **Cash**: Efectivo (metálico)\n- **PIN**: Número de identificación personal\n- **Wallet**: Cartera / Billetera\n- **To Pay**: Pagar"
+    },
+    {
+      "id": "grammar",
+      "title": "Gramática: Demostrativos",
+      "content": "Usamos demostrativos para señalar objetos según su distancia.\n\n- **This**: Este/Esta (singular, cerca)\n- **That**: Ese/Esa (singular, lejos)\n- **These**: Estos/Estas (plural, cerca)\n- **Those**: Esos/Esas (plural, lejos)\n\nEjemplos:\n- **This** card is mine. (Esta tarjeta es mía)\n- **Those** coins are for the machine. (Esas monedas son para la máquina)"
+    }
+  ],
+  "objectives": [
+    "Diferenciar tipos de tarjetas y efectivo",
+    "Usar correctamente los demostrativos (this, that, these, those)",
+    "Realizar transacciones básicas de pago"
+  ],
+  "keyTerms": [
+    { "term": "Cash", "definition": "Money in the form of coins or notes." },
+    { "term": "Wallet", "definition": "A small folding case for carrying paper money, credit cards, etc." }
+  ]
+}

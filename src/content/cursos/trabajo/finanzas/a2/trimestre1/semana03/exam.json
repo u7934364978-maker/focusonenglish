@@ -1,0 +1,50 @@
+{
+  "title": "Examen: Seguridad y Problemas Bancarios",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What does 'Stolen' mean?",
+      "options": [
+        "You can't find it",
+        "Someone took it without permission",
+        "It is broken",
+        "It is expired"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Stolen' means taken by theft."
+    },
+    {
+      "id": "q2",
+      "question": "Which question is grammatically correct?",
+      "options": [
+        "Did you spoke to the manager?",
+        "Did you speak to the manager?",
+        "Do you spoke to the manager?",
+        "Did you speaks to the manager?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In past simple questions, we use 'Did' + base form ('speak')."
+    },
+    {
+      "id": "q3",
+      "question": "If you don't recognize a charge on your statement, it might be:",
+      "options": ["A deposit", "A reward", "Fraud", "A gift"],
+      "correctAnswer": 2,
+      "explanation": "An unauthorized or unknown charge is often a sign of fraud."
+    },
+    {
+      "id": "q4",
+      "question": "Complete: 'The bank ________ the account because there was a security risk.'",
+      "options": ["block", "blocked", "blocks", "did block"],
+      "correctAnswer": 1,
+      "explanation": "'Blocked' is the past simple of the regular verb 'block'."
+    },
+    {
+      "id": "q5",
+      "question": "What is the negative of 'He went'?",
+      "options": ["He not went", "He didn't went", "He didn't go", "He doesn't go"],
+      "correctAnswer": 2,
+      "explanation": "The negative of 'went' (past of go) is 'didn't go'."
+    }
+  ]
+}

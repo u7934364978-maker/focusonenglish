@@ -1,0 +1,24 @@
+{
+  "title": "Descripción de Transacciones Pasadas",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "El Extracto Bancario",
+      "content": "Aprenderemos a leer lo que pasó en nuestra cuenta.\n\n- **Bank statement**: Extracto bancario / Estado de cuenta\n- **Withdrawal**: Retiro de dinero\n- **Deposit**: Depósito\n- **Transfer**: Transferencia\n- **Transaction**: Transacción\n- **Balance**: Saldo\n- **Spending**: Gasto"
+    },
+    {
+      "id": "grammar",
+      "title": "Verbos Irregulares en Pasado",
+      "content": "Muchos verbos importantes en finanzas no siguen la regla de '-ed'.\n\n**Infinitivo -> Pasado:**\n- **Buy -> Bought** (Comprar -> Compré)\n- **Sell -> Sold** (Vender -> Vendí)\n- **Pay -> Paid** (Pagar -> Pagué)\n- **Send -> Sent** (Enviar -> Envié)\n- **Get -> Got** (Obtener -> Obtuve)\n- **Make -> Made** (Hacer -> Hice)\n- **Go -> Went** (Ir -> Fui)\n\nEjemplos:\n- I **bought** some shares last week. (Compré algunas acciones la semana pasada)\n- He **sent** a transfer yesterday. (Él envió una transferencia ayer)"
+    }
+  ],
+  "objectives": [
+    "Interpretar un extracto bancario básico",
+    "Memorizar y utilizar verbos irregulares comunes en finanzas",
+    "Describir actividades financieras realizadas en el pasado"
+  ],
+  "keyTerms": [
+    { "term": "Overdraft", "definition": "When you spend more money than you have in your account." },
+    { "term": "Inbound", "definition": "Money coming into the account (like a deposit)." }
+  ]
+}

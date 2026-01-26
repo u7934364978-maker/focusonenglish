@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 2,
+  "weekId": "semana14",
+  "title": "Ejercicios: Pagos con Tarjeta y Efectivo",
+  "items": [
+    {
+      "id": "fin-a1-w14-1",
+      "type": "multipleChoice",
+      "prompt": "I don't have a card, I only have ___.",
+      "options": ["PIN", "Cash", "Wallet", "Debit"],
+      "answerIndex": 1,
+      "explanation": "Cash means physical money."
+    },
+    {
+      "id": "fin-a1-w14-2",
+      "type": "multipleChoice",
+      "prompt": "___ cards (here) are new.",
+      "options": ["This", "That", "These", "Those"],
+      "answerIndex": 2,
+      "explanation": "These is for plural near (here)."
+    },
+    {
+      "id": "fin-a1-w14-3",
+      "type": "multipleChoice",
+      "prompt": "Please enter your ___ on the keypad.",
+      "options": ["Wallet", "Cash", "PIN", "Change"],
+      "answerIndex": 2,
+      "explanation": "PIN is the secret code for cards."
+    },
+    {
+      "id": "fin-a1-w14-4",
+      "type": "multipleChoice",
+      "prompt": "___ bank (over there) is closed.",
+      "options": ["This", "That", "These", "Those"],
+      "answerIndex": 1,
+      "explanation": "That is for singular far (over there)."
+    },
+    {
+      "id": "fin-a1-w14-5",
+      "type": "multipleChoice",
+      "prompt": "Where is my ___? I need my money.",
+      "options": ["Receipt", "Wallet", "Cost", "Price"],
+      "answerIndex": 1,
+      "explanation": "A wallet carries money and cards."
+    }
+  ]
+}
