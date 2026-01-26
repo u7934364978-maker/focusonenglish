@@ -1,0 +1,15 @@
+{
+  "title": "Week 9: Digital Banking Security & Fraud Prevention",
+  "content": "# Digital Banking Security\n\nAs banking moves increasingly online, security has become a top priority for both financial institutions and customers. Understanding how to protect sensitive data is essential.\n\n## Key Concepts\n\n### 1. Two-Factor Authentication (2FA)\nAn extra layer of security used to ensure that people trying to gain access to an online account are who they say they are. First, a user will enter their username and a password. Then, instead of immediately gaining access, they will be required to provide another piece of information.\n\n### 2. Encryption\nThe process of converting information or data into a code, especially to prevent unauthorized access.\n\n### 3. Phishing, Smishing, and Vishing\n- **Phishing**: Fraudulent emails.\n- **Smishing**: Fraudulent text messages (SMS).\n- **Vishing**: Fraudulent phone calls (Voice).\n\n## Common Security Protocols\n- **SSL (Secure Sockets Layer)**: Standard technology for keeping an internet connection secure.\n- **Biometrics**: Using unique biological traits (fingerprints, facial recognition) for identification.",
+  "objectives": [
+    "Identify different types of financial cyber-fraud",
+    "Explain security measures like 2FA and encryption",
+    "Use vocabulary related to digital security in a professional context"
+  ],
+  "keyTerms": [
+    { "term": "Encryption", "definition": "The conversion of data into a cipher or code." },
+    { "term": "2FA", "definition": "Two-Factor Authentication; a two-step verification process." },
+    { "term": "Biometrics", "definition": "Authentication techniques that rely on measurable physical characteristics." },
+    { "term": "Firewall", "definition": "A network security system that monitors and controls incoming and outgoing network traffic." }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 1,
+  "weekId": "semana12",
+  "title": "Trimester 1 Final Exercises",
+  "description": "Final practice session before the main exam.",
+  "items": [
+    {
+      "id": "fin-b1-w12-1",
+      "type": "multipleChoice",
+      "prompt": "What is an 'overdraft'?",
+      "options": ["A high-interest account", "Spending more than your balance", "A bank manager's bonus", "A type of tax"],
+      "answerIndex": 1,
+      "explanation": "Overdrafts allow spending beyond the zero balance."
+    },
+    {
+      "id": "fin-b1-w12-2",
+      "type": "multipleChoice",
+      "prompt": "Which term describes 'converting data into code'?",
+      "options": ["Encryption", "Escalation", "Compensation", "Transaction"],
+      "answerIndex": 0,
+      "explanation": "Encryption is used to protect data."
+    },
+    {
+      "id": "fin-b1-w12-3",
+      "type": "multipleChoice",
+      "prompt": "If a customer is very angry, you should use:",
+      "options": ["Encryption", "Empathy", "Escalation immediately", "A loud voice"],
+      "answerIndex": 1,
+      "explanation": "Empathy helps in de-escalating conflicts."
+    },
+    {
+      "id": "fin-b1-w12-4",
+      "type": "multipleChoice",
+      "prompt": "What is 'phishing'?",
+      "options": ["A hobby", "Fraudulent emails to steal data", "A type of mortgage", "A bank branch"],
+      "answerIndex": 1,
+      "explanation": "Phishing is a common online scam."
+    },
+    {
+      "id": "fin-b1-w12-5",
+      "type": "multipleChoice",
+      "prompt": "I ___ (have) this credit card since 2022.",
+      "options": ["had", "have had", "am having", "was having"],
+      "answerIndex": 1,
+      "explanation": "Present Perfect with 'since' for something that started in the past and continues."
+    }
+  ]
+}

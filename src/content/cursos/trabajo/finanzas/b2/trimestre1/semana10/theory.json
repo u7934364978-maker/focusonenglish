@@ -1,0 +1,15 @@
+{
+  "title": "Week 10: Financial KPIs & Dashboards",
+  "content": "# Financial Performance Measurement\n\nTo manage a business effectively, finance professionals use **Key Performance Indicators (KPIs)**. These metrics allow stakeholders to track performance against strategic goals.\n\n## Essential Financial KPIs\n1. **Operating Margin**: A measure of what proportion of a company's revenue is left over after paying for variable costs of production.\n2. **Current Ratio**: A liquidity ratio that measures a company's ability to pay short-term obligations.\n3. **Debt-to-Equity Ratio**: Used to evaluate a company's financial leverage.\n4. **Net Profit Margin**: The percentage of revenue left after all expenses have been deducted from sales.\n\n## Dashboards and Visualization\nA **Financial Dashboard** is a management tool that tracks KPIs and other metrics in a visual way. It provides a real-time overview of the financial health of the business.\n\n## Grammar: Modal Verbs for Deduction\nWhen analyzing trends in a dashboard, we use modals of deduction to interpret data:\n- **Must have**: Strong certainty (positive). \"Profits must have increased due to the new product launch.\"\n- **Can't have**: Strong certainty (negative). \"Expenses can't have been that high; check the records.\"\n- **Might/Could have**: Possibility. \"The variance might have been caused by fluctuating exchange rates.\"",
+  "objectives": [
+    "Define and calculate key financial KPIs",
+    "Interpret data displayed on financial dashboards",
+    "Use modal verbs of deduction to explain financial trends"
+  ],
+  "keyTerms": [
+    { "term": "KPI", "definition": "Key Performance Indicator; a quantifiable measure of performance over time for a specific objective." },
+    { "term": "Benchmarking", "definition": "Comparing one's business processes and performance metrics to industry bests or best practices from other companies." },
+    { "term": "Variance", "definition": "The difference between a planned (budgeted) amount and the actual amount." },
+    { "term": "Leverage", "definition": "The use of borrowed money to increase the potential return of an investment." }
+  ]
+}

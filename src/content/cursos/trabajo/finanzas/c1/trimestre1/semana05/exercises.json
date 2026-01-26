@@ -1,0 +1,410 @@
+{
+  "goal": "finanzas",
+  "level": "C1",
+  "trimester": 1,
+  "weekId": "semana05",
+  "title": "DCF Foundations Exercises",
+  "description": "Calculate Free Cash Flow and practice the formal subjunctive mood.",
+  "items": [
+    {
+      "id": "fin-c1-w5-1",
+      "type": "multipleChoice",
+      "prompt": "In the FCFF formula, why do we 'add back' Depreciation?",
+      "options": ["It is a cash expense", "It is a non-cash expense that was deducted from EBIT", "The bank requires it", "It increases tax"],
+      "answerIndex": 1,
+      "explanation": "Depreciation is an accounting entry, not a cash outflow, so it must be added back to get the true cash position."
+    },
+    {
+      "id": "fin-c1-w5-2",
+      "type": "multipleChoice",
+      "prompt": "Unlevered Free Cash Flow (FCFF) is available to:",
+      "options": ["Only equity holders", "Only debt holders", "Both debt and equity holders", "Only the government"],
+      "answerIndex": 2,
+      "explanation": "FCFF is 'unlevered' because it is calculated before interest payments."
+    },
+    {
+      "id": "fin-c1-w5-3",
+      "type": "multipleChoice",
+      "prompt": "What is 'Terminal Value' in a DCF?",
+      "options": ["The value of the company when it goes bankrupt", "The estimated value of the company beyond the explicit forecast period", "The cost of the CEO's office", "The current stock price"],
+      "answerIndex": 1,
+      "explanation": "TV often accounts for 60-80% of the total DCF value."
+    },
+    {
+      "id": "fin-c1-w5-4",
+      "type": "multipleChoice",
+      "prompt": "Identify the correct subjunctive usage:",
+      "options": ["It is essential that the model is correct.", "It is essential that the model be correct.", "It is essential that the model was correct.", "It is essential that the model being correct."],
+      "answerIndex": 1,
+      "explanation": "Subjunctive uses the base form of the verb ('be')."
+    },
+    {
+      "id": "fin-c1-w5-5",
+      "type": "multipleChoice",
+      "prompt": "Which method assumes a constant growth rate forever?",
+      "options": ["Exit Multiple", "Gordon Growth", "Linear Regression", "Market Cap"],
+      "answerIndex": 1,
+      "explanation": "Gordon Growth (or Perpetuity Growth) is a standard DCF component."
+    },
+    {
+      "id": "fin-c1-w5-6",
+      "type": "multipleChoice",
+      "prompt": "In a DCF, if the 'Discount Rate' increases, what happens to the 'Present Value'?",
+      "options": ["It increases", "It decreases", "It stays the same", "It fluctuates wildly"],
+      "answerIndex": 1,
+      "explanation": "A higher discount rate reduces the value of future cash flows in today's terms."
+    },
+    {
+      "id": "fin-c1-w5-7",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct subjunctive: 'The auditor recommended that the CAPEX assumption ___.'",
+      "options": ["is lowered", "be lowered", "was lowered", "lowering"],
+      "answerIndex": 1,
+      "explanation": "'Recommend that [subject] [base verb]' is the subjunctive structure."
+    },
+    {
+      "id": "fin-c1-w5-8",
+      "type": "multipleChoice",
+      "prompt": "What does 'NPV' stand for?",
+      "options": ["Net Present Value", "Normal Profit Velocity", "Next Period Valuation", "New Principal Volume"],
+      "answerIndex": 0,
+      "explanation": "NPV is the sum of the present values of incoming and outgoing cash flows over a period of time."
+    },
+    {
+      "id": "fin-c1-w5-9",
+      "type": "multipleChoice",
+      "prompt": "If a project has an NPV of $0, it means:",
+      "options": ["The project is losing money", "The project is making exactly the required rate of return", "The project is a disaster", "The project has no cost"],
+      "answerIndex": 1,
+      "explanation": "An NPV of 0 means the project earns exactly the discount rate (WACC)."
+    },
+    {
+      "id": "fin-c1-w5-10",
+      "type": "multipleChoice",
+      "prompt": "Which valuation approach is considered 'Intrinsic'?",
+      "options": ["Comps (Comparable Companies)", "Precedent Transactions", "DCF", "Market Capitalization"],
+      "answerIndex": 2,
+      "explanation": "DCF is intrinsic because it relies on the company's own cash flows, not market comparisons."
+    },
+    {
+      "id": "fin-c1-w5-11",
+      "type": "multipleChoice",
+      "prompt": "Subjunctive: 'It is vital that the CFO ___ the board immediately.'",
+      "options": ["informs", "inform", "informed", "is informing"],
+      "answerIndex": 1,
+      "explanation": "Subjunctive uses the base form 'inform'."
+    },
+    {
+      "id": "fin-c1-w5-12",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Exit Multiple' method based on?",
+      "options": ["Predicting the price of a single share", "Applying a multiple (like EV/EBITDA) to the final year's financial metric", "Counting the number of employees who leave", "Selling all assets at book value"],
+      "answerIndex": 1,
+      "explanation": "It assumes the company is sold at the end of the forecast period for a market-standard multiple."
+    },
+    {
+      "id": "fin-c1-w5-13",
+      "type": "multipleChoice",
+      "prompt": "In FCFF, what does a 'Change in Working Capital' represent?",
+      "options": ["Paying employees", "The net investment in short-term assets and liabilities needed for operations", "The CEO's bonus", "A change in the location of the office"],
+      "answerIndex": 1,
+      "explanation": "Increases in assets (like inventory) are a use of cash, reducing FCFF."
+    },
+    {
+      "id": "fin-c1-w5-14",
+      "type": "multipleChoice",
+      "prompt": "Formal proposal: 'I propose that this valuation ___ as the basis for the merger negotiation.'",
+      "options": ["serves", "serve", "served", "is serving"],
+      "answerIndex": 1,
+      "explanation": "Subjunctive 'serve' follows the verb 'propose'."
+    },
+    {
+      "id": "fin-c1-w5-15",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Hurdle Rate'?",
+      "options": ["A type of tax", "The minimum rate of return a company expects from an investment", "The speed of sales growth", "The cost of closing a business"],
+      "answerIndex": 1,
+      "explanation": "Investors use the hurdle rate (often WACC) to decide whether to pursue a project."
+    },
+    {
+      "id": "fin-c1-w5-16",
+      "type": "multipleChoice",
+      "prompt": "Why is 'Unlevered' FCF used when calculating Enterprise Value?",
+      "options": ["It is easier to calculate", "It shows the value of the business independent of its capital structure", "It ignores taxes", "Banks prefer it"],
+      "answerIndex": 1,
+      "explanation": "Enterprise Value represents the value to both debt and equity holders."
+    },
+    {
+      "id": "fin-c1-w5-17",
+      "type": "multipleChoice",
+      "prompt": "Subjunctive: 'It is imperative that the terminal growth rate ___ the long-term GDP growth rate.'",
+      "options": ["not exceed", "doesn't exceed", "didn't exceed", "is not exceeding"],
+      "answerIndex": 0,
+      "explanation": "Negative subjunctive: 'not + base verb'."
+    },
+    {
+      "id": "fin-c1-w5-18",
+      "type": "multipleChoice",
+      "prompt": "What happens if the 'WACC' is lower than the 'ROIC' (Return on Invested Capital)?",
+      "options": ["The company is destroying value", "The company is creating value", "The company is bankrupt", "Nothing happens"],
+      "answerIndex": 1,
+      "explanation": "Value is created when a company's return exceeds its cost of capital."
+    },
+    {
+      "id": "fin-c1-w5-19",
+      "type": "multipleChoice",
+      "prompt": "In the Gordon Growth Model, what does 'g' stand for?",
+      "options": ["Gross margin", "Perpetual growth rate", "Global tax rate", "Geometric mean"],
+      "answerIndex": 1,
+      "explanation": "It's the rate at which cash flows are assumed to grow forever."
+    },
+    {
+      "id": "fin-c1-w5-20",
+      "type": "multipleChoice",
+      "prompt": "Select the correct phrase: 'The DCF analysis is ___ to small changes in assumptions.'",
+      "options": ["highly sensitive", "very big", "totally changed", "much influenced"],
+      "answerIndex": 0,
+      "explanation": "'Highly sensitive' is a standard term to describe how model outputs react to inputs."
+    },
+    {
+      "id": "fin-c1-w5-21",
+      "type": "multipleChoice",
+      "prompt": "What is 'FCFE'?",
+      "options": ["Free Cash Flow to Everyone", "Free Cash Flow to Equity", "Final Cash Funding Estimate", "Financial Cash Flow Entry"],
+      "answerIndex": 1,
+      "explanation": "FCFE is the cash available only to shareholders after debt obligations are met."
+    },
+    {
+      "id": "fin-c1-w5-22",
+      "type": "multipleChoice",
+      "prompt": "In a DCF, 'Beta' is a measure of:",
+      "options": ["A company's profitability", "A company's stock volatility relative to the overall market", "The CEO's experience", "The number of employees"],
+      "answerIndex": 1,
+      "explanation": "Beta is used in the CAPM model to determine the cost of equity."
+    },
+    {
+      "id": "fin-c1-w5-23",
+      "type": "multipleChoice",
+      "prompt": "Subjunctive: 'The board suggests that the CEO ___ the offer.'",
+      "options": ["accepts", "accept", "accepted", "is accepting"],
+      "answerIndex": 1,
+      "explanation": "Subjunctive 'accept' after 'suggests that'."
+    },
+    {
+      "id": "fin-c1-w5-24",
+      "type": "multipleChoice",
+      "prompt": "What does a 'Negative NPV' imply?",
+      "options": ["The project should be rejected", "The project is a good investment", "The project has no risks", "The project is free"],
+      "answerIndex": 0,
+      "explanation": "A negative NPV means the project's returns are lower than the cost of capital."
+    },
+    {
+      "id": "fin-c1-w5-25",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Cash Outflow' in the FCFF calculation?",
+      "options": ["Depreciation", "CAPEX", "Increase in Accounts Payable", "Revenue"],
+      "answerIndex": 1,
+      "explanation": "Capital Expenditure (CAPEX) is an investment of cash into the business."
+    },
+    {
+      "id": "fin-c1-w5-26",
+      "type": "multipleChoice",
+      "prompt": "Professional nuance: 'It is highly ___ that the projections will be met.'",
+      "options": ["probable", "likely", "possible", "all of the above"],
+      "answerIndex": 3,
+      "explanation": "At C1, you should be able to distinguish between different degrees of probability."
+    },
+    {
+      "id": "fin-c1-w5-27",
+      "type": "multipleChoice",
+      "prompt": "What is 'IRR'?",
+      "options": ["Internal Rate of Return", "Interest Rate Reduction", "Investment Risk Ratio", "Initial Revenue Report"],
+      "answerIndex": 0,
+      "explanation": "IRR is the discount rate that makes the NPV of a project equal to zero."
+    },
+    {
+      "id": "fin-c1-w5-28",
+      "type": "multipleChoice",
+      "prompt": "In valuation, 'Synergy' refers to:",
+      "options": ["A type of energy company", "The extra value created by combining two companies", "A reduction in staff", "A new marketing logo"],
+      "answerIndex": 1,
+      "explanation": "Synergies can be cost-based (cutting overheads) or revenue-based (cross-selling)."
+    },
+    {
+      "id": "fin-c1-w5-29",
+      "type": "multipleChoice",
+      "prompt": "Subjunctive: 'We require that all inputs ___ in blue font.'",
+      "options": ["be", "are", "was", "been"],
+      "answerIndex": 0,
+      "explanation": "Standard formatting rule expressed with the subjunctive 'be'."
+    },
+    {
+      "id": "fin-c1-w5-30",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Risk-Free Rate' typically based on?",
+      "options": ["The price of gold", "Government bonds (e.g., US Treasuries)", "The S&P 500", "The interest on a savings account"],
+      "answerIndex": 1,
+      "explanation": "Government bonds are considered risk-free as they are backed by the government's ability to tax and print money."
+    },
+    {
+      "id": "fin-c1-w5-31",
+      "type": "multipleChoice",
+      "prompt": "If you are 'discounting' a cash flow, you are:",
+      "options": ["Giving a price reduction to a customer", "Determining the present value of a future amount", "Ignoring the cash flow", "Calculating the tax"],
+      "answerIndex": 1,
+      "explanation": "Discounting 'pulls back' future value to the present."
+    },
+    {
+      "id": "fin-c1-w5-32",
+      "type": "multipleChoice",
+      "prompt": "Choose the most appropriate word: 'The valuation was ___ by an independent firm.'",
+      "options": ["validated", "checked", "done", "made"],
+      "answerIndex": 0,
+      "explanation": "'Validated' is more formal and implies a professional review process."
+    },
+    {
+      "id": "fin-c1-w5-33",
+      "type": "multipleChoice",
+      "prompt": "What is 'Market Cap'?",
+      "options": ["The total amount of cash in the market", "Share price multiplied by the number of outstanding shares", "The maximum price a share can reach", "The name of a major stock exchange"],
+      "answerIndex": 1,
+      "explanation": "Market Capitalization represents the total equity value of a public company."
+    },
+    {
+      "id": "fin-c1-w5-34",
+      "type": "multipleChoice",
+      "prompt": "In a DCF, 'Explicit Forecast Period' usually lasts:",
+      "options": ["1 year", "5 to 10 years", "Forever", "100 years"],
+      "answerIndex": 1,
+      "explanation": "Beyond 10 years, it becomes too difficult to forecast specific line items accurately."
+    },
+    {
+      "id": "fin-c1-w5-35",
+      "type": "multipleChoice",
+      "prompt": "Subjunctive: 'It is recommended that the terminal value ___ using both methods.'",
+      "options": ["be calculated", "is calculated", "calculates", "was calculated"],
+      "answerIndex": 0,
+      "explanation": "Passive subjunctive 'be calculated'."
+    },
+    {
+      "id": "fin-c1-w5-36",
+      "type": "multipleChoice",
+      "prompt": "What is 'Equity Value'?",
+      "options": ["Enterprise Value + Debt - Cash", "Enterprise Value - Debt + Cash", "Revenue - Expenses", "Total Assets"],
+      "answerIndex": 1,
+      "explanation": "Equity value is the value remaining for shareholders after all debt has been paid off."
+    },
+    {
+      "id": "fin-c1-w5-37",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Relative Valuation' metric?",
+      "options": ["NPV", "P/E Ratio (Price-to-Earnings)", "FCFF", "IRR"],
+      "answerIndex": 1,
+      "explanation": "P/E compares a company's value to its peers or market averages."
+    },
+    {
+      "id": "fin-c1-w5-38",
+      "type": "multipleChoice",
+      "prompt": "Professional register: 'The deal ___ on the board's approval.'",
+      "options": ["hangs", "depends", "is contingent", "rests"],
+      "answerIndex": 2,
+      "explanation": "'Is contingent on' is a high-level professional expression."
+    },
+    {
+      "id": "fin-c1-w5-39",
+      "type": "multipleChoice",
+      "prompt": "What is 'Sensitivity Analysis' (or a 'Tornado Chart') used for in DCF?",
+      "options": ["To track the weather", "To show which variables have the biggest impact on the final valuation", "To list the employees' names", "To calculate the tax"],
+      "answerIndex": 1,
+      "explanation": "It helps identify the 'drivers' that the valuation is most sensitive to."
+    },
+    {
+      "id": "fin-c1-w5-40",
+      "type": "multipleChoice",
+      "prompt": "What does a 'High WACC' suggest about a company?",
+      "options": ["It is very safe", "It is perceived as having higher risk by investors", "It has no debt", "It is very profitable"],
+      "answerIndex": 1,
+      "explanation": "Investors demand a higher return (WACC) for taking on higher risk."
+    },
+    {
+      "id": "fin-c1-w5-41",
+      "type": "multipleChoice",
+      "prompt": "Subjunctive: 'It is desirable that the company ___ its debt before the merger.'",
+      "options": ["reduces", "reduce", "reduced", "is reducing"],
+      "answerIndex": 1,
+      "explanation": "Subjunctive 'reduce' after 'it is desirable that'."
+    },
+    {
+      "id": "fin-c1-w5-42",
+      "type": "multipleChoice",
+      "prompt": "What is 'Enterprise Value' (EV)?",
+      "options": ["The price of a building", "The total value of a business to all its investors (debt and equity)", "The CEO's net worth", "The value of a company's brand only"],
+      "answerIndex": 1,
+      "explanation": "EV = Equity Value + Debt + Preferred Stock + Minority Interest - Cash."
+    },
+    {
+      "id": "fin-c1-w5-43",
+      "type": "multipleChoice",
+      "prompt": "In DCF, 'Perpetuity' refers to:",
+      "options": ["A very short time", "A constant stream of cash flows that continues forever", "The end of a business", "The tax rate"],
+      "answerIndex": 1,
+      "explanation": "Perpetuity formulas are used to calculate Terminal Value."
+    },
+    {
+      "id": "fin-c1-w5-44",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct phrase: 'The assumptions were ___ for the sake of the analysis.'",
+      "options": ["normalized", "fixed", "done", "made"],
+      "answerIndex": 0,
+      "explanation": "'Normalized' means adjusted to remove one-time or unusual effects."
+    },
+    {
+      "id": "fin-c1-w5-45",
+      "type": "multipleChoice",
+      "prompt": "What is 'Intrinsic Value'?",
+      "options": ["The price on the stock market", "The 'true' value of an asset based on its underlying characteristics and cash flows", "The book value", "The liquidation value"],
+      "answerIndex": 1,
+      "explanation": "Investors look for stocks where the market price is lower than the intrinsic value."
+    },
+    {
+      "id": "fin-c1-w5-46",
+      "type": "multipleChoice",
+      "prompt": "If a company has high CAPEX, its Free Cash Flow will be:",
+      "options": ["Higher", "Lower", "The same", "Zero"],
+      "answerIndex": 1,
+      "explanation": "Spending cash on assets (CAPEX) reduces the amount of 'free' cash available."
+    },
+    {
+      "id": "fin-c1-w5-47",
+      "type": "multipleChoice",
+      "prompt": "Subjunctive: 'We demand that the data ___ before the meeting.'",
+      "options": ["is verified", "be verified", "was verified", "verifies"],
+      "answerIndex": 1,
+      "explanation": "Passive subjunctive 'be verified' after 'demand that'."
+    },
+    {
+      "id": "fin-c1-w5-48",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Discount Factor'?",
+      "options": ["A coupon for a bank", "A decimal used to multiply a future cash flow to find its present value", "The interest rate divided by two", "A type of tax credit"],
+      "answerIndex": 1,
+      "explanation": "The discount factor decreases as time increases (e.g., year 5 has a lower factor than year 1)."
+    },
+    {
+      "id": "fin-c1-w5-49",
+      "type": "multipleChoice",
+      "prompt": "Choose the most formal connector: 'The valuation was low; ___ , we decided not to invest.'",
+      "options": ["accordingly", "so", "and", "because"],
+      "answerIndex": 0,
+      "explanation": "'Accordingly' is a formal connector indicating a logical consequence."
+    },
+    {
+      "id": "fin-c1-w5-50",
+      "type": "multipleChoice",
+      "prompt": "Which of these factors 'decreases' the terminal value in Gordon Growth?",
+      "options": ["Higher growth rate (g)", "Lower discount rate (r)", "Higher discount rate (r)", "Higher year-n cash flow"],
+      "answerIndex": 2,
+      "explanation": "In the formula TV = FCF * (1+g) / (r - g), a larger 'r' in the denominator decreases the result."
+    }
+  ]
+}

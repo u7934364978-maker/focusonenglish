@@ -1,0 +1,15 @@
+{
+  "title": "Week 9: Internal Audit Procedures & Compliance",
+  "content": "# Internal Audit and Compliance\n\nFor a B2 professional in finance, understanding the intricacies of auditing and regulatory compliance is paramount. This week focuses on the procedures used to ensure financial integrity and adherence to laws.\n\n## Internal vs. External Audit\n- **Internal Audit**: A department within an organization that provides independent, objective assurance designed to improve an organization's operations.\n- **External Audit**: An independent examination of the financial statements of an entity by an outside professional (typically a CPA or CA).\n\n## Audit Procedures\n1. **Vouching**: Checking the accuracy of entries in the books of accounts with supporting documents (invoices, receipts).\n2. **Verification**: Confirming the physical existence and ownership of assets.\n3. **Reconciliation**: Ensuring that two sets of records (e.g., bank statement and internal ledger) are in agreement.\n\n## Compliance and Regulatory Frameworks\nCompliance involves following the 'rules of the game' set by government bodies and international standards (like IFRS or GAAP). Non-compliance can lead to heavy fines and reputational damage.\n\n## Grammar Focus: Complex Passives\nIn audit reports, we often use complex passive structures for formality:\n- *It is estimated that...*\n- *The discrepancies were found to be...*\n- *Regulations are expected to be updated...*",
+  "objectives": [
+    "Distinguish between internal and external auditing",
+    "Master vocabulary for audit procedures (vouching, verification)",
+    "Use complex passive structures in financial reporting"
+  ],
+  "keyTerms": [
+    { "term": "Accountability", "definition": "The obligation of an individual or organization to account for its activities and accept responsibility." },
+    { "term": "Vouching", "definition": "The process of verifying accounting entries by examining supporting documents." },
+    { "term": "Compliance", "definition": "The state of according with relevant laws and regulations." },
+    { "term": "Materiality", "definition": "An accounting concept that identifies whether a piece of information is significant enough to affect the decisions of a user." }
+  ]
+}

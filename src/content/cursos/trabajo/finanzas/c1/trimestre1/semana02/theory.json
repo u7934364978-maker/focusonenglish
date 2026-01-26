@@ -1,0 +1,14 @@
+{
+  "title": "Week 2: Forecasting & Revenue Drivers",
+  "content": "# Forecasting Techniques\n\nForecasting is the process of predicting future financial performance based on historical data, market trends, and strategic assumptions. For C1 professionals, this involves moving beyond simple linear growth.\n\n## Top-Down vs. Bottom-Up Forecasting\n- **Top-Down**: Starting with the total market size and estimating the company's market share. Useful for new products or early-stage startups.\n- **Bottom-Up**: Starting with internal data (e.g., number of sales reps, conversion rates, average order value) and building up to total revenue. This is generally more granular and accurate for established businesses.\n\n## Revenue Drivers\nRevenue is rarely just 'sales'. It is driven by specific factors:\n- **Volume**: Number of units sold, number of subscribers.\n- **Pricing**: Average selling price, subscription tiers.\n- **Churn Rate**: The rate at which customers stop doing business with an entity.\n\n## Grammar: Nuance and Subtlety\nAt C1, you must express predictions with precision using hedging language:\n- *It is widely anticipated that...*\n- *There is a significant likelihood of...*\n- *Assuming the current trends persist, revenue could potentially...*",
+  "objectives": [
+    "Differentiate between top-down and bottom-up forecasting",
+    "Identify key revenue drivers for different business models",
+    "Use hedging language to express nuanced financial predictions"
+  ],
+  "keyTerms": [
+    { "term": "Churn", "definition": "The percentage of subscribers to a service who discontinue their subscriptions to the service within a given time period." },
+    { "term": "Market Penetration", "definition": "The extent to which a product is recognized and bought by customers in a particular market." },
+    { "term": "CAGR", "definition": "Compound Annual Growth Rate; the mean annual growth rate of an investment over a specified period of time longer than one year." }
+  ]
+}

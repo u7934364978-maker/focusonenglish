@@ -1,0 +1,50 @@
+{
+  "goal": "finanzas",
+  "level": "C1",
+  "trimester": 1,
+  "weekId": "semana02",
+  "title": "Week 2 Quiz: Forecasting",
+  "description": "Test your knowledge of forecasting methodologies and professional register.",
+  "items": [
+    {
+      "id": "fin-c1-w2-e1",
+      "type": "multipleChoice",
+      "prompt": "A bottom-up forecast for a retail store would likely start with:",
+      "options": ["Global GDP", "Average spend per customer and footfall", "The competitor's stock price", "Total national retail sales"],
+      "answerIndex": 1,
+      "explanation": "Bottom-up starts with internal operational drivers."
+    },
+    {
+      "id": "fin-c1-w2-e2",
+      "type": "multipleChoice",
+      "prompt": "Which phrase expresses the most caution?",
+      "options": ["We will succeed.", "Success is guaranteed.", "One cannot rule out the possibility of success.", "We are certain to succeed."],
+      "answerIndex": 2,
+      "explanation": "'One cannot rule out' is a classic C1 hedging phrase."
+    },
+    {
+      "id": "fin-c1-w2-e3",
+      "type": "multipleChoice",
+      "prompt": "Churn rate is a measure of:",
+      "options": ["Employee happiness", "Customer retention/loss", "The speed of the factory machines", "Tax efficiency"],
+      "answerIndex": 1,
+      "explanation": "High churn is a negative indicator for growth."
+    },
+    {
+      "id": "fin-c1-w2-e4",
+      "type": "multipleChoice",
+      "prompt": "What is 'Market Penetration'?",
+      "options": ["The price of a product", "The percentage of a market that consumes a product", "The cost of building a factory", "A type of marketing email"],
+      "answerIndex": 1,
+      "explanation": "It shows how much of the target audience is actually buying."
+    },
+    {
+      "id": "fin-c1-w2-e5",
+      "type": "multipleChoice",
+      "prompt": "In a forecast, 'Seasonality' refers to:",
+      "options": ["The weather in the office", "Predictable fluctuations that occur at specific intervals", "The age of the employees", "The length of the annual report"],
+      "answerIndex": 1,
+      "explanation": "Examples include higher sales in December for retailers."
+    }
+  ]
+}

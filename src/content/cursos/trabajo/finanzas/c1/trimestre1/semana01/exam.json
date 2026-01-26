@@ -1,0 +1,50 @@
+{
+  "goal": "finanzas",
+  "level": "C1",
+  "trimester": 1,
+  "weekId": "semana01",
+  "title": "Week 1 Quiz: Modeling Foundations",
+  "description": "Assess your grasp of modeling principles and advanced syntax.",
+  "items": [
+    {
+      "id": "fin-c1-w1-e1",
+      "type": "multipleChoice",
+      "prompt": "Which principle emphasizes that formulas should be easy to audit?",
+      "options": ["Flexibility", "Integrity", "Transparency", "Complexity"],
+      "answerIndex": 2,
+      "explanation": "Transparency ensures that third parties can understand the model's logic."
+    },
+    {
+      "id": "fin-c1-w1-e2",
+      "type": "multipleChoice",
+      "prompt": "Inversion: 'Little ___ he know that the merger would fail.'",
+      "options": ["did", "was", "does", "has"],
+      "answerIndex": 0,
+      "explanation": "'Little did he know' is a common idiomatic inversion."
+    },
+    {
+      "id": "fin-c1-w1-e3",
+      "type": "multipleChoice",
+      "prompt": "OPEX stands for:",
+      "options": ["Optional Expenses", "Operating Expenditure", "Opportunity Exchange", "Official Payment Extension"],
+      "answerIndex": 1,
+      "explanation": "OPEX covers the day-to-day costs of running the business."
+    },
+    {
+      "id": "fin-c1-w1-e4",
+      "type": "multipleChoice",
+      "prompt": "A 'Circular Reference' occurs when:",
+      "options": ["A formula refers to its own cell", "Two people share a document", "The bank statement is round", "You use too many colors"],
+      "answerIndex": 0,
+      "explanation": "Circular references can cause errors and instability in models."
+    },
+    {
+      "id": "fin-c1-w1-e5",
+      "type": "multipleChoice",
+      "prompt": "The 'Bottom Line' of the Income Statement is:",
+      "options": ["Revenue", "Gross Profit", "Net Income", "Total Assets"],
+      "answerIndex": 2,
+      "explanation": "Net Income is the final line on the Income Statement."
+    }
+  ]
+}

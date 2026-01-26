@@ -1,0 +1,50 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 1,
+  "weekId": "semana11",
+  "title": "Trimester 1 Progress Test",
+  "description": "Check your readiness for the final trimester exam.",
+  "items": [
+    {
+      "id": "fin-b1-w11-e1",
+      "type": "multipleChoice",
+      "prompt": "What does 'ATM' stand for?",
+      "options": ["Automated Transfer Mode", "Automated Teller Machine", "All Time Money", "Advanced Trade Model"],
+      "answerIndex": 1,
+      "explanation": "ATM is the standard cash machine term."
+    },
+    {
+      "id": "fin-b1-w11-e2",
+      "type": "multipleChoice",
+      "prompt": "Which modal expresses obligation? 'You ___ keep your PIN secret.'",
+      "options": ["might", "should", "must", "can"],
+      "answerIndex": 2,
+      "explanation": "'Must' is used for strong obligation or rules."
+    },
+    {
+      "id": "fin-b1-w11-e3",
+      "type": "multipleChoice",
+      "prompt": "A 'standing order' is for ___ payments.",
+      "options": ["one-time", "variable", "fixed regular", "random"],
+      "answerIndex": 2,
+      "explanation": "Standing orders are for fixed amounts paid regularly."
+    },
+    {
+      "id": "fin-b1-w11-e4",
+      "type": "multipleChoice",
+      "prompt": "If a cheque is 'bounced', it means:",
+      "options": ["It is new", "It was refused due to lack of funds", "It is very expensive", "It was sent by air"],
+      "answerIndex": 1,
+      "explanation": "Bouncing occurs when an account has insufficient funds."
+    },
+    {
+      "id": "fin-b1-w11-e5",
+      "type": "multipleChoice",
+      "prompt": "To 'remedy' a mistake means to:",
+      "options": ["Hide it", "Fix it", "Repeat it", "Forget it"],
+      "answerIndex": 1,
+      "explanation": "Remedy is a professional term for fix."
+    }
+  ]
+}

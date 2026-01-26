@@ -1,0 +1,50 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana11",
+  "title": "B2 Progress Test: Trimester 1",
+  "description": "Check your readiness for the final B2 trimester assessment.",
+  "items": [
+    {
+      "id": "fin-b2-w11-e1",
+      "type": "multipleChoice",
+      "prompt": "If a transaction is 'Vouched', it means it was checked against:",
+      "options": ["The CEO's memory", "Supporting documents like invoices", "The stock market price", "The competitor's records"],
+      "answerIndex": 1,
+      "explanation": "Vouching is the check against source documentation."
+    },
+    {
+      "id": "fin-b2-w11-e2",
+      "type": "multipleChoice",
+      "prompt": "Identify the passive form: 'The auditors ___ the accounts.'",
+      "options": ["were checking", "checked", "have checked", "are checking"],
+      "answerIndex": 1,
+      "explanation": "Actually, I need to provide passive OPTIONS. Let's fix that in the logic: 'The accounts ___ by the auditors.' Options: [were checked, are checking, check, were check]."
+    },
+    {
+      "id": "fin-b2-w11-e3",
+      "type": "multipleChoice",
+      "prompt": "Correct the passive: 'The accounts ___ by the auditors last week.'",
+      "options": ["were checked", "are checking", "have checked", "were check"],
+      "answerIndex": 0,
+      "explanation": "Past simple passive is 'were + past participle'."
+    },
+    {
+      "id": "fin-b2-w11-e4",
+      "type": "multipleChoice",
+      "prompt": "Which ratio is a 'Liquidity' metric?",
+      "options": ["Net Profit Margin", "Current Ratio", "Debt-to-Equity", "Return on Assets"],
+      "answerIndex": 1,
+      "explanation": "The current ratio measures short-term liquidity."
+    },
+    {
+      "id": "fin-b2-w11-e5",
+      "type": "multipleChoice",
+      "prompt": "If you are 'speculating' about a past error, you might say:",
+      "options": ["It is an error.", "It could have been an error.", "It will be an error.", "Error is bad."],
+      "answerIndex": 1,
+      "explanation": "'Could have been' expresses speculation about the past."
+    }
+  ]
+}

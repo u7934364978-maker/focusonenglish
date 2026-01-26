@@ -1,0 +1,50 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana12",
+  "title": "B2 Final Trimester Practice",
+  "description": "Last practice before the final exam covering all B2 topics.",
+  "items": [
+    {
+      "id": "fin-b2-w12-1",
+      "type": "multipleChoice",
+      "prompt": "What is 'Asset Stripping'?",
+      "options": ["Improving assets", "Selling off assets for profit after an acquisition", "Buying more assets", "Losing assets in a fire"],
+      "answerIndex": 1,
+      "explanation": "Asset stripping often occurs after a hostile takeover."
+    },
+    {
+      "id": "fin-b2-w12-2",
+      "type": "multipleChoice",
+      "prompt": "Which ratio measures a company's financial leverage?",
+      "options": ["Current Ratio", "Debt-to-Equity", "Gross Margin", "Quick Ratio"],
+      "answerIndex": 1,
+      "explanation": "Debt-to-Equity is the primary leverage ratio."
+    },
+    {
+      "id": "fin-b2-w12-3",
+      "type": "multipleChoice",
+      "prompt": "Which modal expresses certainty that something didn't happen? 'The error ___ been caused by the software; it was a manual entry.'",
+      "options": ["mustn't have", "can't have", "shouldn't have", "mightn't have"],
+      "answerIndex": 1,
+      "explanation": "'Can't have' expresses strong negative deduction."
+    },
+    {
+      "id": "fin-b2-w12-4",
+      "type": "multipleChoice",
+      "prompt": "What is 'Reconciliation'?",
+      "options": ["Matching two sets of records", "Firing an auditor", "Opening a new branch", "Paying taxes"],
+      "answerIndex": 0,
+      "explanation": "Reconciliation ensures consistency between records."
+    },
+    {
+      "id": "fin-b2-w12-5",
+      "type": "multipleChoice",
+      "prompt": "An internal auditor focuses on:",
+      "options": ["External reporting", "Improving internal controls and efficiency", "Calculating the CEO's bonus", "Selecting office furniture"],
+      "answerIndex": 1,
+      "explanation": "Internal auditors serve the organization's governance and operations."
+    }
+  ]
+}

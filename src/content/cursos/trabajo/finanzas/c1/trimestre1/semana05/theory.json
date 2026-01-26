@@ -1,0 +1,14 @@
+{
+  "title": "Week 5: DCF Foundations & Free Cash Flow (FCF)",
+  "content": "# Discounted Cash Flow (DCF) Analysis\n\nDCF is the 'gold standard' of valuation. It is based on the principle that the value of a business is the present value of all its future cash flows.\n\n## Free Cash Flow (FCF)\nNot all cash is 'free'. FCF represents the cash a company generates after accounting for cash outflows to support operations and maintain its capital assets.\n\n### Formula: Unlevered FCF (FCFF)\n`FCFF = EBIT * (1 - Tax Rate) + Depreciation & Amortization - Change in Working Capital - CAPEX` \n(This is cash available to ALL providers of capital: debt and equity).\n\n## The Time Value of Money (TVM)\nA dollar today is worth more than a dollar tomorrow because of its potential earning capacity. To account for this, we 'discount' future cash flows using a discount rate.\n\n## Terminal Value (TV)\nSince we cannot forecast forever, we calculate a 'Terminal Value' for the period beyond our explicit forecast (usually after 5-10 years).\n1. **Gordon Growth Method**: Assumes the business grows at a constant rate forever.\n2. **Exit Multiple Method**: Assumes the business is sold at a multiple of a metric (e.g., EBITDA) at the end of the period.\n\n## Grammar: Subjunctive for Formal Proposals\nWhen presenting a valuation model, the subjunctive mood adds a layer of professional formality:\n- *It is imperative that the discount rate be accurately calculated.*\n- *We suggest that the growth assumption be revisited.*",
+  "objectives": [
+    "Calculate Unlevered Free Cash Flow (FCFF)",
+    "Understand the core components of a DCF model",
+    "Use the subjunctive mood in formal financial proposals"
+  ],
+  "keyTerms": [
+    { "term": "DCF", "definition": "Discounted Cash Flow; a valuation method used to estimate the value of an investment based on its expected future cash flows." },
+    { "term": "TVM", "definition": "Time Value of Money; the concept that money available at the present time is worth more than the identical sum in the future." },
+    { "term": "Gordon Growth", "definition": "A model used to determine the intrinsic value of a stock, based on a future series of dividends that grow at a constant rate." }
+  ]
+}

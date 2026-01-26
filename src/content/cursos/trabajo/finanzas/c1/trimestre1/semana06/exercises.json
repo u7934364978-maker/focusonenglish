@@ -1,0 +1,410 @@
+{
+  "goal": "finanzas",
+  "level": "C1",
+  "trimester": 1,
+  "weekId": "semana06",
+  "title": "WACC & CAPM Exercises",
+  "description": "Practice cost of capital calculations and professional hedging.",
+  "items": [
+    {
+      "id": "fin-c1-w6-1",
+      "type": "multipleChoice",
+      "prompt": "Why do we multiply the Cost of Debt by (1 - Tax Rate)?",
+      "options": ["To make it higher", "To account for the tax-deductibility of interest", "The government requires it", "To pay more tax"],
+      "answerIndex": 1,
+      "explanation": "Because interest is tax-deductible, the 'real' cost of debt to the company is lower."
+    },
+    {
+      "id": "fin-c1-w6-2",
+      "type": "multipleChoice",
+      "prompt": "A Beta of 1.5 means the stock is ___ than the market.",
+      "options": ["Less volatile", "More volatile", "Equally volatile", "Not related"],
+      "answerIndex": 1,
+      "explanation": "Beta > 1.0 indicates higher sensitivity/volatility than the general market."
+    },
+    {
+      "id": "fin-c1-w6-3",
+      "type": "multipleChoice",
+      "prompt": "In CAPM, 'Rf' stands for:",
+      "options": ["Risk-Free Rate", "Return Frequency", "Real Finance", "Revenue Forecast"],
+      "answerIndex": 0,
+      "explanation": "Rf is the baseline return for an investment with zero risk."
+    },
+    {
+      "id": "fin-c1-w6-4",
+      "type": "multipleChoice",
+      "prompt": "Choose the most cautious (hedged) statement:",
+      "options": ["The WACC is 8%.", "The WACC must be 8%.", "The WACC could arguably be placed around 8%.", "8% is the WACC."],
+      "answerIndex": 2,
+      "explanation": "'Arguably be placed around' is a sophisticated way to express a non-exact figure."
+    },
+    {
+      "id": "fin-c1-w6-5",
+      "type": "multipleChoice",
+      "prompt": "If a company has no debt, its WACC is equal to its:",
+      "options": ["Cost of Debt", "Cost of Equity", "Tax Rate", "Beta"],
+      "answerIndex": 1,
+      "explanation": "Without debt, the entire capital structure is equity."
+    },
+    {
+      "id": "fin-c1-w6-6",
+      "type": "multipleChoice",
+      "prompt": "Which of these components is part of the 'Cost of Equity' calculation?",
+      "options": ["Tax Rate", "Beta", "Interest Expense", "Principal repayment"],
+      "answerIndex": 1,
+      "explanation": "In CAPM, Beta measures the systematic risk of the stock, which determines the required return (Cost of Equity)."
+    },
+    {
+      "id": "fin-c1-w6-7",
+      "type": "multipleChoice",
+      "prompt": "Professional hedging: 'The results ___ to suggest a slight undervaluation.'",
+      "options": ["look", "seem", "appear", "all of the above"],
+      "answerIndex": 3,
+      "explanation": "Verbs like 'look', 'seem', and 'appear' are all useful for expressing caution."
+    },
+    {
+      "id": "fin-c1-w6-8",
+      "type": "multipleChoice",
+      "prompt": "In the WACC formula, what weights should be used for debt and equity?",
+      "options": ["Book Values", "Market Values", "Original Values", "Tax Values"],
+      "answerIndex": 1,
+      "explanation": "Market values reflect current investor expectations and the true economic cost of capital."
+    },
+    {
+      "id": "fin-c1-w6-9",
+      "type": "multipleChoice",
+      "prompt": "What does 'Unlevering' a Beta mean?",
+      "options": ["Removing the effects of debt to see the business risk only", "Increasing the debt in the company", "Dividing the Beta by two", "Changing the stock exchange"],
+      "answerIndex": 0,
+      "explanation": "Unlevering allows for the comparison of business risks across companies with different capital structures."
+    },
+    {
+      "id": "fin-c1-w6-10",
+      "type": "multipleChoice",
+      "prompt": "If the Equity Risk Premium (ERP) increases, what happens to the WACC?",
+      "options": ["It decreases", "It increases", "It stays the same", "It becomes negative"],
+      "answerIndex": 1,
+      "explanation": "A higher ERP increases the Cost of Equity, which in turn increases the WACC."
+    },
+    {
+      "id": "fin-c1-w6-11",
+      "type": "multipleChoice",
+      "prompt": "Formal nuance: '___ , the cost of capital will remain within the 7-9% range.'",
+      "options": ["Maybe", "Presumably", "Likely", "Often"],
+      "answerIndex": 1,
+      "explanation": "'Presumably' is a formal adverb used to express a reasonable assumption."
+    },
+    {
+      "id": "fin-c1-w6-12",
+      "type": "multipleChoice",
+      "prompt": "What is 'Yield to Maturity' (YTM) often used as a proxy for?",
+      "options": ["Cost of Equity", "Pre-tax Cost of Debt", "Dividend Yield", "Market Growth"],
+      "answerIndex": 1,
+      "explanation": "YTM is the total return anticipated on a bond if it's held until it matures, representing the current cost of borrowing."
+    },
+    {
+      "id": "fin-c1-w6-13",
+      "type": "multipleChoice",
+      "prompt": "If a company's debt-to-equity ratio increases, its Beta will usually:",
+      "options": ["Increase", "Decrease", "Stay the same", "Disappear"],
+      "answerIndex": 0,
+      "explanation": "More debt increases the financial risk for shareholders, which is reflected in a higher levered Beta."
+    },
+    {
+      "id": "fin-c1-w6-14",
+      "type": "multipleChoice",
+      "prompt": "Which phrase is used to signal a 'theoretical' assumption?",
+      "options": ["In reality...", "For the purpose of this model...", "We know that...", "It is a fact that..."],
+      "answerIndex": 1,
+      "explanation": "'For the purpose of this model' is a professional way to introduce a simplifying assumption."
+    },
+    {
+      "id": "fin-c1-w6-15",
+      "type": "multipleChoice",
+      "prompt": "What does a Beta of 0.5 imply?",
+      "options": ["The stock is twice as volatile as the market", "The stock is half as volatile as the market", "The stock has no risk", "The stock is losing money"],
+      "answerIndex": 1,
+      "explanation": "A Beta below 1.0 indicates a 'defensive' stock that is less sensitive to market swings."
+    },
+    {
+      "id": "fin-c1-w6-16",
+      "type": "multipleChoice",
+      "prompt": "How does an increase in the corporate tax rate affect WACC?",
+      "options": ["It increases WACC", "It decreases WACC (via the debt tax shield)", "It has no effect", "It only affects equity"],
+      "answerIndex": 1,
+      "explanation": "A higher tax rate increases the value of the tax shield on interest, lowering the after-tax cost of debt."
+    },
+    {
+      "id": "fin-c1-w6-17",
+      "type": "multipleChoice",
+      "prompt": "Professional register: 'The valuation is ___ on several key drivers.'",
+      "options": ["based", "founded", "predicated", "staying"],
+      "answerIndex": 2,
+      "explanation": "'Predicated on' is a sophisticated way to say 'based on' or 'dependent on'."
+    },
+    {
+      "id": "fin-c1-w6-18",
+      "type": "multipleChoice",
+      "prompt": "In the CAPM formula, what is '(Rm - Rf)' called?",
+      "options": ["Standard Deviation", "Market Risk Premium", "Interest Rate", "Alpha"],
+      "answerIndex": 1,
+      "explanation": "It is the additional return over the risk-free rate that investors require for investing in the stock market."
+    },
+    {
+      "id": "fin-c1-w6-19",
+      "type": "multipleChoice",
+      "prompt": "Why is WACC used as the 'Discount Rate' in many DCF models?",
+      "options": ["It is the easiest number to find", "It represents the opportunity cost for both debt and equity investors", "The CEO chooses it", "It is required by the IRS"],
+      "answerIndex": 1,
+      "explanation": "WACC ensures that the valuation accounts for the required returns of all capital providers."
+    },
+    {
+      "id": "fin-c1-w6-20",
+      "type": "multipleChoice",
+      "prompt": "C1 Hedging: 'There is ___ evidence to suggest that the terminal value is overstated.'",
+      "options": ["some", "tantalizing", "persuasive", "little"],
+      "answerIndex": 2,
+      "explanation": "'Persuasive' is a strong but professional adjective for evidence."
+    },
+    {
+      "id": "fin-c1-w6-21",
+      "type": "multipleChoice",
+      "prompt": "What is 'Systematic Risk'?",
+      "options": ["Risk that only affects one company", "Market-wide risk that cannot be diversified away", "Risk caused by a system error", "Risk that the CEO is sick"],
+      "answerIndex": 1,
+      "explanation": "Systematic risk (market risk) is what Beta measures."
+    },
+    {
+      "id": "fin-c1-w6-22",
+      "type": "multipleChoice",
+      "prompt": "What is 'Unsystematic Risk'?",
+      "options": ["Risk that affects everyone", "Company-specific risk that can be reduced through diversification", "Risk that is not important", "Risk of a computer virus"],
+      "answerIndex": 1,
+      "explanation": "Unsystematic risk is unique to a company or industry (e.g., a strike or a bad product launch)."
+    },
+    {
+      "id": "fin-c1-w6-23",
+      "type": "multipleChoice",
+      "prompt": "In a report, you might write: 'It would ___ that the assumptions are overly optimistic.'",
+      "options": ["look", "seem", "appear", "all of the above"],
+      "answerIndex": 3,
+      "explanation": "These hedging verbs are essential for a professional, non-confrontational tone."
+    },
+    {
+      "id": "fin-c1-w6-24",
+      "type": "multipleChoice",
+      "prompt": "For a private company, how do you find the 'Beta'?",
+      "options": ["Ask the owner", "Look it up on Yahoo Finance", "Use a 'Proxy' or 'Peer Group' of similar public companies", "It is always 1.0"],
+      "answerIndex": 2,
+      "explanation": "Private companies lack market data, so we 'borrow' and adjust the Beta of comparable public firms."
+    },
+    {
+      "id": "fin-c1-w6-25",
+      "type": "multipleChoice",
+      "prompt": "If a company is 'Distressed' (near bankruptcy), its WACC will likely:",
+      "options": ["Skyrocket (due to high perceived risk)", "Drop to zero", "Stay the same", "Be ignored"],
+      "answerIndex": 0,
+      "explanation": "Both debt and equity investors will demand much higher returns for the increased risk of default."
+    },
+    {
+      "id": "fin-c1-w6-26",
+      "type": "multipleChoice",
+      "prompt": "Formal adverb: 'The WACC is ___ 8.5%.'",
+      "options": ["roughly", "approximately", "about", "near"],
+      "answerIndex": 1,
+      "explanation": "'Approximately' is the most formal option in this list."
+    },
+    {
+      "id": "fin-c1-w6-27",
+      "type": "multipleChoice",
+      "prompt": "In the WACC formula, what does 'V' represent?",
+      "options": ["Volatility", "Value (Debt + Equity)", "Velocity", "Volume"],
+      "answerIndex": 1,
+      "explanation": "V is the total market value of the company's capital."
+    },
+    {
+      "id": "fin-c1-w6-28",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Optimal Capital Structure'?",
+      "options": ["The one that makes the company the largest", "The mix of debt and equity that minimizes the WACC", "Having no debt", "Having only debt"],
+      "answerIndex": 1,
+      "explanation": "Minimizing WACC maximizes the value of the firm's assets."
+    },
+    {
+      "id": "fin-c1-w6-29",
+      "type": "multipleChoice",
+      "prompt": "Choose the most professional phrase: 'The analyst ___ that the growth rate is too high.'",
+      "options": ["thinks", "says", "contends", "feels"],
+      "answerIndex": 2,
+      "explanation": "'Contends' is a formal verb for expressing a strong opinion or argument."
+    },
+    {
+      "id": "fin-c1-w6-30",
+      "type": "multipleChoice",
+      "prompt": "What is 'WACC' in Spanish?",
+      "options": ["Tasa de interés", "Costo Promedio Ponderado de Capital (CPPC)", "Valor Presente Neto", "Tasa de Retorno"],
+      "answerIndex": 1,
+      "explanation": "CPPC is the direct translation and technical term in Spanish."
+    },
+    {
+      "id": "fin-c1-w6-31",
+      "type": "multipleChoice",
+      "prompt": "A Beta of 0.0 would describe an asset that:",
+      "options": ["Is extremely risky", "Is perfectly correlated with the market", "Is completely uncorrelated with market movements", "Has no value"],
+      "answerIndex": 2,
+      "explanation": "A Beta of 0 means the asset's returns do not move in relation to market changes."
+    },
+    {
+      "id": "fin-c1-w6-32",
+      "type": "multipleChoice",
+      "prompt": "Why is the Cost of Equity usually higher than the Cost of Debt?",
+      "options": ["Equity holders are more greedy", "Equity holders take on more risk as they are last in line during liquidation", "Banks have more money", "It isn't; equity is cheaper"],
+      "answerIndex": 1,
+      "explanation": "Higher risk = higher required return."
+    },
+    {
+      "id": "fin-c1-w6-33",
+      "type": "multipleChoice",
+      "prompt": "C1 Hedging: 'The valuation is ___ to be around $100M.'",
+      "options": ["guessed", "estimated", "projected", "both estimated and projected"],
+      "answerIndex": 3,
+      "explanation": "Both 'estimated' and 'projected' are professional and cautious terms."
+    },
+    {
+      "id": "fin-c1-w6-34",
+      "type": "multipleChoice",
+      "prompt": "If a company has a lot of 'Cash on Hand', its Enterprise Value will be ___ than its Equity Value + Debt.",
+      "options": ["Lower", "Higher", "The same", "Zero"],
+      "answerIndex": 0,
+      "explanation": "Because Cash is subtracted in the EV formula: EV = Equity + Debt - Cash."
+    },
+    {
+      "id": "fin-c1-w6-35",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Risk-Free' asset in most models?",
+      "options": ["Gold", "Bitcoin", "10-Year US Treasury Bond", "Apple Stock"],
+      "answerIndex": 2,
+      "explanation": "Treasury bonds are the standard benchmark for risk-free returns."
+    },
+    {
+      "id": "fin-c1-w6-36",
+      "type": "multipleChoice",
+      "prompt": "Professional register: 'The CFO ___ the need for a capital injection.'",
+      "options": ["said", "highlighted", "stressed", "both highlighted and stressed"],
+      "answerIndex": 3,
+      "explanation": "These verbs add weight and emphasis to a professional statement."
+    },
+    {
+      "id": "fin-c1-w6-37",
+      "type": "multipleChoice",
+      "prompt": "What is 'Market Portfolio' in CAPM?",
+      "options": ["A list of all companies in the world", "A theoretical portfolio of all risky assets in the market", "A single stock", "The CEO's investments"],
+      "answerIndex": 1,
+      "explanation": "It is often proxied by a broad index like the S&P 500."
+    },
+    {
+      "id": "fin-c1-w6-38",
+      "type": "multipleChoice",
+      "prompt": "A company with high 'Operating Leverage' will likely have a ___ Beta.",
+      "options": ["Higher", "Lower", "Zero", "Negative"],
+      "answerIndex": 0,
+      "explanation": "Operating leverage (fixed costs) increases the sensitivity of earnings to sales changes, increasing risk."
+    },
+    {
+      "id": "fin-c1-w6-39",
+      "type": "multipleChoice",
+      "prompt": "Hedging with 'Arguably': '___ , this is the most critical assumption in the DCF.'",
+      "options": ["Maybe", "Arguably", "Perhaps", "Definitely"],
+      "answerIndex": 1,
+      "explanation": "'Arguably' allows you to state an opinion while acknowledging other viewpoints exist."
+    },
+    {
+      "id": "fin-c1-w6-40",
+      "type": "multipleChoice",
+      "prompt": "What does a Beta of -1.0 mean?",
+      "options": ["The stock is very safe", "The stock moves exactly opposite to the market", "The stock is worthless", "The stock is very risky"],
+      "answerIndex": 1,
+      "explanation": "Negative beta assets are very rare but can serve as useful hedges (e.g., some gold stocks historically)."
+    },
+    {
+      "id": "fin-c1-w6-41",
+      "type": "multipleChoice",
+      "prompt": "Which of these is NOT in the WACC formula?",
+      "options": ["Cost of Equity", "Cost of Debt", "Revenue Growth Rate", "Tax Rate"],
+      "answerIndex": 2,
+      "explanation": "Growth is used to project cash flows, but it is not a direct component of the discount rate (WACC)."
+    },
+    {
+      "id": "fin-c1-w6-42",
+      "type": "multipleChoice",
+      "prompt": "Professional nuance: 'It would be ___ to assume that growth will continue indefinitely at 10%.'",
+      "options": ["wrong", "unwise", "imprudent", "both unwise and imprudent"],
+      "answerIndex": 3,
+      "explanation": "'Unwise' and 'imprudent' are much more professional than 'wrong'."
+    },
+    {
+      "id": "fin-c1-w6-43",
+      "type": "multipleChoice",
+      "prompt": "What is 'ERP' in the context of CAPM?",
+      "options": ["Enterprise Resource Planning", "Equity Risk Premium", "Estimated Revenue Profit", "Equity Ratio Protocol"],
+      "answerIndex": 1,
+      "explanation": "ERP is theRm - Rf part of the CAPM formula."
+    },
+    {
+      "id": "fin-c1-w6-44",
+      "type": "multipleChoice",
+      "prompt": "If a company has a WACC of 10% and a project has an IRR of 12%, the company should:",
+      "options": ["Accept the project", "Reject the project", "Wait and see", "Fire the analyst"],
+      "answerIndex": 0,
+      "explanation": "If IRR > WACC, the project adds value."
+    },
+    {
+      "id": "fin-c1-w6-45",
+      "type": "multipleChoice",
+      "prompt": "Choose the most formal connector: 'The WACC was updated; ___ , the NPV of the project decreased.'",
+      "options": ["as a result", "consequently", "therefore", "all of the above"],
+      "answerIndex": 3,
+      "explanation": "All these connectors are appropriate for showing cause and effect in a formal report."
+    },
+    {
+      "id": "fin-c1-w6-46",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Pre-tax Cost of Debt'?",
+      "options": ["The interest rate before the tax shield is applied", "The tax rate", "The CEO's salary", "The total debt amount"],
+      "answerIndex": 0,
+      "explanation": "It's the raw interest rate paid to lenders."
+    },
+    {
+      "id": "fin-c1-w6-47",
+      "type": "multipleChoice",
+      "prompt": "In CAPM, 'Market Return' is usually based on:",
+      "options": ["A single stock", "A broad market index (e.g., S&P 500)", "The GDP", "The inflation rate"],
+      "answerIndex": 1,
+      "explanation": "Indices provide a good approximation of the 'market' as a whole."
+    },
+    {
+      "id": "fin-c1-w6-48",
+      "type": "multipleChoice",
+      "prompt": "Professional hedging: 'The Beta ___ to be slightly higher for this industry.'",
+      "options": ["tends", "is usually", "can be", "none of the above"],
+      "answerIndex": 0,
+      "explanation": "'Tends to' is a useful way to describe a general pattern without making a universal claim."
+    },
+    {
+      "id": "fin-c1-w6-49",
+      "type": "multipleChoice",
+      "prompt": "What is 'WACC' in one sentence?",
+      "options": ["The total money in the bank", "The average cost a company pays to its investors to use their money", "The total sales of the company", "The tax paid on profits"],
+      "answerIndex": 1,
+      "explanation": "It's the hurdle rate for the firm's overall operations."
+    },
+    {
+      "id": "fin-c1-w6-50",
+      "type": "multipleChoice",
+      "prompt": "If a company has high 'Financial Leverage', its Beta will be:",
+      "options": ["Lower", "Higher", "Zero", "Unchanged"],
+      "answerIndex": 1,
+      "explanation": "Debt adds risk, and Beta measures that risk."
+    }
+  ]
+}

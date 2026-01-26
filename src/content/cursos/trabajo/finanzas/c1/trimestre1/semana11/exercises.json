@@ -1,0 +1,550 @@
+{
+  "goal": "finanzas",
+  "level": "C1",
+  "trimester": 1,
+  "weekId": "semana11",
+  "title": "C1 Review Exercises - Part 2",
+  "description": "Advanced practice on valuation, M&A, and strategic register.",
+  "items": [
+    {
+      "id": "fin-c1-w11-1",
+      "type": "multipleChoice",
+      "prompt": "If a company's WACC increases, its DCF valuation will:",
+      "options": ["Increase", "Decrease", "Stay the same", "Double"],
+      "answerIndex": 1,
+      "explanation": "A higher discount rate reduces the present value of future cash flows."
+    },
+    {
+      "id": "fin-c1-w11-2",
+      "type": "multipleChoice",
+      "prompt": "A 'Control Premium' is typically found in:",
+      "options": ["Trading Comps", "Precedent Transactions", "DCF Analysis", "Internal Budgets"],
+      "answerIndex": 1,
+      "explanation": "Acquirers pay a premium to gain control of a company."
+    },
+    {
+      "id": "fin-c1-w11-3",
+      "type": "multipleChoice",
+      "prompt": "Which synergy type is usually easier to achieve?",
+      "options": ["Revenue Synergies", "Cost Synergies", "Marketing Synergies", "Brand Synergies"],
+      "answerIndex": 1,
+      "explanation": "Management has more control over cutting costs than increasing sales."
+    },
+    {
+      "id": "fin-c1-w11-4",
+      "type": "multipleChoice",
+      "prompt": "Subjunctive: 'It is vital that the auditor ___ the report before Friday.'",
+      "options": ["submits", "submit", "submitted", "should submit"],
+      "answerIndex": 1,
+      "explanation": "Subjunctive uses the base form 'submit'."
+    },
+    {
+      "id": "fin-c1-w11-5",
+      "type": "multipleChoice",
+      "prompt": "What is the primary driver of Beta in CAPM?",
+      "options": ["The company's logo", "The sensitivity of the stock to market movements", "The age of the company", "The number of bank accounts"],
+      "answerIndex": 1,
+      "explanation": "Beta measures systematic risk relative to the market."
+    },
+    {
+      "id": "fin-c1-w11-6",
+      "type": "multipleChoice",
+      "prompt": "In a DCF model, what does 'Terminal Value' represent?",
+      "options": [
+        "The value of the company at the end of the year.",
+        "The estimated value of all cash flows beyond the explicit forecast period.",
+        "The liquidation value of the assets.",
+        "the cost of shutting down the company."
+      ],
+      "answerIndex": 1,
+      "explanation": "Terminal Value accounts for the majority of value in most DCF models."
+    },
+    {
+      "id": "fin-c1-w11-7",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct formal comparative: 'The target company ___ a significant discount to its peers.'",
+      "options": ["trades with", "trades at", "sells in", "is in"],
+      "answerIndex": 1,
+      "explanation": "In finance, we say an asset 'trades at' a premium or discount."
+    },
+    {
+      "id": "fin-c1-w11-8",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Unlevered Beta'?",
+      "options": [
+        "The beta of the company if it had no debt.",
+        "The beta of the company with its current debt levels.",
+        "The interest rate on the company's debt.",
+        "The beta of the market index."
+      ],
+      "answerIndex": 0,
+      "explanation": "Unlevering beta allows you to see the pure business risk, removing the impact of capital structure."
+    },
+    {
+      "id": "fin-c1-w11-9",
+      "type": "multipleChoice",
+      "prompt": "Which valuation method provides the most 'Intrinsic' value?",
+      "options": ["Trading Comps", "Precedent Transactions", "DCF Analysis", "LBO Valuation"],
+      "answerIndex": 2,
+      "explanation": "DCF is based on the company's specific cash flow generating potential, not on external market multiples."
+    },
+    {
+      "id": "fin-c1-w11-10",
+      "type": "multipleChoice",
+      "prompt": "Mixed Conditional: 'If the CEO ___ the warning earlier, the company wouldn't be in debt now.'",
+      "options": ["heeded", "had heeded", "would heed", "has heeded"],
+      "answerIndex": 1,
+      "explanation": "Third conditional 'if' clause (had heeded) + second conditional result (wouldn't be) for a past action with a present result."
+    },
+    {
+      "id": "fin-c1-w11-11",
+      "type": "multipleChoice",
+      "prompt": "In an 'Accretion/Dilution' model, the 'Pro-Forma Net Income' is:",
+      "options": [
+        "Acquirer Net Income + Target Net Income + Synergies - Incremental Interest - New Amortization.",
+        "Acquirer Net Income + Target Net Income.",
+        "Target Net Income - Acquirer Net Income.",
+        "Revenue - Cost of Goods Sold."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pro-forma net income must account for the target's contribution plus all deal-related adjustments."
+    },
+    {
+      "id": "fin-c1-w11-12",
+      "type": "multipleChoice",
+      "prompt": "What is 'EV/EBITDA'?",
+      "options": [
+        "Enterprise Value divided by EBITDA.",
+        "Equity Value divided by EBITDA.",
+        "Earnings Value divided by EBITDA.",
+        "Estimated Value divided by EBITDA."
+      ],
+      "answerIndex": 0,
+      "explanation": "EV/EBITDA is a capital-structure-neutral multiple used for relative valuation."
+    },
+    {
+      "id": "fin-c1-w11-13",
+      "type": "multipleChoice",
+      "prompt": "Subjunctive use: 'The investment bank suggested that the offer ___ increased by 5%.'",
+      "options": ["is", "be", "was", "will be"],
+      "answerIndex": 1,
+      "explanation": "The verb 'suggest' triggers the subjunctive 'be'."
+    },
+    {
+      "id": "fin-c1-w11-14",
+      "type": "multipleChoice",
+      "prompt": "Why are 'Precedent Transactions' usually higher than 'Trading Comps'?",
+      "options": [
+        "Because they include a 'control premium'.",
+        "Because the market is always wrong.",
+        "Because they are older.",
+        "Because they don't include synergies."
+      ],
+      "answerIndex": 0,
+      "explanation": "When a company is bought, the acquirer pays a premium over the trading price to gain control."
+    },
+    {
+      "id": "fin-c1-w11-15",
+      "type": "multipleChoice",
+      "prompt": "What does 'WACC' stand for?",
+      "options": [
+        "Weighted Average Cost of Capital",
+        "Weekly Average Capital Cost",
+        "Weighted Asset Capital Calculation",
+        "Western Average Cost of Capital"
+      ],
+      "answerIndex": 0,
+      "explanation": "WACC represents the average rate a company is expected to pay to all its security holders."
+    },
+    {
+      "id": "fin-c1-w11-16",
+      "type": "multipleChoice",
+      "prompt": "Formal comparative: 'The stock is currently trading ___ with its historical average.'",
+      "options": ["along", "in line", "beside", "equal"],
+      "answerIndex": 1,
+      "explanation": "'In line with' is the standard professional expression for saying something matches a benchmark."
+    },
+    {
+      "id": "fin-c1-w11-17",
+      "type": "multipleChoice",
+      "prompt": "In CAPM, what is the 'Risk-Free Rate' typically based on?",
+      "options": [
+        "The interest rate on a savings account.",
+        "The yield on long-term government bonds (e.g., 10-year Treasury).",
+        "The inflation rate.",
+        "The WACC of a large bank."
+      ],
+      "answerIndex": 1,
+      "explanation": "Government bonds are considered 'risk-free' as the likelihood of default is extremely low."
+    },
+    {
+      "id": "fin-c1-w11-18",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Cost Synergy' example?",
+      "options": [
+        "Selling a new product to the target's customers.",
+        "Removing a redundant regional headquarters.",
+        "Increasing the price of the product.",
+        "Hiring more sales staff."
+      ],
+      "answerIndex": 1,
+      "explanation": "Cost synergies involve eliminating duplication to save money."
+    },
+    {
+      "id": "fin-c1-w11-19",
+      "type": "multipleChoice",
+      "prompt": "Subjunctive structure: 'It is essential that the Board ___ the decision by the end of the day.'",
+      "options": ["make", "makes", "made", "has made"],
+      "answerIndex": 0,
+      "explanation": "'It is essential that' requires the subjunctive base form 'make'."
+    },
+    {
+      "id": "fin-c1-w11-20",
+      "type": "multipleChoice",
+      "prompt": "Which of these is NOT part of Free Cash Flow (FCF) calculation?",
+      "options": [
+        "EBIT * (1 - Tax Rate)",
+        "Depreciation & Amortization",
+        "Dividends Paid",
+        "Changes in Working Capital"
+      ],
+      "answerIndex": 2,
+      "explanation": "FCF is calculated before dividends; it represents cash available to all investors."
+    },
+    {
+      "id": "fin-c1-w11-21",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Equity Risk Premium'?",
+      "options": [
+        "The return of the stock market minus the risk-free rate.",
+        "The tax paid on stock transactions.",
+        "The fee paid to an equity analyst.",
+        "The dividend yield."
+      ],
+      "answerIndex": 0,
+      "explanation": "It is the extra return investors demand for choosing risky stocks over safe government bonds."
+    },
+    {
+      "id": "fin-c1-w11-22",
+      "type": "multipleChoice",
+      "prompt": "Mixed Conditional: 'If the deal ___ through last year, we would be the market leader today.'",
+      "options": ["went", "had gone", "would go", "would have gone"],
+      "answerIndex": 1,
+      "explanation": "Past condition (had gone) + present result (would be)."
+    },
+    {
+      "id": "fin-c1-w11-23",
+      "type": "multipleChoice",
+      "prompt": "A 'Strategic Buyer' is usually willing to pay more than a 'Financial Buyer' because:",
+      "options": [
+        "They have more cash.",
+        "They can realize operational synergies.",
+        "They don't use debt.",
+        "They don't care about profit."
+      ],
+      "answerIndex": 1,
+      "explanation": "Synergies add value that a standalone financial buyer cannot easily capture."
+    },
+    {
+      "id": "fin-c1-w11-24",
+      "type": "multipleChoice",
+      "prompt": "What does 'EV' (Enterprise Value) represent?",
+      "options": [
+        "The market value of equity.",
+        "The total value of the company to all investors (Equity + Debt - Cash).",
+        "The book value of assets.",
+        "The revenue for the last 12 months."
+      ],
+      "answerIndex": 1,
+      "explanation": "EV is the 'takeover price' of a firm, considering both its equity value and its net debt."
+    },
+    {
+      "id": "fin-c1-w11-25",
+      "type": "multipleChoice",
+      "prompt": "Formal Comparative: 'The firm's valuation is ___ a premium to the sector median.'",
+      "options": ["trading in", "trading at", "priced for", "valued by"],
+      "answerIndex": 1,
+      "explanation": "We use 'at' with premiums and discounts in a financial context."
+    },
+    {
+      "id": "fin-c1-w11-26",
+      "type": "multipleChoice",
+      "prompt": "The 'Gordon Growth Method' for Terminal Value assumes:",
+      "options": [
+        "The company is sold to a competitor.",
+        "The company grows at a constant rate forever.",
+        "The company stops growing after 10 years.",
+        "The company is liquidated."
+      ],
+      "answerIndex": 1,
+      "explanation": "Gordon Growth (or Perpetuity Growth) assumes a steady-state growth rate into infinity."
+    },
+    {
+      "id": "fin-c1-w11-27",
+      "type": "multipleChoice",
+      "prompt": "Subjunctive negation: 'We recommend that the merger ___ announced until next week.'",
+      "options": ["not be", "isn't", "won't be", "shouldn't be"],
+      "answerIndex": 0,
+      "explanation": "Formal subjunctive negation: 'not' + base verb (be)."
+    },
+    {
+      "id": "fin-c1-w11-28",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Revenue Synergy'?",
+      "options": [
+        "Consolidating the IT department.",
+        "Cross-selling products to the target's customer base.",
+        "Closing redundant retail branches.",
+        "Renegotiating lower rent for the office."
+      ],
+      "answerIndex": 1,
+      "explanation": "Revenue synergies focus on increasing the 'top line' sales."
+    },
+    {
+      "id": "fin-c1-w11-29",
+      "type": "multipleChoice",
+      "prompt": "In WACC, what is the 'Cost of Debt' usually?",
+      "options": [
+        "The interest rate on the company's existing bonds (Yield to Maturity).",
+        "The risk-free rate.",
+        "The dividend yield.",
+        "The tax rate."
+      ],
+      "answerIndex": 0,
+      "explanation": "The current market yield (YTM) is the most accurate reflection of the cost to issue new debt."
+    },
+    {
+      "id": "fin-c1-w11-30",
+      "type": "multipleChoice",
+      "prompt": "Mixed Conditional check: 'If we ___ more aggressive, we would have gained more share.'",
+      "options": ["are", "had been", "were", "would be"],
+      "answerIndex": 1,
+      "explanation": "Past condition (had been) + past result (would have gained) - though here it is a standard third conditional, it is often reviewed alongside mixed ones."
+    },
+    {
+      "id": "fin-c1-w11-31",
+      "type": "multipleChoice",
+      "prompt": "What is 'Net Debt'?",
+      "options": [
+        "Total Debt - Cash and Cash Equivalents",
+        "Total Debt + Accounts Payable",
+        "Short Term Debt only",
+        "Total Debt - Accounts Receivable"
+      ],
+      "answerIndex": 0,
+      "explanation": "Net debt shows the debt remaining if the company used all its cash to pay it off."
+    },
+    {
+      "id": "fin-c1-w11-32",
+      "type": "multipleChoice",
+      "prompt": "In 'Relative Valuation', peer groups should be selected based on:",
+      "options": [
+        "Industry, size, and growth profile.",
+        "Alphabetical order.",
+        "The CEO's personal friends.",
+        "Only the companies that are smaller."
+      ],
+      "answerIndex": 0,
+      "explanation": "A good peer group consists of companies with similar business and financial risks."
+    },
+    {
+      "id": "fin-c1-w11-33",
+      "type": "multipleChoice",
+      "prompt": "Subjunctive structure: 'Lest there ___ any misunderstanding, we are not selling the subsidiary.'",
+      "options": ["is", "be", "was", "has been"],
+      "answerIndex": 1,
+      "explanation": "'Lest' triggers the subjunctive 'be'."
+    },
+    {
+      "id": "fin-c1-w11-34",
+      "type": "multipleChoice",
+      "prompt": "What is an 'Exit Multiple'?",
+      "options": [
+        "The price at which the CEO leaves.",
+        "A multiple (like EV/EBITDA) applied to the final year's metric to estimate Terminal Value.",
+        "The interest rate on the exit loan.",
+        "The tax rate upon sale."
+      ],
+      "answerIndex": 1,
+      "explanation": "The Exit Multiple method is the most common way to calculate Terminal Value in the industry."
+    },
+    {
+      "id": "fin-c1-w11-35",
+      "type": "multipleChoice",
+      "prompt": "What is the primary risk of using 'Precedent Transactions' for valuation?",
+      "options": [
+        "They are too recent.",
+        "They may reflect 'stale' market conditions or a specific buyer's unique desperation.",
+        "They are too easy to find.",
+        "They don't use multiples."
+      ],
+      "answerIndex": 1,
+      "explanation": "Transactions from 5 years ago might not reflect current market valuations or interest rate environments."
+    },
+    {
+      "id": "fin-c1-w11-36",
+      "type": "multipleChoice",
+      "prompt": "Formal comparative: 'The revenue growth is significantly ___ to our initial projections.'",
+      "options": ["higher", "superior", "more than", "above"],
+      "answerIndex": 1,
+      "explanation": "'Superior to' is a very formal way to say 'better than' in professional English."
+    },
+    {
+      "id": "fin-c1-w11-37",
+      "type": "multipleChoice",
+      "prompt": "What is 'Sensitivity Analysis' (or a Data Table) in Excel?",
+      "options": [
+        "A way to see how the result changes when one or two inputs vary.",
+        "A way to make the text smaller.",
+        "A spell-checker.",
+        "A way to hide columns."
+      ],
+      "answerIndex": 0,
+      "explanation": "Sensitivity analysis is crucial for understanding valuation ranges (e.g., Valuation vs WACC and Growth Rate)."
+    },
+    {
+      "id": "fin-c1-w11-38",
+      "type": "multipleChoice",
+      "prompt": "Why is 'Beta' unlevered and then relevered in WACC calculation?",
+      "options": [
+        "To account for the specific capital structure of the target company.",
+        "To make the math harder.",
+        "To ignore the market risk.",
+        "To avoid paying taxes."
+      ],
+      "answerIndex": 0,
+      "explanation": "You unlever to find business risk and then relever to reflect the financial risk of the target's own debt levels."
+    },
+    {
+      "id": "fin-c1-w11-39",
+      "type": "multipleChoice",
+      "prompt": "Subjunctive structure: 'The auditors mandate that the asset ___ impaired.'",
+      "options": ["is", "be", "was", "will be"],
+      "answerIndex": 1,
+      "explanation": "'Mandate that' triggers the subjunctive 'be'."
+    },
+    {
+      "id": "fin-c1-w11-40",
+      "type": "multipleChoice",
+      "prompt": "In an M&A deal, what is 'Goodwill'?",
+      "options": [
+        "The purchase price minus the fair value of net identifiable assets.",
+        "The cash in the target's bank account.",
+        "A discount for a quick sale.",
+        "The value of the CEO's reputation."
+      ],
+      "answerIndex": 0,
+      "explanation": "Goodwill is an intangible asset created when an acquirer pays more than the book value of the assets."
+    },
+    {
+      "id": "fin-c1-w11-41",
+      "type": "multipleChoice",
+      "prompt": "What is 'P/E Ratio'?",
+      "options": [
+        "Price per share divided by Earnings per share.",
+        "Profit divided by Equity.",
+        "Price divided by EBITDA.",
+        "Price divided by Expenses."
+      ],
+      "answerIndex": 0,
+      "explanation": "P/E is the most common equity multiple used by retail and institutional investors."
+    },
+    {
+      "id": "fin-c1-w11-42",
+      "type": "multipleChoice",
+      "prompt": "Mixed Conditional: 'If the company ___ bankrupt, we wouldn't be having this meeting.'",
+      "options": ["weren't", "hadn't gone", "hasn't gone", "Both A and B"],
+      "answerIndex": 3,
+      "explanation": "Both 'If the company weren't' (present state) and 'If the company hadn't gone' (past event) work as conditions for the present meeting."
+    },
+    {
+      "id": "fin-c1-w11-43",
+      "type": "multipleChoice",
+      "prompt": "What is 'Terminal Growth Rate' typically limited to?",
+      "options": [
+        "The long-term GDP growth rate or inflation rate.",
+        "The current year's growth rate.",
+        "100%.",
+        "It is not limited."
+      ],
+      "answerIndex": 0,
+      "explanation": "A company cannot grow faster than the economy forever, or it would eventually become larger than the entire economy."
+    },
+    {
+      "id": "fin-c1-w11-44",
+      "type": "multipleChoice",
+      "prompt": "What does a 'Dilutive' deal do to the acquirer's EPS?",
+      "options": [
+        "Increases it.",
+        "Decreases it.",
+        "Stays the same.",
+        "Doubles it."
+      ],
+      "answerIndex": 1,
+      "explanation": "Dilution means the 'pie' is split into more pieces or the earnings don't cover the cost of the acquisition."
+    },
+    {
+      "id": "fin-c1-w11-45",
+      "type": "multipleChoice",
+      "prompt": "Formal comparative: 'This acquisition is ___ to our core strategy.'",
+      "options": ["central", "paramount", "pivotal", "All of the above"],
+      "answerIndex": 3,
+      "explanation": "All these adjectives are highly formal and indicate high importance in a strategic context."
+    },
+    {
+      "id": "fin-c1-w11-46",
+      "type": "multipleChoice",
+      "prompt": "What is 'EV/Revenue' multiple usually used for?",
+      "options": [
+        "Mature manufacturing companies.",
+        "High-growth startups with little or no profit yet.",
+        "Banks.",
+        "Retail chains."
+      ],
+      "answerIndex": 1,
+      "explanation": "Revenue multiples are used when EBITDA or Net Income are negative or not yet representative of the company's potential."
+    },
+    {
+      "id": "fin-c1-w11-47",
+      "type": "multipleChoice",
+      "prompt": "Subjunctive structure: 'We insist that the due diligence ___ completed thoroughly.'",
+      "options": ["be", "is", "was", "will be"],
+      "answerIndex": 0,
+      "explanation": "'Insist that' triggers the subjunctive 'be'."
+    },
+    {
+      "id": "fin-c1-w11-48",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Scenario Toggle' used for?",
+      "options": [
+        "To quickly switch between Base, Upside, and Downside cases in a model.",
+        "To delete the model.",
+        "To print the model.",
+        "To change the language of the model."
+      ],
+      "answerIndex": 0,
+      "explanation": "Toggles allow for efficient risk and opportunity assessment."
+    },
+    {
+      "id": "fin-c1-w11-49",
+      "type": "multipleChoice",
+      "prompt": "What is 'Enterprise Value'?",
+      "options": [
+        "The value of the whole business, regardless of how it is financed.",
+        "The value of the company's buildings only.",
+        "The value of the company's stock only.",
+        "The value of the company's debt only."
+      ],
+      "answerIndex": 0,
+      "explanation": "EV reflects the value of the entire operating business to both debt and equity holders."
+    },
+    {
+      "id": "fin-c1-w11-50",
+      "type": "multipleChoice",
+      "prompt": "Which of these is the most common terminal value method?",
+      "options": ["Exit Multiple Method", "Gordon Growth Method", "Liquidation Value", "Replacement Cost"],
+      "answerIndex": 0,
+      "explanation": "The Exit Multiple method is generally preferred by investment bankers because it is based on market data."
+    }
+  ]
+}

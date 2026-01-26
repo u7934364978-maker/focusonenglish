@@ -1,0 +1,14 @@
+{
+  "title": "Week 7: Relative Valuation & Trading Comps",
+  "content": "# Relative Valuation (Multiples)\n\nWhile DCF provides an intrinsic value, Relative Valuation (or 'Comps') determines the value of a company based on the market prices of similar companies. It is a critical 'reality check' for any valuation.\n\n## Trading Comparables (Comps)\nThis involves identifying a peer group of public companies and comparing their valuation multiples.\n- **EV/EBITDA**: The most common multiple; it is capital-structure neutral.\n- **P/E Ratio (Price-to-Earnings)**: Compares the stock price to earnings per share. Highly dependent on capital structure.\n- **EV/Revenue**: Used for high-growth companies with little or no profit.\n\n## Precedent Transactions\nComparing the target company to similar companies that have recently been acquired. This usually results in higher multiples because it includes a 'Control Premium'.\n\n## The Peer Group Selection\nPeers should be similar in terms of:\n- **Industry/Sector**\n- **Size (Market Cap)**\n- **Growth Profile**\n- **Profitability (Margins)**\n\n## Grammar: Precision in Comparisons\nWhen comparing companies, use advanced comparative structures:\n- *TechCorp trades at a significant premium to its peers.*\n- *Compared to the industry average, our multiple is somewhat depressed.*\n- *The valuation is roughly in line with recent precedent transactions.*",
+  "objectives": [
+    "Identify common valuation multiples (EV/EBITDA, P/E)",
+    "Understand the difference between Trading Comps and Precedent Transactions",
+    "Use advanced comparative language for financial analysis"
+  ],
+  "keyTerms": [
+    { "term": "Multiple", "definition": "A ratio that is used to measure some aspect of a company's financial health or to compare it to other companies." },
+    { "term": "EV", "definition": "Enterprise Value; a measure of a company's total value, often used as a more comprehensive alternative to equity market capitalization." },
+    { "term": "Peer Group", "definition": "A group of companies that are similar in terms of industry, size, and business model." }
+  ]
+}

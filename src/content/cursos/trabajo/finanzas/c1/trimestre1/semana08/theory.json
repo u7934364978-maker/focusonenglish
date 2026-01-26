@@ -1,0 +1,14 @@
+{
+  "title": "Week 8: M&A Modeling Foundations",
+  "content": "# Mergers and Acquisitions (M&A) Modeling\n\nWhen two companies merge, the financial impact must be carefully modeled. This week introduces the foundations of Accretion/Dilution analysis.\n\n## Key Concepts in M&A\n1. **Strategic vs. Financial Buyer**: Strategic buyers seek synergies; financial buyers (like Private Equity) seek returns via leverage and efficiency.\n2. **Synergies**: The '1 + 1 = 3' effect.\n    - **Cost Synergies**: Reducing duplicated costs (e.g., one HR department instead of two).\n    - **Revenue Synergies**: Cross-selling products to each other's customers.\n3. **Accretion/Dilution Analysis**: Does the deal increase (accrete) or decrease (dilute) the acquirer's Earnings Per Share (EPS)?\n\n## Acquisition Finance\nDeals are typically funded using a mix of:\n- **Cash on Hand**\n- **Debt (New issuance)**\n- **Stock (Issuing new shares to the target's owners)**\n\n## Grammar: Precision in Negotiations (Subjunctive and Formal Register)\nM&A requires high-level negotiation language:\n- *We request that the due diligence period be extended.*\n- *It is vital that the synergy assumptions be validated by a third party.*\n- *Should the deal close by Q4, the integration would begin immediately.*",
+  "objectives": [
+    "Understand the basic logic of Accretion/Dilution analysis",
+    "Identify types of synergies in a merger",
+    "Use high-level formal language for M&A contexts"
+  ],
+  "keyTerms": [
+    { "term": "Accretion", "definition": "An increase in a company's earnings per share (EPS) as a result of a merger or acquisition." },
+    { "term": "Synergy", "definition": "The concept that the value and performance of two companies combined will be greater than the sum of the separate individual parts." },
+    { "term": "EPS", "definition": "Earnings Per Share; the portion of a company's profit allocated to each outstanding share of common stock." }
+  ]
+}
