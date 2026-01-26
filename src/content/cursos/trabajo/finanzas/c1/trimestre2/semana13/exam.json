@@ -1,59 +1,69 @@
 {
+  "goal": "finanzas",
+  "level": "C1",
+  "trimester": 2,
+  "weekId": "semana13",
+  "examId": "fin-c1-w13-exam",
   "title": "Examen: ERM y Gestión de Derivados",
-  "questions": [
+  "items": [
     {
-      "id": "q1",
-      "question": "Which of the following describes 'Counterparty Risk'?",
+      "id": "fin-c1-w13-exam-1",
+      "type": "multipleChoice",
+      "prompt": "Which of the following describes 'Counterparty Risk'?",
       "options": [
         "The risk that interest rates will rise",
         "The risk that the other party in a contract will fail to fulfill their obligations",
         "The risk of a cyber attack on the bank's servers",
         "The risk of losing a key employee"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Counterparty risk is the likelihood that the person or institution you're doing business with will default on their contractual obligations."
     },
     {
-      "id": "q2",
-      "question": "Which derivative is commonly used to protect against the default of a bond issuer?",
+      "id": "fin-c1-w13-exam-2",
+      "type": "multipleChoice",
+      "prompt": "Which derivative is commonly used to protect against the default of a bond issuer?",
       "options": ["Interest Rate Swap", "Credit Default Swap (CDS)", "Currency Option", "Commodity Future"],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "A CDS acts like insurance against a borrower defaulting on a loan or bond."
     },
     {
-      "id": "q3",
-      "question": "What is the causative meaning of: 'The firm had the documents notarized'?",
+      "id": "fin-c1-w13-exam-3",
+      "type": "multipleChoice",
+      "prompt": "What is the causative meaning of: 'The firm had the documents notarized'?",
       "options": [
         "The firm notarized the documents themselves.",
         "The firm paid someone else to notarize the documents.",
         "The firm is currently notarizing the documents.",
         "The firm refused to notarize the documents."
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "'Had + object + past participle' indicates that someone else performed the action for the firm."
     },
     {
-      "id": "q4",
-      "question": "Complete the sentence: 'We need to ________ the compliance officer ________ the new policy.'",
+      "id": "fin-c1-w13-exam-4",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence: 'We need to ________ the compliance officer ________ the new policy.'",
       "options": [
         "get / approve",
         "have / approved",
         "get / to approve",
         "had / to approve"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "The correct causative structure with 'get' (meaning to persuade) is 'get + person + to + infinitive'."
     },
     {
-      "id": "q5",
-      "question": "In the context of ERM, what is 'Risk Appetite'?",
+      "id": "fin-c1-w13-exam-5",
+      "type": "multipleChoice",
+      "prompt": "In the context of ERM, what is 'Risk Appetite'?",
       "options": [
         "The total amount of debt a company has",
         "The level of risk an organization is prepared to accept",
         "The cost of buying insurance for the whole company",
         "The profit margin of the most risky department"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Risk appetite is the amount and type of risk an organization is willing to pursue or retain."
     }
   ]

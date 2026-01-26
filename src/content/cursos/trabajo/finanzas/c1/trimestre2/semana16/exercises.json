@@ -1,654 +1,658 @@
 {
+  "goal": "finanzas",
+  "level": "C1",
+  "trimester": 2,
+  "weekId": "semana16",
   "title": "Ejercicios: Cumplimiento Regulatorio Global e Inversión para Énfasis",
-  "exercises": [
+  "items": [
     {
-      "id": "ex1",
-      "type": "multiple-choice",
-      "question": "Never ________ such a strict regulatory framework in the history of the banking sector.",
+      "id": "fin-c1-w16-1",
+      "type": "multipleChoice",
+      "prompt": "Never ________ such a strict regulatory framework in the history of the banking sector.",
       "options": [
         "there was",
         "has there been",
         "there has been",
         "was there"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "When 'Never' starts a sentence, the auxiliary verb must come before the subject (Inversion)."
     },
     {
-      "id": "ex2",
-      "type": "multiple-choice",
-      "question": "Only ________ the compliance audit was finished did the CEO feel relieved.",
+      "id": "fin-c1-w16-2",
+      "type": "multipleChoice",
+      "prompt": "Only ________ the compliance audit was finished did the CEO feel relieved.",
       "options": [
         "after",
         "when",
         "until",
         "then"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Inversion with 'Only after...' (Only after [event] + auxiliary + subject + verb)."
     },
     {
-      "id": "ex3",
-      "type": "multiple-choice",
-      "question": "Under no circumstances ________ the bank disclose confidential client information.",
+      "id": "fin-c1-w16-3",
+      "type": "multipleChoice",
+      "prompt": "Under no circumstances ________ the bank disclose confidential client information.",
       "options": [
         "should",
         "shouldn't",
         "mustn't",
         "will not"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "'Under no circumstances' triggers inversion. The auxiliary 'should' comes before the subject."
     },
     {
-      "id": "ex4",
-      "type": "multiple-choice",
-      "question": "Seldom ________ a financial crisis have such global repercussions.",
+      "id": "fin-c1-w16-4",
+      "type": "multipleChoice",
+      "prompt": "Seldom ________ a financial crisis have such global repercussions.",
       "options": [
         "does",
         "has",
         "did",
         "do"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Inversion with 'Seldom'. The subject 'a financial crisis' is singular, so 'does' is used."
     },
     {
-      "id": "ex5",
-      "type": "multiple-choice",
-      "question": "Hardly ________ the new AML law been passed when several firms were investigated.",
+      "id": "fin-c1-w16-5",
+      "type": "multipleChoice",
+      "prompt": "Hardly ________ the new AML law been passed when several firms were investigated.",
       "options": [
         "did",
         "was",
         "had",
         "has"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "'Hardly had [subject] [past participle] when...' is a standard literary/formal structure."
     },
     {
-      "id": "ex6",
-      "type": "multiple-choice",
-      "question": "Basel III is a global, voluntary regulatory framework on bank capital adequacy and ________ risk.",
+      "id": "fin-c1-w16-6",
+      "type": "multipleChoice",
+      "prompt": "Basel III is a global, voluntary regulatory framework on bank capital adequacy and ________ risk.",
       "options": [
         "market",
         "credit",
         "liquidity",
         "operational"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "A key innovation of Basel III was the introduction of liquidity requirements (LCR and NSFR)."
     },
     {
-      "id": "ex7",
-      "type": "multiple-choice",
-      "question": "The LCR (Liquidity Coverage Ratio) requires banks to hold enough high-quality liquid assets to survive a ________-day stress scenario.",
+      "id": "fin-c1-w16-7",
+      "type": "multipleChoice",
+      "prompt": "The LCR (Liquidity Coverage Ratio) requires banks to hold enough high-quality liquid assets to survive a ________-day stress scenario.",
       "options": [
         "10",
         "30",
         "60",
         "90"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "The LCR focuses on short-term resilience (30 days)."
     },
     {
-      "id": "ex8",
-      "type": "multiple-choice",
-      "question": "Not only ________ the fine, but they also lost their banking license.",
+      "id": "fin-c1-w16-8",
+      "type": "multipleChoice",
+      "prompt": "Not only ________ the fine, but they also lost their banking license.",
       "options": [
         "they paid",
         "did they pay",
         "have they paid",
         "paid they"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Inversion with 'Not only... but also'. 'Not only did they pay...'."
     },
     {
-      "id": "ex9",
-      "type": "multiple-choice",
-      "question": "The KYC (Know Your Customer) process is essential for preventing ________.",
+      "id": "fin-c1-w16-9",
+      "type": "multipleChoice",
+      "prompt": "The KYC (Know Your Customer) process is essential for preventing ________.",
       "options": [
         "profitability",
         "identity theft",
         "transparency",
         "dividends"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "KYC helps verify the identity of clients and prevent fraud and money laundering."
     },
     {
-      "id": "ex10",
-      "type": "multiple-choice",
-      "question": "Solvency II is a directive in EU law that codifies and harmonizes the ________ regulation.",
+      "id": "fin-c1-w16-10",
+      "type": "multipleChoice",
+      "prompt": "Solvency II is a directive in EU law that codifies and harmonizes the ________ regulation.",
       "options": [
         "banking",
         "insurance",
         "stock market",
         "real estate"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Solvency II is to insurance what Basel III is to banking."
     },
     {
-      "id": "ex11",
-      "type": "multiple-choice",
-      "question": "Little ________ the regulator suspect that the bank was hiding billions in offshore accounts.",
+      "id": "fin-c1-w16-11",
+      "type": "multipleChoice",
+      "prompt": "Little ________ the regulator suspect that the bank was hiding billions in offshore accounts.",
       "options": [
         "did",
         "had",
         "was",
         "does"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Inversion with 'Little' to express 'not at all'."
     },
     {
-      "id": "ex12",
-      "type": "multiple-choice",
-      "question": "Only by ________ the rules can we ensure the stability of the financial system.",
+      "id": "fin-c1-w16-12",
+      "type": "multipleChoice",
+      "prompt": "Only by ________ the rules can we ensure the stability of the financial system.",
       "options": [
         "follow",
         "followed",
         "following",
         "follows"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "'Only by' is followed by a gerund (-ing)."
     },
     {
-      "id": "ex13",
-      "type": "multiple-choice",
-      "question": "MiFID II (Markets in Financial Instruments Directive) aims to increase market ________ and investor protection.",
+      "id": "fin-c1-w16-13",
+      "type": "multipleChoice",
+      "prompt": "MiFID II (Markets in Financial Instruments Directive) aims to increase market ________ and investor protection.",
       "options": [
         "opacity",
         "transparency",
         "volatility",
         "complexity"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Transparency is a core goal of MiFID II."
     },
     {
-      "id": "ex14",
-      "type": "multiple-choice",
-      "question": "A SAR (Suspicious Activity Report) must be filed when a bank ________ money laundering.",
+      "id": "fin-c1-w16-14",
+      "type": "multipleChoice",
+      "prompt": "A SAR (Suspicious Activity Report) must be filed when a bank ________ money laundering.",
       "options": [
         "proves",
         "suspects",
         "denies",
         "ignores"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Banks have a legal duty to report suspicious transactions."
     },
     {
-      "id": "ex15",
-      "type": "multiple-choice",
-      "question": "Not until the investigation was complete ________ the findings released to the public.",
+      "id": "fin-c1-w16-15",
+      "type": "multipleChoice",
+      "prompt": "Not until the investigation was complete ________ the findings released to the public.",
       "options": [
         "the findings were",
         "were the findings",
         "did the findings",
         "have the findings"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Inversion in the main clause after 'Not until...'."
     },
     {
-      "id": "ex16",
-      "type": "multiple-choice",
-      "question": "No sooner ________ the interest rates been raised than the stock market began to fall.",
+      "id": "fin-c1-w16-16",
+      "type": "multipleChoice",
+      "prompt": "No sooner ________ the interest rates been raised than the stock market began to fall.",
       "options": [
         "did",
         "had",
         "were",
         "have"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "'No sooner had [subject] [past participle] than [past simple]' is a standard inversion structure."
     },
     {
-      "id": "ex17",
-      "type": "multiple-choice",
-      "question": "________ any evidence of fraud be found, the auditor will notify the authorities.",
+      "id": "fin-c1-w16-17",
+      "type": "multipleChoice",
+      "prompt": "________ any evidence of fraud be found, the auditor will notify the authorities.",
       "options": [
         "Should",
         "If",
         "Unless",
         "Had"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "'Should' at the start replaces 'If' in formal conditionals (Should any evidence be found = If any evidence is found)."
     },
     {
-      "id": "ex18",
-      "type": "multiple-choice",
-      "question": "Anti-Money Laundering (AML) regulations require banks to perform ________ on all high-risk clients.",
+      "id": "fin-c1-w16-18",
+      "type": "multipleChoice",
+      "prompt": "Anti-Money Laundering (AML) regulations require banks to perform ________ on all high-risk clients.",
       "options": [
         "enhanced due diligence",
         "minimum research",
         "basic verification",
         "verbal confirmation"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Enhanced Due Diligence (EDD) is for clients who pose a higher risk."
     },
     {
-      "id": "ex19",
-      "type": "multiple-choice",
-      "question": "The NSFR (Net Stable Funding Ratio) is designed to ensure that banks have enough stable ________ to cover their long-term assets.",
+      "id": "fin-c1-w16-19",
+      "type": "multipleChoice",
+      "prompt": "The NSFR (Net Stable Funding Ratio) is designed to ensure that banks have enough stable ________ to cover their long-term assets.",
       "options": [
         "funding",
         "profit",
         "debt",
         "equity"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "NSFR is a long-term liquidity metric under Basel III."
     },
     {
-      "id": "ex20",
-      "type": "multiple-choice",
-      "question": "Scarcely ________ the meeting begun when the news of the default broke.",
+      "id": "fin-c1-w16-20",
+      "type": "multipleChoice",
+      "prompt": "Scarcely ________ the meeting begun when the news of the default broke.",
       "options": [
         "did",
         "was",
         "had",
         "has"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Inversion with 'Scarcely had...'."
     },
     {
-      "id": "ex21",
-      "type": "multiple-choice",
-      "question": "Only in this way ________ avoid a total collapse of the credit market.",
+      "id": "fin-c1-w16-21",
+      "type": "multipleChoice",
+      "prompt": "Only in this way ________ avoid a total collapse of the credit market.",
       "options": [
         "we can",
         "can we",
         "we could",
         "could we have"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Inversion after 'Only in this way...'."
     },
     {
-      "id": "ex22",
-      "type": "multiple-choice",
-      "question": "The 'Volcker Rule' prohibits banks from engaging in ________ trading.",
+      "id": "fin-c1-w16-22",
+      "type": "multipleChoice",
+      "prompt": "The 'Volcker Rule' prohibits banks from engaging in ________ trading.",
       "options": [
         "proprietary",
         "secondary",
         "retail",
         "public"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Proprietary trading is when a bank trades for its own profit rather than for clients."
     },
     {
-      "id": "ex23",
-      "type": "multiple-choice",
-      "question": "A 'PEP' (Politically Exposed Person) is someone who ________ high-risk from an AML perspective.",
+      "id": "fin-c1-w16-23",
+      "type": "multipleChoice",
+      "prompt": "A 'PEP' (Politically Exposed Person) is someone who ________ high-risk from an AML perspective.",
       "options": [
         "is considered",
         "considers",
         "considered",
         "is considering"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "PEPs require closer monitoring due to their potential for involvement in bribery or corruption."
     },
     {
-      "id": "ex24",
-      "type": "multiple-choice",
-      "question": "So complex ________ the new regulations that the firm had to hire ten new compliance officers.",
+      "id": "fin-c1-w16-24",
+      "type": "multipleChoice",
+      "prompt": "So complex ________ the new regulations that the firm had to hire ten new compliance officers.",
       "options": [
         "were",
         "did",
         "had",
         "was"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Inversion after 'So + adjective'. 'So complex were the regulations...'."
     },
     {
-      "id": "ex25",
-      "type": "multiple-choice",
-      "question": "Had the board ________ about the risks, they would never have approved the deal.",
+      "id": "fin-c1-w16-25",
+      "type": "multipleChoice",
+      "prompt": "Had the board ________ about the risks, they would never have approved the deal.",
       "options": [
         "know",
         "known",
         "knew",
         "knowing"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Inversion in the 'if' clause of a third conditional (Had they known = If they had known)."
     },
     {
-      "id": "ex26",
-      "type": "multiple-choice",
-      "question": "Stress testing involves simulating ________ economic scenarios to see if a bank can survive.",
+      "id": "fin-c1-w16-26",
+      "type": "multipleChoice",
+      "prompt": "Stress testing involves simulating ________ economic scenarios to see if a bank can survive.",
       "options": [
         "ideal",
         "adverse",
         "stable",
         "random"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Adverse means unfavorable or harmful."
     },
     {
-      "id": "ex27",
-      "type": "multiple-choice",
-      "question": "Capital adequacy ratios ensure that a bank has enough ________ to absorb a reasonable amount of loss.",
+      "id": "fin-c1-w16-27",
+      "type": "multipleChoice",
+      "prompt": "Capital adequacy ratios ensure that a bank has enough ________ to absorb a reasonable amount of loss.",
       "options": [
         "debt",
         "capital",
         "liabilities",
         "deposits"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Capital acts as a buffer against losses."
     },
     {
-      "id": "ex28",
-      "type": "multiple-choice",
-      "question": "Never ________ I seen such a detailed compliance report.",
+      "id": "fin-c1-w16-28",
+      "type": "multipleChoice",
+      "prompt": "Never ________ I seen such a detailed compliance report.",
       "options": [
         "did",
         "have",
         "had",
         "do"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Inversion with 'Never have I...'."
     },
     {
-      "id": "ex29",
-      "type": "multiple-choice",
-      "question": "Only then ________ the full extent of the fraud become apparent.",
+      "id": "fin-c1-w16-29",
+      "type": "multipleChoice",
+      "prompt": "Only then ________ the full extent of the fraud become apparent.",
       "options": [
         "did",
         "had",
         "was",
         "has"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Inversion after 'Only then...'."
     },
     {
-      "id": "ex30",
-      "type": "multiple-choice",
-      "question": "________ the crisis to worsen, the central bank would intervene.",
+      "id": "fin-c1-w16-30",
+      "type": "multipleChoice",
+      "prompt": "________ the crisis to worsen, the central bank would intervene.",
       "options": [
         "Were",
         "Should",
         "If",
         "Had"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "'Were [subject] to [verb]' is a formal inversion for 'If [subject] [past simple]'."
     },
     {
-      "id": "ex31",
-      "type": "multiple-choice",
-      "question": "The 'Three Pillars' of Basel II/III are Minimum Capital Requirements, Supervisory Review, and ________.",
+      "id": "fin-c1-w16-31",
+      "type": "multipleChoice",
+      "prompt": "The 'Three Pillars' of Basel II/III are Minimum Capital Requirements, Supervisory Review, and ________.",
       "options": [
         "Market Discipline",
         "Social Responsibility",
         "Customer Service",
         "Internal Audit"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Market discipline focuses on disclosure requirements."
     },
     {
-      "id": "ex32",
-      "type": "multiple-choice",
-      "question": "A 'G-SIB' is a Global ________ Important Bank.",
+      "id": "fin-c1-w16-32",
+      "type": "multipleChoice",
+      "prompt": "A 'G-SIB' is a Global ________ Important Bank.",
       "options": [
         "Systemically",
         "Statistically",
         "Socially",
         "Strategically"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "G-SIBs are subject to stricter capital requirements due to their size and importance."
     },
     {
-      "id": "ex33",
-      "type": "multiple-choice",
-      "question": "On no account ________ staff accept gifts from clients.",
+      "id": "fin-c1-w16-33",
+      "type": "multipleChoice",
+      "prompt": "On no account ________ staff accept gifts from clients.",
       "options": [
         "must",
         "should",
         "may",
         "can"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Inversion after 'On no account...'."
     },
     {
-      "id": "ex34",
-      "type": "multiple-choice",
-      "question": "Not for one moment ________ I believe the CFO's explanation.",
+      "id": "fin-c1-w16-34",
+      "type": "multipleChoice",
+      "prompt": "Not for one moment ________ I believe the CFO's explanation.",
       "options": [
         "did",
         "had",
         "was",
         "do"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Inversion after 'Not for one moment...'."
     },
     {
-      "id": "ex35",
-      "type": "multiple-choice",
-      "question": "________ the deal to fall through, the company would face bankruptcy.",
+      "id": "fin-c1-w16-35",
+      "type": "multipleChoice",
+      "prompt": "________ the deal to fall through, the company would face bankruptcy.",
       "options": [
         "Should",
         "Were",
         "If",
         "Had"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Were the deal to fall through (If the deal were to fall through)."
     },
     {
-      "id": "ex36",
-      "type": "multiple-choice",
-      "question": "Compliance ________ refers to the risk of legal or regulatory sanctions.",
+      "id": "fin-c1-w16-36",
+      "type": "multipleChoice",
+      "prompt": "Compliance ________ refers to the risk of legal or regulatory sanctions.",
       "options": [
         "risk",
         "gain",
         "profit",
         "benefit"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Compliance risk is a major focus for financial institutions."
     },
     {
-      "id": "ex37",
-      "type": "multiple-choice",
-      "question": "The FATF (Financial Action Task Force) is an intergovernmental organization that sets standards for ________.",
+      "id": "fin-c1-w16-37",
+      "type": "multipleChoice",
+      "prompt": "The FATF (Financial Action Task Force) is an intergovernmental organization that sets standards for ________.",
       "options": [
         "fighting money laundering",
         "reducing interest rates",
         "increasing trade",
         "managing pensions"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "FATF is the global money laundering and terrorist financing watchdog."
     },
     {
-      "id": "ex38",
-      "type": "multiple-choice",
-      "question": "Hardly ________ the ink dried on the contract when they asked for a change.",
+      "id": "fin-c1-w16-38",
+      "type": "multipleChoice",
+      "prompt": "Hardly ________ the ink dried on the contract when they asked for a change.",
       "options": [
         "had",
         "did",
         "was",
         "has"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Inversion with 'Hardly had...'."
     },
     {
-      "id": "ex39",
-      "type": "multiple-choice",
-      "question": "Scarcely ________ the ink dried ________ they asked for a change.",
+      "id": "fin-c1-w16-39",
+      "type": "multipleChoice",
+      "prompt": "Scarcely ________ the ink dried ________ they asked for a change.",
       "options": [
         "had / when",
         "did / than",
         "had / than",
         "did / when"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Scarcely/Hardly uses 'when', while No Sooner uses 'than'."
     },
     {
-      "id": "ex40",
-      "type": "multiple-choice",
-      "question": "Only by working together ________ the regulators hope to catch the tax evaders.",
+      "id": "fin-c1-w16-40",
+      "type": "multipleChoice",
+      "prompt": "Only by working together ________ the regulators hope to catch the tax evaders.",
       "options": [
         "can",
         "do",
         "have",
         "did"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Inversion after 'Only by + [gerund phrase]'."
     },
     {
-      "id": "ex41",
-      "type": "multiple-choice",
-      "question": "The 'Leverage Ratio' is a non-risk-based capital requirement introduced in ________.",
+      "id": "fin-c1-w16-41",
+      "type": "multipleChoice",
+      "prompt": "The 'Leverage Ratio' is a non-risk-based capital requirement introduced in ________.",
       "options": [
         "Basel I",
         "Basel II",
         "Basel III",
         "MiFID I"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Basel III introduced the leverage ratio as a backstop."
     },
     {
-      "id": "ex42",
-      "type": "multiple-choice",
-      "question": "A 'beneficial owner' is the person who ultimately ________ or controls a legal entity.",
+      "id": "fin-c1-w16-42",
+      "type": "multipleChoice",
+      "prompt": "A 'beneficial owner' is the person who ultimately ________ or controls a legal entity.",
       "options": [
         "owns",
         "manages",
         "audits",
         "fines"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Identifying the beneficial owner is a key part of KYC."
     },
     {
-      "id": "ex43",
-      "type": "multiple-choice",
-      "question": "Seldom ________ the regulatory burden been so heavy for small banks.",
+      "id": "fin-c1-w16-43",
+      "type": "multipleChoice",
+      "prompt": "Seldom ________ the regulatory burden been so heavy for small banks.",
       "options": [
         "has",
         "did",
         "was",
         "had"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Inversion with 'Seldom has...'."
     },
     {
-      "id": "ex44",
-      "type": "multiple-choice",
-      "question": "Only with full cooperation ________ the audit be completed on time.",
+      "id": "fin-c1-w16-44",
+      "type": "multipleChoice",
+      "prompt": "Only with full cooperation ________ the audit be completed on time.",
       "options": [
         "can",
         "will",
         "did",
         "has"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Inversion after 'Only with [noun phrase]'."
     },
     {
-      "id": "ex45",
-      "type": "multiple-choice",
-      "question": "A 'Shell Bank' is a bank that has no physical ________ in the country in which it is incorporated.",
+      "id": "fin-c1-w16-45",
+      "type": "multipleChoice",
+      "prompt": "A 'Shell Bank' is a bank that has no physical ________ in the country in which it is incorporated.",
       "options": [
         "presence",
         "existence",
         "license",
         "capital"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Shell banks are often prohibited in many jurisdictions due to AML risks."
     },
     {
-      "id": "ex46",
-      "type": "multiple-choice",
-      "question": "Not until the final report was published ________ the full extent of the losses.",
+      "id": "fin-c1-w16-46",
+      "type": "multipleChoice",
+      "prompt": "Not until the final report was published ________ the full extent of the losses.",
       "options": [
         "we knew",
         "did we know",
         "had we known",
         "we had known"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Inversion after 'Not until...'."
     },
     {
-      "id": "ex47",
-      "type": "multiple-choice",
-      "question": "Under no circumstances ________ employees share their passwords.",
+      "id": "fin-c1-w16-47",
+      "type": "multipleChoice",
+      "prompt": "Under no circumstances ________ employees share their passwords.",
       "options": [
         "must",
         "should",
         "may",
         "can"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Inversion after 'Under no circumstances...'."
     },
     {
-      "id": "ex48",
-      "type": "multiple-choice",
-      "question": "The 'Whistleblowing' policy protects employees who report ________ activity.",
+      "id": "fin-c1-w16-48",
+      "type": "multipleChoice",
+      "prompt": "The 'Whistleblowing' policy protects employees who report ________ activity.",
       "options": [
         "illegal",
         "profitable",
         "standard",
         "public"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Whistleblowing is a key component of corporate governance."
     },
     {
-      "id": "ex49",
-      "type": "multiple-choice",
-      "question": "________ any further questions arise, please do not hesitate to contact us.",
+      "id": "fin-c1-w16-49",
+      "type": "multipleChoice",
+      "prompt": "________ any further questions arise, please do not hesitate to contact us.",
       "options": [
         "Should",
         "If",
         "Unless",
         "Had"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Formal inversion for 'If any further questions arise'."
     },
     {
-      "id": "ex50",
-      "type": "multiple-choice",
-      "question": "Compliance is not just about avoiding fines; it's about building ________ with stakeholders.",
+      "id": "fin-c1-w16-50",
+      "type": "multipleChoice",
+      "prompt": "Compliance is not just about avoiding fines; it's about building ________ with stakeholders.",
       "options": [
         "trust",
         "fear",
         "wealth",
         "complexity"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Trust is a fundamental asset in the financial services industry."
     }
   ]

@@ -8,651 +8,651 @@
     {
       "id": "fin-b2-w15-1",
       "type": "multipleChoice",
-      "question": "If the Euro _______ against the Dollar last month, our import costs would have been lower.",
+      "prompt": "If the Euro _______ against the Dollar last month, our import costs would have been lower.",
       "options": [
         "strengthens",
         "strengthened",
         "had strengthened",
         "would strengthen"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Third conditional for a hypothetical past situation."
     },
     {
       "id": "fin-b2-w15-2",
       "type": "multipleChoice",
-      "question": "By the time we settle the invoice, the exchange rate _______ significantly.",
+      "prompt": "By the time we settle the invoice, the exchange rate _______ significantly.",
       "options": [
         "will change",
         "changes",
         "will have changed",
         "changed"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Future Perfect for an action that will be completed by a certain future time."
     },
     {
       "id": "fin-b2-w15-3",
       "type": "multipleChoice",
-      "question": "The treasury department avoids _______ large amounts of foreign currency without hedging.",
+      "prompt": "The treasury department avoids _______ large amounts of foreign currency without hedging.",
       "options": [
         "to hold",
         "holding",
         "hold",
         "to holding"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "The verb 'avoid' is followed by a gerund."
     },
     {
       "id": "fin-b2-w15-4",
       "type": "multipleChoice",
-      "question": "If we _______ a hedging strategy, our profit margins would be protected from currency fluctuations.",
+      "prompt": "If we _______ a hedging strategy, our profit margins would be protected from currency fluctuations.",
       "options": [
         "implement",
         "implemented",
         "had implemented",
         "would implement"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Second conditional for a hypothetical present strategy."
     },
     {
       "id": "fin-b2-w15-5",
       "type": "multipleChoice",
-      "question": "By 2027, the company _______ into three new Asian markets.",
+      "prompt": "By 2027, the company _______ into three new Asian markets.",
       "options": [
         "will expand",
         "expands",
         "will have expanded",
         "is expanding"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Future Perfect."
     },
     {
       "id": "fin-b2-w15-6",
       "type": "multipleChoice",
-      "question": "The CFO keeps _______ that we should diversify our currency reserves.",
+      "prompt": "The CFO keeps _______ that we should diversify our currency reserves.",
       "options": [
         "to suggest",
         "suggesting",
         "suggest",
         "to suggesting"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "The verb 'keep' is followed by a gerund."
     },
     {
       "id": "fin-b2-w15-7",
       "type": "multipleChoice",
-      "question": "If you _______ the forward contract yesterday, we would have locked in a better rate.",
+      "prompt": "If you _______ the forward contract yesterday, we would have locked in a better rate.",
       "options": [
         "sign",
         "signed",
         "had signed",
         "would sign"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Third conditional."
     },
     {
       "id": "fin-b2-w15-8",
       "type": "multipleChoice",
-      "question": "We plan _______ a new subsidiary in Brazil next year.",
+      "prompt": "We plan _______ a new subsidiary in Brazil next year.",
       "options": [
         "to open",
         "opening",
         "open",
         "to opening"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "The verb 'plan' is followed by an infinitive."
     },
     {
       "id": "fin-b2-w15-9",
       "type": "multipleChoice",
-      "question": "By next Friday, the audit of the international branches _______ finished.",
+      "prompt": "By next Friday, the audit of the international branches _______ finished.",
       "options": [
         "will be",
         "is being",
         "will have been",
         "was"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Future Perfect Passive."
     },
     {
       "id": "fin-b2-w15-10",
       "type": "multipleChoice",
-      "question": "If the yen _______ further, our Japanese exports will become more expensive.",
+      "prompt": "If the yen _______ further, our Japanese exports will become more expensive.",
       "options": [
         "depreciates",
         "depreciated",
         "had depreciated",
         "would depreciate"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "First conditional (If + present simple, will + verb)."
     },
     {
       "id": "fin-b2-w15-11",
       "type": "multipleChoice",
-      "question": "The company managed _______ its currency risk through options.",
+      "prompt": "The company managed _______ its currency risk through options.",
       "options": [
         "to mitigate",
         "mitigating",
         "mitigate",
         "to mitigating"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "The verb 'manage' is followed by an infinitive."
     },
     {
       "id": "fin-b2-w15-12",
       "type": "multipleChoice",
-      "question": "If they _______ the international tax laws better, they wouldn't be in this situation now.",
+      "prompt": "If they _______ the international tax laws better, they wouldn't be in this situation now.",
       "options": [
         "understand",
         "understood",
         "had understood",
         "would understand"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Mixed conditional (Past knowledge/action, present result)."
     },
     {
       "id": "fin-b2-w15-13",
       "type": "multipleChoice",
-      "question": "By the end of the year, the central bank _______ interest rates three times.",
+      "prompt": "By the end of the year, the central bank _______ interest rates three times.",
       "options": [
         "will raise",
         "raises",
         "will have raised",
         "raised"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Future Perfect."
     },
     {
       "id": "fin-b2-w15-14",
       "type": "multipleChoice",
-      "question": "Investors are encouraged _______ their portfolios globally.",
+      "prompt": "Investors are encouraged _______ their portfolios globally.",
       "options": [
         "to diversify",
         "diversifying",
         "diversify",
         "to diversifying"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Be encouraged + infinitive."
     },
     {
       "id": "fin-b2-w15-15",
       "type": "multipleChoice",
-      "question": "If we _______ for the currency drop, we wouldn't have lost so much money.",
+      "prompt": "If we _______ for the currency drop, we wouldn't have lost so much money.",
       "options": [
         "prepare",
         "prepared",
         "had prepared",
         "would prepare"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Third conditional."
     },
     {
       "id": "fin-b2-w15-16",
       "type": "multipleChoice",
-      "question": "It is worth _______ the impact of geopolitics on currency markets.",
+      "prompt": "It is worth _______ the impact of geopolitics on currency markets.",
       "options": [
         "to study",
         "studying",
         "study",
         "to studying"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "It is worth + gerund."
     },
     {
       "id": "fin-b2-w15-17",
       "type": "multipleChoice",
-      "question": "By next month, the exchange rate _______ back to its original level.",
+      "prompt": "By next month, the exchange rate _______ back to its original level.",
       "options": [
         "will return",
         "returns",
         "will have returned",
         "returned"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Future Perfect."
     },
     {
       "id": "fin-b2-w15-18",
       "type": "multipleChoice",
-      "question": "If I _______ more about forex, I would invest in emerging market currencies.",
+      "prompt": "If I _______ more about forex, I would invest in emerging market currencies.",
       "options": [
         "know",
         "knew",
         "had known",
         "would know"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Second conditional."
     },
     {
       "id": "fin-b2-w15-19",
       "type": "multipleChoice",
-      "question": "The broker suggested _______ our exposure to the British Pound.",
+      "prompt": "The broker suggested _______ our exposure to the British Pound.",
       "options": [
         "to decrease",
         "decreasing",
         "decrease",
         "to decreasing"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Suggest + gerund."
     },
     {
       "id": "fin-b2-w15-20",
       "type": "multipleChoice",
-      "question": "If they _______ the trade yesterday, they would have saved thousands.",
+      "prompt": "If they _______ the trade yesterday, they would have saved thousands.",
       "options": [
         "execute",
         "executed",
         "had executed",
         "would execute"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Third conditional."
     },
     {
       "id": "fin-b2-w15-21",
       "type": "multipleChoice",
-      "question": "By tomorrow morning, we _______ all the wire transfers.",
+      "prompt": "By tomorrow morning, we _______ all the wire transfers.",
       "options": [
         "will complete",
         "are completing",
         "will have completed",
         "complete"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Future Perfect."
     },
     {
       "id": "fin-b2-w15-22",
       "type": "multipleChoice",
-      "question": "The manager decided _______ the international payment process.",
+      "prompt": "The manager decided _______ the international payment process.",
       "options": [
         "to automate",
         "automating",
         "automate",
         "to automating"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Decide + infinitive."
     },
     {
       "id": "fin-b2-w15-23",
       "type": "multipleChoice",
-      "question": "If you _______ more attention to the news, you wouldn't be surprised by the market move.",
+      "prompt": "If you _______ more attention to the news, you wouldn't be surprised by the market move.",
       "options": [
         "paid",
         "pay",
         "had paid",
         "would pay"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Mixed conditional."
     },
     {
       "id": "fin-b2-w15-24",
       "type": "multipleChoice",
-      "question": "By the end of the day, the market _______ all the earlier gains.",
+      "prompt": "By the end of the day, the market _______ all the earlier gains.",
       "options": [
         "will lose",
         "loses",
         "will have lost",
         "lost"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Future Perfect."
     },
     {
       "id": "fin-b2-w15-25",
       "type": "multipleChoice",
-      "question": "They avoid _______ in countries with high political instability.",
+      "prompt": "They avoid _______ in countries with high political instability.",
       "options": [
         "to invest",
         "investing",
         "invest",
         "to investing"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Avoid + gerund."
     },
     {
       "id": "fin-b2-w15-26",
       "type": "multipleChoice",
-      "question": "If the company _______ more international experience, it would grow faster.",
+      "prompt": "If the company _______ more international experience, it would grow faster.",
       "options": [
         "has",
         "had",
         "had had",
         "would have"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Second conditional."
     },
     {
       "id": "fin-b2-w15-27",
       "type": "multipleChoice",
-      "question": "I don't regret _______ my position in Euros last week.",
+      "prompt": "I don't regret _______ my position in Euros last week.",
       "options": [
         "to sell",
         "selling",
         "sell",
         "to selling"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Regret + gerund (past action)."
     },
     {
       "id": "fin-b2-w15-28",
       "type": "multipleChoice",
-      "question": "If they _______ the treaty earlier, the trade war would be over by now.",
+      "prompt": "If they _______ the treaty earlier, the trade war would be over by now.",
       "options": [
         "signed",
         "sign",
         "had signed",
         "would sign"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Mixed conditional."
     },
     {
       "id": "fin-b2-w15-29",
       "type": "multipleChoice",
-      "question": "By next week, we _______ the final report on the currency risk.",
+      "prompt": "By next week, we _______ the final report on the currency risk.",
       "options": [
         "will finish",
         "finish",
         "will have finished",
         "finished"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Future Perfect."
     },
     {
       "id": "fin-b2-w15-30",
       "type": "multipleChoice",
-      "question": "Risk management involves _______ both internal and external factors.",
+      "prompt": "Risk management involves _______ both internal and external factors.",
       "options": [
         "to consider",
         "considering",
         "consider",
         "to considering"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Involve + gerund."
     },
     {
       "id": "fin-b2-w15-31",
       "type": "multipleChoice",
-      "question": "If you _______ the advice, you wouldn't have lost your investment.",
+      "prompt": "If you _______ the advice, you wouldn't have lost your investment.",
       "options": [
         "take",
         "took",
         "had taken",
         "would take"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Third conditional."
     },
     {
       "id": "fin-b2-w15-32",
       "type": "multipleChoice",
-      "question": "By the time the contract expires, we _______ millions in fees.",
+      "prompt": "By the time the contract expires, we _______ millions in fees.",
       "options": [
         "will pay",
         "pay",
         "will have paid",
         "paid"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Future Perfect."
     },
     {
       "id": "fin-b2-w15-33",
       "type": "multipleChoice",
-      "question": "The analyst managed _______ the market crash before it happened.",
+      "prompt": "The analyst managed _______ the market crash before it happened.",
       "options": [
         "to predict",
         "predicting",
         "predict",
         "to predicting"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Manage + infinitive."
     },
     {
       "id": "fin-b2-w15-34",
       "type": "multipleChoice",
-      "question": "If the government _______ interest rates, the currency would strengthen.",
+      "prompt": "If the government _______ interest rates, the currency would strengthen.",
       "options": [
         "raises",
         "raised",
         "had raised",
         "would raise"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Second conditional."
     },
     {
       "id": "fin-b2-w15-35",
       "type": "multipleChoice",
-      "question": "I am looking forward _______ the new trade agreement.",
+      "prompt": "I am looking forward _______ the new trade agreement.",
       "options": [
         "to see",
         "to seeing",
         "see",
         "seeing"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Look forward to + gerund."
     },
     {
       "id": "fin-b2-w15-36",
       "type": "multipleChoice",
-      "question": "If they _______ more careful, the fraud wouldn't have happened.",
+      "prompt": "If they _______ more careful, the fraud wouldn't have happened.",
       "options": [
         "are",
         "were",
         "had been",
         "would be"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Third conditional."
     },
     {
       "id": "fin-b2-w15-37",
       "type": "multipleChoice",
-      "question": "By tomorrow, the news _______ to all international markets.",
+      "prompt": "By tomorrow, the news _______ to all international markets.",
       "options": [
         "will spread",
         "spreads",
         "will have spread",
         "spread"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Future Perfect."
     },
     {
       "id": "fin-b2-w15-38",
       "type": "multipleChoice",
-      "question": "The company promised _______ all international regulations.",
+      "prompt": "The company promised _______ all international regulations.",
       "options": [
         "to follow",
         "following",
         "follow",
         "to following"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Promise + infinitive."
     },
     {
       "id": "fin-b2-w15-39",
       "type": "multipleChoice",
-      "question": "If we _______ our assets, we wouldn't be so exposed to this one currency.",
+      "prompt": "If we _______ our assets, we wouldn't be so exposed to this one currency.",
       "options": [
         "diversify",
         "diversified",
         "had diversified",
         "would diversify"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Mixed conditional."
     },
     {
       "id": "fin-b2-w15-40",
       "type": "multipleChoice",
-      "question": "Avoid _______ large transactions at the end of the day.",
+      "prompt": "Avoid _______ large transactions at the end of the day.",
       "options": [
         "to make",
         "making",
         "make",
         "to making"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Avoid + gerund."
     },
     {
       "id": "fin-b2-w15-41",
       "type": "multipleChoice",
-      "question": "By 2026, the central bank _______ its digital currency.",
+      "prompt": "By 2026, the central bank _______ its digital currency.",
       "options": [
         "will launch",
         "launches",
         "will have launched",
         "launched"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Future Perfect."
     },
     {
       "id": "fin-b2-w15-42",
       "type": "multipleChoice",
-      "question": "If the exchange rate _______, the company will increase its exports.",
+      "prompt": "If the exchange rate _______, the company will increase its exports.",
       "options": [
         "improves",
         "improved",
         "had improved",
         "would improve"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "First conditional."
     },
     {
       "id": "fin-b2-w15-43",
       "type": "multipleChoice",
-      "question": "The legal team refused _______ the contract without changes.",
+      "prompt": "The legal team refused _______ the contract without changes.",
       "options": [
         "to sign",
         "signing",
         "sign",
         "to signing"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Refuse + infinitive."
     },
     {
       "id": "fin-b2-w15-44",
       "type": "multipleChoice",
-      "question": "If they _______ the risk earlier, they could have saved millions.",
+      "prompt": "If they _______ the risk earlier, they could have saved millions.",
       "options": [
         "identify",
         "identified",
         "had identified",
         "would identify"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Third conditional."
     },
     {
       "id": "fin-b2-w15-45",
       "type": "multipleChoice",
-      "question": "By next year, I _______ in this bank for ten years.",
+      "prompt": "By next year, I _______ in this bank for ten years.",
       "options": [
         "will work",
         "am working",
         "will have worked",
         "worked"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Future Perfect (duration by a certain time)."
     },
     {
       "id": "fin-b2-w15-46",
       "type": "multipleChoice",
-      "question": "The analyst suggested _______ the hedging period.",
+      "prompt": "The analyst suggested _______ the hedging period.",
       "options": [
         "to extend",
         "extending",
         "extend",
         "to extending"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Suggest + gerund."
     },
     {
       "id": "fin-b2-w15-47",
       "type": "multipleChoice",
-      "question": "If you _______ the report, you would know why we are hedging.",
+      "prompt": "If you _______ the report, you would know why we are hedging.",
       "options": [
         "read",
         "had read",
         "would read",
         "will read"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Mixed conditional."
     },
     {
       "id": "fin-b2-w15-48",
       "type": "multipleChoice",
-      "question": "By the end of the month, we _______ three new international deals.",
+      "prompt": "By the end of the month, we _______ three new international deals.",
       "options": [
         "will sign",
         "sign",
         "will have signed",
         "signed"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Future Perfect."
     },
     {
       "id": "fin-b2-w15-49",
       "type": "multipleChoice",
-      "question": "They failed _______ the risks of investing in that region.",
+      "prompt": "They failed _______ the risks of investing in that region.",
       "options": [
         "to mention",
         "mentioning",
         "mention",
         "to mentioning"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Fail + infinitive."
     },
     {
       "id": "fin-b2-w15-50",
       "type": "multipleChoice",
-      "question": "If the currency _______ tomorrow, we will buy more.",
+      "prompt": "If the currency _______ tomorrow, we will buy more.",
       "options": [
         "drops",
         "dropped",
         "had dropped",
         "would drop"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "First conditional."
     }
   ]
