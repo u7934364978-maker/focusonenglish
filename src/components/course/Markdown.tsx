@@ -137,15 +137,19 @@ export default function Markdown({ content }: { content: string }) {
     <div
       className={[
         "prose max-w-none",
-        "prose-slate",
-        "prose-headings:font-black prose-headings:tracking-tight",
+        "prose-slate dark:prose-invert",
+        "text-slate-800 dark:text-slate-200",
+        "prose-headings:text-slate-900 dark:prose-headings:text-white prose-headings:font-black prose-headings:tracking-tight",
+        "prose-p:text-slate-700 dark:prose-p:text-slate-300 prose-p:leading-relaxed",
+        "prose-li:text-slate-700 dark:prose-li:text-slate-300",
+        "prose-strong:text-slate-900 dark:prose-strong:text-white prose-strong:font-bold",
         "prose-h2:mt-6 prose-h2:mb-3",
         "prose-h3:mt-5 prose-h3:mb-2",
-        "prose-hr:my-6 prose-hr:border-slate-200",
+        "prose-hr:my-6 prose-hr:border-slate-200 dark:prose-hr:border-slate-800",
         "prose-ul:pl-5 prose-li:my-1",
         "prose-pre:bg-slate-900 prose-pre:text-slate-50 prose-pre:rounded-2xl",
-        "prose-code:text-coral-700",
-        "prose-a:text-coral-700 prose-a:font-bold",
+        "prose-code:text-coral-700 dark:prose-code:text-coral-400",
+        "prose-a:text-coral-700 dark:prose-a:text-coral-400 prose-a:font-bold",
       ].join(" ")}
     >
       <ReactMarkdown
@@ -154,8 +158,8 @@ export default function Markdown({ content }: { content: string }) {
           // Callout visual (para tips en markdown usando "> ...")
           blockquote({ children }) {
             return (
-              <div className="my-4 rounded-2xl border border-coral-200 bg-coral-50 px-4 py-3 text-sm text-slate-800">
-                <div className="font-black text-coral-900">Tip</div>
+              <div className="my-4 rounded-2xl border border-coral-200 dark:border-coral-800 bg-coral-50 dark:bg-coral-950/30 px-4 py-3 text-sm text-slate-800 dark:text-slate-200">
+                <div className="font-black text-coral-900 dark:text-coral-400">Tip</div>
                 <div className="mt-1">{children}</div>
               </div>
             );
@@ -163,27 +167,27 @@ export default function Markdown({ content }: { content: string }) {
 
           // Separador suave (más “premium” que hr default)
           hr() {
-            return <div className="my-6 h-px w-full bg-slate-200" />;
+            return <div className="my-6 h-px w-full bg-slate-200 dark:bg-slate-800" />;
           },
 
           // Tablas: wrapper scroll + estilos de celdas
           table({ children }) {
             return (
-              <div className="my-4 overflow-x-auto rounded-2xl border border-slate-200 bg-white">
+              <div className="my-4 overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
                 <table className="w-full text-sm">{children}</table>
               </div>
             );
           },
           th({ children }) {
             return (
-              <th className="bg-slate-50 px-3 py-2 text-left text-xs font-black text-slate-600">
+              <th className="bg-slate-50 dark:bg-slate-800/50 px-3 py-2 text-left text-xs font-black text-slate-600 dark:text-slate-400">
                 {children}
               </th>
             );
           },
           td({ children }) {
             return (
-              <td className="border-t border-slate-200 px-3 py-2 align-top text-slate-800">
+              <td className="border-t border-slate-200 dark:border-slate-800 px-3 py-2 align-top text-slate-800 dark:text-slate-300">
                 {children}
               </td>
             );
@@ -199,7 +203,7 @@ export default function Markdown({ content }: { content: string }) {
                     "mt-[2px] inline-flex h-4 w-4 flex-none items-center justify-center rounded border",
                     props.checked
                       ? "border-amber-500 bg-amber-500"
-                      : "border-slate-300 bg-white",
+                      : "border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800",
                   ].join(" ")}
                 />
               );
@@ -210,14 +214,14 @@ export default function Markdown({ content }: { content: string }) {
           // Headings: scroll offset para navegación fluida
           h2({ children }) {
             return (
-              <h2 className="mt-8 scroll-mt-24 text-xl font-black tracking-tight text-slate-900">
+              <h2 className="mt-8 scroll-mt-24 text-xl font-black tracking-tight text-slate-900 dark:text-white">
                 {children}
               </h2>
             );
           },
           h3({ children }) {
             return (
-              <h3 className="mt-6 scroll-mt-24 text-lg font-black text-slate-900">
+              <h3 className="mt-6 scroll-mt-24 text-lg font-black text-slate-900 dark:text-white">
                 {children}
               </h3>
             );

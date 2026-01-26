@@ -613,7 +613,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           continue;
         }
 
-        let correctAnswer = item.correctAnswer || item.correctMatch || item.correctUsage || item.meaning || '';
+        const correctAnswer = item.correctAnswer || item.correctMatch || item.correctUsage || item.meaning || '';
         
         if (currentExercise.type === 'error-identification') {
           const isCorrect = item.hasError ? userAnswer === 'error' : userAnswer === 'correct';
@@ -1218,7 +1218,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                           {pronunciationRecordings[idx] && (
                             <div className="mt-3 p-3 bg-blue-50 rounded-lg border border-blue-200">
                               <p className="text-sm text-blue-900">
-                                <strong>Your recording:</strong> "{pronunciationRecordings[idx].transcript}"
+                                <strong>Your recording:</strong> &quot;{pronunciationRecordings[idx].transcript}&quot;
                               </p>
                               {pronunciationRecordings[idx].evaluation && (
                                 <div className="mt-2">
@@ -2526,7 +2526,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       <div className="flex-1">
                         <div className="mb-3 p-3 bg-slate-50 rounded-lg border-l-4 border-teal-500">
                           <p className="text-sm text-slate-600 font-semibold mb-1">Original:</p>
-                          <p className="text-slate-800 italic">"{originalSentence}"</p>
+                          <p className="text-slate-800 italic">&quot;{originalSentence}&quot;</p>
                         </div>
                         
                         <textarea
@@ -3041,7 +3041,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       <div className="flex-1">
                         <div className="mb-3 p-3 bg-yellow-50 rounded-lg">
                           <p className="text-sm text-yellow-800 font-semibold mb-1">
-                            Idiom: <span className="text-yellow-900 text-base">"{item.idiom}"</span>
+                            Idiom: <span className="text-yellow-900 text-base">&quot;{item.idiom}&quot;</span>
                           </p>
                           <p className="text-sm text-slate-600">Meaning: {item.meaning}</p>
                         </div>
@@ -3887,13 +3887,13 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         </div>
 
         {/* Navigation Tabs */}
-        <div className="flex border-b-2 border-slate-200 mb-6 bg-white rounded-t-2xl px-4">
+        <div className="flex border-b-2 border-slate-200 dark:border-slate-800 mb-6 bg-white dark:bg-slate-900 rounded-t-2xl px-4 transition-colors">
           <button
             onClick={() => setActiveTab('theory')}
             className={`px-6 py-4 font-bold text-lg transition-all border-b-4 -mb-0.5 ${
               activeTab === 'theory' 
-                ? 'border-orange-500 text-orange-600' 
-                : 'border-transparent text-slate-500 hover:text-slate-700'
+                ? 'border-orange-500 text-orange-600 dark:text-orange-500' 
+                : 'border-transparent text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200'
             }`}
           >
             📚 Teoría
@@ -3902,8 +3902,8 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             onClick={() => setActiveTab('practice')}
             className={`px-6 py-4 font-bold text-lg transition-all border-b-4 -mb-0.5 ${
               activeTab === 'practice' 
-                ? 'border-orange-500 text-orange-600' 
-                : 'border-transparent text-slate-500 hover:text-slate-700'
+                ? 'border-orange-500 text-orange-600 dark:text-orange-500' 
+                : 'border-transparent text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200'
             }`}
           >
             ✍️ Práctica
@@ -3933,29 +3933,31 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               </div>
             )}
 
-            <div className="bg-white rounded-xl shadow-lg p-8 border-2 border-slate-200">
-              <h2 className="text-3xl font-black text-slate-900 mb-6">Contenido de la Lección</h2>
+            <div className="bg-white dark:bg-slate-900 rounded-xl shadow-lg p-8 border-2 border-slate-200 dark:border-slate-700 transition-colors">
+              <h2 className="text-3xl font-black text-slate-900 dark:text-white mb-6">Contenido de la Lección</h2>
               
               {lesson.theoryContent ? (
-                <Markdown content={lesson.theoryContent} />
+                <div className="text-slate-800 dark:text-slate-200">
+                  <Markdown content={lesson.theoryContent} />
+                </div>
               ) : (
                 <div className="text-center py-12 bg-slate-50 rounded-xl border-2 border-dashed border-slate-300">
                   <div className="text-4xl mb-4">📝</div>
                   <h3 className="text-xl font-bold text-slate-800">Esta lección es eminentemente práctica</h3>
-                  <p className="text-slate-600 mt-2">Haz clic en la pestaña de "Práctica" para comenzar los ejercicios.</p>
+                  <p className="text-slate-600 mt-2">Haz clic en la pestaña de &quot;Práctica&quot; para comenzar los ejercicios.</p>
                 </div>
               )}
 
               {lesson.objectives && lesson.objectives.length > 0 && (
-                <div className="mt-12 pt-8 border-t border-slate-100">
-                  <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+                <div className="mt-12 pt-8 border-t border-slate-100 dark:border-slate-800">
+                  <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
                     <span className="text-orange-500">🎯</span> Objetivos de Aprendizaje
                   </h3>
                   <div className="grid md:grid-cols-2 gap-4">
                     {lesson.objectives.map((obj, i) => (
-                      <div key={i} className="flex items-start gap-3 bg-orange-50/50 p-4 rounded-xl border border-orange-100">
+                      <div key={i} className="flex items-start gap-3 bg-orange-50/50 dark:bg-orange-900/10 p-4 rounded-xl border border-orange-100 dark:border-orange-900/30">
                         <span className="text-green-500 font-bold mt-0.5">✓</span>
-                        <span className="text-slate-700 font-medium">{obj}</span>
+                        <span className="text-slate-700 dark:text-slate-300 font-medium">{obj}</span>
                       </div>
                     ))}
                   </div>
@@ -3978,17 +3980,19 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             {currentExercise ? (
               <>
                 {/* Exercise Content */}
-                <div className="bg-white rounded-xl shadow-lg p-6 mb-6 border-2 border-slate-200">
+                <div className="bg-white dark:bg-slate-900 rounded-xl shadow-lg p-6 mb-6 border-2 border-slate-200 dark:border-slate-700 transition-colors">
                   <div className="mb-4 flex items-center justify-between">
-                    <h2 className="text-2xl font-bold text-slate-900">
+                    <h2 className="text-2xl font-bold text-slate-900 dark:text-white">
                       Ejercicio {currentExerciseIndex + 1}: {currentExercise.type.charAt(0).toUpperCase() + currentExercise.type.slice(1)}
                     </h2>
-                    <span className="px-3 py-1 bg-orange-100 text-coral-700 rounded-full text-sm font-semibold">
+                    <span className="px-3 py-1 bg-orange-100 dark:bg-orange-900/30 text-coral-700 dark:text-coral-400 rounded-full text-sm font-semibold">
                       {currentExercise.type}
                     </span>
                   </div>
 
-                  {renderExercise()}
+                  <div className="text-slate-800 dark:text-slate-200">
+                    {renderExercise()}
+                  </div>
                 </div>
 
                 {/* Navigation Buttons */}
@@ -4028,7 +4032,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               <div className="text-center py-12 bg-white rounded-xl shadow-lg border-2 border-slate-200">
                 <div className="text-4xl mb-4">📚</div>
                 <h3 className="text-xl font-bold text-slate-800">Esta lección solo contiene teoría</h3>
-                <p className="text-slate-600 mt-2 mb-6">Revisa el contenido en la pestaña de "Teoría".</p>
+                <p className="text-slate-600 mt-2 mb-6">Revisa el contenido en la pestaña de &quot;Teoría&quot;.</p>
                 <button
                   onClick={() => setActiveTab('theory')}
                   className="px-8 py-3 bg-orange-500 text-white rounded-xl font-bold hover:bg-orange-600 transition-colors"
