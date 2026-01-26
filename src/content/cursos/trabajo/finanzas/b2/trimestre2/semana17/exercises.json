@@ -1,0 +1,129 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana17",
+  "title": "Ejercicios: FinTech y Transformación Digital",
+  "items": [
+    {
+      "id": "fin-b2-w17-1",
+      "type": "multipleChoice",
+      "prompt": "Many banks are adopting ________ technology to improve the security of their transactions.",
+      "options": ["Blockchain", "Stagnation", "Manual", "Traditional"],
+      "answerIndex": 0,
+      "explanation": "Blockchain provides a decentralized and secure way to record transactions."
+    },
+    {
+      "id": "fin-b2-w17-2",
+      "type": "multipleChoice",
+      "prompt": "A ________ uses algorithms to manage an investment portfolio with minimal human intervention.",
+      "options": ["Stockbroker", "Robo-advisor", "Personal assistant", "Bank teller"],
+      "answerIndex": 1,
+      "explanation": "Robo-advisors automate portfolio management using financial algorithms."
+    },
+    {
+      "id": "fin-b2-w17-3",
+      "type": "multipleChoice",
+      "prompt": "We implemented new security protocols ________ protect customer data from hackers.",
+      "options": ["so as to", "because", "although", "despite"],
+      "answerIndex": 0,
+      "explanation": "'So as to' is used to express purpose followed by an infinitive."
+    },
+    {
+      "id": "fin-b2-w17-4",
+      "type": "multipleChoice",
+      "prompt": "________ allows third-party providers to access financial data through APIs.",
+      "options": ["Closed banking", "Open Banking", "Secret banking", "Private banking"],
+      "answerIndex": 1,
+      "explanation": "Open Banking promotes transparency and competition by sharing data securely via APIs."
+    },
+    {
+      "id": "fin-b2-w17-5",
+      "type": "multipleChoice",
+      "prompt": "The server was down for three hours; ________, many customers could not complete their transfers.",
+      "options": ["consequently", "however", "although", "instead"],
+      "answerIndex": 0,
+      "explanation": "'Consequently' is used to express the result of a previous statement."
+    },
+    {
+      "id": "fin-b2-w17-6",
+      "type": "multipleChoice",
+      "prompt": "We use biometrics ________ unauthorized access is nearly impossible.",
+      "options": ["so that", "in order to", "because of", "due to"],
+      "answerIndex": 0,
+      "explanation": "'So that' is followed by a clause to express purpose."
+    },
+    {
+      "id": "fin-b2-w17-7",
+      "type": "multipleChoice",
+      "prompt": "________ platforms allow individuals to lend money directly to other individuals or small businesses.",
+      "options": ["P2P lending", "Centralized lending", "Interbank lending", "Mortgage lending"],
+      "answerIndex": 0,
+      "explanation": "P2P (Peer-to-Peer) lending bypasses traditional financial institutions."
+    },
+    {
+      "id": "fin-b2-w17-8",
+      "type": "multipleChoice",
+      "prompt": "The startup used ________ to raise funds from a large number of small investors.",
+      "options": ["crowdfunding", "a bank loan", "private equity", "leverage"],
+      "answerIndex": 0,
+      "explanation": "Crowdfunding involves raising small amounts of money from many people, typically via the internet."
+    },
+    {
+      "id": "fin-b2-w17-9",
+      "type": "multipleChoice",
+      "prompt": "Artificial Intelligence is causing a major ________ in the traditional banking sector.",
+      "options": ["disruption", "stagnation", "agreement", "stabilization"],
+      "answerIndex": 0,
+      "explanation": "Disruption refers to a radical change that replaces old methods with new technology."
+    },
+    {
+      "id": "fin-b2-w17-10",
+      "type": "multipleChoice",
+      "prompt": "The company invested in new software ________ increase efficiency.",
+      "options": ["in order to", "so that", "because", "as a result"],
+      "answerIndex": 0,
+      "explanation": "'In order to' expresses purpose followed by an infinitive."
+    },
+    {
+      "id": "fin-b2-w17-11",
+      "type": "multipleChoice",
+      "prompt": "Contactless payments are becoming the norm; ________, the use of cash is declining.",
+      "options": ["therefore", "whereas", "despite", "although"],
+      "answerIndex": 0,
+      "explanation": "'Therefore' indicates a logical conclusion or result."
+    },
+    {
+      "id": "fin-b2-w17-12",
+      "type": "multipleChoice",
+      "prompt": "Banks must comply with strict regulations ________ maintain their licenses.",
+      "options": ["to", "for", "by", "from"],
+      "answerIndex": 0,
+      "explanation": "'To' (infinitive of purpose) is used here to explain the reason for the action."
+    },
+    {
+      "id": "fin-b2-w17-13",
+      "type": "multipleChoice",
+      "prompt": "Mobile banking apps are designed ________ customers can manage their accounts anywhere.",
+      "options": ["so that", "in order to", "so as to", "because"],
+      "answerIndex": 0,
+      "explanation": "'So that' connects the design goal with the customer capability (clause)."
+    },
+    {
+      "id": "fin-b2-w17-14",
+      "type": "multipleChoice",
+      "prompt": "Cybersecurity threats are increasing; ________, we have doubled our IT security budget.",
+      "options": ["as a result", "nevertheless", "even so", "otherwise"],
+      "answerIndex": 0,
+      "explanation": "'As a result' shows the consequence of the increasing threats."
+    },
+    {
+      "id": "fin-b2-w17-15",
+      "type": "multipleChoice",
+      "prompt": "Cryptocurrencies use ________ ledgers to record transactions across many computers.",
+      "options": ["distributed", "centralized", "manual", "private"],
+      "answerIndex": 0,
+      "explanation": "A distributed ledger is a database that is consensually shared and synchronized across multiple sites."
+    }
+  ]
+}

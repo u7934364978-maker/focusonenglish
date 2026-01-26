@@ -1,0 +1,89 @@
+{
+  "goal": "finanzas",
+  "level": "C1",
+  "trimester": 2,
+  "weekId": "semana17",
+  "title": "Ejercicios: FinTech Avanzado y Criptoactivos",
+  "items": [
+    {
+      "id": "fin-c1-w17-1",
+      "type": "multipleChoice",
+      "prompt": "________ aims to remove intermediaries from financial transactions using blockchain technology.",
+      "options": ["DeFi", "Central Banking", "Retail Banking", "Traditional Finance"],
+      "answerIndex": 0,
+      "explanation": "Decentralized Finance (DeFi) uses smart contracts to eliminate the need for traditional intermediaries like banks."
+    },
+    {
+      "id": "fin-c1-w17-2",
+      "type": "multipleChoice",
+      "prompt": "A ________ is a self-executing contract with the terms directly written into code.",
+      "options": ["Manual contract", "Smart contract", "Verbal agreement", "Legal brief"],
+      "answerIndex": 1,
+      "explanation": "Smart contracts automatically execute when predetermined conditions are met."
+    },
+    {
+      "id": "fin-c1-w17-3",
+      "type": "multipleChoice",
+      "prompt": "________ the technology fail, the entire network could be compromised.",
+      "options": ["Should", "Were", "If", "Unless"],
+      "answerIndex": 0,
+      "explanation": "Formal inversion: 'Should the technology fail' is equivalent to 'If the technology fails'."
+    },
+    {
+      "id": "fin-c1-w17-4",
+      "type": "multipleChoice",
+      "prompt": "We can launch the new token ________ we meet all the KYC and AML requirements.",
+      "options": ["provided that", "as long as", "but for", "supposing"],
+      "answerIndex": 0,
+      "explanation": "'Provided that' is a formal way to express a condition."
+    },
+    {
+      "id": "fin-c1-w17-5",
+      "type": "multipleChoice",
+      "prompt": "________ the regulatory sandbox, many FinTech startups would have been unable to test their products.",
+      "options": ["But for", "If not", "Without", "Because of"],
+      "answerIndex": 0,
+      "explanation": "'But for' is used to talk about the reason why something didn't happen (if not for)."
+    },
+    {
+      "id": "fin-c1-w17-6",
+      "type": "multipleChoice",
+      "prompt": "A ________ is a cryptocurrency designed to have a stable value relative to a fiat currency.",
+      "options": ["Stablecoin", "Altcoin", "Shitcoin", "Meme coin"],
+      "answerIndex": 0,
+      "explanation": "Stablecoins like USDT or USDC are pegged to assets like the US Dollar."
+    },
+    {
+      "id": "fin-c1-w17-7",
+      "type": "multipleChoice",
+      "prompt": "________ major banks adopt blockchain, transaction costs will remain high.",
+      "options": ["Unless", "If", "Provided", "Supposing"],
+      "answerIndex": 0,
+      "explanation": "'Unless' is used to express 'except if'."
+    },
+    {
+      "id": "fin-c1-w17-8",
+      "type": "multipleChoice",
+      "prompt": "The ________ of real-world assets like real estate could revolutionize market liquidity.",
+      "options": ["tokenization", "stagnation", "liquidation", "privatization"],
+      "answerIndex": 0,
+      "explanation": "Tokenization involves representing ownership of a physical asset as a digital token on a blockchain."
+    },
+    {
+      "id": "fin-c1-w17-9",
+      "type": "multipleChoice",
+      "prompt": "________ all central banks issued digital currencies, how would that affect commercial banks?",
+      "options": ["Supposing", "Should", "But for", "If"],
+      "answerIndex": 0,
+      "explanation": "'Supposing' is used to introduce a hypothetical scenario."
+    },
+    {
+      "id": "fin-c1-w17-10",
+      "type": "multipleChoice",
+      "prompt": "The startup's success was ________ its ability to innovate within the regulatory sandbox.",
+      "options": ["due to", "because", "as a result", "consequently"],
+      "answerIndex": 0,
+      "explanation": "'Due to' is used to indicate the cause of something."
+    }
+  ]
+}

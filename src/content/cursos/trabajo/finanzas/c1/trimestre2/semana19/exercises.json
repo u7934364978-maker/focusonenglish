@@ -1,0 +1,89 @@
+{
+  "goal": "finanzas",
+  "level": "C1",
+  "trimester": 2,
+  "weekId": "semana19",
+  "title": "Ejercicios: Análisis Cuantitativo y Modelización",
+  "items": [
+    {
+      "id": "fin-c1-w19-1",
+      "type": "multipleChoice",
+      "prompt": "________ involves using mathematical and statistical methods to analyze financial markets.",
+      "options": ["Qualitative Analysis", "Quantitative Analysis", "Technical Analysis", "Fundamental Analysis"],
+      "answerIndex": 1,
+      "explanation": "Quantitative analysis focuses on data and mathematical models rather than subjective judgment."
+    },
+    {
+      "id": "fin-c1-w19-2",
+      "type": "multipleChoice",
+      "prompt": "A ________ is used to predict the probability of different outcomes in a process that cannot easily be predicted due to the intervention of random variables.",
+      "options": ["Monte Carlo simulation", "Linear regression", "Balance sheet", "Cash flow statement"],
+      "answerIndex": 0,
+      "explanation": "Monte Carlo simulations are used to model the probability of different outcomes in a process that cannot easily be predicted."
+    },
+    {
+      "id": "fin-c1-w19-3",
+      "type": "multipleChoice",
+      "prompt": "In finance, bond prices are usually ________ proportional to interest rates.",
+      "options": ["inversely", "directly", "randomly", "not"],
+      "answerIndex": 0,
+      "explanation": "When interest rates rise, bond prices fall, and vice versa."
+    },
+    {
+      "id": "fin-c1-w19-4",
+      "type": "multipleChoice",
+      "prompt": "The actual returns ________ significantly from the projected figures in the model.",
+      "options": ["deviated", "correlated", "forecasted", "modeled"],
+      "answerIndex": 0,
+      "explanation": "To 'deviate' means to depart from an established course or expectation."
+    },
+    {
+      "id": "fin-c1-w19-5",
+      "type": "multipleChoice",
+      "prompt": "________ analysis is used to determine the strength and character of the relationship between one dependent variable and a series of other variables.",
+      "options": ["Regression", "SWOT", "PESTEL", "Ratio"],
+      "answerIndex": 0,
+      "explanation": "Regression analysis is a core tool for 'quants' to find patterns in data."
+    },
+    {
+      "id": "fin-c1-w19-6",
+      "type": "multipleChoice",
+      "prompt": "________ the current market trends, the forecast for the next quarter is optimistic.",
+      "options": ["Given", "Providing", "Unless", "But for"],
+      "answerIndex": 0,
+      "explanation": "The participle 'Given' is used to mean 'considering' or 'taking into account'."
+    },
+    {
+      "id": "fin-c1-w19-7",
+      "type": "multipleChoice",
+      "prompt": "The algorithm's performance is ________ the quality of the input data.",
+      "options": ["a function of", "instead of", "regardless of", "opposite to"],
+      "answerIndex": 0,
+      "explanation": "'A function of' means that something depends on or is determined by another factor."
+    },
+    {
+      "id": "fin-c1-w19-8",
+      "type": "multipleChoice",
+      "prompt": "An asset that moves in the same direction as the market is said to be ________ correlated with it.",
+      "options": ["positively", "negatively", "inversely", "randomly"],
+      "answerIndex": 0,
+      "explanation": "Positive correlation means the variables move in the same direction."
+    },
+    {
+      "id": "fin-c1-w19-9",
+      "type": "multipleChoice",
+      "prompt": "________ trading uses computer programs to execute trades at speeds impossible for humans.",
+      "options": ["Algorithmic", "Manual", "Discretionary", "Retail"],
+      "answerIndex": 0,
+      "explanation": "Algorithmic trading accounts for a large percentage of market volume today."
+    },
+    {
+      "id": "fin-c1-w19-10",
+      "type": "multipleChoice",
+      "prompt": "The ________ results showed a high degree of correlation between oil prices and airline stocks.",
+      "options": ["statistical", "emotional", "physical", "visual"],
+      "answerIndex": 0,
+      "explanation": "Statistical analysis provides the data-backed evidence for correlations."
+    }
+  ]
+}

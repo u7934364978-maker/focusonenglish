@@ -1,0 +1,17 @@
+{
+  "title": "Ahorro e Inversión Básica",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Haciendo Crecer tu Dinero",
+      "content": "Ahorrar es el primer paso para la libertad financiera.\n\n- **Savings account**: Cuenta de ahorros.\n- **Interest rate**: Tipo de interés.\n- **Investment**: Inversión.\n- **Shares / Stocks**: Acciones.\n- **Bonds**: Bonos.\n- **Risk**: Riesgo.\n- **Return**: Retorno / Rentabilidad."
+    },
+    {
+      "id": "grammar",
+      "title": "Talking about Possibilities (First Conditional)",
+      "content": "Para hablar de consecuencias futuras de nuestras decisiones financieras.\n\n**Estructura:** If + Present Simple, will + verb.\n\n**Ejemplos:**\n- If I **save** money, I **will buy** a house. (Si ahorro dinero, compraré una casa)\n- If the interest rate **is** high, you **will earn** more. (Si el interés es alto, ganarás más)\n- You **will lose** money if you **take** too much risk. (Perderás dinero si arriesgas demasiado)"
+    }
+  ],
+  "objectives": ["Diferenciar entre ahorro e inversión", "Usar el primer condicional para planes financieros", "Identificar tipos básicos de activos"],
+  "keyTerms": [{ "term": "Compound Interest", "definition": "Interest calculated on the principal and also on the accumulated interest of previous periods." }]
+}

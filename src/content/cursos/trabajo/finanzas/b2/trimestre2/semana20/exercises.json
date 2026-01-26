@@ -1,0 +1,89 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana20",
+  "title": "Ejercicios: Repaso y Consolidación",
+  "items": [
+    {
+      "id": "fin-b2-w20-1",
+      "type": "multipleChoice",
+      "prompt": "Which of the following describes the legal duty to act in a client's best interest?",
+      "options": ["Tax mitigation", "Fiduciary duty", "Underwriting", "Leverage"],
+      "answerIndex": 1,
+      "explanation": "Fiduciary duty is a key concept in wealth management."
+    },
+    {
+      "id": "fin-b2-w20-2",
+      "type": "multipleChoice",
+      "prompt": "If a company stops ________ (pay) its debts, it may go bankrupt.",
+      "options": ["to pay", "paying", "pay", "paid"],
+      "answerIndex": 1,
+      "explanation": "'Stop' is followed by a gerund when an action is discontinued."
+    },
+    {
+      "id": "fin-b2-w20-3",
+      "type": "multipleChoice",
+      "prompt": "The process of evaluating risk before accepting a policy is known as ________.",
+      "options": ["Underwriting", "Factoring", "Reporting", "Auditing"],
+      "answerIndex": 0,
+      "explanation": "Underwriting is the assessment of risk in insurance and lending."
+    },
+    {
+      "id": "fin-b2-w20-4",
+      "type": "multipleChoice",
+      "prompt": "We used a new software ________ automate the billing process.",
+      "options": ["in order to", "consequently", "therefore", "as a result"],
+      "answerIndex": 0,
+      "explanation": "'In order to' expresses purpose."
+    },
+    {
+      "id": "fin-b2-w20-5",
+      "type": "multipleChoice",
+      "prompt": "The market recovered ________, surprising many analysts who expected a slow growth.",
+      "options": ["sharply", "slightly", "poorly", "never"],
+      "answerIndex": 0,
+      "explanation": "'Sharply' indicates a fast and significant recovery."
+    },
+    {
+      "id": "fin-b2-w20-6",
+      "type": "multipleChoice",
+      "prompt": "New regulations ________ by the government next month.",
+      "options": ["will be introduced", "are introduce", "introduced", "will introduce"],
+      "answerIndex": 0,
+      "explanation": "Future passive: 'will be introduced'."
+    },
+    {
+      "id": "fin-b2-w20-7",
+      "type": "multipleChoice",
+      "prompt": "A ________ manage's an individual's investments using computer algorithms.",
+      "options": ["Robo-advisor", "Human teller", "Manual broker", "Old computer"],
+      "answerIndex": 0,
+      "explanation": "Robo-advisors are a key part of FinTech transformation."
+    },
+    {
+      "id": "fin-b2-w20-8",
+      "type": "multipleChoice",
+      "prompt": "If we ________ (diversify) more, we would have reduced our exposure to risk.",
+      "options": ["had diversified", "diversify", "will diversify", "diversified"],
+      "answerIndex": 0,
+      "explanation": "Third conditional for past regrets: 'If + past perfect'."
+    },
+    {
+      "id": "fin-b2-w20-9",
+      "type": "multipleChoice",
+      "prompt": "The ________ is the formal request for payment from an insurance company.",
+      "options": ["Claim", "Premium", "Contract", "Quote"],
+      "answerIndex": 0,
+      "explanation": "A claim is made after a loss occurs."
+    },
+    {
+      "id": "fin-b2-w20-10",
+      "type": "multipleChoice",
+      "prompt": "Open Banking uses ________ to allow different financial services to communicate.",
+      "options": ["APIs", "Cash", "Letters", "Physical keys"],
+      "answerIndex": 0,
+      "explanation": "APIs (Application Programming Interfaces) are the technical backbone of Open Banking."
+    }
+  ]
+}

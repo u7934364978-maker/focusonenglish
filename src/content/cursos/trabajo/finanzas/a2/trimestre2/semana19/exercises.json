@@ -1,0 +1,7 @@
+{
+  "goal": "finanzas", "level": "A2", "trimester": 2, "weekId": "semana19",
+  "title": "Ejercicios: Semana 19",
+  "items": [
+    { "id": "fin-a2-w19-1", "type": "multipleChoice", "prompt": "Basic question for A2 week 19.", "options": ["A", "B"], "answerIndex": 0 }
+  ]
+}

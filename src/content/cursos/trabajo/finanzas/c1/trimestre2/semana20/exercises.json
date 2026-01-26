@@ -1,0 +1,89 @@
+{
+  "goal": "finanzas",
+  "level": "C1",
+  "trimester": 2,
+  "weekId": "semana20",
+  "title": "Ejercicios: Liderazgo y Gestión de Crisis",
+  "items": [
+    {
+      "id": "fin-c1-w20-1",
+      "type": "multipleChoice",
+      "prompt": "A ________ is an unpredictable event with potentially catastrophic consequences for the financial system.",
+      "options": ["Black Swan event", "Bear market", "Blue chip stock", "Bull market"],
+      "answerIndex": 0,
+      "explanation": "Black Swan events are characterized by their extreme rarity and severe impact."
+    },
+    {
+      "id": "fin-c1-w20-2",
+      "type": "multipleChoice",
+      "prompt": "________ did the CFO resign, but he also took several key clients with him.",
+      "options": ["Not only", "Only if", "Should", "If"],
+      "answerIndex": 0,
+      "explanation": "Inversion for emphasis: 'Not only did he... but he also...'."
+    },
+    {
+      "id": "fin-c1-w20-3",
+      "type": "multipleChoice",
+      "prompt": "It is essential that the board ________ (approve) the contingency plan before the weekend.",
+      "options": ["approve", "approves", "approved", "approving"],
+      "answerIndex": 0,
+      "explanation": "The subjunctive mood is used after adjectives like 'essential' or 'imperative'."
+    },
+    {
+      "id": "fin-c1-w20-4",
+      "type": "multipleChoice",
+      "prompt": "________ the bank requires is a more robust risk management framework.",
+      "options": ["What", "That", "Which", "It"],
+      "answerIndex": 0,
+      "explanation": "Cleft sentence used for emphasis: 'What the bank requires is...'."
+    },
+    {
+      "id": "fin-c1-w20-5",
+      "type": "multipleChoice",
+      "prompt": "A ________ strategy is implemented when a company needs to move from loss to profit quickly.",
+      "options": ["Turnaround", "Exit", "Marketing", "Recruitment"],
+      "answerIndex": 0,
+      "explanation": "Turnaround strategies involve significant restructuring to save a failing company."
+    },
+    {
+      "id": "fin-c1-w20-6",
+      "type": "multipleChoice",
+      "prompt": "________ the crisis reached its peak, the CEO held a press conference.",
+      "options": ["Scarcely had", "Scarcely did", "Hardly was", "Only after"],
+      "answerIndex": 0,
+      "explanation": "Inversion with negative adverbs: 'Scarcely had the crisis reached...'."
+    },
+    {
+      "id": "fin-c1-w20-7",
+      "type": "multipleChoice",
+      "prompt": "Managing the expectations of investors, employees, and regulators is called ________ management.",
+      "options": ["Stakeholder", "Shareholder", "Internal", "Crisis"],
+      "answerIndex": 0,
+      "explanation": "Stakeholder management involves communicating with everyone impacted by the company's actions."
+    },
+    {
+      "id": "fin-c1-w20-8",
+      "type": "multipleChoice",
+      "prompt": "The term 'downsizing' is often used as a ________ for laying off staff.",
+      "options": ["euphemism", "synonym", "antonym", "metaphor"],
+      "answerIndex": 0,
+      "explanation": "Euphemisms are used to make unpleasant news sound less harsh."
+    },
+    {
+      "id": "fin-c1-w20-9",
+      "type": "multipleChoice",
+      "prompt": "It is vital that the compliance officer ________ (be) present at the meeting.",
+      "options": ["be", "is", "was", "been"],
+      "answerIndex": 0,
+      "explanation": "Subjunctive mood after 'it is vital that'."
+    },
+    {
+      "id": "fin-c1-w20-10",
+      "type": "multipleChoice",
+      "prompt": "The firm's ________ was tested when the market crashed, but they recovered quickly.",
+      "options": ["resilience", "volatility", "insolvency", "fragility"],
+      "answerIndex": 0,
+      "explanation": "Resilience is the ability to withstand and recover from difficult conditions."
+    }
+  ]
+}

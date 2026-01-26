@@ -1,0 +1,89 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana18",
+  "title": "Ejercicios: Banca Privada y Gestión de Patrimonios",
+  "items": [
+    {
+      "id": "fin-b2-w18-1",
+      "type": "multipleChoice",
+      "prompt": "An individual with at least $1 million in liquid assets is often classified as a ________.",
+      "options": ["Retail customer", "HNWI", "Startup founder", "Small business owner"],
+      "answerIndex": 1,
+      "explanation": "HNWI stands for High Net Worth Individual."
+    },
+    {
+      "id": "fin-b2-w18-2",
+      "type": "multipleChoice",
+      "prompt": "Under ________, the bank makes investment decisions on behalf of the client without asking every time.",
+      "options": ["Discretionary management", "Advisory service", "Retail banking", "Self-service"],
+      "answerIndex": 0,
+      "explanation": "Discretionary management gives the bank the authority to manage the client's assets."
+    },
+    {
+      "id": "fin-b2-w18-3",
+      "type": "multipleChoice",
+      "prompt": "The value of the portfolio has grown ________ over the last five years, despite market volatility.",
+      "options": ["steadily", "sharply", "randomly", "slightly"],
+      "answerIndex": 0,
+      "explanation": "'Steadily' means in a regular and even manner."
+    },
+    {
+      "id": "fin-b2-w18-4",
+      "type": "multipleChoice",
+      "prompt": "________ involves preparing for the transfer of wealth to the next generation.",
+      "options": ["Estate planning", "Asset allocation", "Tax mitigation", "Day trading"],
+      "answerIndex": 0,
+      "explanation": "Estate planning focuses on managing assets after a person's death."
+    },
+    {
+      "id": "fin-b2-w18-5",
+      "type": "multipleChoice",
+      "prompt": "The stock price dropped ________ after the disappointing earnings report.",
+      "options": ["sharply", "steadily", "slightly", "gradually"],
+      "answerIndex": 0,
+      "explanation": "'Sharply' indicates a sudden and large change."
+    },
+    {
+      "id": "fin-b2-w18-6",
+      "type": "multipleChoice",
+      "prompt": "The wealth manager has a ________ to act always in the best interest of the client.",
+      "options": ["Fiduciary duty", "Marketing goal", "Conflict of interest", "Personal bias"],
+      "answerIndex": 0,
+      "explanation": "A fiduciary duty is a legal obligation of one party to act in the best interest of another."
+    },
+    {
+      "id": "fin-b2-w18-7",
+      "type": "multipleChoice",
+      "prompt": "We need to review our ________ to ensure we have the right mix of stocks and bonds.",
+      "options": ["Asset allocation", "Staffing levels", "Office furniture", "Social media"],
+      "answerIndex": 0,
+      "explanation": "Asset allocation is the strategy of balancing risk and reward by adjusting the percentages of each asset in a portfolio."
+    },
+    {
+      "id": "fin-b2-w18-8",
+      "type": "multipleChoice",
+      "prompt": "There was a ________ increase in the interest rate, which had almost no impact on the market.",
+      "options": ["slight", "significant", "sharp", "massive"],
+      "answerIndex": 0,
+      "explanation": "'Slight' means small in degree or amount."
+    },
+    {
+      "id": "fin-b2-w18-9",
+      "type": "multipleChoice",
+      "prompt": "Wealthy clients often seek ________ strategies to legally minimize their tax liabilities.",
+      "options": ["Tax mitigation", "Tax evasion", "Money laundering", "Currency manipulation"],
+      "answerIndex": 0,
+      "explanation": "Tax mitigation is the legal reduction of tax liabilities."
+    },
+    {
+      "id": "fin-b2-w18-10",
+      "type": "multipleChoice",
+      "prompt": "The market recovered ________, regaining all its losses within a week.",
+      "options": ["significantly", "slightly", "not", "poorly"],
+      "answerIndex": 0,
+      "explanation": "'Significantly' indicates a large and important amount."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Repaso del Segundo Trimestre",
+  "sections": [
+    {
+      "id": "review",
+      "title": "Consolidación",
+      "content": "Repaso de banca online, inversiones y seguros.\n\n- **Online**: Login, passwords, security.\n- **Investment**: Interest, stocks, risk.\n- **Insurance**: Policies, coverage, premiums."
+    }
+  ],
+  "objectives": ["Repasar vocabulario del trimestre", "Practicar estructuras gramaticales (imperativos, condicionales, modales)", "Evaluar el progreso general"],
+  "keyTerms": [{ "term": "Budget", "definition": "An estimate of income and expenditure for a set period of time." }]
+}

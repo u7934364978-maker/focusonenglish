@@ -1,0 +1,55 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana17",
+  "examId": "fin-b2-w17-exam",
+  "title": "Examen: FinTech y Transformación Digital",
+  "items": [
+    {
+      "id": "fin-b2-w17-exam-1",
+      "type": "multipleChoice",
+      "prompt": "Which technology is fundamental for the operation of cryptocurrencies like Bitcoin?",
+      "options": ["Artificial Intelligence", "Blockchain", "Cloud Computing", "Virtual Reality"],
+      "answerIndex": 1,
+      "explanation": "Blockchain is the underlying decentralized ledger technology for cryptocurrencies."
+    },
+    {
+      "id": "fin-b2-w17-exam-2",
+      "type": "multipleChoice",
+      "prompt": "What is the primary purpose of 'Open Banking'?",
+      "options": [
+        "To allow banks to close more physical branches",
+        "To share customer data securely with third-party providers via APIs",
+        "To prevent customers from switching banks",
+        "To eliminate the use of passwords in banking"
+      ],
+      "answerIndex": 1,
+      "explanation": "Open Banking uses APIs to share financial information, fostering competition and innovation."
+    },
+    {
+      "id": "fin-b2-w17-exam-3",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence: 'The bank upgraded its system ________ reduce transaction times.'",
+      "options": ["so as to", "consequently", "therefore", "so that"],
+      "answerIndex": 0,
+      "explanation": "'So as to' is used with an infinitive to express purpose."
+    },
+    {
+      "id": "fin-b2-w17-exam-4",
+      "type": "multipleChoice",
+      "prompt": "Which term describes a platform that provides automated, algorithm-driven financial planning?",
+      "options": ["Crowdfunding", "Robo-advisor", "P2P lending", "Blockchain"],
+      "answerIndex": 1,
+      "explanation": "A robo-advisor automates investment management based on algorithms."
+    },
+    {
+      "id": "fin-b2-w17-exam-5",
+      "type": "multipleChoice",
+      "prompt": "Digital banking has lowered operational costs; ________, many banks are offering better interest rates.",
+      "options": ["consequently", "however", "although", "whereas"],
+      "answerIndex": 0,
+      "explanation": "'Consequently' shows the result of lowered operational costs."
+    }
+  ]
+}

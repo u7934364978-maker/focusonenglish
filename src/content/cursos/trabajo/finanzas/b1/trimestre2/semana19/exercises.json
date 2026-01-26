@@ -1,0 +1,7 @@
+{
+  "goal": "finanzas", "level": "B1", "trimester": 2, "weekId": "semana19",
+  "title": "Ejercicios: Semana 19",
+  "items": [
+    { "id": "fin-b1-w19-1", "type": "multipleChoice", "prompt": "Complete the exercise for week 19.", "options": ["Correct", "Wrong", "Maybe", "No"], "answerIndex": 0, "explanation": "This is a placeholder exercise." }
+  ]
+}

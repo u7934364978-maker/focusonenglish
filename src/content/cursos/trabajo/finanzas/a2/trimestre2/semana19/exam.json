@@ -1,0 +1,7 @@
+{
+  "goal": "finanzas", "level": "A2", "trimester": 2, "weekId": "semana19", "examId": "fin-a2-w19-exam",
+  "title": "Examen: Semana 19",
+  "items": [
+    { "id": "fin-a2-w19-exam-1", "type": "multipleChoice", "prompt": "Exam question for A2 week 19.", "options": ["Yes", "No"], "answerIndex": 0 }
+  ]
+}

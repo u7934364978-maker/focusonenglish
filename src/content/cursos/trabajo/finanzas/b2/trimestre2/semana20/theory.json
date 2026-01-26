@@ -1,0 +1,24 @@
+{
+  "title": "Repaso y Consolidación (Trimestre 2)",
+  "sections": [
+    {
+      "id": "review",
+      "title": "Resumen de Temas Clave",
+      "content": "Durante estas semanas hemos cubierto aspectos avanzados de las finanzas modernas.\n\n- **Inversión**: Hedge Funds, Private Equity y Asset Allocation.\n- **Tecnología**: Blockchain, Open Banking y disrupción digital.\n- **Riesgo**: Seguros, suscripción y modelos actuariales.\n- **Gestión**: Banca privada y planificación sucesoria."
+    },
+    {
+      "id": "grammar-review",
+      "title": "Gramática Consolidada",
+      "content": "Repaso de las estructuras clave del trimestre.\n\n- **Gerunds vs Infinitives**: *We avoid **risking** capital* vs *We aim **to grow**.*\n- **Purpose and Result**: *We automated **so as to** save costs. **Consequently**, profits rose.*\n- **Adjectives/Adverbs**: *The market grew **steadily**.*\n- **Passive Voice**: *Claims **are processed** within 24 hours.*"
+    }
+  ],
+  "objectives": [
+    "Consolidar el vocabulario técnico de los sectores de inversión, tecnología y seguros",
+    "Utilizar con precisión las estructuras gramaticales del trimestre",
+    "Prepararse para el examen final del trimestre"
+  ],
+  "keyTerms": [
+    { "term": "Diversification", "definition": "The process of allocating capital in a way that reduces the exposure to any one particular asset or risk." },
+    { "term": "Liquidity", "definition": "The availability of liquid assets (cash) to a market or company." }
+  ]
+}

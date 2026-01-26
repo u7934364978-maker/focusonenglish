@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 2,
+  "weekId": "semana17",
+  "title": "Ejercicios: Banca Online",
+  "items": [
+    {
+      "id": "fin-b1-w17-1",
+      "type": "multipleChoice",
+      "prompt": "First, ________ the app on your smartphone.",
+      "options": ["opening", "open", "to open", "opens"],
+      "answerIndex": 1,
+      "explanation": "We use the imperative 'open' to give an instruction."
+    },
+    {
+      "id": "fin-b1-w17-2",
+      "type": "multipleChoice",
+      "prompt": "You need to enter your ________ and password to log in.",
+      "options": ["username", "name", "email", "address"],
+      "answerIndex": 0,
+      "explanation": "A username or user ID is standard for logging into banking apps."
+    },
+    {
+      "id": "fin-b1-w17-3",
+      "type": "multipleChoice",
+      "prompt": "________ your password with anyone, not even bank staff.",
+      "options": ["Don't share", "Not share", "No share", "Doesn't share"],
+      "answerIndex": 0,
+      "explanation": "Negative imperative: 'Don't' + verb."
+    },
+    {
+      "id": "fin-b1-w17-4",
+      "type": "multipleChoice",
+      "prompt": "I use ________ to log in quickly using my fingerprint.",
+      "options": ["Biometric ID", "Manual ID", "Paper ID", "No ID"],
+      "answerIndex": 0,
+      "explanation": "Biometric ID uses physical characteristics like fingerprints or face recognition."
+    },
+    {
+      "id": "fin-b1-w17-5",
+      "type": "multipleChoice",
+      "prompt": "________ on the 'Transfers' button to send money.",
+      "options": ["Click", "Clicks", "Clicking", "To click"],
+      "answerIndex": 0,
+      "explanation": "Imperative for instruction: 'Click'."
+    }
+  ]
+}

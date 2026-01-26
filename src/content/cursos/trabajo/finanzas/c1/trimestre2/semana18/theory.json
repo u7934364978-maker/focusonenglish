@@ -1,0 +1,24 @@
+{
+  "title": "Fusiones, Adquisiciones (M&A) y Reestructuración",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Estrategias de Crecimiento Inorgánico",
+      "content": "Las grandes corporaciones utilizan M&A para ganar cuota de mercado o diversificarse.\n\n- **Merger**: Fusión (dos empresas se unen para formar una nueva).\n- **Acquisition / Takeover**: Adquisición (una empresa compra a otra).\n- **Synergy**: Sinergia (el valor combinado es mayor que la suma de las partes).\n- **LBO (Leveraged Buyout)**: Compra apalancada (usando deuda masiva).\n- **Hostile Takeover**: Adquisición hostil (sin acuerdo de la directiva).\n- **Divestiture**: Desinversión (venta de una unidad de negocio)."
+    },
+    {
+      "id": "grammar",
+      "title": "Nominalization for Professional Impact",
+      "content": "La nominalización convierte verbos en sustantivos para dar un tono más formal y abstracto.\n\n**Transformaciones:**\n- **Acquire** → **Acquisition**: *The bank acquired the firm* → *The **acquisition** of the firm was strategic.*\n- **Restructure** → **Restructuring**: *We must restructure the debt* → *Debt **restructuring** is unavoidable.*\n- **Divest** → **Divestiture**: *They divested the assets* → *The **divestiture** took six months.*\n\n**Uso en informes ejecutivos:**\n- *Upon **completion** of the merger, we expect significant **cost reduction**.* (En lugar de: *When we complete the merger, we will reduce costs.*)"
+    }
+  ],
+  "objectives": [
+    "Distinguir entre fusiones, adquisiciones y LBOs",
+    "Utilizar la nominalización para redactar informes ejecutivos formales",
+    "Analizar el concepto de sinergia en contextos de M&A"
+  ],
+  "keyTerms": [
+    { "term": "Due Diligence", "definition": "A comprehensive appraisal of a business undertaken by a prospective buyer." },
+    { "term": "Goodwill", "definition": "The established reputation of a business regarded as a quantifiable asset." }
+  ]
+}

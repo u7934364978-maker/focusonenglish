@@ -1,0 +1,7 @@
+{
+  "goal": "finanzas", "level": "A2", "trimester": 2, "weekId": "semana20", "examId": "fin-a2-w20-exam",
+  "title": "Examen: Semana 20",
+  "items": [
+    { "id": "fin-a2-w20-exam-1", "type": "multipleChoice", "prompt": "Exam question for A2 week 20.", "options": ["Yes", "No"], "answerIndex": 0 }
+  ]
+}

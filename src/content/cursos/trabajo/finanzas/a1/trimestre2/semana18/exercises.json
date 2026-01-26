@@ -1,0 +1,7 @@
+{
+  "goal": "finanzas", "level": "A1", "trimester": 2, "weekId": "semana18",
+  "title": "Ejercicios: Semana 18",
+  "items": [
+    { "id": "fin-a1-w18-1", "type": "multipleChoice", "prompt": "Basic question for A1 week 18.", "options": ["A", "B"], "answerIndex": 0 }
+  ]
+}

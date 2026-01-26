@@ -1,0 +1,7 @@
+{
+  "goal": "finanzas", "level": "A1", "trimester": 2, "weekId": "semana17", "examId": "fin-a1-w17-exam",
+  "title": "Examen: Semana 17",
+  "items": [
+    { "id": "fin-a1-w17-exam-1", "type": "multipleChoice", "prompt": "Exam question for A1 week 17.", "options": ["Yes", "No"], "answerIndex": 0 }
+  ]
+}

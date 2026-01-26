@@ -1,0 +1,24 @@
+{
+  "title": "Banca Privada y Gestión de Patrimonios",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Servicios para Clientes de Alto Patrimonio (HNWI)",
+      "content": "La gestión de grandes fortunas requiere un enfoque personalizado y discreto.\n\n- **HNWI (High Net Worth Individual)**: Persona de alto patrimonio neto.\n- **Asset Allocation**: Asignación de activos (distribución de la cartera).\n- **Estate Planning**: Planificación sucesoria (herencias y legados).\n- **Tax Mitigation**: Mitigación fiscal (reducir legalmente la carga impositiva).\n- **Fiduciary Duty**: Deber fiduciario (obligación legal de actuar en interés del cliente).\n- **Discretionary Management**: Gestión discrecional (el banco toma decisiones por el cliente)."
+    },
+    {
+      "id": "grammar",
+      "title": "Adjectives and Adverbs for Precise Reporting",
+      "content": "En la gestión de patrimonios, la precisión en los informes es clave.\n\n**Adjetivos de Intensidad:**\n- **Slight / Slightly**: Ligero / Ligeramente.\n- **Steady / Steadily**: Constante / Constantemente.\n- **Significant / Significantly**: Significativo / Significativamente.\n- **Sharp / Sharply**: Brusco / Bruscamente.\n\n**Uso en informes:**\n- *There was a **steady increase** in the portfolio's value.* (Hubo un aumento constante...)\n- *The market fell **sharply** after the announcement.* (El mercado cayó bruscamente...)"
+    }
+  ],
+  "objectives": [
+    "Identificar los servicios principales de la banca privada",
+    "Describir tendencias de mercado con precisión usando adjetivos y adverbios",
+    "Comprender el concepto de deber fiduciario"
+  ],
+  "keyTerms": [
+    { "term": "Wealth Management", "definition": "A high-level professional service that combines financial and investment advice, accounting and tax services." },
+    { "term": "Compliance", "definition": "The action or fact of complying with a wish or command, especially in a legal or regulatory context." }
+  ]
+}

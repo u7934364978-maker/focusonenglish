@@ -1,0 +1,24 @@
+{
+  "title": "Seguros y Fundamentos Actuariales",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "El Mundo del Seguro",
+      "content": "El sector asegurador es un pilar de la gestión del riesgo financiero.\n\n- **Premium**: Prima (el pago periódico por el seguro).\n- **Claim**: Reclamación / Siniestro (solicitud de pago tras una pérdida).\n- **Underwriting**: Suscripción (proceso de evaluar y aceptar riesgos).\n- **Policyholder**: Tomador de la póliza (el cliente).\n- **Deductible / Excess**: Franquicia (parte del daño que paga el asegurado).\n- **Actuary**: Actuario (profesional que calcula riesgos y probabilidades)."
+    },
+    {
+      "id": "grammar",
+      "title": "Passive Voice for Professional Processes",
+      "content": "Se usa la voz pasiva para enfocarse en el proceso más que en quién lo realiza.\n\n**Estructura:** Be + Past Participle.\n\n**Ejemplos:**\n- *The risk **is assessed** by an actuary.* (El riesgo es evaluado por un actuario)\n- *The claim **was rejected** due to lack of evidence.* (La reclamación fue rechazada...)\n- *Premiums **will be adjusted** next year.* (Las primas serán ajustadas el año que viene)\n\n**Uso de 'By':** Se añade solo si es relevante quién realiza la acción. (*The policy was signed **by the CEO**.*)"
+    }
+  ],
+  "objectives": [
+    "Identificar terminología técnica del sector seguros",
+    "Utilizar la voz pasiva para describir procesos internos",
+    "Comprender el papel de la suscripción (underwriting) en la gestión de riesgos"
+  ],
+  "keyTerms": [
+    { "term": "Liability", "definition": "Legal responsibility for something, especially costs or damages." },
+    { "term": "Coverage", "definition": "The amount of protection given by an insurance policy." }
+  ]
+}

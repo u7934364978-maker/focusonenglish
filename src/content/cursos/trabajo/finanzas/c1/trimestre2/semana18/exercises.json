@@ -1,0 +1,99 @@
+{
+  "goal": "finanzas",
+  "level": "C1",
+  "trimester": 2,
+  "weekId": "semana18",
+  "title": "Ejercicios: M&A y Reestructuración",
+  "items": [
+    {
+      "id": "fin-c1-w18-1",
+      "type": "multipleChoice",
+      "prompt": "A ________ occurs when two companies join together to form a completely new legal entity.",
+      "options": ["Merger", "Acquisition", "Divestiture", "LBO"],
+      "answerIndex": 0,
+      "explanation": "In a merger, two firms agree to move forward as a single new company."
+    },
+    {
+      "id": "fin-c1-w18-2",
+      "type": "multipleChoice",
+      "prompt": "The primary justification for M&A is often the creation of ________.",
+      "options": ["Synergy", "Debt", "Volatility", "Conflict"],
+      "answerIndex": 0,
+      "explanation": "Synergy is the concept that the value and performance of two companies combined will be greater than the sum of the separate individual parts."
+    },
+    {
+      "id": "fin-c1-w18-3",
+      "type": "multipleChoice",
+      "prompt": "Rewrite for formality: 'When we acquired the startup, it helped our tech stack.'",
+      "options": [
+        "The acquisition of the startup enhanced our tech stack.",
+        "We bought the startup and our tech got better.",
+        "Buying the startup was good for our tech.",
+        "Our tech stack improved when we bought the startup."
+      ],
+      "answerIndex": 0,
+      "explanation": "Nominalization ('The acquisition') creates a more formal and professional tone."
+    },
+    {
+      "id": "fin-c1-w18-4",
+      "type": "multipleChoice",
+      "prompt": "An ________ is an acquisition that is significantly financed through debt.",
+      "options": ["LBO", "IPO", "ETF", "OTC"],
+      "answerIndex": 0,
+      "explanation": "LBO stands for Leveraged Buyout."
+    },
+    {
+      "id": "fin-c1-w18-5",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the non-core assets allowed the company to focus on its main business.",
+      "options": ["divestiture", "acquisition", "merger", "integration"],
+      "answerIndex": 0,
+      "explanation": "Divestiture is the disposal of a business unit through sale, exchange, or bankruptcy."
+    },
+    {
+      "id": "fin-c1-w18-6",
+      "type": "multipleChoice",
+      "prompt": "Formalize this: 'If we restructure the debt, we will avoid bankruptcy.'",
+      "options": [
+        "Debt restructuring is essential for the avoidance of bankruptcy.",
+        "We must restructure debt to not go bankrupt.",
+        "If we fix the debt, we won't fail.",
+        "Avoiding bankruptcy depends on us restructuring debt."
+      ],
+      "answerIndex": 0,
+      "explanation": "Nominalization ('restructuring', 'avoidance') is preferred in formal financial writing."
+    },
+    {
+      "id": "fin-c1-w18-7",
+      "type": "multipleChoice",
+      "prompt": "A ________ takeover happens when the board of the target company opposes the bid.",
+      "options": ["Hostile", "Friendly", "Strategic", "Vertical"],
+      "answerIndex": 0,
+      "explanation": "A hostile takeover involves going directly to the target company's shareholders or fighting to replace the management."
+    },
+    {
+      "id": "fin-c1-w18-8",
+      "type": "multipleChoice",
+      "prompt": "Before finalizing any acquisition, the buyer must conduct thorough ________.",
+      "options": ["Due diligence", "Market research", "Social media audit", "Personal interviews"],
+      "answerIndex": 0,
+      "explanation": "Due diligence is the comprehensive investigation of a business prior to signing a contract."
+    },
+    {
+      "id": "fin-c1-w18-9",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the two departments resulted in unexpected friction among staff.",
+      "options": ["consolidation", "expansion", "liquidation", "promotion"],
+      "answerIndex": 0,
+      "explanation": "Consolidation refers to the combining of assets, liabilities, or even departments."
+    },
+    {
+      "id": "fin-c1-w18-10",
+      "type": "multipleChoice",
+      "prompt": "Success in M&A often depends on the post-merger ________ of the two corporate cultures.",
+      "options": ["integration", "separation", "competition", "isolation"],
+      "answerIndex": 0,
+      "explanation": "Integration is the process of bringing together two organizations."
+    }
+  ]
+}

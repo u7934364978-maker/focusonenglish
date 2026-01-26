@@ -1,0 +1,55 @@
+{
+  "goal": "finanzas",
+  "level": "C1",
+  "trimester": 2,
+  "weekId": "semana19",
+  "examId": "fin-c1-w19-exam",
+  "title": "Examen: Análisis Cuantitativo y Modelización",
+  "items": [
+    {
+      "id": "fin-c1-w19-exam-1",
+      "type": "multipleChoice",
+      "prompt": "Which method is used to estimate the possible outcomes of an uncertain event by performing multiple trial runs?",
+      "options": ["Monte Carlo simulation", "Balance sheet analysis", "Ratio analysis", "Qualitative interview"],
+      "answerIndex": 0,
+      "explanation": "Monte Carlo simulations use randomness to solve problems that might be deterministic in principle."
+    },
+    {
+      "id": "fin-c1-w19-exam-2",
+      "type": "multipleChoice",
+      "prompt": "If two variables move in opposite directions, their correlation is ________.",
+      "options": ["Negative", "Positive", "Neutral", "Zero"],
+      "answerIndex": 0,
+      "explanation": "Negative or inverse correlation means one goes up while the other goes down."
+    },
+    {
+      "id": "fin-c1-w19-exam-3",
+      "type": "multipleChoice",
+      "prompt": "What does 'regression analysis' primarily help with?",
+      "options": [
+        "Finding the relationship between dependent and independent variables",
+        "Calculating the total taxes owed by a firm",
+        "Managing the hiring process in a bank",
+        "Designing the logo for a new FinTech startup"
+      ],
+      "answerIndex": 0,
+      "explanation": "Regression is a statistical tool used to understand how the value of a dependent variable changes when any one of the independent variables is varied."
+    },
+    {
+      "id": "fin-c1-w19-exam-4",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence: 'The portfolio's performance is ________ its asset allocation strategy.'",
+      "options": ["a function of", "instead of", "opposite to", "regardless of"],
+      "answerIndex": 0,
+      "explanation": "Performance is determined by or 'a function of' the allocation strategy."
+    },
+    {
+      "id": "fin-c1-w19-exam-5",
+      "type": "multipleChoice",
+      "prompt": "________ the complexity of the derivative, the model required several adjustments.",
+      "options": ["Given", "Supposing", "Should", "Unless"],
+      "answerIndex": 0,
+      "explanation": "The participle 'Given' is used to provide context or a reason for the following statement."
+    }
+  ]
+}

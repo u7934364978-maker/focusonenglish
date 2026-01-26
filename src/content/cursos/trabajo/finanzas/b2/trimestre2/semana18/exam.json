@@ -1,0 +1,60 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana18",
+  "examId": "fin-b2-w18-exam",
+  "title": "Examen: Banca Privada y Gestión de Patrimonios",
+  "items": [
+    {
+      "id": "fin-b2-w18-exam-1",
+      "type": "multipleChoice",
+      "prompt": "What does HNWI stand for in the context of private banking?",
+      "options": [
+        "High Net Worth Individual",
+        "Highly Needed Wealth Investor",
+        "House Net Wealth Index",
+        "Human Needs Welfare Institution"
+      ],
+      "answerIndex": 0,
+      "explanation": "High Net Worth Individual is a person with significant investable assets."
+    },
+    {
+      "id": "fin-b2-w18-exam-2",
+      "type": "multipleChoice",
+      "prompt": "If a bank manages a portfolio without needing client approval for every trade, it is called ________.",
+      "options": ["Advisory management", "Discretionary management", "Retail management", "Direct management"],
+      "answerIndex": 1,
+      "explanation": "Discretionary management allows the investment professional to make decisions based on the client's goals."
+    },
+    {
+      "id": "fin-b2-w18-exam-3",
+      "type": "multipleChoice",
+      "prompt": "Which adverb describes a steady and regular growth pattern?",
+      "options": ["Sharply", "Steadily", "Slightly", "Abruptly"],
+      "answerIndex": 1,
+      "explanation": "'Steadily' implies consistent progress over time."
+    },
+    {
+      "id": "fin-b2-w18-exam-4",
+      "type": "multipleChoice",
+      "prompt": "What is the primary goal of 'Estate Planning'?",
+      "options": [
+        "To buy more real estate for the bank",
+        "To organize the transfer of assets to heirs",
+        "To maximize daily trading profits",
+        "To avoid all financial regulations"
+      ],
+      "answerIndex": 1,
+      "explanation": "Estate planning ensures a smooth transition of wealth to beneficiaries."
+    },
+    {
+      "id": "fin-b2-w18-exam-5",
+      "type": "multipleChoice",
+      "prompt": "A ________ is a legal obligation to act in the best interest of another party.",
+      "options": ["Fiduciary duty", "Profit margin", "Service fee", "Marketing claim"],
+      "answerIndex": 0,
+      "explanation": "Professionals with fiduciary duty must prioritize their clients' interests above their own."
+    }
+  ]
+}

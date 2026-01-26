@@ -1,0 +1,24 @@
+{
+  "title": "FinTech y la Transformación Digital",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "El Ecosistema FinTech",
+      "content": "La tecnología está redefiniendo cómo interactuamos con el dinero.\n\n- **Blockchain**: Cadena de bloques (tecnología de registro distribuido).\n- **Robo-advisor**: Asesor robótico (plataforma de inversión automatizada).\n- **Peer-to-peer (P2P) Lending**: Préstamos entre particulares.\n- **Crowdfunding**: Financiación colectiva.\n- **Open Banking**: Banca abierta (compartir datos financieros mediante APIs).\n- **Disruption**: Disrupción (cambio radical que rompe los modelos tradicionales)."
+    },
+    {
+      "id": "grammar",
+      "title": "Expressing Purpose and Result in Tech",
+      "content": "Para explicar por qué se implementa una tecnología y qué consecuencias tiene.\n\n**Propósito (Purpose):**\n- **In order to**: Con el fin de (formal). (*We use APIs in order to share data.*)\n- **So as to**: Para (formal). (*The app was redesigned so as to improve UX.*)\n- **So that + clause**: Para que. (*We encrypted the data so that it remains secure.*)\n\n**Resultado (Result):**\n- **As a result**: Como resultado. (*The bank automated the process. As a result, costs fell.*)\n- **Consequently**: Por consiguiente. (*Regulations changed; consequently, we updated our policy.*)\n- **Therefore**: Por lo tanto. (*Security is a priority; therefore, we use biometric auth.*)"
+    }
+  ],
+  "objectives": [
+    "Identificar las principales áreas de innovación FinTech",
+    "Expresar propósitos y resultados de innovaciones tecnológicas",
+    "Discutir el impacto del Open Banking"
+  ],
+  "keyTerms": [
+    { "term": "API", "definition": "Application Programming Interface; a set of rules that allows different software entities to communicate." },
+    { "term": "Decentralization", "definition": "The transfer of control and decision-making from a centralized entity to a distributed network." }
+  ]
+}

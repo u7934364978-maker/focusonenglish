@@ -1,0 +1,17 @@
+{
+  "title": "Introducción a los Seguros",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Protegiendo lo que Importa",
+      "content": "Los seguros nos ayudan a gestionar riesgos personales y profesionales.\n\n- **Insurance policy**: Póliza de seguro.\n- **Coverage**: Cobertura.\n- **Life insurance**: Seguro de vida.\n- **Health insurance**: Seguro médico.\n- **Car insurance**: Seguro de coche.\n- **Travel insurance**: Seguro de viaje.\n- **Premium**: Prima (pago)."
+    },
+    {
+      "id": "grammar",
+      "title": "Modal Verbs for Necessity and Advice",
+      "content": "Para hablar de obligaciones y recomendaciones sobre seguros.\n\n**Must (Obligación):**\n- You **must** have car insurance to drive. (Debes tener seguro de coche para conducir)\n\n**Should (Consejo):**\n- You **should** get travel insurance. (Deberías contratar un seguro de viaje)\n\n**Need to (Necesidad):**\n- We **need to** renew the policy. (Necesitamos renovar la póliza)"
+    }
+  ],
+  "objectives": ["Identificar diferentes tipos de seguros", "Expresar necesidad y consejo en contextos de seguros", "Comprender la terminología básica de una póliza"],
+  "keyTerms": [{ "term": "Broker", "definition": "A person who buys and sells goods or assets for others, typically in exchange for a commission." }]
+}

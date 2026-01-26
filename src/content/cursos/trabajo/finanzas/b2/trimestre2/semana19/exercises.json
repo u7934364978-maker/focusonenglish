@@ -1,0 +1,89 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana19",
+  "title": "Ejercicios: Seguros y Fundamentos Actuariales",
+  "items": [
+    {
+      "id": "fin-b2-w19-1",
+      "type": "multipleChoice",
+      "prompt": "The monthly payment made to an insurance company is called a ________.",
+      "options": ["Claim", "Premium", "Deductible", "Benefit"],
+      "answerIndex": 1,
+      "explanation": "A premium is the amount of money an individual or business pays for an insurance policy."
+    },
+    {
+      "id": "fin-b2-w19-2",
+      "type": "multipleChoice",
+      "prompt": "When an accident occurs, the policyholder files a ________ to request compensation.",
+      "options": ["Claim", "Premium", "Contract", "Bill"],
+      "answerIndex": 0,
+      "explanation": "A claim is a formal request to an insurance company asking for a payment based on the terms of the insurance policy."
+    },
+    {
+      "id": "fin-b2-w19-3",
+      "type": "multipleChoice",
+      "prompt": "The risk of the new project ________ by the underwriting department.",
+      "options": ["is evaluated", "evaluates", "has evaluated", "evaluating"],
+      "answerIndex": 0,
+      "explanation": "Passive voice is used to show the process: 'is evaluated'."
+    },
+    {
+      "id": "fin-b2-w19-4",
+      "type": "multipleChoice",
+      "prompt": "An ________ is a professional who uses statistics to calculate insurance risks and premiums.",
+      "options": ["Accountant", "Actuary", "Auditor", "Appraiser"],
+      "answerIndex": 1,
+      "explanation": "Actuaries analyze the financial costs of risk and uncertainty."
+    },
+    {
+      "id": "fin-b2-w19-5",
+      "type": "multipleChoice",
+      "prompt": "The ________ is the amount the insured must pay out of pocket before the insurance covers the rest.",
+      "options": ["Deductible", "Premium", "Commission", "Bonus"],
+      "answerIndex": 0,
+      "explanation": "A deductible (or excess) is the fixed amount you pay towards a claim."
+    },
+    {
+      "id": "fin-b2-w19-6",
+      "type": "multipleChoice",
+      "prompt": "Last year, thousands of claims ________ due to fraudulent activity.",
+      "options": ["were rejected", "are rejected", "rejected", "was reject"],
+      "answerIndex": 0,
+      "explanation": "Past passive: 'were rejected' (plural)."
+    },
+    {
+      "id": "fin-b2-w19-7",
+      "type": "multipleChoice",
+      "prompt": "Insurance ________ is the process of evaluating a risk to decide whether to provide coverage.",
+      "options": ["Underwriting", "Invoicing", "Accounting", "Marketing"],
+      "answerIndex": 0,
+      "explanation": "Underwriting involves assessing the eligibility of a customer to receive an insurance policy."
+    },
+    {
+      "id": "fin-b2-w19-8",
+      "type": "multipleChoice",
+      "prompt": "New policies ________ by the legal team every quarter.",
+      "options": ["are reviewed", "is reviewed", "reviewed", "reviewing"],
+      "answerIndex": 0,
+      "explanation": "Present passive: 'are reviewed' (plural)."
+    },
+    {
+      "id": "fin-b2-w19-9",
+      "type": "multipleChoice",
+      "prompt": "The ________ is the person or entity that owns the insurance policy.",
+      "options": ["Policyholder", "Underwriter", "Actuary", "Broker"],
+      "answerIndex": 0,
+      "explanation": "A policyholder is the person who pays the premium and owns the policy."
+    },
+    {
+      "id": "fin-b2-w19-10",
+      "type": "multipleChoice",
+      "prompt": "Third-party ________ insurance is mandatory for all drivers in this country.",
+      "options": ["liability", "premium", "deductible", "claim"],
+      "answerIndex": 0,
+      "explanation": "Liability insurance protects against claims resulting from injuries and damage to people and/or property."
+    }
+  ]
+}
