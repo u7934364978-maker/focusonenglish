@@ -1,0 +1,397 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is the primary goal of 'Open Banking'?",
+    "options": ["To close all physical bank branches", "To allow third-party providers to access bank data via APIs", "To ban cryptocurrencies", "To increase interest rates"],
+    "correctAnswer": 1,
+    "explanation": "Open Banking aims to foster competition by sharing data securely through APIs."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "We _______ (launch) the crypto fund in Q2, but the volatility was too high.",
+    "correctAnswer": "were going to launch",
+    "explanation": "Future in the past: A planned action that did not happen."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "Which technology enables 'Smart Contracts'?",
+    "options": ["Old-school databases", "Blockchain", "Physical paper", "Radio waves"],
+    "correctAnswer": 1,
+    "explanation": "Smart contracts are self-executing programs on a blockchain."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the Fintech term to its category:",
+    "pairs": [
+      { "left": "Revolut", "right": "Neobank" },
+      { "left": "Stripe", "right": "Payment Processor" },
+      { "left": "Betterment", "right": "Robo-advisor" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "There is _______ that AI will revolutionize credit scoring.",
+    "options": ["every likelihood", "some chance", "no way", "a little doubt"],
+    "correctAnswer": 0,
+    "explanation": "'Every likelihood' expresses a high degree of certainty."
+  },
+  {
+    "id": 6,
+    "type": "multiple-choice",
+    "question": "What does 'DeFi' stand for?",
+    "options": ["Deferred Finance", "Decentralized Finance", "Defined Financials", "Deposit Finance"],
+    "correctAnswer": 1,
+    "explanation": "DeFi refers to financial services built on blockchain."
+  },
+  {
+    "id": 7,
+    "type": "fill-in-the-blank",
+    "question": "The CEO said the company _______ (become) the leader in 2024, but they went bankrupt.",
+    "correctAnswer": "was to become",
+    "explanation": "Future in the past (formal arrangement/destiny)."
+  },
+  {
+    "id": 8,
+    "type": "multiple-choice",
+    "question": "A 'Regulatory Sandbox' is used to:",
+    "options": ["Hide money from taxes", "Store physical gold", "Test fintech products in a controlled environment", "Mine bitcoin"],
+    "correctAnswer": 2,
+    "explanation": "Sandboxes allow for experimentation under regulatory supervision."
+  },
+  {
+    "id": 9,
+    "type": "fill-in-the-blank",
+    "question": "It is _______ (high) disputed whether Bitcoin is a store of value.",
+    "correctAnswer": "highly",
+    "explanation": "Adverbial phrase for doubt/dispute."
+  },
+  {
+    "id": 10,
+    "type": "multiple-choice",
+    "question": "What is 'Tokenization'?",
+    "options": ["Buying tokens for a game", "Converting assets into digital tokens on a blockchain", "Creating new physical coins", "A type of marketing strategy"],
+    "correctAnswer": 1,
+    "explanation": "Tokenization can apply to real estate, art, or financial assets."
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "The board _______ (not/approved) the merger if they had known about the hack.",
+    "options": ["wouldn't have", "mustn't have", "shouldn't have", "couldn't have"],
+    "correctAnswer": 0,
+    "explanation": "Third conditional for past hypothesis."
+  },
+  {
+    "id": 12,
+    "type": "fill-in-the-blank",
+    "question": "Blockchain technology, _______ (which/that) was invented in 2008, is now mainstream.",
+    "correctAnswer": "which",
+    "explanation": "Non-defining relative clause (adding extra information)."
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "question": "What is a 'CBDC'?",
+    "options": ["A type of private crypto", "A Central Bank Digital Currency", "A commercial bank deposit", "A credit card"],
+    "correctAnswer": 1,
+    "explanation": "CBDCs are digital versions of fiat currency issued by central banks."
+  },
+  {
+    "id": 14,
+    "type": "fill-in-the-blank",
+    "question": "We are on the _______ (verge) of a total digital shift.",
+    "correctAnswer": "verge",
+    "explanation": "'On the verge of' means very close to."
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "question": "Which of these is a 'Biometric' authentication method?",
+    "options": ["Password", "PIN", "Fingerprint scan", "SMS code"],
+    "correctAnswer": 2,
+    "explanation": "Biometrics use physical characteristics for identity verification."
+  },
+  {
+    "id": 16,
+    "type": "matching",
+    "question": "Match the technology to its use case:",
+    "pairs": [
+      { "left": "Machine Learning", "right": "Fraud detection" },
+      { "left": "Distributed Ledger", "right": "Real-time settlement" },
+      { "left": "NLP", "right": "Customer service chatbots" }
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple-choice",
+    "question": "By the time the regulator acted, the startup _______ (already/raise) millions.",
+    "options": ["already raised", "has already raised", "had already raised", "would already raise"],
+    "correctAnswer": 2,
+    "explanation": "Past perfect for an action before another past action."
+  },
+  {
+    "id": 18,
+    "type": "fill-in-the-blank",
+    "question": "It stands to _______ (reason) that legacy banks must adapt.",
+    "correctAnswer": "reason",
+    "explanation": "'It stands to reason' means it is logical."
+  },
+  {
+    "id": 19,
+    "type": "multiple-choice",
+    "question": "What is 'P2P Lending'?",
+    "options": ["Banks lending to each other", "Individuals lending directly to other individuals/businesses", "Government lending to banks", "Lending using physical gold as collateral"],
+    "correctAnswer": 1,
+    "explanation": "Peer-to-peer lending removes the traditional bank intermediary."
+  },
+  {
+    "id": 20,
+    "type": "multiple-choice",
+    "question": "The firm _______ (hire) a new CTO, but they decided to promote from within.",
+    "options": ["was to hire", "is to hire", "has to hire", "must hire"],
+    "correctAnswer": 0,
+    "explanation": "Future in the past (intended plan)."
+  },
+  {
+    "id": 21,
+    "type": "fill-in-the-blank",
+    "question": "There is little _______ (doubt) that fintech is here to stay.",
+    "correctAnswer": "doubt",
+    "explanation": "Expressing certainty."
+  },
+  {
+    "id": 22,
+    "type": "multiple-choice",
+    "question": "What is 'Churn' in the context of neobanks?",
+    "options": ["Making butter", "Customer loss rate", "Total revenue", "Employee bonuses"],
+    "correctAnswer": 1,
+    "explanation": "Churn refers to the percentage of customers who stop using a service."
+  },
+  {
+    "id": 23,
+    "type": "multiple-choice",
+    "question": "If the algorithm _______ (detect) fraud, it automatically freezes the card.",
+    "options": ["detects", "detected", "will detect", "detecting"],
+    "correctAnswer": 0,
+    "explanation": "Zero conditional for general truths/automatic processes."
+  },
+  {
+    "id": 24,
+    "type": "fill-in-the-blank",
+    "question": "The data _______ (analyze) by the AI yesterday was corrupted.",
+    "correctAnswer": "analyzed",
+    "explanation": "Reduced relative clause (The data that was analyzed...)."
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "question": "What does 'API' stand for?",
+    "options": ["Advanced Pricing Index", "Application Programming Interface", "Automated Private Investment", "Alternative Payment Instrument"],
+    "correctAnswer": 1,
+    "explanation": "APIs allow different software programs to communicate with each other."
+  },
+  {
+    "id": 26,
+    "type": "matching",
+    "question": "Match the 'Tech' suffix to its sector:",
+    "pairs": [
+      { "left": "Insurtech", "right": "Insurance" },
+      { "left": "Regtech", "right": "Regulatory compliance" },
+      { "left": "Wealthtech", "right": "Asset management" }
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "Scarcely _______ the server gone down when the backup kicked in.",
+    "options": ["did", "was", "had", "would"],
+    "correctAnswer": 2,
+    "explanation": "Inversion with 'Scarcely... when'."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "We are bound _______ (see) more consolidation in the neobanking sector.",
+    "correctAnswer": "to see",
+    "explanation": "'Be bound to' for high certainty."
+  },
+  {
+    "id": 29,
+    "type": "multiple-choice",
+    "question": "What is 'KYC'?",
+    "options": ["Know Your Customer", "Keep Your Capital", "Know Your Competitor", "Key Yield Calculation"],
+    "correctAnswer": 0,
+    "explanation": "KYC refers to the mandatory process of identifying and verifying the identity of clients."
+  },
+  {
+    "id": 30,
+    "type": "multiple-choice",
+    "question": "They _______ (not/realized) how disruptive the app would be.",
+    "options": ["ought not to have", "should not", "must not", "cannot have"],
+    "correctAnswer": 3,
+    "explanation": "Speculation about a past impossibility/surprise."
+  },
+  {
+    "id": 31,
+    "type": "fill-in-the-blank",
+    "question": "The venture _______ (turn) out to be a massive success.",
+    "correctAnswer": "turned",
+    "explanation": "Phrasal verb for result."
+  },
+  {
+    "id": 32,
+    "type": "multiple-choice",
+    "question": "What is 'Big Data'?",
+    "options": ["A large computer", "Extremely large datasets analyzed to reveal patterns", "A new type of bank account", "The government's database"],
+    "correctAnswer": 1,
+    "explanation": "Big Data is essential for modern risk assessment and marketing."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "If the regulation _______ (not/change), the startup would have survived.",
+    "options": ["didn't change", "hadn't changed", "doesn't change", "won't change"],
+    "correctAnswer": 1,
+    "explanation": "Third conditional."
+  },
+  {
+    "id": 34,
+    "type": "fill-in-the-blank",
+    "question": "We need to _______ (keep) with the latest trends.",
+    "correctAnswer": "keep up",
+    "explanation": "To keep up means to stay informed/at the same level."
+  },
+  {
+    "id": 35,
+    "type": "multiple-choice",
+    "question": "In Fintech, a 'Disruptor' is:",
+    "options": ["A broken computer", "A company that significantly changes the market", "A noisy employee", "A type of firewall"],
+    "correctAnswer": 1,
+    "explanation": "Disruptors challenge established industry leaders."
+  },
+  {
+    "id": 36,
+    "type": "matching",
+    "question": "Match the blockchain concept:",
+    "pairs": [
+      { "left": "Mining", "right": "Verifying transactions to earn crypto" },
+      { "left": "Wallet", "right": "Software to store private keys" },
+      { "left": "Exchange", "right": "Platform to trade crypto for fiat" }
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple-choice",
+    "question": "Seldom _______ (we witness) such a rapid adoption of new tech.",
+    "options": ["do we witness", "we witness", "did we witness", "we had witnessed"],
+    "correctAnswer": 0,
+    "explanation": "Inversion with 'Seldom'."
+  },
+  {
+    "id": 38,
+    "type": "fill-in-the-blank",
+    "question": "The new law is _______ (target) money laundering.",
+    "correctAnswer": "aimed at",
+    "explanation": "Prepositional phrase for purpose."
+  },
+  {
+    "id": 39,
+    "type": "multiple-choice",
+    "question": "What is 'Crowdfunding'?",
+    "options": ["Funding from one single billionaire", "Raising small amounts of money from a large number of people", "Taking a loan from a bank", "Selling assets at an auction"],
+    "correctAnswer": 1,
+    "explanation": "Crowdfunding typically uses internet platforms to reach many investors."
+  },
+  {
+    "id": 40,
+    "type": "multiple-choice",
+    "question": "The developer _______ (finished) the code earlier.",
+    "options": ["should have", "must have", "could have", "need not have"],
+    "correctAnswer": 0,
+    "explanation": "Past obligation/regret."
+  },
+  {
+    "id": 41,
+    "type": "fill-in-the-blank",
+    "question": "The app _______ (take) off during the pandemic.",
+    "correctAnswer": "took",
+    "explanation": "To take off means to become successful quickly."
+  },
+  {
+    "id": 42,
+    "type": "multiple-choice",
+    "question": "What is 'Robo-advising'?",
+    "options": ["A robot giving legal advice", "Automated, algorithm-driven financial planning", "A customer service call center", "A physical bank teller"],
+    "correctAnswer": 1,
+    "explanation": "Robo-advisors provide investment management with little human intervention."
+  },
+  {
+    "id": 43,
+    "type": "multiple-choice",
+    "question": "Only when the audit was finished _______ (they realize) the security breach.",
+    "options": ["did they realize", "they realized", "they had realized", "do they realize"],
+    "correctAnswer": 0,
+    "explanation": "Inversion with 'Only when'."
+  },
+  {
+    "id": 44,
+    "type": "fill-in-the-blank",
+    "question": "It is essential that the data _______ (encrypt) immediately.",
+    "correctAnswer": "be encrypted",
+    "explanation": "Passive subjunctive."
+  },
+  {
+    "id": 45,
+    "type": "multiple-choice",
+    "question": "What is a 'Stablecoin'?",
+    "options": ["A crypto with high volatility", "A crypto pegged to a stable asset (like USD)", "A coin made of physical gold", "A bank deposit"],
+    "correctAnswer": 1,
+    "explanation": "Stablecoins aim to reduce the price volatility of cryptocurrencies."
+  },
+  {
+    "id": 46,
+    "type": "matching",
+    "question": "Match the risk to the digital sector:",
+    "pairs": [
+      { "left": "Cybersecurity", "right": "Hacking and data breaches" },
+      { "left": "Model Risk", "right": "Errors in AI algorithms" },
+      { "left": "Compliance Risk", "right": "Violating evolving crypto laws" }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple-choice",
+    "question": "If we _______ (not/invest) in APIs back then, we would be irrelevant now.",
+    "options": ["didn't invest", "hadn't invested", "don't invest", "won't invest"],
+    "correctAnswer": 1,
+    "explanation": "Mixed conditional."
+  },
+  {
+    "id": 48,
+    "type": "fill-in-the-blank",
+    "question": "The project was _______ (set) by several months.",
+    "correctAnswer": "set back",
+    "explanation": "To set back means to delay."
+  },
+  {
+    "id": 49,
+    "type": "multiple-choice",
+    "question": "What is 'Interoperability'?",
+    "options": ["Operating only in one country", "The ability of different systems to work together", "Hiring only international employees", "Paying in multiple currencies"],
+    "correctAnswer": 1,
+    "explanation": "Interoperability is key for Open Banking and Cross-chain blockchain solutions."
+  },
+  {
+    "id": 30,
+    "type": "multiple-choice",
+    "question": "Under no circumstances _______ the user share their private key.",
+    "options": ["should", "the user should", "must", "can"],
+    "correctAnswer": 0,
+    "explanation": "Inversion: Under no circumstances + should + subject."
+  }
+]

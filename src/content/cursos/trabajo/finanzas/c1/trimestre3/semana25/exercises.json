@@ -1,0 +1,397 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What does the term '1+1=3' typically represent in M&A?",
+    "options": ["An accounting error", "Operational synergy", "A dilutive acquisition", "High leverage"],
+    "correctAnswer": 1,
+    "explanation": "This represents synergy, where the combined entity is more valuable than the sum of its individual parts."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "If the board _______ (approve) the merger earlier, we would be the market leaders now.",
+    "correctAnswer": "had approved",
+    "explanation": "Third conditional (past) for a hypothetical past action."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "An acquisition is considered 'accretive' if it:",
+    "options": ["Decreases the EPS", "Increases the debt ratio", "Increases the EPS", "Reduces the head count"],
+    "correctAnswer": 2,
+    "explanation": "Accretive deals increase the acquiring company's Earnings Per Share."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the M&A term with its definition:",
+    "pairs": [
+      { "left": "Due Diligence", "right": "Comprehensive appraisal of a business" },
+      { "left": "Goodwill", "right": "Premium paid over book value" },
+      { "left": "Hostile Takeover", "right": "Acquisition against management's wishes" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "If we _______ (be) more liquid, we would have paid in cash instead of stock.",
+    "options": ["are", "were", "had been", "will be"],
+    "correctAnswer": 1,
+    "explanation": "Mixed conditional: Present state (being liquid) affecting a past action (payment method)."
+  },
+  {
+    "id": 6,
+    "type": "multiple-choice",
+    "question": "Which valuation method relies on the present value of future cash flows?",
+    "options": ["Comparable Multiples", "Precedent Transactions", "DCF", "LBO Analysis"],
+    "correctAnswer": 2,
+    "explanation": "DCF (Discounted Cash Flow) values a company based on its projected future cash flows."
+  },
+  {
+    "id": 7,
+    "type": "fill-in-the-blank",
+    "question": "Should the valuation _______ (prove) too high, the company will face a goodwill impairment.",
+    "correctAnswer": "prove",
+    "explanation": "Inversion in the first conditional (Should + subject + base form)."
+  },
+  {
+    "id": 8,
+    "type": "multiple-choice",
+    "question": "What is the primary risk of a 'Hostile Takeover'?",
+    "options": ["Low price", "Cultural misalignment and management exodus", "Tax benefits", "Immediate synergies"],
+    "correctAnswer": 1,
+    "explanation": "Hostile takeovers often face resistance from current management, leading to integration issues."
+  },
+  {
+    "id": 9,
+    "type": "fill-in-the-blank",
+    "question": "We had the legal team _______ (conduct) a thorough due diligence last month.",
+    "correctAnswer": "conduct",
+    "explanation": "Causative: have + person + base form."
+  },
+  {
+    "id": 10,
+    "type": "multiple-choice",
+    "question": "Which 'Multiple' is most commonly used for valuing capital-intensive businesses?",
+    "options": ["P/E", "EV/EBITDA", "Price-to-Sales", "Dividend Yield"],
+    "correctAnswer": 1,
+    "explanation": "EV/EBITDA is frequently used as it is capital-structure neutral."
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "If we hadn't diversified our portfolio, we _______ (be) at higher risk today.",
+    "options": ["would have been", "were", "would be", "are"],
+    "correctAnswer": 2,
+    "explanation": "Mixed conditional: Past action affecting present state."
+  },
+  {
+    "id": 12,
+    "type": "fill-in-the-blank",
+    "question": "It is essential that the CEO _______ (disclose) the full extent of the liabilities.",
+    "correctAnswer": "disclose",
+    "explanation": "Subjunctive mood after 'essential that'."
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "question": "What does 'EV' stand for in valuation?",
+    "options": ["Estimated Value", "Equity Value", "Enterprise Value", "Earnings Volume"],
+    "correctAnswer": 2,
+    "explanation": "Enterprise Value represents the total value of the business (Equity + Debt - Cash)."
+  },
+  {
+    "id": 14,
+    "type": "fill-in-the-blank",
+    "question": "But for the legal hurdles, the deal _______ (close) last week.",
+    "correctAnswer": "would have closed",
+    "explanation": "'But for' + noun is a conditional structure for past hypothesis."
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "question": "A 'Horizontal Merger' occurs between:",
+    "options": ["A supplier and a customer", "Two competitors in the same industry", "Companies in unrelated industries", "A parent and a subsidiary"],
+    "correctAnswer": 1,
+    "explanation": "Horizontal mergers involve companies at the same level of the value chain."
+  },
+  {
+    "id": 16,
+    "type": "matching",
+    "question": "Match the deal phase with its activity:",
+    "pairs": [
+      { "left": "Target Identification", "right": "Strategic screening" },
+      { "left": "Negotiation", "right": "Setting the price and terms" },
+      { "left": "Post-Merger Integration", "right": "Combining cultures and systems" }
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple-choice",
+    "question": "Under no circumstances _______ the board accept a dilutive offer.",
+    "options": ["the board should", "should the board", "did the board", "would the board"],
+    "correctAnswer": 1,
+    "explanation": "Negative inversion for emphasis."
+  },
+  {
+    "id": 18,
+    "type": "fill-in-the-blank",
+    "question": "I would rather the shareholders _______ (vote) against the hostile bid.",
+    "correctAnswer": "voted",
+    "explanation": "'I would rather' + subject + past simple (for present/future preference)."
+  },
+  {
+    "id": 19,
+    "type": "multiple-choice",
+    "question": "What is 'Vertical Integration'?",
+    "options": ["Merging with a competitor", "Acquiring a company in a different sector", "Acquiring a supplier or distributor", "Selling off non-core assets"],
+    "correctAnswer": 2,
+    "explanation": "Vertical integration involves moving up or down the supply chain."
+  },
+  {
+    "id": 20,
+    "type": "multiple-choice",
+    "question": "Were the interest rates _______ (rise), the LBO would become unviable.",
+    "options": ["rise", "to rise", "rising", "risen"],
+    "correctAnswer": 1,
+    "explanation": "Inversion of the second conditional: Were + subject + to-infinitive."
+  },
+  {
+    "id": 21,
+    "type": "fill-in-the-blank",
+    "question": "The auditors are reported _______ (find) several discrepancies in the accounts.",
+    "correctAnswer": "to have found",
+    "explanation": "Passive reporting verb for a past action."
+  },
+  {
+    "id": 22,
+    "type": "multiple-choice",
+    "question": "What is 'Churn Rate' primarily used to measure?",
+    "options": ["Profit margin", "Customer retention/loss", "Employee turnover", "Asset depreciation"],
+    "correctAnswer": 1,
+    "explanation": "Churn rate is vital for valuing subscription-based targets."
+  },
+  {
+    "id": 23,
+    "type": "multiple-choice",
+    "question": "If the synergy targets _______ (not meet), the acquisition will be judged a failure.",
+    "options": ["are not met", "were not met", "had not been met", "will not be met"],
+    "correctAnswer": 0,
+    "explanation": "First conditional (real possibility)."
+  },
+  {
+    "id": 24,
+    "type": "fill-in-the-blank",
+    "question": "We are looking forward to _______ (receive) the final LOI.",
+    "correctAnswer": "receiving",
+    "explanation": "'Look forward to' + -ing form."
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "question": "In M&A, 'LOI' stands for:",
+    "options": ["Legal Output Index", "Letter of Intent", "Liability Offset Insurance", "Listing of Interests"],
+    "correctAnswer": 1,
+    "explanation": "A Letter of Intent outlines the preliminary agreement between parties."
+  },
+  {
+    "id": 26,
+    "type": "matching",
+    "question": "Match the valuation concept:",
+    "pairs": [
+      { "left": "Terminal Value", "right": "Value beyond forecast period" },
+      { "left": "WACC", "right": "Average cost of all capital sources" },
+      { "left": "Beta", "right": "Measure of market risk" }
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "Scarcely _______ the deal been signed when a counter-offer arrived.",
+    "options": ["did", "was", "had", "would"],
+    "correctAnswer": 2,
+    "explanation": "Inversion with 'Scarcely... when'."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "Had they _______ (perform) better due diligence, they wouldn't be in this mess.",
+    "correctAnswer": "performed",
+    "explanation": "Inversion of the third conditional."
+  },
+  {
+    "id": 29,
+    "type": "multiple-choice",
+    "question": "A 'White Knight' is a company that:",
+    "options": ["Conducts a hostile takeover", "Rescues a firm from a hostile bidder", "Only invests in green bonds", "Shorts the target company's stock"],
+    "correctAnswer": 1,
+    "explanation": "A White Knight is a friendly bidder who intervenes in a hostile situation."
+  },
+  {
+    "id": 30,
+    "type": "multiple-choice",
+    "question": "It is high time the board _______ (address) the shareholder concerns.",
+    "options": ["address", "addresses", "addressed", "is addressing"],
+    "correctAnswer": 2,
+    "explanation": "'It is high time' + subject + past simple."
+  },
+  {
+    "id": 31,
+    "type": "fill-in-the-blank",
+    "question": "What the firm needs _______ (be) a complete management overhaul.",
+    "correctAnswer": "is",
+    "explanation": "Cleft sentence structure."
+  },
+  {
+    "id": 32,
+    "type": "multiple-choice",
+    "question": "Which of these is a 'Revenue Synergy'?",
+    "options": ["Closing redundant branch offices", "Combining R&D departments", "Cross-selling products to a new customer base", "Eliminating duplicate IT systems"],
+    "correctAnswer": 2,
+    "explanation": "Revenue synergies focus on increasing sales, while cost synergies focus on savings."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "Provided that the regulatory approval _______ (obtain), the deal will close in Q4.",
+    "options": ["is obtained", "obtained", "be obtained", "will be obtained"],
+    "correctAnswer": 0,
+    "explanation": "'Provided that' + present simple for future condition."
+  },
+  {
+    "id": 34,
+    "type": "fill-in-the-blank",
+    "question": "We had the contracts _______ (translate) into three languages.",
+    "correctAnswer": "translated",
+    "explanation": "Passive causative: have + object + past participle."
+  },
+  {
+    "id": 35,
+    "type": "multiple-choice",
+    "question": "A 'Spin-off' involves:",
+    "options": ["Acquiring a new company", "Merging with a parent company", "Creating an independent company from an existing division", "Dissolving the company entirely"],
+    "correctAnswer": 2,
+    "explanation": "A spin-off is the creation of a new, separate company from a parent company's subsidiary."
+  },
+  {
+    "id": 36,
+    "type": "matching",
+    "question": "Match the M&A role with its responsibility:",
+    "pairs": [
+      { "left": "Investment Banker", "right": "Financial modeling and valuation" },
+      { "left": "Legal Counsel", "right": "Drafting the sale agreement" },
+      { "left": "Strategic Consultant", "right": "Operational integration planning" }
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple-choice",
+    "question": "Hardly _______ (we expect) the antitrust regulator to intervene.",
+    "options": ["did we expect", "we expected", "we had expected", "do we expect"],
+    "correctAnswer": 0,
+    "explanation": "Inversion for emphasis (Hardly + auxiliary + subject + verb)."
+  },
+  {
+    "id": 38,
+    "type": "fill-in-the-blank",
+    "question": "I would rather they _______ (not mention) the lawsuit during the press conference.",
+    "correctAnswer": "did not mention",
+    "explanation": "Negative preference with 'I would rather' + subject + past simple."
+  },
+  {
+    "id": 39,
+    "type": "multiple-choice",
+    "question": "What is 'EBITDA'?",
+    "options": ["Earnings Before Insurance, Taxes, and Debt", "Earnings Before Interest, Taxes, Depreciation, and Amortization", "Economic Balance in Total Debt Analysis", "Equity Based Income and Total Debt Accounting"],
+    "correctAnswer": 1,
+    "explanation": "EBITDA is a common proxy for operating cash flow."
+  },
+  {
+    "id": 40,
+    "type": "multiple-choice",
+    "question": "If the price _______ (be) any higher, the deal would have been dilutive.",
+    "options": ["is", "was", "were", "had been"],
+    "correctAnswer": 3,
+    "explanation": "Third conditional for a past hypothetical."
+  },
+  {
+    "id": 41,
+    "type": "fill-in-the-blank",
+    "question": "The company is believed _______ (suffer) from a lack of strategic focus.",
+    "correctAnswer": "to suffer",
+    "explanation": "Passive reporting: subject + be believed + to infinitive (for present state)."
+  },
+  {
+    "id": 42,
+    "type": "multiple-choice",
+    "question": "In 'Cash-flow' analysis, 'NPV' stands for:",
+    "options": ["Net Profit Value", "Non-Performing Venture", "Net Present Value", "Normal Price Variation"],
+    "correctAnswer": 2,
+    "explanation": "NPV is the sum of present values of incoming and outgoing cash flows."
+  },
+  {
+    "id": 43,
+    "type": "multiple-choice",
+    "question": "So _______ (be) the demand for the shares that the IPO was oversubscribed.",
+    "options": ["be", "was", "is", "were"],
+    "correctAnswer": 1,
+    "explanation": "Inversion with 'So + adj/adv + verb + subject'."
+  },
+  {
+    "id": 44,
+    "type": "fill-in-the-blank",
+    "question": "We must ensure that the transition _______ (be) seamless for the employees.",
+    "correctAnswer": "be",
+    "explanation": "Subjunctive after verbs of 'ensuring' or 'ordering'."
+  },
+  {
+    "id": 45,
+    "type": "multiple-choice",
+    "question": "A 'Conglomerate Merger' involves companies in:",
+    "options": ["The same industry", "Unrelated business activities", "Direct competition", "The same supply chain"],
+    "correctAnswer": 1,
+    "explanation": "Conglomerate mergers involve completely unrelated business sectors."
+  },
+  {
+    "id": 46,
+    "type": "matching",
+    "question": "Match the defense mechanism:",
+    "pairs": [
+      { "left": "Poison Pill", "right": "Making shares less attractive to bidder" },
+      { "left": "Golden Parachute", "right": "Large payouts to execs if fired after takeover" },
+      { "left": "Greenmail", "right": "Buying back shares from bidder at a premium" }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple-choice",
+    "question": "If you _______ (not overpay) last time, we wouldn't be struggling with debt now.",
+    "options": ["didn't overpay", "don't overpay", "hadn't overpaid", "haven't overpaid"],
+    "correctAnswer": 2,
+    "explanation": "Mixed conditional: Past action affecting present state."
+  },
+  {
+    "id": 48,
+    "type": "fill-in-the-blank",
+    "question": "Little _______ (they know) that the rival firm was also bidding.",
+    "correctAnswer": "did they know",
+    "explanation": "Inversion with 'Little'."
+  },
+  {
+    "id": 49,
+    "type": "multiple-choice",
+    "question": "What does 'WACC' represent?",
+    "options": ["Weekly Average Capital Cost", "Weighted Average Cost of Capital", "Worldwide Asset Credit Commission", "Wide Area Corporate Compliance"],
+    "correctAnswer": 1,
+    "explanation": "WACC is the rate that a company is expected to pay on average to all its security holders to finance its assets."
+  },
+  {
+    "id": 50,
+    "type": "multiple-choice",
+    "question": "Such _______ the impact of the merger that it reshaped the entire industry.",
+    "options": ["be", "is", "was", "were"],
+    "correctAnswer": 2,
+    "explanation": "Inversion with 'Such + verb + subject'."
+  }
+]

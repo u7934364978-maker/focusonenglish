@@ -1,0 +1,30 @@
+{
+  "title": "Financial Restructuring & Insolvency",
+  "sections": [
+    {
+      "id": "financial-distress",
+      "title": "Signs of Distress & The Workout",
+      "content": "When a company can no longer meet its financial obligations, it enters a state of 'Financial Distress'.\n\n- **Liquidity Crisis**: A short-term inability to pay bills as they fall due.\n- **Solvency Crisis**: When total liabilities exceed the fair value of total assets.\n- **Debt Workout**: An out-of-court agreement between a debtor and its creditors to restructure the debt (e.g., extending maturities or reducing interest rates).\n- **Haircut**: A percentage reduction in the amount that will be repaid to creditors."
+    },
+    {
+      "id": "insolvency-frameworks",
+      "title": "Legal Frameworks & Distressed M&A",
+      "content": "If out-of-court solutions fail, formal legal processes begin.\n\n- **Reorganization (Chapter 11 style)**: A process allowing a company to continue operating while it develops a plan to pay back creditors.\n- **Liquidation (Chapter 7 style)**: The company ceases operations, and its assets are sold to pay off debts.\n- **Covenant Breach**: Failure to meet the financial or operational requirements of a loan agreement, which can trigger immediate repayment demands.\n- **Distressed M&A**: Acquiring a company or its assets during insolvency, often at a significant discount but with high legal risks."
+    },
+    {
+      "id": "grammar-concession-nominalization",
+      "title": "Language Focus: Concession & Nominalization",
+      "content": "Negotiating restructuring requires formal, precise language to manage expectations and legal liability.\n\n- **Concession Clauses**: \n  - '**Notwithstanding** the recent losses, the board remains optimistic.'\n  - '**Albeit** challenging, the restructuring plan is the only viable path.'\n  - 'We will accept the terms, **even though** they are less than ideal.'\n- **Nominalization**: Turning verbs into nouns to sound more formal and objective.\n  - 'We **implemented** the plan' -> 'The **implementation** of the plan was successful.'\n  - 'The bank **refused** to lend' -> 'The bank's **refusal** to lend triggered the crisis.'"
+    }
+  ],
+  "objectives": [
+    "Identify signals of financial distress and evaluate restructuring options (workouts, haircuts)",
+    "Differentiate between reorganization and liquidation legal frameworks",
+    "Master formal negotiation language using concession clauses and nominalization"
+  ],
+  "keyTerms": [
+    { "term": "Default", "definition": "Failure to fulfill an obligation, especially to repay a loan or appear in a court of law." },
+    { "term": "Pari Passu", "definition": "A Latin phrase meaning 'on equal footing', used in finance to describe assets or debts that have equal rights of payment." },
+    { "term": "Bridge Loan", "definition": "A short-term loan used until a person or company secures permanent financing or removes an existing obligation." }
+  ]
+}

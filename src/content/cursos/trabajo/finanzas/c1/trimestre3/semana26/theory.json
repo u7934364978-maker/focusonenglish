@@ -1,0 +1,30 @@
+{
+  "title": "Private Equity & Venture Capital",
+  "sections": [
+    {
+      "id": "pe-vs-vc",
+      "title": "Private Equity vs. Venture Capital",
+      "content": "While both involve private investment, their focus and risk profiles differ significantly.\n\n- **Private Equity (PE)**: Typically invests in mature companies that may be underperforming or in need of restructuring. PE firms often take a controlling interest and aim to improve operations before exiting.\n- **Venture Capital (VC)**: A subset of PE that focuses on early-stage startups with high growth potential. VC investors accept higher risks for potentially higher returns.\n- **LBO (Leveraged Buyout)**: A key PE strategy where a company is acquired using a significant amount of debt, with the company's assets often used as collateral."
+    },
+    {
+      "id": "funding-rounds",
+      "title": "VC Funding Rounds & Exit Strategies",
+      "content": "Startups progress through various stages of funding.\n\n- **Seed Stage**: Initial capital used to prove a concept.\n- **Series A, B, C...**: Subsequent rounds to scale the business, each usually involving higher valuations and more institutional investors.\n- **Exit Strategies**: How investors realize their gains.\n  - *IPO (Initial Public Offering)*: Selling shares to the public on a stock exchange.\n  - *Trade Sale (M&A)*: Selling the company to another corporation.\n  - *Secondary Sale*: Selling the stake to another private equity firm."
+    },
+    {
+      "id": "grammar-modals-necessity",
+      "title": "Language Focus: Necessity & Phrasal Verbs",
+      "content": "In high-stakes investing, expressing obligation and using industry-specific phrasal verbs is essential.\n\n- **Advanced Modals**: \n  - 'The fund **is to** close by Friday' (Formal obligation).\n  - 'Shareholders **need not have worried** about the exit' (Past necessity that wasn't required).\n- **Phrasal Verbs in Finance**: \n  - *Write down*: To reduce the book value of an asset.\n  - *Buy out*: To purchase the entire stake of another party.\n  - *Cash in*: To sell an investment for profit.\n  - *Draw down*: To take funds from a committed line of credit."
+    }
+  ],
+  "objectives": [
+    "Differentiate between PE and VC investment strategies and lifecycles",
+    "Understand the mechanics of LBOs and the progression of VC funding rounds",
+    "Master advanced modals and phrasal verbs for professional financial communication"
+  ],
+  "keyTerms": [
+    { "term": "General Partner (GP)", "definition": "The partner in a PE firm responsible for managing the fund and making investment decisions." },
+    { "term": "Limited Partner (LP)", "definition": "An investor who provides capital to a PE fund but has limited liability and no management role." },
+    { "term": "Carried Interest", "definition": "The share of profits that the fund managers (GPs) receive as compensation, usually 20%." }
+  ]
+}

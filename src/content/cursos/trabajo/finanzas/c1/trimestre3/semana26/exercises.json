@@ -1,0 +1,397 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "Which partner in a PE fund is responsible for day-to-day management?",
+    "options": ["Limited Partner", "General Partner", "Silent Partner", "Institutional Partner"],
+    "correctAnswer": 1,
+    "explanation": "The General Partner (GP) manages the fund and its investments."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "The firm decided to _______ (write) the value of its toxic assets by 40%.",
+    "correctAnswer": "write down",
+    "explanation": "To write down means to reduce the book value of an asset."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "A 'Leveraged Buyout' (LBO) primarily uses _______ to finance the acquisition.",
+    "options": ["Retained earnings", "Equity from founders", "Debt", "Government grants"],
+    "correctAnswer": 2,
+    "explanation": "LBOs rely heavily on debt to acquire companies."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the funding stage with its description:",
+    "pairs": [
+      { "left": "Seed", "right": "Proving the initial concept" },
+      { "left": "Series A", "right": "Scaling the business with institutional capital" },
+      { "left": "IPO", "right": "Listing shares on a public exchange" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "Investors _______ worried about the valuation; it was already protected by a clause.",
+    "options": ["mustn't have", "needn't have", "shouldn't have", "couldn't have"],
+    "correctAnswer": 1,
+    "explanation": "'Needn't have' indicates something was done but wasn't necessary."
+  },
+  {
+    "id": 6,
+    "type": "multiple-choice",
+    "question": "What is 'Carried Interest'?",
+    "options": ["The interest rate on an LBO loan", "The profit share paid to GPs", "The dividend yield of a startup", "The fee paid by LPs to the bank"],
+    "correctAnswer": 1,
+    "explanation": "Carried interest is the performance-based profit share for fund managers."
+  },
+  {
+    "id": 7,
+    "type": "fill-in-the-blank",
+    "question": "The VC fund is _______ (close) next Tuesday.",
+    "correctAnswer": "to close",
+    "explanation": "'Be + to-infinitive' is used for formal future arrangements/obligations."
+  },
+  {
+    "id": 8,
+    "type": "multiple-choice",
+    "question": "Which exit strategy involves selling to a competitor?",
+    "options": ["IPO", "Secondary Sale", "Trade Sale", "Liquidation"],
+    "correctAnswer": 2,
+    "explanation": "A trade sale involves selling the company to another strategic buyer."
+  },
+  {
+    "id": 9,
+    "type": "fill-in-the-blank",
+    "question": "We managed to _______ (buy) the minority shareholders last year.",
+    "correctAnswer": "buy out",
+    "explanation": "To buy out means to purchase someone's entire stake."
+  },
+  {
+    "id": 10,
+    "type": "multiple-choice",
+    "question": "What is 'Dry Powder' in Private Equity?",
+    "options": ["Legal documents", "Unspent capital available for investment", "A failed startup", "Tax-deductible expenses"],
+    "correctAnswer": 1,
+    "explanation": "Dry powder refers to committed but unallocated capital."
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "The GP _______ (not/commit) so much capital to one single deal.",
+    "options": ["ought not to have", "might not have", "must not have", "cannot have"],
+    "correctAnswer": 0,
+    "explanation": "'Ought not to have' expresses criticism of a past action."
+  },
+  {
+    "id": 12,
+    "type": "fill-in-the-blank",
+    "question": "The company had to _______ (draw) its credit line to cover payroll.",
+    "correctAnswer": "draw down",
+    "explanation": "To draw down means to use available credit."
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "question": "A 'Unicorn' is a startup valued at over:",
+    "options": ["$100 million", "$500 million", "$1 billion", "$10 billion"],
+    "correctAnswer": 2,
+    "explanation": "A Unicorn is a private company valued at $1 billion or more."
+  },
+  {
+    "id": 14,
+    "type": "fill-in-the-blank",
+    "question": "The startup _______ (cash) on the high demand for AI solutions.",
+    "correctAnswer": "cashed in",
+    "explanation": "To cash in means to take advantage of or profit from a situation."
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "question": "In a 'Secondary Buyout', who is the buyer?",
+    "options": ["The public", "Another PE firm", "The original founders", "A strategic competitor"],
+    "correctAnswer": 1,
+    "explanation": "A secondary buyout is when one PE firm sells a portfolio company to another PE firm."
+  },
+  {
+    "id": 16,
+    "type": "matching",
+    "question": "Match the term to its PE context:",
+    "pairs": [
+      { "left": "Clawback", "right": "GPs returning excess profits to LPs" },
+      { "left": "Hurdle Rate", "right": "Minimum return before GPs get carry" },
+      { "left": "Vintage Year", "right": "Year the fund was launched" }
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple-choice",
+    "question": "You _______ have sent the pitch deck; I already had a copy.",
+    "options": ["mustn't", "shouldn't", "needn't", "mightn't"],
+    "correctAnswer": 2,
+    "explanation": "'Needn't have' + past participle for unnecessary past actions."
+  },
+  {
+    "id": 18,
+    "type": "fill-in-the-blank",
+    "question": "If we want to scale, we need to _______ (tap) the VC market.",
+    "correctAnswer": "tap into",
+    "explanation": "To tap into means to access a resource."
+  },
+  {
+    "id": 19,
+    "type": "multiple-choice",
+    "question": "What is 'Due Diligence' in VC?",
+    "options": ["A marketing campaign", "The audit of a startup's tech and financials", "The firing of a founder", "The final exit"],
+    "correctAnswer": 1,
+    "explanation": "Due diligence is the rigorous investigation before investing."
+  },
+  {
+    "id": 20,
+    "type": "multiple-choice",
+    "question": "The analyst _______ (be) more careful with the projections.",
+    "options": ["should have", "should have been", "could have", "could have been"],
+    "correctAnswer": 1,
+    "explanation": "Criticism of a past state/action."
+  },
+  {
+    "id": 21,
+    "type": "fill-in-the-blank",
+    "question": "We are about to _______ (close) the deal with the Lead Investor.",
+    "correctAnswer": "close",
+    "explanation": "'Be about to' for immediate future."
+  },
+  {
+    "id": 22,
+    "type": "multiple-choice",
+    "question": "What does 'EBITDA Margin' measure?",
+    "options": ["Gross revenue", "Operating profitability as % of revenue", "Total debt levels", "Market capitalization"],
+    "correctAnswer": 1,
+    "explanation": "It shows how much profit is made per dollar of sales before interest, taxes, etc."
+  },
+  {
+    "id": 23,
+    "type": "multiple-choice",
+    "question": "The LPs _______ (informed) about the write-down immediately.",
+    "options": ["should be", "should have been", "must be", "must have been"],
+    "correctAnswer": 1,
+    "explanation": "An obligation in the past that was not fulfilled (presumably)."
+  },
+  {
+    "id": 24,
+    "type": "fill-in-the-blank",
+    "question": "The CEO decided to _______ (step) after the failed IPO.",
+    "correctAnswer": "step down",
+    "explanation": "To step down means to resign."
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "question": "What is 'Growth Equity'?",
+    "options": ["Investing in early seed rounds", "Investing in mature companies to fund expansion", "Buying distressed debt", "Selling all assets"],
+    "correctAnswer": 1,
+    "explanation": "Growth equity targets established companies needing capital to scale further."
+  },
+  {
+    "id": 26,
+    "type": "matching",
+    "question": "Match the risk type to its definition:",
+    "pairs": [
+      { "left": "Valuation Risk", "right": "Risk of overpaying for an asset" },
+      { "left": "Liquidity Risk", "right": "Inability to sell the stake quickly" },
+      { "left": "Operational Risk", "right": "Failure of internal processes/management" }
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "Hardly _______ (the fund/start) when the market crashed.",
+    "options": ["had the fund started", "the fund had started", "did the fund start", "the fund started"],
+    "correctAnswer": 0,
+    "explanation": "Inversion with 'Hardly... when'."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "The CFO is _______ (report) the findings to the board today.",
+    "correctAnswer": "to report",
+    "explanation": "Formal arrangement/obligation."
+  },
+  {
+    "id": 29,
+    "type": "multiple-choice",
+    "question": "A 'Down Round' is when:",
+    "options": ["The company valuation increases", "The company valuation decreases compared to the last round", "The company goes bankrupt", "The company pays dividends"],
+    "correctAnswer": 1,
+    "explanation": "A down round occurs when a company raises capital at a lower valuation than before."
+  },
+  {
+    "id": 30,
+    "type": "multiple-choice",
+    "question": "They _______ (not/invested) so heavily in that sector.",
+    "options": ["ought not to have", "should not", "must not", "need not"],
+    "correctAnswer": 0,
+    "explanation": "Past criticism."
+  },
+  {
+    "id": 31,
+    "type": "fill-in-the-blank",
+    "question": "The legal team _______ (point) several loopholes in the SPA.",
+    "correctAnswer": "pointed out",
+    "explanation": "To point out means to highlight or mention."
+  },
+  {
+    "id": 32,
+    "type": "multiple-choice",
+    "question": "What is 'Mezzanine Financing'?",
+    "options": ["Pure equity", "A hybrid of debt and equity", "A government subsidy", "Short-term trade credit"],
+    "correctAnswer": 1,
+    "explanation": "Mezzanine is a middle ground between senior debt and equity."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "If the exit _______ (happen) earlier, the IRR would have been much higher.",
+    "options": ["happened", "had happened", "happens", "would happen"],
+    "correctAnswer": 1,
+    "explanation": "Third conditional for past hypothesis."
+  },
+  {
+    "id": 34,
+    "type": "fill-in-the-blank",
+    "question": "We need to _______ (gear) for the upcoming audit.",
+    "correctAnswer": "gear up",
+    "explanation": "To gear up means to prepare."
+  },
+  {
+    "id": 35,
+    "type": "multiple-choice",
+    "question": "In VC, 'Burn Rate' is:",
+    "options": ["The speed at which a startup spends its cash", "The interest rate on a loan", "The tax rate", "The profit growth rate"],
+    "correctAnswer": 0,
+    "explanation": "Burn rate is how fast a startup uses up its venture capital before generating profit."
+  },
+  {
+    "id": 36,
+    "type": "matching",
+    "question": "Match the exit type with its result:",
+    "pairs": [
+      { "left": "Recapitalization", "right": "Taking on debt to pay dividends" },
+      { "left": "Management Buyout", "right": "Execs purchasing the business" },
+      { "left": "Liquidation", "right": "Selling assets and closing down" }
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple-choice",
+    "question": "Rarely _______ (we encounter) such a transparent pitch.",
+    "options": ["do we encounter", "we encounter", "did we encounter", "we had encountered"],
+    "correctAnswer": 0,
+    "explanation": "Inversion with 'Rarely'."
+  },
+  {
+    "id": 38,
+    "type": "fill-in-the-blank",
+    "question": "The GP _______ (account) for the missing funds.",
+    "correctAnswer": "is to account",
+    "explanation": "Formal obligation."
+  },
+  {
+    "id": 39,
+    "type": "multiple-choice",
+    "question": "What is 'Pre-money Valuation'?",
+    "options": ["Valuation after investment", "Valuation before investment", "The total debt of the company", "The tax value"],
+    "correctAnswer": 1,
+    "explanation": "Pre-money is the value of the company before it receives a new investment round."
+  },
+  {
+    "id": 40,
+    "type": "multiple-choice",
+    "question": "The partners _______ (consulted) before making the decision.",
+    "options": ["should have been", "must be", "could be", "ought to be"],
+    "correctAnswer": 0,
+    "explanation": "A past action that was omitted."
+  },
+  {
+    "id": 41,
+    "type": "fill-in-the-blank",
+    "question": "He decided to _______ (walk) from the deal at the last minute.",
+    "correctAnswer": "walk away",
+    "explanation": "To walk away means to withdraw."
+  },
+  {
+    "id": 42,
+    "type": "multiple-choice",
+    "question": "What is 'IRR'?",
+    "options": ["Initial Revenue Rate", "Internal Rate of Return", "Institutional Risk Rating", "Interest Recovery Ratio"],
+    "correctAnswer": 1,
+    "explanation": "IRR is a metric used to estimate the profitability of potential investments."
+  },
+  {
+    "id": 43,
+    "type": "multiple-choice",
+    "question": "Such _______ the confidence in the startup that it raised $50M in hours.",
+    "options": ["is", "was", "be", "were"],
+    "correctAnswer": 1,
+    "explanation": "Inversion with 'Such + verb'."
+  },
+  {
+    "id": 44,
+    "type": "fill-in-the-blank",
+    "question": "It is required that the GP _______ (provide) quarterly reports.",
+    "correctAnswer": "provide",
+    "explanation": "Subjunctive mood."
+  },
+  {
+    "id": 45,
+    "type": "multiple-choice",
+    "question": "What is 'Vesting'?",
+    "options": ["Selling all shares immediately", "Earning the right to own shares over time", "Paying taxes on dividends", "The process of liquidation"],
+    "correctAnswer": 1,
+    "explanation": "Vesting ensures that founders/employees stay with the company to earn their equity."
+  },
+  {
+    "id": 46,
+    "type": "matching",
+    "question": "Match the term to its VC role:",
+    "pairs": [
+      { "left": "Angel Investor", "right": "Individual investing their own money" },
+      { "left": "Lead Investor", "right": "Sets terms and coordinates round" },
+      { "left": "Incubator", "right": "Provides workspace and mentorship" }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple-choice",
+    "question": "If the fund _______ (not/exceed) the hurdle rate, GPs get no carry.",
+    "options": ["doesn't exceed", "didn't exceed", "hadn't exceeded", "won't exceed"],
+    "correctAnswer": 0,
+    "explanation": "First conditional/Zero conditional logic for rules."
+  },
+  {
+    "id": 48,
+    "type": "fill-in-the-blank",
+    "question": "The negotiations _______ (bog) down in minor legal details.",
+    "correctAnswer": "got bogged",
+    "explanation": "To get bogged down means to become stuck."
+  },
+  {
+    "id": 49,
+    "type": "multiple-choice",
+    "question": "What is 'Co-investment'?",
+    "options": ["Investing in two competitors", "LPs investing directly alongside the PE fund", "Investing only in cash", "Merging two funds"],
+    "correctAnswer": 1,
+    "explanation": "Co-investment allows LPs to invest in specific deals without paying the usual fees to the GP."
+  },
+  {
+    "id": 50,
+    "type": "multiple-choice",
+    "question": "Under no circumstances _______ the GP violate the investment mandate.",
+    "options": ["the GP should", "should the GP", "does the GP", "would the GP"],
+    "correctAnswer": 1,
+    "explanation": "Negative inversion."
+  }
+]

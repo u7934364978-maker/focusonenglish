@@ -1,0 +1,30 @@
+{
+  "title": "Mergers & Acquisitions: Strategic Rationale",
+  "sections": [
+    {
+      "id": "ma-rationale",
+      "title": "Strategic Rationale & Synergies",
+      "content": "Mergers and Acquisitions (M&A) are driven by the search for value creation. Executives must articulate the 'Strategic Rationale' behind a deal.\n\n- **Synergy**: The concept that the value and performance of two companies combined will be greater than the sum of the separate individual parts (1+1=3).\n- **Types of Synergy**: \n  - *Operating Synergies*: Cost savings from economies of scale or revenue enhancements from cross-selling.\n  - *Financial Synergies*: Lower cost of capital or tax benefits.\n- **Accretive vs. Dilutive**: An acquisition is 'accretive' if the acquiring company's Earnings Per Share (EPS) increases after the deal. It is 'dilutive' if the EPS decreases."
+    },
+    {
+      "id": "valuation-methods",
+      "title": "Valuation & Due Diligence",
+      "content": "Determining the right price is critical to avoid 'Overpayment'.\n\n- **DCF (Discounted Cash Flow)**: Valuation based on the present value of future cash flows.\n- **Comparable Company Analysis (Multiples)**: Valuing a company based on how similar companies are priced (e.g., EV/EBITDA).\n- **Due Diligence**: The comprehensive appraisal of a business undertaken by a prospective buyer to establish its assets and liabilities and evaluate its commercial potential.\n- **Deal Structure**: The mix of cash, stock, and debt used to finance the transaction."
+    },
+    {
+      "id": "grammar-mixed-conditionals",
+      "title": "Language Focus: Mixed Conditionals in M&A",
+      "content": "In M&A negotiations, we often discuss how past decisions affect current situations or how permanent facts would have changed past outcomes.\n\n- **Past result, present condition**: 'If the board **hadn't approved** the merger last year, our market share **would be** much lower today.'\n- **Present condition, past result**: 'If we **were** a larger company, we **could have outbid** our competitor for that startup.'\n- **Advanced Speculation**: 'Should the valuation **prove** inaccurate, the goodwill impairment **would be** substantial.'"
+    }
+  ],
+  "objectives": [
+    "Identify and articulate strategic synergies in M&A transactions",
+    "Master financial terminology related to valuation and deal structures",
+    "Use mixed and advanced conditionals to discuss hypothetical business scenarios"
+  ],
+  "keyTerms": [
+    { "term": "Goodwill", "definition": "The premium paid over the fair market value of a company's identifiable net assets." },
+    { "term": "Hostile Takeover", "definition": "The acquisition of one company by another that is accomplished by going directly to the company's shareholders or fighting to replace management." },
+    { "term": "LBO (Leveraged Buyout)", "definition": "The acquisition of another company using a significant amount of borrowed money to meet the cost of acquisition." }
+  ]
+}
