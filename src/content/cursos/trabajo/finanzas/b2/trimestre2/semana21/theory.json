@@ -1,24 +1,29 @@
 {
-  "title": "Gestión de Riesgos: Value at Risk (VaR)",
+  "title": "Gestión de Riesgos y Carteras: VaR y Asset Allocation",
   "sections": [
     {
       "id": "risk-vocab",
-      "title": "Vocabulario: Medición del Riesgo",
-      "content": "B2 nivel. Cuantificando la exposición financiera.\n\n- **Value at Risk (VaR)**: Valor en riesgo\n- **Stress testing**: Pruebas de estrés\n- **Backtesting**: Retroversión (probar un modelo con datos históricos)\n- **Standard deviation**: Desviación típica\n- **Confidence level**: Nivel de confianza\n- **Exposure**: Exposición\n- **Mitigation**: Mitigación\n- **Contingency plan**: Plan de contingencia"
+      "title": "Vocabulario: Medición del Riesgo y Gestión de Carteras",
+      "content": "B2 nivel. Cuantificando la exposición y optimizando la inversión.\n\n- **Value at Risk (VaR)**: Valor en riesgo (pérdida máxima esperada en un tiempo dado).\n- **Stress testing**: Pruebas de resistencia ante escenarios extremos.\n- **Asset Allocation**: Distribución de activos (mezcla de acciones, bonos, etc.).\n- **Portfolio Rebalancing**: Reequilibrio de cartera (ajustar pesos de activos).\n- **Standard deviation**: Desviación típica (medida de volatilidad).\n- **Confidence level**: Nivel de confianza (ej. 95% o 99% en VaR).\n- **Diversification**: Diversificación (reducir riesgo no sistemático).\n- **Exposure**: Exposición (monto total en riesgo en un activo)."
     },
     {
       "id": "risk-grammar",
-      "title": "Gramática: Mixed Conditionals para Gestión",
-      "content": "Usamos **Mixed Conditionals** para relacionar una situación pasada con una consecuencia presente.\n\n- If we **had implemented** the VaR model last year, we **would know** our current risk better.\n- If the bank **hadn't failed** the stress test, it **would be** in a stronger position today.\n- We **would be** more profitable now if we **hadn't ignored** the market trends."
+      "title": "Gramática: Mixed Conditionals para Análisis Retrospectivo",
+      "content": "Los **Mixed Conditionals** vinculan una acción (o falta de ella) en el pasado con un estado o resultado en el presente.\n\n- **Estructura**: If + Past Perfect, would + bare infinitive (o viceversa).\n- *If we **had rebalanced** the portfolio in Q1, our current exposure **would be** lower.*\n- *We **would be** facing less risk now if we **hadn't concentrated** all assets in one sector.*\n- *If the analyst **hadn't missed** the warning signs, the bank **would be** more stable today.*"
+    },
+    {
+      "id": "portfolio-strategy",
+      "title": "Estrategia: Risk Mitigation",
+      "content": "La gestión de riesgos no solo trata de medir, sino de actuar. El **Backtesting** permite verificar si los modelos VaR fueron precisos en el pasado para ajustar el **Capital Buffer** (colchón de capital) actual."
     }
   ],
   "objectives": [
-    "Comprender el concepto y la aplicación del VaR",
-    "Identificar la importancia del Stress Testing y Backtesting",
-    "Utilizar condicionales mixtos para discutir el impacto presente de decisiones pasadas"
+    "Comprender la aplicación del VaR y el Stress Testing en la banca",
+    "Dominar el vocabulario de Asset Allocation y Diversificación",
+    "Utilizar condicionales mixtos para evaluar el impacto presente de decisiones estratégicas pasadas"
   ],
   "keyTerms": [
-    { "term": "VaR", "definition": "A statistical technique used to measure the amount of potential loss that could happen in a portfolio." },
-    { "term": "Stress Test", "definition": "An analysis to determine the stability of a given system or entity under extreme conditions." }
+    { "term": "VaR", "definition": "A statistical measure of the risk of investment loss." },
+    { "term": "Rebalancing", "definition": "The process of realigning the weightings of a portfolio of assets." }
   ]
 }

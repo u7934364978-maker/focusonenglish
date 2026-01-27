@@ -2,23 +2,29 @@
   "title": "Entrevistas y Entorno Profesional",
   "sections": [
     {
-      "id": "prof-vocab",
-      "title": "Vocabulario: Buscando Trabajo en Finanzas",
-      "content": "A2 nivel. Términos básicos para el mundo laboral.\n\n- **Job interview**: Entrevista de trabajo\n- **Candidate**: Candidato\n- **Skills**: Habilidades\n- **Experience**: Experiencia\n- **Salary expectation**: Expectativa salarial\n- **Full-time / Part-time**: Jornada completa / media jornada\n- **To hire**: Contratar\n- **Teamwork**: Trabajo en equipo"
+      "id": "professional-vocab",
+      "title": "Vocabulario: La Oficina y la Entrevista",
+      "content": "Para trabajar en un banco, necesitas vocabulario sobre el entorno laboral.\n\n- **Job interview**: Entrevista de trabajo.\n- **Candidate / Applicant**: Candidato o solicitante.\n- **Position / Role**: El puesto de trabajo.\n- **Experience**: Experiencia previa.\n- **Skills**: Habilidades (ej. saber usar Excel).\n- **Headquarters (HQ)**: Oficina central.\n- **Branch**: Sucursal.\n- **Manager**: Gerente.\n- **Deadline**: Fecha límite."
     },
     {
-      "id": "prof-grammar",
-      "title": "Gramática: Present Perfect para Experiencia",
-      "content": "Usamos el **Present Perfect** para hablar de experiencias pasadas sin mencionar un momento específico.\n\nEstructura: **Subject + have/has + past participle**\n\n- I **have worked** in a bank before. (He trabajado en un banco antes)\n- She **has used** this software. (Ella ha usado este software)\n- **Have you ever** managed a team? (¿Alguna vez has gestionado un equipo?)"
+      "id": "present-perfect-grammar",
+      "title": "Gramática: Present Perfect para Experiencias",
+      "content": "Usamos el **Present Perfect** para hablar de cosas que hemos hecho en el pasado sin decir exactamente cuándo.\n\n**Estructura:**\nSujeto + have/has + Past Participle (Participio).\n\n**Ejemplos en el trabajo:**\n- I **have worked** in a bank before. (He trabajado en un banco antes).\n- She **has completed** the training. (Ella ha completado la capacitación).\n- **Have** you **used** this software? (¿Has usado este software?).\n\n**Just / Already / Yet:**\n- I have **just** finished the report. (Acabo de terminar el reporte).\n- I have **already** sent the email. (Ya he enviado el email).\n- I haven't finished **yet**. (No he terminado todavía)."
+    },
+    {
+      "id": "interview-tips",
+      "title": "Consejos: Tu Entrevista Bancaria",
+      "content": "1. **Research the bank**: Investiga la historia del banco.\n2. **Be professional**: Viste formalmente y sé puntual.\n3. **Prepare your answers**: Practica cómo hablar de tus logros usando el Present Perfect."
     }
   ],
   "objectives": [
-    "Aprender vocabulario básico para entrevistas de trabajo",
-    "Expresar experiencia laboral usando el Present Perfect",
-    "Diferenciar entre tipos de contratos (full-time vs part-time)"
+    "Aprender vocabulario clave para entrevistas y el entorno de oficina",
+    "Utilizar el 'Present Perfect' para describir experiencias laborales pasadas",
+    "Comprender el uso de adverbios como 'just', 'already' y 'yet'"
   ],
   "keyTerms": [
-    { "term": "Skills", "definition": "The things you can do well." },
-    { "term": "Hire", "definition": "To give someone a job." }
+    { "term": "Résumé / CV", "definition": "A document used by a person to present their backgrounds and skills." },
+    { "term": "Onboarding", "definition": "The process of introducing a new employee to an organization." },
+    { "term": "Promotion", "definition": "Advancement of an employee's rank or position." }
   ]
 }

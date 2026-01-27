@@ -3,13 +3,18 @@
   "sections": [
     {
       "id": "derivatives-vocab",
-      "title": "Vocabulario: Instrumentos de Derivados",
-      "content": "B2 nivel. Comprender contratos complejos.\n\n- **Derivative**: Derivado\n- **Option (Call/Put)**: Opción (de compra/venta)\n- **Futures contract**: Contrato de futuros\n- **Underlying asset**: Activo subyacente\n- **Strike price**: Precio de ejercicio\n- **Expiration date**: Fecha de vencimiento\n- **Premium**: Prima (precio de la opción)\n- **To exercise an option**: Ejecutar una opción"
+      "title": "Vocabulario: Instrumentos de Derivados y Estrategias",
+      "content": "En el nivel B2, profundizamos en los instrumentos derivados, que son contratos cuyo valor deriva de un activo subyacente.\n\n- **Underlying Asset**: Activo subyacente (ej. acciones, oro, tipos de interés).\n- **Call Option**: Opción de compra (derecho a comprar).\n- **Put Option**: Opción de venta (derecho a vender).\n- **Futures Contract**: Acuerdo vinculante para comprar/vender en el futuro a un precio fijado.\n- **Forward Contract**: Similar al futuro pero personalizado y no negociado en bolsa.\n- **Strike Price / Exercise Price**: Precio al que se puede ejecutar la opción.\n- **At-the-money / In-the-money / Out-of-the-money**: Términos para describir la rentabilidad de una opción respecto al precio actual.\n- **Premium**: El coste de adquirir la opción.\n- **Leverage**: Apalancamiento (uso de derivados para controlar grandes posiciones con poco capital).\n- **Arbitrage**: Aprovechar diferencias de precio en distintos mercados."
     },
     {
       "id": "derivatives-grammar",
-      "title": "Gramática: Third Conditional para Análisis Histórico",
-      "content": "Usamos el **Third Conditional** para analizar qué habría pasado en el mercado si hubiéramos tomado decisiones diferentes.\n\n- If we **had bought** the call options, we **would have made** a significant profit.\n- If the strike price **had been** lower, the investor **would have exercised** the option.\n- We **wouldn't have lost** money if we **had hedged** our position with futures."
+      "title": "Gramática: Third Conditional para Análisis Retrospectivo",
+      "content": "El **Third Conditional** es vital para el análisis de riesgos y la evaluación de decisiones pasadas. Se refiere a situaciones hipotéticas en el pasado.\n\n**Estructura:** If + Past Perfect, would have + past participle\n\n- **Análisis de pérdida**: \"If we **had hedged** our exposure, we **wouldn't have suffered** such losses.\"\n- **Oportunidad perdida**: \"If the premium **had been** cheaper, the fund **would have bought** more calls.\"\n- **Escenario de mercado**: \"What **would have happened** if the volatility **had spiked** earlier?\"\n\n*Recuerda: El tercer condicional trata sobre lo que NO sucedió.*"
+    },
+    {
+      "id": "hedging-mechanics",
+      "title": "Mecánica de la Cobertura (Hedging Mechanics)",
+      "content": "Las empresas usan derivados principalmente para la gestión de riesgos (Hedging):\n1. **Price Protection**: Fijar precios de materias primas.\n2. **Currency Hedging**: Protegerse contra la fluctuación de divisas en contratos internacionales.\n3. **Interest Rate Swaps**: Cambiar tipos variables por fijos para asegurar pagos estables.\n\nExpresiones clave:\n- \"To offset a risk\" (Compensar un riesgo).\n- \"To lock in a price\" (Asegurar/fijar un precio).\n- \"To mitigate downside risk\" (Mitigar el riesgo de pérdida)."
     }
   ],
   "objectives": [

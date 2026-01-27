@@ -2,42 +2,385 @@
   {
     "id": 1,
     "type": "multiple-choice",
-    "question": "What is 'Exchange rate' in Spanish?",
-    "options": ["Tipo de cambio", "Tasa de interés", "Comisión de retiro", "Pago con tarjeta"],
-    "correctAnswer": 0,
-    "explanation": "'Exchange rate' translates to 'Tipo de cambio'."
+    "question": "What is the 'exchange rate'?",
+    "options": ["The price of a flight", "The value of one currency compared to another", "The name of a bank", "A type of credit card"],
+    "correctAnswer": 1,
+    "explanation": "Exchange rate is the value of one currency for the purpose of conversion to another."
   },
   {
     "id": 2,
     "type": "fill-in-the-blank",
-    "question": "Where is the __________ (near) ATM?",
-    "correctAnswer": "nearest",
-    "explanation": "We use the superlative 'nearest' for 'near'."
+    "question": "This is the ___________ (good) bank in the city.",
+    "correctAnswer": "best",
+    "explanation": "The superlative of 'good' is 'the best'."
   },
   {
     "id": 3,
     "type": "multiple-choice",
-    "question": "To get cash from a machine is called:",
-    "options": ["To deposit", "To save", "To withdraw", "To invest"],
-    "correctAnswer": 2,
-    "explanation": "'To withdraw' means to take money out of an account."
+    "question": "Where can you change money?",
+    "options": ["In a supermarket", "At a bureau de change", "In a library", "At a cinema"],
+    "correctAnswer": 1,
+    "explanation": "A bureau de change is a place where you can exchange currencies."
   },
   {
     "id": 4,
-    "type": "matching",
-    "question": "Match the term with its meaning:",
-    "pairs": [
-      { "left": "Fee", "right": "Service cost" },
-      { "left": "Currency", "right": "Kind of money" },
-      { "left": "Foreign", "right": "From another country" }
-    ]
+    "type": "fill-in-the-blank",
+    "question": "I need to ___________ (withdraw) some cash from the ATM.",
+    "correctAnswer": "withdraw",
+    "explanation": "'To withdraw' means to take money out of a bank account."
   },
   {
     "id": 5,
     "type": "multiple-choice",
-    "question": "This is the _________ (expensive) bank in town.",
+    "question": "Which is the ___________ (expensive) city in the world?",
     "options": ["most expensive", "expensivest", "more expensive", "expensive"],
     "correctAnswer": 0,
-    "explanation": "For long adjectives like 'expensive', we use 'most' to form the superlative."
+    "explanation": "For long adjectives like 'expensive', we use 'the most'."
+  },
+  {
+    "id": 6,
+    "type": "matching",
+    "question": "Match the terms:",
+    "pairs": [
+      { "left": "ATM", "right": "Cash machine" },
+      { "left": "Fee", "right": "Commission" },
+      { "left": "Local currency", "right": "Money of the country" }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple-choice",
+    "question": "A 'foreign currency' is:",
+    "options": ["Your own country's money", "Money from another country", "Fake money", "Digital money only"],
+    "correctAnswer": 1,
+    "explanation": "Foreign currency is any currency other than the local one."
+  },
+  {
+    "id": 8,
+    "type": "fill-in-the-blank",
+    "question": "That is the ___________ (cheap) flight I found.",
+    "correctAnswer": "cheapest",
+    "explanation": "Superlative of 'cheap' is 'the cheapest'."
+  },
+  {
+    "id": 9,
+    "type": "multiple-choice",
+    "question": "What does 'local currency' mean?",
+    "options": ["Money used in your home", "Money used in the country you are visiting", "Old money", "Gold coins"],
+    "correctAnswer": 1,
+    "explanation": "Local currency is the currency used in a specific place."
+  },
+  {
+    "id": 10,
+    "type": "fill-in-the-blank",
+    "question": "The exchange ___________ is very low today.",
+    "correctAnswer": "rate",
+    "explanation": "The term is 'exchange rate'."
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "This ATM has the ___________ (low) commission.",
+    "options": ["lowest", "lower", "most low", "low"],
+    "correctAnswer": 0,
+    "explanation": "Superlative of 'low' is 'the lowest'."
+  },
+  {
+    "id": 12,
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/best) notify your bank before traveling.",
+    "correctAnswer": "must",
+    "explanation": "'Must' is used for obligation."
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "question": "What is a 'surcharge'?",
+    "options": ["A discount", "An extra fee", "A type of wallet", "A bank manager"],
+    "correctAnswer": 1,
+    "explanation": "A surcharge is an additional charge."
+  },
+  {
+    "id": 14,
+    "type": "fill-in-the-blank",
+    "question": "The ___________ (near) bank is two blocks away.",
+    "correctAnswer": "nearest",
+    "explanation": "Superlative of 'near' is 'the nearest'."
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "question": "If you use a credit card abroad, you might pay a ___________.",
+    "options": ["gift", "foreign transaction fee", "salary", "bonus"],
+    "correctAnswer": 1,
+    "explanation": "Banks often charge a fee for transactions in other currencies."
+  },
+  {
+    "id": 16,
+    "type": "fill-in-the-blank",
+    "question": "Traveling is ___________ (expensive) than staying at home.",
+    "correctAnswer": "more expensive",
+    "explanation": "This is a comparison between two things (comparative)."
+  },
+  {
+    "id": 17,
+    "type": "multiple-choice",
+    "question": "Which word is an irregular superlative?",
+    "options": ["Fastest", "Best", "Slowest", "Smallest"],
+    "correctAnswer": 1,
+    "explanation": "'Best' is the irregular superlative of 'good'."
+  },
+  {
+    "id": 18,
+    "type": "fill-in-the-blank",
+    "question": "I want to change Euros ___________ Dollars.",
+    "correctAnswer": "into",
+    "explanation": "We say 'change (currency A) into (currency B)'."
+  },
+  {
+    "id": 19,
+    "type": "multiple-choice",
+    "question": "What is 'cash'?",
+    "options": ["A credit card", "Money in notes and coins", "A bank loan", "An insurance policy"],
+    "correctAnswer": 1,
+    "explanation": "Cash refers to physical money."
+  },
+  {
+    "id": 20,
+    "type": "fill-in-the-blank",
+    "question": "This is the ___________ (bad) exchange rate of the month.",
+    "correctAnswer": "worst",
+    "explanation": "Superlative of 'bad' is 'the worst'."
+  },
+  {
+    "id": 21,
+    "type": "multiple-choice",
+    "question": "To 'convert' money means:",
+    "options": ["To lose it", "To change it from one currency to another", "To save it in a box", "To buy a car"],
+    "correctAnswer": 1,
+    "explanation": "Convert means to change the form or character of something."
+  },
+  {
+    "id": 22,
+    "type": "fill-in-the-blank",
+    "question": "Is there a bureau de ___________ nearby?",
+    "correctAnswer": "change",
+    "explanation": "The term is 'bureau de change'."
+  },
+  {
+    "id": 23,
+    "type": "multiple-choice",
+    "question": "The 'most convenient' option is the one that is:",
+    "options": ["Hardest to use", "Easiest and most useful", "Most expensive", "Farthest away"],
+    "correctAnswer": 1,
+    "explanation": "Convenient means fitting in well with a person's needs or plans."
+  },
+  {
+    "id": 24,
+    "type": "fill-in-the-blank",
+    "question": "He is the ___________ (rich) person in the bank.",
+    "correctAnswer": "richest",
+    "explanation": "Superlative of 'rich' is 'the richest'."
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "question": "What should you do if you lose your card abroad?",
+    "options": ["Nothing", "Call the police only", "Block the card immediately", "Wait until you get home"],
+    "correctAnswer": 2,
+    "explanation": "You must block the card to prevent fraud."
+  },
+  {
+    "id": 26,
+    "type": "matching",
+    "question": "Match the superlatives:",
+    "pairs": [
+      { "left": "Small", "right": "The smallest" },
+      { "left": "Large", "right": "The largest" },
+      { "left": "Busy", "right": "The busiest" }
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "Which of these is a 'note' (money)?",
+    "options": ["A round metal object", "A piece of paper money", "A credit card", "A signature"],
+    "correctAnswer": 1,
+    "explanation": "A note (or bill) is paper currency."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "This hotel is the ___________ (comfortable) in town.",
+    "correctAnswer": "most comfortable",
+    "explanation": "Superlative of a long adjective."
+  },
+  {
+    "id": 29,
+    "type": "multiple-choice",
+    "question": "What is 'traveler's insurance' for?",
+    "options": ["Buying souvenirs", "Protecting against accidents or loss during a trip", "Paying for dinner", "Booking a hotel"],
+    "correctAnswer": 1,
+    "explanation": "Travel insurance covers risks while traveling."
+  },
+  {
+    "id": 30,
+    "type": "fill-in-the-blank",
+    "question": "The ___________ (fast) way to get money is the ATM.",
+    "correctAnswer": "fastest",
+    "explanation": "Superlative of 'fast'."
+  },
+  {
+    "id": 31,
+    "type": "multiple-choice",
+    "question": "What is a 'daily limit' on an ATM card?",
+    "options": ["The total money in the bank", "The maximum you can withdraw in one day", "The number of cards you have", "The time the bank closes"],
+    "correctAnswer": 1,
+    "explanation": "A daily limit restricts how much cash you can take out in 24 hours."
+  },
+  {
+    "id": 32,
+    "type": "fill-in-the-blank",
+    "question": "We want to find the ___________ (low) prices.",
+    "correctAnswer": "lowest",
+    "explanation": "Superlative of 'low'."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "If a service is 'free of charge', it costs:",
+    "options": ["$100", "Nothing", "$1", "A lot"],
+    "correctAnswer": 1,
+    "explanation": "'Free of charge' means it costs zero."
+  },
+  {
+    "id": 34,
+    "type": "fill-in-the-blank",
+    "question": "She has the ___________ (interesting) job in the bank.",
+    "correctAnswer": "most interesting",
+    "explanation": "Superlative of 'interesting'."
+  },
+  {
+    "id": 35,
+    "type": "multiple-choice",
+    "question": "What is 'commission'?",
+    "options": ["A type of money", "A fee for a service", "A bank building", "A credit card PIN"],
+    "correctAnswer": 1,
+    "explanation": "Commission is a fee paid to an agent or employee for transacting a piece of business."
+  },
+  {
+    "id": 36,
+    "type": "fill-in-the-blank",
+    "question": "London is one of the ___________ (expensive) cities.",
+    "correctAnswer": "most expensive",
+    "explanation": "Superlative of 'expensive'."
+  },
+  {
+    "id": 37,
+    "type": "multiple-choice",
+    "question": "To 'exchange' means:",
+    "options": ["To give and receive something else in return", "To throw away", "To keep forever", "To hide"],
+    "correctAnswer": 0,
+    "explanation": "Exchange means to swap one thing for another."
+  },
+  {
+    "id": 38,
+    "type": "fill-in-the-blank",
+    "question": "He is the ___________ (helpful) teller.",
+    "correctAnswer": "most helpful",
+    "explanation": "Superlative of 'helpful'."
+  },
+  {
+    "id": 39,
+    "type": "multiple-choice",
+    "question": "What is a 'transaction'?",
+    "options": ["A type of car", "A piece of business (like buying or selling)", "A holiday", "A language"],
+    "correctAnswer": 1,
+    "explanation": "A transaction is an instance of buying or selling something."
+  },
+  {
+    "id": 40,
+    "type": "fill-in-the-blank",
+    "question": "This is the ___________ (important) rule.",
+    "correctAnswer": "most important",
+    "explanation": "Superlative of 'important'."
+  },
+  {
+    "id": 41,
+    "type": "multiple-choice",
+    "question": "When you travel, 'ID' usually refers to your:",
+    "options": ["Bag", "Passport or identity card", "Hotel key", "Wallet color"],
+    "correctAnswer": 1,
+    "explanation": "ID stands for identification."
+  },
+  {
+    "id": 42,
+    "type": "fill-in-the-blank",
+    "question": "That bank is the ___________ (far) from here.",
+    "correctAnswer": "farthest",
+    "explanation": "Superlative of 'far' is 'farthest' or 'furthest'."
+  },
+  {
+    "id": 43,
+    "type": "multiple-choice",
+    "question": "What is 'boarding'?",
+    "options": ["Getting on a plane or ship", "Sleeping in a hotel", "Changing money", "Eating lunch"],
+    "correctAnswer": 0,
+    "explanation": "Boarding is the act of getting on a vehicle."
+  },
+  {
+    "id": 44,
+    "type": "fill-in-the-blank",
+    "question": "The dollar is the ___________ (common) currency for travel.",
+    "correctAnswer": "most common",
+    "explanation": "Superlative of 'common'."
+  },
+  {
+    "id": 45,
+    "type": "multiple-choice",
+    "question": "A 'receipt' shows:",
+    "options": ["How much you paid", "Your name", "The weather", "A map"],
+    "correctAnswer": 0,
+    "explanation": "A receipt is proof of payment."
+  },
+  {
+    "id": 46,
+    "type": "matching",
+    "question": "Match the opposite superlatives:",
+    "pairs": [
+      { "left": "The best", "right": "The worst" },
+      { "left": "The cheapest", "right": "The most expensive" },
+      { "left": "The nearest", "right": "The farthest" }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple-choice",
+    "question": "What is a 'wallet'?",
+    "options": ["A place to keep money and cards", "A type of shoe", "A big bank", "A plane ticket"],
+    "correctAnswer": 0,
+    "explanation": "A wallet is a small, flat case for carrying personal items like cash and cards."
+  },
+  {
+    "id": 48,
+    "type": "fill-in-the-blank",
+    "question": "It was the ___________ (wonderful) trip.",
+    "correctAnswer": "most wonderful",
+    "explanation": "Superlative of 'wonderful'."
+  },
+  {
+    "id": 49,
+    "type": "multiple-choice",
+    "question": "Why should you compare exchange rates?",
+    "options": ["To find the most beautiful coins", "To get the most money for your currency", "To meet new people", "To learn a new language"],
+    "correctAnswer": 1,
+    "explanation": "Comparing rates helps you save money during conversion."
+  },
+  {
+    "id": 50,
+    "type": "fill-in-the-blank",
+    "question": "This is the ___________ (late) update on the rate.",
+    "correctAnswer": "latest",
+    "explanation": "Superlative of 'late' (meaning most recent) is 'latest'."
   }
 ]

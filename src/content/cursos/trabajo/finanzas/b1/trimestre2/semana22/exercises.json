@@ -2,42 +2,389 @@
   {
     "id": 1,
     "type": "multiple-choice",
-    "question": "What is 'Hedging'?",
-    "options": ["Buying a house", "A strategy to reduce risk", "A type of tax", "Trading with cash only"],
+    "question": "What is the global market for trading currencies called?",
+    "options": ["Stock Market", "Forex", "Bond Market", "Commodities Market"],
     "correctAnswer": 1,
-    "explanation": "Hedging is like an insurance policy for your investments to protect against losses."
+    "explanation": "Forex (Foreign Exchange) is the decentralized global market for the trading of currencies."
   },
   {
     "id": 2,
     "type": "fill-in-the-blank",
-    "question": "I wish we __________ (have) a lower interest rate on our loan.",
-    "correctAnswer": "had",
-    "explanation": "Wish + Past Simple for a present desire."
+    "question": "I wish the exchange rate __________ (be) better right now.",
+    "correctAnswer": "was",
+    "explanation": "To express a wish about a present situation, we use 'wish + Past Simple'."
   },
   {
     "id": 3,
     "type": "multiple-choice",
-    "question": "If a currency increases in value, it is _______.",
-    "options": ["Depreciating", "Appreciating", "Floating", "Sinking"],
+    "question": "A 'Forward Contract' in Forex is used to:",
+    "options": ["Buy currency at today's rate for today", "Fix a future exchange rate today", "Cancel a bank account", "Invest in local stocks"],
     "correctAnswer": 1,
-    "explanation": "Appreciation is the increase in value of an asset over time."
+    "explanation": "A forward contract allows businesses to lock in an exchange rate for a future date to avoid volatility."
   },
   {
     "id": 4,
     "type": "matching",
-    "question": "Match the term with its meaning:",
+    "question": "Match the term with its definition:",
     "pairs": [
-      { "left": "Tariff", "right": "Tax on imports" },
-      { "left": "Export", "right": "Selling to other countries" },
-      { "left": "Settlement", "right": "Final payment/closing" }
+      { "left": "Hedging", "right": "Protecting against price changes" },
+      { "left": "Tariff", "right": "Tax on imported goods" },
+      { "left": "Remittance", "right": "Money sent abroad" }
     ]
   },
   {
     "id": 5,
     "type": "multiple-choice",
-    "question": "We wish the bank _______ faster with our international transfer.",
-    "options": ["processed", "would process", "processing", "had process"],
+    "question": "We wish the central bank _______ (lower) the interest rates next month.",
+    "options": ["lowers", "lowered", "would lower", "had lowered"],
+    "correctAnswer": 2,
+    "explanation": "We use 'wish + would' to express a desire for someone or something to change their behavior in the future."
+  },
+  {
+    "id": 6,
+    "type": "fill-in-the-blank",
+    "question": "The difference between the buying price and the selling price is the __________.",
+    "correctAnswer": "spread",
+    "explanation": "In finance, the spread is the difference between the bid (buy) and ask (sell) prices."
+  },
+  {
+    "id": 7,
+    "type": "multiple-choice",
+    "question": "What does 'L/C' stand for in international trade?",
+    "options": ["Loan and Credit", "Letter of Credit", "Liquid Capital", "Legal Contract"],
     "correctAnswer": 1,
-    "explanation": "Wish + would + verb for a desired change in someone else's behavior or a future action."
+    "explanation": "A Letter of Credit is a guarantee from a bank that a buyer's payment to a seller will be received on time and for the correct amount."
+  },
+  {
+    "id": 8,
+    "type": "fill-in-the-blank",
+    "question": "I wish we __________ (buy) the currency last week when it was cheaper.",
+    "correctAnswer": "had bought",
+    "explanation": "To express regret about the past, we use 'wish + Past Perfect'."
+  },
+  {
+    "id": 9,
+    "type": "multiple-choice",
+    "question": "Which term describes a sudden and significant change in exchange rates?",
+    "options": ["Stability", "Volatility", "Liquidity", "Solvency"],
+    "correctAnswer": 1,
+    "explanation": "Volatility refers to the liability of a rate to change rapidly and unpredictably."
+  },
+  {
+    "id": 10,
+    "type": "fill-in-the-blank",
+    "question": "The __________ (spot) rate is the current exchange rate for immediate delivery.",
+    "correctAnswer": "spot",
+    "explanation": "The spot rate is the price quoted for immediate settlement of a transaction."
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "If you are 'Importing' goods, you are:",
+    "options": ["Selling to other countries", "Buying from other countries", "Producing locally", "Trading stocks"],
+    "correctAnswer": 1,
+    "explanation": "Importing involves bringing goods or services into a country from abroad for sale."
+  },
+  {
+    "id": 12,
+    "type": "fill-in-the-blank",
+    "question": "They wish they __________ (not invest) in that unstable market last year.",
+    "correctAnswer": "had not invested",
+    "explanation": "Past regret uses 'wish + Past Perfect'."
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "question": "What are 'Incoterms'?",
+    "options": ["Internal company terms", "International commercial terms", "Income and tax terms", "Insurance coverage terms"],
+    "correctAnswer": 1,
+    "explanation": "Incoterms are a set of rules which define the responsibilities of sellers and buyers for the delivery of goods under sales contracts."
+  },
+  {
+    "id": 14,
+    "type": "matching",
+    "question": "Match the currency pair role:",
+    "pairs": [
+      { "left": "EUR/USD", "right": "Currency Pair" },
+      { "left": "EUR", "right": "Base Currency" },
+      { "left": "USD", "right": "Quote Currency" }
+    ]
+  },
+  {
+    "id": 15,
+    "type": "fill-in-the-blank",
+    "question": "The government is increasing the __________ (duty) on imported electronics.",
+    "correctAnswer": "duty",
+    "explanation": "A duty is a task or action that someone is required to perform, but in trade, it's a tax levied by a government."
+  },
+  {
+    "id": 16,
+    "type": "multiple-choice",
+    "question": "I wish I _______ more about Forex before starting to trade.",
+    "options": ["know", "knew", "would know", "had known"],
+    "correctAnswer": 3,
+    "explanation": "Regret about the past: 'had known'."
+  },
+  {
+    "id": 17,
+    "type": "fill-in-the-blank",
+    "question": "Customs is the agency that collects __________ (tariff) on imports.",
+    "correctAnswer": "tariffs",
+    "explanation": "Tariffs are taxes imposed by a government on imported or exported goods."
+  },
+  {
+    "id": 18,
+    "type": "multiple-choice",
+    "question": "Which of these is a 'Trade Balance' surplus?",
+    "options": ["Imports > Exports", "Exports > Imports", "Exports = Imports", "No trade at all"],
+    "correctAnswer": 1,
+    "explanation": "A trade surplus occurs when the value of a country's exports exceeds that of its imports."
+  },
+  {
+    "id": 19,
+    "type": "fill-in-the-blank",
+    "question": "We wish the currency __________ (appreciate) against the dollar.",
+    "correctAnswer": "would appreciate",
+    "explanation": "Desire for a future change: 'would appreciate'."
+  },
+  {
+    "id": 20,
+    "type": "multiple-choice",
+    "question": "What is a 'Quota' in international trade?",
+    "options": ["A type of quality check", "A limited quantity of a product that can be imported", "A special tax", "A government grant"],
+    "correctAnswer": 1,
+    "explanation": "A quota is a government-imposed trade restriction that limits the number or monetary value of goods that a country can import or export."
+  },
+  {
+    "id": 21,
+    "type": "fill-in-the-blank",
+    "question": "I wish the CFO __________ (be) here to explain the decision.",
+    "correctAnswer": "was",
+    "explanation": "Present wish: 'was' (or 'were' in formal contexts)."
+  },
+  {
+    "id": 22,
+    "type": "multiple-choice",
+    "question": "When a currency loses value compared to another, it is called:",
+    "options": ["Appreciation", "Depreciation", "Inflation", "Liquidation"],
+    "correctAnswer": 1,
+    "explanation": "Depreciation is the loss of value of a country's currency with respect to one or more foreign reference currencies."
+  },
+  {
+    "id": 23,
+    "type": "fill-in-the-blank",
+    "question": "A __________ (remittance) is a transfer of money by a foreign worker to their home country.",
+    "correctAnswer": "remittance",
+    "explanation": "The term for sending money home from abroad is remittance."
+  },
+  {
+    "id": 24,
+    "type": "matching",
+    "question": "Match the term with its Spanish equivalent:",
+    "pairs": [
+      { "left": "Forward Contract", "right": "Contrato a plazo" },
+      { "left": "Trade Balance", "right": "Balanza comercial" },
+      { "left": "Letter of Credit", "right": "Carta de crédito" }
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "question": "Which agency is responsible for controlling the flow of goods into a country?",
+    "options": ["Central Bank", "Customs", "Ministry of Education", "Supreme Court"],
+    "correctAnswer": 1,
+    "explanation": "Customs is the authority or body in a country responsible for collecting duties and for controlling the flow of goods."
+  },
+  {
+    "id": 26,
+    "type": "fill-in-the-blank",
+    "question": "I wish the volatility __________ (decrease) soon.",
+    "correctAnswer": "would decrease",
+    "explanation": "Future wish/desire for change: 'would decrease'."
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "What is 'Arbitrage' in Forex?",
+    "options": ["Loosing money", "Simultaneous purchase and sale of an asset to profit from a difference in the price", "A type of tax", "Borrowing money"],
+    "correctAnswer": 1,
+    "explanation": "Arbitrage is the practice of taking advantage of a price difference between two or more markets."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "They wish they __________ (signed) the L/C earlier.",
+    "correctAnswer": "had signed",
+    "explanation": "Past regret: 'had signed'."
+  },
+  {
+    "id": 29,
+    "type": "multiple-choice",
+    "question": "What does 'FOB' stand for in trade?",
+    "options": ["Freight On Board", "Free On Board", "First On Bank", "Full of Business"],
+    "correctAnswer": 1,
+    "explanation": "FOB (Free On Board) means the seller pays for transportation of the goods to the port of shipment."
+  },
+  {
+    "id": 30,
+    "type": "fill-in-the-blank",
+    "question": "I wish I __________ (have) more Euros in my account.",
+    "correctAnswer": "had",
+    "explanation": "Present wish: 'had'."
+  },
+  {
+    "id": 31,
+    "type": "multiple-choice",
+    "question": "What is the 'Spread' in a currency quote?",
+    "options": ["The total value", "The difference between bid and ask price", "The transaction fee", "The tax rate"],
+    "correctAnswer": 1,
+    "explanation": "The spread is the difference between the price at which you can buy and sell a currency."
+  },
+  {
+    "id": 32,
+    "type": "fill-in-the-blank",
+    "question": "We wish the export rules __________ (be) simpler.",
+    "correctAnswer": "were",
+    "explanation": "Present wish about rules: 'were'."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "A 'Devaluation' of currency is usually decided by:",
+    "options": ["Individual citizens", "The government or central bank", "Foreign tourists", "Local shops"],
+    "correctAnswer": 1,
+    "explanation": "Devaluation is the deliberate downward adjustment of the value of a country's money relative to another currency, group of currencies, or currency standard."
+  },
+  {
+    "id": 34,
+    "type": "matching",
+    "question": "Match the Incoterm (B1 level simple):",
+    "pairs": [
+      { "left": "EXW", "right": "Ex Works (Buyer picks up)" },
+      { "left": "DDP", "right": "Delivered Duty Paid" },
+      { "left": "CIF", "right": "Cost, Insurance, and Freight" }
+    ]
+  },
+  {
+    "id": 35,
+    "type": "fill-in-the-blank",
+    "question": "I wish the team __________ (not make) that mistake in the invoice.",
+    "correctAnswer": "had not made",
+    "explanation": "Past regret: 'had not made'."
+  },
+  {
+    "id": 36,
+    "type": "multiple-choice",
+    "question": "Which of these currencies is considered a 'Safe Haven'?",
+    "options": ["Turkish Lira", "Swiss Franc (CHF)", "Argentine Peso", "Venezuelan Bolivar"],
+    "correctAnswer": 1,
+    "explanation": "The Swiss Franc is traditionally seen as a safe-haven currency due to Switzerland's stable economy and political neutrality."
+  },
+  {
+    "id": 37,
+    "type": "fill-in-the-blank",
+    "question": "They wish the trade barriers __________ (fall) soon.",
+    "correctAnswer": "would fall",
+    "explanation": "Future wish: 'would fall'."
+  },
+  {
+    "id": 38,
+    "type": "multiple-choice",
+    "question": "What is 'Hedging' meant to do?",
+    "options": ["Increase profits significantly", "Reduce or eliminate risk", "Hire new staff", "Decorate the office"],
+    "correctAnswer": 1,
+    "explanation": "Hedging is a risk management strategy used to offset losses in investments by taking an opposite position in a related asset."
+  },
+  {
+    "id": 39,
+    "type": "fill-in-the-blank",
+    "question": "I wish our competitors __________ (not have) such low prices.",
+    "correctAnswer": "did not have",
+    "explanation": "Present wish: 'did not have'."
+  },
+  {
+    "id": 40,
+    "type": "multiple-choice",
+    "question": "A 'Tariff' is a type of:",
+    "options": ["Subsidy", "Tax", "Loan", "Insurance"],
+    "correctAnswer": 1,
+    "explanation": "A tariff is a tax imposed by a government of a country or of a supranational union on imported or exported goods."
+  },
+  {
+    "id": 41,
+    "type": "fill-in-the-blank",
+    "question": "We wish the meeting __________ (finish) on time yesterday.",
+    "correctAnswer": "had finished",
+    "explanation": "Past regret: 'had finished'."
+  },
+  {
+    "id": 42,
+    "type": "multiple-choice",
+    "question": "What is a 'Pegged' currency?",
+    "options": ["A currency with no value", "A currency fixed to another currency's value", "A currency used only in one city", "A physical coin only"],
+    "correctAnswer": 1,
+    "explanation": "A pegged exchange rate is a regime where the government or central bank ties the country's currency exchange rate to another country's currency or the price of gold."
+  },
+  {
+    "id": 43,
+    "type": "fill-in-the-blank",
+    "question": "I wish the shipping company __________ (deliver) the goods faster.",
+    "correctAnswer": "would deliver",
+    "explanation": "Future wish for change: 'would deliver'."
+  },
+  {
+    "id": 44,
+    "type": "matching",
+    "question": "Match the Forex term:",
+    "pairs": [
+      { "left": "Bull Market", "right": "Prices going up" },
+      { "left": "Bear Market", "right": "Prices going down" },
+      { "left": "Pip", "right": "Smallest price move" }
+    ]
+  },
+  {
+    "id": 45,
+    "type": "fill-in-the-blank",
+    "question": "I wish I __________ (be) more careful with the KYC documents.",
+    "correctAnswer": "had been",
+    "explanation": "Past regret: 'had been'."
+  },
+  {
+    "id": 46,
+    "type": "multiple-choice",
+    "question": "What is the 'Base Currency' in the pair GBP/USD?",
+    "options": ["GBP", "USD", "Both", "Neither"],
+    "correctAnswer": 0,
+    "explanation": "The base currency is the first currency listed in a forex pair quote."
+  },
+  {
+    "id": 47,
+    "type": "fill-in-the-blank",
+    "question": "They wish the inflation rate __________ (not be) so high.",
+    "correctAnswer": "was not",
+    "explanation": "Present wish: 'was not' (or 'were not')."
+  },
+  {
+    "id": 48,
+    "type": "multiple-choice",
+    "question": "Which of these is an 'Invisible export'?",
+    "options": ["Cars", "Wheat", "Tourism services", "Smartphones"],
+    "correctAnswer": 2,
+    "explanation": "Invisible exports are services (like tourism, banking, or insurance) sold to other countries, as opposed to physical goods."
+  },
+  {
+    "id": 49,
+    "type": "fill-in-the-blank",
+    "question": "I wish you __________ (tell) me about the risk earlier.",
+    "correctAnswer": "had told",
+    "explanation": "Past regret: 'had told'."
+  },
+  {
+    "id": 50,
+    "type": "multiple-choice",
+    "question": "The 'Ask' price in Forex is:",
+    "options": ["The price at which you can sell", "The price at which you can buy", "The average price", "The tax amount"],
+    "correctAnswer": 1,
+    "explanation": "The 'ask' (or offer) price is the price a trader will pay to buy an asset."
   }
 ]

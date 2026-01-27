@@ -4,21 +4,27 @@
     {
       "id": "travel-vocab",
       "title": "Vocabulario: Dinero en el Extranjero",
-      "content": "Aprender a manejar tu dinero cuando viajas.\n\n- **Exchange rate**: Tipo de cambio\n- **Foreign currency**: Moneda extranjera\n- **Commission / Fee**: Comisión\n- **ATM / Cash machine**: Cajero automático\n- **To withdraw money**: Sacar dinero\n- **Local currency**: Moneda local\n- **Traveler's check**: Cheque de viaje (menos común hoy, pero útil conocerlo)"
+      "content": "Manejar dinero en otros países requiere vocabulario específico.\n\n- **Exchange rate**: El precio de una moneda en relación a otra.\n- **Foreign currency**: Dinero de otro país (ej. dólares en España).\n- **Commission / Fee**: El cargo extra por cambiar dinero.\n- **ATM / Cash machine**: Para retirar efectivo en el extranjero.\n- **To withdraw money**: La acción de sacar dinero del cajero.\n- **Local currency**: La moneda que se usa legalmente en el país que visitas.\n- **Bureau de change**: Oficina de cambio de moneda."
     },
     {
       "id": "travel-grammar",
       "title": "Gramática: Superlativos para Servicios",
-      "content": "Usamos superlativos para encontrar la mejor opción al viajar.\n\n- This bank has the **lowest** fees. (Este banco tiene las comisiones más bajas)\n- Which ATM is the **nearest**? (¿Qué cajero es el más cercano?)\n- That exchange office is the **best** in the city. (Esa oficina de cambio es la mejor de la ciudad)"
+      "content": "Los superlativos comparan tres o más elementos para indicar cuál destaca más.\n\nReglas:\n1. **Adjetivos cortos**: the + adjetivo + -est (ej: the cheapest).\n2. **Adjetivos largos**: the most + adjetivo (ej: the most expensive).\n3. **Irregulares**: Good -> the best, Bad -> the worst.\n\nEjemplos:\n- This is **the best** bank for travelers.\n- Where is **the nearest** exchange office?\n- That is **the most expensive** hotel in the city."
+    },
+    {
+      "id": "travel-tips",
+      "title": "Consejos: Usando tu Tarjeta en el Extranjero",
+      "content": "1. **Check the fees**: Revisa las comisiones antes de viajar.\n2. **Notify your bank**: Avisa a tu banco para que no bloqueen tu tarjeta.\n3. **Use ATMs**: Suele ser más barato que las oficinas de cambio en aeropuertos."
     }
   ],
   "objectives": [
     "Comprender conceptos básicos de cambio de moneda",
     "Identificar comisiones bancarias por uso en el extranjero",
-    "Utilizar superlativos para comparar servicios financieros"
+    "Utilizar superlativos para comparar servicios financieros y de viaje"
   ],
   "keyTerms": [
     { "term": "Exchange rate", "definition": "The value of one currency for the purpose of conversion to another." },
-    { "term": "Fee", "definition": "An amount of money paid for a particular service." }
+    { "term": "Bureau de change", "definition": "An establishment where one currency can be exchanged for another." },
+    { "term": "Surcharge", "definition": "An additional charge or tax." }
   ]
 }

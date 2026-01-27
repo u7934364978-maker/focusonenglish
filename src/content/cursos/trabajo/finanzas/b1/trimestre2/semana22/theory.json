@@ -3,13 +3,18 @@
   "sections": [
     {
       "id": "forex-vocab",
-      "title": "Vocabulario: Mercado de Divisas",
-      "content": "B1 nivel. Operaciones globales y tipos de cambio.\n\n- **Foreign Exchange (Forex)**: Mercado de divisas\n- **Exchange rate risk**: Riesgo de tipo de cambio\n- **Hedging**: Cobertura (de riesgo)\n- **Import / Export**: Importación / Exportación\n- **Tariff / Duty**: Arancel / Impuesto aduanero\n- **Trade balance**: Balanza comercial\n- **Appreciation / Depreciation**: Apreciación / Depreciación (de una moneda)\n- **Settlement**: Liquidación (de una operación)"
+      "title": "Vocabulario: Mercado de Divisas y Comercio Exterior",
+      "content": "El mercado de divisas (Forex) es el más grande del mundo. Para las empresas que operan internacionalmente, entender el riesgo de tipo de cambio es vital.\n\n- **Foreign Exchange (Forex / FX)**: Mercado de cambio de divisas.\n- **Exchange Rate**: Tipo de cambio.\n- **Base Currency vs Quote Currency**: Moneda base vs moneda cotizada.\n- **Volatility**: Volatilidad (cambios bruscos en el precio).\n- **Hedging**: Cobertura de riesgo (protección contra cambios de precio).\n- **Forward Contract**: Contrato a plazo (fijar un precio para el futuro).\n- **Spot Rate**: Tipo de cambio actual para entrega inmediata.\n- **Spread**: Diferencia entre el precio de compra y venta.\n- **Remittance**: Remesa (envío de dinero al extranjero)."
     },
     {
       "id": "forex-grammar",
-      "title": "Gramática: Wish + Past Simple / Would",
-      "content": "Usamos **Wish** para expresar deseos sobre situaciones que nos gustaría que fueran diferentes.\n\n- I **wish** the exchange rate **was** better. (Desearía que el tipo de cambio fuera mejor - situación presente)\n- We **wish** the government **would lower** the tariffs. (Desearíamos que el gobierno bajara los aranceles - deseo de cambio futuro)\n- They **wish** they **had** more international clients. (Desearían tener más clientes internacionales)"
+      "title": "Gramática: Wish para Deseos y Arrepentimientos Financieros",
+      "content": "La estructura **Wish** se utiliza para expresar que queremos que una situación presente o futura sea diferente, o para lamentar algo del pasado.\n\n**1. Wish + Past Simple (Deseo sobre el presente):**\n- \"I **wish** our revenue **was** higher this month.\"\n- \"We **wish** we **had** more exposure to the US market.\"\n\n**2. Wish + would + verb (Deseo de cambio de comportamiento/futuro):**\n- \"I **wish** the interest rates **would go down** soon.\"\n- \"We **wish** the government **would simplify** the tax laws.\"\n\n**3. Wish + Past Perfect (Arrepentimiento sobre el pasado):**\n- \"I **wish** we **had bought** those Euros last week when the rate was better.\"\n- \"They **wish** they **hadn't invested** in that startup.\""
+    },
+    {
+      "id": "trade-terms",
+      "title": "Términos de Comercio Internacional",
+      "content": "Al importar o exportar bienes, se utilizan términos específicos para definir responsabilidades:\n- **Tariff / Duty**: Impuesto sobre la importación.\n- **Customs**: Aduanas.\n- **Quota**: Cupo o límite de importación.\n- **Trade Balance**: Diferencia entre exportaciones e importaciones.\n- **Incoterms**: Términos internacionales de comercio (ej. FOB, CIF).\n- **Letter of Credit (L/C)**: Carta de crédito (garantía de pago bancaria)."
     }
   ],
   "objectives": [

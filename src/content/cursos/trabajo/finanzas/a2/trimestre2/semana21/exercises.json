@@ -2,42 +2,393 @@
   {
     "id": 1,
     "type": "multiple-choice",
-    "question": "What is 'Phishing'?",
-    "options": ["A way to save money", "A type of email scam", "A banking app", "A new currency"],
+    "question": "What is a 'scam'?",
+    "options": ["A legal bank account", "A trick to steal money", "A type of insurance", "A credit card reward"],
     "correctAnswer": 1,
-    "explanation": "'Phishing' is a scam where criminals send fake emails to steal information."
+    "explanation": "A scam is an illegal plan for making money, especially one that involves tricking people."
   },
   {
     "id": 2,
     "type": "fill-in-the-blank",
-    "question": "You __________ (not share) your PIN.",
-    "correctAnswer": "mustn't share",
-    "explanation": "We use 'mustn't' (must not) to indicate a prohibition."
+    "question": "You ___________ (must/mustn't) share your password with anyone.",
+    "correctAnswer": "mustn't",
+    "explanation": "Sharing passwords is prohibited for security."
   },
   {
     "id": 3,
     "type": "multiple-choice",
-    "question": "If you see 'Suspicious activity', you should:",
-    "options": ["Ignore it", "Wait a week", "Contact the bank", "Delete the app"],
-    "correctAnswer": 2,
-    "explanation": "You should always contact the bank if you see activity you don't recognize."
+    "question": "What is 'phishing'?",
+    "options": ["A sport", "Fake emails to steal passwords", "Opening a savings account", "Buying a new phone"],
+    "correctAnswer": 1,
+    "explanation": "Phishing is a fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity."
   },
   {
     "id": 4,
-    "type": "matching",
-    "question": "Match the term with its meaning:",
-    "pairs": [
-      { "left": "Block", "right": "Stop the card" },
-      { "left": "Verify", "right": "Check if it is true" },
-      { "left": "Reliable", "right": "Trustworthy" }
-    ]
+    "type": "fill-in-the-blank",
+    "question": "If you lose your card, you ___________ (must/mustn't) block it immediately.",
+    "correctAnswer": "must",
+    "explanation": "Blocking a lost card is a necessary obligation."
   },
   {
     "id": 5,
     "type": "multiple-choice",
-    "question": "You _______ verify the sender of an email before clicking a link.",
-    "options": ["must", "mustn't", "don't have to", "can"],
+    "question": "Identity theft occurs when someone uses your ___________ illegally.",
+    "options": ["Old clothes", "Personal data", "Bicycle", "Favorite book"],
+    "correctAnswer": 1,
+    "explanation": "Identity theft involves stealing personal information like names and IDs."
+  },
+  {
+    "id": 6,
+    "type": "matching",
+    "question": "Match the safety terms:",
+    "pairs": [
+      { "left": "PIN", "right": "Personal code" },
+      { "left": "Fraud", "right": "Illegal activity" },
+      { "left": "Secure", "right": "Safe" }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple-choice",
+    "question": "What does 'suspicious activity' mean in a bank statement?",
+    "options": ["Buying groceries", "Transactions you didn't make", "Paying your rent", "Receiving your salary"],
+    "correctAnswer": 1,
+    "explanation": "Suspicious activity refers to unusual or unrecognized movements."
+  },
+  {
+    "id": 8,
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) use a very simple password like '1234'.",
+    "correctAnswer": "mustn't",
+    "explanation": "Simple passwords are easy to hack and should be avoided."
+  },
+  {
+    "id": 9,
+    "type": "multiple-choice",
+    "question": "To 'verify' means to:",
+    "options": ["Check that something is true", "Lose money", "Sell a house", "Sleep"],
     "correctAnswer": 0,
-    "explanation": "It is an obligation for security to verify the sender."
+    "explanation": "Verification is the process of establishing the truth or accuracy of something."
+  },
+  {
+    "id": 10,
+    "type": "fill-in-the-blank",
+    "question": "The bank ___________ (must/mustn't) protect the customers' data.",
+    "correctAnswer": "must",
+    "explanation": "Banks have a legal and ethical obligation to protect data."
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "What is '2FA'?",
+    "options": ["Two-factor authentication", "Two financial accounts", "Twice a year", "To file an application"],
+    "correctAnswer": 0,
+    "explanation": "2FA adds an extra layer of security beyond just a password."
+  },
+  {
+    "id": 12,
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) write your PIN on the back of your card.",
+    "correctAnswer": "mustn't",
+    "explanation": "Writing your PIN on your card is a major security risk."
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "question": "A 'reliable' website is one that is:",
+    "options": ["Dangerous", "Trustworthy and safe", "Colorful", "Expensive"],
+    "correctAnswer": 1,
+    "explanation": "Reliable means consistently good in quality or performance; able to be trusted."
+  },
+  {
+    "id": 14,
+    "type": "fill-in-the-blank",
+    "question": "Employees ___________ (must/mustn't) ask for your password over the phone.",
+    "correctAnswer": "mustn't",
+    "explanation": "Legitimate bank employees will never ask for your password."
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "question": "What should you do if you receive a suspicious email from 'your bank'?",
+    "options": ["Click all the links", "Reply with your info", "Delete it and call your bank", "Forward it to friends"],
+    "correctAnswer": 2,
+    "explanation": "Deleting suspicious emails and contacting the bank directly is the safest action."
+  },
+  {
+    "id": 16,
+    "type": "fill-in-the-blank",
+    "question": "Passwords ___________ (must/mustn't) be strong and unique.",
+    "correctAnswer": "must",
+    "explanation": "Strong passwords are essential for account security."
+  },
+  {
+    "id": 17,
+    "type": "multiple-choice",
+    "question": "What is 'biometrics'?",
+    "options": ["A type of bank loan", "Using fingerprints or facial recognition", "A credit card fee", "An annual report"],
+    "correctAnswer": 1,
+    "explanation": "Biometrics uses physical characteristics for identification."
+  },
+  {
+    "id": 18,
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) leave your computer unlocked in a public place.",
+    "correctAnswer": "mustn't",
+    "explanation": "Unlocked computers allow unauthorized access to your data."
+  },
+  {
+    "id": 19,
+    "type": "multiple-choice",
+    "question": "What is 'encryption'?",
+    "options": ["Deleting money", "Encoding information to keep it secret", "Printing a receipt", "Signing a contract"],
+    "correctAnswer": 1,
+    "explanation": "Encryption is the process of converting information into a code."
+  },
+  {
+    "id": 20,
+    "type": "fill-in-the-blank",
+    "question": "We ___________ (must/mustn't) follow the security protocols.",
+    "correctAnswer": "must",
+    "explanation": "Following protocols is a necessary obligation."
+  },
+  {
+    "id": 21,
+    "type": "multiple-choice",
+    "question": "A 'secure connection' starts with:",
+    "options": ["http://", "https://", "www.", "ftp://"],
+    "correctAnswer": 1,
+    "explanation": "The 's' in https stands for secure."
+  },
+  {
+    "id": 22,
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) trust every phone call you receive.",
+    "correctAnswer": "mustn't",
+    "explanation": "Scammers often use phone calls (vishing) to trick people."
+  },
+  {
+    "id": 23,
+    "type": "multiple-choice",
+    "question": "What is 'skimming'?",
+    "options": ["Reading a book quickly", "Illegal copying of credit card information", "Saving money", "Painting a wall"],
+    "correctAnswer": 1,
+    "explanation": "Skimming is a method used by criminals to capture card data at ATMs or terminals."
+  },
+  {
+    "id": 24,
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) report a scam to the authorities.",
+    "correctAnswer": "must",
+    "explanation": "Reporting scams helps prevent more victims."
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "question": "A 'strong password' should include:",
+    "options": ["Only your name", "Letters, numbers, and symbols", "Only '0000'", "Your birthday"],
+    "correctAnswer": 1,
+    "explanation": "Complexity increases password security."
+  },
+  {
+    "id": 26,
+    "type": "matching",
+    "question": "Match the actions:",
+    "pairs": [
+      { "left": "Block", "right": "Stop the card" },
+      { "left": "Report", "right": "Tell the bank" },
+      { "left": "Verify", "right": "Confirm identity" }
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "What is a 'fake website' used for in fraud?",
+    "options": ["Selling cheap clothes", "Stealing login details", "Watching movies", "Downloading music"],
+    "correctAnswer": 1,
+    "explanation": "Fake websites (spoofing) are designed to look real to capture user data."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "Customers ___________ (must/mustn't) ignore suspicious messages.",
+    "correctAnswer": "mustn't",
+    "explanation": "Suspicious messages should be investigated, not ignored."
+  },
+  {
+    "id": 29,
+    "type": "multiple-choice",
+    "question": "What does 'unauthorized' mean?",
+    "options": ["Having permission", "Without permission", "Very expensive", "Fast"],
+    "correctAnswer": 1,
+    "explanation": "Unauthorized means not having official permission."
+  },
+  {
+    "id": 30,
+    "type": "fill-in-the-blank",
+    "question": "The bank ___________ (must/mustn't) monitor for unusual transactions.",
+    "correctAnswer": "must",
+    "explanation": "Monitoring is a core security duty for banks."
+  },
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is a 'scam'?",
+    "options": ["A legal bank account", "A trick to steal money", "A type of insurance", "A credit card reward"],
+    "correctAnswer": 1,
+    "explanation": "A scam is an illegal plan for making money, especially one that involves tricking people."
+  },
+  {
+    "id": 31,
+    "type": "multiple-choice",
+    "question": "If someone asks for your 'SMS code' on the phone, they are:",
+    "options": ["Probably a scammer", "Your best friend", "The bank manager", "The police"],
+    "correctAnswer": 0,
+    "explanation": "Banks never ask for SMS codes."
+  },
+  {
+    "id": 32,
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) keep your PIN private.",
+    "correctAnswer": "must",
+    "explanation": "Privacy is essential for PIN security."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "What is a 'firewall' in computer security?",
+    "options": ["A wall that is on fire", "A system to block unauthorized access", "A type of bank vault", "A fast internet connection"],
+    "correctAnswer": 1,
+    "explanation": "A firewall acts as a barrier between a trusted and an untrusted network."
+  },
+  {
+    "id": 34,
+    "type": "fill-in-the-blank",
+    "question": "Banks ___________ (must/mustn't) use advanced security technology.",
+    "correctAnswer": "must",
+    "explanation": "Using modern security is a requirement."
+  },
+  {
+    "id": 35,
+    "type": "multiple-choice",
+    "question": "What is 'vishing'?",
+    "options": ["Fishing in a boat", "Phishing over a voice call", "A type of investment", "A bank holiday"],
+    "correctAnswer": 1,
+    "explanation": "Vishing is voice phishing."
+  },
+  {
+    "id": 36,
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) download attachments from unknown senders.",
+    "correctAnswer": "mustn't",
+    "explanation": "Attachments can contain malware."
+  },
+  {
+    "id": 37,
+    "type": "multiple-choice",
+    "question": "A 'data breach' is when:",
+    "options": ["The bank closes", "Confidential info is accessed illegally", "You lose your wallet", "You get a bonus"],
+    "correctAnswer": 1,
+    "explanation": "A breach involves unauthorized access to data."
+  },
+  {
+    "id": 38,
+    "type": "fill-in-the-blank",
+    "question": "Users ___________ (must/mustn't) update their software regularly.",
+    "correctAnswer": "must",
+    "explanation": "Updates often include security patches."
+  },
+  {
+    "id": 39,
+    "type": "multiple-choice",
+    "question": "What is 'malware'?",
+    "options": ["Friendly software", "Harmful software like viruses", "A type of bank account", "An online shop"],
+    "correctAnswer": 1,
+    "explanation": "Malware is malicious software."
+  },
+  {
+    "id": 40,
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) use the same password for everything.",
+    "correctAnswer": "mustn't",
+    "explanation": "If one account is hacked, all are at risk."
+  },
+  {
+    "id": 41,
+    "type": "multiple-choice",
+    "question": "What is a 'lock icon' in the browser address bar?",
+    "options": ["The website is closed", "The connection is secure", "The website is slow", "A game icon"],
+    "correctAnswer": 1,
+    "explanation": "The lock indicates SSL/TLS security."
+  },
+  {
+    "id": 42,
+    "type": "fill-in-the-blank",
+    "question": "Everyone ___________ (must/mustn't) be careful online.",
+    "correctAnswer": "must",
+    "explanation": "Caution is a general requirement for online safety."
+  },
+  {
+    "id": 43,
+    "type": "multiple-choice",
+    "question": "What does 'compromised' mean in security?",
+    "options": ["Very safe", "Exposed or no longer secure", "Very expensive", "New"],
+    "correctAnswer": 1,
+    "explanation": "A compromised account is one that has been hacked."
+  },
+  {
+    "id": 44,
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) share your ID number with strangers.",
+    "correctAnswer": "mustn't",
+    "explanation": "ID numbers are sensitive personal data."
+  },
+  {
+    "id": 45,
+    "type": "multiple-choice",
+    "question": "What is a 'security question'?",
+    "options": ["A question about the weather", "A question to verify your identity", "A test in a bank", "A type of insurance"],
+    "correctAnswer": 1,
+    "explanation": "Security questions add a layer of verification."
+  },
+  {
+    "id": 46,
+    "type": "matching",
+    "question": "Match the risk with the protection:",
+    "pairs": [
+      { "left": "Virus", "right": "Antivirus software" },
+      { "left": "Hacker", "right": "Strong password" },
+      { "left": "Lost card", "right": "Blocking the card" }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple-choice",
+    "question": "A 'privacy policy' explains:",
+    "options": ["The history of the bank", "How your data is used", "The price of loans", "The bank's address"],
+    "correctAnswer": 1,
+    "explanation": "Privacy policies detail data handling practices."
+  },
+  {
+    "id": 48,
+    "type": "fill-in-the-blank",
+    "question": "Banks ___________ (must/mustn't) have a clear privacy policy.",
+    "correctAnswer": "must",
+    "explanation": "Transparency is a regulatory requirement."
+  },
+  {
+    "id": 49,
+    "type": "multiple-choice",
+    "question": "To 'log out' means:",
+    "options": ["To open an account", "To close a secure session", "To buy a computer", "To change your name"],
+    "correctAnswer": 1,
+    "explanation": "Logging out ends your access to a secure area."
+  },
+  {
+    "id": 50,
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) log out from public computers.",
+    "correctAnswer": "must",
+    "explanation": "If you don't log out, others can access your account."
   }
 ]

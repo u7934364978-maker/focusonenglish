@@ -1,19 +1,25 @@
 {
-  "title": "Examen Final - Segundo Trimestre",
+  "title": "Global Compliance & Final Assessment",
   "sections": [
     {
-      "id": "exam-info",
-      "title": "Información del Examen",
-      "content": "Este examen final integral de nivel C1 evalúa las competencias estratégicas, financieras y lingüísticas del segundo trimestre (semanas 13-23).\n\nÁreas clave de evaluación:\n- Gestión de riesgos empresariales (ERM) y derivados complejos (CDS, Swaps).\n- Gobierno corporativo, ética profesional y deber fiduciario.\n- Inversión sostenible (ESG), reporting no financiero y Greenwashing.\n- Cumplimiento regulatorio global (Basel III, Solvency II) y FinTech (DeFi, Crypto).\n- Estrategias de M&A, análisis cuantitativo y liderazgo en crisis.\n- Comunicación ejecutiva: Earnings calls, Investor Relations y lenguaje matizado (Hedging)."
+      "id": "regulatory-frameworks",
+      "title": "Global Regulatory Compliance",
+      "content": "Understanding the frameworks that stabilize the global financial system is critical for senior management.\n\n- **Basel III**: A global, voluntary regulatory framework on bank capital adequacy, stress testing, and market liquidity risk. It aims to strengthen the regulation, supervision, and risk management of the banking sector.\n- **Solvency II**: A directive in EU law that codifies and harmonizes the EU insurance regulation. Primarily concerned with the amount of capital that EU insurance companies must hold to reduce the risk of insolvency.\n- **Tier 1 Capital**: The core measure of a bank's financial strength from a regulator's point of view, consisting primarily of common stock and disclosed reserves.\n- **Liquidity Coverage Ratio (LCR)**: Requires banks to hold enough high-quality liquid assets to survive a 30-day stress scenario.\n- **Stress Testing**: Simulation techniques used on asset and liability portfolios to determine their reactions to different financial scenarios."
+    },
+    {
+      "id": "exam-prep",
+      "title": "Final Assessment Strategy",
+      "content": "The final exam covers all topics from Weeks 13-23. Focus on:\n\n- **Precision**: Using the correct financial terminology (e.g., *fiduciary duty* vs *stewardship*).\n- **Nuance**: Mastering hedging language to manage liability in executive communication.\n- **Authority**: Using inversion and rhetorical devices to lead negotiations and presentations.\n- **Integration**: Connecting technical concepts (like Swaps or DCF) with strategic governance and ESG goals."
     }
   ],
   "objectives": [
-    "Validar la capacidad de analizar y comunicar conceptos financieros y estratégicos complejos en un entorno de alta dirección",
-    "Demostrar el uso preciso de estructuras gramaticales avanzadas (Subjuntivo, Inversión, Pasiva de reporte, Hedging) para influir y liderar",
-    "Evaluar la comprensión de marcos regulatorios globales y dilemas éticos corporativos"
+    "Master global regulatory terminology and compliance frameworks",
+    "Successfully navigate the comprehensive C1 Trimester 2 final assessment",
+    "Demonstrate executive-level proficiency in financial English and strategic communication"
   ],
   "keyTerms": [
-    { "term": "Strategic Oversight", "definition": "The responsibility of a board or senior management to monitor and guide the long-term direction of an organization." },
-    { "term": "Institutional Grade", "definition": "Referring to investments or processes that meet the high standards required by large institutional investors." }
+    { "term": "Capital Adequacy", "definition": "The statutory minimum reserves of capital that a bank or other financial institution must have available." },
+    { "term": "Systemically Important Financial Institution (SIFI)", "definition": "A bank, insurance company, or other financial institution whose failure might trigger a financial crisis." },
+    { "term": "Compliance Oversight", "definition": "The process of ensuring that a company follows relevant laws, regulations, and business rules." }
   ]
 }

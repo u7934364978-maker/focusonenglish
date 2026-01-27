@@ -3,8 +3,13 @@
   "sections": [
     {
       "id": "exam-info",
-      "title": "Información del Examen",
-      "content": "Este examen final evalúa los conocimientos adquiridos en el segundo trimestre (semanas 13-23).\n\nTemas clave:\n- Facturación, presupuestos y procesos contables (B1).\n- Fiscalidad, cumplimiento y auditoría.\n- Reportes financieros (P&L, Balance Sheet, Cash Flow).\n- Inversiones, seguros y mercado Forex.\n- Gramática avanzada aplicada (Pasiva, Condicionales, Estilo Indirecto, Wish)."
+      "title": "Preparación para el Examen Final",
+      "content": "El examen final del segundo trimestre para el nivel B1 evalúa tu capacidad para manejar operaciones financieras corporativas y terminología de mercado en inglés.\n\n**Estructura del Examen:**\n1. **Sección de Vocabulario**: 15 preguntas sobre facturación, cumplimiento, reportes y Forex.\n2. **Sección de Gramática**: 15 preguntas sobre Voz Pasiva, Reported Speech, Condicionales y Wish.\n3. **Sección de Comprensión Lectora**: Análisis de un reporte de auditoría corto o un estado de Cash Flow.\n4. **Sección de Escritura**: Redacción de un correo electrónico breve respondiendo a una incidencia de cumplimiento o explicando una desviación presupuestaria.\n\n**Consejos para el éxito:**\n- Repasa las diferencias entre **Past Simple** y **Present Perfect** para transacciones.\n- Asegúrate de entender el **backshift** en Reported Speech.\n- Recuerda que el **Second Conditional** se usa para hipótesis actuales.\n- No confundas **Revenue** (ingresos totales) con **Net Profit** (beneficio final)."
+    },
+    {
+      "id": "exam-logistics",
+      "title": "Logística del Examen",
+      "content": "- **Duración**: 90 minutos.\n- **Material permitido**: Diccionario financiero bilingüe (solo en formato papel, si se permite).\n- **Puntuación mínima**: 70% para aprobar el trimestre."
     }
   ],
   "objectives": [

@@ -1,24 +1,29 @@
 {
-  "title": "Derivados Avanzados: Swaps y CDS",
+  "title": "Gestión de Riesgos Empresariales (ERM) y Derivados Avanzados",
   "sections": [
+    {
+      "id": "erm-concepts",
+      "title": "Enterprise Risk Management (ERM)",
+      "content": "C1 nivel. Un enfoque holístico para gestionar la incertidumbre en toda la organización.\n\n- **Risk Appetite**: Apetito de riesgo (cuánto riesgo está dispuesta a aceptar la firma).\n- **Risk Mitigants**: Mitigantes de riesgo (controles o coberturas).\n- **Key Risk Indicators (KRIs)**: Indicadores clave de riesgo.\n- **Operational Resilience**: Resiliencia operativa.\n- **Risk Aggregation**: Agregación de riesgos (visión consolidada)."
+    },
     {
       "id": "swaps-vocab",
       "title": "Vocabulario: Swaps y Credit Default Swaps",
-      "content": "C1 nivel. Instrumentos para la gestión de riesgos sistémicos.\n\n- **Interest Rate Swap**: Swap de tipos de interés (intercambio de fijo por variable)\n- **Credit Default Swap (CDS)**: Seguro contra impago de deuda\n- **Counterparty risk**: Riesgo de contraparte\n- **Notional amount**: Importe nocional\n- **Fixed vs Floating rate**: Tipo fijo vs variable\n- **Underlying debt**: Deuda subyacente\n- **Credit event**: Evento de crédito (impago, reestructuración)\n- **Collateral**: Colateral / Garantía"
+      "content": "Instrumentos para la gestión de riesgos sistémicos y de crédito.\n\n- **Interest Rate Swap**: Intercambio de flujos (fijo por variable) para gestionar riesgo de tipos.\n- **Credit Default Swap (CDS)**: Derivado que actúa como seguro contra el impago de un emisor.\n- **Counterparty risk**: El riesgo de que la otra parte del contrato incumpla.\n- **Notional amount**: El capital de referencia sobre el que se calculan los pagos.\n- **Credit event**: Un evento que dispara el pago del CDS (default, reestructuración)."
     },
     {
       "id": "swaps-grammar",
-      "title": "Gramática: Past Subjunctive for High-Level Hypotheses",
-      "content": "Usamos el **Past Subjunctive** (were) y estructuras irreales para discutir vulnerabilidades sistémicas.\n\n- If the counterparty **were** to default, the entire system would be compromised.\n- It is as though the market **had** no memory of the 2008 crisis.\n- Suppose the ECB **were** to raise rates by 200 basis points; how would our swaps be affected?\n- I would rather we **hedged** the position now than waited for a credit event."
+      "title": "Gramática: Subjuntivo de Pasado y Estructuras de Hipótesis",
+      "content": "En el nivel C1, utilizamos el **Past Subjunctive** (*were*) y estructuras como *'Suppose...'* o *'I would rather...'* para discutir escenarios críticos.\n\n- **Estructura**: If + Subject + were to + verb.\n- *If the counterparty **were to default**, the systemic impact would be catastrophic.*\n- *I **would rather** the board **approved** the hedging strategy today than tomorrow.*\n- *Suppose the credit spread **were** to widen by 500 basis points; how would our CDS position react?*"
     }
   ],
   "objectives": [
+    "Definir el marco de ERM y su importancia en la gobernanza corporativa",
     "Comprender la mecánica y los riesgos de los Interest Rate Swaps y CDS",
-    "Analizar el impacto del riesgo de contraparte en derivados OTC",
-    "Utilizar el subjuntivo y estructuras hipotéticas avanzadas para la gestión de riesgos"
+    "Utilizar el subjuntivo y estructuras hipotéticas avanzadas para el análisis de riesgos"
   ],
   "keyTerms": [
-    { "term": "Credit Default Swap", "definition": "A financial derivative or contract that allows an investor to 'swap' or offset their credit risk with that of another investor." },
-    { "term": "Notional Amount", "definition": "The nominal or face value that is used to calculate payments on a financial instrument." }
+    { "term": "Risk Appetite", "definition": "The total amount and type of risk that an organization is willing to take in pursuit of its strategic objectives." },
+    { "term": "CDS", "definition": "Credit Default Swap: A financial derivative that allows an investor to 'swap' or offset their credit risk with that of another investor." }
   ]
 }

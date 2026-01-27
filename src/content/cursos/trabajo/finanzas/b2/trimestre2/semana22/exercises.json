@@ -2,42 +2,397 @@
   {
     "id": 1,
     "type": "multiple-choice",
-    "question": "What does the 'G' in ESG stand for?",
-    "options": ["Growth", "Governance", "Green", "Global"],
+    "question": "What does the 'S' in ESG stand for?",
+    "options": ["Sustainability", "Social", "Standard", "Security"],
     "correctAnswer": 1,
     "explanation": "ESG stands for Environmental, Social, and Governance."
   },
   {
     "id": 2,
     "type": "fill-in-the-blank",
-    "question": "The CEO __________ (say) to be very committed to sustainability.",
-    "correctAnswer": "is said",
-    "explanation": "Advanced Passive: Subject + is said + to be."
+    "question": "It is __________ (believe) that global interest rates will remain high for another year.",
+    "correctAnswer": "believed",
+    "explanation": "Advanced passive with reporting verb."
   },
   {
     "id": 3,
     "type": "multiple-choice",
-    "question": "A company that pretends to be eco-friendly but isn't is doing:",
-    "options": ["Green investing", "Greenwashing", "Impact trading", "Social hedging"],
-    "correctAnswer": 1,
-    "explanation": "Greenwashing is misleading the public about a company's environmental impact."
+    "question": "Which term refers to deceptive marketing that makes a company appear more environmentally friendly than it is?",
+    "options": ["Greenwashing", "Stakeholding", "Hedging", "Carbon offsetting"],
+    "correctAnswer": 0,
+    "explanation": "Greenwashing is a misleading practice in sustainability reporting."
   },
   {
     "id": 4,
     "type": "matching",
-    "question": "Match the term with its meaning:",
+    "question": "Match the market instruments with their descriptions:",
     "pairs": [
-      { "left": "Stakeholders", "right": "All people affected by the business" },
-      { "left": "Green bonds", "right": "Debt for environmental projects" },
-      { "left": "Impact", "right": "Social or environmental effect" }
+      { "left": "Green Bonds", "right": "Debt for eco-friendly projects" },
+      { "left": "Commodities", "right": "Raw materials like oil and gold" },
+      { "left": "Sovereign Debt", "right": "Bonds issued by a national government" }
     ]
   },
   {
     "id": 5,
     "type": "multiple-choice",
-    "question": "It _______ that carbon taxes will increase next year.",
-    "options": ["is expected", "is expect", "expects", "is expecting"],
+    "question": "The CEO __________ reported to be considering a merger with a European rival.",
+    "options": ["is", "has", "it", "was"],
     "correctAnswer": 0,
-    "explanation": "Passive reporting structure: It is expected that..."
+    "explanation": "Subject + is + reported + to be."
+  },
+  {
+    "id": 6,
+    "type": "fill-in-the-blank",
+    "question": "Currency __________ is the risk that a change in exchange rates will negatively affect an investment.",
+    "correctAnswer": "risk",
+    "explanation": "Also known as exchange rate risk."
+  },
+  {
+    "id": 7,
+    "type": "multiple-choice",
+    "question": "Which of these are typical 'Emerging Markets'?",
+    "options": ["USA and UK", "Japan and Germany", "Brazil, India, and Vietnam", "Switzerland and Norway"],
+    "correctAnswer": 2,
+    "explanation": "Emerging markets are economies moving toward developed status."
+  },
+  {
+    "id": 8,
+    "type": "multiple-choice",
+    "question": "It __________ expected that the Fed will cut rates in September.",
+    "options": ["is", "believed", "was been", "is being"],
+    "correctAnswer": 0,
+    "explanation": "It + is + expected + that."
+  },
+  {
+    "id": 9,
+    "type": "fill-in-the-blank",
+    "question": "Stakeholders are groups of people __________ (affect) by the company's activities.",
+    "correctAnswer": "affected",
+    "explanation": "Stakeholders include employees, customers, and the community."
+  },
+  {
+    "id": 10,
+    "type": "multiple-choice",
+    "question": "What is 'Hedging' in the context of international finance?",
+    "options": ["Buying property in the countryside", "An investment to reduce risk of price movements", "Avoiding all international investments", "Paying more taxes than required"],
+    "correctAnswer": 1,
+    "explanation": "Hedging is like insurance for investments."
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "The new ESG regulations __________ thought to be too strict by some analysts.",
+    "options": ["are", "is", "have", "were being"],
+    "correctAnswer": 0,
+    "explanation": "Plural subject (regulations) + are + thought + to be."
+  },
+  {
+    "id": 12,
+    "type": "matching",
+    "question": "Match the ESG component with the concern:",
+    "pairs": [
+      { "left": "Environmental", "right": "Carbon emissions and waste" },
+      { "left": "Social", "right": "Labor standards and diversity" },
+      { "left": "Governance", "right": "Executive pay and board structure" }
+    ]
+  },
+  {
+    "id": 13,
+    "type": "fill-in-the-blank",
+    "question": "Sustainable __________ refers to investment strategies that consider ESG factors.",
+    "correctAnswer": "investing",
+    "explanation": "Also known as SRI (Socially Responsible Investing)."
+  },
+  {
+    "id": 14,
+    "type": "multiple-choice",
+    "question": "Which of these is a 'Commodity'?",
+    "options": ["Apple Inc. stock", "A 10-year Treasury bond", "Natural Gas", "A checking account"],
+    "correctAnswer": 2,
+    "explanation": "Natural gas is a physical raw material (commodity)."
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "question": "It is __________ that the firm will release its ESG report next week.",
+    "options": ["rumored", "saying", "tell", "believing"],
+    "correctAnswer": 0,
+    "explanation": "Advanced passive requires a past participle (rumored)."
+  },
+  {
+    "id": 16,
+    "type": "fill-in-the-blank",
+    "question": "A __________ bond is a type of fixed-income instrument specifically earmarked to raise money for climate and environmental projects.",
+    "correctAnswer": "green",
+    "explanation": "Green bonds are growing rapidly in popularity."
+  },
+  {
+    "id": 17,
+    "type": "multiple-choice",
+    "question": "What is the 'Carbon Footprint'?",
+    "options": ["The size of a factory", "The total amount of greenhouse gases produced by an entity", "A tax on shoe companies", "The amount of paper used in an office"],
+    "correctAnswer": 1,
+    "explanation": "It measures environmental impact."
+  },
+  {
+    "id": 18,
+    "type": "multiple-choice",
+    "question": "Emerging market bonds __________ considered to be higher risk than US Treasuries.",
+    "options": ["are", "is", "were being", "has"],
+    "correctAnswer": 0,
+    "explanation": "Plural subject + are + considered + to be."
+  },
+  {
+    "id": 19,
+    "type": "fill-in-the-blank",
+    "question": "The __________ rate is the price of one currency in terms of another.",
+    "correctAnswer": "exchange",
+    "explanation": "Exchange rates drive currency risk."
+  },
+  {
+    "id": 20,
+    "type": "matching",
+    "question": "Match the term with its meaning:",
+    "pairs": [
+      { "left": "Transparency", "right": "Openness and clarity in reporting" },
+      { "left": "Ethics", "right": "Moral principles in business" },
+      { "left": "Diversity", "right": "Variety of backgrounds in the workforce" }
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple-choice",
+    "question": "It is __________ that the merger will be approved by the regulators.",
+    "options": ["understood", "understand", "understanding", "to understand"],
+    "correctAnswer": 0,
+    "explanation": "Advanced passive (It is understood that...)."
+  },
+  {
+    "id": 22,
+    "type": "fill-in-the-blank",
+    "question": "Corporate __________ refers to the system of rules, practices, and processes by which a firm is directed.",
+    "correctAnswer": "governance",
+    "explanation": "The 'G' in ESG."
+  },
+  {
+    "id": 23,
+    "type": "multiple-choice",
+    "question": "Why would an investor buy 'Sovereign Debt'?",
+    "options": ["To get rich quickly with high-risk stocks", "To have a steady income stream from a government", "To buy gold coins", "To avoid paying any banking fees"],
+    "correctAnswer": 1,
+    "explanation": "Sovereign debt (government bonds) is typically for stability and income."
+  },
+  {
+    "id": 24,
+    "type": "multiple-choice",
+    "question": "Greenwashing __________ believed to be a major obstacle to true sustainable finance.",
+    "options": ["is", "are", "were", "it is"],
+    "correctAnswer": 0,
+    "explanation": "Singular subject (Greenwashing) + is + believed."
+  },
+  {
+    "id": 25,
+    "type": "fill-in-the-blank",
+    "question": "An asset __________ is a group of securities that exhibit similar characteristics.",
+    "correctAnswer": "class",
+    "explanation": "Examples include equities, fixed income, and commodities."
+  },
+  {
+    "id": 26,
+    "type": "multiple-choice",
+    "question": "What is 'Impact Investing'?",
+    "options": ["Investing in companies that make boxing equipment", "Investing to generate social or environmental benefits alongside financial returns", "Investing only in large technology companies", "Day trading for quick profits"],
+    "correctAnswer": 1,
+    "explanation": "Impact investing seeks 'double bottom line' results."
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "It has __________ claimed that the company manipulated its social impact data.",
+    "options": ["been", "be", "being", "is"],
+    "correctAnswer": 0,
+    "explanation": "Present perfect passive structure (It has been claimed)."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "The 'triple bottom line' refers to Profit, People, and the __________.",
+    "correctAnswer": "Planet",
+    "explanation": "Economic, social, and environmental performance."
+  },
+  {
+    "id": 29,
+    "type": "matching",
+    "question": "Match the currency with the country/region:",
+    "pairs": [
+      { "left": "Yen", "right": "Japan" },
+      { "left": "Franc", "right": "Switzerland" },
+      { "left": "Real", "right": "Brazil" }
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple-choice",
+    "question": "The stock market __________ expected to remain volatile due to geopolitical tensions.",
+    "options": ["is", "was", "it", "being"],
+    "correctAnswer": 0,
+    "explanation": "Standard reporting passive."
+  },
+  {
+    "id": 31,
+    "type": "fill-in-the-blank",
+    "question": "A __________-neutral company removes as much CO2 from the atmosphere as it emits.",
+    "correctAnswer": "carbon",
+    "explanation": "Carbon neutrality is a goal for many ESG-focused firms."
+  },
+  {
+    "id": 32,
+    "type": "multiple-choice",
+    "question": "What is 'Asset Allocation'?",
+    "options": ["Finding where you left your keys", "Dividing an investment portfolio among different asset categories", "Selling all your stocks to buy a house", "Hiring a new accountant"],
+    "correctAnswer": 1,
+    "explanation": "Allocation is the main driver of portfolio risk/return."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "Many institutional investors __________ said to be divesting from fossil fuels.",
+    "options": ["are", "is", "have", "were being"],
+    "correctAnswer": 0,
+    "explanation": "Plural subject + are + said + to + infinitive."
+  },
+  {
+    "id": 34,
+    "type": "fill-in-the-blank",
+    "question": "Fixed __________ refers to assets like bonds that pay a set rate of interest.",
+    "correctAnswer": "income",
+    "explanation": "Fixed income is generally less volatile than equities."
+  },
+  {
+    "id": 35,
+    "type": "multiple-choice",
+    "question": "What is a 'Fiduciary Duty'?",
+    "options": ["A duty to pay as little tax as possible", "A legal obligation to act in the best interest of another party (e.g., a client)", "A type of tax on financial transactions", "A mandatory office meeting"],
+    "correctAnswer": 1,
+    "explanation": "Fiduciary duty is central to investment management ethics."
+  },
+  {
+    "id": 36,
+    "type": "multiple-choice",
+    "question": "It is __________ that the global economy will avoid a recession.",
+    "options": ["hoped", "hoping", "hope", "to hope"],
+    "correctAnswer": 0,
+    "explanation": "Passive construction (It is hoped that...)."
+  },
+  {
+    "id": 37,
+    "type": "fill-in-the-blank",
+    "question": "A __________ fund is an investment fund that pools capital from accredited investors and invests in a variety of assets.",
+    "correctAnswer": "hedge",
+    "explanation": "Hedge funds often use complex strategies like short-selling."
+  },
+  {
+    "id": 38,
+    "type": "matching",
+    "question": "Match the entity with the governance role:",
+    "pairs": [
+      { "left": "Board of Directors", "right": "Oversight and strategy" },
+      { "left": "Shareholders", "right": "Owners of the company" },
+      { "left": "Auditors", "right": "Independent verification of finances" }
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple-choice",
+    "question": "The company's social initiatives __________ thought to have improved employee retention.",
+    "options": ["are", "is", "was", "has"],
+    "correctAnswer": 0,
+    "explanation": "Plural subject + are + thought + to have + past participle."
+  },
+  {
+    "id": 40,
+    "type": "fill-in-the-blank",
+    "question": "Market __________ refers to how easily an asset can be bought or sold without affecting its price.",
+    "correctAnswer": "liquidity",
+    "explanation": "Liquidity is vital for international market operations."
+  },
+  {
+    "id": 41,
+    "type": "multiple-choice",
+    "question": "Which is an example of an 'Environmental' factor in ESG?",
+    "options": ["Executive bonuses", "Board diversity", "Water scarcity and management", "Employee health and safety"],
+    "correctAnswer": 2,
+    "explanation": "Water management is an environmental issue."
+  },
+  {
+    "id": 42,
+    "type": "multiple-choice",
+    "question": "It __________ believed that the technology sector is currently overvalued.",
+    "options": ["is", "was", "being", "it"],
+    "correctAnswer": 0,
+    "explanation": "Reporting passive."
+  },
+  {
+    "id": 43,
+    "type": "fill-in-the-blank",
+    "question": "A __________ market is a market where prices are rising or expected to rise.",
+    "correctAnswer": "bull",
+    "explanation": "Opposite of a bear market."
+  },
+  {
+    "id": 44,
+    "type": "matching",
+    "question": "Match the reporting verb with its typical strength:",
+    "pairs": [
+      { "left": "It is proven that", "right": "Certainty" },
+      { "left": "It is suggested that", "right": "Possibility" },
+      { "left": "It is rumored that", "right": "Unverified information" }
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple-choice",
+    "question": "Which of these is a major 'Commodities' exchange?",
+    "options": ["NASDAQ", "Chicago Mercantile Exchange (CME)", "London Stock Exchange", "Silicon Valley Bank"],
+    "correctAnswer": 1,
+    "explanation": "CME is a global leader in derivatives and commodities trading."
+  },
+  {
+    "id": 46,
+    "type": "fill-in-the-blank",
+    "question": "Diversification helps to reduce non-__________ risk.",
+    "correctAnswer": "systematic",
+    "explanation": "Systematic risk (market-wide) cannot be diversified away."
+  },
+  {
+    "id": 47,
+    "type": "multiple-choice",
+    "question": "What does 'Divestment' mean?",
+    "options": ["Buying more shares in a company", "Selling off assets or investments for ethical or financial reasons", "Changing the name of a company", "Paying out dividends"],
+    "correctAnswer": 1,
+    "explanation": "Divestment is the opposite of investment."
+  },
+  {
+    "id": 48,
+    "type": "multiple-choice",
+    "question": "The fund manager __________ reported to have outperformed the index by 5%.",
+    "options": ["is", "has", "was been", "is being"],
+    "correctAnswer": 0,
+    "explanation": "Subject + is + reported + to have + past participle."
+  },
+  {
+    "id": 49,
+    "type": "fill-in-the-blank",
+    "question": "A 'safe __________' asset is an investment that is expected to retain its value during times of market turbulence.",
+    "correctAnswer": "haven",
+    "explanation": "Gold and US Treasuries are classic safe havens."
+  },
+  {
+    "id": 50,
+    "type": "multiple-choice",
+    "question": "What is 'Board Independence'?",
+    "options": ["The board members all live in different countries", "The board has members who have no material relationship with the company", "The board never meets with the CEO", "The board is not allowed to vote"],
+    "correctAnswer": 1,
+    "explanation": "Independent boards are a key governance best practice."
   }
 ]

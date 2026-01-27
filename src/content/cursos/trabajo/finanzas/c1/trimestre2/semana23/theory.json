@@ -1,24 +1,30 @@
 {
-  "title": "Repaso del Segundo Trimestre",
+  "title": "Review & Sustainable Finance (ESG)",
   "sections": [
     {
-      "id": "review-vocab",
-      "title": "Repaso de Conceptos Estratégicos y Financieros",
-      "content": "Resumen de los términos clave de las últimas semanas:\n\n- **Governance & Risk**: ERM, Fiduciary duty, Board of Directors, Basel III/Solvency II.\n- **Complex Instruments**: CDS, Interest Rate Swaps, Notional amount, Counterparty risk.\n- **Growth & Sustainability**: M&A, Sinergies, ESG, Green bonds, Greenwashing.\n- **Communication**: Earnings calls, Guidance, Bottom line, Hedging/Softening language."
+      "id": "esg-reporting",
+      "title": "ESG and Non-Financial Reporting",
+      "content": "Sustainable finance has moved from a niche to a mandatory requirement for C-suite executives.\n\n- **ESG (Environmental, Social, and Governance)**: The three central factors in measuring the sustainability and ethical impact of an investment.\n- **Impact Investing**: Investments made with the intention to generate positive, measurable social and environmental impact alongside a financial return.\n- **Green Bonds**: Fixed-income instruments specifically earmarked to raise money for climate and environmental projects.\n- **Greenwashing**: The process of conveying a false impression or providing misleading information about how a company's products are more environmentally sound.\n- **Non-Financial Reporting Directive (NFRD)**: Regulatory frameworks requiring companies to disclose information on their ESG performance."
     },
     {
       "id": "review-grammar",
-      "title": "Repaso de Estructuras Avanzadas",
-      "content": "Estructuras principales aprendidas:\n\n- **Causatives**: Delegación y procesos legales.\n- **Subjunctive**: Recomendaciones y mandatos formales.\n- **Hypothesizing (Past Subjunctive)**: Escenarios de alto riesgo.\n- **Reporting & Hedging**: Pasiva avanzada (is said to be) y lenguaje matizado (would appear to suggest).\n- **Rhetorical Devices**: Inversión y frases escindidas (cleft sentences) para liderazgo persuasivo."
+      "title": "Grammatical Precision for Executives",
+      "content": "Refining advanced structures for high-stakes communication:\n\n- **Causative Forms**: Using *have/get something done* or *make/let someone do* for delegating legal and compliance tasks (e.g., 'We had the audit completed by a Big Four firm').\n- **Subjunctive Mandates**: Using the base form after verbs of requirement (e.g., 'It is vital that the CFO **be** present').\n- **Inversion for Emphasis**: Shifting word order to sound more authoritative (e.g., 'Under no circumstances **can we** ignore the liquidity risk').\n- **Advanced Hedging**: Using modal verbs and passive reporting to manage liability (e.g., 'It would appear to suggest a potential shortfall')."
+    },
+    {
+      "id": "trimester-synthesis",
+      "title": "Trimester Consolidation",
+      "content": "This trimester focused on high-level risk, governance, and strategy. You should now be able to:\n1. Discuss **Enterprise Risk Management (ERM)** and derivative strategies (Swaps, CDS).\n2. Navigate **Corporate Governance** crises and ethical dilemmas.\n3. Analyze **ESG** metrics and sustainable investment strategies.\n4. Defend financial positions using **persuasive rhetorical devices**."
     }
   ],
   "objectives": [
-    "Consolidar el léxico financiero de nivel C1 para alta dirección y gestión de fondos",
-    "Dominar las sutilezas gramaticales necesarias para la comunicación ejecutiva",
-    "Prepararse para el examen final integral del trimestre"
+    "Master ESG terminology and non-financial reporting standards",
+    "Consolidate advanced C1 grammar for executive reporting",
+    "Synthesize risk management and governance concepts from the trimester"
   ],
   "keyTerms": [
     { "term": "Fiduciary Duty", "definition": "A legal obligation of one party to act in the best interest of another." },
-    { "term": "Stewardship", "definition": "The job of supervising or taking care of something, such as an organization or property." }
+    { "term": "Materiality", "definition": "The threshold at which ESG information becomes relevant to investors' decision-making." },
+    { "term": "Stewardship", "definition": "The responsible management and oversight of assets to create long-term value." }
   ]
 }

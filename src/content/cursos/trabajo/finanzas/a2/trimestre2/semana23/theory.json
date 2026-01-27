@@ -2,23 +2,29 @@
   "title": "Repaso del Segundo Trimestre",
   "sections": [
     {
-      "id": "review-vocab",
-      "title": "Repaso de Vocabulario",
-      "content": "Resumen de los términos clave de las últimas semanas:\n\n- **Savings & Budgeting**: Income, Expenses, Goal, Save, Spend.\n- **Loans & Insurance**: Debt, Interest, Installment, Coverage, Claim.\n- **Digital & Travel**: App, Security, Exchange rate, Currency, Fee.\n- **Investing & Career**: Stock, Risk, Profit, Skills, Experience."
+      "id": "review-topics",
+      "title": "Resumen de Temas Principales",
+      "content": "Este trimestre hemos cubierto las bases de las finanzas personales y el entorno bancario en inglés A2.\n\n1. **Budgets & Savings**: Cómo planificar tus gastos y ahorrar para objetivos (Future with 'going to').\n2. **Future Predictions**: Predecir tendencias del mercado y promesas (Will).\n3. **Banking Services**: Comparar servicios usando comparativos y superlativos.\n4. **Security & Rules**: Reglas de seguridad bancaria y prevención de fraude (Must / Mustn't).\n5. **Professional World**: Vocabulario de oficina y hablar de experiencias (Present Perfect)."
     },
     {
-      "id": "review-grammar",
-      "title": "Repaso de Gramática",
-      "content": "Estructuras principales aprendidas:\n\n- **Going to**: Planes e intenciones.\n- **Will**: Promesas y predicciones.\n- **First Conditional**: Situaciones reales y sus consecuencias.\n- **Comparatives & Superlatives**: Comparar productos y servicios.\n- **Must / Mustn't**: Obligación y prohibición.\n- **Present Perfect**: Experiencia laboral."
+      "id": "grammar-review",
+      "title": "Repaso Gramatical",
+      "content": "**Futuro (Going to vs Will):**\n- 'Going to' para planes decididos: I am going to save money for a car.\n- 'Will' para decisiones rápidas o predicciones: I think the market will grow.\n\n**Condicional 1 (First Conditional):**\n- If I save money, I will buy a house.\n\n**Superlativos:**\n- This is the cheapest loan.\n\n**Obligación:**\n- You must block your card.\n\n**Experiencias (Present Perfect):**\n- I have worked in a bank for two years."
+    },
+    {
+      "id": "vocabulary-review",
+      "title": "Vocabulario Clave",
+      "content": "- **Loan**: Préstamo.\n- **Budget**: Presupuesto.\n- **Fee / Commission**: Comisión.\n- **Scam / Fraud**: Estafa / Fraude.\n- **Branch / HQ**: Sucursal / Oficina Central.\n- **Skills / Experience**: Habilidades / Experiencia."
     }
   ],
   "objectives": [
-    "Consolidar el vocabulario financiero de nivel A2",
-    "Repasar todas las estructuras gramaticales del trimestre",
+    "Consolidar los conocimientos gramaticales del trimestre (Futuro, Comparativos, Superlativos, Present Perfect, Must)",
+    "Repasar el vocabulario financiero y profesional esencial",
     "Prepararse para el examen final del trimestre"
   ],
   "keyTerms": [
-    { "term": "Review", "definition": "The process of studying something again to remember it or understand it better." },
-    { "term": "Assessment", "definition": "A test or evaluation of what you have learned." }
+    { "term": "Compound Interest", "definition": "Interest calculated on the principal and also on the accumulated interest." },
+    { "term": "Liquidity", "definition": "The availability of liquid assets (cash) to a market or company." },
+    { "term": "Portfolio", "definition": "A range of investments held by a person or organization." }
   ]
 }

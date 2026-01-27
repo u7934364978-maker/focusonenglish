@@ -39,5 +39,365 @@
     "options": ["we hit", "did we hit", "we had hit", "we are hitting"],
     "correctAnswer": 1,
     "explanation": "Inversion for emphasis: Not only + auxiliary + subject + verb."
+  },
+  {
+    "id": 6,
+    "type": "multiple-choice",
+    "question": "In the context of ESG, 'Materiality' refers to:",
+    "options": ["The physical assets of a company", "The importance of information to investors", "The raw materials used in production", "The total market capitalization"],
+    "correctAnswer": 1,
+    "explanation": "Materiality determines which ESG factors are significant enough to affect financial performance or investor decisions."
+  },
+  {
+    "id": 7,
+    "type": "fill-in-the-blank",
+    "question": "The board insisted that the CEO _______ (resign) immediately following the scandal.",
+    "correctAnswer": "resign",
+    "explanation": "The subjunctive mood is used after verbs of requirement or insistence."
+  },
+  {
+    "id": 8,
+    "type": "multiple-choice",
+    "question": "Which instrument is specifically used to fund environmental projects?",
+    "options": ["Junk Bonds", "Green Bonds", "Zero-coupon Bonds", "Convertible Bonds"],
+    "correctAnswer": 1,
+    "explanation": "Green bonds are fixed-income instruments earmarked for climate and environmental projects."
+  },
+  {
+    "id": 9,
+    "type": "multiple-choice",
+    "question": "We had the compliance report _______ (audit) by an external firm.",
+    "options": ["audit", "audited", "auditing", "to audit"],
+    "correctAnswer": 1,
+    "explanation": "Causative structure: have + object + past participle (done)."
+  },
+  {
+    "id": 10,
+    "type": "matching",
+    "question": "Match the ESG component to its example:",
+    "pairs": [
+      { "left": "Environmental", "right": "Carbon footprint reduction" },
+      { "left": "Social", "right": "Labor standards and diversity" },
+      { "left": "Governance", "right": "Executive compensation policy" }
+    ]
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "What is 'Impact Investing'?",
+    "options": ["Investing only in high-impact tech stocks", "Investing to generate social/environmental benefits alongside returns", "Short-selling companies with poor ethics", "Investing in high-volatility emerging markets"],
+    "correctAnswer": 1,
+    "explanation": "Impact investing seeks a dual return: financial and social/environmental."
+  },
+  {
+    "id": 12,
+    "type": "fill-in-the-blank",
+    "question": "Rarely _______ (we encounter) such a blatant case of greenwashing in this sector.",
+    "correctAnswer": "do we encounter",
+    "explanation": "Inversion after negative/restrictive adverbs like 'Rarely'."
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "question": "An 'Interest Rate Swap' allows companies to:",
+    "options": ["Exchange fixed-rate debt for floating-rate debt", "Swap employees between departments", "Change their legal headquarters", "Buy insurance against currency devaluation"],
+    "correctAnswer": 0,
+    "explanation": "Swaps are used to manage interest rate exposure by exchanging cash flow streams."
+  },
+  {
+    "id": 14,
+    "type": "fill-in-the-blank",
+    "question": "It is imperative that every stakeholder _______ (be) informed of the merger.",
+    "correctAnswer": "be",
+    "explanation": "Subjunctive mood: 'It is imperative that + subject + base form'."
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "question": "The term 'Stewardship' in finance refers to:",
+    "options": ["Managing a kitchen on a private jet", "Responsible management of assets for long-term value", "Aggressive tax avoidance strategies", "The liquidation of a failing company"],
+    "correctAnswer": 1,
+    "explanation": "Stewardship involves the oversight of assets to ensure sustainable growth."
+  },
+  {
+    "id": 16,
+    "type": "matching",
+    "question": "Match the risk management term:",
+    "pairs": [
+      { "left": "ERM", "right": "Holistic company-wide risk approach" },
+      { "left": "VaR", "right": "Statistical measure of potential loss" },
+      { "left": "Hedging", "right": "Reducing risk through offsetting positions" }
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple-choice",
+    "question": "Under no circumstances _______ the confidential client data be shared.",
+    "options": ["should", "we should", "did", "we must"],
+    "correctAnswer": 0,
+    "explanation": "Inversion: Under no circumstances + auxiliary + subject."
+  },
+  {
+    "id": 18,
+    "type": "fill-in-the-blank",
+    "question": "We need to get the shareholders _______ (approve) the new ESG policy.",
+    "correctAnswer": "to approve",
+    "explanation": "Causative with 'get': get + person + to + infinitive."
+  },
+  {
+    "id": 19,
+    "type": "multiple-choice",
+    "question": "What is 'Greenwashing'?",
+    "options": ["Cleaning solar panels with recycled water", "Misleading claims about environmental practices", "Investing exclusively in renewable energy", "A type of money laundering through eco-firms"],
+    "correctAnswer": 1,
+    "explanation": "Greenwashing is a deceptive marketing tactic to appear more sustainable than a company actually is."
+  },
+  {
+    "id": 20,
+    "type": "multiple-choice",
+    "question": "The CFO is reported _______ (flee) the country before the audit began.",
+    "options": ["to flee", "to have fled", "fleeing", "having fled"],
+    "correctAnswer": 1,
+    "explanation": "Advanced passive: subject + is reported + to have + past participle (for past actions)."
+  },
+  {
+    "id": 21,
+    "type": "fill-in-the-blank",
+    "question": "Little _______ (they realize) that the derivative position was unhedged.",
+    "correctAnswer": "did they realize",
+    "explanation": "Inversion after 'Little' at the beginning of a sentence."
+  },
+  {
+    "id": 22,
+    "type": "multiple-choice",
+    "question": "A 'Fiduciary Duty' means acting in the best interest of:",
+    "options": ["The CEO", "The board of directors", "The client/beneficiary", "The government"],
+    "correctAnswer": 2,
+    "explanation": "A fiduciary must prioritize the interest of the party they represent."
+  },
+  {
+    "id": 23,
+    "type": "matching",
+    "question": "Match the reporting term:",
+    "pairs": [
+      { "left": "NFRD", "right": "EU directive for ESG disclosure" },
+      { "left": "Guidance", "right": "Company's forecast for future performance" },
+      { "left": "Bottom line", "right": "Net income / Profit" }
+    ]
+  },
+  {
+    "id": 24,
+    "type": "multiple-choice",
+    "question": "If the counterparty _______ to default, we would lose the entire notion value.",
+    "options": ["was", "were", "is", "had been"],
+    "correctAnswer": 1,
+    "explanation": "Second conditional (hypothetical): 'If + subject + were to...'."
+  },
+  {
+    "id": 25,
+    "type": "fill-in-the-blank",
+    "question": "It was the lack of transparency _______ led to the governance failure.",
+    "correctAnswer": "that",
+    "explanation": "Cleft sentence: It + be + noun + that/who..."
+  },
+  {
+    "id": 26,
+    "type": "multiple-choice",
+    "question": "What does the 'S' in ESG stand for?",
+    "options": ["Sustainability", "Social", "Stewardship", "Solvency"],
+    "correctAnswer": 1,
+    "explanation": "ESG stands for Environmental, Social, and Governance."
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "The company _______ (force) to liquidate its assets by the regulator.",
+    "options": ["was made", "made", "was make", "has made"],
+    "correctAnswer": 0,
+    "explanation": "Passive voice: 'be made to do something'."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "Only by diversifying _______ (we can) mitigate the systemic risk.",
+    "correctAnswer": "can we",
+    "explanation": "Inversion after 'Only by + gerund'."
+  },
+  {
+    "id": 29,
+    "type": "matching",
+    "question": "Match the derivative concept:",
+    "pairs": [
+      { "left": "Notional amount", "right": "Face value used to calculate payments" },
+      { "left": "Counterparty risk", "right": "Risk of the other party failing" },
+      { "left": "Premium", "right": "Cost of buying an option" }
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple-choice",
+    "question": "Which of these is a 'G' factor in ESG?",
+    "options": ["Water usage", "Employee health and safety", "Board diversity and independence", "Carbon emissions"],
+    "correctAnswer": 2,
+    "explanation": "Governance (G) includes board structure, executive pay, and audit procedures."
+  },
+  {
+    "id": 31,
+    "type": "fill-in-the-blank",
+    "question": "Had the auditors _______ (check) the accruals, they would have found the error.",
+    "correctAnswer": "checked",
+    "explanation": "Third conditional inversion: Had + subject + past participle."
+  },
+  {
+    "id": 32,
+    "type": "multiple-choice",
+    "question": "A 'Proxy Fight' is a conflict over:",
+    "options": ["Corporate control and board seats", "The price of raw materials", "Shipping routes in the Pacific", "IT server locations"],
+    "correctAnswer": 0,
+    "explanation": "A proxy fight occurs when shareholders try to use their proxy votes to replace management."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "It is essential that the audit committee _______ (be) independent.",
+    "options": ["is", "be", "was", "will be"],
+    "correctAnswer": 1,
+    "explanation": "Subjunctive mood: 'It is essential that + subject + base form'."
+  },
+  {
+    "id": 34,
+    "type": "matching",
+    "question": "Match the communicative strategy:",
+    "pairs": [
+      { "left": "Hedging", "right": "Using cautious language (might, could)" },
+      { "left": "Softening", "right": "Making bad news less direct" },
+      { "left": "Inversion", "right": "Changing word order for emphasis" }
+    ]
+  },
+  {
+    "id": 35,
+    "type": "fill-in-the-blank",
+    "question": "I would like to have the contract _______ (review) by the legal department.",
+    "correctAnswer": "reviewed",
+    "explanation": "Causative have: have + object + past participle."
+  },
+  {
+    "id": 36,
+    "type": "multiple-choice",
+    "question": "What is the primary goal of 'Enterprise Risk Management' (ERM)?",
+    "options": ["To eliminate all risk", "To manage risks holistically across the entire organization", "To fire risky employees", "To increase short-term stock prices"],
+    "correctAnswer": 1,
+    "explanation": "ERM looks at risks in an integrated way rather than in silos."
+  },
+  {
+    "id": 37,
+    "type": "multiple-choice",
+    "question": "Hardly _______ the market opened when the crash occurred.",
+    "options": ["the market had", "had the market", "did the market", "the market was"],
+    "correctAnswer": 1,
+    "explanation": "Inversion: Hardly + had + subject + past participle."
+  },
+  {
+    "id": 38,
+    "type": "fill-in-the-blank",
+    "question": "What the investors are looking for _______ (be) consistent returns.",
+    "correctAnswer": "is",
+    "explanation": "Cleft sentence: What clause + is + complement."
+  },
+  {
+    "id": 39,
+    "type": "matching",
+    "question": "Match the ESG term to its definition:",
+    "pairs": [
+      { "left": "Green Finance", "right": "Funding for eco-friendly projects" },
+      { "left": "Carbon Offset", "right": "Compensating for emissions elsewhere" },
+      { "left": "Divestment", "right": "Selling assets for ethical reasons" }
+    ]
+  },
+  {
+    "id": 40,
+    "type": "multiple-choice",
+    "question": "Which verb is typically used for a mandated action in the subjunctive?",
+    "options": ["Suggest", "Mandate", "Hope", "Think"],
+    "correctAnswer": 1,
+    "explanation": "Verbs like 'mandate', 'insist', 'require', and 'demand' trigger the subjunctive."
+  },
+  {
+    "id": 41,
+    "type": "fill-in-the-blank",
+    "question": "The CEO had the secretary _______ (schedule) the emergency meeting.",
+    "correctAnswer": "schedule",
+    "explanation": "Causative have (active): have + person + base form."
+  },
+  {
+    "id": 42,
+    "type": "multiple-choice",
+    "question": "What is 'Non-Financial Reporting'?",
+    "options": ["Reporting your personal hobbies", "Disclosure of ESG and ethical performance", "Hiding financial losses", "Reporting to family members instead of the board"],
+    "correctAnswer": 1,
+    "explanation": "Non-financial reporting focuses on metrics other than profit and loss, such as environmental impact."
+  },
+  {
+    "id": 43,
+    "type": "multiple-choice",
+    "question": "No sooner _______ the merger than the stock price plummeted.",
+    "options": ["we announced", "had we announced", "we had announced", "announced we"],
+    "correctAnswer": 1,
+    "explanation": "Inversion: No sooner + had + subject + past participle."
+  },
+  {
+    "id": 44,
+    "type": "fill-in-the-blank",
+    "question": "We got the consultants _______ (analyze) the market trends.",
+    "correctAnswer": "to analyze",
+    "explanation": "Causative get: get + person + to + infinitive."
+  },
+  {
+    "id": 45,
+    "type": "matching",
+    "question": "Match the risk type:",
+    "pairs": [
+      { "left": "Operational", "right": "Failures in internal processes" },
+      { "left": "Systemic", "right": "Risk of collapse of an entire market" },
+      { "left": "Reputational", "right": "Damage to brand and public trust" }
+    ]
+  },
+  {
+    "id": 46,
+    "type": "multiple-choice",
+    "question": "A 'Cleft Sentence' is primarily used to:",
+    "options": ["Save space", "Add emphasis to a specific part of the sentence", "Make the sentence shorter", "Avoid using verbs"],
+    "correctAnswer": 1,
+    "explanation": "Cleft sentences (e.g., 'It was the CEO who...') highlight a particular piece of information."
+  },
+  {
+    "id": 47,
+    "type": "fill-in-the-blank",
+    "question": "The regulator suggested that the bank _______ (increase) its capital reserves.",
+    "correctAnswer": "increase",
+    "explanation": "Subjunctive mood after 'suggested that'."
+  },
+  {
+    "id": 48,
+    "type": "multiple-choice",
+    "question": "Which of these is a 'Social' (S) factor?",
+    "options": ["Carbon emissions", "Tax transparency", "Human rights in the supply chain", "Audit committee independence"],
+    "correctAnswer": 2,
+    "explanation": "Social factors involve relationships with employees, suppliers, and communities."
+  },
+  {
+    "id": 49,
+    "type": "multiple-choice",
+    "question": "Scarcely _______ the news broke before investors started selling.",
+    "options": ["the news had", "had the news", "did the news", "the news was"],
+    "correctAnswer": 1,
+    "explanation": "Inversion: Scarcely + had + subject + past participle."
+  },
+  {
+    "id": 50,
+    "type": "fill-in-the-blank",
+    "question": "It is our reputation _______ (be) at stake here.",
+    "correctAnswer": "that is",
+    "explanation": "Cleft sentence emphasizing the subject."
   }
 ]

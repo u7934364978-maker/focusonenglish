@@ -2,42 +2,389 @@
   {
     "id": 1,
     "type": "multiple-choice",
-    "question": "What is 'Revenue'?",
-    "options": ["The profit after taxes", "The total money received from sales", "The money owed to suppliers", "The cash in the bank"],
+    "question": "Which financial statement shows the assets, liabilities, and equity of a company?",
+    "options": ["Profit and Loss", "Balance Sheet", "Cash Flow Statement", "Audit Report"],
     "correctAnswer": 1,
-    "explanation": "Revenue is the 'top line' or gross income from sales."
+    "explanation": "The Balance Sheet provides a snapshot of a company's financial position at a specific point in time."
   },
   {
     "id": 2,
     "type": "fill-in-the-blank",
-    "question": "If we __________ (reduce) costs, we __________ (have) more profit.",
-    "correctAnswer": "reduced... would have",
-    "explanation": "Second Conditional: If + Past Simple, Would + Verb."
+    "question": "If we __________ (have) more cash flow, we would invest in new equipment.",
+    "correctAnswer": "had",
+    "explanation": "The Second Conditional uses 'If + Past Simple' for the hypothetical condition."
   },
   {
     "id": 3,
     "type": "multiple-choice",
-    "question": "Which document shows the assets and liabilities of a company?",
-    "options": ["P&L statement", "Balance Sheet", "Invoice", "Receipt"],
-    "correctAnswer": 1,
-    "explanation": "A Balance Sheet provides a snapshot of a company's financial position at a specific point in time."
+    "question": "The 'Bottom line' of a Profit and Loss statement refers to:",
+    "options": ["Gross Profit", "Total Revenue", "Net Profit", "Operating Expenses"],
+    "correctAnswer": 2,
+    "explanation": "Net Profit is called the 'bottom line' because it is the last line of the financial statement after all expenses."
   },
   {
     "id": 4,
     "type": "matching",
-    "question": "Match the term with its meaning:",
+    "question": "Match the term with its description:",
     "pairs": [
-      { "left": "Net Profit", "right": "Final profit after all costs" },
-      { "left": "Expenditure", "right": "Total spending" },
-      { "left": "Liquidity", "right": "Cash availability" }
+      { "left": "Revenue", "right": "Total sales generated" },
+      { "left": "Liquidity", "right": "Ability to pay short-term debt" },
+      { "left": "Solvency", "right": "Ability to meet long-term obligations" }
     ]
   },
   {
     "id": 5,
     "type": "multiple-choice",
-    "question": "If the company _______ bankrupt, the shareholders _______ lose everything.",
-    "options": ["went / would", "goes / will", "gone / would", "go / will"],
+    "question": "If the interest rates __________ (go) up, our loan payments would increase.",
+    "options": ["go", "went", "gone", "going"],
+    "correctAnswer": 1,
+    "explanation": "Second Conditional: If + Past Simple (went)."
+  },
+  {
+    "id": 6,
+    "type": "fill-in-the-blank",
+    "question": "The __________ (burn) rate is how fast a new company spends its initial capital.",
+    "correctAnswer": "burn",
+    "explanation": "The term is 'burn rate'."
+  },
+  {
+    "id": 7,
+    "type": "multiple-choice",
+    "question": "What is 'CapEx'?",
+    "options": ["Capital Expenditure", "Capacity Expansion", "Capital Expense", "Capturing Experts"],
     "correctAnswer": 0,
-    "explanation": "Second Conditional: 'went' (Past Simple) and 'would'."
+    "explanation": "CapEx stands for Capital Expenditure, which are funds used by a company to acquire or upgrade physical assets."
+  },
+  {
+    "id": 8,
+    "type": "fill-in-the-blank",
+    "question": "If I __________ (be) the manager, I would change the reporting process.",
+    "correctAnswer": "were",
+    "explanation": "In formal English, 'were' is used for all subjects in the Second Conditional."
+  },
+  {
+    "id": 9,
+    "type": "multiple-choice",
+    "question": "An 'Inflow' of cash means:",
+    "options": ["Money leaving the company", "Money entering the company", "Money lost in the stock market", "Money owed to suppliers"],
+    "correctAnswer": 1,
+    "explanation": "An inflow is money coming into the business, such as from sales or loans."
+  },
+  {
+    "id": 10,
+    "type": "fill-in-the-blank",
+    "question": "They __________ (not hire) more staff if the revenue stayed the same.",
+    "correctAnswer": "would not hire",
+    "explanation": "The second part of the Second Conditional uses 'would + verb'."
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "Which category of cash flow includes paying salaries and buying inventory?",
+    "options": ["Investing Activities", "Financing Activities", "Operating Activities", "Accounting Activities"],
+    "correctAnswer": 2,
+    "explanation": "Operating activities are the core business activities that generate cash."
+  },
+  {
+    "id": 12,
+    "type": "fill-in-the-blank",
+    "question": "The Gross Profit is the revenue minus the cost of __________ (good) sold.",
+    "correctAnswer": "goods",
+    "explanation": "The formula is Revenue - COGS (Cost of Goods Sold)."
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "question": "If the audit _______ (be) unsuccessful, the company would face fines.",
+    "options": ["is", "was", "be", "were"],
+    "correctAnswer": 3,
+    "explanation": "Using 'were' in the Second Conditional for formal contexts."
+  },
+  {
+    "id": 14,
+    "type": "matching",
+    "question": "Match the cash flow category with the example:",
+    "pairs": [
+      { "left": "Operating", "right": "Sales to customers" },
+      { "left": "Investing", "right": "Buying a new factory" },
+      { "left": "Financing", "right": "Taking a bank loan" }
+    ]
+  },
+  {
+    "id": 15,
+    "type": "fill-in-the-blank",
+    "question": "Operating expenses are often abbreviated as __________.",
+    "correctAnswer": "OpEx",
+    "explanation": "OpEx stands for Operating Expenses."
+  },
+  {
+    "id": 16,
+    "type": "multiple-choice",
+    "question": "What would happen if the company __________ (fail) its compliance check?",
+    "options": ["fails", "failed", "failing", "fail"],
+    "correctAnswer": 1,
+    "explanation": "Second Conditional: If + Past Simple (failed)."
+  },
+  {
+    "id": 17,
+    "type": "fill-in-the-blank",
+    "question": "A __________ (ledger) is a book or electronic file for recording financial transactions.",
+    "correctAnswer": "ledger",
+    "explanation": "A ledger is the principal account book of a business."
+  },
+  {
+    "id": 18,
+    "type": "multiple-choice",
+    "question": "Which term describes a company's ability to meet its long-term financial commitments?",
+    "options": ["Liquidity", "Solvency", "Profitability", "Efficiency"],
+    "correctAnswer": 1,
+    "explanation": "Solvency is the ability of a company to meet its long-term debts and financial obligations."
+  },
+  {
+    "id": 19,
+    "type": "fill-in-the-blank",
+    "question": "If we __________ (reduce) costs by 5%, we would meet our target.",
+    "correctAnswer": "reduced",
+    "explanation": "Second Conditional uses Past Simple in the 'if' clause."
+  },
+  {
+    "id": 20,
+    "type": "multiple-choice",
+    "question": "What is 'Turnover' in a business context?",
+    "options": ["The rate at which employees quit", "Total sales revenue", "A type of pastry", "Moving office furniture"],
+    "correctAnswer": 1,
+    "explanation": "In the UK and some other regions, 'turnover' means the total amount of money a company receives of its sales."
+  },
+  {
+    "id": 21,
+    "type": "fill-in-the-blank",
+    "question": "Revenue minus Operating Expenses equals __________ income.",
+    "correctAnswer": "operating",
+    "explanation": "Operating Income is calculated by subtracting OpEx from Gross Profit (or Revenue - COGS - OpEx)."
+  },
+  {
+    "id": 22,
+    "type": "multiple-choice",
+    "question": "If the currency __________ (devalue), our exports would be cheaper.",
+    "options": ["devalues", "devalued", "devaluing", "devalue"],
+    "correctAnswer": 1,
+    "explanation": "Second Conditional: If + Past Simple (devalued)."
+  },
+  {
+    "id": 23,
+    "type": "fill-in-the-blank",
+    "question": "The P&L statement is also called the __________ statement.",
+    "correctAnswer": "income",
+    "explanation": "P&L stands for Profit and Loss, often referred to as the Income Statement."
+  },
+  {
+    "id": 24,
+    "type": "matching",
+    "question": "Match the term with its Spanish equivalent:",
+    "pairs": [
+      { "left": "Outflow", "right": "Salida de dinero" },
+      { "left": "Bottom line", "right": "Beneficio neto / Resultado final" },
+      { "left": "Fixed assets", "right": "Activos fijos" }
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "question": "Where would you find 'Accounts Payable'?",
+    "options": ["Profit and Loss", "Balance Sheet", "Cash Flow Statement", "Marketing Plan"],
+    "correctAnswer": 1,
+    "explanation": "Accounts Payable is a liability and appears on the Balance Sheet."
+  },
+  {
+    "id": 26,
+    "type": "fill-in-the-blank",
+    "question": "We __________ (save) a lot of money if we outsourced the IT department.",
+    "correctAnswer": "would save",
+    "explanation": "Second Conditional: would + verb."
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "What is 'Depreciation'?",
+    "options": ["An increase in asset value", "The allocation of the cost of an asset over its useful life", "A bank fee", "A type of tax"],
+    "correctAnswer": 1,
+    "explanation": "Depreciation is the systematic reduction in the recorded cost of a fixed asset."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "If you __________ (win) the lottery, would you quit your job in the bank?",
+    "correctAnswer": "won",
+    "explanation": "Second Conditional: If + Past Simple."
+  },
+  {
+    "id": 29,
+    "type": "multiple-choice",
+    "question": "A 'Statement of Cash Flows' is important because:",
+    "options": ["It shows if a company can pay its bills", "It lists the company's favorite colors", "It shows the CEO's salary", "It lists all the company's products"],
+    "correctAnswer": 0,
+    "explanation": "Cash flow is vital to ensure the company has enough liquid money to meet its daily obligations."
+  },
+  {
+    "id": 30,
+    "type": "fill-in-the-blank",
+    "question": "The company __________ (be) more competitive if it invested in R&D.",
+    "correctAnswer": "would be",
+    "explanation": "Second Conditional: would + verb."
+  },
+  {
+    "id": 31,
+    "type": "multiple-choice",
+    "question": "What does 'R&D' stand for?",
+    "options": ["Risk and Debt", "Research and Development", "Revenue and Dividends", "Rules and Decisions"],
+    "correctAnswer": 1,
+    "explanation": "R&D stands for Research and Development."
+  },
+  {
+    "id": 32,
+    "type": "fill-in-the-blank",
+    "question": "If the marketing campaign __________ (work), we would see results soon.",
+    "correctAnswer": "worked",
+    "explanation": "Second Conditional: If + Past Simple."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "What is 'working capital'?",
+    "options": ["The capital of a country", "Current assets minus current liabilities", "The building where people work", "The money used to buy coffee for the office"],
+    "correctAnswer": 1,
+    "explanation": "Working capital is the difference between a company's current assets and its current liabilities."
+  },
+  {
+    "id": 34,
+    "type": "matching",
+    "question": "Match the abbreviation with the full term:",
+    "pairs": [
+      { "left": "COGS", "right": "Cost of Goods Sold" },
+      { "left": "EPS", "right": "Earnings Per Share" },
+      { "left": "ROI", "right": "Return on Investment" }
+    ]
+  },
+  {
+    "id": 35,
+    "type": "fill-in-the-blank",
+    "question": "If we __________ (not have) the loan, we wouldn't be able to buy the warehouse.",
+    "correctAnswer": "did not have",
+    "explanation": "Second Conditional negative: If + did not + verb."
+  },
+  {
+    "id": 36,
+    "type": "multiple-choice",
+    "question": "A 'Quarterly' report is issued every:",
+    "options": ["Month", "Two months", "Three months", "Six months"],
+    "correctAnswer": 2,
+    "explanation": "A quarter is three months, so a quarterly report is released four times a year."
+  },
+  {
+    "id": 37,
+    "type": "fill-in-the-blank",
+    "question": "The CFO said that if we __________ (lose) this client, it would be a disaster.",
+    "correctAnswer": "lost",
+    "explanation": "Second Conditional: If + Past Simple."
+  },
+  {
+    "id": 38,
+    "type": "multiple-choice",
+    "question": "Which of these is a 'Liability'?",
+    "options": ["Cash", "Inventory", "Accounts Receivable", "Bank Loan"],
+    "correctAnswer": 3,
+    "explanation": "A bank loan is something the company owes, making it a liability."
+  },
+  {
+    "id": 39,
+    "type": "fill-in-the-blank",
+    "question": "I would be very surprised if they __________ (cancel) the project.",
+    "correctAnswer": "cancelled",
+    "explanation": "Second Conditional: If + Past Simple."
+  },
+  {
+    "id": 40,
+    "type": "multiple-choice",
+    "question": "What is 'Amortization'?",
+    "options": ["Buying a house", "The process of spreading the cost of an intangible asset", "A type of bank insurance", "Forgiving a debt"],
+    "correctAnswer": 1,
+    "explanation": "Amortization is similar to depreciation but applies to intangible assets like patents or trademarks."
+  },
+  {
+    "id": 41,
+    "type": "fill-in-the-blank",
+    "question": "If the shareholders __________ (agree), we would proceed with the merger.",
+    "correctAnswer": "agreed",
+    "explanation": "Second Conditional: If + Past Simple."
+  },
+  {
+    "id": 42,
+    "type": "multiple-choice",
+    "question": "The term 'Variance' in budgeting refers to:",
+    "options": ["The total budget", "The difference between planned and actual results", "The manager's signature", "A type of tax"],
+    "correctAnswer": 1,
+    "explanation": "Variance analysis is the quantitative investigation of the difference between actual and planned behavior."
+  },
+  {
+    "id": 43,
+    "type": "fill-in-the-blank",
+    "question": "The auditor __________ (not be) so strict if our records were better.",
+    "correctAnswer": "would not be",
+    "explanation": "Second Conditional: would not + verb."
+  },
+  {
+    "id": 44,
+    "type": "matching",
+    "question": "Match the asset type:",
+    "pairs": [
+      { "left": "Cash", "right": "Current Asset" },
+      { "left": "Machinery", "right": "Fixed Asset" },
+      { "left": "Patent", "right": "Intangible Asset" }
+    ]
+  },
+  {
+    "id": 45,
+    "type": "fill-in-the-blank",
+    "question": "If there __________ (be) no risk, everyone would be a billionaire.",
+    "correctAnswer": "were",
+    "explanation": "Using 'were' in Second Conditional for hypothetical 'there be'."
+  },
+  {
+    "id": 46,
+    "type": "multiple-choice",
+    "question": "What is 'Leverage' in finance?",
+    "options": ["Using borrowed money to increase potential return", "Hiring more employees", "Closing a branch", "Opening a new account"],
+    "correctAnswer": 0,
+    "explanation": "Leverage involves using debt (borrowed capital) in an attempt to increase the returns on an investment."
+  },
+  {
+    "id": 47,
+    "type": "fill-in-the-blank",
+    "question": "They __________ (reach) the break-even point sooner if they increased sales.",
+    "correctAnswer": "would reach",
+    "explanation": "Second Conditional: would + verb."
+  },
+  {
+    "id": 48,
+    "type": "multiple-choice",
+    "question": "What does 'EBITDA' stand for?",
+    "options": ["Earnings Before Interest, Taxes, Depreciation, and Amortization", "Every Bank In Total Debt Always", "Electronic Banking Interest and Tax Daily Amount", "Earnings Before Investments, Transactions, and Debt Analysis"],
+    "correctAnswer": 0,
+    "explanation": "EBITDA is a measure of a company's overall financial performance."
+  },
+  {
+    "id": 49,
+    "type": "fill-in-the-blank",
+    "question": "If the market __________ (crash), we would lose our investment.",
+    "correctAnswer": "crashed",
+    "explanation": "Second Conditional: If + Past Simple."
+  },
+  {
+    "id": 50,
+    "type": "multiple-choice",
+    "question": "The 'Break-even point' is when:",
+    "options": ["The company is bankrupt", "Revenue equals total costs", "The CEO retires", "The stock price doubles"],
+    "correctAnswer": 1,
+    "explanation": "The break-even point is the level of production at which total revenues equal total expenses."
   }
 ]

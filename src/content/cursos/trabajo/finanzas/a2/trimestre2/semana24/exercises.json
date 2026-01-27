@@ -2,9 +2,385 @@
   {
     "id": 1,
     "type": "multiple-choice",
-    "question": "Are you ready for the final exam?",
-    "options": ["Yes", "I need more review", "Maybe", "I am nervous but ready"],
+    "question": "Which of these is a 'fixed expense'?",
+    "options": ["Buying a coffee", "Monthly rent", "Going to the cinema", "Buying a gift"],
+    "correctAnswer": 1,
+    "explanation": "Rent is a fixed expense because it stays the same every month."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "I have ___________ (be) to three job interviews this month.",
+    "correctAnswer": "been",
+    "explanation": "Present perfect participle of 'be'."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "What should you do if your card is stolen?",
+    "options": ["Wait until tomorrow", "Report it and block it immediately", "Nothing", "Buy a new wallet"],
+    "correctAnswer": 1,
+    "explanation": "Immediate blocking prevents unauthorized use."
+  },
+  {
+    "id": 4,
+    "type": "fill-in-the-blank",
+    "question": "If the interest rate ___________ (go) up, loans will be more expensive.",
+    "correctAnswer": "goes",
+    "explanation": "First conditional present part."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "A 'bureau de change' is used to:",
+    "options": ["Deposit checks", "Exchange foreign currency", "Withdraw large amounts of cash", "Apply for a mortgage"],
+    "correctAnswer": 1,
+    "explanation": "Bureau de change specializes in currency exchange."
+  },
+  {
+    "id": 6,
+    "type": "matching",
+    "question": "Match the banking actions:",
+    "pairs": [
+      { "left": "Deposit", "right": "Put money in" },
+      { "left": "Withdraw", "right": "Take money out" },
+      { "left": "Transfer", "right": "Move money between accounts" }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple-choice",
+    "question": "What is 'phishing'?",
+    "options": ["A way to catch fish", "A fraudulent email to steal data", "A type of bank account", "An investment strategy"],
+    "correctAnswer": 1,
+    "explanation": "Phishing is an online scam."
+  },
+  {
+    "id": 8,
+    "type": "fill-in-the-blank",
+    "question": "This is the ___________ (expensive) house in the street.",
+    "correctAnswer": "most expensive",
+    "explanation": "Superlative of 'expensive'."
+  },
+  {
+    "id": 9,
+    "type": "multiple-choice",
+    "question": "A 'mortgage' is a loan specifically for:",
+    "options": ["A car", "A house", "A holiday", "Education"],
+    "correctAnswer": 1,
+    "explanation": "Mortgages are for real estate."
+  },
+  {
+    "id": 10,
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) reveal your PIN to anyone.",
+    "correctAnswer": "mustn't",
+    "explanation": "PIN security is critical."
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "What is 'net income'?",
+    "options": ["Total before taxes", "The amount you take home after taxes", "The money you spend", "A bank fee"],
+    "correctAnswer": 1,
+    "explanation": "Net income is your take-home pay."
+  },
+  {
+    "id": 12,
+    "type": "fill-in-the-blank",
+    "question": "They ___________ (have/has) just signed the contract.",
+    "correctAnswer": "have",
+    "explanation": "'Have' for plural 'They'."
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "question": "A 'saving goal' is:",
+    "options": ["A type of bank", "The amount of money you want to save", "A football score", "An expensive car"],
+    "correctAnswer": 1,
+    "explanation": "A goal is a target amount."
+  },
+  {
+    "id": 14,
+    "type": "fill-in-the-blank",
+    "question": "Which bank has the ___________ (low) fees?",
+    "correctAnswer": "lowest",
+    "explanation": "Superlative of 'low'."
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "question": "What does 'ATM' stand for?",
+    "options": ["Automated Teller Machine", "All The Money", "Automatic Transaction Method", "Access To Money"],
     "correctAnswer": 0,
-    "explanation": "This is a warm-up! Good luck on your final trimester exam."
+    "explanation": "ATM is the cash machine."
+  },
+  {
+    "id": 16,
+    "type": "fill-in-the-blank",
+    "question": "I haven't ___________ (finish) the budget yet.",
+    "correctAnswer": "finished",
+    "explanation": "Present perfect participle."
+  },
+  {
+    "id": 17,
+    "type": "multiple-choice",
+    "question": "A 'CV' or 'résumé' describes your:",
+    "options": ["Bank balance", "Work experience and education", "Family history", "Health"],
+    "correctAnswer": 1,
+    "explanation": "CVs are for job applications."
+  },
+  {
+    "id": 18,
+    "type": "fill-in-the-blank",
+    "question": "He ___________ (will) help you with the application.",
+    "correctAnswer": "will",
+    "explanation": "Future offer."
+  },
+  {
+    "id": 19,
+    "type": "multiple-choice",
+    "question": "What is 'commission'?",
+    "options": ["A bank building", "A fee for a service", "A type of coin", "A manager's name"],
+    "correctAnswer": 1,
+    "explanation": "Commission is a service fee."
+  },
+  {
+    "id": 20,
+    "type": "fill-in-the-blank",
+    "question": "We ___________ (be) in this office for three years.",
+    "correctAnswer": "have been",
+    "explanation": "Present perfect for duration."
+  },
+  {
+    "id": 21,
+    "type": "multiple-choice",
+    "question": "What is a 'scam'?",
+    "options": ["A high-interest account", "A fraudulent scheme", "A new bank branch", "A loan application"],
+    "correctAnswer": 1,
+    "explanation": "Scam means fraud."
+  },
+  {
+    "id": 22,
+    "type": "fill-in-the-blank",
+    "question": "This is the ___________ (good) exchange rate of the week.",
+    "correctAnswer": "best",
+    "explanation": "Irregular superlative of 'good'."
+  },
+  {
+    "id": 23,
+    "type": "multiple-choice",
+    "question": "To 'lend' money means:",
+    "options": ["To give it temporarily", "To take it temporarily", "To spend it", "To save it"],
+    "correctAnswer": 0,
+    "explanation": "Lending is giving for a time."
+  },
+  {
+    "id": 24,
+    "type": "fill-in-the-blank",
+    "question": "If you save more, you ___________ (have) more money later.",
+    "correctAnswer": "will have",
+    "explanation": "First conditional result."
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "question": "What is a 'PIN'?",
+    "options": ["Personal Identification Number", "Private Internal Network", "Public ID Note", "Postage Index Number"],
+    "correctAnswer": 0,
+    "explanation": "PIN is your secret code."
+  },
+  {
+    "id": 26,
+    "type": "matching",
+    "question": "Match the workplace terms:",
+    "pairs": [
+      { "left": "Colleague", "right": "Co-worker" },
+      { "left": "Salary", "right": "Pay" },
+      { "left": "Manager", "right": "Boss" }
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "What does 'inflation' mean?",
+    "options": ["Prices going up", "Prices going down", "More jobs available", "Less taxes"],
+    "correctAnswer": 0,
+    "explanation": "Inflation is price increase."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "She ___________ (never) used a credit card before.",
+    "correctAnswer": "has never",
+    "explanation": "Present perfect with 'never'."
+  },
+  {
+    "id": 29,
+    "type": "multiple-choice",
+    "question": "A 'balance' in your account is:",
+    "options": ["The total money you have", "The money you owe", "The bank's name", "A type of loan"],
+    "correctAnswer": 0,
+    "explanation": "Balance is the available funds."
+  },
+  {
+    "id": 30,
+    "type": "fill-in-the-blank",
+    "question": "The bank ___________ (be) closed on Sundays.",
+    "correctAnswer": "is",
+    "explanation": "Present simple for general truth."
+  },
+  {
+    "id": 31,
+    "type": "multiple-choice",
+    "question": "What is 'overtime'?",
+    "options": ["Extra work hours", "Holiday pay", "Sick leave", "A lunch break"],
+    "correctAnswer": 0,
+    "explanation": "Overtime is working beyond standard hours."
+  },
+  {
+    "id": 32,
+    "type": "fill-in-the-blank",
+    "question": "I ___________ (not/see) the manager today.",
+    "correctAnswer": "haven't seen",
+    "explanation": "Present perfect negative."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "Which of these is a 'foreign currency'?",
+    "options": ["Euros in Spain", "Dollars in USA", "Yen in Japan", "Both Yen and Dollars if you are in Spain"],
+    "correctAnswer": 3,
+    "explanation": "Foreign currency depends on your location."
+  },
+  {
+    "id": 34,
+    "type": "fill-in-the-blank",
+    "question": "This is the ___________ (bad) loan offer.",
+    "correctAnswer": "worst",
+    "explanation": "Superlative of 'bad'."
+  },
+  {
+    "id": 35,
+    "type": "multiple-choice",
+    "question": "To 'apply' for a job means to:",
+    "options": ["Submit an application", "Quit the job", "Fire someone", "Work for free"],
+    "correctAnswer": 0,
+    "explanation": "Applying is seeking a position."
+  },
+  {
+    "id": 36,
+    "type": "fill-in-the-blank",
+    "question": "They are ___________ (go) to open a new branch.",
+    "correctAnswer": "going",
+    "explanation": "Future plan 'going to'."
+  },
+  {
+    "id": 37,
+    "type": "multiple-choice",
+    "question": "What is '2FA'?",
+    "options": ["Two-factor authentication", "Two financial accounts", "Twice a year", "Two for one"],
+    "correctAnswer": 0,
+    "explanation": "Security process with two steps."
+  },
+  {
+    "id": 38,
+    "type": "fill-in-the-blank",
+    "question": "Have you ___________ (call) the bank?",
+    "correctAnswer": "called",
+    "explanation": "Present perfect question."
+  },
+  {
+    "id": 39,
+    "type": "multiple-choice",
+    "question": "A 'savings account' is used to:",
+    "options": ["Keep money for the future", "Pay for daily groceries only", "Buy a car immediately", "Borrow money from the bank"],
+    "correctAnswer": 0,
+    "explanation": "Savings accounts are for accumulating funds."
+  },
+  {
+    "id": 40,
+    "type": "fill-in-the-blank",
+    "question": "I've ___________ (just) received an alert.",
+    "correctAnswer": "just",
+    "explanation": "Recent event."
+  },
+  {
+    "id": 41,
+    "type": "multiple-choice",
+    "question": "What is a 'statement'?",
+    "options": ["A list of transactions in your account", "A type of loan", "The bank's main door", "A credit card PIN"],
+    "correctAnswer": 0,
+    "explanation": "Statements show account activity."
+  },
+  {
+    "id": 42,
+    "type": "fill-in-the-blank",
+    "question": "She is the ___________ (talented) employee.",
+    "correctAnswer": "most talented",
+    "explanation": "Superlative of long adjective."
+  },
+  {
+    "id": 43,
+    "type": "multiple-choice",
+    "question": "If you are 'redundant', you:",
+    "options": ["Get a promotion", "Lose your job due to business changes", "Work very hard", "Are a manager"],
+    "correctAnswer": 1,
+    "explanation": "Redundancy is job loss from lack of need."
+  },
+  {
+    "id": 44,
+    "type": "fill-in-the-blank",
+    "question": "We ___________ (finish) the audit yesterday.",
+    "correctAnswer": "finished",
+    "explanation": "Past simple for specific time."
+  },
+  {
+    "id": 45,
+    "type": "multiple-choice",
+    "question": "What is 'equity'?",
+    "options": ["The value of ownership in an asset", "A type of loan interest", "A bank building", "A credit card"],
+    "correctAnswer": 0,
+    "explanation": "Equity is ownership value."
+  },
+  {
+    "id": 46,
+    "type": "matching",
+    "question": "Match the opposites:",
+    "pairs": [
+      { "left": "Success", "right": "Failure" },
+      { "left": "Growth", "right": "Decline" },
+      { "left": "Secure", "right": "Risky" }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple-choice",
+    "question": "A 'promotion' means:",
+    "options": ["Getting a higher position", "Losing your job", "Getting a lower salary", "Moving to a new city"],
+    "correctAnswer": 0,
+    "explanation": "Promotion is upward movement in a job."
+  },
+  {
+    "id": 48,
+    "type": "fill-in-the-blank",
+    "question": "Have you ___________ (ever) been to New York?",
+    "correctAnswer": "ever",
+    "explanation": "Experience question."
+  },
+  {
+    "id": 49,
+    "type": "multiple-choice",
+    "question": "What is 'collateral'?",
+    "options": ["Security for a loan", "A type of bank account", "An expensive car", "A credit card fee"],
+    "correctAnswer": 0,
+    "explanation": "Collateral guarantees a loan."
+  },
+  {
+    "id": 50,
+    "type": "fill-in-the-blank",
+    "question": "This is the ___________ (important) meeting of the trimester.",
+    "correctAnswer": "most important",
+    "explanation": "Superlative of 'important'."
   }
 ]

@@ -2,42 +2,385 @@
   {
     "id": 1,
     "type": "multiple-choice",
-    "question": "What is 'Teamwork'?",
-    "options": ["Trabajo solo", "Trabajo en equipo", "Trabajo duro", "Trabajo en casa"],
-    "correctAnswer": 1,
-    "explanation": "'Teamwork' means working together with others."
+    "question": "What is a 'job interview'?",
+    "options": ["A meeting to find a new employee", "A party", "A holiday trip", "A bank loan"],
+    "correctAnswer": 0,
+    "explanation": "A job interview is a formal meeting in which an applicant is asked questions to determine their suitability for a job."
   },
   {
     "id": 2,
     "type": "fill-in-the-blank",
-    "question": "I __________ (work) in customer service for two years.",
-    "correctAnswer": "have worked",
-    "explanation": "We use 'have' + past participle 'worked' for the Present Perfect."
+    "question": "I ___________ (have/has) worked in finance for five years.",
+    "correctAnswer": "have",
+    "explanation": "We use 'have' with the pronoun 'I' in the Present Perfect."
   },
   {
     "id": 3,
     "type": "multiple-choice",
-    "question": "If you work 40 hours a week, it is a ________ job.",
-    "options": ["Part-time", "Temporary", "Full-time", "Free"],
-    "correctAnswer": 2,
-    "explanation": "Full-time usually means working the standard amount of hours (e.g., 40)."
+    "question": "A 'branch' of a bank is:",
+    "options": ["A part of a tree", "A local office of the bank", "The main headquarters", "A type of credit card"],
+    "correctAnswer": 1,
+    "explanation": "In banking, a branch is a location that offers services to customers."
   },
   {
     "id": 4,
-    "type": "matching",
-    "question": "Match the term with its meaning:",
-    "pairs": [
-      { "left": "Hire", "right": "Give a job" },
-      { "left": "Skills", "right": "Abilities" },
-      { "left": "Salary", "right": "Payment for work" }
-    ]
+    "type": "fill-in-the-blank",
+    "question": "She ___________ (have/has) already finished the report.",
+    "correctAnswer": "has",
+    "explanation": "We use 'has' with the pronoun 'She' in the Present Perfect."
   },
   {
     "id": 5,
     "type": "multiple-choice",
-    "question": "Has he ________ an interview yet?",
-    "options": ["had", "has", "have", "having"],
+    "question": "What does 'skills' mean?",
+    "options": ["Old tools", "Things you can do well", "A list of prices", "The time you go home"],
+    "correctAnswer": 1,
+    "explanation": "Skills are the abilities or expertise needed to do a job."
+  },
+  {
+    "id": 6,
+    "type": "matching",
+    "question": "Match the office terms:",
+    "pairs": [
+      { "left": "Manager", "right": "The boss" },
+      { "left": "Applicant", "right": "Candidate for a job" },
+      { "left": "Position", "right": "The job role" }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple-choice",
+    "question": "To have 'experience' means you have:",
+    "options": ["Done the job before", "Never worked", "No education", "A lot of money"],
     "correctAnswer": 0,
-    "explanation": "In Present Perfect, we use the past participle of the verb. The past participle of 'have' is 'had'."
+    "explanation": "Experience is knowledge or skill gained through doing something."
+  },
+  {
+    "id": 8,
+    "type": "fill-in-the-blank",
+    "question": "Have you ___________ (be) to the new branch yet?",
+    "correctAnswer": "been",
+    "explanation": "'Been' is the past participle of the verb 'to be'."
+  },
+  {
+    "id": 9,
+    "type": "multiple-choice",
+    "question": "What is a 'deadline'?",
+    "options": ["A type of phone line", "The time when something must be finished", "A meeting room", "A bank manager's name"],
+    "correctAnswer": 1,
+    "explanation": "A deadline is the latest time or date by which something should be completed."
+  },
+  {
+    "id": 10,
+    "type": "fill-in-the-blank",
+    "question": "I haven't sent the email ___________ (yet/already).",
+    "correctAnswer": "yet",
+    "explanation": "We use 'yet' in negative sentences and questions."
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "Where is the 'HQ' (Headquarters)?",
+    "options": ["In every small town", "The central and most important office", "Inside an ATM", "On a credit card"],
+    "correctAnswer": 1,
+    "explanation": "HQ stands for headquarters, the main office of an organization."
+  },
+  {
+    "id": 12,
+    "type": "fill-in-the-blank",
+    "question": "He has ___________ (just/yet) arrived at the office.",
+    "correctAnswer": "just",
+    "explanation": "We use 'just' to talk about something that happened a very short time ago."
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "question": "What is a 'CV' or 'Résumé'?",
+    "options": ["A type of computer", "A document with your work history", "A bank statement", "A security code"],
+    "correctAnswer": 1,
+    "explanation": "A CV (Curriculum Vitae) or résumé summarizes your education and work experience."
+  },
+  {
+    "id": 14,
+    "type": "fill-in-the-blank",
+    "question": "We have ___________ (see) the new candidate.",
+    "correctAnswer": "seen",
+    "explanation": "'Seen' is the past participle of 'see'."
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "question": "If you are 'promoted', you get:",
+    "options": ["A higher position and more responsibility", "Fired", "A lower salary", "A new computer only"],
+    "correctAnswer": 0,
+    "explanation": "Promotion is moving to a more important role in a company."
+  },
+  {
+    "id": 16,
+    "type": "fill-in-the-blank",
+    "question": "I have ___________ (send) ten applications this week.",
+    "correctAnswer": "sent",
+    "explanation": "'Sent' is the past participle of 'send'."
+  },
+  {
+    "id": 17,
+    "type": "multiple-choice",
+    "question": "What is 'onboarding'?",
+    "options": ["Getting on a boat", "The process of starting a new job", "Closing a bank account", "Paying a fee"],
+    "correctAnswer": 1,
+    "explanation": "Onboarding is the integration of a new employee into a company."
+  },
+  {
+    "id": 18,
+    "type": "fill-in-the-blank",
+    "question": "They ___________ (have/has) lived in London for two years.",
+    "correctAnswer": "have",
+    "explanation": "We use 'have' with 'They'."
+  },
+  {
+    "id": 19,
+    "type": "multiple-choice",
+    "question": "To 'apply' for a job means:",
+    "options": ["To quit the job", "To ask for the job formally", "To fire someone", "To go on holiday"],
+    "correctAnswer": 1,
+    "explanation": "Applying is the act of formally requesting to be considered for a position."
+  },
+  {
+    "id": 20,
+    "type": "fill-in-the-blank",
+    "question": "She has ___________ (write) a new policy.",
+    "correctAnswer": "written",
+    "explanation": "'Written' is the past participle of 'write'."
+  },
+  {
+    "id": 21,
+    "type": "multiple-choice",
+    "question": "What is a 'salary'?",
+    "options": ["A type of food", "The money you earn for working", "A bank's name", "A professional skill"],
+    "correctAnswer": 1,
+    "explanation": "Salary is a fixed regular payment made by an employer to an employee."
+  },
+  {
+    "id": 22,
+    "type": "fill-in-the-blank",
+    "question": "Have you ___________ (meet) the new manager?",
+    "correctAnswer": "met",
+    "explanation": "'Met' is the past participle of 'meet'."
+  },
+  {
+    "id": 23,
+    "type": "multiple-choice",
+    "question": "If someone is 'unemployed', they:",
+    "options": ["Work a lot", "Don't have a job", "Are very rich", "Work in a bank"],
+    "correctAnswer": 1,
+    "explanation": "Unemployed means without a job."
+  },
+  {
+    "id": 24,
+    "type": "fill-in-the-blank",
+    "question": "He ___________ (hasn't/haven't) finished the task yet.",
+    "correctAnswer": "hasn't",
+    "explanation": "Negative form for 'He'."
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "question": "What does 'teamwork' mean?",
+    "options": ["Working alone", "Working together with others", "Playing football", "Cleaning the office"],
+    "correctAnswer": 1,
+    "explanation": "Teamwork is the collaborative effort of a group to achieve a common goal."
+  },
+  {
+    "id": 26,
+    "type": "matching",
+    "question": "Match the verb forms (Present -> Participle):",
+    "pairs": [
+      { "left": "Work", "right": "Worked" },
+      { "left": "Do", "right": "Done" },
+      { "left": "Go", "right": "Gone" }
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "What is an 'appraisal' or 'performance review'?",
+    "options": ["A meeting to check your work progress", "A new computer", "A lunch break", "A bank loan"],
+    "correctAnswer": 0,
+    "explanation": "An appraisal evaluates an employee's performance."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "We have ___________ (already/yet) signed the contract.",
+    "correctAnswer": "already",
+    "explanation": "Used to say that something has happened sooner than expected or before now."
+  },
+  {
+    "id": 29,
+    "type": "multiple-choice",
+    "question": "To 'quit' a job means:",
+    "options": ["To start the job", "To leave the job voluntarily", "To get a promotion", "To work more hours"],
+    "correctAnswer": 1,
+    "explanation": "Quitting is resigning from a position."
+  },
+  {
+    "id": 30,
+    "type": "fill-in-the-blank",
+    "question": "It ___________ (has/have) been a busy day.",
+    "correctAnswer": "has",
+    "explanation": "We use 'has' with 'It'."
+  },
+  {
+    "id": 31,
+    "type": "multiple-choice",
+    "question": "What are 'fringe benefits'?",
+    "options": ["Extra things like a company car or health insurance", "Taxes", "Office furniture", "Bank fees"],
+    "correctAnswer": 0,
+    "explanation": "Fringe benefits are additions to a salary."
+  },
+  {
+    "id": 32,
+    "type": "fill-in-the-blank",
+    "question": "I have ___________ (read) the employee manual.",
+    "correctAnswer": "read",
+    "explanation": "'Read' (pronounced /red/) is the past participle of 'read'."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "What is a 'full-time' job?",
+    "options": ["Working 5-10 hours a week", "Working the standard number of hours (usually 35-40)", "Working only on weekends", "Not working at all"],
+    "correctAnswer": 1,
+    "explanation": "Full-time work involves standard weekly hours."
+  },
+  {
+    "id": 34,
+    "type": "fill-in-the-blank",
+    "question": "Has he ___________ (call) the client?",
+    "correctAnswer": "called",
+    "explanation": "'Called' is the past participle of 'call'."
+  },
+  {
+    "id": 35,
+    "type": "multiple-choice",
+    "question": "What is 'overtime'?",
+    "options": ["Time spent sleeping", "Time worked beyond regular hours", "A holiday", "A type of clock"],
+    "correctAnswer": 1,
+    "explanation": "Overtime is extra work time, usually paid more."
+  },
+  {
+    "id": 36,
+    "type": "fill-in-the-blank",
+    "question": "We haven't ___________ (find) a solution yet.",
+    "correctAnswer": "found",
+    "explanation": "'Found' is the past participle of 'find'."
+  },
+  {
+    "id": 37,
+    "type": "multiple-choice",
+    "question": "What is a 'trainee'?",
+    "options": ["A person being trained for a job", "A very old employee", "The CEO", "A bank building"],
+    "correctAnswer": 0,
+    "explanation": "A trainee is a person undergoing training."
+  },
+  {
+    "id": 38,
+    "type": "fill-in-the-blank",
+    "question": "They have ___________ (build) a new HQ.",
+    "correctAnswer": "built",
+    "explanation": "'Built' is the past participle of 'build'."
+  },
+  {
+    "id": 39,
+    "type": "multiple-choice",
+    "question": "To 'delegate' means:",
+    "options": ["To do everything yourself", "To give tasks to other people", "To quit your job", "To buy office supplies"],
+    "correctAnswer": 1,
+    "explanation": "Delegating is entrusting a task or responsibility to another person."
+  },
+  {
+    "id": 40,
+    "type": "fill-in-the-blank",
+    "question": "I've ___________ (just/yet) seen the news.",
+    "correctAnswer": "just",
+    "explanation": "Used for very recent events."
+  },
+  {
+    "id": 41,
+    "type": "multiple-choice",
+    "question": "What is a 'pension'?",
+    "options": ["A type of pen", "Money paid regularly to a retired person", "A current salary", "A bank fee"],
+    "correctAnswer": 1,
+    "explanation": "A pension provides income after retirement."
+  },
+  {
+    "id": 42,
+    "type": "fill-in-the-blank",
+    "question": "She ___________ (has/have) never been late.",
+    "correctAnswer": "has",
+    "explanation": "Present perfect with 'never'."
+  },
+  {
+    "id": 43,
+    "type": "multiple-choice",
+    "question": "What does 'redundant' mean in a job context?",
+    "options": ["Getting a promotion", "Losing your job because the position is no longer needed", "Working very hard", "Being a manager"],
+    "correctAnswer": 1,
+    "explanation": "Redundancy happens when a job position is eliminated."
+  },
+  {
+    "id": 44,
+    "type": "fill-in-the-blank",
+    "question": "Have you ___________ (make) the coffee?",
+    "correctAnswer": "made",
+    "explanation": "'Made' is the past participle of 'make'."
+  },
+  {
+    "id": 45,
+    "type": "multiple-choice",
+    "question": "A 'colleague' is:",
+    "options": ["Your boss", "A person you work with", "Your enemy", "A customer"],
+    "correctAnswer": 1,
+    "explanation": "Colleagues are people who work in the same organization."
+  },
+  {
+    "id": 46,
+    "type": "matching",
+    "question": "Match the workplace terms:",
+    "pairs": [
+      { "left": "Hire", "right": "Give someone a job" },
+      { "left": "Fire", "right": "Dismiss someone" },
+      { "left": "Retire", "right": "Stop working due to age" }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple-choice",
+    "question": "What is a 'workplace'?",
+    "options": ["A park", "The place where you do your job", "A movie theater", "A supermarket"],
+    "correctAnswer": 1,
+    "explanation": "Workplace is the physical location of employment."
+  },
+  {
+    "id": 48,
+    "type": "fill-in-the-blank",
+    "question": "The company ___________ (has/have) grown a lot.",
+    "correctAnswer": "has",
+    "explanation": "The company is a singular noun (it)."
+  },
+  {
+    "id": 49,
+    "type": "multiple-choice",
+    "question": "What is 'maternity leave'?",
+    "options": ["A holiday for everyone", "Time off for a mother after having a baby", "A lunch break", "Quitting the job"],
+    "correctAnswer": 1,
+    "explanation": "Maternity leave is time off for new mothers."
+  },
+  {
+    "id": 50,
+    "type": "fill-in-the-blank",
+    "question": "I ___________ (have/has) already updated my CV.",
+    "correctAnswer": "have",
+    "explanation": "Present perfect for personal accomplishments."
   }
 ]

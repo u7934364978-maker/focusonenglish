@@ -1,24 +1,29 @@
 {
-  "title": "Finanzas Sostenibles (ESG)",
+  "title": "Mercados Internacionales y Finanzas Sostenibles (ESG)",
   "sections": [
     {
-      "id": "esg-vocab",
-      "title": "Vocabulario: Inversión Responsable",
-      "content": "B2 nivel. Factores Ambientales, Sociales y de Gobernanza.\n\n- **ESG (Environmental, Social, Governance)**: ASG (Ambiental, Social y Gobernanza)\n- **Sustainability**: Sostenibilidad\n- **Green bonds**: Bonos verdes\n- **Impact investing**: Inversión de impacto\n- **Carbon footprint**: Huella de carbono\n- **Social responsibility**: Responsabilidad social\n- **Stakeholders**: Partes interesadas / Grupos de interés\n- **Greenwashing**: Lavado de imagen verde (falsa sostenibilidad)"
+      "id": "intl-esg-vocab",
+      "title": "Vocabulario: Inversión Global y Responsable",
+      "content": "B2 nivel. Mercados de capitales y factores ASG.\n\n- **ESG (Environmental, Social, Governance)**: Factores ambientales, sociales y de gobernanza.\n- **Emerging Markets**: Mercados emergentes (economías en fase de crecimiento).\n- **Currency Risk**: Riesgo de divisa (impacto de las fluctuaciones de moneda).\n- **Green bonds**: Bonos verdes (deuda para financiar proyectos ecológicos).\n- **Sovereign Debt**: Deuda soberana (bonos emitidos por gobiernos).\n- **Commodities**: Materias primas (oro, petróleo, trigo).\n- **Stakeholders**: Grupos de interés (empleados, clientes, comunidad).\n- **Greenwashing**: Práctica de presentar una imagen falsa de sostenibilidad."
     },
     {
       "id": "esg-grammar",
-      "title": "Gramática: Advanced Passive with Reporting Verbs",
-      "content": "Usamos estructuras de pasiva avanzada para informar sobre tendencias y opiniones del mercado.\n\n- It **is believed that** ESG investing will dominate the next decade.\n- The company **is said to be** the leader in green energy.\n- Green bonds **are considered to be** safer for long-term institutional investors.\n- It **was reported that** the firm engaged in greenwashing."
+      "title": "Gramática: Pasiva Avanzada con Reporting Verbs",
+      "content": "Utilizamos estructuras como *'It is said that...'* o *'The company is believed to...'* para expresar opiniones generales o hechos reportados en el mercado.\n\n- **Estructura 1**: It + is + [verb-ed] + that + clause.\n- *It **is expected that** emerging markets will outperform developed ones this year.*\n- **Estructura 2**: Subject + is + [verb-ed] + to + infinitive.\n- *The firm **is reported to be** engaging in greenwashing.*\n- *Sustainability **is considered to be** the primary driver of new investment flows.*"
+    },
+    {
+      "id": "global-markets",
+      "title": "Contexto: Diversificación Internacional",
+      "content": "Invertir en el extranjero permite acceder a sectores que no existen en el mercado local, pero introduce el **Exchange Rate Risk**. Los inversores utilizan **Hedging** (cobertura) para mitigar este riesgo."
     }
   ],
   "objectives": [
-    "Definir los componentes de ESG y su relevancia financiera",
-    "Identificar prácticas de 'Greenwashing' en el sector",
-    "Utilizar estructuras de pasiva avanzada para reportar tendencias de inversión"
+    "Identificar los instrumentos de los mercados de capitales internacionales",
+    "Comprender y aplicar los criterios ESG en el análisis de inversiones",
+    "Utilizar estructuras de pasiva avanzada para reportar tendencias financieras globales"
   ],
   "keyTerms": [
     { "term": "ESG", "definition": "A set of standards for a company’s operations that socially conscious investors use to screen potential investments." },
-    { "term": "Greenwashing", "definition": "The process of conveying a false impression or providing misleading information about how a company’s products are more environmentally sound." }
+    { "term": "Hedging", "definition": "An investment to reduce the risk of adverse price movements in an asset." }
   ]
 }

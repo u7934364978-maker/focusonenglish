@@ -2,42 +2,397 @@
   {
     "id": 1,
     "type": "multiple-choice",
-    "question": "Which derivative gives you the right to sell?",
-    "options": ["Call option", "Put option", "Futures contract", "Forward contract"],
+    "question": "Which derivative gives you the RIGHT, but not the obligation, to buy an asset?",
+    "options": ["Future", "Call Option", "Put Option", "Forward"],
     "correctAnswer": 1,
-    "explanation": "A Put option is the right to sell an asset."
+    "explanation": "A Call Option gives the holder the right to buy."
   },
   {
     "id": 2,
     "type": "fill-in-the-blank",
-    "question": "If we __________ (buy) the put options, we __________ (be) protected against the crash today.",
-    "correctAnswer": "had bought... would be",
-    "explanation": "Mixed Conditional."
+    "question": "If the market __________ (not/crash) yesterday, we __________ (not/lose) so much money.",
+    "correctAnswer": "hadn't crashed... wouldn't have lost",
+    "explanation": "Third Conditional (Past hypothetical)."
   },
   {
     "id": 3,
     "type": "multiple-choice",
-    "question": "What is 'VaR'?",
-    "options": ["Value at Risk", "Variable Asset Rate", "Virtual Account Review", "Validated Audit Report"],
-    "correctAnswer": 0,
-    "explanation": "VaR measures potential losses."
+    "question": "What is the primary purpose of 'Stress Testing'?",
+    "options": ["To check if employees are tired", "To evaluate a portfolio's resilience in extreme scenarios", "To calculate the annual tax", "To increase the stock price"],
+    "correctAnswer": 1,
+    "explanation": "Stress tests simulate extreme market conditions."
   },
   {
     "id": 4,
     "type": "matching",
-    "question": "Match the term:",
+    "question": "Match the term with its category:",
     "pairs": [
-      { "left": "Greenwashing", "right": "Misleading eco-claims" },
-      { "left": "Arbitrage", "right": "Profiting from price gaps" },
-      { "left": "Hedging", "right": "Reducing risk" }
+      { "left": "Call/Put", "right": "Options" },
+      { "left": "VaR", "right": "Risk Measurement" },
+      { "left": "ESG", "right": "Sustainability" }
     ]
   },
   {
     "id": 5,
     "type": "multiple-choice",
-    "question": "By 2030, the portfolio _______ 20% ESG compliant.",
-    "options": ["will have become", "has become", "became", "is becoming"],
+    "question": "It __________ believed that central banks will pivot soon.",
+    "options": ["is", "has", "are", "it"],
     "correctAnswer": 0,
-    "explanation": "Future Perfect for future goals."
+    "explanation": "Advanced passive: It + is + believed + that."
+  },
+  {
+    "id": 6,
+    "type": "fill-in-the-blank",
+    "question": "If we __________ (hedge) our exposure last month, we __________ (be) in a better position today.",
+    "correctAnswer": "had hedged... would be",
+    "explanation": "Mixed Conditional (Past action -> Present state)."
+  },
+  {
+    "id": 7,
+    "type": "multiple-choice",
+    "question": "Which of these is a 'Commodity'?",
+    "options": ["Bank of America Stock", "Crude Oil", "A Savings Account", "A 5-year Bond"],
+    "correctAnswer": 1,
+    "explanation": "Oil is a physical commodity."
+  },
+  {
+    "id": 8,
+    "type": "multiple-choice",
+    "question": "If the strike price _______ lower, I _______ exercised the option.",
+    "options": ["had been / would have", "was / will have", "is / would", "had been / would"],
+    "correctAnswer": 0,
+    "explanation": "Third Conditional."
+  },
+  {
+    "id": 9,
+    "type": "fill-in-the-blank",
+    "question": "Asset __________ is the distribution of investments across different categories.",
+    "correctAnswer": "allocation",
+    "explanation": "Allocation is the foundation of portfolio strategy."
+  },
+  {
+    "id": 10,
+    "type": "multiple-choice",
+    "question": "What does 'Greenwashing' refer to?",
+    "options": ["Cleaning solar panels", "Misleading claims about environmental friendliness", "Investing in water treatment plants", "Painting office buildings green"],
+    "correctAnswer": 1,
+    "explanation": "Greenwashing is a deceptive ESG practice."
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "The company __________ expected to announce record profits tomorrow.",
+    "options": ["is", "are", "it is", "was been"],
+    "correctAnswer": 0,
+    "explanation": "Subject + is + expected + to + infinitive."
+  },
+  {
+    "id": 12,
+    "type": "matching",
+    "question": "Match the risk with the source:",
+    "pairs": [
+      { "left": "Currency Risk", "right": "Exchange rate fluctuations" },
+      { "left": "Sovereign Risk", "right": "Government default" },
+      { "left": "Credit Risk", "right": "Counterparty failure" }
+    ]
+  },
+  {
+    "id": 13,
+    "type": "fill-in-the-blank",
+    "question": "If I __________ (know) about the high VaR, I __________ (not/invest) in that fund.",
+    "correctAnswer": "had known... wouldn't have invested",
+    "explanation": "Third Conditional."
+  },
+  {
+    "id": 14,
+    "type": "multiple-choice",
+    "question": "What is the 'Underlying Asset' in an option on Apple stock?",
+    "options": ["The option contract itself", "Apple Inc. shares", "The US Dollar", "The NASDAQ index"],
+    "correctAnswer": 1,
+    "explanation": "The underlying asset is the asset the derivative is based on."
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "question": "It is __________ that the firm will face a fine for non-compliance.",
+    "options": ["rumored", "saying", "tell", "thought to"],
+    "correctAnswer": 0,
+    "explanation": "Advanced passive (It is rumored that...)."
+  },
+  {
+    "id": 16,
+    "type": "fill-in-the-blank",
+    "question": "Portfolio __________ is the process of realigning the weights of assets.",
+    "correctAnswer": "rebalancing",
+    "explanation": "Rebalancing maintains the target risk profile."
+  },
+  {
+    "id": 17,
+    "type": "multiple-choice",
+    "question": "In a 95% confidence VaR, what does the 5% represent?",
+    "options": ["The guaranteed profit", "The probability of losses exceeding the VaR", "The total management fee", "The tax rate"],
+    "correctAnswer": 1,
+    "explanation": "It's the 'tail' probability of extreme loss."
+  },
+  {
+    "id": 18,
+    "type": "multiple-choice",
+    "question": "If they __________ (diversify) more in the past, their portfolio __________ (not/be) so volatile now.",
+    "options": ["had diversified / wouldn't be", "diversified / won't be", "had diversified / wouldn't have been", "diversify / isn't"],
+    "correctAnswer": 0,
+    "explanation": "Mixed Conditional."
+  },
+  {
+    "id": 19,
+    "type": "fill-in-the-blank",
+    "question": "A __________ bond is a government bond from an emerging market.",
+    "correctAnswer": "sovereign",
+    "explanation": "Government debt is called sovereign debt."
+  },
+  {
+    "id": 20,
+    "type": "matching",
+    "question": "Match the conditional with its usage:",
+    "pairs": [
+      { "left": "Third Conditional", "right": "Past hypothetical" },
+      { "left": "Mixed Conditional", "right": "Past action, present result" },
+      { "left": "Second Conditional", "right": "Present hypothetical" }
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple-choice",
+    "question": "Which ESG factor covers 'Executive Compensation'?",
+    "options": ["Environmental", "Social", "Governance", "Sustainability"],
+    "correctAnswer": 2,
+    "explanation": "Governance (G) handles board and management structure."
+  },
+  {
+    "id": 22,
+    "type": "fill-in-the-blank",
+    "question": "It is __________ (estimate) that global GDP will grow by 3%.",
+    "correctAnswer": "estimated",
+    "explanation": "Advanced passive reporting."
+  },
+  {
+    "id": 23,
+    "type": "multiple-choice",
+    "question": "What is a 'Put Option' used for?",
+    "options": ["Betting that prices will rise", "Hedging against a price decrease", "Buying a physical building", "Cancelling a bank transfer"],
+    "correctAnswer": 1,
+    "explanation": "A Put Option gains value as the price drops (insurance)."
+  },
+  {
+    "id": 24,
+    "type": "multiple-choice",
+    "question": "If I __________ (be) the CEO, I __________ (not/have/authorized) that risky trade last year.",
+    "options": ["were / wouldn't have authorized", "had been / wouldn't authorize", "was / won't authorize", "am / wouldn't authorize"],
+    "correctAnswer": 0,
+    "explanation": "Mixed Conditional (Present state 'if I were' -> Past hypothetical result)."
+  },
+  {
+    "id": 25,
+    "type": "fill-in-the-blank",
+    "question": "Standard __________ is a common measure of investment volatility.",
+    "correctAnswer": "deviation",
+    "explanation": "It measures how much returns deviate from the mean."
+  },
+  {
+    "id": 26,
+    "type": "multiple-choice",
+    "question": "What does 'Hedging' mean in simple terms?",
+    "options": ["Gardening", "Reducing risk", "Increasing debt", "Hiding money"],
+    "correctAnswer": 1,
+    "explanation": "Hedging is like an insurance policy for an investment."
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "ESG data __________ thought to be critical for long-term investors.",
+    "options": ["is", "are", "it", "has"],
+    "correctAnswer": 0,
+    "explanation": "Singular subject (ESG data - treated as a concept) or plural (are) depending on regional usage, but 'is' is common for the concept."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "A __________ market is an economy with low to middle per capita income that is growing.",
+    "correctAnswer": "emerging",
+    "explanation": "Emerging markets offer high growth but high risk."
+  },
+  {
+    "id": 29,
+    "type": "matching",
+    "question": "Match the term with its Spanish equivalent:",
+    "pairs": [
+      { "left": "Shareholder", "right": "Accionista" },
+      { "left": "Stakeholder", "right": "Parte interesada" },
+      { "left": "Bondholder", "right": "Tenedor de bonos" }
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple-choice",
+    "question": "If we __________ (analyze) the correlation correctly, we __________ (see) the danger earlier.",
+    "options": ["had analyzed / would have seen", "analyzed / would see", "analyze / will see", "had analyzed / would see"],
+    "correctAnswer": 0,
+    "explanation": "Third Conditional."
+  },
+  {
+    "id": 31,
+    "type": "fill-in-the-blank",
+    "question": "A __________ is a physical substance, such as food, grains, or metals, which is interchangeable with others of the same type.",
+    "correctAnswer": "commodity",
+    "explanation": "Definition of commodity."
+  },
+  {
+    "id": 32,
+    "type": "multiple-choice",
+    "question": "Which structure is used to report unverified rumors?",
+    "options": ["It is proven that...", "It is rumored that...", "I know that...", "Everyone says..."],
+    "correctAnswer": 1,
+    "explanation": "Formal reporting passive."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "If the Fed __________ (lower) rates next month, the market __________ (rally).",
+    "options": ["lowers / will rally", "had lowered / would have rallied", "lowered / would rally", "is lowering / rallies"],
+    "correctAnswer": 0,
+    "explanation": "First Conditional (Real possibility)."
+  },
+  {
+    "id": 34,
+    "type": "fill-in-the-blank",
+    "question": "The __________ rate is the cost of borrowing money.",
+    "correctAnswer": "interest",
+    "explanation": "Core financial concept."
+  },
+  {
+    "id": 35,
+    "type": "multiple-choice",
+    "question": "What is 'Backtesting'?",
+    "options": ["Testing from the back of the room", "Testing a model with historical data", "Testing a product before launch", "Testing a computer backup"],
+    "correctAnswer": 1,
+    "explanation": "Backtesting verifies the validity of a strategy using past data."
+  },
+  {
+    "id": 36,
+    "type": "multiple-choice",
+    "question": "The firm __________ reported to be under investigation for greenwashing.",
+    "options": ["is", "has", "are", "it"],
+    "correctAnswer": 0,
+    "explanation": "Subject + is + reported + to be."
+  },
+  {
+    "id": 37,
+    "type": "fill-in-the-blank",
+    "question": "A __________-swan event is an extremely rare and unpredictable event.",
+    "correctAnswer": "black",
+    "explanation": "Black swan events are critical in risk review."
+  },
+  {
+    "id": 38,
+    "type": "matching",
+    "question": "Match the instrument with its risk:",
+    "pairs": [
+      { "left": "Stock", "right": "Price volatility" },
+      { "left": "Bond", "right": "Interest rate risk" },
+      { "left": "Option", "right": "Time decay" }
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple-choice",
+    "question": "If the auditor __________ (not/miss) the fraud, the bank __________ (not/collapse) last year.",
+    "options": ["hadn't missed / wouldn't have collapsed", "didn't miss / wouldn't collapse", "hadn't missed / wouldn't be collapsing", "hasn't missed / isn't collapsing"],
+    "correctAnswer": 0,
+    "explanation": "Third Conditional."
+  },
+  {
+    "id": 40,
+    "type": "fill-in-the-blank",
+    "question": "Diversification reduces __________ risk.",
+    "correctAnswer": "unsystematic",
+    "explanation": "Unsystematic (specific) risk can be diversified; systematic (market) risk cannot."
+  },
+  {
+    "id": 41,
+    "type": "multiple-choice",
+    "question": "What does 'ROI' stand for?",
+    "options": ["Return on Investment", "Risk of Inflation", "Rate of Interest", "Real Office Income"],
+    "correctAnswer": 0,
+    "explanation": "Common financial acronym."
+  },
+  {
+    "id": 42,
+    "type": "multiple-choice",
+    "question": "It is __________ that the new CEO will change the company's ESG strategy.",
+    "options": ["expected", "expecting", "expect", "to expect"],
+    "correctAnswer": 0,
+    "explanation": "Passive construction."
+  },
+  {
+    "id": 43,
+    "type": "fill-in-the-blank",
+    "question": "A __________ price is the price at which an option can be exercised.",
+    "correctAnswer": "strike",
+    "explanation": "Also called exercise price."
+  },
+  {
+    "id": 44,
+    "type": "matching",
+    "question": "Match the market trend with its name:",
+    "pairs": [
+      { "left": "Rising prices", "right": "Bull market" },
+      { "left": "Falling prices", "right": "Bear market" },
+      { "left": "Sideways movement", "right": "Flat market" }
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple-choice",
+    "question": "Which of these is a 'Governance' issue?",
+    "options": ["Carbon emissions", "Labor laws", "Separation of CEO and Chairman roles", "Biodiversity"],
+    "correctAnswer": 2,
+    "explanation": "Role separation is a board governance matter."
+  },
+  {
+    "id": 46,
+    "type": "fill-in-the-blank",
+    "question": "If we __________ (buy) the gold yesterday, we __________ (be) richer now.",
+    "correctAnswer": "had bought... would be",
+    "explanation": "Mixed Conditional."
+  },
+  {
+    "id": 47,
+    "type": "multiple-choice",
+    "question": "What is 'Portfolio Turnover'?",
+    "options": ["Selling the entire portfolio", "The rate at which assets are replaced in a fund", "The profit made in a day", "The number of employees in a fund"],
+    "correctAnswer": 1,
+    "explanation": "Turnover measures trading activity."
+  },
+  {
+    "id": 48,
+    "type": "multiple-choice",
+    "question": "The dollar __________ said to be the ultimate safe haven asset.",
+    "options": ["is", "has", "are", "it"],
+    "correctAnswer": 0,
+    "explanation": "Standard reporting passive."
+  },
+  {
+    "id": 49,
+    "type": "fill-in-the-blank",
+    "question": "A __________ swap is a contract to exchange one currency for another.",
+    "correctAnswer": "currency",
+    "explanation": "Common derivative for international trade."
+  },
+  {
+    "id": 50,
+    "type": "multiple-choice",
+    "question": "If you __________ (study) these reviews, you __________ (pass) the exam next week.",
+    "options": ["study / will pass", "had studied / would have passed", "studied / would pass", "study / pass"],
+    "correctAnswer": 0,
+    "explanation": "First Conditional (Encouragement)."
   }
 ]

@@ -2,42 +2,385 @@
   {
     "id": 1,
     "type": "multiple-choice",
-    "question": "Which word is for 'dinero que entra'?",
-    "options": ["Expenses", "Income", "Loss", "Debt"],
-    "correctAnswer": 1,
-    "explanation": "'Income' refers to the money you receive (e.g., salary)."
+    "question": "I am going to ___________ (save) money for a new laptop.",
+    "options": ["save", "saving", "saves", "saved"],
+    "correctAnswer": 0,
+    "explanation": "After 'going to' we use the base form of the verb."
   },
   {
     "id": 2,
     "type": "fill-in-the-blank",
-    "question": "If it rains, I __________ (not go) to the bank.",
-    "correctAnswer": "won't go",
-    "explanation": "First Conditional: If + Present, Will."
+    "question": "If I study hard, I ___________ (pass) the exam.",
+    "correctAnswer": "will pass",
+    "explanation": "First conditional: If + present, will + verb."
   },
   {
     "id": 3,
     "type": "multiple-choice",
-    "question": "A personal loan usually has ________.",
-    "options": ["No cost", "Interest", "A gift", "No rules"],
-    "correctAnswer": 1,
-    "explanation": "Most loans require you to pay back the money plus 'interest'."
+    "question": "Which is the ___________ (safe) bank?",
+    "options": ["safest", "safer", "most safe", "safe"],
+    "correctAnswer": 0,
+    "explanation": "Superlative of 'safe' is 'the safest'."
   },
   {
     "id": 4,
-    "type": "matching",
-    "question": "Match the opposites:",
-    "pairs": [
-      { "left": "Borrow", "right": "Lend" },
-      { "left": "Save", "right": "Spend" },
-      { "left": "Profit", "right": "Loss" }
-    ]
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) give your PIN to anyone.",
+    "correctAnswer": "mustn't",
+    "explanation": "Giving your PIN is prohibited for security."
   },
   {
     "id": 5,
     "type": "multiple-choice",
-    "question": "Have you ________ the documents yet?",
-    "options": ["sign", "signing", "signed", "signs"],
+    "question": "I have ___________ (be) a manager for two years.",
+    "correctAnswer": "been",
+    "options": ["be", "being", "been", "was"],
+    "explanation": "Present perfect needs the past participle 'been'."
+  },
+  {
+    "id": 6,
+    "type": "matching",
+    "question": "Match the terms:",
+    "pairs": [
+      { "left": "Loan", "right": "Borrowed money" },
+      { "left": "Budget", "right": "Spending plan" },
+      { "left": "Scam", "right": "Fraudulent trick" }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple-choice",
+    "question": "I think the inflation ___________ (grow) next year.",
+    "options": ["is growing", "will grow", "grown", "grew"],
+    "correctAnswer": 1,
+    "explanation": "'Will' is used for predictions."
+  },
+  {
+    "id": 8,
+    "type": "fill-in-the-blank",
+    "question": "She ___________ (not/finish) the work yet.",
+    "correctAnswer": "hasn't finished",
+    "explanation": "Present perfect negative for 'She'."
+  },
+  {
+    "id": 9,
+    "type": "multiple-choice",
+    "question": "Where is the ___________ (near) ATM?",
+    "options": ["nearest", "nearer", "most near", "near"],
+    "correctAnswer": 0,
+    "explanation": "Superlative of 'near'."
+  },
+  {
+    "id": 10,
+    "type": "fill-in-the-blank",
+    "question": "We ___________ (go) to the bank tomorrow morning.",
+    "correctAnswer": "are going",
+    "explanation": "Present continuous for fixed future plans."
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "A 'bureau de change' is for:",
+    "options": ["Exchanging currency", "Buying food", "Sleeping", "Parking cars"],
+    "correctAnswer": 0,
+    "explanation": "A bureau de change is a place to swap currencies."
+  },
+  {
+    "id": 12,
+    "type": "fill-in-the-blank",
+    "question": "Have you ___________ (ever/never) used online banking?",
+    "correctAnswer": "ever",
+    "explanation": "'Ever' is used in questions about experiences."
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "question": "You ___________ (must/mustn't) check your bank statements regularly.",
+    "options": ["must", "mustn't", "not", "best"],
+    "correctAnswer": 0,
+    "explanation": "'Must' is used for important recommendations/obligations."
+  },
+  {
+    "id": 14,
+    "type": "fill-in-the-blank",
+    "question": "This loan is ___________ (cheap) than that one.",
+    "correctAnswer": "cheaper",
+    "explanation": "Comparative of 'cheap' is 'cheaper'."
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "question": "What is 'phishing'?",
+    "options": ["A way to catch fish", "Fraudulent emails", "Saving money", "Paying with cash"],
+    "correctAnswer": 1,
+    "explanation": "Phishing involves fake emails to steal information."
+  },
+  {
+    "id": 16,
+    "type": "fill-in-the-blank",
+    "question": "I've ___________ (just) received my salary.",
+    "correctAnswer": "just",
+    "explanation": "Used for very recent actions."
+  },
+  {
+    "id": 17,
+    "type": "multiple-choice",
+    "question": "The 'exchange rate' is:",
+    "options": ["A bank's address", "The value of one currency in another", "A type of loan", "The name of a CEO"],
+    "correctAnswer": 1,
+    "explanation": "Exchange rate compares currency values."
+  },
+  {
+    "id": 18,
+    "type": "fill-in-the-blank",
+    "question": "He ___________ (has/have) never traveled abroad.",
+    "correctAnswer": "has",
+    "explanation": "Present perfect with 'He'."
+  },
+  {
+    "id": 19,
+    "type": "multiple-choice",
+    "question": "What does 'ATM' stand for?",
+    "options": ["All Time Money", "Automated Teller Machine", "Always Take Money", "Automatic Transaction Mode"],
+    "correctAnswer": 1,
+    "explanation": "ATM is the technical term for a cash machine."
+  },
+  {
+    "id": 20,
+    "type": "fill-in-the-blank",
+    "question": "This is the ___________ (expensive) hotel I've seen.",
+    "correctAnswer": "most expensive",
+    "explanation": "Superlative of 'expensive'."
+  },
+  {
+    "id": 21,
+    "type": "multiple-choice",
+    "question": "To 'withdraw' money means to:",
+    "options": ["Deposit it", "Take it out", "Lose it", "Spend it all"],
+    "correctAnswer": 1,
+    "explanation": "Withdraw means to remove funds from an account."
+  },
+  {
+    "id": 22,
+    "type": "fill-in-the-blank",
+    "question": "If you ___________ (not/block) your card, you will lose money.",
+    "correctAnswer": "don't block",
+    "explanation": "First conditional negative part."
+  },
+  {
+    "id": 23,
+    "type": "multiple-choice",
+    "question": "A 'branch manager' works in:",
+    "options": ["A forest", "A specific local bank office", "The central office only", "A supermarket"],
+    "correctAnswer": 1,
+    "explanation": "A branch is a local office."
+  },
+  {
+    "id": 24,
+    "type": "fill-in-the-blank",
+    "question": "She is the ___________ (good) student in the class.",
+    "correctAnswer": "best",
+    "explanation": "Irregular superlative of 'good'."
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "question": "What is 'identity theft'?",
+    "options": ["Stealing someone's clothes", "Using someone's personal info illegally", "Moving to a new house", "Changing your name"],
+    "correctAnswer": 1,
+    "explanation": "Identity theft is a crime involving personal data."
+  },
+  {
+    "id": 26,
+    "type": "matching",
+    "question": "Match the workplace verbs:",
+    "pairs": [
+      { "left": "Apply", "right": "Request a job" },
+      { "left": "Hire", "right": "Give a job" },
+      { "left": "Promote", "right": "Give a better job" }
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "I haven't seen the manager ___________ (yet/already).",
+    "options": ["yet", "already", "just", "never"],
+    "correctAnswer": 0,
+    "explanation": "We use 'yet' in negative sentences."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "The company ___________ (expand) its business next year.",
+    "correctAnswer": "will expand",
+    "explanation": "Future prediction."
+  },
+  {
+    "id": 29,
+    "type": "multiple-choice",
+    "question": "What is '2FA'?",
+    "options": ["Two-factor authentication", "Two financial assets", "Two-for-one", "Twice a month"],
+    "correctAnswer": 0,
+    "explanation": "Security process requiring two steps."
+  },
+  {
+    "id": 30,
+    "type": "fill-in-the-blank",
+    "question": "I ___________ (work) here since January.",
+    "correctAnswer": "have worked",
+    "explanation": "Present perfect for actions starting in the past and continuing."
+  },
+  {
+    "id": 31,
+    "type": "multiple-choice",
+    "question": "Which word describes a 'scam'?",
+    "options": ["Fraudulent", "Honest", "Legal", "Safe"],
+    "correctAnswer": 0,
+    "explanation": "A scam is a fraudulent activity."
+  },
+  {
+    "id": 32,
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (mustn't) reveal your password.",
+    "correctAnswer": "mustn't",
+    "explanation": "Prohibition of sharing secrets."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "What is 'compound interest'?",
+    "options": ["Interest on the principal only", "Interest on principal and interest", "A type of bank loan", "A bank fee"],
+    "correctAnswer": 1,
+    "explanation": "Compound interest builds on previous interest."
+  },
+  {
+    "id": 34,
+    "type": "fill-in-the-blank",
+    "question": "The market is ___________ (volatile) than before.",
+    "correctAnswer": "more volatile",
+    "explanation": "Comparative of a long adjective."
+  },
+  {
+    "id": 35,
+    "type": "multiple-choice",
+    "question": "A 'CV' contains your:",
+    "options": ["Work history", "Shopping list", "Family photos", "Bank balance"],
+    "correctAnswer": 0,
+    "explanation": "A CV is for professional background."
+  },
+  {
+    "id": 36,
+    "type": "fill-in-the-blank",
+    "question": "They have ___________ (build) a strong reputation.",
+    "correctAnswer": "built",
+    "explanation": "Past participle of 'build'."
+  },
+  {
+    "id": 37,
+    "type": "multiple-choice",
+    "question": "What is 'overtime'?",
+    "options": ["Extra work hours", "Holiday time", "Lunch break", "Sleeping time"],
+    "correctAnswer": 0,
+    "explanation": "Overtime is working more than standard hours."
+  },
+  {
+    "id": 38,
+    "type": "fill-in-the-blank",
+    "question": "Has he ___________ (sign) the document?",
+    "correctAnswer": "signed",
+    "explanation": "Past participle of 'sign'."
+  },
+  {
+    "id": 39,
+    "type": "multiple-choice",
+    "question": "What is a 'portfolio'?",
+    "options": ["A bag", "A collection of investments", "A bank manager", "A credit card"],
+    "correctAnswer": 1,
+    "explanation": "In finance, a portfolio is a group of assets."
+  },
+  {
+    "id": 40,
+    "type": "fill-in-the-blank",
+    "question": "We are going to ___________ (invest) in new technology.",
+    "correctAnswer": "invest",
+    "explanation": "Future plan after 'going to'."
+  },
+  {
+    "id": 41,
+    "type": "multiple-choice",
+    "question": "Which of these is 'plastic money'?",
+    "options": ["Notes", "Coins", "Credit cards", "Gold"],
     "correctAnswer": 2,
-    "explanation": "Present Perfect: Have + Past Participle ('signed')."
+    "explanation": "Credit/debit cards are often called plastic money."
+  },
+  {
+    "id": 42,
+    "type": "fill-in-the-blank",
+    "question": "This is the ___________ (bad) service ever.",
+    "correctAnswer": "worst",
+    "explanation": "Superlative of 'bad'."
+  },
+  {
+    "id": 43,
+    "type": "multiple-choice",
+    "question": "To 'transfer' money means to:",
+    "options": ["Move it from one account to another", "Lose it", "Keep it in a box", "Spend it on food"],
+    "correctAnswer": 0,
+    "explanation": "Transfer means moving funds."
+  },
+  {
+    "id": 44,
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must) pay your bills on time.",
+    "correctAnswer": "must",
+    "explanation": "Obligation to pay."
+  },
+  {
+    "id": 45,
+    "type": "multiple-choice",
+    "question": "What is 'inflation'?",
+    "options": ["Prices going down", "Prices going up", "Prices staying the same", "No prices at all"],
+    "correctAnswer": 1,
+    "explanation": "Inflation is the general increase in prices."
+  },
+  {
+    "id": 46,
+    "type": "matching",
+    "question": "Match the opposites:",
+    "pairs": [
+      { "left": "Lend", "right": "Borrow" },
+      { "left": "Deposit", "right": "Withdraw" },
+      { "left": "Profit", "right": "Loss" }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple-choice",
+    "question": "A 'receipt' is:",
+    "options": ["A menu", "Proof of payment", "A bank loan", "A credit card"],
+    "correctAnswer": 1,
+    "explanation": "Receipts prove you paid for something."
+  },
+  {
+    "id": 48,
+    "type": "fill-in-the-blank",
+    "question": "I haven't ___________ (speak) to the manager.",
+    "correctAnswer": "spoken",
+    "explanation": "Past participle of 'speak'."
+  },
+  {
+    "id": 49,
+    "type": "multiple-choice",
+    "question": "What is a 'collateral'?",
+    "options": ["An asset for securing a loan", "A type of bank account", "A bank manager", "A fee"],
+    "correctAnswer": 0,
+    "explanation": "Collateral is property used to guarantee a loan."
+  },
+  {
+    "id": 50,
+    "type": "fill-in-the-blank",
+    "question": "It's the ___________ (late) news on the economy.",
+    "correctAnswer": "latest",
+    "explanation": "Superlative of 'late'."
   }
 ]

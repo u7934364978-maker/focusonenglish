@@ -1,24 +1,29 @@
 {
-  "title": "Repaso del Segundo Trimestre",
+  "title": "Repaso del Segundo Trimestre: Mercados e Inversiones",
   "sections": [
     {
-      "id": "review-vocab",
-      "title": "Repaso de Vocabulario de Inversión y Riesgo",
-      "content": "Resumen de los términos clave de las últimas semanas:\n\n- **Asset Allocation**: Diversification, Rebalancing, Portfolio, Risk tolerance.\n- **Markets & Derivatives**: Stocks, Bonds, Options (Call/Put), Futures, Strike price.\n- **International Finance**: Forex, Hedging, Arbitrage, Exchange rate risk.\n- **Risk & Tech**: VaR, Stress testing, FinTech, Blockchain, ESG, Sustainability."
+      "id": "review-topics",
+      "title": "Temas Principales",
+      "content": "Este trimestre hemos cubierto la complejidad de los mercados globales y la gestión de riesgos.\n\n1. **Derivados (Semana 20)**: Options (Calls/Puts) y Futures para cobertura (Hedging).\n2. **Gestión de Riesgos (Semana 21)**: Value at Risk (VaR), Stress Testing y Asset Allocation.\n3. **Inversión Internacional y ESG (Semana 22)**: Mercados emergentes, riesgo de divisa y criterios ambientales, sociales y de gobernanza."
     },
     {
       "id": "review-grammar",
-      "title": "Repaso de Gramática Avanzada",
-      "content": "Estructuras principales aprendidas:\n\n- **Conditionals (2, 3, Mixed)**: Simulaciones de riesgo y análisis retrospectivo.\n- **Future Perfect**: Seguimiento de objetivos financieros futuros.\n- **Gerunds vs Infinitives**: Decisiones estratégicas.\n- **Passive Structures**: Reportes profesionales y pasiva avanzada (is said to be).\n- **Wish**: Deseos de cambio en el mercado."
+      "title": "Consolidación Gramatical",
+      "content": "Revisamos las estructuras clave para el análisis financiero avanzado:\n\n- **Third Conditional**: *If the price **had dropped**, we **would have exercised** the option.* (Pasado hipotético).\n- **Mixed Conditionals**: *If we **had hedged** earlier, we **would be** safe now.* (Pasado -> Presente).\n- **Advanced Passive**: *It **is believed that** ESG will drive future growth.* / *The market **is expected to** recover.* (Reportar tendencias)."
+    },
+    {
+      "id": "review-vocab",
+      "title": "Vocabulario Esencial",
+      "content": "- **Underlying Asset**: Activo subyacente.\n- **Portfolio Rebalancing**: Reequilibrio de cartera.\n- **Sovereign Debt**: Deuda pública.\n- **Greenwashing**: Lavado de imagen verde.\n- **Standard Deviation**: Volatilidad / Desviación típica."
     }
   ],
   "objectives": [
-    "Consolidar el vocabulario técnico de alta finanza de nivel B2",
-    "Perfeccionar el uso de estructuras condicionales y pasivas complejas",
-    "Prepararse para el examen final integral del trimestre"
+    "Sintetizar los conocimientos sobre derivados y gestión de carteras",
+    "Consolidar el uso de condicionales complejos y voz pasiva de reporte",
+    "Prepararse para la evaluación final del trimestre"
   ],
   "keyTerms": [
-    { "term": "Risk Profile", "definition": "An evaluation of an individual's willingness and ability to take risks." },
-    { "term": "Stochastic", "definition": "Having a random probability distribution or pattern that may be analyzed statistically but not predicted precisely." }
+    { "term": "Hedging", "definition": "A risk management strategy used to offset potential losses in investments." },
+    { "term": "VaR", "definition": "Value at Risk: a measure of the risk of loss for investments." }
   ]
 }
