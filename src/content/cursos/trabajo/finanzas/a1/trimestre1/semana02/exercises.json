@@ -1,48 +1,65 @@
 {
-  "title": "Ejercicios: El Banco y Posesivos",
-  "exercises": [
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 1,
+  "weekId": "semana02",
+  "title": "Exercises: The Bank and My Accounts",
+  "items": [
     {
-      "id": "ex1",
-      "type": "multiple-choice",
-      "question": "Where can you withdraw cash 24/7?",
+      "id": "fin-a1-w2-q1",
+      "type": "multipleChoice",
+      "prompt": "Where can you withdraw cash 24/7?",
       "options": [
         "At the counter",
         "At the ATM",
         "In the manager's office",
-        "At home"
+        "At the park"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "An ATM (Automated Teller Machine) allows you to withdraw cash at any time."
     },
     {
-      "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "________ (I) name is John and ________ (he) name is Paul.",
-      "answer": "My / His",
-      "explanation": "We use 'My' for 'I' and 'His' for 'He'."
+      "id": "fin-a1-w2-q2",
+      "type": "multipleChoice",
+      "prompt": "A Neobank is different because it has no...?",
+      "options": [
+        "Customers",
+        "App",
+        "Physical branch",
+        "Account"
+      ],
+      "answerIndex": 2,
+      "explanation": "Neobanks are digital-only and do not have physical buildings or branches."
     },
     {
-      "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the role with the place:",
+      "id": "fin-a1-w2-grammar-1",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'I have a new account. ___ account is at a Neobank.'",
+      "options": [
+        "My",
+        "Your",
+        "His",
+        "Her"
+      ],
+      "answerIndex": 0,
+      "explanation": "We use 'My' to talk about something belonging to 'I'."
+    },
+    {
+      "id": "fin-a1-w2-matching-1",
+      "type": "matching",
+      "prompt": "Match the person with the object.",
       "pairs": [
-        { "term": "Manager", "definition": "Office" },
-        { "term": "Cashier", "definition": "Counter" },
-        { "term": "Customer", "definition": "Bank" }
+        {"term": "Manager", "definition": "Office"},
+        {"term": "Customer", "definition": "Account"},
+        {"term": "Neobank", "definition": "Mobile App"}
       ]
     },
     {
-      "id": "ex4",
-      "type": "multiple-choice",
-      "question": "Choose the correct possessive: 'The bank is big. ________ colors are blue and white.'",
-      "options": [
-        "His",
-        "Her",
-        "Its",
-        "Our"
-      ],
-      "correctAnswer": 2,
-      "explanation": "We use 'Its' for things like 'the bank'."
+      "id": "fin-a1-w2-writing-1",
+      "type": "writingTask",
+      "prompt": "Write one sentence about your bank. Example: 'My bank is a neobank.'",
+      "modelAnswer": "My bank is a neobank.",
+      "keywords": ["My", "bank", "is"]
     }
   ]
 }

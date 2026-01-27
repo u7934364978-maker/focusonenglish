@@ -1,24 +1,29 @@
 {
-  "title": "Compras y Precios",
+  "title": "Shopping and Prices",
   "sections": [
     {
       "id": "vocab-shopping",
-      "title": "Vocabulario: Compras",
-      "content": "Para hablar de compras en un contexto financiero básico, usamos estas palabras:\n\n- **Buy**: Comprar.\n- **Sell**: Vender.\n- **Cost**: Costar.\n- **Price**: Precio.\n- **Receipt**: Recibo o ticket.\n- **Discount**: Descuento.\n- **Expensive**: Caro.\n- **Cheap**: Barato."
+      "title": "Shopping Vocabulary",
+      "content": "Basic words for buying and selling.\n\n- **Buy**: Comprar\n- **Sell**: Vender\n- **Cost**: Costar\n- **Price**: Precio\n- **Discount**: Descuento\n- **Expensive**: Caro\n- **Cheap**: Barato"
+    },
+    {
+      "id": "modern-shopping",
+      "title": "Modern Shopping: Online and Digital",
+      "content": "Today, we shop on the internet and use digital records.\n\n- **Online Shopping**: Compras en línea\n- **Digital Receipt**: Recibo digital (sent to email)\n- **E-commerce**: Comercio electrónico\n- **Checkout**: Proceso de pago / Caja\n\n### Digital Receipt Flow\n```mermaid\ngraph LR\n    A[Pay Online] --> B[Store System]\n    B --> C[Email Receipt]\n    C --> D[Customer Phone]\n```"
     },
     {
       "id": "grammar-how-much",
-      "title": "Gramática: How Much y How Many",
-      "content": "Usamos estas expresiones para preguntar por cantidades:\n\n1. **How much...?**: Se usa para preguntar el precio o por cosas que no se pueden contar (como el dinero en general).\n   - *How much is it?* (¿Cuánto cuesta?)\n   - *How much money do you have?* (¿Cuánto dinero tienes?)\n\n2. **How many...?**: Se usa para cosas que sí se pueden contar (monedas, dólares, tarjetas).\n   - *How many dollars is the fee?* (¿De cuántos dólares es la comisión?)\n   - *How many cards do you have?* (¿Cuántas tarjetas tienes?)"
+      "title": "Grammar: How Much and How Many",
+      "content": "We use these expressions to ask about prices and quantities.\n\n1. **How much...?**: For price or uncountable things (like money in general).\n   - *How much is the new phone?*\n   - *How much money is in the account?*\n\n2. **How many...?**: For countable things (dollars, coins, cards).\n   - *How many dollars is the discount?*\n   - *How many digital receipts do you have?*"
     }
   ],
   "objectives": [
-    "Aprender vocabulario básico relacionado con compras y precios",
-    "Diferenciar entre 'How much' y 'How many' para preguntar precios y cantidades",
-    "Identificar adjetivos comunes para describir el valor de algo (expensive/cheap)"
+    "Learn basic vocabulary for shopping and prices",
+    "Understand the difference between 'How much' and 'How many'",
+    "Learn about modern digital receipts and online shopping"
   ],
   "keyTerms": [
-    { "term": "Receipt", "definition": "A piece of paper that proves you paid for something." },
-    { "term": "Discount", "definition": "A lower price than usual." }
+    { "term": "Digital Receipt", "definition": "A proof of payment sent to your email or app." },
+    { "term": "E-commerce", "definition": "Buying and selling things on the internet." }
   ]
 }

@@ -1,29 +1,30 @@
 {
-  "title": "Banca Digital y Seguridad",
+  "title": "Subscription Economy & Auto-Pay",
   "sections": [
     {
-      "id": "digital-vocab",
-      "title": "Vocabulario de Banca Online",
-      "content": "Hoy en día, la mayoría de las transacciones se hacen por internet.\n\n- **Online Banking**: Banca en línea\n- **Login**: Iniciar sesión\n- **Password / Passcode**: Contraseña / Código de acceso\n- **Username**: Nombre de usuario\n- **Website**: Sitio web\n- **App**: Aplicación móvil\n- **Download**: Descargar"
+      "id": "subscription-vocab",
+      "title": "Common Subscriptions",
+      "content": "Many services use a subscription model (paying every month).\n\n- **Subscription**: A regular payment for a service (Netflix, Spotify, Gym).\n- **Monthly Fee**: The price you pay every month.\n- **Annual / Yearly Fee**: The price you pay once a year.\n- **Free Trial**: Using a service for free for a short time (e.g., 7 days).\n- **Cancel**: To stop the service and the payments."
     },
     {
-      "id": "security",
-      "title": "Seguridad Básica",
-      "content": "Es importante proteger tu información.\n\n- **Security**: Seguridad\n- **Safe**: Seguro (adjetivo)\n- **Private**: Privado\n- **Lock**: Bloquear / Candado\n- **Hack**: Hackear (uso común)\n- **Scam**: Estafa"
+      "id": "automatic-billing",
+      "title": "Automatic Billing (Auto-Pay)",
+      "content": "You can set up your bank to pay bills automatically.\n\n- **Auto-Pay**: The bank sends the money automatically on a specific day.\n- **Direct Debit**: An instruction to your bank to allow a company to take money.\n- **Due Date**: The day you must pay the bill.\n- **Renew**: To continue the subscription for another month/year."
     },
     {
-      "id": "grammar-imp",
-      "title": "Gramática: El Imperativo",
-      "content": "Usamos el imperativo para dar instrucciones directas.\n\n- **Click** here to login. (Haz clic aquí para iniciar sesión)\n- **Enter** your password. (Introduce tu contraseña)\n- **Don't share** your PIN. (No compartas tu PIN)\n- **Download** the app. (Descarga la aplicación)"
+      "id": "diagram-subscription",
+      "title": "Subscription Cycle",
+      "content": "```mermaid\ngraph TD\n    A[Start Free Trial] --> B[Trial Ends]\n    B --> C{Cancel?}\n    C -- No --> D[First Auto-Pay]\n    D --> E[Monthly Service]\n    E --> F[Next Billing Date]\n    C -- Yes --> G[Service Stops]\n```"
     }
   ],
   "objectives": [
-    "Identificar términos básicos de banca online",
-    "Entender instrucciones simples de seguridad",
-    "Usar verbos imperativos para dar y seguir instrucciones"
+    "Identify common subscription terms (Monthly, Annual, Trial)",
+    "Understand how 'Auto-Pay' works for regular bills",
+    "Learn basic phrases for starting or stopping a service"
   ],
   "keyTerms": [
-    { "term": "Password", "definition": "A secret word or phrase used to enter a website." },
-    { "term": "Username", "definition": "A name that identifies you on a computer system." }
+    { "term": "Subscription", "definition": "An agreement to pay money regularly for a service." },
+    { "term": "Auto-Pay", "definition": "A system where payments are made automatically." },
+    { "term": "Trial", "definition": "A test period to try a product before buying it." }
   ]
 }

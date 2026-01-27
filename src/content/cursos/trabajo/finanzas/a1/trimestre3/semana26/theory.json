@@ -1,29 +1,35 @@
 {
-  "title": "Cajero Automático y Banca Online",
+  "title": "Digital Access & App Security",
   "sections": [
     {
-      "id": "vocab-atm",
-      "title": "Vocabulario: El Cajero (ATM)",
-      "content": "Aprenderemos a usar el cajero automático.\n\n- **ATM**: Cajero automático.\n- **Insert Card**: Insertar tarjeta.\n- **Enter PIN**: Introducir PIN.\n- **Select Amount**: Seleccionar cantidad.\n- **Take Cash**: Coger el efectivo.\n- **Transaction**: Transacción / Operación.\n- **Keypad**: Teclado numérico."
+      "id": "authentication",
+      "title": "Logging In Safely",
+      "content": "To see your money, you must 'authenticate' (prove who you are). \n\n- **Credentials**: Your username and password.\n- **Biometrics**: Using your fingerprint or face to log in quickly.\n- **MFA / 2FA**: A second security step, like a code sent to your phone.\n- **Log in / Sign in**: Entering the app.\n- **Log out / Sign out**: Leaving the app safely."
     },
     {
-      "id": "vocab-online",
-      "title": "Vocabulario: Banca Online",
-      "content": "Palabras para usar el banco en tu móvil o el ordenador.\n\n- **Log in**: Iniciar sesión.\n- **Username**: Nombre de usuario.\n- **Password**: Contraseña.\n- **Transfer**: Transferencia / Transferir.\n- **App**: Aplicación móvil.\n- **Log out**: Cerrar sesión."
+      "id": "security-flow",
+      "title": "Secure Login Flow",
+      "content": "```mermaid\ngraph LR\n    A[Open App] --> B[Enter Username]\n    B --> C[Biometrics/Password]\n    C --> D{MFA Check?}\n    D -- Yes --> E[Enter SMS Code]\n    D -- No --> F[Dashboard]\n    E --> F\n```"
+    },
+    {
+      "id": "app-ui",
+      "title": "The App Dashboard",
+      "content": "The 'Dashboard' is the main screen of your app.\n\n- **Menu**: The list of options (usually at the top or bottom).\n- **Profile**: Your personal settings and photo.\n- **Notifications**: Alerts about your money.\n- **Search Bar**: A place to find transactions by name."
     },
     {
       "id": "grammar-prepositions",
-      "title": "Gramática: Preposiciones de Lugar Básicas",
-      "content": "Para indicar dónde están las cosas.\n\n- The ATM is **in** the bank. (El cajero está dentro del banco).\n- The keypad is **on** the machine. (El teclado está en la máquina).\n- Your card is **in** your wallet. (Tu tarjeta está en tu cartera).\n- Stand **at** the ATM. (Ponte en el cajero)."
+      "title": "Grammar: Prepositions in Digital Banking",
+      "content": "We use **In**, **On**, and **At** to describe where things are in the digital world.\n\n- **In**: Use for the app or folders.\n  - *Your balance is **in** the app.*\n  - *Look **in** the 'Settings' folder.*\n- **On**: Use for the screen, page, or buttons.\n  - *The transfer button is **on** the screen.*\n  - *Click **on** the 'Confirm' button.*\n- **At**: Use for specific locations or points.\n  - *I am **at** the login page.*\n  - *The total is **at** the top of the screen.*"
     }
   ],
   "objectives": [
-    "Identificar los pasos para usar un cajero automático",
-    "Aprender vocabulario básico de seguridad digital",
-    "Usar preposiciones de lugar (in, on, at)"
+    "Identify different methods of secure authentication",
+    "Navigate the main dashboard of a banking app",
+    "Use prepositions (in, on, at) correctly in digital contexts"
   ],
   "keyTerms": [
-    { "term": "PIN", "definition": "Personal Identification Number (número secreto)." },
-    { "term": "Transfer", "definition": "To move money from one account to another." }
+    { "term": "Biometrics", "definition": "Security using your body (face, finger)." },
+    { "term": "Dashboard", "definition": "The main information screen." },
+    { "term": "MFA", "definition": "Multi-Factor Authentication (extra security)." }
   ]
 }

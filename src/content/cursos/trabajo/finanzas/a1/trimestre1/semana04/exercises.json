@@ -1,48 +1,65 @@
 {
-  "title": "Ejercicios: Cortesía y Repaso",
-  "exercises": [
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 1,
+  "weekId": "semana04",
+  "title": "Exercises: Greetings and Politeness",
+  "items": [
     {
-      "id": "ex1",
-      "type": "multiple-choice",
-      "question": "What do you say at 9:00 AM?",
+      "id": "fin-a1-w4-q1",
+      "type": "multipleChoice",
+      "prompt": "What do you say at 9:00 AM?",
       "options": [
         "Good morning",
         "Good afternoon",
         "Good evening",
         "Good night"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "We say 'Good morning' from sunrise until noon."
     },
     {
-      "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "A: Thank you very much. B: You're ________.",
-      "answer": "welcome",
-      "explanation": "The standard response to 'Thank you' is 'You're welcome'."
+      "id": "fin-a1-w4-q2",
+      "type": "multipleChoice",
+      "prompt": "An AI Assistant is...?",
+      "options": [
+        "A physical person",
+        "A computer program",
+        "A bank branch",
+        "A credit card"
+      ],
+      "answerIndex": 1,
+      "explanation": "An AI Assistant is a software program that helps with tasks."
     },
     {
-      "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the greeting with the context:",
+      "id": "fin-a1-w4-grammar-1",
+      "type": "multipleChoice",
+      "prompt": "Complete: '___ the AI assistant helpful?' 'Yes, it ___.'",
+      "options": [
+        "Am / am",
+        "Is / is",
+        "Are / are",
+        "Be / be"
+      ],
+      "answerIndex": 1,
+      "explanation": "The subject (AI assistant) is singular, so we use 'Is...?' and 'Yes, it is'."
+    },
+    {
+      "id": "fin-a1-w4-matching-1",
+      "type": "matching",
+      "prompt": "Match the phrase with the context.",
       "pairs": [
-        { "term": "Goodbye", "definition": "Leaving the office" },
-        { "term": "Excuse me", "definition": "Getting someone's attention" },
-        { "term": "I'm sorry", "definition": "Making a mistake" }
+        {"term": "Thank you", "definition": "Gratitude"},
+        {"term": "Excuse me", "definition": "Attention"},
+        {"term": "AI Assistant", "definition": "Helpful Tool"}
       ]
     },
     {
-      "id": "ex4",
-      "type": "multiple-choice",
-      "question": "How do you say 'De nada' in English?",
-      "options": [
-        "Please",
-        "Excuse me",
-        "You're welcome",
-        "Hello"
-      ],
-      "correctAnswer": 2,
-      "explanation": "'You're welcome' is the English translation for 'De nada'."
+      "id": "fin-a1-w4-writing-1",
+      "type": "writingTask",
+      "prompt": "Write a polite greeting to a colleague. Example: 'Good morning, Mark. How are you?'",
+      "modelAnswer": "Good morning. How are you?",
+      "keywords": ["Good", "morning", "How", "are"]
     }
   ]
 }

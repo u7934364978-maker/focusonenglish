@@ -1,24 +1,29 @@
 {
-  "title": "Acciones Diarias en el Banco",
+  "title": "Daily Actions: Traditional and Digital",
   "sections": [
     {
       "id": "vocab",
-      "title": "Verbos de Acción",
-      "content": "Lo que hacemos todos los días en nuestro puesto de trabajo.\n\n- **To pay**: Pagar\n- **To withdraw**: Retirar (dinero)\n- **To deposit**: Depositar\n- **To sign**: Firmar\n- **To help**: Ayudar\n- **To talk**: Hablar\n- **To check**: Comprobar / Revisar"
+      "title": "Action Verbs",
+      "content": "What do we do every day at the bank?\n\n- **To pay**: Pagar\n- **To withdraw**: Retirar dinero\n- **To deposit**: Depositar\n- **To sign**: Firmar\n- **To check**: Comprobar / Revisar\n\n### Modern Actions\n- **To scan**: Escanear (e.g., *scan a QR code*)\n- **To transfer**: Transferir dinero\n- **To click**: Hacer clic\n- **To download**: Descargar (the app)"
+    },
+    {
+      "id": "action-flow",
+      "title": "Modern Task: Digital Transfer",
+      "content": "How to move money today.\n\n### Transfer Steps\n```mermaid\ngraph LR\n    A[Open App] --> B[Enter Amount]\n    B --> C[Click Transfer]\n    C --> D[Done!]\n```"
     },
     {
       "id": "grammar",
-      "title": "Consolidación: Present Simple",
-      "content": "Repasamos las tres formas (Afirmativa, Negativa e Interrogativa).\n\n**Afirmativa:**\n- I **work** in the bank. / He **works** in the bank.\n\n**Negativa:**\n- I **don't work** here. / He **doesn't work** here.\n\n**Interrogativa:**\n- **Do** you **work** here? / **Does** he **work** here?\n\n**Respuestas Cortas:**\n- Yes, I **do**. / No, I **don't**.\n- Yes, he **does**. / No, he **doesn't**."
+      "title": "Grammar: Present Simple Review",
+      "content": "Reviewing Affirmative, Negative, and Interrogative forms.\n\n**Affirmative:**\n- I **transfer** money. / He **transfers** money.\n\n**Negative:**\n- I **don't scan** the code. / He **doesn't scan** the code.\n\n**Interrogative:**\n- **Do** you **pay** with your phone? / **Does** she **pay** with her phone?\n\n**Short Answers:**\n- Yes, I **do**. / No, I **don't**.\n- Yes, he **does**. / No, he **doesn't**."
     }
   ],
   "objectives": [
-    "Describir tareas diarias básicas utilizando verbos financieros",
-    "Dominar las estructuras afirmativas, negativas e interrogativas del presente simple",
-    "Responder correctamente a preguntas cerradas sobre el trabajo diario"
+    "Describe basic daily tasks using traditional and digital financial verbs",
+    "Master the different forms of the present simple",
+    "Understand modern digital actions in a banking context"
   ],
   "keyTerms": [
-    { "term": "Daily routine", "definition": "The things that you do every day at the same time." },
-    { "term": "Task", "definition": "A piece of work to be done or undertaken." }
+    { "term": "Transfer", "definition": "To move money from one account to another." },
+    { "term": "Routine", "definition": "The usual way of doing things." }
   ]
 }

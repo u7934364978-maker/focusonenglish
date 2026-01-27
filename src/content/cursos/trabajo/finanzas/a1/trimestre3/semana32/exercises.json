@@ -1,398 +1,398 @@
 {
-  "title": "Ejercicios: Repaso del Tercer Trimestre",
+  "title": "Exercises: Fintech & Digital Economy Review",
   "exercises": [
     {
       "id": "ex1",
       "type": "multiple-choice",
-      "question": "How do you say 'Depositar'?",
-      "options": ["To deposit", "To withdraw", "To transfer", "To save"],
+      "question": "How do you withdraw money without a physical card?",
+      "options": ["Using a QR code", "Using a paper check", "Using a letter", "Using a key"],
       "correctAnswer": 0,
-      "explanation": "To deposit is to put money in."
+      "explanation": "Modern ATMs allow cardless withdrawals using QR codes or NFC."
     },
     {
       "id": "ex2",
       "type": "fill-in-the-blank",
-      "question": "I am ________ (pagar) the bill now.",
+      "question": "I am ________ (pagar) the subscription now.",
       "answer": "paying",
-      "explanation": "Present continuous: am + verb-ing."
+      "explanation": "Present continuous (am + verb-ing) for current actions."
     },
     {
       "id": "ex3",
       "type": "vocabulary-match",
-      "question": "Match the actions:",
+      "question": "Match the fintech security terms:",
       "pairs": [
-        { "term": "Withdraw", "definition": "Retirar" },
-        { "term": "Transfer", "definition": "Transferir" },
-        { "term": "Check balance", "definition": "Consultar saldo" }
+        { "term": "Face ID", "definition": "Biometric recognition" },
+        { "term": "MFA", "definition": "Multi-Factor Authentication" },
+        { "term": "Passcode", "definition": "Numerical access code" }
       ]
     },
     {
       "id": "ex4",
       "type": "multiple-choice",
-      "question": "Which preposition for months (e.g., June)?",
+      "question": "Which preposition for months (e.g., in July)?",
       "options": ["At", "In", "On", "By"],
       "correctAnswer": 1,
-      "explanation": "We use 'In' for months."
+      "explanation": "We use 'In' for months and years."
     },
     {
       "id": "ex5",
       "type": "fill-in-the-blank",
-      "question": "I pay the rent ________ Monday.",
+      "question": "The installment is due ________ Monday.",
       "answer": "on",
-      "explanation": "We use 'On' for days of the week."
+      "explanation": "We use 'On' for specific days of the week."
     },
     {
       "id": "ex6",
       "type": "multiple-choice",
-      "question": "What is 'Overdue'?",
-      "options": ["Pagado", "Vencido", "Barato", "Nuevo"],
+      "question": "What is 'BNPL'?",
+      "options": ["Bank National Private Loan", "Buy Now, Pay Later", "Business New Payment Line", "Basic Network Price List"],
       "correctAnswer": 1,
-      "explanation": "Overdue means the due date has passed."
+      "explanation": "BNPL allows you to pay for purchases in installments."
     },
     {
       "id": "ex7",
       "type": "fill-in-the-blank",
-      "question": "The meeting is ________ 10:00 AM.",
+      "question": "The transaction is ________ 10:30 AM.",
       "answer": "at",
       "explanation": "We use 'At' for specific times."
     },
     {
       "id": "ex8",
       "type": "vocabulary-match",
-      "question": "Match the people:",
+      "question": "Match the app features:",
       "pairs": [
-        { "term": "Bank teller", "definition": "Cajero/a" },
-        { "term": "Manager", "definition": "Gerente" },
-        { "term": "Customer", "definition": "Cliente" }
+        { "term": "Dashboard", "definition": "Main screen" },
+        { "term": "Vault", "definition": "Savings container" },
+        { "term": "Pocket", "definition": "Multi-currency wallet" }
       ]
     },
     {
       "id": "ex9",
       "type": "multiple-choice",
-      "question": "Where is the ATM?",
-      "options": ["In the kitchen", "In the bank", "In the bed", "In the shower"],
+      "question": "Where do you find the 'Log out' button?",
+      "options": ["In the kitchen", "On the dashboard", "In the street", "In the car"],
       "correctAnswer": 1,
-      "explanation": "ATMs are usually at banks or streets."
+      "explanation": "The Log out button is located on the app's dashboard or settings."
     },
     {
       "id": "ex10",
       "type": "fill-in-the-blank",
-      "question": "You ________ (deberías) use a strong password.",
+      "question": "You ________ (deberías) enable Face ID for security.",
       "answer": "should",
-      "explanation": "Advice for security."
+      "explanation": "'Should' is used for giving advice."
     },
     {
       "id": "ex11",
       "type": "multiple-choice",
-      "question": "What is 'Cash'?",
-      "options": ["Tarjeta", "Efectivo", "Cheque", "Factura"],
+      "question": "What is a 'Round-up'?",
+      "options": ["A type of card", "Saving the spare change", "A bank branch", "A loan"],
       "correctAnswer": 1,
-      "explanation": "Cash = coins and notes."
+      "explanation": "Round-ups save the difference to the nearest whole number."
     },
     {
       "id": "ex12",
       "type": "fill-in-the-blank",
-      "question": "What is your ________? (meta)",
+      "question": "What is your savings ________? (meta)",
       "answer": "goal",
-      "explanation": "A financial target."
+      "explanation": "A financial goal is a target for saving money."
     },
     {
       "id": "ex13",
       "type": "multiple-choice",
-      "question": "How much ________ this pen?",
+      "question": "How much ________ this digital subscription?",
       "options": ["is", "are", "am", "be"],
       "correctAnswer": 0,
-      "explanation": "Singular 'pen'."
+      "explanation": "Use 'is' for singular subjects."
     },
     {
       "id": "ex14",
       "type": "fill-in-the-blank",
-      "question": "How much ________ those shoes?",
-      "answer": "are",
-      "explanation": "Plural 'shoes'."
+      "question": "How many ________ (transacciones) are there?",
+      "answer": "transactions",
+      "explanation": "Use 'How many' for countable plural nouns."
     },
     {
       "id": "ex15",
       "type": "vocabulary-match",
-      "question": "Opposites:",
+      "question": "Match the opposites:",
       "pairs": [
         { "term": "Deposit", "definition": "Withdraw" },
-        { "term": "Spend", "definition": "Save" },
-        { "term": "Buy", "definition": "Sell" }
+        { "term": "Save", "definition": "Spend" },
+        { "term": "Enable", "definition": "Disable" }
       ]
     },
     {
       "id": "ex16",
       "type": "multiple-choice",
-      "question": "Which is correct?",
+      "question": "Which is correct for a current action?",
       "options": ["I is saving", "I am saving", "I are saving", "I saveing"],
       "correctAnswer": 1,
-      "explanation": "I + am + verb-ing."
+      "explanation": "Subject 'I' takes 'am' + verb-ing."
     },
     {
       "id": "ex17",
       "type": "fill-in-the-blank",
-      "question": "Is there a ________? (descuento)",
-      "answer": "discount",
-      "explanation": "Lower price."
+      "question": "Enter the promo ________ for a discount.",
+      "answer": "code",
+      "explanation": "A promo code provides a discount at checkout."
     },
     {
       "id": "ex18",
       "type": "multiple-choice",
-      "question": "What is 'Bill'?",
-      "options": ["Billete", "Factura", "Cartera", "Banco"],
+      "question": "What is 'APY'?",
+      "options": ["Apple Pay Yearly", "Annual Percentage Yield", "Automatic Payment Yield", "Account Private Yield"],
       "correctAnswer": 1,
-      "explanation": "A bill is a document asking for payment."
+      "explanation": "APY is the real rate of return earned on an investment in one year."
     },
     {
       "id": "ex19",
       "type": "fill-in-the-blank",
-      "question": "It's ________ (gratis).",
+      "question": "The app download is ________ (gratis).",
       "answer": "free",
-      "explanation": "Costs $0."
+      "explanation": "Free means it costs no money ($0)."
     },
     {
       "id": "ex20",
       "type": "multiple-choice",
-      "question": "What is 'Interest rate'?",
-      "options": ["Tasa de interés", "Saldo", "Cajero", "Factura"],
+      "question": "What is 'Interest'?",
+      "options": ["Money paid for using money", "A type of app", "A bank manager", "A security code"],
       "correctAnswer": 0,
-      "explanation": "The percentage of interest."
+      "explanation": "Interest is the cost of borrowing money or the reward for saving it."
     },
     {
       "id": "ex21",
       "type": "fill-in-the-blank",
-      "question": "Don't ________ (perder) your card.",
-      "answer": "lose",
-      "explanation": "Verb after don't."
+      "question": "Don't ________ (compartir) your MFA code.",
+      "answer": "share",
+      "explanation": "Imperative negative: Don't + base verb."
     },
     {
       "id": "ex22",
       "type": "vocabulary-match",
-      "question": "Match the places:",
+      "question": "Match the digital terms:",
       "pairs": [
-        { "term": "Branch", "definition": "Sucursal" },
-        { "term": "Head office", "definition": "Sede central" },
-        { "term": "Checkout", "definition": "Caja (tienda)" }
+        { "term": "NFC", "definition": "Contactless payment" },
+        { "term": "QR Code", "definition": "Scannable matrix barcode" },
+        { "term": "Biometrics", "definition": "Physical identity traits" }
       ]
     },
     {
       "id": "ex23",
       "type": "multiple-choice",
-      "question": "Can I pay ________ credit card?",
-      "options": ["by", "in", "at", "on"],
+      "question": "Can I pay ________ Apple Pay?",
+      "options": ["with", "at", "on", "in"],
       "correctAnswer": 0,
-      "explanation": "We say 'pay BY card'."
+      "explanation": "We say 'pay WITH' a specific service or app."
     },
     {
       "id": "ex24",
       "type": "fill-in-the-blank",
-      "question": "Can I pay ________ cash?",
+      "question": "I have $50 ________ my travel pocket.",
       "answer": "in",
-      "explanation": "We say 'pay IN cash'."
+      "explanation": "We use 'In' for containers or digital spaces like pockets."
     },
     {
       "id": "ex25",
       "type": "multiple-choice",
-      "question": "What is 'Safe'?",
-      "options": ["Caro", "Seguro", "Barato", "Lento"],
+      "question": "What is 'MFA'?",
+      "options": ["Money For All", "Multi-Factor Authentication", "Mobile Finance App", "Main Financial Account"],
       "correctAnswer": 1,
-      "explanation": "Secure."
+      "explanation": "MFA adds an extra layer of security to your account."
     },
     {
       "id": "ex26",
       "type": "fill-in-the-blank",
-      "question": "I need to ________ (cambiar) money.",
+      "question": "I need to ________ (intercambiar) Euros for Dollars.",
       "answer": "exchange",
-      "explanation": "For different currency."
+      "explanation": "To exchange is to swap one currency for another."
     },
     {
       "id": "ex27",
       "type": "multiple-choice",
-      "question": "What is 'Currency'?",
-      "options": ["Moneda (divisa)", "Billete", "Banco", "Precio"],
+      "question": "What is 'Real-time'?",
+      "options": ["Happening now", "Happening tomorrow", "Happening yesterday", "Never happening"],
       "correctAnswer": 0,
-      "explanation": "Dollar, Euro, etc."
+      "explanation": "Real-time means updated immediately as it happens."
     },
     {
       "id": "ex28",
       "type": "fill-in-the-blank",
-      "question": "Check the ________. (tipo de cambio)",
-      "answer": "exchange rate",
-      "explanation": "Price of one currency in another."
+      "question": "Check the ________ rate before sending money.",
+      "answer": "exchange",
+      "explanation": "The exchange rate determines how much one currency is worth in another."
     },
     {
       "id": "ex29",
       "type": "multiple-choice",
-      "question": "Where do you type your PIN?",
-      "options": ["On the screen", "On the keypad", "On the door", "On the floor"],
-      "correctAnswer": 1,
-      "explanation": "Keypad = teclado numérico."
+      "question": "Where do you scan a QR code?",
+      "options": ["With the camera", "With the speaker", "With the battery", "With the volume button"],
+      "correctAnswer": 0,
+      "explanation": "QR codes are scanned using the mobile device camera."
     },
     {
       "id": "ex30",
       "type": "fill-in-the-blank",
-      "question": "Enter your ________ code.",
-      "answer": "access",
-      "explanation": "Common for apps."
+      "question": "Your ________ (huella dactilar) is a biometric.",
+      "answer": "fingerprint",
+      "explanation": "Fingerprints are unique biological identifiers."
     },
     {
       "id": "ex31",
       "type": "vocabulary-match",
-      "question": "Verbs Review:",
+      "question": "Match the verbs:",
       "pairs": [
-        { "term": "Sign", "definition": "Firmar" },
-        { "term": "Apply", "definition": "Solicitar" },
-        { "term": "Cancel", "definition": "Cancelar" }
+        { "term": "Scan", "definition": "Capture a code" },
+        { "term": "Authorize", "definition": "Give permission" },
+        { "term": "Link", "definition": "Connect accounts" }
       ]
     },
     {
       "id": "ex32",
       "type": "multiple-choice",
-      "question": "What is 'Signature'?",
-      "options": ["Firma", "Nombre", "Fecha", "Dirección"],
+      "question": "What is 'Checkout'?",
+      "options": ["The final step of a purchase", "A type of bank", "A savings goal", "A security code"],
       "correctAnswer": 0,
-      "explanation": "Your written name."
+      "explanation": "Checkout is where you review and pay for your items."
     },
     {
       "id": "ex33",
       "type": "fill-in-the-blank",
-      "question": "Please ________ (firmar) here.",
-      "answer": "sign",
-      "explanation": "Imperative."
+      "question": "Please ________ (autorizar) the payment.",
+      "answer": "authorize",
+      "explanation": "Imperative: Use the base form of the verb."
     },
     {
       "id": "ex34",
       "type": "multiple-choice",
-      "question": "What is 'ID card'?",
-      "options": ["DNI / Cédula", "Tarjeta de crédito", "Libreta", "Recibo"],
+      "question": "Which of these is a 'subscription'?",
+      "options": ["Netflix", "A one-time pizza", "A single bus ticket", "A pair of shoes"],
       "correctAnswer": 0,
-      "explanation": "Identification."
+      "explanation": "Netflix is a recurring service paid via subscription."
     },
     {
       "id": "ex35",
       "type": "fill-in-the-blank",
-      "question": "I have my ________. (pasaporte)",
-      "answer": "passport",
-      "explanation": "Official ID."
+      "question": "This is ________ (mi) virtual card.",
+      "answer": "my",
+      "explanation": "Possessive adjective for 'I'."
     },
     {
       "id": "ex36",
       "type": "multiple-choice",
-      "question": "What is 'Loan'?",
-      "options": ["Préstamo", "Ahorro", "Gasto", "Regalo"],
+      "question": "What is an 'Installment'?",
+      "options": ["A partial payment", "A bank manager", "A full price", "A gift"],
       "correctAnswer": 0,
-      "explanation": "Money the bank lends you."
+      "explanation": "Installments are small, regular payments to pay off a total amount."
     },
     {
       "id": "ex37",
       "type": "fill-in-the-blank",
-      "question": "I am ________ (ahorrar) for a trip.",
-      "answer": "saving",
-      "explanation": "Present continuous."
+      "question": "The auto-save is ________ (trabajando) well.",
+      "answer": "working",
+      "explanation": "Present continuous: is + verb-ing."
     },
     {
       "id": "ex38",
       "type": "vocabulary-match",
-      "question": "Currency match:",
+      "question": "Match the quantities:",
       "pairs": [
-        { "term": "USA", "definition": "Dollar" },
-        { "term": "UK", "definition": "Pound" },
-        { "term": "Europe", "definition": "Euro" }
+        { "term": "How much", "definition": "Uncountable (Money)" },
+        { "term": "How many", "definition": "Countable (Coins)" },
+        { "term": "Total", "definition": "Final amount" }
       ]
     },
     {
       "id": "ex39",
       "type": "multiple-choice",
       "question": "What is 'Balance'?",
-      "options": ["Saldo", "Factura", "Precio", "Banco"],
+      "options": ["Total money available", "A type of debt", "A bank branch", "A promo code"],
       "correctAnswer": 0,
-      "explanation": "Amount available."
+      "explanation": "Your balance is the amount of money you have in your account."
     },
     {
       "id": "ex40",
       "type": "fill-in-the-blank",
-      "question": "The bank is ________ (cerrado).",
-      "answer": "closed",
-      "explanation": "Opposite of open."
+      "question": "The vault is ________ (bloqueado).",
+      "answer": "locked",
+      "explanation": "Locked means access is restricted."
     },
     {
       "id": "ex41",
       "type": "multiple-choice",
-      "question": "When is the bank open?",
-      "options": ["At night", "During the day", "Never", "On Sundays"],
-      "correctAnswer": 1,
-      "explanation": "Business hours."
+      "question": "Which is a 'Direct Debit'?",
+      "options": ["Automatic bill payment", "Manual cash payment", "Physical check", "ATM withdrawal"],
+      "correctAnswer": 0,
+      "explanation": "Direct Debit automates recurring payments from your account."
     },
     {
       "id": "ex42",
       "type": "fill-in-the-blank",
-      "question": "I go to the bank ________ the morning.",
-      "answer": "in",
-      "explanation": "In the morning/afternoon/evening."
+      "question": "I am looking ________ the dashboard.",
+      "answer": "at",
+      "explanation": "We say 'look AT' something."
     },
     {
       "id": "ex43",
       "type": "multiple-choice",
-      "question": "What is 'Utility bill'?",
-      "options": ["Factura de servicios", "Billete de avión", "Recibo de compra", "Multa"],
+      "question": "What is 'Compound Interest'?",
+      "options": ["Interest on interest", "A simple fee", "A bank loan", "A physical card"],
       "correctAnswer": 0,
-      "explanation": "Water, light, gas."
+      "explanation": "Compound interest is calculated on the principal and previous interest."
     },
     {
       "id": "ex44",
       "type": "fill-in-the-blank",
-      "question": "The water bill is ________. (barata)",
-      "answer": "cheap",
-      "explanation": "Low cost."
+      "question": "The interest rate is ________. (alta)",
+      "answer": "high",
+      "explanation": "'High' refers to a large percentage or amount."
     },
     {
       "id": "ex45",
       "type": "vocabulary-match",
-      "question": "More Verbs:",
+      "question": "Financial actions:",
       "pairs": [
-        { "term": "Spend", "definition": "Gastar" },
-        { "term": "Earn", "definition": "Ganar (sueldo)" },
-        { "term": "Lose", "definition": "Perder" }
+        { "term": "Invest", "definition": "Grow your money" },
+        { "term": "Transfer", "definition": "Move money" },
+        { "term": "Budget", "definition": "Plan spending" }
       ]
     },
     {
       "id": "ex46",
       "type": "multiple-choice",
-      "question": "What should you do if you lose your card?",
-      "options": ["Wait", "Call the bank", "Buy a car", "Sleep"],
-      "correctAnswer": 1,
-      "explanation": "Safety first."
+      "question": "What should you do if your account is hacked?",
+      "options": ["Freeze the account", "Go to sleep", "Buy more things", "Tell no one"],
+      "correctAnswer": 0,
+      "explanation": "Freezing the account prevents further unauthorized transactions."
     },
     {
       "id": "ex47",
       "type": "fill-in-the-blank",
-      "question": "I ________ (perdí) my wallet.",
-      "answer": "lost",
-      "explanation": "Past tense of lose."
+      "question": "I ________ (olvidé) my passcode.",
+      "answer": "forgot",
+      "explanation": "Past tense of 'forget'."
     },
     {
       "id": "ex48",
       "type": "multiple-choice",
-      "question": "What is 'Wallet'?",
-      "options": ["Cartera", "Bolso", "Banco", "Cajero"],
+      "question": "What is 'Paperless'?",
+      "options": ["Digital documents only", "Only using notebooks", "No internet", "No money"],
       "correctAnswer": 0,
-      "explanation": "Where you keep cash and cards."
+      "explanation": "Paperless means using electronic versions instead of physical paper."
     },
     {
       "id": "ex49",
       "type": "fill-in-the-blank",
-      "question": "Where is the ________? (cajero)",
-      "answer": "cashier",
-      "explanation": "Person at the window."
+      "question": "Where is the ________? (ajustes)",
+      "answer": "settings",
+      "explanation": "The settings menu allows you to configure your app."
     },
     {
       "id": "ex50",
       "type": "multiple-choice",
-      "question": "Did you enjoy this level?",
-      "options": ["Yes", "No", "Maybe", "I don't know"],
+      "question": "Are you ready for Level A2?",
+      "options": ["Yes!", "Maybe", "I need more review", "No"],
       "correctAnswer": 0,
-      "explanation": "Hopefully yes!"
+      "explanation": "Congratulations on completing Level A1!"
     }
   ]
 }

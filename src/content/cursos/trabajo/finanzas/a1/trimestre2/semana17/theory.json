@@ -1,24 +1,30 @@
 {
-  "title": "Números y Dinero",
+  "title": "Digital Balances & Security Limits",
   "sections": [
     {
-      "id": "numbers",
-      "title": "Números Grandes",
-      "content": "Aprender a decir cantidades de dinero.\n\n- **100**: One hundred\n- **200**: Two hundred\n- **1,000**: One thousand\n- **5,000**: Five thousand\n- **10,000**: Ten thousand\n- **1,000,000**: One million"
+      "id": "large-numbers",
+      "title": "Large Numbers in Banking",
+      "content": "In digital banking, we often see large numbers for balances and limits.\n\n- **100**: One hundred\n- **1,000**: One thousand\n- **10,000**: Ten thousand\n- **100,000**: One hundred thousand\n- **1,000,000**: One million\n\n*Note: In English, we use a comma (,) for thousands and a point (.) for decimals.*"
     },
     {
-      "id": "money",
-      "title": "Monedas y Precios",
-      "content": "Cómo preguntar cuánto cuesta algo.\n\n- **Currency**: Moneda\n- **Dollar ($)**: Dólar\n- **Euro (€)**: Euro\n- **Pound (£)**: Libra\n- **Cent / Penny**: Céntimo\n- **How much is it?**: ¿Cuánto cuesta?\n- **It is...**: Cuesta..."
+      "id": "security-limits",
+      "title": "Security Limits & Balances",
+      "content": "Modern apps have limits to protect your money.\n\n- **Balance**: The total money in your account.\n- **Daily Limit**: The maximum you can spend in 24 hours.\n- **Transfer Limit**: The maximum amount for one payment.\n- **How much is the limit?**: ¿Cuál es el límite?\n- **My balance is...**: Mi saldo es..."
+    },
+    {
+      "id": "diagram-security",
+      "title": "Security Logic",
+      "content": "```mermaid\ngraph TD\n    A[User Request] --> B{Amount < Limit?}\n    B -- Yes --> C[Transaction Approved]\n    B -- No --> D[Transaction Declined]\n    D --> E[Check Security Settings]\n```"
     }
   ],
   "objectives": [
-    "Contar hasta un millón en inglés",
-    "Identificar las principales monedas del mundo",
-    "Preguntar precios de forma sencilla"
+    "Read large numbers (thousands and millions) in a banking context",
+    "Identify 'Balance' and 'Limit' on a digital screen",
+    "Ask about transaction limits using 'How much'"
   ],
   "keyTerms": [
-    { "term": "Thousand", "definition": "The number 1,000." },
-    { "term": "Price", "definition": "The amount of money you pay for something." }
+    { "term": "Balance", "definition": "The amount of money currently in a bank account." },
+    { "term": "Limit", "definition": "The maximum amount of money allowed for a transaction." },
+    { "term": "Thousand", "definition": "The number 1,000." }
   ]
 }

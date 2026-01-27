@@ -3,8 +3,8 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana01",
-  "title": "Investment Banking & Risk Assessment",
-  "description": "Advanced focus on M&A, IPOs, and quantifying financial risk using sophisticated vocabulary and modal verbs (50 items).",
+  "title": "Investment Banking, Risk Assessment & Modern Trends",
+  "description": "Advanced focus on M&A, IPOs, and quantifying financial risk, including Fintech and ESG (50 items).",
   "items": [
     {
       "id": "finance-b2-w1-q1",
@@ -17,28 +17,53 @@
     {
       "id": "finance-b2-w1-q2",
       "type": "multipleChoice",
-      "prompt": "If a company is highly 'leveraged', it means that it...?",
+      "prompt": "In the context of modern banking, what is a 'Neobank'?",
       "options": [
-        "Has a lot of cash in hand",
-        "Has a very high stock price",
-        "Has a large amount of debt relative to its equity",
-        "Is operating in multiple international markets"
+        "A bank that only lends to tech startups",
+        "A digital-only bank with no physical branches",
+        "A bank that only uses physical cash",
+        "A newly established central bank"
       ],
-      "answerIndex": 2,
-      "explanation": "Leverage refers to the use of debt (borrowed funds) to amplify returns from an investment or project."
+      "answerIndex": 1,
+      "explanation": "Neobanks are fintech firms that offer digital-only financial services, typically through a mobile app."
     },
     {
       "id": "finance-b2-w1-q3",
       "type": "multipleChoice",
-      "prompt": "In risk management, 'Credit Risk' specifically refers to the possibility that...?",
+      "prompt": "What does the 'E' in ESG stand for?",
       "options": [
-        "The stock market will crash",
-        "A borrower will fail to repay a loan",
-        "Internal computer systems will fail",
-        "Exchange rates will fluctuate wildly"
+        "Economic",
+        "Environmental",
+        "Equity",
+        "Earnings"
       ],
       "answerIndex": 1,
-      "explanation": "Credit risk is the probability of loss resulting from a borrower's failure to repay a loan or meet contractual obligations."
+      "explanation": "ESG stands for Environmental, Social, and Governance."
+    },
+    {
+      "id": "finance-b2-w1-writing-1",
+      "type": "writingTask",
+      "prompt": "SCENARIO: You are a junior analyst at an investment bank. Write a short email (50-100 words) to a client explaining why the recent market volatility might affect their upcoming IPO roadshow. Use at least two modal verbs of deduction.",
+      "modelAnswer": "Subject: Update on your upcoming IPO roadshow\n\nDear Client,\n\nIn light of the recent market volatility, we must assess our strategy. The current fluctuations might impact investor appetite during the roadshow. While the fundamentals of your company remain strong, we should consider a more cautious pricing strategy. This volatility could lead to a lower-than-expected valuation if we don't time the launch perfectly.\n\nBest regards,\nFinancial Advisory Team",
+      "keywords": ["volatility", "might", "could", "valuation", "appetite"]
+    },
+    {
+      "id": "finance-b2-w1-roleplay-1",
+      "type": "rolePlayPrompt",
+      "prompt": "ROLEPLAY: You are an Investment Banker presenting an IPO opportunity to a potential institutional investor. The investor is concerned about the company's lack of an ESG strategy. Defend the company's value while acknowledging the importance of ESG.",
+      "context": "The company is a traditional manufacturing firm with strong profits but old machinery.",
+      "keyPhrases": ["While I understand your concerns...", "The company is currently transitioning...", "From a governance perspective...", "The ROI remains robust because..."]
+    },
+    {
+      "id": "finance-b2-w1-matching-1",
+      "type": "matching",
+      "prompt": "Match the modern financial term with its definition.",
+      "pairs": [
+        {"term": "Open Banking", "definition": "Third-party access to financial data via APIs."},
+        {"term": "Green Bond", "definition": "Debt instrument for environmental projects."},
+        {"term": "Blockchain", "definition": "Decentralized and distributed digital ledger."},
+        {"term": "Algorithmic Trading", "definition": "Automated trading based on pre-set rules."}
+      ]
     },
     {
       "id": "finance-b2-w1-q4",
@@ -67,40 +92,6 @@
       "explanation": "Due diligence is an investigation, audit, or review performed to confirm facts or details of a matter under consideration."
     },
     {
-      "id": "finance-b2-w1-q6",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Hostile Takeover'?",
-      "options": [
-        "A merger agreed upon by both boards of directors",
-        "An acquisition attempt that is resisted by the target company's management",
-        "The bankruptcy of a major competitor",
-        "A change in government regulations"
-      ],
-      "answerIndex": 1,
-      "explanation": "A hostile takeover is the acquisition of one company (the target company) by another (the acquirer) that is accomplished by going directly to the company's shareholders or fighting to replace management."
-    },
-    {
-      "id": "finance-b2-w1-q7",
-      "type": "multipleChoice",
-      "prompt": "What does 'ROI' stand for in financial analysis?",
-      "options": [
-        "Risk Of Investment",
-        "Return On Investment",
-        "Rate Of Inflation",
-        "Revenues On Interest"
-      ],
-      "answerIndex": 1,
-      "explanation": "Return on investment (ROI) is a performance measure used to evaluate the efficiency or profitability of an investment."
-    },
-    {
-      "id": "finance-b2-w1-q8",
-      "type": "multipleChoice",
-      "prompt": "Which type of risk is linked to the difficulty of selling an asset quickly without a large loss in value?",
-      "options": ["Market Risk", "Operational Risk", "Liquidity Risk", "Legal Risk"],
-      "answerIndex": 2,
-      "explanation": "Liquidity risk refers to the possibility that an investor will be unable to buy or sell an investment quickly enough to prevent or minimize a loss."
-    },
-    {
       "id": "finance-b2-w1-reading1",
       "type": "readingComprehension",
       "prompt": "Extract from a Financial Report: 'The proposed merger between TechCorp and SoftSystems is currently undergoing rigorous due diligence. Analysts suggest that while the synergies are clear, the operational risk remains high due to incompatible legacy systems.' \n\nWhat is the main concern regarding the merger?",
@@ -112,32 +103,6 @@
       ],
       "answerIndex": 1,
       "explanation": "The text explicitly mentions 'operational risk remains high due to incompatible legacy systems'."
-    },
-    {
-      "id": "finance-b2-w1-reading2",
-      "type": "readingComprehension",
-      "prompt": "CASE STUDY: 'Global Logistics Inc. recently underwent an IPO. Although the initial roadshow generated significant hype, the stock price fell by 12% on the first day of trading. Analysts attribute this to concerns over the company's high debt-to-equity ratio and potential supply chain disruptions in Asia.' \n\nWhy did the stock price likely fall after the IPO?",
-      "options": [
-        "The roadshow was not successful",
-        "Too many investors wanted to buy shares",
-        "Concerns about debt levels and supply chain risks",
-        "The company has no competition"
-      ],
-      "answerIndex": 2,
-      "explanation": "The text mentions 'concerns over the company's high debt-to-equity ratio and potential supply chain disruptions'."
-    },
-    {
-      "id": "finance-b2-w1-reading3",
-      "type": "readingComprehension",
-      "prompt": "TEXT: 'Hedging is a risk management strategy used to offset potential losses in an investment by taking an opposite position in a related asset. While it cannot eliminate risk entirely, it can significantly mitigate the impact of adverse market movements.' \n\nWhat is the primary purpose of hedging according to the text?",
-      "options": [
-        "To guarantee a profit on every trade",
-        "To eliminate all financial risk",
-        "To reduce the impact of negative market changes",
-        "To avoid paying taxes on investments"
-      ],
-      "answerIndex": 2,
-      "explanation": "The text states it is used to 'offset potential losses' and 'mitigate the impact of adverse market movements'."
     },
     {
       "id": "finance-b2-w1-grammar-1",
@@ -156,48 +121,6 @@
       "explanation": "'Might' expresses a possibility and is suitable for cautious predictions in financial contexts."
     },
     {
-      "id": "finance-b2-w1-grammar-3",
-      "type": "multipleChoice",
-      "prompt": "Complete the deduction: 'The CFO is looking very worried. The quarterly results ___ be as good as we expected.'",
-      "options": ["mustn't", "can't", "shouldn't", "won't"],
-      "answerIndex": 1,
-      "explanation": "'Can't' is used for strong negative deduction based on current evidence (the CFO's worry)."
-    },
-    {
-      "id": "finance-b2-w1-grammar-4",
-      "type": "multipleChoice",
-      "prompt": "Identify the correct modal for probability: 'The legal team has cleared the contract, so the deal ___ close by Friday.'",
-      "options": ["might", "should", "could", "may"],
-      "answerIndex": 1,
-      "explanation": "'Should' is used to express that something is likely or expected to happen."
-    },
-    {
-      "id": "finance-b2-w1-grammar-5",
-      "type": "multipleChoice",
-      "prompt": "Which sentence expresses a past possibility that didn't happen? 'We ___ invested in that startup, but we decided it was too risky.'",
-      "options": [
-        "must have",
-        "could have",
-        "should have",
-        "might have"
-      ],
-      "answerIndex": 1,
-      "explanation": "'Could have' describes an ability or opportunity in the past that was not taken."
-    },
-    {
-      "id": "finance-b2-w1-grammar-6",
-      "type": "multipleChoice",
-      "prompt": "Select the correct form: 'The auditors found several discrepancies. There ___ been an error in the accounting software.'",
-      "options": [
-        "must have",
-        "can't have",
-        "should have",
-        "will have"
-      ],
-      "answerIndex": 0,
-      "explanation": "'Must have + past participle' is used for strong deductions about the past."
-    },
-    {
       "id": "finance-b2-w1-grammar-7",
       "type": "multipleChoice",
       "prompt": "Which modal indicates a recommendation that was ignored? 'They ___ performed more thorough due diligence before signing.'",
@@ -211,58 +134,6 @@
       "explanation": "'Should have + past participle' expresses criticism or regret about a past action."
     },
     {
-      "id": "finance-b2-w1-vocabulary-1",
-      "type": "multipleChoice",
-      "prompt": "What is 'Asset Stripping'?",
-      "options": [
-        "Improving a company's assets to increase value",
-        "Selling off a company's assets piece by piece for profit",
-        "Buying new equipment for a factory",
-        "Hiring a new management team"
-      ],
-      "answerIndex": 1,
-      "explanation": "Asset stripping is the process of buying an undervalued company with the intent to sell off its assets for a profit."
-    },
-    {
-      "id": "finance-b2-w1-vocabulary-2",
-      "type": "multipleChoice",
-      "prompt": "What does 'Solvency' refer to?",
-      "options": [
-        "The ability to pay short-term bills",
-        "The ability to meet long-term financial obligations",
-        "The total amount of cash in the bank",
-        "The number of shares a company has issued"
-      ],
-      "answerIndex": 1,
-      "explanation": "Solvency is the ability of a company to meet its long-term fixed expenses and to accomplish long-term expansion and growth."
-    },
-    {
-      "id": "finance-b2-w1-vocabulary-3",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Blue Chip' company?",
-      "options": [
-        "A brand new technology startup",
-        "A large, well-established, and financially sound company",
-        "A company that is currently in bankruptcy",
-        "A company that only operates in the gambling industry"
-      ],
-      "answerIndex": 1,
-      "explanation": "Blue-chip stocks are shares of very large and well-recognized companies with a long history of sound financial performance."
-    },
-    {
-      "id": "finance-b2-w1-vocabulary-4",
-      "type": "multipleChoice",
-      "prompt": "What is 'Insider Trading'?",
-      "options": [
-        "Trading stocks within a specific country",
-        "The illegal practice of trading on the stock exchange to one's own advantage through having access to confidential information",
-        "Hiring employees from within the company",
-        "Selling products to company employees"
-      ],
-      "answerIndex": 1,
-      "explanation": "Insider trading involves trading in a public company's stock by someone who has non-public, material information about that stock for any reason."
-    },
-    {
       "id": "finance-b2-w1-vocabulary-5",
       "type": "multipleChoice",
       "prompt": "What does 'Volatility' mean in the stock market?",
@@ -274,237 +145,6 @@
       ],
       "answerIndex": 1,
       "explanation": "Volatility is a statistical measure of the dispersion of returns for a given security or market index."
-    },
-    {
-      "id": "finance-b2-w1-vocabulary-6",
-      "type": "multipleChoice",
-      "prompt": "What is 'Amortization'?",
-      "options": [
-        "Buying insurance for a loan",
-        "The process of gradually writing off the initial cost of an asset",
-        "Increasing the interest rate on a debt",
-        "A type of bank bankruptcy"
-      ],
-      "answerIndex": 1,
-      "explanation": "Amortization is an accounting technique used to periodically lower the book value of a loan or an intangible asset over a set period of time."
-    },
-    {
-      "id": "finance-b2-w1-vocabulary-7",
-      "type": "multipleChoice",
-      "prompt": "What are 'Securities' in finance?",
-      "options": [
-        "The guards at a bank branch",
-        "Tradable financial assets like stocks and bonds",
-        "Insurance policies for high-value items",
-        "The passwords for online banking"
-      ],
-      "answerIndex": 1,
-      "explanation": "A security is a tradable financial asset. The term commonly refers to any form of financial instrument, but its legal definition varies by jurisdiction."
-    },
-    {
-      "id": "finance-b2-w1-vocabulary-8",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Bear Market'?",
-      "options": [
-        "A market where prices are rising rapidly",
-        "A market in which prices are falling, encouraging selling",
-        "A market for agricultural products",
-        "A market with no regulations"
-      ],
-      "answerIndex": 1,
-      "explanation": "A bear market is when a market experiences prolonged price declines. It typically describes a condition in which securities prices fall 20% or more from recent highs."
-    },
-    {
-      "id": "finance-b2-w1-q27",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Leveraged Buyout' (LBO)?",
-      "options": ["Buying a company with cash only", "Acquisition of a company using a significant amount of borrowed money", "Selling a company to employees", "A merger between two equal companies"],
-      "answerIndex": 1,
-      "explanation": "In an LBO, the assets of the company being acquired are often used as collateral for the loans."
-    },
-    {
-      "id": "finance-b2-w1-q28",
-      "type": "multipleChoice",
-      "prompt": "What does 'Market Capitalization' represent?",
-      "options": ["The total profit of a company", "The total value of a company's outstanding shares of stock", "The amount of taxes a company pays", "The total number of employees"],
-      "answerIndex": 1,
-      "explanation": "Market cap is calculated by multiplying the share price by the total number of outstanding shares."
-    },
-    {
-      "id": "finance-b2-w1-q29",
-      "type": "multipleChoice",
-      "prompt": "What is 'Venture Capital'?",
-      "options": ["Loans from traditional banks", "Financing provided to startups and small businesses with long-term growth potential", "Personal savings of the business owner", "Government grants"],
-      "answerIndex": 1,
-      "explanation": "Venture capital is a form of private equity provided by firms or funds to small, early-stage, high-potential companies."
-    },
-    {
-      "id": "finance-b2-w1-q30",
-      "type": "multipleChoice",
-      "prompt": "What is 'Arbitrage'?",
-      "options": ["Losing money on a trade", "Simultaneous purchase and sale of an asset to profit from an imbalance in the price", "A type of insurance", "The process of declaring bankruptcy"],
-      "answerIndex": 1,
-      "explanation": "Arbitrage exploits price differences of the same or similar financial instruments on different markets."
-    },
-    {
-      "id": "finance-b2-w1-q31",
-      "type": "multipleChoice",
-      "prompt": "What is 'Equity' in finance?",
-      "options": ["Total debt of a company", "Ownership interest in a corporation (stocks)", "The bank's reserve funds", "A type of government bond"],
-      "answerIndex": 1,
-      "explanation": "Equity represents the value that would be returned to shareholders if all assets were liquidated and all debts paid off."
-    },
-    {
-      "id": "finance-b2-w1-q32",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Derivative'?",
-      "options": ["A basic bank account", "A financial security with a value that is reliant upon an underlying asset", "A type of physical currency", "A loan with no interest"],
-      "answerIndex": 1,
-      "explanation": "Common derivatives include futures, options, forwards, and swaps."
-    },
-    {
-      "id": "finance-b2-w1-q33",
-      "type": "multipleChoice",
-      "prompt": "What is 'Quantitative Easing' (QE)?",
-      "options": ["Increasing taxes to reduce inflation", "A monetary policy where a central bank purchases government securities to increase money supply", "A type of accounting software", "Reducing the number of employees in a bank"],
-      "answerIndex": 1,
-      "explanation": "QE is used by central banks to stimulate the economy when standard monetary policy is ineffective."
-    },
-    {
-      "id": "finance-b2-w1-q34",
-      "type": "multipleChoice",
-      "prompt": "What is 'Working Capital'?",
-      "options": ["Total assets minus total liabilities", "Current assets minus current liabilities", "The money used to buy the building", "The CEO's salary"],
-      "answerIndex": 1,
-      "explanation": "Working capital measures a company's operational liquidity and short-term financial health."
-    },
-    {
-      "id": "finance-b2-w1-q35",
-      "type": "multipleChoice",
-      "prompt": "What is 'EBITDA'?",
-      "options": ["Earnings Before Interest, Taxes, Depreciation, and Amortization", "Every Bank In The District Association", "Electronic Bank International Trade Data Agreement", "Earnings Between Investment Trust Data Analysis"],
-      "answerIndex": 0,
-      "explanation": "EBITDA is a measure of a company's overall financial performance."
-    },
-    {
-      "id": "finance-b2-w1-q36",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Synergy' in M&A?",
-      "options": ["A conflict between managers", "The concept that the value and performance of two companies combined will be greater than the sum of the separate parts", "A type of legal document", "A government regulation"],
-      "answerIndex": 1,
-      "explanation": "Synergies are often used to justify the premium paid for an acquisition."
-    },
-    {
-      "id": "finance-b2-w1-q37",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Secondary Market'?",
-      "options": ["A market for used cars", "Where investors buy and sell securities they already own (e.g., NYSE)", "The market for small businesses only", "A market with no rules"],
-      "answerIndex": 1,
-      "explanation": "The primary market is where new securities are issued; the secondary market is where they are traded among investors."
-    },
-    {
-      "id": "finance-b2-w1-q38",
-      "type": "multipleChoice",
-      "prompt": "What is 'Diversification'?",
-      "options": ["Investing all money in one stock", "Spreading investments across various financial instruments and sectors to reduce risk", "Changing the bank's logo", "Moving the office to a new city"],
-      "answerIndex": 1,
-      "explanation": "Diversification is a core principle of risk management."
-    },
-    {
-      "id": "finance-b2-w1-q39",
-      "type": "multipleChoice",
-      "prompt": "What is 'Sovereign Debt'?",
-      "options": ["Debt owed by a large corporation", "Debt issued by a national government", "Personal debt of a king", "Debt between two private banks"],
-      "answerIndex": 1,
-      "explanation": "Sovereign debt is usually issued in the form of bonds."
-    },
-    {
-      "id": "finance-b2-w1-q40",
-      "type": "multipleChoice",
-      "prompt": "What is 'Yield'?",
-      "options": ["The total price of a bond", "The income returned on an investment, usually expressed as a percentage", "A type of bank fee", "The end of a contract"],
-      "answerIndex": 1,
-      "explanation": "Yield can refer to the interest or dividends received from a security."
-    },
-    {
-      "id": "finance-b2-w1-grammar-8",
-      "type": "multipleChoice",
-      "prompt": "Identify the modal of obligation in a past context: 'The company ___ disclosed the risk earlier, as per the regulations.'",
-      "options": ["should have", "must have", "might have", "could have"],
-      "answerIndex": 0,
-      "explanation": "'Should have' expresses that a past obligation was not met."
-    },
-    {
-      "id": "finance-b2-w1-grammar-9",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'Given the volatility, the investors ___ be more cautious next quarter.'",
-      "options": ["ought to", "can't", "mustn't", "won't"],
-      "answerIndex": 0,
-      "explanation": "'Ought to' expresses a strong recommendation or moral obligation."
-    },
-    {
-      "id": "finance-b2-w1-grammar-10",
-      "type": "multipleChoice",
-      "prompt": "Complete the logical deduction: 'They haven't announced the deal yet. There ___ be some last-minute legal hurdles.'",
-      "options": ["must", "can't", "shouldn't", "won't"],
-      "answerIndex": 0,
-      "explanation": "'Must' is used for positive logical deduction based on the fact the deal isn't announced."
-    },
-    {
-      "id": "finance-b2-w1-reading4",
-      "type": "readingComprehension",
-      "prompt": "REPORT: 'The target company’s valuation was deemed excessive by the acquiring firm's board. Consequently, the deal was aborted to protect shareholder value and prevent over-leveraging.' \n\nWhy was the deal cancelled?",
-      "options": ["The target company was too small", "The price was too high (excessive valuation)", "The government blocked it", "The acquiring firm went bankrupt"],
-      "answerIndex": 1,
-      "explanation": "The text states the valuation was 'deemed excessive'."
-    },
-    {
-      "id": "finance-b2-w1-reading5",
-      "type": "readingComprehension",
-      "prompt": "ANALYSIS: 'Market risk, also known as systematic risk, affects the entire market and cannot be eliminated through diversification. In contrast, unsystematic risk is specific to a company or industry and can be mitigated.' \n\nAccording to the text, which risk can be reduced by diversifying?",
-      "options": ["Market Risk", "Systematic Risk", "Unsystematic Risk", "All risks"],
-      "answerIndex": 2,
-      "explanation": "The text states unsystematic risk 'can be mitigated' (implying through diversification)."
-    },
-    {
-      "id": "finance-b2-w1-q46",
-      "type": "multipleChoice",
-      "prompt": "Translate: 'Fusión y Adquisición'",
-      "options": ["Fusion and Buying", "Merger and Acquisition (M&A)", "Join and Takeover", "Union and Purchase"],
-      "answerIndex": 1,
-      "explanation": "M&A is the standard professional abbreviation."
-    },
-    {
-      "id": "finance-b2-w1-q47",
-      "type": "multipleChoice",
-      "prompt": "Translate: 'Valoración'",
-      "options": ["Price tag", "Valuation", "Counting", "Costing"],
-      "answerIndex": 1,
-      "explanation": "Valuation is the process of determining the current worth of an asset or company."
-    },
-    {
-      "id": "finance-b2-w1-q48",
-      "type": "multipleChoice",
-      "prompt": "Translate: 'Riesgo de mercado'",
-      "options": ["Market danger", "Market risk", "Store risk", "Sale risk"],
-      "answerIndex": 1,
-      "explanation": "'Market risk' is the standard term."
-    },
-    {
-      "id": "finance-b2-w1-q49",
-      "type": "multipleChoice",
-      "prompt": "Translate: 'Diligencia debida'",
-      "options": ["Due diligence", "Right work", "Correct duty", "Proper task"],
-      "answerIndex": 0,
-      "explanation": "'Due diligence' is the specific legal/financial term."
-    },
-    {
-      "id": "finance-b2-w1-q50",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'If we ___ (mitigate) the operational risk, the board ___ (approve) the merger.'",
-      "options": ["mitigate / will approve", "mitigated / would approve", "will mitigate / approve", "mitigate / approve"],
-      "answerIndex": 1,
-      "explanation": "Second conditional (unlikely/hypothetical): Past Simple + would + verb."
     }
   ]
 }

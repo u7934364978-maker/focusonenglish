@@ -1,24 +1,30 @@
 {
-  "title": "Compras y Pagos",
+  "title": "Digital Support & Transaction Status",
   "sections": [
     {
-      "id": "shopping-vocab",
-      "title": "Vocabulario de Compras",
-      "content": "Palabras para ir a comprar.\n\n- **Buy**: Comprar\n- **Pay**: Pagar\n- **Cash**: Efectivo\n- **Credit Card**: Tarjeta de crédito\n- **Receipt**: Recibo / Ticket\n- **Change**: Cambio (lo que te devuelven)\n- **Cost**: Costar"
+      "id": "support-channels",
+      "title": "Contacting Digital Support",
+      "content": "Modern banks use apps and bots for fast help.\n\n- **Help Center**: A website with common questions.\n- **Chatbot / Virtual Assistant**: An AI that answers your questions.\n- **Live Chat**: Chatting with a real person.\n- **Ticket / Case**: A record of your support request.\n- **Call support**: To speak on the phone."
     },
     {
-      "id": "grammar-payments",
-      "title": "Gramática: Presente Simple",
-      "content": "Usamos el presente simple para acciones habituales al pagar.\n\n- I **pay** by card. (Pago con tarjeta)\n- He **pays** in cash. (Él paga en efectivo)\n- We **buy** food every week. (Compramos comida cada semana)\n- They **don't have** a receipt. (No tienen recibo)"
+      "id": "transaction-status",
+      "title": "Transaction Status",
+      "content": "Check the status of your payments in the app:\n\n- **Pending**: The money is waiting (not finished).\n- **Completed / Successful**: The transaction is finished.\n- **Failed / Declined**: The payment did not work.\n- **Refunded**: The money is sent back to you."
+    },
+    {
+      "id": "diagram-chatbot",
+      "title": "Chatbot Flow",
+      "content": "```mermaid\ngraph TD\n    A[User: I need help] --> B{Chatbot: What is the issue?}\n    B --> C[Payment Status]\n    B --> D[Blocked Card]\n    C --> E[Check App History]\n    D --> F[Connect to Human Agent]\n```"
     }
   ],
   "objectives": [
-    "Aprender verbos básicos de transacciones",
-    "Diferenciar métodos de pago (cash vs card)",
-    "Entender el concepto de 'change' y 'receipt'"
+    "Identify different digital support channels (Chatbot, Live Chat)",
+    "Understand transaction statuses (Pending, Completed, Failed)",
+    "Use basic phrases to ask for help in an app"
   ],
   "keyTerms": [
-    { "term": "Cash", "definition": "Money in the form of coins or notes." },
-    { "term": "Receipt", "definition": "A piece of paper that proves you have paid for something." }
+    { "term": "Chatbot", "definition": "A computer program that talks to users to help them." },
+    { "term": "Pending", "definition": "Waiting for a process to finish." },
+    { "term": "Declined", "definition": "Not accepted or rejected." }
   ]
 }

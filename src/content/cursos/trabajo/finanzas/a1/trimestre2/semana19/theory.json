@@ -1,24 +1,30 @@
 {
-  "title": "Tiempo y Citas",
+  "title": "Online Transfers & Instant Payments",
   "sections": [
     {
-      "id": "time-vocab",
-      "title": "Vocabulario del Tiempo",
-      "content": "Aprender a organizar tu agenda bancaria.\n\n- **Day**: Día\n- **Week**: Semana\n- **Month**: Mes\n- **Time**: Hora / Tiempo\n- **O'clock**: En punto\n- **Half past**: Y media\n- **Appointment**: Cita\n- **Meeting**: Reunión\n- **Bank visit**: Visita al banco"
+      "id": "transfer-vocab",
+      "title": "Transfer Vocabulary",
+      "content": "Sending money digitally is fast and easy.\n\n- **Send**: Mandar / Enviar dinero.\n- **Receive**: Recibir dinero.\n- **Recipient / Payee**: The person who receives the money.\n- **Instant Transfer**: Money that arrives in seconds.\n- **Standard Transfer**: Money that arrives in 1-2 days.\n- **Reference**: A short note for the payment (e.g., 'Rent')."
     },
     {
-      "id": "prepositions-time",
-      "title": "Gramática: Preposiciones de Tiempo (At, On, In)",
-      "content": "Cómo decir cuándo es tu cita.\n\n- **At**: Para horas (At 9 o'clock).\n- **On**: Para días (On Monday).\n- **In**: Para meses y años (In January).\n\nEjemplos:\n- My appointment is **at** 10:30.\n- See you **on** Friday.\n- I have a meeting **in** March."
+      "id": "time-transfers",
+      "title": "When is the money arriving?",
+      "content": "Use prepositions of time to talk about transfers:\n\n- The money arrives **at** 5:00 PM.\n- Send the payment **on** Monday.\n- The transfer is completed **in** 10 minutes.\n- **Instant**: Right now / immediately."
+    },
+    {
+      "id": "diagram-transfer",
+      "title": "Transfer Process",
+      "content": "```mermaid\ngraph LR\n    A[Enter Amount] --> B[Select Recipient]\n    B --> C[Security Code/OTP]\n    C --> D{Verification}\n    D -- Success --> E[Money Sent!]\n    E --> F[Instant Arrival]\n```"
     }
   ],
   "objectives": [
-    "Identificar los días de la semana y los meses",
-    "Decir la hora de forma básica",
-    "Usar las preposiciones de tiempo correctamente"
+    "Identify 'Send' and 'Receive' actions in a banking app",
+    "Differentiate between 'Instant' and 'Standard' transfers",
+    "Use 'at', 'on', and 'in' to describe when money arrives"
   ],
   "keyTerms": [
-    { "term": "Appointment", "definition": "A formal arrangement to meet or visit someone at a particular time and place." },
-    { "term": "Time", "definition": "The point at which something happens." }
+    { "term": "Recipient", "definition": "The person or business receiving the money." },
+    { "term": "Instant", "definition": "Happening immediately, without delay." },
+    { "term": "OTP", "definition": "One-Time Password; a security code sent to your phone." }
   ]
 }

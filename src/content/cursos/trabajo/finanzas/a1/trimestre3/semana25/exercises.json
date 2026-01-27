@@ -1,115 +1,118 @@
 {
-  "title": "Ejercicios: Operaciones Bancarias Básicas",
+  "title": "Digital Operations Exercises",
   "exercises": [
     {
       "id": "ex1",
       "type": "multiple-choice",
-      "question": "What does 'Withdraw' mean?",
-      "options": ["Depositar dinero", "Sacar dinero", "Firmar un documento", "Abrir una cuenta"],
+      "question": "Which action means putting money into your account?",
+      "options": ["Withdrawal", "Deposit", "Cancel", "Delete"],
       "correctAnswer": 1,
-      "explanation": "'Withdraw' is to take money out of the bank."
+      "explanation": "A 'Deposit' is when you put money into your bank account."
     },
     {
       "id": "ex2",
       "type": "fill-in-the-blank",
-      "question": "Please ________ (sign) here.",
-      "answer": "sign",
-      "explanation": "We use the imperative 'sign' to give an instruction."
+      "question": "Please ________ your 4-digit PIN on the keypad.",
+      "answer": "enter",
+      "explanation": "We use 'enter' for typing numbers or information into a machine."
     },
     {
       "id": "ex3",
       "type": "vocabulary-match",
-      "question": "Match the terms:",
+      "question": "Match the ATM button to its function:",
       "pairs": [
-        { "term": "Balance", "definition": "Saldo" },
-        { "term": "Account", "definition": "Cuenta" },
-        { "term": "Receipt", "definition": "Recibo" }
+        { "term": "Confirm", "definition": "Accept the transaction" },
+        { "term": "Cancel", "definition": "Stop the operation" },
+        { "term": "Correction", "definition": "Fix a mistake" }
       ]
     },
     {
       "id": "ex4",
       "type": "multiple-choice",
-      "question": "How do you say 'Cajero' (the person)?",
-      "options": ["ATM", "Bank teller", "Banker", "Manager"],
+      "question": "What is a 'Cardless Withdrawal'?",
+      "options": ["Using a paper check", "Taking cash using a QR code", "Buying things online", "Asking a teller for money"],
       "correctAnswer": 1,
-      "explanation": "A 'bank teller' is the person working at the counter."
+      "explanation": "A cardless withdrawal uses an app (often with a QR code) instead of a physical card."
     },
     {
       "id": "ex5",
       "type": "fill-in-the-blank",
-      "question": "I want to ________ (depositar) 100 dollars.",
-      "answer": "deposit",
-      "explanation": "The word for 'depositar' is 'deposit'."
+      "question": "________ your card into the slot to start.",
+      "answer": "insert",
+      "explanation": "You 'insert' a card into the ATM machine."
     },
     {
       "id": "ex6",
       "type": "multiple-choice",
-      "question": "Choose the correct negative imperative:",
-      "options": ["No forget your receipt.", "Don't forget your receipt.", "Not forget your receipt.", "Forget not your receipt."],
+      "question": "If you want to see how much money you have, you check your...",
+      "options": ["PIN", "Balance", "Slot", "NFC"],
       "correctAnswer": 1,
-      "explanation": "The negative imperative uses 'Don't' + verb."
+      "explanation": "The 'Balance' is the total amount of money in your account."
     },
     {
       "id": "ex7",
-      "type": "fill-in-the-blank",
-      "question": "Enter your ________ (PIN).",
-      "answer": "PIN",
-      "explanation": "You need to enter your PIN to use the card."
+      "type": "vocabulary-match",
+      "question": "Match the UI terms:",
+      "pairs": [
+        { "term": "Screen", "definition": "The visual display" },
+        { "term": "Keypad", "definition": "The buttons for numbers" },
+        { "term": "Slot", "definition": "The opening for the card" }
+      ]
     },
     {
       "id": "ex8",
-      "type": "vocabulary-match",
-      "question": "Match the actions:",
-      "pairs": [
-        { "term": "Deposit", "definition": "Meter dinero" },
-        { "term": "Withdraw", "definition": "Sacar dinero" },
-        { "term": "Wait", "definition": "Esperar" }
-      ]
+      "type": "fill-in-the-blank",
+      "question": "Don't ________ your PIN with anyone. It is a secret!",
+      "answer": "share",
+      "explanation": "For security, you must never share your PIN."
     },
     {
       "id": "ex9",
       "type": "multiple-choice",
-      "question": "Where do you stand to wait for your turn?",
-      "options": ["In a desk", "In a queue", "In a balance", "In a receipt"],
+      "question": "What does 'Remove your card' mean?",
+      "options": ["Put the card inside", "Take the card out", "Clean the card", "Destroy the card"],
       "correctAnswer": 1,
-      "explanation": "You wait in a 'queue' or 'line'."
+      "explanation": "'Remove' means to take something out."
     },
     {
       "id": "ex10",
       "type": "fill-in-the-blank",
-      "question": "What is my ________? (saldo)",
-      "answer": "balance",
-      "explanation": "'Balance' is the total amount of money in your account."
+      "question": "I want to ________ $50 from the ATM.",
+      "answer": "withdraw",
+      "explanation": "'Withdraw' is the verb for taking money out."
     },
     {
       "id": "ex11",
-      "type": "multiple-choice",
-      "question": "Complete: '________ your card into the machine.'",
-      "options": ["Enter", "Insert", "Withdraw", "Sign"],
-      "correctAnswer": 1,
-      "explanation": "You 'insert' a card into a machine."
+      "type": "vocabulary-match",
+      "question": "Match the technology terms:",
+      "pairs": [
+        { "term": "QR Code", "definition": "A square barcode to scan" },
+        { "term": "NFC", "definition": "Tap your phone or card" },
+        { "term": "Biometrics", "definition": "Fingerprint or face ID" }
+      ]
     },
     {
       "id": "ex12",
-      "type": "fill-in-the-blank",
-      "question": "Please ________ (wait) a moment.",
-      "answer": "wait",
-      "explanation": "The imperative for 'esperar' is 'wait'."
+      "type": "multiple-choice",
+      "question": "Choose the correct instruction for an ATM:",
+      "options": ["Select the amount", "Selecting the amount", "You select the amount", "To select the amount"],
+      "correctAnswer": 0,
+      "explanation": "Instructions use the imperative form (base verb)."
     },
     {
       "id": "ex13",
-      "type": "multiple-choice",
-      "question": "What is 'Recibo' in English?",
-      "options": ["Balance", "Receipt", "Note", "Ticket"],
-      "correctAnswer": 1,
-      "explanation": "'Receipt' is the paper you get after a transaction."
+      "type": "fill-in-the-blank",
+      "question": "Please ________ a moment while we process your request.",
+      "answer": "wait",
+      "explanation": "'Wait' is the imperative for 'esperar'."
     },
     {
       "id": "ex14",
-      "type": "fill-in-the-blank",
-      "question": "I have 500 euros in my ________. (cuenta)",
-      "answer": "account",
-      "explanation": "'Account' is where you keep your money."
+      "type": "multiple-choice",
+      "question": "Where can you see your recent transactions?",
+      "options": ["In the PIN", "In the history", "In the slot", "In the keypad"],
+      "correctAnswer": 1,
+      "explanation": "The 'Transaction History' shows your recent activity."
     },
     {
       "id": "ex15",
@@ -117,282 +120,89 @@
       "question": "Match the opposites:",
       "pairs": [
         { "term": "Deposit", "definition": "Withdraw" },
-        { "term": "Enter", "definition": "Exit" },
-        { "term": "Open", "definition": "Close" }
+        { "term": "Insert", "definition": "Remove" },
+        { "term": "Confirm", "definition": "Cancel" }
       ]
     },
     {
       "id": "ex16",
-      "type": "multiple-choice",
-      "question": "If you want to take money out, you make a...",
-      "options": ["Deposit", "Withdrawal", "Balance", "Payment"],
-      "correctAnswer": 1,
-      "explanation": "A 'withdrawal' is the noun for taking money out."
+      "type": "fill-in-the-blank",
+      "question": "I made a mistake. I need to press ________.",
+      "answer": "correction",
+      "explanation": "The 'Correction' or 'Clear' button fixes typing errors."
     },
     {
       "id": "ex17",
-      "type": "fill-in-the-blank",
-      "question": "Don't ________ (perder) your card.",
-      "answer": "lose",
-      "explanation": "'Lose' is the verb for 'perder'."
+      "type": "multiple-choice",
+      "question": "How do you say 'Comprobante' or 'Recibo'?",
+      "options": ["Ticket", "Receipt", "Paper", "Note"],
+      "correctAnswer": 1,
+      "explanation": "'Receipt' is the document that proves a transaction."
     },
     {
       "id": "ex18",
-      "type": "multiple-choice",
-      "question": "How do you ask for your balance?",
-      "options": ["Where is my balance?", "What is my balance?", "How is my balance?", "Who is my balance?"],
-      "correctAnswer": 1,
-      "explanation": "We use 'What' to ask for the amount."
+      "type": "fill-in-the-blank",
+      "question": "The ATM says: '________ your cash now.'",
+      "answer": "take",
+      "explanation": "The machine tells you to 'take' the money."
     },
     {
       "id": "ex19",
-      "type": "fill-in-the-blank",
-      "question": "I need to ________ (retirar) some cash.",
-      "answer": "withdraw",
-      "explanation": "'Withdraw' is the correct verb for taking out cash."
+      "type": "multiple-choice",
+      "question": "A '4-digit PIN' has how many numbers?",
+      "options": ["Two", "Four", "Six", "Eight"],
+      "correctAnswer": 1,
+      "explanation": "A 4-digit PIN has 4 numbers (e.g., 1234)."
     },
     {
       "id": "ex20",
-      "type": "multiple-choice",
-      "question": "Choose the correct spelling:",
-      "options": ["Reciept", "Receipt", "Reseipt", "Recipt"],
-      "correctAnswer": 1,
-      "explanation": "The correct spelling is 'Receipt'."
+      "type": "vocabulary-match",
+      "question": "Match the actions to the UI:",
+      "pairs": [
+        { "term": "Tap", "definition": "NFC / Contactless" },
+        { "term": "Type", "definition": "Keypad" },
+        { "term": "Scan", "definition": "QR Code" }
+      ]
     },
     {
       "id": "ex21",
       "type": "fill-in-the-blank",
-      "question": "________ (firmar) the document, please.",
-      "answer": "Sign",
-      "explanation": "'Sign' is the verb for 'firmar'."
+      "question": "Do ________ leave your receipt in the ATM.",
+      "answer": "not",
+      "explanation": "We use 'Do not' or 'Don't' for negative instructions."
     },
     {
       "id": "ex22",
-      "type": "vocabulary-match",
-      "question": "Match the quantities:",
-      "pairs": [
-        { "term": "Empty account", "definition": "0 euros" },
-        { "term": "High balance", "definition": "1,000,000 euros" },
-        { "term": "Small withdrawal", "options": "5 euros" }
-      ]
+      "type": "multiple-choice",
+      "question": "What is the best way to check your balance at night?",
+      "options": ["Go to the bank office", "Use the mobile app", "Call a friend", "Write a letter"],
+      "correctAnswer": 1,
+      "explanation": "Apps are available 24/7 for balance checks."
     },
     {
       "id": "ex23",
-      "type": "multiple-choice",
-      "question": "A 'Bank teller' is...",
-      "options": ["A machine", "A person", "A building", "A card"],
-      "correctAnswer": 1,
-      "explanation": "A teller is a human employee."
+      "type": "fill-in-the-blank",
+      "question": "Enter your PIN ________. Don't let others see.",
+      "answer": "carefully",
+      "explanation": "'Carefully' is an adverb describing how to enter the PIN safely."
     },
     {
       "id": "ex24",
-      "type": "fill-in-the-blank",
-      "question": "The ________ (cola) is very long.",
-      "answer": "queue",
-      "explanation": "'Queue' (or line) is the word for 'cola'."
+      "type": "vocabulary-match",
+      "question": "ATM Screen Options:",
+      "pairs": [
+        { "term": "Quick Cash", "definition": "Withdraw a standard amount" },
+        { "term": "Other amounts", "definition": "Choose a specific number" },
+        { "term": "Exit", "definition": "End the session" }
+      ]
     },
     {
       "id": "ex25",
       "type": "multiple-choice",
-      "question": "What do you do with a check?",
-      "options": ["Withdraw it", "Deposit it", "Balance it", "Queue it"],
+      "question": "If you lose your card, you should...",
+      "options": ["Wait a week", "Freeze it in the app", "Tell a neighbor", "Do nothing"],
       "correctAnswer": 1,
-      "explanation": "You 'deposit' a check to put the money in your account."
-    },
-    {
-      "id": "ex26",
-      "type": "fill-in-the-blank",
-      "question": "My account ________ is 1,200 euros. (saldo)",
-      "answer": "balance",
-      "explanation": "'Balance' refers to the amount."
-    },
-    {
-      "id": "ex27",
-      "type": "multiple-choice",
-      "question": "Which is an imperative?",
-      "options": ["I am signing.", "Sign here.", "He signs.", "To sign."],
-      "correctAnswer": 1,
-      "explanation": "'Sign here' is a direct instruction."
-    },
-    {
-      "id": "ex28",
-      "type": "fill-in-the-blank",
-      "question": "________ your PIN carefully. (introduzca)",
-      "answer": "Enter",
-      "explanation": "'Enter' is used for typing in numbers."
-    },
-    {
-      "id": "ex29",
-      "type": "multiple-choice",
-      "question": "If you 'withdraw' money, your balance...",
-      "options": ["Goes up", "Goes down", "Stays the same", "Disappears"],
-      "correctAnswer": 1,
-      "explanation": "Taking money out decreases the balance."
-    },
-    {
-      "id": "ex30",
-      "type": "fill-in-the-blank",
-      "question": "I want to open a new ________. (cuenta)",
-      "answer": "account",
-      "explanation": "'Account' is the banking product."
-    },
-    {
-      "id": "ex31",
-      "type": "vocabulary-match",
-      "question": "Match the objects:",
-      "pairs": [
-        { "term": "Card", "definition": "Tarjeta" },
-        { "term": "Cash", "definition": "Efectivo" },
-        { "term": "PIN", "definition": "Número secreto" }
-      ]
-    },
-    {
-      "id": "ex32",
-      "type": "multiple-choice",
-      "question": "How do you say 'Por favor'?",
-      "options": ["Thank you", "Please", "Excuse me", "Sorry"],
-      "correctAnswer": 1,
-      "explanation": "'Please' is used for politeness."
-    },
-    {
-      "id": "ex33",
-      "type": "fill-in-the-blank",
-      "question": "Take your ________. (recibo)",
-      "answer": "receipt",
-      "explanation": "You should always take the receipt."
-    },
-    {
-      "id": "ex34",
-      "type": "multiple-choice",
-      "question": "Which verb is for 'meter dinero'?",
-      "options": ["Withdraw", "Deposit", "Wait", "Lose"],
-      "correctAnswer": 1,
-      "explanation": "'Deposit' means putting money in."
-    },
-    {
-      "id": "ex35",
-      "type": "fill-in-the-blank",
-      "question": "Can I ________ 10 dollars? (retirar)",
-      "answer": "withdraw",
-      "explanation": "'Withdraw' is used for taking money."
-    },
-    {
-      "id": "ex36",
-      "type": "multiple-choice",
-      "question": "The bank ________ helps you.",
-      "options": ["ATM", "Teller", "Queue", "Card"],
-      "correctAnswer": 1,
-      "explanation": "The teller is the person who helps."
-    },
-    {
-      "id": "ex37",
-      "type": "fill-in-the-blank",
-      "question": "________ (firme) the receipt.",
-      "answer": "Sign",
-      "explanation": "'Sign' is the verb."
-    },
-    {
-      "id": "ex38",
-      "type": "vocabulary-match",
-      "question": "Bank locations:",
-      "pairs": [
-        { "term": "Counter", "definition": "Mostrador" },
-        { "term": "Entrance", "definition": "Entrada" },
-        { "term": "ATM", "definition": "Cajero automático" }
-      ]
-    },
-    {
-      "id": "ex39",
-      "type": "multiple-choice",
-      "question": "What do you 'insert'?",
-      "options": ["Cash", "Your card", "Your name", "The teller"],
-      "correctAnswer": 1,
-      "explanation": "You insert a physical card into a slot."
-    },
-    {
-      "id": "ex40",
-      "type": "fill-in-the-blank",
-      "question": "Don't ________ your PIN. (compartir)",
-      "answer": "share",
-      "explanation": "'Share' is 'compartir'."
-    },
-    {
-      "id": "ex41",
-      "type": "multiple-choice",
-      "question": "Is 'Queue' British or American English?",
-      "options": ["British", "American", "Spanish", "French"],
-      "correctAnswer": 0,
-      "explanation": "'Queue' is British; 'Line' is American."
-    },
-    {
-      "id": "ex42",
-      "type": "fill-in-the-blank",
-      "question": "I need a ________ for my deposit. (recibo)",
-      "answer": "receipt",
-      "explanation": "A receipt proves you made the deposit."
-    },
-    {
-      "id": "ex43",
-      "type": "multiple-choice",
-      "question": "Your 'balance' is $0. Your account is...",
-      "options": ["Full", "Empty", "Open", "Closed"],
-      "correctAnswer": 1,
-      "explanation": "If the balance is 0, it's empty."
-    },
-    {
-      "id": "ex44",
-      "type": "fill-in-the-blank",
-      "question": "Please ________ (esperar) here.",
-      "answer": "wait",
-      "explanation": "'Wait' is the imperative."
-    },
-    {
-      "id": "ex45",
-      "type": "vocabulary-match",
-      "question": "Currencies:",
-      "pairs": [
-        { "term": "$", "definition": "Dollar" },
-        { "term": "€", "definition": "Euro" },
-        { "term": "¥", "definition": "Yen" }
-      ]
-    },
-    {
-      "id": "ex46",
-      "type": "multiple-choice",
-      "question": "What is 'ahorrar'?",
-      "options": ["Spend", "Save", "Withdraw", "Deposit"],
-      "correctAnswer": 1,
-      "explanation": "'Save' means to keep money for later."
-    },
-    {
-      "id": "ex47",
-      "type": "fill-in-the-blank",
-      "question": "I want to ________ (depositar) cash.",
-      "answer": "deposit",
-      "explanation": "Verb for putting in money."
-    },
-    {
-      "id": "ex48",
-      "type": "multiple-choice",
-      "question": "A 'withdrawal' is a...",
-      "options": ["Verb", "Noun", "Adjective", "Pronoun"],
-      "correctAnswer": 1,
-      "explanation": "It's the name of the action (noun)."
-    },
-    {
-      "id": "ex49",
-      "type": "fill-in-the-blank",
-      "question": "The bank is ________. (cerrado)",
-      "answer": "closed",
-      "explanation": "'Closed' is the opposite of 'open'."
-    },
-    {
-      "id": "ex50",
-      "type": "multiple-choice",
-      "question": "If you have a problem, talk to the...",
-      "options": ["ATM", "Teller", "Receipt", "Queue"],
-      "correctAnswer": 1,
-      "explanation": "The teller can help you with problems."
+      "explanation": "Freezing or blocking the card in the app is the fastest security step."
     }
   ]
 }

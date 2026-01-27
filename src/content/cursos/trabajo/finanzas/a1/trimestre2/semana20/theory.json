@@ -1,24 +1,30 @@
 {
-  "title": "Repaso del Segundo Trimestre (A1)",
+  "title": "Cyber Hygiene & Password Safety",
   "sections": [
     {
-      "id": "review-vocab-a1",
-      "title": "Vocabulario Principal",
-      "content": "Resumen de palabras esenciales:\n\n- **Money**: Cash, Card, Coins, Notes.\n- **Bank**: Account, Manager, ATM, PIN.\n- **Shopping**: Buy, Pay, Receipt, Change, Cost.\n- **Numbers**: Hundred, Thousand, Million.\n- **Time**: Day, Week, Month, Appointment."
+      "id": "password-security",
+      "title": "Creating Secure Passwords",
+      "content": "A good password protects your bank account.\n\n- **Strong Password**: A mix of letters (A, b), numbers (1, 2), and symbols (!, @).\n- **Weak Password**: Easy to guess (e.g., '123456' or 'password').\n- **Change your password**: Update it every few months.\n- **Don't share**: Keep your password secret."
     },
     {
-      "id": "review-grammar-a1",
-      "title": "Gramática Básica",
-      "content": "Estructuras que debes recordar:\n\n- **Present Simple**: I pay, He buys.\n- **Questions**: How much...? What time...? Do you have...?\n- **Prepositions**: At 5:00, On Monday, In April.\n- **Imperatives**: Enter your PIN, Click here."
+      "id": "digital-hygiene",
+      "title": "Digital Safety Habits",
+      "content": "Stay safe online with these habits:\n\n- **2FA (Two-Factor Authentication)**: Using your password + a code from your phone.\n- **Public Wi-Fi**: Do not use bank apps on free Wi-Fi in cafes or airports.\n- **Lock your screen**: Always lock your phone and computer.\n- **Phishing**: Be careful with strange emails or links."
+    },
+    {
+      "id": "diagram-2fa",
+      "title": "How 2FA Works",
+      "content": "```mermaid\ngraph TD\n    A[Enter Password] --> B[Phone receives code]\n    B --> C[Enter Code in App]\n    C --> D{Identity Verified}\n    D -- Yes --> E[Access Granted]\n    D -- No --> F[Access Denied]\n```"
     }
   ],
   "objectives": [
-    "Repasar el vocabulario básico de finanzas de nivel A1",
-    "Consolidar las estructuras de presente simple y preposiciones",
-    "Prepararse para el examen final del trimestre A1"
+    "Recognize the difference between a strong and weak password",
+    "Understand the basic concept of 2FA for account security",
+    "Identify safe digital habits (Avoiding public Wi-Fi for banking)"
   ],
   "keyTerms": [
-    { "term": "Review", "definition": "Studying something again." },
-    { "term": "Exam", "definition": "A test to show what you know." }
+    { "term": "Phishing", "definition": "A trick to steal your password using fake emails or links." },
+    { "term": "2FA", "definition": "Using two different ways to prove who you are." },
+    { "term": "Strong", "definition": "Powerful and difficult to break or guess." }
   ]
 }

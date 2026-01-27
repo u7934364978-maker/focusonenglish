@@ -1,48 +1,65 @@
 {
-  "title": "Ejercicios: Profesiones y Preguntas",
-  "exercises": [
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 1,
+  "weekId": "semana07",
+  "title": "Exercises: Who Works at the Bank?",
+  "items": [
     {
-      "id": "ex1",
-      "type": "multiple-choice",
-      "question": "Who helps you with cash at the counter?",
+      "id": "fin-a1-w7-q1",
+      "type": "multipleChoice",
+      "prompt": "Who helps you with cash at the counter?",
       "options": [
         "The security guard",
         "The teller",
         "The customer",
         "The accountant"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "A teller (or cashier) handles cash transactions at the counter."
     },
     {
-      "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "A: ________ is the manager? B: He is in his office. A: ________ is his name? B: His name is Mr. Smith.",
-      "answer": "Where / What",
-      "explanation": "'Where' asks for location and 'What' asks for identity/name."
+      "id": "fin-a1-w7-q2",
+      "type": "multipleChoice",
+      "prompt": "Who builds the banking app?",
+      "options": [
+        "The security guard",
+        "The accountant",
+        "The app developer",
+        "The cashier"
+      ],
+      "answerIndex": 2,
+      "explanation": "App developers build and maintain the bank's mobile application."
     },
     {
-      "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the profession with the task:",
+      "id": "fin-a1-w7-grammar-1",
+      "type": "multipleChoice",
+      "prompt": "Complete: '___ is the security expert?' 'She is in the tech room.'",
+      "options": [
+        "Who",
+        "What",
+        "Where",
+        "When"
+      ],
+      "answerIndex": 2,
+      "explanation": "We use 'Where' to ask about the location (the tech room)."
+    },
+    {
+      "id": "fin-a1-w7-matching-1",
+      "type": "matching",
+      "prompt": "Match the role with the responsibility.",
       "pairs": [
-        { "term": "Security Guard", "definition": "Protects the bank" },
-        { "term": "Accountant", "definition": "Manages the books/numbers" },
-        { "term": "Assistant", "definition": "Helps the manager" }
+        {"term": "Security Expert", "definition": "Cybersecurity"},
+        {"term": "Accountant", "definition": "Financial books"},
+        {"term": "Teller", "definition": "Cash at counter"}
       ]
     },
     {
-      "id": "ex4",
-      "type": "multiple-choice",
-      "question": "Choose the correct question to ask about time:",
-      "options": [
-        "Who does the bank close?",
-        "Where does the bank close?",
-        "When does the bank close?",
-        "What does the bank close?"
-      ],
-      "correctAnswer": 2,
-      "explanation": "We use 'When' to ask about time."
+      "id": "fin-a1-w7-writing-1",
+      "type": "writingTask",
+      "prompt": "Ask a question starting with 'Who'. Example: 'Who is the manager?'",
+      "modelAnswer": "Who is the manager?",
+      "keywords": ["Who", "is"]
     }
   ]
 }

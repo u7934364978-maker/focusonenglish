@@ -1,29 +1,30 @@
 {
-  "title": "Problemas, Soluciones y Repaso",
+  "title": "Digital Statements & Spending Charts",
   "sections": [
     {
-      "id": "problems-vocab",
-      "title": "Problemas Comunes",
-      "content": "A veces hay problemas en el banco. Aprende a explicarlos.\n\n- **Problem**: Problema\n- **Lost**: Perdido / Perder\n- **Wrong**: Incorrecto / Equivocado\n- **Broken**: Roto / No funciona\n- **I don't understand**: No entiendo\n- **I forgot**: Olvidé\n- **Slow**: Lento"
+      "id": "statements-vocab",
+      "title": "Bank Statements",
+      "content": "A statement is a document that shows all your transactions.\n\n- **Bank Statement**: A record of your money (PDF or digital).\n- **Download Statement**: To save the document to your phone.\n- **Transaction History**: A list of all payments and transfers.\n- **Opening Balance**: The money at the start of the month.\n- **Closing Balance**: The money at the end of the month."
     },
     {
-      "id": "solutions",
-      "title": "Buscando Soluciones",
-      "content": "Frases para resolver situaciones.\n\n- **Can you help me?**: ¿Puede ayudarme?\n- **I need a new card**: Necesito una tarjeta nueva\n- **My PIN is wrong**: Mi PIN es incorrecto\n- **The ATM is broken**: El cajero está roto\n- **I'm sorry**: Lo siento\n- **Don't worry**: No se preocupe"
+      "id": "data-viz",
+      "title": "Spending Categories & Charts",
+      "content": "Modern apps show your spending in colorful charts.\n\n- **Category**: A group of similar expenses (e.g., Food, Travel, Bills).\n- **Chart / Graph**: A visual picture of your money (Pie chart, Bar graph).\n- **Highest Expense**: The category where you spend the most money.\n- **Budget**: A plan for your spending."
     },
     {
-      "id": "review-grammar",
-      "title": "Repaso de Gramática (T2)",
-      "content": "Resumen de lo más importante del trimestre:\n\n1. **There is / There are**: Hay (singular/plural).\n2. **Demostrativos**: This, That, These, Those.\n3. **Preposiciones de Lugar**: Next to, Opposite, Inside.\n4. **Imperativos**: Click, Enter, Sign.\n5. **Could**: Para peticiones amables."
+      "id": "diagram-spending",
+      "title": "Spending Categories",
+      "content": "```mermaid\npie title Monthly Spending\n    \"Rent\" : 500\n    \"Food\" : 200\n    \"Bills\" : 100\n    \"Entertainment\" : 100\n    \"Savings\" : 100\n```"
     }
   ],
   "objectives": [
-    "Expresar problemas bancarios sencillos",
-    "Pedir soluciones de forma educada",
-    "Repasar la gramática clave del segundo trimestre"
+    "Read a basic bank statement (PDF or digital)",
+    "Identify spending categories (Food, Bills, Travel)",
+    "Understand simple charts and graphs in a banking app"
   ],
   "keyTerms": [
-    { "term": "Problem", "definition": "A situation that needs to be dealt with or overcome." },
-    { "term": "Solution", "definition": "A means of solving a problem." }
+    { "term": "Statement", "definition": "A printed or digital record of the money in a bank account." },
+    { "term": "Category", "definition": "A class or group of things that are similar." },
+    { "term": "Chart", "definition": "A drawing that shows information in a simple way." }
   ]
 }

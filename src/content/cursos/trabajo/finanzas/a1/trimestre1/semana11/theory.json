@@ -1,29 +1,35 @@
 {
-  "title": "Meses y Fechas Importantes",
+  "title": "Dates & Deadlines",
   "sections": [
     {
       "id": "vocab-months",
-      "title": "Vocabulario: Los Meses del Año",
-      "content": "Es fundamental saber los meses para programar citas y pagos:\n\n- **January** (enero), **February** (febrero), **March** (marzo).\n- **April** (abril), **May** (mayo), **June** (junio).\n- **July** (julio), **August** (agosto), **September** (septiembre).\n- **October** (octubre), **November** (noviembre), **December** (diciembre).\n\n*Nota: Los meses siempre se escriben con mayúscula en inglés.*"
+      "title": "Vocabulary: Months & Financial Cycles",
+      "content": "In finance, we use months to talk about the **Fiscal Year** (año fiscal) and deadlines:\n\n- **January - March**: First quarter (Q1).\n- **April - June**: Second quarter (Q2).\n- **July - September**: Third quarter (Q3).\n- **October - December**: Fourth quarter (Q4).\n\n*Remember: Months always start with a Capital Letter (January, February...)*"
+    },
+    {
+      "id": "diagram-billing",
+      "title": "Typical Billing Cycle",
+      "content": "```mermaid\ngraph TD\n    A[1st: Start of Month] --> B[15th: Invoice Sent]\n    B --> C[30th: Deadline/Due Date]\n    C -->|If not paid| D[Next Month: Late Fee]\n```"
     },
     {
       "id": "vocab-dates",
-      "title": "Vocabulario: Números Ordinales para Fechas",
-      "content": "Para las fechas usamos números ordinales:\n\n- **1st**: First.\n- **2nd**: Second.\n- **3rd**: Third.\n- **4th**: Fourth.\n- **10th**: Tenth.\n- **20th**: Twentieth.\n- **31st**: Thirty-first."
+      "title": "Vocabulary: Ordinal Numbers for Deadlines",
+      "content": "We use ordinal numbers for specific days:\n\n- **1st** (First): *My salary arrives on the 1st.*\n- **15th** (Fifteenth): *The mid-month payment.*\n- **30th/31st** (Thirtieth/Thirty-first): *The end of the month.*\n- **Due Date**: The final day to pay (fecha de vencimiento)."
     },
     {
       "id": "grammar-prepositions",
-      "title": "Gramática: Preposiciones In, On, At",
-      "content": "Usamos diferentes preposiciones según la precisión del tiempo:\n\n1. **In**: Para periodos largos (meses, años).\n   - *In May* (En mayo).\n   - *In 2024* (En 2024).\n\n2. **On**: Para días específicos y fechas completas.\n   - *On Monday* (El lunes).\n   - *On June 15th* (El 15 de junio).\n\n3. **At**: Para horas específicas.\n   - *At 9:00 AM* (A las 9:00 AM)."
+      "title": "Grammar: Prepositions for Time (In, On, At)",
+      "content": "Use these rules for financial appointments:\n\n1. **In**: For months and years.\n   - *The report is due in March.*\n\n2. **On**: For specific days and dates.\n   - *The meeting is on Tuesday.*\n   - *The payment is on July 10th.*\n\n3. **At**: For specific times.\n   - *The bank closes at 4:30 PM.*"
     }
   ],
   "objectives": [
-    "Aprender los meses del año y los números ordinales básicos",
-    "Utilizar correctamente las preposiciones 'in', 'on' y 'at' en contextos temporales",
-    "Poder decir y escribir fechas importantes para trámites bancarios"
+    "Identify months and quarters in a financial context",
+    "Use ordinal numbers to specify payment dates and deadlines",
+    "Apply 'in', 'on', and 'at' correctly to schedule financial tasks"
   ],
   "keyTerms": [
-    { "term": "Date", "definition": "A specific day of the month or year." },
-    { "term": "Deadline", "definition": "The latest time or date by which something should be completed." }
+    { "term": "Due Date", "definition": "The day you must finish a payment or task." },
+    { "term": "Fiscal Year", "definition": "A 12-month period used for government and business accounting." },
+    { "term": "Quarter", "definition": "A period of three months (Q1, Q2, Q3, Q4)." }
   ]
 }

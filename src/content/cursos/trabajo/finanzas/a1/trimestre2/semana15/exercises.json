@@ -3,407 +3,165 @@
   "level": "A1",
   "trimester": 2,
   "weekId": "semana15",
-  "title": "Ejercicios: Localización en el Banco",
+  "title": "Bank Layout & Digital Locations",
   "items": [
     {
-      "id": "fin-a1-w15-1",
-      "type": "multipleChoice",
-      "prompt": "The ATM is ___ the entrance door.",
-      "options": ["Between", "Inside", "Next to", "Opposite"],
-      "answerIndex": 2,
-      "explanation": "Next to means al lado de."
+      "id": "fin-a1-w15-01",
+      "type": "matching",
+      "prompt": "Match the location with its description:",
+      "pairs": [
+        { "left": "At the top", "right": "High part of the screen" },
+        { "left": "Opposite", "right": "On the other side" },
+        { "left": "Inside", "right": "Within a space or app" },
+        { "left": "In the Cloud", "right": "Stored online" }
+      ],
+      "explanation": "These prepositions help you find things in physical and digital spaces."
     },
     {
-      "id": "fin-a1-w15-2",
+      "id": "fin-a1-w15-02",
       "type": "multipleChoice",
-      "prompt": "The counter is ___ the manager's office.",
-      "options": ["Opposite", "Inside", "Between", "Behind"],
+      "prompt": "The 'Log Out' button is usually at the ______ of the screen.",
+      "options": ["top", "bottom", "between"],
       "answerIndex": 0,
-      "explanation": "Opposite means enfrente de."
+      "explanation": "Most apps put important buttons at the top or bottom."
     },
     {
-      "id": "fin-a1-w15-3",
+      "id": "fin-a1-w15-03",
       "type": "multipleChoice",
-      "prompt": "My credit card is ___ my wallet.",
-      "options": ["Inside", "Opposite", "Between", "Behind"],
+      "prompt": "The ATM is ______ the door.",
+      "options": ["next to", "between", "inside"],
       "answerIndex": 0,
-      "explanation": "Inside means dentro de."
+      "explanation": "Next to means beside."
     },
     {
-      "id": "fin-a1-w15-4",
-      "type": "multipleChoice",
-      "prompt": "The bank is ___ the pharmacy and the park.",
-      "options": ["Next to", "Behind", "In front of", "Between"],
-      "answerIndex": 3,
-      "explanation": "Between means entre (dos cosas)."
+      "id": "fin-a1-w15-04",
+      "type": "fillBlanks",
+      "prompt": "My bank statements are [blank] the cloud.",
+      "answers": ["in", "inside"],
+      "explanation": "We say something is 'in the cloud'."
     },
     {
-      "id": "fin-a1-w15-5",
+      "id": "fin-a1-w15-05",
       "type": "multipleChoice",
-      "prompt": "The security guard is ___ the building.",
-      "options": ["Inside", "Opposite", "Between", "Next to"],
+      "prompt": "The counter is ______ the entrance.",
+      "options": ["opposite", "under", "between"],
       "answerIndex": 0,
-      "explanation": "Inside indicates location within a space."
+      "explanation": "Opposite means on the other side, facing the entrance."
     },
     {
-      "id": "fin-a1-w15-6",
+      "id": "fin-a1-w15-06",
+      "type": "writing",
+      "prompt": "Write a sentence using 'next to' to describe where the manager's office is.",
+      "example": "The manager's office is next to the vault.",
+      "explanation": "Use 'next to' for items side by side."
+    },
+    {
+      "id": "fin-a1-w15-07",
+      "type": "rolePlay",
+      "prompt": "Role-play: You are inside a bank. Ask the security guard: 'Where is the manager's office?' and 'Is there an ATM inside?'.",
+      "scenario": "Looking for help in a bank branch.",
+      "suggestedPhrases": [
+        "Excuse me, where is the manager?",
+        "Is it opposite the counter?",
+        "Thank you for your help."
+      ]
+    },
+    {
+      "id": "fin-a1-w15-08",
       "type": "multipleChoice",
-      "prompt": "The chairs are ___ the waiting area.",
-      "options": ["inside", "opposite", "next", "between"],
+      "prompt": "The 'Send' button is at the ______ of the page.",
+      "options": ["bottom", "top", "between"],
       "answerIndex": 0,
-      "explanation": "We use 'inside' for locations within an area."
+      "explanation": "You often find the final action button at the bottom."
     },
     {
-      "id": "fin-a1-w15-7",
-      "type": "multipleChoice",
-      "prompt": "The printer is ___ the computer.",
-      "options": ["between", "next to", "opposite", "inside"],
-      "answerIndex": 1,
-      "explanation": "'Next to' is used for items side by side."
-    },
-    {
-      "id": "fin-a1-w15-8",
-      "type": "multipleChoice",
-      "prompt": "Where is the manager? He is ___ his desk.",
-      "options": ["behind", "opposite", "between", "inside"],
-      "answerIndex": 0,
-      "explanation": "'Behind' means in the rear of."
-    },
-    {
-      "id": "fin-a1-w15-9",
-      "type": "multipleChoice",
-      "prompt": "The customer is standing ___ the teller.",
-      "options": ["in front of", "between", "inside", "next"],
-      "answerIndex": 0,
-      "explanation": "'In front of' means facing someone/something."
+      "id": "fin-a1-w15-09",
+      "type": "fillBlanks",
+      "prompt": "The bank is [blank] the supermarket and the pharmacy.",
+      "answers": ["between"],
+      "explanation": "Use 'between' for a position between two things."
     },
     {
       "id": "fin-a1-w15-10",
       "type": "multipleChoice",
-      "prompt": "The parking lot is ___ the bank.",
-      "options": ["behind", "between", "inside", "opposite"],
+      "prompt": "Is the security guard ______ the building?",
+      "options": ["inside", "on", "at"],
       "answerIndex": 0,
-      "explanation": "'Behind' for location at the back."
+      "explanation": "Inside indicates location within the walls."
     },
     {
       "id": "fin-a1-w15-11",
-      "type": "multipleChoice",
-      "prompt": "The bathroom is ___ the hall.",
-      "options": ["at the end of", "between", "opposite", "next"],
-      "answerIndex": 0,
-      "explanation": "Common phrase for location in a building."
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "Where is the nearest ATM?",
+      "explanation": "¿Dónde está el cajero más cercano?"
     },
     {
       "id": "fin-a1-w15-12",
       "type": "multipleChoice",
-      "prompt": "There is a document ___ the envelope.",
-      "options": ["inside", "opposite", "next", "between"],
-      "answerIndex": 0,
-      "explanation": "'Inside' for things within a container."
+      "prompt": "The printer is ______ the computer.",
+      "options": ["behind", "opposite", "next to"],
+      "answerIndex": 2,
+      "explanation": "Usually, the printer is next to the computer."
     },
     {
       "id": "fin-a1-w15-13",
-      "type": "multipleChoice",
-      "prompt": "The ATM is ___ the bank's entrance.",
-      "options": ["right outside", "between", "inside", "opposite"],
-      "answerIndex": 0,
-      "explanation": "Describes immediate exterior location."
+      "type": "fillBlanks",
+      "prompt": "Your receipt is [blank] the envelope.",
+      "answers": ["inside", "in"],
+      "explanation": "Use 'inside' for things within a container."
     },
     {
       "id": "fin-a1-w15-14",
       "type": "multipleChoice",
-      "prompt": "The two buildings are ___ each other.",
-      "options": ["opposite", "between", "inside", "next"],
+      "prompt": "The menu is ______ the profile picture.",
+      "options": ["under", "between", "on"],
       "answerIndex": 0,
-      "explanation": "'Opposite' when facing across a space."
+      "explanation": "Under means below."
     },
     {
       "id": "fin-a1-w15-15",
-      "type": "multipleChoice",
-      "prompt": "The pen is ___ the calculator and the phone.",
-      "options": ["between", "next", "opposite", "inside"],
-      "answerIndex": 0,
-      "explanation": "'Between' for position between two objects."
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The counter is opposite the entrance",
+      "explanation": "El mostrador está enfrente de la entrada."
     },
     {
       "id": "fin-a1-w15-16",
-      "type": "multipleChoice",
-      "prompt": "My office is ___ the third floor.",
-      "options": ["on", "in", "at", "next to"],
-      "answerIndex": 0,
-      "explanation": "We use 'on' for floors of a building."
+      "type": "writing",
+      "prompt": "Translate to English: '¿Está el gerente en su oficina?'",
+      "example": "Is the manager in his office?",
+      "explanation": "Use 'in' for locations like offices."
     },
     {
       "id": "fin-a1-w15-17",
       "type": "multipleChoice",
-      "prompt": "The bank is ___ the city center.",
-      "options": ["in", "on", "at", "opposite"],
+      "prompt": "The safe is ______ the wall.",
+      "options": ["behind", "opposite", "between"],
       "answerIndex": 0,
-      "explanation": "Use 'in' for areas or parts of a city."
+      "explanation": "A safe is often hidden behind a wall or picture."
     },
     {
       "id": "fin-a1-w15-18",
-      "type": "multipleChoice",
-      "prompt": "Please sit ___ the chair.",
-      "options": ["on", "in", "between", "opposite"],
-      "answerIndex": 0,
-      "explanation": "You sit 'on' a chair."
+      "type": "fillBlanks",
+      "prompt": "The bank is on the [blank] of the street.",
+      "answers": ["corner"],
+      "explanation": "A corner is where two streets meet."
     },
     {
       "id": "fin-a1-w15-19",
-      "type": "multipleChoice",
-      "prompt": "The receipt is ___ the bag.",
-      "options": ["inside", "opposite", "between", "behind"],
-      "answerIndex": 0,
-      "explanation": "'Inside' for location within an object."
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Your card is inside the wallet",
+      "explanation": "Tu tarjeta está dentro de la cartera."
     },
     {
       "id": "fin-a1-w15-20",
       "type": "multipleChoice",
-      "prompt": "The safe is ___ the wall.",
-      "options": ["behind", "opposite", "between", "next to"],
+      "prompt": "Wait ______ the yellow line, please.",
+      "options": ["behind", "on", "opposite"],
       "answerIndex": 0,
-      "explanation": "Common location for security items."
-    },
-    {
-      "id": "fin-a1-w15-21",
-      "type": "multipleChoice",
-      "prompt": "The line starts ___ the counter.",
-      "options": ["in front of", "behind", "inside", "opposite"],
-      "answerIndex": 0,
-      "explanation": "Position relative to the service desk."
-    },
-    {
-      "id": "fin-a1-w15-22",
-      "type": "multipleChoice",
-      "prompt": "There are some trees ___ the bank.",
-      "options": ["outside", "inside", "between", "opposite"],
-      "answerIndex": 0,
-      "explanation": "'Outside' for exterior locations."
-    },
-    {
-      "id": "fin-a1-w15-23",
-      "type": "multipleChoice",
-      "prompt": "The manager's office is ___ the hall.",
-      "options": ["at the end of", "between", "inside", "opposite"],
-      "answerIndex": 0,
-      "explanation": "Standard way to describe room position."
-    },
-    {
-      "id": "fin-a1-w15-24",
-      "type": "multipleChoice",
-      "prompt": "Is the bank ___ the library?",
-      "options": ["near", "inside", "between", "opposite to"],
-      "answerIndex": 0,
-      "explanation": "'Near' describes proximity."
-    },
-    {
-      "id": "fin-a1-w15-25",
-      "type": "multipleChoice",
-      "prompt": "The phone is ___ his ear.",
-      "options": ["against", "opposite", "between", "inside"],
-      "answerIndex": 0,
-      "explanation": "Preposition for physical contact."
-    },
-    {
-      "id": "fin-a1-w15-26",
-      "type": "multipleChoice",
-      "prompt": "The computer screen is ___ me.",
-      "options": ["in front of", "behind", "between", "inside"],
-      "answerIndex": 0,
-      "explanation": "'In front of' for what you are facing."
-    },
-    {
-      "id": "fin-a1-w15-27",
-      "type": "multipleChoice",
-      "prompt": "The trash can is ___ the desk.",
-      "options": ["under", "between", "opposite", "inside"],
-      "answerIndex": 0,
-      "explanation": "'Under' (debajo) for items on the floor below something."
-    },
-    {
-      "id": "fin-a1-w15-28",
-      "type": "multipleChoice",
-      "prompt": "The signs are ___ the wall.",
-      "options": ["on", "in", "between", "opposite"],
-      "answerIndex": 0,
-      "explanation": "'On' for things attached to a vertical surface."
-    },
-    {
-      "id": "fin-a1-w15-29",
-      "type": "multipleChoice",
-      "prompt": "The light is ___ the table.",
-      "options": ["above", "under", "between", "inside"],
-      "answerIndex": 0,
-      "explanation": "'Above' (encima de/por encima) for items at a higher level."
-    },
-    {
-      "id": "fin-a1-w15-30",
-      "type": "multipleChoice",
-      "prompt": "The office is ___ the supermarket.",
-      "options": ["above", "inside", "between", "next"],
-      "answerIndex": 0,
-      "explanation": "Vertical position in a building."
-    },
-    {
-      "id": "fin-a1-w15-31",
-      "type": "multipleChoice",
-      "prompt": "Is your name ___ the list?",
-      "options": ["on", "in", "at", "between"],
-      "answerIndex": 0,
-      "explanation": "Standard preposition for documents/lists."
-    },
-    {
-      "id": "fin-a1-w15-32",
-      "type": "multipleChoice",
-      "prompt": "There is a cafe ___ the bank.",
-      "options": ["next to", "inside", "between", "opposite"],
-      "answerIndex": 0,
-      "explanation": "Horizontal proximity."
-    },
-    {
-      "id": "fin-a1-w15-33",
-      "type": "multipleChoice",
-      "prompt": "The manager is ___ a meeting.",
-      "options": ["in", "on", "at", "opposite"],
-      "answerIndex": 0,
-      "explanation": "State or activity participation."
-    },
-    {
-      "id": "fin-a1-w15-34",
-      "type": "multipleChoice",
-      "prompt": "The bank is ___ the corner of the street.",
-      "options": ["on", "in", "at", "between"],
-      "answerIndex": 0,
-      "explanation": "Commonly used for street intersections."
-    },
-    {
-      "id": "fin-a1-w15-35",
-      "type": "multipleChoice",
-      "prompt": "My house is ___ 25 Main Street.",
-      "options": ["at", "on", "in", "next"],
-      "answerIndex": 0,
-      "explanation": "Use 'at' for specific addresses."
-    },
-    {
-      "id": "fin-a1-w15-36",
-      "type": "multipleChoice",
-      "prompt": "The files are ___ the drawer.",
-      "options": ["inside", "opposite", "between", "next to"],
-      "answerIndex": 0,
-      "explanation": "'Inside' for items within furniture."
-    },
-    {
-      "id": "fin-a1-w15-37",
-      "type": "multipleChoice",
-      "prompt": "The main office is ___ London.",
-      "options": ["in", "on", "at", "between"],
-      "answerIndex": 0,
-      "explanation": "Use 'in' for cities."
-    },
-    {
-      "id": "fin-a1-w15-38",
-      "type": "multipleChoice",
-      "prompt": "Look ___ the window.",
-      "options": ["out", "in", "on", "between"],
-      "answerIndex": 0,
-      "explanation": "Directional preposition."
-    },
-    {
-      "id": "fin-a1-w15-39",
-      "type": "multipleChoice",
-      "prompt": "The card machine is ___ the counter.",
-      "options": ["on", "inside", "between", "opposite"],
-      "answerIndex": 0,
-      "explanation": "Surface location."
-    },
-    {
-      "id": "fin-a1-w15-40",
-      "type": "multipleChoice",
-      "prompt": "There is a mirror ___ the wall.",
-      "options": ["on", "in", "between", "opposite"],
-      "answerIndex": 0,
-      "explanation": "Vertical surface attachment."
-    },
-    {
-      "id": "fin-a1-w15-41",
-      "type": "multipleChoice",
-      "prompt": "Wait ___ the door.",
-      "options": ["by", "on", "in", "between"],
-      "answerIndex": 0,
-      "explanation": "'By' meaning near or at."
-    },
-    {
-      "id": "fin-a1-w15-42",
-      "type": "multipleChoice",
-      "prompt": "The documents are ___ the folder.",
-      "options": ["inside", "opposite", "between", "behind"],
-      "answerIndex": 0,
-      "explanation": "Location within a container."
-    },
-    {
-      "id": "fin-a1-w15-43",
-      "type": "multipleChoice",
-      "prompt": "The building is ___ the street.",
-      "options": ["across", "opposite", "between", "inside"],
-      "answerIndex": 1,
-      "explanation": "'Opposite' for facing locations."
-    },
-    {
-      "id": "fin-a1-w15-44",
-      "type": "multipleChoice",
-      "prompt": "There is a bridge ___ the river.",
-      "options": ["over", "under", "between", "inside"],
-      "answerIndex": 0,
-      "explanation": "'Over' for spanning above."
-    },
-    {
-      "id": "fin-a1-w15-45",
-      "type": "multipleChoice",
-      "prompt": "The vault is ___ the bank.",
-      "options": ["inside", "opposite", "between", "next to"],
-      "answerIndex": 0,
-      "explanation": "Internal location."
-    },
-    {
-      "id": "fin-a1-w15-46",
-      "type": "multipleChoice",
-      "prompt": "Stand ___ the yellow line.",
-      "options": ["behind", "opposite", "between", "inside"],
-      "answerIndex": 0,
-      "explanation": "Safety instructions."
-    },
-    {
-      "id": "fin-a1-w15-47",
-      "type": "multipleChoice",
-      "prompt": "The keys are ___ the table.",
-      "options": ["on", "in", "between", "opposite"],
-      "answerIndex": 0,
-      "explanation": "Surface location."
-    },
-    {
-      "id": "fin-a1-w15-48",
-      "type": "multipleChoice",
-      "prompt": "There is a clock ___ the counter.",
-      "options": ["above", "under", "between", "inside"],
-      "answerIndex": 0,
-      "explanation": "Higher level location."
-    },
-    {
-      "id": "fin-a1-w15-49",
-      "type": "multipleChoice",
-      "prompt": "The pen is ___ the paper.",
-      "options": ["beside", "opposite", "between", "inside"],
-      "answerIndex": 0,
-      "explanation": "'Beside' means next to."
-    },
-    {
-      "id": "fin-a1-w15-50",
-      "type": "multipleChoice",
-      "prompt": "The office is ___ the city.",
-      "options": ["in", "on", "at", "between"],
-      "answerIndex": 0,
-      "explanation": "'In' for larger geographical areas."
+      "explanation": "You should wait behind the line for privacy."
     }
   ]
 }

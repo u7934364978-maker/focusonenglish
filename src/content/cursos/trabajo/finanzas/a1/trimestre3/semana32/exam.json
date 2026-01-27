@@ -4,47 +4,47 @@
   "trimester": 3,
   "weekId": "semana32",
   "examId": "fin-a1-w32-exam",
-  "title": "Examen: Repaso del Tercer Trimestre",
+  "title": "A1 Final Exam: Fintech & Digital Economy",
   "items": [
     {
       "id": "fin-a1-w32-exam-1",
       "type": "multipleChoice",
-      "prompt": "Please ________ the receipt.",
-      "options": ["keeps", "keep", "keeping", "to keep"],
+      "prompt": "Please ________ the QR code on the ATM screen.",
+      "options": ["scans", "scan", "scanning", "to scan"],
       "answerIndex": 1,
-      "explanation": "Review: Imperative for instructions."
+      "explanation": "Imperative for machine instructions."
     },
     {
       "id": "fin-a1-w32-exam-2",
       "type": "multipleChoice",
-      "prompt": "How ________ is the commission?",
+      "prompt": "How ________ is the APY for this savings vault?",
       "options": ["many", "much", "often", "long"],
       "answerIndex": 1,
-      "explanation": "Review: 'How much' for prices/fees."
+      "explanation": "Use 'How much' for rates and quantities."
     },
     {
       "id": "fin-a1-w32-exam-3",
       "type": "multipleChoice",
-      "prompt": "I have a meeting ________ Monday morning.",
+      "prompt": "The subscription payment is due ________ Friday.",
       "options": ["in", "at", "on", "to"],
       "answerIndex": 2,
-      "explanation": "Review: 'on' for days of the week."
+      "explanation": "Use 'on' for specific days of the week."
     },
     {
       "id": "fin-a1-w32-exam-4",
       "type": "multipleChoice",
-      "prompt": "Look at ________ documents on my desk.",
+      "prompt": "Look at ________ virtual pockets in my app.",
       "options": ["this", "that", "these", "those"],
       "answerIndex": 2,
-      "explanation": "Review: 'these' for plural near things."
+      "explanation": "Use 'these' for plural things close to the speaker."
     },
     {
       "id": "fin-a1-w32-exam-5",
       "type": "multipleChoice",
-      "prompt": "You ________ compare prices before buying.",
+      "prompt": "You ________ use Face ID to protect your account.",
       "options": ["should", "can", "at", "are"],
       "answerIndex": 0,
-      "explanation": "Review: 'should' for good advice."
+      "explanation": "Use 'should' for security advice."
     }
   ]
 }

@@ -1,24 +1,29 @@
 {
-  "title": "¿Quién trabaja en el banco?",
+  "title": "Who Works at the Bank? Modern Roles",
   "sections": [
     {
       "id": "vocab",
-      "title": "Profesiones en el Sector Financiero",
-      "content": "Conoceremos a las personas que trabajan con nosotros.\n\n- **Banker**: Banquero\n- **Cashier / Teller**: Cajero\n- **Manager**: Gerente\n- **Security Guard**: Guardia de seguridad\n- **Accountant**: Contable\n- **Assistant**: Asistente / Auxiliar\n- **Client / Customer**: Cliente"
+      "title": "Traditional Banking Roles",
+      "content": "People who work in the physical bank branch.\n\n- **Banker**: Banquero\n- **Teller / Cashier**: Cajero\n- **Manager**: Gerente\n- **Security Guard**: Guardia de seguridad\n- **Accountant**: Contable"
+    },
+    {
+      "id": "modern-roles",
+      "title": "Modern Banking Roles",
+      "content": "Digital banking needs new experts.\n\n- **App Developer**: Desarrollador de aplicaciones\n- **Cybersecurity Expert**: Experto en ciberseguridad\n- **Data Analyst**: Analista de datos\n- **Online Assistant**: Asistente en línea\n\n### Team Structure\n```mermaid\ngraph TD\n    A[Bank Manager] --> B[Branch Staff]\n    A --> C[Tech Team]\n    C --> D[Developers]\n    C --> E[Security Experts]\n```"
     },
     {
       "id": "grammar",
-      "title": "Wh-Questions (Preguntas de información)",
-      "content": "Para obtener información específica usamos palabras que empiezan por Wh-.\n\n- **Who**: Quién (e.g., *Who is the manager?*)\n- **What**: Qué (e.g., *What is your name?*)\n- **Where**: Dónde (e.g., *Where is the ATM?*)\n- **When**: Cuándo (e.g., *When does the bank open?*)\n\n**Estructura:**\n- **Wh- word + is + subject?**\n- **Wh- word + do/does + subject + verb?**"
+      "title": "Grammar: Wh-Questions",
+      "content": "To get information, we use Wh- words.\n\n- **Who**: Quién (e.g., *Who is the manager?*)\n- **What**: Qué (e.g., *What is an app?*)\n- **Where**: Dónde (e.g., *Where is the tech team?*)\n- **When**: Cuándo (e.g., *When do they work?*)\n\n**Structure:**\n- **Wh- word + is + subject?**\n- **Wh- word + do/does + subject + verb?**"
     }
   ],
   "objectives": [
-    "Identificar los roles profesionales dentro de una sucursal bancaria",
-    "Realizar preguntas de información utilizando 'Who', 'What', 'Where' y 'When'",
-    "Responder a preguntas básicas sobre el personal del banco"
+    "Identify traditional and modern professional roles in banking",
+    "Use Wh- words to ask for information",
+    "Understand the tech roles in a digital bank"
   ],
   "keyTerms": [
-    { "term": "Staff", "definition": "All the people employed by a particular organization." },
-    { "term": "Role", "definition": "The function assumed or part played by a person in a particular situation." }
+    { "term": "Staff", "definition": "The people who work in a company." },
+    { "term": "Cybersecurity", "definition": "Protection for computer systems and data." }
   ]
 }

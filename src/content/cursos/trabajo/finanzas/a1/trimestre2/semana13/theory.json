@@ -1,25 +1,30 @@
 {
-  "title": "Precios y Compras de Oficina",
+  "title": "Prices & Office Purchases",
   "sections": [
     {
-      "id": "intro",
-      "title": "Vocabulario de Precios",
-      "content": "En esta lección aprenderemos a hablar de precios y objetos comunes de oficina.\n\n- **Price**: Precio\n- **Cost**: Coste / Costar\n- **Receipt**: Recibo / Factura simplificada\n- **Change**: Cambio (la vuelta)\n- **Budget**: Presupuesto\n- **Expensive**: Caro\n- **Cheap**: Barato"
+      "id": "vocab-prices",
+      "title": "Vocabulary: Modern Shopping",
+      "content": "When buying for the office, we use these terms:\n\n- **Price**: The amount of money you pay.\n- **Receipt / E-receipt**: Proof of payment (paper or digital).\n- **Budget**: The total money you can spend.\n- **Cashless**: Paying without physical money (using cards or apps).\n- **Bulk buy**: Buying many items at once to save money (barato).\n- **Fee**: A hidden or extra cost."
     },
     {
-      "id": "grammar",
-      "title": "Gramática: There is / There are",
-      "content": "Usamos **There is** para singular y **There are** para plural.\n\n- **There is** a computer on the desk. (Hay un ordenador en la mesa)\n- **There are** three pens in the drawer. (Hay tres bolígrafos en el cajón)\n\nEn preguntas:\n- **Is there** a receipt? (¿Hay un recibo?)\n- **Are there** any stamps? (¿Hay sellos?)"
+      "id": "diagram-purchase",
+      "title": "The Purchase Flow",
+      "content": "```mermaid\ngraph LR\n    A[Order] --> B[Payment]\n    B --> C[E-Receipt]\n    C --> D[Delivery]\n```"
+    },
+    {
+      "id": "grammar-there-is-are",
+      "title": "Grammar: There is / There are",
+      "content": "Use these to describe what is in your office or on your bill:\n\n1. **There is** (Singular):\n   - *There is a new laptop in the budget.*\n   - *There is a fee on the receipt.*\n\n2. **There are** (Plural):\n   - *There are five printers in the office.*\n   - *There are many cheap options online.*\n\n3. **Is there / Are there** (Questions):\n   - *Is there an e-receipt?*\n   - *Are there any hidden costs?*"
     }
   ],
   "objectives": [
-    "Identificar vocabulario básico de precios y oficina",
-    "Utilizar 'There is' y 'There are' correctamente",
-    "Preguntar por el precio de objetos"
+    "Learn vocabulary for modern office purchases and pricing",
+    "Understand the difference between paper and digital receipts",
+    "Use 'There is' and 'There are' to describe inventory and costs"
   ],
   "keyTerms": [
-    { "term": "Receipt", "definition": "A piece of paper that proves you paid for something." },
-    { "term": "Expensive", "definition": "Something that costs a lot of money." },
-    { "term": "Cheap", "definition": "Something that does not cost much money." }
+    { "term": "Budget", "definition": "A plan of how much money you can spend." },
+    { "term": "Cashless", "definition": "A system where you do not use physical coins or notes." },
+    { "term": "Bulk", "definition": "Buying in large quantities." }
   ]
 }

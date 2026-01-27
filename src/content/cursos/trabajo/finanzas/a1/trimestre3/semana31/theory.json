@@ -1,29 +1,35 @@
 {
-  "title": "Ahorro e Intereses Básicos",
+  "title": "Financial Health: Advice & Interest",
   "sections": [
     {
-      "id": "vocab-savings",
-      "title": "Vocabulario: Ahorrando Dinero",
-      "content": "Aprenderemos palabras sobre cómo guardar dinero.\n\n- **Savings account**: Cuenta de ahorros.\n- **Interest**: Interés.\n- **Interest rate**: Tasa de interés.\n- **To save**: Ahorrar.\n- **Balance**: Saldo.\n- **Goal**: Meta / Objetivo.\n- **Piggy bank**: Hucha / Alcancía."
+      "id": "interest-growth",
+      "title": "How Savings Grow",
+      "content": "When you save, the bank rewards you with extra money called **Interest**.\n\n- **Interest Rate (APY)**: The percentage of money you earn per year.\n- **High-Yield Savings**: Special accounts with a higher interest rate (e.g., 4% instead of 0.1%).\n- **Compound Interest**: When your interest earns more interest. Your money grows faster!\n- **Growth**: The increase in your total balance over time."
     },
     {
-      "id": "grammar-should",
-      "title": "Gramática: Consejos con 'Should'",
-      "content": "Usamos **should** para dar consejos financieros.\n\n- You **should** save money every month. (Deberías ahorrar dinero cada mes).\n- You **shouldn't** spend all your salary. (No deberías gastar todo tu sueldo).\n\n**Estructura:**\n- Afirmativo: Sujeto + should + verbo base.\n- Negativo: Sujeto + shouldn't + verbo base."
+      "id": "interest-graph",
+      "title": "Interest Growth Comparison",
+      "content": "```mermaid\ngraph LR\n    A[Start: €100] --> B(Basic Account: 0.1%)\n    A --> C(High-Yield: 4.0%)\n    B --> D[Slow Growth]\n    C --> E[Fast Growth]\n    E --> F[Higher Balance!]\n```"
     },
     {
-      "id": "useful-phrases",
-      "title": "Hablando de Ahorros",
-      "content": "- *I want to open a savings account.* (Quiero abrir una cuenta de ahorros).\n- *What is the interest rate?* (¿Cuál es la tasa de interés?).\n- *I am saving for a new car.* (Estoy ahorrando para un coche nuevo)."
+      "id": "grammar-advice",
+      "title": "Grammar: Advice with 'Should' & 'Shouldn't'",
+      "content": "Use **Should** for good advice and **Shouldn't** for bad habits.\n\n- **Good Advice**:\n  - *You **should** have an emergency fund.*\n  - *You **should** check interest rates every year.*\n- **Bad Habits**:\n  - *You **shouldn't** leave all your money in a 0% account.*\n  - *You **shouldn't** spend your interest immediately.*\n\n**Question Form**:\n- *Should I open a high-yield account?* Yes, you should!"
+    },
+    {
+      "id": "financial-habits",
+      "title": "Smart Financial Habits",
+      "content": "- **Automate**: Let the app save for you.\n- **Compare**: Look for the best interest rates online.\n- **Reinvest**: Keep your interest in the account to grow more."
     }
   ],
   "objectives": [
-    "Hablar sobre el hábito de ahorrar",
-    "Usar 'should' para dar consejos",
-    "Entender conceptos básicos de interés"
+    "Differentiate between basic and high-yield interest rates",
+    "Use 'should' and 'shouldn't' to give and receive financial advice",
+    "Understand the concept of financial growth and compounding"
   ],
   "keyTerms": [
-    { "term": "Interest", "definition": "Money paid by the bank for keeping your savings." },
-    { "term": "Balance", "definition": "The total amount of money in your account." }
+    { "term": "APY", "definition": "Annual Percentage Yield (your yearly interest)." },
+    { "term": "Compound", "definition": "To add interest to the total and earn more later." },
+    { "term": "Yield", "definition": "The amount of money you earn from an investment/account." }
   ]
 }

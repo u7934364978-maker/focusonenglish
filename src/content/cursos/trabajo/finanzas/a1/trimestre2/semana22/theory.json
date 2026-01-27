@@ -1,29 +1,30 @@
 {
-  "title": "Atención al Cliente Básica",
+  "title": "Remote Work & Virtual Cards",
   "sections": [
     {
-      "id": "service-vocab",
-      "title": "Vocabulario de Atención",
-      "content": "Cómo saludar y ayudar a los clientes en el banco.\n\n- **Customer**: Cliente\n- **Service**: Servicio / Atención\n- **Help**: Ayuda / Ayudar\n- **Assistant**: Asistente / Auxiliar\n- **Queue / Line**: Cola / Fila\n- **Wait**: Esperar\n- **Welcome**: Bienvenido"
+      "id": "remote-work-vocab",
+      "title": "Working from Home",
+      "content": "Many people work 'remotely' and need to manage business expenses.\n\n- **Remote Work**: Working from home or a cafe, not the office.\n- **Business Expense**: Something you buy for your work (e.g., a laptop).\n- **Reimbursement**: When the company gives you the money back for an expense.\n- **Receipt**: You must keep this to prove what you bought."
     },
     {
-      "id": "politeness",
-      "title": "Cortesía y Peticiones",
-      "content": "Usamos palabras amables para pedir cosas.\n\n- **Please**: Por favor\n- **Thank you / Thanks**: Gracias\n- **You're welcome**: De nada\n- **Excuse me**: Disculpe / Perdón (para llamar la atención)\n- **Can I help you?**: ¿Puedo ayudarle?\n- **Could you...?**: ¿Podría usted...? (más formal)"
+      "id": "virtual-cards",
+      "title": "Virtual Cards for Safety",
+      "content": "Virtual cards are perfect for online work expenses.\n\n- **Virtual Card**: A digital card in your app (no physical plastic).\n- **Disposable Card**: A card that disappears after one use (very secure).\n- **One-time use**: Used only once.\n- **Instant Activation**: You can use it immediately after clicking 'Create'."
     },
     {
-      "id": "grammar-could",
-      "title": "Gramática: Could para Peticiones",
-      "content": "**Could** es el pasado de **can**, pero se usa en el presente para ser más educado.\n\n- **Could** you sign here? (¿Podría firmar aquí?)\n- **Could** I see your ID? (¿Podría ver su identificación?)\n- **Could** you wait a moment? (¿Podría esperar un momento?)"
+      "id": "diagram-virtual-card",
+      "title": "Virtual Card Request",
+      "content": "```mermaid\ngraph LR\n    A[Open App] --> B[Cards Section]\n    B --> C[Create Virtual Card]\n    C --> D[Set Spending Limit]\n    D --> E[Card Ready!]\n    E --> F[Copy Card Number]\n```"
     }
   ],
   "objectives": [
-    "Usar saludos y frases de cortesía básicas",
-    "Hacer peticiones educadas usando 'Could'",
-    "Identificar roles básicos de atención al cliente"
+    "Identify expenses related to remote work (Internet, Hardware)",
+    "Understand the benefits of a virtual card for online security",
+    "Use 'Could I' to ask for a reimbursement or a new card"
   ],
   "keyTerms": [
-    { "term": "Customer", "definition": "A person who buys goods or services from a shop or business." },
-    { "term": "Assistant", "definition": "A person who helps someone in their work." }
+    { "term": "Virtual Card", "definition": "A digital-only payment card with no physical form." },
+    { "term": "Expense", "definition": "Money spent on something needed for work or business." },
+    { "term": "Reimbursement", "definition": "Repayment for money you have already spent." }
   ]
 }

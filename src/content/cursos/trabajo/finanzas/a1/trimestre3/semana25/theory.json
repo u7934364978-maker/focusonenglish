@@ -1,29 +1,35 @@
 {
-  "title": "Operaciones Bancarias Básicas",
+  "title": "Digital Operations: ATMs & Apps",
   "sections": [
     {
-      "id": "vocab-ops",
-      "title": "Vocabulario: Depósitos y Retiros",
-      "content": "Aprenderemos las palabras necesarias para ir al banco.\n\n- **Deposit**: Depositar (meter dinero).\n- **Withdraw**: Retirar (sacar dinero).\n- **Balance**: Saldo (cuánto dinero tienes).\n- **Account**: Cuenta.\n- **Receipt**: Recibo / Comprobante.\n- **Bank teller**: Cajero (la persona que te atiende).\n- **Queue / Line**: Cola / Fila."
+      "id": "digital-ops",
+      "title": "Digital Deposits & Withdrawals",
+      "content": "Modern banking is digital. You can use an ATM or a mobile app for basic tasks.\n\n- **Digital Deposit**: Putting money into your account using an ATM or scanning a check with your phone.\n- **Cardless Withdrawal**: Taking cash out using a QR code from your app.\n- **Balance Check**: Seeing your total money on a screen instantly.\n- **Transaction History**: A list of your recent spending."
     },
     {
-      "id": "grammar-imperatives",
-      "title": "Gramática: Imperativos para Instrucciones",
-      "content": "Usamos el imperativo para dar instrucciones claras en el banco.\n\n- **Sign** here, please. (Firme aquí, por favor).\n- **Insert** your card. (Inserte su tarjeta).\n- **Enter** your PIN. (Introduzca su PIN).\n- **Wait** a moment. (Espere un momento).\n\n**Negativo:**\n- **Do not** (Don't) forget your receipt. (No olvide su recibo)."
+      "id": "atm-flow",
+      "title": "ATM Interaction Flow",
+      "content": "```mermaid\ngraph TD\n    A[Start] --> B[Insert Card / Scan QR]\n    B --> C[Enter PIN]\n    C --> D{Select Action}\n    D --> E[Withdraw Cash]\n    D --> F[Deposit Money]\n    D --> G[Check Balance]\n    E --> H[Take Cash & Receipt]\n    F --> I[Insert Cash/Check]\n    G --> J[View on Screen]\n```"
     },
     {
-      "id": "dialogue-basics",
-      "title": "Frases Útiles",
-      "content": "- *I want to deposit 50 euros.* (Quiero depositar 50 euros).\n- *I want to withdraw 20 dollars.* (Quiero retirar 20 dólares).\n- *What is my balance?* (¿Cuál es mi saldo?)"
+      "id": "grammar-commands",
+      "title": "Grammar: Machine Instructions",
+      "content": "Machines use **Imperatives** to give you clear steps. \n\n- **Insert** your card into the slot.\n- **Enter** your 4-digit PIN.\n- **Select** the amount you want.\n- **Confirm** the transaction.\n- **Remove** your card and cash.\n\n**Safety Tips:**\n- **Do not** share your PIN.\n- **Don't** leave your card in the machine."
+    },
+    {
+      "id": "ui-buttons",
+      "title": "UI Buttons Vocabulary",
+      "content": "On an ATM or App, look for these words:\n- **Confirm / OK**: Yes, I want this.\n- **Cancel / Stop**: No, stop the process.\n- **Correction / Clear**: I made a mistake, let me fix it.\n- **Print**: I want a paper receipt."
     }
   ],
   "objectives": [
-    "Diferenciar entre deposit y withdraw",
-    "Usar imperativos básicos para seguir instrucciones",
-    "Preguntar por el saldo de una cuenta"
+    "Understand the flow of using an ATM or digital kiosk",
+    "Use imperative verbs to follow and give machine instructions",
+    "Identify key UI buttons for digital transactions"
   ],
   "keyTerms": [
-    { "term": "Withdrawal", "definition": "The act of taking money out of an account." },
-    { "term": "Deposit", "definition": "To put money into a bank account." }
+    { "term": "NFC", "definition": "Near Field Communication (contactless technology)." },
+    { "term": "Slot", "definition": "The small opening where you insert a card or cash." },
+    { "term": "PIN", "definition": "Personal Identification Number (your secret code)." }
   ]
 }

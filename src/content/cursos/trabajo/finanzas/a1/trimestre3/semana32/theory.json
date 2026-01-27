@@ -1,29 +1,31 @@
 {
-  "title": "Repaso del Tercer Trimestre",
+  "title": "Fintech & Digital Economy Review",
   "sections": [
     {
-      "id": "review-vocab",
-      "title": "Repaso de Vocabulario",
-      "content": "Recordemos los temas principales de las últimas semanas:\n\n1. **Operaciones**: Deposit, withdraw, transfer.\n2. **Banca Online**: Password, login, app.\n3. **Pagos**: Bills, rent, utilities.\n4. **Ahorro**: Interest, savings account, balance."
+      "id": "review-fintech-ecosystem",
+      "title": "The Modern Fintech Ecosystem",
+      "content": "Throughout this trimester, we transitioned from traditional banking to a **digital-first ecosystem**. We now manage money using mobile apps, biometrics, and automated tools.\n\n### Key Concepts Recap:\n1. **Digital Operations**: Using QR codes and NFC for cardless ATM withdrawals (Week 25).\n2. **Security**: Protecting accounts with Face ID, Fingerprint, and Multi-Factor Authentication (MFA) (Week 26).\n3. **Global Wallets**: Managing multi-currency 'Pockets' and real-time exchange rates (Week 27).\n4. **Automated Savings**: Utilizing Round-ups and Digital Vaults for effortless saving (Week 28).\n5. **Subscription Economy**: Managing recurring payments and paperless direct debits (Week 29).\n6. **Smart Spending**: Using BNPL (Buy Now, Pay Later) and digital checkout codes (Week 30).\n7. **Financial Growth**: Understanding APY and compound interest in high-yield accounts (Week 31).",
+      "mermaid": "graph TD\n    User((User)) --> App[Fintech App]\n    App --> Security{Security: MFA/FaceID}\n    Security --> Operations[Operations: QR/NFC ATM]\n    Security --> Spending[Spending: BNPL/Subscriptions]\n    Security --> Savings[Savings: Vaults/Round-ups]\n    Security --> Global[Global: Multi-currency Pockets]"
     },
     {
       "id": "review-grammar",
-      "title": "Resumen de Gramática",
-      "content": "- **Present Continuous**: Para acciones ahora o planes futuros (I am paying now).\n- **Preposiciones (In, On, At)**: Para fechas y horas.\n- **Should**: Para consejos (You should save)."
+      "title": "Grammar for the Digital Age",
+      "content": "Let's review the core structures used in financial English:\n\n- **Imperatives**: Used for machine instructions (*'Scan the QR code'*, *'Enter your PIN'*).\n- **Prepositions of Place**: Navigating interfaces (*'On the dashboard'*, *'In the pocket'*).\n- **Quantifiers**: Managing money (*'How much interest?'*, *'How many transactions?'*).\n- **Modals**: Permissions and advice (*'You can set a limit'*, *'You should use MFA'*).\n- **Demonstratives**: Identifying items (*'This transaction'*, *'Those installments'*)."
     },
     {
       "id": "review-final",
-      "title": "Consolidación",
-      "content": "En este nivel A1, ya puedes manejar situaciones básicas en un banco: abrir una cuenta, hacer depósitos, pagar facturas y entender consejos simples sobre dinero."
+      "title": "Ready for the Future",
+      "content": "By completing Level A1, you can now navigate a modern financial environment in English. You are ready to discuss digital payments, security settings, and basic investment concepts with confidence."
     }
   ],
   "objectives": [
-    "Repasar el vocabulario del trimestre",
-    "Consolidar el uso de las estructuras gramaticales",
-    "Prepararse para el siguiente nivel"
+    "Recap the modern fintech vocabulary learned in Trimestre 3",
+    "Consolidate grammar structures within digital contexts",
+    "Finalize the A1 Level English for Banking and Finance"
   ],
   "keyTerms": [
-    { "term": "Review", "definition": "Looking again at what you have learned." },
-    { "term": "Consolidation", "definition": "Making your knowledge stronger." }
+    { "term": "Fintech", "definition": "Financial technology used to automate and improve financial services." },
+    { "term": "Ecosystem", "definition": "A complex network or interconnected system of financial tools." },
+    { "term": "MFA", "definition": "Multi-Factor Authentication; a security process requiring two or more proofs of identity." }
   ]
 }

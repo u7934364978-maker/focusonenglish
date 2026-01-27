@@ -1,24 +1,35 @@
 {
-  "title": "Localización en el Banco",
+  "title": "Bank Layout & Digital Locations",
   "sections": [
     {
-      "id": "vocab",
-      "title": "Preposiciones de Lugar",
-      "content": "Aprenderemos a describir dónde están los objetos y oficinas.\n\n- **Next to**: Al lado de\n- **Opposite**: Enfrente de\n- **Between**: Entre (dos cosas)\n- **Inside**: Dentro\n- **Behind**: Detrás\n- **In front of**: Delante de"
+      "id": "vocab-physical",
+      "title": "Vocabulary: Where is it in the Bank?",
+      "content": "To find your way in a bank, use these prepositions:\n\n- **Next to**: The ATM is next to the door.\n- **Opposite**: The counter is opposite the entrance.\n- **Between**: The manager's office is between the vault and the waiting area.\n- **Inside**: Your money is inside the safe.\n- **Behind**: The security guard is behind the desk."
     },
     {
-      "id": "grammar",
-      "title": "Gramática: Preposiciones Básicas",
-      "content": "Usamos estas preposiciones con el verbo 'to be'.\n\n- The ATM is **next to** the door. (El cajero está al lado de la puerta)\n- The manager's office is **opposite** the counter. (La oficina del director está enfrente del mostrador)\n- Your card is **inside** the envelope. (Tu tarjeta está dentro del sobre)"
+      "id": "diagram-layout",
+      "title": "Bank Branch Layout",
+      "content": "```mermaid\ngraph TD\n    A[Entrance] --> B[ATM - Next to Door]\n    A --> C[Counter - Opposite Entrance]\n    C --> D[Manager Office - Behind Counter]\n    C --> E[Waiting Area - Next to Counter]\n```"
+    },
+    {
+      "id": "vocab-digital",
+      "title": "Vocabulary: Where is it on the App?",
+      "content": "We also use prepositions for apps and websites:\n\n- **At the top**: The 'Log in' button is at the top of the screen.\n- **At the bottom**: The 'Contact Us' link is at the bottom.\n- **Inside**: Your documents are inside the 'Cloud' (online storage).\n- **Under**: The 'Settings' menu is under your profile picture."
+    },
+    {
+      "id": "grammar-prepositions",
+      "title": "Grammar: Prepositions of Place",
+      "content": "Use 'Where is...?' to ask for locations:\n\n- *Where is the nearest ATM?*\n- *Where is the 'Transfer' button on the app?*\n\nResponses:\n- *It is **on** the main screen.*\n- *It is **next to** the balance.*"
     }
   ],
   "objectives": [
-    "Identificar preposiciones de lugar básicas",
-    "Describir la ubicación de servicios bancarios",
-    "Entender instrucciones de dirección simples"
+    "Describe the location of physical objects in a bank office",
+    "Identify the position of buttons and menus in a banking app",
+    "Use prepositions of place to give and understand directions"
   ],
   "keyTerms": [
-    { "term": "Counter", "definition": "The flat surface where the bank teller works and helps customers." },
-    { "term": "Opposite", "definition": "Being on the other side of something." }
+    { "term": "At the top", "definition": "In the highest part of a screen or page." },
+    { "term": "In the Cloud", "definition": "Stored on the internet, not on your physical computer." },
+    { "term": "Opposite", "definition": "On the other side of a space (facing each other)." }
   ]
 }

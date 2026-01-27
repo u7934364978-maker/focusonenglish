@@ -1,29 +1,35 @@
 {
-  "title": "Ahorrar Dinero",
+  "title": "Smart Savings: Digital Vaults & Goals",
   "sections": [
     {
-      "id": "vocab-saving",
-      "title": "Vocabulario: Cómo Ahorrar",
-      "content": "Ahorrar es guardar dinero para el futuro. Aquí tienes palabras básicas:\n\n- **Savings**: Ahorros.\n- **Savings Account**: Cuenta de ahorros.\n- **Piggy Bank**: Hucha / Alcancía.\n- **Budget**: Presupuesto (plan para tu dinero).\n- **Goal**: Meta / Objetivo (por ejemplo, comprar una bici).\n- **Pocket Money**: Paga (dinero que te dan tus padres).\n- **Put Aside**: Guardar / Apartar dinero."
+      "id": "digital-saving",
+      "title": "Saving in the App",
+      "content": "Modern apps make saving easy and automatic. \n\n- **Vaults / Pockets**: Special digital places to keep your money safe for the future.\n- **Round-ups**: The app rounds your spending to the nearest euro and saves the change. (Example: Pay €2.80, the app saves €0.20).\n- **Auto-save**: Sending money to your vault automatically every month.\n- **Interest**: Extra money the bank pays you for keeping your savings with them."
     },
     {
-      "id": "grammar-review-can",
-      "title": "Gramática: Repaso de 'Can' para Posibilidad",
-      "content": "Usamos 'can' para hablar de lo que es posible hacer con tus ahorros.\n\n- *I **can** save 10 euros every week.* (Puedo ahorrar 10 euros cada semana).\n- *You **can** buy a new phone if you save.* (Puedes comprar un móvil nuevo si ahorras).\n- *We **can't** spend all our money.* (No podemos gastar todo nuestro dinero).\n\n**Pregunta:**\n- *Can I open a savings account?* (¿Puedo abrir una cuenta de ahorros?)"
+      "id": "roundup-diagram",
+      "title": "How Round-ups Work",
+      "content": "```mermaid\ngraph LR\n    A[Buy Coffee: €2.40] --> B[App rounds to €3.00]\n    B --> C[€0.60 goes to Vault]\n    C --> D[Total Savings Grow!]\n```"
     },
     {
-      "id": "saving-tips",
-      "title": "Consejos para Ahorrar",
-      "content": "- **Don't spend** all your money. (No gastes todo tu dinero).\n- **Set** a goal. (Ponte una meta).\n- **Use** a piggy bank. (Usa una hucha).\n- **Check** your balance often. (Mira tu saldo a menudo)."
+      "id": "grammar-can",
+      "title": "Grammar: 'Can' and 'Can't' for Savings",
+      "content": "Use **Can** to talk about possibilities and **Can't** for limits.\n\n- **Possibility**: *I **can** save €50 this month if I use round-ups.*\n- **Ability**: *You **can** see your progress on the app dashboard.*\n- **Limit**: *We **can't** spend the money in the vault; it is for the future.*\n\n**Questions:**\n- *Can I reach my goal?* Yes, you can!\n- *Can the app save money automatically?* Yes, it can."
+    },
+    {
+      "id": "saving-goals",
+      "title": "Setting Financial Goals",
+      "content": "A **Goal** is something you want to buy later.\n\n- **Short-term Goal**: Buying a new video game or shoes next month.\n- **Long-term Goal**: Saving for a car or a big trip in one year.\n- **Progress Bar**: A visual line that shows how close you are to your goal."
     }
   ],
   "objectives": [
-    "Aprender vocabulario sobre el ahorro personal",
-    "Usar 'can' para hablar de posibilidades de ahorro",
-    "Hablar sobre metas financieras sencillas"
+    "Identify automated saving features like round-ups",
+    "Use 'can' and 'can't' to discuss savings and spending rules",
+    "Understand the difference between short-term and long-term goals"
   ],
   "keyTerms": [
-    { "term": "Budget", "definition": "A plan to show how much money a person or organization will earn and how much they will need or be able to spend." },
-    { "term": "Savings", "definition": "The money that you keep and do not spend." }
+    { "term": "Vault", "definition": "A secure digital space for savings." },
+    { "term": "Round-up", "definition": "Saving the small change from transactions." },
+    { "term": "Progress", "definition": "Movement toward a goal." }
   ]
 }

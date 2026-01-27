@@ -1,24 +1,29 @@
 {
-  "title": "El Banco y Mis Pertenencias",
+  "title": "The Bank and My Accounts",
   "sections": [
     {
       "id": "vocab",
-      "title": "Vocabulario del Banco",
-      "content": "Palabras básicas que verás al entrar en un banco.\n\n- **Bank**: Banco\n- **Office**: Oficina\n- **ATM**: Cajero automático\n- **Counter**: Mostrador / Ventanilla\n- **Manager**: Gerente\n- **Customer**: Cliente\n- **Account**: Cuenta"
+      "title": "Bank Vocabulary",
+      "content": "Basic words for the banking environment.\n\n- **Bank**: Banco\n- **Branch**: Sucursal / Oficina\n- **ATM**: Cajero automático\n- **Counter**: Mostrador / Ventanilla\n- **Manager**: Gerente\n- **Customer**: Cliente\n- **Account**: Cuenta"
+    },
+    {
+      "id": "neobanks",
+      "title": "Modern Banks: Neobanks",
+      "content": "A **Neobank** is a bank on your phone. It has no physical branch.\n\n- **App**: Aplicación\n- **Mobile**: Móvil\n- **No paper**: Sin papel\n- **Fast**: Rápido\n\n### Traditional vs. Neobank\n```mermaid\ngraph TD\n    A[Traditional Bank] --> B[Physical Branch]\n    C[Neobank] --> D[Mobile App]\n```"
     },
     {
       "id": "grammar",
-      "title": "Pronombres Personales y Posesivos",
-      "content": "Usamos los pronombres para hablar de personas y de quién es cada cosa.\n\n**Pronombres Personales (Sujeto):**\n- **I** (Yo), **You** (Tú), **He** (Él), **She** (Ella), **It** (Ello - cosas), **We** (Nosotros), **They** (Ellos).\n\n**Adjetivos Posesivos:**\n- **My** (Mi), **Your** (Tu), **His** (Su - de él), **Her** (Su - de ella), **Its** (Su - de cosa), **Our** (Nuestro), **Their** (Su - de ellos).\n\nEjemplos:\n- **My** account is new. (Mi cuenta es nueva)\n- **His** office is big. (Su oficina es grande)\n- **Their** bank is open. (Su banco está abierto)"
+      "title": "Personal and Possessive Pronouns",
+      "content": "We use pronouns to talk about people and ownership.\n\n**Personal Pronouns (Subject):**\n- **I** (Yo), **You** (Tú), **He** (Él), **She** (Ella), **It** (Ello), **We** (Nosotros), **They** (Ellos).\n\n**Possessive Adjectives:**\n- **My** (Mi), **Your** (Tu), **His** (Su - de él), **Her** (Su - de ella), **Its** (Su - de cosa), **Our** (Nuestro), **Their** (Su - de ellos).\n\nExamples:\n- **My** account is new. (Mi cuenta es nueva)\n- **His** bank is an app. (Su banco es una aplicación)\n- **Our** manager is helpful. (Nuestro gerente es servicial)"
     }
   ],
   "objectives": [
-    "Identificar las áreas y roles principales en un banco",
-    "Utilizar adjetivos posesivos para hablar de cuentas y oficinas",
-    "Diferenciar entre pronombres de sujeto y posesivos"
+    "Identify main areas and roles in a bank",
+    "Understand the difference between a traditional bank and a neobank",
+    "Use possessive adjectives to talk about accounts and banks"
   ],
   "keyTerms": [
-    { "term": "Branch", "definition": "A local office of a large bank." },
-    { "term": "Owner", "definition": "The person who has the account." }
+    { "term": "Branch", "definition": "A local office of a bank." },
+    { "term": "Neobank", "definition": "A bank that only works online or on an app." }
   ]
 }

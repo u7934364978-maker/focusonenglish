@@ -1,398 +1,208 @@
 {
-  "title": "Ejercicios: De Compras: Precios y Pagos",
+  "title": "Digital Shopping Exercises",
   "exercises": [
     {
       "id": "ex1",
       "type": "multiple-choice",
-      "question": "How do you say 'Caro'?",
-      "options": ["Cheap", "Expensive", "Free", "New"],
+      "question": "Where do you put items before you pay online?",
+      "options": ["In the mailbox", "In the shopping cart", "In the vault", "In the cloud"],
       "correctAnswer": 1,
-      "explanation": "'Expensive' is for things that cost a lot."
+      "explanation": "The 'shopping cart' or 'basket' holds items you plan to buy."
     },
     {
       "id": "ex2",
       "type": "fill-in-the-blank",
-      "question": "________ (este) book is $10.",
+      "question": "________ (este) phone on my screen is very expensive.",
       "answer": "This",
-      "explanation": "'This' is for a singular object nearby."
+      "explanation": "'This' is for a singular item near you (or on your screen)."
     },
     {
       "id": "ex3",
       "type": "vocabulary-match",
-      "question": "Match the terms:",
+      "question": "Match the shopping terms:",
       "pairs": [
-        { "term": "Price", "definition": "Precio" },
-        { "term": "Discount", "definition": "Descuento" },
-        { "term": "Total", "definition": "Total" }
+        { "term": "Promo Code", "definition": "Digital discount" },
+        { "term": "Checkout", "definition": "Final payment step" },
+        { "term": "Wishlist", "definition": "Items for later" }
       ]
     },
     {
       "id": "ex4",
       "type": "multiple-choice",
-      "question": "Which word is for 'Gratis'?",
-      "options": ["Cheap", "Sale", "Free", "Price"],
-      "correctAnswer": 2,
-      "explanation": "'Free' means $0."
+      "question": "What does 'BNPL' mean?",
+      "options": ["Bank Notes Pay Low", "Buy Now, Pay Later", "Business New Price List", "Big National Payment Loan"],
+      "correctAnswer": 1,
+      "explanation": "BNPL allows you to buy an item and pay in parts (installments)."
     },
     {
       "id": "ex5",
       "type": "fill-in-the-blank",
-      "question": "How much are ________ (estos) shoes?",
-      "answer": "these",
-      "explanation": "'These' is for plural objects nearby."
+      "question": "I want to buy ________ (esos) shoes from that other website.",
+      "answer": "those",
+      "explanation": "'Those' is for plural items far away (or on another site)."
     },
     {
       "id": "ex6",
       "type": "multiple-choice",
-      "question": "What is 'Barato'?",
-      "options": ["Expensive", "Cheap", "Total", "Discount"],
-      "correctAnswer": 1,
-      "explanation": "'Cheap' is the opposite of expensive."
+      "question": "If a product is 'Overpriced', it is...",
+      "options": ["Cheap", "A bargain", "Too expensive", "Free"],
+      "correctAnswer": 2,
+      "explanation": "Overpriced means the price is higher than the value."
     },
     {
       "id": "ex7",
-      "type": "fill-in-the-blank",
-      "question": "________ (aquellos) pens are expensive.",
-      "answer": "Those",
-      "explanation": "'Those' is for plural objects far away."
+      "type": "vocabulary-match",
+      "question": "Match the demonstratives:",
+      "pairs": [
+        { "term": "Singular, Near", "definition": "This" },
+        { "term": "Singular, Far", "definition": "That" },
+        { "term": "Plural, Near", "definition": "These" }
+      ]
     },
     {
       "id": "ex8",
-      "type": "vocabulary-match",
-      "question": "Match the prices:",
-      "pairs": [
-        { "term": "$100", "definition": "Expensive" },
-        { "term": "$1", "definition": "Cheap" },
-        { "term": "$0", "definition": "Free" }
-      ]
+      "type": "fill-in-the-blank",
+      "question": "Look at ________ (estos) reviews on this page. They are great!",
+      "answer": "these",
+      "explanation": "'These' is for plural items near you."
     },
     {
       "id": "ex9",
       "type": "multiple-choice",
-      "question": "How much ________ that shirt?",
-      "options": ["is", "are", "am", "be"],
-      "correctAnswer": 0,
-      "explanation": "We use 'is' for singular objects."
+      "question": "What is a 'Bargain'?",
+      "options": ["A very expensive item", "A very cheap and good item", "A broken item", "A digital wallet"],
+      "correctAnswer": 1,
+      "explanation": "A bargain is a great deal for a low price."
     },
     {
       "id": "ex10",
       "type": "fill-in-the-blank",
-      "question": "Is there a ________? (descuento)",
-      "answer": "discount",
-      "explanation": "A discount reduces the price."
+      "question": "Enter your ________ code to get 10% off.",
+      "answer": "promo",
+      "explanation": "Short for promotional code."
     },
     {
       "id": "ex11",
-      "type": "multiple-choice",
-      "question": "What is 'Rebajas'?",
-      "options": ["Prices", "Sales", "Notes", "Banks"],
-      "correctAnswer": 1,
-      "explanation": "'Sales' or 'On Sale' is the term."
+      "type": "vocabulary-match",
+      "question": "Match the value words:",
+      "pairs": [
+        { "term": "Affordable", "definition": "Good price, I can pay" },
+        { "term": "Overpriced", "definition": "Too much money" },
+        { "term": "Free", "definition": "€0.00" }
+      ]
     },
     {
       "id": "ex12",
-      "type": "fill-in-the-blank",
-      "question": "________ (esa) house is big.",
-      "answer": "That",
-      "explanation": "'That' is for a singular object far away."
+      "type": "multiple-choice",
+      "question": "Which is an 'E-commerce' site?",
+      "options": ["A park", "Amazon / eBay", "A physical bank", "A swimming pool"],
+      "correctAnswer": 1,
+      "explanation": "Amazon and eBay are famous e-commerce websites."
     },
     {
       "id": "ex13",
-      "type": "multiple-choice",
-      "question": "How much are ________ apples?",
-      "options": ["this", "that", "these", "it"],
-      "correctAnswer": 2,
-      "explanation": "'These' is for plural objects."
+      "type": "fill-in-the-blank",
+      "question": "Do you see ________ (esa) ad on that billboard?",
+      "answer": "that",
+      "explanation": "'That' is for a singular item far away."
     },
     {
       "id": "ex14",
-      "type": "fill-in-the-blank",
-      "question": "It ________ $5. (cuesta)",
-      "answer": "costs",
-      "explanation": "Third person singular: 'costs'."
+      "type": "multiple-choice",
+      "question": "What is the final step before the order is confirmed?",
+      "options": ["Adding to cart", "Reading reviews", "Checkout", "Searching for items"],
+      "correctAnswer": 2,
+      "explanation": "The checkout is where you finalize the payment."
     },
     {
       "id": "ex15",
       "type": "vocabulary-match",
-      "question": "Opposites:",
+      "question": "Match the payment methods:",
       "pairs": [
-        { "term": "Expensive", "definition": "Cheap" },
-        { "term": "Buy", "definition": "Sell" },
-        { "term": "New", "definition": "Old" }
+        { "term": "Apple Pay", "definition": "Digital Wallet" },
+        { "term": "Visa", "definition": "Credit Card" },
+        { "term": "Klarna", "definition": "BNPL" }
       ]
     },
     {
       "id": "ex16",
-      "type": "multiple-choice",
-      "question": "Where do you pay?",
-      "options": ["At the entrance", "At the checkout", "At the window", "At the car"],
-      "correctAnswer": 1,
-      "explanation": "The 'checkout' or 'cashier' is where you pay."
+      "type": "fill-in-the-blank",
+      "question": "This laptop is ________. It costs €3,000!",
+      "answer": "overpriced",
+      "explanation": "Used when the price is too high."
     },
     {
       "id": "ex17",
-      "type": "fill-in-the-blank",
-      "question": "These jeans ________ (be) $40.",
-      "answer": "are",
-      "explanation": "Jeans is plural."
+      "type": "multiple-choice",
+      "question": "How do you ask for the price of plural items?",
+      "options": ["How much is this?", "How much are these?", "How much are that?", "How much is those?"],
+      "correctAnswer": 1,
+      "explanation": "We use 'are' and 'these/those' for plural objects."
     },
     {
       "id": "ex18",
-      "type": "multiple-choice",
-      "question": "What is 'Too expensive'?",
-      "options": ["Un poco caro", "Demasiado caro", "Muy barato", "Gratis"],
-      "correctAnswer": 1,
-      "explanation": "'Too' indicates an excessive amount."
+      "type": "fill-in-the-blank",
+      "question": "I use ________ (estos) coupons for my shopping.",
+      "answer": "these",
+      "explanation": "Plural near."
     },
     {
       "id": "ex19",
-      "type": "fill-in-the-blank",
-      "question": "I like ________ (esa) blue car.",
-      "answer": "that",
-      "explanation": "Singular far away."
+      "type": "multiple-choice",
+      "question": "What is a 'Wishlist'?",
+      "options": ["A list of things you already bought", "A list of things you want to buy later", "A list of bank accounts", "A list of passwords"],
+      "correctAnswer": 1,
+      "explanation": "You save items to a wishlist for the future."
     },
     {
       "id": "ex20",
-      "type": "multiple-choice",
-      "question": "How do you ask for the price?",
-      "options": ["How old is it?", "How much is it?", "How many is it?", "Who is it?"],
-      "correctAnswer": 1,
-      "explanation": "We use 'How much' for prices."
+      "type": "vocabulary-match",
+      "question": "Match the UI locations:",
+      "pairs": [
+        { "term": "Header", "definition": "Top of the page" },
+        { "term": "Footer", "definition": "Bottom of the page" },
+        { "term": "Side Bar", "definition": "Left or right side" }
+      ]
     },
     {
       "id": "ex21",
       "type": "fill-in-the-blank",
-      "question": "________ (estos) are for you.",
-      "answer": "These",
-      "explanation": "Plural near."
+      "question": "Is ________ (esa) store online or physical?",
+      "answer": "that",
+      "explanation": "Singular far."
     },
     {
       "id": "ex22",
-      "type": "vocabulary-match",
-      "question": "Demonstratives:",
-      "pairs": [
-        { "term": "Near, singular", "definition": "This" },
-        { "term": "Far, singular", "definition": "That" },
-        { "term": "Near, plural", "definition": "These" }
-      ]
+      "type": "multiple-choice",
+      "question": "What is the opposite of 'Expensive'?",
+      "options": ["Overpriced", "Cheap", "Total", "New"],
+      "correctAnswer": 1,
+      "explanation": "'Cheap' is the correct opposite."
     },
     {
       "id": "ex23",
-      "type": "multiple-choice",
-      "question": "What is 'Price tag'?",
-      "options": ["El cajero", "La etiqueta del precio", "La bolsa", "El dinero"],
-      "correctAnswer": 1,
-      "explanation": "The tag shows the price on the item."
-    },
-    {
-      "id": "ex24",
       "type": "fill-in-the-blank",
-      "question": "What is the ________ (total)?",
-      "answer": "total",
-      "explanation": "Sum of all items."
-    },
-    {
-      "id": "ex25",
-      "type": "multiple-choice",
-      "question": "Which is cheaper?",
-      "options": ["$100", "$50", "$20", "$1"],
-      "correctAnswer": 3,
-      "explanation": "$1 is the lowest amount."
-    },
-    {
-      "id": "ex26",
-      "type": "fill-in-the-blank",
-      "question": "I don't have ________ money. (mucho)",
-      "answer": "much",
-      "explanation": "'Much' for uncountable money."
-    },
-    {
-      "id": "ex27",
-      "type": "multiple-choice",
-      "question": "What is 'Cuesta mucho dinero'?",
-      "options": ["It costs a lot of money.", "It costs many money.", "It costs a little money.", "It is free."],
-      "correctAnswer": 0,
-      "explanation": "'A lot of' for large quantities."
-    },
-    {
-      "id": "ex28",
-      "type": "fill-in-the-blank",
-      "question": "I buy ________ (esos) shoes.",
-      "answer": "those",
-      "explanation": "Plural far."
-    },
-    {
-      "id": "ex29",
-      "type": "multiple-choice",
-      "question": "If something is 50% off, it has a...",
-      "options": ["Problem", "Discount", "High price", "Bill"],
-      "correctAnswer": 1,
-      "explanation": "Off = discount."
-    },
-    {
-      "id": "ex30",
-      "type": "fill-in-the-blank",
-      "question": "Do you accept ________ cards?",
-      "answer": "credit",
-      "explanation": "Common payment method."
-    },
-    {
-      "id": "ex31",
-      "type": "vocabulary-match",
-      "question": "Match the objects:",
-      "pairs": [
-        { "term": "Bag", "definition": "Bolsa" },
-        { "term": "Receipt", "definition": "Recibo" },
-        { "term": "Wallet", "definition": "Cartera" }
-      ]
-    },
-    {
-      "id": "ex32",
-      "type": "multiple-choice",
-      "question": "How much ________ these oranges?",
-      "options": ["is", "are", "be", "am"],
-      "correctAnswer": 1,
-      "explanation": "Plural 'oranges'."
-    },
-    {
-      "id": "ex33",
-      "type": "fill-in-the-blank",
-      "question": "This shirt is ________. (barata)",
-      "answer": "cheap",
-      "explanation": "'Cheap' is the word."
-    },
-    {
-      "id": "ex34",
-      "type": "multiple-choice",
-      "question": "What is 'Efectivo'?",
-      "options": ["Card", "Cash", "Note", "Coin"],
-      "correctAnswer": 1,
-      "explanation": "'Cash' is the word."
-    },
-    {
-      "id": "ex35",
-      "type": "fill-in-the-blank",
-      "question": "The ________ is $19.99.",
-      "answer": "price",
-      "explanation": "The amount shown."
-    },
-    {
-      "id": "ex36",
-      "type": "multiple-choice",
-      "question": "Which is more expensive?",
-      "options": ["A coffee", "A car", "A pen", "A book"],
-      "correctAnswer": 1,
-      "explanation": "A car usually costs more."
-    },
-    {
-      "id": "ex37",
-      "type": "fill-in-the-blank",
-      "question": "I want ________ (este) one.",
+      "question": "Click ________ (este) button to buy now.",
       "answer": "this",
       "explanation": "Singular near."
     },
     {
-      "id": "ex38",
+      "id": "ex24",
       "type": "vocabulary-match",
-      "question": "Verbs:",
+      "question": "Match the shopping actions:",
       "pairs": [
-        { "term": "Buy", "definition": "Comprar" },
-        { "term": "Sell", "definition": "Vender" },
-        { "term": "Cost", "definition": "Costar" }
+        { "term": "Browse", "definition": "Look at many items" },
+        { "term": "Review", "definition": "Write your opinion" },
+        { "term": "Track", "definition": "Follow your delivery" }
       ]
     },
     {
-      "id": "ex39",
+      "id": "ex25",
       "type": "multiple-choice",
-      "question": "What is 'Cambio' (money back)?",
-      "options": ["Cash", "Change", "Exchange", "Note"],
+      "question": "Why use a 'Promo Code'?",
+      "options": ["To pay more", "To get a discount", "To see the wishlist", "To delete the cart"],
       "correctAnswer": 1,
-      "explanation": "'Change' is the money you get back."
-    },
-    {
-      "id": "ex40",
-      "type": "fill-in-the-blank",
-      "question": "Those shoes are ________ (caros).",
-      "answer": "expensive",
-      "explanation": "Standard word."
-    },
-    {
-      "id": "ex41",
-      "type": "multiple-choice",
-      "question": "How much is ________ phone?",
-      "options": ["that", "those", "these", "am"],
-      "correctAnswer": 0,
-      "explanation": "'Phone' is singular."
-    },
-    {
-      "id": "ex42",
-      "type": "fill-in-the-blank",
-      "question": "It's a ________. (gratis)",
-      "answer": "freebie",
-      "explanation": "Or just 'free'."
-    },
-    {
-      "id": "ex43",
-      "type": "multiple-choice",
-      "question": "What is 'Demasiado'?",
-      "options": ["Too", "Very", "A little", "Nothing"],
-      "correctAnswer": 0,
-      "explanation": "'Too' = demasiado."
-    },
-    {
-      "id": "ex44",
-      "type": "fill-in-the-blank",
-      "question": "Look at ________ (aquellos) shoes.",
-      "answer": "those",
-      "explanation": "Plural far."
-    },
-    {
-      "id": "ex45",
-      "type": "vocabulary-match",
-      "question": "Payments:",
-      "pairs": [
-        { "term": "Pay by card", "definition": "Con tarjeta" },
-        { "term": "Pay in cash", "definition": "En efectivo" },
-        { "term": "Pay later", "definition": "Pagar después" }
-      ]
-    },
-    {
-      "id": "ex46",
-      "type": "multiple-choice",
-      "question": "If you buy 2 for 1, you get a...",
-      "options": ["Problem", "Deal/Discount", "Bill", "Tax"],
-      "correctAnswer": 1,
-      "explanation": "BOGO (Buy One Get One) is a deal."
-    },
-    {
-      "id": "ex47",
-      "type": "fill-in-the-blank",
-      "question": "________ (estas) are nice.",
-      "answer": "These",
-      "explanation": "Plural near."
-    },
-    {
-      "id": "ex48",
-      "type": "multiple-choice",
-      "question": "Where is the price?",
-      "options": ["On the tag", "On the floor", "On the ceiling", "On the door"],
-      "correctAnswer": 0,
-      "explanation": "Tag = etiqueta."
-    },
-    {
-      "id": "ex49",
-      "type": "fill-in-the-blank",
-      "question": "I ________ (comprar) a gift.",
-      "answer": "buy",
-      "explanation": "Present tense."
-    },
-    {
-      "id": "ex50",
-      "type": "multiple-choice",
-      "question": "What is 'Total'?",
-      "options": ["Everything", "Nothing", "A little", "One item"],
-      "correctAnswer": 0,
-      "explanation": "Total is the sum."
+      "explanation": "Promo codes lower the final price."
     }
   ]
 }

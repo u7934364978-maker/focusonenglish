@@ -1,398 +1,208 @@
 {
-  "title": "Ejercicios: Pagando Facturas y Servicios",
+  "title": "Smart Billing Exercises",
   "exercises": [
     {
       "id": "ex1",
       "type": "multiple-choice",
-      "question": "What is 'Factura' in English?",
-      "options": ["Bill", "Coin", "Note", "Bank"],
-      "correctAnswer": 0,
-      "explanation": "'Bill' is the common word for a document showing how much you owe for services."
+      "question": "What is 'Direct Debit'?",
+      "options": ["A way to pay in cash", "An automatic payment from your bank", "A type of credit card", "A physical bill in the mail"],
+      "correctAnswer": 1,
+      "explanation": "Direct Debit is an automated way for companies to collect payments from your account."
     },
     {
       "id": "ex2",
       "type": "fill-in-the-blank",
-      "question": "I pay the rent ________ Monday.",
+      "question": "The electricity bill is due ________ October 5th.",
       "answer": "on",
-      "explanation": "We use 'on' for days of the week."
+      "explanation": "We use 'on' for specific dates."
     },
     {
       "id": "ex3",
       "type": "vocabulary-match",
-      "question": "Match the terms:",
+      "question": "Match the billing terms:",
       "pairs": [
-        { "term": "Rent", "definition": "Alquiler" },
-        { "term": "Utilities", "definition": "Servicios" },
-        { "term": "Due date", "definition": "Fecha límite" }
+        { "term": "Overdue", "definition": "Late payment" },
+        { "term": "Due Date", "definition": "The deadline" },
+        { "term": "Paperless", "definition": "Digital only" }
       ]
     },
     {
       "id": "ex4",
       "type": "multiple-choice",
-      "question": "If a bill is 'overdue', you are...",
-      "options": ["Early", "Late", "On time", "Happy"],
+      "question": "Where can you see all your monthly services like Netflix or Spotify?",
+      "options": ["In the trash", "In the Subscription Manager", "At the supermarket", "In the card slot"],
       "correctAnswer": 1,
-      "explanation": "'Overdue' means the time for payment has passed."
+      "explanation": "A subscription manager helps you track recurring digital payments."
     },
     {
       "id": "ex5",
       "type": "fill-in-the-blank",
-      "question": "The meeting is ________ 9:00 AM.",
+      "question": "The auto-pay runs ________ 12:00 AM.",
       "answer": "at",
-      "explanation": "We use 'at' for specific times."
+      "explanation": "We use 'at' for specific times of the day."
     },
     {
       "id": "ex6",
       "type": "multiple-choice",
-      "question": "Which service is a 'utility'?",
-      "options": ["Coffee", "Water", "Shoes", "Movie"],
+      "question": "What are 'Utilities'?",
+      "options": ["Gifts and toys", "Water, gas, and electricity", "New shoes", "Travel tickets"],
       "correctAnswer": 1,
-      "explanation": "Water, gas, and electricity are typical utilities."
+      "explanation": "Utilities are essential services for your home."
     },
     {
       "id": "ex7",
-      "type": "fill-in-the-blank",
-      "question": "The bill is due ________ October.",
-      "answer": "in",
-      "explanation": "We use 'in' for months."
+      "type": "vocabulary-match",
+      "question": "Match the prepositions of time:",
+      "pairs": [
+        { "term": "In", "definition": "Months (June, July)" },
+        { "term": "On", "definition": "Days (Monday, Tuesday)" },
+        { "term": "At", "definition": "Hours (10:30, Noon)" }
+      ]
     },
     {
       "id": "ex8",
-      "type": "vocabulary-match",
-      "question": "Match the actions:",
-      "pairs": [
-        { "term": "To pay", "definition": "Pagar" },
-        { "term": "To receive", "definition": "Recibir" },
-        { "term": "To check", "definition": "Comprobar" }
-      ]
+      "type": "fill-in-the-blank",
+      "question": "I have to pay the rent ________ the first of the month.",
+      "answer": "on",
+      "explanation": "Dates like 'the first' or 'the tenth' use 'on'."
     },
     {
       "id": "ex9",
       "type": "multiple-choice",
-      "question": "Where do you see the 'due date'?",
-      "options": ["On the bill", "In the car", "Under the table", "On the card"],
-      "correctAnswer": 0,
-      "explanation": "The bill shows when you must pay it."
+      "question": "If your bill is 'Paperless', how do you receive it?",
+      "options": ["By post", "In your app or email", "By telephone", "You don't receive it"],
+      "correctAnswer": 1,
+      "explanation": "Paperless means digital delivery."
     },
     {
       "id": "ex10",
       "type": "fill-in-the-blank",
-      "question": "I have to ________ my electricity bill. (pagar)",
-      "answer": "pay",
-      "explanation": "'Pay' is the verb for 'pagar'."
-    },
-    {
-      "id": "ex11",
-      "type": "multiple-choice",
-      "question": "I pay the rent ________ the first of the month.",
-      "options": ["on", "in", "at", "by"],
-      "correctAnswer": 0,
-      "explanation": "We use 'on' for specific dates (the first, the second, etc.)."
-    },
-    {
-      "id": "ex12",
-      "type": "fill-in-the-blank",
-      "question": "Is the bill ________? (vencida)",
-      "answer": "overdue",
-      "explanation": "'Overdue' is used when a deadline has passed."
-    },
-    {
-      "id": "ex13",
-      "type": "multiple-choice",
-      "question": "What is 'Agua' in English?",
-      "options": ["Gas", "Water", "Light", "Heat"],
-      "correctAnswer": 1,
-      "explanation": "'Water' is a common utility bill."
-    },
-    {
-      "id": "ex14",
-      "type": "fill-in-the-blank",
-      "question": "I study English ________ the morning.",
-      "answer": "in",
-      "explanation": "We use 'in the morning/afternoon/evening'."
-    },
-    {
-      "id": "ex15",
-      "type": "vocabulary-match",
-      "question": "Match the symbols:",
-      "pairs": [
-        { "term": "$", "definition": "Dollar" },
-        { "term": "€", "definition": "Euro" },
-        { "term": "£", "definition": "Pound" }
-      ]
-    },
-    {
-      "id": "ex16",
-      "type": "multiple-choice",
-      "question": "What is the 'electricity bill'?",
-      "options": ["Factura del gas", "Factura de la luz", "Factura del agua", "Factura del móvil"],
-      "correctAnswer": 1,
-      "explanation": "Electricity is for light and power."
-    },
-    {
-      "id": "ex17",
-      "type": "fill-in-the-blank",
-      "question": "Wait for me ________ noon.",
-      "answer": "at",
-      "explanation": "We use 'at' for noon/midnight."
-    },
-    {
-      "id": "ex18",
-      "type": "multiple-choice",
-      "question": "If you don't pay your bills, you have...",
-      "options": ["Savings", "Debt", "Gifts", "Coins"],
-      "correctAnswer": 1,
-      "explanation": "Unpaid bills become debt."
-    },
-    {
-      "id": "ex19",
-      "type": "fill-in-the-blank",
-      "question": "The bill ________ (llegar) yesterday.",
-      "answer": "arrived",
-      "explanation": "Past simple of 'arrive'."
-    },
-    {
-      "id": "ex20",
-      "type": "multiple-choice",
-      "question": "How do you say 'Alquiler'?",
-      "options": ["Bill", "Rent", "Fee", "Note"],
-      "correctAnswer": 1,
-      "explanation": "'Rent' is the payment for a house or room."
-    },
-    {
-      "id": "ex21",
-      "type": "fill-in-the-blank",
-      "question": "I pay ________ cash. (en)",
-      "answer": "in",
-      "explanation": "We say 'in cash'."
-    },
-    {
-      "id": "ex22",
-      "type": "vocabulary-match",
-      "question": "Prepositions of time:",
-      "pairs": [
-        { "term": "Monday", "definition": "On" },
-        { "term": "5:00", "definition": "At" },
-        { "term": "January", "definition": "In" }
-      ]
-    },
-    {
-      "id": "ex23",
-      "type": "multiple-choice",
-      "question": "What is 'Gas' in English?",
-      "options": ["Light", "Gas", "Water", "Trash"],
-      "correctAnswer": 1,
-      "explanation": "'Gas' is the same in both languages for this utility."
-    },
-    {
-      "id": "ex24",
-      "type": "fill-in-the-blank",
-      "question": "My birthday is ________ July.",
+      "question": "The subscription arrives ________ April.",
       "answer": "in",
       "explanation": "Use 'in' for months."
     },
     {
-      "id": "ex25",
-      "type": "multiple-choice",
-      "question": "Is the bank open ________ Sunday?",
-      "options": ["in", "on", "at", "by"],
-      "correctAnswer": 1,
-      "explanation": "Use 'on' for days."
-    },
-    {
-      "id": "ex26",
-      "type": "fill-in-the-blank",
-      "question": "I have to ________ my account. (revisar)",
-      "answer": "check",
-      "explanation": "'Check' is 'revisar'."
-    },
-    {
-      "id": "ex27",
-      "type": "multiple-choice",
-      "question": "A 'receipt' is a proof of...",
-      "options": ["Payment", "Debt", "Love", "Travel"],
-      "correctAnswer": 0,
-      "explanation": "A receipt shows you paid for something."
-    },
-    {
-      "id": "ex28",
-      "type": "fill-in-the-blank",
-      "question": "The bill is $50 ________ month.",
-      "answer": "per",
-      "explanation": "'Per' means 'por cada'."
-    },
-    {
-      "id": "ex29",
-      "type": "multiple-choice",
-      "question": "What is 'Fecha de vencimiento'?",
-      "options": ["Start date", "Due date", "Old date", "Birthday"],
-      "correctAnswer": 1,
-      "explanation": "'Due date' is the deadline."
-    },
-    {
-      "id": "ex30",
-      "type": "fill-in-the-blank",
-      "question": "I am ________ (en) the bank.",
-      "answer": "at",
-      "explanation": "Preposition of place for a point."
-    },
-    {
-      "id": "ex31",
+      "id": "ex11",
       "type": "vocabulary-match",
-      "question": "Monthly bills:",
+      "question": "Match the services:",
       "pairs": [
-        { "term": "Electricity", "definition": "Light" },
-        { "term": "Internet", "definition": "Web" },
-        { "term": "Water", "definition": "Liquid" }
+        { "term": "Netflix", "definition": "Subscription" },
+        { "term": "Electricity", "definition": "Utility" },
+        { "term": "Rent", "definition": "Housing payment" }
       ]
     },
     {
-      "id": "ex32",
-      "type": "multiple-choice",
-      "question": "When do you pay your bills?",
-      "options": ["At the end of the month", "In the car", "At the cinema", "On the beach"],
-      "correctAnswer": 0,
-      "explanation": "Most bills are monthly."
-    },
-    {
-      "id": "ex33",
-      "type": "fill-in-the-blank",
-      "question": "The total is $100 ________ dollars.",
-      "answer": "US",
-      "explanation": "Currency code."
-    },
-    {
-      "id": "ex34",
-      "type": "multiple-choice",
-      "question": "What is 'Servicios básicos'?",
-      "options": ["Rent", "Utilities", "Bills", "Notes"],
-      "correctAnswer": 1,
-      "explanation": "'Utilities' is the general term for water, light, gas."
-    },
-    {
-      "id": "ex35",
-      "type": "fill-in-the-blank",
-      "question": "Don't ________ (olvidar) to pay!",
-      "answer": "forget",
-      "explanation": "Imperative."
-    },
-    {
-      "id": "ex36",
-      "type": "multiple-choice",
-      "question": "The rent is expensive ________ London.",
-      "options": ["in", "on", "at", "by"],
-      "correctAnswer": 0,
-      "explanation": "Use 'in' for cities."
-    },
-    {
-      "id": "ex37",
-      "type": "fill-in-the-blank",
-      "question": "I pay ________ card. (con)",
-      "answer": "by",
-      "explanation": "We can say 'pay by card'."
-    },
-    {
-      "id": "ex38",
-      "type": "vocabulary-match",
-      "question": "Time expressions:",
-      "pairs": [
-        { "term": "Now", "definition": "Ahora" },
-        { "term": "Later", "definition": "Más tarde" },
-        { "term": "Soon", "definition": "Pronto" }
-      ]
-    },
-    {
-      "id": "ex39",
+      "id": "ex12",
       "type": "multiple-choice",
       "question": "What is a 'Statement'?",
-      "options": ["A bill", "A bank document", "A card", "A coin"],
+      "options": ["A type of bill", "A monthly summary of activity", "A bank card", "A security code"],
       "correctAnswer": 1,
-      "explanation": "A bank statement shows your activity."
+      "explanation": "A statement shows all your transactions and payments for the month."
     },
     {
-      "id": "ex40",
+      "id": "ex13",
       "type": "fill-in-the-blank",
-      "question": "The payment is ________ (mañana).",
-      "answer": "tomorrow",
-      "explanation": "'Tomorrow' is 'mañana'."
-    },
-    {
-      "id": "ex41",
-      "type": "multiple-choice",
-      "question": "I have to pay ________ June 15th.",
-      "options": ["on", "in", "at", "to"],
-      "correctAnswer": 0,
-      "explanation": "Use 'on' for full dates."
-    },
-    {
-      "id": "ex42",
-      "type": "fill-in-the-blank",
-      "question": "How ________ (mucho) is the bill?",
-      "answer": "much",
-      "explanation": "For prices, we use 'how much'."
-    },
-    {
-      "id": "ex43",
-      "type": "multiple-choice",
-      "question": "Where is the electricity bill?",
-      "options": ["In my email", "In my shoe", "In the fridge", "On the moon"],
-      "correctAnswer": 0,
-      "explanation": "Many bills are digital now."
-    },
-    {
-      "id": "ex44",
-      "type": "fill-in-the-blank",
-      "question": "Wait for me ________ 10 o'clock.",
+      "question": "Don't be late! The payment is due ________ 5:00 PM.",
       "answer": "at",
-      "explanation": "Preposition for hours."
+      "explanation": "Preposition for a specific hour."
     },
     {
-      "id": "ex45",
+      "id": "ex14",
+      "type": "multiple-choice",
+      "question": "What happens if a bill is 'Overdue'?",
+      "options": ["It is free", "You might pay a late fee", "You get a gift", "It is early"],
+      "correctAnswer": 1,
+      "explanation": "Late payments often result in extra charges (fees)."
+    },
+    {
+      "id": "ex15",
       "type": "vocabulary-match",
-      "question": "Match the verbs:",
+      "question": "Match the payment types:",
       "pairs": [
-        { "term": "Spend", "definition": "Gastar" },
-        { "term": "Save", "definition": "Ahorrar" },
-        { "term": "Earn", "definition": "Ganar" }
+        { "term": "Manual", "definition": "You click 'pay' every time" },
+        { "term": "Automatic", "definition": "The app does it for you" },
+        { "term": "Scheduled", "definition": "You plan a future date" }
       ]
     },
     {
-      "id": "ex46",
-      "type": "multiple-choice",
-      "question": "If you pay today, you are...",
-      "options": ["Early", "Late", "Overdue", "On time"],
-      "correctAnswer": 3,
-      "explanation": "'On time' means exactly when needed."
-    },
-    {
-      "id": "ex47",
+      "id": "ex16",
       "type": "fill-in-the-blank",
       "question": "I pay my bills ________ (cada) month.",
       "answer": "every",
-      "explanation": "'Every' is 'cada'."
+      "explanation": "'Every' is used for recurring time periods."
     },
     {
-      "id": "ex48",
+      "id": "ex17",
       "type": "multiple-choice",
-      "question": "Is 'Rent' a bill?",
-      "options": ["Yes", "No", "Sometimes", "Never"],
-      "correctAnswer": 0,
-      "explanation": "It's a regular payment for housing."
-    },
-    {
-      "id": "ex49",
-      "type": "fill-in-the-blank",
-      "question": "I'm sorry, I ________ (no puedo) pay now.",
-      "answer": "can't",
-      "explanation": "Negative ability."
-    },
-    {
-      "id": "ex50",
-      "type": "multiple-choice",
-      "question": "What is 'Vencido'?",
-      "options": ["New", "Overdue", "Free", "Paid"],
+      "question": "Which is a 'Scheduled Payment'?",
+      "options": ["Paying cash now", "Planning a transfer for next Friday", "Using an ATM", "Losing your receipt"],
       "correctAnswer": 1,
-      "explanation": "'Overdue' is the term."
+      "explanation": "Scheduling means planning a payment for a later time."
+    },
+    {
+      "id": "ex18",
+      "type": "fill-in-the-blank",
+      "question": "The bill is ________ (atrasada). I need to pay now!",
+      "answer": "overdue",
+      "explanation": "'Overdue' is 'atrasada' or 'vencida'."
+    },
+    {
+      "id": "ex19",
+      "type": "multiple-choice",
+      "question": "What is an 'Invoice'?",
+      "options": ["A formal request for payment", "A type of coin", "A bank branch", "A savings goal"],
+      "correctAnswer": 0,
+      "explanation": "An invoice is a document companies send to ask for money for services."
+    },
+    {
+      "id": "ex20",
+      "type": "vocabulary-match",
+      "question": "Match the frequency:",
+      "pairs": [
+        { "term": "Monthly", "definition": "Every month" },
+        { "term": "Weekly", "definition": "Every week" },
+        { "term": "Annual", "definition": "Every year" }
+      ]
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "Check your app ________ (en) the morning.",
+      "answer": "in",
+      "explanation": "We say 'in the morning'."
+    },
+    {
+      "id": "ex22",
+      "type": "multiple-choice",
+      "question": "Why use 'Auto-pay' for rent?",
+      "options": ["To save battery", "To never forget the due date", "To make the bank happy", "To change the currency"],
+      "correctAnswer": 1,
+      "explanation": "Auto-pay ensures you are always on time with important payments."
+    },
+    {
+      "id": "ex23",
+      "type": "fill-in-the-blank",
+      "question": "The due date is ________ Friday.",
+      "answer": "on",
+      "explanation": "Use 'on' for days of the week."
+    },
+    {
+      "id": "ex24",
+      "type": "vocabulary-match",
+      "question": "Digital Billing icons:",
+      "pairs": [
+        { "term": "Bell", "definition": "Notifications" },
+        { "term": "Calendar", "definition": "Scheduled dates" },
+        { "term": "Document", "definition": "Invoices / Bills" }
+      ]
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "If you pay 'On time', you pay...",
+      "options": ["Before the due date", "Exactly when needed", "After the due date", "Never"],
+      "correctAnswer": 1,
+      "explanation": "'On time' means meeting the deadline perfectly."
     }
   ]
 }

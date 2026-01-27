@@ -3,151 +3,157 @@
   "level": "A1",
   "trimester": 1,
   "weekId": "semana11",
-  "title": "Meses y Fechas Importantes",
+  "title": "Dates & Deadlines",
   "items": [
     {
-      "id": "fin-a1-w11-1",
+      "id": "fin-a1-w11-01",
+      "type": "matching",
+      "prompt": "Match the term with its financial period:",
+      "pairs": [
+        { "left": "Q1", "right": "January to March" },
+        { "left": "Q2", "right": "April to June" },
+        { "left": "Q3", "right": "July to September" },
+        { "left": "Q4", "right": "October to December" }
+      ],
+      "explanation": "Companies divide the year into four quarters (Q1-Q4)."
+    },
+    {
+      "id": "fin-a1-w11-02",
       "type": "multipleChoice",
-      "prompt": "My birthday is ______ July.",
+      "prompt": "The ______ for the payment is January 31st.",
+      "options": ["Due Date", "Quarter", "Month"],
+      "answerIndex": 0,
+      "explanation": "The 'Due Date' is the final day to make a payment."
+    },
+    {
+      "id": "fin-a1-w11-03",
+      "type": "multipleChoice",
+      "prompt": "The fiscal year starts ______ January.",
       "options": ["at", "on", "in"],
       "answerIndex": 2,
-      "explanation": "Usamos 'in' con los meses."
+      "explanation": "We use 'in' for months."
     },
     {
-      "id": "fin-a1-w11-2",
+      "id": "fin-a1-w11-04",
+      "type": "fillBlanks",
+      "prompt": "Our meeting is [blank] Monday at 10:00 AM.",
+      "answers": ["on"],
+      "explanation": "Use 'on' for days of the week."
+    },
+    {
+      "id": "fin-a1-w11-05",
       "type": "multipleChoice",
-      "prompt": "The meeting is ______ Monday.",
-      "options": ["at", "on", "in"],
+      "prompt": "Which month is in the second quarter (Q2)?",
+      "options": ["February", "May", "August"],
       "answerIndex": 1,
-      "explanation": "Usamos 'on' con los días de la semana."
+      "explanation": "Q2 includes April, May, and June."
     },
     {
-      "id": "fin-a1-w11-3",
+      "id": "fin-a1-w11-06",
+      "type": "writing",
+      "prompt": "Write a sentence saying that your payment is on the 15th of every month.",
+      "example": "My payment is on the 15th of every month.",
+      "explanation": "Use 'on the 15th' to specify a day."
+    },
+    {
+      "id": "fin-a1-w11-07",
+      "type": "rolePlay",
+      "prompt": "Role-play: You are calling the bank to ask about a due date. Ask: 'When is the due date for my credit card?'",
+      "scenario": "A phone call to customer service.",
+      "suggestedPhrases": [
+        "When is the due date?",
+        "Is it in February or March?",
+        "Is the deadline on the 5th?"
+      ]
+    },
+    {
+      "id": "fin-a1-w11-08",
       "type": "multipleChoice",
-      "prompt": "The bank opens ______ 8:30 AM.",
+      "prompt": "The meeting starts ______ 9:00 AM sharp.",
       "options": ["at", "on", "in"],
       "answerIndex": 0,
-      "explanation": "Usamos 'at' para las horas."
+      "explanation": "We use 'at' for specific times."
     },
     {
-      "id": "fin-a1-w11-4",
-      "type": "multipleChoice",
-      "prompt": "The first month of the year is ______.",
-      "options": ["February", "January", "March"],
-      "answerIndex": 1,
-      "explanation": "Enero es el primer mes."
-    },
-    {
-      "id": "fin-a1-w11-5",
-      "type": "multipleChoice",
-      "prompt": "Today is March ______.",
-      "options": ["2rd", "2nd", "2th"],
-      "answerIndex": 1,
-      "explanation": "El ordinal de 2 es '2nd' (second)."
-    },
-    {
-      "id": "fin-a1-w11-6",
+      "id": "fin-a1-w11-09",
       "type": "fillBlanks",
-      "prompt": "The last month is [blank].",
-      "answers": ["December"],
-      "explanation": "Diciembre es el último mes."
+      "prompt": "The [blank] month of the year is December.",
+      "answers": ["twelfth", "12th"],
+      "explanation": "December is the 12th month."
     },
     {
-      "id": "fin-a1-w11-7",
-      "type": "fillBlanks",
-      "prompt": "Our meeting is [blank] October 12th.",
-      "answers": ["on"],
-      "explanation": "Usamos 'on' para fechas completas."
-    },
-    {
-      "id": "fin-a1-w11-8",
+      "id": "fin-a1-w11-10",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "The bank is closed in August",
       "explanation": "El banco está cerrado en agosto."
     },
     {
-      "id": "fin-a1-w11-9",
+      "id": "fin-a1-w11-11",
+      "type": "multipleChoice",
+      "prompt": "Today is March ______.",
+      "options": ["2rd", "2nd", "2th"],
+      "answerIndex": 1,
+      "explanation": "The ordinal for 2 is '2nd'."
+    },
+    {
+      "id": "fin-a1-w11-12",
+      "type": "fillBlanks",
+      "prompt": "Our new project starts [blank] 2026.",
+      "answers": ["in"],
+      "explanation": "Use 'in' for years."
+    },
+    {
+      "id": "fin-a1-w11-13",
       "type": "multipleChoice",
       "prompt": "Which month is after April?",
       "options": ["March", "May", "June"],
       "answerIndex": 1,
-      "explanation": "Después de abril viene mayo (May)."
+      "explanation": "May comes after April."
     },
     {
-      "id": "fin-a1-w11-10",
+      "id": "fin-a1-w11-14",
+      "type": "writing",
+      "prompt": "Translate to English: 'La reunión es el 12 de octubre.'",
+      "example": "The meeting is on October 12th.",
+      "explanation": "Use 'on' for full dates."
+    },
+    {
+      "id": "fin-a1-w11-15",
       "type": "multipleChoice",
-      "prompt": "I have an appointment ______ Tuesday at 3:00.",
+      "prompt": "I have an appointment ______ Tuesday morning.",
       "options": ["in", "on", "at"],
       "answerIndex": 1,
-      "explanation": "On + día de la semana."
+      "explanation": "Use 'on' for specific days (even with 'morning/afternoon')."
     },
     {
-      "id": "fin-a1-w11-11",
+      "id": "fin-a1-w11-16",
       "type": "fillBlanks",
-      "prompt": "The [blank] month is June.",
+      "prompt": "June is the [blank] month.",
       "answers": ["sixth", "6th"],
-      "explanation": "Junio es el sexto mes."
+      "explanation": "June is month number 6."
     },
     {
-      "id": "fin-a1-w11-12",
-      "type": "multipleChoice",
-      "prompt": "It is very cold ______ January.",
-      "options": ["in", "on", "at"],
-      "answerIndex": 0,
-      "explanation": "In + mes."
-    },
-    {
-      "id": "fin-a1-w11-13",
+      "id": "fin-a1-w11-17",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "Today is January 1st",
       "explanation": "Hoy es 1 de enero."
     },
     {
-      "id": "fin-a1-w11-14",
-      "type": "multipleChoice",
-      "prompt": "Which month has Halloween?",
-      "options": ["September", "October", "November"],
-      "answerIndex": 1,
-      "explanation": "Halloween es en octubre."
-    },
-    {
-      "id": "fin-a1-w11-15",
-      "type": "fillBlanks",
-      "prompt": "My payment is [blank] the 1st of every month.",
-      "answers": ["on"],
-      "explanation": "On + día específico."
-    },
-    {
-      "id": "fin-a1-w11-16",
-      "type": "multipleChoice",
-      "prompt": "The third month is ______.",
-      "options": ["April", "March", "May"],
-      "answerIndex": 1,
-      "explanation": "El tercer mes es marzo (March)."
-    },
-    {
-      "id": "fin-a1-w11-17",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "See you in September",
-      "explanation": "Nos vemos en septiembre."
-    },
-    {
       "id": "fin-a1-w11-18",
       "type": "multipleChoice",
-      "prompt": "The deadline is ______ tomorrow.",
-      "options": ["at", "on", "no preposition needed"],
-      "answerIndex": 2,
-      "explanation": "Con 'tomorrow', 'today', 'yesterday' no se usa preposición."
+      "prompt": "The ______ for the report is Friday.",
+      "options": ["deadline", "quarter", "month"],
+      "answerIndex": 0,
+      "explanation": "A deadline is the latest time to finish something."
     },
     {
       "id": "fin-a1-w11-19",
       "type": "fillBlanks",
-      "prompt": "November is the [blank] month.",
-      "answers": ["eleventh", "11th"],
-      "explanation": "Noviembre es el undécimo mes."
+      "prompt": "My salary arrives [blank] the first of the month.",
+      "answers": ["on"],
+      "explanation": "Use 'on' for specific days like 'the first'."
     },
     {
       "id": "fin-a1-w11-20",
@@ -155,231 +161,7 @@
       "prompt": "Christmas is ______ December 25th.",
       "options": ["in", "on", "at"],
       "answerIndex": 1,
-      "explanation": "On + fecha completa."
-    },
-    {
-      "id": "fin-a1-w11-21",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "I go to London in June",
-      "explanation": "Voy a Londres en junio."
-    },
-    {
-      "id": "fin-a1-w11-22",
-      "type": "fillBlanks",
-      "prompt": "The [blank] month is February.",
-      "answers": ["second", "2nd"],
-      "explanation": "Febrero es el segundo mes."
-    },
-    {
-      "id": "fin-a1-w11-23",
-      "type": "multipleChoice",
-      "prompt": "Schools start ______ September.",
-      "options": ["in", "on", "at"],
-      "answerIndex": 0,
-      "explanation": "In + mes."
-    },
-    {
-      "id": "fin-a1-w11-24",
-      "type": "fillBlanks",
-      "prompt": "Monday is the [blank] day of the week.",
-      "answers": ["first", "1st"],
-      "explanation": "El lunes es el primer día."
-    },
-    {
-      "id": "fin-a1-w11-25",
-      "type": "multipleChoice",
-      "prompt": "The meeting is ______ 2:00 PM.",
-      "options": ["in", "on", "at"],
-      "answerIndex": 2,
-      "explanation": "At + hora."
-    },
-    {
-      "id": "fin-a1-w11-26",
-      "type": "reorder",
-      "prompt": "Reorder the question:",
-      "sentence": "When is the meeting?",
-      "explanation": "¿Cuándo es la reunión?"
-    },
-    {
-      "id": "fin-a1-w11-27",
-      "type": "multipleChoice",
-      "prompt": "Which month is between May and July?",
-      "options": ["April", "June", "August"],
-      "answerIndex": 1,
-      "explanation": "Entre mayo y julio está junio (June)."
-    },
-    {
-      "id": "fin-a1-w11-28",
-      "type": "fillBlanks",
-      "prompt": "The office is closed [blank] Sundays.",
-      "answers": ["on"],
-      "explanation": "On + día (plural)."
-    },
-    {
-      "id": "fin-a1-w11-29",
-      "type": "multipleChoice",
-      "prompt": "My contract starts ______ 2025.",
-      "options": ["in", "on", "at"],
-      "answerIndex": 0,
-      "explanation": "In + año."
-    },
-    {
-      "id": "fin-a1-w11-30",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "Today is the third of May",
-      "explanation": "Hoy es tres de mayo."
-    },
-    {
-      "id": "fin-a1-w11-31",
-      "type": "multipleChoice",
-      "prompt": "What is the 10th month?",
-      "options": ["November", "October", "December"],
-      "answerIndex": 1,
-      "explanation": "Octubre es el décimo mes."
-    },
-    {
-      "id": "fin-a1-w11-32",
-      "type": "fillBlanks",
-      "prompt": "I study English [blank] the morning.",
-      "answers": ["in"],
-      "explanation": "In the morning (expresión fija)."
-    },
-    {
-      "id": "fin-a1-w11-33",
-      "type": "multipleChoice",
-      "prompt": "I have a coffee ______ 10 o'clock.",
-      "options": ["in", "on", "at"],
-      "answerIndex": 2,
-      "explanation": "At + hora."
-    },
-    {
-      "id": "fin-a1-w11-34",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "It is hot in July",
-      "explanation": "Hace calor en julio."
-    },
-    {
-      "id": "fin-a1-w11-35",
-      "type": "multipleChoice",
-      "prompt": "Valentine's Day is ______ February 14th.",
-      "options": ["in", "on", "at"],
-      "answerIndex": 1,
-      "explanation": "On + fecha completa."
-    },
-    {
-      "id": "fin-a1-w11-36",
-      "type": "fillBlanks",
-      "prompt": "The [blank] month is April.",
-      "answers": ["fourth", "4th"],
-      "explanation": "Abril es el cuarto mes."
-    },
-    {
-      "id": "fin-a1-w11-37",
-      "type": "multipleChoice",
-      "prompt": "I sleep ______ night.",
-      "options": ["in", "on", "at"],
-      "answerIndex": 2,
-      "explanation": "At night (expresión fija)."
-    },
-    {
-      "id": "fin-a1-w11-38",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "I am busy on Friday",
-      "explanation": "Estoy ocupado el viernes."
-    },
-    {
-      "id": "fin-a1-w11-39",
-      "type": "multipleChoice",
-      "prompt": "The year has 12 ______.",
-      "options": ["days", "weeks", "months"],
-      "answerIndex": 2,
-      "explanation": "El año tiene 12 meses."
-    },
-    {
-      "id": "fin-a1-w11-40",
-      "type": "fillBlanks",
-      "prompt": "The [blank] month is August.",
-      "answers": ["eighth", "8th"],
-      "explanation": "Agosto es el octavo mes."
-    },
-    {
-      "id": "fin-a1-w11-41",
-      "type": "multipleChoice",
-      "prompt": "I see you ______ 5 minutes.",
-      "options": ["in", "on", "at"],
-      "answerIndex": 0,
-      "explanation": "In + cantidad de tiempo (dentro de)."
-    },
-    {
-      "id": "fin-a1-w11-42",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "My exam is on Wednesday",
-      "explanation": "Mi examen es el miércoles."
-    },
-    {
-      "id": "fin-a1-w11-43",
-      "type": "multipleChoice",
-      "prompt": "The fifth month is ______.",
-      "options": ["June", "May", "April"],
-      "answerIndex": 1,
-      "explanation": "El quinto mes es mayo (May)."
-    },
-    {
-      "id": "fin-a1-w11-44",
-      "type": "fillBlanks",
-      "prompt": "See you [blank] Monday!",
-      "answers": ["on"],
-      "explanation": "Nos vemos el lunes."
-    },
-    {
-      "id": "fin-a1-w11-45",
-      "type": "multipleChoice",
-      "prompt": "I arrive ______ midnight.",
-      "options": ["in", "on", "at"],
-      "answerIndex": 2,
-      "explanation": "At midnight."
-    },
-    {
-      "id": "fin-a1-w11-46",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "I have no money in January",
-      "explanation": "No tengo dinero en enero."
-    },
-    {
-      "id": "fin-a1-w11-47",
-      "type": "multipleChoice",
-      "prompt": "What is the 9th month?",
-      "options": ["August", "September", "October"],
-      "answerIndex": 1,
-      "explanation": "Septiembre es el noveno mes."
-    },
-    {
-      "id": "fin-a1-w11-48",
-      "type": "fillBlanks",
-      "prompt": "I was born [blank] 1995.",
-      "answers": ["in"],
-      "explanation": "In + año."
-    },
-    {
-      "id": "fin-a1-w11-49",
-      "type": "multipleChoice",
-      "prompt": "The meeting is ______ December 1st.",
-      "options": ["in", "on", "at"],
-      "answerIndex": 1,
-      "explanation": "On + fecha completa."
-    },
-    {
-      "id": "fin-a1-w11-50",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "The store opens in April",
-      "explanation": "La tienda abre en abril."
+      "explanation": "Use 'on' for specific dates."
     }
   ]
 }

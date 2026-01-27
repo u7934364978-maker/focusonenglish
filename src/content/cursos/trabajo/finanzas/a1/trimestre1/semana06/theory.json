@@ -1,24 +1,29 @@
 {
-  "title": "¿Qué hora es?",
+  "title": "What Time Is It? Global Banking",
   "sections": [
     {
       "id": "vocab",
-      "title": "La Hora en el Banco",
-      "content": "Para ser puntuales en nuestras citas y transacciones.\n\n- **What time is it?**: ¿Qué hora es?\n- **O'clock**: En punto (e.g., 9:00 - nine o'clock)\n- **Half past**: Y media (e.g., 9:30 - half past nine)\n- **Quarter past**: Y cuarto\n- **Quarter to**: Menos cuarto\n- **AM / PM**: Mañana / Tarde-Noche\n- **Noon**: Mediodía\n- **Midnight**: Medianoche"
+      "title": "Time in the Bank",
+      "content": "Being punctual is important for meetings and transactions.\n\n- **What time is it?**: ¿Qué hora es?\n- **O'clock**: En punto (e.g., 9:00 - nine o'clock)\n- **Half past**: Y media (e.g., 9:30 - half past nine)\n- **Quarter past**: Y cuarto\n- **Quarter to**: Menos cuarto\n- **AM / PM**: Mañana / Tarde-Noche\n- **Noon**: Mediodía"
+    },
+    {
+      "id": "global-time",
+      "title": "Modern Banking: Time Zones",
+      "content": "Digital banking is global. We need to know different **Time Zones**.\n\n- **Time Zone**: Zona horaria\n- **London Time**: Hora de Londres\n- **Local Time**: Hora local\n- **World Clock**: Reloj mundial\n\n### Global Example\n```mermaid\ngraph LR\n    A[London: 9:00 AM] -- +1 hour --> B[Madrid: 10:00 AM]\n    A -- -5 hours --> C[New York: 4:00 AM]\n```"
     },
     {
       "id": "grammar",
-      "title": "Present Simple: Negativo",
-      "content": "Para decir que algo no ocurre, usamos **DO NOT (don't)** o **DOES NOT (doesn't)**.\n\n**Estructura (I/You/We/They + don't + verb):**\n- I **don't work** on Saturdays. (No trabajo los sábados)\n- They **don't open** at noon. (No abren al mediodía)\n\n**Estructura (He/She/It + doesn't + verb):**\n- The bank **doesn't close** late. (El banco no cierra tarde)\n- She **doesn't have** the ID. (Ella no tiene el DNI)\n\n*Nota: Cuando usamos 'doesn't', el verbo ya no lleva la 's'.*"
+      "title": "Grammar: Present Simple Negative",
+      "content": "To say something does not happen, we use **don't** or **doesn't**.\n\n**Structure (I/You/We/They + don't + verb):**\n- I **don't work** on Saturdays.\n- We **don't open** at midnight.\n\n**Structure (He/She/It + doesn't + verb):**\n- The bank **doesn't close** at noon.\n- The app **doesn't stop** at night."
     }
   ],
   "objectives": [
-    "Decir y entender la hora en inglés",
-    "Utilizar el negativo en presente simple para describir lo que no ocurre",
-    "Diferenciar entre 'don't' y 'doesn't' según el sujeto"
+    "Tell and understand the time in English",
+    "Understand basic time zone differences in global banking",
+    "Use the negative form of the present simple"
   ],
   "keyTerms": [
-    { "term": "Appointment", "definition": "An arrangement to meet someone at a particular time and place." },
-    { "term": "Punctual", "definition": "Happening or doing something at the agreed or proper time." }
+    { "term": "Time Zone", "definition": "A region of the globe that observes a uniform standard time." },
+    { "term": "Appointment", "definition": "A meeting at a specific time." }
   ]
 }

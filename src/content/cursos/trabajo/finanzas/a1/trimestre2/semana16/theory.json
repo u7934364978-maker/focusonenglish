@@ -1,24 +1,30 @@
 {
-  "title": "Objetos Financieros y Adjetivos",
+  "title": "Describing Modern Banking",
   "sections": [
     {
-      "id": "vocab",
-      "title": "Adjetivos para Objetos",
-      "content": "Aprenderemos a describir los objetos que usamos en el banco.\n\n- **New**: Nuevo\n- **Old**: Viejo\n- **Small**: Pequeño\n- **Large**: Grande\n- **Fast**: Rápido\n- **Slow**: Lento"
+      "id": "vocab-adjectives",
+      "title": "Vocabulary: Describing Services & Tools",
+      "content": "In modern finance, we use these adjectives to describe our tools:\n\n- **New / Modern**: Latest technology (neobanks).\n- **Old / Traditional**: Classic methods (physical branches).\n- **Fast / High-speed**: Quick transactions and internet.\n- **Slow / Laggy**: Systems that take a long time.\n- **Secure**: Safe from hackers (encrypted).\n- **User-friendly**: Easy to use (apps).\n- **Large / Small**: Describing the size of an office or a budget."
     },
     {
-      "id": "practice",
-      "title": "Descripción de Objetos",
-      "content": "Combinamos el vocabulario aprendido hasta ahora.\n\n- This is a **new** credit card. (Esta es una tarjeta de crédito nueva)\n- Those computers are **slow**. (Esos ordenadores son lentos)\n- We have a **large** office. (Tenemos una oficina grande)"
+      "id": "diagram-comparison",
+      "title": "Traditional vs. Modern Banking",
+      "content": "```mermaid\ngraph LR\n    A[Traditional] --> B[Paper-based]\n    B --> C[Slow & Manual]\n    D[Modern] --> E[Digital-first]\n    E --> F[Fast & Automatic]\n```"
+    },
+    {
+      "id": "practice-descriptions",
+      "title": "Combining Adjectives with Nouns",
+      "content": "To describe something, put the adjective **before** the noun:\n\n- *This is a **secure** app.*\n- *That is a **traditional** bank.*\n- *We have a **user-friendly** interface.*\n- *Those are **fast** computers.*"
     }
   ],
   "objectives": [
-    "Describir objetos financieros con adjetivos básicos",
-    "Identificar características de productos y servicios",
-    "Repasar el uso de demostrativos con adjetivos"
+    "Describe financial products using modern and traditional adjectives",
+    "Identify the quality of digital services (secure, fast, user-friendly)",
+    "Correctly place adjectives before nouns in sentences"
   ],
   "keyTerms": [
-    { "term": "Large", "definition": "Big in size or amount." },
-    { "term": "Fast", "definition": "Moving or happening at high speed." }
+    { "term": "User-friendly", "definition": "Easy for the customer to use and understand." },
+    { "term": "Secure", "definition": "Safe and protected from danger or theft." },
+    { "term": "Traditional", "definition": "Following old customs or methods." }
   ]
 }

@@ -3,383 +3,129 @@
   "level": "A1",
   "trimester": 2,
   "weekId": "semana20",
-  "title": "Repaso del Segundo Trimestre",
+  "title": "Cyber Hygiene & Password Safety",
   "items": [
     {
       "id": "fin-a1-w20-1",
       "type": "multipleChoice",
-      "prompt": "How much ______ this shirt?",
-      "options": ["costs", "is", "pay"],
-      "answerIndex": 1,
-      "explanation": "How much is...? es la forma más común de preguntar el precio."
+      "prompt": "Which password is 'Strong'?",
+      "options": ["123456", "password", "P@ssw0rd2024!"],
+      "answerIndex": 2,
+      "explanation": "Una contraseña fuerte mezcla letras, números y símbolos."
     },
     {
       "id": "fin-a1-w20-2",
       "type": "multipleChoice",
-      "prompt": "I ______ in cash.",
-      "options": ["buy", "cost", "pay"],
-      "answerIndex": 2,
-      "explanation": "Pagar en efectivo se dice 'pay in cash'."
+      "prompt": "A fake email that wants your password is ______.",
+      "options": ["Phishing", "Shopping", "Banking"],
+      "answerIndex": 0,
+      "explanation": "El phishing es un intento de robo de identidad mediante correos falsos."
     },
     {
       "id": "fin-a1-w20-3",
-      "type": "multipleChoice",
-      "prompt": "The meeting is ______ Monday.",
-      "options": ["at", "in", "on"],
-      "answerIndex": 2,
-      "explanation": "On + día de la semana."
+      "type": "fillBlanks",
+      "prompt": "Never share your [blank] with anyone.",
+      "answers": ["password", "pin"],
+      "explanation": "Nunca compartas tu contraseña o PIN."
     },
     {
       "id": "fin-a1-w20-4",
       "type": "multipleChoice",
-      "prompt": "Enter your ______ code at the ATM.",
-      "options": ["PIN", "PAN", "PEN"],
-      "answerIndex": 0,
-      "explanation": "El código de la tarjeta es el PIN."
+      "prompt": "2FA uses your password plus a ______ from your phone.",
+      "options": ["Photo", "Code", "Link"],
+      "answerIndex": 1,
+      "explanation": "La autenticación de dos factores usa un código enviado al móvil."
     },
     {
       "id": "fin-a1-w20-5",
-      "type": "multipleChoice",
-      "prompt": "One ______ is 1,000.",
-      "options": ["hundred", "million", "thousand"],
-      "answerIndex": 2,
-      "explanation": "Mil se dice 'thousand'."
+      "type": "matching",
+      "prompt": "Match the term with its safety level:",
+      "pairs": [
+        { "left": "P@ssw0rd!", "right": "Strong" },
+        { "left": "1111", "right": "Weak" },
+        { "left": "Public Wi-Fi", "right": "Unsafe for banking" },
+        { "left": "Lock screen", "right": "Safe habit" }
+      ],
+      "explanation": "Relaciona los términos con su nivel de seguridad."
     },
     {
       "id": "fin-a1-w20-6",
       "type": "fillBlanks",
-      "prompt": "How [blank] is it? It is $10.",
-      "answers": ["much"],
-      "explanation": "How much is it?"
+      "prompt": "Don't use bank apps on public [blank].",
+      "answers": ["wifi", "wi-fi"],
+      "explanation": "No uses apps bancarias en redes Wi-Fi públicas."
     },
     {
       "id": "fin-a1-w20-7",
-      "type": "fillBlanks",
-      "prompt": "I pay [blank] card.",
-      "answers": ["by"],
-      "explanation": "Pay by card (o with card)."
+      "type": "reorder",
+      "prompt": "Reorder the security advice:",
+      "sentence": "Change your password every month",
+      "explanation": "Cambia tu contraseña cada mes."
     },
     {
       "id": "fin-a1-w20-8",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "I want to open an account",
-      "explanation": "Quiero abrir una cuenta."
+      "type": "multipleChoice",
+      "prompt": "A 'Weak' password is ______ to guess.",
+      "options": ["Hard", "Impossible", "Easy"],
+      "answerIndex": 2,
+      "explanation": "Una contraseña débil es fácil de adivinar."
     },
     {
       "id": "fin-a1-w20-9",
-      "type": "multipleChoice",
-      "prompt": "The ______ shows you have paid.",
-      "options": ["receipt", "change", "bill"],
-      "answerIndex": 0,
-      "explanation": "El recibo (receipt) prueba que has pagado."
+      "type": "writing",
+      "prompt": "Write one security symbol.",
+      "validation": "@",
+      "explanation": "El símbolo @ es común en contraseñas seguras."
     },
     {
       "id": "fin-a1-w20-10",
-      "type": "multipleChoice",
-      "prompt": "My appointment is ______ 9:00 AM.",
-      "options": ["in", "on", "at"],
-      "answerIndex": 2,
-      "explanation": "At + time."
+      "type": "roleplay",
+      "prompt": "A friend asks: 'Can I use your password to see the app?'. What is the safe answer?",
+      "scenario": "Friend: Hey, can you give me your password? I want to see how the bank app works.\nYou: ______",
+      "options": [
+        "No, it is a secret.",
+        "Yes, here it is.",
+        "I don't know my password."
+      ],
+      "answerIndex": 0,
+      "explanation": "La respuesta segura es no compartirla: 'No, it is a secret'."
     },
     {
       "id": "fin-a1-w20-11",
-      "type": "fillBlanks",
-      "prompt": "Two [blank] is 200.",
-      "answers": ["hundred"],
-      "explanation": "Doscientos: two hundred."
+      "type": "multipleChoice",
+      "prompt": "What should you do before you leave your computer?",
+      "options": ["Open the window", "Lock the screen", "Turn off the lights"],
+      "answerIndex": 1,
+      "explanation": "Debes bloquear la pantalla antes de irte."
     },
     {
       "id": "fin-a1-w20-12",
-      "type": "multipleChoice",
-      "prompt": "I need to ______ some milk.",
-      "options": ["buy", "pay", "cost"],
-      "answerIndex": 0,
-      "explanation": "Necesito comprar leche."
+      "type": "fillBlanks",
+      "prompt": "2FA is [blank] factor authentication.",
+      "answers": ["two"],
+      "explanation": "2FA: Two-Factor Authentication."
     },
     {
       "id": "fin-a1-w20-13",
       "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "The bank is open today",
-      "explanation": "El banco está abierto hoy."
+      "prompt": "Reorder the warning:",
+      "sentence": "Do not click this link",
+      "explanation": "No hagas clic en este enlace."
     },
     {
       "id": "fin-a1-w20-14",
       "type": "multipleChoice",
-      "prompt": "Which day is after Tuesday?",
-      "options": ["Monday", "Wednesday", "Thursday"],
+      "prompt": "Which habit is 'Safe'?",
+      "options": ["Writing passwords on paper", "Using 2FA", "Using the same password everywhere"],
       "answerIndex": 1,
-      "explanation": "Después del martes viene el miércoles (Wednesday)."
+      "explanation": "Usar 2FA es un hábito seguro."
     },
     {
       "id": "fin-a1-w20-15",
       "type": "fillBlanks",
-      "prompt": "Here is your [blank], sir. ($5 back)",
-      "answers": ["change"],
-      "explanation": "Aquí tiene su cambio."
-    },
-    {
-      "id": "fin-a1-w20-16",
-      "type": "multipleChoice",
-      "prompt": "We ______ money at the bank.",
-      "options": ["send", "sends", "sending"],
-      "answerIndex": 0,
-      "explanation": "Enviamos dinero (we send)."
-    },
-    {
-      "id": "fin-a1-w20-17",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "What is your phone number?",
-      "explanation": "¿Cuál es tu número de teléfono?"
-    },
-    {
-      "id": "fin-a1-w20-18",
-      "type": "multipleChoice",
-      "prompt": "It's 10:30. It's half ______ ten.",
-      "options": ["past", "after", "to"],
-      "answerIndex": 0,
-      "explanation": "Diez y media: half past ten."
-    },
-    {
-      "id": "fin-a1-w20-19",
-      "type": "fillBlanks",
-      "prompt": "My meeting is [blank] July.",
-      "answers": ["in"],
-      "explanation": "In + month."
-    },
-    {
-      "id": "fin-a1-w20-20",
-      "type": "multipleChoice",
-      "prompt": "A ______ is for withdrawing money.",
-      "options": ["PIN", "ATM", "App"],
-      "answerIndex": 1,
-      "explanation": "El cajero automático se llama ATM."
-    },
-    {
-      "id": "fin-a1-w20-21",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "I have ten dollars now",
-      "explanation": "Tengo diez dólares ahora."
-    },
-    {
-      "id": "fin-a1-w20-22",
-      "type": "fillBlanks",
-      "prompt": "Please [blank] your name here.",
-      "answers": ["write"],
-      "explanation": "Por favor, escriba su nombre aquí."
-    },
-    {
-      "id": "fin-a1-w20-23",
-      "type": "multipleChoice",
-      "prompt": "He ______ by card.",
-      "options": ["pay", "pays", "paying"],
-      "answerIndex": 1,
-      "explanation": "He + pays (tercera persona)."
-    },
-    {
-      "id": "fin-a1-w20-24",
-      "type": "fillBlanks",
-      "prompt": "One [blank] is 1,000,000.",
-      "answers": ["million"],
-      "explanation": "Un millón."
-    },
-    {
-      "id": "fin-a1-w20-25",
-      "type": "multipleChoice",
-      "prompt": "Is the bank ______ on Saturdays?",
-      "options": ["open", "opens", "opening"],
-      "answerIndex": 0,
-      "explanation": "¿Está abierto el banco?"
-    },
-    {
-      "id": "fin-a1-w20-26",
-      "type": "reorder",
-      "prompt": "Reorder the question:",
-      "sentence": "How much does it cost?",
-      "explanation": "¿Cuánto cuesta?"
-    },
-    {
-      "id": "fin-a1-w20-27",
-      "type": "multipleChoice",
-      "prompt": "I need to ______ my money.",
-      "options": ["count", "counting", "counts"],
-      "answerIndex": 0,
-      "explanation": "Necesito contar mi dinero."
-    },
-    {
-      "id": "fin-a1-w20-28",
-      "type": "fillBlanks",
-      "prompt": "I have an [blank] at 3:00.",
-      "answers": ["appointment"],
-      "explanation": "Tengo una cita."
-    },
-    {
-      "id": "fin-a1-w20-29",
-      "type": "multipleChoice",
-      "prompt": "Is that your ______?",
-      "options": ["receipt", "buy", "cost"],
-      "answerIndex": 0,
-      "explanation": "¿Es ese tu recibo?"
-    },
-    {
-      "id": "fin-a1-w20-30",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "Today is Friday today",
-      "explanation": "Hoy es viernes."
-    },
-    {
-      "id": "fin-a1-w20-31",
-      "type": "multipleChoice",
-      "prompt": "We ______ food every day.",
-      "options": ["buy", "buys", "buying"],
-      "answerIndex": 0,
-      "explanation": "Compramos comida (we buy)."
-    },
-    {
-      "id": "fin-a1-w20-32",
-      "type": "fillBlanks",
-      "prompt": "The total is fifty [blank].",
-      "answers": ["euros"],
-      "explanation": "El total son cincuenta euros."
-    },
-    {
-      "id": "fin-a1-w20-33",
-      "type": "multipleChoice",
-      "prompt": "I don't have ______ cash.",
-      "options": ["any", "a", "one"],
-      "answerIndex": 0,
-      "explanation": "No tengo nada de efectivo (I don't have any cash)."
-    },
-    {
-      "id": "fin-a1-w20-34",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "I need a new card",
-      "explanation": "Necesito una tarjeta nueva."
-    },
-    {
-      "id": "fin-a1-w20-35",
-      "type": "multipleChoice",
-      "prompt": "What time is it? It's six ______.",
-      "options": ["o'clock", "time", "hour"],
-      "answerIndex": 0,
-      "explanation": "Seis en punto: six o'clock."
-    },
-    {
-      "id": "fin-a1-w20-36",
-      "type": "fillBlanks",
-      "prompt": "Click [blank] to confirm.",
-      "answers": ["here"],
-      "explanation": "Haz clic aquí para confirmar."
-    },
-    {
-      "id": "fin-a1-w20-37",
-      "type": "multipleChoice",
-      "prompt": "August is a ______.",
-      "options": ["day", "month", "week"],
-      "answerIndex": 1,
-      "explanation": "Agosto es un mes."
-    },
-    {
-      "id": "fin-a1-w20-38",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "This is my bank account",
-      "explanation": "Esta es mi cuenta bancaria."
-    },
-    {
-      "id": "fin-a1-w20-39",
-      "type": "multipleChoice",
-      "prompt": "Can I ______ you?",
-      "options": ["help", "helping", "helps"],
-      "answerIndex": 0,
-      "explanation": "¿Puedo ayudarle?"
-    },
-    {
-      "id": "fin-a1-w20-40",
-      "type": "fillBlanks",
-      "prompt": "The price is [blank] high.",
-      "answers": ["too"],
-      "explanation": "El precio es demasiado (too) alto."
-    },
-    {
-      "id": "fin-a1-w20-41",
-      "type": "multipleChoice",
-      "prompt": "Do you have the ______?",
-      "options": ["receipt", "change", "both are correct"],
-      "answerIndex": 2,
-      "explanation": "Ambas son comunes en el contexto de compras."
-    },
-    {
-      "id": "fin-a1-w20-42",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "I pay the bills weekly",
-      "explanation": "Pago las facturas semanalmente."
-    },
-    {
-      "id": "fin-a1-w20-43",
-      "type": "multipleChoice",
-      "prompt": "My ______ is 1234.",
-      "options": ["PIN", "Name", "Time"],
-      "answerIndex": 0,
-      "explanation": "Mi PIN es 1234."
-    },
-    {
-      "id": "fin-a1-w20-44",
-      "type": "fillBlanks",
-      "prompt": "I am at the [blank] now.",
-      "answers": ["bank"],
-      "explanation": "Estoy en el banco ahora."
-    },
-    {
-      "id": "fin-a1-w20-45",
-      "type": "multipleChoice",
-      "prompt": "We go to the bank ______ Monday.",
-      "options": ["every", "all", "always"],
-      "answerIndex": 0,
-      "explanation": "Vamos al banco cada (every) lunes."
-    },
-    {
-      "id": "fin-a1-w20-46",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "The currency is the dollar",
-      "explanation": "La moneda es el dólar."
-    },
-    {
-      "id": "fin-a1-w20-47",
-      "type": "multipleChoice",
-      "prompt": "Is it ______ or cheap?",
-      "options": ["expensive", "big", "fast"],
-      "answerIndex": 0,
-      "explanation": "¿Es caro (expensive) o barato?"
-    },
-    {
-      "id": "fin-a1-w20-48",
-      "type": "fillBlanks",
-      "prompt": "I like [blank].",
-      "answers": ["shopping"],
-      "explanation": "Me gusta ir de compras."
-    },
-    {
-      "id": "fin-a1-w20-49",
-      "type": "multipleChoice",
-      "prompt": "See you ______ February.",
-      "options": ["in", "on", "at"],
-      "answerIndex": 0,
-      "explanation": "In + month."
-    },
-    {
-      "id": "fin-a1-w20-50",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "This is the final review",
-      "explanation": "Este es el repaso final."
+      "prompt": "A [blank] is a mix of letters and numbers.",
+      "answers": ["password"],
+      "explanation": "Una contraseña es una mezcla de letras y números."
     }
   ]
 }

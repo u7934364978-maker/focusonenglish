@@ -44,8 +44,11 @@ export const localCourseService = {
         description: theoryData?.description || exercisesData?.description || '',
         duration: 60, // Default duration
         objectives: theoryData?.objectives || [],
+        audioUrl: theoryData?.audioUrl || exercisesData?.audioUrl,
+        videoUrl: theoryData?.videoUrl || exercisesData?.videoUrl,
         theoryContent: theoryData ? this.formatTheoryToMarkdown(theoryData) : undefined,
-        exercises: this.convertItemsToExercises(items)
+        exercises: this.convertItemsToExercises(items),
+        caseStudies: theoryData?.caseStudies || exercisesData?.caseStudies
       };
 
       return lesson;
@@ -156,6 +159,24 @@ export const localCourseService = {
               points: 2
             }
           ]
+        } as any;
+      }
+      
+      // Drag and Drop
+      if (item.type === 'drag-and-drop') {
+        return {
+          ...item,
+          id: id,
+          title: item.title || 'Drag and Drop'
+        } as any;
+      }
+
+      // Graph Analysis
+      if (item.type === 'graph-analysis') {
+        return {
+          ...item,
+          id: id,
+          title: item.title || 'Graph Analysis'
         } as any;
       }
 

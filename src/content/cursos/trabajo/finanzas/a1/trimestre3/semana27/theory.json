@@ -1,29 +1,35 @@
 {
-  "title": "Monedas y Tipos de Cambio",
+  "title": "Global Money: Multi-currency Wallets",
   "sections": [
     {
-      "id": "vocab-currencies",
-      "title": "Vocabulario: Monedas del Mundo",
-      "content": "Repaso de las monedas y vocabulario de cambio.\n\n- **Currency**: Moneda (ej. Euro, Dollar).\n- **Exchange Rate**: Tipo de cambio.\n- **Bureau de Change / Currency Exchange**: Casa de cambio.\n- **Commission**: Comisión.\n- **Fee**: Tasa / Cargo.\n- **Local Currency**: Moneda local.\n- **Foreign Currency**: Moneda extranjera."
+      "id": "digital-exchange",
+      "title": "The Digital Wallet",
+      "content": "Modern apps allow you to hold many currencies at once. \n\n- **Multi-currency Wallet**: One app with different 'pots' for Euro, Dollar, and Pound.\n- **Real-time Rate**: The exact value of a currency at this second.\n- **Conversion**: Changing one currency into another inside the app.\n- **Transparent Fees**: Knowing exactly how much the app charges (no hidden costs)."
     },
     {
-      "id": "grammar-how-much",
-      "title": "Gramática: How much / How many",
-      "content": "Para preguntar por cantidades de dinero.\n\n- **How much** is the commission? (¿Cuánto es la comisión?).\n- **How much** money do you need? (¿Cuánto dinero necesitas?).\n- *Money* es incontable, usamos *How much*.\n\n- **How many** dollars do you want? (¿Cuántos dólares quieres?).\n- *Dollars, Euros, Pounds* son contables, usamos *How many*."
+      "id": "conversion-flow",
+      "title": "Digital Conversion Flow",
+      "content": "```mermaid\ngraph LR\n    A[Select EUR Pot] --> B[Click Convert]\n    B --> C[Choose USD]\n    C --> D[Check Live Rate]\n    D --> E[Enter Amount]\n    E --> F[Confirm & Swap]\n```"
     },
     {
-      "id": "phrases-exchange",
-      "title": "Frases para Cambiar Dinero",
-      "content": "- *I want to change euros into dollars.* (Quiero cambiar euros a dólares).\n- *What is the exchange rate today?* (¿Cuál es el tipo de cambio hoy?).\n- *Is there a commission?* (¿Hay comisión?)"
+      "id": "grammar-quantities",
+      "title": "Grammar: How much vs. How many",
+      "content": "We use different questions for different types of money.\n\n- **How much**: Use for 'Money' (uncountable) or prices.\n  - *How much money is in your wallet?*\n  - *How much is the fee?*\n- **How many**: Use for specific currencies or coins (countable).\n  - *How many Dollars do you want?*\n  - *How many Euros do I have left?*\n\n**Rule**: Money = much. Dollars/Euros/Pounds = many."
+    },
+    {
+      "id": "travel-fintech",
+      "title": "Spending Abroad",
+      "content": "When you travel, your app handles the exchange automatically.\n\n- **Base Currency**: Your main currency (e.g., Euro).\n- **Target Currency**: The currency you need (e.g., Yen).\n- **Markup**: An extra cost some banks add to the rate (try to avoid this!)."
     }
   ],
   "objectives": [
-    "Aprender a preguntar por el tipo de cambio",
-    "Diferenciar entre How much y How many",
-    "Conocer vocabulario básico de viajes y cambio de moneda"
+    "Understand how to manage multiple currencies in a digital app",
+    "Differentiate between How much and How many for financial quantities",
+    "Identify the steps for instant currency conversion"
   ],
   "keyTerms": [
-    { "term": "Rate", "definition": "The speed or frequency with which something happens, or the value of one currency against another." },
-    { "term": "Fee", "definition": "An amount of money paid for a particular piece of work or for a particular right or service." }
+    { "term": "FX", "definition": "Foreign Exchange (changing currencies)." },
+    { "term": "Pot / Pocket", "definition": "A sub-account for a specific currency." },
+    { "term": "Transparent", "definition": "Clear and easy to see (no secrets)." }
   ]
 }

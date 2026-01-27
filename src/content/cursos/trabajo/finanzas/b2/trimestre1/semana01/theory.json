@@ -1,5 +1,5 @@
 {
-  "title": "Investment Banking and Risk Management",
+  "title": "Investment Banking, Risk Management and Modern Trends",
   "sections": [
     {
       "id": "investment-banking",
@@ -9,7 +9,17 @@
     {
       "id": "ipo-process",
       "title": "The IPO Process",
-      "content": "Going public is a major milestone for any company. The process typically follows these stages:\n\n1. **Selection of an Investment Bank**: The company chooses one or more 'underwriters'.\n2. **Due Diligence and Filing**: Preparing the registration statement (prospectus) for regulators (like the SEC).\n3. **Pricing**: Determining the initial price per share based on market demand.\n4. **The Roadshow**: Presenting the investment opportunity to potential institutional investors.\n5. **Stabilization**: The underwriter may buy shares in the open market to support the price after the IPO."
+      "content": "Going public is a major milestone for any company. The process typically follows these stages:\n\n1. **Selection of an Investment Bank**: The company chooses one or more 'underwriters'.\n2. **Due Diligence and Filing**: Preparing the registration statement (prospectus) for regulators (like the SEC).\n3. **Pricing**: Determining the initial price per share based on market demand.\n4. **The Roadshow**: Presenting the investment opportunity to potential institutional investors.\n5. **Stabilization**: The underwriter may buy shares in the open market to support the price after the IPO.\n\n### IPO Workflow Visualized\n```mermaid\ngraph TD\n    A[Company Decision] --> B[Select Underwriters]\n    B --> C[Due Diligence & Filing]\n    C --> D[The Roadshow]\n    D --> E[Pricing & Allocation]\n    E --> F[Trading Starts]\n    F --> G[Stabilization Period]\n```"
+    },
+    {
+      "id": "fintech-digital-banking",
+      "title": "Modern Trends: Fintech and Digital Banking",
+      "content": "The financial sector is undergoing a massive digital transformation. Fintech (Financial Technology) is at the heart of this change.\n\n### Key Fintech Disruptions\n- **Neobanks**: Digital-only banks with no physical branches (e.g., Revolut, Monzo).\n- **Blockchain & Crypto**: Decentralized ledgers that allow for secure, transparent transactions without traditional intermediaries.\n- **AI & Algorithmic Trading**: Using sophisticated software to execute trades at speeds and volumes impossible for humans.\n- **Open Banking**: A system that provides third-party financial service providers open access to consumer banking, transaction, and other financial data from banks."
+    },
+    {
+      "id": "esg-sustainable-finance",
+      "title": "ESG and Sustainable Finance",
+      "content": "Investors are increasingly looking beyond financial returns to consider **Environmental, Social, and Governance (ESG)** criteria.\n\n### ESG Criteria\n- **Environmental**: Climate change, carbon emissions, waste management.\n- **Social**: Labor standards, diversity and inclusion, data privacy.\n- **Governance**: Board composition, executive pay, ethics and transparency.\n\n### Impact on Investment Banking\nInvestment banks now offer specialized services such as **Green Bonds** (debt instruments to finance environmental projects) and ESG-focused advisory for M&A."
     },
     {
       "id": "risk-analysis",

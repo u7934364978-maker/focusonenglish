@@ -1356,12 +1356,17 @@ export interface GeneratedExercise {
 
 export interface Question {
   id: string;
-  type: 'multiple-choice' | 'true-false' | 'fill-blank' | 'short-answer' | 'essay' | 'stress-identification' | 'minimal-pairs' | 'writing' | 'word-formation';
+  type: 'multiple-choice' | 'true-false' | 'fill-blank' | 'short-answer' | 'essay' | 'stress-identification' | 'minimal-pairs' | 'writing' | 'word-formation' | 'drag-and-drop' | 'graph-analysis';
   question: string;
   options?: string[];
   correctAnswer: string | string[];
   acceptableAnswers?: string[];
   explanation?: string;
+  adaptiveFeedback?: {
+    hints: string[];
+    remediationText: string;
+    commonErrors?: { [errorKey: string]: string };
+  };
   points: number;
   rubric?: {
     content: number;
@@ -1919,7 +1924,38 @@ export type Exercise =
   | GappedTextExercise
   | MultipleMatchingExercise
   | IntegratedReadingWritingExercise
-  | ExtendedGapFillExercise;
+  | ExtendedGapFillExercise
+  | DragAndDropExercise
+  | GraphAnalysisExercise;
+
+export interface CaseStudy {
+  id: string;
+  title: string;
+  scenario: string;
+  data?: any;
+  questions: Question[];
+}
+
+export interface DragAndDropExercise {
+  id: string;
+  type: 'drag-and-drop';
+  title: string;
+  instructions: string;
+  items: { id: string; text: string }[];
+  categories: { id: string; title: string }[];
+  correctMapping: { [itemId: string]: string };
+  explanation?: string;
+}
+
+export interface GraphAnalysisExercise {
+  id: string;
+  type: 'graph-analysis';
+  title: string;
+  instructions: string;
+  graphUrl: string;
+  graphData?: any;
+  questions: Question[];
+}
 
 export interface Lesson {
   id: string;
@@ -1928,8 +1964,10 @@ export interface Lesson {
   duration: number;
   objectives: string[];
   videoUrl?: string;
+  audioUrl?: string;
   theoryContent?: string;
   exercises: Exercise[];
+  caseStudies?: CaseStudy[];
   completed?: boolean;
   score?: number;
 }

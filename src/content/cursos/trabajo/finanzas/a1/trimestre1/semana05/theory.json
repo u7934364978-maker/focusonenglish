@@ -1,24 +1,30 @@
 {
-  "title": "Días de la Semana y Horarios Bancarios",
+  "title": "Days of the Week and Banking Hours",
   "sections": [
     {
       "id": "vocab",
-      "title": "Días y Tiempo",
-      "content": "Aprenderemos cuándo abre el banco y los días de la semana.\n\n- **Monday**: Lunes\n- **Tuesday**: Martes\n- **Wednesday**: Miércoles\n- **Thursday**: Jueves\n- **Friday**: Viernes\n- **Saturday**: Sábado\n- **Sunday**: Domingo\n- **Opening hours**: Horario de apertura\n- **Week**: Semana\n- **Weekend**: Fin de semana"
+      "title": "Days and Time",
+      "content": "When is the bank open? Let's learn the days of the week.\n\n- **Monday**: Lunes\n- **Tuesday**: Martes\n- **Wednesday**: Miércoles\n- **Thursday**: Jueves\n- **Friday**: Viernes\n- **Saturday**: Sábado\n- **Sunday**: Domingo\n- **Opening hours**: Horario de apertura\n- **Weekend**: Fin de semana"
+    },
+    {
+      "id": "modern-hours",
+      "title": "Modern Banking: 24/7 Support",
+      "content": "A physical bank branch closes, but a Neobank is always open.\n\n- **24/7**: 24 horas, 7 días a la semana\n- **Always open**: Siempre abierto\n- **Chatbot**: Chat de ayuda (IA)\n- **Support**: Soporte / Ayuda\n\n### Comparison\n```mermaid\ngraph TD\n    A[Traditional Branch] --> B[9:00 AM - 2:00 PM]\n    C[Digital App] --> D[Always Open 24/7]\n```"
     },
     {
       "id": "grammar",
-      "title": "Present Simple para Horarios",
-      "content": "Usamos el Presente Simple para hablar de cosas que siempre son iguales, como los horarios.\n\n- The bank **opens** at 9:00 AM. (El banco abre a las 9:00)\n- We **close** on Sundays. (Cerramos los domingos)\n- It **works** every day. (Funciona todos los días)\n\n**Estructura (He/She/It + verb-s):**\n- The ATM **works** (It works).\n- The manager **opens** (He/She opens)."
+      "title": "Present Simple for Schedules",
+      "content": "We use the Present Simple for things that are always true, like bank hours.\n\n- The bank **opens** at 9:00 AM.\n- We **close** on Sundays.\n- The app **works** 24/7.\n\n**Structure (He/She/It + verb-s):**\n- The ATM **works** (It works).\n- The chatbot **helps** (It helps)."
     }
   ],
   "objectives": [
-    "Nombrar los días de la semana en inglés",
-    "Expresar el horario de apertura y cierre del banco",
-    "Utilizar el presente simple para describir rutinas bancarias básicas"
+    "Name the days of the week in English",
+    "Describe bank opening and closing times",
+    "Understand the '24/7' concept in modern banking",
+    "Use the present simple for banking schedules"
   ],
   "keyTerms": [
-    { "term": "Working day", "definition": "A day on which most people work, usually Monday to Friday." },
-    { "term": "Holiday", "definition": "A day of festivity or recreation when no work is done." }
+    { "term": "Working day", "definition": "A day when the bank is open (Monday to Friday)." },
+    { "term": "Chatbot", "definition": "An AI program that helps you at any time." }
   ]
 }

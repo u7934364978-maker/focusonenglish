@@ -1,48 +1,65 @@
 {
-  "title": "Ejercicios: Información y Preguntas",
-  "exercises": [
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 1,
+  "weekId": "semana03",
+  "title": "Exercises: Personal Information and Identity",
+  "items": [
     {
-      "id": "ex1",
-      "type": "multiple-choice",
-      "question": "What is 'Surname'?",
+      "id": "fin-a1-w3-q1",
+      "type": "multipleChoice",
+      "prompt": "What is 'Surname'?",
       "options": [
         "First name",
         "Last name",
-        "Date of birth",
+        "Address",
+        "Email"
+      ],
+      "answerIndex": 1,
+      "explanation": "Surname is the same as last name or family name."
+    },
+    {
+      "id": "fin-a1-w3-q2",
+      "type": "multipleChoice",
+      "prompt": "Which of these is Biometrics?",
+      "options": [
+        "Signature",
+        "Address",
+        "Face ID",
         "Phone number"
       ],
-      "correctAnswer": 1,
-      "explanation": "Surname is the same as family name or last name."
+      "answerIndex": 2,
+      "explanation": "Face ID uses your face (biometrics) to identify you."
     },
     {
-      "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "________ (you) the new manager? Yes, I ________.",
-      "answer": "Are / am",
-      "explanation": "The question starts with 'Are you' and the short answer is 'I am'."
+      "id": "fin-a1-w3-grammar-1",
+      "type": "multipleChoice",
+      "prompt": "Complete: '___ Face ID secure?' 'Yes, it ___.'",
+      "options": [
+        "Am / am",
+        "Is / is",
+        "Are / are",
+        "Be / be"
+      ],
+      "answerIndex": 1,
+      "explanation": "Face ID is singular, so we use 'Is...?' and 'Yes, it is'."
     },
     {
-      "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the field with the example:",
+      "id": "fin-a1-w3-matching-1",
+      "type": "matching",
+      "prompt": "Match the information with the example.",
       "pairs": [
-        { "term": "Date of Birth", "definition": "12/05/1990" },
-        { "term": "Email", "definition": "john@bank.com" },
-        { "term": "Signature", "definition": "(X) ________" }
+        {"term": "Email", "definition": "john@bank.com"},
+        {"term": "Biometrics", "definition": "Fingerprint"},
+        {"term": "Date of Birth", "definition": "01/01/2000"}
       ]
     },
     {
-      "id": "ex4",
-      "type": "multiple-choice",
-      "question": "Choose the correct question: 'Is he a customer?'",
-      "options": [
-        "Yes, he are.",
-        "Yes, he is.",
-        "Yes, he am.",
-        "Yes, is he."
-      ],
-      "correctAnswer": 1,
-      "explanation": "The correct short answer for 'Is he...?' is 'Yes, he is'."
+      "id": "fin-a1-w3-writing-1",
+      "type": "writingTask",
+      "prompt": "Ask a simple question. Example: 'Are you the manager?'",
+      "modelAnswer": "Are you the manager?",
+      "keywords": ["Are", "you"]
     }
   ]
 }

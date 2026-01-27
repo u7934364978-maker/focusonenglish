@@ -1,5 +1,7 @@
 {
   "title": "Mergers & Acquisitions: Strategic Rationale",
+  "audioUrl": "https://storage.googleapis.com/focus-on-english-audio/finanzas/c1/semana25-theory.mp3",
+  "videoUrl": "https://www.youtube.com/watch?v=Xv8B-F6X3vI",
   "sections": [
     {
       "id": "ma-rationale",
@@ -26,5 +28,31 @@
     { "term": "Goodwill", "definition": "The premium paid over the fair market value of a company's identifiable net assets." },
     { "term": "Hostile Takeover", "definition": "The acquisition of one company by another that is accomplished by going directly to the company's shareholders or fighting to replace management." },
     { "term": "LBO (Leveraged Buyout)", "definition": "The acquisition of another company using a significant amount of borrowed money to meet the cost of acquisition." }
+  ],
+  "caseStudies": [
+    {
+      "id": "cs-ma-1",
+      "title": "The Tech-Giant Merger Simulation",
+      "scenario": "A large software corporation (Acquirer) is considering purchasing a specialized AI startup (Target) for $500M. The Target has $50M in annual revenue but is not yet profitable. The Acquirer expects to save $30M annually in R&D costs by integrating the Target's team.",
+      "questions": [
+        {
+          "id": "cs-q1",
+          "type": "short-answer",
+          "question": "Identify the primary type of operating synergy mentioned in this scenario.",
+          "correctAnswer": "Cost synergy / R&D savings",
+          "explanation": "The $30M in annual R&D cost savings is a direct operating synergy through cost reduction.",
+          "points": 5
+        },
+        {
+          "id": "cs-q2",
+          "type": "multiple-choice",
+          "question": "If the Acquirer's EPS is expected to rise immediately after the deal, the transaction is:",
+          "options": ["Dilutive", "Accretive", "Neutral", "Leveraged"],
+          "correctAnswer": "Accretive",
+          "explanation": "An immediate increase in EPS signifies an accretive deal.",
+          "points": 5
+        }
+      ]
+    }
   ]
 }

@@ -1,29 +1,35 @@
 {
-  "title": "De Compras: Precios y Pagos",
+  "title": "Digital Shopping: E-commerce & Checkout",
   "sections": [
     {
-      "id": "vocab-shopping",
-      "title": "Vocabulario: En la Tienda",
-      "content": "Palabras útiles para comprar cosas.\n\n- **Price**: Precio.\n- **Cost**: Coste / Costar.\n- **Discount**: Descuento.\n- **Sale**: Rebajas.\n- **Expensive**: Caro.\n- **Cheap**: Barato.\n- **Free**: Gratis.\n- **Total**: Total."
+      "id": "ecommerce-basics",
+      "title": "Shopping Online",
+      "content": "Most shopping now happens on websites and apps.\n\n- **Shopping Cart**: The digital place for your items before you buy.\n- **Checkout**: The final step to pay for your items.\n- **Promo Code**: A secret word (like SAVE10) for a digital discount.\n- **BNPL**: 'Buy Now, Pay Later' (splitting the cost into small parts)."
     },
     {
-      "id": "grammar-this-that",
-      "title": "Gramática: Demostrativos (This, That, These, Those)",
-      "content": "Usamos estas palabras para señalar lo que queremos comprar.\n\n- **This** book: Este libro (aquí cerca, singular).\n- **That** shirt: Esa camisa (allí lejos, singular).\n- **These** shoes: Estos zapatos (aquí cerca, plural).\n- **Those** pants: Esos pantalones (allí lejos, plural).\n\n**Resumen:**\n- Cerca: **This** (sing.) / **These** (plu.).\n- Lejos: **That** (sing.) / **Those** (plu.)."
+      "id": "checkout-flow",
+      "title": "Online Checkout Flow",
+      "content": "```mermaid\ngraph LR\n    A[View Cart] --> B[Enter Promo Code]\n    B --> C[Select Shipping]\n    C --> D{Choose Payment}\n    D --> E[Digital Wallet]\n    D --> F[BNPL / Card]\n    E --> G[Order Confirmed!]\n    F --> G\n```"
     },
     {
-      "id": "shopping-questions",
-      "title": "Preguntas de Compra",
-      "content": "- *How much is this?* (¿Cuánto cuesta esto?).\n- *How much are these?* (¿Cuánto cuestan estos?).\n- *Is there a discount?* (¿Hay un descuento?).\n- *It is too expensive.* (Es demasiado caro)."
+      "id": "grammar-demonstratives",
+      "title": "Grammar: Pointing to Digital Items",
+      "content": "Use **Demonstratives** to talk about items on your screen or in a shop.\n\n- **This / These** (Near - On your screen right now):\n  - *I want to buy **this** laptop.* (Singular)\n  - *Look at **these** reviews.* (Plural)\n\n- **That / Those** (Far - In a different tab or shop window):\n  - *I like **that** phone in the other store.* (Singular)\n  - *Check **those** items in your saved list.* (Plural)"
+    },
+    {
+      "id": "spending-tips",
+      "title": "Smart Spending Vocabulary",
+      "content": "- **Affordable**: A good price that you can pay.\n- **Bargain**: A very cheap and good product.\n- **Overpriced**: Too expensive (not worth the money).\n- **Wishlist**: A list of things you want to buy later."
     }
   ],
   "objectives": [
-    "Aprender vocabulario básico de compras",
-    "Usar demostrativos correctamente para señalar objetos",
-    "Preguntar precios en plural y singular"
+    "Navigate the steps of an online checkout process",
+    "Use demonstratives (this, that, these, those) in digital contexts",
+    "Identify modern payment options like BNPL and digital wallets"
   ],
   "keyTerms": [
-    { "term": "Expensive", "definition": "Costing a lot of money." },
-    { "term": "Cheap", "definition": "Costing little money or less than is usual or expected." }
+    { "term": "E-commerce", "definition": "Buying and selling things on the internet." },
+    { "term": "Cart", "definition": "A virtual basket for your shopping items." },
+    { "term": "BNPL", "definition": "Buy Now, Pay Later (installments)." }
   ]
 }

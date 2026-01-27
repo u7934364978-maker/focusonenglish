@@ -1,29 +1,34 @@
 {
-  "title": "Saludos y Cortesía en la Oficina",
+  "title": "Greetings and Politeness in the Modern Office",
   "sections": [
     {
       "id": "vocab",
-      "title": "Saludos y Despedidas",
-      "content": "Cómo saludar a colegas y clientes de forma profesional.\n\n- **Hello / Hi**: Hola\n- **Good morning**: Buenos días\n- **Good afternoon**: Buenas tardes\n- **Good evening**: Buenas noches (al llegar)\n- **Goodbye / Bye**: Adiós\n- **See you later**: Hasta luego\n- **Have a nice day**: Tenga un buen día"
+      "title": "Greetings and Farewells",
+      "content": "How to say hello and goodbye to colleagues and clients.\n\n- **Hello / Hi**: Hola\n- **Good morning**: Buenos días\n- **Good afternoon**: Buenas tardes\n- **Good evening**: Buenas noches (greeting)\n- **Goodbye / Bye**: Adiós\n- **See you later**: Hasta luego\n- **Have a nice day**: Tenga un buen día"
     },
     {
       "id": "courtesy",
-      "title": "Expresiones de Cortesía",
-      "content": "Palabras 'mágicas' para el trabajo.\n\n- **Please**: Por favor\n- **Thank you / Thanks**: Gracias\n- **You're welcome**: De nada\n- **Excuse me**: Disculpe / Con permiso\n- **I'm sorry**: Lo siento / Perdón"
+      "title": "Courtesy Expressions",
+      "content": "Professional 'magic words'.\n\n- **Please**: Por favor\n- **Thank you / Thanks**: Gracias\n- **You're welcome**: De nada\n- **Excuse me**: Disculpe / Con permiso\n- **I'm sorry**: Lo siento / Perdón"
+    },
+    {
+      "id": "modern-office",
+      "title": "Modern Tools: AI Assistant",
+      "content": "In the modern office, we talk to **AI Assistants** too.\n\n- **AI Assistant**: Asistente de IA (e.g., ChatGPT, Copilot)\n- **Voice command**: Comando de voz\n- **Helpful**: Servicial\n- **Chat**: Chatear / Conversar\n\n### Interaction Example\n```mermaid\ngraph LR\n    A[Banker] --> B{AI Assistant}\n    B --> C[Email Help]\n    B --> D[Data Info]\n```"
     },
     {
       "id": "grammar",
-      "title": "Repaso: El Verbo 'To Be' en Acción",
-      "content": "Usamos todo lo aprendido para presentarnos.\n\n- **Hello, I am** Mark. **Are you** the manager?\n- **Yes, I am**. **Is it** your first day?\n- **No, it isn't**. **My** office is here."
+      "title": "Grammar: Verbo 'To Be' in Context",
+      "content": "Using 'to be' for introductions.\n\n- **Hello, I am** Mark. **Is the AI** helpful?\n- **Yes, it is**. **Are you** new here?\n- **No, I am not**. **It is** my second month."
     }
   ],
   "objectives": [
-    "Utilizar saludos apropiados según el momento del día",
-    "Demostrar cortesía básica en interacciones de oficina",
-    "Presentarse y verificar la identidad de otros usando 'to be'"
+    "Use appropriate greetings for the time of day",
+    "Show basic courtesy in office interactions",
+    "Understand the role of AI assistants in a modern office"
   ],
   "keyTerms": [
-    { "term": "Polite", "definition": "Having or showing behavior that is respectful and considerate of other people." },
-    { "term": "Colleague", "definition": "A person with whom one works in a profession or business." }
+    { "term": "AI Assistant", "definition": "A computer program that helps you with tasks." },
+    { "term": "Polite", "definition": "Respectful and professional behavior." }
   ]
 }

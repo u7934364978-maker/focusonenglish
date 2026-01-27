@@ -1,24 +1,30 @@
 {
-  "title": "Examen Final del Segundo Trimestre",
+  "title": "Trimester 2 Final Review & Modern Banking",
   "sections": [
     {
-      "id": "intro",
-      "title": "¡Enhorabuena!",
-      "content": "Has llegado al final del segundo trimestre. En este examen repasaremos todo lo aprendido desde la semana 13 hasta la 23.\n\nTemas clave:\n- Precios y compras de oficina.\n- Métodos de pago y seguridad.\n- Localización y preposiciones.\n- Banca digital.\n- Atención al cliente y resolución de problemas."
+      "id": "trimester-summary",
+      "title": "Digital Banking Journey",
+      "content": "This trimester, you moved from traditional banking to the digital world. You can now manage your finances using modern apps and tools.\n\n- **Digital UI**: Navigating apps (top, bottom, buttons).\n- **Fintech Adjectives**: Describing services (user-friendly, secure, encrypted).\n- **Digital Payments**: Transfers, subscriptions, and auto-pay.\n- **Security**: 2FA, strong passwords, and virtual cards.\n- **Data**: Reading statements and spending charts."
     },
     {
-      "id": "tips",
-      "title": "Consejos para el Examen",
-      "content": "1. Lee bien cada pregunta.\n2. Fíjate si la respuesta debe ser en singular o plural.\n3. Recuerda usar 'Could' para peticiones amables.\n4. Revisa bien los demostrativos (this/that/these/those)."
+      "id": "review-diagram",
+      "title": "Modern Finance Ecosystem",
+      "content": "```mermaid\ngraph TD\n    A[Digital App] --> B[Payments]\n    A --> C[Security]\n    A --> D[Support]\n    B --> B1[Instant Transfers]\n    B --> B2[Subscriptions]\n    C --> C1[Biometrics/2FA]\n    C --> C2[Virtual Cards]\n    D --> D1[Chatbots]\n    D --> D2[Help Center]\n    E[Data] --> E1[Statements]\n    E --> E2[Spending Charts]\n    A --> E\n```"
+    },
+    {
+      "id": "final-prep",
+      "title": "Preparing for the Capstone",
+      "content": "Review these key questions for your final evaluation:\n1. **How much is the balance?** (Asking for totals)\n2. **Is the transfer instant?** (Checking speed)\n3. **Is my password strong?** (Security check)\n4. **Could I have a refund?** (Polite requests)\n5. **Where is the download button?** (UI navigation)"
     }
   ],
   "objectives": [
-    "Demostrar los conocimientos adquiridos durante el trimestre",
-    "Consolidar el vocabulario y gramática de nivel A1 Finance",
-    "Completar el segundo trimestre con éxito"
+    "Summarize all digital banking concepts from the second trimester",
+    "Identify modern financial tools and security practices",
+    "Prepare for the final capstone project and trimester exam"
   ],
   "keyTerms": [
-    { "term": "Final Exam", "definition": "A comprehensive test at the end of a course." },
-    { "term": "Success", "definition": "The accomplishment of an aim or purpose." }
+    { "term": "Ecosystem", "definition": "A complex network or interconnected system." },
+    { "term": "Capstone", "definition": "A final project that brings together everything learned." },
+    { "term": "Digital-first", "definition": "Prioritizing digital channels over traditional physical ones." }
   ]
 }

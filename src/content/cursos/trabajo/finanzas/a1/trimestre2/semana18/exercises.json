@@ -3,383 +3,129 @@
   "level": "A1",
   "trimester": 2,
   "weekId": "semana18",
-  "title": "Compras y Pagos",
+  "title": "Digital Support & Transaction Status",
   "items": [
     {
       "id": "fin-a1-w18-1",
       "type": "multipleChoice",
-      "prompt": "I want to ______ these shoes.",
-      "options": ["sell", "buy", "pay"],
+      "prompt": "An AI that answers your questions in an app is a ______.",
+      "options": ["Banker", "Chatbot", "ATM"],
       "answerIndex": 1,
-      "explanation": "Comprar se dice 'buy'."
+      "explanation": "Un Chatbot es un programa de IA que responde preguntas."
     },
     {
       "id": "fin-a1-w18-2",
       "type": "multipleChoice",
-      "prompt": "Do you pay in ______ or by card?",
-      "options": ["coin", "paper", "cash"],
-      "answerIndex": 2,
-      "explanation": "Pagar en efectivo se dice 'pay in cash'."
+      "prompt": "If a payment is 'Pending', it means it is ______.",
+      "options": ["Finished", "Waiting", "Deleted"],
+      "answerIndex": 1,
+      "explanation": "Pending significa que está en espera, no ha terminado."
     },
     {
       "id": "fin-a1-w18-3",
-      "type": "multipleChoice",
-      "prompt": "Here is your ______, thank you for buying.",
-      "options": ["receipt", "change", "price"],
-      "answerIndex": 0,
-      "explanation": "El recibo o ticket de compra es el 'receipt'."
+      "type": "fillBlanks",
+      "prompt": "I need help. I want to talk to [blank] chat.",
+      "answers": ["live"],
+      "explanation": "'Live chat' es el chat en vivo con una persona real."
     },
     {
       "id": "fin-a1-w18-4",
       "type": "multipleChoice",
-      "prompt": "I don't have enough money. Can I pay ______ card?",
-      "options": ["with", "by", "in"],
-      "answerIndex": 1,
-      "explanation": "Pagar con tarjeta se dice 'pay by card'."
+      "prompt": "A transaction that finished correctly is ______.",
+      "options": ["Failed", "Declined", "Completed"],
+      "answerIndex": 2,
+      "explanation": "'Completed' significa que la transacción terminó con éxito."
     },
     {
       "id": "fin-a1-w18-5",
-      "type": "multipleChoice",
-      "prompt": "How much does it ______?",
-      "options": ["pay", "cost", "buy"],
-      "answerIndex": 1,
-      "explanation": "¿Cuánto cuesta? -> How much does it cost?"
+      "type": "matching",
+      "prompt": "Match the status with its meaning:",
+      "pairs": [
+        { "left": "Pending", "right": "In progress / Waiting" },
+        { "left": "Completed", "right": "Success / Finished" },
+        { "left": "Failed", "right": "Error / Not accepted" },
+        { "left": "Refunded", "right": "Money sent back" }
+      ],
+      "explanation": "Relaciona los estados de transacción con sus significados."
     },
     {
       "id": "fin-a1-w18-6",
       "type": "fillBlanks",
-      "prompt": "I [blank] for the coffee with coins.",
-      "answers": ["pay"],
-      "explanation": "Yo pago (I pay) el café con monedas."
+      "prompt": "My payment [blank]. I need to call support.",
+      "answers": ["failed", "declined"],
+      "explanation": "Si el pago falla (failed/declined), necesitas ayuda."
     },
     {
       "id": "fin-a1-w18-7",
-      "type": "fillBlanks",
-      "prompt": "He [blank] by credit card.",
-      "answers": ["pays"],
-      "explanation": "Él paga (he pays) con tarjeta (tercera persona)."
+      "type": "reorder",
+      "prompt": "Reorder the support request:",
+      "sentence": "I want to talk to an agent",
+      "explanation": "Quiero hablar con un agente."
     },
     {
       "id": "fin-a1-w18-8",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "I pay in cash",
-      "explanation": "Pago en efectivo."
+      "type": "multipleChoice",
+      "prompt": "Where can I find common questions and answers?",
+      "options": ["In the bin", "In the Help Center", "In the camera"],
+      "answerIndex": 1,
+      "explanation": "El 'Help Center' contiene las preguntas frecuentes."
     },
     {
       "id": "fin-a1-w18-9",
-      "type": "multipleChoice",
-      "prompt": "The total is $15. I give $20. My ______ is $5.",
-      "options": ["receipt", "change", "cost"],
-      "answerIndex": 1,
-      "explanation": "El cambio que te devuelven se llama 'change'."
+      "type": "writing",
+      "prompt": "Write a message to the chatbot asking for help.",
+      "validation": "I need help",
+      "explanation": "Una forma sencilla es 'I need help'."
     },
     {
       "id": "fin-a1-w18-10",
-      "type": "multipleChoice",
-      "prompt": "They ______ food at the supermarket.",
-      "options": ["buy", "buys", "buying"],
+      "type": "roleplay",
+      "prompt": "The chatbot asks: 'How can I help you today?'. Choose the best response for a blocked card.",
+      "scenario": "Chatbot: Hello! I am your virtual assistant. How can I help you?\nUser: ______",
+      "options": [
+        "My card is blocked.",
+        "The weather is nice.",
+        "I like the app."
+      ],
       "answerIndex": 0,
-      "explanation": "Ellos compran (they buy)."
+      "explanation": "Si tu tarjeta está bloqueada, debes informarlo: 'My card is blocked'."
     },
     {
       "id": "fin-a1-w18-11",
-      "type": "fillBlanks",
-      "prompt": "Can I have a [blank], please?",
-      "answers": ["receipt"],
-      "explanation": "¿Me da el recibo, por favor?"
+      "type": "multipleChoice",
+      "prompt": "If the bank sends the money back, the transaction is ______.",
+      "options": ["Refunded", "Pending", "Cost"],
+      "answerIndex": 0,
+      "explanation": "'Refunded' significa que el dinero ha sido devuelto."
     },
     {
       "id": "fin-a1-w18-12",
-      "type": "multipleChoice",
-      "prompt": "Wait! Don't forget your ______.",
-      "options": ["change", "buy", "pay"],
-      "answerIndex": 0,
-      "explanation": "¡No olvides tu cambio!"
+      "type": "fillBlanks",
+      "prompt": "Open a [blank] to report the problem.",
+      "answers": ["ticket", "case"],
+      "explanation": "En soporte técnico, se abre un 'ticket' o 'case'."
     },
     {
       "id": "fin-a1-w18-13",
       "type": "reorder",
-      "prompt": "Reorder the question:",
-      "sentence": "Do you have the receipt?",
-      "explanation": "¿Tienes el recibo?"
+      "prompt": "Reorder the question to the bot:",
+      "sentence": "Where is my refund?",
+      "explanation": "¿Dónde está mi reembolso?"
     },
     {
       "id": "fin-a1-w18-14",
       "type": "multipleChoice",
-      "prompt": "This computer ______ 800 euros.",
-      "options": ["cost", "costs", "paying"],
+      "prompt": "A virtual assistant is usually ______.",
+      "options": ["A person", "A bot", "A building"],
       "answerIndex": 1,
-      "explanation": "Tercera persona: 'it costs'."
+      "explanation": "Un asistente virtual suele ser un 'bot'."
     },
     {
       "id": "fin-a1-w18-15",
       "type": "fillBlanks",
-      "prompt": "I need to [blank] a new phone.",
-      "answers": ["buy"],
-      "explanation": "Necesito comprar (buy) un móvil nuevo."
-    },
-    {
-      "id": "fin-a1-w18-16",
-      "type": "multipleChoice",
-      "prompt": "I always ______ my bills on time.",
-      "options": ["pay", "pays", "buying"],
-      "answerIndex": 0,
-      "explanation": "Yo siempre pago (I pay) mis facturas."
-    },
-    {
-      "id": "fin-a1-w18-17",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "She buys a new bag",
-      "explanation": "Ella compra un bolso nuevo."
-    },
-    {
-      "id": "fin-a1-w18-18",
-      "type": "multipleChoice",
-      "prompt": "Where can I ______ some bread?",
-      "options": ["pay", "buy", "cost"],
-      "answerIndex": 1,
-      "explanation": "¿Dónde puedo comprar pan?"
-    },
-    {
-      "id": "fin-a1-w18-19",
-      "type": "fillBlanks",
-      "prompt": "Is this my [blank]?",
-      "answers": ["change"],
-      "explanation": "¿Es este mi cambio?"
-    },
-    {
-      "id": "fin-a1-w18-20",
-      "type": "multipleChoice",
-      "prompt": "We ______ for the clothes now.",
-      "options": ["pay", "pays", "paying"],
-      "answerIndex": 0,
-      "explanation": "Nosotros pagamos (we pay)."
-    },
-    {
-      "id": "fin-a1-w18-21",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "They pay by card",
-      "explanation": "Ellos pagan con tarjeta."
-    },
-    {
-      "id": "fin-a1-w18-22",
-      "type": "fillBlanks",
-      "prompt": "How [blank] is it?",
-      "answers": ["much"],
-      "explanation": "¿Cuánto cuesta?"
-    },
-    {
-      "id": "fin-a1-w18-23",
-      "type": "multipleChoice",
-      "prompt": "I need the ______ to return this shirt.",
-      "options": ["change", "cash", "receipt"],
-      "answerIndex": 2,
-      "explanation": "Necesitas el recibo (receipt) para devolver algo."
-    },
-    {
-      "id": "fin-a1-w18-24",
-      "type": "fillBlanks",
-      "prompt": "Cash or [blank]?",
-      "answers": ["card"],
-      "explanation": "¿Efectivo o tarjeta?"
-    },
-    {
-      "id": "fin-a1-w18-25",
-      "type": "multipleChoice",
-      "prompt": "He ______ many books every month.",
-      "options": ["buy", "buys", "buying"],
-      "answerIndex": 1,
-      "explanation": "He + buys (tercera persona)."
-    },
-    {
-      "id": "fin-a1-w18-26",
-      "type": "reorder",
-      "prompt": "Reorder the question:",
-      "sentence": "How do you pay?",
-      "explanation": "¿Cómo pagas?"
-    },
-    {
-      "id": "fin-a1-w18-27",
-      "type": "multipleChoice",
-      "prompt": "A ______ card is for paying from your bank account.",
-      "options": ["debit", "paper", "change"],
-      "answerIndex": 0,
-      "explanation": "Una tarjeta de débito (debit card)."
-    },
-    {
-      "id": "fin-a1-w18-28",
-      "type": "fillBlanks",
-      "prompt": "I [blank] not have cash.",
-      "answers": ["do"],
-      "explanation": "No tengo efectivo (I do not have cash)."
-    },
-    {
-      "id": "fin-a1-w18-29",
-      "type": "multipleChoice",
-      "prompt": "Does it ______ a lot of money?",
-      "options": ["pay", "cost", "buy"],
-      "answerIndex": 1,
-      "explanation": "¿Cuesta mucho dinero?"
-    },
-    {
-      "id": "fin-a1-w18-30",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "We buy food here",
-      "explanation": "Compramos comida aquí."
-    },
-    {
-      "id": "fin-a1-w18-31",
-      "type": "multipleChoice",
-      "prompt": "Can you ______ the bill, please?",
-      "options": ["buy", "cost", "pay"],
-      "answerIndex": 2,
-      "explanation": "¿Puedes pagar la cuenta, por favor?"
-    },
-    {
-      "id": "fin-a1-w18-32",
-      "type": "fillBlanks",
-      "prompt": "The [blank] is on the table.",
-      "answers": ["receipt"],
-      "explanation": "El recibo está en la mesa."
-    },
-    {
-      "id": "fin-a1-w18-33",
-      "type": "multipleChoice",
-      "prompt": "I have $50 in ______.",
-      "options": ["cash", "card", "receipt"],
-      "answerIndex": 0,
-      "explanation": "Tengo 50 dólares en efectivo."
-    },
-    {
-      "id": "fin-a1-w18-34",
-      "type": "reorder",
-      "prompt": "Reorder the advice:",
-      "sentence": "Always check your change",
-      "explanation": "Siempre revisa tu cambio."
-    },
-    {
-      "id": "fin-a1-w18-35",
-      "type": "multipleChoice",
-      "prompt": "We ______ to buy a new car.",
-      "options": ["want", "wants", "wanting"],
-      "answerIndex": 0,
-      "explanation": "Queremos (we want)."
-    },
-    {
-      "id": "fin-a1-w18-36",
-      "type": "fillBlanks",
-      "prompt": "She [blank] not like to pay by card.",
-      "answers": ["does"],
-      "explanation": "A ella no le gusta pagar con tarjeta (does not like)."
-    },
-    {
-      "id": "fin-a1-w18-37",
-      "type": "multipleChoice",
-      "prompt": "This apple ______ 50 cents.",
-      "options": ["buy", "pay", "costs"],
-      "answerIndex": 2,
-      "explanation": "Esta manzana cuesta (costs) 50 céntimos."
-    },
-    {
-      "id": "fin-a1-w18-38",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "I need to buy water",
-      "explanation": "Necesito comprar agua."
-    },
-    {
-      "id": "fin-a1-w18-39",
-      "type": "multipleChoice",
-      "prompt": "Do you need a ______?",
-      "options": ["receipt", "buy", "cost"],
-      "answerIndex": 0,
-      "explanation": "¿Necesita recibo?"
-    },
-    {
-      "id": "fin-a1-w18-40",
-      "type": "fillBlanks",
-      "prompt": "They [blank] for the tickets.",
-      "answers": ["pay"],
-      "explanation": "Ellos pagan los billetes."
-    },
-    {
-      "id": "fin-a1-w18-41",
-      "type": "multipleChoice",
-      "prompt": "I ______ a ticket every day.",
-      "options": ["buys", "buy", "buying"],
-      "answerIndex": 1,
-      "explanation": "Compro (I buy)."
-    },
-    {
-      "id": "fin-a1-w18-42",
-      "type": "reorder",
-      "prompt": "Reorder the question:",
-      "sentence": "Is there any change?",
-      "explanation": "¿Hay algo de cambio?"
-    },
-    {
-      "id": "fin-a1-w18-43",
-      "type": "multipleChoice",
-      "prompt": "Please ______ at the desk.",
-      "options": ["buy", "cost", "pay"],
-      "answerIndex": 2,
-      "explanation": "Por favor, pague en el mostrador."
-    },
-    {
-      "id": "fin-a1-w18-44",
-      "type": "fillBlanks",
-      "prompt": "How much [blank] it cost?",
-      "answers": ["does"],
-      "explanation": "¿Cuánto cuesta?"
-    },
-    {
-      "id": "fin-a1-w18-45",
-      "type": "multipleChoice",
-      "prompt": "I don't ______ by card.",
-      "options": ["pay", "pays", "paying"],
-      "answerIndex": 0,
-      "explanation": "Yo no pago (I don't pay)."
-    },
-    {
-      "id": "fin-a1-w18-46",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "This is very expensive",
-      "explanation": "Esto es muy caro."
-    },
-    {
-      "id": "fin-a1-w18-47",
-      "type": "multipleChoice",
-      "prompt": "Can I ______ a receipt?",
-      "options": ["have", "has", "having"],
-      "answerIndex": 0,
-      "explanation": "¿Puedo tener un recibo?"
-    },
-    {
-      "id": "fin-a1-w18-48",
-      "type": "fillBlanks",
-      "prompt": "He [blank] a newspaper.",
-      "answers": ["buys"],
-      "explanation": "Él compra el periódico."
-    },
-    {
-      "id": "fin-a1-w18-49",
-      "type": "multipleChoice",
-      "prompt": "Is this ______ or credit?",
-      "options": ["debit", "cash", "receipt"],
-      "answerIndex": 0,
-      "explanation": "¿Es débito o crédito?"
-    },
-    {
-      "id": "fin-a1-w18-50",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "I love shopping",
-      "explanation": "Me encanta ir de compras."
+      "prompt": "The transaction is [blank]. Please wait.",
+      "answers": ["pending"],
+      "explanation": "Si está pendiente (pending), hay que esperar."
     }
   ]
 }
