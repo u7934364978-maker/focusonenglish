@@ -92,6 +92,24 @@ export const localCourseService = {
       return ans;
     };
 
+    const normalizeQuestion = (q: any, idx: number, parentId: string) => {
+      let correctAnswer = q.correctAnswer || q.answer;
+      if (typeof q.answerIndex === 'number' && q.options) {
+        correctAnswer = q.options[q.answerIndex];
+      } else if (typeof q.correctAnswer === 'number' && q.options) {
+        correctAnswer = q.options[q.correctAnswer];
+      }
+      return {
+        id: q.id || `${parentId}-q${idx}`,
+        type: q.type || (q.options ? 'multiple-choice' : 'fill-blank'),
+        question: q.question || '',
+        options: q.options || [],
+        correctAnswer: correctAnswer || '',
+        explanation: q.explanation,
+        points: q.points || 1
+      };
+    };
+
     return items.map((item: any) => {
       const questionText = item.question || item.prompt || '';
       const id = item.id?.toString() || Math.random().toString(36).substr(2, 9);
@@ -136,7 +154,7 @@ export const localCourseService = {
             {
               id: id + '-q',
               type: 'fill-blank',
-              question: questionText,
+              question: questionText || item.text || '',
               correctAnswer: Array.isArray(normalized) ? normalized[0] : normalized,
               acceptableAnswers: Array.isArray(normalized) ? normalized : [normalized],
               explanation: item.explanation,
@@ -155,20 +173,34 @@ export const localCourseService = {
           title: item.title || (item.type === 'crossword' ? 'Crossword Clues' : 'Matching Exercise'),
           instructions: item.instructions || item.question || item.prompt || (item.type === 'crossword' ? 'Match the words to their clues.' : 'Match the terms with their definitions.'),
           pairs: matchingItems.map((p: any, idx: number) => ({
-            id: `${id}-p${idx}`,
+            id: p.id || `${id}-p${idx}`,
             word: p.left || p.term || p.word || '',
-            correctMatch: p.right || p.definition || p.match || p.clue || '',
+            correctMatch: p.correctMatch || p.right || p.definition || p.match || p.clue || '',
             distractors: p.distractors || [],
             points: 1
           }))
         } as any;
       }
 
-      if (item.type === 'readingComprehension' || item.type === 'reading-comprehension') {
+      if (item.type === 'reading' || item.type === 'readingComprehension' || item.type === 'reading-comprehension') {
         let correctAnswer = item.correctAnswer;
         if (typeof item.answerIndex === 'number' && item.options) {
           correctAnswer = item.options[item.answerIndex];
         }
+
+        const processedQuestions = item.questions 
+          ? item.questions.map((q: any, idx: number) => normalizeQuestion(q, idx, id))
+          : [
+            {
+              id: id + '-q',
+              type: 'multiple-choice',
+              question: item.question || 'Choose the correct answer based on the text.',
+              options: item.options || [],
+              correctAnswer: correctAnswer || '',
+              explanation: item.explanation,
+              points: 2
+            }
+          ];
 
         return {
           id: id,
@@ -179,22 +211,14 @@ export const localCourseService = {
           vocabularyHelp: item.vocabularyHelp || [],
           wordCount: item.wordCount,
           readingTime: item.readingTime,
-          questions: item.questions || [
-            {
-              id: id + '-q',
-              type: 'multiple-choice',
-              question: item.question || 'Choose the correct answer based on the text.',
-              options: item.options || [],
-              correctAnswer: correctAnswer || '',
-              explanation: item.explanation,
-              points: 2
-            }
-          ]
+          questions: processedQuestions
         } as any;
       }
 
       // Listening Comprehension
       if (item.type === 'listening-comprehension' || item.type === 'listening') {
+        const processedQuestions = (item.questions || []).map((q: any, idx: number) => normalizeQuestion(q, idx, id));
+        
         return {
           id: id,
           type: 'listening',
@@ -205,7 +229,7 @@ export const localCourseService = {
           structuredTranscript: item.structuredTranscript,
           duration: item.duration || 0,
           maxReplays: item.maxReplays || 3,
-          questions: item.questions || []
+          questions: processedQuestions
         } as any;
       }
 
