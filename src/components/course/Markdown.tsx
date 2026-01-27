@@ -1,5 +1,70 @@
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import React from "react";
+
+interface VocabularyItem {
+  word: string;
+  definition: string;
+}
+
+function VocabularyTooltip({ word, definition, children }: { word: string, definition: string, children: React.ReactNode }) {
+  return (
+    <span className="group relative inline-block border-b-2 border-dotted border-indigo-500 cursor-help">
+      <span className="text-indigo-700 dark:text-indigo-400 font-bold">{children}</span>
+      <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-3 bg-slate-900 dark:bg-slate-800 text-white text-xs rounded-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 shadow-2xl border border-slate-700">
+        <span className="block font-black text-indigo-400 mb-1 uppercase tracking-widest">{word}</span>
+        {definition}
+        <span className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-slate-900 dark:border-t-slate-800"></span>
+      </span>
+    </span>
+  );
+}
+
+function applyTooltips(children: React.ReactNode, vocabulary?: VocabularyItem[]): React.ReactNode {
+  if (!vocabulary || vocabulary.length === 0) return children;
+
+  return React.Children.map(children, (child) => {
+    if (typeof child !== "string") {
+      if (React.isValidElement(child) && (child.props as any).children) {
+        return React.cloneElement(child, {
+          ...(child.props as any),
+          children: applyTooltips((child.props as any).children, vocabulary),
+        } as any);
+      }
+      return child;
+    }
+
+    let parts: (string | React.ReactNode)[] = [child];
+
+    vocabulary.forEach((vocab) => {
+      const newParts: (string | React.ReactNode)[] = [];
+      const regex = new RegExp(`\\b(${vocab.word})\\b`, "gi");
+
+      parts.forEach((part) => {
+        if (typeof part !== "string") {
+          newParts.push(part);
+          return;
+        }
+
+        const splitText = part.split(regex);
+        splitText.forEach((t, i) => {
+          if (t.toLowerCase() === vocab.word.toLowerCase()) {
+            newParts.push(
+              <VocabularyTooltip key={`${vocab.word}-${i}`} word={vocab.word} definition={vocab.definition}>
+                {t}
+              </VocabularyTooltip>
+            );
+          } else if (t) {
+            newParts.push(t);
+          }
+        });
+      });
+      parts = newParts;
+    });
+
+    return <>{parts}</>;
+  });
+}
 
 function looksLikeLooseListLine(line: string) {
   const t = line.trim();
@@ -130,7 +195,7 @@ function normalizeMarkdown(input: string) {
   return out.join("\n");
 }
 
-export default function Markdown({ content }: { content: string }) {
+export default function Markdown({ content, vocabulary }: { content: string, vocabulary?: VocabularyItem[] }) {
   const normalized = normalizeMarkdown(content);
 
   return (
@@ -155,12 +220,26 @@ export default function Markdown({ content }: { content: string }) {
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         components={{
+          // Override text-heavy components to apply tooltips
+          p({ children }) {
+            return <p>{applyTooltips(children, vocabulary)}</p>;
+          },
+          li({ children }) {
+            return <li>{applyTooltips(children, vocabulary)}</li>;
+          },
+          strong({ children }) {
+            return <strong>{applyTooltips(children, vocabulary)}</strong>;
+          },
+          em({ children }) {
+            return <em>{applyTooltips(children, vocabulary)}</em>;
+          },
+
           // Callout visual (para tips en markdown usando "> ...")
           blockquote({ children }) {
             return (
               <div className="my-4 rounded-2xl border border-coral-200 dark:border-coral-800 bg-coral-50 dark:bg-coral-950/30 px-4 py-3 text-sm text-slate-800 dark:text-slate-200">
                 <div className="font-black text-coral-900 dark:text-coral-400">Tip</div>
-                <div className="mt-1">{children}</div>
+                <div className="mt-1">{applyTooltips(children, vocabulary)}</div>
               </div>
             );
           },
@@ -181,14 +260,14 @@ export default function Markdown({ content }: { content: string }) {
           th({ children }) {
             return (
               <th className="bg-slate-50 dark:bg-slate-800/50 px-3 py-2 text-left text-xs font-black text-slate-600 dark:text-slate-400">
-                {children}
+                {applyTooltips(children, vocabulary)}
               </th>
             );
           },
           td({ children }) {
             return (
               <td className="border-t border-slate-200 dark:border-slate-800 px-3 py-2 align-top text-slate-800 dark:text-slate-300">
-                {children}
+                {applyTooltips(children, vocabulary)}
               </td>
             );
           },
@@ -215,14 +294,14 @@ export default function Markdown({ content }: { content: string }) {
           h2({ children }) {
             return (
               <h2 className="mt-8 scroll-mt-24 text-xl font-black tracking-tight text-slate-900 dark:text-white">
-                {children}
+                {applyTooltips(children, vocabulary)}
               </h2>
             );
           },
           h3({ children }) {
             return (
               <h3 className="mt-6 scroll-mt-24 text-lg font-black text-slate-900 dark:text-white">
-                {children}
+                {applyTooltips(children, vocabulary)}
               </h3>
             );
           },

@@ -4,6 +4,7 @@ import React from 'react';
 import { ReadingExercise, EvaluationResult } from '@/lib/exercise-types';
 import QuestionRenderer from './QuestionRenderer';
 import { BookOpen, Clock, BarChart } from 'lucide-react';
+import Markdown from '../Markdown';
 
 interface ReadingRendererProps {
   exercise: ReadingExercise;
@@ -27,49 +28,6 @@ export default function ReadingRenderer({
   onNext
 }: ReadingRendererProps) {
   
-  // Highlight vocabulary in text
-  const renderTextWithTooltips = (text: string) => {
-    if (!exercise.vocabularyHelp || exercise.vocabularyHelp.length === 0) return text;
-    
-    let parts: (string | React.ReactNode)[] = [text];
-    
-    exercise.vocabularyHelp.forEach(vocab => {
-      const newParts: (string | React.ReactNode)[] = [];
-      const regex = new RegExp(`\\b(${vocab.word})\\b`, 'gi');
-      
-      parts.forEach(part => {
-        if (typeof part !== 'string') {
-          newParts.push(part);
-          return;
-        }
-        
-        const splitText = part.split(regex);
-        splitText.forEach((t, i) => {
-          if (t.toLowerCase() === vocab.word.toLowerCase()) {
-            newParts.push(
-              <span 
-                key={`${vocab.word}-${i}`} 
-                className="group relative inline-block border-b-2 border-dotted border-indigo-500 cursor-help"
-              >
-                <span className="text-indigo-700 dark:text-indigo-400 font-bold">{t}</span>
-                <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-3 bg-slate-900 dark:bg-slate-800 text-white text-xs rounded-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 shadow-2xl border border-slate-700">
-                  <span className="block font-black text-indigo-400 mb-1 uppercase tracking-widest">{vocab.word}</span>
-                  {vocab.definition}
-                  <span className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-slate-900 dark:border-t-slate-800"></span>
-                </span>
-              </span>
-            );
-          } else if (t) {
-            newParts.push(t);
-          }
-        });
-      });
-      parts = newParts;
-    });
-    
-    return <>{parts}</>;
-  };
-
   return (
     <div className="grid lg:grid-cols-2 gap-8 animate-in fade-in duration-700">
       {/* Reading Passage */}
@@ -95,10 +53,11 @@ export default function ReadingRenderer({
             )}
           </div>
 
-          <div className="prose prose-slate dark:prose-invert max-w-none">
-            <div className="text-slate-700 dark:text-slate-300 text-lg leading-relaxed whitespace-pre-line font-serif lg:max-h-[calc(100vh-18rem)] overflow-y-auto pr-4 custom-scrollbar">
-              {renderTextWithTooltips(exercise.text || exercise.readingText || '')}
-            </div>
+          <div className="lg:max-h-[calc(100vh-18rem)] overflow-y-auto pr-4 custom-scrollbar">
+            <Markdown 
+              content={exercise.text || exercise.readingText || ''} 
+              vocabulary={exercise.vocabularyHelp}
+            />
           </div>
 
           {/* Mobile hint for tooltips */}

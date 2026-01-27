@@ -3,6 +3,7 @@
 import React from 'react';
 import { GrammarExercise, VocabularyExercise, WordFormationExercise, EvaluationResult } from '@/lib/exercise-types';
 import QuestionRenderer from './QuestionRenderer';
+import Markdown from '../Markdown';
 
 interface GrammarVocabularyRendererProps {
   exercise: GrammarExercise | VocabularyExercise | WordFormationExercise;
@@ -54,9 +55,9 @@ export default function GrammarVocabularyRenderer({
               {exercise.explanation && (
                 <div className="prose prose-slate dark:prose-invert max-w-none">
                   <p className="font-black text-indigo-800 dark:text-indigo-300 text-xs uppercase tracking-wider mb-2">Key Explanation</p>
-                  <p className="text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line bg-white/40 dark:bg-slate-900/20 p-4 rounded-xl border border-indigo-100/50 dark:border-indigo-900/50">
-                    {exercise.explanation}
-                  </p>
+                  <div className="bg-white/40 dark:bg-slate-900/20 p-4 rounded-xl border border-indigo-100/50 dark:border-indigo-900/50">
+                    <Markdown content={exercise.explanation} />
+                  </div>
                 </div>
               )}
             </div>
@@ -102,9 +103,9 @@ export default function GrammarVocabularyRenderer({
             Reading Context
           </h3>
           <div className="prose prose-slate dark:prose-invert max-w-none">
-            <p className="text-slate-700 dark:text-slate-300 text-lg leading-relaxed whitespace-pre-line font-serif italic">
-              {(exercise as WordFormationExercise).text}
-            </p>
+            <div className="font-serif italic">
+              <Markdown content={(exercise as WordFormationExercise).text || ''} />
+            </div>
           </div>
         </div>
       )}

@@ -5,6 +5,7 @@ import { ListeningExercise, EvaluationResult } from '@/lib/exercise-types';
 import QuestionRenderer from './QuestionRenderer';
 import InteractiveTranscript from '@/components/course/InteractiveTranscript';
 import { Headphones, Clock, Info } from 'lucide-react';
+import Markdown from '../Markdown';
 
 interface ListeningRendererProps {
   exercise: ListeningExercise;
@@ -107,9 +108,9 @@ export default function ListeningRenderer({
                 <span className="text-xs font-bold px-2 py-1 bg-white dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700 group-open:rotate-180 transition-transform">↓</span>
               </summary>
               <div className="p-4 pt-0 border-t border-slate-200 dark:border-slate-700">
-                <p className="text-slate-600 dark:text-slate-400 whitespace-pre-line text-sm leading-relaxed italic">
-                  {exercise.transcript}
-                </p>
+                <div className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed italic">
+                  <Markdown content={exercise.transcript} />
+                </div>
               </div>
             </details>
           )}
