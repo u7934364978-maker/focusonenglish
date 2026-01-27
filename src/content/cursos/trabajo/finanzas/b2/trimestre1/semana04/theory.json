@@ -1,20 +1,47 @@
 {
-  "title": "Financial Analysis and Month 1 Review",
+  "title": "Financial Analysis, Valuation, and Performance Metrics",
   "sections": [
     {
-      "id": "financial-ratios",
-      "title": "Financial Ratio Analysis",
-      "content": "Ratios are tools used to interpret financial statements and compare performance across companies or time periods.\n\n### Key Ratio Categories\n1. **Liquidity Ratios**: Measure the ability to pay short-term debts.\n   - *Current Ratio*: Current Assets / Current Liabilities.\n   - *Quick Ratio (Acid Test)*: (Current Assets - Inventory) / Current Liabilities.\n\n2. **Profitability Ratios**: Measure the efficiency in generating profit.\n   - *Return on Equity (ROE)*: Net Income / Shareholders' Equity.\n   - *Net Profit Margin*: Net Income / Revenue.\n\n3. **Leverage Ratios**: Measure the extent of debt usage.\n   - *Debt-to-Equity*: Total Liabilities / Total Equity.\n\n4. **Valuation Ratios**: Used by investors to determine if a stock is fairly priced.\n   - *P/E Ratio (Price-to-Earnings)*: Market Value per Share / Earnings per Share (EPS)."
+      "id": "advanced-ratio-analysis",
+      "title": "Advanced Ratio Analysis and the DuPont Model",
+      "sections": [
+        {
+          "id": "efficiency-metrics",
+          "title": "Operational Efficiency Metrics",
+          "content": "Beyond liquidity and profitability, analysts look at how effectively a company utilizes its resources.\n- **Inventory Turnover**: COGS / Average Inventory. Indicates how many times a company has sold and replaced inventory during a period.\n- **DSO (Days Sales Outstanding)**: (Average Accounts Receivable / Total Credit Sales) × Number of Days. Measures the average number of days it takes to collect payment after a sale has been made.\n- **Total Asset Turnover**: Revenue / Average Total Assets. Measures the efficiency of a company's assets in generating revenue."
+        },
+        {
+          "id": "dupont-analysis",
+          "title": "The DuPont Framework",
+          "content": "The DuPont analysis breaks down **Return on Equity (ROE)** into three components to identify the root cause of performance changes:\n\n**ROE = (Net Profit Margin) × (Asset Turnover) × (Equity Multiplier)**\n- *Net Profit Margin*: Operational efficiency.\n- *Asset Turnover*: Asset use efficiency.\n- *Equity Multiplier*: Financial leverage.\n\nThis allows analysts to see if a high ROE is driven by profitability, high volume, or excessive debt."
+        }
+      ]
     },
     {
-      "id": "valuation-methods",
-      "title": "Company Valuation Methods",
-      "content": "Valuation is the process of determining the present value of an asset or a company.\n\n### Common Approaches\n- **DCF (Discounted Cash Flow)**: Estimates the value based on future cash flows, discounted to the present value.\n- **Comparable Company Analysis (Comps)**: Valuing a company based on the metrics of similar public companies.\n- **Precedent Transactions**: Looking at prices paid for similar companies in past M&A deals."
+      "id": "valuation-depth",
+      "title": "Deep Dive into Corporate Valuation",
+      "sections": [
+        {
+          "id": "dcf-components",
+          "title": "Discounted Cash Flow (DCF) Mechanics",
+          "content": "DCF is considered the most theoretically sound valuation method, as it focuses on intrinsic value.\n- **Free Cash Flow (FCF)**: The cash a company generates after accounting for cash outlays to support operations and maintain its capital assets.\n- **WACC (Weighted Average Cost of Capital)**: The discount rate used to bring future cash flows to present value. It represents the blended cost of debt and equity.\n- **Terminal Value**: The value of a company's expected cash flow beyond the explicit forecast period (usually 5-10 years), calculated using the **Gordon Growth Method** or an **Exit Multiple**."
+        },
+        {
+          "id": "relative-valuation",
+          "title": "Relative Valuation and Multiples",
+          "content": "Relative valuation compares a company to its peers using standardized multiples.\n- **EV/EBITDA**: Enterprise Value divided by EBITDA. Often preferred over P/E because it is capital structure neutral.\n- **P/B Ratio (Price-to-Book)**: Used extensively in the banking sector to compare a bank's market value to its book value."
+        }
+      ]
     },
     {
-      "id": "month1-finance-review",
-      "title": "Month 1 Review: Investment Banking & Accounting",
-      "content": "Summary of Month 1 for Finance B2:\n\n1. **Week 1**: Investment Banking, M&A, IPOs, and Risk Management (Modals of Deduction).\n2. **Week 2**: Financial Statements (Balance Sheet, P&L, Cash Flow), Auditing, and Governance (Passive Voice).\n3. **Week 3**: Taxation (VAT, Avoidance vs. Evasion), International Finance (Forex), and ISA (Conditionals).\n4. **Week 4**: Financial Ratios and Valuation Methods.\n\n### Grammar Highlights\n- **Modals**: Speculating about risks and past errors (*\"They must have missed the debt.\"*)\n- **Passive Voice**: Formal reporting of results and findings (*\"Discrepancies were found.\"*)\n- **Conditionals**: Forecasting and hypothetical analysis (*\"If rates rise, profit will fall.\"*)"
+      "id": "grammar-describing-trends",
+      "title": "Grammar for Finance: Describing Trends and Data",
+      "content": "When presenting financial analysis, you must precisely describe movement and speed in data.\n\n### Describing Change\n- **Upward Movement**: *surge, soar, climb, peak, bounce back.*\n- **Downward Movement**: *plummet, slump, tumble, bottom out, dip.*\n- **Stability**: *level off, remain steady, plateau.*\n\n### Adjectives and Adverbs\n- **Significant/Fast**: *dramatic(ally), sharp(ly), substantial(ly).*\n- **Small/Slow**: *slight(ly), gradual(ly), marginal(ly).*\n\n### Useful Phrases for Analysts\n- *\"The margin **widened** significantly due to lower COGS.\"*\n- *\"Revenue **plateaued** in Q3 as the market reached saturation.\"*\n- *\"Our debt-to-equity ratio has **crept up** over the last three cycles.\"*"
+    },
+    {
+      "id": "month1-review-comprehensive",
+      "title": "Trimestre 1: Month 1 Technical Review",
+      "content": "You have now completed the foundation of the Banking & Finance B2 course. \n\n### Technical Milestones\n1. **Investment Banking**: Underwriting, syndication, and the lifecycle of an IPO.\n2. **Financial Reporting**: Interconnectivity of the three core statements and the necessity of audit assurance.\n3. **Tax & Forex**: Navigating global compliance (BEPS) and hedging against currency volatility (Forwards/Swaps).\n4. **Analysis & Valuation**: Deconstructing ROE through DuPont and projecting intrinsic value via DCF."
     }
   ]
 }

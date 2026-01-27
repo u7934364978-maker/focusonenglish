@@ -1,20 +1,36 @@
 {
-  "title": "Risk Management and Insurance",
+  "title": "Enterprise Risk Management, Derivatives, and Resilience",
   "sections": [
     {
-      "id": "risk-management-strategies",
-      "title": "Identifying and Managing Risk",
-      "content": "Risk management is the process of identifying, assessing, and controlling threats to an organization's capital and earnings.\n\n### Types of Risk\n- **Market Risk**: The risk of losses due to changes in market prices (equity, interest rates, currency).\n- **Credit Risk**: The risk that a borrower will default on their obligations.\n- **Operational Risk**: The risk of loss resulting from inadequate internal processes, people, or systems.\n- **Liquidity Risk**: The risk of being unable to meet short-term financial demands.\n\n### Risk Mitigation Strategies\n- **Avoidance**: Eliminating any exposure to a specific risk.\n- **Reduction (Mitigation)**: Taking steps to reduce the impact or likelihood of a risk.\n- **Transfer**: Shifting the risk to a third party (e.g., insurance, hedging).\n- **Retention**: Accepting the risk and self-insuring against it."
+      "id": "quantitative-risk-management",
+      "title": "Quantitative Risk Assessment and Value at Risk (VaR)",
+      "sections": [
+        {
+          "id": "var-concept",
+          "title": "Value at Risk (VaR)",
+          "content": "In financial services, **Value at Risk (VaR)** is the industry standard for measuring market risk. It estimates the maximum potential loss a portfolio could face over a specific time horizon with a given confidence level (e.g., 'There is a 95% probability that the bank will not lose more than $10 million in a single day')."
+        },
+        {
+          "id": "stress-testing",
+          "title": "Stress Testing and Scenario Analysis",
+          "content": "While VaR measures 'normal' market conditions, **Stress Testing** evaluates how a portfolio would perform under extreme, 'black swan' events (e.g., a global pandemic, a sudden 30% drop in oil prices). Regulators require major banks to undergo annual stress tests to ensure they have sufficient **Capital Buffers** to survive a systemic crisis."
+        }
+      ]
     },
     {
-      "id": "insurance-terminology",
-      "title": "Corporate Insurance",
-      "content": "Insurance is a common tool for risk transfer in the financial world.\n\n### Key Insurance Terms\n- **Premium**: The amount of money an individual or business pays for an insurance policy.\n- **Deductible**: The amount the insured must pay out-of-pocket before the insurer pays a claim.\n- **Coverage**: The amount of risk or liability that is covered for an individual or entity by way of insurance services.\n- **Claim**: A formal request by a policyholder to an insurance company for coverage or compensation for a covered loss.\n- **Underwriting**: The process through which an individual or institution takes on financial risk for a fee."
+      "id": "derivatives-hedging",
+      "title": "Hedging with Derivatives",
+      "content": "Derivatives are powerful tools for transferring specific financial risks.\n\n### Key Instruments\n- **Options**: Provide the right, but not the obligation, to buy (**Call**) or sell (**Put**) an asset at a predetermined price. Buying a 'Put Option' acts as insurance against a decline in a stock's price.\n- **Futures and Forwards**: Obligate the parties to transact an asset at a future date at a set price. Used extensively by airlines to hedge fuel costs and by farmers to lock in crop prices.\n- **Credit Default Swaps (CDS)**: A type of insurance against the default of a borrower. The buyer of a CDS pays a periodic fee to the seller in exchange for a payout if a third party defaults."
     },
     {
-      "id": "grammar-modals-of-deduction",
-      "title": "Grammar: Modals of Deduction",
-      "content": "We use **Modals of Deduction** to say how sure we are about something based on the evidence we have.\n\n### Present Deduction\n- **Must** (90-100% sure something is true):\n  - *\"The company's stock is soaring; they **must** have great earnings.\"*\n- **Might / May / Could** (40-50% sure something is possible):\n  - *\"The market is volatile; we **might** see a correction soon.\"*\n- **Can't** (90-100% sure something is NOT true):\n  - *\"They **can't** be profitable yet; their expenses are too high.\"*\n\n### Past Deduction (Modal + have + past participle)\n- **Must have**: *\"The auditor **must have missed** these entries.\"*\n- **Might have**: *\"The CEO **might have resigned** due to the scandal.\"*\n- **Can't have**: *\"The bank **can't have approved** that loan; it's too risky.\"*"
+      "id": "operational-cyber-risk",
+      "title": "Operational Resilience and Cybersecurity",
+      "content": "In the digital age, **Operational Risk** has expanded to include cybersecurity. A single data breach can lead to massive financial penalties, reputational damage, and the loss of customer trust.\n- **Business Continuity Planning (BCP)**: A strategy to ensure that critical business functions can continue during and after a disaster.\n- **Disaster Recovery (DR)**: The technical subset of BCP focused on restoring IT systems and data."
+    },
+    {
+      "id": "grammar-advanced-modals-prediction",
+      "title": "Grammar: Advanced Modals and Degrees of Probability",
+      "content": "When presenting risk reports, you must accurately qualify your statements based on available evidence.\n\n### Past Criticism and Regret\n- **Should have / Ought to have**: Used to criticize a past action or express regret.\n  - *\"The risk department **should have identified** the concentration in subprime mortgages earlier.\"*\n  - *\"We **ought to have hedged** our Euro exposure before the volatility spiked.\"*\n\n### Strong Predictions\n- **Bound to / Certain to**: 100% sure something will happen.\n  - *\"If we don't update our firewall, we are **bound to suffer** a breach.\"*\n- **Likely to / Set to**: Very probable.\n  - *\"The central bank is **set to increase** the reserve requirement next month.\"*\n\n### Speculating about the Future (Modals)\n- **Could well / May well**: Indicates a strong possibility.\n  - *\"This regulatory change **could well lead** to a consolidation in the banking sector.\"*"
     }
   ]
 }

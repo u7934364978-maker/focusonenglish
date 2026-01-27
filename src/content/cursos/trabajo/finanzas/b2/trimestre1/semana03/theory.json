@@ -1,25 +1,47 @@
 {
-  "title": "Taxation and International Finance",
+  "title": "Taxation, Forex, and International Financial Reporting",
   "sections": [
     {
-      "id": "taxation-principles",
-      "title": "Corporate Taxation Principles",
-      "content": "Taxation is a major consideration in corporate decision-making and financial planning.\n\n### Key Tax Terms\n- **Corporate Tax**: A tax on the profits of a corporation.\n- **VAT (Value Added Tax)**: A consumption tax placed on a product whenever value is added at each stage of the supply chain.\n- **Withholding Tax**: Tax deducted at source from income (like dividends or interest) paid to non-residents.\n- **Tax Evasion**: The illegal non-payment or underpayment of taxes.\n- **Tax Avoidance**: The legal utilization of the tax regime to one's own advantage, to minimize the amount of tax that is payable.\n- **Deferred Tax**: An accounting concept representing taxes that are owed but not yet paid (or overpaid and to be recovered)."
+      "id": "corporate-tax-strategy",
+      "title": "Corporate Tax Strategy and Global Compliance",
+      "sections": [
+        {
+          "id": "tax-concepts",
+          "title": "Advanced Tax Concepts",
+          "content": "In the modern global economy, corporate taxation is no longer just about compliance; it is a critical component of strategic financial management. Multinational Corporations (MNCs) must navigate a complex web of national laws and international treaties.\n\n### Strategic Tax Planning\n- **Effective Tax Rate (ETR)**: The actual rate a company pays after all credits, deductions, and exemptions are applied, as opposed to the **Statutory Tax Rate**.\n- **Base Erosion and Profit Shifting (BEPS)**: A global initiative led by the OECD to prevent MNCs from shifting profits to low-tax jurisdictions (tax havens) to artificially reduce their tax base.\n- **Double Taxation Treaties (DTT)**: Bilateral agreements between countries to prevent the same income from being taxed twice, facilitating international trade and investment.\n- **Transfer Pricing Scrutiny**: Tax authorities use the 'Arm's Length Principle' to ensure that transactions between subsidiaries of the same company are priced as if they were between independent parties."
+        },
+        {
+          "id": "tax-accounting",
+          "title": "Tax Accounting and Deferred Liabilities",
+          "content": "Accountants must reconcile 'Book Income' (per financial statements) with 'Taxable Income' (per tax law).\n- **Temporary Differences**: Differences that will reverse in future periods, giving rise to **Deferred Tax Assets (DTA)** or **Deferred Tax Liabilities (DTL)**.\n  - *Example*: Accelerated depreciation for tax purposes creates a DTL because the company pays less tax now but will pay more later."
+        }
+      ]
     },
     {
-      "id": "international-finance",
-      "title": "International Finance and Exchange Rates",
-      "content": "Global companies must manage exposure to multiple currencies and international regulations.\n\n### Forex and Risk\n- **Forex (Foreign Exchange)**: The market where currencies are traded.\n- **Spot Rate**: The current exchange rate at which a currency pair can be bought or sold.\n- **Forward Rate**: An exchange rate quoted today for a transaction that will occur on a specific future date.\n- **Currency Hedging**: Using financial instruments to protect against losses from exchange rate fluctuations.\n- **Transfer Pricing**: The price at which divisions of a multi-national company transacts with each other (often scrutinized by tax authorities to prevent profit shifting)."
+      "id": "international-finance-risk",
+      "title": "International Finance and Forex Risk Management",
+      "sections": [
+        {
+          "id": "forex-mechanics",
+          "title": "Forex Market Mechanics",
+          "content": "The Foreign Exchange (Forex) market is the most liquid in the world. For companies operating across borders, managing currency volatility is essential for protecting profit margins.\n\n### Exchange Rate Theories\n- **Purchasing Power Parity (PPP)**: The theory that the exchange rate between two currencies should equal the ratio of the countries' price levels (the 'Big Mac Index' is a famous simplification).\n- **Interest Rate Parity (IRP)**: A theory suggesting that the difference in interest rates between two countries should be reflected in the forward exchange rate premium or discount."
+        },
+        {
+          "id": "hedging-strategies",
+          "title": "Hedging Currency Exposure",
+          "content": "To mitigate **FX Risk**, treasury departments use various financial instruments:\n- **Forward Contracts**: Bespoke agreements to exchange currency at a fixed rate on a future date, locking in costs.\n- **Currency Swaps**: The exchange of principal and interest in one currency for the same in another, often used to secure cheaper funding in foreign markets.\n- **Natural Hedging**: Matching revenues and expenses in the same currency to reduce net exposure (e.g., a US company paying its European suppliers in Euros from its Euro-denominated sales)."
+        }
+      ]
     },
     {
-      "id": "auditing-standards",
-      "title": "International Auditing Standards (ISA)",
-      "content": "Consistency in auditing across borders is maintained through international standards.\n\n- **ISA (International Standards on Auditing)**: Professional standards for the performance of financial audits of financial information.\n- **Professional Skepticism**: An attitude that includes a questioning mind and a critical assessment of audit evidence.\n- **Internal Audit vs. External Audit**: Internal auditors are employees who evaluate risk and controls, while external auditors are independent third parties who verify financial statements."
+      "id": "auditing-professionalism",
+      "title": "Auditing Professionalism and Global Standards",
+      "content": "The International Standards on Auditing (ISA) provide the framework for consistent audit quality worldwide. A key pillar of these standards is **Professional Skepticism**—the auditor's duty to maintain a questioning mind and not take management's representations at face value.\n\n### The Audit Risk Model\n**Audit Risk = Inherent Risk × Control Risk × Detection Risk**\n- **Inherent Risk**: The susceptibility of an account to material misstatement due to its nature (e.g., complex derivatives).\n- **Control Risk**: The risk that a company's internal controls fail to prevent or detect a misstatement.\n- **Detection Risk**: The risk that the auditor's procedures fail to catch an error. This is the only component the auditor can directly control."
     },
     {
-      "id": "grammar-conditionals",
-      "title": "Grammar: Conditionals in Professional Contexts",
-      "content": "Conditionals are essential for discussing hypothetical scenarios, risks, and forecasts.\n\n1. **Zero Conditional** (Facts/General Truths):\n   - *\"If inflation **rises**, interest rates usually **follow**.\"*\n\n2. **First Conditional** (Real possibilities in the future):\n   - *\"If we **sign** the deal today, the funds **will be transferred** by Friday.\"*\n\n3. **Second Conditional** (Hypothetical/Unlikely present or future):\n   - *\"If we **had** more capital, we **would acquire** that competitor.\"*\n\n4. **Third Conditional** (Hypothetical past - Regrets or missed opportunities):\n   - *\"If the bank **had identified** the risk earlier, they **would have avoided** the bankruptcy.\"*\n\n### Mixed Conditionals\nUsed to link a past condition with a present result:\n- *\"If we **hadn't invested** in that startup last year, our balance sheet **would be** much stronger now.\"*"
+      "id": "grammar-advanced-conditionals",
+      "title": "Grammar: Advanced Conditionals for Risk Assessment",
+      "content": "In financial analysis, conditionals are used to model 'What-If' scenarios and assess potential outcomes.\n\n### Complex Financial Scenarios\n1. **Third Conditional (Past Regret/Analysis)**:\n   - *\"If the treasury department **had hedged** our GBP exposure before the Brexit vote, the company **would not have suffered** a 15% hit to its quarterly earnings.\"*\n\n2. **Mixed Conditional (Past Action, Present Result)**:\n   - *\"If the board **had implemented** stricter internal controls five years ago, we **would not be facing** this regulatory fine today.\"*\n\n3. **First Conditional with 'Unless' (Conditions for Success)**:\n   - *\"We will meet our debt covenants **unless** the interest rate **increases** by more than 50 basis points.\"*\n\n4. **Second Conditional (Hypothetical Strategy)**:\n   - *\"If we **were** to shift our production to a low-cost jurisdiction, our gross margins **would improve**, but our supply chain risk **would increase**.\"*"
     }
   ]
 }

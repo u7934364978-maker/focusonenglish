@@ -3,408 +3,236 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana09",
-  "title": "Internal Audit & Compliance Exercises",
-  "description": "Advanced exercises on auditing terminology and reporting grammar.",
+  "title": "Internal Audit, Compliance, and Financial Integrity",
+  "description": "Exercises on audit procedures, regulatory frameworks (SOX, AML), and complex passive structures (50 items).",
   "items": [
     {
-      "id": "fin-b2-w9-1",
+      "id": "finance-b2-w9-q1",
       "type": "multipleChoice",
-      "prompt": "Which process involves checking the ledger entries against original invoices?",
-      "options": ["Verification", "Vouching", "Amortization", "Liquidation"],
-      "answerIndex": 1,
-      "explanation": "Vouching is the foundational audit step of confirming records with primary evidence."
-    },
-    {
-      "id": "fin-b2-w9-2",
-      "type": "multipleChoice",
-      "prompt": "An internal audit is primarily used to:",
-      "options": ["Report to the tax office", "Improve organizational operations and internal controls", "Sell shares to the public", "Fire employees"],
-      "answerIndex": 1,
-      "explanation": "Internal audits help management by identifying weaknesses in processes."
-    },
-    {
-      "id": "fin-b2-w9-3",
-      "type": "multipleChoice",
-      "prompt": "What does 'Materiality' refer to in auditing?",
-      "options": ["The physical weight of the ledgers", "The significance of an amount or error in financial statements", "The cost of office supplies", "The bank's physical assets"],
-      "answerIndex": 1,
-      "explanation": "Material items are those that could influence an investor's decision."
-    },
-    {
-      "id": "fin-b2-w9-4",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct complex passive: 'It ___ that the error occurred in the Q3 consolidation.'",
-      "options": ["believes", "is believed", "was believing", "has believed"],
-      "answerIndex": 1,
-      "explanation": "'It is believed' is a formal passive construction for reporting findings."
-    },
-    {
-      "id": "fin-b2-w9-5",
-      "type": "multipleChoice",
-      "prompt": "What is 'Reconciliation'?",
-      "options": ["Closing a bank account", "The process of matching two sets of records to ensure they are correct", "Hiring a new auditor", "Paying off all company debts"],
-      "answerIndex": 1,
-      "explanation": "Bank reconciliation is a common task to ensure internal and external records match."
-    },
-    {
-      "id": "fin-b2-w9-6",
-      "type": "multipleChoice",
-      "prompt": "A company that fails to follow environmental laws is failing in its ___.",
-      "options": ["Marketing", "Compliance", "Verification", "Vouching"],
-      "answerIndex": 1,
-      "explanation": "Compliance covers adherence to all relevant laws and regulations."
-    },
-    {
-      "id": "fin-b2-w9-7",
-      "type": "multipleChoice",
-      "prompt": "Which term describes 'confirming the physical existence of assets'?",
-      "options": ["Vouching", "Verification", "Amortization", "Depreciation"],
-      "answerIndex": 1,
-      "explanation": "Verification ensures that assets listed on the balance sheet actually exist."
-    },
-    {
-      "id": "fin-b2-w9-8",
-      "type": "multipleChoice",
-      "prompt": "Reporting verbs in audits often use the passive. 'Discrepancies ___ found in the payroll records.'",
-      "options": ["was", "were", "is", "have"],
-      "answerIndex": 1,
-      "explanation": "Passive voice is preferred in objective audit reports."
-    },
-    {
-      "id": "fin-b2-w9-9",
-      "type": "multipleChoice",
-      "prompt": "What is an 'Audit Trail'?",
-      "options": ["A path through the bank's garden", "A step-by-step record of a transaction for verification", "A list of former employees", "The auditor's travel expenses"],
-      "answerIndex": 1,
-      "explanation": "An audit trail allows auditors to trace a transaction from its origin to its conclusion."
-    },
-    {
-      "id": "fin-b2-w9-10",
-      "type": "multipleChoice",
-      "prompt": "If an auditor is 'independent', it means they:",
-      "options": ["Work alone", "Are not influenced by the company they are auditing", "Have no computer", "Don't need a salary"],
-      "answerIndex": 1,
-      "explanation": "Independence is critical for the credibility of an audit report."
-    },
-    {
-      "id": "fin-b2-w9-11",
-      "type": "multipleChoice",
-      "prompt": "It ___ (expect) that the new regulations will be implemented by June.",
-      "options": ["expects", "is expected", "was expecting", "has expected"],
-      "answerIndex": 1,
-      "explanation": "Complex passive structure: 'It is expected that...'."
-    },
-    {
-      "id": "fin-b2-w9-12",
-      "type": "multipleChoice",
-      "prompt": "The controls ___ (consider) to be ineffective during the last assessment.",
-      "options": ["were considered", "considered", "are considering", "have considered"],
+      "options": [
+        "Vouching",
+        "Tracing",
+        "Verification",
+        "Reconciliation"
+      ],
+      "explanation": "Vouching is the process of selecting an entry in the ledger and working backwards to the source document to ensure the transaction occurred.",
       "answerIndex": 0,
-      "explanation": "Passive voice for reporting previous assessment findings."
+      "prompt": "Which audit procedure involves verifying an accounting entry by examining the original source document?"
     },
     {
-      "id": "fin-b2-w9-13",
+      "id": "finance-b2-w9-q2",
+      "type": "fillBlanks",
+      "explanation": "Complex passive structure with 'rumored' reporting a past state.",
+      "prompt": "The previous CEO ________ (rumor / resign) before the financial discrepancies were officially reported.",
+      "answers": [
+        "is rumored to have resigned"
+      ]
+    },
+    {
+      "id": "finance-b2-w9-q3",
       "type": "multipleChoice",
-      "prompt": "Which term refers to 'following the rules of a regulatory body'?",
-      "options": ["Vouching", "Compliance", "Arbitrage", "Speculation"],
+      "options": [
+        "The physical weight of the files",
+        "The significance of an error or omission that could influence decision-makers",
+        "The cost of the external audit",
+        "The total value of company assets"
+      ],
+      "explanation": "Materiality is a threshold above which missing or incorrect information in financial statements is considered to have an impact on the decision-maker.",
       "answerIndex": 1,
-      "explanation": "Compliance is the adherence to laws, regulations, and guidelines."
+      "prompt": "What does 'Materiality' mean in the context of an audit?"
     },
     {
-      "id": "fin-b2-w9-14",
-      "type": "multipleChoice",
-      "prompt": "It ___ (report) that the variance was due to an accounting error.",
-      "options": ["reports", "is reported", "was reported", "has reported"],
-      "answerIndex": 2,
-      "explanation": "Past passive for reporting a completed investigation's result."
+      "id": "finance-b2-w9-q4",
+      "type": "fillBlanks",
+      "explanation": "Complex passive structure: It is + passive + that.",
+      "prompt": "It ________ (generally / accept) that internal controls were bypassed by the regional manager.",
+      "answers": [
+        "is generally accepted"
+      ]
     },
     {
-      "id": "fin-b2-w9-15",
+      "id": "finance-b2-w9-q5",
       "type": "multipleChoice",
-      "prompt": "What is 'GAAP'?",
-      "options": ["General Audit and Payment", "Generally Accepted Accounting Principles", "Global Assets and Profits", "Government Accountancy Policy"],
-      "answerIndex": 1,
-      "explanation": "GAAP is the standard framework of guidelines for financial accounting."
-    },
-    {
-      "id": "fin-b2-w9-16",
-      "type": "multipleChoice",
-      "prompt": "The internal auditor ___ (find) several inconsistencies in the accounts payable ledger.",
-      "options": ["has found", "finds", "finding", "was found"],
+      "options": [
+        "Know Your Customer",
+        "Keep Your Capital",
+        "Key Yield Calculation",
+        "Knowledge Yardstick Criteria"
+      ],
+      "explanation": "KYC (Know Your Customer) is a standard in the investment industry that ensures advisors know detailed information about their clients' risk tolerance, investment knowledge, and financial position.",
       "answerIndex": 0,
-      "explanation": "Present Perfect for a recent discovery."
+      "prompt": "In the context of AML regulations, what does 'KYC' stand for?"
     },
     {
-      "id": "fin-b2-w9-17",
-      "type": "multipleChoice",
-      "prompt": "A 'Statutory Audit' is one that is:",
-      "options": ["Optional", "Required by law", "Only for small businesses", "Done by the CEO"],
-      "answerIndex": 1,
-      "explanation": "Statutory means required by statute (law)."
+      "id": "finance-b2-w9-q6",
+      "type": "fillBlanks",
+      "explanation": "The Subject + passive + to have + past participle structure.",
+      "prompt": "The data breach ________ (think / occur) because of a weak firewall in the subsidiary's server.",
+      "answers": [
+        "is thought to have occurred"
+      ]
     },
     {
-      "id": "fin-b2-w9-18",
+      "id": "finance-b2-w9-q7",
       "type": "multipleChoice",
-      "prompt": "It ___ (think) that the company is over-leveraged.",
-      "options": ["thinks", "is thought", "was thinking", "has thought"],
+      "options": [
+        "A bank error",
+        "The difference between budgeted and actual figures",
+        "A type of audit evidence",
+        "A regulatory fine"
+      ],
+      "explanation": "Variance is the difference between what was expected (budget) and what actually happened.",
       "answerIndex": 1,
-      "explanation": "Complex passive for expressing current professional opinion."
+      "prompt": "What is a 'Variance' in financial reporting?"
     },
     {
-      "id": "fin-b2-w9-19",
-      "type": "multipleChoice",
-      "prompt": "What is 'Forensic Accounting'?",
-      "options": ["Accounting for outdoor events", "Use of accounting skills to investigate fraud or embezzlement", "Accounting for old companies", "Accounting for the medical industry"],
-      "answerIndex": 1,
-      "explanation": "Forensic accounting is often used in legal proceedings."
+      "id": "finance-b2-w9-q8",
+      "type": "fillBlanks",
+      "explanation": "Passive gerund after verbs like 'dislike' or 'avoid'.",
+      "prompt": "Most departments prefer to avoid ________ (audit) more than once a year.",
+      "answers": [
+        "being audited"
+      ]
     },
     {
-      "id": "fin-b2-w9-20",
+      "id": "finance-b2-w9-q9",
       "type": "multipleChoice",
-      "prompt": "The financial statements ___ (audit) annually by an external firm.",
-      "options": ["audit", "are audited", "were audited", "have audited"],
-      "answerIndex": 1,
-      "explanation": "Present passive for a regular, repeating process."
+      "options": [
+        "A US law increasing requirements for financial transparency",
+        "A European data protection regulation",
+        "An international treaty on corporate tax",
+        "A software for audit management"
+      ],
+      "explanation": "The Sarbanes-Oxley Act (SOX) of 2002 is a US federal law that mandated strict reforms to existing securities regulations and imposed harsh penalties on lawbreakers.",
+      "answerIndex": 0,
+      "prompt": "What is the primary purpose of the 'SOX' Act?"
     },
     {
-      "id": "fin-b2-w9-21",
-      "type": "multipleChoice",
-      "prompt": "An 'unqualified opinion' in an audit report means:",
-      "options": ["The auditor is not qualified", "The financial statements are fair and transparent", "The auditor found many errors", "The audit was not completed"],
-      "answerIndex": 1,
-      "explanation": "An unqualified (or 'clean') opinion is the best result for a company."
+      "id": "finance-b2-w9-q10",
+      "type": "fillBlanks",
+      "explanation": "Reconciliation is the process of matching two sets of records.",
+      "prompt": "The accountant spent the whole afternoon ________ (match) the internal records with the bank statement.",
+      "answers": [
+        "reconciling"
+      ]
     },
     {
-      "id": "fin-b2-w9-22",
-      "type": "multipleChoice",
-      "prompt": "It ___ (estimate) that the loss exceeds $1 million.",
-      "options": ["estimates", "is estimated", "was estimating", "has estimated"],
-      "answerIndex": 1,
-      "explanation": "Complex passive for stating estimates."
+      "id": "finance-b2-w9-reading-1",
+      "type": "reading-comprehension",
+      "title": "The Whistleblower's Dilemma: Fraud and Integrity",
+      "text": "In the world of corporate finance, the **internal audit** team is often viewed as the final line of defense against fraud. However, what happens when the fraud is orchestrated by those at the top? This is the whistleblower's dilemma. Whistleblowers are individuals who expose secretive information or activity within an organization that is deemed illegal or unethical. \n\nRecent history is replete with examples where massive financial discrepancies **were found to have been hidden** for years through complex accounting tricks. These cases often involve a lack of **fiduciary duty**, where executives prioritize personal gain over the interests of shareholders. In many jurisdictions, laws like SOX provide protection for whistleblowers, yet the fear of **retaliation** remains a significant deterrent. It **is widely believed** that for every reported case of fraud, several others go undetected due to a corporate culture of silence. Furthermore, the **materiality** of certain small but recurring errors can be overlooked by auditors, which, when aggregated over time, can lead to systemic collapse.",
+      "vocabularyHelp": [
+        {
+          "word": "internal audit",
+          "definition": "An independent, objective assurance and consulting activity designed to add value and improve an organization's operations."
+        },
+        {
+          "word": "fiduciary duty",
+          "definition": "A legal obligation of one party to act in the best interest of another (e.g., a CEO's duty to shareholders)."
+        },
+        {
+          "word": "retaliation",
+          "definition": "Harmful action taken by an employer against an employee for exercising a legal right, such as whistleblowing."
+        },
+        {
+          "word": "materiality",
+          "definition": "The threshold at which an error or omission in financial statements becomes significant enough to mislead a user."
+        }
+      ],
+      "questions": [
+        {
+          "question": "According to the text, why do many cases of fraud go undetected?",
+          "options": [
+            "Lack of technology",
+            "A corporate culture of silence",
+            "Too many whistleblowers",
+            "High fiduciary duty"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text states: 'It is widely believed that... several others go undetected due to a corporate culture of silence.'"
+        },
+        {
+          "question": "What is the role of SOX in the context of whistleblowing?",
+          "options": [
+            "It encourages executives to hide fraud",
+            "It provides legal protection for those who expose illegal activity",
+            "It makes auditing illegal",
+            "It eliminates the need for fiduciary duty"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text mentions that 'laws like SOX provide protection for whistleblowers'."
+        },
+        {
+          "question": "Analyze the grammar: 'discrepancies were found to have been hidden'. What does this structure emphasize?",
+          "options": [
+            "A future action",
+            "A present continuous state",
+            "A past action reported impersonally",
+            "A direct order"
+          ],
+          "answerIndex": 2,
+          "explanation": "The structure 'Subject + passive + to have been + past participle' is used to report a past completed action or state impersonally."
+        }
+      ]
     },
     {
-      "id": "fin-b2-w9-23",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Management Letter'?",
-      "options": ["A letter to a friend", "A document from the auditor to management identifying internal control weaknesses", "A list of employee salaries", "A bank statement"],
-      "answerIndex": 1,
-      "explanation": "The management letter provides recommendations for improvement after an audit."
-    },
-    {
-      "id": "fin-b2-w9-24",
-      "type": "multipleChoice",
-      "prompt": "The tax returns ___ (submit) before the deadline last month.",
-      "options": ["submit", "were submitted", "have submitted", "are submitted"],
-      "answerIndex": 1,
-      "explanation": "Past passive for a completed action."
-    },
-    {
-      "id": "fin-b2-w9-25",
-      "type": "multipleChoice",
-      "prompt": "What does 'Due Diligence' mean in a financial context?",
-      "options": ["Working very hard", "A comprehensive appraisal of a business by a prospective buyer", "Paying bills on time", "Signing a contract"],
-      "answerIndex": 1,
-      "explanation": "Due diligence is essential before mergers and acquisitions."
-    },
-    {
-      "id": "fin-b2-w9-26",
-      "type": "multipleChoice",
-      "prompt": "It ___ (understand) that the CEO will resign next year.",
-      "options": ["understands", "is understood", "was understanding", "has understood"],
-      "answerIndex": 1,
-      "explanation": "Complex passive for reporting widespread expectations."
-    },
-    {
-      "id": "fin-b2-w9-27",
-      "type": "multipleChoice",
-      "prompt": "A 'Qualified Opinion' means the auditor:",
-      "options": ["Is very happy with the results", "Has some reservations about the financial statements", "Refuses to sign the report", "Found no errors"],
-      "answerIndex": 1,
-      "explanation": "A qualified opinion suggests that most items are fair, but there are specific issues."
-    },
-    {
-      "id": "fin-b2-w9-28",
-      "type": "multipleChoice",
-      "prompt": "The assets ___ (value) at market price in the balance sheet.",
-      "options": ["value", "are valued", "were valuing", "have valued"],
-      "answerIndex": 1,
-      "explanation": "Present passive for a standard accounting practice."
-    },
-    {
-      "id": "fin-b2-w9-29",
-      "type": "multipleChoice",
-      "prompt": "What is 'Internal Control'?",
-      "options": ["The manager's personality", "Procedures used by a company to safeguard its assets and ensure accurate records", "The bank's air conditioning system", "A type of firewall"],
-      "answerIndex": 1,
-      "explanation": "Internal controls prevent fraud and errors."
-    },
-    {
-      "id": "fin-b2-w9-30",
-      "type": "multipleChoice",
-      "prompt": "It ___ (ascertain) that the funds were misappropriated.",
-      "options": ["ascertains", "was ascertained", "is ascertaining", "has ascertained"],
-      "answerIndex": 1,
-      "explanation": "Past passive for reporting a proven fact after investigation."
-    },
-    {
-      "id": "fin-b2-w9-31",
-      "type": "multipleChoice",
-      "prompt": "What is 'SOX' (Sarbanes-Oxley Act)?",
-      "options": ["A type of footwear", "A US law that set new or expanded requirements for all US public company boards", "A new bank branch", "A type of tax"],
-      "answerIndex": 1,
-      "explanation": "SOX was passed to protect investors from corporate fraud."
-    },
-    {
-      "id": "fin-b2-w9-32",
-      "type": "multipleChoice",
-      "prompt": "The board members ___ (inform) of the audit results yesterday.",
-      "options": ["inform", "were informed", "have informed", "are informed"],
-      "answerIndex": 1,
-      "explanation": "Past passive for 'yesterday'."
-    },
-    {
-      "id": "fin-b2-w9-33",
-      "type": "multipleChoice",
-      "prompt": "What is an 'Adverse Opinion'?",
-      "options": ["A very positive report", "A report stating that financial statements do not fairly represent the company's position", "A report that is missing pages", "A report about a competitor"],
-      "answerIndex": 1,
-      "explanation": "An adverse opinion is a serious red flag for any organization."
-    },
-    {
-      "id": "fin-b2-w9-34",
-      "type": "multipleChoice",
-      "prompt": "It ___ (assume) that the merger will create significant synergies.",
-      "options": ["assumes", "is assumed", "was assuming", "has assumed"],
-      "answerIndex": 1,
-      "explanation": "Complex passive for stating assumptions."
-    },
-    {
-      "id": "fin-b2-w9-35",
-      "type": "multipleChoice",
-      "prompt": "What is 'Asset Misappropriation'?",
-      "options": ["Buying new assets", "The theft of an entity's assets (e.g., embezzlement)", "Selling assets for a profit", "Fixing assets"],
-      "answerIndex": 1,
-      "explanation": "Asset misappropriation is the most common form of internal fraud."
-    },
-    {
-      "id": "fin-b2-w9-36",
-      "type": "multipleChoice",
-      "prompt": "The records ___ (examine) by the regulatory authority next month.",
-      "options": ["examine", "will be examined", "were examined", "are examined"],
-      "answerIndex": 1,
-      "explanation": "Future passive for a scheduled event."
-    },
-    {
-      "id": "fin-b2-w9-37",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Disclaimer of Opinion'?",
-      "options": ["A very short report", "When the auditor is unable to complete the report or express an opinion", "An opinion given by a lawyer", "A report that is published online"],
-      "answerIndex": 1,
-      "explanation": "This happens if the auditor cannot get enough evidence."
-    },
-    {
-      "id": "fin-b2-w9-38",
-      "type": "multipleChoice",
-      "prompt": "It ___ (know) that the company has a high debt-to-equity ratio.",
-      "options": ["knows", "is known", "was knowing", "has known"],
-      "answerIndex": 1,
-      "explanation": "Complex passive for stating well-known facts."
-    },
-    {
-      "id": "fin-b2-w9-39",
-      "type": "multipleChoice",
-      "prompt": "What is 'Working Papers' in auditing?",
-      "options": ["The company's stationery", "The records kept by the auditor of the procedures followed and the tests performed", "A list of employee tasks", "Blank pages for notes"],
-      "answerIndex": 1,
-      "explanation": "Working papers support the auditor's final opinion."
-    },
-    {
-      "id": "fin-b2-w9-40",
-      "type": "multipleChoice",
-      "prompt": "The budget ___ (approve) by the CFO this morning.",
-      "options": ["approve", "was approved", "has approved", "is approved"],
-      "answerIndex": 1,
-      "explanation": "Past passive for a recent completed action."
-    },
-    {
-      "id": "fin-b2-w9-41",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Risk Assessment'?",
-      "options": ["Calculating the cost of a loan", "Identifying and analyzing potential risks to an organization's objectives", "Checking the stock price", "Hiring more security guards"],
-      "answerIndex": 1,
-      "explanation": "Risk assessment is a fundamental part of the audit process."
-    },
-    {
-      "id": "fin-b2-w9-42",
-      "type": "multipleChoice",
-      "prompt": "It ___ (claim) that the software will reduce audit time by 20%.",
-      "options": ["claims", "is claimed", "was claiming", "has claimed"],
-      "answerIndex": 1,
-      "explanation": "Complex passive for reporting claims."
-    },
-    {
-      "id": "fin-b2-w9-43",
-      "type": "multipleChoice",
-      "prompt": "What is 'Creative Accounting'?",
-      "options": ["Accounting for artists", "Manipulating financial data to make a company look better than it is", "Designing new bank notes", "Accounting for marketing firms"],
-      "answerIndex": 1,
-      "explanation": "Creative accounting is often unethical and can lead to scandals."
-    },
-    {
-      "id": "fin-b2-w9-44",
-      "type": "multipleChoice",
-      "prompt": "The new policy ___ (announce) to all staff last Friday.",
-      "options": ["announce", "was announced", "has announced", "is announced"],
-      "answerIndex": 1,
-      "explanation": "Past passive for 'last Friday'."
-    },
-    {
-      "id": "fin-b2-w9-45",
-      "type": "multipleChoice",
-      "prompt": "What is an 'Internal Audit Charter'?",
-      "options": ["A map of the bank", "A formal document that defines the internal audit activity's purpose, authority, and responsibility", "A list of bank customers", "An auditor's contract"],
-      "answerIndex": 1,
-      "explanation": "The charter establishes the internal audit department's position."
-    },
-    {
-      "id": "fin-b2-w9-46",
-      "type": "multipleChoice",
-      "prompt": "It ___ (verify) that all physical inventory matches the records.",
-      "options": ["verifies", "was verified", "is verifying", "has verified"],
-      "answerIndex": 1,
-      "explanation": "Past passive for a completed verification task."
-    },
-    {
-      "id": "fin-b2-w9-47",
-      "type": "multipleChoice",
-      "prompt": "What is 'Corporate Governance'?",
-      "options": ["The government's bank", "The system of rules, practices, and processes by which a company is directed and controlled", "Buying other companies", "A type of insurance"],
-      "answerIndex": 1,
-      "explanation": "Good corporate governance ensures accountability and transparency."
-    },
-    {
-      "id": "fin-b2-w9-48",
-      "type": "multipleChoice",
-      "prompt": "The accounts ___ (reconcile) every month.",
-      "options": ["reconcile", "are reconciled", "were reconciled", "have reconciled"],
-      "answerIndex": 1,
-      "explanation": "Present passive for a regular task."
-    },
-    {
-      "id": "fin-b2-w9-49",
-      "type": "multipleChoice",
-      "prompt": "What is 'Window Dressing' in accounting?",
-      "options": ["Decorating the branch windows", "Making a company's financial position look better than it is at year-end", "Buying new office furniture", "Changing the bank's logo"],
-      "answerIndex": 1,
-      "explanation": "Window dressing is a form of creative accounting."
-    },
-    {
-      "id": "fin-b2-w9-50",
-      "type": "multipleChoice",
-      "prompt": "It ___ (reveal) that the manager had been overriding controls.",
-      "options": ["reveals", "was revealed", "is revealing", "has revealed"],
-      "answerIndex": 1,
-      "explanation": "Past passive for reporting a discovered fact."
+      "id": "finance-b2-w9-listening-1",
+      "type": "listening-comprehension",
+      "title": "A Risk-Based Approach to Auditing",
+      "transcript": "Senior Auditor: Okay, team, as we start the Q4 audit, I want us to focus on a **Risk-Based** approach. We don't have the resources to vouch every single transaction.\n\nJunior: So, how do we decide what to prioritize?\n\nSenior Auditor: We look at **high-risk areas**. For instance, the **revenue recognition** process is always a focus. It **is alleged** that some sales were recorded before the goods actually left the warehouse. \n\nJunior: That would be a material misstatement, right?\n\nSenior Auditor: Exactly. We also need to check the **segregation of duties**. If the same person who authorizes a payment also records it in the system, the **controls** are effectively useless. We'll be performimg a series of **substantive tests** on large invoices. If the paper trail **is found to have been tampered** with, we'll need to expand our scope significantly. Remember, our goal is to provide a 'true and fair view'.",
+      "vocabularyHelp": [
+        {
+          "word": "Risk-Based",
+          "definition": "An auditing approach that focuses resources on the areas of highest risk within an organization."
+        },
+        {
+          "word": "revenue recognition",
+          "definition": "A standard accounting principle that identifies the specific conditions under which revenue is recognized or accounted for."
+        },
+        {
+          "word": "segregation of duties",
+          "definition": "An internal control designed to prevent error and fraud by ensuring that at least two individuals are responsible for the separate parts of any task."
+        },
+        {
+          "word": "substantive tests",
+          "definition": "Audit procedures designed to detect material misstatements at the assertion level."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Why is the team using a 'Risk-Based' approach?",
+          "options": [
+            "Because they have too many auditors",
+            "Because they don't have the resources to check every transaction",
+            "Because the law requires it for all audits",
+            "To avoid checking revenue recognition"
+          ],
+          "answerIndex": 1,
+          "explanation": "The Senior Auditor mentions: 'We don't have the resources to vouch every single transaction'."
+        },
+        {
+          "question": "What is the concern regarding 'revenue recognition'?",
+          "options": [
+            "Sales are too low",
+            "Sales might have been recorded before delivery",
+            "The warehouse is empty",
+            "The company is giving too many discounts"
+          ],
+          "answerIndex": 1,
+          "explanation": "The Senior Auditor says: 'It is alleged that some sales were recorded before the goods actually left the warehouse'."
+        },
+        {
+          "question": "What does 'segregation of duties' aim to prevent?",
+          "options": [
+            "Employees working overtime",
+            "Error and fraud by ensuring tasks are split between different people",
+            "Higher taxes",
+            "Internal audits"
+          ],
+          "answerIndex": 1,
+          "explanation": "Segregation of duties ensures that one person doesn't control all parts of a transaction, reducing fraud risk."
+        }
+      ]
     }
   ]
 }

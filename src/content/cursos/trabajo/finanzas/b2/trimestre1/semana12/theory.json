@@ -1,14 +1,25 @@
 {
-  "title": "Week 12: B2 Trimester 1 Final Assessment",
-  "content": "# Final Assessment: Trimester 1 (B2 Level)\n\nCongratulations on completing the first trimester of the B2 Banking and Finance course. This week is focused on evaluating your mastery of advanced financial concepts and professional communication.\n\n## Assessment Content\nThe final exam is comprehensive and covers:\n1. **Advanced Financial Reporting**: Deep dive into P&L, Balance Sheets, and Cash Flow.\n2. **Managerial Accounting**: Variance analysis and KPI tracking.\n3. **Auditing and Governance**: Internal/External audit procedures and regulatory compliance.\n4. **Grammar & Register**: Mastery of passive voice, reporting verbs, and modals of deduction.\n\n## Structure\n- **Vocabulary Check**: Technical terms and financial jargon.\n- **Case Study Analysis**: Interpreting metrics and data.\n- **Grammar in Context**: Writing and identifying correct formal structures.\n\nGood luck with your final evaluation!",
-  "objectives": [
-    "Verify proficiency in B2 level financial vocabulary",
-    "Successfully analyze and interpret complex financial data",
-    "Correctively apply advanced grammar for financial reporting"
-  ],
-  "keyTerms": [
-    { "term": "Assessment", "definition": "A formal evaluation of a student's learning." },
-    { "term": "Certification", "definition": "Official document attesting to a status or level of achievement." },
-    { "term": "Excellence", "definition": "The quality of being outstanding or extremely good." }
+  "title": "Trimestre 1 Review: Advanced Banking and Finance",
+  "sections": [
+    {
+      "id": "recap-month-1",
+      "title": "Month 1 Recap: Reporting and Taxation",
+      "content": "The first month focused on the core foundations of financial reporting and the complexities of international tax.\n\n### Key Financial Statements\n- **Balance Sheet, P&L, and Cash Flow**: Understanding how these statements interact (e.g., how net income flows into retained earnings).\n- **Ratio Analysis**: Using the **DuPont Model** to break down ROE into profit margin, asset turnover, and financial leverage.\n\n### Global Taxation and BEPS\n- **Transfer Pricing**: The pricing of goods/services between related entities to ensure 'arm’s length' transactions.\n- **BEPS (Base Erosion and Profit Shifting)**: OECD strategies to prevent multinational firms from shifting profits to low-tax jurisdictions."
+    },
+    {
+      "id": "recap-month-2",
+      "title": "Month 2 Recap: Risk, Trade, and Markets",
+      "content": "Month 2 expanded into the tools used to manage global risk and raise capital.\n\n### Risk Management\n- **VaR (Value at Risk)** and **Stress Testing** for market stability.\n- **Derivatives**: Using Options, Futures, and Swaps to hedge against volatility.\n\n### International Trade Finance\n- **Letters of Credit (LC)** and **Bills of Lading (B/L)** as trust mechanisms.\n- **Incoterms 2020**: Defining risk transfer in global logistics (FOB, CIF, DDP).\n\n### Capital Markets (ECM/DCM)\n- **The IPO Process**: Underwriting, roadshows, and valuation.\n- **Debt Markets**: Bond mechanics (coupons, yields, ratings) and the 'search for yield' in the high-yield market."
+    },
+    {
+      "id": "recap-month-3",
+      "title": "Month 3 Recap: Audit, KPIs, and Governance",
+      "content": "The final month focused on integrity, performance measurement, and the ethical framework of finance.\n\n### Internal Audit and Compliance\n- **Audit Procedures**: Vouching, tracing, and reconciliation.\n- **Regulatory Frameworks**: SOX, AML, and KYC.\n\n### Performance Measurement\n- **Advanced KPIs**: EBITDA, ROCE, and the Quick Ratio.\n- **Variance Analysis**: Understanding favorable vs. adverse variances through 'drill-down' analysis on dashboards.\n\n### Corporate Governance and Ethics\n- **Board Structures**: Unitary vs. Dual systems.\n- **Ethical Dilemmas**: Creative accounting, insider trading, and the **Agency Problem**.\n- **ESG**: The growing importance of Environmental, Social, and Governance criteria in investment."
+    },
+    {
+      "id": "grammar-comprehensive-review",
+      "title": "Grammar: Master Review for Finance Professionals",
+      "content": "Review these eight key structures to ensure professional accuracy in your final assessment.\n\n1. **Future Forms**: Predictions and commitments (*\"We will achieve...\"*, *\"We are going to...\"*).\n2. **Advanced Conditionals**: Speculating about risk (*\"If the Fed raises rates, we might...\"*).\n3. **Reporting Verbs**: Precise communication (*\"The analyst suggested waiting.\"*).\n4. **Mixed Conditionals**: Linking past causes to present effects (*\"If they had hedged, they wouldn't be...\"*).\n5. **Participle Clauses**: Concise reporting (*\"Having secured the deal, the CEO...\"*).\n6. **Complex Passives**: Impersonal audit findings (*\"It is alleged that...\"*, *\"The errors were found to have been...\"*).\n7. **Modals of Deduction**: Interpreting trends (*\"Sales must have increased due to...\"*).\n8. **The Subjunctive**: Recommendations (*\"We recommend that the board approve...\"*)."
+    }
   ]
 }

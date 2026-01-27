@@ -744,6 +744,84 @@
           "col": 0
         }
       ]
+    },
+    {
+      "id": "finance-b2-w2-reading-authentic",
+      "type": "reading-comprehension",
+      "title": "The Big Four and the Challenge of Audit Quality",
+      "instructions": "Read the following article about the audit industry and answer the comprehension questions.",
+      "text": "The global auditing landscape is dominated by the 'Big Four' firms: Deloitte, PwC, EY, and KPMG. These giants provide assurance services to the vast majority of public companies worldwide. However, the concentration of the market has led to significant regulatory scrutiny regarding audit quality and independence.\n\nSince the collapse of Enron and the subsequent passage of the Sarbanes-Oxley Act in 2002, the role of the auditor has been under a microscope. Regulators, such as the PCAOB in the United States and the FRC in the UK, have consistently pushed for higher standards. The primary concern is that auditors may prioritize their lucrative consulting relationships with clients over their fiduciary duty to shareholders. This perceived conflict of interest can lead to an impairment of objectivity.\n\nRecent high-profile failures, such as the Wirecard scandal in Germany, have reignited the debate over whether the Big Four should be forced to separate their audit and consulting arms. Critics argue that a 'clean' audit opinion from a firm that also provides tax advice or digital transformation services lacks credibility. Proponents of the current model, however, maintain that consulting expertise is necessary to understand the complex business models of modern corporations. Regardless of the outcome of this debate, the expectation for auditors to detect material misstatements and fraud remains higher than ever.",
+      "vocabularyHelp": [
+        { "word": "scrutiny", "meaning": "critical observation or examination" },
+        { "word": "material misstatement", "meaning": "information in financial statements that is sufficiently incorrect that it may impact the economic decisions of users" },
+        { "word": "fiduciary duty", "meaning": "a legal obligation of one party to act in the best interest of another" },
+        { "word": "impairment", "meaning": "the state of being weakened, damaged, or diminished" },
+        { "word": "objectivity", "meaning": "the quality of being able to make decisions based on facts rather than on feelings or beliefs" }
+      ],
+      "questions": [
+        {
+          "id": "finance-b2-w2-reading-authentic-q1",
+          "type": "multiple-choice",
+          "question": "What is the primary concern regarding the Big Four's market dominance?",
+          "options": [
+            "They don't have enough employees to handle the work.",
+            "Regulatory scrutiny might lead to lower audit fees.",
+            "Consulting relationships might compromise audit independence.",
+            "They only focus on small, private companies."
+          ],
+          "correctAnswer": "Consulting relationships might compromise audit independence.",
+          "explanation": "The text mentions that regulators are concerned auditors might prioritize lucrative consulting work over their duty to shareholders."
+        },
+        {
+          "id": "finance-b2-w2-reading-authentic-q2",
+          "type": "multiple-choice",
+          "question": "What was a major legislative response to the Enron scandal?",
+          "options": [
+            "The formation of the Big Four",
+            "The Sarbanes-Oxley Act",
+            "The dissolution of Wirecard",
+            "The creation of IFRS"
+          ],
+          "correctAnswer": "The Sarbanes-Oxley Act",
+          "explanation": "The text states the Sarbanes-Oxley Act was passed in 2002 following the collapse of Enron."
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w2-listening-authentic",
+      "type": "listening-comprehension",
+      "title": "Podcast: The Agency Problem and Executive Incentives",
+      "instructions": "Listen to the discussion between a financial analyst and a governance expert.",
+      "audioUrl": "https://example.com/audio/finance/b2/w2/agency-problem.mp3",
+      "transcript": "Host: Welcome back to The Finance Hub. Today we're discussing the 'Agency Problem'—that classic conflict of interest in corporate governance. Joining us is Dr. Elena Rossi.\n\nDr. Rossi: Thanks for having me. Simply put, the agency problem occurs because management—the 'agents'—don't always have the same interests as the 'principals', the shareholders. Managers might want to maximize their own bonuses or pursue growth for the sake of prestige, rather than maximizing shareholder value.\n\nHost: So how do we align these interests?\n\nDr. Rossi: The most common tool is executive compensation. We see a lot of stock options and performance-based bonuses. The idea is that if the CEO's wealth is tied to the stock price, they will make decisions that benefit shareholders. However, this can also backfire if it encourages short-termism—where managers manipulate earnings to meet quarterly targets rather than building long-term value.\n\nHost: And that's where the Board of Directors comes in, right?\n\nDr. Rossi: Exactly. The Board has a fiduciary duty to oversee management. But if the Board is too 'cozy' with the CEO, or if they lack diversity and independent voices, the oversight fails. That's why we're seeing such a strong push for independent directors and shareholder activism lately.",
+      "questions": [
+        {
+          "id": "finance-b2-w2-listening-authentic-q1",
+          "type": "multiple-choice",
+          "question": "According to Dr. Rossi, who are the 'agents' in the agency problem?",
+          "options": [
+            "The shareholders",
+            "The company's customers",
+            "The management team",
+            "The external auditors"
+          ],
+          "correctAnswer": "The management team",
+          "explanation": "Dr. Rossi explicitly defines management as the 'agents' and shareholders as the 'principals'."
+        },
+        {
+          "id": "finance-b2-w2-listening-authentic-q2",
+          "type": "multiple-choice",
+          "question": "What is a potential downside of using stock options to align interests?",
+          "options": [
+            "It makes the CEO's salary too low.",
+            "It may encourage short-termism and earnings manipulation.",
+            "It prevents the company from hiring independent directors.",
+            "It is illegal under the Sarbanes-Oxley Act."
+          ],
+          "correctAnswer": "It may encourage short-termism and earnings manipulation.",
+          "explanation": "The transcript mentions that tying wealth to stock prices can encourage managers to manipulate earnings to meet short-term targets."
+        }
+      ]
     }
   ]
 }

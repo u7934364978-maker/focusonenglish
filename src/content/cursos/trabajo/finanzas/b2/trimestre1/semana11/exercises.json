@@ -3,408 +3,236 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana11",
-  "title": "Comprehensive B2 Review Exercises",
-  "description": "Advanced practice covering P&L, Auditing, and financial speculation.",
+  "title": "Corporate Governance, Ethics, and ESG",
+  "description": "Exercises on board structures, fiduciary duty, ESG criteria, and the subjunctive mood (50 items).",
   "items": [
     {
-      "id": "fin-b2-w11-1",
+      "id": "finance-b2-w11-q1",
       "type": "multipleChoice",
-      "prompt": "What is 'Depreciation'?",
-      "options": ["Increase in asset value", "Decrease in asset value over time due to wear and tear", "A bank fee", "The interest paid on a loan"],
+      "options": [
+        "A board where all directors are employees",
+        "A single board of directors with both executive and non-executive members",
+        "A system with two separate boards: Management and Supervisory",
+        "A board that only meets once a year"
+      ],
+      "explanation": "A unitary board is a single body that is collectively responsible for the management and oversight of the company.",
       "answerIndex": 1,
-      "explanation": "Depreciation is the accounting process of allocating the cost of tangible assets."
+      "prompt": "What defines a 'Unitary Board' structure?"
     },
     {
-      "id": "fin-b2-w11-2",
-      "type": "multipleChoice",
-      "prompt": "Which statement shows a company's financial position at a specific point in time?",
-      "options": ["Income Statement", "Balance Sheet", "Cash Flow Statement", "Tax Return"],
-      "answerIndex": 1,
-      "explanation": "The Balance Sheet is a 'snapshot' of a company's health."
+      "id": "finance-b2-w11-q2",
+      "type": "fillBlanks",
+      "explanation": "Subjunctive mood after 'recommend'.",
+      "prompt": "The ethics committee recommends that the company ________ (update) its whistleblower policy immediately.",
+      "answers": [
+        "update"
+      ]
     },
     {
-      "id": "fin-b2-w11-3",
+      "id": "finance-b2-w11-q3",
       "type": "multipleChoice",
-      "prompt": "Which audit procedure confirms the existence of physical assets?",
-      "options": ["Vouching", "Verification", "Amortization", "Reconciliation"],
-      "answerIndex": 1,
-      "explanation": "Verification involves physically checking the assets."
-    },
-    {
-      "id": "fin-b2-w11-4",
-      "type": "multipleChoice",
-      "prompt": "The CFO ___ (must / have) been aware of the discrepancy; it was huge!",
-      "options": ["must have", "should have", "might have", "can't have"],
+      "options": [
+        "The legal obligation of directors to act in the best interest of the company and its shareholders",
+        "A tax paid by financial institutions",
+        "A type of insurance for executives",
+        "The duty to hire only family members"
+      ],
+      "explanation": "Fiduciary duty is a legal relationship of trust between two or more parties, most commonly between board directors and shareholders.",
       "answerIndex": 0,
-      "explanation": "Use 'must have' for strong deduction about a past event."
+      "prompt": "What is 'Fiduciary Duty'?"
     },
     {
-      "id": "fin-b2-w11-5",
+      "id": "finance-b2-w11-q4",
+      "type": "fillBlanks",
+      "explanation": "Subjunctive mood after 'essential'.",
+      "prompt": "It is essential that every board member ________ (disclose) any potential conflict of interest.",
+      "answers": [
+        "disclose"
+      ]
+    },
+    {
+      "id": "finance-b2-w11-q5",
       "type": "multipleChoice",
-      "prompt": "What does a 'Current Ratio' of 2.0 indicate?",
-      "options": ["The company has twice as much debt as equity", "The company has $2 in current assets for every $1 in current liabilities", "The company's profit is 2%", "The company has no cash"],
+      "options": [
+        "Efficient, Stable, and Growing",
+        "Environmental, Social, and Governance",
+        "Equity, Securities, and Gains",
+        "Economic, Strategic, and Global"
+      ],
+      "explanation": "ESG refers to the three central factors in measuring the sustainability and societal impact of an investment in a company or business.",
       "answerIndex": 1,
-      "explanation": "A ratio of 2.0 is generally considered a healthy liquidity position."
+      "prompt": "What does 'ESG' stand for in sustainable investing?"
     },
     {
-      "id": "fin-b2-w11-6",
+      "id": "finance-b2-w11-q6",
+      "type": "fillBlanks",
+      "explanation": "Subjunctive mood after 'insist'.",
+      "prompt": "The shareholders insist that the CEO ________ (resign / not) until the investigation is complete.",
+      "answers": [
+        "not resign"
+      ]
+    },
+    {
+      "id": "finance-b2-w11-q7",
       "type": "multipleChoice",
-      "prompt": "In accounting, what is an 'Accrual'?",
-      "options": ["A type of bank loan", "Recognizing an expense or revenue before the cash is exchanged", "Closing the office", "A tax refund"],
+      "options": [
+        "A conflict between a company and its competitors",
+        "A conflict of interest where agents (managers) do not act in the best interest of principals (shareholders)",
+        "A problem with the company's travel agency",
+        "The difficulty of hiring new staff"
+      ],
+      "explanation": "The agency problem is a conflict of interest where the interests of the management (agents) may not align with those of the shareholders (principals).",
       "answerIndex": 1,
-      "explanation": "Accrual accounting records financial events based on occurrence."
+      "prompt": "What is the 'Agency Problem' in corporate governance?"
     },
     {
-      "id": "fin-b2-w11-7",
-      "type": "multipleChoice",
-      "prompt": "Which of these is a 'Solvency' metric?",
-      "options": ["Net Profit Margin", "Current Ratio", "Debt-to-Equity Ratio", "Gross Profit"],
-      "answerIndex": 2,
-      "explanation": "Solvency ratios measure long-term financial stability."
+      "id": "finance-b2-w11-q8",
+      "type": "fillBlanks",
+      "explanation": "Creative accounting involves manipulating figures within legal loopholes.",
+      "prompt": "The practice of using accounting loopholes to hide debt and make a company look more profitable than it is is called ________ accounting.",
+      "answers": [
+        "creative"
+      ]
     },
     {
-      "id": "fin-b2-w11-8",
+      "id": "finance-b2-w11-q9",
       "type": "multipleChoice",
-      "prompt": "Which verb is typically used for a formal finding? 'It was ___ that the procedures were not followed.'",
-      "options": ["said", "observed", "noted", "both observed and noted"],
-      "answerIndex": 3,
-      "explanation": "'Observed' and 'noted' are common professional reporting verbs."
-    },
-    {
-      "id": "fin-b2-w11-9",
-      "type": "multipleChoice",
-      "prompt": "Internal audit reports usually include ___ for improvement.",
-      "options": ["jokes", "recommendations", "threats", "marketing"],
+      "options": [
+        "Someone who sells shares during a crash",
+        "An independent director who provides oversight and challenge to the executive team",
+        "A director who is also the CEO",
+        "A representative of the tax authority"
+      ],
+      "explanation": "Non-executive directors (NEDs) are not part of the executive management team and bring an independent perspective to the board.",
       "answerIndex": 1,
-      "explanation": "Auditors suggest ways to mitigate risks and improve controls."
+      "prompt": "What is the role of a 'Non-Executive Director' (NED)?"
     },
     {
-      "id": "fin-b2-w11-10",
-      "type": "multipleChoice",
-      "prompt": "What is 'Audit Risk'?",
-      "options": ["The risk of the auditor getting lost", "The risk that an auditor expresses an inappropriate opinion on financial statements", "The risk of bank robbery", "The risk of high interest rates"],
-      "answerIndex": 1,
-      "explanation": "Audit risk is the possibility that the auditor fails to find material misstatements."
+      "id": "finance-b2-w11-q10",
+      "type": "fillBlanks",
+      "explanation": "Subjunctive mood after 'vital'.",
+      "prompt": "It is vital that the auditor ________ (be) completely independent from the company's management.",
+      "answers": [
+        "be"
+      ]
     },
     {
-      "id": "fin-b2-w11-11",
-      "type": "multipleChoice",
-      "prompt": "It ___ (expect) that the company will reach its break-even point by year-end.",
-      "options": ["expects", "is expected", "was expecting", "has expected"],
-      "answerIndex": 1,
-      "explanation": "Complex passive for reporting projections."
+      "id": "finance-b2-w11-reading-1",
+      "type": "reading-comprehension",
+      "title": "The Enron Scandal: A Lesson in Governance Failure",
+      "text": "The collapse of Enron in 2001 remains one of the most significant examples of **governance** failure in history. At its height, Enron was the seventh-largest company in the US, yet its success was a mirage. Through a complex web of 'Special Purpose Entities', the company managed to keep billions of dollars of debt off its **balance sheet**. This **creative accounting** allowed the company to maintain a high credit rating and keep its stock price soaring.\n\nThe failure was not just in the accounting, but in the oversight. The board of directors, including the audit committee, failed in their **fiduciary duty** to protect shareholders. Furthermore, Enron's external auditors were found to have a significant **conflict of interest**, as they were also receiving millions in consulting fees from the firm they were auditing. The scandal led to the dissolution of Arthur Andersen and the passage of the SOX Act. It is now imperative that every public company **maintain** a clear **segregation of duties** and that auditors **remain** strictly independent. If the board **had questioned** the complex transactions more aggressively, the largest bankruptcy in US history **might have been** avoided.",
+      "vocabularyHelp": [
+        {
+          "word": "governance",
+          "definition": "The system of rules, practices, and processes by which a firm is directed and controlled."
+        },
+        {
+          "word": "balance sheet",
+          "definition": "A financial statement that reports a company's assets, liabilities, and shareholder equity at a specific point in time."
+        },
+        {
+          "word": "fiduciary duty",
+          "definition": "The legal and ethical obligation of a party to act in the best interest of another."
+        },
+        {
+          "word": "segregation of duties",
+          "definition": "An internal control designed to prevent fraud and error by ensuring that no single individual has control over all phases of a transaction."
+        }
+      ],
+      "questions": [
+        {
+          "question": "How did Enron hide its debt from investors?",
+          "options": [
+            "By burning the documents",
+            "By using 'Special Purpose Entities' to keep debt off the balance sheet",
+            "By paying off the debt with cash",
+            "By increasing its sales"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text states Enron used 'Special Purpose Entities' to keep billions in debt off the balance sheet."
+        },
+        {
+          "question": "What conflict of interest did Enron's external auditors have?",
+          "options": [
+            "They were also competitors of Enron",
+            "They were receiving consulting fees from the company they were auditing",
+            "They didn't know how to do accounting",
+            "They were related to the CEO"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text mentions the auditors received millions in consulting fees from Enron while also auditing them."
+        },
+        {
+          "question": "Which grammar structure is used in 'It is now imperative that every public company maintain...'?",
+          "options": [
+            "Present Simple",
+            "Subjunctive Mood",
+            "Present Continuous",
+            "Imperative Mood"
+          ],
+          "answerIndex": 1,
+          "explanation": "The use of the bare infinitive 'maintain' after 'It is imperative that' is the subjunctive mood."
+        }
+      ]
     },
     {
-      "id": "fin-b2-w11-12",
-      "type": "multipleChoice",
-      "prompt": "The CFO's signature is missing from the document. He ___ (forget) to sign it before leaving.",
-      "options": ["must have forgotten", "can't have forgotten", "should have forgotten", "won't have forgotten"],
-      "answerIndex": 0,
-      "explanation": "Strong positive deduction about a past action."
-    },
-    {
-      "id": "fin-b2-w11-13",
-      "type": "multipleChoice",
-      "prompt": "Which financial statement is also known as the 'Profit and Loss' statement?",
-      "options": ["Balance Sheet", "Income Statement", "Cash Flow Statement", "Statement of Equity"],
-      "answerIndex": 1,
-      "explanation": "The Income Statement tracks revenue and expenses over a period."
-    },
-    {
-      "id": "fin-b2-w11-14",
-      "type": "multipleChoice",
-      "prompt": "The internal controls ___ (strengthen) following the discovery of the fraud.",
-      "options": ["strengthened", "were strengthened", "are strengthening", "have strengthened"],
-      "answerIndex": 1,
-      "explanation": "Passive voice for reporting a completed action taken by the company."
-    },
-    {
-      "id": "fin-b2-w11-15",
-      "type": "multipleChoice",
-      "prompt": "What does 'EBITDA' stand for?",
-      "options": ["Earnings Before Interest, Taxes, Depreciation, and Amortization", "Every Bank In The District Area", "Electronic Bank International Transaction Data Association", "Earnings Before Income, Tax, Debt, and Assets"],
-      "answerIndex": 0,
-      "explanation": "EBITDA is a common metric for operating performance."
-    },
-    {
-      "id": "fin-b2-w11-16",
-      "type": "multipleChoice",
-      "prompt": "It ___ (believe) that the market will stabilize in the fourth quarter.",
-      "options": ["believes", "is believed", "was believing", "has believed"],
-      "answerIndex": 1,
-      "explanation": "Complex passive for current professional consensus."
-    },
-    {
-      "id": "fin-b2-w11-17",
-      "type": "multipleChoice",
-      "prompt": "A 'Qualified Audit Opinion' indicates that:",
-      "options": ["The auditor is very happy", "There are some issues but the statements are mostly fair", "The auditor found no errors", "The company is bankrupt"],
-      "answerIndex": 1,
-      "explanation": "A qualification highlights specific areas of concern."
-    },
-    {
-      "id": "fin-b2-w11-18",
-      "type": "multipleChoice",
-      "prompt": "The transaction ___ (authorize) by the manager yesterday afternoon.",
-      "options": ["authorize", "was authorized", "has authorized", "is authorized"],
-      "answerIndex": 1,
-      "explanation": "Past passive for 'yesterday'."
-    },
-    {
-      "id": "fin-b2-w11-19",
-      "type": "multipleChoice",
-      "prompt": "What is 'Amortization'?",
-      "options": ["The process of paying off a debt over time", "The spreading of intangible asset costs over their useful life", "Buying new furniture", "Both A and B"],
-      "answerIndex": 3,
-      "explanation": "Amortization applies to both loans and intangible assets."
-    },
-    {
-      "id": "fin-b2-w11-20",
-      "type": "multipleChoice",
-      "prompt": "It ___ (ascertain) during the audit that some invoices were missing.",
-      "options": ["ascertains", "was ascertained", "is ascertaining", "has ascertained"],
-      "answerIndex": 1,
-      "explanation": "Past passive for reporting a discovered fact."
-    },
-    {
-      "id": "fin-b2-w11-21",
-      "type": "multipleChoice",
-      "prompt": "What is the 'Accounting Equation'?",
-      "options": ["Assets = Liabilities + Equity", "Profit = Revenue - Cost", "Cash = Assets - Debt", "Tax = Income * Rate"],
-      "answerIndex": 0,
-      "explanation": "The fundamental equation of the Balance Sheet."
-    },
-    {
-      "id": "fin-b2-w11-22",
-      "type": "multipleChoice",
-      "prompt": "The share price is soaring. Investors ___ (be) optimistic about the merger.",
-      "options": ["must be", "can't be", "shouldn't be", "mightn't be"],
-      "answerIndex": 0,
-      "explanation": "Deduction based on market movement."
-    },
-    {
-      "id": "fin-b2-w11-23",
-      "type": "multipleChoice",
-      "prompt": "What is 'Net Working Capital'?",
-      "options": ["Total Assets - Total Liabilities", "Current Assets - Current Liabilities", "Cash + Inventory", "Fixed Assets - Long-term Debt"],
-      "answerIndex": 1,
-      "explanation": "Net working capital measures operational liquidity."
-    },
-    {
-      "id": "fin-b2-w11-24",
-      "type": "multipleChoice",
-      "prompt": "It ___ (report) that the variance was due to unforeseen exchange rate fluctuations.",
-      "options": ["reports", "is reported", "was reported", "has reported"],
-      "answerIndex": 2,
-      "explanation": "Past passive for reporting finding."
-    },
-    {
-      "id": "fin-b2-w11-25",
-      "type": "multipleChoice",
-      "prompt": "What is an 'Unqualified Audit Opinion'?",
-      "options": ["A bad report", "A 'clean' report with no material misstatements found", "An incomplete report", "A report by an intern"],
-      "answerIndex": 1,
-      "explanation": "An unqualified opinion is the best result."
-    },
-    {
-      "id": "fin-b2-w11-26",
-      "type": "multipleChoice",
-      "prompt": "The budget ___ (finalize) by the end of next week.",
-      "options": ["finalizes", "will be finalized", "was finalized", "is finalized"],
-      "answerIndex": 1,
-      "explanation": "Future passive for a scheduled task."
-    },
-    {
-      "id": "fin-b2-w11-27",
-      "type": "multipleChoice",
-      "prompt": "What is 'Revenue Recognition'?",
-      "options": ["Saying hello to customers", "The accounting principle that determines when revenue is recorded", "Total money in the bank", "A tax return"],
-      "answerIndex": 1,
-      "explanation": "Revenue recognition ensures revenue is recorded when earned."
-    },
-    {
-      "id": "fin-b2-w11-28",
-      "type": "multipleChoice",
-      "prompt": "He didn't get the job. He ___ (perform) well in the interview.",
-      "options": ["mustn't have performed", "can't have performed", "should have performed", "might have performed"],
-      "answerIndex": 1,
-      "explanation": "Negative certainty about a past event."
-    },
-    {
-      "id": "fin-b2-w11-29",
-      "type": "multipleChoice",
-      "prompt": "What is 'COGS'?",
-      "options": ["Cost of Goods Sold", "Corporate General Sales", "Company Operating Green Standards", "Capital On Global Stocks"],
-      "answerIndex": 0,
-      "explanation": "COGS represents the direct costs of producing goods."
-    },
-    {
-      "id": "fin-b2-w11-30",
-      "type": "multipleChoice",
-      "prompt": "It ___ (estimate) that the project will cost $500,000.",
-      "options": ["estimates", "is estimated", "was estimating", "has estimated"],
-      "answerIndex": 1,
-      "explanation": "Complex passive for estimates."
-    },
-    {
-      "id": "fin-b2-w11-31",
-      "type": "multipleChoice",
-      "prompt": "What is 'Liquidity'?",
-      "options": ["The ability to pay long-term debts", "The ability to pay short-term debts with cash or near-cash assets", "The profit of a company", "The value of buildings"],
-      "answerIndex": 1,
-      "explanation": "Liquidity is essential for day-to-day operations."
-    },
-    {
-      "id": "fin-b2-w11-32",
-      "type": "multipleChoice",
-      "prompt": "The alarm went off! Someone ___ (enter) the vault.",
-      "options": ["must have entered", "can't have entered", "should have entered", "might have entered"],
-      "answerIndex": 0,
-      "explanation": "Deduction based on a triggered event."
-    },
-    {
-      "id": "fin-b2-w11-33",
-      "type": "multipleChoice",
-      "prompt": "What is 'Variance Analysis'?",
-      "options": ["Studying different bank logos", "Comparing actual results to budgeted results to find differences", "Counting office supplies", "Analyzing the stock market"],
-      "answerIndex": 1,
-      "explanation": "Variance analysis helps identify performance issues."
-    },
-    {
-      "id": "fin-b2-w11-34",
-      "type": "multipleChoice",
-      "prompt": "The new auditor ___ (appoint) by the board last month.",
-      "options": ["appoints", "was appointed", "has appointed", "is appointed"],
-      "answerIndex": 1,
-      "explanation": "Past passive for 'last month'."
-    },
-    {
-      "id": "fin-b2-w11-35",
-      "type": "multipleChoice",
-      "prompt": "What does a high 'Current Ratio' (e.g., 5.0) suggest?",
-      "options": ["Excellent profitability", "Possible inefficient use of cash or assets", "The company is about to go bankrupt", "High levels of debt"],
-      "answerIndex": 1,
-      "explanation": "A very high ratio might mean too much idle cash or inventory."
-    },
-    {
-      "id": "fin-b2-w11-36",
-      "type": "multipleChoice",
-      "prompt": "It ___ (know) that the interest rates will rise soon.",
-      "options": ["knows", "is known", "was knowing", "has known"],
-      "answerIndex": 1,
-      "explanation": "Complex passive for stating general knowledge."
-    },
-    {
-      "id": "fin-b2-w11-37",
-      "type": "multipleChoice",
-      "prompt": "What is 'Solvency'?",
-      "options": ["Paying bills on time", "The ability to meet long-term financial obligations", "Earning a lot of profit", "Buying another company"],
-      "answerIndex": 1,
-      "explanation": "Solvency is about long-term survival."
-    },
-    {
-      "id": "fin-b2-w11-38",
-      "type": "multipleChoice",
-      "prompt": "The meeting was canceled. The CEO ___ (be) sick.",
-      "options": ["must have been", "might have been", "can't have been", "should have been"],
-      "answerIndex": 1,
-      "explanation": "'Might have been' is a plausible possibility."
-    },
-    {
-      "id": "fin-b2-w11-39",
-      "type": "multipleChoice",
-      "prompt": "What is 'Deferred Revenue'?",
-      "options": ["Money the bank owes you", "Revenue received but not yet earned", "Revenue that will never be paid", "The CEO's salary"],
-      "answerIndex": 1,
-      "explanation": "Deferred revenue is a liability on the balance sheet."
-    },
-    {
-      "id": "fin-b2-w11-40",
-      "type": "multipleChoice",
-      "prompt": "It ___ (note) that the company has improved its DSO.",
-      "options": ["notes", "was noted", "is noting", "has noted"],
-      "answerIndex": 1,
-      "explanation": "Past passive for reporting audit findings."
-    },
-    {
-      "id": "fin-b2-w11-41",
-      "type": "multipleChoice",
-      "prompt": "What is 'Auditing'?",
-      "options": ["Giving advice to managers", "The independent examination of financial information", "Selling products to customers", "Opening new bank branches"],
-      "answerIndex": 1,
-      "explanation": "Auditing ensures accuracy and compliance."
-    },
-    {
-      "id": "fin-b2-w11-42",
-      "type": "multipleChoice",
-      "prompt": "I don't see him in his office. He ___ (go) home early.",
-      "options": ["must have gone", "might have gone", "can't have gone", "should have gone"],
-      "answerIndex": 1,
-      "explanation": "'Might have gone' suggests a possibility."
-    },
-    {
-      "id": "fin-b2-w11-43",
-      "type": "multipleChoice",
-      "prompt": "What is 'Operating Margin'?",
-      "options": ["Total sales / Total assets", "Operating income divided by net sales", "Profit after tax", "The cost of rent"],
-      "answerIndex": 1,
-      "explanation": "Operating margin measures profitability from core operations."
-    },
-    {
-      "id": "fin-b2-w11-44",
-      "type": "multipleChoice",
-      "prompt": "The policy ___ (update) annually to reflect new laws.",
-      "options": ["updates", "is updated", "was updated", "has updated"],
-      "answerIndex": 1,
-      "explanation": "Present passive for a regular occurrence."
-    },
-    {
-      "id": "fin-b2-w11-45",
-      "type": "multipleChoice",
-      "prompt": "What is 'Compliance'?",
-      "options": ["Being very polite", "Meeting rules, regulations, and laws", "Winning a prize", "Spending money"],
-      "answerIndex": 1,
-      "explanation": "Compliance is a major focus for financial institutions."
-    },
-    {
-      "id": "fin-b2-w11-46",
-      "type": "multipleChoice",
-      "prompt": "The safe is locked. No one ___ (gain) access without the code.",
-      "options": ["can have gained", "must have gained", "might have gained", "should have gained"],
-      "answerIndex": 0,
-      "explanation": "'Can't have' or 'can have' in questions expresses possibility/certainty."
-    },
-    {
-      "id": "fin-b2-w11-47",
-      "type": "multipleChoice",
-      "prompt": "What is 'Accountability'?",
-      "options": ["The ability to count well", "The obligation to report and be responsible for one's actions", "The bank's address", "The name of a bank account"],
-      "answerIndex": 1,
-      "explanation": "Accountability is a core principle of corporate governance."
-    },
-    {
-      "id": "fin-b2-w11-48",
-      "type": "multipleChoice",
-      "prompt": "The variance ___ (investigate) by the internal audit team.",
-      "options": ["investigates", "is being investigated", "was investigated", "has investigated"],
-      "answerIndex": 1,
-      "explanation": "Present continuous passive for an ongoing action."
-    },
-    {
-      "id": "fin-b2-w11-49",
-      "type": "multipleChoice",
-      "prompt": "What does a high 'Debt-to-Equity' ratio mean?",
-      "options": ["The company is very safe", "The company is using a lot of debt to finance its growth", "The company has no equity", "The company is very small"],
-      "answerIndex": 1,
-      "explanation": "High debt-to-equity indicates high leverage."
-    },
-    {
-      "id": "fin-b2-w11-50",
-      "type": "multipleChoice",
-      "prompt": "It ___ (reveal) that the error was material.",
-      "options": ["reveals", "was revealed", "is revealing", "has revealed"],
-      "answerIndex": 1,
-      "explanation": "Past passive for reporting finding."
+      "id": "finance-b2-w11-listening-1",
+      "type": "listening-comprehension",
+      "title": "The Fight Against 'Greenwashing'",
+      "transcript": "Interviewer: ESG is the buzzword of the decade. But how do we know companies are actually doing what they claim? \n\nExpert: That's the billion-dollar question. We're seeing a lot of **Greenwashing**, where firms spend more time and money on marketing themselves as environmentally friendly than on actually reducing their carbon footprint. \n\nInterviewer: So, what's the solution?\n\nExpert: Transparency. It is vital that regulators **standardize** ESG reporting. Right now, it's a 'Wild West' of different metrics. We also recommend that institutional investors **take** their **stewardship** role more seriously. They shouldn't just look at the 'E'; the 'G'—**Governance**—is what ensures the other pillars are actually being respected. \n\nInterviewer: Can **shareholder activism** help?\n\nExpert: Absolutely. We've seen activists insist that oil companies **disclose** their long-term climate risks. It's no longer just about profit; it's about the sustainability of the business model. If a company **does not adapt** to these new ethical standards, it **will eventually lose** its 'social license' to operate.",
+      "vocabularyHelp": [
+        {
+          "word": "Greenwashing",
+          "definition": "The process of conveying a false impression or providing misleading information about how a company's products are more environmentally sound."
+        },
+        {
+          "word": "stewardship",
+          "definition": "The responsible overseeing and protection of something considered worth caring for and preserving (e.g., investor stewardship of capital)."
+        },
+        {
+          "word": "standardize",
+          "definition": "The process of making something conform to a standard."
+        },
+        {
+          "word": "shareholder activism",
+          "definition": "A way that shareholders can influence a corporation's behavior by exercising their rights as owners."
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is 'Greenwashing' according to the expert?",
+          "options": [
+            "Cleaning the office with eco-friendly products",
+            "Marketing a company as environmentally friendly without taking real action",
+            "Investing only in renewable energy",
+            "A type of creative accounting"
+          ],
+          "answerIndex": 1,
+          "explanation": "The expert describes greenwashing as spending more on marketing than on actually reducing the carbon footprint."
+        },
+        {
+          "question": "What does the expert recommend regarding ESG metrics?",
+          "options": [
+            "That they be eliminated",
+            "That regulators standardize them to avoid confusion",
+            "That companies invent their own metrics",
+            "That only the 'E' (Environmental) pillar be tracked"
+          ],
+          "answerIndex": 1,
+          "explanation": "The expert says: 'It is vital that regulators standardize ESG reporting'."
+        },
+        {
+          "question": "Which subjunctive form is used in the listening?",
+          "options": [
+            "'...recommend that institutional investors take...'",
+            "'...insist that oil companies disclose...'",
+            "'...vital that regulators standardize...'",
+            "All of the above"
+          ],
+          "answerIndex": 3,
+          "explanation": "All three phrases use the subjunctive (bare infinitive) after a verb or adjective of recommendation/importance."
+        }
+      ]
     }
   ]
 }

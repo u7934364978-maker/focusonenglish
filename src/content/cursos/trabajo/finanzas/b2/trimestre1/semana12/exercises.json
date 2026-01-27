@@ -3,706 +3,236 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana12",
-  "title": "B2 Final Trimester Practice",
-  "description": "Last practice before the final exam covering all B2 topics.",
+  "title": "Trimestre 1 Final Review & Exam Prep",
+  "description": "A comprehensive review of the entire trimester, covering all financial topics and grammar structures (50 items).",
   "items": [
     {
-      "id": "fin-b2-w12-1",
+      "id": "finance-b2-w12-q1",
       "type": "multipleChoice",
-      "prompt": "What is 'Asset Stripping'?",
       "options": [
-        "Improving assets",
-        "Selling off assets for profit after an acquisition",
-        "Buying more assets",
-        "Losing assets in a fire"
+        "Current assets divided by current liabilities",
+        "Net income divided by total equity",
+        "A breakdown of ROE into profit margin, asset turnover, and financial leverage",
+        "A method for calculating depreciation"
       ],
+      "explanation": "The DuPont Model is a framework for analyzing fundamental performance by breaking down ROE into three distinct components.",
+      "answerIndex": 2,
+      "prompt": "What is the 'DuPont Model' used for?"
+    },
+    {
+      "id": "finance-b2-w12-q2",
+      "type": "fillBlanks",
+      "explanation": "Mixed Conditional (Past Action -> Present Result).",
+      "prompt": "If the company ________ (hedge) its FX exposure last year, it ________ (not / be) in this financial crisis now.",
+      "answers": [
+        "had hedged / wouldn't be",
+        "had hedged / would not be"
+      ]
+    },
+    {
+      "id": "finance-b2-w12-q3",
+      "type": "multipleChoice",
+      "options": [
+        "Letters of Credit (LC)",
+        "Bill of Lading (B/L)",
+        "Incoterms",
+        "Factoring"
+      ],
+      "explanation": "Incoterms (International Commercial Terms) are the standard trade terms used in international sales contracts to define the responsibilities of buyers and sellers.",
+      "answerIndex": 2,
+      "prompt": "Which set of terms defines when the risk transfers from seller to buyer in international shipping?"
+    },
+    {
+      "id": "finance-b2-w12-q4",
+      "type": "fillBlanks",
+      "explanation": "Subjunctive mood for recommendations.",
+      "prompt": "The auditors recommended that the CFO ________ (provide) more transparency regarding off-balance sheet entities.",
+      "answers": [
+        "provide"
+      ]
+    },
+    {
+      "id": "finance-b2-w12-q5",
+      "type": "multipleChoice",
+      "options": [
+        "Initial Private Offering",
+        "Initial Public Offering",
+        "Investment Portolio Option",
+        "Interest Profit Opportunity"
+      ],
+      "explanation": "An IPO (Initial Public Offering) is the process of offering shares of a private corporation to the public in a new stock issuance.",
       "answerIndex": 1,
-      "explanation": "Asset stripping often occurs after a hostile takeover."
+      "prompt": "What does 'IPO' stand for?"
     },
     {
-      "id": "fin-b2-w12-2",
+      "id": "finance-b2-w12-q6",
+      "type": "fillBlanks",
+      "explanation": "Perfect participle clause for sequential actions.",
+      "prompt": "________ (complete) the due diligence process, the acquirer decided to lower their bid price.",
+      "answers": [
+        "Having completed"
+      ]
+    },
+    {
+      "id": "finance-b2-w12-q7",
       "type": "multipleChoice",
-      "prompt": "Which ratio measures a company's financial leverage?",
       "options": [
-        "Current Ratio",
-        "Debt-to-Equity",
-        "Gross Margin",
-        "Quick Ratio"
+        "The risk of an audit firm going bankrupt",
+        "The threshold at which an error in financial statements becomes significant",
+        "The cost of the audit",
+        "A type of bank guarantee"
       ],
+      "explanation": "Materiality refers to the importance of an amount, transaction, or error that would affect the decision of a user of the financial statements.",
       "answerIndex": 1,
-      "explanation": "Debt-to-Equity is the primary leverage ratio."
+      "prompt": "What is 'Materiality' in auditing?"
     },
     {
-      "id": "fin-b2-w12-3",
-      "type": "multipleChoice",
-      "prompt": "Which modal expresses certainty that something didn't happen? 'The error ___ been caused by the software; it was a manual entry.'",
-      "options": [
-        "mustn't have",
-        "can't have",
-        "shouldn't have",
-        "mightn't have"
-      ],
-      "answerIndex": 1,
-      "explanation": "'Can't have' expresses strong negative deduction."
+      "id": "finance-b2-w12-q8",
+      "type": "fillBlanks",
+      "explanation": "Modal of deduction (past certainty) based on evidence.",
+      "prompt": "The board members ________ (must / know) about the insider trading; the evidence is overwhelming.",
+      "answers": [
+        "must have known"
+      ]
     },
     {
-      "id": "fin-b2-w12-4",
+      "id": "finance-b2-w12-q9",
       "type": "multipleChoice",
-      "prompt": "What is 'Reconciliation'?",
-      "options": [
-        "Matching two sets of records",
-        "Firing an auditor",
-        "Opening a new branch",
-        "Paying taxes"
-      ],
-      "answerIndex": 0,
-      "explanation": "Reconciliation ensures consistency between records."
-    },
-    {
-      "id": "fin-b2-w12-5",
-      "type": "multipleChoice",
-      "prompt": "An internal auditor focuses on:",
-      "options": [
-        "External reporting",
-        "Improving internal controls and efficiency",
-        "Calculating the CEO's bonus",
-        "Selecting office furniture"
-      ],
-      "answerIndex": 1,
-      "explanation": "Internal auditors serve the organization's governance and operations."
-    },
-    {
-      "id": "fin-b2-w12-6",
-      "type": "multipleChoice",
-      "prompt": "What is 'working capital'?",
-      "options": [
-        "Total assets",
-        "Current assets minus current liabilities",
-        "Long-term debt",
-        "The bank's headquarters"
-      ],
-      "answerIndex": 1,
-      "explanation": "Working capital measures a company's operational liquidity."
-    },
-    {
-      "id": "fin-b2-w12-7",
-      "type": "multipleChoice",
-      "prompt": "Which of these is a 'reporting verb' often used in audits?",
-      "options": [
-        "Say",
-        "State",
-        "Assert",
-        "Both State and Assert"
-      ],
-      "answerIndex": 3,
-      "explanation": "'State' and 'Assert' are formal reporting verbs used in professional contexts."
-    },
-    {
-      "id": "fin-b2-w12-8",
-      "type": "multipleChoice",
-      "prompt": "What is 'variance analysis'?",
-      "options": [
-        "Comparing planned results with actual results",
-        "Calculating employee salaries",
-        "Auditing the marketing department",
-        "Buying new software"
-      ],
-      "answerIndex": 0,
-      "explanation": "Variance analysis identifies discrepancies between budget and performance."
-    },
-    {
-      "id": "fin-b2-w12-9",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct passive form: 'The report ___ by the committee yesterday.'",
-      "options": [
-        "was approved",
-        "approved",
-        "has been approved",
-        "was approve"
-      ],
-      "answerIndex": 0,
-      "explanation": "Simple past passive is used for specific past events."
-    },
-    {
-      "id": "fin-b2-w12-10",
-      "type": "multipleChoice",
-      "prompt": "What does 'EBITDA' stand for?",
       "options": [
         "Earnings Before Interest, Taxes, Depreciation, and Amortization",
-        "Every Bank In Total Debt Always",
-        "Electronic Banking Internal Transaction Data",
-        "Equity Bonds Interest Total Daily Amount"
+        "Environmental, Social, and Governance",
+        "Anti-Money Laundering",
+        "Know Your Customer"
       ],
-      "answerIndex": 0,
-      "explanation": "EBITDA is a measure of a company's overall financial performance."
-    },
-    {
-      "id": "fin-b2-w12-11",
-      "type": "multipleChoice",
-      "prompt": "A 'qualified opinion' in an audit report means:",
-      "options": [
-        "The financials are perfect",
-        "There are some issues but not pervasive ones",
-        "The auditor was fired",
-        "The company is bankrupt"
-      ],
+      "explanation": "ESG (Environmental, Social, and Governance) criteria are standards for a company's operations that socially conscious investors use to screen potential investments.",
       "answerIndex": 1,
-      "explanation": "A qualified opinion indicates limited exceptions in the financial reporting."
+      "prompt": "Which acronym refers to the three central factors for measuring the sustainability and societal impact of a business?"
     },
     {
-      "id": "fin-b2-w12-12",
-      "type": "multipleChoice",
-      "prompt": "What is 'goodwill' in accounting?",
-      "options": [
-        "Charity donations",
-        "An intangible asset arising from a business acquisition",
-        "The CEO's reputation",
-        "Interest earned on a loan"
-      ],
-      "answerIndex": 1,
-      "explanation": "Goodwill represents value above the fair market value of assets."
+      "id": "finance-b2-w12-q10",
+      "type": "fillBlanks",
+      "explanation": "Complex passive structure with 'found'.",
+      "prompt": "The discrepancies in the ledger ________ (find / cause) by a manual data entry error.",
+      "answers": [
+        "were found to have been caused",
+        "were found to be caused"
+      ]
     },
     {
-      "id": "fin-b2-w12-13",
-      "type": "multipleChoice",
-      "prompt": "Which modal expresses a past possibility that didn't happen? 'We ___ invested in that startup, but we decided it was too risky.'",
-      "options": [
-        "must have",
-        "could have",
-        "can have",
-        "should have"
-      ],
-      "answerIndex": 1,
-      "explanation": "'Could have' expresses a past possibility."
-    },
-    {
-      "id": "fin-b2-w12-14",
-      "type": "multipleChoice",
-      "prompt": "What is 'leverage'?",
-      "options": [
-        "Using debt to increase the potential return of an investment",
-        "The power of a CEO",
-        "A type of bank fee",
-        "Selling all stocks"
-      ],
-      "answerIndex": 0,
-      "explanation": "Leverage involves using borrowed capital for investment."
-    },
-    {
-      "id": "fin-b2-w12-15",
-      "type": "multipleChoice",
-      "prompt": "A 'fixed asset' is:",
-      "options": [
-        "Cash",
-        "Inventory",
-        "Long-term property or equipment",
-        "A short-term loan"
-      ],
-      "answerIndex": 2,
-      "explanation": "Fixed assets are purchased for long-term use and are not easily converted to cash."
-    },
-    {
-      "id": "fin-b2-w12-16",
-      "type": "multipleChoice",
-      "prompt": "What is 'depreciation'?",
-      "options": [
-        "The increase in value of an asset",
-        "The reduction in value of an asset over time",
-        "A type of tax",
-        "A bank robbery"
-      ],
-      "answerIndex": 1,
-      "explanation": "Depreciation accounts for the wear and tear on tangible assets."
-    },
-    {
-      "id": "fin-b2-w12-17",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct reporting structure: 'Management ___ that the goals were met.'",
-      "options": [
-        "claimed",
-        "stated",
-        "maintained",
-        "All of the above"
-      ],
-      "answerIndex": 3,
-      "explanation": "Claimed, stated, and maintained are all valid reporting verbs."
-    },
-    {
-      "id": "fin-b2-w12-18",
-      "type": "multipleChoice",
-      "prompt": "What is 'compliance'?",
-      "options": [
-        "Following laws and regulations",
-        "Paying employees",
-        "Buying new office supplies",
-        "Opening a bank account"
-      ],
-      "answerIndex": 0,
-      "explanation": "Compliance ensures the company adheres to legal and ethical standards."
-    },
-    {
-      "id": "fin-b2-w12-19",
-      "type": "multipleChoice",
-      "prompt": "A 'liquidity ratio' measures:",
-      "options": [
-        "The bank's water usage",
-        "The company's ability to pay short-term debts",
-        "The CEO's salary increase",
-        "Long-term profitability"
-      ],
-      "answerIndex": 1,
-      "explanation": "Liquidity ratios (like the current ratio) focus on short-term solvency."
-    },
-    {
-      "id": "fin-b2-w12-20",
-      "type": "multipleChoice",
-      "prompt": "Which modal expresses past obligation? 'We ___ submitted the tax forms last week.'",
-      "options": [
-        "must have",
-        "should have",
-        "could have",
-        "can't have"
-      ],
-      "answerIndex": 1,
-      "explanation": "'Should have' is used for past obligations or expectations."
-    },
-    {
-      "id": "fin-b2-w12-21",
-      "type": "multipleChoice",
-      "prompt": "What is 'insolvency'?",
-      "options": [
-        "Being very rich",
-        "The inability to pay one's debts",
-        "A new type of investment",
-        "A bank merger"
-      ],
-      "answerIndex": 1,
-      "explanation": "Insolvency often leads to bankruptcy proceedings."
-    },
-    {
-      "id": "fin-b2-w12-22",
-      "type": "multipleChoice",
-      "prompt": "What is a 'subsidiary'?",
-      "options": [
-        "A company controlled by a parent company",
-        "A type of bank loan",
-        "The main office",
-        "An external auditor"
-      ],
-      "answerIndex": 0,
-      "explanation": "Subsidiaries are separate legal entities owned by another company."
-    },
-    {
-      "id": "fin-b2-w12-23",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct passive structure: 'It ___ that the market will recover.'",
-      "options": [
-        "is expected",
-        "expects",
-        "is expecting",
-        "was expect"
-      ],
-      "answerIndex": 0,
-      "explanation": "Formal reporting often uses the 'It is [verb-ed]' structure."
-    },
-    {
-      "id": "fin-b2-w12-24",
-      "type": "multipleChoice",
-      "prompt": "What is 'capital expenditure' (CapEx)?",
-      "options": [
-        "Daily office costs",
-        "Funds used to acquire or upgrade physical assets",
-        "Employee salaries",
-        "Customer refunds"
-      ],
-      "answerIndex": 1,
-      "explanation": "CapEx involves investments in the business's long-term infrastructure."
-    },
-    {
-      "id": "fin-b2-w12-25",
-      "type": "multipleChoice",
-      "prompt": "What is an 'adverse opinion' in an audit?",
-      "options": [
-        "A good review",
-        "A statement that the financial records are misrepresented",
-        "A neutral report",
-        "A report about marketing"
-      ],
-      "answerIndex": 1,
-      "explanation": "An adverse opinion is the most serious negative audit result."
-    },
-    {
-      "id": "fin-b2-w12-26",
-      "type": "multipleChoice",
-      "prompt": "Which of these is a 'fiduciary duty'?",
-      "options": [
-        "Working late",
-        "A legal obligation to act in the best interest of another party",
-        "Paying taxes on time",
-        "Opening a branch"
-      ],
-      "answerIndex": 1,
-      "explanation": "Bankers and advisors have fiduciary duties to their clients."
-    },
-    {
-      "id": "fin-b2-w12-27",
-      "type": "multipleChoice",
-      "prompt": "What is 'amortization'?",
-      "options": [
-        "The process of spreading out a loan into regular payments",
-        "The reduction in value of intangible assets",
-        "Both of the above",
-        "None of the above"
-      ],
-      "answerIndex": 2,
-      "explanation": "Amortization applies to both loan repayment and intangible asset valuation."
-    },
-    {
-      "id": "fin-b2-w12-28",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct modal of deduction: 'The funds ___ been stolen; the vault was locked from the inside.'",
-      "options": [
-        "must have",
-        "can't have",
-        "should have",
-        "might have"
-      ],
-      "answerIndex": 0,
-      "explanation": "'Must have' expresses strong logical deduction."
-    },
-    {
-      "id": "fin-b2-w12-29",
-      "type": "multipleChoice",
-      "prompt": "What is 'due diligence'?",
-      "options": [
-        "Working hard",
-        "Comprehensive appraisal of a business before a merger or acquisition",
-        "Paying a loan early",
-        "Auditing the CEO"
-      ],
-      "answerIndex": 1,
-      "explanation": "Due diligence is critical for risk management in M&A."
-    },
-    {
-      "id": "fin-b2-w12-30",
-      "type": "multipleChoice",
-      "prompt": "A 'dividend' is:",
-      "options": [
-        "A bank fee",
-        "A distribution of a portion of a company's earnings to shareholders",
-        "A type of debt",
-        "A stock market crash"
-      ],
-      "answerIndex": 1,
-      "explanation": "Dividends are rewards to investors for their ownership."
-    },
-    {
-      "id": "fin-b2-w12-31",
-      "type": "multipleChoice",
-      "prompt": "What is 'forex'?",
-      "options": [
-        "Foreign Exchange market",
-        "Formal Executive reporting",
-        "Financial Option Records",
-        "Foreign Exporting"
-      ],
-      "answerIndex": 0,
-      "explanation": "Forex is where currencies are traded."
-    },
-    {
-      "id": "fin-b2-w12-32",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct passive: 'The accounts ___ every year.'",
-      "options": [
-        "are audited",
-        "is audited",
-        "audit",
-        "were audited"
-      ],
-      "answerIndex": 0,
-      "explanation": "Present simple passive for regular actions."
-    },
-    {
-      "id": "fin-b2-w12-33",
-      "type": "multipleChoice",
-      "prompt": "What is 'equity'?",
-      "options": [
-        "Total debt",
-        "The value of shares issued by a company",
-        "Total liabilities",
-        "The bank's profit"
-      ],
-      "answerIndex": 1,
-      "explanation": "Equity represents ownership interest in a corporation."
-    },
-    {
-      "id": "fin-b2-w12-34",
-      "type": "multipleChoice",
-      "prompt": "A 'balance sheet' follows the equation:",
-      "options": [
-        "Assets = Liabilities + Equity",
-        "Assets = Liabilities - Equity",
-        "Profit = Revenue - Cost",
-        "Equity = Assets + Liabilities"
-      ],
-      "answerIndex": 0,
-      "explanation": "The fundamental accounting equation must always balance."
-    },
-    {
-      "id": "fin-b2-w12-35",
-      "type": "multipleChoice",
-      "prompt": "What is 'churn rate'?",
-      "options": [
-        "The speed of a computer",
-        "The rate at which customers stop doing business with an entity",
-        "The interest rate on a loan",
-        "The bank's profit margin"
-      ],
-      "answerIndex": 1,
-      "explanation": "Churn rate is a key metric for customer retention."
-    },
-    {
-      "id": "fin-b2-w12-36",
-      "type": "multipleChoice",
-      "prompt": "Which reporting verb implies a neutral presentation? 'The CFO ___ the financial results.'",
-      "options": [
-        "presented",
-        "admitted",
-        "confessed",
-        "denied"
-      ],
-      "answerIndex": 0,
-      "explanation": "'Presented' is a neutral and professional reporting verb."
-    },
-    {
-      "id": "fin-b2-w12-37",
-      "type": "multipleChoice",
-      "prompt": "What is 'leverage' in a financial context?",
-      "options": [
-        "The use of borrowed money to supplement existing funds for investment",
-        "A type of bank insurance",
-        "The height of a building",
-        "The number of employees"
-      ],
-      "answerIndex": 0,
-      "explanation": "Leverage can magnify both gains and losses."
-    },
-    {
-      "id": "fin-b2-w12-38",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct modal: 'The audit ___ revealed more issues, but it was cut short.'",
-      "options": [
-        "might have",
-        "can't have",
-        "must have",
-        "should have"
-      ],
-      "answerIndex": 0,
-      "explanation": "'Might have' expresses a past possibility that was contingent on something else."
-    },
-    {
-      "id": "fin-b2-w12-39",
-      "type": "multipleChoice",
-      "prompt": "What is 'internal control'?",
-      "options": [
-        "Locking the office door",
-        "Processes designed to provide reasonable assurance regarding the achievement of objectives",
-        "The manager's mood",
-        "A type of credit card"
-      ],
-      "answerIndex": 1,
-      "explanation": "Internal controls help prevent fraud and errors."
-    },
-    {
-      "id": "fin-b2-w12-40",
-      "type": "multipleChoice",
-      "prompt": "What is 'diversification'?",
-      "options": [
-        "Investing in only one stock",
-        "Spreading investments across various assets to reduce risk",
-        "Opening a new bank account",
-        "Changing your password"
-      ],
-      "answerIndex": 1,
-      "explanation": "Diversification is a core risk management strategy."
-    },
-    {
-      "id": "fin-b2-w12-41",
-      "type": "multipleChoice",
-      "prompt": "A 'hedge' is used to:",
-      "options": [
-        "Increase risk",
-        "Offset potential losses",
-        "Buy a new car",
-        "Decorate the bank"
-      ],
-      "answerIndex": 1,
-      "explanation": "Hedging protects against adverse price movements."
-    },
-    {
-      "id": "fin-b2-w12-42",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct passive: 'It ___ that the merger will be finalized next month.'",
-      "options": [
-        "is believed",
-        "believes",
-        "believed",
-        "has believe"
-      ],
-      "answerIndex": 0,
-      "explanation": "Passive reporting is common for future corporate events."
-    },
-    {
-      "id": "fin-b2-w12-43",
-      "type": "multipleChoice",
-      "prompt": "What is 'margin'?",
-      "options": [
-        "The edge of a paper",
-        "The difference between cost and selling price",
-        "The CEO's bonus",
-        "A type of tax"
-      ],
-      "answerIndex": 1,
-      "explanation": "Profit margin is a key measure of efficiency."
-    },
-    {
-      "id": "fin-b2-w12-44",
-      "type": "multipleChoice",
-      "prompt": "An 'IPO' is:",
-      "options": [
-        "Internal Profit Only",
-        "Initial Public Offering",
-        "International Price Option",
-        "Investment Portfolio Order"
-      ],
-      "answerIndex": 1,
-      "explanation": "An IPO marks the first time a company sells shares to the public."
-    },
-    {
-      "id": "fin-b2-w12-45",
-      "type": "multipleChoice",
-      "prompt": "What is 'solvency'?",
-      "options": [
-        "The ability to pay long-term debts",
-        "The amount of cash in the ATM",
-        "A type of bank account",
-        "The color of the bank's logo"
-      ],
-      "answerIndex": 0,
-      "explanation": "Solvency differs from liquidity as it focuses on long-term survival."
-    },
-    {
-      "id": "fin-b2-w12-46",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct reporting verb: 'The auditor ___ that there were significant errors.'",
-      "options": [
-        "concluded",
-        "thought",
-        "guessed",
-        "hoped"
-      ],
-      "answerIndex": 0,
-      "explanation": "'Concluded' is a strong, evidence-based reporting verb."
-    },
-    {
-      "id": "fin-b2-w12-47",
-      "type": "multipleChoice",
-      "prompt": "What is 'risk appetite'?",
-      "options": [
-        "How much a banker eats",
-        "The level of risk an organization is willing to accept in pursuit of its objectives",
-        "A type of insurance",
-        "A stock market crash"
-      ],
-      "answerIndex": 1,
-      "explanation": "Risk appetite determines investment and operational strategy."
-    },
-    {
-      "id": "fin-b2-w12-48",
-      "type": "multipleChoice",
-      "prompt": "A 'fossil fuel divestment' is an example of:",
-      "options": [
-        "Ethical/ESG investing",
-        "Traditional banking",
-        "A bank robbery",
-        "A tax loophole"
-      ],
-      "answerIndex": 0,
-      "explanation": "ESG (Environmental, Social, and Governance) factors are increasingly important."
-    },
-    {
-      "id": "fin-b2-w12-49",
-      "type": "multipleChoice",
-      "prompt": "What is 'capital gains tax'?",
-      "options": [
-        "Tax on employee salaries",
-        "Tax on the profit from selling an asset",
-        "Tax on bank accounts",
-        "A type of interest"
-      ],
-      "answerIndex": 1,
-      "explanation": "Capital gains tax applies when investments are sold for a profit."
-    },
-    {
-      "id": "fin-b2-w12-50",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct modal of deduction: 'The CFO ___ known about the debt; he signed the balance sheet himself.'",
-      "options": [
-        "must have",
-        "can't have",
-        "should have",
-        "might have"
-      ],
-      "answerIndex": 0,
-      "explanation": "'Must have' indicates a high degree of certainty based on evidence."
-    },
-    {
-      "id": "finance-b2-w12-gamified",
-      "type": "crossword",
-      "title": "Final Trimester Review Crossword",
-      "instructions": "Complete the crossword with key terms from this week.",
-      "items": [
+      "id": "finance-b2-w12-reading-1",
+      "type": "reading-comprehension",
+      "title": "The Future of Finance: AI, ESG, and Global Integration",
+      "text": "The financial landscape is undergoing a radical transformation. Traditional practices are being challenged by two major forces: technological innovation and ethical awareness. Artificial Intelligence (AI) is already being used to automate complex **audit** procedures, moving us closer to a world of 'continuous auditing'. Instead of periodic checks, AI can monitor transactions in real-time, instantly identifying a **material** misstatement or potential fraud. \n\nSimultaneously, the rise of **ESG** criteria is changing how capital is allocated. Investors no longer look solely at the bottom line; they demand that companies act with **stewardship** and transparency. This shift is also affecting **Trade Finance**, where blockchain technology is eliminating the need for paper **Bills of Lading**. However, these advances also bring new risks. As the **agency problem** persists, regulators must ensure that corporate **governance** structures remain robust. It is vital that we **embrace** these changes while maintaining the core principles of professional integrity. If we **had ignored** these trends a decade ago, our financial systems **would be** much less resilient to the challenges of the 21st century.",
+      "vocabularyHelp": [
         {
-          "word": "DIVERSIFICATION",
-          "clue": "A risk management strategy that mixes a wide variety of investments within a portfolio.",
-          "direction": "across",
-          "row": 0,
-          "col": 0
+          "word": "audit",
+          "definition": "An official inspection of an individual's or organization's accounts, typically by an independent body."
         },
         {
-          "word": "BENCHMARK",
-          "clue": "A standard against which the performance of a security or investment manager can be measured.",
-          "direction": "down",
-          "row": 2,
-          "col": 0
+          "word": "material",
+          "definition": "Significant enough to influence the economic decisions of users."
         },
         {
-          "word": "PORTFOLIO",
-          "clue": "A grouping of financial assets such as stocks, bonds, and cash equivalents.",
-          "direction": "across",
-          "row": 4,
-          "col": 0
+          "word": "stewardship",
+          "definition": "The job of supervising or taking care of something, such as an organization or property."
         },
         {
-          "word": "VALUATION",
-          "clue": "The process of determining the current worth of an asset or a company.",
-          "direction": "down",
-          "row": 6,
-          "col": 0
+          "word": "governance",
+          "definition": "The action or manner of governing a state, organization, etc."
+        }
+      ],
+      "questions": [
+        {
+          "question": "How is AI changing the auditing process?",
+          "options": [
+            "By making it more expensive",
+            "By allowing for continuous, real-time monitoring of transactions",
+            "By replacing all accountants with robots",
+            "By eliminating the need for fiduciary duty"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text states that AI allows for 'continuous auditing' by monitoring transactions in real-time."
         },
         {
-          "word": "COMPLIANCE",
-          "clue": "The act of obeying an order, rule, or request, especially in a legal context.",
-          "direction": "across",
-          "row": 8,
-          "col": 0
+          "question": "What is the second major force changing finance mentioned in the text?",
+          "options": [
+            "The decrease in interest rates",
+            "The rise of ESG criteria and ethical awareness",
+            "The return to paper-based trade",
+            "The elimination of the agency problem"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text identifies 'ethical awareness' and ESG as a major force alongside technological innovation."
         },
         {
-          "word": "AUDIT",
-          "clue": "An official inspection of an individual's or organization's accounts.",
-          "direction": "down",
-          "row": 10,
-          "col": 0
+          "question": "Identify the grammar in the last sentence: 'If we had ignored... would be...'",
+          "options": [
+            "Third Conditional",
+            "Second Conditional",
+            "Mixed Conditional (Past cause -> Present result)",
+            "Subjunctive"
+          ],
+          "answerIndex": 2,
+          "explanation": "The sentence combines a past hypothetical ('had ignored') with a present result ('would be')."
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w12-listening-1",
+      "type": "listening-comprehension",
+      "title": "Trimestre 1: A Journey Through Advanced Finance",
+      "transcript": "Host: We've reached the end of our first trimester on 'Advanced Banking and Finance'. Let's recap the journey. We started with the bedrock of accounting—analyzing the **Balance Sheet** and **P&L**. We used the **DuPont Model** to see what really drives ROE. \n\nSpeaker 2: Then we moved into the complex world of global risk. We explored how banks use **VaR** and **stress testing** to survive the next 'black swan' event. We also looked at **Trade Finance**, where **Letters of Credit** bridge the trust gap between continents. \n\nHost: In the final weeks, we focused on integrity. We saw how **internal audit** functions as a shield, and how **ESG** is no longer optional. We discussed the **agency problem** and how robust **governance** is essential to prevent another Enron. \n\nSpeaker 2: And let's not forget the language. From **Mixed Conditionals** for analyzing past decisions to the **Subjunctive** for board recommendations, we've developed the tools to speak like a true finance leader. Good luck with the final assessment!",
+      "vocabularyHelp": [
+        {
+          "word": "VaR",
+          "definition": "Value at Risk; a statistical technique used to measure the level of financial risk within a firm or investment portfolio."
+        },
+        {
+          "word": "black swan",
+          "definition": "An unpredictable event that is beyond what is normally expected of a situation and has potentially severe consequences."
+        },
+        {
+          "word": "ROE",
+          "definition": "Return on Equity; a measure of financial performance calculated by dividing net income by shareholders' equity."
+        },
+        {
+          "word": "P&L",
+          "definition": "Profit and Loss statement; a financial statement that summarizes the revenues, costs, and expenses incurred during a specific period."
+        }
+      ],
+      "questions": [
+        {
+          "question": "What was described as the 'bedrock of accounting' in the recap?",
+          "options": [
+            "Taxation",
+            "The Balance Sheet and P&L",
+            "Crypto-currency",
+            "Marketing spend"
+          ],
+          "answerIndex": 1,
+          "explanation": "The host says they started with 'the bedrock of accounting—analyzing the Balance Sheet and P&L'."
+        },
+        {
+          "question": "Which tool was mentioned as a 'shield' for organizations?",
+          "options": [
+            "Marketing",
+            "Internal Audit",
+            "High-interest loans",
+            "A unitary board"
+          ],
+          "answerIndex": 1,
+          "explanation": "The host says they saw how 'internal audit functions as a shield'."
+        },
+        {
+          "question": "What is the speaker's main message to the students?",
+          "options": [
+            "That finance is too difficult",
+            "That they have developed the professional language and knowledge to be finance leaders",
+            "That they should change their career",
+            "That grammar is not important in finance"
+          ],
+          "answerIndex": 1,
+          "explanation": "Speaker 2 mentions that students have 'developed the tools to speak like a true finance leader'."
         }
       ]
     }

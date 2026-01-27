@@ -555,6 +555,84 @@
       "answers": [
         "will have finalized"
       ]
+    },
+    {
+      "id": "finance-b2-w5-reading-authentic",
+      "type": "reading-comprehension",
+      "title": "The Rise of ESG: Beyond the 'Greenwashing' Debate",
+      "instructions": "Read the following article about ESG in institutional finance and answer the questions.",
+      "text": "Environmental, Social, and Governance (ESG) metrics have transitioned from a niche interest of ethical investors to a fundamental requirement for institutional asset management. Large funds, such as BlackRock and Vanguard, now incorporate ESG scores into their fiduciary duty framework, arguing that companies with poor governance or high environmental risks are inherently riskier long-term investments.\n\nHowever, this rapid growth has led to accusations of 'greenwashing'—a practice where companies or funds provide misleading information about how their products are more environmentally sound than they actually are. To combat this, regulators like the SEC in the US and the ESMA in Europe are introducing stricter disclosure requirements. Analysts are now moving beyond broad ESG scores and performing deep-dive 'Impact Analysis' to verify that a 'Green Bond' is actually funding a sustainable project, rather than just refinancing existing corporate debt. For the professional asset manager, the challenge lies in balancing these non-financial metrics with the traditional goal of maximizing alpha.",
+      "vocabularyHelp": [
+        { "word": "greenwashing", "meaning": "disseminating misleading information to present an environmentally responsible public image" },
+        { "word": "fiduciary duty", "meaning": "a legal obligation of one party to act in the best interest of another" },
+        { "word": "institutional investor", "meaning": "a large organization, such as a bank or pension fund, that makes substantial investments on the stock exchange" },
+        { "word": "disclosure", "meaning": "the action of making new or secret information known (reporting requirements)" },
+        { "word": "maximizing alpha", "meaning": "seeking to achieve the highest possible return above a market benchmark" }
+      ],
+      "questions": [
+        {
+          "id": "finance-b2-w5-reading-authentic-q1",
+          "type": "multiple-choice",
+          "question": "What is the main argument for institutional funds incorporating ESG?",
+          "options": [
+            "It is a legal requirement in every country.",
+            "ESG-compliant companies have higher environmental risks.",
+            "Companies with poor ESG metrics are seen as riskier long-term investments.",
+            "It allows them to charge higher management fees."
+          ],
+          "correctAnswer": "Companies with poor ESG metrics are seen as riskier long-term investments.",
+          "explanation": "The text states that funds argue that companies with poor governance or high environmental risks are inherently riskier."
+        },
+        {
+          "id": "finance-b2-w5-reading-authentic-q2",
+          "type": "multiple-choice",
+          "question": "What are regulators doing to prevent 'greenwashing'?",
+          "options": [
+            "Banning ESG investments completely.",
+            "Introducing stricter disclosure requirements.",
+            "Giving awards to companies with green logos.",
+            "Lowering taxes for institutional investors."
+          ],
+          "correctAnswer": "Introducing stricter disclosure requirements.",
+          "explanation": "The text mentions that regulators are introducing stricter disclosure requirements to combat greenwashing."
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w5-listening-authentic",
+      "type": "listening-comprehension",
+      "title": "Client Briefing: Tactical Asset Allocation",
+      "instructions": "Listen to a wealth manager explain recent changes to a client's portfolio.",
+      "audioUrl": "https://example.com/audio/finance/b2/w5/rebalancing.mp3",
+      "transcript": "Manager: Good morning. I've sent over the quarterly review. You'll notice we've been quite active with your 'Tactical Asset Allocation' this month.\n\nClient: I saw that. It looks like you've been trimming our exposure to US Mega-cap Tech.\n\nManager: Exactly. We've enjoyed a great run, but valuations are looking stretched. We've decided to 'trim' those positions—taking some profit—and we're 'tilting' the portfolio towards Value stocks and ESG-compliant Emerging Market funds. We believe these areas are currently undervalued.\n\nClient: And what about the fixed income side? Are we still overweight in government bonds?\n\nManager: We've actually moved to a 'neutral' weighting. With the recent inflation data, we expect yields to rise, which would hurt the price of long-term bonds. Instead, we've increased our allocation to 'Short-duration' Green Bonds. This protects us from interest rate risk while maintaining our ESG targets. By the end of the year, we will have transitioned about 25% of your total fixed-income allocation into these sustainable instruments.",
+      "questions": [
+        {
+          "id": "finance-b2-w5-listening-authentic-q1",
+          "type": "multiple-choice",
+          "question": "What does the manager mean by 'trimming' the exposure to US Tech?",
+          "options": [
+            "Buying more shares because they are cheap.",
+            "Selling a portion of the shares to take profit.",
+            "Closing the entire account.",
+            "Changing the name of the company."
+          ],
+          "correctAnswer": "Selling a portion of the shares to take profit.",
+          "explanation": "In finance, 'trimming' means reducing the size of a position that has grown too large or where you want to lock in gains."
+        },
+        {
+          "id": "finance-b2-w5-listening-authentic-q2",
+          "type": "multiple-choice",
+          "question": "Why has the manager moved to 'Short-duration' bonds?",
+          "options": [
+            "They pay higher interest than long-term bonds.",
+            "To protect against interest rate risk in a rising yield environment.",
+            "Because they are only available to ESG investors.",
+            "They are cheaper to buy."
+          ],
+          "correctAnswer": "To protect against interest rate risk in a rising yield environment.",
+          "explanation": "Short-duration bonds are less sensitive to interest rate changes than long-term bonds."
+        }
+      ]
     }
   ]
 }

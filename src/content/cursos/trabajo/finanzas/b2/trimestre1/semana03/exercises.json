@@ -615,5 +615,83 @@
       "answerIndex": 1,
       "explanation": "Substantive testing involves checking the actual numbers in the accounts."
     }
+    {
+      "id": "finance-b2-w3-reading-authentic",
+      "type": "reading-comprehension",
+      "title": "Apple, Ireland, and the $14 Billion Tax Battle",
+      "instructions": "Read the following case study summary and answer the questions.",
+      "text": "For years, the intersection of corporate tax strategy and international law was highlighted by the legal battle between Apple, Ireland, and the European Commission. At the heart of the dispute was 'State Aid'—a European rule that prevents governments from giving unfair advantages to specific companies. The Commission argued that Ireland had allowed Apple to pay significantly less tax than other businesses, effectively creating an illegal subsidy.\n\nApple's Irish structure involved two subsidiaries that were not tax-resident in any country, a strategy known as the 'Double Irish.' While Apple claimed it followed all laws and paid every cent of tax owed, the EU ordered Ireland to collect €13 billion ($14.5 billion) in back taxes. Ireland, surprisingly, fought against receiving the money, fearing that changing its tax-friendly reputation would drive away other multinational giants.\n\nIn a landmark 2020 ruling, the General Court of the EU initially annulled the Commission's decision, stating that the EU failed to prove Apple had received a special advantage. However, the battle continued in the higher European Court of Justice. This case underscores the fine line between aggressive tax avoidance—which is legal—and illegal state aid. It also prompted a global push for a minimum corporate tax rate to prevent such 'races to the bottom' between jurisdictions.",
+      "vocabularyHelp": [
+        { "word": "state aid", "meaning": "government support that gives a company an advantage over its competitors" },
+        { "word": "subsidy", "meaning": "a sum of money granted by the state to help a business or industry keep the price of a service or commodity low" },
+        { "word": "annulled", "meaning": "declared invalid; abolished" },
+        { "word": "jurisdiction", "meaning": "the official power to make legal decisions and judgments in a specific area" },
+        { "word": "back taxes", "meaning": "taxes that were not paid when they were due" }
+      ],
+      "questions": [
+        {
+          "id": "finance-b2-w3-reading-authentic-q1",
+          "type": "multiple-choice",
+          "question": "What was the primary legal basis for the European Commission's order against Apple?",
+          "options": [
+            "Apple had committed criminal tax evasion.",
+            "The Irish government had provided illegal 'State Aid'.",
+            "Apple was selling faulty products in Europe.",
+            "Ireland had no right to tax American companies."
+          ],
+          "correctAnswer": "The Irish government had provided illegal 'State Aid'.",
+          "explanation": "The text explains that 'State Aid' rules prevent governments from giving unfair advantages, which the Commission argued Ireland had done for Apple."
+        },
+        {
+          "id": "finance-b2-w3-reading-authentic-q2",
+          "type": "multiple-choice",
+          "question": "Why did the Irish government initially fight against receiving the €13 billion?",
+          "options": [
+            "They didn't need the money.",
+            "They thought the amount was too small.",
+            "They wanted to protect their reputation as a tax-friendly jurisdiction.",
+            "They were afraid of the US government."
+          ],
+          "correctAnswer": "They wanted to protect their reputation as a tax-friendly jurisdiction.",
+          "explanation": "The text states Ireland feared that changing its tax-friendly reputation would drive away other multinationals."
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w3-listening-authentic",
+      "type": "listening-comprehension",
+      "title": "Treasury Talk: Managing the Volatility of the Yen",
+      "instructions": "Listen to a treasury manager discuss their hedging strategy.",
+      "audioUrl": "https://example.com/audio/finance/b2/w3/forex-hedging.mp3",
+      "transcript": "Interviewer: We've seen incredible volatility in the USD/JPY pair this year. How is your treasury department handling the risk?\n\nManager: It's been a challenge. We have significant manufacturing operations in Japan, but most of our revenue is in Dollars. When the Yen weakens, our production costs drop in Dollar terms, which is good. But a sudden spike in the Yen can wipe out our margins.\n\nInterviewer: Are you using derivatives to lock in rates?\n\nManager: Yes, we use a 'rolling hedge' strategy with forward contracts. We typically hedge about 60% of our expected Yen requirements for the next twelve months. If we hedged 100%, we might miss out if the Yen continues to weaken, so we keep some flexibility.\n\nInterviewer: Do you use natural hedging as well?\n\nManager: Absolutely. We've started sourcing more components from Japanese suppliers rather than importing them. By increasing our Yen-denominated expenses to match our Yen-denominated production, we create a natural offset. If the Yen moves, both our costs and our 'effective' savings move together, reducing our net exposure.",
+      "questions": [
+        {
+          "id": "finance-b2-w3-listening-authentic-q1",
+          "type": "multiple-choice",
+          "question": "What happens to the company's production costs when the Yen weakens?",
+          "options": [
+            "Costs increase in Dollar terms.",
+            "Costs decrease in Dollar terms.",
+            "Costs stay exactly the same.",
+            "The company stops production."
+          ],
+          "correctAnswer": "Costs decrease in Dollar terms.",
+          "explanation": "The manager states that when the Yen weakens, production costs drop in Dollar terms."
+        },
+        {
+          "id": "finance-b2-w3-listening-authentic-q2",
+          "type": "multiple-choice",
+          "question": "How does the company achieve a 'natural hedge'?",
+          "options": [
+            "By buying gold in Japan.",
+            "By sourcing more components from Japanese suppliers.",
+            "By only selling products in Yen.",
+            "By borrowing money from the US Federal Reserve."
+          ],
+          "correctAnswer": "By sourcing more components from Japanese suppliers.",
+          "explanation": "The manager explains that sourcing locally in Yen creates a natural offset for their Yen-denominated operations."
+        }
+      ]
+    }
   ]
 }

@@ -1,15 +1,25 @@
 {
-  "title": "Week 9: Internal Audit Procedures & Compliance",
-  "content": "# Internal Audit and Compliance\n\nFor a B2 professional in finance, understanding the intricacies of auditing and regulatory compliance is paramount. This week focuses on the procedures used to ensure financial integrity and adherence to laws.\n\n## Internal vs. External Audit\n- **Internal Audit**: A department within an organization that provides independent, objective assurance designed to improve an organization's operations.\n- **External Audit**: An independent examination of the financial statements of an entity by an outside professional (typically a CPA or CA).\n\n## Audit Procedures\n1. **Vouching**: Checking the accuracy of entries in the books of accounts with supporting documents (invoices, receipts).\n2. **Verification**: Confirming the physical existence and ownership of assets.\n3. **Reconciliation**: Ensuring that two sets of records (e.g., bank statement and internal ledger) are in agreement.\n\n## Compliance and Regulatory Frameworks\nCompliance involves following the 'rules of the game' set by government bodies and international standards (like IFRS or GAAP). Non-compliance can lead to heavy fines and reputational damage.\n\n## Grammar Focus: Complex Passives\nIn audit reports, we often use complex passive structures for formality:\n- *It is estimated that...*\n- *The discrepancies were found to be...*\n- *Regulations are expected to be updated...*",
-  "objectives": [
-    "Distinguish between internal and external auditing",
-    "Master vocabulary for audit procedures (vouching, verification)",
-    "Use complex passive structures in financial reporting"
-  ],
-  "keyTerms": [
-    { "term": "Accountability", "definition": "The obligation of an individual or organization to account for its activities and accept responsibility." },
-    { "term": "Vouching", "definition": "The process of verifying accounting entries by examining supporting documents." },
-    { "term": "Compliance", "definition": "The state of according with relevant laws and regulations." },
-    { "term": "Materiality", "definition": "An accounting concept that identifies whether a piece of information is significant enough to affect the decisions of a user." }
+  "title": "Internal Audit, Compliance, and Financial Integrity",
+  "sections": [
+    {
+      "id": "audit-foundations",
+      "title": "Audit Objectives and Materiality",
+      "content": "Auditing is the systematic examination of financial records to ensure accuracy, reliability, and compliance with established standards.\n\n### The Concept of Materiality\nIn auditing, **Materiality** refers to the significance of an amount, transaction, or error. An item is considered material if its omission or misstatement could influence the economic decisions of users. Auditors focus their efforts on areas where the risk of material misstatement is highest.\n\n### Internal vs. External Audit\n- **Internal Audit**: An ongoing, independent appraisal function within an organization. It focuses on improving operational efficiency, internal controls, and risk management.\n- **External Audit**: A periodic examination by an outside firm (e.g., the Big Four) to provide an independent opinion on whether the financial statements present a 'true and fair view' of the company's position."
+    },
+    {
+      "id": "audit-procedures-evidence",
+      "title": "Audit Procedures and Evidence Gathering",
+      "content": "Auditors use various techniques to gather 'sufficient and appropriate' evidence to support their conclusions.\n\n### Core Procedures\n- **Vouching**: Selecting an entry in the accounting records and following it back to the supporting source document (e.g., an invoice).\n- **Tracing**: The opposite of vouching; taking a source document and ensuring it has been correctly recorded in the ledgers.\n- **Reconciliation**: Comparing two sets of records (like the bank statement and the cash book) to ensure they agree.\n- **Physical Inspection**: Personally verifying the existence of tangible assets like inventory or machinery."
+    },
+    {
+      "id": "compliance-aml-kyc",
+      "title": "Regulatory Compliance, AML, and KYC",
+      "content": "Modern finance is heavily regulated to prevent fraud, money laundering, and systemic collapse.\n\n### Key Frameworks\n- **SOX (Sarbanes-Oxley Act)**: US legislation that set new or expanded requirements for all US public company boards, management, and public accounting firms.\n- **AML (Anti-Money Laundering)**: Regulations designed to stop the practice of generating income through illegal actions.\n- **KYC (Know Your Customer)**: The mandatory process of identifying and verifying the identity of clients when opening an account and periodically over time.\n- **GDPR in Finance**: Stringent data protection rules that affect how financial institutions handle sensitive customer information."
+    },
+    {
+      "id": "grammar-complex-passives",
+      "title": "Grammar: Complex Passives and Impersonal Reporting",
+      "content": "In formal audit reports, impersonal structures are used to maintain objectivity and distance the writer from the findings.\n\n### It is + Passive + that\n- *\"**It is alleged that** senior management bypassed internal controls to inflate quarterly earnings.\"*\n- *\"**It is widely expected that** the new compliance regulations will be implemented by Q1.\"*\n\n### Subject + Passive + to have + Past Participle\nUsed for speculating or reporting about the past.\n- *\"The discrepancies **were found to have been caused** by a software glitch in the ledger system.\"*\n- *\"The CFO **is rumored to have resigned** following the audit findings.\"*\n\n### Being + Past Participle (Passive Gerund)\n- *\"Most employees dislike **being audited**, but it is a necessary part of corporate transparency.\"*"
+    }
   ]
 }

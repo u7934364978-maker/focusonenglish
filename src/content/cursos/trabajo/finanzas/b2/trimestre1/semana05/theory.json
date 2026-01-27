@@ -1,20 +1,36 @@
 {
-  "title": "Investment and Asset Management",
+  "title": "Portfolio Management, Alternative Investments, and ESG",
   "sections": [
     {
-      "id": "investment-concepts",
-      "title": "Core Investment Concepts",
-      "content": "Investment involves committing capital to assets with the expectation of generating a profit or income over time.\n\n### Types of Assets\n- **Equities (Stocks)**: Ownership shares in a company.\n- **Fixed Income (Bonds)**: Loans to a government or corporation that pay interest.\n- **Real Estate**: Physical property like land, buildings, or homes.\n- **Commodities**: Raw materials like gold, oil, or agricultural products.\n- **Derivatives**: Financial contracts whose value is linked to an underlying asset (e.g., options, futures).\n\n### Investment Strategies\n- **Diversification**: Spreading investments across various assets to reduce risk.\n- **Asset Allocation**: Balancing risk and reward by adjusting the percentage of each asset in a portfolio.\n- **Growth vs. Value**: Growth focuses on capital appreciation, while Value focuses on undervalued assets.\n- **Passive vs. Active**: Passive tracks an index (e.g., ETFs), while Active involves frequent trading by a manager."
+      "id": "modern-portfolio-theory",
+      "title": "Modern Portfolio Theory and Risk-Adjusted Returns",
+      "sections": [
+        {
+          "id": "alpha-beta",
+          "title": "Generating Alpha vs. Capturing Beta",
+          "content": "In asset management, returns are often categorized into two components:\n- **Beta**: The return attributed to the overall market movement. A beta of 1.0 means the asset moves in lockstep with the benchmark.\n- **Alpha**: The 'active' return on an investment that exceeds the market benchmark. Achieving alpha is the primary goal of active fund managers through superior security selection or market timing."
+        },
+        {
+          "id": "risk-metrics",
+          "title": "Advanced Performance Metrics",
+          "content": "Professional managers don't just look at raw returns; they evaluate risk-adjusted performance.\n- **Sharpe Ratio**: (Portfolio Return - Risk-Free Rate) / Standard Deviation. Measures the excess return per unit of volatility. A higher Sharpe ratio indicates better risk-adjusted performance.\n- **Information Ratio**: Measures the consistency with which a manager generates alpha relative to a benchmark.\n- **Efficient Frontier**: A concept from Modern Portfolio Theory (MPT) representing the set of optimal portfolios that offer the highest expected return for a defined level of risk."
+        }
+      ]
     },
     {
-      "id": "asset-management-terms",
-      "title": "Asset Management and Performance",
-      "content": "Asset management is the professional management of various securities and assets to meet specified investment goals.\n\n### Key Performance Indicators (KPIs)\n- **ROI (Return on Investment)**: A measure of the gain or loss generated on an investment relative to its cost.\n- **Volatility**: The degree of variation in the price of a financial instrument over time.\n- **Liquidity**: How quickly an asset can be converted into cash without affecting its price.\n- **Benchmark**: A standard (usually an index) against which the performance of a portfolio is measured."
+      "id": "esg-sustainable-finance",
+      "title": "ESG Integration and Sustainable Finance",
+      "content": "Environmental, Social, and Governance (ESG) factors are now integral to the investment process, moving from a niche 'ethical' category to a mainstream risk-management tool.\n\n### The Three Pillars of ESG\n- **Environmental**: Climate change, carbon footprint, waste management, and resource scarcity.\n- **Social**: Labor standards, diversity and inclusion, data privacy, and community relations.\n- **Governance**: Board composition, executive pay, audit committee independence, and shareholder rights.\n\n### Investment Approaches\n- **Negative Screening**: Excluding specific industries (e.g., tobacco, weapons).\n- **Impact Investing**: Investing in companies with the specific intention of generating a measurable social or environmental impact alongside a financial return.\n- **Green Bonds**: Fixed-income instruments specifically earmarked to raise money for climate and environmental projects."
     },
     {
-      "id": "grammar-future-forms",
-      "title": "Grammar: Future Forms",
-      "content": "In financial forecasting and planning, we use different future forms depending on the level of certainty and the type of prediction.\n\n### Future with 'Will'\nUsed for predictions based on opinion, spontaneous decisions, or facts.\n- *\"The market **will** recover by Q4.\"*\n- *\"Interest rates **will** remain stable for now.\"*\n\n### Future with 'Going to'\nUsed for intentions or predictions based on current evidence.\n- *\"We **are going to** rebalance the portfolio next week.\"* (Plan)\n- *\"Look at the data; inflation **is going to** rise.\"* (Evidence)\n\n### Future Continuous (will be + -ing)\nUsed for actions that will be in progress at a certain time in the future.\n- *\"This time next year, we **will be managing** over $1 billion in assets.\"*\n\n### Future Perfect (will have + past participle)\nUsed for actions that will be completed by a specific point in the future.\n- *\"By 2030, the fund **will have achieved** its target return.\"*"
+      "id": "hedge-funds-private-assets",
+      "title": "Alternative Investments and Hedge Funds",
+      "content": "Sophisticated investors often allocate capital to 'Alternatives' to seek low correlation with traditional stock and bond markets.\n- **Hedge Funds**: Private investment vehicles that use advanced strategies (long/short, leverage, arbitrage) to generate returns. Often charge a '2 and 20' fee structure (2% management fee and 20% performance fee).\n- **Private Equity (PE)**: Direct investment into private companies or the buyout of public companies to take them private.\n- **Venture Capital (VC)**: A subset of PE focused on early-stage, high-growth startups."
+    },
+    {
+      "id": "grammar-future-forecasting",
+      "title": "Grammar: Advanced Future Forms and Forecasting",
+      "content": "Precise communication about the future is vital for client meetings and investment committees.\n\n### Complex Future Structures\n1. **Future Perfect (Milestones)**:\n   - *\"By the end of the fiscal year, our ESG-compliant fund **will have reached** its $500 million AUM target.\"*\n\n2. **Future Perfect Continuous (Duration of Trends)**:\n   - *\"In December, the Fed **will have been raising** interest rates for nearly two years straight.\"*\n\n3. **Future with 'Likely/Unlikely' (Probability)**:\n   - *\"The market **is likely to remain** volatile until the inflation data stabilizes.\"*\n   - *\"It **is highly improbable that** the ECB will cut rates before the next meeting.\"*\n\n4. **Using 'Due to' for Scheduled Events**:\n   - *\"The quarterly rebalancing **is due to take place** on Friday at the market close.\"*"
     }
   ]
 }

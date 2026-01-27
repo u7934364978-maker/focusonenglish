@@ -705,6 +705,84 @@
           "col": 0
         }
       ]
+    },
+    {
+      "id": "finance-b2-w4-reading-authentic",
+      "type": "reading-comprehension",
+      "title": "The 'Profitability Pivot': A Shift in Tech Valuation",
+      "instructions": "Read the following article about changing market trends and answer the questions.",
+      "text": "For the better part of a decade, the Silicon Valley playbook was simple: growth at all costs. Companies like Uber, Airbnb, and WeWork were valued based on 'top-line' growth—specifically revenue multiples—while their 'bottom-line' losses were largely ignored by venture capitalists and public market investors. However, the failed WeWork IPO in 2019 marked a definitive 'pivot' in the market's collective psychology.\n\nAnalysts began to shift their focus from gross revenue to 'unit economics' and path to profitability. The realization that many 'unicorns' had high cash burn rates and no clear way to reach break-even led to a significant contraction in valuations. Today, the DCF model has seen a resurgence in the tech sector, as investors demand to see projected free cash flows rather than just user growth metrics. The EV/EBITDA multiple has replaced the Price-to-Sales ratio as the benchmark for maturity. In this new era, a company that can demonstrate a widening net margin and strong operational leverage is far more attractive than one that simply doubles its revenue every year at the expense of its balance sheet.",
+      "vocabularyHelp": [
+        { "word": "pivot", "meaning": "a fundamental change in business strategy or market focus" },
+        { "word": "cash burn", "meaning": "the rate at which a new company uses up its venture capital to finance overhead before generating positive cash flow" },
+        { "word": "break-even", "meaning": "the point at which total cost and total revenue are equal" },
+        { "word": "unit economics", "meaning": "the direct revenues and costs associated with a particular business model, and specifically, an individual unit of the business" },
+        { "word": "contraction", "meaning": "a phase of the business cycle in which the economy as a whole is in decline (or a decrease in value)" }
+      ],
+      "questions": [
+        {
+          "id": "finance-b2-w4-reading-authentic-q1",
+          "type": "multiple-choice",
+          "question": "What was the main metric used to value tech companies before the 'profitability pivot'?",
+          "options": [
+            "Net Profit Margin",
+            "Revenue Multiples (Top-line growth)",
+            "Dividend Yield",
+            "Book Value"
+          ],
+          "correctAnswer": "Revenue Multiples (Top-line growth)",
+          "explanation": "The text states that companies were valued based on 'top-line' growth—specifically revenue multiples—before the pivot."
+        },
+        {
+          "id": "finance-b2-w4-reading-authentic-q2",
+          "type": "multiple-choice",
+          "question": "What led to the contraction in tech valuations, according to the article?",
+          "options": [
+            "A lack of new technology",
+            "Too many people using the products",
+            "High cash burn rates and lack of profitability",
+            "Government regulations on social media"
+          ],
+          "correctAnswer": "High cash burn rates and lack of profitability",
+          "explanation": "The text mentions the realization that unicorns had high cash burn and no clear path to break-even led to the contraction."
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w4-listening-authentic",
+      "type": "listening-comprehension",
+      "title": "Earnings Call Analysis: Tech-Giant Q4 Results",
+      "instructions": "Listen to the exchange between an equity analyst and a CFO during a quarterly earnings call.",
+      "audioUrl": "https://example.com/audio/finance/b2/w4/earnings-call.mp3",
+      "transcript": "Analyst: Thank you for taking my question. Looking at the results, your revenue surged by 22% year-over-year, which is impressive. However, your net margin contracted by 150 basis points. Could you walk us through the drivers of that margin compression?\n\nCFO: Certainly. While we saw a sharp climb in top-line performance, we also experienced a substantial increase in administrative overhead. We've scaled our engineering teams significantly this year to support our new AI initiatives. Additionally, R&D investment jumped by 30% this quarter.\n\nAnalyst: Understood. And on the efficiency side, your DSO—Days Sales Outstanding—has crept up to 45 days, compared to 38 days last year. Is this a sign of weakening credit quality among your enterprise clients?\n\nCFO: Not necessarily. It's more of a reflection of the longer payment terms we've negotiated for some of our largest multi-year contracts. We expect DSO to level off in the next two quarters as those contracts reach steady-state. Our credit risk remains well within our historical parameters.",
+      "questions": [
+        {
+          "id": "finance-b2-w4-listening-authentic-q1",
+          "type": "multiple-choice",
+          "question": "Why did the company's net margin contract despite higher revenue?",
+          "options": [
+            "They lowered their prices significantly.",
+            "They spent more on taxes.",
+            "Increased administrative overhead and R&D investment.",
+            "A decrease in the number of customers."
+          ],
+          "correctAnswer": "Increased administrative overhead and R&D investment.",
+          "explanation": "The CFO explains that scale-up in engineering teams and a 30% jump in R&D were the main drivers of margin compression."
+        },
+        {
+          "id": "finance-b2-w4-listening-authentic-q2",
+          "type": "multiple-choice",
+          "question": "What is the CFO's explanation for the increase in DSO (Days Sales Outstanding)?",
+          "options": [
+            "Many clients are going bankrupt.",
+            "The company is giving longer payment terms on large contracts.",
+            "They are having problems with their accounting software.",
+            "They are charging more interest on late payments."
+          ],
+          "correctAnswer": "The company is giving longer payment terms on large contracts.",
+          "explanation": "The CFO attributes the rise in DSO to 'longer payment terms... negotiated for some of our largest multi-year contracts'."
+        }
+      ]
     }
   ]
 }

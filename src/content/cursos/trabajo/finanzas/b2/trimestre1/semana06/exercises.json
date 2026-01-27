@@ -605,6 +605,84 @@
           "col": 0
         }
       ]
+    },
+    {
+      "id": "finance-b2-w6-reading-authentic",
+      "type": "reading-comprehension",
+      "title": "Stress Testing: The Financial System's Annual Physical",
+      "instructions": "Read the following article about banking regulations and answer the questions.",
+      "text": "Since the Great Financial Crisis of 2008, the global banking sector has been subject to rigorous annual 'stress tests' designed to prevent a repeat of the systemic collapse. In the United States, the Federal Reserve conducts the Comprehensive Capital Analysis and Review (CCAR), while in Europe, the EBA performs similar exercises. These tests are not about predicting the future; they are about assessing 'solvency' under hypothetical, worst-case scenarios.\n\nRegulators simulate extreme economic contractions, such as a 10% rise in unemployment combined with a 50% crash in the stock market. Banks must prove that even in these conditions, they would maintain enough 'Common Equity Tier 1' (CET1) capital—their highest-quality capital buffer—to continue lending and absorbing losses. A bank that fails a stress test is typically 'bound to' face restrictions on its ability to pay dividends or buy back shares. While critics argue these tests are overly prescriptive, proponents maintain they have significantly reduced the risk of 'contagion' where the failure of one institution triggers a domino effect across the entire financial system.",
+      "vocabularyHelp": [
+        { "word": "solvency", "meaning": "the ability of a company to meet its long-term fixed expenses and to accomplish long-term expansion and growth" },
+        { "word": "systemic risk", "meaning": "the possibility that an event at the micro level of a single bank or insurance company could then trigger a macro-level collapse" },
+        { "word": "capital adequacy", "meaning": "the amount of capital a bank or other financial institution has to hold as required by its financial regulator" },
+        { "word": "contagion", "meaning": "the spread of an economic crisis from one market or region to another" },
+        { "word": "prescriptive", "meaning": "relating to the imposition or enforcement of a rule or method" }
+      ],
+      "questions": [
+        {
+          "id": "finance-b2-w6-reading-authentic-q1",
+          "type": "multiple-choice",
+          "question": "What is the primary purpose of banking stress tests?",
+          "options": [
+            "To predict exactly when the next recession will happen.",
+            "To evaluate if banks have enough capital to survive extreme economic shocks.",
+            "To help banks increase their stock prices.",
+            "To decide which CEOs should be fired."
+          ],
+          "correctAnswer": "To evaluate if banks have enough capital to survive extreme economic shocks.",
+          "explanation": "The text explains that stress tests assess solvency under hypothetical, worst-case scenarios to prevent systemic collapse."
+        },
+        {
+          "id": "finance-b2-w6-reading-authentic-q2",
+          "type": "multiple-choice",
+          "question": "What happens to a bank that fails a stress test?",
+          "options": [
+            "It is immediately closed by the government.",
+            "It is required to pay a higher tax rate.",
+            "It may face restrictions on dividend payments and share buybacks.",
+            "It is forced to merge with a larger bank."
+          ],
+          "correctAnswer": "It may face restrictions on dividend payments and share buybacks.",
+          "explanation": "The text states that failing banks are 'bound to' face restrictions on dividends or share buybacks."
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w6-listening-authentic",
+      "type": "listening-comprehension",
+      "title": "Internal Meeting: Q3 Operational Risk Review",
+      "instructions": "Listen to a Risk Officer present a report on a recent security incident.",
+      "audioUrl": "https://example.com/audio/finance/b2/w6/risk-committee.mp3",
+      "transcript": "Officer: Thank you all for coming. I want to address the 'near-miss' incident we had last Tuesday. Our intrusion detection system flagged a breach attempt on the retail banking server.\n\nManager: I heard about that. It must have been a sophisticated attack if it got past the first firewall.\n\nOfficer: Actually, it wasn't. The attackers were exploiting a known vulnerability that we should have patched three months ago. The IT team was overwhelmed with the migration to the cloud, but that's no excuse. If they had applied the update on time, the risk would have been zero.\n\nManager: So, what's our current status? Is the system secure now?\n\nOfficer: It's stable for now, but we are bound to suffer a successful breach if we don't increase our cybersecurity budget. Our current legacy systems could well fail under a coordinated DDoS attack. We need to move from a reactive posture to a proactive one, investing more in automated threat hunting and employee training.",
+      "questions": [
+        {
+          "id": "finance-b2-w6-listening-authentic-q1",
+          "type": "multiple-choice",
+          "question": "Why does the Risk Officer criticize the IT team?",
+          "options": [
+            "They spent too much money on the cloud migration.",
+            "They should have patched a known vulnerability earlier.",
+            "They weren't working on the day of the attack.",
+            "They forgot to turn on the firewall."
+          ],
+          "correctAnswer": "They should have patched a known vulnerability earlier.",
+          "explanation": "The officer explicitly states: 'The attackers were exploiting a known vulnerability that we should have patched three months ago'."
+        },
+        {
+          "id": "finance-b2-w6-listening-authentic-q2",
+          "type": "multiple-choice",
+          "question": "What does the officer mean by 'bound to suffer a successful breach'?",
+          "options": [
+            "A breach might happen if they are unlucky.",
+            "A breach is 100% certain to happen eventually if things don't change.",
+            "A breach has already happened and they are hiding it.",
+            "A breach is very unlikely to happen."
+          ],
+          "correctAnswer": "A breach is 100% certain to happen eventually if things don't change.",
+          "explanation": "In this context, 'bound to' indicates a high degree of certainty about a future event."
+        }
+      ]
     }
   ]
 }

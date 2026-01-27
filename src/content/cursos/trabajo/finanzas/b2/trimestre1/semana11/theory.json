@@ -1,14 +1,25 @@
 {
-  "title": "Week 11: B2 Trimester 1 Review & Consolidation",
-  "content": "# B2 Trimester 1 Comprehensive Review\n\nThis week summarizes the advanced financial reporting and auditing concepts covered in the first trimester.\n\n## Core Modules Summary\n\n### 1. Financial Statements Analysis\n- **P&L (Income Statement)**: Revenue, COGS, Operating Expenses, and Net Income.\n- **Balance Sheet**: Assets, Liabilities, and Equity. The fundamental equation: Assets = Liabilities + Equity.\n- **Cash Flow Statement**: Operating, Investing, and Financing activities.\n\n### 2. Advanced Accounting Concepts\n- **Accruals and Deferrals**: Recording transactions when they occur, not just when cash moves.\n- **Depreciation and Amortization**: Allocation of the cost of assets over their useful life.\n\n### 3. Auditing and Compliance\n- **Internal Audit**: Focus on internal controls and operational efficiency.\n- **External Audit**: Independent verification of financial accuracy.\n- **Audit Procedures**: Vouching, verification, and reconciliation.\n\n### 4. Performance Metrics (KPIs)\n- **Profitability Ratios**: Net Profit Margin, Operating Margin.\n- **Liquidity Ratios**: Current Ratio.\n- **Solvency Ratios**: Debt-to-Equity.\n\n## Advanced Grammar Review\n- **Reporting Verbs & Passives**: Using objective language for financial findings.\n- **Modals of Deduction**: Expressing certainty and possibility regarding financial trends and historical data.",
-  "objectives": [
-    "Consolidate advanced financial reporting vocabulary",
-    "Review auditing procedures and compliance standards",
-    "Practice complex grammar structures for financial analysis"
-  ],
-  "keyTerms": [
-    { "term": "Synthesize", "definition": "To combine various components into a coherent whole." },
-    { "term": "Regulatory", "definition": "Relating to the management of complex systems according to a set of rules and trends." },
-    { "term": "Assurance", "definition": "A professional service with the aim of improving the quality and context of information for decision-makers." }
+  "title": "Corporate Governance, Ethics, and ESG",
+  "sections": [
+    {
+      "id": "governance-framework",
+      "title": "Corporate Governance and Board Structure",
+      "content": "Corporate governance is the system of rules, practices, and processes by which a firm is directed and controlled. It involves balancing the interests of a company's many stakeholders.\n\n### Board Structures\n- **Unitary Board**: A single board of directors composed of both executive (inside) and non-executive (outside) directors. Common in the US and UK.\n- **Dual Board System**: Consists of two separate boards: a **Management Board** (executive) and a **Supervisory Board** (non-executive). Common in Germany and other parts of Europe.\n- **Non-Executive Directors (NEDs)**: Independent directors who provide oversight and challenge the executive team.\n\n### The Agency Problem\nA conflict of interest inherent in any relationship where one party (the agent, e.g., the CEO) is expected to act in another's best interest (the principal, e.g., the shareholder)."
+    },
+    {
+      "id": "ethics-finance",
+      "title": "Ethical Dilemmas and Financial Integrity",
+      "content": "Ethical behavior in finance is not just about following the law; it's about transparency and professional integrity.\n\n### Key Ethical Issues\n- **Creative Accounting**: Using accounting 'loopholes' to manipulate financial statements to show a better-than-actual position (e.g., hiding debt off-balance sheet).\n- **Insider Trading**: The illegal practice of trading on the stock exchange to one's own advantage through having access to confidential information.\n- **Conflict of Interest**: A situation where an individual has competing professional or personal interests that make it difficult to fulfill their duties impartially."
+    },
+    {
+      "id": "esg-integration",
+      "title": "ESG: Environmental, Social, and Governance",
+      "content": "ESG criteria are a set of standards for a company’s operations that socially conscious investors use to screen potential investments.\n\n### The Three Pillars\n- **Environmental**: How a company performs as a steward of nature (carbon footprint, waste management).\n- **Social**: How it manages relationships with employees, suppliers, customers, and the communities where it operates.\n- **Governance**: Deals with a company’s leadership, executive pay, audits, internal controls, and shareholder rights.\n\n### Stewardship and Activism\n- **Shareholder Stewardship**: The responsible management of assets by institutional investors to create long-term value for clients.\n- **Shareholder Activism**: When shareholders use their equity stake in a corporation to put pressure on its management."
+    },
+    {
+      "id": "grammar-subjunctive",
+      "title": "Grammar: The Subjunctive Mood for Recommendations",
+      "content": "In formal board meetings and governance reports, we use the subjunctive mood to express importance, urgency, or recommendations.\n\n### Structure\n*Verb (suggest/recommend/insist) + that + subject + bare infinitive*\n- *\"The audit committee recommends that the CFO **provide** a more detailed breakdown of the debt.\"*\n- *\"It is essential that every employee **adhere** to the new code of ethics.\"*\n- *\"We insist that the board **reconsider** the CEO's bonus package in light of the recent scandal.\"*\n\n### Common Phrases\n- *It is vital that...*\n- *It is imperative that...*\n- *The proposal is that...*"
+    }
   ]
 }

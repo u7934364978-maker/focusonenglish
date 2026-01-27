@@ -18,7 +18,6 @@ export const localCourseService = {
 
       const theoryPath = path.join(baseDir, 'theory.json');
       const exercisesPath = path.join(baseDir, 'exercises.json');
-      const examPath = path.join(baseDir, 'exam.json');
 
       let theoryData = null;
       if (fs.existsSync(theoryPath)) {
@@ -136,7 +135,7 @@ export const localCourseService = {
         } as any;
       }
 
-      if (item.type === 'readingComprehension') {
+      if (item.type === 'readingComprehension' || item.type === 'reading-comprehension') {
         let correctAnswer = item.correctAnswer;
         if (typeof item.answerIndex === 'number' && item.options) {
           correctAnswer = item.options[item.answerIndex];
@@ -145,10 +144,13 @@ export const localCourseService = {
         return {
           id: id,
           type: 'reading',
-          title: 'Reading Comprehension',
-          instructions: 'Read the text and answer the question.',
+          title: item.title || 'Reading Comprehension',
+          instructions: item.instructions || 'Read the text and answer the question.',
           text: item.text || item.prompt,
-          questions: [
+          vocabularyHelp: item.vocabularyHelp || [],
+          wordCount: item.wordCount,
+          readingTime: item.readingTime,
+          questions: item.questions || [
             {
               id: id + '-q',
               type: 'multiple-choice',
@@ -159,6 +161,22 @@ export const localCourseService = {
               points: 2
             }
           ]
+        } as any;
+      }
+
+      // Listening Comprehension
+      if (item.type === 'listening-comprehension' || item.type === 'listening') {
+        return {
+          id: id,
+          type: 'listening',
+          title: item.title || 'Listening Comprehension',
+          instructions: item.instructions || 'Listen to the audio and answer the questions.',
+          audioUrl: item.audioUrl,
+          transcript: item.transcript,
+          structuredTranscript: item.structuredTranscript,
+          duration: item.duration || 0,
+          maxReplays: item.maxReplays || 3,
+          questions: item.questions || []
         } as any;
       }
       

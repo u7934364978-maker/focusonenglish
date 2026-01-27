@@ -93,16 +93,89 @@
     },
     {
       "id": "finance-b2-w1-reading1",
-      "type": "readingComprehension",
-      "prompt": "Extract from a Financial Report: 'The proposed merger between TechCorp and SoftSystems is currently undergoing rigorous due diligence. Analysts suggest that while the synergies are clear, the operational risk remains high due to incompatible legacy systems.' \n\nWhat is the main concern regarding the merger?",
-      "options": [
-        "The price is too high",
-        "Incompatible internal systems (Operational Risk)",
-        "The market is not ready for the merger",
-        "TechCorp has too much debt"
+      "type": "reading-comprehension",
+      "title": "The Rise of Sustainable Finance",
+      "instructions": "Read the following article about ESG trends and answer the questions.",
+      "text": "The global financial landscape is witnessing a paradigm shift as Environmental, Social, and Governance (ESG) criteria move from the periphery to the core of investment strategies. Analysts suggest that this transition is driven by a growing recognition that sustainability factors are material to long-term financial performance.\n\nInstitutional investors are increasingly demanding transparency and rigorous disclosure regarding a company's carbon footprint and labor practices. This pressure has led to a surge in the issuance of Green Bonds, which are specifically earmarked for climate and environmental projects. However, the sector faces challenges, including 'greenwashing'—where companies exaggerate their environmental credentials to attract capital.\n\nTo mitigate these risks, regulators are introducing stricter frameworks, such as the EU Taxonomy, to provide a standardized classification system for sustainable activities. As we move forward, the integration of ESG scores into credit risk analysis will likely become mandatory, fundamentally altering how capital is allocated across the global economy.",
+      "wordCount": 165,
+      "readingTime": 2,
+      "vocabularyHelp": [
+        {"word": "paradigm shift", "definition": "A fundamental change in approach or underlying assumptions."},
+        {"word": "periphery", "definition": "The outer limits or edge of an area or object; here meaning 'less important'."},
+        {"word": "material", "definition": "Relevant and significant in a financial context."},
+        {"word": "greenwashing", "definition": "Disseminating misleading information to convey a false image of environmental responsibility."},
+        {"word": "earmarked", "definition": "Designated for a particular purpose."},
+        {"word": "EU Taxonomy", "definition": "A classification system establishing a list of environmentally sustainable economic activities."}
       ],
-      "answerIndex": 1,
-      "explanation": "The text explicitly mentions 'operational risk remains high due to incompatible legacy systems'."
+      "questions": [
+        {
+          "id": "finance-b2-w1-art1-q1",
+          "type": "multiple-choice",
+          "question": "According to the text, why are ESG criteria becoming more important?",
+          "options": [
+            "Because of new marketing trends",
+            "Because they are essential for long-term financial success",
+            "Because companies want to pay fewer taxes",
+            "Because retail investors prefer digital banks"
+          ],
+          "correctAnswer": "Because they are essential for long-term financial success",
+          "explanation": "The text states that sustainability factors are 'material to long-term financial performance'.",
+          "points": 2
+        },
+        {
+          "id": "finance-b2-w1-art1-q2",
+          "type": "multiple-choice",
+          "question": "What is 'greenwashing' as described in the article?",
+          "options": [
+            "A process for cleaning industrial waste",
+            "A new type of eco-friendly banking app",
+            "Exaggerating environmental efforts to deceive investors",
+            "Investing only in renewable energy companies"
+          ],
+          "correctAnswer": "Exaggerating environmental efforts to deceive investors",
+          "explanation": "The article defines greenwashing as when companies 'exaggerate their environmental credentials to attract capital'.",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w1-podcast1",
+      "type": "listening-comprehension",
+      "title": "Podcast: The Future of Fintech and M&A",
+      "instructions": "Listen to the discussion between a financial analyst and a fintech CEO.",
+      "audioUrl": "/audio/finanzas/podcast-semana01.mp3",
+      "duration": 180,
+      "transcript": "Analyst: Welcome to 'The Daily Spread'. Today we're joined by Sarah Jenkins, CEO of Neotech. Sarah, we've seen a lot of M&A activity in the fintech space lately. What's driving this?\n\nSarah: Hi, thanks for having me. The primary driver is the search for synergy. Traditional banks have the capital and the customer base, but they lack the agility. Fintechs have the tech and the innovation. By acquiring fintech startups, legacy banks can leapfrog their competition without building everything from scratch.\n\nAnalyst: But isn't there a risk of overvaluation? Some of these price tags are eye-watering.\n\nSarah: Certainly. Due diligence is more critical than ever. You have to look beyond the user growth and analyze the path to profitability. We're also seeing a lot of interest in 'Open Banking'. How is that affecting your strategy?\n\nSarah: Open Banking is a game-changer. It allows us to build a more holistic view of the customer's financial health, which in turn leads to better credit risk assessment. However, it also means we must be extremely vigilant about data privacy and cybersecurity.\n\nAnalyst: Indeed. Thank you, Sarah, for your insights.",
+      "questions": [
+        {
+          "id": "finance-b2-w1-pod1-q1",
+          "type": "multiple-choice",
+          "question": "What is the main reason traditional banks are acquiring fintech startups according to Sarah?",
+          "options": [
+            "To reduce their tax burden",
+            "To gain innovation and agility quickly",
+            "To close down their physical branches",
+            "To focus solely on retail customers"
+          ],
+          "correctAnswer": "To gain innovation and agility quickly",
+          "explanation": "Sarah mentions that banks can 'leapfrog their competition' by acquiring the tech and innovation that fintechs provide.",
+          "points": 2
+        },
+        {
+          "id": "finance-b2-w1-pod1-q2",
+          "type": "multiple-choice",
+          "question": "What does Sarah identify as a key requirement for successful acquisitions in the current market?",
+          "options": [
+            "Aggressive marketing campaigns",
+            "Ignoring user growth metrics",
+            "Rigorous due diligence focusing on profitability",
+            "Focusing only on high-frequency trading"
+          ],
+          "correctAnswer": "Rigorous due diligence focusing on profitability",
+          "explanation": "She emphasizes that 'due diligence is more critical than ever' and one must 'analyze the path to profitability'.",
+          "points": 2
+        }
+      ]
     },
     {
       "id": "finance-b2-w1-grammar-1",
