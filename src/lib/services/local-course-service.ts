@@ -127,8 +127,8 @@ export const localCourseService = {
           instructions: questionText || 'Match the terms with their definitions.',
           pairs: (item.pairs || []).map((p: any, idx: number) => ({
             id: `${id}-p${idx}`,
-            word: p.left,
-            correctMatch: p.right,
+            word: p.left || p.term || p.word || '',
+            correctMatch: p.right || p.definition || p.match || '',
             distractors: [],
             points: 1
           }))
@@ -177,6 +177,38 @@ export const localCourseService = {
           duration: item.duration || 0,
           maxReplays: item.maxReplays || 3,
           questions: item.questions || []
+        } as any;
+      }
+
+      // Writing Task
+      if (item.type === 'writingTask' || item.type === 'writing-task' || item.type === 'writing') {
+        return {
+          id: id,
+          type: 'writing',
+          title: item.title || 'Writing Task',
+          writingType: item.writingType || (item.prompt?.toLowerCase().includes('email') ? 'email' : 'essay'),
+          prompt: item.prompt,
+          minWords: item.minWords || 50,
+          maxWords: item.maxWords || 200,
+          timeLimit: item.timeLimit || 20,
+          exampleResponse: item.modelAnswer || item.exampleResponse,
+          tips: item.keywords || item.tips || [],
+          rubric: item.rubric
+        } as any;
+      }
+
+      // Roleplay / Speaking
+      if (item.type === 'rolePlayPrompt' || item.type === 'roleplay' || item.type === 'speaking') {
+        const fullPrompt = item.context ? `${item.context}\n\nTask: ${item.prompt}` : item.prompt;
+        return {
+          id: id,
+          type: 'speaking',
+          title: item.title || 'Speaking Practice',
+          prompt: fullPrompt,
+          targetWords: item.keyPhrases || item.keywords || [],
+          hints: item.keyPhrases || [],
+          timeLimit: item.timeLimit || 60,
+          expectedResponse: item.modelAnswer || item.expectedResponse
         } as any;
       }
       

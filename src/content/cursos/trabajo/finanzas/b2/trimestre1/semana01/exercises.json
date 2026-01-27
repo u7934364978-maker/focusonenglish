@@ -43,6 +43,9 @@
     {
       "id": "finance-b2-w1-writing-1",
       "type": "writingTask",
+      "writingType": "email",
+      "minWords": 50,
+      "maxWords": 100,
       "prompt": "SCENARIO: You are a junior analyst at an investment bank. Write a short email (50-100 words) to a client explaining why the recent market volatility might affect their upcoming IPO roadshow. Use at least two modal verbs of deduction.",
       "modelAnswer": "Subject: Update on your upcoming IPO roadshow\n\nDear Client,\n\nIn light of the recent market volatility, we must assess our strategy. The current fluctuations might impact investor appetite during the roadshow. While the fundamentals of your company remain strong, we should consider a more cautious pricing strategy. This volatility could lead to a lower-than-expected valuation if we don't time the launch perfectly.\n\nBest regards,\nFinancial Advisory Team",
       "keywords": ["volatility", "might", "could", "valuation", "appetite"]
@@ -50,6 +53,8 @@
     {
       "id": "finance-b2-w1-roleplay-1",
       "type": "rolePlayPrompt",
+      "title": "IPO Client Presentation",
+      "timeLimit": 120,
       "prompt": "ROLEPLAY: You are an Investment Banker presenting an IPO opportunity to a potential institutional investor. The investor is concerned about the company's lack of an ESG strategy. Defend the company's value while acknowledging the importance of ESG.",
       "context": "The company is a traditional manufacturing firm with strong profits but old machinery.",
       "keyPhrases": ["While I understand your concerns...", "The company is currently transitioning...", "From a governance perspective...", "The ROI remains robust because..."]
