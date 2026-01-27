@@ -74,7 +74,7 @@ export default function ReadingRenderer({
     <div className="grid lg:grid-cols-2 gap-8 animate-in fade-in duration-700">
       {/* Reading Passage */}
       <div className="lg:sticky lg:top-4 lg:self-start">
-        <div className="bg-white dark:bg-slate-800 rounded-3xl p-8 border-2 border-slate-100 dark:border-slate-700 shadow-xl overflow-hidden relative">
+        <div className="bg-white dark:bg-slate-800 rounded-3xl p-8 border-2 border-slate-100 dark:border-slate-700 shadow-xl relative">
           {/* Header Stats */}
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="flex items-center gap-2 px-3 py-1.5 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-xs font-black uppercase tracking-wider">

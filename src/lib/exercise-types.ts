@@ -59,6 +59,7 @@ export type ExerciseType =
   | 'gap-fill'
   | 'extended-gap-fill'
   | 'matching'
+  | 'vocabulary-match'
   | 'paraphrase'
   | 'integrated-reading-writing'
   | 'key-word-transformations'
@@ -1726,7 +1727,7 @@ export interface ParaphrasingExercise {
 
 export interface CollocationMatchingExercise {
   id: string;
-  type: 'collocation-matching' | 'matching';
+  type: 'collocation-matching' | 'matching' | 'vocabulary-match';
   title: string;
   instructions: string;
   pairs: {

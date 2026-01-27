@@ -3,8 +3,8 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana01",
-  "title": "Investment Banking, Risk Assessment & Modern Trends",
-  "description": "Advanced focus on M&A, IPOs, and quantifying financial risk, including Fintech and ESG (50 items).",
+  "title": "Investment Banking & Risk",
+  "description": "Deep dive into M&A, IPOs, and quantifying financial risk (50 items).",
   "items": [
     {
       "id": "finance-b2-w1-q1",
@@ -31,765 +31,453 @@
       "id": "finance-b2-w1-q3",
       "type": "multipleChoice",
       "prompt": "What does the 'E' in ESG stand for?",
-      "options": [
-        "Economic",
-        "Environmental",
-        "Equity",
-        "Earnings"
-      ],
+      "options": ["Economic", "Environmental", "Equity", "Earnings"],
       "answerIndex": 1,
       "explanation": "ESG stands for Environmental, Social, and Governance."
     },
     {
-      "id": "finance-b2-w1-writing-1",
-      "type": "writingTask",
-      "writingType": "email",
-      "minWords": 50,
-      "maxWords": 100,
-      "prompt": "SCENARIO: You are a junior analyst at an investment bank. Write a short email (50-100 words) to a client explaining why the recent market volatility might affect their upcoming IPO roadshow. Use at least two modal verbs of deduction.",
-      "modelAnswer": "Subject: Update on your upcoming IPO roadshow\n\nDear Client,\n\nIn light of the recent market volatility, we must assess our strategy. The current fluctuations might impact investor appetite during the roadshow. While the fundamentals of your company remain strong, we should consider a more cautious pricing strategy. This volatility could lead to a lower-than-expected valuation if we don't time the launch perfectly.\n\nBest regards,\nFinancial Advisory Team",
-      "keywords": ["volatility", "might", "could", "valuation", "appetite"]
+      "id": "finance-b2-w1-g1",
+      "type": "grammar",
+      "prompt": "They ___ performed more thorough due diligence before signing the contract (expressing past regret).",
+      "options": ["must have", "could have", "should have", "might have"],
+      "answerIndex": 2,
+      "explanation": "'Should have + past participle' is used to express regret or criticism about a past action that didn't happen."
     },
     {
-      "id": "finance-b2-w1-roleplay-1",
-      "type": "rolePlayPrompt",
-      "title": "IPO Client Presentation",
-      "timeLimit": 120,
-      "prompt": "ROLEPLAY: You are an Investment Banker presenting an IPO opportunity to a potential institutional investor. The investor is concerned about the company's lack of an ESG strategy. Defend the company's value while acknowledging the importance of ESG.",
-      "context": "The company is a traditional manufacturing firm with strong profits but old machinery.",
-      "keyPhrases": ["While I understand your concerns...", "The company is currently transitioning...", "From a governance perspective...", "The ROI remains robust because..."]
+      "id": "finance-b2-w1-g2",
+      "type": "grammar",
+      "prompt": "The market volatility ___ impact our valuation if we don't act quickly (possibility).",
+      "options": ["must", "should", "might", "can't"],
+      "answerIndex": 2,
+      "explanation": "'Might' is used to express a possibility, which is appropriate for cautious financial predictions."
     },
     {
       "id": "finance-b2-w1-matching-1",
       "type": "matching",
-      "prompt": "Match the modern financial term with its definition.",
+      "title": "Modern Finance Terms",
+      "instructions": "Match the term with its corresponding definition.",
       "pairs": [
-        {"term": "Open Banking", "definition": "Third-party access to financial data via APIs."},
-        {"term": "Green Bond", "definition": "Debt instrument for environmental projects."},
-        {"term": "Blockchain", "definition": "Decentralized and distributed digital ledger."},
-        {"term": "Algorithmic Trading", "definition": "Automated trading based on pre-set rules."}
+        {
+          "id": "m1",
+          "word": "Open Banking",
+          "correctMatch": "Third-party access to financial data via APIs.",
+          "distractors": ["Trading only in physical gold.", "A bank that never closes."]
+        },
+        {
+          "id": "m2",
+          "word": "Green Bond",
+          "correctMatch": "Debt instrument for environmental projects.",
+          "distractors": ["A currency used in agriculture.", "A tax on carbon emissions."]
+        },
+        {
+          "id": "m3",
+          "word": "Blockchain",
+          "correctMatch": "Decentralized and distributed digital ledger.",
+          "distractors": ["A physical safe in a bank.", "A type of insurance policy."]
+        }
       ]
     },
     {
-      "id": "finance-b2-w1-q4",
-      "type": "multipleChoice",
-      "prompt": "What does 'Underwriting' involve in the context of an IPO?",
-      "options": [
-        "Writing the company's annual report",
-        "Guaranteeing the price of the shares and buying unsold ones",
-        "Investigating the CEO's personal history",
-        "Closing all the company's existing bank accounts"
-      ],
-      "answerIndex": 1,
-      "explanation": "Underwriting is the process by which investment banks raise investment capital from investors on behalf of corporations and governments that are issuing securities."
-    },
-    {
-      "id": "finance-b2-w1-q5",
-      "type": "multipleChoice",
-      "prompt": "What is the primary objective of 'Due Diligence'?",
-      "options": [
-        "To maximize the marketing budget",
-        "To verify all financial and legal facts before a transaction",
-        "To train new employees for the merged company",
-        "To design the new company logo"
-      ],
-      "answerIndex": 1,
-      "explanation": "Due diligence is an investigation, audit, or review performed to confirm facts or details of a matter under consideration."
-    },
-    {
-      "id": "finance-b2-w1-reading1",
-      "type": "reading-comprehension",
+      "id": "finance-b2-w1-r1",
+      "type": "reading",
       "title": "The Rise of Sustainable Finance",
-      "text": "The global financial landscape is witnessing a paradigm shift as **Environmental**, Social, and Governance (**ESG**) criteria move from the periphery to the core of investment strategies. Analysts suggest that this transition is driven by a growing recognition that sustainability factors are **material** to long-term financial performance.\n\nInstitutional investors are increasingly demanding transparency and rigorous disclosure regarding a company's **carbon footprint** and labor practices. This pressure has led to a surge in the issuance of **Green Bonds**, which are specifically earmarked for climate and environmental projects. However, the sector faces challenges, including **greenwashing**—where companies exaggerate their environmental credentials to attract capital.\n\nTo mitigate these risks, regulators are introducing stricter frameworks, such as the EU Taxonomy, to provide a standardized classification system for sustainable activities. As we move forward, the integration of ESG scores into credit risk analysis will likely become mandatory, fundamentally altering how capital is allocated across the global economy.",
+      "text": "The global financial landscape is witnessing a paradigm shift as **Environmental**, Social, and Governance (**ESG**) criteria move from the periphery to the core of investment strategies. Analysts suggest that this transition is driven by a growing recognition that sustainability factors are **material** to long-term financial performance.\n\nInstitutional investors are increasingly demanding transparency and rigorous disclosure regarding a company's **carbon footprint** and labor practices. This pressure has led to a surge in the issuance of **Green Bonds**, which are specifically earmarked for climate and environmental projects. However, the sector faces challenges, including **greenwashing**—where companies exaggerate their environmental credentials to attract capital.",
       "vocabularyHelp": [
-        {"word": "Environmental", "definition": "Relating to the natural world and the impact of human activity on its condition."},
-        {"word": "ESG", "definition": "Environmental, Social, and Governance criteria for measuring sustainability."},
+        {"word": "Environmental", "definition": "Relating to the natural world and human impact."},
+        {"word": "ESG", "definition": "Environmental, Social, and Governance criteria."},
         {"word": "material", "definition": "Relevant and significant in a financial context."},
-        {"word": "carbon footprint", "definition": "The total amount of greenhouse gases produced to directly and indirectly support human activities."},
-        {"word": "Green Bonds", "definition": "Fixed-income instruments designed to support specific climate-related or environmental projects."},
-        {"word": "greenwashing", "definition": "Disseminating misleading information to convey a false image of environmental responsibility."}
+        {"word": "carbon footprint", "definition": "Total greenhouse gas emissions caused by an entity."},
+        {"word": "Green Bonds", "definition": "Fixed-income instruments for eco-projects."},
+        {"word": "greenwashing", "definition": "Misleading information about environmental responsibility."}
       ],
       "questions": [
         {
-          "question": "According to the text, why are ESG criteria becoming more important?",
-          "options": [
-            "Because of new marketing trends",
-            "Because they are essential for long-term financial success",
-            "Because companies want to pay fewer taxes",
-            "Because retail investors prefer digital banks"
-          ],
+          "id": "r1-q1",
+          "question": "What is driving the transition towards ESG criteria?",
+          "options": ["Government mandates", "Long-term financial performance recognition", "Marketing trends", "Reduction in taxes"],
           "answerIndex": 1,
-          "explanation": "The text states that sustainability factors are 'material to long-term financial performance'."
+          "explanation": "The text states the transition is driven by the recognition that sustainability is material to long-term performance."
         },
         {
-          "question": "What is 'greenwashing' as described in the article?",
-          "options": [
-            "A process for cleaning industrial waste",
-            "A new type of eco-friendly banking app",
-            "Exaggerating environmental efforts to deceive investors",
-            "Investing only in renewable energy companies"
-          ],
+          "id": "r1-q2",
+          "question": "What is 'greenwashing'?",
+          "options": ["Cleaning solar panels", "Investing in water treatment", "Exaggerating environmental credentials", "A type of sustainable bond"],
           "answerIndex": 2,
-          "explanation": "The article defines greenwashing as when companies 'exaggerate their environmental credentials to attract capital'."
-        },
-        {
-          "question": "What is the role of the EU Taxonomy?",
-          "options": [
-            "To tax green companies",
-            "To provide a standardized classification for sustainable activities",
-            "To ban non-ESG investments",
-            "To manage the carbon market"
-          ],
-          "answerIndex": 1,
-          "explanation": "The text describes it as a 'standardized classification system for sustainable activities'."
+          "explanation": "Greenwashing is defined as companies exaggerating their environmental credentials."
         }
       ]
     },
     {
-      "id": "finance-b2-w1-podcast1",
-      "type": "listening-comprehension",
-      "title": "Podcast: The Future of Fintech and M&A",
-      "transcript": "Analyst: Welcome to 'The Daily Spread'. Today we're joined by Sarah Jenkins, CEO of Neotech. Sarah, we've seen a lot of **M&A** activity in the fintech space lately. What's driving this?\n\nSarah: Hi, thanks for having me. The primary driver is the search for **synergy**. Traditional banks have the capital and the customer base, but they lack the agility. Fintechs have the tech and the innovation. By acquiring fintech startups, legacy banks can **leapfrog** their competition without building everything from scratch.\n\nAnalyst: But isn't there a risk of **overvaluation**? Some of these price tags are eye-watering.\n\nSarah: Certainly. **Due diligence** is more critical than ever. You have to look beyond the user growth and analyze the path to profitability. We're also seeing a lot of interest in 'Open Banking'. How is that affecting your strategy?\n\nSarah: **Open Banking** is a game-changer. It allows us to build a more holistic view of the customer's financial health, which in turn leads to better credit risk assessment. However, it also means we must be extremely vigilant about data privacy and cybersecurity.",
-      "vocabularyHelp": [
-        {"word": "M&A", "definition": "Mergers and Acquisitions; buying, selling, or combining different companies."},
-        {"word": "synergy", "definition": "The interaction of elements that when combined produce a total effect that is greater than the sum of the individual elements."},
-        {"word": "leapfrog", "definition": "To surpass or move ahead of something else rapidly."},
-        {"word": "overvaluation", "definition": "An assessment of a company's worth that is higher than its actual value."},
-        {"word": "Due diligence", "definition": "The comprehensive appraisal of a business undertaken by a prospective buyer."},
-        {"word": "Open Banking", "definition": "A practice that provides third-party financial service providers open access to consumer banking, transaction, and other financial data."}
-      ],
+      "id": "finance-b2-w1-l1",
+      "type": "listening",
+      "title": "Fintech & M&A Trends",
+      "audioUrl": "/audio/finanzas/podcast-semana01.mp3",
+      "duration": 180,
+      "transcript": "Analyst: We've seen a lot of M&A activity in the fintech space lately. What's driving this?\nCEO: The primary driver is synergy. Traditional banks have capital but lack agility. Fintechs have tech and innovation. By acquiring fintechs, legacy banks can leapfrog their competition.",
       "questions": [
         {
-          "question": "What is the main reason traditional banks are acquiring fintech startups according to Sarah?",
-          "options": [
-            "To reduce their tax burden",
-            "To gain innovation and agility quickly",
-            "To close down their physical branches",
-            "To focus solely on retail customers"
-          ],
+          "id": "l1-q1",
+          "question": "What is the primary driver of M&A in fintech?",
+          "options": ["Tax evasion", "Synergy", "High interest rates", "Physical expansion"],
           "answerIndex": 1,
-          "explanation": "Sarah mentions that banks can 'leapfrog their competition' by acquiring the tech and innovation that fintechs provide."
+          "explanation": "The CEO explicitly mentions synergy as the primary driver."
         },
         {
-          "question": "What does Sarah identify as a key requirement for successful acquisitions in the current market?",
-          "options": [
-            "Aggressive marketing campaigns",
-            "Ignoring user growth metrics",
-            "Rigorous due diligence focusing on profitability",
-            "Focusing only on high-frequency trading"
-          ],
+          "id": "l1-q2",
+          "question": "What do traditional banks lack compared to fintechs?",
+          "options": ["Capital", "Customers", "Agility", "Legal licenses"],
           "answerIndex": 2,
-          "explanation": "She emphasizes that 'due diligence is more critical than ever' and one must 'analyze the path to profitability'."
-        },
-        {
-          "question": "What is a benefit of Open Banking mentioned in the transcript?",
-          "options": [
-            "Eliminating the need for banks",
-            "Lowering interest rates automatically",
-            "Better credit risk assessment",
-            "Reducing cybersecurity risks"
-          ],
-          "answerIndex": 2,
-          "explanation": "Sarah says it leads to 'better credit risk assessment' by building a holistic view of financial health."
+          "explanation": "The CEO states that traditional banks lack the agility that fintechs possess."
         }
       ]
     },
     {
-      "id": "finance-b2-w1-grammar-1",
-      "type": "multipleChoice",
-      "prompt": "Which modal expresses the highest level of certainty? 'Based on the current bull market, the stock price ___ rise further.'",
-      "options": ["might", "could", "must", "may"],
-      "answerIndex": 2,
-      "explanation": "'Must' is used for strong deduction based on evidence."
-    },
-    {
-      "id": "finance-b2-w1-grammar-2",
-      "type": "multipleChoice",
-      "prompt": "Choose the most appropriate modal for a cautious prediction: 'If the central bank keeps the current policy, we ___ see a slight decrease in inflation.'",
-      "options": ["will", "must", "might", "shall"],
-      "answerIndex": 2,
-      "explanation": "'Might' expresses a possibility and is suitable for cautious predictions in financial contexts."
-    },
-    {
-      "id": "finance-b2-w1-grammar-7",
-      "type": "multipleChoice",
-      "prompt": "Which modal indicates a recommendation that was ignored? 'They ___ performed more thorough due diligence before signing.'",
-      "options": [
-        "must have",
-        "could have",
-        "should have",
-        "might have"
-      ],
-      "answerIndex": 2,
-      "explanation": "'Should have + past participle' expresses criticism or regret about a past action."
-    },
-    {
-      "id": "finance-b2-w1-vocabulary-5",
-      "type": "multipleChoice",
-      "prompt": "What does 'Volatility' mean in the stock market?",
-      "options": [
-        "The market is very stable and predictable",
-        "The rate at which the price of a security increases or decreases",
-        "The total number of companies listed on an exchange",
-        "The time it takes to process a trade"
-      ],
-      "answerIndex": 1,
-      "explanation": "Volatility is a statistical measure of the dispersion of returns for a given security or market index."
-    },
-    {
-      "id": "finance-b2-w1-r2",
-      "type": "reading-comprehension",
-      "title": "Risk Management Frameworks",
-      "text": "Effective **risk management** is the cornerstone of institutional stability. Banks must navigate a complex web of **Market Risk**, Credit Risk, and **Operational Risk**. The implementation of **Basel III** regulations has forced institutions to maintain higher **capital buffers** to absorb unexpected losses. Furthermore, the use of derivatives for **hedging** purposes allows firms to mitigate exposure to adverse price movements. However, a failure to address **Liquidity Risk** can lead to systemic collapses, as seen in historical financial crises.",
-      "vocabularyHelp": [
-        {"word": "risk management", "definition": "The identification, evaluation, and prioritization of risks followed by coordinated application of resources to minimize impact."},
-        {"word": "Market Risk", "definition": "The possibility of an investor experiencing losses due to factors that affect the overall performance of the financial markets."},
-        {"word": "Operational Risk", "definition": "The prospect of loss resulting from inadequate or failed internal processes, people, and systems."},
-        {"word": "Basel III", "definition": "A global, voluntary regulatory framework on bank capital adequacy, stress testing, and market liquidity risk."},
-        {"word": "capital buffers", "definition": "Mandatory capital that financial institutions are required to hold in addition to other minimum capital requirements."},
-        {"word": "hedging", "definition": "An investment to reduce the risk of adverse price movements in an asset."},
-        {"word": "Liquidity Risk", "definition": "The risk that a company or individual will not be able to meet short-term financial obligations."}
-      ],
-      "questions": [
-        {
-          "question": "What has Basel III forced banks to do?",
-          "options": [
-            "Close all international branches",
-            "Maintain higher capital buffers",
-            "Invest only in Bitcoin",
-            "Stop using derivatives"
-          ],
-          "answerIndex": 1,
-          "explanation": "The text states it forced institutions to 'maintain higher capital buffers'."
-        },
-        {
-          "question": "What is the purpose of hedging?",
-          "options": [
-            "To increase market volatility",
-            "To mitigate exposure to adverse price movements",
-            "To hide losses from auditors",
-            "To avoid paying taxes"
-          ],
-          "answerIndex": 1,
-          "explanation": "The text mentions hedging allows firms to 'mitigate exposure to adverse price movements'."
-        },
-        {
-          "question": "Which risk can lead to systemic collapses if ignored?",
-          "options": ["Reputation risk", "Liquidity risk", "Personnel risk", "Marketing risk"],
-          "answerIndex": 1,
-          "explanation": "The text explicitly mentions that failure to address 'Liquidity Risk' can lead to systemic collapses."
-        }
-      ]
-    },
-    {
-      "id": "finance-b2-w1-l2",
-      "type": "listening-comprehension",
-      "title": "Boardroom Discussion: ESG Strategy",
-      "transcript": "CFO: Our investors are asking for a clearer **ESG roadmap**. They believe our current **carbon footprint** is a significant **Market Risk**.\nCEO: I agree. We **should have** started the **decarbonization** process last year. Now, we **must** accelerate our transition to renewable energy.\nCOO: It's not just environmental. Our **Governance** structure also needs a review. The **Board composition** is not diverse enough.\nCFO: True. If we don't act, our **credit rating** **could** be downgraded. We **might** face higher borrowing costs in the next quarter.",
-      "vocabularyHelp": [
-        {"word": "ESG roadmap", "definition": "A strategic plan for Environmental, Social, and Governance goals."},
-        {"word": "carbon footprint", "definition": "The amount of carbon dioxide emitted due to the consumption of fossil fuels."},
-        {"word": "decarbonization", "definition": "The reduction of carbon dioxide emissions through the use of low carbon power sources."},
-        {"word": "Governance", "definition": "The system by which an organization is controlled and operates."},
-        {"word": "Board composition", "definition": "The mix of people who make up a company's board of directors."},
-        {"word": "credit rating", "definition": "An estimate of the ability of a person or organization to fulfill their financial commitments."}
-      ],
-      "questions": [
-        {
-          "question": "What do the investors consider a significant market risk?",
-          "options": ["High executive pay", "The company's carbon footprint", "The lack of digital banking", "Low dividend payments"],
-          "answerIndex": 1,
-          "explanation": "The CFO says investors believe the 'carbon footprint is a significant Market Risk'."
-        },
-        {
-          "question": "What does the CEO say they should have done?",
-          "options": [
-            "Hired a new CFO",
-            "Started the decarbonization process last year",
-            "Bought a competitor",
-            "Issued more Green Bonds"
-          ],
-          "answerIndex": 1,
-          "explanation": "The CEO says, 'We should have started the decarbonization process last year'."
-        },
-        {
-          "question": "What is a potential consequence of not acting on ESG?",
-          "options": [
-            "Bankruptcy",
-            "A credit rating downgrade",
-            "Higher taxes",
-            "The CEO resigning"
-          ],
-          "answerIndex": 1,
-          "explanation": "The CFO mentions the credit rating 'could be downgraded'."
-        }
-      ]
-    },
-    {
-      "id": "finance-b2-w1-r3",
-      "type": "reading-comprehension",
-      "title": "Digital Disruption in Finance",
-      "text": "The rise of **Fintech** is challenging the dominance of traditional institutions. **Neobanks** are capturing market share by offering **user-centric** digital experiences. Meanwhile, **Blockchain** technology is enabling **DeFi** (Decentralized Finance), which aims to eliminate intermediaries. Institutions that fail to **embrace** these changes **might** find themselves obsolete. The key is to balance **innovation** with robust **cybersecurity** measures.",
-      "vocabularyHelp": [
-        {"word": "Fintech", "definition": "Technology-driven innovation in financial services."},
-        {"word": "Neobanks", "definition": "Direct banks that operate exclusively using online banking without traditional physical branch networks."},
-        {"word": "user-centric", "definition": "Focusing on the user's needs and requirements."},
-        {"word": "Blockchain", "definition": "A system in which a record of transactions is maintained across several computers that are linked in a peer-to-peer network."},
-        {"word": "DeFi", "definition": "A blockchain-based form of finance that does not rely on central financial intermediaries."},
-        {"word": "embrace", "definition": "To accept or support a belief or change willingly."},
-        {"word": "innovation", "definition": "The action or process of innovating; a new method, idea, product, etc."}
-      ],
-      "questions": [
-        {
-          "question": "How are neobanks capturing market share?",
-          "options": [
-            "By building more physical branches",
-            "By offering user-centric digital experiences",
-            "By offering free gold",
-            "By partnering with central banks"
-          ],
-          "answerIndex": 1,
-          "explanation": "The text mentions they offer 'user-centric digital experiences'."
-        },
-        {
-          "question": "What is the aim of DeFi?",
-          "options": [
-            "To increase bank fees",
-            "To eliminate intermediaries",
-            "To create a world government",
-            "To slow down transactions"
-          ],
-          "answerIndex": 1,
-          "explanation": "The text states it 'aims to eliminate intermediaries'."
-        },
-        {
-          "question": "What must be balanced with innovation?",
-          "options": ["Marketing", "Cybersecurity", "Profit", "Tradition"],
-          "answerIndex": 1,
-          "explanation": "The text says 'The key is to balance innovation with robust cybersecurity measures'."
-        }
-      ]
-    },
-    {
-      "id": "finance-b2-w1-l3",
-      "type": "listening-comprehension",
-      "title": "M&A Strategy Session",
-      "transcript": "Analyst: Our analysis shows that the **acquisition** target is currently **undervalued**.\nDirector: We **must** complete the **Due Diligence** before the end of the month. If we wait, a competitor **could** enter a **bidding war**.\nAnalyst: True, but we **can't have** missed any **off-balance sheet** liabilities. The risk is too high.\nDirector: Agreed. We **should** focus on the **synergies** in the technology stack. That's where the real value lies.",
-      "vocabularyHelp": [
-        {"word": "acquisition", "definition": "An asset or object bought or obtained, typically by a library or museum."},
-        {"word": "undervalued", "definition": "Assessed at a value that is too low."},
-        {"word": "Due Diligence", "definition": "Reasonable steps taken by a person in order to satisfy a legal requirement, especially in buying or selling something."},
-        {"word": "bidding war", "definition": "A series of increasing bids for something by two or more potential buyers."},
-        {"word": "off-balance sheet", "definition": "Assets or liabilities that do not appear on a company's balance sheet."},
-        {"word": "synergies", "definition": "The interaction or cooperation of two or more organizations to produce a combined effect greater than the sum of their separate effects."}
-      ],
-      "questions": [
-        {
-          "question": "What does the analyst say about the target company?",
-          "options": ["It is overpriced", "It is undervalued", "It is bankrupt", "It is a neobank"],
-          "answerIndex": 1,
-          "explanation": "The analyst says the target is 'currently undervalued'."
-        },
-        {
-          "question": "Why must they hurry with due diligence?",
-          "options": [
-            "Because the bank is closing",
-            "To avoid a bidding war with a competitor",
-            "To get a bonus",
-            "Because the stock market is crashing"
-          ],
-          "answerIndex": 1,
-          "explanation": "The director says a competitor 'could enter a bidding war' if they wait."
-        },
-        {
-          "question": "Where does the director believe the real value lies?",
-          "options": ["In the brand name", "In the real estate", "In the technology stack synergies", "In the cash reserves"],
-          "answerIndex": 2,
-          "explanation": "The director says they should focus on 'synergies in the technology stack'."
-        }
-      ]
-    },
-    {
-      "id": "finance-b2-w1-r4",
-      "type": "reading-comprehension",
-      "title": "The Impact of Algorithmic Trading",
-      "text": "**Algorithmic trading** has revolutionized market dynamics. By using **AI** and machine learning, firms can execute trades at speeds impossible for humans. This contributes to high levels of **Liquidity**, but it can also lead to 'flash crashes' due to automated selling. Regulators are now focused on ensuring these systems are **robust** and don't create **Systemic Risk**. It **must** be clear that technology serves to enhance, not destabilize, the markets.",
-      "vocabularyHelp": [
-        {"word": "Algorithmic trading", "definition": "A process for executing orders using automated pre-programmed trading instructions."},
-        {"word": "AI", "definition": "Artificial Intelligence."},
-        {"word": "Liquidity", "definition": "The availability of liquid assets to a market or company."},
-        {"word": "flash crashes", "definition": "An extremely rapid decline in the price of one or more financial instruments."},
-        {"word": "robust", "definition": "Sturdy and resilient; able to withstand or overcome adverse conditions."},
-        {"word": "Systemic Risk", "definition": "The risk of collapse of an entire financial system or market."}
-      ],
-      "questions": [
-        {
-          "question": "What allows firms to trade at impossible speeds?",
-          "options": ["Fast internet", "AI and machine learning", "More employees", "A central bank"],
-          "answerIndex": 1,
-          "explanation": "The text mentions 'By using AI and machine learning, firms can execute trades at speeds impossible for humans'."
-        },
-        {
-          "question": "What is a potential negative side effect mentioned?",
-          "options": ["Higher taxes", "Flash crashes", "Slow markets", "Bank closures"],
-          "answerIndex": 1,
-          "explanation": "The text states it 'can also lead to flash crashes due to automated selling'."
-        },
-        {
-          "question": "What are regulators currently focused on?",
-          "options": [
-            "Banning computers",
-            "Ensuring systems are robust and don't create systemic risk",
-            "Lowering interest rates",
-            "Marketing ESG"
-          ],
-          "answerIndex": 1,
-          "explanation": "Regulators are focused on 'ensuring these systems are robust and don't create Systemic Risk'."
-        }
-      ]
-    },
-    {
-      "id": "finance-b2-w1-l4",
-      "type": "listening-comprehension",
-      "title": "Market Analyst Report",
-      "transcript": "Speaker: The current **volatility** in the tech sector **must** be a concern for investors. We **can't have** expected such a sharp **correction** in such a short time. However, this **could** be a buying opportunity for those looking at long-term **fundamentals**. We **might** see a recovery by the end of the year if the **Fed** pauses interest rate hikes. Investors **should** maintain a **diversified** portfolio to mitigate **Market Risk**.",
-      "vocabularyHelp": [
-        {"word": "volatility", "definition": "Liability to change rapidly and unpredictably, especially for the worse."},
-        {"word": "correction", "definition": "A decline of 10% or more in the stock market from its most recent peak."},
-        {"word": "fundamentals", "definition": "The qualitative and quantitative information that contributes to the economic well-being and the subsequent financial valuation of a company."},
-        {"word": "Fed", "definition": "The Federal Reserve, the central bank of the United States."},
-        {"word": "diversified", "definition": "Encompassing a variety of different types of investments."},
-        {"word": "Market Risk", "definition": "The possibility of an investor experiencing losses due to factors that affect the overall performance of the financial markets."}
-      ],
-      "questions": [
-        {
-          "question": "How does the speaker describe the current market movement?",
-          "options": ["A slow growth", "A sharp correction", "A boring period", "A predictable rise"],
-          "answerIndex": 1,
-          "explanation": "The speaker mentions a 'sharp correction'."
-        },
-        {
-          "question": "What might lead to a recovery?",
-          "options": [
-            "Lowering taxes",
-            "The Fed pausing interest rate hikes",
-            "A new tech launch",
-            "A global merger"
-          ],
-          "answerIndex": 1,
-          "explanation": "The speaker says 'if the Fed pauses interest rate hikes'."
-        },
-        {
-          "question": "What is the speaker's recommendation for investors?",
-          "options": [
-            "Sell everything",
-            "Invest only in tech",
-            "Maintain a diversified portfolio",
-            "Ignore the market"
-          ],
-          "answerIndex": 2,
-          "explanation": "The speaker says 'Investors should maintain a diversified portfolio'."
-        }
-      ]
+      "id": "finance-b2-w1-fb1",
+      "type": "fillBlanks",
+      "text": "The process of a private company going public is an ___ (IPO).",
+      "answers": ["Initial Public Offering"],
+      "explanation": "IPO stands for Initial Public Offering."
     },
     {
       "id": "finance-b2-w1-ws1",
       "type": "word-search",
-      "title": "Banking & M&A Word Search",
-      "instructions": "Find 6 terms related to investment banking and M&A.",
-      "words": ["UNDERWRITING", "DILIGENCE", "SYNERGY", "IPO", "ACQUISITION", "LEVERAGE"],
-      "gridSize": 12
-    },
-    {
-      "id": "finance-b2-w1-ws2",
-      "type": "word-search",
-      "title": "Modern Finance Word Search",
-      "instructions": "Find 6 terms related to fintech and modern trends.",
-      "words": ["NEOBANK", "BLOCKCHAIN", "FINTECH", "ESG", "ALGORITHM", "CYBER"],
-      "gridSize": 12
-    },
-    {
-      "id": "finance-b2-w1-ws3",
-      "type": "word-search",
-      "title": "Risk Management Word Search",
-      "instructions": "Find 6 terms related to financial risk.",
-      "words": ["VOLATILITY", "LIQUIDITY", "HEDGING", "BUFFER", "MARKET", "CREDIT"],
-      "gridSize": 12
-    },
-    {
-      "id": "finance-b2-w1-ws4",
-      "type": "word-search",
-      "title": "Professional Finance Word Search",
-      "instructions": "Find 6 core finance terms.",
-      "words": ["PROSPECTUS", "PORTFOLIO", "SECURITY", "BOND", "EQUITY", "DERIVATIVE"],
-      "gridSize": 12
-    },
-    {
-      "id": "finance-b2-w1-ws5",
-      "type": "word-search",
-      "title": "Finance Operations Word Search",
-      "instructions": "Find 6 terms related to operations.",
-      "words": ["SETTLEMENT", "CLEARING", "COMPLIANCE", "AUDIT", "VALUATION", "TRADING"],
+      "title": "Investment Banking Terms",
+      "words": ["SYNERGY", "IPO", "DILIGENCE", "LEVERAGE", "BOND", "EQUITY"],
       "gridSize": 12
     },
     {
       "id": "finance-b2-w1-cw1",
       "type": "crossword",
-      "title": "Investment Banking Crossword",
+      "title": "Risk & Finance",
       "items": [
-        { "word": "IPO", "clue": "First time a company sells shares to the public (abbr).", "direction": "across", "row": 0, "col": 0 },
-        { "word": "SYNERGY", "clue": "Value created by combining two companies.", "direction": "down", "row": 0, "col": 0 },
-        { "word": "UNDERWRITING", "clue": "Guaranteeing a price for a new security issue.", "direction": "across", "row": 2, "col": 0 }
+        { "word": "ESG", "clue": "Sustainability criteria (abbr).", "direction": "across", "row": 0, "col": 0 },
+        { "word": "HEDGING", "clue": "Strategy to offset potential losses.", "direction": "down", "row": 0, "col": 0 }
       ]
     },
     {
-      "id": "finance-b2-w1-cw2",
-      "type": "crossword",
-      "title": "Fintech Crossword",
-      "items": [
-        { "word": "NEOBANK", "clue": "Digital-only bank without branches.", "direction": "across", "row": 0, "col": 0 },
-        { "word": "BLOCKCHAIN", "clue": "Technology behind cryptocurrencies.", "direction": "down", "row": 0, "col": 0 },
-        { "word": "ESG", "clue": "Acronym for sustainability criteria.", "direction": "across", "row": 2, "col": 0 }
+      "id": "finance-b2-w1-mc4",
+      "type": "multipleChoice",
+      "prompt": "What does 'Underwriting' involve in an IPO?",
+      "options": ["Writing the annual report", "Guaranteeing share price and buying unsold shares", "Managing the company's social media", "Auditing past expenses"],
+      "answerIndex": 1,
+      "explanation": "Underwriting involves the bank taking the risk of buying shares if they aren't sold to the public."
+    },
+    {
+      "id": "finance-b2-w1-g3",
+      "type": "grammar",
+      "prompt": "Choose the correct deduction: 'They haven't replied to our offer; they ___ be happy with the valuation.'",
+      "options": ["must", "can't", "should", "might"],
+      "answerIndex": 1,
+      "explanation": "'Can't' is used for negative deduction when we are sure something is impossible/unlikely based on evidence."
+    },
+    {
+      "id": "finance-b2-w1-r2",
+      "type": "reading",
+      "title": "Risk Management Frameworks",
+      "text": "Effective **risk management** is the cornerstone of institutional stability. Banks must navigate a complex web of **Market Risk**, Credit Risk, and **Operational Risk**. The implementation of **Basel III** regulations has forced institutions to maintain higher **capital buffers** to absorb unexpected losses. Furthermore, the use of derivatives for **hedging** purposes allows firms to mitigate exposure to adverse price movements. However, a failure to address **Liquidity Risk** can lead to systemic collapses.",
+      "vocabularyHelp": [
+        {"word": "risk management", "definition": "Identification and mitigation of financial risks."},
+        {"word": "Market Risk", "definition": "Risk of losses due to market movements."},
+        {"word": "Basel III", "definition": "Global regulatory framework for bank capital."},
+        {"word": "capital buffers", "definition": "Mandatory extra capital held by banks."},
+        {"word": "hedging", "definition": "Investing to reduce risk of price movements."},
+        {"word": "Liquidity Risk", "definition": "Risk of not being able to meet short-term debts."}
+      ],
+      "questions": [
+        {
+          "id": "r2-q1",
+          "question": "What did Basel III force banks to do?",
+          "options": ["Lend more money", "Maintain higher capital buffers", "Reduce interest rates", "Close digital branches"],
+          "answerIndex": 1,
+          "explanation": "Basel III forced institutions to maintain higher capital buffers to absorb losses."
+        }
       ]
     },
     {
-      "id": "finance-b2-w1-cw3",
-      "type": "crossword",
-      "title": "Risk Crossword",
-      "items": [
-        { "word": "HEDGING", "clue": "Strategy to offset potential losses.", "direction": "across", "row": 0, "col": 0 },
-        { "word": "LIQUIDITY", "clue": "Ability to convert assets to cash quickly.", "direction": "down", "row": 0, "col": 0 },
-        { "word": "CREDIT", "clue": "Risk that a borrower will default.", "direction": "across", "row": 2, "col": 0 }
+      "id": "finance-b2-w1-fb2",
+      "type": "fillBlanks",
+      "text": "Using borrowed money to increase potential returns is called ___.",
+      "answers": ["leverage"],
+      "explanation": "Leverage refers to the use of debt to amplify returns."
+    },
+    {
+      "id": "finance-b2-w1-fb3",
+      "type": "fillBlanks",
+      "text": "A ___ is a digital-only bank with no physical branches.",
+      "answers": ["neobank"],
+      "explanation": "Neobanks operate exclusively online."
+    },
+    {
+      "id": "finance-b2-w1-g4",
+      "type": "grammar",
+      "prompt": "We ___ have invested in that startup; their financials were clearly overstated.",
+      "options": ["mustn't", "shouldn't", "can't", "mightn't"],
+      "answerIndex": 1,
+      "explanation": "'Shouldn't have' is used to express that a past action was a mistake."
+    },
+    {
+      "id": "finance-b2-w1-matching-2",
+      "type": "matching",
+      "title": "M&A Terminology",
+      "instructions": "Match the M&A term with its definition.",
+      "pairs": [
+        {
+          "id": "m2-1",
+          "word": "Synergy",
+          "correctMatch": "Combined value of two companies is greater than the sum of parts.",
+          "distractors": ["A type of hostile takeover.", "The process of liquidating assets."]
+        },
+        {
+          "id": "m2-2",
+          "word": "Due Diligence",
+          "correctMatch": "Comprehensive appraisal of a business before a merger.",
+          "distractors": ["Printing a company's annual report.", "Hiring new junior analysts."]
+        },
+        {
+          "id": "m2-3",
+          "word": "Acquisition",
+          "correctMatch": "One company purchasing a majority stake in another.",
+          "distractors": ["Starting a new business from scratch.", "Selling shares on the open market."]
+        }
       ]
     },
     {
-      "id": "finance-b2-w1-cw4",
-      "type": "crossword",
-      "title": "Valuation Crossword",
-      "items": [
-        { "word": "EQUITY", "clue": "Ownership interest in a company.", "direction": "across", "row": 0, "col": 0 },
-        { "word": "BOND", "clue": "A debt security issue.", "direction": "down", "row": 0, "col": 1 },
-        { "word": "VALUATION", "clue": "Process of determining the worth of an asset.", "direction": "across", "row": 2, "col": 0 }
+      "id": "finance-b2-w1-r3",
+      "type": "reading",
+      "title": "Digital Disruption in Finance",
+      "text": "The rise of **Fintech** is challenging the dominance of traditional institutions. **Neobanks** are capturing market share by offering **user-centric** digital experiences. Meanwhile, **Blockchain** technology is enabling **DeFi** (Decentralized Finance), which aims to eliminate intermediaries. Institutions that fail to **embrace** these changes might find themselves obsolete.",
+      "vocabularyHelp": [
+        {"word": "Fintech", "definition": "Financial technology innovation."},
+        {"word": "Neobanks", "definition": "Digital-only banks."},
+        {"word": "user-centric", "definition": "Focused on the customer's needs."},
+        {"word": "Blockchain", "definition": "Distributed ledger technology."},
+        {"word": "DeFi", "definition": "Decentralized Finance without intermediaries."},
+        {"word": "embrace", "definition": "To accept or support something willingly."}
+      ],
+      "questions": [
+        {
+          "id": "r3-q1",
+          "question": "What is the main goal of DeFi?",
+          "options": ["To increase bank profits", "To eliminate intermediaries", "To build more physical branches", "To simplify tax collection"],
+          "answerIndex": 1,
+          "explanation": "The text states that DeFi 'aims to eliminate intermediaries'."
+        }
       ]
     },
     {
-      "id": "finance-b2-w1-cw5",
-      "type": "crossword",
-      "title": "Regulation Crossword",
-      "items": [
-        { "word": "COMPLIANCE", "clue": "Meeting legal and regulatory requirements.", "direction": "across", "row": 0, "col": 0 },
-        { "word": "AUDIT", "clue": "Official inspection of financial accounts.", "direction": "down", "row": 0, "col": 1 },
-        { "word": "BASEL", "clue": "City name associated with banking capital rules.", "direction": "across", "row": 2, "col": 0 }
+      "id": "finance-b2-w1-l2",
+      "type": "listening",
+      "title": "Risk Strategy Session",
+      "audioUrl": "/audio/finanzas/podcast-semana01.mp3",
+      "duration": 150,
+      "transcript": "CFO: Our investors want a clearer ESG roadmap. They see our carbon footprint as a Market Risk.\nCEO: I agree. We should have started decarbonizing last year. Now we must accelerate.",
+      "questions": [
+        {
+          "id": "l2-q1",
+          "question": "What do investors consider a significant risk?",
+          "options": ["Low salaries", "The company's carbon footprint", "The lack of marketing", "The choice of CEO"],
+          "answerIndex": 1,
+          "explanation": "The CFO says investors see the 'carbon footprint as a Market Risk'."
+        }
       ]
     },
     {
-      "id": "finance-b2-w1-mc10",
+      "id": "finance-b2-w1-g5",
+      "type": "grammar",
+      "prompt": "If the Fed pauses interest rate hikes, we ___ see a market recovery (possibility).",
+      "options": ["must", "will", "might", "shall"],
+      "answerIndex": 2,
+      "explanation": "'Might' expresses a possibility, which is suitable for market predictions."
+    },
+    {
+      "id": "finance-b2-w1-fb4",
+      "type": "fillBlanks",
+      "text": "Meeting legal and regulatory requirements is known as ___.",
+      "answers": ["compliance"],
+      "explanation": "Compliance involves adhering to laws and regulations."
+    },
+    {
+      "id": "finance-b2-w1-q5",
       "type": "multipleChoice",
       "prompt": "What is 'Proprietary Trading'?",
       "options": [
         "Trading on behalf of retail clients",
         "Trading for the bank's own account and profit",
-        "Trading only in real estate",
-        "A type of government-mandated trade"
+        "A type of government-mandated trade",
+        "Trading only in international real estate"
       ],
       "answerIndex": 1,
-      "explanation": "Proprietary trading occurs when a financial institution trades stocks, bonds, or other instruments with its own money."
+      "explanation": "Proprietary trading occurs when a firm trades for its own direct gain rather than for commissions from clients."
     },
     {
-      "id": "finance-b2-w1-mc11",
-      "type": "multipleChoice",
-      "prompt": "Which of these is a typical activity of a 'Sovereign Wealth Fund'?",
-      "options": [
-        "Providing small loans to individuals",
-        "Investing a nation's reserves for long-term profit",
-        "Printing physical currency",
-        "Regulating local neobanks"
-      ],
+      "id": "finance-b2-w1-g6",
+      "type": "grammar",
+      "prompt": "They ___ be very wealthy; they just bought a majority stake in a tech giant.",
+      "options": ["should", "must", "can", "might"],
       "answerIndex": 1,
-      "explanation": "A sovereign wealth fund is a state-owned investment fund that invests in real and financial assets."
+      "explanation": "'Must' is used for strong logical deduction based on evidence."
     },
     {
-      "id": "finance-b2-w1-mc12",
-      "type": "multipleChoice",
-      "prompt": "Complete with the correct modal: 'The company ___ be in trouble; they haven't published their accounts for months.'",
-      "options": ["must", "should", "may", "can't"],
-      "answerIndex": 0,
-      "explanation": "We use 'must' for strong deductions based on observable signs."
+      "id": "finance-b2-w1-matching-3",
+      "type": "matching",
+      "title": "Risk Categories",
+      "instructions": "Match the risk type with its description.",
+      "pairs": [
+        {
+          "id": "m3-1",
+          "word": "Operational Risk",
+          "correctMatch": "Losses from failed internal processes or systems.",
+          "distractors": ["Risk of a stock price falling.", "Risk of a country going bankrupt."]
+        },
+        {
+          "id": "m3-2",
+          "word": "Credit Risk",
+          "correctMatch": "Risk that a borrower will default on a loan.",
+          "distractors": ["Risk of fire in the bank building.", "Risk of changing interest rates."]
+        },
+        {
+          "id": "m3-3",
+          "word": "Liquidity Risk",
+          "correctMatch": "Risk of being unable to meet short-term financial obligations.",
+          "distractors": ["Risk of a hacker stealing data.", "Risk of a bad marketing campaign."]
+        }
+      ]
     },
     {
-      "id": "finance-b2-w1-mc13",
+      "id": "finance-b2-w1-r4",
+      "type": "reading",
+      "title": "Algorithmic Trading",
+      "text": "**Algorithmic trading** has revolutionized market dynamics. By using **AI** and machine learning, firms can execute trades at speeds impossible for humans. This contributes to high levels of **Liquidity**, but it can also lead to 'flash crashes' due to automated selling.",
+      "vocabularyHelp": [
+        {"word": "Algorithmic trading", "definition": "Automated trading using pre-set rules."},
+        {"word": "AI", "definition": "Artificial Intelligence."},
+        {"word": "Liquidity", "definition": "Availability of liquid assets in a market."},
+        {"word": "flash crashes", "definition": "Rapid decline in prices due to automated selling."}
+      ],
+      "questions": [
+        {
+          "id": "r4-q1",
+          "question": "What is a potential negative effect of algorithmic trading?",
+          "options": ["Higher taxes", "Flash crashes", "Slow market movements", "Lack of liquidity"],
+          "answerIndex": 1,
+          "explanation": "The text mentions that it 'can also lead to flash crashes'."
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w1-l3",
+      "type": "listening",
+      "title": "Venture Capital Interview",
+      "audioUrl": "/audio/finanzas/podcast-semana01.mp3",
+      "duration": 200,
+      "transcript": "Interviewer: Mark, how has the funding climate changed?\nMark: It's more selective. Investors want to see a clear Burn Rate management strategy. You must show profitability.",
+      "questions": [
+        {
+          "id": "l3-q1",
+          "question": "What are investors focusing on now?",
+          "options": ["Rapid disruption only", "Burn rate management and profitability", "Hiring more staff", "International office expansion"],
+          "answerIndex": 1,
+          "explanation": "Mark mentions investors want to see 'Burn Rate management' and 'profitability'."
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w1-fb5",
+      "type": "fillBlanks",
+      "text": "A startup valued at over $1 billion is a ___.",
+      "answers": ["unicorn"],
+      "explanation": "Unicorn is the term for billion-dollar startups."
+    },
+    {
+      "id": "finance-b2-w1-fb6",
+      "type": "fillBlanks",
+      "text": "The amount by which a company's liabilities exceed its assets is a ___.",
+      "answers": ["deficit"],
+      "explanation": "A deficit occurs when liabilities are greater than assets."
+    },
+    {
+      "id": "finance-b2-w1-q6",
       "type": "multipleChoice",
-      "prompt": "What is the meaning of 'Leverage' in finance?",
+      "prompt": "What does 'Scalability' mean in fintech?",
       "options": [
         "Reducing the number of employees",
-        "Using borrowed money to increase potential returns",
-        "Selling all company assets",
-        "Focusing only on domestic markets"
-      ],
-      "answerIndex": 1,
-      "explanation": "Leverage involves using debt to amplify the potential return of an investment."
-    },
-    {
-      "id": "finance-b2-w1-mc14",
-      "type": "multipleChoice",
-      "prompt": "Which modal fits best for a weak possibility? 'The stock price ___ recover, but it's very unlikely.'",
-      "options": ["will", "must", "might", "shall"],
-      "answerIndex": 2,
-      "explanation": "'Might' expresses a remote possibility."
-    },
-    {
-      "id": "finance-b2-w1-mc15",
-      "type": "multipleChoice",
-      "prompt": "What is an 'IPO Prospectus'?",
-      "options": [
-        "A list of company employees",
-        "A formal document that provides details about an investment offering for the public",
-        "A bank's annual marketing plan",
-        "A letter from the CEO to their family"
-      ],
-      "answerIndex": 1,
-      "explanation": "A prospectus is a legal document that describes a financial security for potential buyers."
-    },
-    {
-      "id": "finance-b2-w1-fb10",
-      "type": "fillBlanks",
-      "prompt": "The first time a company sells shares to the public is called an [blank].",
-      "answers": ["IPO", "Initial Public Offering"],
-      "explanation": "IPO stands for Initial Public Offering."
-    },
-    {
-      "id": "finance-b2-w1-fb11",
-      "type": "fillBlanks",
-      "prompt": "Companies merge to create [blank], making the combined entity more valuable.",
-      "answers": ["synergy", "synergies"],
-      "explanation": "Synergy is the interaction that produces a greater combined effect."
-    },
-    {
-      "id": "finance-b2-w1-fb12",
-      "type": "fillBlanks",
-      "prompt": "They [blank] have checked the figures more carefully (regret about the past).",
-      "answers": ["should"],
-      "explanation": "'Should have' expresses regret or criticism about a past action."
-    },
-    {
-      "id": "finance-b2-w1-fb13",
-      "type": "fillBlanks",
-      "prompt": "A bank with no physical branches is a [blank].",
-      "answers": ["neobank"],
-      "explanation": "Neobanks are digital-only banks."
-    },
-    {
-      "id": "finance-b2-w1-fb14",
-      "type": "fillBlanks",
-      "prompt": "Environmental, Social, and [blank] (ESG).",
-      "answers": ["Governance"],
-      "explanation": "The 'G' in ESG stands for Governance."
-    },
-    {
-      "id": "finance-b2-w1-r5",
-      "type": "reading-comprehension",
-      "title": "Navigating the Regulatory Sandbox",
-      "text": "The rapid evolution of financial technology has outpaced traditional legislative cycles, leading to the creation of **Regulatory Sandboxes**. These frameworks allow **Fintech** startups to test innovative products in a live environment under **regulator supervision** without immediately meeting all usual **compliance** requirements. This approach fosters **Innovation** while ensuring that consumer protection is not compromised. However, transitioning from a sandbox to full **licensing** remains a significant hurdle for many firms.",
-      "vocabularyHelp": [
-        {"word": "Regulatory Sandboxes", "definition": "Frameworks set up by financial regulators to allow small-scale, live testing of innovations by private firms."},
-        {"word": "Fintech", "definition": "Computer programs and other technology used to support or enable banking and financial services."},
-        {"word": "regulator supervision", "definition": "The process of monitoring and managing financial institutions by government agencies."},
-        {"word": "compliance", "definition": "The action or fact of complying with a wish or command, especially a legal requirement."},
-        {"word": "Innovation", "definition": "The action or process of innovating."},
-        {"word": "licensing", "definition": "The granting of a permit to operate a business or provide a service."}
-      ],
-      "questions": [
-        {
-          "question": "What is the primary purpose of a regulatory sandbox?",
-          "options": ["To avoid all taxes", "To test innovations in a controlled live environment", "To replace traditional banks", "To eliminate all regulations"],
-          "answerIndex": 1,
-          "explanation": "Sandboxes allow startups to test innovative products under supervision without full compliance requirements initially."
-        },
-        {
-          "question": "What is maintained even within the sandbox framework?",
-          "options": ["High interest rates", "Consumer protection", "Physical branches", "Manual trading"],
-          "answerIndex": 1,
-          "explanation": "The text states the approach fosters innovation 'while ensuring that consumer protection is not compromised'."
-        },
-        {
-          "question": "What is mentioned as a 'significant hurdle' for fintech firms?",
-          "options": ["Hiring new staff", "Moving from a sandbox to full licensing", "Marketing their products", "Using blockchain"],
-          "answerIndex": 1,
-          "explanation": "The text says 'transitioning from a sandbox to full licensing remains a significant hurdle'."
-        }
-      ]
-    },
-    {
-      "id": "finance-b2-w1-l5",
-      "type": "listening-comprehension",
-      "title": "Interview: The Venture Capital Landscape",
-      "transcript": "Interviewer: Today we're discussing **Venture Capital** (VC) with Mark Sterling. Mark, how has the **funding** climate changed?\nMark: It's become much more **selective**. Investors are no longer just looking at **disruption**; they want to see a clear **Burn Rate** management strategy. You **must** show how you'll reach **Profitability**.\nInterviewer: So, the 'growth at all costs' model **might** be dead?\nMark: Exactly. We **could** see fewer 'unicorns' this year, but the ones that survive will be much more **resilient**. Companies **should** focus on their **Unit Economics** from day one.",
-      "vocabularyHelp": [
-        {"word": "Venture Capital", "definition": "Capital invested in a project in which there is a substantial element of risk, typically a new or expanding business."},
-        {"word": "funding", "definition": "Money provided, especially by an organization or government, for a particular purpose."},
-        {"word": "selective", "definition": "Relating to or involving the selection of the most suitable or best qualified."},
-        {"word": "disruption", "definition": "Disturbance or problems which interrupt an event, activity, or process."},
-        {"word": "Burn Rate", "definition": "The rate at which a new company uses up its venture capital to finance overhead before generating positive cash flow from operations."},
-        {"word": "Profitability", "definition": "The degree to which a business or activity yields profit or financial gain."},
-        {"word": "resilient", "definition": "Able to withstand or recover quickly from difficult conditions."},
-        {"word": "Unit Economics", "definition": "The direct revenues and costs associated with a particular business model, and are specifically expressed on a per-unit basis."}
-      ],
-      "questions": [
-        {
-          "question": "According to Mark, what are investors looking for now?",
-          "options": ["Only disruption", "High burn rates", "Clear burn rate management and profitability", "More unicorns"],
-          "answerIndex": 2,
-          "explanation": "Mark says they want to see 'a clear Burn Rate management strategy' and 'how you'll reach Profitability'."
-        },
-        {
-          "question": "What does Mark predict for 'unicorns' this year?",
-          "options": ["There will be more than ever", "There could be fewer, but more resilient ones", "They will all go bankrupt", "They will stop using VC funding"],
-          "answerIndex": 1,
-          "explanation": "He says 'We could see fewer unicorns this year, but the ones that survive will be much more resilient'."
-        },
-        {
-          "question": "What should companies focus on from the beginning?",
-          "options": ["Marketing", "Unit Economics", "Hiring", "International expansion"],
-          "answerIndex": 1,
-          "explanation": "Mark states 'Companies should focus on their Unit Economics from day one'."
-        }
-      ]
-    },
-    {
-      "id": "finance-b2-w1-ws6",
-      "type": "word-search",
-      "title": "Banking Roles Word Search",
-      "instructions": "Find 6 roles or departments within an investment bank.",
-      "words": ["ANALYST", "ASSOCIATE", "ADVISORY", "TREASURY", "BROKER", "DIRECTOR"],
-      "gridSize": 12
-    },
-    {
-      "id": "finance-b2-w1-cw6",
-      "type": "crossword",
-      "title": "General Finance Crossword",
-      "items": [
-        { "word": "DIVIDEND", "clue": "A sum of money paid regularly by a company to its shareholders.", "direction": "across", "row": 0, "col": 0 },
-        { "word": "DEFICIT", "clue": "The amount by which something is too small.", "direction": "down", "row": 0, "col": 0 },
-        { "word": "ASSET", "clue": "Property owned by a person or company, regarded as having value.", "direction": "across", "row": 2, "col": 0 }
-      ]
-    },
-    {
-      "id": "finance-b2-w1-mc16",
-      "type": "multipleChoice",
-      "prompt": "What does 'Scalability' mean in the context of a fintech startup?",
-      "options": [
-        "The ability to reduce the company's size quickly",
         "The capacity to handle a growing amount of work or customers",
-        "The process of weighing digital assets",
+        "Weighing digital coins",
         "A type of security audit"
       ],
       "answerIndex": 1,
-      "explanation": "Scalability is the capability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth."
+      "explanation": "Scalability is the ability to grow the business without being hindered by its structure or resources."
     },
     {
-      "id": "finance-b2-w1-mc17",
+      "id": "finance-b2-w1-g7",
+      "type": "grammar",
+      "prompt": "The audit was perfect, so there ___ be any major accounting errors.",
+      "options": ["mustn't", "can't", "shouldn't", "mightn't"],
+      "answerIndex": 1,
+      "explanation": "'Can't' is used for negative logical deduction based on strong evidence (the perfect audit)."
+    },
+    {
+      "id": "finance-b2-w1-fb7",
+      "type": "fillBlanks",
+      "text": "The 'G' in ESG stands for ___.",
+      "answers": ["Governance"],
+      "explanation": "ESG stands for Environmental, Social, and Governance."
+    },
+    {
+      "id": "finance-b2-w1-ws2",
+      "type": "word-search",
+      "title": "Fintech Trends",
+      "words": ["BLOCKCHAIN", "NEOBANK", "DEFI", "FINTECH", "ALGO", "CYBER"],
+      "gridSize": 12
+    },
+    {
+      "id": "finance-b2-w1-cw2",
+      "type": "crossword",
+      "title": "Banking Roles",
+      "items": [
+        { "word": "ANALYST", "clue": "Junior role in an investment bank.", "direction": "across", "row": 0, "col": 0 },
+        { "word": "BROKER", "clue": "Agent who arranges trades.", "direction": "down", "row": 0, "col": 0 }
+      ]
+    },
+    {
+      "id": "finance-b2-w1-q7",
       "type": "multipleChoice",
-      "prompt": "Which of these is considered a 'Social' factor in ESG?",
+      "prompt": "What is 'Churn Rate'?",
+      "options": [
+        "The speed of money printing",
+        "The percentage of customers who stop using a service",
+        "The interest rate on green bonds",
+        "The time it takes to process a trade"
+      ],
+      "answerIndex": 1,
+      "explanation": "Churn rate is a key metric for subscription-based fintechs, measuring customer loss."
+    },
+    {
+      "id": "finance-b2-w1-g8",
+      "type": "grammar",
+      "prompt": "We ___ have checked the figures more carefully; we missed a huge liability.",
+      "options": ["must", "should", "could", "might"],
+      "answerIndex": 1,
+      "explanation": "'Should have' expresses regret about a past mistake."
+    },
+    {
+      "id": "finance-b2-w1-fb8",
+      "type": "fillBlanks",
+      "text": "The first issuance of stock by a company is the ___ market.",
+      "answers": ["primary"],
+      "explanation": "The primary market is where new securities are created."
+    },
+    {
+      "id": "finance-b2-w1-fb9",
+      "type": "fillBlanks",
+      "text": "Trading existing securities happens in the ___ market.",
+      "answers": ["secondary"],
+      "explanation": "The secondary market is where investors trade among themselves."
+    },
+    {
+      "id": "finance-b2-w1-q8",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Social' factor in ESG?",
       "options": [
         "Carbon emissions",
         "Employee diversity and inclusion",
@@ -797,35 +485,141 @@
         "Board independence"
       ],
       "answerIndex": 1,
-      "explanation": "Social factors include labor standards, diversity, and community relations."
+      "explanation": "Social factors include labor standards, diversity, and community impact."
     },
     {
-      "id": "finance-b2-w1-fb15",
+      "id": "finance-b2-w1-g9",
+      "type": "grammar",
+      "prompt": "The startup ___ be successful, but they need to find a sustainable business model first (possibility).",
+      "options": ["will", "must", "might", "shall"],
+      "answerIndex": 2,
+      "explanation": "'Might' expresses a possibility."
+    },
+    {
+      "id": "finance-b2-w1-matching-4",
+      "type": "matching",
+      "title": "Valuation Methods",
+      "instructions": "Match the valuation term with its definition.",
+      "pairs": [
+        {
+          "id": "m4-1",
+          "word": "DCF",
+          "correctMatch": "Discounted Cash Flow; valuing based on future cash flows.",
+          "distractors": ["Digital Currency Fund.", "Direct Capital Finance."]
+        },
+        {
+          "id": "m4-2",
+          "word": "Comps",
+          "correctMatch": "Comparative analysis; valuing based on similar companies.",
+          "distractors": ["Complimentary services.", "Compensation packages."]
+        },
+        {
+          "id": "m4-3",
+          "word": "EBITDA",
+          "correctMatch": "Earnings before interest, taxes, depreciation, and amortization.",
+          "distractors": ["A type of European bank.", "Electronic Banking Data."]
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w1-r5",
+      "type": "reading",
+      "title": "Regulatory Sandboxes",
+      "text": "**Regulatory Sandboxes** allow fintech startups to test innovative products in a live environment under **regulator supervision** without immediately meeting all usual **compliance** requirements. This approach fosters **Innovation** while ensuring consumer protection.",
+      "vocabularyHelp": [
+        {"word": "Regulatory Sandboxes", "definition": "Controlled environments for live testing of innovations."},
+        {"word": "regulator supervision", "definition": "Monitoring by government agencies."},
+        {"word": "compliance", "definition": "Adherence to laws and rules."},
+        {"word": "Innovation", "definition": "New methods or ideas."}
+      ],
+      "questions": [
+        {
+          "id": "r5-q1",
+          "question": "What is the primary benefit of a regulatory sandbox for startups?",
+          "options": ["Avoiding all taxes forever", "Testing innovations with relaxed initial compliance", "Replacing the central bank", "Hiding data from the government"],
+          "answerIndex": 1,
+          "explanation": "Sandboxes provide a controlled environment to test innovations without full immediate compliance."
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w1-l4",
+      "type": "listening",
+      "title": "Market Analyst Report",
+      "audioUrl": "/audio/finanzas/podcast-semana01.mp3",
+      "duration": 120,
+      "transcript": "Analyst: We can't have expected such a sharp correction. However, this could be a buying opportunity. Investors should maintain a diversified portfolio.",
+      "questions": [
+        {
+          "id": "l4-q1",
+          "question": "What is the analyst's recommendation?",
+          "options": ["Sell everything", "Maintain a diversified portfolio", "Invest only in crypto", "Ignore the correction"],
+          "answerIndex": 1,
+          "explanation": "The analyst explicitly says investors 'should maintain a diversified portfolio'."
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w1-fb10",
       "type": "fillBlanks",
-      "prompt": "A [blank] is a startup company valued at over $1 billion.",
-      "answers": ["unicorn"],
-      "explanation": "In business, a unicorn is a privately held startup company valued at over $1 billion."
+      "text": "The rate at which a company uses its cash is the ___ rate.",
+      "answers": ["burn"],
+      "explanation": "Burn rate is a crucial metric for startups."
     },
     {
-      "id": "finance-b2-w1-mc18",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct modal: 'The audit was perfect, so there ___ be any major accounting errors.'",
-      "options": ["mustn't", "can't", "shouldn't", "mightn't"],
-      "answerIndex": 1,
-      "explanation": "'Can't' is used for negative deduction when we are sure something is impossible."
+      "id": "finance-b2-w1-fb11",
+      "type": "fillBlanks",
+      "text": "A formal document describing an investment offering is a ___.",
+      "answers": ["prospectus"],
+      "explanation": "A prospectus provides key details to potential investors."
     },
     {
-      "id": "finance-b2-w1-mc19",
+      "id": "finance-b2-w1-q10",
       "type": "multipleChoice",
-      "prompt": "What is 'Churn Rate'?",
+      "prompt": "What is 'Systemic Risk'?",
       "options": [
-        "The rate at which a bank prints money",
-        "The percentage of customers who stop using a service over a certain period",
-        "The speed of an algorithmic trade",
-        "The interest rate on a green bond"
+        "Risk within a single computer system",
+        "Risk of collapse of an entire financial system",
+        "Risk of a typo in a contract",
+        "Risk of a bank's heating system failing"
       ],
       "answerIndex": 1,
-      "explanation": "Churn rate is the annual percentage rate at which customers stop subscribing to a service or employees leave a job."
+      "explanation": "Systemic risk refers to risks that can trigger a domino effect across the whole economy."
+    },
+    {
+      "id": "finance-b2-w1-g10",
+      "type": "grammar",
+      "prompt": "The company ___ be in trouble; they haven't published accounts for six months.",
+      "options": ["must", "should", "can't", "might"],
+      "answerIndex": 0,
+      "explanation": "'Must' is used for strong logical deduction based on clear signs."
+    },
+    {
+      "id": "finance-b2-w1-fb12",
+      "type": "fillBlanks",
+      "text": "A sum of money paid by a company to its shareholders is a ___.",
+      "answers": ["dividend"],
+      "explanation": "Dividends are a way for companies to share profits with investors."
+    },
+    {
+      "id": "finance-b2-w1-fb13",
+      "type": "fillBlanks",
+      "text": "The process of determining the worth of an asset is ___.",
+      "answers": ["valuation"],
+      "explanation": "Valuation is a core skill in investment banking."
+    },
+    {
+      "id": "finance-b2-w1-q11",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Sovereign Wealth Fund'?",
+      "options": [
+        "A fund managed by a group of kings",
+        "A state-owned investment fund",
+        "A fund for poor people",
+        "A charity for bankers"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sovereign wealth funds are national investment funds managed by governments."
     }
   ]
 }

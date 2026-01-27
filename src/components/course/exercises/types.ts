@@ -1,14 +1,85 @@
 export type ExerciseBase = {
   id: string;
-  type: "multipleChoice" | "fillBlanks" | "reorder" | "errorCorrection";
+  type:
+    | "multipleChoice"
+    | "fillBlanks"
+    | "reorder"
+    | "errorCorrection"
+    | "reading"
+    | "listening"
+    | "matching"
+    | "word-search"
+    | "crossword"
+    | "grammar";
+  track?: "core" | "extension";
 };
 
 export type MultipleChoiceExercise = ExerciseBase & {
-  type: "multipleChoice";
+  type: "multipleChoice" | "grammar";
   prompt: string;
   options: string[];
   answerIndex: number;
   explanation?: string;
+};
+
+export type ReadingQuestion = {
+  id: string;
+  question: string;
+  options: string[];
+  answerIndex: number;
+  explanation?: string;
+};
+
+export type ReadingExercise = ExerciseBase & {
+  type: "reading";
+  title: string;
+  text: string;
+  vocabularyHelp?: { word: string; definition: string }[];
+  questions: ReadingQuestion[];
+};
+
+export type ListeningExercise = ExerciseBase & {
+  type: "listening";
+  title: string;
+  audioUrl: string;
+  transcript?: string;
+  duration: number;
+  questions: ReadingQuestion[];
+};
+
+export type MatchingPair = {
+  id: string;
+  word: string;
+  correctMatch: string;
+  distractors: string[];
+};
+
+export type MatchingExercise = ExerciseBase & {
+  type: "matching";
+  title: string;
+  instructions: string;
+  pairs: MatchingPair[];
+};
+
+export type WordSearchExercise = ExerciseBase & {
+  type: "word-search";
+  title: string;
+  words: string[];
+  gridSize?: number;
+};
+
+export type CrosswordItem = {
+  word: string;
+  clue: string;
+  direction: "across" | "down";
+  row: number;
+  col: number;
+};
+
+export type CrosswordExercise = ExerciseBase & {
+  type: "crossword";
+  title: string;
+  items: CrosswordItem[];
 };
 
 export type FillBlanksExercise = ExerciseBase & {
@@ -46,7 +117,12 @@ export type ExerciseItem =
   | MultipleChoiceExercise
   | FillBlanksExercise
   | ReorderExercise
-  | ErrorCorrectionExercise;
+  | ErrorCorrectionExercise
+  | ReadingExercise
+  | ListeningExercise
+  | MatchingExercise
+  | WordSearchExercise
+  | CrosswordExercise;
 
 export type ExercisesFile = {
   goal: string;
