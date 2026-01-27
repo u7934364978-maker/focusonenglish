@@ -3,322 +3,322 @@
     {
       "id": 1,
       "type": "multiple-choice",
-      "question": "Which of these is used for a fixed plan in the future?",
-      "options": ["Past simple", "Present continuous", "Present simple", "There is"],
+      "question": "Which structure is used for a fixed arrangement with a specific time?",
+      "options": ["Past simple", "Present continuous", "Present simple", "Going to"],
       "answer": 1
     },
     {
       "id": 2,
       "type": "multiple-choice",
-      "question": "You ______ tell anyone your PIN number.",
+      "question": "You ______ ever share your One-Time Password (OTP) with anyone.",
       "options": ["must", "mustn't", "can", "are"],
       "answer": 1
     },
     {
       "id": 3,
       "type": "multiple-choice",
-      "question": "This is the ______ credit card in the market.",
+      "question": "This digital wallet is the ______ one available in the app store.",
       "options": ["goodest", "better", "best", "good"],
       "answer": 2
     },
     {
       "id": 4,
       "type": "multiple-choice",
-      "question": "I have ______ here for three years.",
-      "options": ["work", "worked", "working", "works"],
+      "question": "I have ______ my portfolio since I started my new job.",
+      "options": ["diversify", "diversified", "diversifying", "diversifies"],
       "answer": 1
     },
     {
       "id": 5,
       "type": "multiple-choice",
-      "question": "They are ______ to open a new account tomorrow.",
+      "question": "They are ______ to apply for a higher credit limit next month.",
       "options": ["go", "goes", "going", "gone"],
       "answer": 2
     },
     {
       "id": 6,
       "type": "multiple-choice",
-      "question": "A ______ email is a fake email to steal data.",
-      "options": ["Phishing", "Shipping", "Pushing", "Fishing"],
+      "question": "A ______ email often looks like it's from a real bank but it's fake.",
+      "options": ["Phishing", "Shipping", "Pushing", "Vesting"],
       "answer": 0
     },
     {
       "id": 7,
       "type": "multiple-choice",
-      "question": "There ______ any money in my wallet yesterday.",
+      "question": "There ______ any fees on my statement yesterday.",
       "options": ["wasn't", "weren't", "isn't", "aren't"],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": 8,
       "type": "multiple-choice",
-      "question": "How ______ money do you have in your account?",
+      "question": "How ______ yield did your investments generate last year?",
       "options": ["many", "much", "long", "often"],
       "answer": 1
     },
     {
       "id": 9,
       "type": "multiple-choice",
-      "question": "We have had this portfolio ______ 2018.",
+      "question": "We have held these ETFs ______ five years.",
       "options": ["for", "since", "during", "ago"],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": 10,
       "type": "multiple-choice",
-      "question": "A monthly payment for a loan is an ______.",
-      "options": ["installment", "interest", "investment", "insurance"],
+      "question": "Monthly payments for a loan are called ______.",
+      "options": ["installments", "interests", "investments", "defaults"],
       "answer": 0
     },
     {
       "id": 11,
       "type": "multiple-choice",
-      "question": "The ______ icon means the connection is secure.",
-      "options": ["padlock", "star", "cross", "circle"],
+      "question": "What is the name of the digital protocol for secure online payments?",
+      "options": ["3D Secure", "2D Simple", "4D Safety", "1D Signal"],
       "answer": 0
     },
     {
       "id": 12,
       "type": "multiple-choice",
-      "question": "Have you ______ applied for a mortgage?",
+      "question": "Have you ______ used a robo-advisor for your wealth management?",
       "options": ["never", "ever", "yet", "already"],
       "answer": 1
     },
     {
       "id": 13,
       "type": "multiple-choice",
-      "question": "He ______ at the bank every day.",
+      "question": "The security consultant ______ at the fintech firm every Monday.",
       "options": ["work", "works", "is working", "worked"],
       "answer": 1
     },
     {
       "id": 14,
       "type": "multiple-choice",
-      "question": "This loan is ______ than the other one.",
+      "question": "This BNPL service is ______ than traditional credit cards.",
       "options": ["cheap", "cheaper", "cheapest", "more cheap"],
       "answer": 1
     },
     {
       "id": 15,
       "type": "multiple-choice",
-      "question": "We ______ at the meeting yesterday.",
+      "question": "They ______ at the cybersecurity conference last Tuesday.",
       "options": ["was", "were", "are", "is"],
       "answer": 1
     },
     {
       "id": 16,
       "type": "multiple-choice",
-      "question": "A ______ is a range of investments.",
-      "options": ["portfolio", "dividend", "yield", "broker"],
+      "question": "A ______ tracks a specific index like the S&P 500.",
+      "options": ["ETF", "Dividend", "Yield", "Broker"],
       "answer": 0
     },
     {
       "id": 17,
       "type": "multiple-choice",
-      "question": "I ______ never defaulted on a payment.",
+      "question": "I ______ never been late with my monthly installments.",
       "options": ["has", "have", "am", "do"],
       "answer": 1
     },
     {
       "id": 18,
       "type": "multiple-choice",
-      "question": "You ______ sign the contract before leaving.",
+      "question": "You ______ follow the KYC (Know Your Customer) procedures.",
       "options": ["must", "mustn't", "are", "don't"],
       "answer": 0
     },
     {
       "id": 19,
       "type": "multiple-choice",
-      "question": "What is the ______ limit on your card?",
-      "options": ["credit", "debit", "score", "rate"],
-      "answer": 0
+      "question": "What is the maximum amount of credit you can use?",
+      "options": ["Credit score", "Credit limit", "Balance", "Interest rate"],
+      "answer": 1
     },
     {
       "id": 20,
       "type": "multiple-choice",
-      "question": "How ______ have you been an investor?",
+      "question": "How ______ have you been using biometrics for login?",
       "options": ["much", "long", "many", "often"],
       "answer": 1
     },
     {
       "id": 21,
       "type": "fill-in-the-blanks",
-      "question": "I have ______ (be) a customer since 2010.",
+      "question": "I have ______ (be) a user of this neobank since 2019.",
       "answer": "been"
     },
     {
       "id": 22,
       "type": "fill-in-the-blanks",
-      "question": "You ______ (must/mustn't) share your password.",
+      "question": "You ______ (must/mustn't) reveal your PIN at the ATM.",
       "answer": "mustn't"
     },
     {
       "id": 23,
       "type": "fill-in-the-blanks",
-      "question": "This is the ______ (expensive) bank in the city.",
-      "answer": "most expensive"
+      "question": "This is the ______ (secure) payment method in our app.",
+      "answer": "most secure"
     },
     {
       "id": 24,
       "type": "fill-in-the-blanks",
-      "question": "We ______ ______ (meet) the advisor tomorrow at 10 AM.",
-      "answer": "are meeting"
+      "question": "We ______ ______ (launch) the new virtual card this Friday.",
+      "answer": "are launching"
     },
     {
       "id": 25,
       "type": "fill-in-the-blanks",
-      "question": "A ______ is a payment made to shareholders.",
-      "answer": "dividend"
+      "question": "A ______ is a numerical representation of your credit reliability.",
+      "answer": "credit score"
     },
     {
       "id": 26,
       "type": "fill-in-the-blanks",
-      "question": "I ______ (not / see) my balance yet today.",
-      "answer": "haven't seen"
+      "question": "I ______ (not / review) my monthly statement yet.",
+      "answer": "haven't reviewed"
     },
     {
       "id": 27,
       "type": "fill-in-the-blanks",
-      "question": "The ______ ______ (two words) is 15%.",
+      "question": "The ______ ______ (two words) is the annual cost of borrowing.",
       "answer": "interest rate"
     },
     {
       "id": 28,
       "type": "fill-in-the-blanks",
-      "question": "Were you at the bank yesterday? No, I ______.",
+      "question": "Was the transfer successful? No, it ______.",
       "answer": "wasn't"
     },
     {
       "id": 29,
       "type": "fill-in-the-blanks",
-      "question": "He has lived in London ______ (for/since) five years.",
+      "question": "He has held those shares ______ (for/since) ten years.",
       "answer": "for"
     },
     {
       "id": 30,
       "type": "fill-in-the-blanks",
-      "question": "If you lose your card, you must ______ (block) it.",
-      "answer": "block"
+      "question": "If you suspect fraud, you must ______ (freeze) your card.",
+      "answer": "freeze"
     },
     {
       "id": 31,
       "type": "fill-in-the-blanks",
-      "question": "There ______ (be) some issues with the ATM.",
-      "answer": "are"
+      "question": "There ______ (be) several transactions on my account yesterday.",
+      "answer": "were"
     },
     {
       "id": 32,
       "type": "fill-in-the-blanks",
-      "question": "I ______ ______ (buy) a new car next month.",
-      "answer": "am going to buy"
+      "question": "I ______ ______ (start) an investment plan next month.",
+      "answer": "am going to start"
     },
     {
       "id": 33,
       "type": "fill-in-the-blanks",
-      "question": "A ______ is someone who buys and sells shares.",
-      "answer": "broker"
+      "question": "An ______ uses algorithms to help you invest your savings.",
+      "answer": "robo-advisor"
     },
     {
       "id": 34,
       "type": "fill-in-the-blanks",
-      "question": "Has she ______ (pay) her credit card bill?",
+      "question": "Has she ______ (pay) the final installment of her loan?",
       "answer": "paid"
     },
     {
       "id": 35,
       "type": "fill-in-the-blanks",
-      "question": "The ______ ______ (two words) shows your reliability.",
-      "answer": "credit score"
+      "question": "The ______ ______ (two words) allows you to pay without interest for 30 days.",
+      "answer": "grace period"
     },
     {
       "id": 36,
       "type": "fill-in-the-blanks",
-      "question": "We ______ (not / have) any cash right now.",
+      "question": "We ______ (not / have) enough balance for the transfer.",
       "answer": "don't have"
     },
     {
       "id": 37,
       "type": "fill-in-the-blanks",
-      "question": "This bond is ______ (safe) than that stock.",
-      "answer": "safer"
+      "question": "Digital assets are often ______ (volatile) than traditional stocks.",
+      "answer": "more volatile"
     },
     {
       "id": 38,
       "type": "fill-in-the-blanks",
-      "question": "I have ______ (have) this portfolio for ages.",
+      "question": "I have ______ (have) this diversified portfolio for a long time.",
       "answer": "had"
     },
     {
       "id": 39,
       "type": "fill-in-the-blanks",
-      "question": "The ______ icon is important for online safety.",
+      "question": "The ______ icon in the browser indicates an encrypted connection.",
       "answer": "padlock"
     },
     {
       "id": 40,
       "type": "fill-in-the-blanks",
-      "question": "They ______ (be) at the conference last week.",
+      "question": "The bank managers ______ (be) very helpful during the onboarding.",
       "answer": "were"
     },
     {
       "id": 41,
       "type": "reorder",
-      "question": "have / I / lived / here / since / 2015",
-      "answer": "I have lived here since 2015"
+      "question": "have / I / used / neobank / since / 2020 / a",
+      "answer": "I have used a neobank since 2020"
     },
     {
       "id": 42,
       "type": "reorder",
-      "question": "must / you / your / protect / password",
-      "answer": "you must protect your password"
+      "question": "must / you / sharing / avoid / credentials / your",
+      "answer": "you must avoid sharing your credentials"
     },
     {
       "id": 43,
       "type": "reorder",
-      "question": "is / credit / the / what / limit / ?",
-      "answer": "what is the credit limit ?"
+      "question": "is / my / what / score / credit / ?",
+      "answer": "what is my credit score ?"
     },
     {
       "id": 44,
       "type": "reorder",
-      "question": "meeting / the / am / I / manager / tomorrow",
-      "answer": "I am meeting the manager tomorrow"
+      "question": "launching / the / are / we / app / tomorrow",
+      "answer": "we are launching the app tomorrow"
     },
     {
       "id": 45,
       "type": "reorder",
-      "question": "not / they / paid / have / dividends / yet",
-      "answer": "they have not paid dividends yet"
+      "question": "not / they / paid / have / dividends / last / since / July",
+      "answer": "they have not paid dividends since last July"
     },
     {
       "id": 46,
       "type": "reorder",
-      "question": "is / best / this / the / investment",
-      "answer": "this is the best investment"
+      "question": "is / investment / the / ETF / best / this",
+      "answer": "this is the best ETF investment"
     },
     {
       "id": 47,
       "type": "reorder",
-      "question": "he / working / is / at / bank / the / now",
-      "answer": "he is working at the bank now"
+      "question": "he / working / is / in / department / compliance / the",
+      "answer": "he is working in the compliance department"
     },
     {
       "id": 48,
       "type": "reorder",
-      "question": "you / were / at / yesterday / bank / the / ?",
-      "answer": "were you at the bank yesterday ?"
+      "question": "any / were / fees / there / your / on / statement / ?",
+      "answer": "were there any fees on your statement ?"
     },
     {
       "id": 49,
       "type": "reorder",
-      "question": "going / we / are / a / to / loan / take",
-      "answer": "we are going to take a loan"
+      "question": "going / we / are / a / to / BNPL / use / service",
+      "answer": "we are going to use a BNPL service"
     },
     {
       "id": 50,
       "type": "reorder",
-      "question": "phishing / be / of / careful / scams",
-      "answer": "be careful of phishing scams"
+      "question": "be / of / careful / engineerings / social",
+      "answer": "be careful of social engineerings"
     }
   ]
 }

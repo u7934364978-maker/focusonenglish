@@ -1,24 +1,29 @@
 {
-  "title": "Cajeros Automáticos y Seguridad",
+  "title": "Contactless Payments & Wearable Tech Security",
   "sections": [
     {
-      "id": "vocab-atm-security",
-      "title": "Vocabulario: Seguridad en el Cajero",
-      "content": "Usar un cajero automático (ATM) requiere precaución. Vocabulario clave:\n\n- **Withdraw**: Retirar (dinero).\n- **Deposit**: Depositar / Ingresar.\n- **PIN (Personal Identification Number)**: Código secreto.\n- **Keyboard / Keypad**: Teclado.\n- **Suspicious**: Sospechoso.\n- **Cover**: Cubrir.\n- **Shoulder surfing**: Mirar por encima del hombro (para robar el PIN).\n- **Scam**: Estafa."
+      "id": "vocab",
+      "title": "Contactless & Wearable Vocabulary",
+      "content": "Modern payments are often 'frictionless,' meaning they are fast and easy. You don't always need a physical card anymore.\n\n- **Contactless**: A payment method where you tap your card or device near a reader using NFC technology.\n- **NFC (Near Field Communication)**: The technology that allows devices to communicate wirelessly over short distances.\n- **Digital Wallet**: An app (like Apple Pay or Google Pay) that stores your credit card information securely on your phone.\n- **Wearable Tech**: Devices like smartwatches or rings that you can use to make payments.\n- **Tokenization**: A security process that replaces your sensitive card details with a unique 'token' to prevent fraud.\n- **Skimming**: An illegal practice where criminals use a device to steal information from the magnetic stripe of a card.\n- **Authentication**: The process of proving your identity, often using a fingerprint or face scan on your phone."
     },
     {
-      "id": "grammar-must-mustnt",
-      "title": "Gramática: Must y Mustn't",
-      "content": "Usamos estos verbos modales para expresar obligación y prohibición:\n\n1. **Must**: Obligación fuerte o algo muy importante.\n   - *You **must** cover your PIN.* (Debes cubrir tu PIN).\n   - *You **must** report a lost card.* (Debes reportar una tarjeta perdida).\n\n2. **Mustn't**: Prohibición (no está permitido).\n   - *You **mustn't** share your password.* (No debes compartir tu contraseña).\n   - *You **mustn't** use a suspicious ATM.* (No debes usar un cajero sospechoso).\n\n*Nota*: Después de 'must' y 'mustn't', el verbo va en infinitivo sin 'to'."
+      "id": "diagram",
+      "title": "Contactless Transaction Lifecycle",
+      "content": "```mermaid\ngraph LR\n    A[Device/Card] -- Tap --> B[NFC Reader]\n    B -- Encrypted Token --> C[Payment Gateway]\n    C -- Auth Request --> D[Issuing Bank]\n    D -- Approval --> C\n    C -- Success Message --> B\n    B -- Receipt --> E[Customer Phone]\n```"
+    },
+    {
+      "id": "grammar",
+      "title": "Must & Mustn't: Payment Security Rules",
+      "content": "We use **must** and **mustn't** to express strong obligations and prohibitions regarding financial security.\n\n**Must (Obligation):**\n- *You **must** enable biometric authentication on your phone.*\n- *You **must** lock your device when you are not using it.*\n- *You **must** report a lost smartwatch immediately.*\n\n**Mustn't (Prohibition):**\n- *You **mustn't** share your digital wallet passcode with anyone.*\n- *You **mustn't** tap your phone on a reader that looks suspicious.*\n- *You **mustn't** write your PIN on the back of your phone case.*\n\n**Structure:**\n- Subject + must / mustn't + Verb (base form)\n- *Example: He **must** check his transaction history every day.*"
     }
   ],
   "objectives": [
-    "Aprender vocabulario relacionado con el uso seguro de cajeros automáticos",
-    "Utilizar 'must' y 'mustn't' para dar instrucciones de seguridad",
-    "Identificar comportamientos sospechosos y medidas de prevención de fraudes"
+    "Understand NFC technology and contactless payment methods",
+    "Identify security measures like tokenization and biometric authentication",
+    "Use 'must' and 'mustn't' to give and follow security instructions"
   ],
   "keyTerms": [
-    { "term": "PIN", "definition": "A secret number used to access your bank account at an ATM." },
-    { "term": "Withdraw", "definition": "To take money out of a bank account." }
+    { "term": "Biometrics", "definition": "Physical or behavioral human characteristics to digitally identify a person (e.g., fingerprint, face ID)." },
+    { "term": "Encryption", "definition": "The process of converting information or data into a code, especially to prevent unauthorized access." }
   ]
 }

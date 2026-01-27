@@ -1,24 +1,34 @@
 {
-  "title": "Repaso del Primer Trimestre",
+  "title": "Trimester Review & The Future of Fintech",
   "sections": [
     {
       "id": "review-grammar",
-      "title": "Resumen Gramatical",
-      "content": "Durante este trimestre hemos cubierto las bases de la comunicación en un entorno financiero:\n\n1. **Presente Simple**: Para rutinas y estados (I work at a bank).\n2. **Pasado Simple (Was/Were)**: Para estados pasados.\n3. **Comparativos y Superlativos**: Para comparar productos (This loan is cheaper than that one).\n4. **Must/Mustn't**: Para reglas y seguridad (You must protect your PIN).\n5. **Futuro (Going to / Present Continuous)**: Para intenciones y planes fijos.\n6. **Presente Perfecto**: Para experiencias y duraciones con 'for' y 'since'."
+      "title": "Grammatical Consolidation",
+      "content": "This trimester, we have built a solid foundation for financial communication. Here is a review of the key structures:\n\n1. **Present Simple**: Used for bank routines and permanent states. (*I work in the compliance department.*)\n2. **Past Simple (Was/Were)**: Used for past financial states. (*The interest rates were lower last year.*)\n3. **Comparatives & Superlatives**: Used to compare products. (*Neobanks are faster than traditional banks.*)\n4. **Must / Mustn't**: Essential for security and compliance. (*You must never share your OTP.*)\n5. **Future (Going to / Present Continuous)**: For financial intentions and fixed plans. (*We are launching the app next Monday.*)\n6. **Present Perfect**: For financial experiences and durations with 'for' and 'since'. (*I have held this portfolio for three years.*)"
     },
     {
       "id": "review-vocab",
-      "title": "Resumen de Vocabulario",
-      "content": "Temas clave tratados:\n\n- **Banca Básica**: Withdrawal, deposit, account balance.\n- **Seguridad**: Phishing, scam, padlock, 2FA.\n- **Préstamos**: Credit limit, installments, interest rate, mortgage.\n- **Inversiones**: Stocks, bonds, portfolio, dividends."
+      "title": "Core Fintech Vocabulary Review",
+      "content": "We have covered the entire digital finance ecosystem:\n\n- **Digital Onboarding**: Biometrics, KYC, Neobanks.\n- **Daily Operations**: Transfers, POS, Statements, NFC.\n- **Security & Safety**: Phishing, 3D Secure, Virtual Cards, OTP.\n- **Credit & Lending**: BNPL, Installments, Credit Score, APR.\n- **Wealth Management**: ETFs, Robo-advisors, Diversification, Yield."
+    },
+    {
+      "id": "diagram",
+      "title": "Trimester Learning Journey",
+      "content": "```mermaid\ngraph TD\n    A[Week 1-4: Digital Onboarding & Everyday Banking] --> B[Week 5-8: Security, Modals & Smart Billing]\n    B --> C[Week 9-11: E-commerce, Credit & Investments]\n    C --> D[Week 12: Strategic Review & Future Trends]\n```"
+    },
+    {
+      "id": "future-trends",
+      "title": "Future Trends in Finance",
+      "content": "The world of finance continues to evolve quickly. To stay competitive, you should be familiar with these emerging concepts:\n\n- **AI-Driven Personalization**: Banks using AI to give you custom financial advice.\n- **Open Banking**: Sharing your financial data securely between different apps to get better services.\n- **DeFi (Decentralized Finance)**: Financial services that operate without traditional middle-men like banks.\n- **Green Fintech**: Investing and banking products that focus on environmental sustainability."
     }
   ],
   "objectives": [
-    "Consolidar los conocimientos gramaticales del trimestre",
-    "Repasar el vocabulario técnico financiero esencial",
-    "Prepararse para el examen final del trimestre"
+    "Consolidate all grammatical structures learned during the trimester",
+    "Review essential fintech and banking vocabulary",
+    "Identify emerging trends in the future of digital finance"
   ],
   "keyTerms": [
-    { "term": "Review", "definition": "A formal assessment of something with the possibility or intention of instituting change if necessary." },
-    { "term": "Assessment", "definition": "The evaluation or estimation of the nature, quality, or ability of someone or something." }
+    { "term": "Consolidation", "definition": "The action or process of making something stronger or more solid." },
+    { "term": "DeFi", "definition": "Decentralized Finance; a blockchain-based form of finance that does not rely on central financial intermediaries." }
   ]
 }

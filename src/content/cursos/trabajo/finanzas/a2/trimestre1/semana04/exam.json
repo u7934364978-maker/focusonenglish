@@ -1,50 +1,225 @@
 {
-  "title": "Examen: Comparativa Financiera",
+  "title": "A2 Week 4 Exam: Bank Comparisons & Competitive Features",
   "questions": [
     {
       "id": "q1",
-      "question": "What is the comparative of 'expensive'?",
-      "options": ["Expensiver", "More expensive", "Most expensive", "Less expensiver"],
-      "correctAnswer": 1,
-      "explanation": "'Expensive' is a long adjective, so we use 'more'."
+      "question": "APY stands for Annual Percentage:",
+      "options": [
+        "Year",
+        "Yield",
+        "Yard",
+        "York"
+      ],
+      "correctAnswer": 1
     },
     {
       "id": "q2",
-      "question": "If Account A has a $5 fee and Account B has a $10 fee, Account A is:",
-      "options": ["Cheaper than Account B", "More expensive than Account B", "Higher than Account B", "Worse than Account B"],
-      "correctAnswer": 0,
-      "explanation": "A lower fee means the product is cheaper."
+      "question": "A neobank is often _______ than a legacy bank.",
+      "options": [
+        "cheaper",
+        "more cheap",
+        "cheapier",
+        "cheapest"
+      ],
+      "correctAnswer": 0
     },
     {
       "id": "q3",
-      "question": "Which sentence is correct?",
+      "question": "UX refers to the app's User:",
       "options": [
-        "Gold is more better than silver.",
-        "Gold is better than silver.",
-        "Gold is more good than silver.",
-        "Gold is gooder than silver."
+        "Exchange",
+        "Experience",
+        "Exit",
+        "Entry"
       ],
-      "correctAnswer": 1,
-      "explanation": "'Better' is already comparative, it doesn't need 'more'."
+      "correctAnswer": 1
     },
     {
       "id": "q4",
-      "question": "The ATM is ________ than going into the office.",
-      "options": ["more fast", "fast", "faster", "fastest"],
-      "correctAnswer": 2,
-      "explanation": "We use 'faster' to compare the speed of two things."
+      "question": "Digital onboarding is _______ than going to a branch.",
+      "options": [
+        "fast",
+        "faster",
+        "more fast",
+        "fastest"
+      ],
+      "correctAnswer": 1
     },
     {
       "id": "q5",
-      "question": "What does 'Low interest rate' usually mean for a borrower?",
+      "question": "What is the irregular comparative of 'good'?",
       "options": [
-        "It is more expensive to borrow money",
-        "It is cheaper to borrow money",
-        "The bank is very far away",
-        "The account is blocked"
+        "Gooder",
+        "Better",
+        "Best",
+        "More good"
       ],
-      "correctAnswer": 1,
-      "explanation": "A low interest rate means you pay less for the money you borrow."
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "The interest rate is _______ than last month.",
+      "options": [
+        "high",
+        "higher",
+        "more high",
+        "highest"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Customer support via chat is _______ convenient than phone support.",
+      "options": [
+        "more",
+        "er",
+        "most",
+        "better"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "A 'Legacy Bank' is a _______ bank.",
+      "options": [
+        "new",
+        "traditional",
+        "virtual",
+        "mobile"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "The premium card is _______ than the basic one.",
+      "options": [
+        "heavyer",
+        "heavier",
+        "more heavy",
+        "heaviest"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "What is the comparative of 'bad'?",
+      "options": [
+        "Badder",
+        "Worse",
+        "Worst",
+        "More bad"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Which term describes charges that are not clearly stated?",
+      "options": [
+        "Free fees",
+        "Open fees",
+        "Hidden fees",
+        "Bonus fees"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "question": "Neobanks have _______ maintenance fees than old banks.",
+      "options": [
+        "lower",
+        "lowier",
+        "more low",
+        "lowest"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "The verification process is _______ today.",
+      "options": [
+        "simple",
+        "simpler",
+        "more simple",
+        "simplest"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "A higher APY is _______ for your savings.",
+      "options": [
+        "badder",
+        "better",
+        "best",
+        "gooder"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "Comparing 'secure': This app is _______ than that one.",
+      "options": [
+        "securer",
+        "more secure",
+        "most secure",
+        "secureer"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "The opposite of 'cheap' is:",
+      "options": [
+        "Expensive",
+        "High",
+        "Fast",
+        "Safe"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "Which is correct: 'Plan A is _______ than Plan B'?",
+      "options": [
+        "more good",
+        "better",
+        "gooder",
+        "best"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "If money moves instantly, the transaction speed is:",
+      "options": [
+        "Slow",
+        "Average",
+        "Fast",
+        "Hidden"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q19",
+      "question": "This neobank is _______ for young professionals.",
+      "options": [
+        "more efficient",
+        "efficienter",
+        "most efficient",
+        "efficient"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "A 'Seamless' experience is one that is:",
+      "options": [
+        "Broken",
+        "Smooth",
+        "Loud",
+        "Expensive"
+      ],
+      "correctAnswer": 1
     }
   ]
 }

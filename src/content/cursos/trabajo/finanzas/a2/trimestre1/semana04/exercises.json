@@ -1,48 +1,508 @@
 {
-  "title": "Ejercicios: Comparando Servicios",
+  "title": "Bank Comparisons & Comparatives Exercises",
   "exercises": [
     {
       "id": "ex1",
       "type": "multiple-choice",
-      "question": "Which is the correct comparative for 'cheap'?",
+      "question": "What does APY stand for?",
       "options": [
-        "More cheap",
-        "Cheaper",
-        "Cheapest",
-        "Cheapier"
+        "Annual Percentage Yield",
+        "Average Price Yearly",
+        "Asset Portfolio Yield",
+        "Account Payment Yearly"
       ],
-      "correctAnswer": 1,
-      "explanation": "For short adjectives like 'cheap', we add -er."
+      "correctAnswer": 0,
+      "explanation": "APY is the real rate of return on your savings."
     },
     {
       "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "The savings account has a ________ (high) interest rate ________ the current account.",
-      "answer": "higher / than",
-      "explanation": "Comparative of 'high' is 'higher' followed by 'than'."
+      "type": "multiple-choice",
+      "question": "The ease of use of an app is its:",
+      "options": [
+        "URL",
+        "UX",
+        "USB",
+        "UFO"
+      ],
+      "correctAnswer": 1,
+      "explanation": "UX stands for User Experience."
     },
     {
       "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the opposite adjectives:",
-      "pairs": [
-        { "term": "Expensive", "definition": "Cheap" },
-        { "term": "High", "definition": "Low" },
-        { "term": "Safe", "definition": "Risky" }
-      ]
+      "type": "fill-in-the-blank",
+      "question": "This neobank is ________ (cheap) than the traditional one.",
+      "answer": "cheaper",
+      "explanation": "For short adjectives like 'cheap', we add -er."
     },
     {
       "id": "ex4",
       "type": "multiple-choice",
-      "question": "This bank is ________ than the other one.",
+      "question": "A monthly charge for your account is a:",
       "options": [
-        "gooder",
-        "better",
-        "best",
-        "more good"
+        "Maintenance fee",
+        "Gift",
+        "Bonus",
+        "Refund"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Many traditional accounts have monthly maintenance fees."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "Digital banking is ________ (convenient) than visiting a branch.",
+      "answer": "more convenient",
+      "explanation": "For long adjectives like 'convenient', we use 'more'."
+    },
+    {
+      "id": "ex6",
+      "type": "vocabulary-match",
+      "question": "Match the comparison terms:",
+      "pairs": [
+        { "term": "Hidden Fees", "definition": "Unexpected charges" },
+        { "term": "Seamless", "definition": "Smooth and without problems" },
+        { "term": "Scalable", "definition": "Able to grow easily" }
+      ]
+    },
+    {
+      "id": "ex7",
+      "type": "multiple-choice",
+      "question": "A higher APY means:",
+      "options": [
+        "You pay more fees",
+        "You earn more interest on savings",
+        "The app is slower",
+        "Your card is blocked"
       ],
       "correctAnswer": 1,
-      "explanation": "'Better' is the irregular comparative of 'good'."
+      "explanation": "Higher yield is better for savings."
+    },
+    {
+      "id": "ex8",
+      "type": "fill-in-the-blank",
+      "question": "Opening a digital account is ________ (fast) than the old way.",
+      "answer": "faster",
+      "explanation": "The comparative of 'fast' is 'faster'."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "Which of these is a 'pros' of neobanks?",
+      "options": [
+        "No physical branches",
+        "Lower maintenance fees",
+        "Old technology",
+        "Paper statements"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Neobanks usually have lower overhead and lower fees."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "The savings plan A is ________ (good) than plan B.",
+      "answer": "better",
+      "explanation": "'Good' is irregular; the comparative is 'better'."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "Transaction speed refers to:",
+      "options": [
+        "How fast you can run to the bank",
+        "How fast money moves between accounts",
+        "How fast you can type your password",
+        "The price of the phone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fintechs often offer real-time transaction speed."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "This app's design is ________ (friendly) than the competitor's.",
+      "answer": "friendlier",
+      "explanation": "Adjectives ending in -y change to -ier."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "If a process is 'seamless', it is:",
+      "options": [
+        "Full of errors",
+        "Very difficult",
+        "Smooth and easy",
+        "Expensive"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Seamless processes have no 'seams' or interruptions."
+    },
+    {
+      "id": "ex14",
+      "type": "vocabulary-match",
+      "question": "Match the metrics:",
+      "pairs": [
+        { "term": "APY", "definition": "Interest earned" },
+        { "term": "UX", "definition": "App experience" },
+        { "term": "Fee", "definition": "Account cost" }
+      ]
+    },
+    {
+      "id": "ex15",
+      "type": "fill-in-the-blank",
+      "question": "The new security update is ________ (advanced) than the last one.",
+      "answer": "more advanced",
+      "explanation": "Long adjective uses 'more'."
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "What is the opposite of 'High fees'?",
+      "options": [
+        "Tall fees",
+        "Low fees",
+        "Short fees",
+        "Big fees"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Low is the opposite of high in finance."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "Traditional banks are often ________ (slow) to innovate.",
+      "answer": "slower",
+      "explanation": "The comparative of 'slow' is 'slower'."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "A 'Scalable' system can:",
+      "options": [
+        "Handle more users easily",
+        "Be used for climbing",
+        "Only work for one person",
+        "Calculate weights"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Scalability is key for growing fintechs."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "The customer support is ________ (bad) today than yesterday.",
+      "answer": "worse",
+      "explanation": "'Bad' is irregular; the comparative is 'worse'."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "What are 'Hidden Fees'?",
+      "options": [
+        "Fees you pay in the dark",
+        "Unexpected charges not clearly stated",
+        "Discounts for students",
+        "Fees that are very small"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Always check the terms for hidden fees."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "Bitcoin is ________ (volatile) than the Dollar.",
+      "answer": "more volatile",
+      "explanation": "Long adjective uses 'more'."
+    },
+    {
+      "id": "ex22",
+      "type": "multiple-choice",
+      "question": "Which comparative is correct?",
+      "options": [
+        "Easyer",
+        "Easier",
+        "More easy",
+        "Easyier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Change -y to -ier."
+    },
+    {
+      "id": "ex23",
+      "type": "fill-in-the-blank",
+      "question": "The premium card is ________ (heavy) than the plastic one.",
+      "answer": "heavier",
+      "explanation": "Change -y to -ier."
+    },
+    {
+      "id": "ex24",
+      "type": "multiple-choice",
+      "question": "Neobanks are ________ (flexible) than legacy banks.",
+      "options": [
+        "Flexibler",
+        "More flexible",
+        "Flexiblier",
+        "Flexibleer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Long adjective uses 'more'."
+    },
+    {
+      "id": "ex25",
+      "type": "fill-in-the-blank",
+      "question": "My new phone is ________ (safe) for banking than the old one.",
+      "answer": "safer",
+      "explanation": "Short adjective ending in 'e', just add 'r'."
+    },
+    {
+      "id": "ex26",
+      "type": "multiple-choice",
+      "question": "Which is the comparative of 'efficient'?",
+      "options": [
+        "Efficienter",
+        "More efficient",
+        "Efficients",
+        "Efficientlier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Long adjective."
+    },
+    {
+      "id": "ex27",
+      "type": "fill-in-the-blank",
+      "question": "The interest rate is ________ (high) this month.",
+      "answer": "higher",
+      "explanation": "Add -er."
+    },
+    {
+      "id": "ex28",
+      "type": "multiple-choice",
+      "question": "Comparative of 'Big' (one syllable, CVC):",
+      "options": [
+        "Biger",
+        "Bigger",
+        "More big",
+        "Bigest"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Double the final consonant (Bigger)."
+    },
+    {
+      "id": "ex29",
+      "type": "fill-in-the-blank",
+      "question": "The UX of Revolut is ________ (modern) than my local bank.",
+      "answer": "more modern",
+      "explanation": "Modern is usually treated as a long adjective."
+    },
+    {
+      "id": "ex30",
+      "type": "multiple-choice",
+      "question": "Which is the irregular comparative of 'bad'?",
+      "options": [
+        "Badder",
+        "Worse",
+        "Worst",
+        "Baddest"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bad -> Worse."
+    },
+    {
+      "id": "ex31",
+      "type": "fill-in-the-blank",
+      "question": "A virtual card is ________ (simple) to create than a physical one.",
+      "answer": "simpler",
+      "explanation": "Simple can be 'simpler' or 'more simple', but 'simpler' is common."
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "Comparative of 'Reliable':",
+      "options": [
+        "Reliabler",
+        "More reliable",
+        "Reliablest",
+        "Reliablier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Long adjective."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "Transferring money to friends is ________ (easy) with an app.",
+      "answer": "easier",
+      "explanation": "Change -y to -ier."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "If something is 'Better than' before, it is:",
+      "options": [
+        "More good",
+        "Improved",
+        "Worse",
+        "The same"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Better is the comparative of good."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "Face ID is ________ (secure) than a 4-digit PIN.",
+      "answer": "more secure",
+      "explanation": "Long adjective."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "Comparative of 'Late':",
+      "options": [
+        "Later",
+        "Latter",
+        "More late",
+        "Latest"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Late -> Later."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "This loan has a ________ (low) interest rate.",
+      "answer": "lower",
+      "explanation": "Add -er."
+    },
+    {
+      "id": "ex38",
+      "type": "multiple-choice",
+      "question": "Correct sentence:",
+      "options": [
+        "Cash is more fast than cards.",
+        "Cards are faster than cash.",
+        "Cards are more fast than cash.",
+        "Cash is fasterer than cards."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fast -> Faster."
+    },
+    {
+      "id": "ex39",
+      "type": "fill-in-the-blank",
+      "question": "The metal card is ________ (expensive) than the plastic one.",
+      "answer": "more expensive",
+      "explanation": "Long adjective."
+    },
+    {
+      "id": "ex40",
+      "type": "multiple-choice",
+      "question": "Comparative of 'Far' (distance):",
+      "options": [
+        "Farer",
+        "Further",
+        "More far",
+        "Farest"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Far -> Further (or Farther) is irregular."
+    },
+    {
+      "id": "ex41",
+      "type": "vocabulary-match",
+      "question": "Match the adjective with its comparative:",
+      "pairs": [
+        { "term": "Busy", "definition": "Busier" },
+        { "term": "Large", "definition": "Larger" },
+        { "term": "Risky", "definition": "Riskier" }
+      ]
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "This transaction was ________ (slow) than the last one.",
+      "answer": "slower",
+      "explanation": "Add -er."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "A 'Legacy Bank' is:",
+      "options": [
+        "A brand new neobank",
+        "An old, traditional bank",
+        "A bank for children",
+        "A type of cryptocurrency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Legacy refers to traditional systems."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "The fintech sector is ________ (dynamic) than the insurance sector.",
+      "answer": "more dynamic",
+      "explanation": "Long adjective."
+    },
+    {
+      "id": "ex45",
+      "type": "multiple-choice",
+      "question": "Comparing two things using 'than':",
+      "options": [
+        "A is more better than B.",
+        "A is better than B.",
+        "A is gooder than B.",
+        "A is more gooder than B."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Never use 'more' with 'better'."
+    },
+    {
+      "id": "ex46",
+      "type": "fill-in-the-blank",
+      "question": "The gold plan is ________ (profitable) for the bank.",
+      "answer": "more profitable",
+      "explanation": "Long adjective."
+    },
+    {
+      "id": "ex47",
+      "type": "multiple-choice",
+      "question": "What is the comparative of 'small'?",
+      "options": [
+        "Smaller",
+        "Smallier",
+        "More small",
+        "Smallest"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Small -> Smaller."
+    },
+    {
+      "id": "ex48",
+      "type": "fill-in-the-blank",
+      "question": "The verification process is now ________ (short) than before.",
+      "answer": "shorter",
+      "explanation": "Add -er."
+    },
+    {
+      "id": "ex49",
+      "type": "multiple-choice",
+      "question": "Which of these is 'more secure'?",
+      "options": [
+        "Writing your PIN on a napkin",
+        "Using 2FA (Two-Factor Authentication)",
+        "Telling your password to a stranger",
+        "Having no password"
+      ],
+      "correctAnswer": 1,
+      "explanation": "2FA adds extra security layers."
+    },
+    {
+      "id": "ex50",
+      "type": "fill-in-the-blank",
+      "question": "Neobanks are ________ (popular) with young people.",
+      "answer": "more popular",
+      "explanation": "Long adjective."
     }
   ]
 }

@@ -1,48 +1,508 @@
 {
-  "title": "Ejercicios: Transacciones e Irregulares",
+  "title": "Smart Statements & Irregular Verbs Exercises",
   "exercises": [
     {
       "id": "ex1",
       "type": "multiple-choice",
-      "question": "What is the past simple of 'buy'?",
+      "question": "The business where you make a purchase is the:",
       "options": [
-        "Buyed",
-        "Bought",
-        "Boughted",
-        "Buying"
+        "Merchant",
+        "Client",
+        "Employee",
+        "Auditor"
       ],
-      "correctAnswer": 1,
-      "explanation": "'Buy' is an irregular verb: buy - bought."
+      "correctAnswer": 0,
+      "explanation": "A merchant is the seller or store in a transaction."
     },
     {
       "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "Last Monday, I ________ (send) a transfer to my landlord and I ________ (pay) the electricity bill.",
-      "answer": "sent / paid",
-      "explanation": "The past of 'send' is 'sent' and 'pay' is 'paid'."
+      "type": "multiple-choice",
+      "question": "What is 'Cashback'?",
+      "options": [
+        "Paying with physical cash",
+        "Getting a percentage of your spending back",
+        "Returning an item for cash",
+        "A loan in cash"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cashback is a reward program where you receive money back on purchases."
     },
     {
       "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the transaction with its action:",
-      "pairs": [
-        { "term": "Withdrawal", "definition": "Taking money out" },
-        { "term": "Deposit", "definition": "Putting money in" },
-        { "term": "Transfer", "definition": "Moving money to another account" }
-      ]
+      "type": "fill-in-the-blank",
+      "question": "Yesterday, I ________ (buy) some Bitcoin on a neobank app.",
+      "answer": "bought",
+      "explanation": "The past simple of 'buy' is 'bought'."
     },
     {
       "id": "ex4",
       "type": "multiple-choice",
-      "question": "Where can you see all your past transactions?",
+      "question": "Recurring payments for services like Netflix are:",
       "options": [
-        "On a credit card",
-        "In a bank statement",
-        "At the ATM",
-        "In a savings book"
+        "Donations",
+        "Subscriptions",
+        "Salaries",
+        "Refunds"
       ],
       "correctAnswer": 1,
-      "explanation": "A bank statement lists all transactions for a specific period."
+      "explanation": "Subscriptions are regular, automatic payments."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "He ________ (spend) $50 on groceries last night.",
+      "answer": "spent",
+      "explanation": "The past simple of 'spend' is 'spent'."
+    },
+    {
+      "id": "ex6",
+      "type": "vocabulary-match",
+      "question": "Match the transaction terms:",
+      "pairs": [
+        { "term": "Pending", "definition": "Authorized but not yet finalized" },
+        { "term": "Settled", "definition": "Completed and funds moved" },
+        { "term": "Refund", "definition": "Money returned to account" }
+      ]
+    },
+    {
+      "id": "ex7",
+      "type": "multiple-choice",
+      "question": "What does AI 'Categorization' do?",
+      "options": [
+        "Deletes your transactions",
+        "Groups spending into types (Rent, Food, etc.)",
+        "Changes your password",
+        "Sends emails to merchants"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Categorization helps users understand where their money goes."
+    },
+    {
+      "id": "ex8",
+      "type": "fill-in-the-blank",
+      "question": "The bank ________ (give) me a bonus for opening the account.",
+      "answer": "gave",
+      "explanation": "The past simple of 'give' is 'gave'."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "Which verb is irregular?",
+      "options": [
+        "Download",
+        "Pay",
+        "Scan",
+        "Check"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The past of 'pay' is 'paid', which is irregular."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (pay) my electricity bill this morning.",
+      "answer": "paid",
+      "explanation": "The past simple of 'pay' is 'paid' (not 'payed')."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "Custom labels like #Holiday are called:",
+      "options": [
+        "Tags",
+        "Pins",
+        "Keys",
+        "Locks"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tagging helps filter specific types of spending."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "The app ________ (send) a notification when the payment was cleared.",
+      "answer": "sent",
+      "explanation": "The past simple of 'send' is 'sent'."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "What are 'Insights' in a banking app?",
+      "options": [
+        "Hidden fees",
+        "AI analysis of spending habits",
+        "Advertisements",
+        "Contact details"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Insights provide data-driven feedback on finances."
+    },
+    {
+      "id": "ex14",
+      "type": "vocabulary-match",
+      "question": "Match the merchants with categories:",
+      "pairs": [
+        { "term": "Starbucks", "definition": "Entertainment & Dining" },
+        { "term": "Uber", "definition": "Transport" },
+        { "term": "Netflix", "definition": "Subscriptions" }
+      ]
+    },
+    {
+      "id": "ex15",
+      "type": "fill-in-the-blank",
+      "question": "She ________ (get) her salary earlier this month.",
+      "answer": "got",
+      "explanation": "The past simple of 'get' is 'got'."
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "A transaction that is 'reversed' means:",
+      "options": [
+        "It was doubled",
+        "It was cancelled and money returned",
+        "It was sent to the wrong person",
+        "It was paid in cash"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reversal undoes a transaction."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "They ________ (sell) their shares when the price was high.",
+      "answer": "sold",
+      "explanation": "The past simple of 'sell' is 'sold'."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "Which of these is a 'Merchant'?",
+      "options": [
+        "Amazon",
+        "Savings Account",
+        "Debit Card",
+        "Interest Rate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amazon is a retail merchant."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (make) a mistake with the account number.",
+      "answer": "made",
+      "explanation": "The past simple of 'make' is 'made'."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "What is a 'Settled' transaction?",
+      "options": [
+        "One that is still waiting",
+        "One that is complete and confirmed",
+        "One that failed",
+        "One that was deleted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Settled means the funds have officially moved."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (go) to the ATM to withdraw some cash.",
+      "answer": "went",
+      "explanation": "The past simple of 'go' is 'went'."
+    },
+    {
+      "id": "ex22",
+      "type": "multiple-choice",
+      "question": "What is the past simple of 'say'?",
+      "options": [
+        "Sayed",
+        "Said",
+        "Sayd",
+        "Sait"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The past simple of 'say' is 'said'."
+    },
+    {
+      "id": "ex23",
+      "type": "fill-in-the-blank",
+      "question": "The CEO ________ (speak) about the new fintech strategy.",
+      "answer": "spoke",
+      "explanation": "The past simple of 'speak' is 'spoke'."
+    },
+    {
+      "id": "ex24",
+      "type": "multiple-choice",
+      "question": "If you 'spent' money, you:",
+      "options": [
+        "Received it",
+        "Gave it for goods/services",
+        "Saved it in a vault",
+        "Lost it in the street"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Spending is the act of paying out money."
+    },
+    {
+      "id": "ex25",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (take) a photo of the receipt.",
+      "answer": "took",
+      "explanation": "The past simple of 'take' is 'took'."
+    },
+    {
+      "id": "ex26",
+      "type": "multiple-choice",
+      "question": "Which verb is NOT irregular?",
+      "options": [
+        "Write",
+        "Read",
+        "Scan",
+        "Know"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Scan/Scanned is regular."
+    },
+    {
+      "id": "ex27",
+      "type": "fill-in-the-blank",
+      "question": "The manager ________ (know) the customer was lying.",
+      "answer": "knew",
+      "explanation": "The past simple of 'know' is 'knew'."
+    },
+    {
+      "id": "ex28",
+      "type": "multiple-choice",
+      "question": "What is the past simple of 'write'?",
+      "options": [
+        "Writed",
+        "Wrote",
+        "Written",
+        "Wrot"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The past simple of 'write' is 'wrote'."
+    },
+    {
+      "id": "ex29",
+      "type": "fill-in-the-blank",
+      "question": "She ________ (see) the transaction on her phone.",
+      "answer": "saw",
+      "explanation": "The past simple of 'see' is 'saw'."
+    },
+    {
+      "id": "ex30",
+      "type": "multiple-choice",
+      "question": "What is the negative of 'He sold his stock'?",
+      "options": [
+        "He no sold his stock",
+        "He didn't sold his stock",
+        "He didn't sell his stock",
+        "He not sell his stock"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Negative past: didn't + base form."
+    },
+    {
+      "id": "ex31",
+      "type": "fill-in-the-blank",
+      "question": "The bank ________ (keep) my documents in a digital vault.",
+      "answer": "kept",
+      "explanation": "The past simple of 'keep' is 'kept'."
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "What is the question form of 'They paid the bill'?",
+      "options": [
+        "Did they paid the bill?",
+        "Did they pay the bill?",
+        "Do they paid the bill?",
+        "Paid they the bill?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Question past: Did + subject + base form."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (forget) my PIN code yesterday.",
+      "answer": "forgot",
+      "explanation": "The past simple of 'forget' is 'forgot'."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "The past simple of 'lose' is:",
+      "options": [
+        "Losed",
+        "Lost",
+        "Loss",
+        "Losten"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The past simple of 'lose' is 'lost'."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "The crypto price ________ (fall) by 10% last week.",
+      "answer": "fell",
+      "explanation": "The past simple of 'fall' is 'fell'."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "Which of these is an irregular verb?",
+      "options": [
+        "Transfer",
+        "Approve",
+        "Choose",
+        "Request"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Choose -> Chose is irregular."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (choose) the premium account plan.",
+      "answer": "chose",
+      "explanation": "The past simple of 'choose' is 'chose'."
+    },
+    {
+      "id": "ex38",
+      "type": "multiple-choice",
+      "question": "What is the past simple of 'meet'?",
+      "options": [
+        "Meeted",
+        "Met",
+        "Meet",
+        "Mete"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The past simple of 'meet' is 'met'."
+    },
+    {
+      "id": "ex39",
+      "type": "fill-in-the-blank",
+      "question": "He ________ (tell) me the transaction was safe.",
+      "answer": "told",
+      "explanation": "The past simple of 'tell' is 'told'."
+    },
+    {
+      "id": "ex40",
+      "type": "multiple-choice",
+      "question": "The past simple of 'become' is:",
+      "options": [
+        "Become",
+        "Became",
+        "Becomed",
+        "Becoming"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The past simple of 'become' is 'became'."
+    },
+    {
+      "id": "ex41",
+      "type": "vocabulary-match",
+      "question": "Match the irregular verbs with their past forms:",
+      "pairs": [
+        { "term": "Give", "definition": "Gave" },
+        { "term": "Take", "definition": "Took" },
+        { "term": "Make", "definition": "Made" }
+      ]
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (think) the fee was too high.",
+      "answer": "thought",
+      "explanation": "The past simple of 'think' is 'thought'."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is a 'Merchant Name'?",
+      "options": [
+        "Your own name",
+        "The name of the store (e.g., Apple, Zara)",
+        "The name of the bank",
+        "Your credit card number"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It identifies where the transaction took place."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "The value of the house ________ (rise) last year.",
+      "answer": "rose",
+      "explanation": "The past simple of 'rise' is 'rose'."
+    },
+    {
+      "id": "ex45",
+      "type": "multiple-choice",
+      "question": "If a merchant 'refunded' you, they:",
+      "options": [
+        "Charged you twice",
+        "Gave your money back",
+        "Sent you a gift",
+        "Closed your account"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A refund returns money to the buyer."
+    },
+    {
+      "id": "ex46",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (buy) a coffee at the airport.",
+      "answer": "bought",
+      "explanation": "The past simple of 'buy' is 'bought'."
+    },
+    {
+      "id": "ex47",
+      "type": "multiple-choice",
+      "question": "Which category is for 'Petrol/Gas'?",
+      "options": [
+        "Groceries",
+        "Transport",
+        "Education",
+        "Health"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fuel falls under the transport category."
+    },
+    {
+      "id": "ex48",
+      "type": "fill-in-the-blank",
+      "question": "They ________ (pay) for the dinner with a credit card.",
+      "answer": "paid",
+      "explanation": "The past simple of 'pay' is 'paid'."
+    },
+    {
+      "id": "ex49",
+      "type": "multiple-choice",
+      "question": "The 'Pending' status means:",
+      "options": [
+        "The money is gone forever",
+        "The transaction is authorized but waiting to finish",
+        "The transaction failed",
+        "The merchant is a fraud"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pending transactions are not yet settled."
+    },
+    {
+      "id": "ex50",
+      "type": "fill-in-the-blank",
+      "question": "He ________ (send) a message to customer support.",
+      "answer": "sent",
+      "explanation": "The past simple of 'send' is 'sent'."
     }
   ]
 }

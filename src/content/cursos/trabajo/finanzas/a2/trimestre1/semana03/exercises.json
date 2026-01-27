@@ -1,48 +1,508 @@
 {
-  "title": "Ejercicios: Problemas y Preguntas en Pasado",
+  "title": "Security & Fraud Exercises",
   "exercises": [
     {
       "id": "ex1",
       "type": "multiple-choice",
-      "question": "What is the first thing you should do if your card is stolen?",
+      "question": "If you 'freeze' your card, it means:",
       "options": [
-        "Go shopping",
-        "Call the bank to cancel it",
-        "Wait for two days",
-        "Buy a new wallet"
+        "You put it in the freezer",
+        "You temporarily disable it from the app",
+        "You cancel it forever",
+        "You change the PIN"
       ],
       "correctAnswer": 1,
-      "explanation": "You must cancel a stolen card immediately to prevent fraud."
+      "explanation": "Freezing is a temporary measure to stop transactions."
     },
     {
       "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "________ (you / call) the security department? No, I ________ (not / have) the number.",
-      "answer": "Did you call / didn't have",
-      "explanation": "We use 'Did' for questions and 'didn't' for negatives in the past simple."
+      "type": "multiple-choice",
+      "question": "A digital card that is destroyed after one use is a:",
+      "options": [
+        "Disposable card",
+        "Permanent card",
+        "Metal card",
+        "Gold card"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Disposable cards are great for security during one-time online purchases."
     },
     {
       "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the problem with the action:",
-      "pairs": [
-        { "term": "Lost card", "definition": "Report and replace" },
-        { "term": "Unauthorized charge", "definition": "Dispute the transaction" },
-        { "term": "Forgot PIN", "definition": "Request a new one" }
-      ]
+      "type": "fill-in-the-blank",
+      "question": "I ________ (not / authorize) that $500 charge at the electronics store.",
+      "answer": "didn't authorize",
+      "explanation": "Negative past simple: didn't + base form."
     },
     {
       "id": "ex4",
       "type": "multiple-choice",
-      "question": "Choose the correct negative sentence:",
+      "question": "What is 'Phishing'?",
       "options": [
-        "I didn't lost my card.",
-        "I didn't lose my card.",
-        "I not lost my card.",
-        "I didn't losted my card."
+        "A hobby at the lake",
+        "A scam using fake emails to steal information",
+        "A way to withdraw money faster",
+        "A type of bank account"
       ],
       "correctAnswer": 1,
-      "explanation": "After 'didn't', we use the base form of the verb ('lose')."
+      "explanation": "Phishing is a very common cyber-attack."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "________ (you / lose) your wallet at the airport?",
+      "answer": "Did you lose",
+      "explanation": "Past simple question: Did + subject + base form."
+    },
+    {
+      "id": "ex6",
+      "type": "vocabulary-match",
+      "question": "Match the security terms:",
+      "pairs": [
+        { "term": "Compromised", "definition": "Not secure anymore" },
+        { "term": "Limit", "definition": "Maximum amount allowed" },
+        { "term": "Virtual Card", "definition": "Digital-only card" }
+      ]
+    },
+    {
+      "id": "ex7",
+      "type": "multiple-choice",
+      "question": "Requesting a refund for a fraudulent transaction is a:",
+      "options": [
+        "Chargeback",
+        "Cashback",
+        "Deposit",
+        "Transfer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chargebacks are used to recover money from fraud."
+    },
+    {
+      "id": "ex8",
+      "type": "fill-in-the-blank",
+      "question": "The bank ________ (not / notify) me about the login attempt.",
+      "answer": "didn't notify",
+      "explanation": "Negative past simple: didn't + base form."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "What should you do first if your card is stolen?",
+      "options": [
+        "Call your family",
+        "Freeze the card in the app",
+        "Go to the shopping mall",
+        "Wait for two days"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Freezing the card immediately prevents further theft."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "________ (the support agent / help) you with the report?",
+      "answer": "Did the support agent help",
+      "explanation": "Past simple question: Did + subject + base form."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "Face ID and fingerprints are examples of:",
+      "options": [
+        "Cryptography",
+        "Biometrics",
+        "Phishing",
+        "Categorization"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Biometrics use physical traits for identity."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (not / share) our password with the caller.",
+      "answer": "didn't share",
+      "explanation": "Never share your password with anyone."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "A 'Scam' is:",
+      "options": [
+        "A legal bank process",
+        "A fraudulent scheme",
+        "A type of interest rate",
+        "A savings goal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A scam is a dishonest way to get money."
+    },
+    {
+      "id": "ex14",
+      "type": "vocabulary-match",
+      "question": "Match the actions:",
+      "pairs": [
+        { "term": "Report", "definition": "To tell the bank about a problem" },
+        { "term": "Replace", "definition": "To get a new card" },
+        { "term": "Unfreeze", "definition": "To make the card active again" }
+      ]
+    },
+    {
+      "id": "ex15",
+      "type": "fill-in-the-blank",
+      "question": "________ (he / recognize) the merchant on the statement?",
+      "answer": "Did he recognize",
+      "explanation": "Past simple question: Did + subject + base form."
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "If your account is 'compromised', you should:",
+      "options": [
+        "Ignore it",
+        "Change your password immediately",
+        "Post it on social media",
+        "Buy more things"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Changing your password is a critical security step."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "They ________ (not / send) the replacement card to the right address.",
+      "answer": "didn't send",
+      "explanation": "Negative past simple: didn't + base form."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "Which of these is a sign of phishing?",
+      "options": [
+        "An email with many spelling mistakes asking for your PIN",
+        "A monthly statement from your bank",
+        "A notification that you received a payment",
+        "A message from a friend saying 'Hello'"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phishing emails often have errors and ask for sensitive info."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "________ (you / change) your spending limits yesterday?",
+      "answer": "Did you change",
+      "explanation": "Past simple question: Did + subject + base form."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "What is a 'Virtual Card' used for?",
+      "options": [
+        "Withdrawing cash from an ATM",
+        "Shopping online securely",
+        "Buying things in a physical supermarket",
+        "Opening a physical door"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Virtual cards exist only in the app and are for online use."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (not / see) my card in my bag.",
+      "answer": "didn't see",
+      "explanation": "Negative past simple: didn't + base form."
+    },
+    {
+      "id": "ex22",
+      "type": "multiple-choice",
+      "question": "The question form of 'She lost her card' is:",
+      "options": [
+        "Did she lost her card?",
+        "Did she lose her card?",
+        "Does she lost her card?",
+        "Lost she her card?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Did + base form (lose)."
+    },
+    {
+      "id": "ex23",
+      "type": "fill-in-the-blank",
+      "question": "________ (they / block) your access to the app?",
+      "answer": "Did they block",
+      "explanation": "Past simple question: Did + subject + base form."
+    },
+    {
+      "id": "ex24",
+      "type": "multiple-choice",
+      "question": "The negative of 'We went to the bank' is:",
+      "options": [
+        "We didn't went to the bank",
+        "We didn't go to the bank",
+        "We no went to the bank",
+        "We not go to the bank"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Didn't + base form (go)."
+    },
+    {
+      "id": "ex25",
+      "type": "fill-in-the-blank",
+      "question": "He ________ (not / answer) the suspicious phone call.",
+      "answer": "didn't answer",
+      "explanation": "Negative past simple: didn't + base form."
+    },
+    {
+      "id": "ex26",
+      "type": "multiple-choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "Did you spoke to the manager?",
+        "Did you speak to the manager?",
+        "You did speak to the manager?",
+        "Did you spoken to the manager?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Did + base form (speak)."
+    },
+    {
+      "id": "ex27",
+      "type": "fill-in-the-blank",
+      "question": "________ (you / receive) the code via SMS?",
+      "answer": "Did you receive",
+      "explanation": "Past simple question: Did + subject + base form."
+    },
+    {
+      "id": "ex28",
+      "type": "multiple-choice",
+      "question": "What is the negative of 'I paid the fine'?",
+      "options": [
+        "I didn't paid the fine",
+        "I didn't pay the fine",
+        "I no paid the fine",
+        "I not paid the fine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Didn't + base form (pay)."
+    },
+    {
+      "id": "ex29",
+      "type": "fill-in-the-blank",
+      "question": "The hacker ________ (not / guess) my password.",
+      "answer": "didn't guess",
+      "explanation": "Strong passwords are hard to guess."
+    },
+    {
+      "id": "ex30",
+      "type": "multiple-choice",
+      "question": "Correct question: 'Did he _______ his identity?'",
+      "options": [
+        "verified",
+        "verify",
+        "verifying",
+        "verifies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use the base form after 'Did'."
+    },
+    {
+      "id": "ex31",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (not / find) our passports yesterday.",
+      "answer": "didn't find",
+      "explanation": "Negative past simple: didn't + base form."
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "Which is correct?",
+      "options": [
+        "I didn't took the money",
+        "I didn't take the money",
+        "I not took the money",
+        "I no take the money"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Didn't + base form (take)."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "________ (they / cancel) your subscription by mistake?",
+      "answer": "Did they cancel",
+      "explanation": "Past simple question: Did + subject + base form."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "The negative of 'He gave me the receipt' is:",
+      "options": [
+        "He didn't give me the receipt",
+        "He didn't gave me the receipt",
+        "He no give me the receipt",
+        "He not gave me the receipt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Didn't + base form (give)."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (not / buy) anything on that website.",
+      "answer": "didn't buy",
+      "explanation": "Negative past simple: didn't + base form."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "Which question is NOT correct?",
+      "options": [
+        "Did you see the fraud?",
+        "Did they called the police?",
+        "Did he report the theft?",
+        "Did we receive a refund?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It should be 'Did they call' (base form)."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "________ (she / take) a screenshot of the message?",
+      "answer": "Did she take",
+      "explanation": "Past simple question: Did + subject + base form."
+    },
+    {
+      "id": "ex38",
+      "type": "multiple-choice",
+      "question": "Negative of 'I felt safe':",
+      "options": [
+        "I no feel safe",
+        "I didn't feel safe",
+        "I didn't felt safe",
+        "I not feel safe"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Didn't + base form (feel)."
+    },
+    {
+      "id": "ex39",
+      "type": "fill-in-the-blank",
+      "question": "The bank ________ (not / accept) my explanation.",
+      "answer": "didn't accept",
+      "explanation": "Negative past simple: didn't + base form."
+    },
+    {
+      "id": "ex40",
+      "type": "multiple-choice",
+      "question": "Correct question: 'Did you _______ the app?'",
+      "options": [
+        "updated",
+        "update",
+        "updating",
+        "updates"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use the base form after 'Did'."
+    },
+    {
+      "id": "ex41",
+      "type": "vocabulary-match",
+      "question": "Match the fraud types with descriptions:",
+      "pairs": [
+        { "term": "Identity theft", "definition": "Stealing personal info to act as someone else" },
+        { "term": "Phishing", "definition": "Fake emails to steal logins" },
+        { "term": "Unauthorized charge", "definition": "A transaction you didn't make" }
+      ]
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (not / tell) anyone my password.",
+      "answer": "didn't tell",
+      "explanation": "Negative past simple: didn't + base form."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is a 'Disposable Card'?",
+      "options": [
+        "A card made of paper",
+        "A virtual card destroyed after one use",
+        "A card you throw in the bin",
+        "A card for buying coffee"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Disposable cards are for one-time secure use."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "________ (you / contact) the fraud department?",
+      "answer": "Did you contact",
+      "explanation": "Past simple question: Did + subject + base form."
+    },
+    {
+      "id": "ex45",
+      "type": "multiple-choice",
+      "question": "A 'Limit' on your card is:",
+      "options": [
+        "The minimum you must spend",
+        "The maximum amount allowed for transactions",
+        "The date the card expires",
+        "The number of times you can use the ATM"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Limits help control spending and reduce fraud impact."
+    },
+    {
+      "id": "ex46",
+      "type": "fill-in-the-blank",
+      "question": "The customer ________ (not / understand) the terms.",
+      "answer": "didn't understand",
+      "explanation": "Negative past simple: didn't + base form."
+    },
+    {
+      "id": "ex47",
+      "type": "multiple-choice",
+      "question": "If you 'Unfreeze' your card, you make it:",
+      "options": [
+        "Cold",
+        "Active again",
+        "Disabled",
+        "New"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Unfreezing restores the card's functionality."
+    },
+    {
+      "id": "ex48",
+      "type": "fill-in-the-blank",
+      "question": "________ (the bank / refund) the stolen money?",
+      "answer": "Did the bank refund",
+      "explanation": "Past simple question: Did + subject + base form."
+    },
+    {
+      "id": "ex49",
+      "type": "multiple-choice",
+      "question": "Biometric login is safer than a password because:",
+      "options": [
+        "It is faster",
+        "It is unique to your body",
+        "It is cheaper",
+        "It doesn't need electricity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Faces and fingerprints are much harder to steal than text."
+    },
+    {
+      "id": "ex50",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (not / receive) the physical card in the mail.",
+      "answer": "didn't receive",
+      "explanation": "Negative past simple: didn't + base form."
     }
   ]
 }

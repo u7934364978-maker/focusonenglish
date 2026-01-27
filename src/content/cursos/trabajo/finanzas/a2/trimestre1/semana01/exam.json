@@ -1,45 +1,225 @@
 {
-  "title": "Examen: Trámites de Apertura",
+  "title": "A2 Week 1 Exam: Digital Banking & Past Actions",
   "questions": [
     {
       "id": "q1",
-      "question": "What do you call an account shared by two people?",
-      "options": ["Single account", "Shared account", "Joint account", "Double account"],
-      "correctAnswer": 2,
-      "explanation": "A joint account is a bank account held by two or more individuals."
+      "question": "A digital-only bank with no physical branches is a:",
+      "options": [
+        "Traditional bank",
+        "Neobank",
+        "Central bank",
+        "Credit Union"
+      ],
+      "correctAnswer": 1
     },
     {
       "id": "q2",
-      "question": "Which of these is often a requirement to open an account?",
-      "options": ["A new car", "Proof of address", "A high school diploma", "A credit card from another bank"],
-      "correctAnswer": 1,
-      "explanation": "Proof of address is a standard requirement for verifying a customer's residence."
+      "question": "What is the past simple of 'scan'?",
+      "options": [
+        "Scaned",
+        "Scaning",
+        "Scanned",
+        "Scands"
+      ],
+      "correctAnswer": 2
     },
     {
       "id": "q3",
-      "question": "What is the past simple of 'open'?",
-      "options": ["Open", "Opening", "Opened", "Opens"],
-      "correctAnswer": 2,
-      "explanation": "'Open' is a regular verb, so we add -ed."
+      "question": "The process of verifying a new customer's identity is called:",
+      "options": [
+        "KYC",
+        "ATM",
+        "PIN",
+        "SWIFT"
+      ],
+      "correctAnswer": 0
     },
     {
       "id": "q4",
-      "question": "Complete the sentence: 'Last week, I ________ my monthly fee.'",
-      "options": ["pay", "paid", "pays", "paying"],
-      "correctAnswer": 1,
-      "explanation": "'Paid' is the irregular past simple of 'pay'."
+      "question": "I _______ the mobile app last night.",
+      "options": [
+        "download",
+        "downloaded",
+        "downloading",
+        "downloads"
+      ],
+      "correctAnswer": 1
     },
     {
       "id": "q5",
-      "question": "What is a 'Monthly fee'?",
+      "question": "What is 'Selfie Verification'?",
       "options": [
-        "The money you earn every month",
-        "A charge the bank takes for maintaining the account",
-        "The interest you get from savings",
-        "The amount you deposit at the start"
+        "Taking a photo for Instagram",
+        "A biometric security step for onboarding",
+        "A way to choose a background for the app",
+        "Sending a photo to a friend"
       ],
-      "correctAnswer": 1,
-      "explanation": "A fee is a fixed charge for a service."
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "The bank _______ my new account in 10 minutes.",
+      "options": [
+        "approves",
+        "approving",
+        "approved",
+        "approve"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "An electronic version of your bank statement is an:",
+      "options": [
+        "iStatement",
+        "E-statement",
+        "Web-paper",
+        "Digital-doc"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "She _______ the money to her savings account this morning.",
+      "options": [
+        "transfered",
+        "transferred",
+        "transfer",
+        "transfering"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "What do we use 'Did' for in the past simple?",
+      "options": [
+        "Affirmative sentences",
+        "Questions and negatives",
+        "Only plural subjects",
+        "Only regular verbs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Which term describes an alert sent to your phone?",
+      "options": [
+        "Pull request",
+        "Push notification",
+        "Pop-up email",
+        "Fast message"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "He _______ to his account but forgot his password.",
+      "options": [
+        "logged in",
+        "logs in",
+        "logging in",
+        "login"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "A 'Mobile-first' bank is designed primarily for:",
+      "options": [
+        "Desktop computers",
+        "Smartphones",
+        "Physical branches",
+        "Fax machines"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "Negative form: 'I scanned the code' -> 'I _______ the code'.",
+      "options": [
+        "didn't scanned",
+        "didn't scan",
+        "no scanned",
+        "not scanned"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "What is a 'Minimum Balance'?",
+      "options": [
+        "The most money you can have",
+        "The least money required to avoid fees",
+        "A type of loan",
+        "The amount of your first deposit"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "They _______ for the verification email for an hour.",
+      "options": [
+        "wait",
+        "waited",
+        "waiting",
+        "waits"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Which document is proof of address?",
+      "options": [
+        "A utility bill",
+        "A business card",
+        "A photo of your house",
+        "A library book"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "The app _______ because of a connection error.",
+      "options": [
+        "crash",
+        "crashed",
+        "crashing",
+        "crashes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "An account shared by two people is a:",
+      "options": [
+        "Single account",
+        "Double account",
+        "Joint account",
+        "Shared wallet"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q19",
+      "question": "I _______ my credit card after I lost it.",
+      "options": [
+        "blocked",
+        "blocks",
+        "blocking",
+        "block"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "What does the 'E' in E-statement stand for?",
+      "options": [
+        "Easy",
+        "Electronic",
+        "External",
+        "Efficient"
+      ],
+      "correctAnswer": 1
     }
   ]
 }

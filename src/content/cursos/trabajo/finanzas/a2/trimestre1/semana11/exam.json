@@ -1,76 +1,87 @@
 {
-  "title": "Week 11 Final Exam: Investments",
-  "description": "Assessment on investment terminology and the use of 'for' and 'since' with the Present Perfect.",
+  "title": "Week 11 Final Exam: Wealth Management & Assets",
+  "description": "Assessment on digital investment strategies, modern asset classes, and the precise use of 'for' and 'since' for durations.",
   "questions": [
     {
       "id": "q1",
-      "question": "What do we call a collection of different investments?",
+      "question": "What is an ETF (Exchange-Traded Fund)?",
       "options": [
-        "Dividend",
-        "Broker",
-        "Portfolio",
-        "Yield"
+        "A single stock in a tech company",
+        "A collection of many assets that you can buy as one unit",
+        "A physical safe for storing gold",
+        "A type of bank teller service"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 1
     },
     {
       "id": "q2",
-      "question": "Complete: 'I have had this account __________ 2012.'",
+      "question": "Complete the sentence: 'I have invested in this ETF __________ 2019.'",
       "options": [
         "for",
-        "since",
         "at",
+        "since",
         "from"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "q3",
-      "question": "Shares in a company are also known as...",
-      "options": [
-        "Bonds",
-        "Risks",
-        "Stocks",
-        "Yields"
       ],
       "correctAnswer": 2
     },
     {
-      "id": "q4",
-      "question": "Complete: 'She has been an investor __________ five years.'",
+      "id": "q3",
+      "question": "What does a 'Robo-advisor' do?",
       "options": [
-        "for",
-        "since",
-        "ago",
-        "during"
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "id": "q5",
-      "question": "What is a payment made by a company to its shareholders?",
-      "options": [
-        "Bond",
-        "Dividend",
-        "Risk",
-        "Broker"
+        "It cleans your house while you sleep",
+        "It provides automated, algorithm-driven financial planning",
+        "It prints physical stock certificates",
+        "It helps you withdraw cash from an ATM"
       ],
       "correctAnswer": 1
     },
     {
-      "id": "q6",
-      "question": "Which term refers to the professional who buys and sells stocks for you?",
+      "id": "q4",
+      "question": "Which term describes a collection of all your financial investments?",
       "options": [
-        "Portfolio",
         "Dividend",
-        "Yield",
-        "Broker"
+        "Robo-advisor",
+        "Portfolio",
+        "Volatility"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 2
+    },
+    {
+      "id": "q5",
+      "question": "Complete the duration: 'She has been a stock trader __________ twelve years.'",
+      "options": [
+        "since",
+        "during",
+        "for",
+        "ago"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "If an asset is 'volatile', what does that mean?",
+      "options": [
+        "Its price is very stable and never changes",
+        "Its price fluctuates quickly and unpredictably",
+        "It is only available in physical banks",
+        "It is protected by the government"
+      ],
+      "correctAnswer": 1
     },
     {
       "id": "q7",
-      "question": "Complete: 'How __________ have you known your broker?'",
+      "question": "What is 'Yield' in the context of investing?",
+      "options": [
+        "The total cost of the investment",
+        "The earnings generated on an investment over a period",
+        "The speed of the internet connection",
+        "The fee you pay to the broker"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Complete the question: 'How __________ have you had this digital wallet?'",
       "options": [
         "much",
         "long",
@@ -80,35 +91,134 @@
       "correctAnswer": 1
     },
     {
-      "id": "q8",
-      "question": "If an investment has a high 'yield', it has a high...",
-      "options": [
-        "Risk",
-        "Return / Profit",
-        "Cost",
-        "Duration"
-      ],
-      "correctAnswer": 1
-    },
-    {
       "id": "q9",
-      "question": "Complete: 'They haven't paid any dividends __________ last July.'",
+      "question": "What is the primary benefit of 'Diversification'?",
       "options": [
-        "for",
-        "since",
-        "at",
-        "during"
+        "It makes you pay more taxes",
+        "It reduces overall risk by spreading money across different assets",
+        "It allows you to buy more expensive cars",
+        "It stops the market from closing"
       ],
       "correctAnswer": 1
     },
     {
       "id": "q10",
-      "question": "What is a 'bond'?",
+      "question": "Complete: 'They have used that robo-advisor __________ they started working.'",
       "options": [
-        "A part of a company",
-        "A loan to a government or company",
-        "A professional advisor",
-        "A type of bank account"
+        "for",
+        "during",
+        "since",
+        "when"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "Which of these is a payment made by a company to its shareholders?",
+      "options": [
+        "Bond",
+        "Yield",
+        "Dividend",
+        "Asset"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "question": "Choose the correct Present Perfect sentence with 'for':",
+      "options": [
+        "I have owned these shares for last Monday.",
+        "I have owned these shares for three months.",
+        "I have owned these shares for I was young.",
+        "I have owned these shares for 2020."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "A 'Bond' is essentially a...",
+      "options": [
+        "Gift from the bank",
+        "Loan you make to a government or corporation",
+        "Piece of digital gold",
+        "Physical key to a vault"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Complete the experience: 'We haven't changed our portfolio strategy __________ the beginning of the year.'",
+      "options": [
+        "since",
+        "for",
+        "during",
+        "at"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "What happens if an investment has 'high volatility' and 'high risk'?",
+      "options": [
+        "You are guaranteed to make a profit",
+        "The value can go up or down very significantly",
+        "The bank will pay you a fixed salary",
+        "You cannot sell the asset"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "How long __________ the market __________ open today?'",
+      "options": [
+        "has / been",
+        "have / been",
+        "is / been",
+        "did / be"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "Which word is used to describe units of ownership in a company?",
+      "options": [
+        "Bonds",
+        "Dividends",
+        "Stocks / Shares",
+        "Yields"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q18",
+      "question": "Complete: 'I have held these government bonds __________ ages.'",
+      "options": [
+        "since",
+        "from",
+        "for",
+        "during"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q19",
+      "question": "A 'Broker' is someone who...",
+      "options": [
+        "Steals your money",
+        "Buys and sells assets for you",
+        "Manages the central bank",
+        "Only works with physical cash"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Complete the negative sentence: 'He has not checked his yield __________ last month.'",
+      "options": [
+        "for",
+        "since",
+        "at",
+        "during"
       ],
       "correctAnswer": 1
     }

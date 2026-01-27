@@ -1,24 +1,29 @@
 {
-  "title": "Problemas: Pérdida de Tarjetas",
+  "title": "Card Security & Fraud Prevention",
   "sections": [
     {
       "id": "vocab",
-      "title": "Reportando un Problema",
-      "content": "Qué decir cuando algo sale mal con tus tarjetas.\n\n- **Lost**: Perdido\n- **Stolen**: Robado\n- **Blocked**: Bloqueado\n- **To cancel**: Cancelar\n- **To replace**: Reemplazar\n- **Unauthorized transaction**: Transacción no autorizada\n- **Security department**: Departamento de seguridad"
+      "title": "Modern Security Features",
+      "content": "Dealing with security issues is faster with modern apps. You can often solve problems yourself without calling the bank.\n\n- **Freeze / Unfreeze**: Temporarily disabling your card from the app.\n- **Virtual Card**: A digital-only card for safe online shopping.\n- **Disposable Card**: A virtual card that is destroyed after one use.\n- **Phishing**: A scam where criminals send fake emails to steal your login info.\n- **Chargeback**: A request to your bank to secure a refund for a fraudulent or problematic transaction.\n- **Compromised**: When your card or account details are no longer secure.\n- **Limit**: The maximum amount you can spend or withdraw."
+    },
+    {
+      "id": "diagram",
+      "title": "Fraud Reporting Flow",
+      "content": "```mermaid\ngraph TD\n    A[Notice Strange Charge] --> B[Freeze Card In-App]\n    B --> C[Report Fraud via Chat]\n    C --> D[Bank Investigates]\n    D --> E{Fraud Confirmed?}\n    E -- Yes --> F[Card Cancelled & Replaced]\n    E -- No --> G[Unfreeze Card]\n    F --> H[Funds Refunded]\n```"
     },
     {
       "id": "grammar",
-      "title": "Pasado Simple: Negativos y Preguntas",
-      "content": "Para negar o preguntar en pasado, usamos el auxiliar **DID**.\n\n**Negativo (Subject + did not / didn't + verb in base form):**\n- I **didn't see** my card this morning. (No vi mi tarjeta esta mañana)\n- He **didn't recognize** the charge. (Él no reconoció el cargo)\n\n**Preguntas (Did + subject + verb in base form?):**\n- **Did** you **lose** your wallet? (¿Perdiste tu cartera?)\n- **Did** they **block** the account? (¿Bloquearon ellos la cuenta?)\n\n*Recuerda: Cuando usamos 'did', el verbo principal vuelve a su forma normal.*"
+      "title": "Past Simple: Investigating Issues",
+      "content": "When reporting problems, we use **Did** for questions and **Didn't** for negatives. The verb stays in the base form.\n\n**Negatives (Didn't + Verb):**\n- *I **didn't authorize** this transaction.*\n- *She **didn't receive** the verification SMS.*\n- *We **didn't share** our PIN with anyone.*\n\n**Questions (Did ... + Verb?):**\n- *Did you **lose** your physical card?*\n- *Did they **change** your password?*\n- *Did the app **notify** you about the charge?*"
     }
   ],
   "objectives": [
-    "Reportar una tarjeta perdida o robada en inglés",
-    "Formular preguntas en pasado para investigar problemas",
-    "Utilizar la forma negativa del pasado simple correctamente"
+    "Manage card security using app features like freezing",
+    "Identify and report phishing and unauthorized transactions",
+    "Ask and answer questions about past security incidents"
   ],
   "keyTerms": [
-    { "term": "Fraud", "definition": "Wrongful or criminal deception intended to result in financial or personal gain." },
-    { "term": "Identity theft", "definition": "The fraudulent practice of using another person's name and personal information." }
+    { "term": "Biometrics", "definition": "Using physical characteristics (face, fingerprint) to verify identity." },
+    { "term": "Scam", "definition": "A fraudulent scheme performed by a dishonest individual or group." }
   ]
 }

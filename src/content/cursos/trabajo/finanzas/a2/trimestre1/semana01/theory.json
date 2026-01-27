@@ -1,24 +1,29 @@
 {
-  "title": "Apertura de Cuentas Bancarias",
+  "title": "Digital Onboarding & Account Management",
   "sections": [
     {
       "id": "vocab",
-      "title": "Tipos de Cuentas y Requisitos",
-      "content": "Aprenderemos los nombres de las cuentas y lo que necesitas para abrirlas.\n\n- **Savings account**: Cuenta de ahorros\n- **Current account / Checking account**: Cuenta corriente\n- **Joint account**: Cuenta conjunta\n- **Requirement**: Requisito\n- **Proof of address**: Comprobante de domicilio\n- **Initial deposit**: Depósito inicial\n- **Monthly fee**: Comisión mensual"
+      "title": "Modern Account Types & Onboarding",
+      "content": "Today, opening an account is often done via a mobile app. This is called **Digital Onboarding**.\n\n- **Neobank**: A digital-only bank without physical branches.\n- **Mobile-first**: Designed primarily for mobile apps.\n- **Digital ID verification**: Using your camera to scan documents.\n- **Selfie verification**: Taking a photo of yourself for security.\n- **E-statement**: An electronic version of your bank statement.\n- **Push notification**: An alert sent to your phone for transactions.\n- **Minimum balance**: The lowest amount of money required to avoid fees."
+    },
+    {
+      "id": "diagram",
+      "title": "Digital Onboarding Process",
+      "content": "```mermaid\ngraph TD\n    A[Download App] --> B[Verify Email/Phone]\n    B --> C[Scan ID Document]\n    C --> D[Take Video/Selfie]\n    D --> E[Wait for Approval]\n    E --> F[Digital Card Issued]\n    F --> G[Initial Deposit]\n```"
     },
     {
       "id": "grammar",
-      "title": "Repaso: Present Simple vs Past Simple",
-      "content": "Comparamos lo que haces habitualmente con lo que hiciste en el pasado.\n\n**Present Simple (Rutina):**\n- I **open** accounts every day. (Abro cuentas todos los días)\n- She **works** in the bank. (Ella trabaja en el banco)\n\n**Past Simple (Acción terminada):**\n- I **opened** an account yesterday. (Abrí una cuenta ayer)\n- She **worked** late last week. (Ella trabajó hasta tarde la semana pasada)\n\n*Nota: Los verbos regulares terminan en -ed.*"
+      "title": "Past Simple: Recording Recent Actions",
+      "content": "We use the **Past Simple** to talk about completed actions in the past. For regular verbs, we add **-ed**.\n\n**Common Digital Banking Verbs:**\n- **Scan** -> Scanned: *I scanned my ID yesterday.*\n- **Download** -> Downloaded: *She downloaded the app last night.*\n- **Log in** -> Logged in: *He logged in to check his balance.*\n- **Transfer** -> Transferred: *They transferred the funds this morning.*\n- **Approve** -> Approved: *The bank approved my account in 5 minutes.*"
     }
   ],
   "objectives": [
-    "Diferenciar entre cuentas corrientes y de ahorros",
-    "Identificar los documentos necesarios para abrir una cuenta",
-    "Utilizar el pasado simple de verbos regulares en contextos bancarios"
+    "Understand the digital onboarding process in neobanks",
+    "Identify key terms for mobile banking security",
+    "Describe past banking actions using regular verbs in Past Simple"
   ],
   "keyTerms": [
-    { "term": "To open an account", "definition": "To start a new relationship with a bank to store money." },
-    { "term": "Balance", "definition": "The amount of money in a bank account." }
+    { "term": "Onboarding", "definition": "The process of registering a new customer and opening their account." },
+    { "term": "KYC (Know Your Customer)", "definition": "The legal requirement for banks to verify the identity of their clients." }
   ]
 }

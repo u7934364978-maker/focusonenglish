@@ -1,50 +1,225 @@
 {
-  "title": "Examen: Seguridad y Problemas Bancarios",
+  "title": "A2 Week 3 Exam: Card Security & Fraud Investigation",
   "questions": [
     {
       "id": "q1",
-      "question": "What does 'Stolen' mean?",
+      "question": "Temporarily disabling your card in an app is called:",
       "options": [
-        "You can't find it",
-        "Someone took it without permission",
-        "It is broken",
-        "It is expired"
+        "Cancelling",
+        "Freezing",
+        "Deleting",
+        "Reporting"
       ],
-      "correctAnswer": 1,
-      "explanation": "'Stolen' means taken by theft."
+      "correctAnswer": 1
     },
     {
       "id": "q2",
-      "question": "Which question is grammatically correct?",
+      "question": "Correct negative: 'I _______ that charge'.",
       "options": [
-        "Did you spoke to the manager?",
-        "Did you speak to the manager?",
-        "Do you spoke to the manager?",
-        "Did you speaks to the manager?"
+        "not authorize",
+        "didn't authorize",
+        "didn't authorized",
+        "no authorize"
       ],
-      "correctAnswer": 1,
-      "explanation": "In past simple questions, we use 'Did' + base form ('speak')."
+      "correctAnswer": 1
     },
     {
       "id": "q3",
-      "question": "If you don't recognize a charge on your statement, it might be:",
-      "options": ["A deposit", "A reward", "Fraud", "A gift"],
-      "correctAnswer": 2,
-      "explanation": "An unauthorized or unknown charge is often a sign of fraud."
+      "question": "A digital card used for one-time secure shopping is a:",
+      "options": [
+        "Permanent card",
+        "Virtual card",
+        "Disposable card",
+        "Credit card"
+      ],
+      "correctAnswer": 2
     },
     {
       "id": "q4",
-      "question": "Complete: 'The bank ________ the account because there was a security risk.'",
-      "options": ["block", "blocked", "blocks", "did block"],
-      "correctAnswer": 1,
-      "explanation": "'Blocked' is the past simple of the regular verb 'block'."
+      "question": "Correct question: '_______ you lose your card?'",
+      "options": [
+        "Do",
+        "Did",
+        "Does",
+        "Done"
+      ],
+      "correctAnswer": 1
     },
     {
       "id": "q5",
-      "question": "What is the negative of 'He went'?",
-      "options": ["He not went", "He didn't went", "He didn't go", "He doesn't go"],
-      "correctAnswer": 2,
-      "explanation": "The negative of 'went' (past of go) is 'didn't go'."
+      "question": "A scam where criminals use fake emails to steal logins is:",
+      "options": [
+        "Phishing",
+        "Fishing",
+        "Pushing",
+        "Phasing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "I _______ the bank about the stolen wallet.",
+      "options": [
+        "didn't called",
+        "didn't call",
+        "no called",
+        "not call"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Requesting your money back from a fraud is a:",
+      "options": [
+        "Cashback",
+        "Chargeback",
+        "Payback",
+        "Checkback"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Correct question: 'Did they _______ your password?'",
+      "options": [
+        "changed",
+        "change",
+        "changing",
+        "changes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Fingerprint and Face ID are types of:",
+      "options": [
+        "Passwords",
+        "Biometrics",
+        "Analytics",
+        "Limits"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "We _______ the email from the hacker.",
+      "options": [
+        "didn't answer",
+        "didn't answered",
+        "no answer",
+        "not answered"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q11",
+      "question": "A 'Limit' on a card controls:",
+      "options": [
+        "The number of apps you have",
+        "The maximum amount you can spend",
+        "The color of the card",
+        "The speed of the bank app"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Correct question: 'Did you _______ a notification?'",
+      "options": [
+        "got",
+        "get",
+        "getting",
+        "gets"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "When your account is no longer secure, it is:",
+      "options": [
+        "Compromised",
+        "Categorized",
+        "Cancelled",
+        "Calculated"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "She _______ her PIN with anyone.",
+      "options": [
+        "didn't shared",
+        "didn't share",
+        "no share",
+        "not shared"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "A 'Scam' is a scheme that is:",
+      "options": [
+        "Honest",
+        "Dishonest",
+        "Efficient",
+        "Free"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Correct question: 'Did he _______ the merchant?'",
+      "options": [
+        "recognized",
+        "recognize",
+        "recognizing",
+        "recognizes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "To get a new card after losing one, you must _______ it.",
+      "options": [
+        "repeat",
+        "replace",
+        "repair",
+        "return"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "I _______ my credit card on the bus.",
+      "options": [
+        "didn't left",
+        "didn't leave",
+        "no leave",
+        "not left"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "What should you do if you see an unauthorized charge?",
+      "options": [
+        "Wait for the next month",
+        "Freeze your card and report it",
+        "Delete the app",
+        "Call the merchant and say thank you"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Correct question: 'Did the app _______ properly?'",
+      "options": [
+        "worked",
+        "work",
+        "working",
+        "works"
+      ],
+      "correctAnswer": 1
     }
   ]
 }

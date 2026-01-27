@@ -3,274 +3,274 @@
     {
       "id": 1,
       "type": "multiple-choice",
-      "question": "What are small parts of a company that you can buy?",
-      "options": ["Bonds", "Stocks", "Dividends", "Brokers"],
+      "question": "What is a collection of many stocks or bonds that acts as a single unit?",
+      "options": ["Individual Stocks", "ETFs", "Dividends", "Volatility"],
       "answer": 1
     },
     {
       "id": 2,
       "type": "multiple-choice",
-      "question": "I have lived here ______ 2010.",
-      "options": ["for", "since", "at", "in"],
+      "question": "I have used this investment app ______ 2021.",
+      "options": ["for", "since", "during", "in"],
       "answer": 1
     },
     {
       "id": 3,
       "type": "multiple-choice",
-      "question": "She has been a broker ______ five years.",
-      "options": ["for", "since", "during", "ago"],
+      "question": "She has held those Apple shares ______ three years.",
+      "options": ["for", "since", "until", "ago"],
       "answer": 0
     },
     {
       "id": 4,
       "type": "multiple-choice",
-      "question": "A ______ is a collection of different investments.",
-      "options": ["Portfolio", "Dividend", "Yield", "Risk"],
-      "answer": 0
+      "question": "A ______ uses algorithms to manage your investments automatically.",
+      "options": ["Human advisor", "Portfolio", "Robo-advisor", "Broker"],
+      "answer": 2
     },
     {
       "id": 5,
       "type": "multiple-choice",
-      "question": "How ______ have you had those shares?",
+      "question": "How ______ have you been tracking this asset's performance?",
       "options": ["much", "many", "long", "far"],
       "answer": 2
     },
     {
       "id": 6,
       "type": "multiple-choice",
-      "question": "The ______ is the profit you get from an investment.",
-      "options": ["Risk", "Yield", "Broker", "Loss"],
+      "question": "______ is a measure of how quickly an asset's price changes.",
+      "options": ["Yield", "Volatility", "Dividend", "Broker"],
       "answer": 1
     },
     {
       "id": 7,
       "type": "multiple-choice",
-      "question": "We have owned this house ______ a long time.",
-      "options": ["for", "since", "from", "until"],
-      "answer": 0
+      "question": "We have diversified our portfolio ______ the market crash.",
+      "options": ["for", "since", "from", "during"],
+      "answer": 1
     },
     {
       "id": 8,
       "type": "multiple-choice",
-      "question": "A ______ is a payment made by a company to its shareholders.",
-      "options": ["Stock", "Bond", "Dividend", "Risk"],
-      "answer": 2
+      "question": "The strategy of spreading risk across different assets is called ______.",
+      "options": ["Concentration", "Diversification", "Speculation", "Inflation"],
+      "answer": 1
     },
     {
       "id": 9,
       "type": "multiple-choice",
-      "question": "He has worked in finance ______ he graduated.",
+      "question": "He hasn't checked his brokerage account ______ last Friday.",
       "options": ["for", "since", "when", "after"],
       "answer": 1
     },
     {
       "id": 10,
       "type": "multiple-choice",
-      "question": "Every investment carries some level of ______.",
-      "options": ["Risk", "Dividend", "Portfolio", "Broker"],
-      "answer": 0
+      "question": "What is the total collection of all your investments called?",
+      "options": ["Dividends", "Portfolio", "Yield", "Shares"],
+      "answer": 1
     },
     {
       "id": 11,
       "type": "multiple-choice",
-      "question": "They have had that account ______ three months.",
+      "question": "They have been digital asset traders ______ a few months.",
       "options": ["for", "since", "ago", "last"],
       "answer": 0
     },
     {
       "id": 12,
       "type": "multiple-choice",
-      "question": "A ______ helps you buy and sell stocks.",
-      "options": ["Portfolio", "Yield", "Broker", "Bond"],
-      "answer": 2
+      "question": "A higher ______ usually comes with a higher level of risk.",
+      "options": ["Loss", "Yield", "Broker", "Portfolio"],
+      "answer": 1
     },
     {
       "id": 13,
       "type": "multiple-choice",
-      "question": "I haven't seen the manager ______ last Tuesday.",
+      "question": "I haven't received any stock dividends ______ August.",
       "options": ["for", "since", "from", "until"],
       "answer": 1
     },
     {
       "id": 14,
       "type": "multiple-choice",
-      "question": "______ are loans to governments or companies.",
-      "options": ["Stocks", "Bonds", "Dividends", "Risks"],
+      "question": "______ represent units of ownership in a corporation.",
+      "options": ["Bonds", "Stocks/Shares", "Cash", "Loans"],
       "answer": 1
     },
     {
       "id": 15,
       "type": "multiple-choice",
-      "question": "Has she had the same portfolio ______ ten years?",
+      "question": "Has she worked in wealth management ______ a long time?",
       "options": ["for", "since", "during", "ago"],
       "answer": 0
     },
     {
       "id": 16,
       "type": "multiple-choice",
-      "question": "We haven't received a ______ this year.",
-      "options": ["Dividend", "Broker", "Portfolio", "Yield"],
-      "answer": 0
+      "question": "The robo-advisor has managed my funds ______ I opened the account.",
+      "options": ["for", "since", "when", "as"],
+      "answer": 1
     },
     {
       "id": 17,
       "type": "multiple-choice",
-      "question": "I have known him ______ we were children.",
-      "options": ["for", "since", "when", "as"],
+      "question": "I have known my financial consultant ______ we were in college.",
+      "options": ["for", "since", "when", "after"],
       "answer": 1
     },
     {
       "id": 18,
       "type": "multiple-choice",
-      "question": "Is the ______ on these bonds high or low?",
-      "options": ["Risk", "Yield", "Broker", "Share"],
+      "question": "Is the ______ on this government bond guaranteed?",
+      "options": ["Volatility", "Yield", "Portfolio", "Broker"],
       "answer": 1
     },
     {
       "id": 19,
       "type": "multiple-choice",
-      "question": "How long ______ you been an investor?",
+      "question": "How long ______ you had your crypto wallet?",
       "options": ["has", "have", "are", "do"],
       "answer": 1
     },
     {
       "id": 20,
       "type": "multiple-choice",
-      "question": "Shares are also called ______.",
-      "options": ["Stocks", "Bonds", "Cash", "Loans"],
-      "answer": 0
+      "question": "High ______ means the price of a stock goes up and down very fast.",
+      "options": ["Yield", "Volatility", "Dividend", "Liquidity"],
+      "answer": 1
     },
     {
       "id": 21,
       "type": "fill-in-the-blanks",
-      "question": "I have had this portfolio ______ (since/for) two years.",
+      "question": "I have had this ETF portfolio ______ (since/for) six months.",
       "answer": "for"
     },
     {
       "id": 22,
       "type": "fill-in-the-blanks",
-      "question": "A ______ is a person who buys and sells stocks for you.",
-      "answer": "broker"
+      "question": "A ______ uses artificial intelligence to invest your money.",
+      "answer": "robo-advisor"
     },
     {
       "id": 23,
       "type": "fill-in-the-blanks",
-      "question": "She has worked here ______ (since/for) 2018.",
+      "question": "She has been interested in green energy stocks ______ (since/for) last year.",
       "answer": "since"
     },
     {
       "id": 24,
       "type": "fill-in-the-blanks",
-      "question": "High risk usually means high ______.",
+      "question": "Low risk usually results in a lower ______.",
       "answer": "yield"
     },
     {
       "id": 25,
       "type": "fill-in-the-blanks",
-      "question": "They ______ ______ (have/has) (own) these shares for a decade.",
-      "answer": "have owned"
+      "question": "They ______ ______ (have/has) (hold) these bonds for five years.",
+      "answer": "have held"
     },
     {
       "id": 26,
       "type": "fill-in-the-blanks",
-      "question": "A ______ is a payment from a company to shareholders.",
+      "question": "A ______ is a payment made by a company to its shareholders.",
       "answer": "dividend"
     },
     {
       "id": 27,
       "type": "fill-in-the-blanks",
-      "question": "How ______ have you been waiting for the market to open?",
+      "question": "How ______ have you been using that trading platform?",
       "answer": "long"
     },
     {
       "id": 28,
       "type": "fill-in-the-blanks",
-      "question": "He has ______ (be) a client of this bank since January.",
+      "question": "He has ______ (be) a premium user of the app since Monday.",
       "answer": "been"
     },
     {
       "id": 29,
       "type": "fill-in-the-blanks",
-      "question": "A ______ is a collection of investments.",
-      "answer": "portfolio"
+      "question": "An ______ is a fund that tracks a specific index like the S&P 500.",
+      "answer": "ETF"
     },
     {
       "id": 30,
       "type": "fill-in-the-blanks",
-      "question": "I haven't invested in ______ (stocks/shares) since the crisis.",
+      "question": "I haven't invested in individual ______ (stocks/shares) for a while.",
       "answer": "stocks"
     },
     {
       "id": 31,
       "type": "fill-in-the-blanks",
-      "question": "We have had this investment ______ (since/for) ages.",
+      "question": "We have had this savings plan ______ (since/for) several years.",
       "answer": "for"
     },
     {
       "id": 32,
       "type": "fill-in-the-blanks",
-      "question": "Governments issue ______ to borrow money.",
-      "answer": "bonds"
+      "question": "______ means your investment value changes very quickly.",
+      "answer": "Volatility"
     },
     {
       "id": 33,
       "type": "fill-in-the-blanks",
-      "question": "He ______ ______ (not / see) his broker since Monday.",
-      "answer": "has not seen"
+      "question": "He ______ ______ (not / check) his crypto balance since yesterday.",
+      "answer": "has not checked"
     },
     {
       "id": 34,
       "type": "fill-in-the-blanks",
-      "question": "The ______ of losing money is part of investing.",
-      "answer": "risk"
+      "question": "Reducing risk by buying different assets is ______.",
+      "answer": "diversification"
     },
     {
       "id": 35,
       "type": "fill-in-the-blanks",
-      "question": "I have ______ (have) this account since I was eighteen.",
+      "question": "I have ______ (have) this brokerage account since I was twenty-one.",
       "answer": "had"
     },
     {
       "id": 36,
       "type": "fill-in-the-blanks",
-      "question": "______ (For/Since) how long have they lived in New York?",
+      "question": "______ (For/Since) how long has she owned those tech shares?",
       "answer": "For"
     },
     {
       "id": 37,
       "type": "fill-in-the-blanks",
-      "question": "The ______ on this savings account is very low.",
+      "question": "The ______ on this investment is 4% annually.",
       "answer": "yield"
     },
     {
       "id": 38,
       "type": "fill-in-the-blanks",
-      "question": "She has ______ (be) interested in finance for years.",
+      "question": "She has ______ (be) a successful trader for a decade.",
       "answer": "been"
     },
     {
       "id": 39,
       "type": "fill-in-the-blanks",
-      "question": "Investors like companies that pay regular ______.",
-      "answer": "dividends"
+      "question": "Many tech companies do not pay a monthly ______.",
+      "answer": "dividend"
     },
     {
       "id": 40,
       "type": "fill-in-the-blanks",
-      "question": "We haven't bought any bonds ______ (since/for) 2020.",
+      "question": "We haven't changed our strategy ______ (since/for) the start of the year.",
       "answer": "since"
     },
     {
       "id": 41,
       "type": "reorder",
-      "question": "have / I / had / portfolio / since / 2015 / this",
-      "answer": "I have had this portfolio since 2015"
+      "question": "have / I / had / ETF / since / 2020 / this",
+      "answer": "I have had this ETF since 2020"
     },
     {
       "id": 42,
       "type": "reorder",
-      "question": "been / she / has / broker / a / for / years / ten",
-      "answer": "she has been a broker for ten years"
+      "question": "been / she / has / trader / a / for / months / six",
+      "answer": "she has been a trader for six months"
     },
     {
       "id": 43,
@@ -281,44 +281,44 @@
     {
       "id": 44,
       "type": "reorder",
-      "question": "risk / investment / has / some / every",
-      "answer": "every investment has some risk"
+      "question": "is / volatility / high / market / today / the",
+      "answer": "the market volatility is high today"
     },
     {
       "id": 45,
       "type": "reorder",
-      "question": "not / they / since / have / dividends / paid / March",
-      "answer": "they have not paid dividends since March"
+      "question": "not / they / since / have / dividends / paid / June",
+      "answer": "they have not paid dividends since June"
     },
     {
       "id": 46,
       "type": "reorder",
-      "question": "is / collection / a / portfolio / a / of / investments",
-      "answer": "a portfolio is a collection of investments"
+      "question": "is / collection / a / portfolio / a / of / assets",
+      "answer": "a portfolio is a collection of assets"
     },
     {
       "id": 47,
       "type": "reorder",
-      "question": "he / known / has / for / months / him / three",
-      "answer": "he has known him for three months"
+      "question": "he / known / has / for / years / him / three",
+      "answer": "he has known him for three years"
     },
     {
       "id": 48,
       "type": "reorder",
-      "question": "yield / is / the / on / bonds / high / these",
-      "answer": "the yield on these bonds is high"
+      "question": "yield / is / the / on / stocks / high / these",
+      "answer": "the yield on these stocks is high"
     },
     {
       "id": 49,
       "type": "reorder",
-      "question": "we / stocks / have / since / bought / not / last / year",
-      "answer": "we have not bought stocks since last year"
+      "question": "we / stocks / have / since / sold / not / any / Monday",
+      "answer": "we have not sold any stocks since Monday"
     },
     {
       "id": 50,
       "type": "reorder",
-      "question": "bought / she / has / since / shares / more / Tuesday",
-      "answer": "she has bought more shares since Tuesday"
+      "question": "bought / she / has / since / ETFs / more / Friday",
+      "answer": "she has bought more ETFs since Friday"
     }
   ]
 }

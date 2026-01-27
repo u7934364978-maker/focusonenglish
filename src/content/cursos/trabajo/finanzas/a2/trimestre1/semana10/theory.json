@@ -1,24 +1,29 @@
 {
-  "title": "Préstamos y Tarjetas de Crédito",
+  "title": "Digital Credit & Instant Financing",
   "sections": [
     {
-      "id": "vocab-loans-credit",
-      "title": "Vocabulario: Crédito y Financiación",
-      "content": "Para entender cómo funcionan los préstamos, es vital conocer estos términos:\n\n- **Credit Limit**: El máximo dinero que puedes usar en tu tarjeta.\n- **Balance**: El saldo pendiente o total en tu cuenta.\n- **Installments**: Cuotas mensuales para pagar una deuda.\n- **Interest Rate**: La tasa de interés (el costo del dinero prestado).\n- **Credit Score**: Tu historial crediticio (puntuación).\n- **Grace Period**: Período de gracia (tiempo sin intereses).\n- **Default**: Incumplimiento de pago."
+      "id": "vocab",
+      "title": "Modern Credit Vocabulary",
+      "content": "Digital banking has revolutionized how we borrow money, offering instant decisions and flexible payment options.\n\n- **BNPL (Buy Now, Pay Later)**: A type of short-term financing that allows consumers to make purchases and pay for them at a future date, often interest-free.\n- **Credit Limit**: The maximum amount of money a lender allows you to spend on a credit card or line of credit.\n- **Balance**: The total amount of money you currently owe to the bank or fintech provider.\n- **Installments**: Fixed monthly payments made to settle a debt over a specific period.\n- **Interest Rate (APR)**: The annual cost of borrowing money, expressed as a percentage.\n- **Credit Score**: A numerical expression based on your level analysis of your credit files, representing your creditworthiness.\n- **Instant Approval**: A feature where a digital lender uses algorithms to approve a loan application within seconds."
     },
     {
-      "id": "grammar-present-perfect-intro",
-      "title": "Gramática: Presente Perfecto (Experiencias)",
-      "content": "Usamos el Presente Perfecto para hablar de cosas que han ocurrido en algún momento del pasado, sin decir exactamente cuándo. Es muy común para hablar de experiencias bancarias.\n\n**Estructura:** Have/Has + Participio Pasado.\n\n- *I **have applied** for a loan.* (He solicitado un préstamo).\n- *He **has used** a credit card before.* (Él ha usado una tarjeta de crédito antes).\n- *Have you **ever missed** a payment?* (¿Has fallado alguna vez en un pago?).\n\n**Participios comunes:**\n- Apply -> Applied\n- Take -> Taken\n- Pay -> Paid\n- Lose -> Lost"
+      "id": "diagram",
+      "title": "Digital Loan Application Flow",
+      "content": "```mermaid\ngraph LR\n    A[Apply in App] --> B[Data Sync/Open Banking]\n    B --> C{AI Credit Check}\n    C -- Approved --> D[Select Installments]\n    D --> E[Digital Contract Signed]\n    E --> F[Instant Disbursement]\n    C -- Rejected --> G[Improve Score Tips]\n```"
+    },
+    {
+      "id": "grammar",
+      "title": "Present Perfect for Experiences",
+      "content": "We use the **Present Perfect** (have/has + past participle) to talk about experiences in our lives without saying exactly when they happened.\n\n**Structure:**\n- **Positive**: Subject + have/has + past participle. (*I have used BNPL twice.*)\n- **Negative**: Subject + have/has + not + past participle. (*She hasn't applied for a loan yet.*)\n- **Question**: Have/Has + subject + past participle? (*Have you ever missed an installment?*)\n\n**Common Fintech Verbs:**\n- **Apply** -> Applied: *I have applied for a higher credit limit.*\n- **Pay** -> Paid: *They have already paid the first installment.*\n- **Take** -> Taken: *We have taken out a micro-loan for the project.*\n- **Transfer** -> Transferred: *Has he transferred the balance?*\n\n**Ever and Never:**\n- Use **ever** in questions: *Have you ever used a digital credit card?*\n- Use **never** for negative experiences: *I have never paid interest on this card.*"
     }
   ],
   "objectives": [
-    "Comprender el vocabulario básico de tarjetas de crédito y préstamos",
-    "Aprender la estructura del Presente Perfecto para hablar de experiencias",
-    "Diferenciar entre 'Credit Limit' y 'Balance'"
+    "Identify key features of modern credit products like BNPL",
+    "Understand the digital loan approval process",
+    "Use the Present Perfect to discuss financial experiences"
   ],
   "keyTerms": [
-    { "term": "Installments", "definition": "Fixed sums of money paid at regular intervals over a period of time." },
-    { "term": "Credit Score", "definition": "A number assigned to a person that indicates to lenders their capacity to repay a loan." }
+    { "term": "BNPL", "definition": "Buy Now, Pay Later; a short-term credit service for online shopping." },
+    { "term": "Creditworthiness", "definition": "The extent to which a person is considered suitable to receive financial credit." }
   ]
 }

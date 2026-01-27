@@ -1,116 +1,226 @@
 {
-  "title": "Week 9 Final Exam: Online Safety",
-  "description": "Assessment on online shopping vocabulary and Present Continuous for future arrangements.",
+  "title": "Week 9 Final Exam: E-commerce Security & Future Plans",
+  "description": "Assessment on virtual cards, 3D secure protocols, anti-phishing strategies, and Present Continuous for fixed arrangements.",
   "questions": [
     {
       "id": "q1",
-      "question": "What is the name of the process when you finish paying for your items online?",
+      "question": "What is a 'Virtual Card' primarily used for?",
       "options": [
-        "Check-in",
-        "Checkout",
-        "Check-up",
-        "Check-out"
+        "Withdrawing physical cash from an ATM",
+        "Paying in a physical store with a plastic card",
+        "Adding an extra layer of security for online transactions",
+        "Storing gold and silver coins"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": "q2",
-      "question": "Which icon indicates a secure connection in your browser?",
+      "question": "In the 3D Secure flow, what is sent to your phone to authorize a payment?",
       "options": [
-        "A star",
-        "A padlock",
-        "A red circle",
-        "A shopping bag"
+        "A referral link",
+        "A One-Time Password (OTP)",
+        "An advertisement for new cards",
+        "A physical key"
       ],
       "correctAnswer": 1
     },
     {
       "id": "q3",
-      "question": "A fraudulent email that tries to steal your banking details is called...",
+      "question": "Which term describes manipulating people into giving away secret information?",
       "options": [
-        "Phishing",
-        "Fishing",
-        "Shipping",
-        "Pushing"
+        "Social Engineering",
+        "Digital Engineering",
+        "Financial Architecture",
+        "Payment Processing"
       ],
       "correctAnswer": 0
     },
     {
       "id": "q4",
-      "question": "Choose the correct sentence for a fixed arrangement tomorrow:",
+      "question": "Identify the correct Present Continuous sentence for a fixed arrangement:",
       "options": [
-        "I meet the manager tomorrow.",
-        "I am meeting the manager tomorrow.",
-        "I will meeting the manager tomorrow.",
-        "I meeting the manager tomorrow."
+        "I meet the hacker yesterday.",
+        "I am meeting the security team at 2 PM today.",
+        "I will meeting the team later.",
+        "I meeting them now."
       ],
       "correctAnswer": 1
     },
     {
       "id": "q5",
-      "question": "What does 2FA stand for?",
+      "question": "What does the 'S' in HTTPS stand for?",
       "options": [
-        "Two-factor authentication",
-        "Two-file access",
-        "To-finance account",
-        "Two-form application"
+        "Simple",
+        "Standard",
+        "Secure",
+        "System"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 2
     },
     {
       "id": "q6",
-      "question": "Complete: 'We __________ to London this Friday for the conference.'",
+      "question": "Complete the sentence: 'We __________ our new mobile app this Friday.'",
       "options": [
-        "is flying",
-        "are flying",
-        "am flying",
-        "flying"
+        "is launching",
+        "am launching",
+        "are launching",
+        "launching"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": "q7",
-      "question": "Where do you put the items you want to buy before paying?",
+      "question": "What should you check for in the browser address bar before entering card details?",
       "options": [
-        "In the checkout",
-        "In the shopping cart",
-        "In the browser",
-        "In the phishing"
+        "A red warning triangle",
+        "A padlock icon and HTTPS",
+        "A 'not secure' label",
+        "A flashing advertisement"
       ],
       "correctAnswer": 1
     },
     {
       "id": "q8",
-      "question": "If a website is a 'scam', it is...",
+      "question": "If you receive a suspicious email asking for your PIN, it is likely a __________ attack.",
       "options": [
-        "A safe site",
-        "A fraudulent site",
-        "A government site",
-        "A social media site"
+        "Phishing",
+        "Fishing",
+        "Pushing",
+        "Vesting"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 0
     },
     {
       "id": "q9",
-      "question": "Complete: 'They __________ a new branch next month.' (fixed plan)",
+      "question": "Complete the arrangement: 'Mr. Smith __________ to the fintech conference in London tonight.'",
       "options": [
-        "opening",
-        "are opening",
-        "is opening",
-        "opens"
+        "fly",
+        "is flying",
+        "are flying",
+        "flying"
       ],
       "correctAnswer": 1
     },
     {
       "id": "q10",
-      "question": "Secure websites usually start with...",
+      "question": "What is the 'Checkout' stage of an online purchase?",
       "options": [
-        "http://",
-        "https://",
-        "www.",
-        "ftp://"
+        "Browsing the product catalog",
+        "The final step where payment is processed",
+        "Leaving a review after the product arrives",
+        "Adding items to the wishlist"
       ],
       "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Which of these is a benefit of using a Virtual Card?",
+      "options": [
+        "You can lose it in the street",
+        "It can be frozen or deleted immediately after one use",
+        "It is made of recycled plastic",
+        "It works even without an internet connection"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Choose the correct negative form for a future arrangement:",
+      "options": [
+        "I not am working this weekend.",
+        "I am not working this weekend.",
+        "I don't working this weekend.",
+        "I am not work this weekend."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "What does '3D Secure' provide during checkout?",
+      "options": [
+        "A 3D image of the product",
+        "An extra authentication step with your bank",
+        "A faster delivery time",
+        "A discount on the total price"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Complete the question: '__________ you __________ the client for lunch tomorrow?'",
+      "options": [
+        "Do / meeting",
+        "Is / meeting",
+        "Are / meeting",
+        "Am / meeting"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q15",
+      "question": "A scammer calls you pretending to be bank support. This is an example of...",
+      "options": [
+        "Tokenization",
+        "Social Engineering",
+        "Biometric security",
+        "Autopay"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Which sentence describes a general intention, NOT a fixed arrangement?",
+      "options": [
+        "I am flying to New York at 6 PM.",
+        "I am meeting the CEO on Tuesday.",
+        "I'm going to save some money next year.",
+        "We are launching the feature tomorrow morning."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q17",
+      "question": "When is an OTP typically valid?",
+      "options": [
+        "For one year",
+        "For several days",
+        "For a single transaction and a short time",
+        "Forever"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q18",
+      "question": "Complete: 'The developers __________ the server maintenance this Sunday at midnight.'",
+      "options": [
+        "are performing",
+        "is performing",
+        "am performing",
+        "performs"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "What is the safest way to access your bank's website?",
+      "options": [
+        "Click a link in a random email",
+        "Type the official URL directly into the browser",
+        "Search for 'bank login' on a public forum",
+        "Click an ad on a social media site"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "If you suspect phishing, what is the first thing you should do?",
+      "options": [
+        "Reply to the email and ask if they are scammers",
+        "Send them your password to verify your account",
+        "Report the email and do not click any links",
+        "Forward the email to all your friends"
+      ],
+      "correctAnswer": 2
     }
   ]
 }

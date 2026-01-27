@@ -1,24 +1,29 @@
 {
-  "title": "Préstamos Personales",
+  "title": "Digital Loans & Instant Credit",
   "sections": [
     {
-      "id": "vocab-loans",
-      "title": "Vocabulario: El Mundo de los Préstamos",
-      "content": "Para entender un préstamo personal, necesitamos manejar estos términos:\n\n- **Loan**: Préstamo.\n- **Interest Rate**: Tasa de interés.\n- **Repayment**: Pago o devolución del préstamo.\n- **Lender**: Prestamista (el banco).\n- **Borrower**: Prestatario (quien recibe el dinero).\n- **Term**: Plazo (el tiempo para devolver el dinero).\n- **Installment**: Cuota mensual."
+      "id": "vocab",
+      "title": "Modern Lending Terminology",
+      "content": "Digital lending is faster and often automated using AI. Understanding the terms helps you find the best deal.\n\n- **BNPL (Buy Now, Pay Later)**: A type of short-term financing that allows you to make purchases and pay for them at a future date, often interest-free.\n- **Instant Approval**: When a loan is granted within seconds via an app.\n- **Credit Score**: A numerical expression based on your credit files, to represent your creditworthiness.\n- **APR (Annual Percentage Rate)**: The total cost of borrowing, including interest and fees.\n- **Underwriting**: The process the bank uses to assess the risk of lending money.\n- **Collateral**: An asset (like a house or car) that a borrower offers as a security for a loan.\n- **Defaults**: When a borrower fails to pay back the loan according to the agreement."
     },
     {
-      "id": "grammar-superlatives",
-      "title": "Gramática: Superlativos",
-      "content": "Usamos los superlativos para decir que algo es 'el más' de un grupo:\n\n1. **Adjetivos cortos**: Añadimos *-est*.\n   - *The cheapest loan* (El préstamo más barato).\n   - *The fastest service* (El servicio más rápido).\n\n2. **Adjetivos largos**: Usamos *the most*.\n   - *The most expensive car* (El coche más caro).\n   - *The most important document* (El documento más importante).\n\n3. **Irregulares**:\n   - *Good -> The best* (El mejor).\n   - *Bad -> The worst* (El peor)."
+      "id": "diagram",
+      "title": "Automated Loan Approval",
+      "content": "```mermaid\ngraph TD\n    A[Apply via App] --> B[AI Credit Analysis]\n    B --> C{Score Check}\n    C -- High Score --> D[Instant Approval]\n    C -- Low Score --> E[Manual Review / Decline]\n    D --> F[Funds Transferred]\n    F --> G[Automated Repayments]\n```"
+    },
+    {
+      "id": "grammar",
+      "title": "Superlatives: Finding the Best Deals",
+      "content": "We use superlatives to identify the top option among many.\n\n**Adjective Rules:**\n- **Short:** Add **the ...-est**. *Cheap -> The cheapest, High -> The highest.*\n- **Ends in -y:** Change to **the ...-iest**. *Easy -> The easiest.*\n- **Long:** Use **the most**. *Flexible -> The most flexible, Expensive -> The most expensive.*\n\n**Irregulars:**\n- Good -> **The best**\n- Bad -> **The worst**\n\n**Financial Examples:**\n- *This neobank offers **the lowest** APR in the market.*\n- *That was **the fastest** loan approval I ever had.*\n- *Which app has **the most user-friendly** interface?*\n- *Managing your credit score is **the most important** step for a loan.*"
     }
   ],
   "objectives": [
-    "Aprender vocabulario específico sobre préstamos y deudas",
-    "Utilizar los superlativos para comparar opciones financieras",
-    "Comprender las partes básicas de un contrato de préstamo"
+    "Understand modern digital lending models like BNPL",
+    "Identify the components of a credit score",
+    "Use superlative adjectives to rank and recommend financial products"
   ],
   "keyTerms": [
-    { "term": "Interest Rate", "definition": "The percentage of the loan amount charged by the lender." },
-    { "term": "Term", "definition": "The period of time over which the loan must be repaid." }
+    { "term": "APR", "definition": "The annual rate charged for borrowing or earned through an investment." },
+    { "term": "Creditworthiness", "definition": "An assessment of the likelihood that a borrower will default on their debt obligations." }
   ]
 }

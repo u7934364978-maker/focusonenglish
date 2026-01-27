@@ -1,43 +1,43 @@
 {
-  "title": "A2 Trimester 1: Final Exam",
-  "description": "Comprehensive assessment covering all topics from Weeks 1 to 11.",
+  "title": "A2 Trimester 1: Final Fintech Assessment",
+  "description": "Comprehensive final exam covering digital onboarding, everyday neobanking, cybersecurity protocols, digital credit, and wealth management.",
   "questions": [
     {
       "id": "q1",
-      "question": "Which sentence is correct for a fixed appointment tomorrow?",
+      "question": "Which of these is a typical step in digital onboarding for a neobank?",
       "options": [
-        "I meet the bank manager tomorrow.",
-        "I am meeting the bank manager tomorrow.",
-        "I will meeting the bank manager tomorrow.",
-        "I meeting the bank manager tomorrow."
+        "Mailing a physical letter",
+        "Biometric identity verification with a selfie",
+        "Visiting a brick-and-mortar branch",
+        "Writing a check for the initial deposit"
       ],
       "correctAnswer": 1
     },
     {
       "id": "q2",
-      "question": "What is the superlative of 'expensive'?",
+      "question": "What is the correct sentence for a fixed financial appointment tomorrow?",
       "options": [
-        "Expensivest",
-        "More expensive",
-        "The most expensive",
-        "The expensivest"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "q3",
-      "question": "A fraudulent email that tries to steal your information is called...",
-      "options": [
-        "Phishing",
-        "A bond",
-        "An installment",
-        "A dividend"
+        "I am meeting the auditor at 9 AM tomorrow.",
+        "I meet the auditor at 9 AM tomorrow.",
+        "I was meeting the auditor tomorrow.",
+        "I meeting the auditor tomorrow."
       ],
       "correctAnswer": 0
     },
     {
+      "id": "q3",
+      "question": "A fraudulent practice of manipulating people into giving away secrets is...",
+      "options": [
+        "Tokenization",
+        "Social Engineering",
+        "Biometric Scanning",
+        "Smart Billing"
+      ],
+      "correctAnswer": 1
+    },
+    {
       "id": "q4",
-      "question": "Complete: 'I __________ known my financial advisor for ten years.'",
+      "question": "Complete the experience: 'I __________ used a virtual card for three years.'",
       "options": [
         "has",
         "am",
@@ -48,67 +48,177 @@
     },
     {
       "id": "q5",
-      "question": "Which modal verb expresses a strong prohibition?",
+      "question": "Which modal verb expresses a strict security requirement?",
       "options": [
         "Can",
         "Must",
-        "Mustn't",
+        "Might",
         "Could"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 1
     },
     {
       "id": "q6",
-      "question": "What is a collection of different investments called?",
+      "question": "What does BNPL stand for?",
       "options": [
-        "Broker",
-        "Portfolio",
-        "Yield",
-        "Mortgage"
+        "Bank Now Pay Less",
+        "Buy Now Pay Later",
+        "Borrow Now Profit Later",
+        "Budget Now Plan Later"
       ],
       "correctAnswer": 1
     },
     {
       "id": "q7",
-      "question": "Complete: 'We have lived here __________ 2015.'",
+      "question": "What is a collection of diverse financial investments called?",
       "options": [
-        "for",
-        "since",
-        "during",
-        "ago"
+        "Broker",
+        "Portfolio",
+        "Dividend",
+        "Yield"
       ],
       "correctAnswer": 1
     },
     {
       "id": "q8",
-      "question": "Where do you put items you want to buy online before paying?",
+      "question": "Complete the duration: 'The fintech company has been profitable __________ 2021.'",
       "options": [
-        "In the padlock",
-        "In the checkout",
-        "In the shopping cart",
-        "In the browser"
+        "for",
+        "at",
+        "since",
+        "during"
       ],
       "correctAnswer": 2
     },
     {
       "id": "q9",
-      "question": "What is the past form of 'to be' for 'they'?",
+      "question": "What should you look for in a browser to ensure a website is encrypted?",
       "options": [
-        "Was",
-        "Were",
-        "Are",
-        "Is"
+        "A red warning star",
+        "A padlock icon and HTTPS",
+        "A flashing 'Pay Now' button",
+        "A low price tag"
       ],
       "correctAnswer": 1
     },
     {
       "id": "q10",
-      "question": "The monthly payment for a loan is called an...",
+      "question": "Which term describes the monthly payments made to repay a digital loan?",
       "options": [
-        "Interest",
-        "Installment",
-        "Investment",
-        "Income"
+        "Yields",
+        "Installments",
+        "Dividends",
+        "Assets"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Choose the correct comparative sentence:",
+      "options": [
+        "Traditional banks are more fast than neobanks.",
+        "Neobanks are faster than traditional banks.",
+        "Traditional banks are fastest than neobanks.",
+        "Neobanks are more fast than traditional banks."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "What is an 'ETF'?",
+      "options": [
+        "An Electronic Transfer of Funds",
+        "An Exchange-Traded Fund that tracks multiple assets",
+        "A type of physical bank vault",
+        "A social media app for bankers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "Complete: 'You __________ share your PIN or OTP with anyone.'",
+      "options": [
+        "must",
+        "can",
+        "mustn't",
+        "are"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q14",
+      "question": "What does a 'Robo-advisor' use to manage your money?",
+      "options": [
+        "Physical documents",
+        "Algorithms and AI",
+        "Personal phone calls",
+        "Cash deposits"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "Complete the sentence: 'We __________ going to invest in green fintech next month.'",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q16",
+      "question": "If an investment has 'high volatility', its price...",
+      "options": [
+        "Never changes",
+        "Is always the same as gold",
+        "Changes quickly and unpredictably",
+        "Only goes up"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q17",
+      "question": "What is '3D Secure' used for?",
+      "options": [
+        "Viewing products in three dimensions",
+        "An extra authentication layer for online payments",
+        "Measuring the depth of a bank vault",
+        "Printing physical credit cards"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Complete the experience: 'Has he __________ checked his annual yield yet?'",
+      "options": [
+        "never",
+        "already",
+        "ever",
+        "yet"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q19",
+      "question": "Which term describes your total reliability as a borrower?",
+      "options": [
+        "Credit limit",
+        "Credit score",
+        "Interest rate",
+        "Grace period"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "What is 'DeFi'?",
+      "options": [
+        "Deposits in Financial Institutions",
+        "Decentralized Finance using blockchain technology",
+        "Deferred Financial Interests",
+        "Detailed Finance Reports"
       ],
       "correctAnswer": 1
     }

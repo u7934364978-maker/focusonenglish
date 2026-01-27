@@ -1,50 +1,225 @@
 {
-  "title": "Examen: Historial de Transacciones",
+  "title": "A2 Week 2 Exam: Fintech Statements & Irregular Verbs",
   "questions": [
     {
       "id": "q1",
-      "question": "What is the past simple of 'pay'?",
-      "options": ["Payed", "Paid", "Pied", "Paying"],
-      "correctAnswer": 1,
-      "explanation": "The past simple of 'pay' is 'paid'."
+      "question": "The name of the business in a transaction is the:",
+      "options": [
+        "Category",
+        "Merchant",
+        "Settlement",
+        "Tag"
+      ],
+      "correctAnswer": 1
     },
     {
       "id": "q2",
-      "question": "If you see a 'Withdrawal' of $50 on your statement, what happened?",
+      "question": "What is the past simple of 'buy'?",
       "options": [
-        "You received $50.",
-        "You took out $50.",
-        "You saved $50.",
-        "The bank gave you $50 as a gift."
+        "Buyed",
+        "Bought",
+        "Boughten",
+        "Brought"
       ],
-      "correctAnswer": 1,
-      "explanation": "A withdrawal is money taken out of an account."
+      "correctAnswer": 1
     },
     {
       "id": "q3",
-      "question": "Complete: 'Yesterday, he ________ to the bank to talk to the manager.'",
-      "options": ["go", "goes", "went", "gone"],
-      "correctAnswer": 2,
-      "explanation": "The past simple of 'go' is 'went'."
+      "question": "Grouping transactions into 'Food' or 'Travel' is called:",
+      "options": [
+        "Tagging",
+        "Categorization",
+        "Reversing",
+        "Settling"
+      ],
+      "correctAnswer": 1
     },
     {
       "id": "q4",
-      "question": "What is the 'Balance' in your bank statement?",
+      "question": "I _______ the bill using my neobank app.",
       "options": [
-        "The total amount of money you have at a specific time",
-        "The list of all banks in the city",
-        "The name of the bank manager",
-        "The interest rate of your loan"
+        "payed",
+        "paid",
+        "pay",
+        "paying"
       ],
-      "correctAnswer": 0,
-      "explanation": "Balance is the amount of money remaining in an account."
+      "correctAnswer": 1
     },
     {
       "id": "q5",
-      "question": "Which of these is NOT an irregular verb in the past?",
-      "options": ["Send", "Buy", "Visit", "Get"],
-      "correctAnswer": 2,
-      "explanation": "'Visit' is regular (visited), while the others are irregular (sent, bought, got)."
+      "question": "What does 'Pending' mean on a bank statement?",
+      "options": [
+        "The money was returned",
+        "The transaction is waiting to be finalized",
+        "The transaction was declined",
+        "The merchant is unknown"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "He _______ too much money on crypto last month.",
+      "options": [
+        "spend",
+        "spended",
+        "spent",
+        "spending"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "A recurring payment for a service like Spotify is a:",
+      "options": [
+        "Cashback",
+        "Refund",
+        "Subscription",
+        "Deposit"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q8",
+      "question": "The app _______ me an alert about the transaction.",
+      "options": [
+        "send",
+        "sended",
+        "sent",
+        "sending"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q9",
+      "question": "What is 'Cashback'?",
+      "options": [
+        "A fee for using cash",
+        "A reward where you get money back on purchases",
+        "Returning an item to a store",
+        "A type of bank loan"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "They _______ their shares when the market crashed.",
+      "options": [
+        "sell",
+        "selled",
+        "sold",
+        "selling"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "Custom labels like #Vacation are called:",
+      "options": [
+        "Tags",
+        "Links",
+        "Keys",
+        "Folders"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "We _______ to the ATM to get some cash.",
+      "options": [
+        "go",
+        "gone",
+        "went",
+        "goed"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "question": "AI-driven analysis of your spending is called:",
+      "options": [
+        "Refunds",
+        "Insights",
+        "Reversals",
+        "Deposits"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "The bank _______ me a better interest rate.",
+      "options": [
+        "gave",
+        "give",
+        "gived",
+        "given"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "What is the past simple of 'take'?",
+      "options": [
+        "Taked",
+        "Took",
+        "Taken",
+        "Toke"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "A transaction that is complete and the funds moved is:",
+      "options": [
+        "Pending",
+        "Settled",
+        "Reversed",
+        "Declined"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "I _______ a mistake on my tax return.",
+      "options": [
+        "made",
+        "make",
+        "maked",
+        "making"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "Which category is appropriate for 'Uber'?",
+      "options": [
+        "Groceries",
+        "Transport",
+        "Health",
+        "Utilities"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "She _______ her password for the mobile app.",
+      "options": [
+        "forget",
+        "forgot",
+        "forgetted",
+        "forgotten"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "When money is returned for a return, it is a:",
+      "options": [
+        "Deposit",
+        "Refund",
+        "Withdrawal",
+        "Fee"
+      ],
+      "correctAnswer": 1
     }
   ]
 }

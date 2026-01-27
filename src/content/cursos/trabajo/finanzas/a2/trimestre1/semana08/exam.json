@@ -1,60 +1,230 @@
 {
-  "title": "Examen: Facturas y Futuro con Going To",
+  "title": "Exam: Smart Billing & Recurring Payments",
   "questions": [
     {
       "id": "q1",
-      "question": "What is 'Direct Debit'?",
+      "question": "What is 'Autopay' in modern banking?",
       "options": [
-        "Paying with physical coins",
-        "An automatic payment from your bank account",
-        "A type of credit card",
-        "A loan from the government"
+        "A robot that pays for your groceries",
+        "A system that automatically pays bills on the due date",
+        "A way to print your own money",
+        "A manual bank transfer made at a branch"
       ],
       "correctAnswer": 1,
-      "explanation": "Direct debit es la domiciliación bancaria (pago automático)."
+      "explanation": "Autopay es un sistema que paga automáticamente las facturas en la fecha de vencimiento."
     },
     {
       "id": "q2",
-      "question": "Choose the correct future sentence:",
+      "question": "Which sentence correctly expresses a future intention?",
       "options": [
-        "I going to pay the bill.",
-        "I am going to pay the bill.",
-        "I am go to pay the bill.",
-        "I going pay the bill."
+        "I am going set up a direct debit.",
+        "I going to set up a direct debit.",
+        "I am going to set up a direct debit.",
+        "I am go to set up a direct debit."
       ],
-      "correctAnswer": 1,
-      "explanation": "La estructura es: am/is/are + going to + verb."
+      "correctAnswer": 2,
+      "explanation": "La estructura correcta es: be + going to + verbo base."
     },
     {
       "id": "q3",
-      "question": "What does 'Due Date' mean?",
+      "question": "What does 'Paperless Billing' mean?",
       "options": [
-        "The day you receive the bill",
-        "The day you must pay the bill",
-        "The day the service starts",
-        "The amount of the bill"
+        "Paying with physical cash",
+        "Receiving statements digitally instead of on paper",
+        "Having no money in the bank",
+        "Writing checks by hand"
       ],
       "correctAnswer": 1,
-      "explanation": "Due date es la fecha de vencimiento o límite de pago."
+      "explanation": "La facturación sin papel (paperless) significa recibir estados de cuenta digitalmente."
     },
     {
       "id": "q4",
-      "question": "Which of these is a 'Utility' service?",
-      "options": ["Shopping", "Electricity", "Vacation", "Car loan"],
-      "correctAnswer": 1,
-      "explanation": "La electricidad es un servicio básico (utility)."
+      "question": "If a payment is 'Overdue', it means:",
+      "options": [
+        "It was paid too early",
+        "The amount is too high",
+        "It was not paid by the due date",
+        "It is a free service"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Un pago 'overdue' es aquel que no se realizó antes de la fecha límite."
     },
     {
       "id": "q5",
-      "question": "How do you form the negative of 'Going to' for 'He'?",
+      "question": "Choose the correct negative form:",
       "options": [
-        "He not going to",
-        "He isn't going to",
-        "He don't going to",
-        "He am not going to"
+        "They not going to cancel the subscription.",
+        "They aren't going to cancel the subscription.",
+        "They don't going to cancel the subscription.",
+        "They isn't going to cancel the subscription."
       ],
       "correctAnswer": 1,
-      "explanation": "El negativo para 'he' es 'is not going to' (he isn't going to)."
+      "explanation": "El negativo para 'they' es 'are not' (aren't)."
+    },
+    {
+      "id": "q6",
+      "question": "What is a 'Subscription' service?",
+      "options": [
+        "A one-time purchase of a car",
+        "A regular payment for access to a product or service",
+        "A government tax on income",
+        "A physical signature on a document"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Una suscripción es un pago regular por el acceso a un servicio."
+    },
+    {
+      "id": "q7",
+      "question": "What does a 'Smart Meter' do?",
+      "options": [
+        "It measures how fast you walk",
+        "It automatically records and sends energy usage to providers",
+        "It counts the physical coins in your wallet",
+        "It translates bank documents into different languages"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un medidor inteligente registra y envía el consumo de energía automáticamente."
+    },
+    {
+      "id": "q8",
+      "question": "Correct the question: 'Is you going to pay the bill?'",
+      "options": [
+        "Am you going to pay the bill?",
+        "Are you going to pay the bill?",
+        "Do you going to pay the bill?",
+        "Is you go to pay the bill?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se usa 'are' con el pronombre 'you'."
+    },
+    {
+      "id": "q9",
+      "question": "What is a 'Billing Cycle'?",
+      "options": [
+        "A bicycle used by bank employees",
+        "The interval between two consecutive billing statements",
+        "The time it takes to print a physical check",
+        "A type of recurring loan"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un ciclo de facturación es el intervalo entre dos estados de cuenta."
+    },
+    {
+      "id": "q10",
+      "question": "Which of these is a 'Recurring Payment'?",
+      "options": [
+        "Buying a coffee once",
+        "A monthly rent payment",
+        "Selling an old phone",
+        "Finding a $20 bill on the street"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El alquiler mensual es un pago recurrente."
+    },
+    {
+      "id": "q11",
+      "question": "Complete the intention: 'We ______ to switch to green energy.'",
+      "options": ["is going", "are going", "am going", "be going"],
+      "correctAnswer": 1,
+      "explanation": "Con 'we' usamos el verbo 'are'."
+    },
+    {
+      "id": "q12",
+      "question": "What is 'VAT'?",
+      "options": [
+        "Virtual Account Technology",
+        "Value Added Tax",
+        "Verified Asset Transfer",
+        "Variable Annual Time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "VAT es el impuesto al valor agregado (IVA)."
+    },
+    {
+      "id": "q13",
+      "question": "Identify the grammatically correct sentence:",
+      "options": [
+        "He's going to monitoring his expenses.",
+        "He's going to monitor his expenses.",
+        "He going to monitor his expenses.",
+        "He's go to monitor his expenses."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sujeto + be + going to + verbo base (monitor)."
+    },
+    {
+      "id": "q14",
+      "question": "What is a 'Utility'?",
+      "options": [
+        "A set of tools for home repair",
+        "Basic services like water, gas, and electricity",
+        "The profit made from an investment",
+        "A type of high-interest savings account"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilities son los servicios básicos como agua, gas y electricidad."
+    },
+    {
+      "id": "q15",
+      "question": "In the sentence 'I'm going to pay by app', what is the intention?",
+      "options": [
+        "Past action",
+        "Future plan",
+        "Habitual action",
+        "Prohibition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Going to' indica un plan o intención futura."
+    },
+    {
+      "id": "q16",
+      "question": "If you cancel a subscription, are you ______ to pay next month?",
+      "options": ["not going", "going not", "no going", "not go"],
+      "correctAnswer": 0,
+      "explanation": "La forma negativa es 'not going to'."
+    },
+    {
+      "id": "q17",
+      "question": "What should you do if a bill amount is 'incorrect'?",
+      "options": [
+        "Pay it immediately anyway",
+        "Ignore it and wait for a fine",
+        "Contact the provider to dispute the error",
+        "Close your bank account"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Si el monto es incorrecto, debes contactar al proveedor para reclamar el error."
+    },
+    {
+      "id": "q18",
+      "question": "Correct the error: 'I going pay my bills today.'",
+      "options": [
+        "I am going to pay my bills today.",
+        "I going to pay my bills today.",
+        "I am go pay my bills today.",
+        "I go pay my bills today."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Falta el verbo 'to be' (am) y la preposición 'to'."
+    },
+    {
+      "id": "q19",
+      "question": "What is a 'receipt'?",
+      "options": [
+        "A document showing a payment was made",
+        "A request for more money",
+        "A type of bank card",
+        "A loan application form"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Un recibo es un documento que demuestra que se realizó un pago."
+    },
+    {
+      "id": "q20",
+      "question": "Which adverb is often used with 'going to' for intentions?",
+      "options": ["Yesterday", "Next week", "Last year", "Already"],
+      "correctAnswer": 1,
+      "explanation": "'Next week' (la próxima semana) se usa para planes futuros."
     }
   ]
 }

@@ -1,24 +1,29 @@
 {
-  "title": "Introducción a las Inversiones",
+  "title": "Digital Investments & Wealth Management",
   "sections": [
     {
-      "id": "vocab-investments",
-      "title": "Vocabulario: El Mundo de la Inversión",
-      "content": "Invertir significa poner tu dinero a trabajar para obtener una ganancia. Aquí tienes los términos básicos:\n\n- **Stocks / Shares**: Acciones (partes de una empresa).\n- **Bonds**: Bonos (préstamos que haces a un gobierno o empresa).\n- **Portfolio**: Tu colección de inversiones.\n- **Dividend**: Parte de las ganancias que una empresa reparte a sus accionistas.\n- **Yield**: El rendimiento o beneficio de una inversión.\n- **Risk**: Riesgo (probabilidad de perder dinero).\n- **Broker**: El profesional o plataforma que compra y vende por ti."
+      "id": "vocab",
+      "title": "Investment & Asset Vocabulary",
+      "content": "Modern investing is no longer just for experts. Digital platforms allow anyone to build a diverse portfolio of assets.\n\n- **Stocks / Shares**: Units of ownership in a company that can be bought or sold on a stock exchange.\n- **ETFs (Exchange-Traded Funds)**: A collection of many stocks or bonds that you can buy as a single unit to diversify your risk.\n- **Portfolio**: The complete collection of all your financial investments, such as stocks, bonds, and crypto.\n- **Robo-advisor**: A digital platform that provides automated, algorithm-driven financial planning services with little to no human supervision.\n- **Yield**: The earnings generated and realized on an investment over a particular period of time.\n- **Volatility**: A statistical measure of the dispersion of returns; high volatility means the price changes quickly and unpredictably.\n- **Diversification**: The strategy of spreading your investments across different assets to reduce overall risk."
     },
     {
-      "id": "grammar-for-since",
-      "title": "Gramática: Presente Perfecto con 'For' y 'Since'",
-      "content": "Usamos 'for' y 'since' con el Presente Perfecto para decir cuánto tiempo ha durado una situación que empezó en el pasado y continúa ahora.\n\n- **Since**: Indica el **momento específico** en que empezó la acción (2010, Monday, I was a child).\n  - *I have had these shares **since** 2015.*\n- **For**: Indica una **duración o periodo** de tiempo (5 years, two months, a long time).\n  - *She has worked as a broker **for** ten years.*\n\n**Pregunta:** Usamos 'How long...?' para preguntar por la duración.\n- *How long have you had this portfolio?*"
+      "id": "diagram",
+      "title": "Portfolio Diversification Strategy",
+      "content": "```mermaid\npie title Typical Digital Portfolio\n    \"ETFs (Low Risk)\" : 50\n    \"Individual Stocks\" : 30\n    \"Digital Assets/Crypto\" : 10\n    \"Cash/Savings\" : 10\n```"
+    },
+    {
+      "id": "grammar",
+      "title": "Present Perfect with 'For' and 'Since'",
+      "content": "We use the **Present Perfect** with **for** and **since** to talk about actions that started in the past and continue into the present.\n\n**Since + Specific Point in Time:**\nUse **since** to mention the exact moment the action began (a year, a date, a specific event).\n- *I have invested in ETFs **since** 2018.*\n- *She has used that robo-advisor **since** she started her new job.*\n- *They have owned Apple shares **since** last Tuesday.*\n\n**For + Period of Time:**\nUse **for** to mention a duration or length of time (number of hours, days, months, years).\n- *I have had this portfolio **for** five years.*\n- *He has been a trader **for** a long time.*\n- *We have held these bonds **for** six months.*\n\n**Asking about duration:**\nUse **How long** to ask about the length of time an action has been happening.\n- *How long have you used this investment app?*"
     }
   ],
   "objectives": [
-    "Aprender terminología básica sobre acciones y bonos",
-    "Usar 'for' y 'since' correctamente para hablar de duraciones",
-    "Comprender el concepto de riesgo y beneficio (yield)"
+    "Identify different types of digital investment assets like ETFs",
+    "Understand the importance of diversification and risk management",
+    "Use 'for' and 'since' to describe how long you have held investments"
   ],
   "keyTerms": [
-    { "term": "Portfolio", "definition": "A range of investments held by a person or organization." },
-    { "term": "Dividend", "definition": "A sum of money paid regularly by a company to its shareholders out of its profits." }
+    { "term": "Volatility", "definition": "How much the price of an asset fluctuates over time." },
+    { "term": "Robo-advisor", "definition": "An automated investment service that uses algorithms to manage your money." }
   ]
 }

@@ -52,52 +52,40 @@ export default function MatchingRenderer({
 
       <div className="grid gap-6">
         {items.map((item: any, idx: number) => {
-          const userAnswer = answers[item.id] || '';
-          const evaluation = aiEvaluations[item.id];
+          const term = item.word || item.idiom || item.left || item.term || `Item ${idx + 1}`;
+          const definition = item.correctMatch || item.correctUsage || item.meaning || item.right || item.definition;
+          const itemId = item.id || term || `match-${idx}`;
+          const userAnswer = answers[itemId] || '';
+          const evaluation = aiEvaluations[itemId];
           const isCorrect = showFeedback && (
             evaluation?.isCorrect || 
-            userAnswer === (item.correctMatch || item.correctUsage)
+            userAnswer.toLowerCase().trim() === (definition || '').toLowerCase().trim()
           );
 
           return (
-            <div key={item.id} className="bg-white dark:bg-slate-900 rounded-2xl p-6 border-2 border-slate-100 dark:border-slate-800 shadow-sm transition-all hover:border-yellow-200 dark:hover:border-yellow-900">
+            <div key={itemId} className="bg-white dark:bg-slate-900 rounded-2xl p-6 border-2 border-slate-100 dark:border-slate-800 shadow-sm transition-all hover:border-yellow-200 dark:hover:border-yellow-900">
               <div className="flex items-start gap-4">
                 <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-yellow-600 text-white font-bold text-sm flex-shrink-0">
                   {idx + 1}
                 </span>
                 
                 <div className="flex-1 space-y-4">
-                  {isIdiom ? (
-                    <div className="space-y-3">
-                      <div className="p-4 bg-yellow-50 dark:bg-yellow-950/20 rounded-xl border border-yellow-100 dark:border-yellow-900">
-                        <p className="text-sm font-black text-yellow-800 dark:text-yellow-400 uppercase tracking-wider mb-1">Idiom</p>
-                        <p className="text-xl font-bold text-slate-900 dark:text-white">"{item.idiom}"</p>
-                        <p className="text-sm text-slate-600 dark:text-slate-400 mt-2">
-                          <span className="font-bold">Meaning:</span> {item.meaning}
-                        </p>
-                      </div>
-                      <p className="text-lg text-slate-800 dark:text-slate-200 leading-relaxed italic">
-                        {item.context}
-                      </p>
-                    </div>
-                  ) : (
-                    <div className="flex items-center gap-3">
-                      <span className="text-xl font-bold text-slate-900 dark:text-white">{item.word}</span>
-                      <span className="text-slate-400">↔</span>
-                    </div>
-                  )}
+                  <div className="flex items-center gap-3">
+                    <span className="text-xl font-bold text-slate-900 dark:text-white">{term}</span>
+                    <span className="text-slate-400">↔</span>
+                  </div>
 
                   <div className="space-y-3">
                     {item.options ? (
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                         {item.options.map((option: string, optIdx: number) => {
                           const isSelected = userAnswer === option;
-                          const isCorrectOption = option === (item.correctMatch || item.correctUsage);
+                          const isCorrectOption = option.toLowerCase().trim() === (definition || '').toLowerCase().trim();
                           
                           return (
                             <button
                               key={optIdx}
-                              onClick={() => !showFeedback && onAnswer(item.id, option)}
+                              onClick={() => !showFeedback && onAnswer(itemId, option)}
                               disabled={showFeedback}
                               className={`text-left p-4 rounded-xl border-2 transition-all font-bold ${
                                 isSelected && !showFeedback
@@ -123,9 +111,9 @@ export default function MatchingRenderer({
                       <input
                         type="text"
                         value={userAnswer}
-                        onChange={(e) => onAnswer(item.id, e.target.value)}
+                        onChange={(e) => onAnswer(itemId, e.target.value)}
                         disabled={showFeedback}
-                        placeholder="Complete the match..."
+                        placeholder="Type the matching meaning..."
                         className={`w-full px-4 py-3 rounded-xl border-2 transition-all outline-none font-bold ${
                           showFeedback
                             ? isCorrect
@@ -145,7 +133,7 @@ export default function MatchingRenderer({
                         {!isCorrect && (
                           <p className="text-sm font-bold mb-2">
                             <span className="text-slate-400 uppercase tracking-widest text-[10px] block mb-1">Correct Answer</span>
-                            <span className="text-green-700 dark:text-green-400">{item.correctMatch || item.correctUsage}</span>
+                            <span className="text-green-700 dark:text-green-400">{definition}</span>
                           </p>
                         )}
                         {item.explanation && (

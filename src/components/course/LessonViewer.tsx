@@ -3711,71 +3711,20 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         );
 
       case 'matching':
-        const matchExercise = currentExercise as any;
+      case 'vocabulary-match':
+      case 'collocation-matching':
+      case 'idioms-expressions':
         return (
-          <div key={currentExercise.id} className="space-y-6">
-            <div className="bg-lime-50 rounded-xl p-6 border-2 border-lime-200">
-              <h3 className="text-xl font-bold text-lime-900 mb-2 flex items-center gap-2">
-                <span>🔀</span>
-                <span>{matchExercise.title}</span>
-              </h3>
-              {matchExercise.instruction && (
-                <p className="text-slate-700 mt-2">💡 {matchExercise.instruction}</p>
-              )}
-            </div>
-
-            <div className="space-y-4">
-              {matchExercise.pairs.map((pair: any, idx: number) => {
-                const userAnswer = answers[pair.idiom || `match-${idx}`] || '';
-                
-                return (
-                  <div key={idx} className="bg-white rounded-xl p-6 border-2 border-slate-200">
-                    <div className="flex items-start gap-3">
-                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-lime-600 text-white font-bold text-sm flex-shrink-0">
-                        {idx + 1}
-                      </span>
-                      <div className="flex-1">
-                        <p className="text-lg font-semibold text-lime-900 mb-3">{pair.idiom}</p>
-                        
-                        <input
-                          type="text"
-                          value={userAnswer}
-                          onChange={(e) => handleAnswer(pair.idiom || `match-${idx}`, e.target.value)}
-                          disabled={showFeedback}
-                          placeholder="Type the matching meaning..."
-                          className={`w-full px-4 py-3 border-2 rounded-lg ${
-                            showFeedback
-                              ? userAnswer.toLowerCase().includes(pair.meaning.toLowerCase())
-                                ? 'border-green-500 bg-green-50'
-                                : 'border-red-500 bg-red-50'
-                              : 'border-lime-300 focus:border-lime-500'
-                          } disabled:cursor-not-allowed`}
-                        />
-
-                        {showFeedback && (
-                          <div className="mt-3 p-3 bg-green-50 rounded-lg">
-                            <p className="text-sm">
-                              <span className="font-semibold">Correct meaning:</span> {pair.meaning}
-                            </p>
-                          </div>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-
-            {!showFeedback && (
-              <button
-                onClick={checkAnswers}
-                disabled={evaluating}
-                className="w-full py-4 bg-gradient-to-r from-lime-600 to-lime-700 text-white rounded-xl hover:from-lime-700 hover:to-lime-800 transition-all font-bold text-lg shadow-lg disabled:opacity-50"
-              >
-                {evaluating ? 'Evaluating...' : 'Check Answers'}
-              </button>
-            )}
-          </div>
+          <MatchingRenderer
+            key={currentExercise.id}
+            exercise={currentExercise}
+            answers={answers}
+            onAnswer={handleAnswer}
+            showFeedback={showFeedback}
+            aiEvaluations={aiEvaluations}
+            onCheck={checkAnswers}
+            evaluating={evaluating}
+          />
         );
 
       default:

@@ -1,48 +1,508 @@
 {
-  "title": "Ejercicios: Apertura de Cuentas",
+  "title": "Digital Banking & Past Simple Exercises",
   "exercises": [
     {
       "id": "ex1",
       "type": "multiple-choice",
-      "question": "Which account is best for saving money for the future?",
+      "question": "What is a 'Neobank'?",
       "options": [
-        "Current account",
-        "Savings account",
-        "Business account",
-        "Expense account"
+        "A bank that only uses physical branches",
+        "A digital-only bank without branches",
+        "A bank for old people",
+        "A bank that only accepts cash"
       ],
       "correctAnswer": 1,
-      "explanation": "A savings account is designed for accumulating money over time."
+      "explanation": "Neobanks operate entirely online through apps and websites."
     },
     {
       "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "Yesterday, the customer ________ (visit) the branch and ________ (open) a joint account.",
-      "answer": "visited / opened",
-      "explanation": "We use the -ed ending for regular verbs in the past simple."
+      "type": "multiple-choice",
+      "question": "Which term describes the process of registering a new customer?",
+      "options": [
+        "Off-boarding",
+        "Uploading",
+        "Onboarding",
+        "Broadcasting"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Onboarding is the process of getting a new user started with a service."
     },
     {
       "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the requirement with its meaning:",
-      "pairs": [
-        { "term": "Proof of address", "definition": "A utility bill or bank statement" },
-        { "term": "Initial deposit", "definition": "The first money you put in the account" },
-        { "term": "ID Card", "definition": "Identification document" }
-      ]
+      "type": "fill-in-the-blank",
+      "question": "To verify my identity, I ________ (scan) my passport using the app.",
+      "answer": "scanned",
+      "explanation": "'Scan' is a regular verb; we add -ed for the past simple (doubling the 'n')."
     },
     {
       "id": "ex4",
       "type": "multiple-choice",
-      "question": "Choose the correct past sentence:",
+      "question": "What do you call a bank statement that is sent digitally?",
       "options": [
-        "He work at the bank last year.",
-        "He works at the bank last year.",
-        "He worked at the bank last year.",
-        "He working at the bank last year."
+        "Paper statement",
+        "Cloud statement",
+        "E-statement",
+        "Web statement"
       ],
       "correctAnswer": 2,
-      "explanation": "The past simple of 'work' is 'worked'."
+      "explanation": "The 'E' stands for electronic."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple-choice",
+      "question": "What does KYC stand for in banking?",
+      "options": [
+        "Keep Your Card",
+        "Know Your Customer",
+        "Key Yield Capital",
+        "Kindly Yield Credit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "KYC is a standard process to verify client identity."
+    },
+    {
+      "id": "ex6",
+      "type": "vocabulary-match",
+      "question": "Match the modern banking terms:",
+      "pairs": [
+        { "term": "Selfie verification", "definition": "Taking a photo to prove identity" },
+        { "term": "Push notification", "definition": "Instant alert on a mobile phone" },
+        { "term": "Minimum balance", "definition": "Lowest amount to avoid fees" }
+      ]
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "Yesterday, the bank ________ (approve) my loan application.",
+      "answer": "approved",
+      "explanation": "'Approve' ends in 'e', so we just add 'd'."
+    },
+    {
+      "id": "ex8",
+      "type": "multiple-choice",
+      "question": "Which verb is NOT in the past simple?",
+      "options": [
+        "Downloaded",
+        "Transferred",
+        "Opening",
+        "Logged in"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Opening' is a gerund or present participle, not past simple."
+    },
+    {
+      "id": "ex9",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (download) the mobile app last night.",
+      "answer": "downloaded",
+      "explanation": "The past simple of 'download' is 'downloaded'."
+    },
+    {
+      "id": "ex10",
+      "type": "multiple-choice",
+      "question": "What is 'Selfie Verification' used for?",
+      "options": [
+        "To post on social media",
+        "To verify identity during onboarding",
+        "To choose a profile picture",
+        "To apply for a credit card for friends"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It's a biometric security measure."
+    },
+    {
+      "id": "ex11",
+      "type": "fill-in-the-blank",
+      "question": "He ________ (log in) to his account three times today.",
+      "answer": "logged in",
+      "explanation": "The past simple of 'log in' is 'logged in'."
+    },
+    {
+      "id": "ex12",
+      "type": "multiple-choice",
+      "question": "If an app is 'mobile-first', it means:",
+      "options": [
+        "It only works on desktop",
+        "It was designed primarily for mobile devices",
+        "It is for buying mobile phones",
+        "It is very slow on mobile"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mobile-first design prioritizes the mobile experience."
+    },
+    {
+      "id": "ex13",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (transfer) the money to the savings account this morning.",
+      "answer": "transferred",
+      "explanation": "'Transfer' doubles the 'r' when adding -ed."
+    },
+    {
+      "id": "ex14",
+      "type": "vocabulary-match",
+      "question": "Match the digital actions:",
+      "pairs": [
+        { "term": "Tap", "definition": "Pressing a button on a screen" },
+        { "term": "Swipe", "definition": "Moving a finger across the screen" },
+        { "term": "Scan", "definition": "Using a camera to read data" }
+      ]
+    },
+    {
+      "id": "ex15",
+      "type": "multiple-choice",
+      "question": "Which of these is a regular verb in the past tense?",
+      "options": [
+        "Sent",
+        "Was",
+        "Went",
+        "Called"
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Called' follows the regular -ed rule."
+    },
+    {
+      "id": "ex16",
+      "type": "fill-in-the-blank",
+      "question": "The customer ________ (wait) for the verification code.",
+      "answer": "waited",
+      "explanation": "The past simple of 'wait' is 'waited'."
+    },
+    {
+      "id": "ex17",
+      "type": "multiple-choice",
+      "question": "What do you need for 'Digital ID verification'?",
+      "options": [
+        "A physical branch",
+        "A camera and a valid ID",
+        "A landline phone",
+        "A fax machine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "You use the camera to scan your ID document."
+    },
+    {
+      "id": "ex18",
+      "type": "fill-in-the-blank",
+      "question": "She ________ (check) her balance before buying the phone.",
+      "answer": "checked",
+      "explanation": "The past simple of 'check' is 'checked'."
+    },
+    {
+      "id": "ex19",
+      "type": "multiple-choice",
+      "question": "What happens if you go below the 'minimum balance'?",
+      "options": [
+        "You get a bonus",
+        "The bank closes your account immediately",
+        "You might be charged a fee",
+        "Nothing happens"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Many accounts require a minimum balance to stay fee-free."
+    },
+    {
+      "id": "ex20",
+      "type": "fill-in-the-blank",
+      "question": "The system ________ (update) my personal details.",
+      "answer": "updated",
+      "explanation": "The past simple of 'update' is 'updated'."
+    },
+    {
+      "id": "ex21",
+      "type": "multiple-choice",
+      "question": "Which sentence is in the past simple?",
+      "options": [
+        "I am opening an account.",
+        "I will open an account.",
+        "I opened an account.",
+        "I open accounts."
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Opened' indicates a past action."
+    },
+    {
+      "id": "ex22",
+      "type": "fill-in-the-blank",
+      "question": "They ________ (request) a new debit card last week.",
+      "answer": "requested",
+      "explanation": "The past simple of 'request' is 'requested'."
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "What is the negative form of 'I scanned my ID'?",
+      "options": [
+        "I no scanned my ID",
+        "I didn't scanned my ID",
+        "I didn't scan my ID",
+        "I not scanned my ID"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In negatives, we use 'didn't' + base form of the verb."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "The bank assistant ________ (explain) the fees to me.",
+      "answer": "explained",
+      "explanation": "The past simple of 'explain' is 'explained'."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "Which of these neobanks is well-known? (General knowledge/Context)",
+      "options": [
+        "Blockbuster",
+        "Revolut",
+        "Nokia",
+        "Kodak"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Revolut is a famous digital-only bank (neobank)."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (receive) a push notification about the payment.",
+      "answer": "received",
+      "explanation": "The past simple of 'receive' is 'received'."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "What is the question form of 'She transferred the money'?",
+      "options": [
+        "Does she transferred the money?",
+        "Did she transferred the money?",
+        "Did she transfer the money?",
+        "Transferred she the money?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In questions, we use 'Did' + base form."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "The app ________ (crash) when I tried to log in.",
+      "answer": "crashed",
+      "explanation": "The past simple of 'crash' is 'crashed'."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "A 'Joint account' is for:",
+      "options": [
+        "Only one person",
+        "Two or more people",
+        "Only businesses",
+        "Only for children"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A joint account is shared by multiple people."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "The support agent ________ (help) me with the setup.",
+      "answer": "helped",
+      "explanation": "The past simple of 'help' is 'helped'."
+    },
+    {
+      "id": "ex31",
+      "type": "multiple-choice",
+      "question": "How do you pronounce the -ed in 'scanned'?",
+      "options": [
+        "/t/",
+        "/d/",
+        "/id/",
+        "/ed/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In 'scanned', the -ed is pronounced as /d/."
+    },
+    {
+      "id": "ex32",
+      "type": "fill-in-the-blank",
+      "question": "My father ________ (close) his old bank account.",
+      "answer": "closed",
+      "explanation": "The past simple of 'close' is 'closed'."
+    },
+    {
+      "id": "ex33",
+      "type": "multiple-choice",
+      "question": "Which document is usually needed for KYC?",
+      "options": [
+        "Gym membership",
+        "Library card",
+        "Passport or National ID",
+        "Movie ticket"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Official ID is required for identity verification."
+    },
+    {
+      "id": "ex34",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (visit) the branch to sign the documents.",
+      "answer": "visited",
+      "explanation": "The past simple of 'visit' is 'visited'."
+    },
+    {
+      "id": "ex35",
+      "type": "multiple-choice",
+      "question": "What does 'Real-time' mean in banking?",
+      "options": [
+        "Happening once a month",
+        "Happening immediately",
+        "Happening in the past",
+        "Happening only during business hours"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Real-time transactions happen instantly."
+    },
+    {
+      "id": "ex36",
+      "type": "fill-in-the-blank",
+      "question": "The company ________ (deposit) my salary yesterday.",
+      "answer": "deposited",
+      "explanation": "The past simple of 'deposit' is 'deposited'."
+    },
+    {
+      "id": "ex37",
+      "type": "multiple-choice",
+      "question": "Choose the correct spelling:",
+      "options": [
+        "Transfered",
+        "Transferred",
+        "Transferrd",
+        "Transferid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transferred has double 'r'."
+    },
+    {
+      "id": "ex38",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (activate) my new card via the app.",
+      "answer": "activated",
+      "explanation": "The past simple of 'activate' is 'activated'."
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "Which of these is NOT a digital banking feature?",
+      "options": [
+        "Face ID login",
+        "In-app chat support",
+        "Mailing paper checks",
+        "Instant transfers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mailing paper checks is a traditional banking feature."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "The bank ________ (block) my card for security reasons.",
+      "answer": "blocked",
+      "explanation": "The past simple of 'block' is 'blocked'."
+    },
+    {
+      "id": "ex41",
+      "type": "vocabulary-match",
+      "question": "Match the verbs with their objects:",
+      "pairs": [
+        { "term": "Download", "definition": "the app" },
+        { "term": "Scan", "definition": "the ID" },
+        { "term": "Check", "definition": "the balance" }
+      ]
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "Last month, I ________ (save) 200 euros.",
+      "answer": "saved",
+      "explanation": "The past simple of 'save' is 'saved'."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is a 'Digital Wallet'?",
+      "options": [
+        "A physical wallet with a screen",
+        "An app that stores card information for payments",
+        "A place to keep paper money",
+        "A type of bank account for children"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Examples include Apple Pay and Google Pay."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "The transaction ________ (appear) on my statement immediately.",
+      "answer": "appeared",
+      "explanation": "The past simple of 'appear' is 'appeared'."
+    },
+    {
+      "id": "ex45",
+      "type": "multiple-choice",
+      "question": "Which word is a synonym for 'Transfer'?",
+      "options": [
+        "Hold",
+        "Move",
+        "Lock",
+        "Save"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transferring money means moving it from one place to another."
+    },
+    {
+      "id": "ex46",
+      "type": "fill-in-the-blank",
+      "question": "She ________ (cancel) her subscription this morning.",
+      "answer": "cancelled",
+      "explanation": "The past simple of 'cancel' is 'cancelled' (in British English, 'canceled' in American)."
+    },
+    {
+      "id": "ex47",
+      "type": "multiple-choice",
+      "question": "What is 'Two-Factor Authentication' (2FA)?",
+      "options": [
+        "Two different bank accounts",
+        "Two different passwords",
+        "An extra layer of security (e.g., a code sent to your phone)",
+        "Paying two fees"
+      ],
+      "correctAnswer": 2,
+      "explanation": "2FA requires two forms of identification."
+    },
+    {
+      "id": "ex48",
+      "type": "fill-in-the-blank",
+      "question": "The bank ________ (offer) me a better interest rate.",
+      "answer": "offered",
+      "explanation": "The past simple of 'offer' is 'offered'."
+    },
+    {
+      "id": "ex49",
+      "type": "multiple-choice",
+      "question": "If you 'log out', you:",
+      "options": [
+        "Delete the app",
+        "Enter your password",
+        "Exit your secure session",
+        "Change your email"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Logging out ends your current session."
+    },
+    {
+      "id": "ex50",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (finish) the onboarding process in five minutes.",
+      "answer": "finished",
+      "explanation": "The past simple of 'finish' is 'finished'."
     }
   ]
 }
