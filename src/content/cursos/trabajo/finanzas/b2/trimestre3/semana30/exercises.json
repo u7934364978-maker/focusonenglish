@@ -1,0 +1,398 @@
+{
+  "title": "Exercises: Mergers and Acquisitions (M&A)",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What is 'Synergy' in M&A?",
+      "options": ["A type of energy", "The combined value being greater than the sum of parts", "A legal document", "A bank loan"],
+      "correctAnswer": 1,
+      "explanation": "1+1=3 effect in mergers."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (integrate) of the two companies took two years.",
+      "answer": "integration",
+      "explanation": "Nominalization (turning 'integrate' into a noun)."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the M&A types:",
+      "pairs": [
+        { "term": "Horizontal Merger", "definition": "Companies in the same industry" },
+        { "term": "Vertical Merger", "definition": "Companies in different stages of supply chain" },
+        { "term": "Conglomerate", "definition": "Companies in unrelated industries" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "What is 'Due Diligence'?",
+      "options": ["Paying on time", "Investigating a target company's records", "A type of tax", "Marketing"],
+      "correctAnswer": 1,
+      "explanation": "Essential research before a deal."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "The deal ________ (expect) to be finalized by Q4.",
+      "answer": "is expected",
+      "explanation": "Advanced passive structure."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "What is a 'Hostile Takeover'?",
+      "options": ["A friendly merger", "Acquisition against the wishes of the target's management", "When a company goes bankrupt", "A bank holiday"],
+      "correctAnswer": 1,
+      "explanation": "Going directly to shareholders."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (value) of the firm reached $500 million.",
+      "answer": "valuation",
+      "explanation": "Nominalization."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "M&A roles:",
+      "pairs": [
+        { "term": "Acquirer", "definition": "Buying company" },
+        { "term": "Target", "definition": "Company being bought" },
+        { "term": "LBO", "definition": "Leveraged Buyout" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "What is 'Leveraged Buyout (LBO)'?",
+      "options": ["Buying a company with mostly debt", "Buying shares with cash", "A type of tax", "A merger"],
+      "correctAnswer": 0,
+      "explanation": "Using the target's assets as collateral."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "It ________ (believe) that the merger will create thousands of jobs.",
+      "answer": "is believed",
+      "explanation": "Advanced passive structure."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "What is an 'Exit Strategy'?",
+      "options": ["The door in the office", "A plan for an investor to sell their stake", "Ending a meeting", "A bank loan"],
+      "correctAnswer": 1,
+      "explanation": "Vital for VCs and Private Equity."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (acquire) was completed yesterday.",
+      "answer": "acquisition",
+      "explanation": "Nominalization."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "What is 'Market Consolidation'?",
+      "options": ["Fewer, larger companies in an industry", "Prices going down", "New startups opening", "A bank branch"],
+      "correctAnswer": 0,
+      "explanation": "Result of many M&As."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "The board ________ (announce) the merger this morning.",
+      "answer": "announced",
+      "explanation": "Active reporting."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Defense tactics:",
+      "pairs": [
+        { "term": "Poison Pill", "definition": "Making shares less attractive" },
+        { "term": "White Knight", "definition": "A friendly acquirer" },
+        { "term": "Golden Parachute", "definition": "Large payout for executives" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "What is 'Economies of Scale'?",
+      "options": ["Measuring weights", "Cost advantages from increased production", "A type of tax", "Stock market chart"],
+      "correctAnswer": 1,
+      "explanation": "Key driver for horizontal mergers."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (negotiate) lasted for several months.",
+      "answer": "negotiations",
+      "explanation": "Nominalization."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "What is 'Divestiture'?",
+      "options": ["Buying a company", "Selling a business unit or asset", "A type of insurance", "A bank loan"],
+      "correctAnswer": 1,
+      "explanation": "The opposite of acquisition."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "The agreement ________ (sign) by both CEOs.",
+      "answer": "was signed",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "What is 'Enterprise Value (EV)'?",
+      "options": ["Total company value (equity + debt - cash)", "Price of one share", "CEO's salary", "Tax rate"],
+      "correctAnswer": 0,
+      "explanation": "Used to compare companies in M&A."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (expand) into new markets is critical.",
+      "answer": "expansion",
+      "explanation": "Nominalization."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Transaction terms:",
+      "pairs": [
+        { "term": "Cash offer", "definition": "Paying with money" },
+        { "term": "Stock swap", "definition": "Exchanging shares" },
+        { "term": "Earn-out", "definition": "Future pay based on performance" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "What is 'Post-Merger Integration (PMI)'?",
+      "options": ["Calculating taxes", "Combining companies after the deal closes", "Firing the CEO", "Buying new computers"],
+      "correctAnswer": 1,
+      "explanation": "Where many deals fail."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "It ________ (report) that the deal fell through.",
+      "answer": "is reported",
+      "explanation": "Passive reporting."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "What is a 'Shell Company'?",
+      "options": ["A company that sells sea shells", "A company with no active business or significant assets", "A very large corporation", "A bank branch"],
+      "correctAnswer": 1,
+      "explanation": "Often used for M&A or financial structures."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (propose) was rejected.",
+      "answer": "proposal",
+      "explanation": "Nominalization."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "What is 'Goodwill' in M&A?",
+      "options": ["Being nice to people", "Intangible asset (brand, reputation) paid above book value", "A type of tax", "A bank holiday"],
+      "correctAnswer": 1,
+      "explanation": "Recorded when purchase price > fair value of net assets."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "The audit ________ (conduct) by a Big Four firm.",
+      "answer": "was conducted",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "What is 'Asset Stripping'?",
+      "options": ["Cleaning a building", "Buying a company to sell its assets for profit", "A type of tax", "Stock market strategy"],
+      "correctAnswer": 1,
+      "explanation": "Often controversial practice."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (collaborate) between firms was successful.",
+      "answer": "collaboration",
+      "explanation": "Nominalization."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Legal terms:",
+      "pairs": [
+        { "term": "MOU", "definition": "Memorandum of Understanding" },
+        { "term": "LOI", "definition": "Letter of Intent" },
+        { "term": "SPA", "definition": "Share Purchase Agreement" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "What is 'Due Diligence' primarily checking?",
+      "options": ["Employee health", "Financial, legal, and operational status", "Office decoration", "Website speed"],
+      "correctAnswer": 1,
+      "explanation": "Thorough investigation."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "Investors ________ (worry) about the cultural fit.",
+      "answer": "are worried",
+      "explanation": "Passive/Adjective state."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "What is 'Anti-Trust' regulation?",
+      "options": ["Laws to prevent monopolies and encourage competition", "Laws to stop people from lying", "Bank taxes", "A type of insurance"],
+      "correctAnswer": 0,
+      "explanation": "Regulators may block mergers that reduce competition."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (reduce) in staff was expected.",
+      "answer": "reduction",
+      "explanation": "Nominalization."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "What is a 'Vertical Merger'?",
+      "options": ["Buying a competitor", "Buying a supplier or distributor", "Buying an unrelated business", "A bank loan"],
+      "correctAnswer": 1,
+      "explanation": "Integration within the supply chain."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "The deal ________ (veto) by the regulator.",
+      "answer": "was vetoed",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Corporate titles:",
+      "pairs": [
+        { "term": "Chairman", "definition": "Head of the Board" },
+        { "term": "Managing Director", "definition": "Senior executive" },
+        { "term": "Proxy", "definition": "Authority to vote for someone" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "What is 'EBITDA Multiple'?",
+      "options": ["A type of math", "A common valuation metric in M&A", "Total debt", "CEO's salary"],
+      "correctAnswer": 1,
+      "explanation": "EV divided by EBITDA."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (improve) in efficiency was huge.",
+      "answer": "improvement",
+      "explanation": "Nominalization."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "What is a 'Spin-off'?",
+      "options": ["Buying a company", "Creating an independent company through the sale/distrib of new shares of an existing business", "A type of car", "A bank holiday"],
+      "correctAnswer": 1,
+      "explanation": "Opposite of a merger/acquisition."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (assess) took longer than expected.",
+      "answer": "assessment",
+      "explanation": "Nominalization."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is 'Burn Rate'?",
+      "options": ["How fast a company uses its cash before profit", "Fire insurance", "A type of tax", "Interest rate"],
+      "correctAnswer": 0,
+      "explanation": "Critical for startups and acquisitions."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "Staff ________ (inform) of the changes.",
+      "answer": "were informed",
+      "explanation": "Passive voice plural."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "M&A drivers:",
+      "pairs": [
+        { "term": "Growth", "definition": "Entering new markets" },
+        { "term": "Efficiency", "definition": "Reducing costs" },
+        { "term": "Technology", "definition": "Acquiring IPs" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "What is 'Conglomerate Merger'?",
+      "options": ["Companies in unrelated industries", "Competitors", "Suppliers", "Banks"],
+      "correctAnswer": 0,
+      "explanation": "Diversification strategy."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (confirm) of the deal sparked a rally.",
+      "answer": "confirmation",
+      "explanation": "Nominalization."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "What is 'Market Share'?",
+      "options": ["Total market size", "A company's percentage of total industry sales", "The stock price", "A bank loan"],
+      "correctAnswer": 1,
+      "explanation": "Target of horizontal mergers."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "Reports ________ (submit) annually.",
+      "answer": "are submitted",
+      "explanation": "Present passive."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "The primary goal of M&A is to...",
+      "options": ["Create value for shareholders", "Spend money", "Hire more people", "Ignore regulations"],
+      "correctAnswer": 0,
+      "explanation": "Strategic value creation."
+    }
+  ]
+}

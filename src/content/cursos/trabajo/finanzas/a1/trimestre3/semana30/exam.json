@@ -1,0 +1,50 @@
+{
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 3,
+  "weekId": "semana30",
+  "examId": "fin-a1-w30-exam",
+  "title": "Examen: De Compras: Precios y Pagos",
+  "items": [
+    {
+      "id": "fin-a1-w30-exam-1",
+      "type": "multipleChoice",
+      "prompt": "________ shoes are very expensive.",
+      "options": ["This", "That", "These", "Them"],
+      "answerIndex": 2,
+      "explanation": "We use 'these' for plural things that are near."
+    },
+    {
+      "id": "fin-a1-w30-exam-2",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Receipt'?",
+      "options": ["A list of prices", "A document proving you paid for something", "A type of discount", "A credit card"],
+      "answerIndex": 1,
+      "explanation": "A receipt (recibo/ticket) is proof of payment."
+    },
+    {
+      "id": "fin-a1-w30-exam-3",
+      "type": "multipleChoice",
+      "prompt": "Look at ________ car over there! It's beautiful.",
+      "options": ["this", "that", "these", "those"],
+      "answerIndex": 1,
+      "explanation": "We use 'that' for a singular thing that is far away."
+    },
+    {
+      "id": "fin-a1-w30-exam-4",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Discount'?",
+      "options": ["A higher price", "A reduction in price", "A new product", "A bank loan"],
+      "answerIndex": 1,
+      "explanation": "A discount is when something costs less than usual."
+    },
+    {
+      "id": "fin-a1-w30-exam-5",
+      "type": "multipleChoice",
+      "prompt": "I want to buy ________ books here.",
+      "options": ["this", "that", "these", "those"],
+      "answerIndex": 2,
+      "explanation": "We use 'these' for plural things that are near."
+    }
+  ]
+}

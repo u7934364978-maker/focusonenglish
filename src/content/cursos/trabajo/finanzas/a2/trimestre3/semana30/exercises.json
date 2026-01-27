@@ -1,0 +1,398 @@
+{
+  "title": "Ejercicios: Fintech: Apps y Billeteras Digitales",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What is a 'Digital wallet'?",
+      "options": ["A physical leather wallet", "An app for payments", "A bank branch", "A paper bill"],
+      "correctAnswer": 1,
+      "explanation": "Apps like Apple Pay or Google Pay are digital wallets."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "I can pay ________ (rápidamente) with my phone.",
+      "answer": "quickly",
+      "explanation": "Adverb of manner."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the terms:",
+      "pairs": [
+        { "term": "Contactless", "definition": "Sin contacto" },
+        { "term": "Fee", "definition": "Comisión" },
+        { "term": "Real-time", "definition": "Tiempo real" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "What do you do with a QR code?",
+      "options": ["Eat it", "Scan it", "Write on it", "Delete it"],
+      "correctAnswer": 1,
+      "explanation": "We use the camera to scan QR codes."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "Check the transactions ________. (cuidadosamente)",
+      "answer": "carefully",
+      "explanation": "Adverb from 'careful'."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "What is 'Fintech'?",
+      "options": ["Financial technology", "Final technicality", "Fine technique", "Finance teacher"],
+      "correctAnswer": 0,
+      "explanation": "Finance + Technology."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "The transfer was completed ________. (inmediatamente)",
+      "answer": "immediately",
+      "explanation": "Adverb of manner."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "App features:",
+      "pairs": [
+        { "term": "Balance", "definition": "Saldo" },
+        { "term": "History", "definition": "Historial" },
+        { "term": "Budget", "definition": "Presupuesto" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "Is contactless payment safe?",
+      "options": ["No, never", "Yes, with limits", "Only for big amounts", "I don't know"],
+      "correctAnswer": 1,
+      "explanation": "It's safe and usually has limits for security."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "She manages her money ________. (fácilmente)",
+      "answer": "easily",
+      "explanation": "Easy -> Easily."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "What is a 'Budgeting app'?",
+      "options": ["A game", "An app to track spending", "A shopping app", "A music app"],
+      "correctAnswer": 1,
+      "explanation": "Budgeting apps help you save and plan."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "You should type the amount ________. (correctamente)",
+      "answer": "correctly",
+      "explanation": "Adverb of manner."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "What is 'Cryptocurrency'?",
+      "options": ["Physical coins", "Digital/Virtual money", "Bank notes", "Gold"],
+      "correctAnswer": 1,
+      "explanation": "Bitcoin is a cryptocurrency."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (escanear) the code yesterday.",
+      "answer": "scanned",
+      "explanation": "Past tense."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Adverbs:",
+      "pairs": [
+        { "term": "Slowly", "definition": "Lentamente" },
+        { "term": "Perfectly", "definition": "Perfectamente" },
+        { "term": "Safely", "definition": "De forma segura" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "Where can you find a QR code to pay?",
+      "options": ["On a restaurant table", "On the moon", "In a book", "In the ocean"],
+      "correctAnswer": 0,
+      "explanation": "Many restaurants use them for menus and payments."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "The app works ________. (bien)",
+      "answer": "well",
+      "explanation": "Adverb of 'good'."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "What is 'Peer-to-peer (P2P) payment'?",
+      "options": ["Paying a business", "Paying a friend directly", "Paying a tax", "Paying a loan"],
+      "correctAnswer": 1,
+      "explanation": "P2P apps like Bizum or Venmo."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "Please speak ________. (claramente)",
+      "answer": "clearly",
+      "explanation": "Adverb of manner."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "What is a 'Mobile bank'?",
+      "options": ["A bank in a car", "A bank with no physical branches", "A piggy bank", "A ATM"],
+      "correctAnswer": 1,
+      "explanation": "Banks that operate only through apps."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "The notification appeared ________. (repentinamente)",
+      "answer": "suddenly",
+      "explanation": "Adverb of manner."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Devices:",
+      "pairs": [
+        { "term": "Smartphone", "definition": "Teléfono inteligente" },
+        { "term": "Tablet", "definition": "Tableta" },
+        { "term": "Smartwatch", "definition": "Reloj inteligente" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "What is 'Cashless'?",
+      "options": ["Having no money", "A society with no physical cash", "A rich person", "A bank branch"],
+      "correctAnswer": 1,
+      "explanation": "Using only digital payments."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "He drives ________. (peligrosamente)",
+      "answer": "dangerously",
+      "explanation": "Adverb of manner."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "What is 'Subscription'?",
+      "options": ["A one-time payment", "A recurring payment (monthly/yearly)", "A discount", "A bill"],
+      "correctAnswer": 1,
+      "explanation": "Netflix or Spotify are subscriptions."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "I pay ________. (mensualmente)",
+      "answer": "monthly",
+      "explanation": "Adverb of frequency/manner."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "If you lose your phone, you ________ remote wipe your data.",
+      "options": ["should", "are", "do", "am"],
+      "correctAnswer": 0,
+      "explanation": "Security advice."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "The update was installed ________. (automáticamente)",
+      "answer": "automatically",
+      "explanation": "Adverb of manner."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "What is 'Blockchain'?",
+      "options": ["A physical chain", "A technology for secure records", "A type of bank building", "A credit card"],
+      "correctAnswer": 1,
+      "explanation": "Technological basis for crypto."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "They work ________. (arduamente)",
+      "answer": "hard",
+      "explanation": "'Hard' is both adjective and adverb."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Match the icons:",
+      "pairs": [
+        { "term": "Wifi symbol", "definition": "Contactless" },
+        { "term": "Trash can", "definition": "Delete" },
+        { "term": "Gear", "definition": "Settings" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "What is 'User interface (UI)'?",
+      "options": ["The back of the phone", "The visual part of an app", "The battery", "The bank manager"],
+      "correctAnswer": 1,
+      "explanation": "How the app looks and how you interact with it."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "Login ________. (exitosamente)",
+      "answer": "successfully",
+      "explanation": "Adverb of manner."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "What is 'Biometrics'?",
+      "options": ["Biological metrics", "Fingerprint or face ID", "A medical test", "A bank loan"],
+      "correctAnswer": 1,
+      "explanation": "Using body features for identification."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "Wait ________. (pacientemente)",
+      "answer": "patiently",
+      "explanation": "Adverb of manner."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "What is 'Virtual card'?",
+      "options": ["A plastic card", "A digital card in the app", "A birthday card", "A map"],
+      "correctAnswer": 1,
+      "explanation": "A card that exists only digitally."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "Listen ________. (atentamente)",
+      "answer": "carefully",
+      "explanation": "Synonym for attentively."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Fintech verbs:",
+      "pairs": [
+        { "term": "Transfer", "definition": "Send money" },
+        { "term": "Top up", "definition": "Add money" },
+        { "term": "Exchange", "definition": "Swap currency" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "What is 'Auto-pay'?",
+      "options": ["Paying for a car", "Automatic bill payment", "Manual payment", "Free payment"],
+      "correctAnswer": 1,
+      "explanation": "Bills are paid automatically."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "Everything is ________ (sincronizado).",
+      "answer": "synced",
+      "explanation": "Short for synchronized."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "Why use Fintech?",
+      "options": ["Convenience", "Speed", "Lower fees", "All of the above"],
+      "correctAnswer": 3,
+      "explanation": "These are the main benefits."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "Run ________. (rápido)",
+      "answer": "fast",
+      "explanation": "'Fast' is both adjective and adverb."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is a 'Startup'?",
+      "options": ["An old company", "A new, innovative company", "A type of engine", "A bank branch"],
+      "correctAnswer": 1,
+      "explanation": "Many Fintechs are startups."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "The system updated ________. (recientemente)",
+      "answer": "recently",
+      "explanation": "Adverb of time/manner."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Match the words:",
+      "pairs": [
+        { "term": "User", "definition": "Usuario" },
+        { "term": "Account", "definition": "Cuenta" },
+        { "term": "Security", "definition": "Seguridad" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "What is 'Cloud computing'?",
+      "options": ["Computing in the sky", "Storing data on the internet", "A type of rain", "A bank loan"],
+      "correctAnswer": 1,
+      "explanation": "Using remote servers."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "I pay ________. (semanalmente)",
+      "answer": "weekly",
+      "explanation": "Adverb of frequency."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "What is 'In-app purchase'?",
+      "options": ["Buying an app", "Buying something inside an app", "Buying a phone", "Buying a car"],
+      "correctAnswer": 1,
+      "explanation": "Extra features or items inside the app."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "It's working ________. (perfectamente)",
+      "answer": "perfectly",
+      "explanation": "Adverb of manner."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "Fintech is changing...",
+      "options": ["The weather", "The way we use money", "The mountains", "The ocean"],
+      "correctAnswer": 1,
+      "explanation": "It's a financial revolution."
+    }
+  ]
+}

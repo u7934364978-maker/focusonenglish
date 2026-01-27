@@ -1,0 +1,50 @@
+{
+  "goal": "finanzas",
+  "level": "A2",
+  "trimester": 3,
+  "weekId": "semana29",
+  "examId": "fin-a2-w29-exam",
+  "title": "Examen: Seguridad Online y Phishing",
+  "items": [
+    {
+      "id": "fin-a2-w29-exam-1",
+      "type": "multipleChoice",
+      "prompt": "If you share your password, someone ________ (steal) your money.",
+      "options": ["stolen", "will steal", "steals", "is stealing"],
+      "answerIndex": 1,
+      "explanation": "First conditional: If + present simple, will + verb."
+    },
+    {
+      "id": "fin-a2-w29-exam-2",
+      "type": "multipleChoice",
+      "prompt": "What is 'Phishing'?",
+      "options": ["A type of sport", "Fraudulent emails to steal personal data", "A bank's website", "An online shop"],
+      "answerIndex": 1,
+      "explanation": "Phishing is a cybercrime where attackers pose as legitimate entities."
+    },
+    {
+      "id": "fin-a2-w29-exam-3",
+      "type": "multipleChoice",
+      "prompt": "If the link looks suspicious, I ________ (not click) on it.",
+      "options": ["don't click", "won't click", "not click", "haven't clicked"],
+      "answerIndex": 1,
+      "explanation": "First conditional for a future decision based on a condition."
+    },
+    {
+      "id": "fin-a2-w29-exam-4",
+      "type": "multipleChoice",
+      "prompt": "What is 'Two-Factor Authentication' (2FA)?",
+      "options": ["Having two bank accounts", "An extra security step to verify your identity", "Using two different credit cards", "Paying two times"],
+      "answerIndex": 1,
+      "explanation": "2FA adds a second layer of security (like a code sent to your phone)."
+    },
+    {
+      "id": "fin-a2-w29-exam-5",
+      "type": "multipleChoice",
+      "prompt": "What should you do if you see a 'suspicious' transaction?",
+      "options": ["Ignore it", "Report it to the bank immediately", "Tell your friends", "Delete the app"],
+      "answerIndex": 1,
+      "explanation": "Reporting suspicious activity is the first step to protecting your account."
+    }
+  ]
+}

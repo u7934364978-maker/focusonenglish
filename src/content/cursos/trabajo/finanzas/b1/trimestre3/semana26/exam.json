@@ -1,0 +1,50 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 3,
+  "weekId": "semana26",
+  "examId": "fin-b1-w26-exam",
+  "title": "Exam: Investment Basics: Stocks & Bonds",
+  "items": [
+    {
+      "id": "fin-b1-w26-exam-1",
+      "type": "multipleChoice",
+      "prompt": "If you buy shares in a company, you ________ a partial owner.",
+      "options": ["become", "will become", "became", "would become"],
+      "answerIndex": 1,
+      "explanation": "First conditional: If + present simple, will + verb."
+    },
+    {
+      "id": "fin-b1-w26-exam-2",
+      "type": "multipleChoice",
+      "prompt": "What are 'Dividends'?",
+      "options": ["The total value of a company", "A portion of a company's profit paid to shareholders", "The fee paid to a broker", "A type of bank loan"],
+      "answerIndex": 1,
+      "explanation": "Dividends are payments made by a corporation to its shareholders."
+    },
+    {
+      "id": "fin-b1-w26-exam-3",
+      "type": "multipleChoice",
+      "prompt": "The market ________ (recover) if the interest rates stay low.",
+      "options": ["recovers", "will recover", "recovered", "is recovering"],
+      "answerIndex": 1,
+      "explanation": "First conditional for a likely future outcome."
+    },
+    {
+      "id": "fin-b1-w26-exam-4",
+      "type": "multipleChoice",
+      "prompt": "Which of these usually has lower risk?",
+      "options": ["Government bonds", "Tech startup stocks", "Cryptocurrencies", "Penny stocks"],
+      "answerIndex": 0,
+      "explanation": "Government bonds are generally considered lower-risk 'safe haven' assets."
+    },
+    {
+      "id": "fin-b1-w26-exam-5",
+      "type": "multipleChoice",
+      "prompt": "If the company fails, shareholders ________ their investment.",
+      "options": ["lose", "will lose", "loses", "lost"],
+      "answerIndex": 1,
+      "explanation": "First conditional: 'will lose'."
+    }
+  ]
+}

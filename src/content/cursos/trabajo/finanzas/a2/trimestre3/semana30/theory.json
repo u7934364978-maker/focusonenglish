@@ -1,0 +1,29 @@
+{
+  "title": "Fintech: Apps y Billeteras Digitales",
+  "sections": [
+    {
+      "id": "fintech-vocab",
+      "title": "Vocabulario: El Futuro del Dinero",
+      "content": "Nuevas formas de pagar y gestionar el dinero.\n\n- **App**: Aplicación móvil.\n- **Digital wallet**: Billetera digital (e.g., Apple Pay, Google Pay).\n- **Contactless**: Pago sin contacto.\n- **QR code**: Código QR.\n- **To scan**: Escanear.\n- **Real-time**: Tiempo real.\n- **Fee**: Comisión.\n- **Budgeting app**: App para presupuestos.\n- **Cryptocurrency**: Criptomoneda."
+    },
+    {
+      "id": "grammar-adverbs-manner",
+      "title": "Gramática: Adverbios de Manera",
+      "content": "Describen cómo hacemos las transacciones.\n\n- You can pay **quickly** with your phone. (Puedes pagar rápidamente con tu teléfono).\n- Please check the details **carefully**. (Por favor, revisa los detalles cuidadosamente).\n- The money arrives **immediately**. (El dinero llega inmediatamente).\n\n**Regla:**\n- Muchos adverbios terminan en **-ly** (Adjetivo + ly)."
+    },
+    {
+      "id": "fintech-usage",
+      "title": "Usando la Tecnología",
+      "content": "- *I use a digital wallet for all my payments.* (Uso una billetera digital para todos mis pagos).\n- *Does this shop accept contactless?* (¿Acepta esta tienda pago sin contacto?).\n- *I scan the QR code to pay.* (Escaneo el código QR para pagar)."
+    }
+  ],
+  "objectives": [
+    "Hablar sobre aplicaciones financieras modernas",
+    "Usar adverbios de manera correctamente",
+    "Comparar métodos de pago tradicionales y digitales"
+  ],
+  "keyTerms": [
+    { "term": "Fintech", "definition": "Financial technology used to improve financial services." },
+    { "term": "Contactless", "definition": "Paying without touching the machine with a card or phone." }
+  ]
+}

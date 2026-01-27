@@ -1,0 +1,55 @@
+{
+  "goal": "finanzas",
+  "level": "C1",
+  "trimester": 3,
+  "weekId": "semana26",
+  "examId": "fin-c1-w26-exam",
+  "title": "Exam: Private Equity & Venture Capital",
+  "items": [
+    {
+      "id": "fin-c1-w26-exam-1",
+      "type": "multipleChoice",
+      "prompt": "Which partner in a Private Equity firm is primarily responsible for managing the fund and making investment decisions?",
+      "options": ["Limited Partner (LP)", "General Partner (GP)", "Equity Partner", "Silent Partner"],
+      "answerIndex": 1,
+      "explanation": "The General Partner (GP) manages the fund, while Limited Partners (LPs) are passive investors."
+    },
+    {
+      "id": "fin-c1-w26-exam-2",
+      "type": "multipleChoice",
+      "prompt": "Shareholders ________ about the exit strategy; the IPO was a massive success.",
+      "options": ["needn't have worried", "didn't need worry", "mustn't have worried", "shouldn't have worried"],
+      "answerIndex": 0,
+      "explanation": "'Needn't have + past participle' is used for an action that was done but wasn't actually necessary."
+    },
+    {
+      "id": "fin-c1-w26-exam-3",
+      "type": "multipleChoice",
+      "prompt": "What is 'Carried Interest' in the context of PE/VC?",
+      "options": [
+        "The interest paid on a leveraged loan",
+        "The annual management fee paid by LPs",
+        "The share of profits received by GPs as compensation",
+        "The dividends paid to early-stage employees"
+      ],
+      "answerIndex": 2,
+      "explanation": "Carried interest is the performance-based profit share (usually 20%) paid to fund managers."
+    },
+    {
+      "id": "fin-c1-w26-exam-4",
+      "type": "multipleChoice",
+      "prompt": "To '________' an asset means to reduce its book value because it is overvalued compared to market price.",
+      "options": ["write off", "write down", "cash in", "draw down"],
+      "answerIndex": 1,
+      "explanation": "To write down an asset is to reduce its recorded value on the balance sheet."
+    },
+    {
+      "id": "fin-c1-w26-exam-5",
+      "type": "multipleChoice",
+      "prompt": "The fund ________ by Friday according to the strict terms of the agreement.",
+      "options": ["is to close", "is closing", "will be closed", "closes"],
+      "answerIndex": 0,
+      "explanation": "'Is to + verb' expresses a formal obligation or a scheduled event."
+    }
+  ]
+}

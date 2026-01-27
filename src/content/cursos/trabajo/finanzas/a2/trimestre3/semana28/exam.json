@@ -1,0 +1,50 @@
+{
+  "goal": "finanzas",
+  "level": "A2",
+  "trimester": 3,
+  "weekId": "semana28",
+  "examId": "fin-a2-w28-exam",
+  "title": "Examen: Introducción a los Seguros",
+  "items": [
+    {
+      "id": "fin-a2-w28-exam-1",
+      "type": "multipleChoice",
+      "prompt": "If you ________ (have) an accident, the insurance pays for it.",
+      "options": ["have", "has", "having", "had"],
+      "answerIndex": 0,
+      "explanation": "Zero conditional: If + present simple, present simple."
+    },
+    {
+      "id": "fin-a2-w28-exam-2",
+      "type": "multipleChoice",
+      "prompt": "A 'Premium' in insurance is:",
+      "options": ["A special gift", "The monthly or annual payment", "A type of car", "A hospital"],
+      "answerIndex": 1,
+      "explanation": "The premium (prima) is what you pay to keep the insurance active."
+    },
+    {
+      "id": "fin-a2-w28-exam-3",
+      "type": "multipleChoice",
+      "prompt": "If you buy a house, you ________ (need) home insurance.",
+      "options": ["need", "needs", "needing", "needed"],
+      "answerIndex": 0,
+      "explanation": "Zero conditional for a general fact/requirement."
+    },
+    {
+      "id": "fin-a2-w28-exam-4",
+      "type": "multipleChoice",
+      "prompt": "What does a 'Claim' mean?",
+      "options": ["Buying a policy", "Requesting money from the insurance company after an accident", "Selling a car", "A type of credit card"],
+      "answerIndex": 1,
+      "explanation": "A claim (reclamación) is when you ask the insurer to pay for a loss."
+    },
+    {
+      "id": "fin-a2-w28-exam-5",
+      "type": "multipleChoice",
+      "prompt": "Who is the 'Policyholder'?",
+      "options": ["The insurance company", "The person who owns the insurance policy", "The police", "A bank teller"],
+      "answerIndex": 1,
+      "explanation": "The policyholder is the person covered by the contract."
+    }
+  ]
+}

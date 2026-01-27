@@ -1,0 +1,29 @@
+{
+  "title": "Pagando Facturas y Servicios",
+  "sections": [
+    {
+      "id": "vocab-bills",
+      "title": "Vocabulario: Tipos de Facturas",
+      "content": "Aprenderemos a identificar y hablar de los pagos mensuales.\n\n- **Bill**: Factura (luz, agua, etc.).\n- **Invoice**: Factura (comercial).\n- **Rent**: Alquiler.\n- **Utilities**: Servicios básicos.\n- **Due date**: Fecha de vencimiento.\n- **To pay**: Pagar.\n- **Overdue**: Fuera de plazo / Vencido."
+    },
+    {
+      "id": "grammar-prepositions-time",
+      "title": "Gramática: Preposiciones de Tiempo (In, On, At)",
+      "content": "Usamos preposiciones para decir cuándo pagamos.\n\n- I pay the rent **on** the first of the month. (Pago el alquiler el día uno).\n- The bill is due **in** June. (La factura vence en junio).\n- I go to the bank **at** 10:00. (Voy al banco a las 10:00).\n\n**Reglas:**\n- **On**: Días y fechas.\n- **In**: Meses, años, periodos largos.\n- **At**: Horas exactas."
+    },
+    {
+      "id": "useful-phrases",
+      "title": "Hablando de Pagos",
+      "content": "- *When is the due date?* (¿Cuándo es la fecha de vencimiento?).\n- *I need to pay the electricity bill.* (Necesito pagar la factura de la luz).\n- *Is the water bill overdue?* (¿Está vencida la factura del agua?)"
+    }
+  ],
+  "objectives": [
+    "Identificar diferentes tipos de facturas",
+    "Usar preposiciones de tiempo correctamente",
+    "Preguntar por fechas de vencimiento"
+  ],
+  "keyTerms": [
+    { "term": "Due date", "definition": "The date by which something must be paid." },
+    { "term": "Overdue", "definition": "Not paid by the expected time." }
+  ]
+}

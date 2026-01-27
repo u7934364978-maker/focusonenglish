@@ -1,0 +1,29 @@
+{
+  "title": "Derivative Financial Instruments",
+  "sections": [
+    {
+      "id": "derivatives-core",
+      "title": "Forwards, Futures, and Options",
+      "content": "Derivatives are financial contracts whose value is derived from an underlying asset, index, or rate.\n\n- **Forward Contract**: A private and customizable agreement to buy or sell an asset at a specified price on a future date.\n- **Futures Contract**: A standardized version of a forward, traded on an exchange, with daily settlement of gains and losses.\n- **Call Option**: The right (but not the obligation) to buy an asset at a specific price (strike price) within a specific time frame.\n- **Put Option**: The right (but not the obligation) to sell an asset at a specific price.\n- **Underlying Asset**: The financial instrument (stock, bond, commodity) on which the derivative's price is based."
+    },
+    {
+      "id": "swaps-hedging",
+      "title": "Swaps & Hedging Strategies",
+      "content": "Sophisticated institutions use derivatives to manage exposure to interest rate and currency fluctuations.\n\n- **Interest Rate Swap**: A contract between two parties to exchange interest rate payments (e.g., fixed for floating) for a specified period.\n- **Currency Swap**: Simultaneous lending and borrowing of the same amount in different currencies to hedge against exchange rate risk.\n- **Speculation**: Entering a derivative contract with the intent to profit from price movements, rather than to hedge an existing risk.\n- **Arbitrage**: The simultaneous purchase and sale of an asset in different markets to exploit tiny price discrepancies."
+    },
+    {
+      "id": "grammar-inversion-conditionals",
+      "title": "Language Focus: Inversion & Subjunctive in High-Level Analysis",
+      "content": "Advanced financial analysis often employs formal rhetorical structures.\n\n- **Inversion for Emphasis**: \n  - '**Seldom have we seen** such volatility in the derivatives market.'\n  - '**Under no circumstances should** a firm trade without a robust hedging strategy.'\n- **Formal Subjunctive (Recommendations/Necessity)**:\n  - 'It is imperative that the trader **comply** with all margin requirements.'\n  - 'The board recommended that the firm **hedge** its exposure to the Yen.'"
+    }
+  ],
+  "objectives": [
+    "Differentiate between various types of derivatives (Futures, Options, Swaps)",
+    "Explain the mechanics of hedging vs. speculation in corporate treasury",
+    "Utilize formal inversion and subjunctive structures in professional financial reporting"
+  ],
+  "keyTerms": [
+    { "term": "Strike Price", "definition": "The fixed price at which the owner of an option can buy (call) or sell (put) the underlying security." },
+    { "term": "Margin Call", "definition": "A demand by a broker that an investor deposit further cash or securities to cover possible losses." }
+  ]
+}

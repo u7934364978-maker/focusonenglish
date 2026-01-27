@@ -1,0 +1,50 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 3,
+  "weekId": "semana29",
+  "examId": "fin-b1-w29-exam",
+  "title": "Exam: E-commerce and International Payments",
+  "items": [
+    {
+      "id": "fin-b1-w29-exam-1",
+      "type": "multipleChoice",
+      "prompt": "If we ________ (not have) a secure gateway, customers wouldn't trust us.",
+      "options": ["don't have", "didn't have", "won't have", "haven't had"],
+      "answerIndex": 1,
+      "explanation": "Second conditional for hypothetical present situations."
+    },
+    {
+      "id": "fin-b1-w29-exam-2",
+      "type": "multipleChoice",
+      "prompt": "What is an 'Invoice'?",
+      "options": ["A marketing flyer", "A formal request for payment showing goods/services provided", "A type of credit card", "A bank statement"],
+      "answerIndex": 1,
+      "explanation": "An invoice is sent by a seller to a buyer."
+    },
+    {
+      "id": "fin-b1-w29-exam-3",
+      "type": "multipleChoice",
+      "prompt": "If the currency ________ (be) more stable, international trade would increase.",
+      "options": ["is", "was/were", "will be", "being"],
+      "answerIndex": 1,
+      "explanation": "Second conditional: 'were' (more formal/standard) or 'was'."
+    },
+    {
+      "id": "fin-b1-w29-exam-4",
+      "type": "multipleChoice",
+      "prompt": "What is 'SWIFT' used for in banking?",
+      "options": ["To print checks", "To send secure messages for international transfers", "To buy stocks", "To calculate interest"],
+      "answerIndex": 1,
+      "explanation": "SWIFT is the global network for international financial messaging."
+    },
+    {
+      "id": "fin-b1-w29-exam-5",
+      "type": "multipleChoice",
+      "prompt": "A 'Merchant Account' is needed to:",
+      "options": ["Pay employees", "Accept credit card payments from customers", "Withdraw cash from an ATM", "Store personal savings"],
+      "answerIndex": 1,
+      "explanation": "Merchant accounts allow businesses to process card payments."
+    }
+  ]
+}

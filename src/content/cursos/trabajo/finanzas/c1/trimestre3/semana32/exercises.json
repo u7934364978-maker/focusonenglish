@@ -1,0 +1,460 @@
+{
+  "title": "Exercises: C1 Mastery Review and Consolidation",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "Which term describes a strategy to prevent a hostile takeover by making the target less attractive?",
+      "options": ["Golden Parachute", "Poison Pill", "White Knight", "Leveraged Buyout"],
+      "correctAnswer": 1,
+      "explanation": "A poison pill is a common anti-takeover defense."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "Only after the audit was complete ________ (the board/realize) the extent of the fraud.",
+      "answer": "did the board realize",
+      "explanation": "Inversion after 'Only after...'."
+    },
+    {
+      "id": "ex3",
+      "type": "multiple-choice",
+      "question": "What is the primary function of a 'Credit Default Swap' (CDS)?",
+      "options": [
+        "To bet on a stock price increase",
+        "To hedge against the risk of a borrower defaulting",
+        "To exchange one currency for another",
+        "To fix the interest rate on a loan"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A CDS acts as insurance against default risk."
+    },
+    {
+      "id": "ex4",
+      "type": "fill-in-the-blank",
+      "question": "It is vital that the CFO ________ (be) informed of any material changes immediately.",
+      "answer": "be",
+      "explanation": "Use of the subjunctive after 'It is vital that...'."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple-choice",
+      "question": "In Venture Capital, what is a 'Unicorn'?",
+      "options": [
+        "A company that has never failed",
+        "A private startup valued at over $1 billion",
+        "A type of government-backed bond",
+        "A merger between two identical companies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A unicorn is a private startup with a valuation > $1 billion."
+    },
+    {
+      "id": "ex6",
+      "type": "fill-in-the-blank",
+      "question": "Had the company ________ (diversify) its portfolio, it wouldn't be facing bankruptcy now.",
+      "answer": "diversified",
+      "explanation": "Mixed conditional (Third/Second) with inversion of 'if'."
+    },
+    {
+      "id": "ex7",
+      "type": "multiple-choice",
+      "question": "Which ESG pillar includes 'Carbon Emissions' and 'Waste Management'?",
+      "options": ["Social", "Governance", "Environmental", "Standardization"],
+      "correctAnswer": 2,
+      "explanation": "These are Environmental factors."
+    },
+    {
+      "id": "ex8",
+      "type": "fill-in-the-blank",
+      "question": "The implementation ________ (facilitate) by a significant increase in the budget.",
+      "answer": "was facilitated",
+      "explanation": "Using a formal passive structure (Nominalization of facilitation -> facilitate)."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "What does 'Quantitative Tightening' aim to do?",
+      "options": [
+        "Increase the money supply",
+        "Decrease liquidity in the economy",
+        "Lower interest rates to zero",
+        "Stimulate consumer spending"
+      ],
+      "correctAnswer": 1,
+      "explanation": "QT is a contractionary policy to reduce the money supply."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "The volatility in the market ________ (stem) from geopolitical tensions.",
+      "answer": "stemmed",
+      "explanation": "'Stemmed from' indicates causality."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "Which of these is a 'Leading Indicator'?",
+      "options": ["Unemployment rate", "GDP growth", "Stock market returns", "CPI"],
+      "correctAnswer": 2,
+      "explanation": "Stock prices typically change before the economy does."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "It ________ (appear) that the merger will be approved by regulators.",
+      "answer": "appears",
+      "explanation": "Hedging to avoid sounding too definitive."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "What is 'Greenwashing'?",
+      "options": [
+        "Cleaning polluted rivers",
+        "Investing in solar panels",
+        "Misleading claims about environmental benefits",
+        "A type of organic tax"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Greenwashing is deceptive environmental marketing."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "Scarcely ________ (the market/recover) when the second wave of inflation hit.",
+      "answer": "had the market recovered",
+      "explanation": "Inversion after 'Scarcely...'."
+    },
+    {
+      "id": "ex15",
+      "type": "multiple-choice",
+      "question": "In an IPO, what is 'Underwriting'?",
+      "options": [
+        "Setting the share price",
+        "Guaranteeing the sale of shares by the bank",
+        "The process of printing the prospectuses",
+        "Trading shares on the secondary market"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Underwriting involves the investment bank taking on the risk of the IPO."
+    },
+    {
+      "id": "ex16",
+      "type": "fill-in-the-blank",
+      "question": "We recommend that he ________ (revisit) the financial projections.",
+      "answer": "revisit",
+      "explanation": "Subjunctive after a verb of recommendation."
+    },
+    {
+      "id": "ex17",
+      "type": "multiple-choice",
+      "question": "What is 'Stagflation'?",
+      "options": [
+        "Low inflation and high growth",
+        "High inflation and high unemployment",
+        "Rapid deflation and low unemployment",
+        "Stable prices and stable growth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stagflation = Stagnation + Inflation."
+    },
+    {
+      "id": "ex18",
+      "type": "fill-in-the-blank",
+      "question": "The policy change ________ (give) rise to a surge in foreign investment.",
+      "answer": "gave",
+      "explanation": "'Gave rise to' expresses causality."
+    },
+    {
+      "id": "ex19",
+      "type": "multiple-choice",
+      "question": "Which derivative gives the right but not the obligation to buy an asset?",
+      "options": ["Future", "Forward", "Call Option", "Put Option"],
+      "correctAnswer": 2,
+      "explanation": "A Call Option gives the right to buy; a Put gives the right to sell."
+    },
+    {
+      "id": "ex20",
+      "type": "fill-in-the-blank",
+      "question": "There is a ________ (general) consensus that rates will stay high for longer.",
+      "answer": "general",
+      "explanation": "'General consensus' is a hedging phrase."
+    },
+    {
+      "id": "ex21",
+      "type": "multiple-choice",
+      "question": "What is 'Fiduciary Duty'?",
+      "options": [
+        "A duty to pay taxes on time",
+        "A legal obligation to act in a client's best interest",
+        "The right to hire any auditor",
+        "A commitment to donate to charity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fiduciary duty is the highest standard of care in finance."
+    },
+    {
+      "id": "ex22",
+      "type": "fill-in-the-blank",
+      "question": "The intervention was successful, ________ (thereby) preventing a crash.",
+      "answer": "thereby",
+      "explanation": "'Thereby' links action to result."
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "A 'Yield Curve Inversion' is often a precursor to:",
+      "options": ["Hyperinflation", "A recession", "A bull market", "Zero interest rates"],
+      "correctAnswer": 1,
+      "explanation": "Yield curve inversions have a strong track record of predicting recessions."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "Should you ________ (require) further information, please contact our IR team.",
+      "answer": "require",
+      "explanation": "First conditional inversion (If you should require -> Should you require)."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "In M&A, 'Synergy' refers to:",
+      "options": [
+        "The cost of the merger",
+        "The combined value being greater than the sum of the parts",
+        "The legal conflict between two boards",
+        "The process of firing redundant staff only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Synergy is the '1+1=3' effect."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "The CEO's ________ (resign) led to a 5% drop in the share price.",
+      "answer": "resignation",
+      "explanation": "Nominalization (verb 'resign' to noun 'resignation')."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "Keynesian Economics suggests that during a recession, the government should:",
+      "options": ["Cut spending", "Raise interest rates", "Increase spending and lower taxes", "Do nothing"],
+      "correctAnswer": 2,
+      "explanation": "Keynesians believe in fiscal stimulus."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "Were the deal ________ (fall) through, the company would be in trouble.",
+      "answer": "to fall",
+      "explanation": "Second conditional inversion (If the deal were to fall -> Were the deal to fall)."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "What is an 'Exit Strategy' in Private Equity?",
+      "options": [
+        "How a firm avoids paying taxes",
+        "How a firm sells its stake in a portfolio company (e.g., IPO or Trade Sale)",
+        "The fire exit in the office",
+        "Closing the fund prematurely"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Exits are how PE firms realize returns."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "Under no circumstances ________ (we/disclose) confidential client data.",
+      "answer": "will we disclose",
+      "explanation": "Inversion after a negative adverbial phrase."
+    },
+    {
+      "id": "ex31",
+      "type": "multiple-choice",
+      "question": "What is 'Arbitrage'?",
+      "options": [
+        "A legal dispute",
+        "Profiting from price differences in different markets",
+        "The process of liquidation",
+        "A type of long-term insurance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Arbitrage involves simultaneous buying and selling to profit from price gaps."
+    },
+    {
+      "id": "ex32",
+      "type": "fill-in-the-blank",
+      "question": "The data ________ (suggest) that the trend is reversing.",
+      "answer": "suggests",
+      "explanation": "Hedging verb."
+    },
+    {
+      "id": "ex33",
+      "type": "multiple-choice",
+      "question": "What does 'PMI' stand for?",
+      "options": [
+        "Price Market Index",
+        "Purchasing Managers' Index",
+        "Private Money Investment",
+        "Professional Market Integration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "PMI is a key indicator of economic health."
+    },
+    {
+      "id": "ex34",
+      "type": "fill-in-the-blank",
+      "question": "Investors ________ (tend) to favor stable dividend-paying stocks in this climate.",
+      "answer": "tend",
+      "explanation": "Hedging."
+    },
+    {
+      "id": "ex35",
+      "type": "multiple-choice",
+      "question": "Which of these is a 'Social' ESG factor?",
+      "options": ["Board diversity", "Labor standards", "Climate change", "Audit quality"],
+      "correctAnswer": 1,
+      "explanation": "Labor standards fall under the Social pillar."
+    },
+    {
+      "id": "ex36",
+      "type": "fill-in-the-blank",
+      "question": "The firm ________ (be) arguably the leader in fintech innovation.",
+      "answer": "is",
+      "explanation": "Hedging with 'arguably'."
+    },
+    {
+      "id": "ex37",
+      "type": "multiple-choice",
+      "question": "What is a 'LBO'?",
+      "options": [
+        "Low Budget Operation",
+        "Leveraged Buyout",
+        "Legal Board Overhaul",
+        "Liquidity Bond Option"
+      ],
+      "correctAnswer": 1,
+      "explanation": "LBO involves acquiring a company using mostly borrowed money."
+    },
+    {
+      "id": "ex38",
+      "type": "fill-in-the-blank",
+      "question": "Not only ________ (the company/fail) to report the loss, but it also misled investors.",
+      "answer": "did the company fail",
+      "explanation": "Inversion after 'Not only...'."
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "Which central bank policy involves buying bonds to inject liquidity?",
+      "options": ["QT", "QE (Quantitative Easing)", "Fiscal Stimulus", "Tax Hike"],
+      "correctAnswer": 1,
+      "explanation": "QE expands the central bank balance sheet to stimulate the economy."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "________ (give) the current geopolitical climate, oil prices will remain volatile.",
+      "answer": "Given",
+      "explanation": "'Given' meaning considering."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "What is 'Net Zero'?",
+      "options": [
+        "Zero debt",
+        "Balancing carbon emissions with removals",
+        "A company with no profit",
+        "Zero interest rates"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Net zero refers to greenhouse gas balance."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "The project ________ (abandon) due to a lack of funding.",
+      "answer": "was abandoned",
+      "explanation": "Passive voice for formal reporting."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "In a 'Short Squeeze', what happens?",
+      "options": [
+        "Prices fall rapidly",
+        "Short sellers are forced to buy shares to cover losses, driving prices higher",
+        "The company issues new shares",
+        "Dividends are cut"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A short squeeze causes a rapid price increase."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "It is essential that every employee ________ (adhere) to the compliance guidelines.",
+      "answer": "adhere",
+      "explanation": "Subjunctive."
+    },
+    {
+      "id": "ex45",
+      "type": "multiple-choice",
+      "question": "What is 'Due Diligence'?",
+      "options": [
+        "Paying interest on time",
+        "The comprehensive appraisal of a business by a prospective buyer",
+        "Firing an employee for poor performance",
+        "A type of government tax audit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Due diligence is the 'homework' done before a transaction."
+    },
+    {
+      "id": "ex46",
+      "type": "fill-in-the-blank",
+      "question": "The rise in interest rates ________ (precipitate) a cooling of the housing market.",
+      "answer": "precipitated",
+      "explanation": "'Precipitated' means caused something to happen suddenly."
+    },
+    {
+      "id": "ex47",
+      "type": "multiple-choice",
+      "question": "What is a 'Forward Contract'?",
+      "options": [
+        "A standardized contract traded on an exchange",
+        "A private, customizable agreement to buy/sell an asset at a future date",
+        "A contract to buy shares in the future at today's price",
+        "A type of insurance policy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Forwards are OTC (over-the-counter) and customizable."
+    },
+    {
+      "id": "ex48",
+      "type": "fill-in-the-blank",
+      "question": "Seldom ________ (we/witness) such an aggressive rate hike cycle.",
+      "answer": "have we witnessed",
+      "explanation": "Inversion after 'Seldom'."
+    },
+    {
+      "id": "ex49",
+      "type": "multiple-choice",
+      "question": "Which of these is a 'G' (Governance) factor?",
+      "options": ["Carbon footprint", "Executive compensation", "Human rights", "Diversity"],
+      "correctAnswer": 1,
+      "explanation": "Governance covers how the company is managed and paid."
+    },
+    {
+      "id": "ex50",
+      "type": "fill-in-the-blank",
+      "question": "The merger ________ (could) potentially create the world's largest bank.",
+      "answer": "could",
+      "explanation": "Nuanced modal for possibility."
+    }
+  ]
+}

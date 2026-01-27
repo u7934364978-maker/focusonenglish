@@ -1,0 +1,398 @@
+{
+  "title": "Ejercicios: Repaso del Tercer Trimestre",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "How do you say 'Depositar'?",
+      "options": ["To deposit", "To withdraw", "To transfer", "To save"],
+      "correctAnswer": 0,
+      "explanation": "To deposit is to put money in."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "I am ________ (pagar) the bill now.",
+      "answer": "paying",
+      "explanation": "Present continuous: am + verb-ing."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the actions:",
+      "pairs": [
+        { "term": "Withdraw", "definition": "Retirar" },
+        { "term": "Transfer", "definition": "Transferir" },
+        { "term": "Check balance", "definition": "Consultar saldo" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "Which preposition for months (e.g., June)?",
+      "options": ["At", "In", "On", "By"],
+      "correctAnswer": 1,
+      "explanation": "We use 'In' for months."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "I pay the rent ________ Monday.",
+      "answer": "on",
+      "explanation": "We use 'On' for days of the week."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "What is 'Overdue'?",
+      "options": ["Pagado", "Vencido", "Barato", "Nuevo"],
+      "correctAnswer": 1,
+      "explanation": "Overdue means the due date has passed."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "The meeting is ________ 10:00 AM.",
+      "answer": "at",
+      "explanation": "We use 'At' for specific times."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "Match the people:",
+      "pairs": [
+        { "term": "Bank teller", "definition": "Cajero/a" },
+        { "term": "Manager", "definition": "Gerente" },
+        { "term": "Customer", "definition": "Cliente" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "Where is the ATM?",
+      "options": ["In the kitchen", "In the bank", "In the bed", "In the shower"],
+      "correctAnswer": 1,
+      "explanation": "ATMs are usually at banks or streets."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "You ________ (deberías) use a strong password.",
+      "answer": "should",
+      "explanation": "Advice for security."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "What is 'Cash'?",
+      "options": ["Tarjeta", "Efectivo", "Cheque", "Factura"],
+      "correctAnswer": 1,
+      "explanation": "Cash = coins and notes."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "What is your ________? (meta)",
+      "answer": "goal",
+      "explanation": "A financial target."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "How much ________ this pen?",
+      "options": ["is", "are", "am", "be"],
+      "correctAnswer": 0,
+      "explanation": "Singular 'pen'."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "How much ________ those shoes?",
+      "answer": "are",
+      "explanation": "Plural 'shoes'."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Opposites:",
+      "pairs": [
+        { "term": "Deposit", "definition": "Withdraw" },
+        { "term": "Spend", "definition": "Save" },
+        { "term": "Buy", "definition": "Sell" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "Which is correct?",
+      "options": ["I is saving", "I am saving", "I are saving", "I saveing"],
+      "correctAnswer": 1,
+      "explanation": "I + am + verb-ing."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "Is there a ________? (descuento)",
+      "answer": "discount",
+      "explanation": "Lower price."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "What is 'Bill'?",
+      "options": ["Billete", "Factura", "Cartera", "Banco"],
+      "correctAnswer": 1,
+      "explanation": "A bill is a document asking for payment."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "It's ________ (gratis).",
+      "answer": "free",
+      "explanation": "Costs $0."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "What is 'Interest rate'?",
+      "options": ["Tasa de interés", "Saldo", "Cajero", "Factura"],
+      "correctAnswer": 0,
+      "explanation": "The percentage of interest."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "Don't ________ (perder) your card.",
+      "answer": "lose",
+      "explanation": "Verb after don't."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Match the places:",
+      "pairs": [
+        { "term": "Branch", "definition": "Sucursal" },
+        { "term": "Head office", "definition": "Sede central" },
+        { "term": "Checkout", "definition": "Caja (tienda)" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "Can I pay ________ credit card?",
+      "options": ["by", "in", "at", "on"],
+      "correctAnswer": 0,
+      "explanation": "We say 'pay BY card'."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "Can I pay ________ cash?",
+      "answer": "in",
+      "explanation": "We say 'pay IN cash'."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "What is 'Safe'?",
+      "options": ["Caro", "Seguro", "Barato", "Lento"],
+      "correctAnswer": 1,
+      "explanation": "Secure."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "I need to ________ (cambiar) money.",
+      "answer": "exchange",
+      "explanation": "For different currency."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "What is 'Currency'?",
+      "options": ["Moneda (divisa)", "Billete", "Banco", "Precio"],
+      "correctAnswer": 0,
+      "explanation": "Dollar, Euro, etc."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "Check the ________. (tipo de cambio)",
+      "answer": "exchange rate",
+      "explanation": "Price of one currency in another."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "Where do you type your PIN?",
+      "options": ["On the screen", "On the keypad", "On the door", "On the floor"],
+      "correctAnswer": 1,
+      "explanation": "Keypad = teclado numérico."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "Enter your ________ code.",
+      "answer": "access",
+      "explanation": "Common for apps."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Verbs Review:",
+      "pairs": [
+        { "term": "Sign", "definition": "Firmar" },
+        { "term": "Apply", "definition": "Solicitar" },
+        { "term": "Cancel", "definition": "Cancelar" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "What is 'Signature'?",
+      "options": ["Firma", "Nombre", "Fecha", "Dirección"],
+      "correctAnswer": 0,
+      "explanation": "Your written name."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "Please ________ (firmar) here.",
+      "answer": "sign",
+      "explanation": "Imperative."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "What is 'ID card'?",
+      "options": ["DNI / Cédula", "Tarjeta de crédito", "Libreta", "Recibo"],
+      "correctAnswer": 0,
+      "explanation": "Identification."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "I have my ________. (pasaporte)",
+      "answer": "passport",
+      "explanation": "Official ID."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "What is 'Loan'?",
+      "options": ["Préstamo", "Ahorro", "Gasto", "Regalo"],
+      "correctAnswer": 0,
+      "explanation": "Money the bank lends you."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "I am ________ (ahorrar) for a trip.",
+      "answer": "saving",
+      "explanation": "Present continuous."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Currency match:",
+      "pairs": [
+        { "term": "USA", "definition": "Dollar" },
+        { "term": "UK", "definition": "Pound" },
+        { "term": "Europe", "definition": "Euro" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "What is 'Balance'?",
+      "options": ["Saldo", "Factura", "Precio", "Banco"],
+      "correctAnswer": 0,
+      "explanation": "Amount available."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "The bank is ________ (cerrado).",
+      "answer": "closed",
+      "explanation": "Opposite of open."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "When is the bank open?",
+      "options": ["At night", "During the day", "Never", "On Sundays"],
+      "correctAnswer": 1,
+      "explanation": "Business hours."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "I go to the bank ________ the morning.",
+      "answer": "in",
+      "explanation": "In the morning/afternoon/evening."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is 'Utility bill'?",
+      "options": ["Factura de servicios", "Billete de avión", "Recibo de compra", "Multa"],
+      "correctAnswer": 0,
+      "explanation": "Water, light, gas."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "The water bill is ________. (barata)",
+      "answer": "cheap",
+      "explanation": "Low cost."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "More Verbs:",
+      "pairs": [
+        { "term": "Spend", "definition": "Gastar" },
+        { "term": "Earn", "definition": "Ganar (sueldo)" },
+        { "term": "Lose", "definition": "Perder" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "What should you do if you lose your card?",
+      "options": ["Wait", "Call the bank", "Buy a car", "Sleep"],
+      "correctAnswer": 1,
+      "explanation": "Safety first."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (perdí) my wallet.",
+      "answer": "lost",
+      "explanation": "Past tense of lose."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "What is 'Wallet'?",
+      "options": ["Cartera", "Bolso", "Banco", "Cajero"],
+      "correctAnswer": 0,
+      "explanation": "Where you keep cash and cards."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "Where is the ________? (cajero)",
+      "answer": "cashier",
+      "explanation": "Person at the window."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "Did you enjoy this level?",
+      "options": ["Yes", "No", "Maybe", "I don't know"],
+      "correctAnswer": 0,
+      "explanation": "Hopefully yes!"
+    }
+  ]
+}

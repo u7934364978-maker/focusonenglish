@@ -1,0 +1,398 @@
+{
+  "title": "Exercises: Introduction to Corporate Finance",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What is 'Equity' in corporate finance?",
+      "options": ["Total debt", "Ownership interest (shares)", "The CEO's office", "A type of insurance"],
+      "correctAnswer": 1,
+      "explanation": "Equity represents ownership in the company."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "The CEO ________ (announce) that profits had increased.",
+      "answer": "announced",
+      "explanation": "Reporting verb in the past."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the terms:",
+      "pairs": [
+        { "term": "Dividend", "definition": "Profit payout to shareholders" },
+        { "term": "IPO", "definition": "First public stock sale" },
+        { "term": "Bond", "definition": "Debt instrument/loan" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "What is a 'Shareholder'?",
+      "options": ["A person who works at the bank", "An owner of company stock", "A customer", "A government official"],
+      "correctAnswer": 1,
+      "explanation": "Shareholders own a piece of the corporation."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "The board ________ (confirm) the merger last night.",
+      "answer": "confirmed",
+      "explanation": "Reporting verb."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "What is 'Capital Budgeting'?",
+      "options": ["Personal spending plan", "Deciding on long-term investments", "Calculating taxes", "Buying coffee"],
+      "correctAnswer": 1,
+      "explanation": "Evaluating fixed asset purchases."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "Analysts ________ (predict) a market crash next year.",
+      "answer": "predict",
+      "explanation": "Reporting/Forecasting verb."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "Funding types:",
+      "pairs": [
+        { "term": "Debt", "definition": "Borrowed money" },
+        { "term": "Equity", "definition": "Invested money" },
+        { "term": "Revenue", "definition": "Earned money" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "What is a 'Merger'?",
+      "options": ["When two companies combine into one", "When a company goes bankrupt", "When a company fires staff", "A type of bank account"],
+      "correctAnswer": 0,
+      "explanation": "Fusión de empresas."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "The report ________ (state) that debt is too high.",
+      "answer": "states",
+      "explanation": "Reporting verb present."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "What is 'Leverage' in finance?",
+      "options": ["Physical strength", "Using debt to increase investment returns", "A type of bank loan", "Market research"],
+      "correctAnswer": 1,
+      "explanation": "Apalancamiento."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "The CFO ________ (suggest) reducing costs immediately.",
+      "answer": "suggested",
+      "explanation": "Reporting verb past."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "What is an 'Asset'?",
+      "options": ["A debt", "Something of value owned by a company", "A tax", "A bill"],
+      "correctAnswer": 1,
+      "explanation": "Resources like cash, property, or equipment."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "They ________ (claim) that the numbers are correct.",
+      "answer": "claim",
+      "explanation": "Reporting verb."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Corporation terms:",
+      "pairs": [
+        { "term": "Board of Directors", "definition": "Senior management group" },
+        { "term": "CEO", "definition": "Chief Executive Officer" },
+        { "term": "Subsidiary", "definition": "Company owned by another" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "What is 'Liquidity'?",
+      "options": ["Water in the office", "Ease of converting assets into cash", "Total debt", "Market price"],
+      "correctAnswer": 1,
+      "explanation": "Availability of cash."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "The media ________ (report) the scandal this morning.",
+      "answer": "reported",
+      "explanation": "Reporting verb."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "What is an 'IPO'?",
+      "options": ["Initial Public Offering", "International Payment Order", "Internal Profit Office", "Integrated Price Option"],
+      "correctAnswer": 0,
+      "explanation": "Going public."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "Experts ________ (warn) against high leverage.",
+      "answer": "warn",
+      "explanation": "Reporting/Warning verb."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "What is 'Market Capitalization'?",
+      "options": ["Total debt", "Total value of a company's shares", "The company's bank balance", "Tax amount"],
+      "correctAnswer": 1,
+      "explanation": "Price per share x number of shares."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "The auditor ________ (verify) the accounts yesterday.",
+      "answer": "verified",
+      "explanation": "Action/Reporting verb."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Financial news verbs:",
+      "pairs": [
+        { "term": "Plummet", "definition": "Drop quickly" },
+        { "term": "Soar", "definition": "Rise quickly" },
+        { "term": "Fluctuate", "definition": "Go up and down" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "What is 'ROI'?",
+      "options": ["Return on Investment", "Rate of Interest", "Risk of Inflation", "Regular Office Income"],
+      "correctAnswer": 0,
+      "explanation": "Profitability measure."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "The company ________ (disclose) its profits today.",
+      "answer": "disclosed",
+      "explanation": "Formal reporting verb (make public)."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "What is 'Acquisition'?",
+      "options": ["When a company buys another", "When a company closes", "When a company starts", "A type of tax"],
+      "correctAnswer": 0,
+      "explanation": "Compra de una empresa."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "Investors ________ (demand) higher transparency.",
+      "answer": "demand",
+      "explanation": "Action verb."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "What is 'Debt-to-Equity Ratio'?",
+      "options": ["Measure of financial leverage", "The price of bread", "Tax rate", "CEO's salary"],
+      "correctAnswer": 0,
+      "explanation": "Compares what is owed to what is owned."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "They ________ (propose) a new strategy.",
+      "answer": "proposed",
+      "explanation": "Reporting/Action verb."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "What is a 'Stakeholder'?",
+      "options": ["A person with an interest in the company", "Only shareholders", "Only employees", "A competitor"],
+      "correctAnswer": 0,
+      "explanation": "Includes employees, customers, shareholders, etc."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "The chairman ________ (preside) over the meeting.",
+      "answer": "presided",
+      "explanation": "Leadership verb."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Corporate entities:",
+      "pairs": [
+        { "term": "Parent company", "definition": "Holding/Owner" },
+        { "term": "SME", "definition": "Small/Medium Enterprise" },
+        { "term": "MNC", "definition": "Multinational Corporation" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "What is 'Working Capital'?",
+      "options": ["Current assets minus current liabilities", "Total fixed assets", "The money used to start a business", "The city where the bank is"],
+      "correctAnswer": 0,
+      "explanation": "Short-term financial health measure."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "Analysts ________ (estimate) a 5% growth.",
+      "answer": "estimate",
+      "explanation": "Predicting verb."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "What is 'Solvency'?",
+      "options": ["Ability to pay long-term debts", "The price of shares", "A type of tax", "Market popularity"],
+      "correctAnswer": 0,
+      "explanation": "Long-term financial stability."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "The news ________ (indicate) a shift in policy.",
+      "answer": "indicates",
+      "explanation": "Reporting verb."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "What is 'Bottom Line'?",
+      "options": ["The first line of a report", "Net profit/Net income", "Total revenue", "The company's address"],
+      "correctAnswer": 1,
+      "explanation": "The final result after all expenses."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "Managers ________ (evaluate) the risk yesterday.",
+      "answer": "evaluated",
+      "explanation": "Action verb."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Market terms:",
+      "pairs": [
+        { "term": "Bear market", "definition": "Falling prices" },
+        { "term": "Bull market", "definition": "Rising prices" },
+        { "term": "Rally", "definition": "Sudden recovery" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "What is 'Risk Management'?",
+      "options": ["Ignoring problems", "Identifying and controlling risks", "A type of insurance", "A bank branch"],
+      "correctAnswer": 1,
+      "explanation": "Identifying, assessing, and controlling threats."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "The board ________ (resolve) to pay dividends.",
+      "answer": "resolved",
+      "explanation": "Formal decision verb."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "What is 'Due Diligence'?",
+      "options": ["Paying on time", "Investigating a business before buying it", "A type of tax", "A bank holiday"],
+      "correctAnswer": 1,
+      "explanation": "Comprehensive appraisal of a business."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "He ________ (deny) the allegations of fraud.",
+      "answer": "denied",
+      "explanation": "Reporting verb (negative)."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is 'Valuation'?",
+      "options": ["Determining how much a company is worth", "Buying shares", "Paying taxes", "Selling products"],
+      "correctAnswer": 0,
+      "explanation": "The process of determining the present value of an asset or company."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "The company ________ (grow) significantly last year.",
+      "answer": "grew",
+      "explanation": "Past tense growth."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Match the people:",
+      "pairs": [
+        { "term": "Shareholder", "definition": "Equity owner" },
+        { "term": "Creditor", "definition": "Debt holder" },
+        { "term": "Auditor", "definition": "Independent reviewer" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "What is 'Cash Flow'?",
+      "options": ["Money in a river", "The movement of money in and out of a business", "Total debt", "Stock price"],
+      "correctAnswer": 1,
+      "explanation": "Vital for daily operations."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "They ________ (comment) on the new regulation.",
+      "answer": "commented",
+      "explanation": "Reporting verb."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "What is 'Corporate Governance'?",
+      "options": ["The way a company is directed and controlled", "The government's company", "A type of tax", "A bank branch"],
+      "correctAnswer": 0,
+      "explanation": "Rules, practices, and processes."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "The stock ________ (plummet) after the news.",
+      "answer": "plummeted",
+      "explanation": "Verb for sharp fall."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "Corporate finance is primarily about...",
+      "options": ["Maximizing shareholder value", "Buying expensive cars", "Ignoring taxes", "Personal savings"],
+      "correctAnswer": 0,
+      "explanation": "The core goal of management."
+    }
+  ]
+}

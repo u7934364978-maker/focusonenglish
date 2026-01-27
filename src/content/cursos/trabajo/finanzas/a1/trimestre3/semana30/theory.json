@@ -1,0 +1,29 @@
+{
+  "title": "De Compras: Precios y Pagos",
+  "sections": [
+    {
+      "id": "vocab-shopping",
+      "title": "Vocabulario: En la Tienda",
+      "content": "Palabras útiles para comprar cosas.\n\n- **Price**: Precio.\n- **Cost**: Coste / Costar.\n- **Discount**: Descuento.\n- **Sale**: Rebajas.\n- **Expensive**: Caro.\n- **Cheap**: Barato.\n- **Free**: Gratis.\n- **Total**: Total."
+    },
+    {
+      "id": "grammar-this-that",
+      "title": "Gramática: Demostrativos (This, That, These, Those)",
+      "content": "Usamos estas palabras para señalar lo que queremos comprar.\n\n- **This** book: Este libro (aquí cerca, singular).\n- **That** shirt: Esa camisa (allí lejos, singular).\n- **These** shoes: Estos zapatos (aquí cerca, plural).\n- **Those** pants: Esos pantalones (allí lejos, plural).\n\n**Resumen:**\n- Cerca: **This** (sing.) / **These** (plu.).\n- Lejos: **That** (sing.) / **Those** (plu.)."
+    },
+    {
+      "id": "shopping-questions",
+      "title": "Preguntas de Compra",
+      "content": "- *How much is this?* (¿Cuánto cuesta esto?).\n- *How much are these?* (¿Cuánto cuestan estos?).\n- *Is there a discount?* (¿Hay un descuento?).\n- *It is too expensive.* (Es demasiado caro)."
+    }
+  ],
+  "objectives": [
+    "Aprender vocabulario básico de compras",
+    "Usar demostrativos correctamente para señalar objetos",
+    "Preguntar precios en plural y singular"
+  ],
+  "keyTerms": [
+    { "term": "Expensive", "definition": "Costing a lot of money." },
+    { "term": "Cheap", "definition": "Costing little money or less than is usual or expected." }
+  ]
+}

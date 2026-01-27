@@ -1,0 +1,34 @@
+{
+  "title": "Introduction to Corporate Finance",
+  "sections": [
+    {
+      "id": "corporate-intro",
+      "title": "What is Corporate Finance?",
+      "content": "Corporate finance deals with how corporations manage their funding, capital structure, and investment decisions.\n\n- **Capital Budgeting**: The process a business uses to determine which proposed fixed asset purchases it should accept.\n- **Equity**: Ownership interest in a corporation in the form of common or preferred stock.\n- **Debt**: Money borrowed by one party from another, often through loans or bonds.\n- **Dividends**: A sum of money paid regularly by a company to its shareholders out of its profits.\n- **Shareholder**: Any person, company, or institution that owns at least one share of a company's stock."
+    },
+    {
+      "id": "capital-structure",
+      "title": "Funding the Corporation",
+      "content": "Companies must balance debt and equity to minimize costs and maximize value:\n\n- **IPO (Initial Public Offering)**: The first time a company sells its stock to the public.\n- **Bonds**: A fixed income instrument that represents a loan made by an investor to a borrower.\n- **Liability**: A company's financial debt or obligations that arise during its business operations.\n- **Asset**: A resource with economic value that an individual, corporation, or country owns."
+    },
+    {
+      "id": "grammar-reporting-verbs",
+      "title": "Grammar Focus: Reporting Verbs in Finance",
+      "content": "We use specific verbs to report financial news and decisions.\n\n- The CEO **announced** that profits had increased. (El CEO anunció que los beneficios habían aumentado).\n- Analysts **suggest** that the company should reduce its debt. (Los analistas sugieren que la empresa debería reducir su deuda).\n- The board **confirmed** the dividend payout. (La junta confirmó el pago de dividendos).\n\n**Common verbs**: Announce, Suggest, Confirm, Report, Predict, Claim."
+    },
+    {
+      "id": "vocabulary_summary",
+      "title": "Vocabulary Summary",
+      "content": "| English | Spanish |\n| :--- | :--- |\n| **Stakeholder** | Parte interesada |\n| **Market Capitalization** | Capitalización de mercado |\n| **Leverage** | Apalancamiento (uso de deuda) |\n| **Merger** | Fusión |\n| **Acquisition** | Adquisición |\n| **Liquidity** | Liquidez |\n| **Return on Investment (ROI)** | Retorno de la inversión |"
+    }
+  ],
+  "objectives": [
+    "Define the core concepts of corporate finance",
+    "Understand the difference between equity and debt funding",
+    "Use reporting verbs to describe financial news and corporate decisions"
+  ],
+  "keyTerms": [
+    { "term": "IPO", "definition": "Initial Public Offering." },
+    { "term": "Equity", "definition": "The value of the shares issued by a company." }
+  ]
+}

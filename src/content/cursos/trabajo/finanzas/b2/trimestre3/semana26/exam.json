@@ -1,0 +1,50 @@
+{
+  "goal": "finanzas",
+  "level": "B2",
+  "trimester": 3,
+  "weekId": "semana26",
+  "examId": "fin-b2-w26-exam",
+  "title": "Exam: Financial Crimes & Compliance",
+  "items": [
+    {
+      "id": "fin-b2-w26-exam-1",
+      "type": "multipleChoice",
+      "prompt": "The suspicious activity ________ (must/report) within 24 hours.",
+      "options": ["must be reported", "must report", "must have reported", "is reported"],
+      "answerIndex": 0,
+      "explanation": "Modal passive: must + be + past participle."
+    },
+    {
+      "id": "fin-b2-w26-exam-2",
+      "type": "multipleChoice",
+      "prompt": "What does 'AML' stand for?",
+      "options": ["Account Management Level", "Anti-Money Laundering", "Asset Monitoring Logic", "Alternative Market Liaison"],
+      "answerIndex": 1,
+      "explanation": "AML refers to laws and regulations to prevent illegal income generation."
+    },
+    {
+      "id": "fin-b2-w26-exam-3",
+      "type": "multipleChoice",
+      "prompt": "The hacker ________ (might/gain) access through a phishing email.",
+      "options": ["might gain", "might have gained", "might be gained", "might had gained"],
+      "answerIndex": 1,
+      "explanation": "Modal of deduction for the past: might + have + past participle."
+    },
+    {
+      "id": "fin-b2-w26-exam-4",
+      "type": "multipleChoice",
+      "prompt": "What is 'KYC' (Know Your Customer)?",
+      "options": ["A marketing strategy", "A mandatory process to verify the identity of clients", "A type of bank account", "A social media platform for bankers"],
+      "answerIndex": 1,
+      "explanation": "KYC is a core part of compliance to prevent fraud and money laundering."
+    },
+    {
+      "id": "fin-b2-w26-exam-5",
+      "type": "multipleChoice",
+      "prompt": "Failure to comply ________ (can/lead) to heavy fines.",
+      "options": ["can be led", "can lead", "can led", "can leading"],
+      "answerIndex": 1,
+      "explanation": "Modal of possibility."
+    }
+  ]
+}

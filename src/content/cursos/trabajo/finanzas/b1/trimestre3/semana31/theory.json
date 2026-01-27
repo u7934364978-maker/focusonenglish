@@ -1,0 +1,34 @@
+{
+  "title": "Financial Reports: Balance Sheets",
+  "sections": [
+    {
+      "id": "reports-intro",
+      "title": "The Purpose of Financial Statements",
+      "content": "Financial reports provide a snapshot of a company's financial health to investors and regulators.\n\n- **Balance Sheet**: A statement of the assets, liabilities, and capital of a business at a particular point in time.\n- **Income Statement (P&L)**: Shows the company's revenues and expenses during a particular period.\n- **Cash Flow Statement**: Provides data regarding all cash inflows a company receives from its ongoing operations and external investment sources."
+    },
+    {
+      "id": "balance-sheet-details",
+      "title": "Breaking Down the Balance Sheet",
+      "content": "The fundamental equation: **Assets = Liabilities + Shareholders' Equity**.\n\n- **Current Assets**: Assets that are expected to be converted into cash within one year (e.g., cash, inventory).\n- **Fixed Assets**: Long-term resources like land, buildings, and machinery.\n- **Current Liabilities**: Debts or obligations due within one year.\n- **Long-term Liabilities**: Debts due after one year (e.g., mortgages, long-term loans).\n- **Net Worth**: The value of all the non-financial and financial assets owned minus the value of all its outstanding liabilities."
+    },
+    {
+      "id": "grammar-passive-reporting",
+      "title": "Grammar Focus: Passive Voice for Formal Reports",
+      "content": "The passive voice is common in financial reporting to maintain objectivity.\n\n- The report **was prepared** by external auditors. (El informe fue preparado por auditores externos).\n- New assets **are being acquired** this quarter. (Se están adquiriendo nuevos activos este trimestre).\n- The company's liabilities **were reduced** significantly. (Las deudas de la empresa se redujeron significativamente).\n\n**Structure**: Be + Past Participle."
+    },
+    {
+      "id": "vocabulary_summary",
+      "title": "Vocabulary Summary",
+      "content": "| English | Spanish |\n| :--- | :--- |\n| **Accounts Receivable** | Cuentas a cobrar |\n| **Accounts Payable** | Cuentas a pagar |\n| **Inventory / Stock** | Inventario / Existencias |\n| **Depreciation** | Depreciación |\n| **Audit** | Auditoría |\n| **Fiscal Year** | Año fiscal |\n| **Solvency** | Solvencia |"
+    }
+  ],
+  "objectives": [
+    "Identify the main components of a balance sheet",
+    "Understand the basic accounting equation",
+    "Apply formal passive voice in financial reporting contexts"
+  ],
+  "keyTerms": [
+    { "term": "Asset", "definition": "A resource with economic value that a corporation owns or controls." },
+    { "term": "Liability", "definition": "Something a person or company owes, usually a sum of money." }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "title": "Ejercicios: Ahorro e Intereses Básicos",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What is a 'Savings account'?",
+      "options": ["Cuenta corriente", "Cuenta de ahorros", "Tarjeta de crédito", "Préstamo"],
+      "correctAnswer": 1,
+      "explanation": "A savings account is where you keep money to save."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "You ________ (deberías) save money.",
+      "answer": "should",
+      "explanation": "We use 'should' for advice."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the terms:",
+      "pairs": [
+        { "term": "Interest", "definition": "Interés" },
+        { "term": "Balance", "definition": "Saldo" },
+        { "term": "Goal", "definition": "Meta" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "Which word is for 'Hucha'?",
+      "options": ["Bank car", "Piggy bank", "Money box", "Wallet"],
+      "correctAnswer": 1,
+      "explanation": "A 'piggy bank' is a traditional container for savings."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "What is the interest ________? (tasa)",
+      "answer": "rate",
+      "explanation": "Interest rate is the percentage."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "You ________ spend all your money.",
+      "options": ["should", "shouldn't", "are", "do"],
+      "correctAnswer": 1,
+      "explanation": "Advice against spending everything."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "I have a ________ (saldo) of $100.",
+      "answer": "balance",
+      "explanation": "The total amount in the account."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "Match the verbs:",
+      "pairs": [
+        { "term": "To save", "definition": "Ahorrar" },
+        { "term": "To spend", "definition": "Gastar" },
+        { "term": "To earn", "definition": "Ganar" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "Where do you put savings?",
+      "options": ["In a shop", "In a savings account", "On the street", "In a restaurant"],
+      "correctAnswer": 1,
+      "explanation": "Savings accounts are for saving money."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "He ________ (ahorra) every month.",
+      "answer": "saves",
+      "explanation": "Third person singular 'saves'."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "What is 'Interest'?",
+      "options": ["Extra money from the bank", "A type of tax", "A bill to pay", "A lost card"],
+      "correctAnswer": 0,
+      "explanation": "Interest is money earned on savings."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "You should set a ________. (meta)",
+      "answer": "goal",
+      "explanation": "A goal helps you save."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "Is 5% interest better than 1%?",
+      "options": ["Yes, it's higher", "No, it's lower", "It's the same", "I don't know"],
+      "correctAnswer": 0,
+      "explanation": "Higher interest means more money earned."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (no debería) buy this.",
+      "answer": "shouldn't",
+      "explanation": "Negative advice."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Financial advice:",
+      "pairs": [
+        { "term": "Save money", "definition": "Good habit" },
+        { "term": "Waste money", "definition": "Bad habit" },
+        { "term": "Plan", "definition": "Necessary" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "What do you do with a piggy bank?",
+      "options": ["Drive it", "Eat it", "Put coins in it", "Read it"],
+      "correctAnswer": 2,
+      "explanation": "Piggy banks are for coins."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "My ________ (objetivo) is to buy a house.",
+      "answer": "goal",
+      "explanation": "'Goal' and 'objective' are similar."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "Which verb means 'Gastar'?",
+      "options": ["Save", "Spend", "Lend", "Borrow"],
+      "correctAnswer": 1,
+      "explanation": "Spend = gastar."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (deberíamos) talk to the manager.",
+      "answer": "should",
+      "explanation": "Modal verb for advice."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "What is 'Account balance'?",
+      "options": ["The name of the bank", "The money you have", "The color of the card", "The bank's address"],
+      "correctAnswer": 1,
+      "explanation": "Balance = current amount."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "Don't ________ (gastar) too much.",
+      "answer": "spend",
+      "explanation": "Infinitive after 'don't'."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Interest rates:",
+      "pairs": [
+        { "term": "High", "definition": "Alta" },
+        { "term": "Low", "definition": "Baja" },
+        { "term": "Fixed", "definition": "Fija" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "Which is a 'Savings goal'?",
+      "options": ["Buying a car", "Paying a fine", "Losing a card", "Sleeping"],
+      "correctAnswer": 0,
+      "explanation": "Buying something big is a goal."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "Should I ________ (abrir) a new account?",
+      "answer": "open",
+      "explanation": "Verb base after 'should'."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "What is 'Monthly'?",
+      "options": ["Cada semana", "Cada mes", "Cada año", "Nunca"],
+      "correctAnswer": 1,
+      "explanation": "Month -> Monthly."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "The bank pays ________. (interés)",
+      "answer": "interest",
+      "explanation": "Money paid to savers."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "You ________ be careful with your password.",
+      "options": ["should", "shouldn't", "am", "are"],
+      "correctAnswer": 0,
+      "explanation": "Strong advice for security."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (ahorrar) $50 a week.",
+      "answer": "save",
+      "explanation": "Present simple."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "What is 'Safe'?",
+      "options": ["Peligroso", "Seguro", "Caro", "Rápido"],
+      "correctAnswer": 1,
+      "explanation": "Safe = secure."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "Is the account ________? (segura)",
+      "answer": "safe",
+      "explanation": "Asking about security."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Match the objects:",
+      "pairs": [
+        { "term": "Coin", "definition": "Moneda" },
+        { "term": "Note/Bill", "definition": "Billete" },
+        { "term": "Card", "definition": "Tarjeta" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "Should children save money?",
+      "options": ["Yes, they should", "No, they shouldn't", "Maybe", "Never"],
+      "correctAnswer": 0,
+      "explanation": "It's a good habit to learn early."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "I want to check my ________. (saldo)",
+      "answer": "balance",
+      "explanation": "To see how much money is there."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "What is 'Emergency fund'?",
+      "options": ["Dinero para fiestas", "Dinero para emergencias", "Dinero para comida", "Dinero perdido"],
+      "correctAnswer": 1,
+      "explanation": "Savings for unexpected problems."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "You ________ (no deberías) waste water.",
+      "answer": "shouldn't",
+      "explanation": "General advice."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "Which is better for saving?",
+      "options": ["Low interest", "High interest", "No interest", "Paying fees"],
+      "correctAnswer": 1,
+      "explanation": "High interest helps savings grow."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "Can I ________ (ahorrar) here?",
+      "answer": "save",
+      "explanation": "Verb base."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Time periods:",
+      "pairs": [
+        { "term": "Daily", "definition": "Diario" },
+        { "term": "Weekly", "definition": "Semanal" },
+        { "term": "Yearly", "definition": "Anual" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "What is 'Withdrawal'?",
+      "options": ["Depósito", "Retirada", "Transferencia", "Consulta"],
+      "correctAnswer": 1,
+      "explanation": "Opposite of deposit."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "My bank ________ (ofrece) good rates.",
+      "answer": "offers",
+      "explanation": "Third person singular."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "Should I save for retirement?",
+      "options": ["Yes, you should", "No, it's too late", "Only if you are old", "Never"],
+      "correctAnswer": 0,
+      "explanation": "Important long-term goal."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (interés) is low.",
+      "answer": "interest",
+      "explanation": "Noun form."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is 'Growth'?",
+      "options": ["Crecimiento", "Pérdida", "Igual", "Rápido"],
+      "correctAnswer": 0,
+      "explanation": "When money increases."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "He ________ (debería) save more.",
+      "answer": "should",
+      "explanation": "Advice for 'he'."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Match:",
+      "pairs": [
+        { "term": "Profit", "definition": "Beneficio" },
+        { "term": "Loss", "definition": "Pérdida" },
+        { "term": "Tax", "definition": "Impuesto" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "If you save $10 every week, in 10 weeks you have...",
+      "options": ["$10", "$50", "$100", "$1000"],
+      "correctAnswer": 2,
+      "explanation": "10 x 10 = 100."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (necesito) to save.",
+      "answer": "need",
+      "explanation": "Expressing necessity."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "What is 'Statement'?",
+      "options": ["Extracto bancario", "Tarjeta", "Cajero", "Dinero"],
+      "correctAnswer": 0,
+      "explanation": "A document showing transactions."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "Check the ________ (tasa).",
+      "answer": "rate",
+      "explanation": "Refers to interest rate."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "Saving is...",
+      "options": ["Easy", "Difficult", "Important", "All of the above"],
+      "correctAnswer": 3,
+      "explanation": "It can be all these things."
+    }
+  ]
+}

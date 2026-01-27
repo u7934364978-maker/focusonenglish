@@ -1,0 +1,29 @@
+{
+  "title": "Repaso del Tercer Trimestre",
+  "sections": [
+    {
+      "id": "review-vocab",
+      "title": "Repaso de Vocabulario",
+      "content": "Recordemos los temas principales de las últimas semanas:\n\n1. **Operaciones**: Deposit, withdraw, transfer.\n2. **Banca Online**: Password, login, app.\n3. **Pagos**: Bills, rent, utilities.\n4. **Ahorro**: Interest, savings account, balance."
+    },
+    {
+      "id": "review-grammar",
+      "title": "Resumen de Gramática",
+      "content": "- **Present Continuous**: Para acciones ahora o planes futuros (I am paying now).\n- **Preposiciones (In, On, At)**: Para fechas y horas.\n- **Should**: Para consejos (You should save)."
+    },
+    {
+      "id": "review-final",
+      "title": "Consolidación",
+      "content": "En este nivel A1, ya puedes manejar situaciones básicas en un banco: abrir una cuenta, hacer depósitos, pagar facturas y entender consejos simples sobre dinero."
+    }
+  ],
+  "objectives": [
+    "Repasar el vocabulario del trimestre",
+    "Consolidar el uso de las estructuras gramaticales",
+    "Prepararse para el siguiente nivel"
+  ],
+  "keyTerms": [
+    { "term": "Review", "definition": "Looking again at what you have learned." },
+    { "term": "Consolidation", "definition": "Making your knowledge stronger." }
+  ]
+}

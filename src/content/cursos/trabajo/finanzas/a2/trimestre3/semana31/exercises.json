@@ -1,0 +1,398 @@
+{
+  "title": "Ejercicios: Impuestos y Salarios Básicos",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What is 'Gross salary'?",
+      "options": ["The money you receive in your hand", "The total amount before taxes", "The taxes only", "A type of bonus"],
+      "correctAnswer": 1,
+      "explanation": "Gross is the total before deductions."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "Taxes ________ (pay) every month.",
+      "answer": "are paid",
+      "explanation": "Passive voice: are + past participle."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the terms:",
+      "pairs": [
+        { "term": "Net salary", "definition": "Salario neto" },
+        { "term": "Income tax", "definition": "Impuesto sobre la renta" },
+        { "term": "Payslip", "definition": "Nómina" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "What is 'VAT'?",
+      "options": ["Very Awesome Tax", "Value Added Tax", "Volume Account Total", "Virtual Access Tax"],
+      "correctAnswer": 1,
+      "explanation": "VAT (IVA) is paid on goods and services."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "The salary ________ (calculate) by the HR department.",
+      "answer": "is calculated",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "What is a 'Tax return'?",
+      "options": ["Getting your taxes back", "A document to report income and taxes", "A tax on cars", "A bank holiday"],
+      "correctAnswer": 1,
+      "explanation": "Declaración de la renta."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "VAT ________ (include) in the price.",
+      "answer": "is included",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "Salary types:",
+      "pairs": [
+        { "term": "Monthly", "definition": "Mensual" },
+        { "term": "Yearly", "definition": "Anual" },
+        { "term": "Hourly", "definition": "Por hora" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "What is 'Net salary'?",
+      "options": ["Gross minus taxes", "Total amount", "The boss's salary", "A type of tax"],
+      "correctAnswer": 0,
+      "explanation": "Net is what you actually receive."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "Reports ________ (send) to the manager.",
+      "answer": "are sent",
+      "explanation": "Passive voice plural."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "What is a 'Deduction'?",
+      "options": ["Extra money", "Money taken from the salary (taxes, etc.)", "A type of bank", "A new car"],
+      "correctAnswer": 1,
+      "explanation": "Deductions reduce your gross salary."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "The money ________ (transfer) on Friday.",
+      "answer": "is transferred",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "What is 'Income'?",
+      "options": ["Money going out", "Money coming in (earnings)", "A type of tax", "A bank branch"],
+      "correctAnswer": 1,
+      "explanation": "Income = ingresos."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "Employees ________ (pay) once a month.",
+      "answer": "are paid",
+      "explanation": "Passive voice plural."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Government terms:",
+      "pairs": [
+        { "term": "Taxpayer", "definition": "Contribuyente" },
+        { "term": "Treasury", "definition": "Tesorería" },
+        { "term": "Regulation", "definition": "Regulación" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "What is a 'Bonus'?",
+      "options": ["A tax", "Extra money for good work", "A bill", "A debt"],
+      "correctAnswer": 1,
+      "explanation": "Extra payment."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "The form ________ (sign) by the client.",
+      "answer": "is signed",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "What is 'Welfare'?",
+      "options": ["A type of bank", "Government support (health, money)", "A tax on luxury", "A salary"],
+      "correctAnswer": 1,
+      "explanation": "Social security/support."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "Information ________ (store) in the cloud.",
+      "answer": "is stored",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "Which is a 'Direct tax'?",
+      "options": ["VAT", "Income tax", "A parking ticket", "A gift"],
+      "correctAnswer": 1,
+      "explanation": "Directly on your income."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "Mistakes ________ (not/tolerate) in accounting.",
+      "answer": "are not tolerated",
+      "explanation": "Negative passive voice."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Finance verbs:",
+      "pairs": [
+        { "term": "To file", "definition": "Presentar (papeles)" },
+        { "term": "To deduct", "definition": "Deducir/Descontar" },
+        { "term": "To earn", "definition": "Ganar" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "What is 'Minimum wage'?",
+      "options": ["The highest salary", "The lowest legal salary", "A type of tax", "A bonus"],
+      "correctAnswer": 1,
+      "explanation": "The floor for salaries."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "The tax rate ________ (fix) at 20%.",
+      "answer": "is fixed",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "What is 'Social Security'?",
+      "options": ["A private guard", "Government system for health and pension", "A bank password", "A type of app"],
+      "correctAnswer": 1,
+      "explanation": "Public welfare system."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "New laws ________ (create) every year.",
+      "answer": "are created",
+      "explanation": "Passive voice plural."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "If you earn more, you ________ pay more tax.",
+      "options": ["will", "are", "do", "am"],
+      "correctAnswer": 0,
+      "explanation": "Future consequence."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "The payslip ________ (print) today.",
+      "answer": "is printed",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "What is 'Tax avoidance'?",
+      "options": ["Paying more tax", "Using legal ways to pay less tax", "Illegal tax evasion", "A bank loan"],
+      "correctAnswer": 1,
+      "explanation": "Legal methods."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "Accounts ________ (audit) regularly.",
+      "answer": "are audited",
+      "explanation": "Passive voice plural."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Money words:",
+      "pairs": [
+        { "term": "Savings", "definition": "Ahorros" },
+        { "term": "Earnings", "definition": "Ganancias" },
+        { "term": "Expenditure", "definition": "Gasto" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "What is 'Self-employed'?",
+      "options": ["Working for a big company", "Working for yourself (autónomo)", "Unemployed", "A boss"],
+      "correctAnswer": 1,
+      "explanation": "You are your own employer."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "Questions ________ (answer) by the expert.",
+      "answer": "are answered",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "What is 'Overtime'?",
+      "options": ["Extra hours of work", "Arriving late", "A holiday", "Lunch time"],
+      "correctAnswer": 0,
+      "explanation": "Working more than your contracted hours."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "The VAT ________ (not/include).",
+      "answer": "is not included",
+      "explanation": "Negative passive."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "What is 'Pension'?",
+      "options": ["A small hotel", "Money paid to retired people", "A type of tax", "A salary for students"],
+      "correctAnswer": 1,
+      "explanation": "Retirement income."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "Documents ________ (keep) in the office.",
+      "answer": "are kept",
+      "explanation": "Passive voice plural."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Professional roles:",
+      "pairs": [
+        { "term": "Accountant", "definition": "Contador/Contable" },
+        { "term": "Employer", "definition": "Empleador/Jefe" },
+        { "term": "Employee", "definition": "Empleado" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "What is 'Tax evasion'?",
+      "options": ["Legal tax saving", "Illegal act of not paying taxes", "A type of insurance", "A bonus"],
+      "correctAnswer": 1,
+      "explanation": "Breaking the law to avoid taxes."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "VAT ________ (add) to the total.",
+      "answer": "is added",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "Is VAT the same in all countries?",
+      "options": ["Yes", "No", "Only in Europe", "I don't know"],
+      "correctAnswer": 1,
+      "explanation": "Each country sets its own rates."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "The budget ________ (approve) yesterday.",
+      "answer": "was approved",
+      "explanation": "Past passive voice."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is 'Allowance'?",
+      "options": ["An amount of money you can earn tax-free", "A fine", "A bank loan", "A tax"],
+      "correctAnswer": 0,
+      "explanation": "The tax-free threshold."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "Taxes ________ (collect) by the government.",
+      "answer": "are collected",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Tax terms:",
+      "pairs": [
+        { "term": "Threshold", "definition": "Umbral/Límite" },
+        { "term": "Refund", "definition": "Reembolso" },
+        { "term": "Liability", "definition": "Obligación/Deuda" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "What is 'Corporate tax'?",
+      "options": ["Tax on persons", "Tax on companies", "Tax on cars", "Tax on food"],
+      "correctAnswer": 1,
+      "explanation": "Tax for businesses."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "Salary ________ (increase) every year.",
+      "answer": "is increased",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "What is 'Financial year'?",
+      "options": ["The calendar year", "A 12-month period for tax purposes", "A leap year", "A year with no taxes"],
+      "correctAnswer": 1,
+      "explanation": "Can be different from the calendar year."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "The report ________ (finish) now.",
+      "answer": "is being finished",
+      "explanation": "Passive continuous (advanced but used)."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "Understanding taxes is...",
+      "options": ["Fun", "Difficult but necessary", "Impossible", "Optional"],
+      "correctAnswer": 1,
+      "explanation": "It's important for everyone's finances."
+    }
+  ]
+}

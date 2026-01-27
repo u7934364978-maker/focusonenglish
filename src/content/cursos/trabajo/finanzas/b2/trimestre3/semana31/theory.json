@@ -1,0 +1,29 @@
+{
+  "title": "Global Economy and Markets",
+  "sections": [
+    {
+      "id": "macro-indicators",
+      "title": "Macroeconomic Indicators & Market Trends",
+      "content": "Global financial markets are influenced by broad economic trends and government policies.\n\n- **GDP (Gross Domestic Product)**: The total value of goods produced and services provided in a country during one year.\n- **Inflation**: A general increase in prices and fall in the purchasing value of money.\n- **Monetary Policy**: Actions of a central bank to control the money supply and achieve sustainable economic growth.\n- **Fiscal Policy**: The use of government spending and tax policies to influence economic conditions."
+    },
+    {
+      "id": "emerging-markets",
+      "title": "Emerging Markets & Globalization",
+      "content": "The global economy is increasingly interconnected.\n\n- **Emerging Markets**: A country that has some characteristics of a developed market, but does not satisfy its standards.\n- **Trade War**: A situation in which countries try to damage each other's trade, typically by the imposition of tariffs or quota restrictions.\n- **Protectionism**: The theory or practice of shielding a country's domestic industries from foreign competition by taxing imports.\n- **Supply Chain**: The network of all the individuals, organizations, resources, activities and technology involved in the creation and sale of a product."
+    },
+    {
+      "id": "grammar-future-perfect",
+      "title": "Language Focus: Future Perfect & Speculating about Trends",
+      "content": "We use the future perfect to talk about actions that will be completed by a specific point in the future.\n\n- **Future Perfect**: \n  - 'By 2030, many emerging markets **will have overtaken** developed ones.'\n  - 'The central bank **will have increased** rates several times by the end of the year.'\n- **Speculation**: \n  - 'It is **highly likely** that inflation will cool down.'\n  - 'There is a **slim chance** of a global recession.'"
+    }
+  ],
+  "objectives": [
+    "Analyze the impact of GDP, inflation, and monetary policy on markets",
+    "Discuss the challenges and opportunities in emerging markets",
+    "Use the future perfect to make economic predictions and forecasts"
+  ],
+  "keyTerms": [
+    { "term": "Deflation", "definition": "Reduction of the general level of prices in an economy." },
+    { "term": "Central Bank", "definition": "A national bank that provides financial and banking services for its country's government and commercial banking system." }
+  ]
+}

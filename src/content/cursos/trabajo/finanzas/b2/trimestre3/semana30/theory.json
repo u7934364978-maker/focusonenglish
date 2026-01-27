@@ -1,0 +1,29 @@
+{
+  "title": "Mergers and Acquisitions (M&A)",
+  "sections": [
+    {
+      "id": "ma-intro",
+      "title": "The Strategic Logic of M&A",
+      "content": "M&A refers to the consolidation of companies or assets through various types of financial transactions.\n\n- **Merger**: The voluntary fusion of two companies on roughly equal terms into one new legal entity.\n- **Acquisition**: When one company purchases most or all of another company's shares to gain control of it.\n- **Takeover**: Similar to an acquisition, but often refers to a larger company purchasing a smaller one (can be friendly or hostile).\n- **Synergy**: The concept that the combined value and performance of two companies will be greater than the sum of the separate individual parts."
+    },
+    {
+      "id": "ma-process",
+      "title": "The M&A Lifecycle",
+      "content": "A typical M&A deal involves several critical stages:\n\n- **Due Diligence**: An investigation or audit of a potential investment or product to confirm all facts.\n- **Valuation**: Determining the current worth of an asset or a company.\n- **Target Company**: The company that another company is trying to buy or merge with.\n- **Integration**: The process of combining the operations, cultures, and systems of two companies after a merger."
+    },
+    {
+      "id": "grammar-passive-reporting-advanced",
+      "title": "Language Focus: Advanced Passive Structures & Nominalization",
+      "content": "Professional M&A reports use formal, objective language.\n\n- **Advanced Passive**: \n  - 'The deal **is expected** to be finalized by Q4.'\n  - 'It **is believed** that the synergy will save millions.'\n- **Nominalization (Turning verbs into nouns)**:\n  - Instead of 'We integrated the teams,' use '**The integration** of the teams was successful.'\n  - Instead of 'They valued the firm at $1B,' use '**The valuation** of the firm reached $1B.'"
+    }
+  ],
+  "objectives": [
+    "Distinguish between mergers, acquisitions, and takeovers",
+    "Understand the importance of synergy and due diligence",
+    "Apply formal nominalization and passive reporting in business writing"
+  ],
+  "keyTerms": [
+    { "term": "Synergy", "definition": "The interaction or cooperation of two or more organizations to produce a combined effect greater than the sum of their separate effects." },
+    { "term": "Hostile Takeover", "definition": "The acquisition of one company by another that is accomplished by going directly to the target company's shareholders or fighting to replace management." }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "title": "Exercises: Ethical Finance and ESG",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "Which ESG pillar covers 'Executive Compensation' and 'Audit Practices'?",
+      "options": ["Environmental", "Social", "Governance", "Sustainability"],
+      "correctAnswer": 2,
+      "explanation": "Governance (G) focuses on how a company is managed and directed."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "The firm ________ potentially (mitigate) long-term risks if it adopts these standards.",
+      "answer": "could potentially mitigate",
+      "explanation": "Using a nuanced modal ('could potentially') to discuss possibilities."
+    },
+    {
+      "id": "ex3",
+      "type": "multiple-choice",
+      "question": "What is 'Greenwashing'?",
+      "options": [
+        "Investing only in renewable energy",
+        "Conveying a false impression of environmental responsibility",
+        "The process of cleaning industrial waste",
+        "A legal requirement for carbon reporting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Greenwashing involves misleading information about a company's environmental impact."
+    },
+    {
+      "id": "ex4",
+      "type": "fill-in-the-blank",
+      "question": "It ________ that (appear) the board is prioritizing short-term gains over ESG goals.",
+      "answer": "appears that",
+      "explanation": "Using hedging language ('It appears that') to avoid sounding too definitive."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple-choice",
+      "question": "Which instrument is specifically earmarked for climate and environmental projects?",
+      "options": ["Junk Bonds", "Convertible Bonds", "Green Bonds", "Zero-coupon Bonds"],
+      "correctAnswer": 2,
+      "explanation": "Green bonds are designed to fund environmental projects."
+    },
+    {
+      "id": "ex6",
+      "type": "fill-in-the-blank",
+      "question": "There is a ________ consensus (general) that ESG metrics require more standardization.",
+      "answer": "general",
+      "explanation": "'General consensus' is a common phrase for hedging in professional contexts."
+    },
+    {
+      "id": "ex7",
+      "type": "multiple-choice",
+      "question": "What does 'Fiduciary Duty' imply for a fund manager?",
+      "options": [
+        "The obligation to maximize carbon emissions",
+        "The legal obligation to act in the best interest of investors",
+        "The right to ignore ESG factors",
+        "The duty to avoid all high-risk investments"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fiduciary duty means acting in the best financial interest of the client."
+    },
+    {
+      "id": "ex8",
+      "type": "fill-in-the-blank",
+      "question": "The company ________ arguably (be) the most sustainable in the sector.",
+      "answer": "might arguably be",
+      "explanation": "Using 'might arguably' as a softener for an assertive claim."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "Which of these is a 'Social' factor in ESG?",
+      "options": ["Waste management", "Shareholder rights", "Labor standards", "Board composition"],
+      "correctAnswer": 2,
+      "explanation": "Labor standards fall under the Social (S) pillar."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "One ________ argue (might) that the current valuation fails to account for carbon taxes.",
+      "answer": "might",
+      "explanation": "Using 'might' to introduce a debatable point politely."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "What is 'Net Zero'?",
+      "options": [
+        "Having no assets and no liabilities",
+        "Balancing greenhouse gas emissions with removals",
+        "A zero-percent interest rate policy",
+        "Closing all coal-fired power plants"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Net zero means balancing emissions emitted and absorbed."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "Reports ________ (suggest) that the transition to green energy will be costly.",
+      "answer": "suggest",
+      "explanation": "'Suggest' is a hedging verb often used in financial reports."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "Impact investing differs from traditional investing because:",
+      "options": [
+        "It doesn't seek any financial return",
+        "It aims for measurable social/environmental impact plus financial return",
+        "It only invests in government bonds",
+        "It is illegal in most jurisdictions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Impact investing seeks both social/environmental impact and financial return."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "It is ________ believed (widely) that carbon pricing will increase globally.",
+      "answer": "widely",
+      "explanation": "'Widely believed' is a hedging phrase."
+    },
+    {
+      "id": "ex15",
+      "type": "multiple-choice",
+      "question": "Which 'G' factor involves ensuring shareholders can vote on key issues?",
+      "options": ["Audit practices", "Board composition", "Shareholder rights", "Executive pay"],
+      "correctAnswer": 2,
+      "explanation": "Shareholder rights are a core part of corporate governance."
+    },
+    {
+      "id": "ex16",
+      "type": "fill-in-the-blank",
+      "question": "The data ________ (seem) to indicate a correlation between ESG scores and stock performance.",
+      "answer": "seems",
+      "explanation": "'Seems to indicate' is a common hedging structure."
+    },
+    {
+      "id": "ex17",
+      "type": "multiple-choice",
+      "question": "Climate change and carbon emissions fall under which pillar?",
+      "options": ["Governance", "Environmental", "Social", "Economic"],
+      "correctAnswer": 1,
+      "explanation": "These are environmental (E) factors."
+    },
+    {
+      "id": "ex18",
+      "type": "fill-in-the-blank",
+      "question": "To ________ degree (some), all large corporations are now reporting ESG metrics.",
+      "answer": "some",
+      "explanation": "'To some degree' limits the universality of the statement (hedging)."
+    },
+    {
+      "id": "ex19",
+      "type": "multiple-choice",
+      "question": "Diversity and human rights are categorized as:",
+      "options": ["Governance", "Impact", "Social", "Environmental"],
+      "correctAnswer": 2,
+      "explanation": "These fall under the Social (S) pillar."
+    },
+    {
+      "id": "ex20",
+      "type": "fill-in-the-blank",
+      "question": "One ________ well (may) wonder if these green bonds are truly green.",
+      "answer": "may",
+      "explanation": "'May well wonder' is an idiomatic way to express doubt or speculation."
+    },
+    {
+      "id": "ex21",
+      "type": "multiple-choice",
+      "question": "What is the primary goal of 'Sustainable Investing'?",
+      "options": [
+        "Short-term speculation only",
+        "Long-term returns plus positive societal impact",
+        "Avoiding all taxes",
+        "Investing only in nonprofit organizations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It balances financial returns with social/environmental good."
+    },
+    {
+      "id": "ex22",
+      "type": "fill-in-the-blank",
+      "question": "The proposal ________ (would) likely meet resistance from traditional shareholders.",
+      "answer": "would",
+      "explanation": "Using 'would likely' to predict a probable but not certain outcome."
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "A board with diverse skills and backgrounds improves which ESG score?",
+      "options": ["Social", "Environmental", "Governance", "Green"],
+      "correctAnswer": 2,
+      "explanation": "Board composition is a Governance (G) factor."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "It ________ be (may) that the regulatory framework is still evolving.",
+      "answer": "may",
+      "explanation": "'It may be that' is a common hedging phrase."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "What is 'resource depletion'?",
+      "options": [
+        "The growth of forests",
+        "The consumption of a resource faster than it can be replenished",
+        "Increasing the money supply",
+        "A type of corporate merger"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It's an environmental concern regarding finite resources."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "The CEO's statement was ________ vague (somewhat) regarding specific carbon targets.",
+      "answer": "somewhat",
+      "explanation": "'Somewhat' is a softener used to describe a quality less intensely."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "If a fund manager ignores ESG risks and the fund loses value, they might have breached their:",
+      "options": ["Carbon footprint", "Fiduciary duty", "Marketing plan", "Greenwash"],
+      "correctAnswer": 1,
+      "explanation": "Fiduciary duty includes managing all material risks, including ESG ones."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "Experts ________ (tend) to agree that the E pillar is the easiest to measure.",
+      "answer": "tend",
+      "explanation": "'Tend to agree' is less definitive than 'agree'."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "Which of these is a governance risk?",
+      "options": ["Oil spills", "Child labor", "Lack of independent board directors", "Deforestation"],
+      "correctAnswer": 2,
+      "explanation": "Board independence is a key governance factor."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "This ________ (could) lead to a significant re-rating of the company.",
+      "answer": "could",
+      "explanation": "Using 'could' for possibility."
+    },
+    {
+      "id": "ex31",
+      "type": "multiple-choice",
+      "question": "What does 'S' in ESG stand for?",
+      "options": ["Sustainability", "Social", "Standardization", "Shareholders"],
+      "correctAnswer": 1,
+      "explanation": "S stands for Social."
+    },
+    {
+      "id": "ex32",
+      "type": "fill-in-the-blank",
+      "question": "The evidence is ________ inconclusive (largely) at this stage.",
+      "answer": "largely",
+      "explanation": "'Largely' is a qualifier."
+    },
+    {
+      "id": "ex33",
+      "type": "multiple-choice",
+      "question": "Which ESG factor relates to how a company handles community engagement?",
+      "options": ["Environmental", "Social", "Governance", "Auditing"],
+      "correctAnswer": 1,
+      "explanation": "Community relations are part of the Social pillar."
+    },
+    {
+      "id": "ex34",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (might) need to reconsider our exposure to fossil fuels.",
+      "answer": "might",
+      "explanation": "'Might' is a modal for possibility and politeness."
+    },
+    {
+      "id": "ex35",
+      "type": "multiple-choice",
+      "question": "Audit practices and internal controls belong to:",
+      "options": ["Social", "Environmental", "Governance", "Impact"],
+      "correctAnswer": 2,
+      "explanation": "These are Governance (G) factors."
+    },
+    {
+      "id": "ex36",
+      "type": "fill-in-the-blank",
+      "question": "It's ________ likely (highly) that the SEC will introduce stricter ESG rules.",
+      "answer": "highly",
+      "explanation": "'Highly likely' expresses strong probability but remains a hedge."
+    },
+    {
+      "id": "ex37",
+      "type": "multiple-choice",
+      "question": "Labor standards and human rights are part of which pillar?",
+      "options": ["Governance", "Environmental", "Social", "Sustainability"],
+      "correctAnswer": 2,
+      "explanation": "Social (S) includes human rights and labor practices."
+    },
+    {
+      "id": "ex38",
+      "type": "fill-in-the-blank",
+      "question": "There ________ appear (would) to be no easy solution to this ethical dilemma.",
+      "answer": "would",
+      "explanation": "'Would appear to be' is a formal hedge."
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "What is a 'Green Bond' specifically for?",
+      "options": ["Paying off debt", "Funding environmental projects", "Acquiring competitors", "Increasing dividends"],
+      "correctAnswer": 1,
+      "explanation": "Green bonds are for environmental/climate projects."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "The company's performance ________ (seem) to have plateaued.",
+      "answer": "seems",
+      "explanation": "'Seems' avoids a definitive statement about performance."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "Which of the following is an example of 'Environmental' factors?",
+      "options": ["Board diversity", "Executive pay", "Waste management", "Employee safety"],
+      "correctAnswer": 2,
+      "explanation": "Waste management is an environmental issue."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "In ________ cases (some), ESG disclosure is now mandatory.",
+      "answer": "some",
+      "explanation": "'In some cases' is a qualifier."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "Governance focuses on:",
+      "options": ["Carbon footprint", "Board composition and audit", "Human rights", "Community charity"],
+      "correctAnswer": 1,
+      "explanation": "Governance is about how the company is run internally."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "The risk ________ potentially (outweigh) the benefits.",
+      "answer": "could potentially outweigh",
+      "explanation": "Using nuanced modals for risk assessment."
+    },
+    {
+      "id": "ex45",
+      "type": "multiple-choice",
+      "question": "What is the main concern of 'Impact Investing'?",
+      "options": ["Avoiding all loss", "Measurable social/env impact", "Getting the highest possible yield", "Tax evasion"],
+      "correctAnswer": 1,
+      "explanation": "Measurable impact is key to impact investing."
+    },
+    {
+      "id": "ex46",
+      "type": "fill-in-the-blank",
+      "question": "There is ________ debate (ongoing) about the validity of ESG ratings.",
+      "answer": "ongoing",
+      "explanation": "'Ongoing debate' acknowledges lack of consensus."
+    },
+    {
+      "id": "ex47",
+      "type": "multiple-choice",
+      "question": "Greenwashing is considered:",
+      "options": ["A best practice", "A marketing success", "Unethical/Misleading", "A legal requirement"],
+      "correctAnswer": 2,
+      "explanation": "Greenwashing is misleading and unethical."
+    },
+    {
+      "id": "ex48",
+      "type": "fill-in-the-blank",
+      "question": "It ________ be (may) argued that ESG is just another form of risk management.",
+      "answer": "may",
+      "explanation": "'It may be argued' is a classic hedging phrase."
+    },
+    {
+      "id": "ex49",
+      "type": "multiple-choice",
+      "question": "Which ESG factor includes carbon emissions?",
+      "options": ["Environmental", "Social", "Governance", "Economic"],
+      "correctAnswer": 0,
+      "explanation": "Carbon emissions are a primary Environmental (E) factor."
+    },
+    {
+      "id": "ex50",
+      "type": "fill-in-the-blank",
+      "question": "Analysts ________ (often) find it difficult to compare ESG data across sectors.",
+      "answer": "often",
+      "explanation": "'Often' is a frequency adverb that hedges the universality of the claim."
+    }
+  ]
+}

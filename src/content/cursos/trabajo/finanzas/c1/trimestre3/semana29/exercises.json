@@ -1,0 +1,398 @@
+{
+  "title": "Exercises: Derivative Financial Instruments",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "Which of the following best describes a 'Futures Contract'?",
+      "options": ["A private, customizable contract for future delivery", "A standardized contract traded on an exchange with daily settlement", "The right but not the obligation to buy an asset", "An agreement to exchange interest rate payments"],
+      "correctAnswer": 1,
+      "explanation": "Futures are standardized and exchange-traded, unlike forwards."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "Seldom ________ (we/see) such volatility in the derivatives market.",
+      "answer": "have we seen",
+      "explanation": "Inversion after a negative/restrictive adverb ('Seldom')."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the derivative terms:",
+      "pairs": [
+        { "term": "Call Option", "definition": "Right to buy" },
+        { "term": "Put Option", "definition": "Right to sell" },
+        { "term": "Swap", "definition": "Exchange of cash flows" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "What is 'Arbitrage'?",
+      "options": ["A type of insurance", "Exploiting price discrepancies between markets", "Long-term investing in stocks", "A bank holiday"],
+      "correctAnswer": 1,
+      "explanation": "Arbitrageurs seek to profit from market inefficiencies."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "It is imperative that the trader ________ (comply) with the margin requirements.",
+      "answer": "comply",
+      "explanation": "Subjunctive mood after 'imperative that'."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "What is the 'Strike Price'?",
+      "options": ["The price of a strike by workers", "The fixed price at which an option can be exercised", "The current market price", "The price of a futures contract"],
+      "correctAnswer": 1,
+      "explanation": "Also known as the exercise price."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "Under no circumstances ________ (you/should) trade without a hedge.",
+      "answer": "should you",
+      "explanation": "Inversion after 'Under no circumstances'."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "Instrument characteristics:",
+      "pairs": [
+        { "term": "Standardized", "definition": "Futures" },
+        { "term": "Customizable", "definition": "Forwards" },
+        { "term": "Optionality", "definition": "Options" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "What happens in an 'Interest Rate Swap'?",
+      "options": ["Parties exchange principal amounts", "Parties exchange interest rate payments (fixed for floating)", "One party buys a bank", "A company goes bankrupt"],
+      "correctAnswer": 1,
+      "explanation": "Swaps involve exchanging cash flows."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "The board recommended that the firm ________ (hedge) its currency risk.",
+      "answer": "hedge",
+      "explanation": "Subjunctive mood after 'recommended that'."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "What is a 'Margin Call'?",
+      "options": ["A call to a friend", "A broker's demand for additional funds to cover losses", "A sales call", "A type of loan"],
+      "correctAnswer": 1,
+      "explanation": "Occurs when account equity falls below a certain level."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "Only ________ (then/the market/stabilize) did the volatility decrease.",
+      "answer": "then did the market stabilize",
+      "explanation": "Inversion after 'Only then'."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "What does it mean to be 'In the Money' (ITM) for a call option?",
+      "options": ["The market price is lower than the strike price", "The market price is higher than the strike price", "The option has expired", "You have no cash"],
+      "correctAnswer": 1,
+      "explanation": "The option has intrinsic value."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "It is vital that he ________ (understand) the risks involved.",
+      "answer": "understand",
+      "explanation": "Subjunctive mood."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Swap types:",
+      "pairs": [
+        { "term": "Plain Vanilla", "definition": "Standard interest rate swap" },
+        { "term": "Basis Swap", "definition": "Two floating rates" },
+        { "term": "Total Return Swap", "definition": "Exchanging total performance" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "What is 'Delta' in options trading?",
+      "options": ["The price of the option", "The rate of change of the option's price relative to the underlying", "A type of airline", "Total loss"],
+      "correctAnswer": 1,
+      "explanation": "One of the 'Greeks' used for risk management."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "Hardly ________ (the news/break) when the price plummeted.",
+      "answer": "had the news broken",
+      "explanation": "Inversion with 'Hardly... when'."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "What is 'Notional Amount'?",
+      "options": ["The actual cash exchanged", "The nominal or face value used to calculate payments in a swap", "Total profit", "A small fee"],
+      "correctAnswer": 1,
+      "explanation": "The base amount for interest calculations."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "The regulator suggested that the bank ________ (increase) its liquidity buffer.",
+      "answer": "increase",
+      "explanation": "Subjunctive mood."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "What is a 'Credit Default Swap (CDS)'?",
+      "options": ["A loan for a car", "Insurance against the default of a borrower", "A type of credit card", "A bank holiday"],
+      "correctAnswer": 1,
+      "explanation": "A derivative used to hedge credit risk."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "Not only ________ (they/lose) the principal, but they also paid heavy fines.",
+      "answer": "did they lose",
+      "explanation": "Inversion after 'Not only'."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Option 'Greeks':",
+      "pairs": [
+        { "term": "Gamma", "definition": "Rate of change of Delta" },
+        { "term": "Theta", "definition": "Time decay" },
+        { "term": "Vega", "definition": "Sensitivity to volatility" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "What is 'Contango'?",
+      "options": ["A South American dance", "When the futures price is higher than the spot price", "When prices are falling", "A type of tax"],
+      "correctAnswer": 1,
+      "explanation": "Common in commodity markets."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "It is essential that every trader ________ (be) aware of the limits.",
+      "answer": "be",
+      "explanation": "Subjunctive mood (be instead of is)."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "What is 'Hedging' in the context of derivatives?",
+      "options": ["Speculating for high returns", "Using contracts to offset potential losses", "Buying physical gold", "Market research"],
+      "correctAnswer": 1,
+      "explanation": "Managing risk exposure."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "Little ________ (they/know) that the market would crash.",
+      "answer": "did they know",
+      "explanation": "Inversion after 'Little'."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "What is 'Backwardation'?",
+      "options": ["Going backwards", "When the futures price is lower than the spot price", "Economic recession", "A type of option"],
+      "correctAnswer": 1,
+      "explanation": "Opposite of contango."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "The manager insisted that the trade ________ (execute) immediately.",
+      "answer": "be executed",
+      "explanation": "Passive subjunctive."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "What is an 'Exotic Option'?",
+      "options": ["An option on tropical fruit", "An option with complex features beyond standard calls/puts", "A free option", "An illegal contract"],
+      "correctAnswer": 1,
+      "explanation": "e.g., Barrier options, Asian options."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "Never ________ (I/see) such a complex financial instrument.",
+      "answer": "have I seen",
+      "explanation": "Inversion after 'Never'."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Settlement types:",
+      "pairs": [
+        { "term": "Physical Delivery", "definition": "Handing over the asset" },
+        { "term": "Cash Settlement", "definition": "Paying the value difference" },
+        { "term": "Netting", "definition": "Offsetting values" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "What is a 'Straddle' strategy?",
+      "options": ["Buying only calls", "Buying a call and a put with same strike and expiry", "Selling all assets", "A type of loan"],
+      "correctAnswer": 1,
+      "explanation": "Used when expecting high volatility but unsure of direction."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "Were it ________ (not/for) the hedge, we would be bankrupt.",
+      "answer": "not for",
+      "explanation": "Inversion in conditional (Were it not for...)."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "What is 'Mark-to-Market'?",
+      "options": ["Buying at a market", "Valuing assets based on current market prices", "Selling at a loss", "A type of tax"],
+      "correctAnswer": 1,
+      "explanation": "Required for futures and many other derivatives."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "Should ________ (the price/drop), the option will expire worthless.",
+      "answer": "the price drop",
+      "explanation": "Inversion in first conditional (Should + subject + verb)."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "What is 'Counterparty Risk' in swaps?",
+      "options": ["Risk of a party at the bank", "The risk that the other party will not make their payments", "A legal risk", "System failure"],
+      "correctAnswer": 1,
+      "explanation": "Major concern in over-the-counter (OTC) derivatives."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "Had ________ (we/known) about the crash, we would have liquidated.",
+      "answer": "we known",
+      "explanation": "Inversion in third conditional (Had + subject + participle)."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Contract terms:",
+      "pairs": [
+        { "term": "Expiration Date", "definition": "Last day of the contract" },
+        { "term": "Intrinsic Value", "definition": "In-the-money amount" },
+        { "term": "Time Value", "definition": "Premium minus intrinsic value" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "What is a 'Binary Option'?",
+      "options": ["An option with two strike prices", "An 'all-or-nothing' payoff", "A digital currency", "A bank loan"],
+      "correctAnswer": 1,
+      "explanation": "Pays a fixed amount or zero."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "Only by ________ (hedge) our bets could we survive.",
+      "answer": "hedging",
+      "explanation": "Gerund after preposition."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "What is 'Speculation'?",
+      "options": ["Reducing risk", "Taking risk to profit from price movements", "Avoiding the market", "A type of insurance"],
+      "correctAnswer": 1,
+      "explanation": "The opposite goal of hedging."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "It is desirable that the firm ________ (minimize) its exposure.",
+      "answer": "minimize",
+      "explanation": "Subjunctive mood."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is 'Leverage' in derivatives?",
+      "options": ["Physical strength", "Controlling a large position with a small amount of capital", "Total debt", "A bank fee"],
+      "correctAnswer": 1,
+      "explanation": "Can amplify both gains and losses."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "Rarely ________ (investors/find) such a good deal.",
+      "answer": "do investors find",
+      "explanation": "Inversion after 'Rarely'."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Swap participants:",
+      "pairs": [
+        { "term": "Fixed Rate Payer", "definition": "Pays constant rate" },
+        { "term": "Floating Rate Payer", "definition": "Pays market-linked rate" },
+        { "term": "Dealer", "definition": "Intermediary" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "What is an 'OTC Derivative'?",
+      "options": ["Over-the-counter (privately negotiated)", "On-the-cloud", "Only-through-cash", "Official-trade-contract"],
+      "correctAnswer": 0,
+      "explanation": "Not traded on a formal exchange."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "No sooner ________ (the trade/execute) than the market turned.",
+      "answer": "had the trade been executed",
+      "explanation": "Inversion with 'No sooner... than'."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "What is 'Volatility'?",
+      "options": ["Stability", "Magnitude of price fluctuations", "Profitability", "A bank holiday"],
+      "correctAnswer": 1,
+      "explanation": "A key input in option pricing (e.g., Black-Scholes)."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "The CEO requested that the report ________ (be) ready by noon.",
+      "answer": "be",
+      "explanation": "Subjunctive mood."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "Derivatives are often called 'double-edged swords' because...",
+      "options": ["They are made of metal", "They can both protect against and increase risk", "They are used in fencing", "They only work for banks"],
+      "correctAnswer": 1,
+      "explanation": "Referring to their potential for high reward and high risk."
+    }
+  ]
+}

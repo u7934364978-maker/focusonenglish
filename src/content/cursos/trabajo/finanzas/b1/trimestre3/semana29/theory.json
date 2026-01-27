@@ -1,0 +1,34 @@
+{
+  "title": "E-commerce and International Payments",
+  "sections": [
+    {
+      "id": "ecommerce-intro",
+      "title": "The Rise of E-commerce",
+      "content": "Digital marketplaces have changed how businesses and consumers interact globally.\n\n- **Payment Gateway**: A service that authorizes credit card or direct payments processing for e-businesses.\n- **Transaction Fee**: The amount a business pays to a payment processor for each sale.\n- **Merchant Account**: A type of bank account that allows businesses to accept payments by debit or credit cards.\n- **Digital Wallet**: An electronic device or online service that allows an individual to make electronic transactions.\n- **Fraud Prevention**: Measures taken to prevent unauthorized transactions and data theft."
+    },
+    {
+      "id": "intl-payments",
+      "title": "International Transactions",
+      "content": "Crossing borders involves extra steps and costs:\n\n- **Exchange Rate Risk**: The risk that a business's operations or investment's value will be affected by changes in exchange rates.\n- **Wire Transfer**: A method of electronic funds transfer from one person or entity to another.\n- **SWIFT Code**: An international standard for identifying banks worldwide.\n- **IBAN**: International Bank Account Number.\n- **Currency Conversion**: The process of changing one currency into another."
+    },
+    {
+      "id": "grammar-conditionals-review",
+      "title": "Grammar Focus: Second Conditional for Hypothetical Scenarios",
+      "content": "We use the second conditional to talk about imaginary situations in the future or present.\n\n- If we **expanded** to Asia, we **would need** a new payment gateway. (Si nos expandiéramos a Asia, necesitaríamos una nueva pasarela de pago).\n- What **would** happen if the exchange rate **dropped**? (¿Qué pasaría si el tipo de cambio cayera?).\n- I **wouldn't use** that processor if the fees **were** higher. (No usaría ese procesador si las comisiones fueran más altas).\n\n**Structure**: If + Past Simple, would + base verb."
+    },
+    {
+      "id": "vocabulary_summary",
+      "title": "Vocabulary Summary",
+      "content": "| English | Spanish |\n| :--- | :--- |\n| **Payment Gateway** | Pasarela de pago |\n| **Checkout** | Proceso de pago / Caja |\n| **Chargeback** | Devolución de cargo (reclamación) |\n| **Encryption** | Cifrado |\n| **Cross-border** | Transfronterizo |\n| **Settlement** | Liquidación |\n| **Billing Address** | Dirección de facturación |"
+    }
+  ],
+  "objectives": [
+    "Understand the technical components of online payments",
+    "Identify the challenges of international financial transactions",
+    "Use the second conditional to discuss hypothetical business expansions"
+  ],
+  "keyTerms": [
+    { "term": "SWIFT", "definition": "Society for Worldwide Interbank Financial Telecommunication." },
+    { "term": "Gateway", "definition": "A technology used by merchants to accept debit or credit card purchases from customers." }
+  ]
+}

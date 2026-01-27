@@ -1,0 +1,29 @@
+{
+  "title": "Ahorro e Intereses Básicos",
+  "sections": [
+    {
+      "id": "vocab-savings",
+      "title": "Vocabulario: Ahorrando Dinero",
+      "content": "Aprenderemos palabras sobre cómo guardar dinero.\n\n- **Savings account**: Cuenta de ahorros.\n- **Interest**: Interés.\n- **Interest rate**: Tasa de interés.\n- **To save**: Ahorrar.\n- **Balance**: Saldo.\n- **Goal**: Meta / Objetivo.\n- **Piggy bank**: Hucha / Alcancía."
+    },
+    {
+      "id": "grammar-should",
+      "title": "Gramática: Consejos con 'Should'",
+      "content": "Usamos **should** para dar consejos financieros.\n\n- You **should** save money every month. (Deberías ahorrar dinero cada mes).\n- You **shouldn't** spend all your salary. (No deberías gastar todo tu sueldo).\n\n**Estructura:**\n- Afirmativo: Sujeto + should + verbo base.\n- Negativo: Sujeto + shouldn't + verbo base."
+    },
+    {
+      "id": "useful-phrases",
+      "title": "Hablando de Ahorros",
+      "content": "- *I want to open a savings account.* (Quiero abrir una cuenta de ahorros).\n- *What is the interest rate?* (¿Cuál es la tasa de interés?).\n- *I am saving for a new car.* (Estoy ahorrando para un coche nuevo)."
+    }
+  ],
+  "objectives": [
+    "Hablar sobre el hábito de ahorrar",
+    "Usar 'should' para dar consejos",
+    "Entender conceptos básicos de interés"
+  ],
+  "keyTerms": [
+    { "term": "Interest", "definition": "Money paid by the bank for keeping your savings." },
+    { "term": "Balance", "definition": "The total amount of money in your account." }
+  ]
+}

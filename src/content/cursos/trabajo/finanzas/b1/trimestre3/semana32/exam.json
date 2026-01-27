@@ -1,0 +1,50 @@
+{
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 3,
+  "weekId": "semana32",
+  "examId": "fin-b1-w32-exam",
+  "title": "Exam: Review and Consolidation (B1)",
+  "items": [
+    {
+      "id": "fin-b1-w32-exam-1",
+      "type": "multipleChoice",
+      "prompt": "If the audit ________ (reveal) errors, the company would be fined.",
+      "options": ["reveal", "revealed", "will reveal", "revealing"],
+      "answerIndex": 1,
+      "explanation": "Review: Second conditional."
+    },
+    {
+      "id": "fin-b1-w32-exam-2",
+      "type": "multipleChoice",
+      "prompt": "The financial statements ________ (approve) by the board yesterday.",
+      "options": ["were approved", "approved", "was approve", "are approved"],
+      "answerIndex": 0,
+      "explanation": "Review: Passive voice (past)."
+    },
+    {
+      "id": "fin-b1-w32-exam-3",
+      "type": "multipleChoice",
+      "prompt": "Investors ________ (will) surely react to the news tomorrow.",
+      "options": ["will", "might", "would", "could"],
+      "answerIndex": 0,
+      "explanation": "Review: Modals of certainty."
+    },
+    {
+      "id": "fin-b1-w32-exam-4",
+      "type": "multipleChoice",
+      "prompt": "The report ________ (state) that the firm is in a good position.",
+      "options": ["stating", "stated", "states", "to state"],
+      "answerIndex": 1,
+      "explanation": "Review: Reporting verbs (past)."
+    },
+    {
+      "id": "fin-b1-w32-exam-5",
+      "type": "multipleChoice",
+      "prompt": "If you invest in stocks, you ________ (take) a higher risk.",
+      "options": ["take", "will take", "took", "taking"],
+      "answerIndex": 1,
+      "explanation": "Review: First conditional."
+    }
+  ]
+}

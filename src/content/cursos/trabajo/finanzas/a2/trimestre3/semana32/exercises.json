@@ -1,0 +1,398 @@
+{
+  "title": "Ejercicios: Repaso del Tercer Trimestre (A2)",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "Which is more expensive?",
+      "options": ["A loan", "A credit card (usually)", "A gift", "Cash"],
+      "correctAnswer": 1,
+      "explanation": "Credit cards often have higher interest than loans."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "If you pay late, you ________ (pay) a fine.",
+      "answer": "will pay",
+      "explanation": "First conditional."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Insurance review:",
+      "pairs": [
+        { "term": "Premium", "definition": "Periodic payment" },
+        { "term": "Policy", "definition": "Contract" },
+        { "term": "Claim", "definition": "Request for money" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "What is 'Phishing'?",
+      "options": ["Fishing in a lake", "Email fraud", "A bank manager", "A savings account"],
+      "correctAnswer": 1,
+      "explanation": "Stealing data via fake emails."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "Taxes ________ (collect) by the government.",
+      "answer": "are collected",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "What is 'Gross salary'?",
+      "options": ["Money after taxes", "Total money before taxes", "A small salary", "A type of tax"],
+      "correctAnswer": 1,
+      "explanation": "Gross = before deductions."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "She works ________. (arduamente)",
+      "answer": "hard",
+      "explanation": "Adverb of manner."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "Fintech review:",
+      "pairs": [
+        { "term": "QR code", "definition": "To scan" },
+        { "term": "Contactless", "definition": "No touch" },
+        { "term": "App", "definition": "Mobile software" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "What is a 'Budget'?",
+      "options": ["A type of car", "A plan for your money", "A bank loan", "A gift"],
+      "correctAnswer": 1,
+      "explanation": "Planning income and expenses."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "If you ________ (have) an accident, the insurance pays.",
+      "answer": "have",
+      "explanation": "Zero conditional."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "What is 'Net salary'?",
+      "options": ["Gross salary", "Money you receive after taxes", "The company's profit", "A tax on food"],
+      "correctAnswer": 1,
+      "explanation": "Net = actual take-home pay."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "The details ________ (check) carefully.",
+      "answer": "are checked",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "What is '2FA'?",
+      "options": ["Two factor authentication", "To find account", "Twice financial access", "Total fast access"],
+      "correctAnswer": 0,
+      "explanation": "Extra security layer."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "I pay ________. (fácilmente)",
+      "answer": "easily",
+      "explanation": "Adverb of manner."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Opposites:",
+      "pairs": [
+        { "term": "Gross", "definition": "Net" },
+        { "term": "Premium", "definition": "Benefit" },
+        { "term": "Save", "definition": "Spend" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "What is 'VAT'?",
+      "options": ["A tax on income", "A tax on products/services", "A bank fee", "A type of insurance"],
+      "correctAnswer": 1,
+      "explanation": "IVA."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "You ________ (should) change your password.",
+      "answer": "should",
+      "explanation": "Advice."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "What is 'Deductible'?",
+      "options": ["The total coverage", "The part you pay in a claim", "The bank's name", "A free service"],
+      "correctAnswer": 1,
+      "explanation": "The excess/franquicia."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "The money arrives ________. (inmediatamente)",
+      "answer": "immediately",
+      "explanation": "Adverb of manner."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "Which is more secure?",
+      "options": ["Public Wi-Fi", "Home Wi-Fi with password", "Open Wi-Fi", "No Wi-Fi"],
+      "correctAnswer": 1,
+      "explanation": "Encryption and passwords provide security."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "If it ________ (rain), I will take an umbrella.",
+      "answer": "rains",
+      "explanation": "First conditional example."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Banking verbs:",
+      "pairs": [
+        { "term": "Borrow", "definition": "Pedir prestado" },
+        { "term": "Lend", "definition": "Prestar" },
+        { "term": "Owe", "definition": "Deber" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "What is 'Interest rate'?",
+      "options": ["The price of the product", "The cost of borrowing money", "The bank's address", "The manager's name"],
+      "correctAnswer": 1,
+      "explanation": "The percentage charged on loans/paid on savings."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "The payslip ________ (send) to your email.",
+      "answer": "is sent",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "What is 'Income tax'?",
+      "options": ["Tax on what you buy", "Tax on what you earn", "Tax on your car", "A bank fee"],
+      "correctAnswer": 1,
+      "explanation": "Direct tax on earnings."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "I manage my money ________. (bien)",
+      "answer": "well",
+      "explanation": "Adverb of 'good'."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "What is a 'Fintech Startup'?",
+      "options": ["An old bank", "A new tech company in finance", "A type of credit card", "A school"],
+      "correctAnswer": 1,
+      "explanation": "Innovative young companies."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "Check the website ________. (cuidadosamente)",
+      "answer": "carefully",
+      "explanation": "Adverb of manner."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "What is 'Identity theft'?",
+      "options": ["Losing your bag", "Someone using your personal data", "Buying a new ID", "A type of loan"],
+      "correctAnswer": 1,
+      "explanation": "Fraudulent use of personal info."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "The QR code ________ (scan) by the app.",
+      "answer": "is scanned",
+      "explanation": "Passive voice."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Match:",
+      "pairs": [
+        { "term": "Savings", "definition": "Account" },
+        { "term": "Credit", "definition": "Limit" },
+        { "term": "Due", "definition": "Date" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "What is 'Overtime'?",
+      "options": ["Extra working hours", "Lunch break", "Being late", "A holiday"],
+      "correctAnswer": 0,
+      "explanation": "Time worked beyond regular hours."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "Taxes ________ (be) necessary for public services.",
+      "answer": "are",
+      "explanation": "Fact."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "What is a 'Statement'?",
+      "options": ["A document with transactions", "A bank card", "A loan", "A tax"],
+      "correctAnswer": 0,
+      "explanation": "Summary of account activity."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (pay) my bills yesterday.",
+      "answer": "paid",
+      "explanation": "Past simple."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "What is 'Cashless'?",
+      "options": ["No money", "No physical cash used", "Very rich", "A type of bank"],
+      "correctAnswer": 1,
+      "explanation": "Using digital payments instead of physical cash."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "The app is ________. (gratis)",
+      "answer": "free",
+      "explanation": "No cost."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Tax review:",
+      "pairs": [
+        { "term": "Income", "definition": "Earnings" },
+        { "term": "Tax return", "definition": "Annual report" },
+        { "term": "VAT", "definition": "Consumer tax" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "What is 'Scam'?",
+      "options": ["A legal business", "A fraudulent scheme", "A bank branch", "A type of coin"],
+      "correctAnswer": 1,
+      "explanation": "An illegal trick to get money."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "The password ________ (not/share) with anyone.",
+      "answer": "is not shared",
+      "explanation": "Passive voice negative."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "What is 'Insurance Coverage'?",
+      "options": ["The price of the insurance", "What the insurance protects", "The bank's name", "A type of car"],
+      "correctAnswer": 1,
+      "explanation": "The scope of protection."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "Wait ________ (pacientemente) in the queue.",
+      "answer": "patiently",
+      "explanation": "Adverb of manner."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is 'Biometrics'?",
+      "options": ["Mathematical tests", "Fingerprint/Face ID", "A bank manager", "A type of paper"],
+      "correctAnswer": 1,
+      "explanation": "Using biological data for security."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "The transfer ________ (be) fast.",
+      "answer": "was",
+      "explanation": "Past tense."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Adjectives review:",
+      "pairs": [
+        { "term": "Secure", "definition": "Safe" },
+        { "term": "Risky", "definition": "Dangerous" },
+        { "term": "Reliable", "definition": "Dependable" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "What is 'Payslip'?",
+      "options": ["A document showing salary/taxes", "A credit card", "A type of shoe", "A bank holiday"],
+      "correctAnswer": 0,
+      "explanation": "Nómina."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "He ________ (save) 10% of his salary.",
+      "answer": "saves",
+      "explanation": "Third person habit."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "What is 'Deduction'?",
+      "options": ["Adding money", "Taking money away (taxes, etc.)", "A type of bank", "A new account"],
+      "correctAnswer": 1,
+      "explanation": "Amount removed from gross salary."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "The budget ________ (approve) last week.",
+      "answer": "was approved",
+      "explanation": "Past passive."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "End of A2! Are you ready for B1?",
+      "options": ["Yes", "Not yet", "Maybe", "I'm excited!"],
+      "correctAnswer": 0,
+      "explanation": "Good luck!"
+    }
+  ]
+}

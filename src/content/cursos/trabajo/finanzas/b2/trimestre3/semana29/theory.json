@@ -1,0 +1,29 @@
+{
+  "title": "Risk Management and Insurance",
+  "sections": [
+    {
+      "id": "risk-id",
+      "title": "Identifying and Assessing Financial Risks",
+      "content": "Risk management is the process of identifying, evaluating, and prioritizing risks followed by coordinated application of resources to minimize, monitor, and control the probability or impact of unfortunate events.\n\n- **Market Risk**: The possibility of an investor experiencing losses due to factors that affect the overall performance of the financial markets.\n- **Credit Risk**: The risk of loss resulting from a borrower's failure to repay a loan or meet contractual obligations.\n- **Operational Risk**: The risk of loss resulting from inadequate or failed internal processes, people, and systems.\n- **Liquidity Risk**: The risk that an entity will not be able to meet its short-term financial obligations due to an inability to convert assets into cash quickly."
+    },
+    {
+      "id": "mitigation-insurance",
+      "title": "Risk Mitigation & Corporate Insurance",
+      "content": "Companies use various strategies to handle risk:\n\n- **Hedging**: Making an investment to reduce the risk of adverse price movements in an asset.\n- **Insurance Premium**: The amount of money that an individual or business must pay for an insurance policy.\n- **Reinsurance**: Insurance that is purchased by an insurance company from one or more other insurance companies directly as a means of risk management.\n- **Underwriting**: The process through which an individual or institution takes on financial risk for a fee."
+    },
+    {
+      "id": "grammar-mixed-conditionals",
+      "title": "Language Focus: Mixed Conditionals in Risk Analysis",
+      "content": "Mixed conditionals are used to show the relationship between a past action/state and a present result (or vice versa).\n\n- **Past Action -> Present Result**: \n  - 'If they **hadn't taken** that loan last year, they **wouldn't be** in debt now.' (Si no hubieran tomado ese préstamo el año pasado, no estarían en deuda ahora).\n- **Present State -> Past Result**: \n  - 'If the company **were** more stable, it **would have survived** the crisis.' (Si la empresa fuera más estable, habría sobrevivido a la crisis).\n\nThese structures are vital for analyzing long-term financial consequences."
+    }
+  ],
+  "objectives": [
+    "Categorize different types of financial risk",
+    "Explain strategies for risk mitigation including hedging and insurance",
+    "Use mixed conditionals to analyze past decisions and their present effects"
+  ],
+  "keyTerms": [
+    { "term": "Hedging", "definition": "Protecting oneself against loss on (a bet or investment) by making balancing or compensating transactions." },
+    { "term": "Underwriting", "definition": "Accepting liability under (an insurance policy), thus guaranteeing payment in case loss or damage occurs." }
+  ]
+}

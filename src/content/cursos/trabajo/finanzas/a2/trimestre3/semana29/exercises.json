@@ -1,0 +1,398 @@
+{
+  "title": "Ejercicios: Seguridad Online y Phishing",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What is 'Phishing'?",
+      "options": ["Going fishing", "A fake email to steal data", "A type of bank account", "A strong password"],
+      "correctAnswer": 1,
+      "explanation": "Phishing involves fraudulent emails or websites."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "If you ________ (share) your password, you will have problems.",
+      "answer": "share",
+      "explanation": "First conditional: If + present simple."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the terms:",
+      "pairs": [
+        { "term": "Password", "definition": "Contraseña" },
+        { "term": "Username", "definition": "Usuario" },
+        { "term": "Scam", "definition": "Estafa" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "What does 2FA stand for?",
+      "options": ["Two-factor authentication", "To find account", "Total financial access", "Twice fast access"],
+      "correctAnswer": 0,
+      "explanation": "2FA adds an extra layer of security."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "The bank ________ (not/ask) for your PIN by email.",
+      "answer": "won't ask",
+      "explanation": "Future consequence: will not / won't."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "What is a 'Secure connection'?",
+      "options": ["A slow internet", "HTTPS in the URL", "A public Wi-Fi", "A free computer"],
+      "correctAnswer": 1,
+      "explanation": "HTTPS indicates encryption."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "If I ________ (see) a suspicious link, I will delete it.",
+      "answer": "see",
+      "explanation": "If clause in present simple."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "Security actions:",
+      "pairs": [
+        { "term": "Log in", "definition": "Entrar" },
+        { "term": "Log out", "definition": "Salir" },
+        { "term": "Update", "definition": "Actualizar" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "What is 'Identity theft'?",
+      "options": ["Losing your wallet", "Someone using your name and data", "Buying a new ID", "Paying a bill"],
+      "correctAnswer": 1,
+      "explanation": "Stealing personal information for fraud."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "You ________ (get) a notification if someone logs in.",
+      "answer": "will get",
+      "explanation": "Future result."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "Which is a strong password?",
+      "options": ["123456", "password", "MyP@ssw0rd!23", "admin"],
+      "correctAnswer": 2,
+      "explanation": "Strong passwords use symbols, numbers, and cases."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "If you use public Wi-Fi, your data ________ (be) at risk.",
+      "answer": "will be",
+      "explanation": "Potential future result."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "What is a 'Scammer'?",
+      "options": ["A bank manager", "A person who tricks others", "A security expert", "A software"],
+      "correctAnswer": 1,
+      "explanation": "A person who commits fraud."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "Don't ________ (hacer clic) on that link.",
+      "answer": "click",
+      "explanation": "Imperative negative."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Cyber threats:",
+      "pairs": [
+        { "term": "Virus", "definition": "Malware" },
+        { "term": "Hack", "definition": "Unauthorized access" },
+        { "term": "Breach", "definition": "Data leak" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "What should you do if your account is hacked?",
+      "options": ["Nothing", "Change your password immediately", "Wait for the bank to call", "Tell your friends"],
+      "correctAnswer": 1,
+      "explanation": "Quick action is necessary."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (change) my password if I feel unsafe.",
+      "answer": "will change",
+      "explanation": "Intent/Consequence."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "What is 'Encrypted'?",
+      "options": ["Free", "Coded for security", "Deleted", "Public"],
+      "correctAnswer": 1,
+      "explanation": "Encryption protects data by making it unreadable without a key."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "The website ________ (be) secure if it has a lock icon.",
+      "answer": "is",
+      "explanation": "Fact/Rule."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "What is 'Sensitive data'?",
+      "options": ["Public info", "Private info (bank, ID)", "Weather info", "Sports news"],
+      "correctAnswer": 1,
+      "explanation": "Information that needs protection."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "If the email ________ (look) strange, delete it.",
+      "answer": "looks",
+      "explanation": "Present simple third person."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Software terms:",
+      "pairs": [
+        { "term": "Antivirus", "definition": "Protective software" },
+        { "term": "Firewall", "definition": "Network security" },
+        { "term": "Browser", "definition": "To surf the web" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "What is 'Phishing' usually sent through?",
+      "options": ["Post office", "Email/SMS", "Phone calls only", "Personal letters"],
+      "correctAnswer": 1,
+      "explanation": "Email and SMS (Smishing) are common."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "You ________ (need) a code for 2FA.",
+      "answer": "will need",
+      "explanation": "Requirement."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "What does 'Suspicious' mean?",
+      "options": ["Safe", "Doubtful/Untrustworthy", "Fast", "New"],
+      "correctAnswer": 1,
+      "explanation": "Something that doesn't look right."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "He ________ (not/log out) of the public computer.",
+      "answer": "didn't log out",
+      "explanation": "Past error (contextual)."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "If you lose your phone, you ________ block your accounts.",
+      "options": ["should", "shouldn't", "are", "do"],
+      "correctAnswer": 0,
+      "explanation": "Necessary advice."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (report) the scam to the police.",
+      "answer": "will report",
+      "explanation": "Planned action."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "What is a 'Digital footprint'?",
+      "options": ["A physical step", "Your online trail", "A type of shoe", "A bank file"],
+      "correctAnswer": 1,
+      "explanation": "The record of your online activity."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "The app ________ (ask) for a fingerprint.",
+      "answer": "asks",
+      "explanation": "Present fact."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Authentication:",
+      "pairs": [
+        { "term": "Fingerprint", "definition": "Huella" },
+        { "term": "Face ID", "definition": "Reconocimiento facial" },
+        { "term": "Token", "definition": "Código de seguridad" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "Which is more secure?",
+      "options": ["Password only", "2FA", "No password", "Shared password"],
+      "correctAnswer": 1,
+      "explanation": "Two layers are better than one."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "If you ________ (forget) your password, use 'Reset'.",
+      "answer": "forget",
+      "explanation": "Standard procedure."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "What is 'Malware'?",
+      "options": ["Good software", "Malicious software", "Expensive software", "Hardware"],
+      "correctAnswer": 1,
+      "explanation": "Malicious + Software = Malware."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "The bank ________ (verify) your identity.",
+      "answer": "will verify",
+      "explanation": "Process."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "What is 'Smishing'?",
+      "options": ["Phishing via SMS", "Phishing via Smell", "A type of food", "A bank branch"],
+      "correctAnswer": 0,
+      "explanation": "SMS + Phishing."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (protect) our data carefully.",
+      "answer": "must protect",
+      "explanation": "Obligation."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Internet safety:",
+      "pairs": [
+        { "term": "Private", "definition": "Privado" },
+        { "term": "Public", "definition": "Público" },
+        { "term": "Hidden", "definition": "Oculto" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "What is a 'Pop-up'?",
+      "options": ["A bank loan", "A window that opens suddenly", "A type of soda", "A security guard"],
+      "correctAnswer": 1,
+      "explanation": "Often used for ads or scams."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (not/trust) that website.",
+      "answer": "don't trust",
+      "explanation": "Negative opinion."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "Is it safe to save passwords in the browser?",
+      "options": ["Always", "Not always / Risky", "Never", "I don't know"],
+      "correctAnswer": 1,
+      "explanation": "It's convenient but can be risky if the computer is shared."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "Check the ________ (candado) icon.",
+      "answer": "lock",
+      "explanation": "Security symbol."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is 'Social Engineering'?",
+      "options": ["Building bridges", "Manipulating people to get data", "A type of party", "Coding"],
+      "correctAnswer": 1,
+      "explanation": "Psychological manipulation for fraud."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "He ________ (be) safe if he follows the rules.",
+      "answer": "will be",
+      "explanation": "Future conditional."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Adjectives:",
+      "pairs": [
+        { "term": "Reliable", "definition": "Fiable" },
+        { "term": "Fraudulent", "definition": "Fraudulento" },
+        { "term": "Legitimate", "definition": "Legítimo" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "What is an 'Authenticator App'?",
+      "options": ["A game", "An app for security codes", "A social network", "A music player"],
+      "correctAnswer": 1,
+      "explanation": "Used for 2FA."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "You ________ (shouldn't) use the same password twice.",
+      "answer": "shouldn't",
+      "explanation": "Standard security advice."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "What is 'Breach'?",
+      "options": ["A beach", "A security violation/leak", "A bank holiday", "A new account"],
+      "correctAnswer": 1,
+      "explanation": "Data breach = leak of information."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (receive) an alert.",
+      "answer": "received",
+      "explanation": "Past tense."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "Online security is...",
+      "options": ["Useless", "Optional", "Essential", "Boring"],
+      "correctAnswer": 2,
+      "explanation": "Necessary for everyone."
+    }
+  ]
+}
