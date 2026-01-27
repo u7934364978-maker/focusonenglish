@@ -36,6 +36,20 @@ export const localCourseService = {
 
       // Convert local format to Lesson interface
       const items = Array.isArray(exercisesData) ? exercisesData : (exercisesData?.items || []);
+      const exercises = this.convertItemsToExercises(items);
+      const caseStudies = theoryData?.caseStudies || exercisesData?.caseStudies || [];
+
+      // Add case study questions to exercises if they exist
+      caseStudies.forEach((cs: any) => {
+        if (cs.questions && Array.isArray(cs.questions)) {
+          const csExercises = this.convertItemsToExercises(cs.questions.map((q: any) => ({
+            ...q,
+            title: cs.title || 'Case Study',
+            instructions: cs.scenario || cs.instructions || 'Based on the case study scenario:'
+          })));
+          exercises.push(...csExercises);
+        }
+      });
       
       const lesson: Lesson = {
         id: `${sector}-${level}-${trimester}-${weekId}`,
@@ -46,8 +60,8 @@ export const localCourseService = {
         audioUrl: theoryData?.audioUrl || exercisesData?.audioUrl,
         videoUrl: theoryData?.videoUrl || exercisesData?.videoUrl,
         theoryContent: theoryData ? this.formatTheoryToMarkdown(theoryData) : undefined,
-        exercises: this.convertItemsToExercises(items),
-        caseStudies: theoryData?.caseStudies || exercisesData?.caseStudies
+        exercises: exercises,
+        caseStudies: caseStudies
       };
 
       return lesson;
@@ -66,13 +80,25 @@ export const localCourseService = {
 
   convertItemsToExercises(items: any[]): Exercise[] {
     if (!items) return [];
+    
+    const normalizeAnswer = (ans: any): string | string[] => {
+      if (!ans && ans !== 0) return '';
+      if (Array.isArray(ans)) return ans;
+      if (typeof ans !== 'string') return ans.toString();
+      
+      if (ans.includes('/')) {
+        return ans.split('/').map(a => a.trim()).filter(Boolean);
+      }
+      return ans;
+    };
+
     return items.map((item: any) => {
       const questionText = item.question || item.prompt || '';
       const id = item.id?.toString() || Math.random().toString(36).substr(2, 9);
 
       // Multiple Choice
-      if (item.type === 'multipleChoice' || item.type === 'multiple-choice') {
-        let correctAnswer = item.correctAnswer;
+      if (item.type === 'multipleChoice' || item.type === 'multiple-choice' || item.type === 'multiple_choice' || (item.type === 'grammar' && item.options) || (item.type === 'roleplay' && item.options)) {
+        let correctAnswer = item.correctAnswer || item.answer;
         if (typeof item.answerIndex === 'number' && item.options) {
           correctAnswer = item.options[item.answerIndex];
         } else if (typeof item.correctAnswer === 'number' && item.options) {
@@ -82,8 +108,8 @@ export const localCourseService = {
         return {
           id: id,
           type: 'grammar',
-          title: 'Exercise',
-          instructions: 'Choose the correct option.',
+          title: item.title || 'Exercise',
+          instructions: item.instructions || 'Choose the correct option.',
           questions: [
             {
               id: id + '-q',
@@ -99,18 +125,20 @@ export const localCourseService = {
       }
       
       // Fill in the blanks
-      if (item.type === 'fill-in-the-blank' || item.type === 'fillBlanks' || item.type === 'fill-blank') {
+      if (item.type === 'fill-in-the-blank' || item.type === 'fillBlanks' || item.type === 'fill-blank' || item.type === 'fill_in_the_blank') {
+        const normalized = normalizeAnswer(item.correctAnswer || item.answers || item.answer || '');
         return {
           id: id,
           type: 'grammar',
-          title: 'Fill in the Blanks',
-          instructions: 'Complete the sentence with the correct form.',
+          title: item.title || 'Fill in the Blanks',
+          instructions: item.instructions || 'Complete the sentence with the correct form.',
           questions: [
             {
               id: id + '-q',
               type: 'fill-blank',
               question: questionText,
-              correctAnswer: item.correctAnswer || item.answers || '',
+              correctAnswer: Array.isArray(normalized) ? normalized[0] : normalized,
+              acceptableAnswers: Array.isArray(normalized) ? normalized : [normalized],
               explanation: item.explanation,
               points: 1
             }
@@ -118,17 +146,18 @@ export const localCourseService = {
         } as any;
       }
 
-      // Matching
-      if (item.type === 'matching') {
+      // Matching / Vocabulary Match / Crossword fallback
+      if (item.type === 'matching' || item.type === 'vocabulary-match' || item.type === 'crossword') {
+        const matchingItems = item.pairs || item.items || [];
         return {
           id: id,
           type: 'matching',
-          title: 'Matching Exercise',
-          instructions: questionText || 'Match the terms with their definitions.',
-          pairs: (item.pairs || []).map((p: any, idx: number) => ({
+          title: item.title || (item.type === 'crossword' ? 'Crossword Clues' : 'Matching Exercise'),
+          instructions: item.instructions || item.question || item.prompt || (item.type === 'crossword' ? 'Match the words to their clues.' : 'Match the terms with their definitions.'),
+          pairs: matchingItems.map((p: any, idx: number) => ({
             id: `${id}-p${idx}`,
             word: p.left || p.term || p.word || '',
-            correctMatch: p.right || p.definition || p.match || '',
+            correctMatch: p.right || p.definition || p.match || p.clue || '',
             distractors: p.distractors || [],
             points: 1
           }))
@@ -198,18 +227,64 @@ export const localCourseService = {
       }
 
       // Roleplay / Speaking
-      if (item.type === 'rolePlayPrompt' || item.type === 'roleplay' || item.type === 'speaking') {
+      if (item.type === 'rolePlayPrompt' || item.type === 'roleplay' || item.type === 'speaking' || item.type === 'rolePlay') {
         const fullPrompt = item.context ? `${item.context}\n\nTask: ${item.prompt}` : item.prompt;
         return {
           id: id,
           type: 'speaking',
           title: item.title || 'Speaking Practice',
           prompt: fullPrompt,
-          targetWords: item.keyPhrases || item.keywords || [],
-          hints: item.keyPhrases || [],
+          targetWords: item.keyPhrases || item.keywords || item.suggestedPhrases || [],
+          hints: item.keyPhrases || item.suggestedPhrases || [],
           timeLimit: item.timeLimit || 60,
           expectedResponse: item.modelAnswer || item.expectedResponse
         } as any;
+      }
+
+      // Reordering
+      if (item.type === 'reorder' || item.type === 'sentence-reordering' || item.type === 'sentence-ordering') {
+        if (item.sentences && Array.isArray(item.sentences)) {
+          return {
+            id: id,
+            type: 'sentence-reordering',
+            title: item.title || 'Reorder the Sentences',
+            instructions: item.instructions || item.prompt || 'Put the sentences in the correct order.',
+            sentences: item.sentences,
+            correctOrder: item.correctOrder || Array.from({ length: item.sentences.length }, (_, i) => i),
+            explanation: item.explanation
+          } as any;
+        } else if (item.sentence) {
+          // Word reordering
+          const normalizedSentences = normalizeAnswer(item.sentence);
+          const targetSentence = Array.isArray(normalizedSentences) ? normalizedSentences[0] : normalizedSentences;
+          const acceptableVariations = Array.isArray(normalizedSentences) ? normalizedSentences.slice(1) : [];
+          
+          const words = targetSentence.split(' ');
+          const shuffled = [...words].sort(() => Math.random() - 0.5);
+
+          return {
+            id: id,
+            type: 'sentence-building',
+            title: item.title || 'Build the Sentence',
+            instructions: item.instructions || item.prompt || 'Reorder the words to form a correct sentence.',
+            challenges: [
+              {
+                id: id + '-c',
+                prompt: item.prompt || 'Arrange the words to form a correct sentence:',
+                targetSentence: targetSentence,
+                acceptableVariations: acceptableVariations,
+                scrambled: shuffled.join(' '),
+                translation: item.explanation,
+                difficulty: 'medium',
+                words: words.map((w: string, i: number) => ({
+                  id: `${id}-w${i}`,
+                  text: w,
+                  type: 'object'
+                }))
+              }
+            ]
+          } as any;
+        }
       }
       
       // Drag and Drop
@@ -221,12 +296,55 @@ export const localCourseService = {
         } as any;
       }
 
+      // Word Search fallback
+      if (item.type === 'word-search') {
+        return {
+          id: id,
+          type: 'reading',
+          title: item.title || 'Word Search',
+          instructions: item.instructions || 'Find the financial terms.',
+          text: `### Find these words:\n\n${(item.words || []).map((w: string) => `- ${w}`).join('\n')}`,
+          questions: [
+            {
+              id: id + '-q',
+              type: 'multiple-choice',
+              question: 'Did you find all the words in the grid?',
+              options: ['Yes, I found them all', 'I found some of them'],
+              correctAnswer: normalizeAnswer('Yes, I found them all'),
+              points: 1
+            }
+          ]
+        } as any;
+      }
+
       // Graph Analysis
       if (item.type === 'graph-analysis') {
         return {
           ...item,
           id: id,
           title: item.title || 'Graph Analysis'
+        } as any;
+      }
+
+      // Short Answer
+      if (item.type === 'short-answer' || item.type === 'shortAnswer') {
+        const normalized = normalizeAnswer(item.correctAnswer || item.answer || '');
+        return {
+          id: id,
+          type: 'grammar',
+          title: item.title || 'Short Answer',
+          instructions: item.instructions || 'Answer the question briefly.',
+          questions: [
+            {
+              id: id + '-q',
+              type: 'fill-blank',
+              question: questionText,
+              correctAnswer: Array.isArray(normalized) ? normalized[0] : normalized,
+              acceptableAnswers: Array.isArray(normalized) ? normalized : [normalized],
+              explanation: item.explanation,
+              points: item.points || 1
+            }
+          ]
         } as any;
       }
 

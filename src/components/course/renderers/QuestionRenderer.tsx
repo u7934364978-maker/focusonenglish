@@ -146,16 +146,34 @@ export default function QuestionRenderer({
             />
           ) : (
             <div className={`p-5 rounded-xl border-2 ${
-              userAnswer?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : (question.correctAnswer as string)).toLowerCase().trim()
+              (() => {
+                const normalizedUser = userAnswer?.toLowerCase().trim();
+                const correctAnswers = Array.isArray(question.correctAnswer) 
+                  ? question.correctAnswer 
+                  : [question.correctAnswer as string];
+                return correctAnswers.some(ans => ans?.toLowerCase().trim() === normalizedUser);
+              })()
                 ? 'bg-green-50 dark:bg-green-900/20 border-green-200 dark:border-green-800 text-green-800 dark:text-green-300'
                 : 'bg-red-50 dark:bg-red-900/20 border-red-200 dark:border-red-800 text-red-800 dark:text-red-300'
             }`}>
               <div className="flex items-center gap-2 mb-2">
                 <span className="text-xl">
-                  {userAnswer?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : (question.correctAnswer as string)).toLowerCase().trim() ? '✓' : '✗'}
+                  {(() => {
+                    const normalizedUser = userAnswer?.toLowerCase().trim();
+                    const correctAnswers = Array.isArray(question.correctAnswer) 
+                      ? question.correctAnswer 
+                      : [question.correctAnswer as string];
+                    return correctAnswers.some(ans => ans?.toLowerCase().trim() === normalizedUser);
+                  })() ? '✓' : '✗'}
                 </span>
                 <p className="font-black">
-                  {userAnswer?.toLowerCase().trim() === (Array.isArray(question.correctAnswer) ? question.correctAnswer[0] : (question.correctAnswer as string)).toLowerCase().trim()
+                  {(() => {
+                    const normalizedUser = userAnswer?.toLowerCase().trim();
+                    const correctAnswers = Array.isArray(question.correctAnswer) 
+                      ? question.correctAnswer 
+                      : [question.correctAnswer as string];
+                    return correctAnswers.some(ans => ans?.toLowerCase().trim() === normalizedUser);
+                  })()
                     ? 'Correct!'
                     : 'Incorrect'}
                 </p>
