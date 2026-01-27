@@ -56,13 +56,16 @@
     },
     {
       "id": "ex6",
-      "type": "vocabulary-match",
-      "question": "Match the security terms:",
-      "pairs": [
-        { "term": "Compromised", "definition": "Not secure anymore" },
-        { "term": "Limit", "definition": "Maximum amount allowed" },
-        { "term": "Virtual Card", "definition": "Digital-only card" }
-      ]
+      "type": "multiple-choice",
+      "question": "When a bank account is 'Compromised', it means:",
+      "options": [
+        "It is being upgraded",
+        "It is no longer secure",
+        "It has reached its limit",
+        "It is shared with a friend"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Compromised means security has been breached."
     },
     {
       "id": "ex7",
@@ -139,13 +142,16 @@
     },
     {
       "id": "ex14",
-      "type": "vocabulary-match",
-      "question": "Match the actions:",
-      "pairs": [
-        { "term": "Report", "definition": "To tell the bank about a problem" },
-        { "term": "Replace", "definition": "To get a new card" },
-        { "term": "Unfreeze", "definition": "To make the card active again" }
-      ]
+      "type": "multiple-choice",
+      "question": "What does it mean to 'Report' a fraudulent transaction?",
+      "options": [
+        "To ignore it",
+        "To tell the bank about the problem",
+        "To pay for it",
+        "To share it on social media"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reporting is the first step in resolving fraud."
     },
     {
       "id": "ex15",
@@ -409,13 +415,16 @@
     },
     {
       "id": "ex41",
-      "type": "vocabulary-match",
-      "question": "Match the fraud types with descriptions:",
-      "pairs": [
-        { "term": "Identity theft", "definition": "Stealing personal info to act as someone else" },
-        { "term": "Phishing", "definition": "Fake emails to steal logins" },
-        { "term": "Unauthorized charge", "definition": "A transaction you didn't make" }
-      ]
+      "type": "multiple-choice",
+      "question": "Identity theft involves:",
+      "options": [
+        "Stealing someone's wallet",
+        "Stealing personal info to act as someone else",
+        "Losing your own ID card",
+        "Renewing your passport"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Identity theft is a serious form of fraud where someone impersonates you."
     },
     {
       "id": "ex42",
@@ -499,10 +508,11 @@
     },
     {
       "id": "ex50",
-      "type": "fill-in-the-blank",
-      "question": "I ________ (not / receive) the physical card in the mail.",
-      "answer": "didn't receive",
-      "explanation": "Negative past simple: didn't + base form."
+      "type": "word-search",
+      "title": "Security & Fraud Word Search",
+      "instructions": "Find the security terms in the grid.",
+      "words": ["PHISHING", "BIOMETRICS", "SCAM", "FREEZE", "FRAUD", "VIRTUAL", "LIMIT", "REFUND"],
+      "gridSize": 10
     }
   ]
 }

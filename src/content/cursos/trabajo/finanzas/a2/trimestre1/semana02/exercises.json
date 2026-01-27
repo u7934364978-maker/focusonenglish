@@ -56,13 +56,16 @@
     },
     {
       "id": "ex6",
-      "type": "vocabulary-match",
-      "question": "Match the transaction terms:",
-      "pairs": [
-        { "term": "Pending", "definition": "Authorized but not yet finalized" },
-        { "term": "Settled", "definition": "Completed and funds moved" },
-        { "term": "Refund", "definition": "Money returned to account" }
-      ]
+      "type": "multiple-choice",
+      "question": "If a transaction is 'Pending', it means:",
+      "options": [
+        "It was rejected",
+        "It is completed and finalized",
+        "It is authorized but not yet finalized",
+        "It was refunded"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pending transactions are waiting for the final settlement."
     },
     {
       "id": "ex7",
@@ -139,13 +142,16 @@
     },
     {
       "id": "ex14",
-      "type": "vocabulary-match",
-      "question": "Match the merchants with categories:",
-      "pairs": [
-        { "term": "Starbucks", "definition": "Entertainment & Dining" },
-        { "term": "Uber", "definition": "Transport" },
-        { "term": "Netflix", "definition": "Subscriptions" }
-      ]
+      "type": "multiple-choice",
+      "question": "Which merchant would typically fall under the 'Transport' category?",
+      "options": [
+        "Starbucks",
+        "Uber",
+        "Netflix",
+        "Amazon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Uber is a ride-sharing service, categorized as transport."
     },
     {
       "id": "ex15",
@@ -409,13 +415,16 @@
     },
     {
       "id": "ex41",
-      "type": "vocabulary-match",
-      "question": "Match the irregular verbs with their past forms:",
-      "pairs": [
-        { "term": "Give", "definition": "Gave" },
-        { "term": "Take", "definition": "Took" },
-        { "term": "Make", "definition": "Made" }
-      ]
+      "type": "multiple-choice",
+      "question": "What is the past simple of the verb 'to make'?",
+      "options": [
+        "Maked",
+        "Made",
+        "Make",
+        "Mad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Make' is an irregular verb; its past form is 'made'."
     },
     {
       "id": "ex42",
@@ -499,10 +508,15 @@
     },
     {
       "id": "ex50",
-      "type": "fill-in-the-blank",
-      "question": "He ________ (send) a message to customer support.",
-      "answer": "sent",
-      "explanation": "The past simple of 'send' is 'sent'."
+      "type": "crossword",
+      "title": "Smart Statements Crossword",
+      "instructions": "Complete the crossword with transaction-related terms.",
+      "items": [
+        { "word": "MERCHANT", "clue": "The business where you buy things", "direction": "across", "row": 0, "col": 0 },
+        { "word": "REFUND", "clue": "Money returned to your account", "direction": "down", "row": 0, "col": 2 },
+        { "word": "PENDING", "clue": "Waiting for finalization", "direction": "across", "row": 2, "col": 0 },
+        { "word": "CASHBACK", "clue": "Rewards in the form of money back", "direction": "down", "row": 2, "col": 5 }
+      ]
     }
   ]
 }

@@ -56,13 +56,16 @@
     },
     {
       "id": "ex6",
-      "type": "vocabulary-match",
-      "question": "Match the lending terms:",
-      "pairs": [
-        { "term": "Instant Approval", "definition": "Granted in seconds via app" },
-        { "term": "Underwriting", "definition": "Risk assessment process" },
-        { "term": "Collateral", "definition": "Asset used as security" }
-      ]
+      "type": "multiple-choice",
+      "question": "What is 'Instant Approval' in digital lending?",
+      "options": [
+        "Waiting 5 business days for a letter",
+        "A loan decision granted in seconds via an app",
+        "Meeting a manager at a physical branch",
+        "A loan that never needs to be paid back"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fintechs use automated systems for near-instant decisions."
     },
     {
       "id": "ex7",
@@ -139,13 +142,16 @@
     },
     {
       "id": "ex14",
-      "type": "vocabulary-match",
-      "question": "Match the superlatives:",
-      "pairs": [
-        { "term": "Large", "definition": "The largest" },
-        { "term": "Flexible", "definition": "The most flexible" },
-        { "term": "Easy", "definition": "The easiest" }
-      ]
+      "type": "multiple-choice",
+      "question": "Which is the correct superlative form of 'flexible'?",
+      "options": [
+        "Flexiblest",
+        "The most flexible",
+        "More flexible",
+        "The flexiblier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Long adjectives use 'the most' for the superlative form."
     },
     {
       "id": "ex15",
@@ -409,13 +415,16 @@
     },
     {
       "id": "ex41",
-      "type": "vocabulary-match",
-      "question": "Match the adjective with its superlative:",
-      "pairs": [
-        { "term": "Near", "definition": "The nearest" },
-        { "term": "Profitable", "definition": "The most profitable" },
-        { "term": "Risky", "definition": "The riskiest" }
-      ]
+      "type": "multiple-choice",
+      "question": "What is the superlative of 'risky'?",
+      "options": [
+        "The most risky",
+        "The riskiest",
+        "Riskier",
+        "The riskest"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adjectives ending in -y change to -iest in the superlative."
     },
     {
       "id": "ex42",
@@ -499,10 +508,11 @@
     },
     {
       "id": "ex50",
-      "type": "fill-in-the-blank",
-      "question": "The ________ (important) thing is to avoid debt.",
-      "answer": "most important",
-      "explanation": "Long adjective."
+      "type": "word-search",
+      "title": "Digital Loans Word Search",
+      "instructions": "Find the lending terms in the grid.",
+      "words": ["MORTGAGE", "CREDIT", "SCORE", "REPAYMENT", "LENDER", "APPROVAL", "COLLATERAL", "DEBT"],
+      "gridSize": 10
     }
   ]
 }

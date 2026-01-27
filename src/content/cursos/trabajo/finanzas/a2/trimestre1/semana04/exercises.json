@@ -56,13 +56,16 @@
     },
     {
       "id": "ex6",
-      "type": "vocabulary-match",
-      "question": "Match the comparison terms:",
-      "pairs": [
-        { "term": "Hidden Fees", "definition": "Unexpected charges" },
-        { "term": "Seamless", "definition": "Smooth and without problems" },
-        { "term": "Scalable", "definition": "Able to grow easily" }
-      ]
+      "type": "multiple-choice",
+      "question": "If a banking app is 'Seamless', it means:",
+      "options": [
+        "It is very expensive",
+        "It is smooth and works without problems",
+        "It has many hidden fees",
+        "It requires a paper application"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Seamless means a smooth user experience."
     },
     {
       "id": "ex7",
@@ -139,13 +142,16 @@
     },
     {
       "id": "ex14",
-      "type": "vocabulary-match",
-      "question": "Match the metrics:",
-      "pairs": [
-        { "term": "APY", "definition": "Interest earned" },
-        { "term": "UX", "definition": "App experience" },
-        { "term": "Fee", "definition": "Account cost" }
-      ]
+      "type": "multiple-choice",
+      "question": "What does 'UX' stand for in the context of mobile apps?",
+      "options": [
+        "Unit Exchange",
+        "User Experience",
+        "Universal X-ray",
+        "Utility Expansion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "UX refers to how a user interacts with and experiences an app."
     },
     {
       "id": "ex15",
@@ -409,13 +415,16 @@
     },
     {
       "id": "ex41",
-      "type": "vocabulary-match",
-      "question": "Match the adjective with its comparative:",
-      "pairs": [
-        { "term": "Busy", "definition": "Busier" },
-        { "term": "Large", "definition": "Larger" },
-        { "term": "Risky", "definition": "Riskier" }
-      ]
+      "type": "multiple-choice",
+      "question": "Which is the correct comparative form of the adjective 'busy'?",
+      "options": [
+        "Busyier",
+        "More busy",
+        "Busier",
+        "Busyest"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Adjectives ending in -y change to -ier in the comparative form."
     },
     {
       "id": "ex42",
@@ -499,10 +508,15 @@
     },
     {
       "id": "ex50",
-      "type": "fill-in-the-blank",
-      "question": "Neobanks are ________ (popular) with young people.",
-      "answer": "more popular",
-      "explanation": "Long adjective."
+      "type": "crossword",
+      "title": "Bank Comparisons Crossword",
+      "instructions": "Complete the crossword with comparison and banking terms.",
+      "items": [
+        { "word": "CHEAPER", "clue": "Comparative of cheap", "direction": "across", "row": 0, "col": 0 },
+        { "word": "BETTER", "clue": "Comparative of good", "direction": "down", "row": 0, "col": 1 },
+        { "word": "SEAMLESS", "clue": "Smooth and problem-free", "direction": "across", "row": 2, "col": 0 },
+        { "word": "FEES", "clue": "Extra costs for a service", "direction": "down", "row": 2, "col": 5 }
+      ]
     }
   ]
 }

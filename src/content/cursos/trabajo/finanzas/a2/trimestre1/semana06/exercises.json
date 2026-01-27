@@ -380,6 +380,19 @@
       "prompt": "Reorder the sentence:",
       "sentence": "Often the digital support is excellent",
       "explanation": "A menudo el soporte digital es excelente."
+    },
+    {
+      "id": "fin-a2-w06-51",
+      "type": "crossword",
+      "title": "Digital Support Crossword",
+      "prompt": "Complete the crossword with support-related terms.",
+      "items": [
+        { "word": "CHATBOT", "clue": "AI that answers your questions", "direction": "across", "row": 0, "col": 0 },
+        { "word": "TICKET", "clue": "What you open to track an issue", "direction": "down", "row": 0, "col": 3 },
+        { "word": "REFUND", "clue": "Money returned for a charge", "direction": "across", "row": 2, "col": 0 },
+        { "word": "ESCALATE", "clue": "Move a problem to a human manager", "direction": "down", "row": 2, "col": 5 }
+      ],
+      "explanation": "Vocabulary related to digital customer support."
     }
   ]
 }

@@ -380,6 +380,15 @@
       "prompt": "Reorder the sentence:",
       "sentence": "Never share your face ID",
       "explanation": "Nunca compartas tu Face ID."
+    },
+    {
+      "id": "fin-a2-w07-51",
+      "type": "word-search",
+      "title": "Contactless & Wearable Word Search",
+      "prompt": "Find the security and tech terms in the grid.",
+      "words": ["CONTACTLESS", "WEARABLE", "NFC", "TOKEN", "BIOMETRICS", "WALLET", "ENCRYPTION", "SKIMMING"],
+      "gridSize": 10,
+      "explanation": "Key terms from this week's lesson on contactless payments."
     }
   ]
 }

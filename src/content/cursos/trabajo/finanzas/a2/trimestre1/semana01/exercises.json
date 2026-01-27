@@ -62,13 +62,16 @@
     },
     {
       "id": "ex6",
-      "type": "vocabulary-match",
-      "question": "Match the modern banking terms:",
-      "pairs": [
-        { "term": "Selfie verification", "definition": "Taking a photo to prove identity" },
-        { "term": "Push notification", "definition": "Instant alert on a mobile phone" },
-        { "term": "Minimum balance", "definition": "Lowest amount to avoid fees" }
-      ]
+      "type": "multiple-choice",
+      "question": "Which term refers to an instant alert received on your smartphone?",
+      "options": [
+        "Email",
+        "Push notification",
+        "SMS",
+        "Voicemail"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Push notifications are instant alerts sent by apps."
     },
     {
       "id": "ex7",
@@ -139,13 +142,16 @@
     },
     {
       "id": "ex14",
-      "type": "vocabulary-match",
-      "question": "Match the digital actions:",
-      "pairs": [
-        { "term": "Tap", "definition": "Pressing a button on a screen" },
-        { "term": "Swipe", "definition": "Moving a finger across the screen" },
-        { "term": "Scan", "definition": "Using a camera to read data" }
-      ]
+      "type": "multiple-choice",
+      "question": "What digital action involves moving your finger across the screen to browse?",
+      "options": [
+        "Tap",
+        "Double-click",
+        "Swipe",
+        "Scan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Swiping is the standard gesture for moving through lists or pages on mobile."
     },
     {
       "id": "ex15",
@@ -409,13 +415,16 @@
     },
     {
       "id": "ex41",
-      "type": "vocabulary-match",
-      "question": "Match the verbs with their objects:",
-      "pairs": [
-        { "term": "Download", "definition": "the app" },
-        { "term": "Scan", "definition": "the ID" },
-        { "term": "Check", "definition": "the balance" }
-      ]
+      "type": "multiple-choice",
+      "question": "When you use your phone's camera to read a QR code, you are _______ it.",
+      "options": [
+        "uploading",
+        "downloading",
+        "scanning",
+        "typing"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Scanning uses the camera to capture data from a code or document."
     },
     {
       "id": "ex42",
@@ -499,10 +508,11 @@
     },
     {
       "id": "ex50",
-      "type": "fill-in-the-blank",
-      "question": "I ________ (finish) the onboarding process in five minutes.",
-      "answer": "finished",
-      "explanation": "The past simple of 'finish' is 'finished'."
+      "type": "word-search",
+      "title": "Digital Banking Word Search",
+      "instructions": "Find the fintech-related words in the grid.",
+      "words": ["NEOBANK", "ONBOARDING", "FINTECH", "PUSH", "SCAN", "SWIPE", "REALTIME", "VERIFY"],
+      "gridSize": 10
     }
   ]
 }

@@ -376,10 +376,46 @@
     },
     {
       "id": "fin-a2-w08-50",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "Going to pay by app today",
-      "explanation": "Voy a pagar por la app hoy."
+      "type": "crossword",
+      "title": "Smart Billing Crossword",
+      "instructions": "Complete the crossword puzzle with billing terms.",
+      "items": [
+        {
+          "word": "AUTOPAY",
+          "clue": "System where the bank automatically pays your bills.",
+          "direction": "across",
+          "row": 0,
+          "col": 0
+        },
+        {
+          "word": "UTILITY",
+          "clue": "Public service like water, gas, or electricity.",
+          "direction": "down",
+          "row": 0,
+          "col": 1
+        },
+        {
+          "word": "OVERDUE",
+          "clue": "A payment that was not made by the due date.",
+          "direction": "across",
+          "row": 4,
+          "col": 0
+        },
+        {
+          "word": "RECURRING",
+          "clue": "A payment that happens repeatedly at fixed intervals.",
+          "direction": "down",
+          "row": 2,
+          "col": 4
+        },
+        {
+          "word": "SUBSCRIPTION",
+          "clue": "Regular payment for a service like Netflix or Spotify.",
+          "direction": "across",
+          "row": 8,
+          "col": 0
+        }
+      ]
     }
   ]
 }

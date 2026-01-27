@@ -376,10 +376,30 @@
     },
     {
       "id": "fin-a2-w09-50",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "Everything is ready for the security launch",
-      "explanation": "Todo está listo para el lanzamiento de seguridad."
+      "type": "word-search",
+      "title": "Security Word Search",
+      "instructions": "Find the hidden words related to cybersecurity.",
+      "words": [
+        "PHISHING",
+        "PADLOCK",
+        "CHECKOUT",
+        "BROWSER",
+        "OTP",
+        "ENCRYPTION",
+        "SCAM",
+        "VIRTUAL"
+      ],
+      "gridSize": 12,
+      "clues": [
+        { "word": "PHISHING", "clue": "Fraudulent email to steal data." },
+        { "word": "PADLOCK", "clue": "Icon for a secure website." },
+        { "word": "CHECKOUT", "clue": "Final stage of online payment." },
+        { "word": "BROWSER", "clue": "Software used to access the web." },
+        { "word": "OTP", "clue": "One-Time Password." },
+        { "word": "ENCRYPTION", "clue": "Protection of data from hackers." },
+        { "word": "SCAM", "clue": "A dishonest scheme; a fraud." },
+        { "word": "VIRTUAL", "clue": "Card type used for safer shopping." }
+      ]
     }
   ]
 }
