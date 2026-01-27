@@ -7,14 +7,26 @@ interface VocabularyItem {
   definition: string;
 }
 
-function VocabularyTooltip({ word, definition, children }: { word: string, definition: string, children: React.ReactNode }) {
+function VocabularyTooltip({ word, definition, children, position = 'top' }: { word: string, definition: string, children: React.ReactNode, position?: 'top' | 'bottom' }) {
+  const isBottom = position === 'bottom';
+  
   return (
     <span className="group relative inline-block border-b-2 border-dotted border-indigo-500 cursor-help">
       <span className="text-indigo-700 dark:text-indigo-400 font-bold">{children}</span>
-      <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-3 bg-slate-900 dark:bg-slate-800 text-white text-xs rounded-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 shadow-2xl border border-slate-700">
-        <span className="block font-black text-indigo-400 mb-1 uppercase tracking-widest">{word}</span>
-        {definition}
-        <span className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-slate-900 dark:border-t-slate-800"></span>
+      <span className={[
+        "absolute left-1/2 -translate-x-1/2 w-48 p-3 bg-slate-900 dark:bg-slate-800 text-white text-xs rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity pointer-events-none z-50 shadow-2xl border border-slate-700",
+        isBottom ? "top-full mt-2" : "bottom-full mb-2"
+      ].join(" ")}>
+        <span className="block font-black text-white mb-1 uppercase tracking-widest">
+          Vocabulary: <span className="text-indigo-400">{word}</span>
+        </span>
+        <div className="text-slate-300 mt-1 leading-relaxed">
+          {definition}
+        </div>
+        <span className={[
+          "absolute left-1/2 -translate-x-1/2 border-8 border-transparent",
+          isBottom ? "bottom-full border-b-slate-900 dark:border-b-slate-800" : "top-full border-t-slate-900 dark:border-t-slate-800"
+        ].join(" ")}></span>
       </span>
     </span>
   );
@@ -23,47 +35,60 @@ function VocabularyTooltip({ word, definition, children }: { word: string, defin
 function applyTooltips(children: React.ReactNode, vocabulary?: VocabularyItem[]): React.ReactNode {
   if (!vocabulary || vocabulary.length === 0) return children;
 
-  return React.Children.map(children, (child) => {
-    if (typeof child !== "string") {
-      if (React.isValidElement(child) && (child.props as any).children) {
-        return React.cloneElement(child, {
-          ...(child.props as any),
-          children: applyTooltips((child.props as any).children, vocabulary),
-        } as any);
-      }
-      return child;
-    }
+  let isFirstString = true;
 
-    let parts: (string | React.ReactNode)[] = [child];
-
-    vocabulary.forEach((vocab) => {
-      const newParts: (string | React.ReactNode)[] = [];
-      const regex = new RegExp(`\\b(${vocab.word})\\b`, "gi");
-
-      parts.forEach((part) => {
-        if (typeof part !== "string") {
-          newParts.push(part);
-          return;
+  const processNode = (node: React.ReactNode): React.ReactNode => {
+    return React.Children.map(node, (child) => {
+      if (typeof child !== "string") {
+        if (React.isValidElement(child) && (child.props as any).children) {
+          return React.cloneElement(child, {
+            ...(child.props as any),
+            children: processNode((child.props as any).children),
+          } as any);
         }
+        return child;
+      }
 
-        const splitText = part.split(regex);
-        splitText.forEach((t, i) => {
-          if (t.toLowerCase() === vocab.word.toLowerCase()) {
-            newParts.push(
-              <VocabularyTooltip key={`${vocab.word}-${i}`} word={vocab.word} definition={vocab.definition}>
-                {t}
-              </VocabularyTooltip>
-            );
-          } else if (t) {
-            newParts.push(t);
+      let parts: (string | React.ReactNode)[] = [child];
+      const currentIsFirst = isFirstString;
+      isFirstString = false;
+
+      vocabulary.forEach((vocab) => {
+        const newParts: (string | React.ReactNode)[] = [];
+        const regex = new RegExp(`\\b(${vocab.word})\\b`, "gi");
+
+        parts.forEach((part) => {
+          if (typeof part !== "string") {
+            newParts.push(part);
+            return;
           }
-        });
-      });
-      parts = newParts;
-    });
 
-    return <>{parts}</>;
-  });
+          const splitText = part.split(regex);
+          splitText.forEach((t, i) => {
+            if (t.toLowerCase() === vocab.word.toLowerCase()) {
+              newParts.push(
+                <VocabularyTooltip 
+                  key={`${vocab.word}-${i}`} 
+                  word={vocab.word} 
+                  definition={vocab.definition}
+                  position={currentIsFirst ? 'bottom' : 'top'}
+                >
+                  {t}
+                </VocabularyTooltip>
+              );
+            } else if (t) {
+              newParts.push(t);
+            }
+          });
+        });
+        parts = newParts;
+      });
+
+      return <>{parts}</>;
+    });
+  };
+
+  return processNode(children);
 }
 
 function looksLikeLooseListLine(line: string) {

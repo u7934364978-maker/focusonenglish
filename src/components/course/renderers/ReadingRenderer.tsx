@@ -53,7 +53,7 @@ export default function ReadingRenderer({
             )}
           </div>
 
-          <div className="lg:max-h-[calc(100vh-18rem)] overflow-y-auto pr-4 custom-scrollbar">
+          <div className="pr-4">
             <Markdown 
               content={exercise.text || exercise.readingText || ''} 
               vocabulary={exercise.vocabularyHelp}
