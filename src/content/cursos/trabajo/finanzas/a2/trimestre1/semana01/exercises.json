@@ -1,6 +1,6 @@
 {
   "title": "Digital Banking & Past Simple Exercises",
-  "exercises": [
+  "items": [
     {
       "id": "ex1",
       "type": "multiple-choice",
@@ -513,6 +513,76 @@
       "instructions": "Find the fintech-related words in the grid.",
       "words": ["NEOBANK", "ONBOARDING", "FINTECH", "PUSH", "SCAN", "SWIPE", "REALTIME", "VERIFY"],
       "gridSize": 10
+    },
+    {
+      "id": "fin-a2-w1-m1",
+      "type": "matching",
+      "prompt": "Match the onboarding action with its purpose.",
+      "pairs": [
+        {"term": "Scan ID", "definition": "Identity verification"},
+        {"term": "Take Selfie", "definition": "Biometric security"},
+        {"term": "Download App", "definition": "Access digital services"},
+        {"term": "Verify Email", "definition": "Contact validation"}
+      ]
+    },
+    {
+      "id": "fin-a2-w1-r1",
+      "type": "reading-comprehension",
+      "title": "Switching to a Neobank",
+      "text": "Last week, Sarah **downloaded** a neobank app. She wanted to open a new account. First, she **scanned** her passport. Then, she **took** a selfie for verification. The bank **approved** her account in ten minutes. She **transferred** 500 euros from her old bank. She **liked** the push notifications for every payment.",
+      "vocabularyHelp": [
+        { "word": "downloaded", "definition": "Copied a program from the internet to a phone." },
+        { "word": "scanned", "definition": "Used a camera to read a document." },
+        { "word": "approved", "definition": "Officially accepted." },
+        { "word": "transferred", "definition": "Moved money from one place to another." }
+      ],
+      "questions": [
+        {
+          "question": "What did Sarah do first?",
+          "options": ["She took a selfie", "She scanned her passport", "She downloaded the app", "She transferred money"],
+          "answerIndex": 2,
+          "explanation": "The text says 'First, she downloaded a neobank app'."
+        },
+        {
+          "question": "How long did the verification take?",
+          "options": ["One hour", "Ten minutes", "Two days", "Five minutes"],
+          "answerIndex": 1,
+          "explanation": "The text says 'The bank approved her account in ten minutes'."
+        }
+      ]
+    },
+    {
+      "id": "fin-a2-w1-l1",
+      "type": "listening-comprehension",
+      "title": "Support Call: ID Verification",
+      "transcript": "Agent: Hello, this is Neobank support. How can I help you?\nCustomer: Hi, I scanned my ID, but the app rejected it.\nAgent: I see. Did you use a dark background?\nCustomer: No, I used a white table. It was very bright.\nAgent: That is the problem. Please use a dark background and scan it again.\nCustomer: Okay, I will try that now. Thank you.",
+      "vocabularyHelp": [
+        { "word": "rejected", "definition": "Refused to accept." },
+        { "word": "background", "definition": "The area behind the main object." },
+        { "word": "bright", "definition": "With a lot of light." }
+      ],
+      "questions": [
+        {
+          "question": "What is the customer's problem?",
+          "options": ["He lost his phone", "The app rejected his ID scan", "He forgot his password", "He wants to close his account"],
+          "answerIndex": 1,
+          "explanation": "The customer says 'I scanned my ID, but the app rejected it'."
+        },
+        {
+          "question": "What was the mistake?",
+          "options": ["The room was dark", "The table was too bright", "He used the wrong ID", "The app crashed"],
+          "answerIndex": 1,
+          "explanation": "The agent says the white, bright table was the problem."
+        }
+      ]
+    },
+    {
+      "id": "fin-a2-w1-writing-1",
+      "type": "writingTask",
+      "title": "Email to Support",
+      "prompt": "Write a short email (30-50 words) to bank support. Say that you scanned your document but you are still waiting for approval. Use the past simple.",
+      "modelAnswer": "Subject: Account Approval. Hello, I downloaded the app yesterday and I scanned my passport. I also took a selfie. However, my account is not active yet. Can you help me? Thank you.",
+      "keywords": ["scanned", "downloaded", "waiting", "approval"]
     }
   ]
 }

@@ -55,6 +55,99 @@
     { "id": "fin-b1-w1-47", "type": "multipleChoice", "prompt": "What is 'online banking'?", "options": ["Banking in a line at the office", "Performing transactions via the internet", "Playing games at the bank", "A type of physical safe"], "answerIndex": 1, "explanation": "Online banking uses web or mobile apps." },
     { "id": "fin-b1-w1-48", "type": "multipleChoice", "prompt": "What is 'identity theft'?", "options": ["Stealing a person's wallet", "Illegal use of someone's personal data", "Forgetting your name", "Borrowing a friend's ID"], "answerIndex": 1, "explanation": "Identity theft is a serious financial crime." },
     { "id": "fin-b1-w1-49", "type": "multipleChoice", "prompt": "What is a 'safe-deposit box'?", "options": ["A cardboard box", "A secure container in a bank vault for valuables", "A type of ATM", "The manager's lunchbox"], "answerIndex": 1, "explanation": "Banks rent these for storing important items." },
-    { "id": "fin-b1-w1-50", "type": "multipleChoice", "prompt": "What is 'insolvency'?", "options": ["Being very healthy", "Unable to pay debts when due", "A solution for a problem", "Opening a second account"], "answerIndex": 1, "explanation": "Insolvency leads to bankruptcy." }
+    { "id": "fin-b1-w1-50", "type": "multipleChoice", "prompt": "What is 'insolvency'?", "options": ["Being very healthy", "Unable to pay debts when due", "A solution for a problem", "Opening a second account"], "answerIndex": 1, "explanation": "Insolvency leads to bankruptcy." },
+    {
+      "id": "fin-b1-w1-reading-1",
+      "type": "reading-comprehension",
+      "title": "Commercial vs. Investment Banking",
+      "text": "The banking industry is primarily divided into two main sectors: commercial banking and investment banking. Commercial banks focus on individual consumers and small to medium-sized businesses. Their primary functions include accepting deposits, providing checking and savings accounts, and issuing loans such as mortgages and personal credit. These institutions earn profit mainly through the 'spread'—the difference between the interest they pay to depositors and the interest they charge to borrowers.\n\nIn contrast, investment banks deal with large corporations, institutional investors, and governments. Instead of taking deposits, they facilitate complex financial transactions. Their core services include underwriting new stock and bond issues, managing mergers and acquisitions (M&A), and providing financial advisory services. Investment bankers are often involved in high-stakes deal-making that requires deep market analysis and strategic planning. While commercial banking is highly regulated and generally considered stable, investment banking tends to be more volatile but offers higher potential returns during periods of economic growth.",
+      "questions": [
+        {
+          "id": "fin-b1-w1-reading-q1",
+          "type": "multiple-choice",
+          "question": "What is the primary source of profit for commercial banks?",
+          "options": [
+            "Selling stocks and bonds",
+            "Managing mergers and acquisitions",
+            "The difference between interest paid and interest charged",
+            "Charging for financial advisory services"
+          ],
+          "correctAnswer": "The difference between interest paid and interest charged",
+          "explanation": "Commercial banks profit from the 'spread' between deposit and loan interest rates."
+        },
+        {
+          "id": "fin-b1-w1-reading-q2",
+          "type": "multiple-choice",
+          "question": "Which service is typical of an investment bank?",
+          "options": [
+            "Opening a personal savings account",
+            "Underwriting new stock issues",
+            "Issuing small business loans",
+            "Providing physical ATM services"
+          ],
+          "correctAnswer": "Underwriting new stock issues",
+          "explanation": "Investment banks help companies raise capital by underwriting stocks and bonds."
+        }
+      ]
+    },
+    {
+      "id": "fin-b1-w1-listening-1",
+      "type": "listening-comprehension",
+      "title": "Opening a Business Account",
+      "audioUrl": "https://focusonenglish.com/audio/finanzas/b1/opening-business-account.mp3",
+      "transcript": "Agent: Good morning, and welcome to Metro Bank. How can I help you today?\nCustomer: Good morning. I'd like to open a business account for my new consulting firm.\nAgent: Certainly. Have you registered your business with the Chamber of Commerce yet?\nCustomer: Yes, I have all the registration documents right here, along with my tax identification number.\nAgent: Perfect. We offer two main types of business accounts: the 'Startup Essential' with no monthly fees for the first year, and the 'Corporate Plus' which includes international wire transfers at a discounted rate.\nCustomer: Since I'll be working with international clients, the Corporate Plus sounds more appropriate.\nAgent: Excellent choice. I'll also need a copy of your ID and a proof of address for the business headquarters.\nCustomer: I have those as well. How long does the activation usually take?\nAgent: Usually, the account is active within 24 to 48 hours once all documents are verified.",
+      "questions": [
+        {
+          "id": "fin-b1-w1-listening-q1",
+          "type": "multiple-choice",
+          "question": "What kind of business does the customer have?",
+          "options": [
+            "A retail store",
+            "A consulting firm",
+            "A manufacturing plant",
+            "A restaurant"
+          ],
+          "correctAnswer": "A consulting firm",
+          "explanation": "The customer mentions it's a new consulting firm."
+        },
+        {
+          "id": "fin-b1-w1-listening-q2",
+          "type": "multiple-choice",
+          "question": "Why did the customer choose the 'Corporate Plus' account?",
+          "options": [
+            "Because it has no monthly fees",
+            "Because it includes free credit cards",
+            "Because it offers discounted international wire transfers",
+            "Because it's the only one available"
+          ],
+          "correctAnswer": "Because it offers discounted international wire transfers",
+          "explanation": "The customer mentions working with international clients."
+        }
+      ]
+    },
+    {
+      "id": "fin-b1-w1-matching-1",
+      "type": "matching",
+      "title": "Financial Vocabulary Match",
+      "prompt": "Match the banking terms with their correct definitions.",
+      "pairs": [
+        { "term": "Overdraft", "definition": "An extension of credit from a lending institution when an account reaches zero." },
+        { "term": "Collateral", "definition": "An asset that a lender accepts as security for a loan." },
+        { "term": "Liquidity", "definition": "The ease with which an asset can be converted into ready cash." },
+        { "term": "Solvency", "definition": "The ability of a company to meet its long-term financial obligations." },
+        { "term": "Amortization", "definition": "The process of gradually paying off a debt over a period of time." }
+      ]
+    },
+    {
+      "id": "fin-b1-w1-writing-1",
+      "type": "writing-task",
+      "title": "Loan Inquiry Email",
+      "writingType": "email",
+      "prompt": "Write a formal email (100-150 words) to your bank manager requesting information about a small business loan. Mention the purpose of the loan, the amount you are considering, and ask about the current interest rates and required documentation.",
+      "minWords": 100,
+      "maxWords": 200,
+      "tips": ["Use formal greetings", "State your purpose clearly", "Ask about specific requirements", "Use terms like 'interest rate', 'collateral', and 'repayment schedule'"],
+      "modelAnswer": "Subject: Inquiry Regarding Small Business Loan – [Your Company Name]\n\nDear Mr. Smith,\n\nI am writing to you today as a long-standing customer of Metro Bank to inquire about the possibility of obtaining a small business loan for my consulting firm, 'Bright Strategy'. \n\nWe are currently planning to expand our operations and upgrade our office technology. For this purpose, we are considering a loan in the region of $50,000. Could you please provide information regarding the current interest rates for this type of credit? Additionally, I would like to know what documentation is required for the application process and if specific collateral is necessary.\n\nThank you for your time and assistance. I look forward to hearing from you soon.\n\nBest regards,\n\n[Your Name]\nManaging Director"
+    }
   ]
 }

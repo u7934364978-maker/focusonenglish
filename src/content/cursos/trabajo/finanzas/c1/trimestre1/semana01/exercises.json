@@ -405,6 +405,100 @@
       "options": ["We haven't seen such a mess ever.", "Never have we witnessed such a catastrophic failure of oversight.", "We never saw such a bad thing.", "Never we saw such a problem."],
       "answerIndex": 1,
       "explanation": "The use of 'Never have we witnessed' combines inversion and high-level vocabulary for a professional tone."
+    },
+    {
+      "id": "fin-c1-w1-reading-1",
+      "type": "reading-comprehension",
+      "title": "The Art of Financial Modeling",
+      "text": "Financial modeling is often described as both a science and an art. The 'science' lies in the rigorous application of accounting principles and mathematical formulas to project a company's financial future. However, the 'art' involves making nuanced assumptions about market trends, consumer behavior, and macroeconomic shifts. A superior modeler must not only be proficient in Excel but also possess a deep understanding of the underlying business drivers. One of the most critical aspects of advanced modeling is the integration of the three core financial statements: the Income Statement, the Balance Sheet, and the Cash Flow Statement. This integration ensures that the model is internally consistent. For instance, the Net Income from the Income Statement flows into Retained Earnings on the Balance Sheet and serves as the starting point for the Cash Flow from Operations. Furthermore, the model must be built with flexibility in mind, allowing stakeholders to perform 'what-if' analyses through scenario and sensitivity tools. In the high-stakes world of investment banking and corporate finance, a robust model is the bedrock upon which multi-billion dollar decisions are made.",
+      "questions": [
+        {
+          "id": "fin-c1-w1-reading-q1",
+          "type": "multiple-choice",
+          "question": "What does the author imply by calling financial modeling an 'art'?",
+          "options": [
+            "It requires a high degree of creativity in graphic design.",
+            "It involves making subjective but informed judgments about the future.",
+            "It is less important than the scientific aspect.",
+            "It is primarily used for marketing purposes."
+          ],
+          "correctAnswer": "It involves making subjective but informed judgments about the future.",
+          "explanation": "The 'art' refers to the nuanced assumptions modelers make about unpredictable factors."
+        },
+        {
+          "id": "fin-c1-w1-reading-q2",
+          "type": "multiple-choice",
+          "question": "According to the text, why is the integration of the three financial statements crucial?",
+          "options": [
+            "To make the model look more complex to clients.",
+            "To ensure the model is internally consistent and mathematically sound.",
+            "To reduce the number of sheets in the Excel workbook.",
+            "To avoid the need for sensitivity analysis."
+          ],
+          "correctAnswer": "To ensure the model is internally consistent and mathematically sound.",
+          "explanation": "Integration ensures that all statements reconcile and reflect the same underlying reality."
+        }
+      ]
+    },
+    {
+      "id": "fin-c1-w1-listening-1",
+      "type": "listening-comprehension",
+      "title": "Quarterly Financial Review Meeting",
+      "audioUrl": "https://focusonenglish.com/audio/finanzas/c1/financial-review.mp3",
+      "transcript": "CFO: Welcome, everyone. Let's dive straight into the Q3 figures. While top-line revenue growth remained robust at 12%, I'm concerned about the compression we're seeing in our EBITDA margins.\nAnalyst: Could that be attributed to the recent surge in OPEX, specifically the R&D push in the European sector?\nCFO: Precisely. We've front-loaded a lot of expenditure which hasn't yet translated into market share. Furthermore, our working capital management has been somewhat lax. Accounts Receivable days have crept up to 45.\nAnalyst: If we don't tighten our credit terms soon, we might see a significant hit to our levered free cash flow by year-end.\nCFO: Agreed. I want a full sensitivity analysis by Friday showing how a 10% decrease in AR days would impact our year-end liquidity position. Also, pay close attention to our debt covenants; we're getting uncomfortably close to our leverage ceiling.",
+      "questions": [
+        {
+          "id": "fin-c1-w1-listening-q1",
+          "type": "multiple-choice",
+          "question": "What is the CFO's primary concern regarding the Q3 results?",
+          "options": [
+            "Total revenue is falling.",
+            "EBITDA margins are shrinking despite revenue growth.",
+            "The R&D department is understaffed.",
+            "The company is paying too much in dividends."
+          ],
+          "correctAnswer": "EBITDA margins are shrinking despite revenue growth.",
+          "explanation": "The CFO mentions concern about 'compression' in EBITDA margins."
+        },
+        {
+          "id": "fin-c1-w1-listening-q2",
+          "type": "multiple-choice",
+          "question": "What specific task does the CFO assign to the analyst?",
+          "options": [
+            "To hire a new debt consultant.",
+            "To perform a sensitivity analysis on Accounts Receivable days.",
+            "To increase credit terms for all customers.",
+            "To prepare a presentation for the European R&D team."
+          ],
+          "correctAnswer": "To perform a sensitivity analysis on Accounts Receivable days.",
+          "explanation": "The CFO asks for an analysis of how a decrease in AR days would impact liquidity."
+        }
+      ]
+    },
+    {
+      "id": "fin-c1-w1-matching-1",
+      "type": "matching",
+      "title": "Advanced Metrics Matching",
+      "prompt": "Match the advanced financial terms with their technical definitions.",
+      "pairs": [
+        { "term": "WACC", "definition": "The average rate a company is expected to pay to finance its assets." },
+        { "term": "IRR", "definition": "The discount rate that makes the net present value of all cash flows equal to zero." },
+        { "term": "NPV", "definition": "The difference between the present value of cash inflows and outflows over time." },
+        { "term": "EBITDA", "definition": "A measure of a company's overall financial performance, used as an alternative to net income." },
+        { "term": "Leverage", "definition": "The use of borrowed capital for an investment, expecting the profits to be greater than the interest payable." }
+      ]
+    },
+    {
+      "id": "fin-c1-w1-writing-1",
+      "type": "writing-task",
+      "title": "Executive Summary: Investment Memo",
+      "writingType": "essay",
+      "prompt": "You are a senior financial analyst. Write an executive summary (150-200 words) for a potential acquisition. Summarize the target company's financial health, highlighting key metrics like EBITDA growth, free cash flow, and potential synergies. Use advanced professional register and at least two examples of inversion for emphasis.",
+      "minWords": 150,
+      "maxWords": 250,
+      "tips": ["Use formal vocabulary", "Incorporate terms like 'accretive', 'synergies', and 'leverage'", "Include inversion (e.g., 'Never have we seen...', 'Only by...')"],
+      "modelAnswer": "Executive Summary: Acquisition of TechStream Solutions\n\nTechStream Solutions represents a compelling strategic acquisition for our firm. Over the past three fiscal years, the target has demonstrated robust EBITDA growth, averaging 18% annually, driven by a highly scalable SaaS model. Furthermore, their consistent generation of positive free cash flow underscores their operational efficiency.\n\nNever has the market seen such a dominant player in the niche cloud-security sector. By integrating TechStream's proprietary algorithms with our existing infrastructure, we anticipate significant cost synergies, particularly in R&D and global distribution. Not only would this acquisition be immediately accretive to our earnings per share, but it would also solidify our position as the market leader in enterprise security.\n\nWhile the target's current leverage is slightly above industry average, their strong liquidity position and predictable recurring revenue streams mitigate potential solvency risks. Only by moving swiftly can we preempt competitive bids and secure this high-growth asset at the proposed valuation. We recommend proceeding to the final due diligence phase immediately."
     }
+
   ]
 }
