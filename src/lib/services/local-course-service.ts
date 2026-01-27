@@ -36,14 +36,16 @@ export const localCourseService = {
       }
 
       // Convert local format to Lesson interface
+      const items = Array.isArray(exercisesData) ? exercisesData : (exercisesData?.items || []);
+      
       const lesson: Lesson = {
         id: `${sector}-${level}-${trimester}-${weekId}`,
-        title: exercisesData?.title || theoryData?.title || 'Professional Lesson',
-        description: exercisesData?.description || '',
+        title: theoryData?.title || exercisesData?.title || 'Professional Lesson',
+        description: theoryData?.description || exercisesData?.description || '',
         duration: 60, // Default duration
-        objectives: [],
+        objectives: theoryData?.objectives || [],
         theoryContent: theoryData ? this.formatTheoryToMarkdown(theoryData) : undefined,
-        exercises: exercisesData ? this.convertItemsToExercises(exercisesData.items) : []
+        exercises: this.convertItemsToExercises(items)
       };
 
       return lesson;
@@ -63,20 +65,30 @@ export const localCourseService = {
   convertItemsToExercises(items: any[]): Exercise[] {
     if (!items) return [];
     return items.map((item: any) => {
-      // Basic conversion from local item format to Exercise interface
+      const questionText = item.question || item.prompt || '';
+      const id = item.id?.toString() || Math.random().toString(36).substr(2, 9);
+
+      // Multiple Choice
       if (item.type === 'multipleChoice' || item.type === 'multiple-choice') {
+        let correctAnswer = item.correctAnswer;
+        if (typeof item.answerIndex === 'number' && item.options) {
+          correctAnswer = item.options[item.answerIndex];
+        } else if (typeof item.correctAnswer === 'number' && item.options) {
+          correctAnswer = item.options[item.correctAnswer];
+        }
+
         return {
-          id: item.id,
+          id: id,
           type: 'grammar',
           title: 'Exercise',
           instructions: 'Choose the correct option.',
           questions: [
             {
-              id: item.id + '-q',
+              id: id + '-q',
               type: 'multiple-choice',
-              question: item.prompt,
-              options: item.options,
-              correctAnswer: Array.isArray(item.options) ? item.options[item.answerIndex] : item.correctAnswer,
+              question: questionText,
+              options: item.options || [],
+              correctAnswer: correctAnswer || '',
               explanation: item.explanation,
               points: 1
             }
@@ -84,20 +96,62 @@ export const localCourseService = {
         } as any;
       }
       
-      if (item.type === 'readingComprehension') {
+      // Fill in the blanks
+      if (item.type === 'fill-in-the-blank' || item.type === 'fillBlanks' || item.type === 'fill-blank') {
         return {
-          id: item.id,
+          id: id,
+          type: 'grammar',
+          title: 'Fill in the Blanks',
+          instructions: 'Complete the sentence with the correct form.',
+          questions: [
+            {
+              id: id + '-q',
+              type: 'fill-blank',
+              question: questionText,
+              correctAnswer: item.correctAnswer || item.answers || '',
+              explanation: item.explanation,
+              points: 1
+            }
+          ]
+        } as any;
+      }
+
+      // Matching
+      if (item.type === 'matching') {
+        return {
+          id: id,
+          type: 'matching',
+          title: 'Matching Exercise',
+          instructions: questionText || 'Match the terms with their definitions.',
+          pairs: (item.pairs || []).map((p: any, idx: number) => ({
+            id: `${id}-p${idx}`,
+            word: p.left,
+            correctMatch: p.right,
+            distractors: [],
+            points: 1
+          }))
+        } as any;
+      }
+
+      if (item.type === 'readingComprehension') {
+        let correctAnswer = item.correctAnswer;
+        if (typeof item.answerIndex === 'number' && item.options) {
+          correctAnswer = item.options[item.answerIndex];
+        }
+
+        return {
+          id: id,
           type: 'reading',
           title: 'Reading Comprehension',
           instructions: 'Read the text and answer the question.',
           text: item.text || item.prompt,
           questions: [
             {
-              id: item.id + '-q',
+              id: id + '-q',
               type: 'multiple-choice',
               question: item.question || 'Choose the correct answer based on the text.',
-              options: item.options,
-              correctAnswer: item.options[item.answerIndex],
+              options: item.options || [],
+              correctAnswer: correctAnswer || '',
               explanation: item.explanation,
               points: 2
             }
@@ -107,7 +161,7 @@ export const localCourseService = {
 
       // Default fallback
       return {
-        id: item.id,
+        id: id,
         type: 'grammar',
         title: 'Exercise',
         questions: []
