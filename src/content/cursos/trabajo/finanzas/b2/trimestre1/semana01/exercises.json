@@ -620,6 +620,46 @@
       ],
       "answerIndex": 1,
       "explanation": "Sovereign wealth funds are national investment funds managed by governments."
+    },
+    {
+      "id": "finance-b2-w1-mc-open-banking",
+      "type": "multipleChoice",
+      "prompt": "What does 'Open Banking' primarily involve?",
+      "options": [
+        "Keeping bank branches open 24/7",
+        "Allowing third-party providers access to financial data through APIs",
+        "Eliminating all transaction fees for customers",
+        "A system where anyone can print their own currency"
+      ],
+      "answerIndex": 1,
+      "explanation": "Open Banking allows third-party financial service providers to access consumer banking, transaction, and other financial data from banks and non-bank financial institutions through APIs."
+    },
+    {
+      "id": "finance-b2-w1-mc-green-bond",
+      "type": "multipleChoice",
+      "prompt": "A 'Green Bond' is specifically designed to:",
+      "options": [
+        "Help companies pay for legal fees",
+        "Finance projects with environmental or climate benefits",
+        "Increase the circulation of physical cash",
+        "Support the construction of traditional coal power plants"
+      ],
+      "answerIndex": 1,
+      "explanation": "Green bonds are fixed-income instruments specifically earmarked to raise money for climate and environmental projects."
+    },
+    {
+      "id": "finance-b2-w1-mc-blockchain",
+      "type": "multipleChoice",
+      "prompt": "Which of the following best describes 'Blockchain'?",
+      "options": [
+        "A physical security chain used in vaults",
+        "A centralized database controlled by a single bank",
+        "A decentralized and distributed digital ledger technology",
+        "A type of high-interest savings account"
+      ],
+      "answerIndex": 2,
+      "explanation": "Blockchain is a distributed ledger technology (DLT) that allows data to be stored globally on thousands of servers while letting anyone on the network see everyone else's entries in near real-time."
     }
+
   ]
 }
