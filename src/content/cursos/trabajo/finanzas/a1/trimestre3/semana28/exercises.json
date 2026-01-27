@@ -1,0 +1,398 @@
+{
+  "title": "Ejercicios: Ahorrar Dinero",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What is a 'Piggy Bank'?",
+      "options": ["Un banco para cerdos", "Una hucha o alcancía", "Una tarjeta de crédito", "Un cajero automático"],
+      "correctAnswer": 1,
+      "explanation": "A 'piggy bank' is where you save coins at home."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (puedo) save money.",
+      "answer": "can",
+      "explanation": "'Can' is used for possibility."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the saving terms:",
+      "pairs": [
+        { "term": "Savings", "definition": "Ahorros" },
+        { "term": "Budget", "definition": "Presupuesto" },
+        { "term": "Goal", "definition": "Meta" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "If you don't spend money, you ________ it.",
+      "options": ["Lose", "Save", "Withdraw", "Change"],
+      "correctAnswer": 1,
+      "explanation": "Saving is keeping money instead of spending it."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "I put ________ (apartar) 5 euros every week.",
+      "answer": "aside",
+      "explanation": "'Put aside' means to save or reserve."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "Choose the correct negative sentence:",
+      "options": ["I can not spending money.", "I can't spend all my money.", "I am not save money.", "I don't can save."],
+      "correctAnswer": 1,
+      "explanation": "The negative of 'can' is 'can't'."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "A ________ is a plan for your money. (presupuesto)",
+      "answer": "budget",
+      "explanation": "A budget helps you manage spending."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "Match the definitions:",
+      "pairs": [
+        { "term": "Savings Account", "definition": "Account for saving" },
+        { "term": "Pocket Money", "definition": "Money from parents" },
+        { "term": "Goal", "definition": "Something you want to buy" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "Can I buy a car?",
+      "options": ["Yes, you can if you save.", "No, you can't save.", "Yes, I am save.", "No, I am not."],
+      "correctAnswer": 0,
+      "explanation": "We use 'can' for conditions and possibilities."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "My ________ is to buy a new bike. (meta)",
+      "answer": "goal",
+      "explanation": "'Goal' is 'meta'."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "Where do children usually save money?",
+      "options": ["In a vault", "In a piggy bank", "In a supermarket", "In a queue"],
+      "correctAnswer": 1,
+      "explanation": "Piggy banks are popular for children."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "Don't ________ all your cash! (gastar)",
+      "answer": "spend",
+      "explanation": "'Spend' is the opposite of 'save'."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "What is 'Paga' (money from parents) in English?",
+      "options": ["Salary", "Pocket money", "Fee", "Bonus"],
+      "correctAnswer": 1,
+      "explanation": "'Pocket money' is the common term."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "You ________ (puedes) open an account.",
+      "answer": "can",
+      "explanation": "Affirmative possibility."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Opposites:",
+      "pairs": [
+        { "term": "Save", "definition": "Spend" },
+        { "term": "Rich", "definition": "Poor" },
+        { "term": "Future", "definition": "Past" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "A budget helps you avoid...",
+      "options": ["Saving money", "Spending too much", "Going to the bank", "Having a goal"],
+      "correctAnswer": 1,
+      "explanation": "Budgets control spending."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "I save 10 ________ (por) month.",
+      "answer": "per",
+      "explanation": "'Per' is used for frequency."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "Can we save 1,000 euros in one day?",
+      "options": ["Yes, it's easy.", "No, it's difficult.", "Maybe with luck.", "Both B and C"],
+      "correctAnswer": 3,
+      "explanation": "It's generally hard but not impossible."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "Open a ________ account. (ahorros)",
+      "answer": "savings",
+      "explanation": "A 'savings account' earns interest."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "What is 'Ahorros' in English?",
+      "options": ["Saves", "Savings", "Saved", "Saving"],
+      "correctAnswer": 1,
+      "explanation": "'Savings' is the noun for the money saved."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "________ (apartar) some money for travel.",
+      "answer": "Set aside",
+      "explanation": "Phrasal verb for reserving money."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Match the percentages:",
+      "pairs": [
+        { "term": "100%", "definition": "All" },
+        { "term": "50%", "definition": "Half" },
+        { "term": "0%", "definition": "None" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "If you have a budget, you are...",
+      "options": ["Organized", "Rich", "Poor", "Bored"],
+      "correctAnswer": 0,
+      "explanation": "Organization is the key to budgeting."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (no puedo) buy that watch.",
+      "answer": "can't",
+      "explanation": "Negative possibility/ability."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "A 'goal' should be...",
+      "options": ["Impossible", "Realistic", "Secret", "Expensive"],
+      "correctAnswer": 1,
+      "explanation": "Realistic goals are easier to achieve."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "He has a ________ bank. (cerdito/hucha)",
+      "answer": "piggy",
+      "explanation": "Full term: piggy bank."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "________ you save money every month?",
+      "options": ["Can", "Are", "Do", "Is"],
+      "correctAnswer": 2,
+      "explanation": "We use 'Do' for present simple habits/actions."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "Save for a ________ day. (lluvioso/difícil)",
+      "answer": "rainy",
+      "explanation": "Idiom: 'Save for a rainy day' (ahorrar para emergencias)."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "What is 'Interés'?",
+      "options": ["Extra money from the bank", "A type of tax", "A bank fee", "A gift"],
+      "correctAnswer": 0,
+      "explanation": "Interest is what the bank pays you for your savings."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "My parents give me ________. (paga)",
+      "answer": "pocket money",
+      "explanation": "Standard term for kids."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Bank documents:",
+      "pairs": [
+        { "term": "Statement", "definition": "Extracto" },
+        { "term": "Contract", "definition": "Contrato" },
+        { "term": "Form", "definition": "Formulario" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "Which is a 'saving habit'?",
+      "options": ["Buying shoes every week", "Putting 5 euros aside", "Eating in restaurants every day", "Losing your wallet"],
+      "correctAnswer": 1,
+      "explanation": "Regular saving is a good habit."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "You can ________ (comprar) a gift.",
+      "answer": "buy",
+      "explanation": "After 'can' we use the base verb."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "What happens if you 'overspend'?",
+      "options": ["You save money", "You have no money left", "You get a bonus", "Nothing"],
+      "correctAnswer": 1,
+      "explanation": "'Overspend' means spending more than you have."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "A budget is a ________. (plan)",
+      "answer": "plan",
+      "explanation": "A plan for income and expenses."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "Is saving 'fun'?",
+      "options": ["Always", "Never", "It can be rewarding", "Only for banks"],
+      "correctAnswer": 2,
+      "explanation": "It's good to see your money grow."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "Check your ________. (saldo)",
+      "answer": "balance",
+      "explanation": "To see how much you have."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Savings goals:",
+      "pairs": [
+        { "term": "Short-term", "definition": "Next month" },
+        { "term": "Long-term", "definition": "In 10 years" },
+        { "term": "Emergency", "definition": "Unexpected" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "A 'Savings Account' is...",
+      "options": ["For daily spending", "For keeping money", "For credit", "For business"],
+      "correctAnswer": 1,
+      "explanation": "Its main purpose is to accumulate money."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "We ________ save for the future. (debemos/podemos)",
+      "answer": "can",
+      "explanation": "Focusing on 'can' for this lesson."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "How do you say 'Presupuesto'?",
+      "options": ["Budget", "Price", "Cost", "Value"],
+      "correctAnswer": 0,
+      "explanation": "'Budget' is the correct term."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "Put your ________ in the piggy bank. (monedas)",
+      "answer": "coins",
+      "explanation": "Piggy banks usually hold coins."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "Can I open an account today?",
+      "options": ["Yes, you can.", "No, you don't.", "Yes, I am.", "No, it am not."],
+      "correctAnswer": 0,
+      "explanation": "Short answer for 'Can I...?' is 'Yes, you can'."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "I have ________ euros in my bank. (cero)",
+      "answer": "zero",
+      "explanation": "0 = zero."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Match the verbs:",
+      "pairs": [
+        { "term": "Earn", "definition": "Ganar (dinero)" },
+        { "term": "Spend", "definition": "Gastar" },
+        { "term": "Owe", "definition": "Deber" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "When you 'set a goal', you...",
+      "options": ["Decide what you want", "Throw money away", "Go to sleep", "Play football"],
+      "correctAnswer": 0,
+      "explanation": "Setting a goal is defining an objective."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "Saving is ________. (bueno)",
+      "answer": "good",
+      "explanation": "Positive adjective."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "Can you save money without a bank?",
+      "options": ["No, never", "Yes, at home", "Only in the street", "Only in space"],
+      "correctAnswer": 1,
+      "explanation": "You can save in a piggy bank or a box."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "Check your ________ often. (progreso)",
+      "answer": "progress",
+      "explanation": "To see if you are reaching your goal."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "Why do people save?",
+      "options": ["For holidays", "For emergencies", "For a house", "All of the above"],
+      "correctAnswer": 3,
+      "explanation": "People save for many different reasons."
+    }
+  ]
+}

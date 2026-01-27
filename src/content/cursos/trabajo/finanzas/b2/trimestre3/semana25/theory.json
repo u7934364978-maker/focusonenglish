@@ -1,0 +1,30 @@
+{
+  "title": "Digital Banking & Modern Payments",
+  "sections": [
+    {
+      "id": "digital-shift",
+      "title": "The Shift to Digital Banking",
+      "content": "Modern banking has moved from physical branches to digital platforms. This transformation is driven by customer demand for convenience and speed.\n\n- **Online Banking**: Accessing bank services through a web browser.\n- **Mobile Banking**: Using dedicated apps on smartphones to manage accounts, pay bills, and transfer money.\n- **Neobanks**: Also known as 'Challenger Banks', these are banks that operate exclusively online without traditional physical branches (e.g., Revolut, N26)."
+    },
+    {
+      "id": "payment-tech",
+      "title": "Payment Technology",
+      "content": "The way we pay for goods and services is changing rapidly.\n\n- **Contactless Payments**: Using NFC (Near Field Communication) technology to pay by tapping a card or phone.\n- **Digital Wallets**: Apps like Apple Pay or Google Pay that store card information securely.\n- **Real-time Payments**: Instant transfers between bank accounts, available 24/7.\n- **APIs in Banking**: Tools that allow different financial apps to talk to each other securely."
+    },
+    {
+      "id": "grammar-future-tenses",
+      "title": "Language Focus: Future Perfect & Continuous",
+      "content": "When talking about digital trends, we often project into the future.\n\n- **Future Continuous**: For actions that will be in progress at a specific time in the future.\n  - 'By next year, most customers **will be using** mobile apps for all their banking.'\n- **Future Perfect**: For actions that will be completed by a certain point in the future.\n  - 'By 2030, many banks **will have closed** their physical branches.'"
+    }
+  ],
+  "objectives": [
+    "Identify the key features of digital banking and neobanks",
+    "Describe modern payment technologies and their benefits",
+    "Use future perfect and future continuous to discuss banking trends"
+  ],
+  "keyTerms": [
+    { "term": "UX (User Experience)", "definition": "The overall experience of a person using a product such as a website or app." },
+    { "term": "Fintech", "definition": "Financial technology; the integration of technology into offerings by financial services companies." },
+    { "term": "Frictionless", "definition": "A process that is very smooth and has no difficulties or delays." }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "title": "Ejercicios: Cajero Automático y Banca Online",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What does ATM stand for?",
+      "options": ["Automatic Teller Machine", "Always Take Money", "Automatic Transaction Mobile", "All Time Money"],
+      "correctAnswer": 0,
+      "explanation": "ATM means Automated Teller Machine."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "Please ________ (insertar) your card.",
+      "answer": "insert",
+      "explanation": "'Insert' is the verb for putting the card into the slot."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the online banking terms:",
+      "pairs": [
+        { "term": "Username", "definition": "Nombre de usuario" },
+        { "term": "Password", "definition": "Contraseña" },
+        { "term": "Log in", "definition": "Iniciar sesión" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "Where is the PIN?",
+      "options": ["On the card", "In your head", "On the receipt", "On the screen"],
+      "correctAnswer": 1,
+      "explanation": "You should memorize your PIN, never write it on the card."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "Don't share your ________ with anyone.",
+      "answer": "password",
+      "explanation": "Security is important; never share passwords."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "To move money between accounts, you make a...",
+      "options": ["Withdrawal", "Deposit", "Transfer", "Balance"],
+      "correctAnswer": 2,
+      "explanation": "A 'transfer' moves money from one place to another."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "The ATM is ________ (en) the street.",
+      "answer": "on",
+      "explanation": "We use 'on' for locations in a street."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "ATM actions:",
+      "pairs": [
+        { "term": "Select Amount", "definition": "Elegir cantidad" },
+        { "term": "Take Cash", "definition": "Coger dinero" },
+        { "term": "Enter PIN", "definition": "Teclear PIN" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "To use the app, you need to ________.",
+      "options": ["Log out", "Log in", "Sign in", "Both B and C"],
+      "correctAnswer": 3,
+      "explanation": "'Log in' and 'Sign in' mean the same thing."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "I use the banking ________ on my phone. (aplicación)",
+      "answer": "app",
+      "explanation": "'App' is short for application."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "The keypad is ________ the machine.",
+      "options": ["in", "at", "on", "under"],
+      "correctAnswer": 2,
+      "explanation": "The keypad is on the surface of the machine."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "________ (cerrar sesión) when you finish.",
+      "answer": "Log out",
+      "explanation": "'Log out' is to exit the session safely."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "What do you 'enter' on the keypad?",
+      "options": ["Your name", "Your PIN", "Your card", "Your cash"],
+      "correctAnswer": 1,
+      "explanation": "You type your PIN using the keypad."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "Wait for the ________ to complete. (transacción)",
+      "answer": "transaction",
+      "explanation": "A transaction is any banking operation."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Match the hardware:",
+      "pairs": [
+        { "term": "Screen", "definition": "Pantalla" },
+        { "term": "Keypad", "definition": "Teclado" },
+        { "term": "Slot", "definition": "Ranura" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "If the ATM is 'Out of Service', it...",
+      "options": ["Works", "Doesn't work", "Is new", "Is closed"],
+      "correctAnswer": 1,
+      "explanation": "'Out of Service' means it is not functioning."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "I need to ________ (transferir) 50 euros.",
+      "answer": "transfer",
+      "explanation": "'Transfer' is the verb for moving money."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "Which is safer?",
+      "options": ["Writing your password", "Using a strong password", "Sharing your password", "Using '1234'"],
+      "correctAnswer": 1,
+      "explanation": "A strong password (letters, numbers, symbols) is safer."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "The card is ________ my pocket. (dentro de)",
+      "answer": "in",
+      "explanation": "'In' is the preposition for inside."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "What is 'Contraseña' in English?",
+      "options": ["Username", "Password", "PIN", "Keypad"],
+      "correctAnswer": 1,
+      "explanation": "'Password' is the word for 'contraseña'."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "Please select the ________ you want. (cantidad)",
+      "answer": "amount",
+      "explanation": "'Amount' refers to the quantity of money."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Device terms:",
+      "pairs": [
+        { "term": "Smartphone", "definition": "Móvil inteligente" },
+        { "term": "Laptop", "definition": "Portátil" },
+        { "term": "Tablet", "definition": "Tableta" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "You 'take' cash ________ the ATM.",
+      "options": ["on", "from", "at", "in"],
+      "correctAnswer": 1,
+      "explanation": "We take things 'from' a source."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (iniciar sesión) every morning.",
+      "answer": "log in",
+      "explanation": "'Log in' is the usual verb for websites."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "A 'receipt' from the ATM is...",
+      "options": ["Optional", "Mandatory", "Free", "Both A and C"],
+      "correctAnswer": 3,
+      "explanation": "You can choose to get it, and it's usually free."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "Enter your 4-digit ________. (PIN)",
+      "answer": "PIN",
+      "explanation": "PINs are usually 4 digits."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "Where do you see your balance online?",
+      "options": ["On the keypad", "On the screen", "In the card", "Under the table"],
+      "correctAnswer": 1,
+      "explanation": "The screen displays all information."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "Click the ________ to transfer. (botón)",
+      "answer": "button",
+      "explanation": "'Button' is 'botón'."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "What is 'Cerrar sesión'?",
+      "options": ["Log in", "Sign up", "Log out", "Exit"],
+      "correctAnswer": 2,
+      "explanation": "'Log out' is the standard term."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "My ________ is 'juanito123'. (usuario)",
+      "answer": "username",
+      "explanation": "'Username' is your identity online."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Match the prepositions:",
+      "pairs": [
+        { "term": "In", "definition": "Dentro" },
+        { "term": "On", "definition": "Sobre/En" },
+        { "term": "At", "definition": "En (punto exacto)" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "If you forget your PIN, you should...",
+      "options": ["Try 100 times", "Call the bank", "Ask a friend", "Guess"],
+      "correctAnswer": 1,
+      "explanation": "The bank can help you reset it safely."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "The money comes ________ of the slot. (fuera)",
+      "answer": "out",
+      "explanation": "Money comes 'out' of the machine."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "Online banking is...",
+      "options": ["24/7", "Only mornings", "Only weekdays", "Never"],
+      "correctAnswer": 0,
+      "explanation": "Online banking is available 24 hours a day."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "I have the bank's ________ on my phone. (app)",
+      "answer": "app",
+      "explanation": "Short for application."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "A 'transfer' moves money...",
+      "options": ["To the ATM", "To another account", "To your pocket", "To a receipt"],
+      "correctAnswer": 1,
+      "explanation": "A transfer is account-to-account."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "Don't leave your card ________ the ATM.",
+      "answer": "at",
+      "explanation": "Don't leave it 'at' the machine."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Banking security:",
+      "pairs": [
+        { "term": "Secure", "definition": "Seguro" },
+        { "term": "Risk", "definition": "Riesgo" },
+        { "term": "Private", "definition": "Privado" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "Which is a 'mobile device'?",
+      "options": ["ATM", "Smartphone", "Counter", "Vault"],
+      "correctAnswer": 1,
+      "explanation": "A smartphone is mobile."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "My password is very ________. (fuerte/segura)",
+      "answer": "strong",
+      "explanation": "A 'strong' password is hard to guess."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "What do you do if you lose your card?",
+      "options": ["Buy a new one", "Block the card", "Wait", "Nothing"],
+      "correctAnswer": 1,
+      "explanation": "Blocking it prevents unauthorized use."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "I am ________ (en) the bank.",
+      "answer": "at",
+      "explanation": "We use 'at' for general locations."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is 'Elegir' in English?",
+      "options": ["Select", "Enter", "Insert", "Take"],
+      "correctAnswer": 0,
+      "explanation": "'Select' or 'Choose' means 'elegir'."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "The screen says 'Please ________'. (espere)",
+      "answer": "wait",
+      "explanation": "'Wait' is the imperative."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Online actions:",
+      "pairs": [
+        { "term": "Download", "definition": "Descargar" },
+        { "term": "Upload", "definition": "Subir" },
+        { "term": "Click", "definition": "Hacer clic" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "What is a 'digit'?",
+      "options": ["A letter", "A number", "A symbol", "A card"],
+      "correctAnswer": 1,
+      "explanation": "A digit is a single number (0-9)."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "I check my ________ online. (saldo)",
+      "answer": "balance",
+      "explanation": "You can see your balance on the app."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "If you see 'Unauthorized Access', it is...",
+      "options": ["Good", "Bad", "Free", "Fast"],
+      "correctAnswer": 1,
+      "explanation": "It means someone else is trying to get in."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "The keypad is below the ________. (pantalla)",
+      "answer": "screen",
+      "explanation": "'Screen' is where you read the info."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "Can you use an ATM without a card?",
+      "options": ["No", "Yes, with a code", "Sometimes", "Never"],
+      "correctAnswer": 1,
+      "explanation": "Some modern ATMs allow cardless transactions."
+    }
+  ]
+}

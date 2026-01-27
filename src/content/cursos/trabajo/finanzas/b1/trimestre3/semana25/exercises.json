@@ -1,0 +1,398 @@
+{
+  "title": "Exercises: Retail vs. Commercial Banking",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "Which sector focuses on individual customers and families?",
+      "options": ["Commercial Banking", "Investment Banking", "Retail Banking", "Private Banking"],
+      "correctAnswer": 2,
+      "explanation": "Retail banking (or consumer banking) serves individuals."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "The loan ________ (approve) by the credit committee yesterday.",
+      "answer": "was approved",
+      "explanation": "Past passive: 'was' + past participle."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the banking sectors with their clients:",
+      "pairs": [
+        { "term": "Retail", "definition": "Individuals" },
+        { "term": "Commercial", "definition": "Businesses" },
+        { "term": "Private", "definition": "High Net Worth Individuals" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "What does 'SME' stand for?",
+      "options": ["Small and Medium Enterprises", "Simple Money Exchange", "Standard Market Entry", "Strategic Management Expert"],
+      "correctAnswer": 0,
+      "explanation": "SME refers to companies that are not large corporations."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "The funds ________ (transfer) automatically every month.",
+      "answer": "are transferred",
+      "explanation": "Present passive for a regular action."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "Which service is used for paying employee salaries?",
+      "options": ["Trade Finance", "Payroll Services", "Mortgage", "Overdraft"],
+      "correctAnswer": 1,
+      "explanation": "Payroll services manage the payment of wages/salaries."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "A ________ of Credit is used in international trade.",
+      "answer": "Letter",
+      "explanation": "A 'Letter of Credit' (LC) is a common trade finance instrument."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "Financial terms:",
+      "pairs": [
+        { "term": "HNWI", "definition": "Wealthy client" },
+        { "term": "M&A", "definition": "Corporate merger" },
+        { "term": "Cash flow", "definition": "Money movement" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "In the passive voice, the focus is on...",
+      "options": ["The person doing the action", "The action itself", "The bank's name", "The date"],
+      "correctAnswer": 1,
+      "explanation": "The passive voice emphasizes the action or the object being acted upon."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "The business plan ________ (review) by the manager right now.",
+      "answer": "is being reviewed",
+      "explanation": "Present continuous passive: 'is being' + past participle."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "Which of these is a typical commercial banking product?",
+      "options": ["Personal savings account", "Student credit card", "Treasury management", "Holiday loan"],
+      "correctAnswer": 2,
+      "explanation": "Treasury management is a service for businesses."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "The application will ________ (reject) if information is missing.",
+      "answer": "be rejected",
+      "explanation": "Future passive: 'will be' + past participle."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "What is 'Wholesale Banking'?",
+      "options": ["Banking for stores", "Banking for large corporations/banks", "Banking for small families", "Buying a bank"],
+      "correctAnswer": 1,
+      "explanation": "Wholesale banking refers to high-level commercial/institutional banking."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "Our profits ________ (calculate) annually.",
+      "answer": "are calculated",
+      "explanation": "Present passive."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Match the products with the sector:",
+      "pairs": [
+        { "term": "Mortgage", "definition": "Retail" },
+        { "term": "Equipment Leasing", "definition": "Commercial" },
+        { "term": "Debit Card", "definition": "Retail" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "What is the opposite of 'Retail Banking'?",
+      "options": ["Consumer Banking", "Commercial Banking", "Branch Banking", "Digital Banking"],
+      "correctAnswer": 1,
+      "explanation": "Retail is for individuals; Commercial is for businesses."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "The client ________ (inform) of the decision last night.",
+      "answer": "was informed",
+      "explanation": "Past passive."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "Which term describes a company's total value?",
+      "options": ["Net Worth", "Cash Flow", "Interest Rate", "Overdraft"],
+      "correctAnswer": 0,
+      "explanation": "Net worth is the difference between assets and liabilities."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "New accounts ________ (open) online easily.",
+      "answer": "can be opened",
+      "explanation": "Passive with modal 'can'."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "A 'Letter of Credit' is a guarantee of...",
+      "options": ["Identity", "Payment", "Employment", "Savings"],
+      "correctAnswer": 1,
+      "explanation": "An LC guarantees that a buyer's payment to a seller will be received on time."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "Interest ________ (charge) on all credit card balances.",
+      "answer": "is charged",
+      "explanation": "Present passive fact."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Banking roles:",
+      "pairs": [
+        { "term": "Relationship Manager", "definition": "Commercial contact" },
+        { "term": "Cashier", "definition": "Retail service" },
+        { "term": "Underwriter", "definition": "Risk assessment" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "Which of these involves high-level advisory for company mergers?",
+      "options": ["Retail Banking", "Commercial Banking", "Investment Banking", "Branch Banking"],
+      "correctAnswer": 2,
+      "explanation": "Investment banks handle M&A (Mergers and Acquisitions)."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "The meeting ________ (hold) in the main office next week.",
+      "answer": "will be held",
+      "explanation": "Future passive."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "A 'Corporate' client is a...",
+      "options": ["Person", "Large company", "Small store", "Bank"],
+      "correctAnswer": 1,
+      "explanation": "'Corporate' refers to large-scale businesses."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "Identity theft ________ (prevent) by using strong passwords.",
+      "answer": "is prevented",
+      "explanation": "Passive for general truths."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "What is the passive form of 'The bank lends money'?",
+      "options": ["Money is lent by the bank", "Money are lent by the bank", "The bank is lent money", "Money was lent by the bank"],
+      "correctAnswer": 0,
+      "explanation": "Subject (Money) + is + past participle (lent)."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "The data ________ (process) yesterday at noon.",
+      "answer": "was processed",
+      "explanation": "Past passive singular (data can be treated as collective singular or plural; 'was' is common)."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "Which sector is also known as 'Consumer Banking'?",
+      "options": ["Retail", "Commercial", "Institutional", "Central"],
+      "correctAnswer": 0,
+      "explanation": "Retail banking serves individual consumers."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "I was ________ (sorprender) by the news.",
+      "answer": "surprised",
+      "explanation": "Passive participle."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Business clients:",
+      "pairs": [
+        { "term": "Sole trader", "definition": "One person business" },
+        { "term": "Partnership", "definition": "Two or more people" },
+        { "term": "Limited Company", "definition": "Legal entity" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "A 'Treasury' department manages...",
+      "options": ["Coffee for the office", "The company's liquidity and funds", "Customer complaints", "Bank furniture"],
+      "correctAnswer": 1,
+      "explanation": "Treasury management is about financial liquidity and risk."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "The contract ________ (sign) by both parties.",
+      "answer": "must be signed",
+      "explanation": "Modal passive for obligation."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "Which of these is NOT a retail banking product?",
+      "options": ["Debit card", "Mortgage", "Syndicated loan", "Savings account"],
+      "correctAnswer": 2,
+      "explanation": "A syndicated loan is a large loan provided by a group of lenders to a corporate client."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "Employees ________ (pay) on the last day of the month.",
+      "answer": "are paid",
+      "explanation": "Present passive plural."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "What is 'Trade Finance' used for?",
+      "options": ["Buying groceries", "Supporting international trade", "Personal holidays", "Student loans"],
+      "correctAnswer": 1,
+      "explanation": "Trade finance helps companies manage risks in import/export."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "The system ________ (update) every night.",
+      "answer": "is updated",
+      "explanation": "Present passive."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Account statuses:",
+      "pairs": [
+        { "term": "Dormant", "definition": "Inactive" },
+        { "term": "Frozen", "definition": "Blocked" },
+        { "term": "Active", "definition": "In use" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "Which prefix is used for 'banking between companies'?",
+      "options": ["B2C", "B2B", "C2C", "G2B"],
+      "correctAnswer": 1,
+      "explanation": "B2B stands for Business-to-Business."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "A PIN ________ (require) for all ATM transactions.",
+      "answer": "is required",
+      "explanation": "Present passive requirement."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "What is 'liquidity'?",
+      "options": ["Being able to pay debts immediately", "Having a lot of property", "Having many employees", "Water in the bank"],
+      "correctAnswer": 0,
+      "explanation": "Liquidity is how quickly assets can be turned into cash."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "The error ________ (find) by the auditor yesterday.",
+      "answer": "was found",
+      "explanation": "Past passive."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "Commercial banks often help SMEs with...",
+      "options": ["School homework", "Cash flow management", "Holiday planning", "Video games"],
+      "correctAnswer": 1,
+      "explanation": "Cash flow is vital for small and medium enterprises."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "Instructions ________ (give) by the supervisor.",
+      "answer": "were given",
+      "explanation": "Past passive plural."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Match the verbs with their passive particles:",
+      "pairs": [
+        { "term": "Broken", "definition": "Past participle of break" },
+        { "term": "Sent", "definition": "Past participle of send" },
+        { "term": "Known", "definition": "Past participle of know" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "Which of these is a 'Wealth Management' client?",
+      "options": ["A student", "An HNWI", "A small shop", "A pet"],
+      "correctAnswer": 1,
+      "explanation": "Wealth management is for High Net Worth Individuals."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "The bank ________ (know) for its excellent service.",
+      "answer": "is known",
+      "explanation": "Present passive state."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "In 'Retail Banking', who is the 'end-user'?",
+      "options": ["The corporation", "The individual consumer", "The bank manager", "The government"],
+      "correctAnswer": 1,
+      "explanation": "Retail banking is for the end consumer."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "The documents ________ (send) by courier tomorrow.",
+      "answer": "will be sent",
+      "explanation": "Future passive."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "Why is the passive voice common in reports?",
+      "options": ["It sounds more objective", "It's shorter", "It's easier to write", "It's only for banks"],
+      "correctAnswer": 0,
+      "explanation": "The passive voice shifts the focus from the subjective actor to the objective fact."
+    }
+  ]
+}

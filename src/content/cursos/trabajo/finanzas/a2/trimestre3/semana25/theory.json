@@ -1,0 +1,29 @@
+{
+  "title": "Tarjetas y Pagos Diarios",
+  "sections": [
+    {
+      "id": "cards-diff",
+      "title": "Debit vs. Credit Cards",
+      "content": "Aprenderemos la diferencia entre los tipos de tarjetas.\n\n- **Debit Card**: The money comes directly from your account. (El dinero sale directamente de tu cuenta).\n- **Credit Card**: You borrow money from the bank and pay it back later. (Pides prestado dinero al banco y lo devuelves después).\n- **Limit**: The maximum amount you can spend. (El límite de gasto).\n- **Interest Rate**: The cost of borrowing money. (El tipo de interés).\n- **Billing Cycle**: The period between bills. (Ciclo de facturación)."
+    },
+    {
+      "id": "grammar-comparison",
+      "title": "Gramática: Comparativos",
+      "content": "Usamos comparativos para elegir la mejor opción bancaria.\n\n- Credit cards are **more expensive than** debit cards. (Las tarjetas de crédito son más caras que las de débito).\n- This account is **better than** that one. (Esta cuenta es mejor que esa).\n- The limit is **higher** this month. (El límite es más alto este mes).\n\n**Estructura:**\n- Adjetivo corto + **-er than** (Faster than).\n- **More** + adjetivo largo + **than** (More important than)."
+    },
+    {
+      "id": "useful-phrases",
+      "title": "En el Comercio",
+      "content": "- *Do you accept credit cards?* (¿Aceptan tarjetas de crédito?).\n- *I want to pay by card.* (Quiero pagar con tarjeta).\n- *My card is declined.* (Mi tarjeta ha sido rechazada).\n- *Is there a surcharge for using credit?* (¿Hay un recargo por usar crédito?)"
+    }
+  ],
+  "objectives": [
+    "Diferenciar entre tarjetas de débito y crédito",
+    "Usar adjetivos comparativos para hablar de servicios",
+    "Manejar situaciones de pago básicas"
+  ],
+  "keyTerms": [
+    { "term": "Declined", "definition": "When a transaction is rejected by the bank." },
+    { "term": "Surcharge", "definition": "An extra amount of money that you have to pay for something." }
+  ]
+}

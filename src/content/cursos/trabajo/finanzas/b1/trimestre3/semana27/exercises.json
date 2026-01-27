@@ -1,0 +1,398 @@
+{
+  "title": "Exercises: Mortgage & Real Estate Financing",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What is a 'Mortgage'?",
+      "options": ["A loan for a car", "A loan for a house or property", "A type of credit card", "A savings account"],
+      "correctAnswer": 1,
+      "explanation": "Mortgages are specific to real estate."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "If I ________ (have) more money, I would buy that penthouse.",
+      "answer": "had",
+      "explanation": "Second conditional: 'if' clause in past simple."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the real estate people:",
+      "pairs": [
+        { "term": "Landlord", "definition": "Owner" },
+        { "term": "Tenant", "definition": "Renter" },
+        { "term": "Notary", "definition": "Legal witness" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "What does 'LTV' stand for?",
+      "options": ["Long Term Value", "Loan to Value", "Local Tax Variable", "Loan to Vendor"],
+      "correctAnswer": 1,
+      "explanation": "LTV is the ratio of the loan to the property's value."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (get) a fixed rate if I were you.",
+      "answer": "would get",
+      "explanation": "Second conditional result with 'would'."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "A 'Down Payment' is...",
+      "options": ["The final payment", "The interest payment", "The initial cash payment", "A type of insurance"],
+      "correctAnswer": 2,
+      "explanation": "It's the part of the price you pay upfront in cash."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "The process of paying off the debt is called ________. (amortización)",
+      "answer": "amortization",
+      "explanation": "'Amortization' is the technical term."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "Match the terms:",
+      "pairs": [
+        { "term": "Foreclosure", "definition": "Bank takes property" },
+        { "term": "Deed", "definition": "Title document" },
+        { "term": "Appraisal", "definition": "Valuation" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "In a 'Fixed-rate' mortgage, the interest...",
+      "options": ["Changes every month", "Never changes", "Changes every year", "Is always zero"],
+      "correctAnswer": 1,
+      "explanation": "Fixed means constant over the term."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "If interest rates ________ (be) zero, everybody would borrow money.",
+      "answer": "were",
+      "explanation": "Second conditional (use 'were' for all subjects in formal 'if' clauses)."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "What is an 'ARM'?",
+      "options": ["An Adjustable-rate Mortgage", "A robotic bank teller", "An American Real Estate Manager", "An Annual Rent Measurement"],
+      "correctAnswer": 0,
+      "explanation": "ARM interest rates change over time."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "How ________ (mucho) is the down payment?",
+      "answer": "much",
+      "explanation": "Uncountable."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "If you 'default' on your mortgage...",
+      "options": ["The bank gives you a gift", "You lose the property (foreclosure)", "The interest rate drops", "Nothing happens"],
+      "correctAnswer": 1,
+      "explanation": "Defaulting means failing to meet legal obligations (payments)."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (buy) a house if we had the money.",
+      "answer": "would buy",
+      "explanation": "Hypothetical result."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Real Estate categories:",
+      "pairs": [
+        { "term": "Residential", "definition": "Homes" },
+        { "term": "Commercial", "definition": "Offices/Shops" },
+        { "term": "Industrial", "definition": "Factories" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "What is 'Equity' in a home context?",
+      "options": ["The total price", "The amount you have paid off", "The bank's name", "The color of the walls"],
+      "correctAnswer": 1,
+      "explanation": "Equity is the portion of the property you truly 'own'."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "They ________ (move) if the rent was lower.",
+      "answer": "would move",
+      "explanation": "Second conditional."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "What does a 'Notary' do?",
+      "options": ["Sells the house", "Lends the money", "Authenticates the signatures and documents", "Cleans the property"],
+      "correctAnswer": 2,
+      "explanation": "A notary ensures the transaction is legal and documented."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "The property ________ (valuar/tasar) at $300,000.",
+      "answer": "was appraised",
+      "explanation": "Past passive."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "An 'Early Repayment Charge' is...",
+      "options": ["A discount", "A penalty for paying before the end of the term", "The first month's payment", "A gift for the bank"],
+      "correctAnswer": 1,
+      "explanation": "Banks use these fees to recover lost interest when you pay early."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "If the LTV ________ (be) 80%, you need a 20% down payment.",
+      "answer": "is",
+      "explanation": "First conditional / Real fact (Present simple)."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Match the costs:",
+      "pairs": [
+        { "term": "Closing costs", "definition": "Fees at the end" },
+        { "term": "Broker fee", "definition": "Agent commission" },
+        { "term": "Property tax", "definition": "Government charge" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "A 'Tenant' is...",
+      "options": ["The owner", "The person living in the house and paying rent", "The bank employee", "The neighbor"],
+      "correctAnswer": 1,
+      "explanation": "The tenant rents the property from the landlord."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "What ________ (hacer) you do if you won the lottery?",
+      "answer": "would",
+      "explanation": "Second conditional question."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "Which is a 'security' for the mortgage?",
+      "options": ["The car", "The house itself", "The gold", "The cash"],
+      "correctAnswer": 1,
+      "explanation": "The property acts as collateral for the loan."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (escritura) proves you own the house.",
+      "answer": "deed",
+      "explanation": "'Deed' is the title document."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "A 30-year term is common for...",
+      "options": ["Credit cards", "Personal loans", "Mortgages", "Car rentals"],
+      "correctAnswer": 2,
+      "explanation": "Mortgages are typically long-term (15-30 years)."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "If I ________ (be) the manager, I would approve the loan.",
+      "answer": "were",
+      "explanation": "Second conditional 'if I were'."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "What is 'EURIBOR'?",
+      "options": ["A European bank", "A reference interest rate for variable mortgages", "A type of coin", "A city in Germany"],
+      "correctAnswer": 1,
+      "explanation": "It's a benchmark rate used in the Eurozone."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "The house ________ (construir) in 1990.",
+      "answer": "was built",
+      "explanation": "Past passive."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Contract terms:",
+      "pairs": [
+        { "term": "Grace period", "definition": "Extra time to pay" },
+        { "term": "Maturity", "definition": "End of loan" },
+        { "term": "Default", "definition": "Failure to pay" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "A 'second home' is usually for...",
+      "options": ["Work", "Holidays / Investment", "The bank", "The kids"],
+      "correctAnswer": 1,
+      "explanation": "A second home is not your primary residence."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (be) happy if we had a garden.",
+      "answer": "would be",
+      "explanation": "Hypothetical result."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "Which rate is 'variable'?",
+      "options": ["1.5% fixed", "EURIBOR + 1%", "3% for 20 years", "Zero"],
+      "correctAnswer": 1,
+      "explanation": "It depends on an index that changes."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (inquilino) pays the rent on the 1st.",
+      "answer": "tenant",
+      "explanation": "'Tenant' is the renter."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "What is 'Valuation'?",
+      "options": ["Buying a house", "Deciding how much a house is worth", "Selling a house", "Painting a house"],
+      "correctAnswer": 1,
+      "explanation": "Valuation (or appraisal) determines the market price."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "The contract ________ (firmar) by the notary.",
+      "answer": "was signed",
+      "explanation": "Past passive."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Property types:",
+      "pairs": [
+        { "term": "Flat / Apartment", "definition": "Single floor" },
+        { "term": "Detached house", "definition": "Standing alone" },
+        { "term": "Semi-detached", "definition": "Sharing one wall" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "If you pay 'interest-only', the principal...",
+      "options": ["Goes down", "Stays the same", "Disappears", "Goes up"],
+      "correctAnswer": 1,
+      "explanation": "You aren't repaying the debt itself, only the cost of borrowing."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "Are you ________ (buscar) a house?",
+      "answer": "looking for",
+      "explanation": "Continuous action."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "What is a 'mortgage broker'?",
+      "options": ["Someone who breaks houses", "A professional who finds the best mortgage for you", "A bank manager", "A builder"],
+      "correctAnswer": 1,
+      "explanation": "Brokers compare different banks to find the best deals."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (not buy) that house even if I were rich.",
+      "answer": "would not buy",
+      "explanation": "Negative second conditional."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "The 'term' of a mortgage is...",
+      "options": ["The price", "The duration (years)", "The interest rate", "The location"],
+      "correctAnswer": 1,
+      "explanation": "Term = length of the loan."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (propietario) lives in London.",
+      "answer": "landlord",
+      "explanation": "Or 'owner'."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Real estate actions:",
+      "pairs": [
+        { "term": "Renovate", "definition": "Improve" },
+        { "term": "Lease", "definition": "Rent long term" },
+        { "term": "Sublet", "definition": "Rent to a third party" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "What is 'negative equity'?",
+      "options": ["Having a lot of money", "Owing more than the house is worth", "A type of bank account", "A green house"],
+      "correctAnswer": 1,
+      "explanation": "If house prices fall below the loan amount, you have negative equity."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "The keys ________ (dar) to the tenant yesterday.",
+      "answer": "were given",
+      "explanation": "Past passive plural."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "Can you 'refinance' a mortgage?",
+      "options": ["No, never", "Yes, to get a better rate or term", "Only if you sell the house", "Only in cash"],
+      "correctAnswer": 1,
+      "explanation": "Refinancing replaces an old loan with a new one."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "What ________ you do if interest rates went up to 10%?",
+      "answer": "would",
+      "explanation": "Second conditional question."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "The 'principal' is...",
+      "options": ["The school director", "The original amount borrowed", "The interest rate", "The bank name"],
+      "correctAnswer": 1,
+      "explanation": "In finance, principal is the amount of the debt before interest."
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is a 'Neobank'?",
+    "options": ["A bank for old people", "A bank that only operates online", "A bank that only deals in gold", "A bank with many physical branches"],
+    "correctAnswer": 1,
+    "explanation": "Neobanks are digital-only banks with no physical branches."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "By 2028, we _______ (migrate) all our systems to the cloud.",
+    "correctAnswer": "will have migrated",
+    "explanation": "Future perfect for an action completed by a certain time."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "Which technology allows 'Contactless Payments'?",
+    "options": ["Bluetooth", "NFC", "Wi-Fi", "Infrared"],
+    "correctAnswer": 1,
+    "explanation": "NFC (Near Field Communication) is used for tapping to pay."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the banking term with its description:",
+    "pairs": [
+      { "left": "Mobile Banking", "right": "Using apps on a smartphone" },
+      { "left": "Online Banking", "right": "Using a web browser on a PC" },
+      { "left": "Digital Wallet", "right": "Storing cards on a phone" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "At this time tomorrow, the team _______ (test) the new API.",
+    "options": ["will test", "will be testing", "will have tested", "is testing"],
+    "correctAnswer": 1,
+    "explanation": "Future continuous for an action in progress in the future."
+  },
+  {
+    "id": 6,
+    "type": "multiple-choice",
+    "question": "What does 'UX' stand for in digital banking?",
+    "options": ["User Experience", "Unit Exchange", "Unified X-rate", "User Expense"],
+    "correctAnswer": 0,
+    "explanation": "UX refers to how easy and pleasant it is to use an app or website."
+  },
+  {
+    "id": 7,
+    "type": "fill-in-the-blank",
+    "question": "Our customers _______ (expect) faster payments in the coming years.",
+    "correctAnswer": "will be expecting",
+    "explanation": "Future continuous for a continuing state/action."
+  },
+  {
+    "id": 8,
+    "type": "multiple-choice",
+    "question": "What is the primary benefit of 'Real-time Payments'?",
+    "options": ["They take 3-5 days", "They are only available on weekdays", "Funds are transferred instantly 24/7", "They require a physical signature"],
+    "correctAnswer": 2,
+    "explanation": "Real-time payments are instant and always available."
+  },
+  {
+    "id": 9,
+    "type": "fill-in-the-blank",
+    "question": "By the end of the month, the CFO _______ (review) the fintech report.",
+    "correctAnswer": "will have reviewed",
+    "explanation": "Future perfect."
+  },
+  {
+    "id": 10,
+    "type": "multiple-choice",
+    "question": "A 'Frictionless' payment experience is one that is:",
+    "options": ["Very slow", "Complicated", "Smooth and without delays", "Expensive"],
+    "correctAnswer": 2,
+    "explanation": "Frictionless means removing obstacles from the process."
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "Next month, our developers _______ (work) on the new security patch.",
+    "options": ["will have worked", "will be working", "worked", "will work"],
+    "correctAnswer": 1,
+    "explanation": "Future continuous."
+  },
+  {
+    "id": 12,
+    "type": "fill-in-the-blank",
+    "question": "Do you think we _______ (replace) physical cash entirely by 2040?",
+    "correctAnswer": "will have replaced",
+    "explanation": "Future perfect."
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "question": "What does 'Fintech' mean?",
+    "options": ["Final Technology", "Financial Technology", "Fixed Technique", "Financed Tech"],
+    "correctAnswer": 1,
+    "explanation": "Fintech is the intersection of finance and technology."
+  },
+  {
+    "id": 14,
+    "type": "fill-in-the-blank",
+    "question": "The bank _______ (implement) the new policy by next quarter.",
+    "correctAnswer": "will have implemented",
+    "explanation": "Future perfect."
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "question": "Which of these is a 'Challenger Bank'?",
+    "options": ["The Central Bank", "A traditional high-street bank", "A new digital-first neobank", "An investment bank"],
+    "correctAnswer": 2,
+    "explanation": "Challenger banks compete with established traditional banks."
+  },
+  {
+    "id": 16,
+    "type": "matching",
+    "question": "Match the technology with its purpose:",
+    "pairs": [
+      { "left": "API", "right": "Data sharing between apps" },
+      { "left": "NFC", "right": "Contactless data transfer" },
+      { "left": "Biometrics", "right": "Using fingerprints/face for security" }
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple-choice",
+    "question": "By this time next year, I _______ (earn) my certification in digital finance.",
+    "options": ["will be earning", "will have earned", "earn", "am earning"],
+    "correctAnswer": 1,
+    "explanation": "Future perfect."
+  },
+  {
+    "id": 18,
+    "type": "fill-in-the-blank",
+    "question": "We _______ (hold) a conference on digital banking next June.",
+    "correctAnswer": "will be holding",
+    "explanation": "Future continuous for a planned event."
+  },
+  {
+    "id": 19,
+    "type": "multiple-choice",
+    "question": "What is a 'Digital Wallet'?",
+    "options": ["A leather wallet with a screen", "A virtual account that stores card data", "A type of crypto coin", "A bank account for robots"],
+    "correctAnswer": 1,
+    "explanation": "Digital wallets allow for mobile payments without physical cards."
+  },
+  {
+    "id": 20,
+    "type": "multiple-choice",
+    "question": "I'm sure the stock _______ (rise) by the end of the day.",
+    "options": ["will be rising", "will have risen", "is rising", "rises"],
+    "correctAnswer": 1,
+    "explanation": "Future perfect."
+  },
+  {
+    "id": 21,
+    "type": "fill-in-the-blank",
+    "question": "They _______ (launch) the new app throughout the next three months.",
+    "correctAnswer": "will be launching",
+    "explanation": "Future continuous."
+  },
+  {
+    "id": 22,
+    "type": "multiple-choice",
+    "question": "What is the main advantage of 'Mobile Banking' for customers?",
+    "options": ["Having to visit a branch", "Banking anytime, anywhere", "Paying higher fees", "Using more paper"],
+    "correctAnswer": 1,
+    "explanation": "Convenience is the primary driver of mobile banking."
+  },
+  {
+    "id": 23,
+    "type": "multiple-choice",
+    "question": "By 5 PM, the transaction _______ (be) processed.",
+    "options": ["will be", "will have been", "is", "being"],
+    "correctAnswer": 1,
+    "explanation": "Future perfect (passive)."
+  },
+  {
+    "id": 24,
+    "type": "fill-in-the-blank",
+    "question": "I _______ (interview) the new Fintech candidates all afternoon.",
+    "correctAnswer": "will be interviewing",
+    "explanation": "Future continuous."
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "question": "What does 'API' stand for?",
+    "options": ["Application Programming Interface", "Auto Payment Index", "Annual Profit Increase", "All Power Investment"],
+    "correctAnswer": 0,
+    "explanation": "APIs are the backbone of modern software integration."
+  },
+  {
+    "id": 26,
+    "type": "matching",
+    "question": "Match the future tense to its use:",
+    "pairs": [
+      { "left": "Future Perfect", "right": "Completed by a future point" },
+      { "left": "Future Continuous", "right": "In progress at a future point" },
+      { "left": "Simple Future", "right": "Predictions and promises" }
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "The world _______ (change) a lot by 2050.",
+    "options": ["will be changing", "will have changed", "changed", "is changing"],
+    "correctAnswer": 1,
+    "explanation": "Future perfect."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "This time next week, we _______ (lie) on a beach in the Caribbean.",
+    "correctAnswer": "will be lying",
+    "explanation": "Standard future continuous example."
+  },
+  {
+    "id": 29,
+    "type": "multiple-choice",
+    "question": "What is 'P2P' in financial services?",
+    "options": ["Post to Post", "Peer to Peer", "Price to Profit", "Personal to Professional"],
+    "correctAnswer": 1,
+    "explanation": "P2P refers to direct transactions between individuals."
+  },
+  {
+    "id": 30,
+    "type": "multiple-choice",
+    "question": "The technicians _______ (fix) the server by tomorrow morning.",
+    "options": ["will be fixing", "will have fixed", "fixed", "fix"],
+    "correctAnswer": 1,
+    "explanation": "Future perfect."
+  },
+  {
+    "id": 31,
+    "type": "fill-in-the-blank",
+    "question": "In ten years, everyone _______ (pay) with their phones.",
+    "correctAnswer": "will be paying",
+    "explanation": "Future continuous."
+  },
+  {
+    "id": 32,
+    "type": "multiple-choice",
+    "question": "What is 'Disruption' in the banking sector?",
+    "options": ["A loud noise", "A significant change that displaces old methods", "A computer virus", "A temporary delay"],
+    "correctAnswer": 1,
+    "explanation": "Disruption is when new technology changes the industry fundamentally."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "I _______ (finish) the report by the time you arrive.",
+    "options": ["will finish", "will be finishing", "will have finished", "am finishing"],
+    "correctAnswer": 2,
+    "explanation": "Future perfect."
+  },
+  {
+    "id": 34,
+    "type": "fill-in-the-blank",
+    "question": "Tomorrow at 10 AM, we _______ (meet) with the investors.",
+    "correctAnswer": "will be meeting",
+    "explanation": "Future continuous."
+  },
+  {
+    "id": 35,
+    "type": "multiple-choice",
+    "question": "Which of these is a benefit of neobanks?",
+    "options": ["Lower fees", "Better apps", "Faster setup", "All of the above"],
+    "correctAnswer": 3,
+    "explanation": "Neobanks leverage low overhead to offer these benefits."
+  },
+  {
+    "id": 36,
+    "type": "matching",
+    "question": "Match the term with its category:",
+    "pairs": [
+      { "left": "Apple Pay", "right": "Digital Wallet" },
+      { "left": "Revolut", "right": "Neobank" },
+      { "left": "PayPal", "right": "Payment Platform" }
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple-choice",
+    "question": "In 20 years, many people _______ (forget) how to write a check.",
+    "options": ["will be forgetting", "will have forgotten", "forget", "are forgetting"],
+    "correctAnswer": 1,
+    "explanation": "Future perfect."
+  },
+  {
+    "id": 38,
+    "type": "fill-in-the-blank",
+    "question": "The economy _______ (recover) by this time next year.",
+    "correctAnswer": "will have recovered",
+    "explanation": "Future perfect."
+  },
+  {
+    "id": 39,
+    "type": "multiple-choice",
+    "question": "What does 'Real-time' mean in payments?",
+    "options": ["Delayed by an hour", "Instant", "Processed at the end of the day", "Following a clock"],
+    "correctAnswer": 1,
+    "explanation": "Real-time means immediate processing."
+  },
+  {
+    "id": 40,
+    "type": "multiple-choice",
+    "question": "I _______ (study) Fintech for three years by the time I graduate.",
+    "options": ["will study", "will have been studying", "study", "am studying"],
+    "correctAnswer": 1,
+    "explanation": "Future perfect continuous (a variation of the future perfect)."
+  },
+  {
+    "id": 41,
+    "type": "fill-in-the-blank",
+    "question": "The bank _______ (open) new branches in Asia next month.",
+    "correctAnswer": "will be opening",
+    "explanation": "Future continuous."
+  },
+  {
+    "id": 42,
+    "type": "multiple-choice",
+    "question": "What is 'Biometric' security?",
+    "options": ["Using a password", "Using physical traits like fingerprints", "Using a physical key", "Using a secret code"],
+    "correctAnswer": 1,
+    "explanation": "Biometrics are increasingly common in mobile banking apps."
+  },
+  {
+    "id": 43,
+    "type": "multiple-choice",
+    "question": "By the end of the day, the market _______ (close).",
+    "options": ["will be closing", "will have closed", "is closing", "closes"],
+    "correctAnswer": 1,
+    "explanation": "Future perfect."
+  },
+  {
+    "id": 44,
+    "type": "fill-in-the-blank",
+    "question": "Next Friday, we _______ (celebrate) the launch of our new app.",
+    "correctAnswer": "will be celebrating",
+    "explanation": "Future continuous."
+  },
+  {
+    "id": 45,
+    "type": "multiple-choice",
+    "question": "What is 'Cloud Banking'?",
+    "options": ["Banking while flying", "Banking services delivered over the internet via the cloud", "A bank for meteorologists", "A very large bank"],
+    "correctAnswer": 1,
+    "explanation": "Cloud computing allows for scalable and efficient bank operations."
+  },
+  {
+    "id": 46,
+    "type": "matching",
+    "question": "Match the word to its meaning:",
+    "pairs": [
+      { "left": "Scalable", "right": "Able to grow easily" },
+      { "left": "Secure", "right": "Protected from danger" },
+      { "left": "Agile", "right": "Able to move/change quickly" }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple-choice",
+    "question": "The project _______ (complete) by next Monday.",
+    "options": ["will be completing", "will have been completed", "is completing", "completes"],
+    "correctAnswer": 1,
+    "explanation": "Future perfect (passive)."
+  },
+  {
+    "id": 48,
+    "type": "fill-in-the-blank",
+    "question": "They _______ (install) the new terminals all day tomorrow.",
+    "correctAnswer": "will be installing",
+    "explanation": "Future continuous."
+  },
+  {
+    "id": 49,
+    "type": "multiple-choice",
+    "question": "What is 'Legacy' software in banking?",
+    "options": ["New and innovative", "Old systems still in use", "Software given as a gift", "Software for law firms"],
+    "correctAnswer": 1,
+    "explanation": "Legacy systems are often an obstacle to digital transformation."
+  },
+  {
+    "id": 50,
+    "type": "multiple-choice",
+    "question": "I think you _______ (see) a big difference in the new app.",
+    "options": ["will see", "will have seen", "seen", "are seeing"],
+    "correctAnswer": 0,
+    "explanation": "Simple future for a prediction."
+  }
+]

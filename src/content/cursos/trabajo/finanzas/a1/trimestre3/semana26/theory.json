@@ -1,0 +1,29 @@
+{
+  "title": "Cajero Automático y Banca Online",
+  "sections": [
+    {
+      "id": "vocab-atm",
+      "title": "Vocabulario: El Cajero (ATM)",
+      "content": "Aprenderemos a usar el cajero automático.\n\n- **ATM**: Cajero automático.\n- **Insert Card**: Insertar tarjeta.\n- **Enter PIN**: Introducir PIN.\n- **Select Amount**: Seleccionar cantidad.\n- **Take Cash**: Coger el efectivo.\n- **Transaction**: Transacción / Operación.\n- **Keypad**: Teclado numérico."
+    },
+    {
+      "id": "vocab-online",
+      "title": "Vocabulario: Banca Online",
+      "content": "Palabras para usar el banco en tu móvil o el ordenador.\n\n- **Log in**: Iniciar sesión.\n- **Username**: Nombre de usuario.\n- **Password**: Contraseña.\n- **Transfer**: Transferencia / Transferir.\n- **App**: Aplicación móvil.\n- **Log out**: Cerrar sesión."
+    },
+    {
+      "id": "grammar-prepositions",
+      "title": "Gramática: Preposiciones de Lugar Básicas",
+      "content": "Para indicar dónde están las cosas.\n\n- The ATM is **in** the bank. (El cajero está dentro del banco).\n- The keypad is **on** the machine. (El teclado está en la máquina).\n- Your card is **in** your wallet. (Tu tarjeta está en tu cartera).\n- Stand **at** the ATM. (Ponte en el cajero)."
+    }
+  ],
+  "objectives": [
+    "Identificar los pasos para usar un cajero automático",
+    "Aprender vocabulario básico de seguridad digital",
+    "Usar preposiciones de lugar (in, on, at)"
+  ],
+  "keyTerms": [
+    { "term": "PIN", "definition": "Personal Identification Number (número secreto)." },
+    { "term": "Transfer", "definition": "To move money from one account to another." }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "title": "Ejercicios: Presupuesto Familiar y Gastos",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What is 'Income'?",
+      "options": ["Money going out", "Money coming in", "A bank fee", "A credit card"],
+      "correctAnswer": 1,
+      "explanation": "Income is the money you receive (salary, etc.)."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (ahorrar) for a house this year.",
+      "answer": "am saving",
+      "explanation": "Present continuous for a plan."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the expense types:",
+      "pairs": [
+        { "term": "Rent", "definition": "Fixed expense" },
+        { "term": "Movies", "definition": "Variable expense" },
+        { "term": "Electricity", "definition": "Utility" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "Which is a 'household'?",
+      "options": ["A bank", "A family/home", "A factory", "A park"],
+      "correctAnswer": 1,
+      "explanation": "A household refers to the people living in a home."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "They ________ (pagar) the electricity bill tomorrow.",
+      "answer": "are paying",
+      "explanation": "Present continuous for a fixed future plan."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "What are 'Utilities'?",
+      "options": ["Cars", "Water, electricity, and gas", "Shoes and clothes", "Loans"],
+      "correctAnswer": 1,
+      "explanation": "Utilities are basic services for the home."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "My ________ (gastos) are very high this month.",
+      "answer": "expenses",
+      "explanation": "'Expenses' is the plural of expense."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "Financial actions:",
+      "pairs": [
+        { "term": "Track", "definition": "Follow/Record" },
+        { "term": "Cut", "definition": "Reduce" },
+        { "term": "Plan", "definition": "Organize" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence for next week:",
+      "options": ["I save money.", "I am saving money.", "I am save money.", "I save."],
+      "correctAnswer": 1,
+      "explanation": "Present continuous is best for near future plans."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "I need to ________ (reducir) my spending.",
+      "answer": "cut",
+      "explanation": "To 'cut' spending means to reduce it."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "Is 'food' a fixed or variable expense?",
+      "options": ["Fixed", "Variable", "Utility", "Income"],
+      "correctAnswer": 1,
+      "explanation": "Food costs change depending on what you buy."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (organizar) a budget tonight.",
+      "answer": "are organizing",
+      "explanation": "Present continuous for an action happening soon."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "What is 'ahorrar'?",
+      "options": ["Spending", "Saving", "Planning", "Buying"],
+      "correctAnswer": 1,
+      "explanation": "Saving is keeping money for the future."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "My ________ (alquiler) is $800.",
+      "answer": "rent",
+      "explanation": "'Rent' is the payment for your home."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Match the budget parts:",
+      "pairs": [
+        { "term": "Salary", "definition": "Main income" },
+        { "term": "Groceries", "definition": "Food expense" },
+        { "term": "Mortgage", "definition": "Home loan payment" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "If income > expenses, you have...",
+      "options": ["A problem", "A surplus (extra money)", "A debt", "Nothing"],
+      "correctAnswer": 1,
+      "explanation": "A surplus is when you have money left over."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "She ________ (comprar) a new car on Monday.",
+      "answer": "is buying",
+      "explanation": "Fixed future plan."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "What is 'unnecessary'?",
+      "options": ["Not needed", "Very important", "Expensive", "Cheap"],
+      "correctAnswer": 0,
+      "explanation": "'Unnecessary' means you don't really need it."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "I am ________ (anotar) my daily costs.",
+      "answer": "tracking",
+      "explanation": "'Tracking' or 'Recording' works here."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "A 'budget' is a tool for...",
+      "options": ["Banks only", "Everyone", "Businesses only", "Rich people"],
+      "correctAnswer": 1,
+      "explanation": "Everyone can benefit from a budget."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (reunirse) with the landlord at 5 PM.",
+      "answer": "are meeting",
+      "explanation": "Specific scheduled plan."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Budget categories:",
+      "pairs": [
+        { "term": "Transportation", "definition": "Bus/Petrol" },
+        { "term": "Leisure", "definition": "Fun/Hobbies" },
+        { "term": "Insurance", "definition": "Protection" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "How often should you check your budget?",
+      "options": ["Once a day", "Once a month", "Once a year", "Never"],
+      "correctAnswer": 1,
+      "explanation": "Checking monthly is a good practice for most people."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (no gastar) any money this weekend.",
+      "answer": "am not spending",
+      "explanation": "Negative present continuous for future plan."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "What is 'Groceries'?",
+      "options": ["Clothes", "Food and home items", "Bank documents", "Cars"],
+      "correctAnswer": 1,
+      "explanation": "Groceries are items bought at a supermarket."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (luz) bill is very expensive.",
+      "answer": "electricity",
+      "explanation": "One of the main utilities."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "If expenses > income, you have...",
+      "options": ["A surplus", "A deficit / debt", "A party", "A bank"],
+      "correctAnswer": 1,
+      "explanation": "Spending more than you earn creates a deficit."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "He ________ (empezar) a new job next week.",
+      "answer": "is starting",
+      "explanation": "Scheduled future event."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "Which is an 'income'?",
+      "options": ["Salary", "Rent", "Tax", "Food"],
+      "correctAnswer": 0,
+      "explanation": "Salary is money you receive for work."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "I need to put money into my ________. (ahorros)",
+      "answer": "savings",
+      "explanation": "Keeping money for later."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Time periods:",
+      "pairs": [
+        { "term": "Weekly", "definition": "Every week" },
+        { "term": "Monthly", "definition": "Every month" },
+        { "term": "Quarterly", "definition": "Every 3 months" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "What is 'reducir gastos'?",
+      "options": ["Raise income", "Cut costs", "Buy more", "Lend money"],
+      "correctAnswer": 1,
+      "explanation": "'Cut costs' or 'Cut expenses' is the common phrase."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "________ (ir) you coming to the bank?",
+      "answer": "Are",
+      "explanation": "Question auxiliary for present continuous."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "A 'fixed' expense...",
+      "options": ["Changes", "Never changes", "Is usually the same amount", "Is a gift"],
+      "correctAnswer": 2,
+      "explanation": "Fixed expenses (like rent) are predictable."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "My ________ (salario) is paid on the 30th.",
+      "answer": "salary",
+      "explanation": "Money from your employer."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "What is 'Hogar' in a financial context?",
+      "options": ["House", "Household", "Building", "Street"],
+      "correctAnswer": 1,
+      "explanation": "'Household' refers to the economic unit of the family."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (abrir) a new account tomorrow morning.",
+      "answer": "am opening",
+      "explanation": "Scheduled plan."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Necessities vs Wants:",
+      "pairs": [
+        { "term": "Water", "definition": "Necessity" },
+        { "term": "Video games", "definition": "Want" },
+        { "term": "Insurance", "definition": "Necessity" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "Which verb means 'anotar/registrar'?",
+      "options": ["Record", "Spend", "Lend", "Borrow"],
+      "correctAnswer": 0,
+      "explanation": "To record is to write down the data."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (agua) bill is $30.",
+      "answer": "water",
+      "explanation": "Basic utility."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "If you 'plan', you are being...",
+      "options": ["Proactive", "Lazy", "Rich", "Sad"],
+      "correctAnswer": 0,
+      "explanation": "Planning ahead is proactive behavior."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (no ir) to the cinema this week.",
+      "answer": "are not going",
+      "explanation": "Negative plan."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is 'ahorrar primero'?",
+      "options": ["Pay yourself first", "Spend first", "Borrow first", "Lend first"],
+      "correctAnswer": 0,
+      "explanation": "'Pay yourself first' means saving as soon as you get your income."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "Is he ________ (buscar) a new bank?",
+      "answer": "looking for",
+      "explanation": "Continuous action/plan."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Match the totals:",
+      "pairs": [
+        { "term": "Net income", "definition": "After tax" },
+        { "term": "Gross income", "definition": "Before tax" },
+        { "term": "Savings rate", "definition": "Percentage saved" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "What is 'servicios básicos'?",
+      "options": ["Extras", "Utilities", "Bonuses", "Gifts"],
+      "correctAnswer": 1,
+      "explanation": "'Utilities' is the term."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "My budget is ________ (equilibrado).",
+      "answer": "balanced",
+      "explanation": "Income equals expenses plus savings."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "Can a budget help you 'save'?",
+      "options": ["Yes, definitely", "No, never", "Only if you are rich", "Only for banks"],
+      "correctAnswer": 0,
+      "explanation": "A budget is the best way to find money to save."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "She ________ (viajar) next month.",
+      "answer": "is travelling",
+      "explanation": "Future plan."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "What is the opposite of 'Spending'?",
+      "options": ["Buying", "Saving", "Lending", "Borrowing"],
+      "correctAnswer": 1,
+      "explanation": "Saving is the alternative to spending."
+    }
+  ]
+}

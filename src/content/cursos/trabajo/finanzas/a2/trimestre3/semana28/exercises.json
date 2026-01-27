@@ -1,0 +1,398 @@
+{
+  "title": "Ejercicios: Introducción a los Seguros",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What is the contract for insurance called?",
+      "options": ["A loan", "A policy", "A premium", "A card"],
+      "correctAnswer": 1,
+      "explanation": "The 'policy' is the official insurance contract."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "If you have an accident, you ________ (hacer) a claim.",
+      "answer": "make",
+      "explanation": "We say 'make a claim'."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the insurance terms:",
+      "pairs": [
+        { "term": "Premium", "definition": "Regular payment" },
+        { "term": "Claim", "definition": "Request for money" },
+        { "term": "Coverage", "definition": "What is protected" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "What is 'Health Insurance'?",
+      "options": ["Seguro de vida", "Seguro médico", "Seguro de coche", "Seguro de hogar"],
+      "correctAnswer": 1,
+      "explanation": "'Health' means salud/médico."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "If you don't pay, the insurance ________ (no cubrir) you.",
+      "answer": "doesn't cover",
+      "explanation": "Zero conditional for a rule."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "Which insurance do you need for your house?",
+      "options": ["Life insurance", "Health insurance", "Home insurance", "Pet insurance"],
+      "correctAnswer": 2,
+      "explanation": "Home insurance covers your property."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (prima) is $50 per month.",
+      "answer": "premium",
+      "explanation": "'Premium' is the periodic payment."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "Match the people:",
+      "pairs": [
+        { "term": "Insurer", "definition": "The company" },
+        { "term": "Insured", "definition": "The person protected" },
+        { "term": "Agent", "definition": "The seller" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "What is 'Deductible'?",
+      "options": ["Franquicia", "Comisión", "Regalo", "Impuesto"],
+      "correctAnswer": 0,
+      "explanation": "The deductible is the amount the customer pays before the insurance starts paying."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "If it ________ (llover), the roof leaks.",
+      "answer": "rains",
+      "explanation": "Zero conditional: if + present simple."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "Why do people buy insurance?",
+      "options": ["To lose money", "To protect against risk", "To go to the bank", "To get a credit card"],
+      "correctAnswer": 1,
+      "explanation": "Insurance provides financial protection against unexpected events."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "I need ________ (seguro) for my trip.",
+      "answer": "insurance",
+      "explanation": "General word."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "Which verb is used with 'a claim'?",
+      "options": ["Make", "Do", "Buy", "Lend"],
+      "correctAnswer": 0,
+      "explanation": "The correct collocation is 'make a claim'."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "If you ________ (tener) a car, you need insurance.",
+      "answer": "have",
+      "explanation": "Condition in present simple."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Types of protection:",
+      "pairs": [
+        { "term": "Theft", "definition": "Robo" },
+        { "term": "Damage", "definition": "Daño" },
+        { "term": "Liability", "definition": "Responsabilidad civil" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "What is 'Seguro de Vida'?",
+      "options": ["Car Insurance", "Life Insurance", "Home Insurance", "Travel Insurance"],
+      "correctAnswer": 1,
+      "explanation": "'Life' = Vida."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "My ________ (póliza) number is 123456.",
+      "answer": "policy",
+      "explanation": "The identifier of your contract."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "If the risk is high, the premium is...",
+      "options": ["Low", "High", "Zero", "Free"],
+      "correctAnswer": 1,
+      "explanation": "More risk usually means higher cost for the insurance company."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "The company ________ (pagar) if you are insured.",
+      "answer": "pays",
+      "explanation": "Zero conditional result."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "What is 'siniestro' in insurance English?",
+      "options": ["Accident", "Claim / Loss", "Contract", "Bill"],
+      "correctAnswer": 1,
+      "explanation": "In insurance, an event that leads to a claim is a loss or claim event."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "I want to ________ (asegurar) my phone.",
+      "answer": "insure",
+      "explanation": "'Insure' is the verb; 'insurance' is the noun."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Insurance events:",
+      "pairs": [
+        { "term": "Accident", "definition": "Coche" },
+        { "term": "Illness", "definition": "Salud" },
+        { "term": "Fire", "definition": "Hogar" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "Is insurance 'obligatorio' for cars in many countries?",
+      "options": ["Yes, it is mandatory", "No, it's optional", "Only on Sundays", "Only for red cars"],
+      "correctAnswer": 0,
+      "explanation": "'Mandatory' or 'Compulsory' means you must have it."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (franquicia) is $200.",
+      "answer": "deductible",
+      "explanation": "Term for 'franquicia'."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "Choose the zero conditional sentence:",
+      "options": ["If I am rich, I will buy a car.", "If you pay, you are protected.", "I am buying insurance.", "I bought a policy."],
+      "correctAnswer": 1,
+      "explanation": "Present + Present for general facts."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "Is the ________ (cobertura) total?",
+      "answer": "coverage",
+      "explanation": "Refers to what is included."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "Who is the 'beneficiary'?",
+      "options": ["The person who pays", "The person who receives the money", "The insurance agent", "The bank manager"],
+      "correctAnswer": 1,
+      "explanation": "The beneficiary is the person who gets the payment from the policy."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "My car is ________ (asegurado).",
+      "answer": "insured",
+      "explanation": "Adjective/Past participle."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "What is 'renovar'?",
+      "options": ["Cancel", "Renew", "Start", "End"],
+      "correctAnswer": 1,
+      "explanation": "To renew is to continue the policy for another period."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "The policy ________ (expirar) next month.",
+      "answer": "expires",
+      "explanation": "It ends."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Insurance companies:",
+      "pairs": [
+        { "term": "AXA", "definition": "Example company" },
+        { "term": "Allianz", "definition": "Example company" },
+        { "term": "Provider", "definition": "The company" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "Which is more important?",
+      "options": ["Buying a car", "Insuring the car", "Both are important", "None"],
+      "correctAnswer": 2,
+      "explanation": "If you buy a car, you must protect it."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "Read the ________ (letra pequeña) carefully.",
+      "answer": "small print",
+      "explanation": "Details in the contract."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "A 'comprehensive' policy covers...",
+      "options": ["Everything", "Nothing", "Only theft", "Only fire"],
+      "correctAnswer": 0,
+      "explanation": "'Comprehensive' (todoriesgo) is the most complete coverage."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "If the deductible is low, the premium is ________. (alta)",
+      "answer": "high",
+      "explanation": "Inversely related."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "What is 'responsabilidad civil'?",
+      "options": ["Civil Responsibility", "Third-party Liability", "House Insurance", "Social Insurance"],
+      "correctAnswer": 1,
+      "explanation": "The technical term is liability insurance."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "Contact your ________. (agente)",
+      "answer": "agent",
+      "explanation": "The person who helps you with the policy."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Match the verbs:",
+      "pairs": [
+        { "term": "Insure", "definition": "Asegurar" },
+        { "term": "Recover", "definition": "Recuperar" },
+        { "term": "Investigate", "definition": "Investigar" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "If you lie to the insurer, the claim is...",
+      "options": ["Paid", "Rejected", "Faster", "Cheaper"],
+      "correctAnswer": 1,
+      "explanation": "Honesty is required for insurance claims."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "The total ________ (pérdida) is $5,000.",
+      "answer": "loss",
+      "explanation": "'Loss' is 'pérdida'."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "What is 'Travel Insurance'?",
+      "options": ["Seguro de vida", "Seguro de viaje", "Seguro médico", "Seguro de coche"],
+      "correctAnswer": 1,
+      "explanation": "'Travel' = Viaje."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "If you ________ (estar) sick, go to the doctor.",
+      "answer": "are",
+      "explanation": "Zero conditional condition."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "A 'claim form' is for...",
+      "options": ["Applying for a loan", "Reporting an accident", "Buying shoes", "Opening an account"],
+      "correctAnswer": 1,
+      "explanation": "You use it to request payment from your insurance."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "The premium is ________ (anual).",
+      "answer": "annual",
+      "explanation": "Paid every year."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Home insurance risks:",
+      "pairs": [
+        { "term": "Flood", "definition": "Inundación" },
+        { "term": "Earthquake", "definition": "Terremoto" },
+        { "term": "Storm", "definition": "Tormenta" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "Can you insure a 'pet'?",
+      "options": ["Yes, pet insurance exists", "No, never", "Only in the UK", "Only for birds"],
+      "correctAnswer": 0,
+      "explanation": "Pet insurance covers vet bills for animals."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "This is a ________ (segura) company.",
+      "answer": "safe",
+      "explanation": "General adjective."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "If the policy is 'void', it...",
+      "options": ["Is new", "Is not valid", "Is expensive", "Is good"],
+      "correctAnswer": 1,
+      "explanation": "'Void' means it has no legal effect anymore."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "We need ________ (protección).",
+      "answer": "protection",
+      "explanation": "Noun form."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "What is 'Prima'? (in insurance)",
+      "options": ["Your cousin", "The periodic payment", "The bank manager", "The card number"],
+      "correctAnswer": 1,
+      "explanation": "In finance, premium (prima) is the cost of the policy."
+    }
+  ]
+}

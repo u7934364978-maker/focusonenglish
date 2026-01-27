@@ -1,0 +1,29 @@
+{
+  "title": "Introducción a los Seguros",
+  "sections": [
+    {
+      "id": "ins-vocab",
+      "title": "Vocabulario: Tipos de Seguros",
+      "content": "Aprenderemos a protegernos financieramente.\n\n- **Insurance**: Seguro.\n- **Policy**: Póliza (el contrato).\n- **Premium**: Prima (el pago periódico).\n- **Claim**: Reclamación / Siniestro (cuando pides el dinero).\n- **Coverage**: Cobertura.\n- **Deductible**: Franquicia (lo que tú pagas primero).\n- **Life Insurance**: Seguro de vida.\n- **Health Insurance**: Seguro médico.\n- **Car Insurance**: Seguro de coche.\n- **Home Insurance**: Seguro de hogar."
+    },
+    {
+      "id": "grammar-zero-conditional",
+      "title": "Gramática: Zero Conditional para Hechos",
+      "content": "Usamos el condicional cero para hablar de realidades y reglas de los seguros.\n\n- If you **have** an accident, the insurance **pays**. (Si tienes un accidente, el seguro paga).\n- If you **don't pay** the premium, the policy **cancels**. (Si no pagas la prima, la póliza se cancela).\n- If the deductible **is** high, the premium **is** low. (Si la franquicia es alta, la prima es baja).\n\n**Estructura:**\n- If + Present Simple, + Present Simple."
+    },
+    {
+      "id": "scenarios",
+      "title": "Situaciones Comunes",
+      "content": "- *I need to make a claim.* (Necesito hacer una reclamación).\n- *What does the policy cover?* (¿Qué cubre la póliza?).\n- *My car is insured.* (Mi coche está asegurado).\n- *Is health insurance expensive here?* (¿Es caro el seguro médico aquí?)"
+    }
+  ],
+  "objectives": [
+    "Identificar los tipos básicos de seguros",
+    "Comprender los términos clave: policy, premium, claim",
+    "Usar el condicional cero para hablar de reglas y consecuencias"
+  ],
+  "keyTerms": [
+    { "term": "Risk", "definition": "The possibility of something bad happening." },
+    { "term": "Protection", "definition": "The act of protecting or state of being protected." }
+  ]
+}

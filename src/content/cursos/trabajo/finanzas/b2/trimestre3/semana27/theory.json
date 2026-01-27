@@ -1,0 +1,36 @@
+{
+  "title": "Introduction to Derivatives",
+  "sections": [
+    {
+      "id": "derivatives-basics",
+      "title": "What are Derivatives?",
+      "content": "A derivative is a financial contract whose value is 'derived' from an underlying asset (such as stocks, bonds, commodities, or currencies).\n\n- **Underlying Asset**: The primary asset on which the derivative's price is based.\n- **Hedging**: Using derivatives to reduce risk (e.g., protecting against a price drop).\n- **Speculation**: Using derivatives to bet on future price movements for profit."
+    },
+    {
+      "id": "types-of-derivatives",
+      "title": "Main Types of Derivatives",
+      "content": "There are four main categories of derivatives that professionals use.\n\n- **Forwards**: A private agreement between two parties to buy or sell an asset at a specified price on a future date.\n- **Futures**: Similar to forwards but traded on an exchange with standardized terms.\n- **Options**: Contracts that give the buyer the right, but not the obligation, to buy (Call) or sell (Put) an asset at a specific price.\n- **Swaps**: Agreements to exchange cash flows or other financial variables (e.g., swapping a variable interest rate for a fixed one)."
+    },
+    {
+      "id": "options-details",
+      "title": "Call and Put Options",
+      "content": "Understanding options is key for managing financial portfolios.\n\n- **Call Option**: The right to **buy** an asset. You buy a call if you think the price will go **up**.\n- **Put Option**: The right to **sell** an asset. You buy a put if you think the price will go **down**.\n- **Strike Price**: The price at which the option holder can buy or sell the underlying asset."
+    },
+    {
+      "id": "grammar-conditionals",
+      "title": "Language Focus: Conditionals for Risk",
+      "content": "We use conditionals to discuss hypothetical financial outcomes and risks.\n\n- **First Conditional (Real Possibility)**: \n  - 'If the stock price **rises** above $50, the call option **will be** profitable.'\n- **Second Conditional (Unreal/Hypothetical)**: \n  - 'If we **hedged** our position last month, we **wouldn't be** losing money now.'\n  - 'What **would happen** if the interest rates **increased** suddenly?'"
+    }
+  ],
+  "objectives": [
+    "Define derivatives and the concept of an underlying asset",
+    "Explain the difference between hedging and speculation",
+    "Identify the characteristics of forwards, futures, options, and swaps",
+    "Use first and second conditionals to analyze financial risks"
+  ],
+  "keyTerms": [
+    { "term": "Strike Price", "definition": "The set price at which a derivative contract can be bought or sold." },
+    { "term": "Premium", "definition": "The price paid by the buyer to the seller for an options contract." },
+    { "term": "Volatility", "definition": "A statistical measure of the dispersion of returns for a given security or market index." }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Asset Management Basics",
+  "sections": [
+    {
+      "id": "asset-allocation",
+      "title": "Portfolio Diversification & Allocation",
+      "content": "Asset management involves managing a client's investments to meet their financial goals.\n\n- **Asset Allocation**: Dividing an investment portfolio among different asset categories, such as stocks, bonds, and cash.\n- **Diversification**: Spreading investments across various industries and geographic regions to reduce risk ('Don't put all your eggs in one basket').\n- **Risk Tolerance**: An investor's ability and willingness to lose some or all of an original investment in exchange for greater potential returns."
+    },
+    {
+      "id": "management-styles",
+      "title": "Active vs. Passive Management",
+      "content": "Investors can choose different styles of management.\n\n- **Active Management**: Portfolio managers make specific investments with the goal of outperforming a benchmark index.\n- **Passive Management**: Investing in a way that tracks a market index (e.g., the S&P 500), typically with lower fees.\n- **Mutual Funds**: A pool of money from many investors that is invested in a variety of stocks or bonds.\n- **ETFs (Exchange-Traded Funds)**: Similar to mutual funds but traded on a stock exchange like individual stocks."
+    },
+    {
+      "id": "benchmark-performance",
+      "title": "Performance & Benchmarks",
+      "content": "How do we know if a fund is doing well?\n\n- **Benchmark**: A standard against which the performance of a security or mutual fund can be measured.\n- **Alpha**: The excess return of an investment relative to the return of a benchmark index.\n- **Rebalancing**: Periodically adjusting the weightings of a portfolio to maintain the original asset allocation."
+    },
+    {
+      "id": "grammar-third-conditional",
+      "title": "Language Focus: Third Conditional & Present Perfect Continuous",
+      "content": "We use the third conditional to reflect on past events that didn't happen, and the present perfect continuous for ongoing trends.\n\n- **Third Conditional (Past Regrets/Reflection)**: \n  - 'If we **had rebalanced** the portfolio in January, we **would have avoided** that loss.'\n  - 'If she **hadn't diversified**, her losses **would have been** much greater.'\n- **Present Perfect Continuous (Ongoing Trends)**: \n  - 'Passive investing **has been growing** in popularity for several years.'\n  - 'Investors **have been looking** for lower-cost alternatives like ETFs.'"
+    }
+  ],
+  "objectives": [
+    "Explain the importance of asset allocation and diversification",
+    "Describe the differences between active and passive management",
+    "Identify mutual funds and ETFs as common investment vehicles",
+    "Use the third conditional to reflect on past financial decisions"
+  ],
+  "keyTerms": [
+    { "term": "Portfolio", "definition": "A grouping of financial assets such as stocks, bonds, and cash equivalents." },
+    { "term": "Benchmark", "definition": "A standard or point of reference against which things may be compared or assessed." },
+    { "term": "Liquid Assets", "definition": "Assets that can be converted to cash quickly without losing much value." }
+  ]
+}

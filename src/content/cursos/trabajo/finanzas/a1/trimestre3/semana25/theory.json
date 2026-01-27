@@ -1,0 +1,29 @@
+{
+  "title": "Operaciones Bancarias Básicas",
+  "sections": [
+    {
+      "id": "vocab-ops",
+      "title": "Vocabulario: Depósitos y Retiros",
+      "content": "Aprenderemos las palabras necesarias para ir al banco.\n\n- **Deposit**: Depositar (meter dinero).\n- **Withdraw**: Retirar (sacar dinero).\n- **Balance**: Saldo (cuánto dinero tienes).\n- **Account**: Cuenta.\n- **Receipt**: Recibo / Comprobante.\n- **Bank teller**: Cajero (la persona que te atiende).\n- **Queue / Line**: Cola / Fila."
+    },
+    {
+      "id": "grammar-imperatives",
+      "title": "Gramática: Imperativos para Instrucciones",
+      "content": "Usamos el imperativo para dar instrucciones claras en el banco.\n\n- **Sign** here, please. (Firme aquí, por favor).\n- **Insert** your card. (Inserte su tarjeta).\n- **Enter** your PIN. (Introduzca su PIN).\n- **Wait** a moment. (Espere un momento).\n\n**Negativo:**\n- **Do not** (Don't) forget your receipt. (No olvide su recibo)."
+    },
+    {
+      "id": "dialogue-basics",
+      "title": "Frases Útiles",
+      "content": "- *I want to deposit 50 euros.* (Quiero depositar 50 euros).\n- *I want to withdraw 20 dollars.* (Quiero retirar 20 dólares).\n- *What is my balance?* (¿Cuál es mi saldo?)"
+    }
+  ],
+  "objectives": [
+    "Diferenciar entre deposit y withdraw",
+    "Usar imperativos básicos para seguir instrucciones",
+    "Preguntar por el saldo de una cuenta"
+  ],
+  "keyTerms": [
+    { "term": "Withdrawal", "definition": "The act of taking money out of an account." },
+    { "term": "Deposit", "definition": "To put money into a bank account." }
+  ]
+}

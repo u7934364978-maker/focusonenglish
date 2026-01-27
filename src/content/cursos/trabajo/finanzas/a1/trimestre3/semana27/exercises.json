@@ -1,0 +1,398 @@
+{
+  "title": "Ejercicios: Monedas y Tipos de Cambio",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What is 'Currency'?",
+      "options": ["Un tipo de banco", "Un sistema de dinero", "Una tarjeta de crédito", "Una moneda de oro"],
+      "correctAnswer": 1,
+      "explanation": "Currency is the system of money used in a country."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "________ (cuánto) is the commission?",
+      "answer": "How much",
+      "explanation": "We use 'How much' for uncountable things like commission."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the currencies with their countries:",
+      "pairs": [
+        { "term": "Euro", "definition": "Europe" },
+        { "term": "Dollar", "definition": "USA" },
+        { "term": "Pound", "definition": "UK" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "How many ________ do you have?",
+      "options": ["Money", "Euros", "Cash", "Gold"],
+      "correctAnswer": 1,
+      "explanation": "We use 'How many' with plural countable nouns like 'Euros'."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "I want to change Euros ________ Dollars. (a/en)",
+      "answer": "into",
+      "explanation": "We use 'change X into Y'."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "Where can you change money?",
+      "options": ["At a supermarket", "At a Bureau de Change", "At a cinema", "At a park"],
+      "correctAnswer": 1,
+      "explanation": "A Bureau de Change is a currency exchange office."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "What is the ________ rate? (tipo de cambio)",
+      "answer": "exchange",
+      "explanation": "'Exchange rate' is the term for 'tipo de cambio'."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "Match the terms:",
+      "pairs": [
+        { "term": "Fee", "definition": "Tasa/Cargo" },
+        { "term": "Local", "definition": "De aquí" },
+        { "term": "Foreign", "definition": "Extranjero" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "________ money do you need?",
+      "options": ["How many", "How much", "How often", "How long"],
+      "correctAnswer": 1,
+      "explanation": "'Money' is uncountable, so we use 'How much'."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "The bank takes a 2% ________. (comisión)",
+      "answer": "commission",
+      "explanation": "A commission is a fee for a service."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "Foreign currency is money from...",
+      "options": ["Your country", "Another country", "Your pocket", "The sky"],
+      "correctAnswer": 1,
+      "explanation": "'Foreign' means from outside your country."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "________ pounds do you want to buy?",
+      "answer": "How many",
+      "explanation": "'Pounds' is countable and plural."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "Is there a ________ for this service?",
+      "options": ["Rate", "Fee", "Money", "Card"],
+      "correctAnswer": 1,
+      "explanation": "A 'fee' is a specific payment for a service."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "I have ________ (dinero) in my bag.",
+      "answer": "money",
+      "explanation": "'Money' is the general word."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Currency symbols:",
+      "pairs": [
+        { "term": "¥", "definition": "Yen" },
+        { "term": "CHF", "definition": "Swiss Franc" },
+        { "term": "MXN", "definition": "Mexican Peso" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "The exchange ________ changes every day.",
+      "options": ["Rate", "Price", "Cost", "Value"],
+      "correctAnswer": 0,
+      "explanation": "We call it the exchange 'rate'."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "How much ________ (efectivo) do you have?",
+      "answer": "cash",
+      "explanation": "'Cash' is physical money."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "If you are in London, the 'Local Currency' is...",
+      "options": ["Euro", "Dollar", "Pound", "Yen"],
+      "correctAnswer": 2,
+      "explanation": "The UK uses the Pound."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "________ (cuántas) coins are there?",
+      "answer": "How many",
+      "explanation": "'Coins' is countable."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "To 'change' money is to...",
+      "options": ["Spend it", "Exchange it", "Save it", "Lose it"],
+      "correctAnswer": 1,
+      "explanation": "Changing money means exchanging one for another."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "The rate is 1.10 ________ per Euro. (dólares)",
+      "answer": "dollars",
+      "explanation": "Plural of dollar."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Amounts:",
+      "pairs": [
+        { "term": "Small change", "definition": "Coins" },
+        { "term": "Big money", "definition": "Notes/Bills" },
+        { "term": "Digital money", "definition": "Credit cards" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "What is 'Tipo de cambio'?",
+      "options": ["Change rate", "Exchange rate", "Money rate", "Bank rate"],
+      "correctAnswer": 1,
+      "explanation": "The standard term is 'Exchange rate'."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "________ dollars do I get for 100 euros?",
+      "answer": "How many",
+      "explanation": "Asking for a countable number of dollars."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "Where do you see the rates?",
+      "options": ["On a board", "On a car", "On a tree", "On a shoe"],
+      "correctAnswer": 0,
+      "explanation": "Exchanges have a board with all the rates."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "I need some ________ currency for my trip. (extranjera)",
+      "answer": "foreign",
+      "explanation": "'Foreign' is the opposite of 'local'."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "How much ________ do you pay?",
+      "options": ["Fee", "Fees", "Commission", "Both A and C"],
+      "correctAnswer": 3,
+      "explanation": "'How much' goes with singular/uncountable 'fee' or 'commission'."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "1 Euro ________ 1.08 Dollars. (vale/es)",
+      "answer": "is",
+      "explanation": "We can use 'is' for values."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "What is 'Casa de cambio'?",
+      "options": ["Bank", "Bureau de Change", "Change Office", "Both B and C"],
+      "correctAnswer": 3,
+      "explanation": "Both terms are used for money exchanges."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "There is no ________ for this exchange. (comisión)",
+      "answer": "commission",
+      "explanation": "Some places offer 'zero commission'."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Europe vs America:",
+      "pairs": [
+        { "term": "Euro", "definition": "Spain" },
+        { "term": "Dollar", "definition": "USA" },
+        { "term": "Real", "definition": "Brazil" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "How do you ask for the price?",
+      "options": ["How much?", "How many?", "How long?", "How old?"],
+      "correctAnswer": 0,
+      "explanation": "We always use 'How much' for prices."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "Can you ________ (cambiar) this for me?",
+      "answer": "change",
+      "explanation": "'Change' or 'Exchange' works here."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "100 cents = 1...",
+      "options": ["Pound", "Dollar", "Euro", "All of the above"],
+      "correctAnswer": 3,
+      "explanation": "Many currencies use 100 cents/pence as a unit."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "The rate is ________ (bajo) today.",
+      "answer": "low",
+      "explanation": "'Low' is the opposite of 'high'."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "What is 'billete' in the UK?",
+      "options": ["Bill", "Note", "Ticket", "Paper"],
+      "correctAnswer": 1,
+      "explanation": "In the UK, they say 'Banknote' or 'Note'."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "I have ten ________. (monedas)",
+      "answer": "coins",
+      "explanation": "'Coins' are metal money."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Match the actions:",
+      "pairs": [
+        { "term": "Buy", "definition": "Comprar" },
+        { "term": "Sell", "definition": "Vender" },
+        { "term": "Trade", "definition": "Intercambiar" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "If you buy dollars, you 'sell'...",
+      "options": ["Dollars", "Euros", "Nothing", "The bank"],
+      "correctAnswer": 1,
+      "explanation": "To get one currency, you must give another."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "The ________ is very good for us. (tipo)",
+      "answer": "rate",
+      "explanation": "Short for exchange rate."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "________ notes do you need?",
+      "options": ["How much", "How many", "How long", "How big"],
+      "correctAnswer": 1,
+      "explanation": "'Notes' is countable."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "I want to exchange some ________. (dinero)",
+      "answer": "money",
+      "explanation": "General term."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is the symbol for Pound?",
+      "options": ["$", "€", "£", "¥"],
+      "correctAnswer": 2,
+      "explanation": "£ is the Pound sterling symbol."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "How ________ is the total?",
+      "answer": "much",
+      "explanation": "'How much' for the total price."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Money slang:",
+      "pairs": [
+        { "term": "Buck", "definition": "Dollar (US)" },
+        { "term": "Quid", "definition": "Pound (UK)" },
+        { "term": "Grand", "definition": "1,000" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "When you travel, you need...",
+      "options": ["Local money", "Foreign money", "Plastic money", "All of them"],
+      "correctAnswer": 3,
+      "explanation": "It's good to have options."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "Wait for your ________. (cambio/vueltas)",
+      "answer": "change",
+      "explanation": "'Change' also means the money you get back."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "________ is the commission?",
+      "options": ["Who", "What", "When", "Why"],
+      "correctAnswer": 1,
+      "explanation": "We use 'What' to ask for the value/definition."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "The Bureau de Change is ________. (cerrado)",
+      "answer": "closed",
+      "explanation": "Opposite of open."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "If the rate is 1:1, the currencies are...",
+      "options": ["Equal", "Different", "Expensive", "Cheap"],
+      "correctAnswer": 0,
+      "explanation": "1:1 means they have the same value."
+    }
+  ]
+}

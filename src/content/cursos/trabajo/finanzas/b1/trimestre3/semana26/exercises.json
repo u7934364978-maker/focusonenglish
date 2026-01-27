@@ -1,0 +1,398 @@
+{
+  "title": "Exercises: Investment Basics",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "What is 'Equity' in an investment context?",
+      "options": ["Lending money to the government", "Ownership in a company through shares", "A type of bank account", "A loan for a house"],
+      "correctAnswer": 1,
+      "explanation": "Equity represents ownership in a firm."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "If the stock price ________ (fall), I will wait before selling.",
+      "answer": "falls",
+      "explanation": "First conditional: 'if' clause in present simple."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the market types:",
+      "pairs": [
+        { "term": "Bull Market", "definition": "Rising prices" },
+        { "term": "Bear Market", "definition": "Falling prices" },
+        { "term": "Volatility", "definition": "Price fluctuations" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "A 'dividend' is...",
+      "options": ["A type of debt", "A payment to shareholders from profits", "The price of a bond", "A tax on investments"],
+      "correctAnswer": 1,
+      "explanation": "Dividends are how companies distribute profits to owners."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (buy) more shares if the price drops to $50.",
+      "answer": "will buy",
+      "explanation": "First conditional: result clause with 'will'."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "What happens at 'Maturity' for a bond?",
+      "options": ["The price doubles", "The borrower repays the principal", "The bond is cancelled", "The company goes bankrupt"],
+      "correctAnswer": 1,
+      "explanation": "Maturity is when the bond's life ends and the principal is repaid."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "A ________ (cartera) is a collection of investments.",
+      "answer": "portfolio",
+      "explanation": "The term for a set of investments is 'portfolio'."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "Match the instruments:",
+      "pairs": [
+        { "term": "Bond", "definition": "Fixed income / Debt" },
+        { "term": "Stock", "definition": "Equity / Ownership" },
+        { "term": "Cash", "definition": "Liquidity" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "What is 'Diversification'?",
+      "options": ["Investing all money in one stock", "Spreading investments across different assets", "Selling everything at once", "Buying only gold"],
+      "correctAnswer": 1,
+      "explanation": "Diversification reduces risk by spreading investments."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "If you ________ (diversify), you will reduce your risk.",
+      "answer": "diversify",
+      "explanation": "First conditional condition."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "Who is a 'Shareholder'?",
+      "options": ["A person who lends money to a bank", "A person who owns part of a company", "A bank manager", "A government official"],
+      "correctAnswer": 1,
+      "explanation": "A shareholder (or stockholder) owns shares in a corporation."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (rendimiento) on this bond is 4%.",
+      "answer": "yield",
+      "explanation": "'Yield' refers to the earnings generated on an investment."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "Which are considered safer generally?",
+      "options": ["Penny stocks", "Government bonds", "Tech start-ups", "Crypto-currencies"],
+      "correctAnswer": 1,
+      "explanation": "Government bonds are typically lower risk than stocks."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "Prices ________ (increase) if there is high demand.",
+      "answer": "will increase",
+      "explanation": "Future prediction with 'will'."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Match the terms:",
+      "pairs": [
+        { "term": "Broker", "definition": "Intermediary" },
+        { "term": "Capital Gain", "definition": "Profit from sale" },
+        { "term": "Security", "definition": "Financial asset" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "What is a 'Blue-chip stock'?",
+      "options": ["A new company", "A high-risk investment", "A large, stable, well-established company", "A type of potato chip"],
+      "correctAnswer": 2,
+      "explanation": "Blue-chips are considered reliable investments."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "If interest rates ________ (go up), bond prices usually go down.",
+      "answer": "go up",
+      "explanation": "First conditional general rule."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "What does 'Volatility' measure?",
+      "options": ["The name of the CEO", "How much a price fluctuates", "The location of the office", "The number of employees"],
+      "correctAnswer": 1,
+      "explanation": "Volatility is the degree of variation of a trading price series over time."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "I will ________ (vender) my shares tomorrow.",
+      "answer": "sell",
+      "explanation": "Future action."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "A 'Bond' is essentially a...",
+      "options": ["Gift", "Loan", "Card", "Product"],
+      "correctAnswer": 1,
+      "explanation": "A bond is a debt security where the investor is the lender."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (Bolsa) opens at 9 AM.",
+      "answer": "Stock Exchange",
+      "explanation": "The venue for trading stocks."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Investment strategies:",
+      "pairs": [
+        { "term": "Long-term", "definition": "Buy and hold" },
+        { "term": "Day trading", "definition": "Buy and sell quickly" },
+        { "term": "Speculation", "definition": "High risk for high gain" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "Which of these represents 'Fixed Income'?",
+      "options": ["Stocks", "Bonds", "Real Estate", "Commodities"],
+      "correctAnswer": 1,
+      "explanation": "Bonds provide a fixed, predictable income stream."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "If the company ________ (make) a profit, it might pay a dividend.",
+      "answer": "makes",
+      "explanation": "First conditional condition (singular subject)."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "What is 'Capital Gain'?",
+      "options": ["The money you lose", "The difference between buying and selling price (profit)", "The salary of a broker", "A type of tax"],
+      "correctAnswer": 1,
+      "explanation": "It's the profit realized from the sale of a capital asset."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "Don't put all your ________ in one basket.",
+      "answer": "eggs",
+      "explanation": "Famous idiom about diversification."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "A 'Bear' market is named after the bear because it...",
+      "options": ["Attacks downward", "Is slow", "Sleeps in winter", "Is brown"],
+      "correctAnswer": 0,
+      "explanation": "A bear swipes its paws down; a bull tosses its horns up."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (not invest) if the report is negative.",
+      "answer": "will not invest",
+      "explanation": "First conditional negative result."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "What is an 'IPO'?",
+      "options": ["International Payment Order", "Initial Public Offering", "Investment Portfolio Option", "Internal Profit Operation"],
+      "correctAnswer": 1,
+      "explanation": "An IPO is when a company first sells shares to the public."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "He works as a stock ________. (corredor)",
+      "answer": "broker",
+      "explanation": "A broker executes buy/sell orders."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Market participants:",
+      "pairs": [
+        { "term": "Institutional investor", "definition": "Banks/Insurance" },
+        { "term": "Retail investor", "definition": "Individuals" },
+        { "term": "Regulator", "definition": "Government oversight" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "Which asset class is the most liquid?",
+      "options": ["Real Estate", "Stocks", "Cash", "Art"],
+      "correctAnswer": 2,
+      "explanation": "Cash is perfectly liquid."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "If you ________ (need) help, call your broker.",
+      "answer": "need",
+      "explanation": "First conditional condition."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "What does 'Yield' mean?",
+      "options": ["To stop", "The return on an investment", "To lose money", "To sign a contract"],
+      "correctAnswer": 1,
+      "explanation": "Yield is the percentage return on an investment."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (plusvalía) was $2,000.",
+      "answer": "capital gain",
+      "explanation": "Term for profit from asset sale."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "What is 'Asset Allocation'?",
+      "options": ["Picking one stock", "Choosing how much to put in different categories", "Selling everything", "Buying a house"],
+      "correctAnswer": 1,
+      "explanation": "Allocation is the strategic distribution of funds."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "The market ________ (recover) soon.",
+      "answer": "will recover",
+      "explanation": "Future prediction."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Financial indicators:",
+      "pairs": [
+        { "term": "Index", "definition": "Market measure (S&P 500)" },
+        { "term": "P/E Ratio", "definition": "Price to Earnings" },
+        { "term": "Volume", "definition": "Amount traded" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "Why do prices 'fluctuate'?",
+      "options": ["Because of supply and demand", "Because it is winter", "Because the bank is closed", "Only on Mondays"],
+      "correctAnswer": 0,
+      "explanation": "Market prices are driven by buyers and sellers."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "Is the risk ________ (alto)?",
+      "answer": "high",
+      "explanation": "Adjective."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "What is a 'Corporate Bond'?",
+      "options": ["Lending money to a company", "Lending money to a city", "A type of share", "A gift from a boss"],
+      "correctAnswer": 0,
+      "explanation": "Companies issue bonds to raise capital."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (not sell) my portfolio yet.",
+      "answer": "will not sell",
+      "explanation": "Future intention."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "What is the 'Dow Jones'?",
+      "options": ["A famous broker", "A stock market index", "A bank", "A country"],
+      "correctAnswer": 1,
+      "explanation": "It's one of the most famous stock market indices in the world."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "If you are ________ (afortunado), you will make money.",
+      "answer": "lucky",
+      "explanation": "Condition."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Risk levels:",
+      "pairs": [
+        { "term": "Conservative", "definition": "Low risk" },
+        { "term": "Aggressive", "definition": "High risk" },
+        { "term": "Balanced", "definition": "Medium risk" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "What is 'Insider Trading'?",
+      "options": ["Trading from home", "Illegal trading using secret information", "Trading in the street", "Buying only one stock"],
+      "correctAnswer": 1,
+      "explanation": "Using non-public information to trade is illegal."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "The dividend ________ (be) $1 per share.",
+      "answer": "will be",
+      "explanation": "Future prediction."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "Which is an example of 'Diversification'?",
+      "options": ["Buying 100 shares of Apple", "Buying shares, bonds, and gold", "Putting money under the bed", "Selling all your stocks"],
+      "correctAnswer": 1,
+      "explanation": "Multiple asset classes provide diversification."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "What is your ________? (meta)",
+      "answer": "goal",
+      "explanation": "Investment objective."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "Stocks are generally more ________ than bonds.",
+      "options": ["Stable", "Volatile", "Liquid", "Expensive"],
+      "correctAnswer": 1,
+      "explanation": "Stocks fluctuate in price more than bonds typically do."
+    }
+  ]
+}

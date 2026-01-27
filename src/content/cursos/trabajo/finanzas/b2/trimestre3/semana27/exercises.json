@@ -1,0 +1,397 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is the 'Underlying Asset' in a derivative contract?",
+    "options": ["The fee paid to the bank", "The primary asset from which the value is derived", "The person who signs the contract", "The tax paid on the profit"],
+    "correctAnswer": 1,
+    "explanation": "The value of a derivative depends on the price of the underlying asset."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "If the price _______ (increase), we will exercise our call option.",
+    "correctAnswer": "increases",
+    "explanation": "First conditional: If + present simple."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "A 'Call Option' gives you the right to:",
+    "options": ["Sell an asset", "Buy an asset", "Destroy an asset", "Loan an asset"],
+    "correctAnswer": 1,
+    "explanation": "A call option is for buying; a put option is for selling."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the derivative type with its feature:",
+    "pairs": [
+      { "left": "Futures", "right": "Traded on an exchange" },
+      { "left": "Forwards", "right": "Private agreement between two parties" },
+      { "left": "Options", "right": "The right but not the obligation" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "If we _______ (not/hedge) our exposure, we would be in trouble now.",
+    "options": ["don't hedge", "didn't hedge", "won't hedge", "haven't hedged"],
+    "correctAnswer": 1,
+    "explanation": "Second conditional: If + past simple."
+  },
+  {
+    "id": 6,
+    "type": "multiple-choice",
+    "question": "What is 'Hedging'?",
+    "options": ["Gardening", "Reducing risk in a portfolio", "Betting everything on one stock", "Selling all assets for cash"],
+    "correctAnswer": 1,
+    "explanation": "Hedging is like an insurance policy for your investments."
+  },
+  {
+    "id": 7,
+    "type": "fill-in-the-blank",
+    "question": "If the volatility _______ (be) lower, the premiums would be cheaper.",
+    "correctAnswer": "were",
+    "explanation": "Second conditional (subjunctive/past simple)."
+  },
+  {
+    "id": 8,
+    "type": "multiple-choice",
+    "question": "What does a 'Put Option' give the buyer the right to do?",
+    "options": ["Buy an asset", "Sell an asset", "Swap an asset", "Borrow an asset"],
+    "correctAnswer": 1,
+    "explanation": "Put options are used when an investor expects the price to fall."
+  },
+  {
+    "id": 9,
+    "type": "fill-in-the-blank",
+    "question": "If you _______ (buy) that future last week, you would have made a profit.",
+    "correctAnswer": "had bought",
+    "explanation": "Third conditional (past hypothesis)."
+  },
+  {
+    "id": 10,
+    "type": "multiple-choice",
+    "question": "What is the 'Strike Price'?",
+    "options": ["The price of the option today", "The price at which the asset can be bought/sold", "The penalty for late payment", "The interest rate on the deal"],
+    "correctAnswer": 1,
+    "explanation": "The strike price is the price fixed in the contract."
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "If the market _______ (crash) tomorrow, our puts will protect us.",
+    "options": ["crashes", "crashed", "will crash", "crashing"],
+    "correctAnswer": 0,
+    "explanation": "First conditional."
+  },
+  {
+    "id": 12,
+    "type": "fill-in-the-blank",
+    "question": "We _______ (save) a lot of money if we had used a swap.",
+    "correctAnswer": "would have saved",
+    "explanation": "Third conditional result."
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "question": "What is a 'Swap' in finance?",
+    "options": ["Exchanging physical goods", "Exchanging cash flows or financial variables", "Firing the CEO", "Selling all stocks"],
+    "correctAnswer": 1,
+    "explanation": "Interest rate swaps are common for managing debt costs."
+  },
+  {
+    "id": 14,
+    "type": "fill-in-the-blank",
+    "question": "If I _______ (be) you, I would diversify the portfolio.",
+    "correctAnswer": "were",
+    "explanation": "Second conditional advice."
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "question": "Which of these is a commodity derivative?",
+    "options": ["Stock option", "Oil future", "Currency swap", "Bond forward"],
+    "correctAnswer": 1,
+    "explanation": "Oil is a commodity."
+  },
+  {
+    "id": 16,
+    "type": "matching",
+    "question": "Match the goal with the action:",
+    "pairs": [
+      { "left": "Hedging", "right": "Protecting against loss" },
+      { "left": "Speculation", "right": "Taking risk for profit" },
+      { "left": "Arbitrage", "right": "Exploiting price differences" }
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple-choice",
+    "question": "If the interest rates _______ (stay) the same, the swap will be useless.",
+    "options": ["stay", "stayed", "stays", "will stay"],
+    "correctAnswer": 0,
+    "explanation": "First conditional."
+  },
+  {
+    "id": 18,
+    "type": "fill-in-the-blank",
+    "question": "What _______ (happen) if the counterparty defaults?",
+    "correctAnswer": "will happen",
+    "explanation": "First conditional question."
+  },
+  {
+    "id": 19,
+    "type": "multiple-choice",
+    "question": "What is the 'Premium' in an options contract?",
+    "options": ["The profit from the deal", "The price paid to buy the option", "The value of the underlying asset", "The tax on the transaction"],
+    "correctAnswer": 1,
+    "explanation": "The premium is the non-refundable cost of the option."
+  },
+  {
+    "id": 20,
+    "type": "multiple-choice",
+    "question": "If we _______ (have) more capital, we could take bigger risks.",
+    "options": ["had", "have", "would have", "has"],
+    "correctAnswer": 0,
+    "explanation": "Second conditional."
+  },
+  {
+    "id": 21,
+    "type": "fill-in-the-blank",
+    "question": "If the deal _______ (fail), we will lose our deposit.",
+    "correctAnswer": "fails",
+    "explanation": "First conditional."
+  },
+  {
+    "id": 22,
+    "type": "multiple-choice",
+    "question": "What is 'Volatility'?",
+    "options": ["High profits", "The degree of variation in prices", "A stable market", "The length of a contract"],
+    "correctAnswer": 1,
+    "explanation": "High volatility means prices move up and down significantly."
+  },
+  {
+    "id": 23,
+    "type": "multiple-choice",
+    "question": "If I _______ (know) about the risk, I wouldn't have invested.",
+    "options": ["know", "knew", "had known", "will know"],
+    "correctAnswer": 2,
+    "explanation": "Third conditional."
+  },
+  {
+    "id": 24,
+    "type": "fill-in-the-blank",
+    "question": "If the price _______ (fall) below $20, the put will be in the money.",
+    "correctAnswer": "falls",
+    "explanation": "First conditional."
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "question": "What does 'In the money' mean?",
+    "options": ["The option is profitable to exercise", "The option has expired", "You have lost all your money", "You are buying a house"],
+    "correctAnswer": 0,
+    "explanation": "'In the money' means the current price is favorable compared to the strike price."
+  },
+  {
+    "id": 26,
+    "type": "matching",
+    "question": "Match the option state with its meaning:",
+    "pairs": [
+      { "left": "In the money", "right": "Profitable" },
+      { "left": "Out of the money", "right": "Not profitable" },
+      { "left": "At the money", "right": "Current price = Strike price" }
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "If the Fed _______ (raise) rates next week, bond futures will drop.",
+    "options": ["raises", "raised", "raise", "will raise"],
+    "correctAnswer": 0,
+    "explanation": "First conditional."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "The traders _______ (be) happy if the market were more bullish.",
+    "correctAnswer": "would be",
+    "explanation": "Second conditional result."
+  },
+  {
+    "id": 29,
+    "type": "multiple-choice",
+    "question": "What is 'Counterparty Risk'?",
+    "options": ["Risk of a price drop", "Risk that the other party defaults", "Risk of a computer error", "Risk of a bank holiday"],
+    "correctAnswer": 1,
+    "explanation": "This is especially high in OTC (Over-the-counter) derivatives like forwards."
+  },
+  {
+    "id": 30,
+    "type": "multiple-choice",
+    "question": "If the contract _______ (expire) today, it is worthless.",
+    "options": ["expires", "expired", "will expire", "expiring"],
+    "correctAnswer": 0,
+    "explanation": "First conditional/Zero conditional logic."
+  },
+  {
+    "id": 31,
+    "type": "fill-in-the-blank",
+    "question": "If we _______ (wait) until tomorrow, we might get a better price.",
+    "correctAnswer": "wait",
+    "explanation": "First conditional."
+  },
+  {
+    "id": 32,
+    "type": "multiple-choice",
+    "question": "What is 'Leverage' in derivatives?",
+    "options": ["Buying tools", "Using a small amount of money to control a large position", "Paying off all debt", "Hiring more employees"],
+    "correctAnswer": 1,
+    "explanation": "Leverage can magnify both profits and losses."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "If you _______ (exercise) the option, you would own the stock.",
+    "options": ["exercise", "exercised", "will exercise", "exercising"],
+    "correctAnswer": 1,
+    "explanation": "Second conditional."
+  },
+  {
+    "id": 34,
+    "type": "fill-in-the-blank",
+    "question": "If the company _______ (go) bankrupt, the credit swap will pay out.",
+    "correctAnswer": "goes",
+    "explanation": "First conditional."
+  },
+  {
+    "id": 35,
+    "type": "multiple-choice",
+    "question": "What is an 'OTC' derivative?",
+    "options": ["Over the counter (not on an exchange)", "On the clock", "Only top capital", "Official trade contract"],
+    "correctAnswer": 0,
+    "explanation": "OTC deals are customized private agreements."
+  },
+  {
+    "id": 36,
+    "type": "matching",
+    "question": "Match the asset to the derivative type:",
+    "pairs": [
+      { "left": "Interest Rate", "right": "Swap" },
+      { "left": "Stock", "right": "Option" },
+      { "left": "Wheat", "right": "Future" }
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple-choice",
+    "question": "If the premium _______ (be) any higher, it wouldn't be worth it.",
+    "options": ["is", "was", "were", "be"],
+    "correctAnswer": 2,
+    "explanation": "Second conditional (unreal)."
+  },
+  {
+    "id": 38,
+    "type": "fill-in-the-blank",
+    "question": "If we _______ (hedge) our currency risk, we will sleep better.",
+    "correctAnswer": "hedge",
+    "explanation": "First conditional."
+  },
+  {
+    "id": 39,
+    "type": "multiple-choice",
+    "question": "What is 'Maturity' in a financial contract?",
+    "options": ["The age of the trader", "The date the contract ends", "The profit made", "The size of the bank"],
+    "correctAnswer": 1,
+    "explanation": "Maturity is the expiration date."
+  },
+  {
+    "id": 40,
+    "type": "multiple-choice",
+    "question": "If the trend _______ (continue), we'll double our investment.",
+    "options": ["continues", "continued", "will continue", "continuing"],
+    "correctAnswer": 0,
+    "explanation": "First conditional."
+  },
+  {
+    "id": 41,
+    "type": "fill-in-the-blank",
+    "question": "I _______ (buy) that call if I had more money.",
+    "correctAnswer": "would buy",
+    "explanation": "Second conditional result."
+  },
+  {
+    "id": 42,
+    "type": "multiple-choice",
+    "question": "What is 'Arbitrage'?",
+    "options": ["A type of law", "Simultaneous purchase and sale to profit from price differences", "A long-term investment", "Selling all assets"],
+    "correctAnswer": 1,
+    "explanation": "Arbitrageurs help keep market prices efficient."
+  },
+  {
+    "id": 43,
+    "type": "multiple-choice",
+    "question": "If the volatility _______ (increase), the option value usually goes up.",
+    "options": ["increases", "increased", "increase", "will increase"],
+    "correctAnswer": 0,
+    "explanation": "Zero/First conditional logic."
+  },
+  {
+    "id": 44,
+    "type": "fill-in-the-blank",
+    "question": "What would you _______ (do) if the market crashed tomorrow?",
+    "correctAnswer": "do",
+    "explanation": "Second conditional question."
+  },
+  {
+    "id": 45,
+    "type": "multiple-choice",
+    "question": "What is a 'Forward' contract?",
+    "options": ["A standardized exchange-traded deal", "A customized private agreement for future delivery", "A type of insurance", "A credit card payment"],
+    "correctAnswer": 1,
+    "explanation": "Forwards are like futures but private and non-standardized."
+  },
+  {
+    "id": 46,
+    "type": "matching",
+    "question": "Match the term with its synonym:",
+    "pairs": [
+      { "left": "Buyer", "right": "Long position" },
+      { "left": "Seller", "right": "Short position" },
+      { "left": "Expiration", "right": "Maturity" }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple-choice",
+    "question": "If the price _______ (stay) above the strike, the call is 'in the money'.",
+    "options": ["stays", "stayed", "stay", "will stay"],
+    "correctAnswer": 0,
+    "explanation": "First conditional."
+  },
+  {
+    "id": 48,
+    "type": "fill-in-the-blank",
+    "question": "The risk _______ (be) much lower if we used options.",
+    "correctAnswer": "would be",
+    "explanation": "Second conditional result."
+  },
+  {
+    "id": 49,
+    "type": "multiple-choice",
+    "question": "What is the primary use of a 'Currency Swap'?",
+    "options": ["To buy a new car", "To manage exchange rate risk on international debt", "To travel for free", "To avoid paying taxes"],
+    "correctAnswer": 1,
+    "explanation": "Companies with international operations use currency swaps to hedge forex risk."
+  },
+  {
+    "id": 50,
+    "type": "multiple-choice",
+    "question": "If you _______ (not/know) how they work, you shouldn't trade derivatives.",
+    "options": ["don't know", "didn't know", "won't know", "not know"],
+    "correctAnswer": 0,
+    "explanation": "First conditional/Real advice."
+  }
+]

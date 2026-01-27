@@ -1,0 +1,34 @@
+{
+  "title": "Retail vs. Commercial Banking",
+  "sections": [
+    {
+      "id": "banking-sectors",
+      "title": "Understanding Different Banking Sectors",
+      "content": "Banks are generally divided into two main categories depending on the clients they serve:\n\n- **Retail Banking**: Also known as consumer banking, it provides services to individuals and families (mortgages, personal loans, credit cards).\n- **Commercial Banking**: Focuses on business clients, from small enterprises to large corporations (business loans, payroll services, trade finance).\n- **High Net Worth Individuals (HNWI)**: Wealthy clients who require specialized private banking services.\n- **SME (Small and Medium-sized Enterprises)**: Small businesses that often form the core of commercial banking portfolios.\n- **Investment Banking**: A separate sector focusing on raising capital and corporate advisory (M&A)."
+    },
+    {
+      "id": "services-comparison",
+      "title": "Services and Products",
+      "content": "While products may seem similar, their scale and complexity vary:\n\n- **Personal Loan vs. Business Loan**: Personal loans are based on individual credit history; business loans often require complex business plans and cash flow analysis.\n- **Overdraft Facilities**: Common in both sectors, but limits for businesses are much higher.\n- **Trade Finance**: Services like **Letters of Credit** (LC) used exclusively in commercial banking for international trade.\n- **Payroll Services**: Automated salary payments for employees, managed by commercial banks for their corporate clients.\n- **Treasury Management**: Managing a company's liquidity, investments, and financial risks."
+    },
+    {
+      "id": "grammar-passive",
+      "title": "Grammar Focus: Passive Voice",
+      "content": "The passive voice is frequently used in banking to sound professional and focus on the action rather than the person.\n\n- **Present Passive**: The loan **is approved** by the manager. (El préstamo es aprobado por el director).\n- **Past Passive**: The documents **were signed** yesterday. (Los documentos fueron firmados ayer).\n- **Future Passive**: The funds **will be transferred** tomorrow. (Los fondos serán transferidos mañana).\n\n**Structure**: Subject + **to be** (correct tense) + **Past Participle**."
+    },
+    {
+      "id": "vocabulary_summary",
+      "title": "Vocabulary Summary",
+      "content": "| English | Spanish |\n| :--- | :--- |\n| **Consumer** | Consumidor / Particular |\n| **Corporation** | Gran empresa / Corporación |\n| **Wholesale Banking** | Banca al por mayor (Commercial) |\n| **Retailer** | Minorista |\n| **Net Worth** | Patrimonio neto |\n| **Payroll** | Nómina |\n| **Facility** | Línea de crédito / Facilidad |"
+    }
+  ],
+  "objectives": [
+    "Distinguish between retail and commercial banking sectors",
+    "Identify specific financial products for businesses",
+    "Apply the passive voice in professional banking contexts"
+  ],
+  "keyTerms": [
+    { "term": "SME", "definition": "Small and Medium-sized Enterprises." },
+    { "term": "M&A", "definition": "Mergers and Acquisitions." }
+  ]
+}

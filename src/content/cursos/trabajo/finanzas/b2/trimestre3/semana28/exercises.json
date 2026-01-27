@@ -1,0 +1,397 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is 'Asset Allocation'?",
+    "options": ["Selling all your stocks", "Dividing your portfolio among different categories like stocks and bonds", "Buying only one type of gold coin", "Opening a new bank account"],
+    "correctAnswer": 1,
+    "explanation": "Asset allocation is the strategy of balancing risk and reward by adjusting the percentage of each asset."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "If we _______ (rebalance) the portfolio sooner, we would have avoided the loss.",
+    "correctAnswer": "had rebalanced",
+    "explanation": "Third conditional for past hypothesis."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "What is 'Passive Management'?",
+    "options": ["Actively picking stocks to beat the market", "Investing to track a market index", "Letting your brother manage your money", "Doing nothing with your money"],
+    "correctAnswer": 1,
+    "explanation": "Passive management aims to match index performance with low fees."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the term with its definition:",
+    "pairs": [
+      { "left": "Diversification", "right": "Spreading risk across assets" },
+      { "left": "Benchmark", "right": "Standard for measuring performance" },
+      { "left": "Alpha", "right": "Excess return over a benchmark" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "Investors _______ (look) for more ESG-focused funds lately.",
+    "options": ["have been looking", "are looking", "looked", "will be looking"],
+    "correctAnswer": 0,
+    "explanation": "Present perfect continuous for an ongoing trend."
+  },
+  {
+    "id": 6,
+    "type": "multiple-choice",
+    "question": "Which of these is an 'Exchange-Traded Fund' (ETF)?",
+    "options": ["A private bank loan", "A fund that trades on a stock exchange like a stock", "A physical gold bar", "A savings account"],
+    "correctAnswer": 1,
+    "explanation": "ETFs offer the diversification of a fund with the liquidity of a stock."
+  },
+  {
+    "id": 7,
+    "type": "fill-in-the-blank",
+    "question": "They _______ (manage) that fund since 2015.",
+    "correctAnswer": "have been managing",
+    "explanation": "Present perfect continuous for an action starting in the past and continuing."
+  },
+  {
+    "id": 8,
+    "type": "multiple-choice",
+    "question": "What is the primary goal of 'Active Management'?",
+    "options": ["To match the market index", "To outperform a benchmark index", "To pay the lowest possible fees", "To never trade stocks"],
+    "correctAnswer": 1,
+    "explanation": "Active managers try to generate 'Alpha' by picking winning stocks."
+  },
+  {
+    "id": 9,
+    "type": "fill-in-the-blank",
+    "question": "If she _______ (not/diversify) her portfolio, her losses would have been much greater.",
+    "correctAnswer": "hadn't diversified",
+    "explanation": "Third conditional."
+  },
+  {
+    "id": 10,
+    "type": "multiple-choice",
+    "question": "What is 'Rebalancing'?",
+    "options": ["Selling all your assets", "Adjusting the weightings of a portfolio to the original target", "Hiring a new manager", "Moving to another bank"],
+    "correctAnswer": 1,
+    "explanation": "Rebalancing ensures your portfolio doesn't become too risky or too conservative over time."
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "question": "We _______ (analyze) the market trends all morning.",
+    "options": ["have been analyzing", "are analyzing", "analyzed", "will analyze"],
+    "correctAnswer": 0,
+    "explanation": "Present perfect continuous."
+  },
+  {
+    "id": 12,
+    "type": "fill-in-the-blank",
+    "question": "The deal _______ (be) better if we had negotiated harder.",
+    "correctAnswer": "would have been",
+    "explanation": "Third conditional result."
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "question": "What are 'Mutual Funds'?",
+    "options": ["Individual stocks", "Pooled money from many investors invested in various assets", "Bank loans for businesses", "Government bonds"],
+    "correctAnswer": 1,
+    "explanation": "Mutual funds allow small investors to access professional management and diversification."
+  },
+  {
+    "id": 14,
+    "type": "fill-in-the-blank",
+    "question": "He _______ (work) for that asset management firm for ten years.",
+    "correctAnswer": "has been working",
+    "explanation": "Present perfect continuous."
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "question": "What is 'Risk Tolerance'?",
+    "options": ["How much you hate paying taxes", "An investor's ability and willingness to lose money for potential gains", "The speed of a computer", "The number of employees in a bank"],
+    "correctAnswer": 1,
+    "explanation": "Risk tolerance determines the appropriate asset allocation for an investor."
+  },
+  {
+    "id": 16,
+    "type": "matching",
+    "question": "Match the asset class with its typical risk level:",
+    "pairs": [
+      { "left": "Equities (Stocks)", "right": "High Risk" },
+      { "left": "Government Bonds", "right": "Low to Medium Risk" },
+      { "left": "Cash", "right": "Very Low Risk" }
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple-choice",
+    "question": "If they _______ (heed) the warning, they would have saved their capital.",
+    "options": ["heed", "heeded", "had heeded", "will heed"],
+    "correctAnswer": 2,
+    "explanation": "Third conditional."
+  },
+  {
+    "id": 18,
+    "type": "fill-in-the-blank",
+    "question": "The market _______ (perform) very well lately.",
+    "correctAnswer": "has been performing",
+    "explanation": "Present perfect continuous."
+  },
+  {
+    "id": 19,
+    "type": "multiple-choice",
+    "question": "What is a 'Benchmark'?",
+    "options": ["A wooden seat", "A standard for measuring investment performance", "The highest point in a chart", "A type of bank account"],
+    "correctAnswer": 1,
+    "explanation": "The S&P 500 is a common benchmark for large-cap US stocks."
+  },
+  {
+    "id": 20,
+    "type": "multiple-choice",
+    "question": "If we _______ (sell) the position yesterday, we wouldn't have lost money.",
+    "options": ["sell", "sold", "had sold", "will sell"],
+    "correctAnswer": 2,
+    "explanation": "Third conditional."
+  },
+  {
+    "id": 21,
+    "type": "fill-in-the-blank",
+    "question": "I _______ (think) about changing my investment strategy.",
+    "correctAnswer": "have been thinking",
+    "explanation": "Present perfect continuous."
+  },
+  {
+    "id": 22,
+    "type": "multiple-choice",
+    "question": "What is 'Liquidity'?",
+    "options": ["Water in a bank", "The ease with which an asset can be converted to cash", "The total debt of a company", "The speed of the internet"],
+    "correctAnswer": 1,
+    "explanation": "Cash is the most liquid asset."
+  },
+  {
+    "id": 23,
+    "type": "multiple-choice",
+    "question": "If the manager _______ (choose) better stocks, the fund would have outperformed.",
+    "options": ["chooses", "chose", "had chosen", "has chosen"],
+    "correctAnswer": 2,
+    "explanation": "Third conditional."
+  },
+  {
+    "id": 24,
+    "type": "fill-in-the-blank",
+    "question": "Interest rates _______ (rise) steadily this year.",
+    "correctAnswer": "have been rising",
+    "explanation": "Present perfect continuous."
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "question": "What does 'AUM' stand for in asset management?",
+    "options": ["Annual Utility Margin", "Assets Under Management", "Average Unit Multiplier", "Audit Union Market"],
+    "correctAnswer": 1,
+    "explanation": "AUM is the total market value of the assets that an investment firm manages on behalf of clients."
+  },
+  {
+    "id": 26,
+    "type": "matching",
+    "question": "Match the management style with its fee structure:",
+    "pairs": [
+      { "left": "Active Management", "right": "Higher fees" },
+      { "left": "Passive Management", "right": "Lower fees" },
+      { "left": "Robo-advisor", "right": "Lowest fees (typically)" }
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "If the audit _______ (found) the error, it would have been fixed.",
+    "options": ["finds", "found", "had found", "will find"],
+    "correctAnswer": 2,
+    "explanation": "Third conditional."
+  },
+  {
+    "id": 28,
+    "type": "fill-in-the-blank",
+    "question": "We _______ (wait) for the market to stabilize.",
+    "correctAnswer": "have been waiting",
+    "explanation": "Present perfect continuous."
+  },
+  {
+    "id": 29,
+    "type": "multiple-choice",
+    "question": "What is a 'Portfolio'?",
+    "options": ["A leather bag", "A collection of financial investments", "A list of bank employees", "A type of dividend"],
+    "correctAnswer": 1,
+    "explanation": "A portfolio can include stocks, bonds, real estate, and more."
+  },
+  {
+    "id": 30,
+    "type": "multiple-choice",
+    "question": "The company _______ (succeed) if the CEO had been more visionary.",
+    "options": ["would succeed", "would have succeeded", "succeeded", "succeeds"],
+    "correctAnswer": 1,
+    "explanation": "Third conditional result."
+  },
+  {
+    "id": 31,
+    "type": "fill-in-the-blank",
+    "question": "They _______ (develop) new algorithms for the fund.",
+    "correctAnswer": "have been developing",
+    "explanation": "Present perfect continuous."
+  },
+  {
+    "id": 32,
+    "type": "multiple-choice",
+    "question": "What is 'Capital Gains'?",
+    "options": ["The salary of a CEO", "The profit made from selling an asset for more than its purchase price", "The interest on a savings account", "The taxes paid to the government"],
+    "correctAnswer": 1,
+    "explanation": "Capital gains are realized when you sell an investment for a profit."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "If we _______ (invest) in tech early, we would be millionaires.",
+    "options": ["invest", "invested", "had invested", "will invest"],
+    "correctAnswer": 2,
+    "explanation": "Third conditional."
+  },
+  {
+    "id": 34,
+    "type": "fill-in-the-blank",
+    "question": "Technology _______ (drive) change in asset management.",
+    "correctAnswer": "has been driving",
+    "explanation": "Present perfect continuous."
+  },
+  {
+    "id": 35,
+    "type": "multiple-choice",
+    "question": "What is 'Diversification'?",
+    "options": ["Investing in only one stock", "Spreading investments across different assets to reduce risk", "Buying a new house", "Changing your bank every month"],
+    "correctAnswer": 1,
+    "explanation": "Diversification reduces the impact of any single investment's poor performance."
+  },
+  {
+    "id": 36,
+    "type": "matching",
+    "question": "Match the word with its synonym:",
+    "pairs": [
+      { "left": "Equities", "right": "Stocks" },
+      { "left": "Fixed Income", "right": "Bonds" },
+      { "left": "Allocation", "right": "Distribution" }
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple-choice",
+    "question": "The fund _______ (lose) money if they hadn't hedged.",
+    "options": ["would lose", "would have lost", "lost", "loses"],
+    "correctAnswer": 1,
+    "explanation": "Third conditional result."
+  },
+  {
+    "id": 38,
+    "type": "fill-in-the-blank",
+    "question": "We _______ (receive) a lot of inquiries from new clients lately.",
+    "correctAnswer": "have been receiving",
+    "explanation": "Present perfect continuous."
+  },
+  {
+    "id": 39,
+    "type": "multiple-choice",
+    "question": "What is 'Asset Management'?",
+    "options": ["Managing a house", "Managing a client's investments", "Selling cars", "Lending money to friends"],
+    "correctAnswer": 1,
+    "explanation": "Asset managers make investment decisions for their clients."
+  },
+  {
+    "id": 40,
+    "type": "multiple-choice",
+    "question": "If you _______ (read) the prospectus, you wouldn't have been surprised.",
+    "options": ["read", "readed", "had read", "will read"],
+    "correctAnswer": 2,
+    "explanation": "Third conditional (past participle 'read' sounds like 'red')."
+  },
+  {
+    "id": 41,
+    "type": "fill-in-the-blank",
+    "question": "The global economy _______ (struggle) since the crisis.",
+    "correctAnswer": "has been struggling",
+    "explanation": "Present perfect continuous."
+  },
+  {
+    "id": 42,
+    "type": "multiple-choice",
+    "question": "What is a 'Hedge Fund'?",
+    "options": ["A fund for gardeners", "A private investment partnership using complex strategies", "A government savings plan", "A fund for children"],
+    "correctAnswer": 1,
+    "explanation": "Hedge funds often use leverage and derivatives to generate returns."
+  },
+  {
+    "id": 43,
+    "type": "multiple-choice",
+    "question": "If the inflation _______ (be) lower, the bonds would have performed better.",
+    "options": ["is", "was", "had been", "be"],
+    "correctAnswer": 2,
+    "explanation": "Third conditional."
+  },
+  {
+    "id": 44,
+    "type": "fill-in-the-blank",
+    "question": "I _______ (study) the market data for hours.",
+    "correctAnswer": "have been studying",
+    "explanation": "Present perfect continuous."
+  },
+  {
+    "id": 45,
+    "type": "multiple-choice",
+    "question": "What is 'Volatility' in the stock market?",
+    "options": ["Steady growth", "A measure of how much prices fluctuate", "A type of tax", "A bank holiday"],
+    "correctAnswer": 1,
+    "explanation": "Higher volatility generally means higher risk."
+  },
+  {
+    "id": 46,
+    "type": "matching",
+    "question": "Match the role to the responsibility:",
+    "pairs": [
+      { "left": "Portfolio Manager", "right": "Makes investment decisions" },
+      { "left": "Compliance Officer", "right": "Ensures regulations are met" },
+      { "left": "Research Analyst", "right": "Evaluates companies and assets" }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple-choice",
+    "question": "The market _______ (rally) if the data had been positive.",
+    "options": ["would rally", "would have rallied", "rallied", "rallies"],
+    "correctAnswer": 1,
+    "explanation": "Third conditional result."
+  },
+  {
+    "id": 48,
+    "type": "fill-in-the-blank",
+    "question": "Environmental factors _______ (become) more important for investors.",
+    "correctAnswer": "have been becoming",
+    "explanation": "Present perfect continuous."
+  },
+  {
+    "id": 49,
+    "type": "multiple-choice",
+    "question": "What is a 'Blue Chip' stock?",
+    "options": ["A stock in a company that makes chips", "A high-quality, reliable, and large company", "A very cheap stock", "A new tech startup"],
+    "correctAnswer": 1,
+    "explanation": "Blue chip stocks are generally considered stable and safe."
+  },
+  {
+    "id": 50,
+    "type": "multiple-choice",
+    "question": "If you _______ (not/take) that risk, you wouldn't have lost everything.",
+    "options": ["didn't take", "don't take", "hadn't taken", "not take"],
+    "correctAnswer": 2,
+    "explanation": "Third conditional."
+  }
+]

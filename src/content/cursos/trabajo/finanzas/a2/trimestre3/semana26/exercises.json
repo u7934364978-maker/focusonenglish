@@ -1,0 +1,398 @@
+{
+  "title": "Ejercicios: Préstamos Personales y Crédito",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "question": "If you get money from the bank to pay later, you have a...",
+      "options": ["Deposit", "Loan", "Gift", "Account"],
+      "correctAnswer": 1,
+      "explanation": "A loan is money borrowed that must be repaid."
+    },
+    {
+      "id": "ex2",
+      "type": "fill-in-the-blank",
+      "question": "The bank is the ________ (prestamista).",
+      "answer": "lender",
+      "explanation": "The lender gives the money."
+    },
+    {
+      "id": "ex3",
+      "type": "vocabulary-match",
+      "question": "Match the loan terms:",
+      "pairs": [
+        { "term": "Principal", "definition": "Original amount" },
+        { "term": "Interest", "definition": "Cost of borrowing" },
+        { "term": "Term", "definition": "Time period" }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "question": "What is an 'Installment'?",
+      "options": ["Un cajero", "Una cuota mensual", "Un tipo de interés", "Un contrato"],
+      "correctAnswer": 1,
+      "explanation": "Installments are the regular payments you make."
+    },
+    {
+      "id": "ex5",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (no pude) pay the bank yesterday.",
+      "answer": "couldn't",
+      "explanation": "'Couldn't' is the past negative of ability."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "question": "Choose the correct question to ask for money:",
+      "options": ["Can I borrow 500 euros?", "Can I lend 500 euros?", "Am I borrow 500 euros?", "Do I lend 500 euros?"],
+      "correctAnswer": 0,
+      "explanation": "You 'borrow' from the bank; the bank 'lends' to you."
+    },
+    {
+      "id": "ex7",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (aval) for the loan is my car.",
+      "answer": "collateral",
+      "explanation": "Collateral is an asset that guarantees the loan."
+    },
+    {
+      "id": "ex8",
+      "type": "vocabulary-match",
+      "question": "Loan actions:",
+      "pairs": [
+        { "term": "Apply for", "definition": "Solicitar" },
+        { "term": "Pay back", "definition": "Devolver" },
+        { "term": "Borrow", "definition": "Pedir prestado" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple-choice",
+      "question": "If the 'term' is 5 years, how many months is it?",
+      "options": ["50 months", "60 months", "12 months", "5 months"],
+      "correctAnswer": 1,
+      "explanation": "5 years x 12 months = 60 months."
+    },
+    {
+      "id": "ex10",
+      "type": "fill-in-the-blank",
+      "question": "________ (podrías) you help me with this form?",
+      "answer": "Could",
+      "explanation": "We use 'could' for polite requests."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple-choice",
+      "question": "What is 'deuda' in English?",
+      "options": ["Loan", "Debt", "Credit", "Due"],
+      "correctAnswer": 1,
+      "explanation": "'Debt' is the money you owe."
+    },
+    {
+      "id": "ex12",
+      "type": "fill-in-the-blank",
+      "question": "I need to ________ (pedir prestado) some cash.",
+      "answer": "borrow",
+      "explanation": "You borrow money from a source."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple-choice",
+      "question": "The 'interest' makes the loan...",
+      "options": ["Cheaper", "More expensive", "Free", "Faster"],
+      "correctAnswer": 1,
+      "explanation": "Interest is an added cost."
+    },
+    {
+      "id": "ex14",
+      "type": "fill-in-the-blank",
+      "question": "She ________ (puede) afford the payments.",
+      "answer": "can",
+      "explanation": "Ability in the present."
+    },
+    {
+      "id": "ex15",
+      "type": "vocabulary-match",
+      "question": "Borrower vs Lender:",
+      "pairs": [
+        { "term": "Bank", "definition": "Lender" },
+        { "term": "Customer", "definition": "Borrower" },
+        { "term": "Contract", "definition": "Agreement" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple-choice",
+      "question": "What happens if you don't pay?",
+      "options": ["You get a bonus", "The bank takes the collateral", "Nothing", "The bank says thank you"],
+      "correctAnswer": 1,
+      "explanation": "Collateral is security for the lender."
+    },
+    {
+      "id": "ex17",
+      "type": "fill-in-the-blank",
+      "question": "I want to apply ________ (para) a loan.",
+      "answer": "for",
+      "explanation": "We say 'apply for' a service."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple-choice",
+      "question": "A 'fixed rate' means the interest...",
+      "options": ["Changes every day", "Stays the same", "Goes up", "Is zero"],
+      "correctAnswer": 1,
+      "explanation": "Fixed means it does not change during the term."
+    },
+    {
+      "id": "ex19",
+      "type": "fill-in-the-blank",
+      "question": "We ________ (no pudimos) get the credit.",
+      "answer": "couldn't",
+      "explanation": "Past negative ability."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple-choice",
+      "question": "Which is a 'personal loan'?",
+      "options": ["A loan for a car", "A mortgage for a house", "A corporate loan", "A tax payment"],
+      "correctAnswer": 0,
+      "explanation": "Personal loans are for individual needs like cars or travel."
+    },
+    {
+      "id": "ex21",
+      "type": "fill-in-the-blank",
+      "question": "The total ________ (monto) is $10,000.",
+      "answer": "amount",
+      "explanation": "'Amount' is 'monto' or 'cantidad'."
+    },
+    {
+      "id": "ex22",
+      "type": "vocabulary-match",
+      "question": "Loan status:",
+      "pairs": [
+        { "term": "Approved", "definition": "Yes" },
+        { "term": "Rejected", "definition": "No" },
+        { "term": "Pending", "definition": "Waiting" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple-choice",
+      "question": "What is 'reembolsar' in English?",
+      "options": ["Repay", "Lend", "Borrow", "Gift"],
+      "correctAnswer": 0,
+      "explanation": "'Repay' or 'Pay back' means to return the money."
+    },
+    {
+      "id": "ex24",
+      "type": "fill-in-the-blank",
+      "question": "________ you borrow money last year?",
+      "answer": "Did",
+      "explanation": "Past simple question auxiliary."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple-choice",
+      "question": "Your 'credit score' represents...",
+      "options": ["Your name", "Your financial history", "Your favorite color", "Your age"],
+      "correctAnswer": 1,
+      "explanation": "It shows how reliable you are as a borrower."
+    },
+    {
+      "id": "ex26",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (capital) of the loan is small.",
+      "answer": "principal",
+      "explanation": "'Principal' is the base amount."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple-choice",
+      "question": "Which verb means 'prestar'?",
+      "options": ["Borrow", "Lend", "Keep", "Lose"],
+      "correctAnswer": 1,
+      "explanation": "Lend = Prestar; Borrow = Pedir prestado."
+    },
+    {
+      "id": "ex28",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (puedo) afford 200 euros a month.",
+      "answer": "can",
+      "explanation": "Present ability."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple-choice",
+      "question": "A 'short-term' loan is usually...",
+      "options": ["30 years", "Under 1 year", "Forever", "10 years"],
+      "correctAnswer": 1,
+      "explanation": "Short-term usually means a few months to a year."
+    },
+    {
+      "id": "ex30",
+      "type": "fill-in-the-blank",
+      "question": "I need to ________ (firmar) the agreement.",
+      "answer": "sign",
+      "explanation": "To make the contract official."
+    },
+    {
+      "id": "ex31",
+      "type": "vocabulary-match",
+      "question": "Types of credit:",
+      "pairs": [
+        { "term": "Overdraft", "definition": "Negative balance" },
+        { "term": "Credit card", "definition": "Plastic credit" },
+        { "term": "Mortgage", "definition": "House loan" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple-choice",
+      "question": "If you are 'in debt', you...",
+      "options": ["Have extra money", "Owe money", "Are a bank manager", "Are a lender"],
+      "correctAnswer": 1,
+      "explanation": "To owe money is to be in debt."
+    },
+    {
+      "id": "ex33",
+      "type": "fill-in-the-blank",
+      "question": "What ________ (sería) the monthly payment?",
+      "answer": "would",
+      "explanation": "'Would' is used for hypothetical questions."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple-choice",
+      "question": "What is 'APR'?",
+      "options": ["A month", "Annual Percentage Rate", "A type of card", "A bank name"],
+      "correctAnswer": 1,
+      "explanation": "APR is the annual cost of credit as a percentage."
+    },
+    {
+      "id": "ex35",
+      "type": "fill-in-the-blank",
+      "question": "The bank ________ (prestó) me the money.",
+      "answer": "lent",
+      "explanation": "Past of 'lend'."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple-choice",
+      "question": "A 'co-signer' is someone who...",
+      "options": ["Lends money", "Signs the loan with you", "Works at the bank", "Steals money"],
+      "correctAnswer": 1,
+      "explanation": "A co-signer shares the responsibility."
+    },
+    {
+      "id": "ex37",
+      "type": "fill-in-the-blank",
+      "question": "Don't ________ (olvidar) the deadline.",
+      "answer": "forget",
+      "explanation": "Imperative."
+    },
+    {
+      "id": "ex38",
+      "type": "vocabulary-match",
+      "question": "Financial health:",
+      "pairs": [
+        { "term": "Solvent", "definition": "Can pay" },
+        { "term": "Bankrupt", "definition": "Cannot pay" },
+        { "term": "Late", "definition": "Behind schedule" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "multiple-choice",
+      "question": "You pay 'interest' ________ the bank.",
+      "options": ["for", "to", "at", "by"],
+      "correctAnswer": 1,
+      "explanation": "You pay 'to' a recipient."
+    },
+    {
+      "id": "ex40",
+      "type": "fill-in-the-blank",
+      "question": "The ________ (pago) is due on Monday.",
+      "answer": "payment",
+      "explanation": "'Payment' is 'pago'."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple-choice",
+      "question": "What is 'vencimiento'?",
+      "options": ["Maturity / Due date", "Start date", "Contract", "Loan"],
+      "correctAnswer": 0,
+      "explanation": "'Due date' or 'Maturity' is when it must be paid."
+    },
+    {
+      "id": "ex42",
+      "type": "fill-in-the-blank",
+      "question": "How ________ (mucho) interest do I pay?",
+      "answer": "much",
+      "explanation": "'Interest' is uncountable."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple-choice",
+      "question": "If you borrow $100 and pay back $110, the $10 is...",
+      "options": ["Principal", "Interest", "Collateral", "A gift"],
+      "correctAnswer": 1,
+      "explanation": "The extra $10 is the interest."
+    },
+    {
+      "id": "ex44",
+      "type": "fill-in-the-blank",
+      "question": "I ________ (pedí prestado) 50 euros from my brother.",
+      "answer": "borrowed",
+      "explanation": "Past of 'borrow'."
+    },
+    {
+      "id": "ex45",
+      "type": "vocabulary-match",
+      "question": "Common purposes:",
+      "pairs": [
+        { "term": "Auto loan", "definition": "Car" },
+        { "term": "Education loan", "definition": "University" },
+        { "term": "Holiday loan", "definition": "Travel" }
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple-choice",
+      "question": "A 'lender' wants to be...",
+      "options": ["Paid back", "Ignored", "Poor", "Slow"],
+      "correctAnswer": 0,
+      "explanation": "Lenders expect their money back."
+    },
+    {
+      "id": "ex47",
+      "type": "fill-in-the-blank",
+      "question": "The terms are very ________ (claros).",
+      "answer": "clear",
+      "explanation": "Clear terms avoid confusion."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple-choice",
+      "question": "Can I have a 10-year ________?",
+      "options": ["Term", "Fee", "Card", "Teller"],
+      "correctAnswer": 0,
+      "explanation": "'Term' refers to the duration."
+    },
+    {
+      "id": "ex49",
+      "type": "fill-in-the-blank",
+      "question": "Check the ________ (contrato) carefully.",
+      "answer": "contract",
+      "explanation": "Always read before signing."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple-choice",
+      "question": "If you pay early, you might save on...",
+      "options": ["Principal", "Interest", "Name", "Collateral"],
+      "correctAnswer": 1,
+      "explanation": "Paying early reduces the time for interest to grow."
+    }
+  ]
+}
