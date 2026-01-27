@@ -10,7 +10,12 @@
       "id": "fin-b2-w10-1",
       "type": "multipleChoice",
       "prompt": "Which KPI measures a company's ability to cover its short-term debts with its short-term assets?",
-      "options": ["Debt-to-Equity", "Current Ratio", "Gross Margin", "Inventory Turnover"],
+      "options": [
+        "Debt-to-Equity",
+        "Current Ratio",
+        "Gross Margin",
+        "Inventory Turnover"
+      ],
       "answerIndex": 1,
       "explanation": "The current ratio is a primary liquidity metric."
     },
@@ -18,7 +23,12 @@
       "id": "fin-b2-w10-2",
       "type": "multipleChoice",
       "prompt": "Profitability is often measured by looking at the ___ Margin.",
-      "options": ["Operating", "Incurred", "Deferred", "Accrued"],
+      "options": [
+        "Operating",
+        "Incurred",
+        "Deferred",
+        "Accrued"
+      ],
       "answerIndex": 0,
       "explanation": "Operating margin shows how much profit a company makes on a dollar of sales after paying for variable costs."
     },
@@ -26,7 +36,12 @@
       "id": "fin-b2-w10-3",
       "type": "multipleChoice",
       "prompt": "What does a high 'Debt-to-Equity' ratio suggest?",
-      "options": ["The company is very safe", "The company is highly leveraged and uses a lot of debt", "The company has too much cash", "The company is not paying taxes"],
+      "options": [
+        "The company is very safe",
+        "The company is highly leveraged and uses a lot of debt",
+        "The company has too much cash",
+        "The company is not paying taxes"
+      ],
       "answerIndex": 1,
       "explanation": "High debt-to-equity indicates that a company has been aggressive in financing its growth with debt."
     },
@@ -34,7 +49,12 @@
       "id": "fin-b2-w10-4",
       "type": "multipleChoice",
       "prompt": "Which modal expresses 100% negative certainty? 'The reports ___ be wrong; I checked them five times!'",
-      "options": ["mustn't", "can't", "shouldn't", "mightn't"],
+      "options": [
+        "mustn't",
+        "can't",
+        "shouldn't",
+        "mightn't"
+      ],
       "answerIndex": 1,
       "explanation": "'Can't' is used for strong negative deduction based on evidence."
     },
@@ -42,7 +62,12 @@
       "id": "fin-b2-w10-5",
       "type": "multipleChoice",
       "prompt": "Use a modal for a past possibility: 'The low sales ___ been caused by the transport strike last month.'",
-      "options": ["must have", "might have", "should have", "will have"],
+      "options": [
+        "must have",
+        "might have",
+        "should have",
+        "will have"
+      ],
       "answerIndex": 1,
       "explanation": "'Might have' suggests a possibility in the past."
     },
@@ -50,7 +75,12 @@
       "id": "fin-b2-w10-6",
       "type": "multipleChoice",
       "prompt": "What is 'Benchmarking'?",
-      "options": ["Making a new desk", "Comparing your company's performance to industry leaders", "Firing underperforming staff", "Closing a branch"],
+      "options": [
+        "Making a new desk",
+        "Comparing your company's performance to industry leaders",
+        "Firing underperforming staff",
+        "Closing a branch"
+      ],
       "answerIndex": 1,
       "explanation": "Benchmarking is the practice of comparing business processes and performance metrics to industry bests."
     },
@@ -58,7 +88,12 @@
       "id": "fin-b2-w10-7",
       "type": "multipleChoice",
       "prompt": "A 'Financial Dashboard' is primarily used for:",
-      "options": ["Writing checks", "Visualizing key data and performance metrics", "Storing physical gold", "Printing bank statements"],
+      "options": [
+        "Writing checks",
+        "Visualizing key data and performance metrics",
+        "Storing physical gold",
+        "Printing bank statements"
+      ],
       "answerIndex": 1,
       "explanation": "Dashboards provide a visual representation of complex financial data."
     },
@@ -66,7 +101,12 @@
       "id": "fin-b2-w10-8",
       "type": "multipleChoice",
       "prompt": "If actual costs are higher than budgeted costs, you have an 'unfavorable ___'.",
-      "options": ["variance", "balance", "margin", "asset"],
+      "options": [
+        "variance",
+        "balance",
+        "margin",
+        "asset"
+      ],
       "answerIndex": 0,
       "explanation": "Variance is the difference between planned and actual figures."
     },
@@ -74,7 +114,12 @@
       "id": "fin-b2-w10-9",
       "type": "multipleChoice",
       "prompt": "Complete the deduction: 'The company just won a massive contract. Their stock price ___ rise soon.'",
-      "options": ["can", "should", "couldn't", "mustn't"],
+      "options": [
+        "can",
+        "should",
+        "couldn't",
+        "mustn't"
+      ],
       "answerIndex": 1,
       "explanation": "'Should' is used to express expectation or probability."
     },
@@ -82,7 +127,12 @@
       "id": "fin-b2-w10-10",
       "type": "multipleChoice",
       "prompt": "What does 'Net Profit Margin' represent?",
-      "options": ["Profit before tax", "Percentage of revenue left after ALL expenses are paid", "The total sales amount", "The salary of the CEO"],
+      "options": [
+        "Profit before tax",
+        "Percentage of revenue left after ALL expenses are paid",
+        "The total sales amount",
+        "The salary of the CEO"
+      ],
       "answerIndex": 1,
       "explanation": "Net profit margin is the 'bottom line' profitability of a company."
     },
@@ -90,7 +140,12 @@
       "id": "fin-b2-w10-11",
       "type": "multipleChoice",
       "prompt": "The CFO looks worried. The quarterly results ___ (be) worse than expected.",
-      "options": ["must be", "can't be", "shouldn't be", "mightn't be"],
+      "options": [
+        "must be",
+        "can't be",
+        "shouldn't be",
+        "mightn't be"
+      ],
       "answerIndex": 0,
       "explanation": "Modal of deduction: 'must be' for strong positive certainty based on observation."
     },
@@ -98,7 +153,12 @@
       "id": "fin-b2-w10-12",
       "type": "multipleChoice",
       "prompt": "Revenue increased, but profits fell. There ___ (be) a significant increase in COGS.",
-      "options": ["must have been", "can't have been", "should have been", "won't have been"],
+      "options": [
+        "must have been",
+        "can't have been",
+        "should have been",
+        "won't have been"
+      ],
       "answerIndex": 0,
       "explanation": "Modal of deduction for the past: 'must have been' for strong positive certainty."
     },
@@ -106,7 +166,12 @@
       "id": "fin-b2-w10-13",
       "type": "multipleChoice",
       "prompt": "Which KPI measures how many times a company's inventory is sold and replaced over a period?",
-      "options": ["Current Ratio", "Inventory Turnover", "ROA", "Quick Ratio"],
+      "options": [
+        "Current Ratio",
+        "Inventory Turnover",
+        "ROA",
+        "Quick Ratio"
+      ],
       "answerIndex": 1,
       "explanation": "Inventory turnover measures efficiency in managing stock."
     },
@@ -114,7 +179,12 @@
       "id": "fin-b2-w10-14",
       "type": "multipleChoice",
       "prompt": "He only started working yesterday. He ___ (know) the system password yet.",
-      "options": ["must know", "can't know", "should know", "might know"],
+      "options": [
+        "must know",
+        "can't know",
+        "should know",
+        "might know"
+      ],
       "answerIndex": 1,
       "explanation": "Modal of deduction: 'can't know' because it's logically impossible/unlikely."
     },
@@ -122,7 +192,12 @@
       "id": "fin-b2-w10-15",
       "type": "multipleChoice",
       "prompt": "The share price is fluctuating wildly. There ___ (be) some insider news leaking.",
-      "options": ["could be", "must be", "can't be", "shouldn't be"],
+      "options": [
+        "could be",
+        "must be",
+        "can't be",
+        "shouldn't be"
+      ],
       "answerIndex": 0,
       "explanation": "Modal of deduction: 'could be' for possibility."
     },
@@ -130,7 +205,12 @@
       "id": "fin-b2-w10-16",
       "type": "multipleChoice",
       "prompt": "What is the 'Quick Ratio' (Acid-test ratio)?",
-      "options": ["Current Assets / Current Liabilities", "(Current Assets - Inventory) / Current Liabilities", "Total Debt / Total Equity", "Net Profit / Total Revenue"],
+      "options": [
+        "Current Assets / Current Liabilities",
+        "(Current Assets - Inventory) / Current Liabilities",
+        "Total Debt / Total Equity",
+        "Net Profit / Total Revenue"
+      ],
       "answerIndex": 1,
       "explanation": "The quick ratio is a more conservative liquidity measure than the current ratio."
     },
@@ -138,7 +218,12 @@
       "id": "fin-b2-w10-17",
       "type": "multipleChoice",
       "prompt": "They haven't released the report yet. They ___ (encounter) some last-minute issues.",
-      "options": ["must have encountered", "can't have encountered", "should have encountered", "would have encountered"],
+      "options": [
+        "must have encountered",
+        "can't have encountered",
+        "should have encountered",
+        "would have encountered"
+      ],
       "answerIndex": 0,
       "explanation": "Modal of deduction for the past: 'must have' based on the delay."
     },
@@ -146,7 +231,12 @@
       "id": "fin-b2-w10-18",
       "type": "multipleChoice",
       "prompt": "A 'Lagging Indicator' is one that:",
-      "options": ["Predicts future trends", "Follows an event and confirms a trend", "Is always wrong", "Is very slow to calculate"],
+      "options": [
+        "Predicts future trends",
+        "Follows an event and confirms a trend",
+        "Is always wrong",
+        "Is very slow to calculate"
+      ],
       "answerIndex": 1,
       "explanation": "Lagging indicators like unemployment or GDP confirm what has already happened."
     },
@@ -154,7 +244,12 @@
       "id": "fin-b2-w10-19",
       "type": "multipleChoice",
       "prompt": "The audit finished early. It ___ (be) as complicated as we thought.",
-      "options": ["must not have been", "can't have been", "shouldn't have been", "mightn't have been"],
+      "options": [
+        "must not have been",
+        "can't have been",
+        "shouldn't have been",
+        "mightn't have been"
+      ],
       "answerIndex": 1,
       "explanation": "Modal of deduction: 'can't have been' to express strong disbelief in a past possibility."
     },
@@ -162,7 +257,12 @@
       "id": "fin-b2-w10-20",
       "type": "multipleChoice",
       "prompt": "What does 'ROI' stand for?",
-      "options": ["Risk of Investment", "Return on Investment", "Revenue on Income", "Rate of Interest"],
+      "options": [
+        "Risk of Investment",
+        "Return on Investment",
+        "Revenue on Income",
+        "Rate of Interest"
+      ],
       "answerIndex": 1,
       "explanation": "ROI measures the efficiency of an investment."
     },
@@ -170,7 +270,12 @@
       "id": "fin-b2-w10-21",
       "type": "multipleChoice",
       "prompt": "Sales are up by 50%! The marketing campaign ___ (be) very successful.",
-      "options": ["must have been", "can't have been", "should have been", "mightn't have been"],
+      "options": [
+        "must have been",
+        "can't have been",
+        "should have been",
+        "mightn't have been"
+      ],
       "answerIndex": 0,
       "explanation": "Strong positive deduction about a past cause."
     },
@@ -178,7 +283,12 @@
       "id": "fin-b2-w10-22",
       "type": "multipleChoice",
       "prompt": "A 'Leading Indicator' is one that:",
-      "options": ["Changes before the economy starts to follow a particular pattern", "Is reported by the leader of the company", "Is always positive", "Changes after the economy has shifted"],
+      "options": [
+        "Changes before the economy starts to follow a particular pattern",
+        "Is reported by the leader of the company",
+        "Is always positive",
+        "Changes after the economy has shifted"
+      ],
       "answerIndex": 0,
       "explanation": "Leading indicators (like stock market returns) help predict future economic shifts."
     },
@@ -186,7 +296,12 @@
       "id": "fin-b2-w10-23",
       "type": "multipleChoice",
       "prompt": "I sent the email an hour ago. She ___ (receive) it by now.",
-      "options": ["must have received", "should have received", "can't have received", "mightn't have received"],
+      "options": [
+        "must have received",
+        "should have received",
+        "can't have received",
+        "mightn't have received"
+      ],
       "answerIndex": 1,
       "explanation": "'Should have' expresses expectation."
     },
@@ -194,7 +309,12 @@
       "id": "fin-b2-w10-24",
       "type": "multipleChoice",
       "prompt": "What is 'Days Sales Outstanding' (DSO)?",
-      "options": ["Average number of days to collect payment after a sale", "Number of days the store is open", "Time it takes to manufacture a product", "The age of the company"],
+      "options": [
+        "Average number of days to collect payment after a sale",
+        "Number of days the store is open",
+        "Time it takes to manufacture a product",
+        "The age of the company"
+      ],
       "answerIndex": 0,
       "explanation": "DSO measures how efficiently a company manages its accounts receivable."
     },
@@ -202,7 +322,12 @@
       "id": "fin-b2-w10-25",
       "type": "multipleChoice",
       "prompt": "The bank refused the loan. They ___ (identify) a high risk in our cash flow.",
-      "options": ["must have identified", "can't have identified", "should have identified", "won't have identified"],
+      "options": [
+        "must have identified",
+        "can't have identified",
+        "should have identified",
+        "won't have identified"
+      ],
       "answerIndex": 0,
       "explanation": "Modal of deduction: 'must have' based on the result (refused loan)."
     },
@@ -210,7 +335,12 @@
       "id": "fin-b2-w10-26",
       "type": "multipleChoice",
       "prompt": "What is 'EBIT Margin'?",
-      "options": ["Earnings before interest and taxes divided by net revenue", "Total revenue minus taxes", "Total assets minus total liabilities", "Profit after dividends"],
+      "options": [
+        "Earnings before interest and taxes divided by net revenue",
+        "Total revenue minus taxes",
+        "Total assets minus total liabilities",
+        "Profit after dividends"
+      ],
       "answerIndex": 0,
       "explanation": "EBIT margin is a measure of a company's operating profitability."
     },
@@ -218,7 +348,12 @@
       "id": "fin-b2-w10-27",
       "type": "multipleChoice",
       "prompt": "The safe is empty! Someone ___ (steal) the cash overnight.",
-      "options": ["must have stolen", "can't have stolen", "should have stolen", "might have stolen"],
+      "options": [
+        "must have stolen",
+        "can't have stolen",
+        "should have stolen",
+        "might have stolen"
+      ],
       "answerIndex": 0,
       "explanation": "Strong certainty about a past event."
     },
@@ -226,7 +361,12 @@
       "id": "fin-b2-w10-28",
       "type": "multipleChoice",
       "prompt": "Which KPI measures the percentage of profit earned on each dollar of assets?",
-      "options": ["ROI", "ROA (Return on Assets)", "ROE (Return on Equity)", "DSO"],
+      "options": [
+        "ROI",
+        "ROA (Return on Assets)",
+        "ROE (Return on Equity)",
+        "DSO"
+      ],
       "answerIndex": 1,
       "explanation": "ROA indicates how profitable a company is relative to its total assets."
     },
@@ -234,7 +374,12 @@
       "id": "fin-b2-w10-29",
       "type": "multipleChoice",
       "prompt": "He didn't answer his phone. He ___ (be) in the board meeting.",
-      "options": ["must be", "might be", "can't be", "shouldn't be"],
+      "options": [
+        "must be",
+        "might be",
+        "can't be",
+        "shouldn't be"
+      ],
       "answerIndex": 1,
       "explanation": "'Might be' suggests a possibility."
     },
@@ -242,7 +387,12 @@
       "id": "fin-b2-w10-30",
       "type": "multipleChoice",
       "prompt": "What is 'Churn Rate'?",
-      "options": ["The rate at which customers stop doing business with an entity", "The speed of the bank's computers", "The number of new employees hired", "The rate of inflation"],
+      "options": [
+        "The rate at which customers stop doing business with an entity",
+        "The speed of the bank's computers",
+        "The number of new employees hired",
+        "The rate of inflation"
+      ],
       "answerIndex": 0,
       "explanation": "Churn rate is particularly important for subscription-based businesses."
     },
@@ -250,7 +400,12 @@
       "id": "fin-b2-w10-31",
       "type": "multipleChoice",
       "prompt": "The files are missing. They ___ (delete) by mistake.",
-      "options": ["might have been deleted", "must have deleted", "can't have deleted", "should have deleted"],
+      "options": [
+        "might have been deleted",
+        "must have deleted",
+        "can't have deleted",
+        "should have deleted"
+      ],
       "answerIndex": 0,
       "explanation": "Passive modal of deduction for possibility."
     },
@@ -258,7 +413,12 @@
       "id": "fin-b2-w10-32",
       "type": "multipleChoice",
       "prompt": "What does 'ROE' (Return on Equity) measure?",
-      "options": ["The return on the money provided by shareholders", "The total amount of debt", "The value of the company's real estate", "The interest paid to the bank"],
+      "options": [
+        "The return on the money provided by shareholders",
+        "The total amount of debt",
+        "The value of the company's real estate",
+        "The interest paid to the bank"
+      ],
       "answerIndex": 0,
       "explanation": "ROE measures the ability of a firm to generate profits from its shareholders' investments."
     },
@@ -266,7 +426,12 @@
       "id": "fin-b2-w10-33",
       "type": "multipleChoice",
       "prompt": "The results are perfect. There ___ (be) some manipulation of the data.",
-      "options": ["could be", "must be", "can't be", "should be"],
+      "options": [
+        "could be",
+        "must be",
+        "can't be",
+        "should be"
+      ],
       "answerIndex": 0,
       "explanation": "'Could be' suggests a possibility or suspicion."
     },
@@ -274,7 +439,12 @@
       "id": "fin-b2-w10-34",
       "type": "multipleChoice",
       "prompt": "What is 'Working Capital Turnover'?",
-      "options": ["How many times workers change jobs", "A ratio that measures how efficiently a company uses its working capital to support sales", "The total value of inventory", "The profit after tax"],
+      "options": [
+        "How many times workers change jobs",
+        "A ratio that measures how efficiently a company uses its working capital to support sales",
+        "The total value of inventory",
+        "The profit after tax"
+      ],
       "answerIndex": 1,
       "explanation": "This ratio shows the relationship between sales and the funds used to finance them."
     },
@@ -282,7 +452,12 @@
       "id": "fin-b2-w10-35",
       "type": "multipleChoice",
       "prompt": "They are celebrating in the office. They ___ (sign) the deal.",
-      "options": ["must have signed", "can't have signed", "mightn't have signed", "should have signed"],
+      "options": [
+        "must have signed",
+        "can't have signed",
+        "mightn't have signed",
+        "should have signed"
+      ],
       "answerIndex": 0,
       "explanation": "Strong positive deduction based on observation."
     },
@@ -290,7 +465,12 @@
       "id": "fin-b2-w10-36",
       "type": "multipleChoice",
       "prompt": "What is 'Debt Ratio'?",
-      "options": ["Total Assets / Total Debt", "Total Debt / Total Assets", "Net Profit / Total Debt", "Current Debt / Current Assets"],
+      "options": [
+        "Total Assets / Total Debt",
+        "Total Debt / Total Assets",
+        "Net Profit / Total Debt",
+        "Current Debt / Current Assets"
+      ],
       "answerIndex": 1,
       "explanation": "The debt ratio shows the proportion of a company's assets financed by debt."
     },
@@ -298,7 +478,12 @@
       "id": "fin-b2-w10-37",
       "type": "multipleChoice",
       "prompt": "The light is still on in his office. He ___ (work) late.",
-      "options": ["must be working", "can't be working", "mightn't be working", "should be working"],
+      "options": [
+        "must be working",
+        "can't be working",
+        "mightn't be working",
+        "should be working"
+      ],
       "answerIndex": 0,
       "explanation": "Deduction about a continuous action in the present."
     },
@@ -306,7 +491,12 @@
       "id": "fin-b2-w10-38",
       "type": "multipleChoice",
       "prompt": "What is 'Asset Turnover Ratio'?",
-      "options": ["How often the bank sells its buildings", "The value of assets divided by net sales", "Net sales divided by average total assets", "Total assets minus total debt"],
+      "options": [
+        "How often the bank sells its buildings",
+        "The value of assets divided by net sales",
+        "Net sales divided by average total assets",
+        "Total assets minus total debt"
+      ],
       "answerIndex": 2,
       "explanation": "This ratio measures the efficiency of a company's use of its assets in generating sales revenue."
     },
@@ -314,7 +504,12 @@
       "id": "fin-b2-w10-39",
       "type": "multipleChoice",
       "prompt": "He didn't say hello. He ___ (hear) me.",
-      "options": ["must not have heard", "can't have heard", "might not have heard", "shouldn't have heard"],
+      "options": [
+        "must not have heard",
+        "can't have heard",
+        "might not have heard",
+        "shouldn't have heard"
+      ],
       "answerIndex": 2,
       "explanation": "'Might not have heard' is a plausible possibility."
     },
@@ -322,7 +517,12 @@
       "id": "fin-b2-w10-40",
       "type": "multipleChoice",
       "prompt": "What is 'Operating Cash Flow Margin'?",
-      "options": ["Cash from operating activities divided by net sales", "Net profit divided by operating expenses", "Total cash minus total debt", "The profit from selling assets"],
+      "options": [
+        "Cash from operating activities divided by net sales",
+        "Net profit divided by operating expenses",
+        "Total cash minus total debt",
+        "The profit from selling assets"
+      ],
       "answerIndex": 0,
       "explanation": "This margin shows how much cash is generated from each dollar of sales."
     },
@@ -330,7 +530,12 @@
       "id": "fin-b2-w10-41",
       "type": "multipleChoice",
       "prompt": "There are no cars in the parking lot. Everyone ___ (leave).",
-      "options": ["must have left", "can't have left", "mightn't have left", "should have left"],
+      "options": [
+        "must have left",
+        "can't have left",
+        "mightn't have left",
+        "should have left"
+      ],
       "answerIndex": 0,
       "explanation": "Strong deduction based on visual evidence."
     },
@@ -338,7 +543,12 @@
       "id": "fin-b2-w10-42",
       "type": "multipleChoice",
       "prompt": "What is 'Contribution Margin'?",
-      "options": ["The money donated to charity", "Sales revenue minus variable costs", "Total profit minus taxes", "The CEO's bonus"],
+      "options": [
+        "The money donated to charity",
+        "Sales revenue minus variable costs",
+        "Total profit minus taxes",
+        "The CEO's bonus"
+      ],
       "answerIndex": 1,
       "explanation": "Contribution margin shows how much each unit sold contributes to covering fixed costs."
     },
@@ -346,7 +556,12 @@
       "id": "fin-b2-w10-43",
       "type": "multipleChoice",
       "prompt": "The system says the password is correct, but I can't log in. There ___ (be) a bug.",
-      "options": ["must be", "can't be", "mightn't be", "shouldn't be"],
+      "options": [
+        "must be",
+        "can't be",
+        "mightn't be",
+        "shouldn't be"
+      ],
       "answerIndex": 0,
       "explanation": "Deduction based on conflicting information."
     },
@@ -354,7 +569,12 @@
       "id": "fin-b2-w10-44",
       "type": "multipleChoice",
       "prompt": "What is 'Gearing'?",
-      "options": ["Fixing a bank's car", "The ratio of a company's debt to its equity capital", "The speed of a transaction", "A type of insurance"],
+      "options": [
+        "Fixing a bank's car",
+        "The ratio of a company's debt to its equity capital",
+        "The speed of a transaction",
+        "A type of insurance"
+      ],
       "answerIndex": 1,
       "explanation": "Gearing is another term for leverage."
     },
@@ -362,7 +582,12 @@
       "id": "fin-b2-w10-45",
       "type": "multipleChoice",
       "prompt": "I don't see the transaction on the statement. I ___ (make) a mistake when I entered it.",
-      "options": ["must have made", "can't have made", "should have made", "might have made"],
+      "options": [
+        "must have made",
+        "can't have made",
+        "should have made",
+        "might have made"
+      ],
       "answerIndex": 3,
       "explanation": "'Might have made' suggests a possibility of error."
     },
@@ -370,7 +595,12 @@
       "id": "fin-b2-w10-46",
       "type": "multipleChoice",
       "prompt": "What is 'Interest Coverage Ratio'?",
-      "options": ["The percentage of a loan that is interest", "A ratio used to determine how easily a company can pay interest on its outstanding debt", "The bank's insurance policy", "The total interest paid in a year"],
+      "options": [
+        "The percentage of a loan that is interest",
+        "A ratio used to determine how easily a company can pay interest on its outstanding debt",
+        "The bank's insurance policy",
+        "The total interest paid in a year"
+      ],
       "answerIndex": 1,
       "explanation": "This ratio is a measure of a company's financial health."
     },
@@ -378,7 +608,12 @@
       "id": "fin-b2-w10-47",
       "type": "multipleChoice",
       "prompt": "He looks very confused. He ___ (understand) the instructions.",
-      "options": ["must not have understood", "can't have understood", "might not have understood", "shouldn't have understood"],
+      "options": [
+        "must not have understood",
+        "can't have understood",
+        "might not have understood",
+        "shouldn't have understood"
+      ],
       "answerIndex": 0,
       "explanation": "Strong deduction based on the person's expression."
     },
@@ -386,7 +621,12 @@
       "id": "fin-b2-w10-48",
       "type": "multipleChoice",
       "prompt": "What is 'Fixed Asset Turnover'?",
-      "options": ["Selling all the company's buildings", "Net sales divided by average fixed assets", "Total assets minus current assets", "The profit from selling equipment"],
+      "options": [
+        "Selling all the company's buildings",
+        "Net sales divided by average fixed assets",
+        "Total assets minus current assets",
+        "The profit from selling equipment"
+      ],
       "answerIndex": 1,
       "explanation": "This ratio measures how efficiently a company uses its fixed assets to generate sales."
     },
@@ -394,7 +634,12 @@
       "id": "fin-b2-w10-49",
       "type": "multipleChoice",
       "prompt": "The contract is signed. We ___ (start) the project on Monday.",
-      "options": ["should be able to start", "must have started", "can't start", "mightn't start"],
+      "options": [
+        "should be able to start",
+        "must have started",
+        "can't start",
+        "mightn't start"
+      ],
       "answerIndex": 0,
       "explanation": "'Should be able to start' expresses expectation for the future."
     },
@@ -402,9 +647,64 @@
       "id": "fin-b2-w10-50",
       "type": "multipleChoice",
       "prompt": "What is 'Cash Ratio'?",
-      "options": ["The amount of cash in the vault", "Cash and cash equivalents divided by current liabilities", "Total assets divided by total cash", "Profit divided by cash"],
+      "options": [
+        "The amount of cash in the vault",
+        "Cash and cash equivalents divided by current liabilities",
+        "Total assets divided by total cash",
+        "Profit divided by cash"
+      ],
       "answerIndex": 1,
       "explanation": "The cash ratio is the most conservative liquidity measure."
+    },
+    {
+      "id": "finance-b2-w10-gamified",
+      "type": "crossword",
+      "title": "Financial KPIs Crossword",
+      "instructions": "Complete the crossword with key terms from this week.",
+      "items": [
+        {
+          "word": "EBITDA",
+          "clue": "Earnings Before Interest, Taxes, Depreciation, and Amortization.",
+          "direction": "across",
+          "row": 0,
+          "col": 0
+        },
+        {
+          "word": "SOLVENCY",
+          "clue": "The ability of a company to meet its long-term financial obligations.",
+          "direction": "down",
+          "row": 2,
+          "col": 0
+        },
+        {
+          "word": "MARGIN",
+          "clue": "The difference between the seller's cost for acquiring a product and the selling price.",
+          "direction": "across",
+          "row": 4,
+          "col": 0
+        },
+        {
+          "word": "KPI",
+          "clue": "Key Performance Indicator used to evaluate success.",
+          "direction": "down",
+          "row": 6,
+          "col": 0
+        },
+        {
+          "word": "RATIO",
+          "clue": "A mathematical relationship between two quantities.",
+          "direction": "across",
+          "row": 8,
+          "col": 0
+        },
+        {
+          "word": "REVENUE",
+          "clue": "The total amount of income generated by the sale of goods or services.",
+          "direction": "down",
+          "row": 10,
+          "col": 0
+        }
+      ]
     }
   ]
 }

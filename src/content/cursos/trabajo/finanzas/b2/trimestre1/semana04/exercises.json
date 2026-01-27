@@ -10,7 +10,12 @@
       "id": "finance-b2-w4-q1",
       "type": "multipleChoice",
       "prompt": "Which ratio measures a company's ability to pay off its short-term liabilities with its current assets?",
-      "options": ["P/E Ratio", "Debt-to-Equity", "Current Ratio", "ROE"],
+      "options": [
+        "P/E Ratio",
+        "Debt-to-Equity",
+        "Current Ratio",
+        "ROE"
+      ],
       "answerIndex": 2,
       "explanation": "Current Ratio = Current Assets / Current Liabilities."
     },
@@ -31,7 +36,12 @@
       "id": "finance-b2-w4-q3",
       "type": "multipleChoice",
       "prompt": "What is the 'Quick Ratio' also known as?",
-      "options": ["Net Margin", "Acid Test Ratio", "Leverage Ratio", "Solvency Test"],
+      "options": [
+        "Net Margin",
+        "Acid Test Ratio",
+        "Leverage Ratio",
+        "Solvency Test"
+      ],
       "answerIndex": 1,
       "explanation": "The Quick Ratio is a more conservative measure of liquidity than the Current Ratio."
     },
@@ -39,7 +49,12 @@
       "id": "finance-b2-w4-q4",
       "type": "multipleChoice",
       "prompt": "Which valuation method uses future cash flows discounted to their present value?",
-      "options": ["Comparable Analysis", "Precedent Transactions", "DCF (Discounted Cash Flow)", "Asset Valuation"],
+      "options": [
+        "Comparable Analysis",
+        "Precedent Transactions",
+        "DCF (Discounted Cash Flow)",
+        "Asset Valuation"
+      ],
       "answerIndex": 2,
       "explanation": "DCF is a fundamental valuation method used by analysts."
     },
@@ -60,7 +75,12 @@
       "id": "finance-b2-w4-q6",
       "type": "multipleChoice",
       "prompt": "Review: Which modal indicates strong certainty? 'The auditors ___ have found the discrepancy.'",
-      "options": ["must", "might", "can't", "should"],
+      "options": [
+        "must",
+        "might",
+        "can't",
+        "should"
+      ],
       "answerIndex": 0,
       "explanation": "'Must have' is used for strong deductions about the past."
     },
@@ -68,7 +88,12 @@
       "id": "finance-b2-w4-q7",
       "type": "multipleChoice",
       "prompt": "What does 'ROE' stand for?",
-      "options": ["Return on Equity", "Rate of Expense", "Revenue on Earnings", "Ratio of Efficiency"],
+      "options": [
+        "Return on Equity",
+        "Rate of Expense",
+        "Revenue on Earnings",
+        "Ratio of Efficiency"
+      ],
       "answerIndex": 0,
       "explanation": "ROE measures how effectively a company uses shareholders' capital to generate profit."
     },
@@ -76,7 +101,12 @@
       "id": "finance-b2-w4-q8",
       "type": "multipleChoice",
       "prompt": "Review: What is the 'bottom line' on an income statement?",
-      "options": ["Gross Profit", "Revenue", "Net Income", "COGS"],
+      "options": [
+        "Gross Profit",
+        "Revenue",
+        "Net Income",
+        "COGS"
+      ],
       "answerIndex": 2,
       "explanation": "Net Income is the final profit figure."
     },
@@ -84,7 +114,12 @@
       "id": "finance-b2-w4-q9",
       "type": "multipleChoice",
       "prompt": "Translate: 'Margen de beneficio neto'",
-      "options": ["Gross profit margin", "Net profit margin", "Operating margin", "Cash margin"],
+      "options": [
+        "Gross profit margin",
+        "Net profit margin",
+        "Operating margin",
+        "Cash margin"
+      ],
       "answerIndex": 1,
       "explanation": "'Net profit margin' is the ratio of net income to revenue."
     },
@@ -92,7 +127,12 @@
       "id": "finance-b2-w4-q10",
       "type": "multipleChoice",
       "prompt": "Which valuation method looks at the prices paid for similar companies in past acquisitions?",
-      "options": ["Comparable Analysis", "DCF", "Precedent Transactions", "Book Value"],
+      "options": [
+        "Comparable Analysis",
+        "DCF",
+        "Precedent Transactions",
+        "Book Value"
+      ],
       "answerIndex": 2,
       "explanation": "Precedent transactions provide a benchmark for M&A valuations."
     },
@@ -100,7 +140,12 @@
       "id": "finance-b2-w4-q11",
       "type": "multipleChoice",
       "prompt": "Review: Which passive form is correct? 'The budget ___ (finalize) by the CFO last week.'",
-      "options": ["was finalized", "is finalized", "finalized", "has finalized"],
+      "options": [
+        "was finalized",
+        "is finalized",
+        "finalized",
+        "has finalized"
+      ],
       "answerIndex": 0,
       "explanation": "Past passive for a completed action."
     },
@@ -108,7 +153,12 @@
       "id": "finance-b2-w4-q12",
       "type": "multipleChoice",
       "prompt": "What is 'EPS'?",
-      "options": ["Earnings Per Share", "Equity Price Standard", "Economic Profit System", "Estimated Portfolio Size"],
+      "options": [
+        "Earnings Per Share",
+        "Equity Price Standard",
+        "Economic Profit System",
+        "Estimated Portfolio Size"
+      ],
       "answerIndex": 0,
       "explanation": "EPS is the portion of a company's profit allocated to each outstanding share."
     },
@@ -116,7 +166,12 @@
       "id": "finance-b2-w4-q13",
       "type": "multipleChoice",
       "prompt": "Review: What is 'Tax Avoidance'?",
-      "options": ["Illegal tax non-payment", "Legal minimization of tax", "Paying double tax", "A government fine"],
+      "options": [
+        "Illegal tax non-payment",
+        "Legal minimization of tax",
+        "Paying double tax",
+        "A government fine"
+      ],
       "answerIndex": 1,
       "explanation": "Tax avoidance is the legal use of the tax regime to minimize liability."
     },
@@ -124,7 +179,12 @@
       "id": "finance-b2-w4-q14",
       "type": "multipleChoice",
       "prompt": "What is the 'Debt-to-Equity' ratio used to assess?",
-      "options": ["Liquidity", "Financial Leverage", "Marketing efficiency", "Tax liability"],
+      "options": [
+        "Liquidity",
+        "Financial Leverage",
+        "Marketing efficiency",
+        "Tax liability"
+      ],
       "answerIndex": 1,
       "explanation": "It compares a company's total liabilities to its shareholders' equity."
     },
@@ -132,7 +192,12 @@
       "id": "finance-b2-w4-q15",
       "type": "multipleChoice",
       "prompt": "Complete with the correct conditional: 'If the company ___ (achieve) its targets, the stock price ___ (rise).'",
-      "options": ["achieves / will rise", "achieved / rose", "had achieved / would have risen", "achieves / rose"],
+      "options": [
+        "achieves / will rise",
+        "achieved / rose",
+        "had achieved / would have risen",
+        "achieves / rose"
+      ],
       "answerIndex": 0,
       "explanation": "First conditional for a real possibility."
     },
@@ -153,7 +218,12 @@
       "id": "finance-b2-w4-q17",
       "type": "multipleChoice",
       "prompt": "Review: What is 'Due Diligence'?",
-      "options": ["A type of tax", "Comprehensive appraisal of a business before a contract", "A bank loan", "The company's logo"],
+      "options": [
+        "A type of tax",
+        "Comprehensive appraisal of a business before a contract",
+        "A bank loan",
+        "The company's logo"
+      ],
       "answerIndex": 1,
       "explanation": "Due diligence is essential in M&A and IPOs."
     },
@@ -161,7 +231,12 @@
       "id": "finance-b2-w4-q18",
       "type": "multipleChoice",
       "prompt": "Translate: 'Valor de mercado'",
-      "options": ["Book value", "Market value", "Par value", "Asset value"],
+      "options": [
+        "Book value",
+        "Market value",
+        "Par value",
+        "Asset value"
+      ],
       "answerIndex": 1,
       "explanation": "'Market value' is the price at which an asset would trade in a competitive auction setting."
     },
@@ -169,7 +244,12 @@
       "id": "finance-b2-w4-q19",
       "type": "multipleChoice",
       "prompt": "Review: What is 'Forex'?",
-      "options": ["Foreign Exchange market", "Financial Exit strategy", "Formula for Excellence", "Federal Expense"],
+      "options": [
+        "Foreign Exchange market",
+        "Financial Exit strategy",
+        "Formula for Excellence",
+        "Federal Expense"
+      ],
       "answerIndex": 0,
       "explanation": "Forex is where currencies are traded."
     },
@@ -177,7 +257,12 @@
       "id": "finance-b2-w4-q20",
       "type": "multipleChoice",
       "prompt": "Complete: 'If we ___ (invest) in Bitcoin in 2010, we ___ (be) millionaires now.'",
-      "options": ["invested / would be", "had invested / would have been", "had invested / would be", "invest / will be"],
+      "options": [
+        "invested / would be",
+        "had invested / would have been",
+        "had invested / would be",
+        "invest / will be"
+      ],
       "answerIndex": 2,
       "explanation": "Mixed conditional (past action, present result)."
     },
@@ -211,7 +296,12 @@
       "id": "finance-b2-w4-q23",
       "type": "multipleChoice",
       "prompt": "Review: What is 'Materiality' in an audit?",
-      "options": ["The physical building", "Threshold of significance for errors", "The price of the audit", "The company's stock price"],
+      "options": [
+        "The physical building",
+        "Threshold of significance for errors",
+        "The price of the audit",
+        "The company's stock price"
+      ],
       "answerIndex": 1,
       "explanation": "Materiality determines if an error is 'big enough' to matter."
     },
@@ -219,15 +309,25 @@
       "id": "finance-b2-w4-q24",
       "type": "multipleChoice",
       "prompt": "Review: Which modal indicates prohibition? 'You ___ (mustn't / needn't) share confidential data.'",
-      "options": ["mustn't", "needn't", "should", "don't have to"],
+      "options": [
+        "mustn't",
+        "needn't",
+        "should",
+        "don't have to"
+      ],
       "answerIndex": 0,
       "explanation": "'Mustn't' is used for strong prohibitions."
     },
     {
       "id": "finance-b2-w4-q25",
       "type": "multipleChoice",
-      "prompt": "Translate: 'Análisis de ratios'",
-      "options": ["Ratio analysis", "Reason analysis", "Rational check", "Report audit"],
+      "prompt": "Translate: 'An\u00e1lisis de ratios'",
+      "options": [
+        "Ratio analysis",
+        "Reason analysis",
+        "Rational check",
+        "Report audit"
+      ],
       "answerIndex": 0,
       "explanation": "'Ratio analysis' is the correct term."
     },
@@ -248,7 +348,12 @@
       "id": "finance-b2-w4-q27",
       "type": "multipleChoice",
       "prompt": "Review: What is an 'Unqualified Opinion'?",
-      "options": ["A bad audit result", "A clean audit report", "The auditor is confused", "The report is missing"],
+      "options": [
+        "A bad audit result",
+        "A clean audit report",
+        "The auditor is confused",
+        "The report is missing"
+      ],
       "answerIndex": 1,
       "explanation": "Unqualified means the statements are presented fairly."
     },
@@ -256,7 +361,12 @@
       "id": "finance-b2-w4-q28",
       "type": "multipleChoice",
       "prompt": "Complete: 'The merger ___ (approve) by the regulators next month.'",
-      "options": ["is approved", "will be approved", "was approved", "has approved"],
+      "options": [
+        "is approved",
+        "will be approved",
+        "was approved",
+        "has approved"
+      ],
       "answerIndex": 1,
       "explanation": "Future passive."
     },
@@ -277,7 +387,12 @@
       "id": "finance-b2-w4-q30",
       "type": "multipleChoice",
       "prompt": "Review: What is 'Hedging'?",
-      "options": ["Speculating for profit", "Using instruments to offset risk", "Buying bushes for the office", "Closing a bank account"],
+      "options": [
+        "Speculating for profit",
+        "Using instruments to offset risk",
+        "Buying bushes for the office",
+        "Closing a bank account"
+      ],
       "answerIndex": 1,
       "explanation": "Hedging reduces exposure to risk."
     },
@@ -285,7 +400,12 @@
       "id": "finance-b2-w4-q31",
       "type": "multipleChoice",
       "prompt": "Which ratio measures the percentage of profit relative to revenue?",
-      "options": ["Current Ratio", "Net Profit Margin", "Debt-to-Equity", "P/E Ratio"],
+      "options": [
+        "Current Ratio",
+        "Net Profit Margin",
+        "Debt-to-Equity",
+        "P/E Ratio"
+      ],
       "answerIndex": 1,
       "explanation": "Net Profit Margin = (Net Income / Revenue) * 100."
     },
@@ -293,7 +413,12 @@
       "id": "finance-b2-w4-q32",
       "type": "multipleChoice",
       "prompt": "What is 'Asset Valuation'?",
-      "options": ["Calculating the price of a stock", "Determining the current value of a company's assets", "Buying new equipment", "Selling the company's cars"],
+      "options": [
+        "Calculating the price of a stock",
+        "Determining the current value of a company's assets",
+        "Buying new equipment",
+        "Selling the company's cars"
+      ],
       "answerIndex": 1,
       "explanation": "Asset valuation can be based on market value, cost, or income."
     },
@@ -301,7 +426,12 @@
       "id": "finance-b2-w4-q33",
       "type": "multipleChoice",
       "prompt": "Review: Translate 'Asiento contable'",
-      "options": ["Accounting entry", "Bank chair", "Audit seat", "Profit table"],
+      "options": [
+        "Accounting entry",
+        "Bank chair",
+        "Audit seat",
+        "Profit table"
+      ],
       "answerIndex": 0,
       "explanation": "An 'entry' is a record of a transaction."
     },
@@ -309,7 +439,12 @@
       "id": "finance-b2-w4-q34",
       "type": "multipleChoice",
       "prompt": "Complete: 'Unless the market ___ (recover) soon, our valuation ___ (drop).'",
-      "options": ["recovers / will drop", "don't recover / will drop", "recovered / would drop", "had recovered / would have dropped"],
+      "options": [
+        "recovers / will drop",
+        "don't recover / will drop",
+        "recovered / would drop",
+        "had recovered / would have dropped"
+      ],
       "answerIndex": 0,
       "explanation": "First conditional with 'unless'."
     },
@@ -330,7 +465,12 @@
       "id": "finance-b2-w4-q36",
       "type": "multipleChoice",
       "prompt": "Review: What is 'Whistleblowing'?",
-      "options": ["Reporting unethical behavior", "Calling a time-out", "Blowing a whistle", "Quitting a job"],
+      "options": [
+        "Reporting unethical behavior",
+        "Calling a time-out",
+        "Blowing a whistle",
+        "Quitting a job"
+      ],
       "answerIndex": 0,
       "explanation": "Whistleblowing is essential for corporate integrity."
     },
@@ -351,7 +491,12 @@
       "id": "finance-b2-w4-q38",
       "type": "multipleChoice",
       "prompt": "Translate: 'Valor contable'",
-      "options": ["Market value", "Book value", "Price value", "Asset value"],
+      "options": [
+        "Market value",
+        "Book value",
+        "Price value",
+        "Asset value"
+      ],
       "answerIndex": 1,
       "explanation": "'Book value' is the value of an asset according to its balance sheet account balance."
     },
@@ -359,7 +504,12 @@
       "id": "finance-b2-w4-q39",
       "type": "multipleChoice",
       "prompt": "Review: What is 'VAT'?",
-      "options": ["A tax on company profits", "Value Added Tax (consumption tax)", "A bank fee", "A type of loan"],
+      "options": [
+        "A tax on company profits",
+        "Value Added Tax (consumption tax)",
+        "A bank fee",
+        "A type of loan"
+      ],
       "answerIndex": 1,
       "explanation": "VAT is common in many countries outside the US."
     },
@@ -367,7 +517,12 @@
       "id": "finance-b2-w4-q40",
       "type": "multipleChoice",
       "prompt": "Complete: 'Several errors ___ (find) in the consolidated statements.'",
-      "options": ["were found", "was found", "find", "have found"],
+      "options": [
+        "were found",
+        "was found",
+        "find",
+        "have found"
+      ],
       "answerIndex": 0,
       "explanation": "Past passive plural."
     },
@@ -401,7 +556,12 @@
       "id": "finance-b2-w4-q43",
       "type": "multipleChoice",
       "prompt": "Review: What is a 'Bear Market'?",
-      "options": ["A rising market", "A falling market", "A market for bears", "A closed market"],
+      "options": [
+        "A rising market",
+        "A falling market",
+        "A market for bears",
+        "A closed market"
+      ],
       "answerIndex": 1,
       "explanation": "A bear market is a period of declining stock prices."
     },
@@ -409,7 +569,12 @@
       "id": "finance-b2-w4-q44",
       "type": "multipleChoice",
       "prompt": "Complete: 'If the interest rates ___ (be) lower, the company ___ (borrow) more money.'",
-      "options": ["are / will borrow", "were / would borrow", "had been / would have borrowed", "were / borrowed"],
+      "options": [
+        "are / will borrow",
+        "were / would borrow",
+        "had been / would have borrowed",
+        "were / borrowed"
+      ],
       "answerIndex": 1,
       "explanation": "Second conditional for hypothetical present/future."
     },
@@ -430,7 +595,12 @@
       "id": "finance-b2-w4-q46",
       "type": "multipleChoice",
       "prompt": "Review: What is 'Credit Risk'?",
-      "options": ["Risk of stock crash", "Risk of borrower default", "Risk of fraud", "Risk of fire"],
+      "options": [
+        "Risk of stock crash",
+        "Risk of borrower default",
+        "Risk of fraud",
+        "Risk of fire"
+      ],
       "answerIndex": 1,
       "explanation": "Credit risk is the probability that a borrower fails to repay."
     },
@@ -438,7 +608,12 @@
       "id": "finance-b2-w4-q47",
       "type": "multipleChoice",
       "prompt": "Translate: 'Flujo de caja'",
-      "options": ["Cash flow", "Money box", "Bank stream", "Profit wave"],
+      "options": [
+        "Cash flow",
+        "Money box",
+        "Bank stream",
+        "Profit wave"
+      ],
       "answerIndex": 0,
       "explanation": "'Cash flow' is the movement of money into and out of a business."
     },
@@ -446,7 +621,12 @@
       "id": "finance-b2-w4-q48",
       "type": "multipleChoice",
       "prompt": "Review: Which modal is for past regret? 'We ___ (should have) diversified earlier.'",
-      "options": ["should have", "must have", "could have", "might have"],
+      "options": [
+        "should have",
+        "must have",
+        "could have",
+        "might have"
+      ],
       "answerIndex": 0,
       "explanation": "'Should have' expresses regret or criticism about the past."
     },
@@ -454,7 +634,12 @@
       "id": "finance-b2-w4-q49",
       "type": "multipleChoice",
       "prompt": "Complete the first conditional: 'If the CFO ___ (resign), the stock price ___ (drop).'",
-      "options": ["resigns / will drop", "resigned / would drop", "had resigned / would have dropped", "resigns / dropped"],
+      "options": [
+        "resigns / will drop",
+        "resigned / would drop",
+        "had resigned / would have dropped",
+        "resigns / dropped"
+      ],
       "answerIndex": 0,
       "explanation": "First conditional for a real future threat."
     },
@@ -470,6 +655,56 @@
       ],
       "answerIndex": 1,
       "explanation": "High-growth companies often trade at a premium."
+    },
+    {
+      "id": "finance-b2-w4-gamified",
+      "type": "crossword",
+      "title": "Market Valuation Crossword",
+      "instructions": "Complete the crossword with key terms from this week.",
+      "items": [
+        {
+          "word": "VALUATION",
+          "clue": "The process of determining the current worth of an asset or company.",
+          "direction": "across",
+          "row": 0,
+          "col": 0
+        },
+        {
+          "word": "MULTIPLE",
+          "clue": "A ratio used to measure the value of a company (e.g., P/E ratio).",
+          "direction": "down",
+          "row": 2,
+          "col": 0
+        },
+        {
+          "word": "CASHFLOW",
+          "clue": "The total amount of money being transferred into and out of a business.",
+          "direction": "across",
+          "row": 4,
+          "col": 0
+        },
+        {
+          "word": "DISCOUNT",
+          "clue": "The process of determining the present value of a payment or a stream of payments that is to be received in the future.",
+          "direction": "down",
+          "row": 6,
+          "col": 0
+        },
+        {
+          "word": "CAPITAL",
+          "clue": "Financial assets or the financial value of assets, such as cash.",
+          "direction": "across",
+          "row": 8,
+          "col": 0
+        },
+        {
+          "word": "MARKET",
+          "clue": "A place where the trading of securities, commodities, and other items occurs.",
+          "direction": "down",
+          "row": 10,
+          "col": 0
+        }
+      ]
     }
   ]
 }

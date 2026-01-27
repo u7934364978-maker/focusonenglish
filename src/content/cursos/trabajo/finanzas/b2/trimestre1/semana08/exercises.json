@@ -8,423 +8,473 @@
   "items": [
     {
       "id": "finance-b2-w8-q1",
-      "type": "multiple_choice",
-      "question": "What is the primary purpose of an 'Executive Summary'?",
+      "type": "multipleChoice",
+      "prompt": "What is the primary purpose of an 'Executive Summary'?",
       "options": [
         "To provide a detailed list of every transaction",
         "To provide a concise overview of the main points of a report",
         "To list the names of all employees",
         "To explain the company's history"
       ],
-      "answer": "To provide a concise overview of the main points of a report",
+      "answerIndex": 1,
       "explanation": "Executive summaries are designed for busy decision-makers."
     },
     {
       "id": "finance-b2-w8-q2",
-      "type": "fill_in_the_blank",
-      "question": "By 2027, the fund ________ (manage) $2 billion in assets.",
-      "answer": "will have managed",
+      "type": "fillBlanks",
+      "prompt": "By 2027, the fund [blank] (manage) $2 billion in assets.",
+      "answers": ["will have managed"],
       "explanation": "Future Perfect for completion by a certain time. (Acceptable: 'will be managing')."
     },
     {
       "id": "finance-b2-w8-q3",
-      "type": "multiple_choice",
-      "question": "Which term describes 'spreading investments to reduce risk'?",
+      "type": "multipleChoice",
+      "prompt": "Which term describes 'spreading investments to reduce risk'?",
       "options": ["Consolidation", "Diversification", "Speculation", "Inflation"],
-      "answer": "Diversification",
+      "answerIndex": 1,
       "explanation": "Diversification is a core principle of risk management."
     },
     {
       "id": "finance-b2-w8-q4",
-      "type": "fill_in_the_blank",
-      "question": "The CEO didn't attend the press conference. He ________ (be) busy with the merger.",
-      "answer": "must have been",
+      "type": "fillBlanks",
+      "prompt": "The CEO didn't attend the press conference. He [blank] (be) busy with the merger.",
+      "answers": ["must have been"],
       "explanation": "Strong deduction about the past."
     },
     {
       "id": "finance-b2-w8-q5",
-      "type": "multiple_choice",
-      "question": "What is 'Due Diligence'?",
+      "type": "multipleChoice",
+      "prompt": "What is 'Due Diligence'?",
       "options": [
         "Paying taxes on time",
         "A comprehensive appraisal of a business's health before a transaction",
         "The process of hiring a new accountant",
         "The amount of interest on a loan"
       ],
-      "answer": "A comprehensive appraisal of a business's health before a transaction",
+      "answerIndex": 1,
       "explanation": "Due diligence confirms the accuracy of the target's claims."
     },
     {
       "id": "finance-b2-w8-q6",
-      "type": "fill_in_the_blank",
-      "question": "The auditor ________ (suggest / wait) for the final bank statements.",
-      "answer": "suggested waiting",
+      "type": "fillBlanks",
+      "prompt": "The auditor [blank] (suggest / wait) for the final bank statements.",
+      "answers": ["suggested waiting"],
       "explanation": "Reporting verb + gerund (-ing)."
     },
     {
       "id": "finance-b2-w8-q7",
-      "type": "multiple_choice",
-      "question": "In insurance, the 'Premium' is:",
+      "type": "multipleChoice",
+      "prompt": "In insurance, the 'Premium' is:",
       "options": [
         "The out-of-pocket payment",
         "The periodic cost of the policy",
         "The total coverage amount",
         "The bonus given to the agent"
       ],
-      "answer": "The periodic cost of the policy",
+      "answerIndex": 1,
       "explanation": "Premiums are the payments made to maintain insurance coverage."
     },
     {
       "id": "finance-b2-w8-q8",
-      "type": "fill_in_the_blank",
-      "question": "Inflation ________ (rise) significantly next year, according to the latest data.",
-      "answer": "is going to rise",
+      "type": "fillBlanks",
+      "prompt": "Inflation [blank] (rise) significantly next year, according to the latest data.",
+      "answers": ["is going to rise"],
       "explanation": "'Going to' for predictions based on current evidence."
     },
     {
       "id": "finance-b2-w8-q9",
-      "type": "multiple_choice",
-      "question": "What is 'Synergy' in M&A?",
+      "type": "multipleChoice",
+      "prompt": "What is 'Synergy' in M&A?",
       "options": [
         "A type of debt",
         "The added value created by combining two companies",
         "A legal requirement for mergers",
         "A tax benefit"
       ],
-      "answer": "The added value created by combining two companies",
+      "answerIndex": 1,
       "explanation": "Synergy often comes from cost savings or increased revenue."
     },
     {
       "id": "finance-b2-w8-q10",
-      "type": "fill_in_the_blank",
-      "question": "The board ________ (deny / have) any secret agreements with the rival firm.",
-      "answer": "denied having",
+      "type": "fillBlanks",
+      "prompt": "The board [blank] (deny / have) any secret agreements with the rival firm.",
+      "answers": ["denied having"],
       "explanation": "Reporting verb + gerund (-ing)."
     },
     {
       "id": "finance-b2-w8-q11",
-      "type": "multiple_choice",
-      "question": "Which of these is a 'Market Risk' factor?",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Market Risk' factor?",
       "options": ["Interest rate changes", "Employee theft", "A computer virus", "A fire in the warehouse"],
-      "answer": "Interest rate changes",
+      "answerIndex": 0,
       "explanation": "Market risk relates to price movements in financial markets."
     },
     {
       "id": "finance-b2-w8-q12",
-      "type": "fill_in_the_blank",
-      "question": "He ________ (not / know) the password; he was hired yesterday.",
-      "answer": "can't know",
+      "type": "fillBlanks",
+      "prompt": "He [blank] (not / know) the password; he was hired yesterday.",
+      "answers": ["can't know"],
       "explanation": "Strong present negative deduction. (Or 'can't have known' if referring to a past event)."
     },
     {
       "id": "finance-b2-w8-q13",
-      "type": "multiple_choice",
-      "question": "A 'Benchmark' is used to:",
+      "type": "multipleChoice",
+      "prompt": "A 'Benchmark' is used to:",
       "options": ["Measure performance", "Store physical assets", "Lend money", "Write contracts"],
-      "answer": "Measure performance",
+      "answerIndex": 0,
       "explanation": "Investment performance is compared against benchmarks like the S&P 500."
     },
     {
       "id": "finance-b2-w8-q14",
-      "type": "fill_in_the_blank",
-      "question": "This time next week, we ________ (present) our findings to the board.",
-      "answer": "will be presenting",
+      "type": "fillBlanks",
+      "prompt": "This time next week, we [blank] (present) our findings to the board.",
+      "answers": ["will be presenting"],
       "explanation": "Future Continuous for an action in progress in the future."
     },
     {
       "id": "finance-b2-w8-q15",
-      "type": "multiple_choice",
-      "question": "What is 'Credit Risk'?",
+      "type": "multipleChoice",
+      "prompt": "What is 'Credit Risk'?",
       "options": [
         "The risk that a borrower will not repay a loan",
         "The risk of a stock market crash",
         "The risk of a currency devaluation",
         "The risk of a natural disaster"
       ],
-      "answer": "The risk that a borrower will not repay a loan",
+      "answerIndex": 0,
       "explanation": "Credit risk is fundamental to banking and lending."
     },
     {
       "id": "finance-b2-w8-q16",
-      "type": "fill_in_the_blank",
-      "question": "The spokesperson ________ (refuse / confirm) the rumors.",
-      "answer": "refused to confirm",
+      "type": "fillBlanks",
+      "prompt": "The spokesperson [blank] (refuse / confirm) the rumors.",
+      "answers": ["refused to confirm"],
       "explanation": "Structure: refuse + to-infinitive."
     },
     {
       "id": "finance-b2-w8-q17",
-      "type": "multiple_choice",
-      "question": "An LBO (Leveraged Buyout) is funded primarily by:",
+      "type": "multipleChoice",
+      "prompt": "An LBO (Leveraged Buyout) is funded primarily by:",
       "options": ["Cash", "Equity", "Debt", "Dividends"],
-      "answer": "Debt",
+      "answerIndex": 2,
       "explanation": "Leverage refers to using borrowed money."
     },
     {
       "id": "finance-b2-w8-q18",
-      "type": "fill_in_the_blank",
-      "question": "They ________ (forgot) to mention the hidden liabilities.",
-      "answer": "must have forgotten",
+      "type": "fillBlanks",
+      "prompt": "They [blank] (forgot) to mention the hidden liabilities.",
+      "answers": ["must have forgotten"],
       "explanation": "Past deduction."
     },
     {
       "id": "finance-b2-w8-q19",
-      "type": "multiple_choice",
-      "question": "Which term refers to 'how quickly an asset can be turned into cash'?",
+      "type": "multipleChoice",
+      "prompt": "Which term refers to 'how quickly an asset can be turned into cash'?",
       "options": ["Solvency", "Liquidity", "Volatility", "Profitability"],
-      "answer": "Liquidity",
+      "answerIndex": 1,
       "explanation": "Liquidity is the ease of conversion to cash."
     },
     {
       "id": "finance-b2-w8-q20",
-      "type": "fill_in_the_blank",
-      "question": "I ________ (meet) the investment team at 9 AM tomorrow.",
-      "answer": "am going to meet",
+      "type": "fillBlanks",
+      "prompt": "I [blank] (meet) the investment team at 9 AM tomorrow.",
+      "answers": ["am going to meet"],
       "explanation": "Planned future event."
     },
     {
       "id": "finance-b2-w8-q21",
-      "type": "multiple_choice",
-      "question": "Goodwill is considered a(n) ________ asset.",
+      "type": "multipleChoice",
+      "prompt": "Goodwill is considered a(n) [blank] asset.",
       "options": ["Tangible", "Intangible", "Current", "Fixed"],
-      "answer": "Intangible",
+      "answerIndex": 1,
       "explanation": "Goodwill has no physical form but has value."
     },
     {
       "id": "finance-b2-w8-q22",
-      "type": "fill_in_the_blank",
-      "question": "The CFO ________ (confirm) that the figures were accurate.",
-      "answer": "confirmed",
+      "type": "fillBlanks",
+      "prompt": "The CFO [blank] (confirm) that the figures were accurate.",
+      "answers": ["confirmed"],
       "explanation": "Reporting verb for fact."
     },
     {
       "id": "finance-b2-w8-q23",
-      "type": "multiple_choice",
-      "question": "Risk 'Transfer' is most commonly achieved through:",
+      "type": "multipleChoice",
+      "prompt": "Risk 'Transfer' is most commonly achieved through:",
       "options": ["Savings", "Insurance", "Marketing", "Hiring"],
-      "answer": "Insurance",
+      "answerIndex": 1,
       "explanation": "Insurance transfers risk to the insurer."
     },
     {
       "id": "finance-b2-w8-q24",
-      "type": "fill_in_the_blank",
-      "question": "The market ________ (close) by the time they finish the deal.",
-      "answer": "will have closed",
+      "type": "fillBlanks",
+      "prompt": "The market [blank] (close) by the time they finish the deal.",
+      "answers": ["will have closed"],
       "explanation": "Future Perfect."
     },
     {
       "id": "finance-b2-w8-q25",
-      "type": "multiple_choice",
-      "question": "What is 'Volatility'?",
+      "type": "multipleChoice",
+      "prompt": "What is 'Volatility'?",
       "options": [
         "The growth rate of a company",
         "The degree of price variation over time",
         "The number of shareholders",
         "The total amount of debt"
       ],
-      "answer": "The degree of price variation over time",
+      "answerIndex": 1,
       "explanation": "High volatility means high risk."
     },
     {
       "id": "finance-b2-w8-q26",
-      "type": "fill_in_the_blank",
-      "question": "You ________ (be) joking! A 20% loss in one hour is impossible.",
-      "answer": "must be",
+      "type": "fillBlanks",
+      "prompt": "You [blank] (be) joking! A 20% loss in one hour is impossible.",
+      "answers": ["must be"],
       "explanation": "Strong present deduction/disbelief."
     },
     {
       "id": "finance-b2-w8-q27",
-      "type": "multiple_choice",
-      "question": "A 'Divestiture' is the opposite of a(n):",
+      "type": "multipleChoice",
+      "prompt": "A 'Divestiture' is the opposite of a(n):",
       "options": ["Investment", "Debt", "Dividend", "Audit"],
-      "answer": "Investment",
+      "answerIndex": 0,
       "explanation": "Divestiture is selling an asset; investment is buying one."
     },
     {
       "id": "finance-b2-w8-q28",
-      "type": "fill_in_the_blank",
-      "question": "The advisors ________ (recommend / accept) the offer.",
-      "answer": "recommended accepting",
+      "type": "fillBlanks",
+      "prompt": "The advisors [blank] (recommend / accept) the offer.",
+      "answers": ["recommended accepting"],
       "explanation": "Recommend + gerund."
     },
     {
       "id": "finance-b2-w8-q29",
-      "type": "multiple_choice",
-      "question": "Passive management usually involves tracking a(n):",
+      "type": "multipleChoice",
+      "prompt": "Passive management usually involves tracking a(n):",
       "options": ["Index", "Individual CEO", "Single product", "Bank account"],
-      "answer": "Index",
+      "answerIndex": 0,
       "explanation": "Index funds are the most common passive strategy."
     },
     {
       "id": "finance-b2-w8-q30",
-      "type": "fill_in_the_blank",
-      "question": "Investors ________ (still / wait) for the annual report.",
-      "answer": "must still be waiting",
+      "type": "fillBlanks",
+      "prompt": "Investors [blank] (still / wait) for the annual report.",
+      "answers": ["must still be waiting"],
       "explanation": "Deduction about an ongoing state."
     },
     {
       "id": "finance-b2-w8-q31",
-      "type": "multiple_choice",
-      "question": "What is 'Asset Allocation'?",
+      "type": "multipleChoice",
+      "prompt": "What is 'Asset Allocation'?",
       "options": [
         "Deciding which employees get which computers",
         "Distributing wealth among different investment classes",
         "Selling a building",
         "Paying a dividend"
       ],
-      "answer": "Distributing wealth among different investment classes",
+      "answerIndex": 1,
       "explanation": "Asset allocation is a key driver of portfolio performance."
     },
     {
       "id": "finance-b2-w8-q32",
-      "type": "fill_in_the_blank",
-      "question": "We ________ (see) a lot of volatility in the next quarter.",
-      "answer": "will see",
+      "type": "fillBlanks",
+      "prompt": "We [blank] (see) a lot of volatility in the next quarter.",
+      "answers": ["will see"],
       "explanation": "Prediction."
     },
     {
       "id": "finance-b2-w8-q33",
-      "type": "multiple_choice",
-      "question": "Which document is mandatory for government bodies like the SEC?",
+      "type": "multipleChoice",
+      "prompt": "Which document is mandatory for government bodies like the SEC?",
       "options": ["Management Report", "Regulatory Report", "Blog post", "Internal Memo"],
-      "answer": "Regulatory Report",
+      "answerIndex": 1,
       "explanation": "Regulatory reporting is a legal requirement."
     },
     {
       "id": "finance-b2-w8-q34",
-      "type": "fill_in_the_blank",
-      "question": "The board ________ (announce) their decision by Friday.",
-      "answer": "will have announced",
+      "type": "fillBlanks",
+      "prompt": "The board [blank] (announce) their decision by Friday.",
+      "answers": ["will have announced"],
       "explanation": "Future Perfect."
     },
     {
       "id": "finance-b2-w8-q35",
-      "type": "multiple_choice",
-      "question": "What does 'S' in SBAR stand for in professional reporting?",
+      "type": "multipleChoice",
+      "prompt": "What does 'S' in SBAR stand for in professional reporting?",
       "options": ["Strategy", "Situation", "Solvency", "Stability"],
-      "answer": "Situation",
+      "answerIndex": 1,
       "explanation": "Situation describes what is happening now."
     },
     {
       "id": "finance-b2-w8-q36",
-      "type": "fill_in_the_blank",
-      "question": "The lawyers ________ (warn) that the merger might be blocked.",
-      "answer": "warned",
+      "type": "fillBlanks",
+      "prompt": "The lawyers [blank] (warn) that the merger might be blocked.",
+      "answers": ["warned"],
       "explanation": "Reporting verb for potential issues."
     },
     {
       "id": "finance-b2-w8-q37",
-      "type": "multiple_choice",
-      "question": "A 'Deductible' in insurance is paid by the:",
+      "type": "multipleChoice",
+      "prompt": "A 'Deductible' in insurance is paid by the:",
       "options": ["Insurer", "Policyholder (Insured)", "Bank", "Government"],
-      "answer": "Policyholder (Insured)",
+      "answerIndex": 1,
       "explanation": "The deductible is the out-of-pocket portion."
     },
     {
       "id": "finance-b2-w8-q38",
-      "type": "fill_in_the_blank",
-      "question": "He ________ (leave) the company; I saw his desk was empty.",
-      "answer": "must have left",
+      "type": "fillBlanks",
+      "prompt": "He [blank] (leave) the company; I saw his desk was empty.",
+      "answers": ["must have left"],
       "explanation": "Past deduction based on current evidence."
     },
     {
       "id": "finance-b2-w8-q39",
-      "type": "multiple_choice",
-      "question": "What is 'Systemic Risk'?",
+      "type": "multipleChoice",
+      "prompt": "What is 'Systemic Risk'?",
       "options": [
         "Risk to a single company",
         "Risk to an entire financial system or market",
         "Risk of a computer system failure",
         "Risk from employee errors"
       ],
-      "answer": "Risk to an entire financial system or market",
+      "answerIndex": 1,
       "explanation": "Systemic risk can cause widespread economic collapse."
     },
     {
       "id": "finance-b2-w8-q40",
-      "type": "fill_in_the_blank",
-      "question": "We ________ (audit) the new subsidiary all next month.",
-      "answer": "will be auditing",
+      "type": "fillBlanks",
+      "prompt": "We [blank] (audit) the new subsidiary all next month.",
+      "answers": ["will be auditing"],
       "explanation": "Future Continuous."
     },
     {
       "id": "finance-b2-w8-q41",
-      "type": "multiple_choice",
-      "question": "The primary goal of Investor Relations (IR) is:",
+      "type": "multipleChoice",
+      "prompt": "The primary goal of Investor Relations (IR) is:",
       "options": [
         "To sell products to customers",
         "To communicate with shareholders about performance and strategy",
         "To hire new traders",
         "To design the company logo"
       ],
-      "answer": "To communicate with shareholders about performance and strategy",
+      "answerIndex": 1,
       "explanation": "IR maintains relationships with the investment community."
     },
     {
       "id": "finance-b2-w8-q42",
-      "type": "fill_in_the_blank",
-      "question": "She ________ (deny / be) involved in the scandal.",
-      "answer": "denied being",
+      "type": "fillBlanks",
+      "prompt": "She [blank] (deny / be) involved in the scandal.",
+      "answers": ["denied being"],
       "explanation": "Deny + gerund."
     },
     {
       "id": "finance-b2-w8-q43",
-      "type": "multiple_choice",
-      "question": "An 'Aggressive' portfolio usually has a high percentage of:",
+      "type": "multipleChoice",
+      "prompt": "An 'Aggressive' portfolio usually has a high percentage of:",
       "options": ["Bonds", "Cash", "Equities (Stocks)", "Gold"],
-      "answer": "Equities (Stocks)",
+      "answerIndex": 2,
       "explanation": "Stocks have higher risk and higher potential reward."
     },
     {
       "id": "finance-b2-w8-q44",
-      "type": "fill_in_the_blank",
-      "question": "They ________ (finish) the due diligence before the deadline.",
-      "answer": "will have finished",
+      "type": "fillBlanks",
+      "prompt": "They [blank] (finish) the due diligence before the deadline.",
+      "answers": ["will have finished"],
       "explanation": "Future Perfect."
     },
     {
       "id": "finance-b2-w8-q45",
-      "type": "multiple_choice",
-      "question": "What is 'ROI'?",
+      "type": "multipleChoice",
+      "prompt": "What is 'ROI'?",
       "options": ["Rate of Interest", "Return on Investment", "Risk of Inflation", "Ratio of Income"],
-      "answer": "Return on Investment",
+      "answerIndex": 1,
       "explanation": "ROI evaluates the efficiency of an investment."
     },
     {
       "id": "finance-b2-w8-q46",
-      "type": "fill_in_the_blank",
-      "question": "He ________ (be) very happy with the valuation; it was higher than expected.",
-      "answer": "must have been",
+      "type": "fillBlanks",
+      "prompt": "He [blank] (be) very happy with the valuation; it was higher than expected.",
+      "answers": ["must have been"],
       "explanation": "Past deduction."
     },
     {
       "id": "finance-b2-w8-q47",
-      "type": "multiple_choice",
-      "question": "A 'Horizontal Merger' occurs between:",
+      "type": "multipleChoice",
+      "prompt": "A 'Horizontal Merger' occurs between:",
       "options": ["Competitors in the same industry", "Companies in different industries", "Suppliers and customers", "Companies in different countries"],
-      "answer": "Competitors in the same industry",
+      "answerIndex": 0,
       "explanation": "Horizontal mergers aim for market share."
     },
     {
       "id": "finance-b2-w8-q48",
-      "type": "fill_in_the_blank",
-      "question": "I ________ (call) you after the board meeting.",
-      "answer": "will call",
+      "type": "fillBlanks",
+      "prompt": "I [blank] (call) you after the board meeting.",
+      "answers": ["will call"],
       "explanation": "Spontaneous decision/promise."
     },
     {
       "id": "finance-b2-w8-q49",
-      "type": "multiple_choice",
-      "question": "What is 'Capital Gain'?",
+      "type": "multipleChoice",
+      "prompt": "What is 'Capital Gain'?",
       "options": ["A type of bank loan", "The profit from selling an asset", "The total value of a company", "A government tax"],
-      "answer": "The profit from selling an asset",
+      "answerIndex": 1,
       "explanation": "Capital gain is the difference between sale price and purchase price."
     },
     {
       "id": "finance-b2-w8-q50",
-      "type": "fill_in_the_blank",
-      "question": "They ________ (sign) the agreement by the end of the day.",
-      "answer": "will have signed",
+      "type": "fillBlanks",
+      "prompt": "They [blank] (sign) the agreement by the end of the day.",
+      "answers": ["will have signed"],
       "explanation": "Future Perfect."
+    },
+    {
+      "id": "finance-b2-w8-gamified",
+      "type": "crossword",
+      "title": "Corporate Finance Review Crossword",
+      "instructions": "Complete the crossword with key terms from Month 2.",
+      "items": [
+        {
+          "word": "SYNERGY",
+          "clue": "The added value created by combining two companies in a merger.",
+          "direction": "across",
+          "row": 0,
+          "col": 0
+        },
+        {
+          "word": "PREMIUM",
+          "clue": "The periodic cost of an insurance policy.",
+          "direction": "down",
+          "row": 0,
+          "col": 0
+        },
+        {
+          "word": "LIQUIDITY",
+          "clue": "The ease with which an asset can be converted into cash.",
+          "direction": "across",
+          "row": 2,
+          "col": 0
+        },
+        {
+          "word": "GOODWILL",
+          "clue": "An intangible asset representing a company's reputation and brand.",
+          "direction": "down",
+          "row": 0,
+          "col": 6
+        },
+        {
+          "word": "VOLATILITY",
+          "clue": "The degree of variation in the price of a financial instrument over time.",
+          "direction": "across",
+          "row": 4,
+          "col": 0
+        },
+        {
+          "word": "DEDUCTIBLE",
+          "clue": "The amount the insured must pay out-of-pocket before insurance covers a claim.",
+          "direction": "down",
+          "row": 0,
+          "col": 4
+        }
+      ]
     }
   ]
 }

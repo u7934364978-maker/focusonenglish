@@ -8,458 +8,553 @@
   "items": [
     {
       "id": "finance-b2-w7-q1",
-      "type": "multiple_choice",
-      "question": "What is a 'Merger'?",
+      "type": "multipleChoice",
       "options": [
         "One company buying another",
         "Two companies joining to form a new entity",
         "A company going bankrupt",
         "A company selling its office building"
       ],
-      "answer": "Two companies joining to form a new entity",
-      "explanation": "A merger is the voluntary fusion of two companies into a single new legal entity."
+      "explanation": "A merger is the voluntary fusion of two companies into a single new legal entity.",
+      "answerIndex": 1,
+      "prompt": "What is a 'Merger'?"
     },
     {
       "id": "finance-b2-w7-q2",
-      "type": "fill_in_the_blank",
-      "question": "The CEO ________ (confirm) that the merger would be completed by Q4.",
-      "answer": "confirmed",
-      "explanation": "Reporting verb 'confirm' used to report a statement of fact."
+      "type": "fillBlanks",
+      "explanation": "Reporting verb 'confirm' used to report a statement of fact.",
+      "prompt": "The CEO ________ (confirm) that the merger would be completed by Q4.",
+      "answers": [
+        "confirmed"
+      ]
     },
     {
       "id": "finance-b2-w7-q3",
-      "type": "multiple_choice",
-      "question": "The comprehensive appraisal of a business to confirm facts and financial health is called:",
-      "options": ["Valuation", "Due Diligence", "Integration", "Negotiation"],
-      "answer": "Due Diligence",
-      "explanation": "Due diligence is the research and analysis of a company or organization done in preparation for a business transaction."
+      "type": "multipleChoice",
+      "options": [
+        "Valuation",
+        "Due Diligence",
+        "Integration",
+        "Negotiation"
+      ],
+      "explanation": "Due diligence is the research and analysis of a company or organization done in preparation for a business transaction.",
+      "answerIndex": 1,
+      "prompt": "The comprehensive appraisal of a business to confirm facts and financial health is called:"
     },
     {
       "id": "finance-b2-w7-q4",
-      "type": "fill_in_the_blank",
-      "question": "Analysts ________ (suggest / wait) for the next quarterly report before buying.",
-      "answer": "suggest waiting",
-      "explanation": "Structure: suggest + gerund (-ing)."
+      "type": "fillBlanks",
+      "explanation": "Structure: suggest + gerund (-ing).",
+      "prompt": "Analysts ________ (suggest / wait) for the next quarterly report before buying.",
+      "answers": [
+        "suggest waiting"
+      ]
     },
     {
       "id": "finance-b2-w7-q5",
-      "type": "multiple_choice",
-      "question": "The concept that the combined value of two companies is greater than the sum of their parts is:",
-      "options": ["Goodwill", "Synergy", "Equity", "Liability"],
-      "answer": "Synergy",
-      "explanation": "Synergy is the main justification for many M&A deals."
+      "type": "multipleChoice",
+      "options": [
+        "Goodwill",
+        "Synergy",
+        "Equity",
+        "Liability"
+      ],
+      "explanation": "Synergy is the main justification for many M&A deals.",
+      "answerIndex": 1,
+      "prompt": "The concept that the combined value of two companies is greater than the sum of their parts is:"
     },
     {
       "id": "finance-b2-w7-q6",
-      "type": "fill_in_the_blank",
-      "question": "The board ________ (announce) a 15% increase in dividends last week.",
-      "answer": "announced",
-      "explanation": "Reporting verb 'announce' for formal statements."
+      "type": "fillBlanks",
+      "explanation": "Reporting verb 'announce' for formal statements.",
+      "prompt": "The board ________ (announce) a 15% increase in dividends last week.",
+      "answers": [
+        "announced"
+      ]
     },
     {
       "id": "finance-b2-w7-q7",
-      "type": "multiple_choice",
-      "question": "What is a 'Hostile Takeover'?",
+      "type": "multipleChoice",
       "options": [
         "A merger approved by both boards",
         "An acquisition against the wishes of the target company's management",
         "A company closing down",
         "A small company buying a large one"
       ],
-      "answer": "An acquisition against the wishes of the target company's management",
-      "explanation": "Hostile takeovers usually involve going directly to the shareholders."
+      "explanation": "Hostile takeovers usually involve going directly to the shareholders.",
+      "answerIndex": 1,
+      "prompt": "What is a 'Hostile Takeover'?"
     },
     {
       "id": "finance-b2-w7-q8",
-      "type": "fill_in_the_blank",
-      "question": "The CFO ________ (deny / have) any knowledge of the accounting errors.",
-      "answer": "denied having",
-      "explanation": "Structure: deny + gerund (-ing)."
+      "type": "fillBlanks",
+      "explanation": "Structure: deny + gerund (-ing).",
+      "prompt": "The CFO ________ (deny / have) any knowledge of the accounting errors.",
+      "answers": [
+        "denied having"
+      ]
     },
     {
       "id": "finance-b2-w7-q9",
-      "type": "multiple_choice",
-      "question": "The intangible value of a company like brand and reputation is:",
-      "options": ["Goodwill", "Asset", "Synergy", "Dividend"],
-      "answer": "Goodwill",
-      "explanation": "Goodwill is an intangible asset that accounts for the excess purchase price of another company."
+      "type": "multipleChoice",
+      "options": [
+        "Goodwill",
+        "Asset",
+        "Synergy",
+        "Dividend"
+      ],
+      "explanation": "Goodwill is an intangible asset that accounts for the excess purchase price of another company.",
+      "answerIndex": 0,
+      "prompt": "The intangible value of a company like brand and reputation is:"
     },
     {
       "id": "finance-b2-w7-q10",
-      "type": "fill_in_the_blank",
-      "question": "The advisors ________ (recommend / accept) the revised offer.",
-      "answer": "recommended accepting",
-      "explanation": "Structure: recommend + gerund (-ing)."
+      "type": "fillBlanks",
+      "explanation": "Structure: recommend + gerund (-ing).",
+      "prompt": "The advisors ________ (recommend / accept) the revised offer.",
+      "answers": [
+        "recommended accepting"
+      ]
     },
     {
       "id": "finance-b2-w7-q11",
-      "type": "multiple_choice",
-      "question": "An LBO (Leveraged Buyout) uses a significant amount of ________ to acquire a company.",
-      "options": ["Cash", "Borrowed money (debt)", "Employees", "Real estate"],
-      "answer": "Borrowed money (debt)",
-      "explanation": "LBOs use the target company's assets as collateral for the loans."
+      "type": "multipleChoice",
+      "options": [
+        "Cash",
+        "Borrowed money (debt)",
+        "Employees",
+        "Real estate"
+      ],
+      "explanation": "LBOs use the target company's assets as collateral for the loans.",
+      "answerIndex": 1,
+      "prompt": "An LBO (Leveraged Buyout) uses a significant amount of ________ to acquire a company."
     },
     {
       "id": "finance-b2-w7-q12",
-      "type": "fill_in_the_blank",
-      "question": "The target company ________ (claim) that it was worth $500 million.",
-      "answer": "claimed",
-      "explanation": "Reporting verb 'claim' often used when the speaker is not sure if something is true."
+      "type": "fillBlanks",
+      "explanation": "Reporting verb 'claim' often used when the speaker is not sure if something is true.",
+      "prompt": "The target company ________ (claim) that it was worth $500 million.",
+      "answers": [
+        "claimed"
+      ]
     },
     {
       "id": "finance-b2-w7-q13",
-      "type": "multiple_choice",
-      "question": "The process of combining two companies after a merger is:",
-      "options": ["Valuation", "Integration", "Divestiture", "Liquidation"],
-      "answer": "Integration",
-      "explanation": "Integration is often the most difficult part of an M&A deal."
+      "type": "multipleChoice",
+      "options": [
+        "Valuation",
+        "Integration",
+        "Divestiture",
+        "Liquidation"
+      ],
+      "explanation": "Integration is often the most difficult part of an M&A deal.",
+      "answerIndex": 1,
+      "prompt": "The process of combining two companies after a merger is:"
     },
     {
       "id": "finance-b2-w7-q14",
-      "type": "fill_in_the_blank",
-      "question": "The CEO ________ (urge / the shareholders / vote) for the merger.",
-      "answer": "urged the shareholders to vote",
-      "explanation": "Structure: urge + object + to-infinitive."
+      "type": "fillBlanks",
+      "explanation": "Structure: urge + object + to-infinitive.",
+      "prompt": "The CEO ________ (urge / the shareholders / vote) for the merger.",
+      "answers": [
+        "urged the shareholders to vote"
+      ]
     },
     {
       "id": "finance-b2-w7-q15",
-      "type": "multiple_choice",
-      "question": "When a company sells off a subsidiary or business unit, it is a:",
-      "options": ["Merger", "Acquisition", "Divestiture", "Takeover"],
-      "answer": "Divestiture",
-      "explanation": "Divestiture is the opposite of an investment."
+      "type": "multipleChoice",
+      "options": [
+        "Merger",
+        "Acquisition",
+        "Divestiture",
+        "Takeover"
+      ],
+      "explanation": "Divestiture is the opposite of an investment.",
+      "answerIndex": 2,
+      "prompt": "When a company sells off a subsidiary or business unit, it is a:"
     },
     {
       "id": "finance-b2-w7-q16",
-      "type": "fill_in_the_blank",
-      "question": "The regulators ________ (warn) that the deal might create a monopoly.",
-      "answer": "warned",
-      "explanation": "Reporting verb 'warn' for potential problems."
+      "type": "fillBlanks",
+      "explanation": "Reporting verb 'warn' for potential problems.",
+      "prompt": "The regulators ________ (warn) that the deal might create a monopoly.",
+      "answers": [
+        "warned"
+      ]
     },
     {
       "id": "finance-b2-w7-q17",
-      "type": "multiple_choice",
-      "question": "What is 'Valuation' in M&A?",
+      "type": "multipleChoice",
       "options": [
         "The process of hiring new staff",
         "The process of determining the current worth of an asset or company",
         "The legal paperwork for a merger",
         "The marketing plan for the new company"
       ],
-      "answer": "The process of determining the current worth of an asset or company",
-      "explanation": "Various methods like DCF (Discounted Cash Flow) are used for valuation."
+      "explanation": "Various methods like DCF (Discounted Cash Flow) are used for valuation.",
+      "answerIndex": 1,
+      "prompt": "What is 'Valuation' in M&A?"
     },
     {
       "id": "finance-b2-w7-q18",
-      "type": "fill_in_the_blank",
-      "question": "Analysts ________ (predict) a surge in M&A activity next year.",
-      "answer": "predict",
-      "explanation": "Reporting verb for future expectations."
+      "type": "fillBlanks",
+      "explanation": "Reporting verb for future expectations.",
+      "prompt": "Analysts ________ (predict) a surge in M&A activity next year.",
+      "answers": [
+        "predict"
+      ]
     },
     {
       "id": "finance-b2-w7-q19",
-      "type": "multiple_choice",
-      "question": "A 'Friendly Takeover' is:",
+      "type": "multipleChoice",
       "options": [
         "Approved by the target company's board",
         "Done with no money involved",
         "Only between family businesses",
         "A merger that happens very quickly"
       ],
-      "answer": "Approved by the target company's board",
-      "explanation": "A friendly takeover is an acquisition which is approved by the management of the target company."
+      "explanation": "A friendly takeover is an acquisition which is approved by the management of the target company.",
+      "answerIndex": 0,
+      "prompt": "A 'Friendly Takeover' is:"
     },
     {
       "id": "finance-b2-w7-q20",
-      "type": "fill_in_the_blank",
-      "question": "The audit team ________ (state) that the accounts were accurate.",
-      "answer": "stated",
-      "explanation": "Formal reporting verb."
+      "type": "fillBlanks",
+      "explanation": "Formal reporting verb.",
+      "prompt": "The audit team ________ (state) that the accounts were accurate.",
+      "answers": [
+        "stated"
+      ]
     },
     {
       "id": "finance-b2-w7-q21",
-      "type": "multiple_choice",
-      "question": "A Joint Venture involves two companies creating a ________ for a specific project.",
-      "options": ["New brand", "New legal entity", "New office", "New website"],
-      "answer": "New legal entity",
-      "explanation": "The two companies remain separate while collaborating on the project."
+      "type": "multipleChoice",
+      "options": [
+        "New brand",
+        "New legal entity",
+        "New office",
+        "New website"
+      ],
+      "explanation": "The two companies remain separate while collaborating on the project.",
+      "answerIndex": 1,
+      "prompt": "A Joint Venture involves two companies creating a ________ for a specific project."
     },
     {
       "id": "finance-b2-w7-q22",
-      "type": "fill_in_the_blank",
-      "question": "They ________ (explain) how the synergies would be achieved.",
-      "answer": "explained",
-      "explanation": "Reporting verb for giving details."
+      "type": "fillBlanks",
+      "explanation": "Reporting verb for giving details.",
+      "prompt": "They ________ (explain) how the synergies would be achieved.",
+      "answers": [
+        "explained"
+      ]
     },
     {
       "id": "finance-b2-w7-q23",
-      "type": "multiple_choice",
-      "question": "Which term describes 'buying a company to sell its assets for profit'?",
-      "options": ["Integration", "Asset Stripping", "Synergy", "Divestiture"],
-      "answer": "Asset Stripping",
-      "explanation": "Asset stripping involves selling off a company's assets individually to make a profit."
+      "type": "multipleChoice",
+      "options": [
+        "Integration",
+        "Asset Stripping",
+        "Synergy",
+        "Divestiture"
+      ],
+      "explanation": "Asset stripping involves selling off a company's assets individually to make a profit.",
+      "answerIndex": 1,
+      "prompt": "Which term describes 'buying a company to sell its assets for profit'?"
     },
     {
       "id": "finance-b2-w7-q24",
-      "type": "fill_in_the_blank",
-      "question": "The manager ________ (propose / create) a new task force.",
-      "answer": "proposed creating",
-      "explanation": "Structure: propose + gerund (-ing)."
+      "type": "fillBlanks",
+      "explanation": "Structure: propose + gerund (-ing).",
+      "prompt": "The manager ________ (propose / create) a new task force.",
+      "answers": [
+        "proposed creating"
+      ]
     },
     {
       "id": "finance-b2-w7-q25",
-      "type": "multiple_choice",
-      "question": "What is a 'Target Company'?",
+      "type": "multipleChoice",
       "options": [
         "A company that is being acquired",
         "A company that is buying another",
         "A company that sells archery equipment",
         "A company that has no debt"
       ],
-      "answer": "A company that is being acquired",
-      "explanation": "The target is the focus of the acquirer's attention."
+      "explanation": "The target is the focus of the acquirer's attention.",
+      "answerIndex": 0,
+      "prompt": "What is a 'Target Company'?"
     },
     {
       "id": "finance-b2-w7-q26",
-      "type": "fill_in_the_blank",
-      "question": "The lawyer ________ (point out) that the clause was illegal.",
-      "answer": "pointed out",
-      "explanation": "Reporting verb for highlighting a fact."
+      "type": "fillBlanks",
+      "explanation": "Reporting verb for highlighting a fact.",
+      "prompt": "The lawyer ________ (point out) that the clause was illegal.",
+      "answers": [
+        "pointed out"
+      ]
     },
     {
       "id": "finance-b2-w7-q27",
-      "type": "multiple_choice",
-      "question": "A 'Horizontal Merger' is between companies in:",
+      "type": "multipleChoice",
       "options": [
         "Different industries",
         "The same industry",
         "Different countries",
         "The same building"
       ],
-      "answer": "The same industry",
-      "explanation": "Horizontal mergers aim to increase market share or achieve economies of scale."
+      "explanation": "Horizontal mergers aim to increase market share or achieve economies of scale.",
+      "answerIndex": 1,
+      "prompt": "A 'Horizontal Merger' is between companies in:"
     },
     {
       "id": "finance-b2-w7-q28",
-      "type": "fill_in_the_blank",
-      "question": "The press ________ (report) that the deal had collapsed.",
-      "answer": "reported",
-      "explanation": "General reporting verb."
+      "type": "fillBlanks",
+      "explanation": "General reporting verb.",
+      "prompt": "The press ________ (report) that the deal had collapsed.",
+      "answers": [
+        "reported"
+      ]
     },
     {
       "id": "finance-b2-w7-q29",
-      "type": "multiple_choice",
-      "question": "A 'Vertical Merger' is between companies in:",
+      "type": "multipleChoice",
       "options": [
         "The same industry but different stages of production",
         "Different industries",
         "The same city",
         "Competing markets"
       ],
-      "answer": "The same industry but different stages of production",
-      "explanation": "For example, a car manufacturer merging with a tire manufacturer."
+      "explanation": "For example, a car manufacturer merging with a tire manufacturer.",
+      "answerIndex": 0,
+      "prompt": "A 'Vertical Merger' is between companies in:"
     },
     {
       "id": "finance-b2-w7-q30",
-      "type": "fill_in_the_blank",
-      "question": "He ________ (concede) that the valuation was a bit high.",
-      "answer": "conceded",
-      "explanation": "Reporting verb for admitting something is true (often reluctantly)."
+      "type": "fillBlanks",
+      "explanation": "Reporting verb for admitting something is true (often reluctantly).",
+      "prompt": "He ________ (concede) that the valuation was a bit high.",
+      "answers": [
+        "conceded"
+      ]
     },
     {
       "id": "finance-b2-w7-q31",
-      "type": "multiple_choice",
-      "question": "What is 'Market Cap' (Market Capitalization)?",
+      "type": "multipleChoice",
       "options": [
         "The maximum price of a stock",
         "The total value of a company's outstanding shares",
         "The total amount of cash a company has",
         "The number of employees a company has"
       ],
-      "answer": "The total value of a company's outstanding shares",
-      "explanation": "Market cap is used to determine the size of a company."
+      "explanation": "Market cap is used to determine the size of a company.",
+      "answerIndex": 1,
+      "prompt": "What is 'Market Cap' (Market Capitalization)?"
     },
     {
       "id": "finance-b2-w7-q32",
-      "type": "fill_in_the_blank",
-      "question": "The union ________ (threaten / strike) if the layoffs continued.",
-      "answer": "threatened to strike",
-      "explanation": "Structure: threaten + to-infinitive."
+      "type": "fillBlanks",
+      "explanation": "Structure: threaten + to-infinitive.",
+      "prompt": "The union ________ (threaten / strike) if the layoffs continued.",
+      "answers": [
+        "threatened to strike"
+      ]
     },
     {
       "id": "finance-b2-w7-q33",
-      "type": "multiple_choice",
-      "question": "The 'Acquirer' is the company that:",
+      "type": "multipleChoice",
       "options": [
         "Is being bought",
         "Is doing the buying",
         "Is auditing the deal",
         "Is lending the money"
       ],
-      "answer": "Is doing the buying",
-      "explanation": "The acquirer is the active party in an acquisition."
+      "explanation": "The acquirer is the active party in an acquisition.",
+      "answerIndex": 1,
+      "prompt": "The 'Acquirer' is the company that:"
     },
     {
       "id": "finance-b2-w7-q34",
-      "type": "fill_in_the_blank",
-      "question": "She ________ (remind / me / check) the compliance rules.",
-      "answer": "reminded me to check",
-      "explanation": "Structure: remind + object + to-infinitive."
+      "type": "fillBlanks",
+      "explanation": "Structure: remind + object + to-infinitive.",
+      "prompt": "She ________ (remind / me / check) the compliance rules.",
+      "answers": [
+        "reminded me to check"
+      ]
     },
     {
       "id": "finance-b2-w7-q35",
-      "type": "multiple_choice",
-      "question": "Which of these is a common reason for M&A failure?",
+      "type": "multipleChoice",
       "options": [
         "Cultural clash between companies",
         "Too much synergy",
         "Having a high brand value",
         "Following due diligence too strictly"
       ],
-      "answer": "Cultural clash between companies",
-      "explanation": "Incompatible corporate cultures can derail even the best financial deals."
+      "explanation": "Incompatible corporate cultures can derail even the best financial deals.",
+      "answerIndex": 0,
+      "prompt": "Which of these is a common reason for M&A failure?"
     },
     {
       "id": "finance-b2-w7-q36",
-      "type": "fill_in_the_blank",
-      "question": "The spokesperson ________ (refuse / comment) on the rumors.",
-      "answer": "refused to comment",
-      "explanation": "Structure: refuse + to-infinitive."
+      "type": "fillBlanks",
+      "explanation": "Structure: refuse + to-infinitive.",
+      "prompt": "The spokesperson ________ (refuse / comment) on the rumors.",
+      "answers": [
+        "refused to comment"
+      ]
     },
     {
       "id": "finance-b2-w7-q37",
-      "type": "multiple_choice",
-      "question": "What is 'Post-Merger Integration' (PMI)?",
+      "type": "multipleChoice",
       "options": [
         "The process of starting a new company",
         "The complex process of combining two companies after a merger",
         "The process of filing for taxes",
         "The process of hiring a new CEO"
       ],
-      "answer": "The complex process of combining two companies after a merger",
-      "explanation": "PMI involves systems, staff, and culture."
+      "explanation": "PMI involves systems, staff, and culture.",
+      "answerIndex": 1,
+      "prompt": "What is 'Post-Merger Integration' (PMI)?"
     },
     {
       "id": "finance-b2-w7-q38",
-      "type": "fill_in_the_blank",
-      "question": "Investors ________ (insist / on / see) the full financial data.",
-      "answer": "insisted on seeing",
-      "explanation": "Structure: insist on + gerund (-ing)."
+      "type": "fillBlanks",
+      "explanation": "Structure: insist on + gerund (-ing).",
+      "prompt": "Investors ________ (insist / on / see) the full financial data.",
+      "answers": [
+        "insisted on seeing"
+      ]
     },
     {
       "id": "finance-b2-w7-q39",
-      "type": "multiple_choice",
-      "question": "A 'Conglomerate Merger' is between companies in:",
+      "type": "multipleChoice",
       "options": [
         "Unrelated industries",
         "The same industry",
         "Competing markets",
         "The same supply chain"
       ],
-      "answer": "Unrelated industries",
-      "explanation": "Conglomerates aim to diversify their business portfolio."
+      "explanation": "Conglomerates aim to diversify their business portfolio.",
+      "answerIndex": 0,
+      "prompt": "A 'Conglomerate Merger' is between companies in:"
     },
     {
       "id": "finance-b2-w7-q40",
-      "type": "fill_in_the_blank",
-      "question": "The consultant ________ (advise / the board / reject) the bid.",
-      "answer": "advised the board to reject",
-      "explanation": "Structure: advise + object + to-infinitive."
+      "type": "fillBlanks",
+      "explanation": "Structure: advise + object + to-infinitive.",
+      "prompt": "The consultant ________ (advise / the board / reject) the bid.",
+      "answers": [
+        "advised the board to reject"
+      ]
     },
     {
       "id": "finance-b2-w7-q41",
-      "type": "multiple_choice",
-      "question": "What is 'Cash-on-Hand' in M&A?",
+      "type": "multipleChoice",
       "options": [
         "Money used for daily operations",
         "The total amount of liquid assets available for the acquisition",
         "The physical money in the office safe",
         "Money owed to creditors"
       ],
-      "answer": "The total amount of liquid assets available for the acquisition",
-      "explanation": "Having sufficient cash-on-hand can make a bid more attractive."
+      "explanation": "Having sufficient cash-on-hand can make a bid more attractive.",
+      "answerIndex": 1,
+      "prompt": "What is 'Cash-on-Hand' in M&A?"
     },
     {
       "id": "finance-b2-w7-q42",
-      "type": "fill_in_the_blank",
-      "question": "He ________ (deny) that he had leaked the confidential documents.",
-      "answer": "denied",
-      "explanation": "Reporting verb + that + clause."
+      "type": "fillBlanks",
+      "explanation": "Reporting verb + that + clause.",
+      "prompt": "He ________ (deny) that he had leaked the confidential documents.",
+      "answers": [
+        "denied"
+      ]
     },
     {
       "id": "finance-b2-w7-q43",
-      "type": "multiple_choice",
-      "question": "The 'Premium' in M&A refers to:",
+      "type": "multipleChoice",
       "options": [
         "An insurance payment",
         "The amount paid over the target's current market value",
         "The fee paid to an advisor",
         "The interest rate on a loan"
       ],
-      "answer": "The amount paid over the target's current market value",
-      "explanation": "Acquirers often pay a premium to entice shareholders to sell."
+      "explanation": "Acquirers often pay a premium to entice shareholders to sell.",
+      "answerIndex": 1,
+      "prompt": "The 'Premium' in M&A refers to:"
     },
     {
       "id": "finance-b2-w7-q44",
-      "type": "fill_in_the_blank",
-      "question": "The shareholders ________ (object / to / be) excluded from the vote.",
-      "answer": "objected to being",
-      "explanation": "Structure: object to + gerund (-ing)."
+      "type": "fillBlanks",
+      "explanation": "Structure: object to + gerund (-ing).",
+      "prompt": "The shareholders ________ (object / to / be) excluded from the vote.",
+      "answers": [
+        "objected to being"
+      ]
     },
     {
       "id": "finance-b2-w7-q45",
-      "type": "multiple_choice",
-      "question": "What is 'Economies of Scale'?",
+      "type": "multipleChoice",
       "options": [
         "Measuring a company's weight",
         "Cost advantages obtained by an enterprise due to its scale of operation",
         "The process of scaling up production",
         "The name of a financial regulation"
       ],
-      "answer": "Cost advantages obtained by an enterprise due to its scale of operation",
-      "explanation": "M&A often seeks economies of scale to reduce average costs."
+      "explanation": "M&A often seeks economies of scale to reduce average costs.",
+      "answerIndex": 1,
+      "prompt": "What is 'Economies of Scale'?"
     },
     {
       "id": "finance-b2-w7-q46",
-      "type": "fill_in_the_blank",
-      "question": "Analysts ________ (estimate) that the synergies will save $20 million.",
-      "answer": "estimate",
-      "explanation": "Reporting verb + that + clause."
+      "type": "fillBlanks",
+      "explanation": "Reporting verb + that + clause.",
+      "prompt": "Analysts ________ (estimate) that the synergies will save $20 million.",
+      "answers": [
+        "estimate"
+      ]
     },
     {
       "id": "finance-b2-w7-q47",
-      "type": "multiple_choice",
-      "question": "A 'Spin-off' is a type of:",
-      "options": ["Merger", "Acquisition", "Divestiture", "Joint Venture"],
-      "answer": "Divestiture",
-      "explanation": "A spin-off creates a new independent company by selling or distributing new shares of an existing business or division."
+      "type": "multipleChoice",
+      "options": [
+        "Merger",
+        "Acquisition",
+        "Divestiture",
+        "Joint Venture"
+      ],
+      "explanation": "A spin-off creates a new independent company by selling or distributing new shares of an existing business or division.",
+      "answerIndex": 2,
+      "prompt": "A 'Spin-off' is a type of:"
     },
     {
       "id": "finance-b2-w7-q48",
-      "type": "fill_in_the_blank",
-      "question": "The board ________ (invite / the CEO / explain) his strategy.",
-      "answer": "invited the CEO to explain",
-      "explanation": "Structure: invite + object + to-infinitive."
+      "type": "fillBlanks",
+      "explanation": "Structure: invite + object + to-infinitive.",
+      "prompt": "The board ________ (invite / the CEO / explain) his strategy.",
+      "answers": [
+        "invited the CEO to explain"
+      ]
     },
     {
       "id": "finance-b2-w7-q49",
-      "type": "multiple_choice",
-      "question": "What is 'Anti-trust' law intended to prevent?",
+      "type": "multipleChoice",
       "options": [
         "Monopolies and unfair business practices",
         "Companies from having too much cash",
         "People from quitting their jobs",
         "Companies from hiring foreign workers"
       ],
-      "answer": "Monopolies and unfair business practices",
-      "explanation": "Anti-trust regulators must approve large M&A deals."
+      "explanation": "Anti-trust regulators must approve large M&A deals.",
+      "answerIndex": 0,
+      "prompt": "What is 'Anti-trust' law intended to prevent?"
     },
     {
       "id": "finance-b2-w7-q50",
-      "type": "fill_in_the_blank",
-      "question": "The company ________ (admit / make) several errors in the report.",
-      "answer": "admitted making",
-      "explanation": "Structure: admit + gerund (-ing)."
+      "type": "fillBlanks",
+      "explanation": "Structure: admit + gerund (-ing).",
+      "prompt": "The company ________ (admit / make) several errors in the report.",
+      "answers": [
+        "admitted making"
+      ]
     }
   ]
 }
