@@ -129,7 +129,7 @@ export const localCourseService = {
             id: `${id}-p${idx}`,
             word: p.left || p.term || p.word || '',
             correctMatch: p.right || p.definition || p.match || '',
-            distractors: [],
+            distractors: p.distractors || [],
             points: 1
           }))
         } as any;

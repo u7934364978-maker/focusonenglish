@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useMemo } from 'react';
 import { EvaluationResult } from '@/lib/exercise-types';
 
 interface MatchingRendererProps {
@@ -22,9 +22,40 @@ export default function MatchingRenderer({
   onCheck,
   evaluating
 }: MatchingRendererProps) {
-  const isCollocation = exercise.type === 'collocation-matching' || exercise.type === 'matching';
+  const items = useMemo(() => exercise.pairs || exercise.items || [], [exercise.pairs, exercise.items]);
   const isIdiom = exercise.type === 'idioms-expressions';
-  const items = exercise.pairs || exercise.items || [];
+
+  // Generate options automatically if not provided
+  const autoOptions = useMemo(() => {
+    const allCorrectMatches = items.map((item: any) => 
+      item.correctMatch || item.correctUsage || item.meaning || item.right || item.definition || ''
+    ).filter(Boolean);
+
+    return items.reduce((acc: any, item: any, idx: number) => {
+      if (item.options) return acc;
+
+      const correctMatch = item.correctMatch || item.correctUsage || item.meaning || item.right || item.definition || '';
+      const distractors = item.distractors || [];
+      
+      // Combine correct match for THIS item, correct matches from OTHER items, and distractors
+      const combinedOptions = Array.from(new Set([
+        correctMatch,
+        ...allCorrectMatches,
+        ...distractors
+      ])).filter(Boolean);
+
+      // Shuffle using Fisher-Yates
+      const shuffled = [...combinedOptions];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+
+      const itemId = item.id || item.word || item.idiom || item.left || item.term || `match-${idx}`;
+      acc[itemId] = shuffled;
+      return acc;
+    }, {});
+  }, [items]);
 
   return (
     <div className="space-y-8 animate-in fade-in duration-500">
@@ -62,6 +93,8 @@ export default function MatchingRenderer({
             userAnswer.toLowerCase().trim() === (definition || '').toLowerCase().trim()
           );
 
+          const displayOptions = item.options || autoOptions[itemId];
+
           return (
             <div key={itemId} className="bg-white dark:bg-slate-900 rounded-2xl p-6 border-2 border-slate-100 dark:border-slate-800 shadow-sm transition-all hover:border-yellow-200 dark:hover:border-yellow-900">
               <div className="flex items-start gap-4">
@@ -76,9 +109,9 @@ export default function MatchingRenderer({
                   </div>
 
                   <div className="space-y-3">
-                    {item.options ? (
+                    {displayOptions ? (
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                        {item.options.map((option: string, optIdx: number) => {
+                        {displayOptions.map((option: string, optIdx: number) => {
                           const isSelected = userAnswer === option;
                           const isCorrectOption = option.toLowerCase().trim() === (definition || '').toLowerCase().trim();
                           
