@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What does a 'Cash Flow' statement track?",
+    "options": ["Employee satisfaction", "Inflow and outflow of cash", "The brand value", "Long-term strategy"],
+    "correctAnswer": 1,
+    "explanation": "Cash flow tracks the movement of cash in and out of a business."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "A 'Net Loss' occurs when:",
+    "options": ["Revenue is higher than expenditure", "Expenditure is higher than revenue", "Revenue equals expenditure", "The bank closes the account"],
+    "correctAnswer": 1,
+    "explanation": "If you spend more than you earn, you have a net loss."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "I __________ (invest) in that company if I __________ (be) you.",
+    "correctAnswer": "would invest... were",
+    "explanation": "Second Conditional: 'were' is often used instead of 'was' for all persons in formal hypotheticals."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "What are 'Operating costs'?",
+    "options": ["One-time investments", "Daily costs of running a business", "Taxes on profit", "Shareholder dividends"],
+    "correctAnswer": 1,
+    "explanation": "Operating costs include rent, salaries, and utilities needed to keep the business running."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "If they _______ the price, sales _______ probably decrease.",
+    "options": ["doubled / would", "double / will", "doubling / would", "had doubled / would"],
+    "correctAnswer": 0,
+    "explanation": "Second Conditional for hypothetical future scenarios."
+  }
+]

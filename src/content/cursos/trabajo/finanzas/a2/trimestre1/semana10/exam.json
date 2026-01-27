@@ -1,0 +1,116 @@
+{
+  "title": "Week 10 Final Exam: Credit and Loans",
+  "description": "Assessment on credit card vocabulary and the use of the Present Perfect for experiences.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which term describes the amount of money you owe on your credit card?",
+      "options": [
+        "Credit limit",
+        "Balance",
+        "Installment",
+        "Grace period"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What is the correct past participle of 'apply'?",
+      "options": [
+        "Applyed",
+        "Appling",
+        "Applied",
+        "Applies"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "If you cannot pay your loan, you are said to...",
+      "options": [
+        "Default",
+        "Increase",
+        "Credit",
+        "Score"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "Complete: 'I __________ never taken a loan before.'",
+      "options": [
+        "has",
+        "have",
+        "am",
+        "do"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What are the monthly payments of a loan called?",
+      "options": [
+        "Interests",
+        "Installments",
+        "Scores",
+        "Balances"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "Which of these refers to your reliability as a borrower?",
+      "options": [
+        "Credit score",
+        "Credit limit",
+        "Interest rate",
+        "Grace period"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "Complete: '__________ she ever used this banking app?'",
+      "options": [
+        "Have",
+        "Has",
+        "Is",
+        "Does"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "The time during which no interest is charged on credit card purchases is the...",
+      "options": [
+        "Default period",
+        "Credit period",
+        "Grace period",
+        "Payment period"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q9",
+      "question": "What is the past participle of 'pay'?",
+      "options": [
+        "Payed",
+        "Paid",
+        "Payen",
+        "Pays"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Complete: 'They __________ already signed the mortgage agreement.'",
+      "options": [
+        "have",
+        "has",
+        "are",
+        "been"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

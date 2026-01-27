@@ -94,6 +94,336 @@
       "options": ["integration", "separation", "competition", "isolation"],
       "answerIndex": 0,
       "explanation": "Integration is the process of bringing together two organizations."
+    },
+    {
+      "id": "fin-c1-w18-11",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the agreement was delayed due to unresolved antitrust concerns.",
+      "options": ["finalization", "starting", "meeting", "talking"],
+      "answerIndex": 0,
+      "explanation": "Nominalization of 'finalize': 'finalization'."
+    },
+    {
+      "id": "fin-c1-w18-12",
+      "type": "multipleChoice",
+      "prompt": "A ________ vertical merger occurs between companies at different stages of the same supply chain.",
+      "options": ["Vertical", "Horizontal", "Conglomerate", "Concentric"],
+      "answerIndex": 0,
+      "explanation": "Vertical mergers involve companies in the same industry but at different production levels."
+    },
+    {
+      "id": "fin-c1-w18-13",
+      "type": "multipleChoice",
+      "prompt": "________ is the excess amount paid over the fair market value of the net assets acquired.",
+      "options": ["Goodwill", "Equity", "Liability", "Dividend"],
+      "answerIndex": 0,
+      "explanation": "Goodwill is an intangible asset that arises during an acquisition."
+    },
+    {
+      "id": "fin-c1-w18-14",
+      "type": "multipleChoice",
+      "prompt": "The board's ________ of the hostile bid was met with a 'poison pill' strategy.",
+      "options": ["rejection", "acceptance", "negotiation", "approval"],
+      "answerIndex": 0,
+      "explanation": "Nominalization of 'reject': 'rejection'."
+    },
+    {
+      "id": "fin-c1-w18-15",
+      "type": "multipleChoice",
+      "prompt": "An ________ merger happens when a private company acquires a public company to bypass the IPO process.",
+      "options": ["reverse", "forward", "internal", "external"],
+      "answerIndex": 0,
+      "explanation": "A reverse merger (or reverse takeover) allows a private company to go public more quickly."
+    },
+    {
+      "id": "fin-c1-w18-16",
+      "type": "multipleChoice",
+      "prompt": "Thorough ________ is imperative to identify potential liabilities hidden in the target company's books.",
+      "options": ["scrutiny", "marketing", "promotion", "advertisement"],
+      "answerIndex": 0,
+      "explanation": "'Scrutiny' (nominalization of 'scrutinize') refers to a critical and thorough examination."
+    },
+    {
+      "id": "fin-c1-w18-17",
+      "type": "multipleChoice",
+      "prompt": "The ________ of market share was the primary driver behind the horizontal merger.",
+      "options": ["consolidation", "reduction", "stagnation", "elimination"],
+      "answerIndex": 0,
+      "explanation": "Consolidation refers to the strengthening of market position by combining firms."
+    },
+    {
+      "id": "fin-c1-w18-18",
+      "type": "multipleChoice",
+      "prompt": "The CFO emphasized the importance of ________ in the post-merger phase to realize cost savings.",
+      "options": ["streamlining", "expanding", "diversifying", "hiring"],
+      "answerIndex": 0,
+      "explanation": "'Streamlining' (nominalization of 'streamline') means making a system or organization more efficient."
+    },
+    {
+      "id": "fin-c1-w18-19",
+      "type": "multipleChoice",
+      "prompt": "A ________ buyer is an investor, like a private equity firm, looking for a return on investment rather than strategic fit.",
+      "options": ["financial", "strategic", "retail", "passive"],
+      "answerIndex": 0,
+      "explanation": "Financial buyers focus on cash flow and exit strategies."
+    },
+    {
+      "id": "fin-c1-w18-20",
+      "type": "multipleChoice",
+      "prompt": "The ________ of new operational procedures led to a 15% increase in productivity.",
+      "options": ["implementation", "discussion", "rejection", "delay"],
+      "answerIndex": 0,
+      "explanation": "Nominalization of 'implement': 'implementation'."
+    },
+    {
+      "id": "fin-c1-w18-21",
+      "type": "fillBlanks",
+      "prompt": "Complete the sentence with the nominalized form of 'evaluate': The [evaluation] of the target's assets took three weeks.",
+      "text": "The [evaluation] of the target's assets took three weeks.",
+      "answers": ["evaluation"],
+      "explanation": "Nominalization of evaluate is evaluation."
+    },
+    {
+      "id": "fin-c1-w18-22",
+      "type": "fillBlanks",
+      "prompt": "Complete the term: A hostile [takeover] is an acquisition without the target's board approval.",
+      "text": "A hostile [takeover] is an acquisition without the target's board approval.",
+      "answers": ["takeover"],
+      "explanation": "Takeover is the standard term for an acquisition, especially a hostile one."
+    },
+    {
+      "id": "fin-c1-w18-23",
+      "type": "multipleChoice",
+      "prompt": "Which term describes the process of selling off assets or business units?",
+      "options": ["Divestiture", "Amalgamation", "Capitalization", "Subscription"],
+      "answerIndex": 0,
+      "explanation": "Divestiture is the opposite of an acquisition."
+    },
+    {
+      "id": "fin-c1-w18-24",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the two pharmaceutical giants created the world's largest drug maker.",
+      "options": ["amalgamation", "fragmentation", "dissolution", "segregation"],
+      "answerIndex": 0,
+      "explanation": "Amalgamation is a formal term for the action of combining or uniting."
+    },
+    {
+      "id": "fin-c1-w18-25",
+      "type": "multipleChoice",
+      "prompt": "Upon ________ of the audit, the transaction will be officially closed.",
+      "options": ["completion", "finish", "ending", "stopping"],
+      "answerIndex": 0,
+      "explanation": "Nominalization of 'complete': 'completion'."
+    },
+    {
+      "id": "fin-c1-w18-26",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the board was required before the CEO could proceed with the offer.",
+      "options": ["authorization", "rejection", "denial", "hesitation"],
+      "answerIndex": 0,
+      "explanation": "Nominalization of 'authorize': 'authorization'."
+    },
+    {
+      "id": "fin-c1-w18-27",
+      "type": "multipleChoice",
+      "prompt": "A ________ merger occurs between firms in unrelated business activities.",
+      "options": ["conglomerate", "horizontal", "vertical", "strategic"],
+      "answerIndex": 0,
+      "explanation": "Conglomerate mergers involve companies with no common business interests."
+    },
+    {
+      "id": "fin-c1-w18-28",
+      "type": "multipleChoice",
+      "prompt": "The ________ of synergies is often harder than initially projected during the due diligence phase.",
+      "options": ["realization", "imagination", "rejection", "avoidance"],
+      "answerIndex": 0,
+      "explanation": "Realization (nominalization of 'realize') refers to the actual achievement of something."
+    },
+    {
+      "id": "fin-c1-w18-29",
+      "type": "multipleChoice",
+      "prompt": "The startup was acquired primarily for its ________ property and talented engineering team.",
+      "options": ["intellectual", "physical", "emotional", "spiritual"],
+      "answerIndex": 0,
+      "explanation": "Intellectual property (IP) is a key asset in tech acquisitions."
+    },
+    {
+      "id": "fin-c1-w18-30",
+      "type": "multipleChoice",
+      "prompt": "Formalize: 'They decided to merge because they wanted to dominate the market.'",
+      "options": [
+          "The decision to merge was driven by the desire for market dominance.",
+          "Merging was their way of trying to own the market.",
+          "They merged so they could be the biggest in the market.",
+          "Market dominance was why they decided to do the merger."
+      ],
+      "answerIndex": 0,
+      "explanation": "This version uses nominalization ('decision', 'dominance') effectively."
+    },
+    {
+      "id": "fin-c1-w18-31",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the debt was a prerequisite for the survival of the airline.",
+      "options": ["restructuring", "expansion", "multiplication", "neglect"],
+      "answerIndex": 0,
+      "explanation": "Restructuring (nominalization of 'restructure') is the process of changing the terms of debt."
+    },
+    {
+      "id": "fin-c1-w18-32",
+      "type": "multipleChoice",
+      "prompt": "An ________ buyout involves the management team of a company acquiring the business from its owners.",
+      "options": ["MBO", "LBO", "IPO", "EBO"],
+      "answerIndex": 0,
+      "explanation": "MBO stands for Management Buyout."
+    },
+    {
+      "id": "fin-c1-w18-33",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the subsidiary was completed in record time.",
+      "options": ["liquidation", "promotion", "hiring", "training"],
+      "answerIndex": 0,
+      "explanation": "Liquidation is the process of closing a business and selling its assets."
+    },
+    {
+      "id": "fin-c1-w18-34",
+      "type": "multipleChoice",
+      "prompt": "________ is the process of integrating two companies after a merger.",
+      "options": ["PMI", "LBO", "ROI", "EPS"],
+      "answerIndex": 0,
+      "explanation": "PMI stands for Post-Merger Integration."
+    },
+    {
+      "id": "fin-c1-w18-35",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the two cultures proved to be the biggest challenge for the HR department.",
+      "options": ["alignment", "separation", "isolation", "competition"],
+      "answerIndex": 0,
+      "explanation": "Alignment (nominalization of 'align') is crucial for cultural integration."
+    },
+    {
+      "id": "fin-c1-w18-36",
+      "type": "multipleChoice",
+      "prompt": "A ________ white knight is a friendly investor who rescues a company from a hostile takeover.",
+      "options": ["White knight", "Black knight", "Grey knight", "Red knight"],
+      "answerIndex": 0,
+      "explanation": "The 'White Knight' is a classic term in M&A defense."
+    },
+    {
+      "id": "fin-c1-w18-37",
+      "type": "multipleChoice",
+      "prompt": "Formalize: 'If the merger fails, it will cause a lot of job losses.'",
+      "options": [
+          "The failure of the merger will result in significant job losses.",
+          "Many people will lose their jobs if the merger fails.",
+          "Job losses are going to happen if they don't merge correctly.",
+          "Failing the merger means people lose jobs."
+      ],
+      "answerIndex": 0,
+      "explanation": "Nominalization of 'fail' as 'failure'."
+    },
+    {
+      "id": "fin-c1-w18-38",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the target's financial statements revealed significant irregularities.",
+      "options": ["examination", "promotion", "celebration", "creation"],
+      "answerIndex": 0,
+      "explanation": "Nominalization of 'examine': 'examination'."
+    },
+    {
+      "id": "fin-c1-w18-39",
+      "type": "multipleChoice",
+      "prompt": "Which strategy involves selling a company's profitable assets to make it less attractive to a hostile bidder?",
+      "options": ["Crown jewels defense", "Poison pill", "Golden parachute", "Greenmail"],
+      "answerIndex": 0,
+      "explanation": "The 'Crown Jewels' defense is a common anti-takeover tactic."
+    },
+    {
+      "id": "fin-c1-w18-40",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the new CEO was seen as a sign of a shift in corporate strategy.",
+      "options": ["appointment", "rejection", "denial", "removal"],
+      "answerIndex": 0,
+      "explanation": "Nominalization of 'appoint': 'appointment'."
+    },
+    {
+      "id": "fin-c1-w18-41",
+      "type": "multipleChoice",
+      "prompt": "________ describes the reduction in costs per unit as a result of increased production volume.",
+      "options": ["Economies of scale", "Diseconomies of scale", "Marginal utility", "Opportunity cost"],
+      "answerIndex": 0,
+      "explanation": "Economies of scale are a major driver of horizontal mergers."
+    },
+    {
+      "id": "fin-c1-w18-42",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the legal documents took longer than expected due to their complexity.",
+      "options": ["drafting", "reading", "signing", "printing"],
+      "answerIndex": 0,
+      "explanation": "'Drafting' (nominalization of 'draft') is the process of writing the first version of a legal document."
+    },
+    {
+      "id": "fin-c1-w18-43",
+      "type": "multipleChoice",
+      "prompt": "A ________ is a payment made to shareholders from the company's earnings.",
+      "options": ["dividend", "premium", "royalty", "commission"],
+      "answerIndex": 0,
+      "explanation": "Dividends are often part of the discussion during restructuring or mergers."
+    },
+    {
+      "id": "fin-c1-w18-44",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the brand identity was a key part of the post-merger strategy.",
+      "options": ["rejuvenation", "elimination", "separation", "stagnation"],
+      "answerIndex": 0,
+      "explanation": "Nominalization of 'rejuvenate': 'rejuvenation'."
+    },
+    {
+      "id": "fin-c1-w18-45",
+      "type": "multipleChoice",
+      "prompt": "An ________ valuation is used to determine the fair price of a company during M&A.",
+      "options": ["independent", "biased", "internal", "random"],
+      "answerIndex": 0,
+      "explanation": "Independent valuations ensure fairness for both parties."
+    },
+    {
+      "id": "fin-c1-w18-46",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the risk was a major factor in the decision to proceed.",
+      "options": ["assessment", "denial", "creation", "expansion"],
+      "answerIndex": 0,
+      "explanation": "Nominalization of 'assess': 'assessment'."
+    },
+    {
+      "id": "fin-c1-w18-47",
+      "type": "multipleChoice",
+      "prompt": "________ refers to the process of combining several small companies into a larger entity.",
+      "options": ["Roll-up", "Break-up", "Spin-off", "Carve-out"],
+      "answerIndex": 0,
+      "explanation": "A roll-up strategy is common in fragmented industries."
+    },
+    {
+      "id": "fin-c1-w18-48",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the project was hindered by a lack of capital.",
+      "options": ["commencement", "ending", "middle", "stopping"],
+      "answerIndex": 0,
+      "explanation": "Nominalization of 'commence': 'commencement'."
+    },
+    {
+      "id": "fin-c1-w18-49",
+      "type": "multipleChoice",
+      "prompt": "A ________ is a type of divestiture where a company creates a new independent company by selling shares of a subsidiary.",
+      "options": ["spin-off", "merger", "acquisition", "joint venture"],
+      "answerIndex": 0,
+      "explanation": "Spin-offs are common restructuring tools."
+    },
+    {
+      "id": "fin-c1-w18-50",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the board's fiduciary duty led to a massive lawsuit from shareholders.",
+      "options": ["breach", "fulfillment", "neglect", "observance"],
+      "answerIndex": 0,
+      "explanation": "A 'breach' (nominalization of 'break') of fiduciary duty is a serious legal matter."
     }
   ]
 }

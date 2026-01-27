@@ -1,7 +1,41 @@
-{
-  "goal": "finanzas", "level": "A2", "trimester": 2, "weekId": "semana20", "examId": "fin-a2-w20-exam",
-  "title": "Examen: Semana 20",
-  "items": [
-    { "id": "fin-a2-w20-exam-1", "type": "multipleChoice", "prompt": "Exam question for A2 week 20.", "options": ["Yes", "No"], "answerIndex": 0 }
-  ]
-}
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "Which one is the 'local currency' in Japan?",
+    "options": ["Dollar", "Euro", "Yen", "Pound"],
+    "correctAnswer": 2,
+    "explanation": "The Yen is the local currency of Japan."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "What happens if the exchange rate is 'low' for your currency?",
+    "options": ["You get more foreign money", "You get less foreign money", "It doesn't change anything", "You pay no fees"],
+    "correctAnswer": 1,
+    "explanation": "A low exchange rate means your money is worth less in the other currency."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "This is the __________ (bad) exchange rate I have seen.",
+    "correctAnswer": "worst",
+    "explanation": "The superlative of 'bad' is 'worst'."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "What is an 'ATM' in British English?",
+    "options": ["Banker", "Cash machine", "Coin box", "Safe"],
+    "correctAnswer": 1,
+    "explanation": "In British English, an ATM is commonly called a 'Cash machine'."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "Using your card abroad usually involves a _______.",
+    "options": ["Gift", "Fee", "Profit", "Bonus"],
+    "correctAnswer": 1,
+    "explanation": "Banks usually charge a 'fee' (comisión) for using cards in other countries."
+  }
+]

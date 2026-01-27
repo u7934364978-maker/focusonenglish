@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is 'Teamwork'?",
+    "options": ["Trabajo solo", "Trabajo en equipo", "Trabajo duro", "Trabajo en casa"],
+    "correctAnswer": 1,
+    "explanation": "'Teamwork' means working together with others."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "I __________ (work) in customer service for two years.",
+    "correctAnswer": "have worked",
+    "explanation": "We use 'have' + past participle 'worked' for the Present Perfect."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "If you work 40 hours a week, it is a ________ job.",
+    "options": ["Part-time", "Temporary", "Full-time", "Free"],
+    "correctAnswer": 2,
+    "explanation": "Full-time usually means working the standard amount of hours (e.g., 40)."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the term with its meaning:",
+    "pairs": [
+      { "left": "Hire", "right": "Give a job" },
+      { "left": "Skills", "right": "Abilities" },
+      { "left": "Salary", "right": "Payment for work" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "Has he ________ an interview yet?",
+    "options": ["had", "has", "have", "having"],
+    "correctAnswer": 0,
+    "explanation": "In Present Perfect, we use the past participle of the verb. The past participle of 'have' is 'had'."
+  }
+]

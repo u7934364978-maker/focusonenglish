@@ -1,6 +1,24 @@
 {
-  "title": "Topic for Week 18 (A1)",
-  "sections": [{ "id": "v", "title": "Vocabulary", "content": "Basic financial terms for level A1." }],
-  "objectives": ["Learn basic terms"],
-  "keyTerms": []
+  "title": "Compras y Pagos",
+  "sections": [
+    {
+      "id": "shopping-vocab",
+      "title": "Vocabulario de Compras",
+      "content": "Palabras para ir a comprar.\n\n- **Buy**: Comprar\n- **Pay**: Pagar\n- **Cash**: Efectivo\n- **Credit Card**: Tarjeta de crédito\n- **Receipt**: Recibo / Ticket\n- **Change**: Cambio (lo que te devuelven)\n- **Cost**: Costar"
+    },
+    {
+      "id": "grammar-payments",
+      "title": "Gramática: Presente Simple",
+      "content": "Usamos el presente simple para acciones habituales al pagar.\n\n- I **pay** by card. (Pago con tarjeta)\n- He **pays** in cash. (Él paga en efectivo)\n- We **buy** food every week. (Compramos comida cada semana)\n- They **don't have** a receipt. (No tienen recibo)"
+    }
+  ],
+  "objectives": [
+    "Aprender verbos básicos de transacciones",
+    "Diferenciar métodos de pago (cash vs card)",
+    "Entender el concepto de 'change' y 'receipt'"
+  ],
+  "keyTerms": [
+    { "term": "Cash", "definition": "Money in the form of coins or notes." },
+    { "term": "Receipt", "definition": "A piece of paper that proves you have paid for something." }
+  ]
 }

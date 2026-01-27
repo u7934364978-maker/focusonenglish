@@ -1,7 +1,41 @@
-{
-  "goal": "finanzas", "level": "B1", "trimester": 2, "weekId": "semana20", "examId": "fin-b1-w20-exam",
-  "title": "Examen: Semana 20",
-  "items": [
-    { "id": "fin-b1-w20-exam-1", "type": "multipleChoice", "prompt": "Final question for week 20.", "options": ["True", "False"], "answerIndex": 0, "explanation": "Final check." }
-  ]
-}
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is the purpose of an 'Audit trail'?",
+    "options": ["To find new customers", "To track all financial transactions and changes", "To pay taxes automatically", "To calculate interest"],
+    "correctAnswer": 1,
+    "explanation": "An audit trail provides a step-by-step record by which financial data can be traced to their source."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "What does 'KYC' require banks to do?",
+    "options": ["Lower interest rates", "Identify and verify their clients", "Lend money to everyone", "Hire more staff"],
+    "correctAnswer": 1,
+    "explanation": "KYC (Know Your Customer) requires verifying the identity of clients to prevent fraud."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "The manager said that we __________ (have to) update the records.",
+    "correctAnswer": "had to",
+    "explanation": "In Reported Speech, 'must' or 'have to' usually becomes 'had to'."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "If a bank ignores regulations, it may face a heavy _______.",
+    "options": ["Bonus", "Penalty", "Profit", "Reward"],
+    "correctAnswer": 1,
+    "explanation": "Ignoring regulations leads to penalties or fines."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "He asked if the compliance team _______ the report.",
+    "options": ["finish", "had finished", "finishing", "will finish"],
+    "correctAnswer": 1,
+    "explanation": "Reporting a question about a past action uses Past Perfect in Reported Speech."
+  }
+]

@@ -1,7 +1,404 @@
 {
-  "goal": "finanzas", "level": "B1", "trimester": 2, "weekId": "semana18",
-  "title": "Ejercicios: Semana 18",
+  "goal": "finanzas",
+  "level": "B1",
+  "trimester": 2,
+  "weekId": "semana18",
+  "title": "Ejercicios: Ahorro e Inversión",
   "items": [
-    { "id": "fin-b1-w18-1", "type": "multipleChoice", "prompt": "Complete the exercise for week 18.", "options": ["Correct", "Wrong", "Maybe", "No"], "answerIndex": 0, "explanation": "This is a placeholder exercise." }
+    {
+      "id": "fin-b1-w18-1",
+      "type": "multipleChoice",
+      "prompt": "If you ________ money every month, you will have a large fund in the future.",
+      "options": ["save", "will save", "saved", "saving"],
+      "answerIndex": 0,
+      "explanation": "First conditional: 'If' + Present Simple."
+    },
+    {
+      "id": "fin-b1-w18-2",
+      "type": "multipleChoice",
+      "prompt": "The bank pays ________ on the money in your savings account.",
+      "options": ["interest", "rent", "tax", "bills"],
+      "answerIndex": 0,
+      "explanation": "Interest is the money the bank pays you for keeping your money with them."
+    },
+    {
+      "id": "fin-b1-w18-3",
+      "type": "multipleChoice",
+      "prompt": "If the interest rate rises, your savings ________ more money.",
+      "options": ["will earn", "earn", "earned", "earning"],
+      "answerIndex": 0,
+      "explanation": "First conditional: 'will' + verb for the result clause."
+    },
+    {
+      "id": "fin-b1-w18-4",
+      "type": "multipleChoice",
+      "prompt": "Investing in ________ means buying a part of a company.",
+      "options": ["stocks", "bonds", "cash", "loans"],
+      "answerIndex": 0,
+      "explanation": "Stocks (or shares) represent ownership in a company."
+    },
+    {
+      "id": "fin-b1-w18-5",
+      "type": "multipleChoice",
+      "prompt": "High-risk investments usually offer a higher ________.",
+      "options": ["return", "loss", "price", "cost"],
+      "answerIndex": 0,
+      "explanation": "Return is the profit you make from an investment."
+    },
+    {
+      "id": "fin-b1-w18-6",
+      "type": "multipleChoice",
+      "prompt": "If you invest in bonds, the government ________ you back with interest.",
+      "options": ["will pay", "pay", "paid", "paying"],
+      "answerIndex": 0,
+      "explanation": "First conditional result: 'will pay'."
+    },
+    {
+      "id": "fin-b1-w18-7",
+      "type": "multipleChoice",
+      "prompt": "A ________ account is good for money you don't need to spend immediately.",
+      "options": ["savings", "checking", "current", "plastic"],
+      "answerIndex": 0,
+      "explanation": "Savings accounts are for accumulating money over time."
+    },
+    {
+      "id": "fin-b1-w18-8",
+      "type": "multipleChoice",
+      "prompt": "If you ________ all your money in one stock, you will take a big risk.",
+      "options": ["put", "will put", "putting", "puts"],
+      "answerIndex": 0,
+      "explanation": "First conditional 'if' clause: Present Simple."
+    },
+    {
+      "id": "fin-b1-w18-9",
+      "type": "multipleChoice",
+      "prompt": "Diversification ________ you if the market goes down.",
+      "options": ["will protect", "protect", "protected", "protecting"],
+      "answerIndex": 0,
+      "explanation": "First conditional result: 'will protect'."
+    },
+    {
+      "id": "fin-b1-w18-10",
+      "type": "multipleChoice",
+      "prompt": "The ________ interest is when you earn interest on your interest.",
+      "options": ["compound", "simple", "complex", "double"],
+      "answerIndex": 0,
+      "explanation": "Compound interest is interest calculated on the principal and accumulated interest."
+    },
+    {
+      "id": "fin-b1-w18-11",
+      "type": "multipleChoice",
+      "prompt": "If you start saving young, you ________ wealthy when you retire.",
+      "options": ["will be", "are", "be", "being"],
+      "answerIndex": 0,
+      "explanation": "First conditional result: 'will be'."
+    },
+    {
+      "id": "fin-b1-w18-12",
+      "type": "multipleChoice",
+      "prompt": "A low-risk investment like a bond is usually ________.",
+      "options": ["safe", "dangerous", "fast", "expensive"],
+      "answerIndex": 0,
+      "explanation": "Low-risk means there is a low chance of losing money."
+    },
+    {
+      "id": "fin-b1-w18-13",
+      "type": "multipleChoice",
+      "prompt": "If the company performs well, the stock price ________.",
+      "options": ["will increase", "increases", "increased", "increasing"],
+      "answerIndex": 0,
+      "explanation": "First conditional result: 'will increase'."
+    },
+    {
+      "id": "fin-b1-w18-14",
+      "type": "multipleChoice",
+      "prompt": "An ________ portfolio should have a mix of different assets.",
+      "options": ["investment", "invention", "invitation", "inspection"],
+      "answerIndex": 0,
+      "explanation": "An investment portfolio is a collection of financial assets."
+    },
+    {
+      "id": "fin-b1-w18-15",
+      "type": "multipleChoice",
+      "prompt": "If you ________ a professional advisor, they will help you choose.",
+      "options": ["hire", "will hire", "hiring", "hired"],
+      "answerIndex": 0,
+      "explanation": "First conditional 'if' clause: Present Simple."
+    },
+    {
+      "id": "fin-b1-w18-16",
+      "type": "multipleChoice",
+      "prompt": "The annual percentage ________ (APY) shows how much interest you earn in a year.",
+      "options": ["yield", "yard", "yellow", "yes"],
+      "answerIndex": 0,
+      "explanation": "Yield refers to the earnings generated from an investment."
+    },
+    {
+      "id": "fin-b1-w18-17",
+      "type": "multipleChoice",
+      "prompt": "If you withdraw money early, the bank ________ you a penalty.",
+      "options": ["will charge", "charge", "charged", "charging"],
+      "answerIndex": 0,
+      "explanation": "First conditional result: 'will charge'."
+    },
+    {
+      "id": "fin-b1-w18-18",
+      "type": "multipleChoice",
+      "prompt": "Inflation means that your money ________ less in the future.",
+      "options": ["will buy", "buys", "bought", "buying"],
+      "answerIndex": 0,
+      "explanation": "First conditional (prediction): 'will buy'."
+    },
+    {
+      "id": "fin-b1-w18-19",
+      "type": "multipleChoice",
+      "prompt": "If you ________ to lose money, don't invest in the stock market.",
+      "options": ["don't want", "won't want", "didn't want", "not want"],
+      "answerIndex": 0,
+      "explanation": "Negative present simple in the 'if' clause."
+    },
+    {
+      "id": "fin-b1-w18-20",
+      "type": "multipleChoice",
+      "prompt": "A ________ market is when stock prices are going up.",
+      "options": ["bull", "bear", "cow", "lion"],
+      "answerIndex": 0,
+      "explanation": "A bull market is characterized by rising prices."
+    },
+    {
+      "id": "fin-b1-w18-21",
+      "type": "multipleChoice",
+      "prompt": "If the market ________ down, it will be a bear market.",
+      "options": ["goes", "will go", "go", "going"],
+      "answerIndex": 0,
+      "explanation": "First conditional 'if' clause: 'goes' (third person singular)."
+    },
+    {
+      "id": "fin-b1-w18-22",
+      "type": "multipleChoice",
+      "prompt": "You should check your statement ________ a month.",
+      "options": ["once", "one", "first", "single"],
+      "answerIndex": 0,
+      "explanation": "Once a month means one time per month."
+    },
+    {
+      "id": "fin-b1-w18-23",
+      "type": "multipleChoice",
+      "prompt": "If you ________ dividends, you will get a share of the profits.",
+      "options": ["receive", "will receive", "receiving", "received"],
+      "answerIndex": 0,
+      "explanation": "First conditional 'if' clause: Present Simple."
+    },
+    {
+      "id": "fin-b1-w18-24",
+      "type": "multipleChoice",
+      "prompt": "A ________ investment is one that can be easily converted to cash.",
+      "options": ["liquid", "solid", "gas", "hard"],
+      "answerIndex": 0,
+      "explanation": "Liquidity refers to how quickly an asset can be sold."
+    },
+    {
+      "id": "fin-b1-w18-25",
+      "type": "multipleChoice",
+      "prompt": "If you ________ too much risk, you might lose everything.",
+      "options": ["take", "will take", "taking", "takes"],
+      "answerIndex": 0,
+      "explanation": "First conditional 'if' clause: 'take'."
+    },
+    {
+      "id": "fin-b1-w18-26",
+      "type": "fillBlanks",
+      "text": "If I [save] 100 dollars every month, I [will] have 1,200 dollars in a year. This is a good way to [build] wealth.",
+      "answers": ["save", "will", "build"],
+      "explanation": "First conditional structure and financial vocabulary."
+    },
+    {
+      "id": "fin-b1-w18-27",
+      "type": "fillBlanks",
+      "text": "Stocks have higher [risk] than bonds, but they also have higher potential [return]. If you [diversify], you reduce your risk.",
+      "answers": ["risk", "return", "diversify"],
+      "explanation": "Key investment concepts."
+    },
+    {
+      "id": "fin-b1-w18-28",
+      "type": "multipleChoice",
+      "prompt": "If the bank ________ bankrupt, is my money safe?",
+      "options": ["goes", "will go", "go", "going"],
+      "answerIndex": 0,
+      "explanation": "First conditional 'if' clause: 'goes'."
+    },
+    {
+      "id": "fin-b1-w18-29",
+      "type": "multipleChoice",
+      "prompt": "The federal government ________ your deposits up to $250,000.",
+      "options": ["insures", "insure", "insuring", "insured"],
+      "answerIndex": 0,
+      "explanation": "Present simple: 'The government insures'."
+    },
+    {
+      "id": "fin-b1-w18-30",
+      "type": "multipleChoice",
+      "prompt": "If you ________ interest in a savings account, you will have to pay tax.",
+      "options": ["earn", "will earn", "earning", "earned"],
+      "answerIndex": 0,
+      "explanation": "First conditional 'if' clause: 'earn'."
+    },
+    {
+      "id": "fin-b1-w18-31",
+      "type": "multipleChoice",
+      "prompt": "A ________ is a debt security where you lend money to an organization.",
+      "options": ["bond", "stock", "share", "check"],
+      "answerIndex": 0,
+      "explanation": "Definition of a bond."
+    },
+    {
+      "id": "fin-b1-w18-32",
+      "type": "multipleChoice",
+      "prompt": "If you invest in a start-up, you ________ a lot of money if it succeeds.",
+      "options": ["will make", "make", "made", "making"],
+      "answerIndex": 0,
+      "explanation": "First conditional result: 'will make'."
+    },
+    {
+      "id": "fin-b1-w18-33",
+      "type": "multipleChoice",
+      "prompt": "But you ________ lose everything if the start-up fails.",
+      "options": ["will", "do", "are", "have"],
+      "answerIndex": 0,
+      "explanation": "First conditional result: 'will'."
+    },
+    {
+      "id": "fin-b1-w18-34",
+      "type": "multipleChoice",
+      "prompt": "A certificate of ________ (CD) usually offers a higher interest rate than a regular savings account.",
+      "options": ["deposit", "debt", "delivery", "design"],
+      "answerIndex": 0,
+      "explanation": "CD stands for Certificate of Deposit."
+    },
+    {
+      "id": "fin-b1-w18-35",
+      "type": "multipleChoice",
+      "prompt": "If you ________ money from your CD before it matures, you will pay a fee.",
+      "options": ["take", "will take", "taking", "taken"],
+      "answerIndex": 0,
+      "explanation": "First conditional 'if' clause: 'take'."
+    },
+    {
+      "id": "fin-b1-w18-36",
+      "type": "fillBlanks",
+      "text": "Compound [interest] is very powerful. If you [leave] your money for many years, it [will] grow significantly.",
+      "answers": ["interest", "leave", "will"],
+      "explanation": "First conditional and compound interest."
+    },
+    {
+      "id": "fin-b1-w18-37",
+      "type": "multipleChoice",
+      "prompt": "An 'emergency ________' is money saved for unexpected expenses.",
+      "options": ["fund", "find", "food", "fold"],
+      "answerIndex": 0,
+      "explanation": "An emergency fund is a financial safety net."
+    },
+    {
+      "id": "fin-b1-w18-38",
+      "type": "multipleChoice",
+      "prompt": "If you ________ an emergency fund, you won't need to borrow money when your car breaks down.",
+      "options": ["have", "will have", "having", "had"],
+      "answerIndex": 0,
+      "explanation": "First conditional 'if' clause: 'have'."
+    },
+    {
+      "id": "fin-b1-w18-39",
+      "type": "multipleChoice",
+      "prompt": "I ________ open a savings account if the bank offers a bonus.",
+      "options": ["will", "do", "am", "have"],
+      "answerIndex": 0,
+      "explanation": "First conditional result: 'will'."
+    },
+    {
+      "id": "fin-b1-w18-40",
+      "type": "multipleChoice",
+      "prompt": "The 'principal' is the ________ amount of money you invest.",
+      "options": ["original", "last", "extra", "wrong"],
+      "answerIndex": 0,
+      "explanation": "Principal is the initial sum of money invested or borrowed."
+    },
+    {
+      "id": "fin-b1-w18-41",
+      "type": "reorder",
+      "sentences": ["save", "I", "If", "money", "I", "buy", "will", "a", "car"],
+      "correctOrder": [2, 1, 0, 3, 4, 6, 5, 7, 8],
+      "explanation": "Correct order: 'If I save money I will buy a car'."
+    },
+    {
+      "id": "fin-b1-w18-42",
+      "type": "reorder",
+      "sentences": ["The", "rate", "interest", "is", "high"],
+      "correctOrder": [0, 2, 1, 3, 4],
+      "explanation": "Correct order: 'The interest rate is high'."
+    },
+    {
+      "id": "fin-b1-w18-43",
+      "type": "multipleChoice",
+      "prompt": "If you ________ too much, you won't have any savings.",
+      "options": ["spend", "will spend", "spending", "spent"],
+      "answerIndex": 0,
+      "explanation": "First conditional 'if' clause: 'spend'."
+    },
+    {
+      "id": "fin-b1-w18-44",
+      "type": "multipleChoice",
+      "prompt": "Mutual ________ allow you to invest in many stocks at once.",
+      "options": ["funds", "friends", "fees", "fixes"],
+      "answerIndex": 0,
+      "explanation": "A mutual fund is an investment program funded by shareholders."
+    },
+    {
+      "id": "fin-b1-w18-45",
+      "type": "multipleChoice",
+      "prompt": "If you ________ a mutual fund, you will have a diversified portfolio.",
+      "options": ["buy", "will buy", "buying", "bought"],
+      "answerIndex": 0,
+      "explanation": "First conditional 'if' clause: 'buy'."
+    },
+    {
+      "id": "fin-b1-w18-46",
+      "type": "multipleChoice",
+      "prompt": "The stock market can be very ________, meaning prices change quickly.",
+      "options": ["volatile", "stable", "slow", "cheap"],
+      "answerIndex": 0,
+      "explanation": "Volatility refers to the tendency of a market to change quickly and unpredictably."
+    },
+    {
+      "id": "fin-b1-w18-47",
+      "type": "multipleChoice",
+      "prompt": "If the economy ________, the stock market usually goes up.",
+      "options": ["grows", "will grow", "grow", "growing"],
+      "answerIndex": 0,
+      "explanation": "First conditional 'if' clause: 'grows'."
+    },
+    {
+      "id": "fin-b1-w18-48",
+      "type": "multipleChoice",
+      "prompt": "You ________ need to pay commission when you buy stocks.",
+      "options": ["will", "are", "do", "have"],
+      "answerIndex": 0,
+      "explanation": "First conditional result: 'will'."
+    },
+    {
+      "id": "fin-b1-w18-49",
+      "type": "multipleChoice",
+      "prompt": "________ is when you sell an asset for more than you paid for it.",
+      "options": ["Capital gain", "Capital loss", "Capital city", "Capital letter"],
+      "answerIndex": 0,
+      "explanation": "Capital gain is the profit from the sale of an asset."
+    },
+    {
+      "id": "fin-b1-w18-50",
+      "type": "multipleChoice",
+      "prompt": "If I have a capital gain, I ________ be very happy.",
+      "options": ["will", "do", "am", "have"],
+      "answerIndex": 0,
+      "explanation": "First conditional result: 'will'."
+    }
   ]
 }

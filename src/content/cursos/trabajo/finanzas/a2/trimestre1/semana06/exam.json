@@ -1,0 +1,60 @@
+{
+  "title": "Examen: Servicio al Cliente y Adverbios",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is a 'Refund'?",
+      "options": [
+        "A formal complaint to the manager",
+        "Money given back to a customer",
+        "An error in a bank document",
+        "A delay in a wire transfer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un 'refund' es la devolución de dinero."
+    },
+    {
+      "id": "q2",
+      "question": "Where do you place the adverb of frequency with the verb 'To Be'?",
+      "options": [
+        "Before the verb (e.g., I always am)",
+        "After the verb (e.g., I am always)",
+        "At the end of the sentence",
+        "At the beginning of the sentence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Con el verbo 'to be', el adverbio va después (I am always)."
+    },
+    {
+      "id": "q3",
+      "question": "If something happens 0% of the time, which adverb do you use?",
+      "options": ["Always", "Sometimes", "Rarely", "Never"],
+      "correctAnswer": 3,
+      "explanation": "0% de frecuencia es 'never'."
+    },
+    {
+      "id": "q4",
+      "question": "What should you do if there is a 'mistake' on your bank statement?",
+      "options": [
+        "Ignore it",
+        "Make a complaint",
+        "Always pay it",
+        "Apologize to the bank"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Si hay un error, debes hacer una reclamación (make a complaint)."
+    },
+    {
+      "id": "q5",
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "I check often my balance.",
+        "I often check my balance.",
+        "Check I often my balance.",
+        "Often I checking my balance."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El adverbio va antes del verbo principal (often check)."
+    }
+  ]
+}

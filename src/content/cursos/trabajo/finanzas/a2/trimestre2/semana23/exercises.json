@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "Which word is for 'dinero que entra'?",
+    "options": ["Expenses", "Income", "Loss", "Debt"],
+    "correctAnswer": 1,
+    "explanation": "'Income' refers to the money you receive (e.g., salary)."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "If it rains, I __________ (not go) to the bank.",
+    "correctAnswer": "won't go",
+    "explanation": "First Conditional: If + Present, Will."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "A personal loan usually has ________.",
+    "options": ["No cost", "Interest", "A gift", "No rules"],
+    "correctAnswer": 1,
+    "explanation": "Most loans require you to pay back the money plus 'interest'."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the opposites:",
+    "pairs": [
+      { "left": "Borrow", "right": "Lend" },
+      { "left": "Save", "right": "Spend" },
+      { "left": "Profit", "right": "Loss" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "Have you ________ the documents yet?",
+    "options": ["sign", "signing", "signed", "signs"],
+    "correctAnswer": 2,
+    "explanation": "Present Perfect: Have + Past Participle ('signed')."
+  }
+]

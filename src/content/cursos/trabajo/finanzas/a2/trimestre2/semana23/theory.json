@@ -1,0 +1,24 @@
+{
+  "title": "Repaso del Segundo Trimestre",
+  "sections": [
+    {
+      "id": "review-vocab",
+      "title": "Repaso de Vocabulario",
+      "content": "Resumen de los términos clave de las últimas semanas:\n\n- **Savings & Budgeting**: Income, Expenses, Goal, Save, Spend.\n- **Loans & Insurance**: Debt, Interest, Installment, Coverage, Claim.\n- **Digital & Travel**: App, Security, Exchange rate, Currency, Fee.\n- **Investing & Career**: Stock, Risk, Profit, Skills, Experience."
+    },
+    {
+      "id": "review-grammar",
+      "title": "Repaso de Gramática",
+      "content": "Estructuras principales aprendidas:\n\n- **Going to**: Planes e intenciones.\n- **Will**: Promesas y predicciones.\n- **First Conditional**: Situaciones reales y sus consecuencias.\n- **Comparatives & Superlatives**: Comparar productos y servicios.\n- **Must / Mustn't**: Obligación y prohibición.\n- **Present Perfect**: Experiencia laboral."
+    }
+  ],
+  "objectives": [
+    "Consolidar el vocabulario financiero de nivel A2",
+    "Repasar todas las estructuras gramaticales del trimestre",
+    "Prepararse para el examen final del trimestre"
+  ],
+  "keyTerms": [
+    { "term": "Review", "definition": "The process of studying something again to remember it or understand it better." },
+    { "term": "Assessment", "definition": "A test or evaluation of what you have learned." }
+  ]
+}

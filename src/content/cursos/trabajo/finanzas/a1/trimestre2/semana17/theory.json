@@ -1,6 +1,24 @@
 {
-  "title": "Topic for Week 17 (A1)",
-  "sections": [{ "id": "v", "title": "Vocabulary", "content": "Basic financial terms for level A1." }],
-  "objectives": ["Learn basic terms"],
-  "keyTerms": []
+  "title": "Números y Dinero",
+  "sections": [
+    {
+      "id": "numbers",
+      "title": "Números Grandes",
+      "content": "Aprender a decir cantidades de dinero.\n\n- **100**: One hundred\n- **200**: Two hundred\n- **1,000**: One thousand\n- **5,000**: Five thousand\n- **10,000**: Ten thousand\n- **1,000,000**: One million"
+    },
+    {
+      "id": "money",
+      "title": "Monedas y Precios",
+      "content": "Cómo preguntar cuánto cuesta algo.\n\n- **Currency**: Moneda\n- **Dollar ($)**: Dólar\n- **Euro (€)**: Euro\n- **Pound (£)**: Libra\n- **Cent / Penny**: Céntimo\n- **How much is it?**: ¿Cuánto cuesta?\n- **It is...**: Cuesta..."
+    }
+  ],
+  "objectives": [
+    "Contar hasta un millón en inglés",
+    "Identificar las principales monedas del mundo",
+    "Preguntar precios de forma sencilla"
+  ],
+  "keyTerms": [
+    { "term": "Thousand", "definition": "The number 1,000." },
+    { "term": "Price", "definition": "The amount of money you pay for something." }
+  ]
 }

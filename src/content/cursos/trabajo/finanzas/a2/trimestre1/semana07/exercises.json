@@ -1,0 +1,385 @@
+{
+  "goal": "finanzas",
+  "level": "A2",
+  "trimester": 1,
+  "weekId": "semana07",
+  "title": "Cajeros Automáticos y Seguridad",
+  "items": [
+    {
+      "id": "fin-a2-w07-1",
+      "type": "multipleChoice",
+      "prompt": "You ______ share your PIN with anyone.",
+      "options": ["must", "mustn't", "can"],
+      "answerIndex": 1,
+      "explanation": "No debes compartir tu PIN (prohibición)."
+    },
+    {
+      "id": "fin-a2-w07-2",
+      "type": "multipleChoice",
+      "prompt": "You ______ cover the keypad when you enter your code.",
+      "options": ["must", "mustn't", "couldn't"],
+      "answerIndex": 0,
+      "explanation": "Debes cubrir el teclado (obligación de seguridad)."
+    },
+    {
+      "id": "fin-a2-w07-3",
+      "type": "multipleChoice",
+      "prompt": "I want to ______ $200 from the ATM.",
+      "options": ["withdraw", "deposit", "scam"],
+      "answerIndex": 0,
+      "explanation": "Retirar dinero se dice 'withdraw'."
+    },
+    {
+      "id": "fin-a2-w07-4",
+      "type": "multipleChoice",
+      "prompt": "That man is acting ______. Don't use that machine.",
+      "options": ["suspicious", "secure", "easy"],
+      "answerIndex": 0,
+      "explanation": "Sospechoso se dice 'suspicious'."
+    },
+    {
+      "id": "fin-a2-w07-5",
+      "type": "multipleChoice",
+      "prompt": "You ______ report a lost card immediately.",
+      "options": ["must", "mustn't", "don't"],
+      "answerIndex": 0,
+      "explanation": "Debes reportar la tarjeta perdida (obligación)."
+    },
+    {
+      "id": "fin-a2-w07-6",
+      "type": "fillBlanks",
+      "prompt": "Please [blank] your PIN on the keypad.",
+      "answers": ["enter", "type"],
+      "explanation": "Introduzca su PIN en el teclado."
+    },
+    {
+      "id": "fin-a2-w07-7",
+      "type": "fillBlanks",
+      "prompt": "I need to [blank] this check into my account.",
+      "answers": ["deposit"],
+      "explanation": "Necesito depositar este cheque."
+    },
+    {
+      "id": "fin-a2-w07-8",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "You must protect your secret code",
+      "explanation": "Debes proteger tu código secreto."
+    },
+    {
+      "id": "fin-a2-w07-9",
+      "type": "multipleChoice",
+      "prompt": "______ surfing is a common way to steal PINs.",
+      "options": ["Shoulder", "Head", "Hand"],
+      "answerIndex": 0,
+      "explanation": "Shoulder surfing (mirar por encima del hombro)."
+    },
+    {
+      "id": "fin-a2-w07-10",
+      "type": "multipleChoice",
+      "prompt": "This ATM looks like a ______. There is a strange device on it.",
+      "options": ["scam", "secure", "bank"],
+      "answerIndex": 0,
+      "explanation": "Parece una estafa (scam)."
+    },
+    {
+      "id": "fin-a2-w07-11",
+      "type": "fillBlanks",
+      "prompt": "You [blank] write your PIN on the card.",
+      "answers": ["mustn't"],
+      "explanation": "No debes escribir tu PIN en la tarjeta."
+    },
+    {
+      "id": "fin-a2-w07-12",
+      "type": "multipleChoice",
+      "prompt": "I ______ pay my credit card bill today. It's the deadline.",
+      "options": ["must", "mustn't", "can't"],
+      "answerIndex": 0,
+      "explanation": "Debo pagar (obligación por fecha límite)."
+    },
+    {
+      "id": "fin-a2-w07-13",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Do not use suspicious machines",
+      "explanation": "No uses máquinas sospechosas."
+    },
+    {
+      "id": "fin-a2-w07-14",
+      "type": "multipleChoice",
+      "prompt": "You ______ be careful with your personal data.",
+      "options": ["must", "mustn't", "won't"],
+      "answerIndex": 0,
+      "explanation": "Debes tener cuidado."
+    },
+    {
+      "id": "fin-a2-w07-15",
+      "type": "fillBlanks",
+      "prompt": "The [blank] is a four-digit number.",
+      "answers": ["PIN"],
+      "explanation": "El PIN es un número de cuatro dígitos."
+    },
+    {
+      "id": "fin-a2-w07-16",
+      "type": "multipleChoice",
+      "prompt": "Wait! You ______ leave your receipt in the ATM.",
+      "options": ["mustn't", "must", "can"],
+      "answerIndex": 0,
+      "explanation": "No debes dejar tu recibo en el cajero."
+    },
+    {
+      "id": "fin-a2-w07-17",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I want to deposit some cash",
+      "explanation": "Quiero depositar algo de efectivo."
+    },
+    {
+      "id": "fin-a2-w07-18",
+      "type": "multipleChoice",
+      "prompt": "Is this machine ______?",
+      "options": ["secure", "suspicious", "scam"],
+      "answerIndex": 0,
+      "explanation": "¿Es segura (secure) esta máquina?"
+    },
+    {
+      "id": "fin-a2-w07-19",
+      "type": "fillBlanks",
+      "prompt": "Always [blank] your hand when typing the code.",
+      "answers": ["cover", "hide"],
+      "explanation": "Cubre siempre tu mano al teclear el código."
+    },
+    {
+      "id": "fin-a2-w07-20",
+      "type": "multipleChoice",
+      "prompt": "You ______ look at other people's PINs.",
+      "options": ["mustn't", "must", "could"],
+      "answerIndex": 0,
+      "explanation": "No debes mirar los PINs de otras personas."
+    },
+    {
+      "id": "fin-a2-w07-21",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "Can I withdraw money here?",
+      "explanation": "¿Puedo retirar dinero aquí?"
+    },
+    {
+      "id": "fin-a2-w07-22",
+      "type": "fillBlanks",
+      "prompt": "The ATM [blank] my card.",
+      "answers": ["swallowed", "took"],
+      "explanation": "El cajero se tragó mi tarjeta."
+    },
+    {
+      "id": "fin-a2-w07-23",
+      "type": "multipleChoice",
+      "prompt": "You ______ keep your card in a safe place.",
+      "options": ["must", "mustn't", "doesn't"],
+      "answerIndex": 0,
+      "explanation": "Debes guardar tu tarjeta en un lugar seguro."
+    },
+    {
+      "id": "fin-a2-w07-24",
+      "type": "fillBlanks",
+      "prompt": "Don't [blank] any help from strangers.",
+      "answers": ["accept", "take"],
+      "explanation": "No aceptes ayuda de extraños."
+    },
+    {
+      "id": "fin-a2-w07-25",
+      "type": "multipleChoice",
+      "prompt": "You ______ let anyone see your screen.",
+      "options": ["mustn't", "must", "can"],
+      "answerIndex": 0,
+      "explanation": "No debes dejar que nadie vea tu pantalla."
+    },
+    {
+      "id": "fin-a2-w07-26",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Check the machine for strange parts",
+      "explanation": "Revisa la máquina por si tiene partes extrañas."
+    },
+    {
+      "id": "fin-a2-w07-27",
+      "type": "multipleChoice",
+      "prompt": "If you see a ______ person, call the police.",
+      "options": ["suspicious", "secure", "happy"],
+      "answerIndex": 0,
+      "explanation": "Si ves a una persona sospechosa..."
+    },
+    {
+      "id": "fin-a2-w07-28",
+      "type": "fillBlanks",
+      "prompt": "I [blank] change my password often.",
+      "answers": ["must", "should"],
+      "explanation": "Debo cambiar mi contraseña a menudo."
+    },
+    {
+      "id": "fin-a2-w07-29",
+      "type": "multipleChoice",
+      "prompt": "You ______ use an ATM in a dark street.",
+      "options": ["mustn't", "must", "always"],
+      "answerIndex": 0,
+      "explanation": "No debes usar un cajero en una calle oscura."
+    },
+    {
+      "id": "fin-a2-w07-30",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "You must be very alert",
+      "explanation": "Debes estar muy alerta."
+    },
+    {
+      "id": "fin-a2-w07-31",
+      "type": "multipleChoice",
+      "prompt": "The ______ of the bank is 24/7.",
+      "options": ["security", "withdraw", "deposit"],
+      "answerIndex": 0,
+      "explanation": "La seguridad del banco es 24/7."
+    },
+    {
+      "id": "fin-a2-w07-32",
+      "type": "fillBlanks",
+      "prompt": "Wait [blank] the money comes out.",
+      "answers": ["until"],
+      "explanation": "Espera hasta que salga el dinero."
+    },
+    {
+      "id": "fin-a2-w07-33",
+      "type": "multipleChoice",
+      "prompt": "You ______ check your bank balance regularly.",
+      "options": ["must", "mustn't", "not"],
+      "answerIndex": 0,
+      "explanation": "Debes revisar tu saldo regularmente."
+    },
+    {
+      "id": "fin-a2-w07-34",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I need to withdraw fifty euros",
+      "explanation": "Necesito retirar cincuenta euros."
+    },
+    {
+      "id": "fin-a2-w07-35",
+      "type": "multipleChoice",
+      "prompt": "Is there a ______ for using this ATM?",
+      "options": ["fee", "scam", "PIN"],
+      "answerIndex": 0,
+      "explanation": "¿Hay alguna comisión (fee) por usar este cajero?"
+    },
+    {
+      "id": "fin-a2-w07-36",
+      "type": "fillBlanks",
+      "prompt": "Don't forget to [blank] your card.",
+      "answers": ["take", "remove"],
+      "explanation": "No olvide llevarse/retirar su tarjeta."
+    },
+    {
+      "id": "fin-a2-w07-37",
+      "type": "multipleChoice",
+      "prompt": "You ______ talk on the phone while using the ATM.",
+      "options": ["mustn't", "must", "always"],
+      "answerIndex": 0,
+      "explanation": "No debes hablar por teléfono (por seguridad/distracción)."
+    },
+    {
+      "id": "fin-a2-w07-38",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The keyboard is very dirty",
+      "explanation": "El teclado está muy sucio."
+    },
+    {
+      "id": "fin-a2-w07-39",
+      "type": "multipleChoice",
+      "prompt": "I am ______ about this transaction.",
+      "options": ["worried", "scam", "withdraw"],
+      "answerIndex": 0,
+      "explanation": "Estoy preocupado por esta transacción."
+    },
+    {
+      "id": "fin-a2-w07-40",
+      "type": "fillBlanks",
+      "prompt": "The [blank] is near the bank entrance.",
+      "answers": ["ATM", "cash machine"],
+      "explanation": "El cajero está cerca de la entrada."
+    },
+    {
+      "id": "fin-a2-w07-41",
+      "type": "multipleChoice",
+      "prompt": "You ______ follow the bank's rules.",
+      "options": ["must", "mustn't", "doesn't"],
+      "answerIndex": 0,
+      "explanation": "Debes seguir las reglas del banco."
+    },
+    {
+      "id": "fin-a2-w07-42",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Hide your wallet in your bag",
+      "explanation": "Esconde tu cartera en tu bolso."
+    },
+    {
+      "id": "fin-a2-w07-43",
+      "type": "multipleChoice",
+      "prompt": "There are ______ in the area.",
+      "options": ["scams", "withdraws", "deposits"],
+      "answerIndex": 0,
+      "explanation": "Hay estafas (scams) en la zona."
+    },
+    {
+      "id": "fin-a2-w07-44",
+      "type": "fillBlanks",
+      "prompt": "I want to [blank] money for my trip.",
+      "answers": ["withdraw", "save"],
+      "explanation": "Quiero retirar/ahorrar dinero para mi viaje."
+    },
+    {
+      "id": "fin-a2-w07-45",
+      "type": "multipleChoice",
+      "prompt": "You ______ use a pen to press the buttons.",
+      "options": ["mustn't", "must", "always"],
+      "answerIndex": 0,
+      "explanation": "No debes usar un bolígrafo para pulsar los botones (puedes dañarlos/dejar marcas)."
+    },
+    {
+      "id": "fin-a2-w07-46",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Is the ATM working now?",
+      "explanation": "¿Funciona el cajero ahora?"
+    },
+    {
+      "id": "fin-a2-w07-47",
+      "type": "multipleChoice",
+      "prompt": "The ______ of your money is important.",
+      "options": ["safety", "scam", "fee"],
+      "answerIndex": 0,
+      "explanation": "La seguridad (safety) de tu dinero es importante."
+    },
+    {
+      "id": "fin-a2-w07-48",
+      "type": "fillBlanks",
+      "prompt": "I forgot my [blank] at home.",
+      "answers": ["card", "wallet"],
+      "explanation": "Olvidé mi tarjeta/cartera en casa."
+    },
+    {
+      "id": "fin-a2-w07-49",
+      "type": "multipleChoice",
+      "prompt": "You ______ be polite to the security guard.",
+      "options": ["must", "mustn't", "won't"],
+      "answerIndex": 0,
+      "explanation": "Debes ser amable con el guardia de seguridad."
+    },
+    {
+      "id": "fin-a2-w07-50",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Never give your card to anyone",
+      "explanation": "Nunca des tu tarjeta a nadie."
+    }
+  ]
+}

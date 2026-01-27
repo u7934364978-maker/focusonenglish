@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What does 'Value at Risk' (VaR) measure?",
+    "options": ["Maximum possible profit", "Potential loss in a portfolio over a specific time", "The total number of clients", "The CEO's bonus"],
+    "correctAnswer": 1,
+    "explanation": "VaR quantifies the risk of potential losses in a portfolio."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "If we __________ (audit) the accounts earlier, we __________ (be) safer today.",
+    "correctAnswer": "had audited... would be",
+    "explanation": "Mixed Conditional: Past condition, present consequence."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "A 'Stress Test' is used to see:",
+    "options": ["How employees handle stress", "How a portfolio performs in extreme market conditions", "The best time for a coffee break", "The bank's marketing budget"],
+    "correctAnswer": 1,
+    "explanation": "Stress tests simulate extreme scenarios to evaluate resilience."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the term with its meaning:",
+    "pairs": [
+      { "left": "Backtesting", "right": "Testing with history" },
+      { "left": "Mitigation", "right": "Reducing risk" },
+      { "left": "Exposure", "right": "Total risk amount" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "If they _______ the risk model, the bank _______ facing a crisis now.",
+    "options": ["had updated / wouldn't be", "updated / wouldn't be", "update / won't be", "had updated / hadn't been"],
+    "correctAnswer": 0,
+    "explanation": "Mixed Conditional (Past action -> Present state)."
+  }
+]

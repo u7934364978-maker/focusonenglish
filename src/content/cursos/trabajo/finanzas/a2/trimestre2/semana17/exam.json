@@ -1,7 +1,49 @@
 {
-  "goal": "finanzas", "level": "A2", "trimester": 2, "weekId": "semana17", "examId": "fin-a2-w17-exam",
-  "title": "Examen: Semana 17",
+  "goal": "finanzas",
+  "level": "A2",
+  "trimester": 2,
+  "weekId": "semana17",
+  "title": "Examen: Banca Móvil y Aplicaciones",
   "items": [
-    { "id": "fin-a2-w17-exam-1", "type": "multipleChoice", "prompt": "Exam question for A2 week 17.", "options": ["Yes", "No"], "answerIndex": 0 }
+    {
+      "id": "fin-a2-w17-e1",
+      "type": "multipleChoice",
+      "prompt": "You need to ___ your password carefully.",
+      "options": ["enter", "click", "download", "logout"],
+      "answerIndex": 0,
+      "explanation": "We enter passwords into systems."
+    },
+    {
+      "id": "fin-a2-w17-e2",
+      "type": "multipleChoice",
+      "prompt": "Don't ___ your security code with anyone.",
+      "options": ["share", "login", "transfer", "click"],
+      "answerIndex": 0,
+      "explanation": "Security tip: Don't share private codes."
+    },
+    {
+      "id": "fin-a2-w17-e3",
+      "type": "multipleChoice",
+      "prompt": "I want to ___ money to my friend's account.",
+      "options": ["transfer", "login", "bill", "notification"],
+      "answerIndex": 0,
+      "explanation": "We transfer money between accounts."
+    },
+    {
+      "id": "fin-a2-w17-e4",
+      "type": "multipleChoice",
+      "prompt": "Did you get a ___ on your phone?",
+      "options": ["notification", "password", "username", "login"],
+      "answerIndex": 0,
+      "explanation": "Apps send notifications to phones."
+    },
+    {
+      "id": "fin-a2-w17-e5",
+      "type": "multipleChoice",
+      "prompt": "___ the app to start.",
+      "options": ["Open", "Enter", "Click", "Don't"],
+      "answerIndex": 0,
+      "explanation": "Imperative: Open the app."
+    }
   ]
 }

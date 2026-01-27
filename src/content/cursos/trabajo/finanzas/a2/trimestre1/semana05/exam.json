@@ -1,0 +1,55 @@
+{
+  "title": "Examen: Préstamos y Superlativos",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is a 'Lender'?",
+      "options": [
+        "The person who receives the money",
+        "The bank or institution that gives the money",
+        "The interest rate of the loan",
+        "The monthly payment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El 'lender' es el prestamista (quien da el dinero)."
+    },
+    {
+      "id": "q2",
+      "question": "Which sentence uses a superlative correctly?",
+      "options": [
+        "This is the more expensive loan.",
+        "This is the expensivest loan.",
+        "This is the most expensive loan.",
+        "This is the most cheap loan."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Para adjetivos largos como 'expensive', usamos 'the most'."
+    },
+    {
+      "id": "q3",
+      "question": "What does 'Term' mean in a loan context?",
+      "options": [
+        "The name of the bank",
+        "The amount of the monthly cuota",
+        "The period of time to repay the loan",
+        "The signature on the document"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El 'term' es el plazo o tiempo total para devolver el préstamo."
+    },
+    {
+      "id": "q4",
+      "question": "What is the superlative of 'Bad'?",
+      "options": ["The badest", "The worse", "The worst", "The baddest"],
+      "correctAnswer": 2,
+      "explanation": "Bad es irregular y su superlativo es 'the worst'."
+    },
+    {
+      "id": "q5",
+      "question": "If you pay a part of the loan every month, that payment is an:",
+      "options": ["Interest", "Installment", "Lender", "Borrower"],
+      "correctAnswer": 1,
+      "explanation": "Cada pago mensual de un préstamo es un 'installment' (cuota)."
+    }
+  ]
+}

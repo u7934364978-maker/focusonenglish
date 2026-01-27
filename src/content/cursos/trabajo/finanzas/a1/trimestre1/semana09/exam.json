@@ -1,0 +1,50 @@
+{
+  "title": "Examen: Compras y Precios",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How ______ is the total?",
+      "options": ["many", "much", "cost", "is"],
+      "correctAnswer": 1,
+      "explanation": "Preguntamos el precio total con 'How much'."
+    },
+    {
+      "id": "q2",
+      "question": "If a phone costs $1,500, it is ______.",
+      "options": ["cheap", "expensive", "free", "small"],
+      "correctAnswer": 1,
+      "explanation": "$1,500 es un precio alto, por lo tanto es caro (expensive)."
+    },
+    {
+      "id": "q3",
+      "question": "What is a 'Receipt'?",
+      "options": [
+        "A type of bank account",
+        "A person who works at a store",
+        "A document that proves you paid",
+        "A discount coupon"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Un recibo es el documento que prueba que has pagado."
+    },
+    {
+      "id": "q4",
+      "question": "Which sentence is correct?",
+      "options": [
+        "How much dollars do you have?",
+        "How many money do you have?",
+        "How many dollars do you have?",
+        "How much card do you have?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Los dólares se cuentan (How many dollars)."
+    },
+    {
+      "id": "q5",
+      "question": "What is the opposite of 'To buy'?",
+      "options": ["To cost", "To sell", "To pay", "To count"],
+      "correctAnswer": 1,
+      "explanation": "Vender (sell) es lo opuesto a comprar (buy)."
+    }
+  ]
+}

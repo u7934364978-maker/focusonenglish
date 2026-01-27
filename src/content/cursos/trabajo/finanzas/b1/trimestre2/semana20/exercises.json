@@ -1,7 +1,43 @@
-{
-  "goal": "finanzas", "level": "B1", "trimester": 2, "weekId": "semana20",
-  "title": "Ejercicios: Semana 20",
-  "items": [
-    { "id": "fin-b1-w20-1", "type": "multipleChoice", "prompt": "Complete the exercise for week 20.", "options": ["Correct", "Wrong", "Maybe", "No"], "answerIndex": 0, "explanation": "This is a placeholder exercise." }
-  ]
-}
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What does 'AML' stand for?",
+    "options": ["Asset Management Level", "Anti-Money Laundering", "Audit Management List", "Automatic Money Loan"],
+    "correctAnswer": 1,
+    "explanation": "AML stands for Anti-Money Laundering, which are laws to prevent illegal money from entering the system."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "He said that they __________ (follow) the new regulations.",
+    "correctAnswer": "followed",
+    "explanation": "In Reported Speech, we backshift the tense: Present Simple becomes Past Simple."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "A 'Breach' in compliance means:",
+    "options": ["Following the rules perfectly", "Breaking a rule or law", "Opening a new bank", "Promoting a manager"],
+    "correctAnswer": 1,
+    "explanation": "A breach is an act of breaking or failing to observe a law or agreement."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the term with its meaning:",
+    "pairs": [
+      { "left": "KYC", "right": "Customer identification" },
+      { "left": "Fine", "right": "Monetary penalty" },
+      { "left": "Audit", "right": "Official inspection" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "She told us that the audit _______ successful.",
+    "options": ["is", "was", "will be", "be"],
+    "correctAnswer": 1,
+    "explanation": "Backshifting 'is' to 'was' in Reported Speech."
+  }
+]

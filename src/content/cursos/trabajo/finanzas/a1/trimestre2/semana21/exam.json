@@ -1,0 +1,49 @@
+{
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 2,
+  "weekId": "semana21",
+  "title": "Examen: Banca Digital y Seguridad",
+  "items": [
+    {
+      "id": "fin-a1-w21-e1",
+      "type": "multipleChoice",
+      "prompt": "You need a ___ to enter the website.",
+      "options": ["password", "scam", "download", "change"],
+      "answerIndex": 0,
+      "explanation": "Passwords are required for website entry."
+    },
+    {
+      "id": "fin-a1-w21-e2",
+      "type": "multipleChoice",
+      "prompt": "___ your password with anyone.",
+      "options": ["Don't share", "Share", "Click", "Login"],
+      "answerIndex": 0,
+      "explanation": "Negative imperative for security: Don't share."
+    },
+    {
+      "id": "fin-a1-w21-e3",
+      "type": "multipleChoice",
+      "prompt": "You can ___ the bank app for free.",
+      "options": ["download", "lock", "cost", "pay"],
+      "answerIndex": 0,
+      "explanation": "We download apps."
+    },
+    {
+      "id": "fin-a1-w21-e4",
+      "type": "multipleChoice",
+      "prompt": "Is this connection ___?",
+      "options": ["safe", "danger", "open", "public"],
+      "answerIndex": 0,
+      "explanation": "We ask if a connection is safe (secure)."
+    },
+    {
+      "id": "fin-a1-w21-e5",
+      "type": "multipleChoice",
+      "prompt": "Please ___ your username.",
+      "options": ["enter", "click", "download", "logout"],
+      "answerIndex": 0,
+      "explanation": "We enter text like usernames."
+    }
+  ]
+}

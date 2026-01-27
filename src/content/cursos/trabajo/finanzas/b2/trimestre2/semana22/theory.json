@@ -1,0 +1,24 @@
+{
+  "title": "Finanzas Sostenibles (ESG)",
+  "sections": [
+    {
+      "id": "esg-vocab",
+      "title": "Vocabulario: Inversión Responsable",
+      "content": "B2 nivel. Factores Ambientales, Sociales y de Gobernanza.\n\n- **ESG (Environmental, Social, Governance)**: ASG (Ambiental, Social y Gobernanza)\n- **Sustainability**: Sostenibilidad\n- **Green bonds**: Bonos verdes\n- **Impact investing**: Inversión de impacto\n- **Carbon footprint**: Huella de carbono\n- **Social responsibility**: Responsabilidad social\n- **Stakeholders**: Partes interesadas / Grupos de interés\n- **Greenwashing**: Lavado de imagen verde (falsa sostenibilidad)"
+    },
+    {
+      "id": "esg-grammar",
+      "title": "Gramática: Advanced Passive with Reporting Verbs",
+      "content": "Usamos estructuras de pasiva avanzada para informar sobre tendencias y opiniones del mercado.\n\n- It **is believed that** ESG investing will dominate the next decade.\n- The company **is said to be** the leader in green energy.\n- Green bonds **are considered to be** safer for long-term institutional investors.\n- It **was reported that** the firm engaged in greenwashing."
+    }
+  ],
+  "objectives": [
+    "Definir los componentes de ESG y su relevancia financiera",
+    "Identificar prácticas de 'Greenwashing' en el sector",
+    "Utilizar estructuras de pasiva avanzada para reportar tendencias de inversión"
+  ],
+  "keyTerms": [
+    { "term": "ESG", "definition": "A set of standards for a company’s operations that socially conscious investors use to screen potential investments." },
+    { "term": "Greenwashing", "definition": "The process of conveying a false impression or providing misleading information about how a company’s products are more environmentally sound." }
+  ]
+}

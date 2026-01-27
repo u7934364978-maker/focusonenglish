@@ -1,0 +1,385 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is 'Asset Allocation'?",
+    "options": ["Selling all company assets", "The process of dividing an investment portfolio among different asset categories", "Hiring new managers", "Calculating the monthly rent"],
+    "correctAnswer": 1,
+    "explanation": "Asset allocation is a core strategy to balance risk and reward."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "If we __________ (not diversify) our assets, we __________ (face) a massive loss during the 2008 crisis.",
+    "correctAnswer": "hadn't diversified... would have faced",
+    "explanation": "Third Conditional for past hypothetical."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "A 'Call Option' is 'In the Money' if:",
+    "options": ["The market price is below the strike price", "The market price is above the strike price", "The option has expired", "The premium is zero"],
+    "correctAnswer": 1,
+    "explanation": "A call is in the money when the market price exceeds the strike price."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "What is 'Hedge Fund' investment typically known for?",
+    "options": ["Low risk and low return", "Absolute return strategies and high fees", "Being available to all retail investors", "Focusing only on government bonds"],
+    "correctAnswer": 1,
+    "explanation": "Hedge funds use complex strategies to seek profit regardless of market direction."
+  },
+  {
+    "id": 5,
+    "type": "fill-in-the-blank",
+    "question": "By the end of the year, the firm __________ (rebalance) its portfolio three times.",
+    "correctAnswer": "will have rebalanced",
+    "explanation": "Future Perfect for completed actions in the future."
+  },
+  {
+    "id": 6,
+    "type": "multiple-choice",
+    "question": "What is 'Arbitrage'?",
+    "options": ["Trading based on rumors", "Taking advantage of price differences in different markets", "A type of long-term bond", "Legal mediation between banks"],
+    "correctAnswer": 1,
+    "explanation": "Arbitrage seeks to profit from market inefficiencies."
+  },
+  {
+    "id": 7,
+    "type": "multiple-choice",
+    "question": "In 'Gerunds vs Infinitives', which is correct?",
+    "options": ["We suggest to buy the shares", "We suggest buying the shares", "We suggest buy the shares", "We suggest to buying the shares"],
+    "correctAnswer": 1,
+    "explanation": "The verb 'suggest' is followed by a gerund."
+  },
+  {
+    "id": 8,
+    "type": "fill-in-the-blank",
+    "question": "If the bank __________ (pass) the stress test, it __________ (be) in a better position now.",
+    "correctAnswer": "had passed... would be",
+    "explanation": "Mixed Conditional (Past -> Present)."
+  },
+  {
+    "id": 9,
+    "type": "multiple-choice",
+    "question": "What does 'VaR' (Value at Risk) represent?",
+    "options": ["The maximum possible profit", "A statistical measure of potential loss", "The current value of all assets", "The cost of auditing"],
+    "correctAnswer": 1,
+    "explanation": "VaR quantifies the risk level of a portfolio."
+  },
+  {
+    "id": 10,
+    "type": "multiple-choice",
+    "question": "What is 'Greenwashing'?",
+    "options": ["Investing in water cleaning", "Misleading claims about environmental sustainability", "Printing money on green paper", "Growing trees in the bank lobby"],
+    "correctAnswer": 1,
+    "explanation": "Greenwashing is a deceptive marketing practice regarding eco-friendliness."
+  },
+  {
+    "id": 11,
+    "type": "fill-in-the-blank",
+    "question": "The company __________ (say) to be considering a merger.",
+    "correctAnswer": "is said",
+    "explanation": "Advanced Passive with reporting verbs."
+  },
+  {
+    "id": 12,
+    "type": "multiple-choice",
+    "question": "What is 'Private Equity'?",
+    "options": ["Stocks bought on the public market", "Investment in companies not publicly traded", "Personal savings of the CEO", "Government grants for businesses"],
+    "correctAnswer": 1,
+    "explanation": "PE involves direct investment into private companies."
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "question": "What is 'Blockchain' primarily used for in FinTech?",
+    "options": ["Printing physical currency", "Secure and transparent distributed ledgers", "Managing office furniture", "Making phone calls"],
+    "correctAnswer": 1,
+    "explanation": "Blockchain provides a decentralized and secure way to record transactions."
+  },
+  {
+    "id": 14,
+    "type": "fill-in-the-blank",
+    "question": "I wish the CFO __________ (approve) the derivatives strategy earlier.",
+    "correctAnswer": "had approved",
+    "explanation": "Wish + Past Perfect for past regret."
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "question": "What is 'ESG'?",
+    "options": ["Economic Stability Group", "Environmental, Social, and Governance", "Electronic Stock Gaining", "Expert Statistical Guidance"],
+    "correctAnswer": 1,
+    "explanation": "ESG refers to the three central factors in measuring sustainability."
+  },
+  {
+    "id": 16,
+    "type": "multiple-choice",
+    "question": "An 'Underlying Asset' is:",
+    "options": ["A cheap building", "The asset upon which a derivative's value is based", "A bank's debt", "A type of cash"],
+    "correctAnswer": 1,
+    "explanation": "Derivatives 'derive' their value from these assets (stocks, oil, etc.)."
+  },
+  {
+    "id": 17,
+    "type": "fill-in-the-blank",
+    "question": "If we __________ (hedge) our Forex exposure, we __________ (not be) losing money right now.",
+    "correctAnswer": "had hedged... wouldn't be",
+    "explanation": "Mixed Conditional."
+  },
+  {
+    "id": 18,
+    "type": "multiple-choice",
+    "question": "What is 'Alpha' in investment?",
+    "options": ["The first stock bought", "Excess return relative to a benchmark", "The risk-free rate", "A type of trading software"],
+    "correctAnswer": 1,
+    "explanation": "Alpha measures the performance of an investment compared to a market index."
+  },
+  {
+    "id": 19,
+    "type": "multiple-choice",
+    "question": "What is 'Volatility'?",
+    "options": ["Steady growth", "The degree of variation in trading prices over time", "The amount of cash in the bank", "The speed of a bank transfer"],
+    "correctAnswer": 1,
+    "explanation": "Higher volatility means higher risk and potential reward."
+  },
+  {
+    "id": 20,
+    "type": "fill-in-the-blank",
+    "question": "It __________ (believe) that the market __________ (recover) by Q4.",
+    "correctAnswer": "is believed... will have recovered",
+    "explanation": "Passive reporting and Future Perfect."
+  },
+  {
+    "id": 21,
+    "type": "multiple-choice",
+    "question": "What is 'Market Capitalization'?",
+    "options": ["The total value of a company's shares", "The city where the stock market is", "The total debt of a company", "The number of employees"],
+    "correctAnswer": 0,
+    "explanation": "Market Cap = Share Price x Number of Shares."
+  },
+  {
+    "id": 22,
+    "type": "multiple-choice",
+    "question": "A 'Commodity' includes:",
+    "options": ["Bank apps", "Gold, oil, and wheat", "Software licenses", "Human resources"],
+    "correctAnswer": 1,
+    "explanation": "Commodities are basic goods used in commerce."
+  },
+  {
+    "id": 23,
+    "type": "fill-in-the-blank",
+    "question": "We plan __________ (expand) into alternative assets.",
+    "correctAnswer": "to expand",
+    "explanation": "The verb 'plan' is followed by an infinitive."
+  },
+  {
+    "id": 24,
+    "type": "multiple-choice",
+    "question": "What is 'Exchange Rate Risk'?",
+    "options": ["Risk of losing a password", "Risk that currency changes will reduce investment returns", "Risk of a bank closing", "Risk of high taxes"],
+    "correctAnswer": 1,
+    "explanation": "Forex risk is a major factor in international finance."
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "question": "What is 'Sustainability' in finance?",
+    "options": ["Keeping the bank open 24/7", "Meeting present needs without compromising the future", "Spending all the profit", "Only using paper money"],
+    "correctAnswer": 1,
+    "explanation": "Sustainability focuses on long-term viability and ethics."
+  },
+  {
+    "id": 26,
+    "type": "fill-in-the-blank",
+    "question": "The derivatives __________ (trade) on the exchange since the 1970s.",
+    "correctAnswer": "have been traded",
+    "explanation": "Passive Present Perfect."
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "question": "What is a 'Put Option'?",
+    "options": ["The right to buy", "The right to sell", "An obligation to buy", "A type of tax"],
+    "correctAnswer": 1,
+    "explanation": "Put = Right to sell."
+  },
+  {
+    "id": 28,
+    "type": "multiple-choice",
+    "question": "What is 'Stress Testing'?",
+    "options": ["Testing if employees are tired", "Simulating extreme conditions to evaluate financial resilience", "Counting all the cash manually", "Checking the building's fire alarm"],
+    "correctAnswer": 1,
+    "explanation": "Stress tests prepare banks for crises."
+  },
+  {
+    "id": 29,
+    "type": "fill-in-the-blank",
+    "question": "If the volatility __________ (be) higher, the option __________ (cost) more.",
+    "correctAnswer": "had been... would have costed",
+    "explanation": "Third Conditional."
+  },
+  {
+    "id": 30,
+    "type": "multiple-choice",
+    "question": "What is 'Impact Investing'?",
+    "options": ["Investing in heavy machinery", "Investing to achieve positive social/environmental change", "Aggressive day trading", "Investing in big corporations only"],
+    "correctAnswer": 1,
+    "explanation": "Impact investing combines finance and social good."
+  },
+  {
+    "id": 31,
+    "type": "multiple-choice",
+    "question": "What is a 'Futures Contract'?",
+    "options": ["A guess about the future", "A legal agreement to buy or sell an asset at a predetermined price in the future", "A new bank account", "An insurance policy"],
+    "correctAnswer": 1,
+    "explanation": "Futures are standardized and binding contracts."
+  },
+  {
+    "id": 32,
+    "type": "fill-in-the-blank",
+    "question": "The auditor __________ (allege) to have found inconsistencies.",
+    "correctAnswer": "is alleged",
+    "explanation": "Advanced Passive reporting."
+  },
+  {
+    "id": 33,
+    "type": "multiple-choice",
+    "question": "What is 'Liquidity Risk'?",
+    "options": ["The risk of rain", "The risk of not being able to sell an asset quickly without a large loss", "The risk of a stock price rising", "The risk of a bank app crashing"],
+    "correctAnswer": 1,
+    "explanation": "Liquidity risk is being 'stuck' in an investment."
+  },
+  {
+    "id": 34,
+    "type": "multiple-choice",
+    "question": "What is 'Diversification'?",
+    "options": ["Investing in only one stock", "Spreading investments across various assets", "Buying assets in one city", "Having only one bank account"],
+    "correctAnswer": 1,
+    "explanation": "Diversification reduces unsystematic risk."
+  },
+  {
+    "id": 35,
+    "type": "fill-in-the-blank",
+    "question": "If I __________ (be) you, I __________ (diversify) into commodities.",
+    "correctAnswer": "were... would diversify",
+    "explanation": "Second Conditional."
+  },
+  {
+    "id": 36,
+    "type": "multiple-choice",
+    "question": "What is 'FinTech'?",
+    "options": ["Financial Technology", "Finnish Technology", "Final Technical check", "Fixed Technical cost"],
+    "correctAnswer": 0,
+    "explanation": "FinTech refers to innovation in financial services."
+  },
+  {
+    "id": 37,
+    "type": "multiple-choice",
+    "question": "What is 'Standard Deviation' in finance?",
+    "options": ["The average price", "A measure of volatility and risk", "A type of tax", "The number of shares"],
+    "correctAnswer": 1,
+    "explanation": "Standard deviation measures how much returns deviate from the average."
+  },
+  {
+    "id": 38,
+    "type": "fill-in-the-blank",
+    "question": "He wishes he __________ (not / lose) the private banking clients.",
+    "correctAnswer": "hadn't lost",
+    "explanation": "Wish + Past Perfect."
+  },
+  {
+    "id": 39,
+    "type": "multiple-choice",
+    "question": "What is 'Gobernanza' (Governance) in ESG?",
+    "options": ["The government's rules", "How a company is managed and directed", "Building green offices", "Paying employees well"],
+    "correctAnswer": 1,
+    "explanation": "Governance covers ethics, board structure, and transparency."
+  },
+  {
+    "id": 40,
+    "type": "multiple-choice",
+    "question": "What is an 'HNWI'?",
+    "options": ["High Net Worth Individual", "Hard New Wealth Index", "Highly Negotiable Work Item", "Honest New Wealth Investor"],
+    "correctAnswer": 0,
+    "explanation": "HNWI is a person with high investable assets (Private Banking target)."
+  },
+  {
+    "id": 41,
+    "type": "fill-in-the-blank",
+    "question": "This is the __________ (risky) strategy in our portfolio.",
+    "correctAnswer": "riskiest",
+    "explanation": "Superlative of 'risky'."
+  },
+  {
+    "id": 42,
+    "type": "multiple-choice",
+    "question": "What is 'Underwriting'?",
+    "options": ["Writing a check", "The process of evaluating and assuming risk for a fee", "Drawing a graph", "Printing bank statements"],
+    "correctAnswer": 1,
+    "explanation": "Underwriting is common in insurance and IPOs."
+  },
+  {
+    "id": 43,
+    "type": "multiple-choice",
+    "question": "What is 'Arbitrage'?",
+    "options": ["Profiting from price differences in markets", "A type of long-term bond", "Buying stocks for dividends", "A bank fee"],
+    "correctAnswer": 0,
+    "explanation": "Arbitrage is a risk-free profit strategy (theoretically)."
+  },
+  {
+    "id": 44,
+    "type": "fill-in-the-blank",
+    "question": "We expect __________ (reach) our goal by December.",
+    "correctAnswer": "to reach",
+    "explanation": "Expect + Infinitive."
+  },
+  {
+    "id": 45,
+    "type": "multiple-choice",
+    "question": "What is 'Sustainable' finance?",
+    "options": ["Keeping the bank rich", "Considering ESG factors in investment decisions", "Investing only in gold", "Having no debt"],
+    "correctAnswer": 1,
+    "explanation": "Sustainable finance integrates ESG criteria."
+  },
+  {
+    "id": 46,
+    "type": "multiple-choice",
+    "question": "What is 'Rebalancing' a portfolio?",
+    "options": ["Selling everything", "Adjusting weights of assets to maintain target allocation", "Opening a new bank account", "Checking the balance"],
+    "correctAnswer": 1,
+    "explanation": "Rebalancing ensures the risk profile stays consistent."
+  },
+  {
+    "id": 47,
+    "type": "fill-in-the-blank",
+    "question": "The new regulations __________ (announce) by the regulator yesterday.",
+    "correctAnswer": "were announced",
+    "explanation": "Passive Past Simple."
+  },
+  {
+    "id": 48,
+    "type": "multiple-choice",
+    "question": "What is 'Venture Capital'?",
+    "options": ["Capital for small businesses", "Capital for startups with high growth potential", "Money for the government", "A type of tax"],
+    "correctAnswer": 1,
+    "explanation": "VC is a type of private equity for early-stage companies."
+  },
+  {
+    "id": 49,
+    "type": "multiple-choice",
+    "question": "What is 'Yield'?",
+    "options": ["The total value", "The income generated by an investment (percentage)", "The price of the stock", "A type of contract"],
+    "correctAnswer": 1,
+    "explanation": "Yield measures the annual return on an investment."
+  },
+  {
+    "id": 50,
+    "type": "fill-in-the-blank",
+    "question": "I wish we __________ (not / invest) in that derivative last month.",
+    "correctAnswer": "hadn't invested",
+    "explanation": "Wish + Past Perfect for past regret."
+  }
+]

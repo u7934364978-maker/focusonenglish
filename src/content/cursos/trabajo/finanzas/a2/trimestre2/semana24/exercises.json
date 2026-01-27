@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "Are you ready for the final exam?",
+    "options": ["Yes", "I need more review", "Maybe", "I am nervous but ready"],
+    "correctAnswer": 0,
+    "explanation": "This is a warm-up! Good luck on your final trimester exam."
+  }
+]

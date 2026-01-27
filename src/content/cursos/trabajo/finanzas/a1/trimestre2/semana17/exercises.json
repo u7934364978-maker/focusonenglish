@@ -1,7 +1,385 @@
 {
-  "goal": "finanzas", "level": "A1", "trimester": 2, "weekId": "semana17",
-  "title": "Ejercicios: Semana 17",
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 2,
+  "weekId": "semana17",
+  "title": "Números y Dinero",
   "items": [
-    { "id": "fin-a1-w17-1", "type": "multipleChoice", "prompt": "Basic question for A1 week 17.", "options": ["A", "B"], "answerIndex": 0 }
+    {
+      "id": "fin-a1-w17-1",
+      "type": "multipleChoice",
+      "prompt": "How do you say 100 in English?",
+      "options": ["One thousand", "One hundred", "One million"],
+      "answerIndex": 1,
+      "explanation": "100 se dice 'one hundred'."
+    },
+    {
+      "id": "fin-a1-w17-2",
+      "type": "multipleChoice",
+      "prompt": "The currency of the USA is the ______.",
+      "options": ["Euro", "Dollar", "Pound"],
+      "answerIndex": 1,
+      "explanation": "La moneda de EE.UU. es el dólar."
+    },
+    {
+      "id": "fin-a1-w17-3",
+      "type": "multipleChoice",
+      "prompt": "How ______ is this book?",
+      "options": ["many", "much", "old"],
+      "answerIndex": 1,
+      "explanation": "Para preguntar el precio usamos 'How much'."
+    },
+    {
+      "id": "fin-a1-w17-4",
+      "type": "multipleChoice",
+      "prompt": "1,000 is one ______.",
+      "options": ["hundred", "million", "thousand"],
+      "answerIndex": 2,
+      "explanation": "1,000 se dice 'one thousand'."
+    },
+    {
+      "id": "fin-a1-w17-5",
+      "type": "multipleChoice",
+      "prompt": "In the UK, people use the ______.",
+      "options": ["Pound", "Dollar", "Euro"],
+      "answerIndex": 0,
+      "explanation": "En el Reino Unido se usa la libra (Pound)."
+    },
+    {
+      "id": "fin-a1-w17-6",
+      "type": "fillBlanks",
+      "prompt": "How [blank] is it?",
+      "answers": ["much"],
+      "explanation": "Pregunta de precio: How much is it?"
+    },
+    {
+      "id": "fin-a1-w17-7",
+      "type": "fillBlanks",
+      "prompt": "One [blank] is 1,000,000.",
+      "answers": ["million"],
+      "explanation": "1,000,000 es 'one million'."
+    },
+    {
+      "id": "fin-a1-w17-8",
+      "type": "reorder",
+      "prompt": "Reorder the price question:",
+      "sentence": "How much does it cost?",
+      "explanation": "How much + does + it + cost?"
+    },
+    {
+      "id": "fin-a1-w17-9",
+      "type": "multipleChoice",
+      "prompt": "500 is ______ hundred.",
+      "options": ["Five", "Fifty", "Fifteen"],
+      "answerIndex": 0,
+      "explanation": "500 se dice 'five hundred'."
+    },
+    {
+      "id": "fin-a1-w17-10",
+      "type": "multipleChoice",
+      "prompt": "The ______ of the car is 20,000 euros.",
+      "options": ["name", "price", "color"],
+      "answerIndex": 1,
+      "explanation": "El precio del coche es 20,000 euros."
+    },
+    {
+      "id": "fin-a1-w17-11",
+      "type": "fillBlanks",
+      "prompt": "Ten [blank] is 10,000.",
+      "answers": ["thousand"],
+      "explanation": "10,000 es 'ten thousand'."
+    },
+    {
+      "id": "fin-a1-w17-12",
+      "type": "multipleChoice",
+      "prompt": "It ______ 10 dollars.",
+      "options": ["costs", "is cost", "costing"],
+      "answerIndex": 0,
+      "explanation": "Para decir el precio usamos el verbo 'costs'."
+    },
+    {
+      "id": "fin-a1-w17-13",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "It is fifty euros",
+      "explanation": "Sujeto + verbo + cantidad + moneda."
+    },
+    {
+      "id": "fin-a1-w17-14",
+      "type": "multipleChoice",
+      "prompt": "One hundred cents is one ______.",
+      "options": ["dollar", "thousand", "hundred"],
+      "answerIndex": 0,
+      "explanation": "100 céntimos son un dólar."
+    },
+    {
+      "id": "fin-a1-w17-15",
+      "type": "fillBlanks",
+      "prompt": "2,500 is two thousand five [blank].",
+      "answers": ["hundred"],
+      "explanation": "2,500: 'two thousand five hundred'."
+    },
+    {
+      "id": "fin-a1-w17-16",
+      "type": "multipleChoice",
+      "prompt": "Which symbol is for the Pound?",
+      "options": ["$", "€", "£"],
+      "answerIndex": 2,
+      "explanation": "El símbolo de la libra es £."
+    },
+    {
+      "id": "fin-a1-w17-17",
+      "type": "reorder",
+      "prompt": "Reorder the price:",
+      "sentence": "That costs ten pounds",
+      "explanation": "Sujeto + verbo + cantidad + moneda."
+    },
+    {
+      "id": "fin-a1-w17-18",
+      "type": "multipleChoice",
+      "prompt": "7,000 is ______ thousand.",
+      "options": ["Seventy", "Seven", "Seventeen"],
+      "answerIndex": 1,
+      "explanation": "7,000 se dice 'seven thousand'."
+    },
+    {
+      "id": "fin-a1-w17-19",
+      "type": "fillBlanks",
+      "prompt": "How [blank] are the shoes?",
+      "answers": ["much"],
+      "explanation": "How much + are + plural object?"
+    },
+    {
+      "id": "fin-a1-w17-20",
+      "type": "multipleChoice",
+      "prompt": "I have 300 ______ in my pocket.",
+      "options": ["dollars", "dollar", "of dollar"],
+      "answerIndex": 0,
+      "explanation": "Usamos el plural 'dollars' para más de uno."
+    },
+    {
+      "id": "fin-a1-w17-21",
+      "type": "reorder",
+      "prompt": "Reorder the number:",
+      "sentence": "One hundred and fifty",
+      "explanation": "150 se dice 'one hundred and fifty'."
+    },
+    {
+      "id": "fin-a1-w17-22",
+      "type": "fillBlanks",
+      "prompt": "Spain uses the [blank].",
+      "answers": ["Euro"],
+      "explanation": "España usa el euro."
+    },
+    {
+      "id": "fin-a1-w17-23",
+      "type": "multipleChoice",
+      "prompt": "What is 400 + 100?",
+      "options": ["Five thousand", "Five hundred", "Fifty"],
+      "answerIndex": 1,
+      "explanation": "400 + 100 = 500 (five hundred)."
+    },
+    {
+      "id": "fin-a1-w17-24",
+      "type": "fillBlanks",
+      "prompt": "How much [blank] it cost?",
+      "answers": ["does"],
+      "explanation": "Auxiliar 'does' para preguntas en singular."
+    },
+    {
+      "id": "fin-a1-w17-25",
+      "type": "multipleChoice",
+      "prompt": "1,000,000 is one ______.",
+      "options": ["billion", "million", "thousand"],
+      "answerIndex": 1,
+      "explanation": "Un millón se dice 'million'."
+    },
+    {
+      "id": "fin-a1-w17-26",
+      "type": "reorder",
+      "prompt": "Reorder the price:",
+      "sentence": "It costs one hundred dollars",
+      "explanation": "Cuesta cien dólares."
+    },
+    {
+      "id": "fin-a1-w17-27",
+      "type": "multipleChoice",
+      "prompt": "Currency is the ______ of a country.",
+      "options": ["language", "money", "flag"],
+      "answerIndex": 1,
+      "explanation": "La 'currency' es el tipo de dinero de un país."
+    },
+    {
+      "id": "fin-a1-w17-28",
+      "type": "fillBlanks",
+      "prompt": "Is it five [blank]?",
+      "answers": ["dollars"],
+      "explanation": "¿Son cinco dólares?"
+    },
+    {
+      "id": "fin-a1-w17-29",
+      "type": "multipleChoice",
+      "prompt": "200,000 is two ______ thousand.",
+      "options": ["hundred", "million", "thousand"],
+      "answerIndex": 0,
+      "explanation": "200,000 se dice 'two hundred thousand'."
+    },
+    {
+      "id": "fin-a1-w17-30",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The price is too high",
+      "explanation": "El precio es demasiado alto."
+    },
+    {
+      "id": "fin-a1-w17-31",
+      "type": "multipleChoice",
+      "prompt": "900 is ______ hundred.",
+      "options": ["Ninety", "Nine", "Nineteen"],
+      "answerIndex": 1,
+      "explanation": "900 se dice 'nine hundred'."
+    },
+    {
+      "id": "fin-a1-w17-32",
+      "type": "fillBlanks",
+      "prompt": "It [blank] five pounds.",
+      "answers": ["is"],
+      "explanation": "It is + price."
+    },
+    {
+      "id": "fin-a1-w17-33",
+      "type": "multipleChoice",
+      "prompt": "Which one is a large number?",
+      "options": ["Ten", "A million", "Twelve"],
+      "answerIndex": 1,
+      "explanation": "Un millón es un número grande."
+    },
+    {
+      "id": "fin-a1-w17-34",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I need one thousand euros",
+      "explanation": "Necesito mil euros."
+    },
+    {
+      "id": "fin-a1-w17-35",
+      "type": "multipleChoice",
+      "prompt": "How do you write 'five hundred thousand' in numbers?",
+      "options": ["500", "5,000", "500,000"],
+      "answerIndex": 2,
+      "explanation": "Cien mil es 100,000; quinientos mil es 500,000."
+    },
+    {
+      "id": "fin-a1-w17-36",
+      "type": "fillBlanks",
+      "prompt": "The [blank] is ten euros.",
+      "answers": ["price"],
+      "explanation": "El precio es diez euros."
+    },
+    {
+      "id": "fin-a1-w17-37",
+      "type": "multipleChoice",
+      "prompt": "Do you have any ______?",
+      "options": ["prices", "money", "thousands"],
+      "answerIndex": 1,
+      "explanation": "¿Tienes algo de dinero?"
+    },
+    {
+      "id": "fin-a1-w17-38",
+      "type": "reorder",
+      "prompt": "Reorder the number:",
+      "sentence": "Seven hundred and twenty",
+      "explanation": "720 se dice 'seven hundred and twenty'."
+    },
+    {
+      "id": "fin-a1-w17-39",
+      "type": "multipleChoice",
+      "prompt": "One ______ is 100 cents.",
+      "options": ["pound", "euro", "both are correct"],
+      "answerIndex": 2,
+      "explanation": "Tanto la libra como el euro se dividen en 100 unidades (cents/pence)."
+    },
+    {
+      "id": "fin-a1-w17-40",
+      "type": "fillBlanks",
+      "prompt": "How much [blank] the tickets?",
+      "answers": ["are"],
+      "explanation": "'Are' para objetos en plural."
+    },
+    {
+      "id": "fin-a1-w17-41",
+      "type": "multipleChoice",
+      "prompt": "What is 1,000 + 1,000?",
+      "options": ["Two hundred", "Two thousand", "Two million"],
+      "answerIndex": 1,
+      "explanation": "1,000 + 1,000 = 2,000 (two thousand)."
+    },
+    {
+      "id": "fin-a1-w17-42",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "This is a cheap price",
+      "explanation": "Este es un precio barato."
+    },
+    {
+      "id": "fin-a1-w17-43",
+      "type": "multipleChoice",
+      "prompt": "I need to exchange my ______.",
+      "options": ["currency", "price", "number"],
+      "answerIndex": 0,
+      "explanation": "Necesito cambiar mi moneda (currency)."
+    },
+    {
+      "id": "fin-a1-w17-44",
+      "type": "fillBlanks",
+      "prompt": "Three [blank] is 300.",
+      "answers": ["hundred"],
+      "explanation": "300: three hundred."
+    },
+    {
+      "id": "fin-a1-w17-45",
+      "type": "multipleChoice",
+      "prompt": "Is that ______?",
+      "options": ["one million", "million one", "a millionth"],
+      "answerIndex": 0,
+      "explanation": "¿Es eso un millón?"
+    },
+    {
+      "id": "fin-a1-w17-46",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "What is the total price?",
+      "explanation": "¿Cuál es el precio total?"
+    },
+    {
+      "id": "fin-a1-w17-47",
+      "type": "multipleChoice",
+      "prompt": "The bill is for ______ hundred dollars.",
+      "options": ["two", "second", "twice"],
+      "answerIndex": 0,
+      "explanation": "Usamos el número normal para contar cientos."
+    },
+    {
+      "id": "fin-a1-w17-48",
+      "type": "fillBlanks",
+      "prompt": "How [blank] money do you need?",
+      "answers": ["much"],
+      "explanation": "How much money...?"
+    },
+    {
+      "id": "fin-a1-w17-49",
+      "type": "multipleChoice",
+      "prompt": "8,000,000 is eight ______.",
+      "options": ["thousand", "hundred", "million"],
+      "answerIndex": 2,
+      "explanation": "8,000,000 es 'eight million'."
+    },
+    {
+      "id": "fin-a1-w17-50",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The price is five dollars",
+      "explanation": "El precio es cinco dólares."
+    }
   ]
 }

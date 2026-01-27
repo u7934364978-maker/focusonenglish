@@ -1,7 +1,43 @@
-{
-  "goal": "finanzas", "level": "A2", "trimester": 2, "weekId": "semana19",
-  "title": "Ejercicios: Semana 19",
-  "items": [
-    { "id": "fin-a2-w19-1", "type": "multipleChoice", "prompt": "Basic question for A2 week 19.", "options": ["A", "B"], "answerIndex": 0 }
-  ]
-}
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is 'Investment' in Spanish?",
+    "options": ["Gasto", "Inversión", "Ahorro", "Deuda"],
+    "correctAnswer": 1,
+    "explanation": "'Investment' translates to 'Inversión'."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "Stocks are __________ (risk) than savings accounts.",
+    "correctAnswer": "riskier",
+    "explanation": "We use the comparative form 'riskier' because 'risk' is a short adjective ending in 'y'."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "Which one is a part of a company that you can buy?",
+    "options": ["Bond", "Stock", "Loan", "Tax"],
+    "correctAnswer": 1,
+    "explanation": "A 'Stock' or 'Share' represents ownership in a company."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the term with its meaning:",
+    "pairs": [
+      { "left": "Profit", "right": "Money earned" },
+      { "left": "Loss", "right": "Money lost" },
+      { "left": "Risk", "right": "Possibility of loss" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "Choose the correct comparative: 'Bonds are _______ than stocks.'",
+    "options": ["safer", "more safe", "safest", "as safe"],
+    "correctAnswer": 0,
+    "explanation": "'Safe' is a short adjective, so we add '-er' to form the comparative: 'safer'."
+  }
+]

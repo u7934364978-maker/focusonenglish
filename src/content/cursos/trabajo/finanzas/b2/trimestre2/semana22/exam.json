@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "Which of these is an 'Environmental' factor in ESG?",
+    "options": ["Board diversity", "Carbon emissions", "Employee rights", "Tax transparency"],
+    "correctAnswer": 1,
+    "explanation": "Carbon emissions are a key environmental (E) factor."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "What is 'Impact Investing'?",
+    "options": ["Investing only for profit", "Investing to generate social/environmental benefits alongside profit", "Investing in small shops", "Day trading"],
+    "correctAnswer": 1,
+    "explanation": "Impact investing seeks both financial return and positive change."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "Sustainable projects __________ (consider) to be essential for future growth.",
+    "correctAnswer": "are considered",
+    "explanation": "Passive structure for general consensus."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "A 'Carbon Footprint' measures:",
+    "options": ["The size of a factory", "The total greenhouse gas emissions", "The number of trees planted", "The price of oil"],
+    "correctAnswer": 1,
+    "explanation": "Carbon footprint quantifies the impact on the environment in CO2 equivalents."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "The firm _______ to have hidden its environmental liabilities.",
+    "options": ["is alleged", "alleges", "is alleging", "was allege"],
+    "correctAnswer": 0,
+    "explanation": "Passive reporting: is alleged to + verb."
+  }
+]

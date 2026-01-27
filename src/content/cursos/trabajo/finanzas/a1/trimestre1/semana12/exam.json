@@ -1,0 +1,95 @@
+{
+  "title": "Examen Final: Primer Trimestre (A1)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I works in a bank.",
+        "I work in a bank.",
+        "I am work in a bank.",
+        "I working in a bank."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Present Simple: I work."
+    },
+    {
+      "id": "q2",
+      "question": "What is the correct preposition for months (e.g., March)?",
+      "options": ["On", "At", "In", "By"],
+      "correctAnswer": 2,
+      "explanation": "Usamos 'in' con los meses."
+    },
+    {
+      "id": "q3",
+      "question": "How do you ask for the price of something?",
+      "options": [
+        "How many is it?",
+        "How much is it?",
+        "What price has it?",
+        "Who costs it?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "How much is it? es la forma estándar de preguntar el precio."
+    },
+    {
+      "id": "q4",
+      "question": "What is the opposite of 'Expensive'?",
+      "options": ["Big", "Cheap", "Fast", "High"],
+      "correctAnswer": 1,
+      "explanation": "Cheap (barato) es lo opuesto a expensive (caro)."
+    },
+    {
+      "id": "q5",
+      "question": "Which of these is a method of payment?",
+      "options": ["Account", "Manager", "ATM", "Credit Card"],
+      "correctAnswer": 3,
+      "explanation": "La tarjeta de crédito (credit card) es un método de pago."
+    },
+    {
+      "id": "q6",
+      "question": "How do you say 1,000,000 in English?",
+      "options": ["One thousand", "One million", "One hundred", "One billion"],
+      "correctAnswer": 1,
+      "explanation": "1,000,000 es 'one million'."
+    },
+    {
+      "id": "q7",
+      "question": "What is the formal way to ask for a receipt?",
+      "options": [
+        "Give me a receipt.",
+        "Could I have a receipt, please?",
+        "I want a receipt.",
+        "Is there a receipt?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Could I have... please? es la forma más formal y educada."
+    },
+    {
+      "id": "q8",
+      "question": "Which day comes after Friday?",
+      "options": ["Thursday", "Saturday", "Sunday", "Monday"],
+      "correctAnswer": 1,
+      "explanation": "Después del viernes viene el sábado (Saturday)."
+    },
+    {
+      "id": "q9",
+      "question": "What is an 'ATM'?",
+      "options": [
+        "A bank manager",
+        "A savings account",
+        "An automated teller machine (cajero)",
+        "A credit card"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ATM son las siglas de cajero automático."
+    },
+    {
+      "id": "q10",
+      "question": "The meeting is ______ Tuesday ______ 3:00 PM.",
+      "options": ["in / on", "on / at", "at / in", "on / in"],
+      "correctAnswer": 1,
+      "explanation": "On + día, At + hora."
+    }
+  ]
+}

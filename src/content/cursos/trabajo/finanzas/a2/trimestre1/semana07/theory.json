@@ -1,0 +1,24 @@
+{
+  "title": "Cajeros Automáticos y Seguridad",
+  "sections": [
+    {
+      "id": "vocab-atm-security",
+      "title": "Vocabulario: Seguridad en el Cajero",
+      "content": "Usar un cajero automático (ATM) requiere precaución. Vocabulario clave:\n\n- **Withdraw**: Retirar (dinero).\n- **Deposit**: Depositar / Ingresar.\n- **PIN (Personal Identification Number)**: Código secreto.\n- **Keyboard / Keypad**: Teclado.\n- **Suspicious**: Sospechoso.\n- **Cover**: Cubrir.\n- **Shoulder surfing**: Mirar por encima del hombro (para robar el PIN).\n- **Scam**: Estafa."
+    },
+    {
+      "id": "grammar-must-mustnt",
+      "title": "Gramática: Must y Mustn't",
+      "content": "Usamos estos verbos modales para expresar obligación y prohibición:\n\n1. **Must**: Obligación fuerte o algo muy importante.\n   - *You **must** cover your PIN.* (Debes cubrir tu PIN).\n   - *You **must** report a lost card.* (Debes reportar una tarjeta perdida).\n\n2. **Mustn't**: Prohibición (no está permitido).\n   - *You **mustn't** share your password.* (No debes compartir tu contraseña).\n   - *You **mustn't** use a suspicious ATM.* (No debes usar un cajero sospechoso).\n\n*Nota*: Después de 'must' y 'mustn't', el verbo va en infinitivo sin 'to'."
+    }
+  ],
+  "objectives": [
+    "Aprender vocabulario relacionado con el uso seguro de cajeros automáticos",
+    "Utilizar 'must' y 'mustn't' para dar instrucciones de seguridad",
+    "Identificar comportamientos sospechosos y medidas de prevención de fraudes"
+  ],
+  "keyTerms": [
+    { "term": "PIN", "definition": "A secret number used to access your bank account at an ATM." },
+    { "term": "Withdraw", "definition": "To take money out of a bank account." }
+  ]
+}

@@ -1,6 +1,24 @@
 {
-  "title": "Topic for Week 20 (A1)",
-  "sections": [{ "id": "v", "title": "Vocabulary", "content": "Basic financial terms for level A1." }],
-  "objectives": ["Learn basic terms"],
-  "keyTerms": []
+  "title": "Repaso del Segundo Trimestre (A1)",
+  "sections": [
+    {
+      "id": "review-vocab-a1",
+      "title": "Vocabulario Principal",
+      "content": "Resumen de palabras esenciales:\n\n- **Money**: Cash, Card, Coins, Notes.\n- **Bank**: Account, Manager, ATM, PIN.\n- **Shopping**: Buy, Pay, Receipt, Change, Cost.\n- **Numbers**: Hundred, Thousand, Million.\n- **Time**: Day, Week, Month, Appointment."
+    },
+    {
+      "id": "review-grammar-a1",
+      "title": "Gramática Básica",
+      "content": "Estructuras que debes recordar:\n\n- **Present Simple**: I pay, He buys.\n- **Questions**: How much...? What time...? Do you have...?\n- **Prepositions**: At 5:00, On Monday, In April.\n- **Imperatives**: Enter your PIN, Click here."
+    }
+  ],
+  "objectives": [
+    "Repasar el vocabulario básico de finanzas de nivel A1",
+    "Consolidar las estructuras de presente simple y preposiciones",
+    "Prepararse para el examen final del trimestre A1"
+  ],
+  "keyTerms": [
+    { "term": "Review", "definition": "Studying something again." },
+    { "term": "Exam", "definition": "A test to show what you know." }
+  ]
 }

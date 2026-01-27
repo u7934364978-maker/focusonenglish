@@ -1,0 +1,24 @@
+{
+  "title": "Entrevistas y Entorno Profesional",
+  "sections": [
+    {
+      "id": "prof-vocab",
+      "title": "Vocabulario: Buscando Trabajo en Finanzas",
+      "content": "A2 nivel. Términos básicos para el mundo laboral.\n\n- **Job interview**: Entrevista de trabajo\n- **Candidate**: Candidato\n- **Skills**: Habilidades\n- **Experience**: Experiencia\n- **Salary expectation**: Expectativa salarial\n- **Full-time / Part-time**: Jornada completa / media jornada\n- **To hire**: Contratar\n- **Teamwork**: Trabajo en equipo"
+    },
+    {
+      "id": "prof-grammar",
+      "title": "Gramática: Present Perfect para Experiencia",
+      "content": "Usamos el **Present Perfect** para hablar de experiencias pasadas sin mencionar un momento específico.\n\nEstructura: **Subject + have/has + past participle**\n\n- I **have worked** in a bank before. (He trabajado en un banco antes)\n- She **has used** this software. (Ella ha usado este software)\n- **Have you ever** managed a team? (¿Alguna vez has gestionado un equipo?)"
+    }
+  ],
+  "objectives": [
+    "Aprender vocabulario básico para entrevistas de trabajo",
+    "Expresar experiencia laboral usando el Present Perfect",
+    "Diferenciar entre tipos de contratos (full-time vs part-time)"
+  ],
+  "keyTerms": [
+    { "term": "Skills", "definition": "The things you can do well." },
+    { "term": "Hire", "definition": "To give someone a job." }
+  ]
+}

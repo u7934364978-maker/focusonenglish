@@ -1,0 +1,385 @@
+{
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 1,
+  "weekId": "semana09",
+  "title": "Compras y Precios",
+  "items": [
+    {
+      "id": "fin-a1-w09-1",
+      "type": "multipleChoice",
+      "prompt": "How ______ is this pen?",
+      "options": ["many", "much", "cost"],
+      "answerIndex": 1,
+      "explanation": "Usamos 'How much' para preguntar el precio."
+    },
+    {
+      "id": "fin-a1-w09-2",
+      "type": "multipleChoice",
+      "prompt": "I want to ______ a new computer.",
+      "options": ["sell", "buy", "cost"],
+      "answerIndex": 1,
+      "explanation": "Quiero comprar (buy) una computadora nueva."
+    },
+    {
+      "id": "fin-a1-w09-3",
+      "type": "multipleChoice",
+      "prompt": "The ______ is $10.",
+      "options": ["receipt", "discount", "price"],
+      "answerIndex": 2,
+      "explanation": "El precio (price) es de $10."
+    },
+    {
+      "id": "fin-a1-w09-4",
+      "type": "multipleChoice",
+      "prompt": "This car is $100,000. It is very ______.",
+      "options": ["expensive", "cheap", "free"],
+      "answerIndex": 0,
+      "explanation": "Si cuesta mucho dinero, es caro (expensive)."
+    },
+    {
+      "id": "fin-a1-w09-5",
+      "type": "multipleChoice",
+      "prompt": "This book is only $1. It is ______.",
+      "options": ["expensive", "cheap", "high"],
+      "answerIndex": 1,
+      "explanation": "Si cuesta poco dinero, es barato (cheap)."
+    },
+    {
+      "id": "fin-a1-w09-6",
+      "type": "fillBlanks",
+      "prompt": "How [blank] dollars do you need?",
+      "answers": ["many"],
+      "explanation": "Los dólares se pueden contar, por eso usamos 'How many'."
+    },
+    {
+      "id": "fin-a1-w09-7",
+      "type": "fillBlanks",
+      "prompt": "The [blank] shows I paid $50.",
+      "answers": ["receipt"],
+      "explanation": "El recibo (receipt) es el comprobante de pago."
+    },
+    {
+      "id": "fin-a1-w09-8",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "How much does it cost?",
+      "explanation": "¿Cuánto cuesta?"
+    },
+    {
+      "id": "fin-a1-w09-9",
+      "type": "multipleChoice",
+      "prompt": "Can I have a ______? I have a coupon.",
+      "options": ["discount", "receipt", "price"],
+      "answerIndex": 0,
+      "explanation": "Un cupón suele dar un descuento (discount)."
+    },
+    {
+      "id": "fin-a1-w09-10",
+      "type": "multipleChoice",
+      "prompt": "They ______ books at the store.",
+      "options": ["buy", "sell", "cost"],
+      "answerIndex": 1,
+      "explanation": "Ellos venden (sell) libros en la tienda."
+    },
+    {
+      "id": "fin-a1-w09-11",
+      "type": "fillBlanks",
+      "prompt": "How [blank] is the milk? It's $2.",
+      "answers": ["much"],
+      "explanation": "Preguntamos el precio con 'How much'."
+    },
+    {
+      "id": "fin-a1-w09-12",
+      "type": "multipleChoice",
+      "prompt": "How ______ cards do you have in your wallet?",
+      "options": ["much", "many", "price"],
+      "answerIndex": 1,
+      "explanation": "Las tarjetas se pueden contar (How many)."
+    },
+    {
+      "id": "fin-a1-w09-13",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "That phone is very expensive",
+      "explanation": "Ese teléfono es muy caro."
+    },
+    {
+      "id": "fin-a1-w09-14",
+      "type": "multipleChoice",
+      "prompt": "Is there a ______ today? Everything is 50% off.",
+      "options": ["price", "sale", "receipt"],
+      "answerIndex": 1,
+      "explanation": "Una liquidación o rebaja se dice 'sale'."
+    },
+    {
+      "id": "fin-a1-w09-15",
+      "type": "fillBlanks",
+      "prompt": "I [blank] a newspaper every morning.",
+      "answers": ["buy"],
+      "explanation": "Compro (buy) el periódico."
+    },
+    {
+      "id": "fin-a1-w09-16",
+      "type": "multipleChoice",
+      "prompt": "The total ______ is $15.",
+      "options": ["buy", "cost", "sell"],
+      "answerIndex": 1,
+      "explanation": "El costo total es de $15."
+    },
+    {
+      "id": "fin-a1-w09-17",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The price is ten euros",
+      "explanation": "El precio es diez euros."
+    },
+    {
+      "id": "fin-a1-w09-18",
+      "type": "multipleChoice",
+      "prompt": "How ______ coins are on the table?",
+      "options": ["much", "many", "is"],
+      "answerIndex": 1,
+      "explanation": "Las monedas se cuentan (How many)."
+    },
+    {
+      "id": "fin-a1-w09-19",
+      "type": "fillBlanks",
+      "prompt": "The bread is very [blank]. It's only 50 cents.",
+      "answers": ["cheap"],
+      "explanation": "Si cuesta poco, es barato (cheap)."
+    },
+    {
+      "id": "fin-a1-w09-20",
+      "type": "multipleChoice",
+      "prompt": "I need the ______ for my tax return.",
+      "options": ["receipt", "discount", "sell"],
+      "answerIndex": 0,
+      "explanation": "Necesito el recibo (receipt)."
+    },
+    {
+      "id": "fin-a1-w09-21",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "How many coins do you have?",
+      "explanation": "¿Cuántas monedas tienes?"
+    },
+    {
+      "id": "fin-a1-w09-22",
+      "type": "fillBlanks",
+      "prompt": "Does it [blank] a lot of money?",
+      "answers": ["cost"],
+      "explanation": "¿Cuesta (cost) mucho dinero?"
+    },
+    {
+      "id": "fin-a1-w09-23",
+      "type": "multipleChoice",
+      "prompt": "The ______ of this house is high.",
+      "options": ["cost", "receipt", "cheap"],
+      "answerIndex": 0,
+      "explanation": "El costo (cost) de esta casa es alto."
+    },
+    {
+      "id": "fin-a1-w09-24",
+      "type": "fillBlanks",
+      "prompt": "I don't have [blank] money.",
+      "answers": ["much"],
+      "explanation": "El dinero (money) en general es incontable, usamos 'much'."
+    },
+    {
+      "id": "fin-a1-w09-25",
+      "type": "multipleChoice",
+      "prompt": "We ______ our products online.",
+      "options": ["buy", "sell", "receipt"],
+      "answerIndex": 1,
+      "explanation": "Vendemos (sell) nuestros productos por internet."
+    },
+    {
+      "id": "fin-a1-w09-26",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I want a big discount",
+      "explanation": "Quiero un gran descuento."
+    },
+    {
+      "id": "fin-a1-w09-27",
+      "type": "multipleChoice",
+      "prompt": "How ______ people are in the bank?",
+      "options": ["much", "many", "price"],
+      "answerIndex": 1,
+      "explanation": "Las personas se cuentan (How many)."
+    },
+    {
+      "id": "fin-a1-w09-28",
+      "type": "fillBlanks",
+      "prompt": "This watch is [blank]. ($5000)",
+      "answers": ["expensive"],
+      "explanation": "Si cuesta mucho, es caro."
+    },
+    {
+      "id": "fin-a1-w09-29",
+      "type": "multipleChoice",
+      "prompt": "Can you check the ______ please?",
+      "options": ["price", "sell", "buy"],
+      "answerIndex": 0,
+      "explanation": "¿Puede revisar el precio (price)?"
+    },
+    {
+      "id": "fin-a1-w09-30",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "He buys a new car",
+      "explanation": "Él compra un coche nuevo."
+    },
+    {
+      "id": "fin-a1-w09-31",
+      "type": "multipleChoice",
+      "prompt": "I ______ my old phone yesterday.",
+      "options": ["sell", "sold", "buy"],
+      "answerIndex": 1,
+      "explanation": "Vendí (sold) mi teléfono viejo ayer."
+    },
+    {
+      "id": "fin-a1-w09-32",
+      "type": "fillBlanks",
+      "prompt": "How [blank] is the fee?",
+      "answers": ["much"],
+      "explanation": "¿De cuánto es la comisión?"
+    },
+    {
+      "id": "fin-a1-w09-33",
+      "type": "multipleChoice",
+      "prompt": "The ______ of living is going up.",
+      "options": ["cost", "sell", "receipt"],
+      "answerIndex": 0,
+      "explanation": "El costo de vida (cost of living)."
+    },
+    {
+      "id": "fin-a1-w09-34",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "Is there a discount here?",
+      "explanation": "¿Hay algún descuento aquí?"
+    },
+    {
+      "id": "fin-a1-w09-35",
+      "type": "multipleChoice",
+      "prompt": "How ______ accounts do you have?",
+      "options": ["much", "many", "price"],
+      "answerIndex": 1,
+      "explanation": "Las cuentas se cuentan (How many)."
+    },
+    {
+      "id": "fin-a1-w09-36",
+      "type": "fillBlanks",
+      "prompt": "I need to [blank] some milk.",
+      "answers": ["buy"],
+      "explanation": "Necesito comprar leche."
+    },
+    {
+      "id": "fin-a1-w09-37",
+      "type": "multipleChoice",
+      "prompt": "The ______ is on the table.",
+      "options": ["receipt", "cheap", "expensive"],
+      "answerIndex": 0,
+      "explanation": "El recibo está sobre la mesa."
+    },
+    {
+      "id": "fin-a1-w09-38",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The supermarket is very cheap",
+      "explanation": "El supermercado es muy barato."
+    },
+    {
+      "id": "fin-a1-w09-39",
+      "type": "multipleChoice",
+      "prompt": "How ______ does it cost to send money?",
+      "options": ["many", "much", "is"],
+      "answerIndex": 1,
+      "explanation": "¿Cuánto cuesta enviar dinero?"
+    },
+    {
+      "id": "fin-a1-w09-40",
+      "type": "fillBlanks",
+      "prompt": "We [blank] houses.",
+      "answers": ["sell"],
+      "explanation": "Nosotros vendemos casas."
+    },
+    {
+      "id": "fin-a1-w09-41",
+      "type": "multipleChoice",
+      "prompt": "Is the ______ inclusive of tax?",
+      "options": ["price", "receipt", "cheap"],
+      "answerIndex": 0,
+      "explanation": "¿El precio incluye impuestos?"
+    },
+    {
+      "id": "fin-a1-w09-42",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Please give me the receipt",
+      "explanation": "Por favor, deme el recibo."
+    },
+    {
+      "id": "fin-a1-w09-43",
+      "type": "multipleChoice",
+      "prompt": "How ______ ATMs are in this street?",
+      "options": ["much", "many", "price"],
+      "answerIndex": 1,
+      "explanation": "Los cajeros se cuentan (How many)."
+    },
+    {
+      "id": "fin-a1-w09-44",
+      "type": "fillBlanks",
+      "prompt": "This laptop is [blank]. I like it.",
+      "answers": ["cheap"],
+      "explanation": "Esta laptop es barata. Me gusta."
+    },
+    {
+      "id": "fin-a1-w09-45",
+      "type": "multipleChoice",
+      "prompt": "I don't ______ expensive things.",
+      "options": ["buy", "sell", "cost"],
+      "answerIndex": 0,
+      "explanation": "No compro cosas caras."
+    },
+    {
+      "id": "fin-a1-w09-46",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "How much is the total?",
+      "explanation": "¿Cuánto es el total?"
+    },
+    {
+      "id": "fin-a1-w09-47",
+      "type": "multipleChoice",
+      "prompt": "There is a 10% ______ on shoes.",
+      "options": ["receipt", "discount", "sell"],
+      "answerIndex": 1,
+      "explanation": "Hay un 10% de descuento."
+    },
+    {
+      "id": "fin-a1-w09-48",
+      "type": "fillBlanks",
+      "prompt": "They [blank] fruit here.",
+      "answers": ["sell"],
+      "explanation": "Ellos venden fruta aquí."
+    },
+    {
+      "id": "fin-a1-w09-49",
+      "type": "multipleChoice",
+      "prompt": "How ______ time do we have?",
+      "options": ["many", "much", "cost"],
+      "answerIndex": 1,
+      "explanation": "El tiempo es incontable (How much time)."
+    },
+    {
+      "id": "fin-a1-w09-50",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Everything is on sale today",
+      "explanation": "Todo está de rebaja hoy."
+    }
+  ]
+}

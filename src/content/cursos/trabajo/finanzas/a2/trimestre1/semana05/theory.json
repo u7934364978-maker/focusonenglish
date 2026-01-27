@@ -1,0 +1,24 @@
+{
+  "title": "Préstamos Personales",
+  "sections": [
+    {
+      "id": "vocab-loans",
+      "title": "Vocabulario: El Mundo de los Préstamos",
+      "content": "Para entender un préstamo personal, necesitamos manejar estos términos:\n\n- **Loan**: Préstamo.\n- **Interest Rate**: Tasa de interés.\n- **Repayment**: Pago o devolución del préstamo.\n- **Lender**: Prestamista (el banco).\n- **Borrower**: Prestatario (quien recibe el dinero).\n- **Term**: Plazo (el tiempo para devolver el dinero).\n- **Installment**: Cuota mensual."
+    },
+    {
+      "id": "grammar-superlatives",
+      "title": "Gramática: Superlativos",
+      "content": "Usamos los superlativos para decir que algo es 'el más' de un grupo:\n\n1. **Adjetivos cortos**: Añadimos *-est*.\n   - *The cheapest loan* (El préstamo más barato).\n   - *The fastest service* (El servicio más rápido).\n\n2. **Adjetivos largos**: Usamos *the most*.\n   - *The most expensive car* (El coche más caro).\n   - *The most important document* (El documento más importante).\n\n3. **Irregulares**:\n   - *Good -> The best* (El mejor).\n   - *Bad -> The worst* (El peor)."
+    }
+  ],
+  "objectives": [
+    "Aprender vocabulario específico sobre préstamos y deudas",
+    "Utilizar los superlativos para comparar opciones financieras",
+    "Comprender las partes básicas de un contrato de préstamo"
+  ],
+  "keyTerms": [
+    { "term": "Interest Rate", "definition": "The percentage of the loan amount charged by the lender." },
+    { "term": "Term", "definition": "The period of time over which the loan must be repaid." }
+  ]
+}

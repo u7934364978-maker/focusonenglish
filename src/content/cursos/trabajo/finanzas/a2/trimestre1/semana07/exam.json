@@ -1,0 +1,55 @@
+{
+  "title": "Examen: Cajeros y Modal Must",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What does 'Withdraw' mean?",
+      "options": [
+        "To put money into an account",
+        "To take money out of an account",
+        "To change your secret PIN",
+        "To close a bank account"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Withdraw significa retirar dinero."
+    },
+    {
+      "id": "q2",
+      "question": "Which sentence expresses a prohibition?",
+      "options": [
+        "You must cover the keypad.",
+        "You mustn't share your PIN.",
+        "You can use the ATM.",
+        "You must report a lost card."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mustn't expresa prohibición (no debes)."
+    },
+    {
+      "id": "q3",
+      "question": "What is 'Shoulder Surfing'?",
+      "options": [
+        "A type of sport at the beach",
+        "Looking over someone's shoulder to see their PIN",
+        "A bank transfer between two people",
+        "A security guard at the bank"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Shoulder surfing es mirar por encima del hombro para robar información."
+    },
+    {
+      "id": "q4",
+      "question": "You ______ use an ATM if it looks broken or strange.",
+      "options": ["must", "can", "mustn't", "could"],
+      "correctAnswer": 2,
+      "explanation": "No debes (mustn't) usar un cajero si parece roto o extraño."
+    },
+    {
+      "id": "q5",
+      "question": "If you lose your card, you ______ call the bank immediately.",
+      "options": ["mustn't", "must", "won't", "don't"],
+      "correctAnswer": 1,
+      "explanation": "Es una obligación de seguridad llamar al banco (must call)."
+    }
+  ]
+}

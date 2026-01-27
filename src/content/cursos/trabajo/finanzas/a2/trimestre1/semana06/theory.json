@@ -1,0 +1,24 @@
+{
+  "title": "Servicio al Cliente y Quejas",
+  "sections": [
+    {
+      "id": "vocab-complaints",
+      "title": "Vocabulario: Quejas y Problemas",
+      "content": "En el sector financiero, a veces surgen problemas. Aquí tienes vocabulario útil:\n\n- **Complain**: Quejarse.\n- **Complaint**: Queja / Reclamación.\n- **Refund**: Reembolso / Devolución de dinero.\n- **Error / Mistake**: Error / Equivocación.\n- **Delay**: Retraso.\n- **Charge / Fee**: Cargo / Comisión.\n- **Apologize**: Pedir disculpas.\n- **Solve**: Resolver."
+    },
+    {
+      "id": "grammar-adverbs-frequency",
+      "title": "Gramática: Adverbios de Frecuencia",
+      "content": "Usamos estos adverbios para decir con qué frecuencia ocurre algo:\n\n- **Always**: Siempre (100%).\n- **Usually**: Normalmente (80%).\n- **Often**: A menudo (60%).\n- **Sometimes**: A veces (40%).\n- **Rarely / Seldom**: Rara vez (10%).\n- **Never**: Nunca (0%).\n\n*Regla de posición*: Van antes del verbo principal, pero después del verbo 'to be'.\n- *I **always** check my balance.* (Siempre reviso mi saldo).\n- *The bank is **never** open on Sundays.* (El banco nunca está abierto los domingos)."
+    }
+  ],
+  "objectives": [
+    "Aprender a expresar quejas y reportar errores financieros",
+    "Utilizar los adverbios de frecuencia para describir hábitos bancarios",
+    "Conocer términos relacionados con reembolsos y retrasos en transacciones"
+  ],
+  "keyTerms": [
+    { "term": "Refund", "definition": "Money that is given back to you because you are not happy with something or because you paid too much." },
+    { "term": "Apologize", "definition": "To say that you are sorry for something that has happened." }
+  ]
+}

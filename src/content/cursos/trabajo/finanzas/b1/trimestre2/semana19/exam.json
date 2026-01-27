@@ -1,7 +1,41 @@
-{
-  "goal": "finanzas", "level": "B1", "trimester": 2, "weekId": "semana19", "examId": "fin-b1-w19-exam",
-  "title": "Examen: Semana 19",
-  "items": [
-    { "id": "fin-b1-w19-exam-1", "type": "multipleChoice", "prompt": "Final question for week 19.", "options": ["True", "False"], "answerIndex": 0, "explanation": "Final check." }
-  ]
-}
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is an insurance 'Premium'?",
+    "options": ["The amount you pay for the policy", "The amount the bank gives you", "A type of bonus", "The deductible amount"],
+    "correctAnswer": 0,
+    "explanation": "A premium is the amount of money an individual or business pays for an insurance policy."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "A 'Deductible' is:",
+    "options": ["The total coverage", "The part of the claim you pay yourself", "The insurance agent's fee", "A discount on the policy"],
+    "correctAnswer": 1,
+    "explanation": "The deductible (franquicia) is the amount you pay out-of-pocket before insurance covers the rest."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "You __________ (should) read the terms and conditions carefully.",
+    "correctAnswer": "should",
+    "explanation": "'Should' is used to give advice."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "What is 'Third-party liability'?",
+    "options": ["Insurance for your own car", "Insurance that covers damage to others", "Insurance for three people", "Health insurance"],
+    "correctAnswer": 1,
+    "explanation": "Third-party liability (responsabilidad civil) covers damage caused to other people or property."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "Insurance companies __________ (must) follow government regulations.",
+    "options": ["can", "may", "must", "might"],
+    "correctAnswer": 2,
+    "explanation": "'Must' is used for strong legal obligations."
+  }
+]

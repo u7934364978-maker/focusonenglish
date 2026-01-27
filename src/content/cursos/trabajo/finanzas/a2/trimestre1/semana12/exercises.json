@@ -1,0 +1,324 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "Which of these is used for a fixed plan in the future?",
+      "options": ["Past simple", "Present continuous", "Present simple", "There is"],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "You ______ tell anyone your PIN number.",
+      "options": ["must", "mustn't", "can", "are"],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "question": "This is the ______ credit card in the market.",
+      "options": ["goodest", "better", "best", "good"],
+      "answer": 2
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "question": "I have ______ here for three years.",
+      "options": ["work", "worked", "working", "works"],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "question": "They are ______ to open a new account tomorrow.",
+      "options": ["go", "goes", "going", "gone"],
+      "answer": 2
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "question": "A ______ email is a fake email to steal data.",
+      "options": ["Phishing", "Shipping", "Pushing", "Fishing"],
+      "answer": 0
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "question": "There ______ any money in my wallet yesterday.",
+      "options": ["wasn't", "weren't", "isn't", "aren't"],
+      "answer": 0
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "question": "How ______ money do you have in your account?",
+      "options": ["many", "much", "long", "often"],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "question": "We have had this portfolio ______ 2018.",
+      "options": ["for", "since", "during", "ago"],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "question": "A monthly payment for a loan is an ______.",
+      "options": ["installment", "interest", "investment", "insurance"],
+      "answer": 0
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "question": "The ______ icon means the connection is secure.",
+      "options": ["padlock", "star", "cross", "circle"],
+      "answer": 0
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "question": "Have you ______ applied for a mortgage?",
+      "options": ["never", "ever", "yet", "already"],
+      "answer": 1
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "question": "He ______ at the bank every day.",
+      "options": ["work", "works", "is working", "worked"],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "question": "This loan is ______ than the other one.",
+      "options": ["cheap", "cheaper", "cheapest", "more cheap"],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "question": "We ______ at the meeting yesterday.",
+      "options": ["was", "were", "are", "is"],
+      "answer": 1
+    },
+    {
+      "id": 16,
+      "type": "multiple-choice",
+      "question": "A ______ is a range of investments.",
+      "options": ["portfolio", "dividend", "yield", "broker"],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "question": "I ______ never defaulted on a payment.",
+      "options": ["has", "have", "am", "do"],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "type": "multiple-choice",
+      "question": "You ______ sign the contract before leaving.",
+      "options": ["must", "mustn't", "are", "don't"],
+      "answer": 0
+    },
+    {
+      "id": 19,
+      "type": "multiple-choice",
+      "question": "What is the ______ limit on your card?",
+      "options": ["credit", "debit", "score", "rate"],
+      "answer": 0
+    },
+    {
+      "id": 20,
+      "type": "multiple-choice",
+      "question": "How ______ have you been an investor?",
+      "options": ["much", "long", "many", "often"],
+      "answer": 1
+    },
+    {
+      "id": 21,
+      "type": "fill-in-the-blanks",
+      "question": "I have ______ (be) a customer since 2010.",
+      "answer": "been"
+    },
+    {
+      "id": 22,
+      "type": "fill-in-the-blanks",
+      "question": "You ______ (must/mustn't) share your password.",
+      "answer": "mustn't"
+    },
+    {
+      "id": 23,
+      "type": "fill-in-the-blanks",
+      "question": "This is the ______ (expensive) bank in the city.",
+      "answer": "most expensive"
+    },
+    {
+      "id": 24,
+      "type": "fill-in-the-blanks",
+      "question": "We ______ ______ (meet) the advisor tomorrow at 10 AM.",
+      "answer": "are meeting"
+    },
+    {
+      "id": 25,
+      "type": "fill-in-the-blanks",
+      "question": "A ______ is a payment made to shareholders.",
+      "answer": "dividend"
+    },
+    {
+      "id": 26,
+      "type": "fill-in-the-blanks",
+      "question": "I ______ (not / see) my balance yet today.",
+      "answer": "haven't seen"
+    },
+    {
+      "id": 27,
+      "type": "fill-in-the-blanks",
+      "question": "The ______ ______ (two words) is 15%.",
+      "answer": "interest rate"
+    },
+    {
+      "id": 28,
+      "type": "fill-in-the-blanks",
+      "question": "Were you at the bank yesterday? No, I ______.",
+      "answer": "wasn't"
+    },
+    {
+      "id": 29,
+      "type": "fill-in-the-blanks",
+      "question": "He has lived in London ______ (for/since) five years.",
+      "answer": "for"
+    },
+    {
+      "id": 30,
+      "type": "fill-in-the-blanks",
+      "question": "If you lose your card, you must ______ (block) it.",
+      "answer": "block"
+    },
+    {
+      "id": 31,
+      "type": "fill-in-the-blanks",
+      "question": "There ______ (be) some issues with the ATM.",
+      "answer": "are"
+    },
+    {
+      "id": 32,
+      "type": "fill-in-the-blanks",
+      "question": "I ______ ______ (buy) a new car next month.",
+      "answer": "am going to buy"
+    },
+    {
+      "id": 33,
+      "type": "fill-in-the-blanks",
+      "question": "A ______ is someone who buys and sells shares.",
+      "answer": "broker"
+    },
+    {
+      "id": 34,
+      "type": "fill-in-the-blanks",
+      "question": "Has she ______ (pay) her credit card bill?",
+      "answer": "paid"
+    },
+    {
+      "id": 35,
+      "type": "fill-in-the-blanks",
+      "question": "The ______ ______ (two words) shows your reliability.",
+      "answer": "credit score"
+    },
+    {
+      "id": 36,
+      "type": "fill-in-the-blanks",
+      "question": "We ______ (not / have) any cash right now.",
+      "answer": "don't have"
+    },
+    {
+      "id": 37,
+      "type": "fill-in-the-blanks",
+      "question": "This bond is ______ (safe) than that stock.",
+      "answer": "safer"
+    },
+    {
+      "id": 38,
+      "type": "fill-in-the-blanks",
+      "question": "I have ______ (have) this portfolio for ages.",
+      "answer": "had"
+    },
+    {
+      "id": 39,
+      "type": "fill-in-the-blanks",
+      "question": "The ______ icon is important for online safety.",
+      "answer": "padlock"
+    },
+    {
+      "id": 40,
+      "type": "fill-in-the-blanks",
+      "question": "They ______ (be) at the conference last week.",
+      "answer": "were"
+    },
+    {
+      "id": 41,
+      "type": "reorder",
+      "question": "have / I / lived / here / since / 2015",
+      "answer": "I have lived here since 2015"
+    },
+    {
+      "id": 42,
+      "type": "reorder",
+      "question": "must / you / your / protect / password",
+      "answer": "you must protect your password"
+    },
+    {
+      "id": 43,
+      "type": "reorder",
+      "question": "is / credit / the / what / limit / ?",
+      "answer": "what is the credit limit ?"
+    },
+    {
+      "id": 44,
+      "type": "reorder",
+      "question": "meeting / the / am / I / manager / tomorrow",
+      "answer": "I am meeting the manager tomorrow"
+    },
+    {
+      "id": 45,
+      "type": "reorder",
+      "question": "not / they / paid / have / dividends / yet",
+      "answer": "they have not paid dividends yet"
+    },
+    {
+      "id": 46,
+      "type": "reorder",
+      "question": "is / best / this / the / investment",
+      "answer": "this is the best investment"
+    },
+    {
+      "id": 47,
+      "type": "reorder",
+      "question": "he / working / is / at / bank / the / now",
+      "answer": "he is working at the bank now"
+    },
+    {
+      "id": 48,
+      "type": "reorder",
+      "question": "you / were / at / yesterday / bank / the / ?",
+      "answer": "were you at the bank yesterday ?"
+    },
+    {
+      "id": 49,
+      "type": "reorder",
+      "question": "going / we / are / a / to / loan / take",
+      "answer": "we are going to take a loan"
+    },
+    {
+      "id": 50,
+      "type": "reorder",
+      "question": "phishing / be / of / careful / scams",
+      "answer": "be careful of phishing scams"
+    }
+  ]
+}

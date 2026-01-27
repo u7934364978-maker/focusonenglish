@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "Are you prepared for the B1 level final exam?",
+    "options": ["Yes, I am ready", "I need to review more", "I am a bit nervous", "Let's do this!"],
+    "correctAnswer": 0,
+    "explanation": "This is your final assessment for Trimestre 2. Good luck!"
+  }
+]

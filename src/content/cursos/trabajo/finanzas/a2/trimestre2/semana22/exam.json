@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "Which question is common in a job interview?",
+    "options": ["What is your favorite color?", "Tell me about your experience.", "Where is the bathroom?", "Do you like pizza?"],
+    "correctAnswer": 1,
+    "explanation": "Asking about experience is a standard part of any job interview."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "What does a 'Candidate' do?",
+    "options": ["Hires people", "Applies for a job", "Pays taxes", "Sells products"],
+    "correctAnswer": 1,
+    "explanation": "A candidate is a person who is being considered for a job."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "__________ you ever (be) to London for work?",
+    "correctAnswer": "Have... been",
+    "explanation": "We use 'Have... been' for the question form of Present Perfect with 'ever'."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "What are 'Soft skills'?",
+    "options": ["Technical knowledge", "Programming", "Communication and teamwork", "Writing a check"],
+    "correctAnswer": 2,
+    "explanation": "Soft skills are personal attributes like communication, teamwork, and problem-solving."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "She ________ a lot of success in her career.",
+    "options": ["have had", "has have", "has had", "had had"],
+    "correctAnswer": 2,
+    "explanation": "Third person singular 'She' takes 'has' + past participle 'had'."
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "Which document shows the profit or loss over a period?",
+    "options": ["Balance Sheet", "P&L Statement", "Invoice", "Audit Trail"],
+    "correctAnswer": 1,
+    "explanation": "The P&L (Profit and Loss) statement shows revenue and expenses over a specific time."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "The report __________ (write) by the auditor last week.",
+    "correctAnswer": "was written",
+    "explanation": "Passive Voice (Past Simple)."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "What is 'Hedging' used for?",
+    "options": ["To increase risk", "To reduce risk", "To pay taxes", "To hire employees"],
+    "correctAnswer": 1,
+    "explanation": "Hedging is a risk management strategy."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the terms:",
+    "pairs": [
+      { "left": "Revenue", "right": "Total sales" },
+      { "left": "Expenditure", "right": "Total costs" },
+      { "left": "Liquidity", "right": "Available cash" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "He said that the company _______ growing fast.",
+    "options": ["is", "was", "will be", "be"],
+    "correctAnswer": 1,
+    "explanation": "Reported Speech backshifting."
+  }
+]

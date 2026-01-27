@@ -1,7 +1,41 @@
-{
-  "goal": "finanzas", "level": "A2", "trimester": 2, "weekId": "semana19", "examId": "fin-a2-w19-exam",
-  "title": "Examen: Semana 19",
-  "items": [
-    { "id": "fin-a2-w19-exam-1", "type": "multipleChoice", "prompt": "Exam question for A2 week 19.", "options": ["Yes", "No"], "answerIndex": 0 }
-  ]
-}
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What does 'ROI' stand for in finance?",
+    "options": ["Risk of Investment", "Return on Investment", "Real Operating Income", "Rate of Interest"],
+    "correctAnswer": 1,
+    "explanation": "ROI stands for 'Return on Investment', which measures the profit from an investment."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "The Stock Market is generally ________ than a regular bank account.",
+    "options": ["more dangerous", "more riskier", "better", "more profitable but riskier"],
+    "correctAnswer": 3,
+    "explanation": "The stock market usually offers higher returns but involves more risk."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "Gold is often considered __________ (good) than cash during high inflation.",
+    "correctAnswer": "better",
+    "explanation": "The comparative of 'good' is 'better'."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "If you lose money on an investment, it is a ________.",
+    "options": ["Profit", "Gain", "Loss", "Asset"],
+    "correctAnswer": 2,
+    "explanation": "A 'Loss' is when you lose money on an investment."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "What is a 'Bond' in Spanish?",
+    "options": ["Bolsa", "Bono", "Banco", "Billete"],
+    "correctAnswer": 1,
+    "explanation": "'Bond' translates to 'Bono' in the context of finance."
+  }
+]

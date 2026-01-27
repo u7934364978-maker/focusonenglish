@@ -1,0 +1,24 @@
+{
+  "title": "Repaso del Primer Trimestre",
+  "sections": [
+    {
+      "id": "review-grammar",
+      "title": "Resumen Gramatical",
+      "content": "Durante este trimestre hemos cubierto las bases de la comunicación en un entorno financiero:\n\n1. **Presente Simple**: Para rutinas y estados (I work at a bank).\n2. **Pasado Simple (Was/Were)**: Para estados pasados.\n3. **Comparativos y Superlativos**: Para comparar productos (This loan is cheaper than that one).\n4. **Must/Mustn't**: Para reglas y seguridad (You must protect your PIN).\n5. **Futuro (Going to / Present Continuous)**: Para intenciones y planes fijos.\n6. **Presente Perfecto**: Para experiencias y duraciones con 'for' y 'since'."
+    },
+    {
+      "id": "review-vocab",
+      "title": "Resumen de Vocabulario",
+      "content": "Temas clave tratados:\n\n- **Banca Básica**: Withdrawal, deposit, account balance.\n- **Seguridad**: Phishing, scam, padlock, 2FA.\n- **Préstamos**: Credit limit, installments, interest rate, mortgage.\n- **Inversiones**: Stocks, bonds, portfolio, dividends."
+    }
+  ],
+  "objectives": [
+    "Consolidar los conocimientos gramaticales del trimestre",
+    "Repasar el vocabulario técnico financiero esencial",
+    "Prepararse para el examen final del trimestre"
+  ],
+  "keyTerms": [
+    { "term": "Review", "definition": "A formal assessment of something with the possibility or intention of instituting change if necessary." },
+    { "term": "Assessment", "definition": "The evaluation or estimation of the nature, quality, or ability of someone or something." }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Ahorrar Dinero",
+  "sections": [
+    {
+      "id": "vocab-saving",
+      "title": "Vocabulario: Cómo Ahorrar",
+      "content": "Ahorrar es guardar dinero para el futuro. Aquí tienes palabras básicas:\n\n- **Savings**: Ahorros.\n- **Savings Account**: Cuenta de ahorros.\n- **Piggy Bank**: Hucha / Alcancía.\n- **Budget**: Presupuesto (plan para tu dinero).\n- **Goal**: Meta / Objetivo (por ejemplo, comprar una bici).\n- **Pocket Money**: Paga (dinero que te dan tus padres).\n- **Put Aside**: Guardar / Apartar dinero."
+    },
+    {
+      "id": "grammar-review-can",
+      "title": "Gramática: Repaso de 'Can' para Posibilidad",
+      "content": "Usamos 'can' para hablar de lo que es posible hacer con tus ahorros.\n\n- *I **can** save 10 euros every week.* (Puedo ahorrar 10 euros cada semana).\n- *You **can** buy a new phone if you save.* (Puedes comprar un móvil nuevo si ahorras).\n- *We **can't** spend all our money.* (No podemos gastar todo nuestro dinero).\n\n**Pregunta:**\n- *Can I open a savings account?* (¿Puedo abrir una cuenta de ahorros?)"
+    }
+  ],
+  "objectives": [
+    "Aprender vocabulario sobre el ahorro personal",
+    "Usar 'can' para hablar de posibilidades de ahorro",
+    "Hablar sobre metas financieras sencillas"
+  ],
+  "keyTerms": [
+    { "term": "Budget", "definition": "A plan to show how much money a person or organization will earn and how much they will need or be able to spend." },
+    { "term": "Savings", "definition": "The money that you keep and do not spend." }
+  ]
+}

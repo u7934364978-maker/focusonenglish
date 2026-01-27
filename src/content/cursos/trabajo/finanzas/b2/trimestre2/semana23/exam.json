@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What are 'Hedge Funds'?",
+    "options": ["Mutual funds for everyone", "Alternative investments using various complex strategies", "Government-backed savings", "Taxes on plants"],
+    "correctAnswer": 1,
+    "explanation": "Hedge funds use non-traditional strategies to seek absolute returns."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "What does a 'Call Option' provide?",
+    "options": ["Right to buy", "Obligation to buy", "Right to sell", "Obligation to sell"],
+    "correctAnswer": 0,
+    "explanation": "Call = Right to buy."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "The company __________ (believe) to be preparing an IPO.",
+    "correctAnswer": "is believed",
+    "explanation": "Advanced Passive reporting."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "What is 'Blockchain' in finance?",
+    "options": ["A metal chain", "A distributed ledger technology", "A type of insurance", "A stock market in Europe"],
+    "correctAnswer": 1,
+    "explanation": "Blockchain is the technology behind cryptocurrencies and smart contracts."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "I wish the analysts _______ more accurate yesterday.",
+    "options": ["were", "had been", "are", "would be"],
+    "correctAnswer": 1,
+    "explanation": "Wish + Past Perfect for past regret."
+  }
+]

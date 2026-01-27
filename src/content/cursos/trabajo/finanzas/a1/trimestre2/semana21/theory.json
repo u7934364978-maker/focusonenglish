@@ -1,0 +1,29 @@
+{
+  "title": "Banca Digital y Seguridad",
+  "sections": [
+    {
+      "id": "digital-vocab",
+      "title": "Vocabulario de Banca Online",
+      "content": "Hoy en día, la mayoría de las transacciones se hacen por internet.\n\n- **Online Banking**: Banca en línea\n- **Login**: Iniciar sesión\n- **Password / Passcode**: Contraseña / Código de acceso\n- **Username**: Nombre de usuario\n- **Website**: Sitio web\n- **App**: Aplicación móvil\n- **Download**: Descargar"
+    },
+    {
+      "id": "security",
+      "title": "Seguridad Básica",
+      "content": "Es importante proteger tu información.\n\n- **Security**: Seguridad\n- **Safe**: Seguro (adjetivo)\n- **Private**: Privado\n- **Lock**: Bloquear / Candado\n- **Hack**: Hackear (uso común)\n- **Scam**: Estafa"
+    },
+    {
+      "id": "grammar-imp",
+      "title": "Gramática: El Imperativo",
+      "content": "Usamos el imperativo para dar instrucciones directas.\n\n- **Click** here to login. (Haz clic aquí para iniciar sesión)\n- **Enter** your password. (Introduce tu contraseña)\n- **Don't share** your PIN. (No compartas tu PIN)\n- **Download** the app. (Descarga la aplicación)"
+    }
+  ],
+  "objectives": [
+    "Identificar términos básicos de banca online",
+    "Entender instrucciones simples de seguridad",
+    "Usar verbos imperativos para dar y seguir instrucciones"
+  ],
+  "keyTerms": [
+    { "term": "Password", "definition": "A secret word or phrase used to enter a website." },
+    { "term": "Username", "definition": "A name that identifies you on a computer system." }
+  ]
+}

@@ -1,6 +1,24 @@
 {
-  "title": "Topic for Week 19 (A2)",
-  "sections": [{ "id": "v", "title": "Vocabulary", "content": "Basic financial terms for level A2." }],
-  "objectives": ["Learn basic terms"],
-  "keyTerms": []
+  "title": "Introducción a las Inversiones",
+  "sections": [
+    {
+      "id": "invest-vocab",
+      "title": "Vocabulario: Invertir tu dinero",
+      "content": "A2 nivel. Conceptos básicos de inversión.\n\n- **Investment**: Inversión\n- **Stock / Share**: Acción (en bolsa)\n- **Stock Market**: Mercado de valores / Bolsa\n- **Risk**: Riesgo\n- **Profit**: Beneficio / Ganancia\n- **Loss**: Pérdida\n- **Bond**: Bono\n- **Return on Investment (ROI)**: Retorno de la inversión"
+    },
+    {
+      "id": "invest-grammar",
+      "title": "Gramática: Comparativos para Riesgo",
+      "content": "Usamos comparativos para evaluar diferentes inversiones.\n\n- Stocks are **riskier than** bonds. (Las acciones son más arriesgadas que los bonos)\n- Savings accounts are **safer than** the stock market. (Las cuentas de ahorro son más seguras que la bolsa)\n- This investment is **better than** the last one. (Esta inversión es mejor que la anterior)"
+    }
+  ],
+  "objectives": [
+    "Identificar términos básicos de inversión",
+    "Comparar diferentes tipos de productos financieros por su riesgo",
+    "Expresar la posibilidad de ganancias y pérdidas"
+  ],
+  "keyTerms": [
+    { "term": "Risk", "definition": "The possibility of losing money." },
+    { "term": "Profit", "definition": "The money you earn from an investment after costs." }
+  ]
 }

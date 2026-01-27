@@ -1,0 +1,116 @@
+{
+  "title": "Week 11 Final Exam: Investments",
+  "description": "Assessment on investment terminology and the use of 'for' and 'since' with the Present Perfect.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What do we call a collection of different investments?",
+      "options": [
+        "Dividend",
+        "Broker",
+        "Portfolio",
+        "Yield"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "Complete: 'I have had this account __________ 2012.'",
+      "options": [
+        "for",
+        "since",
+        "at",
+        "from"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Shares in a company are also known as...",
+      "options": [
+        "Bonds",
+        "Risks",
+        "Stocks",
+        "Yields"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "Complete: 'She has been an investor __________ five years.'",
+      "options": [
+        "for",
+        "since",
+        "ago",
+        "during"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "What is a payment made by a company to its shareholders?",
+      "options": [
+        "Bond",
+        "Dividend",
+        "Risk",
+        "Broker"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "Which term refers to the professional who buys and sells stocks for you?",
+      "options": [
+        "Portfolio",
+        "Dividend",
+        "Yield",
+        "Broker"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q7",
+      "question": "Complete: 'How __________ have you known your broker?'",
+      "options": [
+        "much",
+        "long",
+        "many",
+        "far"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "If an investment has a high 'yield', it has a high...",
+      "options": [
+        "Risk",
+        "Return / Profit",
+        "Cost",
+        "Duration"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Complete: 'They haven't paid any dividends __________ last July.'",
+      "options": [
+        "for",
+        "since",
+        "at",
+        "during"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "What is a 'bond'?",
+      "options": [
+        "A part of a company",
+        "A loan to a government or company",
+        "A professional advisor",
+        "A type of bank account"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

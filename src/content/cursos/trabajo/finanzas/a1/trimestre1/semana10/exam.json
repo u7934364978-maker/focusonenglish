@@ -1,0 +1,60 @@
+{
+  "title": "Examen: Tipos de Pago",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which of these is 'Money in the form of notes and coins'?",
+      "options": ["Credit card", "Cash", "Cheque", "Transfer"],
+      "correctAnswer": 1,
+      "explanation": "El efectivo (cash) se compone de billetes y monedas."
+    },
+    {
+      "id": "q2",
+      "question": "Choose the most formal request:",
+      "options": [
+        "Can I have a receipt?",
+        "Could I have a receipt?",
+        "Do I have a receipt?",
+        "Are I have a receipt?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Could I...?' es más formal y educado que 'Can I...?'."
+    },
+    {
+      "id": "q3",
+      "question": "What is a 'Bank Transfer'?",
+      "options": [
+        "Paying with physical coins",
+        "Moving money between accounts",
+        "Writing a document for a bank",
+        "Using a credit card at a store"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Una transferencia bancaria es mover dinero de una cuenta a otra."
+    },
+    {
+      "id": "q4",
+      "question": "How do you say 'Pagar con tarjeta'?",
+      "options": [
+        "Pay in card",
+        "Pay on card",
+        "Pay by card",
+        "Pay for card"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Se dice 'pay by card'."
+    },
+    {
+      "id": "q5",
+      "question": "A 'Contactless' payment means you use:",
+      "options": [
+        "Only cash",
+        "A cheque book",
+        "A card or phone near the terminal",
+        "A bank transfer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El pago sin contacto (contactless) se hace acercando la tarjeta o el teléfono."
+    }
+  ]
+}

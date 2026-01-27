@@ -1,0 +1,24 @@
+{
+  "title": "Relación con Inversores y 'Earnings Calls'",
+  "sections": [
+    {
+      "id": "ir-vocab",
+      "title": "Vocabulario: Comunicación con los Stakeholders",
+      "content": "C1 nivel. Manejo de expectativas y reportes públicos.\n\n- **Earnings call**: Teleconferencia de resultados (trimestral)\n- **Guidance**: Proyección / Orientación (de beneficios)\n- **Shareholder value**: Valor para el accionista\n- **Quarterly results**: Resultados trimestrales\n- **Bottom line**: Resultado neto / El punto clave\n- **Top line**: Ingresos brutos\n- **Transparency**: Transparencia\n- **Disclosure**: Divulgación / Revelación de información\n- **Bearish / Bullish**: Pesimista / Optimista (tendencia de mercado)"
+    },
+    {
+      "id": "ir-grammar",
+      "title": "Gramática: Advanced Hedging and Softening",
+      "content": "En el nivel C1, es crucial usar un lenguaje matizado para evitar comprometerse demasiado o para suavizar malas noticias.\n\n- *The results **would appear to suggest** a slight decline.* (En lugar de 'Results show a decline')\n- *It **is arguably** the most challenging quarter we have faced.*\n- *We **are inclined to believe** that the trend will reverse.*\n- *There **seems to be** some room for improvement in our margins.*"
+    }
+  ],
+  "objectives": [
+    "Analizar el lenguaje y la estructura de un Earnings Call real",
+    "Aprender a dar 'Guidance' (proyecciones) de forma matizada y profesional",
+    "Utilizar técnicas de 'Hedging' para comunicar resultados financieros inciertos"
+  ],
+  "keyTerms": [
+    { "term": "Earnings Guidance", "definition": "A report that publicly traded companies provide to estimate their future quarterly or yearly earnings." },
+    { "term": "Disclosure", "definition": "The release of relevant information about a company that may influence an investment decision." }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Examen: Meses y Fechas",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which month is the 12th month of the year?",
+      "options": ["November", "December", "January", "October"],
+      "correctAnswer": 1,
+      "explanation": "Diciembre es el último mes del año."
+    },
+    {
+      "id": "q2",
+      "question": "Choose the correct preposition: 'The payment is ______ October 5th.'",
+      "options": ["in", "at", "on", "by"],
+      "correctAnswer": 2,
+      "explanation": "Usamos 'on' para fechas específicas y completas."
+    },
+    {
+      "id": "q3",
+      "question": "How do you write the ordinal number for 3?",
+      "options": ["3th", "3st", "3rd", "3nd"],
+      "correctAnswer": 2,
+      "explanation": "El ordinal de 3 es 'third' (3rd)."
+    },
+    {
+      "id": "q4",
+      "question": "Which preposition do we use for hours (e.g., 9:00 AM)?",
+      "options": ["In", "On", "At", "To"],
+      "correctAnswer": 2,
+      "explanation": "Usamos 'at' para las horas."
+    },
+    {
+      "id": "q5",
+      "question": "Which sentence is correct?",
+      "options": [
+        "The bank is open in Monday.",
+        "The bank is open on August.",
+        "The bank is open in May.",
+        "The bank is open at December."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Usamos 'in' con los meses (in May)."
+    }
+  ]
+}

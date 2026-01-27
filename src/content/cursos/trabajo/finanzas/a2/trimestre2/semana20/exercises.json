@@ -1,7 +1,43 @@
-{
-  "goal": "finanzas", "level": "A2", "trimester": 2, "weekId": "semana20",
-  "title": "Ejercicios: Semana 20",
-  "items": [
-    { "id": "fin-a2-w20-1", "type": "multipleChoice", "prompt": "Basic question for A2 week 20.", "options": ["A", "B"], "answerIndex": 0 }
-  ]
-}
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is 'Exchange rate' in Spanish?",
+    "options": ["Tipo de cambio", "Tasa de interés", "Comisión de retiro", "Pago con tarjeta"],
+    "correctAnswer": 0,
+    "explanation": "'Exchange rate' translates to 'Tipo de cambio'."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "Where is the __________ (near) ATM?",
+    "correctAnswer": "nearest",
+    "explanation": "We use the superlative 'nearest' for 'near'."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "To get cash from a machine is called:",
+    "options": ["To deposit", "To save", "To withdraw", "To invest"],
+    "correctAnswer": 2,
+    "explanation": "'To withdraw' means to take money out of an account."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the term with its meaning:",
+    "pairs": [
+      { "left": "Fee", "right": "Service cost" },
+      { "left": "Currency", "right": "Kind of money" },
+      { "left": "Foreign", "right": "From another country" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "This is the _________ (expensive) bank in town.",
+    "options": ["most expensive", "expensivest", "more expensive", "expensive"],
+    "correctAnswer": 0,
+    "explanation": "For long adjectives like 'expensive', we use 'most' to form the superlative."
+  }
+]

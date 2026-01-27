@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "In an 'Interest Rate Swap', what is typically exchanged?",
+    "options": ["Principal amounts", "Fixed interest payments for floating ones", "Company shares", "Physical gold"],
+    "correctAnswer": 1,
+    "explanation": "Swaps involve exchanging cash flows (interest payments) without exchanging the principal."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "If the bank __________ (be) to default, the CDS would pay out.",
+    "correctAnswer": "were",
+    "explanation": "Past Subjunctive 'were' is used for formal hypothetical conditions."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "What is a 'Credit Event'?",
+    "options": ["A bank holiday", "A situation that triggers a CDS payout (like default)", "Opening a new credit line", "Buying stocks"],
+    "correctAnswer": 1,
+    "explanation": "Credit events include bankruptcy, failure to pay, or restructuring."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the term with its meaning:",
+    "pairs": [
+      { "left": "Counterparty", "right": "The other party in the contract" },
+      { "left": "Collateral", "right": "Assets used as security" },
+      { "left": "Floating rate", "right": "Interest that changes with the market" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "Suppose the strike price _______ reached, would you exercise?",
+    "options": ["was", "were", "is", "had"],
+    "correctAnswer": 1,
+    "explanation": "Using 'were' in a formal hypothetical question."
+  }
+]

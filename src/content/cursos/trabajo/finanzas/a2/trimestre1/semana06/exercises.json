@@ -1,0 +1,385 @@
+{
+  "goal": "finanzas",
+  "level": "A2",
+  "trimester": 1,
+  "weekId": "semana06",
+  "title": "Servicio al Cliente y Quejas",
+  "items": [
+    {
+      "id": "fin-a2-w06-1",
+      "type": "multipleChoice",
+      "prompt": "I want to make a ______ about this charge.",
+      "options": ["complaint", "complain", "refund"],
+      "answerIndex": 0,
+      "explanation": "Hacer una queja (make a complaint)."
+    },
+    {
+      "id": "fin-a2-w06-2",
+      "type": "multipleChoice",
+      "prompt": "There is a ______ in my bank statement.",
+      "options": ["mistake", "solve", "apologize"],
+      "answerIndex": 0,
+      "explanation": "Hay un error (mistake) en mi extracto."
+    },
+    {
+      "id": "fin-a2-w06-3",
+      "type": "multipleChoice",
+      "prompt": "I ______ check my account balance every morning.",
+      "options": ["never", "always", "seldom"],
+      "answerIndex": 1,
+      "explanation": "Siempre (always) reviso mi saldo."
+    },
+    {
+      "id": "fin-a2-w06-4",
+      "type": "multipleChoice",
+      "prompt": "The bank ______ open on weekends.",
+      "options": ["is never", "never is", "always is"],
+      "answerIndex": 0,
+      "explanation": "El adverbio va después del verbo 'to be' (is never)."
+    },
+    {
+      "id": "fin-a2-w06-5",
+      "type": "multipleChoice",
+      "prompt": "Can I have a ______? I returned the product.",
+      "options": ["refund", "charge", "delay"],
+      "answerIndex": 0,
+      "explanation": "Un reembolso (refund) es la devolución del dinero."
+    },
+    {
+      "id": "fin-a2-w06-6",
+      "type": "fillBlanks",
+      "prompt": "I am [blank] sorry for the error.",
+      "answers": ["very", "so", "extremely"],
+      "explanation": "Siento mucho el error."
+    },
+    {
+      "id": "fin-a2-w06-7",
+      "type": "fillBlanks",
+      "prompt": "We need to [blank] this problem today.",
+      "answers": ["solve", "fix"],
+      "explanation": "Necesitamos resolver (solve) este problema."
+    },
+    {
+      "id": "fin-a2-w06-8",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I usually pay by credit card",
+      "explanation": "Normalmente pago con tarjeta de crédito."
+    },
+    {
+      "id": "fin-a2-w06-9",
+      "type": "multipleChoice",
+      "prompt": "There is a ______ with the transfer. It's late.",
+      "options": ["delay", "refund", "charge"],
+      "answerIndex": 0,
+      "explanation": "Un retraso se dice 'delay'."
+    },
+    {
+      "id": "fin-a2-w06-10",
+      "type": "multipleChoice",
+      "prompt": "He ______ complains about the service.",
+      "options": ["often", "always is", "is usually"],
+      "answerIndex": 0,
+      "explanation": "Él a menudo (often) se queja."
+    },
+    {
+      "id": "fin-a2-w06-11",
+      "type": "fillBlanks",
+      "prompt": "Please [blank] for the inconvenience.",
+      "answers": ["apologize", "accept our apologies"],
+      "explanation": "Por favor, acepte nuestras disculpas."
+    },
+    {
+      "id": "fin-a2-w06-12",
+      "type": "multipleChoice",
+      "prompt": "I ______ use the ATM at night. It's dangerous.",
+      "options": ["rarely", "always", "usually"],
+      "answerIndex": 0,
+      "explanation": "Rara vez (rarely) uso el cajero de noche."
+    },
+    {
+      "id": "fin-a2-w06-13",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "She is never late for meetings",
+      "explanation": "Ella nunca llega tarde a las reuniones."
+    },
+    {
+      "id": "fin-a2-w06-14",
+      "type": "multipleChoice",
+      "prompt": "I didn't authorize this ______.",
+      "options": ["charge", "refund", "apologize"],
+      "answerIndex": 0,
+      "explanation": "No autoricé este cargo (charge)."
+    },
+    {
+      "id": "fin-a2-w06-15",
+      "type": "fillBlanks",
+      "prompt": "The manager will [blank] to you.",
+      "answers": ["speak", "talk", "apologize"],
+      "explanation": "El gerente hablará/se disculpará con usted."
+    },
+    {
+      "id": "fin-a2-w06-16",
+      "type": "multipleChoice",
+      "prompt": "We ______ help our customers.",
+      "options": ["always", "is always", "never are"],
+      "answerIndex": 0,
+      "explanation": "Siempre ayudamos (always help)."
+    },
+    {
+      "id": "fin-a2-w06-17",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I want a refund immediately",
+      "explanation": "Quiero un reembolso inmediatamente."
+    },
+    {
+      "id": "fin-a2-w06-18",
+      "type": "multipleChoice",
+      "prompt": "Is there a ______ for the delay?",
+      "options": ["reason", "refund", "solve"],
+      "answerIndex": 0,
+      "explanation": "¿Hay alguna razón para el retraso?"
+    },
+    {
+      "id": "fin-a2-w06-19",
+      "type": "fillBlanks",
+      "prompt": "I [blank] forget my password.",
+      "answers": ["never", "sometimes"],
+      "explanation": "Nunca/A veces olvido mi contraseña."
+    },
+    {
+      "id": "fin-a2-w06-20",
+      "type": "multipleChoice",
+      "prompt": "The customer service is ______ excellent.",
+      "options": ["usually", "is usually", "usually is"],
+      "answerIndex": 1,
+      "explanation": "Is usually (adverbio después de is)."
+    },
+    {
+      "id": "fin-a2-w06-21",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "Why is there a delay?",
+      "explanation": "¿Por qué hay un retraso?"
+    },
+    {
+      "id": "fin-a2-w06-22",
+      "type": "fillBlanks",
+      "prompt": "I want to [blank] about a charge.",
+      "answers": ["complain"],
+      "explanation": "Quiero quejarme de un cargo."
+    },
+    {
+      "id": "fin-a2-w06-23",
+      "type": "multipleChoice",
+      "prompt": "We ______ apologize for the mistake.",
+      "options": ["sincerely", "mistake", "solve"],
+      "answerIndex": 0,
+      "explanation": "Nos disculpamos sinceramente."
+    },
+    {
+      "id": "fin-a2-w06-24",
+      "type": "fillBlanks",
+      "prompt": "The transfer [blank] two days.",
+      "answers": ["took", "takes"],
+      "explanation": "La transferencia tardó/tarda dos días."
+    },
+    {
+      "id": "fin-a2-w06-25",
+      "type": "multipleChoice",
+      "prompt": "I ______ call the bank on Mondays.",
+      "options": ["sometimes", "is sometimes", "always are"],
+      "answerIndex": 0,
+      "explanation": "A veces llamo al banco (sometimes call)."
+    },
+    {
+      "id": "fin-a2-w06-26",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "There is a small error",
+      "explanation": "Hay un pequeño error."
+    },
+    {
+      "id": "fin-a2-w06-27",
+      "type": "multipleChoice",
+      "prompt": "Can you ______ this error?",
+      "options": ["correct", "apologize", "refund"],
+      "answerIndex": 0,
+      "explanation": "¿Puede corregir este error?"
+    },
+    {
+      "id": "fin-a2-w06-28",
+      "type": "fillBlanks",
+      "prompt": "I [blank] use online banking.",
+      "answers": ["often", "always", "usually"],
+      "explanation": "Cualquier adverbio de frecuencia."
+    },
+    {
+      "id": "fin-a2-w06-29",
+      "type": "multipleChoice",
+      "prompt": "The bank ______ open on public holidays.",
+      "options": ["is rarely", "rarely is", "always is"],
+      "answerIndex": 0,
+      "explanation": "Is rarely (después de is)."
+    },
+    {
+      "id": "fin-a2-w06-30",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I never use my phone here",
+      "explanation": "Nunca uso mi teléfono aquí."
+    },
+    {
+      "id": "fin-a2-w06-31",
+      "type": "multipleChoice",
+      "prompt": "I received my ______ yesterday.",
+      "options": ["refund", "error", "delay"],
+      "answerIndex": 0,
+      "explanation": "Recibí mi reembolso ayer."
+    },
+    {
+      "id": "fin-a2-w06-32",
+      "type": "fillBlanks",
+      "prompt": "The [blank] was $20.",
+      "answers": ["charge", "fee", "refund"],
+      "explanation": "El cargo/reembolso fue de $20."
+    },
+    {
+      "id": "fin-a2-w06-33",
+      "type": "multipleChoice",
+      "prompt": "We ______ resolve complaints quickly.",
+      "options": ["always", "is always", "never"],
+      "answerIndex": 0,
+      "explanation": "Siempre resolvemos las quejas."
+    },
+    {
+      "id": "fin-a2-w06-34",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Please solve this problem now",
+      "explanation": "Por favor, resuelva este problema ahora."
+    },
+    {
+      "id": "fin-a2-w06-35",
+      "type": "multipleChoice",
+      "prompt": "The service is ______ slow today.",
+      "options": ["unusually", "always is", "never"],
+      "answerIndex": 0,
+      "explanation": "El servicio está inusualmente lento."
+    },
+    {
+      "id": "fin-a2-w06-36",
+      "type": "fillBlanks",
+      "prompt": "He [blank] forgets his PIN.",
+      "answers": ["seldom", "rarely", "never"],
+      "explanation": "Rara vez olvida su PIN."
+    },
+    {
+      "id": "fin-a2-w06-37",
+      "type": "multipleChoice",
+      "prompt": "I ______ pay my bills on time.",
+      "options": ["always", "is always", "usually are"],
+      "answerIndex": 0,
+      "explanation": "Siempre pago mis facturas (always pay)."
+    },
+    {
+      "id": "fin-a2-w06-38",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Mistakes are sometimes very expensive",
+      "explanation": "Los errores son a veces muy caros."
+    },
+    {
+      "id": "fin-a2-w06-39",
+      "type": "multipleChoice",
+      "prompt": "Can you ______ the situation?",
+      "options": ["explain", "refund", "error"],
+      "answerIndex": 0,
+      "explanation": "¿Puede explicar la situación?"
+    },
+    {
+      "id": "fin-a2-w06-40",
+      "type": "fillBlanks",
+      "prompt": "There is a [blank] of three days.",
+      "answers": ["delay"],
+      "explanation": "Hay un retraso de tres días."
+    },
+    {
+      "id": "fin-a2-w06-41",
+      "type": "multipleChoice",
+      "prompt": "Customer satisfaction is ______ our priority.",
+      "options": ["always", "is always", "never"],
+      "answerIndex": 1,
+      "explanation": "Is always (después de is)."
+    },
+    {
+      "id": "fin-a2-w06-42",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I rarely carry much cash",
+      "explanation": "Rara vez llevo mucho efectivo."
+    },
+    {
+      "id": "fin-a2-w06-43",
+      "type": "multipleChoice",
+      "prompt": "I am ______ satisfied with the bank.",
+      "options": ["usually", "often are", "is always"],
+      "answerIndex": 0,
+      "explanation": "Normalmente estoy satisfecho (I am usually...)."
+    },
+    {
+      "id": "fin-a2-w06-44",
+      "type": "fillBlanks",
+      "prompt": "I need to [blank] a mistake.",
+      "answers": ["report", "fix"],
+      "explanation": "Necesito reportar/corregir un error."
+    },
+    {
+      "id": "fin-a2-w06-45",
+      "type": "multipleChoice",
+      "prompt": "We ______ close at 5:00 PM.",
+      "options": ["always", "is always", "never"],
+      "answerIndex": 0,
+      "explanation": "Siempre cerramos (always close)."
+    },
+    {
+      "id": "fin-a2-w06-46",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The bank usually opens late",
+      "explanation": "El banco suele abrir tarde."
+    },
+    {
+      "id": "fin-a2-w06-47",
+      "type": "multipleChoice",
+      "prompt": "There is ______ someone at the desk.",
+      "options": ["always", "never", "is always"],
+      "answerIndex": 0,
+      "explanation": "Siempre hay alguien (there is always...)."
+    },
+    {
+      "id": "fin-a2-w06-48",
+      "type": "fillBlanks",
+      "prompt": "The [blank] was resolved yesterday.",
+      "answers": ["complaint", "issue"],
+      "explanation": "La queja/asunto fue resuelto ayer."
+    },
+    {
+      "id": "fin-a2-w06-49",
+      "type": "multipleChoice",
+      "prompt": "I ______ lose my credit card.",
+      "options": ["never", "always is", "is usually"],
+      "answerIndex": 0,
+      "explanation": "Nunca pierdo mi tarjeta (never lose)."
+    },
+    {
+      "id": "fin-a2-w06-50",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Often the service is good",
+      "explanation": "A menudo el servicio es bueno."
+    }
+  ]
+}

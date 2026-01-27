@@ -1,0 +1,385 @@
+{
+  "goal": "finanzas",
+  "level": "A2",
+  "trimester": 1,
+  "weekId": "semana05",
+  "title": "Préstamos Personales",
+  "items": [
+    {
+      "id": "fin-a2-w05-1",
+      "type": "multipleChoice",
+      "prompt": "I need a ______ to buy a new car.",
+      "options": ["loan", "save", "withdraw"],
+      "answerIndex": 0,
+      "explanation": "Un préstamo (loan) se pide para compras grandes."
+    },
+    {
+      "id": "fin-a2-w05-2",
+      "type": "multipleChoice",
+      "prompt": "The ______ rate is very high this year.",
+      "options": ["interest", "price", "cheque"],
+      "answerIndex": 0,
+      "explanation": "La tasa de interés (interest rate)."
+    },
+    {
+      "id": "fin-a2-w05-3",
+      "type": "multipleChoice",
+      "prompt": "This is the ______ bank in the city.",
+      "options": ["bigest", "biggest", "most big"],
+      "answerIndex": 1,
+      "explanation": "Superlativo de big: the biggest (se dobla la g)."
+    },
+    {
+      "id": "fin-a2-w05-4",
+      "type": "multipleChoice",
+      "prompt": "The bank is the ______ in this contract.",
+      "options": ["borrower", "lender", "repayment"],
+      "answerIndex": 1,
+      "explanation": "El banco es el prestamista (lender)."
+    },
+    {
+      "id": "fin-a2-w05-5",
+      "type": "multipleChoice",
+      "prompt": "This loan has the ______ interest rate.",
+      "options": ["lowest", "lowrest", "most low"],
+      "answerIndex": 0,
+      "explanation": "La tasa más baja: the lowest."
+    },
+    {
+      "id": "fin-a2-w05-6",
+      "type": "fillBlanks",
+      "prompt": "I am the [blank] because I received the money.",
+      "answers": ["borrower"],
+      "explanation": "El que recibe el dinero es el prestatario (borrower)."
+    },
+    {
+      "id": "fin-a2-w05-7",
+      "type": "fillBlanks",
+      "prompt": "The [blank] is 24 months.",
+      "answers": ["term"],
+      "explanation": "El plazo (term) es el tiempo total para pagar."
+    },
+    {
+      "id": "fin-a2-w05-8",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "This is the best loan offer",
+      "explanation": "Esta es la mejor oferta de préstamo."
+    },
+    {
+      "id": "fin-a2-w05-9",
+      "type": "multipleChoice",
+      "prompt": "How much is the monthly ______?",
+      "options": ["installment", "term", "lender"],
+      "answerIndex": 0,
+      "explanation": "La cuota mensual se dice 'installment'."
+    },
+    {
+      "id": "fin-a2-w05-10",
+      "type": "multipleChoice",
+      "prompt": "This is the ______ expensive car in the world.",
+      "options": ["most", "more", "much"],
+      "answerIndex": 0,
+      "explanation": "Superlativo para adjetivos largos: the most expensive."
+    },
+    {
+      "id": "fin-a2-w05-11",
+      "type": "fillBlanks",
+      "prompt": "I need to make a [blank] every month.",
+      "answers": ["repayment", "payment"],
+      "explanation": "Debo hacer un pago cada mes."
+    },
+    {
+      "id": "fin-a2-w05-12",
+      "type": "multipleChoice",
+      "prompt": "The ______ of the loan is five years.",
+      "options": ["term", "installment", "rate"],
+      "answerIndex": 0,
+      "explanation": "El plazo (term) del préstamo."
+    },
+    {
+      "id": "fin-a2-w05-13",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "He is the richest man here",
+      "explanation": "Él es el hombre más rico aquí."
+    },
+    {
+      "id": "fin-a2-w05-14",
+      "type": "multipleChoice",
+      "prompt": "Which bank has the ______ service?",
+      "options": ["goodest", "best", "better"],
+      "answerIndex": 1,
+      "explanation": "Superlativo de good: the best."
+    },
+    {
+      "id": "fin-a2-w05-15",
+      "type": "fillBlanks",
+      "prompt": "The interest [blank] is 5%.",
+      "answers": ["rate"],
+      "explanation": "La tasa de interés (interest rate)."
+    },
+    {
+      "id": "fin-a2-w05-16",
+      "type": "multipleChoice",
+      "prompt": "I want the ______ loan possible.",
+      "options": ["cheapst", "cheapest", "most cheap"],
+      "answerIndex": 1,
+      "explanation": "El préstamo más barato: the cheapest."
+    },
+    {
+      "id": "fin-a2-w05-17",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The installments are very high",
+      "explanation": "Las cuotas son muy altas."
+    },
+    {
+      "id": "fin-a2-w05-18",
+      "type": "multipleChoice",
+      "prompt": "This is the ______ decision I made.",
+      "options": ["worst", "badest", "worse"],
+      "answerIndex": 0,
+      "explanation": "Superlativo de bad: the worst (la peor)."
+    },
+    {
+      "id": "fin-a2-w05-19",
+      "type": "fillBlanks",
+      "prompt": "The bank [blank] me $10,000.",
+      "answers": ["lent"],
+      "explanation": "El banco me prestó (pasado de lend: lent)."
+    },
+    {
+      "id": "fin-a2-w05-20",
+      "type": "multipleChoice",
+      "prompt": "I am looking for the ______ account.",
+      "options": ["safest", "safer", "most safe"],
+      "answerIndex": 0,
+      "explanation": "La cuenta más segura: the safest."
+    },
+    {
+      "id": "fin-a2-w05-21",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "What is the interest rate?",
+      "explanation": "¿Cuál es la tasa de interés?"
+    },
+    {
+      "id": "fin-a2-w05-22",
+      "type": "fillBlanks",
+      "prompt": "The total [blank] amount is $12,000.",
+      "answers": ["repayment"],
+      "explanation": "El monto total a devolver."
+    },
+    {
+      "id": "fin-a2-w05-23",
+      "type": "multipleChoice",
+      "prompt": "That was the ______ meeting of the week.",
+      "options": ["most boring", "boringest", "more boring"],
+      "answerIndex": 0,
+      "explanation": "Adjetivo largo: the most boring."
+    },
+    {
+      "id": "fin-a2-w05-24",
+      "type": "fillBlanks",
+      "prompt": "Can you sign the [blank] agreement?",
+      "answers": ["loan"],
+      "explanation": "¿Puede firmar el acuerdo de préstamo?"
+    },
+    {
+      "id": "fin-a2-w05-25",
+      "type": "multipleChoice",
+      "prompt": "This is the ______ document we have.",
+      "options": ["most important", "importantest", "more important"],
+      "answerIndex": 0,
+      "explanation": "El documento más importante."
+    },
+    {
+      "id": "fin-a2-w05-26",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I want the lowest rate",
+      "explanation": "Quiero la tasa más baja."
+    },
+    {
+      "id": "fin-a2-w05-27",
+      "type": "multipleChoice",
+      "prompt": "Who is the ______ person in the bank?",
+      "options": ["youngest", "younger", "most young"],
+      "answerIndex": 0,
+      "explanation": "La persona más joven: the youngest."
+    },
+    {
+      "id": "fin-a2-w05-28",
+      "type": "fillBlanks",
+      "prompt": "The monthly [blank] is $200.",
+      "answers": ["installment"],
+      "explanation": "La cuota mensual."
+    },
+    {
+      "id": "fin-a2-w05-29",
+      "type": "multipleChoice",
+      "prompt": "This is the ______ bank in Europe.",
+      "options": ["oldest", "elder", "most old"],
+      "answerIndex": 0,
+      "explanation": "El banco más antiguo: the oldest."
+    },
+    {
+      "id": "fin-a2-w05-30",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "This loan has no fees",
+      "explanation": "Este préstamo no tiene comisiones."
+    },
+    {
+      "id": "fin-a2-w05-31",
+      "type": "multipleChoice",
+      "prompt": "I need to find the ______ bank transfer fee.",
+      "options": ["smallest", "smalest", "most small"],
+      "answerIndex": 0,
+      "explanation": "La comisión más pequeña: the smallest."
+    },
+    {
+      "id": "fin-a2-w05-32",
+      "type": "fillBlanks",
+      "prompt": "The [blank] gave me the money yesterday.",
+      "answers": ["lender", "bank"],
+      "explanation": "El prestamista/banco me dio el dinero."
+    },
+    {
+      "id": "fin-a2-w05-33",
+      "type": "multipleChoice",
+      "prompt": "That is the ______ expensive bank in town.",
+      "options": ["least", "less", "littlest"],
+      "answerIndex": 0,
+      "explanation": "The least expensive (el menos caro)."
+    },
+    {
+      "id": "fin-a2-w05-34",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The term is thirty years",
+      "explanation": "El plazo es de treinta años."
+    },
+    {
+      "id": "fin-a2-w05-35",
+      "type": "multipleChoice",
+      "prompt": "This is the ______ office of the company.",
+      "options": ["newest", "newer", "most new"],
+      "answerIndex": 0,
+      "explanation": "La oficina más nueva: the newest."
+    },
+    {
+      "id": "fin-a2-w05-36",
+      "type": "fillBlanks",
+      "prompt": "I have the [blank] interest rate.",
+      "answers": ["highest", "lowest"],
+      "explanation": "Tengo la tasa más alta/baja."
+    },
+    {
+      "id": "fin-a2-w05-37",
+      "type": "multipleChoice",
+      "prompt": "It was the ______ day of my life.",
+      "options": ["happiest", "happyest", "most happy"],
+      "answerIndex": 0,
+      "explanation": "The happiest (la y cambia a i)."
+    },
+    {
+      "id": "fin-a2-w05-38",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The borrower signs the document",
+      "explanation": "El prestatario firma el documento."
+    },
+    {
+      "id": "fin-a2-w05-39",
+      "type": "multipleChoice",
+      "prompt": "This is the ______ difficult task.",
+      "options": ["most", "more", "much"],
+      "answerIndex": 0,
+      "explanation": "La tarea más difícil."
+    },
+    {
+      "id": "fin-a2-w05-40",
+      "type": "fillBlanks",
+      "prompt": "The [blank] rate is fixed.",
+      "answers": ["interest"],
+      "explanation": "La tasa de interés es fija."
+    },
+    {
+      "id": "fin-a2-w05-41",
+      "type": "multipleChoice",
+      "prompt": "He is the ______ manager we had.",
+      "options": ["worst", "badest", "worse"],
+      "answerIndex": 0,
+      "explanation": "El peor gerente."
+    },
+    {
+      "id": "fin-a2-w05-42",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "How much is the loan?",
+      "explanation": "¿De cuánto es el préstamo?"
+    },
+    {
+      "id": "fin-a2-w05-43",
+      "type": "multipleChoice",
+      "prompt": "The ______ installment is in January.",
+      "options": ["first", "one", "once"],
+      "answerIndex": 0,
+      "explanation": "La primera cuota."
+    },
+    {
+      "id": "fin-a2-w05-44",
+      "type": "fillBlanks",
+      "prompt": "The [blank] is for 10 years.",
+      "answers": ["term"],
+      "explanation": "El plazo es de 10 años."
+    },
+    {
+      "id": "fin-a2-w05-45",
+      "type": "multipleChoice",
+      "prompt": "This bank has the ______ reputation.",
+      "options": ["best", "goodest", "better"],
+      "answerIndex": 0,
+      "explanation": "La mejor reputación."
+    },
+    {
+      "id": "fin-a2-w05-46",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The interest rate is variable",
+      "explanation": "La tasa de interés es variable."
+    },
+    {
+      "id": "fin-a2-w05-47",
+      "type": "multipleChoice",
+      "prompt": "Which is the ______ city in the world?",
+      "options": ["most expensive", "expensivest", "more expensive"],
+      "answerIndex": 0,
+      "explanation": "¿Cuál es la ciudad más cara?"
+    },
+    {
+      "id": "fin-a2-w05-48",
+      "type": "fillBlanks",
+      "prompt": "I need a [blank] for my business.",
+      "answers": ["loan"],
+      "explanation": "Necesito un préstamo para mi negocio."
+    },
+    {
+      "id": "fin-a2-w05-49",
+      "type": "multipleChoice",
+      "prompt": "This is the ______ way to send money.",
+      "options": ["fastest", "fastestest", "most fast"],
+      "answerIndex": 0,
+      "explanation": "La forma más rápida."
+    },
+    {
+      "id": "fin-a2-w05-50",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I am the happiest borrower",
+      "explanation": "Soy el prestatario más feliz."
+    }
+  ]
+}

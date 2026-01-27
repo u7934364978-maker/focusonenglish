@@ -1,0 +1,24 @@
+{
+  "title": "Repaso del Segundo Trimestre",
+  "sections": [
+    {
+      "id": "review-vocab",
+      "title": "Repaso de Conceptos Estratégicos y Financieros",
+      "content": "Resumen de los términos clave de las últimas semanas:\n\n- **Governance & Risk**: ERM, Fiduciary duty, Board of Directors, Basel III/Solvency II.\n- **Complex Instruments**: CDS, Interest Rate Swaps, Notional amount, Counterparty risk.\n- **Growth & Sustainability**: M&A, Sinergies, ESG, Green bonds, Greenwashing.\n- **Communication**: Earnings calls, Guidance, Bottom line, Hedging/Softening language."
+    },
+    {
+      "id": "review-grammar",
+      "title": "Repaso de Estructuras Avanzadas",
+      "content": "Estructuras principales aprendidas:\n\n- **Causatives**: Delegación y procesos legales.\n- **Subjunctive**: Recomendaciones y mandatos formales.\n- **Hypothesizing (Past Subjunctive)**: Escenarios de alto riesgo.\n- **Reporting & Hedging**: Pasiva avanzada (is said to be) y lenguaje matizado (would appear to suggest).\n- **Rhetorical Devices**: Inversión y frases escindidas (cleft sentences) para liderazgo persuasivo."
+    }
+  ],
+  "objectives": [
+    "Consolidar el léxico financiero de nivel C1 para alta dirección y gestión de fondos",
+    "Dominar las sutilezas gramaticales necesarias para la comunicación ejecutiva",
+    "Prepararse para el examen final integral del trimestre"
+  ],
+  "keyTerms": [
+    { "term": "Fiduciary Duty", "definition": "A legal obligation of one party to act in the best interest of another." },
+    { "term": "Stewardship", "definition": "The job of supervising or taking care of something, such as an organization or property." }
+  ]
+}

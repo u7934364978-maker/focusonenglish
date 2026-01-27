@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is 'Earnings Guidance'?",
+    "options": ["A report on past salary", "Estimates of future earnings provided by a company", "A law about taxes", "A meeting with employees"],
+    "correctAnswer": 1,
+    "explanation": "Guidance is a public company's own best estimate of its future performance."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "The data __________ (appear / suggest) that we are on track for Q4.",
+    "correctAnswer": "would appear to suggest",
+    "explanation": "Using 'would appear to suggest' is a professional way to soften a statement."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "What does a 'Bearish' outlook mean?",
+    "options": ["Optimistic about growth", "Pessimistic or expecting a decline", "Aggressive marketing", "Focusing on local markets"],
+    "correctAnswer": 1,
+    "explanation": "A bear market is a market that is receding or where prices are falling."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the term with its meaning:",
+    "pairs": [
+      { "left": "Bottom line", "right": "Net income" },
+      { "left": "Top line", "right": "Gross revenue" },
+      { "left": "Disclosure", "right": "Releasing info" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "It is _______ the best strategy given the circumstances.",
+    "options": ["arguably", "argue", "argued", "arguing"],
+    "correctAnswer": 0,
+    "explanation": "'Arguably' is used to qualify a statement as being a strong opinion."
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "title": "Derivados Avanzados: Swaps y CDS",
+  "sections": [
+    {
+      "id": "swaps-vocab",
+      "title": "Vocabulario: Swaps y Credit Default Swaps",
+      "content": "C1 nivel. Instrumentos para la gestión de riesgos sistémicos.\n\n- **Interest Rate Swap**: Swap de tipos de interés (intercambio de fijo por variable)\n- **Credit Default Swap (CDS)**: Seguro contra impago de deuda\n- **Counterparty risk**: Riesgo de contraparte\n- **Notional amount**: Importe nocional\n- **Fixed vs Floating rate**: Tipo fijo vs variable\n- **Underlying debt**: Deuda subyacente\n- **Credit event**: Evento de crédito (impago, reestructuración)\n- **Collateral**: Colateral / Garantía"
+    },
+    {
+      "id": "swaps-grammar",
+      "title": "Gramática: Past Subjunctive for High-Level Hypotheses",
+      "content": "Usamos el **Past Subjunctive** (were) y estructuras irreales para discutir vulnerabilidades sistémicas.\n\n- If the counterparty **were** to default, the entire system would be compromised.\n- It is as though the market **had** no memory of the 2008 crisis.\n- Suppose the ECB **were** to raise rates by 200 basis points; how would our swaps be affected?\n- I would rather we **hedged** the position now than waited for a credit event."
+    }
+  ],
+  "objectives": [
+    "Comprender la mecánica y los riesgos de los Interest Rate Swaps y CDS",
+    "Analizar el impacto del riesgo de contraparte en derivados OTC",
+    "Utilizar el subjuntivo y estructuras hipotéticas avanzadas para la gestión de riesgos"
+  ],
+  "keyTerms": [
+    { "term": "Credit Default Swap", "definition": "A financial derivative or contract that allows an investor to 'swap' or offset their credit risk with that of another investor." },
+    { "term": "Notional Amount", "definition": "The nominal or face value that is used to calculate payments on a financial instrument." }
+  ]
+}

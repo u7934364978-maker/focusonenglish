@@ -1,0 +1,24 @@
+{
+  "title": "Compras en Línea y Estafas",
+  "sections": [
+    {
+      "id": "vocab-online-shopping",
+      "title": "Vocabulario: Comercio Electrónico y Seguridad",
+      "content": "Comprar por internet es cómodo pero tiene riesgos. Aprende estos términos:\n\n- **Checkout**: Proceso de pago final.\n- **Shopping Cart / Basket**: Carrito de la compra.\n- **Secure Connection**: Conexión segura (HTTPS).\n- **Padlock**: Candado (icono de seguridad en el navegador).\n- **Phishing**: Estafa por correo electrónico para robar datos.\n- **Scam**: Estafa / Fraude.\n- **Browser**: Navegador.\n- **Two-factor authentication (2FA)**: Autenticación de dos factores."
+    },
+    {
+      "id": "grammar-present-continuous-future",
+      "title": "Gramática: Presente Continuo para el Futuro",
+      "content": "A veces usamos el presente continuo para hablar de planes futuros ya organizados (citas, viajes, reuniones):\n\n- *I **am meeting** the bank manager tomorrow.* (Me voy a reunir con el gerente mañana).\n- *We **are buying** a new server next week.* (Vamos a comprar un servidor nuevo la semana que viene).\n- *She **is not working** this Saturday.* (Ella no trabaja este sábado).\n\n*Diferencia*: Usamos 'going to' para intenciones y 'Present Continuous' para planes con fecha y hora ya fijadas."
+    }
+  ],
+  "objectives": [
+    "Aprender vocabulario clave sobre seguridad en compras online",
+    "Utilizar el presente continuo para hablar de compromisos futuros programados",
+    "Identificar señales de estafas en línea (phishing, sitios no seguros)"
+  ],
+  "keyTerms": [
+    { "term": "Phishing", "definition": "The practice of sending fraudulent emails to induce individuals to reveal personal information." },
+    { "term": "Checkout", "definition": "The place or process of paying for goods." }
+  ]
+}

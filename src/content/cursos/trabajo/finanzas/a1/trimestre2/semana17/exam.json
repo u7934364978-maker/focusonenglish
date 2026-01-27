@@ -1,7 +1,49 @@
 {
-  "goal": "finanzas", "level": "A1", "trimester": 2, "weekId": "semana17", "examId": "fin-a1-w17-exam",
-  "title": "Examen: Semana 17",
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 2,
+  "weekId": "semana17",
+  "title": "Examen: Números y Dinero",
   "items": [
-    { "id": "fin-a1-w17-exam-1", "type": "multipleChoice", "prompt": "Exam question for A1 week 17.", "options": ["Yes", "No"], "answerIndex": 0 }
+    {
+      "id": "fin-a1-w17-e1",
+      "type": "multipleChoice",
+      "prompt": "How do you say 1,000 in English?",
+      "options": ["One hundred", "One thousand", "One million", "Ten thousand"],
+      "answerIndex": 1,
+      "explanation": "1,000 is 'one thousand'."
+    },
+    {
+      "id": "fin-a1-w17-e2",
+      "type": "multipleChoice",
+      "prompt": "The currency of the United Kingdom is the ___.",
+      "options": ["Dollar", "Euro", "Pound", "Yen"],
+      "answerIndex": 2,
+      "explanation": "The UK uses the Pound (£)."
+    },
+    {
+      "id": "fin-a1-w17-e3",
+      "type": "multipleChoice",
+      "prompt": "___ is this book? It's 20 euros.",
+      "options": ["How many", "How much", "How old", "How far"],
+      "answerIndex": 1,
+      "explanation": "We use 'How much' to ask for prices."
+    },
+    {
+      "id": "fin-a1-w17-e4",
+      "type": "multipleChoice",
+      "prompt": "One million is written as ___.",
+      "options": ["1,000", "10,000", "100,000", "1,000,000"],
+      "answerIndex": 3,
+      "explanation": "One million has six zeros: 1,000,000."
+    },
+    {
+      "id": "fin-a1-w17-e5",
+      "type": "multipleChoice",
+      "prompt": "I have ten dollars in my ___.",
+      "options": ["pocket", "wallet", "receipt", "change"],
+      "answerIndex": 1,
+      "explanation": "A wallet is where you keep your money."
+    }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "title": "Préstamos y Tarjetas de Crédito",
+  "sections": [
+    {
+      "id": "vocab-loans-credit",
+      "title": "Vocabulario: Crédito y Financiación",
+      "content": "Para entender cómo funcionan los préstamos, es vital conocer estos términos:\n\n- **Credit Limit**: El máximo dinero que puedes usar en tu tarjeta.\n- **Balance**: El saldo pendiente o total en tu cuenta.\n- **Installments**: Cuotas mensuales para pagar una deuda.\n- **Interest Rate**: La tasa de interés (el costo del dinero prestado).\n- **Credit Score**: Tu historial crediticio (puntuación).\n- **Grace Period**: Período de gracia (tiempo sin intereses).\n- **Default**: Incumplimiento de pago."
+    },
+    {
+      "id": "grammar-present-perfect-intro",
+      "title": "Gramática: Presente Perfecto (Experiencias)",
+      "content": "Usamos el Presente Perfecto para hablar de cosas que han ocurrido en algún momento del pasado, sin decir exactamente cuándo. Es muy común para hablar de experiencias bancarias.\n\n**Estructura:** Have/Has + Participio Pasado.\n\n- *I **have applied** for a loan.* (He solicitado un préstamo).\n- *He **has used** a credit card before.* (Él ha usado una tarjeta de crédito antes).\n- *Have you **ever missed** a payment?* (¿Has fallado alguna vez en un pago?).\n\n**Participios comunes:**\n- Apply -> Applied\n- Take -> Taken\n- Pay -> Paid\n- Lose -> Lost"
+    }
+  ],
+  "objectives": [
+    "Comprender el vocabulario básico de tarjetas de crédito y préstamos",
+    "Aprender la estructura del Presente Perfecto para hablar de experiencias",
+    "Diferenciar entre 'Credit Limit' y 'Balance'"
+  ],
+  "keyTerms": [
+    { "term": "Installments", "definition": "Fixed sums of money paid at regular intervals over a period of time." },
+    { "term": "Credit Score", "definition": "A number assigned to a person that indicates to lenders their capacity to repay a loan." }
+  ]
+}

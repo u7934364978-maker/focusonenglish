@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is 'Exchange Rate Risk'?",
+    "options": ["The risk of losing your wallet", "The risk that currency fluctuations will affect investment value", "The risk of a bank robbery", "The risk of inflation"],
+    "correctAnswer": 1,
+    "explanation": "Exchange rate risk arises from the change in price of one currency against another."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "What is a 'Trade Balance'?",
+    "options": ["The amount of money in a bank account", "The difference between imports and exports", "The total debt of a country", "The cost of a transaction"],
+    "correctAnswer": 1,
+    "explanation": "Trade balance is the difference between the value of a country's exports and its imports."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "They wish they __________ (know) more about the Forex market.",
+    "correctAnswer": "knew",
+    "explanation": "Wish + Past Simple for a present state."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "What is 'Depreciation' of a currency?",
+    "options": ["The rise in value", "The fall in value", "The stability of value", "The creation of new coins"],
+    "correctAnswer": 1,
+    "explanation": "Depreciation is a decrease in the value of a currency relative to other currencies."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "I wish the CFO _______ the budget today.",
+    "options": ["approves", "would approve", "approving", "has approved"],
+    "correctAnswer": 1,
+    "explanation": "Using 'would approve' to express a desire for an action to happen."
+  }
+]

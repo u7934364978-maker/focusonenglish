@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is 'Counterparty Risk' in a swap?",
+    "options": ["The risk of the market crashing", "The risk that the other party will not meet their obligation", "The risk of inflation", "The risk of a cyber attack"],
+    "correctAnswer": 1,
+    "explanation": "Counterparty risk is the probability that the other party defaults on the agreement."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "The 'Notional Amount' is:",
+    "options": ["The actual cash exchanged", "The amount used to calculate payments", "The profit made", "The total debt of the bank"],
+    "correctAnswer": 1,
+    "explanation": "The notional amount is a theoretical figure used for interest calculation."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "I'd rather we __________ (not enter) this swap given the current volatility.",
+    "correctAnswer": "didn't enter",
+    "explanation": "I'd rather + Past Simple for a present/future preference."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "A CDS is essentially a form of:",
+    "options": ["Stock", "Insurance against default", "Checking account", "Salary bonus"],
+    "correctAnswer": 1,
+    "explanation": "CDS behaves like insurance for creditors."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "If the government _______ to intervene, the risk _______ be mitigated.",
+    "options": ["were / would", "was / will", "is / would", "had / will"],
+    "correctAnswer": 0,
+    "explanation": "Past Subjunctive and conditional for formal high-stakes scenarios."
+  }
+]

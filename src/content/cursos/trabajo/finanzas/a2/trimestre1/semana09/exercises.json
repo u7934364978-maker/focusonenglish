@@ -1,0 +1,385 @@
+{
+  "goal": "finanzas",
+  "level": "A2",
+  "trimester": 1,
+  "weekId": "semana09",
+  "title": "Compras en Línea y Estafas",
+  "items": [
+    {
+      "id": "fin-a2-w09-1",
+      "type": "multipleChoice",
+      "prompt": "I ______ the bank manager tomorrow at 10:00.",
+      "options": ["am meeting", "meet", "met"],
+      "answerIndex": 0,
+      "explanation": "Presente continuo para planes futuros organizados."
+    },
+    {
+      "id": "fin-a2-w09-2",
+      "type": "multipleChoice",
+      "prompt": "Check for the ______ icon in your browser for security.",
+      "options": ["padlock", "checkout", "basket"],
+      "answerIndex": 0,
+      "explanation": "El icono del candado (padlock) indica una conexión segura."
+    },
+    {
+      "id": "fin-a2-w09-3",
+      "type": "multipleChoice",
+      "prompt": "Be careful with that email. It looks like ______.",
+      "options": ["phishing", "shopping", "checkout"],
+      "answerIndex": 0,
+      "explanation": "Correos fraudulentos para robar datos se llaman 'phishing'."
+    },
+    {
+      "id": "fin-a2-w09-4",
+      "type": "multipleChoice",
+      "prompt": "We ______ to London next Monday.",
+      "options": ["are flying", "fly", "is flying"],
+      "answerIndex": 0,
+      "explanation": "Presente continuo para planes futuros (are flying)."
+    },
+    {
+      "id": "fin-a2-w09-5",
+      "type": "multipleChoice",
+      "prompt": "Add the products to your ______.",
+      "options": ["shopping cart", "padlock", "scam"],
+      "answerIndex": 0,
+      "explanation": "Carrito de la compra (shopping cart)."
+    },
+    {
+      "id": "fin-a2-w09-6",
+      "type": "fillBlanks",
+      "prompt": "I [blank] [blank] a new laptop this afternoon.",
+      "answers": ["am buying"],
+      "explanation": "Voy a comprar (plan organizado)."
+    },
+    {
+      "id": "fin-a2-w09-7",
+      "type": "fillBlanks",
+      "prompt": "The [blank] is the final step of the purchase.",
+      "answers": ["checkout"],
+      "explanation": "El proceso de pago es el 'checkout'."
+    },
+    {
+      "id": "fin-a2-w09-8",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "She is working from home tomorrow",
+      "explanation": "Ella va a trabajar desde casa mañana."
+    },
+    {
+      "id": "fin-a2-w09-9",
+      "type": "multipleChoice",
+      "prompt": "Don't click that link! It's a ______.",
+      "options": ["scam", "secure", "checkout"],
+      "answerIndex": 0,
+      "explanation": "Es una estafa (scam)."
+    },
+    {
+      "id": "fin-a2-w09-10",
+      "type": "multipleChoice",
+      "prompt": "Are you ______ for a new job next month?",
+      "options": ["applying", "apply", "applies"],
+      "answerIndex": 0,
+      "explanation": "¿Vas a solicitar...?"
+    },
+    {
+      "id": "fin-a2-w09-11",
+      "type": "fillBlanks",
+      "prompt": "I use [blank] to [blank] my accounts.",
+      "answers": ["2FA", "protect"],
+      "explanation": "Uso 2FA para proteger mis cuentas."
+    },
+    {
+      "id": "fin-a2-w09-12",
+      "type": "multipleChoice",
+      "prompt": "We ______ having lunch with the client on Friday.",
+      "options": ["are", "is", "am"],
+      "answerIndex": 0,
+      "explanation": "We are having lunch (plan futuro)."
+    },
+    {
+      "id": "fin-a2-w09-13",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "He is not attending the conference",
+      "explanation": "Él no va a asistir a la conferencia."
+    },
+    {
+      "id": "fin-a2-w09-14",
+      "type": "multipleChoice",
+      "prompt": "The website has a ______ connection.",
+      "options": ["secure", "scam", "phishing"],
+      "answerIndex": 0,
+      "explanation": "La web tiene una conexión segura (secure)."
+    },
+    {
+      "id": "fin-a2-w09-15",
+      "type": "fillBlanks",
+      "prompt": "I [blank] [blank] to Paris next week.",
+      "answers": ["am going"],
+      "explanation": "Me voy a París la semana que viene."
+    },
+    {
+      "id": "fin-a2-w09-16",
+      "type": "multipleChoice",
+      "prompt": "Is your ______ updated?",
+      "options": ["browser", "basket", "padlock"],
+      "answerIndex": 0,
+      "explanation": "¿Está actualizado tu navegador (browser)?"
+    },
+    {
+      "id": "fin-a2-w09-17",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "They are moving to a new office",
+      "explanation": "Ellos se van a mudar a una oficina nueva."
+    },
+    {
+      "id": "fin-a2-w09-18",
+      "type": "multipleChoice",
+      "prompt": "I ______ my card at the moment.",
+      "options": ["am using", "use", "uses"],
+      "answerIndex": 0,
+      "explanation": "Estoy usando mi tarjeta ahora (Presente Continuo)."
+    },
+    {
+      "id": "fin-a2-w09-19",
+      "type": "fillBlanks",
+      "prompt": "Wait, I am [blank] the checkout.",
+      "answers": ["at"],
+      "explanation": "Espera, estoy en el checkout."
+    },
+    {
+      "id": "fin-a2-w09-20",
+      "type": "multipleChoice",
+      "prompt": "Are they ______ a new product soon?",
+      "options": ["launching", "launch", "launches"],
+      "answerIndex": 0,
+      "explanation": "¿Van a lanzar un nuevo producto pronto?"
+    },
+    {
+      "id": "fin-a2-w09-21",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "Are you paying for this?",
+      "explanation": "¿Vas a pagar por esto?"
+    },
+    {
+      "id": "fin-a2-w09-22",
+      "type": "fillBlanks",
+      "prompt": "The [blank] icon is green.",
+      "answers": ["padlock"],
+      "explanation": "El icono del candado es verde."
+    },
+    {
+      "id": "fin-a2-w09-23",
+      "type": "multipleChoice",
+      "prompt": "I ______ on vacation next month.",
+      "options": ["am going", "go", "goes"],
+      "answerIndex": 0,
+      "explanation": "Me voy de vacaciones el mes que viene."
+    },
+    {
+      "id": "fin-a2-w09-24",
+      "type": "fillBlanks",
+      "prompt": "Don't fall for that [blank].",
+      "answers": ["scam"],
+      "explanation": "No caigas en esa estafa."
+    },
+    {
+      "id": "fin-a2-w09-25",
+      "type": "multipleChoice",
+      "prompt": "He ______ his password tonight.",
+      "options": ["is changing", "changes", "change"],
+      "answerIndex": 0,
+      "explanation": "Él va a cambiar su contraseña esta noche."
+    },
+    {
+      "id": "fin-a2-w09-26",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I am not buying that phone",
+      "explanation": "No voy a comprar ese teléfono."
+    },
+    {
+      "id": "fin-a2-w09-27",
+      "type": "multipleChoice",
+      "prompt": "The email asks for my PIN. It's ______.",
+      "options": ["phishing", "secure", "legal"],
+      "answerIndex": 0,
+      "explanation": "Es phishing."
+    },
+    {
+      "id": "fin-a2-w09-28",
+      "type": "fillBlanks",
+      "prompt": "We [blank] [blank] a new bank account tomorrow.",
+      "answers": ["are opening"],
+      "explanation": "Vamos a abrir una cuenta mañana."
+    },
+    {
+      "id": "fin-a2-w09-29",
+      "type": "multipleChoice",
+      "prompt": "Is the website ______?",
+      "options": ["safe", "scam", "phishing"],
+      "answerIndex": 0,
+      "explanation": "¿Es segura la web?"
+    },
+    {
+      "id": "fin-a2-w09-30",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The shopping cart is empty",
+      "explanation": "El carrito de la compra está vacío."
+    },
+    {
+      "id": "fin-a2-w09-31",
+      "type": "multipleChoice",
+      "prompt": "We ______ a big party on Saturday.",
+      "options": ["are having", "have", "has"],
+      "answerIndex": 0,
+      "explanation": "Vamos a dar una gran fiesta."
+    },
+    {
+      "id": "fin-a2-w09-32",
+      "type": "fillBlanks",
+      "prompt": "I [blank] [blank] to the dentist at 4:00.",
+      "answers": ["am going"],
+      "explanation": "Voy al dentista a las 4:00."
+    },
+    {
+      "id": "fin-a2-w09-33",
+      "type": "multipleChoice",
+      "prompt": "The ______ process is very slow.",
+      "options": ["checkout", "padlock", "basket"],
+      "answerIndex": 0,
+      "explanation": "El proceso de pago es lento."
+    },
+    {
+      "id": "fin-a2-w09-34",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Are you coming to the party?",
+      "explanation": "¿Vas a venir a la fiesta?"
+    },
+    {
+      "id": "fin-a2-w09-35",
+      "type": "multipleChoice",
+      "prompt": "I ______ with the manager at 2:00 PM.",
+      "options": ["am speaking", "speak", "speaks"],
+      "answerIndex": 0,
+      "explanation": "Voy a hablar con el gerente a las 2:00."
+    },
+    {
+      "id": "fin-a2-w09-36",
+      "type": "fillBlanks",
+      "prompt": "The [blank] connection is down.",
+      "answers": ["internet", "secure"],
+      "explanation": "La conexión (segura) se ha caído."
+    },
+    {
+      "id": "fin-a2-w09-37",
+      "type": "multipleChoice",
+      "prompt": "They ______ dinner at a restaurant tonight.",
+      "options": ["are eating", "eat", "eats"],
+      "answerIndex": 0,
+      "explanation": "Van a cenar en un restaurante esta noche."
+    },
+    {
+      "id": "fin-a2-w09-38",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "He is flying to New York",
+      "explanation": "Él vuela a Nueva York."
+    },
+    {
+      "id": "fin-a2-w09-39",
+      "type": "multipleChoice",
+      "prompt": "I am ______ the contract right now.",
+      "options": ["signing", "sign", "signs"],
+      "answerIndex": 0,
+      "explanation": "Estoy firmando el contrato ahora."
+    },
+    {
+      "id": "fin-a2-w09-40",
+      "type": "fillBlanks",
+      "prompt": "Don't share [blank] information online.",
+      "answers": ["private", "personal", "sensitive"],
+      "explanation": "No compartas información privada online."
+    },
+    {
+      "id": "fin-a2-w09-41",
+      "type": "multipleChoice",
+      "prompt": "We ______ a new car next year.",
+      "options": ["are buying", "buy", "buys"],
+      "answerIndex": 0,
+      "explanation": "Vamos a comprar un coche nuevo el año que viene."
+    },
+    {
+      "id": "fin-a2-w09-42",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I am staying at a hotel",
+      "explanation": "Me voy a quedar en un hotel."
+    },
+    {
+      "id": "fin-a2-w09-43",
+      "type": "multipleChoice",
+      "prompt": "Is she ______ to the bank later?",
+      "options": ["going", "go", "goes"],
+      "answerIndex": 0,
+      "explanation": "¿Va ella al banco luego?"
+    },
+    {
+      "id": "fin-a2-w09-44",
+      "type": "fillBlanks",
+      "prompt": "The [blank] is full of clothes.",
+      "answers": ["basket", "shopping cart"],
+      "explanation": "El carrito está lleno de ropa."
+    },
+    {
+      "id": "fin-a2-w09-45",
+      "type": "multipleChoice",
+      "prompt": "I ______ tomorrow. It's a holiday.",
+      "options": ["am not working", "no work", "not working"],
+      "answerIndex": 0,
+      "explanation": "No trabajo mañana (plan organizado)."
+    },
+    {
+      "id": "fin-a2-w09-46",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "They are starting a new business",
+      "explanation": "Van a empezar un nuevo negocio."
+    },
+    {
+      "id": "fin-a2-w09-47",
+      "type": "multipleChoice",
+      "prompt": "We ______ at the airport at 6 AM.",
+      "options": ["are arriving", "arriving", "arrives"],
+      "answerIndex": 0,
+      "explanation": "Vamos a llegar al aeropuerto a las 6 AM."
+    },
+    {
+      "id": "fin-a2-w09-48",
+      "type": "fillBlanks",
+      "prompt": "The [blank] link is suspicious.",
+      "answers": ["phishing", "scam"],
+      "explanation": "El enlace de phishing es sospechoso."
+    },
+    {
+      "id": "fin-a2-w09-49",
+      "type": "multipleChoice",
+      "prompt": "Are you ______ the invoice today?",
+      "options": ["paying", "pay", "pays"],
+      "answerIndex": 0,
+      "explanation": "¿Vas a pagar la factura hoy?"
+    },
+    {
+      "id": "fin-a2-w09-50",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Everything is ready for tomorrow",
+      "explanation": "Todo está listo para mañana."
+    }
+  ]
+}

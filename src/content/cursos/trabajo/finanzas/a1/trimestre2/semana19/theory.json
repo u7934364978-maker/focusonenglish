@@ -1,6 +1,24 @@
 {
-  "title": "Topic for Week 19 (A1)",
-  "sections": [{ "id": "v", "title": "Vocabulary", "content": "Basic financial terms for level A1." }],
-  "objectives": ["Learn basic terms"],
-  "keyTerms": []
+  "title": "Tiempo y Citas",
+  "sections": [
+    {
+      "id": "time-vocab",
+      "title": "Vocabulario del Tiempo",
+      "content": "Aprender a organizar tu agenda bancaria.\n\n- **Day**: Día\n- **Week**: Semana\n- **Month**: Mes\n- **Time**: Hora / Tiempo\n- **O'clock**: En punto\n- **Half past**: Y media\n- **Appointment**: Cita\n- **Meeting**: Reunión\n- **Bank visit**: Visita al banco"
+    },
+    {
+      "id": "prepositions-time",
+      "title": "Gramática: Preposiciones de Tiempo (At, On, In)",
+      "content": "Cómo decir cuándo es tu cita.\n\n- **At**: Para horas (At 9 o'clock).\n- **On**: Para días (On Monday).\n- **In**: Para meses y años (In January).\n\nEjemplos:\n- My appointment is **at** 10:30.\n- See you **on** Friday.\n- I have a meeting **in** March."
+    }
+  ],
+  "objectives": [
+    "Identificar los días de la semana y los meses",
+    "Decir la hora de forma básica",
+    "Usar las preposiciones de tiempo correctamente"
+  ],
+  "keyTerms": [
+    { "term": "Appointment", "definition": "A formal arrangement to meet or visit someone at a particular time and place." },
+    { "term": "Time", "definition": "The point at which something happens." }
+  ]
 }

@@ -1,0 +1,29 @@
+{
+  "title": "Meses y Fechas Importantes",
+  "sections": [
+    {
+      "id": "vocab-months",
+      "title": "Vocabulario: Los Meses del Año",
+      "content": "Es fundamental saber los meses para programar citas y pagos:\n\n- **January** (enero), **February** (febrero), **March** (marzo).\n- **April** (abril), **May** (mayo), **June** (junio).\n- **July** (julio), **August** (agosto), **September** (septiembre).\n- **October** (octubre), **November** (noviembre), **December** (diciembre).\n\n*Nota: Los meses siempre se escriben con mayúscula en inglés.*"
+    },
+    {
+      "id": "vocab-dates",
+      "title": "Vocabulario: Números Ordinales para Fechas",
+      "content": "Para las fechas usamos números ordinales:\n\n- **1st**: First.\n- **2nd**: Second.\n- **3rd**: Third.\n- **4th**: Fourth.\n- **10th**: Tenth.\n- **20th**: Twentieth.\n- **31st**: Thirty-first."
+    },
+    {
+      "id": "grammar-prepositions",
+      "title": "Gramática: Preposiciones In, On, At",
+      "content": "Usamos diferentes preposiciones según la precisión del tiempo:\n\n1. **In**: Para periodos largos (meses, años).\n   - *In May* (En mayo).\n   - *In 2024* (En 2024).\n\n2. **On**: Para días específicos y fechas completas.\n   - *On Monday* (El lunes).\n   - *On June 15th* (El 15 de junio).\n\n3. **At**: Para horas específicas.\n   - *At 9:00 AM* (A las 9:00 AM)."
+    }
+  ],
+  "objectives": [
+    "Aprender los meses del año y los números ordinales básicos",
+    "Utilizar correctamente las preposiciones 'in', 'on' y 'at' en contextos temporales",
+    "Poder decir y escribir fechas importantes para trámites bancarios"
+  ],
+  "keyTerms": [
+    { "term": "Date", "definition": "A specific day of the month or year." },
+    { "term": "Deadline", "definition": "The latest time or date by which something should be completed." }
+  ]
+}

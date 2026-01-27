@@ -1,0 +1,19 @@
+{
+  "title": "Examen Final - Segundo Trimestre",
+  "sections": [
+    {
+      "id": "exam-info",
+      "title": "Información del Examen",
+      "content": "Este examen final de nivel B2 evalúa los conocimientos avanzados del segundo trimestre (semanas 13-23).\n\nÁreas de evaluación:\n- Gestión de carteras, diversificación y Asset Allocation.\n- Mercados de capitales, derivados (Opciones/Futuros) y estrategias de cobertura.\n- Finanzas internacionales, mercado Forex y arbitraje.\n- Riesgos financieros (VaR, Stress Testing) e inversiones alternativas (Hedge Funds, PE).\n- FinTech, ESG y banca privada.\n- Gramática avanzada aplicada (Condicionales complejos, Pasiva avanzada, Gerundios/Infinitivos, Future Perfect)."
+    }
+  ],
+  "objectives": [
+    "Validar la competencia en el uso del inglés técnico para finanzas de inversión y gestión de riesgos",
+    "Demostrar capacidad analítica en la resolución de casos hipotéticos usando estructuras condicionales mixtas",
+    "Comunicar tendencias complejas del mercado (FinTech, ESG) con precisión gramatical y léxica"
+  ],
+  "keyTerms": [
+    { "term": "Quantitative Analysis", "definition": "The use of mathematical and statistical methods in finance and investment management." },
+    { "term": "Stochastic Modeling", "definition": "A form of financial modeling that includes random variables to forecast probabilities." }
+  ]
+}

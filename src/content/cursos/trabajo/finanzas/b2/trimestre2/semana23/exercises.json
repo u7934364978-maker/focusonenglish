@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "Which derivative gives you the right to sell?",
+    "options": ["Call option", "Put option", "Futures contract", "Forward contract"],
+    "correctAnswer": 1,
+    "explanation": "A Put option is the right to sell an asset."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "If we __________ (buy) the put options, we __________ (be) protected against the crash today.",
+    "correctAnswer": "had bought... would be",
+    "explanation": "Mixed Conditional."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "What is 'VaR'?",
+    "options": ["Value at Risk", "Variable Asset Rate", "Virtual Account Review", "Validated Audit Report"],
+    "correctAnswer": 0,
+    "explanation": "VaR measures potential losses."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the term:",
+    "pairs": [
+      { "left": "Greenwashing", "right": "Misleading eco-claims" },
+      { "left": "Arbitrage", "right": "Profiting from price gaps" },
+      { "left": "Hedging", "right": "Reducing risk" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "By 2030, the portfolio _______ 20% ESG compliant.",
+    "options": ["will have become", "has become", "became", "is becoming"],
+    "correctAnswer": 0,
+    "explanation": "Future Perfect for future goals."
+  }
+]

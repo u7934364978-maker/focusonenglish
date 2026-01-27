@@ -1,6 +1,24 @@
 {
-  "title": "Topic for Week 20 (A2)",
-  "sections": [{ "id": "v", "title": "Vocabulary", "content": "Basic financial terms for level A2." }],
-  "objectives": ["Learn basic terms"],
-  "keyTerms": []
+  "title": "Banca Internacional y Viajes",
+  "sections": [
+    {
+      "id": "travel-vocab",
+      "title": "Vocabulario: Dinero en el Extranjero",
+      "content": "Aprender a manejar tu dinero cuando viajas.\n\n- **Exchange rate**: Tipo de cambio\n- **Foreign currency**: Moneda extranjera\n- **Commission / Fee**: Comisión\n- **ATM / Cash machine**: Cajero automático\n- **To withdraw money**: Sacar dinero\n- **Local currency**: Moneda local\n- **Traveler's check**: Cheque de viaje (menos común hoy, pero útil conocerlo)"
+    },
+    {
+      "id": "travel-grammar",
+      "title": "Gramática: Superlativos para Servicios",
+      "content": "Usamos superlativos para encontrar la mejor opción al viajar.\n\n- This bank has the **lowest** fees. (Este banco tiene las comisiones más bajas)\n- Which ATM is the **nearest**? (¿Qué cajero es el más cercano?)\n- That exchange office is the **best** in the city. (Esa oficina de cambio es la mejor de la ciudad)"
+    }
+  ],
+  "objectives": [
+    "Comprender conceptos básicos de cambio de moneda",
+    "Identificar comisiones bancarias por uso en el extranjero",
+    "Utilizar superlativos para comparar servicios financieros"
+  ],
+  "keyTerms": [
+    { "term": "Exchange rate", "definition": "The value of one currency for the purpose of conversion to another." },
+    { "term": "Fee", "definition": "An amount of money paid for a particular service." }
+  ]
 }

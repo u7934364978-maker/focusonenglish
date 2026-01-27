@@ -1,0 +1,385 @@
+{
+  "goal": "finanzas",
+  "level": "A2",
+  "trimester": 1,
+  "weekId": "semana08",
+  "title": "Pagos de Servicios",
+  "items": [
+    {
+      "id": "fin-a2-w08-1",
+      "type": "multipleChoice",
+      "prompt": "I am ______ to pay the electricity bill now.",
+      "options": ["go", "going", "gone"],
+      "answerIndex": 1,
+      "explanation": "I am going to pay (futuro de intención)."
+    },
+    {
+      "id": "fin-a2-w08-2",
+      "type": "multipleChoice",
+      "prompt": "The ______ for the water bill is tomorrow.",
+      "options": ["due date", "bill date", "tax date"],
+      "answerIndex": 0,
+      "explanation": "La fecha de vencimiento es el 'due date'."
+    },
+    {
+      "id": "fin-a2-w08-3",
+      "type": "multipleChoice",
+      "prompt": "Are you ______ to set up a direct debit?",
+      "options": ["go", "going", "goes"],
+      "answerIndex": 1,
+      "explanation": "¿Vas a configurar...? (Are you going to...)."
+    },
+    {
+      "id": "fin-a2-w08-4",
+      "type": "multipleChoice",
+      "prompt": "The ______ bill is very high this winter.",
+      "options": ["gas", "water", "internet"],
+      "answerIndex": 0,
+      "explanation": "La factura del gas suele subir en invierno."
+    },
+    {
+      "id": "fin-a2-w08-5",
+      "type": "multipleChoice",
+      "prompt": "We are ______ to pay any more taxes.",
+      "options": ["not going", "no going", "not go"],
+      "answerIndex": 0,
+      "explanation": "No vamos a pagar (We are not going to pay)."
+    },
+    {
+      "id": "fin-a2-w08-6",
+      "type": "fillBlanks",
+      "prompt": "I'm [blank] [blank] [blank] call the company.",
+      "answers": ["going to"],
+      "explanation": "I'm going to call."
+    },
+    {
+      "id": "fin-a2-w08-7",
+      "type": "fillBlanks",
+      "prompt": "The [blank] bill is for $50 this month.",
+      "answers": ["electricity", "water", "phone"],
+      "explanation": "Cualquier servicio básico."
+    },
+    {
+      "id": "fin-a2-w08-8",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "He is going to pay the bills",
+      "explanation": "Él va a pagar las facturas."
+    },
+    {
+      "id": "fin-a2-w08-9",
+      "type": "multipleChoice",
+      "prompt": "A ______ is a tax on products you buy.",
+      "options": ["VAT", "bill", "loan"],
+      "answerIndex": 0,
+      "explanation": "El IVA se dice VAT (Value Added Tax)."
+    },
+    {
+      "id": "fin-a2-w08-10",
+      "type": "multipleChoice",
+      "prompt": "Is she ______ to move to another house?",
+      "options": ["going", "go", "gone"],
+      "answerIndex": 0,
+      "explanation": "¿Va ella a mudarse? (Is she going to...)."
+    },
+    {
+      "id": "fin-a2-w08-11",
+      "type": "fillBlanks",
+      "prompt": "I have an [blank] payment for my gym membership.",
+      "answers": ["automatic", "automated"],
+      "explanation": "Tengo un pago automático."
+    },
+    {
+      "id": "fin-a2-w08-12",
+      "type": "multipleChoice",
+      "prompt": "Don't forget the ______.",
+      "options": ["utility bill", "scam", "PIN"],
+      "answerIndex": 0,
+      "explanation": "No olvides la factura de servicios (utility bill)."
+    },
+    {
+      "id": "fin-a2-w08-13",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Are you going to pay in cash?",
+      "explanation": "¿Vas a pagar en efectivo?"
+    },
+    {
+      "id": "fin-a2-w08-14",
+      "type": "multipleChoice",
+      "prompt": "The government is ______ to increase taxes.",
+      "options": ["going", "go", "goes"],
+      "answerIndex": 0,
+      "explanation": "El gobierno va a subir los impuestos."
+    },
+    {
+      "id": "fin-a2-w08-15",
+      "type": "fillBlanks",
+      "prompt": "The [blank] [blank] is next Friday.",
+      "answers": ["due date"],
+      "explanation": "La fecha de vencimiento es el próximo viernes."
+    },
+    {
+      "id": "fin-a2-w08-16",
+      "type": "multipleChoice",
+      "prompt": "They ______ going to help us.",
+      "options": ["are not", "is not", "am not"],
+      "answerIndex": 0,
+      "explanation": "Ellos no van a (They are not going to)."
+    },
+    {
+      "id": "fin-a2-w08-17",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Water is a basic utility service",
+      "explanation": "El agua es un servicio básico."
+    },
+    {
+      "id": "fin-a2-w08-18",
+      "type": "multipleChoice",
+      "prompt": "I ______ going to pay my taxes tomorrow.",
+      "options": ["am", "is", "are"],
+      "answerIndex": 0,
+      "explanation": "Yo voy a (I am going to)."
+    },
+    {
+      "id": "fin-a2-w08-19",
+      "type": "fillBlanks",
+      "prompt": "The [blank] debit is set up.",
+      "answers": ["direct"],
+      "explanation": "La domiciliación bancaria (direct debit) está configurada."
+    },
+    {
+      "id": "fin-a2-w08-20",
+      "type": "multipleChoice",
+      "prompt": "Where ______ you going to pay?",
+      "options": ["are", "is", "am"],
+      "answerIndex": 0,
+      "explanation": "¿Dónde vas a pagar? (Where are you going to...)."
+    },
+    {
+      "id": "fin-a2-w08-21",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "Is he going to call the bank?",
+      "explanation": "¿Va él a llamar al banco?"
+    },
+    {
+      "id": "fin-a2-w08-22",
+      "type": "fillBlanks",
+      "prompt": "I'm going to pay the [blank] bill.",
+      "answers": ["gas", "water", "electricity"],
+      "explanation": "Cualquier factura."
+    },
+    {
+      "id": "fin-a2-w08-23",
+      "type": "multipleChoice",
+      "prompt": "The ______ for the phone is $30.",
+      "options": ["monthly bill", "due date", "tax"],
+      "answerIndex": 0,
+      "explanation": "La factura mensual del teléfono."
+    },
+    {
+      "id": "fin-a2-w08-24",
+      "type": "fillBlanks",
+      "prompt": "We [blank] [blank] going to pay late.",
+      "answers": ["are not"],
+      "explanation": "No vamos a pagar tarde."
+    },
+    {
+      "id": "fin-a2-w08-25",
+      "type": "multipleChoice",
+      "prompt": "Is the ______ inclusive of VAT?",
+      "options": ["price", "bill", "due date"],
+      "answerIndex": 0,
+      "explanation": "¿El precio incluye el IVA?"
+    },
+    {
+      "id": "fin-a2-w08-26",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Taxes are going to increase soon",
+      "explanation": "Los impuestos van a subir pronto."
+    },
+    {
+      "id": "fin-a2-w08-27",
+      "type": "multipleChoice",
+      "prompt": "What ______ you going to do?",
+      "options": ["are", "is", "am"],
+      "answerIndex": 0,
+      "explanation": "¿Qué vas a hacer?"
+    },
+    {
+      "id": "fin-a2-w08-28",
+      "type": "fillBlanks",
+      "prompt": "I'm going to [blank] my bills online.",
+      "answers": ["pay", "check"],
+      "explanation": "Voy a pagar/revisar mis facturas online."
+    },
+    {
+      "id": "fin-a2-w08-29",
+      "type": "multipleChoice",
+      "prompt": "The ______ bill is for the Internet.",
+      "options": ["utility", "tax", "loan"],
+      "answerIndex": 0,
+      "explanation": "La factura de servicios (aunque internet a veces se separa, entra en el concepto)."
+    },
+    {
+      "id": "fin-a2-w08-30",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The water bill is very cheap",
+      "explanation": "La factura del agua es muy barata."
+    },
+    {
+      "id": "fin-a2-w08-31",
+      "type": "multipleChoice",
+      "prompt": "Who ______ going to pay for this?",
+      "options": ["is", "are", "am"],
+      "answerIndex": 0,
+      "explanation": "¿Quién va a pagar por esto?"
+    },
+    {
+      "id": "fin-a2-w08-32",
+      "type": "fillBlanks",
+      "prompt": "I'm going to [blank] a direct debit.",
+      "answers": ["start", "setup", "create"],
+      "explanation": "Voy a configurar una domiciliación."
+    },
+    {
+      "id": "fin-a2-w08-33",
+      "type": "multipleChoice",
+      "prompt": "The ______ date was yesterday!",
+      "options": ["due", "pay", "tax"],
+      "answerIndex": 0,
+      "explanation": "¡La fecha de vencimiento fue ayer!"
+    },
+    {
+      "id": "fin-a2-w08-34",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I am going to check the tax",
+      "explanation": "Voy a revisar el impuesto."
+    },
+    {
+      "id": "fin-a2-w08-35",
+      "type": "multipleChoice",
+      "prompt": "Are they ______ to buy the company?",
+      "options": ["going", "go", "gone"],
+      "answerIndex": 0,
+      "explanation": "¿Van ellos a comprar la compañía?"
+    },
+    {
+      "id": "fin-a2-w08-36",
+      "type": "fillBlanks",
+      "prompt": "The [blank] is 21%.",
+      "answers": ["VAT", "tax rate"],
+      "explanation": "El IVA es del 21%."
+    },
+    {
+      "id": "fin-a2-w08-37",
+      "type": "multipleChoice",
+      "prompt": "We ______ going to cancel the service.",
+      "options": ["are", "is", "am"],
+      "answerIndex": 0,
+      "explanation": "Vamos a cancelar el servicio."
+    },
+    {
+      "id": "fin-a2-w08-38",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Direct debit is a good option",
+      "explanation": "La domiciliación es una buena opción."
+    },
+    {
+      "id": "fin-a2-w08-39",
+      "type": "multipleChoice",
+      "prompt": "I am ______ to save more money.",
+      "options": ["going", "go", "goes"],
+      "answerIndex": 0,
+      "explanation": "Voy a ahorrar más dinero."
+    },
+    {
+      "id": "fin-a2-w08-40",
+      "type": "fillBlanks",
+      "prompt": "The [blank] bill is overdue.",
+      "answers": ["electricity", "water", "gas"],
+      "explanation": "La factura está vencida."
+    },
+    {
+      "id": "fin-a2-w08-41",
+      "type": "multipleChoice",
+      "prompt": "Is he ______ to sign the contract?",
+      "options": ["going", "go", "gone"],
+      "answerIndex": 0,
+      "explanation": "¿Va él a firmar el contrato?"
+    },
+    {
+      "id": "fin-a2-w08-42",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I am not going to pay",
+      "explanation": "No voy a pagar."
+    },
+    {
+      "id": "fin-a2-w08-43",
+      "type": "multipleChoice",
+      "prompt": "You ______ going to receive a notification.",
+      "options": ["are", "is", "am"],
+      "answerIndex": 0,
+      "explanation": "Vas a recibir una notificación."
+    },
+    {
+      "id": "fin-a2-w08-44",
+      "type": "fillBlanks",
+      "prompt": "The bill is [blank] next month.",
+      "answers": ["due"],
+      "explanation": "La factura vence el mes que viene."
+    },
+    {
+      "id": "fin-a2-w08-45",
+      "type": "multipleChoice",
+      "prompt": "We ______ going to change our bank.",
+      "options": ["are", "is", "am"],
+      "answerIndex": 0,
+      "explanation": "Vamos a cambiar de banco."
+    },
+    {
+      "id": "fin-a2-w08-46",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The tax is already paid",
+      "explanation": "El impuesto ya está pagado."
+    },
+    {
+      "id": "fin-a2-w08-47",
+      "type": "multipleChoice",
+      "prompt": "Is the ______ company open now?",
+      "options": ["electricity", "tax", "loan"],
+      "answerIndex": 0,
+      "explanation": "¿Está abierta la compañía eléctrica?"
+    },
+    {
+      "id": "fin-a2-w08-48",
+      "type": "fillBlanks",
+      "prompt": "I'm [blank] to [blank] my account.",
+      "answers": ["going", "check"],
+      "explanation": "Voy a revisar mi cuenta."
+    },
+    {
+      "id": "fin-a2-w08-49",
+      "type": "multipleChoice",
+      "prompt": "Are you ______ to help me?",
+      "options": ["going", "go", "goes"],
+      "answerIndex": 0,
+      "explanation": "¿Vas a ayudarme?"
+    },
+    {
+      "id": "fin-a2-w08-50",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Going to pay by app today",
+      "explanation": "Voy a pagar por la app hoy."
+    }
+  ]
+}

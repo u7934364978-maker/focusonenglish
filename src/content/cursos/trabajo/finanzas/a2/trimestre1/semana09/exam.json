@@ -1,0 +1,116 @@
+{
+  "title": "Week 9 Final Exam: Online Safety",
+  "description": "Assessment on online shopping vocabulary and Present Continuous for future arrangements.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the name of the process when you finish paying for your items online?",
+      "options": [
+        "Check-in",
+        "Checkout",
+        "Check-up",
+        "Check-out"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which icon indicates a secure connection in your browser?",
+      "options": [
+        "A star",
+        "A padlock",
+        "A red circle",
+        "A shopping bag"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "A fraudulent email that tries to steal your banking details is called...",
+      "options": [
+        "Phishing",
+        "Fishing",
+        "Shipping",
+        "Pushing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "Choose the correct sentence for a fixed arrangement tomorrow:",
+      "options": [
+        "I meet the manager tomorrow.",
+        "I am meeting the manager tomorrow.",
+        "I will meeting the manager tomorrow.",
+        "I meeting the manager tomorrow."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What does 2FA stand for?",
+      "options": [
+        "Two-factor authentication",
+        "Two-file access",
+        "To-finance account",
+        "Two-form application"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "Complete: 'We __________ to London this Friday for the conference.'",
+      "options": [
+        "is flying",
+        "are flying",
+        "am flying",
+        "flying"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Where do you put the items you want to buy before paying?",
+      "options": [
+        "In the checkout",
+        "In the shopping cart",
+        "In the browser",
+        "In the phishing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "If a website is a 'scam', it is...",
+      "options": [
+        "A safe site",
+        "A fraudulent site",
+        "A government site",
+        "A social media site"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Complete: 'They __________ a new branch next month.' (fixed plan)",
+      "options": [
+        "opening",
+        "are opening",
+        "is opening",
+        "opens"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Secure websites usually start with...",
+      "options": [
+        "http://",
+        "https://",
+        "www.",
+        "ftp://"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

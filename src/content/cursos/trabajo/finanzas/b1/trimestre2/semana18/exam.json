@@ -1,7 +1,41 @@
-{
-  "goal": "finanzas", "level": "B1", "trimester": 2, "weekId": "semana18", "examId": "fin-b1-w18-exam",
-  "title": "Examen: Semana 18",
-  "items": [
-    { "id": "fin-b1-w18-exam-1", "type": "multipleChoice", "prompt": "Final question for week 18.", "options": ["True", "False"], "answerIndex": 0, "explanation": "Final check." }
-  ]
-}
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is 'Compound Interest'?",
+    "options": ["Interest on the principal only", "Interest on the principal and previous interest", "A fixed bank fee", "A type of loan"],
+    "correctAnswer": 1,
+    "explanation": "Compound interest is calculated on the initial principal and also on the accumulated interest."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "What are 'Dividends'?",
+    "options": ["Taxes on stocks", "Part of a company's profit paid to shareholders", "The cost of buying a stock", "A type of insurance"],
+    "correctAnswer": 1,
+    "explanation": "Dividends are payments made by a corporation to its shareholders."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "If the interest rate __________ (increase), we will save more.",
+    "correctAnswer": "increases",
+    "explanation": "First Conditional: If + Present Simple, Will."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "A 'Portfolio' in finance is:",
+    "options": ["A leather bag", "A collection of investments", "A bank statement", "A tax document"],
+    "correctAnswer": 1,
+    "explanation": "An investment portfolio is a grouping of financial assets."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "Which investment is usually considered 'low risk'?",
+    "options": ["Venture capital", "Cryptocurrency", "Government bonds", "Penny stocks"],
+    "correctAnswer": 2,
+    "explanation": "Government bonds are typically considered safer than stocks or venture capital."
+  }
+]

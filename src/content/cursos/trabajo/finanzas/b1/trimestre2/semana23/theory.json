@@ -1,0 +1,24 @@
+{
+  "title": "Repaso del Segundo Trimestre",
+  "sections": [
+    {
+      "id": "review-vocab",
+      "title": "Repaso de Vocabulario Financiero",
+      "content": "Resumen de los términos clave de las últimas semanas:\n\n- **Invoicing & Payments**: Ledger, Accounts Payable/Receivable, Passive Voice processes.\n- **Budgets & Performance**: Expenditure, Revenue, Variance, Comparatives.\n- **Taxes & Compliance**: VAT, Tax returns, Audit trails, KYC/AML.\n- **Risk & Forex**: Liquidity, Hedging, Exchange rate risk, Imports/Exports."
+    },
+    {
+      "id": "review-grammar",
+      "title": "Repaso de Gramática",
+      "content": "Estructuras principales aprendidas:\n\n- **Passive Voice**: Procesos y reportes.\n- **Comparatives & Superlatives**: Análisis de rendimiento.\n- **Conditionals (0, 1, 2)**: Reglas, consecuencias y escenarios hipotéticos.\n- **Reported Speech**: Informar sobre reuniones y auditorías.\n- **Wish**: Expresar deseos de mejora."
+    }
+  ],
+  "objectives": [
+    "Consolidar el vocabulario financiero y corporativo de nivel B1",
+    "Repasar todas las estructuras gramaticales complejas del trimestre",
+    "Prepararse para el examen final integral"
+  ],
+  "keyTerms": [
+    { "term": "Consolidation", "definition": "The action or process of making something stronger or more solid." },
+    { "term": "Final Assessment", "definition": "The last evaluation of a course to determine the level of achievement." }
+  ]
+}

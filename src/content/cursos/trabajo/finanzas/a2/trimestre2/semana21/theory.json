@@ -1,0 +1,24 @@
+{
+  "title": "Seguridad Financiera y Fraude",
+  "sections": [
+    {
+      "id": "security-vocab",
+      "title": "Vocabulario: Protegiendo tu Dinero",
+      "content": "A2 nivel. Cómo evitar estafas.\n\n- **Scam**: Estafa\n- **Fraud**: Fraude\n- **Phishing**: Suplantación de identidad (email falso)\n- **To block a card**: Bloquear una tarjeta\n- **Identity theft**: Robo de identidad\n- **Suspicious activity**: Actividad sospechosa\n- **Verify**: Verificar\n- **Reliable**: Confiable"
+    },
+    {
+      "id": "security-grammar",
+      "title": "Gramática: Must / Mustn't para Reglas",
+      "content": "Usamos **must** para obligación fuerte y **mustn't** para prohibición.\n\n- You **must** keep your PIN secret. (Debes mantener tu PIN en secreto)\n- You **mustn't** share your password with anyone. (No debes compartir tu contraseña con nadie)\n- Customers **must** report lost cards immediately. (Los clientes deben reportar tarjetas perdidas inmediatamente)"
+    }
+  ],
+  "objectives": [
+    "Identificar diferentes tipos de fraude financiero",
+    "Comprender reglas de seguridad bancaria",
+    "Utilizar 'must' y 'mustn't' para obligaciones y prohibiciones"
+  ],
+  "keyTerms": [
+    { "term": "Phishing", "definition": "An attempt to trick someone into giving information over email." },
+    { "term": "Fraud", "definition": "Criminal deception intended to result in financial gain." }
+  ]
+}

@@ -84,6 +84,326 @@
       "options": ["statistical", "emotional", "physical", "visual"],
       "answerIndex": 0,
       "explanation": "Statistical analysis provides the data-backed evidence for correlations."
+    },
+    {
+      "id": "fin-c1-w19-11",
+      "type": "multipleChoice",
+      "prompt": "The portfolio's risk profile is ________ to the level of market volatility.",
+      "options": ["directly proportional", "inversely proportional", "completely unrelated", "marginally connected"],
+      "answerIndex": 0,
+      "explanation": "As volatility increases, the risk profile typically increases as well."
+    },
+    {
+      "id": "fin-c1-w19-12",
+      "type": "multipleChoice",
+      "prompt": "________ the complexity of the model, we decided to simplify several variables.",
+      "options": ["Given", "Provided", "Unless", "Supposing"],
+      "answerIndex": 0,
+      "explanation": "Concise participle structure meaning 'considering the complexity'."
+    },
+    {
+      "id": "fin-c1-w19-13",
+      "type": "multipleChoice",
+      "prompt": "A ________ process is one where the next state is determined by both predictable and random elements.",
+      "options": ["stochastic", "deterministic", "linear", "static"],
+      "answerIndex": 0,
+      "explanation": "Stochastic models are fundamental in quantitative finance."
+    },
+    {
+      "id": "fin-c1-w19-14",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the data into different quartiles allowed for a more granular analysis.",
+      "options": ["segmentation", "stagnation", "inflation", "rotation"],
+      "answerIndex": 0,
+      "explanation": "Segmentation involves dividing a broad dataset into sub-groups."
+    },
+    {
+      "id": "fin-c1-w19-15",
+      "type": "multipleChoice",
+      "prompt": "Corporate bond yields are often ________ correlated with treasury prices.",
+      "options": ["negatively", "positively", "steadily", "randomly"],
+      "answerIndex": 0,
+      "explanation": "Yields and prices move in opposite directions (negative correlation)."
+    },
+    {
+      "id": "fin-c1-w19-16",
+      "type": "multipleChoice",
+      "prompt": "The model's ________ ability was tested against historical data.",
+      "options": ["predictive", "subjective", "emotional", "physical"],
+      "answerIndex": 0,
+      "explanation": "Predictive ability refers to how well a model can forecast future values."
+    },
+    {
+      "id": "fin-c1-w19-17",
+      "type": "multipleChoice",
+      "prompt": "________ on the regression results, the alpha generation potential is limited.",
+      "options": ["Based", "Depending", "Considering", "Judging"],
+      "answerIndex": 0,
+      "explanation": "Participle phrase for conciseness: 'Based on...'."
+    },
+    {
+      "id": "fin-c1-w19-18",
+      "type": "multipleChoice",
+      "prompt": "High-frequency trading (HFT) relies heavily on ________ that can identify patterns in milliseconds.",
+      "options": ["algorithms", "humans", "newspapers", "calendars"],
+      "answerIndex": 0,
+      "explanation": "Algorithms are the core of automated trading."
+    },
+    {
+      "id": "fin-c1-w19-19",
+      "type": "multipleChoice",
+      "prompt": "The deviation from the ________ was more pronounced in emerging markets.",
+      "options": ["benchmark", "premium", "dividend", "liability"],
+      "answerIndex": 0,
+      "explanation": "A benchmark is a standard against which performance is measured."
+    },
+    {
+      "id": "fin-c1-w19-20",
+      "type": "multipleChoice",
+      "prompt": "The ________ between interest rates and inflation is a key focus for central banks.",
+      "options": ["interplay", "separation", "isolation", "competition"],
+      "answerIndex": 0,
+      "explanation": "'Interplay' refers to the way in which two or more things have an effect on each other."
+    },
+    {
+      "id": "fin-c1-w19-21",
+      "type": "fillBlanks",
+      "prompt": "Complete the term: [Monte] Carlo simulations are used for risk assessment.",
+      "text": "[Monte] Carlo simulations are used for risk assessment.",
+      "answers": ["Monte"],
+      "explanation": "Monte Carlo is the standard name for this type of simulation."
+    },
+    {
+      "id": "fin-c1-w19-22",
+      "type": "fillBlanks",
+      "prompt": "Complete the sentence: The results were [inversely] proportional to the expected growth.",
+      "text": "The results were [inversely] proportional to the expected growth.",
+      "answers": ["inversely"],
+      "explanation": "Inversely proportional means as one variable increases, the other decreases."
+    },
+    {
+      "id": "fin-c1-w19-23",
+      "type": "multipleChoice",
+      "prompt": "The ________ variable in the model represents the external economic shock.",
+      "options": ["exogenous", "endogenous", "constant", "linear"],
+      "answerIndex": 0,
+      "explanation": "Exogenous variables are those that come from outside the model."
+    },
+    {
+      "id": "fin-c1-w19-24",
+      "type": "multipleChoice",
+      "prompt": "We used a ________ of data points to ensure the robustness of the findings.",
+      "options": ["multitude", "fragment", "segment", "trace"],
+      "answerIndex": 0,
+      "explanation": "'Multitude' emphasizes a very large number."
+    },
+    {
+      "id": "fin-c1-w19-25",
+      "type": "multipleChoice",
+      "prompt": "The ________ error in the forecast was within the acceptable margin of 2%.",
+      "options": ["standard", "total", "extreme", "negligible"],
+      "answerIndex": 0,
+      "explanation": "Standard error is a statistical term for the standard deviation of a sampling distribution."
+    },
+    {
+      "id": "fin-c1-w19-26",
+      "type": "multipleChoice",
+      "prompt": "________ the lack of data, the analysts had to rely on proxy variables.",
+      "options": ["Faced with", "Regardless of", "Because of", "Instead of"],
+      "answerIndex": 0,
+      "explanation": "'Faced with' is a professional way to introduce a challenge or situation."
+    },
+    {
+      "id": "fin-c1-w19-27",
+      "type": "multipleChoice",
+      "prompt": "A ________ distribution is often assumed in financial models, although markets often exhibit 'fat tails'.",
+      "options": ["normal", "random", "chaotic", "complex"],
+      "answerIndex": 0,
+      "explanation": "The normal (Gaussian) distribution is a standard assumption in many models."
+    },
+    {
+      "id": "fin-c1-w19-28",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the coefficients in the regression was statistically significant.",
+      "options": ["magnitude", "color", "shape", "weight"],
+      "answerIndex": 0,
+      "explanation": "Magnitude refers to the size or extent of something."
+    },
+    {
+      "id": "fin-c1-w19-29",
+      "type": "multipleChoice",
+      "prompt": "The model's output is highly ________ to the initial assumptions.",
+      "options": ["sensitive", "oblivious", "resistant", "immune"],
+      "answerIndex": 0,
+      "explanation": "Sensitivity analysis tests how changes in assumptions affect the output."
+    },
+    {
+      "id": "fin-c1-w19-30",
+      "type": "multipleChoice",
+      "prompt": "The ________ between the two variables weakened over the course of the decade.",
+      "options": ["correlation", "separation", "isolation", "competition"],
+      "answerIndex": 0,
+      "explanation": "Correlation can change over time as market dynamics evolve."
+    },
+    {
+      "id": "fin-c1-w19-31",
+      "type": "multipleChoice",
+      "prompt": "________ analysis focuses on understanding the internal logic and variables of a system.",
+      "options": ["Structural", "Visual", "Emotional", "Physical"],
+      "answerIndex": 0,
+      "explanation": "Structural analysis looks at the underlying components of a system."
+    },
+    {
+      "id": "fin-c1-w19-32",
+      "type": "multipleChoice",
+      "prompt": "The ________ was used to mitigate the risk of a single point of failure.",
+      "options": ["redundancy", "simplicity", "complexity", "volatility"],
+      "answerIndex": 0,
+      "explanation": "Redundancy involve having backup components or systems."
+    },
+    {
+      "id": "fin-c1-w19-33",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the data allowed us to identify outliers that were skewing the results.",
+      "options": ["visualization", "stagnation", "inflation", "rotation"],
+      "answerIndex": 0,
+      "explanation": "Visualizing data (charts, graphs) helps in identifying patterns and outliers."
+    },
+    {
+      "id": "fin-c1-w19-34",
+      "type": "multipleChoice",
+      "prompt": "The fund manager ________ (attribute) the outperformance to the proprietary algorithm.",
+      "options": ["attributed", "attributes", "attributing", "attribute"],
+      "answerIndex": 0,
+      "explanation": "To 'attribute' means to regard something as being caused by a specific factor."
+    },
+    {
+      "id": "fin-c1-w19-35",
+      "type": "multipleChoice",
+      "prompt": "A ________ model is one that does not change over time.",
+      "options": ["static", "dynamic", "stochastic", "complex"],
+      "answerIndex": 0,
+      "explanation": "Static models are simpler but may not capture market changes."
+    },
+    {
+      "id": "fin-c1-w19-36",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the financial system was tested during the stress test.",
+      "options": ["resilience", "volatility", "complexity", "fragility"],
+      "answerIndex": 0,
+      "explanation": "Resilience refers to the ability to recover from difficulties."
+    },
+    {
+      "id": "fin-c1-w19-37",
+      "type": "multipleChoice",
+      "prompt": "The results ________ from the trend line, suggesting a fundamental shift in the market.",
+      "options": ["diverged", "correlated", "followed", "matched"],
+      "answerIndex": 0,
+      "explanation": "Divergence indicates a departure from the established trend."
+    },
+    {
+      "id": "fin-c1-w19-38",
+      "type": "multipleChoice",
+      "prompt": "________ is the process of adjusting the model to fit historical data.",
+      "options": ["Calibration", "Creation", "Destruction", "Calculation"],
+      "answerIndex": 0,
+      "explanation": "Calibration ensures the model accurately reflects reality."
+    },
+    {
+      "id": "fin-c1-w19-39",
+      "type": "multipleChoice",
+      "prompt": "The ________ risk refers to the risk of loss due to flaws in the mathematical models.",
+      "options": ["model", "market", "credit", "operational"],
+      "answerIndex": 0,
+      "explanation": "Model risk is a significant concern for quantitative desks."
+    },
+    {
+      "id": "fin-c1-w19-40",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the market has increased with the rise of automated trading.",
+      "options": ["efficiency", "secrecy", "complexity", "volatility"],
+      "answerIndex": 0,
+      "explanation": "Increased efficiency is a cited benefit of algorithmic trading."
+    },
+    {
+      "id": "fin-c1-w19-41",
+      "type": "multipleChoice",
+      "prompt": "The data ________ (show) a clear correlation between education levels and income.",
+      "options": ["shows", "show", "showing", "showed"],
+      "answerIndex": 0,
+      "explanation": "Subject-verb agreement: 'data' is often treated as singular in business English."
+    },
+    {
+      "id": "fin-c1-w19-42",
+      "type": "multipleChoice",
+      "prompt": "A ________ correlation coefficient of 0.9 indicates a strong relationship.",
+      "options": ["positive", "negative", "neutral", "random"],
+      "answerIndex": 0,
+      "explanation": "Correlation ranges from -1 to 1."
+    },
+    {
+      "id": "fin-c1-w19-43",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the variables was essential for the comparison.",
+      "options": ["standardization", "stagnation", "inflation", "rotation"],
+      "answerIndex": 0,
+      "explanation": "Standardization allows variables on different scales to be compared."
+    },
+    {
+      "id": "fin-c1-w19-44",
+      "type": "multipleChoice",
+      "prompt": "We used a ________ of scenarios to stress-test the portfolio.",
+      "options": ["variety", "segment", "fragment", "trace"],
+      "answerIndex": 0,
+      "explanation": "'Variety' indicates a range of different things."
+    },
+    {
+      "id": "fin-c1-w19-45",
+      "type": "multipleChoice",
+      "prompt": "The ________ was conducted to determine the impact of a 1% rise in interest rates.",
+      "options": ["sensitivity analysis", "marketing audit", "personal interview", "social media review"],
+      "answerIndex": 0,
+      "explanation": "Sensitivity analysis is used to see how different values of an independent variable affect a dependent variable."
+    },
+    {
+      "id": "fin-c1-w19-46",
+      "type": "multipleChoice",
+      "prompt": "The ________ between the two assets was almost zero, making them good for diversification.",
+      "options": ["correlation", "separation", "isolation", "competition"],
+      "answerIndex": 0,
+      "explanation": "Low correlation is the key to effective diversification."
+    },
+    {
+      "id": "fin-c1-w19-47",
+      "type": "multipleChoice",
+      "prompt": "The algorithm was ________ to execute trades only when certain criteria were met.",
+      "options": ["programmed", "hired", "fired", "trained"],
+      "answerIndex": 0,
+      "explanation": "Algorithms are programmed with specific rules."
+    },
+    {
+      "id": "fin-c1-w19-48",
+      "type": "multipleChoice",
+      "prompt": "The ________ in the market data suggested a seasonal pattern.",
+      "options": ["cyclicality", "stagnation", "inflation", "rotation"],
+      "answerIndex": 0,
+      "explanation": "Cyclicality refers to patterns that repeat over time."
+    },
+    {
+      "id": "fin-c1-w19-49",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the model was verified by an independent third party.",
+      "options": ["validity", "creation", "destruction", "calculation"],
+      "answerIndex": 0,
+      "explanation": "Validity refers to the quality of being logically or factually sound."
+    },
+    {
+      "id": "fin-c1-w19-50",
+      "type": "multipleChoice",
+      "prompt": "The ________ is the core mathematical formula that drives the trading strategy.",
+      "options": ["engine", "fuel", "driver", "brakes"],
+      "answerIndex": 0,
+      "explanation": "'Engine' is a common metaphor for the core of a trading algorithm."
     }
   ]
 }

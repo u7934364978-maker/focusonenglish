@@ -1,7 +1,403 @@
 {
-  "goal": "finanzas", "level": "A2", "trimester": 2, "weekId": "semana17",
-  "title": "Ejercicios: Semana 17",
+  "goal": "finanzas",
+  "level": "A2",
+  "trimester": 2,
+  "weekId": "semana17",
+  "title": "Ejercicios: Banca Móvil",
   "items": [
-    { "id": "fin-a2-w17-1", "type": "multipleChoice", "prompt": "Basic question for A2 week 17.", "options": ["A", "B"], "answerIndex": 0 }
+    {
+      "id": "fin-a2-w17-1",
+      "type": "multipleChoice",
+      "prompt": "________ the app on your phone to start.",
+      "options": ["Open", "Opens", "Opening", "To open"],
+      "answerIndex": 0,
+      "explanation": "Imperative for an instruction: 'Open'."
+    },
+    {
+      "id": "fin-a2-w17-2",
+      "type": "multipleChoice",
+      "prompt": "You need a ________ to access your account.",
+      "options": ["password", "paper", "picture", "pencil"],
+      "answerIndex": 0,
+      "explanation": "A password is a secret code for security."
+    },
+    {
+      "id": "fin-a2-w17-3",
+      "type": "multipleChoice",
+      "prompt": "________ your username in the first box.",
+      "options": ["Enter", "Enters", "Entering", "To enter"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Enter' (introduce)."
+    },
+    {
+      "id": "fin-a2-w17-4",
+      "type": "multipleChoice",
+      "prompt": "I want to ________ money to my friend.",
+      "options": ["transfer", "translate", "transport", "transmit"],
+      "answerIndex": 0,
+      "explanation": "To transfer money means to move it to another account."
+    },
+    {
+      "id": "fin-a2-w17-5",
+      "type": "multipleChoice",
+      "prompt": "________ the 'Login' button.",
+      "options": ["Press", "Presses", "Pressing", "To press"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Press' (pulsa)."
+    },
+    {
+      "id": "fin-a2-w17-6",
+      "type": "multipleChoice",
+      "prompt": "You have a new ________ from the bank.",
+      "options": ["notification", "notebook", "newspaper", "novel"],
+      "answerIndex": 0,
+      "explanation": "A notification is an alert on your phone."
+    },
+    {
+      "id": "fin-a2-w17-7",
+      "type": "multipleChoice",
+      "prompt": "________ share your secret code with anyone.",
+      "options": ["Don't", "No", "Not", "Doesn't"],
+      "answerIndex": 0,
+      "explanation": "Negative imperative: 'Don't' + verb."
+    },
+    {
+      "id": "fin-a2-w17-8",
+      "type": "multipleChoice",
+      "prompt": "Click here to see your account ________.",
+      "options": ["balance", "ball", "bank", "base"],
+      "answerIndex": 0,
+      "explanation": "The balance is the amount of money in the account."
+    },
+    {
+      "id": "fin-a2-w17-9",
+      "type": "multipleChoice",
+      "prompt": "________ the transaction now.",
+      "options": ["Confirm", "Confirms", "Confirming", "To confirm"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Confirm'."
+    },
+    {
+      "id": "fin-a2-w17-10",
+      "type": "multipleChoice",
+      "prompt": "I pay my electricity ________ with the app.",
+      "options": ["bill", "bell", "ball", "bull"],
+      "answerIndex": 0,
+      "explanation": "A bill (factura) is a request for payment."
+    },
+    {
+      "id": "fin-a2-w17-11",
+      "type": "multipleChoice",
+      "prompt": "________ on 'Send Money'.",
+      "options": ["Tap", "Taps", "Tapping", "To tap"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Tap' (toca/pulsa en la pantalla)."
+    },
+    {
+      "id": "fin-a2-w17-12",
+      "type": "multipleChoice",
+      "prompt": "Wait for the ________ on your phone.",
+      "options": ["SMS", "SOS", "Sun", "Sea"],
+      "answerIndex": 0,
+      "explanation": "SMS is a text message."
+    },
+    {
+      "id": "fin-a2-w17-13",
+      "type": "multipleChoice",
+      "prompt": "________ your password every three months.",
+      "options": ["Change", "Changes", "Changing", "To change"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Change' (cambia)."
+    },
+    {
+      "id": "fin-a2-w17-14",
+      "type": "multipleChoice",
+      "prompt": "The app is very ________ to use.",
+      "options": ["easy", "hard", "difficult", "angry"],
+      "answerIndex": 0,
+      "explanation": "'Easy' (fácil) is the opposite of 'difficult'."
+    },
+    {
+      "id": "fin-a2-w17-15",
+      "type": "multipleChoice",
+      "prompt": "________ 'Sign out' when you finish.",
+      "options": ["Select", "Selecting", "To select", "Selected"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Select' (selecciona)."
+    },
+    {
+      "id": "fin-a2-w17-16",
+      "type": "multipleChoice",
+      "prompt": "I use ________ to log in with my face.",
+      "options": ["Face ID", "Face Mask", "Face Book", "Face Time"],
+      "answerIndex": 0,
+      "explanation": "Face ID is a biometric security feature."
+    },
+    {
+      "id": "fin-a2-w17-17",
+      "type": "multipleChoice",
+      "prompt": "________ your fingerprint here.",
+      "options": ["Scan", "Scanning", "Scanned", "To scan"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Scan' (escanea)."
+    },
+    {
+      "id": "fin-a2-w17-18",
+      "type": "multipleChoice",
+      "prompt": "You need an internet ________ to use the app.",
+      "options": ["connection", "computer", "collection", "correct"],
+      "answerIndex": 0,
+      "explanation": "A connection is needed for the internet to work."
+    },
+    {
+      "id": "fin-a2-w17-19",
+      "type": "multipleChoice",
+      "prompt": "________ on 'History' to see your spending.",
+      "options": ["Click", "Clicks", "Clicking", "To click"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Click' (haz clic)."
+    },
+    {
+      "id": "fin-a2-w17-20",
+      "type": "multipleChoice",
+      "prompt": "Your ________ is a 4-digit code.",
+      "options": ["PIN", "PAN", "PEN", "PUN"],
+      "answerIndex": 0,
+      "explanation": "A PIN is a Personal Identification Number."
+    },
+    {
+      "id": "fin-a2-w17-21",
+      "type": "multipleChoice",
+      "prompt": "________ wait for the verification code.",
+      "options": ["Please", "Pleasing", "Pleased", "Pleasant"],
+      "answerIndex": 0,
+      "explanation": "'Please' makes instructions more polite."
+    },
+    {
+      "id": "fin-a2-w17-22",
+      "type": "multipleChoice",
+      "prompt": "I want to pay my ________ bill.",
+      "options": ["phone", "photo", "park", "plane"],
+      "answerIndex": 0,
+      "explanation": "A phone bill is a common expense."
+    },
+    {
+      "id": "fin-a2-w17-23",
+      "type": "multipleChoice",
+      "prompt": "________ the app to the latest version.",
+      "options": ["Update", "Updating", "To update", "Updated"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Update' (actualiza)."
+    },
+    {
+      "id": "fin-a2-w17-24",
+      "type": "multipleChoice",
+      "prompt": "The app is ________. Please wait.",
+      "options": ["loading", "load", "to load", "loaded"],
+      "answerIndex": 0,
+      "explanation": "Present continuous: 'The app is loading'."
+    },
+    {
+      "id": "fin-a2-w17-25",
+      "type": "multipleChoice",
+      "prompt": "________ on 'Settings' to change your profile.",
+      "options": ["Go", "Going", "To go", "Gone"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Go' (ve)."
+    },
+    {
+      "id": "fin-a2-w17-26",
+      "type": "fillBlanks",
+      "text": "[Open] the app and [enter] your secret [password].",
+      "answers": ["Open", "enter", "password"],
+      "explanation": "Simple instructions for using a banking app."
+    },
+    {
+      "id": "fin-a2-w17-27",
+      "type": "fillBlanks",
+      "text": "[Don't] share your PIN. Always [logout] when you [finish].",
+      "answers": ["Don't", "logout", "finish"],
+      "explanation": "Security advice using imperatives."
+    },
+    {
+      "id": "fin-a2-w17-28",
+      "type": "multipleChoice",
+      "prompt": "________ 'Yes' to save this contact.",
+      "options": ["Choose", "Choosing", "To choose", "Chosen"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Choose'."
+    },
+    {
+      "id": "fin-a2-w17-29",
+      "type": "multipleChoice",
+      "prompt": "I can pay with my phone at the ________.",
+      "options": ["supermarket", "sky", "sea", "sun"],
+      "answerIndex": 0,
+      "explanation": "Supermarkets accept mobile payments."
+    },
+    {
+      "id": "fin-a2-w17-30",
+      "type": "multipleChoice",
+      "prompt": "________ your phone close to the card reader.",
+      "options": ["Hold", "Holding", "To hold", "Held"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Hold' (sujeta/mantén)."
+    },
+    {
+      "id": "fin-a2-w17-31",
+      "type": "multipleChoice",
+      "prompt": "My app has a ________ of my transactions.",
+      "options": ["list", "lost", "last", "less"],
+      "answerIndex": 0,
+      "explanation": "A list shows items in order."
+    },
+    {
+      "id": "fin-a2-w17-32",
+      "type": "multipleChoice",
+      "prompt": "________ for a few seconds.",
+      "options": ["Wait", "Waiting", "To wait", "Waited"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Wait'."
+    },
+    {
+      "id": "fin-a2-w17-33",
+      "type": "multipleChoice",
+      "prompt": "I need to ________ my password.",
+      "options": ["reset", "rest", "rust", "rise"],
+      "answerIndex": 0,
+      "explanation": "To reset (restablecer) a password."
+    },
+    {
+      "id": "fin-a2-w17-34",
+      "type": "multipleChoice",
+      "prompt": "________ the QR code on the bill.",
+      "options": ["Scan", "Scanning", "To scan", "Scanned"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Scan'."
+    },
+    {
+      "id": "fin-a2-w17-35",
+      "type": "multipleChoice",
+      "prompt": "The app is ________ for free.",
+      "options": ["available", "away", "alone", "about"],
+      "answerIndex": 0,
+      "explanation": "Available (disponible) means you can get it."
+    },
+    {
+      "id": "fin-a2-w17-36",
+      "type": "fillBlanks",
+      "text": "First, [tap] on 'Transfers'. Then, [type] the amount. Finally, [press] confirm.",
+      "answers": ["tap", "type", "press"],
+      "explanation": "Steps to make a transfer."
+    },
+    {
+      "id": "fin-a2-w17-37",
+      "type": "multipleChoice",
+      "prompt": "________ your profile picture here.",
+      "options": ["Upload", "Upstairs", "Update", "Upon"],
+      "answerIndex": 0,
+      "explanation": "To upload (subir) a file or picture."
+    },
+    {
+      "id": "fin-a2-w17-38",
+      "type": "multipleChoice",
+      "prompt": "I use the app to ________ my expenses.",
+      "options": ["track", "truck", "trick", "track"],
+      "answerIndex": 0,
+      "explanation": "To track (seguir/rastrear) means to monitor something."
+    },
+    {
+      "id": "fin-a2-w17-39",
+      "type": "multipleChoice",
+      "prompt": "________ 'Cancel' if you make a mistake.",
+      "options": ["Press", "Presses", "Pressing", "To press"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Press'."
+    },
+    {
+      "id": "fin-a2-w17-40",
+      "type": "multipleChoice",
+      "prompt": "You can send money to ________ in your contacts.",
+      "options": ["anyone", "anything", "anywhere", "anyway"],
+      "answerIndex": 0,
+      "explanation": "Anyone (cualquiera/cualquier persona)."
+    },
+    {
+      "id": "fin-a2-w17-41",
+      "type": "reorder",
+      "sentences": ["the", "Open", "app"],
+      "correctOrder": [1, 0, 2],
+      "explanation": "Correct order: 'Open the app'."
+    },
+    {
+      "id": "fin-a2-w17-42",
+      "type": "reorder",
+      "sentences": ["your", "Enter", "password"],
+      "correctOrder": [1, 0, 2],
+      "explanation": "Correct order: 'Enter your password'."
+    },
+    {
+      "id": "fin-a2-w17-43",
+      "type": "reorder",
+      "sentences": ["Don't", "share", "your", "PIN"],
+      "correctOrder": [0, 1, 2, 3],
+      "explanation": "Correct order: 'Don't share your PIN'."
+    },
+    {
+      "id": "fin-a2-w17-44",
+      "type": "multipleChoice",
+      "prompt": "________ 'Help' if you have a question.",
+      "options": ["Select", "Selecting", "To select", "Selected"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Select'."
+    },
+    {
+      "id": "fin-a2-w17-45",
+      "type": "multipleChoice",
+      "prompt": "Is the app ________?",
+      "options": ["secure", "second", "seven", "small"],
+      "answerIndex": 0,
+      "explanation": "Secure (seguro) is important for banking."
+    },
+    {
+      "id": "fin-a2-w17-46",
+      "type": "multipleChoice",
+      "prompt": "________ the amount in the box.",
+      "options": ["Write", "Writing", "To write", "Wrote"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Write' (escribe)."
+    },
+    {
+      "id": "fin-a2-w17-47",
+      "type": "multipleChoice",
+      "prompt": "I check my ________ once a week.",
+      "options": ["balance", "beach", "book", "bus"],
+      "answerIndex": 0,
+      "explanation": "Reviewing account balance regularly."
+    },
+    {
+      "id": "fin-a2-w17-48",
+      "type": "multipleChoice",
+      "prompt": "________ the notification to read it.",
+      "options": ["Tap", "Taps", "Tapping", "To tap"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Tap'."
+    },
+    {
+      "id": "fin-a2-w17-49",
+      "type": "multipleChoice",
+      "prompt": "The app says 'Connection ________'.",
+      "options": ["Error", "Eating", "Eagle", "Empty"],
+      "answerIndex": 0,
+      "explanation": "A common error message."
+    },
+    {
+      "id": "fin-a2-w17-50",
+      "type": "multipleChoice",
+      "prompt": "________ 'Finish' to exit.",
+      "options": ["Press", "Presses", "Pressing", "To press"],
+      "answerIndex": 0,
+      "explanation": "Imperative 'Press'."
+    }
   ]
 }

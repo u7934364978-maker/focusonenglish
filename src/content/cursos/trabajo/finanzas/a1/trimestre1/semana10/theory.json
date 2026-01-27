@@ -1,0 +1,24 @@
+{
+  "title": "Tipos de Pago",
+  "sections": [
+    {
+      "id": "vocab-payments",
+      "title": "Vocabulario: Métodos de Pago",
+      "content": "Existen diferentes formas de pagar por productos o servicios:\n\n- **Cash**: Efectivo (billetes y monedas).\n- **Credit Card**: Tarjeta de crédito.\n- **Debit Card**: Tarjeta de débito.\n- **Cheque / Check**: Cheque.\n- **Bank Transfer**: Transferencia bancaria.\n- **Online Payment**: Pago en línea.\n- **Contactless**: Pago sin contacto (acercando la tarjeta o el móvil)."
+    },
+    {
+      "id": "grammar-can-could",
+      "title": "Gramática: Can y Could para Peticiones",
+      "content": "Usamos estos verbos modales para pedir cosas de manera educada:\n\n1. **Can I...?**: ¿Puedo...? (Formalidad estándar).\n   - *Can I pay by card?* (¿Puedo pagar con tarjeta?)\n\n2. **Could I...?**: ¿Podría...? (Más formal y educado).\n   - *Could I have a receipt, please?* (¿Podría darme un recibo, por favor?)\n\n3. **Can you...?**: ¿Puedes...? / ¿Puede usted...?\n   - *Can you help me with the ATM?* (¿Puede ayudarme con el cajero?)"
+    }
+  ],
+  "objectives": [
+    "Conocer los diferentes métodos de pago en inglés",
+    "Aprender a usar 'Can' y 'Could' para realizar peticiones sencillas en el banco o tiendas",
+    "Diferenciar entre pagos en efectivo, con tarjeta y transferencias"
+  ],
+  "keyTerms": [
+    { "term": "Cash", "definition": "Money in the form of notes and coins." },
+    { "term": "Transfer", "definition": "Moving money from one account to another." }
+  ]
+}

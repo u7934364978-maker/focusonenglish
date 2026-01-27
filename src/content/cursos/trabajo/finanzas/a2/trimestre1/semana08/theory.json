@@ -1,0 +1,24 @@
+{
+  "title": "Pagos de Servicios",
+  "sections": [
+    {
+      "id": "vocab-utilities",
+      "title": "Vocabulario: Facturas y Servicios",
+      "content": "Pagar las facturas es una parte esencial de la gestión financiera personal:\n\n- **Bill**: Factura / Recibo.\n- **Utilities**: Servicios básicos (agua, luz, gas).\n- **Electricity**: Electricidad.\n- **Water**: Agua.\n- **Gas**: Gas.\n- **Tax**: Impuesto.\n- **Due Date**: Fecha de vencimiento.\n- **Automatic Payment / Direct Debit**: Pago automático / Domiciliación bancaria."
+    },
+    {
+      "id": "grammar-going-to",
+      "title": "Gramática: Futuro con 'Going to'",
+      "content": "Usamos *going to* para hablar de planes e intenciones futuras:\n\n1. **Afirmativo**: *Subject + am/is/are + going to + verb*.\n   - *I **am going to** pay the bill.* (Voy a pagar la factura).\n   - *He **is going to** set up a direct debit.* (Él va a configurar una domiciliación).\n\n2. **Negativo**: *Subject + am/is/are + not + going to + verb*.\n   - *We **are not going to** pay late.* (No vamos a pagar tarde).\n\n3. **Pregunta**: *Am/Is/Are + subject + going to + verb?*\n   - *Are you **going to** call the gas company?* (¿Vas a llamar a la compañía de gas?)"
+    }
+  ],
+  "objectives": [
+    "Aprender vocabulario relacionado con los servicios básicos y sus facturas",
+    "Expresar intenciones y planes futuros usando la estructura 'going to'",
+    "Comprender conceptos como domiciliación bancaria y fechas de vencimiento"
+  ],
+  "keyTerms": [
+    { "term": "Bill", "definition": "A document showing how much money you owe for a service." },
+    { "term": "Direct Debit", "definition": "An arrangement made with a bank that allows a third party to transfer money from a person's account on agreed dates." }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "Are you ready for the B2 final assessment?",
+    "options": ["Yes", "I need more study time", "Nervous but prepared", "Definitely"],
+    "correctAnswer": 0,
+    "explanation": "This exam covers complex investment and risk management topics. Good luck!"
+  }
+]

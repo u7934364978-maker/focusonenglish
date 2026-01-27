@@ -1,0 +1,60 @@
+{
+  "title": "Examen: Facturas y Futuro con Going To",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is 'Direct Debit'?",
+      "options": [
+        "Paying with physical coins",
+        "An automatic payment from your bank account",
+        "A type of credit card",
+        "A loan from the government"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Direct debit es la domiciliación bancaria (pago automático)."
+    },
+    {
+      "id": "q2",
+      "question": "Choose the correct future sentence:",
+      "options": [
+        "I going to pay the bill.",
+        "I am going to pay the bill.",
+        "I am go to pay the bill.",
+        "I going pay the bill."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La estructura es: am/is/are + going to + verb."
+    },
+    {
+      "id": "q3",
+      "question": "What does 'Due Date' mean?",
+      "options": [
+        "The day you receive the bill",
+        "The day you must pay the bill",
+        "The day the service starts",
+        "The amount of the bill"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Due date es la fecha de vencimiento o límite de pago."
+    },
+    {
+      "id": "q4",
+      "question": "Which of these is a 'Utility' service?",
+      "options": ["Shopping", "Electricity", "Vacation", "Car loan"],
+      "correctAnswer": 1,
+      "explanation": "La electricidad es un servicio básico (utility)."
+    },
+    {
+      "id": "q5",
+      "question": "How do you form the negative of 'Going to' for 'He'?",
+      "options": [
+        "He not going to",
+        "He isn't going to",
+        "He don't going to",
+        "He am not going to"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El negativo para 'he' es 'is not going to' (he isn't going to)."
+    }
+  ]
+}

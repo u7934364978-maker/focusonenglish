@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is 'Coverage' in insurance?",
+    "options": ["A type of car", "What the insurance protects", "The price of the policy", "A bank account"],
+    "correctAnswer": 1,
+    "explanation": "'Coverage' (Cobertura) refers to what the insurance policy covers or protects."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "Which is the 'safest' investment?",
+    "options": ["Stocks", "Cryptocurrency", "Savings account", "New business"],
+    "correctAnswer": 2,
+    "explanation": "A savings account is generally much safer than stocks or crypto."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "We __________ (go) to the meeting next Monday.",
+    "correctAnswer": "are going to go",
+    "explanation": "We use 'going to' for planned future events."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "What do you do at an ATM?",
+    "options": ["Buy food", "Withdraw cash", "Drive a car", "Cook"],
+    "correctAnswer": 1,
+    "explanation": "You use an ATM (Cajero) to withdraw cash or check your balance."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "You ________ tell your password to strangers.",
+    "options": ["must", "mustn't", "can", "should"],
+    "correctAnswer": 1,
+    "explanation": "It's a prohibition for security: 'mustn't'."
+  }
+]

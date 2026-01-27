@@ -1,24 +1,24 @@
 {
-  "title": "Repaso y Consolidación (Trimestre 2)",
+  "title": "Derivados: Opciones y Futuros (Derivatives)",
   "sections": [
     {
-      "id": "review",
-      "title": "Resumen de Temas Clave",
-      "content": "Durante estas semanas hemos cubierto aspectos avanzados de las finanzas modernas.\n\n- **Inversión**: Hedge Funds, Private Equity y Asset Allocation.\n- **Tecnología**: Blockchain, Open Banking y disrupción digital.\n- **Riesgo**: Seguros, suscripción y modelos actuariales.\n- **Gestión**: Banca privada y planificación sucesoria."
+      "id": "derivatives-vocab",
+      "title": "Vocabulario: Instrumentos de Derivados",
+      "content": "B2 nivel. Comprender contratos complejos.\n\n- **Derivative**: Derivado\n- **Option (Call/Put)**: Opción (de compra/venta)\n- **Futures contract**: Contrato de futuros\n- **Underlying asset**: Activo subyacente\n- **Strike price**: Precio de ejercicio\n- **Expiration date**: Fecha de vencimiento\n- **Premium**: Prima (precio de la opción)\n- **To exercise an option**: Ejecutar una opción"
     },
     {
-      "id": "grammar-review",
-      "title": "Gramática Consolidada",
-      "content": "Repaso de las estructuras clave del trimestre.\n\n- **Gerunds vs Infinitives**: *We avoid **risking** capital* vs *We aim **to grow**.*\n- **Purpose and Result**: *We automated **so as to** save costs. **Consequently**, profits rose.*\n- **Adjectives/Adverbs**: *The market grew **steadily**.*\n- **Passive Voice**: *Claims **are processed** within 24 hours.*"
+      "id": "derivatives-grammar",
+      "title": "Gramática: Third Conditional para Análisis Histórico",
+      "content": "Usamos el **Third Conditional** para analizar qué habría pasado en el mercado si hubiéramos tomado decisiones diferentes.\n\n- If we **had bought** the call options, we **would have made** a significant profit.\n- If the strike price **had been** lower, the investor **would have exercised** the option.\n- We **wouldn't have lost** money if we **had hedged** our position with futures."
     }
   ],
   "objectives": [
-    "Consolidar el vocabulario técnico de los sectores de inversión, tecnología y seguros",
-    "Utilizar con precisión las estructuras gramaticales del trimestre",
-    "Prepararse para el examen final del trimestre"
+    "Diferenciar entre opciones Call y Put",
+    "Comprender la mecánica de los contratos de futuros",
+    "Utilizar el tercer condicional para realizar análisis retrospectivos de riesgo"
   ],
   "keyTerms": [
-    { "term": "Diversification", "definition": "The process of allocating capital in a way that reduces the exposure to any one particular asset or risk." },
-    { "term": "Liquidity", "definition": "The availability of liquid assets (cash) to a market or company." }
+    { "term": "Call Option", "definition": "A financial contract that gives the buyer the right to buy an asset at a specified price." },
+    { "term": "Underlying Asset", "definition": "The financial instrument upon which a derivative's price is based." }
   ]
 }

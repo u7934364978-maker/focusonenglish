@@ -1,0 +1,24 @@
+{
+  "title": "Repaso del Primer Trimestre",
+  "sections": [
+    {
+      "id": "review-vocab",
+      "title": "Resumen de Vocabulario",
+      "content": "Durante este trimestre hemos aprendido los pilares del vocabulario financiero básico:\n\n- **Números y Dinero**: Mil, millón, monedas, billetes.\n- **El Banco**: Cuenta, cajero (ATM), gerente, oficina.\n- **Acciones**: Comprar, vender, pagar, retirar, depositar, firmar.\n- **Tiempo**: Días, meses, horas, fechas ordinales.\n- **Métodos de pago**: Efectivo, tarjeta, transferencia, cheque."
+    },
+    {
+      "id": "review-grammar",
+      "title": "Resumen de Gramática",
+      "content": "Puntos clave de gramática revisados:\n\n1. **Verb To Be**: I am, you are, he is... (para identidad y estados).\n2. **Present Simple**: I pay, he pays... (para rutinas y hechos).\n3. **Wh-Questions**: What, Where, When, Who, How much/many.\n4. **Preposiciones de tiempo**: In (meses), On (días), At (horas).\n5. **Modales**: Can y Could para peticiones."
+    }
+  ],
+  "objectives": [
+    "Consolidar todo el vocabulario aprendido en las primeras 11 semanas",
+    "Repasar las estructuras gramaticales básicas (To Be, Present Simple, Preposiciones)",
+    "Prepararse para el examen final del primer trimestre"
+  ],
+  "keyTerms": [
+    { "term": "Review", "definition": "Studying material again to remember it better." },
+    { "term": "Summary", "definition": "A brief statement of the main points." }
+  ]
+}

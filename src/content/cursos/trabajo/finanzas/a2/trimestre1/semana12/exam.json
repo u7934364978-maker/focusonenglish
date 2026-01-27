@@ -1,0 +1,116 @@
+{
+  "title": "A2 Trimester 1: Final Exam",
+  "description": "Comprehensive assessment covering all topics from Weeks 1 to 11.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which sentence is correct for a fixed appointment tomorrow?",
+      "options": [
+        "I meet the bank manager tomorrow.",
+        "I am meeting the bank manager tomorrow.",
+        "I will meeting the bank manager tomorrow.",
+        "I meeting the bank manager tomorrow."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What is the superlative of 'expensive'?",
+      "options": [
+        "Expensivest",
+        "More expensive",
+        "The most expensive",
+        "The expensivest"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "A fraudulent email that tries to steal your information is called...",
+      "options": [
+        "Phishing",
+        "A bond",
+        "An installment",
+        "A dividend"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "Complete: 'I __________ known my financial advisor for ten years.'",
+      "options": [
+        "has",
+        "am",
+        "have",
+        "do"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q5",
+      "question": "Which modal verb expresses a strong prohibition?",
+      "options": [
+        "Can",
+        "Must",
+        "Mustn't",
+        "Could"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "What is a collection of different investments called?",
+      "options": [
+        "Broker",
+        "Portfolio",
+        "Yield",
+        "Mortgage"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Complete: 'We have lived here __________ 2015.'",
+      "options": [
+        "for",
+        "since",
+        "during",
+        "ago"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Where do you put items you want to buy online before paying?",
+      "options": [
+        "In the padlock",
+        "In the checkout",
+        "In the shopping cart",
+        "In the browser"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q9",
+      "question": "What is the past form of 'to be' for 'they'?",
+      "options": [
+        "Was",
+        "Were",
+        "Are",
+        "Is"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "The monthly payment for a loan is called an...",
+      "options": [
+        "Interest",
+        "Installment",
+        "Investment",
+        "Income"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

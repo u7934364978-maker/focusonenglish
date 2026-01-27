@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What does the 'G' in ESG stand for?",
+    "options": ["Growth", "Governance", "Green", "Global"],
+    "correctAnswer": 1,
+    "explanation": "ESG stands for Environmental, Social, and Governance."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "The CEO __________ (say) to be very committed to sustainability.",
+    "correctAnswer": "is said",
+    "explanation": "Advanced Passive: Subject + is said + to be."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "A company that pretends to be eco-friendly but isn't is doing:",
+    "options": ["Green investing", "Greenwashing", "Impact trading", "Social hedging"],
+    "correctAnswer": 1,
+    "explanation": "Greenwashing is misleading the public about a company's environmental impact."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the term with its meaning:",
+    "pairs": [
+      { "left": "Stakeholders", "right": "All people affected by the business" },
+      { "left": "Green bonds", "right": "Debt for environmental projects" },
+      { "left": "Impact", "right": "Social or environmental effect" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "It _______ that carbon taxes will increase next year.",
+    "options": ["is expected", "is expect", "expects", "is expecting"],
+    "correctAnswer": 0,
+    "explanation": "Passive reporting structure: It is expected that..."
+  }
+]

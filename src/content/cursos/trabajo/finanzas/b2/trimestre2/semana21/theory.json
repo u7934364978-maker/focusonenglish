@@ -1,0 +1,24 @@
+{
+  "title": "Gestión de Riesgos: Value at Risk (VaR)",
+  "sections": [
+    {
+      "id": "risk-vocab",
+      "title": "Vocabulario: Medición del Riesgo",
+      "content": "B2 nivel. Cuantificando la exposición financiera.\n\n- **Value at Risk (VaR)**: Valor en riesgo\n- **Stress testing**: Pruebas de estrés\n- **Backtesting**: Retroversión (probar un modelo con datos históricos)\n- **Standard deviation**: Desviación típica\n- **Confidence level**: Nivel de confianza\n- **Exposure**: Exposición\n- **Mitigation**: Mitigación\n- **Contingency plan**: Plan de contingencia"
+    },
+    {
+      "id": "risk-grammar",
+      "title": "Gramática: Mixed Conditionals para Gestión",
+      "content": "Usamos **Mixed Conditionals** para relacionar una situación pasada con una consecuencia presente.\n\n- If we **had implemented** the VaR model last year, we **would know** our current risk better.\n- If the bank **hadn't failed** the stress test, it **would be** in a stronger position today.\n- We **would be** more profitable now if we **hadn't ignored** the market trends."
+    }
+  ],
+  "objectives": [
+    "Comprender el concepto y la aplicación del VaR",
+    "Identificar la importancia del Stress Testing y Backtesting",
+    "Utilizar condicionales mixtos para discutir el impacto presente de decisiones pasadas"
+  ],
+  "keyTerms": [
+    { "term": "VaR", "definition": "A statistical technique used to measure the amount of potential loss that could happen in a portfolio." },
+    { "term": "Stress Test", "definition": "An analysis to determine the stability of a given system or entity under extreme conditions." }
+  ]
+}

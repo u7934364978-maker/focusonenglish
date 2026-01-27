@@ -1,0 +1,385 @@
+{
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 1,
+  "weekId": "semana10",
+  "title": "Tipos de Pago",
+  "items": [
+    {
+      "id": "fin-a1-w10-1",
+      "type": "multipleChoice",
+      "prompt": "Can I pay ______ cash?",
+      "options": ["by", "in", "on"],
+      "answerIndex": 1,
+      "explanation": "Pagar en efectivo se dice 'pay in cash'."
+    },
+    {
+      "id": "fin-a1-w10-2",
+      "type": "multipleChoice",
+      "prompt": "I want to pay by ______ card.",
+      "options": ["credit", "cash", "cheque"],
+      "answerIndex": 0,
+      "explanation": "Tarjeta de crédito se dice 'credit card'."
+    },
+    {
+      "id": "fin-a1-w10-3",
+      "type": "multipleChoice",
+      "prompt": "______ I have a receipt, please?",
+      "options": ["Could", "Do", "Are"],
+      "answerIndex": 0,
+      "explanation": "Usamos 'Could' para pedir cosas de manera educada."
+    },
+    {
+      "id": "fin-a1-w10-4",
+      "type": "multipleChoice",
+      "prompt": "This payment is ______. I use my phone.",
+      "options": ["cash", "contactless", "cheque"],
+      "answerIndex": 1,
+      "explanation": "Pagar con el móvil o acercando la tarjeta es 'contactless'."
+    },
+    {
+      "id": "fin-a1-w10-5",
+      "type": "multipleChoice",
+      "prompt": "I need to make a bank ______.",
+      "options": ["transfer", "card", "online"],
+      "answerIndex": 0,
+      "explanation": "Una transferencia bancaria es una 'bank transfer'."
+    },
+    {
+      "id": "fin-a1-w10-6",
+      "type": "fillBlanks",
+      "prompt": "[blank] you help me, please?",
+      "answers": ["Can", "Could"],
+      "explanation": "Ambas son correctas para pedir ayuda."
+    },
+    {
+      "id": "fin-a1-w10-7",
+      "type": "fillBlanks",
+      "prompt": "I don't have [blank]. I only have my card.",
+      "answers": ["cash"],
+      "explanation": "No tengo efectivo."
+    },
+    {
+      "id": "fin-a1-w10-8",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "Can I pay by card?",
+      "explanation": "¿Puedo pagar con tarjeta?"
+    },
+    {
+      "id": "fin-a1-w10-9",
+      "type": "multipleChoice",
+      "prompt": "He writes a ______ for $500.",
+      "options": ["cheque", "cash", "online"],
+      "answerIndex": 0,
+      "explanation": "Él escribe un cheque."
+    },
+    {
+      "id": "fin-a1-w10-10",
+      "type": "multipleChoice",
+      "prompt": "Is ______ payment secure?",
+      "options": ["online", "cash", "coins"],
+      "answerIndex": 0,
+      "explanation": "¿Es seguro el pago en línea?"
+    },
+    {
+      "id": "fin-a1-w10-11",
+      "type": "fillBlanks",
+      "prompt": "Could I [blank] the manager?",
+      "answers": ["see", "speak to"],
+      "explanation": "¿Podría ver/hablar con el gerente?"
+    },
+    {
+      "id": "fin-a1-w10-12",
+      "type": "multipleChoice",
+      "prompt": "I use my ______ card at the supermarket.",
+      "options": ["debit", "cash", "cheque"],
+      "answerIndex": 0,
+      "explanation": "Tarjeta de débito se dice 'debit card'."
+    },
+    {
+      "id": "fin-a1-w10-13",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Can you sign here please?",
+      "explanation": "¿Puede firmar aquí, por favor?"
+    },
+    {
+      "id": "fin-a1-w10-14",
+      "type": "multipleChoice",
+      "prompt": "We don't accept ______ here. Only cards.",
+      "options": ["cash", "transfers", "online"],
+      "answerIndex": 0,
+      "explanation": "No aceptamos efectivo."
+    },
+    {
+      "id": "fin-a1-w10-15",
+      "type": "fillBlanks",
+      "prompt": "Can I [blank] by phone?",
+      "answers": ["pay"],
+      "explanation": "¿Puedo pagar por teléfono?"
+    },
+    {
+      "id": "fin-a1-w10-16",
+      "type": "multipleChoice",
+      "prompt": "The ______ is for $1000.",
+      "options": ["transfer", "cash", "online"],
+      "answerIndex": 0,
+      "explanation": "La transferencia es de $1000."
+    },
+    {
+      "id": "fin-a1-w10-17",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I want to pay in cash",
+      "explanation": "Quiero pagar en efectivo."
+    },
+    {
+      "id": "fin-a1-w10-18",
+      "type": "multipleChoice",
+      "prompt": "______ you show me your ID?",
+      "options": ["Can", "Are", "Do"],
+      "answerIndex": 0,
+      "explanation": "¿Puede mostrarme su identificación?"
+    },
+    {
+      "id": "fin-a1-w10-19",
+      "type": "fillBlanks",
+      "prompt": "This is a [blank] payment.",
+      "answers": ["contactless"],
+      "explanation": "Este es un pago sin contacto."
+    },
+    {
+      "id": "fin-a1-w10-20",
+      "type": "multipleChoice",
+      "prompt": "Do you have a ______ book?",
+      "options": ["cheque", "cash", "card"],
+      "answerIndex": 0,
+      "explanation": "Chequera se dice 'cheque book'."
+    },
+    {
+      "id": "fin-a1-w10-21",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Could I have a pen?",
+      "explanation": "¿Podría darme un bolígrafo?"
+    },
+    {
+      "id": "fin-a1-w10-22",
+      "type": "fillBlanks",
+      "prompt": "I pay [blank] card.",
+      "answers": ["by"],
+      "explanation": "Pago con tarjeta (pay by card)."
+    },
+    {
+      "id": "fin-a1-w10-23",
+      "type": "multipleChoice",
+      "prompt": "My ______ card is expired.",
+      "options": ["debit", "cash", "coins"],
+      "answerIndex": 0,
+      "explanation": "Mi tarjeta de débito está caducada."
+    },
+    {
+      "id": "fin-a1-w10-24",
+      "type": "fillBlanks",
+      "prompt": "I need to [blank] money online.",
+      "answers": ["send", "transfer"],
+      "explanation": "Necesito enviar dinero por internet."
+    },
+    {
+      "id": "fin-a1-w10-25",
+      "type": "multipleChoice",
+      "prompt": "Is there a ______ for the transfer?",
+      "options": ["fee", "cash", "card"],
+      "answerIndex": 0,
+      "explanation": "¿Hay alguna comisión (fee) por la transferencia?"
+    },
+    {
+      "id": "fin-a1-w10-26",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Can I see your card?",
+      "explanation": "¿Puedo ver su tarjeta?"
+    },
+    {
+      "id": "fin-a1-w10-27",
+      "type": "multipleChoice",
+      "prompt": "You can pay ______ the app.",
+      "options": ["on", "in", "by"],
+      "answerIndex": 0,
+      "explanation": "Puedes pagar en la aplicación."
+    },
+    {
+      "id": "fin-a1-w10-28",
+      "type": "fillBlanks",
+      "prompt": "Please [blank] your PIN.",
+      "answers": ["enter"],
+      "explanation": "Por favor, introduzca su PIN."
+    },
+    {
+      "id": "fin-a1-w10-29",
+      "type": "multipleChoice",
+      "prompt": "I have $50 in ______.",
+      "options": ["cash", "card", "cheque"],
+      "answerIndex": 0,
+      "explanation": "Tengo $50 en efectivo."
+    },
+    {
+      "id": "fin-a1-w10-30",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Could you repeat that please?",
+      "explanation": "¿Podría repetir eso, por favor?"
+    },
+    {
+      "id": "fin-a1-w10-31",
+      "type": "multipleChoice",
+      "prompt": "Can I pay by ______ transfer?",
+      "options": ["bank", "cash", "coins"],
+      "answerIndex": 0,
+      "explanation": "Transferencia bancaria (bank transfer)."
+    },
+    {
+      "id": "fin-a1-w10-32",
+      "type": "fillBlanks",
+      "prompt": "I use my [blank] for online shopping.",
+      "answers": ["card"],
+      "explanation": "Uso mi tarjeta para compras online."
+    },
+    {
+      "id": "fin-a1-w10-33",
+      "type": "multipleChoice",
+      "prompt": "The ______ is $5.",
+      "options": ["fee", "cash", "card"],
+      "answerIndex": 0,
+      "explanation": "La comisión es de $5."
+    },
+    {
+      "id": "fin-a1-w10-34",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Can I pay with dollars?",
+      "explanation": "¿Puedo pagar con dólares?"
+    },
+    {
+      "id": "fin-a1-w10-35",
+      "type": "multipleChoice",
+      "prompt": "Do you accept ______?",
+      "options": ["cheques", "cash", "both"],
+      "answerIndex": 2,
+      "explanation": "¿Aceptan cheques o efectivo?"
+    },
+    {
+      "id": "fin-a1-w10-36",
+      "type": "fillBlanks",
+      "prompt": "[blank] I help you, sir?",
+      "answers": ["Can"],
+      "explanation": "¿Puedo ayudarle, señor?"
+    },
+    {
+      "id": "fin-a1-w10-37",
+      "type": "multipleChoice",
+      "prompt": "I need to ______ my account balance.",
+      "options": ["check", "cash", "coins"],
+      "answerIndex": 0,
+      "explanation": "Necesito revisar el saldo de mi cuenta."
+    },
+    {
+      "id": "fin-a1-w10-38",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Can you open the door?",
+      "explanation": "¿Puede abrir la puerta?"
+    },
+    {
+      "id": "fin-a1-w10-39",
+      "type": "multipleChoice",
+      "prompt": "Is this a ______ card?",
+      "options": ["credit", "cash", "coins"],
+      "answerIndex": 0,
+      "explanation": "¿Es esta una tarjeta de crédito?"
+    },
+    {
+      "id": "fin-a1-w10-40",
+      "type": "fillBlanks",
+      "prompt": "I want to pay [blank] online.",
+      "answers": ["everything"],
+      "explanation": "Quiero pagarlo todo online."
+    },
+    {
+      "id": "fin-a1-w10-41",
+      "type": "multipleChoice",
+      "prompt": "Can you ______ the receipt?",
+      "options": ["print", "cash", "card"],
+      "answerIndex": 0,
+      "explanation": "¿Puede imprimir el recibo?"
+    },
+    {
+      "id": "fin-a1-w10-42",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Can I pay by credit card?",
+      "explanation": "¿Puedo pagar con tarjeta de crédito?"
+    },
+    {
+      "id": "fin-a1-w10-43",
+      "type": "multipleChoice",
+      "prompt": "The ______ is ready.",
+      "options": ["transfer", "cash", "coins"],
+      "answerIndex": 0,
+      "explanation": "La transferencia está lista."
+    },
+    {
+      "id": "fin-a1-w10-44",
+      "type": "fillBlanks",
+      "prompt": "Can I [blank] my phone here?",
+      "answers": ["use"],
+      "explanation": "¿Puedo usar mi teléfono aquí?"
+    },
+    {
+      "id": "fin-a1-w10-45",
+      "type": "multipleChoice",
+      "prompt": "We prefer ______.",
+      "options": ["cash", "cheque", "transfer"],
+      "answerIndex": 0,
+      "explanation": "Preferimos efectivo."
+    },
+    {
+      "id": "fin-a1-w10-46",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Could I speak with you?",
+      "explanation": "¿Podría hablar con usted?"
+    },
+    {
+      "id": "fin-a1-w10-47",
+      "type": "multipleChoice",
+      "prompt": "The ______ is $20.",
+      "options": ["change", "cash", "card"],
+      "answerIndex": 0,
+      "explanation": "El cambio (lo que te devuelven) es de $20."
+    },
+    {
+      "id": "fin-a1-w10-48",
+      "type": "fillBlanks",
+      "prompt": "I pay [blank] the app.",
+      "answers": ["on"],
+      "explanation": "Pago en la aplicación."
+    },
+    {
+      "id": "fin-a1-w10-49",
+      "type": "multipleChoice",
+      "prompt": "Can you ______ this cheque?",
+      "options": ["sign", "cash", "card"],
+      "answerIndex": 0,
+      "explanation": "¿Puede firmar este cheque?"
+    },
+    {
+      "id": "fin-a1-w10-50",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Can I have my card back?",
+      "explanation": "¿Puede devolverme mi tarjeta?"
+    }
+  ]
+}

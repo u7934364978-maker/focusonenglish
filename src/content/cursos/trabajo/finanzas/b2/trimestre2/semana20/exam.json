@@ -1,50 +1,41 @@
-{
-  "goal": "finanzas",
-  "level": "B2",
-  "trimester": 2,
-  "weekId": "semana20",
-  "examId": "fin-b2-w20-exam",
-  "title": "Examen Final (Trimestre 2): Especialización Financiera",
-  "items": [
-    {
-      "id": "fin-b2-w20-exam-1",
-      "type": "multipleChoice",
-      "prompt": "Which technology allows for a decentralized and secure record of transactions?",
-      "options": ["Blockchain", "Email", "Excel", "Centralized server"],
-      "answerIndex": 0,
-      "explanation": "Blockchain is the core technology behind decentralized finance."
-    },
-    {
-      "id": "fin-b2-w20-exam-2",
-      "type": "multipleChoice",
-      "prompt": "Wealth managers have a ________ to act in their clients' interests.",
-      "options": ["Fiduciary duty", "Profit incentive", "Sales target", "Legal permit"],
-      "answerIndex": 0,
-      "explanation": "Fiduciary duty ensures the client's interests come first."
-    },
-    {
-      "id": "fin-b2-w20-exam-3",
-      "type": "multipleChoice",
-      "prompt": "The insurance premium ________ (calculate) based on the risk level.",
-      "options": ["is calculated", "calculates", "has calculated", "calculating"],
-      "answerIndex": 0,
-      "explanation": "Present passive describes a regular process."
-    },
-    {
-      "id": "fin-b2-w20-exam-4",
-      "type": "multipleChoice",
-      "prompt": "What is the term for 'the use of borrowed capital for an investment'?",
-      "options": ["Leverage", "Liquidity", "Insolvency", "Equity"],
-      "answerIndex": 0,
-      "explanation": "Leverage involves using debt to increase potential returns."
-    },
-    {
-      "id": "fin-b2-w20-exam-5",
-      "type": "multipleChoice",
-      "prompt": "We implemented new protocols ________ improve data security.",
-      "options": ["so as to", "consequently", "therefore", "so that"],
-      "answerIndex": 0,
-      "explanation": "'So as to' expresses purpose followed by an infinitive."
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "A 'Futures Contract' differs from an 'Option' because:",
+    "options": ["It is cheaper", "It is an obligation, not just a right", "It never expires", "It only applies to gold"],
+    "correctAnswer": 1,
+    "explanation": "Futures contracts are obligations to buy or sell, while options provide the right but not the obligation."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "When is an option 'In the money'?",
+    "options": ["When it has expired", "When it would be profitable to exercise it", "When the premium is paid", "When the market is closed"],
+    "correctAnswer": 1,
+    "explanation": "An option is 'in the money' if it has intrinsic value."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "If the volatility __________ (not increase), the premium __________ (be) lower.",
+    "correctAnswer": "hadn't increased... would have been",
+    "explanation": "Third Conditional."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "What is 'Arbitrage'?",
+    "options": ["Paying taxes", "Simultaneous buying and selling to profit from price differences", "A type of insurance", "Hiring a lawyer"],
+    "correctAnswer": 1,
+    "explanation": "Arbitrage exploits price inefficiencies in different markets."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "The option _______ worthless if the price _______ below the strike.",
+    "options": ["would have been / had stayed", "was / stayed", "will be / stays", "would be / stays"],
+    "correctAnswer": 0,
+    "explanation": "Third Conditional (Past Hypothetical)."
+  }
+]

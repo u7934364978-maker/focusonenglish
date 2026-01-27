@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "Which of the following describes 'Strategic Oversight' in the context of C1 finance?",
+    "options": [
+      "The board's responsibility to monitor long-term direction",
+      "The CEO's daily management of staff",
+      "The government's regulation of interest rates",
+      "A marketing campaign for new financial products"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Strategic oversight is the high-level monitoring of an organization's long-term goals and strategy, typically performed by the board of directors."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "Had the board _________ (act) sooner, the liquidity crisis could have been averted.",
+    "correctAnswer": "acted",
+    "explanation": "This is a third conditional inversion: 'Had + subject + past participle' replaces 'If + subject + had + past participle'."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "In Investor Relations, what does the term 'Hedging' refer to in language use?",
+    "options": [
+      "Using derivatives to protect against market moves",
+      "Using cautious and nuanced language to avoid over-commitment",
+      "Aggressive marketing of stock performance",
+      "Directly blaming the market for poor results"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In advanced communication, hedging involves using words like 'seem', 'suggest', or 'might' to soften claims and avoid being overly assertive or wrong."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "What is 'Greenwashing' in sustainable finance?",
+    "options": [
+      "A process to clean money from environmental crimes",
+      "Investing only in renewable energy",
+      "Providing misleading information about how a company's products are environmentally sound",
+      "A mandatory audit for ESG compliance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Greenwashing is a deceptive marketing practice where a company portrays an environmentally friendly image that is not backed by action."
+  },
+  {
+    "id": 5,
+    "type": "fill-in-the-blank",
+    "question": "It is essential that the CFO __________ (ensure) compliance with Basel III requirements.",
+    "correctAnswer": "ensure",
+    "explanation": "This uses the present subjunctive: 'It is essential that + subject + base form of the verb'."
+  },
+  {
+    "id": 6,
+    "type": "multiple-choice",
+    "question": "Which concept refers to the duty to act in the best interest of another party?",
+    "options": [
+      "Fiduciary duty",
+      "Arbitrage",
+      "Leverage",
+      "Solvency"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fiduciary duty is the legal and ethical obligation to act in the best interest of another person or entity."
+  },
+  {
+    "id": 7,
+    "type": "matching",
+    "question": "Match the regulatory framework with its focus:",
+    "pairs": [
+      { "left": "Basel III", "right": "Banking capital and liquidity" },
+      { "left": "Solvency II", "right": "Insurance company regulation" },
+      { "left": "ESG", "right": "Environmental, Social, and Governance" }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "multiple-choice",
+    "question": "Which derivative is specifically designed to transfer credit risk between parties?",
+    "options": [
+      "Interest Rate Swap",
+      "Currency Future",
+      "Credit Default Swap (CDS)",
+      "Call Option"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A CDS acts like insurance against the default of a borrower, transferring the credit risk to the seller of the swap."
+  },
+  {
+    "id": 9,
+    "type": "fill-in-the-blank",
+    "question": "Under no circumstances __________ we (disclose) confidential client information.",
+    "correctAnswer": "should",
+    "explanation": "Negative inversion: 'Under no circumstances' is followed by an auxiliary verb and then the subject."
+  },
+  {
+    "id": 10,
+    "type": "multiple-choice",
+    "question": "What does 'DeFi' stand for in the context of FinTech?",
+    "options": [
+      "Deferred Finance",
+      "Decentralized Finance",
+      "Deficit Finance",
+      "Deposited Finance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "DeFi stands for Decentralized Finance, which uses blockchain and smart contracts to provide financial services without traditional intermediaries."
+  }
+]

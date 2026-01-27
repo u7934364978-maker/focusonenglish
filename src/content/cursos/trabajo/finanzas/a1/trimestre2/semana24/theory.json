@@ -1,0 +1,24 @@
+{
+  "title": "Examen Final del Segundo Trimestre",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "¡Enhorabuena!",
+      "content": "Has llegado al final del segundo trimestre. En este examen repasaremos todo lo aprendido desde la semana 13 hasta la 23.\n\nTemas clave:\n- Precios y compras de oficina.\n- Métodos de pago y seguridad.\n- Localización y preposiciones.\n- Banca digital.\n- Atención al cliente y resolución de problemas."
+    },
+    {
+      "id": "tips",
+      "title": "Consejos para el Examen",
+      "content": "1. Lee bien cada pregunta.\n2. Fíjate si la respuesta debe ser en singular o plural.\n3. Recuerda usar 'Could' para peticiones amables.\n4. Revisa bien los demostrativos (this/that/these/those)."
+    }
+  ],
+  "objectives": [
+    "Demostrar los conocimientos adquiridos durante el trimestre",
+    "Consolidar el vocabulario y gramática de nivel A1 Finance",
+    "Completar el segundo trimestre con éxito"
+  ],
+  "keyTerms": [
+    { "term": "Final Exam", "definition": "A comprehensive test at the end of a course." },
+    { "term": "Success", "definition": "The accomplishment of an aim or purpose." }
+  ]
+}

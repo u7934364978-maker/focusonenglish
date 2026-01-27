@@ -1,0 +1,29 @@
+{
+  "title": "Atención al Cliente Básica",
+  "sections": [
+    {
+      "id": "service-vocab",
+      "title": "Vocabulario de Atención",
+      "content": "Cómo saludar y ayudar a los clientes en el banco.\n\n- **Customer**: Cliente\n- **Service**: Servicio / Atención\n- **Help**: Ayuda / Ayudar\n- **Assistant**: Asistente / Auxiliar\n- **Queue / Line**: Cola / Fila\n- **Wait**: Esperar\n- **Welcome**: Bienvenido"
+    },
+    {
+      "id": "politeness",
+      "title": "Cortesía y Peticiones",
+      "content": "Usamos palabras amables para pedir cosas.\n\n- **Please**: Por favor\n- **Thank you / Thanks**: Gracias\n- **You're welcome**: De nada\n- **Excuse me**: Disculpe / Perdón (para llamar la atención)\n- **Can I help you?**: ¿Puedo ayudarle?\n- **Could you...?**: ¿Podría usted...? (más formal)"
+    },
+    {
+      "id": "grammar-could",
+      "title": "Gramática: Could para Peticiones",
+      "content": "**Could** es el pasado de **can**, pero se usa en el presente para ser más educado.\n\n- **Could** you sign here? (¿Podría firmar aquí?)\n- **Could** I see your ID? (¿Podría ver su identificación?)\n- **Could** you wait a moment? (¿Podría esperar un momento?)"
+    }
+  ],
+  "objectives": [
+    "Usar saludos y frases de cortesía básicas",
+    "Hacer peticiones educadas usando 'Could'",
+    "Identificar roles básicos de atención al cliente"
+  ],
+  "keyTerms": [
+    { "term": "Customer", "definition": "A person who buys goods or services from a shop or business." },
+    { "term": "Assistant", "definition": "A person who helps someone in their work." }
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What should you do if your card is stolen?",
+    "options": ["Buy a new one", "Block it immediately", "Wait for the bank to call", "Write a letter"],
+    "correctAnswer": 1,
+    "explanation": "You must block a stolen card immediately to prevent fraud."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "A 'Scam' is designed to _________.",
+    "options": ["Help customers", "Steal money or info", "Give bonuses", "Update software"],
+    "correctAnswer": 1,
+    "explanation": "A scam is a criminal trick to get money or information."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "Customers __________ (follow) the bank's security rules.",
+    "correctAnswer": "must follow",
+    "explanation": "We use 'must' for strong obligations."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "What is 'Identity theft'?",
+    "options": ["Losing your ID card", "Someone using your personal data", "Creating a new email", "Changing your name"],
+    "correctAnswer": 1,
+    "explanation": "Identity theft is when someone uses your data (name, ID, etc.) to commit fraud."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "You ________ click on links in suspicious emails.",
+    "options": ["must", "mustn't", "can", "should"],
+    "correctAnswer": 1,
+    "explanation": "It is a security rule not to click on suspicious links."
+  }
+]

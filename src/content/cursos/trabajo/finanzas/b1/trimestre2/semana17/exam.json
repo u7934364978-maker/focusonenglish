@@ -1,50 +1,41 @@
-{
-  "goal": "finanzas",
-  "level": "B1",
-  "trimester": 2,
-  "weekId": "semana17",
-  "examId": "fin-b1-w17-exam",
-  "title": "Examen: Banca Online",
-  "items": [
-    {
-      "id": "fin-b1-w17-exam-1",
-      "type": "multipleChoice",
-      "prompt": "What should you do if you forget your password?",
-      "options": ["Click 'Forgot password'", "Delete the app", "Call the police", "Ask a neighbor"],
-      "answerIndex": 0,
-      "explanation": "Most apps have a 'Forgot password' link to reset it."
-    },
-    {
-      "id": "fin-b1-w17-exam-2",
-      "type": "multipleChoice",
-      "prompt": "________ your User ID carefully into the box.",
-      "options": ["Type", "Types", "Typing", "To type"],
-      "answerIndex": 0,
-      "explanation": "Imperative for an action: 'Type'."
-    },
-    {
-      "id": "fin-b1-w17-exam-3",
-      "type": "multipleChoice",
-      "prompt": "Which function allows you to pay for electricity or water?",
-      "options": ["Bill payment", "Game center", "Photo gallery", "Social media"],
-      "answerIndex": 0,
-      "explanation": "Bill payment is a standard feature for utilities."
-    },
-    {
-      "id": "fin-b1-w17-exam-4",
-      "type": "multipleChoice",
-      "prompt": "________ the 'Exit' button when you finish.",
-      "options": ["Press", "Pressing", "To press", "Pressed"],
-      "answerIndex": 0,
-      "explanation": "Imperative: 'Press'."
-    },
-    {
-      "id": "fin-b1-w17-exam-5",
-      "type": "multipleChoice",
-      "prompt": "Biometric ID is ________ than a simple PIN.",
-      "options": ["more secure", "secure", "most secure", "securest"],
-      "answerIndex": 0,
-      "explanation": "Comparative adjective: 'more secure'."
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "Which action is related to 'withdrawing' money from an ATM?",
+    "options": ["To deposit", "To take out cash", "To transfer funds", "To block the card"],
+    "correctAnswer": 1,
+    "explanation": "'Withdraw' means to take money out of an account."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "What is 'Biometric authentication'?",
+    "options": ["Using a password", "Using fingerprint or face ID", "Using a physical token", "Using an ID card"],
+    "correctAnswer": 1,
+    "explanation": "Biometrics uses physical characteristics like fingerprints for identification."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "__________ (open) the app and enter your PIN.",
+    "correctAnswer": "Open",
+    "explanation": "We use the imperative form for instructions."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "What should you do if you receive a 'suspicious' email?",
+    "options": ["Reply to it", "Click the link", "Report and delete it", "Forward it to friends"],
+    "correctAnswer": 2,
+    "explanation": "Suspicious emails should be reported as phishing and deleted."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "A 'Direct Debit' is used for:",
+    "options": ["One-time payments", "Automatic regular payments", "Cash withdrawals", "Cashing checks"],
+    "correctAnswer": 1,
+    "explanation": "Direct debits (domiciliaciones) are for recurring bills."
+  }
+]

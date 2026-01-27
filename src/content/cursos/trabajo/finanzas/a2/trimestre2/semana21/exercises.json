@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is 'Phishing'?",
+    "options": ["A way to save money", "A type of email scam", "A banking app", "A new currency"],
+    "correctAnswer": 1,
+    "explanation": "'Phishing' is a scam where criminals send fake emails to steal information."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "You __________ (not share) your PIN.",
+    "correctAnswer": "mustn't share",
+    "explanation": "We use 'mustn't' (must not) to indicate a prohibition."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "If you see 'Suspicious activity', you should:",
+    "options": ["Ignore it", "Wait a week", "Contact the bank", "Delete the app"],
+    "correctAnswer": 2,
+    "explanation": "You should always contact the bank if you see activity you don't recognize."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the term with its meaning:",
+    "pairs": [
+      { "left": "Block", "right": "Stop the card" },
+      { "left": "Verify", "right": "Check if it is true" },
+      { "left": "Reliable", "right": "Trustworthy" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "You _______ verify the sender of an email before clicking a link.",
+    "options": ["must", "mustn't", "don't have to", "can"],
+    "correctAnswer": 0,
+    "explanation": "It is an obligation for security to verify the sender."
+  }
+]

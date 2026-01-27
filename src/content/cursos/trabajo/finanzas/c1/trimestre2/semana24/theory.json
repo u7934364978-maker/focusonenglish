@@ -1,0 +1,19 @@
+{
+  "title": "Examen Final - Segundo Trimestre",
+  "sections": [
+    {
+      "id": "exam-info",
+      "title": "Información del Examen",
+      "content": "Este examen final integral de nivel C1 evalúa las competencias estratégicas, financieras y lingüísticas del segundo trimestre (semanas 13-23).\n\nÁreas clave de evaluación:\n- Gestión de riesgos empresariales (ERM) y derivados complejos (CDS, Swaps).\n- Gobierno corporativo, ética profesional y deber fiduciario.\n- Inversión sostenible (ESG), reporting no financiero y Greenwashing.\n- Cumplimiento regulatorio global (Basel III, Solvency II) y FinTech (DeFi, Crypto).\n- Estrategias de M&A, análisis cuantitativo y liderazgo en crisis.\n- Comunicación ejecutiva: Earnings calls, Investor Relations y lenguaje matizado (Hedging)."
+    }
+  ],
+  "objectives": [
+    "Validar la capacidad de analizar y comunicar conceptos financieros y estratégicos complejos en un entorno de alta dirección",
+    "Demostrar el uso preciso de estructuras gramaticales avanzadas (Subjuntivo, Inversión, Pasiva de reporte, Hedging) para influir y liderar",
+    "Evaluar la comprensión de marcos regulatorios globales y dilemas éticos corporativos"
+  ],
+  "keyTerms": [
+    { "term": "Strategic Oversight", "definition": "The responsibility of a board or senior management to monitor and guide the long-term direction of an organization." },
+    { "term": "Institutional Grade", "definition": "Referring to investments or processes that meet the high standards required by large institutional investors." }
+  ]
+}

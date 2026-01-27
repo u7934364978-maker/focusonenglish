@@ -1,7 +1,385 @@
 {
-  "goal": "finanzas", "level": "A1", "trimester": 2, "weekId": "semana19",
-  "title": "Ejercicios: Semana 19",
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 2,
+  "weekId": "semana19",
+  "title": "Tiempo y Citas",
   "items": [
-    { "id": "fin-a1-w19-1", "type": "multipleChoice", "prompt": "Basic question for A1 week 19.", "options": ["A", "B"], "answerIndex": 0 }
+    {
+      "id": "fin-a1-w19-1",
+      "type": "multipleChoice",
+      "prompt": "The day after Monday is ______.",
+      "options": ["Wednesday", "Tuesday", "Sunday"],
+      "answerIndex": 1,
+      "explanation": "El día después del lunes es el martes (Tuesday)."
+    },
+    {
+      "id": "fin-a1-w19-2",
+      "type": "multipleChoice",
+      "prompt": "I have an ______ with the bank manager.",
+      "options": ["appointment", "apple", "account"],
+      "answerIndex": 0,
+      "explanation": "Una cita formal se dice 'appointment'."
+    },
+    {
+      "id": "fin-a1-w19-3",
+      "type": "multipleChoice",
+      "prompt": "The meeting is ______ 10:00 AM.",
+      "options": ["on", "in", "at"],
+      "answerIndex": 2,
+      "explanation": "Usamos 'at' para las horas."
+    },
+    {
+      "id": "fin-a1-w19-4",
+      "type": "multipleChoice",
+      "prompt": "My birthday is ______ July.",
+      "options": ["in", "on", "at"],
+      "answerIndex": 0,
+      "explanation": "Usamos 'in' para los meses."
+    },
+    {
+      "id": "fin-a1-w19-5",
+      "type": "multipleChoice",
+      "prompt": "See you ______ Saturday!",
+      "options": ["in", "at", "on"],
+      "answerIndex": 2,
+      "explanation": "Usamos 'on' para los días de la semana."
+    },
+    {
+      "id": "fin-a1-w19-6",
+      "type": "fillBlanks",
+      "prompt": "The bank opens at nine [blank].",
+      "answers": ["o'clock"],
+      "explanation": "Nueve en punto -> nine o'clock."
+    },
+    {
+      "id": "fin-a1-w19-7",
+      "type": "fillBlanks",
+      "prompt": "I have a meeting [blank] Monday.",
+      "answers": ["on"],
+      "explanation": "On + día de la semana."
+    },
+    {
+      "id": "fin-a1-w19-8",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "It is half past ten",
+      "explanation": "Son las diez y media."
+    },
+    {
+      "id": "fin-a1-w19-9",
+      "type": "multipleChoice",
+      "prompt": "Which month comes after February?",
+      "options": ["April", "March", "May"],
+      "answerIndex": 1,
+      "explanation": "Después de febrero viene marzo (March)."
+    },
+    {
+      "id": "fin-a1-w19-10",
+      "type": "multipleChoice",
+      "prompt": "I have a ______ at the bank today.",
+      "options": ["visit", "money", "buy"],
+      "answerIndex": 0,
+      "explanation": "Tengo una visita (visit) al banco."
+    },
+    {
+      "id": "fin-a1-w19-11",
+      "type": "fillBlanks",
+      "prompt": "The office is closed [blank] Sunday.",
+      "answers": ["on"],
+      "explanation": "On + Sunday."
+    },
+    {
+      "id": "fin-a1-w19-12",
+      "type": "multipleChoice",
+      "prompt": "It's 2:30. It's ______.",
+      "options": ["half past two", "two o'clock", "half past three"],
+      "answerIndex": 0,
+      "explanation": "2:30 se dice 'half past two'."
+    },
+    {
+      "id": "fin-a1-w19-13",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "My appointment is at nine",
+      "explanation": "Mi cita es a las nueve."
+    },
+    {
+      "id": "fin-a1-w19-14",
+      "type": "multipleChoice",
+      "prompt": "There are seven days in a ______.",
+      "options": ["month", "week", "year"],
+      "answerIndex": 1,
+      "explanation": "Hay siete días en una semana (week)."
+    },
+    {
+      "id": "fin-a1-w19-15",
+      "type": "fillBlanks",
+      "prompt": "January, February, [blank].",
+      "answers": ["March"],
+      "explanation": "Enero, febrero, marzo."
+    },
+    {
+      "id": "fin-a1-w19-16",
+      "type": "multipleChoice",
+      "prompt": "What ______ is it? It's 4:00.",
+      "options": ["time", "day", "month"],
+      "answerIndex": 0,
+      "explanation": "Preguntamos por la hora con 'What time is it?'."
+    },
+    {
+      "id": "fin-a1-w19-17",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I see you in October",
+      "explanation": "Te veo en octubre."
+    },
+    {
+      "id": "fin-a1-w19-18",
+      "type": "multipleChoice",
+      "prompt": "We have a meeting ______ the afternoon.",
+      "options": ["at", "on", "in"],
+      "answerIndex": 2,
+      "explanation": "Usamos 'in the afternoon'."
+    },
+    {
+      "id": "fin-a1-w19-19",
+      "type": "fillBlanks",
+      "prompt": "Twelve o'[blank].",
+      "answers": ["clock"],
+      "explanation": "Las doce en punto."
+    },
+    {
+      "id": "fin-a1-w19-20",
+      "type": "multipleChoice",
+      "prompt": "Which day is the weekend?",
+      "options": ["Friday", "Monday", "Sunday"],
+      "answerIndex": 2,
+      "explanation": "El domingo (Sunday) es parte del fin de semana."
+    },
+    {
+      "id": "fin-a1-w19-21",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Is the meeting on Tuesday?",
+      "explanation": "¿Es la reunión el martes?"
+    },
+    {
+      "id": "fin-a1-w19-22",
+      "type": "fillBlanks",
+      "prompt": "The year has twelve [blank].",
+      "answers": ["months"],
+      "explanation": "El año tiene doce meses."
+    },
+    {
+      "id": "fin-a1-w19-23",
+      "type": "multipleChoice",
+      "prompt": "My appointment is ______ three o'clock.",
+      "options": ["in", "at", "on"],
+      "answerIndex": 1,
+      "explanation": "At + time."
+    },
+    {
+      "id": "fin-a1-w19-24",
+      "type": "fillBlanks",
+      "prompt": "Friday, [blank], Sunday.",
+      "answers": ["Saturday"],
+      "explanation": "Viernes, sábado, domingo."
+    },
+    {
+      "id": "fin-a1-w19-25",
+      "type": "multipleChoice",
+      "prompt": "It's 8:30. It's ______ past eight.",
+      "options": ["half", "quarter", "time"],
+      "answerIndex": 0,
+      "explanation": "8:30: 'half past eight'."
+    },
+    {
+      "id": "fin-a1-w19-26",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The bank opens in the morning",
+      "explanation": "El banco abre por la mañana."
+    },
+    {
+      "id": "fin-a1-w19-27",
+      "type": "multipleChoice",
+      "prompt": "We pay the rent ______ the first day of the month.",
+      "options": ["in", "on", "at"],
+      "answerIndex": 1,
+      "explanation": "Usamos 'on' para días específicos."
+    },
+    {
+      "id": "fin-a1-w19-28",
+      "type": "fillBlanks",
+      "prompt": "I have an [blank] at 5 PM.",
+      "answers": ["appointment"],
+      "explanation": "Tengo una cita (appointment) a las 5 PM."
+    },
+    {
+      "id": "fin-a1-w19-29",
+      "type": "multipleChoice",
+      "prompt": "Is your meeting ______ the morning?",
+      "options": ["on", "at", "in"],
+      "answerIndex": 2,
+      "explanation": "In + the morning."
+    },
+    {
+      "id": "fin-a1-w19-30",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "What day is it today?",
+      "explanation": "¿Qué día es hoy?"
+    },
+    {
+      "id": "fin-a1-w19-31",
+      "type": "multipleChoice",
+      "prompt": "Today is Wednesday. Tomorrow is ______.",
+      "options": ["Tuesday", "Thursday", "Friday"],
+      "answerIndex": 1,
+      "explanation": "Después del miércoles viene el jueves (Thursday)."
+    },
+    {
+      "id": "fin-a1-w19-32",
+      "type": "fillBlanks",
+      "prompt": "The meeting starts [blank] five minutes.",
+      "answers": ["in"],
+      "explanation": "La reunión empieza en (in) cinco minutos."
+    },
+    {
+      "id": "fin-a1-w19-33",
+      "type": "multipleChoice",
+      "prompt": "Is the bank open ______ Saturdays?",
+      "options": ["in", "on", "at"],
+      "answerIndex": 1,
+      "explanation": "On + plural days."
+    },
+    {
+      "id": "fin-a1-w19-34",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The meeting is at noon",
+      "explanation": "La reunión es al mediodía."
+    },
+    {
+      "id": "fin-a1-w19-35",
+      "type": "multipleChoice",
+      "prompt": "What time ______ the bank close?",
+      "options": ["does", "do", "is"],
+      "answerIndex": 0,
+      "explanation": "Auxiliar 'does' para el banco (it)."
+    },
+    {
+      "id": "fin-a1-w19-36",
+      "type": "fillBlanks",
+      "prompt": "Wait for me [blank] the lobby.",
+      "answers": ["in"],
+      "explanation": "Espérame en (in) el vestíbulo."
+    },
+    {
+      "id": "fin-a1-w19-37",
+      "type": "multipleChoice",
+      "prompt": "June, July, ______.",
+      "options": ["August", "September", "May"],
+      "answerIndex": 0,
+      "explanation": "Junio, julio, agosto (August)."
+    },
+    {
+      "id": "fin-a1-w19-38",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "My visit is on Wednesday",
+      "explanation": "Mi visita es el miércoles."
+    },
+    {
+      "id": "fin-a1-w19-39",
+      "type": "multipleChoice",
+      "prompt": "I don't have ______ today.",
+      "options": ["time", "day", "month"],
+      "answerIndex": 0,
+      "explanation": "No tengo tiempo (time) hoy."
+    },
+    {
+      "id": "fin-a1-w19-40",
+      "type": "fillBlanks",
+      "prompt": "It is half [blank] six.",
+      "answers": ["past"],
+      "explanation": "Son las seis y media (half past six)."
+    },
+    {
+      "id": "fin-a1-w19-41",
+      "type": "multipleChoice",
+      "prompt": "Is your appointment ______ Monday morning?",
+      "options": ["in", "on", "at"],
+      "answerIndex": 1,
+      "explanation": "Usamos 'on' cuando mencionamos el día, aunque sea 'Monday morning'."
+    },
+    {
+      "id": "fin-a1-w19-42",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I have no appointments now",
+      "explanation": "No tengo citas ahora."
+    },
+    {
+      "id": "fin-a1-w19-43",
+      "type": "multipleChoice",
+      "prompt": "How many months are in a year?",
+      "options": ["Seven", "Twelve", "Ten"],
+      "answerIndex": 1,
+      "explanation": "Un año tiene doce (twelve) meses."
+    },
+    {
+      "id": "fin-a1-w19-44",
+      "type": "fillBlanks",
+      "prompt": "See you [blank] the bank!",
+      "answers": ["at"],
+      "explanation": "¡Nos vemos en el banco!"
+    },
+    {
+      "id": "fin-a1-w19-45",
+      "type": "multipleChoice",
+      "prompt": "What is the ______ today? It's the 15th.",
+      "options": ["date", "time", "hour"],
+      "answerIndex": 0,
+      "explanation": "Preguntamos por la fecha con 'What is the date?'."
+    },
+    {
+      "id": "fin-a1-w19-46",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The bank is open now",
+      "explanation": "El banco está abierto ahora."
+    },
+    {
+      "id": "fin-a1-w19-47",
+      "type": "multipleChoice",
+      "prompt": "I'm sorry, I'm ______.",
+      "options": ["late", "time", "date"],
+      "answerIndex": 0,
+      "explanation": "Lo siento, llego tarde (late)."
+    },
+    {
+      "id": "fin-a1-w19-48",
+      "type": "fillBlanks",
+      "prompt": "The meeting is [blank] 2 PM.",
+      "answers": ["at"],
+      "explanation": "At + hour."
+    },
+    {
+      "id": "fin-a1-w19-49",
+      "type": "multipleChoice",
+      "prompt": "Which day is after Friday?",
+      "options": ["Thursday", "Saturday", "Sunday"],
+      "answerIndex": 1,
+      "explanation": "Después del viernes viene el sábado (Saturday)."
+    },
+    {
+      "id": "fin-a1-w19-50",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Time is very important here",
+      "explanation": "El tiempo es muy importante aquí."
+    }
   ]
 }

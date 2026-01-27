@@ -1,0 +1,29 @@
+{
+  "title": "Problemas, Soluciones y Repaso",
+  "sections": [
+    {
+      "id": "problems-vocab",
+      "title": "Problemas Comunes",
+      "content": "A veces hay problemas en el banco. Aprende a explicarlos.\n\n- **Problem**: Problema\n- **Lost**: Perdido / Perder\n- **Wrong**: Incorrecto / Equivocado\n- **Broken**: Roto / No funciona\n- **I don't understand**: No entiendo\n- **I forgot**: Olvidé\n- **Slow**: Lento"
+    },
+    {
+      "id": "solutions",
+      "title": "Buscando Soluciones",
+      "content": "Frases para resolver situaciones.\n\n- **Can you help me?**: ¿Puede ayudarme?\n- **I need a new card**: Necesito una tarjeta nueva\n- **My PIN is wrong**: Mi PIN es incorrecto\n- **The ATM is broken**: El cajero está roto\n- **I'm sorry**: Lo siento\n- **Don't worry**: No se preocupe"
+    },
+    {
+      "id": "review-grammar",
+      "title": "Repaso de Gramática (T2)",
+      "content": "Resumen de lo más importante del trimestre:\n\n1. **There is / There are**: Hay (singular/plural).\n2. **Demostrativos**: This, That, These, Those.\n3. **Preposiciones de Lugar**: Next to, Opposite, Inside.\n4. **Imperativos**: Click, Enter, Sign.\n5. **Could**: Para peticiones amables."
+    }
+  ],
+  "objectives": [
+    "Expresar problemas bancarios sencillos",
+    "Pedir soluciones de forma educada",
+    "Repasar la gramática clave del segundo trimestre"
+  ],
+  "keyTerms": [
+    { "term": "Problem", "definition": "A situation that needs to be dealt with or overcome." },
+    { "term": "Solution", "definition": "A means of solving a problem." }
+  ]
+}

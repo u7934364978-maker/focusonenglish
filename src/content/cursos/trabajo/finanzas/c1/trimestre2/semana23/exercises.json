@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is 'Corporate Governance'?",
+    "options": ["The government's control over banks", "The system by which a company is directed and controlled", "The CEO's personal rules", "A marketing strategy"],
+    "correctAnswer": 1,
+    "explanation": "Corporate governance involves balancing the interests of a company's many stakeholders."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "What we need __________ (be) a complete restructuring of the debt.",
+    "correctAnswer": "is",
+    "explanation": "Cleft sentence: What + subject + verb + is + ..."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "A 'CDS' protects against:",
+    "options": ["Market volatility", "Credit default or bankruptcy", "High inflation", "Losing employees"],
+    "correctAnswer": 1,
+    "explanation": "A Credit Default Swap is an insurance against default."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the term:",
+    "pairs": [
+      { "left": "Synergy", "right": "1+1=3 (efficiency gains)" },
+      { "left": "Greenwashing", "right": "Fake sustainability" },
+      { "left": "Fiduciary", "right": "Duty to act in best interest" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "Not only _______ the quarterly targets, but we also exceeded them.",
+    "options": ["we hit", "did we hit", "we had hit", "we are hitting"],
+    "correctAnswer": 1,
+    "explanation": "Inversion for emphasis: Not only + auxiliary + subject + verb."
+  }
+]

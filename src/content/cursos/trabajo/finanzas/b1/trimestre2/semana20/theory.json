@@ -1,12 +1,24 @@
 {
-  "title": "Repaso del Segundo Trimestre",
+  "title": "Cumplimiento y Trazabilidad (Compliance & Audit)",
   "sections": [
     {
-      "id": "review",
-      "title": "Consolidación",
-      "content": "Repaso de banca online, inversiones y seguros.\n\n- **Online**: Login, passwords, security.\n- **Investment**: Interest, stocks, risk.\n- **Insurance**: Policies, coverage, premiums."
+      "id": "compliance-vocab",
+      "title": "Vocabulario: Marco Regulatorio",
+      "content": "B1 nivel. Importancia de seguir las reglas en finanzas.\n\n- **Compliance**: Cumplimiento (normativo)\n- **Audit trail**: Pista de auditoría / Trazabilidad\n- **Regulatory framework**: Marco regulatorio\n- **Anti-money laundering (AML)**: Prevención de blanqueo de capitales\n- **Know Your Customer (KYC)**: Conoce a tu cliente (procedimiento de identificación)\n- **Breach**: Incumplimiento / Brecha\n- **Fine / Penalty**: Multa / Sanción\n- **Due diligence**: Diligencia debida"
+    },
+    {
+      "id": "compliance-grammar",
+      "title": "Gramática: Reported Speech para Reportes",
+      "content": "Usamos **Reported Speech** para informar sobre lo que se dijo en una auditoría o reunión.\n\n- Direct: \"We follow the rules.\" -> Reported: They said that they **followed** the rules.\n- Direct: \"The audit is complete.\" -> Reported: He said that the audit **was** complete.\n- Direct: \"You must update the ledger.\" -> Reported: She said that we **had to** update the ledger."
     }
   ],
-  "objectives": ["Repasar vocabulario del trimestre", "Practicar estructuras gramaticales (imperativos, condicionales, modales)", "Evaluar el progreso general"],
-  "keyTerms": [{ "term": "Budget", "definition": "An estimate of income and expenditure for a set period of time." }]
+  "objectives": [
+    "Comprender conceptos de cumplimiento normativo y auditoría",
+    "Identificar procedimientos de seguridad como KYC y AML",
+    "Utilizar el estilo indirecto (Reported Speech) para informar sobre hallazgos"
+  ],
+  "keyTerms": [
+    { "term": "Compliance", "definition": "The action of complying with a wish or command, especially regarding laws." },
+    { "term": "Audit", "definition": "An official inspection of an individual's or organization's accounts." }
+  ]
 }

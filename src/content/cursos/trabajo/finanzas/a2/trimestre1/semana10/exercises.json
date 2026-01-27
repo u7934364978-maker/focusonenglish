@@ -1,0 +1,324 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "What is the maximum amount of money you can spend on your credit card?",
+      "options": ["Credit score", "Credit limit", "Interest rate", "Grace period"],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "Have you ever ______ a loan from this bank?",
+      "options": ["take", "took", "taken", "taking"],
+      "answer": 2
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "question": "I have ______ my credit card bill already.",
+      "options": ["pay", "paid", "pays", "paying"],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "question": "A monthly payment for a loan is called an ______.",
+      "options": ["installment", "interest", "insurance", "investment"],
+      "answer": 0
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "question": "She ______ never applied for a mortgage.",
+      "options": ["have", "has", "is", "does"],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "question": "The ______ shows how much you currently owe.",
+      "options": ["limit", "balance", "score", "grace"],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "question": "We have ______ to several banks for a business loan.",
+      "options": ["apply", "applied", "applies", "applying"],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "question": "A high ______ helps you get better interest rates.",
+      "options": ["credit score", "credit limit", "balance", "default"],
+      "answer": 0
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "question": "Has he ______ his PIN number again?",
+      "options": ["forget", "forgot", "forgotten", "forgetting"],
+      "answer": 2
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "question": "The ______ period is when you don't pay interest on new purchases.",
+      "options": ["grace", "limit", "score", "default"],
+      "answer": 0
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "question": "They have ______ the contract.",
+      "options": ["sign", "signed", "signs", "signing"],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "question": "What happens if you ______ on a loan?",
+      "options": ["credit", "default", "balance", "install"],
+      "answer": 1
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "question": "I ______ never used a credit card.",
+      "options": ["has", "have", "am", "do"],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "question": "The ______ rate on this card is 15%.",
+      "options": ["interesting", "interest", "internal", "internet"],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "question": "Has she ______ the documents?",
+      "options": ["see", "saw", "seen", "seeing"],
+      "answer": 2
+    },
+    {
+      "id": 16,
+      "type": "multiple-choice",
+      "question": "You can pay in 12 monthly ______.",
+      "options": ["installments", "interests", "scores", "defaults"],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "question": "We ______ already checked our balance.",
+      "options": ["has", "have", "are", "do"],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "type": "multiple-choice",
+      "question": "A ______ is a loan specifically for buying a house.",
+      "options": ["credit card", "mortgage", "installment", "balance"],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "type": "multiple-choice",
+      "question": "Have you ______ to the bank manager?",
+      "options": ["speak", "spoke", "spoken", "speaking"],
+      "answer": 2
+    },
+    {
+      "id": 20,
+      "type": "multiple-choice",
+      "question": "The bank ______ increased my credit limit.",
+      "options": ["has", "have", "is", "does"],
+      "answer": 0
+    },
+    {
+      "id": 21,
+      "type": "fill-in-the-blanks",
+      "question": "I have ______ (lose) my credit card.",
+      "answer": "lost"
+    },
+    {
+      "id": 22,
+      "type": "fill-in-the-blanks",
+      "question": "The ______ ______ (two words) is 2000 euros.",
+      "answer": "credit limit"
+    },
+    {
+      "id": 23,
+      "type": "fill-in-the-blanks",
+      "question": "Has he ______ (pay) the interest yet?",
+      "answer": "paid"
+    },
+    {
+      "id": 24,
+      "type": "fill-in-the-blanks",
+      "question": "We can pay in six monthly ______.",
+      "answer": "installments"
+    },
+    {
+      "id": 25,
+      "type": "fill-in-the-blanks",
+      "question": "I ______ never ______ (be) in debt.",
+      "answer": "have, been"
+    },
+    {
+      "id": 26,
+      "type": "fill-in-the-blanks",
+      "question": "Your ______ ______ (two words) is very high, so you can get the loan.",
+      "answer": "credit score"
+    },
+    {
+      "id": 27,
+      "type": "fill-in-the-blanks",
+      "question": "She ______ ______ (not / receive) the statement yet.",
+      "answer": "has not received"
+    },
+    {
+      "id": 28,
+      "type": "fill-in-the-blanks",
+      "question": "The ______ on my account is zero.",
+      "answer": "balance"
+    },
+    {
+      "id": 29,
+      "type": "fill-in-the-blanks",
+      "question": "______ you ever ______ (apply) for a mortgage?",
+      "answer": "Have, applied"
+    },
+    {
+      "id": 30,
+      "type": "fill-in-the-blanks",
+      "question": "The ______ ______ (two words) is 5% per year.",
+      "answer": "interest rate"
+    },
+    {
+      "id": 31,
+      "type": "fill-in-the-blanks",
+      "question": "They ______ ______ (just / sign) the loan agreement.",
+      "answer": "have just signed"
+    },
+    {
+      "id": 32,
+      "type": "fill-in-the-blanks",
+      "question": "If you don't pay, you will ______ on your loan.",
+      "answer": "default"
+    },
+    {
+      "id": 33,
+      "type": "fill-in-the-blanks",
+      "question": "I ______ ______ (not / spend) all my credit limit.",
+      "answer": "have not spent"
+    },
+    {
+      "id": 34,
+      "type": "fill-in-the-blanks",
+      "question": "The ______ ______ (two words) lasts for 30 days.",
+      "answer": "grace period"
+    },
+    {
+      "id": 35,
+      "type": "fill-in-the-blanks",
+      "question": "Has the bank ______ (increase) your limit?",
+      "answer": "increased"
+    },
+    {
+      "id": 36,
+      "type": "fill-in-the-blanks",
+      "question": "We ______ ______ (meet) our financial advisor.",
+      "answer": "have met"
+    },
+    {
+      "id": 37,
+      "type": "fill-in-the-blanks",
+      "question": "I need to check my ______ before buying this.",
+      "answer": "balance"
+    },
+    {
+      "id": 38,
+      "type": "fill-in-the-blanks",
+      "question": "He ______ ______ (never / have) a credit card.",
+      "answer": "has never had"
+    },
+    {
+      "id": 39,
+      "type": "fill-in-the-blanks",
+      "question": "You have ______ (choose) the best repayment plan.",
+      "answer": "chosen"
+    },
+    {
+      "id": 40,
+      "type": "fill-in-the-blanks",
+      "question": "______ they ______ (send) the confirmation email?",
+      "answer": "Have, sent"
+    },
+    {
+      "id": 41,
+      "type": "reorder",
+      "question": "have / I / for / applied / loan / a",
+      "answer": "I have applied for a loan"
+    },
+    {
+      "id": 42,
+      "type": "reorder",
+      "question": "has / she / paid / her / bill / already",
+      "answer": "she has already paid her bill"
+    },
+    {
+      "id": 43,
+      "type": "reorder",
+      "question": "you / have / ever / a / credit / used / card / ?",
+      "answer": "have you ever used a credit card ?"
+    },
+    {
+      "id": 44,
+      "type": "reorder",
+      "question": "limit / my / bank / the / has / increased",
+      "answer": "the bank has increased my limit"
+    },
+    {
+      "id": 45,
+      "type": "reorder",
+      "question": "not / we / have / received / documents / the",
+      "answer": "we have not received the documents"
+    },
+    {
+      "id": 46,
+      "type": "reorder",
+      "question": "in / pay / installments / can / you",
+      "answer": "you can pay in installments"
+    },
+    {
+      "id": 47,
+      "type": "reorder",
+      "question": "has / his / he / score / credit / checked",
+      "answer": "he has checked his credit score"
+    },
+    {
+      "id": 48,
+      "type": "reorder",
+      "question": "interest / very / high / is / the / rate",
+      "answer": "the interest rate is very high"
+    },
+    {
+      "id": 49,
+      "type": "reorder",
+      "question": "never / I / defaulted / have / a / on / loan",
+      "answer": "I have never defaulted on a loan"
+    },
+    {
+      "id": 50,
+      "type": "reorder",
+      "question": "period / is / grace / 20 / days / the",
+      "answer": "the grace period is 20 days"
+    }
+  ]
+}

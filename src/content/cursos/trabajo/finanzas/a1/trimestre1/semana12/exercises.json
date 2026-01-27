@@ -1,0 +1,385 @@
+{
+  "goal": "finanzas",
+  "level": "A1",
+  "trimester": 1,
+  "weekId": "semana12",
+  "title": "Repaso del Primer Trimestre",
+  "items": [
+    {
+      "id": "fin-a1-w12-1",
+      "type": "multipleChoice",
+      "prompt": "I ______ a student.",
+      "options": ["is", "am", "are"],
+      "answerIndex": 1,
+      "explanation": "I am (Verb To Be)."
+    },
+    {
+      "id": "fin-a1-w12-2",
+      "type": "multipleChoice",
+      "prompt": "He ______ in a bank.",
+      "options": ["work", "works", "working"],
+      "answerIndex": 1,
+      "explanation": "Present Simple (tercera persona: he works)."
+    },
+    {
+      "id": "fin-a1-w12-3",
+      "type": "multipleChoice",
+      "prompt": "How ______ is this?",
+      "options": ["many", "much", "is"],
+      "answerIndex": 1,
+      "explanation": "How much is this? (preguntando precio)."
+    },
+    {
+      "id": "fin-a1-w12-4",
+      "type": "multipleChoice",
+      "prompt": "The meeting is ______ 10:00 AM.",
+      "options": ["in", "on", "at"],
+      "answerIndex": 2,
+      "explanation": "At + hora."
+    },
+    {
+      "id": "fin-a1-w12-5",
+      "type": "multipleChoice",
+      "prompt": "I want to ______ some money.",
+      "options": ["withdraw", "withdraws", "withdrawing"],
+      "answerIndex": 0,
+      "explanation": "Quiero retirar dinero."
+    },
+    {
+      "id": "fin-a1-w12-6",
+      "type": "fillBlanks",
+      "prompt": "I have [blank] dollars.",
+      "answers": ["ten", "twenty", "many", "some"],
+      "explanation": "Cualquier cantidad de dólares."
+    },
+    {
+      "id": "fin-a1-w12-7",
+      "type": "fillBlanks",
+      "prompt": "The [blank] is the boss of the bank.",
+      "answers": ["manager"],
+      "explanation": "El gerente (manager) es el jefe."
+    },
+    {
+      "id": "fin-a1-w12-8",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "What is your name?",
+      "explanation": "¿Cómo te llamas?"
+    },
+    {
+      "id": "fin-a1-w12-9",
+      "type": "multipleChoice",
+      "prompt": "I pay ______ card.",
+      "options": ["in", "by", "on"],
+      "answerIndex": 1,
+      "explanation": "Pay by card."
+    },
+    {
+      "id": "fin-a1-w12-10",
+      "type": "multipleChoice",
+      "prompt": "The ______ of the car is $20,000.",
+      "options": ["price", "receipt", "cheap"],
+      "answerIndex": 0,
+      "explanation": "El precio del coche."
+    },
+    {
+      "id": "fin-a1-w12-11",
+      "type": "fillBlanks",
+      "prompt": "Can I [blank] in cash?",
+      "answers": ["pay"],
+      "explanation": "¿Puedo pagar en efectivo?"
+    },
+    {
+      "id": "fin-a1-w12-12",
+      "type": "multipleChoice",
+      "prompt": "Where ______ the ATM?",
+      "options": ["am", "is", "are"],
+      "answerIndex": 1,
+      "explanation": "¿Dónde está el cajero?"
+    },
+    {
+      "id": "fin-a1-w12-13",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I have a bank account",
+      "explanation": "Tengo una cuenta bancaria."
+    },
+    {
+      "id": "fin-a1-w12-14",
+      "type": "multipleChoice",
+      "prompt": "The bank is closed ______ Sunday.",
+      "options": ["in", "on", "at"],
+      "answerIndex": 1,
+      "explanation": "On + día de la semana."
+    },
+    {
+      "id": "fin-a1-w12-15",
+      "type": "fillBlanks",
+      "prompt": "I [blank] a new house.",
+      "answers": ["want", "buy", "sell"],
+      "explanation": "Cualquier verbo de acción lógico."
+    },
+    {
+      "id": "fin-a1-w12-16",
+      "type": "multipleChoice",
+      "prompt": "Do you ______ any help?",
+      "options": ["need", "needs", "needing"],
+      "answerIndex": 0,
+      "explanation": "Do + you + base form (need)."
+    },
+    {
+      "id": "fin-a1-w12-17",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "Can you sign here?",
+      "explanation": "¿Puede firmar aquí?"
+    },
+    {
+      "id": "fin-a1-w12-18",
+      "type": "multipleChoice",
+      "prompt": "This is ______ ID card.",
+      "options": ["my", "I", "me"],
+      "answerIndex": 0,
+      "explanation": "Mi tarjeta (posesivo: my)."
+    },
+    {
+      "id": "fin-a1-w12-19",
+      "type": "fillBlanks",
+      "prompt": "The [blank] month is December.",
+      "answers": ["last", "12th"],
+      "explanation": "El último mes."
+    },
+    {
+      "id": "fin-a1-w12-20",
+      "type": "multipleChoice",
+      "prompt": "I see you ______ May.",
+      "options": ["in", "on", "at"],
+      "answerIndex": 0,
+      "explanation": "In + mes."
+    },
+    {
+      "id": "fin-a1-w12-21",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The price is very high",
+      "explanation": "El precio es muy alto."
+    },
+    {
+      "id": "fin-a1-w12-22",
+      "type": "fillBlanks",
+      "prompt": "How [blank] dollars is it?",
+      "answers": ["many"],
+      "explanation": "How many dollars?"
+    },
+    {
+      "id": "fin-a1-w12-23",
+      "type": "multipleChoice",
+      "prompt": "Could I ______ a coffee?",
+      "options": ["has", "have", "having"],
+      "answerIndex": 1,
+      "explanation": "Could I have...?"
+    },
+    {
+      "id": "fin-a1-w12-24",
+      "type": "fillBlanks",
+      "prompt": "Please [blank] your name.",
+      "answers": ["write", "print", "sign"],
+      "explanation": "Por favor, escriba su nombre."
+    },
+    {
+      "id": "fin-a1-w12-25",
+      "type": "multipleChoice",
+      "prompt": "The total is one ______ dollars.",
+      "options": ["thousand", "thousands", "thousanding"],
+      "answerIndex": 0,
+      "explanation": "Mil se dice 'thousand'."
+    },
+    {
+      "id": "fin-a1-w12-26",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "When is the bank open?",
+      "explanation": "¿Cuándo está abierto el banco?"
+    },
+    {
+      "id": "fin-a1-w12-27",
+      "type": "multipleChoice",
+      "prompt": "She ______ money every month.",
+      "options": ["save", "saves", "saving"],
+      "answerIndex": 1,
+      "explanation": "She + saves (Present Simple)."
+    },
+    {
+      "id": "fin-a1-w12-28",
+      "type": "fillBlanks",
+      "prompt": "The [blank] is $5.",
+      "answers": ["cost", "price", "fee"],
+      "explanation": "El costo/precio/comisión es de $5."
+    },
+    {
+      "id": "fin-a1-w12-29",
+      "type": "multipleChoice",
+      "prompt": "It is ______ o'clock.",
+      "options": ["nine", "ninth", "niner"],
+      "answerIndex": 0,
+      "explanation": "Las 9 en punto (nine o'clock)."
+    },
+    {
+      "id": "fin-a1-w12-30",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Today is June second",
+      "explanation": "Hoy es dos de junio."
+    },
+    {
+      "id": "fin-a1-w12-31",
+      "type": "multipleChoice",
+      "prompt": "Who ______ the manager?",
+      "options": ["am", "is", "are"],
+      "answerIndex": 1,
+      "explanation": "¿Quién es el gerente?"
+    },
+    {
+      "id": "fin-a1-w12-32",
+      "type": "fillBlanks",
+      "prompt": "I don't have [blank] cash.",
+      "answers": ["any", "much"],
+      "explanation": "No tengo nada de/mucho efectivo."
+    },
+    {
+      "id": "fin-a1-w12-33",
+      "type": "multipleChoice",
+      "prompt": "We ______ at the bank.",
+      "options": ["meeting", "meets", "meet"],
+      "answerIndex": 2,
+      "explanation": "Nos reunimos (we meet)."
+    },
+    {
+      "id": "fin-a1-w12-34",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I need to go now",
+      "explanation": "Necesito irme ahora."
+    },
+    {
+      "id": "fin-a1-w12-35",
+      "type": "multipleChoice",
+      "prompt": "It is very ______ here.",
+      "options": ["cheap", "cheaper", "cheapest"],
+      "answerIndex": 0,
+      "explanation": "Es muy barato aquí."
+    },
+    {
+      "id": "fin-a1-w12-36",
+      "type": "fillBlanks",
+      "prompt": "Can I [blank] your ID?",
+      "answers": ["see", "check"],
+      "explanation": "¿Puedo ver/revisar su identificación?"
+    },
+    {
+      "id": "fin-a1-w12-37",
+      "type": "multipleChoice",
+      "prompt": "They ______ the house for $200k.",
+      "options": ["sell", "sells", "selling"],
+      "answerIndex": 0,
+      "explanation": "Ellos venden (they sell)."
+    },
+    {
+      "id": "fin-a1-w12-38",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "How can I help you?",
+      "explanation": "¿En qué puedo ayudarle?"
+    },
+    {
+      "id": "fin-a1-w12-39",
+      "type": "multipleChoice",
+      "prompt": "The ______ month is April.",
+      "options": ["four", "fourth", "forty"],
+      "answerIndex": 1,
+      "explanation": "Abril es el cuarto (fourth) mes."
+    },
+    {
+      "id": "fin-a1-w12-40",
+      "type": "fillBlanks",
+      "prompt": "See you [blank] January.",
+      "answers": ["in"],
+      "explanation": "Nos vemos en enero."
+    },
+    {
+      "id": "fin-a1-w12-41",
+      "type": "multipleChoice",
+      "prompt": "I have ______ dollars in my wallet.",
+      "options": ["five", "fifth", "fifty"],
+      "answerIndex": 0,
+      "explanation": "Tengo cinco dólares."
+    },
+    {
+      "id": "fin-a1-w12-42",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "This is a credit card",
+      "explanation": "Esta es una tarjeta de crédito."
+    },
+    {
+      "id": "fin-a1-w12-43",
+      "type": "multipleChoice",
+      "prompt": "What ______ is it?",
+      "options": ["time", "hour", "day"],
+      "answerIndex": 0,
+      "explanation": "¿Qué hora es? (What time is it?)"
+    },
+    {
+      "id": "fin-a1-w12-44",
+      "type": "fillBlanks",
+      "prompt": "The bank [blank] at 9 AM.",
+      "answers": ["opens"],
+      "explanation": "El banco abre a las 9 AM."
+    },
+    {
+      "id": "fin-a1-w12-45",
+      "type": "multipleChoice",
+      "prompt": "I don't ______ coffee.",
+      "options": ["like", "likes", "liking"],
+      "answerIndex": 0,
+      "explanation": "No me gusta el café."
+    },
+    {
+      "id": "fin-a1-w12-46",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Everything is on the table",
+      "explanation": "Todo está sobre la mesa."
+    },
+    {
+      "id": "fin-a1-w12-47",
+      "type": "multipleChoice",
+      "prompt": "How ______ people are here?",
+      "options": ["much", "many", "is"],
+      "answerIndex": 1,
+      "explanation": "How many people?"
+    },
+    {
+      "id": "fin-a1-w12-48",
+      "type": "fillBlanks",
+      "prompt": "The [blank] is $10.",
+      "answers": ["total", "price"],
+      "explanation": "El total/precio es de $10."
+    },
+    {
+      "id": "fin-a1-w12-49",
+      "type": "multipleChoice",
+      "prompt": "I need a ______.",
+      "options": ["receipt", "recipe", "recept"],
+      "answerIndex": 0,
+      "explanation": "Necesito un recibo (receipt)."
+    },
+    {
+      "id": "fin-a1-w12-50",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "This is the final review",
+      "explanation": "Este es el repaso final."
+    }
+  ]
+}

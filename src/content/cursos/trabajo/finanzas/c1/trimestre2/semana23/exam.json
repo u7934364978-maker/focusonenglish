@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is the 'Board of Directors' responsible for?",
+    "options": ["Daily accounting tasks", "Setting the company's strategic direction and oversight", "Cleaning the office", "Answering customer calls"],
+    "correctAnswer": 1,
+    "explanation": "The board provides high-level governance and accountability."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "In an 'Earnings Call', what does 'Guidance' refer to?",
+    "options": ["The past year's results", "A prediction of future earnings and growth", "A list of new employees", "A guide to the building"],
+    "correctAnswer": 1,
+    "explanation": "Guidance helps investors set expectations for the future."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "It is vital that the management __________ (be) transparent about the losses.",
+    "correctAnswer": "be",
+    "explanation": "Subjunctive after 'It is vital that'."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "What is 'M&A'?",
+    "options": ["Markets and Assets", "Mergers and Acquisitions", "Money and Accounting", "Management and Analysis"],
+    "correctAnswer": 1,
+    "explanation": "M&A refers to the consolidation of companies or assets."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "The trend _______ to indicate a paradigm shift in investor sentiment.",
+    "options": ["would appear", "is appearing", "will appear", "appears"],
+    "correctAnswer": 0,
+    "explanation": "Using 'would appear' for formal hedging/nuance."
+  }
+]

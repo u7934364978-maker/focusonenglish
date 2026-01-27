@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is 'Revenue'?",
+    "options": ["The profit after taxes", "The total money received from sales", "The money owed to suppliers", "The cash in the bank"],
+    "correctAnswer": 1,
+    "explanation": "Revenue is the 'top line' or gross income from sales."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "If we __________ (reduce) costs, we __________ (have) more profit.",
+    "correctAnswer": "reduced... would have",
+    "explanation": "Second Conditional: If + Past Simple, Would + Verb."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "Which document shows the assets and liabilities of a company?",
+    "options": ["P&L statement", "Balance Sheet", "Invoice", "Receipt"],
+    "correctAnswer": 1,
+    "explanation": "A Balance Sheet provides a snapshot of a company's financial position at a specific point in time."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the term with its meaning:",
+    "pairs": [
+      { "left": "Net Profit", "right": "Final profit after all costs" },
+      { "left": "Expenditure", "right": "Total spending" },
+      { "left": "Liquidity", "right": "Cash availability" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "If the company _______ bankrupt, the shareholders _______ lose everything.",
+    "options": ["went / would", "goes / will", "gone / would", "go / will"],
+    "correctAnswer": 0,
+    "explanation": "Second Conditional: 'went' (Past Simple) and 'would'."
+  }
+]

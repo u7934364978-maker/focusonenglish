@@ -1,0 +1,24 @@
+{
+  "title": "Introducción a las Inversiones",
+  "sections": [
+    {
+      "id": "vocab-investments",
+      "title": "Vocabulario: El Mundo de la Inversión",
+      "content": "Invertir significa poner tu dinero a trabajar para obtener una ganancia. Aquí tienes los términos básicos:\n\n- **Stocks / Shares**: Acciones (partes de una empresa).\n- **Bonds**: Bonos (préstamos que haces a un gobierno o empresa).\n- **Portfolio**: Tu colección de inversiones.\n- **Dividend**: Parte de las ganancias que una empresa reparte a sus accionistas.\n- **Yield**: El rendimiento o beneficio de una inversión.\n- **Risk**: Riesgo (probabilidad de perder dinero).\n- **Broker**: El profesional o plataforma que compra y vende por ti."
+    },
+    {
+      "id": "grammar-for-since",
+      "title": "Gramática: Presente Perfecto con 'For' y 'Since'",
+      "content": "Usamos 'for' y 'since' con el Presente Perfecto para decir cuánto tiempo ha durado una situación que empezó en el pasado y continúa ahora.\n\n- **Since**: Indica el **momento específico** en que empezó la acción (2010, Monday, I was a child).\n  - *I have had these shares **since** 2015.*\n- **For**: Indica una **duración o periodo** de tiempo (5 years, two months, a long time).\n  - *She has worked as a broker **for** ten years.*\n\n**Pregunta:** Usamos 'How long...?' para preguntar por la duración.\n- *How long have you had this portfolio?*"
+    }
+  ],
+  "objectives": [
+    "Aprender terminología básica sobre acciones y bonos",
+    "Usar 'for' y 'since' correctamente para hablar de duraciones",
+    "Comprender el concepto de riesgo y beneficio (yield)"
+  ],
+  "keyTerms": [
+    { "term": "Portfolio", "definition": "A range of investments held by a person or organization." },
+    { "term": "Dividend", "definition": "A sum of money paid regularly by a company to its shareholders out of its profits." }
+  ]
+}

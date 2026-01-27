@@ -84,6 +84,326 @@
       "options": ["resilience", "volatility", "insolvency", "fragility"],
       "answerIndex": 0,
       "explanation": "Resilience is the ability to withstand and recover from difficult conditions."
+    },
+    {
+      "id": "fin-c1-w20-11",
+      "type": "multipleChoice",
+      "prompt": "________ did the scandal break that the share price dropped by 30%.",
+      "options": ["No sooner", "Hardly", "Rarely", "Only"],
+      "answerIndex": 0,
+      "explanation": "Inversion: 'No sooner did... than...' (though 'than' is implied or follows in the full sentence)."
+    },
+    {
+      "id": "fin-c1-w20-12",
+      "type": "multipleChoice",
+      "prompt": "The board recommended that the CEO ________ (reconsider) the merger proposal.",
+      "options": ["reconsider", "reconsiders", "reconsidered", "reconsidering"],
+      "answerIndex": 0,
+      "explanation": "Subjunctive mood after verbs of recommendation."
+    },
+    {
+      "id": "fin-c1-w20-13",
+      "type": "multipleChoice",
+      "prompt": "________ the company truly needs is a visionary leader with high emotional intelligence.",
+      "options": ["What", "It", "That", "Which"],
+      "answerIndex": 0,
+      "explanation": "Cleft sentence used to emphasize the subject."
+    },
+    {
+      "id": "fin-c1-w20-14",
+      "type": "multipleChoice",
+      "prompt": "The term 'rightsizing' is another common ________ for reducing the workforce.",
+      "options": ["euphemism", "metaphor", "analogy", "hyperbole"],
+      "answerIndex": 0,
+      "explanation": "Euphemisms are common in corporate communication to soften negative news."
+    },
+    {
+      "id": "fin-c1-w20-15",
+      "type": "multipleChoice",
+      "prompt": "Under no circumstances ________ the emergency funds be used for operational expenses.",
+      "options": ["should", "must", "can", "will"],
+      "answerIndex": 0,
+      "explanation": "Inversion after a negative adverbial phrase: 'Under no circumstances should...'."
+    },
+    {
+      "id": "fin-c1-w20-16",
+      "type": "multipleChoice",
+      "prompt": "Effective ________ ensures that the company is managed in the interests of its shareholders and other stakeholders.",
+      "options": ["corporate governance", "market manipulation", "insider trading", "tax evasion"],
+      "answerIndex": 0,
+      "explanation": "Corporate governance involves the rules and practices that direct a company."
+    },
+    {
+      "id": "fin-c1-w20-17",
+      "type": "multipleChoice",
+      "prompt": "It is imperative that the audit ________ (be) completed by the end of the month.",
+      "options": ["be", "is", "was", "been"],
+      "answerIndex": 0,
+      "explanation": "Subjunctive mood after 'imperative'."
+    },
+    {
+      "id": "fin-c1-w20-18",
+      "type": "multipleChoice",
+      "prompt": "________ has the banking sector faced such a systemic threat since the 2008 financial crisis.",
+      "options": ["Seldom", "Often", "Always", "Rarely"],
+      "answerIndex": 0,
+      "explanation": "Inversion with negative frequency adverbs like 'Seldom'."
+    },
+    {
+      "id": "fin-c1-w20-19",
+      "type": "multipleChoice",
+      "prompt": "A ________ plan outlines how a company will respond to a specific future event or situation.",
+      "options": ["contingency", "marketing", "recruitment", "financial"],
+      "answerIndex": 0,
+      "explanation": "Contingency plans are 'Plan Bs' for unexpected events."
+    },
+    {
+      "id": "fin-c1-w20-20",
+      "type": "multipleChoice",
+      "prompt": "The CEO's ________ of the situation was criticized for being too optimistic.",
+      "options": ["appraisal", "denial", "creation", "expansion"],
+      "answerIndex": 0,
+      "explanation": "An 'appraisal' (nominalization of 'appraise') is an expert estimate or assessment."
+    },
+    {
+      "id": "fin-c1-w20-21",
+      "type": "fillBlanks",
+      "prompt": "Complete the cleft sentence: [What] we must focus on is long-term stability.",
+      "text": "[What] we must focus on is long-term stability.",
+      "answers": ["What"],
+      "explanation": "Cleft sentences often start with 'What'."
+    },
+    {
+      "id": "fin-c1-w20-22",
+      "type": "fillBlanks",
+      "prompt": "Fill in the blank with the subjunctive form of 'be': It is vital that the CEO [be] transparent with the investors.",
+      "text": "It is vital that the CEO [be] transparent with the investors.",
+      "answers": ["be"],
+      "explanation": "Subjunctive 'be' is used after 'it is vital that'."
+    },
+    {
+      "id": "fin-c1-w19-23",
+      "type": "multipleChoice",
+      "prompt": "The ________ strategy saved the bank from a total collapse.",
+      "options": ["turnaround", "exit", "marketing", "growth"],
+      "answerIndex": 0,
+      "explanation": "Turnaround strategies focus on returning a company to solvency."
+    },
+    {
+      "id": "fin-c1-w19-24",
+      "type": "multipleChoice",
+      "prompt": "________ the risk was high, the potential rewards were even higher.",
+      "options": ["Although", "Because", "Unless", "Despite"],
+      "answerIndex": 0,
+      "explanation": "'Although' introduces a subordinate clause of concession."
+    },
+    {
+      "id": "fin-c1-w19-25",
+      "type": "multipleChoice",
+      "prompt": "Only after the investigation was complete ________ the true extent of the fraud revealed.",
+      "options": ["was", "did", "is", "has"],
+      "answerIndex": 0,
+      "explanation": "Inversion after 'Only after...': 'Only after... was the extent revealed'."
+    },
+    {
+      "id": "fin-c1-w19-26",
+      "type": "multipleChoice",
+      "prompt": "________ is the capacity of a system to maintain functionality during a crisis.",
+      "options": ["Business continuity", "Diversification", "Leverage", "Volatility"],
+      "answerIndex": 0,
+      "explanation": "Business continuity planning ensures operations can continue."
+    },
+    {
+      "id": "fin-c1-w19-27",
+      "type": "multipleChoice",
+      "prompt": "The manager requested that the report ________ (be) submitted early.",
+      "options": ["be", "is", "was", "been"],
+      "answerIndex": 0,
+      "explanation": "Subjunctive after verbs of requesting."
+    },
+    {
+      "id": "fin-c1-w19-28",
+      "type": "multipleChoice",
+      "prompt": "________ did they exceed their profit targets, but they also reduced their carbon footprint.",
+      "options": ["Not only", "Only", "Scarcely", "Hardly"],
+      "answerIndex": 0,
+      "explanation": "Standard inversion for emphasis: 'Not only did they...'."
+    },
+    {
+      "id": "fin-c1-w19-29",
+      "type": "multipleChoice",
+      "prompt": "The ________ was clear: the bank had to diversify its holdings immediately.",
+      "options": ["imperative", "option", "suggestion", "choice"],
+      "answerIndex": 0,
+      "explanation": "An 'imperative' is an essential or urgent thing."
+    },
+    {
+      "id": "fin-c1-w19-30",
+      "type": "multipleChoice",
+      "prompt": "In professional settings, the phrase 'negative growth' is a ________ for loss.",
+      "options": ["euphemism", "synonym", "metonym", "acronym"],
+      "answerIndex": 0,
+      "explanation": "It avoids the harshness of the word 'loss'."
+    },
+    {
+      "id": "fin-c1-w19-31",
+      "type": "multipleChoice",
+      "prompt": "________ the regulators were to intervene, the acquisition would be blocked.",
+      "options": ["Were", "Should", "If", "Suppose"],
+      "answerIndex": 0,
+      "explanation": "Second conditional inversion."
+    },
+    {
+      "id": "fin-c1-w19-32",
+      "type": "multipleChoice",
+      "prompt": "It is necessary that the board ________ (take) immediate action to address the liquidity crisis.",
+      "options": ["take", "takes", "took", "taking"],
+      "answerIndex": 0,
+      "explanation": "Subjunctive after 'it is necessary that'."
+    },
+    {
+      "id": "fin-c1-w19-33",
+      "type": "multipleChoice",
+      "prompt": "________ had the market opened when the stock price fell by 10 points.",
+      "options": ["Hardly", "Rarely", "Always", "Soon"],
+      "answerIndex": 0,
+      "explanation": "Inversion with 'Hardly': 'Hardly had... when...'."
+    },
+    {
+      "id": "fin-c1-w19-34",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the stakeholders was essential for the successful restructuring.",
+      "options": ["alignment", "competition", "isolation", "segregation"],
+      "answerIndex": 0,
+      "explanation": "Alignment of interests is key to successful turnarounds."
+    },
+    {
+      "id": "fin-c1-w19-35",
+      "type": "multipleChoice",
+      "prompt": "________ is the set of rules that governs how a company is directed and controlled.",
+      "options": ["Corporate governance", "Market research", "Personal branding", "Public relations"],
+      "answerIndex": 0,
+      "explanation": "Governance is about accountability and transparency."
+    },
+    {
+      "id": "fin-c1-w19-36",
+      "type": "multipleChoice",
+      "prompt": "Little ________ the investors know that the company was on the brink of bankruptcy.",
+      "options": ["did", "had", "was", "is"],
+      "answerIndex": 0,
+      "explanation": "Inversion with 'Little': 'Little did they know...'."
+    },
+    {
+      "id": "fin-c1-w19-37",
+      "type": "multipleChoice",
+      "prompt": "The audit suggested that the firm ________ (strengthen) its internal controls.",
+      "options": ["strengthen", "strengthens", "strengthened", "strengthening"],
+      "answerIndex": 0,
+      "explanation": "Subjunctive mood after verbs of suggestion."
+    },
+    {
+      "id": "fin-c1-w19-38",
+      "type": "multipleChoice",
+      "prompt": "________ the problem was not the lack of capital, but the lack of vision.",
+      "options": ["Clearly", "Hopefully", "Sadly", "Maybe"],
+      "answerIndex": 0,
+      "explanation": "'Clearly' is a sentence adverb used to emphasize the speaker's viewpoint."
+    },
+    {
+      "id": "fin-c1-w19-39",
+      "type": "multipleChoice",
+      "prompt": "An ________ is a person who holds a position of trust and is expected to act in the client's best interest.",
+      "options": ["fiduciary", "retailer", "trader", "speculator"],
+      "answerIndex": 0,
+      "explanation": "Fiduciaries have a legal and ethical duty to their clients."
+    },
+    {
+      "id": "fin-c1-w19-40",
+      "type": "multipleChoice",
+      "prompt": "________ the CEO to retire now, the company would face a major leadership vacuum.",
+      "options": ["Were", "Should", "If", "Provided"],
+      "answerIndex": 0,
+      "explanation": "Second conditional inversion."
+    },
+    {
+      "id": "fin-c1-w19-41",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the crisis was managed with remarkable efficiency.",
+      "options": ["aftermath", "beginning", "middle", "start"],
+      "answerIndex": 0,
+      "explanation": "The 'aftermath' refers to the consequences of a significant event."
+    },
+    {
+      "id": "fin-c1-w19-42",
+      "type": "multipleChoice",
+      "prompt": "It is vital that everyone ________ (follow) the new security protocols.",
+      "options": ["follow", "follows", "followed", "following"],
+      "answerIndex": 0,
+      "explanation": "Subjunctive mood for necessity."
+    },
+    {
+      "id": "fin-c1-w19-43",
+      "type": "multipleChoice",
+      "prompt": "________ had the announcement been made than the protesters gathered outside the bank.",
+      "options": ["No sooner", "Hardly", "Scarcely", "Only"],
+      "answerIndex": 0,
+      "explanation": "Inversion: 'No sooner had... than...'."
+    },
+    {
+      "id": "fin-c1-w19-44",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the board's decision was immediate and far-reaching.",
+      "options": ["impact", "color", "shape", "sound"],
+      "answerIndex": 0,
+      "explanation": "'Impact' is a common term for a strong effect or influence."
+    },
+    {
+      "id": "fin-c1-w19-45",
+      "type": "multipleChoice",
+      "prompt": "We implemented the turnaround strategy ________ avoid total liquidation.",
+      "options": ["so as to", "consequently", "nevertheless", "instead"],
+      "answerIndex": 0,
+      "explanation": "'So as to' expresses purpose."
+    },
+    {
+      "id": "fin-c1-w19-46",
+      "type": "multipleChoice",
+      "prompt": "________ is the process of reducing the number of employees to improve efficiency.",
+      "options": ["Downsizing", "Upscaling", "Recruiting", "Hiring"],
+      "answerIndex": 0,
+      "explanation": "Downsizing is a common, if painful, business strategy."
+    },
+    {
+      "id": "fin-c1-w19-47",
+      "type": "multipleChoice",
+      "prompt": "It is suggested that the company ________ (diversify) its supplier base.",
+      "options": ["diversify", "diversifies", "diversified", "diversifying"],
+      "answerIndex": 0,
+      "explanation": "Subjunctive after 'it is suggested that'."
+    },
+    {
+      "id": "fin-c1-w19-48",
+      "type": "multipleChoice",
+      "prompt": "________ the intervention of the central bank, the entire financial sector would have collapsed.",
+      "options": ["But for", "Supposing", "Provided", "Unless"],
+      "answerIndex": 0,
+      "explanation": "'But for' is used to talk about the cause of something not happening."
+    },
+    {
+      "id": "fin-c1-w19-49",
+      "type": "multipleChoice",
+      "prompt": "A ________ of trust is often the first step towards a systemic crisis.",
+      "options": ["breakdown", "buildup", "creation", "expansion"],
+      "answerIndex": 0,
+      "explanation": "Trust is the fundamental currency of the financial system."
+    },
+    {
+      "id": "fin-c1-w19-50",
+      "type": "multipleChoice",
+      "prompt": "The goal of any crisis manager is to restore ________ and stability.",
+      "options": ["confidence", "volatility", "complexity", "fragility"],
+      "answerIndex": 0,
+      "explanation": "Confidence is essential for market stability."
     }
   ]
 }

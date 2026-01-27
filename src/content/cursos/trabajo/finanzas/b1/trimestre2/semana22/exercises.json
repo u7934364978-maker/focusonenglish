@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "What is 'Hedging'?",
+    "options": ["Buying a house", "A strategy to reduce risk", "A type of tax", "Trading with cash only"],
+    "correctAnswer": 1,
+    "explanation": "Hedging is like an insurance policy for your investments to protect against losses."
+  },
+  {
+    "id": 2,
+    "type": "fill-in-the-blank",
+    "question": "I wish we __________ (have) a lower interest rate on our loan.",
+    "correctAnswer": "had",
+    "explanation": "Wish + Past Simple for a present desire."
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "If a currency increases in value, it is _______.",
+    "options": ["Depreciating", "Appreciating", "Floating", "Sinking"],
+    "correctAnswer": 1,
+    "explanation": "Appreciation is the increase in value of an asset over time."
+  },
+  {
+    "id": 4,
+    "type": "matching",
+    "question": "Match the term with its meaning:",
+    "pairs": [
+      { "left": "Tariff", "right": "Tax on imports" },
+      { "left": "Export", "right": "Selling to other countries" },
+      { "left": "Settlement", "right": "Final payment/closing" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "We wish the bank _______ faster with our international transfer.",
+    "options": ["processed", "would process", "processing", "had process"],
+    "correctAnswer": 1,
+    "explanation": "Wish + would + verb for a desired change in someone else's behavior or a future action."
+  }
+]

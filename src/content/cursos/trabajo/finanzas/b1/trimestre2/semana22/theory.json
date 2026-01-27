@@ -1,0 +1,24 @@
+{
+  "title": "Comercio Internacional y Divisas (Forex)",
+  "sections": [
+    {
+      "id": "forex-vocab",
+      "title": "Vocabulario: Mercado de Divisas",
+      "content": "B1 nivel. Operaciones globales y tipos de cambio.\n\n- **Foreign Exchange (Forex)**: Mercado de divisas\n- **Exchange rate risk**: Riesgo de tipo de cambio\n- **Hedging**: Cobertura (de riesgo)\n- **Import / Export**: Importación / Exportación\n- **Tariff / Duty**: Arancel / Impuesto aduanero\n- **Trade balance**: Balanza comercial\n- **Appreciation / Depreciation**: Apreciación / Depreciación (de una moneda)\n- **Settlement**: Liquidación (de una operación)"
+    },
+    {
+      "id": "forex-grammar",
+      "title": "Gramática: Wish + Past Simple / Would",
+      "content": "Usamos **Wish** para expresar deseos sobre situaciones que nos gustaría que fueran diferentes.\n\n- I **wish** the exchange rate **was** better. (Desearía que el tipo de cambio fuera mejor - situación presente)\n- We **wish** the government **would lower** the tariffs. (Desearíamos que el gobierno bajara los aranceles - deseo de cambio futuro)\n- They **wish** they **had** more international clients. (Desearían tener más clientes internacionales)"
+    }
+  ],
+  "objectives": [
+    "Identificar los riesgos asociados al comercio internacional",
+    "Comprender el funcionamiento básico del mercado Forex",
+    "Utilizar 'wish' para expresar deseos de mejora en el contexto financiero"
+  ],
+  "keyTerms": [
+    { "term": "Forex", "definition": "The global market for the trading of currencies." },
+    { "term": "Hedging", "definition": "An investment to reduce the risk of adverse price movements in an asset." }
+  ]
+}

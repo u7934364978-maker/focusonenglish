@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "Which confidence level is common in VaR calculations?",
+    "options": ["10%", "50%", "95% or 99%", "0%"],
+    "correctAnswer": 2,
+    "explanation": "Standard VaR models typically use 95% or 99% confidence levels."
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "question": "What is 'Backtesting' in the context of VaR?",
+    "options": ["Predicting the future", "Comparing VaR predictions with actual historical losses", "Hiring a back-office team", "Ignoring past data"],
+    "correctAnswer": 1,
+    "explanation": "Backtesting validates the accuracy of the VaR model using real past data."
+  },
+  {
+    "id": 3,
+    "type": "fill-in-the-blank",
+    "question": "If you __________ (diversify) your portfolio, you __________ (have) less risk now.",
+    "correctAnswer": "had diversified... would have",
+    "explanation": "Mixed Conditional."
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "What is 'Risk Mitigation'?",
+    "options": ["Increasing risk for more profit", "Taking actions to reduce the impact of risk", "Measuring the risk only", "Hiring more traders"],
+    "correctAnswer": 1,
+    "explanation": "Mitigation is about reducing the probability or impact of a loss."
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "question": "If the auditor _______ the fraud earlier, the company _______ still in business.",
+    "options": ["had caught / would be", "caught / would be", "catches / will be", "had caught / had been"],
+    "correctAnswer": 0,
+    "explanation": "Mixed Conditional (Past -> Present)."
+  }
+]
