@@ -1,11 +1,16 @@
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import React from "react";
+import React, { createContext, useContext, useMemo, useRef } from "react";
 
 interface VocabularyItem {
   word: string;
   definition: string;
 }
+
+const VocabularyContext = createContext<{
+  vocabulary: VocabularyItem[];
+  isFirstRef: React.MutableRefObject<boolean>;
+} | null>(null);
 
 function VocabularyTooltip({ word, definition, children, position = 'top' }: { word: string, definition: string, children: React.ReactNode, position?: 'top' | 'bottom' }) {
   const isBottom = position === 'bottom';
@@ -32,28 +37,27 @@ function VocabularyTooltip({ word, definition, children, position = 'top' }: { w
   );
 }
 
-function applyTooltips(children: React.ReactNode, vocabulary?: VocabularyItem[]): React.ReactNode {
-  if (!vocabulary || vocabulary.length === 0) return children;
+/**
+ * Hook to apply vocabulary tooltips to text nodes.
+ * Non-recursive: relies on component overrides to handle nested structures.
+ */
+function useApplyTooltips() {
+  const ctx = useContext(VocabularyContext);
+  
+  return (children: React.ReactNode): React.ReactNode => {
+    if (!ctx || !ctx.vocabulary || ctx.vocabulary.length === 0) return children;
 
-  let isFirstString = true;
-
-  const processNode = (node: React.ReactNode): React.ReactNode => {
-    return React.Children.map(node, (child) => {
-      if (typeof child !== "string") {
-        if (React.isValidElement(child) && (child.props as any).children) {
-          return React.cloneElement(child, {
-            ...(child.props as any),
-            children: processNode((child.props as any).children),
-          } as any);
-        }
-        return child;
-      }
+    return React.Children.map(children, (child) => {
+      // ONLY process strings to prevent double tooltips in nested elements
+      if (typeof child !== "string") return child;
 
       let parts: (string | React.ReactNode)[] = [child];
-      const currentIsFirst = isFirstString;
-      isFirstString = false;
+      const isFirst = ctx.isFirstRef.current;
+      
+      // If this string contains matches, mark the document as no longer "at the start"
+      let foundAnyMatch = false;
 
-      vocabulary.forEach((vocab) => {
+      ctx.vocabulary.forEach((vocab) => {
         const newParts: (string | React.ReactNode)[] = [];
         const regex = new RegExp(`\\b(${vocab.word})\\b`, "gi");
 
@@ -66,12 +70,13 @@ function applyTooltips(children: React.ReactNode, vocabulary?: VocabularyItem[])
           const splitText = part.split(regex);
           splitText.forEach((t, i) => {
             if (t.toLowerCase() === vocab.word.toLowerCase()) {
+              foundAnyMatch = true;
               newParts.push(
                 <VocabularyTooltip 
-                  key={`${vocab.word}-${i}`} 
+                  key={`${vocab.word}-${i}-${Math.random()}`} 
                   word={vocab.word} 
                   definition={vocab.definition}
-                  position={currentIsFirst ? 'bottom' : 'top'}
+                  position={isFirst ? 'bottom' : 'top'}
                 >
                   {t}
                 </VocabularyTooltip>
@@ -84,11 +89,13 @@ function applyTooltips(children: React.ReactNode, vocabulary?: VocabularyItem[])
         parts = newParts;
       });
 
+      if (foundAnyMatch) {
+        ctx.isFirstRef.current = false;
+      }
+
       return <>{parts}</>;
     });
   };
-
-  return processNode(children);
 }
 
 function looksLikeLooseListLine(line: string) {
@@ -222,118 +229,140 @@ function normalizeMarkdown(input: string) {
 
 export default function Markdown({ content, vocabulary }: { content: string, vocabulary?: VocabularyItem[] }) {
   const normalized = normalizeMarkdown(content);
+  const isFirstRef = useRef(true);
+
+  // Reset the "at start" marker when content changes
+  useMemo(() => {
+    isFirstRef.current = true;
+  }, [content]);
+
+  const contextValue = useMemo(() => ({
+    vocabulary: vocabulary || [],
+    isFirstRef
+  }), [vocabulary]);
 
   return (
-    <div
-      className={[
-        "prose max-w-none",
-        "prose-slate dark:prose-invert",
-        "text-slate-800 dark:text-slate-200",
-        "prose-headings:text-slate-900 dark:prose-headings:text-white prose-headings:font-black prose-headings:tracking-tight",
-        "prose-p:text-slate-700 dark:prose-p:text-slate-300 prose-p:leading-relaxed",
-        "prose-li:text-slate-700 dark:prose-li:text-slate-300",
-        "prose-strong:text-slate-900 dark:prose-strong:text-white prose-strong:font-bold",
-        "prose-h2:mt-6 prose-h2:mb-3",
-        "prose-h3:mt-5 prose-h3:mb-2",
-        "prose-hr:my-6 prose-hr:border-slate-200 dark:prose-hr:border-slate-800",
-        "prose-ul:pl-5 prose-li:my-1",
-        "prose-pre:bg-slate-900 prose-pre:text-slate-50 prose-pre:rounded-2xl",
-        "prose-code:text-coral-700 dark:prose-code:text-coral-400",
-        "prose-a:text-coral-700 dark:prose-a:text-coral-400 prose-a:font-bold",
-      ].join(" ")}
-    >
-      <ReactMarkdown
-        remarkPlugins={[remarkGfm]}
-        components={{
-          // Override text-heavy components to apply tooltips
-          p({ children }) {
-            return <p>{applyTooltips(children, vocabulary)}</p>;
-          },
-          li({ children }) {
-            return <li>{applyTooltips(children, vocabulary)}</li>;
-          },
-          strong({ children }) {
-            return <strong>{applyTooltips(children, vocabulary)}</strong>;
-          },
-          em({ children }) {
-            return <em>{applyTooltips(children, vocabulary)}</em>;
-          },
-
-          // Callout visual (para tips en markdown usando "> ...")
-          blockquote({ children }) {
-            return (
-              <div className="my-4 rounded-2xl border border-coral-200 dark:border-coral-800 bg-coral-50 dark:bg-coral-950/30 px-4 py-3 text-sm text-slate-800 dark:text-slate-200">
-                <div className="font-black text-coral-900 dark:text-coral-400">Tip</div>
-                <div className="mt-1">{applyTooltips(children, vocabulary)}</div>
-              </div>
-            );
-          },
-
-          // Separador suave (más “premium” que hr default)
-          hr() {
-            return <div className="my-6 h-px w-full bg-slate-200 dark:bg-slate-800" />;
-          },
-
-          // Tablas: wrapper scroll + estilos de celdas
-          table({ children }) {
-            return (
-              <div className="my-4 overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
-                <table className="w-full text-sm">{children}</table>
-              </div>
-            );
-          },
-          th({ children }) {
-            return (
-              <th className="bg-slate-50 dark:bg-slate-800/50 px-3 py-2 text-left text-xs font-black text-slate-600 dark:text-slate-400">
-                {applyTooltips(children, vocabulary)}
-              </th>
-            );
-          },
-          td({ children }) {
-            return (
-              <td className="border-t border-slate-200 dark:border-slate-800 px-3 py-2 align-top text-slate-800 dark:text-slate-300">
-                {applyTooltips(children, vocabulary)}
-              </td>
-            );
-          },
-
-          // Checklist: render de checkbox bonito (no interactivo)
-          input(props) {
-            if (props.type === "checkbox") {
-              return (
-                <span
-                  aria-hidden="true"
-                  className={[
-                    "mt-[2px] inline-flex h-4 w-4 flex-none items-center justify-center rounded border",
-                    props.checked
-                      ? "border-amber-500 bg-amber-500"
-                      : "border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800",
-                  ].join(" ")}
-                />
-              );
-            }
-            return <input {...props} />;
-          },
-
-          // Headings: scroll offset para navegación fluida
-          h2({ children }) {
-            return (
-              <h2 className="mt-8 scroll-mt-24 text-xl font-black tracking-tight text-slate-900 dark:text-white">
-                {applyTooltips(children, vocabulary)}
-              </h2>
-            );
-          },
-          h3({ children }) {
-            return (
-              <h3 className="mt-6 scroll-mt-24 text-lg font-black text-slate-900 dark:text-white">
-                {applyTooltips(children, vocabulary)}
-              </h3>
-            );
-          },
-        }}
+    <VocabularyContext.Provider value={contextValue}>
+      <div
+        className={[
+          "prose max-w-none",
+          "prose-slate dark:prose-invert",
+          "text-slate-800 dark:text-slate-200",
+          "prose-headings:text-slate-900 dark:prose-headings:text-white prose-headings:font-black prose-headings:tracking-tight",
+          "prose-p:text-slate-700 dark:prose-p:text-slate-300 prose-p:leading-relaxed",
+          "prose-li:text-slate-700 dark:prose-li:text-slate-300",
+          "prose-strong:text-slate-900 dark:prose-strong:text-white prose-strong:font-bold",
+          "prose-h2:mt-6 prose-h2:mb-3",
+          "prose-h3:mt-5 prose-h3:mb-2",
+          "prose-hr:my-6 prose-hr:border-slate-200 dark:prose-hr:border-slate-800",
+          "prose-ul:pl-5 prose-li:my-1",
+          "prose-pre:bg-slate-900 prose-pre:text-slate-50 prose-pre:rounded-2xl",
+          "prose-code:text-coral-700 dark:prose-code:text-coral-400",
+          "prose-a:text-coral-700 dark:prose-a:text-coral-400 prose-a:font-bold",
+        ].join(" ")}
       >
-        {normalized}
-      </ReactMarkdown>
-    </div>
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+          components={<MarkdownComponents />}
+        >
+          {normalized}
+        </ReactMarkdown>
+      </div>
+    </VocabularyContext.Provider>
   );
+}
+
+function MarkdownComponents() {
+  const applyTooltips = useApplyTooltips();
+
+  return {
+    // Override text-heavy components to apply tooltips
+    p({ children }: any) {
+      return <p>{applyTooltips(children)}</p>;
+    },
+    li({ children }: any) {
+      return <li>{applyTooltips(children)}</li>;
+    },
+    strong({ children }: any) {
+      return <strong>{applyTooltips(children)}</strong>;
+    },
+    em({ children }: any) {
+      return <em>{applyTooltips(children)}</em>;
+    },
+    a({ children, ...props }: any) {
+      return <a {...props}>{applyTooltips(children)}</a>;
+    },
+
+    // Callout visual (para tips en markdown usando "> ...")
+    blockquote({ children }: any) {
+      return (
+        <div className="my-4 rounded-2xl border border-coral-200 dark:border-coral-800 bg-coral-50 dark:bg-coral-950/30 px-4 py-3 text-sm text-slate-800 dark:text-slate-200">
+          <div className="font-black text-coral-900 dark:text-coral-400">Tip</div>
+          <div className="mt-1">{applyTooltips(children)}</div>
+        </div>
+      );
+    },
+
+    // Separador suave (más “premium” que hr default)
+    hr() {
+      return <div className="my-6 h-px w-full bg-slate-200 dark:bg-slate-800" />;
+    },
+
+    // Tablas: wrapper scroll + estilos de celdas
+    table({ children }: any) {
+      return (
+        <div className="my-4 overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
+          <table className="w-full text-sm">{children}</table>
+        </div>
+      );
+    },
+    th({ children }: any) {
+      return (
+        <th className="bg-slate-50 dark:bg-slate-800/50 px-3 py-2 text-left text-xs font-black text-slate-600 dark:text-slate-400">
+          {applyTooltips(children)}
+        </th>
+      );
+    },
+    td({ children }: any) {
+      return (
+        <td className="border-t border-slate-200 dark:border-slate-800 px-3 py-2 align-top text-slate-800 dark:text-slate-300">
+          {applyTooltips(children)}
+        </td>
+      );
+    },
+
+    // Checklist: render de checkbox bonito (no interactivo)
+    input(props: any) {
+      if (props.type === "checkbox") {
+        return (
+          <span
+            aria-hidden="true"
+            className={[
+              "mt-[2px] inline-flex h-4 w-4 flex-none items-center justify-center rounded border",
+              props.checked
+                ? "border-amber-500 bg-amber-500"
+                : "border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800",
+            ].join(" ")}
+          />
+        );
+      }
+      return <input {...props} />;
+    },
+
+    // Headings: scroll offset para navegación fluida
+    h2({ children }: any) {
+      return (
+        <h2 className="mt-8 scroll-mt-24 text-xl font-black tracking-tight text-slate-900 dark:text-white">
+          {applyTooltips(children)}
+        </h2>
+      );
+    },
+    h3({ children }: any) {
+      return (
+        <h3 className="mt-6 scroll-mt-24 text-lg font-black text-slate-900 dark:text-white">
+          {applyTooltips(children)}
+        </h3>
+      );
+    },
+  };
 }
