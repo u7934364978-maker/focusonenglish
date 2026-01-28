@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0.0",
+  "courseRef": {
+    "courseId": "banking-a1-es",
+    "locale": "es-ES",
+    "targetLevel": "CEFR_A1",
+    "englishVariant": "UK",
+    "tone": "formal"
+  },
+  "week": {
+    "id": "W01",
+    "title": "Introduction to Banking",
+    "objectives": ["Learn basic banking vocabulary", "Introduce yourself in a professional setting"],
+    "vocabulary": ["account", "balance", "deposit"],
+    "grammar": ["Present Simple", "To Be"],
+    "days": [
+      {
+        "id": "W01-D1",
+        "title": "Greetings and Introductions",
+        "activities": [
+          {
+            "id": "W01-D1-ACT1",
+            "type": "micro_lesson",
+            "minutes": 10,
+            "content": {
+              "summary": "Basic greetings in a bank."
+            }
+          },
+          {
+            "id": "W01-D1-ACT2",
+            "type": "practice_set",
+            "minutes": 20,
+            "questionIds": ["Q-W01-GREET-01"]
+          }
+        ]
+      },
+      {
+        "id": "W01-D2",
+        "title": "Numbers and Currencies",
+        "activities": [
+          {
+            "id": "W01-D2-ACT1",
+            "type": "listening_quiz",
+            "minutes": 30,
+            "assetId": "A-W01-L1",
+            "questionIds": ["Q-W01-LIST-01"]
+          }
+        ]
+      },
+      {
+        "id": "W01-D3",
+        "title": "Opening an Account",
+        "activities": [
+          {
+            "id": "W01-D3-ACT1",
+            "type": "email_task",
+            "minutes": 30,
+            "templateId": "TPL-W01-EMAIL-01"
+          }
+        ]
+      },
+      {
+        "id": "W01-D4",
+        "title": "Roleplay: At the Counter",
+        "activities": [
+          {
+            "id": "W01-D4-ACT1",
+            "type": "roleplay",
+            "minutes": 30,
+            "content": {
+              "script": ["Hello, I want to open an account.", "Certainly, I can help with that."]
+            }
+          }
+        ]
+      },
+      {
+        "id": "W01-D5",
+        "title": "Weekly Review",
+        "activities": [
+          {
+            "id": "W01-D5-ACT1",
+            "type": "weekly_quiz",
+            "minutes": 30,
+            "questionIds": ["Q-W01-GREET-01", "Q-W01-LIST-01"]
+          }
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "A-W01-L1",
+      "type": "listening_track",
+      "title": "Banking Numbers",
+      "audioUrl": "https://example.com/audio/w01-l1.mp3",
+      "estimatedDurationSec": 60,
+      "script": "One, two, three, four, five..."
+    }
+  ],
+  "templates": [
+    {
+      "id": "TPL-W01-EMAIL-01",
+      "type": "email_template",
+      "title": "Welcome Email",
+      "subject": "Welcome to our bank",
+      "bodyWithSurname": "Dear Mr/Ms {{surname}}, welcome.",
+      "bodyNoSurname": "Dear customer, welcome."
+    }
+  ],
+  "itemBank": [
+    {
+      "id": "Q-W01-GREET-01",
+      "type": "mcq",
+      "prompt": "How do you say 'Hola' in a formal setting?",
+      "options": [
+        { "id": "1", "text": "Hi" },
+        { "id": "2", "text": "Hello" },
+        { "id": "3", "text": "What's up" }
+      ],
+      "correctOptionId": "2"
+    },
+    {
+      "id": "Q-W01-LIST-01",
+      "type": "true_false",
+      "prompt": "Is the currency in the UK the Euro?",
+      "correctBoolean": false
+    }
+  ]
+}

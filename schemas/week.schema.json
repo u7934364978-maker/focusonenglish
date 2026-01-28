@@ -1,0 +1,316 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tu-dominio.com/schemas/week.schema.json",
+  "title": "Weekly course package schema (A1 banking ES/UK)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "courseRef", "week", "assets", "templates", "itemBank"],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "courseRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["courseId", "locale", "targetLevel", "englishVariant", "tone"],
+      "properties": {
+        "courseId": { "type": "string", "minLength": 3, "maxLength": 120 },
+        "locale": { "type": "string", "enum": ["es-ES"] },
+        "targetLevel": { "type": "string", "enum": ["CEFR_A1"] },
+        "englishVariant": { "type": "string", "enum": ["UK"] },
+        "tone": { "type": "string", "enum": ["formal"] }
+      }
+    },
+
+    "week": { "$ref": "#/$defs/week" },
+    "assets": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/asset" }
+    },
+    "templates": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/template" }
+    },
+    "itemBank": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/question" }
+    }
+  },
+
+  "$defs": {
+    "idWeek": {
+      "type": "string",
+      "pattern": "^W(0[1-9]|[1-2][0-9]|3[0-6])$"
+    },
+    "idDay": {
+      "type": "string",
+      "pattern": "^W(0[1-9]|[1-2][0-9]|3[0-6])-D[1-5]$"
+    },
+    "idActivity": {
+      "type": "string",
+      "pattern": "^W(0[1-9]|[1-2][0-9]|3[0-6])-D[1-5]-[A-Z0-9-]{3,40}$"
+    },
+    "idAsset": { "type": "string", "pattern": "^A-W(0[1-9]|[1-2][0-9]|3[0-6])-L[1-3]$" },
+    "idTemplate": { "type": "string", "pattern": "^TPL-W(0[1-9]|[1-2][0-9]|3[0-6])-[A-Z0-9-]{3,40}$" },
+    "idQuestion": { "type": "string", "pattern": "^Q-W(0[1-9]|[1-2][0-9]|3[0-6])-[A-Z0-9-]{3,60}$" },
+
+    "week": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "objectives", "vocabulary", "grammar", "days"],
+      "properties": {
+        "id": { "$ref": "#/$defs/idWeek" },
+        "title": { "type": "string", "minLength": 5, "maxLength": 200 },
+        "objectives": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 3, "maxLength": 250 }
+        },
+        "vocabulary": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1, "maxLength": 50 }
+        },
+        "grammar": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1, "maxLength": 120 }
+        },
+        "days": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 5,
+          "items": { "$ref": "#/$defs/day" }
+        }
+      }
+    },
+
+    "day": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "activities"],
+      "properties": {
+        "id": { "$ref": "#/$defs/idDay" },
+        "title": { "type": "string", "minLength": 3, "maxLength": 200 },
+        "activities": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/activity" }
+        }
+      }
+    },
+
+    "activity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "minutes"],
+      "properties": {
+        "id": { "$ref": "#/$defs/idActivity" },
+        "type": {
+          "type": "string",
+          "enum": [
+            "micro_lesson",
+            "practice_set",
+            "listening_quiz",
+            "roleplay",
+            "checkpoint_set",
+            "email_task",
+            "email_reorder",
+            "error_correction",
+            "weekly_quiz",
+            "timed_email"
+          ]
+        },
+        "minutes": { "type": "integer", "minimum": 1, "maximum": 60 },
+
+        "content": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "summary": { "type": "string", "minLength": 1, "maxLength": 2000 },
+            "script": {
+              "type": "array",
+              "items": { "type": "string", "minLength": 1, "maxLength": 400 }
+            },
+            "variations": {
+              "type": "array",
+              "items": { "type": "string", "minLength": 1, "maxLength": 200 }
+            }
+          }
+        },
+
+        "questionIds": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/idQuestion" }
+        },
+        "assetId": { "$ref": "#/$defs/idAsset" },
+        "templateId": { "$ref": "#/$defs/idTemplate" },
+
+        "timed": { "type": "boolean" },
+        "prompt": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "instruction": { "type": "string", "minLength": 1, "maxLength": 500 },
+            "hasSurname": { "type": "boolean" },
+            "senderName": { "type": "string", "minLength": 1, "maxLength": 80 }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "listening_quiz" } } },
+          "then": { "required": ["assetId", "questionIds"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "practice_set" } } },
+          "then": { "required": ["questionIds"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "weekly_quiz" } } },
+          "then": { "required": ["questionIds"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "email_task" } } },
+          "then": { "required": ["templateId"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "timed_email" } } },
+          "then": { "required": ["templateId", "timed", "prompt"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "roleplay" } } },
+          "then": { "required": ["content"] }
+        }
+      ]
+    },
+
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "title", "script"],
+      "properties": {
+        "id": { "$ref": "#/$defs/idAsset" },
+        "type": { "type": "string", "enum": ["listening_track"] },
+        "title": { "type": "string", "minLength": 3, "maxLength": 200 },
+        "audioUrl": { "type": ["string", "null"], "minLength": 5 },
+        "estimatedDurationSec": { "type": "integer", "minimum": 5, "maximum": 180 },
+        "script": { "type": "string", "minLength": 1, "maxLength": 2000 }
+      }
+    },
+
+    "template": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "title", "subject", "bodyWithSurname", "bodyNoSurname"],
+      "properties": {
+        "id": { "$ref": "#/$defs/idTemplate" },
+        "type": { "type": "string", "enum": ["email_template"] },
+        "title": { "type": "string", "minLength": 3, "maxLength": 200 },
+        "subject": { "type": "string", "minLength": 1, "maxLength": 120 },
+        "bodyWithSurname": { "type": "string", "minLength": 1, "maxLength": 2000 },
+        "bodyNoSurname": { "type": "string", "minLength": 1, "maxLength": 2000 },
+        "constraints": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "minLines": { "type": "integer", "minimum": 1, "maximum": 20 },
+            "maxLines": { "type": "integer", "minimum": 1, "maximum": 30 }
+          }
+        }
+      }
+    },
+
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "prompt"],
+      "properties": {
+        "id": { "$ref": "#/$defs/idQuestion" },
+        "type": {
+          "type": "string",
+          "enum": ["mcq", "true_false", "gap_fill", "short_answer", "ordering", "match_pair", "reorder_lines"]
+        },
+        "prompt": { "type": "string", "minLength": 1, "maxLength": 1200 },
+
+        "options": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "text"],
+            "properties": {
+              "id": { "type": "string", "minLength": 1, "maxLength": 30 },
+              "text": { "type": "string", "minLength": 1, "maxLength": 300 }
+            }
+          }
+        },
+        "correctOptionId": { "type": "string", "minLength": 1, "maxLength": 30 },
+
+        "correctBoolean": { "type": "boolean" },
+
+        "acceptedAnswers": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1, "maxLength": 120 }
+        },
+
+        "sequence": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1, "maxLength": 200 }
+        },
+        "correctSequence": {
+          "type": "array",
+          "items": { "type": "integer", "minimum": 0, "maximum": 50 }
+        },
+
+        "pair": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["left", "right"],
+          "properties": {
+            "left": { "type": "string", "minLength": 1, "maxLength": 120 },
+            "right": { "type": "string", "minLength": 1, "maxLength": 120 }
+          }
+        },
+
+        "feedback": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "correct": { "type": "string", "maxLength": 300 },
+            "incorrect": { "type": "string", "maxLength": 400 }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "mcq" } } },
+          "then": { "required": ["options", "correctOptionId"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "true_false" } } },
+          "then": { "required": ["correctBoolean"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "gap_fill" } } },
+          "then": { "required": ["acceptedAnswers"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "short_answer" } } },
+          "then": { "required": ["acceptedAnswers"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "ordering" } } },
+          "then": { "required": ["sequence", "correctSequence"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "reorder_lines" } } },
+          "then": { "required": ["sequence", "correctSequence"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "match_pair" } } },
+          "then": { "required": ["pair"] }
+        }
+      ]
+    }
+  }
+}

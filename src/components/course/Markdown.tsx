@@ -47,19 +47,23 @@ function useApplyTooltips() {
   return (children: React.ReactNode): React.ReactNode => {
     if (!ctx || !ctx.vocabulary || ctx.vocabulary.length === 0) return children;
 
-    return React.Children.map(children, (child) => {
-      // ONLY process strings to prevent double tooltips in nested elements
-      if (typeof child !== "string") return child;
+    // Sort vocabulary by length (longest first) to handle overlapping terms (e.g., "online banking" before "banking")
+    const sortedVocab = [...ctx.vocabulary].sort((a, b) => b.word.length - a.word.length);
 
-      let parts: (string | React.ReactNode)[] = [child];
+    return React.Children.map(children, (child) => {
+      // ONLY process strings or numbers to prevent double tooltips in nested elements
+      if (typeof child !== "string" && typeof child !== "number") return child;
+
+      let parts: (string | React.ReactNode)[] = [child.toString()];
       const isFirst = ctx.isFirstRef.current;
       
-      // If this string contains matches, mark the document as no longer "at the start"
       let foundAnyMatch = false;
 
-      ctx.vocabulary.forEach((vocab) => {
+      sortedVocab.forEach((vocab) => {
         const newParts: (string | React.ReactNode)[] = [];
-        const regex = new RegExp(`\\b(${vocab.word})\\b`, "gi");
+        // Escape special chars and use word boundaries
+        const escapedWord = vocab.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const regex = new RegExp(`\\b(${escapedWord})\\b`, "gi");
 
         parts.forEach((part) => {
           if (typeof part !== "string") {
@@ -68,23 +72,29 @@ function useApplyTooltips() {
           }
 
           const splitText = part.split(regex);
-          splitText.forEach((t, i) => {
-            if (t.toLowerCase() === vocab.word.toLowerCase()) {
-              foundAnyMatch = true;
-              newParts.push(
-                <VocabularyTooltip 
-                  key={`${vocab.word}-${i}-${Math.random()}`} 
-                  word={vocab.word} 
-                  definition={vocab.definition}
-                  position={isFirst ? 'bottom' : 'top'}
-                >
-                  {t}
-                </VocabularyTooltip>
-              );
-            } else if (t) {
-              newParts.push(t);
-            }
-          });
+          if (splitText.length > 1) {
+            splitText.forEach((t, i) => {
+              // split with capture group (match) results in [prefix, match, suffix, match, suffix...]
+              // but we only want to wrap the parts that EXACTLY match the word
+              if (t.toLowerCase() === vocab.word.toLowerCase()) {
+                foundAnyMatch = true;
+                newParts.push(
+                  <VocabularyTooltip 
+                    key={`${vocab.word}-${i}-${parts.length}`} 
+                    word={vocab.word} 
+                    definition={vocab.definition}
+                    position={isFirst ? 'bottom' : 'top'}
+                  >
+                    {t}
+                  </VocabularyTooltip>
+                );
+              } else if (t) {
+                newParts.push(t);
+              }
+            });
+          } else {
+            newParts.push(part);
+          }
         });
         parts = newParts;
       });
@@ -243,39 +253,47 @@ export default function Markdown({ content, vocabulary }: { content: string, voc
 
   return (
     <VocabularyContext.Provider value={contextValue}>
-      <div
-        className={[
-          "prose max-w-none",
-          "prose-slate dark:prose-invert",
-          "text-slate-800 dark:text-slate-200",
-          "prose-headings:text-slate-900 dark:prose-headings:text-white prose-headings:font-black prose-headings:tracking-tight",
-          "prose-p:text-slate-700 dark:prose-p:text-slate-300 prose-p:leading-relaxed",
-          "prose-li:text-slate-700 dark:prose-li:text-slate-300",
-          "prose-strong:text-slate-900 dark:prose-strong:text-white prose-strong:font-bold",
-          "prose-h2:mt-6 prose-h2:mb-3",
-          "prose-h3:mt-5 prose-h3:mb-2",
-          "prose-hr:my-6 prose-hr:border-slate-200 dark:prose-hr:border-slate-800",
-          "prose-ul:pl-5 prose-li:my-1",
-          "prose-pre:bg-slate-900 prose-pre:text-slate-50 prose-pre:rounded-2xl",
-          "prose-code:text-coral-700 dark:prose-code:text-coral-400",
-          "prose-a:text-coral-700 dark:prose-a:text-coral-400 prose-a:font-bold",
-        ].join(" ")}
-      >
-        <ReactMarkdown
-          remarkPlugins={[remarkGfm]}
-          components={<MarkdownComponents />}
-        >
-          {normalized}
-        </ReactMarkdown>
-      </div>
+      <MarkdownBody content={normalized} />
     </VocabularyContext.Provider>
   );
 }
 
-function MarkdownComponents() {
+function MarkdownBody({ content }: { content: string }) {
+  const components = useMarkdownComponents();
+
+  return (
+    <div
+      className={[
+        "prose max-w-none",
+        "prose-slate dark:prose-invert",
+        "text-slate-800 dark:text-slate-200",
+        "prose-headings:text-slate-900 dark:prose-headings:text-white prose-headings:font-black prose-headings:tracking-tight",
+        "prose-p:text-slate-700 dark:prose-p:text-slate-300 prose-p:leading-relaxed",
+        "prose-li:text-slate-700 dark:prose-li:text-slate-300",
+        "prose-strong:text-slate-900 dark:prose-strong:text-white prose-strong:font-bold",
+        "prose-h2:mt-6 prose-h2:mb-3",
+        "prose-h3:mt-5 prose-h3:mb-2",
+        "prose-hr:my-6 prose-hr:border-slate-200 dark:prose-hr:border-slate-800",
+        "prose-ul:pl-5 prose-li:my-1",
+        "prose-pre:bg-slate-900 prose-pre:text-slate-50 prose-pre:rounded-2xl",
+        "prose-code:text-coral-700 dark:prose-code:text-coral-400",
+        "prose-a:text-coral-700 dark:prose-a:text-coral-400 prose-a:font-bold",
+      ].join(" ")}
+    >
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        components={components}
+      >
+        {content}
+      </ReactMarkdown>
+    </div>
+  );
+}
+
+function useMarkdownComponents() {
   const applyTooltips = useApplyTooltips();
 
-  return {
+  return useMemo(() => ({
     // Override text-heavy components to apply tooltips
     p({ children }: any) {
       return <p>{applyTooltips(children)}</p>;
@@ -364,5 +382,5 @@ function MarkdownComponents() {
         </h3>
       );
     },
-  };
+  }), [applyTooltips]);
 }
