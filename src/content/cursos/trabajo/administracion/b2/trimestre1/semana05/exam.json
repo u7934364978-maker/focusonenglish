@@ -1,144 +1,103 @@
 {
-  "goal": "administracion",
-  "level": "B2",
-  "trimester": 1,
-  "weekId": "semana05",
-  "title": "Exam: Investment and Asset Management",
-  "description": "15 questions evaluating knowledge of asset classes, strategies, and Future Forms grammar.",
-  "items": [
+  "title": "Week 5 Assessment: Leadership and Team Support",
+  "questions": [
     {
-      "id": "finance-b2-w5-exam-q1",
-      "type": "multiple_choice",
-      "question": "Which asset class is typically considered 'Fixed Income'?",
-      "options": ["Stocks", "Bonds", "Real Estate", "Commodities"],
-      "answer": "Bonds",
-      "explanation": "Bonds are debt instruments that provide fixed interest payments."
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which term describes taking ownership of a process and its results?",
+      "options": ["Delegation", "Accountability", "Mentorship", "Alignment"],
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w5-exam-q2",
-      "type": "fill_in_the_blank",
-      "question": "By the end of this quarter, we ________ (rebalance) the entire portfolio.",
-      "answer": "will have rebalanced",
-      "explanation": "Future Perfect for completion by a certain time."
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What is the correct causative form: 'I ________ the reports checked by the auditor.'",
+      "options": ["had", "got", "having", "was"],
+      "correctAnswer": 0
     },
     {
-      "id": "finance-b2-w5-exam-q3",
-      "type": "multiple_choice",
-      "question": "What is 'Volatility'?",
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "What does it mean to 'manage up'?",
       "options": [
-        "The ability to pay debts",
-        "The degree of variation in an asset's price",
-        "The total amount of cash held",
-        "The process of listing on the stock exchange"
+        "To supervise junior employees.",
+        "To work effectively with your superior to achieve goals.",
+        "To apply for a promotion.",
+        "To talk to the CEO every day."
       ],
-      "answer": "The degree of variation in an asset's price",
-      "explanation": "Volatility measures the risk or price fluctuations of an asset."
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w5-exam-q4",
-      "type": "multiple_choice",
-      "question": "Diversification is primarily used to:",
-      "options": ["Increase risk", "Reduce risk", "Avoid taxes", "Increase fees"],
-      "answer": "Reduce risk",
-      "explanation": "Spreading investments reduces the impact of a single asset's failure."
-    },
-    {
-      "id": "finance-b2-w5-exam-q5",
-      "type": "fill_in_the_blank",
-      "question": "Look at the market indicators; a crash ________ (happen) soon.",
-      "answer": "is going to happen",
-      "explanation": "'Going to' for predictions based on present evidence."
-    },
-    {
-      "id": "finance-b2-w5-exam-q6",
-      "type": "multiple_choice",
-      "question": "What is a 'Benchmark' in asset management?",
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "When you 'delegate' a task, you are:",
       "options": [
-        "A physical desk in the exchange",
-        "A standard (like an index) used to measure performance",
-        "A type of debt",
-        "A bank's logo"
+        "Doing it yourself.",
+        "Assigning it to someone else.",
+        "Deleting it from the to-do list.",
+        "Postponing it indefinitely."
       ],
-      "answer": "A standard (like an index) used to measure performance",
-      "explanation": "Benchmarks provide a comparison point for performance."
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w5-exam-q7",
-      "type": "multiple_choice",
-      "question": "Equity investments represent:",
-      "options": ["Debt", "Ownership shares", "Loans", "Guaranteed interest"],
-      "answer": "Ownership shares",
-      "explanation": "Equity is ownership in a corporation."
+      "id": "q5",
+      "type": "fill-in-the-blank",
+      "question": "I'll get the receptionist ________ (call) you when the visitor arrives.",
+      "answer": "to call"
     },
     {
-      "id": "finance-b2-w5-exam-q8",
-      "type": "fill_in_the_blank",
-      "question": "This time next year, we ________ (manage) $500 million in client assets.",
-      "answer": "will be managing",
-      "explanation": "Future Continuous for an action in progress in the future."
-    },
-    {
-      "id": "finance-b2-w5-exam-q9",
-      "type": "multiple_choice",
-      "question": "ROI stands for:",
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "To 'touch base' with someone means to:",
       "options": [
-        "Rate of Interest",
-        "Return on Investment",
-        "Ratio of Income",
-        "Risk of Inflation"
+        "Play a game with them.",
+        "Briefly contact them to update them.",
+        "Send them a long, detailed report.",
+        "Argue with them about a project."
       ],
-      "answer": "Return on Investment",
-      "explanation": "ROI measures the gain or loss of an investment."
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w5-exam-q10",
-      "type": "fill_in_the_blank",
-      "question": "I think interest rates ________ (go) down next month.",
-      "answer": "will go",
-      "explanation": "'Will' for predictions based on opinion."
-    },
-    {
-      "id": "finance-b2-w5-exam-q11",
-      "type": "multiple_choice",
-      "question": "Active management aims to:",
-      "options": ["Match an index exactly", "Outperform a benchmark", "Avoid all risk", "Keep cash only"],
-      "answer": "Outperform a benchmark",
-      "explanation": "Active managers try to 'beat the market'."
-    },
-    {
-      "id": "finance-b2-w5-exam-q12",
-      "type": "multiple_choice",
-      "question": "What is 'Liquidity'?",
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which of these is an example of 'anticipating needs'?",
       "options": [
-        "The total debt of a company",
-        "How easily an asset can be converted to cash",
-        "The amount of water in a bank",
-        "A type of dividend"
+        "Waiting for your boss to ask for a coffee.",
+        "Preparing the meeting room before the attendees arrive.",
+        "Asking what the deadline is after it has passed.",
+        "Ignoring a ringing phone."
       ],
-      "answer": "How easily an asset can be converted to cash",
-      "explanation": "Liquidity is the ease of selling an asset without a price penalty."
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w5-exam-q13",
-      "type": "fill_in_the_blank",
-      "question": "We ________ (have) an emergency meeting tomorrow morning.",
-      "answer": "are going to have",
-      "explanation": "'Going to' or Present Continuous for planned events."
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which causative structure uses 'to' before the verb?",
+      "options": [
+        "Have someone do something",
+        "Get someone to do something",
+        "Have something done",
+        "None of the above"
+      ],
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w5-exam-q14",
-      "type": "multiple_choice",
-      "question": "Derivatives derive their value from:",
-      "options": ["A government", "An underlying asset", "A bank", "An algorithm"],
-      "answer": "An underlying asset",
-      "explanation": "Derivatives are linked to assets like stocks, bonds, or commodities."
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "To 'follow through' on a task means to:",
+      "options": [
+        "Start it and then stop.",
+        "Complete it fully.",
+        "Give it to someone else to finish.",
+        "Pretend you did it."
+      ],
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w5-exam-q15",
-      "type": "fill_in_the_blank",
-      "question": "By 2030, the company ________ (expand) into five new markets.",
-      "answer": "will have expanded",
-      "explanation": "Future Perfect for completion."
+      "id": "q10",
+      "type": "fill-in-the-blank",
+      "question": "The manager had the team ________ (review) the new policy. (No 'to')",
+      "answer": "review"
     }
   ]
 }

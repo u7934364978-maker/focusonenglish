@@ -1,695 +1,74 @@
 {
-  "goal": "administracion",
-  "level": "B2",
-  "trimester": 1,
-  "weekId": "semana03",
-  "title": "Taxation & International Finance",
-  "description": "Exploration of corporate tax, foreign exchange risk, auditing standards, and advanced conditionals (50 items).",
-  "items": [
+  "exercises": [
     {
-      "id": "finance-b2-w3-q1",
-      "type": "multipleChoice",
-      "prompt": "What is 'Tax Avoidance'?",
+      "id": "quiz-01",
+      "type": "multiple-choice",
+      "question": "What does the 'Data Minimisation' principle mean under GDPR?",
       "options": [
-        "The illegal act of not paying taxes",
-        "The legal minimization of tax liability by using the tax regime to one's advantage",
-        "A type of investment in the stock market",
-        "The process of filing taxes late"
+        "Keeping data for a minimum of 10 years.",
+        "Collecting only the data that is absolutely necessary for the specific purpose.",
+        "Making the font size smaller on privacy documents.",
+        "Using as few servers as possible to store data."
       ],
-      "answerIndex": 1,
-      "explanation": "Tax avoidance is legal; tax evasion is illegal."
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w3-q2",
-      "type": "multipleChoice",
-      "prompt": "What does 'VAT' stand for?",
-      "options": ["Value Added Tax", "Variable Asset Total", "Volume Account Transfer", "Valuation and Taxation"],
-      "answerIndex": 0,
-      "explanation": "VAT is a consumption tax placed on a product whenever value is added at a stage of production."
-    },
-    {
-      "id": "finance-b2-w3-q3",
-      "type": "multipleChoice",
-      "prompt": "Which exchange rate is quoted for a transaction occurring immediately?",
-      "options": ["Forward Rate", "Spot Rate", "Fixed Rate", "Floating Rate"],
-      "answerIndex": 1,
-      "explanation": "The spot rate is the current market price for exchanging one currency for another."
-    },
-    {
-      "id": "finance-b2-w3-q4",
-      "type": "multipleChoice",
-      "prompt": "Complete with the correct conditional: 'If the central bank ___ (cut) rates tomorrow, the currency ___ (weaken).'",
-      "options": ["cuts / will weaken", "cut / weakened", "had cut / would have weakened", "cuts / weakened"],
-      "answerIndex": 0,
-      "explanation": "First conditional for a real possibility in the future."
-    },
-    {
-      "id": "finance-b2-w3-q5",
-      "type": "multipleChoice",
-      "prompt": "What is 'Transfer Pricing'?",
+      "id": "quiz-02",
+      "type": "multiple-choice",
+      "question": "If you discover a serious data breach, within how many hours must it be reported to the regulator?",
       "options": [
-        "The price of transferring money between banks",
-        "The price at which divisions of a multi-national company transact with each other",
-        "The cost of moving an office to another country",
-        "A discount given to loyal customers"
+        "24 hours",
+        "48 hours",
+        "72 hours",
+        "1 week"
       ],
-      "answerIndex": 1,
-      "explanation": "Transfer pricing is often used in tax planning but is strictly regulated."
+      "correctAnswer": 2
     },
     {
-      "id": "finance-b2-w3-q6",
-      "type": "multipleChoice",
-      "prompt": "What does 'ISA' stand for in the context of auditing?",
+      "id": "passive-01",
+      "type": "transformation",
+      "question": "People think the breach happened because of a weak password. (Start with 'It...')",
+      "answer": "It is thought that the breach happened because of a weak password."
+    },
+    {
+      "id": "passive-02",
+      "type": "transformation",
+      "question": "Experts believe the new encryption is unbreakable. (The new encryption...)",
+      "answer": "The new encryption is believed to be unbreakable."
+    },
+    {
+      "id": "vocabulary-01",
+      "type": "multiple-choice",
+      "question": "What is the process of blacking out sensitive information in a document called?",
       "options": [
-        "Individual Savings Account",
-        "International Standards on Auditing",
-        "Internal System Analysis",
-        "International Shareholders Association"
+        "Encryption",
+        "Redaction",
+        "Anonymisation",
+        "Compliance"
       ],
-      "answerIndex": 1,
-      "explanation": "ISAs are issued by the IAASB to provide global consistency in auditing."
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w3-q7",
-      "type": "multipleChoice",
-      "prompt": "What is 'Professional Skepticism'?",
-      "options": [
-        "Disbelieving everything the client says",
-        "An attitude that includes a questioning mind and critical assessment of audit evidence",
-        "Refusing to perform the audit",
-        "Assuming the client is always lying"
-      ],
-      "answerIndex": 1,
-      "explanation": "Skepticism is a core requirement for auditors to remain objective."
+      "id": "writing-01",
+      "type": "writing-task",
+      "title": "Breach Notification Email (Internal)",
+      "description": "You discovered that a spreadsheet containing customer email addresses was accidentally shared with an external vendor. Write a notification email to your Data Protection Officer (DPO). Use a neutral tone and at least one complex passive structure.",
+      "sampleAnswer": "Subject: Notification of potential data breach - [Date]\n\nDear DPO,\n\nI am writing to report a security incident involving the accidental disclosure of customer data. \n\nEarlier today, it was discovered that a spreadsheet containing approximately 200 customer email addresses was sent to an external vendor as part of a routine request. It is believed that this occurred due to an error in the file attachment process. \n\nWe have already contacted the vendor to request the immediate deletion of the file, and they have confirmed receipt of this request. At this stage, it is thought that the risk to the individuals affected is low, as no financial data or passwords were included. \n\nI am available to provide further details as you assess whether formal notification to the regulator is required.\n\nBest regards,\n\n[Your Name]"
     },
     {
-      "id": "finance-b2-w3-q8",
-      "type": "multipleChoice",
-      "prompt": "Which conditional is used for hypothetical past situations? 'If they ___ (perform) better due diligence, they ___ (not buy) the company.'",
-      "options": [
-        "performed / wouldn't buy",
-        "had performed / wouldn't have bought",
-        "perform / won't buy",
-        "had performed / wouldn't buy"
-      ],
-      "answerIndex": 1,
-      "explanation": "Third conditional (if + past perfect, would have + past participle)."
-    },
-    {
-      "id": "finance-b2-w3-q9",
-      "type": "multipleChoice",
-      "prompt": "What is 'Withholding Tax'?",
-      "options": [
-        "Tax that the company refuses to pay",
-        "Tax deducted at source from income paid to non-residents",
-        "A tax on the company's property",
-        "A fine for late filing"
-      ],
-      "answerIndex": 1,
-      "explanation": "Withholding tax ensures the government collects tax from foreign entities/individuals."
-    },
-    {
-      "id": "finance-b2-w3-q10",
-      "type": "multipleChoice",
-      "prompt": "In Forex, what is a 'Forward Contract'?",
-      "options": [
-        "A contract to buy currency at the spot rate",
-        "A customized contract to exchange currency at a specified rate on a future date",
-        "A loan in a foreign currency",
-        "A tax on international trades"
-      ],
-      "answerIndex": 1,
-      "explanation": "Forwards are used to hedge against currency risk."
-    },
-    {
-      "id": "finance-b2-w3-q11",
-      "type": "multipleChoice",
-      "prompt": "What is 'Tax Evasion'?",
-      "options": [
-        "Illegal non-payment or underpayment of taxes",
-        "Legal tax planning",
-        "Paying taxes in a different country",
-        "A type of government grant"
-      ],
-      "answerIndex": 0,
-      "explanation": "Tax evasion involves hiding income or misrepresenting facts to avoid tax."
-    },
-    {
-      "id": "finance-b2-w3-q12",
-      "type": "multipleChoice",
-      "prompt": "Complete with the correct conditional: 'If I ___ (be) you, I ___ (diversify) the portfolio immediately.'",
-      "options": ["am / will diversify", "was / diversified", "were / would diversify", "had been / would diversify"],
-      "answerIndex": 2,
-      "explanation": "Second conditional for advice or hypothetical present (If I were you...)."
-    },
-    {
-      "id": "finance-b2-w3-q13",
-      "type": "multipleChoice",
-      "prompt": "What is 'Deferred Tax'?",
-      "options": [
-        "A tax that is cancelled by the government",
-        "An accounting entry for taxes that will be paid or recovered in the future",
-        "A tax on retired people",
-        "The tax paid on luxury goods"
-      ],
-      "answerIndex": 1,
-      "explanation": "Deferred tax arises from timing differences between accounting and tax rules."
-    },
-    {
-      "id": "finance-b2-w3-q14",
-      "type": "multipleChoice",
-      "prompt": "Which of these is a 'Consumption Tax'?",
-      "options": ["Corporate Income Tax", "VAT", "Capital Gains Tax", "Inheritance Tax"],
-      "answerIndex": 1,
-      "explanation": "VAT is paid by the end consumer based on their spending."
-    },
-    {
-      "id": "finance-b2-w3-q15",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Tax Haven'?",
-      "options": [
-        "A country with very high taxes",
-        "A country or territory with low or no taxes for foreign investors",
-        "A safe place to store gold",
-        "A government department that helps people pay taxes"
-      ],
-      "answerIndex": 1,
-      "explanation": "Tax havens are often used for tax avoidance (and sometimes evasion)."
-    },
-    {
-      "id": "finance-b2-w3-q16",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'If the company ___ (not fail) its audit last year, it ___ (be) listed on the stock exchange now.'",
-      "options": [
-        "didn't fail / would be",
-        "hadn't failed / would have been",
-        "hadn't failed / would be",
-        "doesn't fail / will be"
-      ],
-      "answerIndex": 2,
-      "explanation": "Mixed conditional (past condition, present result)."
-    },
-    {
-      "id": "finance-b2-w3-q17",
-      "type": "multipleChoice",
-      "prompt": "What is 'Currency Risk'?",
-      "options": [
-        "The risk that a currency will be stolen",
-        "The risk that exchange rate fluctuations will negatively impact a business",
-        "The risk that a country will stop using its currency",
-        "The risk of counterfeit money"
-      ],
-      "answerIndex": 1,
-      "explanation": "Also known as exchange-rate risk."
-    },
-    {
-      "id": "finance-b2-w3-q18",
-      "type": "multipleChoice",
-      "prompt": "What is an 'Internal Audit'?",
-      "options": [
-        "An audit performed by the tax office",
-        "An independent appraisal activity within an organization to evaluate risk and controls",
-        "A check of employees' personal bank accounts",
-        "A marketing review"
-      ],
-      "answerIndex": 1,
-      "explanation": "Internal auditors work for the organization but should remain objective."
-    },
-    {
-      "id": "finance-b2-w3-q19",
-      "type": "multipleChoice",
-      "prompt": "Translate: 'Paraíso fiscal'",
-      "options": ["Fiscal paradise", "Tax haven", "Money heaven", "Tax safety"],
-      "answerIndex": 1,
-      "explanation": "'Tax haven' is the idiomatic English term."
-    },
-    {
-      "id": "finance-b2-w3-q20",
-      "type": "multipleChoice",
-      "prompt": "Complete the zero conditional: 'If you ___ (pay) your taxes late, you ___ (receive) a fine.'",
-      "options": ["pay / receive", "paid / would receive", "had paid / would have received", "pay / would receive"],
-      "answerIndex": 0,
-      "explanation": "Zero conditional for general facts/consequences."
-    },
-    {
-      "id": "finance-b2-w3-q21",
-      "type": "multipleChoice",
-      "prompt": "What is 'Double Taxation'?",
-      "options": [
-        "Paying twice the amount of tax",
-        "The levying of tax by two or more jurisdictions on the same income",
-        "A tax for two people",
-        "Hiding money in two different banks"
-      ],
-      "answerIndex": 1,
-      "explanation": "Countries often sign 'Double Taxation Treaties' to prevent this."
-    },
-    {
-      "id": "finance-b2-w3-q22",
-      "type": "multipleChoice",
-      "prompt": "What is 'Consolidated Taxation'?",
-      "options": [
-        "Taxing a whole group of companies as a single entity",
-        "Combining all taxes into one payment",
-        "Reducing taxes for small businesses",
-        "Taxing the CEO's personal wealth"
-      ],
-      "answerIndex": 0,
-      "explanation": "This allows groups to offset losses in one subsidiary against profits in another."
-    },
-    {
-      "id": "finance-b2-w3-q23",
-      "type": "multipleChoice",
-      "prompt": "What does a 'Foreign Exchange Broker' do?",
-      "options": [
-        "Regulates the market",
-        "Facilitates the trading of currencies between buyers and sellers",
-        "Prints money for the government",
-        "Audits international banks"
-      ],
-      "answerIndex": 1,
-      "explanation": "Brokers provide access to the Forex market for smaller investors and companies."
-    },
-    {
-      "id": "finance-b2-w3-q24",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'If we ___ (hedge) our exposure last quarter, we ___ (not lose) $2 million on the Euro.'",
-      "options": [
-        "hedged / wouldn't lose",
-        "had hedged / wouldn't have lost",
-        "had hedged / wouldn't lose",
-        "hedge / won't lose"
-      ],
-      "answerIndex": 1,
-      "explanation": "Third conditional for a past hypothetical situation."
-    },
-    {
-      "id": "finance-b2-w3-q25",
-      "type": "multipleChoice",
-      "prompt": "What is 'Tax Liability'?",
-      "options": [
-        "The total amount of tax debt owed by an individual or entity",
-        "Being responsible for someone else's taxes",
-        "The process of avoiding taxes",
-        "A tax refund"
-      ],
-      "answerIndex": 0,
-      "explanation": "Tax liability is what you must pay to the tax authority."
-    },
-    {
-      "id": "finance-b2-w3-reading1",
-      "type": "readingComprehension",
-      "prompt": "TAX ADVISORY NOTE: 'Multinational corporations often use transfer pricing to shift profits to low-tax jurisdictions. While this practice is technically legal under certain conditions, tax authorities globally are increasing scrutiny under the BEPS (Base Erosion and Profit Shifting) framework. If a company fails to justify its pricing with proper documentation, it may face significant penalties.' \n\nAccording to the text, what is the current trend regarding transfer pricing?",
-      "options": [
-        "It is becoming easier to shift profits",
-        "Tax authorities are ignoring the practice",
-        "Governments are increasing checks and penalties (BEPS)",
-        "Transfer pricing has been made illegal everywhere"
-      ],
-      "answerIndex": 2,
-      "explanation": "The text mentions 'increasing scrutiny' and 'significant penalties'."
-    },
-    {
-      "id": "finance-b2-w3-reading2",
-      "type": "readingComprehension",
-      "prompt": "FOREX ANALYSIS: 'The USD/EUR spot rate is currently 0.92. However, the 6-month forward rate is 0.94, suggesting that the market expects the Euro to weaken against the Dollar. If the US Federal Reserve increases interest rates further, we could see the spot rate move closer to parity.' \n\nWhat is the market's expectation for the Euro?",
-      "options": [
-        "It will get stronger",
-        "It will get weaker (based on the forward rate)",
-        "It will stay exactly the same",
-        "The Dollar will lose value"
-      ],
-      "answerIndex": 1,
-      "explanation": "The forward rate is higher than the spot rate, indicating expectations of weakness (or higher US rates)."
-    },
-    {
-      "id": "finance-b2-w3-reading3",
-      "type": "readingComprehension",
-      "prompt": "AUDIT MEMO: 'Applying professional skepticism is non-negotiable. During the recent audit of Global-Tech, the team identified discrepancies in inventory valuation. If the management had not provided the original purchase orders, we would have been forced to issue a qualified opinion.' \n\nWhat prevented a 'qualified opinion' in this case?",
-      "options": [
-        "The auditors being friends with the management",
-        "The provision of original purchase orders by management",
-        "The company paying a high fee",
-        "The inventory being sold quickly"
-      ],
-      "answerIndex": 1,
-      "explanation": "The text states the audit team would have issued a qualified opinion *if* the documentation hadn't been provided."
-    },
-    {
-      "id": "finance-b2-w3-q26",
-      "type": "multipleChoice",
-      "prompt": "Translate: 'Tasa de cambio'",
-      "options": ["Exchange rate", "Change tax", "Money speed", "Market price"],
-      "answerIndex": 0,
-      "explanation": "'Exchange rate' is the value of one currency for the purpose of conversion to another."
-    },
-    {
-      "id": "finance-b2-w3-q27",
-      "type": "multipleChoice",
-      "prompt": "What is 'Fiscal Policy'?",
-      "options": [
-        "The bank's rules for lending",
-        "Government spending and taxation used to influence the economy",
-        "The policy for office expenses",
-        "A type of business insurance"
-      ],
-      "answerIndex": 1,
-      "explanation": "Fiscal policy is determined by the government, whereas monetary policy is determined by the central bank."
-    },
-    {
-      "id": "finance-b2-w3-q28",
-      "type": "multipleChoice",
-      "prompt": "What is 'Customs Duty'?",
-      "options": [
-        "A tax on goods imported or exported",
-        "The duty of a customer to pay",
-        "A tax on personal income",
-        "The cost of shipping goods"
-      ],
-      "answerIndex": 0,
-      "explanation": "Customs duties are a form of international trade barrier/tax."
-    },
-    {
-      "id": "finance-b2-w3-q29",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'If we ___ (know) about the new tax law earlier, we ___ (restructure) the deal.'",
-      "options": [
-        "knew / would restructure",
-        "had known / would have restructured",
-        "know / will restructure",
-        "had known / would restructure"
-      ],
-      "answerIndex": 1,
-      "explanation": "Third conditional for past hypothetical."
-    },
-    {
-      "id": "finance-b2-w3-q30",
-      "type": "multipleChoice",
-      "prompt": "What is 'Audit Risk'?",
-      "options": [
-        "The risk that an auditor will lose their job",
-        "The risk that an auditor expresses an inappropriate opinion on financial statements",
-        "The risk of a company being audited twice",
-        "The cost of the audit"
-      ],
-      "answerIndex": 1,
-      "explanation": "Audit risk is the possibility that the auditor misses a material misstatement."
-    },
-    {
-      "id": "finance-b2-w3-q31",
-      "type": "multipleChoice",
-      "prompt": "What is 'Base Erosion'?",
-      "options": [
-        "The physical erosion of a building's foundation",
-        "The reduction of a country's tax base through tax avoidance strategies",
-        "A decrease in the stock market index",
-        "The bankruptcy of a central bank"
-      ],
-      "answerIndex": 1,
-      "explanation": "Base erosion is part of the BEPS framework addressed by the OECD."
-    },
-    {
-      "id": "finance-b2-w3-q32",
-      "type": "multipleChoice",
-      "prompt": "Translate: 'Evasión de impuestos'",
-      "options": ["Tax avoidance", "Tax evasion", "Tax escape", "Tax running"],
-      "answerIndex": 1,
-      "explanation": "Evasion is the illegal act."
-    },
-    {
-      "id": "finance-b2-w3-q33",
-      "type": "multipleChoice",
-      "prompt": "Which conditional expresses a permanent truth? 'If you ___ (invest) in a tax haven, you ___ (pay) less tax.'",
-      "options": ["invest / pay", "invested / would pay", "had invested / would have paid", "invest / would pay"],
-      "answerIndex": 0,
-      "explanation": "Zero conditional for a general fact."
-    },
-    {
-      "id": "finance-b2-w3-q34",
-      "type": "multipleChoice",
-      "prompt": "What is 'Hedging'?",
-      "options": [
-        "Planting bushes around the bank",
-        "Making an investment to reduce the risk of adverse price movements in an asset",
-        "Increasing risk to maximize profit",
-        "Borrowing money from a hedge fund"
-      ],
-      "answerIndex": 1,
-      "explanation": "Hedging is like an insurance policy for investments."
-    },
-    {
-      "id": "finance-b2-w3-q35",
-      "type": "multipleChoice",
-      "prompt": "What is 'Capital Gains Tax'?",
-      "options": [
-        "Tax on the profit from the sale of an asset (like stocks or property)",
-        "Tax on the salary of a CEO",
-        "Tax on the company's annual revenue",
-        "A tax on every trade made"
-      ],
-      "answerIndex": 0,
-      "explanation": "It only applies when the asset is sold (realized gain)."
-    },
-    {
-      "id": "finance-b2-w3-q36",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'If the Euro ___ (appreciate) by 5%, our export prices ___ (become) less competitive.'",
-      "options": ["appreciates / will become", "appreciated / became", "had appreciated / would have become", "appreciates / became"],
-      "answerIndex": 0,
-      "explanation": "First conditional for a real future possibility."
-    },
-    {
-      "id": "finance-b2-w3-q37",
-      "type": "multipleChoice",
-      "prompt": "What is 'Sovereign Debt'?",
-      "options": [
-        "Debt owed by a private company",
-        "Debt issued by a national government",
-        "The debt of a king",
-        "Unpaid taxes"
-      ],
-      "answerIndex": 1,
-      "explanation": "Sovereign debt is usually in the form of government bonds."
-    },
-    {
-      "id": "finance-b2-w3-q38",
-      "type": "multipleChoice",
-      "prompt": "What is 'Liquidity Risk'?",
-      "options": [
-        "The risk of a flood",
-        "The risk of not being able to meet short-term financial obligations",
-        "The risk that a currency will melt",
-        "The risk of having too much cash"
-      ],
-      "answerIndex": 1,
-      "explanation": "A company can be profitable but still fail due to liquidity risk."
-    },
-    {
-      "id": "finance-b2-w3-q39",
-      "type": "multipleChoice",
-      "prompt": "Translate: 'Auditoría externa'",
-      "options": ["Internal audit", "External audit", "Public check", "Independent review"],
-      "answerIndex": 1,
-      "explanation": "'External audit' is performed by outside firms."
-    },
-    {
-      "id": "finance-b2-w3-q40",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'If we ___ (not have) such a high tax rate, more companies ___ (invest) here.'",
-      "options": ["don't have / will invest", "didn't have / would invest", "hadn't had / would have invested", "didn't have / invested"],
-      "answerIndex": 1,
-      "explanation": "Second conditional for an unreal present/future situation."
-    },
-    {
-      "id": "finance-b2-w3-q41",
-      "type": "multipleChoice",
-      "prompt": "What is 'Audit Evidence'?",
-      "options": [
-        "Information used by the auditor in arriving at the conclusions on which the auditor's opinion is based",
-        "The final audit report",
-        "The contract between the bank and the client",
-        "Proof that the auditor was paid"
-      ],
-      "answerIndex": 0,
-      "explanation": "Evidence must be sufficient and appropriate."
-    },
-    {
-      "id": "finance-b2-w3-q42",
-      "type": "multipleChoice",
-      "prompt": "What is 'Fictitious Revenue'?",
-      "options": [
-        "Revenue that is very small",
-        "The illegal recording of sales that did not occur",
-        "Revenue from a new product",
-        "Estimated revenue for next year"
-      ],
-      "answerIndex": 1,
-      "explanation": "Recording fictitious revenue is a common form of financial statement fraud."
-    },
-    {
-      "id": "finance-b2-w3-q43",
-      "type": "multipleChoice",
-      "prompt": "What does 'YTD' stand for?",
-      "options": ["Year To Date", "Yesterday's Total Debt", "Yield To Dividend", "Yearly Tax Deduction"],
-      "answerIndex": 0,
-      "explanation": "YTD measures performance from the beginning of the current year until the present date."
-    },
-    {
-      "id": "finance-b2-w3-q44",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'If the auditor ___ (find) the error earlier, the report ___ (be) correct.'",
-      "options": [
-        "found / would be",
-        "had found / would have been",
-        "had found / would be",
-        "finds / will be"
-      ],
-      "answerIndex": 1,
-      "explanation": "Third conditional (past/past)."
-    },
-    {
-      "id": "finance-b2-w3-q45",
-      "type": "multipleChoice",
-      "prompt": "What is 'Inherent Risk'?",
-      "options": [
-        "The risk that occurs because of poor auditing",
-        "The susceptibility of an assertion to a material misstatement, assuming there are no related controls",
-        "The risk of a computer virus",
-        "The risk that a business will lose customers"
-      ],
-      "answerIndex": 1,
-      "explanation": "Inherent risk exists regardless of internal controls."
-    },
-    {
-      "id": "finance-b2-w3-q46",
-      "type": "multipleChoice",
-      "prompt": "What is 'Tax Credit'?",
-      "options": [
-        "A loan to pay taxes",
-        "An amount of money that can be offset against a tax liability",
-        "A good reputation with the tax office",
-        "A card for paying taxes"
-      ],
-      "answerIndex": 1,
-      "explanation": "A tax credit is more valuable than a tax deduction because it reduces the tax bill directly."
-    },
-    {
-      "id": "finance-b2-w3-q47",
-      "type": "multipleChoice",
-      "prompt": "Translate: 'Declaración de la renta'",
-      "options": ["Rent declaration", "Tax return", "Profit statement", "Income paper"],
-      "answerIndex": 1,
-      "explanation": "'Tax return' is the form used to report income and calculate taxes."
-    },
-    {
-      "id": "finance-b2-w3-q48",
-      "type": "multipleChoice",
-      "prompt": "What is 'Control Risk'?",
-      "options": [
-        "The risk that a company's internal controls will not prevent or detect a material misstatement",
-        "The risk that the CEO will lose control",
-        "The risk of a hostile takeover",
-        "The risk of high interest rates"
-      ],
-      "answerIndex": 0,
-      "explanation": "Auditors assess control risk to determine how much testing they need to do."
-    },
-    {
-      "id": "finance-b2-w3-q49",
-      "type": "multipleChoice",
-      "prompt": "Complete the first conditional: 'Unless we ___ (reduce) our tax exposure, our net profit ___ (suffer).'",
-      "options": ["reduce / will suffer", "don't reduce / will suffer", "reduced / would suffer", "had reduced / would have suffered"],
-      "answerIndex": 0,
-      "explanation": "'Unless' means 'if not', so 'unless we reduce' = 'if we don't reduce'."
-    },
-    {
-      "id": "finance-b2-w3-q50",
-      "type": "multipleChoice",
-      "prompt": "What is 'Substantive Testing'?",
-      "options": [
-        "Testing the substance of the company's products",
-        "Audit procedures designed to detect material misstatements at the assertion level",
-        "Asking employees about their health",
-        "Testing the bank's security system"
-      ],
-      "answerIndex": 1,
-      "explanation": "Substantive testing involves checking the actual numbers in the accounts."
-    },
-    {
-      "id": "finance-b2-w3-reading-authentic",
-      "type": "reading-comprehension",
-      "title": "Apple, Ireland, and the $14 Billion Tax Battle",
-      "instructions": "Read the following case study summary and answer the questions.",
-      "text": "For years, the intersection of corporate tax strategy and international law was highlighted by the legal battle between Apple, Ireland, and the European Commission. At the heart of the dispute was 'State Aid'—a European rule that prevents governments from giving unfair advantages to specific companies. The Commission argued that Ireland had allowed Apple to pay significantly less tax than other businesses, effectively creating an illegal subsidy.\n\nApple's Irish structure involved two subsidiaries that were not tax-resident in any country, a strategy known as the 'Double Irish.' While Apple claimed it followed all laws and paid every cent of tax owed, the EU ordered Ireland to collect €13 billion ($14.5 billion) in back taxes. Ireland, surprisingly, fought against receiving the money, fearing that changing its tax-friendly reputation would drive away other multinational giants.\n\nIn a landmark 2020 ruling, the General Court of the EU initially annulled the Commission's decision, stating that the EU failed to prove Apple had received a special advantage. However, the battle continued in the higher European Court of Justice. This case underscores the fine line between aggressive tax avoidance—which is legal—and illegal state aid. It also prompted a global push for a minimum corporate tax rate to prevent such 'races to the bottom' between jurisdictions.",
-      "vocabularyHelp": [
-        { "word": "state aid", "meaning": "government support that gives a company an advantage over its competitors" },
-        { "word": "subsidy", "meaning": "a sum of money granted by the state to help a business or industry keep the price of a service or commodity low" },
-        { "word": "annulled", "meaning": "declared invalid; abolished" },
-        { "word": "jurisdiction", "meaning": "the official power to make legal decisions and judgments in a specific area" },
-        { "word": "back taxes", "meaning": "taxes that were not paid when they were due" }
+      "id": "listening-01",
+      "type": "listening-dialogue",
+      "title": "Handling a Subject Access Request (SAR)",
+      "dialogue": [
+        { "speaker": "James", "text": "We've received a Subject Access Request from a former employee." },
+        { "speaker": "Sarah", "text": "Okay, we need to be in compliance with the 30-day deadline. We'll need to redact any PII relating to other staff members before sending the files." },
+        { "speaker": "James", "text": "I'll start collating the emails. It is expected to take most of the afternoon." }
       ],
       "questions": [
         {
-          "id": "finance-b2-w3-reading-authentic-q1",
-          "type": "multiple-choice",
-          "question": "What was the primary legal basis for the European Commission's order against Apple?",
-          "options": [
-            "Apple had committed criminal tax evasion.",
-            "The Irish government had provided illegal 'State Aid'.",
-            "Apple was selling faulty products in Europe.",
-            "Ireland had no right to tax American companies."
-          ],
-          "correctAnswer": "The Irish government had provided illegal 'State Aid'.",
-          "explanation": "The text explains that 'State Aid' rules prevent governments from giving unfair advantages, which the Commission argued Ireland had done for Apple."
-        },
-        {
-          "id": "finance-b2-w3-reading-authentic-q2",
-          "type": "multiple-choice",
-          "question": "Why did the Irish government initially fight against receiving the €13 billion?",
-          "options": [
-            "They didn't need the money.",
-            "They thought the amount was too small.",
-            "They wanted to protect their reputation as a tax-friendly jurisdiction.",
-            "They were afraid of the US government."
-          ],
-          "correctAnswer": "They wanted to protect their reputation as a tax-friendly jurisdiction.",
-          "explanation": "The text states Ireland feared that changing its tax-friendly reputation would drive away other multinationals."
-        }
-      ]
-    },
-    {
-      "id": "finance-b2-w3-listening-authentic",
-      "type": "listening-comprehension",
-      "title": "Treasury Talk: Managing the Volatility of the Yen",
-      "instructions": "Listen to a treasury manager discuss their hedging strategy.",
-      "audioUrl": "https://example.com/audio/finance/b2/w3/forex-hedging.mp3",
-      "transcript": "Interviewer: We've seen incredible volatility in the USD/JPY pair this year. How is your treasury department handling the risk?\n\nManager: It's been a challenge. We have significant manufacturing operations in Japan, but most of our revenue is in Dollars. When the Yen weakens, our production costs drop in Dollar terms, which is good. But a sudden spike in the Yen can wipe out our margins.\n\nInterviewer: Are you using derivatives to lock in rates?\n\nManager: Yes, we use a 'rolling hedge' strategy with forward contracts. We typically hedge about 60% of our expected Yen requirements for the next twelve months. If we hedged 100%, we might miss out if the Yen continues to weaken, so we keep some flexibility.\n\nInterviewer: Do you use natural hedging as well?\n\nManager: Absolutely. We've started sourcing more components from Japanese suppliers rather than importing them. By increasing our Yen-denominated expenses to match our Yen-denominated production, we create a natural offset. If the Yen moves, both our costs and our 'effective' savings move together, reducing our net exposure.",
-      "questions": [
-        {
-          "id": "finance-b2-w3-listening-authentic-q1",
-          "type": "multiple-choice",
-          "question": "What happens to the company's production costs when the Yen weakens?",
-          "options": [
-            "Costs increase in Dollar terms.",
-            "Costs decrease in Dollar terms.",
-            "Costs stay exactly the same.",
-            "The company stops production."
-          ],
-          "correctAnswer": "Costs decrease in Dollar terms.",
-          "explanation": "The manager states that when the Yen weakens, production costs drop in Dollar terms."
-        },
-        {
-          "id": "finance-b2-w3-listening-authentic-q2",
-          "type": "multiple-choice",
-          "question": "How does the company achieve a 'natural hedge'?",
-          "options": [
-            "By buying gold in Japan.",
-            "By sourcing more components from Japanese suppliers.",
-            "By only selling products in Yen.",
-            "By borrowing money from the US Federal Reserve."
-          ],
-          "correctAnswer": "By sourcing more components from Japanese suppliers.",
-          "explanation": "The manager explains that sourcing locally in Yen creates a natural offset for their Yen-denominated operations."
+          "question": "What must Sarah do before sending the files?",
+          "options": ["Delete all the files", "Redact PII of other staff", "Ask for payment", "Wait for 60 days"],
+          "correctAnswer": 1
         }
       ]
     }

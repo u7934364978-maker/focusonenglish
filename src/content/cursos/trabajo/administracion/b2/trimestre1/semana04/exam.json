@@ -1,110 +1,103 @@
 {
-  "title": "Week 4 Assessment: Financial Analysis & Month 1 Review",
-  "items": [
+  "title": "Week 4 Assessment: Professional Documentation",
+  "questions": [
     {
-      "id": "finance-b2-w4-e1",
-      "type": "multipleChoice",
-      "prompt": "Which ratio is calculated as Current Assets divided by Current Liabilities?",
-      "options": ["P/E Ratio", "Debt-to-Equity", "Current Ratio", "ROE"],
-      "answerIndex": 2
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which section of the minutes lists people who couldn't attend?",
+      "options": ["Attendance", "Apologies", "AOB", "Matters Arising"],
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w4-e2",
-      "type": "multipleChoice",
-      "prompt": "What does a 'DCF' valuation primarily rely on?",
-      "options": ["Past stock prices", "Future discounted cash flows", "The company's logo value", "Current inventory levels"],
-      "answerIndex": 1
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What is the correct reported speech for: 'I will send the files,' said Paul.",
+      "options": [
+        "Paul said he will send the files.",
+        "Paul said he would send the files.",
+        "Paul suggested to send the files.",
+        "Paul urged to send the files."
+      ],
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w4-e3",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'The financial statements ___ (audit) by an external firm every year.'",
-      "options": ["are audited", "is audited", "audit", "was audited"],
-      "answerIndex": 0
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "To 'table' a discussion means to:",
+      "options": [
+        "Start it immediately.",
+        "End it permanently.",
+        "Postpone it for a later time.",
+        "Write it down on the table."
+      ],
+      "correctAnswer": 2
     },
     {
-      "id": "finance-b2-w4-e4",
-      "type": "multipleChoice",
-      "prompt": "Review: What is 'Market Risk'?",
-      "options": ["Risk of borrower default", "Risk of loss due to price changes in the market", "Risk of employee fraud", "Risk of a fire in the market"],
-      "answerIndex": 1
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A 'unanimous' decision means:",
+      "options": [
+        "Most people agree.",
+        "Nobody agrees.",
+        "Everyone agrees.",
+        "The Chair decides alone."
+      ],
+      "correctAnswer": 2
     },
     {
-      "id": "finance-b2-w4-e5",
-      "type": "multipleChoice",
-      "prompt": "What does 'ROE' measure?",
-      "options": ["Revenue On Expenses", "Return On Equity", "Rate Of Earnings", "Ratio Of Employees"],
-      "answerIndex": 1
+      "id": "q5",
+      "type": "fill-in-the-blank",
+      "question": "The CEO ________ (urge) the staff to be more punctual last week.",
+      "answer": "urged"
     },
     {
-      "id": "finance-b2-w4-e6",
-      "type": "multipleChoice",
-      "prompt": "Translate: 'Valor contable'",
-      "options": ["Market value", "Book value", "Price value", "Asset value"],
-      "answerIndex": 1
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which reporting verb is best for a formal recommendation?",
+      "options": ["Told", "Suggested", "Said", "Asked"],
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w4-e7",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'If the P/E ratio ___ (be) too high, the stock ___ (be) overvalued.'",
-      "options": ["is / might be", "was / would be", "had been / would have been", "is / was"],
-      "answerIndex": 0
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "SMART action items should be Specific, Measurable, Achievable, Relevant, and:",
+      "options": [
+        "Technical",
+        "Time-bound",
+        "Tough",
+        "Total"
+      ],
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w4-e8",
-      "type": "multipleChoice",
-      "prompt": "Review: Which modal is for a recommendation? 'The bank ___ diversify its assets.'",
-      "options": ["must", "should", "can't", "mustn't"],
-      "answerIndex": 1
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "To 'adjourn' a meeting means to:",
+      "options": [
+        "Cancel it forever.",
+        "Start it early.",
+        "Temporarily stop it.",
+        "Invite more people."
+      ],
+      "correctAnswer": 2
     },
     {
-      "id": "finance-b2-w4-e9",
-      "type": "multipleChoice",
-      "prompt": "What is 'Enterprise Value'?",
-      "options": ["The price of the building", "Market Cap + Debt - Cash", "Total Assets + Liabilities", "Net Profit * 100"],
-      "answerIndex": 1
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "In minutes, 'matters arising' refers to:",
+      "options": [
+        "Issues from the previous meeting.",
+        "New ideas for the future.",
+        "Complaints about the food.",
+        "Emergency fire drills."
+      ],
+      "correctAnswer": 0
     },
     {
-      "id": "finance-b2-w4-e10",
-      "type": "multipleChoice",
-      "prompt": "Review: What is 'Tax Evasion'?",
-      "options": ["Legal tax planning", "Illegal non-payment of taxes", "A tax on exports", "A type of bank loan"],
-      "answerIndex": 1
-    },
-    {
-      "id": "finance-b2-w4-e11",
-      "type": "multipleChoice",
-      "prompt": "Translate: 'Flujo de caja'",
-      "options": ["Cash flow", "Money stream", "Bank flow", "Profit cash"],
-      "answerIndex": 0
-    },
-    {
-      "id": "finance-b2-w4-e12",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'If we ___ (not acquire) the rival last year, we ___ (not have) this market share today.'",
-      "options": ["don't acquire / won't have", "hadn't acquired / wouldn't have", "didn't acquire / wouldn't have had", "hadn't acquired / wouldn't have had"],
-      "answerIndex": 1
-    },
-    {
-      "id": "finance-b2-w4-e13",
-      "type": "multipleChoice",
-      "prompt": "What is 'Sensitivity Analysis'?",
-      "options": ["Testing how variables impact a model", "Checking if employees are happy", "Auditing the marketing department", "Reducing the tax bill"],
-      "answerIndex": 0
-    },
-    {
-      "id": "finance-b2-w4-e14",
-      "type": "multipleChoice",
-      "prompt": "Review: What does a 'clean' audit opinion mean?",
-      "options": ["Qualified", "Unqualified", "Adverse", "Disclaimer"],
-      "answerIndex": 1
-    },
-    {
-      "id": "finance-b2-w4-e15",
-      "type": "multipleChoice",
-      "prompt": "What is the 'Quick Ratio' used for?",
-      "options": ["Valuing a stock", "Measuring immediate liquidity", "Calculating taxes", "Measuring employee speed"],
-      "answerIndex": 1
+      "id": "q10",
+      "type": "fill-in-the-blank",
+      "question": "The meeting was ________ because a quorum was not reached.",
+      "answer": "adjourned"
     }
   ]
 }

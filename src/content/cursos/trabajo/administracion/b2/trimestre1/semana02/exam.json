@@ -1,110 +1,108 @@
 {
-  "title": "Week 2 Assessment: Financial Reporting & Governance",
-  "items": [
+  "title": "Week 2 Assessment: Efficiency and Streamlining",
+  "questions": [
     {
-      "id": "finance-b2-w2-e1",
-      "type": "multipleChoice",
-      "prompt": "Which accounting equation is correct?",
-      "options": ["Assets = Liabilities - Equity", "Assets = Liabilities + Equity", "Liabilities = Assets + Equity", "Equity = Assets + Liabilities"],
-      "answerIndex": 1
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which term describes a stage in a process that slows down the entire workflow?",
+      "options": ["Redundancy", "Bottleneck", "ROI", "Scalability"],
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w2-e2",
-      "type": "multipleChoice",
-      "prompt": "What does an 'Adverse Opinion' signify in an audit report?",
-      "options": ["The accounts are clean", "The auditor was unable to complete the audit", "The financial statements are misrepresented and do not follow standards", "The company has too much debt"],
-      "answerIndex": 2
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence to describe a target completion.",
+      "options": [
+        "By June, we will be finished the audit.",
+        "By June, we will have finished the audit.",
+        "By June, we will finishing the audit.",
+        "By June, we will have finishing the audit."
+      ],
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w2-e3",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'The quarterly budget ___ by the Board last night.'",
-      "options": ["was approved", "is approved", "has approved", "approves"],
-      "answerIndex": 0
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "What is the 'As-Is' model in workflow analysis?",
+      "options": [
+        "The ideal future state of the process.",
+        "The current, existing state of the process.",
+        "A list of all employees in the department.",
+        "A financial report on company assets."
+      ],
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w2-e4",
-      "type": "multipleChoice",
-      "prompt": "What is 'Materiality'?",
-      "options": ["The cost of raw materials", "The threshold for significant errors in financial reporting", "The physical assets of the company", "A type of tax exemption"],
-      "answerIndex": 1
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "If a process is 'scalable', it means it can:",
+      "options": [
+        "Be deleted without consequences.",
+        "Handle an increase in workload effectively.",
+        "Only be done by one person.",
+        "Be automated immediately."
+      ],
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w2-e5",
-      "type": "multipleChoice",
-      "prompt": "Which statement tracks the actual movement of cash?",
-      "options": ["Balance Sheet", "Income Statement", "Cash Flow Statement", "Audit Report"],
-      "answerIndex": 2
+      "id": "q5",
+      "type": "fill-in-the-blank",
+      "question": "Next month, our department ________ (implement) the new safety protocols. (Future Continuous)",
+      "answer": "will be implementing"
     },
     {
-      "id": "finance-b2-w2-e6",
-      "type": "multipleChoice",
-      "prompt": "What is 'Fiduciary Duty'?",
-      "options": ["Duty to pay taxes", "Duty to maximize sales", "Legal obligation to act in the best interest of stakeholders/shareholders", "Duty to hire local workers"],
-      "answerIndex": 2
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "What does 'to phase out' mean?",
+      "options": [
+        "To start using something immediately.",
+        "To gradually stop using something.",
+        "To increase the price of a service.",
+        "To hire a new consultant."
+      ],
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w2-e7",
-      "type": "multipleChoice",
-      "prompt": "Complete the passive sentence: 'Several discrepancies ___ during the audit process.'",
-      "options": ["were discovered", "discovered", "is discovered", "was discovery"],
-      "answerIndex": 0
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which of these is an example of 'over-processing'?",
+      "options": [
+        "Sending an email to a client.",
+        "Adding complex formatting to an internal memo that no one reads.",
+        "Automating a repetitive data entry task.",
+        "Reducing the number of required approvals."
+      ],
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w2-e8",
-      "type": "multipleChoice",
-      "prompt": "What is 'EBITDA' used to measure?",
-      "options": ["Total debt", "Operating performance/profitability", "The amount of taxes paid", "Marketing efficiency"],
-      "answerIndex": 1
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Complete the sentence: 'Once the upgrade is complete, we ________ our reliance on manual filing.'",
+      "options": [
+        "will have reduced",
+        "will been reducing",
+        "will have reduce",
+        "will reducing"
+      ],
+      "correctAnswer": 0
     },
     {
-      "id": "finance-b2-w2-e9",
-      "type": "multipleChoice",
-      "prompt": "Who are 'Stakeholders'?",
-      "options": ["Only the shareholders", "Only the employees", "Anyone affected by the company's activities", "Only the bank"],
-      "answerIndex": 2
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "The term 'value-add' refers to tasks that:",
+      "options": [
+        "Cost the company the most money.",
+        "Are required by law but provide no benefit.",
+        "Directly benefit the customer or the end goal.",
+        "Are done outside of normal working hours."
+      ],
+      "correctAnswer": 2
     },
     {
-      "id": "finance-b2-w2-e10",
-      "type": "multipleChoice",
-      "prompt": "What is 'Goodwill'?",
-      "options": ["Company charity", "An intangible asset from an acquisition", "Low employee turnover", "A type of insurance"],
-      "answerIndex": 1
-    },
-    {
-      "id": "finance-b2-w2-e11",
-      "type": "multipleChoice",
-      "prompt": "Translate: 'Transparencia corporativa'",
-      "options": ["Corporate transfer", "Corporate transparency", "Corporate transport", "Corporate transaction"],
-      "answerIndex": 1
-    },
-    {
-      "id": "finance-b2-w2-e12",
-      "type": "multipleChoice",
-      "prompt": "What does a 'clean' audit opinion mean?",
-      "options": ["Unqualified Opinion", "Qualified Opinion", "Adverse Opinion", "Disclaimer"],
-      "answerIndex": 0
-    },
-    {
-      "id": "finance-b2-w2-e13",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'It ___ that the merger will create significant synergies.'",
-      "options": ["believes", "is believed", "was believe", "is believing"],
-      "answerIndex": 1
-    },
-    {
-      "id": "finance-b2-w2-e14",
-      "type": "multipleChoice",
-      "prompt": "What are 'Current Liabilities'?",
-      "options": ["Debts due within one year", "Long-term loans", "The value of the brand", "The cash in the bank"],
-      "answerIndex": 0
-    },
-    {
-      "id": "finance-b2-w2-e15",
-      "type": "multipleChoice",
-      "prompt": "What is 'Whistleblowing'?",
-      "options": ["A way to call meetings", "Reporting unethical behavior internally or externally", "Stopping a trade", "A marketing slogan"],
-      "answerIndex": 1
+      "id": "q10",
+      "type": "fill-in-the-blank",
+      "question": "By the time the manager arrives, the team ________ (map out) the entire workflow. (Future Perfect)",
+      "answer": "will have mapped out"
     }
   ]
 }

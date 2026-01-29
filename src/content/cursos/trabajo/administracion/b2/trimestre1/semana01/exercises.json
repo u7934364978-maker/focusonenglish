@@ -77,6 +77,19 @@
       ]
     },
     {
+      "id": "adm-b2-w1-micro-1",
+      "type": "multipleChoice",
+      "prompt": "Complete the phrase: 'Please ___ this as urgent and include a ___.'",
+      "options": [
+        "mark / date",
+        "flag / deadline",
+        "send / time",
+        "report / note"
+      ],
+      "answerIndex": 1,
+      "explanation": "In operations, we 'flag' items and include 'deadlines'."
+    },
+    {
       "id": "adm-b2-w1-grammar-1",
       "type": "multipleChoice",
       "prompt": "Select the most neutral and professional way to describe a delay.",
@@ -90,11 +103,24 @@
       "explanation": "Option 3 uses factual, non-blaming language ('experiencing a delay', 'pending approval')."
     },
     {
+      "id": "adm-b2-w1-rephrase-1",
+      "type": "multipleChoice",
+      "prompt": "Rephrase this to be more diplomatic: 'You didn't reply.'",
+      "options": [
+        "I'm waiting for your answer.",
+        "Why haven't you replied yet?",
+        "I'm just following up on my previous email.",
+        "You ignored my request."
+      ],
+      "answerIndex": 2,
+      "explanation": "'Following up' is the standard diplomatic way to inquire about a lack of response."
+    },
+    {
       "id": "adm-b2-w1-writing-1",
       "type": "writingTask",
-      "prompt": "Draft a 5-part escalation checklist for a blocked task. Include: Facts, Impact, Deadline, What you've tried, and What you need.",
-      "modelAnswer": "1. Facts: The server migration is stalled. \n2. Impact: 50% of users cannot access the portal. \n3. Deadline: Must be resolved by 4 PM today. \n4. Tried: Contacted IT support and checked local logs. \n5. Need: Formal authorization from the CTO to restart the main node.",
-      "keywords": ["Facts", "Impact", "Deadline", "Tried", "Need"]
+      "prompt": "Draft a short introductory email (120-170 words) to your new team. Include your role, how to request help (Ops Inbox), how to flag urgent tasks, and an invitation to message you.",
+      "modelAnswer": "Subject: Hello from Ops — how to work with me\n\nHi everyone,\n\nI’m Alex, and I’ve just joined Operations. I’ll be supporting day-to-day coordination across teams, helping to track requests, and keeping work moving when there are blockers or dependencies.\n\nHow to work with me:\n- Send requests via the Ops inbox and include the desired outcome plus any relevant context.\n- If something is time-sensitive, please flag it as Urgent and add a clear deadline.\n- If you’re blocked by another team, tell me what you’ve tried so far and what you need (decision / confirmation / resource).\n\nHappy to help — feel free to message me if you’re unsure where a request should go.\n\nThanks,\nAlex",
+      "keywords": ["Ops inbox", "Urgent", "deadline", "blockers", "Alex"]
     },
     {
       "id": "adm-b2-w1-l1",

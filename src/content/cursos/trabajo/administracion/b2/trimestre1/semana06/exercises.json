@@ -1,686 +1,74 @@
 {
-  "goal": "administracion",
-  "level": "B2",
-  "trimester": 1,
-  "weekId": "semana06",
-  "title": "Risk Management and Insurance",
-  "description": "Vocabulary for types of risk, insurance policies, and the use of Modals of Deduction (50 items).",
-  "items": [
+  "exercises": [
     {
-      "id": "finance-b2-w6-q1",
-      "type": "multipleChoice",
+      "id": "quiz-01",
+      "type": "multiple-choice",
+      "question": "What is 'buffer time' in calendar management?",
       "options": [
-        "Market Risk",
-        "Credit Risk",
-        "Operational Risk",
-        "Liquidity Risk"
+        "Time spent cleaning the office.",
+        "A planned break between meetings to allow for overruns or travel.",
+        "The time it takes to download a large file.",
+        "A meeting that is cancelled at the last minute."
       ],
-      "explanation": "Credit risk is the probability of a financial loss for a lender due to a borrower's failure to repay a loan.",
-      "answerIndex": 1,
-      "prompt": "Which type of risk involves the possibility that a borrower will default on a loan?"
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w6-q2",
-      "type": "fillBlanks",
-      "explanation": "Use 'must' for a strong deduction based on evidence.",
-      "prompt": "The CEO is not in his office. He ________ (be) at the board meeting.",
-      "answers": [
-        "must be"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q3",
-      "type": "multipleChoice",
+      "id": "quiz-02",
+      "type": "multiple-choice",
+      "question": "What does 'per diem' refer to in a travel context?",
       "options": [
-        "Risk Avoidance",
-        "Risk Transfer",
-        "Risk Retention",
-        "Risk Mitigation"
+        "A type of luxury hotel room.",
+        "A daily allowance for expenses.",
+        "A document required for a visa.",
+        "The time zone of the destination."
       ],
-      "explanation": "Risk transfer is a strategy that involves the contractual shifting of a pure risk from one party to another.",
-      "answerIndex": 1,
-      "prompt": "Shifting risk to a third party, like an insurance company, is called:"
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w6-q4",
-      "type": "fillBlanks",
-      "explanation": "Use 'can't have + past participle' for a strong negative deduction about the past.",
-      "prompt": "The firm lost millions. They ________ (not / have) adequate insurance coverage.",
-      "answers": [
-        "can't have had"
-      ]
+      "id": "inversion-01",
+      "type": "transformation",
+      "question": "I have never experienced such a delay. (Never...)",
+      "answer": "Never have I experienced such a delay."
     },
     {
-      "id": "finance-b2-w6-q5",
-      "type": "multipleChoice",
+      "id": "inversion-02",
+      "type": "transformation",
+      "question": "The flight was late and the hotel was overbooked. (Not only... but also...)",
+      "answer": "Not only was the flight late, but the hotel was also overbooked."
+    },
+    {
+      "id": "vocabulary-01",
+      "type": "multiple-choice",
+      "question": "If you are 'gatekeeping', you are:",
       "options": [
-        "Deductible",
-        "Premium",
-        "Claim",
-        "Dividend"
+        "Opening all the doors in the office.",
+        "Controlling and limiting access to an executive.",
+        "Working as a security guard.",
+        "Fixing the office gates."
       ],
-      "explanation": "An insurance premium is the amount of money that an individual or business must pay for an insurance policy.",
-      "answerIndex": 1,
-      "prompt": "The amount of money paid periodically for an insurance policy is the:"
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w6-q6",
-      "type": "fillBlanks",
-      "explanation": "Use 'might' or 'could' for possibility.",
-      "prompt": "The stock price is fluctuating. It ________ (go) up or down tomorrow.",
-      "answers": [
-        "might go"
-      ]
+      "id": "writing-01",
+      "type": "writing-task",
+      "title": "Email: Travel Logistics Warning",
+      "description": "Write a formal email to a group of executives traveling to a high-security facility. Use at least one instance of 'Under no circumstances...' and one 'Not only... but also...' with inversion. Warn them about security protocols and transport logistics.",
+      "sampleAnswer": "Subject: Important: Security protocols and logistics for next week's site visit\n\nDear Team,\n\nAs we prepare for our visit to the Research Facility next week, I would like to highlight some critical logistics and security requirements.\n\n**Under no circumstances should you bring** personal electronic devices, such as laptops or tablets, into the restricted area. These must be left in the secure lockers provided at the entrance.\n\nRegarding transport, **not only is the facility in a remote location, but it also** requires a pre-cleared shuttle for access. Therefore, it is vital that everyone arrives at the designated meeting point by 07:30 sharp.\n\nFailure to comply with these protocols may result in a denial of entry. Thank you for your cooperation.\n\nBest regards,\n\n[Your Name]"
     },
     {
-      "id": "finance-b2-w6-q7",
-      "type": "multipleChoice",
-      "options": [
-        "Avoidance",
-        "Mitigation",
-        "Retention",
-        "Transfer"
-      ],
-      "explanation": "Risk avoidance is the elimination of hazards, activities, and exposures that can negatively affect an organization's assets.",
-      "answerIndex": 0,
-      "prompt": "Which risk management strategy involves eliminating any exposure to a specific risk?"
-    },
-    {
-      "id": "finance-b2-w6-q8",
-      "type": "fillBlanks",
-      "explanation": "Strong deduction about an action in progress.",
-      "prompt": "They haven't signed the contract yet. They ________ (still / review) the terms.",
-      "answers": [
-        "must still be reviewing"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q9",
-      "type": "multipleChoice",
-      "options": [
-        "Coverage",
-        "Deductible",
-        "Premium",
-        "Liability"
-      ],
-      "explanation": "A deductible is the amount of money you will pay in an insurance claim before the insurance coverage kicks in.",
-      "answerIndex": 1,
-      "prompt": "The amount the insured must pay out-of-pocket before the insurer pays a claim is the:"
-    },
-    {
-      "id": "finance-b2-w6-q10",
-      "type": "fillBlanks",
-      "explanation": "Strong deduction about the past.",
-      "prompt": "The auditor found no errors. He ________ (be) very thorough.",
-      "answers": [
-        "must have been"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q11",
-      "type": "multipleChoice",
-      "options": [
-        "Risk from market price changes",
-        "Risk from failed internal processes, people, or systems",
-        "Risk of not having enough cash",
-        "Risk of a customer not paying"
-      ],
-      "explanation": "Operational risk summarizes the risks a company undertakes when it attempts to operate within a given field or industry.",
-      "answerIndex": 1,
-      "prompt": "What is 'Operational Risk'?"
-    },
-    {
-      "id": "finance-b2-w6-q12",
-      "type": "fillBlanks",
-      "explanation": "Strong negative deduction about the past.",
-      "prompt": "The bank ________ (not / approve) that loan; it violates all their risk policies.",
-      "answers": [
-        "can't have approved"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q13",
-      "type": "multipleChoice",
-      "options": [
-        "Lending",
-        "Underwriting",
-        "Auditing",
-        "Hedging"
-      ],
-      "explanation": "Underwriters assess the risk and profitability of prospective clients.",
-      "answerIndex": 1,
-      "prompt": "The process of evaluating and taking on financial risk for a fee is called:"
-    },
-    {
-      "id": "finance-b2-w6-q14",
-      "type": "fillBlanks",
-      "explanation": "Use 'could', 'may', or 'might' for uncertainty.",
-      "prompt": "The interest rates ________ (rise) next month, but nothing is certain.",
-      "answers": [
-        "could rise"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q15",
-      "type": "multipleChoice",
-      "options": [
-        "Risk of fire in the building",
-        "Risk of being unable to meet short-term financial demands",
-        "Risk of a stock price dropping",
-        "Risk of a computer virus"
-      ],
-      "explanation": "Liquidity risk occurs when an individual investor, business, or financial institution cannot meet its short-term debt obligations.",
-      "answerIndex": 1,
-      "prompt": "What is 'Liquidity Risk'?"
-    },
-    {
-      "id": "finance-b2-w6-q16",
-      "type": "fillBlanks",
-      "explanation": "Deduction based on current evidence (his expression).",
-      "prompt": "The CFO looks worried. The earnings report ________ (be) bad.",
-      "answers": [
-        "must be"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q17",
-      "type": "multipleChoice",
-      "options": [
-        "Formal request for payment for a covered loss",
-        "Type of investment",
-        "Marketing strategy",
-        "Loan application"
-      ],
-      "explanation": "A claim is the notification to the insurance company that a loss has occurred.",
-      "answerIndex": 0,
-      "prompt": "An insurance 'claim' is a:"
-    },
-    {
-      "id": "finance-b2-w6-q18",
-      "type": "fillBlanks",
-      "explanation": "Strong negative deduction based on the fact he wasn't there.",
-      "prompt": "He ________ (know) about the fraud; he wasn't even working there then.",
-      "answers": [
-        "can't have known"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q19",
-      "type": "multipleChoice",
-      "options": [
-        "Ignoring the risk",
-        "Reducing the impact or likelihood of the risk",
-        "Eliminating the risk entirely",
-        "Paying someone else to take the risk"
-      ],
-      "explanation": "Mitigation focuses on lessening the severity of a risk.",
-      "answerIndex": 1,
-      "prompt": "Risk 'mitigation' means:"
-    },
-    {
-      "id": "finance-b2-w6-q20",
-      "type": "fillBlanks",
-      "explanation": "Strong deduction about the past based on current results.",
-      "prompt": "They ________ (forgot) to renew the policy; otherwise, the claim would be paid.",
-      "answers": [
-        "must have forgotten"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q21",
-      "type": "multipleChoice",
-      "options": [
-        "Interest rates",
-        "Currency exchange rates",
-        "Stock prices",
-        "All of the above"
-      ],
-      "explanation": "Market risk is the risk of losses in positions arising from movements in market prices.",
-      "answerIndex": 3,
-      "prompt": "Market Risk includes exposure to changes in:"
-    },
-    {
-      "id": "finance-b2-w6-q22",
-      "type": "fillBlanks",
-      "explanation": "Past possibility.",
-      "prompt": "I'm not sure why he's late. He ________ (get) stuck in traffic.",
-      "answers": [
-        "might have gotten"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q23",
-      "type": "multipleChoice",
-      "options": [
-        "Insurance",
-        "Self-insurance",
-        "Hedging",
-        "Diversification"
-      ],
-      "explanation": "Risk retention involves the organization's acceptance of the responsibility for the loss.",
-      "answerIndex": 1,
-      "prompt": "Risk 'retention' is often known as:"
-    },
-    {
-      "id": "finance-b2-w6-q24",
-      "type": "fillBlanks",
-      "explanation": "Present negative deduction.",
-      "prompt": "This data ________ (not / be) correct; the numbers don't add up.",
-      "answers": [
-        "can't be"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q25",
-      "type": "multipleChoice",
-      "options": [
-        "Gardening",
-        "An investment to reduce the risk of adverse price movements in an asset",
-        "A type of insurance premium",
-        "Selling all assets"
-      ],
-      "explanation": "Hedging is like an insurance policy for your investments.",
-      "answerIndex": 1,
-      "prompt": "What is 'Hedging'?"
-    },
-    {
-      "id": "finance-b2-w6-q26",
-      "type": "fillBlanks",
-      "explanation": "Future possibility/deduction.",
-      "prompt": "The company ________ (face) a lawsuit if they don't follow the regulations.",
-      "answers": [
-        "might face"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q27",
-      "type": "multipleChoice",
-      "options": [
-        "Risk that affects a single company",
-        "Risk of a total system failure or market collapse",
-        "Risk of a computer crashing",
-        "Risk from human error"
-      ],
-      "explanation": "Systemic risk refers to the risk of a collapse of an entire financial system or market.",
-      "answerIndex": 1,
-      "prompt": "What is 'Systemic Risk'?"
-    },
-    {
-      "id": "finance-b2-w6-q28",
-      "type": "fillBlanks",
-      "explanation": "Expression of strong disbelief/deduction.",
-      "prompt": "You ________ (be) joking! A 50% drop in one day is impossible.",
-      "answers": [
-        "must be"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q29",
-      "type": "multipleChoice",
-      "options": [
-        "Premium",
-        "Policy",
-        "Claim",
-        "Deductible"
-      ],
-      "explanation": "An insurance policy is a legal contract between the insurance company and the insured.",
-      "answerIndex": 1,
-      "prompt": "Which document outlines the terms and conditions of an insurance agreement?"
-    },
-    {
-      "id": "finance-b2-w6-q30",
-      "type": "fillBlanks",
-      "explanation": "Strong negative past deduction.",
-      "prompt": "They ________ (hear) the news yet; they were in a meeting all morning.",
-      "answers": [
-        "can't have heard"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q31",
-      "type": "multipleChoice",
-      "options": [
-        "EBITDA risks",
-        "ESG risks",
-        "ETF risks",
-        "ROI risks"
-      ],
-      "explanation": "ESG risks are factors that can affect a company's financial performance or reputation.",
-      "answerIndex": 1,
-      "prompt": "Environmental, Social, and Governance risks are known as:"
-    },
-    {
-      "id": "finance-b2-w6-q32",
-      "type": "fillBlanks",
-      "explanation": "Possibility.",
-      "prompt": "The project ________ (succeed), but it requires a lot of capital.",
-      "answers": [
-        "could succeed"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q33",
-      "type": "multipleChoice",
-      "options": [
-        "A company plants trees",
-        "An organization's normal operating procedures reduce its risk",
-        "A company buys gold",
-        "A bank closes all its branches"
-      ],
-      "explanation": "For example, a company with expenses and revenues in the same foreign currency has a natural hedge.",
-      "answerIndex": 1,
-      "prompt": "A 'Natural Hedge' occurs when:"
-    },
-    {
-      "id": "finance-b2-w6-q34",
-      "type": "fillBlanks",
-      "explanation": "Strong negative deduction based on visual evidence.",
-      "prompt": "That ________ (be) the CEO; he's much taller than that man.",
-      "answers": [
-        "can't be"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q35",
-      "type": "multipleChoice",
-      "options": [
-        "Higher risk is associated with higher potential return",
-        "Risk should always be avoided",
-        "Rewards are guaranteed",
-        "Risk is the same as reward"
-      ],
-      "explanation": "To earn higher returns, investors must be willing to accept more risk.",
-      "answerIndex": 0,
-      "prompt": "The 'Risk-Reward Tradeoff' states that:"
-    },
-    {
-      "id": "finance-b2-w6-q36",
-      "type": "fillBlanks",
-      "explanation": "Strong present deduction.",
-      "prompt": "The market is very green today. Investors ________ (be) feeling optimistic.",
-      "answers": [
-        "must be"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q37",
-      "type": "multipleChoice",
-      "options": [
-        "Buying the same policy twice",
-        "Insurance for insurance companies",
-        "Renewing a policy",
-        "Insuring a car again"
-      ],
-      "explanation": "Reinsurance allows insurance companies to remain solvent by recovering some or all of the costs of claims.",
-      "answerIndex": 1,
-      "prompt": "What is 'Reinsurance'?"
-    },
-    {
-      "id": "finance-b2-w6-q38",
-      "type": "fillBlanks",
-      "explanation": "Past possibility based on observation.",
-      "prompt": "They ________ (decide) to sell the subsidiary; I saw them talking to brokers.",
-      "answers": [
-        "might have decided"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q39",
-      "type": "multipleChoice",
-      "options": [
-        "The insurance policy",
-        "A condition that increases the probability of a loss",
-        "The payment of a claim",
-        "The insurance agent"
-      ],
-      "explanation": "For example, faulty wiring is a hazard for fire insurance.",
-      "answerIndex": 1,
-      "prompt": "Which of these is a 'hazard' in insurance terms?"
-    },
-    {
-      "id": "finance-b2-w6-q40",
-      "type": "fillBlanks",
-      "explanation": "Future possibility.",
-      "prompt": "That decision ________ (cost) the company millions in the long run.",
-      "answers": [
-        "could cost"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q41",
-      "type": "multipleChoice",
-      "options": [
-        "How often a risk occurs",
-        "The severity of the consequences if a risk occurs",
-        "The name of the risk manager",
-        "The type of insurance used"
-      ],
-      "explanation": "Risk is often calculated as Probability x Impact.",
-      "answerIndex": 1,
-      "prompt": "In risk management, 'Impact' refers to:"
-    },
-    {
-      "id": "finance-b2-w6-q42",
-      "type": "fillBlanks",
-      "explanation": "Past deduction.",
-      "prompt": "He ________ (be) the one who leaked the data; he has the highest security clearance.",
-      "answers": [
-        "must have been"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q43",
-      "type": "multipleChoice",
-      "options": [
-        "The company's own property",
-        "Legal responsibility for damage or injury to others",
-        "The health of the employees",
-        "The company's profit"
-      ],
-      "explanation": "Liability insurance protects against claims resulting from injuries and damage to people and/or property.",
-      "answerIndex": 1,
-      "prompt": "A 'Liability' insurance policy covers:"
-    },
-    {
-      "id": "finance-b2-w6-q44",
-      "type": "fillBlanks",
-      "explanation": "Past possibility.",
-      "prompt": "The deal ________ (fail) because of the new regulations.",
-      "answers": [
-        "might have failed"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q45",
-      "type": "multipleChoice",
-      "options": [
-        "A strong military force",
-        "Unforeseeable circumstances that prevent someone from fulfilling a contract",
-        "A type of bank loan",
-        "A marketing technique"
-      ],
-      "explanation": "Force majeure often includes 'acts of God' like earthquakes or floods.",
-      "answerIndex": 1,
-      "prompt": "What is 'Force Majeure'?"
-    },
-    {
-      "id": "finance-b2-w6-q46",
-      "type": "fillBlanks",
-      "explanation": "Strong present deduction.",
-      "prompt": "She ________ (be) very happy with her bonus; it's the largest in the team.",
-      "answers": [
-        "must be"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q47",
-      "type": "multipleChoice",
-      "options": [
-        "Regulatory Risk",
-        "Credit Risk",
-        "Market Risk",
-        "Operational Risk"
-      ],
-      "explanation": "Regulatory risk is the risk that a change in laws and regulations will materially impact a security, business, sector, or market.",
-      "answerIndex": 0,
-      "prompt": "Which risk involves the possibility of losing money due to a change in the law?"
-    },
-    {
-      "id": "finance-b2-w6-q48",
-      "type": "fillBlanks",
-      "explanation": "Strong present negative deduction.",
-      "prompt": "They ________ (not / be) ready for the audit; they are still printing documents.",
-      "answers": [
-        "can't be"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-q49",
-      "type": "multipleChoice",
-      "options": [
-        "Dental and Optical",
-        "Directors and Officers",
-        "Debt and Obligation",
-        "Delivery and Order"
-      ],
-      "explanation": "D&O insurance protects the personal assets of corporate directors and officers in the event they are sued.",
-      "answerIndex": 1,
-      "prompt": "What is the 'D&O' insurance?"
-    },
-    {
-      "id": "finance-b2-w6-q50",
-      "type": "fillBlanks",
-      "explanation": "Past/present-perfect deduction based on current state.",
-      "prompt": "The auditor ________ (find) something important, he's been in that room for hours.",
-      "answers": [
-        "must have found"
-      ]
-    },
-    {
-      "id": "finance-b2-w6-gamified",
-      "type": "crossword",
-      "title": "Risk & Insurance Crossword",
-      "instructions": "Complete the crossword with key terms from this week.",
-      "items": [
-        {
-          "word": "UNDERWRITING",
-          "clue": "The process of evaluating and taking on financial risk for a fee.",
-          "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
-          "word": "MITIGATION",
-          "clue": "Reducing the impact or likelihood of a risk.",
-          "direction": "down",
-          "row": 2,
-          "col": 0
-        },
-        {
-          "word": "LIABILITY",
-          "clue": "Legal responsibility for damage or injury to others.",
-          "direction": "across",
-          "row": 4,
-          "col": 0
-        },
-        {
-          "word": "HEDGING",
-          "clue": "An investment to reduce the risk of adverse price movements in an asset.",
-          "direction": "down",
-          "row": 6,
-          "col": 0
-        },
-        {
-          "word": "REINSURANCE",
-          "clue": "Insurance for insurance companies.",
-          "direction": "across",
-          "row": 8,
-          "col": 0
-        },
-        {
-          "word": "CLAIM",
-          "clue": "A formal request for payment for a covered loss.",
-          "direction": "down",
-          "row": 10,
-          "col": 0
-        }
-      ]
-    },
-    {
-      "id": "finance-b2-w6-reading-authentic",
-      "type": "reading-comprehension",
-      "title": "Stress Testing: The Financial System's Annual Physical",
-      "instructions": "Read the following article about banking regulations and answer the questions.",
-      "text": "Since the Great Financial Crisis of 2008, the global banking sector has been subject to rigorous annual 'stress tests' designed to prevent a repeat of the systemic collapse. In the United States, the Federal Reserve conducts the Comprehensive Capital Analysis and Review (CCAR), while in Europe, the EBA performs similar exercises. These tests are not about predicting the future; they are about assessing 'solvency' under hypothetical, worst-case scenarios.\n\nRegulators simulate extreme economic contractions, such as a 10% rise in unemployment combined with a 50% crash in the stock market. Banks must prove that even in these conditions, they would maintain enough 'Common Equity Tier 1' (CET1) capital—their highest-quality capital buffer—to continue lending and absorbing losses. A bank that fails a stress test is typically 'bound to' face restrictions on its ability to pay dividends or buy back shares. While critics argue these tests are overly prescriptive, proponents maintain they have significantly reduced the risk of 'contagion' where the failure of one institution triggers a domino effect across the entire financial system.",
-      "vocabularyHelp": [
-        { "word": "solvency", "meaning": "the ability of a company to meet its long-term fixed expenses and to accomplish long-term expansion and growth" },
-        { "word": "systemic risk", "meaning": "the possibility that an event at the micro level of a single bank or insurance company could then trigger a macro-level collapse" },
-        { "word": "capital adequacy", "meaning": "the amount of capital a bank or other financial institution has to hold as required by its financial regulator" },
-        { "word": "contagion", "meaning": "the spread of an economic crisis from one market or region to another" },
-        { "word": "prescriptive", "meaning": "relating to the imposition or enforcement of a rule or method" }
+      "id": "listening-01",
+      "type": "listening-dialogue",
+      "title": "The Overbooked Agenda",
+      "dialogue": [
+        { "speaker": "Executive", "text": "My Tuesday is completely back-to-back. I don't even have time for a lunch break." },
+        { "speaker": "Admin", "text": "I'll reschedule the 2 PM meeting to block out some buffer time for you." },
+        { "speaker": "Executive", "text": "Thank you. Never have I felt so overwhelmed by my own calendar!" }
       ],
       "questions": [
         {
-          "id": "finance-b2-w6-reading-authentic-q1",
-          "type": "multiple-choice",
-          "question": "What is the primary purpose of banking stress tests?",
-          "options": [
-            "To predict exactly when the next recession will happen.",
-            "To evaluate if banks have enough capital to survive extreme economic shocks.",
-            "To help banks increase their stock prices.",
-            "To decide which CEOs should be fired."
-          ],
-          "correctAnswer": "To evaluate if banks have enough capital to survive extreme economic shocks.",
-          "explanation": "The text explains that stress tests assess solvency under hypothetical, worst-case scenarios to prevent systemic collapse."
-        },
-        {
-          "id": "finance-b2-w6-reading-authentic-q2",
-          "type": "multiple-choice",
-          "question": "What happens to a bank that fails a stress test?",
-          "options": [
-            "It is immediately closed by the government.",
-            "It is required to pay a higher tax rate.",
-            "It may face restrictions on dividend payments and share buybacks.",
-            "It is forced to merge with a larger bank."
-          ],
-          "correctAnswer": "It may face restrictions on dividend payments and share buybacks.",
-          "explanation": "The text states that failing banks are 'bound to' face restrictions on dividends or share buybacks."
-        }
-      ]
-    },
-    {
-      "id": "finance-b2-w6-listening-authentic",
-      "type": "listening-comprehension",
-      "title": "Internal Meeting: Q3 Operational Risk Review",
-      "instructions": "Listen to a Risk Officer present a report on a recent security incident.",
-      "audioUrl": "https://example.com/audio/finance/b2/w6/risk-committee.mp3",
-      "transcript": "Officer: Thank you all for coming. I want to address the 'near-miss' incident we had last Tuesday. Our intrusion detection system flagged a breach attempt on the retail banking server.\n\nManager: I heard about that. It must have been a sophisticated attack if it got past the first firewall.\n\nOfficer: Actually, it wasn't. The attackers were exploiting a known vulnerability that we should have patched three months ago. The IT team was overwhelmed with the migration to the cloud, but that's no excuse. If they had applied the update on time, the risk would have been zero.\n\nManager: So, what's our current status? Is the system secure now?\n\nOfficer: It's stable for now, but we are bound to suffer a successful breach if we don't increase our cybersecurity budget. Our current legacy systems could well fail under a coordinated DDoS attack. We need to move from a reactive posture to a proactive one, investing more in automated threat hunting and employee training.",
-      "questions": [
-        {
-          "id": "finance-b2-w6-listening-authentic-q1",
-          "type": "multiple-choice",
-          "question": "Why does the Risk Officer criticize the IT team?",
-          "options": [
-            "They spent too much money on the cloud migration.",
-            "They should have patched a known vulnerability earlier.",
-            "They weren't working on the day of the attack.",
-            "They forgot to turn on the firewall."
-          ],
-          "correctAnswer": "They should have patched a known vulnerability earlier.",
-          "explanation": "The officer explicitly states: 'The attackers were exploiting a known vulnerability that we should have patched three months ago'."
-        },
-        {
-          "id": "finance-b2-w6-listening-authentic-q2",
-          "type": "multiple-choice",
-          "question": "What does the officer mean by 'bound to suffer a successful breach'?",
-          "options": [
-            "A breach might happen if they are unlucky.",
-            "A breach is 100% certain to happen eventually if things don't change.",
-            "A breach has already happened and they are hiding it.",
-            "A breach is very unlikely to happen."
-          ],
-          "correctAnswer": "A breach is 100% certain to happen eventually if things don't change.",
-          "explanation": "In this context, 'bound to' indicates a high degree of certainty about a future event."
+          "question": "What action will the Admin take?",
+          "options": ["Cancel all meetings", "Reschedule the 2 PM meeting to create buffer time", "Buy lunch for the executive", "Book a new flight"],
+          "correctAnswer": 1
         }
       ]
     }

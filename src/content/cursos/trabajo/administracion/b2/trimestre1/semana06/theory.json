@@ -1,36 +1,42 @@
 {
-  "title": "Enterprise Risk Management, Derivatives, and Resilience",
+  "title": "Advanced Agenda Management and Corporate Travel",
   "sections": [
     {
-      "id": "quantitative-risk-management",
-      "title": "Quantitative Risk Assessment and Value at Risk (VaR)",
-      "sections": [
-        {
-          "id": "var-concept",
-          "title": "Value at Risk (VaR)",
-          "content": "In financial services, **Value at Risk (VaR)** is the industry standard for measuring market risk. It estimates the maximum potential loss a portfolio could face over a specific time horizon with a given confidence level (e.g., 'There is a 95% probability that the bank will not lose more than $10 million in a single day')."
-        },
-        {
-          "id": "stress-testing",
-          "title": "Stress Testing and Scenario Analysis",
-          "content": "While VaR measures 'normal' market conditions, **Stress Testing** evaluates how a portfolio would perform under extreme, 'black swan' events (e.g., a global pandemic, a sudden 30% drop in oil prices). Regulators require major banks to undergo annual stress tests to ensure they have sufficient **Capital Buffers** to survive a systemic crisis."
-        }
-      ]
+      "id": "complex-calendars",
+      "title": "Managing Complex Executive Calendars",
+      "content": "At the B2 level, agenda management goes beyond just 'booking meetings'. It involves strategic time management and protecting the executive's most valuable resource: their time.\n\n### Strategic Calendar Management\n- **Time Blocking**: Dedicating specific hours for 'Deep Work' or email management to prevent the executive from being overwhelmed by meetings.\n- **Buffer Time**: Intentionally leaving 10–15 minutes between meetings to allow for overruns, travel between rooms, or a quick mental reset.\n- **Priority Alignment**: Reviewing the calendar against the executive's key goals to ensure they are spending time on high-impact activities.\n- **Gatekeeping**: Politely but firmly declining or redirecting meeting requests that do not require the executive's direct involvement."
     },
     {
-      "id": "derivatives-hedging",
-      "title": "Hedging with Derivatives",
-      "content": "Derivatives are powerful tools for transferring specific financial risks.\n\n### Key Instruments\n- **Options**: Provide the right, but not the obligation, to buy (**Call**) or sell (**Put**) an asset at a predetermined price. Buying a 'Put Option' acts as insurance against a decline in a stock's price.\n- **Futures and Forwards**: Obligate the parties to transact an asset at a future date at a set price. Used extensively by airlines to hedge fuel costs and by farmers to lock in crop prices.\n- **Credit Default Swaps (CDS)**: A type of insurance against the default of a borrower. The buyer of a CDS pays a periodic fee to the seller in exchange for a payout if a third party defaults."
+      "id": "corporate-travel",
+      "title": "Corporate Travel and Itineraries",
+      "content": "Planning corporate travel requires meticulous attention to detail. A professional **itinerary** should be a 'one-stop shop' for all travel information.\n\n### Components of a Professional Itinerary\n- **Travel Details**: Flight numbers, terminal info, confirmation codes, and seat assignments.\n- **Ground Transportation**: Car service details, train schedules, or walking directions to the hotel.\n- **Accommodation**: Hotel address, check-in/out times, and breakfast info.\n- **Meeting Schedule**: Times, locations (with map links), and names of the people being met.\n- **Contingency Info**: Emergency contact numbers and info on local hospitals or embassies if traveling internationally."
     },
     {
-      "id": "operational-cyber-risk",
-      "title": "Operational Resilience and Cybersecurity",
-      "content": "In the digital age, **Operational Risk** has expanded to include cybersecurity. A single data breach can lead to massive financial penalties, reputational damage, and the loss of customer trust.\n- **Business Continuity Planning (BCP)**: A strategy to ensure that critical business functions can continue during and after a disaster.\n- **Disaster Recovery (DR)**: The technical subset of BCP focused on restoring IT systems and data."
+      "id": "grammar-inversion",
+      "title": "Grammar: Inversion for Formal Emphasis",
+      "content": "In formal business communication, we sometimes reverse the normal word order to add emphasis or create a more professional tone. This is common in high-level reporting and formal emails.\n\n### 1. Negative Adverbials (Never, Rarely, Seldom)\n- *Normal*: \"I have never seen such a disorganised itinerary.\"\n- *Inverted*: \"**Never have I seen** such a disorganised itinerary.\"\n\n### 2. Not only... but also\n- *Normal*: \"The hotel is not only expensive but it is also far from the office.\"\n- *Inverted*: \"**Not only is the hotel expensive, but it is also** far from the office.\"\n\n### 3. Under no circumstances\nUsed for strict rules or warnings.\n- *Normal*: \"You should not share your corporate credit card details under any circumstances.\"\n- *Inverted*: \"**Under no circumstances should you share** your corporate credit card details.\"\n\n### 4. Only after / Only when\n- *Inverted*: \"**Only after receiving the confirmation** did I book the car service.\""
     },
     {
-      "id": "grammar-advanced-modals-prediction",
-      "title": "Grammar: Advanced Modals and Degrees of Probability",
-      "content": "When presenting risk reports, you must accurately qualify your statements based on available evidence.\n\n### Past Criticism and Regret\n- **Should have / Ought to have**: Used to criticize a past action or express regret.\n  - *\"The risk department **should have identified** the concentration in subprime mortgages earlier.\"*\n  - *\"We **ought to have hedged** our Euro exposure before the volatility spiked.\"*\n\n### Strong Predictions\n- **Bound to / Certain to**: 100% sure something will happen.\n  - *\"If we don't update our firewall, we are **bound to suffer** a breach.\"*\n- **Likely to / Set to**: Very probable.\n  - *\"The central bank is **set to increase** the reserve requirement next month.\"*\n\n### Speculating about the Future (Modals)\n- **Could well / May well**: Indicates a strong possibility.\n  - *\"This regulatory change **could well lead** to a consolidation in the banking sector.\"*"
+      "id": "phrase-bank",
+      "title": "PhraseBank: Travel & Logistics",
+      "content": "1. **to book in advance** — To reserve something well before the date it is needed.\n2. **to coordinate logistics** — To manage the complex details of an operation or event.\n3. **to provide an itinerary** — To give a detailed plan for a journey.\n4. **ground transportation** — Vehicles used for moving on the ground (taxis, trains, etc.).\n5. **to confirm availability** — To check if a room, flight, or person is free.\n6. **to make a reservation** — To book a seat, room, or table.\n7. **per diem** — A daily allowance for expenses (usually for travel).\n8. **travel expenses** — Costs incurred while traveling for business.\n9. **to reconcile expenses** — To check travel costs against receipts and the budget.\n10. **visa requirements** — Legal requirements for entering a foreign country.\n11. **time zone difference** — The difference in time between two locations.\n12. **to reschedule a meeting** — To move a meeting to a different time or date.\n13. **to back-to-back meetings** — Meetings that happen one after another without a break.\n14. **to block out time** — To reserve time in a calendar for a specific purpose.\n15. **jet lag** — Extreme tiredness felt after a long flight across time zones."
+    },
+    {
+      "id": "deliverable",
+      "title": "Weekly Deliverable (Portfolio)",
+      "content": "### Task: The Ultimate Corporate Itinerary\nCreate a detailed 2-day itinerary for an executive traveling from London to New York for a series of high-level board meetings.\n\n**Requirements:**\n1. Include flight, hotel, and meeting details for both days.\n2. Add a 'Logistics Note' using at least two examples of **Inversion for Emphasis** (e.g., 'Not only is the hotel...', 'Under no circumstances should...').\n3. Include a section on 'Time Zone Management' and 'Contingency Planning'."
     }
+  ],
+  "objectives": [
+    "Manage complex executive calendars using strategic time-blocking and buffer techniques",
+    "Produce detailed and professional corporate travel itineraries",
+    "Apply inversion structures in formal business communication for emphasis",
+    "Identify and coordinate travel logistics, including visas, transport, and expenses"
+  ],
+  "keyTerms": [
+    { "term": "Itinerary", "definition": "A detailed plan or route of a journey." },
+    { "term": "Inversion", "definition": "Reversing the normal word order of a sentence, especially for emphasis or in formal contexts." },
+    { "term": "Gatekeeping", "definition": "The activity of controlling, and usually limiting, general access to something." },
+    { "term": "Per Diem", "definition": "A specific amount of money an organization gives an individual per day to cover living expenses when traveling for business." }
   ]
 }

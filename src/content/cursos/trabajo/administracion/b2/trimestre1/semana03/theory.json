@@ -1,47 +1,42 @@
 {
-  "title": "Taxation, Forex, and International Financial Reporting",
+  "title": "Data Protection and GDPR: Safeguarding Information",
   "sections": [
     {
-      "id": "corporate-tax-strategy",
-      "title": "Corporate Tax Strategy and Global Compliance",
-      "sections": [
-        {
-          "id": "tax-concepts",
-          "title": "Advanced Tax Concepts",
-          "content": "In the modern global economy, corporate taxation is no longer just about compliance; it is a critical component of strategic financial management. Multinational Corporations (MNCs) must navigate a complex web of national laws and international treaties.\n\n### Strategic Tax Planning\n- **Effective Tax Rate (ETR)**: The actual rate a company pays after all credits, deductions, and exemptions are applied, as opposed to the **Statutory Tax Rate**.\n- **Base Erosion and Profit Shifting (BEPS)**: A global initiative led by the OECD to prevent MNCs from shifting profits to low-tax jurisdictions (tax havens) to artificially reduce their tax base.\n- **Double Taxation Treaties (DTT)**: Bilateral agreements between countries to prevent the same income from being taxed twice, facilitating international trade and investment.\n- **Transfer Pricing Scrutiny**: Tax authorities use the 'Arm's Length Principle' to ensure that transactions between subsidiaries of the same company are priced as if they were between independent parties."
-        },
-        {
-          "id": "tax-accounting",
-          "title": "Tax Accounting and Deferred Liabilities",
-          "content": "Accountants must reconcile 'Book Income' (per financial statements) with 'Taxable Income' (per tax law).\n- **Temporary Differences**: Differences that will reverse in future periods, giving rise to **Deferred Tax Assets (DTA)** or **Deferred Tax Liabilities (DTL)**.\n  - *Example*: Accelerated depreciation for tax purposes creates a DTL because the company pays less tax now but will pay more later."
-        }
-      ]
+      "id": "gdpr-principles",
+      "title": "GDPR Principles for Administrative Professionals",
+      "content": "As an administrative professional at a B2 level, you are often the 'gatekeeper' of sensitive information. Understanding the **General Data Protection Regulation (GDPR)** is essential for maintaining compliance and avoiding heavy fines for your organisation.\n\n### Core Principles\n- **Lawfulness, Fairness, and Transparency**: Data must be processed legally and the subject must be informed.\n- **Purpose Limitation**: You should only collect data for specific, explicit, and legitimate purposes.\n- **Data Minimisation**: Only collect the data that is absolutely necessary (e.g., don't ask for a passport number if only a name is needed).\n- **Storage Limitation**: Data should not be kept for longer than is necessary for the purposes for which it is processed.\n- **Integrity and Confidentiality**: Ensuring protection against unauthorised or unlawful processing and against accidental loss.\n\n### Subject Access Requests (SARs)\nA **Subject Access Request** is when an individual asks for a copy of the personal data an organisation holds about them. Administrative staff are often responsible for collating this data within the legal timeframe (usually 30 days)."
     },
     {
-      "id": "international-finance-risk",
-      "title": "International Finance and Forex Risk Management",
-      "sections": [
-        {
-          "id": "forex-mechanics",
-          "title": "Forex Market Mechanics",
-          "content": "The Foreign Exchange (Forex) market is the most liquid in the world. For companies operating across borders, managing currency volatility is essential for protecting profit margins.\n\n### Exchange Rate Theories\n- **Purchasing Power Parity (PPP)**: The theory that the exchange rate between two currencies should equal the ratio of the countries' price levels (the 'Big Mac Index' is a famous simplification).\n- **Interest Rate Parity (IRP)**: A theory suggesting that the difference in interest rates between two countries should be reflected in the forward exchange rate premium or discount."
-        },
-        {
-          "id": "hedging-strategies",
-          "title": "Hedging Currency Exposure",
-          "content": "To mitigate **FX Risk**, treasury departments use various financial instruments:\n- **Forward Contracts**: Bespoke agreements to exchange currency at a fixed rate on a future date, locking in costs.\n- **Currency Swaps**: The exchange of principal and interest in one currency for the same in another, often used to secure cheaper funding in foreign markets.\n- **Natural Hedging**: Matching revenues and expenses in the same currency to reduce net exposure (e.g., a US company paying its European suppliers in Euros from its Euro-denominated sales)."
-        }
-      ]
+      "id": "data-breach",
+      "title": "Handling a Data Breach",
+      "content": "A **data breach** occurs when personal data is lost, destroyed, corrupted, or disclosed without authority. \n\n**Action Protocol:**\n1. **Identify**: Confirm that a breach has occurred (e.g., an email sent to the wrong recipient).\n2. **Contain**: Take immediate steps to limit the damage (e.g., recall the email or lock the affected account).\n3. **Assess**: Determine the risk to the individuals affected.\n4. **Notify**: Under GDPR, serious breaches must be reported to the regulator within **72 hours**.\n\nIn professional communication, reporting a breach requires a factual, neutral tone without emotive language."
     },
     {
-      "id": "auditing-professionalism",
-      "title": "Auditing Professionalism and Global Standards",
-      "content": "The International Standards on Auditing (ISA) provide the framework for consistent audit quality worldwide. A key pillar of these standards is **Professional Skepticism**—the auditor's duty to maintain a questioning mind and not take management's representations at face value.\n\n### The Audit Risk Model\n**Audit Risk = Inherent Risk × Control Risk × Detection Risk**\n- **Inherent Risk**: The susceptibility of an account to material misstatement due to its nature (e.g., complex derivatives).\n- **Control Risk**: The risk that a company's internal controls fail to prevent or detect a misstatement.\n- **Detection Risk**: The risk that the auditor's procedures fail to catch an error. This is the only component the auditor can directly control."
+      "id": "grammar-complex-passives",
+      "title": "Grammar: Complex Passives in Official Reporting",
+      "content": "In formal administration and legal contexts, we use **complex passive structures** to report information or opinions without attributing them to a specific person. This creates a sense of objectivity and distance.\n\n### Common Structures\n1. **It + is + [thought/said/believed/reported] + that...**\n   - *\"**It is reported that** the data breach was caused by a phishing attempt.\"*\n   - *\"**It is estimated that** over 500 records were compromised.\"*\n\n2. **Subject + is + [thought/said/believed/reported] + to + [infinitive]**\n   - *\"The server **is believed to have been** vulnerable for several months.\"*\n   - *\"The new policy **is expected to improve** our compliance score.\"*\n\nThese structures are particularly useful when writing reports where the source of information is confidential or when discussing general consensus."
     },
     {
-      "id": "grammar-advanced-conditionals",
-      "title": "Grammar: Advanced Conditionals for Risk Assessment",
-      "content": "In financial analysis, conditionals are used to model 'What-If' scenarios and assess potential outcomes.\n\n### Complex Financial Scenarios\n1. **Third Conditional (Past Regret/Analysis)**:\n   - *\"If the treasury department **had hedged** our GBP exposure before the Brexit vote, the company **would not have suffered** a 15% hit to its quarterly earnings.\"*\n\n2. **Mixed Conditional (Past Action, Present Result)**:\n   - *\"If the board **had implemented** stricter internal controls five years ago, we **would not be facing** this regulatory fine today.\"*\n\n3. **First Conditional with 'Unless' (Conditions for Success)**:\n   - *\"We will meet our debt covenants **unless** the interest rate **increases** by more than 50 basis points.\"*\n\n4. **Second Conditional (Hypothetical Strategy)**:\n   - *\"If we **were** to shift our production to a low-cost jurisdiction, our gross margins **would improve**, but our supply chain risk **would increase**.\"*"
+      "id": "phrase-bank",
+      "title": "PhraseBank: GDPR & Privacy",
+      "content": "1. **personally identifiable information (PII)** — Any data that can be used to identify a specific person.\n2. **data controller** — The person or organisation that determines the purpose of data processing.\n3. **data processor** — A third party that processes data on behalf of the controller.\n4. **to be in compliance with** — To follow the rules and regulations correctly.\n5. **to exercise a right** — To use a legal right (e.g., the right to be forgotten).\n6. **to redact information** — To black out or remove sensitive information from a document.\n7. **security breach** — An incident that results in unauthorised access to data.\n8. **encryption** — The process of converting information into a code to prevent unauthorised access.\n9. **opt-in / opt-out** — Choosing to participate or not participate in data collection.\n10. **third-party disclosure** — Sharing data with an external company.\n11. **non-disclosure agreement (NDA)** — A contract preventing the sharing of confidential info.\n12. **due diligence** — The care that a reasonable person exercises to avoid harm.\n13. **to mitigate risk** — To make a risk less severe.\n14. **sensitive data** — Data that requires higher protection (e.g., health or ethnic origin).\n15. **anonymisation** — Removing identifying markers so data is no longer PII."
+    },
+    {
+      "id": "deliverable",
+      "title": "Weekly Deliverable (Portfolio)",
+      "content": "### Task: Data Privacy Internal Audit\nPerform a 'mini-audit' of your current (or a hypothetical) workspace and write a 250-word report.\n\n**Structure:**\n1. **Observation**: Identify two potential privacy risks (e.g., unlocked filing cabinets, passwords on sticky notes).\n2. **Evaluation**: Use **complex passives** to describe how these risks are perceived (e.g., 'It is thought that...').\n3. **Recommendations**: Suggest two actions to ensure the office is 'in compliance' with GDPR."
     }
+  ],
+  "objectives": [
+    "Summarise the core principles of GDPR in an administrative context",
+    "Describe the steps to handle and report a data breach professionally",
+    "Use complex passive structures to report information objectively",
+    "Identify and mitigate common privacy risks in the office environment"
+  ],
+  "keyTerms": [
+    { "term": "PII", "definition": "Personally Identifiable Information: data that can be used on its own or with other information to identify, contact, or locate a single person." },
+    { "term": "SAR", "definition": "Subject Access Request: a right for an individual to get a copy of the personal information that is held about them." },
+    { "term": "Redaction", "definition": "The process of removing sensitive information from a document before it is published or shared." },
+    { "term": "Compliance", "definition": "The state of following a set of rules, regulations, or laws." }
   ]
 }
