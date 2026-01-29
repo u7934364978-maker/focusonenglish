@@ -1,65 +1,75 @@
 {
-  "title": "Weekly Exam: Investment Banking & Risk",
+  "title": "Weekly Exam: Onboarding & Operational Protocols",
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana01",
   "questions": [
     {
-      "id": "finance-b2-w1-exam-q1",
-      "type": "multiple-choice",
-      "question": "An investment bank's role in 'underwriting' involves:",
+      "id": "adm-b2-w1-exam-q1",
+      "type": "multipleChoice",
+      "question": "Which of the following is NOT a core component of the escalation checklist mentioned in the guidelines?",
       "options": [
-        "Managing daily savings accounts",
-        "Guaranteeing the price of the shares and buying any unsold ones",
-        "Insuring the bank's physical assets",
-        "Writing letters of credit for small businesses"
+        "Facts and Impact",
+        "What you've already tried",
+        "Personal opinions about colleagues",
+        "What you specifically need (decision/resource)"
       ],
-      "correctAnswer": "Guaranteeing the price of the shares and buying any unsold ones",
-      "explanation": "Underwriting is the process by which investment banks raise investment capital from investors on behalf of corporations and governments that are issuing securities.",
-      "points": 10
+      "answerIndex": 2,
+      "explanation": "Professional escalation must be based on facts and needs, not personal opinions or blame."
     },
     {
-      "id": "finance-b2-w1-exam-q2",
-      "type": "multiple-choice",
-      "question": "Which type of risk is most closely associated with the 'inability to convert assets into cash quickly without significant loss'?",
-      "options": ["Market Risk", "Credit Risk", "Liquidity Risk", "Operational Risk"],
-      "correctAnswer": "Liquidity Risk",
-      "explanation": "Liquidity risk occurs when an entity cannot meet its short-term debt obligations or sell an asset quickly for cash.",
-      "points": 10
-    },
-    {
-      "id": "finance-b2-w1-exam-q3",
-      "type": "multiple-choice",
-      "question": "Which modal is correct for a strong deduction about a past mistake? 'The board ___ authorized that acquisition; it was obviously overpriced.'",
-      "options": ["mustn't have", "shouldn't have", "can't have", "might not have"],
-      "correctAnswer": "shouldn't have",
-      "explanation": "'Shouldn't have + past participle' is used to express criticism of a past action.",
-      "points": 10
-    },
-    {
-      "id": "finance-b2-w1-exam-q4",
-      "type": "multiple-choice",
-      "question": "In the IPO process, what is 'The Roadshow'?",
+      "id": "adm-b2-w1-exam-q2",
+      "type": "multipleChoice",
+      "question": "In a Daily Check-in meeting, when is the correct time to mention obstacles that are preventing your progress?",
       "options": [
-        "A celebration party after the IPO",
-        "A series of presentations to potential institutional investors",
-        "A legal investigation into the company's suppliers",
-        "A marketing campaign for the general public"
+        "During the 'Planning' section for today",
+        "In the 'Blockers' section of the agenda",
+        "After the meeting via private email only",
+        "Only if the manager asks directly"
       ],
-      "correctAnswer": "A series of presentations to potential institutional investors",
-      "explanation": "A roadshow is a series of professional presentations made in various locations to potential investors, typically to drum up interest for an IPO.",
-      "points": 10
+      "answerIndex": 1,
+      "explanation": "Blockers are a standard part of the daily check-in agenda to ensure the team can help resolve them."
     },
     {
-      "id": "finance-b2-w1-exam-q5",
-      "type": "multiple-choice",
-      "question": "What is 'Hedging' in financial risk management?",
+      "id": "adm-b2-w1-exam-q3",
+      "type": "multipleChoice",
+      "question": "What is the primary purpose of the 'Ops Inbox' in the described 'ways of working'?",
       "options": [
-        "Taking a high-risk position to maximize profit",
-        "Using financial instruments to offset potential losses",
-        "Reporting fraudulent activity to the authorities",
-        "Investing only in government-backed bonds"
+        "For personal emails and chat",
+        "To track internal team social events",
+        "For requests from outside the team that cannot be solved locally",
+        "To store old project documentation"
       ],
-      "correctAnswer": "Using financial instruments to offset potential losses",
-      "explanation": "Hedging is a risk management strategy used to offset potential losses in an investment by taking an opposite position in a related asset.",
-      "points": 10
+      "answerIndex": 2,
+      "explanation": "The Ops Inbox is a centralized channel for handling external requests efficiently."
+    },
+    {
+      "id": "adm-b2-w1-exam-q4",
+      "type": "multipleChoice",
+      "question": "How should a time-sensitive request be identified on the Ops Board?",
+      "options": [
+        "By marking it as 'Done' immediately",
+        "By flagging it as 'Urgent' and including a specific deadline",
+        "By moving it to the 'New' status",
+        "By deleting the task and calling a meeting"
+      ],
+      "answerIndex": 1,
+      "explanation": "Flagging as Urgent and providing a deadline is the standard protocol for time-sensitive work."
+    },
+    {
+      "id": "adm-b2-w1-exam-q5",
+      "type": "multipleChoice",
+      "question": "Which sentence demonstrates the most professional 'neutral tone' for a UK English business environment?",
+      "options": [
+        "The project is failing because you didn't do your job.",
+        "I'm waiting for your team to stop being so slow.",
+        "We are currently waiting for the final validation before we can proceed with the handover.",
+        "You need to fix this immediately or we will lose the client."
+      ],
+      "answerIndex": 2,
+      "explanation": "Option 3 uses factual language ('waiting for validation', 'proceed with the handover') without assigning blame."
     }
-  ]
+  ],
+  "passingScore": 80
 }
