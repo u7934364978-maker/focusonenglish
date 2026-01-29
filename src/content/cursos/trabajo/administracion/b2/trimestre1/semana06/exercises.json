@@ -152,6 +152,312 @@
       "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Gatekeeping'. 2) What is 'Buffer Time'? 3) Invert: 'I have never seen a better plan.' 4) What does it mean to 'reconcile' expenses?",
       "modelAnswer": "1) Controlling access to an executive. 2) 10-15 mins between meetings. 3) Never have I seen a better plan. 4) Checking costs against receipts and budget.",
       "keywords": ["access", "meetings", "Never", "receipts"]
+    },
+    {
+      "id": "adm-b2-w6-ex16",
+      "type": "multipleChoice",
+      "prompt": "Exercise 16: Inversion Practice. Complete the sentence: 'Only after the visa was approved ______ the flights.'",
+      "options": [
+        "I booked",
+        "did I book",
+        "I was booking",
+        "booking"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'Only after...', we use inversion (did I book) in the main clause."
+    },
+    {
+      "id": "adm-b2-w6-ex17",
+      "type": "multipleChoice",
+      "prompt": "Exercise 17: International Logistics. What is an ESTA primarily used for?",
+      "options": [
+        "Booking luxury hotels in Europe.",
+        "Electronic authorization for entering the USA under the Visa Waiver Program.",
+        "A type of corporate credit card.",
+        "Checking health requirements for Asia."
+      ],
+      "answerIndex": 1,
+      "explanation": "ESTA is the standard electronic authorization for the USA."
+    },
+    {
+      "id": "adm-b2-w6-ex18",
+      "type": "writingTask",
+      "prompt": "Exercise 18: Inversion. Rewrite: 'The meeting was not only long, but it was also unproductive.' (Start with 'Not only...')",
+      "modelAnswer": "Not only was the meeting long, but it was also unproductive.",
+      "keywords": ["Not only", "was", "but"]
+    },
+    {
+      "id": "adm-b2-w6-ex19",
+      "type": "multipleChoice",
+      "prompt": "Exercise 19: Expense Policy. If a company has a 'Preferred Vendor' policy, an administrator should:",
+      "options": [
+        "Book with any vendor they find on Google.",
+        "Always prioritize booking with the suppliers the company has negotiated rates with.",
+        "Let the executive pick any vendor regardless of price.",
+        "Only book vendors that offer personal loyalty points."
+      ],
+      "answerIndex": 1,
+      "explanation": "Preferred vendors help control costs and ensure quality standards."
+    },
+    {
+      "id": "adm-b2-w6-ex20",
+      "type": "writingTask",
+      "prompt": "Exercise 20: Vocabulary. Use 'per diem' and 'out-of-pocket' in a sentence about travel reimbursement.",
+      "modelAnswer": "I used my per diem for dinner, but I had to claim for out-of-pocket taxi expenses separately.",
+      "keywords": ["per diem", "out-of-pocket"]
+    },
+    {
+      "id": "adm-b2-w6-ex21",
+      "type": "multipleChoice",
+      "prompt": "Exercise 21: Strategic Calendaring. What is 'Time Blocking'?",
+      "options": [
+        "Deleting all meetings from the calendar.",
+        "Scheduling specific periods of the day for dedicated tasks or 'Deep Work'.",
+        "Reporting the executive's location to the police.",
+        "Blocking people from sending meeting invites."
+      ],
+      "answerIndex": 1,
+      "explanation": "Time blocking is a proactive productivity technique."
+    },
+    {
+      "id": "adm-b2-w6-ex22",
+      "type": "writingTask",
+      "prompt": "Exercise 22: Inversion. Form an inverted sentence using 'Rarely' and 'efficient'.",
+      "modelAnswer": "Rarely have I seen such an efficient travel plan.",
+      "keywords": ["Rarely", "have", "seen", "efficient"]
+    },
+    {
+      "id": "adm-b2-w6-ex23",
+      "type": "multipleChoice",
+      "prompt": "Exercise 23: Gatekeeping. A 'Gatekeeper' is someone who:",
+      "options": [
+        "Physically locks the office doors.",
+        "Manages and often limits access to an executive's time and schedule.",
+        "Works as a security guard.",
+        "Only answers the phone during lunch."
+      ],
+      "answerIndex": 1,
+      "explanation": "In an admin context, gatekeeping is about strategic time protection."
+    },
+    {
+      "id": "adm-b2-w6-ex24",
+      "type": "writingTask",
+      "prompt": "Exercise 24: Proofreading. Find the error in this itinerary note: 'Not only the flight is late, but also the driver is missing.'",
+      "modelAnswer": "Correction: Not only IS the flight late...",
+      "keywords": ["is", "flight"]
+    },
+    {
+      "id": "adm-b2-w6-ex25",
+      "type": "multipleChoice",
+      "prompt": "Exercise 25: Logistics. What does 'Ground Transportation' cover?",
+      "options": [
+        "The flight itself.",
+        "Taxis, trains, buses, or private cars used once the executive arrives.",
+        "Only walking directions.",
+        "Private jets."
+      ],
+      "answerIndex": 1,
+      "explanation": "Ground transportation refers to non-aerial transit at the destination."
+    },
+    {
+      "id": "adm-b2-w6-ex26",
+      "type": "writingTask",
+      "prompt": "Exercise 26: Gatekeeping Email. Write a short email declining a 4 PM Friday meeting because your boss has a 'Buffer Time' block before a flight.",
+      "modelAnswer": "I'm afraid the Director is unavailable at 4 PM as she is preparing for her flight. Would Monday morning work for you instead? Thanks.",
+      "keywords": ["unavailable", "preparing", "Monday"]
+    },
+    {
+      "id": "adm-b2-w6-ex27",
+      "type": "multipleChoice",
+      "prompt": "Exercise 27: Expense Audit. Why is it important to 'cross-reference' receipts with the credit card statement?",
+      "options": [
+        "To make sure the executive is spending enough money.",
+        "To ensure accuracy and detect any fraudulent or incorrect charges.",
+        "To choose which receipts to throw away.",
+        "Because it's a legal requirement to have two copies of everything."
+      ],
+      "answerIndex": 1,
+      "explanation": "Cross-referencing is a key step in the reconciliation/audit process."
+    },
+    {
+      "id": "adm-b2-w6-ex28",
+      "type": "writingTask",
+      "prompt": "Exercise 28: Inversion. Rewrite: 'The project will only start when the funding is secured.' (Start with 'Only when...')",
+      "modelAnswer": "Only when the funding is secured will the project start.",
+      "keywords": ["Only when", "will", "project"]
+    },
+    {
+      "id": "adm-b2-w6-ex29",
+      "type": "multipleChoice",
+      "prompt": "Exercise 29: Time Zones. When scheduling a meeting between London (GMT) and New York (EST, -5 hours), what is the best time for both?",
+      "options": [
+        "09:00 GMT (04:00 EST)",
+        "14:00 GMT (09:00 EST)",
+        "18:00 GMT (13:00 EST)",
+        "22:00 GMT (17:00 EST)"
+      ],
+      "answerIndex": 1,
+      "explanation": "14:00 GMT/09:00 EST is the start of the business day in NY and mid-afternoon in London."
+    },
+    {
+      "id": "adm-b2-w6-ex30",
+      "type": "writingTask",
+      "prompt": "Exercise 30: Visa Knowledge. Explain the difference between a 'Business Visa' and a 'Tourist Visa' for a consultant visiting a client.",
+      "modelAnswer": "A business visa allows professional activities like meetings or site visits, whereas a tourist visa is strictly for leisure and may be illegal for work purposes.",
+      "keywords": ["meetings", "leisure", "illegal"]
+    },
+    {
+      "id": "adm-b2-w6-ex31",
+      "type": "multipleChoice",
+      "prompt": "Exercise 31: Vocabulary. A 'layover' is:",
+      "options": [
+        "A type of bed in a hotel.",
+        "A short stay in a place between two parts of a journey.",
+        "When an employee is fired during a trip.",
+        "A formal apology for being late."
+      ],
+      "answerIndex": 1,
+      "explanation": "A layover or stopover is a break between flights."
+    },
+    {
+      "id": "adm-b2-w6-ex32",
+      "type": "writingTask",
+      "prompt": "Exercise 32: Inversion. Rewrite using 'Seldom': 'He rarely travels without his personal assistant.'",
+      "modelAnswer": "Seldom does he travel without his personal assistant.",
+      "keywords": ["Seldom", "does", "travel"]
+    },
+    {
+      "id": "adm-b2-w6-ex33",
+      "type": "multipleChoice",
+      "prompt": "Exercise 33: Travel Logistics. Which document is most critical for an executive traveling to a country with high health risks?",
+      "options": [
+        "Their business cards.",
+        "Proof of mandatory vaccinations (e.g., Yellow Fever).",
+        "A copy of the company's annual report.",
+        "A list of local restaurants."
+      ],
+      "answerIndex": 1,
+      "explanation": "Health requirements can prevent entry if not met."
+    },
+    {
+      "id": "adm-b2-w6-ex34",
+      "type": "writingTask",
+      "prompt": "Exercise 34: Expense Reconciliation. List the 4 steps of the reconciliation process in order.",
+      "modelAnswer": "1. Receipt Collection. 2. Categorisation. 3. Per Diem vs Actuals check. 4. Audit.",
+      "keywords": ["Receipt", "Categorisation", "Per Diem", "Audit"]
+    },
+    {
+      "id": "adm-b2-w6-ex35",
+      "type": "multipleChoice",
+      "prompt": "Exercise 35: Calendar Logic. Why should you avoid 'back-to-back' meetings for 6 hours straight?",
+      "options": [
+        "It's against the law.",
+        "It leads to decision fatigue, no time for resets, and increased stress.",
+        "It makes the executive look too important.",
+        "It uses too much electricity."
+      ],
+      "answerIndex": 1,
+      "explanation": "Back-to-back meetings without buffers reduce executive effectiveness."
+    },
+    {
+      "id": "adm-b2-w6-ex36",
+      "type": "writingTask",
+      "prompt": "Exercise 36: Inversion. Form a sentence: 'Under no circumstances / we / cancel / board meeting'.",
+      "modelAnswer": "Under no circumstances should we cancel the board meeting.",
+      "keywords": ["Under no circumstances", "should", "cancel"]
+    },
+    {
+      "id": "adm-b2-w6-ex37",
+      "type": "multipleChoice",
+      "prompt": "Exercise 37: Vocabulary. 'Jet lag' is caused by:",
+      "options": [
+        "Bad food on the plane.",
+        "Traveling rapidly across multiple time zones, disrupting the body's internal clock.",
+        "Sitting in a cramped seat for too long.",
+        "Forgetting your passport."
+      ],
+      "answerIndex": 1,
+      "explanation": "Jet lag is specifically related to time zone disruption."
+    },
+    {
+      "id": "adm-b2-w6-ex38",
+      "type": "writingTask",
+      "prompt": "Exercise 38: Itinerary Note. Write a 'Contingency Info' section for a New York trip.",
+      "modelAnswer": "In case of emergency, contact the Global Support Line at +1-800-555-0199. The nearest medical facility to your hotel is NYU Langone Health.",
+      "keywords": ["emergency", "contact", "medical"]
+    },
+    {
+      "id": "adm-b2-w6-ex39",
+      "type": "multipleChoice",
+      "prompt": "Exercise 39: Priority Alignment. If an executive's goal is 'Increasing Sales', but their calendar is 80% 'Internal Admin', what should you do?",
+      "options": [
+        "Nothing, it's not your job.",
+        "Suggest a priority review to re-allocate time towards high-impact sales activities.",
+        "Cancel all their meetings without asking.",
+        "Book even more internal meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "Priority alignment is a strategic administrative support function."
+    },
+    {
+      "id": "adm-b2-w6-ex40",
+      "type": "writingTask",
+      "prompt": "Exercise 40: Inversion Practice. Complete: 'Not only _____ (the hotel/be) close to the office, but it also has a business center.'",
+      "modelAnswer": "Not only is the hotel close to the office...",
+      "keywords": ["is", "hotel"]
+    },
+    {
+      "id": "adm-b2-w6-ex41",
+      "type": "multipleChoice",
+      "prompt": "Exercise 41: Expense Software. Which of these is a common corporate expense management tool?",
+      "options": [
+        "Spotify",
+        "Concur",
+        "Instagram",
+        "Photoshop"
+      ],
+      "answerIndex": 1,
+      "explanation": "Concur is a leading enterprise tool for travel and expense management."
+    },
+    {
+      "id": "adm-b2-w6-ex42",
+      "type": "writingTask",
+      "prompt": "Exercise 42: Gatekeeping Dialogue. Write a script where you redirect a salesperson to the 'Purchasing Department' instead of your boss.",
+      "modelAnswer": "I appreciate your call, however, all new vendor requests are handled by our Purchasing Department. You can reach them at purchasing@company.com.",
+      "keywords": ["redirect", "Purchasing", "Department"]
+    },
+    {
+      "id": "adm-b2-w6-ex43",
+      "type": "multipleChoice",
+      "prompt": "Exercise 43: Vocabulary. To 'block out time' means to:",
+      "options": [
+        "Forget about the time.",
+        "Reserve a period in the calendar so no one else can book a meeting.",
+        "Draw a black square on the calendar.",
+        "End a meeting early."
+      ],
+      "answerIndex": 1,
+      "explanation": "Blocking out time ensures periods for work or personal needs are protected."
+    },
+    {
+      "id": "adm-b2-w6-ex44",
+      "type": "writingTask",
+      "prompt": "Exercise 44: Objective Language. Rewrite: 'He is never on time for anything!' using formal inversion.",
+      "modelAnswer": "Seldom is he on time for any engagement.",
+      "keywords": ["Seldom", "is", "he"]
+    },
+    {
+      "id": "adm-b2-w6-ex45",
+      "type": "multipleChoice",
+      "prompt": "Exercise 45: Final Review. What is the main goal of inversion in professional English?",
+      "options": [
+        "To confuse the reader.",
+        "To sound more academic.",
+        "To provide formal emphasis and create a more sophisticated, professional tone.",
+        "To save space on the page."
+      ],
+      "answerIndex": 2,
+      "explanation": "Inversion is a stylistic tool for professional emphasis."
     }
   ]
 }

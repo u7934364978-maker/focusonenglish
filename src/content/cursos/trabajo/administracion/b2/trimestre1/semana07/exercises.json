@@ -3,150 +3,371 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana07",
-  "title": "Exercises: Conflict Resolution & Constructive Feedback",
+  "title": "Exercises: HR Support & Performance Reviews",
   "items": [
     {
       "id": "adm-b2-w7-ex01",
       "type": "reading-comprehension",
-      "title": "Exercise 1: Conflict Resolution Memo (Doc A)",
-      "text": "Doc A — Mediation Summary: Team X and Team Y\n\nBackground: Friction has developed between the Logistics and Procurement teams regarding the new vendor vetting process. Procurement feels that Logistics is bypassing the SOP, while Logistics claims the current process is causing a stalemate in deliveries.\n\nResolution Meeting Summary:\n- Both parties agreed to seek common ground to de-escalate the tension.\n- Logistics acknowledged that if they had followed the SOP more closely, the current audit friction wouldn't exist (Mixed Conditional).\n- Procurement agreed to meet halfway by streamlining the approval form.\n- A consensus was reached to review the process monthly to avoid future stalemates.\n\nAction: Sarah (Procurement) and John (Logistics) to draft the revised form by Friday EOD.",
+      "title": "Exercise 1: Recruitment Process Email",
+      "text": "Subject: Recruitment Update - Project Manager Position\n\nHi Team,\n\nWe have successfully completed the first round of candidate screening for the Project Manager vacancy. From a pool of 50 applicants, we have created a shortlist of 5 individuals who meet all our SMART criteria. \n\nThe interview panel will consist of the Operations Director and the HR Lead. Logistics-wise, we need to coordinate schedules for next Tuesday. Please ensure that all candidates receive the pre-interview briefing pack and that their reference checks are initiated by EOD.\n\nFollowing the interviews, we will enter the onboarding phase for the successful hire, starting with their 3-month probationary period.\n\nBest regards,\nHR Support Team",
       "questions": [
         {
-          "question": "What was the main cause of the 'friction' between the two teams?",
-          "options": ["A disagreement over the office holiday schedule.", "Disagreements regarding the new vendor vetting process.", "A personal argument between Sarah and John."],
+          "question": "How many candidates were selected for the next stage?",
+          "options": ["50", "5", "3"],
           "answerIndex": 1,
-          "explanation": "Doc A states friction developed regarding 'the new vendor vetting process'."
+          "explanation": "The email states they created a 'shortlist of 5 individuals'."
         },
         {
-          "question": "What solution did the teams agree on to resolve the issue?",
-          "options": ["To ignore the SOP entirely.", "To reach a stalemate.", "To seek common ground and meet halfway by streamlining the form."],
+          "question": "What task must be completed by the end of the day (EOD)?",
+          "options": ["The interviews.", "Sending the briefing packs.", "Initiating reference checks."],
           "answerIndex": 2,
-          "explanation": "Doc A mentions they agreed to 'seek common ground' and 'meet halfway by streamlining the approval form'."
+          "explanation": "The email says 'ensure that... their reference checks are initiated by EOD'."
         }
       ]
     },
     {
       "id": "adm-b2-w7-ex02",
       "type": "multipleChoice",
-      "prompt": "Exercise 2: Conflict Strategies. What is 'Mediation' in a professional context?",
-      "options": [
-        "A formal punishment for bad behavior.",
-        "A neutral third party helping others resolve a dispute.",
-        "A long holiday to avoid conflict.",
-        "Winning an argument at all costs."
-      ],
+      "prompt": "Which term refers to the process of integrating a new employee into the company?",
+      "options": ["Offboarding", "Onboarding", "Screening", "Shortlisting"],
       "answerIndex": 1,
-      "explanation": "Mediation is the process of a neutral third party helping resolve a dispute."
+      "explanation": "Onboarding (or induction) is the process of integrating new hires."
     },
     {
       "id": "adm-b2-w7-ex03",
       "type": "multipleChoice",
-      "prompt": "Exercise 3: Feedback Frameworks. According to the ASK framework, feedback should be:",
-      "options": [
-        "Aggressive, Short, and Keen",
-        "Actionable, Specific, and Kind",
-        "Angry, Silent, and Known",
-        "Always, Sometimes, and Kind"
-      ],
+      "prompt": "What does the 'S' in SMART goals stand for?",
+      "options": ["Standard", "Specific", "Systematic", "Supportive"],
       "answerIndex": 1,
-      "explanation": "The ASK framework stands for Actionable, Specific, and Kind."
+      "explanation": "SMART stands for Specific, Measurable, Achievable, Relevant, and Time-bound."
     },
     {
       "id": "adm-b2-w7-ex04",
-      "type": "multipleChoice",
-      "prompt": "Exercise 4: Conflict Vocabulary. Complete the sentence: 'We have reached a ___, so we need to find ___ to move forward.'",
-      "options": [
-        "consensus / friction",
-        "stalemate / common ground",
-        "feedback / mediation",
-        "grievance / accountability"
-      ],
-      "answerIndex": 1,
-      "explanation": "A 'stalemate' means no progress, so you need 'common ground' to proceed."
+      "type": "writingTask",
+      "prompt": "Reported Speech: Transform this direct quote from a candidate into reported speech using 'asserted': 'I managed a team of ten in my previous role.'",
+      "modelAnswer": "The candidate asserted that they had managed a team of ten in their previous role.",
+      "keywords": ["asserted", "had managed", "their"]
     },
     {
       "id": "adm-b2-w7-ex05",
       "type": "writingTask",
-      "prompt": "Exercise 5: 'I' Statements. Rewrite this accusatory sentence as a professional 'I' statement: 'You always interrupt me in meetings.'",
-      "modelAnswer": "I feel frustrated when I am interrupted in meetings because it is difficult to finish my point.",
-      "keywords": ["I feel", "when", "because"]
+      "prompt": "Reported Speech: Transform this manager's recommendation: 'You should attend the advanced Excel workshop next month.'",
+      "modelAnswer": "The manager recommended that I attend the advanced Excel workshop next month.",
+      "keywords": ["recommended", "attend"]
     },
     {
       "id": "adm-b2-w7-ex06",
-      "type": "writingTask",
-      "prompt": "Exercise 6: Mixed Conditionals. Complete this sentence to analyze a past mistake (Past Action -> Present Result): 'If we ___ (address) the software bug last week, we ___ (not/be) in this crisis today.'",
-      "modelAnswer": "If we had addressed the software bug last week, we wouldn't be in this crisis today.",
-      "keywords": ["had addressed", "wouldn't be"]
+      "type": "multipleChoice",
+      "prompt": "If an employee's performance is below the required standard, they are experiencing:",
+      "options": ["High retention", "Underperformance", "Shortlisting", "Promotion"],
+      "answerIndex": 1,
+      "explanation": "Underperformance is when an employee fails to meet targets or standards."
     },
     {
       "id": "adm-b2-w7-ex07",
       "type": "writingTask",
-      "prompt": "Exercise 7: Extracting Action Points. Based on Doc A, list the specific action assigned and its deadline.",
-      "modelAnswer": "Action: Sarah and John to draft the revised form. Deadline: Friday EOD.",
-      "keywords": ["draft", "form", "Friday EOD"]
+      "prompt": "Vocabulary: Use the term 'probationary period' in a sentence explaining a new hire's contract status.",
+      "modelAnswer": "New employees must successfully complete a three-month probationary period before their permanent contract is confirmed.",
+      "keywords": ["probationary period", "contract", "complete"]
     },
     {
       "id": "adm-b2-w7-ex08",
       "type": "multipleChoice",
-      "prompt": "Exercise 8: Courtesy Modals. Which is the most professional way to invite a colleague to a mediation meeting?",
-      "options": [
-        "You must come to a meeting to fix your attitude.",
-        "I'd like to invite you to a brief session to seek common ground on the vetting process. Would Tuesday at 10am work for you?",
-        "Why aren't you talking to Sarah?",
-        "Mediation meeting: Tuesday 10am. Be there."
-      ],
-      "answerIndex": 1,
-      "explanation": "This option is diplomatic, focuses on 'common ground', and uses a polite modal."
+      "prompt": "Which document outlines the training and growth opportunities for an employee?",
+      "options": ["NDA", "CV", "PDP", "JD"],
+      "answerIndex": 2,
+      "explanation": "PDP stands for Professional Development Plan."
     },
     {
       "id": "adm-b2-w7-ex09",
-      "type": "writingTask",
-      "prompt": "Exercise 9: Follow-up Email. Write a 50-word email to a colleague summarizing a 'consensus' reached after a disagreement about office seating.",
-      "modelAnswer": "Hi team, following our discussion, I’m pleased we’ve reached a consensus on the new seating plan. We’ve agreed to meet halfway by implementing a rotating desk policy. Thanks to everyone for seeking common ground to de-escalate the tension. Best, [Your Name]",
-      "keywords": ["consensus", "meet halfway", "common ground", "de-escalate"]
+      "type": "multipleChoice",
+      "prompt": "What is '360-degree feedback'?",
+      "options": ["Feedback given only by the CEO.", "Feedback from peers, subordinates, and supervisors.", "A feedback session that lasts 360 minutes.", "Feedback given only at the end of the year."],
+      "answerIndex": 1,
+      "explanation": "360-degree feedback involves multiple sources of evaluation around an employee."
     },
     {
       "id": "adm-b2-w7-ex10",
-      "type": "multipleChoice",
-      "prompt": "Exercise 10: Operational Logic. If an employee raises a formal complaint about their treatment, this is known as a:",
-      "options": ["Performance review", "Consensus", "Grievance", "Mediation"],
-      "answerIndex": 2,
-      "explanation": "A 'Grievance' is a formal procedure for raising a complaint about treatment or conditions."
+      "type": "writingTask",
+      "prompt": "Operational Logic: List three essential items an administrator must coordinate for a new hire's first day.",
+      "modelAnswer": "1. Asset provisioning (laptop/desk). 2. ID badge/access cards. 3. Compliance paperwork (contracts/NDAs).",
+      "keywords": ["laptop", "access", "paperwork"]
     },
     {
       "id": "adm-b2-w7-ex11",
-      "type": "writingTask",
-      "prompt": "Exercise 11: Oral Feedback Prep. Prepare a script for a 3-minute feedback session with a junior colleague using the 'ASK' framework. Focus on their 'report accuracy' but remain 'Kind'.",
-      "modelAnswer": "[Audio Upload Required] Rubric: Actionable, Specific, Kind, Professional phrasing.",
-      "keywords": ["Actionable", "Specific", "Kind"]
+      "type": "multipleChoice",
+      "prompt": "Reporting Verbs: Which verb is best for asking a question formally?",
+      "options": ["Emphasized", "Claimed", "Inquired", "Stated"],
+      "answerIndex": 2,
+      "explanation": "To 'inquire' is a formal way to say 'to ask'."
     },
     {
       "id": "adm-b2-w7-ex12",
       "type": "writingTask",
-      "prompt": "Exercise 12: Oral Mediation. Record a 90-second audio attempting to de-escalate a situation where two colleagues are arguing about a shared printer. Use 'I' statements and seek 'common ground'.",
-      "modelAnswer": "[Audio Upload Required] Checklist: De-escalation vocabulary, 'I' statements, Consensus-seeking.",
-      "keywords": ["feel", "common ground", "agree"]
+      "prompt": "Reported Speech (Backshifting): Change this to reported speech: 'The budget for recruitment is decreasing.' -> HR confirmed that...",
+      "modelAnswer": "HR confirmed that the budget for recruitment was decreasing.",
+      "keywords": ["was decreasing"]
     },
     {
       "id": "adm-b2-w7-ex13",
-      "type": "writingTask",
-      "prompt": "Exercise 13: Conflict Analysis (Portfolio). Write a 200-word analysis of a hypothetical office conflict (e.g., air conditioning settings). Use at least two mixed conditionals and the term 'stalemate'.",
-      "modelAnswer": "The conflict regarding the office temperature has reached a stalemate. If we had consulted the whole team before setting the thermostat to 18 degrees, we wouldn't be facing this level of friction now. One group feels it is too cold, while others find it comfortable. If the office were a more modern building with individual climate zones, we would have avoided this issue in the past. Moving forward, I suggest we meet halfway by setting it to 21 degrees during the morning and reviewing the consensus on Friday.",
-      "keywords": ["stalemate", "If we had", "wouldn't be", "meet halfway"]
+      "type": "multipleChoice",
+      "prompt": "What does 'Shortlisting' involve?",
+      "options": ["Firing staff.", "Selecting a small number of candidates for interview.", "Increasing the salary for all staff.", "Writing a long job description."],
+      "answerIndex": 1,
+      "explanation": "Shortlisting is selecting the best candidates from a pool of applicants."
     },
     {
       "id": "adm-b2-w7-ex14",
       "type": "writingTask",
-      "prompt": "Exercise 14: Feedback Template. Complete a 'Start, Stop, Continue' table for a colleague's communication style. (1 item for each).",
-      "modelAnswer": "Start: Using 'I' statements in emails. Stop: Sending urgent requests after 5pm. Continue: Providing specific action points in minutes.",
-      "keywords": ["Start", "Stop", "Continue"]
+      "prompt": "HR Terminology: Explain the difference between 'Retention' and 'Turnover'.",
+      "modelAnswer": "Retention is the ability to keep employees, while turnover is the rate at which employees leave and are replaced.",
+      "keywords": ["keep", "leave", "rate"]
     },
     {
       "id": "adm-b2-w7-ex15",
+      "type": "multipleChoice",
+      "prompt": "Which of these is considered 'Gross Misconduct'?",
+      "options": ["Arriving 5 minutes late once.", "Theft or physical violence.", "Forgetting to cc a manager in an email.", "Taking an extra 10 minutes for lunch."],
+      "answerIndex": 1,
+      "explanation": "Gross misconduct refers to very serious offenses like theft or violence."
+    },
+    {
+      "id": "adm-b2-w7-ex16",
+      "type": "reading-comprehension",
+      "title": "Exercise 16: Performance Review Policy",
+      "text": "The annual appraisal cycle begins in Q4. All managers must conduct one-on-one reviews with their direct reports to evaluate KPIs and set SMART goals for the next fiscal year. If an employee is found to be underperforming, they may be placed on a Performance Improvement Plan (PIP). High-flyers who exceed expectations may be eligible for a remuneration package review.",
+      "questions": [
+        {
+          "question": "When does the appraisal cycle start?",
+          "options": ["Q1", "Q4", "The middle of summer"],
+          "answerIndex": 1,
+          "explanation": "The text states 'The annual appraisal cycle begins in Q4'."
+        },
+        {
+          "question": "What happens to employees who are 'underperforming'?",
+          "options": ["They get a bonus.", "They may be placed on a PIP.", "They are immediately fired."],
+          "answerIndex": 1,
+          "explanation": "The text says they 'may be placed on a Performance Improvement Plan (PIP)'."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w7-ex17",
+      "type": "multipleChoice",
+      "prompt": "A 'High-flyer' is an employee who:",
+      "options": ["Travels a lot by plane.", "Has high potential and is very successful.", "Always complains about the office temperature.", "Is about to retire."],
+      "answerIndex": 1,
+      "explanation": "A high-flyer is someone with great potential and success."
+    },
+    {
+      "id": "adm-b2-w7-ex18",
       "type": "writingTask",
-      "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Stalemate'. 2) What does ASK stand for? 3) Form a mixed conditional (Past Action -> Present Result) about a missed meeting. 4) List 2 synonyms for 'conflict' used in the theory.",
-      "modelAnswer": "1) A situation where no progress is possible. 2) Actionable, Specific, Kind. 3) If I had attended the meeting, I would know the current status. 4) Friction, disagreement.",
-      "keywords": ["progress", "Actionable", "If I had", "Friction"]
+      "prompt": "Grammar: Report this question from a recruiter: 'Do you have experience with CRM software?' -> The recruiter inquired whether...",
+      "modelAnswer": "The recruiter inquired whether I had experience with CRM software.",
+      "keywords": ["had experience"]
+    },
+    {
+      "id": "adm-b2-w7-ex19",
+      "type": "multipleChoice",
+      "prompt": "Which of these is part of a 'Remuneration Package'?",
+      "options": ["Salary only.", "A laptop and a desk.", "Salary, bonuses, and benefits like health insurance.", "The office layout."],
+      "answerIndex": 2,
+      "explanation": "Remuneration includes the total compensation (salary, bonus, benefits)."
+    },
+    {
+      "id": "adm-b2-w7-ex20",
+      "type": "writingTask",
+      "prompt": "Drafting: Write a 3-sentence email to a candidate who has NOT been shortlisted. Be polite and professional.",
+      "modelAnswer": "Dear [Name], thank you for your application for the [Position] role. Unfortunately, we have decided not to move forward with your application at this time as we have shortlisted candidates who more closely match our requirements. We wish you the best in your job search.",
+      "keywords": ["thank you", "not to move forward", "shortlisted", "best"]
+    },
+    {
+      "id": "adm-b2-w7-ex21",
+      "type": "multipleChoice",
+      "prompt": "To 'sign off on' a document means to:",
+      "options": ["Delete it.", "Give official approval for it.", "Write it by hand.", "Send it to the wrong person."],
+      "answerIndex": 1,
+      "explanation": "To sign off on something means to approve it officially."
+    },
+    {
+      "id": "adm-b2-w7-ex22",
+      "type": "writingTask",
+      "prompt": "Reported Speech: 'We must improve our talent retention rates.' -> The CEO emphasized that...",
+      "modelAnswer": "The CEO emphasized that they had to improve their talent retention rates.",
+      "keywords": ["had to improve", "their"]
+    },
+    {
+      "id": "adm-b2-w7-ex23",
+      "type": "multipleChoice",
+      "prompt": "An 'Exit Interview' is conducted when an employee:",
+      "options": ["Starts their first day.", "Gets a promotion.", "Is leaving the company.", "Is having a birthday."],
+      "answerIndex": 2,
+      "explanation": "Exit interviews are held when someone leaves the company."
+    },
+    {
+      "id": "adm-b2-w7-ex24",
+      "type": "writingTask",
+      "prompt": "SMART Goals: Transform this vague goal into a SMART one: 'I want to be better at emails.'",
+      "modelAnswer": "I will reduce my average email response time to under 4 hours by the end of Q3.",
+      "keywords": ["response time", "4 hours", "Q3"]
+    },
+    {
+      "id": "adm-b2-w7-ex25",
+      "type": "multipleChoice",
+      "prompt": "What is 'Asset Provisioning' in onboarding?",
+      "options": ["Checking the employee's bank account.", "Providing the necessary equipment like laptops and keys.", "Hiring a new manager.", "Cleaning the office."],
+      "answerIndex": 1,
+      "explanation": "Asset provisioning is the act of providing the tools needed for the job."
+    },
+    {
+      "id": "adm-b2-w7-ex26",
+      "type": "writingTask",
+      "prompt": "Reported Speech: 'I will be late for the induction session.' -> Mark stated that...",
+      "modelAnswer": "Mark stated that he would be late for the induction session.",
+      "keywords": ["would be"]
+    },
+    {
+      "id": "adm-b2-w7-ex27",
+      "type": "multipleChoice",
+      "prompt": "What does 'NDA' stand for?",
+      "options": ["New Data Agreement", "Non-Disclosure Agreement", "Normal Daily Activity", "National Department of Administration"],
+      "answerIndex": 1,
+      "explanation": "NDA is a Non-Disclosure Agreement, a legal contract for confidentiality."
+    },
+    {
+      "id": "adm-b2-w7-ex28",
+      "type": "writingTask",
+      "prompt": "Vocabulary: Define 'Peer Review' in your own words.",
+      "modelAnswer": "Peer review is an evaluation process where colleagues of the same level provide feedback on each other's work.",
+      "keywords": ["evaluation", "colleagues", "same level"]
+    },
+    {
+      "id": "adm-b2-w7-ex29",
+      "type": "multipleChoice",
+      "prompt": "If a vacancy is 'filled', it means:",
+      "options": ["The office is full of people.", "A candidate has been hired for the role.", "The job description was too long.", "The recruitment budget was spent."],
+      "answerIndex": 1,
+      "explanation": "To fill a vacancy means to hire someone for the open position."
+    },
+    {
+      "id": "adm-b2-w7-ex30",
+      "type": "writingTask",
+      "prompt": "Coordination: Write a short checklist (4 items) for an administrator preparing an interview room.",
+      "modelAnswer": "1. Confirm room booking. 2. Print CVs for the panel. 3. Provide water for the candidate. 4. Check audiovisual equipment for presentations.",
+      "keywords": ["booking", "CVs", "water", "equipment"]
+    },
+    {
+      "id": "adm-b2-w7-ex31",
+      "type": "multipleChoice",
+      "prompt": "Which reporting verb suggests a strong claim without proof?",
+      "options": ["Recommended", "Suggested", "Asserted", "Inquired"],
+      "answerIndex": 2,
+      "explanation": "To assert or claim can imply a strong statement that may need verification."
+    },
+    {
+      "id": "adm-b2-w7-ex32",
+      "type": "writingTask",
+      "prompt": "Backshifting: 'We can't offer a higher salary.' -> They claimed that...",
+      "modelAnswer": "They claimed that they couldn't offer a higher salary.",
+      "keywords": ["couldn't"]
+    },
+    {
+      "id": "adm-b2-w7-ex33",
+      "type": "multipleChoice",
+      "prompt": "What is the primary goal of a 'Probationary Period'?",
+      "options": ["To pay the employee less.", "To evaluate if the employee is a good fit for the long term.", "To make the employee work on weekends.", "To train the employee for 5 years."],
+      "answerIndex": 1,
+      "explanation": "Probation is a trial period to assess performance and fit."
+    },
+    {
+      "id": "adm-b2-w7-ex34",
+      "type": "writingTask",
+      "prompt": "HR Reporting: A manager said: 'I am impressed with Sarah's initiative.' Report this to the HR Director.",
+      "modelAnswer": "The manager stated that they were impressed with Sarah's initiative.",
+      "keywords": ["stated", "were impressed"]
+    },
+    {
+      "id": "adm-b2-w7-ex35",
+      "type": "multipleChoice",
+      "prompt": "What is 'Compliance' in the context of HR?",
+      "options": ["The ability to speak many languages.", "Following legal rules and regulations.", "Working in a team.", "Having a clean desk."],
+      "answerIndex": 1,
+      "explanation": "Compliance refers to adhering to laws, policies, and standards."
+    },
+    {
+      "id": "adm-b2-w7-ex36",
+      "type": "writingTask",
+      "prompt": "Logic: Why is 'Confidentiality' crucial when handling CVs and reference checks?",
+      "modelAnswer": "Confidentiality is crucial to protect candidates' personal data and current employment status, preventing legal issues and maintaining professional trust.",
+      "keywords": ["protect", "data", "trust", "legal"]
+    },
+    {
+      "id": "adm-b2-w7-ex37",
+      "type": "multipleChoice",
+      "prompt": "To 'align with goals' means to:",
+      "options": ["Make sure everyone has the same desk.", "Ensure tasks and behaviors support company objectives.", "Walk in a straight line.", "Finish work at exactly 5pm."],
+      "answerIndex": 1,
+      "explanation": "Alignment means ensuring effort is directed toward organizational targets."
+    },
+    {
+      "id": "adm-b2-w7-ex38",
+      "type": "writingTask",
+      "prompt": "Reported Speech: 'Are you available for a follow-up call tomorrow?' -> The recruiter asked if...",
+      "modelAnswer": "The recruiter asked if I was available for a follow-up call the next day.",
+      "keywords": ["was available", "the next day"]
+    },
+    {
+      "id": "adm-b2-w7-ex39",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a quantifiable 'KPI' for an administrator?",
+      "options": ["Being nice to everyone.", "Processing 95% of invoices within 24 hours.", "Wearing a suit.", "Liking coffee."],
+      "answerIndex": 1,
+      "explanation": "KPIs must be measurable/quantifiable."
+    },
+    {
+      "id": "adm-b2-w7-ex40",
+      "type": "writingTask",
+      "prompt": "Vocabulary: Write a sentence using 'underperformance' and 'PIP'.",
+      "modelAnswer": "Due to consistent underperformance, the employee was placed on a PIP to monitor their progress.",
+      "keywords": ["underperformance", "PIP"]
+    },
+    {
+      "id": "adm-b2-w7-ex41",
+      "type": "multipleChoice",
+      "prompt": "A 'Reference Check' is performed to:",
+      "options": ["Check if the person is famous.", "Verify a candidate's previous work history and conduct.", "See if the candidate has any pets.", "Ask for a loan."],
+      "answerIndex": 1,
+      "explanation": "Reference checks verify the accuracy of a candidate's background."
+    },
+    {
+      "id": "adm-b2-w7-ex42",
+      "type": "writingTask",
+      "prompt": "Grammar (Advanced): Use 'recommended' to report this: 'Jane, you should lead the onboarding session.'",
+      "modelAnswer": "The manager recommended that Jane lead the onboarding session.",
+      "keywords": ["recommended", "Jane lead"]
+    },
+    {
+      "id": "adm-b2-w7-ex43",
+      "type": "multipleChoice",
+      "prompt": "What does 'Shortlist' mean?",
+      "options": ["A very short candidate.", "A list of finalists selected for the next stage.", "A list of people who are short on time.", "A list of office supplies."],
+      "answerIndex": 1,
+      "explanation": "A shortlist is the set of top candidates chosen from the total applicants."
+    },
+    {
+      "id": "adm-b2-w7-ex44",
+      "type": "writingTask",
+      "prompt": "Role Play: You are an HR Admin. Write a one-sentence response to an employee asking for their PDP status.",
+      "modelAnswer": "I have checked the system, and your Professional Development Plan is currently awaiting sign-off from your department head.",
+      "keywords": ["system", "PDP", "sign-off"]
+    },
+    {
+      "id": "adm-b2-w7-ex45",
+      "type": "multipleChoice",
+      "prompt": "What happens during a '3-month probation period'?",
+      "options": ["The employee is in prison.", "The employee's performance is monitored before confirming permanent status.", "The employee gets 3 months of holiday.", "The employee is promoted every month."],
+      "answerIndex": 1,
+      "explanation": "Probation is a trial period to evaluate a new hire."
     }
   ]
 }

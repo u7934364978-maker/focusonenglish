@@ -1,5 +1,5 @@
 {
-  "title": "Leadership and Team Support in Administration",
+  "title": "Leadership, Team Support, and Conflict Resolution",
   "sections": [
     {
       "id": "leadership-support",
@@ -12,31 +12,45 @@
       "content": "'Managing up' is the process of consciously working with your boss to obtain the best possible results for you, your boss, and the company. It is not about manipulation; it is about **alignment**.\n\n**Effective strategies:**\n- **Clarify Expectations**: Always confirm the 'what', 'why', and 'when' of a task.\n- **Provide Solutions, Not Problems**: When flagging an issue, always propose at least one potential solution.\n- **Adapt to Their Style**: Understand if your manager prefers a quick verbal update, a detailed email, or a dashboard view."
     },
     {
+      "id": "conflict-resolution",
+      "title": "Conflict Resolution and De-escalation",
+      "content": "Administrative professionals often act as the 'buffer' between departments or between the company and its clients. Mastering de-escalation is vital.\n\n### The L.E.A.P. Framework\n1. **Listen**: Give the other person your full attention without interrupting.\n2. **Empathize**: Acknowledge their feelings (e.g., 'I understand why this is frustrating').\n3. **Apologize**: Apologize for the situation, even if it wasn't your personal fault.\n4. **Problem-solve**: Propose a practical way forward or a timeline for a fix.\n\n### Handling Difficult Conversations\nWhen addressing a conflict with a colleague, focus on **facts rather than feelings**. Use 'I' statements (e.g., 'I feel overwhelmed when the reports are sent late') instead of 'You' statements (e.g., 'You always send reports late')."
+    },
+    {
+      "id": "feedback-loops",
+      "title": "Providing and Receiving Professional Feedback",
+      "content": "To support a team effectively, you must be able to give constructive criticism and receive feedback with grace.\n\n### The SBI Model for Feedback\n- **Situation**: Define the 'when' and 'where' (e.g., 'In yesterday's client meeting...').\n- **Behavior**: Describe the specific action without judgment (e.g., '...you interrupted the client twice...').\n- **Impact**: Explain how the behavior affected the team or project (e.g., '...which made them feel unheard and delayed the agreement')."
+    },
+    {
       "id": "grammar-causatives",
       "title": "Grammar: Causative Forms in Administration",
       "content": "In administrative roles, we often arrange for things to be done by others rather than doing them ourselves. We use **causative forms** to describe this.\n\n### 1. Have something done (Form: Have + Object + Past Participle)\nUsed when someone else performs a service for us.\n- *\"I need to **have the contracts signed** by Friday.\"*\n- *\"We **had the office refurbished** over the weekend.\"*\n\n### 2. Get someone to do something (Form: Get + Person + to + Infinitive)\nUsed when we persuade or assign someone to do a task.\n- *\"Can you **get IT to fix** the printer?\"*\n- *\"I **got the team to submit** their reports early.\"*\n\n### 3. Have someone do something (Form: Have + Person + Infinitive - no 'to')\nCommon in professional contexts for giving instructions.\n- *\"I'll **have my assistant call** you tomorrow.\"*\n- *\"The manager **had us review** the safety protocols.\"*"
     },
     {
       "id": "phrase-bank",
-      "title": "PhraseBank: Leadership & Delegation",
-      "content": "1. **to take the lead** — To take the main responsibility for a task.\n2. **to manage up** — To work effectively with your seniors to achieve goals.\n3. **to delegate a task** — To give a task to someone else to do.\n4. **to take initiative** — To act without being told what to do.\n5. **to be accountable for** — To be responsible for something and prepared to justify it.\n6. **to follow through** — To complete a task that has been started.\n7. **to provide a briefing** — To give someone the necessary info for a task.\n8. **to oversee a project** — To supervise or be in charge of a project.\n9. **to set an example** — To behave in a way that others should copy.\n10. **to empower someone** — To give someone the authority or power to do something.\n11. **to streamline communications** — To make communication clearer and faster.\n12. **to meet a deadline** — To finish a task by the agreed time.\n13. **to manage expectations** — To ensure people have realistic ideas about what can be achieved.\n14. **to touch base** — To briefly talk to someone to update them on a situation.\n15. **to loop someone in** — To include someone in a discussion or email thread."
+      "title": "PhraseBank: Leadership & Conflict Resolution",
+      "content": "1. **to take the lead** — To take the main responsibility for a task.\n2. **to manage up** — To work effectively with your seniors to achieve goals.\n3. **to delegate a task** — To give a task to someone else to do.\n4. **to take initiative** — To act without being told what to do.\n5. **to be accountable for** — To be responsible for something and prepared to justify it.\n6. **to follow through** — To complete a task that has been started.\n7. **to provide a briefing** — To give someone the necessary info for a task.\n8. **to oversee a project** — To supervise or be in charge of a project.\n9. **to set an example** — To behave in a way that others should copy.\n10. **to empower someone** — To give someone the authority or power to do something.\n11. **to de-escalate a situation** — To reduce the intensity of a conflict.\n12. **to find common ground** — To find shared interests between disagreeing parties.\n13. **to handle with care** — To deal with a sensitive situation carefully.\n14. **constructive criticism** — Feedback that is helpful and intended to improve something.\n15. **to touch base** — To briefly talk to someone to update them on a situation.\n16. **to loop someone in** — To include someone in a discussion or email thread.\n17. **to iron out the details** — To resolve minor problems or clarify points.\n18. **to bridge the gap** — To reduce the difference between two groups or points of view.\n19. **to meet halfway** — To compromise with someone.\n20. **to call a truce** — To agree to stop an argument or conflict temporarily."
     },
     {
       "id": "deliverable",
       "title": "Weekly Deliverable (Portfolio)",
-      "content": "### Task: Leadership Reflection and Delegation Plan\nWrite a 300-word reflection on a time you took initiative in a professional or academic setting.\n\n**Structure:**\n1. **The Situation**: What was the problem or opportunity?\n2. **The Action**: What initiative did you take? Use **causative forms** (e.g., 'I had the files organised...', 'I got the team to...').\n3. **The Result**: What was the outcome and how did it show leadership?\n4. **Delegation Plan**: List three tasks you would delegate if you were promoted to Senior Ops Coordinator, and specify who you would **get to do** them."
+      "content": "### Task: Leadership Reflection and Conflict Resolution Scenario\n**Part 1: Reflection (200 words)**\nWrite about a time you took initiative or managed up. Use at least three **causative forms**.\n\n**Part 2: Conflict Scenario (150 words)**\nA senior manager is angry because a room booking was lost. Write a short script or email response using the **L.E.A.P. framework** to handle the situation professionally."
     }
   ],
   "objectives": [
     "Identify and apply leadership traits within a support function",
     "Develop strategies for 'managing up' and aligning with senior management",
     "Master causative forms (have/get) to describe delegation and service management",
+    "Apply the L.E.A.P. and SBI models to resolve office conflicts and provide feedback",
     "Communicate professional initiative and ownership in writing"
   ],
   "keyTerms": [
     { "term": "Accountability", "definition": "The obligation of an individual or organization to account for its activities and accept responsibility for them." },
     { "term": "Delegation", "definition": "The assignment of any authority to another person (normally from a manager to a subordinate) to carry out specific activities." },
     { "term": "Managing Up", "definition": "The process of consciously working with your superior to obtain the best possible results." },
-    { "term": "Initiative", "definition": "The ability to assess and initiate things independently." }
+    { "term": "Initiative", "definition": "The ability to assess and initiate things independently." },
+    { "term": "De-escalation", "definition": "Reduction of the intensity of a conflict or potentially violent situation." },
+    { "term": "Empathy", "definition": "The ability to understand and share the feelings of another." },
+    { "term": "Compromise", "definition": "An agreement or a settlement of a dispute that is reached by each side making concessions." }
   ]
 }

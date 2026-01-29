@@ -98,6 +98,108 @@
       "type": "fill-in-the-blank",
       "question": "The meeting was ________ because a quorum was not reached.",
       "answer": "adjourned"
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "question": "A 'quorum' is defined as:",
+      "options": [
+        "The person who takes the minutes.",
+        "The list of topics for the meeting.",
+        "The minimum number of members required for a valid meeting.",
+        "A type of formal apology."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "question": "Which of these is a key responsibility when managing hybrid meetings?",
+      "options": [
+        "Ensuring remote participants are included in turn-taking.",
+        "Making sure everyone has the same brand of laptop.",
+        "Recording the meeting verbatim.",
+        "Providing physical snacks to remote workers."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "question": "What is the primary focus of an Executive Summary?",
+      "options": [
+        "Detailed raw data analysis.",
+        "Word-for-word transcripts.",
+        "Main findings, recommendations, and ROI.",
+        "A list of all employees in the company."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q14",
+      "type": "fill-in-the-blank",
+      "question": "When participants agree to a proposal, they may be recorded as the 'proposer' and the '________'.",
+      "answer": "seconder"
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "question": "In formal minutes, you should avoid 'verbatim' records. What does 'verbatim' mean?",
+      "options": [
+        "Summary style.",
+        "Word-for-word.",
+        "Using only verbs.",
+        "Action-oriented."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "type": "multiple-choice",
+      "question": "What happens in the event of a tie during a vote?",
+      "options": [
+        "The meeting is cancelled.",
+        "A coin is tossed.",
+        "The Chair may use a 'casting vote'.",
+        "The discussion is tabled permanently."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q17",
+      "type": "fill-in-the-blank",
+      "question": "To '________' a meeting means to call people together for a formal session.",
+      "answer": "convene"
+    },
+    {
+      "id": "q18",
+      "type": "multiple-choice",
+      "question": "Which reporting verb is most suitable for stating a clear fact found in a report?",
+      "options": [
+        "Suggested",
+        "Pointed out",
+        "Urged",
+        "Refused"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "type": "multiple-choice",
+      "question": "Digital etiquette in virtual meetings suggests that participants should:",
+      "options": [
+        "Keep their microphones on at all times.",
+        "Mute when not speaking to avoid background noise.",
+        "Only join if they are in the physical office.",
+        "Ignore the 'hand raise' feature."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "type": "fill-in-the-blank",
+      "question": "An action item must include the task, the owner, and a clear ________.",
+      "answer": "deadline"
     }
   ]
 }

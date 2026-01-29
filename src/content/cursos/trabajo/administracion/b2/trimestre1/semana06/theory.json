@@ -12,6 +12,16 @@
       "content": "Planning corporate travel requires meticulous attention to detail. A professional **itinerary** should be a 'one-stop shop' for all travel information.\n\n### Components of a Professional Itinerary\n- **Travel Details**: Flight numbers, terminal info, confirmation codes, and seat assignments.\n- **Ground Transportation**: Car service details, train schedules, or walking directions to the hotel.\n- **Accommodation**: Hotel address, check-in/out times, and breakfast info.\n- **Meeting Schedule**: Times, locations (with map links), and names of the people being met.\n- **Contingency Info**: Emergency contact numbers and info on local hospitals or embassies if traveling internationally."
     },
     {
+      "id": "international-logistics",
+      "title": "International Logistics & Entry Requirements",
+      "content": "Administrative professionals must stay updated on international travel regulations to avoid costly delays.\n\n### Key Entry Documents\n- **Visas**: Ensure the executive has the correct category (e.g., 'Business' vs 'Tourist').\n- **Electronic Authorizations**: Like **ESTA** for the USA or **ETIAS** for Europe, which must be applied for in advance.\n- **Health Requirements**: Checking for mandatory vaccinations or health declarations.\n- **Passport Validity**: Most countries require at least 6 months of validity remaining on a passport from the date of entry."
+    },
+    {
+      "id": "expense-management",
+      "title": "Expense Policy & Reconciliation",
+      "content": "Managing travel is not finished until the expenses are reconciled. Most companies have a strict **Corporate Travel Policy**.\n\n### Reconciliation Process\n1. **Receipt Collection**: Ensuring all digital and physical receipts are captured (e.g., using apps like Concur or Expensify).\n2. **Categorisation**: Assigning costs to the correct budget codes (e.g., 'Client Entertainment' vs 'Internal Travel').\n3. **Per Diem vs Actuals**: Checking if the executive uses a flat daily allowance (Per Diem) or submits individual receipts for every expense.\n4. **Audit**: Ensuring the spend aligns with company rules (e.g., alcohol limits, hotel star-rating caps)."
+    },
+    {
       "id": "grammar-inversion",
       "title": "Grammar: Inversion for Formal Emphasis",
       "content": "In formal business communication, we sometimes reverse the normal word order to add emphasis or create a more professional tone. This is common in high-level reporting and formal emails.\n\n### 1. Negative Adverbials (Never, Rarely, Seldom)\n- *Normal*: \"I have never seen such a disorganised itinerary.\"\n- *Inverted*: \"**Never have I seen** such a disorganised itinerary.\"\n\n### 2. Not only... but also\n- *Normal*: \"The hotel is not only expensive but it is also far from the office.\"\n- *Inverted*: \"**Not only is the hotel expensive, but it is also** far from the office.\"\n\n### 3. Under no circumstances\nUsed for strict rules or warnings.\n- *Normal*: \"You should not share your corporate credit card details under any circumstances.\"\n- *Inverted*: \"**Under no circumstances should you share** your corporate credit card details.\"\n\n### 4. Only after / Only when\n- *Inverted*: \"**Only after receiving the confirmation** did I book the car service.\""
@@ -19,24 +29,28 @@
     {
       "id": "phrase-bank",
       "title": "PhraseBank: Travel & Logistics",
-      "content": "1. **to book in advance** — To reserve something well before the date it is needed.\n2. **to coordinate logistics** — To manage the complex details of an operation or event.\n3. **to provide an itinerary** — To give a detailed plan for a journey.\n4. **ground transportation** — Vehicles used for moving on the ground (taxis, trains, etc.).\n5. **to confirm availability** — To check if a room, flight, or person is free.\n6. **to make a reservation** — To book a seat, room, or table.\n7. **per diem** — A daily allowance for expenses (usually for travel).\n8. **travel expenses** — Costs incurred while traveling for business.\n9. **to reconcile expenses** — To check travel costs against receipts and the budget.\n10. **visa requirements** — Legal requirements for entering a foreign country.\n11. **time zone difference** — The difference in time between two locations.\n12. **to reschedule a meeting** — To move a meeting to a different time or date.\n13. **to back-to-back meetings** — Meetings that happen one after another without a break.\n14. **to block out time** — To reserve time in a calendar for a specific purpose.\n15. **jet lag** — Extreme tiredness felt after a long flight across time zones."
+      "content": "1. **to book in advance** — To reserve something well before the date it is needed.\n2. **to coordinate logistics** — To manage the complex details of an operation or event.\n3. **to provide an itinerary** — To give a detailed plan for a journey.\n4. **ground transportation** — Vehicles used for moving on the ground (taxis, trains, etc.).\n5. **to confirm availability** — To check if a room, flight, or person is free.\n6. **to make a reservation** — To book a seat, room, or table.\n7. **per diem** — A daily allowance for expenses (usually for travel).\n8. **travel expenses** — Costs incurred while traveling for business.\n9. **to reconcile expenses** — To check travel costs against receipts and the budget.\n10. **visa requirements** — Legal requirements for entering a foreign country.\n11. **time zone difference** — The difference in time between two locations.\n12. **to reschedule a meeting** — To move a meeting to a different time or date.\n13. **to back-to-back meetings** — Meetings that happen one after another without a break.\n14. **to block out time** — To reserve time in a calendar for a specific purpose.\n15. **jet lag** — Extreme tiredness felt after a long flight across time zones.\n16. **to cross-reference** — To compare one set of data with another to ensure accuracy.\n17. **preferred vendor** — A supplier that a company has a special agreement with.\n18. **out-of-pocket expenses** — Small costs paid personally by the employee to be reimbursed later.\n19. **to mitigate jet lag** — To reduce the effects of traveling across time zones.\n20. **layover / stopover** — A break in a journey between two flights."
     },
     {
       "id": "deliverable",
       "title": "Weekly Deliverable (Portfolio)",
-      "content": "### Task: The Ultimate Corporate Itinerary\nCreate a detailed 2-day itinerary for an executive traveling from London to New York for a series of high-level board meetings.\n\n**Requirements:**\n1. Include flight, hotel, and meeting details for both days.\n2. Add a 'Logistics Note' using at least two examples of **Inversion for Emphasis** (e.g., 'Not only is the hotel...', 'Under no circumstances should...').\n3. Include a section on 'Time Zone Management' and 'Contingency Planning'."
+      "content": "### Task: The Global Executive Support Pack\n**Part 1: The Itinerary**\nCreate a 3-day itinerary for an executive traveling from London to Singapore. Include flight details (with a layover), hotel, and 4 high-level meetings.\n\n**Part 2: Logistics Briefing**\nWrite a 150-word 'Logistics Note' for the executive. You must:\n1. Use at least 3 examples of **Inversion for Emphasis**.\n2. Advise on **Visa/Entry requirements** (e.g., SG Arrival Card).\n3. Briefly explain the **Expense Reconciliation** process they should follow upon return."
     }
   ],
   "objectives": [
     "Manage complex executive calendars using strategic time-blocking and buffer techniques",
-    "Produce detailed and professional corporate travel itineraries",
+    "Produce detailed and professional corporate travel itineraries with international logistics",
     "Apply inversion structures in formal business communication for emphasis",
-    "Identify and coordinate travel logistics, including visas, transport, and expenses"
+    "Identify and coordinate travel logistics, including visas, entry permits, and health requirements",
+    "Execute the expense reconciliation process in accordance with corporate policy"
   ],
   "keyTerms": [
     { "term": "Itinerary", "definition": "A detailed plan or route of a journey." },
     { "term": "Inversion", "definition": "Reversing the normal word order of a sentence, especially for emphasis or in formal contexts." },
     { "term": "Gatekeeping", "definition": "The activity of controlling, and usually limiting, general access to something." },
-    { "term": "Per Diem", "definition": "A specific amount of money an organization gives an individual per day to cover living expenses when traveling for business." }
+    { "term": "Per Diem", "definition": "A specific amount of money an organization gives an individual per day to cover living expenses when traveling for business." },
+    { "term": "ESTA", "definition": "Electronic System for Travel Authorization (required for entry to the USA under the Visa Waiver Program)." },
+    { "term": "Reconciliation", "definition": "The process of ensuring that two sets of records (usually the budget and the actual spend) are in agreement." },
+    { "term": "Time Blocking", "definition": "A time management technique where you schedule every minute of your day in blocks of time for specific tasks." }
   ]
 }

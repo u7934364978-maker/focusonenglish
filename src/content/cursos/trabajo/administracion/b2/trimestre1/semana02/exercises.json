@@ -147,6 +147,271 @@
       "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Dependency'. 2) Give an example of a precise deadline. 3) What does it mean if a schedule 'slips'? 4) What are the 3 signposting phrases mentioned in the theory?",
       "modelAnswer": "1) A task that must be finished before another can start. 2) Friday EOD / 3pm UK time. 3) It is delayed. 4) Quick recap, The key point is, Next steps are.",
       "keywords": ["task", "EOD", "delayed", "recap"]
+    },
+    {
+      "id": "adm-b2-w2-ex16",
+      "type": "reading-comprehension",
+      "title": "Exercise 16: Incident Report Analysis (Doc B)",
+      "text": "Doc B — Incident Report Summary\n\nIncident: CRM Downtime (North Region)\nDate: 12th Jan\nDuration: 45 minutes (10:15 - 11:00)\n\nExecutive Summary: At 10:15, users in the North Region reported inability to log into the CRM. Operations identified a server overload due to a scheduled backup running concurrently with a high-volume data import.\n\nRoot Cause: The automated backup script was not updated to avoid the month-end data import window.\n\nPreventative Action: Reschedule automated backups to 2:00 am UTC starting immediately.",
+      "questions": [
+        {
+          "question": "What was the fundamental reason (Root Cause) for the CRM downtime?",
+          "options": ["Human error during data import", "Concurrent running of backup and data import", "Server hardware failure"],
+          "answerIndex": 1,
+          "explanation": "Doc B says the root cause was the backup running concurrently with a high-volume data import."
+        },
+        {
+          "question": "What is the planned preventative action?",
+          "options": ["Cancelling all backups", "Manually importing data", "Rescheduling backups to 2:00 am UTC"],
+          "answerIndex": 2,
+          "explanation": "The report specifies rescheduling backups to 2:00 am UTC."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w2-ex17",
+      "type": "multipleChoice",
+      "prompt": "Exercise 17: RCA Technique. What is the name of the technique mentioned in the theory for finding the underlying systemic failure?",
+      "options": ["The 10 Questions", "The 5 Whys", "The 3 Steps", "The 7 Blocks"],
+      "answerIndex": 1,
+      "explanation": "The theory mentions the '5 Whys' as a standard technique for Root Cause Analysis."
+    },
+    {
+      "id": "adm-b2-w2-ex18",
+      "type": "multipleChoice",
+      "prompt": "Exercise 18: Terminology. Which term refers to the estimated time when a service will be restored?",
+      "options": ["ETA", "ETR", "COB", "EOD"],
+      "answerIndex": 1,
+      "explanation": "ETR stands for Estimated Time of Resolution."
+    },
+    {
+      "id": "adm-b2-w2-ex19",
+      "type": "writingTask",
+      "prompt": "Exercise 19: Drafting an ETR Update. Create a stakeholder update for a 'Website checkout failure'. Include: Current status, Impact, ETR (4pm), and Next Update (3pm).",
+      "modelAnswer": "We are currently experiencing a checkout failure on the website. Customers are unable to complete purchases. ETR is 4pm. Next update will be provided at 3pm.",
+      "keywords": ["failure", "unable", "ETR", "update"]
+    },
+    {
+      "id": "adm-b2-w2-ex20",
+      "type": "multipleChoice",
+      "prompt": "Exercise 20: Professional Tone. Which of these is the most professional response to a major operational error?",
+      "options": [
+        "I'm so sorry, I forgot to check the script.",
+        "We are actively investigating the issue and have deployed the engineering team.",
+        "Everything is broken, we are trying to fix it.",
+        "Finance is slow, so we missed the deadline."
+      ],
+      "answerIndex": 1,
+      "explanation": "Focusing on the action being taken (actively investigating/deployed team) is the professional standard."
+    },
+    {
+      "id": "adm-b2-w2-ex21",
+      "type": "writingTask",
+      "prompt": "Exercise 21: The 5 Whys (Practical). The warehouse did not ship the order (1). Why? The labels weren't printed (2). Why? The printer was out of ink (3). Why? No ink was ordered (4). Why? The inventory check was missed (5). What is the root cause?",
+      "modelAnswer": "The root cause is the failure to perform the scheduled inventory check.",
+      "keywords": ["inventory", "check", "missed"]
+    },
+    {
+      "id": "adm-b2-w2-ex22",
+      "type": "multipleChoice",
+      "prompt": "Exercise 22: Failure Vocabulary. A point of congestion in a system that slows down the entire process is called a:",
+      "options": ["Blocker", "Dependency", "Bottleneck", "Outage"],
+      "answerIndex": 2,
+      "explanation": "A 'bottleneck' is the specific term for a congestion point in a system."
+    },
+    {
+      "id": "adm-b2-w2-ex23",
+      "type": "writingTask",
+      "prompt": "Exercise 23: Executive Summary. Based on Doc B, write a 2-sentence executive summary of the CRM incident for a senior manager.",
+      "modelAnswer": "The North Region CRM experienced a 45-minute outage due to a conflict between server backups and data imports. Service was restored at 11:00 am following a script adjustment.",
+      "keywords": ["outage", "conflict", "restored"]
+    },
+    {
+      "id": "adm-b2-w2-ex24",
+      "type": "multipleChoice",
+      "prompt": "Exercise 24: Incident Timeline. According to Doc B, how long did the incident last?",
+      "options": ["30 minutes", "45 minutes", "1 hour", "90 minutes"],
+      "answerIndex": 1,
+      "explanation": "10:15 to 11:00 is exactly 45 minutes."
+    },
+    {
+      "id": "adm-b2-w2-ex25",
+      "type": "writingTask",
+      "prompt": "Exercise 25: Vocabulary Matching. Define 'Outage' and 'Mitigation' in an operational context.",
+      "modelAnswer": "Outage: A period when a service is unavailable. Mitigation: Immediate steps taken to fix or reduce the impact of a failure.",
+      "keywords": ["unavailable", "fix", "impact"]
+    },
+    {
+      "id": "adm-b2-w2-ex26",
+      "type": "multipleChoice",
+      "prompt": "Exercise 26: Stakeholder formula. What is the final element of the '[Status] + [Impact] + [ETR]' formula?",
+      "options": ["Root Cause", "Apology", "Next Update", "Mitigation"],
+      "answerIndex": 2,
+      "explanation": "The formula ends with 'Next Update' to manage stakeholder expectations."
+    },
+    {
+      "id": "adm-b2-w2-ex27",
+      "type": "writingTask",
+      "prompt": "Exercise 27: RCA Vocabulary. Use the terms 'Human Error' and 'Systemic Failure' in two sentences describing a data entry mistake.",
+      "modelAnswer": "The incorrect data entry was initially identified as a human error. However, further analysis showed it was a systemic failure caused by a lack of input validation in the software.",
+      "keywords": ["human error", "systemic failure"]
+    },
+    {
+      "id": "adm-b2-w2-ex28",
+      "type": "multipleChoice",
+      "prompt": "Exercise 28: Transparency. Why is transparency important during a crisis?",
+      "options": [
+        "To show who made the mistake.",
+        "To build trust and allow stakeholders to plan around the disruption.",
+        "To fill up the inbox with emails.",
+        "To avoid doing other work."
+      ],
+      "answerIndex": 1,
+      "explanation": "Transparency helps build trust and enables others to manage their own workflows during the downtime."
+    },
+    {
+      "id": "adm-b2-w2-ex29",
+      "type": "writingTask",
+      "prompt": "Exercise 29: Mitigation vs Prevention. Identify which is which: A) Rebooting the server. B) Upgrading the server memory.",
+      "modelAnswer": "A is mitigation (immediate fix). B is prevention (long-term solution).",
+      "keywords": ["mitigation", "prevention"]
+    },
+    {
+      "id": "adm-b2-w2-ex30",
+      "type": "writingTask",
+      "prompt": "Exercise 30: Oral Incident Update. Write a script for a 30-second phone update to a manager about a 'Payment Gateway Outage'. Use the 'Update Formula'.",
+      "modelAnswer": "Hi, we have a payment gateway outage affecting all UK transactions. Customers cannot check out. ETR is 20 minutes as we are switching to the backup provider. I'll update you again in 15 minutes.",
+      "keywords": ["outage", "ETR", "update"]
+    },
+    {
+      "id": "adm-b2-w2-ex31",
+      "type": "reading-comprehension",
+      "title": "Exercise 31: Complex Handover Scenario (Doc C)",
+      "text": "Doc C — Project Transition Memo\n\nTo: Regional Operations Team\nFrom: Head of Logistics\nSubject: Transition of 'Project Atlas'\n\nDue to the merger, Project Atlas is being handed over from the London team to the Manchester hub. \nStatus: 80% of data migration is done. \nBlocked: Access to the legacy SQL server (Manchester team needs permissions). \nRisk: If permissions aren't granted by Wednesday, the go-live date will slip by at least two days. \nDependency: IT Support ticket #998.\nNext Step: Manchester Lead to call IT Support tomorrow at 9 am.",
+      "questions": [
+        {
+          "question": "What is the specific dependency mentioned in Doc C?",
+          "options": ["SQL Server", "IT Support ticket #998", "Data migration"],
+          "answerIndex": 1,
+          "explanation": "Doc C explicitly states: 'Dependency: IT Support ticket #998'."
+        },
+        {
+          "question": "What happens if permissions are delayed beyond Wednesday?",
+          "options": ["Data migration fails", "The merger is cancelled", "The go-live date slips by two days"],
+          "answerIndex": 2,
+          "explanation": "The text warns: 'the go-live date will slip by at least two days' if permissions aren't granted by Wednesday."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w2-ex32",
+      "type": "multipleChoice",
+      "prompt": "Exercise 32: Precision. Which of these is a 'vague' deadline that should be avoided in operations?",
+      "options": ["COB Monday", "ASAP", "3pm UK Time", "Friday EOD"],
+      "answerIndex": 1,
+      "explanation": "'ASAP' is vague and lacks a specific timeframe for accountability."
+    },
+    {
+      "id": "adm-b2-w2-ex33",
+      "type": "writingTask",
+      "prompt": "Exercise 33: Neutralizing Blame. Rewrite: 'The Manchester team is slow getting permissions so we are stuck.'",
+      "modelAnswer": "The project is currently blocked pending the Manchester team's permissions for the SQL server.",
+      "keywords": ["blocked", "pending", "permissions"]
+    },
+    {
+      "id": "adm-b2-w2-ex34",
+      "type": "multipleChoice",
+      "prompt": "Exercise 34: Signposting. Which phrase would you use to start a summary of what has happened so far?",
+      "options": ["Next steps are...", "Quick recap...", "The key point is...", "Wait for..."],
+      "answerIndex": 1,
+      "explanation": "'Quick recap' is used to summarize previous points or events."
+    },
+    {
+      "id": "adm-b2-w2-ex35",
+      "type": "writingTask",
+      "prompt": "Exercise 35: Root Cause Identification. In Doc B, was the issue a 'Human Error' or a 'Systemic Failure'? Explain why.",
+      "modelAnswer": "It was a systemic failure because the automated backup process was not configured to account for the data import window.",
+      "keywords": ["systemic", "failure", "automated"]
+    },
+    {
+      "id": "adm-b2-w2-ex36",
+      "type": "multipleChoice",
+      "prompt": "Exercise 36: Operational Flow. If a task is 'New', has it been started?",
+      "options": ["Yes", "No", "Partially", "Only if it's high priority"],
+      "answerIndex": 1,
+      "explanation": "The status 'New' means a task is logged but not yet started."
+    },
+    {
+      "id": "adm-b2-w2-ex37",
+      "type": "writingTask",
+      "prompt": "Exercise 37: Signposting sentences. Create three sentences using: 'Quick recap', 'The key point is', and 'Next steps are' regarding a office move.",
+      "modelAnswer": "Quick recap: we have packed all the desks. The key point is that the internet is not working yet. Next steps are to call the provider.",
+      "keywords": ["recap", "point", "next steps"]
+    },
+    {
+      "id": "adm-b2-w2-ex38",
+      "type": "multipleChoice",
+      "prompt": "Exercise 38: ETR Communication. If you don't know the exact ETR, what should you do?",
+      "options": [
+        "Guess a time.",
+        "Don't send an update until you know.",
+        "Provide a 'Next Update' time instead to maintain communication.",
+        "Tell the stakeholders to stop asking."
+      ],
+      "answerIndex": 2,
+      "explanation": "If ETR is unknown, committing to a 'Next Update' time is the best way to maintain professional transparency."
+    },
+    {
+      "id": "adm-b2-w2-ex39",
+      "type": "writingTask",
+      "prompt": "Exercise 39: Handover Structure (Block 4). What specifically should be included in the 'Risks / Deadlines' block?",
+      "modelAnswer": "Potential issues that could cause delays and the specific time constraints for the project.",
+      "keywords": ["issues", "delays", "time", "constraints"]
+    },
+    {
+      "id": "adm-b2-w2-ex40",
+      "type": "multipleChoice",
+      "prompt": "Exercise 40: UK Business English. What does 'COB' stand for?",
+      "options": ["Call On Business", "Close Of Business", "Center Of Business", "Carry On Business"],
+      "answerIndex": 1,
+      "explanation": "COB means Close of Business, usually 5pm or the end of the working day."
+    },
+    {
+      "id": "adm-b2-w2-ex41",
+      "type": "writingTask",
+      "prompt": "Exercise 41: RCA Application. Apply the '5 Whys' to this scenario: 'The client didn't receive the invoice.'",
+      "modelAnswer": "1. Why? It wasn't sent. 2. Why? The finance system crashed. 3. Why? The server was full. 4. Why? Old logs weren't deleted. 5. Why? The maintenance script failed.",
+      "keywords": ["Why", "sent", "server", "script"]
+    },
+    {
+      "id": "adm-b2-w2-ex42",
+      "type": "multipleChoice",
+      "prompt": "Exercise 42: Dependency vs Blocker. If you cannot start Task B until Task A finishes, Task A is a:",
+      "options": ["Blocker", "Dependency", "Incident", "Risk"],
+      "answerIndex": 1,
+      "explanation": "A dependency is a task that must be completed before another can progress."
+    },
+    {
+      "id": "adm-b2-w2-ex43",
+      "type": "writingTask",
+      "prompt": "Exercise 43: Mitigation drafting. List two immediate 'mitigation' actions for a power cut in the office.",
+      "modelAnswer": "1. Switching to backup generators. 2. Notifying staff to save work and use laptop batteries.",
+      "keywords": ["generators", "batteries", "backup"]
+    },
+    {
+      "id": "adm-b2-w2-ex44",
+      "type": "multipleChoice",
+      "prompt": "Exercise 44: Executive Summary vs Full Report. Who is the primary audience for an Executive Summary?",
+      "options": ["Technical engineers", "Senior Management", "External vendors", "Junior staff"],
+      "answerIndex": 1,
+      "explanation": "Executive summaries are designed for busy senior managers who need the high-level facts quickly."
+    },
+    {
+      "id": "adm-b2-w2-ex45",
+      "type": "writingTask",
+      "prompt": "Exercise 45: Comprehensive Scenario. You are handing over a task that is blocked by a server outage. Write the 'Blocked' and 'Risks' sections of your handover.",
+      "modelAnswer": "Blocked: Website updates are currently blocked due to a server outage at the hosting provider. Risks: The campaign launch may slip if service is not restored by Tuesday 9am.",
+      "keywords": ["outage", "slip", "launch", "restored"]
     }
   ]
 }

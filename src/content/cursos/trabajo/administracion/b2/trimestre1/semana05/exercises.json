@@ -3,7 +3,7 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana05",
-  "title": "Exercises: Leadership & Team Support",
+  "title": "Exercises: Leadership, Team Support & Conflict Resolution",
   "items": [
     {
       "id": "adm-b2-w5-ex01",
@@ -147,6 +147,307 @@
       "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Accountability'. 2) What does 'Managing Up' mean? 3) Form a sentence: 'Have + [my report] + [update]'. 4) Form a sentence: 'Get + [IT] + [to help]'.",
       "modelAnswer": "1) Taking ownership and responsibility for outcomes. 2) Working effectively with your boss for best results. 3) I had my report updated. 4) I got IT to help.",
       "keywords": ["ownership", "boss", "had", "got"]
+    },
+    {
+      "id": "adm-b2-w5-ex16",
+      "type": "multipleChoice",
+      "prompt": "Exercise 16: L.E.A.P. Framework. A client is angry because of a shipping delay. Which response best represents the 'Empathize' stage?",
+      "options": [
+        "It's not my fault, the courier is late.",
+        "I understand how frustrating this delay must be for your project schedule.",
+        "I will call the warehouse immediately.",
+        "Please wait while I check the tracking number."
+      ],
+      "answerIndex": 1,
+      "explanation": "Empathizing involves acknowledging the other person's feelings and perspective."
+    },
+    {
+      "id": "adm-b2-w5-ex17",
+      "type": "multipleChoice",
+      "prompt": "Exercise 17: SBI Model. You are giving feedback to a colleague who was late to a meeting. Which is the 'Impact' part of the SBI model?",
+      "options": [
+        "In the 9 AM team meeting this morning...",
+        "...you arrived 15 minutes late...",
+        "...which meant we had to restart the agenda and lost valuable time.",
+        "You are always late and it's annoying."
+      ],
+      "answerIndex": 2,
+      "explanation": "The Impact section explains how the specific behavior affected the situation or team."
+    },
+    {
+      "id": "adm-b2-w5-ex18",
+      "type": "writingTask",
+      "prompt": "Exercise 18: Causative Matching. Change 'I cleaned the office' into a professional causative form (someone else did it).",
+      "modelAnswer": "I had the office cleaned.",
+      "keywords": ["had", "office", "cleaned"]
+    },
+    {
+      "id": "adm-b2-w5-ex19",
+      "type": "multipleChoice",
+      "prompt": "Exercise 19: Conflict Resolution. What is the benefit of using 'I' statements during a disagreement?",
+      "options": [
+        "It makes you sound more selfish.",
+        "It reduces defensiveness in the other person by focusing on your experience.",
+        "It allows you to blame the other person more effectively.",
+        "It is only used in informal settings."
+      ],
+      "answerIndex": 1,
+      "explanation": "'I' statements focus on facts and personal impact rather than accusing the other person."
+    },
+    {
+      "id": "adm-b2-w5-ex20",
+      "type": "writingTask",
+      "prompt": "Exercise 20: Vocabulary Practice. Use 'de-escalate' and 'common ground' in a single sentence about a workplace dispute.",
+      "modelAnswer": "I tried to de-escalate the situation by finding common ground regarding our shared goal of finishing the project on time.",
+      "keywords": ["de-escalate", "common ground"]
+    },
+    {
+      "id": "adm-b2-w5-ex21",
+      "type": "multipleChoice",
+      "prompt": "Exercise 21: Managing Up. Your boss gives you a task with a very vague deadline. What should you do?",
+      "options": [
+        "Wait until they ask for it.",
+        "Clarify expectations by asking for a specific 'due date' and priority level.",
+        "Guess and hope for the best.",
+        "Complain to your colleagues."
+      ],
+      "answerIndex": 1,
+      "explanation": "Clarifying expectations is a core strategy for managing up effectively."
+    },
+    {
+      "id": "adm-b2-w5-ex22",
+      "type": "writingTask",
+      "prompt": "Exercise 22: Causative 'Have'. Form a sentence: 'The manager / have / the staff / attend / the workshop'. (No 'to')",
+      "modelAnswer": "The manager had the staff attend the workshop.",
+      "keywords": ["had", "staff", "attend"]
+    },
+    {
+      "id": "adm-b2-w5-ex23",
+      "type": "multipleChoice",
+      "prompt": "Exercise 23: De-escalation. If a colleague is shouting at you, what is the best first step?",
+      "options": [
+        "Shout back to show you are not afraid.",
+        "Remain calm, use a low voice, and ask if you can discuss the matter in a private room.",
+        "Ignore them completely and walk away without a word.",
+        "Call security immediately without talking to them."
+      ],
+      "answerIndex": 1,
+      "explanation": "Remaining calm and moving to a private space helps de-escalate the intensity."
+    },
+    {
+      "id": "adm-b2-w5-ex24",
+      "type": "writingTask",
+      "prompt": "Exercise 24: Feedback Transformation. Transform this judgmental comment into an SBI feedback: 'You are so disorganized with the files!'",
+      "modelAnswer": "In the filing system update (Situation), I noticed many documents were mislabelled (Behavior), which caused a 2-hour delay in the audit (Impact).",
+      "keywords": ["Situation", "Behavior", "Impact"]
+    },
+    {
+      "id": "adm-b2-w5-ex25",
+      "type": "multipleChoice",
+      "prompt": "Exercise 25: Vocabulary. What does it mean to 'iron out the details'?",
+      "options": [
+        "To press a shirt for a meeting.",
+        "To resolve minor problems or clarify small points.",
+        "To cancel a project entirely.",
+        "To find a new vendor."
+      ],
+      "answerIndex": 1,
+      "explanation": "To iron out details means to fix small issues or finalize specifics."
+    },
+    {
+      "id": "adm-b2-w5-ex26",
+      "type": "writingTask",
+      "prompt": "Exercise 26: Delegation Instruction. You need a junior to proofread a report. Use 'get + person + to + infinitive'.",
+      "modelAnswer": "I'll get Mark to proofread the report.",
+      "keywords": ["get", "Mark", "to", "proofread"]
+    },
+    {
+      "id": "adm-b2-w5-ex27",
+      "type": "multipleChoice",
+      "prompt": "Exercise 27: Leadership. Which action best demonstrates 'anticipating needs'?",
+      "options": [
+        "Doing exactly what you are told.",
+        "Preparing a travel itinerary and local weather report before the executive asks for them.",
+        "Asking for a pay rise.",
+        "Wait for a problem to happen before suggesting a fix."
+      ],
+      "answerIndex": 1,
+      "explanation": "Anticipating needs means acting before being asked based on logical foresight."
+    },
+    {
+      "id": "adm-b2-w5-ex28",
+      "type": "writingTask",
+      "prompt": "Exercise 28: L.E.A.P. Practice. Write an 'Apology' sentence for a lost invoice, following the L.E.A.P. framework.",
+      "modelAnswer": "I apologize for the oversight regarding the missing invoice; I understand this affects your payment cycle.",
+      "keywords": ["apologize", "understand"]
+    },
+    {
+      "id": "adm-b2-w5-ex29",
+      "type": "multipleChoice",
+      "prompt": "Exercise 29: Accountability. If a project fails because of a vendor's mistake, an 'accountable' administrator would:",
+      "options": [
+        "Blame the vendor and do nothing else.",
+        "Take responsibility for the oversight and present a plan to resolve the issue with the vendor.",
+        "Tell the boss they didn't pick the vendor.",
+        "Delete the project files."
+      ],
+      "answerIndex": 1,
+      "explanation": "Accountability means taking ownership of the outcome and finding solutions, regardless of external factors."
+    },
+    {
+      "id": "adm-b2-w5-ex30",
+      "type": "writingTask",
+      "prompt": "Exercise 30: Causative 'Get'. Rewrite: 'The CEO persuaded the board to increase the budget.'",
+      "modelAnswer": "The CEO got the board to increase the budget.",
+      "keywords": ["got", "board", "to", "increase"]
+    },
+    {
+      "id": "adm-b2-w5-ex31",
+      "type": "multipleChoice",
+      "prompt": "Exercise 31: Conflict Resolution. What does it mean to 'meet halfway'?",
+      "options": [
+        "To walk to the middle of the office.",
+        "To compromise so both parties are satisfied.",
+        "To only do 50% of your work.",
+        "To attend only the first half of a meeting."
+      ],
+      "answerIndex": 1,
+      "explanation": "Meeting halfway is a synonym for compromise."
+    },
+    {
+      "id": "adm-b2-w5-ex32",
+      "type": "writingTask",
+      "prompt": "Exercise 32: Professional Email. Write a 30-word email 'looping in' a colleague to a thread about office supplies.",
+      "modelAnswer": "Hi Jane, I'm looping you in here as you manage the stationary budget. Could you review the latest quote from the vendor? Thanks, Sam.",
+      "keywords": ["looping you in", "budget", "review"]
+    },
+    {
+      "id": "adm-b2-w5-ex33",
+      "type": "multipleChoice",
+      "prompt": "Exercise 33: SBI Model. In SBI, 'Behavior' should be:",
+      "options": [
+        "An opinion about the person's character.",
+        "A specific, observable action.",
+        "A guess about why they did something.",
+        "A suggestion for the future."
+      ],
+      "answerIndex": 1,
+      "explanation": "Behavior must be objective and observable, not an interpretation of intent."
+    },
+    {
+      "id": "adm-b2-w5-ex34",
+      "type": "writingTask",
+      "prompt": "Exercise 34: Causative Practice. Change 'I arranged for the caterers to bring lunch' using 'had + person + infinitive'.",
+      "modelAnswer": "I had the caterers bring lunch.",
+      "keywords": ["had", "caterers", "bring"]
+    },
+    {
+      "id": "adm-b2-w5-ex35",
+      "type": "multipleChoice",
+      "prompt": "Exercise 35: Emotional Intelligence. Which trait is most useful for 'de-escalating' a heated argument?",
+      "options": ["Aggression", "Self-regulation", "Stubbornness", "Indifference"],
+      "answerIndex": 1,
+      "explanation": "Self-regulation allows you to stay calm and not react emotionally, which is key to de-escalation."
+    },
+    {
+      "id": "adm-b2-w5-ex36",
+      "type": "writingTask",
+      "prompt": "Exercise 36: Strategy. Explain how 'providing solutions, not problems' helps your relationship with your manager.",
+      "modelAnswer": "It saves their time and demonstrates that you are taking ownership of the situation, building trust and showing initiative.",
+      "keywords": ["saves time", "ownership", "trust", "initiative"]
+    },
+    {
+      "id": "adm-b2-w5-ex37",
+      "type": "multipleChoice",
+      "prompt": "Exercise 37: Vocabulary. A 'briefing' is:",
+      "options": [
+        "A very long document.",
+        "A short meeting or document giving essential information.",
+        "A formal legal trial.",
+        "A type of office furniture."
+      ],
+      "answerIndex": 1,
+      "explanation": "A briefing is intended to provide necessary info concisely."
+    },
+    {
+      "id": "adm-b2-w5-ex38",
+      "type": "writingTask",
+      "prompt": "Exercise 38: Causative 'Have'. Rewrite: 'I need to pay someone to audit the accounts.'",
+      "modelAnswer": "I need to have the accounts audited.",
+      "keywords": ["have", "accounts", "audited"]
+    },
+    {
+      "id": "adm-b2-w5-ex39",
+      "type": "multipleChoice",
+      "prompt": "Exercise 39: Mentorship. Why is mentorship important in administration?",
+      "options": [
+        "To make sure nobody ever takes a break.",
+        "To ensure knowledge transfer and maintain consistent standards in office protocols.",
+        "To find out secrets about colleagues.",
+        "To delegate all your own work to someone else."
+      ],
+      "answerIndex": 1,
+      "explanation": "Mentorship ensures the team remains efficient and adheres to company culture/standards."
+    },
+    {
+      "id": "adm-b2-w5-ex40",
+      "type": "writingTask",
+      "prompt": "Exercise 40: L.E.A.P. Problem-Solving. A colleague is upset because they weren't invited to a meeting. Write a 'Problem-solve' sentence.",
+      "modelAnswer": "I will send you the minutes immediately and make sure you are added to all future sessions on this topic.",
+      "keywords": ["send", "minutes", "added", "future"]
+    },
+    {
+      "id": "adm-b2-w5-ex41",
+      "type": "multipleChoice",
+      "prompt": "Exercise 41: Managing Up. If your manager's style is 'dashboard view', you should provide:",
+      "options": [
+        "A 20-page detailed report.",
+        "A one-page summary with key metrics and red/green status indicators.",
+        "A verbal update over coffee.",
+        "No information until the project is 100% finished."
+      ],
+      "answerIndex": 1,
+      "explanation": "Dashboard view implies high-level, visual, and concise data."
+    },
+    {
+      "id": "adm-b2-w5-ex42",
+      "type": "writingTask",
+      "prompt": "Exercise 42: Causative 'Get'. Rewrite: 'I convinced the manager to give us a day off.'",
+      "modelAnswer": "I got the manager to give us a day off.",
+      "keywords": ["got", "manager", "to", "give"]
+    },
+    {
+      "id": "adm-b2-w5-ex43",
+      "type": "multipleChoice",
+      "prompt": "Exercise 43: Vocabulary. To 'call a truce' means:",
+      "options": [
+        "To fire everyone.",
+        "To agree to stop an argument temporarily.",
+        "To start a new business.",
+        "To win a negotiation."
+      ],
+      "answerIndex": 1,
+      "explanation": "Calling a truce is a temporary cessation of conflict."
+    },
+    {
+      "id": "adm-b2-w5-ex44",
+      "type": "writingTask",
+      "prompt": "Exercise 44: Objective Language. Rewrite this emotive sentence professionally: 'This schedule is a total disaster!'",
+      "modelAnswer": "The current schedule has several significant conflicts that need to be addressed.",
+      "keywords": ["schedule", "conflicts", "addressed"]
+    },
+    {
+      "id": "adm-b2-w5-ex45",
+      "type": "multipleChoice",
+      "prompt": "Exercise 45: Final Review. Which causative form is most common when paying for a professional service?",
+      "options": [
+        "Get someone to do",
+        "Have something done",
+        "Have someone do",
+        "Make someone do"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Have something done' is standard for services (e.g., 'have the car serviced', 'have the audit performed')."
     }
   ]
 }

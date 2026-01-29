@@ -1,154 +1,190 @@
 {
-  "goal": "administracion",
-  "level": "B2",
-  "trimester": 1,
-  "weekId": "semana06",
-  "title": "Exam: Risk Management and Insurance",
-  "description": "15 questions evaluating knowledge of risk categories, insurance terms, and Modals of Deduction.",
-  "items": [
+  "title": "Week 6 Assessment: Agenda Management and Corporate Travel",
+  "questions": [
     {
-      "id": "finance-b2-w6-exam-q1",
-      "type": "multiple_choice",
-      "question": "Which type of risk refers to the potential failure of internal systems and processes?",
-      "options": ["Credit Risk", "Operational Risk", "Systemic Risk", "Market Risk"],
-      "answer": "Operational Risk",
-      "explanation": "Operational risk is the prospect of loss resulting from inadequate or failed procedures."
-    },
-    {
-      "id": "finance-b2-w6-exam-q2",
-      "type": "fill_in_the_blank",
-      "question": "The analyst looks exhausted. He ________ (work) all night on the risk report.",
-      "answer": "must have been working",
-      "explanation": "Strong deduction about a continuous past action. (Also acceptable: 'must have worked')."
-    },
-    {
-      "id": "finance-b2-w6-exam-q3",
-      "type": "multiple_choice",
-      "question": "In insurance, the 'Premium' is:",
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What is 'Buffer Time' in the context of calendar management?",
       "options": [
-        "The amount paid out for a claim",
-        "The amount the insured pays for the policy",
-        "A type of bank account",
-        "The tax on a profit"
+        "Time reserved for long lunches.",
+        "Short gaps between meetings to allow for overruns or resets.",
+        "Time when the office is closed.",
+        "A period for technical maintenance."
       ],
-      "answer": "The amount the insured pays for the policy",
-      "explanation": "A premium is the periodic payment for insurance coverage."
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w6-exam-q4",
-      "type": "multiple_choice",
-      "question": "Shifting risk to another party is known as risk:",
-      "options": ["Avoidance", "Retention", "Transfer", "Mitigation"],
-      "answer": "Transfer",
-      "explanation": "Risk transfer is often achieved through insurance or hedging."
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which term describes the role of an administrator in controlling access to an executive?",
+      "options": ["Gatekeeping", "Blocking", "Tracking", "Redirecting"],
+      "correctAnswer": 0
     },
     {
-      "id": "finance-b2-w6-exam-q5",
-      "type": "fill_in_the_blank",
-      "question": "The firm didn't hedge their currency exposure. That ________ (be) the reason for their losses.",
-      "answer": "must be",
-      "explanation": "Present deduction based on known past facts."
-    },
-    {
-      "id": "finance-b2-w6-exam-q6",
-      "type": "multiple_choice",
-      "question": "What is a 'Deductible'?",
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In formal English, which is the correct inverted form of: 'I have never seen a better itinerary.'",
       "options": [
-        "A discount on the premium",
-        "The out-of-pocket amount paid by the insured before the insurer pays",
-        "A tax-deductible expense",
-        "The maximum amount an insurance company will pay"
+        "Never I have seen a better itinerary.",
+        "Never have I seen a better itinerary.",
+        "Never seen have I a better itinerary.",
+        "I have never seen better an itinerary."
       ],
-      "answer": "The out-of-pocket amount paid by the insured before the insurer pays",
-      "explanation": "Deductibles share the risk between the insurer and the policyholder."
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w6-exam-q7",
-      "type": "multiple_choice",
-      "question": "Credit Risk is most relevant to:",
-      "options": ["Banks and lenders", "Marketing agencies", "Construction workers", "Designers"],
-      "answer": "Banks and lenders",
-      "explanation": "Lenders face the risk that borrowers will not repay loans."
-    },
-    {
-      "id": "finance-b2-w6-exam-q8",
-      "type": "fill_in_the_blank",
-      "question": "He ________ (know) about the data breach; he doesn't even have access to that system.",
-      "answer": "can't have known",
-      "explanation": "Strong negative deduction about the past."
-    },
-    {
-      "id": "finance-b2-w6-exam-q9",
-      "type": "multiple_choice",
-      "question": "Risk 'Mitigation' involves:",
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "What is an ESTA?",
       "options": [
-        "Increasing the impact of a risk",
-        "Reducing the likelihood or impact of a risk",
-        "Ignoring a risk",
-        "Selling the company"
+        "A European hotel rating system.",
+        "An electronic authorization for travel to the USA.",
+        "A type of corporate expense software.",
+        "A formal diplomatic invitation."
       ],
-      "answer": "Reducing the likelihood or impact of a risk",
-      "explanation": "Mitigation makes a risk less severe."
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w6-exam-q10",
-      "type": "fill_in_the_blank",
-      "question": "The regulatory changes ________ (affect) our profitability next year.",
-      "answer": "might affect",
-      "explanation": "Future possibility/deduction."
+      "id": "q5",
+      "type": "fill-in-the-blank",
+      "question": "Under no circumstances ________ you share the Director's private itinerary. (Modal verb needed)",
+      "answer": "should"
     },
     {
-      "id": "finance-b2-w6-exam-q11",
-      "type": "multiple_choice",
-      "question": "What is 'Force Majeure'?",
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "To 'reconcile' expenses means to:",
       "options": [
-        "A legal term for 'Act of God'",
-        "A type of investment fund",
-        "A merger strategy",
-        "A financial audit"
+        "Pay them immediately.",
+        "Cancel the budget.",
+        "Check actual costs against receipts and the budget.",
+        "Ask the executive for more money."
       ],
-      "answer": "A legal term for 'Act of God'",
-      "explanation": "Force majeure covers uncontrollable events like natural disasters."
+      "correctAnswer": 2
     },
     {
-      "id": "finance-b2-w6-exam-q12",
-      "type": "multiple_choice",
-      "question": "Underwriting is the process of:",
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "What does 'Per Diem' refer to in travel logistics?",
       "options": [
-        "Writing a book about finance",
-        "Evaluating and taking on risk for a fee",
-        "Paying off a loan early",
-        "Hiring new employees"
+        "A daily allowance for living expenses.",
+        "A document needed for health insurance.",
+        "A type of business visa.",
+        "A direct flight with no stops."
       ],
-      "answer": "Evaluating and taking on risk for a fee",
-      "explanation": "Underwriting is core to insurance and investment banking."
+      "correctAnswer": 0
     },
     {
-      "id": "finance-b2-w6-exam-q13",
-      "type": "fill_in_the_blank",
-      "question": "The company ________ (face) bankruptcy; their debt-to-equity ratio is terrifying.",
-      "answer": "must be facing",
-      "explanation": "Strong present continuous deduction."
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which scheduling strategy helps protect time for focused work?",
+      "options": ["Back-to-back meetings", "Time Blocking", "Open Calendar", "Overbooking"],
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w6-exam-q14",
-      "type": "multiple_choice",
-      "question": "What does D&O insurance protect?",
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "What is a 'Layover'?",
       "options": [
-        "Dividends and Options",
-        "Directors and Officers",
-        "Debt and Output",
-        "Deliveries and Orders"
+        "A hotel bed.",
+        "A break in a journey between two flights.",
+        "A type of travel insurance.",
+        "A meeting that starts early."
       ],
-      "answer": "Directors and Officers",
-      "explanation": "D&O insurance covers personal liability of corporate leaders."
+      "correctAnswer": 1
     },
     {
-      "id": "finance-b2-w6-exam-q15",
-      "type": "fill_in_the_blank",
-      "question": "They ________ (forgot) to hedge the commodity prices.",
-      "answer": "must have forgotten",
-      "explanation": "Strong deduction about a past omission."
+      "id": "q10",
+      "type": "fill-in-the-blank",
+      "question": "Not only ________ the flight delayed, but the luggage was also lost. (Auxiliary verb needed)",
+      "answer": "was"
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "question": "Why is 'Priority Alignment' important when managing a calendar?",
+      "options": [
+        "To make the calendar look colorful.",
+        "To ensure the executive spends time on high-impact activities related to their goals.",
+        "To make sure every meeting is exactly 60 minutes.",
+        "To avoid booking meetings on Mondays."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "question": "Which of these is a 'Preferred Vendor'?",
+      "options": [
+        "A supplier a company has a pre-negotiated agreement with.",
+        "A vendor that gives the executive personal gifts.",
+        "The most expensive vendor on the market.",
+        "A local shop near the office."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "question": "What is the standard passport validity requirement for many international destinations?",
+      "options": ["1 month", "3 months", "6 months", "12 months"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q14",
+      "type": "fill-in-the-blank",
+      "question": "Only after receiving the ________ did I book the car service.",
+      "answer": "confirmation"
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "question": "In an itinerary, 'Ground Transportation' usually includes:",
+      "options": ["Flights", "Taxis and trains", "Hotels", "Food and beverages"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "type": "multiple-choice",
+      "question": "What is 'Jet Lag'?",
+      "options": [
+        "A problem with the airplane engine.",
+        "Tiredness caused by disrupted sleep patterns after a long flight across time zones.",
+        "A fear of flying.",
+        "The feeling of excitement before a trip."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "type": "fill-in-the-blank",
+      "question": "Seldom ________ he travel without his laptop. (Auxiliary verb needed)",
+      "answer": "does"
+    },
+    {
+      "id": "q18",
+      "type": "multiple-choice",
+      "question": "A 'Preferred Vendor' policy helps a company to:",
+      "options": [
+        "Increase travel costs.",
+        "Ensure consistent quality and negotiated rates.",
+        "Encourage employees to use their own money.",
+        "Avoid using airplanes."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "type": "multiple-choice",
+      "question": "Which inversion structure is used for strict warnings?",
+      "options": ["Rarely...", "Not only...", "Under no circumstances...", "Seldom..."],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q20",
+      "type": "fill-in-the-blank",
+      "question": "An itinerary is a detailed ________ or route of a journey.",
+      "answer": "plan"
     }
   ]
 }

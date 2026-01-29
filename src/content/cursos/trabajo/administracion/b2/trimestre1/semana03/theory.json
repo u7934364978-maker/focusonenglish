@@ -25,18 +25,33 @@
       "id": "deliverable",
       "title": "Weekly Deliverable (Portfolio)",
       "content": "### Task: Data Privacy Internal Audit\nPerform a 'mini-audit' of your current (or a hypothetical) workspace and write a 250-word report.\n\n**Structure:**\n1. **Observation**: Identify two potential privacy risks (e.g., unlocked filing cabinets, passwords on sticky notes).\n2. **Evaluation**: Use **complex passives** to describe how these risks are perceived (e.g., 'It is thought that...').\n3. **Recommendations**: Suggest two actions to ensure the office is 'in compliance' with GDPR."
+    },
+    {
+      "id": "dpia-protocol",
+      "title": "Data Protection Impact Assessments (DPIAs)",
+      "content": "A **DPIA** is a process designed to help you identify and minimise the data protection risks of a project. It is mandatory under GDPR for any processing that is likely to result in a high risk to individuals.\n\n### When is a DPIA required?\n- When using new technologies (e.g., AI in recruitment).\n- Large-scale processing of sensitive data (health, criminal records).\n- Systematic monitoring of a public area (CCTV).\n\n### Key Steps in a DPIA\n1. **Describe**: Define the nature, scope, and context of the processing.\n2. **Assess**: Evaluate the necessity and proportionality of the data collection.\n3. **Identify Risks**: Look for potential breaches or misuses of data.\n4. **Mitigate**: Implement measures to reduce those risks."
+    },
+    {
+      "id": "cyber-hygiene",
+      "title": "Cyber Hygiene for Administrative Professionals",
+      "content": "Daily habits can prevent 80% of data breaches. Administrative staff are the first line of defence against cyber threats.\n\n### Essential Practices\n- **Password Integrity**: Use complex, unique passwords and Multi-Factor Authentication (MFA).\n- **Phishing Awareness**: Be wary of 'Urgent' emails asking for passwords or bank details. **It is estimated that** 90% of successful attacks start with phishing.\n- **Clear Desk Policy**: Ensure no PII is visible on desks or screens when you are away from your workstation.\n- **Secure Disposal**: Use cross-cut shredders for physical documents containing sensitive info."
     }
   ],
   "objectives": [
     "Summarise the core principles of GDPR in an administrative context",
     "Describe the steps to handle and report a data breach professionally",
     "Use complex passive structures to report information objectively",
-    "Identify and mitigate common privacy risks in the office environment"
+    "Identify and mitigate common privacy risks in the office environment",
+    "Determine when a Data Protection Impact Assessment (DPIA) is required",
+    "Apply best practices for cyber hygiene to prevent data leaks"
   ],
   "keyTerms": [
     { "term": "PII", "definition": "Personally Identifiable Information: data that can be used on its own or with other information to identify, contact, or locate a single person." },
     { "term": "SAR", "definition": "Subject Access Request: a right for an individual to get a copy of the personal information that is held about them." },
     { "term": "Redaction", "definition": "The process of removing sensitive information from a document before it is published or shared." },
-    { "term": "Compliance", "definition": "The state of following a set of rules, regulations, or laws." }
+    { "term": "Compliance", "definition": "The state of following a set of rules, regulations, or laws." },
+    { "term": "DPIA", "definition": "Data Protection Impact Assessment: a process to identify and mitigate risks in a new data project." },
+    { "term": "Phishing", "definition": "A fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity in an email." },
+    { "term": "MFA", "definition": "Multi-Factor Authentication: a security system that requires more than one method of authentication." }
   ]
 }
