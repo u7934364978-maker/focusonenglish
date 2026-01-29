@@ -3,63 +3,73 @@
   "level": "B2",
   "trimester": 2,
   "weekId": "semana16",
-  "examId": "fin-b2-w16-exam",
-  "title": "Examen: Inversiones Alternativas y Estrategias",
+  "examId": "adm-b2-w16-exam",
+  "title": "Exam: Supply Chain & Vendor Relations",
   "items": [
     {
-      "id": "fin-b2-w16-exam-1",
+      "id": "adm-b2-w16-exam-1",
       "type": "multipleChoice",
-      "prompt": "Which investment vehicle focuses on investing in startups with high growth potential?",
-      "options": ["Private Equity", "Hedge Fund", "Venture Capital", "Mutual Fund"],
-      "answerIndex": 2,
-      "explanation": "Venture Capital (VC) is specifically for startups and early-stage companies."
-    },
-    {
-      "id": "fin-b2-w16-exam-2",
-      "type": "multipleChoice",
-      "prompt": "What is 'Leverage' in a financial context?",
+      "prompt": "What is an SLA (Service Level Agreement)?",
       "options": [
-        "The ability to influence market prices",
-        "The use of borrowed capital for investment",
-        "A type of insurance for stock portfolios",
-        "The legal process of closing a fund"
+        "A tax document for international shipping",
+        "A commitment regarding quality and responsibilities of a service",
+        "A type of software used for graphic design",
+        "A list of all employees in the procurement department"
       ],
       "answerIndex": 1,
-      "explanation": "Leverage refers to using debt (borrowed money) to increase the potential return (or loss) of an investment."
+      "explanation": "An SLA defines the level of service expected by a customer from a supplier."
     },
     {
-      "id": "fin-b2-w16-exam-3",
+      "id": "adm-b2-w16-exam-2",
       "type": "multipleChoice",
-      "prompt": "Choose the correct sentence:",
+      "prompt": "Choose the correct formal request using the subjunctive: 'It is essential that the vendor ____ the report by Friday.'",
       "options": [
-        "We managed to secure the funding.",
-        "We managed securing the funding.",
-        "We avoid to use too much leverage.",
-        "We consider to sell the shares."
+        "provides",
+        "provide",
+        "providing",
+        "to provide"
       ],
-      "answerIndex": 0,
-      "explanation": "'Manage' is followed by an infinitive, while 'avoid' and 'consider' are followed by gerunds."
+      "answerIndex": 1,
+      "explanation": "The subjunctive uses the base form of the verb (without 's') after 'essential that'."
     },
     {
-      "id": "fin-b2-w16-exam-4",
+      "id": "adm-b2-w16-exam-3",
       "type": "multipleChoice",
-      "prompt": "An 'Exit Strategy' is designed to:",
+      "prompt": "The time between the initiation and completion of a process is known as the ____.",
       "options": [
-        "Prevent employees from leaving the company",
-        "Minimize taxes on daily operations",
-        "Outline how an investor will liquidate their position",
-        "Close a bank account in a foreign country"
+        "lag time",
+        "lead time",
+        "wait time",
+        "gap time"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lead time is the total time required to complete a process or deliver a product."
+    },
+    {
+      "id": "adm-b2-w16-exam-4",
+      "type": "multipleChoice",
+      "prompt": "Select the correct subjunctive form: 'We recommend that the contract ____ reviewed by Legal.'",
+      "options": [
+        "is",
+        "was",
+        "be",
+        "were"
       ],
       "answerIndex": 2,
-      "explanation": "An exit strategy is a plan for how an investor or business owner will sell their investment or business."
+      "explanation": "In the subjunctive mood, 'to be' always becomes 'be'."
     },
     {
-      "id": "fin-b2-w16-exam-5",
+      "id": "adm-b2-w16-exam-5",
       "type": "multipleChoice",
-      "prompt": "Which verb is typically followed by a gerund?",
-      "options": ["Agree", "Promise", "Keep", "Attempt"],
-      "answerIndex": 2,
-      "explanation": "'Keep' is followed by a gerund (e.g., 'keep investing'), while the others are followed by an infinitive."
+      "prompt": "What does 'vetting a vendor' involve?",
+      "options": [
+        "Paying the vendor's invoice early",
+        "Performing a background and compliance check",
+        "Inviting the vendor to a company party",
+        "Promoting the vendor on social media"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vetting is the process of thoroughly investigating a person or company before entering into an agreement."
     }
   ]
 }

@@ -3,53 +3,73 @@
   "level": "B2",
   "trimester": 2,
   "weekId": "semana17",
-  "examId": "fin-b2-w17-exam",
-  "title": "Examen: FinTech y Transformación Digital",
+  "examId": "adm-b2-w17-exam",
+  "title": "Exam: HR Operations: Recruitment & Onboarding",
   "items": [
     {
-      "id": "fin-b2-w17-exam-1",
+      "id": "adm-b2-w17-exam-1",
       "type": "multipleChoice",
-      "prompt": "Which technology is fundamental for the operation of cryptocurrencies like Bitcoin?",
-      "options": ["Artificial Intelligence", "Blockchain", "Cloud Computing", "Virtual Reality"],
-      "answerIndex": 1,
-      "explanation": "Blockchain is the underlying decentralized ledger technology for cryptocurrencies."
-    },
-    {
-      "id": "fin-b2-w17-exam-2",
-      "type": "multipleChoice",
-      "prompt": "What is the primary purpose of 'Open Banking'?",
+      "prompt": "What is the term for a formal introduction to a new job or organization?",
       "options": [
-        "To allow banks to close more physical branches",
-        "To share customer data securely with third-party providers via APIs",
-        "To prevent customers from switching banks",
-        "To eliminate the use of passwords in banking"
+        "Onboarding",
+        "Induction",
+        "Shortlisting",
+        "Vetting"
       ],
       "answerIndex": 1,
-      "explanation": "Open Banking uses APIs to share financial information, fostering competition and innovation."
+      "explanation": "An induction is the formal process of introducing a new employee to their role and the company."
     },
     {
-      "id": "fin-b2-w17-exam-3",
+      "id": "adm-b2-w17-exam-2",
       "type": "multipleChoice",
-      "prompt": "Complete the sentence: 'The bank upgraded its system ________ reduce transaction times.'",
-      "options": ["so as to", "consequently", "therefore", "so that"],
+      "prompt": "Choose the correct perfect participle clause: '____ the CVs, the team started the shortlisting process.'",
+      "options": [
+        "Reviewing",
+        "Reviewed",
+        "Having reviewed",
+        "To have reviewed"
+      ],
+      "answerIndex": 2,
+      "explanation": "The perfect participle (Having + past participle) shows that one action was completed before another."
+    },
+    {
+      "id": "adm-b2-w17-exam-3",
+      "type": "multipleChoice",
+      "prompt": "When selecting the most suitable candidates from a large pool, you are ____ them.",
+      "options": [
+        "shortlisting",
+        "onboarding",
+        "profiling",
+        "screening"
+      ],
       "answerIndex": 0,
-      "explanation": "'So as to' is used with an infinitive to express purpose."
+      "explanation": "Shortlisting is the process of selecting a small group of candidates for the next stage (usually interviews)."
     },
     {
-      "id": "fin-b2-w17-exam-4",
+      "id": "adm-b2-w17-exam-4",
       "type": "multipleChoice",
-      "prompt": "Which term describes a platform that provides automated, algorithm-driven financial planning?",
-      "options": ["Crowdfunding", "Robo-advisor", "P2P lending", "Blockchain"],
+      "prompt": "Complete the sentence with a participle clause: '____ as the HR lead, she managed over 50 recruitments.'",
+      "options": [
+        "Worked",
+        "Working",
+        "To work",
+        "Having work"
+      ],
       "answerIndex": 1,
-      "explanation": "A robo-advisor automates investment management based on algorithms."
+      "explanation": "A present participle (-ing) clause can be used to explain the reason or circumstances of the main action."
     },
     {
-      "id": "fin-b2-w17-exam-5",
+      "id": "adm-b2-w17-exam-5",
       "type": "multipleChoice",
-      "prompt": "Digital banking has lowered operational costs; ________, many banks are offering better interest rates.",
-      "options": ["consequently", "however", "although", "whereas"],
-      "answerIndex": 0,
-      "explanation": "'Consequently' shows the result of lowered operational costs."
+      "prompt": "What is the purpose of checking a candidate's 'references'?",
+      "options": [
+        "To find out their favorite hobbies",
+        "To verify their professional history and character",
+        "To see if they have any social media accounts",
+        "To check if they live near the office"
+      ],
+      "answerIndex": 1,
+      "explanation": "References are used to confirm the accuracy of a candidate's background and performance in previous roles."
     }
   ]
 }

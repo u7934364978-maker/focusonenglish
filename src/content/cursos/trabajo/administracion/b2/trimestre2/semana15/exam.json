@@ -3,58 +3,73 @@
   "level": "B2",
   "trimester": 2,
   "weekId": "semana15",
-  "examId": "fin-b2-w15-exam",
-  "title": "Examen: Administracion Internacionales y Riesgo de Divisa",
+  "examId": "adm-b2-w15-exam",
+  "title": "Exam: Budgeting & Financial Control",
   "items": [
     {
-      "id": "fin-b2-w15-exam-1",
+      "id": "adm-b2-w15-exam-1",
       "type": "multipleChoice",
-      "prompt": "What is the term for making an investment to reduce the risk of adverse price movements?",
-      "options": ["Arbitrage", "Hedging", "Speculation", "Leverage"],
-      "answerIndex": 1,
-      "explanation": "'Hedging' is a strategy used to offset potential losses in one investment by making another."
-    },
-    {
-      "id": "fin-b2-w15-exam-2",
-      "type": "multipleChoice",
-      "prompt": "Which term refers to the current value of one currency for immediate conversion to another?",
-      "options": ["Forward Rate", "Spot Rate", "Interest Rate", "Discount Rate"],
-      "answerIndex": 1,
-      "explanation": "The 'Spot Rate' is the price quoted for immediate settlement on a currency, security, or commodity."
-    },
-    {
-      "id": "fin-b2-w15-exam-3",
-      "type": "multipleChoice",
-      "prompt": "Complete the sentence: 'By the end of the fiscal year, our portfolio ________ in value.'",
-      "options": ["will increase", "will have increased", "increases", "is increasing"],
-      "answerIndex": 1,
-      "explanation": "We use the Future Perfect ('will have increased') to describe an action that will be completed by a specific time in the future."
-    },
-    {
-      "id": "fin-b2-w15-exam-4",
-      "type": "multipleChoice",
-      "prompt": "What does 'Arbitrage' involve?",
+      "prompt": "Major investments like new computers or office furniture are categorized as:",
       "options": [
-        "Buying insurance against losses",
-        "Predicting future interest rates",
-        "Taking advantage of price differences in different markets",
-        "Setting long-term financial goals"
+        "OPEX",
+        "CAPEX",
+        "VAT",
+        "GDP"
       ],
-      "answerIndex": 2,
-      "explanation": "Arbitrage is the simultaneous purchase and sale of an asset to profit from an imbalance in the price."
+      "answerIndex": 1,
+      "explanation": "CAPEX (Capital Expenditure) refers to major investments in fixed assets."
     },
     {
-      "id": "fin-b2-w15-exam-5",
+      "id": "adm-b2-w15-exam-2",
       "type": "multipleChoice",
-      "prompt": "Select the correct Future Perfect question:",
+      "prompt": "How do you express a regret about a past overspend?",
       "options": [
-        "Will you have finalized the audit by Friday?",
-        "Do you have finalized the audit by Friday?",
-        "Will you finalize the audit by Friday?",
-        "Have you finalize the audit by Friday?"
+        "I wish we hadn't overspent.",
+        "I wish we didn't overspend.",
+        "I wish we wouldn't overspend.",
+        "I wish we don't overspend."
       ],
       "answerIndex": 0,
-      "explanation": "The structure for Future Perfect questions is 'Will + subject + have + past participle'."
+      "explanation": "To express regret about the past, use 'wish + past perfect'."
+    },
+    {
+      "id": "adm-b2-w15-exam-3",
+      "type": "multipleChoice",
+      "prompt": "What is 'Variance Analysis' in budgeting?",
+      "options": [
+        "A way to calculate staff bonuses",
+        "A method of encrypting financial files",
+        "The comparison between actual spend and the planned budget",
+        "The process of hiring new accountants"
+      ],
+      "answerIndex": 2,
+      "explanation": "Variance analysis identifies the difference between what was planned and what was actually spent."
+    },
+    {
+      "id": "adm-b2-w15-exam-4",
+      "type": "multipleChoice",
+      "prompt": "Complete the present wish: 'I wish we ____ a larger budget for training this year.'",
+      "options": [
+        "have",
+        "had",
+        "will have",
+        "would had"
+      ],
+      "answerIndex": 1,
+      "explanation": "To express a wish about the present, use 'wish + past simple'."
+    },
+    {
+      "id": "adm-b2-w15-exam-5",
+      "type": "multipleChoice",
+      "prompt": "To 'justify the spend' means:",
+      "options": [
+        "To hide the receipts from the manager",
+        "To explain why a particular expense was necessary",
+        "To spend as much money as possible",
+        "To move money between different bank accounts"
+      ],
+      "answerIndex": 1,
+      "explanation": "Justifying a spend involves providing a valid reason for an expenditure."
     }
   ]
 }

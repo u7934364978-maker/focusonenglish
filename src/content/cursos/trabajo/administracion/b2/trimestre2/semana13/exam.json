@@ -3,48 +3,73 @@
   "level": "B2",
   "trimester": 2,
   "weekId": "semana13",
-  "examId": "fin-b2-w13-exam",
-  "title": "Examen: Gestión de Carteras y Diversificación",
+  "examId": "adm-b2-w13-exam",
+  "title": "Exam: Crisis Management & Business Continuity",
   "items": [
     {
-      "id": "fin-b2-w13-exam-1",
+      "id": "adm-b2-w13-exam-1",
       "type": "multipleChoice",
-      "prompt": "Which asset allocation strategy is generally considered the most aggressive?",
-      "options": ["100% Cash", "60% Stocks / 40% Bonds", "90% Stocks / 10% Commodities", "100% Government Bonds"],
+      "prompt": "What does 'RTO' stand for in the context of Business Continuity Planning?",
+      "options": [
+        "Recovery Time Objective",
+        "Resource Task Order",
+        "Rapid Tactical Operation",
+        "Risk Transfer Option"
+      ],
+      "answerIndex": 0,
+      "explanation": "RTO (Recovery Time Objective) is the duration within which a business process must be restored after a disruption."
+    },
+    {
+      "id": "adm-b2-w13-exam-2",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct reporting passive structure: 'It ____ that the outage was caused by a hardware failure.'",
+      "options": [
+        "is thought",
+        "is thinking",
+        "thinks",
+        "has thought"
+      ],
+      "answerIndex": 0,
+      "explanation": "Reporting passives use 'It + is + past participle + that...'"
+    },
+    {
+      "id": "adm-b2-w13-exam-3",
+      "type": "multipleChoice",
+      "prompt": "If a standard process is unavailable, we implement a manual ____ to maintain operations.",
+      "options": [
+        "downfall",
+        "workaround",
+        "breakthrough",
+        "oversight"
+      ],
+      "answerIndex": 1,
+      "explanation": "A workaround is a temporary solution used when the standard process cannot be followed."
+    },
+    {
+      "id": "adm-b2-w13-exam-4",
+      "type": "multipleChoice",
+      "prompt": "Complete the personal passive sentence: 'The system ____ to have crashed due to high traffic.'",
+      "options": [
+        "believed",
+        "is believing",
+        "is believed",
+        "was believing"
+      ],
       "answerIndex": 2,
-      "explanation": "High stock and commodity exposure indicates an aggressive, high-risk approach."
+      "explanation": "The personal passive structure is 'Subject + is + past participle + to + infinitive'."
     },
     {
-      "id": "fin-b2-w13-exam-2",
+      "id": "adm-b2-w13-exam-5",
       "type": "multipleChoice",
-      "prompt": "If the central bank ___ the base rate, bond prices would fall.",
-      "options": ["increased", "increase", "will increase", "would increase"],
-      "answerIndex": 0,
-      "explanation": "Second conditional: If + past simple."
-    },
-    {
-      "id": "fin-b2-w13-exam-3",
-      "type": "multipleChoice",
-      "prompt": "Diversification is often described as 'the only ___ in finance'.",
-      "options": ["free lunch", "expensive debt", "guaranteed profit", "risky move"],
-      "answerIndex": 0,
-      "explanation": "It's a common saying because it reduces risk without necessarily reducing return."
-    },
-    {
-      "id": "fin-b2-w13-exam-4",
-      "type": "multipleChoice",
-      "prompt": "What ___ you do if your portfolio lost 20% in one month?",
-      "options": ["will", "would", "do", "did"],
-      "answerIndex": 1,
-      "explanation": "Hypothetical question (second conditional)."
-    },
-    {
-      "id": "fin-b2-w13-exam-5",
-      "type": "multipleChoice",
-      "prompt": "A portfolio's 'yield' refers specifically to:",
-      "options": ["The total value", "The income generated (dividends/interest)", "The cost of buying assets", "The bank's commission"],
-      "answerIndex": 1,
-      "explanation": "Yield is the income return on an investment."
+      "prompt": "What is the purpose of a 'post-mortem' in administration?",
+      "options": [
+        "To fire the people responsible for a crisis",
+        "To ignore the problem and move on to BAU",
+        "To analyse an event after it's over to determine why it failed",
+        "To predict future crises using AI"
+      ],
+      "answerIndex": 2,
+      "explanation": "A post-mortem is a formal analysis conducted after a crisis to improve future responses."
     }
   ]
 }

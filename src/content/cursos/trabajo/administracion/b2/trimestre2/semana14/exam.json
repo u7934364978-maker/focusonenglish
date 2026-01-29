@@ -3,48 +3,73 @@
   "level": "B2",
   "trimester": 2,
   "weekId": "semana14",
-  "examId": "fin-b2-w14-exam",
-  "title": "Examen: Mercados de Capitales",
+  "examId": "adm-b2-w14-exam",
+  "title": "Exam: Quality Management & Process Improvement",
   "items": [
     {
-      "id": "fin-b2-w14-exam-1",
+      "id": "adm-b2-w14-exam-1",
       "type": "multipleChoice",
-      "prompt": "Which instrument provides a fixed income stream?",
-      "options": ["Stocks", "Bonds", "Futures", "Options"],
+      "prompt": "In the PDCA cycle, what does the 'C' stand for?",
+      "options": [
+        "Control",
+        "Check",
+        "Change",
+        "Calculate"
+      ],
       "answerIndex": 1,
-      "explanation": "Bonds are fixed-income instruments that pay regular interest."
+      "explanation": "PDCA stands for Plan-Do-Check-Act."
     },
     {
-      "id": "fin-b2-w14-exam-2",
+      "id": "adm-b2-w14-exam-2",
       "type": "multipleChoice",
-      "prompt": "If the company ___ bankrupt, the shareholders would have lost everything.",
-      "options": ["went", "had gone", "would go", "is going"],
-      "answerIndex": 1,
-      "explanation": "Third conditional: If + past perfect."
+      "prompt": "Complete the sentence with formal inversion: 'Not only ____ waste, but we also improved speed.'",
+      "options": [
+        "we reduced",
+        "did we reduced",
+        "did we reduce",
+        "reduced we"
+      ],
+      "answerIndex": 2,
+      "explanation": "After 'Not only', use auxiliary + subject + base verb (inversion)."
     },
     {
-      "id": "fin-b2-w14-exam-3",
+      "id": "adm-b2-w14-exam-3",
       "type": "multipleChoice",
-      "prompt": "What does 'Market Volatility' refer to?",
-      "options": ["The total number of stocks", "The rate at which the price of an asset increases or decreases", "The bank's opening hours", "The location of the stock exchange"],
+      "prompt": "To make a system more efficient by simplifying or eliminating unnecessary steps is to ____ it.",
+      "options": [
+        "bottleneck",
+        "streamline",
+        "complicate",
+        "diversify"
+      ],
       "answerIndex": 1,
-      "explanation": "Volatility measures price fluctuations."
+      "explanation": "Streamlining refers to simplifying processes to increase efficiency."
     },
     {
-      "id": "fin-b2-w14-exam-4",
+      "id": "adm-b2-w14-exam-4",
       "type": "multipleChoice",
-      "prompt": "If we had diversified more, we ___ such a high risk.",
-      "options": ["wouldn't take", "wouldn't have taken", "didn't take", "hadn't taken"],
-      "answerIndex": 1,
-      "explanation": "Third conditional result clause."
+      "prompt": "Which phrase is used to emphasize that something is strictly prohibited?",
+      "options": [
+        "Under no circumstances should...",
+        "Hardly ever we...",
+        "Only then did...",
+        "Rarely have we..."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Under no circumstances' is used for strong prohibition with inversion."
     },
     {
-      "id": "fin-b2-w14-exam-5",
+      "id": "adm-b2-w14-exam-5",
       "type": "multipleChoice",
-      "prompt": "A derivative's value is based on:",
-      "options": ["The bank's profit", "An underlying asset", "The color of the contract", "The CEO's salary"],
-      "answerIndex": 1,
-      "explanation": "Derivatives derive their value from an underlying asset like a stock or commodity."
+      "prompt": "What is 'Kaizen' in the context of administration?",
+      "options": [
+        "A type of financial derivative",
+        "A restrictive trade barrier",
+        "A philosophy of continuous improvement",
+        "A software for data encryption"
+      ],
+      "answerIndex": 2,
+      "explanation": "Kaizen is a Japanese term meaning 'continuous improvement' in business processes."
     }
   ]
 }
