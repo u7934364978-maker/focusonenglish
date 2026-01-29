@@ -1,317 +1,42 @@
 [
   {
     "success": true,
-    "filename": "acknowledge.mp3",
-    "size": 19688
+    "filename": "adm-b2-w1-metrics-report.mp3",
+    "size": 514551
   },
   {
     "success": true,
-    "filename": "aesthetic.mp3",
-    "size": 17598
-  },
-  {
-    "success": true,
-    "filename": "although.mp3",
-    "size": 16762
-  },
-  {
-    "success": true,
-    "filename": "analysis.mp3",
-    "size": 18852
-  },
-  {
-    "success": true,
-    "filename": "apologize.mp3",
-    "size": 19688
-  },
-  {
-    "success": true,
-    "filename": "b2-m1-l3-pronun-1a.mp3",
-    "size": 24285
-  },
-  {
-    "success": true,
-    "filename": "b2-m1-l3-pronun-1b.mp3",
-    "size": 33898
-  },
-  {
-    "success": true,
-    "filename": "b2-m1-l3-pronun-1c.mp3",
-    "size": 37660
-  },
-  {
-    "success": true,
-    "filename": "b2-m1-l4-pronun-1a.mp3",
-    "size": 43511
-  },
-  {
-    "success": true,
-    "filename": "b2-m1-l4-pronun-1b.mp3",
-    "size": 39750
-  },
-  {
-    "success": true,
-    "filename": "b2-m1-l4-pronun-1c.mp3",
-    "size": 31391
-  },
-  {
-    "success": true,
-    "filename": "b2-m1-l6-listening-exam.mp3",
-    "size": 2745199
-  },
-  {
-    "success": true,
-    "filename": "b2-m2-l4-debate-coach.mp3",
-    "size": 1398117
-  },
-  {
-    "success": true,
-    "filename": "b2-m2-l5-education-debate.mp3",
-    "size": 1541477
-  },
-  {
-    "success": true,
-    "filename": "b2-m2-l6-healthcare-debate.mp3",
-    "size": 1198751
-  },
-  {
-    "success": true,
-    "filename": "b2-m3-l4-listening-1.mp3",
-    "size": 2730153
-  },
-  {
-    "success": true,
-    "filename": "b2-m3-l5-listening-1.mp3",
-    "size": 3175279
-  },
-  {
-    "success": true,
-    "filename": "b2-m3-l6-listening-final.mp3",
-    "size": 820497
-  },
-  {
-    "success": true,
-    "filename": "cant-have.mp3",
-    "size": 16762
-  },
-  {
-    "success": true,
-    "filename": "characteristic.mp3",
-    "size": 19688
-  },
-  {
-    "success": true,
-    "filename": "collaborate.mp3",
-    "size": 18016
-  },
-  {
-    "success": true,
-    "filename": "compelling.mp3",
-    "size": 16762
-  },
-  {
-    "success": true,
-    "filename": "compromise.mp3",
-    "size": 18016
-  },
-  {
-    "success": true,
-    "filename": "conducted.mp3",
-    "size": 16762
-  },
-  {
-    "success": true,
-    "filename": "contemporary.mp3",
-    "size": 16762
-  },
-  {
-    "success": true,
-    "filename": "could-have.mp3",
-    "size": 15926
-  },
-  {
-    "success": true,
-    "filename": "demonstrated.mp3",
-    "size": 18852
-  },
-  {
-    "success": true,
-    "filename": "diplomatic.mp3",
-    "size": 17598
-  },
-  {
-    "success": true,
-    "filename": "emphasize.mp3",
-    "size": 20524
-  },
-  {
-    "success": true,
-    "filename": "established.mp3",
-    "size": 18852
-  },
-  {
-    "success": true,
-    "filename": "flexibility.mp3",
-    "size": 18016
-  },
-  {
-    "success": true,
-    "filename": "implemented.mp3",
-    "size": 19688
-  },
-  {
-    "success": true,
-    "filename": "metaphor.mp3",
-    "size": 15926
-  },
-  {
-    "success": true,
-    "filename": "might-have.mp3",
-    "size": 17598
-  },
-  {
-    "success": true,
-    "filename": "must-have.mp3",
-    "size": 15926
-  },
-  {
-    "success": true,
-    "filename": "necessary.mp3",
-    "size": 18852
-  },
-  {
-    "success": true,
-    "filename": "negotiation.mp3",
-    "size": 21777
-  },
-  {
-    "success": true,
-    "filename": "nuanced.mp3",
-    "size": 16762
-  },
-  {
-    "success": true,
-    "filename": "particularly.mp3",
-    "size": 18016
-  },
-  {
-    "success": true,
-    "filename": "pronunciation.mp3",
-    "size": 20942
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/acknowledge.mp3",
-    "size": 20524
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/ascertain.mp3",
-    "size": 15926
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/come-across.mp3",
-    "size": 18016
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/consequently.mp3",
-    "size": 19688
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/demonstrate.mp3",
-    "size": 18016
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/endeavor.mp3",
-    "size": 16762
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/facilitate.mp3",
-    "size": 17598
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/figure-out.mp3",
-    "size": 15926
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/implementation.mp3",
-    "size": 20942
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/look-after.mp3",
-    "size": 18016
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/nevertheless.mp3",
-    "size": 18852
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/put-up-with.mp3",
-    "size": 18016
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/requisite.mp3",
-    "size": 15926
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/set-up.mp3",
-    "size": 14254
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/subsequently.mp3",
-    "size": 18852
-  },
-  {
-    "success": true,
-    "filename": "pronunciation/turn-down.mp3",
-    "size": 17598
-  },
-  {
-    "success": true,
-    "filename": "proposal.mp3",
-    "size": 15926
-  },
-  {
-    "success": true,
-    "filename": "protagonist.mp3",
-    "size": 19688
-  },
-  {
-    "success": true,
-    "filename": "recommend.mp3",
-    "size": 15926
-  },
-  {
-    "success": true,
-    "filename": "suggest.mp3",
+    "filename": "kpi.mp3",
     "size": 15090
   },
   {
     "success": true,
-    "filename": "thorough.mp3",
+    "filename": "sla.mp3",
+    "size": 15926
+  },
+  {
+    "success": true,
+    "filename": "streamline.mp3",
+    "size": 17598
+  },
+  {
+    "success": true,
+    "filename": "throughput.mp3",
+    "size": 15926
+  },
+  {
+    "success": true,
+    "filename": "kaizen.mp3",
     "size": 15090
   },
   {
     "success": true,
-    "filename": "undertaken.mp3",
+    "filename": "redundant.mp3",
     "size": 18016
   },
   {
     "success": true,
-    "filename": "would-have.mp3",
-    "size": 17598
+    "filename": "overhaul.mp3",
+    "size": 15926
   }
 ]

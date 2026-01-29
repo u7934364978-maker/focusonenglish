@@ -147,6 +147,155 @@
       "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'blocked'. 2) List 2 professional synonyms for 'important'. 3) Complete: 'If it’s time-sensitive, flag it as ___'. 4) List the 4 board statuses.",
       "modelAnswer": "1) Cannot progress due to dependency. 2) Critical, high priority. 3) Urgent. 4) New, In progress, Blocked, Done.",
       "keywords": ["blocked", "critical", "urgent", "Done"]
+    },
+    {
+      "id": "adm-b2-w1-ex16",
+      "type": "reading-comprehension",
+      "title": "Exercise 16: Continuous Improvement Reading",
+      "text": "The Culture of Continuous Improvement\n\nTo remain competitive, modern operations teams must embrace a culture of Continuous Improvement. This approach involves constantly seeking ways to **streamline** processes and eliminate waste. \n\nOne common methodology is 'Kaizen', which focuses on small, incremental changes that **yield** significant long-term results. When a process becomes **redundant**, it is the responsibility of the Operations team to **overhaul** the current system to ensure maximum efficiency.\n\n**Vocabulary Definitions:**\n- **Streamline**: To make an organization or system more efficient by employing faster or simpler working methods.\n- **Yield**: To produce or provide significant results.\n- **Redundant**: No longer needed or useful.\n- **Overhaul**: To take apart and repair or improve a system.",
+      "questions": [
+        {
+          "question": "What is the primary goal of streamlining processes?",
+          "options": ["To hire more staff", "To eliminate waste and increase efficiency", "To increase the complexity of the system"],
+          "answerIndex": 1,
+          "explanation": "The text states that streamlining involves 'seeking ways to eliminate waste'."
+        },
+        {
+          "question": "What does 'Kaizen' focus on?",
+          "options": ["Large, expensive changes", "Small, incremental changes", "Maintaining the status quo"],
+          "answerIndex": 1,
+          "explanation": "Kaizen 'focuses on small, incremental changes'."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w1-ex17",
+      "type": "multipleChoice",
+      "prompt": "Exercise 17: Vocabulary Check. Which word best fits: 'We need to ___ our logistics network to reduce costs'?",
+      "options": ["redundant", "streamline", "yield", "overhaul"],
+      "answerIndex": 1,
+      "explanation": "Streamline means to make a system more efficient."
+    },
+    {
+      "id": "adm-b2-w1-ex18",
+      "type": "multipleChoice",
+      "prompt": "Exercise 18: Metric Definitions. What does SLA stand for in an operations context?",
+      "options": [
+        "System Level Analysis",
+        "Service Level Agreement",
+        "Standard Logistics Arrangement",
+        "Shared Lead-time Assessment"
+      ],
+      "answerIndex": 1,
+      "explanation": "SLA stands for Service Level Agreement."
+    },
+    {
+      "id": "adm-b2-w1-ex19",
+      "type": "multipleChoice",
+      "prompt": "Exercise 19: KPI Application. A 'measurable value that demonstrates how effectively a company is achieving key business objectives' is called a:",
+      "options": ["SOP", "SLA", "KPI", "ETA"],
+      "answerIndex": 2,
+      "explanation": "This is the definition of a Key Performance Indicator (KPI)."
+    },
+    {
+      "id": "adm-b2-w1-ex20",
+      "type": "writingTask",
+      "prompt": "Exercise 20: Vocabulary in Context. Define 'redundant' as used in the context of operational processes.",
+      "modelAnswer": "No longer needed or useful because a more efficient method or system exists.",
+      "keywords": ["no longer", "needed", "useful"]
+    },
+    {
+      "id": "adm-b2-w1-ex21",
+      "type": "multipleChoice",
+      "prompt": "Exercise 21: Lead Time vs. Throughput. Which term refers to the amount of work passing through a system?",
+      "options": ["Lead Time", "Throughput", "SLA", "KPI"],
+      "answerIndex": 1,
+      "explanation": "Throughput is the volume of work or material passing through a system."
+    },
+    {
+      "id": "adm-b2-w1-ex22",
+      "type": "multipleChoice",
+      "prompt": "Exercise 22: Closing the Loop. What does it mean to 'close the loop' in professional communication?",
+      "options": [
+        "To start a new project immediately",
+        "To ensure the requester is notified of the resolution",
+        "To ignore feedback from stakeholders",
+        "To delete an old task from the board"
+      ],
+      "answerIndex": 1,
+      "explanation": "Closing the loop means notifying the requester once an issue is resolved."
+    },
+    {
+      "id": "adm-b2-w1-ex23",
+      "type": "multipleChoice",
+      "prompt": "Exercise 23: Quality Control. The process of reviewing all factors involved in production to maintain standards is:",
+      "options": ["Escalation", "Quality Control", "Streamlining", "Onboarding"],
+      "answerIndex": 1,
+      "explanation": "This is the definition of Quality Control."
+    },
+    {
+      "id": "adm-b2-w1-ex24",
+      "type": "writingTask",
+      "prompt": "Exercise 24: Professional Phrases. Use the chunk 'to keep things moving' in a sentence about a delayed project.",
+      "modelAnswer": "We need to unblock the approval from Legal to keep things moving with the project.",
+      "keywords": ["unblock", "keep things moving"]
+    },
+    {
+      "id": "adm-b2-w1-ex25",
+      "type": "listening",
+      "title": "Exercise 25: Listening to a Metrics Report",
+      "audioUrl": "/audio/adm-b2-w1-metrics-report.mp3",
+      "questions": [
+        {
+          "question": "What was the throughput for the last quarter?",
+          "options": ["500 units", "750 units", "1000 units"],
+          "answerIndex": 1,
+          "explanation": "The report specifically mentions 750 units as the quarterly throughput."
+        },
+        {
+          "question": "Is the team currently meeting the SLA for response times?",
+          "options": ["Yes", "No", "Partially"],
+          "answerIndex": 0,
+          "explanation": "The speaker confirms that SLAs are being met."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w1-ex26",
+      "type": "multipleChoice",
+      "prompt": "Exercise 26: Word Choice. Which verb means 'to take apart and repair or improve'?",
+      "options": ["yield", "overhaul", "streamline", "log"],
+      "answerIndex": 1,
+      "explanation": "Overhaul means to examine and repair or completely revise a system."
+    },
+    {
+      "id": "adm-b2-w1-ex27",
+      "type": "multipleChoice",
+      "prompt": "Exercise 27: Business Synonyms. What is a professional synonym for 'latency' or 'delay' in a process?",
+      "options": ["Throughput", "KPI", "Lead Time", "SLA"],
+      "answerIndex": 2,
+      "explanation": "Lead time measures the latency between start and finish."
+    },
+    {
+      "id": "adm-b2-w1-ex28",
+      "type": "writingTask",
+      "prompt": "Exercise 28: Defining Efficiency. Briefly explain the difference between a KPI and an SLA.",
+      "modelAnswer": "A KPI measures performance against business goals, while an SLA is a formal commitment of service standards between a provider and a client.",
+      "keywords": ["KPI", "performance", "SLA", "commitment", "service"]
+    },
+    {
+      "id": "adm-b2-w1-ex29",
+      "type": "writingTask",
+      "prompt": "Exercise 29: Reporting Metrics. Write a short update (30-50 words) reporting that throughput has increased by 10% this month.",
+      "modelAnswer": "I'm pleased to report that our monthly throughput has increased by 10%. This improvement is due to the recent streamlining of our onboarding process. We remain on track to meet our quarterly KPIs.",
+      "keywords": ["throughput", "increased", "streamlining", "KPIs"]
+    },
+    {
+      "id": "adm-b2-w1-ex30",
+      "type": "writingTask",
+      "prompt": "Exercise 30: Identifying Waste. List three examples of 'redundant' processes in a typical office environment.",
+      "modelAnswer": "1. Duplicate data entry. 2. Unnecessary approval layers. 3. Physical paper trails for digital requests.",
+      "keywords": ["duplicate", "approval", "paper"]
     }
   ]
 }

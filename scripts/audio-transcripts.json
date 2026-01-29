@@ -61,5 +61,13 @@
   "suggest.mp3": "suggest",
   "thorough.mp3": "thorough",
   "undertaken.mp3": "undertaken",
-  "would-have.mp3": "would have"
+  "would-have.mp3": "would have",
+  "adm-b2-w1-metrics-report.mp3": "Good morning everyone. I’d like to give you a quick update on our operational metrics for the last quarter. Our throughput has been quite impressive, reaching 750 units, which is a significant increase compared to the previous period. Regarding our Service Level Agreements, I am pleased to confirm that we are currently meeting all our SLAs for response times. However, our lead time for onboarding new vendors still needs some improvement to align with our long-term KPIs. We are working on a plan to streamline the documentation process to address this. Thanks.",
+  "kpi.mp3": "KPI",
+  "sla.mp3": "SLA",
+  "streamline.mp3": "streamline",
+  "throughput.mp3": "throughput",
+  "kaizen.mp3": "Kaizen",
+  "redundant.mp3": "redundant",
+  "overhaul.mp3": "overhaul"
 }

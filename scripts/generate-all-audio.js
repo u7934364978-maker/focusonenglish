@@ -99,6 +99,13 @@ async function generateAll() {
   
   for (let i = START_FROM; i < entries.length; i++) {
     const [filename, text] = entries[i];
+    const outputPath = path.join(__dirname, '../public/audio', filename);
+
+    if (fs.existsSync(outputPath)) {
+      console.log(`⏩ Skipping (exists): ${filename}`);
+      successCount++;
+      continue;
+    }
     
     const result = await generateAudio(filename, text, i, total);
     results.push(result);
