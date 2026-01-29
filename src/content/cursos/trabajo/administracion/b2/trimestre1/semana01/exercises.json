@@ -126,6 +126,7 @@
       "id": "adm-b2-w1-l1",
       "type": "listening-comprehension",
       "title": "Daily Check-in Simulation",
+      "audioUrl": "/audio/administracion/b2/trimestre1/semana01/listening.mp3",
       "transcript": "Speaker: Hi everyone. Yesterday I completed the internal audit of the onboarding files. Today, I'm focusing on setting up the new Ops Board for the Q3 project. I've hit a blocker with the permissions—I can't add external stakeholders yet. I'll escalate this to Priya if it's not resolved by this afternoon.",
       "vocabularyHelp": [
         { "word": "audit", "definition": "An official inspection of an organization's accounts or processes." },
