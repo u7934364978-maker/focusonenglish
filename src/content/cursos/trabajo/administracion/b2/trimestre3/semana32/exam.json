@@ -1,0 +1,50 @@
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 3,
+  "weekId": "semana32",
+  "examId": "fin-b2-w32-exam",
+  "title": "Exam: B2 Review and Consolidation",
+  "items": [
+    {
+      "id": "fin-b2-w32-exam-1",
+      "type": "multipleChoice",
+      "prompt": "If the bank ________ (warn) us about the phishing attempt, we wouldn't have clicked.",
+      "options": ["warned", "had warned", "has warned", "would warn"],
+      "answerIndex": 1,
+      "explanation": "Review: Third conditional."
+    },
+    {
+      "id": "fin-b2-w32-exam-2",
+      "type": "multipleChoice",
+      "prompt": "By the end of the day, all transactions ________ (process).",
+      "options": ["will process", "will have been processed", "are processing", "have processed"],
+      "answerIndex": 1,
+      "explanation": "Review: Future Perfect Passive."
+    },
+    {
+      "id": "fin-b2-w32-exam-3",
+      "type": "multipleChoice",
+      "prompt": "The ________ (negotiate) lasted for three weeks before a deal was reached.",
+      "options": ["negotiate", "negotiations", "negotiated", "negotiating"],
+      "answerIndex": 1,
+      "explanation": "Review: Nominalization."
+    },
+    {
+      "id": "fin-b2-w32-exam-4",
+      "type": "multipleChoice",
+      "prompt": "The suspect ________ (believe/leave) the country after the fraud was discovered.",
+      "options": ["is believed to have left", "believes to leave", "is believed leave", "believed to have left"],
+      "answerIndex": 0,
+      "explanation": "Review: Advanced Passive reporting."
+    },
+    {
+      "id": "fin-b2-w32-exam-5",
+      "type": "multipleChoice",
+      "prompt": "If the economy ________ (be) stronger, the central bank would raise rates now.",
+      "options": ["is", "were/was", "has been", "would be"],
+      "answerIndex": 1,
+      "explanation": "Review: Second conditional."
+    }
+  ]
+}

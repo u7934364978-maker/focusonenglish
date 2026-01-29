@@ -1,0 +1,131 @@
+{
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 2,
+  "weekId": "semana22",
+  "title": "Remote Work & Virtual Cards",
+  "items": [
+    {
+      "id": "fin-a1-w22-1",
+      "type": "multipleChoice",
+      "prompt": "Working from home is called ______ work.",
+      "options": ["Office", "Remote", "Local"],
+      "answerIndex": 1,
+      "explanation": "Trabajar desde casa se llama 'remote work'."
+    },
+    {
+      "id": "fin-a1-w22-2",
+      "type": "multipleChoice",
+      "prompt": "A card that exists only in your phone is a ______ card.",
+      "options": ["Plastic", "Metal", "Virtual"],
+      "answerIndex": 2,
+      "explanation": "Una tarjeta que solo existe en el móvil es una 'virtual card'."
+    },
+    {
+      "id": "fin-a1-w22-3",
+      "type": "fillBlanks",
+      "prompt": "I need a [blank] for my laptop expense.",
+      "answers": ["receipt"],
+      "explanation": "Necesitas el recibo (receipt) para justificar un gasto."
+    },
+    {
+      "id": "fin-a1-w22-4",
+      "type": "multipleChoice",
+      "prompt": "When the company pays you back for an expense, it is a ______.",
+      "options": ["Reimbursement", "Subscription", "Tax"],
+      "answerIndex": 0,
+      "explanation": "Cuando la empresa te devuelve el dinero de un gasto, es un 'reimbursement'."
+    },
+    {
+      "id": "fin-a1-w22-5",
+      "type": "matching",
+      "prompt": "Match the terms with their meanings:",
+      "pairs": [
+        { "left": "Remote Work", "right": "Work from home" },
+        { "left": "Virtual Card", "right": "Digital-only card" },
+        { "left": "Expense", "right": "Money spent for work" },
+        { "left": "Disposable", "right": "One-time use" }
+      ],
+      "explanation": "Relaciona los términos con sus significados."
+    },
+    {
+      "id": "fin-a1-w22-6",
+      "type": "fillBlanks",
+      "prompt": "Could I [blank] a virtual card, please?",
+      "answers": ["create", "request", "have"],
+      "explanation": "¿Podría crear/pedir una tarjeta virtual?"
+    },
+    {
+      "id": "fin-a1-w22-7",
+      "type": "reorder",
+      "prompt": "Reorder the request:",
+      "sentence": "Could I have a reimbursement",
+      "explanation": "¿Podría tener un reembolso?"
+    },
+    {
+      "id": "fin-a1-w22-8",
+      "type": "multipleChoice",
+      "prompt": "A 'Disposable' card is for ______ use.",
+      "options": ["Ten-time", "One-time", "Monthly"],
+      "answerIndex": 1,
+      "explanation": "Una tarjeta desechable (disposable) es de un solo uso."
+    },
+    {
+      "id": "fin-a1-w22-9",
+      "type": "writing",
+      "prompt": "Write the English word for 'Gasto'.",
+      "validation": "Expense",
+      "explanation": "Gasto se dice 'expense' en un contexto de negocios."
+    },
+    {
+      "id": "fin-a1-w22-10",
+      "type": "roleplay",
+      "prompt": "Ask your boss for a new monitor for your home office.",
+      "scenario": "Employee: Hello. I am working from home now.\nBoss: Do you need anything?\nEmployee: ______",
+      "options": [
+        "Could I have a new monitor as an expense?",
+        "Where is the coffee machine?",
+        "I like the office."
+      ],
+      "answerIndex": 0,
+      "explanation": "Petición educada: 'Could I have a new monitor as an expense?'."
+    },
+    {
+      "id": "fin-a1-w22-11",
+      "type": "multipleChoice",
+      "prompt": "Where do you find your virtual card number?",
+      "options": ["On a plastic card", "In the bank app", "In your email"],
+      "answerIndex": 1,
+      "explanation": "Los datos de la tarjeta virtual están en la app del banco."
+    },
+    {
+      "id": "fin-a1-w22-12",
+      "type": "fillBlanks",
+      "prompt": "I work [blank] from my house.",
+      "answers": ["remotely"],
+      "explanation": "Trabajo de forma remota (remotely)."
+    },
+    {
+      "id": "fin-a1-w22-13",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "My virtual card is ready",
+      "explanation": "Mi tarjeta virtual está lista."
+    },
+    {
+      "id": "fin-a1-w22-14",
+      "type": "multipleChoice",
+      "prompt": "Which one is a business expense?",
+      "options": ["A pizza for dinner", "A new office chair", "A movie ticket"],
+      "answerIndex": 1,
+      "explanation": "Una silla de oficina es un gasto de negocio."
+    },
+    {
+      "id": "fin-a1-w22-15",
+      "type": "fillBlanks",
+      "prompt": "Can I use [blank] pay for this?",
+      "answers": ["auto", "virtual"],
+      "explanation": "Puedes usar 'auto pay' o 'virtual card'."
+    }
+  ]
+}

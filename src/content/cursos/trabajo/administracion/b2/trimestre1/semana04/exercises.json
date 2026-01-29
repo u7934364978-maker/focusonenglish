@@ -1,0 +1,788 @@
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana04",
+  "title": "Financial Analysis & Month 1 Review",
+  "description": "Financial ratio calculation, valuation methodologies, and a comprehensive review of Month 1 concepts (50 items).",
+  "items": [
+    {
+      "id": "finance-b2-w4-q1",
+      "type": "multipleChoice",
+      "prompt": "Which ratio measures a company's ability to pay off its short-term liabilities with its current assets?",
+      "options": [
+        "P/E Ratio",
+        "Debt-to-Equity",
+        "Current Ratio",
+        "ROE"
+      ],
+      "answerIndex": 2,
+      "explanation": "Current Ratio = Current Assets / Current Liabilities."
+    },
+    {
+      "id": "finance-b2-w4-q2",
+      "type": "multipleChoice",
+      "prompt": "What does a 'P/E Ratio' of 15 mean?",
+      "options": [
+        "The company has 15 employees",
+        "Investors are willing to pay $15 for every $1 of earnings",
+        "The company's debt is 15 times its equity",
+        "The company's revenue is $15 million"
+      ],
+      "answerIndex": 1,
+      "explanation": "P/E stands for Price-to-Earnings, a key valuation metric."
+    },
+    {
+      "id": "finance-b2-w4-q3",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Quick Ratio' also known as?",
+      "options": [
+        "Net Margin",
+        "Acid Test Ratio",
+        "Leverage Ratio",
+        "Solvency Test"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Quick Ratio is a more conservative measure of liquidity than the Current Ratio."
+    },
+    {
+      "id": "finance-b2-w4-q4",
+      "type": "multipleChoice",
+      "prompt": "Which valuation method uses future cash flows discounted to their present value?",
+      "options": [
+        "Comparable Analysis",
+        "Precedent Transactions",
+        "DCF (Discounted Cash Flow)",
+        "Asset Valuation"
+      ],
+      "answerIndex": 2,
+      "explanation": "DCF is a fundamental valuation method used by analysts."
+    },
+    {
+      "id": "finance-b2-w4-q5",
+      "type": "multipleChoice",
+      "prompt": "Review: What is an 'IPO'?",
+      "options": [
+        "Internal Profit Order",
+        "Initial Public Offering",
+        "Investment Price Option",
+        "International Payment Operation"
+      ],
+      "answerIndex": 1,
+      "explanation": "An IPO is when a private company first sells shares to the public."
+    },
+    {
+      "id": "finance-b2-w4-q6",
+      "type": "multipleChoice",
+      "prompt": "Review: Which modal indicates strong certainty? 'The auditors ___ have found the discrepancy.'",
+      "options": [
+        "must",
+        "might",
+        "can't",
+        "should"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Must have' is used for strong deductions about the past."
+    },
+    {
+      "id": "finance-b2-w4-q7",
+      "type": "multipleChoice",
+      "prompt": "What does 'ROE' stand for?",
+      "options": [
+        "Return on Equity",
+        "Rate of Expense",
+        "Revenue on Earnings",
+        "Ratio of Efficiency"
+      ],
+      "answerIndex": 0,
+      "explanation": "ROE measures how effectively a company uses shareholders' capital to generate profit."
+    },
+    {
+      "id": "finance-b2-w4-q8",
+      "type": "multipleChoice",
+      "prompt": "Review: What is the 'bottom line' on an income statement?",
+      "options": [
+        "Gross Profit",
+        "Revenue",
+        "Net Income",
+        "COGS"
+      ],
+      "answerIndex": 2,
+      "explanation": "Net Income is the final profit figure."
+    },
+    {
+      "id": "finance-b2-w4-q9",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Margen de beneficio neto'",
+      "options": [
+        "Gross profit margin",
+        "Net profit margin",
+        "Operating margin",
+        "Cash margin"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Net profit margin' is the ratio of net income to revenue."
+    },
+    {
+      "id": "finance-b2-w4-q10",
+      "type": "multipleChoice",
+      "prompt": "Which valuation method looks at the prices paid for similar companies in past acquisitions?",
+      "options": [
+        "Comparable Analysis",
+        "DCF",
+        "Precedent Transactions",
+        "Book Value"
+      ],
+      "answerIndex": 2,
+      "explanation": "Precedent transactions provide a benchmark for M&A valuations."
+    },
+    {
+      "id": "finance-b2-w4-q11",
+      "type": "multipleChoice",
+      "prompt": "Review: Which passive form is correct? 'The budget ___ (finalize) by the CFO last week.'",
+      "options": [
+        "was finalized",
+        "is finalized",
+        "finalized",
+        "has finalized"
+      ],
+      "answerIndex": 0,
+      "explanation": "Past passive for a completed action."
+    },
+    {
+      "id": "finance-b2-w4-q12",
+      "type": "multipleChoice",
+      "prompt": "What is 'EPS'?",
+      "options": [
+        "Earnings Per Share",
+        "Equity Price Standard",
+        "Economic Profit System",
+        "Estimated Portfolio Size"
+      ],
+      "answerIndex": 0,
+      "explanation": "EPS is the portion of a company's profit allocated to each outstanding share."
+    },
+    {
+      "id": "finance-b2-w4-q13",
+      "type": "multipleChoice",
+      "prompt": "Review: What is 'Tax Avoidance'?",
+      "options": [
+        "Illegal tax non-payment",
+        "Legal minimization of tax",
+        "Paying double tax",
+        "A government fine"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tax avoidance is the legal use of the tax regime to minimize liability."
+    },
+    {
+      "id": "finance-b2-w4-q14",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Debt-to-Equity' ratio used to assess?",
+      "options": [
+        "Liquidity",
+        "Financial Leverage",
+        "Marketing efficiency",
+        "Tax liability"
+      ],
+      "answerIndex": 1,
+      "explanation": "It compares a company's total liabilities to its shareholders' equity."
+    },
+    {
+      "id": "finance-b2-w4-q15",
+      "type": "multipleChoice",
+      "prompt": "Complete with the correct conditional: 'If the company ___ (achieve) its targets, the stock price ___ (rise).'",
+      "options": [
+        "achieves / will rise",
+        "achieved / rose",
+        "had achieved / would have risen",
+        "achieves / rose"
+      ],
+      "answerIndex": 0,
+      "explanation": "First conditional for a real possibility."
+    },
+    {
+      "id": "finance-b2-w4-q16",
+      "type": "multipleChoice",
+      "prompt": "What does a high 'Inventory Turnover' ratio suggest?",
+      "options": [
+        "The company is not selling its products",
+        "The company is selling its products quickly",
+        "The company has too much debt",
+        "The company is paying too much tax"
+      ],
+      "answerIndex": 1,
+      "explanation": "A high ratio indicates efficient inventory management and sales."
+    },
+    {
+      "id": "finance-b2-w4-q17",
+      "type": "multipleChoice",
+      "prompt": "Review: What is 'Due Diligence'?",
+      "options": [
+        "A type of tax",
+        "Comprehensive appraisal of a business before a contract",
+        "A bank loan",
+        "The company's logo"
+      ],
+      "answerIndex": 1,
+      "explanation": "Due diligence is essential in M&A and IPOs."
+    },
+    {
+      "id": "finance-b2-w4-q18",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Valor de mercado'",
+      "options": [
+        "Book value",
+        "Market value",
+        "Par value",
+        "Asset value"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Market value' is the price at which an asset would trade in a competitive auction setting."
+    },
+    {
+      "id": "finance-b2-w4-q19",
+      "type": "multipleChoice",
+      "prompt": "Review: What is 'Forex'?",
+      "options": [
+        "Foreign Exchange market",
+        "Financial Exit strategy",
+        "Formula for Excellence",
+        "Federal Expense"
+      ],
+      "answerIndex": 0,
+      "explanation": "Forex is where currencies are traded."
+    },
+    {
+      "id": "finance-b2-w4-q20",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'If we ___ (invest) in Bitcoin in 2010, we ___ (be) millionaires now.'",
+      "options": [
+        "invested / would be",
+        "had invested / would have been",
+        "had invested / would be",
+        "invest / will be"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mixed conditional (past action, present result)."
+    },
+    {
+      "id": "finance-b2-w4-q21",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Discount Rate' in DCF?",
+      "options": [
+        "A discount given to the bank",
+        "The interest rate used to determine the present value of future cash flows",
+        "The rate of tax on profits",
+        "The rate at which employees are hired"
+      ],
+      "answerIndex": 1,
+      "explanation": "The discount rate accounts for the time value of money and risk."
+    },
+    {
+      "id": "finance-b2-w4-q22",
+      "type": "multipleChoice",
+      "prompt": "What does 'WACC' stand for?",
+      "options": [
+        "Weighted Average Cost of Capital",
+        "Weekly Accounting Cost Center",
+        "Wide Area Capital Control",
+        "World Assets and Corporate Capital"
+      ],
+      "answerIndex": 0,
+      "explanation": "WACC is often used as the discount rate in DCF analysis."
+    },
+    {
+      "id": "finance-b2-w4-q23",
+      "type": "multipleChoice",
+      "prompt": "Review: What is 'Materiality' in an audit?",
+      "options": [
+        "The physical building",
+        "Threshold of significance for errors",
+        "The price of the audit",
+        "The company's stock price"
+      ],
+      "answerIndex": 1,
+      "explanation": "Materiality determines if an error is 'big enough' to matter."
+    },
+    {
+      "id": "finance-b2-w4-q24",
+      "type": "multipleChoice",
+      "prompt": "Review: Which modal indicates prohibition? 'You ___ (mustn't / needn't) share confidential data.'",
+      "options": [
+        "mustn't",
+        "needn't",
+        "should",
+        "don't have to"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Mustn't' is used for strong prohibitions."
+    },
+    {
+      "id": "finance-b2-w4-q25",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'An\u00e1lisis de ratios'",
+      "options": [
+        "Ratio analysis",
+        "Reason analysis",
+        "Rational check",
+        "Report audit"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Ratio analysis' is the correct term."
+    },
+    {
+      "id": "finance-b2-w4-q26",
+      "type": "multipleChoice",
+      "prompt": "What is 'Enterprise Value' (EV)?",
+      "options": [
+        "Market Cap + Debt - Cash",
+        "Total Assets - Liabilities",
+        "Net Profit * 10",
+        "The price of the office building"
+      ],
+      "answerIndex": 0,
+      "explanation": "EV is a more comprehensive measure of a company's total value than market cap."
+    },
+    {
+      "id": "finance-b2-w4-q27",
+      "type": "multipleChoice",
+      "prompt": "Review: What is an 'Unqualified Opinion'?",
+      "options": [
+        "A bad audit result",
+        "A clean audit report",
+        "The auditor is confused",
+        "The report is missing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Unqualified means the statements are presented fairly."
+    },
+    {
+      "id": "finance-b2-w4-q28",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'The merger ___ (approve) by the regulators next month.'",
+      "options": [
+        "is approved",
+        "will be approved",
+        "was approved",
+        "has approved"
+      ],
+      "answerIndex": 1,
+      "explanation": "Future passive."
+    },
+    {
+      "id": "finance-b2-w4-q29",
+      "type": "multipleChoice",
+      "prompt": "What is 'Solvency'?",
+      "options": [
+        "The ability to pay long-term obligations",
+        "Having a lot of cash in the drawer",
+        "Selling assets quickly",
+        "Firing the CFO"
+      ],
+      "answerIndex": 0,
+      "explanation": "Solvency is about long-term survival; liquidity is about short-term."
+    },
+    {
+      "id": "finance-b2-w4-q30",
+      "type": "multipleChoice",
+      "prompt": "Review: What is 'Hedging'?",
+      "options": [
+        "Speculating for profit",
+        "Using instruments to offset risk",
+        "Buying bushes for the office",
+        "Closing a bank account"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hedging reduces exposure to risk."
+    },
+    {
+      "id": "finance-b2-w4-q31",
+      "type": "multipleChoice",
+      "prompt": "Which ratio measures the percentage of profit relative to revenue?",
+      "options": [
+        "Current Ratio",
+        "Net Profit Margin",
+        "Debt-to-Equity",
+        "P/E Ratio"
+      ],
+      "answerIndex": 1,
+      "explanation": "Net Profit Margin = (Net Income / Revenue) * 100."
+    },
+    {
+      "id": "finance-b2-w4-q32",
+      "type": "multipleChoice",
+      "prompt": "What is 'Asset Valuation'?",
+      "options": [
+        "Calculating the price of a stock",
+        "Determining the current value of a company's assets",
+        "Buying new equipment",
+        "Selling the company's cars"
+      ],
+      "answerIndex": 1,
+      "explanation": "Asset valuation can be based on market value, cost, or income."
+    },
+    {
+      "id": "finance-b2-w4-q33",
+      "type": "multipleChoice",
+      "prompt": "Review: Translate 'Asiento contable'",
+      "options": [
+        "Accounting entry",
+        "Bank chair",
+        "Audit seat",
+        "Profit table"
+      ],
+      "answerIndex": 0,
+      "explanation": "An 'entry' is a record of a transaction."
+    },
+    {
+      "id": "finance-b2-w4-q34",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'Unless the market ___ (recover) soon, our valuation ___ (drop).'",
+      "options": [
+        "recovers / will drop",
+        "don't recover / will drop",
+        "recovered / would drop",
+        "had recovered / would have dropped"
+      ],
+      "answerIndex": 0,
+      "explanation": "First conditional with 'unless'."
+    },
+    {
+      "id": "finance-b2-w4-q35",
+      "type": "multipleChoice",
+      "prompt": "What is 'Operating Leverage'?",
+      "options": [
+        "Using debt to buy machines",
+        "The ratio of fixed costs to variable costs",
+        "The power of the CEO",
+        "The speed of a factory"
+      ],
+      "answerIndex": 1,
+      "explanation": "High operating leverage means a small change in sales leads to a large change in operating income."
+    },
+    {
+      "id": "finance-b2-w4-q36",
+      "type": "multipleChoice",
+      "prompt": "Review: What is 'Whistleblowing'?",
+      "options": [
+        "Reporting unethical behavior",
+        "Calling a time-out",
+        "Blowing a whistle",
+        "Quitting a job"
+      ],
+      "answerIndex": 0,
+      "explanation": "Whistleblowing is essential for corporate integrity."
+    },
+    {
+      "id": "finance-b2-w4-q37",
+      "type": "multipleChoice",
+      "prompt": "What is 'Goodwill Impairment'?",
+      "options": [
+        "A decrease in the value of goodwill on the balance sheet",
+        "Improving the company's image",
+        "Buying a charity",
+        "Firing the marketing manager"
+      ],
+      "answerIndex": 0,
+      "explanation": "Impairment happens when the value of an acquired asset drops below its carrying cost."
+    },
+    {
+      "id": "finance-b2-w4-q38",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Valor contable'",
+      "options": [
+        "Market value",
+        "Book value",
+        "Price value",
+        "Asset value"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Book value' is the value of an asset according to its balance sheet account balance."
+    },
+    {
+      "id": "finance-b2-w4-q39",
+      "type": "multipleChoice",
+      "prompt": "Review: What is 'VAT'?",
+      "options": [
+        "A tax on company profits",
+        "Value Added Tax (consumption tax)",
+        "A bank fee",
+        "A type of loan"
+      ],
+      "answerIndex": 1,
+      "explanation": "VAT is common in many countries outside the US."
+    },
+    {
+      "id": "finance-b2-w4-q40",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'Several errors ___ (find) in the consolidated statements.'",
+      "options": [
+        "were found",
+        "was found",
+        "find",
+        "have found"
+      ],
+      "answerIndex": 0,
+      "explanation": "Past passive plural."
+    },
+    {
+      "id": "finance-b2-w4-q41",
+      "type": "multipleChoice",
+      "prompt": "What is 'Terminal Value' in a DCF?",
+      "options": [
+        "The value of a company at the end of its life",
+        "The estimated value of a company beyond the explicit forecast period",
+        "The final price of a stock",
+        "The cost of closing the business"
+      ],
+      "answerIndex": 1,
+      "explanation": "Terminal value often accounts for a large percentage of total DCF value."
+    },
+    {
+      "id": "finance-b2-w4-q42",
+      "type": "multipleChoice",
+      "prompt": "What is 'Sensitivity Analysis'?",
+      "options": [
+        "Asking employees how they feel",
+        "Testing how changes in variables impact the final result (e.g., valuation)",
+        "Checking for allergies",
+        "A marketing survey"
+      ],
+      "answerIndex": 1,
+      "explanation": "Analysts use it to see 'what if' certain assumptions change."
+    },
+    {
+      "id": "finance-b2-w4-q43",
+      "type": "multipleChoice",
+      "prompt": "Review: What is a 'Bear Market'?",
+      "options": [
+        "A rising market",
+        "A falling market",
+        "A market for bears",
+        "A closed market"
+      ],
+      "answerIndex": 1,
+      "explanation": "A bear market is a period of declining stock prices."
+    },
+    {
+      "id": "finance-b2-w4-q44",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'If the interest rates ___ (be) lower, the company ___ (borrow) more money.'",
+      "options": [
+        "are / will borrow",
+        "were / would borrow",
+        "had been / would have borrowed",
+        "were / borrowed"
+      ],
+      "answerIndex": 1,
+      "explanation": "Second conditional for hypothetical present/future."
+    },
+    {
+      "id": "finance-b2-w4-q45",
+      "type": "multipleChoice",
+      "prompt": "What is 'Market Multiple'?",
+      "options": [
+        "A valuation metric used to compare companies (e.g., EV/EBITDA)",
+        "A lot of different markets",
+        "The number of shares in the market",
+        "A mathematical formula for taxes"
+      ],
+      "answerIndex": 0,
+      "explanation": "Multiples are used in 'comparable company analysis'."
+    },
+    {
+      "id": "finance-b2-w4-q46",
+      "type": "multipleChoice",
+      "prompt": "Review: What is 'Credit Risk'?",
+      "options": [
+        "Risk of stock crash",
+        "Risk of borrower default",
+        "Risk of fraud",
+        "Risk of fire"
+      ],
+      "answerIndex": 1,
+      "explanation": "Credit risk is the probability that a borrower fails to repay."
+    },
+    {
+      "id": "finance-b2-w4-q47",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Flujo de caja'",
+      "options": [
+        "Cash flow",
+        "Money box",
+        "Bank stream",
+        "Profit wave"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Cash flow' is the movement of money into and out of a business."
+    },
+    {
+      "id": "finance-b2-w4-q48",
+      "type": "multipleChoice",
+      "prompt": "Review: Which modal is for past regret? 'We ___ (should have) diversified earlier.'",
+      "options": [
+        "should have",
+        "must have",
+        "could have",
+        "might have"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Should have' expresses regret or criticism about the past."
+    },
+    {
+      "id": "finance-b2-w4-q49",
+      "type": "multipleChoice",
+      "prompt": "Complete the first conditional: 'If the CFO ___ (resign), the stock price ___ (drop).'",
+      "options": [
+        "resigns / will drop",
+        "resigned / would drop",
+        "had resigned / would have dropped",
+        "resigns / dropped"
+      ],
+      "answerIndex": 0,
+      "explanation": "First conditional for a real future threat."
+    },
+    {
+      "id": "finance-b2-w4-q50",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Valuation Premium'?",
+      "options": [
+        "A discount on a company",
+        "The amount by which a company's value exceeds its book value or peer average",
+        "The cost of valuation software",
+        "A bonus for the analyst"
+      ],
+      "answerIndex": 1,
+      "explanation": "High-growth companies often trade at a premium."
+    },
+    {
+      "id": "finance-b2-w4-gamified",
+      "type": "crossword",
+      "title": "Market Valuation Crossword",
+      "instructions": "Complete the crossword with key terms from this week.",
+      "items": [
+        {
+          "word": "VALUATION",
+          "clue": "The process of determining the current worth of an asset or company.",
+          "direction": "across",
+          "row": 0,
+          "col": 0
+        },
+        {
+          "word": "MULTIPLE",
+          "clue": "A ratio used to measure the value of a company (e.g., P/E ratio).",
+          "direction": "down",
+          "row": 2,
+          "col": 0
+        },
+        {
+          "word": "CASHFLOW",
+          "clue": "The total amount of money being transferred into and out of a business.",
+          "direction": "across",
+          "row": 4,
+          "col": 0
+        },
+        {
+          "word": "DISCOUNT",
+          "clue": "The process of determining the present value of a payment or a stream of payments that is to be received in the future.",
+          "direction": "down",
+          "row": 6,
+          "col": 0
+        },
+        {
+          "word": "CAPITAL",
+          "clue": "Financial assets or the financial value of assets, such as cash.",
+          "direction": "across",
+          "row": 8,
+          "col": 0
+        },
+        {
+          "word": "MARKET",
+          "clue": "A place where the trading of securities, commodities, and other items occurs.",
+          "direction": "down",
+          "row": 10,
+          "col": 0
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w4-reading-authentic",
+      "type": "reading-comprehension",
+      "title": "The 'Profitability Pivot': A Shift in Tech Valuation",
+      "instructions": "Read the following article about changing market trends and answer the questions.",
+      "text": "For the better part of a decade, the Silicon Valley playbook was simple: growth at all costs. Companies like Uber, Airbnb, and WeWork were valued based on 'top-line' growth—specifically revenue multiples—while their 'bottom-line' losses were largely ignored by venture capitalists and public market investors. However, the failed WeWork IPO in 2019 marked a definitive 'pivot' in the market's collective psychology.\n\nAnalysts began to shift their focus from gross revenue to 'unit economics' and path to profitability. The realization that many 'unicorns' had high cash burn rates and no clear way to reach break-even led to a significant contraction in valuations. Today, the DCF model has seen a resurgence in the tech sector, as investors demand to see projected free cash flows rather than just user growth metrics. The EV/EBITDA multiple has replaced the Price-to-Sales ratio as the benchmark for maturity. In this new era, a company that can demonstrate a widening net margin and strong operational leverage is far more attractive than one that simply doubles its revenue every year at the expense of its balance sheet.",
+      "vocabularyHelp": [
+        { "word": "pivot", "meaning": "a fundamental change in business strategy or market focus" },
+        { "word": "cash burn", "meaning": "the rate at which a new company uses up its venture capital to finance overhead before generating positive cash flow" },
+        { "word": "break-even", "meaning": "the point at which total cost and total revenue are equal" },
+        { "word": "unit economics", "meaning": "the direct revenues and costs associated with a particular business model, and specifically, an individual unit of the business" },
+        { "word": "contraction", "meaning": "a phase of the business cycle in which the economy as a whole is in decline (or a decrease in value)" }
+      ],
+      "questions": [
+        {
+          "id": "finance-b2-w4-reading-authentic-q1",
+          "type": "multiple-choice",
+          "question": "What was the main metric used to value tech companies before the 'profitability pivot'?",
+          "options": [
+            "Net Profit Margin",
+            "Revenue Multiples (Top-line growth)",
+            "Dividend Yield",
+            "Book Value"
+          ],
+          "correctAnswer": "Revenue Multiples (Top-line growth)",
+          "explanation": "The text states that companies were valued based on 'top-line' growth—specifically revenue multiples—before the pivot."
+        },
+        {
+          "id": "finance-b2-w4-reading-authentic-q2",
+          "type": "multiple-choice",
+          "question": "What led to the contraction in tech valuations, according to the article?",
+          "options": [
+            "A lack of new technology",
+            "Too many people using the products",
+            "High cash burn rates and lack of profitability",
+            "Government regulations on social media"
+          ],
+          "correctAnswer": "High cash burn rates and lack of profitability",
+          "explanation": "The text mentions the realization that unicorns had high cash burn and no clear path to break-even led to the contraction."
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w4-listening-authentic",
+      "type": "listening-comprehension",
+      "title": "Earnings Call Analysis: Tech-Giant Q4 Results",
+      "instructions": "Listen to the exchange between an equity analyst and a CFO during a quarterly earnings call.",
+      "audioUrl": "https://example.com/audio/finance/b2/w4/earnings-call.mp3",
+      "transcript": "Analyst: Thank you for taking my question. Looking at the results, your revenue surged by 22% year-over-year, which is impressive. However, your net margin contracted by 150 basis points. Could you walk us through the drivers of that margin compression?\n\nCFO: Certainly. While we saw a sharp climb in top-line performance, we also experienced a substantial increase in administrative overhead. We've scaled our engineering teams significantly this year to support our new AI initiatives. Additionally, R&D investment jumped by 30% this quarter.\n\nAnalyst: Understood. And on the efficiency side, your DSO—Days Sales Outstanding—has crept up to 45 days, compared to 38 days last year. Is this a sign of weakening credit quality among your enterprise clients?\n\nCFO: Not necessarily. It's more of a reflection of the longer payment terms we've negotiated for some of our largest multi-year contracts. We expect DSO to level off in the next two quarters as those contracts reach steady-state. Our credit risk remains well within our historical parameters.",
+      "questions": [
+        {
+          "id": "finance-b2-w4-listening-authentic-q1",
+          "type": "multiple-choice",
+          "question": "Why did the company's net margin contract despite higher revenue?",
+          "options": [
+            "They lowered their prices significantly.",
+            "They spent more on taxes.",
+            "Increased administrative overhead and R&D investment.",
+            "A decrease in the number of customers."
+          ],
+          "correctAnswer": "Increased administrative overhead and R&D investment.",
+          "explanation": "The CFO explains that scale-up in engineering teams and a 30% jump in R&D were the main drivers of margin compression."
+        },
+        {
+          "id": "finance-b2-w4-listening-authentic-q2",
+          "type": "multiple-choice",
+          "question": "What is the CFO's explanation for the increase in DSO (Days Sales Outstanding)?",
+          "options": [
+            "Many clients are going bankrupt.",
+            "The company is giving longer payment terms on large contracts.",
+            "They are having problems with their accounting software.",
+            "They are charging more interest on late payments."
+          ],
+          "correctAnswer": "The company is giving longer payment terms on large contracts.",
+          "explanation": "The CFO attributes the rise in DSO to 'longer payment terms... negotiated for some of our largest multi-year contracts'."
+        }
+      ]
+    }
+  ]
+}

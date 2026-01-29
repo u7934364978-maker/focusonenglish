@@ -1,0 +1,409 @@
+{
+  "goal": "administracion",
+  "level": "A2",
+  "trimester": 2,
+  "weekId": "semana14",
+  "title": "Ejercicios: Préstamos Personales",
+  "items": [
+    {
+      "id": "fin-a2-w14-1",
+      "type": "multipleChoice",
+      "prompt": "Can I ___ 50 euros from you?",
+      "options": ["lend", "borrow", "loan", "debt"],
+      "answerIndex": 1,
+      "explanation": "Borrow means asking for a loan (pedir prestado)."
+    },
+    {
+      "id": "fin-a2-w14-2",
+      "type": "multipleChoice",
+      "prompt": "Don't worry, I ___ pay the debt.",
+      "options": ["am going", "will", "going to", "borrow"],
+      "answerIndex": 1,
+      "explanation": "Will is used for promises."
+    },
+    {
+      "id": "fin-a2-w14-3",
+      "type": "multipleChoice",
+      "prompt": "The monthly ___ is 150 euros.",
+      "options": ["installment", "interest", "debt", "loan"],
+      "answerIndex": 0,
+      "explanation": "Installment is the regular payment."
+    },
+    {
+      "id": "fin-a2-w14-4",
+      "type": "multipleChoice",
+      "prompt": "Will the bank ___ me the money?",
+      "options": ["borrow", "lend", "debt", "installment"],
+      "answerIndex": 1,
+      "explanation": "Lend means giving a loan (prestar)."
+    },
+    {
+      "id": "fin-a2-w14-5",
+      "type": "multipleChoice",
+      "prompt": "If you have a loan, you have a ___.",
+      "options": ["saving", "debt", "budget", "income"],
+      "answerIndex": 1,
+      "explanation": "A debt is money you owe."
+    },
+    {
+      "id": "fin-a2-w14-6",
+      "type": "multipleChoice",
+      "prompt": "I think I ___ apply for a small loan.",
+      "options": ["will", "am", "going", "borrow"],
+      "answerIndex": 0,
+      "explanation": "Will is used for decisions made at the moment."
+    },
+    {
+      "id": "fin-a2-w14-7",
+      "type": "multipleChoice",
+      "prompt": "The ___ rate is very high this year.",
+      "options": ["interest", "installment", "debt", "borrow"],
+      "answerIndex": 0,
+      "explanation": "Interest rate is the cost of borrowing."
+    },
+    {
+      "id": "fin-a2-w14-8",
+      "type": "multipleChoice",
+      "prompt": "He ___ help you with the loan application.",
+      "options": ["will", "is", "borrow", "lend"],
+      "answerIndex": 0,
+      "explanation": "Will is used for offers."
+    },
+    {
+      "id": "fin-a2-w14-9",
+      "type": "multipleChoice",
+      "prompt": "Can you ___ me 20 dollars until Friday?",
+      "options": ["lend", "borrow", "debt", "loan"],
+      "answerIndex": 0,
+      "explanation": "Lend means to give money temporarily."
+    },
+    {
+      "id": "fin-a2-w14-10",
+      "type": "multipleChoice",
+      "prompt": "I promise I ___ forget to pay the installment.",
+      "options": ["won't", "will", "am not", "not"],
+      "answerIndex": 0,
+      "explanation": "Won't is the negative of will for promises."
+    },
+    {
+      "id": "fin-a2-w14-11",
+      "type": "multipleChoice",
+      "prompt": "A personal ___ can help you pay for a car.",
+      "options": ["loan", "borrow", "debt", "income"],
+      "answerIndex": 0,
+      "explanation": "A loan is the sum of money borrowed."
+    },
+    {
+      "id": "fin-a2-w14-12",
+      "type": "multipleChoice",
+      "prompt": "Will you ___ me the bank's phone number?",
+      "options": ["give", "borrow", "lend", "installment"],
+      "answerIndex": 0,
+      "explanation": "Giving information."
+    },
+    {
+      "id": "fin-a2-w14-13",
+      "type": "multipleChoice",
+      "prompt": "I have too much ___, I need to pay it off.",
+      "options": ["debt", "income", "loan", "interest"],
+      "answerIndex": 0,
+      "explanation": "Debt is money that is owed."
+    },
+    {
+      "id": "fin-a2-w14-14",
+      "type": "multipleChoice",
+      "prompt": "The bank ___ send the confirmation email now.",
+      "options": ["will", "is", "going", "does"],
+      "answerIndex": 0,
+      "explanation": "Will for immediate action."
+    },
+    {
+      "id": "fin-a2-w14-15",
+      "type": "multipleChoice",
+      "prompt": "How many ___ are left to pay?",
+      "options": ["installments", "interests", "loans", "borrows"],
+      "answerIndex": 0,
+      "explanation": "Installments are the regular payments."
+    },
+    {
+      "id": "fin-a2-w14-16",
+      "type": "multipleChoice",
+      "prompt": "I ___ borrow money from my family.",
+      "options": ["will", "shall", "won't", "is"],
+      "answerIndex": 2,
+      "explanation": "Won't expresses a decision not to do something."
+    },
+    {
+      "id": "fin-a2-w14-17",
+      "type": "multipleChoice",
+      "prompt": "Banks ___ money to people with good credit.",
+      "options": ["lend", "borrow", "debt", "interest"],
+      "answerIndex": 0,
+      "explanation": "Banks give (lend) money."
+    },
+    {
+      "id": "fin-a2-w14-18",
+      "type": "multipleChoice",
+      "prompt": "Wait, I ___ call the manager for you.",
+      "options": ["will", "am", "going", "do"],
+      "answerIndex": 0,
+      "explanation": "Will for spontaneous offers."
+    },
+    {
+      "id": "fin-a2-w14-19",
+      "type": "multipleChoice",
+      "prompt": "The total ___ including interest is 5000 euros.",
+      "options": ["debt", "income", "budget", "saving"],
+      "answerIndex": 0,
+      "explanation": "Debt includes the principal and interest."
+    },
+    {
+      "id": "fin-a2-w14-20",
+      "type": "multipleChoice",
+      "prompt": "Will the interest rate ___ next month?",
+      "options": ["increase", "installment", "borrow", "loan"],
+      "answerIndex": 0,
+      "explanation": "Asking about a future change."
+    },
+    {
+      "id": "fin-a2-w14-21",
+      "type": "multipleChoice",
+      "prompt": "I ___ pay my bills online from now on.",
+      "options": ["will", "am", "borrow", "lend"],
+      "answerIndex": 0,
+      "explanation": "Will for future intentions/decisions."
+    },
+    {
+      "id": "fin-a2-w14-22",
+      "type": "multipleChoice",
+      "prompt": "You shouldn't ___ more than you can pay back.",
+      "options": ["borrow", "lend", "loan", "debt"],
+      "answerIndex": 0,
+      "explanation": "To borrow is to take money from someone."
+    },
+    {
+      "id": "fin-a2-w14-23",
+      "type": "multipleChoice",
+      "prompt": "The bank ___ charge a fee for late payments.",
+      "options": ["will", "is", "going", "does"],
+      "answerIndex": 0,
+      "explanation": "Will for future consequences."
+    },
+    {
+      "id": "fin-a2-w14-24",
+      "type": "multipleChoice",
+      "prompt": "Can you check the ___ on this loan?",
+      "options": ["interest", "borrow", "debt", "income"],
+      "answerIndex": 0,
+      "explanation": "Interest is a key component of a loan."
+    },
+    {
+      "id": "fin-a2-w14-25",
+      "type": "multipleChoice",
+      "prompt": "I ___ pay the full amount today.",
+      "options": ["will", "won't", "am", "going"],
+      "answerIndex": 0,
+      "explanation": "Spontaneous decision."
+    },
+    {
+      "id": "fin-a2-w14-26",
+      "type": "multipleChoice",
+      "prompt": "They ___ lend money without a contract.",
+      "options": ["won't", "will", "is", "not"],
+      "answerIndex": 0,
+      "explanation": "Won't for refusal or general rules."
+    },
+    {
+      "id": "fin-a2-w14-27",
+      "type": "multipleChoice",
+      "prompt": "The ___ plan is for 24 months.",
+      "options": ["installment", "debt", "borrow", "loan"],
+      "answerIndex": 0,
+      "explanation": "Installment plan is the schedule of payments."
+    },
+    {
+      "id": "fin-a2-w14-28",
+      "type": "multipleChoice",
+      "prompt": "Will you ___ the documents tomorrow?",
+      "options": ["sign", "borrow", "lend", "debt"],
+      "answerIndex": 0,
+      "explanation": "Signing documents."
+    },
+    {
+      "id": "fin-a2-w14-29",
+      "type": "multipleChoice",
+      "prompt": "I ___ borrow any more money this year.",
+      "options": ["won't", "will", "am", "going"],
+      "answerIndex": 0,
+      "explanation": "Decision/Promise."
+    },
+    {
+      "id": "fin-a2-w14-30",
+      "type": "multipleChoice",
+      "prompt": "The bank ___ approve your loan soon.",
+      "options": ["will", "is", "going", "does"],
+      "answerIndex": 0,
+      "explanation": "Future prediction/possibility."
+    },
+    {
+      "id": "fin-a2-w14-31",
+      "type": "multipleChoice",
+      "prompt": "Is the ___ fixed or variable?",
+      "options": ["interest", "installment", "debt", "loan"],
+      "answerIndex": 0,
+      "explanation": "Interest can be fixed or variable."
+    },
+    {
+      "id": "fin-a2-w14-32",
+      "type": "multipleChoice",
+      "prompt": "I ___ help you calculate the installments.",
+      "options": ["will", "am", "going", "do"],
+      "answerIndex": 0,
+      "explanation": "Offer of help."
+    },
+    {
+      "id": "fin-a2-w14-33",
+      "type": "multipleChoice",
+      "prompt": "How much did you ___ from the bank?",
+      "options": ["borrow", "lend", "loan", "debt"],
+      "answerIndex": 0,
+      "explanation": "To take money as a loan."
+    },
+    {
+      "id": "fin-a2-w14-34",
+      "type": "multipleChoice",
+      "prompt": "We ___ need to see your ID.",
+      "options": ["will", "is", "going", "does"],
+      "answerIndex": 0,
+      "explanation": "Future requirement."
+    },
+    {
+      "id": "fin-a2-w14-35",
+      "type": "multipleChoice",
+      "prompt": "The monthly ___ is due on the 1st.",
+      "options": ["installment", "interest", "debt", "loan"],
+      "answerIndex": 0,
+      "explanation": "Payment due date."
+    },
+    {
+      "id": "fin-a2-w14-36",
+      "type": "multipleChoice",
+      "prompt": "I ___ pay you back as soon as I can.",
+      "options": ["will", "won't", "am", "going"],
+      "answerIndex": 0,
+      "explanation": "Promise."
+    },
+    {
+      "id": "fin-a2-w14-37",
+      "type": "multipleChoice",
+      "prompt": "Will you ___ me your calculator?",
+      "options": ["lend", "borrow", "loan", "debt"],
+      "answerIndex": 0,
+      "explanation": "Asking someone to give something temporarily."
+    },
+    {
+      "id": "fin-a2-w14-38",
+      "type": "multipleChoice",
+      "prompt": "Having a high ___ is stressful.",
+      "options": ["debt", "income", "budget", "saving"],
+      "answerIndex": 0,
+      "explanation": "Debt is a financial burden."
+    },
+    {
+      "id": "fin-a2-w14-39",
+      "type": "multipleChoice",
+      "prompt": "I ___ take the money now, thanks.",
+      "options": ["will", "is", "going", "does"],
+      "answerIndex": 0,
+      "explanation": "Decision at the moment."
+    },
+    {
+      "id": "fin-a2-w14-40",
+      "type": "multipleChoice",
+      "prompt": "The bank ___ lend to students.",
+      "options": ["will", "won't", "is", "not"],
+      "answerIndex": 0,
+      "explanation": "Prediction/Fact."
+    },
+    {
+      "id": "fin-a2-w14-41",
+      "type": "multipleChoice",
+      "prompt": "Don't ___ more than you need.",
+      "options": ["borrow", "lend", "loan", "debt"],
+      "answerIndex": 0,
+      "explanation": "Advice about borrowing."
+    },
+    {
+      "id": "fin-a2-w14-42",
+      "type": "multipleChoice",
+      "prompt": "Your next ___ is 200 euros.",
+      "options": ["installment", "interest", "debt", "loan"],
+      "answerIndex": 0,
+      "explanation": "Referring to the upcoming payment."
+    },
+    {
+      "id": "fin-a2-w14-43",
+      "type": "multipleChoice",
+      "prompt": "I ___ call you tomorrow about the loan.",
+      "options": ["will", "won't", "am", "going"],
+      "answerIndex": 0,
+      "explanation": "Future promise."
+    },
+    {
+      "id": "fin-a2-w14-44",
+      "type": "multipleChoice",
+      "prompt": "Will they ___ us the money today?",
+      "options": ["lend", "borrow", "loan", "debt"],
+      "answerIndex": 0,
+      "explanation": "Asking if they will provide the money."
+    },
+    {
+      "id": "fin-a2-w14-45",
+      "type": "multipleChoice",
+      "prompt": "The total ___ must be paid by June.",
+      "options": ["debt", "income", "budget", "saving"],
+      "answerIndex": 0,
+      "explanation": "Final payment deadline."
+    },
+    {
+      "id": "fin-a2-w14-46",
+      "type": "multipleChoice",
+      "prompt": "I ___ forget to bring the contract.",
+      "options": ["won't", "will", "is", "not"],
+      "answerIndex": 0,
+      "explanation": "Promise not to forget."
+    },
+    {
+      "id": "fin-a2-w14-47",
+      "type": "multipleChoice",
+      "prompt": "Is there any ___ on this credit card?",
+      "options": ["interest", "installment", "borrow", "loan"],
+      "answerIndex": 0,
+      "explanation": "Interest on credit cards."
+    },
+    {
+      "id": "fin-a2-w14-48",
+      "type": "multipleChoice",
+      "prompt": "I ___ take a loan from another bank.",
+      "options": ["will", "is", "going", "does"],
+      "answerIndex": 0,
+      "explanation": "Spontaneous decision."
+    },
+    {
+      "id": "fin-a2-w14-49",
+      "type": "multipleChoice",
+      "prompt": "You ___ get a better rate if you wait.",
+      "options": ["will", "won't", "is", "not"],
+      "answerIndex": 0,
+      "explanation": "Future prediction."
+    },
+    {
+      "id": "fin-a2-w14-50",
+      "type": "multipleChoice",
+      "prompt": "Please ___ me your pen for a second.",
+      "options": ["lend", "borrow", "loan", "debt"],
+      "answerIndex": 0,
+      "explanation": "Requesting to use something temporarily."
+    }
+  ]
+}

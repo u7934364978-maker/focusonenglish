@@ -1,0 +1,49 @@
+{
+  "goal": "administracion",
+  "level": "B1",
+  "trimester": 2,
+  "weekId": "semana14",
+  "title": "Examen: Creación y Control de Presupuestos",
+  "items": [
+    {
+      "id": "fin-b1-w14-e1",
+      "type": "multipleChoice",
+      "prompt": "Which of these describes a surplus?",
+      "options": ["Income is lower than expenses", "Income and expenses are equal", "Income is higher than expenses", "The budget is empty"],
+      "answerIndex": 2,
+      "explanation": "A surplus is an excess of funds."
+    },
+    {
+      "id": "fin-b1-w14-e2",
+      "type": "multipleChoice",
+      "prompt": "The marketing budget is the ___ of all departments.",
+      "options": ["larger", "large", "largest", "most large"],
+      "answerIndex": 2,
+      "explanation": "Superlative of large."
+    },
+    {
+      "id": "fin-b1-w14-e3",
+      "type": "multipleChoice",
+      "prompt": "Allocating funds means:",
+      "options": ["Spending all the money", "Distributing money for specific purposes", "Asking for a loan", "Closing the company bank account"],
+      "answerIndex": 1,
+      "explanation": "Allocation is the distribution of resources."
+    },
+    {
+      "id": "fin-b1-w14-e4",
+      "type": "multipleChoice",
+      "prompt": "Last year's results were ___ than expected.",
+      "options": ["worse", "worst", "bad", "badly"],
+      "answerIndex": 0,
+      "explanation": "Comparative of bad."
+    },
+    {
+      "id": "fin-b1-w14-e5",
+      "type": "multipleChoice",
+      "prompt": "Corporate expenditure includes:",
+      "options": ["Only salaries", "Only taxes", "All money spent by the company", "Only interest from savings"],
+      "answerIndex": 2,
+      "explanation": "Expenditure refers to all spending."
+    }
+  ]
+}

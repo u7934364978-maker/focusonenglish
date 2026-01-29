@@ -1,0 +1,50 @@
+{
+  "goal": "administracion",
+  "level": "A2",
+  "trimester": 3,
+  "weekId": "semana30",
+  "examId": "fin-a2-w30-exam",
+  "title": "Examen: Fintech: Apps y Billeteras Digitales",
+  "items": [
+    {
+      "id": "fin-a2-w30-exam-1",
+      "type": "multipleChoice",
+      "prompt": "The app works very ________ (smooth).",
+      "options": ["smooth", "smoothly", "smoother", "smoothness"],
+      "answerIndex": 1,
+      "explanation": "We use adverbs of manner (usually ending in -ly) to describe how a verb works."
+    },
+    {
+      "id": "fin-a2-w30-exam-2",
+      "type": "multipleChoice",
+      "prompt": "A 'Digital Wallet' allows you to:",
+      "options": ["Store physical coins", "Store payment info on your phone", "Buy a leather wallet", "Print money"],
+      "answerIndex": 1,
+      "explanation": "Digital wallets (like Apple Pay or Google Pay) store virtual cards."
+    },
+    {
+      "id": "fin-a2-w30-exam-3",
+      "type": "multipleChoice",
+      "prompt": "Please handle the transaction ________ (careful).",
+      "options": ["careful", "carefully", "carefulness", "more careful"],
+      "answerIndex": 1,
+      "explanation": "Adverb of manner for the verb 'handle'."
+    },
+    {
+      "id": "fin-a2-w30-exam-4",
+      "type": "multipleChoice",
+      "prompt": "What does 'Contactless' mean?",
+      "options": ["Paying without touching the terminal", "Having no friends", "A broken phone", "A type of paper money"],
+      "answerIndex": 0,
+      "explanation": "Contactless uses NFC technology to pay by tapping your card/phone."
+    },
+    {
+      "id": "fin-a2-w30-exam-5",
+      "type": "multipleChoice",
+      "prompt": "I can transfer money ________ (easy) with this new app.",
+      "options": ["easy", "easily", "easier", "easiest"],
+      "answerIndex": 1,
+      "explanation": "Adverb of manner for 'transfer'."
+    }
+  ]
+}

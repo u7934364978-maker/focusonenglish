@@ -4,7 +4,7 @@ import { getUncompletedExercises } from '@/lib/course-progress';
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const userId = searchParams.get('userId');
-  const sector = searchParams.get('sector') || 'finanzas';
+  const sector = searchParams.get('sector') || 'administracion';
   const level = searchParams.get('level') || 'b1';
   const trimester = searchParams.get('trimester') || 'trimestre1';
   const weekId = searchParams.get('weekId') || 'semana01';

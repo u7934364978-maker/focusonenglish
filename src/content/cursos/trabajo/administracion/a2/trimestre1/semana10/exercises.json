@@ -1,0 +1,415 @@
+{
+  "goal": "administracion",
+  "level": "A2",
+  "trimester": 1,
+  "weekId": "semana10",
+  "title": "Digital Credit & Instant Financing",
+  "items": [
+    {
+      "id": "fin-a2-w10-1",
+      "type": "multipleChoice",
+      "prompt": "What does BNPL stand for in modern finance?",
+      "options": ["Bank Now Pay Later", "Buy Now Pay Later", "Borrow Now Pay Less", "Budget Now Plan Later"],
+      "answerIndex": 1,
+      "explanation": "BNPL significa 'Buy Now Pay Later'."
+    },
+    {
+      "id": "fin-a2-w10-2",
+      "type": "multipleChoice",
+      "prompt": "Have you ever ______ a micro-loan through a mobile app?",
+      "options": ["take", "took", "taken", "taking"],
+      "answerIndex": 2,
+      "explanation": "Presente perfecto: Have you ever taken...?"
+    },
+    {
+      "id": "fin-a2-w10-3",
+      "type": "multipleChoice",
+      "prompt": "I have already ______ my first BNPL installment.",
+      "options": ["pay", "paid", "pays", "paying"],
+      "answerIndex": 1,
+      "explanation": "I have already paid (ya he pagado)."
+    },
+    {
+      "id": "fin-a2-w10-4",
+      "type": "multipleChoice",
+      "prompt": "The total amount of money you owe is called the ______.",
+      "options": ["limit", "balance", "score", "interest"],
+      "answerIndex": 1,
+      "explanation": "El saldo o cantidad que debes es el 'balance'."
+    },
+    {
+      "id": "fin-a2-w10-5",
+      "type": "multipleChoice",
+      "prompt": "Digital lenders use algorithms for ______ approval of loans.",
+      "options": ["instant", "slow", "physical", "delayed"],
+      "answerIndex": 0,
+      "explanation": "Los prestamistas digitales usan aprobación instantánea."
+    },
+    {
+      "id": "fin-a2-w10-6",
+      "type": "multipleChoice",
+      "prompt": "She ______ never missed a credit card payment.",
+      "options": ["have", "has", "is", "does"],
+      "answerIndex": 1,
+      "explanation": "She has never missed (ella nunca ha fallado)."
+    },
+    {
+      "id": "fin-a2-w10-7",
+      "type": "multipleChoice",
+      "prompt": "A ______ is a numerical representation of your creditworthiness.",
+      "options": ["credit limit", "credit score", "balance", "default"],
+      "answerIndex": 1,
+      "explanation": "El 'credit score' representa tu solvencia."
+    },
+    {
+      "id": "fin-a2-w10-8",
+      "type": "multipleChoice",
+      "prompt": "We have ______ for a credit limit increase in the app.",
+      "options": ["apply", "applied", "applies", "applying"],
+      "answerIndex": 1,
+      "explanation": "We have applied (hemos solicitado)."
+    },
+    {
+      "id": "fin-a2-w10-9",
+      "type": "multipleChoice",
+      "prompt": "The ______ rate (APR) determines the cost of borrowing.",
+      "options": ["interesting", "interest", "internal", "internet"],
+      "answerIndex": 1,
+      "explanation": "El 'interest rate' es el coste del préstamo."
+    },
+    {
+      "id": "fin-a2-w10-10",
+      "type": "multipleChoice",
+      "prompt": "Has the bank ______ your loan application yet?",
+      "options": ["process", "processed", "processes", "processing"],
+      "answerIndex": 1,
+      "explanation": "¿Ha procesado el banco tu solicitud?"
+    },
+    {
+      "id": "fin-a2-w10-11",
+      "type": "multipleChoice",
+      "prompt": "You can repay the debt in 12 monthly ______.",
+      "options": ["installments", "interests", "scores", "defaults"],
+      "answerIndex": 0,
+      "explanation": "Puedes devolverlo en cuotas mensuales (installments)."
+    },
+    {
+      "id": "fin-a2-w10-12",
+      "type": "multipleChoice",
+      "prompt": "If you don't pay your debt, you are in ______.",
+      "options": ["credit", "default", "balance", "installment"],
+      "answerIndex": 1,
+      "explanation": "Estar en impago se dice 'default'."
+    },
+    {
+      "id": "fin-a2-w10-13",
+      "type": "multipleChoice",
+      "prompt": "I ______ never used a virtual credit card before.",
+      "options": ["has", "have", "am", "do"],
+      "answerIndex": 1,
+      "explanation": "I have never used (nunca he usado)."
+    },
+    {
+      "id": "fin-a2-w10-14",
+      "type": "multipleChoice",
+      "prompt": "The ______ limit is the maximum you can spend.",
+      "options": ["credit", "score", "default", "balance"],
+      "answerIndex": 0,
+      "explanation": "El 'credit limit' es el máximo que puedes gastar."
+    },
+    {
+      "id": "fin-a2-w10-15",
+      "type": "multipleChoice",
+      "prompt": "Have they ______ the digital contract?",
+      "options": ["sign", "signed", "signs", "signing"],
+      "answerIndex": 1,
+      "explanation": "¿Han firmado el contrato digital?"
+    },
+    {
+      "id": "fin-a2-w10-16",
+      "type": "multipleChoice",
+      "prompt": "A ______ is a loan specifically used to buy a house.",
+      "options": ["BNPL", "mortgage", "micro-loan", "credit card"],
+      "answerIndex": 1,
+      "explanation": "Una hipoteca es un 'mortgage'."
+    },
+    {
+      "id": "fin-a2-w10-17",
+      "type": "multipleChoice",
+      "prompt": "Has she ______ her latest credit statement?",
+      "options": ["see", "saw", "seen", "seeing"],
+      "answerIndex": 2,
+      "explanation": "¿Ha visto su último extracto?"
+    },
+    {
+      "id": "fin-a2-w10-18",
+      "type": "multipleChoice",
+      "prompt": "We ______ never taken out a high-interest loan.",
+      "options": ["has", "have", "are", "is"],
+      "answerIndex": 1,
+      "explanation": "We have never taken out (nunca hemos pedido)."
+    },
+    {
+      "id": "fin-a2-w10-19",
+      "type": "multipleChoice",
+      "prompt": "The ______ period allows you to pay without interest for a short time.",
+      "options": ["grace", "limit", "score", "interest"],
+      "answerIndex": 0,
+      "explanation": "El periodo de cortesía es el 'grace period'."
+    },
+    {
+      "id": "fin-a2-w10-20",
+      "type": "multipleChoice",
+      "prompt": "Have you ______ to the customer support about the fee?",
+      "options": ["speak", "spoke", "spoken", "speaking"],
+      "answerIndex": 2,
+      "explanation": "¿Has hablado con soporte?"
+    },
+    {
+      "id": "fin-a2-w10-21",
+      "type": "fillBlanks",
+      "prompt": "I have [blank] my physical credit card, but I use the digital one.",
+      "answers": ["lost"],
+      "explanation": "He perdido (lost) mi tarjeta física."
+    },
+    {
+      "id": "fin-a2-w10-22",
+      "type": "fillBlanks",
+      "prompt": "My [blank] [blank] is $5,000, but my balance is only $200.",
+      "answers": ["credit limit"],
+      "explanation": "Mi límite de crédito (credit limit) es $5,000."
+    },
+    {
+      "id": "fin-a2-w10-23",
+      "type": "fillBlanks",
+      "prompt": "Has he [blank] the interest on his loan yet?",
+      "answers": ["paid"],
+      "explanation": "¿Ha pagado (paid) ya los intereses?"
+    },
+    {
+      "id": "fin-a2-w10-24",
+      "type": "fillBlanks",
+      "prompt": "We can split this purchase into four [blank].",
+      "answers": ["installments"],
+      "explanation": "Podemos dividir la compra en cuotas (installments)."
+    },
+    {
+      "id": "fin-a2-w10-25",
+      "type": "fillBlanks",
+      "prompt": "I [blank] never [blank] late with a payment.",
+      "answers": ["have been"],
+      "explanation": "Nunca he llegado tarde (have been late)."
+    },
+    {
+      "id": "fin-a2-w10-26",
+      "type": "fillBlanks",
+      "prompt": "A high [blank] [blank] makes it easier to get a mortgage.",
+      "answers": ["credit score"],
+      "explanation": "Un buen 'credit score' facilita conseguir una hipoteca."
+    },
+    {
+      "id": "fin-a2-w10-27",
+      "type": "fillBlanks",
+      "prompt": "She [blank] [blank] [blank] for the business loan yet.",
+      "answers": ["has not applied"],
+      "explanation": "Ella aún no ha solicitado (has not applied) el préstamo."
+    },
+    {
+      "id": "fin-a2-w10-28",
+      "type": "fillBlanks",
+      "prompt": "The total [blank] on my credit card is $1,200.",
+      "answers": ["balance"],
+      "explanation": "El saldo total (balance) es $1,200."
+    },
+    {
+      "id": "fin-a2-w10-29",
+      "type": "fillBlanks",
+      "prompt": "[blank] you ever [blank] a BNPL service?",
+      "answers": ["Have used"],
+      "explanation": "¿Has usado alguna vez un servicio BNPL?"
+    },
+    {
+      "id": "fin-a2-w10-30",
+      "type": "fillBlanks",
+      "prompt": "The [blank] [blank] is 12% per year.",
+      "answers": ["interest rate"],
+      "explanation": "El tipo de interés (interest rate) es del 12%."
+    },
+    {
+      "id": "fin-a2-w10-31",
+      "type": "fillBlanks",
+      "prompt": "They [blank] [blank] received instant approval for the loan.",
+      "answers": ["have just"],
+      "explanation": "Acaban de recibir (have just received) aprobación."
+    },
+    {
+      "id": "fin-a2-w10-32",
+      "type": "fillBlanks",
+      "prompt": "If you don't pay, you will [blank] on your debt.",
+      "answers": ["default"],
+      "explanation": "Si no pagas, entrarás en impago (default)."
+    },
+    {
+      "id": "fin-a2-w10-33",
+      "type": "fillBlanks",
+      "prompt": "I [blank] [blank] spent any money from my credit line this month.",
+      "answers": ["have not"],
+      "explanation": "No he gastado dinero de mi línea de crédito."
+    },
+    {
+      "id": "fin-a2-w10-34",
+      "type": "fillBlanks",
+      "prompt": "The [blank] [blank] ends next Tuesday.",
+      "answers": ["grace period"],
+      "explanation": "El periodo de cortesía (grace period) termina el martes."
+    },
+    {
+      "id": "fin-a2-w10-35",
+      "type": "fillBlanks",
+      "prompt": "Has the fintech company [blank] your credit limit?",
+      "answers": ["increased"],
+      "explanation": "¿Ha aumentado la fintech tu límite?"
+    },
+    {
+      "id": "fin-a2-w10-36",
+      "type": "fillBlanks",
+      "prompt": "We [blank] [blank] our financial advisor to discuss the loan.",
+      "answers": ["have met"],
+      "explanation": "Nos hemos reunido (have met) con el asesor."
+    },
+    {
+      "id": "fin-a2-w10-37",
+      "type": "fillBlanks",
+      "prompt": "Check your [blank] in the app before you go shopping.",
+      "answers": ["balance"],
+      "explanation": "Revisa tu saldo (balance)."
+    },
+    {
+      "id": "fin-a2-w10-38",
+      "type": "fillBlanks",
+      "prompt": "He [blank] [blank] [blank] a mortgage before.",
+      "answers": ["has never had"],
+      "explanation": "Él nunca ha tenido una hipoteca."
+    },
+    {
+      "id": "fin-a2-w10-39",
+      "type": "fillBlanks",
+      "prompt": "You have [blank] a very flexible repayment plan.",
+      "answers": ["chosen"],
+      "explanation": "Has elegido (chosen) un plan flexible."
+    },
+    {
+      "id": "fin-a2-w10-40",
+      "type": "fillBlanks",
+      "prompt": "[blank] they [blank] the funds to your account yet?",
+      "answers": ["Have sent"],
+      "explanation": "¿Han enviado ya los fondos?"
+    },
+    {
+      "id": "fin-a2-w10-41",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I have applied for a BNPL service",
+      "explanation": "He solicitado un servicio BNPL."
+    },
+    {
+      "id": "fin-a2-w10-42",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "She has already paid her installment",
+      "explanation": "Ella ya ha pagado su cuota."
+    },
+    {
+      "id": "fin-a2-w10-43",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "Have you ever taken out a loan?",
+      "explanation": "¿Has pedido alguna vez un préstamo?"
+    },
+    {
+      "id": "fin-a2-w10-44",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The bank has increased my limit",
+      "explanation": "El banco ha aumentado mi límite."
+    },
+    {
+      "id": "fin-a2-w10-45",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "We have not received the approval yet",
+      "explanation": "Aún no hemos recibido la aprobación."
+    },
+    {
+      "id": "fin-a2-w10-46",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "You can pay in monthly installments",
+      "explanation": "Puedes pagar en cuotas mensuales."
+    },
+    {
+      "id": "fin-a2-w10-47",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "He has recently checked his credit score",
+      "explanation": "Él ha revisado su puntuación de crédito recientemente."
+    },
+    {
+      "id": "fin-a2-w10-48",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The interest rate is very high",
+      "explanation": "El tipo de interés es muy alto."
+    },
+    {
+      "id": "fin-a2-w10-49",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I have never defaulted on a loan",
+      "explanation": "Nunca he dejado de pagar un préstamo."
+    },
+    {
+      "id": "fin-a2-w10-50",
+      "type": "crossword",
+      "title": "Credit & Lending Crossword",
+      "instructions": "Complete the crossword puzzle with credit and lending terms.",
+      "items": [
+        {
+          "word": "MORTGAGE",
+          "clue": "A loan specifically used to buy a house.",
+          "direction": "across",
+          "row": 0,
+          "col": 0
+        },
+        {
+          "word": "BALANCE",
+          "clue": "The total amount of money you currently owe.",
+          "direction": "down",
+          "row": 0,
+          "col": 1
+        },
+        {
+          "word": "INSTALLMENT",
+          "clue": "Fixed monthly payment made to settle a debt.",
+          "direction": "across",
+          "row": 3,
+          "col": 0
+        },
+        {
+          "word": "INTEREST",
+          "clue": "The annual cost of borrowing money.",
+          "direction": "down",
+          "row": 2,
+          "col": 4
+        },
+        {
+          "word": "GRACE",
+          "clue": "Period allowing you to pay without interest.",
+          "direction": "across",
+          "row": 6,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

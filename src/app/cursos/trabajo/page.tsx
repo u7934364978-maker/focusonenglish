@@ -73,7 +73,7 @@ const LEVELS = [
 ];
 
 const SECTORS = [
-  { slug: 'finanzas', icon: '💼', name: 'Finanzas y Banca', description: 'Vocabulario especializado para el sector financiero' },
+  { slug: 'administracion', icon: '💼', name: 'Administración', description: 'Vocabulario especializado para gestión administrativa y oficina' },
   { slug: 'legal', icon: '⚖️', name: 'Legal', description: 'Inglés jurídico y documentación legal' },
   { slug: 'it', icon: '💻', name: 'Tecnología e IT', description: 'Tech vocabulary y comunicación en proyectos' },
   { slug: 'ingenieria', icon: '🏭', name: 'Ingeniería', description: 'Inglés técnico y gestión de proyectos' },

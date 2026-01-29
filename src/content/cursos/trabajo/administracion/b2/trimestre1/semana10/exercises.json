@@ -1,0 +1,239 @@
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana10",
+  "title": "Financial Performance Measurement and Dashboards",
+  "description": "Exercises on advanced KPIs (EBITDA, ROE), variance analysis, and modals of deduction (50 items).",
+  "items": [
+    {
+      "id": "finance-b2-w10-q1",
+      "type": "multipleChoice",
+      "options": [
+        "Earnings Before Interest, Taxes, Depreciation, and Amortization",
+        "Equity Balance in Total Debt Account",
+        "Estimated Budget Including Tax and Depreciation",
+        "European Bank for Investment, Trade, and Development"
+      ],
+      "explanation": "EBITDA is a measure of a company's overall financial performance and is used as an alternative to simple earnings or net income in some circumstances.",
+      "answerIndex": 0,
+      "prompt": "What does the acronym 'EBITDA' stand for?"
+    },
+    {
+      "id": "finance-b2-w10-q2",
+      "type": "fillBlanks",
+      "explanation": "Modal of deduction (past certainty) based on evidence.",
+      "prompt": "The budget variance is huge; the procurement team ________ (must / make) a mistake in the raw material costings.",
+      "answers": [
+        "must have made"
+      ]
+    },
+    {
+      "id": "finance-b2-w10-q3",
+      "type": "multipleChoice",
+      "options": [
+        "ROE (Return on Equity)",
+        "ROCE (Return on Capital Employed)",
+        "Quick Ratio",
+        "Operating Margin"
+      ],
+      "explanation": "The Quick Ratio (or Acid Test) is a liquidity ratio that measures the ability of a company to pay its short-term liabilities with its most liquid assets (excludes inventory).",
+      "answerIndex": 2,
+      "prompt": "Which ratio provides the most conservative measure of a company's short-term liquidity?"
+    },
+    {
+      "id": "finance-b2-w10-q4",
+      "type": "fillBlanks",
+      "explanation": "Modal of deduction (negative certainty) for the present.",
+      "prompt": "The revenue growth is 200% this month? That ________ (can't / be) correct. We haven't even launched the new product yet.",
+      "answers": [
+        "can't be"
+      ]
+    },
+    {
+      "id": "finance-b2-w10-q5",
+      "type": "multipleChoice",
+      "options": [
+        "Higher than expected costs",
+        "Lower than expected revenue",
+        "Lower than expected costs or higher than expected revenue",
+        "A change in the accounting software"
+      ],
+      "explanation": "A favorable variance is any change that results in a higher profit than was originally budgeted.",
+      "answerIndex": 2,
+      "prompt": "What characterizes a 'Favorable Variance'?"
+    },
+    {
+      "id": "finance-b2-w10-q6",
+      "type": "fillBlanks",
+      "explanation": "Modal of deduction (past possibility).",
+      "prompt": "The dip in the share price ________ (might / be) caused by the rumors of a regulatory investigation, but we aren't sure.",
+      "answers": [
+        "might have been",
+        "could have been"
+      ]
+    },
+    {
+      "id": "finance-b2-w10-q7",
+      "type": "multipleChoice",
+      "options": [
+        "A static budget that never changes",
+        "A budget that is constantly updated for future periods",
+        "A budget that only looks at the previous year",
+        "A budget used only for marketing"
+      ],
+      "explanation": "A rolling forecast (or rolling budget) is a budget that is continuously updated so that the time horizon remains the same (e.g., always forecasting 12 months ahead).",
+      "answerIndex": 1,
+      "prompt": "What is a 'Rolling Forecast'?"
+    },
+    {
+      "id": "finance-b2-w10-q8",
+      "type": "fillBlanks",
+      "explanation": "EBITDA is used to analyze operating performance.",
+      "prompt": "To compare the operating performance of different companies regardless of their tax structure, analysts often use ________.",
+      "answers": [
+        "EBITDA"
+      ]
+    },
+    {
+      "id": "finance-b2-w10-q9",
+      "type": "multipleChoice",
+      "options": [
+        "The difference between actual price and budgeted price",
+        "The difference between actual quantity sold and budgeted quantity",
+        "The total variance of the department",
+        "The cost of shipping"
+      ],
+      "explanation": "Volume variance is the difference between the actual quantity sold or used and the quantity that was budgeted.",
+      "answerIndex": 1,
+      "prompt": "What does a 'Volume Variance' measure?"
+    },
+    {
+      "id": "finance-b2-w10-q10",
+      "type": "fillBlanks",
+      "explanation": "Data visualization principles: avoid 'chart junk'.",
+      "prompt": "When designing a dashboard, it's important to maximize the data-to-ink ratio and avoid unnecessary ________ (decorations / junk).",
+      "answers": [
+        "chart junk"
+      ]
+    },
+    {
+      "id": "finance-b2-w10-reading-1",
+      "type": "reading-comprehension",
+      "title": "The Death of the Annual Budget: The Rise of Rolling Forecasts",
+      "text": "For decades, the annual budget was the 'north star' for corporate planning. However, in today's **volatile** economic climate, a budget set in October often becomes obsolete by March. Enter the **Rolling Forecast**. Unlike the static annual budget, which only looks at a fixed fiscal year, a rolling forecast is a living document. It allows management to 'see around the corner' by adding a new month or quarter to the forecast as the current one ends.\n\nFinance leaders argue that this approach reduces the time wasted on 'negotiating' budget targets and instead focuses on **agility**. When a significant **adverse variance** appears on the **dashboard**, a company using rolling forecasts can react in real-time. They don't have to wait for the next annual cycle to reallocate capital. Critics, however, suggest that the continuous nature of rolling forecasts can lead to 'forecast fatigue' among staff. Nevertheless, the consensus is clear: if we **had relied** solely on static budgets during the global pandemic, most firms **would have collapsed** due to their inability to adapt. Today, being able to **drill down** into the real causes of a variance is no longer a luxury—it's a survival requirement.",
+      "vocabularyHelp": [
+        {
+          "word": "volatile",
+          "definition": "Liable to change rapidly and unpredictably, especially for the worse."
+        },
+        {
+          "word": "adverse variance",
+          "definition": "A situation where the actual results are worse than the budgeted or forecasted results (e.g., lower revenue or higher costs)."
+        },
+        {
+          "word": "agility",
+          "definition": "The ability of an organization to renew itself, adapt, change quickly, and succeed in a rapidly changing environment."
+        },
+        {
+          "word": "drill down",
+          "definition": "To move from high-level, summary information to more detailed data within a report or dashboard."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Why is the annual budget becoming 'obsolete' according to the text?",
+          "options": [
+            "It is too expensive to print",
+            "The economic climate is too volatile for static planning",
+            "Employees prefer rolling forecasts",
+            "It doesn't include taxes"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text states that in a volatile climate, a budget set months ago often becomes obsolete quickly."
+        },
+        {
+          "question": "What is the main benefit of rolling forecasts mentioned in the passage?",
+          "options": [
+            "They are easier to calculate",
+            "They allow for real-time agility and reallocation of capital",
+            "They eliminate the need for dashboards",
+            "They guarantee a favorable variance"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text highlights that rolling forecasts allow companies to react in real-time and be more agile."
+        },
+        {
+          "question": "In the last paragraph, the author uses a Third Conditional. What is being expressed?",
+          "options": [
+            "A future prediction",
+            "A regret about a current situation",
+            "A hypothetical past situation and its hypothetical result",
+            "A direct instruction to the reader"
+          ],
+          "answerIndex": 2,
+          "explanation": "The structure 'If we had relied... would have collapsed' describes a past hypothetical situation that didn't happen."
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w10-listening-1",
+      "type": "listening-comprehension",
+      "title": "The Dashboard Debate: Analyzing an Adverse Variance",
+      "transcript": "Analyst 1: Have you seen the Q3 dashboard? Our **Operating Margin** has taken a massive hit. It's down by 5% compared to our **rolling forecast**.\n\nAnalyst 2: I saw it. It **can't be** a volume issue; our units sold are actually up by 2%. It **must be** a price variance or a spike in COGS.\n\nAnalyst 1: Let's **drill down** into the logistics data. Ah, look at this. Our shipping costs have doubled. The **Quick Ratio** is also trending downward, which suggests our cash is being tied up in something.\n\nAnalyst 2: It **might have been** the port congestion in Singapore. I heard several shipments were delayed, and we had to pay for emergency air freight. That **could have caused** the unfavorable variance in our variable costs. \n\nAnalyst 1: We need to present this to the CFO. We **shouldn't just** show the red numbers; we need to explain that this was an external factor beyond our control, but also propose a **mitigation** strategy for Q4.",
+      "vocabularyHelp": [
+        {
+          "word": "Operating Margin",
+          "definition": "A margin of profit for a company that is calculated by dividing operating income by net sales."
+        },
+        {
+          "word": "Quick Ratio",
+          "definition": "An indicator of a company's short-term liquidity position and measures a company's ability to meet its short-term obligations with its most liquid assets."
+        },
+        {
+          "word": "COGS",
+          "definition": "Cost of Goods Sold; the direct costs of producing the goods sold by a company."
+        },
+        {
+          "word": "mitigation",
+          "definition": "The action of reducing the severity, seriousness, or painfulness of something."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Why does Analyst 2 rule out a 'volume issue'?",
+          "options": [
+            "Because the dashboard is broken",
+            "Because the number of units sold has actually increased",
+            "Because volume doesn't affect operating margin",
+            "Because they already fixed the volume"
+          ],
+          "answerIndex": 1,
+          "explanation": "Analyst 2 says: 'It can't be a volume issue; our units sold are actually up by 2%'."
+        },
+        {
+          "question": "What is identified as the likely cause of the adverse variance?",
+          "options": [
+            "Lower sales prices",
+            "Higher shipping costs due to port congestion",
+            "Excessive marketing spend",
+            "A mistake in the ROE calculation"
+          ],
+          "answerIndex": 1,
+          "explanation": "The analysts find that shipping costs doubled and speculate it might have been due to port congestion and air freight."
+        },
+        {
+          "question": "Analyze the grammar: 'It could have caused the unfavorable variance'. How certain is the speaker?",
+          "options": [
+            "100% certain",
+            "0% certain",
+            "Speculating about a past possibility (approx. 50% certain)",
+            "Talking about a future possibility"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Could have + past participle' is used to express a possibility in the past."
+        }
+      ]
+    }
+  ]
+}

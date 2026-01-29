@@ -1,0 +1,50 @@
+{
+  "goal": "administracion",
+  "level": "B1",
+  "trimester": 3,
+  "weekId": "semana28",
+  "examId": "fin-b1-w28-exam",
+  "title": "Exam: Small Business Finance & Taxes",
+  "items": [
+    {
+      "id": "fin-b1-w28-exam-1",
+      "type": "multipleChoice",
+      "prompt": "The economy is strong; growth ________ (will) likely continue.",
+      "options": ["will", "might", "should", "must"],
+      "answerIndex": 0,
+      "explanation": "'Will likely' expresses strong probability/certainty."
+    },
+    {
+      "id": "fin-b1-w28-exam-2",
+      "type": "multipleChoice",
+      "prompt": "What is 'Capital'?",
+      "options": ["The city where the bank is", "Wealth in the form of money or assets owned by a business", "A type of tax", "A loan from a friend"],
+      "answerIndex": 1,
+      "explanation": "Capital is essential for starting and running a business."
+    },
+    {
+      "id": "fin-b1-w28-exam-3",
+      "type": "multipleChoice",
+      "prompt": "They haven't called us; they ________ (be) busy with the audit.",
+      "options": ["can't", "must", "won't", "shall"],
+      "answerIndex": 1,
+      "explanation": "'Must' is used for strong logical deduction."
+    },
+    {
+      "id": "fin-b1-w28-exam-4",
+      "type": "multipleChoice",
+      "prompt": "What is 'VAT' (Value Added Tax)?",
+      "options": ["A tax on corporate profit", "A tax on the consumption of goods and services", "A tax on personal income", "A tax on bank transfers"],
+      "answerIndex": 1,
+      "explanation": "VAT (IVA) is added to the price of most products."
+    },
+    {
+      "id": "fin-b1-w28-exam-5",
+      "type": "multipleChoice",
+      "prompt": "A 'Cash Flow' statement shows:",
+      "options": ["The bank's address", "The movement of money in and out of a business", "The employees' salaries", "The company's history"],
+      "answerIndex": 1,
+      "explanation": "Cash flow is critical for a business's liquidity."
+    }
+  ]
+}

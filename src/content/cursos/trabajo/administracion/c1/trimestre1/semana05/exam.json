@@ -1,0 +1,50 @@
+{
+  "goal": "administracion",
+  "level": "C1",
+  "trimester": 1,
+  "weekId": "semana05",
+  "title": "Week 5 Quiz: DCF & Valuation",
+  "description": "Test your grasp of Free Cash Flow and formal grammar.",
+  "items": [
+    {
+      "id": "fin-c1-w5-e1",
+      "type": "multipleChoice",
+      "prompt": "What does a 'Discount Rate' represent in a DCF?",
+      "options": ["A coupon code for the bank", "The required rate of return or the risk of the investment", "The speed of light", "The company's marketing budget"],
+      "answerIndex": 1,
+      "explanation": "Higher risk usually leads to a higher discount rate."
+    },
+    {
+      "id": "fin-c1-w5-e2",
+      "type": "multipleChoice",
+      "prompt": "Complete the subjunctive sentence: 'We recommend that the auditor ___ the figures again.'",
+      "options": ["checks", "check", "checked", "has checked"],
+      "answerIndex": 1,
+      "explanation": "Subjunctive mood: 'recommend that [subject] [base verb]'."
+    },
+    {
+      "id": "fin-c1-w5-e3",
+      "type": "multipleChoice",
+      "prompt": "CAPEX is ___ in the FCF formula.",
+      "options": ["added", "multiplied", "subtracted", "ignored"],
+      "answerIndex": 2,
+      "explanation": "CAPEX is a cash outflow for investment, so it reduces free cash flow."
+    },
+    {
+      "id": "fin-c1-w5-e4",
+      "type": "multipleChoice",
+      "prompt": "If Working Capital increases, FCF ___.",
+      "options": ["Increases", "Decreases", "Stays the same", "Doubles"],
+      "answerIndex": 1,
+      "explanation": "Increased working capital means more cash is 'tied up' in operations (e.g., more inventory)."
+    },
+    {
+      "id": "fin-c1-w5-e5",
+      "type": "multipleChoice",
+      "prompt": "Discounting is the opposite of:",
+      "options": ["Multiplying", "Compounding", "Dividing", "Subtracting"],
+      "answerIndex": 1,
+      "explanation": "Compounding moves money forward in time; discounting moves it back to the present."
+    }
+  ]
+}

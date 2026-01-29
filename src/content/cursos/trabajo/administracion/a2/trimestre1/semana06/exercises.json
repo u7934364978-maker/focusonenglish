@@ -1,0 +1,398 @@
+{
+  "goal": "administracion",
+  "level": "A2",
+  "trimester": 1,
+  "weekId": "semana06",
+  "title": "Digital Customer Support & AI Chatbots",
+  "items": [
+    {
+      "id": "fin-a2-w06-1",
+      "type": "multipleChoice",
+      "prompt": "The ______ can answer most basic questions instantly.",
+      "options": ["AI Chatbot", "refund", "escalation"],
+      "answerIndex": 0,
+      "explanation": "Un chatbot de IA puede responder preguntas básicas al instante."
+    },
+    {
+      "id": "fin-a2-w06-2",
+      "type": "multipleChoice",
+      "prompt": "I need to open a support ______ to track my issue.",
+      "options": ["ticket", "chatbot", "live chat"],
+      "answerIndex": 0,
+      "explanation": "Un 'ticket' de soporte se usa para rastrear un problema."
+    },
+    {
+      "id": "fin-a2-w06-3",
+      "type": "multipleChoice",
+      "prompt": "The neobank ______ sends a notification after a ticket is closed.",
+      "options": ["never", "always", "rarely"],
+      "answerIndex": 1,
+      "explanation": "El neobanco 'siempre' envía una notificación."
+    },
+    {
+      "id": "fin-a2-w06-4",
+      "type": "multipleChoice",
+      "prompt": "Digital support agents ______ work from a physical office.",
+      "options": ["rarely", "always is", "usually are"],
+      "answerIndex": 0,
+      "explanation": "Los agentes de soporte digital 'rara vez' trabajan desde una oficina física."
+    },
+    {
+      "id": "fin-a2-w06-5",
+      "type": "multipleChoice",
+      "prompt": "If the chatbot cannot help, it triggers an ______ to a human.",
+      "options": ["escalation", "AI", "refund"],
+      "answerIndex": 0,
+      "explanation": "Una 'escalación' transfiere el problema a un humano."
+    },
+    {
+      "id": "fin-a2-w06-6",
+      "type": "fillBlanks",
+      "prompt": "I [blank] use the help center before I contact support.",
+      "answers": ["usually", "always", "often"],
+      "explanation": "Normalmente uso el centro de ayuda antes de contactar a soporte."
+    },
+    {
+      "id": "fin-a2-w06-7",
+      "type": "fillBlanks",
+      "prompt": "The [blank] chat is available 24/7 in the app.",
+      "answers": ["live"],
+      "explanation": "El chat en vivo (live chat) está disponible 24/7."
+    },
+    {
+      "id": "fin-a2-w06-8",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The chatbot usually solves my problems",
+      "explanation": "El chatbot suele resolver mis problemas."
+    },
+    {
+      "id": "fin-a2-w06-9",
+      "type": "multipleChoice",
+      "prompt": "I ______ get a reply within ten minutes.",
+      "options": ["often", "always is", "is usually"],
+      "answerIndex": 0,
+      "explanation": "A menudo (often) recibo una respuesta."
+    },
+    {
+      "id": "fin-a2-w06-10",
+      "type": "multipleChoice",
+      "prompt": "Can I get a ______ for the unauthorized charge?",
+      "options": ["refund", "ticket", "FAQ"],
+      "answerIndex": 0,
+      "explanation": "Un reembolso (refund) es la devolución del dinero."
+    },
+    {
+      "id": "fin-a2-w06-11",
+      "type": "fillBlanks",
+      "prompt": "Please [blank] the issue to a manager.",
+      "answers": ["escalate"],
+      "explanation": "Por favor, escale el problema a un gerente."
+    },
+    {
+      "id": "fin-a2-w06-12",
+      "type": "multipleChoice",
+      "prompt": "Support tickets are ______ handled in less than 24 hours.",
+      "options": ["usually", "always are", "never is"],
+      "answerIndex": 0,
+      "explanation": "Los tickets suelen ser gestionados en menos de 24 horas."
+    },
+    {
+      "id": "fin-a2-w06-13",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I always read the FAQ first",
+      "explanation": "Siempre leo las preguntas frecuentes primero."
+    },
+    {
+      "id": "fin-a2-w06-14",
+      "type": "multipleChoice",
+      "prompt": "The support team is ______ busy on Monday mornings.",
+      "options": ["usually", "often are", "is always"],
+      "answerIndex": 0,
+      "explanation": "El equipo suele estar ocupado (usually busy)."
+    },
+    {
+      "id": "fin-a2-w06-15",
+      "type": "fillBlanks",
+      "prompt": "My [blank] time was only two minutes.",
+      "answers": ["resolution"],
+      "explanation": "Mi tiempo de resolución (resolution time) fue de dos minutos."
+    },
+    {
+      "id": "fin-a2-w06-16",
+      "type": "multipleChoice",
+      "prompt": "We ______ share our passwords with support agents.",
+      "options": ["never", "always", "sometimes"],
+      "answerIndex": 0,
+      "explanation": "Nunca compartimos nuestras contraseñas."
+    },
+    {
+      "id": "fin-a2-w06-17",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The live chat is never slow",
+      "explanation": "El chat en vivo nunca es lento."
+    },
+    {
+      "id": "fin-a2-w06-18",
+      "type": "multipleChoice",
+      "prompt": "Is there a ______ for the long resolution time?",
+      "options": ["reason", "refund", "chatbot"],
+      "answerIndex": 0,
+      "explanation": "¿Hay una razón para el largo tiempo de resolución?"
+    },
+    {
+      "id": "fin-a2-w06-19",
+      "type": "fillBlanks",
+      "prompt": "The agent [blank] apologized for the delay.",
+      "answers": ["sincerely", "immediately"],
+      "explanation": "El agente se disculpó sinceramente/inmediatamente."
+    },
+    {
+      "id": "fin-a2-w06-20",
+      "type": "multipleChoice",
+      "prompt": "Financial apps ______ update their help center articles.",
+      "options": ["often", "is often", "never are"],
+      "answerIndex": 0,
+      "explanation": "Las aplicaciones a menudo actualizan sus artículos."
+    },
+    {
+      "id": "fin-a2-w06-21",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "Is the chatbot always helpful?",
+      "explanation": "¿El chatbot es siempre útil?"
+    },
+    {
+      "id": "fin-a2-w06-22",
+      "type": "fillBlanks",
+      "prompt": "I want to [blank] a technical problem.",
+      "answers": ["report"],
+      "explanation": "Quiero reportar un problema técnico."
+    },
+    {
+      "id": "fin-a2-w06-23",
+      "type": "multipleChoice",
+      "prompt": "Support agents are ______ available on public holidays.",
+      "options": ["sometimes", "is always", "never"],
+      "answerIndex": 0,
+      "explanation": "A veces están disponibles (sometimes available)."
+    },
+    {
+      "id": "fin-a2-w06-24",
+      "type": "fillBlanks",
+      "prompt": "The [blank] handled my request in seconds.",
+      "answers": ["bot", "chatbot", "AI"],
+      "explanation": "El bot gestionó mi solicitud en segundos."
+    },
+    {
+      "id": "fin-a2-w06-25",
+      "type": "multipleChoice",
+      "prompt": "I ______ use the phone to call the bank.",
+      "options": ["rarely", "is rarely", "always are"],
+      "answerIndex": 0,
+      "explanation": "Rara vez uso el teléfono (rarely use)."
+    },
+    {
+      "id": "fin-a2-w06-26",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "There is always a solution online",
+      "explanation": "Siempre hay una solución en línea."
+    },
+    {
+      "id": "fin-a2-w06-27",
+      "type": "multipleChoice",
+      "prompt": "Can you ______ why my account is locked?",
+      "options": ["explain", "refund", "escalate"],
+      "answerIndex": 0,
+      "explanation": "¿Puede explicar por qué mi cuenta está bloqueada?"
+    },
+    {
+      "id": "fin-a2-w06-28",
+      "type": "fillBlanks",
+      "prompt": "I [blank] check the status of my ticket.",
+      "answers": ["often", "usually", "always"],
+      "explanation": "A menudo/siempre reviso el estado de mi ticket."
+    },
+    {
+      "id": "fin-a2-w06-29",
+      "type": "multipleChoice",
+      "prompt": "Automated replies are ______ very fast.",
+      "options": ["usually", "rarely is", "always is"],
+      "answerIndex": 0,
+      "explanation": "Las respuestas automáticas suelen ser rápidas."
+    },
+    {
+      "id": "fin-a2-w06-30",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I never wait for a human",
+      "explanation": "Nunca espero por un humano."
+    },
+    {
+      "id": "fin-a2-w06-31",
+      "type": "multipleChoice",
+      "prompt": "The customer was ______ with the quick resolution.",
+      "options": ["satisfied", "refunded", "escalated"],
+      "answerIndex": 0,
+      "explanation": "El cliente estaba satisfecho (satisfied)."
+    },
+    {
+      "id": "fin-a2-w06-32",
+      "type": "fillBlanks",
+      "prompt": "The [blank] center has many helpful articles.",
+      "answers": ["help", "support"],
+      "explanation": "El centro de ayuda tiene muchos artículos."
+    },
+    {
+      "id": "fin-a2-w06-33",
+      "type": "multipleChoice",
+      "prompt": "Digital banks ______ have physical branches.",
+      "options": ["never", "is always", "usually"],
+      "answerIndex": 0,
+      "explanation": "Los bancos digitales nunca tienen sucursales físicas."
+    },
+    {
+      "id": "fin-a2-w06-34",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Please escalate my ticket to level two",
+      "explanation": "Por favor, escale mi ticket al nivel dos."
+    },
+    {
+      "id": "fin-a2-w06-35",
+      "type": "multipleChoice",
+      "prompt": "The live chat is ______ faster than email.",
+      "options": ["always", "never is", "always is"],
+      "answerIndex": 0,
+      "explanation": "El chat en vivo siempre es más rápido (always faster)."
+    },
+    {
+      "id": "fin-a2-w06-36",
+      "type": "fillBlanks",
+      "prompt": "I [blank] forget to close the chat.",
+      "answers": ["sometimes", "often", "rarely"],
+      "explanation": "A veces/a menudo olvido cerrar el chat."
+    },
+    {
+      "id": "fin-a2-w06-37",
+      "type": "multipleChoice",
+      "prompt": "I ______ use biometric login for security.",
+      "options": ["always", "is always", "usually are"],
+      "answerIndex": 0,
+      "explanation": "Siempre uso el inicio de sesión biométrico."
+    },
+    {
+      "id": "fin-a2-w06-38",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Technical errors are sometimes very annoying",
+      "explanation": "Los errores técnicos son a veces muy molestos."
+    },
+    {
+      "id": "fin-a2-w06-39",
+      "type": "multipleChoice",
+      "prompt": "Did the chatbot ______ the issue?",
+      "options": ["solve", "refund", "escalation"],
+      "answerIndex": 0,
+      "explanation": "¿Resolvió el chatbot el problema?"
+    },
+    {
+      "id": "fin-a2-w06-40",
+      "type": "fillBlanks",
+      "prompt": "There is a [blank] time of 5 seconds.",
+      "answers": ["response"],
+      "explanation": "Hay un tiempo de respuesta de 5 segundos."
+    },
+    {
+      "id": "fin-a2-w06-41",
+      "type": "multipleChoice",
+      "prompt": "Security is ______ the top priority.",
+      "options": ["always", "is always", "never"],
+      "answerIndex": 1,
+      "explanation": "La seguridad es siempre la prioridad (is always...)."
+    },
+    {
+      "id": "fin-a2-w06-42",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I rarely use cash for payments",
+      "explanation": "Rara vez uso efectivo para los pagos."
+    },
+    {
+      "id": "fin-a2-w06-43",
+      "type": "multipleChoice",
+      "prompt": "I am ______ happy with the AI assistant.",
+      "options": ["usually", "often are", "is always"],
+      "answerIndex": 0,
+      "explanation": "Normalmente estoy feliz (I am usually...)."
+    },
+    {
+      "id": "fin-a2-w06-44",
+      "type": "fillBlanks",
+      "prompt": "We [blank] monitor your transactions for fraud.",
+      "answers": ["always", "constantly"],
+      "explanation": "Siempre/constantemente monitoreamos sus transacciones."
+    },
+    {
+      "id": "fin-a2-w06-45",
+      "type": "multipleChoice",
+      "prompt": "The support team ______ helps me quickly.",
+      "options": ["always", "is always", "never"],
+      "answerIndex": 0,
+      "explanation": "El equipo siempre me ayuda rápidamente."
+    },
+    {
+      "id": "fin-a2-w06-46",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The app usually works perfectly",
+      "explanation": "La aplicación suele funcionar perfectamente."
+    },
+    {
+      "id": "fin-a2-w06-47",
+      "type": "multipleChoice",
+      "prompt": "Is there ______ someone available to chat?",
+      "options": ["always", "never", "is always"],
+      "answerIndex": 0,
+      "explanation": "¿Siempre hay alguien disponible?"
+    },
+    {
+      "id": "fin-a2-w06-48",
+      "type": "fillBlanks",
+      "prompt": "The [blank] was processed in one day.",
+      "answers": ["refund"],
+      "explanation": "El reembolso fue procesado en un día."
+    },
+    {
+      "id": "fin-a2-w06-49",
+      "type": "multipleChoice",
+      "prompt": "I ______ forget my PIN code.",
+      "options": ["never", "always is", "is usually"],
+      "answerIndex": 0,
+      "explanation": "Nunca olvido mi código PIN."
+    },
+    {
+      "id": "fin-a2-w06-50",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Often the digital support is excellent",
+      "explanation": "A menudo el soporte digital es excelente."
+    },
+    {
+      "id": "fin-a2-w06-51",
+      "type": "crossword",
+      "title": "Digital Support Crossword",
+      "prompt": "Complete the crossword with support-related terms.",
+      "items": [
+        { "word": "CHATBOT", "clue": "AI that answers your questions", "direction": "across", "row": 0, "col": 0 },
+        { "word": "TICKET", "clue": "What you open to track an issue", "direction": "down", "row": 0, "col": 3 },
+        { "word": "REFUND", "clue": "Money returned for a charge", "direction": "across", "row": 2, "col": 0 },
+        { "word": "ESCALATE", "clue": "Move a problem to a human manager", "direction": "down", "row": 2, "col": 5 }
+      ],
+      "explanation": "Vocabulary related to digital customer support."
+    }
+  ]
+}

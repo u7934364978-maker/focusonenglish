@@ -1,0 +1,50 @@
+{
+  "goal": "administracion",
+  "level": "A2",
+  "trimester": 3,
+  "weekId": "semana25",
+  "examId": "fin-a2-w25-exam",
+  "title": "Examen: Tarjetas y Pagos Diarios",
+  "items": [
+    {
+      "id": "fin-a2-w25-exam-1",
+      "type": "multipleChoice",
+      "prompt": "Which card is linked directly to your bank account balance?",
+      "options": ["Credit card", "Debit card", "Store card", "Gift card"],
+      "answerIndex": 1,
+      "explanation": "A debit card takes money directly from your current balance."
+    },
+    {
+      "id": "fin-a2-w25-exam-2",
+      "type": "multipleChoice",
+      "prompt": "Online shopping is ________ than going to the bank.",
+      "options": ["convenienter", "more convenient", "the most convenient", "convenient"],
+      "answerIndex": 1,
+      "explanation": "We use 'more' for long adjectives in comparatives."
+    },
+    {
+      "id": "fin-a2-w25-exam-3",
+      "type": "multipleChoice",
+      "prompt": "What is 'Interest' on a credit card?",
+      "options": ["A discount", "A fee for borrowing money", "A free gift", "The bank's address"],
+      "answerIndex": 1,
+      "explanation": "Interest is the cost of using the bank's money on a credit card."
+    },
+    {
+      "id": "fin-a2-w25-exam-4",
+      "type": "multipleChoice",
+      "prompt": "This new app is ________ (fast) than the old one.",
+      "options": ["fast", "faster", "fastest", "more fast"],
+      "answerIndex": 1,
+      "explanation": "Short adjectives take '-er' in comparatives."
+    },
+    {
+      "id": "fin-a2-w25-exam-5",
+      "type": "multipleChoice",
+      "prompt": "To pay 'in installments' means:",
+      "options": ["To pay everything now", "To pay in small parts over time", "To pay with coins only", "To not pay at all"],
+      "answerIndex": 1,
+      "explanation": "Paying in installments means dividing the total into monthly payments."
+    }
+  ]
+}

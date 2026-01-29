@@ -16,7 +16,7 @@ export interface UncompletedExercisesResult {
  * Finds all exercises in a given course week that have not been completed by the user.
  * 
  * @param userId The ID of the user
- * @param sector The course sector (e.g., 'finanzas')
+ * @param sector The course sector (e.g., 'administracion')
  * @param level The course level (e.g., 'b1')
  * @param trimester The trimester (e.g., 'trimestre1')
  * @param weekId The week ID (e.g., 'semana01')

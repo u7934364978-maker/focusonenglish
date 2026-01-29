@@ -1,0 +1,131 @@
+{
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 2,
+  "weekId": "semana21",
+  "title": "Subscription Economy & Auto-Pay",
+  "items": [
+    {
+      "id": "fin-a1-w21-1",
+      "type": "multipleChoice",
+      "prompt": "If you pay for Netflix every month, you have a ______.",
+      "options": ["Donation", "Subscription", "Refund"],
+      "answerIndex": 1,
+      "explanation": "Netflix es un servicio de suscripción (subscription)."
+    },
+    {
+      "id": "fin-a1-w21-2",
+      "type": "multipleChoice",
+      "prompt": "Using a service for $0 for 7 days is a ______.",
+      "options": ["Monthly fee", "Free trial", "Auto-pay"],
+      "answerIndex": 1,
+      "explanation": "Un periodo de prueba gratuito es un 'free trial'."
+    },
+    {
+      "id": "fin-a1-w21-3",
+      "type": "fillBlanks",
+      "prompt": "I want to [blank] my subscription because it is too expensive.",
+      "answers": ["cancel"],
+      "explanation": "Si es caro, puedes cancelar (cancel) la suscripción."
+    },
+    {
+      "id": "fin-a1-w21-4",
+      "type": "multipleChoice",
+      "prompt": "When the bank pays your bills automatically, it is ______.",
+      "options": ["Manual pay", "Auto-pay", "No pay"],
+      "answerIndex": 1,
+      "explanation": "El pago automático se llama 'auto-pay'."
+    },
+    {
+      "id": "fin-a1-w21-5",
+      "type": "matching",
+      "prompt": "Match the billing frequency with its meaning:",
+      "pairs": [
+        { "left": "Monthly", "right": "Every month" },
+        { "left": "Annual", "right": "Once a year" },
+        { "left": "Weekly", "right": "Every week" },
+        { "left": "Daily", "right": "Every day" }
+      ],
+      "explanation": "Relaciona las frecuencias de pago con sus significados."
+    },
+    {
+      "id": "fin-a1-w21-6",
+      "type": "fillBlanks",
+      "prompt": "The [blank] date for the bill is the 15th.",
+      "answers": ["due"],
+      "explanation": "La fecha de vencimiento es el 'due date'."
+    },
+    {
+      "id": "fin-a1-w21-7",
+      "type": "reorder",
+      "prompt": "Reorder the instruction:",
+      "sentence": "Turn on auto pay for the gym",
+      "explanation": "Activa el pago automático para el gimnasio."
+    },
+    {
+      "id": "fin-a1-w21-8",
+      "type": "multipleChoice",
+      "prompt": "What happens when you 'Renew' a subscription?",
+      "options": ["It stops", "It continues", "It gets cheaper"],
+      "answerIndex": 1,
+      "explanation": "'Renew' significa renovar o continuar con el servicio."
+    },
+    {
+      "id": "fin-a1-w21-9",
+      "type": "writing",
+      "prompt": "Write the opposite of 'Monthly'.",
+      "validation": "Yearly",
+      "explanation": "Lo opuesto a mensual (monthly) puede ser anual (yearly/annual)."
+    },
+    {
+      "id": "fin-a1-w21-10",
+      "type": "roleplay",
+      "prompt": "You want to stop your music subscription. What do you click in the app?",
+      "scenario": "App Menu:\n1. Account Details\n2. Subscriptions\n3. Help\nUser clicks 'Subscriptions' and then: ______",
+      "options": [
+        "Cancel Subscription",
+        "Add Payment Method",
+        "Upgrade Plan"
+      ],
+      "answerIndex": 0,
+      "explanation": "Para dejar de pagar, seleccionas 'Cancel Subscription'."
+    },
+    {
+      "id": "fin-a1-w21-11",
+      "type": "multipleChoice",
+      "prompt": "A 'Monthly Fee' is the ______ you pay every month.",
+      "options": ["Name", "Price", "Email"],
+      "answerIndex": 1,
+      "explanation": "La cuota mensual es el precio (price) que pagas."
+    },
+    {
+      "id": "fin-a1-w21-12",
+      "type": "fillBlanks",
+      "prompt": "Check the billing [blank] in the settings.",
+      "answers": ["history", "cycle"],
+      "explanation": "Puedes revisar el historial o ciclo de facturación (billing history/cycle)."
+    },
+    {
+      "id": "fin-a1-w21-13",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "My subscription is active",
+      "explanation": "Mi suscripción está activa."
+    },
+    {
+      "id": "fin-a1-w21-14",
+      "type": "multipleChoice",
+      "prompt": "What is 'Direct Debit'?",
+      "options": ["A manual payment", "A company taking money with permission", "A cash payment"],
+      "answerIndex": 1,
+      "explanation": "Direct Debit (domiciliación) es permitir que una empresa cobre de tu cuenta."
+    },
+    {
+      "id": "fin-a1-w21-15",
+      "type": "fillBlanks",
+      "prompt": "Is there a [blank] trial for this app?",
+      "answers": ["free"],
+      "explanation": "¿Hay una prueba gratuita (free trial)?"
+    }
+  ]
+}

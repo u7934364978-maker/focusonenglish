@@ -1,0 +1,638 @@
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana05",
+  "title": "Investment and Asset Management",
+  "description": "Vocabulary for asset classes, investment strategies, performance metrics, and the use of Future Forms (50 items).",
+  "items": [
+    {
+      "id": "finance-b2-w5-q1",
+      "type": "multipleChoice",
+      "options": [
+        "Speculation",
+        "Diversification",
+        "Concentration",
+        "Liquidation"
+      ],
+      "explanation": "Diversification is a risk management strategy that mixes a wide variety of investments within a portfolio.",
+      "answerIndex": 1,
+      "prompt": "What is the term for spreading investments across various assets to reduce risk?"
+    },
+    {
+      "id": "finance-b2-w5-q2",
+      "type": "fillBlanks",
+      "explanation": "We use 'will' for a decision or prediction about the future.",
+      "prompt": "We ________ (rebalance) the portfolio once the market stabilizes.",
+      "answers": [
+        "will rebalance"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q3",
+      "type": "multipleChoice",
+      "options": [
+        "Bonds",
+        "Equities",
+        "Commodities",
+        "Derivatives"
+      ],
+      "explanation": "Equities, or stocks, represent ownership interest in a corporation.",
+      "answerIndex": 1,
+      "prompt": "Which asset class includes ownership shares in a company?"
+    },
+    {
+      "id": "finance-b2-w5-q4",
+      "type": "fillBlanks",
+      "explanation": "Future Perfect Continuous is used to show how long an action will have been in progress at a certain point in the future. (Acceptable: 'will have managed').",
+      "prompt": "Next month, the firm ________ (manage) these assets for ten years.",
+      "answers": [
+        "will have been managing"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q5",
+      "type": "multipleChoice",
+      "options": [
+        "Liquidity",
+        "Volatility",
+        "Solvency",
+        "Inflation"
+      ],
+      "explanation": "Volatility represents the rate at which the price of a stock increases or decreases.",
+      "answerIndex": 1,
+      "prompt": "The degree of variation in the price of a financial instrument over time is known as:"
+    },
+    {
+      "id": "finance-b2-w5-q6",
+      "type": "fillBlanks",
+      "explanation": "We use 'going to' for predictions based on present evidence.",
+      "prompt": "Look at the trend; the stock price ________ (drop) significantly.",
+      "answers": [
+        "is going to drop"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q7",
+      "type": "multipleChoice",
+      "options": [
+        "Rate of Inflation",
+        "Return on Investment",
+        "Ratio of Income",
+        "Risk of Insolvency"
+      ],
+      "explanation": "ROI is a performance measure used to evaluate the efficiency of an investment.",
+      "answerIndex": 1,
+      "prompt": "What does ROI stand for?"
+    },
+    {
+      "id": "finance-b2-w5-q8",
+      "type": "fillBlanks",
+      "explanation": "Future Perfect is used for an action that will be completed by a certain time.",
+      "prompt": "By the end of the year, we ________ (achieve) our target return.",
+      "answers": [
+        "will have achieved"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q9",
+      "type": "multipleChoice",
+      "options": [
+        "Liability",
+        "Benchmark",
+        "Derivative",
+        "Commodity"
+      ],
+      "explanation": "Benchmarks are used to compare the performance of a fund or investment manager.",
+      "answerIndex": 1,
+      "prompt": "A standard against which the performance of a portfolio is measured is a:"
+    },
+    {
+      "id": "finance-b2-w5-q10",
+      "type": "fillBlanks",
+      "explanation": "Future Continuous for an action in progress in the future.",
+      "prompt": "This time tomorrow, they ________ (present) the new investment strategy.",
+      "answers": [
+        "will be presenting"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q11",
+      "type": "multipleChoice",
+      "options": [
+        "Asset Allocation",
+        "Day Trading",
+        "Short Selling",
+        "Insider Trading"
+      ],
+      "explanation": "Asset allocation is the process of deciding how to distribute wealth among different investment classes.",
+      "answerIndex": 0,
+      "prompt": "Which strategy involves balancing risk and reward by adjusting asset percentages?"
+    },
+    {
+      "id": "finance-b2-w5-q12",
+      "type": "fillBlanks",
+      "explanation": "'Going to' or Present Continuous can be used for planned future arrangements.",
+      "prompt": "I ________ (meet) with the fund manager at 3 PM today.",
+      "answers": [
+        "am going to meet"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q13",
+      "type": "multipleChoice",
+      "options": [
+        "Equities",
+        "Bonds",
+        "Commodities",
+        "Real Estate"
+      ],
+      "explanation": "Commodities are basic goods used in commerce that are interchangeable with other goods of the same type.",
+      "answerIndex": 2,
+      "prompt": "Gold, oil, and agricultural products are examples of:"
+    },
+    {
+      "id": "finance-b2-w5-q14",
+      "type": "fillBlanks",
+      "explanation": "We use 'will' for predictions based on opinion/belief.",
+      "prompt": "I think the central bank ________ (raise) rates again.",
+      "answers": [
+        "will raise"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q15",
+      "type": "multipleChoice",
+      "options": [
+        "The ability to pay off all debts",
+        "How quickly an asset can be converted into cash",
+        "The total value of a company",
+        "The process of merging two firms"
+      ],
+      "explanation": "Liquidity describes the degree to which an asset or security can be quickly bought or sold in the market.",
+      "answerIndex": 1,
+      "prompt": "What is 'Liquidity'?"
+    },
+    {
+      "id": "finance-b2-w5-q16",
+      "type": "fillBlanks",
+      "explanation": "Used for a planned intention.",
+      "prompt": "They ________ (launch) the new ETF next quarter.",
+      "answers": [
+        "are going to launch"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q17",
+      "type": "multipleChoice",
+      "options": [
+        "Bond",
+        "Equity",
+        "Derivative",
+        "Mutual Fund"
+      ],
+      "explanation": "Derivatives include options, futures, and swaps.",
+      "answerIndex": 2,
+      "prompt": "An investment contract whose value is linked to an underlying asset is a:"
+    },
+    {
+      "id": "finance-b2-w5-q18",
+      "type": "fillBlanks",
+      "explanation": "Future Perfect for completion by a certain date.",
+      "prompt": "By 2026, the global economy ________ (recover) fully.",
+      "answers": [
+        "will have recovered"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q19",
+      "type": "multipleChoice",
+      "options": [
+        "Individual stock",
+        "Index",
+        "Single commodity",
+        "Private company"
+      ],
+      "explanation": "Passive management, like index funds, aims to replicate the performance of a specific index.",
+      "answerIndex": 1,
+      "prompt": "Passive investment strategies typically involve tracking a(n):"
+    },
+    {
+      "id": "finance-b2-w5-q20",
+      "type": "fillBlanks",
+      "explanation": "Future Continuous for an action that will take up a period of time in the future.",
+      "prompt": "We ________ (audit) the accounts all day on Friday.",
+      "answers": [
+        "will be auditing"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q21",
+      "type": "multipleChoice",
+      "options": [
+        "Stocks",
+        "Bonds",
+        "Real Estate",
+        "Venture Capital"
+      ],
+      "explanation": "Bonds provide a fixed stream of income via interest payments.",
+      "answerIndex": 1,
+      "prompt": "Fixed Income investments are primarily:"
+    },
+    {
+      "id": "finance-b2-w5-q22",
+      "type": "fillBlanks",
+      "explanation": "Prediction based on belief.",
+      "prompt": "I'm sure the CFO ________ (approve) the budget.",
+      "answers": [
+        "will approve"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q23",
+      "type": "multipleChoice",
+      "options": [
+        "Growth",
+        "Value",
+        "Momentum",
+        "Day Trading"
+      ],
+      "explanation": "Value investing involves picking stocks that appear to be trading for less than their intrinsic value.",
+      "answerIndex": 1,
+      "prompt": "Which type of investment focuses on undervalued companies?"
+    },
+    {
+      "id": "finance-b2-w5-q24",
+      "type": "fillBlanks",
+      "explanation": "Future Perfect.",
+      "prompt": "The analyst ________ (publish) her report by tomorrow morning.",
+      "answers": [
+        "will have published"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q25",
+      "type": "multipleChoice",
+      "options": [
+        "Buying things for personal use",
+        "Professional management of securities and assets to meet investment goals",
+        "The process of filing for bankruptcy",
+        "Printing money"
+      ],
+      "explanation": "Asset managers handle portfolios for individuals or institutional investors.",
+      "answerIndex": 1,
+      "prompt": "What is 'Asset Management'?"
+    },
+    {
+      "id": "finance-b2-w5-q26",
+      "type": "fillBlanks",
+      "explanation": "Future intention question.",
+      "prompt": "Are you ________ (attend) the investment seminar next week?",
+      "answers": [
+        "going to attend"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q27",
+      "type": "multipleChoice",
+      "options": [
+        "High dividends and low risk",
+        "High potential for capital appreciation",
+        "Trading below book value",
+        "Government backing"
+      ],
+      "explanation": "Growth stocks are expected to grow at a rate significantly above the average for the market.",
+      "answerIndex": 1,
+      "prompt": "Which of these is a 'Growth' investment characteristic?"
+    },
+    {
+      "id": "finance-b2-w5-q28",
+      "type": "fillBlanks",
+      "explanation": "Future Perfect.",
+      "prompt": "The market ________ (close) by the time you reach the office.",
+      "answers": [
+        "will have closed"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q29",
+      "type": "multipleChoice",
+      "options": [
+        "Following an index exactly",
+        "Frequent buying and selling to outperform a benchmark",
+        "Doing nothing for 10 years",
+        "Only buying gold"
+      ],
+      "explanation": "Active managers rely on analytical research and their own judgment.",
+      "answerIndex": 1,
+      "prompt": "Active management involves:"
+    },
+    {
+      "id": "finance-b2-w5-q30",
+      "type": "fillBlanks",
+      "explanation": "Future Continuous for a future state/action in progress.",
+      "prompt": "In ten years, people ________ (use) digital currencies for everything.",
+      "answers": [
+        "will be using"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q31",
+      "type": "multipleChoice",
+      "options": [
+        "Conservative",
+        "Aggressive",
+        "Risk-free",
+        "Stable"
+      ],
+      "explanation": "High equity exposure generally means higher risk and higher potential return.",
+      "answerIndex": 1,
+      "prompt": "A portfolio with 90% stocks and 10% bonds is considered:"
+    },
+    {
+      "id": "finance-b2-w5-q32",
+      "type": "fillBlanks",
+      "explanation": "Prediction.",
+      "prompt": "We ________ (see) more volatility in the coming weeks.",
+      "answers": [
+        "will see"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q33",
+      "type": "multipleChoice",
+      "options": [
+        "Electronic Transfer Fund",
+        "Exchange-Traded Fund",
+        "Equity Trust Foundation",
+        "External Trade Finance"
+      ],
+      "explanation": "ETFs are investment funds traded on stock exchanges, much like individual stocks.",
+      "answerIndex": 1,
+      "prompt": "What is an 'ETF'?"
+    },
+    {
+      "id": "finance-b2-w5-q34",
+      "type": "fillBlanks",
+      "explanation": "Future Perfect.",
+      "prompt": "The board ________ (decide) on the merger by Friday.",
+      "answers": [
+        "will have decided"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q35",
+      "type": "multipleChoice",
+      "options": [
+        "Residential property",
+        "Commercial property",
+        "REITs",
+        "All of the above"
+      ],
+      "explanation": "Real estate covers various types of physical property and related financial vehicles.",
+      "answerIndex": 3,
+      "prompt": "Real Estate investment can include:"
+    },
+    {
+      "id": "finance-b2-w5-q36",
+      "type": "fillBlanks",
+      "explanation": "'Will' for a spontaneous offer.",
+      "prompt": "Wait! I ________ (help) you with those financial models.",
+      "answers": [
+        "will help"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q37",
+      "type": "multipleChoice",
+      "options": [
+        "Capital gain",
+        "Cash reserve",
+        "Bull market",
+        "Bear market"
+      ],
+      "explanation": "A cash reserve provides liquidity for emergencies or new opportunities.",
+      "answerIndex": 1,
+      "prompt": "Which term describes the 'safety net' of cash in an investment plan?"
+    },
+    {
+      "id": "finance-b2-w5-q38",
+      "type": "fillBlanks",
+      "explanation": "Future Continuous.",
+      "prompt": "The interns ________ (work) in the trading room next month.",
+      "answers": [
+        "will be working"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q39",
+      "type": "multipleChoice",
+      "options": [
+        "A tax you pay on income",
+        "The profit from the sale of an asset",
+        "The total debt of a company",
+        "A type of bank account"
+      ],
+      "explanation": "Capital gain occurs when an asset is sold for more than its purchase price.",
+      "answerIndex": 1,
+      "prompt": "What is a 'Capital Gain'?"
+    },
+    {
+      "id": "finance-b2-w5-q40",
+      "type": "fillBlanks",
+      "explanation": "Future Perfect.",
+      "prompt": "By 5 PM, I ________ (finish) the portfolio review.",
+      "answers": [
+        "will have finished"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q41",
+      "type": "multipleChoice",
+      "options": [
+        "The total amount of money invested",
+        "An investor's ability and willingness to lose some or all of an original investment",
+        "The legal rules for banks",
+        "The speed of a computer"
+      ],
+      "explanation": "Understanding risk tolerance is vital for appropriate asset allocation.",
+      "answerIndex": 1,
+      "prompt": "Risk Tolerance refers to:"
+    },
+    {
+      "id": "finance-b2-w5-q42",
+      "type": "fillBlanks",
+      "explanation": "Intention/Plan.",
+      "prompt": "The company ________ (invest) $50 million in R&D next year.",
+      "answers": [
+        "is going to invest"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q43",
+      "type": "multipleChoice",
+      "options": [
+        "Prices are rising",
+        "Prices are falling",
+        "The market is closed for holidays",
+        "Bears are allowed to trade"
+      ],
+      "explanation": "A bear market is a period of declining stock prices, typically by 20% or more.",
+      "answerIndex": 1,
+      "prompt": "What happens in a 'Bear Market'?"
+    },
+    {
+      "id": "finance-b2-w5-q44",
+      "type": "fillBlanks",
+      "explanation": "Future Continuous.",
+      "prompt": "They ________ (trade) until the bell rings.",
+      "answers": [
+        "will be trading"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q45",
+      "type": "multipleChoice",
+      "options": [
+        "Pessimism",
+        "Optimism and rising prices",
+        "Zero interest rates",
+        "High unemployment"
+      ],
+      "explanation": "A bull market is when the economy is great and stock prices are rising.",
+      "answerIndex": 1,
+      "prompt": "A 'Bull Market' is characterized by:"
+    },
+    {
+      "id": "finance-b2-w5-q46",
+      "type": "fillBlanks",
+      "explanation": "Future negative (fact).",
+      "prompt": "I ________ (not / be) at the office next Monday.",
+      "answers": [
+        "will not be"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q47",
+      "type": "multipleChoice",
+      "options": [
+        "Percentage",
+        "Dollar amount",
+        "Letter",
+        "Fraction"
+      ],
+      "explanation": "Yield is the income return on an investment, such as interest or dividends.",
+      "answerIndex": 0,
+      "prompt": "Yield is usually expressed as a:"
+    },
+    {
+      "id": "finance-b2-w5-q48",
+      "type": "fillBlanks",
+      "explanation": "Future fact/prediction.",
+      "prompt": "The dividends ________ (arrive) in your account tomorrow.",
+      "answers": [
+        "will arrive"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-q49",
+      "type": "multipleChoice",
+      "options": [
+        "Withdrawing all cash",
+        "Adjusting the weights of assets back to the original target allocation",
+        "Closing the account",
+        "Opening a second account"
+      ],
+      "explanation": "Rebalancing ensures the risk level remains consistent with the investor's goals.",
+      "answerIndex": 1,
+      "prompt": "What is 'Rebalancing' a portfolio?"
+    },
+    {
+      "id": "finance-b2-w5-q50",
+      "type": "fillBlanks",
+      "explanation": "Future Perfect.",
+      "prompt": "By next week, the team ________ (finalize) the asset management agreement.",
+      "answers": [
+        "will have finalized"
+      ]
+    },
+    {
+      "id": "finance-b2-w5-reading-authentic",
+      "type": "reading-comprehension",
+      "title": "The Rise of ESG: Beyond the 'Greenwashing' Debate",
+      "instructions": "Read the following article about ESG in institutional finance and answer the questions.",
+      "text": "Environmental, Social, and Governance (ESG) metrics have transitioned from a niche interest of ethical investors to a fundamental requirement for institutional asset management. Large funds, such as BlackRock and Vanguard, now incorporate ESG scores into their fiduciary duty framework, arguing that companies with poor governance or high environmental risks are inherently riskier long-term investments.\n\nHowever, this rapid growth has led to accusations of 'greenwashing'—a practice where companies or funds provide misleading information about how their products are more environmentally sound than they actually are. To combat this, regulators like the SEC in the US and the ESMA in Europe are introducing stricter disclosure requirements. Analysts are now moving beyond broad ESG scores and performing deep-dive 'Impact Analysis' to verify that a 'Green Bond' is actually funding a sustainable project, rather than just refinancing existing corporate debt. For the professional asset manager, the challenge lies in balancing these non-financial metrics with the traditional goal of maximizing alpha.",
+      "vocabularyHelp": [
+        { "word": "greenwashing", "meaning": "disseminating misleading information to present an environmentally responsible public image" },
+        { "word": "fiduciary duty", "meaning": "a legal obligation of one party to act in the best interest of another" },
+        { "word": "institutional investor", "meaning": "a large organization, such as a bank or pension fund, that makes substantial investments on the stock exchange" },
+        { "word": "disclosure", "meaning": "the action of making new or secret information known (reporting requirements)" },
+        { "word": "maximizing alpha", "meaning": "seeking to achieve the highest possible return above a market benchmark" }
+      ],
+      "questions": [
+        {
+          "id": "finance-b2-w5-reading-authentic-q1",
+          "type": "multiple-choice",
+          "question": "What is the main argument for institutional funds incorporating ESG?",
+          "options": [
+            "It is a legal requirement in every country.",
+            "ESG-compliant companies have higher environmental risks.",
+            "Companies with poor ESG metrics are seen as riskier long-term investments.",
+            "It allows them to charge higher management fees."
+          ],
+          "correctAnswer": "Companies with poor ESG metrics are seen as riskier long-term investments.",
+          "explanation": "The text states that funds argue that companies with poor governance or high environmental risks are inherently riskier."
+        },
+        {
+          "id": "finance-b2-w5-reading-authentic-q2",
+          "type": "multiple-choice",
+          "question": "What are regulators doing to prevent 'greenwashing'?",
+          "options": [
+            "Banning ESG investments completely.",
+            "Introducing stricter disclosure requirements.",
+            "Giving awards to companies with green logos.",
+            "Lowering taxes for institutional investors."
+          ],
+          "correctAnswer": "Introducing stricter disclosure requirements.",
+          "explanation": "The text mentions that regulators are introducing stricter disclosure requirements to combat greenwashing."
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w5-listening-authentic",
+      "type": "listening-comprehension",
+      "title": "Client Briefing: Tactical Asset Allocation",
+      "instructions": "Listen to a wealth manager explain recent changes to a client's portfolio.",
+      "audioUrl": "https://example.com/audio/finance/b2/w5/rebalancing.mp3",
+      "transcript": "Manager: Good morning. I've sent over the quarterly review. You'll notice we've been quite active with your 'Tactical Asset Allocation' this month.\n\nClient: I saw that. It looks like you've been trimming our exposure to US Mega-cap Tech.\n\nManager: Exactly. We've enjoyed a great run, but valuations are looking stretched. We've decided to 'trim' those positions—taking some profit—and we're 'tilting' the portfolio towards Value stocks and ESG-compliant Emerging Market funds. We believe these areas are currently undervalued.\n\nClient: And what about the fixed income side? Are we still overweight in government bonds?\n\nManager: We've actually moved to a 'neutral' weighting. With the recent inflation data, we expect yields to rise, which would hurt the price of long-term bonds. Instead, we've increased our allocation to 'Short-duration' Green Bonds. This protects us from interest rate risk while maintaining our ESG targets. By the end of the year, we will have transitioned about 25% of your total fixed-income allocation into these sustainable instruments.",
+      "questions": [
+        {
+          "id": "finance-b2-w5-listening-authentic-q1",
+          "type": "multiple-choice",
+          "question": "What does the manager mean by 'trimming' the exposure to US Tech?",
+          "options": [
+            "Buying more shares because they are cheap.",
+            "Selling a portion of the shares to take profit.",
+            "Closing the entire account.",
+            "Changing the name of the company."
+          ],
+          "correctAnswer": "Selling a portion of the shares to take profit.",
+          "explanation": "In finance, 'trimming' means reducing the size of a position that has grown too large or where you want to lock in gains."
+        },
+        {
+          "id": "finance-b2-w5-listening-authentic-q2",
+          "type": "multiple-choice",
+          "question": "Why has the manager moved to 'Short-duration' bonds?",
+          "options": [
+            "They pay higher interest than long-term bonds.",
+            "To protect against interest rate risk in a rising yield environment.",
+            "Because they are only available to ESG investors.",
+            "They are cheaper to buy."
+          ],
+          "correctAnswer": "To protect against interest rate risk in a rising yield environment.",
+          "explanation": "Short-duration bonds are less sensitive to interest rate changes than long-term bonds."
+        }
+      ]
+    }
+  ]
+}

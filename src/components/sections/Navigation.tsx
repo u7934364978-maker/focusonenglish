@@ -58,25 +58,25 @@ export function Navigation() {
                         </svg>
                       </Link>
                       
-                      {/* Submenú Sector Finanzas */}
+                      {/* Submenú Sector Administración */}
                       <div className="absolute left-full top-0 pl-2 w-64 hidden group-hover/sub:block">
                         <div className="bg-white rounded-2xl shadow-coral-lg border-2 border-[#FFE8D9] py-2 dark:bg-slate-900 dark:border-slate-800">
                           <div className="px-4 py-2 text-xs font-black text-[#FF6B6B] uppercase tracking-widest border-b border-[#FFE8D9] mb-1 dark:border-slate-800">
-                            Banca y Finanzas
+                            Administración
                           </div>
-                          <Link href="/cursos/trabajo/finanzas/a1/trimestre1/semana01" className="block px-4 py-2 text-sm text-gray-600 hover:text-[#FF6B6B] hover:bg-orange-50 font-medium dark:text-slate-300 dark:hover:bg-slate-800">
+                          <Link href="/cursos/trabajo/administracion/a1/trimestre1/semana01" className="block px-4 py-2 text-sm text-gray-600 hover:text-[#FF6B6B] hover:bg-orange-50 font-medium dark:text-slate-300 dark:hover:bg-slate-800">
                             Nivel A1 (Principiante)
                           </Link>
-                          <Link href="/cursos/trabajo/finanzas/a2/trimestre1/semana01" className="block px-4 py-2 text-sm text-gray-600 hover:text-[#FF6B6B] hover:bg-orange-50 font-medium dark:text-slate-300 dark:hover:bg-slate-800">
+                          <Link href="/cursos/trabajo/administracion/a2/trimestre1/semana01" className="block px-4 py-2 text-sm text-gray-600 hover:text-[#FF6B6B] hover:bg-orange-50 font-medium dark:text-slate-300 dark:hover:bg-slate-800">
                             Nivel A2 (Elemental)
                           </Link>
-                          <Link href="/cursos/trabajo/finanzas/b1/trimestre1/semana01" className="block px-4 py-2 text-sm text-gray-600 hover:text-[#FF6B6B] hover:bg-orange-50 font-medium dark:text-slate-300 dark:hover:bg-slate-800">
+                          <Link href="/cursos/trabajo/administracion/b1/trimestre1/semana01" className="block px-4 py-2 text-sm text-gray-600 hover:text-[#FF6B6B] hover:bg-orange-50 font-medium dark:text-slate-300 dark:hover:bg-slate-800">
                             Nivel B1 (Intermedio)
                           </Link>
-                          <Link href="/cursos/trabajo/finanzas/b2/trimestre1/semana01" className="block px-4 py-2 text-sm text-gray-600 hover:text-[#FF6B6B] hover:bg-orange-50 font-medium dark:text-slate-300 dark:hover:bg-slate-800">
+                          <Link href="/cursos/trabajo/administracion/b2/trimestre1/semana01" className="block px-4 py-2 text-sm text-gray-600 hover:text-[#FF6B6B] hover:bg-orange-50 font-medium dark:text-slate-300 dark:hover:bg-slate-800">
                             Nivel B2 (Intermedio-Alto)
                           </Link>
-                          <Link href="/cursos/trabajo/finanzas/c1/trimestre1/semana01" className="block px-4 py-2 text-sm text-gray-600 hover:text-[#FF6B6B] hover:bg-orange-50 font-medium dark:text-slate-300 dark:hover:bg-slate-800">
+                          <Link href="/cursos/trabajo/administracion/c1/trimestre1/semana01" className="block px-4 py-2 text-sm text-gray-600 hover:text-[#FF6B6B] hover:bg-orange-50 font-medium dark:text-slate-300 dark:hover:bg-slate-800">
                             Nivel C1 (Avanzado)
                           </Link>
                         </div>
@@ -174,12 +174,12 @@ export function Navigation() {
                     💼 Inglés para Trabajar (General)
                   </Link>
                   <div className="pl-6 space-y-1 border-l-2 border-orange-100 ml-4 dark:border-slate-800">
-                    <div className="text-[10px] font-black text-[#FF6B6B] uppercase tracking-tighter mb-1 opacity-70">Banca y Finanzas</div>
-                    <Link href="/cursos/trabajo/finanzas/a1/trimestre1/semana01" className="block text-xs text-slate-600 dark:text-slate-400 py-1" onClick={() => setMobileMenuOpen(false)}>• Nivel A1</Link>
-                    <Link href="/cursos/trabajo/finanzas/a2/trimestre1/semana01" className="block text-xs text-slate-600 dark:text-slate-400 py-1" onClick={() => setMobileMenuOpen(false)}>• Nivel A2</Link>
-                    <Link href="/cursos/trabajo/finanzas/b1/trimestre1/semana01" className="block text-xs text-slate-600 dark:text-slate-400 py-1" onClick={() => setMobileMenuOpen(false)}>• Nivel B1</Link>
-                    <Link href="/cursos/trabajo/finanzas/b2/trimestre1/semana01" className="block text-xs text-slate-600 dark:text-slate-400 py-1" onClick={() => setMobileMenuOpen(false)}>• Nivel B2</Link>
-                    <Link href="/cursos/trabajo/finanzas/c1/trimestre1/semana01" className="block text-xs text-slate-600 dark:text-slate-400 py-1" onClick={() => setMobileMenuOpen(false)}>• Nivel C1</Link>
+                    <div className="text-[10px] font-black text-[#FF6B6B] uppercase tracking-tighter mb-1 opacity-70">Administración</div>
+                    <Link href="/cursos/trabajo/administracion/a1/trimestre1/semana01" className="block text-xs text-slate-600 dark:text-slate-400 py-1" onClick={() => setMobileMenuOpen(false)}>• Nivel A1</Link>
+                    <Link href="/cursos/trabajo/administracion/a2/trimestre1/semana01" className="block text-xs text-slate-600 dark:text-slate-400 py-1" onClick={() => setMobileMenuOpen(false)}>• Nivel A2</Link>
+                    <Link href="/cursos/trabajo/administracion/b1/trimestre1/semana01" className="block text-xs text-slate-600 dark:text-slate-400 py-1" onClick={() => setMobileMenuOpen(false)}>• Nivel B1</Link>
+                    <Link href="/cursos/trabajo/administracion/b2/trimestre1/semana01" className="block text-xs text-slate-600 dark:text-slate-400 py-1" onClick={() => setMobileMenuOpen(false)}>• Nivel B2</Link>
+                    <Link href="/cursos/trabajo/administracion/c1/trimestre1/semana01" className="block text-xs text-slate-600 dark:text-slate-400 py-1" onClick={() => setMobileMenuOpen(false)}>• Nivel C1</Link>
                   </div>
                 </div>
                 <Link 

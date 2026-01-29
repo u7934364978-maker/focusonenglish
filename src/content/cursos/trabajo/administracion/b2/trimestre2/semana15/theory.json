@@ -1,0 +1,24 @@
+{
+  "title": "Administracion Internacionales y Riesgo de Divisa",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Gestión de Monedas y Riesgos",
+      "content": "Aprenderemos cómo las empresas gestionan el dinero en diferentes países.\n\n- **Exchange Rate Risk**: Riesgo de tipo de cambio\n- **Hedging**: Cobertura de riesgos\n- **Arbitrage**: Arbitraje (aprovechar diferencias de precio)\n- **Foreign Exchange (FX)**: Divisas / Mercado de divisas\n- **Spot Rate**: Tipo de cambio al contado\n- **Forward Rate**: Tipo de cambio a plazo"
+    },
+    {
+      "id": "grammar",
+      "title": "Gramática: Future Perfect for Investment Goal Tracking",
+      "content": "Usamos el futuro perfecto para hablar de acciones que habrán terminado en un punto específico del futuro.\n\nEstructura: **Subject + will have + Past Participle**\n\n- By December, we **will have reached** our saving goal. (Para diciembre, habremos alcanzado nuestro objetivo de ahorro)\n- In five years, the investment **will have doubled** in value. (En cinco años, la inversión habrá duplicado su valor)\n- **Will** you **have paid** the loan by next year? (¿Habrás pagado el préstamo para el año que viene?)"
+    }
+  ],
+  "objectives": [
+    "Identificar los riesgos de operar con múltiples divisas",
+    "Utilizar el futuro perfecto para proyectar resultados financieros",
+    "Comprender el concepto de 'hedging' como protección"
+  ],
+  "keyTerms": [
+    { "term": "Hedging", "definition": "Making an investment to reduce the risk of adverse price movements in an asset." },
+    { "term": "Exchange Rate", "definition": "The value of one currency for the purpose of conversion to another." }
+  ]
+}

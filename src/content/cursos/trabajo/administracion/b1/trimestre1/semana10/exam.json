@@ -1,0 +1,50 @@
+{
+  "goal": "administracion",
+  "level": "B1",
+  "trimester": 1,
+  "weekId": "semana10",
+  "title": "Week 10 Quiz: Customer Service",
+  "description": "Test your ability to handle customer complaints and use resolution vocabulary.",
+  "items": [
+    {
+      "id": "fin-b1-w10-e1",
+      "type": "multipleChoice",
+      "prompt": "Moving a complaint to a supervisor is called:",
+      "options": ["Resolution", "Escalation", "Encryption", "Transfer"],
+      "answerIndex": 1,
+      "explanation": "Escalation involves moving a case to a higher level."
+    },
+    {
+      "id": "fin-b1-w10-e2",
+      "type": "multipleChoice",
+      "prompt": "The 'L' in the LAST method stands for:",
+      "options": ["Listen", "Look", "Learn", "Loan"],
+      "answerIndex": 0,
+      "explanation": "Listening is the critical first step in resolution."
+    },
+    {
+      "id": "fin-b1-w10-e3",
+      "type": "multipleChoice",
+      "prompt": "What is 'goodwill'?",
+      "options": ["A type of tax", "The friendly disposition of a business toward its customers", "A bank manager's name", "A legal requirement"],
+      "answerIndex": 1,
+      "explanation": "Goodwill is the positive reputation and relationship a bank has with its clients."
+    },
+    {
+      "id": "fin-b1-w10-e4",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a synonym for 'solve' in a professional context?",
+      "options": ["Remedy", "Ignore", "Cancel", "Delete"],
+      "answerIndex": 0,
+      "explanation": "To remedy or rectify are professional synonyms for solve."
+    },
+    {
+      "id": "fin-b1-w10-e5",
+      "type": "multipleChoice",
+      "prompt": "A customer complains about an incorrect fee. You should first:",
+      "options": ["Tell them they are wrong", "Apologize and investigate the discrepancy", "Hang up", "Charge them more"],
+      "answerIndex": 1,
+      "explanation": "Apologizing and looking into the error is the correct professional response."
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana09",
+  "title": "Internal Audit, Compliance, and Financial Integrity",
+  "description": "Exercises on audit procedures, regulatory frameworks (SOX, AML), and complex passive structures (50 items).",
+  "items": [
+    {
+      "id": "finance-b2-w9-q1",
+      "type": "multipleChoice",
+      "options": [
+        "Vouching",
+        "Tracing",
+        "Verification",
+        "Reconciliation"
+      ],
+      "explanation": "Vouching is the process of selecting an entry in the ledger and working backwards to the source document to ensure the transaction occurred.",
+      "answerIndex": 0,
+      "prompt": "Which audit procedure involves verifying an accounting entry by examining the original source document?"
+    },
+    {
+      "id": "finance-b2-w9-q2",
+      "type": "fillBlanks",
+      "explanation": "Complex passive structure with 'rumored' reporting a past state.",
+      "prompt": "The previous CEO ________ (rumor / resign) before the financial discrepancies were officially reported.",
+      "answers": [
+        "is rumored to have resigned"
+      ]
+    },
+    {
+      "id": "finance-b2-w9-q3",
+      "type": "multipleChoice",
+      "options": [
+        "The physical weight of the files",
+        "The significance of an error or omission that could influence decision-makers",
+        "The cost of the external audit",
+        "The total value of company assets"
+      ],
+      "explanation": "Materiality is a threshold above which missing or incorrect information in financial statements is considered to have an impact on the decision-maker.",
+      "answerIndex": 1,
+      "prompt": "What does 'Materiality' mean in the context of an audit?"
+    },
+    {
+      "id": "finance-b2-w9-q4",
+      "type": "fillBlanks",
+      "explanation": "Complex passive structure: It is + passive + that.",
+      "prompt": "It ________ (generally / accept) that internal controls were bypassed by the regional manager.",
+      "answers": [
+        "is generally accepted"
+      ]
+    },
+    {
+      "id": "finance-b2-w9-q5",
+      "type": "multipleChoice",
+      "options": [
+        "Know Your Customer",
+        "Keep Your Capital",
+        "Key Yield Calculation",
+        "Knowledge Yardstick Criteria"
+      ],
+      "explanation": "KYC (Know Your Customer) is a standard in the investment industry that ensures advisors know detailed information about their clients' risk tolerance, investment knowledge, and financial position.",
+      "answerIndex": 0,
+      "prompt": "In the context of AML regulations, what does 'KYC' stand for?"
+    },
+    {
+      "id": "finance-b2-w9-q6",
+      "type": "fillBlanks",
+      "explanation": "The Subject + passive + to have + past participle structure.",
+      "prompt": "The data breach ________ (think / occur) because of a weak firewall in the subsidiary's server.",
+      "answers": [
+        "is thought to have occurred"
+      ]
+    },
+    {
+      "id": "finance-b2-w9-q7",
+      "type": "multipleChoice",
+      "options": [
+        "A bank error",
+        "The difference between budgeted and actual figures",
+        "A type of audit evidence",
+        "A regulatory fine"
+      ],
+      "explanation": "Variance is the difference between what was expected (budget) and what actually happened.",
+      "answerIndex": 1,
+      "prompt": "What is a 'Variance' in financial reporting?"
+    },
+    {
+      "id": "finance-b2-w9-q8",
+      "type": "fillBlanks",
+      "explanation": "Passive gerund after verbs like 'dislike' or 'avoid'.",
+      "prompt": "Most departments prefer to avoid ________ (audit) more than once a year.",
+      "answers": [
+        "being audited"
+      ]
+    },
+    {
+      "id": "finance-b2-w9-q9",
+      "type": "multipleChoice",
+      "options": [
+        "A US law increasing requirements for financial transparency",
+        "A European data protection regulation",
+        "An international treaty on corporate tax",
+        "A software for audit management"
+      ],
+      "explanation": "The Sarbanes-Oxley Act (SOX) of 2002 is a US federal law that mandated strict reforms to existing securities regulations and imposed harsh penalties on lawbreakers.",
+      "answerIndex": 0,
+      "prompt": "What is the primary purpose of the 'SOX' Act?"
+    },
+    {
+      "id": "finance-b2-w9-q10",
+      "type": "fillBlanks",
+      "explanation": "Reconciliation is the process of matching two sets of records.",
+      "prompt": "The accountant spent the whole afternoon ________ (match) the internal records with the bank statement.",
+      "answers": [
+        "reconciling"
+      ]
+    },
+    {
+      "id": "finance-b2-w9-reading-1",
+      "type": "reading-comprehension",
+      "title": "The Whistleblower's Dilemma: Fraud and Integrity",
+      "text": "In the world of corporate finance, the **internal audit** team is often viewed as the final line of defense against fraud. However, what happens when the fraud is orchestrated by those at the top? This is the whistleblower's dilemma. Whistleblowers are individuals who expose secretive information or activity within an organization that is deemed illegal or unethical. \n\nRecent history is replete with examples where massive financial discrepancies **were found to have been hidden** for years through complex accounting tricks. These cases often involve a lack of **fiduciary duty**, where executives prioritize personal gain over the interests of shareholders. In many jurisdictions, laws like SOX provide protection for whistleblowers, yet the fear of **retaliation** remains a significant deterrent. It **is widely believed** that for every reported case of fraud, several others go undetected due to a corporate culture of silence. Furthermore, the **materiality** of certain small but recurring errors can be overlooked by auditors, which, when aggregated over time, can lead to systemic collapse.",
+      "vocabularyHelp": [
+        {
+          "word": "internal audit",
+          "definition": "An independent, objective assurance and consulting activity designed to add value and improve an organization's operations."
+        },
+        {
+          "word": "fiduciary duty",
+          "definition": "A legal obligation of one party to act in the best interest of another (e.g., a CEO's duty to shareholders)."
+        },
+        {
+          "word": "retaliation",
+          "definition": "Harmful action taken by an employer against an employee for exercising a legal right, such as whistleblowing."
+        },
+        {
+          "word": "materiality",
+          "definition": "The threshold at which an error or omission in financial statements becomes significant enough to mislead a user."
+        }
+      ],
+      "questions": [
+        {
+          "question": "According to the text, why do many cases of fraud go undetected?",
+          "options": [
+            "Lack of technology",
+            "A corporate culture of silence",
+            "Too many whistleblowers",
+            "High fiduciary duty"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text states: 'It is widely believed that... several others go undetected due to a corporate culture of silence.'"
+        },
+        {
+          "question": "What is the role of SOX in the context of whistleblowing?",
+          "options": [
+            "It encourages executives to hide fraud",
+            "It provides legal protection for those who expose illegal activity",
+            "It makes auditing illegal",
+            "It eliminates the need for fiduciary duty"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text mentions that 'laws like SOX provide protection for whistleblowers'."
+        },
+        {
+          "question": "Analyze the grammar: 'discrepancies were found to have been hidden'. What does this structure emphasize?",
+          "options": [
+            "A future action",
+            "A present continuous state",
+            "A past action reported impersonally",
+            "A direct order"
+          ],
+          "answerIndex": 2,
+          "explanation": "The structure 'Subject + passive + to have been + past participle' is used to report a past completed action or state impersonally."
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w9-listening-1",
+      "type": "listening-comprehension",
+      "title": "A Risk-Based Approach to Auditing",
+      "transcript": "Senior Auditor: Okay, team, as we start the Q4 audit, I want us to focus on a **Risk-Based** approach. We don't have the resources to vouch every single transaction.\n\nJunior: So, how do we decide what to prioritize?\n\nSenior Auditor: We look at **high-risk areas**. For instance, the **revenue recognition** process is always a focus. It **is alleged** that some sales were recorded before the goods actually left the warehouse. \n\nJunior: That would be a material misstatement, right?\n\nSenior Auditor: Exactly. We also need to check the **segregation of duties**. If the same person who authorizes a payment also records it in the system, the **controls** are effectively useless. We'll be performimg a series of **substantive tests** on large invoices. If the paper trail **is found to have been tampered** with, we'll need to expand our scope significantly. Remember, our goal is to provide a 'true and fair view'.",
+      "vocabularyHelp": [
+        {
+          "word": "Risk-Based",
+          "definition": "An auditing approach that focuses resources on the areas of highest risk within an organization."
+        },
+        {
+          "word": "revenue recognition",
+          "definition": "A standard accounting principle that identifies the specific conditions under which revenue is recognized or accounted for."
+        },
+        {
+          "word": "segregation of duties",
+          "definition": "An internal control designed to prevent error and fraud by ensuring that at least two individuals are responsible for the separate parts of any task."
+        },
+        {
+          "word": "substantive tests",
+          "definition": "Audit procedures designed to detect material misstatements at the assertion level."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Why is the team using a 'Risk-Based' approach?",
+          "options": [
+            "Because they have too many auditors",
+            "Because they don't have the resources to check every transaction",
+            "Because the law requires it for all audits",
+            "To avoid checking revenue recognition"
+          ],
+          "answerIndex": 1,
+          "explanation": "The Senior Auditor mentions: 'We don't have the resources to vouch every single transaction'."
+        },
+        {
+          "question": "What is the concern regarding 'revenue recognition'?",
+          "options": [
+            "Sales are too low",
+            "Sales might have been recorded before delivery",
+            "The warehouse is empty",
+            "The company is giving too many discounts"
+          ],
+          "answerIndex": 1,
+          "explanation": "The Senior Auditor says: 'It is alleged that some sales were recorded before the goods actually left the warehouse'."
+        },
+        {
+          "question": "What does 'segregation of duties' aim to prevent?",
+          "options": [
+            "Employees working overtime",
+            "Error and fraud by ensuring tasks are split between different people",
+            "Higher taxes",
+            "Internal audits"
+          ],
+          "answerIndex": 1,
+          "explanation": "Segregation of duties ensures that one person doesn't control all parts of a transaction, reducing fraud risk."
+        }
+      ]
+    }
+  ]
+}

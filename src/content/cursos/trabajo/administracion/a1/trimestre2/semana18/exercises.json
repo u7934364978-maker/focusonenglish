@@ -1,0 +1,131 @@
+{
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 2,
+  "weekId": "semana18",
+  "title": "Digital Support & Transaction Status",
+  "items": [
+    {
+      "id": "fin-a1-w18-1",
+      "type": "multipleChoice",
+      "prompt": "An AI that answers your questions in an app is a ______.",
+      "options": ["Banker", "Chatbot", "ATM"],
+      "answerIndex": 1,
+      "explanation": "Un Chatbot es un programa de IA que responde preguntas."
+    },
+    {
+      "id": "fin-a1-w18-2",
+      "type": "multipleChoice",
+      "prompt": "If a payment is 'Pending', it means it is ______.",
+      "options": ["Finished", "Waiting", "Deleted"],
+      "answerIndex": 1,
+      "explanation": "Pending significa que está en espera, no ha terminado."
+    },
+    {
+      "id": "fin-a1-w18-3",
+      "type": "fillBlanks",
+      "prompt": "I need help. I want to talk to [blank] chat.",
+      "answers": ["live"],
+      "explanation": "'Live chat' es el chat en vivo con una persona real."
+    },
+    {
+      "id": "fin-a1-w18-4",
+      "type": "multipleChoice",
+      "prompt": "A transaction that finished correctly is ______.",
+      "options": ["Failed", "Declined", "Completed"],
+      "answerIndex": 2,
+      "explanation": "'Completed' significa que la transacción terminó con éxito."
+    },
+    {
+      "id": "fin-a1-w18-5",
+      "type": "matching",
+      "prompt": "Match the status with its meaning:",
+      "pairs": [
+        { "left": "Pending", "right": "In progress / Waiting" },
+        { "left": "Completed", "right": "Success / Finished" },
+        { "left": "Failed", "right": "Error / Not accepted" },
+        { "left": "Refunded", "right": "Money sent back" }
+      ],
+      "explanation": "Relaciona los estados de transacción con sus significados."
+    },
+    {
+      "id": "fin-a1-w18-6",
+      "type": "fillBlanks",
+      "prompt": "My payment [blank]. I need to call support.",
+      "answers": ["failed", "declined"],
+      "explanation": "Si el pago falla (failed/declined), necesitas ayuda."
+    },
+    {
+      "id": "fin-a1-w18-7",
+      "type": "reorder",
+      "prompt": "Reorder the support request:",
+      "sentence": "I want to talk to an agent",
+      "explanation": "Quiero hablar con un agente."
+    },
+    {
+      "id": "fin-a1-w18-8",
+      "type": "multipleChoice",
+      "prompt": "Where can I find common questions and answers?",
+      "options": ["In the bin", "In the Help Center", "In the camera"],
+      "answerIndex": 1,
+      "explanation": "El 'Help Center' contiene las preguntas frecuentes."
+    },
+    {
+      "id": "fin-a1-w18-9",
+      "type": "writing",
+      "prompt": "Write a message to the chatbot asking for help.",
+      "validation": "I need help",
+      "explanation": "Una forma sencilla es 'I need help'."
+    },
+    {
+      "id": "fin-a1-w18-10",
+      "type": "roleplay",
+      "prompt": "The chatbot asks: 'How can I help you today?'. Choose the best response for a blocked card.",
+      "scenario": "Chatbot: Hello! I am your virtual assistant. How can I help you?\nUser: ______",
+      "options": [
+        "My card is blocked.",
+        "The weather is nice.",
+        "I like the app."
+      ],
+      "answerIndex": 0,
+      "explanation": "Si tu tarjeta está bloqueada, debes informarlo: 'My card is blocked'."
+    },
+    {
+      "id": "fin-a1-w18-11",
+      "type": "multipleChoice",
+      "prompt": "If the bank sends the money back, the transaction is ______.",
+      "options": ["Refunded", "Pending", "Cost"],
+      "answerIndex": 0,
+      "explanation": "'Refunded' significa que el dinero ha sido devuelto."
+    },
+    {
+      "id": "fin-a1-w18-12",
+      "type": "fillBlanks",
+      "prompt": "Open a [blank] to report the problem.",
+      "answers": ["ticket", "case"],
+      "explanation": "En soporte técnico, se abre un 'ticket' o 'case'."
+    },
+    {
+      "id": "fin-a1-w18-13",
+      "type": "reorder",
+      "prompt": "Reorder the question to the bot:",
+      "sentence": "Where is my refund?",
+      "explanation": "¿Dónde está mi reembolso?"
+    },
+    {
+      "id": "fin-a1-w18-14",
+      "type": "multipleChoice",
+      "prompt": "A virtual assistant is usually ______.",
+      "options": ["A person", "A bot", "A building"],
+      "answerIndex": 1,
+      "explanation": "Un asistente virtual suele ser un 'bot'."
+    },
+    {
+      "id": "fin-a1-w18-15",
+      "type": "fillBlanks",
+      "prompt": "The transaction is [blank]. Please wait.",
+      "answers": ["pending"],
+      "explanation": "Si está pendiente (pending), hay que esperar."
+    }
+  ]
+}

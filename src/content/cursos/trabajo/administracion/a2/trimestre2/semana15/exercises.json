@@ -1,0 +1,409 @@
+{
+  "goal": "administracion",
+  "level": "A2",
+  "trimester": 2,
+  "weekId": "semana15",
+  "title": "Ejercicios: Seguros y Coberturas",
+  "items": [
+    {
+      "id": "fin-a2-w15-1",
+      "type": "multipleChoice",
+      "prompt": "If you buy this ___, your home is protected.",
+      "options": ["premium", "policy", "claim", "debt"],
+      "answerIndex": 1,
+      "explanation": "A policy is the insurance contract."
+    },
+    {
+      "id": "fin-a2-w15-2",
+      "type": "multipleChoice",
+      "prompt": "If I ___ the premium, I will have coverage.",
+      "options": ["will pay", "pay", "paying", "paid"],
+      "answerIndex": 1,
+      "explanation": "First conditional: If + present simple."
+    },
+    {
+      "id": "fin-a2-w15-3",
+      "type": "multipleChoice",
+      "prompt": "The insurance company will pay if you make a ___.",
+      "options": ["premium", "claim", "budget", "loan"],
+      "answerIndex": 1,
+      "explanation": "A claim is a request for payment after an accident."
+    },
+    {
+      "id": "fin-a2-w15-4",
+      "type": "multipleChoice",
+      "prompt": "If she loses her job, the insurance ___ help her.",
+      "options": ["will", "is", "goes", "does"],
+      "answerIndex": 0,
+      "explanation": "First conditional: ... , will + verb."
+    },
+    {
+      "id": "fin-a2-w15-5",
+      "type": "multipleChoice",
+      "prompt": "What is 'coverage'?",
+      "options": ["The price of a car", "The amount of protection in a policy", "A bank loan", "A type of tax"],
+      "answerIndex": 1,
+      "explanation": "Coverage is what the insurance protects."
+    },
+    {
+      "id": "fin-a2-w15-6",
+      "type": "multipleChoice",
+      "prompt": "The monthly ___ is 50 euros.",
+      "options": ["premium", "policy", "claim", "insurance"],
+      "answerIndex": 0,
+      "explanation": "Premium is the regular payment for insurance."
+    },
+    {
+      "id": "fin-a2-w15-7",
+      "type": "multipleChoice",
+      "prompt": "If we ___ travel insurance, we will be safe on our trip.",
+      "options": ["buy", "will buy", "buying", "buys"],
+      "answerIndex": 0,
+      "explanation": "If + present simple."
+    },
+    {
+      "id": "fin-a2-w15-8",
+      "type": "multipleChoice",
+      "prompt": "What happens if I ___ my phone?",
+      "options": ["lose", "will lose", "losing", "lost"],
+      "answerIndex": 0,
+      "explanation": "If + present simple in the if-clause."
+    },
+    {
+      "id": "fin-a2-w15-9",
+      "type": "multipleChoice",
+      "prompt": "The company ___ pay your claim if you don't have a receipt.",
+      "options": ["won't", "will", "isn't", "not"],
+      "answerIndex": 0,
+      "explanation": "Negative consequence in the first conditional."
+    },
+    {
+      "id": "fin-a2-w15-10",
+      "type": "multipleChoice",
+      "prompt": "___ insurance is important for your family if you die.",
+      "options": ["Life", "Home", "Car", "Travel"],
+      "answerIndex": 0,
+      "explanation": "Life insurance protects your family."
+    },
+    {
+      "id": "fin-a2-w15-11",
+      "type": "multipleChoice",
+      "prompt": "If you have a car accident, you should call your ___ agent.",
+      "options": ["insurance", "bank", "loan", "travel"],
+      "answerIndex": 0,
+      "explanation": "You call the insurance agent."
+    },
+    {
+      "id": "fin-a2-w15-12",
+      "type": "multipleChoice",
+      "prompt": "Your ___ will increase if you have many accidents.",
+      "options": ["premium", "coverage", "policy", "claim"],
+      "answerIndex": 0,
+      "explanation": "The price (premium) usually goes up after accidents."
+    },
+    {
+      "id": "fin-a2-w15-13",
+      "type": "multipleChoice",
+      "prompt": "If they ___ the contract, they will have full coverage.",
+      "options": ["sign", "will sign", "signing", "signs"],
+      "answerIndex": 0,
+      "explanation": "If + present simple."
+    },
+    {
+      "id": "fin-a2-w15-14",
+      "type": "multipleChoice",
+      "prompt": "Will the insurance ___ the theft?",
+      "options": ["cover", "covering", "covered", "covers"],
+      "answerIndex": 0,
+      "explanation": "Verb 'cover' after 'will'."
+    },
+    {
+      "id": "fin-a2-w15-15",
+      "type": "multipleChoice",
+      "prompt": "If it ___ tomorrow, my home insurance will cover the damage.",
+      "options": ["floods", "will flood", "flooding", "flood"],
+      "answerIndex": 0,
+      "explanation": "If + present simple (3rd person singular)."
+    },
+    {
+      "id": "fin-a2-w15-16",
+      "type": "multipleChoice",
+      "prompt": "What is a 'policy'?",
+      "options": ["A type of money", "A written contract", "A bank manager", "A credit card"],
+      "answerIndex": 1,
+      "explanation": "A policy is the official document."
+    },
+    {
+      "id": "fin-a2-w15-17",
+      "type": "multipleChoice",
+      "prompt": "If I ___ sick, I will go to the hospital.",
+      "options": ["am", "will be", "being", "was"],
+      "answerIndex": 0,
+      "explanation": "If + present simple (verb to be)."
+    },
+    {
+      "id": "fin-a2-w15-18",
+      "type": "multipleChoice",
+      "prompt": "They ___ buy car insurance if they get a new car.",
+      "options": ["will", "are", "do", "going"],
+      "answerIndex": 0,
+      "explanation": "Future consequence."
+    },
+    {
+      "id": "fin-a2-w15-19",
+      "type": "multipleChoice",
+      "prompt": "Is your ___ high or low?",
+      "options": ["premium", "policy", "claim", "insurance"],
+      "answerIndex": 0,
+      "explanation": "Asking about the price of the insurance."
+    },
+    {
+      "id": "fin-a2-w15-20",
+      "type": "multipleChoice",
+      "prompt": "If you ___ any questions, the agent will answer them.",
+      "options": ["have", "will have", "having", "has"],
+      "answerIndex": 0,
+      "explanation": "If + present simple."
+    },
+    {
+      "id": "fin-a2-w15-21",
+      "type": "multipleChoice",
+      "prompt": "What ___ happen if I don't pay?",
+      "options": ["will", "is", "does", "are"],
+      "answerIndex": 0,
+      "explanation": "Question about the future consequence."
+    },
+    {
+      "id": "fin-a2-w15-22",
+      "type": "multipleChoice",
+      "prompt": "The ___ does not cover natural disasters.",
+      "options": ["policy", "claim", "premium", "insurance"],
+      "answerIndex": 0,
+      "explanation": "The policy (contract) defines what is covered."
+    },
+    {
+      "id": "fin-a2-w15-23",
+      "type": "multipleChoice",
+      "prompt": "If the car is stolen, we ___ make a claim.",
+      "options": ["will", "is", "do", "going"],
+      "answerIndex": 0,
+      "explanation": "Future action."
+    },
+    {
+      "id": "fin-a2-w15-24",
+      "type": "multipleChoice",
+      "prompt": "How much ___ is included in this plan?",
+      "options": ["coverage", "premium", "policy", "claim"],
+      "answerIndex": 0,
+      "explanation": "Coverage is the amount of protection."
+    },
+    {
+      "id": "fin-a2-w15-25",
+      "type": "multipleChoice",
+      "prompt": "If you ___ older, your life insurance will be more expensive.",
+      "options": ["get", "will get", "getting", "gets"],
+      "answerIndex": 0,
+      "explanation": "If + present simple."
+    },
+    {
+      "id": "fin-a2-w15-26",
+      "type": "multipleChoice",
+      "prompt": "We ___ sign the policy today.",
+      "options": ["will", "are", "do", "is"],
+      "answerIndex": 0,
+      "explanation": "Future decision."
+    },
+    {
+      "id": "fin-a2-w15-27",
+      "type": "multipleChoice",
+      "prompt": "My ___ was rejected by the company.",
+      "options": ["claim", "premium", "policy", "coverage"],
+      "answerIndex": 0,
+      "explanation": "A claim can be rejected."
+    },
+    {
+      "id": "fin-a2-w15-28",
+      "type": "multipleChoice",
+      "prompt": "If you ___ the terms, you will be happy.",
+      "options": ["understand", "will understand", "understanding", "understands"],
+      "answerIndex": 0,
+      "explanation": "If + present simple."
+    },
+    {
+      "id": "fin-a2-w15-29",
+      "type": "multipleChoice",
+      "prompt": "The agent ___ call you back later.",
+      "options": ["will", "is", "does", "are"],
+      "answerIndex": 0,
+      "explanation": "Future promise/action."
+    },
+    {
+      "id": "fin-a2-w15-30",
+      "type": "multipleChoice",
+      "prompt": "Do you have ___ insurance?",
+      "options": ["health", "premium", "claim", "policy"],
+      "answerIndex": 0,
+      "explanation": "Health insurance is a common type."
+    },
+    {
+      "id": "fin-a2-w15-31",
+      "type": "multipleChoice",
+      "prompt": "If you ___ careful, you will not have an accident.",
+      "options": ["are", "will be", "being", "is"],
+      "answerIndex": 0,
+      "explanation": "If + present simple."
+    },
+    {
+      "id": "fin-a2-w15-32",
+      "type": "multipleChoice",
+      "prompt": "The insurance will pay if the damage ___ serious.",
+      "options": ["is", "will be", "being", "are"],
+      "answerIndex": 0,
+      "explanation": "If-clause in present simple."
+    },
+    {
+      "id": "fin-a2-w15-33",
+      "type": "multipleChoice",
+      "prompt": "I ___ pay my premium next week.",
+      "options": ["will", "am", "do", "is"],
+      "answerIndex": 0,
+      "explanation": "Future plan."
+    },
+    {
+      "id": "fin-a2-w15-34",
+      "type": "multipleChoice",
+      "prompt": "What ___ I do if there is a fire?",
+      "options": ["will", "does", "are", "am"],
+      "answerIndex": 0,
+      "explanation": "Asking about future action."
+    },
+    {
+      "id": "fin-a2-w15-35",
+      "type": "multipleChoice",
+      "prompt": "Home insurance ___ you if your house is damaged.",
+      "options": ["protects", "protect", "protecting", "protected"],
+      "answerIndex": 0,
+      "explanation": "Present simple for general facts."
+    },
+    {
+      "id": "fin-a2-w15-36",
+      "type": "multipleChoice",
+      "prompt": "If you ___ to the USA, you will need health insurance.",
+      "options": ["travel", "will travel", "traveling", "travels"],
+      "answerIndex": 0,
+      "explanation": "If + present simple."
+    },
+    {
+      "id": "fin-a2-w15-37",
+      "type": "multipleChoice",
+      "prompt": "Who ___ pay for the repairs?",
+      "options": ["will", "is", "does", "are"],
+      "answerIndex": 0,
+      "explanation": "Future question."
+    },
+    {
+      "id": "fin-a2-w15-38",
+      "type": "multipleChoice",
+      "prompt": "I need to renew my ___.",
+      "options": ["policy", "claim", "premium", "coverage"],
+      "answerIndex": 0,
+      "explanation": "Renewing a contract."
+    },
+    {
+      "id": "fin-a2-w15-39",
+      "type": "multipleChoice",
+      "prompt": "If she ___ the rules, she will be fine.",
+      "options": ["follows", "will follow", "following", "follow"],
+      "answerIndex": 0,
+      "explanation": "If + present simple (3rd person singular)."
+    },
+    {
+      "id": "fin-a2-w15-40",
+      "type": "multipleChoice",
+      "prompt": "The company ___ notify you by mail.",
+      "options": ["will", "is", "does", "are"],
+      "answerIndex": 0,
+      "explanation": "Future action."
+    },
+    {
+      "id": "fin-a2-w15-41",
+      "type": "multipleChoice",
+      "prompt": "Is this ___ enough for my needs?",
+      "options": ["coverage", "premium", "policy", "claim"],
+      "answerIndex": 0,
+      "explanation": "Asking about the amount of protection."
+    },
+    {
+      "id": "fin-a2-w15-42",
+      "type": "multipleChoice",
+      "prompt": "If you ___ your premium, you will lose your coverage.",
+      "options": ["don't pay", "won't pay", "not pay", "doesn't pay"],
+      "answerIndex": 0,
+      "explanation": "Negative if-clause in present simple."
+    },
+    {
+      "id": "fin-a2-w15-43",
+      "type": "multipleChoice",
+      "prompt": "The insurance ___ not pay for intentional damage.",
+      "options": ["will", "is", "does", "are"],
+      "answerIndex": 0,
+      "explanation": "Future/Rule."
+    },
+    {
+      "id": "fin-a2-w15-44",
+      "type": "multipleChoice",
+      "prompt": "Can I make a ___ online?",
+      "options": ["claim", "premium", "policy", "coverage"],
+      "answerIndex": 0,
+      "explanation": "Asking about the process."
+    },
+    {
+      "id": "fin-a2-w15-45",
+      "type": "multipleChoice",
+      "prompt": "If they ___ a discount, I will buy it.",
+      "options": ["offer", "will offer", "offering", "offers"],
+      "answerIndex": 0,
+      "explanation": "If + present simple."
+    },
+    {
+      "id": "fin-a2-w15-46",
+      "type": "multipleChoice",
+      "prompt": "The contract ___ expire next month.",
+      "options": ["will", "is", "does", "are"],
+      "answerIndex": 0,
+      "explanation": "Future event."
+    },
+    {
+      "id": "fin-a2-w15-47",
+      "type": "multipleChoice",
+      "prompt": "What's the ___ for this car insurance?",
+      "options": ["premium", "claim", "policy", "coverage"],
+      "answerIndex": 0,
+      "explanation": "Asking about the price."
+    },
+    {
+      "id": "fin-a2-w15-48",
+      "type": "multipleChoice",
+      "prompt": "If you ___ the police, the insurance will ask for the report.",
+      "options": ["call", "will call", "calling", "calls"],
+      "answerIndex": 0,
+      "explanation": "If + present simple."
+    },
+    {
+      "id": "fin-a2-w15-49",
+      "type": "multipleChoice",
+      "prompt": "They ___ send the money in two weeks.",
+      "options": ["will", "are", "do", "is"],
+      "answerIndex": 0,
+      "explanation": "Future promise."
+    },
+    {
+      "id": "fin-a2-w15-50",
+      "type": "multipleChoice",
+      "prompt": "Is the ___ comprehensive?",
+      "options": ["coverage", "premium", "policy", "claim"],
+      "answerIndex": 0,
+      "explanation": "Comprehensive is a type of coverage."
+    }
+  ]
+}

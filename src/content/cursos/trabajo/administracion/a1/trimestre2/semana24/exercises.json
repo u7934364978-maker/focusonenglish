@@ -1,0 +1,131 @@
+{
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 2,
+  "weekId": "semana24",
+  "title": "Trimester 2 Final Capstone Review",
+  "items": [
+    {
+      "id": "fin-a1-w24-1",
+      "type": "multipleChoice",
+      "prompt": "An app that is easy to use is ______.",
+      "options": ["Encrypted", "User-friendly", "Traditional"],
+      "answerIndex": 1,
+      "explanation": "User-friendly significa fácil de usar."
+    },
+    {
+      "id": "fin-a1-w24-2",
+      "type": "multipleChoice",
+      "prompt": "Where do you see your spending categories in a chart?",
+      "options": ["On a plastic card", "In the banking app", "In the trash"],
+      "answerIndex": 1,
+      "explanation": "Los gráficos de gastos están en la app bancaria."
+    },
+    {
+      "id": "fin-a1-w24-3",
+      "type": "fillBlanks",
+      "prompt": "I need to enter my [blank] code for 2FA.",
+      "answers": ["verification", "security"],
+      "explanation": "Necesitas el código de verificación para la autenticación de dos factores."
+    },
+    {
+      "id": "fin-a1-w24-4",
+      "type": "multipleChoice",
+      "prompt": "A transfer that arrives in seconds is ______.",
+      "options": ["Standard", "Instant", "Pending"],
+      "answerIndex": 1,
+      "explanation": "Una transferencia instantánea llega en segundos."
+    },
+    {
+      "id": "fin-a1-w24-5",
+      "type": "matching",
+      "prompt": "Match the modern banking tools with their functions:",
+      "pairs": [
+        { "left": "Chatbot", "right": "Virtual support" },
+        { "left": "Virtual Card", "right": "Secure online shopping" },
+        { "left": "Auto-Pay", "right": "Automatic bill payment" },
+        { "left": "Biometrics", "right": "Fingerprint/Face login" }
+      ],
+      "explanation": "Relaciona las herramientas modernas con sus funciones."
+    },
+    {
+      "id": "fin-a1-w24-6",
+      "type": "fillBlanks",
+      "prompt": "Click the [blank] at the bottom of the screen.",
+      "answers": ["button"],
+      "explanation": "Instrucción de navegación: Haz clic en el botón."
+    },
+    {
+      "id": "fin-a1-w24-7",
+      "type": "reorder",
+      "prompt": "Reorder the security advice:",
+      "sentence": "Use a strong password for security",
+      "explanation": "Usa una contraseña fuerte por seguridad."
+    },
+    {
+      "id": "fin-a1-w24-8",
+      "type": "multipleChoice",
+      "prompt": "If you work from home, you can have a ______.",
+      "options": ["Remote office", "Physical branch", "Paper statement"],
+      "answerIndex": 0,
+      "explanation": "Si trabajas desde casa, tienes una 'remote office'."
+    },
+    {
+      "id": "fin-a1-w24-9",
+      "type": "writing",
+      "prompt": "Write the opposite of 'Traditional banking'.",
+      "validation": "Digital banking",
+      "explanation": "Lo opuesto a la banca tradicional es la banca digital (digital banking/fintech)."
+    },
+    {
+      "id": "fin-a1-w24-10",
+      "type": "roleplay",
+      "prompt": "The app says 'Suspicious Activity'. What do you say to support?",
+      "scenario": "Support: Hello, how can I help you?\nUser: ______",
+      "options": [
+        "Is my account secure?",
+        "I like the blue color.",
+        "Where is the nearest ATM?"
+      ],
+      "answerIndex": 0,
+      "explanation": "Si hay actividad sospechosa, preguntas por la seguridad: 'Is my account secure?'."
+    },
+    {
+      "id": "fin-a1-w24-11",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Monthly Fee'?",
+      "options": ["A one-time gift", "A regular subscription payment", "A bank manager's name"],
+      "answerIndex": 1,
+      "explanation": "Una cuota mensual es un pago regular de suscripción."
+    },
+    {
+      "id": "fin-a1-w24-12",
+      "type": "fillBlanks",
+      "prompt": "I want to [blank] my transaction history.",
+      "answers": ["see", "view", "check", "download"],
+      "explanation": "Quieres ver o descargar tu historial de transacciones."
+    },
+    {
+      "id": "fin-a1-w24-13",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "Is the connection encrypted and secure",
+      "explanation": "¿Es la conexión cifrada y segura?"
+    },
+    {
+      "id": "fin-a1-w24-14",
+      "type": "multipleChoice",
+      "prompt": "Which category is for 'Netflix'?",
+      "options": ["Entertainment", "Bills", "Food"],
+      "answerIndex": 0,
+      "explanation": "Netflix es ocio (entertainment)."
+    },
+    {
+      "id": "fin-a1-w24-15",
+      "type": "fillBlanks",
+      "prompt": "Could I have a [blank], please?",
+      "answers": ["refund", "reimbursement", "receipt", "card"],
+      "explanation": "Petición educada para un reembolso o documento."
+    }
+  ]
+}

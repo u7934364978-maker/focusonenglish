@@ -1,0 +1,50 @@
+{
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 3,
+  "weekId": "semana26",
+  "examId": "fin-a1-w26-exam",
+  "title": "Examen: Cajero Automático y Banca Online",
+  "items": [
+    {
+      "id": "fin-a1-w26-exam-1",
+      "type": "multipleChoice",
+      "prompt": "What does ATM stand for?",
+      "options": ["Automatic Transfer Money", "Automated Teller Machine", "All Time Money", "Account Transfer Method"],
+      "answerIndex": 1,
+      "explanation": "ATM stands for Automated Teller Machine."
+    },
+    {
+      "id": "fin-a1-w26-exam-2",
+      "type": "multipleChoice",
+      "prompt": "Where is the receipt? 'It is ________ the machine.'",
+      "options": ["under", "between", "inside", "among"],
+      "answerIndex": 2,
+      "explanation": "The receipt usually comes out from 'inside' the machine."
+    },
+    {
+      "id": "fin-a1-w26-exam-3",
+      "type": "multipleChoice",
+      "prompt": "To use online banking, you need a ________.",
+      "options": ["Atm", "Cash", "Password", "Coin"],
+      "answerIndex": 2,
+      "explanation": "Passwords are required for security in online banking."
+    },
+    {
+      "id": "fin-a1-w26-exam-4",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'The bank is ________ the supermarket and the pharmacy.'",
+      "options": ["on", "between", "at", "to"],
+      "answerIndex": 1,
+      "explanation": "Use 'between' for something in the middle of two things."
+    },
+    {
+      "id": "fin-a1-w26-exam-5",
+      "type": "multipleChoice",
+      "prompt": "What do you do with a 'Transfer'?",
+      "options": ["Send money from one account to another", "Buy a new wallet", "Print a document", "Eat in a restaurant"],
+      "answerIndex": 0,
+      "explanation": "A transfer is moving money between accounts."
+    }
+  ]
+}

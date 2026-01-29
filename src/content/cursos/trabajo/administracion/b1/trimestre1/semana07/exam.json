@@ -1,0 +1,123 @@
+{
+  "goal": "administracion",
+  "level": "B1",
+  "trimester": 1,
+  "weekId": "semana07",
+  "title": "Exam: Loans and Credit",
+  "description": "Final assessment for week 7, covering loan types, credit terminology, and adverbs of manner (15 items).",
+  "items": [
+    {
+      "id": "finance-b1-w7-e1",
+      "type": "multiple-choice",
+      "question": "What is the term for the maximum amount you can borrow on a credit card?",
+      "options": ["Credit Score", "Credit Limit", "Collateral", "Principal"],
+      "answer": "Credit Limit",
+      "explanation": "The credit limit is the cap on how much you can spend using that specific credit line."
+    },
+    {
+      "id": "finance-b1-w7-e2",
+      "type": "fill-in-the-blank",
+      "question": "The entity that lends the money is called the ________.",
+      "answer": "creditor",
+      "explanation": "A creditor is the person or institution that provides the loan."
+    },
+    {
+      "id": "finance-b1-w7-e3",
+      "type": "multiple-choice",
+      "question": "Which of these is the correct adverb form of 'good'?",
+      "options": ["Goodly", "Well", "Good", "Better"],
+      "answer": "Well",
+      "explanation": "'Well' is the irregular adverb form of 'good'."
+    },
+    {
+      "id": "finance-b1-w7-e4",
+      "type": "fill-in-the-blank",
+      "question": "A ________ is a loan specifically used for buying real estate.",
+      "answer": "mortgage",
+      "explanation": "Mortgages are the standard loans for home and property purchases."
+    },
+    {
+      "id": "finance-b1-w7-e5",
+      "type": "multiple-choice",
+      "question": "He handles client money ________ to avoid any errors.",
+      "options": ["precise", "precisely", "precision", "precisness"],
+      "answer": "precisely",
+      "explanation": "The adverb 'precisely' describes how the money is handled."
+    },
+    {
+      "id": "finance-b1-w7-e6",
+      "type": "fill-in-the-blank",
+      "question": "If you fail to pay a loan, the bank may take the ________ you provided as security.",
+      "answer": "collateral",
+      "explanation": "Collateral is used to secure a loan and can be seized if the debtor defaults."
+    },
+    {
+      "id": "finance-b1-w7-e7",
+      "type": "multiple-choice",
+      "question": "What does a high credit score usually indicate?",
+      "options": ["High risk", "Low creditworthiness", "High creditworthiness", "Too much debt"],
+      "answer": "High creditworthiness",
+      "explanation": "A higher score means the borrower is more likely to repay their debts."
+    },
+    {
+      "id": "finance-b1-w7-e8",
+      "type": "fill-in-the-blank",
+      "question": "The interest rates changed ________ after the central bank's announcement.",
+      "answer": "suddenly",
+      "explanation": "'Suddenly' is an adverb of manner describing a quick change."
+    },
+    {
+      "id": "finance-b1-w7-e9",
+      "type": "multiple-choice",
+      "question": "An installment is:",
+      "options": ["The total amount of a loan", "One of a series of regular payments", "The interest rate percentage", "The bank manager's office"],
+      "answer": "One of a series of regular payments",
+      "explanation": "Installments allow a debtor to pay off a large sum over time."
+    },
+    {
+      "id": "finance-b1-w7-e10",
+      "type": "fill-in-the-blank",
+      "question": "You should check your bank statements ________ every month.",
+      "answer": "carefully",
+      "explanation": "'Carefully' is the adverb describing the recommended way to review statements."
+    },
+    {
+      "id": "finance-b1-w7-e11",
+      "type": "multiple-choice",
+      "question": "A 'personal loan' is usually:",
+      "options": ["Secured by a house", "Unsecured or secured for general use", "Only for buying cars", "Never charged interest"],
+      "answer": "Unsecured or secured for general use",
+      "explanation": "Personal loans are flexible and can be used for many different purposes."
+    },
+    {
+      "id": "finance-b1-w7-e12",
+      "type": "fill-in-the-blank",
+      "question": "The debtor pays interest ________ to the creditor.",
+      "answer": "directly",
+      "explanation": "'Directly' describes the flow of payment."
+    },
+    {
+      "id": "finance-b1-w7-e13",
+      "type": "multiple-choice",
+      "question": "Which of these adverbs is irregular (doesn't end in -ly)?",
+      "options": ["Clearly", "Hard", "Quickly", "Professionally"],
+      "answer": "Hard",
+      "explanation": "'Hard' is an irregular adverb that has the same form as the adjective."
+    },
+    {
+      "id": "finance-b1-w7-e14",
+      "type": "fill-in-the-blank",
+      "question": "An ________ loan is used to purchase a car.",
+      "answer": "auto",
+      "explanation": "Auto loans are specific to vehicle financing."
+    },
+    {
+      "id": "finance-b1-w7-e15",
+      "type": "multiple-choice",
+      "question": "To increase your credit score, you should:",
+      "options": ["Pay bills late", "Exceed your credit limit", "Pay bills on time", "Close all your bank accounts"],
+      "answer": "Pay bills on time",
+      "explanation": "On-time payments are the most important factor in a good credit score."
+    }
+  ]
+}

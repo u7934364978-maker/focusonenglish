@@ -1,0 +1,60 @@
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana19",
+  "examId": "fin-b2-w19-exam",
+  "title": "Examen: Seguros y Fundamentos Actuariales",
+  "items": [
+    {
+      "id": "fin-b2-w19-exam-1",
+      "type": "multipleChoice",
+      "prompt": "What is the primary role of an 'Underwriter'?",
+      "options": [
+        "To sell insurance policies to the public",
+        "To evaluate and decide whether to accept a risk",
+        "To repair cars involved in accidents",
+        "To manage the company's social media"
+      ],
+      "answerIndex": 1,
+      "explanation": "Underwriters determine if a risk is worth taking and what the price of the policy should be."
+    },
+    {
+      "id": "fin-b2-w19-exam-2",
+      "type": "multipleChoice",
+      "prompt": "Which term describes the amount the policyholder pays for the insurance coverage?",
+      "options": ["Claim", "Premium", "Deductible", "Asset"],
+      "answerIndex": 1,
+      "explanation": "A premium is the cost of an insurance policy."
+    },
+    {
+      "id": "fin-b2-w19-exam-3",
+      "type": "multipleChoice",
+      "prompt": "Complete the passive sentence: 'The documents ________ by the compliance officer yesterday.'",
+      "options": ["were signed", "was signed", "are signed", "is signing"],
+      "answerIndex": 0,
+      "explanation": "Past passive: 'were signed' (plural documents)."
+    },
+    {
+      "id": "fin-b2-w19-exam-4",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Deductible'?",
+      "options": [
+        "A discount given to loyal customers",
+        "The amount the insured pays before the insurer pays a claim",
+        "The commission paid to an insurance broker",
+        "A type of life insurance policy"
+      ],
+      "answerIndex": 1,
+      "explanation": "The deductible is the portion of any claim that is not covered by the insurance provider."
+    },
+    {
+      "id": "fin-b2-w19-exam-5",
+      "type": "multipleChoice",
+      "prompt": "Who is responsible for using statistics to predict financial risks?",
+      "options": ["Bank teller", "Sales agent", "Actuary", "Receptionist"],
+      "answerIndex": 2,
+      "explanation": "Actuaries use mathematics and statistics to assess risk in the insurance and finance industries."
+    }
+  ]
+}

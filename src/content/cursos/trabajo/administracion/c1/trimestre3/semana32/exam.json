@@ -1,0 +1,50 @@
+{
+  "goal": "administracion",
+  "level": "C1",
+  "trimester": 3,
+  "weekId": "semana32",
+  "examId": "fin-c1-w32-exam",
+  "title": "Final Exam: C1 Banking & Finance Mastery",
+  "items": [
+    {
+      "id": "fin-c1-w32-exam-1",
+      "type": "multipleChoice",
+      "prompt": "Which valuation method relies on the present value of future cash flows?",
+      "options": ["Comparable Company Analysis", "Multiples", "Discounted Cash Flow (DCF)", "LBO Modeling"],
+      "answerIndex": 2,
+      "explanation": "DCF calculates value based on projected future cash flows discounted to the present."
+    },
+    {
+      "id": "fin-c1-w32-exam-2",
+      "type": "multipleChoice",
+      "prompt": "If the company ________ earlier, it wouldn't be facing insolvency today.",
+      "options": ["had restructured", "restructured", "would restructure", "has restructured"],
+      "answerIndex": 0,
+      "explanation": "Third conditional (past hypothetical): If + past perfect, would + have + past participle (implied by 'wouldn't be facing')."
+    },
+    {
+      "id": "fin-c1-w32-exam-3",
+      "type": "multipleChoice",
+      "prompt": "Which term refers to the simultaneous purchase and sale of an asset in different markets to exploit price discrepancies?",
+      "options": ["Speculation", "Hedging", "Arbitrage", "Leverage"],
+      "answerIndex": 2,
+      "explanation": "Arbitrage is the practice of taking advantage of price differences in different markets."
+    },
+    {
+      "id": "fin-c1-w32-exam-4",
+      "type": "multipleChoice",
+      "prompt": "Under no circumstances ________ the firm trade without a robust risk management framework.",
+      "options": ["should", "must", "can", "will"],
+      "answerIndex": 0,
+      "explanation": "Formal inversion with 'Under no circumstances' requires an auxiliary verb before the subject."
+    },
+    {
+      "id": "fin-c1-w32-exam-5",
+      "type": "multipleChoice",
+      "prompt": "The fiduciary ________ of a fund manager is to act in the best interests of their investors.",
+      "options": ["obligation", "duty", "right", "contract"],
+      "answerIndex": 1,
+      "explanation": "'Fiduciary duty' is the standard legal term for this obligation."
+    }
+  ]
+}

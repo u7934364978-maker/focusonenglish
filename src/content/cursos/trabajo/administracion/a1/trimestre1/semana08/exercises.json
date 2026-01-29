@@ -1,0 +1,65 @@
+{
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 1,
+  "weekId": "semana08",
+  "title": "Exercises: Daily Actions",
+  "items": [
+    {
+      "id": "fin-a1-w8-q1",
+      "type": "multipleChoice",
+      "prompt": "What do you do if you need money from your account?",
+      "options": [
+        "I deposit money",
+        "I withdraw money",
+        "I sign a book",
+        "I help a client"
+      ],
+      "answerIndex": 1,
+      "explanation": "To 'withdraw' means to take money out of an account."
+    },
+    {
+      "id": "fin-a1-w8-q2",
+      "type": "multipleChoice",
+      "prompt": "What do you do with a QR code?",
+      "options": [
+        "I sign it",
+        "I withdraw it",
+        "I scan it",
+        "I help it"
+      ],
+      "answerIndex": 2,
+      "explanation": "We use our phone camera to 'scan' a QR code for payments."
+    },
+    {
+      "id": "fin-a1-w8-grammar-1",
+      "type": "multipleChoice",
+      "prompt": "Complete: '___ you transfer money with the app?' 'Yes, I ___.'",
+      "options": [
+        "Do / do",
+        "Does / does",
+        "Are / am",
+        "Is / is"
+      ],
+      "answerIndex": 0,
+      "explanation": "We use 'Do' for 'you' and the short answer is 'do'."
+    },
+    {
+      "id": "fin-a1-w8-matching-1",
+      "type": "matching",
+      "prompt": "Match the action with the tool.",
+      "pairs": [
+        {"term": "To transfer", "definition": "Mobile App"},
+        {"term": "To withdraw", "definition": "ATM"},
+        {"term": "To sign", "definition": "Contract"}
+      ]
+    },
+    {
+      "id": "fin-a1-w8-writing-1",
+      "type": "writingTask",
+      "prompt": "Write one thing you do at work. Example: 'I help customers.'",
+      "modelAnswer": "I help customers.",
+      "keywords": ["I", "help"]
+    }
+  ]
+}

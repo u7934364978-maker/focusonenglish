@@ -1,0 +1,167 @@
+{
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 2,
+  "weekId": "semana14",
+  "title": "Cards & Modern Payments",
+  "items": [
+    {
+      "id": "fin-a1-w14-01",
+      "type": "matching",
+      "prompt": "Match the payment method with its description:",
+      "pairs": [
+        { "left": "Contactless", "right": "Tapping your card to pay" },
+        { "left": "PIN", "right": "A secret 4-digit code" },
+        { "left": "Mobile Payment", "right": "Paying with your phone" },
+        { "left": "Cash", "right": "Physical coins and notes" }
+      ],
+      "explanation": "These are the most common ways to pay today."
+    },
+    {
+      "id": "fin-a1-w14-02",
+      "type": "multipleChoice",
+      "prompt": "Look at ______ card on the floor over there.",
+      "options": ["this", "that", "these", "those"],
+      "answerIndex": 1,
+      "explanation": "Use 'that' for singular objects far from you."
+    },
+    {
+      "id": "fin-a1-w14-03",
+      "type": "multipleChoice",
+      "prompt": "______ coins in my hand are for the coffee machine.",
+      "options": ["this", "that", "these", "those"],
+      "answerIndex": 2,
+      "explanation": "Use 'these' for plural objects close to you."
+    },
+    {
+      "id": "fin-a1-w14-04",
+      "type": "fillBlanks",
+      "prompt": "I use [blank] pay to pay with my smartphone.",
+      "answers": ["Apple", "Google", "Mobile"],
+      "explanation": "Mobile payments use apps like Apple Pay or Google Pay."
+    },
+    {
+      "id": "fin-a1-w14-05",
+      "type": "multipleChoice",
+      "prompt": "Is your card ______? No, I need to insert it.",
+      "options": ["contactless", "cash", "wallet"],
+      "answerIndex": 0,
+      "explanation": "If it is not contactless, you must insert the chip."
+    },
+    {
+      "id": "fin-a1-w14-06",
+      "type": "writing",
+      "prompt": "Write a sentence using 'Those' to talk about some receipts on a table far from you.",
+      "example": "Those receipts are old.",
+      "explanation": "Use 'Those' for plural and distant objects."
+    },
+    {
+      "id": "fin-a1-w14-07",
+      "type": "rolePlay",
+      "prompt": "Role-play: You are at a supermarket. The cashier asks: 'Cash or card?'. You answer: 'Card, please. Is it contactless?'.",
+      "scenario": "Paying for groceries.",
+      "suggestedPhrases": [
+        "Card, please.",
+        "Can I tap my phone?",
+        "Where do I enter my PIN?"
+      ]
+    },
+    {
+      "id": "fin-a1-w14-08",
+      "type": "multipleChoice",
+      "prompt": "______ is my new wallet. I like the color.",
+      "options": ["This", "That", "These", "Those"],
+      "answerIndex": 0,
+      "explanation": "Use 'This' for singular objects close to you."
+    },
+    {
+      "id": "fin-a1-w14-09",
+      "type": "fillBlanks",
+      "prompt": "Please enter your [blank] on the machine.",
+      "answers": ["PIN"],
+      "explanation": "You enter your secret PIN to confirm the payment."
+    },
+    {
+      "id": "fin-a1-w14-10",
+      "type": "multipleChoice",
+      "prompt": "How much ______ do you have in your wallet?",
+      "options": ["cash", "card", "pin"],
+      "answerIndex": 0,
+      "explanation": "Cash refers to the physical money."
+    },
+    {
+      "id": "fin-a1-w14-11",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "Is this your credit card?",
+      "explanation": "¿Es esta su tarjeta de crédito?"
+    },
+    {
+      "id": "fin-a1-w14-12",
+      "type": "multipleChoice",
+      "prompt": "I have two ______ in my pocket.",
+      "options": ["cards", "card", "wallet"],
+      "answerIndex": 0,
+      "explanation": "Use the plural form 'cards'."
+    },
+    {
+      "id": "fin-a1-w14-13",
+      "type": "fillBlanks",
+      "prompt": "I need to [blank] for this coffee.",
+      "answers": ["pay"],
+      "explanation": "Pay is the action of giving money."
+    },
+    {
+      "id": "fin-a1-w14-14",
+      "type": "multipleChoice",
+      "prompt": "I don't have ______ money in my account.",
+      "options": ["any", "some", "a"],
+      "answerIndex": 0,
+      "explanation": "Use 'any' in negative sentences."
+    },
+    {
+      "id": "fin-a1-w14-15",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Those machines are very old",
+      "explanation": "Esas máquinas son muy viejas."
+    },
+    {
+      "id": "fin-a1-w14-16",
+      "type": "writing",
+      "prompt": "Translate to English: 'Estos euros son para ti.'",
+      "example": "These euros are for you.",
+      "explanation": "Use 'These' for plural and close objects."
+    },
+    {
+      "id": "fin-a1-w14-17",
+      "type": "multipleChoice",
+      "prompt": "Look at ______ ATM across the street.",
+      "options": ["that", "this", "these"],
+      "answerIndex": 0,
+      "explanation": "Use 'that' for singular and distant objects."
+    },
+    {
+      "id": "fin-a1-w14-18",
+      "type": "fillBlanks",
+      "prompt": "Can I pay [blank] cash?",
+      "answers": ["in"],
+      "explanation": "We say 'pay in cash'."
+    },
+    {
+      "id": "fin-a1-w14-19",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "This is a debit card",
+      "explanation": "Esta es una tarjeta de débito."
+    },
+    {
+      "id": "fin-a1-w14-20",
+      "type": "multipleChoice",
+      "prompt": "______ are my favorite coins.",
+      "options": ["These", "This", "That"],
+      "answerIndex": 0,
+      "explanation": "Use 'These' for plural and close objects."
+    }
+  ]
+}

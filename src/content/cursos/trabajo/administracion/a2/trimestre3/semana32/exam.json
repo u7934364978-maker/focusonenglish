@@ -1,0 +1,50 @@
+{
+  "goal": "administracion",
+  "level": "A2",
+  "trimester": 3,
+  "weekId": "semana32",
+  "examId": "fin-a2-w32-exam",
+  "title": "Examen: Repaso del Tercer Trimestre (A2)",
+  "items": [
+    {
+      "id": "fin-a2-w32-exam-1",
+      "type": "multipleChoice",
+      "prompt": "A credit card is ________ (expensive) than a debit card.",
+      "options": ["expensiver", "more expensive", "most expensive", "as expensive"],
+      "answerIndex": 1,
+      "explanation": "Review: Comparatives."
+    },
+    {
+      "id": "fin-a2-w32-exam-2",
+      "type": "multipleChoice",
+      "prompt": "If you ________ (forget) your PIN, you cannot use the card.",
+      "options": ["forget", "will forget", "forgets", "forgetting"],
+      "answerIndex": 0,
+      "explanation": "Review: Zero Conditional for facts."
+    },
+    {
+      "id": "fin-a2-w32-exam-3",
+      "type": "multipleChoice",
+      "prompt": "We ________ (have) a meeting with the bank manager next Tuesday.",
+      "options": ["have", "are having", "had", "has"],
+      "answerIndex": 1,
+      "explanation": "Review: Present Continuous for future plans."
+    },
+    {
+      "id": "fin-a2-w32-exam-4",
+      "type": "multipleChoice",
+      "prompt": "If you see a suspicious email, ________ (not open) the link.",
+      "options": ["don't open", "won't open", "not open", "not opening"],
+      "answerIndex": 0,
+      "explanation": "Review: Imperative/First conditional logic for warnings."
+    },
+    {
+      "id": "fin-a2-w32-exam-5",
+      "type": "multipleChoice",
+      "prompt": "Online payments ________ (process) instantly.",
+      "options": ["process", "are processed", "processing", "processed"],
+      "answerIndex": 1,
+      "explanation": "Review: Passive Voice."
+    }
+  ]
+}

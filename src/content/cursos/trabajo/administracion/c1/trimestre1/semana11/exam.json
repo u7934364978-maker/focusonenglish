@@ -1,0 +1,50 @@
+{
+  "goal": "administracion",
+  "level": "C1",
+  "trimester": 1,
+  "weekId": "semana11",
+  "title": "C1 Review Quiz 2",
+  "description": "Test your retention of the second half of Trimester 1.",
+  "items": [
+    {
+      "id": "fin-c1-w11-e1",
+      "type": "multipleChoice",
+      "prompt": "FCFF is cash available to:",
+      "options": ["Equity only", "Debt only", "Debt and Equity", "The CEO only"],
+      "answerIndex": 2,
+      "explanation": "Free Cash Flow to the Firm is 'unlevered'."
+    },
+    {
+      "id": "fin-c1-w11-e2",
+      "type": "multipleChoice",
+      "prompt": "Mixed Conditional: 'If we ___ that company last year, we would be the market leader now.'",
+      "options": ["acquired", "had acquired", "have acquired", "would acquire"],
+      "answerIndex": 1,
+      "explanation": "'If we had acquired' (past hypothetical) 'we would be' (present result)."
+    },
+    {
+      "id": "fin-c1-w11-e3",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a capital allocation decision?",
+      "options": ["Paying a dividend", "Buying office pens", "Hiring a security guard", "Changing the Wi-Fi password"],
+      "answerIndex": 0,
+      "explanation": "Dividends are a major strategic use of cash."
+    },
+    {
+      "id": "fin-c1-w11-e4",
+      "type": "multipleChoice",
+      "prompt": "Gordon Growth Method assumes a constant growth rate ___.",
+      "options": ["for 1 year", "for 10 years", "forever (perpetuity)", "until bankruptcy"],
+      "answerIndex": 2,
+      "explanation": "It's a perpetuity growth model."
+    },
+    {
+      "id": "fin-c1-w11-e5",
+      "type": "multipleChoice",
+      "prompt": "Formal Comparative: 'The stock trades ___ a 10% discount to its peers.'",
+      "options": ["at", "with", "in", "by"],
+      "answerIndex": 0,
+      "explanation": "The standard phrase is 'trades at a [premium/discount] to'."
+    }
+  ]
+}

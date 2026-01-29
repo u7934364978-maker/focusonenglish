@@ -1,0 +1,55 @@
+{
+  "goal": "administracion",
+  "level": "C1",
+  "trimester": 3,
+  "weekId": "semana29",
+  "examId": "fin-c1-w29-exam",
+  "title": "Exam: Derivatives & Hedging",
+  "items": [
+    {
+      "id": "fin-c1-w29-exam-1",
+      "type": "multipleChoice",
+      "prompt": "Which instrument gives the right, but not the obligation, to sell an asset at a specific price?",
+      "options": ["Call Option", "Put Option", "Futures Contract", "Forward Contract"],
+      "answerIndex": 1,
+      "explanation": "A put option provides the right to sell; a call option provides the right to buy."
+    },
+    {
+      "id": "fin-c1-w29-exam-2",
+      "type": "multipleChoice",
+      "prompt": "________ have we seen such volatility in the derivatives market as we did during the last quarter.",
+      "options": ["Rarely", "Never", "Seldom", "Hardly"],
+      "answerIndex": 2,
+      "explanation": "This uses formal inversion for emphasis: 'Seldom + auxiliary + subject'."
+    },
+    {
+      "id": "fin-c1-w29-exam-3",
+      "type": "multipleChoice",
+      "prompt": "What is the primary purpose of an 'Interest Rate Swap'?",
+      "options": [
+        "To bet on the price of gold",
+        "To exchange interest rate payments (e.g., fixed for floating) to manage exposure",
+        "To borrow money from a foreign bank at a lower rate",
+        "To buy stocks in another company without paying cash"
+      ],
+      "answerIndex": 1,
+      "explanation": "Interest rate swaps allow parties to exchange payment streams to hedge or adjust interest rate risk."
+    },
+    {
+      "id": "fin-c1-w29-exam-4",
+      "type": "multipleChoice",
+      "prompt": "It is imperative that the trader ________ with all margin requirements to avoid liquidation.",
+      "options": ["complies", "comply", "would comply", "complying"],
+      "answerIndex": 1,
+      "explanation": "This is the subjunctive mood after 'imperative that' (base form of the verb)."
+    },
+    {
+      "id": "fin-c1-w29-exam-5",
+      "type": "multipleChoice",
+      "prompt": "A '________' is a demand by a broker for more cash to cover potential losses on a leveraged position.",
+      "options": ["Margin Call", "Strike Price", "Swap Rate", "Arbitrage Demand"],
+      "answerIndex": 0,
+      "explanation": "A margin call occurs when the value of an account falls below the maintenance margin requirement."
+    }
+  ]
+}

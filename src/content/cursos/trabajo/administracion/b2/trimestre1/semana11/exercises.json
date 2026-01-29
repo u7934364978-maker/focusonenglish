@@ -1,0 +1,238 @@
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana11",
+  "title": "Corporate Governance, Ethics, and ESG",
+  "description": "Exercises on board structures, fiduciary duty, ESG criteria, and the subjunctive mood (50 items).",
+  "items": [
+    {
+      "id": "finance-b2-w11-q1",
+      "type": "multipleChoice",
+      "options": [
+        "A board where all directors are employees",
+        "A single board of directors with both executive and non-executive members",
+        "A system with two separate boards: Management and Supervisory",
+        "A board that only meets once a year"
+      ],
+      "explanation": "A unitary board is a single body that is collectively responsible for the management and oversight of the company.",
+      "answerIndex": 1,
+      "prompt": "What defines a 'Unitary Board' structure?"
+    },
+    {
+      "id": "finance-b2-w11-q2",
+      "type": "fillBlanks",
+      "explanation": "Subjunctive mood after 'recommend'.",
+      "prompt": "The ethics committee recommends that the company ________ (update) its whistleblower policy immediately.",
+      "answers": [
+        "update"
+      ]
+    },
+    {
+      "id": "finance-b2-w11-q3",
+      "type": "multipleChoice",
+      "options": [
+        "The legal obligation of directors to act in the best interest of the company and its shareholders",
+        "A tax paid by financial institutions",
+        "A type of insurance for executives",
+        "The duty to hire only family members"
+      ],
+      "explanation": "Fiduciary duty is a legal relationship of trust between two or more parties, most commonly between board directors and shareholders.",
+      "answerIndex": 0,
+      "prompt": "What is 'Fiduciary Duty'?"
+    },
+    {
+      "id": "finance-b2-w11-q4",
+      "type": "fillBlanks",
+      "explanation": "Subjunctive mood after 'essential'.",
+      "prompt": "It is essential that every board member ________ (disclose) any potential conflict of interest.",
+      "answers": [
+        "disclose"
+      ]
+    },
+    {
+      "id": "finance-b2-w11-q5",
+      "type": "multipleChoice",
+      "options": [
+        "Efficient, Stable, and Growing",
+        "Environmental, Social, and Governance",
+        "Equity, Securities, and Gains",
+        "Economic, Strategic, and Global"
+      ],
+      "explanation": "ESG refers to the three central factors in measuring the sustainability and societal impact of an investment in a company or business.",
+      "answerIndex": 1,
+      "prompt": "What does 'ESG' stand for in sustainable investing?"
+    },
+    {
+      "id": "finance-b2-w11-q6",
+      "type": "fillBlanks",
+      "explanation": "Subjunctive mood after 'insist'.",
+      "prompt": "The shareholders insist that the CEO ________ (resign / not) until the investigation is complete.",
+      "answers": [
+        "not resign"
+      ]
+    },
+    {
+      "id": "finance-b2-w11-q7",
+      "type": "multipleChoice",
+      "options": [
+        "A conflict between a company and its competitors",
+        "A conflict of interest where agents (managers) do not act in the best interest of principals (shareholders)",
+        "A problem with the company's travel agency",
+        "The difficulty of hiring new staff"
+      ],
+      "explanation": "The agency problem is a conflict of interest where the interests of the management (agents) may not align with those of the shareholders (principals).",
+      "answerIndex": 1,
+      "prompt": "What is the 'Agency Problem' in corporate governance?"
+    },
+    {
+      "id": "finance-b2-w11-q8",
+      "type": "fillBlanks",
+      "explanation": "Creative accounting involves manipulating figures within legal loopholes.",
+      "prompt": "The practice of using accounting loopholes to hide debt and make a company look more profitable than it is is called ________ accounting.",
+      "answers": [
+        "creative"
+      ]
+    },
+    {
+      "id": "finance-b2-w11-q9",
+      "type": "multipleChoice",
+      "options": [
+        "Someone who sells shares during a crash",
+        "An independent director who provides oversight and challenge to the executive team",
+        "A director who is also the CEO",
+        "A representative of the tax authority"
+      ],
+      "explanation": "Non-executive directors (NEDs) are not part of the executive management team and bring an independent perspective to the board.",
+      "answerIndex": 1,
+      "prompt": "What is the role of a 'Non-Executive Director' (NED)?"
+    },
+    {
+      "id": "finance-b2-w11-q10",
+      "type": "fillBlanks",
+      "explanation": "Subjunctive mood after 'vital'.",
+      "prompt": "It is vital that the auditor ________ (be) completely independent from the company's management.",
+      "answers": [
+        "be"
+      ]
+    },
+    {
+      "id": "finance-b2-w11-reading-1",
+      "type": "reading-comprehension",
+      "title": "The Enron Scandal: A Lesson in Governance Failure",
+      "text": "The collapse of Enron in 2001 remains one of the most significant examples of **governance** failure in history. At its height, Enron was the seventh-largest company in the US, yet its success was a mirage. Through a complex web of 'Special Purpose Entities', the company managed to keep billions of dollars of debt off its **balance sheet**. This **creative accounting** allowed the company to maintain a high credit rating and keep its stock price soaring.\n\nThe failure was not just in the accounting, but in the oversight. The board of directors, including the audit committee, failed in their **fiduciary duty** to protect shareholders. Furthermore, Enron's external auditors were found to have a significant **conflict of interest**, as they were also receiving millions in consulting fees from the firm they were auditing. The scandal led to the dissolution of Arthur Andersen and the passage of the SOX Act. It is now imperative that every public company **maintain** a clear **segregation of duties** and that auditors **remain** strictly independent. If the board **had questioned** the complex transactions more aggressively, the largest bankruptcy in US history **might have been** avoided.",
+      "vocabularyHelp": [
+        {
+          "word": "governance",
+          "definition": "The system of rules, practices, and processes by which a firm is directed and controlled."
+        },
+        {
+          "word": "balance sheet",
+          "definition": "A financial statement that reports a company's assets, liabilities, and shareholder equity at a specific point in time."
+        },
+        {
+          "word": "fiduciary duty",
+          "definition": "The legal and ethical obligation of a party to act in the best interest of another."
+        },
+        {
+          "word": "segregation of duties",
+          "definition": "An internal control designed to prevent fraud and error by ensuring that no single individual has control over all phases of a transaction."
+        }
+      ],
+      "questions": [
+        {
+          "question": "How did Enron hide its debt from investors?",
+          "options": [
+            "By burning the documents",
+            "By using 'Special Purpose Entities' to keep debt off the balance sheet",
+            "By paying off the debt with cash",
+            "By increasing its sales"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text states Enron used 'Special Purpose Entities' to keep billions in debt off the balance sheet."
+        },
+        {
+          "question": "What conflict of interest did Enron's external auditors have?",
+          "options": [
+            "They were also competitors of Enron",
+            "They were receiving consulting fees from the company they were auditing",
+            "They didn't know how to do accounting",
+            "They were related to the CEO"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text mentions the auditors received millions in consulting fees from Enron while also auditing them."
+        },
+        {
+          "question": "Which grammar structure is used in 'It is now imperative that every public company maintain...'?",
+          "options": [
+            "Present Simple",
+            "Subjunctive Mood",
+            "Present Continuous",
+            "Imperative Mood"
+          ],
+          "answerIndex": 1,
+          "explanation": "The use of the bare infinitive 'maintain' after 'It is imperative that' is the subjunctive mood."
+        }
+      ]
+    },
+    {
+      "id": "finance-b2-w11-listening-1",
+      "type": "listening-comprehension",
+      "title": "The Fight Against 'Greenwashing'",
+      "transcript": "Interviewer: ESG is the buzzword of the decade. But how do we know companies are actually doing what they claim? \n\nExpert: That's the billion-dollar question. We're seeing a lot of **Greenwashing**, where firms spend more time and money on marketing themselves as environmentally friendly than on actually reducing their carbon footprint. \n\nInterviewer: So, what's the solution?\n\nExpert: Transparency. It is vital that regulators **standardize** ESG reporting. Right now, it's a 'Wild West' of different metrics. We also recommend that institutional investors **take** their **stewardship** role more seriously. They shouldn't just look at the 'E'; the 'G'—**Governance**—is what ensures the other pillars are actually being respected. \n\nInterviewer: Can **shareholder activism** help?\n\nExpert: Absolutely. We've seen activists insist that oil companies **disclose** their long-term climate risks. It's no longer just about profit; it's about the sustainability of the business model. If a company **does not adapt** to these new ethical standards, it **will eventually lose** its 'social license' to operate.",
+      "vocabularyHelp": [
+        {
+          "word": "Greenwashing",
+          "definition": "The process of conveying a false impression or providing misleading information about how a company's products are more environmentally sound."
+        },
+        {
+          "word": "stewardship",
+          "definition": "The responsible overseeing and protection of something considered worth caring for and preserving (e.g., investor stewardship of capital)."
+        },
+        {
+          "word": "standardize",
+          "definition": "The process of making something conform to a standard."
+        },
+        {
+          "word": "shareholder activism",
+          "definition": "A way that shareholders can influence a corporation's behavior by exercising their rights as owners."
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is 'Greenwashing' according to the expert?",
+          "options": [
+            "Cleaning the office with eco-friendly products",
+            "Marketing a company as environmentally friendly without taking real action",
+            "Investing only in renewable energy",
+            "A type of creative accounting"
+          ],
+          "answerIndex": 1,
+          "explanation": "The expert describes greenwashing as spending more on marketing than on actually reducing the carbon footprint."
+        },
+        {
+          "question": "What does the expert recommend regarding ESG metrics?",
+          "options": [
+            "That they be eliminated",
+            "That regulators standardize them to avoid confusion",
+            "That companies invent their own metrics",
+            "That only the 'E' (Environmental) pillar be tracked"
+          ],
+          "answerIndex": 1,
+          "explanation": "The expert says: 'It is vital that regulators standardize ESG reporting'."
+        },
+        {
+          "question": "Which subjunctive form is used in the listening?",
+          "options": [
+            "'...recommend that institutional investors take...'",
+            "'...insist that oil companies disclose...'",
+            "'...vital that regulators standardize...'",
+            "All of the above"
+          ],
+          "answerIndex": 3,
+          "explanation": "All three phrases use the subjunctive (bare infinitive) after a verb or adjective of recommendation/importance."
+        }
+      ]
+    }
+  ]
+}

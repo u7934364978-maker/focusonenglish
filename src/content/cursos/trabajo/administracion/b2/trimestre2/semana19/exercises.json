@@ -1,0 +1,409 @@
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana19",
+  "title": "Ejercicios: Seguros y Fundamentos Actuariales",
+  "items": [
+    {
+      "id": "fin-b2-w19-1",
+      "type": "multipleChoice",
+      "prompt": "The monthly payment made to an insurance company is called a ________.",
+      "options": ["Claim", "Premium", "Deductible", "Benefit"],
+      "answerIndex": 1,
+      "explanation": "A premium is the amount of money an individual or business pays for an insurance policy."
+    },
+    {
+      "id": "fin-b2-w19-2",
+      "type": "multipleChoice",
+      "prompt": "When an accident occurs, the policyholder files a ________ to request compensation.",
+      "options": ["Claim", "Premium", "Contract", "Bill"],
+      "answerIndex": 0,
+      "explanation": "A claim is a formal request to an insurance company asking for a payment based on the terms of the insurance policy."
+    },
+    {
+      "id": "fin-b2-w19-3",
+      "type": "multipleChoice",
+      "prompt": "The risk of the new project ________ by the underwriting department.",
+      "options": ["is evaluated", "evaluates", "has evaluated", "evaluating"],
+      "answerIndex": 0,
+      "explanation": "Passive voice is used to show the process: 'is evaluated'."
+    },
+    {
+      "id": "fin-b2-w19-4",
+      "type": "multipleChoice",
+      "prompt": "An ________ is a professional who uses statistics to calculate insurance risks and premiums.",
+      "options": ["Accountant", "Actuary", "Auditor", "Appraiser"],
+      "answerIndex": 1,
+      "explanation": "Actuaries analyze the financial costs of risk and uncertainty."
+    },
+    {
+      "id": "fin-b2-w19-5",
+      "type": "multipleChoice",
+      "prompt": "The ________ is the amount the insured must pay out of pocket before the insurance covers the rest.",
+      "options": ["Deductible", "Premium", "Commission", "Bonus"],
+      "answerIndex": 0,
+      "explanation": "A deductible (or excess) is the fixed amount you pay towards a claim."
+    },
+    {
+      "id": "fin-b2-w19-6",
+      "type": "multipleChoice",
+      "prompt": "Last year, thousands of claims ________ due to fraudulent activity.",
+      "options": ["were rejected", "are rejected", "rejected", "was reject"],
+      "answerIndex": 0,
+      "explanation": "Past passive: 'were rejected' (plural)."
+    },
+    {
+      "id": "fin-b2-w19-7",
+      "type": "multipleChoice",
+      "prompt": "Insurance ________ is the process of evaluating a risk to decide whether to provide coverage.",
+      "options": ["Underwriting", "Invoicing", "Accounting", "Marketing"],
+      "answerIndex": 0,
+      "explanation": "Underwriting involves assessing the eligibility of a customer to receive an insurance policy."
+    },
+    {
+      "id": "fin-b2-w19-8",
+      "type": "multipleChoice",
+      "prompt": "New policies ________ by the legal team every quarter.",
+      "options": ["are reviewed", "is reviewed", "reviewed", "reviewing"],
+      "answerIndex": 0,
+      "explanation": "Present passive: 'are reviewed' (plural)."
+    },
+    {
+      "id": "fin-b2-w19-9",
+      "type": "multipleChoice",
+      "prompt": "The ________ is the person or entity that owns the insurance policy.",
+      "options": ["Policyholder", "Underwriter", "Actuary", "Broker"],
+      "answerIndex": 0,
+      "explanation": "A policyholder is the person who pays the premium and owns the policy."
+    },
+    {
+      "id": "fin-b2-w19-10",
+      "type": "multipleChoice",
+      "prompt": "Third-party ________ insurance is mandatory for all drivers in this country.",
+      "options": ["liability", "premium", "deductible", "claim"],
+      "answerIndex": 0,
+      "explanation": "Liability insurance protects against claims resulting from injuries and damage to people and/or property."
+    },
+    {
+      "id": "fin-b2-w19-11",
+      "type": "multipleChoice",
+      "prompt": "The claim ________ by the adjuster yesterday morning.",
+      "options": ["was approved", "is approved", "approves", "were approved"],
+      "answerIndex": 0,
+      "explanation": "Past passive: 'was approved' (singular)."
+    },
+    {
+      "id": "fin-b2-w19-12",
+      "type": "multipleChoice",
+      "prompt": "If you choose a higher ________, your monthly premium will usually be lower.",
+      "options": ["deductible", "payout", "bonus", "salary"],
+      "answerIndex": 0,
+      "explanation": "A higher deductible reduces the insurer's risk, leading to lower premiums."
+    },
+    {
+      "id": "fin-b2-w19-13",
+      "type": "multipleChoice",
+      "prompt": "Actuarial tables ________ to predict life expectancy and mortality rates.",
+      "options": ["are used", "is used", "use", "using"],
+      "answerIndex": 0,
+      "explanation": "Present passive: 'are used' (plural)."
+    },
+    {
+      "id": "fin-b2-w19-14",
+      "type": "multipleChoice",
+      "prompt": "The ________ process can take several weeks for complex commercial risks.",
+      "options": ["underwriting", "billing", "shipping", "hiring"],
+      "answerIndex": 0,
+      "explanation": "Underwriting involves detailed risk assessment."
+    },
+    {
+      "id": "fin-b2-w19-15",
+      "type": "multipleChoice",
+      "prompt": "All information ________ by the applicant must be accurate and complete.",
+      "options": ["provided", "provides", "providing", "provide"],
+      "answerIndex": 0,
+      "explanation": "In this context, 'provided' acts as a past participle in a reduced relative clause (which is provided)."
+    },
+    {
+      "id": "fin-b2-w19-16",
+      "type": "multipleChoice",
+      "prompt": "Life insurance ________ are often paid out to the beneficiaries after the policyholder's death.",
+      "options": ["benefits", "premiums", "deductibles", "taxes"],
+      "answerIndex": 0,
+      "explanation": "Benefits (or death benefits) are the payments made by the insurance company."
+    },
+    {
+      "id": "fin-b2-w19-17",
+      "type": "multipleChoice",
+      "prompt": "The insurance market ________ by a few large multinational corporations.",
+      "options": ["is dominated", "dominates", "are dominated", "dominating"],
+      "answerIndex": 0,
+      "explanation": "Present passive: 'is dominated'."
+    },
+    {
+      "id": "fin-b2-w19-18",
+      "type": "multipleChoice",
+      "prompt": "A ________ is an addition to a standard insurance policy that provides extra coverage.",
+      "options": ["rider", "driver", "walker", "runner"],
+      "answerIndex": 0,
+      "explanation": "An insurance rider (or endorsement) adds specific coverage to a policy."
+    },
+    {
+      "id": "fin-b2-w19-19",
+      "type": "multipleChoice",
+      "prompt": "In most cases, the premium ________ annually or semi-annually.",
+      "options": ["is paid", "pays", "are paid", "paying"],
+      "answerIndex": 0,
+      "explanation": "Present passive: 'is paid'."
+    },
+    {
+      "id": "fin-b2-w19-20",
+      "type": "multipleChoice",
+      "prompt": "The total amount of ________ is the maximum sum the insurance company will pay.",
+      "options": ["coverage", "premium", "deductible", "interest"],
+      "answerIndex": 0,
+      "explanation": "Coverage refers to the amount of protection or the limit of the policy."
+    },
+    {
+      "id": "fin-b2-w19-21",
+      "type": "fillBlanks",
+      "prompt": "Fill in the blank with the correct passive form: The risks [are calculated] by expert actuaries.",
+      "text": "The risks [are calculated] by expert actuaries.",
+      "answers": ["are calculated"],
+      "explanation": "Passive voice: be + past participle."
+    },
+    {
+      "id": "fin-b2-w19-22",
+      "type": "fillBlanks",
+      "prompt": "Fill in the blank: The insurance [premium] is the amount you pay for coverage.",
+      "text": "The insurance [premium] is the amount you pay for coverage.",
+      "answers": ["premium"],
+      "explanation": "Premium is the standard term for the cost of insurance."
+    },
+    {
+      "id": "fin-b2-w19-23",
+      "type": "multipleChoice",
+      "prompt": "Reinsurance ________ by primary insurers to transfer some of their risk to another company.",
+      "options": ["is purchased", "purchases", "are purchased", "purchasing"],
+      "answerIndex": 0,
+      "explanation": "Reinsurance is insurance for insurance companies."
+    },
+    {
+      "id": "fin-b2-w19-24",
+      "type": "multipleChoice",
+      "prompt": "The policy ________ if the premium is not paid within the grace period.",
+      "options": ["will be canceled", "will cancel", "is cancel", "canceled"],
+      "answerIndex": 0,
+      "explanation": "Future passive: 'will be canceled'."
+    },
+    {
+      "id": "fin-b2-w19-25",
+      "type": "multipleChoice",
+      "prompt": "An insurance ________ acts as an intermediary between the client and the insurance company.",
+      "options": ["broker", "underwriter", "actuary", "adjuster"],
+      "answerIndex": 0,
+      "explanation": "Brokers represent the interests of the clients."
+    },
+    {
+      "id": "fin-b2-w19-26",
+      "type": "multipleChoice",
+      "prompt": "The damage to the building ________ by a professional appraiser.",
+      "options": ["was assessed", "assessed", "is assess", "were assessed"],
+      "answerIndex": 0,
+      "explanation": "Past passive: 'was assessed'."
+    },
+    {
+      "id": "fin-b2-w19-27",
+      "type": "multipleChoice",
+      "prompt": "Professional ________ insurance protects doctors and lawyers against lawsuits.",
+      "options": ["indemnity", "property", "health", "life"],
+      "answerIndex": 0,
+      "explanation": "Professional indemnity (or malpractice) insurance covers legal liability for professional errors."
+    },
+    {
+      "id": "fin-b2-w19-28",
+      "type": "multipleChoice",
+      "prompt": "All medical records ________ strictly confidential by the insurer.",
+      "options": ["are kept", "is kept", "keep", "keeping"],
+      "answerIndex": 0,
+      "explanation": "Present passive: 'are kept'."
+    },
+    {
+      "id": "fin-b2-w19-29",
+      "type": "multipleChoice",
+      "prompt": "The ________ period is the time between the start of the policy and when coverage begins.",
+      "options": ["waiting", "running", "working", "sleeping"],
+      "answerIndex": 0,
+      "explanation": "A waiting period is common in health and disability insurance."
+    },
+    {
+      "id": "fin-b2-w19-30",
+      "type": "multipleChoice",
+      "prompt": "The terms of the contract ________ clearly in the document.",
+      "options": ["are stated", "is stated", "states", "stating"],
+      "answerIndex": 0,
+      "explanation": "Present passive: 'are stated'."
+    },
+    {
+      "id": "fin-b2-w19-31",
+      "type": "multipleChoice",
+      "prompt": "If a claim is ________, the policyholder can usually file an appeal.",
+      "options": ["denied", "accepted", "ignored", "forgotten"],
+      "answerIndex": 0,
+      "explanation": "'Denied' is the formal term for rejecting a claim."
+    },
+    {
+      "id": "fin-b2-w19-32",
+      "type": "multipleChoice",
+      "prompt": "Cyber ________ insurance is becoming increasingly important for modern businesses.",
+      "options": ["liability", "premium", "actuary", "underwriting"],
+      "answerIndex": 0,
+      "explanation": "Cyber liability insurance covers losses from data breaches and other cyber threats."
+    },
+    {
+      "id": "fin-b2-w19-33",
+      "type": "multipleChoice",
+      "prompt": "The annual report ________ to the board of directors next month.",
+      "options": ["will be presented", "will present", "presents", "is present"],
+      "answerIndex": 0,
+      "explanation": "Future passive: 'will be presented'."
+    },
+    {
+      "id": "fin-b2-w19-34",
+      "type": "multipleChoice",
+      "prompt": "A ________ is a person named in a life insurance policy to receive the death benefit.",
+      "options": ["beneficiary", "policyholder", "underwriter", "actuary"],
+      "answerIndex": 0,
+      "explanation": "The beneficiary receives the payout."
+    },
+    {
+      "id": "fin-b2-w19-35",
+      "type": "multipleChoice",
+      "prompt": "The application ________ due to incomplete information.",
+      "options": ["was rejected", "is reject", "rejected", "were rejected"],
+      "answerIndex": 0,
+      "explanation": "Past passive: 'was rejected'."
+    },
+    {
+      "id": "fin-b2-w19-36",
+      "type": "multipleChoice",
+      "prompt": "Maritime insurance ________ to cover risks related to shipping and transport by sea.",
+      "options": ["is designed", "designs", "are designed", "designing"],
+      "answerIndex": 0,
+      "explanation": "Present passive: 'is designed'."
+    },
+    {
+      "id": "fin-b2-w19-37",
+      "type": "multipleChoice",
+      "prompt": "The ________ is the amount the insurance company pays out for a covered loss.",
+      "options": ["payout", "premium", "deductible", "commission"],
+      "answerIndex": 0,
+      "explanation": "Payout refers to the actual payment made on a claim."
+    },
+    {
+      "id": "fin-b2-w19-38",
+      "type": "multipleChoice",
+      "prompt": "Staff training ________ every six months to ensure compliance.",
+      "options": ["is conducted", "conducts", "are conducted", "conducting"],
+      "answerIndex": 0,
+      "explanation": "Present passive: 'is conducted'."
+    },
+    {
+      "id": "fin-b2-w19-39",
+      "type": "multipleChoice",
+      "prompt": "Travel insurance usually includes ________ for trip cancellations and medical emergencies.",
+      "options": ["coverage", "premium", "deductible", "interest"],
+      "answerIndex": 0,
+      "explanation": "Coverage refers to the protections included in the policy."
+    },
+    {
+      "id": "fin-b2-w19-40",
+      "type": "multipleChoice",
+      "prompt": "The customer ________ about the changes in the policy terms.",
+      "options": ["was informed", "informed", "is inform", "were informed"],
+      "answerIndex": 0,
+      "explanation": "Past passive: 'was informed'."
+    },
+    {
+      "id": "fin-b2-w19-41",
+      "type": "multipleChoice",
+      "prompt": "An insurance ________ is a legal document that outlines the terms of the agreement.",
+      "options": ["policy", "bill", "receipt", "memo"],
+      "answerIndex": 0,
+      "explanation": "The policy is the official contract."
+    },
+    {
+      "id": "fin-b2-w19-42",
+      "type": "multipleChoice",
+      "prompt": "The risks of natural disasters ________ by global climate patterns.",
+      "options": ["are influenced", "is influenced", "influences", "influencing"],
+      "answerIndex": 0,
+      "explanation": "Present passive: 'are influenced' (plural)."
+    },
+    {
+      "id": "fin-b2-w19-43",
+      "type": "multipleChoice",
+      "prompt": "A ________ sum is a one-time payment instead of a series of smaller payments.",
+      "options": ["lump", "flat", "big", "total"],
+      "answerIndex": 0,
+      "explanation": "A 'lump sum' is a common term for a single large payment."
+    },
+    {
+      "id": "fin-b2-w19-44",
+      "type": "multipleChoice",
+      "prompt": "The new legislation ________ by the parliament last week.",
+      "options": ["was passed", "is passed", "passed", "were passed"],
+      "answerIndex": 0,
+      "explanation": "Past passive: 'was passed'."
+    },
+    {
+      "id": "fin-b2-w19-45",
+      "type": "multipleChoice",
+      "prompt": "________ insurance covers damage to your own vehicle regardless of who is at fault.",
+      "options": ["Collision", "Liability", "Health", "Life"],
+      "answerIndex": 0,
+      "explanation": "Collision insurance covers damage to the insured's vehicle."
+    },
+    {
+      "id": "fin-b2-w19-46",
+      "type": "multipleChoice",
+      "prompt": "The files ________ to the cloud server every night.",
+      "options": ["are uploaded", "is uploaded", "uploads", "uploading"],
+      "answerIndex": 0,
+      "explanation": "Present passive: 'are uploaded' (plural)."
+    },
+    {
+      "id": "fin-b2-w19-47",
+      "type": "multipleChoice",
+      "prompt": "A ________ of insurance is a document that proves you have active coverage.",
+      "options": ["certificate", "receipt", "ticket", "coupon"],
+      "answerIndex": 0,
+      "explanation": "A certificate of insurance is a standard proof of coverage."
+    },
+    {
+      "id": "fin-b2-w19-48",
+      "type": "multipleChoice",
+      "prompt": "The final decision ________ by the senior underwriter tomorrow.",
+      "options": ["will be made", "will make", "makes", "is make"],
+      "answerIndex": 0,
+      "explanation": "Future passive: 'will be made'."
+    },
+    {
+      "id": "fin-b2-w19-49",
+      "type": "multipleChoice",
+      "prompt": "Group ________ insurance is a common benefit provided by employers.",
+      "options": ["health", "car", "home", "pet"],
+      "answerIndex": 0,
+      "explanation": "Group health insurance is a standard employee benefit."
+    },
+    {
+      "id": "fin-b2-w19-50",
+      "type": "multipleChoice",
+      "prompt": "The insurance industry ________ as one of the most stable sectors in the economy.",
+      "options": ["is regarded", "regards", "are regarded", "regarding"],
+      "answerIndex": 0,
+      "explanation": "Present passive: 'is regarded'."
+    }
+  ]
+}

@@ -6,11 +6,13 @@ import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Progress } from '@/components/ui/progress';
 import { Button } from '@/components/ui/button';
-import { BookOpen, Headphones, PenTool, MessageSquare, Clock, CheckCircle2, ChevronLeft } from 'lucide-react';
+import { BookOpen, Headphones, PenTool, MessageSquare, Clock, CheckCircle2, ChevronLeft, Sparkles } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import MicroLesson from './activities/MicroLesson';
 import QuizActivity from './activities/QuizActivity';
 import EmailTaskActivity from './activities/EmailTaskActivity';
 import RoleplayActivity from './activities/RoleplayActivity';
+import ReactMarkdown from 'react-markdown';
 
 interface WeeklyCourseViewerProps {
   weekData: any;
@@ -65,6 +67,17 @@ export default function WeeklyCourseViewer({ weekData }: WeeklyCourseViewerProps
     return day.activities.every((a: any) => completedActivities.includes(a.id));
   };
 
+  const VocabularyHighlighter = ({ text }: { text: string }) => {
+    if (!text) return null;
+    let highlightedText = text;
+    week.vocabulary.forEach((word: string) => {
+      const regex = new RegExp(`\\b(${word})\\b`, 'gi');
+      highlightedText = highlightedText.replace(regex, '<mark class="bg-yellow-200 px-1 rounded font-bold text-slate-900">$1</mark>');
+    });
+
+    return <span dangerouslySetInnerHTML={{ __html: highlightedText }} />;
+  };
+
   const renderActivity = () => {
     if (!activeActivity) return null;
 
@@ -75,50 +88,95 @@ export default function WeeklyCourseViewer({ weekData }: WeeklyCourseViewerProps
       setActiveActivityId(null);
     };
 
-    switch (activeActivity.type) {
-      case 'micro_lesson':
-        return <MicroLesson content={activeActivity.content} onComplete={onComplete} />;
-      case 'practice_set':
-      case 'weekly_quiz':
-      case 'listening_quiz':
-        const quizQuestions = activeActivity.questionIds.map((id: string) => 
-          itemBank.find((q: any) => q.id === id)
-        );
-        const asset = assets.find((a: any) => a.id === activeActivity.assetId);
-        return <QuizActivity questions={quizQuestions} onComplete={onComplete} audioUrl={asset?.audioUrl} />;
-      case 'email_task':
-        const template = templates.find((t: any) => t.id === activeActivity.templateId);
-        return <EmailTaskActivity template={template} onComplete={onComplete} />;
-      case 'roleplay':
-        return <RoleplayActivity content={activeActivity.content} onComplete={onComplete} />;
-      default:
-        return (
-          <div className="text-center p-12 bg-slate-50 rounded-3xl border-2 border-dashed border-slate-200">
-            <h3 className="text-xl font-bold text-slate-400">Activity type "{activeActivity.type}" not implemented yet</h3>
-            <Button onClick={() => setActiveActivityId(null)} className="mt-4">Go Back</Button>
-          </div>
-        );
-    }
+    const activityContent = (() => {
+      switch (activeActivity.type) {
+        case 'micro_lesson':
+          return <MicroLesson content={activeActivity.content} onComplete={onComplete} vocabulary={week.vocabulary} />;
+        case 'practice_set':
+        case 'weekly_quiz':
+        case 'listening_quiz':
+          const quizQuestions = activeActivity.questionIds.map((id: string) => 
+            itemBank.find((q: any) => q.id === id)
+          );
+          const asset = assets.find((a: any) => a.id === activeActivity.assetId);
+          return <QuizActivity questions={quizQuestions} onComplete={onComplete} audioUrl={asset?.audioUrl} vocabulary={week.vocabulary} />;
+        case 'email_task':
+          const template = templates.find((t: any) => t.id === activeActivity.templateId);
+          return <EmailTaskActivity template={template} onComplete={onComplete} />;
+        case 'roleplay':
+          return <RoleplayActivity content={activeActivity.content} onComplete={onComplete} />;
+        default:
+          return (
+            <div className="text-center p-12 bg-slate-50 rounded-3xl border-2 border-dashed border-slate-200">
+              <h3 className="text-xl font-bold text-slate-400">Activity type "{activeActivity.type}" not implemented yet</h3>
+              <Button onClick={() => setActiveActivityId(null)} className="mt-4">Go Back</Button>
+            </div>
+          );
+      }
+    })();
+
+    return (
+      <motion.div
+        key={activeActivityId}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -20 }}
+        transition={{ duration: 0.3 }}
+      >
+        {activityContent}
+      </motion.div>
+    );
   };
+
+  const Confetti = () => (
+    <div className="fixed inset-0 pointer-events-none z-50 overflow-hidden">
+      {[...Array(50)].map((_, i) => (
+        <motion.div
+          key={i}
+          className="absolute w-2 h-2 rounded-sm"
+          initial={{ 
+            top: -20, 
+            left: `${Math.random() * 100}vw`,
+            backgroundColor: ['#ff4d4d', '#4dff4d', '#4d4dff', '#ffff4d', '#ff4dff'][Math.floor(Math.random() * 5)],
+            rotate: 0 
+          }}
+          animate={{ 
+            top: '120vh',
+            rotate: 360,
+            left: `${(Math.random() * 100) - 10 + (Math.random() * 20)}vw`
+          }}
+          transition={{ 
+            duration: 2 + Math.random() * 3,
+            repeat: Infinity,
+            ease: "linear",
+            delay: Math.random() * 5
+          }}
+        />
+      ))}
+    </div>
+  );
 
   if (activeActivityId) {
     return (
-      <div className="max-w-4xl mx-auto p-6 space-y-6">
+      <div className="max-w-4xl mx-auto p-6 space-y-6 min-h-screen">
         <Button 
           variant="ghost" 
           onClick={() => setActiveActivityId(null)}
-          className="font-bold text-slate-500 hover:text-coral-600 gap-2"
+          className="font-bold text-slate-500 hover:text-coral-600 gap-2 mb-4"
         >
           <ChevronLeft className="w-4 h-4" />
           Back to Course Overview
         </Button>
-        {renderActivity()}
+        <AnimatePresence mode="wait">
+          {renderActivity()}
+        </AnimatePresence>
       </div>
     );
   }
 
   return (
     <div className="max-w-6xl mx-auto p-6 space-y-8 animate-in fade-in duration-700">
+      {progressPercentage === 100 && <Confetti />}
       {progressPercentage === 100 && (
         <Card className="bg-gradient-to-r from-coral-500 to-orange-400 text-white border-none shadow-xl overflow-hidden">
           <CardContent className="p-8 flex items-center justify-between">

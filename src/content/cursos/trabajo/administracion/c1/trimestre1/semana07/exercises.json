@@ -1,0 +1,410 @@
+{
+  "goal": "administracion",
+  "level": "C1",
+  "trimester": 1,
+  "weekId": "semana07",
+  "title": "Relative Valuation Exercises",
+  "description": "Analyze multiples and practice comparative professional English.",
+  "items": [
+    {
+      "id": "fin-c1-w7-1",
+      "type": "multipleChoice",
+      "prompt": "Which multiple is 'capital structure neutral'?",
+      "options": ["P/E Ratio", "EV/EBITDA", "Price/Book", "Dividend Yield"],
+      "answerIndex": 1,
+      "explanation": "Because EV includes debt and EBITDA is before interest, the ratio is not affected by how the company is financed."
+    },
+    {
+      "id": "fin-c1-w7-2",
+      "type": "multipleChoice",
+      "prompt": "Precedent transactions usually show higher multiples than trading comps because of:",
+      "options": ["Taxes", "The Control Premium", "Inflation", "Bad accounting"],
+      "answerIndex": 1,
+      "explanation": "Acquirers pay extra to gain control of a company."
+    },
+    {
+      "id": "fin-c1-w7-3",
+      "type": "multipleChoice",
+      "prompt": "If a company is 'trading at a premium', its multiple is:",
+      "options": ["Lower than its peers", "Higher than its peers", "The same as its peers", "Negative"],
+      "answerIndex": 1,
+      "explanation": "A premium means the market values it more highly per unit of earnings/revenue."
+    },
+    {
+      "id": "fin-c1-w7-4",
+      "type": "multipleChoice",
+      "prompt": "Identify the correct comparative structure: 'Our margin is ___ than last year.'",
+      "options": ["marginally better", "more better", "gooder", "highly better"],
+      "answerIndex": 0,
+      "explanation": "'Marginally better' is professional and precise."
+    },
+    {
+      "id": "fin-c1-w7-5",
+      "type": "multipleChoice",
+      "prompt": "EV stands for:",
+      "options": ["Estimated Value", "Enterprise Value", "Equity Variable", "Earnings Verification"],
+      "answerIndex": 1,
+      "explanation": "Enterprise Value is the total 'takeover' price of a business."
+    },
+    {
+      "id": "fin-c1-w7-6",
+      "type": "multipleChoice",
+      "prompt": "Which multiple is most appropriate for a high-growth startup that is not yet profitable?",
+      "options": ["P/E Ratio", "EV/EBITDA", "EV/Revenue", "Dividend Yield"],
+      "answerIndex": 2,
+      "explanation": "When earnings and EBITDA are negative, revenue multiples are used for comparison."
+    },
+    {
+      "id": "fin-c1-w7-7",
+      "type": "multipleChoice",
+      "prompt": "Professional comparison: 'The valuation of Firm A is ___ with current market trends.'",
+      "options": ["roughly in line", "sort of like", "about the same", "near to"],
+      "answerIndex": 0,
+      "explanation": "'Roughly in line with' is a standard professional phrase for indicating consistency."
+    },
+    {
+      "id": "fin-c1-w7-8",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Peer Group'?",
+      "options": ["A group of friends at work", "A set of companies with similar business models and financial profiles", "A group of banks", "The board of directors"],
+      "answerIndex": 1,
+      "explanation": "A robust peer group is essential for accurate relative valuation."
+    },
+    {
+      "id": "fin-c1-w7-9",
+      "type": "multipleChoice",
+      "prompt": "Why might a company trade at a 'discount' to its peers?",
+      "options": ["Higher growth expectations", "Lower profitability or higher perceived risk", "It has a better brand", "It is located in a popular city"],
+      "answerIndex": 1,
+      "explanation": "A discount usually reflects underlying weaknesses or market skepticism."
+    },
+    {
+      "id": "fin-c1-w7-10",
+      "type": "multipleChoice",
+      "prompt": "In precedent transactions, 'Synergies' usually refer to:",
+      "options": ["The energy used in the office", "Cost savings or revenue increases expected from a merger", "New office furniture", "A type of tax"],
+      "answerIndex": 1,
+      "explanation": "Synergies often justify paying a control premium."
+    },
+    {
+      "id": "fin-c1-w7-11",
+      "type": "multipleChoice",
+      "prompt": "Choose the most formal comparative: 'The stock is ___ undervalued.'",
+      "options": ["really", "significantly", "way", "totally"],
+      "answerIndex": 1,
+      "explanation": "'Significantly' is the appropriate adverb for formal financial analysis."
+    },
+    {
+      "id": "fin-c1-w7-12",
+      "type": "multipleChoice",
+      "prompt": "What does 'LTM' stand for in multiples?",
+      "options": ["Long Term Metric", "Last Twelve Months", "Lower Tier Market", "Legal Total Margin"],
+      "answerIndex": 1,
+      "explanation": "LTM multiples use historical data from the most recent 12 months."
+    },
+    {
+      "id": "fin-c1-w7-13",
+      "type": "multipleChoice",
+      "prompt": "What is 'Forward P/E' based on?",
+      "options": ["Last year's earnings", "Estimated earnings for the next 12 months", "The CEO's predicted wealth", "Total revenue"],
+      "answerIndex": 1,
+      "explanation": "Forward multiples are more relevant for growth-oriented investors."
+    },
+    {
+      "id": "fin-c1-w7-14",
+      "type": "multipleChoice",
+      "prompt": "Precision in comparison: 'Company X ___ its peers in terms of ROI.'",
+      "options": ["beats", "outperforms", "is better than", "wins"],
+      "answerIndex": 1,
+      "explanation": "'Outperforms' is the standard professional verb for comparing performance metrics."
+    },
+    {
+      "id": "fin-c1-w7-15",
+      "type": "multipleChoice",
+      "prompt": "A 'Control Premium' is paid to:",
+      "options": ["Control the employees", "Acquire a majority stake and the right to make strategic decisions", "Pay the government", "Lower the stock price"],
+      "answerIndex": 1,
+      "explanation": "The ability to control a company has intrinsic value above the share price."
+    },
+    {
+      "id": "fin-c1-w7-16",
+      "type": "multipleChoice",
+      "prompt": "Which of these is NOT a typical peer group selection criterion?",
+      "options": ["Geography", "Industry", "Size", "The color of the logo"],
+      "answerIndex": 3,
+      "explanation": "Peer groups should focus on economic and operational similarities."
+    },
+    {
+      "id": "fin-c1-w7-17",
+      "type": "multipleChoice",
+      "prompt": "Professional register: 'The valuation reflects a ___ from the previous quarter.'",
+      "options": ["step down", "notable departure", "change", "drop"],
+      "answerIndex": 1,
+      "explanation": "'Notable departure' is a sophisticated way to describe a significant change."
+    },
+    {
+      "id": "fin-c1-w7-18",
+      "type": "multipleChoice",
+      "prompt": "What does 'P/B Ratio' stand for?",
+      "options": ["Price-to-Book Ratio", "Profit-to-Business Ratio", "Principal-to-Bank Ratio", "Payment-to-Bond Ratio"],
+      "answerIndex": 0,
+      "explanation": "P/B compares a firm's market value to its book value."
+    },
+    {
+      "id": "fin-c1-w7-19",
+      "type": "multipleChoice",
+      "prompt": "If a company has a P/E of 20x and the industry average is 15x, it is trading at:",
+      "options": ["A discount", "A premium", "Par", "The same level"],
+      "answerIndex": 1,
+      "explanation": "It is more expensive relative to its earnings than its peers."
+    },
+    {
+      "id": "fin-c1-w7-20",
+      "type": "multipleChoice",
+      "prompt": "Formal comparison: 'Revenue growth has been ___ stronger than anticipated.'",
+      "options": ["much", "considerably", "a lot", "so"],
+      "answerIndex": 1,
+      "explanation": "'Considerably' is a high-level adverb for professional reports."
+    },
+    {
+      "id": "fin-c1-w7-21",
+      "type": "multipleChoice",
+      "prompt": "What is 'Relative Valuation' often called in banking?",
+      "options": ["Intrinsic valuation", "Comps (Comparables)", "Modeling", "Forecasting"],
+      "answerIndex": 1,
+      "explanation": "Comps is the most common industry jargon."
+    },
+    {
+      "id": "fin-c1-w7-22",
+      "type": "multipleChoice",
+      "prompt": "Which metric is best for valuing a company with high levels of debt?",
+      "options": ["P/E Ratio", "EV/EBITDA", "Dividend Yield", "Market Cap"],
+      "answerIndex": 1,
+      "explanation": "EV/EBITDA looks at the entire capital structure (EV) and operating profit (EBITDA), making it more accurate for levered firms."
+    },
+    {
+      "id": "fin-c1-w7-23",
+      "type": "multipleChoice",
+      "prompt": "Comparative nuance: 'The multiple is ___ below the historical mean.'",
+      "options": ["slightly", "substantially", "way", "both slightly and substantially"],
+      "answerIndex": 3,
+      "explanation": "Both 'slightly' and 'substantially' provide necessary precision."
+    },
+    {
+      "id": "fin-c1-w7-24",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Transaction Multiple'?",
+      "options": ["The multiple paid in a recent M&A deal", "The number of transactions a company does", "A tax on bank transfers", "The interest rate on a loan"],
+      "answerIndex": 0,
+      "explanation": "Transaction multiples are used in Precedent Transactions analysis."
+    },
+    {
+      "id": "fin-c1-w7-25",
+      "type": "multipleChoice",
+      "prompt": "If a company is 'Undervalued', its intrinsic value is ___ its market price.",
+      "options": ["Higher than", "Lower than", "Equal to", "Zero"],
+      "answerIndex": 0,
+      "explanation": "Undervalued means it's worth more than people are currently paying."
+    },
+    {
+      "id": "fin-c1-w7-26",
+      "type": "multipleChoice",
+      "prompt": "Professional register: 'We ___ the peer group to ensure relevance.'",
+      "options": ["fixed", "refined", "changed", "did"],
+      "answerIndex": 1,
+      "explanation": "'Refined' implies careful, professional adjustment."
+    },
+    {
+      "id": "fin-c1-w7-27",
+      "type": "multipleChoice",
+      "prompt": "What is 'Basic Shares Outstanding'?",
+      "options": ["The shares held only by the CEO", "The number of common shares currently held by all shareholders", "The total shares including options and warrants", "The number of shares at the bank"],
+      "answerIndex": 1,
+      "explanation": "Basic shares do not include potentially dilutive securities."
+    },
+    {
+      "id": "fin-c1-w7-28",
+      "type": "multipleChoice",
+      "prompt": "What are 'Diluted Shares'?",
+      "options": ["Shares that have lost value", "The total number of shares if all convertible securities (options, warrants) were exercised", "Shares sold to the public", "Shares that are not voting"],
+      "answerIndex": 1,
+      "explanation": "Diluted shares provide a more conservative (larger) denominator for multiples."
+    },
+    {
+      "id": "fin-c1-w7-29",
+      "type": "multipleChoice",
+      "prompt": "Comparative phrasing: 'Our performance is ___ superior to the competition.'",
+      "options": ["clearly", "vastly", "markedly", "all of the above"],
+      "answerIndex": 3,
+      "explanation": "These are all excellent C1-level adverbs for emphasizing a difference."
+    },
+    {
+      "id": "fin-c1-w7-30",
+      "type": "multipleChoice",
+      "prompt": "What is 'Mean' in the context of comps?",
+      "options": ["An angry analyst", "The average", "The middle number", "The most frequent number"],
+      "answerIndex": 1,
+      "explanation": "Analysts often use the Mean or Median multiple to value the target."
+    },
+    {
+      "id": "fin-c1-w7-31",
+      "type": "multipleChoice",
+      "prompt": "What is 'Median'?",
+      "options": ["The average", "The middle value in a set of data", "The difference between high and low", "A type of tax"],
+      "answerIndex": 1,
+      "explanation": "The median is often preferred in valuation because it is less affected by 'outliers' (extreme values)."
+    },
+    {
+      "id": "fin-c1-w7-32",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Vertical' peer group?",
+      "options": ["Companies in the same industry", "Companies in the same supply chain (customers or suppliers)", "Companies of the same size", "Companies with the same CEO"],
+      "answerIndex": 1,
+      "explanation": "Vertical comps look at the value chain, while horizontal look at competitors."
+    },
+    {
+      "id": "fin-c1-w7-33",
+      "type": "multipleChoice",
+      "prompt": "Precision in comparison: 'There is a ___ between the two valuations.'",
+      "options": ["gap", "discrepancy", "difference", "all of the above"],
+      "answerIndex": 3,
+      "explanation": "'Discrepancy' is a particularly formal and precise choice."
+    },
+    {
+      "id": "fin-c1-w7-34",
+      "type": "multipleChoice",
+      "prompt": "If a multiple is 'Depressed', it means it is:",
+      "options": ["Sad", "Unusually low", "Unusually high", "Negative"],
+      "answerIndex": 1,
+      "explanation": "A depressed multiple may indicate a buying opportunity or fundamental problems."
+    },
+    {
+      "id": "fin-c1-w7-35",
+      "type": "multipleChoice",
+      "prompt": "What is an 'Outlier' in a peer group analysis?",
+      "options": ["A company that is performing well", "A data point that is significantly different from the others", "A company that is located abroad", "A new company"],
+      "answerIndex": 1,
+      "explanation": "Outliers are often excluded from the average to prevent distortion."
+    },
+    {
+      "id": "fin-c1-w7-36",
+      "type": "multipleChoice",
+      "prompt": "Professional register: 'We ___ the multiples to account for differing growth rates.'",
+      "options": ["fixed", "adjusted", "changed", "made"],
+      "answerIndex": 1,
+      "explanation": "'Adjusted' is the technical term for making modifications to data for comparability."
+    },
+    {
+      "id": "fin-c1-w7-37",
+      "type": "multipleChoice",
+      "prompt": "What does 'EV / EBIT' measure?",
+      "options": ["Value relative to revenue", "Value relative to operating profit after depreciation", "The number of employees", "The tax rate"],
+      "answerIndex": 1,
+      "explanation": "EV/EBIT is useful for industries where depreciation is a major, ongoing cost."
+    },
+    {
+      "id": "fin-c1-w7-38",
+      "type": "multipleChoice",
+      "prompt": "If the peer group has a median EV/EBITDA of 10x and our target has EBITDA of $50M, what is its implied EV?",
+      "options": ["$5M", "$500M", "$10M", "$50M"],
+      "answerIndex": 1,
+      "explanation": "10 x 50 = 500."
+    },
+    {
+      "id": "fin-c1-w7-39",
+      "type": "multipleChoice",
+      "prompt": "Comparative nuance: 'The results are ___ different from last year.'",
+      "options": ["slightly", "vastly", "marginally", "all of the above"],
+      "answerIndex": 3,
+      "explanation": "Using a range of adverbs demonstrates C1-level proficiency."
+    },
+    {
+      "id": "fin-c1-w7-40",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Sought-after' multiple?",
+      "options": ["A multiple everyone is looking for", "A multiple used by a specific bank", "A multiple that is very high", "A multiple that is very low"],
+      "answerIndex": 0,
+      "explanation": "It refers to a common or highly relevant metric for a specific industry."
+    },
+    {
+      "id": "fin-c1-w7-41",
+      "type": "multipleChoice",
+      "prompt": "Which of these industries is best valued using the 'P/B Ratio'?",
+      "options": ["Software", "Banking/Financial Services", "Retail", "Pharmaceuticals"],
+      "answerIndex": 1,
+      "explanation": "For banks, book value is a more relevant measure than for tech companies with many intangible assets."
+    },
+    {
+      "id": "fin-c1-w7-42",
+      "type": "multipleChoice",
+      "prompt": "In a report, 'In line with' means:",
+      "options": ["Waiting in a queue", "Consistent with", "Opposite to", "Higher than"],
+      "answerIndex": 1,
+      "explanation": "It is a formal way to say 'similar to' or 'matching'."
+    },
+    {
+      "id": "fin-c1-w7-43",
+      "type": "multipleChoice",
+      "prompt": "Comparative phrasing: '___ to its competitors, TechCorp is overvalued.'",
+      "options": ["Compared", "Relative", "In comparison", "All of the above"],
+      "answerIndex": 3,
+      "explanation": "These are all standard ways to introduce a comparison."
+    },
+    {
+      "id": "fin-c1-w7-44",
+      "type": "multipleChoice",
+      "prompt": "What is 'Sum-of-the-Parts' (SOTP) valuation?",
+      "options": ["Adding up all the employees", "Valuing each division of a conglomerate separately and adding them together", "Calculating the price of office equipment", "A type of tax"],
+      "answerIndex": 1,
+      "explanation": "SOTP is used for complex companies with very different business units."
+    },
+    {
+      "id": "fin-c1-w7-45",
+      "type": "multipleChoice",
+      "prompt": "If a transaction multiple is 12x and the trading multiple is 9x, the 'Control Premium' is approximately:",
+      "options": ["3%", "33%", "12%", "9%"],
+      "answerIndex": 1,
+      "explanation": "(12 - 9) / 9 = 0.333 or 33.3%."
+    },
+    {
+      "id": "fin-c1-w7-46",
+      "type": "multipleChoice",
+      "prompt": "Professional register: 'The valuation range is ___ .' (widely spaced)",
+      "options": ["big", "substantial", "extensive", "broad"],
+      "answerIndex": 3,
+      "explanation": "A 'broad' range is a common colocation in valuation."
+    },
+    {
+      "id": "fin-c1-w7-47",
+      "type": "multipleChoice",
+      "prompt": "What is 'EBITDA Margin'?",
+      "options": ["EBITDA / Revenue", "Revenue / EBITDA", "EBITDA - Tax", "EBITDA / Employees"],
+      "answerIndex": 0,
+      "explanation": "It measures a company's operating profitability as a percentage of its revenue."
+    },
+    {
+      "id": "fin-c1-w7-48",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Horizontal' comparison?",
+      "options": ["Comparing a company to its direct competitors", "Comparing a company to its suppliers", "Comparing a company to its customers", "Comparing a company to a company in a different industry"],
+      "answerIndex": 0,
+      "explanation": "Horizontal analysis is the basis of most trading comps."
+    },
+    {
+      "id": "fin-c1-w7-49",
+      "type": "multipleChoice",
+      "prompt": "Choose the most formal connector: 'Multiples are high; ___ , we must be cautious.'",
+      "options": ["accordingly", "so", "and", "because"],
+      "answerIndex": 0,
+      "explanation": "'Accordingly' is a formal connector indicating a logical consequence."
+    },
+    {
+      "id": "fin-c1-w7-50",
+      "type": "multipleChoice",
+      "prompt": "Which multiple is best for a company with 'negative' EBITDA?",
+      "options": ["P/E Ratio", "EV/EBITDA", "EV/Revenue", "Market Cap / Debt"],
+      "answerIndex": 2,
+      "explanation": "Revenue is rarely negative, so it provides a valid basis for comparison when profits are absent."
+    }
+  ]
+}

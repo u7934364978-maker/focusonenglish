@@ -1,0 +1,50 @@
+{
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 3,
+  "weekId": "semana29",
+  "examId": "fin-a1-w29-exam",
+  "title": "Examen: Pagando Facturas y Servicios",
+  "items": [
+    {
+      "id": "fin-a1-w29-exam-1",
+      "type": "multipleChoice",
+      "prompt": "I pay my rent ________ the first day of the month.",
+      "options": ["at", "in", "on", "to"],
+      "answerIndex": 2,
+      "explanation": "We use 'on' for specific days."
+    },
+    {
+      "id": "fin-a1-w29-exam-2",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Bill'?",
+      "options": ["A type of money", "A document that says how much you owe for a service", "A bank manager", "A credit card"],
+      "answerIndex": 1,
+      "explanation": "A bill (factura) is a request for payment for services like electricity."
+    },
+    {
+      "id": "fin-a1-w29-exam-3",
+      "type": "multipleChoice",
+      "prompt": "The meeting is ________ 10:00 AM.",
+      "options": ["on", "in", "at", "by"],
+      "answerIndex": 2,
+      "explanation": "We use 'at' for specific times."
+    },
+    {
+      "id": "fin-a1-w29-exam-4",
+      "type": "multipleChoice",
+      "prompt": "What is 'Rent'?",
+      "options": ["Money paid to live in a house you don't own", "Money paid for food", "Money paid for a car", "Money given by the bank"],
+      "answerIndex": 0,
+      "explanation": "Rent is the monthly payment for housing."
+    },
+    {
+      "id": "fin-a1-w29-exam-5",
+      "type": "multipleChoice",
+      "prompt": "I pay the electricity bill ________ January.",
+      "options": ["at", "on", "in", "to"],
+      "answerIndex": 2,
+      "explanation": "We use 'in' for months."
+    }
+  ]
+}

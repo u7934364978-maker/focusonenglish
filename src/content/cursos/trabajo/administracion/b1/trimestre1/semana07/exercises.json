@@ -1,0 +1,385 @@
+{
+  "goal": "administracion",
+  "level": "B1",
+  "trimester": 1,
+  "weekId": "semana07",
+  "title": "Loans and Credit",
+  "description": "Vocabulary for credit, loans, and the use of Adverbs of Manner (50 items).",
+  "items": [
+    {
+      "id": "finance-b1-w7-q1",
+      "type": "multiple-choice",
+      "question": "A number representing the creditworthiness of a person is called a:",
+      "options": ["Credit Limit", "Credit Score", "Interest Rate", "Installment"],
+      "answer": "Credit Score",
+      "explanation": "A credit score is a numerical expression based on a level analysis of a person's credit files."
+    },
+    {
+      "id": "finance-b1-w7-q2",
+      "type": "fill-in-the-blank",
+      "question": "The person or institution that owes money is the ________.",
+      "answer": "debtor",
+      "explanation": "A debtor is the party that has the obligation to pay back a debt."
+    },
+    {
+      "id": "finance-b1-w7-q3",
+      "type": "multiple-choice",
+      "question": "She reviewed the contract ________ before signing it.",
+      "options": ["careful", "carefully", "carefulness", "care"],
+      "answer": "carefully",
+      "explanation": "We use the adverb 'carefully' to describe how she reviewed the contract."
+    },
+    {
+      "id": "finance-b1-w7-q4",
+      "type": "fill-in-the-blank",
+      "question": "A ________ is a specific type of loan used to purchase a home or real estate.",
+      "answer": "mortgage",
+      "explanation": "A mortgage is a debt instrument, secured by the collateral of specified real estate property."
+    },
+    {
+      "id": "finance-b1-w7-q5",
+      "type": "multiple-choice",
+      "question": "The bank set a ________ of $5,000 on his new credit card.",
+      "options": ["Credit Score", "Credit Limit", "Collateral", "Debtor"],
+      "answer": "Credit Limit",
+      "explanation": "The credit limit is the maximum amount of credit a financial institution extends to a client."
+    },
+    {
+      "id": "finance-b1-w7-q6",
+      "type": "fill-in-the-blank",
+      "question": "The company is doing ________ financially this year.",
+      "answer": "well",
+      "explanation": "'Well' is the irregular adverb form of the adjective 'good'."
+    },
+    {
+      "id": "finance-b1-w7-q7",
+      "type": "multiple-choice",
+      "question": "An asset that a borrower offers as security for a loan is called:",
+      "options": ["Installment", "Collateral", "Interest Rate", "Creditor"],
+      "answer": "Collateral",
+      "explanation": "Collateral is a property or other asset that a borrower offers as a way for a lender to secure the loan."
+    },
+    {
+      "id": "finance-b1-w7-q8",
+      "type": "fill-in-the-blank",
+      "question": "He paid off the debt ________ to avoid interest charges.",
+      "answer": "quickly",
+      "explanation": "'Quickly' is an adverb of manner describing the speed of the payment."
+    },
+    {
+      "id": "finance-b1-w7-q9",
+      "type": "multiple-choice",
+      "question": "The percentage charged by a lender for borrowing money is the:",
+      "options": ["Interest Rate", "Credit Score", "Principal", "Installment"],
+      "answer": "Interest Rate",
+      "explanation": "The interest rate is the amount a lender charges for the use of assets, expressed as a percentage of the principal."
+    },
+    {
+      "id": "finance-b1-w7-q10",
+      "type": "fill-in-the-blank",
+      "question": "We must handle this loan application ________.",
+      "answer": "professionally",
+      "explanation": "'Professionally' is an adverb used to describe the standard of work expected."
+    },
+    {
+      "id": "finance-b1-w7-q11",
+      "type": "multiple-choice",
+      "question": "A loan used specifically to buy a vehicle is an:",
+      "options": ["Auto Loan", "Mortgage", "Personal Loan", "Business Loan"],
+      "answer": "Auto Loan",
+      "explanation": "Auto loans are secured loans used to purchase vehicles."
+    },
+    {
+      "id": "finance-b1-w7-q12",
+      "type": "fill-in-the-blank",
+      "question": "The figures were calculated ________ by the accountant.",
+      "answer": "precisely",
+      "explanation": "'Precisely' means in a way that is exact and accurate."
+    },
+    {
+      "id": "finance-b1-w7-q13",
+      "type": "multiple-choice",
+      "question": "The person or institution that lends money is the:",
+      "options": ["Debtor", "Creditor", "Borrower", "Broker"],
+      "answer": "Creditor",
+      "explanation": "A creditor is an entity that extends credit by giving another entity permission to borrow money."
+    },
+    {
+      "id": "finance-b1-w7-q14",
+      "type": "fill-in-the-blank",
+      "question": "Interest rates increased ________ last month.",
+      "answer": "sharply",
+      "explanation": "'Sharply' means in a sudden and significant way."
+    },
+    {
+      "id": "finance-b1-w7-q15",
+      "type": "multiple-choice",
+      "question": "One of several equal payments made over time to pay off a loan is an:",
+      "options": ["Installment", "Interest", "Limit", "Score"],
+      "answer": "Installment",
+      "explanation": "An installment is a sum of money due as one of several equal payments for something, spread over a period of time."
+    },
+    {
+      "id": "finance-b1-w7-q16",
+      "type": "fill-in-the-blank",
+      "question": "The market is moving ________ today.",
+      "answer": "fast",
+      "explanation": "'Fast' is an irregular adverb that has the same form as the adjective."
+    },
+    {
+      "id": "finance-b1-w7-q17",
+      "type": "multiple-choice",
+      "question": "Which of these is NOT a typical type of loan?",
+      "options": ["Mortgage", "Auto Loan", "Credit Score", "Personal Loan"],
+      "answer": "Credit Score",
+      "explanation": "A credit score is a number, not a type of loan."
+    },
+    {
+      "id": "finance-b1-w7-q18",
+      "type": "fill-in-the-blank",
+      "question": "The customer explained the situation ________.",
+      "answer": "clearly",
+      "explanation": "'Clearly' describes how the situation was explained, making it easy to understand."
+    },
+    {
+      "id": "finance-b1-w7-q19",
+      "type": "multiple-choice",
+      "question": "If you have a high credit score, you will likely get a lower:",
+      "options": ["Interest Rate", "Credit Limit", "Collateral", "Salary"],
+      "answer": "Interest Rate",
+      "explanation": "Better credit scores usually lead to more favorable (lower) interest rates."
+    },
+    {
+      "id": "finance-b1-w7-q20",
+      "type": "fill-in-the-blank",
+      "question": "They worked ________ to get the loan approved before the deadline.",
+      "answer": "hard",
+      "explanation": "'Hard' is an irregular adverb describing the intensity of their work."
+    },
+    {
+      "id": "finance-b1-w7-q21",
+      "type": "multiple-choice",
+      "question": "A personal loan is typically used for:",
+      "options": ["Buying a house", "General personal expenses", "Starting a multinational corporation", "Buying a car only"],
+      "answer": "General personal expenses",
+      "explanation": "Personal loans are versatile and can be used for various personal needs."
+    },
+    {
+      "id": "finance-b1-w7-q22",
+      "type": "fill-in-the-blank",
+      "question": "Please speak ________ so everyone can hear you in the meeting.",
+      "answer": "loudly",
+      "explanation": "'Loudly' is the adverb form of 'loud'."
+    },
+    {
+      "id": "finance-b1-w7-q23",
+      "type": "multiple-choice",
+      "question": "The debtor must pay the creditor back ________.",
+      "options": ["eventual", "eventually", "event", "events"],
+      "answer": "eventually",
+      "explanation": "'Eventually' is an adverb of manner/time meaning in the end."
+    },
+    {
+      "id": "finance-b1-w7-q24",
+      "type": "fill-in-the-blank",
+      "question": "He ________ admitted that he couldn't pay the installment this month.",
+      "answer": "honestly",
+      "explanation": "'Honestly' describes the manner in which he admitted the situation."
+    },
+    {
+      "id": "finance-b1-w7-q25",
+      "type": "multiple-choice",
+      "question": "Your credit ________ depends on your payment history.",
+      "options": ["Limit", "Score", "Mortgage", "Collateral"],
+      "answer": "Score",
+      "explanation": "Credit scores are heavily influenced by whether you pay your bills on time."
+    },
+    {
+      "id": "finance-b1-w7-q26",
+      "type": "fill-in-the-blank",
+      "question": "The bank processed the application ________.",
+      "answer": "efficiently",
+      "explanation": "'Efficiently' means in a way that achieves maximum productivity with minimum wasted effort."
+    },
+    {
+      "id": "finance-b1-w7-q27",
+      "type": "multiple-choice",
+      "question": "To get a mortgage, you usually need a:",
+      "options": ["Down payment", "Car", "New job", "Credit card only"],
+      "answer": "Down payment",
+      "explanation": "Most mortgages require an initial payment called a down payment."
+    },
+    {
+      "id": "finance-b1-w7-q28",
+      "type": "fill-in-the-blank",
+      "question": "The CEO spoke ________ about the new credit policy.",
+      "answer": "optimistically",
+      "explanation": "'Optimistically' describes the positive manner of the CEO's speech."
+    },
+    {
+      "id": "finance-b1-w7-q29",
+      "type": "multiple-choice",
+      "question": "When you miss a payment, it ________ affects your credit score.",
+      "options": ["negative", "negatively", "negativity", "negate"],
+      "answer": "negatively",
+      "explanation": "Missing payments has a bad (negative) impact on your score."
+    },
+    {
+      "id": "finance-b1-w7-q30",
+      "type": "fill-in-the-blank",
+      "question": "We must verify the information ________.",
+      "answer": "thoroughly",
+      "explanation": "'Thoroughly' means in a complete and detail-oriented way."
+    },
+    {
+      "id": "finance-b1-w7-q31",
+      "type": "multiple-choice",
+      "question": "If you provide collateral, the loan is considered:",
+      "options": ["Unsecured", "Secured", "Free", "Illegal"],
+      "answer": "Secured",
+      "explanation": "A secured loan is backed by an asset (collateral)."
+    },
+    {
+      "id": "finance-b1-w7-q32",
+      "type": "fill-in-the-blank",
+      "question": "The interest was calculated ________ by the system.",
+      "answer": "automatically",
+      "explanation": "'Automatically' means without human intervention."
+    },
+    {
+      "id": "finance-b1-w7-q33",
+      "type": "multiple-choice",
+      "question": "Which adverb is irregular?",
+      "options": ["Quickly", "Carefully", "Well", "Normally"],
+      "answer": "Well",
+      "explanation": "'Well' is the irregular adverb of 'good'."
+    },
+    {
+      "id": "finance-b1-w7-q34",
+      "type": "fill-in-the-blank",
+      "question": "The bank manager handled the complaint ________.",
+      "answer": "politely",
+      "explanation": "'Politely' describes the courteous manner of handling the complaint."
+    },
+    {
+      "id": "finance-b1-w7-q35",
+      "type": "multiple-choice",
+      "question": "An 'unsecured loan' does NOT require:",
+      "options": ["Interest", "A debtor", "Collateral", "A signature"],
+      "answer": "Collateral",
+      "explanation": "Unsecured loans are based on creditworthiness rather than assets."
+    },
+    {
+      "id": "finance-b1-w7-q36",
+      "type": "fill-in-the-blank",
+      "question": "The debt is increasing ________.",
+      "answer": "slowly",
+      "explanation": "'Slowly' is the adverb form of 'slow'."
+    },
+    {
+      "id": "finance-b1-w7-q37",
+      "type": "multiple-choice",
+      "question": "What happens if you exceed your credit limit?",
+      "options": ["You get a bonus", "Your score goes up", "You may be charged a fee", "The debt is cancelled"],
+      "answer": "You may be charged a fee",
+      "explanation": "Financial institutions often charge over-limit fees."
+    },
+    {
+      "id": "finance-b1-w7-q38",
+      "type": "fill-in-the-blank",
+      "question": "He managed the project ________.",
+      "answer": "successfully",
+      "explanation": "'Successfully' means in a way that accomplishes the desired result."
+    },
+    {
+      "id": "finance-b1-w7-q39",
+      "type": "multiple-choice",
+      "question": "A mortgage is usually a ________ loan.",
+      "options": ["Short-term", "Long-term", "Zero-interest", "Small"],
+      "answer": "Long-term",
+      "explanation": "Mortgages often last for 15 to 30 years."
+    },
+    {
+      "id": "finance-b1-w7-q40",
+      "type": "fill-in-the-blank",
+      "question": "The information was updated ________ in our database.",
+      "answer": "instantly",
+      "explanation": "'Instantly' means immediately."
+    },
+    {
+      "id": "finance-b1-w7-q41",
+      "type": "multiple-choice",
+      "question": "A borrower is also known as a:",
+      "options": ["Creditor", "Debtor", "Lender", "Manager"],
+      "answer": "Debtor",
+      "explanation": "A debtor is someone who borrows money."
+    },
+    {
+      "id": "finance-b1-w7-q42",
+      "type": "fill-in-the-blank",
+      "question": "They negotiated the interest rate ________.",
+      "answer": "fairly",
+      "explanation": "'Fairly' means in a just and reasonable manner."
+    },
+    {
+      "id": "finance-b1-w7-q43",
+      "type": "multiple-choice",
+      "question": "If you pay your credit card balance in full every month, you avoid:",
+      "options": ["Paying interest", "Having a credit score", "Using the card", "Paying for items"],
+      "answer": "Paying interest",
+      "explanation": "Most credit cards have a grace period where no interest is charged if paid in full."
+    },
+    {
+      "id": "finance-b1-w7-q44",
+      "type": "fill-in-the-blank",
+      "question": "The bank teller explained the terms ________.",
+      "answer": "patiently",
+      "explanation": "'Patiently' describes the manner of the teller's explanation."
+    },
+    {
+      "id": "finance-b1-w7-q45",
+      "type": "multiple-choice",
+      "question": "Which of these adverbs is NOT formed by adding -ly?",
+      "options": ["Quietly", "Fast", "Happily", "Really"],
+      "answer": "Fast",
+      "explanation": "'Fast' is both an adjective and an adverb."
+    },
+    {
+      "id": "finance-b1-w7-q46",
+      "type": "fill-in-the-blank",
+      "question": "She organizes her financial records ________.",
+      "answer": "neatly",
+      "explanation": "'Neatly' means in a tidy and ordered way."
+    },
+    {
+      "id": "finance-b1-w7-q47",
+      "type": "multiple-choice",
+      "question": "The 'principal' of a loan is the:",
+      "options": ["Interest charged", "Original amount borrowed", "Bank manager", "Collateral"],
+      "answer": "Original amount borrowed",
+      "explanation": "Principal refers to the original sum of money borrowed in a loan."
+    },
+    {
+      "id": "finance-b1-w7-q48",
+      "type": "fill-in-the-blank",
+      "question": "The value of the collateral was appraised ________.",
+      "answer": "recently",
+      "explanation": "'Recently' is an adverb of time/manner."
+    },
+    {
+      "id": "finance-b1-w7-q49",
+      "type": "multiple-choice",
+      "question": "A 'fixed-rate' loan means the interest rate:",
+      "options": ["Changes every month", "Stays the same", "Decreases over time", "Is always zero"],
+      "answer": "Stays the same",
+      "explanation": "Fixed-rate loans have an interest rate that remains constant throughout the life of the loan."
+    },
+    {
+      "id": "finance-b1-w7-q50",
+      "type": "fill-in-the-blank",
+      "question": "Always read the fine print ________.",
+      "answer": "attentively",
+      "explanation": "'Attentively' means while paying close attention."
+    }
+  ]
+}

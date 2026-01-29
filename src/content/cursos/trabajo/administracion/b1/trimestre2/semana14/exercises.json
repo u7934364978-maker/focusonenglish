@@ -1,0 +1,659 @@
+{
+  "goal": "administracion",
+  "level": "B1",
+  "trimester": 2,
+  "weekId": "semana14",
+  "title": "Ejercicios: Presupuestos Departamentales y Control",
+  "items": [
+    {
+      "id": "fin-b1-w14-1",
+      "type": "multipleChoice",
+      "question": "The marketing budget for next year _______ higher than this year's.",
+      "options": [
+        "is going to be",
+        "was",
+        "has been",
+        "is being"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We use 'is going to be' for planned future actions or predictions based on current evidence."
+    },
+    {
+      "id": "fin-b1-w14-2",
+      "type": "multipleChoice",
+      "question": "This department has the _______ expenditure in the whole company.",
+      "options": [
+        "high",
+        "higher",
+        "highest",
+        "more high"
+      ],
+      "correctAnswer": 2,
+      "explanation": "We use the superlative 'highest' to compare one department against all others in the group."
+    },
+    {
+      "id": "fin-b1-w14-3",
+      "type": "multipleChoice",
+      "question": "We _______ the quarterly review next Monday at 10 AM.",
+      "options": [
+        "will holding",
+        "are holding",
+        "held",
+        "have held"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The present continuous 'are holding' is used for fixed arrangements in the near future."
+    },
+    {
+      "id": "fin-b1-w14-4",
+      "type": "multipleChoice",
+      "question": "The R&D budget is _______ than the administrative budget.",
+      "options": [
+        "more large",
+        "larger",
+        "largest",
+        "as large"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Larger' is the correct comparative form for short adjectives."
+    },
+    {
+      "id": "fin-b1-w14-5",
+      "type": "multipleChoice",
+      "question": "If we don't cut costs now, we _______ our targets by year-end.",
+      "options": [
+        "miss",
+        "would miss",
+        "will miss",
+        "have missed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is a first conditional sentence: If + present, will + verb."
+    },
+    {
+      "id": "fin-b1-w14-6",
+      "type": "multipleChoice",
+      "question": "The IT department is _______ efficient than it was last year.",
+      "options": [
+        "more",
+        "most",
+        "much",
+        "very"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We use 'more' with long adjectives like 'efficient' to form the comparative."
+    },
+    {
+      "id": "fin-b1-w14-7",
+      "type": "multipleChoice",
+      "question": "Who _______ responsible for approving the new travel budget?",
+      "options": [
+        "will be",
+        "shall being",
+        "is being",
+        "to be"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Will be' is used for future states or decisions."
+    },
+    {
+      "id": "fin-b1-w14-8",
+      "type": "multipleChoice",
+      "question": "This is the _______ budget proposal we have ever received.",
+      "options": [
+        "more detailed",
+        "most detailed",
+        "detailedest",
+        "as detailed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Most detailed' is the superlative form for long adjectives."
+    },
+    {
+      "id": "fin-b1-w14-9",
+      "type": "multipleChoice",
+      "question": "We _______ the final figures by the end of the week.",
+      "options": [
+        "will have",
+        "are having",
+        "have had",
+        "having"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Will have' is a simple future prediction."
+    },
+    {
+      "id": "fin-b1-w14-10",
+      "type": "multipleChoice",
+      "question": "The sales team's performance was _______ than expected.",
+      "options": [
+        "gooder",
+        "better",
+        "best",
+        "well"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Better' is the irregular comparative form of 'good'."
+    },
+    {
+      "id": "fin-b1-w14-11",
+      "type": "multipleChoice",
+      "question": "Our cash flow _______ much stronger next quarter.",
+      "options": [
+        "is going to be",
+        "will being",
+        "is to being",
+        "was being"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Is going to be' indicates a predicted outcome based on current data."
+    },
+    {
+      "id": "fin-b1-w14-12",
+      "type": "multipleChoice",
+      "question": "Among all departments, Logistics has the _______ complex ledger.",
+      "options": [
+        "more",
+        "most",
+        "much",
+        "lesser"
+      ],
+      "correctAnswer": 1,
+      "explanation": "We use 'most' for the superlative of long adjectives."
+    },
+    {
+      "id": "fin-b1-w14-13",
+      "type": "multipleChoice",
+      "question": "The CFO _______ the departmental managers tomorrow afternoon.",
+      "options": [
+        "is meeting",
+        "met",
+        "has met",
+        "meets"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Present continuous 'is meeting' is used for planned future appointments."
+    },
+    {
+      "id": "fin-b1-w14-14",
+      "type": "multipleChoice",
+      "question": "The actual costs were _______ than the initial estimates.",
+      "options": [
+        "expensive",
+        "more expensive",
+        "most expensive",
+        "expensiver"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'More expensive' is the comparative form for long adjectives."
+    },
+    {
+      "id": "fin-b1-w14-15",
+      "type": "multipleChoice",
+      "question": "Next month, we _______ a new software for budget tracking.",
+      "options": [
+        "are going to implement",
+        "implement",
+        "implemented",
+        "have implemented"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use 'going to' for intentions and plans."
+    },
+    {
+      "id": "fin-b1-w14-16",
+      "type": "multipleChoice",
+      "question": "This quarter's deficit is the _______ in the company's history.",
+      "options": [
+        "badder",
+        "worse",
+        "worst",
+        "worser"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Worst' is the irregular superlative form of 'bad'."
+    },
+    {
+      "id": "fin-b1-w14-17",
+      "type": "multipleChoice",
+      "question": "I think the market _______ recover by the end of the year.",
+      "options": [
+        "will",
+        "going to",
+        "is to",
+        "shall be"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Will' is used for opinions and general predictions about the future."
+    },
+    {
+      "id": "fin-b1-w14-18",
+      "type": "multipleChoice",
+      "question": "The new office is _______ than the old one.",
+      "options": [
+        "modern",
+        "more modern",
+        "most modern",
+        "modernest"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'More modern' is the comparative form."
+    },
+    {
+      "id": "fin-b1-w14-19",
+      "type": "multipleChoice",
+      "question": "We _______ the budget draft by Friday evening.",
+      "options": [
+        "finish",
+        "are finishing",
+        "will finish",
+        "finished"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Will finish' is a simple promise or prediction about the future."
+    },
+    {
+      "id": "fin-b1-w14-20",
+      "type": "multipleChoice",
+      "question": "Which department has the _______ variance this month?",
+      "options": [
+        "small",
+        "smaller",
+        "smallest",
+        "more small"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Smallest' is the superlative form of 'small'."
+    },
+    {
+      "id": "fin-b1-w14-21",
+      "type": "multipleChoice",
+      "question": "The board _______ the expansion plan in the next session.",
+      "options": [
+        "is going to discuss",
+        "discussions",
+        "discuss",
+        "has discussed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Is going to discuss' is used for planned future events."
+    },
+    {
+      "id": "fin-b1-w14-22",
+      "type": "multipleChoice",
+      "question": "The project is _______ expensive than we originally thought.",
+      "options": [
+        "less",
+        "least",
+        "little",
+        "lesser"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Less' is the comparative form of 'little' for uncountable concepts like expense/price."
+    },
+    {
+      "id": "fin-b1-w14-23",
+      "type": "multipleChoice",
+      "question": "I _______ you the spreadsheet as soon as it's ready.",
+      "options": [
+        "send",
+        "will send",
+        "am sending",
+        "have sent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Will' is used for spontaneous promises made at the moment of speaking."
+    },
+    {
+      "id": "fin-b1-w14-24",
+      "type": "multipleChoice",
+      "question": "This is the _______ profitable branch in the region.",
+      "options": [
+        "less",
+        "least",
+        "little",
+        "lesser"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Least' is the superlative form for indicating the minimum degree."
+    },
+    {
+      "id": "fin-b1-w14-25",
+      "type": "multipleChoice",
+      "question": "We _______ the budget limits if we aren't careful.",
+      "options": [
+        "will exceed",
+        "exceed",
+        "exceeding",
+        "have exceeded"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Will exceed' is the future result in a first conditional context."
+    },
+    {
+      "id": "fin-b1-w14-26",
+      "type": "multipleChoice",
+      "question": "The audit process is _______ this year than last year.",
+      "options": [
+        "fast",
+        "faster",
+        "fastest",
+        "more fast"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Faster' is the comparative form for short adjectives."
+    },
+    {
+      "id": "fin-b1-w14-27",
+      "type": "multipleChoice",
+      "question": "Our team _______ a workshop on cost control next week.",
+      "options": [
+        "is attending",
+        "attend",
+        "attended",
+        "has attended"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Present continuous for future arrangements."
+    },
+    {
+      "id": "fin-b1-w14-28",
+      "type": "multipleChoice",
+      "question": "That was the _______ stressful week of the quarter.",
+      "options": [
+        "most",
+        "more",
+        "much",
+        "very"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Most' is used for the superlative of long adjectives."
+    },
+    {
+      "id": "fin-b1-w14-29",
+      "type": "multipleChoice",
+      "question": "We _______ the audit by the end of May.",
+      "options": [
+        "will complete",
+        "completing",
+        "complete",
+        "have completed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Simple future for a scheduled or predicted completion."
+    },
+    {
+      "id": "fin-b1-w14-30",
+      "type": "multipleChoice",
+      "question": "Your department's ROI is _______ than ours.",
+      "options": [
+        "high",
+        "higher",
+        "highest",
+        "more high"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Comparative 'higher' to compare two departments."
+    },
+    {
+      "id": "fin-b1-w14-31",
+      "type": "multipleChoice",
+      "question": "We _______ a new budget controller next month.",
+      "options": [
+        "are going to hire",
+        "hire",
+        "hiring",
+        "will to hire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Going to' for intentions."
+    },
+    {
+      "id": "fin-b1-w14-32",
+      "type": "multipleChoice",
+      "question": "This software is the _______ reliable one on the market.",
+      "options": [
+        "most",
+        "more",
+        "much",
+        "very"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Superlative 'most' for long adjectives."
+    },
+    {
+      "id": "fin-b1-w14-33",
+      "type": "multipleChoice",
+      "question": "The tax rates _______ likely increase next year.",
+      "options": [
+        "will",
+        "is",
+        "are",
+        "have"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Will' is commonly used with 'likely' for future predictions."
+    },
+    {
+      "id": "fin-b1-w14-34",
+      "type": "multipleChoice",
+      "question": "The forecast for Q4 is _______ optimistic than for Q3.",
+      "options": [
+        "more",
+        "most",
+        "much",
+        "very"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Comparative 'more' for comparing two quarters."
+    },
+    {
+      "id": "fin-b1-w14-35",
+      "type": "multipleChoice",
+      "question": "The manager _______ the new policy tomorrow morning.",
+      "options": [
+        "is announcing",
+        "announces",
+        "announced",
+        "has announced"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Present continuous for a fixed arrangement."
+    },
+    {
+      "id": "fin-b1-w14-36",
+      "type": "multipleChoice",
+      "question": "This is the _______ difficult budget I've ever managed.",
+      "options": [
+        "most",
+        "more",
+        "much",
+        "very"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Superlative 'most' for long adjectives."
+    },
+    {
+      "id": "fin-b1-w14-37",
+      "type": "multipleChoice",
+      "question": "We _______ a surplus by the end of the fiscal year.",
+      "options": [
+        "will have",
+        "having",
+        "has",
+        "are having"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Simple future for prediction."
+    },
+    {
+      "id": "fin-b1-w14-38",
+      "type": "multipleChoice",
+      "question": "The rent for the new office is _______ than before.",
+      "options": [
+        "cheap",
+        "cheaper",
+        "cheapest",
+        "more cheap"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Cheaper' is the comparative form of 'cheap'."
+    },
+    {
+      "id": "fin-b1-w14-39",
+      "type": "multipleChoice",
+      "question": "The team _______ on the project all day tomorrow.",
+      "options": [
+        "will be working",
+        "is work",
+        "works",
+        "has worked"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Future continuous 'will be working' for an action in progress in the future."
+    },
+    {
+      "id": "fin-b1-w14-40",
+      "type": "multipleChoice",
+      "question": "This brand has the _______ reputation in the industry.",
+      "options": [
+        "better",
+        "best",
+        "good",
+        "well"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Best' is the irregular superlative of 'good'."
+    },
+    {
+      "id": "fin-b1-w14-41",
+      "type": "multipleChoice",
+      "question": "We _______ the budget if we don't reduce travel expenses.",
+      "options": [
+        "will exceed",
+        "exceed",
+        "exceeding",
+        "are exceeding"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First conditional future result."
+    },
+    {
+      "id": "fin-b1-w14-42",
+      "type": "multipleChoice",
+      "question": "The current ledger is _______ than the previous one.",
+      "options": [
+        "accurate",
+        "more accurate",
+        "most accurate",
+        "accurater"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'More accurate' is the comparative form."
+    },
+    {
+      "id": "fin-b1-w14-43",
+      "type": "multipleChoice",
+      "question": "I _______ you the report before I leave today.",
+      "options": [
+        "will send",
+        "am send",
+        "sent",
+        "have sent"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Simple future for a promise."
+    },
+    {
+      "id": "fin-b1-w14-44",
+      "type": "multipleChoice",
+      "question": "Who is the _______ senior person in the accounting team?",
+      "options": [
+        "most",
+        "more",
+        "much",
+        "very"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Superlative 'most' to identify one person in a group."
+    },
+    {
+      "id": "fin-b1-w14-45",
+      "type": "multipleChoice",
+      "question": "The company _______ a new branch in Tokyo next year.",
+      "options": [
+        "is going to open",
+        "opens",
+        "opened",
+        "will to open"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Going to' for plans/intentions."
+    },
+    {
+      "id": "fin-b1-w14-46",
+      "type": "multipleChoice",
+      "question": "This year's revenue is _______ than last year's.",
+      "options": [
+        "low",
+        "lower",
+        "lowest",
+        "more low"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Lower' is the comparative form of 'low'."
+    },
+    {
+      "id": "fin-b1-w14-47",
+      "type": "multipleChoice",
+      "question": "We _______ a meeting with the investors at 3 PM.",
+      "options": [
+        "are having",
+        "have",
+        "had",
+        "will to have"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Present continuous for a scheduled meeting."
+    },
+    {
+      "id": "fin-b1-w14-48",
+      "type": "multipleChoice",
+      "question": "This is the _______ expensive equipment we've bought.",
+      "options": [
+        "least",
+        "less",
+        "little",
+        "lesser"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Superlative 'least' for the minimum degree."
+    },
+    {
+      "id": "fin-b1-w14-49",
+      "type": "multipleChoice",
+      "question": "The stock price _______ probably fall if the news is bad.",
+      "options": [
+        "will",
+        "is",
+        "going to",
+        "has"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Will' for predictions, often with 'probably'."
+    },
+    {
+      "id": "fin-b1-w14-50",
+      "type": "multipleChoice",
+      "question": "This department is _______ than the others.",
+      "options": [
+        "efficient",
+        "more efficient",
+        "most efficient",
+        "efficienter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'More efficient' is the comparative form for long adjectives."
+    }
+  ]
+}

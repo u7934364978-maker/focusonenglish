@@ -1,0 +1,65 @@
+{
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 1,
+  "weekId": "semana04",
+  "title": "Exercises: Greetings and Politeness",
+  "items": [
+    {
+      "id": "fin-a1-w4-q1",
+      "type": "multipleChoice",
+      "prompt": "What do you say at 9:00 AM?",
+      "options": [
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Good night"
+      ],
+      "answerIndex": 0,
+      "explanation": "We say 'Good morning' from sunrise until noon."
+    },
+    {
+      "id": "fin-a1-w4-q2",
+      "type": "multipleChoice",
+      "prompt": "An AI Assistant is...?",
+      "options": [
+        "A physical person",
+        "A computer program",
+        "A bank branch",
+        "A credit card"
+      ],
+      "answerIndex": 1,
+      "explanation": "An AI Assistant is a software program that helps with tasks."
+    },
+    {
+      "id": "fin-a1-w4-grammar-1",
+      "type": "multipleChoice",
+      "prompt": "Complete: '___ the AI assistant helpful?' 'Yes, it ___.'",
+      "options": [
+        "Am / am",
+        "Is / is",
+        "Are / are",
+        "Be / be"
+      ],
+      "answerIndex": 1,
+      "explanation": "The subject (AI assistant) is singular, so we use 'Is...?' and 'Yes, it is'."
+    },
+    {
+      "id": "fin-a1-w4-matching-1",
+      "type": "matching",
+      "prompt": "Match the phrase with the context.",
+      "pairs": [
+        {"term": "Thank you", "definition": "Gratitude"},
+        {"term": "Excuse me", "definition": "Attention"},
+        {"term": "AI Assistant", "definition": "Helpful Tool"}
+      ]
+    },
+    {
+      "id": "fin-a1-w4-writing-1",
+      "type": "writingTask",
+      "prompt": "Write a polite greeting to a colleague. Example: 'Good morning, Mark. How are you?'",
+      "modelAnswer": "Good morning. How are you?",
+      "keywords": ["Good", "morning", "How", "are"]
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "goal": "administracion",
+  "level": "C1",
+  "trimester": 1,
+  "weekId": "semana02",
+  "title": "Forecasting & Revenue Drivers Exercises",
+  "description": "Practice granular forecasting and nuanced financial communication.",
+  "items": [
+    {
+      "id": "fin-c1-w2-1",
+      "type": "multipleChoice",
+      "prompt": "Which forecasting method starts with the total addressable market (TAM)?",
+      "options": ["Bottom-Up", "Top-Down", "Step-By-Step", "Linear"],
+      "answerIndex": 1,
+      "explanation": "Top-down forecasting filters from a large market down to a specific company's share."
+    },
+    {
+      "id": "fin-c1-w2-2",
+      "type": "multipleChoice",
+      "prompt": "If a SaaS company has 10,000 users and 500 leave each month, what is the monthly churn rate?",
+      "options": ["0.5%", "5%", "10%", "50%"],
+      "answerIndex": 1,
+      "explanation": "500 / 10,000 = 0.05 or 5%."
+    },
+    {
+      "id": "fin-c1-w2-3",
+      "type": "multipleChoice",
+      "prompt": "Which revenue driver is most important for a subscription-based business?",
+      "options": ["One-time setup fees", "Monthly Recurring Revenue (MRR)", "Inventory turnover", "Physical floor space"],
+      "answerIndex": 1,
+      "explanation": "MRR is the lifeblood of subscription (SaaS) models."
+    },
+    {
+      "id": "fin-c1-w2-4",
+      "type": "multipleChoice",
+      "prompt": "Choose the most nuanced prediction:",
+      "options": ["Revenue will go up.", "Revenue might go up.", "There is a strong possibility that revenue will witness a modest uptick.", "Revenue is going to be high."],
+      "answerIndex": 2,
+      "explanation": "At C1, using sophisticated vocabulary like 'witness a modest uptick' is preferred."
+    },
+    {
+      "id": "fin-c1-w2-5",
+      "type": "multipleChoice",
+      "prompt": "What does 'CAGR' stand for?",
+      "options": ["Capital Assets Growth Rate", "Compound Annual Growth Rate", "Current Annual Gross Revenue", "Cumulative Asset Gain Ratio"],
+      "answerIndex": 1,
+      "explanation": "CAGR is used to describe the growth of an investment over time."
+    },
+    {
+      "id": "fin-c1-w2-6",
+      "type": "multipleChoice",
+      "prompt": "In a 'Bottom-Up' model, what would be a primary driver for a retail store's revenue?",
+      "options": ["Global GDP growth", "Average transaction value (ATV)", "Total national retail sales", "The price of oil"],
+      "answerIndex": 1,
+      "explanation": "Bottom-up looks at granular internal metrics like ATV and foot traffic."
+    },
+    {
+      "id": "fin-c1-w2-7",
+      "type": "multipleChoice",
+      "prompt": "Which phrase is an example of 'hedging' in a financial report?",
+      "options": ["We will definitely succeed.", "The data proves the case.", "It would appear that the trend is stabilizing.", "There is no doubt about the outcome."],
+      "answerIndex": 2,
+      "explanation": "'It would appear that' is a classic hedging phrase used to avoid making overly categorical claims."
+    },
+    {
+      "id": "fin-c1-w2-8",
+      "type": "multipleChoice",
+      "prompt": "What does 'TAM' represent in market sizing?",
+      "options": ["Total Available Market", "Target Allocated Money", "Technical Analysis Method", "Total Addressable Market"],
+      "answerIndex": 3,
+      "explanation": "TAM refers to the total market demand for a product or service."
+    },
+    {
+      "id": "fin-c1-w2-9",
+      "type": "multipleChoice",
+      "prompt": "If a business increases its prices and revenue decreases significantly, the demand is said to be:",
+      "options": ["Inelastic", "Elastic", "Fixed", "Volatile"],
+      "answerIndex": 1,
+      "explanation": "Elastic demand means that price changes have a large impact on the quantity demanded."
+    },
+    {
+      "id": "fin-c1-w2-10",
+      "type": "multipleChoice",
+      "prompt": "Complete the nuanced prediction: 'Assuming no further supply chain disruptions, we ___ a recovery in Q3.'",
+      "options": ["anticipate", "are sure of", "guarantee", "know"],
+      "answerIndex": 0,
+      "explanation": "'Anticipate' is a professional way to express a forecast without overpromising."
+    },
+    {
+      "id": "fin-c1-w2-11",
+      "type": "multipleChoice",
+      "prompt": "What is 'ARPU'?",
+      "options": ["Annual Revenue Per Unit", "Average Revenue Per User", "Account Recovery Processing Unit", "Asset Risk Pricing Utility"],
+      "answerIndex": 1,
+      "explanation": "Average Revenue Per User is a key metric for telecom and SaaS companies."
+    },
+    {
+      "id": "fin-c1-w2-12",
+      "type": "multipleChoice",
+      "prompt": "In forecasting, a 'Step-function' cost refers to:",
+      "options": ["A cost that decreases over time", "A cost that stays constant regardless of volume", "A cost that increases abruptly at certain activity levels", "A cost only paid once a year"],
+      "answerIndex": 2,
+      "explanation": "Step costs remain fixed within a certain range but 'step up' once capacity is reached (e.g., hiring a new manager)."
+    },
+    {
+      "id": "fin-c1-w2-13",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Leading Indicator' for future revenue?",
+      "options": ["Last year's profit", "Current sales pipeline/leads", "Dividends paid", "Audited financial statements"],
+      "answerIndex": 1,
+      "explanation": "Leading indicators (like sales leads) provide a glimpse into future performance."
+    },
+    {
+      "id": "fin-c1-w2-14",
+      "type": "multipleChoice",
+      "prompt": "Select the most professional way to express uncertainty: 'The projections ___ on several external factors.'",
+      "options": ["are contingent", "depend", "hang", "stay"],
+      "answerIndex": 0,
+      "explanation": "'Contingent on' is a high-level academic/professional way to describe dependency."
+    },
+    {
+      "id": "fin-c1-w2-15",
+      "type": "multipleChoice",
+      "prompt": "What does 'SAM' stand for in market analysis?",
+      "options": ["Sales and Marketing", "Serviceable Addressable Market", "Strategic Asset Management", "Standard Account Modality"],
+      "answerIndex": 1,
+      "explanation": "SAM is the portion of the TAM that can be served by a company's products or services."
+    },
+    {
+      "id": "fin-c1-w2-16",
+      "type": "multipleChoice",
+      "prompt": "If a company's 'Conversion Rate' improves from 2% to 3%, what happens to the CAC (Customer Acquisition Cost) assuming spend is constant?",
+      "options": ["It increases", "It decreases", "It stays the same", "It becomes zero"],
+      "answerIndex": 1,
+      "explanation": "A higher conversion rate means more customers for the same spend, thus lowering the cost per customer."
+    },
+    {
+      "id": "fin-c1-w2-17",
+      "type": "multipleChoice",
+      "prompt": "Which term describes a prediction that is too optimistic?",
+      "options": ["Conservative", "Bullish", "Bearish", "Aggressive"],
+      "answerIndex": 3,
+      "explanation": "Aggressive assumptions are those that lean toward the best-case scenario without much cushion for error."
+    },
+    {
+      "id": "fin-c1-w2-18",
+      "type": "multipleChoice",
+      "prompt": "Complete the formal hedge: '___ any unforeseen market shifts, the EBITDA margin should expand.'",
+      "options": ["Barring", "Without", "Not having", "Except"],
+      "answerIndex": 0,
+      "explanation": "'Barring' is a formal preposition meaning 'unless there is/are'."
+    },
+    {
+      "id": "fin-c1-w2-19",
+      "type": "multipleChoice",
+      "prompt": "What is 'Cohort Analysis' used for in forecasting?",
+      "options": ["To count employees", "To track the behavior of groups of customers over time", "To calculate interest rates", "To design new products"],
+      "answerIndex": 1,
+      "explanation": "Cohort analysis helps understand churn and lifetime value (LTV) by grouping customers by their start date."
+    },
+    {
+      "id": "fin-c1-w2-20",
+      "type": "multipleChoice",
+      "prompt": "A 'Bottom-Up' revenue model for a hotel would likely use which primary driver?",
+      "options": ["Total global travel spend", "RevPAR (Revenue Per Available Room)", "National inflation rate", "The price of airline tickets"],
+      "answerIndex": 1,
+      "explanation": "RevPAR is the standard internal metric for hotel revenue performance."
+    },
+    {
+      "id": "fin-c1-w2-21",
+      "type": "multipleChoice",
+      "prompt": "What is 'Market Penetration'?",
+      "options": ["Entering a building", "The percentage of a market that a product or service reaches", "The cost of marketing", "The number of competitors"],
+      "answerIndex": 1,
+      "explanation": "It measures how much of the potential market has been captured."
+    },
+    {
+      "id": "fin-c1-w2-22",
+      "type": "multipleChoice",
+      "prompt": "Which phrase indicates a high degree of confidence but remains formal?",
+      "options": ["I'm 100% sure.", "There is every indication that...", "I bet that...", "It's gonna happen."],
+      "answerIndex": 1,
+      "explanation": "'There is every indication that' is a strong but professional assertion."
+    },
+    {
+      "id": "fin-c1-w2-23",
+      "type": "multipleChoice",
+      "prompt": "What does the ' SOM' stand for in TAM/SAM/SOM?",
+      "options": ["Serviceable Obtainable Market", "Standard Operating Metric", "Strategic Output Model", "Sales Order Management"],
+      "answerIndex": 0,
+      "explanation": "SOM represents the portion of the SAM that can be realistically captured in the short term."
+    },
+    {
+      "id": "fin-c1-w2-24",
+      "type": "multipleChoice",
+      "prompt": "If 'LTV' (Lifetime Value) is lower than 'CAC' (Customer Acquisition Cost), the business model is:",
+      "options": ["Highly profitable", "Unsustainable", "Scaling well", "Efficient"],
+      "answerIndex": 1,
+      "explanation": "If it costs more to get a customer than they pay over their lifetime, the business will lose money."
+    },
+    {
+      "id": "fin-c1-w2-25",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'lagging indicator'?",
+      "options": ["Quarterly profit report", "Customer satisfaction score", "Number of new sales calls", "Website traffic growth"],
+      "answerIndex": 0,
+      "explanation": "Lagging indicators reflect performance that has already occurred (historical data)."
+    },
+    {
+      "id": "fin-c1-w2-26",
+      "type": "multipleChoice",
+      "prompt": "Formal hedging: 'While the initial results are promising, it is ___ to draw definitive conclusions.'",
+      "options": ["premature", "early", "too fast", "wrong"],
+      "answerIndex": 0,
+      "explanation": "'Premature' is the professional term for 'too early'."
+    },
+    {
+      "id": "fin-c1-w2-27",
+      "type": "multipleChoice",
+      "prompt": "What is 'Linear Regression' often used for in financial modeling?",
+      "options": ["To color the cells", "To find the relationship between two variables and project trends", "To secure the file with a password", "To delete old data"],
+      "answerIndex": 1,
+      "explanation": "Linear regression helps project future values based on the historical correlation between variables."
+    },
+    {
+      "id": "fin-c1-w2-28",
+      "type": "multipleChoice",
+      "prompt": "In a 'Top-Down' model for a new smartphone app, what would be the starting point?",
+      "options": ["The cost of the developer's laptop", "The total number of smartphone users globally", "The hourly rate of a programmer", "The price of the app"],
+      "answerIndex": 1,
+      "explanation": "Top-down starts with the largest possible relevant universe (total smartphone users)."
+    },
+    {
+      "id": "fin-c1-w2-29",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Rule of 40' in SaaS forecasting?",
+      "options": ["You must have 40 employees", "Growth rate + Profit margin should exceed 40%", "You must retire at 40", "Taxes are 40%"],
+      "answerIndex": 1,
+      "explanation": "The Rule of 40 is a benchmark for SaaS health, balancing growth and profitability."
+    },
+    {
+      "id": "fin-c1-w2-30",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct preposition: 'The forecast is based ___ historical averages.'",
+      "options": ["on", "in", "at", "to"],
+      "answerIndex": 0,
+      "explanation": "'Based on' is the standard collocation."
+    },
+    {
+      "id": "fin-c1-w2-31",
+      "type": "multipleChoice",
+      "prompt": "Which metric measures the 'stickiness' of a product?",
+      "options": ["CAC", "Churn Rate", "EBITDA", "Gross Margin"],
+      "answerIndex": 1,
+      "explanation": "A low churn rate indicates that customers find the product 'sticky' and continue to use it."
+    },
+    {
+      "id": "fin-c1-w2-32",
+      "type": "multipleChoice",
+      "prompt": "What is 'Seasonality' in forecasting?",
+      "options": ["Predictable fluctuations that occur at specific times of the year", "The weather in the office", "Changing the CEO every year", "Only selling products in the winter"],
+      "answerIndex": 0,
+      "explanation": "Seasonality accounts for recurring cycles like holiday shopping or summer slowdowns."
+    },
+    {
+      "id": "fin-c1-w2-33",
+      "type": "multipleChoice",
+      "prompt": "Hedging language: 'The potential impact of the merger is ___.'",
+      "options": ["huge", "not yet fully understood", "a big deal", "zero"],
+      "answerIndex": 1,
+      "explanation": "'Not yet fully understood' is a professional way to admit uncertainty."
+    },
+    {
+      "id": "fin-c1-w2-34",
+      "type": "multipleChoice",
+      "prompt": "In a bottom-up model, if 'Conversion Rate' is a driver, what is the input?",
+      "options": ["Total market revenue", "The number of visitors who become customers", "The total number of employees", "The interest rate"],
+      "answerIndex": 1,
+      "explanation": "Conversion rate is a granular internal metric used to build up revenue forecasts."
+    },
+    {
+      "id": "fin-c1-w2-35",
+      "type": "multipleChoice",
+      "prompt": "What does 'Upsell' refer to in revenue drivers?",
+      "options": ["Selling a cheaper product", "Encouraging a customer to buy a more expensive version of a product", "Selling the company", "Closing a store"],
+      "answerIndex": 1,
+      "explanation": "Upselling increases the Average Revenue Per User (ARPU)."
+    },
+    {
+      "id": "fin-c1-w2-36",
+      "type": "multipleChoice",
+      "prompt": "Advanced prediction: 'Market conditions ___ to be conducive to growth.'",
+      "options": ["look", "seem", "appear", "all of the above"],
+      "answerIndex": 3,
+      "explanation": "'Look', 'seem', and 'appear' are all common hedging verbs used in C1 English."
+    },
+    {
+      "id": "fin-c1-w2-37",
+      "type": "multipleChoice",
+      "prompt": "If a company has high 'Negative Churn', it means:",
+      "options": ["It is losing many customers", "Expansion revenue from existing customers exceeds revenue lost from churn", "The database is broken", "No one is buying anything"],
+      "answerIndex": 1,
+      "explanation": "Negative churn is the 'holy grail' of SaaS, where existing customers grow more than they leave."
+    },
+    {
+      "id": "fin-c1-w2-38",
+      "type": "multipleChoice",
+      "prompt": "Which tool is best for 'What-if' analysis in Excel forecasting?",
+      "options": ["Solver", "Scenario Manager", "Goal Seek", "All of the above"],
+      "answerIndex": 3,
+      "explanation": "All these tools are used to test different assumptions and their impacts on outcomes."
+    },
+    {
+      "id": "fin-c1-w2-39",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Hockey Stick' forecast?",
+      "options": ["A forecast used by sports teams", "A projection showing sudden, sharp growth after a period of stagnation", "A forecast that is always flat", "A forecast for winter equipment"],
+      "answerIndex": 1,
+      "explanation": "Hockey stick growth is common in startup pitches but often viewed with skepticism by investors."
+    },
+    {
+      "id": "fin-c1-w2-40",
+      "type": "multipleChoice",
+      "prompt": "Professional register: Replace 'We think' with a more C1-appropriate phrase.",
+      "options": ["We reckon", "We believe", "It is our contention that", "We say"],
+      "answerIndex": 2,
+      "explanation": "'It is our contention that' is a highly formal way to present an opinion or belief."
+    },
+    {
+      "id": "fin-c1-w2-41",
+      "type": "multipleChoice",
+      "prompt": "What does 'LTM' mean in financial metrics?",
+      "options": ["Last Twelve Months", "Long Term Management", "Lower Tier Market", "Legal Tender Money"],
+      "answerIndex": 0,
+      "explanation": "LTM (or TTM - Trailing Twelve Months) refers to data from the most recent 12-month period."
+    },
+    {
+      "id": "fin-c1-w2-42",
+      "type": "multipleChoice",
+      "prompt": "In revenue drivers, what is 'Cross-selling'?",
+      "options": ["Selling to a competitor", "Selling a different, related product to an existing customer", "Selling across a border", "Selling products at a discount"],
+      "answerIndex": 1,
+      "explanation": "Cross-selling helps increase the total lifetime value of a customer."
+    },
+    {
+      "id": "fin-c1-w2-43",
+      "type": "multipleChoice",
+      "prompt": "Hedging: 'The data ___ that we are on track for a record year.'",
+      "options": ["suggests", "hints", "points", "shows"],
+      "answerIndex": 0,
+      "explanation": "'Suggests' is a safer, more professional alternative to 'proves' or 'shows'."
+    },
+    {
+      "id": "fin-c1-w2-44",
+      "type": "multipleChoice",
+      "prompt": "What is 'Organic Growth'?",
+      "options": ["Growth achieved through acquisitions", "Growth achieved through internal operations and sales", "Growth in the farming sector", "Growth that happens without any effort"],
+      "answerIndex": 1,
+      "explanation": "Organic growth is self-generated, as opposed to inorganic growth (M&A)."
+    },
+    {
+      "id": "fin-c1-w2-45",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a key assumption in a 'Top-Down' model for an e-commerce site?",
+      "options": ["Server maintenance costs", "Percentage of the total online retail market captured", "Individual employee salaries", "The cost of office coffee"],
+      "answerIndex": 1,
+      "explanation": "Top-down modeling relies on market share assumptions."
+    },
+    {
+      "id": "fin-c1-w2-46",
+      "type": "multipleChoice",
+      "prompt": "Formal nuance: '___ any significant macro-economic shocks, our outlook remains positive.'",
+      "options": ["Despite", "Notwithstanding", "Regardless", "Absence of"],
+      "answerIndex": 1,
+      "explanation": "'Notwithstanding' is a formal way to say 'in spite of' or 'all else being equal'."
+    },
+    {
+      "id": "fin-c1-w2-47",
+      "type": "multipleChoice",
+      "prompt": "What is 'Run Rate'?",
+      "options": ["The speed at which employees quit", "Extrapolating current financial results to a future period", "The total debt of a company", "The physical distance to the bank"],
+      "answerIndex": 1,
+      "explanation": "Run rate takes current performance (e.g., this month's revenue) and multiplies it to show an annual figure."
+    },
+    {
+      "id": "fin-c1-w2-48",
+      "type": "multipleChoice",
+      "prompt": "In forecasting, a 'Driver' is:",
+      "options": ["The person who delivers the mail", "An input that significantly impacts the financial results", "A type of software", "The CEO of the company"],
+      "answerIndex": 1,
+      "explanation": "Drivers are the variables that 'drive' the output of the model."
+    },
+    {
+      "id": "fin-c1-w2-49",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence: 'The projection is ___ with a high degree of uncertainty.'",
+      "options": ["fraught", "filled", "made", "done"],
+      "answerIndex": 0,
+      "explanation": "To be 'fraught with' (usually something negative like risk or uncertainty) is a common C1 expression."
+    },
+    {
+      "id": "fin-c1-w2-50",
+      "type": "multipleChoice",
+      "prompt": "What does 'SGA' (or SG&A) stand for?",
+      "options": ["Selling, General and Administrative expenses", "Sales, Growth and Assets", "Standard Global Accounting", "Small Group Allotment"],
+      "answerIndex": 0,
+      "explanation": "SG&A includes all non-production costs like marketing, rent, and executive salaries."
+    }
+  ]
+}

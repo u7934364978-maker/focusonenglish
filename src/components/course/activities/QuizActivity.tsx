@@ -18,9 +18,10 @@ interface QuizActivityProps {
   questions: Question[];
   onComplete: (score: number) => void;
   audioUrl?: string;
+  vocabulary?: string[];
 }
 
-export default function QuizActivity({ questions, onComplete, audioUrl }: QuizActivityProps) {
+export default function QuizActivity({ questions, onComplete, audioUrl, vocabulary = [] }: QuizActivityProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string | boolean | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
@@ -28,6 +29,16 @@ export default function QuizActivity({ questions, onComplete, audioUrl }: QuizAc
   const [isFinished, setIsFinished] = useState(false);
 
   const currentQuestion = questions[currentIndex];
+
+  const HighlightedText = ({ text }: { text: string }) => {
+    let highlightedText = text;
+    vocabulary.forEach((word: string) => {
+      const regex = new RegExp(`\\b(${word})\\b`, 'gi');
+      highlightedText = highlightedText.replace(regex, `<mark class="bg-orange-100 px-1 rounded font-bold text-coral-700">$1</mark>`);
+    });
+
+    return <span dangerouslySetInnerHTML={{ __html: highlightedText }} />;
+  };
 
   const handleAnswer = (answer: string | boolean) => {
     if (showFeedback) return;
@@ -113,7 +124,7 @@ export default function QuizActivity({ questions, onComplete, audioUrl }: QuizAc
           <div className="flex gap-4 items-start">
             <HelpCircle className="w-6 h-6 text-coral-500 mt-1 flex-shrink-0" />
             <CardTitle className="text-xl font-bold text-slate-800 leading-tight">
-              {currentQuestion.prompt}
+              <HighlightedText text={currentQuestion.prompt} />
             </CardTitle>
           </div>
         </CardHeader>

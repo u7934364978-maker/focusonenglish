@@ -1,0 +1,409 @@
+{
+  "goal": "administracion",
+  "level": "A2",
+  "trimester": 2,
+  "weekId": "semana16",
+  "title": "Ejercicios: Predicciones Económicas",
+  "items": [
+    {
+      "id": "fin-a2-w16-1",
+      "type": "multipleChoice",
+      "prompt": "I think the market ___ grow this year.",
+      "options": ["will", "is going to", "goes", "doing"],
+      "answerIndex": 0,
+      "explanation": "Will is used for general predictions."
+    },
+    {
+      "id": "fin-a2-w16-2",
+      "type": "multipleChoice",
+      "prompt": "___ is when prices go up.",
+      "options": ["Trend", "Inflation", "Growth", "Interest"],
+      "answerIndex": 1,
+      "explanation": "Inflation means prices are increasing."
+    },
+    {
+      "id": "fin-a2-w16-3",
+      "type": "multipleChoice",
+      "prompt": "The experts say the economy ___ decrease.",
+      "options": ["will", "is going", "does", "going"],
+      "answerIndex": 0,
+      "explanation": "Will is used for predictions about the economy."
+    },
+    {
+      "id": "fin-a2-w16-4",
+      "type": "multipleChoice",
+      "prompt": "A ___ is a direction the market is moving.",
+      "options": ["inflation", "trend", "growth", "budget"],
+      "answerIndex": 1,
+      "explanation": "A trend (tendencia) shows the direction."
+    },
+    {
+      "id": "fin-a2-w16-5",
+      "type": "multipleChoice",
+      "prompt": "Prices ___ go down next month.",
+      "options": ["not will", "won't", "don't will", "aren't will"],
+      "answerIndex": 1,
+      "explanation": "Won't is the contraction of will not."
+    },
+    {
+      "id": "fin-a2-w16-6",
+      "type": "multipleChoice",
+      "prompt": "___ in the technology sector is very fast.",
+      "options": ["Growth", "Inflation", "Debt", "Premium"],
+      "answerIndex": 0,
+      "explanation": "Growth (crecimiento) describes expansion."
+    },
+    {
+      "id": "fin-a2-w16-7",
+      "type": "multipleChoice",
+      "prompt": "Analysts believe the dollar ___ increase in value.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Will for future predictions."
+    },
+    {
+      "id": "fin-a2-w16-8",
+      "type": "multipleChoice",
+      "prompt": "If demand is low, prices ___ go down.",
+      "options": ["will", "won't", "is", "are"],
+      "answerIndex": 0,
+      "explanation": "Prediction based on a condition."
+    },
+    {
+      "id": "fin-a2-w16-9",
+      "type": "multipleChoice",
+      "prompt": "The current ___ is positive for investors.",
+      "options": ["trend", "inflation", "growth", "budget"],
+      "answerIndex": 0,
+      "explanation": "A positive trend attracts investors."
+    },
+    {
+      "id": "fin-a2-w16-10",
+      "type": "multipleChoice",
+      "prompt": "Oil prices ___ probably rise soon.",
+      "options": ["will", "are", "do", "be"],
+      "answerIndex": 0,
+      "explanation": "Will is often used with 'probably' for predictions."
+    },
+    {
+      "id": "fin-a2-w16-11",
+      "type": "multipleChoice",
+      "prompt": "High ___ reduces people's purchasing power.",
+      "options": ["inflation", "growth", "market", "trend"],
+      "answerIndex": 0,
+      "explanation": "Inflation makes things more expensive."
+    },
+    {
+      "id": "fin-a2-w16-12",
+      "type": "multipleChoice",
+      "prompt": "Do you think the interest rates ___ decrease?",
+      "options": ["will", "is", "does", "are"],
+      "answerIndex": 0,
+      "explanation": "Asking for a prediction."
+    },
+    {
+      "id": "fin-a2-w16-13",
+      "type": "multipleChoice",
+      "prompt": "The company's revenue ___ increase by 10%.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Future prediction about revenue."
+    },
+    {
+      "id": "fin-a2-w16-14",
+      "type": "multipleChoice",
+      "prompt": "We ___ see a recovery in the next quarter.",
+      "options": ["will", "won't", "is", "not"],
+      "answerIndex": 0,
+      "explanation": "Prediction of a future event."
+    },
+    {
+      "id": "fin-a2-w16-15",
+      "type": "multipleChoice",
+      "prompt": "The stock ___ is very volatile today.",
+      "options": ["market", "inflation", "growth", "trend"],
+      "answerIndex": 0,
+      "explanation": "The stock market (bolsa) is where shares are traded."
+    },
+    {
+      "id": "fin-a2-w16-16",
+      "type": "multipleChoice",
+      "prompt": "Sales ___ go up during the holidays.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "General prediction/expectation."
+    },
+    {
+      "id": "fin-a2-w16-17",
+      "type": "multipleChoice",
+      "prompt": "A decrease in taxes ___ stimulate the economy.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Prediction of economic impact."
+    },
+    {
+      "id": "fin-a2-w16-18",
+      "type": "multipleChoice",
+      "prompt": "I don't think the government ___ change the law.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Prediction about government action."
+    },
+    {
+      "id": "fin-a2-w16-19",
+      "type": "multipleChoice",
+      "prompt": "Is the economy in a period of ___?",
+      "options": ["growth", "inflation", "market", "trend"],
+      "answerIndex": 0,
+      "explanation": "Growth is a positive economic period."
+    },
+    {
+      "id": "fin-a2-w16-20",
+      "type": "multipleChoice",
+      "prompt": "Prices ___ remain stable for a few months.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Prediction about price stability."
+    },
+    {
+      "id": "fin-a2-w16-21",
+      "type": "multipleChoice",
+      "prompt": "The ___ for the euro is looking better.",
+      "options": ["outlook", "inflation", "growth", "market"],
+      "answerIndex": 0,
+      "explanation": "Outlook (perspectiva) is used for future expectations."
+    },
+    {
+      "id": "fin-a2-w16-22",
+      "type": "multipleChoice",
+      "prompt": "I'm sure they ___ lose money on this deal.",
+      "options": ["won't", "will", "is", "not"],
+      "answerIndex": 0,
+      "explanation": "Positive prediction with 'won't'."
+    },
+    {
+      "id": "fin-a2-w16-23",
+      "type": "multipleChoice",
+      "prompt": "How ___ the market react to the news?",
+      "options": ["will", "is", "does", "are"],
+      "answerIndex": 0,
+      "explanation": "Question about future reaction."
+    },
+    {
+      "id": "fin-a2-w16-24",
+      "type": "multipleChoice",
+      "prompt": "New jobs ___ be created in the energy sector.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Future job creation."
+    },
+    {
+      "id": "fin-a2-w16-25",
+      "type": "multipleChoice",
+      "prompt": "The gap between rich and poor ___ grow.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Social/Economic prediction."
+    },
+    {
+      "id": "fin-a2-w16-26",
+      "type": "multipleChoice",
+      "prompt": "___ is a major problem for developing countries.",
+      "options": ["Inflation", "Growth", "Market", "Trend"],
+      "answerIndex": 0,
+      "explanation": "Inflation can be very damaging."
+    },
+    {
+      "id": "fin-a2-w16-27",
+      "type": "multipleChoice",
+      "prompt": "Will the price of gold ___ next week?",
+      "options": ["increase", "inflation", "market", "trend"],
+      "answerIndex": 0,
+      "explanation": "Asking about a price change."
+    },
+    {
+      "id": "fin-a2-w16-28",
+      "type": "multipleChoice",
+      "prompt": "I hope the unemployment rate ___ go down.",
+      "options": ["will", "won't", "is", "not"],
+      "answerIndex": 0,
+      "explanation": "Expressing a hopeful prediction."
+    },
+    {
+      "id": "fin-a2-w16-29",
+      "type": "multipleChoice",
+      "prompt": "The ___ of online shopping is continuing.",
+      "options": ["trend", "inflation", "growth", "market"],
+      "answerIndex": 0,
+      "explanation": "A continuing pattern is a trend."
+    },
+    {
+      "id": "fin-a2-w16-30",
+      "type": "multipleChoice",
+      "prompt": "Technology ___ change the banking industry forever.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Long-term prediction."
+    },
+    {
+      "id": "fin-a2-w16-31",
+      "type": "multipleChoice",
+      "prompt": "Will you ___ in the stock market?",
+      "options": ["invest", "inflation", "growth", "market"],
+      "answerIndex": 0,
+      "explanation": "To invest (invertir) is to put money in the market."
+    },
+    {
+      "id": "fin-a2-w16-32",
+      "type": "multipleChoice",
+      "prompt": "The global economy ___ grow faster in 2026.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Future growth prediction."
+    },
+    {
+      "id": "fin-a2-w16-33",
+      "type": "multipleChoice",
+      "prompt": "Inflation ___ probably reach 5% this year.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Prediction with 'probably'."
+    },
+    {
+      "id": "fin-a2-w16-34",
+      "type": "multipleChoice",
+      "prompt": "The real estate ___ is slowing down.",
+      "options": ["market", "inflation", "growth", "trend"],
+      "answerIndex": 0,
+      "explanation": "The market for houses and property."
+    },
+    {
+      "id": "fin-a2-w16-35",
+      "type": "multipleChoice",
+      "prompt": "Competition ___ keep prices low for consumers.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Economic theory prediction."
+    },
+    {
+      "id": "fin-a2-w16-36",
+      "type": "multipleChoice",
+      "prompt": "I ___ buy any more stocks until the market is stable.",
+      "options": ["won't", "will", "is", "not"],
+      "answerIndex": 0,
+      "explanation": "Negative future decision/prediction."
+    },
+    {
+      "id": "fin-a2-w16-37",
+      "type": "multipleChoice",
+      "prompt": "Economic ___ is essential for development.",
+      "options": ["growth", "inflation", "market", "trend"],
+      "answerIndex": 0,
+      "explanation": "Growth is necessary for progress."
+    },
+    {
+      "id": "fin-a2-w16-38",
+      "type": "multipleChoice",
+      "prompt": "Analysts predict that exports ___ increase.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Reporting a prediction."
+    },
+    {
+      "id": "fin-a2-w16-39",
+      "type": "multipleChoice",
+      "prompt": "A negative ___ can hurt consumer confidence.",
+      "options": ["trend", "inflation", "growth", "market"],
+      "answerIndex": 0,
+      "explanation": "Trends affect how people feel about spending."
+    },
+    {
+      "id": "fin-a2-w16-40",
+      "type": "multipleChoice",
+      "prompt": "The bank ___ lower the interest rates tomorrow.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Scheduled or predicted action."
+    },
+    {
+      "id": "fin-a2-w16-41",
+      "type": "multipleChoice",
+      "prompt": "Is ___ still a concern for the central bank?",
+      "options": ["inflation", "growth", "market", "trend"],
+      "answerIndex": 0,
+      "explanation": "Central banks monitor inflation."
+    },
+    {
+      "id": "fin-a2-w16-42",
+      "type": "multipleChoice",
+      "prompt": "I believe the crisis ___ end soon.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Personal belief about the future."
+    },
+    {
+      "id": "fin-a2-w16-43",
+      "type": "multipleChoice",
+      "prompt": "Will you ___ a profit this year?",
+      "options": ["make", "inflation", "growth", "market"],
+      "answerIndex": 0,
+      "explanation": "To make a profit (ganar dinero)."
+    },
+    {
+      "id": "fin-a2-w16-44",
+      "type": "multipleChoice",
+      "prompt": "The price of electricity ___ go up again.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Prediction about costs."
+    },
+    {
+      "id": "fin-a2-w16-45",
+      "type": "multipleChoice",
+      "prompt": "A global ___ affects everyone.",
+      "options": ["market", "inflation", "growth", "trend"],
+      "answerIndex": 0,
+      "explanation": "The global market is interconnected."
+    },
+    {
+      "id": "fin-a2-w16-46",
+      "type": "multipleChoice",
+      "prompt": "Investors ___ be happy with the results.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Prediction about investor sentiment."
+    },
+    {
+      "id": "fin-a2-w16-47",
+      "type": "multipleChoice",
+      "prompt": "There ___ be more opportunities in the future.",
+      "options": ["will", "is", "does", "are"],
+      "answerIndex": 0,
+      "explanation": "General future prediction."
+    },
+    {
+      "id": "fin-a2-w16-48",
+      "type": "multipleChoice",
+      "prompt": "Does the ___ show an increase in prices?",
+      "options": ["trend", "inflation", "growth", "market"],
+      "answerIndex": 0,
+      "explanation": "Trends show changes over time."
+    },
+    {
+      "id": "fin-a2-w16-49",
+      "type": "multipleChoice",
+      "prompt": "We ___ achieve our targets by December.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Prediction about reaching goals."
+    },
+    {
+      "id": "fin-a2-w16-50",
+      "type": "multipleChoice",
+      "prompt": "Economic ___ is slow but steady.",
+      "options": ["growth", "inflation", "market", "trend"],
+      "answerIndex": 0,
+      "explanation": "Describing the current state of growth."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Preparación para el Examen Final: Estrategias B2",
+  "sections": [
+    {
+      "id": "exam-strategy",
+      "title": "Estrategias de Examen",
+      "content": "Para superar el nivel B2 en administracion, es crucial demostrar precisión técnica y fluidez gramatical.\n\n- **Lectura Crítica**: Identifica el sesgo en informes de mercado (ej. detectar si un analista es 'bullish' o 'bearish').\n- **Precisión en Condicionales**: No confundas el impacto pasado (Third Conditional) con la situación actual (Mixed Conditional).\n- **Vocabulario de Enlace**: Utiliza conectores como *'Moreover'*, *'Consequently'*, *'Despite'*, y *'Nevertheless'* para estructurar argumentos financieros."
+    },
+    {
+      "id": "common-pitfalls",
+      "title": "Errores Comunes a Evitar",
+      "content": "1. **Voz Pasiva**: Evita decir 'They believe the market will fall' en un contexto formal; prefiere *'The market is believed to be falling'*.\n2. **Confusión de Términos**: Asegúrate de distinguir entre *'Revenue'* (ingresos brutos), *'Profit'* (beneficio) y *'Yield'* (rendimiento/rentabilidad).\n3. **Preposiciones**: Recuerda: *'Invest **in**'*, *'Exposure **to**'*, *'Benefit **from**'*, *'Hedging **against**'*."
+    },
+    {
+      "id": "complex-structures",
+      "title": "Estructuras de Alto Nivel",
+      "content": "Para obtener la máxima puntuación, intenta usar:\n\n- **Inversion for emphasis**: *'Seldom have we seen such market volatility.'*\n- **Participle clauses**: *'Having analyzed the data, the committee decided to hedge the risk.'*\n- **Modal deduction**: *'The crash must have been caused by systemic failure.'*"
+    }
+  ],
+  "objectives": [
+    "Aplicar estrategias de lectura y escucha crítica en contextos financieros",
+    "Corregir errores comunes de gramática y vocabulario técnico",
+    "Practicar con un simulacro de examen integral del segundo trimestre"
+  ],
+  "keyTerms": [
+    { "term": "Bullish", "definition": "Expecting stock prices to rise." },
+    { "term": "Bearish", "definition": "Expecting stock prices to fall." }
+  ]
+}

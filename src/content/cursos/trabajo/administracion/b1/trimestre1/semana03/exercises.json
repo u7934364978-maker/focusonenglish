@@ -1,0 +1,415 @@
+{
+  "goal": "administracion",
+  "level": "B1",
+  "trimester": 1,
+  "weekId": "semana03",
+  "title": "Digital Banking and Cyber Security",
+  "description": "Advanced practice on online banking tools, security protocols, and modal verbs for rules and advice (50 items).",
+  "items": [
+    {
+      "id": "finance-b1-w3-q1",
+      "type": "multipleChoice",
+      "prompt": "What is 2FA (Two-Factor Authentication)?",
+      "options": [
+        "A type of credit card",
+        "A security process requiring two forms of identification",
+        "A bank with only two branches",
+        "A loan for two people"
+      ],
+      "answerIndex": 1,
+      "explanation": "2FA adds an extra layer of security by requiring a second verification step."
+    },
+    {
+      "id": "finance-b1-w3-q2",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a scam where criminals send fake emails?",
+      "options": ["Phishing", "Encryption", "Budgeting", "Auditing"],
+      "answerIndex": 0,
+      "explanation": "Phishing involves fraudulent emails designed to steal sensitive information."
+    },
+    {
+      "id": "finance-b1-w3-grammar-1",
+      "type": "multipleChoice",
+      "prompt": "Choose the best modal: 'You ___ share your PIN with anyone, not even bank staff.'",
+      "options": ["must", "should", "mustn't", "can"],
+      "answerIndex": 2,
+      "explanation": "'Mustn't' indicates a strong prohibition for security reasons."
+    },
+    {
+      "id": "finance-b1-w3-grammar-2",
+      "type": "multipleChoice",
+      "prompt": "Choose the best modal: 'Clients ___ use a strong password for their account.'",
+      "options": ["should", "can't", "mustn't", "won't"],
+      "answerIndex": 0,
+      "explanation": "'Should' is used to give a strong recommendation or advice."
+    },
+    {
+      "id": "finance-b1-w3-q5",
+      "type": "multipleChoice",
+      "prompt": "What is 'biometric login'?",
+      "options": ["Using a paper ID", "Access via fingerprint or facial recognition", "Using a physical key", "A type of paper check"],
+      "answerIndex": 1,
+      "explanation": "Biometric login uses biological traits for authentication."
+    },
+    {
+      "id": "finance-b1-w3-q6",
+      "type": "multipleChoice",
+      "prompt": "What does 'encryption' do?",
+      "options": ["It deletes your data", "It makes data unreadable to unauthorized users", "It prints your statements", "It increases your balance"],
+      "answerIndex": 1,
+      "explanation": "Encryption converts information into a secret code to prevent unauthorized access."
+    },
+    {
+      "id": "finance-b1-w3-q7",
+      "type": "multipleChoice",
+      "prompt": "What is 'identity theft'?",
+      "options": ["Losing your passport", "Someone using your personal data for fraud", "Changing your legal name", "Getting a new ID card"],
+      "answerIndex": 1,
+      "explanation": "Identity theft is the fraudulent acquisition and use of a person's private identifying information."
+    },
+    {
+      "id": "finance-b1-w3-q8",
+      "type": "multipleChoice",
+      "prompt": "A 'mobile app' in banking allows you to:",
+      "options": ["Buy a new phone", "Manage finances on your smartphone", "Talk to other customers", "Play video games"],
+      "answerIndex": 1,
+      "explanation": "Mobile banking apps are designed for financial management on the go."
+    },
+    {
+      "id": "finance-b1-w3-q9",
+      "type": "multipleChoice",
+      "prompt": "What is a 'firewall'?",
+      "options": ["A physical wall in the bank", "A security system that monitors network traffic", "A type of heater", "A bank's exit strategy"],
+      "answerIndex": 1,
+      "explanation": "Firewalls are network security systems that control incoming and outgoing traffic."
+    },
+    {
+      "id": "finance-b1-w3-q10",
+      "type": "multipleChoice",
+      "prompt": "What does 'authorized access' mean?",
+      "options": ["Anyone can see the data", "Only people with permission can see the data", "The bank is open to the public", "Free Wi-Fi in the lobby"],
+      "answerIndex": 1,
+      "explanation": "Authorized access is restricted to individuals who have been granted specific permission."
+    },
+    {
+      "id": "finance-b1-w3-q11",
+      "type": "multipleChoice",
+      "prompt": "What is 'malware'?",
+      "options": ["Good software", "Software designed to damage or gain unauthorized access to a system", "A type of hardware", "A new banking product"],
+      "answerIndex": 1,
+      "explanation": "Malware is 'malicious software' intended to cause harm."
+    },
+    {
+      "id": "finance-b1-w3-q12",
+      "type": "multipleChoice",
+      "prompt": "What is 'social engineering' in security?",
+      "options": ["Building bridges", "Manipulating people into giving up confidential info", "Organizing a bank party", "Improving public transport"],
+      "answerIndex": 1,
+      "explanation": "Social engineering uses psychological manipulation to trick people into revealing secrets."
+    },
+    {
+      "id": "finance-b1-w3-q13",
+      "type": "multipleChoice",
+      "prompt": "What is a 'secure connection' (HTTPS)?",
+      "options": ["A very fast internet", "A connection that is encrypted", "A free internet", "A satellite connection"],
+      "answerIndex": 1,
+      "explanation": "HTTPS ensures that data transmitted between a browser and a website is encrypted."
+    },
+    {
+      "id": "finance-b1-w3-q14",
+      "type": "multipleChoice",
+      "prompt": "What is 'spyware'?",
+      "options": ["Software that watches what you do online", "A person who follows you", "A type of security camera", "A fast computer"],
+      "answerIndex": 0,
+      "explanation": "Spyware is malware that gathers information about a person or organization without their knowledge."
+    },
+    {
+      "id": "finance-b1-w3-q15",
+      "type": "multipleChoice",
+      "prompt": "What is a 'password manager'?",
+      "options": ["A person who remembers passwords", "A tool that stores and generates strong passwords", "A type of bank account", "A security guard"],
+      "answerIndex": 1,
+      "explanation": "Password managers help users maintain unique, complex passwords for different sites."
+    },
+    {
+      "id": "finance-b1-w3-grammar-3",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'You ___ (not/click) on links in suspicious emails.'",
+      "options": ["shouldn't", "must", "can", "should"],
+      "answerIndex": 0,
+      "explanation": "'Shouldn't' is used for strong advice against a dangerous action."
+    },
+    {
+      "id": "finance-b1-w3-grammar-4",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'Employees ___ (verify) the client's identity before revealing account details.'",
+      "options": ["must", "mustn't", "shouldn't", "can't"],
+      "answerIndex": 0,
+      "explanation": "'Must' indicates a strict requirement or obligation."
+    },
+    {
+      "id": "finance-b1-w3-grammar-5",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'If you lose your phone, you ___ (contact) the bank immediately.'",
+      "options": ["should", "can't", "mustn't", "won't"],
+      "answerIndex": 0,
+      "explanation": "'Should' is the appropriate modal for urgent advice."
+    },
+    {
+      "id": "finance-b1-w3-grammar-6",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct sentence:",
+      "options": ["You must to call the bank.", "You must call the bank.", "You must calling the bank.", "You musts call the bank."],
+      "answerIndex": 1,
+      "explanation": "Modal verbs like 'must' are followed by the base form of the verb without 'to'."
+    },
+    {
+      "id": "finance-b1-w3-grammar-7",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct sentence:",
+      "options": ["He shoulds update his app.", "He should updates his app.", "He should update his app.", "He should updating his app."],
+      "answerIndex": 2,
+      "explanation": "'Should' does not change form for the third person singular."
+    },
+    {
+      "id": "finance-b1-w3-q21",
+      "type": "multipleChoice",
+      "prompt": "What is 'data breach'?",
+      "options": ["A holiday for data", "Unauthorized release of sensitive information", "A type of data storage", "A fast data transfer"],
+      "answerIndex": 1,
+      "explanation": "A data breach occurs when secure information is accessed without authorization."
+    },
+    {
+      "id": "finance-b1-w3-q22",
+      "type": "multipleChoice",
+      "prompt": "What is 'ransomware'?",
+      "options": ["Software that asks for money to unlock files", "A type of discount", "A bank's reward system", "A new operating system"],
+      "answerIndex": 0,
+      "explanation": "Ransomware is malware that encrypts files and demands payment for the decryption key."
+    },
+    {
+      "id": "finance-b1-w3-q23",
+      "type": "multipleChoice",
+      "prompt": "What is 'vulnerability' in IT?",
+      "options": ["A strong password", "A weakness that can be exploited", "A very fast server", "A type of virus"],
+      "answerIndex": 1,
+      "explanation": "In IT, a vulnerability is a flaw in a system that can be used by hackers."
+    },
+    {
+      "id": "finance-b1-w3-q24",
+      "type": "multipleChoice",
+      "prompt": "What is a 'patch'?",
+      "options": ["A piece of clothing", "A software update to fix security holes", "A type of screen", "A bank's logo"],
+      "answerIndex": 1,
+      "explanation": "Security patches are updates designed to fix vulnerabilities in software."
+    },
+    {
+      "id": "finance-b1-w3-q25",
+      "type": "multipleChoice",
+      "prompt": "What is 'cloud banking'?",
+      "options": ["Banking while flying", "Financial services delivered over the internet", "Storing money in the sky", "A type of rainy day fund"],
+      "answerIndex": 1,
+      "explanation": "Cloud banking uses remote servers hosted on the internet to store and process data."
+    },
+    {
+      "id": "finance-b1-w3-q26",
+      "type": "multipleChoice",
+      "prompt": "What is 'real-time' processing?",
+      "options": ["Transactions processed instantly", "Transactions processed at the end of the day", "Transactions processed in a few weeks", "A clock in the bank"],
+      "answerIndex": 0,
+      "explanation": "Real-time processing means transactions are updated as soon as they occur."
+    },
+    {
+      "id": "finance-b1-w3-q27",
+      "type": "multipleChoice",
+      "prompt": "What is 'fintech'?",
+      "options": ["Financial technology", "A type of fish", "A tech company that failed", "A Finnish bank"],
+      "answerIndex": 0,
+      "explanation": "Fintech is a portmanteau for financial technology."
+    },
+    {
+      "id": "finance-b1-w3-q28",
+      "type": "multipleChoice",
+      "prompt": "What is a 'digital wallet'?",
+      "options": ["A leather wallet with a computer", "An app that stores payment info and digital cards", "A wallet made of plastic", "A type of savings account"],
+      "answerIndex": 1,
+      "explanation": "Digital wallets allow users to make electronic transactions."
+    },
+    {
+      "id": "finance-b1-w3-q29",
+      "type": "multipleChoice",
+      "prompt": "What is 'contactless' payment?",
+      "options": ["Paying with a check", "Paying by tapping a card or phone on a reader", "Paying with a letter", "Not paying at all"],
+      "answerIndex": 1,
+      "explanation": "Contactless payments use RFID or NFC for secure transactions without swiping or inserting."
+    },
+    {
+      "id": "finance-b1-w3-q30",
+      "type": "multipleChoice",
+      "prompt": "What is 'peer-to-peer' (P2P) payment?",
+      "options": ["Paying your boss", "Transferring money directly from one person's account to another", "Buying things from a store", "Paying the government"],
+      "answerIndex": 1,
+      "explanation": "P2P services allow individuals to send money to each other via apps."
+    },
+    {
+      "id": "finance-b1-w3-q31",
+      "type": "multipleChoice",
+      "prompt": "What is a 'session timeout'?",
+      "options": ["The bank closing for lunch", "Automatically logging out after inactivity", "A very long meeting", "A computer crash"],
+      "answerIndex": 1,
+      "explanation": "Session timeouts are a security feature to prevent unauthorized access to an unattended account."
+    },
+    {
+      "id": "finance-b1-w3-q32",
+      "type": "multipleChoice",
+      "prompt": "What is 'encryption key'?",
+      "options": ["A metal key", "A piece of information used to lock or unlock data", "A password for the bank", "The 'Enter' key on a keyboard"],
+      "answerIndex": 1,
+      "explanation": "An encryption key is a random string of bits used to encrypt or decrypt data."
+    },
+    {
+      "id": "finance-b1-w3-q33",
+      "type": "multipleChoice",
+      "prompt": "What is 'cyber-resilience'?",
+      "options": ["The ability to survive and recover from a cyber attack", "A very strong computer", "A type of internet connection", "Using no computers"],
+      "answerIndex": 0,
+      "explanation": "Cyber-resilience focuses on maintaining business operations during and after a security event."
+    },
+    {
+      "id": "finance-b1-w3-q34",
+      "type": "multipleChoice",
+      "prompt": "What is 'suspicious activity'?",
+      "options": ["Opening a new account", "Transactions that do not match the user's normal behavior", "Going to the bank on a Monday", "Buying a coffee"],
+      "answerIndex": 1,
+      "explanation": "Banks monitor for unusual patterns that might indicate fraud."
+    },
+    {
+      "id": "finance-b1-w3-q35",
+      "type": "multipleChoice",
+      "prompt": "What is an 'alert'?",
+      "options": ["A loud noise", "A notification about a specific event (e.g., a large withdrawal)", "A type of loan", "A bank manager"],
+      "answerIndex": 1,
+      "explanation": "Alerts notify customers of important account changes or security events."
+    },
+    {
+      "id": "finance-b1-w3-q36",
+      "type": "multipleChoice",
+      "prompt": "What is 'back-up'?",
+      "options": ["Walking backwards", "A copy of data stored in a separate location", "A type of interest", "Returning a product"],
+      "answerIndex": 1,
+      "explanation": "Backups are essential for data recovery in case of loss or corruption."
+    },
+    {
+      "id": "finance-b1-w3-q37",
+      "type": "multipleChoice",
+      "prompt": "What is 'cloud storage'?",
+      "options": ["Storing things in a box", "Saving data on remote servers", "A type of rain", "Banking in a plane"],
+      "answerIndex": 1,
+      "explanation": "Cloud storage allows data to be accessed from any location with an internet connection."
+    },
+    {
+      "id": "finance-b1-w3-q38",
+      "type": "multipleChoice",
+      "prompt": "What is 'VPN'?",
+      "options": ["Virtual Private Network", "Very Personal Note", "Virtual Price Net", "Verified Power Network"],
+      "answerIndex": 0,
+      "explanation": "A VPN provides a secure, encrypted tunnel for internet traffic."
+    },
+    {
+      "id": "finance-b1-w3-q39",
+      "type": "multipleChoice",
+      "prompt": "What is 'end-to-end encryption'?",
+      "options": ["Encrypting the beginning and end of a file only", "Data is encrypted from sender to receiver", "A very slow encryption", "A type of password"],
+      "answerIndex": 1,
+      "explanation": "It ensures that only the communicating users can read the messages."
+    },
+    {
+      "id": "finance-b1-w3-q40",
+      "type": "multipleChoice",
+      "prompt": "What is 'cold storage' in crypto/security?",
+      "options": ["A freezer", "Storing private keys offline", "Banking in winter", "A type of metal wallet"],
+      "answerIndex": 1,
+      "explanation": "Cold storage keeps sensitive data away from internet access to prevent hacking."
+    },
+    {
+      "id": "finance-b1-w3-q41",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Contraseña fuerte'",
+      "options": ["Strong password", "Hard secret", "Big word", "Secure letter"],
+      "answerIndex": 0,
+      "explanation": "'Strong password' is the standard term."
+    },
+    {
+      "id": "finance-b1-w3-q42",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Cierre de sesión'",
+      "options": ["Logout / Sign out", "Close meeting", "End paper", "Stop bank"],
+      "answerIndex": 0,
+      "explanation": "Both 'Logout' and 'Sign out' are commonly used."
+    },
+    {
+      "id": "finance-b1-w3-q43",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Huella dactilar'",
+      "options": ["Fingerprint", "Toe mark", "Hand sign", "Digital touch"],
+      "answerIndex": 0,
+      "explanation": "'Fingerprint' is used for biometric authentication."
+    },
+    {
+      "id": "finance-b1-w3-q44",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Correo no deseado'",
+      "options": ["Spam / Junk mail", "Bad mail", "Wrong letter", "Unwanted post"],
+      "answerIndex": 0,
+      "explanation": "'Spam' or 'Junk mail' are the standard terms for unsolicited emails."
+    },
+    {
+      "id": "finance-b1-w3-q45",
+      "type": "multipleChoice",
+      "prompt": "Translate: 'Enlace'",
+      "options": ["Link", "Line", "Chain", "Bridge"],
+      "answerIndex": 0,
+      "explanation": "'Link' is the correct term for a hyperlink."
+    },
+    {
+      "id": "finance-b1-w3-q46",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'You ___ (mustn't) use the same password for all your accounts.'",
+      "options": ["mustn't", "should", "can", "must"],
+      "answerIndex": 0,
+      "explanation": "'Mustn't' is used to express a strong recommendation against a risky behavior."
+    },
+    {
+      "id": "finance-b1-w3-q47",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'We ___ (recommend) that you change your PIN every six months.'",
+      "options": ["recommend", "obligate", "must", "can't"],
+      "answerIndex": 0,
+      "explanation": "'Recommend' is a professional way to give advice."
+    },
+    {
+      "id": "finance-b1-w3-q48",
+      "type": "multipleChoice",
+      "prompt": "What should you do if you receive a suspicious email?",
+      "options": ["Click the link", "Reply to it", "Delete it and report it", "Send it to your friends"],
+      "answerIndex": 2,
+      "explanation": "Deleting and reporting are the safest actions."
+    },
+    {
+      "id": "finance-b1-w3-q49",
+      "type": "multipleChoice",
+      "prompt": "What is a 'token' in banking?",
+      "options": ["A physical device or app code for security", "A coin", "A type of loan", "A bank employee"],
+      "answerIndex": 0,
+      "explanation": "Security tokens provide a time-sensitive code for 2FA."
+    },
+    {
+      "id": "finance-b1-w3-q50",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'The bank ___ (never) ask for your password via email.'",
+      "options": ["will never", "should never", "must never", "does never"],
+      "answerIndex": 0,
+      "explanation": "'Will never' is a definitive statement about bank policy."
+    }
+  ]
+}

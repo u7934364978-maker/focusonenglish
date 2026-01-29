@@ -1,0 +1,49 @@
+{
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 2,
+  "weekId": "semana22",
+  "title": "Examen: Atención al Cliente Básica",
+  "items": [
+    {
+      "id": "fin-a1-w22-e1",
+      "type": "multipleChoice",
+      "prompt": "___ you sign here, please?",
+      "options": ["Could", "Are", "Is", "Am"],
+      "answerIndex": 0,
+      "explanation": "We use 'Could' for polite requests."
+    },
+    {
+      "id": "fin-a1-w22-e2",
+      "type": "multipleChoice",
+      "prompt": "The ___ is waiting in the line.",
+      "options": ["customer", "service", "help", "assistant"],
+      "answerIndex": 0,
+      "explanation": "Customers wait in line."
+    },
+    {
+      "id": "fin-a1-w22-e3",
+      "type": "multipleChoice",
+      "prompt": "How ___ I help you?",
+      "options": ["can", "am", "is", "do"],
+      "answerIndex": 0,
+      "explanation": "Standard service question: How can I help you?"
+    },
+    {
+      "id": "fin-a1-w22-e4",
+      "type": "multipleChoice",
+      "prompt": "___ me, where is the manager?",
+      "options": ["Excuse", "Please", "Sorry", "Welcome"],
+      "answerIndex": 0,
+      "explanation": "We use 'Excuse me' to get someone's attention."
+    },
+    {
+      "id": "fin-a1-w22-e5",
+      "type": "multipleChoice",
+      "prompt": "Thank you for your help. - ___.",
+      "options": ["You're welcome", "Please", "Excuse", "Welcome"],
+      "answerIndex": 0,
+      "explanation": "Response to thank you: You're welcome."
+    }
+  ]
+}

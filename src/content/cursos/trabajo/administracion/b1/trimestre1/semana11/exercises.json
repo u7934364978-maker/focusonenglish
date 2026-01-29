@@ -1,0 +1,410 @@
+{
+  "goal": "administracion",
+  "level": "B1",
+  "trimester": 1,
+  "weekId": "semana11",
+  "title": "Comprehensive Trimester 1 Review Exercises",
+  "description": "A mix of exercises covering all topics from weeks 1 to 10.",
+  "items": [
+    {
+      "id": "fin-b1-w11-1",
+      "type": "multipleChoice",
+      "prompt": "Which account is shared by two or more people?",
+      "options": ["Current account", "Savings account", "Joint account", "Escrow"],
+      "answerIndex": 2,
+      "explanation": "Joint accounts are for multiple owners."
+    },
+    {
+      "id": "fin-b1-w11-2",
+      "type": "multipleChoice",
+      "prompt": "What is the term for 'the cost of borrowing money'?",
+      "options": ["Balance", "Interest rate", "Principal", "Deposit"],
+      "answerIndex": 1,
+      "explanation": "Interest rate is the percentage charged on a loan."
+    },
+    {
+      "id": "fin-b1-w11-3",
+      "type": "multipleChoice",
+      "prompt": "I ___ (open) my account three years ago.",
+      "options": ["have opened", "opened", "was opening", "am opening"],
+      "answerIndex": 1,
+      "explanation": "Past Simple for finished time periods (three years ago)."
+    },
+    {
+      "id": "fin-b1-w11-4",
+      "type": "multipleChoice",
+      "prompt": "I ___ (never / see) such a large balance!",
+      "options": ["saw never", "am never seeing", "have never seen", "never saw"],
+      "answerIndex": 2,
+      "explanation": "Present Perfect for life experience."
+    },
+    {
+      "id": "fin-b1-w11-5",
+      "type": "multipleChoice",
+      "prompt": "A fraudulent SMS is called:",
+      "options": ["Phishing", "Vishing", "Smishing", "Trolling"],
+      "answerIndex": 2,
+      "explanation": "Smishing = SMS + Phishing."
+    },
+    {
+      "id": "fin-b1-w11-6",
+      "type": "multipleChoice",
+      "prompt": "In the LAST method, what does 'L' stand for?",
+      "options": ["Look", "Listen", "Learn", "Loan"],
+      "answerIndex": 1,
+      "explanation": "Listening is the first step in resolving complaints."
+    },
+    {
+      "id": "fin-b1-w11-7",
+      "type": "multipleChoice",
+      "prompt": "What is 'collateral'?",
+      "options": ["A bank partner", "An asset used as security for a loan", "A type of tax", "A credit card fee"],
+      "answerIndex": 1,
+      "explanation": "Collateral protects the lender if the borrower defaults."
+    },
+    {
+      "id": "fin-b1-w11-8",
+      "type": "multipleChoice",
+      "prompt": "To 'escalate' a complaint means to:",
+      "options": ["Delete it", "Move it to a higher management level", "Solve it immediately", "Apologize"],
+      "answerIndex": 1,
+      "explanation": "Escalation involves involving supervisors."
+    },
+    {
+      "id": "fin-b1-w11-9",
+      "type": "multipleChoice",
+      "prompt": "A 'Mortgage' is a loan specifically for:",
+      "options": ["Cars", "Property/Real Estate", "Education", "Holidays"],
+      "answerIndex": 1,
+      "explanation": "Mortgages are for buying homes or buildings."
+    },
+    {
+      "id": "fin-b1-w11-10",
+      "type": "multipleChoice",
+      "prompt": "Using a fingerprint to log in is an example of:",
+      "options": ["Biometrics", "2FA", "Encryption", "Firewall"],
+      "answerIndex": 0,
+      "explanation": "Biometrics uses physical traits for identification."
+    },
+    {
+      "id": "fin-b1-w11-11",
+      "type": "multipleChoice",
+      "prompt": "If you ___ your PIN, you should contact the bank immediately.",
+      "options": ["lose", "will lose", "losing", "lost"],
+      "answerIndex": 0,
+      "explanation": "First Conditional: If + Present Simple."
+    },
+    {
+      "id": "fin-b1-w11-12",
+      "type": "multipleChoice",
+      "prompt": "We ___ any unauthorized transactions on your account since last night.",
+      "options": ["didn't find", "haven't found", "not found", "don't find"],
+      "answerIndex": 1,
+      "explanation": "Present Perfect for a period starting in the past and continuing to now ('since last night')."
+    },
+    {
+      "id": "fin-b1-w11-13",
+      "type": "multipleChoice",
+      "prompt": "You ___ check your bank statement every month to spot errors.",
+      "options": ["must", "should", "can't", "mustn't"],
+      "answerIndex": 1,
+      "explanation": "'Should' is used for giving good advice."
+    },
+    {
+      "id": "fin-b1-w11-14",
+      "type": "multipleChoice",
+      "prompt": "I ___ just (receive) an alert about a suspicious login.",
+      "options": ["received", "have just received", "just receive", "was receiving"],
+      "answerIndex": 1,
+      "explanation": "'Just' with Present Perfect for very recent actions."
+    },
+    {
+      "id": "fin-b1-w11-15",
+      "type": "multipleChoice",
+      "prompt": "What ___ you do if the ATM swallows your card?",
+      "options": ["do", "will", "have", "are"],
+      "answerIndex": 1,
+      "explanation": "First Conditional question: will + subject + verb."
+    },
+    {
+      "id": "fin-b1-w11-16",
+      "type": "multipleChoice",
+      "prompt": "A 'Direct Debit' is primarily used for:",
+      "options": ["One-time gifts", "Paying variable monthly bills", "Withdrawing cash", "Saving for retirement"],
+      "answerIndex": 1,
+      "explanation": "Direct debits are often used for utility bills where the amount changes."
+    },
+    {
+      "id": "fin-b1-w11-17",
+      "type": "multipleChoice",
+      "prompt": "You ___ give your full password to anyone, including bank staff.",
+      "options": ["must", "can", "mustn't", "should"],
+      "answerIndex": 2,
+      "explanation": "'Mustn't' indicates a strong prohibition for security."
+    },
+    {
+      "id": "fin-b1-w11-18",
+      "type": "multipleChoice",
+      "prompt": "How long ___ (you / have) your current mortgage?",
+      "options": ["do you have", "have you had", "did you have", "are you having"],
+      "answerIndex": 1,
+      "explanation": "Present Perfect for a duration from the past to the present."
+    },
+    {
+      "id": "fin-b1-w11-19",
+      "type": "multipleChoice",
+      "prompt": "I ___ (send) the wire transfer yesterday morning.",
+      "options": ["sent", "have sent", "send", "was sending"],
+      "answerIndex": 0,
+      "explanation": "Past Simple for specific past time ('yesterday morning')."
+    },
+    {
+      "id": "fin-b1-w11-20",
+      "type": "multipleChoice",
+      "prompt": "What does 'liquidity' refer to?",
+      "options": ["How much water the bank uses", "Availability of cash to meet debts", "The speed of the internet", "A type of insurance"],
+      "answerIndex": 1,
+      "explanation": "Liquidity is the ability to turn assets into cash quickly."
+    },
+    {
+      "id": "fin-b1-w11-21",
+      "type": "multipleChoice",
+      "prompt": "If the bank ___ (make) a mistake, they will waive the fee.",
+      "options": ["makes", "will make", "make", "made"],
+      "answerIndex": 0,
+      "explanation": "First Conditional: If + Present Simple."
+    },
+    {
+      "id": "fin-b1-w11-22",
+      "type": "multipleChoice",
+      "prompt": "A 'Standing Order' is for:",
+      "options": ["Variable bills", "Fixed regular payments", "One-time transfers", "Cash deposits"],
+      "answerIndex": 1,
+      "explanation": "Standing orders are for the same amount paid regularly."
+    },
+    {
+      "id": "fin-b1-w11-23",
+      "type": "multipleChoice",
+      "prompt": "You ___ always log out of your online banking session.",
+      "options": ["must", "can", "might", "shouldn't"],
+      "answerIndex": 0,
+      "explanation": "'Must' for a mandatory safety rule."
+    },
+    {
+      "id": "fin-b1-w11-24",
+      "type": "multipleChoice",
+      "prompt": "I ___ (work) here for ten years.",
+      "options": ["work", "am working", "have worked", "worked"],
+      "answerIndex": 2,
+      "explanation": "Present Perfect for a period of time starting in the past and continuing now."
+    },
+    {
+      "id": "fin-b1-w11-25",
+      "type": "multipleChoice",
+      "prompt": "What is a 'bounced cheque'?",
+      "options": ["A cheque made of rubber", "A cheque refused by the bank due to lack of funds", "A very old cheque", "A gift from the bank"],
+      "answerIndex": 1,
+      "explanation": "Cheques bounce when there isn't enough money to cover them."
+    },
+    {
+      "id": "fin-b1-w11-26",
+      "type": "multipleChoice",
+      "prompt": "If we ___ (not / receive) the docs, the loan will be denied.",
+      "options": ["don't receive", "won't receive", "not receive", "didn't receive"],
+      "answerIndex": 0,
+      "explanation": "Negative if-clause in First Conditional."
+    },
+    {
+      "id": "fin-b1-w11-27",
+      "type": "multipleChoice",
+      "prompt": "To 'credit' an account means to:",
+      "options": ["Remove money", "Add money", "Close it", "Freeze it"],
+      "answerIndex": 1,
+      "explanation": "Crediting means adding funds to the balance."
+    },
+    {
+      "id": "fin-b1-w11-28",
+      "type": "multipleChoice",
+      "prompt": "Have you ___ used a mobile banking app?",
+      "options": ["ever", "never", "yet", "already"],
+      "answerIndex": 0,
+      "explanation": "'Ever' for life experiences in questions."
+    },
+    {
+      "id": "fin-b1-w11-29",
+      "type": "multipleChoice",
+      "prompt": "The manager ___ (be) in a meeting since 9 AM.",
+      "options": ["is", "was", "has been", "be"],
+      "answerIndex": 2,
+      "explanation": "Present Perfect with 'since' for state continuing to the present."
+    },
+    {
+      "id": "fin-b1-w11-30",
+      "type": "multipleChoice",
+      "prompt": "A 'fixed-term deposit' usually offers ___ interest than a current account.",
+      "options": ["lower", "higher", "no", "the same"],
+      "answerIndex": 1,
+      "explanation": "Fixed-term accounts trade access for better rates."
+    },
+    {
+      "id": "fin-b1-w11-31",
+      "type": "multipleChoice",
+      "prompt": "If the customer ___ (apologize), we will still need to follow procedure.",
+      "options": ["apologizes", "will apologize", "apologize", "apologized"],
+      "answerIndex": 0,
+      "explanation": "3rd person singular in Present Simple."
+    },
+    {
+      "id": "fin-b1-w11-32",
+      "type": "multipleChoice",
+      "prompt": "What is 'phishing'?",
+      "options": ["A hobby", "Fraudulent emails used to steal info", "Voice fraud", "A type of firewall"],
+      "answerIndex": 1,
+      "explanation": "Phishing specifically refers to deceptive emails."
+    },
+    {
+      "id": "fin-b1-w11-33",
+      "type": "multipleChoice",
+      "prompt": "You ___ use a public computer for banking.",
+      "options": ["should", "must", "shouldn't", "can"],
+      "answerIndex": 2,
+      "explanation": "'Shouldn't' is used for strong advice against a risky action."
+    },
+    {
+      "id": "fin-b1-w11-34",
+      "type": "multipleChoice",
+      "prompt": "The bank ___ (update) its security software last month.",
+      "options": ["updates", "has updated", "updated", "was updating"],
+      "answerIndex": 2,
+      "explanation": "Past Simple for 'last month'."
+    },
+    {
+      "id": "fin-b1-w11-35",
+      "type": "multipleChoice",
+      "prompt": "What does a 'teller' do?",
+      "options": ["Manages the whole bank", "Helps customers at the branch counter", "Only works at night", "Cleans the bank"],
+      "answerIndex": 1,
+      "explanation": "Tellers are frontline customer service staff."
+    },
+    {
+      "id": "fin-b1-w11-36",
+      "type": "multipleChoice",
+      "prompt": "If you ___ (have) any more questions, please ask.",
+      "options": ["have", "will have", "has", "had"],
+      "answerIndex": 0,
+      "explanation": "Standard First Conditional for assistance."
+    },
+    {
+      "id": "fin-b1-w11-37",
+      "type": "multipleChoice",
+      "prompt": "To 'debit' an account means to:",
+      "options": ["Add money", "Take money out", "Invest money", "Open it"],
+      "answerIndex": 1,
+      "explanation": "Debiting is removing funds from an account."
+    },
+    {
+      "id": "fin-b1-w11-38",
+      "type": "multipleChoice",
+      "prompt": "I ___ (already / pay) my credit card bill.",
+      "options": ["already paid", "have already paid", "already pay", "am already paying"],
+      "answerIndex": 1,
+      "explanation": "'Already' with Present Perfect."
+    },
+    {
+      "id": "fin-b1-w11-39",
+      "type": "multipleChoice",
+      "prompt": "What is 'insolvency'?",
+      "options": ["Being very rich", "Inability to pay debts when due", "Opening a new account", "A bank merger"],
+      "answerIndex": 1,
+      "explanation": "Insolvency is the state of being unable to pay what is owed."
+    },
+    {
+      "id": "fin-b1-w11-40",
+      "type": "multipleChoice",
+      "prompt": "If the transfer ___ (not / arrive) by Friday, call us.",
+      "options": ["doesn't arrive", "won't arrive", "not arrive", "didn't arrive"],
+      "answerIndex": 0,
+      "explanation": "Negative if-clause in First Conditional."
+    },
+    {
+      "id": "fin-b1-w11-41",
+      "type": "multipleChoice",
+      "prompt": "A 'goodwill gesture' is:",
+      "options": ["A type of tax", "A small gift or service to keep a customer happy", "A mandatory fee", "A bank loan"],
+      "answerIndex": 1,
+      "explanation": "Goodwill gestures repair relationships after errors."
+    },
+    {
+      "id": "fin-b1-w11-42",
+      "type": "multipleChoice",
+      "prompt": "You ___ keep your PIN secret at all times.",
+      "options": ["must", "can", "might", "mustn't"],
+      "answerIndex": 0,
+      "explanation": "'Must' for a vital security rule."
+    },
+    {
+      "id": "fin-b1-w11-43",
+      "type": "multipleChoice",
+      "prompt": "I ___ (not / see) my bank statement yet.",
+      "options": ["didn't see", "haven't seen", "not see", "don't see"],
+      "answerIndex": 1,
+      "explanation": "'Yet' with Present Perfect."
+    },
+    {
+      "id": "fin-b1-w11-44",
+      "type": "multipleChoice",
+      "prompt": "What is a 'discrepancy'?",
+      "options": ["A high balance", "A mismatch or inconsistency in data", "A new card", "A bank branch"],
+      "answerIndex": 1,
+      "explanation": "Discrepancy is the term for an error or inconsistency."
+    },
+    {
+      "id": "fin-b1-w11-45",
+      "type": "multipleChoice",
+      "prompt": "If you ___ (provide) the code, I will unlock the account.",
+      "options": ["provide", "will provide", "provides", "provided"],
+      "answerIndex": 0,
+      "explanation": "First Conditional: If + Present Simple."
+    },
+    {
+      "id": "fin-b1-w11-46",
+      "type": "multipleChoice",
+      "prompt": "To 'remedy' a situation means to:",
+      "options": ["Make it worse", "Fix or correct it", "Ignore it", "Record it"],
+      "answerIndex": 1,
+      "explanation": "Remedying is part of resolving complaints."
+    },
+    {
+      "id": "fin-b1-w11-47",
+      "type": "multipleChoice",
+      "prompt": "You ___ use professional language when speaking to clients.",
+      "options": ["must", "can't", "shouldn't", "might"],
+      "answerIndex": 0,
+      "explanation": "'Must' for a professional requirement."
+    },
+    {
+      "id": "fin-b1-w11-48",
+      "type": "multipleChoice",
+      "prompt": "When ___ (the bank / open) its first international branch?",
+      "options": ["did the bank open", "has the bank opened", "does the bank open", "was the bank opening"],
+      "answerIndex": 0,
+      "explanation": "Past Simple for historical events."
+    },
+    {
+      "id": "fin-b1-w11-49",
+      "type": "multipleChoice",
+      "prompt": "What does '2FA' stand for?",
+      "options": ["Two-Factor Authentication", "Two-File Access", "Total Financial Analysis", "Twice-Folded Account"],
+      "answerIndex": 0,
+      "explanation": "2FA adds an extra layer of security."
+    },
+    {
+      "id": "fin-b1-w11-50",
+      "type": "multipleChoice",
+      "prompt": "If the client ___ (refuse) to pay, we will take legal action.",
+      "options": ["refuses", "will refuse", "refuse", "refused"],
+      "answerIndex": 0,
+      "explanation": "Present Simple for 3rd person singular 'client'."
+    }
+  ]
+}

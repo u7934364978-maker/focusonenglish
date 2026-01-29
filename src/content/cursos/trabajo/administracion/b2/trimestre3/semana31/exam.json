@@ -1,0 +1,50 @@
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 3,
+  "weekId": "semana31",
+  "examId": "fin-b2-w31-exam",
+  "title": "Exam: Global Economy and Markets",
+  "items": [
+    {
+      "id": "fin-b2-w31-exam-1",
+      "type": "multipleChoice",
+      "prompt": "By next year, the inflation rate ________ (hopefully/stabilize).",
+      "options": ["will stabilize", "will have stabilized", "is stabilizing", "has stabilized"],
+      "answerIndex": 1,
+      "explanation": "Future Perfect for a hoped-for completed state in the future."
+    },
+    {
+      "id": "fin-b2-w31-exam-2",
+      "type": "multipleChoice",
+      "prompt": "What is 'GDP' (Gross Domestic Product)?",
+      "options": ["The total profit of all banks", "The market value of all final goods and services produced in a country", "The government's annual budget", "The total amount of debt in a nation"],
+      "answerIndex": 1,
+      "explanation": "GDP is the primary indicator of economic health and size."
+    },
+    {
+      "id": "fin-b2-w31-exam-3",
+      "type": "multipleChoice",
+      "prompt": "Economic analysts ________ (watch) the Fed's next move closely.",
+      "options": ["will be watching", "will have watched", "have been watched", "watch"],
+      "answerIndex": 0,
+      "explanation": "Future Continuous for an ongoing future activity."
+    },
+    {
+      "id": "fin-b2-w31-exam-4",
+      "type": "multipleChoice",
+      "prompt": "An 'Emerging Market' is a country that:",
+      "options": ["Is already fully developed", "Has some characteristics of a developed market but is not yet there", "Does not allow foreign investment", "Is currently in a state of civil war"],
+      "answerIndex": 1,
+      "explanation": "Emerging markets offer high growth potential but also higher risk."
+    },
+    {
+      "id": "fin-b2-w31-exam-5",
+      "type": "multipleChoice",
+      "prompt": "By 2040, renewable energy ________ (likely/overtake) fossil fuels.",
+      "options": ["will overtake", "will have overtaken", "is overtaking", "has overtaken"],
+      "answerIndex": 1,
+      "explanation": "Future Perfect for a predicted long-term shift."
+    }
+  ]
+}

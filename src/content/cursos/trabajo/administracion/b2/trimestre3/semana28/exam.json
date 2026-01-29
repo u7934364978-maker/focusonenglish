@@ -1,0 +1,50 @@
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 3,
+  "weekId": "semana28",
+  "examId": "fin-b2-w28-exam",
+  "title": "Exam: Asset Management Basics",
+  "items": [
+    {
+      "id": "fin-b2-w28-exam-1",
+      "type": "multipleChoice",
+      "prompt": "If the fund manager ________ (diversify) the portfolio earlier, we wouldn't have lost so much.",
+      "options": ["diversified", "had diversified", "has diversified", "would diversify"],
+      "answerIndex": 1,
+      "explanation": "Third conditional: If + past perfect."
+    },
+    {
+      "id": "fin-b2-w28-exam-2",
+      "type": "multipleChoice",
+      "prompt": "What is 'Active Management'?",
+      "options": ["Tracking an index like the S&P 500", "Attempting to outperform the market through specific stock selection", "Closing the fund for the weekend", "Automated trading only"],
+      "answerIndex": 1,
+      "explanation": "Active managers try to beat the market benchmark."
+    },
+    {
+      "id": "fin-b2-w28-exam-3",
+      "type": "multipleChoice",
+      "prompt": "The team ________ (analyze) the market trends all morning.",
+      "options": ["has analyzed", "has been analyzing", "is analyzing", "was analyzed"],
+      "answerIndex": 1,
+      "explanation": "Present Perfect Continuous for an action that started in the past and continues."
+    },
+    {
+      "id": "fin-b2-w28-exam-4",
+      "type": "multipleChoice",
+      "prompt": "What does 'Asset Allocation' mean?",
+      "options": ["The location of the bank's vault", "Dividing an investment portfolio among different asset categories", "Paying the fund's employees", "The price of a single share"],
+      "answerIndex": 1,
+      "explanation": "Allocation balances risk and reward according to goals."
+    },
+    {
+      "id": "fin-b2-w28-exam-5",
+      "type": "multipleChoice",
+      "prompt": "If the benchmark ________ (not drop) so sharply, the investors would be happier.",
+      "options": ["didn't drop", "hadn't dropped", "doesn't drop", "hasn't dropped"],
+      "answerIndex": 1,
+      "explanation": "Third conditional for past regret/scenario."
+    }
+  ]
+}

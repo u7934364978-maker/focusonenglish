@@ -1,0 +1,50 @@
+{
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 3,
+  "weekId": "semana25",
+  "examId": "fin-a1-w25-exam",
+  "title": "Examen: Operaciones Bancarias Básicas",
+  "items": [
+    {
+      "id": "fin-a1-w25-exam-1",
+      "type": "multipleChoice",
+      "prompt": "How do you say 'Depósito' in English?",
+      "options": ["Withdrawal", "Deposit", "Balance", "Interest"],
+      "answerIndex": 1,
+      "explanation": "A deposit is when you put money into your account."
+    },
+    {
+      "id": "fin-a1-w25-exam-2",
+      "type": "multipleChoice",
+      "prompt": "Complete the instruction: 'Please ________ your PIN.'",
+      "options": ["enters", "entering", "enter", "entered"],
+      "answerIndex": 2,
+      "explanation": "We use the imperative (base form) for instructions."
+    },
+    {
+      "id": "fin-a1-w25-exam-3",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Withdrawal'?",
+      "options": ["Taking money out of the bank", "Putting money into the bank", "Opening a new account", "Closing the bank"],
+      "answerIndex": 0,
+      "explanation": "A withdrawal is taking money out."
+    },
+    {
+      "id": "fin-a1-w25-exam-4",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct imperative: '________ the form here.'",
+      "options": ["Sign", "Signs", "Signing", "To sign"],
+      "answerIndex": 0,
+      "explanation": "Imperative form: 'Sign the form'."
+    },
+    {
+      "id": "fin-a1-w25-exam-5",
+      "type": "multipleChoice",
+      "prompt": "What does 'Balance' mean in a bank account?",
+      "options": ["The name of the bank", "The amount of money in the account", "The color of the credit card", "The bank's address"],
+      "answerIndex": 1,
+      "explanation": "Your balance is how much money you have in your account."
+    }
+  ]
+}

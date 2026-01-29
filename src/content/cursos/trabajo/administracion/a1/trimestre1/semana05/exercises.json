@@ -1,0 +1,65 @@
+{
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 1,
+  "weekId": "semana05",
+  "title": "Exercises: Days and Banking Hours",
+  "items": [
+    {
+      "id": "fin-a1-w5-q1",
+      "type": "multipleChoice",
+      "prompt": "Which day comes after Tuesday?",
+      "options": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "answerIndex": 1,
+      "explanation": "The order is Monday, Tuesday, Wednesday..."
+    },
+    {
+      "id": "fin-a1-w5-q2",
+      "type": "multipleChoice",
+      "prompt": "What does '24/7' mean?",
+      "options": [
+        "Open only on weekends",
+        "Open 24 hours every day",
+        "Closed on Sundays",
+        "Open for 7 hours"
+      ],
+      "answerIndex": 1,
+      "explanation": "24/7 means 24 hours a day, 7 days a week (always open)."
+    },
+    {
+      "id": "fin-a1-w5-grammar-1",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'The digital bank ___ 24/7.'",
+      "options": [
+        "work",
+        "works",
+        "working",
+        "are work"
+      ],
+      "answerIndex": 1,
+      "explanation": "The subject (digital bank) is singular (It), so we use 'works'."
+    },
+    {
+      "id": "fin-a1-w5-matching-1",
+      "type": "matching",
+      "prompt": "Match the term with its meaning.",
+      "pairs": [
+        {"term": "Weekend", "definition": "Saturday and Sunday"},
+        {"term": "24/7", "definition": "Always open"},
+        {"term": "Weekdays", "definition": "Monday to Friday"}
+      ]
+    },
+    {
+      "id": "fin-a1-w5-writing-1",
+      "type": "writingTask",
+      "prompt": "Write a short sentence about the bank. Example: 'The bank opens at 9:00.'",
+      "modelAnswer": "The bank opens at 9:00.",
+      "keywords": ["opens", "at"]
+    }
+  ]
+}

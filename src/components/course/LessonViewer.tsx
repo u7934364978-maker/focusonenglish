@@ -56,7 +56,7 @@ interface LessonViewerProps {
 }
 
 export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) {
-  // Detect lesson level from lesson ID (e.g., "a1-m1-l1" -> "A1", "b2-m1-l1" -> "B2", or "finanzas-b1-..." -> "B1")
+  // Detect lesson level from lesson ID (e.g., "a1-m1-l1" -> "A1", "b2-m1-l1" -> "B2", or "administracion-b1-..." -> "B1")
   const getLevel = () => {
     const parts = lesson.id.split('-');
     // Check if any part matches a level pattern

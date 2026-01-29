@@ -1,0 +1,50 @@
+{
+  "goal": "administracion",
+  "level": "C1",
+  "trimester": 1,
+  "weekId": "semana03",
+  "title": "Week 3 Quiz: Cost & Capital",
+  "description": "Test your grasp of working capital optimization and formal drafting.",
+  "items": [
+    {
+      "id": "fin-c1-w3-e1",
+      "type": "multipleChoice",
+      "prompt": "DPO stands for:",
+      "options": ["Days Payable Outstanding", "Debt Payment Option", "Daily Profit Output", "Digital Payment Order"],
+      "answerIndex": 0,
+      "explanation": "It measures how long a company takes to pay its creditors."
+    },
+    {
+      "id": "fin-c1-w3-e2",
+      "type": "multipleChoice",
+      "prompt": "Which phrase indicates a result? 'We optimized our inventory; ___, our cash position improved.'",
+      "options": ["consequently", "nevertheless", "furthermore", "however"],
+      "answerIndex": 0,
+      "explanation": "'Consequently' shows a direct result of the previous action."
+    },
+    {
+      "id": "fin-c1-w3-e3",
+      "type": "multipleChoice",
+      "prompt": "Operating Leverage is higher when:",
+      "options": ["Variable costs are high", "Fixed costs are high relative to variable costs", "The company has no debt", "Interest rates are low"],
+      "answerIndex": 1,
+      "explanation": "High fixed costs mean a small increase in sales leads to a large increase in profit."
+    },
+    {
+      "id": "fin-c1-w3-e4",
+      "type": "multipleChoice",
+      "prompt": "Cash Conversion Cycle (CCC) measures:",
+      "options": ["How many times a day the bank opens", "The time it takes to convert resource inputs into cash flows", "The weight of the company's coins", "The number of ATMs in the city"],
+      "answerIndex": 1,
+      "explanation": "It's a key metric for operational efficiency."
+    },
+    {
+      "id": "fin-c1-w3-e5",
+      "type": "multipleChoice",
+      "prompt": "What is 'Account Payable'?",
+      "options": ["Money owed to the company by customers", "Money owed by the company to its suppliers", "The company's bank balance", "The CEO's bonus"],
+      "answerIndex": 1,
+      "explanation": "Accounts Payable are liabilities."
+    }
+  ]
+}

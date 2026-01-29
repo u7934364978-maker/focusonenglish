@@ -1,0 +1,167 @@
+{
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 1,
+  "weekId": "semana11",
+  "title": "Dates & Deadlines",
+  "items": [
+    {
+      "id": "fin-a1-w11-01",
+      "type": "matching",
+      "prompt": "Match the term with its financial period:",
+      "pairs": [
+        { "left": "Q1", "right": "January to March" },
+        { "left": "Q2", "right": "April to June" },
+        { "left": "Q3", "right": "July to September" },
+        { "left": "Q4", "right": "October to December" }
+      ],
+      "explanation": "Companies divide the year into four quarters (Q1-Q4)."
+    },
+    {
+      "id": "fin-a1-w11-02",
+      "type": "multipleChoice",
+      "prompt": "The ______ for the payment is January 31st.",
+      "options": ["Due Date", "Quarter", "Month"],
+      "answerIndex": 0,
+      "explanation": "The 'Due Date' is the final day to make a payment."
+    },
+    {
+      "id": "fin-a1-w11-03",
+      "type": "multipleChoice",
+      "prompt": "The fiscal year starts ______ January.",
+      "options": ["at", "on", "in"],
+      "answerIndex": 2,
+      "explanation": "We use 'in' for months."
+    },
+    {
+      "id": "fin-a1-w11-04",
+      "type": "fillBlanks",
+      "prompt": "Our meeting is [blank] Monday at 10:00 AM.",
+      "answers": ["on"],
+      "explanation": "Use 'on' for days of the week."
+    },
+    {
+      "id": "fin-a1-w11-05",
+      "type": "multipleChoice",
+      "prompt": "Which month is in the second quarter (Q2)?",
+      "options": ["February", "May", "August"],
+      "answerIndex": 1,
+      "explanation": "Q2 includes April, May, and June."
+    },
+    {
+      "id": "fin-a1-w11-06",
+      "type": "writing",
+      "prompt": "Write a sentence saying that your payment is on the 15th of every month.",
+      "example": "My payment is on the 15th of every month.",
+      "explanation": "Use 'on the 15th' to specify a day."
+    },
+    {
+      "id": "fin-a1-w11-07",
+      "type": "rolePlay",
+      "prompt": "Role-play: You are calling the bank to ask about a due date. Ask: 'When is the due date for my credit card?'",
+      "scenario": "A phone call to customer service.",
+      "suggestedPhrases": [
+        "When is the due date?",
+        "Is it in February or March?",
+        "Is the deadline on the 5th?"
+      ]
+    },
+    {
+      "id": "fin-a1-w11-08",
+      "type": "multipleChoice",
+      "prompt": "The meeting starts ______ 9:00 AM sharp.",
+      "options": ["at", "on", "in"],
+      "answerIndex": 0,
+      "explanation": "We use 'at' for specific times."
+    },
+    {
+      "id": "fin-a1-w11-09",
+      "type": "fillBlanks",
+      "prompt": "The [blank] month of the year is December.",
+      "answers": ["twelfth", "12th"],
+      "explanation": "December is the 12th month."
+    },
+    {
+      "id": "fin-a1-w11-10",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The bank is closed in August",
+      "explanation": "El banco está cerrado en agosto."
+    },
+    {
+      "id": "fin-a1-w11-11",
+      "type": "multipleChoice",
+      "prompt": "Today is March ______.",
+      "options": ["2rd", "2nd", "2th"],
+      "answerIndex": 1,
+      "explanation": "The ordinal for 2 is '2nd'."
+    },
+    {
+      "id": "fin-a1-w11-12",
+      "type": "fillBlanks",
+      "prompt": "Our new project starts [blank] 2026.",
+      "answers": ["in"],
+      "explanation": "Use 'in' for years."
+    },
+    {
+      "id": "fin-a1-w11-13",
+      "type": "multipleChoice",
+      "prompt": "Which month is after April?",
+      "options": ["March", "May", "June"],
+      "answerIndex": 1,
+      "explanation": "May comes after April."
+    },
+    {
+      "id": "fin-a1-w11-14",
+      "type": "writing",
+      "prompt": "Translate to English: 'La reunión es el 12 de octubre.'",
+      "example": "The meeting is on October 12th.",
+      "explanation": "Use 'on' for full dates."
+    },
+    {
+      "id": "fin-a1-w11-15",
+      "type": "multipleChoice",
+      "prompt": "I have an appointment ______ Tuesday morning.",
+      "options": ["in", "on", "at"],
+      "answerIndex": 1,
+      "explanation": "Use 'on' for specific days (even with 'morning/afternoon')."
+    },
+    {
+      "id": "fin-a1-w11-16",
+      "type": "fillBlanks",
+      "prompt": "June is the [blank] month.",
+      "answers": ["sixth", "6th"],
+      "explanation": "June is month number 6."
+    },
+    {
+      "id": "fin-a1-w11-17",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Today is January 1st",
+      "explanation": "Hoy es 1 de enero."
+    },
+    {
+      "id": "fin-a1-w11-18",
+      "type": "multipleChoice",
+      "prompt": "The ______ for the report is Friday.",
+      "options": ["deadline", "quarter", "month"],
+      "answerIndex": 0,
+      "explanation": "A deadline is the latest time to finish something."
+    },
+    {
+      "id": "fin-a1-w11-19",
+      "type": "fillBlanks",
+      "prompt": "My salary arrives [blank] the first of the month.",
+      "answers": ["on"],
+      "explanation": "Use 'on' for specific days like 'the first'."
+    },
+    {
+      "id": "fin-a1-w11-20",
+      "type": "multipleChoice",
+      "prompt": "Christmas is ______ December 25th.",
+      "options": ["in", "on", "at"],
+      "answerIndex": 1,
+      "explanation": "Use 'on' for specific dates."
+    }
+  ]
+}

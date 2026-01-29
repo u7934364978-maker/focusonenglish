@@ -1,0 +1,170 @@
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana12",
+  "title": "B2 TRIMESTER 1 FINAL EXAM",
+  "description": "Comprehensive final exam for the B2 Banking & Finance course (Trimester 1).",
+  "items": [
+    {
+      "id": "fin-b2-w12-exam-1",
+      "type": "multipleChoice",
+      "prompt": "What is the primary goal of an 'Internal Audit'?",
+      "options": ["To verify tax payments", "To evaluate and improve the effectiveness of risk management and control", "To prepare the annual report for shareholders", "To fire underperforming managers"],
+      "answerIndex": 1,
+      "explanation": "Internal auditing provides independent assurance on an organization's internal processes."
+    },
+    {
+      "id": "fin-b2-w12-exam-2",
+      "type": "multipleChoice",
+      "prompt": "Which KPI would you use to measure short-term liquidity?",
+      "options": ["Net Profit Margin", "Debt-to-Equity Ratio", "Current Ratio", "Operating Margin"],
+      "answerIndex": 2,
+      "explanation": "The current ratio (Current Assets / Current Liabilities) is a key liquidity indicator."
+    },
+    {
+      "id": "fin-b2-w12-exam-3",
+      "type": "multipleChoice",
+      "prompt": "If an auditor is checking 'entries against invoices', they are performing:",
+      "options": ["Amortization", "Vouching", "Capitalization", "Diversification"],
+      "answerIndex": 1,
+      "explanation": "Vouching is the process of verifying recorded transactions against source documents."
+    },
+    {
+      "id": "fin-b2-w12-exam-4",
+      "type": "multipleChoice",
+      "prompt": "Complete the deduction: 'The balance sheet doesn't balance. There ___ been a significant error in the consolidation.'",
+      "options": ["must have", "should have", "might have", "can't have"],
+      "answerIndex": 0,
+      "explanation": "Use 'must have' for strong positive deduction based on evidence."
+    },
+    {
+      "id": "fin-b2-w12-exam-5",
+      "type": "multipleChoice",
+      "prompt": "What is 'Materiality' in a financial context?",
+      "options": ["The physical assets of a company", "The importance of an amount or omission that would affect a user's decision", "The cost of building materials", "A bank's total capital"],
+      "answerIndex": 1,
+      "explanation": "Materiality is a threshold for what is significant in financial reporting."
+    },
+    {
+      "id": "fin-b2-w12-exam-6",
+      "type": "multipleChoice",
+      "prompt": "What does a high 'Inventory Turnover' ratio usually suggest?",
+      "options": ["The company is failing", "The company is selling goods quickly and efficiently", "The company has too much stock", "The company has high debt"],
+      "answerIndex": 1,
+      "explanation": "High turnover indicates efficient sales and inventory management."
+    },
+    {
+      "id": "fin-b2-w12-exam-7",
+      "type": "multipleChoice",
+      "prompt": "Identify the formal passive: 'The discrepancies ___ by the internal team.'",
+      "options": ["found", "was found", "were found", "has found"],
+      "answerIndex": 2,
+      "explanation": "Plural subject 'discrepancies' + past simple passive."
+    },
+    {
+      "id": "fin-b2-w12-exam-8",
+      "type": "multipleChoice",
+      "prompt": "What is 'Compliance'?",
+      "options": ["The state of according with laws and regulations", "Hiring new staff", "Selling products", "Opening a bank account"],
+      "answerIndex": 0,
+      "explanation": "Compliance ensures the company follows legal and ethical rules."
+    },
+    {
+      "id": "fin-b2-w12-exam-9",
+      "type": "multipleChoice",
+      "prompt": "An 'Audit Trail' is essential for:",
+      "options": ["Marketing", "Traceability and verification of transactions", "Hiring auditors", "Designing the annual report"],
+      "answerIndex": 1,
+      "explanation": "An audit trail allows auditors to follow the 'paper trail' of a transaction."
+    },
+    {
+      "id": "fin-b2-w12-exam-10",
+      "type": "multipleChoice",
+      "prompt": "What is the result of 'Accrual Accounting'?",
+      "options": ["Recording income when cash is received", "Recording income when it is earned, regardless of when cash moves", "No profit", "Immediate bankruptcy"],
+      "answerIndex": 1,
+      "explanation": "Accrual accounting matches revenues and expenses to the period they occur."
+    },
+    {
+      "id": "fin-b2-w12-exam-11",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Solvency' ratio?",
+      "options": ["Gross Margin", "Quick Ratio", "Debt-to-Equity Ratio", "Current Ratio"],
+      "answerIndex": 2,
+      "explanation": "Solvency ratios focus on long-term debt-paying ability."
+    },
+    {
+      "id": "fin-b2-w12-exam-12",
+      "type": "multipleChoice",
+      "prompt": "To 'Reconcile' a bank statement means to:",
+      "options": ["Throw it away", "Compare and match it with the internal ledger", "Pay the bank fee", "Change the bank"],
+      "answerIndex": 1,
+      "explanation": "Reconciliation ensures the bank's balance matches the company's books."
+    },
+    {
+      "id": "fin-b2-w12-exam-13",
+      "type": "multipleChoice",
+      "prompt": "What is 'Depreciation'?",
+      "options": ["Allocation of a tangible asset's cost over its life", "A sudden loss of money", "A type of tax", "An increase in value"],
+      "answerIndex": 0,
+      "explanation": "Depreciation is a non-cash expense that reduces asset value on the books."
+    },
+    {
+      "id": "fin-b2-w12-exam-14",
+      "type": "multipleChoice",
+      "prompt": "A 'Statutory Audit' is required by:",
+      "options": ["The CEO", "The Law", "The Customers", "The Marketing team"],
+      "answerIndex": 1,
+      "explanation": "Statutory means required by statute (legislation)."
+    },
+    {
+      "id": "fin-b2-w12-exam-15",
+      "type": "multipleChoice",
+      "prompt": "What is 'Leverage'?",
+      "options": ["Using debt to finance assets and increase returns", "Buying a new building", "Hiring more employees", "Reducing costs"],
+      "answerIndex": 0,
+      "explanation": "Leverage uses borrowed funds to amplify potential gains (or losses)."
+    },
+    {
+      "id": "fin-b2-w12-exam-16",
+      "type": "multipleChoice",
+      "prompt": "Speculate about a missed target: 'The company ___ hit the target if the exchange rate had stayed stable.'",
+      "options": ["must have", "might have", "can't have", "should have"],
+      "answerIndex": 1,
+      "explanation": "'Might have' expresses a past possibility that was dependent on a condition."
+    },
+    {
+      "id": "fin-b2-w12-exam-17",
+      "type": "multipleChoice",
+      "prompt": "An 'Unfavorable Variance' in costs means:",
+      "options": ["Actual < Budget", "Actual > Budget", "Actual = Budget", "Budget was zero"],
+      "answerIndex": 1,
+      "explanation": "Spending more than planned is unfavorable."
+    },
+    {
+      "id": "fin-b2-w12-exam-18",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Net' figure?",
+      "options": ["Revenue", "Total Sales", "Gross Profit", "Bottom Line"],
+      "answerIndex": 3,
+      "explanation": "The 'Bottom Line' refers to Net Profit after all expenses."
+    },
+    {
+      "id": "fin-b2-w12-exam-19",
+      "type": "multipleChoice",
+      "prompt": "A 'Clean Audit Opinion' means:",
+      "options": ["The auditor washed the books", "The financial statements are free of material misstatements", "The company is bankrupt", "The auditor was paid a lot"],
+      "answerIndex": 1,
+      "explanation": "A clean or 'unqualified' opinion is the best result for a company."
+    },
+    {
+      "id": "fin-b2-w12-exam-20",
+      "type": "multipleChoice",
+      "prompt": "Reporting verbs should be:",
+      "options": ["Emotional", "Objective and professional", "Funny", "Short"],
+      "answerIndex": 1,
+      "explanation": "Professionalism requires objective language like 'noted', 'observed', or 'concluded'."
+    }
+  ]
+}

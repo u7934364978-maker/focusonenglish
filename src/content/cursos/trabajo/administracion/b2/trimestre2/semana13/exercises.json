@@ -1,0 +1,659 @@
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana13",
+  "title": "Ejercicios: Asignación de Activos y Diversificación",
+  "items": [
+    {
+      "id": "fin-b2-w13-1",
+      "type": "multipleChoice",
+      "prompt": "If we _______ our portfolio last year, we would have avoided the tech crash.",
+      "options": [
+        "diversified",
+        "had diversified",
+        "would diversify",
+        "have diversified"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is a Third Conditional (If + Past Perfect, would have + past participle) referring to a hypothetical past situation."
+    },
+    {
+      "id": "fin-b2-w13-2",
+      "type": "multipleChoice",
+      "prompt": "By the end of the decade, we _______ our exposure to emerging markets significantly.",
+      "options": [
+        "will increase",
+        "will be increasing",
+        "will have increased",
+        "increase"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Future Perfect (will have + past participle) is used for actions that will be completed by a specific point in the future."
+    },
+    {
+      "id": "fin-b2-w13-3",
+      "type": "multipleChoice",
+      "prompt": "We recommend _______ in a mix of stocks and bonds to manage risk.",
+      "options": [
+        "to invest",
+        "investing",
+        "invest",
+        "to investing"
+      ],
+      "answerIndex": 1,
+      "explanation": "The verb 'recommend' is followed by a gerund when there is no direct object."
+    },
+    {
+      "id": "fin-b2-w13-4",
+      "type": "multipleChoice",
+      "prompt": "If you _______ more capital, would you invest in alternative assets?",
+      "options": [
+        "had",
+        "have",
+        "would have",
+        "had had"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is a Second Conditional (If + Past Simple, would + verb) for hypothetical present/future situations."
+    },
+    {
+      "id": "fin-b2-w13-5",
+      "type": "multipleChoice",
+      "prompt": "Our goal is _______ the highest possible return for this risk level.",
+      "options": [
+        "to achieve",
+        "achieve",
+        "achieving",
+        "to achieving"
+      ],
+      "answerIndex": 0,
+      "explanation": "The infinitive 'to achieve' is used after 'be' to express an aim or purpose."
+    },
+    {
+      "id": "fin-b2-w13-6",
+      "type": "multipleChoice",
+      "prompt": "By next month, the fund _______ all its underperforming assets.",
+      "options": [
+        "will divest",
+        "is divesting",
+        "will have divested",
+        "divests"
+      ],
+      "answerIndex": 2,
+      "explanation": "Future Perfect for a completed action by a future time ('by next month')."
+    },
+    {
+      "id": "fin-b2-w13-7",
+      "type": "multipleChoice",
+      "prompt": "If the market _______ so volatile, we wouldn't have sold our shares.",
+      "options": [
+        "wasn't",
+        "isn't",
+        "hadn't been",
+        "wouldn't be"
+      ],
+      "answerIndex": 2,
+      "explanation": "Third Conditional: 'hadn't been' is the past perfect for the hypothetical past condition."
+    },
+    {
+      "id": "fin-b2-w13-8",
+      "type": "multipleChoice",
+      "prompt": "Investors often fail _______ the long-term benefits of diversification.",
+      "options": [
+        "to see",
+        "seeing",
+        "see",
+        "to seeing"
+      ],
+      "answerIndex": 0,
+      "explanation": "The verb 'fail' is followed by an infinitive."
+    },
+    {
+      "id": "fin-b2-w13-9",
+      "type": "multipleChoice",
+      "prompt": "If we _______ more in commodities, our portfolio would be more balanced now.",
+      "options": [
+        "invest",
+        "invested",
+        "had invested",
+        "would invest"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mixed conditional: Had + Past Perfect (past condition) and would + verb (present result)."
+    },
+    {
+      "id": "fin-b2-w13-10",
+      "type": "multipleChoice",
+      "prompt": "The manager decided _______ the asset allocation strategy.",
+      "options": [
+        "change",
+        "changing",
+        "to change",
+        "to changing"
+      ],
+      "answerIndex": 2,
+      "explanation": "The verb 'decide' is followed by an infinitive."
+    },
+    {
+      "id": "fin-b2-w13-11",
+      "type": "multipleChoice",
+      "prompt": "By the time the report is published, we _______ our quarterly targets.",
+      "options": [
+        "reach",
+        "will reach",
+        "will have reached",
+        "reached"
+      ],
+      "answerIndex": 2,
+      "explanation": "Future Perfect for completion by a certain time."
+    },
+    {
+      "id": "fin-b2-w13-12",
+      "type": "multipleChoice",
+      "prompt": "If central banks _______ interest rates earlier, inflation would be lower today.",
+      "options": [
+        "raise",
+        "raised",
+        "had raised",
+        "would raise"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mixed conditional (Past action, present result)."
+    },
+    {
+      "id": "fin-b2-w13-13",
+      "type": "multipleChoice",
+      "prompt": "It is worth _______ the correlation between different asset classes.",
+      "options": [
+        "to analyze",
+        "analyzing",
+        "analyze",
+        "to analyzing"
+      ],
+      "answerIndex": 1,
+      "explanation": "The expression 'it is worth' is followed by a gerund."
+    },
+    {
+      "id": "fin-b2-w13-14",
+      "type": "multipleChoice",
+      "prompt": "If you _______ the risk, you would have chosen a different strategy.",
+      "options": [
+        "understand",
+        "understood",
+        "had understood",
+        "would understand"
+      ],
+      "answerIndex": 2,
+      "explanation": "Third conditional for a past situation."
+    },
+    {
+      "id": "fin-b2-w13-15",
+      "type": "multipleChoice",
+      "prompt": "By 2030, many investors _______ to ESG-compliant portfolios.",
+      "options": [
+        "will switch",
+        "will be switching",
+        "will have switched",
+        "switch"
+      ],
+      "answerIndex": 2,
+      "explanation": "Future Perfect."
+    },
+    {
+      "id": "fin-b2-w13-16",
+      "type": "multipleChoice",
+      "prompt": "The client avoided _______ in high-yield bonds due to the risk.",
+      "options": [
+        "to invest",
+        "investing",
+        "invest",
+        "to investing"
+      ],
+      "answerIndex": 1,
+      "explanation": "The verb 'avoid' is followed by a gerund."
+    },
+    {
+      "id": "fin-b2-w13-17",
+      "type": "multipleChoice",
+      "prompt": "If the company _______ more cash, they would acquire their rival.",
+      "options": [
+        "has",
+        "had",
+        "had had",
+        "would have"
+      ],
+      "answerIndex": 1,
+      "explanation": "Second conditional for a hypothetical present."
+    },
+    {
+      "id": "fin-b2-w13-18",
+      "type": "multipleChoice",
+      "prompt": "We aim _______ a balanced portfolio within six months.",
+      "options": [
+        "to create",
+        "creating",
+        "create",
+        "to creating"
+      ],
+      "answerIndex": 0,
+      "explanation": "The verb 'aim' is followed by an infinitive."
+    },
+    {
+      "id": "fin-b2-w13-19",
+      "type": "multipleChoice",
+      "prompt": "By next Friday, I _______ the risk analysis for all departments.",
+      "options": [
+        "will finish",
+        "am finishing",
+        "will have finished",
+        "finish"
+      ],
+      "answerIndex": 2,
+      "explanation": "Future Perfect."
+    },
+    {
+      "id": "fin-b2-w13-20",
+      "type": "multipleChoice",
+      "prompt": "If the audit _______ any fraud, the CEO would have resigned.",
+      "options": [
+        "finds",
+        "found",
+        "had found",
+        "would find"
+      ],
+      "answerIndex": 2,
+      "explanation": "Third conditional."
+    },
+    {
+      "id": "fin-b2-w13-21",
+      "type": "multipleChoice",
+      "prompt": "Diversification involves _______ your investments across different sectors.",
+      "options": [
+        "to spread",
+        "spreading",
+        "spread",
+        "to spreading"
+      ],
+      "answerIndex": 1,
+      "explanation": "The verb 'involve' is followed by a gerund."
+    },
+    {
+      "id": "fin-b2-w13-22",
+      "type": "multipleChoice",
+      "prompt": "If you _______ me earlier, I would have changed the allocation.",
+      "options": [
+        "told",
+        "tell",
+        "had told",
+        "would tell"
+      ],
+      "answerIndex": 2,
+      "explanation": "Third conditional."
+    },
+    {
+      "id": "fin-b2-w13-23",
+      "type": "multipleChoice",
+      "prompt": "By the end of the meeting, we _______ a decision on the new assets.",
+      "options": [
+        "will make",
+        "make",
+        "will have made",
+        "made"
+      ],
+      "answerIndex": 2,
+      "explanation": "Future Perfect."
+    },
+    {
+      "id": "fin-b2-w13-24",
+      "type": "multipleChoice",
+      "prompt": "The company expects _______ its revenue by 15% this year.",
+      "options": [
+        "to increase",
+        "increasing",
+        "increase",
+        "to increasing"
+      ],
+      "answerIndex": 0,
+      "explanation": "The verb 'expect' is followed by an infinitive."
+    },
+    {
+      "id": "fin-b2-w13-25",
+      "type": "multipleChoice",
+      "prompt": "If the stock market _______, many investors would lose their savings.",
+      "options": [
+        "crashes",
+        "crashed",
+        "had crashed",
+        "would crash"
+      ],
+      "answerIndex": 1,
+      "explanation": "Second conditional."
+    },
+    {
+      "id": "fin-b2-w13-26",
+      "type": "multipleChoice",
+      "prompt": "I don't mind _______ the financial statements once more.",
+      "options": [
+        "to check",
+        "checking",
+        "check",
+        "to checking"
+      ],
+      "answerIndex": 1,
+      "explanation": "The verb 'mind' is followed by a gerund."
+    },
+    {
+      "id": "fin-b2-w13-27",
+      "type": "multipleChoice",
+      "prompt": "If they _______ the warning signs, they could have prevented the loss.",
+      "options": [
+        "see",
+        "saw",
+        "had seen",
+        "would see"
+      ],
+      "answerIndex": 2,
+      "explanation": "Third conditional."
+    },
+    {
+      "id": "fin-b2-w13-28",
+      "type": "multipleChoice",
+      "prompt": "By tomorrow, we _______ all the necessary legal documents.",
+      "options": [
+        "will sign",
+        "are signing",
+        "will have signed",
+        "sign"
+      ],
+      "answerIndex": 2,
+      "explanation": "Future Perfect."
+    },
+    {
+      "id": "fin-b2-w13-29",
+      "type": "multipleChoice",
+      "prompt": "We plan _______ the portfolio annually to maintain the target weights.",
+      "options": [
+        "to rebalance",
+        "rebalancing",
+        "rebalance",
+        "to rebalancing"
+      ],
+      "answerIndex": 0,
+      "explanation": "The verb 'plan' is followed by an infinitive."
+    },
+    {
+      "id": "fin-b2-w13-30",
+      "type": "multipleChoice",
+      "prompt": "If the interest rates _______ lower, we would have borrowed more.",
+      "options": [
+        "were",
+        "are",
+        "had been",
+        "would be"
+      ],
+      "answerIndex": 2,
+      "explanation": "Third conditional."
+    },
+    {
+      "id": "fin-b2-w13-31",
+      "type": "multipleChoice",
+      "prompt": "Spending too much time _______ historical data can be misleading.",
+      "options": [
+        "to analyze",
+        "analyzing",
+        "analyze",
+        "to analyzing"
+      ],
+      "answerIndex": 1,
+      "explanation": "The phrase 'spend time' is followed by a gerund."
+    },
+    {
+      "id": "fin-b2-w13-32",
+      "type": "multipleChoice",
+      "prompt": "By next month, the bank _______ our credit limit.",
+      "options": [
+        "will increase",
+        "is increasing",
+        "will have increased",
+        "increases"
+      ],
+      "answerIndex": 2,
+      "explanation": "Future Perfect."
+    },
+    {
+      "id": "fin-b2-w13-33",
+      "type": "multipleChoice",
+      "prompt": "If you _______ the truth, the situation would be much better now.",
+      "options": [
+        "tell",
+        "told",
+        "had told",
+        "would tell"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mixed conditional (Past action, present result)."
+    },
+    {
+      "id": "fin-b2-w13-34",
+      "type": "multipleChoice",
+      "prompt": "The company promised _______ the shareholders more frequently.",
+      "options": [
+        "to update",
+        "updating",
+        "update",
+        "to updating"
+      ],
+      "answerIndex": 0,
+      "explanation": "The verb 'promise' is followed by an infinitive."
+    },
+    {
+      "id": "fin-b2-w13-35",
+      "type": "multipleChoice",
+      "prompt": "If the government _______ taxes, the market would react negatively.",
+      "options": [
+        "raises",
+        "raised",
+        "had raised",
+        "would raise"
+      ],
+      "answerIndex": 1,
+      "explanation": "Second conditional."
+    },
+    {
+      "id": "fin-b2-w13-36",
+      "type": "multipleChoice",
+      "prompt": "I am looking forward _______ the new investment policy.",
+      "options": [
+        "to review",
+        "to reviewing",
+        "review",
+        "reviewing"
+      ],
+      "answerIndex": 1,
+      "explanation": "The expression 'look forward to' is followed by a gerund."
+    },
+    {
+      "id": "fin-b2-w13-37",
+      "type": "multipleChoice",
+      "prompt": "By the end of the week, they _______ the merger details.",
+      "options": [
+        "will finalize",
+        "finalize",
+        "will have finalized",
+        "finalized"
+      ],
+      "answerIndex": 2,
+      "explanation": "Future Perfect."
+    },
+    {
+      "id": "fin-b2-w13-38",
+      "type": "multipleChoice",
+      "prompt": "If the project _______ a success, we would have expanded globally.",
+      "options": [
+        "is",
+        "was",
+        "had been",
+        "would be"
+      ],
+      "answerIndex": 2,
+      "explanation": "Third conditional."
+    },
+    {
+      "id": "fin-b2-w13-39",
+      "type": "multipleChoice",
+      "prompt": "We suggest _______ the portfolio twice a year.",
+      "options": [
+        "to review",
+        "reviewing",
+        "review",
+        "to reviewing"
+      ],
+      "answerIndex": 1,
+      "explanation": "The verb 'suggest' is followed by a gerund."
+    },
+    {
+      "id": "fin-b2-w13-40",
+      "type": "multipleChoice",
+      "prompt": "If the budget _______ tighter, we wouldn't have hired new staff.",
+      "options": [
+        "was",
+        "is",
+        "had been",
+        "would be"
+      ],
+      "answerIndex": 2,
+      "explanation": "Third conditional."
+    },
+    {
+      "id": "fin-b2-w13-41",
+      "type": "multipleChoice",
+      "prompt": "By next year, we _______ all our debts.",
+      "options": [
+        "will pay off",
+        "pay off",
+        "will have paid off",
+        "paid off"
+      ],
+      "answerIndex": 2,
+      "explanation": "Future Perfect."
+    },
+    {
+      "id": "fin-b2-w13-42",
+      "type": "multipleChoice",
+      "prompt": "The analyst risks _______ wrong if he ignores the trends.",
+      "options": [
+        "to be",
+        "being",
+        "be",
+        "to being"
+      ],
+      "answerIndex": 1,
+      "explanation": "The verb 'risk' is followed by a gerund."
+    },
+    {
+      "id": "fin-b2-w13-43",
+      "type": "multipleChoice",
+      "prompt": "If you _______ more attention to the numbers, you wouldn't be in this mess.",
+      "options": [
+        "paid",
+        "pay",
+        "had paid",
+        "would pay"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mixed conditional."
+    },
+    {
+      "id": "fin-b2-w13-44",
+      "type": "multipleChoice",
+      "prompt": "The board agreed _______ the capital expenditure.",
+      "options": [
+        "to increase",
+        "increasing",
+        "increase",
+        "to increasing"
+      ],
+      "answerIndex": 0,
+      "explanation": "The verb 'agree' is followed by an infinitive."
+    },
+    {
+      "id": "fin-b2-w13-45",
+      "type": "multipleChoice",
+      "prompt": "By the end of the day, I _______ the spreadsheet.",
+      "options": [
+        "will update",
+        "am updating",
+        "will have updated",
+        "update"
+      ],
+      "answerIndex": 2,
+      "explanation": "Future Perfect."
+    },
+    {
+      "id": "fin-b2-w13-46",
+      "type": "multipleChoice",
+      "prompt": "If the economy _______, we would need to rethink our strategy.",
+      "options": [
+        "shrinks",
+        "shrank",
+        "had shrunk",
+        "would shrink"
+      ],
+      "answerIndex": 1,
+      "explanation": "Second conditional."
+    },
+    {
+      "id": "fin-b2-w13-47",
+      "type": "multipleChoice",
+      "prompt": "The manager postponed _______ the decision until Monday.",
+      "options": [
+        "to make",
+        "making",
+        "make",
+        "to making"
+      ],
+      "answerIndex": 1,
+      "explanation": "The verb 'postpone' is followed by a gerund."
+    },
+    {
+      "id": "fin-b2-w13-48",
+      "type": "multipleChoice",
+      "prompt": "If we _______ the contract, we would be in legal trouble now.",
+      "options": [
+        "break",
+        "broke",
+        "had broken",
+        "would break"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mixed conditional."
+    },
+    {
+      "id": "fin-b2-w13-49",
+      "type": "multipleChoice",
+      "prompt": "By next Friday, the audit _______ finished.",
+      "options": [
+        "will be",
+        "is being",
+        "will have been",
+        "was"
+      ],
+      "answerIndex": 2,
+      "explanation": "Future Perfect Passive."
+    },
+    {
+      "id": "fin-b2-w13-50",
+      "type": "multipleChoice",
+      "prompt": "It is important _______ the risk-reward ratio.",
+      "options": [
+        "to understand",
+        "understanding",
+        "understand",
+        "to understanding"
+      ],
+      "answerIndex": 0,
+      "explanation": "The infinitive is used after adjectives ('important')."
+    }
+  ]
+}

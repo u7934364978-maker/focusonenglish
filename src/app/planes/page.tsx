@@ -224,7 +224,7 @@ export default function PlanesPage() {
                   ¿Qué diferencia hay entre el plan Básico y Premium?
                 </summary>
                 <p className="mt-4 text-slate-600">
-                  El plan Premium incluye todo lo del plan Básico, más cursos especializados por sector laboral (negocios, tecnología, finanzas, etc.) y el curso de inglés para viajes. También incluye clases en vivo, seguimiento personalizado, material descargable y soporte prioritario.
+                  El plan Premium incluye todo lo del plan Básico, más cursos especializados por sector laboral (negocios, tecnología, administración, etc.) y el curso de inglés para viajes. También incluye clases en vivo, seguimiento personalizado, material descargable y soporte prioritario.
                 </p>
               </details>
 

@@ -608,7 +608,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
         ],
         vocabulary: [
           "Vocabulario académico (hypothesis, evidence, analyze)",
-          "Economía y finanzas",
+          "Economía y administracion",
           "Ciencia y tecnología",
           "Problemas sociales",
           "Política y gobierno",
