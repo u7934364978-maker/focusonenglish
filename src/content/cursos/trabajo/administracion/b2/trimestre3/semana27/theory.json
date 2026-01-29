@@ -1,36 +1,37 @@
 {
-  "title": "Introduction to Derivatives",
+  "title": "Intellectual Property & Patents",
   "sections": [
     {
-      "id": "derivatives-basics",
-      "title": "What are Derivatives?",
-      "content": "A derivative is a financial contract whose value is 'derived' from an underlying asset (such as stocks, bonds, commodities, or currencies).\n\n- **Underlying Asset**: The primary asset on which the derivative's price is based.\n- **Hedging**: Using derivatives to reduce risk (e.g., protecting against a price drop).\n- **Speculation**: Using derivatives to bet on future price movements for profit."
+      "id": "ip-basics",
+      "title": "Understanding Intellectual Property (IP)",
+      "content": "Intellectual Property refers to creations of the mind. In administration, managing IP involves protecting the organisation's inventions, brands, and creative works through patents, trademarks, and copyrights.\n\n### Types of IP Protection:\n- **Patent**: Protection for an invention (e.g., a new engine design).\n- **Trademark**: Protection for signs, logos, or expressions (e.g., a brand name).\n- **Copyright**: Protection for original creative works (e.g., software code, manuals).\n- **Trade Secret**: Confidential business information (e.g., the Coca-Cola formula).\n\n### Admin Responsibilities:\nAdministrators often manage the filing deadlines, liaise with patent attorneys, and ensure that NDAs (Non-Disclosure Agreements) are signed by all relevant parties."
     },
     {
-      "id": "types-of-derivatives",
-      "title": "Main Types of Derivatives",
-      "content": "There are four main categories of derivatives that professionals use.\n\n- **Forwards**: A private agreement between two parties to buy or sell an asset at a specified price on a future date.\n- **Futures**: Similar to forwards but traded on an exchange with standardized terms.\n- **Options**: Contracts that give the buyer the right, but not the obligation, to buy (Call) or sell (Put) an asset at a specific price.\n- **Swaps**: Agreements to exchange cash flows or other financial variables (e.g., swapping a variable interest rate for a fixed one)."
+      "id": "phrase-bank",
+      "title": "PhraseBank: IP & Protection Chunks",
+      "content": "Use these chunks to discuss IP protection professionally:\n\n1. **to file a patent application** — \"We need to file the patent application by the end of Q3.\"\n2. **to infringe on a copyright** — \"The competitor's new app might infringe on our copyright.\"\n3. **to register a trademark** — \"Have we registered the new logo as a trademark yet?\"\n4. **to sign an NDA** — \"All contractors must sign an NDA before starting work.\"\n5. **to protect intellectual property** — \"Our priority is to protect our core IP.\"\n6. **to grant a license** — \"We've granted them a license to use our technology.\"\n7. **to monitor for IP theft** — \"The legal team monitors for any signs of IP theft.\"\n8. **to settle an IP dispute** — \"They are trying to settle the patent dispute out of court.\""
     },
     {
-      "id": "options-details",
-      "title": "Call and Put Options",
-      "content": "Understanding options is key for managing financial portfolios.\n\n- **Call Option**: The right to **buy** an asset. You buy a call if you think the price will go **up**.\n- **Put Option**: The right to **sell** an asset. You buy a put if you think the price will go **down**.\n- **Strike Price**: The price at which the option holder can buy or sell the underlying asset."
+      "id": "grammar-modals-deduction",
+      "title": "Grammar: Advanced Modals of Deduction & Possibility",
+      "content": "We use modal verbs to express how certain we are about a situation regarding IP issues or legal disputes.\n\n### Deduction in the Present\n- **Must be**: *This design must be a trademark violation; it's identical to ours.* (95%+ certain)\n- **Can't be**: *It can't be a patent infringement because they use a different mechanism.* (95%+ certain it's NOT true)\n- **May/Might/Could be**: *This could be a potential issue for the legal team.* (50% certain)\n\n### Deduction in the Past\n- **Must have + past participle**: *They must have seen our designs before they launched.* (95% certain they did)\n- **Might/May/Could have + past participle**: *The competitor might have stolen the trade secret.* (Possible, but not certain)\n- **Can't/Couldn't have + past participle**: *They couldn't have filed the patent earlier; the tech didn't exist.* (95% certain they didn't)"
     },
     {
-      "id": "grammar-conditionals",
-      "title": "Language Focus: Conditionals for Risk",
-      "content": "We use conditionals to discuss hypothetical financial outcomes and risks.\n\n- **First Conditional (Real Possibility)**: \n  - 'If the stock price **rises** above $50, the call option **will be** profitable.'\n- **Second Conditional (Unreal/Hypothetical)**: \n  - 'If we **hedged** our position last month, we **wouldn't be** losing money now.'\n  - 'What **would happen** if the interest rates **increased** suddenly?'"
+      "id": "deliverable",
+      "title": "Weekly Deliverable: IP Protection Memo",
+      "content": "Draft a memo to the R&D team regarding a new invention. Include:\n1. **Importance of IP protection**.\n2. **Required actions** (Filing a patent, signing NDAs).\n3. **Legal warnings** (Using modals of deduction: *A delay could have serious consequences...*).\n4. **Deadline for documentation**."
     }
   ],
   "objectives": [
-    "Define derivatives and the concept of an underlying asset",
-    "Explain the difference between hedging and speculation",
-    "Identify the characteristics of forwards, futures, options, and swaps",
-    "Use first and second conditionals to analyze financial risks"
+    "Differentiate between patents, trademarks, and copyrights",
+    "Describe the administrative role in IP filing and protection",
+    "Use advanced modals of deduction to assess legal risks",
+    "Draft formal internal communications regarding IP and NDAs"
   ],
   "keyTerms": [
-    { "term": "Strike Price", "definition": "The set price at which a derivative contract can be bought or sold." },
-    { "term": "Premium", "definition": "The price paid by the buyer to the seller for an options contract." },
-    { "term": "Volatility", "definition": "A statistical measure of the dispersion of returns for a given security or market index." }
+    { "term": "Patent", "definition": "A government authority or license conferring a right or title for a set period, especially the sole right to exclude others from making, using, or selling an invention." },
+    { "term": "Trademark", "definition": "A symbol, word, or words legally registered or established by use as representing a company or product." },
+    { "term": "Copyright", "definition": "The exclusive legal right, given to an originator or an assignee to print, publish, perform, film, or record literary, artistic, or musical material, and to authorize others to do the same." },
+    { "term": "Infringement", "definition": "The action of breaking the terms of a law, agreement, etc.; violation." }
   ]
 }

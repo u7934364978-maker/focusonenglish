@@ -1,0 +1,37 @@
+{
+  "title": "Professional Ethics & Corporate Social Responsibility",
+  "sections": [
+    {
+      "id": "ethics-csr",
+      "title": "Ethics in the Modern Workplace",
+      "content": "Professional ethics are the principles that govern the behaviour of a person or group in a business environment. Corporate Social Responsibility (CSR) is a management concept whereby companies integrate social and environmental concerns in their business operations and interactions with their stakeholders.\n\n### Key Concepts:\n- **Whistleblowing**: The act of reporting waste, fraud, abuse, corruption, or dangers to public health and safety to someone who is in the position to rectify the wrongdoing.\n- **Conflict of Interest**: A situation in which a person or organisation is involved in multiple interests, one of which could possibly corrupt the motivation for an act in another.\n- **Sustainability**: Meeting the needs of the present without compromising the ability of future generations to meet their own needs.\n- **Ethical Audit**: A systematic evaluation of an organisation's ethics programme and performance to determine its effectiveness."
+    },
+    {
+      "id": "phrase-bank",
+      "title": "PhraseBank: Ethics & CSR Chunks",
+      "content": "Use these chunks to discuss ethics and CSR:\n\n1. **to adhere to a code of conduct** — \"All employees are expected to adhere to the company's code of conduct.\"\n2. **to disclose a conflict of interest** — \"Board members must disclose any potential conflict of interest immediately.\"\n3. **to promote corporate accountability** — \"Our CSR initiatives are designed to promote greater corporate accountability.\"\n4. **to uphold ethical standards** — \"We strive to uphold the highest ethical standards in all our business dealings.\"\n5. **to report unethical behaviour** — \"The whistleblowing policy protects those who report unethical behaviour.\"\n6. **to integrate sustainability into the core business** — \"We are working to integrate sustainability into our core business model.\"\n7. **to demonstrate social responsibility** — \"Donating a percentage of profits to charity demonstrates our social responsibility.\"\n8. **to avoid corrupt practices** — \"The firm has strict protocols in place to avoid any corrupt practices.\""
+    },
+    {
+      "id": "grammar-reporting",
+      "title": "Grammar: Reporting Verbs + Gerund or Infinitive",
+      "content": "When reporting what someone has said or suggested, especially in meetings or reports, we use a variety of reporting verbs. These verbs are often followed by either a gerund (-ing) or an infinitive (to + verb).\n\n### Followed by an Infinitive (Verb + to-infinitive)\n- **Agree**: *They **agreed to implement** the new safety measures.*\n- **Refuse**: *The CEO **refused to comment** on the allegations.*\n- **Promise**: *The board **promised to increase** transparency.*\n- **Threaten**: *The union **threatened to go** on strike.*\n\n### Followed by a Gerund (Verb + -ing)\n- **Suggest**: *The consultant **suggested hiring** an external auditor.*\n- **Deny**: *The manager **denied leaking** confidential information.*\n- **Recommend**: *We **recommend updating** the ethical guidelines.*\n- **Admit**: *The company **admitted violating** environmental regulations.*\n\n### Followed by 'that' clause (Verb + that...)\n- **Claim**: *He **claimed that** he was unaware of the fraud.*\n- **Insist**: *The auditors **insisted that** the files be reviewed again.*"
+    },
+    {
+      "id": "deliverable",
+      "title": "Weekly Deliverable: Ethical Dilemma Resolution",
+      "content": "Write a short memo (150-180 words) addressing an ethical dilemma (e.g., a colleague accepting expensive gifts from a vendor). Include:\n1. **Description of the situation**.\n2. **The ethical principles involved**.\n3. **Recommended course of action**.\n4. **Grammar Focus** (Use at least four different reporting verbs followed by gerunds or infinitives, e.g., *suggested doing, agreed to report*)."
+    }
+  ],
+  "objectives": [
+    "Define professional ethics and their application in administrative roles",
+    "Identify the components of a Corporate Social Responsibility (CSR) strategy",
+    "Select and use appropriate reporting verbs to summarise discussions and reports",
+    "Discuss the legal and ethical implications of whistleblowing and conflicts of interest"
+  ],
+  "keyTerms": [
+    { "term": "Integrity", "definition": "The quality of being honest and having strong moral principles." },
+    { "term": "Compliance", "definition": "The action or fact of complying with a wish or command, especially regarding laws or regulations." },
+    { "term": "Stakeholder", "definition": "A person, group or organisation that has interest or concern in an organisation." },
+    { "term": "Philanthropy", "definition": "The desire to promote the welfare of others, expressed by the generous donation of money to good causes." }
+  ]
+}

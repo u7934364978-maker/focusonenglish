@@ -1,397 +1,69 @@
-[
-  {
-    "id": 1,
-    "type": "multiple-choice",
-    "question": "What does 'AML' stand for?",
-    "options": ["Annual Market Listing", "Anti-Money Laundering", "Asset Management Law", "Account Money Limitation"],
-    "correctAnswer": 1,
-    "explanation": "AML refers to the laws and regulations designed to stop money laundering."
-  },
-  {
-    "id": 2,
-    "type": "fill-in-the-blank",
-    "question": "The accounts _______ (freeze) by the authorities last Friday.",
-    "correctAnswer": "were frozen",
-    "explanation": "Passive voice for a past action."
-  },
-  {
-    "id": 3,
-    "type": "multiple-choice",
-    "question": "What is 'KYC'?",
-    "options": ["Keep Your Capital", "Know Your Customer", "Key Yield Calculation", "Keyboard Yield Control"],
-    "correctAnswer": 1,
-    "explanation": "KYC is the process of verifying a client's identity."
-  },
-  {
-    "id": 4,
-    "type": "matching",
-    "question": "Match the crime with its description:",
-    "pairs": [
-      { "left": "Insider Trading", "right": "Using secret info to trade stocks" },
-      { "left": "Phishing", "right": "Fake emails to steal data" },
-      { "left": "Money Laundering", "right": "Hiding the origin of illegal funds" }
-    ]
-  },
-  {
-    "id": 5,
-    "type": "multiple-choice",
-    "question": "The thief _______ (have) a key; there are no signs of a break-in.",
-    "options": ["must have had", "might have had", "can't have had", "should have had"],
-    "correctAnswer": 0,
-    "explanation": "Modal of deduction: High certainty based on evidence."
-  },
-  {
-    "id": 6,
-    "type": "multiple-choice",
-    "question": "What is 'CDD'?",
-    "options": ["Cash Deposit Detail", "Customer Due Diligence", "Central Debt Department", "Corporate Dividend Distribution"],
-    "correctAnswer": 1,
-    "explanation": "CDD is the process of evaluating a customer's risk level."
-  },
-  {
-    "id": 7,
-    "type": "fill-in-the-blank",
-    "question": "A SAR _______ (file) every time suspicious activity is detected.",
-    "correctAnswer": "is filed",
-    "explanation": "Passive voice for a regular/repeated action."
-  },
-  {
-    "id": 8,
-    "type": "multiple-choice",
-    "question": "Which authority oversees financial markets in the US?",
-    "options": ["The FBI", "The CIA", "The SEC", "The NASA"],
-    "correctAnswer": 2,
-    "explanation": "The SEC (Securities and Exchange Commission) is the primary US regulator."
-  },
-  {
-    "id": 9,
-    "type": "fill-in-the-blank",
-    "question": "You _______ (see) him at the bank; he was in London yesterday.",
-    "correctAnswer": "can't have seen",
-    "explanation": "Modal of deduction: Impossible because he was elsewhere."
-  },
-  {
-    "id": 10,
-    "type": "multiple-choice",
-    "question": "What are 'Sanctions'?",
-    "options": ["Gifts for good banks", "Legal penalties or restrictions against countries or people", "A type of loan", "Bank holidays"],
-    "correctAnswer": 1,
-    "explanation": "Sanctions are used to punish or pressure entities by restricting their financial access."
-  },
-  {
-    "id": 11,
-    "type": "multiple-choice",
-    "question": "The money _______ (transfer) to an offshore account yesterday.",
-    "options": ["was transferred", "is transferred", "has transferred", "transferred"],
-    "correctAnswer": 0,
-    "explanation": "Passive voice."
-  },
-  {
-    "id": 12,
-    "type": "fill-in-the-blank",
-    "question": "He _______ (forget) to sign the document; he's usually very careful.",
-    "correctAnswer": "might have forgotten",
-    "explanation": "Modal of deduction: Low certainty/Possibility."
-  },
-  {
-    "id": 13,
-    "type": "multiple-choice",
-    "question": "What is 'Phishing'?",
-    "options": ["A sport", "Using fake emails to steal sensitive information", "Investing in fishing companies", "A type of bank account"],
-    "correctAnswer": 1,
-    "explanation": "Phishing is a common form of cyber fraud."
-  },
-  {
-    "id": 14,
-    "type": "fill-in-the-blank",
-    "question": "Identity theft _______ (increase) by 20% since last year.",
-    "correctAnswer": "has increased",
-    "explanation": "Present perfect for a trend."
-  },
-  {
-    "id": 15,
-    "type": "multiple-choice",
-    "question": "What is 'Compliance' in banking?",
-    "options": ["Being nice to customers", "Following laws and regulations", "Lending money to everyone", "Having many employees"],
-    "correctAnswer": 1,
-    "explanation": "Compliance ensures the bank operates within the law."
-  },
-  {
-    "id": 16,
-    "type": "matching",
-    "question": "Match the term with its meaning:",
-    "pairs": [
-      { "left": "SAR", "right": "Suspicious Activity Report" },
-      { "left": "UBO", "right": "Ultimate Beneficial Owner" },
-      { "left": "PEP", "right": "Politically Exposed Person" }
-    ]
-  },
-  {
-    "id": 17,
-    "type": "multiple-choice",
-    "question": "The fraud _______ (detected) by the new software.",
-    "options": ["was detected", "detected", "has detected", "is detecting"],
-    "correctAnswer": 0,
-    "explanation": "Passive voice."
-  },
-  {
-    "id": 18,
-    "type": "fill-in-the-blank",
-    "question": "The suspect _______ (be) guilty; the evidence is overwhelming.",
-    "correctAnswer": "must be",
-    "explanation": "Modal of deduction (present)."
-  },
-  {
-    "id": 19,
-    "type": "multiple-choice",
-    "question": "What is a 'Whistleblower'?",
-    "options": ["A referee", "An employee who reports illegal activity within their company", "A type of alarm", "A high-ranking CEO"],
-    "correctAnswer": 1,
-    "explanation": "Whistleblowers are essential for detecting internal corruption."
-  },
-  {
-    "id": 20,
-    "type": "multiple-choice",
-    "question": "That signature _______ (be) real; it looks completely different.",
-    "options": ["can't be", "must be", "might be", "should be"],
-    "correctAnswer": 0,
-    "explanation": "Modal of deduction (present certainty - negative)."
-  },
-  {
-    "id": 21,
-    "type": "fill-in-the-blank",
-    "question": "New AML laws _______ (pass) by the parliament next month.",
-    "correctAnswer": "will be passed",
-    "explanation": "Passive voice (future)."
-  },
-  {
-    "id": 22,
-    "type": "multiple-choice",
-    "question": "What is 'Tax Evasion'?",
-    "options": ["Paying taxes early", "Illegally avoiding paying taxes", "A tax discount", "Calculating taxes"],
-    "correctAnswer": 1,
-    "explanation": "Tax evasion is a criminal offense."
-  },
-  {
-    "id": 23,
-    "type": "multiple-choice",
-    "question": "The documents _______ (shredded) before the police arrived.",
-    "options": ["were shredded", "are shredded", "have shredded", "shredded"],
-    "correctAnswer": 0,
-    "explanation": "Passive voice (past)."
-  },
-  {
-    "id": 24,
-    "type": "fill-in-the-blank",
-    "question": "The hacker _______ (access) the system through an unpatched vulnerability.",
-    "correctAnswer": "must have accessed",
-    "explanation": "Modal of deduction (past certainty)."
-  },
-  {
-    "id": 25,
-    "type": "multiple-choice",
-    "question": "What does 'PEP' stand for?",
-    "options": ["Politically Exposed Person", "Private Equity Partner", "Personal Expense Plan", "Public Entity Power"],
-    "correctAnswer": 0,
-    "explanation": "PEPs require enhanced due diligence due to their high-risk status."
-  },
-  {
-    "id": 26,
-    "type": "matching",
-    "question": "Match the authority with its country:",
-    "pairs": [
-      { "left": "FCA", "right": "UK" },
-      { "left": "SEC", "right": "USA" },
-      { "left": "CNMV", "right": "Spain" }
-    ]
-  },
-  {
-    "id": 27,
-    "type": "multiple-choice",
-    "question": "The suspect _______ (left) the country; his car was found at the airport.",
-    "options": ["must have left", "might have left", "can't have left", "should have left"],
-    "correctAnswer": 0,
-    "explanation": "Modal of deduction."
-  },
-  {
-    "id": 28,
-    "type": "fill-in-the-blank",
-    "question": "The client's identity _______ (verify) yesterday morning.",
-    "correctAnswer": "was verified",
-    "explanation": "Passive voice."
-  },
-  {
-    "id": 29,
-    "type": "multiple-choice",
-    "question": "What is 'Bribery'?",
-    "options": ["Selling a company", "Giving money or gifts to influence someone's behavior", "Opening a bank account", "Firing an employee"],
-    "correctAnswer": 1,
-    "explanation": "Bribery is a form of corruption."
-  },
-  {
-    "id": 30,
-    "type": "multiple-choice",
-    "question": "They _______ (heard) the news yet; it hasn't been announced.",
-    "options": ["can't have heard", "must have heard", "might have heard", "should have heard"],
-    "correctAnswer": 0,
-    "explanation": "Modal of deduction."
-  },
-  {
-    "id": 31,
-    "type": "fill-in-the-blank",
-    "question": "All staff _______ (train) in compliance procedures annually.",
-    "correctAnswer": "are trained",
-    "explanation": "Passive voice (present simple)."
-  },
-  {
-    "id": 32,
-    "type": "multiple-choice",
-    "question": "What is 'Smurfing' in money laundering?",
-    "options": ["A type of cartoon", "Breaking large transactions into smaller ones to avoid detection", "Stealing credit cards", "Using a fake ID"],
-    "correctAnswer": 1,
-    "explanation": "Smurfing is a common technique to bypass reporting thresholds."
-  },
-  {
-    "id": 33,
-    "type": "multiple-choice",
-    "question": "The vault _______ (opened) from the inside.",
-    "options": ["was opened", "is opened", "has opened", "opened"],
-    "correctAnswer": 0,
-    "explanation": "Passive voice."
-  },
-  {
-    "id": 34,
-    "type": "fill-in-the-blank",
-    "question": "There _______ (be) a mistake in the calculations; they don't add up.",
-    "correctAnswer": "must be",
-    "explanation": "Modal of deduction."
-  },
-  {
-    "id": 35,
-    "type": "multiple-choice",
-    "question": "What is 'Shell Company'?",
-    "options": ["A company that sells sea shells", "A company with no active business operations or significant assets", "A very large corporation", "A government-owned company"],
-    "correctAnswer": 1,
-    "explanation": "Shell companies are often used to hide the true ownership of assets."
-  },
-  {
-    "id": 36,
-    "type": "matching",
-    "question": "Match the term with its description:",
-    "pairs": [
-      { "left": "Whistleblower", "right": "Reports internal misconduct" },
-      { "left": "Compliance Officer", "right": "Ensures rules are followed" },
-      { "left": "Auditor", "right": "Inspects financial records" }
-    ]
-  },
-  {
-    "id": 37,
-    "type": "multiple-choice",
-    "question": "I _______ (misplaced) the keys; I can't find them anywhere.",
-    "options": ["must have misplaced", "might have misplaced", "can't have misplaced", "should have misplaced"],
-    "correctAnswer": 0,
-    "explanation": "Modal of deduction."
-  },
-  {
-    "id": 38,
-    "type": "fill-in-the-blank",
-    "question": "The regulations _______ (update) last month.",
-    "correctAnswer": "were updated",
-    "explanation": "Passive voice."
-  },
-  {
-    "id": 39,
-    "type": "multiple-choice",
-    "question": "What is 'Embezzlement'?",
-    "options": ["A type of jewelry", "Theft or misappropriation of funds placed in one's trust", "Investing in gold", "Buying a new house"],
-    "correctAnswer": 1,
-    "explanation": "Embezzlement often involves employees stealing from their employers."
-  },
-  {
-    "id": 40,
-    "type": "multiple-choice",
-    "question": "He _______ (known) about the problem; he's the head of the department.",
-    "options": ["must have known", "might have known", "can't have known", "should have known"],
-    "correctAnswer": 0,
-    "explanation": "Modal of deduction."
-  },
-  {
-    "id": 41,
-    "type": "fill-in-the-blank",
-    "question": "The report _______ (submit) by the end of the week.",
-    "correctAnswer": "will be submitted",
-    "explanation": "Passive voice (future)."
-  },
-  {
-    "id": 42,
-    "type": "multiple-choice",
-    "question": "What is 'Fraud'?",
-    "options": ["A honest mistake", "Deception for financial gain", "A type of tax", "A bank holiday"],
-    "correctAnswer": 1,
-    "explanation": "Fraud covers many types of financial deception."
-  },
-  {
-    "id": 43,
-    "type": "multiple-choice",
-    "question": "The evidence _______ (found) in a dumpster.",
-    "options": ["was found", "found", "has found", "is finding"],
-    "correctAnswer": 0,
-    "explanation": "Passive voice."
-  },
-  {
-    "id": 44,
-    "type": "fill-in-the-blank",
-    "question": "You _______ (be) joking! That's impossible.",
-    "correctAnswer": "must be",
-    "explanation": "Modal of deduction."
-  },
-  {
-    "id": 45,
-    "type": "multiple-choice",
-    "question": "What is 'Money Laundering'?",
-    "options": ["Cleaning dirty coins", "Hiding the illegal origin of money", "Opening a laundry business", "Investing in banks"],
-    "correctAnswer": 1,
-    "explanation": "Money laundering is a multi-step process to legitimize illegal funds."
-  },
-  {
-    "id": 46,
-    "type": "matching",
-    "question": "Match the word to its synonym:",
-    "pairs": [
-      { "left": "Illicit", "right": "Illegal" },
-      { "left": "Integrity", "right": "Honesty" },
-      { "left": "Vigilant", "right": "Watchful" }
-    ]
-  },
-  {
-    "id": 47,
-    "type": "multiple-choice",
-    "question": "The files _______ (deleted) by a virus.",
-    "options": ["were deleted", "deleted", "has deleted", "is deleting"],
-    "correctAnswer": 0,
-    "explanation": "Passive voice."
-  },
-  {
-    "id": 48,
-    "type": "fill-in-the-blank",
-    "question": "The suspect _______ (tell) the truth; his story is consistent.",
-    "correctAnswer": "might be telling",
-    "explanation": "Modal of deduction (present possibility)."
-  },
-  {
-    "id": 49,
-    "type": "multiple-choice",
-    "question": "What is 'Insider Trading'?",
-    "options": ["Trading inside a building", "Using confidential info to trade stocks", "Trading with friends", "Selling old furniture"],
-    "correctAnswer": 1,
-    "explanation": "Insider trading is illegal because it gives an unfair advantage."
-  },
-  {
-    "id": 50,
-    "type": "multiple-choice",
-    "question": "The policy _______ (approved) by the board.",
-    "options": ["was approved", "approved", "has approved", "is approving"],
-    "correctAnswer": 0,
-    "explanation": "Passive voice."
-  }
-]
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 3,
+  "weekId": "semana26",
+  "title": "Exercises: Mergers & Acquisitions (Admin Perspective)",
+  "items": [
+    {
+      "id": "adm-b2-w26-ex01",
+      "type": "reading-comprehension",
+      "title": "Exercise 1: Integration Memo",
+      "text": "Internal Memo: Post-Merger Integration (PMI) Update\n\nFollowing the successful closing of the acquisition of TechFlow Ltd, the administration team is now focused on the integration phase. \n\nDue Diligence revealed several areas where operational synergies can be achieved, particularly in supply chain management. If we had integrated our procurement systems earlier, we would be seeing these savings already. \n\nNext week, we will begin the migration of employee records to the central HR portal. It is vital that all department heads provide their local data by Friday EOD to ensure a smooth transition.",
+      "questions": [
+        {
+          "question": "What phase of the M&A process is the company currently in?",
+          "options": ["Valuation", "Due Diligence", "Post-Merger Integration"],
+          "answerIndex": 2,
+          "explanation": "The memo explicitly states they are 'now focused on the integration phase'."
+        },
+        {
+          "question": "Which sentence uses a mixed conditional to discuss a missed opportunity?",
+          "options": ["If we had integrated our procurement systems earlier, we would be seeing these savings already.", "It is vital that all department heads provide their local data.", "We will begin the migration of employee records."],
+          "answerIndex": 0,
+          "explanation": "This sentence links a hypothetical past (had integrated) with a present result (would be seeing)."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w26-ex02",
+      "type": "multipleChoice",
+      "prompt": "Exercise 2: M&A Terminology. A 'Data Room' (VDR) is used for:",
+      "options": [
+        "Storing old office furniture",
+        "Securely sharing confidential documents during due diligence",
+        "Hosting company parties",
+        "Recycling paper"
+      ],
+      "answerIndex": 1,
+      "explanation": "A virtual data room is a secure repository for sensitive deal documentation."
+    },
+    {
+      "id": "adm-b2-w26-ex03",
+      "type": "writingTask",
+      "prompt": "Exercise 3: Mixed Conditionals. Complete the sentence: 'If they ____ (not / hide) the debt during due diligence, the deal ____ (be) easier to close now.'",
+      "modelAnswer": "If they hadn't hidden the debt during due diligence, the deal would be easier to close now.",
+      "keywords": ["hadn't hidden", "would be"]
+    },
+    {
+      "id": "adm-b2-w26-ex04",
+      "type": "writingTask",
+      "prompt": "Exercise 4: Present State to Past Result. Rewrite: 'The company is very disorganized, so the audit took three weeks.' -> 'If the company ____ (not / be) so disorganized, the audit ____ (not / take) so long.'",
+      "modelAnswer": "If the company weren't so disorganized, the audit wouldn't have taken so long.",
+      "keywords": ["weren't", "wouldn't have taken"]
+    },
+    {
+      "id": "adm-b2-w26-ex05",
+      "type": "multipleChoice",
+      "prompt": "Exercise 5: M&A Chunks. To 'acquire a stake in' a company means:",
+      "options": [
+        "To buy a part of the company's ownership",
+        "To sell all your products to the company",
+        "To fire the company's CEO",
+        "To build a fence around the company's office"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acquiring a stake means buying shares or a percentage of ownership."
+    }
+  ]
+}

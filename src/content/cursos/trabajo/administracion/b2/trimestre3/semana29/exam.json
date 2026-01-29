@@ -3,48 +3,73 @@
   "level": "B2",
   "trimester": 3,
   "weekId": "semana29",
-  "examId": "fin-b2-w29-exam",
-  "title": "Exam: Risk Management and Insurance",
+  "examId": "adm-b2-w25-exam",
+  "title": "Exam: Facility Management & Health & Safety",
   "items": [
     {
-      "id": "fin-b2-w29-exam-1",
+      "id": "adm-b2-w29-exam-1",
       "type": "multipleChoice",
-      "prompt": "If the company ________ (buy) insurance last year, they would be covered now.",
-      "options": ["bought", "had bought", "has bought", "would buy"],
+      "prompt": "What is the main goal of facility management (FM)?",
+      "options": [
+        "To increase marketing spend",
+        "To integrate people, place, and process to improve productivity",
+        "To hire new software developers",
+        "To design social media graphics"
+      ],
       "answerIndex": 1,
-      "explanation": "Mixed conditional: past action (had bought) affecting present state (would be)."
+      "explanation": "FM focuses on the built environment and its impact on people and processes."
     },
     {
-      "id": "fin-b2-w29-exam-2",
+      "id": "adm-b2-w29-exam-2",
       "type": "multipleChoice",
-      "prompt": "What is 'Systemic Risk'?",
-      "options": ["A risk that only affects one company", "The risk of collapse of an entire financial system or market", "A computer virus", "The risk of a small bank closing"],
+      "prompt": "Choose the most formal imperative structure for a safety sign:",
+      "options": [
+        "Don't touch the wires",
+        "Under no circumstances should the wires be touched",
+        "Please don't touch the wires",
+        "Stop touching the wires"
+      ],
       "answerIndex": 1,
-      "explanation": "Systemic risk can trigger a widespread financial crisis."
+      "explanation": "'Under no circumstances should...' with a passive voice is highly formal and authoritative."
     },
     {
-      "id": "fin-b2-w29-exam-3",
+      "id": "adm-b2-w29-exam-3",
       "type": "multipleChoice",
-      "prompt": "If we were more careful with our data, the leak ________ (not happen) yesterday.",
-      "options": ["wouldn't happen", "wouldn't have happened", "didn't happen", "not happen"],
+      "prompt": "What is a 'hazard' in Health & Safety?",
+      "options": [
+        "A reward for good work",
+        "A potential source of danger",
+        "A type of office chair",
+        "A formal meeting"
+      ],
       "answerIndex": 1,
-      "explanation": "Mixed conditional: present characteristic affecting past event."
+      "explanation": "A hazard is anything that could cause harm."
     },
     {
-      "id": "fin-b2-w29-exam-4",
+      "id": "adm-b2-w29-exam-4",
       "type": "multipleChoice",
-      "prompt": "In risk management, 'Mitigation' means:",
-      "options": ["Ignoring the risk", "Reducing the impact or likelihood of a risk", "Increasing the budget", "Firing the risk manager"],
-      "answerIndex": 1,
-      "explanation": "Mitigation is about making a risk less severe."
+      "prompt": "Complete the instruction: 'All fire exits ____ remain clear at all times.'",
+      "options": [
+        "shall",
+        "may",
+        "could",
+        "might"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Shall' is used in formal documents and notices to express a strict requirement or obligation."
     },
     {
-      "id": "fin-b2-w29-exam-5",
+      "id": "adm-b2-w29-exam-5",
       "type": "multipleChoice",
-      "prompt": "What is 'Credit Risk'?",
-      "options": ["The risk of losing a credit card", "The risk that a borrower will default on a debt", "The risk of high interest rates", "The risk of a bank's reputation falling"],
+      "prompt": "To 'report a hazard' means:",
+      "options": [
+        "To fix the problem yourself",
+        "To inform the relevant authority about a potential danger",
+        "To ignore the problem and walk away",
+        "To take a photo of the danger for social media"
+      ],
       "answerIndex": 1,
-      "explanation": "Credit risk involves the potential for non-payment by a borrower."
+      "explanation": "Reporting is the act of notifying management or safety officers so corrective action can be taken."
     }
   ]
 }

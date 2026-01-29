@@ -3,48 +3,73 @@
   "level": "B2",
   "trimester": 3,
   "weekId": "semana28",
-  "examId": "fin-b2-w28-exam",
-  "title": "Exam: Asset Management Basics",
+  "examId": "adm-b2-w28-exam",
+  "title": "Exam: Organizational Psychology & Motivation",
   "items": [
     {
-      "id": "fin-b2-w28-exam-1",
+      "id": "adm-b2-w28-exam-1",
       "type": "multipleChoice",
-      "prompt": "If the fund manager ________ (diversify) the portfolio earlier, we wouldn't have lost so much.",
-      "options": ["diversified", "had diversified", "has diversified", "would diversify"],
+      "prompt": "According to Herzberg, which of these is a 'motivator' rather than a 'hygiene factor'?",
+      "options": [
+        "Salary",
+        "Recognition",
+        "Working conditions",
+        "Company policy"
+      ],
       "answerIndex": 1,
-      "explanation": "Third conditional: If + past perfect."
+      "explanation": "Recognition is a motivator that leads to job satisfaction; salary and conditions only prevent dissatisfaction."
     },
     {
-      "id": "fin-b2-w28-exam-2",
+      "id": "adm-b2-w28-exam-2",
       "type": "multipleChoice",
-      "prompt": "What is 'Active Management'?",
-      "options": ["Tracking an index like the S&P 500", "Attempting to outperform the market through specific stock selection", "Closing the fund for the weekend", "Automated trading only"],
-      "answerIndex": 1,
-      "explanation": "Active managers try to beat the market benchmark."
+      "prompt": "Choose the correct form: 'I remember ____ (attend) the team-building seminar last year. It was very useful.'",
+      "options": [
+        "attending",
+        "to attend",
+        "attend",
+        "to attending"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Remember + gerund' refers to a past memory."
     },
     {
-      "id": "fin-b2-w28-exam-3",
+      "id": "adm-b2-w28-exam-3",
       "type": "multipleChoice",
-      "prompt": "The team ________ (analyze) the market trends all morning.",
-      "options": ["has analyzed", "has been analyzing", "is analyzing", "was analyzed"],
-      "answerIndex": 1,
-      "explanation": "Present Perfect Continuous for an action that started in the past and continues."
+      "prompt": "What does 'staff turnover' measure?",
+      "options": [
+        "Total company profit",
+        "The number of hours worked per week",
+        "The rate at which employees leave the organization",
+        "The average age of the workforce"
+      ],
+      "answerIndex": 2,
+      "explanation": "Staff turnover is the rate of employee departures and replacements."
     },
     {
-      "id": "fin-b2-w28-exam-4",
+      "id": "adm-b2-w28-exam-4",
       "type": "multipleChoice",
-      "prompt": "What does 'Asset Allocation' mean?",
-      "options": ["The location of the bank's vault", "Dividing an investment portfolio among different asset categories", "Paying the fund's employees", "The price of a single share"],
+      "prompt": "Complete the sentence: 'We tried ____ (offer) remote work options, but productivity decreased.'",
+      "options": [
+        "to offer",
+        "offering",
+        "offer",
+        "to offering"
+      ],
       "answerIndex": 1,
-      "explanation": "Allocation balances risk and reward according to goals."
+      "explanation": "'Try + gerund' means to experiment with an action to see if it works."
     },
     {
-      "id": "fin-b2-w28-exam-5",
+      "id": "adm-b2-w28-exam-5",
       "type": "multipleChoice",
-      "prompt": "If the benchmark ________ (not drop) so sharply, the investors would be happier.",
-      "options": ["didn't drop", "hadn't dropped", "doesn't drop", "hasn't dropped"],
+      "prompt": "What is 'intrinsic motivation'?",
+      "options": [
+        "Motivation driven by external rewards like money",
+        "Motivation driven by internal satisfaction or interest",
+        "Motivation caused by fear of punishment",
+        "Motivation from a company car"
+      ],
       "answerIndex": 1,
-      "explanation": "Third conditional for past regret/scenario."
+      "explanation": "Intrinsic motivation comes from within the individual (e.g., pride in work, personal growth)."
     }
   ]
 }

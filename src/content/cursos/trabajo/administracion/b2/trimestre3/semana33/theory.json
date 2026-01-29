@@ -1,0 +1,37 @@
+{
+  "title": "Change Management & Organizational Innovation",
+  "sections": [
+    {
+      "id": "change-mgmt",
+      "title": "Navigating Organizational Change",
+      "content": "Change management is a structured approach to transitioning individuals, teams, and organisations from a current state to a desired future state. Innovation, on the other hand, is the practical implementation of ideas that result in the introduction of new goods or services or improvement in offering goods or services.\n\n### Key Concepts:\n- **Resistance to Change**: The act of opposing or struggling with modifications or transformations that alter the status quo.\n- **Agile Methodology**: A way of managing projects by breaking them into several stages and involving constant collaboration with stakeholders and continuous improvement and iteration at every stage.\n- **Disruptive Innovation**: Innovation that creates a new market and value network and eventually disrupts an existing market.\n- **Change Agents**: Individuals within an organisation who act as catalysts for change, helping to manage the transformation process."
+    },
+    {
+      "id": "phrase-bank",
+      "title": "PhraseBank: Innovation & Change Chunks",
+      "content": "Use these chunks to discuss change and innovation:\n\n1. **to embrace a culture of innovation** — \"To remain competitive, we must embrace a culture of innovation.\"\n2. **to overcome resistance to change** — \"Clear communication is vital to overcome resistance to change.\"\n3. **to future-proof the business** — \"The restructuring plan is designed to future-proof the business against market volatility.\"\n4. **to streamline operations** — \"The new software will help us streamline operations and reduce overheads.\"\n5. **to drive digital transformation** — \"The CTO is leading the initiative to drive digital transformation across all departments.\"\n6. **to gain a competitive edge** — \"Investing in R&D is essential to gain a competitive edge in the tech sector.\"\n7. **to implement a phased rollout** — \"We decided to implement a phased rollout of the new ERP system to minimize disruption.\"\n8. **to foster creative thinking** — \"The open-plan office was designed to foster creative thinking and collaboration.\""
+    },
+    {
+      "id": "grammar-conditionals",
+      "title": "Grammar: Advanced Conditionals (Alternative Linkers)",
+      "content": "In professional contexts, we often use alternatives to 'if' to express conditions more precisely or formally.\n\n### Conditional Linkers\n- **Provided that / Providing that**: More formal than 'if'. Often used in contracts or official statements.\n  - *We will approve the budget **provided that** the ROI exceeds 15%.*\n- **As long as / So long as**: Emphasizes the duration or the strictness of the condition.\n  - ***As long as** employees feel supported, they will adapt to the new processes.*\n- **Unless**: Means 'if not' or 'except if'.\n  - *The merger will fail **unless** both cultures are successfully integrated.*\n- **On condition that**: Very formal. Used for specific agreements.\n  - *The loan was granted **on condition that** the company undergoes an audit.*\n- **Suppose / Supposing**: Used to ask about imaginary situations or to invite speculation.\n  - ***Supposing** the market crashes, what is our contingency plan?*"
+    },
+    {
+      "id": "deliverable",
+      "title": "Weekly Deliverable: Change Management Proposal",
+      "content": "Write a short proposal (150-180 words) for implementing a new remote work policy. Include:\n1. **Rational for the change**.\n2. **Potential obstacles (resistance)**.\n3. **Expected benefits**.\n4. **Grammar Focus** (Use at least three advanced conditional linkers, e.g., *provided that, unless, as long as*)."
+    }
+  ],
+  "objectives": [
+    "Explain the principles of change management and its importance",
+    "Identify common sources of resistance to change and strategies to mitigate them",
+    "Use advanced conditional linkers to express complex business requirements",
+    "Differentiate between incremental and disruptive innovation"
+  ],
+  "keyTerms": [
+    { "term": "Status Quo", "definition": "The existing state of affairs, especially regarding social or political issues." },
+    { "term": "Agility", "definition": "The ability of an organisation to renew itself, adapt, change quickly, and succeed in a rapidly changing, ambiguous, turbulent environment." },
+    { "term": "ROI", "definition": "Return on Investment: a performance measure used to evaluate the efficiency or profitability of an investment." },
+    { "term": "Stakeholder", "definition": "Any person or group that has an interest in or is affected by the activities of a business." }
+  ]
+}

@@ -1,398 +1,69 @@
 {
-  "title": "Exercises: Risk Management and Insurance",
-  "exercises": [
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 3,
+  "weekId": "semana29",
+  "title": "Exercises: Facility Management & Health & Safety",
+  "items": [
     {
-      "id": "ex1",
-      "type": "multiple-choice",
-      "question": "What is 'Credit Risk'?",
-      "options": ["Risk of market prices falling", "Risk of a borrower failing to repay a loan", "Risk of a system failure", "Risk of high inflation"],
-      "correctAnswer": 1,
-      "explanation": "Credit risk involves the default of a counterparty."
-    },
-    {
-      "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "If they ________ (not/take) that loan last year, they wouldn't be in debt now.",
-      "answer": "hadn't taken",
-      "explanation": "Mixed conditional: If + past perfect (past action), result with 'wouldn't be' (present state)."
-    },
-    {
-      "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the risk types:",
-      "pairs": [
-        { "term": "Operational Risk", "definition": "Internal system or human failure" },
-        { "term": "Liquidity Risk", "definition": "Inability to meet short-term obligations" },
-        { "term": "Market Risk", "definition": "Overall market performance factors" }
+      "id": "adm-b2-w29-ex01",
+      "type": "reading-comprehension",
+      "title": "Exercise 1: Fire Safety Drill Report",
+      "text": "Memo: Results of the Annual Fire Drill\n\nThe annual fire drill was conducted on Tuesday at 10:15 AM. The building was fully evacuated within 4 minutes and 30 seconds, which is within our target of 5 minutes. \n\nObservations:\n1. All fire wardens were present and followed their protocols correctly.\n2. One fire exit in the basement was partially blocked by cleaning supplies. This hazard must be addressed immediately. \n3. A few staff members attempted to take their laptops with them. In the future, ensure that all personal items are left behind to speed up the evacuation.\n\nRemember: In a real emergency, the lifts shall not be used under any circumstances.",
+      "questions": [
+        {
+          "question": "Was the evacuation time successful?",
+          "options": ["No, it was too slow", "Yes, it was under the 5-minute target", "The text doesn't mention the target"],
+          "answerIndex": 1,
+          "explanation": "The text says 'within 4 minutes and 30 seconds, which is within our target of 5 minutes'."
+        },
+        {
+          "question": "What hazard was identified during the drill?",
+          "options": ["A broken fire alarm", "A blocked fire exit", "A malfunctioning lift"],
+          "answerIndex": 1,
+          "explanation": "Observation 2 mentions a fire exit in the basement was partially blocked."
+        }
       ]
     },
     {
-      "id": "ex4",
-      "type": "multiple-choice",
-      "question": "What is 'Hedging'?",
-      "options": ["A type of garden maintenance", "An investment to reduce the risk of adverse price movements", "Selling all assets", "A type of insurance claim"],
-      "correctAnswer": 1,
-      "explanation": "Hedging is a risk management strategy."
+      "id": "adm-b2-w29-ex02",
+      "type": "multipleChoice",
+      "prompt": "Exercise 2: FM Vocabulary. What does 'HSE' stand for in the UK?",
+      "options": [
+        "Health and Safety Executive",
+        "Home Security Environment",
+        "High Standard Engineering",
+        "Human System Efficiency"
+      ],
+      "answerIndex": 0,
+      "explanation": "HSE is the UK regulator for workplace health and safety."
     },
     {
-      "id": "ex5",
-      "type": "fill-in-the-blank",
-      "question": "If the company ________ (be) more stable, it would have survived the crisis.",
-      "answer": "were",
-      "explanation": "Mixed conditional: If + past simple (present/general state), result with 'would have + participle' (past result)."
+      "id": "adm-b2-w29-ex03",
+      "type": "writingTask",
+      "prompt": "Exercise 3: Formal Instructions. Rewrite this informal rule formally: 'Don't smoke in the office.'",
+      "modelAnswer": "Smoking is strictly prohibited on the premises.",
+      "keywords": ["prohibited", "premises"]
     },
     {
-      "id": "ex6",
-      "type": "multiple-choice",
-      "question": "What is 'Reinsurance'?",
-      "options": ["Buying insurance twice", "Insurance for insurance companies", "Canceling an insurance policy", "A type of tax"],
-      "correctAnswer": 1,
-      "explanation": "Insurance companies use it to spread their own risk."
+      "id": "adm-b2-w29-ex04",
+      "type": "writingTask",
+      "prompt": "Exercise 4: Imperatives. Use a direct imperative to tell staff to wear their ID badges: '____ (wear) your ID badges at all times.'",
+      "modelAnswer": "Wear your ID badges at all times.",
+      "keywords": ["Wear"]
     },
     {
-      "id": "ex7",
-      "type": "fill-in-the-blank",
-      "question": "If the auditor ________ (find) the error earlier, we wouldn't be facing this fine today.",
-      "answer": "had found",
-      "explanation": "Mixed conditional (Past action -> Present result)."
-    },
-    {
-      "id": "ex8",
-      "type": "vocabulary-match",
-      "question": "Insurance terms:",
-      "pairs": [
-        { "term": "Underwriting", "definition": "Assessing and taking on risk" },
-        { "term": "Premium", "definition": "Payment for coverage" },
-        { "term": "Deductible", "definition": "Amount paid by the insured before the insurer pays" }
-      ]
-    },
-    {
-      "id": "ex9",
-      "type": "multiple-choice",
-      "question": "What is 'Systemic Risk'?",
-      "options": ["Risk of one computer failing", "Risk of collapse of an entire financial system", "Risk of a small business closing", "A type of market risk"],
-      "correctAnswer": 1,
-      "explanation": "The risk that the failure of one entity causes a domino effect."
-    },
-    {
-      "id": "ex10",
-      "type": "fill-in-the-blank",
-      "question": "If I ________ (know) about the market volatility, I would have hedged my position.",
-      "answer": "had known",
-      "explanation": "Third conditional (Past regret)."
-    },
-    {
-      "id": "ex11",
-      "type": "multiple-choice",
-      "question": "What does a 'Risk Officer' do?",
-      "options": ["Invests money", "Identifies and manages organizational risks", "Fires employees", "Prints money"],
-      "correctAnswer": 1,
-      "explanation": "Key role in corporate governance."
-    },
-    {
-      "id": "ex12",
-      "type": "fill-in-the-blank",
-      "question": "The impact of the crisis ________ (be) less severe if we had diversified earlier.",
-      "answer": "would be",
-      "explanation": "Mixed conditional (Past action -> Present state/result)."
-    },
-    {
-      "id": "ex13",
-      "type": "multiple-choice",
-      "question": "What is 'Moral Hazard'?",
-      "options": ["A religious problem", "When one party takes risks because someone else bears the cost", "Illegal act", "A type of tax"],
-      "correctAnswer": 1,
-      "explanation": "Often seen in insurance or government bailouts."
-    },
-    {
-      "id": "ex14",
-      "type": "fill-in-the-blank",
-      "question": "If they ________ (not/be) so aggressive, they wouldn't have lost everything.",
-      "answer": "weren't",
-      "explanation": "Mixed conditional (General state -> Past result)."
-    },
-    {
-      "id": "ex15",
-      "type": "vocabulary-match",
-      "question": "Mitigation strategies:",
-      "pairs": [
-        { "term": "Avoidance", "definition": "Not engaging in risky activity" },
-        { "term": "Transfer", "definition": "Insurance or hedging" },
-        { "term": "Mitigation", "definition": "Reducing impact or probability" }
-      ]
-    },
-    {
-      "id": "ex16",
-      "type": "multiple-choice",
-      "question": "What is 'Counterparty Risk'?",
-      "options": ["Risk of a party at a bank", "The risk that the other party in a transaction will default", "Competition risk", "System failure"],
-      "correctAnswer": 1,
-      "explanation": "Common in derivatives and lending."
-    },
-    {
-      "id": "ex17",
-      "type": "fill-in-the-blank",
-      "question": "The premium ________ (increase) if the risk profile rises.",
-      "answer": "will increase",
-      "explanation": "First conditional (Real possibility)."
-    },
-    {
-      "id": "ex18",
-      "type": "multiple-choice",
-      "question": "What is 'Sovereign Risk'?",
-      "options": ["Risk of a company failing", "Risk that a foreign government will default on its debt", "Risk of a king dying", "Inflation risk"],
-      "correctAnswer": 1,
-      "explanation": "Related to government bonds and international lending."
-    },
-    {
-      "id": "ex19",
-      "type": "fill-in-the-blank",
-      "question": "If the bank ________ (comply) with regulations, it wouldn't be facing this audit now.",
-      "answer": "had complied",
-      "explanation": "Mixed conditional (Past action -> Present result)."
-    },
-    {
-      "id": "ex20",
-      "type": "multiple-choice",
-      "question": "What is an 'Actuary'?",
-      "options": ["A type of actor", "A professional who analyzes financial consequences of risk", "A lawyer", "A bank teller"],
-      "correctAnswer": 1,
-      "explanation": "Uses math and statistics for insurance and finance."
-    },
-    {
-      "id": "ex21",
-      "type": "fill-in-the-blank",
-      "question": "If you ________ (study) the market, you would have seen the signs.",
-      "answer": "had studied",
-      "explanation": "Third conditional."
-    },
-    {
-      "id": "ex22",
-      "type": "vocabulary-match",
-      "question": "Regulatory terms:",
-      "pairs": [
-        { "term": "Compliance", "definition": "Following rules" },
-        { "term": "Capital Adequacy", "definition": "Minimum required funds" },
-        { "term": "Solvency II", "definition": "EU insurance regulation" }
-      ]
-    },
-    {
-      "id": "ex23",
-      "type": "multiple-choice",
-      "question": "What is 'Value at Risk (VaR)'?",
-      "options": ["A marketing term", "A statistical measure of the risk of investment loss", "Total company value", "The price of gold"],
-      "correctAnswer": 1,
-      "explanation": "Standard risk metric for financial institutions."
-    },
-    {
-      "id": "ex24",
-      "type": "fill-in-the-blank",
-      "question": "We ________ (be) in a better position if we had invested in bonds.",
-      "answer": "would be",
-      "explanation": "Mixed conditional."
-    },
-    {
-      "id": "ex25",
-      "type": "multiple-choice",
-      "question": "What is 'Stress Testing'?",
-      "options": ["Testing employees' health", "Analyzing how a bank/economy handles extreme conditions", "Testing the speed of a car", "A type of tax"],
-      "correctAnswer": 1,
-      "explanation": "Requirement for major banks."
-    },
-    {
-      "id": "ex26",
-      "type": "fill-in-the-blank",
-      "question": "If the interest rate ________ (rise), we would lose money.",
-      "answer": "rose",
-      "explanation": "Second conditional (Hypothetical)."
-    },
-    {
-      "id": "ex27",
-      "type": "multiple-choice",
-      "question": "What is 'Basis Risk'?",
-      "options": ["Basic insurance", "Risk that a hedge doesn't perfectly offset the exposure", "Tax risk", "Operational risk"],
-      "correctAnswer": 1,
-      "explanation": "Occurs when there is an imperfect correlation."
-    },
-    {
-      "id": "ex28",
-      "type": "fill-in-the-blank",
-      "question": "The claim ________ (pay) last week.",
-      "answer": "was paid",
-      "explanation": "Passive voice."
-    },
-    {
-      "id": "ex29",
-      "type": "multiple-choice",
-      "question": "What is 'Diversification' intended to reduce?",
-      "options": ["Profit", "Unsystematic risk", "Systemic risk", "Total taxes"],
-      "correctAnswer": 1,
-      "explanation": "Spreading assets reduces specific company/sector risk."
-    },
-    {
-      "id": "ex30",
-      "type": "fill-in-the-blank",
-      "question": "If I ________ (be) the CEO, I would hire more actuaries.",
-      "answer": "were",
-      "explanation": "Second conditional."
-    },
-    {
-      "id": "ex31",
-      "type": "vocabulary-match",
-      "question": "Risk analysis verbs:",
-      "pairs": [
-        { "term": "Quantify", "definition": "Measure numerically" },
-        { "term": "Mitigate", "definition": "Reduce severity" },
-        { "term": "Forecast", "definition": "Predict future" }
-      ]
-    },
-    {
-      "id": "ex32",
-      "type": "multiple-choice",
-      "question": "What is 'Captive Insurance'?",
-      "options": ["Insurance for animals", "A subsidiary that provides insurance for its parent company", "Mandatory insurance", "Travel insurance"],
-      "correctAnswer": 1,
-      "explanation": "Self-insurance strategy."
-    },
-    {
-      "id": "ex33",
-      "type": "fill-in-the-blank",
-      "question": "If the market ________ (crash), we would have lost millions.",
-      "answer": "had crashed",
-      "explanation": "Third conditional."
-    },
-    {
-      "id": "ex34",
-      "type": "multiple-choice",
-      "question": "What is 'Asset-Liability Management (ALM)'?",
-      "options": ["Selling assets to pay debts", "Managing risks from mismatches between assets and liabilities", "A type of marketing", "Human resources"],
-      "correctAnswer": 1,
-      "explanation": "Vital for banks and insurance companies."
-    },
-    {
-      "id": "ex35",
-      "type": "fill-in-the-blank",
-      "question": "The loss ________ (avoid) if we had followed the protocol.",
-      "answer": "would have been avoided",
-      "explanation": "Third conditional passive."
-    },
-    {
-      "id": "ex36",
-      "type": "multiple-choice",
-      "question": "What is 'Legal Risk'?",
-      "options": ["Risk of being sued or laws changing", "Risk of a bank closing", "Risk of losing money in Vegas", "Inflation risk"],
-      "correctAnswer": 0,
-      "explanation": "Regulatory and litigation threats."
-    },
-    {
-      "id": "ex37",
-      "type": "fill-in-the-blank",
-      "question": "We ________ (not/be) in this situation if we were more cautious.",
-      "answer": "wouldn't be",
-      "explanation": "Second conditional (Current state)."
-    },
-    {
-      "id": "ex38",
-      "type": "vocabulary-match",
-      "question": "Market participants:",
-      "pairs": [
-        { "term": "Speculator", "definition": "Takes risk for profit" },
-        { "term": "Hedger", "definition": "Reduces risk" },
-        { "term": "Arbitrageur", "definition": "Exploits price differences" }
-      ]
-    },
-    {
-      "id": "ex39",
-      "type": "multiple-choice",
-      "question": "What is 'Concentration Risk'?",
-      "options": ["Thinking too hard", "Risk from having too much exposure to a single asset or sector", "Risk of a bank holiday", "A type of tax"],
-      "correctAnswer": 1,
-      "explanation": "Lack of diversification."
-    },
-    {
-      "id": "ex40",
-      "type": "fill-in-the-blank",
-      "question": "The data ________ (analyze) by the risk team currently.",
-      "answer": "is being analyzed",
-      "explanation": "Present continuous passive."
-    },
-    {
-      "id": "ex41",
-      "type": "multiple-choice",
-      "question": "What is 'Insurance Underwriting'?",
-      "options": ["Signing a check", "Process of evaluating risk and determining premiums", "Selling insurance on the street", "A bank loan"],
-      "correctAnswer": 1,
-      "explanation": "Evaluating applications."
-    },
-    {
-      "id": "ex42",
-      "type": "fill-in-the-blank",
-      "question": "If they ________ (hedge), they wouldn't be losing money now.",
-      "answer": "had hedged",
-      "explanation": "Mixed conditional."
-    },
-    {
-      "id": "ex43",
-      "type": "multiple-choice",
-      "question": "What is 'Economic Capital'?",
-      "options": ["Total money in a country", "The amount of risk capital a bank needs to stay solvent", "The CEO's net worth", "A tax on capital"],
-      "correctAnswer": 1,
-      "explanation": "Internal measure of risk."
-    },
-    {
-      "id": "ex44",
-      "type": "fill-in-the-blank",
-      "question": "The policy ________ (renew) next month.",
-      "answer": "will be renewed",
-      "explanation": "Future passive."
-    },
-    {
-      "id": "ex45",
-      "type": "vocabulary-match",
-      "question": "Risk levels:",
-      "pairs": [
-        { "term": "High risk", "definition": "Aggressive" },
-        { "term": "Low risk", "definition": "Conservative" },
-        { "term": "Moderate risk", "definition": "Balanced" }
-      ]
-    },
-    {
-      "id": "ex46",
-      "type": "multiple-choice",
-      "question": "What is 'Operational Resiliency'?",
-      "options": ["Speed of a computer", "Ability of an organization to absorb and adapt to shocks", "Total profit", "A bank manager's mood"],
-      "correctAnswer": 1,
-      "explanation": "Beyond simple risk management."
-    },
-    {
-      "id": "ex47",
-      "type": "fill-in-the-blank",
-      "question": "He ________ (work) in risk management for 10 years.",
-      "answer": "has been working",
-      "explanation": "Present perfect continuous."
-    },
-    {
-      "id": "ex48",
-      "type": "multiple-choice",
-      "question": "What is a 'Stop-loss Order'?",
-      "options": ["Order to stop working", "An order to sell a security when it reaches a certain price to limit loss", "A type of tax", "A bank fee"],
-      "correctAnswer": 1,
-      "explanation": "Automated risk control."
-    },
-    {
-      "id": "ex49",
-      "type": "fill-in-the-blank",
-      "question": "If the regulation ________ (change), we will adapt.",
-      "answer": "changes",
-      "explanation": "First conditional."
-    },
-    {
-      "id": "ex50",
-      "type": "multiple-choice",
-      "question": "Risk management is...",
-      "options": ["A one-time task", "A continuous process", "Optional for big banks", "Impossible"],
-      "correctAnswer": 1,
-      "explanation": "Ongoing monitoring is essential."
+      "id": "adm-b2-w29-ex05",
+      "type": "multipleChoice",
+      "prompt": "Exercise 5: FM Chunks. To 'conduct a risk assessment' means:",
+      "options": [
+        "To systematically evaluate potential dangers in an activity",
+        "To ignore the rules and hope for the best",
+        "To pay an insurance bill",
+        "To fire the safety officer"
+      ],
+      "answerIndex": 0,
+      "explanation": "A risk assessment is a formal process for identifying and mitigating hazards."
     }
   ]
 }

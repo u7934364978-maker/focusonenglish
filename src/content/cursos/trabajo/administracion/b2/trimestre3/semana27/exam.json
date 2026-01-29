@@ -3,48 +3,73 @@
   "level": "B2",
   "trimester": 3,
   "weekId": "semana27",
-  "examId": "fin-b2-w27-exam",
-  "title": "Exam: Introduction to Derivatives",
+  "examId": "adm-b2-w27-exam",
+  "title": "Exam: Intellectual Property & Patents",
   "items": [
     {
-      "id": "fin-b2-w27-exam-1",
+      "id": "adm-b2-w27-exam-1",
       "type": "multipleChoice",
-      "prompt": "A derivative derives its value from:",
-      "options": ["The bank's reputation", "An underlying asset", "The color of the contract", "The CEO's signature"],
-      "answerIndex": 1,
-      "explanation": "Derivatives are based on assets like stocks, bonds, or commodities."
+      "prompt": "Which form of IP protection is most suitable for a new chemical formula?",
+      "options": [
+        "Copyright",
+        "Trademark",
+        "Patent",
+        "NDA"
+      ],
+      "answerIndex": 2,
+      "explanation": "Patents protect inventions and technical formulas."
     },
     {
-      "id": "fin-b2-w27-exam-2",
+      "id": "adm-b2-w27-exam-2",
       "type": "multipleChoice",
-      "prompt": "If the price of oil ________ (rise) next month, this future will be very profitable.",
-      "options": ["rises", "rose", "would rise", "has risen"],
+      "prompt": "Choose the correct modal for high certainty about a negative past event: 'They ____ filed the patent yesterday; the office was closed.'",
+      "options": [
+        "couldn't have",
+        "must have",
+        "might have",
+        "should have"
+      ],
       "answerIndex": 0,
-      "explanation": "First conditional (real possibility): If + present simple."
+      "explanation": "'Couldn't have' expresses certainty that something did not happen."
     },
     {
-      "id": "fin-b2-w27-exam-3",
+      "id": "adm-b2-w27-exam-3",
       "type": "multipleChoice",
-      "prompt": "A 'Put Option' gives the holder the right to:",
-      "options": ["Buy an asset", "Sell an asset", "Exchange an asset for gold", "Cancel a contract"],
+      "prompt": "What does 'NDA' stand for?",
+      "options": [
+        "New Development Area",
+        "Non-Disclosure Agreement",
+        "National Data Archive",
+        "Negative Debt Analysis"
+      ],
       "answerIndex": 1,
-      "explanation": "A Put option is the right to sell; a Call is the right to buy."
+      "explanation": "An NDA is a legal contract to keep information confidential."
     },
     {
-      "id": "fin-b2-w27-exam-4",
+      "id": "adm-b2-w27-exam-4",
       "type": "multipleChoice",
-      "prompt": "If we ________ (not hedge) our position, we would face a significant loss.",
-      "options": ["don't hedge", "didn't hedge", "haven't hedged", "won't hedge"],
-      "answerIndex": 1,
-      "explanation": "Second conditional for hypothetical risk analysis."
+      "prompt": "Complete the deduction: 'The competitor's logo is identical to ours. It ____ a trademark infringement.'",
+      "options": [
+        "must be",
+        "might not be",
+        "can't be",
+        "should have been"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Must be' expresses strong certainty based on evidence (the logos being identical)."
     },
     {
-      "id": "fin-b2-w27-exam-5",
+      "id": "adm-b2-w27-exam-5",
       "type": "multipleChoice",
-      "prompt": "What is 'Hedging'?",
-      "options": ["Making a garden", "Taking an offset position to reduce risk", "Buying as many shares as possible", "Selling all assets for cash"],
+      "prompt": "To 'grant a license' means:",
+      "options": [
+        "To steal someone's idea",
+        "To give legal permission to another party to use your IP",
+        "To cancel a patent application",
+        "To fire a legal consultant"
+      ],
       "answerIndex": 1,
-      "explanation": "Hedging is a strategy to protect against adverse price movements."
+      "explanation": "Licensing involves allowing others to use your protected IP under specific terms."
     }
   ]
 }

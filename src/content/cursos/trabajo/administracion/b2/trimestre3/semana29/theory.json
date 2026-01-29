@@ -1,29 +1,37 @@
 {
-  "title": "Risk Management and Insurance",
+  "title": "Facility Management & Health & Safety",
   "sections": [
     {
-      "id": "risk-id",
-      "title": "Identifying and Assessing Financial Risks",
-      "content": "Risk management is the process of identifying, evaluating, and prioritizing risks followed by coordinated application of resources to minimize, monitor, and control the probability or impact of unfortunate events.\n\n- **Market Risk**: The possibility of an investor experiencing losses due to factors that affect the overall performance of the financial markets.\n- **Credit Risk**: The risk of loss resulting from a borrower's failure to repay a loan or meet contractual obligations.\n- **Operational Risk**: The risk of loss resulting from inadequate or failed internal processes, people, and systems.\n- **Liquidity Risk**: The risk that an entity will not be able to meet its short-term financial obligations due to an inability to convert assets into cash quickly."
+      "id": "facility-mgmt",
+      "title": "Managing the Physical Workspace",
+      "content": "Facility management (FM) is an organisational function which integrates people, place, and process within the built environment with the purpose of improving the quality of life of people and the productivity of the core business.\n\n### Key FM Areas:\n- **Space Planning**: Optimising the office layout for collaboration and efficiency.\n- **Maintenance**: Managing repairs and ensuring systems (HVAC, fire safety) are operational.\n- **Health & Safety (H&S)**: Ensuring the workplace complies with legal regulations (e.g., HSE in the UK).\n- **Sustainability**: Reducing the environmental impact of the facility (waste management, energy efficiency)."
     },
     {
-      "id": "mitigation-insurance",
-      "title": "Risk Mitigation & Corporate Insurance",
-      "content": "Companies use various strategies to handle risk:\n\n- **Hedging**: Making an investment to reduce the risk of adverse price movements in an asset.\n- **Insurance Premium**: The amount of money that an individual or business must pay for an insurance policy.\n- **Reinsurance**: Insurance that is purchased by an insurance company from one or more other insurance companies directly as a means of risk management.\n- **Underwriting**: The process through which an individual or institution takes on financial risk for a fee."
+      "id": "phrase-bank",
+      "title": "PhraseBank: FM & H&S Chunks",
+      "content": "Use these chunks to discuss facilities and safety professionally:\n\n1. **to ensure compliance with** — \"We must ensure compliance with latest H&S regulations.\"\n2. **to conduct a risk assessment** — \"It is mandatory to conduct a risk assessment for all new equipment.\"\n3. **to report a hazard** — \"Please report any hazards to the facility manager immediately.\"\n4. **to schedule maintenance** — \"We've scheduled maintenance for the lifts this weekend.\"\n5. **to implement a desk-sharing policy** — \"The company is implementing a desk-sharing policy to save space.\"\n6. **to evacuate the building** — \"In the event of a fire, evacuate the building through the nearest exit.\"\n7. **to designate a fire warden** — \"Each floor must have a designated fire warden.\"\n8. **to oversee a renovation** — \"The admin team is overseeing the office renovation project.\""
     },
     {
-      "id": "grammar-mixed-conditionals",
-      "title": "Language Focus: Mixed Conditionals in Risk Analysis",
-      "content": "Mixed conditionals are used to show the relationship between a past action/state and a present result (or vice versa).\n\n- **Past Action -> Present Result**: \n  - 'If they **hadn't taken** that loan last year, they **wouldn't be** in debt now.' (Si no hubieran tomado ese préstamo el año pasado, no estarían en deuda ahora).\n- **Present State -> Past Result**: \n  - 'If the company **were** more stable, it **would have survived** the crisis.' (Si la empresa fuera más estable, habría sobrevivido a la crisis).\n\nThese structures are vital for analyzing long-term financial consequences."
+      "id": "grammar-imperatives",
+      "title": "Grammar: Formal Imperatives & Instructions",
+      "content": "When providing safety instructions or facility guidelines, we use a range of formal imperative structures and modal verbs of obligation.\n\n### Direct Imperatives (Standard)\n- **Ensure** that all fire exits remain clear.\n- **Do not use** the lifts in the event of a fire.\n\n### Formal Passive Imperatives (Common in Notices)\n- **Smoking is strictly prohibited** on the premises.\n- **ID badges must be worn** at all times.\n\n### Obligation & Permission Modals\n- **Must/Shall**: *All staff shall attend the mandatory safety briefing.* (Formal obligation)\n- **Should**: *Visitors should sign in at reception.* (Strong recommendation)\n- **May not**: *Guests may not enter the server room without an escort.* (Formal prohibition)"
+    },
+    {
+      "id": "deliverable",
+      "title": "Weekly Deliverable: Health & Safety Notice",
+      "content": "Draft a formal 'Health & Safety Notice' for the office kitchen or communal area. Include:\n1. **Purpose of the notice**.\n2. **List of rules and safety guidelines** (Using formal imperatives: *Ensure..., Do not...*).\n3. **Instructions for reporting issues**.\n4. **Contact details of the H&S officer**."
     }
   ],
   "objectives": [
-    "Categorize different types of financial risk",
-    "Explain strategies for risk mitigation including hedging and insurance",
-    "Use mixed conditionals to analyze past decisions and their present effects"
+    "Identify the core responsibilities of facility management",
+    "Describe key health and safety procedures in a corporate environment",
+    "Use formal imperatives and modals of obligation for instructions",
+    "Conduct a basic office risk assessment and report hazards correctly"
   ],
   "keyTerms": [
-    { "term": "Hedging", "definition": "Protecting oneself against loss on (a bet or investment) by making balancing or compensating transactions." },
-    { "term": "Underwriting", "definition": "Accepting liability under (an insurance policy), thus guaranteeing payment in case loss or damage occurs." }
+    { "term": "HSE", "definition": "Health and Safety Executive: the UK government agency responsible for the encouragement, regulation, and enforcement of workplace health, safety, and welfare." },
+    { "term": "Hazard", "definition": "A potential source of danger or harm." },
+    { "term": "Risk Assessment", "definition": "A systematic process of evaluating the potential risks that may be involved in a projected activity or undertaking." },
+    { "term": "Evacuation", "definition": "The action of leaving a person or place, especially a dangerous one, in an organized way." }
   ]
 }

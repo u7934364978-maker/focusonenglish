@@ -1,0 +1,55 @@
+{
+  "exercises": [
+    {
+      "id": "vocab-logistics",
+      "title": "Vocabulary: Logistics & Trade",
+      "type": "matching",
+      "questions": [
+        { "question": "Customs Clearance", "answer": "The process of passing goods through customs" },
+        { "question": "Lead Time", "answer": "Time between starting and finishing a process" },
+        { "question": "Bill of Lading", "answer": "A receipt given by a carrier for goods shipped" },
+        { "question": "Tariff", "answer": "A tax on imported or exported goods" },
+        { "question": "Freight Forwarding", "answer": "Arranging the movement of cargo for others" }
+      ]
+    },
+    {
+      "id": "prepositions-practice",
+      "title": "Grammar: Verbs & Nouns with Prepositions",
+      "type": "multiple-choice",
+      "questions": [
+        {
+          "question": "The company needs to comply ______ the new environmental regulations.",
+          "options": ["to", "with", "for"],
+          "answer": "with"
+        },
+        {
+          "question": "There has been a sharp increase in the demand ______ electric vehicles.",
+          "options": ["of", "for", "in"],
+          "answer": "for"
+        },
+        {
+          "question": "Our logistics team specializes ______ expedited air freight.",
+          "options": ["on", "at", "in"],
+          "answer": "in"
+        },
+        {
+          "question": "The rise in fuel prices had a significant impact ______ shipping costs.",
+          "options": ["on", "to", "at"],
+          "answer": "on"
+        },
+        {
+          "question": "Who is responsible ______ handling the customs documentation?",
+          "options": ["to", "for", "about"],
+          "answer": "for"
+        }
+      ]
+    },
+    {
+      "id": "cloze-trade",
+      "title": "Reading: Global Supply Chains",
+      "type": "cloze",
+      "text": "Effective inventory (1) ______ is crucial for maintaining a smooth supply chain. Companies often (2) ______ from working with experienced freight (3) ______ who can navigate complex (4) ______ regulations. Reducing delivery (5) ______ times is a top priority for e-commerce businesses.",
+      "blanks": ["management", "benefit", "forwarders", "customs", "lead"]
+    }
+  ]
+}

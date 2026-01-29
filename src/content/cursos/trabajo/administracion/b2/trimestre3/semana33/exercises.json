@@ -1,0 +1,55 @@
+{
+  "exercises": [
+    {
+      "id": "vocab-matching",
+      "title": "Vocabulary: Change & Innovation",
+      "type": "matching",
+      "questions": [
+        { "question": "To streamline operations", "answer": "To make a system or process more efficient" },
+        { "question": "Change Agent", "answer": "A person who helps an organisation transform" },
+        { "question": "Disruptive Innovation", "answer": "Something that displaces established market leaders" },
+        { "question": "Future-proof", "answer": "To design so that it continues to be useful in the future" },
+        { "question": "Phased rollout", "answer": "Implementing a new system in stages" }
+      ]
+    },
+    {
+      "id": "conditional-linkers",
+      "title": "Grammar: Advanced Conditionals",
+      "type": "multiple-choice",
+      "questions": [
+        {
+          "question": "The project will be completed on time ______ we receive the materials by Friday.",
+          "options": ["unless", "provided that", "supposing"],
+          "answer": "provided that"
+        },
+        {
+          "question": "______ we were to lose our biggest client, how would that affect our cash flow?",
+          "options": ["Unless", "As long as", "Supposing"],
+          "answer": "Supposing"
+        },
+        {
+          "question": "We cannot implement the new software ______ all staff members have completed the training.",
+          "options": ["as long as", "unless", "providing"],
+          "answer": "unless"
+        },
+        {
+          "question": "You can work from home ______ you meet your weekly targets.",
+          "options": ["as long as", "unless", "suppose"],
+          "answer": "as long as"
+        },
+        {
+          "question": "The board will approve the expansion ______ that the risks are minimized.",
+          "options": ["unless", "on condition", "supposing"],
+          "answer": "on condition"
+        }
+      ]
+    },
+    {
+      "id": "cloze-change",
+      "title": "Reading: Implementing Change",
+      "type": "cloze",
+      "text": "To (1) ______ a competitive edge, many companies are forced to undergo significant restructuring. However, employees often show (2) ______ to change if they feel the (3) ______ is being threatened without clear benefits. A successful (4) ______ agent should communicate the vision clearly and implement a (5) ______ rollout to ensure a smooth transition.",
+      "blanks": ["gain", "resistance", "status quo", "change", "phased"]
+    }
+  ]
+}

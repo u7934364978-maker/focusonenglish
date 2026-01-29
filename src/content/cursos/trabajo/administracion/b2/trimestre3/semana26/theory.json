@@ -1,36 +1,37 @@
 {
-  "title": "Financial Crimes & Compliance",
+  "title": "Mergers & Acquisitions (Admin Perspective)",
   "sections": [
     {
-      "id": "compliance-intro",
-      "title": "Introduction to Compliance",
-      "content": "Compliance in banking means following the rules, laws, and regulations set by governments and financial authorities. It is essential for maintaining the integrity of the financial system.\n\n- **Regulatory Authorities**: Organizations that oversee banks (e.g., the SEC in the US, the FCA in the UK).\n- **Risk Management**: Identifying and mitigating potential legal and financial threats.\n- **Ethical Banking**: Ensuring that the bank's activities are honest and responsible."
+      "id": "ma-admin",
+      "title": "Administration in M&A",
+      "content": "Mergers and Acquisitions (M&A) involve complex administrative processes. From the initial due diligence to the final integration of two companies, administrators play a key role in managing documentation, schedules, and communication.\n\n### Key M&A Stages:\n1. **Pre-deal Due Diligence**: Thoroughly investigating the target company's assets, liabilities, and operations.\n2. **Valuation & Negotiation**: Determining the price and terms of the deal.\n3. **Closing**: Finalising the legal and financial transfer of ownership.\n4. **Post-Merger Integration (PMI)**: Combining the two organisations' systems, cultures, and staff."
     },
     {
-      "id": "financial-crimes",
-      "title": "Types of Financial Crimes",
-      "content": "Banks must be vigilant against various criminal activities.\n\n- **Money Laundering (AML)**: The process of making 'dirty' money look 'clean' by passing it through legitimate bank accounts.\n- **Terrorist Financing**: Providing funds for terrorist activities.\n- **Fraud**: Deception intended to result in financial or personal gain (e.g., identity theft, phishing).\n- **Insider Trading**: Trading stock based on non-public, confidential information.\n- **Sanctions**: Restrictions imposed by governments against certain countries, organizations, or individuals."
+      "id": "phrase-bank",
+      "title": "PhraseBank: M&A & Due Diligence Chunks",
+      "content": "Use these chunks to handle M&A processes professionally:\n\n1. **to conduct due diligence** — \"We are currently conducting due diligence on the acquisition target.\"\n2. **to facilitate the integration** — \"Our team will help facilitate the integration of the IT systems.\"\n3. **to finalise the deal** — \"We expect to finalise the deal by the end of the month.\"\n4. **to identify synergies** — \"The merger will help us identify significant cost synergies.\"\n5. **to acquire a stake in** — \"The company has acquired a majority stake in a local startup.\"\n6. **to undergo a merger** — \"Two of our biggest competitors are undergoing a merger.\"\n7. **to sign the letter of intent (LOI)** — \"They have already signed the LOI.\"\n8. **to manage the data room** — \"The admin office is responsible for managing the virtual data room (VDR).\""
     },
     {
-      "id": "kyc-aml",
-      "title": "KYC & AML Procedures",
-      "content": "To prevent crimes, banks use specific procedures.\n\n- **KYC (Know Your Customer)**: Verifying the identity of clients before they open an account.\n- **CDD (Customer Due Diligence)**: Investigating a customer's background and source of wealth.\n- **SAR (Suspicious Activity Report)**: A report filed by a bank if they suspect money laundering or fraud."
+      "id": "grammar-mixed-cond",
+      "title": "Grammar: Mixed Conditionals in Strategic Planning",
+      "content": "Mixed conditionals are used to link a hypothetical past with a present result, or a hypothetical present state with a past result. They are essential for discussing the long-term impacts of strategic decisions like mergers.\n\n### Type A: Past Action -> Present Result (If + Past Perfect, would + base verb)\n- **If we had merged** last year, we **would be** the market leader now. (We didn't merge, so we aren't the leader).\n- **If they hadn't signed** the LOI, we **wouldn't be** in this mess today.\n\n### Type B: Present State -> Past Result (If + Past Simple, would have + past participle)\n- **If the company were** more stable, the merger **would have been** easier. (The company isn't stable, so the merger was difficult).\n- **If I knew** the CEO better, I **would have asked** for more information during the meeting."
     },
     {
-      "id": "grammar-modals-deduction",
-      "title": "Language Focus: Modals of Deduction & Passives",
-      "content": "When investigating crimes, we use modals to express how certain we are about a past or present event.\n\n- **Must / Can't (High Certainty)**: \n  - 'The suspect **must have known** about the law.'\n  - 'That transaction **can't be** legitimate; it's too large.'\n- **Might / Could (Low Certainty)**: \n  - 'The error **could have been** an accident.'\n- **Passive Voice (Formal Reporting)**: \n  - 'The accounts **were frozen** immediately.'\n  - 'New regulations **are being implemented** this month.'"
+      "id": "deliverable",
+      "title": "Weekly Deliverable: Due Diligence Request List",
+      "content": "Draft a 'Due Diligence Request List' for an acquisition target. Include:\n1. **Corporate Records** (Articles of incorporation, board minutes).\n2. **Financial Information** (Audit reports, tax filings).\n3. **Human Resources** (Staff contracts, pension plans).\n4. **Strategic Context** (Using mixed conditionals: *If they had disclosed this earlier, we would have...*)."
     }
   ],
   "objectives": [
-    "Define compliance and the role of regulatory authorities",
-    "Identify common financial crimes like money laundering and fraud",
-    "Understand KYC and CDD procedures used by banks",
-    "Use modals of deduction and the passive voice in a professional context"
+    "Identify the administrative stages of an M&A deal",
+    "Describe the purpose and process of due diligence",
+    "Apply mixed conditionals to discuss hypothetical strategic outcomes",
+    "Organise documentation for a virtual data room (VDR)"
   ],
   "keyTerms": [
-    { "term": "Money Laundering", "definition": "The concealment of the origins of illegally obtained money." },
-    { "term": "Phishing", "definition": "The fraudulent practice of sending emails appearing to be from reputable companies to induce individuals to reveal personal information." },
-    { "term": "Due Diligence", "definition": "Reasonable steps taken by a person or organization to avoid committing a tort or offence." }
+    { "term": "Due Diligence", "definition": "The comprehensive appraisal of a business undertaken by a prospective buyer." },
+    { "term": "Synergy", "definition": "The interaction or cooperation of two or more organisations to produce a combined effect greater than the sum of their separate effects." },
+    { "term": "Acquisition", "definition": "An asset or object bought or obtained, typically by a library or museum." },
+    { "term": "Data Room", "definition": "A secure place (physical or virtual) where confidential documents are stored for due diligence." }
   ]
 }

@@ -1,398 +1,69 @@
 {
-  "title": "Exercises: B2 Review and Consolidation",
-  "exercises": [
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 3,
+  "weekId": "semana32",
+  "title": "Exercises: Strategic Leadership & Corporate Governance",
+  "items": [
     {
-      "id": "ex1",
-      "type": "multiple-choice",
-      "question": "What is 'Alpha' in investment?",
-      "options": ["The first share", "Excess return relative to a benchmark", "The total debt", "A type of tax"],
-      "correctAnswer": 1,
-      "explanation": "Measures active management performance."
-    },
-    {
-      "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "If they ________ (not/ignore) the warnings, the bank wouldn't be failing now.",
-      "answer": "hadn't ignored",
-      "explanation": "Mixed conditional (Past action -> Present result)."
-    },
-    {
-      "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "M&A review:",
-      "pairs": [
-        { "term": "Synergy", "definition": "1+1=3" },
-        { "term": "Due Diligence", "definition": "Investigation" },
-        { "term": "Takeover", "definition": "Acquisition of control" }
+      "id": "adm-b2-w32-ex01",
+      "type": "reading-comprehension",
+      "title": "Exercise 1: CEO's Letter to Shareholders",
+      "text": "Dear Shareholders,\n\nNotwithstanding the significant market volatility encountered this year, our company has maintained its commitment to high standards of corporate governance. \n\nWe have successfully implemented our new ESG strategy, albeit with some minor delays in the initial reporting phase. Whereas our competitors have focused solely on short-term profits, we have prioritized long-term sustainability and transparency. \n\nDirectors have continued to discharge their fiduciary duties diligently, ensuring that every decision aligns with our core strategic objectives. Even so, we recognize that there is still room for improvement in our stakeholder engagement processes.",
+      "questions": [
+        {
+          "question": "What is the tone of the CEO's letter?",
+          "options": ["Informal and apologetic", "Formal, professional, and accountable", "Aggressive and dismissive"],
+          "answerIndex": 1,
+          "explanation": "The use of formal connectors and the focus on governance, fiduciary duties, and ESG indicates a professional tone."
+        },
+        {
+          "question": "Which connector is used to show concession regarding the ESG strategy?",
+          "options": ["Notwithstanding", "Albeit", "Whereas"],
+          "answerIndex": 1,
+          "explanation": "'Albeit' is used to concede that there were minor delays while maintaining that the implementation was successful."
+        }
       ]
     },
     {
-      "id": "ex4",
-      "type": "multiple-choice",
-      "question": "What is 'Monetary Policy' primarily concerned with?",
-      "options": ["Government spending", "Interest rates and money supply", "Company marketing", "Personal taxes"],
-      "correctAnswer": 1,
-      "explanation": "Managed by Central Banks."
+      "id": "adm-b2-w32-ex02",
+      "type": "multipleChoice",
+      "prompt": "Exercise 2: Governance Vocabulary. 'Fiduciary duty' is a legal obligation to:",
+      "options": [
+        "Act in the best interest of the shareholders",
+        "Make as much money for yourself as possible",
+        "Avoid paying taxes",
+        "Fire the Board of Directors"
+      ],
+      "answerIndex": 0,
+      "explanation": "Fiduciary duty is the primary legal responsibility of company directors."
     },
     {
-      "id": "ex5",
-      "type": "fill-in-the-blank",
-      "question": "By next quarter, the team ________ (integrate) the two systems.",
-      "answer": "will have integrated",
-      "explanation": "Future perfect."
+      "id": "adm-b2-w32-ex03",
+      "type": "writingTask",
+      "prompt": "Exercise 3: Contrast Connectors. Combine these sentences using 'whereas': 'The North office is highly efficient. The South office is struggling with morale.'",
+      "modelAnswer": "The North office is highly efficient, whereas the South office is struggling with morale.",
+      "keywords": ["whereas"]
     },
     {
-      "id": "ex6",
-      "type": "multiple-choice",
-      "question": "What is 'Hedging'?",
-      "options": ["Gardening", "Reducing risk of adverse price movements", "Selling all stocks", "Buying insurance for a car"],
-      "correctAnswer": 1,
-      "explanation": "Risk mitigation strategy."
+      "id": "adm-b2-w32-ex04",
+      "type": "writingTask",
+      "prompt": "Exercise 4: Concession. Rewrite using 'Notwithstanding': 'In spite of the high costs, the board approved the expansion.'",
+      "modelAnswer": "Notwithstanding the high costs, the board approved the expansion.",
+      "keywords": ["Notwithstanding"]
     },
     {
-      "id": "ex7",
-      "type": "fill-in-the-blank",
-      "question": "The merger ________ (finalize) by December.",
-      "answer": "will have been finalized",
-      "explanation": "Future perfect passive."
-    },
-    {
-      "id": "ex8",
-      "type": "vocabulary-match",
-      "question": "Global markets:",
-      "pairs": [
-        { "term": "GDP", "definition": "Economic size" },
-        { "term": "Inflation", "definition": "Price increase" },
-        { "term": "Tariff", "definition": "Import tax" }
-      ]
-    },
-    {
-      "id": "ex9",
-      "type": "multiple-choice",
-      "question": "What is 'Liquidity Risk'?",
-      "options": ["Risk of water damage", "Risk of not being able to meet short-term obligations", "Market price risk", "Legal risk"],
-      "correctAnswer": 1,
-      "explanation": "Inability to convert assets to cash quickly."
-    },
-    {
-      "id": "ex10",
-      "type": "fill-in-the-blank",
-      "question": "He ________ (manage) portfolios for over 20 years.",
-      "answer": "has been managing",
-      "explanation": "Present perfect continuous."
-    },
-    {
-      "id": "ex11",
-      "type": "multiple-choice",
-      "question": "What is a 'Hostile Takeover'?",
-      "options": ["A friendly deal", "Acquisition against management's wishes", "Buying a bank branch", "Government intervention"],
-      "correctAnswer": 1,
-      "explanation": "Going directly to the target's shareholders."
-    },
-    {
-      "id": "ex12",
-      "type": "fill-in-the-blank",
-      "question": "If I ________ (be) you, I would have diversified earlier.",
-      "answer": "were",
-      "explanation": "Mixed conditional (General state -> Past result)."
-    },
-    {
-      "id": "ex13",
-      "type": "multiple-choice",
-      "question": "What is 'Asset Allocation'?",
-      "options": ["Buying only stocks", "Dividing a portfolio among different asset categories", "Paying taxes", "Selling a company"],
-      "correctAnswer": 1,
-      "explanation": "Diversification strategy."
-    },
-    {
-      "id": "ex14",
-      "type": "fill-in-the-blank",
-      "question": "The valuation ________ (reach) a new high by tomorrow.",
-      "answer": "will have reached",
-      "explanation": "Future perfect."
-    },
-    {
-      "id": "ex15",
-      "type": "vocabulary-match",
-      "question": "Match the pairs:",
-      "pairs": [
-        { "term": "Active management", "definition": "Goal: Beat the market" },
-        { "term": "Passive management", "definition": "Goal: Track the index" },
-        { "term": "Rebalancing", "definition": "Adjusting weightings" }
-      ]
-    },
-    {
-      "id": "ex16",
-      "type": "multiple-choice",
-      "question": "What is 'Fiscal Policy'?",
-      "options": ["Central bank actions", "Government spending and taxation", "Corporate debt", "Insurance premiums"],
-      "correctAnswer": 1,
-      "explanation": "Managed by the government."
-    },
-    {
-      "id": "ex17",
-      "type": "fill-in-the-blank",
-      "question": "The audit ________ (conduct) annually.",
-      "answer": "is conducted",
-      "explanation": "Present passive."
-    },
-    {
-      "id": "ex18",
-      "type": "multiple-choice",
-      "question": "What is 'Moral Hazard'?",
-      "options": ["Legal problem", "Risk-taking because someone else bears the cost", "Inflation", "Tax evasion"],
-      "correctAnswer": 1,
-      "explanation": "Lack of incentive to guard against risk."
-    },
-    {
-      "id": "ex19",
-      "type": "fill-in-the-blank",
-      "question": "The data ________ (process) right now.",
-      "answer": "is being processed",
-      "explanation": "Present continuous passive."
-    },
-    {
-      "id": "ex20",
-      "type": "multiple-choice",
-      "question": "What is a 'Benchmark'?",
-      "options": ["A place to sit in a bank", "A standard for measuring performance", "A type of loan", "A tax"],
-      "correctAnswer": 1,
-      "explanation": "Point of reference."
-    },
-    {
-      "id": "ex21",
-      "type": "fill-in-the-blank",
-      "question": "By 2040, fossil fuels ________ (phase out) in many countries.",
-      "answer": "will have been phased out",
-      "explanation": "Future perfect passive."
-    },
-    {
-      "id": "ex22",
-      "type": "vocabulary-match",
-      "question": "Professional verbs:",
-      "pairs": [
-        { "term": "Liquidate", "definition": "Sell assets" },
-        { "term": "Amortize", "definition": "Spread costs" },
-        { "term": "Mitigate", "definition": "Reduce risk" }
-      ]
-    },
-    {
-      "id": "ex23",
-      "type": "multiple-choice",
-      "question": "What is 'Due Diligence'?",
-      "options": ["Paying interest", "Investigation before an investment", "A type of bond", "Bank holiday"],
-      "correctAnswer": 1,
-      "explanation": "Thorough research."
-    },
-    {
-      "id": "ex24",
-      "type": "fill-in-the-blank",
-      "question": "If they ________ (hedge) correctly, they would have been safe.",
-      "answer": "had hedged",
-      "explanation": "Third conditional."
-    },
-    {
-      "id": "ex25",
-      "type": "multiple-choice",
-      "question": "What is 'Synergy'?",
-      "options": ["Extra profit from combining businesses", "A new tax", "A type of credit", "Bank fee"],
-      "correctAnswer": 0,
-      "explanation": "Shared value creation."
-    },
-    {
-      "id": "ex26",
-      "type": "fill-in-the-blank",
-      "question": "We ________ (reach) the target by Friday.",
-      "answer": "will have reached",
-      "explanation": "Future perfect."
-    },
-    {
-      "id": "ex27",
-      "type": "multiple-choice",
-      "question": "What is 'Operational Risk'?",
-      "options": ["Falling stock prices", "Risk of internal process failures", "High interest rates", "Taxes"],
-      "correctAnswer": 1,
-      "explanation": "Systems, people, and processes."
-    },
-    {
-      "id": "ex28",
-      "type": "fill-in-the-blank",
-      "question": "The decision ________ (announce) this morning.",
-      "answer": "was announced",
-      "explanation": "Past passive."
-    },
-    {
-      "id": "ex29",
-      "type": "multiple-choice",
-      "question": "What is an 'ETF'?",
-      "options": ["Electronic Tax Form", "Exchange-Traded Fund", "Early Transaction Fee", "Energy Trading Firm"],
-      "correctAnswer": 1,
-      "explanation": "Investment fund traded on stock exchanges."
-    },
-    {
-      "id": "ex30",
-      "type": "fill-in-the-blank",
-      "question": "If the audit ________ (reveal) fraud, we will act.",
-      "answer": "reveals",
-      "explanation": "First conditional."
-    },
-    {
-      "id": "ex31",
-      "type": "vocabulary-match",
-      "question": "Advanced nouns:",
-      "pairs": [
-        { "term": "Valuation", "definition": "Determining worth" },
-        { "term": "Acquisition", "definition": "Buying control" },
-        { "term": "Integration", "definition": "Combining systems" }
-      ]
-    },
-    {
-      "id": "ex32",
-      "type": "multiple-choice",
-      "question": "What is 'Economic Stagnation'?",
-      "options": ["Fast growth", "No growth/slow growth", "Hyperinflation", "A bank holiday"],
-      "correctAnswer": 1,
-      "explanation": "Prolonged period of little growth."
-    },
-    {
-      "id": "ex33",
-      "type": "fill-in-the-blank",
-      "question": "The strategy ________ (evaluate) every month.",
-      "answer": "is evaluated",
-      "explanation": "Present passive."
-    },
-    {
-      "id": "ex34",
-      "type": "multiple-choice",
-      "question": "What is 'Leverage'?",
-      "options": ["Using debt to increase returns", "Selling all assets", "A marketing term", "Employee training"],
-      "correctAnswer": 0,
-      "explanation": "Apalancamiento."
-    },
-    {
-      "id": "ex35",
-      "type": "fill-in-the-blank",
-      "question": "If they ________ (be) faster, they would have won the bid.",
-      "answer": "had been",
-      "explanation": "Third conditional."
-    },
-    {
-      "id": "ex36",
-      "type": "multiple-choice",
-      "question": "What is 'Protectionism'?",
-      "options": ["Free trade", "Restricting imports to help domestic industry", "Saving money", "Insurance"],
-      "correctAnswer": 1,
-      "explanation": "Opposite of free trade."
-    },
-    {
-      "id": "ex37",
-      "type": "fill-in-the-blank",
-      "question": "The report ________ (submit) by the deadline.",
-      "answer": "will have been submitted",
-      "explanation": "Future perfect passive."
-    },
-    {
-      "id": "ex38",
-      "type": "vocabulary-match",
-      "question": "Markets terms:",
-      "pairs": [
-        { "term": "Bullish", "definition": "Rising" },
-        { "term": "Bearish", "definition": "Falling" },
-        { "term": "Hawkish", "definition": "Aggressive (rates)" }
-      ]
-    },
-    {
-      "id": "ex39",
-      "type": "multiple-choice",
-      "question": "What is 'Solvency'?",
-      "options": ["Being able to pay long-term debts", "Short term cash", "Marketing", "Taxes"],
-      "correctAnswer": 0,
-      "explanation": "Long-term financial strength."
-    },
-    {
-      "id": "ex40",
-      "type": "fill-in-the-blank",
-      "question": "We ________ (expand) the business for several years.",
-      "answer": "have been expanding",
-      "explanation": "Present perfect continuous."
-    },
-    {
-      "id": "ex41",
-      "type": "multiple-choice",
-      "question": "What is 'Goodwill'?",
-      "options": ["A charity", "Value of a company beyond its tangible assets", "A type of tax", "A loan"],
-      "correctAnswer": 1,
-      "explanation": "Intangible asset in M&A."
-    },
-    {
-      "id": "ex42",
-      "type": "fill-in-the-blank",
-      "question": "The market ________ (recover) by next year.",
-      "answer": "will have recovered",
-      "explanation": "Future perfect."
-    },
-    {
-      "id": "ex43",
-      "type": "multiple-choice",
-      "question": "What is a 'Trade War'?",
-      "options": ["A physical war", "Conflict using tariffs and trade barriers", "A type of discount", "A bank branch"],
-      "correctAnswer": 1,
-      "explanation": "Economic conflict between nations."
-    },
-    {
-      "id": "ex44",
-      "type": "fill-in-the-blank",
-      "question": "The firm ________ (acquire) last month.",
-      "answer": "was acquired",
-      "explanation": "Past passive."
-    },
-    {
-      "id": "ex45",
-      "type": "vocabulary-match",
-      "question": "Acronyms review:",
-      "pairs": [
-        { "term": "M&A", "definition": "Mergers and Acquisitions" },
-        { "term": "LBO", "definition": "Leveraged Buyout" },
-        { "term": "ROI", "definition": "Return on Investment" }
-      ]
-    },
-    {
-      "id": "ex46",
-      "type": "multiple-choice",
-      "question": "What is 'Systemic Risk'?",
-      "options": ["Computer virus", "Risk of a total market collapse", "Risk of one shop closing", "A tax"],
-      "correctAnswer": 1,
-      "explanation": "Risk to the entire system."
-    },
-    {
-      "id": "ex47",
-      "type": "fill-in-the-blank",
-      "question": "I ________ (work) in this bank since 2010.",
-      "answer": "have been working",
-      "explanation": "Present perfect continuous."
-    },
-    {
-      "id": "ex48",
-      "type": "multiple-choice",
-      "question": "What is 'Amortization'?",
-      "options": ["Buying a car", "Spreading cost of intangible assets", "Saving cash", "Interest rate"],
-      "correctAnswer": 1,
-      "explanation": "Accounting for intangible assets."
-    },
-    {
-      "id": "ex49",
-      "type": "fill-in-the-blank",
-      "question": "If the deal ________ (close), we will celebrate.",
-      "answer": "closes",
-      "explanation": "First conditional."
-    },
-    {
-      "id": "ex50",
-      "type": "multiple-choice",
-      "question": "B2 track is complete. What is next?",
-      "options": ["C1 - Advanced Management", "C2 - Mastery", "Expert Level", "All of the above"],
-      "correctAnswer": 3,
-      "explanation": "Keep going!"
+      "id": "adm-b2-w32-ex05",
+      "type": "multipleChoice",
+      "prompt": "Exercise 5: Leadership Chunks. To 'align with strategic objectives' means:",
+      "options": [
+        "To disagree with the company's goals",
+        "To ensure that actions support the long-term plans of the organization",
+        "To change the goals every week",
+        "To ignore the objectives and follow your own plan"
+      ],
+      "answerIndex": 1,
+      "explanation": "Alignment ensures that all parts of the organization are working toward the same goals."
     }
   ]
 }

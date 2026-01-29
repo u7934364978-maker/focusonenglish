@@ -1,0 +1,37 @@
+{
+  "title": "Global Trade, Logistics & Supply Chain Management",
+  "sections": [
+    {
+      "id": "global-trade",
+      "title": "The Dynamics of International Trade",
+      "content": "Global trade involves the exchange of goods and services between countries. Logistics is the detailed coordination of a complex operation involving many people, facilities, or supplies. In administration, understanding Incoterms and customs regulations is crucial for smooth international operations.\n\n### Key Concepts:\n- **Incoterms (International Commercial Terms)**: A series of pre-defined commercial terms published by the International Chamber of Commerce (ICC) relating to international commercial law.\n- **Customs Clearance**: The process of passing goods through customs so that they can enter or leave a country.\n- **Freight Forwarding**: A service used by companies that import and export goods to arrange for the movement of cargo.\n- **Inventory Management**: The process of ordering, storing, using, and selling a company's inventory, including raw materials, components, and finished products."
+    },
+    {
+      "id": "phrase-bank",
+      "title": "PhraseBank: Trade & Logistics Chunks",
+      "content": "Use these chunks to discuss trade and logistics:\n\n1. **to facilitate cross-border trade** — \"The new agreement aims to facilitate cross-border trade by reducing tariffs.\"\n2. **to comply with customs regulations** — \"All shipments must comply with local customs regulations to avoid delays.\"\n3. **to optimize the supply chain** — \"Our goal is to optimize the supply chain to reduce lead times.\"\n4. **to track shipments in real-time** — \"The software allows us to track shipments in real-time across the globe.\"\n5. **to negotiate freight rates** — \"We are currently negotiating freight rates with several carriers.\"\n6. **to handle customs documentation** — \"The logistics department handles all necessary customs documentation.\"\n7. **to mitigate logistics risks** — \"Diversifying our suppliers helps mitigate potential logistics risks.\"\n8. **to improve delivery lead times** — \"Streamlining the warehouse processes will improve delivery lead times.\""
+    },
+    {
+      "id": "grammar-prepositions",
+      "title": "Grammar: Nouns & Verbs with Specific Prepositions",
+      "content": "In business English, using the correct preposition after a noun or verb is essential for precision and professional tone.\n\n### Verbs + Prepositions\n- **Comply with**: *The company must **comply with** all health and safety regulations.*\n- **Account for**: *Logistics costs **account for** 10% of our total expenditure.*\n- **Specialize in**: *They **specialize in** high-value electronics logistics.*\n- **Benefit from**: *We will **benefit from** reduced import duties.*\n\n### Nouns + Prepositions\n- **Demand for**: *There is a high **demand for** sustainable packaging.*\n- **Impact on**: *The port strike had a major **impact on** our delivery schedule.*\n- **Expertise in**: *Her **expertise in** customs law is invaluable to the firm.*\n- **Relationship between**: *The **relationship between** cost and speed is a key logistics trade-off.*"
+    },
+    {
+      "id": "deliverable",
+      "title": "Weekly Deliverable: Logistics Incident Report",
+      "content": "Write a short report (150-180 words) regarding a delay in an international shipment. Include:\n1. **Description of the shipment and the delay**.\n2. **Reason for the delay (e.g., customs issues, weather)**.\n3. **Actions taken to resolve the issue**.\n4. **Grammar Focus** (Use at least five correct verb/noun + preposition combinations, e.g., *comply with, impact on, demand for*)."
+    }
+  ],
+  "objectives": [
+    "Explain the importance of logistics and supply chain management in global trade",
+    "Identify key Incoterms and their role in international contracts",
+    "Apply correct prepositions after verbs and nouns in business contexts",
+    "Discuss strategies for optimizing international shipping and customs clearance"
+  ],
+  "keyTerms": [
+    { "term": "Lead Time", "definition": "The time between the initiation and completion of a production process." },
+    { "term": "Tariff", "definition": "A tax or duty to be paid on a particular class of imports or exports." },
+    { "term": "Carrier", "definition": "A person or company that undertakes the professional conveyance of goods or people." },
+    { "term": "Bill of Lading", "definition": "A detailed list of a shipment of goods in the form of a receipt given by the carrier to the person consigning the goods." }
+  ]
+}

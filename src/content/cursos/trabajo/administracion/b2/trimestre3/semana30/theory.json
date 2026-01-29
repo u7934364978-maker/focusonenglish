@@ -1,29 +1,37 @@
 {
-  "title": "Mergers and Acquisitions (M&A)",
+  "title": "Data Privacy & Cyber Security",
   "sections": [
     {
-      "id": "ma-intro",
-      "title": "The Strategic Logic of M&A",
-      "content": "M&A refers to the consolidation of companies or assets through various types of financial transactions.\n\n- **Merger**: The voluntary fusion of two companies on roughly equal terms into one new legal entity.\n- **Acquisition**: When one company purchases most or all of another company's shares to gain control of it.\n- **Takeover**: Similar to an acquisition, but often refers to a larger company purchasing a smaller one (can be friendly or hostile).\n- **Synergy**: The concept that the combined value and performance of two companies will be greater than the sum of the separate individual parts."
+      "id": "data-privacy",
+      "title": "Protecting Information Assets",
+      "content": "Data privacy and cyber security are critical in modern administration. With the rise of digital systems and remote work, administrators must ensure that personal and corporate data is handled securely and in compliance with laws like GDPR.\n\n### Key Concepts:\n- **GDPR (General Data Protection Regulation)**: EU/UK law on data protection and privacy.\n- **Encryption**: Encoding information so only authorized parties can access it.\n- **Phishing**: Fraudulent attempts to obtain sensitive information by posing as a trustworthy entity.\n- **Data Breach**: The unauthorized access or disclosure of confidential data.\n- **ISO 27001**: An international standard for managing information security."
     },
     {
-      "id": "ma-process",
-      "title": "The M&A Lifecycle",
-      "content": "A typical M&A deal involves several critical stages:\n\n- **Due Diligence**: An investigation or audit of a potential investment or product to confirm all facts.\n- **Valuation**: Determining the current worth of an asset or a company.\n- **Target Company**: The company that another company is trying to buy or merge with.\n- **Integration**: The process of combining the operations, cultures, and systems of two companies after a merger."
+      "id": "phrase-bank",
+      "title": "PhraseBank: Security & Privacy Chunks",
+      "content": "Use these chunks to discuss security professionally:\n\n1. **to ensure data integrity** — \"We use encryption to ensure data integrity during transmission.\"\n2. **to comply with GDPR** — \"Our new policy ensures we fully comply with GDPR.\"\n3. **to report a security breach** — \"Staff must report any suspected security breach within 24 hours.\"\n4. **to implement multi-factor authentication (MFA)** — \"We are implementing MFA for all remote access.\"\n5. **to conduct a privacy impact assessment (PIA)** — \"A PIA is required for all new data projects.\"\n6. **to be vulnerable to a cyberattack** — \"Legacy systems are often more vulnerable to a cyberattack.\"\n7. **to encrypt sensitive files** — \"Please ensure you encrypt all sensitive files before emailing them.\"\n8. **to raise security awareness** — \"We are running a workshop to raise security awareness among staff.\""
     },
     {
-      "id": "grammar-passive-reporting-advanced",
-      "title": "Language Focus: Advanced Passive Structures & Nominalization",
-      "content": "Professional M&A reports use formal, objective language.\n\n- **Advanced Passive**: \n  - 'The deal **is expected** to be finalized by Q4.'\n  - 'It **is believed** that the synergy will save millions.'\n- **Nominalization (Turning verbs into nouns)**:\n  - Instead of 'We integrated the teams,' use '**The integration** of the teams was successful.'\n  - Instead of 'They valued the firm at $1B,' use '**The valuation** of the firm reached $1B.'"
+      "id": "grammar-relative-clauses",
+      "title": "Grammar: Advanced & Reduced Relative Clauses",
+      "content": "Relative clauses provide extra information about a noun. At a B2 level, we use advanced structures and reduced clauses for more concise, professional writing.\n\n### Non-Defining Clauses with 'Whom' and 'Whose'\n- **The Data Protection Officer, whom** you met yesterday, is reviewing the policy. (Whom is the object of the clause).\n- **The company, whose** headquarters are in London, has faced several cyberattacks.\n\n### Reduced Relative Clauses (Participle Phrases)\nInstead of using 'who', 'which', or 'that', we can use a participle to make sentences shorter.\n- **Active**: *The staff members **using** (who use) weak passwords are at risk.*\n- **Passive**: *The data **stolen** (which was stolen) in the breach has been recovered.*\n- **Prepositional**: *The files **on the server** (that are on the server) are all encrypted.*"
+    },
+    {
+      "id": "deliverable",
+      "title": "Weekly Deliverable: Data Security Memo",
+      "content": "Draft a 'Data Security Reminder' for all staff members. Include:\n1. **Purpose of the memo** (Raising security awareness).\n2. **Best practices for password management and phishing**.\n3. **Procedures for reporting breaches**.\n4. **Grammar Focus** (Use at least two reduced relative clauses, e.g., *Staff members working remotely must...*)."
     }
   ],
   "objectives": [
-    "Distinguish between mergers, acquisitions, and takeovers",
-    "Understand the importance of synergy and due diligence",
-    "Apply formal nominalization and passive reporting in business writing"
+    "Explain the core principles of GDPR and ISO 27001",
+    "Identify common cyber security threats and prevention methods",
+    "Apply advanced and reduced relative clauses in security policies",
+    "Communicate data privacy requirements clearly to stakeholders"
   ],
   "keyTerms": [
-    { "term": "Synergy", "definition": "The interaction or cooperation of two or more organizations to produce a combined effect greater than the sum of their separate effects." },
-    { "term": "Hostile Takeover", "definition": "The acquisition of one company by another that is accomplished by going directly to the target company's shareholders or fighting to replace management." }
+    { "term": "GDPR", "definition": "General Data Protection Regulation: a legal framework that sets guidelines for the collection and processing of personal information from individuals who live in the European Union and UK." },
+    { "term": "Phishing", "definition": "The fraudulent practice of sending emails purporting to be from reputable companies in order to induce individuals to reveal personal information." },
+    { "term": "Encryption", "definition": "The process of converting information or data into a code, especially to prevent unauthorized access." },
+    { "term": "Integrity", "definition": "The quality of being honest and having strong moral principles; in data, it refers to the accuracy and consistency of data over its lifecycle." }
   ]
 }

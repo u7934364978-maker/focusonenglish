@@ -1,398 +1,69 @@
 {
-  "title": "Exercises: Global Economy and Markets",
-  "exercises": [
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 3,
+  "weekId": "semana31",
+  "title": "Exercises: Customer Experience (CX) & CRM Management",
+  "items": [
     {
-      "id": "ex1",
-      "type": "multiple-choice",
-      "question": "What is 'GDP'?",
-      "options": ["General Debt Percentage", "Gross Domestic Product", "Global Deposit Price", "Government Debt Policy"],
-      "correctAnswer": 1,
-      "explanation": "Total value of goods/services produced in a country."
-    },
-    {
-      "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "By 2030, many emerging markets ________ (overtake) developed ones.",
-      "answer": "will have overtaken",
-      "explanation": "Future perfect (will have + past participle)."
-    },
-    {
-      "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the economic terms:",
-      "pairs": [
-        { "term": "Inflation", "definition": "Rising prices" },
-        { "term": "Deflation", "definition": "Falling prices" },
-        { "term": "Stagnation", "definition": "No growth" }
+      "id": "adm-b2-w31-ex01",
+      "type": "reading-comprehension",
+      "title": "Exercise 1: CRM Implementation Update",
+      "text": "Strategy Brief: Q4 CRM Migration\n\nNext quarter, we will be transitioning to a new omnichannel CRM platform. This move is designed to enhance our customer journey and reduce the friction at key touchpoints. \n\nBy December 31st, we will have migrated all active customer records from the legacy system. During the transition, the support team will be monitoring the churn rate closely to ensure no customers are lost. \n\nBy this time next year, we will have been using the new system for 12 months, and we expect that our NPS will have increased by at least 15 points. We will be providing training sessions throughout October.",
+      "questions": [
+        {
+          "question": "When will the migration of customer records be finished?",
+          "options": ["In October", "By December 31st", "Next year"],
+          "answerIndex": 1,
+          "explanation": "The text states: 'By December 31st, we will have migrated all active customer records'."
+        },
+        {
+          "question": "Which verb tense is used to describe an action that will be ongoing in October?",
+          "options": ["Future Perfect", "Future Continuous", "Present Simple"],
+          "answerIndex": 1,
+          "explanation": "'We will be providing training sessions' is future continuous, describing an ongoing action."
+        }
       ]
     },
     {
-      "id": "ex4",
-      "type": "multiple-choice",
-      "question": "What is 'Monetary Policy'?",
-      "options": ["How much money I have", "Central bank actions to control money supply", "Government spending on schools", "A type of insurance"],
-      "correctAnswer": 1,
-      "explanation": "Involves interest rates and money supply."
+      "id": "adm-b2-w31-ex02",
+      "type": "multipleChoice",
+      "prompt": "Exercise 2: CX Vocabulary. What does 'NPS' measure?",
+      "options": [
+        "Net Profit Share",
+        "New Product Success",
+        "Net Promoter Score",
+        "Negative Point System"
+      ],
+      "answerIndex": 2,
+      "explanation": "NPS is a metric for customer loyalty and satisfaction."
     },
     {
-      "id": "ex5",
-      "type": "fill-in-the-blank",
-      "question": "The central bank ________ (increase) rates several times by the end of the year.",
-      "answer": "will have increased",
-      "explanation": "Future perfect."
+      "id": "adm-b2-w31-ex03",
+      "type": "writingTask",
+      "prompt": "Exercise 3: Future Perfect. Complete the sentence: 'By the time the manager arrives, the team ____ (finalize) the NPS report.'",
+      "modelAnswer": "By the time the manager arrives, the team will have finalized the NPS report.",
+      "keywords": ["will have finalized"]
     },
     {
-      "id": "ex6",
-      "type": "multiple-choice",
-      "question": "What is an 'Emerging Market'?",
-      "options": ["A farmers market", "A developing economy with high growth potential", "A market that is closing", "A type of bank"],
-      "correctAnswer": 1,
-      "explanation": "Countries like India, Brazil, etc."
+      "id": "adm-b2-w31-ex04",
+      "type": "writingTask",
+      "prompt": "Exercise 4: Future Continuous. Complete the sentence: 'This time tomorrow, I ____ (train) the new staff on the CRM software.'",
+      "modelAnswer": "This time tomorrow, I will be training the new staff on the CRM software.",
+      "keywords": ["will be training"]
     },
     {
-      "id": "ex7",
-      "type": "fill-in-the-blank",
-      "question": "By the time we finish the report, the market ________ (close).",
-      "answer": "will have closed",
-      "explanation": "Future perfect."
-    },
-    {
-      "id": "ex8",
-      "type": "vocabulary-match",
-      "question": "Trade terms:",
-      "pairs": [
-        { "term": "Tariff", "definition": "Tax on imports" },
-        { "term": "Quota", "definition": "Limit on imports" },
-        { "term": "Subsidy", "definition": "Financial support for domestic firms" }
-      ]
-    },
-    {
-      "id": "ex9",
-      "type": "multiple-choice",
-      "question": "What is 'Protectionism'?",
-      "options": ["Protecting people from theft", "Shielding domestic industries from foreign competition", "A type of insurance", "Saving money"],
-      "correctAnswer": 1,
-      "explanation": "Using tariffs and quotas to limit imports."
-    },
-    {
-      "id": "ex10",
-      "type": "fill-in-the-blank",
-      "question": "The world ________ (reach) a new trade agreement by next July.",
-      "answer": "will have reached",
-      "explanation": "Future perfect."
-    },
-    {
-      "id": "ex11",
-      "type": "multiple-choice",
-      "question": "What is a 'Trade War'?",
-      "options": ["A war with weapons", "Countries damaging each other's trade through tariffs", "A type of marketing", "A competition between shops"],
-      "correctAnswer": 1,
-      "explanation": "Economic conflict between nations."
-    },
-    {
-      "id": "ex12",
-      "type": "fill-in-the-blank",
-      "question": "It is ________ (highly/slim) likely that inflation will rise.",
-      "answer": "highly",
-      "explanation": "Adverb of degree for probability."
-    },
-    {
-      "id": "ex13",
-      "type": "multiple-choice",
-      "question": "What is 'Fiscal Policy'?",
-      "options": ["Central bank actions", "Government spending and tax policies", "A type of bank loan", "Corporate strategy"],
-      "correctAnswer": 1,
-      "explanation": "Managed by the government (Ministry of Finance)."
-    },
-    {
-      "id": "ex14",
-      "type": "fill-in-the-blank",
-      "question": "There is a ________ (slim/high) chance of a global recession.",
-      "answer": "slim",
-      "explanation": "Indicating low probability."
-    },
-    {
-      "id": "ex15",
-      "type": "vocabulary-match",
-      "question": "Central Bank roles:",
-      "pairs": [
-        { "term": "Interest rates", "definition": "Setting cost of borrowing" },
-        { "term": "Money supply", "definition": "Printing currency" },
-        { "term": "Lender of last resort", "definition": "Helping failing banks" }
-      ]
-    },
-    {
-      "id": "ex16",
-      "type": "multiple-choice",
-      "question": "What is 'Quantitative Easing (QE)'?",
-      "options": ["Counting money", "Central bank buying securities to increase money supply", "A type of tax", "Cutting costs"],
-      "correctAnswer": 1,
-      "explanation": "Unconventional monetary policy."
-    },
-    {
-      "id": "ex17",
-      "type": "fill-in-the-blank",
-      "question": "Prices ________ (rise) by 5% by next year.",
-      "answer": "will have risen",
-      "explanation": "Future perfect."
-    },
-    {
-      "id": "ex18",
-      "type": "multiple-choice",
-      "question": "What is 'Supply Chain'?",
-      "options": ["A chain for bikes", "Network involved in creating and selling a product", "A type of bank loan", "Market research"],
-      "correctAnswer": 1,
-      "explanation": "From raw materials to final consumer."
-    },
-    {
-      "id": "ex19",
-      "type": "fill-in-the-blank",
-      "question": "They ________ (find) a solution by the next summit.",
-      "answer": "will have found",
-      "explanation": "Future perfect."
-    },
-    {
-      "id": "ex20",
-      "type": "multiple-choice",
-      "question": "What is 'Hyperinflation'?",
-      "options": ["Low inflation", "Extremely rapid and out of control inflation", "Prices going down", "Economic growth"],
-      "correctAnswer": 1,
-      "explanation": "Usually >50% per month."
-    },
-    {
-      "id": "ex21",
-      "type": "fill-in-the-blank",
-      "question": "It ________ (expect) that the economy will grow.",
-      "answer": "is expected",
-      "explanation": "Passive reporting."
-    },
-    {
-      "id": "ex22",
-      "type": "vocabulary-match",
-      "question": "Global organizations:",
-      "pairs": [
-        { "term": "IMF", "definition": "International Monetary Fund" },
-        { "term": "WTO", "definition": "World Trade Organization" },
-        { "term": "FED", "definition": "Federal Reserve (US)" }
-      ]
-    },
-    {
-      "id": "ex23",
-      "type": "multiple-choice",
-      "question": "What is a 'Recession'?",
-      "options": ["A period of high growth", "A period of temporary economic decline", "A type of bank loan", "A tax"],
-      "correctAnswer": 1,
-      "explanation": "Usually two consecutive quarters of negative GDP growth."
-    },
-    {
-      "id": "ex24",
-      "type": "fill-in-the-blank",
-      "question": "We ________ (complete) the transition by Q4.",
-      "answer": "will have completed",
-      "explanation": "Future perfect."
-    },
-    {
-      "id": "ex25",
-      "type": "multiple-choice",
-      "question": "What is 'Globalization'?",
-      "options": ["Traveling around the world", "Integration of economies and cultures", "Buying a new globe", "A type of tax"],
-      "correctAnswer": 1,
-      "explanation": "Increased international trade and cooperation."
-    },
-    {
-      "id": "ex26",
-      "type": "fill-in-the-blank",
-      "question": "The currency ________ (lose) value by then.",
-      "answer": "will have lost",
-      "explanation": "Future perfect."
-    },
-    {
-      "id": "ex27",
-      "type": "multiple-choice",
-      "question": "What is 'Austerity'?",
-      "options": ["Spending more money", "Policies to reduce government budget deficits (cutting spending)", "A type of party", "Stock market growth"],
-      "correctAnswer": 1,
-      "explanation": "Often involves tax hikes and spending cuts."
-    },
-    {
-      "id": "ex28",
-      "type": "fill-in-the-blank",
-      "question": "It ________ (believe) that globalization is slowing down.",
-      "answer": "is believed",
-      "explanation": "Passive reporting."
-    },
-    {
-      "id": "ex29",
-      "type": "multiple-choice",
-      "question": "What is 'Sanction'?",
-      "options": ["A type of celebration", "A penalty or restriction applied by one country to another", "A bank loan", "A tax"],
-      "correctAnswer": 1,
-      "explanation": "Used as a diplomatic/economic tool."
-    },
-    {
-      "id": "ex30",
-      "type": "fill-in-the-blank",
-      "question": "By 2025, inflation ________ (stabilize).",
-      "answer": "will have stabilized",
-      "explanation": "Future perfect."
-    },
-    {
-      "id": "ex31",
-      "type": "vocabulary-match",
-      "question": "Exchange rates:",
-      "pairs": [
-        { "term": "Fixed", "definition": "Set by government" },
-        { "term": "Floating", "definition": "Set by market" },
-        { "term": "Appreciation", "definition": "Increase in value" }
-      ]
-    },
-    {
-      "id": "ex32",
-      "type": "multiple-choice",
-      "question": "What is 'Balance of Trade'?",
-      "options": ["Total bank balance", "Difference between a country's exports and imports", "CEO's salary", "Tax rate"],
-      "correctAnswer": 1,
-      "explanation": "Export - Import."
-    },
-    {
-      "id": "ex33",
-      "type": "fill-in-the-blank",
-      "question": "Companies ________ (move) their production by next year.",
-      "answer": "will have moved",
-      "explanation": "Future perfect."
-    },
-    {
-      "id": "ex34",
-      "type": "multiple-choice",
-      "question": "What is 'Outsourcing'?",
-      "options": ["Buying local products", "Obtaining goods or services from an outside or foreign supplier", "A type of tax", "A bank holiday"],
-      "correctAnswer": 1,
-      "explanation": "Often used to reduce costs."
-    },
-    {
-      "id": "ex35",
-      "type": "fill-in-the-blank",
-      "question": "There is a ________ (slight/strong) possibility of change.",
-      "answer": "strong",
-      "explanation": "Adjective for probability."
-    },
-    {
-      "id": "ex36",
-      "type": "multiple-choice",
-      "question": "What is 'Petrodollar'?",
-      "options": ["A dollar with oil on it", "US dollars earned through the sale of oil", "A type of tax", "A bank branch"],
-      "correctAnswer": 1,
-      "explanation": "Significant for global currency reserves."
-    },
-    {
-      "id": "ex37",
-      "type": "fill-in-the-blank",
-      "question": "The debt ________ (repay) by 2040.",
-      "answer": "will have been repaid",
-      "explanation": "Future perfect passive."
-    },
-    {
-      "id": "ex38",
-      "type": "vocabulary-match",
-      "question": "Market trends:",
-      "pairs": [
-        { "term": "Bearish", "definition": "Expecting decline" },
-        { "term": "Bullish", "definition": "Expecting growth" },
-        { "term": "Hawkish", "definition": "Supporting high interest rates" }
-      ]
-    },
-    {
-      "id": "ex39",
-      "type": "multiple-choice",
-      "question": "What is 'Brain Drain'?",
-      "options": ["A medical condition", "Emigration of highly trained or intelligent people", "A type of tax", "Ignoring new ideas"],
-      "correctAnswer": 1,
-      "explanation": "Challenge for emerging markets."
-    },
-    {
-      "id": "ex40",
-      "type": "fill-in-the-blank",
-      "question": "Experts ________ (predict) a new digital era.",
-      "answer": "predict",
-      "explanation": "Forecasting verb."
-    },
-    {
-      "id": "ex41",
-      "type": "multiple-choice",
-      "question": "What is 'Microfinance'?",
-      "options": ["Lending small amounts to people in developing countries", "Buying a small bank", "A type of tax", "Counting coins"],
-      "correctAnswer": 0,
-      "explanation": "Aimed at financial inclusion."
-    },
-    {
-      "id": "ex42",
-      "type": "fill-in-the-blank",
-      "question": "The population ________ (grow) by 10% by then.",
-      "answer": "will have grown",
-      "explanation": "Future perfect."
-    },
-    {
-      "id": "ex43",
-      "type": "multiple-choice",
-      "question": "What is a 'Tax Haven'?",
-      "options": ["A place where taxes are high", "A country with low or no taxes for foreign investors", "A bank branch", "A type of insurance"],
-      "correctAnswer": 1,
-      "explanation": "Often used for offshore financial centers."
-    },
-    {
-      "id": "ex44",
-      "type": "fill-in-the-blank",
-      "question": "Government ________ (reduce) spending by $1B by next year.",
-      "answer": "will have reduced",
-      "explanation": "Future perfect."
-    },
-    {
-      "id": "ex45",
-      "type": "vocabulary-match",
-      "question": "Economic indicators:",
-      "pairs": [
-        { "term": "Unemployment rate", "definition": "Jobless percentage" },
-        { "term": "CPI", "definition": "Consumer Price Index" },
-        { "term": "PPP", "definition": "Purchasing Power Parity" }
-      ]
-    },
-    {
-      "id": "ex46",
-      "type": "multiple-choice",
-      "question": "What is 'Sovereign Wealth Fund (SWF)'?",
-      "options": ["A king's bank account", "State-owned investment fund", "A type of tax", "Personal savings"],
-      "correctAnswer": 1,
-      "explanation": "Funded by state reserves."
-    },
-    {
-      "id": "ex47",
-      "type": "fill-in-the-blank",
-      "question": "We ________ (see) the results by Tuesday.",
-      "answer": "will have seen",
-      "explanation": "Future perfect."
-    },
-    {
-      "id": "ex48",
-      "type": "multiple-choice",
-      "question": "What is 'Devaluation'?",
-      "options": ["Increase in currency value", "Deliberate downward adjustment of a currency value", "Economic growth", "A bank holiday"],
-      "correctAnswer": 1,
-      "explanation": "Often done by governments to boost exports."
-    },
-    {
-      "id": "ex49",
-      "type": "fill-in-the-blank",
-      "question": "Technology ________ (transform) banking by 2035.",
-      "answer": "will have transformed",
-      "explanation": "Future perfect."
-    },
-    {
-      "id": "ex50",
-      "type": "multiple-choice",
-      "question": "The global economy is...",
-      "options": ["Independent", "Interdependent", "Simple", "Ignoring tech"],
-      "correctAnswer": 1,
-      "explanation": "Countries rely on each other for trade and stability."
+      "id": "adm-b2-w31-ex05",
+      "type": "multipleChoice",
+      "prompt": "Exercise 5: CX Chunks. To 'reduce the churn rate' means:",
+      "options": [
+        "To increase the number of customers leaving",
+        "To decrease the percentage of customers who stop using the service",
+        "To buy a new butter churn for the kitchen",
+        "To fire the customer service manager"
+      ],
+      "answerIndex": 1,
+      "explanation": "Churn reduction is about improving customer retention."
     }
   ]
 }

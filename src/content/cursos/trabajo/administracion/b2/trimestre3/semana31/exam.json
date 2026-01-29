@@ -3,48 +3,73 @@
   "level": "B2",
   "trimester": 3,
   "weekId": "semana31",
-  "examId": "fin-b2-w31-exam",
-  "title": "Exam: Global Economy and Markets",
+  "examId": "adm-b2-w31-exam",
+  "title": "Exam: Customer Experience (CX) & CRM Management",
   "items": [
     {
-      "id": "fin-b2-w31-exam-1",
+      "id": "adm-b2-w31-exam-1",
       "type": "multipleChoice",
-      "prompt": "By next year, the inflation rate ________ (hopefully/stabilize).",
-      "options": ["will stabilize", "will have stabilized", "is stabilizing", "has stabilized"],
+      "prompt": "What is a 'touchpoint' in a customer journey?",
+      "options": [
+        "A physical button on a machine",
+        "Any interaction between a customer and the business",
+        "A fingerprint scanner",
+        "The end of a contract"
+      ],
       "answerIndex": 1,
-      "explanation": "Future Perfect for a hoped-for completed state in the future."
+      "explanation": "Touchpoints include emails, calls, website visits, and in-person interactions."
     },
     {
-      "id": "fin-b2-w31-exam-2",
+      "id": "adm-b2-w31-exam-2",
       "type": "multipleChoice",
-      "prompt": "What is 'GDP' (Gross Domestic Product)?",
-      "options": ["The total profit of all banks", "The market value of all final goods and services produced in a country", "The government's annual budget", "The total amount of debt in a nation"],
+      "prompt": "Choose the correct Future Perfect sentence:",
+      "options": [
+        "By Friday, we will be finishing the audit.",
+        "By Friday, we will have finished the audit.",
+        "By Friday, we finish the audit.",
+        "By Friday, we will finishing the audit."
+      ],
       "answerIndex": 1,
-      "explanation": "GDP is the primary indicator of economic health and size."
+      "explanation": "Future Perfect (will have + past participle) describes a completed action in the future."
     },
     {
-      "id": "fin-b2-w31-exam-3",
+      "id": "adm-b2-w31-exam-3",
       "type": "multipleChoice",
-      "prompt": "Economic analysts ________ (watch) the Fed's next move closely.",
-      "options": ["will be watching", "will have watched", "have been watched", "watch"],
-      "answerIndex": 0,
-      "explanation": "Future Continuous for an ongoing future activity."
+      "prompt": "What does a high 'churn rate' indicate?",
+      "options": [
+        "High customer loyalty",
+        "Many customers are leaving the company",
+        "The company is making a lot of profit",
+        "The CRM is working perfectly"
+      ],
+      "answerIndex": 1,
+      "explanation": "Churn rate measures the loss of customers."
     },
     {
-      "id": "fin-b2-w31-exam-4",
+      "id": "adm-b2-w31-exam-4",
       "type": "multipleChoice",
-      "prompt": "An 'Emerging Market' is a country that:",
-      "options": ["Is already fully developed", "Has some characteristics of a developed market but is not yet there", "Does not allow foreign investment", "Is currently in a state of civil war"],
+      "prompt": "Complete the Future Continuous sentence: 'Don't call me at 2 PM; I ____ a CRM demo for the board.'",
+      "options": [
+        "will have given",
+        "will be giving",
+        "will give",
+        "give"
+      ],
       "answerIndex": 1,
-      "explanation": "Emerging markets offer high growth potential but also higher risk."
+      "explanation": "Future Continuous is used for actions that will be in progress at a specific time."
     },
     {
-      "id": "fin-b2-w31-exam-5",
+      "id": "adm-b2-w31-exam-5",
       "type": "multipleChoice",
-      "prompt": "By 2040, renewable energy ________ (likely/overtake) fossil fuels.",
-      "options": ["will overtake", "will have overtaken", "is overtaking", "has overtaken"],
+      "prompt": "What is 'omnichannel' support?",
+      "options": [
+        "Support provided only via phone",
+        "Seamless support across multiple communication channels",
+        "A support team that works 24/7",
+        "Support provided by a single person"
+      ],
       "answerIndex": 1,
-      "explanation": "Future Perfect for a predicted long-term shift."
+      "explanation": "Omnichannel means integrating various channels (email, social media, chat) for a consistent experience."
     }
   ]
 }

@@ -1,29 +1,37 @@
 {
-  "title": "B2 Review and Consolidation",
+  "title": "Strategic Leadership & Corporate Governance",
   "sections": [
     {
-      "id": "b2-summary",
-      "title": "Trimester 3 Overview",
-      "content": "You have reached the end of the B2 Banking & Finance track. Let's consolidate the advanced concepts covered:\n\n1. **Advanced Banking**: Basel Accords, stress testing, and capital requirements.\n2. **Asset Management**: Allocation, active vs. passive strategies, and alpha.\n3. **Corporate Strategy**: M&A, valuations, and synergies.\n4. **Risk & Economy**: Global macroeconomic trends and sophisticated risk mitigation."
+      "id": "leadership-gov",
+      "title": "Leading with Accountability",
+      "content": "Strategic leadership involves the ability to anticipate, envision, maintain flexibility, and empower others to create strategic change. Corporate governance is the system of rules, practices, and processes by which a company is directed and controlled.\n\n### Key Concepts:\n- **The Board of Directors**: The primary body responsible for corporate governance.\n- **Fiduciary Duty**: The legal obligation to act in the best interest of the shareholders.\n- **Transparency**: The disclosure of relevant information to stakeholders.\n- **ESG (Environmental, Social, and Governance)**: A set of standards for a company's operations that socially conscious investors use to screen potential investments.\n- **Compliance**: Adhering to laws, regulations, guidelines, and specifications relevant to the business."
     },
     {
-      "id": "grammar-review-b2",
-      "title": "Advanced Grammar Review",
-      "content": "Mastering these structures is key for C1 proficiency:\n\n- **Conditionals**: Third and Mixed conditionals for complex analysis.\n- **Passive Voice**: Advanced structures for objective reporting.\n- **Tenses**: Present Perfect Continuous and Future Perfect for trends and milestones.\n- **Formal Writing**: Nominalization and professional reporting verbs."
+      "id": "phrase-bank",
+      "title": "PhraseBank: Leadership & Governance Chunks",
+      "content": "Use these chunks to discuss leadership and governance professionally:\n\n1. **to uphold high standards of governance** — \"The board is committed to upholding high standards of governance.\"\n2. **to discharge fiduciary duties** — \"Directors must discharge their fiduciary duties with care and diligence.\"\n3. **to ensure board accountability** — \"Transparent reporting is essential to ensure board accountability.\"\n4. **to implement an ESG strategy** — \"We are in the process of implementing a comprehensive ESG strategy.\"\n5. **to align with strategic objectives** — \"All new projects must align with our core strategic objectives.\"\n6. **to exercise oversight** — \"The audit committee exercises oversight over financial reporting.\"\n7. **to mitigate ethical risks** — \"A strong code of conduct helps mitigate ethical risks.\"\n8. **to foster a culture of integrity** — \"Leadership's priority is to foster a culture of integrity throughout the firm.\""
     },
     {
-      "id": "professional-outlook",
-      "title": "Looking Ahead to C1",
-      "content": "At C1 level, you will analyze complex derivatives, ethical finance (ESG), and engage in high-level macroeconomic debates. Your technical English is now at a professional management level."
+      "id": "grammar-contrast",
+      "title": "Grammar: Advanced Connectors of Contrast & Concession",
+      "content": "When discussing complex leadership decisions or governance challenges, we use advanced connectors to show contrast or to concede a point while maintaining the main argument.\n\n### Contrast\n- **Whereas/While**: *The UK operations are profitable, **whereas** the European branch is struggling.* (Direct contrast).\n- **Conversely**: *Small firms often lack resources. **Conversely**, they are often more agile.* (Opposite idea).\n\n### Concession (Accepting one point but emphasizing another)\n- **Albeit**: *The transition was successful, **albeit** slower than expected.* (Albeit + adjective/adverb).\n- **Notwithstanding**: ***Notwithstanding** the current economic climate, the company plans to expand.* (Despite the fact).\n- **In spite of the fact that**: *He was appointed CEO **in spite of the fact that** he had no prior experience in the sector.*\n- **Even so**: *The project faced many hurdles. **Even so**, the team met the deadline.*"
+    },
+    {
+      "id": "deliverable",
+      "title": "Weekly Deliverable: Governance Statement Summary",
+      "content": "Draft a 'Corporate Governance Statement' (150-180 words) for an annual report. Include:\n1. **Commitment to transparency and accountability**.\n2. **Board structure and fiduciary duties**.\n3. **Approach to ESG**.\n4. **Grammar Focus** (Use at least three advanced connectors of contrast or concession, e.g., *albeit, notwithstanding, whereas*)."
     }
   ],
   "objectives": [
-    "Review and synthesize advanced financial concepts and vocabulary",
-    "Demonstrate mastery of complex grammatical structures in a professional context",
-    "Prepare for the transition to the C1 advanced level"
+    "Define corporate governance and the role of the Board of Directors",
+    "Explain the concept of fiduciary duty and its legal implications",
+    "Apply advanced connectors of contrast and concession in formal reports",
+    "Discuss the importance of ESG in modern corporate leadership"
   ],
   "keyTerms": [
-    { "term": "Consolidation", "definition": "The process of uniting several things into a single more effective or coherent whole." },
-    { "term": "Strategic", "definition": "Relating to the identification of long-term or overall aims and interests and the means of achieving them." }
+    { "term": "Fiduciary", "definition": "Involving trust, especially with regard to the relationship between a trustee and a beneficiary." },
+    { "term": "ESG", "definition": "Environmental, Social, and Governance: a framework used to assess an organisation's business practices and performance on various sustainability and ethical issues." },
+    { "term": "Transparency", "definition": "The quality of being open and honest in business dealings and communication." },
+    { "term": "Accountability", "definition": "The obligation of an individual or organisation to account for its activities, accept responsibility for them, and disclose the results in a transparent manner." }
   ]
 }

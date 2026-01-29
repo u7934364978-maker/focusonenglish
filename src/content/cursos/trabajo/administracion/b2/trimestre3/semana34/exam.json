@@ -1,0 +1,98 @@
+{
+  "title": "Week 34 Assessment: Global Trade & Logistics",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What are Incoterms?",
+      "options": [
+        "Internal accounting terms",
+        "International Commercial Terms for trade",
+        "Taxes on imported services",
+        "Types of freight insurance"
+      ],
+      "answer": "International Commercial Terms for trade"
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What does 'Lead Time' refer to?",
+      "options": [
+        "The time the leader spends in meetings",
+        "The total time from order to delivery",
+        "The weight of the shipment",
+        "The cost of the materials"
+      ],
+      "answer": "The total time from order to delivery"
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which preposition follows 'comply'?",
+      "options": ["to", "for", "with", "by"],
+      "answer": "with"
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Identify the correct combination: 'The demand ______ skilled logistics managers is rising.'",
+      "options": ["of", "for", "on", "in"],
+      "answer": "for"
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "What is a 'Bill of Lading'?",
+      "options": [
+        "A final invoice for the customer",
+        "A document detailing the cargo and its destination",
+        "A permit to export restricted goods",
+        "A certificate of origin"
+      ],
+      "answer": "A document detailing the cargo and its destination"
+    },
+    {
+      "id": "q6",
+      "type": "fill-in-the-blank",
+      "question": "They specialize ______ (in / on) international maritime law.",
+      "answer": "in"
+    },
+    {
+      "id": "q7",
+      "type": "fill-in-the-blank",
+      "question": "The port congestion had a negative impact ______ (at / on) our quarterly results.",
+      "answer": "on"
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "What is 'Customs Clearance'?",
+      "options": [
+        "Cleaning the customs office",
+        "The process of getting goods through a border",
+        "Paying all company taxes",
+        "Hiring new warehouse staff"
+      ],
+      "answer": "The process of getting goods through a border"
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "Which verb means to 'explain' or 'be the cause of'?",
+      "options": ["Account for", "Benefit from", "Specialize in", "Comply with"],
+      "answer": "Account for"
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "A 'Freight Forwarder' is responsible for ______.",
+      "options": [
+        "Manufacturing the products",
+        "Arranging the transportation of goods",
+        "Selling the goods to the end consumer",
+        "Designing the packaging"
+      ],
+      "answer": "Arranging the transportation of goods"
+    }
+  ]
+}

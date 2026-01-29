@@ -3,48 +3,73 @@
   "level": "B2",
   "trimester": 3,
   "weekId": "semana30",
-  "examId": "fin-b2-w30-exam",
-  "title": "Exam: Mergers and Acquisitions (M&A)",
+  "examId": "adm-b2-w30-exam",
+  "title": "Exam: Data Privacy & Cyber Security",
   "items": [
     {
-      "id": "fin-b2-w30-exam-1",
+      "id": "adm-b2-w30-exam-1",
       "type": "multipleChoice",
-      "prompt": "The deal ________ (expect/approve) by the competition authority next week.",
-      "options": ["is expected to be approved", "expects to approve", "is expected to approve", "expects to be approved"],
+      "prompt": "What does 'MFA' stand for in cyber security?",
+      "options": [
+        "Multi-Factor Authentication",
+        "Main File Archive",
+        "Managed Firewall Access",
+        "Mobile Finance Application"
+      ],
       "answerIndex": 0,
-      "explanation": "Advanced passive structure: is + expected + to be + past participle."
+      "explanation": "MFA requires more than one method of authentication from independent categories of credentials."
     },
     {
-      "id": "fin-b2-w30-exam-2",
+      "id": "adm-b2-w30-exam-2",
       "type": "multipleChoice",
-      "prompt": "What is 'Due Diligence'?",
-      "options": ["A type of tax", "The comprehensive appraisal of a business by a prospective buyer", "A bank manager's duty", "Paying dividends to shareholders"],
+      "prompt": "Choose the correct reduced relative clause: 'The policy ____ by the board last week is now in effect.'",
+      "options": [
+        "approving",
+        "approved",
+        "which approve",
+        "approve"
+      ],
       "answerIndex": 1,
-      "explanation": "Due diligence is the research phase before a merger or acquisition."
+      "explanation": "This is a passive reduced relative clause (short for 'which was approved')."
     },
     {
-      "id": "fin-b2-w30-exam-3",
+      "id": "adm-b2-w30-exam-3",
       "type": "multipleChoice",
-      "prompt": "The ________ (implement) of the new strategy was successful.",
-      "options": ["implement", "implementation", "implementing", "implemented"],
+      "prompt": "What is 'phishing'?",
+      "options": [
+        "A sport played by company executives",
+        "A method of encrypting large databases",
+        "A fraudulent attempt to obtain sensitive info via email",
+        "The process of cleaning a computer screen"
+      ],
+      "answerIndex": 2,
+      "explanation": "Phishing is a common form of social engineering used by cybercriminals."
+    },
+    {
+      "id": "adm-b2-w30-exam-4",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence with an advanced relative pronoun: 'Our DPO, with ____ I discussed the breach, is highly experienced.'",
+      "options": [
+        "who",
+        "whom",
+        "which",
+        "whose"
+      ],
       "answerIndex": 1,
-      "explanation": "Nominalization: using the noun form 'implementation' instead of the verb."
+      "explanation": "'Whom' is used after prepositions (with, for, to) in formal contexts."
     },
     {
-      "id": "fin-b2-w30-exam-4",
+      "id": "adm-b2-w30-exam-5",
       "type": "multipleChoice",
-      "prompt": "A 'Hostile Takeover' occurs when:",
-      "options": ["Two companies agree to merge", "An acquisition attempt is resisted by the target company's board", "A company goes bankrupt", "The government buys a private firm"],
+      "prompt": "What is the primary focus of ISO 27001?",
+      "options": [
+        "Marketing strategy",
+        "Information security management systems",
+        "Financial auditing",
+        "Customer service standards"
+      ],
       "answerIndex": 1,
-      "explanation": "Hostile takeovers go against the wishes of the target company's management."
-    },
-    {
-      "id": "fin-b2-w30-exam-5",
-      "type": "multipleChoice",
-      "prompt": "The merger ________ (rumor/be) worth over 10 billion dollars.",
-      "options": ["is rumored to be", "rumors to be", "is rumored be", "rumored being"],
-      "answerIndex": 0,
-      "explanation": "Passive reporting structure: is rumored to be."
+      "explanation": "ISO 27001 is the international standard for information security."
     }
   ]
 }

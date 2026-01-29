@@ -1,0 +1,103 @@
+{
+  "title": "Week 35 Assessment: Professional Ethics & CSR",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What is 'Whistleblowing'?",
+      "options": [
+        "Playing a musical instrument in the office",
+        "Reporting illegal or unethical activities within a company",
+        "Hiring new employees from a competitor",
+        "Quitting a job without giving notice"
+      ],
+      "answer": "Reporting illegal or unethical activities within a company"
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A 'Conflict of Interest' occurs when ______.",
+      "options": [
+        "Two employees disagree on a project",
+        "A person's private interests interfere with their professional duties",
+        "The company loses money in a new market",
+        "The manager gives too much work to the team"
+      ],
+      "answer": "A person's private interests interfere with their professional duties"
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which reporting verb is followed by a gerund?",
+      "options": ["Agree", "Refuse", "Suggest", "Promise"],
+      "answer": "Suggest"
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "He denied to take the bribe.",
+        "He denied taking the bribe.",
+        "He denied take the bribe.",
+        "He denied for taking the bribe."
+      ],
+      "answer": "He denied taking the bribe."
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "What is 'Corporate Social Responsibility' (CSR)?",
+      "options": [
+        "A legal requirement to pay corporate taxes",
+        "A business model that integrates social and environmental concerns",
+        "The responsibility of employees to socialize together",
+        "A marketing strategy to sell more products"
+      ],
+      "answer": "A business model that integrates social and environmental concerns"
+    },
+    {
+      "id": "q6",
+      "type": "fill-in-the-blank",
+      "question": "The CEO promised ______ (to address / addressing) the shareholders' concerns.",
+      "answer": "to address"
+    },
+    {
+      "id": "q7",
+      "type": "fill-in-the-blank",
+      "question": "The consultant recommended ______ (to conduct / conducting) a full ethical audit.",
+      "answer": "conducting"
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "What does it mean to 'adhere to a code of conduct'?",
+      "options": [
+        "To write a new set of rules",
+        "To follow the existing rules strictly",
+        "To ignore the rules when they are inconvenient",
+        "To teach the rules to others"
+      ],
+      "answer": "To follow the existing rules strictly"
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "Which verb is followed by an infinitive?",
+      "options": ["Recommend", "Deny", "Admit", "Refuse"],
+      "answer": "Refuse"
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "'Sustainability' refers to ______.",
+      "options": [
+        "Maximizing short-term profits",
+        "Meeting current needs without compromising future generations",
+        "Using only the cheapest materials available",
+        "Expanding the business as fast as possible"
+      ],
+      "answer": "Meeting current needs without compromising future generations"
+    }
+  ]
+}

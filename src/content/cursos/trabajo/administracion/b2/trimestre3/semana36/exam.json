@@ -1,0 +1,170 @@
+{
+  "title": "Trimestre 3: Final Examination (B2 Administration)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which term describes the appraisal of a business before an acquisition?",
+      "options": ["Market Research", "Due Diligence", "Financial Audit", "Asset Management"],
+      "answer": "Due Diligence"
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What is the primary focus of the GDPR?",
+      "options": ["Gender equality", "Environmental protection", "Data privacy and security", "International trade"],
+      "answer": "Data privacy and security"
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which grammar structure is used for reporting general beliefs?",
+      "options": ["Mixed Conditionals", "Passive Reporting Verbs", "Cleft Sentences", "Future Perfect"],
+      "answer": "Passive Reporting Verbs"
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "'If we had invested in that startup, we ______ rich now.' (Mixed Conditional)",
+      "options": ["would be", "would have been", "will be", "are"],
+      "answer": "would be"
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "What is 'Intellectual Property'?",
+      "options": ["Real estate owned by a company", "Creations of the mind protected by law", "The total value of a company's shares", "Office equipment and machinery"],
+      "answer": "Creations of the mind protected by law"
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which modal expresses a strong deduction about the past?",
+      "options": ["must have", "should have", "might have", "can have"],
+      "answer": "must have"
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A 'Fiduciary Duty' is an obligation to act in the best interest of ______.",
+      "options": ["The employees", "The government", "The shareholders", "The competitors"],
+      "answer": "The shareholders"
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "What does 'ESG' stand for?",
+      "options": [
+        "Economic, Social, and Growth",
+        "Environmental, Social, and Governance",
+        "External, Sustainable, and Global",
+        "Equality, Safety, and Guidance"
+      ],
+      "answer": "Environmental, Social, and Governance"
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "Choose the correct connector: 'The strategy was effective, ______ expensive.'",
+      "options": ["notwithstanding", "whereas", "albeit", "consequently"],
+      "answer": "albeit"
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "What is a 'Change Agent'?",
+      "options": [
+        "A travel agent",
+        "A catalyst for organizational transformation",
+        "A machine that counts coins",
+        "A recruitment consultant"
+      ],
+      "answer": "A catalyst for organizational transformation"
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "question": "'By the end of the year, we ______ our international expansion.'",
+      "options": ["will complete", "will be completing", "will have completed", "complete"],
+      "answer": "will have completed"
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "question": "Which verb is followed by a gerund?",
+      "options": ["Agree", "Suggest", "Promise", "Refuse"],
+      "answer": "Suggest"
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "question": "What does it mean to 'streamline' operations?",
+      "options": ["To make them more complex", "To make them more efficient", "To stop them completely", "To outsource them"],
+      "answer": "To make them more efficient"
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "question": "Which preposition follows 'comply'?",
+      "options": ["to", "for", "with", "by"],
+      "answer": "with"
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "question": "What is 'Whistleblowing'?",
+      "options": [
+        "Reporting misconduct within a company",
+        "Promoting a colleague",
+        "Starting a new marketing campaign",
+        "Calculating the monthly payroll"
+      ],
+      "answer": "Reporting misconduct within a company"
+    },
+    {
+      "id": "q16",
+      "type": "multiple-choice",
+      "question": "'______ we decide to merge, we will need to notify the authorities.'",
+      "options": ["Unless", "Providing that", "Notwithstanding", "Albeit"],
+      "answer": "Providing that"
+    },
+    {
+      "id": "q17",
+      "type": "multiple-choice",
+      "question": "What is the 'Status Quo'?",
+      "options": [
+        "The desired future state",
+        "The current state of affairs",
+        "A financial deficit",
+        "The highest possible quality"
+      ],
+      "answer": "The current state of affairs"
+    },
+    {
+      "id": "q18",
+      "type": "multiple-choice",
+      "question": "A 'Conflict of Interest' should be ______ immediately.",
+      "options": ["ignored", "disclosed", "hidden", "celebrated"],
+      "answer": "disclosed"
+    },
+    {
+      "id": "q19",
+      "type": "multiple-choice",
+      "question": "Identify the reduced relative clause: 'The documents ______ last week were incorrect.'",
+      "options": ["signing", "signed", "which signed", "to sign"],
+      "answer": "signed"
+    },
+    {
+      "id": "q20",
+      "type": "multiple-choice",
+      "question": "What is the main goal of 'Facility Management' in an office?",
+      "options": [
+        "Increasing sales",
+        "Ensuring a safe and efficient workplace environment",
+        "Designing the company logo",
+        "Managing the social media accounts"
+      ],
+      "answer": "Ensuring a safe and efficient workplace environment"
+    }
+  ]
+}

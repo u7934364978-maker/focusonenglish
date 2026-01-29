@@ -1,0 +1,55 @@
+{
+  "exercises": [
+    {
+      "id": "vocab-ethics",
+      "title": "Vocabulary: Ethics & CSR",
+      "type": "matching",
+      "questions": [
+        { "question": "Whistleblowing", "answer": "Reporting wrongdoing within an organisation" },
+        { "question": "Conflict of Interest", "answer": "Personal interests clashing with professional duties" },
+        { "question": "Sustainability", "answer": "Meeting present needs without harming future ones" },
+        { "question": "Adhere to", "answer": "To follow a set of rules or a code" },
+        { "question": "Ethical Audit", "answer": "Evaluation of a company's ethical performance" }
+      ]
+    },
+    {
+      "id": "reporting-verbs",
+      "title": "Grammar: Reporting Verbs",
+      "type": "multiple-choice",
+      "questions": [
+        {
+          "question": "The board suggested ______ the CSR budget for next year.",
+          "options": ["to increase", "increasing", "increase"],
+          "answer": "increasing"
+        },
+        {
+          "question": "The manager refused ______ responsibility for the data breach.",
+          "options": ["taking", "to take", "take"],
+          "answer": "to take"
+        },
+        {
+          "question": "The auditors recommended ______ the internal control system.",
+          "options": ["updating", "to update", "update"],
+          "answer": "updating"
+        },
+        {
+          "question": "He admitted ______ the company's code of conduct.",
+          "options": ["to break", "breaking", "break"],
+          "answer": "breaking"
+        },
+        {
+          "question": "They promised ______ the issue as soon as possible.",
+          "options": ["resolving", "to resolve", "resolve"],
+          "answer": "to resolve"
+        }
+      ]
+    },
+    {
+      "id": "cloze-ethics",
+      "title": "Reading: Corporate Responsibility",
+      "type": "cloze",
+      "text": "Many modern corporations are working to (1) ______ sustainability into their core operations. This involves more than just (2) ______; it requires a genuine commitment to (3) ______ accountability. Employees who witness (4) ______ behaviour are encouraged to (5) ______ the information through official channels.",
+      "blanks": ["integrate", "philanthropy", "corporate", "unethical", "disclose"]
+    }
+  ]
+}

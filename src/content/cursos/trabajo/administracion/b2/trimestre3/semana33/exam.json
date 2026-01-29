@@ -1,0 +1,88 @@
+{
+  "title": "Week 33 Assessment: Change & Innovation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which term describes the act of opposing modifications to the status quo?",
+      "options": ["Agility", "Resistance to change", "Disruptive innovation", "Streamlining"],
+      "answer": "Resistance to change"
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What does it mean to 'future-proof' a business?",
+      "options": [
+        "To look at historical data only",
+        "To make a business resistant to future changes",
+        "To design a business to continue being useful in the future",
+        "To hire only young employees"
+      ],
+      "answer": "To design a business to continue being useful in the future"
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Identify the correct conditional linker: 'The merger will go ahead ______ the regulatory body objects.'",
+      "options": ["provided that", "as long as", "unless", "suppose"],
+      "answer": "unless"
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Choose the most formal option: 'The contract is valid ______ that all parties sign by midnight.'",
+      "options": ["as long as", "on condition", "unless", "supposing"],
+      "answer": "on condition"
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "What is a 'Change Agent'?",
+      "options": [
+        "A travel agent specializing in corporate trips",
+        "A person who resists any form of modification",
+        "An individual who acts as a catalyst for transformation",
+        "A financial auditor"
+      ],
+      "answer": "An individual who acts as a catalyst for transformation"
+    },
+    {
+      "id": "q6",
+      "type": "fill-in-the-blank",
+      "question": "We will continue to invest in R&D ______ (as / so) long as the results are promising.",
+      "answer": "as"
+    },
+    {
+      "id": "q7",
+      "type": "fill-in-the-blank",
+      "question": "______ (Provided / Unless) that we get the permit, construction will start next month.",
+      "answer": "Provided"
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which of these emphasizes the strictness of a condition?",
+      "options": ["Suppose", "Supposing", "So long as", "If"],
+      "answer": "So long as"
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "What is 'Disruptive Innovation'?",
+      "options": [
+        "Innovation that follows existing market trends",
+        "Innovation that creates a new market and displaces leaders",
+        "Innovation that causes frequent power outages",
+        "A minor update to a product"
+      ],
+      "answer": "Innovation that creates a new market and displaces leaders"
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "'______ we decide to pivot, how would that affect our current roadmap?'",
+      "options": ["Provided", "Supposing", "As long as", "Unless"],
+      "answer": "Supposing"
+    }
+  ]
+}

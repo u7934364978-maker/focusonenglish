@@ -1,0 +1,48 @@
+{
+  "exercises": [
+    {
+      "id": "term-review",
+      "title": "Comprehensive Vocabulary Review",
+      "type": "matching",
+      "questions": [
+        { "question": "Due Diligence", "answer": "Detailed investigation of a business before a merger" },
+        { "question": "Whistleblowing", "answer": "Reporting internal misconduct" },
+        { "question": "Fiduciary Duty", "answer": "Legal obligation to act in a shareholder's interest" },
+        { "question": "Intellectual Property", "answer": "Legal rights over creations of the mind" },
+        { "question": "Change Agent", "answer": "Catalyst for organizational transformation" }
+      ]
+    },
+    {
+      "id": "grammar-mix",
+      "title": "Advanced Grammar Integration",
+      "type": "multiple-choice",
+      "questions": [
+        {
+          "question": "If we ______ more careful during due diligence, we ______ facing this legal issue now.",
+          "options": ["were / wouldn't be", "had been / wouldn't be", "are / won't be"],
+          "answer": "had been / wouldn't be"
+        },
+        {
+          "question": "It ______ that the CEO will announce his resignation tomorrow.",
+          "options": ["believes", "is believed", "is believing"],
+          "answer": "is believed"
+        },
+        {
+          "question": "By this time next year, the company ______ its digital transformation.",
+          "options": ["will be completing", "will have completed", "will complete"],
+          "answer": "will have completed"
+        },
+        {
+          "question": "The merger was approved, ______ the concerns raised by the audit committee.",
+          "options": ["notwithstanding", "albeit", "whereas"],
+          "answer": "notwithstanding"
+        },
+        {
+          "question": "The manager recommended ______ the new security protocols immediately.",
+          "options": ["to adopt", "adopting", "adopt"],
+          "answer": "adopting"
+        }
+      ]
+    }
+  ]
+}

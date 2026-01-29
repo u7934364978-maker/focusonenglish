@@ -1,36 +1,37 @@
 {
-  "title": "Asset Management Basics",
+  "title": "Organizational Psychology & Motivation",
   "sections": [
     {
-      "id": "asset-allocation",
-      "title": "Portfolio Diversification & Allocation",
-      "content": "Asset management involves managing a client's investments to meet their financial goals.\n\n- **Asset Allocation**: Dividing an investment portfolio among different asset categories, such as stocks, bonds, and cash.\n- **Diversification**: Spreading investments across various industries and geographic regions to reduce risk ('Don't put all your eggs in one basket').\n- **Risk Tolerance**: An investor's ability and willingness to lose some or all of an original investment in exchange for greater potential returns."
+      "id": "org-psych",
+      "title": "Psychology in the Workplace",
+      "content": "Organizational psychology is the scientific study of human behaviour in organisations. It focuses on deriving principles of individual, group, and organisational behaviour and applying this knowledge to the solution of problems at work.\n\n### Key Motivational Theories:\n- **Maslow's Hierarchy of Needs**: People are motivated by a hierarchy of needs, from basic physiological needs to self-actualisation.\n- **Herzberg's Two-Factor Theory**: Distinction between 'hygiene factors' (e.g., salary, working conditions) which prevent dissatisfaction, and 'motivators' (e.g., recognition, responsibility) which create satisfaction.\n- **Equity Theory**: Employees are motivated when they perceive that the rewards they receive are fair in comparison to others.\n- **Growth Mindset**: The belief that abilities can be developed through dedication and hard work."
     },
     {
-      "id": "management-styles",
-      "title": "Active vs. Passive Management",
-      "content": "Investors can choose different styles of management.\n\n- **Active Management**: Portfolio managers make specific investments with the goal of outperforming a benchmark index.\n- **Passive Management**: Investing in a way that tracks a market index (e.g., the S&P 500), typically with lower fees.\n- **Mutual Funds**: A pool of money from many investors that is invested in a variety of stocks or bonds.\n- **ETFs (Exchange-Traded Funds)**: Similar to mutual funds but traded on a stock exchange like individual stocks."
+      "id": "phrase-bank",
+      "title": "PhraseBank: Motivation & Culture Chunks",
+      "content": "Use these chunks to discuss workplace psychology professionally:\n\n1. **to boost employee morale** — \"We need to implement strategies to boost employee morale.\"\n2. **to foster a positive culture** — \"The new CEO is working to foster a positive company culture.\"\n3. **to improve employee engagement** — \"How can we improve engagement among remote workers?\"\n4. **to reduce staff turnover** — \"High staff turnover is a sign of poor organizational health.\"\n5. **to provide intrinsic motivation** — \"Recognition and growth opportunities provide intrinsic motivation.\"\n6. **to address workplace stress** — \"We are launching an initiative to address workplace stress.\"\n7. **to encourage professional development** — \"The company encourages ongoing professional development.\"\n8. **to conduct a culture audit** — \"We are conducting a culture audit to identify areas for improvement.\""
     },
     {
-      "id": "benchmark-performance",
-      "title": "Performance & Benchmarks",
-      "content": "How do we know if a fund is doing well?\n\n- **Benchmark**: A standard against which the performance of a security or mutual fund can be measured.\n- **Alpha**: The excess return of an investment relative to the return of a benchmark index.\n- **Rebalancing**: Periodically adjusting the weightings of a portfolio to maintain the original asset allocation."
+      "id": "grammar-gerund-inf",
+      "title": "Grammar: Advanced Gerunds vs. Infinitives",
+      "content": "At a B2 level, we focus on verbs that change their meaning depending on whether they are followed by a gerund (-ing) or an infinitive (to + verb).\n\n### Meaning Change:\n- **Remember/Forget**:\n  - *I remember booking the room.* (I have a memory of doing it).\n  - *I remembered to book the room.* (I didn't forget the task).\n- **Stop**:\n  - *We stopped working at 5 PM.* (We finished the activity).\n  - *We stopped to work on the project.* (We paused another activity in order to work).\n- **Try**:\n  - *I tried calling him, but he didn't answer.* (I experimented with the action).\n  - *I tried to call him, but the line was busy.* (I made an effort to do it, but failed).\n- **Regret**:\n  - *I regret telling him the secret.* (I'm sorry I did it).\n  - *I regret to tell you that you didn't get the job.* (I'm sorry about the information I'm giving now)."
     },
     {
-      "id": "grammar-third-conditional",
-      "title": "Language Focus: Third Conditional & Present Perfect Continuous",
-      "content": "We use the third conditional to reflect on past events that didn't happen, and the present perfect continuous for ongoing trends.\n\n- **Third Conditional (Past Regrets/Reflection)**: \n  - 'If we **had rebalanced** the portfolio in January, we **would have avoided** that loss.'\n  - 'If she **hadn't diversified**, her losses **would have been** much greater.'\n- **Present Perfect Continuous (Ongoing Trends)**: \n  - 'Passive investing **has been growing** in popularity for several years.'\n  - 'Investors **have been looking** for lower-cost alternatives like ETFs.'"
+      "id": "deliverable",
+      "title": "Weekly Deliverable: Employee Engagement Proposal",
+      "content": "Draft a short proposal (150 words) to improve employee engagement in your department. Include:\n1. **Analysis of the current situation**.\n2. **Proposed initiatives** (e.g., flexible working, recognition programs).\n3. **Expected benefits** (Reduced turnover, higher morale).\n4. **Grammar Focus** (Use at least two verbs that change meaning with gerunds/infinitives, e.g., *We should try implementing...*)."
     }
   ],
   "objectives": [
-    "Explain the importance of asset allocation and diversification",
-    "Describe the differences between active and passive management",
-    "Identify mutual funds and ETFs as common investment vehicles",
-    "Use the third conditional to reflect on past financial decisions"
+    "Identify core theories of organizational psychology and motivation",
+    "Apply psychological principles to improve workplace culture",
+    "Master the use of verbs that change meaning with gerunds and infinitives",
+    "Develop proposals to enhance employee engagement and morale"
   ],
   "keyTerms": [
-    { "term": "Portfolio", "definition": "A grouping of financial assets such as stocks, bonds, and cash equivalents." },
-    { "term": "Benchmark", "definition": "A standard or point of reference against which things may be compared or assessed." },
-    { "term": "Liquid Assets", "definition": "Assets that can be converted to cash quickly without losing much value." }
+    { "term": "Morale", "definition": "The confidence, enthusiasm, and discipline of a person or group at a particular time." },
+    { "term": "Engagement", "definition": "The level of enthusiasm and dedication a worker feels toward their job." },
+    { "term": "Turnover", "definition": "The rate at which employees leave a workforce and are replaced." },
+    { "term": "Hygiene Factors", "definition": "Factors that do not give positive satisfaction or lead to higher motivation, though dissatisfaction results from their absence." }
   ]
 }

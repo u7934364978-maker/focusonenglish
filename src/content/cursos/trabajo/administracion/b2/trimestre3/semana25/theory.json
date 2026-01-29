@@ -1,30 +1,37 @@
 {
-  "title": "Digital Banking & Modern Payments",
+  "title": "Public Relations & Media Management",
   "sections": [
     {
-      "id": "digital-shift",
-      "title": "The Shift to Digital Banking",
-      "content": "Modern banking has moved from physical branches to digital platforms. This transformation is driven by customer demand for convenience and speed.\n\n- **Online Banking**: Accessing bank services through a web browser.\n- **Mobile Banking**: Using dedicated apps on smartphones to manage accounts, pay bills, and transfer money.\n- **Neobanks**: Also known as 'Challenger Banks', these are banks that operate exclusively online without traditional physical branches (e.g., Revolut, N26)."
+      "id": "pr-admin",
+      "title": "The Administrative Side of PR",
+      "content": "Public Relations (PR) in an administrative context involves managing the organisation's reputation and its relationship with the media. Administrators often handle press releases, coordinate media events, and monitor the company's public image.\n\n### Key PR Concepts:\n- **Press Release**: An official statement delivered to members of the news media for the purpose of providing information.\n- **Stakeholder Engagement**: The process of communicating with and involving people who have an interest in the organisation.\n- **Crisis Communication**: Managing information during a situation that could damage the company's reputation.\n- **Media Monitoring**: Tracking mentions of the organisation in various media outlets (social media, newspapers, TV)."
     },
     {
-      "id": "payment-tech",
-      "title": "Payment Technology",
-      "content": "The way we pay for goods and services is changing rapidly.\n\n- **Contactless Payments**: Using NFC (Near Field Communication) technology to pay by tapping a card or phone.\n- **Digital Wallets**: Apps like Apple Pay or Google Pay that store card information securely.\n- **Real-time Payments**: Instant transfers between bank accounts, available 24/7.\n- **APIs in Banking**: Tools that allow different financial apps to talk to each other securely."
+      "id": "phrase-bank",
+      "title": "PhraseBank: PR & Media Chunks",
+      "content": "Use these chunks to handle media relations professionally:\n\n1. **to issue a press release** — \"We are going to issue a press release tomorrow morning.\"\n2. **to handle media enquiries** — \"The admin team will handle all initial media enquiries.\"\n3. **to manage public perception** — \"Our goal is to manage public perception during the transition.\"\n4. **to liaise with the press** — \"She will liaise with the press to ensure accurate coverage.\"\n5. **to go on the record** — \"The CEO is not ready to go on the record yet.\"\n6. **to keep stakeholders informed** — \"It is vital to keep all stakeholders informed.\"\n7. **to mitigate reputational damage** — \"We must act quickly to mitigate reputational damage.\"\n8. **to coordinate a press conference** — \"I've been asked to coordinate the press conference next week.\""
     },
     {
-      "id": "grammar-future-tenses",
-      "title": "Language Focus: Future Perfect & Continuous",
-      "content": "When talking about digital trends, we often project into the future.\n\n- **Future Continuous**: For actions that will be in progress at a specific time in the future.\n  - 'By next year, most customers **will be using** mobile apps for all their banking.'\n- **Future Perfect**: For actions that will be completed by a certain point in the future.\n  - 'By 2030, many banks **will have closed** their physical branches.'"
+      "id": "grammar-passives-rev",
+      "title": "Grammar: Advanced Passives for Public Statements",
+      "content": "Public statements and formal reports often use passive structures to sound objective and professional. \n\n### Reporting Passives with 'It is...'\n- **It is widely believed that** the merger will benefit both companies.\n- **It is estimated that** over 500 journalists will attend the event.\n\n### Reporting Passives with 'Subject + is said to...'\n- **The company is said to be** exploring new markets in Asia.\n- **The new product is expected to** launch in October.\n\n### Get-Passives (Informal/Dynamic)\nIn less formal contexts or to describe sudden events:\n- **We got caught** in a media storm after the data leak."
+    },
+    {
+      "id": "deliverable",
+      "title": "Weekly Deliverable: Draft Press Release",
+      "content": "Draft a short press release (120-150 words) announcing a new partnership. Include:\n1. **Clear headline**.\n2. **The 'Who, What, Where, When, and Why'**.\n3. **A quote from a company official** (using advanced passives: *The partnership is expected to...*).\n4. **Media contact information**."
     }
   ],
   "objectives": [
-    "Identify the key features of digital banking and neobanks",
-    "Describe modern payment technologies and their benefits",
-    "Use future perfect and future continuous to discuss banking trends"
+    "Define and use PR and media management terminology",
+    "Identify the components of an effective press release",
+    "Apply advanced passive structures in formal public statements",
+    "Manage stakeholder communication during organisational changes"
   ],
   "keyTerms": [
-    { "term": "UX (User Experience)", "definition": "The overall experience of a person using a product such as a website or app." },
-    { "term": "Fintech", "definition": "Financial technology; the integration of technology into offerings by financial services companies." },
-    { "term": "Frictionless", "definition": "A process that is very smooth and has no difficulties or delays." }
+    { "term": "Press Release", "definition": "A formal announcement sent to the media to provide information on a specific event or issue." },
+    { "term": "Stakeholder", "definition": "A person, group, or organisation that has interest or concern in an organisation." },
+    { "term": "Liaise", "definition": "To establish a working relationship, typically in order to cooperate on a matter of mutual interest." },
+    { "term": "Reputation", "definition": "The beliefs or opinions that are generally held about someone or something." }
   ]
 }
