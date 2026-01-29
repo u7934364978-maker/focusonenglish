@@ -9,7 +9,7 @@
       "id": "adm-b2-w1-ex01",
       "type": "reading-comprehension",
       "title": "Exercise 1: Email Comprehension (Doc A)",
-      "text": "Doc A — Internal Email (Welcome)\n\nSubject: Welcome to Operations — quick intro & ways of working\n\nHi everyone,\n\nPlease join me in welcoming Alex Taylor to the Operations team. Alex will support day-to-day coordination across teams and help us keep requests moving.\n\nWays of working (recap):\n1. Use the Ops Inbox for requests that can’t be solved within your team.\n2. If a request is time-sensitive, flag it as Urgent and include a deadline.\n3. We track work in the Ops Board (status: New / In progress / Blocked / Done).\n4. If something is blocked for more than 24 hours, please escalate in the daily check-in.\n\nThanks,\nPriya",
+      "text": "Doc A — Internal Email (Welcome)\n\nSubject: Welcome to Operations — quick intro & ways of working\n\nHi everyone,\n\nPlease join me in welcoming Alex Taylor to the Operations team. Alex will support day-to-day coordination across teams and help us keep requests **moving**.\n\nWays of working (recap):\n1. Use the Ops Inbox for requests that can’t be solved within your team.\n2. If a request is **time-sensitive**, flag it as **Urgent** and include a **deadline**.\n3. We track work in the Ops Board (status: New / In progress / **Blocked** / Done).\n4. If something is blocked for more than 24 hours, please **escalate** in the daily check-in.\n\nThanks,\nPriya\n\n**Vocabulary Definitions:**\n- **Moving**: Progressing or continuing without interruption.\n- **Time-sensitive**: Needing to be handled quickly or by a certain time.\n- **Urgent**: Requiring immediate action or attention.\n- **Deadline**: The latest time or date by which something should be completed.\n- **Blocked**: Prevented from making progress due to a dependency.\n- **Escalate**: To refer a matter to a higher level of authority.",
       "questions": [
         {
           "question": "Where should requests that cannot be solved within your team be sent?",
@@ -245,6 +245,7 @@
       "type": "listening",
       "title": "Exercise 25: Listening to a Metrics Report",
       "audioUrl": "/audio/adm-b2-w1-metrics-report.mp3",
+      "transcript": "Good morning everyone. I’d like to give you a quick update on our operational metrics for the last quarter. Our throughput has been quite impressive, reaching 750 units, which is a significant increase compared to the previous period. Regarding our Service Level Agreements, I am pleased to confirm that we are currently meeting all our SLAs for response times. However, our lead time for onboarding new vendors still needs some improvement to align with our long-term KPIs. We are working on a plan to streamline the documentation process to address this. Thanks.",
       "questions": [
         {
           "question": "What was the throughput for the last quarter?",
