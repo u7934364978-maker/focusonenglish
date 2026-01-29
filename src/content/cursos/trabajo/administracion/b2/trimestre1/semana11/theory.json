@@ -1,25 +1,37 @@
 {
-  "title": "Corporate Governance, Ethics, and ESG",
+  "title": "Risk Management & Contingency Planning",
   "sections": [
     {
-      "id": "governance-framework",
-      "title": "Corporate Governance and Board Structure",
-      "content": "Corporate governance is the system of rules, practices, and processes by which a firm is directed and controlled. It involves balancing the interests of a company's many stakeholders.\n\n### Board Structures\n- **Unitary Board**: A single board of directors composed of both executive (inside) and non-executive (outside) directors. Common in the US and UK.\n- **Dual Board System**: Consists of two separate boards: a **Management Board** (executive) and a **Supervisory Board** (non-executive). Common in Germany and other parts of Europe.\n- **Non-Executive Directors (NEDs)**: Independent directors who provide oversight and challenge the executive team.\n\n### The Agency Problem\nA conflict of interest inherent in any relationship where one party (the agent, e.g., the CEO) is expected to act in another's best interest (the principal, e.g., the shareholder)."
+      "id": "risk-assessment",
+      "title": "Identifying and Assessing Risks",
+      "content": "Risk management is the process of identifying, evaluating, and prioritising risks to minimise their impact on a project or organisation.\n\n### The Risk Matrix\nRisks are generally assessed based on two criteria:\n1. **Probability**: How likely is it that the risk will occur?\n2. **Impact**: How severe will the consequences be if it does occur?\n\n### Risk Response Strategies\n- **Avoidance**: Changing the project plan to eliminate the risk entirely.\n- **Mitigation**: Taking steps to reduce the probability or impact of a risk.\n- **Transfer**: Passing the risk to a third party (e.g., through insurance).\n- **Acceptance**: Acknowledging the risk and deciding not to take any action unless it occurs."
     },
     {
-      "id": "ethics-finance",
-      "title": "Ethical Dilemmas and Financial Integrity",
-      "content": "Ethical behavior in finance is not just about following the law; it's about transparency and professional integrity.\n\n### Key Ethical Issues\n- **Creative Accounting**: Using accounting 'loopholes' to manipulate financial statements to show a better-than-actual position (e.g., hiding debt off-balance sheet).\n- **Insider Trading**: The illegal practice of trading on the stock exchange to one's own advantage through having access to confidential information.\n- **Conflict of Interest**: A situation where an individual has competing professional or personal interests that make it difficult to fulfill their duties impartially."
+      "id": "contingency-planning",
+      "title": "Contingency vs. Mitigation",
+      "content": "It is important to distinguish between acting before a risk occurs and acting after it occurs.\n\n### Key Definitions\n- **Mitigation Plan**: Actions taken *before* a risk event occurs to reduce its likelihood or impact (e.g., installing a fire alarm).\n- **Contingency Plan**: A pre-defined set of actions to be taken *after* a risk event occurs (e.g., an evacuation plan).\n- **Disaster Recovery**: The process of restoring normal operations after a major disruptive event.\n- **Workaround**: An unplanned response to an unexpected problem."
     },
     {
-      "id": "esg-integration",
-      "title": "ESG: Environmental, Social, and Governance",
-      "content": "ESG criteria are a set of standards for a company’s operations that socially conscious investors use to screen potential investments.\n\n### The Three Pillars\n- **Environmental**: How a company performs as a steward of nature (carbon footprint, waste management).\n- **Social**: How it manages relationships with employees, suppliers, customers, and the communities where it operates.\n- **Governance**: Deals with a company’s leadership, executive pay, audits, internal controls, and shareholder rights.\n\n### Stewardship and Activism\n- **Shareholder Stewardship**: The responsible management of assets by institutional investors to create long-term value for clients.\n- **Shareholder Activism**: When shareholders use their equity stake in a corporation to put pressure on its management."
+      "id": "grammar-third-conditional",
+      "title": "Grammar: Third Conditional for Post-Mortems",
+      "content": "The third conditional is used to talk about hypothetical situations in the past—things that didn't happen. In business, it is essential for 'post-mortem' meetings to analyze what could have been done differently.\n\n### Structure\n*If + Past Perfect, would have + past participle*\n\n### Examples\n- *\"If we **had implemented** the backup system, we **wouldn't have lost** the data.\"*\n  - (Fact: We didn't implement it, so we lost the data).\n- *\"If the supplier **had delivered** on time, the project **would have finished** according to the schedule.\"*\n  - (Fact: They didn't deliver on time, so it didn't finish on time).\n\n### Using 'Could have' or 'Might have'\n- *\"If we **had known** about the new regulations, we **could have adjusted** our strategy.\"* (Ability/Possibility).\n- *\"If the weather **had been** better, the outdoor event **might have been** more successful.\"* (Probability)."
     },
     {
-      "id": "grammar-subjunctive",
-      "title": "Grammar: The Subjunctive Mood for Recommendations",
-      "content": "In formal board meetings and governance reports, we use the subjunctive mood to express importance, urgency, or recommendations.\n\n### Structure\n*Verb (suggest/recommend/insist) + that + subject + bare infinitive*\n- *\"The audit committee recommends that the CFO **provide** a more detailed breakdown of the debt.\"*\n- *\"It is essential that every employee **adhere** to the new code of ethics.\"*\n- *\"We insist that the board **reconsider** the CEO's bonus package in light of the recent scandal.\"*\n\n### Common Phrases\n- *It is vital that...*\n- *It is imperative that...*\n- *The proposal is that...*"
+      "id": "professional-phrasing",
+      "title": "Professional Phrasing for Risk Analysis",
+      "content": "- \"We need to develop a **contingency plan** in case the primary server fails.\"\n- \"What is our **mitigation strategy** for potential budget overruns?\"\n- \"The **probability** of this occurring is low, but the **impact** would be catastrophic.\"\n- \"If we **had identified** this risk earlier, we **would have avoided** this delay.\""
     }
+  ],
+  "objectives": [
+    "Categorise risks using probability and impact criteria",
+    "Distinguish between mitigation and contingency planning",
+    "Use the Third Conditional to analyze past project outcomes and near misses",
+    "Identify formal vocabulary for disaster recovery and risk response"
+  ],
+  "keyTerms": [
+    { "term": "Mitigation", "definition": "The action of reducing the severity, seriousness, or painfulness of something." },
+    { "term": "Contingency", "definition": "A future event or circumstance which is possible but cannot be predicted with certainty." },
+    { "term": "Probability", "definition": "The extent to which something is likely to happen or be the case." },
+    { "term": "Impact", "definition": "The action of one object coming forcibly into contact with another; a marked effect or influence." }
   ]
 }

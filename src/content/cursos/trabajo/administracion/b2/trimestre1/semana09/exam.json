@@ -3,48 +3,65 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana09",
-  "title": "Week 9 Quiz: Audit & Compliance",
-  "description": "Test your understanding of auditing procedures and reporting styles.",
+  "title": "Exam: Stakeholder Management & Networking",
+  "description": "Assessment of stakeholder categorization, networking terms, and relative clause precision.",
   "items": [
     {
-      "id": "fin-b2-w9-e1",
+      "id": "admin-b2-w9-exam-q1",
       "type": "multipleChoice",
-      "prompt": "Which of these is an example of 'Vouching'?",
-      "options": ["Counting cash in the safe", "Comparing a bank entry with a receipt", "Checking the building's insurance", "Estimating future sales"],
+      "options": [
+        "High Power, High Interest",
+        "High Power, Low Interest",
+        "Low Power, High Interest",
+        "Low Power, Low Interest"
+      ],
+      "explanation": "Stakeholders with high influence (power) but low involvement (interest) should be kept satisfied.",
       "answerIndex": 1,
-      "explanation": "Vouching involves comparing recorded entries with original evidence."
+      "prompt": "According to the stakeholder matrix, which group should be 'kept satisfied'?"
     },
     {
-      "id": "fin-b2-w9-e2",
-      "type": "multipleChoice",
-      "prompt": "'Materiality' helps auditors decide:",
-      "options": ["Which documents to print", "Which errors are significant enough to report", "The colors for the annual report", "The auditor's fee"],
-      "answerIndex": 1,
-      "explanation": "Materiality focuses on what matters to the stakeholders."
+      "id": "admin-b2-w9-exam-q2",
+      "type": "fillBlanks",
+      "explanation": "Non-defining relative clause with 'who'.",
+      "prompt": "Ms. Gorski, ________ (who) is our primary stakeholder, will be reviewing the budget tonight.",
+      "answers": [
+        "who"
+      ]
     },
     {
-      "id": "fin-b2-w9-e3",
+      "id": "admin-b2-w9-exam-q3",
       "type": "multipleChoice",
-      "prompt": "Complete the formal report sentence: 'The internal controls ___ found to be inadequate.'",
-      "options": ["is", "was", "were", "has"],
+      "options": [
+        "A follow-up",
+        "A consultation",
+        "An elevator pitch",
+        "A collaboration"
+      ],
+      "explanation": "An elevator pitch is a concise and persuasive summary.",
       "answerIndex": 2,
-      "explanation": "Plural subject 'controls' requires 'were' in the passive."
+      "prompt": "What is the term for a short, 30-second introduction used during networking?"
     },
     {
-      "id": "fin-b2-w9-e4",
-      "type": "multipleChoice",
-      "prompt": "A 'statutory audit' is one that is:",
-      "options": ["Optional", "Required by law", "Done for free", "Done by the CEO"],
-      "answerIndex": 1,
-      "explanation": "Statutory means prescribed or required by statute (law)."
+      "id": "admin-b2-w9-exam-q4",
+      "type": "fillBlanks",
+      "explanation": "To follow up means to contact again.",
+      "prompt": "It's essential to ________ ________ with new contacts within 48 hours of a networking event.",
+      "answers": [
+        "follow up"
+      ]
     },
     {
-      "id": "fin-b2-w9-e5",
+      "id": "admin-b2-w9-exam-q5",
       "type": "multipleChoice",
-      "prompt": "Internal auditors report to:",
-      "options": ["The general public", "The company's board of directors or management", "The tax office", "Competitor companies"],
-      "answerIndex": 1,
-      "explanation": "Internal auditors are an internal function serving the organization's governance."
+      "options": [
+        "Whose",
+        "Who",
+        "Which",
+        "Whom"
+      ],
+      "explanation": "'Whom' is used formally after a preposition like 'to'.",
+      "answerIndex": 3,
+      "prompt": "The director to ________ you were introduced is the head of Operations. (Formal)"
     }
   ]
 }

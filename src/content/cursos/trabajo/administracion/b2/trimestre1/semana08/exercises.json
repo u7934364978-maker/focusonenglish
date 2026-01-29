@@ -3,235 +3,118 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana08",
-  "title": "Capital Markets, Debt Financing, and Equity Issuance",
-  "description": "Advanced vocabulary for ECM/DCM, IPO stages, bond mechanics, and participle clauses (50 items).",
+  "title": "Change Management & Innovation",
+  "description": "Vocabulary for organizational change and modal verbs for deduction about past outcomes.",
   "items": [
     {
-      "id": "finance-b2-w8-q1",
+      "id": "admin-b2-w8-q1",
       "type": "multipleChoice",
       "options": [
-        "Selling shares to the public for the first time",
-        "A company buying back its own shares",
-        "An internal restructuring of debt",
-        "A government bailout"
+        "Resistance",
+        "Buy-in",
+        "Pivot",
+        "Bottleneck"
       ],
-      "explanation": "An IPO (Initial Public Offering) is the process by which a private company becomes public by offering its shares to the general population.",
+      "explanation": "Buy-in refers to the support and agreement from stakeholders for a change.",
+      "answerIndex": 1,
+      "prompt": "Which term describes getting support and agreement from staff before implementing a new policy?"
+    },
+    {
+      "id": "admin-b2-w8-q2",
+      "type": "fillBlanks",
+      "explanation": "Modal for high certainty (deduction): must have + past participle.",
+      "prompt": "The server crashed during the update. They ________ (must / not / test) it properly beforehand.",
+      "answers": [
+        "must not have tested"
+      ]
+    },
+    {
+      "id": "admin-b2-w8-q3",
+      "type": "multipleChoice",
+      "options": [
+        "To streamline",
+        "To pivot",
+        "To disrupt",
+        "To incremental"
+      ],
+      "explanation": "To streamline means to simplify processes to increase efficiency.",
       "answerIndex": 0,
-      "prompt": "What is an 'Initial Public Offering' (IPO)?"
+      "prompt": "If a process has too many unnecessary steps, we need to ________ it."
     },
     {
-      "id": "finance-b2-w8-q2",
+      "id": "admin-b2-w8-q4",
       "type": "fillBlanks",
-      "explanation": "Present participle clause for simultaneous actions.",
-      "prompt": "________ (note) the increase in market volatility, the fund manager reduced the portfolio's exposure to tech stocks.",
+      "explanation": "Modal for possibility in the past: might/could have + past participle.",
+      "prompt": "I'm not sure why the staff were unhappy. They ________ (might / feel) left out of the decision-making process.",
       "answers": [
-        "Noting"
+        "might have felt",
+        "could have felt"
       ]
     },
     {
-      "id": "finance-b2-w8-q3",
+      "id": "admin-b2-w8-q5",
       "type": "multipleChoice",
       "options": [
-        "The price of the bond",
-        "The annual interest rate paid to the bondholder",
-        "The total return if held to maturity",
-        "The face value of the bond"
+        "Disruptive",
+        "Incremental",
+        "Agile",
+        "Streamlined"
       ],
-      "explanation": "The coupon rate is the interest rate the bond issuer pays to the bondholder annually.",
+      "explanation": "Incremental changes are small, gradual improvements.",
       "answerIndex": 1,
-      "prompt": "What does the 'Coupon Rate' of a bond represent?"
+      "prompt": "Which type of innovation involves making small, continuous improvements over time?"
     },
     {
-      "id": "finance-b2-w8-q4",
+      "id": "admin-b2-w8-q6",
       "type": "fillBlanks",
-      "explanation": "Perfect participle clause for sequential actions.",
-      "prompt": "________ (secure) the necessary underwriting commitments, the startup proceeded with its IPO.",
+      "explanation": "A bottleneck is a point of congestion or delay.",
+      "prompt": "The legal department is a major ________ in our approval process; everything slows down there.",
       "answers": [
-        "Having secured"
+        "bottleneck"
       ]
     },
     {
-      "id": "finance-b2-w8-q5",
+      "id": "admin-b2-w8-q7",
       "type": "multipleChoice",
       "options": [
-        "Bonds with very low risk",
-        "High-risk, high-yield bonds with low credit ratings",
-        "Bonds issued only by governments",
-        "Bonds that can be converted into equity"
+        "Must have",
+        "Should have",
+        "Might have",
+        "Can't have"
       ],
-      "explanation": "Junk bonds (or high-yield bonds) are issued by companies with lower credit ratings and therefore carry higher risk and higher interest rates.",
+      "explanation": "'Should have' is used to express regret or criticism about a past action that didn't happen.",
       "answerIndex": 1,
-      "prompt": "What are 'Junk Bonds'?"
+      "prompt": "Which modal is used to express that a past action was a good idea but wasn't performed?"
     },
     {
-      "id": "finance-b2-w8-q6",
+      "id": "admin-b2-w8-q8",
       "type": "fillBlanks",
-      "explanation": "Past participle clause for passive meaning.",
-      "prompt": "________ (rate) as 'AAA' by Moody's, the sovereign bond attracted massive investor interest.",
+      "explanation": "To pivot means to change direction or strategy.",
+      "prompt": "When the new regulations were announced, the company had to ________ its entire operational strategy.",
       "answers": [
-        "Rated"
+        "pivot"
       ]
     },
     {
-      "id": "finance-b2-w8-q7",
+      "id": "admin-b2-w8-q9",
       "type": "multipleChoice",
       "options": [
-        "A fund for senior citizens",
-        "A private investment partnership using aggressive strategies",
-        "A government-owned investment fund",
-        "A fund that only invests in environmental projects"
+        "Must have",
+        "Can't have",
+        "Should have",
+        "Might have"
       ],
-      "explanation": "Hedge funds are private investment vehicles that use a wide range of strategies, including short-selling and leverage, to generate high returns.",
+      "explanation": "'Can't have' is used for negative deduction (certainty that something did not happen).",
       "answerIndex": 1,
-      "prompt": "What is a 'Hedge Fund'?"
+      "prompt": "Which modal expresses certainty that an event DID NOT occur?"
     },
     {
-      "id": "finance-b2-w8-q8",
+      "id": "admin-b2-w8-q10",
       "type": "fillBlanks",
-      "explanation": "An underwriter assumes the risk of unsold shares in an IPO.",
-      "prompt": "The investment bank acted as the ________ (guarantor / seller) of the share issue, ensuring the company received the required capital.",
+      "explanation": "Transparency is essential for reducing resistance.",
+      "prompt": "To reduce ________ to change, management should maintain high levels of ________.",
       "answers": [
-        "underwriter"
-      ]
-    },
-    {
-      "id": "finance-b2-w8-q9",
-      "type": "multipleChoice",
-      "options": [
-        "A presentation for company employees",
-        "A series of meetings with potential institutional investors",
-        "A legal document filed with the SEC",
-        "A celebration after a successful IPO"
-      ],
-      "explanation": "An IPO roadshow is a series of presentations made by the management of a company to potential investors before its IPO.",
-      "answerIndex": 1,
-      "prompt": "In the context of an IPO, what is a 'Roadshow'?"
-    },
-    {
-      "id": "finance-b2-w8-q10",
-      "type": "fillBlanks",
-      "explanation": "The maturity date is when the principal is repaid.",
-      "prompt": "The bond reached its ________ (end) date yesterday, and all investors received their principal back.",
-      "answers": [
-        "maturity"
-      ]
-    },
-    {
-      "id": "finance-b2-w8-reading-1",
-      "type": "reading-comprehension",
-      "title": "The Return of the 'Junk Bond': Navigating High-Yield Debt",
-      "text": "In a low-interest-rate environment, investors often engage in a 'search for yield', leading them toward the **High-Yield** bond market. These securities, colloquially known as **Junk Bonds**, are issued by companies with credit ratings below 'Investment Grade'. While they offer significantly higher coupons, the risk of default is non-negligible.\n\nMarket analysts are currently divided. Some argue that the current economic expansion justifies the risk, noting that default rates remain historically low. **Driven** by this optimism, institutional investors have poured billions into high-yield ETFs. However, skeptics point to rising corporate leverage and the potential for a 'liquidity crunch' if interest rates rise suddenly. **Having witnessed** the carnage of the 2008 financial crisis, older traders remain cautious about the quality of the **covenants**—the legal protections for bondholders—in recent issuances. They fear that 'covenant-lite' loans provide too much flexibility to the borrower at the expense of the lender. **Faced** with these conflicting views, retail investors must weigh the allure of high returns against the very real possibility of a **haircut**—a reduction in the value of their investment during a restructuring.",
-      "vocabularyHelp": [
-        {
-          "word": "High-Yield",
-          "definition": "Bonds that pay higher interest rates because they have lower credit ratings than investment-grade bonds."
-        },
-        {
-          "word": "covenants",
-          "definition": "Legally binding promises made by a borrower to a lender to perform or abstain from certain actions."
-        },
-        {
-          "word": "haircut",
-          "definition": "A reduction applied to the value of an asset, often during a debt restructuring or as a safety margin in collateral."
-        },
-        {
-          "word": "leverage",
-          "definition": "The use of borrowed money to increase the potential return of an investment."
-        }
-      ],
-      "questions": [
-        {
-          "question": "What does the 'search for yield' lead investors to do?",
-          "options": [
-            "Buy only government bonds",
-            "Avoid all risk",
-            "Invest in lower-rated, higher-paying bonds",
-            "Keep their money in cash"
-          ],
-          "answerIndex": 2,
-          "explanation": "The text states that a search for yield leads investors toward the high-yield (junk bond) market."
-        },
-        {
-          "question": "What is a 'covenant-lite' loan?",
-          "options": [
-            "A loan with no interest",
-            "A loan with fewer legal protections for the lender",
-            "A loan for small businesses only",
-            "A loan that is easily repaid"
-          ],
-          "answerIndex": 1,
-          "explanation": "The text implies that 'covenant-lite' loans provide flexibility to the borrower at the expense of the lender's protections."
-        },
-        {
-          "question": "Which grammar structure is used in 'Having witnessed the carnage...'?",
-          "options": [
-            "Present Participle Clause",
-            "Past Participle Clause",
-            "Perfect Participle Clause",
-            "Relative Clause"
-          ],
-          "answerIndex": 2,
-          "explanation": "It uses 'Having + past participle' to show an action that happened before the main clause."
-        }
-      ]
-    },
-    {
-      "id": "finance-b2-w8-listening-1",
-      "type": "listening-comprehension",
-      "title": "The Art of Pricing a 'Unicorn' IPO",
-      "transcript": "Host: Today on 'Wall Street Weekly', we're looking at the tech sector's latest IPO. Sarah, you've been tracking 'CloudNexus'. Why is the **valuation** so controversial?\n\nSarah: Well, they're a 'Unicorn'—a private startup valued at over $1 billion. The issue is their path to profitability. **Valued** at $15 billion based on the last private funding round, the public markets might not be as generous. \n\nHost: How do the underwriters determine the final price?\n\nSarah: It's a delicate balance. **Consulting** with major institutional investors during the roadshow, the banks gauge the **appetite** for the stock. If they price it too high, the stock might 'pop' then crash. If too low, the company 'leaves money on the table'. \n\nHost: And what about the **lock-up period**?\n\nSarah: That's crucial. **Restricting** insiders from selling their shares for 180 days after the IPO prevents a massive sell-off that could tank the price. **Having seen** several high-profile tech IPOs struggle recently, investors are being much more selective about which 'Unicorns' they back.",
-      "vocabularyHelp": [
-        {
-          "word": "valuation",
-          "definition": "The process of determining the current worth of an asset or a company."
-        },
-        {
-          "word": "appetite",
-          "definition": "In finance, the level of interest or desire among investors to buy a particular security."
-        },
-        {
-          "word": "lock-up period",
-          "definition": "A window of time (often 180 days) during which company insiders are prohibited from selling their shares after an IPO."
-        },
-        {
-          "word": "Unicorn",
-          "definition": "A private startup company with a valuation of over $1 billion."
-        }
-      ],
-      "questions": [
-        {
-          "question": "What is the main concern regarding CloudNexus's IPO?",
-          "options": [
-            "They have no employees",
-            "Their path to profitability is unclear",
-            "They are too small to be a Unicorn",
-            "The underwriters are inexperienced"
-          ],
-          "answerIndex": 1,
-          "explanation": "Sarah mentions that 'the issue is their path to profitability'."
-        },
-        {
-          "question": "What happens if an IPO is 'priced too low'?",
-          "options": [
-            "The company goes bankrupt",
-            "The company 'leaves money on the table' (misses out on potential capital)",
-            "No one buys the stock",
-            "The underwriters lose their license"
-          ],
-          "answerIndex": 1,
-          "explanation": "Sarah states that if the price is too low, the company 'leaves money on the table'."
-        },
-        {
-          "question": "What is the purpose of the 'lock-up period'?",
-          "options": [
-            "To keep employees from leaving",
-            "To prevent a massive sell-off by insiders immediately after the IPO",
-            "To ensure the company pays its taxes",
-            "To stop the public from buying shares"
-          ],
-          "answerIndex": 1,
-          "explanation": "The lock-up period restricts insiders from selling, preventing a tank in the stock price."
-        }
+        "resistance / transparency"
       ]
     }
   ]

@@ -3,48 +3,66 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana11",
-  "title": "B2 Progress Test: Trimester 1",
-  "description": "Check your readiness for the final B2 trimester assessment.",
+  "title": "Exam: Risk Management & Contingency Planning",
+  "description": "Assessment of risk response terminology and third conditional accuracy.",
   "items": [
     {
-      "id": "fin-b2-w11-e1",
+      "id": "admin-b2-w11-exam-q1",
       "type": "multipleChoice",
-      "prompt": "If a transaction is 'Vouched', it means it was checked against:",
-      "options": ["The CEO's memory", "Supporting documents like invoices", "The stock market price", "The competitor's records"],
-      "answerIndex": 1,
-      "explanation": "Vouching is the check against source documentation."
+      "options": [
+        "Avoidance",
+        "Acceptance",
+        "Mitigation",
+        "Transfer"
+      ],
+      "explanation": "Transfer involves passing the responsibility for a risk to a third party, such as an insurance company.",
+      "answerIndex": 3,
+      "prompt": "Which risk strategy is represented by purchasing insurance?"
     },
     {
-      "id": "fin-b2-w11-e2",
-      "type": "multipleChoice",
-      "prompt": "Identify the passive form: 'The auditors ___ the accounts.'",
-      "options": ["were checking", "checked", "have checked", "are checking"],
-      "answerIndex": 1,
-      "explanation": "Actually, I need to provide passive OPTIONS. Let's fix that in the logic: 'The accounts ___ by the auditors.' Options: [were checked, are checking, check, were check]."
+      "id": "admin-b2-w11-exam-q2",
+      "type": "fillBlanks",
+      "explanation": "Third Conditional (Negative / Positive).",
+      "prompt": "If the administrator ________ (not / forget) to save the file, we ________ (not / have) to redo the work.",
+      "answers": [
+        "hadn't forgotten / wouldn't have had",
+        "had not forgotten / would not have had"
+      ]
     },
     {
-      "id": "fin-b2-w11-e3",
+      "id": "admin-b2-w11-exam-q3",
       "type": "multipleChoice",
-      "prompt": "Correct the passive: 'The accounts ___ by the auditors last week.'",
-      "options": ["were checked", "are checking", "have checked", "were check"],
+      "options": [
+        "Probability and Mitigation",
+        "Impact and Acceptance",
+        "Probability and Impact",
+        "Mitigation and Contingency"
+      ],
+      "explanation": "A risk matrix evaluates risks based on the probability of occurrence and the resulting impact.",
+      "answerIndex": 2,
+      "prompt": "The two primary axes of a standard risk matrix are:"
+    },
+    {
+      "id": "admin-b2-w11-exam-q4",
+      "type": "fillBlanks",
+      "explanation": "A contingency plan is for after the event.",
+      "prompt": "A ________ plan provides a pre-defined set of steps to follow once a risk event has happened.",
+      "answers": [
+        "contingency"
+      ]
+    },
+    {
+      "id": "admin-b2-w11-exam-q5",
+      "type": "multipleChoice",
+      "options": [
+        "If they had tested...",
+        "If they tested...",
+        "If they have tested...",
+        "If they would test..."
+      ],
+      "explanation": "The 'if' part of the third conditional always uses the past perfect ('had + past participle').",
       "answerIndex": 0,
-      "explanation": "Past simple passive is 'were + past participle'."
-    },
-    {
-      "id": "fin-b2-w11-e4",
-      "type": "multipleChoice",
-      "prompt": "Which ratio is a 'Liquidity' metric?",
-      "options": ["Net Profit Margin", "Current Ratio", "Debt-to-Equity", "Return on Assets"],
-      "answerIndex": 1,
-      "explanation": "The current ratio measures short-term liquidity."
-    },
-    {
-      "id": "fin-b2-w11-e5",
-      "type": "multipleChoice",
-      "prompt": "If you are 'speculating' about a past error, you might say:",
-      "options": ["It is an error.", "It could have been an error.", "It will be an error.", "Error is bad."],
-      "answerIndex": 1,
-      "explanation": "'Could have been' expresses speculation about the past."
+      "prompt": "Which phrase correctly starts a third conditional sentence about a past software failure?"
     }
   ]
 }

@@ -1,25 +1,37 @@
 {
-  "title": "Internal Audit, Compliance, and Financial Integrity",
+  "title": "Stakeholder Management & Networking",
   "sections": [
     {
-      "id": "audit-foundations",
-      "title": "Audit Objectives and Materiality",
-      "content": "Auditing is the systematic examination of financial records to ensure accuracy, reliability, and compliance with established standards.\n\n### The Concept of Materiality\nIn auditing, **Materiality** refers to the significance of an amount, transaction, or error. An item is considered material if its omission or misstatement could influence the economic decisions of users. Auditors focus their efforts on areas where the risk of material misstatement is highest.\n\n### Internal vs. External Audit\n- **Internal Audit**: An ongoing, independent appraisal function within an organization. It focuses on improving operational efficiency, internal controls, and risk management.\n- **External Audit**: A periodic examination by an outside firm (e.g., the Big Four) to provide an independent opinion on whether the financial statements present a 'true and fair view' of the company's position."
+      "id": "stakeholder-engagement",
+      "title": "Identifying and Engaging Stakeholders",
+      "content": "A stakeholder is any individual or group who has an interest in or is affected by a project. Effective administration requires identifying these people early and managing their expectations.\n\n### Stakeholder Mapping\nWe often categorise stakeholders using a matrix of **Power** vs. **Interest**:\n- **High Power, High Interest**: Manage closely. These are your key players.\n- **High Power, Low Interest**: Keep satisfied. They have influence but are not deeply involved.\n- **Low Power, High Interest**: Keep informed. They care about the outcome but have little influence.\n- **Low Power, Low Interest**: Monitor only.\n\n### Engagement Strategies\n- **Consultation**: Asking for opinions before making a decision.\n- **Collaboration**: Working together to reach a common goal.\n- **Transparency**: Sharing information openly to build trust."
     },
     {
-      "id": "audit-procedures-evidence",
-      "title": "Audit Procedures and Evidence Gathering",
-      "content": "Auditors use various techniques to gather 'sufficient and appropriate' evidence to support their conclusions.\n\n### Core Procedures\n- **Vouching**: Selecting an entry in the accounting records and following it back to the supporting source document (e.g., an invoice).\n- **Tracing**: The opposite of vouching; taking a source document and ensuring it has been correctly recorded in the ledgers.\n- **Reconciliation**: Comparing two sets of records (like the bank statement and the cash book) to ensure they agree.\n- **Physical Inspection**: Personally verifying the existence of tangible assets like inventory or machinery."
+      "id": "networking-etiquette",
+      "title": "Professional Networking in a UK Context",
+      "content": "Networking is the process of developing and maintaining professional relationships. In the UK, this is often characterized by a blend of politeness, indirectness, and 'small talk'.\n\n### Networking Vocabulary\n- **To reach out**: To make contact with someone.\n- **To follow up**: To maintain contact after an initial meeting.\n- **To leverage**: To use something (like a connection) to maximum advantage.\n- **Mutual Benefit**: A situation where both parties gain something from the relationship.\n- **Elevator Pitch**: A concise, persuasive summary of who you are and what you do."
     },
     {
-      "id": "compliance-aml-kyc",
-      "title": "Regulatory Compliance, AML, and KYC",
-      "content": "Modern finance is heavily regulated to prevent fraud, money laundering, and systemic collapse.\n\n### Key Frameworks\n- **SOX (Sarbanes-Oxley Act)**: US legislation that set new or expanded requirements for all US public company boards, management, and public accounting firms.\n- **AML (Anti-Money Laundering)**: Regulations designed to stop the practice of generating income through illegal actions.\n- **KYC (Know Your Customer)**: The mandatory process of identifying and verifying the identity of clients when opening an account and periodically over time.\n- **GDPR in Finance**: Stringent data protection rules that affect how financial institutions handle sensitive customer information."
+      "id": "grammar-relative-clauses",
+      "title": "Grammar: Relative Clauses for Precision",
+      "content": "Relative clauses allow you to provide essential or extra information about people and things without starting a new sentence. This makes your communication more sophisticated and precise.\n\n### Defining Relative Clauses\nProvide essential information. Without them, the sentence doesn't make sense. No commas.\n- *\"The stakeholder **who** has the most influence is the Finance Director.\"*\n- *\"The report **that** I sent yesterday contains the stakeholder map.\"*\n\n### Non-Defining Relative Clauses\nProvide extra, non-essential information. We use commas.\n- *\"Mr. Henderson, **who** is the CEO of the company, will be attending the meeting.\"*\n- *\"The new project, **which** was approved last week, focuses on stakeholder engagement.\"*\n\n### Relative Pronouns\n- **Who**: People.\n- **Which**: Things.\n- **That**: People or things (Defining only).\n- **Whose**: Possession.\n- **Whom**: People (formal, as the object of a verb or preposition)."
     },
     {
-      "id": "grammar-complex-passives",
-      "title": "Grammar: Complex Passives and Impersonal Reporting",
-      "content": "In formal audit reports, impersonal structures are used to maintain objectivity and distance the writer from the findings.\n\n### It is + Passive + that\n- *\"**It is alleged that** senior management bypassed internal controls to inflate quarterly earnings.\"*\n- *\"**It is widely expected that** the new compliance regulations will be implemented by Q1.\"*\n\n### Subject + Passive + to have + Past Participle\nUsed for speculating or reporting about the past.\n- *\"The discrepancies **were found to have been caused** by a software glitch in the ledger system.\"*\n- *\"The CFO **is rumored to have resigned** following the audit findings.\"*\n\n### Being + Past Participle (Passive Gerund)\n- *\"Most employees dislike **being audited**, but it is a necessary part of corporate transparency.\"*"
+      "id": "professional-phrasing",
+      "title": "Professional Phrasing for Networking",
+      "content": "- \"I am **reaching out** to discuss a potential collaboration.\"\n- \"It was a pleasure meeting you; I will **follow up** with the documents shortly.\"\n- \"We should **leverage** our existing connections to find a new vendor.\"\n- \"Our goal is to ensure a **mutually beneficial** outcome for all stakeholders.\""
     }
+  ],
+  "objectives": [
+    "Categorise stakeholders based on power and interest",
+    "Apply networking etiquette in formal professional contexts",
+    "Use defining and non-defining relative clauses to specify details",
+    "Develop a professional elevator pitch"
+  ],
+  "keyTerms": [
+    { "term": "Stakeholder", "definition": "A person with an interest or concern in something, especially a business." },
+    { "term": "Networking", "definition": "The action or process of interacting with others to exchange information and develop professional or social contacts." },
+    { "term": "Leverage", "definition": "Use (something) to maximum advantage." },
+    { "term": "Follow-up", "definition": "A further action connected with something that happened before." }
   ]
 }

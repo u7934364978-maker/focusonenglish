@@ -1,25 +1,37 @@
 {
-  "title": "International Trade Finance and Supply Chain Solutions",
+  "title": "Conflict Resolution & Constructive Feedback",
   "sections": [
     {
-      "id": "trade-finance-instruments",
-      "title": "Core Instruments of International Trade",
-      "content": "Trade finance bridges the trust gap between exporters and importers by using banks as intermediaries to manage payment and delivery risks.\n\n### Key Documentary Credits\n- **Letter of Credit (LC)**: A bank's guarantee that a seller will receive payment as long as certain delivery conditions are met. If the buyer cannot pay, the bank covers the amount.\n- **Bill of Lading (B/L)**: A legal document issued by a carrier to a shipper that details the type, quantity, and destination of the goods. It serves as a shipment receipt and a document of title.\n- **Documentary Collections**: A process where the exporter's bank collects payment from the importer's bank in exchange for shipping documents (Documents against Payment - D/P or Documents against Acceptance - D/A).\n\n### Guarantees and Standby LCs\n- **Bank Guarantee**: A promise from a bank to pay a beneficiary if the opposing party fails to fulfill contractual obligations.\n- **Standby Letter of Credit (SBLC)**: A 'payment of last resort' that is only triggered if the applicant defaults on a contract."
+      "id": "managing-disagreements",
+      "title": "Navigating Workplace Disagreements",
+      "content": "In a high-pressure administrative environment, disagreements are inevitable. At a B2 level, the focus shifts from avoiding conflict to managing it diplomatically using objective language.\n\n### Conflict Resolution Strategies\n- **Mediation**: Intervening in a dispute to help parties reach a consensus. An administrator often acts as a neutral third party.\n- **Grievance Handling**: Following formal procedures when an employee raises a specific complaint about their treatment or working conditions.\n- **Consensus Building**: The process of reaching an agreement that all group members can support, even if it is not their first choice.\n\n### The 'I' Statement Technique\nTo remain professional and non-accusatory, use 'I' statements rather than 'You' statements:\n- **Instead of**: \"You always miss the deadline for the report.\"\n- **Use**: \"I feel concerned when the report is delayed because it impacts the entire team's workflow.\""
     },
     {
-      "id": "incoterms-risk",
-      "title": "Incoterms 2020 and Risk Mitigation",
-      "content": "Incoterms (International Commercial Terms) define the responsibilities of buyers and sellers for the delivery of goods under sales contracts.\n\n### Common Incoterms\n- **EXW (Ex Works)**: The buyer bears all costs and risks from the seller's premises.\n- **FOB (Free on Board)**: The seller is responsible until the goods are loaded onto the vessel.\n- **CIF (Cost, Insurance, and Freight)**: The seller pays for transport and insurance to the destination port, but risk transfers once goods are on the ship.\n- **DDP (Delivered Duty Paid)**: The seller bears all risks and costs, including duties and taxes, until the goods reach the buyer's location.\n\n### Mitigating Global Risks\n- **Credit Risk**: The danger of a counterparty failing to pay.\n- **Political Risk**: Disruptions caused by government actions, war, or sanctions.\n- **Export Credit Agencies (ECAs)**: Government-backed entities that provide insurance and financing to support domestic exporters."
-    },
-    {
-      "id": "supply-chain-finance",
-      "title": "Supply Chain Finance and Receivables",
-      "content": "Techniques used to optimize working capital and provide liquidity to supply chain partners.\n\n### Factoring vs. Forfaiting\n- **Factoring**: A business sells its accounts receivable (invoices) to a third party (a factor) at a discount to get immediate cash. Usually for short-term receivables.\n- **Forfaiting**: The purchase of an exporter's medium-to-long-term receivables (like bills of exchange) without recourse, meaning the forfaiter takes on all the risk of non-payment.\n\n### Reverse Factoring\nAlso known as **Supply Chain Finance (SCF)**, where a large buyer allows its suppliers to finance their invoices through the buyer's bank at a lower interest rate based on the buyer's superior credit rating."
+      "id": "feedback-frameworks",
+      "title": "Constructive Feedback: Radical Candor",
+      "content": "Giving feedback is a core administrative and leadership skill. Effective feedback should be 'Actionable, Specific, and Kind' (ASK).\n\n### Key Concepts\n- **Constructive Criticism**: Feedback intended to help someone improve, rather than just pointing out flaws.\n- **Radical Candor**: A framework involving 'challenging directly' while 'caring personally'.\n- **Performance Review**: A formal discussion between an employee and manager about their work performance and future goals.\n\n### Professional Phrasing for Feedback\n- \"One area for development is...\"\n- \"I noticed that... which resulted in...\"\n- \"Moving forward, it would be beneficial to...\"\n- \"I'd like to suggest a different approach for...\""
     },
     {
       "id": "grammar-mixed-conditionals",
-      "title": "Grammar: Mixed Conditionals in Trade Contracts",
-      "content": "In trade finance, we often discuss how past events or present conditions affect future or hypothetical outcomes. Mixed conditionals are essential for these nuances.\n\n### Type 1: Past Action -> Present Result\n*Structure: If + Past Perfect, would + bare infinitive*\n- *\"If the exporter **had secured** a Letter of Credit last month, they **wouldn't be** facing this liquidity crisis now.\"*\n- (They didn't secure it, so they have a crisis now).\n\n### Type 2: Present Condition -> Past Result\n*Structure: If + Past Simple, would have + past participle*\n- *\"If our company **were** more risk-averse, we **would have insisted** on a 'Documents against Payment' arrangement.\"*\n- (We aren't very risk-averse, so we didn't insist on it in the past).\n\n### Professional Application\nUse these structures to analyze 'what went wrong' or to justify current strategy based on hypothetical past scenarios."
+      "title": "Grammar: Mixed Conditionals for Conflict Analysis",
+      "content": "Mixed conditionals are used to link a hypothetical past with a present result, or a present condition with a past result. They are invaluable for analyzing how past decisions impact current office conflicts.\n\n### Type 1: Past Action -> Present Result\n*Structure: If + Past Perfect, would + bare infinitive*\n- *\"If we **had addressed** the issue earlier, we **wouldn't be** in this meeting now.\"*\n- (Meaning: We didn't address it, so we are in the meeting now).\n\n### Type 2: Present Condition -> Past Result\n*Structure: If + Past Simple, would have + past participle*\n- *\"If he **were** a more collaborative person, he **would have consulted** the team before making that change.\"*\n- (Meaning: He isn't collaborative, so he didn't consult the team in the past).\n\n### Why use them?\nThey show a deep understanding of cause and effect over time, which is essential for professional reporting and evaluation."
+    },
+    {
+      "id": "vocabulary-conflict",
+      "title": "Essential Vocabulary for Mediation",
+      "content": "1. **To de-escalate**: To reduce the intensity of a conflict.\n2. **To reach a stalemate**: A situation where no progress is possible.\n3. **To seek common ground**: To find areas of agreement.\n4. **To meet halfway**: To make a compromise.\n5. **Friction**: Tension or disagreement between people or groups.\n6. **To take accountability**: To accept responsibility for one's actions."
     }
+  ],
+  "objectives": [
+    "Apply diplomatic language to de-escalate workplace conflicts",
+    "Structure constructive feedback using professional frameworks",
+    "Analyze cause and effect using mixed conditionals",
+    "Identify and use formal vocabulary for mediation and consensus building"
+  ],
+  "keyTerms": [
+    { "term": "Mediation", "definition": "The process of a neutral third party helping others resolve a dispute." },
+    { "term": "Consensus", "definition": "General agreement among a group of people." },
+    { "term": "Stalemate", "definition": "A situation in which no further action or progress can be made by either side in a dispute." },
+    { "term": "Accountability", "definition": "The fact or condition of being required to justify actions or decisions." }
   ]
 }

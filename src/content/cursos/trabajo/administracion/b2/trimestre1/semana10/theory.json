@@ -1,25 +1,37 @@
 {
-  "title": "Financial Performance Measurement and Dashboards",
+  "title": "Project Management Fundamentals",
   "sections": [
     {
-      "id": "advanced-kpis",
-      "title": "Beyond the Basics: Advanced Financial KPIs",
-      "content": "To gauge the true health of a business, analysts look beyond simple profit and loss. Key Performance Indicators (KPIs) provide a more nuanced view of efficiency and value creation.\n\n### Profitability and Return Ratios\n- **EBITDA**: Earnings Before Interest, Taxes, Depreciation, and Amortization. It is used to analyze a company's operating profitability without the impact of financing and accounting decisions.\n- **ROE (Return on Equity)**: Measures how effectively management is using a company’s assets to create profits.\n- **ROCE (Return on Capital Employed)**: A financial ratio that can help in understanding how well a company is generating profits from its capital as it is put to use.\n\n### Liquidity and Solvency Ratios\n- **Quick Ratio (Acid Test)**: Similar to the current ratio but excludes inventory, providing a more conservative view of a company's ability to meet short-term obligations.\n- **Interest Coverage Ratio**: Determines how easily a company can pay interest on its outstanding debt."
+      "id": "project-lifecycle",
+      "title": "The Four Phases of a Project",
+      "content": "A project is a temporary endeavour with a defined beginning and end. Managing it requires a structured approach across four main phases:\n\n1. **Initiation**: Defining the project's purpose, feasibility, and key stakeholders.\n2. **Planning**: Creating a roadmap, setting deadlines, and allocating resources.\n3. **Execution**: Carrying out the work and monitoring progress.\n4. **Closure**: Finalising all activities, handing over deliverables, and reviewing lessons learned.\n\n### Key Concepts\n- **Deliverable**: A tangible or intangible product or service produced as a result of the project.\n- **Scope Creep**: When a project's requirements extend beyond the original plan without a corresponding increase in time or budget.\n- **KPI (Key Performance Indicator)**: A measurable value that demonstrates how effectively a company is achieving key business objectives."
     },
     {
-      "id": "variance-forecasting",
-      "title": "Variance Analysis and Dynamic Forecasting",
-      "content": "Performance management involves comparing actual results against expectations and adjusting future plans accordingly.\n\n### Variance Analysis\n- **Favorable Variance**: Occurs when actual revenue is higher than budgeted, or actual costs are lower.\n- **Adverse (Unfavorable) Variance**: Occurs when actual revenue is lower or costs are higher than planned.\n- **Price vs. Volume Variance**: Breaking down a total variance to see if it was caused by changes in price/cost or by the quantity sold/used.\n\n### Rolling Forecasts\nUnlike a static annual budget, a **Rolling Forecast** is updated regularly (e.g., monthly or quarterly) to reflect the current economic reality. This allow businesses to be more agile in their decision-making."
+      "id": "milestones-tracking",
+      "title": "Milestones and Task Allocation",
+      "content": "To keep a project on track, administrators use milestones and specific task assignments.\n\n### Project Tracking Vocabulary\n- **Milestone**: A significant point or event in a project (e.g., signing a contract or completing a prototype).\n- **Gantt Chart**: A type of bar chart that illustrates a project schedule.\n- **Bottleneck**: As seen in previous weeks, a point where work is delayed.\n- **To delegate**: To entrust a task or responsibility to another person."
     },
     {
-      "id": "dashboards-visualization",
-      "title": "Data Visualization and Financial Dashboards",
-      "content": "A dashboard synthesizes complex data into visual stories. For finance professionals, clarity is more important than decoration.\n\n### Design Principles\n- **Data-to-Ink Ratio**: Maximize the amount of data shown with the minimum amount of 'ink' (avoid unnecessary borders, 3D effects, or 'chart junk').\n- **Real-Time Integration**: Modern dashboards link directly to ERP systems to provide up-to-the-minute data.\n- **Drill-Down Capability**: The ability to click on a high-level metric to see the underlying data transactions."
+      "id": "grammar-future-tenses",
+      "title": "Grammar: Future Perfect & Future Continuous",
+      "content": "In project management, we use these tenses to discuss progress and expectations regarding deadlines.\n\n### Future Continuous (Will be + -ing)\nUsed to describe an action that will be in progress at a specific time in the future.\n- *\"By 2 PM tomorrow, we **will be conducting** the stakeholder interviews.\"*\n- *\"Next month, the team **will be working** on the final deliverables.\"*\n\n### Future Perfect (Will have + past participle)\nUsed to describe an action that will be completed before a specific point in the future. Essential for discussing deadlines.\n- *\"By Friday afternoon, we **will have finished** the project plan.\"*\n- *\"I hope that by next week, the client **will have approved** the budget.\"*\n\n### Comparison\n- *\"At 5 PM, I **will be finishing** the report.\"* (I am in the process of finishing it).\n- *\"By 5 PM, I **will have finished** the report.\"* (The report is already done)."
     },
     {
-      "id": "grammar-modals-deduction",
-      "title": "Grammar: Modals of Deduction for Trend Analysis",
-      "content": "When we don't have all the facts, we use modal verbs to express how certain we are about the causes of a financial trend.\n\n### Present Deduction\n- **Must be**: 90-100% certain. *\"The liquidity ratio is falling; there **must be** a problem with our collections process.\"*\n- **Can't be**: 90-100% certain (negative). *\"The ROE is 40%; that **can't be** right for this industry. Let's re-calculate.\"*\n- **Might / Could / May be**: 30-50% certain. *\"The increase in COGS **might be** due to the recent tariff hikes.\"*\n\n### Past Deduction (Modal + have + Past Participle)\n- **Must have been**: *\"Profits surged in Q3; the new marketing campaign **must have been** a success.\"*\n- **Could have been**: *\"The budget variance **could have been** caused by the unexpected strike at the port.\"*\n- **Can't have been**: *\"They **can't have known** about the acquisition, or the stock price would have moved earlier.\"*"
+      "id": "professional-phrasing",
+      "title": "Professional Phrasing for Project Updates",
+      "content": "- \"We are currently in the **execution phase** of the project.\"\n- \"To avoid **scope creep**, we must strictly adhere to the original brief.\"\n- \"By the end of the quarter, we **will have achieved** all our **KPIs**.\"\n- \"I'll **be monitoring** the project's progress via the **Gantt chart**.\""
     }
+  ],
+  "objectives": [
+    "Identify and describe the four phases of a project lifecycle",
+    "Define key project management terms (KPIs, deliverables, scope creep)",
+    "Use Future Continuous to describe ongoing future activities",
+    "Use Future Perfect to state deadlines and expected completion points"
+  ],
+  "keyTerms": [
+    { "term": "Deliverable", "definition": "A thing able to be provided, especially as a product of a development process." },
+    { "term": "KPI", "definition": "Key Performance Indicator: a quantifiable measure used to evaluate the success of an organization." },
+    { "term": "Milestone", "definition": "A significant stage or event in the development of something." },
+    { "term": "Scope Creep", "definition": "The uncontrolled expansion to product or project scope without adjustments to time, cost, and resources." }
   ]
 }

@@ -3,137 +3,66 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana08",
-  "title": "Month 2 Final Exam: Executive Review",
-  "description": "15 questions evaluating Month 2 topics: investment, risk management, M&A, and executive reporting.",
+  "title": "Exam: Change Management & Innovation",
+  "description": "Assessment of change management vocabulary and modal verbs for deduction.",
   "items": [
     {
-      "id": "finance-b2-w8-exam-q1",
-      "type": "multiple_choice",
-      "question": "Which document provides a high-level summary for senior decision-makers?",
-      "options": ["Audit Log", "Executive Summary", "Balance Sheet", "Transaction Receipt"],
-      "answer": "Executive Summary",
-      "explanation": "Executive summaries highlight the most important parts of a report."
-    },
-    {
-      "id": "finance-b2-w8-exam-q2",
-      "type": "fill_in_the_blank",
-      "question": "The analyst ________ (confirm) that the synergies would save $5 million.",
-      "answer": "confirmed",
-      "explanation": "Reporting verb for fact."
-    },
-    {
-      "id": "finance-b2-w8-exam-q3",
-      "type": "multiple_choice",
-      "question": "What is 'Diversification'?",
+      "id": "admin-b2-w8-exam-q1",
+      "type": "multipleChoice",
       "options": [
-        "Buying only one stock",
-        "Spreading investments to reduce risk",
-        "Selling all assets for cash",
-        "Investing in only one country"
+        "Must have",
+        "Might have",
+        "Should have",
+        "Can't have"
       ],
-      "answer": "Spreading investments to reduce risk",
-      "explanation": "Diversification is a key risk management strategy."
+      "explanation": "We use 'must have' when we are almost certain about a past event based on evidence.",
+      "answerIndex": 0,
+      "prompt": "Which modal expresses a high degree of certainty that a past event occurred?"
     },
     {
-      "id": "finance-b2-w8-exam-q4",
-      "type": "multiple_choice",
-      "question": "An insurance 'Premium' is:",
+      "id": "admin-b2-w8-exam-q2",
+      "type": "fillBlanks",
+      "explanation": "To streamline is to simplify a process.",
+      "prompt": "We need to ________ our communication channels to ensure everyone receives updates simultaneously.",
+      "answers": [
+        "streamline"
+      ]
+    },
+    {
+      "id": "admin-b2-w8-exam-q3",
+      "type": "multipleChoice",
       "options": [
-        "The cost of the policy",
-        "The payout for a claim",
-        "The deductible amount",
-        "A type of tax"
+        "Resistance",
+        "Buy-in",
+        "Bottleneck",
+        "Pivot"
       ],
-      "answer": "The cost of the policy",
-      "explanation": "Premiums are paid to the insurer."
+      "explanation": "A bottleneck is a part of a process that slows everything else down.",
+      "answerIndex": 2,
+      "prompt": "Which term describes a point of congestion in a system that creates delays?"
     },
     {
-      "id": "finance-b2-w8-exam-q5",
-      "type": "fill_in_the_blank",
-      "question": "The stock market is crashing. Investors ________ (be) very worried.",
-      "answer": "must be",
-      "explanation": "Strong present deduction."
+      "id": "admin-b2-w8-exam-q4",
+      "type": "fillBlanks",
+      "explanation": "Modal for negative deduction.",
+      "prompt": "The team ________ (can't / receive) the email yesterday, otherwise they would have replied by now.",
+      "answers": [
+        "can't have received",
+        "cannot have received"
+      ]
     },
     {
-      "id": "finance-b2-w8-exam-q6",
-      "type": "multiple_choice",
-      "question": "What is 'Due Diligence'?",
+      "id": "admin-b2-w8-exam-q5",
+      "type": "multipleChoice",
       "options": [
-        "A formal apology",
-        "A comprehensive appraisal of a target company",
-        "A bank loan",
-        "A marketing plan"
+        "A sudden, drastic change",
+        "A small, gradual improvement",
+        "A complete failure",
+        "A lack of support"
       ],
-      "answer": "A comprehensive appraisal of a target company",
-      "explanation": "Due diligence is essential in M&A."
-    },
-    {
-      "id": "finance-b2-w8-exam-q7",
-      "type": "multiple_choice",
-      "question": "A 'Benchmark' is used to:",
-      "options": ["Fix prices", "Measure performance", "Hire staff", "Pay dividends"],
-      "answer": "Measure performance",
-      "explanation": "Performance is compared against a standard."
-    },
-    {
-      "id": "finance-b2-w8-exam-q8",
-      "type": "fill_in_the_blank",
-      "question": "By next month, the integration team ________ (complete) the first phase.",
-      "answer": "will have completed",
-      "explanation": "Future Perfect."
-    },
-    {
-      "id": "finance-b2-w8-exam-q9",
-      "type": "multiple_choice",
-      "question": "Which term describes 'intangible value like brand reputation'?",
-      "options": ["Goodwill", "Equity", "Liability", "Asset"],
-      "answer": "Goodwill",
-      "explanation": "Goodwill is an intangible asset in M&A."
-    },
-    {
-      "id": "finance-b2-w8-exam-q10",
-      "type": "fill_in_the_blank",
-      "question": "The CEO ________ (deny) that the company was for sale.",
-      "answer": "denied",
-      "explanation": "Reporting verb."
-    },
-    {
-      "id": "finance-b2-w8-exam-q11",
-      "type": "multiple_choice",
-      "question": "What is 'Volatility'?",
-      "options": ["Growth", "Stability", "Degree of price variation", "Liquidity"],
-      "answer": "Degree of price variation",
-      "explanation": "Volatility measures price fluctuations."
-    },
-    {
-      "id": "finance-b2-w8-exam-q12",
-      "type": "multiple_choice",
-      "question": "An LBO uses ________ to buy a company.",
-      "options": ["Cash only", "Debt (leverage)", "Goodwill", "Employee savings"],
-      "answer": "Debt (leverage)",
-      "explanation": "LBO stands for Leveraged Buyout."
-    },
-    {
-      "id": "finance-b2-w8-exam-q13",
-      "type": "fill_in_the_blank",
-      "question": "The auditor ________ (not / find) any errors; he looks very relaxed.",
-      "answer": "can't have found",
-      "explanation": "Strong negative past deduction."
-    },
-    {
-      "id": "finance-b2-w8-exam-q14",
-      "type": "multiple_choice",
-      "question": "Synergy in M&A means:",
-      "options": ["Combined value is higher", "Combined value is lower", "No change", "Bankruptcy"],
-      "answer": "Combined value is higher",
-      "explanation": "Synergy is the goal of most mergers."
-    },
-    {
-      "id": "finance-b2-w8-exam-q15",
-      "type": "fill_in_the_blank",
-      "question": "We ________ (be) managing over $1 billion by the end of the year.",
-      "answer": "will be",
-      "explanation": "Future state/Continuous."
+      "explanation": "Incremental innovation refers to small, continuous improvements.",
+      "answerIndex": 1,
+      "prompt": "What does 'incremental innovation' refer to?"
     }
   ]
 }

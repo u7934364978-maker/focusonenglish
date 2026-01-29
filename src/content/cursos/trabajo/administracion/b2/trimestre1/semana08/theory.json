@@ -1,25 +1,37 @@
 {
-  "title": "Capital Markets, Debt Financing, and Equity Issuance",
+  "title": "Change Management & Innovation",
   "sections": [
     {
-      "id": "equity-markets-ipo",
-      "title": "Equity Capital Markets (ECM) and the IPO Process",
-      "content": "Equity markets allow companies to raise capital by selling shares to investors. This process is often facilitated by investment banks acting as underwriters.\n\n### The IPO Journey\n- **Initial Public Offering (IPO)**: The first time a private company offers its shares to the public. It provides liquidity for early investors and capital for expansion.\n- **Underwriting**: The process where a financial institution (the underwriter) guarantees the sale of the shares and assumes the risk of unsold stock.\n- **Roadshow**: A series of presentations to potential institutional investors to generate interest and determine the offer price.\n- **Secondary Offering**: When a company that is already public issues additional shares to raise more capital."
+      "id": "change-management",
+      "title": "Implementing Organisational Change",
+      "content": "Change management is the structured approach to transitioning individuals, teams, and organisations from a current state to a desired future state. In administration, this often involves new software, restructured workflows, or policy updates.\n\n### Key Concepts in Change\n- **Buy-in**: Obtaining agreement and support from stakeholders for a proposed change.\n- **Resistance to Change**: The natural emotional and behavioural reaction to perceived threats during a transition.\n- **To Streamline**: To make a system or process more efficient by removing unnecessary steps.\n- **To Pivot**: To change strategy or direction quickly in response to new information or market conditions.\n\n### Overcoming Resistance\nResistance often stems from a lack of communication. Administrators should focus on:\n1. **Transparency**: Explaining the 'why' behind the change.\n2. **Training**: Ensuring staff have the skills to handle new processes.\n3. **Incentivisation**: Highlighting the benefits for the employees themselves."
     },
     {
-      "id": "debt-markets-bonds",
-      "title": "Debt Capital Markets (DCM) and Fixed Income",
-      "content": "Companies and governments raise debt by issuing bonds. Unlike equity, debt must be repaid with interest.\n\n### Core Bond Concepts\n- **Coupon Rate**: The annual interest rate paid by the bond issuer to the bondholder.\n- **Maturity Date**: The date on which the principal amount of the bond is due to be repaid.\n- **Yield to Maturity (YTM)**: The total return anticipated on a bond if it is held until it matures.\n- **Credit Ratings**: Assessments by agencies like S&P, Moody's, and Fitch that evaluate the issuer's ability to repay debt. 'Investment Grade' bonds are considered safer, while 'High Yield' (or Junk) bonds offer higher returns for higher risk."
+      "id": "innovation-culture",
+      "title": "Fostering a Culture of Innovation",
+      "content": "Innovation is not just about technology; it is about finding better ways to solve problems.\n\n### Innovation Vocabulary\n- **Disruptive**: Something that completely changes the way an industry or process works.\n- **Incremental**: Small, gradual improvements over time.\n- **Agile**: An approach characterized by the division of tasks into short phases of work and frequent reassessment.\n- **Bottleneck**: A point in a process where the flow is restricted, causing delays."
     },
     {
-      "id": "market-participants",
-      "title": "Institutional Investors and Market Liquidity",
-      "content": "Capital markets are driven by a variety of participants, each with different objectives and risk tolerances.\n\n### Key Players\n- **Institutional Investors**: Large organizations (pension funds, insurance companies, sovereign wealth funds) that trade securities in huge volumes.\n- **Hedge Funds**: Private investment partnerships that use aggressive strategies, including leverage and short-selling, to achieve high returns.\n- **Private Equity (PE)**: Firms that invest directly in private companies or conduct 'buyouts' of public companies to take them private.\n- **Market Makers**: Firms that stand ready to buy and sell a particular stock on a regular and continuous basis at a publicly quoted price."
+      "id": "grammar-modals-deduction",
+      "title": "Grammar: Modals for Deduction & Speculation",
+      "content": "When analyzing why a past change failed or succeeded, we use modal verbs for deduction. This allows us to speculate about past events with varying degrees of certainty.\n\n### Certainty (High)\n- **Must have + past participle**: We are almost certain something happened.\n  - *\"The implementation **must have failed** due to a lack of training.\"*\n- **Can't have + past participle**: We are almost certain something did NOT happen.\n  - *\"They **can't have tested** the software properly before the launch.\"*\n\n### Possibility (Medium to Low)\n- **Might / May / Could have + past participle**: We think it is possible, but we aren't sure.\n  - *\"The team **might have resisted** the change because they weren't consulted.\"*\n  - *\"A technical glitch **could have caused** the data loss during migration.\"*\n\n### Regret or Criticism\n- **Should have + past participle**: Something was a good idea but didn't happen.\n  - *\"We **should have communicated** the timeline more clearly.\"*"
     },
     {
-      "id": "grammar-participle-clauses",
-      "title": "Grammar: Participle Clauses in Market Analysis",
-      "content": "Participle clauses allow you to provide extra information more concisely, which is vital for professional market reports.\n\n### Present Participle (-ing) for Simultaneous Actions\n- *\"**Analysing** the latest jobs report, the Fed decided to keep interest rates steady.\"*\n- (The Fed analyzed the report and decided at the same time).\n\n### Past Participle (-ed) for Passive Meaning\n- *\"**Backed** by a strong balance sheet, the tech giant launched its first bond issuance.\"*\n- (The tech giant is backed by a strong balance sheet).\n\n### Perfect Participle (Having + Past Participle) for Sequential Actions\n- *\"**Having completed** the roadshow, the company successfully priced its IPO at the top of the range.\"*\n- (First they completed the roadshow, then they priced the IPO)."
+      "id": "professional-phrasing",
+      "title": "Professional Phrasing for Change Proposals",
+      "content": "- \"We are proposing to **streamline** our administrative workflows.\"\n- \"To ensure **buy-in**, we will hold a series of workshops.\"\n- \"The current system is reaching a **bottleneck**, necessitating a **pivot** in our strategy.\"\n- \"We anticipate some **initial resistance**, which we will address through training.\""
     }
+  ],
+  "objectives": [
+    "Identify and describe stages of organisational change",
+    "Use modal verbs to speculate about past project outcomes",
+    "Apply vocabulary related to innovation and process improvement",
+    "Structure a formal proposal for a change in administrative policy"
+  ],
+  "keyTerms": [
+    { "term": "Buy-in", "definition": "Acceptance of and willingness to actively support and participate in something." },
+    { "term": "Streamline", "definition": "Make (an organization or system) more efficient and effective by employing faster or simpler working methods." },
+    { "term": "Pivot", "definition": "A fundamental change in strategy." },
+    { "term": "Resistance", "definition": "The refusal to accept or comply with something; the attempt to prevent something by action or argument." }
   ]
 }

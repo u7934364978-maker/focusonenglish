@@ -3,48 +3,65 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana10",
-  "title": "Week 10 Quiz: KPIs & Dashboards",
-  "description": "Assess your ability to analyze financial metrics and trends.",
+  "title": "Exam: Project Management Fundamentals",
+  "description": "Assessment of project management terminology and future tense accuracy.",
   "items": [
     {
-      "id": "fin-b2-w10-e1",
+      "id": "admin-b2-w10-exam-q1",
       "type": "multipleChoice",
-      "prompt": "Which ratio measures financial leverage?",
-      "options": ["Current Ratio", "Debt-to-Equity", "Quick Ratio", "Gross Margin"],
+      "options": [
+        "Deliverable",
+        "KPI",
+        "Milestone",
+        "Scope Creep"
+      ],
+      "explanation": "KPI stands for Key Performance Indicator, a quantifiable measure of success.",
       "answerIndex": 1,
-      "explanation": "Debt-to-Equity shows how much a company is financed by debt vs. its own funds."
+      "prompt": "What does 'KPI' stand for in project management?"
     },
     {
-      "id": "fin-b2-w10-e2",
-      "type": "multipleChoice",
-      "prompt": "If you are 'almost certain' that something happened in the past, you use:",
-      "options": ["Should have", "Must have", "Might have", "Could have"],
-      "answerIndex": 1,
-      "explanation": "'Must have' indicates strong positive deduction."
+      "id": "admin-b2-w10-exam-q2",
+      "type": "fillBlanks",
+      "explanation": "Future Continuous (Will be + -ing).",
+      "prompt": "This time next week, the development team ________ (test) the new software.",
+      "answers": [
+        "will be testing"
+      ]
     },
     {
-      "id": "fin-b2-w10-e3",
+      "id": "admin-b2-w10-exam-q3",
       "type": "multipleChoice",
-      "prompt": "What is an 'unfavorable variance'?",
-      "options": ["Costs are lower than budget", "Revenue is higher than budget", "Costs are higher than budget", "The budget was wrong"],
-      "answerIndex": 2,
-      "explanation": "If you spend more than planned, it is unfavorable."
+      "options": [
+        "Initiation -> Planning -> Execution -> Closure",
+        "Planning -> Initiation -> Execution -> Closure",
+        "Initiation -> Execution -> Planning -> Closure",
+        "Execution -> Planning -> Initiation -> Closure"
+      ],
+      "explanation": "The standard sequence is Initiation, Planning, Execution, and finally Closure.",
+      "answerIndex": 0,
+      "prompt": "What is the correct order of the four project phases?"
     },
     {
-      "id": "fin-b2-w10-e4",
-      "type": "multipleChoice",
-      "prompt": "A dashboard shows a 'Net Profit Margin' of 15%. This is a measure of:",
-      "options": ["Liquidity", "Profitability", "Efficiency", "Solvency"],
-      "answerIndex": 1,
-      "explanation": "Margins are primary indicators of profitability."
+      "id": "admin-b2-w10-exam-q4",
+      "type": "fillBlanks",
+      "explanation": "Future Perfect (Will have + past participle).",
+      "prompt": "By the time the manager returns, I ________ (prepare) the final presentation.",
+      "answers": [
+        "will have prepared"
+      ]
     },
     {
-      "id": "fin-b2-w10-e5",
+      "id": "admin-b2-w10-exam-q5",
       "type": "multipleChoice",
-      "prompt": "To 'drill down' into dashboard data means to:",
-      "options": ["Delete the data", "Look at the data in more detail", "Change the color of the graph", "Close the program"],
+      "options": [
+        "A delay in the project schedule",
+        "The uncontrolled expansion of project scope",
+        "A decrease in project costs",
+        "The completion of a project phase"
+      ],
+      "explanation": "Scope creep refers to adding requirements without increasing resources or time.",
       "answerIndex": 1,
-      "explanation": "Drilling down involves moving from a high-level summary to more granular details."
+      "prompt": "Which of the following defines 'Scope Creep'?"
     }
   ]
 }

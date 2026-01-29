@@ -1,25 +1,37 @@
 {
-  "title": "Trimestre 1 Review: Advanced Banking and Finance",
+  "title": "Trimestre 1 Review & Final Project Proposal",
   "sections": [
     {
-      "id": "recap-month-1",
-      "title": "Month 1 Recap: Reporting and Taxation",
-      "content": "The first month focused on the core foundations of financial reporting and the complexities of international tax.\n\n### Key Financial Statements\n- **Balance Sheet, P&L, and Cash Flow**: Understanding how these statements interact (e.g., how net income flows into retained earnings).\n- **Ratio Analysis**: Using the **DuPont Model** to break down ROE into profit margin, asset turnover, and financial leverage.\n\n### Global Taxation and BEPS\n- **Transfer Pricing**: The pricing of goods/services between related entities to ensure 'arm’s length' transactions.\n- **BEPS (Base Erosion and Profit Shifting)**: OECD strategies to prevent multinational firms from shifting profits to low-tax jurisdictions."
+      "id": "trimester-review",
+      "title": "Consolidating Your Administrative Skills",
+      "content": "This week focuses on reviewing the core competencies covered during the first trimester. From operational onboarding to risk management, you have developed the vocabulary and grammatical precision required for B2-level administration.\n\n### Key Competencies Reviewed:\n- **Operations**: Escalation, onboarding, and standard operating procedures (SOPs).\n- **People Management**: Conflict resolution, constructive feedback, and delegation.\n- **Project & Change Management**: Lifecycles, stakeholder mapping, and navigating organisational change.\n- **Risk**: Mitigation, contingency planning, and disaster recovery."
     },
     {
-      "id": "recap-month-2",
-      "title": "Month 2 Recap: Risk, Trade, and Markets",
-      "content": "Month 2 expanded into the tools used to manage global risk and raise capital.\n\n### Risk Management\n- **VaR (Value at Risk)** and **Stress Testing** for market stability.\n- **Derivatives**: Using Options, Futures, and Swaps to hedge against volatility.\n\n### International Trade Finance\n- **Letters of Credit (LC)** and **Bills of Lading (B/L)** as trust mechanisms.\n- **Incoterms 2020**: Defining risk transfer in global logistics (FOB, CIF, DDP).\n\n### Capital Markets (ECM/DCM)\n- **The IPO Process**: Underwriting, roadshows, and valuation.\n- **Debt Markets**: Bond mechanics (coupons, yields, ratings) and the 'search for yield' in the high-yield market."
+      "id": "project-proposal",
+      "title": "Structuring a Professional Proposal",
+      "content": "Your final task for this trimester is to draft a project proposal for an administrative improvement within a hypothetical or real organisation.\n\n### Proposal Structure:\n1. **Executive Summary**: A high-level overview of the proposed change.\n2. **Current Situation**: Identifying the bottleneck or issue to be addressed.\n3. **Proposed Solution**: Describing the project and its deliverables.\n4. **Stakeholder Analysis**: Identifying key players and engagement strategies.\n5. **Risk Assessment**: Outlining potential risks and mitigation plans.\n6. **Timeline**: Stating key milestones using future tenses."
     },
     {
-      "id": "recap-month-3",
-      "title": "Month 3 Recap: Audit, KPIs, and Governance",
-      "content": "The final month focused on integrity, performance measurement, and the ethical framework of finance.\n\n### Internal Audit and Compliance\n- **Audit Procedures**: Vouching, tracing, and reconciliation.\n- **Regulatory Frameworks**: SOX, AML, and KYC.\n\n### Performance Measurement\n- **Advanced KPIs**: EBITDA, ROCE, and the Quick Ratio.\n- **Variance Analysis**: Understanding favorable vs. adverse variances through 'drill-down' analysis on dashboards.\n\n### Corporate Governance and Ethics\n- **Board Structures**: Unitary vs. Dual systems.\n- **Ethical Dilemmas**: Creative accounting, insider trading, and the **Agency Problem**.\n- **ESG**: The growing importance of Environmental, Social, and Governance criteria in investment."
+      "id": "grammar-review",
+      "title": "Grammar: A Comprehensive Synthesis",
+      "content": "Review the core structures used for professional precision:\n\n### Conditionals\n- **Mixed**: Linking past hypothetical actions to present results (*If we had... we wouldn't be...*).\n- **Third**: Analyzing past failures (*If it had happened, we would have...*).\n\n### Future Tenses\n- **Continuous**: Ongoing activities in the future (*We will be testing...*).\n- **Perfect**: Deadlines and completions (*We will have finished...*).\n\n### Modals and Relative Clauses\n- **Deduction**: Speculating about past events (*Must have*, *Can't have*).\n- **Precision**: Providing essential or extra details about stakeholders and projects using *who*, *which*, and *that*."
     },
     {
-      "id": "grammar-comprehensive-review",
-      "title": "Grammar: Master Review for Finance Professionals",
-      "content": "Review these eight key structures to ensure professional accuracy in your final assessment.\n\n1. **Future Forms**: Predictions and commitments (*\"We will achieve...\"*, *\"We are going to...\"*).\n2. **Advanced Conditionals**: Speculating about risk (*\"If the Fed raises rates, we might...\"*).\n3. **Reporting Verbs**: Precise communication (*\"The analyst suggested waiting.\"*).\n4. **Mixed Conditionals**: Linking past causes to present effects (*\"If they had hedged, they wouldn't be...\"*).\n5. **Participle Clauses**: Concise reporting (*\"Having secured the deal, the CEO...\"*).\n6. **Complex Passives**: Impersonal audit findings (*\"It is alleged that...\"*, *\"The errors were found to have been...\"*).\n7. **Modals of Deduction**: Interpreting trends (*\"Sales must have increased due to...\"*).\n8. **The Subjunctive**: Recommendations (*\"We recommend that the board approve...\"*)."
+      "id": "professional-growth",
+      "title": "Reflecting on Professional Growth",
+      "content": "Self-reflection is a key part of the 'Closure' phase of any learning process. Consider the following:\n- Which areas of administration do you feel most confident in?\n- Which grammatical structures require further practice?\n- How will you apply these skills in your future career?"
     }
+  ],
+  "objectives": [
+    "Synthesise vocabulary and concepts from the entire trimester",
+    "Draft a comprehensive project proposal for an administrative improvement",
+    "Correctly apply complex grammar (conditionals, future tenses, modals) in a formal context",
+    "Evaluate personal progress and identify areas for future development"
+  ],
+  "keyTerms": [
+    { "term": "Executive Summary", "definition": "A short document or section of a document that summarizes a longer report or proposal." },
+    { "term": "Synthesis", "definition": "The combination of components or elements to form a connected whole." },
+    { "term": "Competency", "definition": "The ability to do something successfully or efficiently." },
+    { "term": "Proposal", "definition": "A plan or suggestion, especially a formal or written one, put forward for consideration by others." }
   ]
 }
