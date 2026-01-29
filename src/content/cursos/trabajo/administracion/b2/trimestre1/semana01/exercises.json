@@ -6,168 +6,147 @@
   "title": "Exercises: Onboarding Ops & Professional Protocols",
   "items": [
     {
-      "id": "adm-b2-w1-r1",
+      "id": "adm-b2-w1-ex01",
       "type": "reading-comprehension",
-      "title": "CasePack: Internal Communication & Ways of Working",
-      "text": "Subject: Welcome to Operations — quick intro & ways of working\n\nHi everyone,\n\nPlease join me in welcoming Alex Taylor to the Operations team. Alex will support day-to-day coordination across teams and help us keep requests moving.\n\nWays of working (recap):\n1. Use the Ops Inbox for requests that can’t be solved within your team.\n2. If a request is time-sensitive, flag it as Urgent and include a deadline.\n3. We track work in the Ops Board (status: New / In progress / Blocked / Done).\n4. If something is blocked for more than 24 hours, please escalate in the daily check-in.\n\nThanks,\nPriya",
-      "vocabularyHelp": [
-        { "word": "time-sensitive", "definition": "Needing to be dealt with very quickly." },
-        { "word": "flag", "definition": "To mark something for attention." },
-        { "word": "escalate", "definition": "To involve higher management in a problem." },
-        { "word": "blocked", "definition": "Prevented from making progress." }
-      ],
+      "title": "Exercise 1: Email Comprehension (Doc A)",
+      "text": "Doc A — Internal Email (Welcome)\n\nSubject: Welcome to Operations — quick intro & ways of working\n\nHi everyone,\n\nPlease join me in welcoming Alex Taylor to the Operations team. Alex will support day-to-day coordination across teams and help us keep requests moving.\n\nWays of working (recap):\n1. Use the Ops Inbox for requests that can’t be solved within your team.\n2. If a request is time-sensitive, flag it as Urgent and include a deadline.\n3. We track work in the Ops Board (status: New / In progress / Blocked / Done).\n4. If something is blocked for more than 24 hours, please escalate in the daily check-in.\n\nThanks,\nPriya",
       "questions": [
         {
-          "question": "What are the four statuses used on the Ops Board?",
-          "options": [
-            "Open, Closed, Pending, Archived",
-            "New, In progress, Blocked, Done",
-            "Draft, Review, Publish, Done",
-            "To-do, Doing, Testing, Finished"
-          ],
+          "question": "Where should requests that cannot be solved within your team be sent?",
+          "options": ["Finance Inbox", "Ops Inbox", "Personal email"],
           "answerIndex": 1,
-          "explanation": "The email specifies: New / In progress / Blocked / Done."
+          "explanation": "Doc A states: 'Use the Ops Inbox for requests that can’t be solved within your team.'"
         },
         {
-          "question": "When should an issue be escalated according to the email?",
-          "options": [
-            "Immediately when a blocker appears",
-            "After 8 hours of being blocked",
-            "If it remains blocked for more than 24 hours",
-            "Only on Friday afternoons"
-          ],
-          "answerIndex": 2,
-          "explanation": "The text states: 'If something is blocked for more than 24 hours, please escalate'."
-        },
-        {
-          "question": "What two things must be done for time-sensitive requests?",
-          "options": [
-            "Call Priya and send a Slack message",
-            "Use the Ops Board and the Ops Inbox",
-            "Flag as Urgent and include a deadline",
-            "Wait for the daily check-in"
-          ],
-          "answerIndex": 2,
-          "explanation": "The email says: 'flag it as Urgent and include a deadline'."
+          "question": "What must be included if a request is time-sensitive?",
+          "options": ["An emoji", "A deadline", "Nothing, just 'ASAP'"],
+          "answerIndex": 1,
+          "explanation": "Doc A states: 'flag it as Urgent and include a deadline.'"
         }
       ]
     },
     {
-      "id": "adm-b2-w1-q1",
+      "id": "adm-b2-w1-ex02",
       "type": "multipleChoice",
-      "prompt": "According to the Escalation Guidelines, which of these is a valid reason to escalate?",
+      "prompt": "Exercise 2: When to Escalate (Doc B). According to the SOP, which of these are valid reasons to escalate? (Select the most complete and correct option)",
       "options": [
-        "A colleague has a difficult personality.",
-        "A customer-facing commitment is at risk.",
-        "You want to change the daily meeting time.",
-        "The Ops Inbox has too many emails."
+        "Only when you don't like someone's tone.",
+        "When a customer-facing commitment is at risk, a dependency is blocked, or you need a decision from another team.",
+        "Every time you finish a task on the Ops Board.",
+        "Only if Priya is not in the office."
       ],
       "answerIndex": 1,
-      "explanation": "Escalation is used when critical commitments are at risk."
+      "explanation": "Doc B specifies: Escalate when (1) a customer-facing commitment is at risk; (2) a dependency is blocked; (3) you need a decision from another team."
     },
     {
-      "id": "adm-b2-w1-matching-1",
-      "type": "matching",
-      "prompt": "Match the term with its correct definition in an Operations context.",
-      "pairs": [
-        {"term": "Stakeholder", "definition": "Person with an interest in the process"},
-        {"term": "Blocker", "definition": "Obstacle preventing progress"},
-        {"term": "Handover", "definition": "Transferring responsibility to another"},
-        {"term": "Action Item", "definition": "Specific task assigned in a meeting"}
-      ]
-    },
-    {
-      "id": "adm-b2-w1-micro-1",
+      "id": "adm-b2-w1-ex03",
       "type": "multipleChoice",
-      "prompt": "Complete the phrase: 'Please ___ this as urgent and include a ___.'",
+      "prompt": "Exercise 3: Daily Check-in Structure (Doc C). What is the correct standard sequence for the check-in?",
+      "options": [
+        "Today -> Yesterday -> Blockers -> Escalation -> Owners",
+        "Blockers -> Today -> Yesterday -> Owners -> Escalation",
+        "Yesterday -> Today -> Blockers -> Escalation -> Owners & dates",
+        "Owners -> Escalation -> Blockers -> Today -> Yesterday"
+      ],
+      "answerIndex": 2,
+      "explanation": "The standard sequence follows: Yesterday / Today / Blockers / Escalation / Owners & dates."
+    },
+    {
+      "id": "adm-b2-w1-ex04",
+      "type": "multipleChoice",
+      "prompt": "Exercise 4: Operations Chunks. Complete the sentence: 'Please ___ this as urgent and include a clear ___.'",
       "options": [
         "mark / date",
+        "report / note",
         "flag / deadline",
-        "send / time",
-        "report / note"
+        "send / time"
+      ],
+      "answerIndex": 2,
+      "explanation": "The standard professional chunk is 'flag as urgent' and 'include a deadline'."
+    },
+    {
+      "id": "adm-b2-w1-ex05",
+      "type": "writingTask",
+      "prompt": "Exercise 5: Neutralizing Tone. Rewrite the following sentence in professional UK English to be neutral and factual: 'Your team is blocking us again.'",
+      "modelAnswer": "We’re currently blocked while we wait for your team’s confirmation.",
+      "keywords": ["blocked", "wait", "confirmation"]
+    },
+    {
+      "id": "adm-b2-w1-ex06",
+      "type": "writingTask",
+      "prompt": "Exercise 6: Escalation Checklist. List the 5 key pieces of information that must be included in a professional escalation according to Doc B.",
+      "modelAnswer": "1. Facts (what happened)\n2. Impact\n3. Deadline\n4. What I tried\n5. What I need (decision/resource/confirmation)",
+      "keywords": ["facts", "impact", "deadline", "tried", "need"]
+    },
+    {
+      "id": "adm-b2-w1-ex07",
+      "type": "writingTask",
+      "prompt": "Exercise 7: Extracting Action Points. Based on Doc A, extract 3 'action points' using the format 'Action: ... Owner: ... Date: ...'",
+      "modelAnswer": "Action: Use the Ops Inbox for unresolved requests. Owner: All teams. Date: Ongoing.\nAction: Flag urgent requests and include a deadline. Owner: Requester. Date: When raising request.\nAction: Escalate items blocked for more than 24 hours. Owner: Task owner. Date: Next daily check-in.",
+      "keywords": ["Action", "Owner", "Date", "Inbox", "Flag", "Escalate"]
+    },
+    {
+      "id": "adm-b2-w1-ex08",
+      "type": "multipleChoice",
+      "prompt": "Exercise 8: Courtesy Modals. Choose the most professional option for a B2 administrative context:",
+      "options": [
+        "Send me the deadline.",
+        "Could you confirm the deadline?",
+        "I need the deadline now.",
+        "Where is the deadline?"
       ],
       "answerIndex": 1,
-      "explanation": "In operations, we 'flag' items and include 'deadlines'."
+      "explanation": "Using 'Could you...' is more professional and diplomatic in UK English."
     },
     {
-      "id": "adm-b2-w1-grammar-1",
-      "type": "multipleChoice",
-      "prompt": "Select the most neutral and professional way to describe a delay.",
-      "options": [
-        "Your team is blocking us again, please fix it.",
-        "We can't do anything because Finance is slow.",
-        "We are experiencing a delay due to a pending approval from the Finance department.",
-        "The project is stuck because someone didn't sign the document."
-      ],
-      "answerIndex": 2,
-      "explanation": "Option 3 uses factual, non-blaming language ('experiencing a delay', 'pending approval')."
-    },
-    {
-      "id": "adm-b2-w1-rephrase-1",
-      "type": "multipleChoice",
-      "prompt": "Rephrase this to be more diplomatic: 'You didn't reply.'",
-      "options": [
-        "I'm waiting for your answer.",
-        "Why haven't you replied yet?",
-        "I'm just following up on my previous email.",
-        "You ignored my request."
-      ],
-      "answerIndex": 2,
-      "explanation": "'Following up' is the standard diplomatic way to inquire about a lack of response."
-    },
-    {
-      "id": "adm-b2-w1-writing-1",
+      "id": "adm-b2-w1-ex09",
       "type": "writingTask",
-      "prompt": "Draft a short introductory email (120-170 words) to your new team. Include your role, how to request help (Ops Inbox), how to flag urgent tasks, and an invitation to message you.",
-      "modelAnswer": "Subject: Hello from Ops — how to work with me\n\nHi everyone,\n\nI’m Alex, and I’ve just joined Operations. I’ll be supporting day-to-day coordination across teams, helping to track requests, and keeping work moving when there are blockers or dependencies.\n\nHow to work with me:\n- Send requests via the Ops inbox and include the desired outcome plus any relevant context.\n- If something is time-sensitive, please flag it as Urgent and add a clear deadline.\n- If you’re blocked by another team, tell me what you’ve tried so far and what you need (decision / confirmation / resource).\n\nHappy to help — feel free to message me if you’re unsure where a request should go.\n\nThanks,\nAlex",
+      "prompt": "Exercise 9: Follow-up Email. Write a short follow-up (45-70 words) to Finance regarding a blocked invoice. Include context, what you need, and a deadline.",
+      "modelAnswer": "Hi Finance team, I’m following up on the approval for the supplier invoice (ref. INV-1842). We’re currently blocked until we receive confirmation. Could you please confirm whether it can be approved by Thursday EOD? Thanks, Alex",
+      "keywords": ["following up", "blocked", "confirmation", "EOD"]
+    },
+    {
+      "id": "adm-b2-w1-ex10",
+      "type": "multipleChoice",
+      "prompt": "Exercise 10: Board Status. Match 'Waiting for a decision from Legal' to the correct status:",
+      "options": ["New", "In progress", "Blocked", "Done"],
+      "answerIndex": 2,
+      "explanation": "If progress is waiting on an external decision, the status is 'Blocked'."
+    },
+    {
+      "id": "adm-b2-w1-ex11",
+      "type": "writingTask",
+      "prompt": "Exercise 11: Daily Check-in Recording. Prepare and record a 2-4 minute audio simulating a daily check-in. Structure: Yesterday (1 sentence), Today (1-2 sentences), Blocker (1 sentence), Escalation request (if needed), Owners & dates (1 sentence).",
+      "modelAnswer": "[Audio Upload Required] Rubric: Clarity, Accuracy, Politeness, Conciseness, Action orientation.",
+      "keywords": ["Yesterday", "Today", "Blocker", "Escalation", "Owners"]
+    },
+    {
+      "id": "adm-b2-w1-ex12",
+      "type": "writingTask",
+      "prompt": "Exercise 12: Escalation Call. Record a 60-90 second audio escalating a blocker that has lasted more than 24 hours. You must explicitly mention the 'impact' and 'what you need'.",
+      "modelAnswer": "[Audio Upload Required] Checklist: Facts, Impact, Deadline, Tried, Need.",
+      "keywords": ["impact", "need", "escalation"]
+    },
+    {
+      "id": "adm-b2-w1-ex13",
+      "type": "writingTask",
+      "prompt": "Exercise 13: Introductory Email (Portfolio). Draft a professional introductory email (120-170 words) to your new team. Include your role, and a 'How to work with me' section with 3 bullets.",
+      "modelAnswer": "Subject: Hello from Ops — how to work with me\n\nHi everyone,\n\nI’m Alex, and I’ve just joined Operations. I’ll be supporting day-to-day coordination across teams, helping to track requests, and keeping work moving when there are blockers or dependencies.\n\nHow to work with me:\n- Please send requests via the Ops inbox and include the desired outcome plus any relevant context.\n- If something is time-sensitive, flag it as Urgent and add a clear deadline.\n- If you’re blocked, tell me what you’ve tried so far and what you need (decision / confirmation / resource).\n\nHappy to help — feel free to message me if you’re unsure where a request should go.\n\nThanks,\nAlex",
       "keywords": ["Ops inbox", "Urgent", "deadline", "blockers", "Alex"]
     },
     {
-      "id": "adm-b2-w1-l1",
-      "type": "listening-comprehension",
-      "title": "Daily Check-in Simulation",
-      "audioUrl": "/audio/administracion/b2/trimestre1/semana01/listening.mp3",
-      "transcript": "Speaker: Hi everyone. Yesterday I completed the internal audit of the onboarding files. Today, I'm focusing on setting up the new Ops Board for the Q3 project. I've hit a blocker with the permissions—I can't add external stakeholders yet. I'll escalate this to Priya if it's not resolved by this afternoon.",
-      "vocabularyHelp": [
-        { "word": "audit", "definition": "An official inspection of an organization's accounts or processes." },
-        { "word": "hit a blocker", "definition": "To encounter an obstacle." },
-        { "word": "permissions", "definition": "Official notice that allows you to do something (in software)." }
-      ],
-      "questions": [
-        {
-          "question": "What did the speaker complete yesterday?",
-          "options": [
-            "The new Ops Board",
-            "The internal audit",
-            "The Q3 project",
-            "Setting up permissions"
-          ],
-          "answerIndex": 1,
-          "explanation": "The speaker says 'Yesterday I completed the internal audit'."
-        },
-        {
-          "question": "What is the current blocker?",
-          "options": [
-            "A missing file",
-            "Software permissions",
-            "Priya is busy",
-            "External stakeholders are complaining"
-          ],
-          "answerIndex": 1,
-          "explanation": "The speaker mentions: 'I've hit a blocker with the permissions'."
-        },
-        {
-          "question": "What is the plan if the blocker remains?",
-          "options": [
-            "Stop working on the project",
-            "Ask a colleague for help",
-            "Escalate to Priya",
-            "Wait until tomorrow's meeting"
-          ],
-          "answerIndex": 2,
-          "explanation": "The speaker says: 'I'll escalate this to Priya if it's not resolved'."
-        }
-      ]
+      "id": "adm-b2-w1-ex14",
+      "type": "writingTask",
+      "prompt": "Exercise 14: Escalation One-Pager. Fill in an escalation template for a hypothetical issue. Include: Issue Title, Facts, Impact, Deadline, Status, and Next Steps.",
+      "modelAnswer": "Issue: Payment Gateway Blocker. Facts: API credentials expired. Impact: No customer payments possible. Deadline: Immediate. Status: Ticket raised with IT. Next Step: Priya to approve emergency access.",
+      "keywords": ["Facts", "Impact", "Deadline", "Status", "Next Steps"]
+    },
+    {
+      "id": "adm-b2-w1-ex15",
+      "type": "writingTask",
+      "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'blocked'. 2) List 2 professional synonyms for 'important'. 3) Complete: 'If it’s time-sensitive, flag it as ___'. 4) List the 4 board statuses.",
+      "modelAnswer": "1) Cannot progress due to dependency. 2) Critical, high priority. 3) Urgent. 4) New, In progress, Blocked, Done.",
+      "keywords": ["blocked", "critical", "urgent", "Done"]
     }
   ]
 }
