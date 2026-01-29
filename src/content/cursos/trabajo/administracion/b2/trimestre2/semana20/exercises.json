@@ -1,390 +1,129 @@
-[
-  {
-    "id": 1,
-    "type": "multiple-choice",
-    "question": "Which derivative gives the buyer the right, but not the obligation, to buy an asset?",
-    "options": ["Call Option", "Put Option", "Futures Contract", "Forward Contract"],
-    "correctAnswer": 0,
-    "explanation": "A Call Option provides the right to buy, while a Put Option provides the right to sell."
-  },
-  {
-    "id": 2,
-    "type": "fill-in-the-blank",
-    "question": "If the company __________ (hedge) its currency risk, it would not have lost so much money last quarter.",
-    "correctAnswer": "had hedged",
-    "explanation": "Third Conditional: If + Past Perfect (had + past participle)."
-  },
-  {
-    "id": 3,
-    "type": "multiple-choice",
-    "question": "What is the 'Strike Price'?",
-    "options": ["The price at which the asset is currently trading", "The fixed price at which an option holder can buy or sell the underlying asset", "The price paid for the option (premium)", "The price at the end of the day"],
-    "correctAnswer": 1,
-    "explanation": "The strike price is the price set in the contract for exercising the option."
-  },
-  {
-    "id": 4,
-    "type": "matching",
-    "question": "Match the term with its definition:",
-    "pairs": [
-      { "left": "Underlying Asset", "right": "The instrument the derivative is based on" },
-      { "left": "Premium", "right": "The cost of the option contract" },
-      { "left": "Leverage", "right": "Using debt to increase investment returns" }
-    ]
-  },
-  {
-    "id": 5,
-    "type": "multiple-choice",
-    "question": "If the market _______ (not crash) in 2008, many derivative strategies would have succeeded.",
-    "options": ["doesn't crash", "wasn't crashing", "hadn't crashed", "didn't crash"],
-    "correctAnswer": 2,
-    "explanation": "Third Conditional: If + Past Perfect (hadn't crashed)."
-  },
-  {
-    "id": 6,
-    "type": "fill-in-the-blank",
-    "question": "An option is __________-the-money when its strike price is equal to the current market price.",
-    "correctAnswer": "at",
-    "explanation": "The term is 'at-the-money' (ATM)."
-  },
-  {
-    "id": 7,
-    "type": "multiple-choice",
-    "question": "What is a 'Futures Contract'?",
-    "options": ["An optional agreement to buy in the future", "A binding agreement to buy or sell an asset at a predetermined price on a specific date", "A type of insurance policy", "A loan from a bank"],
-    "correctAnswer": 1,
-    "explanation": "Unlike options, futures are binding agreements for both parties."
-  },
-  {
-    "id": 8,
-    "type": "fill-in-the-blank",
-    "question": "We __________ (make) a huge profit if we had exercised the options on Tuesday.",
-    "correctAnswer": "would have made",
-    "explanation": "Third Conditional: would have + past participle."
-  },
-  {
-    "id": 9,
-    "type": "multiple-choice",
-    "question": "Using derivatives to protect against price movements is called:",
-    "options": ["Speculating", "Arbitrage", "Hedging", "Leveraging"],
-    "correctAnswer": 2,
-    "explanation": "Hedging is a risk management strategy used to offset potential losses."
-  },
-  {
-    "id": 10,
-    "type": "fill-in-the-blank",
-    "question": "If the volatility __________ (be) lower, the premiums would have been cheaper.",
-    "correctAnswer": "had been",
-    "explanation": "Third Conditional: If + Past Perfect."
-  },
-  {
-    "id": 11,
-    "type": "multiple-choice",
-    "question": "What is 'Arbitrage'?",
-    "options": ["Losing money in a trade", "Buying an asset in one market and selling it in another to profit from price differences", "Hiring a legal arbitrator", "Managing a portfolio"],
-    "correctAnswer": 1,
-    "explanation": "Arbitrage takes advantage of price inefficiencies between markets."
-  },
-  {
-    "id": 12,
-    "type": "fill-in-the-blank",
-    "question": "They __________ (not lose) their investment if they had set a stop-loss order.",
-    "correctAnswer": "would not have lost",
-    "explanation": "Third Conditional: would not have + past participle."
-  },
-  {
-    "id": 13,
-    "type": "multiple-choice",
-    "question": "An 'In-the-money' Call Option means:",
-    "options": ["The strike price is above the market price", "The strike price is below the market price", "The option has expired", "The investor has no money"],
-    "correctAnswer": 1,
-    "explanation": "A call option is in-the-money if the market price is higher than the strike price."
-  },
-  {
-    "id": 14,
-    "type": "matching",
-    "question": "Match the derivative type:",
-    "pairs": [
-      { "left": "Option", "right": "Right but not obligation" },
-      { "left": "Future", "right": "Binding agreement (standardized)" },
-      { "left": "Forward", "right": "Binding agreement (customized)" }
-    ]
-  },
-  {
-    "id": 15,
-    "type": "fill-in-the-blank",
-    "question": "The process of using borrowed capital for an investment is called __________.",
-    "correctAnswer": "leverage",
-    "explanation": "Leverage is the use of debt to increase potential returns."
-  },
-  {
-    "id": 16,
-    "type": "multiple-choice",
-    "question": "If the auditor _______ (find) the error earlier, the fallout would have been smaller.",
-    "options": ["finds", "found", "had found", "has found"],
-    "correctAnswer": 2,
-    "explanation": "Third Conditional: If + Past Perfect."
-  },
-  {
-    "id": 17,
-    "type": "fill-in-the-blank",
-    "question": "A 'Put' option gives the holder the right to __________ an asset.",
-    "correctAnswer": "sell",
-    "explanation": "A Put option is for selling, a Call option is for buying."
-  },
-  {
-    "id": 18,
-    "type": "multiple-choice",
-    "question": "Which of these is NOT usually an underlying asset for a derivative?",
-    "options": ["Stocks", "Bonds", "A company's cafeteria menu", "Commodities like oil"],
-    "correctAnswer": 2,
-    "explanation": "Derivatives are based on financial assets, not administrative details like menus."
-  },
-  {
-    "id": 19,
-    "type": "fill-in-the-blank",
-    "question": "If the contract __________ (expire) yesterday, we wouldn't have been able to trade today.",
-    "correctAnswer": "had expired",
-    "explanation": "Third Conditional: If + Past Perfect."
-  },
-  {
-    "id": 20,
-    "type": "multiple-choice",
-    "question": "What happens when you 'Exercise' an option?",
-    "options": ["You go to the gym", "You use your right to buy or sell the asset", "You cancel the contract", "You pay the broker"],
-    "correctAnswer": 1,
-    "explanation": "To exercise an option means to put into effect the right to buy or sell the underlying asset."
-  },
-  {
-    "id": 21,
-    "type": "fill-in-the-blank",
-    "question": "The price paid for an option is known as the __________.",
-    "correctAnswer": "premium",
-    "explanation": "The premium is the income received by the seller and the cost paid by the buyer of an option."
-  },
-  {
-    "id": 22,
-    "type": "multiple-choice",
-    "question": "If the Fed _______ (raise) rates last month, the bond market would have reacted differently.",
-    "options": ["raises", "raised", "had raised", "has raised"],
-    "correctAnswer": 2,
-    "explanation": "Third Conditional: If + Past Perfect."
-  },
-  {
-    "id": 23,
-    "type": "fill-in-the-blank",
-    "question": "Derivatives are often used to __________ (offset) potential losses in other investments.",
-    "correctAnswer": "offset",
-    "explanation": "To offset a risk means to balance it out with a counteracting position."
-  },
-  {
-    "id": 24,
-    "type": "matching",
-    "question": "Match the term with its Spanish equivalent:",
-    "pairs": [
-      { "left": "Strike Price", "right": "Precio de ejercicio" },
-      { "left": "Expiration Date", "right": "Fecha de vencimiento" },
-      { "left": "Hedge", "right": "Cobertura" }
-    ]
-  },
-  {
-    "id": 25,
-    "type": "multiple-choice",
-    "question": "A 'Forward' contract is different from a 'Future' because:",
-    "options": ["Forwards are traded on an exchange", "Forwards are customized and traded Over-The-Counter (OTC)", "Forwards are not binding", "Forwards are only for gold"],
-    "correctAnswer": 1,
-    "explanation": "Futures are standardized and exchange-traded; forwards are private, customized agreements."
-  },
-  {
-    "id": 26,
-    "type": "fill-in-the-blank",
-    "question": "If we __________ (know) about the merger, we would have bought more shares.",
-    "correctAnswer": "had known",
-    "explanation": "Third Conditional: If + Past Perfect."
-  },
-  {
-    "id": 27,
-    "type": "multiple-choice",
-    "question": "What is the primary risk of using 'Leverage'?",
-    "options": ["Low returns", "Magnified losses", "Too much cash", "Simple accounting"],
-    "correctAnswer": 1,
-    "explanation": "While leverage can increase profits, it also significantly increases the risk of large losses."
-  },
-  {
-    "id": 28,
-    "type": "fill-in-the-blank",
-    "question": "We __________ (avoid) the liquidity crisis if we had managed our cash better.",
-    "correctAnswer": "would have avoided",
-    "explanation": "Third Conditional: would have + past participle."
-  },
-  {
-    "id": 29,
-    "type": "multiple-choice",
-    "question": "What does 'Out-of-the-money' (OTM) mean for a Put option?",
-    "options": ["The strike price is above the market price", "The strike price is below the market price", "The option has value", "The market is closed"],
-    "correctAnswer": 1,
-    "explanation": "A put option (right to sell) is OTM if the market price is already higher than the strike price."
-  },
-  {
-    "id": 30,
-    "type": "fill-in-the-blank",
-    "question": "If the CEO __________ (not resign), the stock price would have stayed stable.",
-    "correctAnswer": "had not resigned",
-    "explanation": "Third Conditional: If + Past Perfect."
-  },
-  {
-    "id": 31,
-    "type": "multiple-choice",
-    "question": "What is 'Speculation'?",
-    "options": ["Protecting against risk", "Taking a high-risk position to profit from market moves", "Checking the accounts", "Hiring a new manager"],
-    "correctAnswer": 1,
-    "explanation": "Speculation involves trading an asset or conducting a financial transaction that has a significant risk of losing value but also holds the expectation of a significant gain."
-  },
-  {
-    "id": 32,
-    "type": "fill-in-the-blank",
-    "question": "They __________ (reach) their goal if they had been more aggressive.",
-    "correctAnswer": "would have reached",
-    "explanation": "Third Conditional: would have + past participle."
-  },
-  {
-    "id": 33,
-    "type": "multiple-choice",
-    "question": "The 'Counterparty Risk' in a derivative refers to:",
-    "options": ["The risk of the price changing", "The risk that the other party in the contract fails to pay", "The risk of a computer error", "The risk of high taxes"],
-    "correctAnswer": 1,
-    "explanation": "Counterparty risk is the likelihood or probability that one of those involved in a transaction might default on its contractual obligation."
-  },
-  {
-    "id": 34,
-    "type": "matching",
-    "question": "Match the risk type:",
-    "pairs": [
-      { "left": "Market Risk", "right": "Price movements" },
-      { "left": "Credit Risk", "right": "Counterparty default" },
-      { "left": "Operational Risk", "right": "System failures" }
-    ]
-  },
-  {
-    "id": 35,
-    "type": "fill-in-the-blank",
-    "question": "If the interest rate __________ (stay) flat, we would have kept our bonds.",
-    "correctAnswer": "had stayed",
-    "explanation": "Third Conditional: If + Past Perfect."
-  },
-  {
-    "id": 36,
-    "type": "multiple-choice",
-    "question": "What is a 'Swap'?",
-    "options": ["A type of bank account", "An agreement to exchange financial instruments or cash flows", "A stock market crash", "A physical currency exchange at the airport"],
-    "correctAnswer": 1,
-    "explanation": "A swap is a derivative contract through which two parties exchange the cash flows or liabilities from two different financial instruments."
-  },
-  {
-    "id": 37,
-    "type": "fill-in-the-blank",
-    "question": "I __________ (buy) the put options if I had expected the market to fall.",
-    "correctAnswer": "would have bought",
-    "explanation": "Third Conditional: would have + past participle."
-  },
-  {
-    "id": 38,
-    "type": "multiple-choice",
-    "question": "What is 'Commodity' in finance?",
-    "options": ["A new office chair", "A basic good like gold, oil, or wheat", "A bank service", "A type of tax"],
-    "correctAnswer": 1,
-    "explanation": "Commodities are basic goods used in commerce that are interchangeable with other goods of the same type."
-  },
-  {
-    "id": 39,
-    "type": "fill-in-the-blank",
-    "question": "If the trader __________ (follow) the instructions, the loss wouldn't have happened.",
-    "correctAnswer": "had followed",
-    "explanation": "Third Conditional: If + Past Perfect."
-  },
-  {
-    "id": 40,
-    "type": "multiple-choice",
-    "question": "What does 'Mark-to-Market' mean?",
-    "options": ["Going to the supermarket", "Valuing assets based on their current market price", "Pricing a new product", "Writing a report"],
-    "correctAnswer": 1,
-    "explanation": "Mark-to-market is an accounting method that records the value of an asset according to its current market price."
-  },
-  {
-    "id": 41,
-    "type": "fill-in-the-blank",
-    "question": "The fund __________ (grow) faster if the manager had been more experienced.",
-    "correctAnswer": "would have grown",
-    "explanation": "Third Conditional: would have + past participle."
-  },
-  {
-    "id": 42,
-    "type": "multiple-choice",
-    "question": "An 'Option Writer' is the person who:",
-    "options": ["Writes articles about options", "Sells the option and receives the premium", "Buys the option", "Signs the contract"],
-    "correctAnswer": 1,
-    "explanation": "The writer is the seller of the option."
-  },
-  {
-    "id": 43,
-    "type": "fill-in-the-blank",
-    "question": "If the bank __________ (not lend) so much money, it wouldn't have collapsed.",
-    "correctAnswer": "had not lent",
-    "explanation": "Third Conditional: If + Past Perfect."
-  },
-  {
-    "id": 44,
-    "type": "matching",
-    "question": "Match the option status:",
-    "pairs": [
-      { "left": "ITM", "right": "In-the-money (Profitable)" },
-      { "left": "OTM", "right": "Out-of-the-money (Not profitable)" },
-      { "left": "ATM", "right": "At-the-money (Strike = Market)" }
-    ]
-  },
-  {
-    "id": 45,
-    "type": "fill-in-the-blank",
-    "question": "I wish I __________ (hedged) my portfolio before the downturn.",
-    "correctAnswer": "had hedged",
-    "explanation": "Past regret: 'wish + Past Perfect'."
-  },
-  {
-    "id": 46,
-    "type": "multiple-choice",
-    "question": "What is 'Systemic Risk'?",
-    "options": ["The risk of a computer system failing", "The risk of the entire financial system collapsing", "The risk of one company failing", "The risk of a new tax"],
-    "correctAnswer": 1,
-    "explanation": "Systemic risk is the possibility that an event at the company level could trigger severe instability or collapse an entire industry or economy."
-  },
-  {
-    "id": 47,
-    "type": "fill-in-the-blank",
-    "question": "If the auditors __________ (check) the books, they would have seen the fraud.",
-    "correctAnswer": "had checked",
-    "explanation": "Third Conditional: If + Past Perfect."
-  },
-  {
-    "id": 48,
-    "type": "multiple-choice",
-    "question": "Which of these is used for 'Currency Hedging'?",
-    "options": ["Savings accounts", "Forward exchange contracts", "Cash in a vault", "Credit cards"],
-    "correctAnswer": 1,
-    "explanation": "Forward contracts are commonly used by businesses to lock in an exchange rate and hedge against currency fluctuations."
-  },
-  {
-    "id": 49,
-    "type": "fill-in-the-blank",
-    "question": "The company __________ (survive) if it had diversified its assets.",
-    "correctAnswer": "would have survived",
-    "explanation": "Third Conditional: would have + past participle."
-  },
-  {
-    "id": 50,
-    "type": "multiple-choice",
-    "question": "What is an 'OTC' (Over-The-Counter) derivative?",
-    "options": ["A medicine for trading", "A contract traded directly between two parties without an exchange", "A stock traded in New York", "A derivative for physical goods only"],
-    "correctAnswer": 1,
-    "explanation": "OTC trades are private agreements between two parties, unlike exchange-traded contracts like futures."
-  }
-]
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana20",
+  "title": "Exercises: Corporate Sustainability & Ethics",
+  "items": [
+    {
+      "id": "adm-b2-w20-1",
+      "type": "multipleChoice",
+      "prompt": "The PR disaster happened because the company was accused of ________, claiming to be 'eco-friendly' while dumping waste in the river.",
+      "options": ["ethical sourcing", "greenwashing", "net zero", "whistleblowing"],
+      "answerIndex": 1,
+      "explanation": "Greenwashing is the act of making false or misleading claims about the environmental benefits of a product or practice."
+    },
+    {
+      "id": "adm-b2-w20-2",
+      "type": "multipleChoice",
+      "prompt": "The factory is empty today. They ________ finished the production run early.",
+      "options": ["must have", "can't have", "should have", "mustn't have"],
+      "answerIndex": 0,
+      "explanation": "We use 'must have' to express high certainty about a past event."
+    },
+    {
+      "id": "adm-b2-w20-3",
+      "type": "multipleChoice",
+      "prompt": "The ________ model focuses on Profit, People, and Planet.",
+      "options": ["Double Bottom Line", "Strategic Roadmap", "Triple Bottom Line", "PESTLE"],
+      "answerIndex": 2,
+      "explanation": "The Triple Bottom Line measures an organization's social, environmental, and economic impact."
+    },
+    {
+      "id": "adm-b2-w20-4",
+      "type": "multipleChoice",
+      "prompt": "I'm sure he didn't send the report. He ________ sent it because the server log shows no activity.",
+      "options": ["could have", "might have", "can't have", "should have"],
+      "answerIndex": 2,
+      "explanation": "We use 'can't have' when we are almost certain that something did NOT happen."
+    },
+    {
+      "id": "adm-b2-w20-5",
+      "type": "multipleChoice",
+      "prompt": "A former employee engaged in ________ after discovering the company was evading taxes.",
+      "options": ["greenwashing", "whistleblowing", "benchmarking", "sourcing"],
+      "answerIndex": 1,
+      "explanation": "Whistleblowing is reporting illegal or unethical activity within an organization."
+    },
+    {
+      "id": "adm-b2-w20-6",
+      "type": "fillBlanks",
+      "prompt": "Complete with a past modal: We [should have checked] (check) the supplier's safety record before signing the contract, but we forgot.",
+      "text": "We [should have checked] the supplier's safety record before signing the contract, but we forgot.",
+      "answers": ["should have checked"],
+      "explanation": "Use 'should have' to express regret or criticism about a past action."
+    },
+    {
+      "id": "adm-b2-w20-7",
+      "type": "multipleChoice",
+      "prompt": "The company's ________ represents its total greenhouse gas emissions.",
+      "options": ["carbon footprint", "circular economy", "strategic roadmap", "net zero"],
+      "answerIndex": 0,
+      "explanation": "A carbon footprint is the total amount of greenhouse gases produced by an entity."
+    },
+    {
+      "id": "adm-b2-w20-8",
+      "type": "multipleChoice",
+      "prompt": "The CEO looks worried. The shareholders ________ rejected the new CSR policy.",
+      "options": ["must have", "might not", "can't have", "mustn't have"],
+      "answerIndex": 0,
+      "explanation": "The CEO's expression suggests high certainty that something negative happened (must have)."
+    },
+    {
+      "id": "adm-b2-w20-9",
+      "type": "multipleChoice",
+      "prompt": "We ________ invested in renewable energy years ago; now we are paying high carbon taxes.",
+      "options": ["must have", "should have", "can't have", "might have"],
+      "answerIndex": 1,
+      "explanation": "Expressing regret about a missed past opportunity."
+    },
+    {
+      "id": "adm-b2-w20-10",
+      "type": "multipleChoice",
+      "prompt": "In a ________, resources are kept in use for as long as possible through recycling and refurbishment.",
+      "options": ["linear economy", "circular economy", "net zero", "triple bottom line"],
+      "answerIndex": 1,
+      "explanation": "A circular economy aims to eliminate waste by keeping resources in use."
+    },
+    {
+      "id": "adm-b2-w20-11",
+      "type": "fillBlanks",
+      "prompt": "Complete with a past modal: The email didn't arrive. You [might have typed] (type) the address incorrectly.",
+      "text": "The email didn't arrive. You [might have typed] the address incorrectly.",
+      "answers": ["might have typed", "could have typed"],
+      "explanation": "Expressing a past possibility."
+    },
+    {
+      "id": "adm-b2-w20-12",
+      "type": "multipleChoice",
+      "prompt": "________ sourcing ensures that all workers in our supply chain earn a living wage.",
+      "options": ["Ethical", "Global", "Strategic", "Linear"],
+      "answerIndex": 0,
+      "explanation": "Ethical sourcing involves ensuring fair treatment of workers and environmental responsibility."
+    },
+    {
+      "id": "adm-b2-w20-13",
+      "type": "multipleChoice",
+      "prompt": "The lights are still on in the office. Someone ________ forgotten to turn them off.",
+      "options": ["must have", "can't have", "should have", "might not have"],
+      "answerIndex": 0,
+      "explanation": "Logical deduction based on present evidence."
+    },
+    {
+      "id": "adm-b2-w20-14",
+      "type": "multipleChoice",
+      "prompt": "Which report details a company's environmental and social impact?",
+      "options": ["Audit Report", "Sustainability Report", "Balance Sheet", "Income Statement"],
+      "answerIndex": 1,
+      "explanation": "A sustainability report covers ESG (Environmental, Social, and Governance) factors."
+    },
+    {
+      "id": "adm-b2-w20-15",
+      "type": "multipleChoice",
+      "prompt": "Our goal is to reach ________ by 2040, meaning we will remove as much carbon as we emit.",
+      "options": ["net zero", "triple bottom line", "circular economy", "gross profit"],
+      "answerIndex": 0,
+      "explanation": "Net zero refers to the balance between greenhouse gases emitted and those removed from the atmosphere."
+    }
+  ]
+}

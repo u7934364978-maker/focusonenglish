@@ -1,76 +1,152 @@
 {
-  "exercises": [
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana02",
+  "title": "Exercises: Handovers & Operational Continuity",
+  "items": [
     {
-      "id": "quiz-01",
-      "type": "multiple-choice",
-      "question": "Which of the following best describes a 'bottleneck' in an administrative context?",
-      "options": [
-        "A useful tool for organizing physical files.",
-        "A point in a process where work is delayed due to limited capacity.",
-        "A person who is promoted to a senior role.",
-        "The final step in a successful project."
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "quiz-02",
-      "type": "multiple-choice",
-      "question": "What does 'to streamline' a process mean?",
-      "options": [
-        "To make it more complex and detailed.",
-        "To hire more people to do the same task.",
-        "To make a process more efficient by removing unnecessary steps.",
-        "To ignore the process and do things your own way."
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "tense-01",
-      "type": "fill-in-the-blank",
-      "question": "By the end of the year, we ________ (reduce) our paper waste by 50%. (Future Perfect)",
-      "answer": "will have reduced"
-    },
-    {
-      "id": "tense-02",
-      "type": "fill-in-the-blank",
-      "question": "This time next week, the team ________ (use) the new CRM system. (Future Continuous)",
-      "answer": "will be using"
-    },
-    {
-      "id": "vocabulary-01",
-      "type": "multiple-choice",
-      "question": "If a task is 'error-prone', it means:",
-      "options": [
-        "It is very easy to do correctly.",
-        "It is likely to result in mistakes.",
-        "It is always done by a machine.",
-        "It is the most important task of the day."
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "writing-01",
-      "type": "writing-task",
-      "title": "Email: Proposing an Improvement",
-      "description": "Write a short email (100-150 words) to your manager proposing that you automate the weekly 'Ops Board' update. Mention that the current process is manual and 'error-prone'. Use at least one instance of Future Perfect to describe the benefit.",
-      "sampleAnswer": "Subject: Proposal to automate the weekly Ops Board update\n\nDear Sarah,\n\nI am writing to suggest a small improvement to our weekly workflow. Currently, we are manually updating the Ops Board, which is quite time-consuming and, frankly, error-prone during busy periods.\n\nI propose that we integrate our task tracker directly with the board using a simple automation script. By implementing this solution, we will be saving approximately three hours of manual entry per week. \n\nI am confident that by the end of next month, we will have eliminated all manual data entry errors in this specific area. This will allow the team to focus on more high-value tasks.\n\nI would like to align on next steps for this project when you have a moment.\n\nKind regards,\n\n[Your Name]"
-    },
-    {
-      "id": "listening-01",
-      "type": "listening-dialogue",
-      "title": "Identifying the Redundancy",
-      "dialogue": [
-        { "speaker": "Mark", "text": "I've noticed that we're both logging the same meeting minutes in the shared drive and the CRM." },
-        { "speaker": "Elena", "text": "You're right. That's a clear redundancy. We should map out the process to see where we can gain efficiency." },
-        { "speaker": "Mark", "text": "If we automate the sync, we will be saving a lot of time. By Friday, I will have set up the test." }
-      ],
+      "id": "adm-b2-w2-ex01",
+      "type": "reading-comprehension",
+      "title": "Exercise 1: Handover Email (Doc A)",
+      "text": "Doc A — Handover Email\n\nSubject: Handover: Operational Support – Alex to Sam (Weeks 42-43)\n\nHi Sam,\n\nAs discussed, I’m handing over the Ops Support desk while I’m on leave next week.\n\nStatus Recap:\n- Done: All Week 41 invoice approvals.\n- In Progress: Updating the vendor database.\n- Blocked: Shipping logistics for the Dublin office. We’re waiting for the local manager’s approval.\n\nRisks: The monthly report may slip if we don’t get the data by Friday EOD.\n\nNext Steps:\n- Sam: Follow up with Dublin Manager on Tuesday.\n- Sam: Finalise the vendor list by Wednesday.\n\nLink: [Ops Board - Item #452]\n\nThanks,\nAlex",
       "questions": [
         {
-          "question": "What issue did Mark identify?",
-          "options": ["A missing document", "A redundancy in logging minutes", "A software crash", "A lack of communication"],
-          "correctAnswer": 1
+          "question": "What is currently preventing the shipping logistics for the Dublin office from moving forward?",
+          "options": ["Missing data", "Waiting for local manager's approval", "Alex being on leave"],
+          "answerIndex": 1,
+          "explanation": "Doc A states: 'Blocked: Shipping logistics... We’re waiting for the local manager’s approval.'"
+        },
+        {
+          "question": "By when must the data be received to avoid the monthly report slipping?",
+          "options": ["Tuesday morning", "Wednesday", "Friday EOD"],
+          "answerIndex": 2,
+          "explanation": "Doc A mentions the report may slip if data isn't received by 'Friday EOD'."
         }
       ]
+    },
+    {
+      "id": "adm-b2-w2-ex02",
+      "type": "multipleChoice",
+      "prompt": "Exercise 2: Strategic Importance. According to the theory, what is the 'Core Principle' of a successful handover?",
+      "options": [
+        "Sending an email at the last minute.",
+        "Clarity + Action: The receiver must know what to do, who is doing it, and when it is due.",
+        "Just CC'ing the manager on all emails.",
+        "Recording a 10-minute voice note."
+      ],
+      "answerIndex": 1,
+      "explanation": "The theory states: 'Handover = Clarity + Action. If the receiver does not know what to do, who is doing it, and when it is due, the handover has failed.'"
+    },
+    {
+      "id": "adm-b2-w2-ex03",
+      "type": "multipleChoice",
+      "prompt": "Exercise 3: The 7-Block Structure. Which of these blocks should contain obstacles and their root causes?",
+      "options": [
+        "What's in progress",
+        "What's done",
+        "What's blocked (and why)",
+        "Next steps"
+      ],
+      "answerIndex": 2,
+      "explanation": "Block 3 of the 7-block structure is dedicated to 'What's blocked (and why): Obstacles and their root causes.'"
+    },
+    {
+      "id": "adm-b2-w2-ex04",
+      "type": "multipleChoice",
+      "prompt": "Exercise 4: Operational Chunks. Complete the sentence for a professional risk assessment: 'The schedule may ___ if we don't receive the files by ___.'",
+      "options": [
+        "fail / ASAP",
+        "slip / Friday EOD",
+        "stop / tonight",
+        "break / COB"
+      ],
+      "answerIndex": 1,
+      "explanation": "Professional chunks use 'slip' for delays and specific references like 'Friday EOD'."
+    },
+    {
+      "id": "adm-b2-w2-ex05",
+      "type": "writingTask",
+      "prompt": "Exercise 5: Neutralizing Tone. Rewrite this blunt handover message to be factual and professional: 'I can't finish the report because Finance is being slow again.'",
+      "modelAnswer": "The report is currently blocked as we are waiting for the final figures from Finance.",
+      "keywords": ["blocked", "waiting", "Finance"]
+    },
+    {
+      "id": "adm-b2-w2-ex06",
+      "type": "writingTask",
+      "prompt": "Exercise 6: Handover Checklist. List the 7 blocks of the standard professional handover structure.",
+      "modelAnswer": "1. What’s done\n2. What’s in progress\n3. What’s blocked (and why)\n4. Risks / Deadlines\n5. Next steps\n6. Owners & dates\n7. Links / References",
+      "keywords": ["done", "progress", "blocked", "risks", "next steps", "owners", "links"]
+    },
+    {
+      "id": "adm-b2-w2-ex07",
+      "type": "writingTask",
+      "prompt": "Exercise 7: Extracting Action Points. Based on Doc A, extract Sam's specific next steps in the format 'Action: ... Deadline: ...'",
+      "modelAnswer": "Action: Follow up with Dublin Manager. Deadline: Tuesday.\nAction: Finalise the vendor list. Deadline: Wednesday.",
+      "keywords": ["Action", "Deadline", "Dublin", "vendor"]
+    },
+    {
+      "id": "adm-b2-w2-ex08",
+      "type": "multipleChoice",
+      "prompt": "Exercise 8: Courtesy Modals. Which is the most professional way to ask a colleague to take over a task during your absence?",
+      "options": [
+        "Do this while I'm away.",
+        "I'm leaving this for you.",
+        "Would you be able to cover this task while I'm on leave?",
+        "You must handle this."
+      ],
+      "answerIndex": 2,
+      "explanation": "Using 'Would you be able to...' is polite and professional in a UK business environment."
+    },
+    {
+      "id": "adm-b2-w2-ex09",
+      "type": "writingTask",
+      "prompt": "Exercise 9: Follow-up Email. Write a 50-word follow-up to Sam asking if they have everything they need for the handover. Include a reference to a deadline.",
+      "modelAnswer": "Hi Sam, I’m checking in to ensure you have all the necessary access and information for the Dublin logistics task. Please let me know if anything is unclear before I head out on Friday EOD. Thanks, Alex",
+      "keywords": ["checking in", "necessary", "information", "Friday EOD"]
+    },
+    {
+      "id": "adm-b2-w2-ex10",
+      "type": "multipleChoice",
+      "prompt": "Exercise 10: Board Status. If a task has been 'Logged but not started', which status should be assigned?",
+      "options": ["New", "In progress", "Blocked", "Done"],
+      "answerIndex": 0,
+      "explanation": "'New' is the status for items that are logged but have not yet been started."
+    },
+    {
+      "id": "adm-b2-w2-ex11",
+      "type": "writingTask",
+      "prompt": "Exercise 11: Oral Handover Prep. Prepare a script for a 3-minute oral handover. Ensure you use signposting such as 'Quick recap', 'The key point is', and 'Next steps are'.",
+      "modelAnswer": "[Audio Upload Required] Rubric: Signposting, 7-block coverage, Clarity, Professional tone.",
+      "keywords": ["recap", "point", "next steps"]
+    },
+    {
+      "id": "adm-b2-w2-ex12",
+      "type": "writingTask",
+      "prompt": "Exercise 12: Oral Risk Escalation. Prepare a 60-second audio script escalating a risk that the 'Weekly Audit' will slip. Explain why and what is needed.",
+      "modelAnswer": "[Audio Upload Required] Checklist: Factual blocker, Risk assessment, Actionable request.",
+      "keywords": ["slip", "risk", "because"]
+    },
+    {
+      "id": "adm-b2-w2-ex13",
+      "type": "writingTask",
+      "prompt": "Exercise 13: Full Handover Email (Portfolio). Draft a professional handover email (150-200 words) using all 7 blocks of the structure. Theme: Handing over the 'Procurement Desk'.",
+      "modelAnswer": "Subject: Handover: Procurement Desk – [Your Name]\n\nHi team,\n\nI’m handing over the Procurement Desk for the coming week. Here is the status:\n\n1. What’s done: Vendor vetting for the Q3 stationery contract.\n2. What’s in progress: Processing the hardware request for the IT department.\n3. What’s blocked: The software license renewal (awaiting Finance approval).\n4. Risks: The renewal deadline is Friday; the service may slip if not approved by Thursday COB.\n5. Next steps: Follow up with Finance on Wednesday morning.\n6. Owners: Sarah to manage hardware, John for Finance follow-up.\n7. Links: [Procurement Board Link]\n\nPlease reach out if you have any questions.\n\nBest regards,\n[Your Name]",
+      "keywords": ["handover", "status", "blocked", "slip", "Next steps"]
+    },
+    {
+      "id": "adm-b2-w2-ex14",
+      "type": "writingTask",
+      "prompt": "Exercise 14: Handover One-Pager. Complete a handover template for a 'Office Relocation' project. Include: Status, Blockers, Risks, and Next Steps.",
+      "modelAnswer": "Status: Site survey completed. Blockers: Internet provider hasn't confirmed installation date. Risks: Move-in date may slip if connectivity isn't ready. Next Steps: Call provider on Monday 9am.",
+      "keywords": ["Status", "Blockers", "Risks", "Next Steps"]
+    },
+    {
+      "id": "adm-b2-w2-ex15",
+      "type": "writingTask",
+      "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Dependency'. 2) Give an example of a precise deadline. 3) What does it mean if a schedule 'slips'? 4) What are the 3 signposting phrases mentioned in the theory?",
+      "modelAnswer": "1) A task that must be finished before another can start. 2) Friday EOD / 3pm UK time. 3) It is delayed. 4) Quick recap, The key point is, Next steps are.",
+      "keywords": ["task", "EOD", "delayed", "recap"]
     }
   ]
 }

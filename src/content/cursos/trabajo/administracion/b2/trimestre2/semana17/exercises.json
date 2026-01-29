@@ -3,407 +3,150 @@
   "level": "B2",
   "trimester": 2,
   "weekId": "semana17",
-  "title": "Ejercicios: FinTech y Transformación Digital",
+  "title": "Exercises: HR Operations - Recruitment & Onboarding",
   "items": [
     {
-      "id": "fin-b2-w17-1",
-      "type": "multipleChoice",
-      "prompt": "Many banks are adopting ________ technology to improve the security of their transactions.",
-      "options": ["Blockchain", "Stagnation", "Manual", "Traditional"],
-      "answerIndex": 0,
-      "explanation": "Blockchain provides a decentralized and secure way to record transactions."
+      "id": "adm-b2-w17-ex01",
+      "type": "reading-comprehension",
+      "title": "Exercise 1: Recruitment Progress Update (Doc A)",
+      "text": "Doc A — Internal HR Update: Project Manager Recruitment\n\nStatus Update:\n- Having reviewed over 100 applications, we have successfully shortlisted 5 candidates for the final interview stage.\n- Interviews are scheduled for next Tuesday and Wednesday. Hired for their extensive experience in Agile methodologies, these candidates represent the top 5% of our talent pool.\n- Reference checks are currently in progress for the top two choices. \n\nOnboarding Prep:\nKnowing that the successful candidate will need immediate access to the Jira board, I have requested IT to prepare the accounts in advance. Having completed the initial induction plan, we are now assigning a 'buddy' from the senior admin team to assist during the first week.",
+      "questions": [
+        {
+          "question": "How many candidates have been shortlisted for the final interview stage?",
+          "options": ["100", "5", "2"],
+          "answerIndex": 1,
+          "explanation": "Doc A states: 'we have successfully shortlisted 5 candidates'."
+        },
+        {
+          "question": "What has already been completed regarding the new hire's integration?",
+          "options": ["The Jira account setup", "The initial induction plan", "The first-week salary payment"],
+          "answerIndex": 1,
+          "explanation": "Doc A says: 'Having completed the initial induction plan...'"
+        }
+      ]
     },
     {
-      "id": "fin-b2-w17-2",
+      "id": "adm-b2-w17-ex02",
       "type": "multipleChoice",
-      "prompt": "A ________ uses algorithms to manage an investment portfolio with minimal human intervention.",
-      "options": ["Stockbroker", "Robo-advisor", "Personal assistant", "Bank teller"],
+      "prompt": "Exercise 2: HR Terminology. What is the process of integrating a new employee into the organisation called?",
+      "options": [
+        "Sourcing",
+        "Shortlisting",
+        "Onboarding",
+        "Vetting"
+      ],
+      "answerIndex": 2,
+      "explanation": "Onboarding is the term for integrating a new hire."
+    },
+    {
+      "id": "adm-b2-w17-ex03",
+      "type": "multipleChoice",
+      "prompt": "Exercise 3: Induction. What is the main purpose of a 'buddy' during onboarding?",
+      "options": [
+        "To monitor the new hire's work 24/7",
+        "To provide informal support and help the new hire settle in",
+        "To conduct the formal performance review",
+        "To replace the manager"
+      ],
       "answerIndex": 1,
-      "explanation": "Robo-advisors automate portfolio management using financial algorithms."
+      "explanation": "A buddy provides informal guidance and support to help the new starter adjust."
     },
     {
-      "id": "fin-b2-w17-3",
+      "id": "adm-b2-w17-ex04",
       "type": "multipleChoice",
-      "prompt": "We implemented new security protocols ________ protect customer data from hackers.",
-      "options": ["so as to", "because", "although", "despite"],
+      "prompt": "Exercise 4: Operational Chunks. Complete the sentence: 'We need to ___ a job description and then ___ the candidate's references.'",
+      "options": [
+        "draft / check",
+        "write / lose",
+        "send / ignore",
+        "read / hire"
+      ],
       "answerIndex": 0,
-      "explanation": "'So as to' is used to express purpose followed by an infinitive."
+      "explanation": "Standard HR tasks involve 'drafting a job description' and 'checking references'."
     },
     {
-      "id": "fin-b2-w17-4",
+      "id": "adm-b2-w17-ex05",
+      "type": "writingTask",
+      "prompt": "Exercise 5: Present Participle. Combine these two sentences into one using an -ing participle clause: 'She works as an HR administrator. She manages all interview schedules.'",
+      "modelAnswer": "Working as an HR administrator, she manages all interview schedules.",
+      "keywords": ["Working", "manages"]
+    },
+    {
+      "id": "adm-b2-w17-ex06",
+      "type": "writingTask",
+      "prompt": "Exercise 6: Perfect Participle. Combine these two sentences into one using a 'Having + Past Participle' clause: 'The recruiter reviewed the CVs. Then he sent the shortlist to the manager.'",
+      "modelAnswer": "Having reviewed the CVs, the recruiter sent the shortlist to the manager.",
+      "keywords": ["Having reviewed", "sent"]
+    },
+    {
+      "id": "adm-b2-w17-ex07",
+      "type": "writingTask",
+      "prompt": "Exercise 7: Extracting Data. Based on Doc A, list the two things that have been prepared or requested for the new hire's first week.",
+      "modelAnswer": "1. Jira board access (requested from IT). 2. Initial induction plan (completed).",
+      "keywords": ["Jira", "IT", "induction"]
+    },
+    {
+      "id": "adm-b2-w17-ex08",
       "type": "multipleChoice",
-      "prompt": "________ allows third-party providers to access financial data through APIs.",
-      "options": ["Closed banking", "Open Banking", "Secret banking", "Private banking"],
+      "prompt": "Exercise 8: Courtesy Modals. How would you professionally ask a candidate to provide a missing reference?",
+      "options": [
+        "Send your reference now.",
+        "You forgot your reference.",
+        "Could you please provide the contact details for your second reference by the end of the day?",
+        "I wish you had sent the reference."
+      ],
+      "answerIndex": 2,
+      "explanation": "This is a polite and direct request using professional language."
+    },
+    {
+      "id": "adm-b2-w17-ex09",
+      "type": "writingTask",
+      "prompt": "Exercise 9: Interview Invitation Email. Write a short email (50-70 words) to a candidate inviting them to a second interview on Thursday at 10 AM. Include the location (Microsoft Teams).",
+      "modelAnswer": "Dear Alex, following our initial screening call, I’m pleased to invite you to a second interview this Thursday at 10 AM UK time. The interview will be conducted via Microsoft Teams; please find the link attached. We look forward to discussing the role further with you. Best regards, [Your Name]",
+      "keywords": ["invite", "second interview", "Teams", "link"]
+    },
+    {
+      "id": "adm-b2-w17-ex10",
+      "type": "multipleChoice",
+      "prompt": "Exercise 10: Candidate Vetting. What is a 'screening call'?",
+      "options": ["A long technical exam", "A short initial call to check basic suitability", "A final contract negotiation", "An exit interview"],
       "answerIndex": 1,
-      "explanation": "Open Banking promotes transparency and competition by sharing data securely via APIs."
+      "explanation": "A screening call is a brief initial interview used to filter candidates."
     },
     {
-      "id": "fin-b2-w17-5",
-      "type": "multipleChoice",
-      "prompt": "The server was down for three hours; ________, many customers could not complete their transfers.",
-      "options": ["consequently", "however", "although", "instead"],
-      "answerIndex": 0,
-      "explanation": "'Consequently' is used to express the result of a previous statement."
+      "id": "adm-b2-w17-ex11",
+      "type": "writingTask",
+      "prompt": "Exercise 11: Oral Onboarding Intro. Record a 2-minute audio welcoming a new employee. Use at least one participle clause (e.g., 'Having joined the team...').",
+      "modelAnswer": "[Audio Upload Required] Rubric: Warmth, Clarity of induction steps, Correct use of Participle Clause.",
+      "keywords": ["welcome", "Having", "induction"]
     },
     {
-      "id": "fin-b2-w17-6",
-      "type": "multipleChoice",
-      "prompt": "We use biometrics ________ unauthorized access is nearly impossible.",
-      "options": ["so that", "in order to", "because of", "due to"],
-      "answerIndex": 0,
-      "explanation": "'So that' is followed by a clause to express purpose."
+      "id": "adm-b2-w17-ex12",
+      "type": "writingTask",
+      "prompt": "Exercise 12: Oral Candidate Feedback. Record a 60-second clip providing neutral feedback to a candidate who was not successful. Use 'Having considered your application...' to start.",
+      "modelAnswer": "[Audio Upload Required] Checklist: Diplomatic tone, Clear message, Use of Participle Clause.",
+      "keywords": ["Having considered", "unsuccessful"]
     },
     {
-      "id": "fin-b2-w17-7",
-      "type": "multipleChoice",
-      "prompt": "________ platforms allow individuals to lend money directly to other individuals or small businesses.",
-      "options": ["P2P lending", "Centralized lending", "Interbank lending", "Mortgage lending"],
-      "answerIndex": 0,
-      "explanation": "P2P (Peer-to-Peer) lending bypasses traditional financial institutions."
+      "id": "adm-b2-w17-ex13",
+      "type": "writingTask",
+      "prompt": "Exercise 13: Recruitment Summary Report (Portfolio). Write a 150-word summary of a recent recruitment campaign. Use at least three participle clauses to keep the report concise.",
+      "modelAnswer": "Recruitment Summary: Senior Ops Coordinator\n\nHaving launched the campaign in early March, we received 75 applications through our corporate portal. Working closely with the department head, I filtered the applicants based on their previous administrative experience. \n\nScreened for their technical proficiency, 10 candidates were invited to an initial call. Having completed the first round of interviews, we shortlisted three exceptional individuals for the final assessment. \n\nKnowing that the team is currently understaffed, we prioritized the reference checks and offered the position to Sarah Jenkins. Having accepted the offer, Sarah is scheduled to start on the 1st of next month. We have already initiated the onboarding process, including the IT setup and the assignment of an office buddy.",
+      "keywords": ["Summary", "Having launched", "Working", "Screened", "shortlisted"]
     },
     {
-      "id": "fin-b2-w17-8",
-      "type": "multipleChoice",
-      "prompt": "The startup used ________ to raise funds from a large number of small investors.",
-      "options": ["crowdfunding", "a bank loan", "private equity", "leverage"],
-      "answerIndex": 0,
-      "explanation": "Crowdfunding involves raising small amounts of money from many people, typically via the internet."
+      "id": "adm-b2-w17-ex14",
+      "type": "writingTask",
+      "prompt": "Exercise 14: Onboarding Checklist Template. Complete a checklist for a 'New Starter'. Include: Pre-arrival, Day 1, and Week 1 tasks.",
+      "modelAnswer": "Pre-arrival: Laptop setup, Email creation. Day 1: Office tour, HR paperwork. Week 1: 1-to-1 with manager, System training.",
+      "keywords": ["Pre-arrival", "Day 1", "Week 1"]
     },
     {
-      "id": "fin-b2-w17-9",
-      "type": "multipleChoice",
-      "prompt": "Artificial Intelligence is causing a major ________ in the traditional banking sector.",
-      "options": ["disruption", "stagnation", "agreement", "stabilization"],
-      "answerIndex": 0,
-      "explanation": "Disruption refers to a radical change that replaces old methods with new technology."
-    },
-    {
-      "id": "fin-b2-w17-10",
-      "type": "multipleChoice",
-      "prompt": "The company invested in new software ________ increase efficiency.",
-      "options": ["in order to", "so that", "because", "as a result"],
-      "answerIndex": 0,
-      "explanation": "'In order to' expresses purpose followed by an infinitive."
-    },
-    {
-      "id": "fin-b2-w17-11",
-      "type": "multipleChoice",
-      "prompt": "Contactless payments are becoming the norm; ________, the use of cash is declining.",
-      "options": ["therefore", "whereas", "despite", "although"],
-      "answerIndex": 0,
-      "explanation": "'Therefore' indicates a logical conclusion or result."
-    },
-    {
-      "id": "fin-b2-w17-12",
-      "type": "multipleChoice",
-      "prompt": "Banks must comply with strict regulations ________ maintain their licenses.",
-      "options": ["to", "for", "by", "from"],
-      "answerIndex": 0,
-      "explanation": "'To' (infinitive of purpose) is used here to explain the reason for the action."
-    },
-    {
-      "id": "fin-b2-w17-13",
-      "type": "multipleChoice",
-      "prompt": "Mobile banking apps are designed ________ customers can manage their accounts anywhere.",
-      "options": ["so that", "in order to", "so as to", "because"],
-      "answerIndex": 0,
-      "explanation": "'So that' connects the design goal with the customer capability (clause)."
-    },
-    {
-      "id": "fin-b2-w17-14",
-      "type": "multipleChoice",
-      "prompt": "Cybersecurity threats are increasing; ________, we have doubled our IT security budget.",
-      "options": ["as a result", "nevertheless", "even so", "otherwise"],
-      "answerIndex": 0,
-      "explanation": "'As a result' shows the consequence of the increasing threats."
-    },
-    {
-      "id": "fin-b2-w17-15",
-      "type": "multipleChoice",
-      "prompt": "Cryptocurrencies use ________ ledgers to record transactions across many computers.",
-      "options": ["distributed", "centralized", "manual", "private"],
-      "answerIndex": 0,
-      "explanation": "A distributed ledger is a database that is consensually shared and synchronized across multiple sites."
-    },
-    {
-      "id": "fin-b2-w17-16",
-      "type": "multipleChoice",
-      "prompt": "The process of verifying a user's identity using two different components is called ________.",
-      "options": ["Two-factor authentication", "Single sign-on", "Password recovery", "Direct deposit"],
-      "answerIndex": 0,
-      "explanation": "2FA adds an extra layer of security by requiring two forms of identification."
-    },
-    {
-      "id": "fin-b2-w17-17",
-      "type": "multipleChoice",
-      "prompt": "Many customers now prefer to use ________ instead of physical credit cards.",
-      "options": ["digital wallets", "paper checks", "stamps", "manual ledgers"],
-      "answerIndex": 0,
-      "explanation": "Digital wallets like Apple Pay or Google Pay allow for secure mobile payments."
-    },
-    {
-      "id": "fin-b2-w17-18",
-      "type": "multipleChoice",
-      "prompt": "The bank automated its customer service ________ reduce response times.",
-      "options": ["so as to", "consequently", "therefore", "because"],
-      "answerIndex": 0,
-      "explanation": "'So as to' is followed by an infinitive to express purpose."
-    },
-    {
-      "id": "fin-b2-w17-19",
-      "type": "multipleChoice",
-      "prompt": "Digital transformation is ________ traditional banking business models.",
-      "options": ["disrupting", "stabilizing", "ignoring", "limiting"],
-      "answerIndex": 0,
-      "explanation": "Disruption occurs when new technology changes the way an industry operates."
-    },
-    {
-      "id": "fin-b2-w17-20",
-      "type": "multipleChoice",
-      "prompt": "We use encryption ________ sensitive data remains confidential.",
-      "options": ["so that", "in order to", "so as to", "because of"],
-      "answerIndex": 0,
-      "explanation": "'So that' is used with a clause to express purpose."
-    },
-    {
-      "id": "fin-b2-w17-21",
-      "type": "multipleChoice",
-      "prompt": "The new app was launched last week; ________, we have seen a 20% increase in mobile transactions.",
-      "options": ["consequently", "however", "although", "despite"],
-      "answerIndex": 0,
-      "explanation": "'Consequently' shows the result of the app launch."
-    },
-    {
-      "id": "fin-b2-w17-22",
-      "type": "multipleChoice",
-      "prompt": "A ________ is a small FinTech company that focuses on a specific niche in the market.",
-      "options": ["neobank", "conglomerate", "central bank", "credit union"],
-      "answerIndex": 0,
-      "explanation": "Neobanks are digital-only banks that often target specific customer segments."
-    },
-    {
-      "id": "fin-b2-w17-23",
-      "type": "multipleChoice",
-      "prompt": "FinTech firms often use ________ to provide personalized financial advice.",
-      "options": ["big data", "manual filing", "paper surveys", "oral tradition"],
-      "answerIndex": 0,
-      "explanation": "Big data analysis allows firms to understand customer behavior and offer tailored products."
-    },
-    {
-      "id": "fin-b2-w17-24",
-      "type": "multipleChoice",
-      "prompt": "The bank must update its IT infrastructure ________ stay competitive.",
-      "options": ["in order to", "because", "so as", "as a result"],
-      "answerIndex": 0,
-      "explanation": "'In order to' expresses purpose followed by an infinitive."
-    },
-    {
-      "id": "fin-b2-w17-25",
-      "type": "multipleChoice",
-      "prompt": "Transactions are processed in real-time; ________, funds are available almost immediately.",
-      "options": ["therefore", "whereas", "while", "although"],
-      "answerIndex": 0,
-      "explanation": "'Therefore' introduces a logical result."
-    },
-    {
-      "id": "fin-b2-w17-26",
-      "type": "multipleChoice",
-      "prompt": "We implemented AI chatbots ________ handle routine customer inquiries.",
-      "options": ["to", "for", "by", "with"],
-      "answerIndex": 0,
-      "explanation": "The infinitive 'to' expresses purpose."
-    },
-    {
-      "id": "fin-b2-w17-27",
-      "type": "multipleChoice",
-      "prompt": "The regulatory environment is changing; ________, FinTech firms must be agile.",
-      "options": ["accordingly", "however", "despite", "although"],
-      "answerIndex": 0,
-      "explanation": "'Accordingly' means in a way that is appropriate to the circumstances."
-    },
-    {
-      "id": "fin-b2-w17-28",
-      "type": "multipleChoice",
-      "prompt": "Security is our top priority ________ we can maintain customer trust.",
-      "options": ["so that", "in order to", "because of", "due to"],
-      "answerIndex": 0,
-      "explanation": "'So that' introduces a purpose clause."
-    },
-    {
-      "id": "fin-b2-w17-29",
-      "type": "multipleChoice",
-      "prompt": "The use of APIs ________ different software systems to talk to each other.",
-      "options": ["enables", "prevents", "ignores", "limits"],
-      "answerIndex": 0,
-      "explanation": "APIs allow for interoperability between different platforms."
-    },
-    {
-      "id": "fin-b2-w17-30",
-      "type": "multipleChoice",
-      "prompt": "Digital onboarding allows customers to open accounts ________ visiting a branch.",
-      "options": ["without", "by", "for", "to"],
-      "answerIndex": 0,
-      "explanation": "'Without' indicates that a physical visit is no longer necessary."
-    },
-    {
-      "id": "fin-b2-w17-31",
-      "type": "multipleChoice",
-      "prompt": "Banks are investing in cybersecurity ________ protect against data breaches.",
-      "options": ["to", "for", "by", "with"],
-      "answerIndex": 0,
-      "explanation": "Infinitive of purpose."
-    },
-    {
-      "id": "fin-b2-w17-32",
-      "type": "multipleChoice",
-      "prompt": "The app was designed with a user-friendly interface ________ it is easy to navigate.",
-      "options": ["so that", "in order to", "because", "due to"],
-      "answerIndex": 0,
-      "explanation": "'So that' expresses purpose/result."
-    },
-    {
-      "id": "fin-b2-w17-33",
-      "type": "multipleChoice",
-      "prompt": "Cloud computing allows banks to scale their operations ________.",
-      "options": ["efficiently", "slowly", "manually", "expensively"],
-      "answerIndex": 0,
-      "explanation": "Cloud services offer scalability and cost-efficiency."
-    },
-    {
-      "id": "fin-b2-w17-34",
-      "type": "multipleChoice",
-      "prompt": "We have automated the credit scoring process; ________, loan approvals are faster.",
-      "options": ["as a result", "however", "nevertheless", "on the other hand"],
-      "answerIndex": 0,
-      "explanation": "'As a result' shows the consequence of automation."
-    },
-    {
-      "id": "fin-b2-w17-35",
-      "type": "multipleChoice",
-      "prompt": "________ is a type of cryptocurrency that is pegged to a stable asset like the US dollar.",
-      "options": ["Stablecoin", "Bitcoin", "Ethereum", "Litecoin"],
-      "answerIndex": 0,
-      "explanation": "Stablecoins aim to reduce price volatility."
-    },
-    {
-      "id": "fin-b2-w17-36",
-      "type": "multipleChoice",
-      "prompt": "FinTech innovation is ________ by consumer demand for better services.",
-      "options": ["driven", "limited", "ignored", "stopped"],
-      "answerIndex": 0,
-      "explanation": "Consumer expectations for convenience drive technological changes."
-    },
-    {
-      "id": "fin-b2-w17-37",
-      "type": "multipleChoice",
-      "prompt": "The bank adopted a mobile-first strategy ________ engage younger customers.",
-      "options": ["to", "for", "by", "with"],
-      "answerIndex": 0,
-      "explanation": "Infinitive of purpose."
-    },
-    {
-      "id": "fin-b2-w17-38",
-      "type": "multipleChoice",
-      "prompt": "RegTech refers to technology that helps firms ________ with regulations.",
-      "options": ["comply", "disagree", "ignore", "bypass"],
-      "answerIndex": 0,
-      "explanation": "RegTech automates compliance processes."
-    },
-    {
-      "id": "fin-b2-w17-39",
-      "type": "multipleChoice",
-      "prompt": "The transition to digital banking has been ________ accelerated by the pandemic.",
-      "options": ["significantly", "slightly", "not", "poorly"],
-      "answerIndex": 0,
-      "explanation": "The pandemic forced many customers and banks to adopt digital tools more quickly."
-    },
-    {
-      "id": "fin-b2-w17-40",
-      "type": "multipleChoice",
-      "prompt": "We use machine learning ________ detect fraudulent transactions.",
-      "options": ["in order to", "because", "so as", "as a result"],
-      "answerIndex": 0,
-      "explanation": "'In order to' expresses purpose."
-    },
-    {
-      "id": "fin-b2-w17-41",
-      "type": "multipleChoice",
-      "prompt": "The new regulations are strict; ________, we need to hire more compliance officers.",
-      "options": ["consequently", "however", "although", "despite"],
-      "answerIndex": 0,
-      "explanation": "'Consequently' shows the result."
-    },
-    {
-      "id": "fin-b2-w17-42",
-      "type": "multipleChoice",
-      "prompt": "________ is the use of automated programs to execute financial trades.",
-      "options": ["Algorithmic trading", "Manual trading", "Insider trading", "Day trading"],
-      "answerIndex": 0,
-      "explanation": "Algorithms can execute trades at high speeds based on set criteria."
-    },
-    {
-      "id": "fin-b2-w17-43",
-      "type": "multipleChoice",
-      "prompt": "Digital transformation requires a ________ in corporate culture.",
-      "options": ["shift", "stagnation", "pause", "reduction"],
-      "answerIndex": 0,
-      "explanation": "A shift in mindset is necessary for successful digital adoption."
-    },
-    {
-      "id": "fin-b2-w17-44",
-      "type": "multipleChoice",
-      "prompt": "We are expanding our digital offerings ________ meet customer needs.",
-      "options": ["to", "for", "by", "with"],
-      "answerIndex": 0,
-      "explanation": "Infinitive of purpose."
-    },
-    {
-      "id": "fin-b2-w17-45",
-      "type": "multipleChoice",
-      "prompt": "Cybersecurity is ________ to the success of any digital bank.",
-      "options": ["essential", "irrelevant", "optional", "minor"],
-      "answerIndex": 0,
-      "explanation": "Trust depends on secure systems."
-    },
-    {
-      "id": "fin-b2-w17-46",
-      "type": "multipleChoice",
-      "prompt": "The company uses APIs ________ integrate with third-party apps.",
-      "options": ["so as to", "because", "although", "despite"],
-      "answerIndex": 0,
-      "explanation": "'So as to' expresses purpose."
-    },
-    {
-      "id": "fin-b2-w17-47",
-      "type": "multipleChoice",
-      "prompt": "The server capacity was increased; ________, we can handle more simultaneous users.",
-      "options": ["therefore", "however", "whereas", "although"],
-      "answerIndex": 0,
-      "explanation": "'Therefore' shows the result."
-    },
-    {
-      "id": "fin-b2-w17-48",
-      "type": "multipleChoice",
-      "prompt": "________ allows users to borrow money without a traditional credit score in some cases.",
-      "options": ["Alternative lending", "Centralized lending", "Interbank lending", "Mortgage lending"],
-      "answerIndex": 0,
-      "explanation": "Alternative lending use different data points to assess creditworthiness."
-    },
-    {
-      "id": "fin-b2-w17-49",
-      "type": "multipleChoice",
-      "prompt": "We encrypted the database ________ unauthorized parties cannot read the information.",
-      "options": ["so that", "in order to", "because of", "due to"],
-      "answerIndex": 0,
-      "explanation": "'So that' introduces a purpose clause."
-    },
-    {
-      "id": "fin-b2-w17-50",
-      "type": "multipleChoice",
-      "prompt": "The FinTech industry is ________ evolving, with new innovations every year.",
-      "options": ["constantly", "slowly", "never", "rarely"],
-      "answerIndex": 0,
-      "explanation": "'Constantly' emphasizes the rapid pace of change."
+      "id": "adm-b2-w17-ex15",
+      "type": "writingTask",
+      "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Shortlisting'. 2) What is an 'Induction'? 3) Complete the participle clause: '___ (finish) the report, I sent it to HR.' 4) What is the role of an office 'buddy'?",
+      "modelAnswer": "1) Selecting top candidates from a pool. 2) Introduction to a new role. 3) Having finished. 4) To provide informal support to a new hire.",
+      "keywords": ["Selecting", "Introduction", "Having", "informal"]
     }
   ]
 }

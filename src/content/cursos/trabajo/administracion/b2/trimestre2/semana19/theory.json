@@ -1,24 +1,25 @@
 {
-  "title": "Seguros y Fundamentos Actuariales",
+  "title": "Strategic Planning & Change Management",
   "sections": [
     {
       "id": "vocab",
-      "title": "El Mundo del Seguro",
-      "content": "El sector asegurador es un pilar de la gestión del riesgo financiero.\n\n- **Premium**: Prima (el pago periódico por el seguro).\n- **Claim**: Reclamación / Siniestro (solicitud de pago tras una pérdida).\n- **Underwriting**: Suscripción (proceso de evaluar y aceptar riesgos).\n- **Policyholder**: Tomador de la póliza (el cliente).\n- **Deductible / Excess**: Franquicia (parte del daño que paga el asegurado).\n- **Actuary**: Actuario (profesional que calcula riesgos y probabilidades)."
+      "title": "Strategic Frameworks & Change",
+      "content": "In high-level administration, strategic planning involves long-term visioning, while change management focuses on transitioning individuals and teams to a desired future state.\n\n- **SWOT Analysis**: A study undertaken by an organisation to identify its internal strengths and weaknesses, as well as its external opportunities and threats.\n- **PESTLE**: A framework used to monitor the macro-environmental (Political, Economic, Social, Technological, Legal, Environmental) factors that impact an organisation.\n- **Stakeholder Engagement**: The process by which an organisation involves people who may be affected by the decisions it makes.\n- **Change Fatigue**: A general sense of apathy or resentment towards organisational changes, usually caused by too many changes happening at once.\n- **Strategic Alignment**: The process of ensuring that an organisation's structure and resources support its strategy.\n- **Implementation Roadmap**: A high-level visual summary that maps out the steps needed to execute a strategy."
     },
     {
       "id": "grammar",
-      "title": "Passive Voice for Professional Processes",
-      "content": "Se usa la voz pasiva para enfocarse en el proceso más que en quién lo realiza.\n\n**Estructura:** Be + Past Participle.\n\n**Ejemplos:**\n- *The risk **is assessed** by an actuary.* (El riesgo es evaluado por un actuario)\n- *The claim **was rejected** due to lack of evidence.* (La reclamación fue rechazada...)\n- *Premiums **will be adjusted** next year.* (Las primas serán ajustadas el año que viene)\n\n**Uso de 'By':** Se añade solo si es relevante quién realiza la acción. (*The policy was signed **by the CEO**.*)"
+      "title": "Mixed Conditionals",
+      "content": "Mixed conditionals are used when the time in the 'if-clause' is different from the time in the 'result-clause'. They are essential for discussing hypothetical outcomes of past decisions on present situations.\n\n**1. Past Action → Present Result (Mixed Type 3 + 2)**\nUsed to describe how a different past action would affect a current situation.\n*Structure:* If + Past Perfect, ... would + infinitive.\n*Example:* \"If we **had invested** in digital infrastructure last year, we **would be** more competitive today.\"\n\n**2. Present Condition → Past Result (Mixed Type 2 + 3)**\nUsed to describe how a permanent state or present condition affected a past event.\n*Structure:* If + Past Simple, ... would have + past participle.\n*Example:* \"If our CEO **weren't** so risk-averse, she **would have approved** the merger last month.\"\n\n**Formal Usage:** In business reporting, mixed conditionals help analyze strategic failures or missed opportunities."
     }
   ],
   "objectives": [
-    "Identificar terminología técnica del sector seguros",
-    "Utilizar la voz pasiva para describir procesos internos",
-    "Comprender el papel de la suscripción (underwriting) en la gestión de riesgos"
+    "Analyse macro-environmental factors using the PESTLE framework",
+    "Identify and mitigate 'change fatigue' during organisational transitions",
+    "Use mixed conditionals to evaluate past strategic decisions and their current impact",
+    "Draft a strategic implementation roadmap for a department"
   ],
   "keyTerms": [
-    { "term": "Liability", "definition": "Legal responsibility for something, especially costs or damages." },
-    { "term": "Coverage", "definition": "The amount of protection given by an insurance policy." }
+    { "term": "Agility", "definition": "The ability of an organisation to renew itself, adapt, and succeed in a rapidly changing environment." },
+    { "term": "Benchmarking", "definition": "Evaluating something by comparison with a standard or the performance of competitors." }
   ]
 }

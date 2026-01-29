@@ -1,29 +1,25 @@
 {
-  "title": "Gestión de Riesgos y Carteras: VaR y Asset Allocation",
+  "title": "Digital Transformation & IT Administration",
   "sections": [
     {
-      "id": "risk-vocab",
-      "title": "Vocabulario: Medición del Riesgo y Gestión de Carteras",
-      "content": "B2 nivel. Cuantificando la exposición y optimizando la inversión.\n\n- **Value at Risk (VaR)**: Valor en riesgo (pérdida máxima esperada en un tiempo dado).\n- **Stress testing**: Pruebas de resistencia ante escenarios extremos.\n- **Asset Allocation**: Distribución de activos (mezcla de acciones, bonos, etc.).\n- **Portfolio Rebalancing**: Reequilibrio de cartera (ajustar pesos de activos).\n- **Standard deviation**: Desviación típica (medida de volatilidad).\n- **Confidence level**: Nivel de confianza (ej. 95% o 99% en VaR).\n- **Diversification**: Diversificación (reducir riesgo no sistemático).\n- **Exposure**: Exposición (monto total en riesgo en un activo)."
+      "id": "vocab",
+      "title": "IT Systems & Digital Maturity",
+      "content": "Digital transformation is the integration of digital technology into all areas of a business, fundamentally changing how you operate and deliver value to customers.\n\n- **Legacy Systems**: Outdated computer systems, programming languages, or software applications that are still in use because they are critical to the business.\n- **Scalability**: The capability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth.\n- **ERP (Enterprise Resource Planning)**: Software used by organisations to manage day-to-day business activities such as accounting, procurement, project management, and supply chain operations.\n- **Data Silos**: A collection of data held by one group that is not easily or fully accessible by other groups in the same organisation.\n- **Digital Maturity**: A measure of an organisation's ability to create value through digital means.\n- **Cloud Migration**: The process of moving data, applications, or other business elements to a cloud computing environment."
     },
     {
-      "id": "risk-grammar",
-      "title": "Gramática: Mixed Conditionals para Análisis Retrospectivo",
-      "content": "Los **Mixed Conditionals** vinculan una acción (o falta de ella) en el pasado con un estado o resultado en el presente.\n\n- **Estructura**: If + Past Perfect, would + bare infinitive (o viceversa).\n- *If we **had rebalanced** the portfolio in Q1, our current exposure **would be** lower.*\n- *We **would be** facing less risk now if we **hadn't concentrated** all assets in one sector.*\n- *If the analyst **hadn't missed** the warning signs, the bank **would be** more stable today.*"
-    },
-    {
-      "id": "portfolio-strategy",
-      "title": "Estrategia: Risk Mitigation",
-      "content": "La gestión de riesgos no solo trata de medir, sino de actuar. El **Backtesting** permite verificar si los modelos VaR fueron precisos en el pasado para ajustar el **Capital Buffer** (colchón de capital) actual."
+      "id": "grammar",
+      "title": "Advanced Inversion (Conditional)",
+      "content": "In formal business English, we often use inversion to replace 'if' in conditional sentences. This makes the tone more professional and urgent.\n\n**1. Type 1 Inversion (Should)**\n*Standard:* If you require further assistance, please contact us.\n*Inverted:* **Should you require** further assistance, please contact us.\n\n**2. Type 2 Inversion (Were)**\n*Standard:* If the system were more reliable, we would use it.\n*Inverted:* **Were the system** more reliable, we would use it.\n*Standard:* If it weren't for the cloud backup, we would have lost all data.\n*Inverted:* **Were it not for** the cloud backup, we would have lost all data.\n\n**3. Type 3 Inversion (Had)**\n*Standard:* If we had known about the bug, we would have postponed the launch.\n*Inverted:* **Had we known** about the bug, we would have postponed the launch."
     }
   ],
   "objectives": [
-    "Comprender la aplicación del VaR y el Stress Testing en la banca",
-    "Dominar el vocabulario de Asset Allocation y Diversificación",
-    "Utilizar condicionales mixtos para evaluar el impacto presente de decisiones estratégicas pasadas"
+    "Identify the challenges of maintaining 'legacy systems' in a modern office",
+    "Explain the benefits of ERP integration for administrative efficiency",
+    "Use inverted conditionals to draft formal business correspondence",
+    "Discuss strategies for breaking down 'data silos' within an organisation"
   ],
   "keyTerms": [
-    { "term": "VaR", "definition": "A statistical measure of the risk of investment loss." },
-    { "term": "Rebalancing", "definition": "The process of realigning the weightings of a portfolio of assets." }
+    { "term": "Interoperability", "definition": "The ability of different information systems and software applications to communicate and exchange data." },
+    { "term": "SaaS", "definition": "Software as a Service; a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted." }
   ]
 }

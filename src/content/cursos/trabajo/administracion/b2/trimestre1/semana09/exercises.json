@@ -3,119 +3,150 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana09",
-  "title": "Stakeholder Management & Networking",
-  "description": "Vocabulary for stakeholder engagement and relative clauses for providing detailed information.",
+  "title": "Exercises: Stakeholder Management & Networking",
   "items": [
     {
-      "id": "admin-b2-w9-q1",
-      "type": "multipleChoice",
-      "options": [
-        "Consultation",
-        "Collaboration",
-        "Engagement",
-        "Stakeholder"
-      ],
-      "explanation": "A stakeholder is anyone affected by or interested in a project.",
-      "answerIndex": 3,
-      "prompt": "What is the general term for any individual or group affected by a project's outcome?"
-    },
-    {
-      "id": "admin-b2-w9-q2",
-      "type": "fillBlanks",
-      "explanation": "Defining relative clause: 'who' or 'that' for people.",
-      "prompt": "The manager ________ (who / that) is responsible for stakeholder engagement is out of the office today.",
-      "answers": [
-        "who",
-        "that"
+      "id": "adm-b2-w9-ex01",
+      "type": "reading-comprehension",
+      "title": "Exercise 1: Stakeholder Engagement Plan (Doc A)",
+      "text": "Doc A — Project Alpha: Stakeholder Engagement Plan\n\nObjective: To ensure the successful launch of the new client portal, which was approved by the board last month. We have identified several key stakeholders whom we must manage closely.\n\nKey Stakeholders:\n1. Finance Director (High Power, High Interest): Mr. Davies, whose approval is required for all project expenses, will receive weekly updates.\n2. Client Success Team (Low Power, High Interest): These are the users who will use the portal daily. We will consult them during the testing phase.\n3. External Vendors (Low Power, Low Interest): They will be kept informed via the monthly newsletter.\n\nStrategy: We will leverage our existing relationship with the IT department to streamline the launch. It is essential that we reach out to the Finance Director before Friday to confirm the budget allocation.",
+      "questions": [
+        {
+          "question": "Which stakeholder group should be 'managed closely' according to the plan?",
+          "options": ["External Vendors", "Client Success Team", "Finance Director (Mr. Davies)"],
+          "answerIndex": 2,
+          "explanation": "Doc A classifies the Finance Director as 'High Power, High Interest', meaning he must be managed closely."
+        },
+        {
+          "question": "What strategy is mentioned to help 'streamline' the launch?",
+          "options": ["Leveraging the existing relationship with the IT department.", "Ignoring the external vendors.", "Reaching out to the board members."],
+          "answerIndex": 0,
+          "explanation": "Doc A states: 'We will leverage our existing relationship with the IT department to streamline the launch.'"
+        }
       ]
     },
     {
-      "id": "admin-b2-w9-q3",
+      "id": "adm-b2-w9-ex02",
       "type": "multipleChoice",
+      "prompt": "Exercise 2: Stakeholder Matrix. How should you handle a stakeholder with 'High Power' but 'Low Interest'?",
       "options": [
-        "Manage closely",
-        "Keep satisfied",
-        "Keep informed",
-        "Monitor only"
+        "Manage closely.",
+        "Keep satisfied.",
+        "Keep informed.",
+        "Monitor only."
       ],
-      "explanation": "Stakeholders with high power and high interest should be managed closely.",
+      "answerIndex": 1,
+      "explanation": "According to the stakeholder matrix, High Power/Low Interest individuals should be 'kept satisfied'."
+    },
+    {
+      "id": "adm-b2-w9-ex03",
+      "type": "multipleChoice",
+      "prompt": "Exercise 3: Networking Vocabulary. What is an 'Elevator Pitch'?",
+      "options": [
+        "A long speech about your life history.",
+        "A concise, persuasive summary of who you are and what you do.",
+        "A formal complaint about the office lift.",
+        "A technique for selling property."
+      ],
+      "answerIndex": 1,
+      "explanation": "An elevator pitch is a short, persuasive summary of yourself and your role."
+    },
+    {
+      "id": "adm-b2-w9-ex04",
+      "type": "multipleChoice",
+      "prompt": "Exercise 4: Professional Chunks. Complete the sentence: 'I am ___ to discuss a potential ___ that would be ___ for both of us.'",
+      "options": [
+        "reaching out / collaboration / mutually beneficial",
+        "following up / networking / leverage",
+        "leveraging / stakeholder / informed",
+        "reaching out / matrix / precise"
+      ],
       "answerIndex": 0,
-      "prompt": "According to stakeholder mapping, how should you handle 'High Power, High Interest' individuals?"
+      "explanation": "'Reaching out' for 'collaboration' that is 'mutually beneficial' is standard professional phrasing."
     },
     {
-      "id": "admin-b2-w9-q4",
-      "type": "fillBlanks",
-      "explanation": "Non-defining relative clause: needs commas and 'which' for things.",
-      "prompt": "The stakeholder map, ________ (which) I updated this morning, is available on the shared drive.",
-      "answers": [
-        "which"
-      ]
+      "id": "adm-b2-w9-ex05",
+      "type": "writingTask",
+      "prompt": "Exercise 5: Defining Relative Clauses. Combine these two sentences into one using 'who' or 'that' (no commas): 'The person is the project lead. The person sent the email.'",
+      "modelAnswer": "The person who sent the email is the project lead.",
+      "keywords": ["who", "sent", "lead"]
     },
     {
-      "id": "admin-b2-w9-q5",
+      "id": "adm-b2-w9-ex06",
+      "type": "writingTask",
+      "prompt": "Exercise 6: Non-Defining Relative Clauses. Combine these two sentences into one using 'which' and commas: 'The new portal is very fast. The new portal cost £50,000.'",
+      "modelAnswer": "The new portal, which cost £50,000, is very fast.",
+      "keywords": [",", "which", ","]
+    },
+    {
+      "id": "adm-b2-w9-ex07",
+      "type": "writingTask",
+      "prompt": "Exercise 7: Extracting Action Points. Based on Doc A, list the specific outreach task and its deadline.",
+      "modelAnswer": "Action: Reach out to the Finance Director. Deadline: Before Friday.",
+      "keywords": ["Reach out", "Finance", "Friday"]
+    },
+    {
+      "id": "adm-b2-w9-ex08",
       "type": "multipleChoice",
+      "prompt": "Exercise 8: Courtesy Modals. Which is the most professional way to 'reach out' to a senior stakeholder for a consultation?",
       "options": [
-        "To reach out",
-        "To leverage",
-        "To follow up",
-        "To mutual benefit"
+        "I need your opinion now.",
+        "I am reaching out to request a brief consultation on the portal launch. Would you be able to provide your feedback by Wednesday?",
+        "Why haven't you responded to my stakeholder map?",
+        "Send me your thoughts on the project."
       ],
-      "explanation": "To follow up means to take further action after an initial contact.",
-      "answerIndex": 2,
-      "prompt": "Which phrase describes contacting someone again after a networking event to maintain the relationship?"
+      "answerIndex": 1,
+      "explanation": "This option uses 'reaching out', 'request', and a polite modal ('Would you be able to...')."
     },
     {
-      "id": "admin-b2-w9-q6",
-      "type": "fillBlanks",
-      "explanation": "'Whose' is used for possession.",
-      "prompt": "The investor ________ (whose) interest we are monitoring has requested a meeting.",
-      "answers": [
-        "whose"
-      ]
+      "id": "adm-b2-w9-ex09",
+      "type": "writingTask",
+      "prompt": "Exercise 9: Networking Follow-up. Write a 50-word follow-up email to Mr. Davies (from Doc A) after a brief meeting at a conference. Mention 'mutual benefit'.",
+      "modelAnswer": "Dear Mr. Davies, it was a pleasure meeting you at the conference today. I’m reaching out to follow up on our discussion regarding the new portal. I believe this collaboration will be mutually beneficial for both Finance and Operations. I’ll send the full proposal shortly. Best regards, [Your Name]",
+      "keywords": ["follow up", "reaching out", "mutual benefit"]
     },
     {
-      "id": "admin-b2-w9-q7",
+      "id": "adm-b2-w9-ex10",
       "type": "multipleChoice",
-      "options": [
-        "Consultation",
-        "Collaboration",
-        "Transparency",
-        "Influence"
-      ],
-      "explanation": "Transparency involves sharing information openly to build trust.",
+      "prompt": "Exercise 10: Operational Logic. If a stakeholder has 'Low Power' but 'High Interest', what is the best strategy?",
+      "options": ["Manage closely", "Keep satisfied", "Keep informed", "Ignore them"],
       "answerIndex": 2,
-      "prompt": "Which concept refers to the practice of sharing project information openly with stakeholders?"
+      "explanation": "Low Power/High Interest stakeholders should be 'kept informed'."
     },
     {
-      "id": "admin-b2-w9-q8",
-      "type": "fillBlanks",
-      "explanation": "To leverage means to use to maximum advantage.",
-      "prompt": "We should ________ our professional network to find a suitable candidate for the role.",
-      "answers": [
-        "leverage"
-      ]
+      "id": "adm-b2-w9-ex11",
+      "type": "writingTask",
+      "prompt": "Exercise 11: Elevator Pitch Prep. Prepare a script for a 30-second elevator pitch. Include your role, a key project you are 'leveraging', and your goal for a 'mutually beneficial' outcome.",
+      "modelAnswer": "[Audio Upload Required] Rubric: Concise, Persuasive, Use of key networking terms.",
+      "keywords": ["role", "leveraging", "mutually beneficial"]
     },
     {
-      "id": "admin-b2-w9-q9",
-      "type": "multipleChoice",
-      "options": [
-        "Who",
-        "Which",
-        "Whom",
-        "Whose"
-      ],
-      "explanation": "'Whom' is the formal objective form (the object of 'with').",
-      "answerIndex": 2,
-      "prompt": "The client with ________ I was speaking is interested in our new proposal. (Formal)"
+      "id": "adm-b2-w9-ex12",
+      "type": "writingTask",
+      "prompt": "Exercise 12: Oral Outreach. Record a 60-second audio reaching out to the IT department to 'coordinate logistics' for the portal launch. Use a relative clause.",
+      "modelAnswer": "[Audio Upload Required] Checklist: Relative clause accuracy, Politeness, Clear request.",
+      "keywords": ["which", "who", "coordinate"]
     },
     {
-      "id": "admin-b2-w9-q10",
-      "type": "fillBlanks",
-      "explanation": "An elevator pitch is a short summary.",
-      "prompt": "Prepare a 30-second ________ ________ to introduce yourself at the networking lunch.",
-      "answers": [
-        "elevator pitch"
-      ]
+      "id": "adm-b2-w9-ex13",
+      "type": "writingTask",
+      "prompt": "Exercise 13: Stakeholder Map & Plan (Portfolio). Write a 200-word engagement plan for a new 'Office Sustainability' project. Use at least two relative clauses and the term 'stakeholder mapping'.",
+      "modelAnswer": "Our first step for the Office Sustainability project is to perform stakeholder mapping. We have identified the Facilities Manager, who is responsible for building maintenance, as a high-power stakeholder. The green committee, which was formed last month, has high interest but low power. \n\nWe will reach out to the Facilities Manager to ensure we have his buy-in before we install the new recycling bins. The committee, whose feedback is vital for engagement, will be kept informed via weekly meetings. Our goal is to leverage these relationships to ensure a mutually beneficial outcome for the whole company. We will follow up with a full report by Friday.",
+      "keywords": ["mapping", "who", "which", "leverage", "mutually beneficial"]
+    },
+    {
+      "id": "adm-b2-w9-ex14",
+      "type": "writingTask",
+      "prompt": "Exercise 14: Networking Log. Complete a log for 3 contacts. Include: Name | Company | Interest Level | Follow-up Action.",
+      "modelAnswer": "1. Mr. Davies | Finance Ltd | High | Email proposal. 2. Sarah | IT Solutions | Medium | Follow up on LinkedIn. 3. John | Green Co | High | Schedule 15-min call.",
+      "keywords": ["Finance", "IT", "Follow up", "Schedule"]
+    },
+    {
+      "id": "adm-b2-w9-ex15",
+      "type": "writingTask",
+      "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Stakeholder'. 2) What does it mean to 'leverage' a connection? 3) Add commas if needed: 'The report which I wrote is long.' 4) Complete: 'I am reaching ___ to discuss...' ",
+      "modelAnswer": "1) A person or group with an interest in a project. 2) To use a connection to maximum advantage. 3) The report, which I wrote, is long (if non-defining) or No commas (if defining). 4) out.",
+      "keywords": ["interest", "advantage", "which", "out"]
     }
   ]
 }

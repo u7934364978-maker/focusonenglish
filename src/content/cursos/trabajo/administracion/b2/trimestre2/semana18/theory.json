@@ -1,24 +1,37 @@
 {
-  "title": "Banca Privada y Gestión de Patrimonios",
+  "title": "HR Operations: Performance Reviews & Feedback",
   "sections": [
     {
-      "id": "vocab",
-      "title": "Servicios para Clientes de Alto Patrimonio (HNWI)",
-      "content": "La gestión de grandes fortunas requiere un enfoque personalizado y discreto.\n\n- **HNWI (High Net Worth Individual)**: Persona de alto patrimonio neto.\n- **Asset Allocation**: Asignación de activos (distribución de la cartera).\n- **Estate Planning**: Planificación sucesoria (herencias y legados).\n- **Tax Mitigation**: Mitigación fiscal (reducir legalmente la carga impositiva).\n- **Fiduciary Duty**: Deber fiduciario (obligación legal de actuar en interés del cliente).\n- **Discretionary Management**: Gestión discrecional (el banco toma decisiones por el cliente)."
+      "id": "performance-mgmt",
+      "title": "Monitoring Growth and Output",
+      "content": "Performance management is a continuous process of identifying, measuring, and developing the performance of individuals and teams. In an administrative capacity, this involves managing the appraisal cycle, documenting feedback, and tracking KPIs.\n\n### The Performance Cycle:\n1. **Goal Setting**: Defining SMART (Specific, Measurable, Achievable, Relevant, Time-bound) objectives.\n2. **Continuous Monitoring**: Providing ongoing support and tracking progress.\n3. **Performance Appraisal**: The formal annual or bi-annual review meeting.\n4. **Reward and Recognition**: Acknowledging high performance or implementing an Improvement Plan (PIP)."
     },
     {
-      "id": "grammar",
-      "title": "Adjectives and Adverbs for Precise Reporting",
-      "content": "En la gestión de patrimonios, la precisión en los informes es clave.\n\n**Adjetivos de Intensidad:**\n- **Slight / Slightly**: Ligero / Ligeramente.\n- **Steady / Steadily**: Constante / Constantemente.\n- **Significant / Significantly**: Significativo / Significativamente.\n- **Sharp / Sharply**: Brusco / Bruscamente.\n\n**Uso en informes:**\n- *There was a **steady increase** in the portfolio's value.* (Hubo un aumento constante...)\n- *The market fell **sharply** after the announcement.* (El mercado cayó bruscamente...)"
+      "id": "phrase-bank",
+      "title": "PhraseBank: Review & Feedback Chunks",
+      "content": "Use these chunks to handle performance discussions:\n\n1. **to meet expectations** — \"She consistently meets and exceeds expectations.\"\n2. **to provide constructive feedback** — \"I'd like to provide some constructive feedback.\"\n3. **to identify areas for improvement** — \"We need to identify areas for improvement.\"\n4. **to conduct an appraisal** — \"I'm conducting his annual appraisal today.\"\n5. **to set SMART goals** — \"Let's set some SMART goals for the next quarter.\"\n6. **to track KPIs** — \"How are we tracking against our monthly KPIs?\"\n7. **to implement an improvement plan** — \"We've decided to implement a PIP.\"\n8. **to recognise achievements** — \"It's important to recognise the team's achievements.\""
+    },
+    {
+      "id": "grammar-cleft",
+      "title": "Grammar: Cleft Sentences for Emphasis",
+      "content": "Cleft sentences are used to focus on a particular piece of information in a sentence. They are common in performance reviews when highlighting a specific success or a critical area for change.\n\n### It-Clefts (It + is/was + [focus] + that/who...)\n- **It was Sarah who** hit the sales target single-handedly.\n- **It is the lack of communication that** is causing the delays.\n- **It was the new training program that** improved our efficiency.\n\n### What-Clefts (What... + is/was + [focus])\n- **What we need is** more focus on data accuracy.\n- **What impressed me most was** your ability to handle the crisis.\n- **What I want to discuss is** your professional development plan."
+    },
+    {
+      "id": "deliverable",
+      "title": "Weekly Deliverable: Performance Appraisal Summary",
+      "content": "Review a simulated employee performance data set and draft an 'Appraisal Summary'. Include:\n1. **Achievement of KPIs**.\n2. **Key Strengths** (Using cleft sentences: *What impressed us was...*).\n3. **Areas for Development**.\n4. **SMART Goals for Q3**."
     }
   ],
   "objectives": [
-    "Identificar los servicios principales de la banca privada",
-    "Describir tendencias de mercado con precisión usando adjetivos y adverbios",
-    "Comprender el concepto de deber fiduciario"
+    "Define the stages of the performance management cycle",
+    "Identify and apply SMART goal-setting principles",
+    "Use cleft sentences to emphasize specific feedback in reports",
+    "Document performance appraisals and improvement plans professionally"
   ],
   "keyTerms": [
-    { "term": "Wealth Management", "definition": "A high-level professional service that combines financial and investment advice, accounting and tax services." },
-    { "term": "Compliance", "definition": "The action or fact of complying with a wish or command, especially in a legal or regulatory context." }
+    { "term": "KPI", "definition": "Key Performance Indicator: a quantifiable measure used to evaluate the success of an organization or employee." },
+    { "term": "Appraisal", "definition": "An act of assessing something or someone, typically in a formal interview." },
+    { "term": "PIP", "definition": "Performance Improvement Plan: a document that identifies performance deficiencies and outlines steps for improvement." },
+    { "term": "SMART", "definition": "Specific, Measurable, Achievable, Relevant, Time-bound: a framework for setting effective goals." }
   ]
 }

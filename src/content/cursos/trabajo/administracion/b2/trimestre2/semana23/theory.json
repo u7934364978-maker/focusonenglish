@@ -1,29 +1,25 @@
 {
-  "title": "Repaso del Segundo Trimestre: Mercados e Inversiones",
+  "title": "Business Law & Compliance",
   "sections": [
     {
-      "id": "review-topics",
-      "title": "Temas Principales",
-      "content": "Este trimestre hemos cubierto la complejidad de los mercados globales y la gestión de riesgos.\n\n1. **Derivados (Semana 20)**: Options (Calls/Puts) y Futures para cobertura (Hedging).\n2. **Gestión de Riesgos (Semana 21)**: Value at Risk (VaR), Stress Testing y Asset Allocation.\n3. **Inversión Internacional y ESG (Semana 22)**: Mercados emergentes, riesgo de divisa y criterios ambientales, sociales y de gobernanza."
+      "id": "vocab",
+      "title": "Legal Frameworks & Accountability",
+      "content": "Administrative roles often involve handling sensitive information and ensuring the organisation complies with various laws and regulations.\n\n- **GDPR (General Data Protection Regulation)**: A legal framework that sets guidelines for the collection and processing of personal information from individuals who live in the European Union (EU).\n- **Non-Disclosure Agreement (NDA)**: A contract by which one or more parties agree not to disclose confidential information that they have shared with each other as part of a business relationship.\n- **Intellectual Property (IP)**: A category of property that includes intangible creations of the human intellect (e.g., copyrights, patents, trademarks).\n- **Litigation**: The process of taking legal action, typically in a civil court.\n- **Liability**: The state of being legally responsible for something, especially an amount of money or a debt.\n- **Due Diligence**: An investigation, audit, or review performed to confirm facts or details of a matter under consideration (e.g., before signing a contract or buying a company)."
     },
     {
-      "id": "review-grammar",
-      "title": "Consolidación Gramatical",
-      "content": "Revisamos las estructuras clave para el análisis financiero avanzado:\n\n- **Third Conditional**: *If the price **had dropped**, we **would have exercised** the option.* (Pasado hipotético).\n- **Mixed Conditionals**: *If we **had hedged** earlier, we **would be** safe now.* (Pasado -> Presente).\n- **Advanced Passive**: *It **is believed that** ESG will drive future growth.* / *The market **is expected to** recover.* (Reportar tendencias)."
-    },
-    {
-      "id": "review-vocab",
-      "title": "Vocabulario Esencial",
-      "content": "- **Underlying Asset**: Activo subyacente.\n- **Portfolio Rebalancing**: Reequilibrio de cartera.\n- **Sovereign Debt**: Deuda pública.\n- **Greenwashing**: Lavado de imagen verde.\n- **Standard Deviation**: Volatilidad / Desviación típica."
+      "id": "grammar",
+      "title": "Nominalization",
+      "content": "Nominalization is the process of turning verbs or adjectives into nouns. In professional and academic writing, it is used to make the tone more objective, formal, and concise.\n\n**Examples of Verb to Noun:**\n- *Verb:* We **analysed** the data.\n- *Nominalized:* Our **analysis** of the data revealed...\n- *Verb:* The management **implemented** the new policy.\n- *Nominalized:* The **implementation** of the new policy occurred last month.\n\n**Examples of Adjective to Noun:**\n- *Adjective:* The system is **efficient**.\n- *Nominalized:* The **efficiency** of the system is remarkable.\n\n**Why use it?**\nIt shifts the focus from the person doing the action to the action itself or the result, which is common in formal reporting and legal documentation."
     }
   ],
   "objectives": [
-    "Sintetizar los conocimientos sobre derivados y gestión de carteras",
-    "Consolidar el uso de condicionales complejos y voz pasiva de reporte",
-    "Prepararse para la evaluación final del trimestre"
+    "Identify the key principles of GDPR for data handling in an office environment",
+    "Explain the purpose and common clauses of an NDA",
+    "Apply nominalization to transform informal sentences into professional reporting style",
+    "Understand the importance of 'due diligence' in business transactions"
   ],
   "keyTerms": [
-    { "term": "Hedging", "definition": "A risk management strategy used to offset potential losses in investments." },
-    { "term": "VaR", "definition": "Value at Risk: a measure of the risk of loss for investments." }
+    { "term": "Breach", "definition": "An act of breaking or failing to observe a law, agreement, or code of conduct." },
+    { "term": "Indemnity", "definition": "Security or protection against a loss or other financial burden." }
   ]
 }

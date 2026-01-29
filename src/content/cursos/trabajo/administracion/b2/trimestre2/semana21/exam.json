@@ -1,41 +1,46 @@
-[
-  {
-    "id": 1,
-    "type": "multiple-choice",
-    "question": "Which confidence level is common in VaR calculations?",
-    "options": ["10%", "50%", "95% or 99%", "0%"],
-    "correctAnswer": 2,
-    "explanation": "Standard VaR models typically use 95% or 99% confidence levels."
-  },
-  {
-    "id": 2,
-    "type": "multiple-choice",
-    "question": "What is 'Backtesting' in the context of VaR?",
-    "options": ["Predicting the future", "Comparing VaR predictions with actual historical losses", "Hiring a back-office team", "Ignoring past data"],
-    "correctAnswer": 1,
-    "explanation": "Backtesting validates the accuracy of the VaR model using real past data."
-  },
-  {
-    "id": 3,
-    "type": "fill-in-the-blank",
-    "question": "If you __________ (diversify) your portfolio, you __________ (have) less risk now.",
-    "correctAnswer": "had diversified... would have",
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 4,
-    "type": "multiple-choice",
-    "question": "What is 'Risk Mitigation'?",
-    "options": ["Increasing risk for more profit", "Taking actions to reduce the impact of risk", "Measuring the risk only", "Hiring more traders"],
-    "correctAnswer": 1,
-    "explanation": "Mitigation is about reducing the probability or impact of a loss."
-  },
-  {
-    "id": 5,
-    "type": "multiple-choice",
-    "question": "If the auditor _______ the fraud earlier, the company _______ still in business.",
-    "options": ["had caught / would be", "caught / would be", "catches / will be", "had caught / had been"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional (Past -> Present)."
-  }
-]
+{
+  "title": "Digital Transformation Exam",
+  "passingScore": 70,
+  "items": [
+    {
+      "id": "adm-b2-w21-q1",
+      "type": "multipleChoice",
+      "prompt": "________ you require a trial version of the ERP software, please contact our support team.",
+      "options": ["Should", "Had", "Were", "Would"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 1: Should + subject + verb."
+    },
+    {
+      "id": "adm-b2-w21-q2",
+      "type": "multipleChoice",
+      "prompt": "Which term describes the process of moving business operations to the cloud?",
+      "options": ["Digital Maturity", "Cloud Migration", "Legacy Integration", "Data Siloing"],
+      "answerIndex": 1,
+      "explanation": "Cloud migration is the correct term."
+    },
+    {
+      "id": "adm-b2-w21-q3",
+      "type": "multipleChoice",
+      "prompt": "________ it not for the IT team's quick response, the data breach would have been much worse.",
+      "options": ["Had", "Were", "Should", "If"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 2: Were it not for (used for present/general conditions affecting past/present results)."
+    },
+    {
+      "id": "adm-b2-w21-q4",
+      "type": "multipleChoice",
+      "prompt": "________ we implemented the new security protocols earlier, the hack could have been prevented.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 2,
+      "explanation": "Inverted Type 3: Had + subject + past participle."
+    },
+    {
+      "id": "adm-b2-w21-q5",
+      "type": "multipleChoice",
+      "prompt": "A ________ system is one that is outdated but still necessary for business operations.",
+      "options": ["Legacy", "Scalable", "Interoperable", "Mature"],
+      "answerIndex": 0,
+      "explanation": "Legacy is the term for outdated but critical systems."
+    }
+  ]
+}

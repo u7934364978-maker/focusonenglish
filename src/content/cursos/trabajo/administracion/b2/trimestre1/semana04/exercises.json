@@ -1,76 +1,152 @@
 {
-  "exercises": [
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana04",
+  "title": "Exercises: Professional Minute-Taking & Documentation",
+  "items": [
     {
-      "id": "quiz-01",
-      "type": "multiple-choice",
-      "question": "What does 'AOB' stand for in a meeting agenda?",
-      "options": [
-        "Action On Board",
-        "Any Other Business",
-        "All Officers Briefed",
-        "Appointment Of Board"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "quiz-02",
-      "type": "multiple-choice",
-      "question": "In minute-taking, what is a 'seconder'?",
-      "options": [
-        "The second person to arrive at the meeting.",
-        "A person who formally supports a motion or proposal.",
-        "The assistant minute-taker.",
-        "A person who only attends the second half of the meeting."
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "report-01",
-      "type": "transformation",
-      "question": "John said: 'We should definitely hire more staff.' (John suggested...)",
-      "answer": "John suggested hiring more staff."
-    },
-    {
-      "id": "report-02",
-      "type": "transformation",
-      "question": "Sarah said: 'Please finish the report by 5 PM.' (Sarah urged...)",
-      "answer": "Sarah urged the team to finish the report by 5 PM."
-    },
-    {
-      "id": "vocabulary-01",
-      "type": "multiple-choice",
-      "question": "What is the minimum number of members required to make a meeting valid?",
-      "options": [
-        "Majority",
-        "Quorum",
-        "Plurality",
-        "Attendance"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "writing-01",
-      "type": "writing-task",
-      "title": "Action Item Follow-up",
-      "description": "You are chasing an action item from last week's meeting. David was supposed to send the budget draft by Tuesday, but it is now Thursday. Write a polite but firm email to David. Use at least one reported speech structure.",
-      "sampleAnswer": "Subject: Follow-up: Action Item - Budget Draft\n\nHi David,\n\nI hope you're having a productive week.\n\nI'm following up on the action item from our last meeting on Monday. During the session, you agreed to send over the initial budget draft by Tuesday EOD.\n\nAs we discussed, the Chair pointed out that we need this draft to finalise the Q4 planning. Could you please let me know when we can expect to receive the file?\n\nIf there are any blockers I can help with, please do let me know.\n\nKind regards,\n\n[Your Name]"
-    },
-    {
-      "id": "listening-01",
-      "type": "listening-dialogue",
-      "title": "Approving the Minutes",
-      "dialogue": [
-        { "speaker": "Chair", "text": "Are there any matters arising from the previous minutes?" },
-        { "speaker": "Linda", "text": "Yes, on page 2, it says the project was postponed, but it was actually just tabled until the next budget review." },
-        { "speaker": "Chair", "text": "Thank you, Linda. We will amend the record. Can I have a proposer and a seconder to approve the minutes as amended?" }
-      ],
+      "id": "adm-b2-w4-ex01",
+      "type": "reading-comprehension",
+      "title": "Exercise 1: Meeting Minutes (Doc A)",
+      "text": "Doc A — Minutes: Q3 Operations Review\n\nDate: 14th November. Chair: Sarah Jenkins. Secretary: Alex Taylor.\nAttendance: SJ, AT, MD, KL. Apologies: RP (Conflict of interest/prior engagement).\n\n1. Approval of Previous Minutes: Approved without amendment.\n2. Budget Update: MD pointed out that the software budget had been exceeded by 12%. The Chair urged the team to find cost-savings in the travel budget.\n3. Office Relocation: KL suggested postponing the move until Q1. A unanimous decision was reached to table the discussion until next month.\n4. Action Items:\n   - Action: MD to provide a revised budget draft by Friday 17th.\n   - Action: AT to circulate the new seating plan by Wednesday EOD.\n5. AOB: KL raised the issue of the broken coffee machine.\n6. Next Meeting: 12th December, 10:00 AM.",
       "questions": [
         {
-          "question": "What was the error in the minutes?",
-          "options": ["The date was wrong", "A name was misspelled", "A project status was incorrectly recorded", "The meeting location was wrong"],
-          "correctAnswer": 2
+          "question": "What happened to the discussion about the office relocation?",
+          "options": ["It was finished and decided.", "It was postponed (tabled) until next month.", "It was deleted from the agenda."],
+          "answerIndex": 1,
+          "explanation": "Doc A states: 'A unanimous decision was reached to table the discussion until next month.'"
+        },
+        {
+          "question": "What does 'Apologies: RP' indicate in this document?",
+          "options": ["RP said sorry for being late.", "RP is the one who took the minutes.", "RP notified the chair they could not attend."],
+          "answerIndex": 2,
+          "explanation": "In meeting minutes, 'Apologies' lists those who sent formal notification that they could not attend."
         }
       ]
+    },
+    {
+      "id": "adm-b2-w4-ex02",
+      "type": "multipleChoice",
+      "prompt": "Exercise 2: Components of Minutes. What is 'AOB' an abbreviation for in a professional meeting?",
+      "options": [
+        "All Operations Business",
+        "Any Other Business",
+        "Action Oriented Briefing",
+        "Always On Board"
+      ],
+      "answerIndex": 1,
+      "explanation": "AOB stands for 'Any Other Business', used for items not on the original agenda."
+    },
+    {
+      "id": "adm-b2-w4-ex03",
+      "type": "multipleChoice",
+      "prompt": "Exercise 3: Meeting Flow. Which item usually comes immediately after the 'Header' and 'Attendance'?",
+      "options": [
+        "AOB",
+        "Action Items",
+        "Approval of Previous Minutes",
+        "Next Meeting Date"
+      ],
+      "answerIndex": 2,
+      "explanation": "The standard sequence starts with approving the record of the previous meeting."
+    },
+    {
+      "id": "adm-b2-w4-ex04",
+      "type": "multipleChoice",
+      "prompt": "Exercise 4: Meeting Vocabulary. Complete the sentence: 'Since we have reached a tie in the vote, the Chair will use her ___ to decide.'",
+      "options": [
+        "apologies",
+        "agenda",
+        "casting vote",
+        "matters arising"
+      ],
+      "answerIndex": 2,
+      "explanation": "A 'casting vote' is used by the chair to break a tie."
+    },
+    {
+      "id": "adm-b2-w4-ex05",
+      "type": "writingTask",
+      "prompt": "Exercise 5: Reporting Verbs. Rewrite this sentence using the reporting verb 'suggested' to make it sound more professional: 'Sarah said: \"Why don't we move the deadline?\"'",
+      "modelAnswer": "Sarah suggested moving the deadline.",
+      "keywords": ["suggested", "moving"]
+    },
+    {
+      "id": "adm-b2-w4-ex06",
+      "type": "writingTask",
+      "prompt": "Exercise 6: SMART Checklist. List the 5 components of a SMART action item.",
+      "modelAnswer": "Specific, Measurable, Achievable, Relevant, Time-bound",
+      "keywords": ["Specific", "Measurable", "Achievable", "Relevant", "Time-bound"]
+    },
+    {
+      "id": "adm-b2-w4-ex07",
+      "type": "writingTask",
+      "prompt": "Exercise 7: Extracting Action Items. From Doc A, format the task assigned to MD using the standard 'Action: [Name] to [Task] by [Date]' format.",
+      "modelAnswer": "Action: MD to provide a revised budget draft by Friday 17th.",
+      "keywords": ["Action", "MD", "budget", "17th"]
+    },
+    {
+      "id": "adm-b2-w4-ex08",
+      "type": "multipleChoice",
+      "prompt": "Exercise 8: Courtesy Modals. Which is the most professional way to 'chase' an action item that is overdue?",
+      "options": [
+        "You're late with the report.",
+        "I'm still waiting for the seating plan.",
+        "Could you please provide an update on the seating plan, as we’re aiming to circulate it by tomorrow EOD?",
+        "Where is the seating plan you promised?"
+      ],
+      "answerIndex": 2,
+      "explanation": "This option uses 'Could you please...' and provides a professional context (circulating it by tomorrow)."
+    },
+    {
+      "id": "adm-b2-w4-ex09",
+      "type": "writingTask",
+      "prompt": "Exercise 9: Follow-up Email. Write a 50-word email to the team circulating the minutes from Doc A. Mention the next meeting date.",
+      "modelAnswer": "Hi team, please find the minutes from our Q3 Operations Review attached. A reminder that our next meeting is scheduled for 12th December at 10:00 AM. Please review the action items and provide any updates by Wednesday. Thanks, Alex",
+      "keywords": ["minutes", "attached", "next meeting", "action items"]
+    },
+    {
+      "id": "adm-b2-w4-ex10",
+      "type": "multipleChoice",
+      "prompt": "Exercise 10: Meeting Terminology. What term describes the minimum number of members required to make a meeting's proceedings valid?",
+      "options": ["Agenda", "Quorum", "Minutes", "AOB"],
+      "answerIndex": 1,
+      "explanation": "A 'Quorum' is the minimum number of people needed for a valid meeting."
+    },
+    {
+      "id": "adm-b2-w4-ex11",
+      "type": "writingTask",
+      "prompt": "Exercise 11: Oral Summary Prep. Prepare a script for a 3-minute summary for a colleague who missed the meeting in Doc A. Use at least 3 different reporting verbs (e.g., pointed out, urged, suggested).",
+      "modelAnswer": "[Audio Upload Required] Rubric: Use of reporting verbs, Past tense accuracy, Conciseness.",
+      "keywords": ["pointed out", "urged", "suggested"]
+    },
+    {
+      "id": "adm-b2-w4-ex12",
+      "type": "writingTask",
+      "prompt": "Exercise 12: Oral 'Chasing'. Record a 60-second audio politely chasing KL for the 'Office Relocation' feedback. Mention that it was 'tabled' and needs progress before the next session.",
+      "modelAnswer": "[Audio Upload Required] Checklist: Politeness, Mention of 'tabled', SMART deadline.",
+      "keywords": ["tabled", "feedback", "next meeting"]
+    },
+    {
+      "id": "adm-b2-w4-ex13",
+      "type": "writingTask",
+      "prompt": "Exercise 13: Mock Minutes (Portfolio). Write a set of minutes (150 words) based on a hypothetical discussion about 'Improving Office Recycling'. Use the 4 reporting verbs from the theory.",
+      "modelAnswer": "Minutes: Recycling Initiative. Date: 20th Oct.\n\nAttendance: [List]. Apologies: [Name].\n\n1. Approval: Last minutes approved.\n2. Discussion: John pointed out that current bins are overflowing. Sarah suggested introducing separate paper bins. The Chair urged everyone to participate in the new scheme. Mark refused to agree to a weekend training session but agreed to attend a lunchtime briefing.\n3. Decisions: Agreed to install 5 new paper bins.\n4. Action Items: Sarah to order bins by Monday.\n5. Next meeting: TBC.",
+      "keywords": ["pointed out", "suggested", "urged", "agreed"]
+    },
+    {
+      "id": "adm-b2-w4-ex14",
+      "type": "writingTask",
+      "prompt": "Exercise 14: Agenda Template. Create an agenda for a 'Website Launch Kick-off'. Include: Date, Time, 3 Main Topics, and AOB.",
+      "modelAnswer": "Agenda: Website Launch. Date: 5th Jan. Time: 2pm. Topics: 1. Project Timeline, 2. Budget Allocation, 3. Resource Assignment. 4. AOB.",
+      "keywords": ["Agenda", "Time", "Topics", "AOB"]
+    },
+    {
+      "id": "adm-b2-w4-ex15",
+      "type": "writingTask",
+      "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Apologies'. 2) What does it mean to 'table' a discussion? 3) List 3 reporting verbs. 4) Correct this SMART action: 'Fix the printer.'",
+      "modelAnswer": "1) Formal notification of absence. 2) Postpone it until later. 3) Suggest, urge, point out. 4) Action: IT to repair the 2nd-floor printer by Friday 5pm.",
+      "keywords": ["absence", "postpone", "urge", "Friday"]
     }
   ]
 }

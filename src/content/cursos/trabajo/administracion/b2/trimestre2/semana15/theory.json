@@ -1,24 +1,37 @@
 {
-  "title": "Administracion Internacionales y Riesgo de Divisa",
+  "title": "Budgeting & Financial Control for Admin",
   "sections": [
     {
-      "id": "vocab",
-      "title": "Gestión de Monedas y Riesgos",
-      "content": "Aprenderemos cómo las empresas gestionan el dinero en diferentes países.\n\n- **Exchange Rate Risk**: Riesgo de tipo de cambio\n- **Hedging**: Cobertura de riesgos\n- **Arbitrage**: Arbitraje (aprovechar diferencias de precio)\n- **Foreign Exchange (FX)**: Divisas / Mercado de divisas\n- **Spot Rate**: Tipo de cambio al contado\n- **Forward Rate**: Tipo de cambio a plazo"
+      "id": "budget-admin",
+      "title": "The Admin Role in Budgeting",
+      "content": "Administrative professionals often play a crucial role in managing department budgets, tracking expenses, and ensuring that resource allocation aligns with business goals. Financial control involves monitoring actual spending against the planned budget.\n\n### Key Budgeting Concepts:\n- **OPEX (Operating Expenses)**: Day-to-day costs (rent, utilities, stationery).\n- **CAPEX (Capital Expenditure)**: Major investments (new computers, office furniture).\n- **Variance Analysis**: Comparing the actual spend with the budget to identify 'overspend' or 'underspend'.\n- **Forecasting**: Predicting future expenses based on current trends."
     },
     {
-      "id": "grammar",
-      "title": "Gramática: Future Perfect for Investment Goal Tracking",
-      "content": "Usamos el futuro perfecto para hablar de acciones que habrán terminado en un punto específico del futuro.\n\nEstructura: **Subject + will have + Past Participle**\n\n- By December, we **will have reached** our saving goal. (Para diciembre, habremos alcanzado nuestro objetivo de ahorro)\n- In five years, the investment **will have doubled** in value. (En cinco años, la inversión habrá duplicado su valor)\n- **Will** you **have paid** the loan by next year? (¿Habrás pagado el préstamo para el año que viene?)"
+      "id": "phrase-bank",
+      "title": "PhraseBank: Financial Control Chunks",
+      "content": "Use these chunks to discuss money and resources:\n\n1. **to stay within budget** — \"We must stay within budget this quarter.\"\n2. **to be over budget** — \"The marketing project is slightly over budget.\"\n3. **to allocate resources** — \"How should we allocate the remaining funds?\"\n4. **to request additional funding** — \"We may need to request additional funding.\"\n5. **to track expenses** — \"I've been tracking expenses in the new ledger.\"\n6. **to justify the spend** — \"Can you justify the spend on the new software?\"\n7. **to cut costs** — \"Management is looking for ways to cut costs.\"\n8. **to approve an invoice** — \"I've approved the invoice for the vendor.\""
+    },
+    {
+      "id": "grammar-wishes",
+      "title": "Grammar: Wishes & Regrets",
+      "content": "In a professional context, we use 'wish' and 'if only' to express regret about past financial decisions or to voice a desire for a different current situation.\n\n### Present Wishes (Wish + Past Simple)\n- **I wish we had** a larger budget for training. (We don't have one now).\n- **If only we were** in compliance with the new tax law. (We aren't now).\n\n### Past Regrets (Wish + Past Perfect)\n- **I wish we hadn't overspent** on the office renovation. (We overspent in the past).\n- **If only we had requested** the funding earlier. (We didn't request it in time).\n\n### Complaining/Desire for Change (Wish + Would)\n- **I wish they would approve** the invoice faster. (I'm annoyed by the delay)."
+    },
+    {
+      "id": "deliverable",
+      "title": "Weekly Deliverable: Variance Analysis Report",
+      "content": "Review a simulated department budget and draft a short report. Include:\n1. **Summary of spending** (Actual vs. Budget).\n2. **Explanation of variances** (Using wishes/regrets: *I wish we had...*).\n3. **Proposed corrective actions** to stay on track for the next quarter."
     }
   ],
   "objectives": [
-    "Identificar los riesgos de operar con múltiples divisas",
-    "Utilizar el futuro perfecto para proyectar resultados financieros",
-    "Comprender el concepto de 'hedging' como protección"
+    "Differentiate between OPEX and CAPEX",
+    "Conduct a simple variance analysis for an admin budget",
+    "Express regrets and desires using 'wish' and 'if only'",
+    "Justify administrative expenses and request funding formally"
   ],
   "keyTerms": [
-    { "term": "Hedging", "definition": "Making an investment to reduce the risk of adverse price movements in an asset." },
-    { "term": "Exchange Rate", "definition": "The value of one currency for the purpose of conversion to another." }
+    { "term": "OPEX", "definition": "Operating Expenses: the ongoing costs for running a product, business, or system." },
+    { "term": "CAPEX", "definition": "Capital Expenditure: money spent by a business or organization on acquiring or maintaining fixed assets, such as land, buildings, and equipment." },
+    { "term": "Variance", "definition": "The difference between the budgeted or baseline amount of expense or revenue, and the actual amount." },
+    { "term": "Ledger", "definition": "A book or other collection of financial accounts of a particular type." }
   ]
 }

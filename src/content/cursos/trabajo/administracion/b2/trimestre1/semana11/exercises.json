@@ -3,119 +3,155 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana11",
-  "title": "Risk Management & Contingency Planning",
-  "description": "Vocabulary for risk assessment and the third conditional for analyzing past events.",
+  "title": "Exercises: Risk Management & Contingency Planning",
   "items": [
     {
-      "id": "admin-b2-w11-q1",
+      "id": "adm-b2-w11-ex01",
+      "type": "reading-comprehension",
+      "title": "Exercise 1: Post-Mortem Report (Doc A)",
+      "text": "Doc A — Post-Mortem: Q3 Server Outage\n\nIncident: On 12th October, the primary server failed, resulting in 4 hours of down-time. \n\nAnalysis:\n- If we had implemented the dual-server mitigation plan, the impact would have been minimal (Third Conditional).\n- The contingency plan (using the backup cloud service) was activated, but it took longer than expected because staff hadn't been trained on the workaround.\n- If we had known the probability of hardware failure was so high, we could have replaced the equipment last month.\n\nMoving Forward:\n- Mitigation: We will schedule monthly hardware audits.\n- Contingency: A new automated disaster recovery script has been developed.\n- Training: All staff will attend a 'Workaround Protocol' session on Friday.",
+      "questions": [
+        {
+          "question": "What happened because the company had not implemented the dual-server plan?",
+          "options": ["The impact was minimal.", "The impact was significant (4 hours of down-time).", "Nothing happened."],
+          "answerIndex": 1,
+          "explanation": "Doc A implies that because they didn't have the plan, the outage lasted 4 hours: 'If we had implemented... the impact would have been minimal'."
+        },
+        {
+          "question": "Why did the contingency plan take longer than expected to work?",
+          "options": ["The cloud service was broken.", "Staff had not been trained on the workaround.", "The power was out."],
+          "answerIndex": 1,
+          "explanation": "Doc A states: 'it took longer than expected because staff hadn't been trained on the workaround'."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex02",
       "type": "multipleChoice",
+      "prompt": "Exercise 2: Risk Response. Which strategy involves 'changing the project plan to eliminate the risk entirely'?",
       "options": [
         "Avoidance",
         "Mitigation",
         "Transfer",
         "Acceptance"
       ],
-      "explanation": "Mitigation involves taking steps to reduce the likelihood or impact of a risk before it happens.",
-      "answerIndex": 1,
-      "prompt": "Which risk response strategy involves reducing the probability or impact of a risk?"
-    },
-    {
-      "id": "admin-b2-w11-q2",
-      "type": "fillBlanks",
-      "explanation": "Third Conditional: If + Past Perfect, would have + past participle.",
-      "prompt": "If the team ________ (identify) the risk earlier, they ________ (avoid) the system failure.",
-      "answers": [
-        "had identified / would have avoided"
-      ]
-    },
-    {
-      "id": "admin-b2-w11-q3",
-      "type": "multipleChoice",
-      "options": [
-        "Mitigation Plan",
-        "Contingency Plan",
-        "Disaster Recovery",
-        "Workaround"
-      ],
-      "explanation": "A contingency plan is a pre-defined set of actions to be taken *after* a risk event occurs.",
-      "answerIndex": 1,
-      "prompt": "What do we call a plan that is only activated *after* a risk event has occurred?"
-    },
-    {
-      "id": "admin-b2-w11-q4",
-      "type": "fillBlanks",
-      "explanation": "Third Conditional (Negative).",
-      "prompt": "We ________ (not / lose) our client if we ________ (respond) to their complaint more quickly.",
-      "answers": [
-        "wouldn't have lost / had responded",
-        "would not have lost / had responded"
-      ]
-    },
-    {
-      "id": "admin-b2-w11-q5",
-      "type": "multipleChoice",
-      "options": [
-        "Impact and Probability",
-        "Cost and Time",
-        "Interest and Power",
-        "Quality and Scope"
-      ],
-      "explanation": "Risks are typically assessed based on their impact and their probability of occurring.",
       "answerIndex": 0,
-      "prompt": "What two criteria are most commonly used to assess a risk in a risk matrix?"
+      "explanation": "Avoidance is the strategy where the plan is changed to remove the risk."
     },
     {
-      "id": "admin-b2-w11-q6",
-      "type": "fillBlanks",
-      "explanation": "Transfer involves passing the risk to another party, like an insurance company.",
-      "prompt": "Buying insurance is a common example of risk ________.",
-      "answers": [
-        "transfer"
-      ]
-    },
-    {
-      "id": "admin-b2-w11-q7",
+      "id": "adm-b2-w11-ex03",
       "type": "multipleChoice",
+      "prompt": "Exercise 3: Mitigation vs Contingency. What is a 'Contingency Plan'?",
       "options": [
-        "Avoidance",
-        "Acceptance",
-        "Mitigation",
-        "Transfer"
+        "Actions taken before a risk occurs to reduce its likelihood.",
+        "A pre-defined set of actions to be taken after a risk event occurs.",
+        "A type of insurance policy.",
+        "An unplanned response to a problem."
       ],
-      "explanation": "Risk acceptance means acknowledging the risk but deciding not to take action unless it happens.",
       "answerIndex": 1,
-      "prompt": "Which strategy involves deciding not to act on a risk unless it actually occurs?"
+      "explanation": "A contingency plan is a set of actions taken *after* a risk event occurs."
     },
     {
-      "id": "admin-b2-w11-q8",
-      "type": "fillBlanks",
-      "explanation": "Disaster recovery focuses on restoring operations.",
-      "prompt": "The IT department is testing our ________ ________ protocols to ensure we can restore the database after a crash.",
-      "answers": [
-        "disaster recovery"
-      ]
-    },
-    {
-      "id": "admin-b2-w11-q9",
+      "id": "adm-b2-w11-ex04",
       "type": "multipleChoice",
+      "prompt": "Exercise 4: Risk Vocabulary. Complete the sentence: 'The ___ of a fire is low, but the ___ would be catastrophic for our data storage.'",
       "options": [
-        "If we had known...",
-        "If we know...",
-        "If we would have known...",
-        "If we knew..."
+        "mitigation / contingency",
+        "probability / impact",
+        "workaround / acceptance",
+        "avoidance / transfer"
       ],
-      "explanation": "The 'if' clause of the third conditional uses the past perfect ('had known').",
-      "answerIndex": 0,
-      "prompt": "Which of these is the correct beginning for a third conditional sentence?"
+      "answerIndex": 1,
+      "explanation": "You assess risks by their 'probability' and 'impact'."
     },
     {
-      "id": "admin-b2-w11-q10",
-      "type": "fillBlanks",
-      "explanation": "A workaround is an unplanned, immediate response.",
-      "prompt": "Since there was no official procedure, the administrator had to find a quick ________ to fix the printing error.",
-      "answers": [
-        "workaround"
-      ]
+      "id": "adm-b2-w11-ex05",
+      "type": "writingTask",
+      "prompt": "Exercise 5: Third Conditional. Form a sentence using the Third Conditional to analyze a past failure (e.g., 'not call the client' / 'lose the contract').",
+      "modelAnswer": "If I had called the client, we wouldn't have lost the contract.",
+      "keywords": ["If I had", "wouldn't have"]
+    },
+    {
+      "id": "adm-b2-w11-ex06",
+      "type": "writingTask",
+      "prompt": "Exercise 6: Third Conditional (Ability). Use 'could have' in a Third Conditional sentence to describe a past possibility (e.g., 'know about the strike' / 'book a different flight').",
+      "modelAnswer": "If we had known about the strike, we could have booked a different flight.",
+      "keywords": ["If we had", "could have"]
+    },
+    {
+      "id": "adm-b2-w11-ex07",
+      "type": "writingTask",
+      "prompt": "Exercise 7: Extracting Action Points. Based on Doc A, list the 3 specific steps the company is taking to 'move forward' from the outage.",
+      "modelAnswer": "1. Schedule monthly hardware audits (Mitigation).\n2. Implement a new automated disaster recovery script (Contingency).\n3. Hold a training session on 'Workaround Protocol'.",
+      "keywords": ["audits", "script", "training"]
+    },
+    {
+      "id": "adm-b2-w11-ex08",
+      "type": "multipleChoice",
+      "prompt": "Exercise 8: Courtesy Modals. Which is the most professional way to suggest a new mitigation strategy for budget risks?",
+      "options": [
+        "We need to stop spending money.",
+        "Could we consider implementing a double-approval system for all expenses over £500? I believe this would significantly mitigate the risk of overspending.",
+        "Your team is spending too much; change it.",
+        "I'm worried about the budget. What's the plan?"
+      ],
+      "answerIndex": 1,
+      "explanation": "This option is polite, specific, and uses professional terminology ('mitigate the risk')."
+    },
+    {
+      "id": "adm-b2-w11-ex09",
+      "type": "writingTask",
+      "prompt": "Exercise 9: Follow-up Email. Write a 50-word email summarizing a post-mortem meeting. Use a Third Conditional sentence to highlight a 'lessons learned' point.",
+      "modelAnswer": "Hi team, thanks for attending the post-mortem. A key takeaway is that if we had trained staff on the backup system, the down-time would have been shorter. Moving forward, we will implement a quarterly training plan to improve our disaster recovery response. Best, Alex",
+      "keywords": ["post-mortem", "If we had", "would have been", "recovery"]
+    },
+    {
+      "id": "adm-b2-w11-ex10",
+      "type": "multipleChoice",
+      "prompt": "Exercise 10: Operational Logic. If you decide to 'Accept' a risk, what does that mean you will do?",
+      "options": [
+        "Eliminate the risk entirely.",
+        "Buy insurance to cover it.",
+        "Take no action unless the risk occurs.",
+        "Set up a secondary server."
+      ],
+      "answerIndex": 2,
+      "explanation": "Acceptance means acknowledging the risk but only taking action if/when it happens."
+    },
+    {
+      "id": "adm-b2-w11-ex11",
+      "type": "writingTask",
+      "prompt": "Exercise 11: Oral Post-Mortem Prep. Prepare a script for a 3-minute post-mortem analysis of a 'lost laptop' incident. Use at least two Third Conditional sentences and the terms: 'Mitigation', 'Probability', and 'Impact'.",
+      "modelAnswer": "[Audio Upload Required] Rubric: Logical analysis, Tense accuracy, Use of key terms.",
+      "keywords": ["If we had", "would have", "Mitigation", "Impact"]
+    },
+    {
+      "id": "adm-b2-w11-ex12",
+      "type": "writingTask",
+      "prompt": "Exercise 12: Oral Risk Briefing. Record a 60-second audio explaining a 'Contingency Plan' for a potential power outage in the office. Distinguish it from the 'Mitigation' steps already taken.",
+      "modelAnswer": "[Audio Upload Required] Checklist: Mitigation vs Contingency distinction, Professional tone, Clarity.",
+      "keywords": ["Mitigation", "Contingency", "If"]
+    },
+    {
+      "id": "adm-b2-w11-ex13",
+      "type": "writingTask",
+      "prompt": "Exercise 13: Risk Assessment (Portfolio). Write a 200-word risk assessment for an 'Outdoor Corporate Event'. Include a risk register with Probability/Impact and use Third Conditionals to discuss 'near misses' from last year.",
+      "modelAnswer": "Risk Assessment: Annual Summer BBQ\n\nLast year's event faced several challenges. If the weather had been better, the attendance would have been higher. Furthermore, if we had booked a marquee, we wouldn't have been forced to move inside at the last minute. \n\nFor this year, we have performed a new risk assessment:\n1. Risk: Rain. Probability: Medium. Impact: High. Response: Avoidance (Booked an indoor/outdoor venue).\n2. Risk: Food Poisoning. Probability: Low. Impact: Catastrophic. Response: Mitigation (Verified vendor certification).\n3. Risk: Transport Strike. Probability: Low. Impact: High. Response: Contingency (Arranged shuttle buses if needed).\n\nIf we had identified the strike risk earlier last year, we could have mitigated the low turnout. Moving forward, our mitigation and contingency plans are fully aligned.",
+      "keywords": ["If the weather had", "would have", "Probability", "Impact", "Mitigation"]
+    },
+    {
+      "id": "adm-b2-w11-ex14",
+      "type": "writingTask",
+      "prompt": "Exercise 14: Risk Register Template. Complete a table with 3 risks for a 'New Software Launch'. Include: Risk | Probability (L/M/H) | Impact (L/M/H) | Strategy.",
+      "modelAnswer": "1. Data migration error | Medium | High | Mitigation (Backup). 2. Staff resistance | High | Medium | Mitigation (Workshops). 3. System crash | Low | Catastrophic | Contingency (Disaster recovery).",
+      "keywords": ["High", "Medium", "Low", "Mitigation"]
+    },
+    {
+      "id": "adm-b2-w11-ex15",
+      "type": "writingTask",
+      "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Workaround'. 2) What is the difference between Mitigation and Contingency? 3) Form a Third Conditional: 'We / check the specs / notice the error'. 4) Name 4 risk response strategies.",
+      "modelAnswer": "1) An unplanned response to an unexpected problem. 2) Mitigation is before the risk; Contingency is after. 3) If we had checked the specs, we would have noticed the error. 4) Avoidance, Mitigation, Transfer, Acceptance.",
+      "keywords": ["unplanned", "before", "If we had", "Avoidance"]
     }
   ]
 }

@@ -1,41 +1,46 @@
-[
-  {
-    "id": 1,
-    "type": "multiple-choice",
-    "question": "A 'Futures Contract' differs from an 'Option' because:",
-    "options": ["It is cheaper", "It is an obligation, not just a right", "It never expires", "It only applies to gold"],
-    "correctAnswer": 1,
-    "explanation": "Futures contracts are obligations to buy or sell, while options provide the right but not the obligation."
-  },
-  {
-    "id": 2,
-    "type": "multiple-choice",
-    "question": "When is an option 'In the money'?",
-    "options": ["When it has expired", "When it would be profitable to exercise it", "When the premium is paid", "When the market is closed"],
-    "correctAnswer": 1,
-    "explanation": "An option is 'in the money' if it has intrinsic value."
-  },
-  {
-    "id": 3,
-    "type": "fill-in-the-blank",
-    "question": "If the volatility __________ (not increase), the premium __________ (be) lower.",
-    "correctAnswer": "hadn't increased... would have been",
-    "explanation": "Third Conditional."
-  },
-  {
-    "id": 4,
-    "type": "multiple-choice",
-    "question": "What is 'Arbitrage'?",
-    "options": ["Paying taxes", "Simultaneous buying and selling to profit from price differences", "A type of insurance", "Hiring a lawyer"],
-    "correctAnswer": 1,
-    "explanation": "Arbitrage exploits price inefficiencies in different markets."
-  },
-  {
-    "id": 5,
-    "type": "multiple-choice",
-    "question": "The option _______ worthless if the price _______ below the strike.",
-    "options": ["would have been / had stayed", "was / stayed", "will be / stays", "would be / stays"],
-    "correctAnswer": 0,
-    "explanation": "Third Conditional (Past Hypothetical)."
-  }
-]
+{
+  "title": "Corporate Sustainability & Ethics Exam",
+  "passingScore": 70,
+  "items": [
+    {
+      "id": "adm-b2-w20-q1",
+      "type": "multipleChoice",
+      "prompt": "If the company ________ its waste more effectively, it wouldn't be facing these fines today.",
+      "options": ["managed", "had managed", "would manage", "manage"],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: hypothetical past action with present result."
+    },
+    {
+      "id": "adm-b2-w20-q2",
+      "type": "multipleChoice",
+      "prompt": "The manager ________ approved the contract; he was on leave all last week.",
+      "options": ["must have", "can't have", "should have", "might have"],
+      "answerIndex": 1,
+      "explanation": "We use 'can't have' when we are almost certain that something did NOT happen."
+    },
+    {
+      "id": "adm-b2-w20-q3",
+      "type": "multipleChoice",
+      "prompt": "Which term describes misleading consumers about environmental practices?",
+      "options": ["Whistleblowing", "Greenwashing", "Ethical Sourcing", "Net Zero"],
+      "answerIndex": 1,
+      "explanation": "Greenwashing is the correct term for environmental disinformation."
+    },
+    {
+      "id": "adm-b2-w20-q4",
+      "type": "multipleChoice",
+      "prompt": "We ________ conducted a more thorough background check on our partners.",
+      "options": ["must have", "should have", "can't have", "might not have"],
+      "answerIndex": 1,
+      "explanation": "Expressing regret about a past failure (should have)."
+    },
+    {
+      "id": "adm-b2-w20-q5",
+      "type": "multipleChoice",
+      "prompt": "The 'People' aspect of the Triple Bottom Line refers to ________.",
+      "options": ["Shareholder dividends", "Social responsibility and fair labor", "Carbon emissions", "Net profit"],
+      "answerIndex": 1,
+      "explanation": "'People' refers to the social impact on employees and the community."
+    }
+  ]
+}

@@ -1,76 +1,152 @@
 {
-  "exercises": [
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana03",
+  "title": "Exercises: Data Protection & GDPR Compliance",
+  "items": [
     {
-      "id": "quiz-01",
-      "type": "multiple-choice",
-      "question": "What does the 'Data Minimisation' principle mean under GDPR?",
-      "options": [
-        "Keeping data for a minimum of 10 years.",
-        "Collecting only the data that is absolutely necessary for the specific purpose.",
-        "Making the font size smaller on privacy documents.",
-        "Using as few servers as possible to store data."
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "quiz-02",
-      "type": "multiple-choice",
-      "question": "If you discover a serious data breach, within how many hours must it be reported to the regulator?",
-      "options": [
-        "24 hours",
-        "48 hours",
-        "72 hours",
-        "1 week"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "passive-01",
-      "type": "transformation",
-      "question": "People think the breach happened because of a weak password. (Start with 'It...')",
-      "answer": "It is thought that the breach happened because of a weak password."
-    },
-    {
-      "id": "passive-02",
-      "type": "transformation",
-      "question": "Experts believe the new encryption is unbreakable. (The new encryption...)",
-      "answer": "The new encryption is believed to be unbreakable."
-    },
-    {
-      "id": "vocabulary-01",
-      "type": "multiple-choice",
-      "question": "What is the process of blacking out sensitive information in a document called?",
-      "options": [
-        "Encryption",
-        "Redaction",
-        "Anonymisation",
-        "Compliance"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "writing-01",
-      "type": "writing-task",
-      "title": "Breach Notification Email (Internal)",
-      "description": "You discovered that a spreadsheet containing customer email addresses was accidentally shared with an external vendor. Write a notification email to your Data Protection Officer (DPO). Use a neutral tone and at least one complex passive structure.",
-      "sampleAnswer": "Subject: Notification of potential data breach - [Date]\n\nDear DPO,\n\nI am writing to report a security incident involving the accidental disclosure of customer data. \n\nEarlier today, it was discovered that a spreadsheet containing approximately 200 customer email addresses was sent to an external vendor as part of a routine request. It is believed that this occurred due to an error in the file attachment process. \n\nWe have already contacted the vendor to request the immediate deletion of the file, and they have confirmed receipt of this request. At this stage, it is thought that the risk to the individuals affected is low, as no financial data or passwords were included. \n\nI am available to provide further details as you assess whether formal notification to the regulator is required.\n\nBest regards,\n\n[Your Name]"
-    },
-    {
-      "id": "listening-01",
-      "type": "listening-dialogue",
-      "title": "Handling a Subject Access Request (SAR)",
-      "dialogue": [
-        { "speaker": "James", "text": "We've received a Subject Access Request from a former employee." },
-        { "speaker": "Sarah", "text": "Okay, we need to be in compliance with the 30-day deadline. We'll need to redact any PII relating to other staff members before sending the files." },
-        { "speaker": "James", "text": "I'll start collating the emails. It is expected to take most of the afternoon." }
-      ],
+      "id": "adm-b2-w3-ex01",
+      "type": "reading-comprehension",
+      "title": "Exercise 1: Internal Memo (Doc A)",
+      "text": "Doc A — Internal Memo: Potential Data Breach\n\nTo: All Administrative Staff\nFrom: Data Protection Officer (DPO)\nSubject: Urgent: Incident Report #882\n\nIt has been reported that an email containing Personally Identifiable Information (PII) was accidentally sent to an external vendor yesterday at 4:15 PM. The attachment is believed to have contained the names, home addresses, and payroll IDs of 15 employees.\n\nAction taken so far:\n- The sender has attempted to recall the email.\n- The vendor has been contacted and asked to delete the message immediately without opening the attachment.\n- It is expected that a full impact assessment will be completed by Tuesday morning.\n\nPlease remember that under GDPR, any serious breach must be reported to the regulator within 72 hours. All staff are reminded to exercise due diligence when handling sensitive data.",
       "questions": [
         {
-          "question": "What must Sarah do before sending the files?",
-          "options": ["Delete all the files", "Redact PII of other staff", "Ask for payment", "Wait for 60 days"],
-          "correctAnswer": 1
+          "question": "What kind of information was contained in the accidentally sent email?",
+          "options": ["Company marketing plans", "Personally Identifiable Information (PII)", "The DPO's holiday schedule"],
+          "answerIndex": 1,
+          "explanation": "Doc A mentions the email contained PII, specifically names, addresses, and payroll IDs."
+        },
+        {
+          "question": "Within what timeframe must a serious breach be reported to the regulator under GDPR?",
+          "options": ["24 hours", "48 hours", "72 hours"],
+          "answerIndex": 2,
+          "explanation": "Doc A states: 'under GDPR, any serious breach must be reported to the regulator within 72 hours.'"
         }
       ]
+    },
+    {
+      "id": "adm-b2-w3-ex02",
+      "type": "multipleChoice",
+      "prompt": "Exercise 2: GDPR Principles. Which principle states that you should only collect the data that is 'absolutely necessary'?",
+      "options": [
+        "Purpose Limitation",
+        "Data Minimisation",
+        "Storage Limitation",
+        "Integrity and Confidentiality"
+      ],
+      "answerIndex": 1,
+      "explanation": "Data Minimisation means only collecting data that is absolutely necessary for the task."
+    },
+    {
+      "id": "adm-b2-w3-ex03",
+      "type": "multipleChoice",
+      "prompt": "Exercise 3: Breach Protocol. What is the correct sequence for the GDPR Action Protocol?",
+      "options": [
+        "Notify -> Assess -> Contain -> Identify",
+        "Identify -> Contain -> Assess -> Notify",
+        "Contain -> Identify -> Notify -> Assess",
+        "Assess -> Notify -> Identify -> Contain"
+      ],
+      "answerIndex": 1,
+      "explanation": "The protocol follows the logic: 1. Identify, 2. Contain, 3. Assess, 4. Notify."
+    },
+    {
+      "id": "adm-b2-w3-ex04",
+      "type": "multipleChoice",
+      "prompt": "Exercise 4: Privacy Vocabulary. Complete the sentence: 'Before sharing the document, we must ___ any sensitive bank details to ensure ___.'",
+      "options": [
+        "write / speed",
+        "redact / confidentiality",
+        "delete / storage",
+        "send / transparency"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Redact' means to remove sensitive info, ensuring 'confidentiality'."
+    },
+    {
+      "id": "adm-b2-w3-ex05",
+      "type": "writingTask",
+      "prompt": "Exercise 5: Complex Passives. Rewrite this sentence using a complex passive structure (It + is + reported/thought + that...) to make it more objective: 'The intern lost the USB stick.'",
+      "modelAnswer": "It is reported that the USB stick has been lost.",
+      "keywords": ["It is", "reported", "lost"]
+    },
+    {
+      "id": "adm-b2-w3-ex06",
+      "type": "writingTask",
+      "prompt": "Exercise 6: GDPR Checklist. List the 5 core principles of GDPR mentioned in the theory.",
+      "modelAnswer": "1. Lawfulness, Fairness, and Transparency\n2. Purpose Limitation\n3. Data Minimisation\n4. Storage Limitation\n5. Integrity and Confidentiality",
+      "keywords": ["Lawfulness", "Purpose", "Minimisation", "Storage", "Integrity"]
+    },
+    {
+      "id": "adm-b2-w3-ex07",
+      "type": "writingTask",
+      "prompt": "Exercise 7: Extracting Action Points. Based on Doc A, list the 3 actions that have been taken so far regarding the breach.",
+      "modelAnswer": "1. Recalled the email.\n2. Contacted vendor to delete message.\n3. Scheduled impact assessment for Tuesday.",
+      "keywords": ["recalled", "vendor", "assessment"]
+    },
+    {
+      "id": "adm-b2-w3-ex08",
+      "type": "multipleChoice",
+      "prompt": "Exercise 8: Courtesy Modals. Which is the most professional way to ask a colleague to speed up a Subject Access Request (SAR)?",
+      "options": [
+        "Hurry up with that SAR.",
+        "Could you please confirm the status of the SAR, as the 30-day deadline is approaching?",
+        "Why is the SAR not done yet?",
+        "Send the SAR data now."
+      ],
+      "answerIndex": 1,
+      "explanation": "This option uses a polite modal ('Could you...') and provides a professional reason (the deadline)."
+    },
+    {
+      "id": "adm-b2-w3-ex09",
+      "type": "writingTask",
+      "prompt": "Exercise 9: Follow-up Email. Write a short email (40-60 words) to the IT department asking for the encryption status of the new shared drive.",
+      "modelAnswer": "Hi IT team, I’m writing to check whether the new shared drive is now fully encrypted. We need to ensure we are in compliance with our data security policy before we migrate any PII. Could you please confirm by the end of the day? Thanks, [Your Name]",
+      "keywords": ["encrypted", "compliance", "PII", "confirm"]
+    },
+    {
+      "id": "adm-b2-w3-ex10",
+      "type": "multipleChoice",
+      "prompt": "Exercise 10: SAR Timeframe. What is the standard legal timeframe for an organisation to respond to a Subject Access Request (SAR)?",
+      "options": ["72 hours", "7 days", "30 days", "90 days"],
+      "answerIndex": 2,
+      "explanation": "The standard timeframe for a SAR is usually 30 days."
+    },
+    {
+      "id": "adm-b2-w3-ex11",
+      "type": "writingTask",
+      "prompt": "Exercise 11: Oral Briefing Prep. Prepare a script for a 3-minute briefing to a new employee about 'Data Minimisation'. Explain what it is and why it matters for administrative tasks.",
+      "modelAnswer": "[Audio Upload Required] Rubric: Clarity, Use of Key Terms (PII, compliance), Professional Tone.",
+      "keywords": ["minimisation", "necessary", "PII"]
+    },
+    {
+      "id": "adm-b2-w3-ex12",
+      "type": "writingTask",
+      "prompt": "Exercise 12: Oral Breach Reporting. Record a 90-second audio reporting a lost laptop to your DPO. Use complex passives (e.g., 'The laptop is believed to have been...').",
+      "modelAnswer": "[Audio Upload Required] Checklist: Complex passives, Action Protocol (Contain/Assess), Professionalism.",
+      "keywords": ["believed", "breach", "Contain"]
+    },
+    {
+      "id": "adm-b2-w3-ex13",
+      "type": "writingTask",
+      "prompt": "Exercise 13: Data Privacy Audit (Portfolio). Write a 150-word report on a privacy risk in your office (e.g., passwords on screens). Use at least two complex passive structures.",
+      "modelAnswer": "Subject: Data Privacy Mini-Audit - Reception Area\n\nIt was observed during a recent walkthrough that several passwords are being kept on sticky notes attached to monitors. It is thought that this poses a significant security risk, as unauthorised visitors could easily access sensitive systems.\n\nFurthermore, the filing cabinet in the corridor is believed to have been left unlocked on several occasions. It is expected that all staff will now receive refresher training on GDPR 'Integrity and Confidentiality' principles.\n\nRecommendations:\n1. Implement a clear-desk policy immediately.\n2. Replace manual locks with electronic key-card access to ensure we are in compliance with current regulations.",
+      "keywords": ["It was observed", "It is thought", "compliance", "GDPR"]
+    },
+    {
+      "id": "adm-b2-w3-ex14",
+      "type": "writingTask",
+      "prompt": "Exercise 14: SAR Log Template. Complete a log entry for a Subject Access Request. Include: Request Date, Data Subject, Description of Data Requested, and Deadline.",
+      "modelAnswer": "Request Date: 12th Oct. Data Subject: Jane Doe. Description: All email correspondence regarding her 2023 contract. Deadline: 11th Nov (30 days).",
+      "keywords": ["Request Date", "Subject", "Deadline", "30 days"]
+    },
+    {
+      "id": "adm-b2-w3-ex15",
+      "type": "writingTask",
+      "prompt": "Exercise 15: Weekly Mini-test. 1) What does PII stand for? 2) How many hours do you have to notify the regulator of a breach? 3) Define 'Redaction'. 4) Complete: 'Subject + is + believed + to + ___'.",
+      "modelAnswer": "1) Personally Identifiable Information. 2) 72 hours. 3) Removing sensitive information from a document. 4) ...have been compromised (or any valid infinitive).",
+      "keywords": ["Personally", "72", "Removing", "to"]
     }
   ]
 }

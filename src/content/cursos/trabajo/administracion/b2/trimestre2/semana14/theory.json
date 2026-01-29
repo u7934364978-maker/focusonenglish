@@ -1,24 +1,37 @@
 {
-  "title": "Mercados de Capitales",
+  "title": "Quality Management & Process Improvement",
   "sections": [
     {
-      "id": "vocab",
-      "title": "Bolsa, Bonos y Derivados",
-      "content": "Aprenderemos a navegar por los diferentes instrumentos financieros.\n\n- **Stocks / Equities**: Acciones\n- **Bonds / Fixed Income**: Bonos / Renta fija\n- **Commodities**: Materias primas (oro, petróleo, etc.)\n- **Derivatives**: Derivados\n- **Futures and Options**: Futuros y Opciones\n- **Market Volatility**: Volatilidad del mercado"
+      "id": "qms-basics",
+      "title": "Introduction to QMS",
+      "content": "Quality Management Systems (QMS) are formalized systems that document processes, procedures, and responsibilities for achieving quality policies and objectives. In administrative roles, this often aligns with ISO 9001 standards.\n\n### Core Principles of QMS:\n- **Customer Focus**: Meeting and exceeding customer expectations.\n- **Continuous Improvement (Kaizen)**: Always looking for ways to make processes more efficient.\n- **Evidence-based Decision Making**: Using data, not just intuition, to make changes.\n\n### The PDCA Cycle:\n1. **Plan**: Identify the problem and plan the improvement.\n2. **Do**: Implement the change on a small scale.\n3. **Check**: Use data to analyze the results.\n4. **Act**: If successful, implement the change on a wider scale."
     },
     {
-      "id": "grammar",
-      "title": "Gramática: Conditionals Type 3 for Risk Analysis",
-      "content": "Usamos el tercer condicional para hablar de situaciones pasadas que no ocurrieron y sus consecuencias hipotéticas.\n\nEstructura: **If + Past Perfect (had + p.p.), would have + Past Participle**\n\n- **If** we **had bought** those stocks in 2020, we **would have made** a huge profit. (Si hubiéramos comprado esas acciones en 2020, habríamos obtenido un gran beneficio)\n- **If** the market **hadn't been** so volatile, the merger **would have happened**. (Si el mercado no hubiera sido tan volátil, la fusión habría ocurrido)"
+      "id": "phrase-bank",
+      "title": "PhraseBank: Process Improvement Chunks",
+      "content": "Use these chunks to discuss efficiency and standards:\n\n1. **to streamline a process** — \"We need to streamline the invoice approval process.\"\n2. **to eliminate bottlenecks** — \"Identifying the bottleneck is our first priority.\"\n3. **to be in compliance with** — \"We must be in compliance with ISO 9001.\"\n4. **to conduct an internal audit** — \"We are conducting an internal audit this week.\"\n5. **to identify a non-conformity** — \"The audit identified two non-conformities.\"\n6. **to implement corrective action** — \"Corrective action has been implemented.\"\n7. **to optimize resource allocation** — \"We need to optimize how we allocate staff.\"\n8. **to adhere to the standard** — \"All departments must adhere to the standard.\""
+    },
+    {
+      "id": "grammar-inversion",
+      "title": "Grammar: Inversion for Emphasis",
+      "content": "Inversion (reversing the subject and the auxiliary verb) is used in formal writing and presentations to emphasize a point. It usually follows a negative or restrictive adverb.\n\n### Common Structures:\n- **Never/Seldom/Rarely**: *Never have we seen such high efficiency.*\n- **Not only... but also**: *Not only did we reduce waste, but we also improved speed.*\n- **Under no circumstances**: *Under no circumstances should the audit files be left open.*\n- **Only then**: *Only then did we realize the process was broken.*\n- **At no time**: *At no time was the customer data at risk.*"
+    },
+    {
+      "id": "deliverable",
+      "title": "Weekly Deliverable: Process Improvement Proposal",
+      "content": "Draft a 'Process Improvement Proposal' for a common administrative task (e.g., booking travel or onboarding). Include:\n1. **Current 'As-Is' Process** (Identify the bottleneck).\n2. **Proposed 'To-Be' Process** (Explain how to streamline it).\n3. **PDCA Steps**.\n4. **Formal Emphasis** (Use at least two examples of inversion)."
     }
   ],
   "objectives": [
-    "Diferenciar entre acciones, bonos y materias primas",
-    "Utilizar el tercer condicional para analizar decisiones pasadas",
-    "Comprender el funcionamiento básico de los derivados"
+    "Explain the PDCA cycle and Kaizen principles",
+    "Identify bottlenecks in administrative workflows",
+    "Use inversion to create emphasis in formal proposals",
+    "Document non-conformities and propose corrective actions"
   ],
   "keyTerms": [
-    { "term": "Commodities", "definition": "A raw material or primary agricultural product that can be bought and sold, such as copper or coffee." },
-    { "term": "Derivatives", "definition": "A financial contract whose value is dependent on an underlying asset, group of assets, or benchmark." }
+    { "term": "QMS", "definition": "Quality Management System: a collection of business processes focused on consistently meeting customer requirements." },
+    { "term": "Bottleneck", "definition": "A point of congestion in a production system that stops or slows down the process." },
+    { "term": "Non-conformity", "definition": "A failure to meet a specified requirement or standard." },
+    { "term": "Streamline", "definition": "To make a system or organization more efficient by simplifying or eliminating unnecessary steps." }
   ]
 }

@@ -1,398 +1,129 @@
-[
-  {
-    "id": 1,
-    "type": "multiple-choice",
-    "question": "Which sentence uses the Third Conditional correctly to discuss a past investment failure?",
-    "options": ["If we invested in gold, we would be rich.", "If we had invested in gold, we would have been rich.", "If we would have invested in gold, we had been rich.", "If we had invested in gold, we would be rich now."],
-    "correctAnswer": 1,
-    "explanation": "If + Past Perfect, would have + Past Participle."
-  },
-  {
-    "id": 2,
-    "type": "fill-in-the-blank",
-    "question": "The market is __________ (expect) to remain bullish for the rest of the year.",
-    "correctAnswer": "expected",
-    "explanation": "Advanced passive structure."
-  },
-  {
-    "id": 3,
-    "type": "multiple-choice",
-    "question": "Which term describes an investor who expects prices to fall?",
-    "options": ["Bullish", "Bearish", "Hawkish", "Dovish"],
-    "correctAnswer": 1,
-    "explanation": "A 'bear' expects a downward trend."
-  },
-  {
-    "id": 4,
-    "type": "matching",
-    "question": "Match the term with the correct preposition:",
-    "pairs": [
-      { "left": "Invest", "right": "in" },
-      { "left": "Exposure", "right": "to" },
-      { "left": "Hedge", "right": "against" }
-    ]
-  },
-  {
-    "id": 5,
-    "type": "multiple-choice",
-    "question": "If the audit _______ the discrepancy, the company _______ still be operational today.",
-    "options": ["had found / would", "found / would have", "has found / is", "finds / will"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional (Past action -> Present state)."
-  },
-  {
-    "id": 6,
-    "type": "fill-in-the-blank",
-    "question": "Having __________ (review) the balance sheet, the auditor spotted the error.",
-    "correctAnswer": "reviewed",
-    "explanation": "Participle clause (Having + Past Participle)."
-  },
-  {
-    "id": 7,
-    "type": "multiple-choice",
-    "question": "What does 'VaR' stand for?",
-    "options": ["Variable at Risk", "Value at Risk", "Volatility and Return", "Venture and Revenue"],
-    "correctAnswer": 1,
-    "explanation": "Value at Risk is a key risk metric."
-  },
-  {
-    "id": 8,
-    "type": "multiple-choice",
-    "question": "__________ have we seen such a dramatic drop in oil prices.",
-    "options": ["Seldom", "Always", "Frequently", "Usually"],
-    "correctAnswer": 0,
-    "explanation": "Inversion for emphasis (Negative adverb + auxiliary + subject)."
-  },
-  {
-    "id": 9,
-    "type": "fill-in-the-blank",
-    "question": "If you __________ (not/buy) those puts, you __________ (be) losing money right now.",
-    "correctAnswer": "hadn't bought... would be",
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 10,
-    "type": "multiple-choice",
-    "question": "What is 'Greenwashing'?",
-    "options": ["Eco-friendly cleaning services", "Manipulative ESG reporting", "Investing in water bonds", "Sustainable office practices"],
-    "correctAnswer": 1,
-    "explanation": "Greenwashing is a deceptive practice."
-  },
-  {
-    "id": 11,
-    "type": "multiple-choice",
-    "question": "It __________ rumored that the central bank will intervene in the FX market.",
-    "options": ["is", "has", "was been", "is being"],
-    "correctAnswer": 0,
-    "explanation": "Formal reporting passive."
-  },
-  {
-    "id": 12,
-    "type": "matching",
-    "question": "Match the asset class with its typical risk level:",
-    "pairs": [
-      { "left": "Government Bonds", "right": "Low Risk" },
-      { "left": "Emerging Market Stocks", "right": "High Risk" },
-      { "left": "Blue-chip Stocks", "right": "Moderate Risk" }
-    ]
-  },
-  {
-    "id": 13,
-    "type": "fill-in-the-blank",
-    "question": "A __________ price is the price at which a call option holder can buy the asset.",
-    "correctAnswer": "strike",
-    "explanation": "Strike or Exercise price."
-  },
-  {
-    "id": 14,
-    "type": "multiple-choice",
-    "question": "If we __________ (follow) the risk model, we __________ (not/be) in this crisis now.",
-    "options": ["had followed / wouldn't be", "followed / won't be", "had followed / wouldn't have been", "didn't follow / are"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 15,
-    "type": "multiple-choice",
-    "question": "What is 'Portfolio Rebalancing'?",
-    "options": ["Opening a new account", "Adjusting asset weights to the target allocation", "Selling all stocks to buy gold", "Firing the fund manager"],
-    "correctAnswer": 1,
-    "explanation": "Rebalancing maintains the intended risk profile."
-  },
-  {
-    "id": 16,
-    "type": "fill-in-the-blank",
-    "question": "The company is believed __________ (engage) in unethical practices.",
-    "correctAnswer": "to be engaging",
-    "explanation": "Passive + to be + -ing (ongoing state)."
-  },
-  {
-    "id": 17,
-    "type": "multiple-choice",
-    "question": "Which derivative gives the right to SELL an asset?",
-    "options": ["Call Option", "Put Option", "Future", "Forward"],
-    "correctAnswer": 1,
-    "explanation": "Put = Right to sell."
-  },
-  {
-    "id": 18,
-    "type": "multiple-choice",
-    "question": "__________ under no circumstances should we increase our leverage.",
-    "options": ["Only", "In", "Under", "Not"],
-    "correctAnswer": 2,
-    "explanation": "Inversion after a negative prepositional phrase."
-  },
-  {
-    "id": 19,
-    "type": "fill-in-the-blank",
-    "question": "If the Fed __________ (raise) rates last year, inflation __________ (be) lower now.",
-    "correctAnswer": "had raised... would be",
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 20,
-    "type": "matching",
-    "question": "Match the financial term with its synonym:",
-    "pairs": [
-      { "left": "Revenue", "right": "Top line" },
-      { "left": "Profit", "right": "Bottom line" },
-      { "left": "Equity", "right": "Capital" }
-    ]
-  },
-  {
-    "id": 21,
-    "type": "multiple-choice",
-    "question": "What is the 'G' in ESG?",
-    "options": ["Growth", "Governance", "Global", "Gain"],
-    "correctAnswer": 1,
-    "explanation": "Environmental, Social, and Governance."
-  },
-  {
-    "id": 22,
-    "type": "fill-in-the-blank",
-    "question": "It is __________ (claim) that the fund manager manipulated the returns.",
-    "correctAnswer": "claimed",
-    "explanation": "Advanced passive."
-  },
-  {
-    "id": 23,
-    "type": "multiple-choice",
-    "question": "Which of these is a 'Commodity'?",
-    "options": ["Microsoft Stock", "Gold", "A checking account", "A mortgage"],
-    "correctAnswer": 1,
-    "explanation": "Gold is a physical commodity."
-  },
-  {
-    "id": 24,
-    "type": "multiple-choice",
-    "question": "If I __________ (know) about the systemic risk, I __________ (withdraw) my funds months ago.",
-    "options": ["had known / would have withdrawn", "knew / would withdraw", "had known / would withdraw", "know / will withdraw"],
-    "correctAnswer": 0,
-    "explanation": "Third Conditional (Past/Past)."
-  },
-  {
-    "id": 25,
-    "type": "fill-in-the-blank",
-    "question": "A __________-swan event is an unpredictable event with extreme consequences.",
-    "correctAnswer": "black",
-    "explanation": "Nassim Taleb's concept."
-  },
-  {
-    "id": 26,
-    "type": "multiple-choice",
-    "question": "What is 'Asset Allocation'?",
-    "options": ["Finding where assets are hidden", "The distribution of investments across categories", "Selling assets to pay debt", "Evaluating employee performance"],
-    "correctAnswer": 1,
-    "explanation": "Allocation is the main driver of performance."
-  },
-  {
-    "id": 27,
-    "type": "multiple-choice",
-    "question": "The new regulations __________ considered to be a burden on small banks.",
-    "options": ["are", "is", "have", "it is"],
-    "correctAnswer": 0,
-    "explanation": "Plural subject + are + considered."
-  },
-  {
-    "id": 28,
-    "type": "fill-in-the-blank",
-    "question": "An __________ market is a developing nation's economy.",
-    "correctAnswer": "emerging",
-    "explanation": "Emerging markets."
-  },
-  {
-    "id": 29,
-    "type": "matching",
-    "question": "Match the market trend with its description:",
-    "pairs": [
-      { "left": "Bullish", "right": "Rising prices" },
-      { "left": "Bearish", "right": "Falling prices" },
-      { "left": "Volatile", "right": "Large price swings" }
-    ]
-  },
-  {
-    "id": 30,
-    "type": "multiple-choice",
-    "question": "If they __________ (hedge) their currency risk, they __________ (not/be) losing money now.",
-    "options": ["had hedged / wouldn't be", "hedged / won't be", "had hedged / wouldn't have been", "hedge / aren't"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 31,
-    "type": "fill-in-the-blank",
-    "question": "Standard __________ measures the volatility of an investment.",
-    "correctAnswer": "deviation",
-    "explanation": "Statistical measure of risk."
-  },
-  {
-    "id": 32,
-    "type": "multiple-choice",
-    "question": "What is 'Hedging'?",
-    "options": ["A way to increase debt", "An investment to reduce risk", "A strategy to avoid all taxes", "A type of office plant"],
-    "correctAnswer": 1,
-    "explanation": "Hedging protects against adverse movements."
-  },
-  {
-    "id": 33,
-    "type": "multiple-choice",
-    "question": "__________ have the shareholders been so critical of the board.",
-    "options": ["Never", "Always", "Usually", "Frequently"],
-    "correctAnswer": 0,
-    "explanation": "Inversion (Never + auxiliary + subject)."
-  },
-  {
-    "id": 34,
-    "type": "fill-in-the-blank",
-    "question": "The __________ rate is the price of one currency in another.",
-    "correctAnswer": "exchange",
-    "explanation": "Core FX concept."
-  },
-  {
-    "id": 35,
-    "type": "multiple-choice",
-    "question": "What does a 'Call Option' provide?",
-    "options": ["The right to sell", "The right to buy", "An obligation to buy", "A fixed interest payment"],
-    "correctAnswer": 1,
-    "explanation": "Call = Buy."
-  },
-  {
-    "id": 36,
-    "type": "multiple-choice",
-    "question": "It is __________ that the firm will pivot its strategy.",
-    "options": ["understood", "understand", "understanding", "to understand"],
-    "correctAnswer": 0,
-    "explanation": "Passive (It is understood that...)."
-  },
-  {
-    "id": 37,
-    "type": "fill-in-the-blank",
-    "question": "A 'safe __________' is an asset expected to retain value during crises.",
-    "correctAnswer": "haven",
-    "explanation": "Safe haven (gold, T-bills)."
-  },
-  {
-    "id": 38,
-    "type": "matching",
-    "question": "Match the risk with the instrument:",
-    "pairs": [
-      { "left": "Interest rate risk", "right": "Bonds" },
-      { "left": "Market risk", "right": "Stocks" },
-      { "left": "Default risk", "right": "Corporate Debt" }
-    ]
-  },
-  {
-    "id": 39,
-    "type": "multiple-choice",
-    "question": "If the analyst __________ (not/miss) the warning signs, we __________ (avoid) the crash.",
-    "options": ["hadn't missed / would have avoided", "didn't miss / would avoid", "hadn't missed / would avoid", "missed / avoided"],
-    "correctAnswer": 0,
-    "explanation": "Third Conditional."
-  },
-  {
-    "id": 40,
-    "type": "fill-in-the-blank",
-    "question": "Diversification is the primary way to reduce __________ risk.",
-    "correctAnswer": "unsystematic",
-    "explanation": "Specific/Unsystematic risk."
-  },
-  {
-    "id": 41,
-    "type": "multiple-choice",
-    "question": "What is 'Yield'?",
-    "options": ["Total revenue", "The income return on an investment", "The cost of a stock", "The speed of a trade"],
-    "correctAnswer": 1,
-    "explanation": "Yield is usually expressed as a percentage."
-  },
-  {
-    "id": 42,
-    "type": "multiple-choice",
-    "question": "Sustainable investing __________ reported to be the fastest-growing sector.",
-    "options": ["is", "has", "are", "it"],
-    "correctAnswer": 0,
-    "explanation": "Passive structure."
-  },
-  {
-    "id": 43,
-    "type": "fill-in-the-blank",
-    "question": "A __________ bond is a government bond from a developed nation.",
-    "correctAnswer": "sovereign",
-    "explanation": "Government debt."
-  },
-  {
-    "id": 44,
-    "type": "matching",
-    "question": "Match the verb with its meaning:",
-    "pairs": [
-      { "left": "To default", "right": "Fail to pay a debt" },
-      { "left": "To liquidate", "right": "Convert assets to cash" },
-      { "left": "To audit", "right": "Officially inspect accounts" }
-    ]
-  },
-  {
-    "id": 45,
-    "type": "multiple-choice",
-    "question": "Which factor is 'Social' in ESG?",
-    "options": ["Board structure", "Carbon emissions", "Labor relations and safety", "Audit quality"],
-    "correctAnswer": 2,
-    "explanation": "Social (S) includes human rights and labor."
-  },
-  {
-    "id": 46,
-    "type": "fill-in-the-blank",
-    "question": "If the audit __________ (start) earlier, we __________ (be) finished by now.",
-    "correctAnswer": "had started... would be",
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 47,
-    "type": "multiple-choice",
-    "question": "What is 'Exposure'?",
-    "options": ["Being famous", "The amount of money at risk", "A type of tax", "Buying a new computer"],
-    "correctAnswer": 1,
-    "explanation": "Exposure measures risk amount."
-  },
-  {
-    "id": 48,
-    "type": "multiple-choice",
-    "question": "The Fed __________ expected to keep rates steady.",
-    "options": ["is", "are", "has", "it"],
-    "correctAnswer": 0,
-    "explanation": "Passive reporting."
-  },
-  {
-    "id": 49,
-    "type": "fill-in-the-blank",
-    "question": "A __________ swap exchanges one interest rate for another.",
-    "correctAnswer": "interest rate",
-    "explanation": "Derivative type."
-  },
-  {
-    "id": 50,
-    "type": "multiple-choice",
-    "question": "If you __________ (pass) this exam, you __________ (reach) level C1.",
-    "options": ["pass / will reach", "had passed / would have reached", "passed / would reach", "pass / reach"],
-    "correctAnswer": 0,
-    "explanation": "First Conditional (Encouragement)."
-  }
-]
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana24",
+  "title": "Final Review Exercises: Trimester 2",
+  "items": [
+    {
+      "id": "adm-b2-w24-1",
+      "type": "multipleChoice",
+      "prompt": "If we ________ more aggressive with our QMS implementation last year, we wouldn't be facing these quality audits now.",
+      "options": ["had been", "were", "would be", "are"],
+      "answerIndex": 0,
+      "explanation": "Mixed conditional (3rd + 2nd): past action with present result."
+    },
+    {
+      "id": "adm-b2-w24-2",
+      "type": "multipleChoice",
+      "prompt": "The management's ________ of the new GDPR policy has been praised by the board.",
+      "options": ["implementation", "implementing", "implement", "implemented"],
+      "answerIndex": 0,
+      "explanation": "Nominalization of the verb 'implement'."
+    },
+    {
+      "id": "adm-b2-w24-3",
+      "type": "multipleChoice",
+      "prompt": "________ you require any further information regarding the vendor SLA, please do not hesitate to ask.",
+      "options": ["Should", "Had", "Were", "Would"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 1 conditional for formal communication."
+    },
+    {
+      "id": "adm-b2-w24-4",
+      "type": "multipleChoice",
+      "prompt": "Our ________ roadmap includes a complete cloud migration by the end of the fiscal year.",
+      "options": ["strategic", "logistics", "nominal", "compliance"],
+      "answerIndex": 0,
+      "explanation": "A strategic roadmap outlines the plan for achieving long-term goals."
+    },
+    {
+      "id": "adm-b2-w24-5",
+      "type": "multipleChoice",
+      "prompt": "The CFO ________ approved the budget; it hasn't even been submitted to him yet.",
+      "options": ["can't have", "must have", "should have", "might have"],
+      "answerIndex": 0,
+      "explanation": "Past modal of deduction expressing high certainty that something did NOT happen."
+    },
+    {
+      "id": "adm-b2-w24-6",
+      "type": "multipleChoice",
+      "prompt": "We are facing high import ________ on our raw materials from Asia.",
+      "options": ["tariffs", "Incoterms", "SLAs", "KPIs"],
+      "answerIndex": 0,
+      "explanation": "Tariffs are taxes on imported goods."
+    },
+    {
+      "id": "adm-b2-w24-7",
+      "type": "multipleChoice",
+      "prompt": "________ the delays in customs, the shipment still arrived before the deadline.",
+      "options": ["Notwithstanding", "Albeit", "Much as", "Even though"],
+      "answerIndex": 0,
+      "explanation": "Notwithstanding + noun phrase means 'despite'."
+    },
+    {
+      "id": "adm-b2-w24-8",
+      "type": "multipleChoice",
+      "prompt": "The HR department uses ________ to measure employee performance during appraisals.",
+      "options": ["KPIs", "GDPR", "NDAs", "BCPs"],
+      "answerIndex": 0,
+      "explanation": "KPIs (Key Performance Indicators) are used for performance measurement."
+    },
+    {
+      "id": "adm-b2-w24-9",
+      "type": "multipleChoice",
+      "prompt": "________ had we seen such a high turnover rate in the administration department.",
+      "options": ["Never", "Always", "Should", "Were"],
+      "answerIndex": 0,
+      "explanation": "Inversion with a negative adverb (Never) for emphasis."
+    },
+    {
+      "id": "adm-b2-w24-10",
+      "type": "multipleChoice",
+      "prompt": "Corporate Social Responsibility (CSR) includes the ________, which focuses on People, Planet, and Profit.",
+      "options": ["triple bottom line", "SWOT analysis", "PESTLE framework", "audit trail"],
+      "answerIndex": 0,
+      "explanation": "The triple bottom line is a key concept in CSR."
+    },
+    {
+      "id": "adm-b2-w24-11",
+      "type": "multipleChoice",
+      "prompt": "The project was a success, ________ expensive.",
+      "options": ["albeit", "notwithstanding", "even so", "much as"],
+      "answerIndex": 0,
+      "explanation": "'Albeit' is used before an adjective to mean 'although'."
+    },
+    {
+      "id": "adm-b2-w24-12",
+      "type": "multipleChoice",
+      "prompt": "We should have conducted more ________ before signing the contract with the new supplier.",
+      "options": ["due diligence", "litigation", "nominalization", "agility"],
+      "answerIndex": 0,
+      "explanation": "Due diligence is the necessary investigation before a business agreement."
+    },
+    {
+      "id": "adm-b2-w24-13",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the data silos is a top priority for our digital transformation team.",
+      "options": ["elimination", "eliminating", "eliminate", "eliminated"],
+      "answerIndex": 0,
+      "explanation": "Nominalization of 'eliminate'."
+    },
+    {
+      "id": "adm-b2-w24-14",
+      "type": "multipleChoice",
+      "prompt": "________ we would like to expand our operations, the current trade barriers are too restrictive.",
+      "options": ["Much as", "Albeit", "Notwithstanding", "Despite"],
+      "answerIndex": 0,
+      "explanation": "'Much as' is used before a clause for strong contrast."
+    },
+    {
+      "id": "adm-b2-w24-15",
+      "type": "multipleChoice",
+      "prompt": "A(n) ________ trail allows us to track every administrative change to its original source.",
+      "options": ["audit", "strategic", "lead", "logistics"],
+      "answerIndex": 0,
+      "explanation": "An audit trail is a chronological record of changes."
+    }
+  ]
+}

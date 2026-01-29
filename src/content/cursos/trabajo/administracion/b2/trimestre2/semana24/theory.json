@@ -1,29 +1,25 @@
 {
-  "title": "Preparación para el Examen Final: Estrategias B2",
+  "title": "Trimester 2 Review & Assessment",
   "sections": [
     {
-      "id": "exam-strategy",
-      "title": "Estrategias de Examen",
-      "content": "Para superar el nivel B2 en administracion, es crucial demostrar precisión técnica y fluidez gramatical.\n\n- **Lectura Crítica**: Identifica el sesgo en informes de mercado (ej. detectar si un analista es 'bullish' o 'bearish').\n- **Precisión en Condicionales**: No confundas el impacto pasado (Third Conditional) con la situación actual (Mixed Conditional).\n- **Vocabulario de Enlace**: Utiliza conectores como *'Moreover'*, *'Consequently'*, *'Despite'*, y *'Nevertheless'* para estructurar argumentos financieros."
+      "id": "vocab",
+      "title": "Consolidated Administrative Vocabulary",
+      "content": "This trimester has covered the pillars of advanced business administration. Key areas include:\n\n- **Operations & Quality**: Managing crises (BCP), quality systems (QMS), and process improvement (Kaizen).\n- **Finance & Supply Chain**: Controlling budgets (OPEX/CAPEX), procurement cycles, and vendor relations (SLAs).\n- **Human Resources**: Leading recruitment logistics, onboarding, and performance management (KPIs).\n- **Strategy & Growth**: Conducting macro-analyses (PESTLE), managing change, and planning digital transformation.\n- **Ethics & Law**: Implementing sustainability (CSR), protecting data (GDPR), and ensuring legal compliance (Due Diligence)."
     },
     {
-      "id": "common-pitfalls",
-      "title": "Errores Comunes a Evitar",
-      "content": "1. **Voz Pasiva**: Evita decir 'They believe the market will fall' en un contexto formal; prefiere *'The market is believed to be falling'*.\n2. **Confusión de Términos**: Asegúrate de distinguir entre *'Revenue'* (ingresos brutos), *'Profit'* (beneficio) y *'Yield'* (rendimiento/rentabilidad).\n3. **Preposiciones**: Recuerda: *'Invest **in**'*, *'Exposure **to**'*, *'Benefit **from**'*, *'Hedging **against**'*."
-    },
-    {
-      "id": "complex-structures",
-      "title": "Estructuras de Alto Nivel",
-      "content": "Para obtener la máxima puntuación, intenta usar:\n\n- **Inversion for emphasis**: *'Seldom have we seen such market volatility.'*\n- **Participle clauses**: *'Having analyzed the data, the committee decided to hedge the risk.'*\n- **Modal deduction**: *'The crash must have been caused by systemic failure.'*"
+      "id": "grammar",
+      "title": "Grammar Masterclass Review",
+      "content": "A summary of the advanced structures used in professional administration:\n\n- **Reporting Passives**: \"It is widely believed that...\" for objective reporting.\n- **Inversion for Emphasis**: \"Never have we faced such...\" for formal impact.\n- **Wishes & Regrets**: \"If only we had...\" for evaluating past outcomes.\n- **Mixed Conditionals**: \"If we had acted then, we would be better now.\"\n- **Advanced Modals**: \"The board must have known...\" for speculation.\n- **Nominalization**: Transforming \"We decided\" into \"The decision was made\" for formal objectivity."
     }
   ],
   "objectives": [
-    "Aplicar estrategias de lectura y escucha crítica en contextos financieros",
-    "Corregir errores comunes de gramática y vocabulario técnico",
-    "Practicar con un simulacro de examen integral del segundo trimestre"
+    "Synthesise concepts from operations, finance, and strategy to solve administrative cases",
+    "Utilise advanced grammar structures to draft a formal executive summary",
+    "Identify and mitigate risks in international logistics and business law",
+    "Demonstrate proficiency in B2-level administrative English for the workplace"
   ],
   "keyTerms": [
-    { "term": "Bullish", "definition": "Expecting stock prices to rise." },
-    { "term": "Bearish", "definition": "Expecting stock prices to fall." }
+    { "term": "Executive Summary", "definition": "A short document or section of a document, produced for business purposes, that summarises a longer report or proposal." },
+    { "term": "Audit Trail", "definition": "A step-by-step record by which data can be traced to its source." }
   ]
 }

@@ -1,398 +1,129 @@
-[
-  {
-    "id": 1,
-    "type": "multiple-choice",
-    "question": "What does 'Value at Risk' (VaR) primarily quantify?",
-    "options": ["Maximum expected gain", "The probability of a market crash", "Potential loss in a portfolio over a specific time frame", "The dividend yield of a stock"],
-    "correctAnswer": 2,
-    "explanation": "VaR measures the potential loss in value of a risky asset or portfolio over a defined period for a given confidence interval."
-  },
-  {
-    "id": 2,
-    "type": "fill-in-the-blank",
-    "question": "If we __________ (audit) the accounts earlier, we __________ (be) safer today.",
-    "correctAnswer": "had audited... would be",
-    "explanation": "Mixed Conditional: Past action (had audited) affecting current state (would be)."
-  },
-  {
-    "id": 3,
-    "type": "multiple-choice",
-    "question": "What is the main goal of 'Portfolio Rebalancing'?",
-    "options": ["To increase the number of assets", "To maintain the original target asset allocation", "To avoid paying taxes", "To change the company's CEO"],
-    "correctAnswer": 1,
-    "explanation": "Rebalancing ensures the portfolio weights stay aligned with the investor's risk tolerance and strategy."
-  },
-  {
-    "id": 4,
-    "type": "matching",
-    "question": "Match the risk management terms with their definitions:",
-    "pairs": [
-      { "left": "Backtesting", "right": "Verifying models with historical data" },
-      { "left": "Stress Testing", "right": "Simulating extreme market scenarios" },
-      { "left": "Diversification", "right": "Spreading investments to reduce risk" }
-    ]
-  },
-  {
-    "id": 5,
-    "type": "multiple-choice",
-    "question": "If they _______ the risk model last month, the bank _______ facing a crisis now.",
-    "options": ["had updated / wouldn't be", "updated / wouldn't be", "update / won't be", "had updated / hadn't been"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional: Past action (had updated) leading to a different present state (wouldn't be)."
-  },
-  {
-    "id": 6,
-    "type": "fill-in-the-blank",
-    "question": "Asset __________ is the process of deciding how to distribute your money across different asset classes.",
-    "correctAnswer": "allocation",
-    "explanation": "Asset allocation is a fundamental investment strategy."
-  },
-  {
-    "id": 7,
-    "type": "multiple-choice",
-    "question": "In a VaR calculation, a '99% confidence level' means:",
-    "options": ["There is a 99% chance of profit", "There is a 1% chance that losses will exceed the VaR amount", "The portfolio is 99% safe from any loss", "The auditor is 99% sure about the numbers"],
-    "correctAnswer": 1,
-    "explanation": "Confidence level in VaR defines the probability that the actual loss will not exceed the calculated VaR."
-  },
-  {
-    "id": 8,
-    "type": "multiple-choice",
-    "question": "If the Fed _______ interest rates last year, the market _______ more stable today.",
-    "options": ["hadn't raised / would be", "didn't raise / will be", "hasn't raised / would have been", "doesn't raise / is"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional (Past -> Present)."
-  },
-  {
-    "id": 9,
-    "type": "fill-in-the-blank",
-    "question": "We __________ (have) a higher capital buffer now if we __________ (allocate) more to bonds in 2023.",
-    "correctAnswer": "would have... had allocated",
-    "explanation": "Mixed Conditional: Present result (would have) from a past action (had allocated)."
-  },
-  {
-    "id": 10,
-    "type": "multiple-choice",
-    "question": "Which term refers to the total amount of money at risk in a specific investment?",
-    "options": ["Mitigation", "Exposure", "Standard Deviation", "Leverage"],
-    "correctAnswer": 1,
-    "explanation": "Exposure is the measure of total potential loss."
-  },
-  {
-    "id": 11,
-    "type": "multiple-choice",
-    "question": "If I __________ (not/lose) my job yesterday, I __________ (be) on vacation now.",
-    "options": ["hadn't lost / would be", "didn't lose / would be", "hadn't lost / would have been", "didn't lose / am"],
-    "correctAnswer": 0,
-    "explanation": "General English mixed conditional usage."
-  },
-  {
-    "id": 12,
-    "type": "matching",
-    "question": "Match the asset classes with their typical characteristics:",
-    "pairs": [
-      { "left": "Equities", "right": "Higher risk, higher potential return" },
-      { "left": "Fixed Income", "right": "Regular interest payments, lower risk" },
-      { "left": "Commodities", "right": "Physical goods like gold or oil" }
-    ]
-  },
-  {
-    "id": 13,
-    "type": "fill-in-the-blank",
-    "question": "Standard __________ is a statistical measure used to determine the volatility of an investment.",
-    "correctAnswer": "deviation",
-    "explanation": "Standard deviation measures how much returns vary from the average."
-  },
-  {
-    "id": 14,
-    "type": "multiple-choice",
-    "question": "If the company _______ more transparent in the past, its reputation _______ better now.",
-    "options": ["had been / would be", "was / will be", "has been / is", "would have been / was"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional (Past state -> Present state)."
-  },
-  {
-    "id": 15,
-    "type": "multiple-choice",
-    "question": "What is 'Contingency Planning' in finance?",
-    "options": ["Planning for the next office party", "Preparing for unexpected financial crises", "Calculating the annual bonus", "Hiring new interns"],
-    "correctAnswer": 1,
-    "explanation": "Contingency plans outline actions to take in case of emergencies."
-  },
-  {
-    "id": 16,
-    "type": "fill-in-the-blank",
-    "question": "The portfolio __________ (be) more diversified today if the manager __________ (buy) more international stocks.",
-    "correctAnswer": "would be... had bought",
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 17,
-    "type": "multiple-choice",
-    "question": "Which of these is a 'Risk Mitigation' strategy?",
-    "options": ["Increasing leverage", "Hedging with derivatives", "Ignoring the VaR report", "Buying only one type of stock"],
-    "correctAnswer": 1,
-    "explanation": "Hedging is a primary way to mitigate risk."
-  },
-  {
-    "id": 18,
-    "type": "multiple-choice",
-    "question": "If we __________ (follow) the advice of the risk committee, we __________ (not/be) in this mess now.",
-    "options": ["had followed / wouldn't be", "followed / won't be", "would follow / aren't", "have followed / wouldn't have been"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 19,
-    "type": "fill-in-the-blank",
-    "question": "A __________ buffer is the extra capital banks must hold to absorb losses.",
-    "correctAnswer": "capital",
-    "explanation": "Capital buffers are required by regulators like Basel III."
-  },
-  {
-    "id": 20,
-    "type": "matching",
-    "question": "Match the term with its financial context:",
-    "pairs": [
-      { "left": "Volatility", "right": "Degree of variation in prices" },
-      { "left": "Liquidity", "right": "Ease of converting assets to cash" },
-      { "left": "Solvency", "right": "Ability to meet long-term obligations" }
-    ]
-  },
-  {
-    "id": 21,
-    "type": "multiple-choice",
-    "question": "If you __________ (study) the market trends last year, you __________ (know) which assets to buy today.",
-    "options": ["had studied / would know", "studied / will know", "would study / know", "had studied / would have known"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 22,
-    "type": "fill-in-the-blank",
-    "question": "The __________ of a portfolio is the percentage of total funds invested in each asset class.",
-    "correctAnswer": "weighting",
-    "explanation": "Portfolio weighting defines the composition of the fund."
-  },
-  {
-    "id": 23,
-    "type": "multiple-choice",
-    "question": "What does 'systemic risk' refer to?",
-    "options": ["Risk specific to one company", "Risk that can collapse an entire financial system", "The risk of losing a computer password", "The risk of a small accounting error"],
-    "correctAnswer": 1,
-    "explanation": "Systemic risk affects the whole market, not just one firm."
-  },
-  {
-    "id": 24,
-    "type": "multiple-choice",
-    "question": "If the bank __________ (not/take) such high risks in 2008, it __________ (still/exist) today.",
-    "options": ["hadn't taken / would still exist", "didn't take / would still exist", "hadn't taken / would have still existed", "doesn't take / is still existing"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional (Past action -> Present existence)."
-  },
-  {
-    "id": 25,
-    "type": "fill-in-the-blank",
-    "question": "__________ is the process of testing a model against actual market history.",
-    "correctAnswer": "Backtesting",
-    "explanation": "Backtesting validates the accuracy of predictive models."
-  },
-  {
-    "id": 26,
-    "type": "multiple-choice",
-    "question": "Which asset class is generally considered the 'safest' (lowest risk)?",
-    "options": ["Small-cap stocks", "Cryptocurrencies", "Government bonds (T-bills)", "Corporate junk bonds"],
-    "correctAnswer": 2,
-    "explanation": "Government bonds from stable countries are low-risk 'safe havens'."
-  },
-  {
-    "id": 27,
-    "type": "multiple-choice",
-    "question": "If we __________ (implement) the KYC policy correctly, we __________ (not/be) under investigation now.",
-    "options": ["had implemented / wouldn't be", "implemented / won't be", "would implement / aren't", "have implemented / hadn't been"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 28,
-    "type": "fill-in-the-blank",
-    "question": "A __________ level is the probability that the VaR estimate is accurate.",
-    "correctAnswer": "confidence",
-    "explanation": "Confidence level (e.g. 95% or 99%) is key to VaR."
-  },
-  {
-    "id": 29,
-    "type": "matching",
-    "question": "Match the scenario with the mixed conditional structure:",
-    "pairs": [
-      { "left": "Past action, present result", "right": "If I had done X, I would be Y" },
-      { "left": "Present state, past result", "right": "If I were rich, I would have bought X" },
-      { "left": "General truth, future result", "right": "If it rains, I will take an umbrella" }
-    ]
-  },
-  {
-    "id": 30,
-    "type": "multiple-choice",
-    "question": "If the CEO __________ (resign) last year, the company __________ (have) a better image now.",
-    "options": ["had resigned / would have", "resigned / will have", "would resign / has", "had resigned / would have had"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 31,
-    "type": "fill-in-the-blank",
-    "question": "Real estate is an example of an __________ asset class.",
-    "correctAnswer": "alternative",
-    "explanation": "Alternative assets include real estate, private equity, and hedge funds."
-  },
-  {
-    "id": 32,
-    "type": "multiple-choice",
-    "question": "What is 'Tail Risk'?",
-    "options": ["The risk of losing a small amount", "The risk of extreme events occurring (the 'tails' of a distribution)", "The risk of a project finishing late", "The risk associated with pet insurance"],
-    "correctAnswer": 1,
-    "explanation": "Tail risk refers to rare but catastrophic events."
-  },
-  {
-    "id": 33,
-    "type": "multiple-choice",
-    "question": "If they __________ (diversify) their holdings, they __________ (be) more resilient to this crash.",
-    "options": ["had diversified / would be", "diversified / will be", "would diversify / are", "had diversified / would have been"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 34,
-    "type": "fill-in-the-blank",
-    "question": "Portfolio __________ is the process of adjusting the weights of assets in a portfolio.",
-    "correctAnswer": "rebalancing",
-    "explanation": "Rebalancing maintains the desired risk profile."
-  },
-  {
-    "id": 35,
-    "type": "multiple-choice",
-    "question": "In a VaR report, '1-day VaR of $1M at 95% confidence' means:",
-    "options": ["You will lose $1M today", "There is a 5% chance of losing more than $1M today", "You will gain $1M with 95% certainty", "There is a 95% chance of losing exactly $1M"],
-    "correctAnswer": 1,
-    "explanation": "It defines the threshold that will be exceeded only 5% of the time."
-  },
-  {
-    "id": 36,
-    "type": "multiple-choice",
-    "question": "If the firm __________ (not/invest) in those subprime mortgages, it __________ (be) solvent now.",
-    "options": ["hadn't invested / would be", "didn't invest / will be", "hasn't invested / is", "hadn't invested / would have been"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 37,
-    "type": "fill-in-the-blank",
-    "question": "The __________ deviation measures the dispersion of a set of data from its mean.",
-    "correctAnswer": "standard",
-    "explanation": "Standard deviation is a core metric for risk (volatility)."
-  },
-  {
-    "id": 38,
-    "type": "matching",
-    "question": "Match the portfolio strategy with its description:",
-    "pairs": [
-      { "left": "Buy and Hold", "right": "Long-term passive strategy" },
-      { "left": "Active Management", "right": "Frequent trading to beat the market" },
-      { "left": "Indexing", "right": "Tracking a specific market index" }
-    ]
-  },
-  {
-    "id": 39,
-    "type": "multiple-choice",
-    "question": "If the auditor __________ (find) the error earlier, the report __________ (be) accurate now.",
-    "options": ["had found / would be", "found / will be", "finds / would be", "had found / would have been"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 40,
-    "type": "fill-in-the-blank",
-    "question": "A __________ test is a simulation of extreme but plausible negative events.",
-    "correctAnswer": "stress",
-    "explanation": "Stress tests help institutions prepare for 'black swan' events."
-  },
-  {
-    "id": 41,
-    "type": "multiple-choice",
-    "question": "Which of these is NOT a traditional asset class?",
-    "options": ["Stocks", "Bonds", "Cash", "Art and Collectibles"],
-    "correctAnswer": 3,
-    "explanation": "Art is considered an 'alternative' asset, not a core traditional one like stocks/bonds."
-  },
-  {
-    "id": 42,
-    "type": "multiple-choice",
-    "question": "If you __________ (not/spend) all your bonus in January, you __________ (have) money for the investment now.",
-    "options": ["hadn't spent / would have", "didn't spend / will have", "haven't spent / have", "hadn't spent / would have had"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 43,
-    "type": "fill-in-the-blank",
-    "question": "Asset __________ is often considered the most important factor in long-term portfolio performance.",
-    "correctAnswer": "allocation",
-    "explanation": "Studies show allocation drives most of the returns variance."
-  },
-  {
-    "id": 44,
-    "type": "matching",
-    "question": "Match the risk type with its source:",
-    "pairs": [
-      { "left": "Market Risk", "right": "Price movements" },
-      { "left": "Credit Risk", "right": "Borrower default" },
-      { "left": "Operational Risk", "right": "Internal system failures" }
-    ]
-  },
-  {
-    "id": 45,
-    "type": "multiple-choice",
-    "question": "If the government __________ (cut) taxes last year, consumer spending __________ (be) higher now.",
-    "options": ["had cut / would be", "cut / will be", "has cut / is", "had cut / would have been"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 46,
-    "type": "fill-in-the-blank",
-    "question": "A __________ event is an unpredictable event with catastrophic consequences.",
-    "correctAnswer": "black swan",
-    "explanation": "Coined by Nassim Taleb, black swans are key in risk management."
-  },
-  {
-    "id": 47,
-    "type": "multiple-choice",
-    "question": "What is 'Portfolio Turnover'?",
-    "options": ["The total value of the portfolio", "The frequency with which assets are bought and sold", "The profit made in a year", "The number of managers in a firm"],
-    "correctAnswer": 1,
-    "explanation": "High turnover can lead to higher transaction costs and taxes."
-  },
-  {
-    "id": 48,
-    "type": "multiple-choice",
-    "question": "If we __________ (analyze) the correlation between these assets, we __________ (be) less exposed now.",
-    "options": ["had analyzed / would be", "analyzed / will be", "would analyze / are", "had analyzed / would have been"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional."
-  },
-  {
-    "id": 49,
-    "type": "fill-in-the-blank",
-    "question": "Correlation __________ measures how much two assets move in relation to each other.",
-    "correctAnswer": "coefficient",
-    "explanation": "It ranges from -1 to +1."
-  },
-  {
-    "id": 50,
-    "type": "multiple-choice",
-    "question": "If the fund __________ (not/hedge) its currency risk, it __________ (lose) money today due to the dollar's drop.",
-    "options": ["hadn't hedged / would be losing", "didn't hedge / will lose", "doesn't hedge / loses", "hadn't hedged / would have lost"],
-    "correctAnswer": 0,
-    "explanation": "Mixed Conditional (Past action -> Present ongoing result)."
-  }
-]
+{
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana21",
+  "title": "Exercises: Digital Transformation & IT Administration",
+  "items": [
+    {
+      "id": "adm-b2-w21-1",
+      "type": "multipleChoice",
+      "prompt": "________ the server crash, we would have finished the payroll processing on time.",
+      "options": ["Should it be", "Had it not been for", "Were it not for", "If it wasn't"],
+      "answerIndex": 1,
+      "explanation": "This is a Type 3 inverted conditional: Had it not been for + noun (past impossibility)."
+    },
+    {
+      "id": "adm-b2-w21-2",
+      "type": "multipleChoice",
+      "prompt": "Our current software is a ________ system; it was installed in 1995 and is no longer supported.",
+      "options": ["SaaS", "legacy", "cloud", "interoperable"],
+      "answerIndex": 1,
+      "explanation": "Legacy systems are outdated systems that are still in use."
+    },
+    {
+      "id": "adm-b2-w21-3",
+      "type": "multipleChoice",
+      "prompt": "________ you have any questions regarding the new ERP system, please notify the IT department immediately.",
+      "options": ["Should", "Had", "Were", "Would"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 1 conditional: Should + subject + verb (formal way of saying 'If you have')."
+    },
+    {
+      "id": "adm-b2-w21-4",
+      "type": "multipleChoice",
+      "prompt": "The marketing and sales departments don't share information, creating ________ that hinder our growth.",
+      "options": ["data silos", "scalability", "cloud migration", "digital maturity"],
+      "answerIndex": 0,
+      "explanation": "Data silos occur when data is held by one group and is not accessible by others."
+    },
+    {
+      "id": "adm-b2-w21-5",
+      "type": "multipleChoice",
+      "prompt": "________ the CFO here, she would definitely approve the budget for cloud migration.",
+      "options": ["Had", "Were", "Should", "If"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 2 conditional: Were + subject + adjective/noun."
+    },
+    {
+      "id": "adm-b2-w21-6",
+      "type": "fillBlanks",
+      "prompt": "Rewrite using inversion: If the company had invested in IT sooner, it would be more competitive now. -> [Had the company invested] in IT sooner, it would be more competitive now.",
+      "text": "[Had the company invested] in IT sooner, it would be more competitive now.",
+      "answers": ["Had the company invested"],
+      "explanation": "Inverted Type 3 conditional."
+    },
+    {
+      "id": "adm-b2-w21-7",
+      "type": "multipleChoice",
+      "prompt": "________ refers to the ability of a system to grow and manage increased demand.",
+      "options": ["Scalability", "Interoperability", "Legacy", "Migration"],
+      "answerIndex": 0,
+      "explanation": "Scalability is the capability of a system to handle a growing amount of work."
+    },
+    {
+      "id": "adm-b2-w21-8",
+      "type": "multipleChoice",
+      "prompt": "________ it not for the high cost of implementation, we would have switched to an ERP system years ago.",
+      "options": ["Had", "Were", "Should", "Was"],
+      "answerIndex": 1,
+      "explanation": "Were it not for + noun is the inverted form of 'If it weren't for'."
+    },
+    {
+      "id": "adm-b2-w21-9",
+      "type": "multipleChoice",
+      "prompt": "We are currently undergoing ________ migration to reduce our reliance on physical on-site servers.",
+      "options": ["legacy", "cloud", "interoperable", "silo"],
+      "answerIndex": 1,
+      "explanation": "Cloud migration is moving business elements to a cloud environment."
+    },
+    {
+      "id": "adm-b2-w21-10",
+      "type": "multipleChoice",
+      "prompt": "________ we known about the compatibility issues, we wouldn't have purchased this software.",
+      "options": ["Had", "Were", "Should", "If"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 3 conditional: Had + subject + past participle."
+    },
+    {
+      "id": "adm-b2-w21-11",
+      "type": "fillBlanks",
+      "prompt": "Complete with a term: [ERP] software integrates various administrative functions into one unified system.",
+      "text": "[ERP] software integrates various administrative functions into one unified system.",
+      "answers": ["ERP", "Enterprise Resource Planning"],
+      "explanation": "ERP stands for Enterprise Resource Planning."
+    },
+    {
+      "id": "adm-b2-w21-12",
+      "type": "multipleChoice",
+      "prompt": "The ability of our CRM to talk to our accounting software is called ________.",
+      "options": ["interoperability", "scalability", "maturity", "siloing"],
+      "answerIndex": 0,
+      "explanation": "Interoperability is the ability of different systems to communicate and exchange data."
+    },
+    {
+      "id": "adm-b2-w21-13",
+      "type": "multipleChoice",
+      "prompt": "________ you wish to opt-out of the digital newsletter, please update your preferences in the portal.",
+      "options": ["Should", "Had", "Were", "If you"],
+      "answerIndex": 0,
+      "explanation": "Formal inversion: Should + subject + verb."
+    },
+    {
+      "id": "adm-b2-w21-14",
+      "type": "multipleChoice",
+      "prompt": "A high level of digital ________ means an organisation is well-prepared to exploit new technologies.",
+      "options": ["maturity", "legacy", "silo", "migration"],
+      "answerIndex": 0,
+      "explanation": "Digital maturity is a measure of an organisation's ability to create value through digital means."
+    },
+    {
+      "id": "adm-b2-w21-15",
+      "type": "multipleChoice",
+      "prompt": "________ the deadline be missed, the project will lose its funding.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 1: Should + subject + passive infinitive (be missed)."
+    }
+  ]
+}

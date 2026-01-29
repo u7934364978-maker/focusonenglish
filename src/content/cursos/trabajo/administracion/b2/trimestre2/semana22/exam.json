@@ -1,41 +1,46 @@
-[
-  {
-    "id": 1,
-    "type": "multiple-choice",
-    "question": "Which of these is an 'Environmental' factor in ESG?",
-    "options": ["Board diversity", "Carbon emissions", "Employee rights", "Tax transparency"],
-    "correctAnswer": 1,
-    "explanation": "Carbon emissions are a key environmental (E) factor."
-  },
-  {
-    "id": 2,
-    "type": "multiple-choice",
-    "question": "What is 'Impact Investing'?",
-    "options": ["Investing only for profit", "Investing to generate social/environmental benefits alongside profit", "Investing in small shops", "Day trading"],
-    "correctAnswer": 1,
-    "explanation": "Impact investing seeks both financial return and positive change."
-  },
-  {
-    "id": 3,
-    "type": "fill-in-the-blank",
-    "question": "Sustainable projects __________ (consider) to be essential for future growth.",
-    "correctAnswer": "are considered",
-    "explanation": "Passive structure for general consensus."
-  },
-  {
-    "id": 4,
-    "type": "multiple-choice",
-    "question": "A 'Carbon Footprint' measures:",
-    "options": ["The size of a factory", "The total greenhouse gas emissions", "The number of trees planted", "The price of oil"],
-    "correctAnswer": 1,
-    "explanation": "Carbon footprint quantifies the impact on the environment in CO2 equivalents."
-  },
-  {
-    "id": 5,
-    "type": "multiple-choice",
-    "question": "The firm _______ to have hidden its environmental liabilities.",
-    "options": ["is alleged", "alleges", "is alleging", "was allege"],
-    "correctAnswer": 0,
-    "explanation": "Passive reporting: is alleged to + verb."
-  }
-]
+{
+  "title": "International Business & Logistics Exam",
+  "passingScore": 70,
+  "items": [
+    {
+      "id": "adm-b2-w22-q1",
+      "type": "multipleChoice",
+      "prompt": "________ the administrative burden, the new export licence has opened up many opportunities.",
+      "options": ["Notwithstanding", "Albeit", "Much as", "Even though"],
+      "answerIndex": 0,
+      "explanation": "Notwithstanding + noun phrase is used to mean 'despite'."
+    },
+    {
+      "id": "adm-b2-w22-q2",
+      "type": "multipleChoice",
+      "prompt": "Which term refers to the set of rules defining buyer/seller responsibilities in international trade?",
+      "options": ["Incoterms", "Trade Barriers", "Freight Forwarding", "Economies of Scale"],
+      "answerIndex": 0,
+      "explanation": "Incoterms are the standard rules for international trade responsibilities."
+    },
+    {
+      "id": "adm-b2-w22-q3",
+      "type": "multipleChoice",
+      "prompt": "The delivery was successful, ________ delayed by a week.",
+      "options": ["albeit", "notwithstanding", "much as", "even so"],
+      "answerIndex": 0,
+      "explanation": "'Albeit delayed' means 'although it was delayed'."
+    },
+    {
+      "id": "adm-b2-w22-q4",
+      "type": "multipleChoice",
+      "prompt": "Reducing lead time is essential to ________.",
+      "options": ["increasing customer satisfaction", "raising tariffs", "creating data silos", "implementing greenwashing"],
+      "answerIndex": 0,
+      "explanation": "Shorter lead times generally lead to happier customers."
+    },
+    {
+      "id": "adm-b2-w22-q5",
+      "type": "multipleChoice",
+      "prompt": "________ we would like to lower our prices, the current tariffs make it impossible.",
+      "options": ["Much as", "Albeit", "Notwithstanding", "Despite"],
+      "answerIndex": 0,
+      "explanation": "'Much as' is used before a clause to express a strong 'although'."
+    }
+  ]
+}

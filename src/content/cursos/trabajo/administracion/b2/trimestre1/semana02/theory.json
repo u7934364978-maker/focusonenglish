@@ -1,37 +1,37 @@
 {
-  "title": "Efficiency and Streamlining: Optimising Office Workflows",
+  "title": "Handovers & Operational Continuity",
   "sections": [
     {
-      "id": "workflow-optimisation",
-      "title": "Workflow Analysis and Bottlenecks",
-      "content": "At a B2 level, you are expected not only to follow processes but to identify where they can be improved. **Streamlining** is the process of making a system more efficient by removing unnecessary steps.\n\n### Identifying Bottlenecks\nA **bottleneck** is a point in a workflow where the volume of work exceeds the capacity of the system, causing delays. \n- **Redundancy**: Repeating the same task in different departments (e.g., entering the same data into two different spreadsheets).\n- **Wait time**: Periods where a process stops because it is waiting for a manual approval that could be automated.\n- **Over-processing**: Spending more time on a task than is required for its purpose.\n\n### The 'As-Is' vs. 'To-Be' Model\n- **As-Is**: The current state of the process, including all its flaws and delays.\n- **To-Be**: The proposed future state after improvements have been implemented. \n\nProfessional proposals focus on the transition from the 'As-Is' to the 'To-Be', highlighting the **ROI (Return on Investment)** in terms of time saved."
+      "id": "handover-importance",
+      "title": "The Strategic Importance of Handovers",
+      "content": "A handover is the structured transfer of information and responsibility between individuals, shifts, or teams to ensure continuity. In Operations, an effective handover prevents duplicated work, invisible blockers, late decisions, and missed deadlines (SLAs).\n\n### Core Principle\nHandover = **Clarity + Action**. If the receiver does not know what to do, who is doing it, and when it is due, the handover has failed."
     },
     {
-      "id": "grammar-future",
-      "title": "Grammar for Proposals: Future Continuous and Future Perfect",
-      "content": "When proposing efficiency changes, we use these tenses to project the impact of our improvements.\n\n### Future Continuous (will be + -ing)\nUsed to describe an ongoing action in the future. In admin, it is often used for projections.\n- *\"By next month, we **will be using** the new automated invoicing system.\"*\n- *\"Our team **will be focusing** on higher-value tasks once this process is streamlined.\"*\n\n### Future Perfect (will have + past participle)\nUsed to describe an action that will be completed before a specific point in the future. This is essential for setting targets.\n- *\"By the end of Q3, we **will have reduced** the processing time by 20%.\"*\n- *\"Once the software is installed, the team **will have eliminated** all manual data entry errors.\"*"
+      "id": "handover-structure",
+      "title": "The 7-Block Handover Structure",
+      "content": "Professional handovers should follow this standard template to ensure no critical information is missed:\n\n1. **What’s done**: Completed and validated tasks.\n2. **What’s in progress**: Started but unfinished items.\n3. **What’s blocked (and why)**: Obstacles and their root causes.\n4. **Risks / Deadlines**: Potential issues and time constraints.\n5. **Next steps**: Specific, actionable items.\n6. **Owners & dates**: Clear accountability and timelines.\n7. **Links / References**: IDs, tickets, or board items."
     },
     {
-      "id": "phrase-bank",
-      "title": "PhraseBank: Efficiency & Optimisation",
-      "content": "1. **to streamline a process** — To make it simpler and more effective.\n2. **to eliminate redundancies** — To remove unnecessary duplicate tasks.\n3. **to automate a workflow** — To use software to handle repetitive tasks.\n4. **to identify a bottleneck** — To find where the delay is happening.\n5. **to reduce turnaround time** — To speed up how long it takes to finish a task.\n6. **to gain efficiency** — To become more productive with fewer resources.\n7. **to map out a process** — To create a visual diagram of the steps involved.\n8. **to phase out** — To gradually stop using an old system.\n9. **to implement a solution** — To put a plan into action.\n10. **to monitor progress** — To check how well the new process is working.\n11. **lean approach** — A methodology focused on minimising waste.\n12. **standardisation** — Making sure everyone does the task the same way.\n13. **scalability** — The ability to handle more work without failing.\n14. **error-prone** — Likely to result in mistakes (usually manual tasks).\n15. **value-add** — A task that actually provides benefit to the customer."
+      "id": "board-language",
+      "title": "Operational Language (UK English)",
+      "content": "### Board Statuses\n- **New**: Logged but not started.\n- **In progress**: Started but not finished.\n- **Blocked**: Cannot move forward due to a dependency.\n- **Done**: Completed and confirmed.\n\n### Essential Chunks\n- *\"I’m handing over...\"* (Clear opening)\n- *\"This is currently blocked due to...\"* (Factual blocker)\n- *\"We’re waiting for...\" / \"Approval is pending...\"* (Dependency)\n- *\"Risk: ... may slip if ... by Friday EOD.\"* (Risk assessment)\n- *\"Next step: ... Owner: ... By: ...\"* (Actionable steps)"
     },
     {
-      "id": "deliverable",
-      "title": "Weekly Deliverable (Portfolio)",
-      "content": "### Task: Workflow Improvement Proposal\nDraft a 1-page proposal for streamlining a specific administrative task (e.g., booking travel, processing expenses, or managing the ops board).\n\n**Structure:**\n1. **Current 'As-Is' Process**: Briefly describe the steps and identify one bottleneck.\n2. **Proposed 'To-Be' Process**: Describe the new workflow and what will be automated or eliminated.\n3. **Impact Projections**: Use at least two examples of **Future Perfect** and two of **Future Continuous** to describe the results."
+      "id": "precision-timing",
+      "title": "Precision in Deadlines",
+      "content": "In Operations, 'ASAP' is considered poor practice because it is vague. Professionals use specific time references:\n- **Friday EOD** (End of Day)\n- **3pm (UK time)**\n- **Close of Business (COB)**\n\n### Signposting for Oral Handovers\nWhen delivering a handover orally (2-4 minutes), use signposting to guide the listener:\n- *\"Quick recap...\"*\n- *\"The key point is...\"*\n- *\"Next steps are...\"*"
     }
   ],
   "objectives": [
-    "Identify common office bottlenecks and redundancies",
-    "Describe workflow improvements using professional terminology",
-    "Apply Future Continuous and Future Perfect tenses to project results",
-    "Draft a formal efficiency proposal with a focus on ROI"
+    "Transfer work status, risks, and next steps clearly and professionally",
+    "Identify and describe blockers using factual, neutral language",
+    "Apply the 7-block handover structure to emails and oral reports",
+    "Use precise UK English terminology for board statuses and deadlines"
   ],
   "keyTerms": [
-    { "term": "Streamlining", "definition": "The act of making a process or organization more efficient by removing unnecessary steps or people." },
-    { "term": "Bottleneck", "definition": "A stage in a process that causes the entire process to slow down or stop." },
-    { "term": "Redundancy", "definition": "A situation where something is no longer needed because it repeats what is already available." },
-    { "term": "ROI", "definition": "Return on Investment: a measure used to evaluate the efficiency of an investment." }
+    { "term": "Handover", "definition": "The structured transfer of work status and responsibility to ensure continuity." },
+    { "term": "Dependency", "definition": "A task or piece of information that must be completed before another task can progress." },
+    { "term": "Pending", "definition": "Awaiting a decision, approval, or further action." },
+    { "term": "Slip", "definition": "To be delayed or fail to meet a deadline (e.g., 'the schedule may slip')." }
   ]
 }

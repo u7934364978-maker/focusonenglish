@@ -3,407 +3,127 @@
   "level": "B2",
   "trimester": 2,
   "weekId": "semana19",
-  "title": "Ejercicios: Seguros y Fundamentos Actuariales",
+  "title": "Exercises: Strategic Planning & Change Management",
   "items": [
     {
-      "id": "fin-b2-w19-1",
+      "id": "adm-b2-w19-1",
       "type": "multipleChoice",
-      "prompt": "The monthly payment made to an insurance company is called a ________.",
-      "options": ["Claim", "Premium", "Deductible", "Benefit"],
+      "prompt": "If the board ________ the restructuring plan last quarter, the company wouldn't be in such a chaotic state right now.",
+      "options": ["approved", "had approved", "would approve", "approves"],
       "answerIndex": 1,
-      "explanation": "A premium is the amount of money an individual or business pays for an insurance policy."
+      "explanation": "This is a mixed conditional (3rd + 2nd). A past action (had approved) affecting the present state (wouldn't be)."
     },
     {
-      "id": "fin-b2-w19-2",
+      "id": "adm-b2-w19-2",
       "type": "multipleChoice",
-      "prompt": "When an accident occurs, the policyholder files a ________ to request compensation.",
-      "options": ["Claim", "Premium", "Contract", "Bill"],
-      "answerIndex": 0,
-      "explanation": "A claim is a formal request to an insurance company asking for a payment based on the terms of the insurance policy."
-    },
-    {
-      "id": "fin-b2-w19-3",
-      "type": "multipleChoice",
-      "prompt": "The risk of the new project ________ by the underwriting department.",
-      "options": ["is evaluated", "evaluates", "has evaluated", "evaluating"],
-      "answerIndex": 0,
-      "explanation": "Passive voice is used to show the process: 'is evaluated'."
-    },
-    {
-      "id": "fin-b2-w19-4",
-      "type": "multipleChoice",
-      "prompt": "An ________ is a professional who uses statistics to calculate insurance risks and premiums.",
-      "options": ["Accountant", "Actuary", "Auditor", "Appraiser"],
+      "prompt": "We are conducting a ________ analysis to evaluate our internal strengths and external threats.",
+      "options": ["PESTLE", "SWOT", "SLA", "KPI"],
       "answerIndex": 1,
-      "explanation": "Actuaries analyze the financial costs of risk and uncertainty."
+      "explanation": "SWOT stands for Strengths, Weaknesses, Opportunities, and Threats."
     },
     {
-      "id": "fin-b2-w19-5",
+      "id": "adm-b2-w19-3",
       "type": "multipleChoice",
-      "prompt": "The ________ is the amount the insured must pay out of pocket before the insurance covers the rest.",
-      "options": ["Deductible", "Premium", "Commission", "Bonus"],
-      "answerIndex": 0,
-      "explanation": "A deductible (or excess) is the fixed amount you pay towards a claim."
+      "prompt": "If our HR director ________ more experienced in change management, he would have anticipated the staff resistance during the merger.",
+      "options": ["was", "had been", "is", "were"],
+      "answerIndex": 3,
+      "explanation": "This is a mixed conditional (2nd + 3rd). A general present state (were/was) affecting a past event (would have anticipated). 'Were' is more formal."
     },
     {
-      "id": "fin-b2-w19-6",
+      "id": "adm-b2-w19-4",
       "type": "multipleChoice",
-      "prompt": "Last year, thousands of claims ________ due to fraudulent activity.",
-      "options": ["were rejected", "are rejected", "rejected", "was reject"],
-      "answerIndex": 0,
-      "explanation": "Past passive: 'were rejected' (plural)."
+      "prompt": "The 'L' in PESTLE analysis stands for ________ factors, such as employment laws or health and safety regulations.",
+      "options": ["Logistical", "Legal", "Local", "Linguistic"],
+      "answerIndex": 1,
+      "explanation": "In PESTLE, L stands for Legal factors."
     },
     {
-      "id": "fin-b2-w19-7",
+      "id": "adm-b2-w19-5",
       "type": "multipleChoice",
-      "prompt": "Insurance ________ is the process of evaluating a risk to decide whether to provide coverage.",
-      "options": ["Underwriting", "Invoicing", "Accounting", "Marketing"],
+      "prompt": "Employees are showing signs of ________ because of the third consecutive software migration this year.",
+      "options": ["change fatigue", "strategic alignment", "benchmarking", "agility"],
       "answerIndex": 0,
-      "explanation": "Underwriting involves assessing the eligibility of a customer to receive an insurance policy."
+      "explanation": "Change fatigue occurs when too many organizational changes happen in a short period."
     },
     {
-      "id": "fin-b2-w19-8",
-      "type": "multipleChoice",
-      "prompt": "New policies ________ by the legal team every quarter.",
-      "options": ["are reviewed", "is reviewed", "reviewed", "reviewing"],
-      "answerIndex": 0,
-      "explanation": "Present passive: 'are reviewed' (plural)."
-    },
-    {
-      "id": "fin-b2-w19-9",
-      "type": "multipleChoice",
-      "prompt": "The ________ is the person or entity that owns the insurance policy.",
-      "options": ["Policyholder", "Underwriter", "Actuary", "Broker"],
-      "answerIndex": 0,
-      "explanation": "A policyholder is the person who pays the premium and owns the policy."
-    },
-    {
-      "id": "fin-b2-w19-10",
-      "type": "multipleChoice",
-      "prompt": "Third-party ________ insurance is mandatory for all drivers in this country.",
-      "options": ["liability", "premium", "deductible", "claim"],
-      "answerIndex": 0,
-      "explanation": "Liability insurance protects against claims resulting from injuries and damage to people and/or property."
-    },
-    {
-      "id": "fin-b2-w19-11",
-      "type": "multipleChoice",
-      "prompt": "The claim ________ by the adjuster yesterday morning.",
-      "options": ["was approved", "is approved", "approves", "were approved"],
-      "answerIndex": 0,
-      "explanation": "Past passive: 'was approved' (singular)."
-    },
-    {
-      "id": "fin-b2-w19-12",
-      "type": "multipleChoice",
-      "prompt": "If you choose a higher ________, your monthly premium will usually be lower.",
-      "options": ["deductible", "payout", "bonus", "salary"],
-      "answerIndex": 0,
-      "explanation": "A higher deductible reduces the insurer's risk, leading to lower premiums."
-    },
-    {
-      "id": "fin-b2-w19-13",
-      "type": "multipleChoice",
-      "prompt": "Actuarial tables ________ to predict life expectancy and mortality rates.",
-      "options": ["are used", "is used", "use", "using"],
-      "answerIndex": 0,
-      "explanation": "Present passive: 'are used' (plural)."
-    },
-    {
-      "id": "fin-b2-w19-14",
-      "type": "multipleChoice",
-      "prompt": "The ________ process can take several weeks for complex commercial risks.",
-      "options": ["underwriting", "billing", "shipping", "hiring"],
-      "answerIndex": 0,
-      "explanation": "Underwriting involves detailed risk assessment."
-    },
-    {
-      "id": "fin-b2-w19-15",
-      "type": "multipleChoice",
-      "prompt": "All information ________ by the applicant must be accurate and complete.",
-      "options": ["provided", "provides", "providing", "provide"],
-      "answerIndex": 0,
-      "explanation": "In this context, 'provided' acts as a past participle in a reduced relative clause (which is provided)."
-    },
-    {
-      "id": "fin-b2-w19-16",
-      "type": "multipleChoice",
-      "prompt": "Life insurance ________ are often paid out to the beneficiaries after the policyholder's death.",
-      "options": ["benefits", "premiums", "deductibles", "taxes"],
-      "answerIndex": 0,
-      "explanation": "Benefits (or death benefits) are the payments made by the insurance company."
-    },
-    {
-      "id": "fin-b2-w19-17",
-      "type": "multipleChoice",
-      "prompt": "The insurance market ________ by a few large multinational corporations.",
-      "options": ["is dominated", "dominates", "are dominated", "dominating"],
-      "answerIndex": 0,
-      "explanation": "Present passive: 'is dominated'."
-    },
-    {
-      "id": "fin-b2-w19-18",
-      "type": "multipleChoice",
-      "prompt": "A ________ is an addition to a standard insurance policy that provides extra coverage.",
-      "options": ["rider", "driver", "walker", "runner"],
-      "answerIndex": 0,
-      "explanation": "An insurance rider (or endorsement) adds specific coverage to a policy."
-    },
-    {
-      "id": "fin-b2-w19-19",
-      "type": "multipleChoice",
-      "prompt": "In most cases, the premium ________ annually or semi-annually.",
-      "options": ["is paid", "pays", "are paid", "paying"],
-      "answerIndex": 0,
-      "explanation": "Present passive: 'is paid'."
-    },
-    {
-      "id": "fin-b2-w19-20",
-      "type": "multipleChoice",
-      "prompt": "The total amount of ________ is the maximum sum the insurance company will pay.",
-      "options": ["coverage", "premium", "deductible", "interest"],
-      "answerIndex": 0,
-      "explanation": "Coverage refers to the amount of protection or the limit of the policy."
-    },
-    {
-      "id": "fin-b2-w19-21",
+      "id": "adm-b2-w19-6",
       "type": "fillBlanks",
-      "prompt": "Fill in the blank with the correct passive form: The risks [are calculated] by expert actuaries.",
-      "text": "The risks [are calculated] by expert actuaries.",
-      "answers": ["are calculated"],
-      "explanation": "Passive voice: be + past participle."
+      "prompt": "Complete the mixed conditional: If we [had implemented] (implement) the CRM system two years ago, we would have better customer data today.",
+      "text": "If we [had implemented] the CRM system two years ago, we would have better customer data today.",
+      "answers": ["had implemented"],
+      "explanation": "Type 3 if-clause for a past action affecting the present."
     },
     {
-      "id": "fin-b2-w19-22",
+      "id": "adm-b2-w19-7",
       "type": "fillBlanks",
-      "prompt": "Fill in the blank: The insurance [premium] is the amount you pay for coverage.",
-      "text": "The insurance [premium] is the amount you pay for coverage.",
-      "answers": ["premium"],
-      "explanation": "Premium is the standard term for the cost of insurance."
+      "prompt": "Fill in the missing term: To ensure [strategic alignment], every department's goals must support the company's long-term vision.",
+      "text": "To ensure [strategic alignment], every department's goals must support the company's long-term vision.",
+      "answers": ["strategic alignment"],
+      "explanation": "Strategic alignment is the synchronization of an organization's goals with its actions."
     },
     {
-      "id": "fin-b2-w19-23",
+      "id": "adm-b2-w19-8",
       "type": "multipleChoice",
-      "prompt": "Reinsurance ________ by primary insurers to transfer some of their risk to another company.",
-      "options": ["is purchased", "purchases", "are purchased", "purchasing"],
+      "prompt": "If the company ________ so much debt, it would have been able to acquire its competitor last month.",
+      "options": ["didn't have", "doesn't have", "hadn't had", "wouldn't have"],
       "answerIndex": 0,
-      "explanation": "Reinsurance is insurance for insurance companies."
+      "explanation": "Mixed conditional (2nd + 3rd): A present state (not having debt) affecting a past possibility (would have been able)."
     },
     {
-      "id": "fin-b2-w19-24",
+      "id": "adm-b2-w19-9",
       "type": "multipleChoice",
-      "prompt": "The policy ________ if the premium is not paid within the grace period.",
-      "options": ["will be canceled", "will cancel", "is cancel", "canceled"],
+      "prompt": "A(n) ________ roadmap is essential to visualise the milestones of our five-year expansion plan.",
+      "options": ["implementation", "benchmark", "stakeholder", "PESTLE"],
       "answerIndex": 0,
-      "explanation": "Future passive: 'will be canceled'."
+      "explanation": "An implementation roadmap maps out the steps to execute a strategy."
     },
     {
-      "id": "fin-b2-w19-25",
+      "id": "adm-b2-w19-10",
       "type": "multipleChoice",
-      "prompt": "An insurance ________ acts as an intermediary between the client and the insurance company.",
-      "options": ["broker", "underwriter", "actuary", "adjuster"],
-      "answerIndex": 0,
-      "explanation": "Brokers represent the interests of the clients."
+      "prompt": "Which macro-environmental factor would 'rising interest rates' fall under in a PESTLE analysis?",
+      "options": ["Political", "Economic", "Social", "Technological"],
+      "answerIndex": 1,
+      "explanation": "Interest rates are an Economic factor."
     },
     {
-      "id": "fin-b2-w19-26",
-      "type": "multipleChoice",
-      "prompt": "The damage to the building ________ by a professional appraiser.",
-      "options": ["was assessed", "assessed", "is assess", "were assessed"],
-      "answerIndex": 0,
-      "explanation": "Past passive: 'was assessed'."
+      "id": "adm-b2-w19-11",
+      "type": "fillBlanks",
+      "prompt": "Complete with a mixed conditional: If I [were] (be) the CEO, I would have signed that contract yesterday.",
+      "text": "If I [were] the CEO, I would have signed that contract yesterday.",
+      "answers": ["were", "was"],
+      "explanation": "Mixed conditional: Present state (being CEO) affecting a past action."
     },
     {
-      "id": "fin-b2-w19-27",
+      "id": "adm-b2-w19-12",
       "type": "multipleChoice",
-      "prompt": "Professional ________ insurance protects doctors and lawyers against lawsuits.",
-      "options": ["indemnity", "property", "health", "life"],
+      "prompt": "________ involves comparing our administrative processes with the best practices of industry leaders.",
+      "options": ["Benchmarking", "SWOT", "Alignment", "Fatigue"],
       "answerIndex": 0,
-      "explanation": "Professional indemnity (or malpractice) insurance covers legal liability for professional errors."
+      "explanation": "Benchmarking is the process of comparing performance against standards or competitors."
     },
     {
-      "id": "fin-b2-w19-28",
+      "id": "adm-b2-w19-13",
       "type": "multipleChoice",
-      "prompt": "All medical records ________ strictly confidential by the insurer.",
-      "options": ["are kept", "is kept", "keep", "keeping"],
-      "answerIndex": 0,
-      "explanation": "Present passive: 'are kept'."
+      "prompt": "If they ________ more time on stakeholder engagement, the current protests from the local community wouldn't be happening.",
+      "options": ["spent", "had spent", "would spend", "have spent"],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: Past action (had spent time) affecting a present situation (wouldn't be happening)."
     },
     {
-      "id": "fin-b2-w19-29",
+      "id": "adm-b2-w19-14",
       "type": "multipleChoice",
-      "prompt": "The ________ period is the time between the start of the policy and when coverage begins.",
-      "options": ["waiting", "running", "working", "sleeping"],
-      "answerIndex": 0,
-      "explanation": "A waiting period is common in health and disability insurance."
+      "prompt": "Which of these is an example of an external 'Threat' in a SWOT analysis?",
+      "options": ["Inadequate training budget", "Strong brand recognition", "New market entrants", "High employee turnover"],
+      "answerIndex": 2,
+      "explanation": "New market entrants are an external threat."
     },
     {
-      "id": "fin-b2-w19-30",
+      "id": "adm-b2-w19-15",
       "type": "multipleChoice",
-      "prompt": "The terms of the contract ________ clearly in the document.",
-      "options": ["are stated", "is stated", "states", "stating"],
-      "answerIndex": 0,
-      "explanation": "Present passive: 'are stated'."
-    },
-    {
-      "id": "fin-b2-w19-31",
-      "type": "multipleChoice",
-      "prompt": "If a claim is ________, the policyholder can usually file an appeal.",
-      "options": ["denied", "accepted", "ignored", "forgotten"],
-      "answerIndex": 0,
-      "explanation": "'Denied' is the formal term for rejecting a claim."
-    },
-    {
-      "id": "fin-b2-w19-32",
-      "type": "multipleChoice",
-      "prompt": "Cyber ________ insurance is becoming increasingly important for modern businesses.",
-      "options": ["liability", "premium", "actuary", "underwriting"],
-      "answerIndex": 0,
-      "explanation": "Cyber liability insurance covers losses from data breaches and other cyber threats."
-    },
-    {
-      "id": "fin-b2-w19-33",
-      "type": "multipleChoice",
-      "prompt": "The annual report ________ to the board of directors next month.",
-      "options": ["will be presented", "will present", "presents", "is present"],
-      "answerIndex": 0,
-      "explanation": "Future passive: 'will be presented'."
-    },
-    {
-      "id": "fin-b2-w19-34",
-      "type": "multipleChoice",
-      "prompt": "A ________ is a person named in a life insurance policy to receive the death benefit.",
-      "options": ["beneficiary", "policyholder", "underwriter", "actuary"],
-      "answerIndex": 0,
-      "explanation": "The beneficiary receives the payout."
-    },
-    {
-      "id": "fin-b2-w19-35",
-      "type": "multipleChoice",
-      "prompt": "The application ________ due to incomplete information.",
-      "options": ["was rejected", "is reject", "rejected", "were rejected"],
-      "answerIndex": 0,
-      "explanation": "Past passive: 'was rejected'."
-    },
-    {
-      "id": "fin-b2-w19-36",
-      "type": "multipleChoice",
-      "prompt": "Maritime insurance ________ to cover risks related to shipping and transport by sea.",
-      "options": ["is designed", "designs", "are designed", "designing"],
-      "answerIndex": 0,
-      "explanation": "Present passive: 'is designed'."
-    },
-    {
-      "id": "fin-b2-w19-37",
-      "type": "multipleChoice",
-      "prompt": "The ________ is the amount the insurance company pays out for a covered loss.",
-      "options": ["payout", "premium", "deductible", "commission"],
-      "answerIndex": 0,
-      "explanation": "Payout refers to the actual payment made on a claim."
-    },
-    {
-      "id": "fin-b2-w19-38",
-      "type": "multipleChoice",
-      "prompt": "Staff training ________ every six months to ensure compliance.",
-      "options": ["is conducted", "conducts", "are conducted", "conducting"],
-      "answerIndex": 0,
-      "explanation": "Present passive: 'is conducted'."
-    },
-    {
-      "id": "fin-b2-w19-39",
-      "type": "multipleChoice",
-      "prompt": "Travel insurance usually includes ________ for trip cancellations and medical emergencies.",
-      "options": ["coverage", "premium", "deductible", "interest"],
-      "answerIndex": 0,
-      "explanation": "Coverage refers to the protections included in the policy."
-    },
-    {
-      "id": "fin-b2-w19-40",
-      "type": "multipleChoice",
-      "prompt": "The customer ________ about the changes in the policy terms.",
-      "options": ["was informed", "informed", "is inform", "were informed"],
-      "answerIndex": 0,
-      "explanation": "Past passive: 'was informed'."
-    },
-    {
-      "id": "fin-b2-w19-41",
-      "type": "multipleChoice",
-      "prompt": "An insurance ________ is a legal document that outlines the terms of the agreement.",
-      "options": ["policy", "bill", "receipt", "memo"],
-      "answerIndex": 0,
-      "explanation": "The policy is the official contract."
-    },
-    {
-      "id": "fin-b2-w19-42",
-      "type": "multipleChoice",
-      "prompt": "The risks of natural disasters ________ by global climate patterns.",
-      "options": ["are influenced", "is influenced", "influences", "influencing"],
-      "answerIndex": 0,
-      "explanation": "Present passive: 'are influenced' (plural)."
-    },
-    {
-      "id": "fin-b2-w19-43",
-      "type": "multipleChoice",
-      "prompt": "A ________ sum is a one-time payment instead of a series of smaller payments.",
-      "options": ["lump", "flat", "big", "total"],
-      "answerIndex": 0,
-      "explanation": "A 'lump sum' is a common term for a single large payment."
-    },
-    {
-      "id": "fin-b2-w19-44",
-      "type": "multipleChoice",
-      "prompt": "The new legislation ________ by the parliament last week.",
-      "options": ["was passed", "is passed", "passed", "were passed"],
-      "answerIndex": 0,
-      "explanation": "Past passive: 'was passed'."
-    },
-    {
-      "id": "fin-b2-w19-45",
-      "type": "multipleChoice",
-      "prompt": "________ insurance covers damage to your own vehicle regardless of who is at fault.",
-      "options": ["Collision", "Liability", "Health", "Life"],
-      "answerIndex": 0,
-      "explanation": "Collision insurance covers damage to the insured's vehicle."
-    },
-    {
-      "id": "fin-b2-w19-46",
-      "type": "multipleChoice",
-      "prompt": "The files ________ to the cloud server every night.",
-      "options": ["are uploaded", "is uploaded", "uploads", "uploading"],
-      "answerIndex": 0,
-      "explanation": "Present passive: 'are uploaded' (plural)."
-    },
-    {
-      "id": "fin-b2-w19-47",
-      "type": "multipleChoice",
-      "prompt": "A ________ of insurance is a document that proves you have active coverage.",
-      "options": ["certificate", "receipt", "ticket", "coupon"],
-      "answerIndex": 0,
-      "explanation": "A certificate of insurance is a standard proof of coverage."
-    },
-    {
-      "id": "fin-b2-w19-48",
-      "type": "multipleChoice",
-      "prompt": "The final decision ________ by the senior underwriter tomorrow.",
-      "options": ["will be made", "will make", "makes", "is make"],
-      "answerIndex": 0,
-      "explanation": "Future passive: 'will be made'."
-    },
-    {
-      "id": "fin-b2-w19-49",
-      "type": "multipleChoice",
-      "prompt": "Group ________ insurance is a common benefit provided by employers.",
-      "options": ["health", "car", "home", "pet"],
-      "answerIndex": 0,
-      "explanation": "Group health insurance is a standard employee benefit."
-    },
-    {
-      "id": "fin-b2-w19-50",
-      "type": "multipleChoice",
-      "prompt": "The insurance industry ________ as one of the most stable sectors in the economy.",
-      "options": ["is regarded", "regards", "are regarded", "regarding"],
-      "answerIndex": 0,
-      "explanation": "Present passive: 'is regarded'."
+      "prompt": "Organisational ________ allows a company to pivot quickly when the market environment changes suddenly.",
+      "options": ["fatigue", "agility", "alignment", "PESTLE"],
+      "answerIndex": 1,
+      "explanation": "Agility is the ability to adapt and succeed in a changing environment."
     }
   ]
 }

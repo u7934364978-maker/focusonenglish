@@ -3,119 +3,150 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana08",
-  "title": "Change Management & Innovation",
-  "description": "Vocabulary for organizational change and modal verbs for deduction about past outcomes.",
+  "title": "Exercises: Change Management & Innovation",
   "items": [
     {
-      "id": "admin-b2-w8-q1",
+      "id": "adm-b2-w8-ex01",
+      "type": "reading-comprehension",
+      "title": "Exercise 1: Change Announcement (Doc A)",
+      "text": "Doc A — Internal Announcement: Transition to Paperless Office\n\nDear Team,\n\nWe are excited to announce a strategic pivot in our administrative operations. Starting next month, we will be transitioning to a fully paperless filing system. This move is designed to streamline our workflows and eliminate the frequent bottlenecks we've experienced with physical document retrieval.\n\nWe understand that some staff might have concerns about this transition. To ensure buy-in and address any initial resistance, we will be providing a series of workshops. We should have implemented this earlier, but we are confident that this incremental change will lead to a more agile office environment.\n\nUnder no circumstances will physical files be accepted after the 15th. We must have consulted the IT department properly, as the new server is already live and tested.",
+      "questions": [
+        {
+          "question": "What is the primary goal of transitioning to a paperless system according to Doc A?",
+          "options": ["To save money on pens.", "To streamline workflows and eliminate bottlenecks.", "To make the office look more modern."],
+          "answerIndex": 1,
+          "explanation": "Doc A states the move is designed to 'streamline our workflows and eliminate the frequent bottlenecks'."
+        },
+        {
+          "question": "How does the management plan to handle staff concerns and ensure 'buy-in'?",
+          "options": ["By ignoring the concerns.", "By providing a series of workshops.", "By firing staff who resist."],
+          "answerIndex": 1,
+          "explanation": "Doc A mentions: 'To ensure buy-in and address any initial resistance, we will be providing a series of workshops.'"
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex02",
       "type": "multipleChoice",
+      "prompt": "Exercise 2: Change Concepts. What does it mean to 'pivot' in a business strategy?",
       "options": [
-        "Resistance",
-        "Buy-in",
-        "Pivot",
-        "Bottleneck"
+        "To stay exactly the same for 10 years.",
+        "To change strategy or direction quickly in response to new info.",
+        "To rotate the office furniture.",
+        "To fire the whole management team."
       ],
-      "explanation": "Buy-in refers to the support and agreement from stakeholders for a change.",
       "answerIndex": 1,
-      "prompt": "Which term describes getting support and agreement from staff before implementing a new policy?"
+      "explanation": "To 'pivot' means to change strategy or direction quickly based on new conditions."
     },
     {
-      "id": "admin-b2-w8-q2",
-      "type": "fillBlanks",
-      "explanation": "Modal for high certainty (deduction): must have + past participle.",
-      "prompt": "The server crashed during the update. They ________ (must / not / test) it properly beforehand.",
-      "answers": [
-        "must not have tested"
-      ]
-    },
-    {
-      "id": "admin-b2-w8-q3",
+      "id": "adm-b2-w8-ex03",
       "type": "multipleChoice",
+      "prompt": "Exercise 3: Innovation Vocabulary. Which term describes a change that 'completely changes' the way an industry works?",
       "options": [
-        "To streamline",
-        "To pivot",
-        "To disrupt",
-        "To incremental"
-      ],
-      "explanation": "To streamline means to simplify processes to increase efficiency.",
-      "answerIndex": 0,
-      "prompt": "If a process has too many unnecessary steps, we need to ________ it."
-    },
-    {
-      "id": "admin-b2-w8-q4",
-      "type": "fillBlanks",
-      "explanation": "Modal for possibility in the past: might/could have + past participle.",
-      "prompt": "I'm not sure why the staff were unhappy. They ________ (might / feel) left out of the decision-making process.",
-      "answers": [
-        "might have felt",
-        "could have felt"
-      ]
-    },
-    {
-      "id": "admin-b2-w8-q5",
-      "type": "multipleChoice",
-      "options": [
-        "Disruptive",
         "Incremental",
         "Agile",
-        "Streamlined"
+        "Disruptive",
+        "Bottleneck"
       ],
-      "explanation": "Incremental changes are small, gradual improvements.",
-      "answerIndex": 1,
-      "prompt": "Which type of innovation involves making small, continuous improvements over time?"
+      "answerIndex": 2,
+      "explanation": "'Disruptive' innovation completely changes how a process or industry works."
     },
     {
-      "id": "admin-b2-w8-q6",
-      "type": "fillBlanks",
-      "explanation": "A bottleneck is a point of congestion or delay.",
-      "prompt": "The legal department is a major ________ in our approval process; everything slows down there.",
-      "answers": [
-        "bottleneck"
-      ]
-    },
-    {
-      "id": "admin-b2-w8-q7",
+      "id": "adm-b2-w8-ex04",
       "type": "multipleChoice",
+      "prompt": "Exercise 4: Change Vocabulary. Complete the sentence: 'We need to ___ our processes to avoid a ___ at the approval stage.'",
       "options": [
-        "Must have",
-        "Should have",
-        "Might have",
-        "Can't have"
+        "pivot / buy-in",
+        "streamline / bottleneck",
+        "resistance / transparency",
+        "incentivise / agile"
       ],
-      "explanation": "'Should have' is used to express regret or criticism about a past action that didn't happen.",
       "answerIndex": 1,
-      "prompt": "Which modal is used to express that a past action was a good idea but wasn't performed?"
+      "explanation": "You 'streamline' processes to avoid a 'bottleneck'."
     },
     {
-      "id": "admin-b2-w8-q8",
-      "type": "fillBlanks",
-      "explanation": "To pivot means to change direction or strategy.",
-      "prompt": "When the new regulations were announced, the company had to ________ its entire operational strategy.",
-      "answers": [
-        "pivot"
-      ]
+      "id": "adm-b2-w8-ex05",
+      "type": "writingTask",
+      "prompt": "Exercise 5: Modals for Deduction. Speculate about why a past project failed using 'must have' (high certainty): 'The project failed. There was no budget.'",
+      "modelAnswer": "The project must have failed because there was no budget.",
+      "keywords": ["must have", "failed"]
     },
     {
-      "id": "admin-b2-w8-q9",
+      "id": "adm-b2-w8-ex06",
+      "type": "writingTask",
+      "prompt": "Exercise 6: Modals for Deduction. Express regret about a past decision using 'should have': 'We didn't train the staff. Now they are confused.'",
+      "modelAnswer": "We should have trained the staff to avoid this confusion.",
+      "keywords": ["should have", "trained"]
+    },
+    {
+      "id": "adm-b2-w8-ex07",
+      "type": "writingTask",
+      "prompt": "Exercise 7: Extracting Action Points. Based on Doc A, list the 2 main actions the company is taking to ensure the transition is successful.",
+      "modelAnswer": "1. Transitioning to a paperless filing system next month.\n2. Providing a series of workshops for staff training.",
+      "keywords": ["paperless", "workshops"]
+    },
+    {
+      "id": "adm-b2-w8-ex08",
       "type": "multipleChoice",
+      "prompt": "Exercise 8: Courtesy Modals. Which is the most professional way to ask for 'buy-in' for a new office policy?",
       "options": [
-        "Must have",
-        "Can't have",
-        "Should have",
-        "Might have"
+        "You have to support this new rule.",
+        "I'd like to gather your feedback on the proposed policy to ensure we have team buy-in before we go live. Would you be able to share your thoughts by Friday?",
+        "Don't resist the change, it's useless.",
+        "Sign this if you agree to the new policy."
       ],
-      "explanation": "'Can't have' is used for negative deduction (certainty that something did not happen).",
       "answerIndex": 1,
-      "prompt": "Which modal expresses certainty that an event DID NOT occur?"
+      "explanation": "This option is polite, values feedback, and explains the goal of achieving 'buy-in'."
     },
     {
-      "id": "admin-b2-w8-q10",
-      "type": "fillBlanks",
-      "explanation": "Transparency is essential for reducing resistance.",
-      "prompt": "To reduce ________ to change, management should maintain high levels of ________.",
-      "answers": [
-        "resistance / transparency"
-      ]
+      "id": "adm-b2-w8-ex09",
+      "type": "writingTask",
+      "prompt": "Exercise 9: Follow-up Email. Write a 50-word email to your team addressing 'initial resistance' to a new software. Focus on 'transparency'.",
+      "modelAnswer": "Hi team, I understand there is some initial resistance to the new CRM. I want to be transparent: we are making this pivot because the old system was creating a bottleneck in our reporting. We will have training sessions next week to support you. Thanks, Alex",
+      "keywords": ["resistance", "transparent", "pivot", "bottleneck"]
+    },
+    {
+      "id": "adm-b2-w8-ex10",
+      "type": "multipleChoice",
+      "prompt": "Exercise 10: Operational Logic. If you make 'small, gradual improvements over time', what type of innovation is this?",
+      "options": ["Disruptive", "Incremental", "Agile", "Stagnant"],
+      "answerIndex": 1,
+      "explanation": "'Incremental' innovation refers to small, gradual improvements."
+    },
+    {
+      "id": "adm-b2-w8-ex11",
+      "type": "writingTask",
+      "prompt": "Exercise 11: Oral Proposal Prep. Prepare a script for a 3-minute proposal to 'streamline' the expense claim process. Use the terms: 'bottleneck', 'buy-in', and 'pivot'.",
+      "modelAnswer": "[Audio Upload Required] Rubric: Persuasive, Use of Key Terms, Professional Tone.",
+      "keywords": ["bottleneck", "buy-in", "pivot", "streamline"]
+    },
+    {
+      "id": "adm-b2-w8-ex12",
+      "type": "writingTask",
+      "prompt": "Exercise 12: Oral Speculation. Record a 90-second audio speculating about why the office relocation was delayed. Use 'might have', 'could have', and 'should have'.",
+      "modelAnswer": "[Audio Upload Required] Checklist: Modal accuracy, Logical speculation, Formal tone.",
+      "keywords": ["might have", "could have", "should have"]
+    },
+    {
+      "id": "adm-b2-w8-ex13",
+      "type": "writingTask",
+      "prompt": "Exercise 13: Change Proposal (Portfolio). Write a 200-word proposal to change the office 'Morning Check-in' to an 'Agile Stand-up'. Use 'streamline' and 'must have'.",
+      "modelAnswer": "Proposal: Transition to Agile Stand-ups\n\nWe are proposing to streamline our morning communications by pivoting from our current 30-minute sit-down meetings to a 10-minute 'Agile Stand-up'. The current format has become a bottleneck, often delaying the start of core tasks. \n\nWe believe the previous format must have failed to maintain focus due to its length. To ensure buy-in, we will trial this for two weeks. We should have implemented this sooner to increase our team's agility. We anticipate some initial resistance, but the benefit of a more efficient start to the day will be clear. Only after the trial period will we make a final decision.",
+      "keywords": ["streamline", "pivot", "bottleneck", "must have", "buy-in"]
+    },
+    {
+      "id": "adm-b2-w8-ex14",
+      "type": "writingTask",
+      "prompt": "Exercise 14: Change Impact Table. Complete a table for a 'New CRM' implementation. Include: Current State | Future State | Potential Resistance.",
+      "modelAnswer": "Current State: Manual Excel tracking. Future State: Automated CRM dashboard. Potential Resistance: Lack of technical skills / Fear of data loss.",
+      "keywords": ["Excel", "CRM", "Resistance"]
+    },
+    {
+      "id": "adm-b2-w8-ex15",
+      "type": "writingTask",
+      "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Buy-in'. 2) What is a 'Bottleneck'? 3) Speculate (low certainty): 'They / forget / the meeting'. 4) Complete: 'We ___ have implemented this last month.' (Regret).",
+      "modelAnswer": "1) Agreement and support from stakeholders. 2) A point where a process is restricted, causing delays. 3) They might have forgotten the meeting. 4) We should have implemented this last month.",
+      "keywords": ["stakeholders", "delays", "might have", "should have"]
     }
   ]
 }

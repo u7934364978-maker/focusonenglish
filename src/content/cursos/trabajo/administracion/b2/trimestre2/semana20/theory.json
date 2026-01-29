@@ -1,29 +1,25 @@
 {
-  "title": "Derivados: Opciones y Futuros (Derivatives)",
+  "title": "Corporate Sustainability & Ethics",
   "sections": [
     {
-      "id": "derivatives-vocab",
-      "title": "Vocabulario: Instrumentos de Derivados y Estrategias",
-      "content": "En el nivel B2, profundizamos en los instrumentos derivados, que son contratos cuyo valor deriva de un activo subyacente.\n\n- **Underlying Asset**: Activo subyacente (ej. acciones, oro, tipos de interés).\n- **Call Option**: Opción de compra (derecho a comprar).\n- **Put Option**: Opción de venta (derecho a vender).\n- **Futures Contract**: Acuerdo vinculante para comprar/vender en el futuro a un precio fijado.\n- **Forward Contract**: Similar al futuro pero personalizado y no negociado en bolsa.\n- **Strike Price / Exercise Price**: Precio al que se puede ejecutar la opción.\n- **At-the-money / In-the-money / Out-of-the-money**: Términos para describir la rentabilidad de una opción respecto al precio actual.\n- **Premium**: El coste de adquirir la opción.\n- **Leverage**: Apalancamiento (uso de derivados para controlar grandes posiciones con poco capital).\n- **Arbitrage**: Aprovechar diferencias de precio en distintos mercados."
+      "id": "vocab",
+      "title": "CSR & Ethical Administration",
+      "content": "Modern administration requires a focus on Corporate Social Responsibility (CSR) and ethical decision-making to ensure long-term viability and positive brand reputation.\n\n- **Triple Bottom Line**: An accounting framework with three parts: social, environmental (or ecological), and financial (Profit, People, Planet).\n- **Carbon Footprint**: The total amount of greenhouse gases produced to directly and indirectly support organisational activities.\n- **Ethical Sourcing**: Ensuring that the products/services being sourced are created in safe facilities by workers who are treated fairly.\n- **Greenwashing**: Disinformation disseminated by an organisation so as to present an environmentally responsible public image.\n- **Sustainability Report**: A report published by a company or organisation about the economic, environmental, and social impacts caused by its everyday activities.\n- **Whistleblowing**: The disclosure by a person, usually an employee, in an organisation of management misconduct or illegal activities."
     },
     {
-      "id": "derivatives-grammar",
-      "title": "Gramática: Third Conditional para Análisis Retrospectivo",
-      "content": "El **Third Conditional** es vital para el análisis de riesgos y la evaluación de decisiones pasadas. Se refiere a situaciones hipotéticas en el pasado.\n\n**Estructura:** If + Past Perfect, would have + past participle\n\n- **Análisis de pérdida**: \"If we **had hedged** our exposure, we **wouldn't have suffered** such losses.\"\n- **Oportunidad perdida**: \"If the premium **had been** cheaper, the fund **would have bought** more calls.\"\n- **Escenario de mercado**: \"What **would have happened** if the volatility **had spiked** earlier?\"\n\n*Recuerda: El tercer condicional trata sobre lo que NO sucedió.*"
-    },
-    {
-      "id": "hedging-mechanics",
-      "title": "Mecánica de la Cobertura (Hedging Mechanics)",
-      "content": "Las empresas usan derivados principalmente para la gestión de riesgos (Hedging):\n1. **Price Protection**: Fijar precios de materias primas.\n2. **Currency Hedging**: Protegerse contra la fluctuación de divisas en contratos internacionales.\n3. **Interest Rate Swaps**: Cambiar tipos variables por fijos para asegurar pagos estables.\n\nExpresiones clave:\n- \"To offset a risk\" (Compensar un riesgo).\n- \"To lock in a price\" (Asegurar/fijar un precio).\n- \"To mitigate downside risk\" (Mitigar el riesgo de pérdida)."
+      "id": "grammar",
+      "title": "Advanced Modals of Deduction (Past)",
+      "content": "Modal verbs + 'have' + past participle are used to express varying degrees of certainty about past events in a professional context.\n\n- **Must have + past participle**: Used when we are almost certain that something happened.\n  *Example:* \"The auditor **must have found** an error; the board has called an emergency meeting.\"\n- **Could / Might have + past participle**: Used to express possibility or a past opportunity that wasn't taken.\n  *Example:* \"We **could have reduced** our waste last year if we had implemented the new recycling protocol.\"\n- **Can't have + past participle**: Used when we are almost certain that something did NOT happen.\n  *Example:* \"The manager **can't have approved** this expense; it exceeds his limit.\"\n- **Should have + past participle**: Used to express regret or criticism about a past action.\n  *Example:* \"We **should have audited** the supplier's ethical standards before signing the contract.\""
     }
   ],
   "objectives": [
-    "Diferenciar entre opciones Call y Put",
-    "Comprender la mecánica de los contratos de futuros",
-    "Utilizar el tercer condicional para realizar análisis retrospectivos de riesgo"
+    "Define and apply the 'Triple Bottom Line' concept in administrative decisions",
+    "Identify 'greenwashing' and its risks to corporate reputation",
+    "Use modal verbs to speculate on past administrative errors or missed opportunities",
+    "Discuss the importance of whistleblowing policies in corporate governance"
   ],
   "keyTerms": [
-    { "term": "Call Option", "definition": "A financial contract that gives the buyer the right to buy an asset at a specified price." },
-    { "term": "Underlying Asset", "definition": "The financial instrument upon which a derivative's price is based." }
+    { "term": "Circular Economy", "definition": "An economic system aimed at eliminating waste and the continual use of resources." },
+    { "term": "Net Zero", "definition": "A state in which the greenhouse gases going into the atmosphere are balanced by removal out of the atmosphere." }
   ]
 }

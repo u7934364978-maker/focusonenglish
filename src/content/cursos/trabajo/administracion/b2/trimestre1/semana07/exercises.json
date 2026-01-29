@@ -3,121 +3,150 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana07",
-  "title": "Conflict Resolution & Constructive Feedback",
-  "description": "Vocabulary for mediation, consensus building, and mixed conditionals for analyzing office dynamics.",
+  "title": "Exercises: Conflict Resolution & Constructive Feedback",
   "items": [
     {
-      "id": "admin-b2-w7-q1",
+      "id": "adm-b2-w7-ex01",
+      "type": "reading-comprehension",
+      "title": "Exercise 1: Conflict Resolution Memo (Doc A)",
+      "text": "Doc A — Mediation Summary: Team X and Team Y\n\nBackground: Friction has developed between the Logistics and Procurement teams regarding the new vendor vetting process. Procurement feels that Logistics is bypassing the SOP, while Logistics claims the current process is causing a stalemate in deliveries.\n\nResolution Meeting Summary:\n- Both parties agreed to seek common ground to de-escalate the tension.\n- Logistics acknowledged that if they had followed the SOP more closely, the current audit friction wouldn't exist (Mixed Conditional).\n- Procurement agreed to meet halfway by streamlining the approval form.\n- A consensus was reached to review the process monthly to avoid future stalemates.\n\nAction: Sarah (Procurement) and John (Logistics) to draft the revised form by Friday EOD.",
+      "questions": [
+        {
+          "question": "What was the main cause of the 'friction' between the two teams?",
+          "options": ["A disagreement over the office holiday schedule.", "Disagreements regarding the new vendor vetting process.", "A personal argument between Sarah and John."],
+          "answerIndex": 1,
+          "explanation": "Doc A states friction developed regarding 'the new vendor vetting process'."
+        },
+        {
+          "question": "What solution did the teams agree on to resolve the issue?",
+          "options": ["To ignore the SOP entirely.", "To reach a stalemate.", "To seek common ground and meet halfway by streamlining the form."],
+          "answerIndex": 2,
+          "explanation": "Doc A mentions they agreed to 'seek common ground' and 'meet halfway by streamlining the approval form'."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w7-ex02",
       "type": "multipleChoice",
+      "prompt": "Exercise 2: Conflict Strategies. What is 'Mediation' in a professional context?",
       "options": [
-        "To escalate",
-        "To de-escalate",
-        "To reach a stalemate",
-        "To take accountability"
+        "A formal punishment for bad behavior.",
+        "A neutral third party helping others resolve a dispute.",
+        "A long holiday to avoid conflict.",
+        "Winning an argument at all costs."
       ],
-      "explanation": "To de-escalate means to reduce the intensity or severity of a conflict.",
       "answerIndex": 1,
-      "prompt": "Which term describes the act of reducing the intensity of a workplace conflict?"
+      "explanation": "Mediation is the process of a neutral third party helping resolve a dispute."
     },
     {
-      "id": "admin-b2-w7-q2",
-      "type": "fillBlanks",
-      "explanation": "Mixed Conditional (Past Action -> Present Result): If + Past Perfect, would + bare infinitive.",
-      "prompt": "If the manager ________ (address) the tension in the team last month, we ________ (not / face) this stalemate today.",
-      "answers": [
-        "had addressed / wouldn't be facing",
-        "had addressed / would not be facing"
-      ]
-    },
-    {
-      "id": "admin-b2-w7-q3",
+      "id": "adm-b2-w7-ex03",
       "type": "multipleChoice",
+      "prompt": "Exercise 3: Feedback Frameworks. According to the ASK framework, feedback should be:",
       "options": [
-        "Grievance",
-        "Consensus",
-        "Friction",
-        "Accountability"
+        "Aggressive, Short, and Keen",
+        "Actionable, Specific, and Kind",
+        "Angry, Silent, and Known",
+        "Always, Sometimes, and Kind"
       ],
-      "explanation": "A grievance is a formal complaint raised by an employee.",
-      "answerIndex": 0,
-      "prompt": "What is the formal term for a complaint raised by an employee regarding their treatment?"
+      "answerIndex": 1,
+      "explanation": "The ASK framework stands for Actionable, Specific, and Kind."
     },
     {
-      "id": "admin-b2-w7-q4",
-      "type": "fillBlanks",
-      "explanation": "Mixed Conditional (Present Condition -> Past Result): If + Past Simple, would have + past participle.",
-      "prompt": "If he ________ (be) more open to feedback, he ________ (not / react) so defensively during the performance review yesterday.",
-      "answers": [
-        "were / wouldn't have reacted",
-        "was / wouldn't have reacted",
-        "were / would not have reacted"
-      ]
-    },
-    {
-      "id": "admin-b2-w7-q5",
+      "id": "adm-b2-w7-ex04",
       "type": "multipleChoice",
+      "prompt": "Exercise 4: Conflict Vocabulary. Complete the sentence: 'We have reached a ___, so we need to find ___ to move forward.'",
       "options": [
-        "Meeting halfway",
-        "Seeking common ground",
-        "Reaching a stalemate",
-        "Building consensus"
+        "consensus / friction",
+        "stalemate / common ground",
+        "feedback / mediation",
+        "grievance / accountability"
       ],
-      "explanation": "A stalemate is a situation where no progress or agreement can be reached.",
+      "answerIndex": 1,
+      "explanation": "A 'stalemate' means no progress, so you need 'common ground' to proceed."
+    },
+    {
+      "id": "adm-b2-w7-ex05",
+      "type": "writingTask",
+      "prompt": "Exercise 5: 'I' Statements. Rewrite this accusatory sentence as a professional 'I' statement: 'You always interrupt me in meetings.'",
+      "modelAnswer": "I feel frustrated when I am interrupted in meetings because it is difficult to finish my point.",
+      "keywords": ["I feel", "when", "because"]
+    },
+    {
+      "id": "adm-b2-w7-ex06",
+      "type": "writingTask",
+      "prompt": "Exercise 6: Mixed Conditionals. Complete this sentence to analyze a past mistake (Past Action -> Present Result): 'If we ___ (address) the software bug last week, we ___ (not/be) in this crisis today.'",
+      "modelAnswer": "If we had addressed the software bug last week, we wouldn't be in this crisis today.",
+      "keywords": ["had addressed", "wouldn't be"]
+    },
+    {
+      "id": "adm-b2-w7-ex07",
+      "type": "writingTask",
+      "prompt": "Exercise 7: Extracting Action Points. Based on Doc A, list the specific action assigned and its deadline.",
+      "modelAnswer": "Action: Sarah and John to draft the revised form. Deadline: Friday EOD.",
+      "keywords": ["draft", "form", "Friday EOD"]
+    },
+    {
+      "id": "adm-b2-w7-ex08",
+      "type": "multipleChoice",
+      "prompt": "Exercise 8: Courtesy Modals. Which is the most professional way to invite a colleague to a mediation meeting?",
+      "options": [
+        "You must come to a meeting to fix your attitude.",
+        "I'd like to invite you to a brief session to seek common ground on the vetting process. Would Tuesday at 10am work for you?",
+        "Why aren't you talking to Sarah?",
+        "Mediation meeting: Tuesday 10am. Be there."
+      ],
+      "answerIndex": 1,
+      "explanation": "This option is diplomatic, focuses on 'common ground', and uses a polite modal."
+    },
+    {
+      "id": "adm-b2-w7-ex09",
+      "type": "writingTask",
+      "prompt": "Exercise 9: Follow-up Email. Write a 50-word email to a colleague summarizing a 'consensus' reached after a disagreement about office seating.",
+      "modelAnswer": "Hi team, following our discussion, I’m pleased we’ve reached a consensus on the new seating plan. We’ve agreed to meet halfway by implementing a rotating desk policy. Thanks to everyone for seeking common ground to de-escalate the tension. Best, [Your Name]",
+      "keywords": ["consensus", "meet halfway", "common ground", "de-escalate"]
+    },
+    {
+      "id": "adm-b2-w7-ex10",
+      "type": "multipleChoice",
+      "prompt": "Exercise 10: Operational Logic. If an employee raises a formal complaint about their treatment, this is known as a:",
+      "options": ["Performance review", "Consensus", "Grievance", "Mediation"],
       "answerIndex": 2,
-      "prompt": "Which phrase indicates that a negotiation has stopped because neither side will give in?"
+      "explanation": "A 'Grievance' is a formal procedure for raising a complaint about treatment or conditions."
     },
     {
-      "id": "admin-b2-w7-q6",
-      "type": "fillBlanks",
-      "explanation": "'Common ground' refers to shared interests or points of agreement.",
-      "prompt": "Despite their differences, the two departments managed to find some ________ ________ regarding the new office policy.",
-      "answers": [
-        "common ground"
-      ]
+      "id": "adm-b2-w7-ex11",
+      "type": "writingTask",
+      "prompt": "Exercise 11: Oral Feedback Prep. Prepare a script for a 3-minute feedback session with a junior colleague using the 'ASK' framework. Focus on their 'report accuracy' but remain 'Kind'.",
+      "modelAnswer": "[Audio Upload Required] Rubric: Actionable, Specific, Kind, Professional phrasing.",
+      "keywords": ["Actionable", "Specific", "Kind"]
     },
     {
-      "id": "admin-b2-w7-q7",
-      "type": "multipleChoice",
-      "options": [
-        "\"You are being very difficult.\"",
-        "\"I feel that communication could be clearer.\"",
-        "\"Your work is always late.\"",
-        "\"You need to change your attitude.\""
-      ],
-      "explanation": "Diplomatic language uses 'I' statements and focuses on neutral, objective observations.",
-      "answerIndex": 1,
-      "prompt": "Which of the following is an example of diplomatic, non-accusatory feedback?"
+      "id": "adm-b2-w7-ex12",
+      "type": "writingTask",
+      "prompt": "Exercise 12: Oral Mediation. Record a 90-second audio attempting to de-escalate a situation where two colleagues are arguing about a shared printer. Use 'I' statements and seek 'common ground'.",
+      "modelAnswer": "[Audio Upload Required] Checklist: De-escalation vocabulary, 'I' statements, Consensus-seeking.",
+      "keywords": ["feel", "common ground", "agree"]
     },
     {
-      "id": "admin-b2-w7-q8",
-      "type": "fillBlanks",
-      "explanation": "Radical Candor involves challenging directly while caring personally.",
-      "prompt": "According to the Radical Candor framework, feedback is most effective when you challenge someone ________ while caring ________.",
-      "answers": [
-        "directly / personally"
-      ]
+      "id": "adm-b2-w7-ex13",
+      "type": "writingTask",
+      "prompt": "Exercise 13: Conflict Analysis (Portfolio). Write a 200-word analysis of a hypothetical office conflict (e.g., air conditioning settings). Use at least two mixed conditionals and the term 'stalemate'.",
+      "modelAnswer": "The conflict regarding the office temperature has reached a stalemate. If we had consulted the whole team before setting the thermostat to 18 degrees, we wouldn't be facing this level of friction now. One group feels it is too cold, while others find it comfortable. If the office were a more modern building with individual climate zones, we would have avoided this issue in the past. Moving forward, I suggest we meet halfway by setting it to 21 degrees during the morning and reviewing the consensus on Friday.",
+      "keywords": ["stalemate", "If we had", "wouldn't be", "meet halfway"]
     },
     {
-      "id": "admin-b2-w7-q9",
-      "type": "multipleChoice",
-      "options": [
-        "Mediation",
-        "Consensus",
-        "Accountability",
-        "Grievance"
-      ],
-      "explanation": "Mediation is the process where a neutral third party helps resolve a dispute.",
-      "answerIndex": 0,
-      "prompt": "When two employees cannot resolve a conflict themselves, HR might step in to provide ________."
+      "id": "adm-b2-w7-ex14",
+      "type": "writingTask",
+      "prompt": "Exercise 14: Feedback Template. Complete a 'Start, Stop, Continue' table for a colleague's communication style. (1 item for each).",
+      "modelAnswer": "Start: Using 'I' statements in emails. Stop: Sending urgent requests after 5pm. Continue: Providing specific action points in minutes.",
+      "keywords": ["Start", "Stop", "Continue"]
     },
     {
-      "id": "admin-b2-w7-q10",
-      "type": "fillBlanks",
-      "explanation": "To 'meet halfway' means to compromise.",
-      "prompt": "If we want to settle this dispute, both sides will need to ________ ________.",
-      "answers": [
-        "meet halfway"
-      ]
+      "id": "adm-b2-w7-ex15",
+      "type": "writingTask",
+      "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Stalemate'. 2) What does ASK stand for? 3) Form a mixed conditional (Past Action -> Present Result) about a missed meeting. 4) List 2 synonyms for 'conflict' used in the theory.",
+      "modelAnswer": "1) A situation where no progress is possible. 2) Actionable, Specific, Kind. 3) If I had attended the meeting, I would know the current status. 4) Friction, disagreement.",
+      "keywords": ["progress", "Actionable", "If I had", "Friction"]
     }
   ]
 }

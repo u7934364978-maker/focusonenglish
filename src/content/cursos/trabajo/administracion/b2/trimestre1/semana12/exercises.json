@@ -3,120 +3,150 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana12",
-  "title": "Trimestre 1 Review & Final Project Proposal",
-  "description": "Comprehensive review of administrative vocabulary and advanced grammar from Weeks 1-11.",
+  "title": "Exercises: Trimester Review & Final Project Proposal",
   "items": [
     {
-      "id": "admin-b2-w12-q1",
-      "type": "multipleChoice",
-      "options": [
-        "Escalation",
-        "Mediation",
-        "Mitigation",
-        "Closure"
-      ],
-      "explanation": "Mediation is the process of a neutral third party helping resolve a conflict.",
-      "answerIndex": 1,
-      "prompt": "Which term refers to the process of a neutral party helping to resolve a workplace dispute?"
-    },
-    {
-      "id": "admin-b2-w12-q2",
-      "type": "fillBlanks",
-      "explanation": "Mixed Conditional (Past hypothetical action -> Present result).",
-      "prompt": "If we ________ (hire) the new assistant last month, we ________ (not / be) so overwhelmed with paperwork now.",
-      "answers": [
-        "had hired / wouldn't be",
-        "had hired / would not be"
+      "id": "adm-b2-w12-ex01",
+      "type": "reading-comprehension",
+      "title": "Exercise 1: Proposal Executive Summary (Doc A)",
+      "text": "Doc A — Executive Summary: Automated Vendor Vetting System\n\nIntroduction: This proposal outlines a project to streamline our current vendor vetting process, which has become a significant bottleneck in our operations. If we had automated this last quarter, we wouldn't be facing the current backlog of approvals (Mixed Conditional).\n\nSolution: We propose to implement 'VetScan', a software tool that will be monitoring vendor compliance in real-time (Future Continuous). By the end of Q1, we will have integrated all existing vendor data into the new system (Future Perfect).\n\nRisk Assessment: The primary risk is staff resistance to the new workflow. Our mitigation strategy involves holding three training workshops. Under no circumstances should the legacy system be deactivated before the new data is fully reconciled.\n\nKPI: 50% reduction in approval time.",
+      "questions": [
+        {
+          "question": "What is the primary goal of the 'VetScan' project?",
+          "options": ["To hire new vendors.", "To streamline the vendor vetting process and reduce bottlenecks.", "To deactivate the legacy system immediately."],
+          "answerIndex": 1,
+          "explanation": "Doc A states the proposal outlines a project to 'streamline our current vendor vetting process'."
+        },
+        {
+          "question": "By when does the proposal expect all vendor data to be integrated?",
+          "options": ["By the end of this week.", "By the middle of next month.", "By the end of Q1."],
+          "answerIndex": 2,
+          "explanation": "Doc A mentions: 'By the end of Q1, we will have integrated all existing vendor data'."
+        }
       ]
     },
     {
-      "id": "admin-b2-w12-q3",
+      "id": "adm-b2-w12-ex02",
       "type": "multipleChoice",
+      "prompt": "Exercise 2: Proposal Structure. Which section provides a 'high-level overview of the proposed change'?",
       "options": [
+        "Current Situation",
         "Executive Summary",
-        "Scope Creep",
-        "Milestone",
-        "Deliverable"
+        "Risk Assessment",
+        "Timeline"
       ],
-      "explanation": "The Executive Summary provides a high-level overview of a proposal.",
-      "answerIndex": 0,
-      "prompt": "Which part of a project proposal provides a concise overview of the entire plan?"
-    },
-    {
-      "id": "admin-b2-w12-q4",
-      "type": "fillBlanks",
-      "explanation": "Future Perfect for deadlines.",
-      "prompt": "By the time the project ends in December, we ________ (achieve) all our initial objectives.",
-      "answers": [
-        "will have achieved"
-      ]
-    },
-    {
-      "id": "admin-b2-w12-q5",
-      "type": "multipleChoice",
-      "options": [
-        "Who",
-        "Which",
-        "Whose",
-        "Whom"
-      ],
-      "explanation": "Non-defining relative clause providing extra information about a thing ('the proposal').",
       "answerIndex": 1,
-      "prompt": "The new proposal, ________ was drafted by the Ops team, focuses on streamlining workflows."
+      "explanation": "The Executive Summary is a high-level overview of the entire proposal."
     },
     {
-      "id": "admin-b2-w12-q6",
-      "type": "fillBlanks",
-      "explanation": "Third Conditional (Hypothetical past).",
-      "prompt": "If the manager ________ (consult) the team, they ________ (not / resist) the change so strongly.",
-      "answers": [
-        "had consulted / wouldn't have resisted",
-        "had consulted / would not have resisted"
-      ]
-    },
-    {
-      "id": "admin-b2-w12-q7",
+      "id": "adm-b2-w12-ex03",
       "type": "multipleChoice",
+      "prompt": "Exercise 3: Grammar Synthesis. When analyzing a past failure using 'If + Past Perfect, would have + past participle', which conditional are you using?",
       "options": [
-        "Must have",
-        "Can't have",
-        "Might have",
-        "Should have"
+        "First Conditional",
+        "Second Conditional",
+        "Third Conditional",
+        "Mixed Conditional"
       ],
-      "explanation": "'Can't have' expresses certainty that a past event did not occur.",
+      "answerIndex": 2,
+      "explanation": "The Third Conditional is used to analyze hypothetical past events."
+    },
+    {
+      "id": "adm-b2-w12-ex04",
+      "type": "multipleChoice",
+      "prompt": "Exercise 4: Review Vocabulary. Complete the sentence: 'This week we will ___ our learning to demonstrate our ___ in administrative tasks.'",
+      "options": [
+        "pivot / stalemate",
+        "synthesise / competency",
+        "delegate / risk",
+        "mitigate / baseline"
+      ],
       "answerIndex": 1,
-      "prompt": "Which modal expresses certainty that something DID NOT happen in the past?"
+      "explanation": "To 'synthesise' learning is to combine it to show 'competency' (ability)."
     },
     {
-      "id": "admin-b2-w12-q8",
-      "type": "fillBlanks",
-      "explanation": "Future Continuous for ongoing future actions.",
-      "prompt": "This time tomorrow, I ________ (present) my project proposal to the board.",
-      "answers": [
-        "will be presenting"
-      ]
+      "id": "adm-b2-w12-ex05",
+      "type": "writingTask",
+      "prompt": "Exercise 5: Mixed Conditionals Review. Form a sentence linking a past action to a present result (e.g., 'not hire the consultant' / 'be in trouble now').",
+      "modelAnswer": "If we had hired the consultant, we wouldn't be in trouble now.",
+      "keywords": ["If we had", "wouldn't be"]
     },
     {
-      "id": "admin-b2-w12-q9",
+      "id": "adm-b2-w12-ex06",
+      "type": "writingTask",
+      "prompt": "Exercise 6: Future Tenses Review. Describe your work status for next Friday at 3 PM using both Future Continuous and Future Perfect (e.g., 'working on the pitch' / 'finish the slides').",
+      "modelAnswer": "At 3 PM next Friday, I will be working on the pitch, and by 5 PM, I will have finished the slides.",
+      "keywords": ["will be working", "will have finished"]
+    },
+    {
+      "id": "adm-b2-w12-ex07",
+      "type": "writingTask",
+      "prompt": "Exercise 7: Extracting Action Points. Based on Doc A, list the 2 main sections of the proposal and one specific task mentioned in each.",
+      "modelAnswer": "1. Solution: Implement 'VetScan' software. 2. Risk Assessment: Hold three training workshops.",
+      "keywords": ["VetScan", "workshops"]
+    },
+    {
+      "id": "adm-b2-w12-ex08",
       "type": "multipleChoice",
+      "prompt": "Exercise 8: Courtesy Modals. Which is the most professional way to ask for a final review of your project proposal?",
       "options": [
-        "Stakeholder",
-        "Bottleneck",
-        "KPI",
-        "Buy-in"
+        "Look at this now.",
+        "Could you please review my final project proposal? I’m aiming to submit the final version by Friday EOD and would value your feedback.",
+        "I've finished the proposal. When will you read it?",
+        "Final project attached. Tell me what's wrong."
       ],
-      "explanation": "Buy-in is the support and agreement needed for a change to succeed.",
-      "answerIndex": 3,
-      "prompt": "What is the term for obtaining support and agreement for a proposed change?"
+      "answerIndex": 1,
+      "explanation": "This option is polite, sets a clear timeframe, and uses professional language."
     },
     {
-      "id": "admin-b2-w12-q10",
-      "type": "fillBlanks",
-      "explanation": "To follow up means to contact again.",
-      "prompt": "Don't forget to ________ ________ with the stakeholders after the meeting to confirm the next steps.",
-      "answers": [
-        "follow up"
-      ]
+      "id": "adm-b2-w12-ex09",
+      "type": "writingTask",
+      "prompt": "Exercise 9: Submission Email. Write a 50-word email submitting your final project. Use a relative clause to describe the proposal.",
+      "modelAnswer": "Dear Sarah, please find attached my final project proposal, which focuses on streamlining our procurement workflow. I believe the solution I have proposed will mitigate our current risk of delays. I look forward to your feedback. Best regards, [Your Name]",
+      "keywords": ["attached", "which", "mitigate"]
+    },
+    {
+      "id": "adm-b2-w12-ex10",
+      "type": "multipleChoice",
+      "prompt": "Exercise 10: Operational Logic. Matching trimester concepts: Which term refers to 'the uncontrolled expansion of a project'?",
+      "options": ["Gantt chart", "Scope creep", "Stakeholder mapping", "Disaster recovery"],
+      "answerIndex": 1,
+      "explanation": "Scope creep refers to the uncontrolled expansion of project requirements."
+    },
+    {
+      "id": "adm-b2-w12-ex11",
+      "type": "writingTask",
+      "prompt": "Exercise 11: Oral Pitch Prep. Prepare a script for a 5-minute pitch of your 'VetScan' proposal (Doc A). You must cover: The bottleneck, the solution, a risk, and a milestone using the Future Perfect.",
+      "modelAnswer": "[Audio Upload Required] Rubric: Comprehensive coverage, Synthesised vocabulary, Persuasive delivery.",
+      "keywords": ["bottleneck", "VetScan", "risk", "will have"]
+    },
+    {
+      "id": "adm-b2-w12-ex12",
+      "type": "writingTask",
+      "prompt": "Exercise 12: Oral Reflection. Record a 2-minute audio reflecting on your growth this trimester. Mention one administrative skill you have improved and one grammatical structure you find most useful for your work.",
+      "modelAnswer": "[Audio Upload Required] Checklist: Self-evaluation, Use of B2 level vocabulary, Fluency.",
+      "keywords": ["improved", "useful", "trimester"]
+    },
+    {
+      "id": "adm-b2-w12-ex13",
+      "type": "writingTask",
+      "prompt": "Exercise 13: Final Project Proposal (Portfolio). Write a 300-word proposal to improve 'Office Meeting Efficiency'. Use: Executive Summary, Current Situation, Solution (with Future Tenses), and Risk Assessment (with Conditionals).",
+      "modelAnswer": "Executive Summary: This proposal aims to streamline our internal meetings by introducing 'Lean Agendas'. \n\nCurrent Situation: We currently spend 10 hours per week in meetings, many of which lack clear action items. This has become a bottleneck for our core operations.\n\nProposed Solution: Next month, we will be implementing a 15-minute standing meeting policy. By the end of the month, we will have reduced our total meeting time by 30%. \n\nRisk Assessment: If we hadn't experienced so much fatigue from long meetings, there wouldn't be such a strong case for this change now. If a meeting were to overrun, the chair would have to adjourn it immediately. \n\nWe believe this pivot will lead to greater accountability and efficiency across the team.",
+      "keywords": ["Executive Summary", "bottleneck", "will be implementing", "will have reduced", "If we hadn't"]
+    },
+    {
+      "id": "adm-b2-w12-ex14",
+      "type": "writingTask",
+      "prompt": "Exercise 14: Skill Matrix. Complete a table for 3 skills you learned this trimester. Format: Skill | Confidence (1-10) | Example of use.",
+      "modelAnswer": "1. Minute-Taking | 9 | Wrote minutes for the Q3 review. 2. Risk Management | 8 | Created a risk register for the BBQ. 3. Managing Up | 7 | Proposed a solution to my boss.",
+      "keywords": ["Minute-Taking", "Risk", "Managing Up"]
+    },
+    {
+      "id": "adm-b2-w12-ex15",
+      "type": "writingTask",
+      "prompt": "Exercise 15: Trimester Mini-test. 1) Define 'Scope Creep'. 2) Give an example of a Third Conditional. 3) What is the difference between a defining and non-defining relative clause? 4) List 4 project phases.",
+      "modelAnswer": "1) Uncontrolled expansion of project requirements. 2) If I had known, I would have helped. 3) Defining is essential (no commas); Non-defining is extra info (commas). 4) Initiation, Planning, Execution, Closure.",
+      "keywords": ["uncontrolled", "If I had", "commas", "Initiation"]
     }
   ]
 }

@@ -1,76 +1,157 @@
 {
-  "exercises": [
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 1,
+  "weekId": "semana06",
+  "title": "Exercises: Advanced Agenda & Corporate Travel",
+  "items": [
     {
-      "id": "quiz-01",
-      "type": "multiple-choice",
-      "question": "What is 'buffer time' in calendar management?",
-      "options": [
-        "Time spent cleaning the office.",
-        "A planned break between meetings to allow for overruns or travel.",
-        "The time it takes to download a large file.",
-        "A meeting that is cancelled at the last minute."
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "quiz-02",
-      "type": "multiple-choice",
-      "question": "What does 'per diem' refer to in a travel context?",
-      "options": [
-        "A type of luxury hotel room.",
-        "A daily allowance for expenses.",
-        "A document required for a visa.",
-        "The time zone of the destination."
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "inversion-01",
-      "type": "transformation",
-      "question": "I have never experienced such a delay. (Never...)",
-      "answer": "Never have I experienced such a delay."
-    },
-    {
-      "id": "inversion-02",
-      "type": "transformation",
-      "question": "The flight was late and the hotel was overbooked. (Not only... but also...)",
-      "answer": "Not only was the flight late, but the hotel was also overbooked."
-    },
-    {
-      "id": "vocabulary-01",
-      "type": "multiple-choice",
-      "question": "If you are 'gatekeeping', you are:",
-      "options": [
-        "Opening all the doors in the office.",
-        "Controlling and limiting access to an executive.",
-        "Working as a security guard.",
-        "Fixing the office gates."
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "writing-01",
-      "type": "writing-task",
-      "title": "Email: Travel Logistics Warning",
-      "description": "Write a formal email to a group of executives traveling to a high-security facility. Use at least one instance of 'Under no circumstances...' and one 'Not only... but also...' with inversion. Warn them about security protocols and transport logistics.",
-      "sampleAnswer": "Subject: Important: Security protocols and logistics for next week's site visit\n\nDear Team,\n\nAs we prepare for our visit to the Research Facility next week, I would like to highlight some critical logistics and security requirements.\n\n**Under no circumstances should you bring** personal electronic devices, such as laptops or tablets, into the restricted area. These must be left in the secure lockers provided at the entrance.\n\nRegarding transport, **not only is the facility in a remote location, but it also** requires a pre-cleared shuttle for access. Therefore, it is vital that everyone arrives at the designated meeting point by 07:30 sharp.\n\nFailure to comply with these protocols may result in a denial of entry. Thank you for your cooperation.\n\nBest regards,\n\n[Your Name]"
-    },
-    {
-      "id": "listening-01",
-      "type": "listening-dialogue",
-      "title": "The Overbooked Agenda",
-      "dialogue": [
-        { "speaker": "Executive", "text": "My Tuesday is completely back-to-back. I don't even have time for a lunch break." },
-        { "speaker": "Admin", "text": "I'll reschedule the 2 PM meeting to block out some buffer time for you." },
-        { "speaker": "Executive", "text": "Thank you. Never have I felt so overwhelmed by my own calendar!" }
-      ],
+      "id": "adm-b2-w6-ex01",
+      "type": "reading-comprehension",
+      "title": "Exercise 1: Executive Itinerary (Doc A)",
+      "text": "Doc A — Itinerary: London to New York (Exec: Sarah Jenkins)\n\nMonday, 20th November\n08:30 – Departure: LHR Terminal 5 (Flight BA173). Confirmation: XYZ789. Seat: 2A.\n11:30 (EST) – Arrival: JFK Terminal 7. Ground Transportation: Private car (Driver: Sam) at Arrivals.\n13:30 – Hotel Check-in: The Ritz-Carlton, Nomad.\n15:00 – Meeting: Boardroom A. Subject: Q4 Strategy. Attending: SJ, MT, DK.\n\nTuesday, 21st November\n09:00 – Meeting: 10th Floor. Subject: Investor Pitch.\n13:00 – Lunch: On-site.\n18:00 – Departure: JFK Terminal 7 (Flight BA112).\n\nLogistics Note: Not only is the schedule tight, but it also requires precise timing between JFK and Nomad. Under no circumstances should the driver be late. Only after checking in should you head to the board meeting.",
       "questions": [
         {
-          "question": "What action will the Admin take?",
-          "options": ["Cancel all meetings", "Reschedule the 2 PM meeting to create buffer time", "Buy lunch for the executive", "Book a new flight"],
-          "correctAnswer": 1
+          "question": "What is the executive's flight number from London to New York?",
+          "options": ["BA112", "BA173", "XYZ789"],
+          "answerIndex": 1,
+          "explanation": "Doc A lists the departure flight as BA173."
+        },
+        {
+          "question": "What 'Logistics Note' uses inversion to emphasize the importance of the driver's punctuality?",
+          "options": ["Not only is the schedule tight...", "Under no circumstances should the driver be late.", "Only after checking in..."],
+          "answerIndex": 1,
+          "explanation": "'Under no circumstances should the driver be late' uses inversion for strict emphasis."
         }
       ]
+    },
+    {
+      "id": "adm-b2-w6-ex02",
+      "type": "multipleChoice",
+      "prompt": "Exercise 2: Calendar Management. What is the purpose of 'Buffer Time' in an executive's calendar?",
+      "options": [
+        "To allow time for long lunch breaks.",
+        "To allow for overruns, travel between rooms, or a mental reset.",
+        "To hide meetings from other staff.",
+        "To ensure the executive works 12 hours a day."
+      ],
+      "answerIndex": 1,
+      "explanation": "Buffer time (10-15 mins) is intentionally left between meetings to handle overruns and resets."
+    },
+    {
+      "id": "adm-b2-w6-ex03",
+      "type": "multipleChoice",
+      "prompt": "Exercise 3: Itinerary Components. Which of the following should be included in the 'Accommodation' section of an itinerary?",
+      "options": [
+        "Flight numbers",
+        "Hotel address and check-in/out times",
+        "Emergency contact numbers",
+        "The names of board members"
+      ],
+      "answerIndex": 1,
+      "explanation": "Accommodation details must include the hotel address and check-in/out times."
+    },
+    {
+      "id": "adm-b2-w6-ex04",
+      "type": "multipleChoice",
+      "prompt": "Exercise 4: Travel Vocabulary. Complete the sentence: 'We need to ___ the travel ___ against the budget to ensure compliance.'",
+      "options": [
+        "book / logistics",
+        "reconcile / expenses",
+        "provide / itinerary",
+        "confirm / availability"
+      ],
+      "answerIndex": 1,
+      "explanation": "To 'reconcile expenses' means to check costs against receipts and the budget."
+    },
+    {
+      "id": "adm-b2-w6-ex05",
+      "type": "writingTask",
+      "prompt": "Exercise 5: Inversion for Emphasis. Rewrite this sentence for a more formal and emphatic tone: 'You should not share the executive’s private phone number under any circumstances.'",
+      "modelAnswer": "Under no circumstances should you share the executive’s private phone number.",
+      "keywords": ["Under no circumstances", "should", "share"]
+    },
+    {
+      "id": "adm-b2-w6-ex06",
+      "type": "writingTask",
+      "prompt": "Exercise 6: Inversion for Emphasis. Rewrite this sentence using 'Not only... but also' (inverted): 'The flight was delayed and it was also very expensive.'",
+      "modelAnswer": "Not only was the flight delayed, but it was also very expensive.",
+      "keywords": ["Not only", "was", "but", "also"]
+    },
+    {
+      "id": "adm-b2-w6-ex07",
+      "type": "writingTask",
+      "prompt": "Exercise 7: Extracting Action Points. Based on Doc A, list 3 things that must be confirmed or done before the executive leaves the JFK arrivals hall.",
+      "modelAnswer": "1. Meet the private driver (Sam).\n2. Confirm the car is at Arrivals.\n3. Proceed to ground transportation.",
+      "keywords": ["driver", "car", "Arrivals"]
+    },
+    {
+      "id": "adm-b2-w6-ex08",
+      "type": "multipleChoice",
+      "prompt": "Exercise 8: Courtesy Modals (Gatekeeping). Which is the most professional way to decline a meeting request for your executive?",
+      "options": [
+        "She is too busy for you.",
+        "She doesn't want to attend this.",
+        "I’m afraid Sarah is unavailable at that time. Would you be able to discuss this with her deputy, or should I flag it for our next priority review?",
+        "No, she can't make it."
+      ],
+      "answerIndex": 2,
+      "explanation": "This option is polite but firm (gatekeeping) and offers a helpful alternative."
+    },
+    {
+      "id": "adm-b2-w6-ex09",
+      "type": "writingTask",
+      "prompt": "Exercise 9: Follow-up Email. Write a 50-word email to Sarah Jenkins (from Doc A) sending the 'reconciled' travel expenses from her previous trip.",
+      "modelAnswer": "Hi Sarah, please find the reconciled travel expenses from your Tokyo trip attached. All receipts have been checked against the budget and are in compliance with our travel policy. Please let me know if you have any questions. Thanks, Alex",
+      "keywords": ["reconciled", "expenses", "receipts", "compliance"]
+    },
+    {
+      "id": "adm-b2-w6-ex10",
+      "type": "multipleChoice",
+      "prompt": "Exercise 10: Operational Logic. What is 'Per Diem' in corporate travel?",
+      "options": [
+        "A type of luxury hotel room.",
+        "A daily allowance for expenses like food and transport.",
+        "The name of the airline’s loyalty program.",
+        "A document needed for international visas."
+      ],
+      "answerIndex": 1,
+      "explanation": "Per Diem is a specific daily amount given to cover living expenses while traveling."
+    },
+    {
+      "id": "adm-b2-w6-ex11",
+      "type": "writingTask",
+      "prompt": "Exercise 11: Oral Briefing Prep. Prepare a script for a 3-minute briefing to your executive about their New York trip (Doc A). Use at least two examples of inversion for emphasis (e.g., 'Not only is the hotel...', 'Only after...').",
+      "modelAnswer": "[Audio Upload Required] Rubric: Accurate summary, Use of inversion, Professional tone.",
+      "keywords": ["Not only", "Under no circumstances", "itinerary"]
+    },
+    {
+      "id": "adm-b2-w6-ex12",
+      "type": "writingTask",
+      "prompt": "Exercise 12: Oral Gatekeeping. Record a 90-second audio politely but firmly declining a meeting request from a vendor who wants to see your boss during their 'Deep Work' time block.",
+      "modelAnswer": "[Audio Upload Required] Checklist: Politeness, Firmness (Gatekeeping), Alternative suggestion.",
+      "keywords": ["unavailable", "Deep Work", "alternative"]
+    },
+    {
+      "id": "adm-b2-w6-ex13",
+      "type": "writingTask",
+      "prompt": "Exercise 13: Corporate Itinerary (Portfolio). Create a detailed 2-day itinerary for an executive traveling from London to Berlin. Include at least 2 inversion structures in the 'Notes' section.",
+      "modelAnswer": "Monday: 09:00 LHR -> BER. 12:00 Hotel Adlon. 14:00 Site Visit. Tuesday: 10:00 Project Review. 16:00 Flight BER -> LHR.\nNotes: Not only is the site visit critical, but it is also the only time the local team is available. Under no circumstances should the return flight be missed.",
+      "keywords": ["Flight", "Hotel", "Not only", "Under no circumstances"]
+    },
+    {
+      "id": "adm-b2-w6-ex14",
+      "type": "writingTask",
+      "prompt": "Exercise 14: Travel Expense Table. Complete a table with 3 expenses: Date | Item | Amount | Reconciliation Status.",
+      "modelAnswer": "1. 20th Nov | Taxi to LHR | £60 | Reconciled. 2. 20th Nov | Hotel (1 night) | $350 | Pending. 3. 21st Nov | Per Diem | $75 | Reconciled.",
+      "keywords": ["Taxi", "Hotel", "Per Diem", "Reconciled"]
+    },
+    {
+      "id": "adm-b2-w6-ex15",
+      "type": "writingTask",
+      "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Gatekeeping'. 2) What is 'Buffer Time'? 3) Invert: 'I have never seen a better plan.' 4) What does it mean to 'reconcile' expenses?",
+      "modelAnswer": "1) Controlling access to an executive. 2) 10-15 mins between meetings. 3) Never have I seen a better plan. 4) Checking costs against receipts and budget.",
+      "keywords": ["access", "meetings", "Never", "receipts"]
     }
   ]
 }

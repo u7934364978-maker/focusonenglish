@@ -3,118 +3,150 @@
   "level": "B2",
   "trimester": 1,
   "weekId": "semana10",
-  "title": "Project Management Fundamentals",
-  "description": "Vocabulary for project lifecycles and future tenses for discussing deadlines.",
+  "title": "Exercises: Project Management Fundamentals",
   "items": [
     {
-      "id": "admin-b2-w10-q1",
+      "id": "adm-b2-w10-ex01",
+      "type": "reading-comprehension",
+      "title": "Exercise 1: Project Status Report (Doc A)",
+      "text": "Doc A — Status Report: Office Relocation (Week 4)\n\nCurrent Phase: Execution. We are currently carrying out the physical move of the server room. By 5 PM today, we will be testing the new network connections (Future Continuous).\n\nMilestones Achieved:\n- Initiation: Feasibility study approved.\n- Planning: Gantt chart finalized.\n\nUpcoming Deadlines:\n- By Friday, we will have completed the handover of the old keys (Future Perfect).\n- By the end of next week, the IT department will have installed all workstations.\n\nRisk Alert: We must monitor the project closely to avoid scope creep, as some departments are requesting extra cabling that wasn't in the original brief. Our primary KPI remains 'Zero Down-time'.",
+      "questions": [
+        {
+          "question": "What is the current phase of the project according to Doc A?",
+          "options": ["Initiation", "Execution", "Closure"],
+          "answerIndex": 1,
+          "explanation": "Doc A explicitly states: 'Current Phase: Execution'."
+        },
+        {
+          "question": "What tense is used to describe the task of testing network connections today at 5 PM?",
+          "options": ["Future Perfect", "Future Continuous", "Past Simple"],
+          "answerIndex": 1,
+          "explanation": "'Will be testing' is the Future Continuous, describing an action in progress in the future."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex02",
       "type": "multipleChoice",
+      "prompt": "Exercise 2: Project Lifecycle. In which phase do you 'review lessons learned'?",
       "options": [
         "Initiation",
         "Planning",
         "Execution",
         "Closure"
       ],
-      "explanation": "Closure is the final phase where lessons learned are reviewed and the project is finalized.",
       "answerIndex": 3,
-      "prompt": "In which project phase do we conduct a final review and document lessons learned?"
+      "explanation": "Lessons learned are reviewed during the 'Closure' phase of a project."
     },
     {
-      "id": "admin-b2-w10-q2",
-      "type": "fillBlanks",
-      "explanation": "Future Perfect: will have + past participle for completion before a deadline.",
-      "prompt": "By the end of this month, we ________ (complete) the initiation phase of the new project.",
-      "answers": [
-        "will have completed"
-      ]
-    },
-    {
-      "id": "admin-b2-w10-q3",
+      "id": "adm-b2-w10-ex03",
       "type": "multipleChoice",
+      "prompt": "Exercise 3: Project Concepts. What is 'Scope Creep'?",
       "options": [
-        "Milestone",
-        "Deliverable",
-        "KPI",
-        "Scope Creep"
+        "A slow movement of the office building.",
+        "The uncontrolled expansion of project requirements without extra time or budget.",
+        "A type of measuring tool used by engineers.",
+        "Hiring new people at the end of a project."
       ],
-      "explanation": "A deliverable is any tangible or intangible result of project work.",
       "answerIndex": 1,
-      "prompt": "What is the term for a specific product or result that must be produced to complete a project?"
+      "explanation": "Scope creep is when requirements expand beyond the original plan without corresponding resources."
     },
     {
-      "id": "admin-b2-w10-q4",
-      "type": "fillBlanks",
-      "explanation": "Future Continuous: will be + -ing for an action in progress in the future.",
-      "prompt": "Don't call me at 10 AM tomorrow; I ________ (attend) the project planning meeting.",
-      "answers": [
-        "will be attending"
-      ]
-    },
-    {
-      "id": "admin-b2-w10-q5",
+      "id": "adm-b2-w10-ex04",
       "type": "multipleChoice",
+      "prompt": "Exercise 4: Project Vocabulary. Complete the sentence: 'We will use a ___ to visualize the schedule and track our ___.'",
       "options": [
-        "Scope Creep",
-        "Bottleneck",
-        "Gantt Chart",
-        "Milestone"
+        "KPI / milestones",
+        "Gantt chart / progress",
+        "deliverable / phase",
+        "closure / brief"
       ],
-      "explanation": "Scope creep refers to the uncontrolled growth of a project's requirements.",
-      "answerIndex": 0,
-      "prompt": "What occurs when a project's requirements expand without additional time or budget?"
-    },
-    {
-      "id": "admin-b2-w10-q6",
-      "type": "fillBlanks",
-      "explanation": "A milestone is a significant event or stage.",
-      "prompt": "Reaching our first 1,000 users was a major ________ for the startup.",
-      "answers": [
-        "milestone"
-      ]
-    },
-    {
-      "id": "admin-b2-w10-q7",
-      "type": "multipleChoice",
-      "options": [
-        "Gantt Chart",
-        "KPI",
-        "Deliverable",
-        "Scope"
-      ],
-      "explanation": "A Gantt chart is a visual tool used for project scheduling.",
-      "answerIndex": 0,
-      "prompt": "Which visual tool is commonly used by project managers to track schedules and tasks?"
-    },
-    {
-      "id": "admin-b2-w10-q8",
-      "type": "fillBlanks",
-      "explanation": "Future Perfect for deadlines.",
-      "prompt": "I hope the client ________ (approve) the budget by the time we start the execution phase.",
-      "answers": [
-        "will have approved"
-      ]
-    },
-    {
-      "id": "admin-b2-w10-q9",
-      "type": "multipleChoice",
-      "options": [
-        "Will be finishing",
-        "Will have finished",
-        "Are finishing",
-        "Have finished"
-      ],
-      "explanation": "Future Perfect ('will have finished') indicates completion before a specific point in time.",
       "answerIndex": 1,
-      "prompt": "Which tense is best for saying 'I expect to be done with the report by Friday'?"
+      "explanation": "A Gantt chart is used to visualize schedules and track progress."
     },
     {
-      "id": "admin-b2-w10-q10",
-      "type": "fillBlanks",
-      "explanation": "To delegate is to assign tasks to others.",
-      "prompt": "To manage your time effectively, you need to ________ some of your more routine tasks to the administrative assistant.",
-      "answers": [
-        "delegate"
-      ]
+      "id": "adm-b2-w10-ex05",
+      "type": "writingTask",
+      "prompt": "Exercise 5: Future Continuous. Form a sentence using the Future Continuous to describe what you will be doing next Monday at 10 AM (e.g., 'working on the report').",
+      "modelAnswer": "Next Monday at 10 AM, I will be working on the project report.",
+      "keywords": ["will be", "working"]
+    },
+    {
+      "id": "adm-b2-w10-ex06",
+      "type": "writingTask",
+      "prompt": "Exercise 6: Future Perfect. Form a sentence using the Future Perfect to describe a deadline for next Friday (e.g., 'finish the data entry').",
+      "modelAnswer": "By next Friday, I will have finished the data entry.",
+      "keywords": ["will have", "finished"]
+    },
+    {
+      "id": "adm-b2-w10-ex07",
+      "type": "writingTask",
+      "prompt": "Exercise 7: Extracting Action Points. Based on Doc A, list the 2 upcoming deadlines mentioned using the Future Perfect structure.",
+      "modelAnswer": "1. By Friday, we will have completed the handover of the old keys.\n2. By the end of next week, the IT department will have installed all workstations.",
+      "keywords": ["will have completed", "will have installed"]
+    },
+    {
+      "id": "adm-b2-w10-ex08",
+      "type": "multipleChoice",
+      "prompt": "Exercise 8: Courtesy Modals. Which is the most professional way to ask for a status update on a deliverable?",
+      "options": [
+        "Where is the report? You're late.",
+        "Could you please provide an update on the final deliverable? I’m hoping we will have received it by EOD so we can stay on schedule.",
+        "I need the report now for my meeting.",
+        "Did you finish yet?"
+      ],
+      "answerIndex": 1,
+      "explanation": "This option is polite, uses Future Perfect for expectations, and explains why the update is needed."
+    },
+    {
+      "id": "adm-b2-w10-ex09",
+      "type": "writingTask",
+      "prompt": "Exercise 9: Follow-up Email. Write a 50-word email to your manager announcing that a 'Milestone' has been reached. Use the Future Perfect to state when the next phase will be finished.",
+      "modelAnswer": "Hi Sarah, I’m pleased to announce that we have reached the planning milestone for the relocation. By next Friday, we will have finished the resource allocation for the execution phase. I’ll be monitoring the Gantt chart closely for any scope creep. Thanks, Alex",
+      "keywords": ["milestone", "will have finished", "Gantt chart"]
+    },
+    {
+      "id": "adm-b2-w10-ex10",
+      "type": "multipleChoice",
+      "prompt": "Exercise 10: Operational Logic. If your primary goal is 'Zero Down-time', what is this measure called in project management?",
+      "options": ["Deliverable", "KPI", "Milestone", "Scope"],
+      "answerIndex": 1,
+      "explanation": "A measurable value used to evaluate success is a KPI (Key Performance Indicator)."
+    },
+    {
+      "id": "adm-b2-w10-ex11",
+      "type": "writingTask",
+      "prompt": "Exercise 11: Oral Presentation Prep. Prepare a script for a 3-minute project update. You must use the terms: 'Execution phase', 'Milestone', and 'Scope creep'. Use at least one Future Perfect sentence.",
+      "modelAnswer": "[Audio Upload Required] Rubric: Logical structure (Past/Present/Future), Use of key terms, Tense accuracy.",
+      "keywords": ["Execution", "Milestone", "Scope creep", "will have"]
+    },
+    {
+      "id": "adm-b2-w10-ex12",
+      "type": "writingTask",
+      "prompt": "Exercise 12: Oral Deadline Setting. Record a 60-second audio for your team setting expectations for the coming month. Use Future Continuous to describe the work and Future Perfect to state the final deadline.",
+      "modelAnswer": "[Audio Upload Required] Checklist: Future Continuous accuracy, Future Perfect accuracy, Professional tone.",
+      "keywords": ["will be working", "will have completed"]
+    },
+    {
+      "id": "adm-b2-w10-ex13",
+      "type": "writingTask",
+      "prompt": "Exercise 13: Project Summary (Portfolio). Write a 200-word summary of a project you recently 'finished' (or a hypothetical one). Use at least two examples each of Future Perfect and Future Continuous to describe future expectations.",
+      "modelAnswer": "Project Summary: New Staff Training Program\n\nWe are currently in the planning phase of the training project. Throughout next month, we will be conducting needs analysis interviews with all department heads. By the end of that period, we will have identified the key training gaps across the organisation. \n\nDuring the execution phase in June, our lead trainers will be delivering workshops on UK English business protocols. We expect that by the middle of July, we will have trained over 50 employees. We are monitoring this closely to ensure there is no scope creep and that we meet our KPI of a 90% satisfaction rate. The closure phase is scheduled for August, during which we will be reviewing lessons learned.",
+      "keywords": ["will be conducting", "will have identified", "will be delivering", "will have trained"]
+    },
+    {
+      "id": "adm-b2-w10-ex14",
+      "type": "writingTask",
+      "prompt": "Exercise 14: Project Timeline. Complete a timeline for an 'Email Migration' project. Phases: Initiation | Planning | Execution | Closure. (Assign one task to each).",
+      "modelAnswer": "Initiation: Feasibility study. Planning: Draft Gantt chart. Execution: Move data to new server. Closure: Final user feedback survey.",
+      "keywords": ["Initiation", "Planning", "Execution", "Closure"]
+    },
+    {
+      "id": "adm-b2-w10-ex15",
+      "type": "writingTask",
+      "prompt": "Exercise 15: Weekly Mini-test. 1) Name the 4 project phases. 2) Define 'KPI'. 3) Invert for emphasis: 'I have never seen such scope creep.' 4) Form a sentence: 'By EOD / I / finish / the map' (Future Perfect).",
+      "modelAnswer": "1) Initiation, Planning, Execution, Closure. 2) Key Performance Indicator. 3) Never have I seen such scope creep. 4) By EOD, I will have finished the map.",
+      "keywords": ["Initiation", "Indicator", "Never", "will have"]
     }
   ]
 }

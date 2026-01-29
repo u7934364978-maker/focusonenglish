@@ -1,29 +1,25 @@
 {
-  "title": "Mercados Internacionales y Administracion Sostenibles (ESG)",
+  "title": "International Business & Logistics",
   "sections": [
     {
-      "id": "intl-esg-vocab",
-      "title": "Vocabulario: Inversión Global y Responsable",
-      "content": "B2 nivel. Mercados de capitales y factores ASG.\n\n- **ESG (Environmental, Social, Governance)**: Factores ambientales, sociales y de gobernanza.\n- **Emerging Markets**: Mercados emergentes (economías en fase de crecimiento).\n- **Currency Risk**: Riesgo de divisa (impacto de las fluctuaciones de moneda).\n- **Green bonds**: Bonos verdes (deuda para financiar proyectos ecológicos).\n- **Sovereign Debt**: Deuda soberana (bonos emitidos por gobiernos).\n- **Commodities**: Materias primas (oro, petróleo, trigo).\n- **Stakeholders**: Grupos de interés (empleados, clientes, comunidad).\n- **Greenwashing**: Práctica de presentar una imagen falsa de sostenibilidad."
+      "id": "vocab",
+      "title": "Global Trade & Operations",
+      "content": "International business requires a deep understanding of global supply chains, trade regulations, and logistical efficiency.\n\n- **Incoterms**: A set of 11 individual rules issued by the International Chamber of Commerce (ICC) which define the responsibilities of sellers and buyers for the sale of goods in international transactions.\n- **Customs Clearance**: The process of passing goods through customs so that they can enter or leave a country.\n- **Freight Forwarding**: A service used by companies that import and export goods, arranging the storage and shipping of merchandise on behalf of its shippers.\n- **Lead Time**: The amount of time that elapses between when a process starts and when it is completed (e.g., from order placement to delivery).\n- **Economies of Scale**: The cost advantages that enterprises obtain due to their scale of operation, with cost per unit of output decreasing which allows fixed costs to be spread over more units of output.\n- **Trade Barriers**: Government-induced restrictions on international trade, such as tariffs, quotas, and embargoes."
     },
     {
-      "id": "esg-grammar",
-      "title": "Gramática: Pasiva Avanzada con Reporting Verbs",
-      "content": "Utilizamos estructuras como *'It is said that...'* o *'The company is believed to...'* para expresar opiniones generales o hechos reportados en el mercado.\n\n- **Estructura 1**: It + is + [verb-ed] + that + clause.\n- *It **is expected that** emerging markets will outperform developed ones this year.*\n- **Estructura 2**: Subject + is + [verb-ed] + to + infinitive.\n- *The firm **is reported to be** engaging in greenwashing.*\n- *Sustainability **is considered to be** the primary driver of new investment flows.*"
-    },
-    {
-      "id": "global-markets",
-      "title": "Contexto: Diversificación Internacional",
-      "content": "Invertir en el extranjero permite acceder a sectores que no existen en el mercado local, pero introduce el **Exchange Rate Risk**. Los inversores utilizan **Hedging** (cobertura) para mitigar este riesgo."
+      "id": "grammar",
+      "title": "Concession & Contrast",
+      "content": "Advanced concession and contrast structures allow for nuanced arguments in business reports and negotiations.\n\n- **Albeit**: Means 'although' or 'even though', usually followed by an adjective or a phrase, not a full clause.\n  *Example:* \"The project was successful, **albeit** slightly over budget.\"\n- **Notwithstanding**: Means 'despite' or 'in spite of'. It can be used before or after the noun it modifies.\n  *Example:* \"**Notwithstanding** the logistical delays, the shipment arrived on time.\"\n- **Much as**: Used like 'although' to emphasize a strong contrast.\n  *Example:* \"**Much as** we would like to expand into Asia, the current economic climate is too volatile.\"\n- **Even so**: Used to introduce a statement that contrasts with what was just said (similar to 'nevertheless').\n  *Example:* \"The tariffs have increased. **Even so**, our sales remain strong.\"\n- **In spite of / Despite**: Followed by a noun or -ing form.\n  *Example:* \"**Despite** the trade barriers, we achieved record exports.\""
     }
   ],
   "objectives": [
-    "Identificar los instrumentos de los mercados de capitales internacionales",
-    "Comprender y aplicar los criterios ESG en el análisis de inversiones",
-    "Utilizar estructuras de pasiva avanzada para reportar tendencias financieras globales"
+    "Identify the correct Incoterm for a specific international shipment",
+    "Calculate 'lead time' and identify bottlenecks in a logistical process",
+    "Use 'albeit' and 'notwithstanding' to add nuance to professional reports",
+    "Discuss the impact of trade barriers on an organisation's global strategy"
   ],
   "keyTerms": [
-    { "term": "ESG", "definition": "A set of standards for a company’s operations that socially conscious investors use to screen potential investments." },
-    { "term": "Hedging", "definition": "An investment to reduce the risk of adverse price movements in an asset." }
+    { "term": "Consignment", "definition": "A batch of goods destined for or delivered to someone." },
+    { "term": "Tariff", "definition": "A tax or duty to be paid on a particular class of imports or exports." }
   ]
 }

@@ -1,24 +1,37 @@
 {
-  "title": "Gestión de Carteras y Diversificación",
+  "title": "Crisis Management & Business Continuity",
   "sections": [
     {
-      "id": "vocab",
-      "title": "Gestión de Activos",
-      "content": "En este nivel exploramos la gestión profesional de inversiones.\n\n- **Asset Allocation**: Asignación de activos\n- **Diversification**: Diversificación (no poner todos los huevos en la misma cesta)\n- **Portfolio Rebalancing**: Reequilibrio de cartera\n- **Risk Tolerance**: Tolerancia al riesgo\n- **Benchmark**: Punto de referencia (ej. S&P 500)\n- **Yield**: Rendimiento / Rentabilidad"
+      "id": "crisis-ops",
+      "title": "Operations Under Pressure",
+      "content": "In an administrative role, crisis management involves responding to unexpected events that threaten to disrupt normal operations. Business Continuity Planning (BCP) is the process of creating systems of prevention and recovery to deal with potential threats.\n\n### The 3 Stages of Crisis Management:\n1. **Pre-crisis**: Identification of risks and creation of the BCP.\n2. **Crisis Response**: The immediate actions taken when the crisis occurs.\n3. **Post-crisis**: Evaluation of the response and updating the BCP.\n\n### Key Concepts:\n- **Recovery Time Objective (RTO)**: The duration of time within which a business process must be restored.\n- **Workaround**: A temporary solution used when the standard process is unavailable.\n- **Disaster Recovery (DR)**: Specifically refers to the IT and data restoration side of business continuity."
     },
     {
-      "id": "grammar",
-      "title": "Gramática: Second Conditional for Risk Simulations",
-      "content": "Usamos el segundo condicional para hablar de situaciones hipotéticas en el presente o futuro.\n\nEstructura: **If + Past Simple, would + Verb**\n\n- **If** the market **crashed** tomorrow, we **would lose** 10%. (Si el mercado cayera mañana, perderíamos un 10%)\n- **If** we **rebalanced** the portfolio now, we **would reduce** risk. (Si reequilibráramos la cartera ahora, reduciríamos el riesgo)\n- **What would happen if** interest rates **rose** suddenly? (¿Qué pasaría si los tipos de interés subieran de repente?)"
+      "id": "phrase-bank",
+      "title": "PhraseBank: Crisis & Continuity Chunks",
+      "content": "Use these professional chunks to handle disruptions effectively:\n\n1. **to trigger the BCP** — \"We may need to trigger the business continuity plan.\"\n2. **to implement a workaround** — \"We’ve implemented a manual workaround for now.\"\n3. **to minimize downtime** — \"Our priority is to minimize operational downtime.\"\n4. **to restore service** — \"We expect to restore service by 2 PM.\"\n5. **to conduct a post-mortem** — \"We will conduct a post-mortem next week.\"\n6. **to maintain business as usual (BAU)** — \"We are striving to maintain BAU.\"\n7. **to mitigate the impact** — \"How can we mitigate the impact on customers?\"\n8. **to escalate to the Gold Team** — \"The issue has been escalated to the Gold Team (Crisis Management Team).\""
+    },
+    {
+      "id": "grammar-passives",
+      "title": "Grammar: Advanced Passives for Formal Reporting",
+      "content": "At a B2/C1 level, formal reports often use advanced passive structures to distance the writer from the information or to report rumors and beliefs.\n\n### Reporting Passives (It + is + Verb-ed + that...)\n- **It is thought that** the server failure was caused by a power surge.\n- **It is expected that** all services will be restored by EOD.\n- **It is reported that** the workaround is functioning correctly.\n\n### Personal Passive (Subject + is + Verb-ed + to + Infinitive)\n- **The system is believed to have** crashed due to high traffic.\n- **The CEO is said to be** reviewing the disaster recovery report.\n- **The data is thought to have been** compromised during the breach."
+    },
+    {
+      "id": "deliverable",
+      "title": "Weekly Deliverable: The Post-Mortem Report",
+      "content": "This week, you will draft a 'Post-Mortem' report after a simulated operational crisis. You must include:\n1. **Timeline of events** (What happened and when).\n2. **Root cause analysis** (Using advanced passives: *It is thought that...*).\n3. **Effectiveness of the workaround** (*The workaround is believed to have...*).\n4. **Recommendations for the BCP**."
     }
   ],
   "objectives": [
-    "Comprender la importancia de la diversificación de activos",
-    "Utilizar el segundo condicional para simular escenarios de riesgo",
-    "Analizar la tolerancia al riesgo de un inversor"
+    "Define and apply Business Continuity Planning (BCP) terminology",
+    "Describe operational workarounds during a crisis",
+    "Use advanced reporting passives in formal administrative reports",
+    "Analyse root causes and propose improvements after a disruption"
   ],
   "keyTerms": [
-    { "term": "Asset Allocation", "definition": "The implementation of an investment strategy that attempts to balance risk versus reward by adjusting the percentage of each asset in an investment portfolio." },
-    { "term": "Diversification", "definition": "A risk management strategy that mixes a wide variety of investments within a portfolio." }
+    { "term": "BCP", "definition": "Business Continuity Plan: a document that outlines how a business will continue operating during an unplanned disruption in service." },
+    { "term": "Downtime", "definition": "The period during which a system or machine is unavailable for use." },
+    { "term": "Workaround", "definition": "A method for overcoming a problem or limitation in a program or system." },
+    { "term": "Post-mortem", "definition": "An analysis or discussion of an event after it is over, especially to determine why it failed." }
   ]
 }
