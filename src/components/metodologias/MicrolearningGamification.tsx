@@ -14,6 +14,10 @@ interface MicroLesson {
   xp: number
   completed: boolean
   unlocked: boolean
+  content?: {
+    text: string
+    keyPoints: string[]
+  }
 }
 
 interface UserProgress {
@@ -78,11 +82,106 @@ const microLessons: MicroLesson[] = [
   { id: 'l20', title: 'Elementary Storyteller', level: 'A2', duration: 12, category: 'speaking', difficulty: 4, xp: 200, completed: false, unlocked: false },
 
   // Metodologías Innovadoras (Aprende a Aprender)
-  { id: 'm1', title: '¿Qué es el Microlearning?', level: 'A1', duration: 3, category: 'methodology', difficulty: 1, xp: 40, completed: false, unlocked: true },
-  { id: 'm2', title: 'Beneficios de Lecciones Cortas', level: 'A1', duration: 4, category: 'methodology', difficulty: 1, xp: 40, completed: false, unlocked: true },
-  { id: 'm3', title: 'Gamificación: Aprender Jugando', level: 'A1', duration: 5, category: 'methodology', difficulty: 1, xp: 50, completed: false, unlocked: true },
-  { id: 'm4', title: 'Sistema de Puntos y XP', level: 'A1', duration: 3, category: 'methodology', difficulty: 1, xp: 40, completed: false, unlocked: true },
-  { id: 'm5', title: 'Manteniendo tu Racha', level: 'A1', duration: 4, category: 'methodology', difficulty: 1, xp: 50, completed: false, unlocked: true },
+  { 
+    id: 'm1', 
+    title: '¿Qué es el Microlearning?', 
+    level: 'A1', 
+    duration: 3, 
+    category: 'methodology', 
+    difficulty: 1, 
+    xp: 40, 
+    completed: false, 
+    unlocked: true,
+    content: {
+      text: 'El Microlearning es una estrategia de aprendizaje que fragmenta el contenido en pequeñas unidades de información llamadas "píldoras de aprendizaje". En Focus English, cada lección está diseñada para durar entre 5 y 10 minutos.',
+      keyPoints: [
+        'Unidades pequeñas y enfocadas',
+        'Fácil de integrar en el día a día',
+        'Mejora la retención de información',
+        'Evita la sobrecarga cognitiva'
+      ]
+    }
+  },
+  { 
+    id: 'm2', 
+    title: 'Beneficios de Lecciones Cortas', 
+    level: 'A1', 
+    duration: 4, 
+    category: 'methodology', 
+    difficulty: 1, 
+    xp: 40, 
+    completed: false, 
+    unlocked: true,
+    content: {
+      text: '¿Por qué 5-10 minutos? La ciencia demuestra que nuestra atención plena es limitada. Las lecciones cortas permiten que el cerebro procese y almacene la información de manera más eficiente antes de pasar a otra tarea.',
+      keyPoints: [
+        'Mayor frecuencia de estudio',
+        'Menor resistencia mental para empezar',
+        'Resultados visibles en poco tiempo',
+        'Flexibilidad total: estudia en el bus o café'
+      ]
+    }
+  },
+  { 
+    id: 'm3', 
+    title: 'Gamificación: Aprender Jugando', 
+    level: 'A1', 
+    duration: 5, 
+    category: 'methodology', 
+    difficulty: 1, 
+    xp: 50, 
+    completed: false, 
+    unlocked: true,
+    content: {
+      text: 'La gamificación utiliza elementos de los juegos en contextos educativos. Al ganar puntos, subir de nivel y desbloquear medallas, tu cerebro libera dopamina, lo que te mantiene motivado y comprometido con tu aprendizaje.',
+      keyPoints: [
+        'Mecánicas de juego (puntos, niveles)',
+        'Feedback instantáneo',
+        'Sentido de progresión clara',
+        'Competición sana y desafíos'
+      ]
+    }
+  },
+  { 
+    id: 'm4', 
+    title: 'Sistema de Puntos y XP', 
+    level: 'A1', 
+    duration: 3, 
+    category: 'methodology', 
+    difficulty: 1, 
+    xp: 40, 
+    completed: false, 
+    unlocked: true,
+    content: {
+      text: 'Los XP (Experience Points) miden tu esfuerzo. Cada actividad, escucha o ejercicio te otorga XP. Al acumular suficientes XP, subirás de nivel, demostrando tu dominio creciente del idioma.',
+      keyPoints: [
+        'Gana XP por cada acierto',
+        'Desbloquea nuevos niveles de contenido',
+        'Visualiza tu progreso acumulado',
+        'Muestra tu nivel a la comunidad'
+      ]
+    }
+  },
+  { 
+    id: 'm5', 
+    title: 'Manteniendo tu Racha', 
+    level: 'A1', 
+    duration: 4, 
+    category: 'methodology', 
+    difficulty: 1, 
+    xp: 50, 
+    completed: false, 
+    unlocked: true,
+    content: {
+      text: 'La racha (streak) es el número de días consecutivos que has estudiado. Es la herramienta más potente para crear el hábito de aprender inglés. ¡No dejes que el fuego se apague!',
+      keyPoints: [
+        'Construcción de hábitos sólidos',
+        'Recordatorios diarios para estudiar',
+        'Medallas especiales por rachas largas',
+        'El secreto de la fluidez es la constancia'
+      ]
+    }
+  },
 ]
 
 const badges: Badge[] = [
@@ -117,6 +216,19 @@ export default function MicrolearningGamification() {
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
   const [showBadgeModal, setShowBadgeModal] = useState(false)
   const [newBadge, setNewBadge] = useState<Badge | null>(null)
+  const [selectedLesson, setSelectedLesson] = useState<MicroLesson | null>(null)
+  const [showLessonModal, setShowLessonModal] = useState(false)
+
+  const handleLessonAction = (lesson: MicroLesson) => {
+    if (!lesson.unlocked) return
+
+    if (lesson.content) {
+      setSelectedLesson(lesson)
+      setShowLessonModal(true)
+    } else if (!lesson.completed) {
+      completeLesson(lesson.id)
+    }
+  }
 
   const completeLesson = (lessonId: string) => {
     setLessons(prev => {
@@ -339,7 +451,7 @@ export default function MicrolearningGamification() {
                 ? 'bg-white border-gray-200 hover:border-orange-400 hover:shadow-lg cursor-pointer'
                 : 'bg-gray-50 border-gray-200 opacity-50 cursor-not-allowed'
             }`}
-            onClick={() => lesson.unlocked && !lesson.completed && completeLesson(lesson.id)}
+            onClick={() => handleLessonAction(lesson)}
           >
             {/* Lesson Number */}
             <div className="absolute -top-3 -left-3 w-10 h-10 bg-gradient-to-br from-orange-500 to-pink-500 text-white rounded-full flex items-center justify-center font-bold shadow-lg">
@@ -386,26 +498,70 @@ export default function MicrolearningGamification() {
             </div>
 
             {/* Action Button */}
-            {lesson.unlocked && !lesson.completed && (
-              <button className="w-full bg-gradient-to-r from-orange-500 to-pink-500 text-white py-2 rounded-lg font-semibold hover:shadow-lg transition-all">
-                ¡Empezar ahora!
-              </button>
-            )}
-
-            {lesson.completed && (
-              <div className="w-full bg-green-500 text-white py-2 rounded-lg font-semibold text-center">
-                ✓ Completada
-              </div>
-            )}
-
-            {!lesson.unlocked && (
-              <div className="w-full bg-gray-300 text-gray-600 py-2 rounded-lg font-semibold text-center">
-                🔒 Bloqueada
-              </div>
-            )}
+            <button
+              className={`w-full py-2 rounded-lg font-bold text-sm transition-all ${
+                lesson.completed
+                  ? 'bg-green-100 text-green-700'
+                  : lesson.unlocked
+                  ? 'bg-gradient-to-r from-orange-500 to-pink-500 text-white shadow-md hover:shadow-lg'
+                  : 'bg-gray-200 text-gray-400'
+              }`}
+            >
+              {lesson.completed ? '✓ Completada' : lesson.unlocked ? (lesson.content ? 'Ver Lección' : '¡Empezar ahora!') : '🔒 Bloqueada'}
+            </button>
           </div>
         ))}
       </div>
+
+      {/* Lesson Content Modal */}
+      {showLessonModal && selectedLesson && (
+        <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-3xl max-w-2xl w-full overflow-hidden shadow-2xl animate-in fade-in zoom-in duration-300">
+            <div className="bg-gradient-to-r from-orange-500 to-pink-500 p-8 text-white relative">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="p-3 bg-white/20 rounded-2xl backdrop-blur-md">
+                  <Brain className="w-8 h-8" />
+                </div>
+                <div>
+                  <h2 className="text-3xl font-bold">{selectedLesson.title}</h2>
+                  <p className="opacity-90">Microlearning • {selectedLesson.duration} min</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="p-8">
+              <div className="prose prose-orange max-w-none mb-8">
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  {selectedLesson.content?.text}
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                {selectedLesson.content?.keyPoints.map((point, i) => (
+                  <div key={i} className="flex items-center gap-3 bg-orange-50 p-4 rounded-xl border border-orange-100">
+                    <div className="w-2 h-2 bg-orange-500 rounded-full" />
+                    <span className="text-sm font-medium text-gray-700">{point}</span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="flex gap-4">
+                <button
+                  onClick={() => {
+                    if (!selectedLesson.completed) {
+                      completeLesson(selectedLesson.id)
+                    }
+                    setShowLessonModal(false)
+                  }}
+                  className="flex-1 bg-gradient-to-r from-orange-500 to-pink-500 text-white py-4 rounded-2xl font-bold text-lg shadow-lg hover:shadow-xl transition-all"
+                >
+                  {selectedLesson.completed ? 'Cerrar' : 'Entendido, ¡ganar XP!'}
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Badges Section */}
       <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-2xl">
