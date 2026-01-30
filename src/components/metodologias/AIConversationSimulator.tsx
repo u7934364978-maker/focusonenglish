@@ -255,41 +255,6 @@ export default function AIConversationSimulator() {
         </p>
       </div>
 
-      {/* Stats */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
-        <div className="bg-gradient-to-br from-cyan-50 to-cyan-100 p-6 rounded-xl border border-cyan-200">
-          <div className="flex items-center gap-3 mb-2">
-            <Bot className="w-8 h-8 text-cyan-600" />
-            <span className="text-3xl font-bold text-cyan-900">{stats.totalConversations}</span>
-          </div>
-          <p className="text-cyan-700 font-medium">Conversaciones</p>
-        </div>
-
-        <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border border-blue-200">
-          <div className="flex items-center gap-3 mb-2">
-            <Mic className="w-8 h-8 text-blue-600" />
-            <span className="text-3xl font-bold text-blue-900">{stats.minutesSpoken}</span>
-          </div>
-          <p className="text-blue-700 font-medium">Minutos Hablados</p>
-        </div>
-
-        <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl border border-purple-200">
-          <div className="flex items-center gap-3 mb-2">
-            <span className="text-3xl">📚</span>
-            <span className="text-3xl font-bold text-purple-900">{stats.vocabularyUsed}</span>
-          </div>
-          <p className="text-purple-700 font-medium">Palabras Nuevas</p>
-        </div>
-
-        <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl border border-green-200">
-          <div className="flex items-center gap-3 mb-2">
-            <span className="text-3xl">⭐</span>
-            <span className="text-3xl font-bold text-green-900">{stats.fluencyScore}%</span>
-          </div>
-          <p className="text-green-700 font-medium">Fluidez</p>
-        </div>
-      </div>
-
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Sidebar - Tutors & Scenarios */}
         <div className="lg:col-span-1 space-y-6">
