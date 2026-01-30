@@ -1,6 +1,5 @@
-import AIConversationSimulator from '@/components/metodologias/AIConversationSimulator'
+import RealtimeAITutor from '@/components/metodologias/RealtimeAITutor'
 
 export default function IAConversacionPage() {
-  return <AIConversationSimulator />
+  return <RealtimeAITutor />
 }
-// trigger build
