@@ -42,12 +42,88 @@ interface Badge {
 
 const microLessons: MicroLesson[] = [
   // Nivel A1 - Bloque 1: Primeros Pasos
-  { id: 'l1', title: 'Saying Hello & Goodbye', level: 'A1', duration: 4, category: 'vocabulary', difficulty: 1, xp: 50, completed: false, unlocked: true },
-  { id: 'l2', title: 'The Verb "To Be": I am, You are', level: 'A1', duration: 6, category: 'grammar', difficulty: 1, xp: 60, completed: false, unlocked: true },
-  { id: 'l3', title: 'Numbers 1-20 & Spelling', level: 'A1', duration: 5, category: 'vocabulary', difficulty: 1, xp: 50, completed: false, unlocked: false },
+  { 
+    id: 'l1', 
+    title: 'Saying Hello & Goodbye', 
+    level: 'A1', 
+    duration: 4, 
+    category: 'vocabulary', 
+    difficulty: 1, 
+    xp: 50, 
+    completed: false, 
+    unlocked: true,
+    content: {
+      text: 'Aprender a saludar y despedirse es el primer paso para comunicarte en inglés. Existen formas formales e informales dependiendo de con quién hables.',
+      keyPoints: [
+        'Formal: Hello, Good morning/afternoon/evening',
+        'Informal: Hi, Hey, What\'s up?',
+        'Despedidas: Goodbye, Bye, See you later',
+        'Preguntar cómo están: How are you? / How\'s it going?'
+      ]
+    }
+  },
+  { 
+    id: 'l2', 
+    title: 'The Verb "To Be": I am, You are', 
+    level: 'A1', 
+    duration: 6, 
+    category: 'grammar', 
+    difficulty: 1, 
+    xp: 60, 
+    completed: false, 
+    unlocked: true,
+    content: {
+      text: 'El verbo "To Be" (ser o estar) es el más importante en inglés. Se usa para nombres, profesiones, estados de ánimo y lugares.',
+      keyPoints: [
+        'I am (Yo soy/estoy)',
+        'You are (Tú eres/estás)',
+        'He/She/It is (Él/Ella/Eso es/está)',
+        'We/They are (Nosotros/Ellos son/están)'
+      ]
+    }
+  },
+  { 
+    id: 'l3', 
+    title: 'Numbers 1-20 & Spelling', 
+    level: 'A1', 
+    duration: 5, 
+    category: 'vocabulary', 
+    difficulty: 1, 
+    xp: 50, 
+    completed: false, 
+    unlocked: false,
+    content: {
+      text: 'Dominar los números básicos y el abecedario es esencial para dar información personal como tu teléfono o deletrear tu nombre.',
+      keyPoints: [
+        'Números 1-10: One, Two, Three...',
+        'Números 11-20: Eleven, Twelve, Thirteen...',
+        'Spelling: ¿Cómo se deletrea? - How do you spell it?',
+        'Diferencia clave: 13 (Thirteen) vs 30 (Thirty)'
+      ]
+    }
+  },
   
   // Nivel A1 - Bloque 2: Mi Mundo
-  { id: 'l4', title: 'Introduce Yourself', level: 'A1', duration: 7, category: 'speaking', difficulty: 2, xp: 80, completed: false, unlocked: false },
+  { 
+    id: 'l4', 
+    title: 'Introduce Yourself', 
+    level: 'A1', 
+    duration: 7, 
+    category: 'speaking', 
+    difficulty: 2, 
+    xp: 80, 
+    completed: false, 
+    unlocked: false,
+    content: {
+      text: 'Presentarte a ti mismo implica decir tu nombre, edad, de dónde eres y qué haces. Es la base de cualquier conversación inicial.',
+      keyPoints: [
+        'Name: My name is... / I\'m...',
+        'Origin: I am from... (country/city)',
+        'Age: I am [number] years old (No se usa "have")',
+        'Profession: I am a student / I am an engineer'
+      ]
+    }
+  },
   { id: 'l5', title: 'Countries & Nationalities', level: 'A1', duration: 6, category: 'vocabulary', difficulty: 2, xp: 60, completed: false, unlocked: false },
   
   // Nivel A1 - Bloque 3: Día a Día
@@ -62,8 +138,46 @@ const microLessons: MicroLesson[] = [
   { id: 'l10', title: 'Daily Routine Challenge', level: 'A1', duration: 10, category: 'speaking', difficulty: 3, xp: 150, completed: false, unlocked: false },
 
   // Nivel A2 - Bloque 1: Experiencias
-  { id: 'l11', title: 'Past Simple: Regular Verbs', level: 'A2', duration: 6, category: 'grammar', difficulty: 2, xp: 70, completed: false, unlocked: true },
-  { id: 'l12', title: 'Travel & Transport', level: 'A2', duration: 5, category: 'vocabulary', difficulty: 2, xp: 60, completed: false, unlocked: true },
+  { 
+    id: 'l11', 
+    title: 'Past Simple: Regular Verbs', 
+    level: 'A2', 
+    duration: 6, 
+    category: 'grammar', 
+    difficulty: 2, 
+    xp: 70, 
+    completed: false, 
+    unlocked: true,
+    content: {
+      text: 'El pasado simple se usa para acciones terminadas en el pasado. Los verbos regulares siempre terminan en "-ed".',
+      keyPoints: [
+        'Regla general: Añadir "-ed" (Walk -> Walked)',
+        'Terminados en "e": Añadir "-d" (Like -> Liked)',
+        'Negativo: Use "did not" + verb base (I didn\'t walk)',
+        'Pregunta: Did + subject + verb base? (Did you walk?)'
+      ]
+    }
+  },
+  { 
+    id: 'l12', 
+    title: 'Travel & Transport', 
+    level: 'A2', 
+    duration: 5, 
+    category: 'vocabulary', 
+    difficulty: 2, 
+    xp: 60, 
+    completed: false, 
+    unlocked: true,
+    content: {
+      text: 'Aprende los medios de transporte y frases útiles para moverte por una ciudad o viajar al extranjero.',
+      keyPoints: [
+        'By bus, By train, By plane, By car',
+        'On foot (Caminando - ¡Excepción!)',
+        'Ticket office, Platform, Departure, Arrival',
+        'I would like a round-trip ticket to...'
+      ]
+    }
+  },
   { id: 'l13', title: 'The Irregular Verbs List', level: 'A2', duration: 8, category: 'grammar', difficulty: 3, xp: 90, completed: false, unlocked: false },
 
   // Nivel A2 - Bloque 2: Comparaciones
