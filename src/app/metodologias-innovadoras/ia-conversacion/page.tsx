@@ -3,3 +3,4 @@ import AIConversationSimulator from '@/components/metodologias/AIConversationSim
 export default function IAConversacionPage() {
   return <AIConversationSimulator />
 }
+// trigger build
