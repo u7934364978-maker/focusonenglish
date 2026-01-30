@@ -9,7 +9,7 @@
       "id": "adm-b2-w4-ex01",
       "type": "reading-comprehension",
       "title": "Exercise 1: Meeting Minutes (Doc A)",
-      "text": "Doc A — Minutes: Q3 Operations Review\n\nDate: 14th November. Chair: Sarah Jenkins. Secretary: Alex Taylor.\nAttendance: SJ, AT, MD, KL. Apologies: RP (Conflict of interest/prior engagement).\n\n1. Approval of Previous Minutes: Approved without amendment.\n2. Budget Update: MD pointed out that the software budget had been exceeded by 12%. The Chair urged the team to find cost-savings in the travel budget.\n3. Office Relocation: KL suggested postponing the move until Q1. A unanimous decision was reached to table the discussion until next month.\n4. Action Items:\n   - Action: MD to provide a revised budget draft by Friday 17th.\n   - Action: AT to circulate the new seating plan by Wednesday EOD.\n5. AOB: KL raised the issue of the broken coffee machine.\n6. Next Meeting: 12th December, 10:00 AM.",
+      "text": "Doc A — Minutes: Q3 Operations Review\n\nDate: 14th November. Chair: Sarah Jenkins. Secretary: Alex Taylor.\nAttendance: SJ, AT, MD, KL. **Apologies**: RP (Conflict of interest/prior engagement).\n\n1. Approval of Previous Minutes: Approved without amendment.\n2. Budget Update: MD **pointed out** that the software budget had been exceeded by 12%. The Chair **urged** the team to find cost-savings in the travel budget.\n3. Office Relocation: KL **suggested** postponing the move until Q1. A **unanimous decision** was reached to **table** the discussion until next month.\n4. Action Items:\n   - Action: MD to provide a revised budget draft by Friday 17th.\n   - Action: AT to circulate the new seating plan by Wednesday EOD.\n5. **AOB**: KL raised the issue of the broken coffee machine.\n6. Next Meeting: 12th December, 10:00 AM.\n\n### Highlighted Vocabulary\n1. **Apologies**: A formal notification that someone is unable to attend a meeting.\n2. **Pointed out**: Used for stating facts or observations during a discussion.\n3. **Urged**: To strongly encourage or try to persuade someone to do something.\n4. **Suggested**: To put forward a plan or idea for someone else to think about.\n5. **Unanimous decision**: A decision where everyone involved agrees completely.\n6. **Table**: To postpone a discussion or decision until a later time.\n7. **AOB**: Any Other Business; a slot at the end of a meeting for items not on the agenda.",
       "questions": [
         {
           "question": "What happened to the discussion about the office relocation?",
@@ -115,17 +115,55 @@
     },
     {
       "id": "adm-b2-w4-ex11",
-      "type": "writingTask",
-      "prompt": "Exercise 11: Oral Summary Prep. Prepare a script for a 3-minute summary for a colleague who missed the meeting in Doc A. Use at least 3 different reporting verbs (e.g., pointed out, urged, suggested).",
-      "modelAnswer": "[Audio Upload Required] Rubric: Use of reporting verbs, Past tense accuracy, Conciseness.",
-      "keywords": ["pointed out", "urged", "suggested"]
+      "type": "listening",
+      "title": "Exercise 11: Post-Meeting Briefing",
+      "audioUrl": "adm-b2-w4-meeting-briefing.mp3",
+      "questions": [
+        {
+          "question": "What does the speaker suggest doing with the Q4 budget proposal?",
+          "options": [
+            "Submit it immediately.",
+            "Delay the submission by one week.",
+            "Wait for the final audit before circulating it."
+          ],
+          "answerIndex": 2,
+          "explanation": "The speaker advises waiting for the audit to ensure all figures are reconciled."
+        },
+        {
+          "question": "Which reporting verb best describes the speaker's tone regarding the deadline?",
+          "options": ["Urged", "Apologized", "Refused"],
+          "answerIndex": 0,
+          "explanation": "The speaker uses a persuasive tone, urging the team to stay on track."
+        }
+      ]
     },
     {
       "id": "adm-b2-w4-ex12",
-      "type": "writingTask",
-      "prompt": "Exercise 12: Oral 'Chasing'. Record a 60-second audio politely chasing KL for the 'Office Relocation' feedback. Mention that it was 'tabled' and needs progress before the next session.",
-      "modelAnswer": "[Audio Upload Required] Checklist: Politeness, Mention of 'tabled', SMART deadline.",
-      "keywords": ["tabled", "feedback", "next meeting"]
+      "type": "listening",
+      "title": "Exercise 12: Chasing an Overdue Action",
+      "audioUrl": "adm-b2-w4-chasing-action.mp3",
+      "questions": [
+        {
+          "question": "Why is the administrator calling the colleague?",
+          "options": [
+            "To invite them to a new meeting.",
+            "To chase an overdue report on vendor vetting.",
+            "To confirm their attendance for the Christmas party."
+          ],
+          "answerIndex": 1,
+          "explanation": "The administrator is politely following up on a task that has missed its SMART deadline."
+        },
+        {
+          "question": "What solution does the colleague propose for the delay?",
+          "options": [
+            "They will have it finished by Friday COB.",
+            "They will get IT to help with the data extraction.",
+            "They refuse to do the task."
+          ],
+          "answerIndex": 1,
+          "explanation": "The colleague uses a causative structure, saying they will get IT to help."
+        }
+      ]
     },
     {
       "id": "adm-b2-w4-ex13",
@@ -152,7 +190,7 @@
       "id": "adm-b2-w4-ex16",
       "type": "reading-comprehension",
       "title": "Exercise 16: Hybrid Meeting Logistics (Doc B)",
-      "text": "Doc B — Team Briefing: Transition to Hybrid\n\nStarting next month, our Tuesday status updates will be hybrid. Six team members will be in the boardroom, and four will join via Microsoft Teams. \n\nAdministrative Protocol:\n- Room must be booked 15 minutes early for a 'Tech Check'.\n- The chair must actively monitor the 'Hand Raise' feature to ensure remote colleagues can contribute.\n- Minutes must be shared via the virtual whiteboard (Miro) during the session to allow real-time collaboration.",
+      "text": "Doc B — Team Briefing: Transition to Hybrid\n\nStarting next month, our Tuesday status updates will be **hybrid**. Six team members will be in the boardroom, and four will join via Microsoft Teams. \n\nAdministrative Protocol:\n- Room must be booked 15 minutes early for a '**Tech Check**'.\n- The chair must actively monitor the '**Hand Raise**' feature to ensure remote colleagues can contribute.\n- Minutes must be shared via the virtual whiteboard (**Miro**) during the session to allow real-time collaboration.\n\n### Highlighted Vocabulary\n1. **Hybrid**: A meeting where some participants are in a physical room and others join virtually.\n2. **Tech Check**: A process of ensuring all audio, video, and software are working before a meeting begins.\n3. **Hand Raise**: A digital feature in tools like Teams/Zoom to notify the chair that you wish to speak.\n4. **Miro**: A common virtual whiteboard tool used for real-time collaboration in remote or hybrid teams.",
       "questions": [
         {
           "question": "What is the specific administrative task required 15 minutes before the hybrid meeting starts?",
@@ -281,120 +319,106 @@
     {
       "id": "adm-b2-w4-ex31",
       "type": "reading-comprehension",
-      "title": "Exercise 31: Meeting Transcript Analysis (Doc C)",
-      "text": "Doc C — Transcript: Q1 Budget Review\n\nChair: Welcome. First, Sarah, did you see the email from IT?\nSarah: Yes, I pointed out that the server costs were rising by 12%.\nChair: That's a concern. John, what do you think?\nJohn: I recommend moving the server migration to Q2 to save costs now.\nChair: Agreed. Let's record that. John, please draft a new timeline by Wednesday.\nJohn: I'll get on it.",
+      "title": "Exercise 31: Agenda Review",
+      "text": "Meeting: Website Re-launch. Date: Oct 12th. \n1. **Agenda** Approval.\n2. Project Timeline Review.\n3. **Quorum** Check.\n4. AOB.\n\n### Highlighted Vocabulary\n1. **Agenda**: A list of items to be discussed at a formal meeting.\n2. **Quorum**: The minimum number of members required to make a meeting's proceedings valid.",
       "questions": [
         {
-          "question": "What factual observation did Sarah make during the meeting?",
-          "options": ["Server costs are falling", "Server migration is finished", "Server costs are rising by 12%"],
-          "answerIndex": 2,
-          "explanation": "Sarah said: 'I pointed out that the server costs were rising by 12%.'"
+          "question": "What is the first item on the agenda?",
+          "options": ["Quorum Check", "Agenda Approval", "AOB"],
+          "answerIndex": 1,
+          "explanation": "The text lists 'Agenda Approval' as item 1."
         },
         {
-          "question": "What was John's recommendation?",
-          "options": ["To buy new servers now", "To move the server migration to Q2", "To cancel the IT budget"],
-          "answerIndex": 1,
-          "explanation": "John said: 'I recommend moving the server migration to Q2'."
+          "question": "What does a 'Quorum Check' ensure?",
+          "options": ["That the meeting is valid.", "That there is enough coffee.", "That the meeting ends on time."],
+          "answerIndex": 0,
+          "explanation": "A quorum check ensures the minimum number of members are present for a valid meeting."
         }
       ]
     },
     {
       "id": "adm-b2-w4-ex32",
       "type": "multipleChoice",
-      "prompt": "Exercise 32: Reported Speech (Refuse). Report: 'I won't sign this contract' (He refused...)",
-      "options": ["He refused signing the contract.", "He refused to sign the contract.", "He refused that he signs the contract.", "He refused sign the contract."],
+      "prompt": "Exercise 32: Reporting verbs. Which verb is used for a strong request?",
+      "options": ["Suggested", "Urged", "Agreed", "Pointed out"],
       "answerIndex": 1,
-      "explanation": "Refuse + to + infinitive."
+      "explanation": "'Urged' implies a strong recommendation or request."
     },
     {
       "id": "adm-b2-w4-ex33",
-      "type": "writingTask",
-      "prompt": "Exercise 33: Action Item Table. Based on Doc C, create the 'Action Item' entry for John.",
-      "modelAnswer": "Action: John to draft a new server migration timeline. Deadline: Wednesday.",
-      "keywords": ["Action", "John", "timeline", "Wednesday"]
+      "type": "multipleChoice",
+      "prompt": "Exercise 33: Tense shift. 'I will call you.' -> He said he ____ call me.",
+      "options": ["will", "would", "shall", "can"],
+      "answerIndex": 1,
+      "explanation": "Future 'will' shifts to 'would' in reported speech."
     },
     {
       "id": "adm-b2-w4-ex34",
-      "type": "multipleChoice",
-      "prompt": "Exercise 34: AOB Etiquette. When is it appropriate to bring up AOB (Any Other Business)?",
-      "options": ["At the very start of the meeting.", "In the middle of a main discussion point.", "At the end, when the chair calls for any other items.", "After the meeting has adjourned."],
-      "answerIndex": 2,
-      "explanation": "AOB is a standard agenda item at the end of formal meetings."
+      "type": "writingTask",
+      "prompt": "Exercise 34: SMART Action. Rewrite: 'Check the emails later.'",
+      "modelAnswer": "Action: Alex to check the client feedback emails by Wednesday 3pm.",
+      "keywords": ["Action", "Alex", "emails", "3pm"]
     },
     {
       "id": "adm-b2-w4-ex35",
-      "type": "writingTask",
-      "prompt": "Exercise 35: Objective Language. Rewrite: 'The meeting was a total disaster and everyone was angry.'",
-      "modelAnswer": "The meeting involved a challenging discussion regarding several unresolved issues.",
-      "keywords": ["challenging", "unresolved", "discussion"]
+      "type": "multipleChoice",
+      "prompt": "Exercise 35: Digital Etiquette. 'Inclusive Turn-taking' means:",
+      "options": ["Everyone talks at once.", "Ensuring remote participants have a chance to speak.", "Only the manager speaks.", "Muting everyone permanently."],
+      "answerIndex": 1,
+      "explanation": "Inclusive turn-taking ensures all participants, including remote ones, can contribute."
     },
     {
       "id": "adm-b2-w4-ex36",
       "type": "multipleChoice",
-      "prompt": "Exercise 36: Verbatim. Why do we usually avoid 'verbatim' reporting in minutes?",
-      "options": [
-        "It's against the law.",
-        "It makes the document too long and harder to find key decisions.",
-        "It's impossible to do.",
-        "It's too expensive."
-      ],
-      "answerIndex": 1,
-      "explanation": "Minutes should be a summary, not a word-for-word transcript."
+      "prompt": "Exercise 36: AOB. Where does AOB usually appear on an agenda?",
+      "options": ["At the start.", "In the middle.", "At the end.", "It is never on the agenda."],
+      "answerIndex": 2,
+      "explanation": "AOB (Any Other Business) is typically the last item on the agenda."
     },
     {
       "id": "adm-b2-w4-ex37",
       "type": "writingTask",
-      "prompt": "Exercise 37: Reporting Verb Practice (Urge). Rewrite using 'urged + object + to': The Chair said: 'Team, you must focus on the deadline!'",
-      "modelAnswer": "The Chair urged the team to focus on the deadline.",
-      "keywords": ["urged", "team", "to", "focus"]
+      "prompt": "Exercise 37: Reporting Verb practice. Report: 'The budget is too high' (Finance pointed out...)",
+      "modelAnswer": "Finance pointed out that the budget was too high.",
+      "keywords": ["pointed out", "was"]
     },
     {
       "id": "adm-b2-w4-ex38",
       "type": "multipleChoice",
-      "prompt": "Exercise 38: Hybrid Meeting inclusiveness. Why is it important to monitor the virtual 'Hand Raise'?",
-      "options": [
-        "To see who is bored.",
-        "To ensure people in the physical room don't dominate the conversation.",
-        "To check if the internet is working.",
-        "To count the number of attendees."
-      ],
-      "answerIndex": 1,
-      "explanation": "Active moderation ensures remote participants have an equal voice in hybrid meetings."
+      "prompt": "Exercise 38: Executive Summary. A good summary should:",
+      "options": ["Be 10 pages long.", "Use a lot of jargon.", "Focus on the 'So What?' and be concise.", "Include every single detail from the report."],
+      "answerIndex": 2,
+      "explanation": "Summaries must be concise and focus on key findings or recommendations."
     },
     {
       "id": "adm-b2-w4-ex39",
-      "type": "writingTask",
-      "prompt": "Exercise 39: Executive Summary Structure. List the 4 'Golden Rules' of summarising from the theory.",
-      "modelAnswer": "1. Focus on the 'So What?'. 2. Use Bullet Points. 3. Eliminate Jargon. 4. Highlight the ROI.",
-      "keywords": ["So What", "Bullet", "Jargon", "ROI"]
+      "type": "multipleChoice",
+      "prompt": "Exercise 39: Apologies. If you 'send apologies', you are:",
+      "options": ["Saying you are sorry for a mistake.", "Formally notifying that you cannot attend.", "Asking for a promotion.", "Resigning from the company."],
+      "answerIndex": 1,
+      "explanation": "In a meeting context, 'apologies' are formal notices of absence."
     },
     {
       "id": "adm-b2-w4-ex40",
-      "type": "multipleChoice",
-      "prompt": "Exercise 40: Proposer/Seconder. In a formal vote, who is the 'seconder'?",
-      "options": [
-        "The person who suggests the motion.",
-        "The person who supports the motion after it is suggested.",
-        "The person who counts the votes.",
-        "The person who writes the minutes."
-      ],
-      "answerIndex": 1,
-      "explanation": "A motion usually needs a proposer (first) and a seconder (second) before a vote."
+      "type": "writingTask",
+      "prompt": "Exercise 40: SMART Action. Transform: 'Update the list.'",
+      "modelAnswer": "Action: Sam to update the vendor contact list by Friday EOD.",
+      "keywords": ["Action", "Sam", "vendor", "Friday EOD"]
     },
     {
       "id": "adm-b2-w4-ex41",
-      "type": "writingTask",
-      "prompt": "Exercise 41: Reported Speech (State). Report: 'The budget is sufficient' (The Finance Manager stated that...)",
-      "modelAnswer": "The Finance Manager stated that the budget was sufficient.",
-      "keywords": ["stated", "was"]
+      "type": "multipleChoice",
+      "prompt": "Exercise 41: Table a discussion. To 'table' a discussion means to:",
+      "options": ["Put it on a physical table.", "Postpone it until later.", "Finish it immediately.", "Start a new one."],
+      "answerIndex": 1,
+      "explanation": "To table a discussion is to postpone it for a future meeting."
     },
     {
       "id": "adm-b2-w4-ex42",
-      "type": "multipleChoice",
-      "prompt": "Exercise 42: Agenda circulation. When should the agenda be circulated?",
-      "options": ["During the meeting.", "Immediately after the meeting.", "Well before the meeting starts (e.g., 24-48 hours).", "Only to the Chair."],
-      "answerIndex": 2,
-      "explanation": "Participants need time to prepare, so the agenda must be sent in advance."
+      "type": "writingTask",
+      "prompt": "Exercise 42: Reporting Verb Practice. Report: 'We should hire more staff.' (The manager suggested...)",
+      "modelAnswer": "The manager suggested hiring more staff.",
+      "keywords": ["suggested", "hiring"]
     },
     {
       "id": "adm-b2-w4-ex43",

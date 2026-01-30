@@ -8,8 +8,8 @@
     {
       "id": "adm-b2-w7-ex01",
       "type": "reading-comprehension",
-      "title": "Exercise 1: Recruitment Process Email",
-      "text": "Subject: Recruitment Update - Project Manager Position\n\nHi Team,\n\nWe have successfully completed the first round of candidate screening for the Project Manager vacancy. From a pool of 50 applicants, we have created a shortlist of 5 individuals who meet all our SMART criteria. \n\nThe interview panel will consist of the Operations Director and the HR Lead. Logistics-wise, we need to coordinate schedules for next Tuesday. Please ensure that all candidates receive the pre-interview briefing pack and that their reference checks are initiated by EOD.\n\nFollowing the interviews, we will enter the onboarding phase for the successful hire, starting with their 3-month probationary period.\n\nBest regards,\nHR Support Team",
+      "title": "Exercise 1: Recruitment Process Email (Doc A)",
+      "text": "Subject: Recruitment Update - Project Manager Position\n\nHi Team,\n\nWe have successfully completed the first round of candidate screening for the Project Manager vacancy. From a pool of 50 applicants, we have created a **shortlist** of 5 individuals who meet all our **SMART criteria**. \n\nThe **interview panel** will consist of the Operations Director and the HR Lead. Logistics-wise, we need to coordinate schedules for next Tuesday. Please ensure that all candidates receive the pre-interview briefing pack and that their **reference checks** are initiated by EOD.\n\nFollowing the interviews, we will enter the **onboarding** phase for the successful hire, starting with their 3-month **probationary period**.\n\nBest regards,\nHR Support Team\n\n### Highlighted Vocabulary\n1. **Shortlist**: A list of selected candidates from which a final choice will be made.\n2. **SMART criteria**: Goals that are Specific, Measurable, Achievable, Relevant, and Time-bound.\n3. **Interview Panel**: A group of people who interview a candidate for a job.\n4. **Reference Checks**: Contacting previous employers to verify a candidate's history and performance.\n5. **Onboarding**: The process of integrating a new employee into the organization.\n6. **Probationary Period**: A trial period for a newly recruited employee.",
       "questions": [
         {
           "question": "How many candidates were selected for the next stage?",
@@ -95,18 +95,47 @@
     },
     {
       "id": "adm-b2-w7-ex11",
-      "type": "multipleChoice",
-      "prompt": "Reporting Verbs: Which verb is best for asking a question formally?",
-      "options": ["Emphasized", "Claimed", "Inquired", "Stated"],
-      "answerIndex": 2,
-      "explanation": "To 'inquire' is a formal way to say 'to ask'."
+      "type": "listening",
+      "title": "Exercise 11: Performance Review Briefing",
+      "audioUrl": "adm-b2-w7-performance-review.mp3",
+      "questions": [
+        {
+          "question": "Which reporting verb does the speaker use to describe the manager's statement about the budget?",
+          "options": ["Asserted", "Confirmed", "Inquired"],
+          "answerIndex": 1,
+          "explanation": "The speaker says the manager 'confirmed' that the budget would increase."
+        },
+        {
+          "question": "What is the employee's reaction to the 360-degree feedback?",
+          "options": [
+            "They are surprised by the peer reviews.",
+            "They assert that the feedback is inaccurate.",
+            "They recommend a change in the appraisal cycle."
+          ],
+          "answerIndex": 1,
+          "explanation": "The speaker mentions that the employee 'asserted' the feedback did not reflect their daily output."
+        }
+      ]
     },
     {
       "id": "adm-b2-w7-ex12",
-      "type": "writingTask",
-      "prompt": "Reported Speech (Backshifting): Change this to reported speech: 'The budget for recruitment is decreasing.' -> HR confirmed that...",
-      "modelAnswer": "HR confirmed that the budget for recruitment was decreasing.",
-      "keywords": ["was decreasing"]
+      "type": "listening",
+      "title": "Exercise 12: Onboarding Logistics",
+      "audioUrl": "adm-b2-w7-onboarding.mp3",
+      "questions": [
+        {
+          "question": "What 'asset provisioning' task is mentioned as a priority?",
+          "options": ["Booking a flight.", "Issuing a laptop and access cards.", "Drafting a new job description."],
+          "answerIndex": 1,
+          "explanation": "The speaker emphasizes that the laptop and access cards must be ready for Day 1."
+        },
+        {
+          "question": "How long is the induction session scheduled for?",
+          "options": ["One hour.", "A full morning.", "Two days."],
+          "answerIndex": 1,
+          "explanation": "The speaker confirms the induction will take the 'entire morning session'."
+        }
+      ]
     },
     {
       "id": "adm-b2-w7-ex13",
@@ -134,8 +163,8 @@
     {
       "id": "adm-b2-w7-ex16",
       "type": "reading-comprehension",
-      "title": "Exercise 16: Performance Review Policy",
-      "text": "The annual appraisal cycle begins in Q4. All managers must conduct one-on-one reviews with their direct reports to evaluate KPIs and set SMART goals for the next fiscal year. If an employee is found to be underperforming, they may be placed on a Performance Improvement Plan (PIP). High-flyers who exceed expectations may be eligible for a remuneration package review.",
+      "title": "Exercise 16: Performance Review Policy (Doc B)",
+      "text": "Doc B — Internal Memo: Annual Appraisal Cycle\n\nThe annual **appraisal cycle** begins in Q4. All managers must conduct one-on-one reviews with their direct reports to evaluate **KPIs** and set **SMART goals** for the next fiscal year. If an employee is found to be **underperforming**, they may be placed on a **Performance Improvement Plan (PIP)**. **High-flyers** who exceed expectations may be eligible for a **remuneration package** review.\n\n### Highlighted Vocabulary\n1. **Appraisal Cycle**: The fixed period (usually annual) for evaluating employee performance.\n2. **KPIs (Key Performance Indicators)**: Quantifiable measures used to evaluate success.\n3. **Underperforming**: Failing to reach the required standard of work.\n4. **Performance Improvement Plan (PIP)**: A structured plan to help an employee improve their performance.\n5. **High-flyer**: An employee with a lot of potential who is likely to be successful.\n6. **Remuneration Package**: The total compensation (salary, bonus, benefits) an employee receives.",
       "questions": [
         {
           "question": "When does the appraisal cycle start?",
@@ -258,11 +287,23 @@
     },
     {
       "id": "adm-b2-w7-ex31",
-      "type": "multipleChoice",
-      "prompt": "Which reporting verb suggests a strong claim without proof?",
-      "options": ["Recommended", "Suggested", "Asserted", "Inquired"],
-      "answerIndex": 2,
-      "explanation": "To assert or claim can imply a strong statement that may need verification."
+      "type": "reading-comprehension",
+      "title": "Exercise 31: HR Reporting Standards (Doc C)",
+      "text": "Doc C — Best Practices: Documenting HR Meetings\n\nWhen documenting interviews or appraisals, administrators must use objective language. We use sophisticated reporting verbs to clarify the speaker's intent. For example, if a candidate makes a strong claim, we report that they **asserted** or **claimed** a fact. If a manager suggests a course of action, we report that they **recommended** a specific path.\n\nConfidentiality is paramount. All reports must be **signed off on** by the HR Lead before being added to the employee's file. This ensures **compliance** with data protection laws.\n\n### Highlighted Vocabulary\n1. **Asserted**: Stated a fact or belief confidently and forcefully.\n2. **Sign off on**: To give official approval for something.\n3. **Compliance**: The act of following legal rules, policies, or standards.",
+      "questions": [
+        {
+          "question": "According to Doc C, which verb is used when a manager suggests a course of action?",
+          "options": ["Claimed", "Recommended", "Inquired"],
+          "answerIndex": 1,
+          "explanation": "The text states: 'If a manager suggests a course of action, we report that they recommended a specific path'."
+        },
+        {
+          "question": "Who must 'sign off on' the HR reports before they are filed?",
+          "options": ["The candidate", "The HR Lead", "The junior administrator"],
+          "answerIndex": 1,
+          "explanation": "Doc C specifies that reports must be signed off on by the HR Lead."
+        }
+      ]
     },
     {
       "id": "adm-b2-w7-ex32",

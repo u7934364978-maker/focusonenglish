@@ -9,7 +9,7 @@
       "id": "adm-b2-w6-ex01",
       "type": "reading-comprehension",
       "title": "Exercise 1: Executive Itinerary (Doc A)",
-      "text": "Doc A — Itinerary: London to New York (Exec: Sarah Jenkins)\n\nMonday, 20th November\n08:30 – Departure: LHR Terminal 5 (Flight BA173). Confirmation: XYZ789. Seat: 2A.\n11:30 (EST) – Arrival: JFK Terminal 7. Ground Transportation: Private car (Driver: Sam) at Arrivals.\n13:30 – Hotel Check-in: The Ritz-Carlton, Nomad.\n15:00 – Meeting: Boardroom A. Subject: Q4 Strategy. Attending: SJ, MT, DK.\n\nTuesday, 21st November\n09:00 – Meeting: 10th Floor. Subject: Investor Pitch.\n13:00 – Lunch: On-site.\n18:00 – Departure: JFK Terminal 7 (Flight BA112).\n\nLogistics Note: Not only is the schedule tight, but it also requires precise timing between JFK and Nomad. Under no circumstances should the driver be late. Only after checking in should you head to the board meeting.",
+      "text": "Doc A — Itinerary: London to New York (Exec: Sarah Jenkins)\n\nMonday, 20th November\n08:30 – Departure: LHR Terminal 5 (Flight BA173). Confirmation: XYZ789. Seat: 2A.\n11:30 (EST) – Arrival: JFK Terminal 7. Ground Transportation: Private car (Driver: Sam) at Arrivals.\n13:30 – Hotel Check-in: The Ritz-Carlton, Nomad.\n15:00 – Meeting: Boardroom A. Subject: Q4 Strategy. Attending: SJ, MT, DK.\n\nTuesday, 21st November\n09:00 – Meeting: 10th Floor. Subject: Investor Pitch.\n13:00 – Lunch: On-site.\n18:00 – Departure: JFK Terminal 7 (Flight BA112).\n\nLogistics Note: Not only is the schedule tight, but it also requires precise timing between JFK and Nomad. Under no circumstances should the driver be late. Only after checking in should you head to the board meeting.\n\n### Highlighted Vocabulary\n1. **Itinerary**: A detailed plan or route of a journey.\n2. **Ground Transportation**: Vehicles used for moving on the ground (taxis, trains, etc.) after arrival.\n3. **Inversion**: Reversing the normal word order of a sentence for emphasis (e.g., 'Under no circumstances should...').\n4. **EST (Eastern Standard Time)**: The time zone for New York, 5 hours behind London.",
       "questions": [
         {
           "question": "What is the executive's flight number from London to New York?",
@@ -120,17 +120,55 @@
     },
     {
       "id": "adm-b2-w6-ex11",
-      "type": "writingTask",
-      "prompt": "Exercise 11: Oral Briefing Prep. Prepare a script for a 3-minute briefing to your executive about their New York trip (Doc A). Use at least two examples of inversion for emphasis (e.g., 'Not only is the hotel...', 'Only after...').",
-      "modelAnswer": "[Audio Upload Required] Rubric: Accurate summary, Use of inversion, Professional tone.",
-      "keywords": ["Not only", "Under no circumstances", "itinerary"]
+      "type": "listening",
+      "title": "Exercise 11: Travel Briefing",
+      "audioUrl": "adm-b2-w6-travel-briefing.mp3",
+      "questions": [
+        {
+          "question": "What formal structure does the speaker use to emphasize the importance of the visa?",
+          "options": [
+            "You must get a visa.",
+            "Only after the visa is approved can we book the flight.",
+            "Under no circumstances should you travel without a visa."
+          ],
+          "answerIndex": 2,
+          "explanation": "The speaker uses inversion ('Under no circumstances should you...') to emphasize the rule."
+        },
+        {
+          "question": "What is the recommended 'buffer time' between the flight arrival and the first meeting?",
+          "options": ["30 minutes", "2 hours", "4 hours"],
+          "answerIndex": 1,
+          "explanation": "The speaker suggests a 2-hour buffer to account for immigration and ground transport."
+        }
+      ]
     },
     {
       "id": "adm-b2-w6-ex12",
-      "type": "writingTask",
-      "prompt": "Exercise 12: Oral Gatekeeping. Record a 90-second audio politely but firmly declining a meeting request from a vendor who wants to see your boss during their 'Deep Work' time block.",
-      "modelAnswer": "[Audio Upload Required] Checklist: Politeness, Firmness (Gatekeeping), Alternative suggestion.",
-      "keywords": ["unavailable", "Deep Work", "alternative"]
+      "type": "listening",
+      "title": "Exercise 12: Expense Policy Update",
+      "audioUrl": "adm-b2-w6-expense-policy.mp3",
+      "questions": [
+        {
+          "question": "What is the new rule regarding 'out-of-pocket' expenses?",
+          "options": [
+            "They are no longer allowed.",
+            "They must be reconciled within 48 hours of return.",
+            "They only apply to client entertainment."
+          ],
+          "answerIndex": 1,
+          "explanation": "The policy update requires reconciliation within 48 hours."
+        },
+        {
+          "question": "Does the company use a 'Per Diem' system for international travel?",
+          "options": [
+            "Yes, for all travel.",
+            "No, only for flights.",
+            "Yes, but only for meals and minor transport."
+          ],
+          "answerIndex": 2,
+          "explanation": "The speaker confirms Per Diem is used for meals and local transit."
+        }
+      ]
     },
     {
       "id": "adm-b2-w6-ex13",
@@ -155,16 +193,23 @@
     },
     {
       "id": "adm-b2-w6-ex16",
-      "type": "multipleChoice",
-      "prompt": "Exercise 16: Inversion Practice. Complete the sentence: 'Only after the visa was approved ______ the flights.'",
-      "options": [
-        "I booked",
-        "did I book",
-        "I was booking",
-        "booking"
-      ],
-      "answerIndex": 1,
-      "explanation": "After 'Only after...', we use inversion (did I book) in the main clause."
+      "type": "reading-comprehension",
+      "title": "Exercise 16: International Entry Rules (Doc B)",
+      "text": "Doc B — Travel Desk: Entry Requirements Memo\n\nAdministrative staff must ensure all travelers have the correct documentation for North America. **ESTA** applications must be submitted at least 72 hours before departure. **Under no circumstances** should a traveler arrive at the airport without a confirmed authorization.\n\nKey Requirements:\n- **Passport Validity**: Minimum 6 months from entry date.\n- **Visa Category**: Business (B1) for client meetings.\n- **Only when** all documents are verified will the final **itinerary** be issued.\n\n### Highlighted Vocabulary\n1. **ESTA**: Electronic System for Travel Authorization (required for entry to the USA).\n2. **Under no circumstances**: A formal way of saying 'never' or 'it is strictly forbidden'.\n3. **Passport Validity**: The length of time until a passport expires.",
+      "questions": [
+        {
+          "question": "How long before departure must an ESTA be submitted?",
+          "options": ["24 hours", "48 hours", "72 hours"],
+          "answerIndex": 2,
+          "explanation": "Doc B states ESTA must be submitted at least 72 hours before departure."
+        },
+        {
+          "question": "What inverted structure is used to describe the itinerary issuance?",
+          "options": ["Not only... but also", "Only when... will", "Seldom have I"],
+          "answerIndex": 1,
+          "explanation": "The text uses 'Only when... will the final itinerary be issued'."
+        }
+      ]
     },
     {
       "id": "adm-b2-w6-ex17",
@@ -308,16 +353,23 @@
     },
     {
       "id": "adm-b2-w6-ex31",
-      "type": "multipleChoice",
-      "prompt": "Exercise 31: Vocabulary. A 'layover' is:",
-      "options": [
-        "A type of bed in a hotel.",
-        "A short stay in a place between two parts of a journey.",
-        "When an employee is fired during a trip.",
-        "A formal apology for being late."
-      ],
-      "answerIndex": 1,
-      "explanation": "A layover or stopover is a break between flights."
+      "type": "reading-comprehension",
+      "title": "Exercise 31: Calendar Optimization (Doc C)",
+      "text": "Doc C — Best Practices: Executive Time Management\n\nTo maximize productivity, administrators should implement **Time Blocking**. This involves protecting the executive's schedule from unnecessary interruptions. **Gatekeeping** is essential during 'Deep Work' sessions.\n\nStrategies:\n- **Buffer Time**: Include 15-minute breaks between **back-to-back meetings**.\n- **Priority Alignment**: Cross-reference the calendar with the quarterly goals.\n- **Seldom** should a meeting be scheduled on a Friday afternoon without prior approval.\n\n### Highlighted Vocabulary\n1. **Time Blocking**: Scheduling specific blocks of time for dedicated tasks.\n2. **Gatekeeping**: Controlling and limiting access to an executive's time.\n3. **Back-to-back meetings**: Meetings scheduled one after another without any break.",
+      "questions": [
+        {
+          "question": "What strategy is suggested for managing meetings scheduled one after another?",
+          "options": ["Time Blocking", "Buffer Time", "Gatekeeping"],
+          "answerIndex": 1,
+          "explanation": "Doc C suggests including 15-minute 'Buffer Time' between back-to-back meetings."
+        },
+        {
+          "question": "When should meetings be avoided according to the 'Seldom' rule in Doc C?",
+          "options": ["Monday mornings", "Wednesday lunchtimes", "Friday afternoons"],
+          "answerIndex": 2,
+          "explanation": "The text states 'Seldom should a meeting be scheduled on a Friday afternoon'."
+        }
+      ]
     },
     {
       "id": "adm-b2-w6-ex32",

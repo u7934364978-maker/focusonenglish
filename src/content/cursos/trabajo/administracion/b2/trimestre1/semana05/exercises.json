@@ -9,7 +9,7 @@
       "id": "adm-b2-w5-ex01",
       "type": "reading-comprehension",
       "title": "Exercise 1: Feedback Email (Doc A)",
-      "text": "Doc A — Internal Feedback\n\nTo: Alex Taylor\nFrom: Sarah Jenkins (Operations Manager)\nSubject: Project Feedback – Office Refurbishment\n\nHi Alex,\n\nI wanted to provide some feedback on your leadership during the office refurbishment project. I was particularly impressed by how you anticipated our needs by having the new furniture delivered on Friday evening, avoiding any disruption to the team on Monday morning.\n\nYou showed great initiative when you got the IT team to reconfigure the server room ahead of schedule. Your accountability when the floor tiling was delayed was also noted; rather than just flagging the issue, you proposed a solution to have the contractors work on Saturday morning to stay on track.\n\nYou have set an excellent example for the junior coordinators. Let’s touch base on Wednesday to discuss how we can empower you to take the lead on the Q4 budget planning.\n\nBest,\nSarah",
+      "text": "Doc A — Internal Feedback\n\nTo: Alex Taylor\nFrom: Sarah Jenkins (Operations Manager)\nSubject: Project Feedback – Office Refurbishment\n\nHi Alex,\n\nI wanted to provide some feedback on your leadership during the office refurbishment project. I was particularly impressed by how you **anticipated our needs** by having the new furniture delivered on Friday evening, avoiding any disruption to the team on Monday morning.\n\nYou showed great **initiative** when you got the IT team to reconfigure the server room ahead of schedule. Your **accountability** when the floor tiling was delayed was also noted; rather than just flagging the issue, you proposed a solution to have the contractors work on Saturday morning to stay on track.\n\nYou have set an excellent example for the junior coordinators. Let’s touch base on Wednesday to discuss how we can empower you to **take the lead** on the Q4 budget planning.\n\nBest,\nSarah\n\n### Highlighted Vocabulary\n1. **Anticipating Needs**: Identifying what a manager needs before they ask for it (e.g., preparing a briefing pack before a meeting).\n2. **Initiative**: The ability to assess and initiate things independently.\n3. **Accountability**: Taking ownership of processes and being responsible for the outcome, whether positive or negative.\n4. **Take the lead**: To take the main responsibility for a task.",
       "questions": [
         {
           "question": "How did Alex show 'anticipating needs' according to the email?",
@@ -115,17 +115,55 @@
     },
     {
       "id": "adm-b2-w5-ex11",
-      "type": "writingTask",
-      "prompt": "Exercise 11: Oral Briefing Prep. Prepare a script for a 3-minute briefing to your manager. You must use 'managing up' techniques: clarify expectations, provide a solution to a current blocker, and adapt to their preference for a 'dashboard view'.",
-      "modelAnswer": "[Audio Upload Required] Rubric: Solution-oriented, Use of causatives, Professionalism.",
-      "keywords": ["solution", "had", "got", "expectations"]
+      "type": "listening",
+      "title": "Exercise 11: Resolving a Conflict",
+      "audioUrl": "adm-b2-w5-conflict-resolution.mp3",
+      "questions": [
+        {
+          "question": "Which stage of the L.E.A.P. framework does the speaker use when saying 'I understand this delay is frustrating'?",
+          "options": ["Listen", "Empathize", "Problem-solve"],
+          "answerIndex": 1,
+          "explanation": "Acknowledging the other person's feelings is the 'Empathize' stage."
+        },
+        {
+          "question": "What causative structure does the speaker use to propose a solution?",
+          "options": [
+            "I'll have the reports sent tomorrow.",
+            "I'll get IT to check the system.",
+            "I'll have my assistant call you."
+          ],
+          "answerIndex": 1,
+          "explanation": "The speaker says they will get IT to check the system, using 'get + person + to + infinitive'."
+        }
+      ]
     },
     {
       "id": "adm-b2-w5-ex12",
-      "type": "writingTask",
-      "prompt": "Exercise 12: Oral Delegation. Record a 60-second audio delegating the 'Vendor Vetting' to a junior. Use the causative form: 'I'll have you [infinitive]...'.",
-      "modelAnswer": "[Audio Upload Required] Checklist: Causative accuracy, Politeness, SMART deadline.",
-      "keywords": ["have you", "by", "vetting"]
+      "type": "listening",
+      "title": "Exercise 12: Managing Up Briefing",
+      "audioUrl": "adm-b2-w5-managing-up.mp3",
+      "questions": [
+        {
+          "question": "How does the administrator adapt to the manager's preference for a 'dashboard view'?",
+          "options": [
+            "By reading out every line of the budget.",
+            "By presenting a one-page summary with red/green status indicators.",
+            "By sending a long email with attachments."
+          ],
+          "answerIndex": 1,
+          "explanation": "A dashboard view requires high-level, visual, and concise summaries."
+        },
+        {
+          "question": "What is the primary goal of 'managing up' as described in the briefing?",
+          "options": [
+            "To manipulate the manager's decisions.",
+            "To align with the manager's goals to achieve better results.",
+            "To delegate all tasks to junior staff."
+          ],
+          "answerIndex": 1,
+          "explanation": "Managing up is about alignment and working effectively with superiors."
+        }
+      ]
     },
     {
       "id": "adm-b2-w5-ex13",
@@ -150,16 +188,23 @@
     },
     {
       "id": "adm-b2-w5-ex16",
-      "type": "multipleChoice",
-      "prompt": "Exercise 16: L.E.A.P. Framework. A client is angry because of a shipping delay. Which response best represents the 'Empathize' stage?",
-      "options": [
-        "It's not my fault, the courier is late.",
-        "I understand how frustrating this delay must be for your project schedule.",
-        "I will call the warehouse immediately.",
-        "Please wait while I check the tracking number."
-      ],
-      "answerIndex": 1,
-      "explanation": "Empathizing involves acknowledging the other person's feelings and perspective."
+      "type": "reading-comprehension",
+      "title": "Exercise 16: De-escalation Strategy (Doc B)",
+      "text": "Doc B — Standard Operating Procedure: Conflict Resolution\n\nWhen a conflict arises, administrators must follow the **L.E.A.P. Framework** to **de-escalate** the situation. This approach ensures that the client or colleague feels heard while focusing on a professional outcome.\n\nSteps:\n1. **Listen**: Allow the speaker to finish without interruption.\n2. **Empathize**: Use phrases like 'I understand why this is a concern'.\n3. **Apologize**: Say 'I'm sorry for the inconvenience' even if not at fault.\n4. **Problem-solve**: Identify a **compromise** or a clear path forward.\n\n### Highlighted Vocabulary\n1. **De-escalate**: To reduce the intensity of a conflict or potentially violent situation.\n2. **Framework**: A basic structure underlying a system, concept, or text.\n3. **Compromise**: An agreement or a settlement of a dispute that is reached by each side making concessions.",
+      "questions": [
+        {
+          "question": "According to Doc B, what is the primary goal of the L.E.A.P. Framework?",
+          "options": ["To win the argument", "To de-escalate the situation", "To ignore the complaint"],
+          "answerIndex": 1,
+          "explanation": "The text states the framework is used to de-escalate the situation."
+        },
+        {
+          "question": "Which step involves saying 'I understand why this is a concern'?",
+          "options": ["Listen", "Empathize", "Problem-solve"],
+          "answerIndex": 1,
+          "explanation": "The SOP identifies this phrase as part of the Empathize step."
+        }
+      ]
     },
     {
       "id": "adm-b2-w5-ex17",
@@ -303,16 +348,23 @@
     },
     {
       "id": "adm-b2-w5-ex31",
-      "type": "multipleChoice",
-      "prompt": "Exercise 31: Conflict Resolution. What does it mean to 'meet halfway'?",
-      "options": [
-        "To walk to the middle of the office.",
-        "To compromise so both parties are satisfied.",
-        "To only do 50% of your work.",
-        "To attend only the first half of a meeting."
-      ],
-      "answerIndex": 1,
-      "explanation": "Meeting halfway is a synonym for compromise."
+      "type": "reading-comprehension",
+      "title": "Exercise 31: Professional Feedback (Doc C)",
+      "text": "Doc C — The SBI Model for Growth\n\nTo maintain a healthy team environment, feedback must be objective. We use the **SBI Model** (Situation, Behavior, Impact). When giving feedback, it is important to find **common ground** and aim to **meet halfway** if there are disagreements about the cause of an issue.\n\nKey Principles:\n- Focus on observable actions, not character.\n- Explain how the action affected the department's **accountability**.\n- Agree on an action plan to avoid recurrence.\n\n### Highlighted Vocabulary\n1. **Common Ground**: Shared interests or beliefs between disagreeing parties.\n2. **Meet Halfway**: To compromise with someone to reach an agreement.\n3. **Accountability**: The obligation to account for activities and accept responsibility.",
+      "questions": [
+        {
+          "question": "What does the SBI model stand for in Doc C?",
+          "options": ["Status, Budget, Increase", "Situation, Behavior, Impact", "Secret, Basic, Important"],
+          "answerIndex": 1,
+          "explanation": "The text defines SBI as Situation, Behavior, Impact."
+        },
+        {
+          "question": "Why should you try to 'meet halfway' during a feedback disagreement?",
+          "options": ["To avoid talking to the person", "To reach an agreement through compromise", "To admit you are wrong"],
+          "answerIndex": 1,
+          "explanation": "Meeting halfway is defined as compromising to reach an agreement."
+        }
+      ]
     },
     {
       "id": "adm-b2-w5-ex32",
