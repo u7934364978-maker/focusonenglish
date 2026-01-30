@@ -4,7 +4,7 @@
   "trimester": 1,
   "weekId": "semana08",
   "title": "Exam: Change Management & Innovation",
-  "description": "Assessment of change management vocabulary and modal verbs for deduction.",
+  "description": "Assessment of change management vocabulary, innovation types, and modal verbs for deduction.",
   "items": [
     {
       "id": "admin-b2-w8-exam-q1",
@@ -63,6 +63,183 @@
       "explanation": "Incremental innovation refers to small, continuous improvements.",
       "answerIndex": 1,
       "prompt": "What does 'incremental innovation' refer to?"
+    },
+    {
+      "id": "admin-b2-w8-exam-q6",
+      "type": "multipleChoice",
+      "options": [
+        "Buy-in",
+        "Resistance",
+        "Pivot",
+        "Migration"
+      ],
+      "explanation": "Buy-in is the agreement and support for a proposed change.",
+      "answerIndex": 0,
+      "prompt": "The CEO is looking for ________ from the department heads before implementing the new policy."
+    },
+    {
+      "id": "admin-b2-w8-exam-q7",
+      "type": "fillBlanks",
+      "explanation": "UAT is the final phase of testing.",
+      "prompt": "Before the software goes live, we must complete the ________ phase with our end-users.",
+      "answers": [
+        "UAT",
+        "User Acceptance Testing"
+      ]
+    },
+    {
+      "id": "admin-b2-w8-exam-q8",
+      "type": "multipleChoice",
+      "options": [
+        "Create Urgency",
+        "Generate Short-term Wins",
+        "Anchor the Change",
+        "Form a Coalition"
+      ],
+      "explanation": "Creating urgency is the first step in Kotter's 8-Step Model.",
+      "answerIndex": 0,
+      "prompt": "According to Kotter, what is the very first step in a successful change process?"
+    },
+    {
+      "id": "admin-b2-w8-exam-q9",
+      "type": "multipleChoice",
+      "options": [
+        "Should have",
+        "Might have",
+        "Must have",
+        "Needn't have"
+      ],
+      "explanation": "'Should have' expresses regret or a missed opportunity.",
+      "answerIndex": 0,
+      "prompt": "We ________ (prepare) for the server migration more thoroughly; the downtime was unacceptable."
+    },
+    {
+      "id": "admin-b2-w8-exam-q10",
+      "type": "fillBlanks",
+      "explanation": "Legacy systems are outdated.",
+      "prompt": "The company's reliance on ________ systems is preventing us from being truly agile.",
+      "answers": [
+        "legacy"
+      ]
+    },
+    {
+      "id": "admin-b2-w8-exam-q11",
+      "type": "multipleChoice",
+      "options": [
+        "Pivot",
+        "Migration",
+        "UAT",
+        "Resistance"
+      ],
+      "explanation": "A pivot is a strategic change in direction.",
+      "answerIndex": 0,
+      "prompt": "When the initial marketing strategy failed, the startup decided to ________ and focus on B2B clients instead."
+    },
+    {
+      "id": "admin-b2-w8-exam-q12",
+      "type": "multipleChoice",
+      "options": [
+        "Incremental",
+        "Disruptive",
+        "Architectural",
+        "Radical"
+      ],
+      "explanation": "Disruptive innovation completely changes an industry.",
+      "answerIndex": 1,
+      "prompt": "Digital photography was a ________ innovation that eventually replaced the film industry."
+    },
+    {
+      "id": "admin-b2-w8-exam-q13",
+      "type": "fillBlanks",
+      "explanation": "Needn't have is for unnecessary past actions.",
+      "prompt": "We ________ (hire) the external consultant because our in-house team already had the solution.",
+      "answers": [
+        "needn't have hired",
+        "need not have hired"
+      ]
+    },
+    {
+      "id": "admin-b2-w8-exam-q14",
+      "type": "multipleChoice",
+      "options": [
+        "To make it permanent in the corporate culture.",
+        "To make it temporary.",
+        "To ignore it.",
+        "To reverse it."
+      ],
+      "explanation": "Anchoring ensures the change stays part of the culture.",
+      "answerIndex": 0,
+      "prompt": "What is the goal of 'anchoring' a change in Kotter's model?"
+    },
+    {
+      "id": "admin-b2-w8-exam-q15",
+      "type": "multipleChoice",
+      "options": [
+        "Might have",
+        "Must have",
+        "Should have",
+        "Can't have"
+      ],
+      "explanation": "'Might have' expresses low certainty/possibility.",
+      "answerIndex": 0,
+      "prompt": "The files are missing. They ________ (be / delete) by accident during the system update."
+    },
+    {
+      "id": "admin-b2-w8-exam-q16",
+      "type": "fillBlanks",
+      "explanation": "Migration is moving data.",
+      "prompt": "The data ________ to the new cloud server will take approximately six hours.",
+      "answers": [
+        "migration"
+      ]
+    },
+    {
+      "id": "admin-b2-w8-exam-q17",
+      "type": "multipleChoice",
+      "options": [
+        "Transparency",
+        "Resistance",
+        "Incentivisation",
+        "Training"
+      ],
+      "explanation": "Resistance is the reaction against change.",
+      "answerIndex": 1,
+      "prompt": "Which of these is a COMMON CHALLENGE when implementing new administrative processes?"
+    },
+    {
+      "id": "admin-b2-w8-exam-q18",
+      "type": "fillBlanks",
+      "explanation": "Must have + past participle.",
+      "prompt": "The project was a huge success! The team ________ (work) very hard on the implementation.",
+      "answers": [
+        "must have worked"
+      ]
+    },
+    {
+      "id": "admin-b2-w8-exam-q19",
+      "type": "multipleChoice",
+      "options": [
+        "Short-term wins",
+        "Vision",
+        "Coalition",
+        "Obstacles"
+      ],
+      "explanation": "Short-term wins help maintain motivation.",
+      "answerIndex": 0,
+      "prompt": "To maintain momentum during a long project, it is essential to celebrate ________."
+    },
+    {
+      "id": "admin-b2-w8-exam-q20",
+      "type": "multipleChoice",
+      "options": [
+        "Agile",
+        "Legacy",
+        "Disruptive",
+        "Bottleneck"
+      ],
+      "explanation": "Agile methodologies focus on speed and adaptability.",
+      "answerIndex": 0,
+      "prompt": "An ________ approach involves breaking down tasks into short phases with frequent reassessment."
     }
   ]
 }

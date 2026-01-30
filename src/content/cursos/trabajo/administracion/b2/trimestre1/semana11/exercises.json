@@ -149,9 +149,326 @@
     {
       "id": "adm-b2-w11-ex15",
       "type": "writingTask",
-      "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Workaround'. 2) What is the difference between Mitigation and Contingency? 3) Form a Third Conditional: 'We / check the specs / notice the error'. 4) Name 4 risk response strategies.",
-      "modelAnswer": "1) An unplanned response to an unexpected problem. 2) Mitigation is before the risk; Contingency is after. 3) If we had checked the specs, we would have noticed the error. 4) Avoidance, Mitigation, Transfer, Acceptance.",
-      "keywords": ["unplanned", "before", "If we had", "Avoidance"]
+      "prompt": "Exercise 15: Weekly Mini-test. 1) Name the 4 project phases. 2) Define 'KPI'. 3) Invert for emphasis: 'I have never seen such scope creep.' 4) Form a sentence: 'By EOD / I / finish / the map' (Future Perfect).",
+      "modelAnswer": "1) Initiation, Planning, Execution, Closure. 2) Key Performance Indicator. 3) Never have I seen such scope creep. 4) By EOD, I will have finished the map.",
+      "keywords": ["Initiation", "Indicator", "Never", "will have"]
+    },
+    {
+      "id": "adm-b2-w11-ex16",
+      "type": "reading-comprehension",
+      "title": "Exercise 16: Business Continuity in the Financial District",
+      "text": "For a London-based financial firm, **Business Continuity** Planning (BCP) is more than just a regulatory requirement; it is a necessity for survival. A robust BCP ensures that if a **catastrophic** event **had occurred**, the firm **would have been able** to maintain its critical operations. Last year, a local power outage tested these systems. If the IT department **had not backed up** the transaction data to an off-site server, the financial **impact** **would have been** devastating. The firm's **RTO** (Recovery Time Objective) was set at two hours, and thanks to a well-rehearsed **contingency plan**, they met it. However, a post-mortem revealed that if they **had updated** their emergency contact list, they **would be** even better prepared today. This **mixed conditional** highlights how past lessons influence present readiness.",
+      "questions": [
+        {
+          "question": "What prevented a 'devastating' financial impact during last year's outage?",
+          "options": ["The power coming back on quickly", "The off-site backup of transaction data", "Buying new insurance"],
+          "answerIndex": 1,
+          "explanation": "The text states: 'If the IT department had not backed up... the impact would have been devastating'."
+        },
+        {
+          "question": "What does the text mention as a 'mixed conditional' scenario?",
+          "options": ["The RTO being met", "The power outage itself", "The emergency contact list update affecting current readiness"],
+          "answerIndex": 2,
+          "explanation": "The text uses a mixed conditional to show how a past action (updating the list) would result in a better present state."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex17",
+      "type": "vocabulary-match",
+      "title": "Exercise 17: Highlighted Vocabulary",
+      "prompt": "Match the risk management terms with their definitions.",
+      "pairs": [
+        { "term": "Catastrophic", "definition": "Involving or causing sudden great damage or suffering." },
+        { "term": "RTO", "definition": "The target time to restore a business process after a disaster." },
+        { "term": "BCP", "definition": "A plan to ensure business operations continue during a crisis." },
+        { "term": "Off-site", "definition": "Located away from the main place of business." }
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex18",
+      "type": "multipleChoice",
+      "prompt": "Exercise 18: Risk Response. If you outsource your data security to a specialist firm, which strategy are you using?",
+      "options": ["Avoidance", "Mitigation", "Transfer", "Acceptance"],
+      "answerIndex": 2,
+      "explanation": "Outsourcing is a form of 'Transfer'—moving the risk to a third party."
+    },
+    {
+      "id": "adm-b2-w11-ex19",
+      "type": "multipleChoice",
+      "prompt": "Exercise 19: Third Conditional. Choose the correct form: 'If we ___ the risk register, we would have seen the problem coming.'",
+      "options": ["update", "updated", "had updated", "would update"],
+      "answerIndex": 2,
+      "explanation": "Third Conditional uses 'If + Past Perfect'."
+    },
+    {
+      "id": "adm-b2-w11-ex20",
+      "type": "multipleChoice",
+      "prompt": "Exercise 20: Third Conditional. Choose the correct form: 'The project ___ successful if we had allocated more resources.'",
+      "options": ["would be", "would have been", "will be", "is"],
+      "answerIndex": 1,
+      "explanation": "The result clause of the Third Conditional is 'would have + past participle'."
+    },
+    {
+      "id": "adm-b2-w11-ex21",
+      "type": "multipleChoice",
+      "prompt": "Exercise 21: Risk Metrics. RPO (Recovery Point Objective) refers to:",
+      "options": ["The time taken to fix a computer.", "The maximum age of data that must be recovered from backups.", "The cost of a new server.", "The number of employees in the IT team."],
+      "answerIndex": 1,
+      "explanation": "RPO defines data loss tolerance (how far back in time the backup goes)."
+    },
+    {
+      "id": "adm-b2-w11-ex22",
+      "type": "multipleChoice",
+      "prompt": "Exercise 22: Phrasal Verbs. To 'head off' a problem means:",
+      "options": ["To ignore it", "To prevent it from happening", "To fire the person responsible", "To lose your mind"],
+      "answerIndex": 1,
+      "explanation": "'Head off' is an idiom for prevention."
+    },
+    {
+      "id": "adm-b2-w11-ex23",
+      "type": "multipleChoice",
+      "prompt": "Exercise 23: Mixed Conditionals. Choose the correct form: 'If you had listened to me last year, we ___ in this mess now.'",
+      "options": ["wouldn't have been", "wouldn't be", "aren't", "won't be"],
+      "answerIndex": 1,
+      "explanation": "Mixed Conditional: Past action (had listened) -> Present result (wouldn't be)."
+    },
+    {
+      "id": "adm-b2-w11-ex24",
+      "type": "multipleChoice",
+      "prompt": "Exercise 24: Business Continuity. A 'Workaround' is best described as:",
+      "options": ["A permanent fix", "A professional holiday", "A temporary or unplanned fix for a problem", "An insurance policy"],
+      "answerIndex": 2,
+      "explanation": "A workaround is a temporary bypass of a problem."
+    },
+    {
+      "id": "adm-b2-w11-ex25",
+      "type": "oralRecording",
+      "title": "Exercise 25: Oral Recording Task 1 - Near Miss Report",
+      "prompt": "You are reporting a 'near miss' that happened during the data migration. Record a 60-second summary for the risk committee. Mention: 1) What the 'near miss' was, 2) How the team managed to 'head off' the disaster, and 3) A 'workaround' implemented.",
+      "modelAnswer": "I am reporting a near miss regarding the HR database migration. We almost lost connection to the primary server, but the team managed to head off a total system failure by switching to the secondary node immediately. We have implemented a temporary workaround to ensure data integrity while we investigate the root cause."
+    },
+    {
+      "id": "adm-b2-w11-ex26",
+      "type": "listening-glossary",
+      "title": "Exercise 26: Listening Glossary",
+      "prompt": "Review these terms before listening to the disaster recovery audio.",
+      "terms": [
+        { "term": "Ransomware", "definition": "Malicious software that blocks access until money is paid." },
+        { "term": "Breach", "definition": "A gap in a wall or barrier; a violation of security." },
+        { "term": "Encryption", "definition": "The process of converting information into code." },
+        { "term": "Compromised", "definition": "Made vulnerable or weakened." }
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex27",
+      "type": "listening-comprehension",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana11/adm-b2-w11-dr-drill.mp3",
+      "title": "Exercise 27: Disaster Recovery Drill",
+      "prompt": "Listen to the IT Director briefing the administration team on a simulated data breach.",
+      "questions": [
+        {
+          "question": "What was the simulated cause of the system failure?",
+          "options": ["A power surge", "A ransomware attack", "A physical fire", "Human error"],
+          "answerIndex": 1,
+          "explanation": "The audio mentions a 'simulated ransomware attack' on the HR database."
+        },
+        {
+          "question": "According to the Director, what would have happened if they hadn't used encryption?",
+          "options": ["The data would be safe.", "The hackers would have gained access to sensitive employee details.", "The system would be faster.", "Nothing would change."],
+          "answerIndex": 1,
+          "explanation": "The Director uses a third conditional: 'If we hadn't used encryption, the hackers would have gained access...'"
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex28",
+      "type": "listening-comprehension",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana11/adm-b2-w11-risk-meeting.mp3",
+      "title": "Exercise 28: Risk Post-Mortem Meeting",
+      "prompt": "Listen to the discussion about the failed project launch.",
+      "questions": [
+        {
+          "question": "Why did the project 'fall through'?",
+          "options": ["The budget was too small.", "The key supplier went bankrupt.", "The client changed their mind.", "The project lead quit."],
+          "answerIndex": 1,
+          "explanation": "The manager explains that the supplier's insolvency was the primary cause."
+        },
+        {
+          "question": "What 'lessons learned' does the speaker mention?",
+          "options": ["Hire more people.", "If they had transferred the risk to another vendor, they wouldn't be in this situation.", "Cancel all future projects.", "Spend more on marketing."],
+          "answerIndex": 1,
+          "explanation": "The speaker explicitly mentions that transferring the risk through a multi-vendor strategy would have prevented the failure."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex29",
+      "type": "dictation",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana11/adm-b2-w11-dictation.mp3",
+      "title": "Exercise 29: Dictation",
+      "prompt": "Listen and type the sentence using a mixed conditional.",
+      "answer": "If we had invested in a better business continuity plan last year, we would not be facing these operational challenges today.",
+      "explanation": "Focus on the 'had invested' and 'would not be facing' structure."
+    },
+    {
+      "id": "adm-b2-w11-ex30",
+      "type": "gap-fill",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana11/adm-b2-w11-gap-fill.mp3",
+      "title": "Exercise 30: Gap-fill - Risk Protocol",
+      "prompt": "Listen and fill in the missing risk management terms.",
+      "text": "The project nearly **{fell through}** because we didn't **{head off}** the supply chain issues. If we **{had implemented}** a stronger **{mitigation}** strategy, we **{would have avoided}** the delay. We need to **{back up}** our data now to prevent a repeat.",
+      "explanation": "Uses phrasal verbs and conditionals in a risk management context."
+    },
+    {
+      "id": "adm-b2-w11-ex31",
+      "type": "reading-comprehension",
+      "title": "Exercise 31: Business Continuity Protocols (Doc C)",
+      "text": "Doc C — Standing Operating Procedure: Business Continuity\n\nTo ensure resilience, all departments must maintain an updated **Business Continuity (BC)** plan. In the event of a server failure, our **RTO** is strictly set to four hours. We have identified that if we **had not back up** our files to the cloud, our **RPO** would be significantly compromised. Currently, we use **encryption** to **ward off** potential cyber-attacks. If a **breach** occurs, the administrator must **deal with** the initial notification within 30 minutes. We recommend a **mitigation** strategy that includes quarterly **drills** to identify any **friction** in the restoration process.\n\n### Key Metrics Table\n- **RTO**: 4 Hours (Target restoration time).\n- **RPO**: 1 Hour (Maximum data loss tolerance).\n- **Encryption**: AES-256 standard.",
+      "questions": [
+        {
+          "question": "What is the RTO (Recovery Time Objective) for a server failure?",
+          "options": [
+            "One hour.",
+            "Four hours.",
+            "30 minutes."
+          ],
+          "answerIndex": 1,
+          "explanation": "Doc C states: 'our RTO is strictly set to four hours'."
+        },
+        {
+          "question": "What technology is used to 'ward off' cyber-attacks?",
+          "options": [
+            "Encryption.",
+            "Physical locks.",
+            "Filing cabinets."
+          ],
+          "answerIndex": 0,
+          "explanation": "The text mentions: 'we use encryption to ward off potential cyber-attacks'."
+        },
+        {
+          "question": "How quickly must an administrator 'deal with' the initial notification of a breach?",
+          "options": [
+            "Within 4 hours.",
+            "Within 30 minutes.",
+            "By the end of the day."
+          ],
+          "answerIndex": 1,
+          "explanation": "The SOP says the administrator must deal with the notification 'within 30 minutes'."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex32",
+      "type": "multipleChoice",
+      "prompt": "Exercise 32: Probability vs Impact. A risk with 'Low Probability' and 'High Impact' should be:",
+      "options": ["Ignored", "Monitored and mitigated", "Given the highest priority immediately", "Transferred only"],
+      "answerIndex": 1,
+      "explanation": "Even if probability is low, high impact risks require monitoring and a contingency plan."
+    },
+    {
+      "id": "adm-b2-w11-ex33",
+      "type": "multipleChoice",
+      "prompt": "Exercise 33: Third Conditional. 'If they ___ more careful, they wouldn't have made that mistake.'",
+      "options": ["were", "had been", "would be", "be"],
+      "answerIndex": 1,
+      "explanation": "Past Perfect for the 'if' clause of the Third Conditional."
+    },
+    {
+      "id": "adm-b2-w11-ex34",
+      "type": "multipleChoice",
+      "prompt": "Exercise 34: Business Continuity. RTO stands for:",
+      "options": ["Real Time Operations", "Recovery Time Objective", "Return to Office", "Risk Tracking Office"],
+      "answerIndex": 1,
+      "explanation": "Recovery Time Objective is the time allowed for system restoration."
+    },
+    {
+      "id": "adm-b2-w11-ex35",
+      "type": "multipleChoice",
+      "prompt": "Exercise 35: Risk Strategies. Buying fire insurance is an example of:",
+      "options": ["Avoidance", "Mitigation", "Transfer", "Acceptance"],
+      "answerIndex": 2,
+      "explanation": "Insurance transfers the financial risk to the insurance company."
+    },
+    {
+      "id": "adm-b2-w11-ex36",
+      "type": "writingTask",
+      "prompt": "Exercise 36: Sentence Transformation. Rewrite using the Third Conditional: 'We didn't see the warning, so we didn't stop the project.'",
+      "modelAnswer": "If we had seen the warning, we would have stopped the project.",
+      "keywords": ["If we had", "would have"]
+    },
+    {
+      "id": "adm-b2-w11-ex37",
+      "type": "writingTask",
+      "prompt": "Exercise 37: Mixed Conditional. Form a sentence: 'not lose the files (past) / be stressed (now)'.",
+      "modelAnswer": "If I hadn't lost the files, I wouldn't be stressed now.",
+      "keywords": ["If I hadn't", "wouldn't be"]
+    },
+    {
+      "id": "adm-b2-w11-ex38",
+      "type": "writingTask",
+      "prompt": "Exercise 38: Professional Phrasing. Complete: 'To ___ ___ cyber-attacks, we have updated our firewall.'",
+      "modelAnswer": "ward off",
+      "keywords": ["ward", "off"]
+    },
+    {
+      "id": "adm-b2-w11-ex39",
+      "type": "multipleChoice",
+      "prompt": "Exercise 39: Third Conditional (Probability). 'If the market ___ better, the project might have succeeded.'",
+      "options": ["is", "was", "had been", "would be"],
+      "answerIndex": 2,
+      "explanation": "Third conditional for a past probability."
+    },
+    {
+      "id": "adm-b2-w11-ex40",
+      "type": "oralRecording",
+      "title": "Exercise 40: Oral Recording Task 2 - Root Cause Briefing",
+      "prompt": "Record a 60-second post-mortem briefing for the project sponsor. Use a 'Third Conditional' and a 'Mixed Conditional'. Mention: 1) What 'would have happened' if the risk hadn't been mitigated, and 2) How a past decision is 'affecting' the current status.",
+      "modelAnswer": "If we had not implemented the multi-cloud strategy, the entire project would have fallen through last week. Furthermore, if we had invested more in system testing last year, we would not be facing these minor connectivity issues today. We are now working on a permanent fix to ensure business continuity."
+    },
+    {
+      "id": "adm-b2-w11-ex41",
+      "type": "writingTask",
+      "prompt": "Exercise 41: Speculating on Failure. Use Third Conditional: 'The deal (not fall through) if the administrator (check) the contract.'",
+      "modelAnswer": "The deal wouldn't have fallen through if the administrator had checked the contract.",
+      "keywords": ["wouldn't have", "had checked"]
+    },
+    {
+      "id": "adm-b2-w11-ex42",
+      "type": "writingTask",
+      "prompt": "Exercise 42: Current State vs Past Action. Use Mixed Conditional: 'If the company (not go) bankrupt last year, we (still work) there.'",
+      "modelAnswer": "If the company hadn't gone bankrupt last year, we would still be working there.",
+      "keywords": ["hadn't gone", "would still be working"]
+    },
+    {
+      "id": "adm-b2-w11-ex43",
+      "type": "writingTask",
+      "prompt": "Exercise 43: Vocabulary in context. Write a sentence using 'Contingency Plan'.",
+      "modelAnswer": "We have a contingency plan in case the main venue is unavailable.",
+      "keywords": ["contingency"]
+    },
+    {
+      "id": "adm-b2-w11-ex44",
+      "type": "writingTask",
+      "prompt": "Exercise 44: Error Correction. Fix: 'If we would have seen the risk, we would have avoided it.'",
+      "modelAnswer": "If we had seen the risk, we would have avoided it.",
+      "keywords": ["If we had"]
+    },
+    {
+      "id": "adm-b2-w11-ex45",
+      "type": "writingTask",
+      "title": "Exercise 45: Weekly Review - Risk Management",
+      "prompt": "Synthesize this week's learning: 1) Explain the difference between 'Mitigation' and 'Transfer' in one sentence. 2) Write a third conditional sentence about a past project risk. 3) Define 'RTO' and 'RPO' and why they are critical for an administrator.",
+      "modelAnswer": "1) Mitigation involves reducing the probability or impact of a risk, whereas transfer moves the risk to a third party, such as an insurance company. 2) If the backup server had failed, the company would have lost all its client data. 3) RTO is the target time for system restoration, and RPO is the maximum data loss tolerance; they are critical because they define the recovery standards during a crisis.",
+      "keywords": [
+        "Mitigation",
+        "Transfer",
+        "If we had",
+        "would have",
+        "RTO",
+        "RPO",
+        "Recovery"
+      ]
     }
   ]
 }

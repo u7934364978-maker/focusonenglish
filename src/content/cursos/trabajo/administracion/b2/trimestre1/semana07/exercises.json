@@ -242,11 +242,10 @@
     },
     {
       "id": "adm-b2-w7-ex25",
-      "type": "multipleChoice",
-      "prompt": "What is 'Asset Provisioning' in onboarding?",
-      "options": ["Checking the employee's bank account.", "Providing the necessary equipment like laptops and keys.", "Hiring a new manager.", "Cleaning the office."],
-      "answerIndex": 1,
-      "explanation": "Asset provisioning is the act of providing the tools needed for the job."
+      "type": "oralRecording",
+      "title": "Exercise 25: Oral Recording - Interview Coordination Call",
+      "prompt": "Record a voicemail for an internal manager (Sarah) regarding the upcoming Project Manager interviews. Mention the 'shortlist' of 5 candidates, the need to coordinate the 'interview panel' for next Tuesday, and use a reporting verb (e.g., 'HR emphasized...').",
+      "modelAnswer": "Hi Sarah, I'm calling to coordinate the Project Manager interviews for next Tuesday. We've finalized a shortlist of 5 candidates, and HR has emphasized that we need to confirm the interview panel by EOD today. Could you let me know if you're available from 10 AM to 2 PM?"
     },
     {
       "id": "adm-b2-w7-ex26",
@@ -302,6 +301,12 @@
           "options": ["The candidate", "The HR Lead", "The junior administrator"],
           "answerIndex": 1,
           "explanation": "Doc C specifies that reports must be signed off on by the HR Lead."
+        },
+        {
+          "question": "What is the primary reason for having reports signed off by the HR Lead?",
+          "options": ["To check for spelling errors.", "To ensure compliance with data protection laws.", "To make the report longer."],
+          "answerIndex": 1,
+          "explanation": "The text states that this process 'ensures compliance with data protection laws.'"
         }
       ]
     },
@@ -367,10 +372,10 @@
     },
     {
       "id": "adm-b2-w7-ex40",
-      "type": "writingTask",
-      "prompt": "Vocabulary: Write a sentence using 'underperformance' and 'PIP'.",
-      "modelAnswer": "Due to consistent underperformance, the employee was placed on a PIP to monitor their progress.",
-      "keywords": ["underperformance", "PIP"]
+      "type": "oralRecording",
+      "title": "Exercise 40: Oral Recording - Performance Review Summary",
+      "prompt": "You are an administrator reporting the results of a performance review to the HR Lead. Record a 60-second briefing. Mention if the employee 'exceeded expectations' or is 'underperforming', use a sophisticated reporting verb (e.g., 'The manager asserted...'), and mention their 'SMART goals' for the next year.",
+      "modelAnswer": "Regarding Mark's appraisal, the manager asserted that he has consistently exceeded expectations in his Q3 KPIs. They have agreed on several SMART goals for next year, focusing on talent retention within his team. I've drafted his PDP and it's ready for your final sign-off."
     },
     {
       "id": "adm-b2-w7-ex41",
@@ -404,11 +409,11 @@
     },
     {
       "id": "adm-b2-w7-ex45",
-      "type": "multipleChoice",
-      "prompt": "What happens during a '3-month probation period'?",
-      "options": ["The employee is in prison.", "The employee's performance is monitored before confirming permanent status.", "The employee gets 3 months of holiday.", "The employee is promoted every month."],
-      "answerIndex": 1,
-      "explanation": "Probation is a trial period to evaluate a new hire."
+      "type": "writingTask",
+      "title": "Exercise 45: Weekly Review - Comprehensive HR Scenario",
+      "prompt": "You are managing the onboarding of a 'High-flyer' and the offboarding of an employee who committed 'Gross Misconduct'. 1) List 3 'Asset Provisioning' tasks for the new hire. 2) Write a reported speech sentence regarding the misconduct dismissal. 3) Explain the purpose of an 'Exit Interview' for regular turnover.",
+      "modelAnswer": "1) Provisioning laptop, issuing access cards, and setting up the workstation. 2) The Director confirmed that the employee had been dismissed immediately for gross misconduct. 3) The purpose of an exit interview is to gather feedback on the employee's experience to improve retention and understand the reasons for turnover.",
+      "keywords": ["Asset Provisioning", "reported speech", "misconduct", "Exit Interview"]
     }
   ]
 }

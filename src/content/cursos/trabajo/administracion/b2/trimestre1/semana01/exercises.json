@@ -9,7 +9,7 @@
       "id": "adm-b2-w1-ex01",
       "type": "reading-comprehension",
       "title": "Exercise 1: Email Comprehension (Doc A)",
-      "text": "Doc A — Internal Email (Welcome)\n\nSubject: Welcome to Operations — quick intro & ways of working\n\nHi everyone,\n\nPlease join me in welcoming Alex Taylor to the Operations team. Alex will support day-to-day coordination across teams and help us keep requests **moving**.\n\nWays of working (recap):\n1. Use the Ops Inbox for requests that can’t be solved within your team.\n2. If a request is **time-sensitive**, flag it as **Urgent** and include a **deadline**.\n3. We track work in the Ops Board (status: New / In progress / **Blocked** / Done).\n4. If something is blocked for more than 24 hours, please **escalate** in the daily check-in.\n\nThanks,\nPriya\n\n**Vocabulary Definitions:**\n- **Moving**: Progressing or continuing without interruption.\n- **Time-sensitive**: Needing to be handled quickly or by a certain time.\n- **Urgent**: Requiring immediate action or attention.\n- **Deadline**: The latest time or date by which something should be completed.\n- **Blocked**: Prevented from making progress due to a dependency.\n- **Escalate**: To refer a matter to a higher level of authority.",
+      "text": "Doc A — Internal Email (Welcome)\n\nSubject: Welcome to Operations — quick intro & ways of working\n\nHi everyone,\n\nPlease join me in welcoming Alex Taylor to the Operations team. Alex will support day-to-day coordination across teams and help us keep requests **moving**.\n\nWays of working (recap):\n1. Use the Ops Inbox for requests that can’t be solved within your team.\n2. If a request is **time-sensitive**, flag it as **Urgent** and include a **deadline**.\n3. We track work in the Ops Board (status: New / In progress / **Blocked** / Done).\n4. If something is blocked for more than 24 hours, please **escalate** in the daily check-in.\n\nThanks,\nPriya\n\n### Highlighted Vocabulary\n1. **Moving**: Progressing or continuing without interruption.\n2. **Time-sensitive**: Needing to be handled quickly or by a certain time.\n3. **Urgent**: Requiring immediate action or attention.\n4. **Deadline**: The latest time or date by which something should be completed.\n5. **Blocked**: Prevented from making progress due to a dependency.\n6. **Escalate**: To refer a matter to a higher level of authority.",
       "questions": [
         {
           "question": "Where should requests that cannot be solved within your team be sent?",
@@ -115,17 +115,45 @@
     },
     {
       "id": "adm-b2-w1-ex11",
-      "type": "writingTask",
-      "prompt": "Exercise 11: Daily Check-in Recording. Prepare and record a 2-4 minute audio simulating a daily check-in. Structure: Yesterday (1 sentence), Today (1-2 sentences), Blocker (1 sentence), Escalation request (if needed), Owners & dates (1 sentence).",
-      "modelAnswer": "[Audio Upload Required] Rubric: Clarity, Accuracy, Politeness, Conciseness, Action orientation.",
-      "keywords": ["Yesterday", "Today", "Blocker", "Escalation", "Owners"]
+      "type": "listening",
+      "title": "Exercise 11: Adapting to a New Work Culture",
+      "audioUrl": "/audio/b2-m1-l1-listening-1.mp3",
+      "transcript": "Interviewer: So, tell me about your experience working abroad.\n\nSarah: Well, I had been thinking about working overseas for quite some time before I actually made the decision to apply for jobs in Singapore. I had been working in marketing for my company in London for five years, and I felt like I needed a new challenge.\n\nInterviewer: What made you choose Singapore specifically?\n\nSarah: To be honest, I had never considered Asia before. But then I attended a conference where I met some colleagues from our Singapore office. They had been working there for a couple of years and couldn't stop talking about how amazing it was. By the time the conference ended, I had already decided that I wanted to explore opportunities there.\n\nInterviewer: And how did you find the transition?\n\nSarah: It was definitely challenging at first. I had prepared as much as I could – I had read about the culture, learned some basic phrases, and even visited once before moving. But still, nothing could have fully prepared me for the reality of living there. I had been living in London my entire life, so adapting to such a different culture was quite a shock initially.\n\nInterviewer: What was the biggest challenge?\n\nSarah: Probably the work culture. I had expected some differences, but I hadn't realized how much the business environment would differ from what I was used to. I had been accustomed to a very direct communication style in London, but in Singapore, people tend to be more indirect and diplomatic.\n\nInterviewer: And would you recommend the experience to others?\n\nSarah: Absolutely! By the end of my two-year contract, I had grown both personally and professionally in ways I never could have if I had stayed in London. I had made lifelong friends, learned about a completely different way of doing business, and gained a much broader perspective on the world.",
+      "questions": [
+        {
+          "question": "What was Sarah's primary reason for moving to Singapore?",
+          "options": ["She was offered a promotion.", "She felt she needed a new challenge.", "She wanted to learn a new language."],
+          "answerIndex": 1,
+          "explanation": "Sarah states: 'I had been working in marketing for my company in London for five years, and I felt like I needed a new challenge.'"
+        },
+        {
+          "question": "How does Sarah describe the communication style in Singapore compared to London?",
+          "options": ["It is more direct and aggressive.", "It is more indirect and diplomatic.", "It is exactly the same."],
+          "answerIndex": 1,
+          "explanation": "Sarah mentions that in Singapore, people 'tend to be more indirect and diplomatic' compared to the direct style in London."
+        }
+      ]
     },
     {
       "id": "adm-b2-w1-ex12",
-      "type": "writingTask",
-      "prompt": "Exercise 12: Escalation Call. Record a 60-90 second audio escalating a blocker that has lasted more than 24 hours. You must explicitly mention the 'impact' and 'what you need'.",
-      "modelAnswer": "[Audio Upload Required] Checklist: Facts, Impact, Deadline, Tried, Need.",
-      "keywords": ["impact", "need", "escalation"]
+      "type": "listening",
+      "title": "Exercise 12: Listening to a Metrics Report",
+      "audioUrl": "/audio/adm-b2-w1-metrics-report.mp3",
+      "transcript": "Good morning everyone. I’d like to give you a quick update on our operational metrics for the last quarter. Our throughput has been quite impressive, reaching 750 units, which is a significant increase compared to the previous period. Regarding our Service Level Agreements, I am pleased to confirm that we are currently meeting all our SLAs for response times. However, our lead time for onboarding new vendors still needs some improvement to align with our long-term KPIs. We are working on a plan to streamline the documentation process to address this. Thanks.",
+      "questions": [
+        {
+          "question": "What was the throughput for the last quarter?",
+          "options": ["500 units", "750 units", "1000 units"],
+          "answerIndex": 1,
+          "explanation": "The report specifically mentions 750 units as the quarterly throughput."
+        },
+        {
+          "question": "Is the team currently meeting the SLA for response times?",
+          "options": ["Yes", "No", "Partially"],
+          "answerIndex": 0,
+          "explanation": "The speaker confirms that SLAs are being met."
+        }
+      ]
     },
     {
       "id": "adm-b2-w1-ex13",
@@ -152,7 +180,7 @@
       "id": "adm-b2-w1-ex16",
       "type": "reading-comprehension",
       "title": "Exercise 16: Continuous Improvement Reading",
-      "text": "The Culture of Continuous Improvement\n\nTo remain competitive, modern operations teams must embrace a culture of Continuous Improvement. This approach involves constantly seeking ways to **streamline** processes and eliminate waste. \n\nOne common methodology is 'Kaizen', which focuses on small, incremental changes that **yield** significant long-term results. When a process becomes **redundant**, it is the responsibility of the Operations team to **overhaul** the current system to ensure maximum efficiency.\n\n**Vocabulary Definitions:**\n- **Streamline**: To make an organization or system more efficient by employing faster or simpler working methods.\n- **Yield**: To produce or provide significant results.\n- **Redundant**: No longer needed or useful.\n- **Overhaul**: To take apart and repair or improve a system.",
+      "text": "The Culture of Continuous Improvement\n\nTo remain competitive, modern operations teams must embrace a culture of **Continuous Improvement**. This approach involves constantly seeking ways to **streamline** processes and eliminate waste. \n\nOne common methodology is 'Kaizen', which focuses on small, incremental changes that **yield** significant long-term results. When a process becomes **redundant**, it is the responsibility of the Operations team to **overhaul** the current system to ensure maximum efficiency.\n\n### Highlighted Vocabulary\n1. **Continuous Improvement**: The ongoing improvement of products, services, or processes through incremental and breakthrough improvements.\n2. **Streamline**: To make an organization or system more efficient by employing faster or simpler working methods.\n3. **Yield**: To produce or provide significant results.\n4. **Redundant**: No longer needed or useful.\n5. **Overhaul**: To take apart and repair or improve a system.",
       "questions": [
         {
           "question": "What is the primary goal of streamlining processes?",
@@ -242,24 +270,10 @@
     },
     {
       "id": "adm-b2-w1-ex25",
-      "type": "listening",
-      "title": "Exercise 25: Listening to a Metrics Report",
-      "audioUrl": "/audio/adm-b2-w1-metrics-report.mp3",
-      "transcript": "Good morning everyone. I’d like to give you a quick update on our operational metrics for the last quarter. Our throughput has been quite impressive, reaching 750 units, which is a significant increase compared to the previous period. Regarding our Service Level Agreements, I am pleased to confirm that we are currently meeting all our SLAs for response times. However, our lead time for onboarding new vendors still needs some improvement to align with our long-term KPIs. We are working on a plan to streamline the documentation process to address this. Thanks.",
-      "questions": [
-        {
-          "question": "What was the throughput for the last quarter?",
-          "options": ["500 units", "750 units", "1000 units"],
-          "answerIndex": 1,
-          "explanation": "The report specifically mentions 750 units as the quarterly throughput."
-        },
-        {
-          "question": "Is the team currently meeting the SLA for response times?",
-          "options": ["Yes", "No", "Partially"],
-          "answerIndex": 0,
-          "explanation": "The speaker confirms that SLAs are being met."
-        }
-      ]
+      "type": "oralRecording",
+      "prompt": "Exercise 25: Daily Check-in Recording. Prepare and record a 2-4 minute audio simulating a daily check-in. Structure: Yesterday (1 sentence), Today (1-2 sentences), Blocker (1 sentence), Escalation request (if needed), Owners & dates (1 sentence).",
+      "modelAnswer": "[Audio Upload Required] Rubric: Clarity, Accuracy, Politeness, Conciseness, Action orientation.",
+      "keywords": ["Yesterday", "Today", "Blocker", "Escalation", "Owners"]
     },
     {
       "id": "adm-b2-w1-ex26",
@@ -301,8 +315,8 @@
     {
       "id": "adm-b2-w1-ex31",
       "type": "reading-comprehension",
-      "title": "Exercise 31: Reading on Navigating Professional Disputes",
-      "text": "When a disagreement arises between departments, it is vital to remain **impartial** and focus on facts rather than emotions. A common strategy is to **mediate** the situation by bringing in a neutral third party to facilitate communication.\n\nEffective negotiators often **concede** on minor points to gain ground on more critical issues. The goal is always to reach a **consensus** that aligns with the organization's overarching objectives. Failing to address these issues early can lead to a **deadlock**, where no further progress is possible.\n\n**Vocabulary Definitions:**\n- **Impartial**: Treating all rivals or disputants equally; unbiased.\n- **Mediate**: Intervene in a dispute in order to bring about an agreement.\n- **Concede**: Admit that something is true or valid after resisting it.\n- **Consensus**: A general agreement.\n- **Deadlock**: A situation in which no progress can be made.",
+      "title": "Exercise 31: Reading on Navigating Professional Disputes (Doc C)",
+      "text": "When a disagreement arises between departments, it is vital to remain **impartial** and focus on facts rather than emotions. A common strategy is to **mediate** the situation by bringing in a neutral third party to facilitate communication.\n\nEffective negotiators often **concede** on minor points to gain ground on more critical issues. The goal is always to reach a **consensus** that aligns with the organization's overarching objectives. Failing to address these issues early can lead to a **deadlock**, where no further progress is possible.\n\n### Highlighted Vocabulary\n1. **Impartial**: Treating all rivals or disputants equally; unbiased.\n2. **Mediate**: Intervene in a dispute in order to bring about an agreement.\n3. **Concede**: Admit that something is true or valid after resisting it.\n4. **Consensus**: A general agreement.\n5. **Deadlock**: A situation in which no progress can be made.",
       "questions": [
         {
           "question": "What is recommended when a disagreement arises between departments?",
@@ -382,24 +396,10 @@
     },
     {
       "id": "adm-b2-w1-ex40",
-      "type": "listening",
-      "title": "Exercise 40: Listening to a Negotiation Dialogue",
-      "audioUrl": "/audio/adm-b2-w1-negotiation-dialogue.mp3",
-      "transcript": "Speaker 1 (Operations): Hi Sarah, thanks for meeting. We need to discuss the budget for the new software implementation. We’re currently in a deadlock because our departments have different priorities.\nSpeaker 2 (Finance): I understand. We need to remain impartial and look at the company goals. While I can’t approve the full amount now, I’m willing to concede on the training costs if you can find a way to reduce the initial licensing fee. \nSpeaker 1: That sounds like a fair compromise. If we can reach a consensus on this, we’ll avoid having to trigger our BATNA, which would be sticking with the legacy system for another year. \nSpeaker 2: Agreed. Let's work towards a collaborating style to get this moving.",
-      "questions": [
-        {
-          "question": "What is the current status of the discussion according to Speaker 1?",
-          "options": ["Consensus", "Deadlock", "Agreement"],
-          "answerIndex": 1,
-          "explanation": "Speaker 1 says 'We’re currently in a deadlock'."
-        },
-        {
-          "question": "What is Speaker 2 willing to concede on?",
-          "options": ["The licensing fee", "The training costs", "The entire budget"],
-          "answerIndex": 1,
-          "explanation": "Speaker 2 says 'I’m willing to concede on the training costs'."
-        }
-      ]
+      "type": "oralRecording",
+      "prompt": "Exercise 40: Escalation Call. Record a 60-90 second audio escalating a blocker that has lasted more than 24 hours. You must explicitly mention the 'impact' and 'what you need'.",
+      "modelAnswer": "[Audio Upload Required] Checklist: Facts, Impact, Deadline, Tried, Need.",
+      "keywords": ["impact", "need", "escalation"]
     },
     {
       "id": "adm-b2-w1-ex41",
@@ -434,7 +434,8 @@
     {
       "id": "adm-b2-w1-ex45",
       "type": "writingTask",
-      "prompt": "Exercise 45: Weekly Review. Summarize the three main sections covered this week (Onboarding, Metrics/Efficiency, Conflict Resolution) in 60-80 words.",
+      "title": "Exercise 45: Weekly Review - Operations & Onboarding",
+      "prompt": "Summarize the three main sections covered this week (Onboarding, Metrics/Efficiency, Conflict Resolution) in 60-80 words.",
       "modelAnswer": "This week covered essential onboarding protocols and escalation guidelines. We then explored operational efficiency through KPIs, SLAs, and continuous improvement methodologies. Finally, we analyzed professional negotiation and conflict resolution strategies like BATNA and mediation, providing a comprehensive toolkit for administrative success.",
       "keywords": ["onboarding", "efficiency", "conflict resolution", "toolkit"]
     }

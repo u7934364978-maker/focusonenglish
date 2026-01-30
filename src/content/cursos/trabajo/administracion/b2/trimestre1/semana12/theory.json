@@ -4,22 +4,22 @@
     {
       "id": "trimester-review",
       "title": "Consolidating Your Administrative Skills",
-      "content": "This week focuses on reviewing the core competencies covered during the first trimester. From operational onboarding to risk management, you have developed the vocabulary and grammatical precision required for B2-level administration.\n\n### Key Competencies Reviewed:\n- **Operations**: Escalation, onboarding, and standard operating procedures (SOPs).\n- **People Management**: Conflict resolution, constructive feedback, and delegation.\n- **Project & Change Management**: Lifecycles, stakeholder mapping, and navigating organisational change.\n- **Risk**: Mitigation, contingency planning, and disaster recovery."
+      "content": "This week focuses on reviewing the core competencies covered during the first trimester. From operational onboarding to risk management, you have developed the vocabulary and grammatical precision required for B2-level administration.\n\n### Key Competencies Reviewed:\n- **Operations & Onboarding**: Understanding **Escalation** protocols, **SOPs** (Standard Operating Procedures), and **Asset Provisioning** for new hires.\n- **Conflict & Mediation**: Mastering **Rapport** building, **Empathy**, and the ability to **Meet Halfway** during internal disputes.\n- **Project Management**: Navigating the **Initiation**, **Planning**, **Execution**, and **Closure** phases, while monitoring **Scope Creep** and achieving **Milestones**.\n- **Risk & Continuity**: Utilizing the **Risk Matrix** to assess **Probability** and **Impact**, and implementing **BCP** (Business Continuity Planning) and **Disaster Recovery** strategies with defined **RTO** and **RPO** metrics."
     },
     {
       "id": "project-proposal",
       "title": "Structuring a Professional Proposal",
-      "content": "Your final task for this trimester is to draft a project proposal for an administrative improvement within a hypothetical or real organisation.\n\n### Proposal Structure:\n1. **Executive Summary**: A high-level overview of the proposed change.\n2. **Current Situation**: Identifying the bottleneck or issue to be addressed.\n3. **Proposed Solution**: Describing the project and its deliverables.\n4. **Stakeholder Analysis**: Identifying key players and engagement strategies.\n5. **Risk Assessment**: Outlining potential risks and mitigation plans.\n6. **Timeline**: Stating key milestones using future tenses."
+      "content": "Your final task for this trimester is to draft a project proposal for an administrative improvement within a hypothetical or real organisation. A proposal must be **Persuasive**, **Logical**, and **Data-Driven**.\n\n### Proposal Structure:\n1. **Executive Summary**: A concise, high-level overview of the proposed change and its expected benefits.\n2. **Current Situation (The Bottleneck)**: Identifying the specific issue, delay, or inefficiency to be addressed.\n3. **Proposed Solution**: Describing the project, its **Deliverables**, and the **SOPs** that will change.\n4. **Stakeholder Analysis**: Mapping key players using the **Mendelow Matrix** and defining engagement strategies.\n5. **Risk Assessment**: Outlining potential risks, their probability/impact, and your **Mitigation** or **Contingency** plans.\n6. **Timeline & Milestones**: Stating key dates using future tenses to indicate commitments."
     },
     {
       "id": "grammar-review",
       "title": "Grammar: A Comprehensive Synthesis",
-      "content": "Review the core structures used for professional precision:\n\n### Conditionals\n- **Mixed**: Linking past hypothetical actions to present results (*If we had... we wouldn't be...*).\n- **Third**: Analyzing past failures (*If it had happened, we would have...*).\n\n### Future Tenses\n- **Continuous**: Ongoing activities in the future (*We will be testing...*).\n- **Perfect**: Deadlines and completions (*We will have finished...*).\n\n### Modals and Relative Clauses\n- **Deduction**: Speculating about past events (*Must have*, *Can't have*).\n- **Precision**: Providing essential or extra details about stakeholders and projects using *who*, *which*, and *that*."
+      "content": "Professional precision relies on the accurate use of complex structures to describe hypothetical scenarios and future plans.\n\n### 1. Conditionals for Analysis\n- **Third Conditional**: Used for 'lessons learned' in post-mortems. (*\"If we **had identified** the risk earlier, we **would have avoided** the delay.\"*)\n- **Mixed Conditionals**: Linking past actions (or lack thereof) to present states. (*\"If the company **had invested** in better servers last year, our systems **would be** more resilient now.\"*)\n\n### 2. Future Tenses for Planning\n- **Future Continuous**: For ongoing tasks during project execution. (*\"Next month, we **will be migrating** our data to the cloud.\"*)\n- **Future Perfect**: For definitive completions and deadlines. (*\"By the end of the quarter, we **will have trained** all staff on the new protocol.\"*)\n\n### 3. Modals and Relative Clauses\n- **Modals of Deduction**: Speculating about past incidents (*Must have*, *Can't have*, *Might have*).\n- **Relative Clauses**: Adding essential (Defining) or extra (Non-defining) information about stakeholders and projects. (*\"The Director, **who** is also a key player, has requested a full report.\"*)"
     },
     {
       "id": "professional-growth",
       "title": "Reflecting on Professional Growth",
-      "content": "Self-reflection is a key part of the 'Closure' phase of any learning process. Consider the following:\n- Which areas of administration do you feel most confident in?\n- Which grammatical structures require further practice?\n- How will you apply these skills in your future career?"
+      "content": "Self-reflection is a key part of the 'Closure' phase. Review your **Portfolio** and consider:\n- Which administrative **Competencies** have you mastered?\n- In which scenarios do you still feel a lack of **Fluency**?\n- How has your **Professional Persona** evolved in English-speaking contexts?"
     }
   ],
   "objectives": [
@@ -32,6 +32,8 @@
     { "term": "Executive Summary", "definition": "A short document or section of a document that summarizes a longer report or proposal." },
     { "term": "Synthesis", "definition": "The combination of components or elements to form a connected whole." },
     { "term": "Competency", "definition": "The ability to do something successfully or efficiently." },
-    { "term": "Proposal", "definition": "A plan or suggestion, especially a formal or written one, put forward for consideration by others." }
+    { "term": "Proposal", "definition": "A plan or suggestion, especially a formal or written one, put forward for consideration by others." },
+    { "term": "Data-Driven", "definition": "Determined by or dependent on the collection or analysis of data." },
+    { "term": "Resilient", "definition": "Able to withstand or recover quickly from difficult conditions." }
   ]
 }

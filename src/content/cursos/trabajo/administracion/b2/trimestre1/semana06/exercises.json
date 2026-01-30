@@ -293,16 +293,10 @@
     },
     {
       "id": "adm-b2-w6-ex25",
-      "type": "multipleChoice",
-      "prompt": "Exercise 25: Logistics. What does 'Ground Transportation' cover?",
-      "options": [
-        "The flight itself.",
-        "Taxis, trains, buses, or private cars used once the executive arrives.",
-        "Only walking directions.",
-        "Private jets."
-      ],
-      "answerIndex": 1,
-      "explanation": "Ground transportation refers to non-aerial transit at the destination."
+      "type": "oralRecording",
+      "title": "Exercise 25: Oral Recording - Logistics Crisis Management",
+      "prompt": "You are the administrator for an executive whose flight has just been cancelled. Record a phone call to the hotel in New York to 'adjourn' the check-in time and arrange 'ground transportation' for the following morning. Use at least one 'inversion' for emphasis (e.g., 'Not only was the flight cancelled, but...').",
+      "modelAnswer": "Hi, I'm calling to update the reservation for Sarah Jenkins. Not only was her flight cancelled this evening, but the next available arrival is at 2 AM. Could you please ensure the room is held? Also, I need to arrange ground transportation for her to the office at 8 AM tomorrow."
     },
     {
       "id": "adm-b2-w6-ex26",
@@ -368,6 +362,12 @@
           "options": ["Monday mornings", "Wednesday lunchtimes", "Friday afternoons"],
           "answerIndex": 2,
           "explanation": "The text states 'Seldom should a meeting be scheduled on a Friday afternoon'."
+        },
+        {
+          "question": "What is the primary purpose of 'Gatekeeping' according to Doc C?",
+          "options": ["To block all meetings forever", "To protect 'Deep Work' sessions from interruptions", "To make the executive feel important"],
+          "answerIndex": 1,
+          "explanation": "Doc C specifies that gatekeeping is essential during 'Deep Work' sessions to protect the executive's time."
         }
       ]
     },
@@ -453,10 +453,10 @@
     },
     {
       "id": "adm-b2-w6-ex40",
-      "type": "writingTask",
-      "prompt": "Exercise 40: Inversion Practice. Complete: 'Not only _____ (the hotel/be) close to the office, but it also has a business center.'",
-      "modelAnswer": "Not only is the hotel close to the office...",
-      "keywords": ["is", "hotel"]
+      "type": "oralRecording",
+      "title": "Exercise 40: Oral Recording - Itinerary Briefing",
+      "prompt": "Record a 60-second briefing for your boss about their upcoming trip to Singapore. Mention the 'time zone' shift, the 'buffer time' you've built into the schedule, and use a formal inversion (e.g., 'Seldom have we seen such a tight schedule...').",
+      "modelAnswer": "Good morning. I've finalized your Singapore itinerary. Seldom have we seen such a tight schedule, so I've built in 30-minute buffer blocks between all back-to-back meetings to account for the 8-hour time zone shift. I've also confirmed your business visa is valid and ground transportation is on standby."
     },
     {
       "id": "adm-b2-w6-ex41",
@@ -500,16 +500,11 @@
     },
     {
       "id": "adm-b2-w6-ex45",
-      "type": "multipleChoice",
-      "prompt": "Exercise 45: Final Review. What is the main goal of inversion in professional English?",
-      "options": [
-        "To confuse the reader.",
-        "To sound more academic.",
-        "To provide formal emphasis and create a more sophisticated, professional tone.",
-        "To save space on the page."
-      ],
-      "answerIndex": 2,
-      "explanation": "Inversion is a stylistic tool for professional emphasis."
+      "type": "writingTask",
+      "title": "Exercise 45: Weekly Review - Comprehensive Logistics Scenario",
+      "prompt": "You are managing a calendar where a high-priority 'Deep Work' block is being threatened by a last-minute request. 1) Write a 'gatekeeping' response. 2) Rewrite the refusal using formal inversion. 3) Explain how this protects 'Priority Alignment'.",
+      "modelAnswer": "1) 'I'm afraid the Director is unavailable at that time as she has a priority commitment.' 2) 'Under no circumstances can we move the Deep Work block this afternoon.' 3) This protects priority alignment by ensuring that the executive has dedicated time for high-impact strategic goals rather than reactive admin tasks.",
+      "keywords": ["gatekeeping", "inversion", "priority alignment"]
     }
   ]
 }

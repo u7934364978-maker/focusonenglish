@@ -62,6 +62,182 @@
       "explanation": "'Whom' is used formally after a preposition like 'to'.",
       "answerIndex": 3,
       "prompt": "The director to ________ you were introduced is the head of Operations. (Formal)"
+    },
+    {
+      "id": "admin-b2-w9-exam-q6",
+      "type": "multipleChoice",
+      "options": [
+        "Keep informed",
+        "Manage closely",
+        "Monitor only",
+        "Ignore"
+      ],
+      "explanation": "Key players have High Power and High Interest and must be managed closely.",
+      "answerIndex": 1,
+      "prompt": "How should an administrator handle 'Key Players' in a project?"
+    },
+    {
+      "id": "admin-b2-w9-exam-q7",
+      "type": "fillBlanks",
+      "explanation": "'Whose' indicates possession.",
+      "prompt": "The manager ________ department is responsible for logistics is away on leave.",
+      "answers": [
+        "whose"
+      ]
+    },
+    {
+      "id": "admin-b2-w9-exam-q8",
+      "type": "multipleChoice",
+      "options": [
+        "Rapport",
+        "Reciprocity",
+        "Leverage",
+        "Follow-up"
+      ],
+      "explanation": "Reciprocity is the practice of exchanging things for mutual benefit.",
+      "answerIndex": 1,
+      "prompt": "Which term refers to the professional principle of 'giving to get'?"
+    },
+    {
+      "id": "admin-b2-w9-exam-q9",
+      "type": "multipleChoice",
+      "options": [
+        "Reach out",
+        "Buy into",
+        "Touch base",
+        "Keep in the loop"
+      ],
+      "explanation": "To reach out is to initiate contact.",
+      "answerIndex": 0,
+      "prompt": "Which phrasal verb means to initiate contact with a potential collaborator?"
+    },
+    {
+      "id": "admin-b2-w9-exam-q10",
+      "type": "multipleChoice",
+      "options": [
+        "The report that I wrote is ready.",
+        "The report, that I wrote, is ready.",
+        "The report which I wrote is ready.",
+        "The report I wrote is ready."
+      ],
+      "explanation": "Commas are NOT used with the word 'that' in relative clauses.",
+      "answerIndex": 1,
+      "prompt": "Which of these is PUNCTUATED INCORRECTLY?"
+    },
+    {
+      "id": "admin-b2-w9-exam-q11",
+      "type": "fillBlanks",
+      "explanation": "'Where' is used for places.",
+      "prompt": "The conference center ________ the event took place was very modern.",
+      "answers": [
+        "where"
+      ]
+    },
+    {
+      "id": "admin-b2-w9-exam-q12",
+      "type": "multipleChoice",
+      "options": [
+        "External",
+        "Internal",
+        "Shadow",
+        "Tertiary"
+      ],
+      "explanation": "Government regulators are external to the company's internal hierarchy.",
+      "answerIndex": 0,
+      "prompt": "A government regulator is typically considered what type of stakeholder?"
+    },
+    {
+      "id": "admin-b2-w9-exam-q13",
+      "type": "multipleChoice",
+      "options": [
+        "The manager leading the project...",
+        "The manager who leading the project...",
+        "The manager leads the project...",
+        "The manager led the project..."
+      ],
+      "explanation": "This is a reduced relative clause (Active: 'who is leading' -> 'leading').",
+      "answerIndex": 0,
+      "prompt": "Choose the correct reduced relative clause: 'The manager who is leading the project is very efficient.'"
+    },
+    {
+      "id": "admin-b2-w9-exam-q14",
+      "type": "fillBlanks",
+      "explanation": "'Buy into' means to support an idea.",
+      "prompt": "We need the finance team to ________ ________ our proposal before we can start.",
+      "answers": [
+        "buy into"
+      ]
+    },
+    {
+      "id": "admin-b2-w9-exam-q15",
+      "type": "multipleChoice",
+      "options": [
+        "Which",
+        "When",
+        "Who",
+        "Whom"
+      ],
+      "explanation": "'When' is used for time references.",
+      "answerIndex": 1,
+      "prompt": "Friday is the day ________ we will touch base with the vendors."
+    },
+    {
+      "id": "admin-b2-w9-exam-q16",
+      "type": "multipleChoice",
+      "options": [
+        "High Power, Low Interest",
+        "Low Power, High Interest",
+        "High Power, High Interest",
+        "Low Power, Low Interest"
+      ],
+      "explanation": "They have high interest but low power to change the outcome, so keep them informed.",
+      "answerIndex": 1,
+      "prompt": "A community group affected by a project but with no legal authority has which status?"
+    },
+    {
+      "id": "admin-b2-w9-exam-q17",
+      "type": "fillBlanks",
+      "explanation": "'Rapport' refers to a good professional relationship.",
+      "prompt": "Building ________ with stakeholders is crucial for long-term project success.",
+      "answers": [
+        "rapport"
+      ]
+    },
+    {
+      "id": "admin-b2-w9-exam-q18",
+      "type": "multipleChoice",
+      "options": [
+        "The CEO, who is in London, will attend.",
+        "The CEO who is in London will attend.",
+        "The CEO, that is in London, will attend.",
+        "The CEO who, is in London, will attend."
+      ],
+      "explanation": "If there is only one CEO, the information is extra (non-defining) and needs commas. 'That' cannot be used in non-defining clauses.",
+      "answerIndex": 0,
+      "prompt": "Which sentence is correct if there is only one CEO in the company?"
+    },
+    {
+      "id": "admin-b2-w9-exam-q19",
+      "type": "multipleChoice",
+      "options": [
+        "To say something again for clarity",
+        "To ignore a request",
+        "To reach out to a new person",
+        "To finish a project"
+      ],
+      "explanation": "To reiterate means to repeat for emphasis or clarity.",
+      "answerIndex": 0,
+      "prompt": "What does the verb 'reiterate' mean?"
+    },
+    {
+      "id": "admin-b2-w9-exam-q20",
+      "type": "fillBlanks",
+      "explanation": "Omission of the relative pronoun when it is the object.",
+      "prompt": "The contact [that] I met ________ at the conference was very helpful. (Provide the word that can be omitted)",
+      "answers": [
+        "that",
+        "whom"
+      ]
     }
   ]
 }

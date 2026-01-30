@@ -147,6 +147,321 @@
       "prompt": "Exercise 15: Weekly Mini-test. 1) Name the 4 project phases. 2) Define 'KPI'. 3) Invert for emphasis: 'I have never seen such scope creep.' 4) Form a sentence: 'By EOD / I / finish / the map' (Future Perfect).",
       "modelAnswer": "1) Initiation, Planning, Execution, Closure. 2) Key Performance Indicator. 3) Never have I seen such scope creep. 4) By EOD, I will have finished the map.",
       "keywords": ["Initiation", "Indicator", "Never", "will have"]
+    },
+    {
+      "id": "adm-b2-w10-ex16",
+      "type": "reading-comprehension",
+      "title": "Exercise 16: Waterfall vs. Agile in Administration",
+      "text": "When managing administrative transitions, choosing the right **methodology** is vital. A **Waterfall** approach is often preferred for projects like office relocations, where the sequence of events is fixed: you cannot unpack boxes before the truck arrives. However, for internal software development or process improvement, many teams now use **Agile**. This involves breaking the project into small **Sprints**. By the time the project reaches the **closure** phase, the team **will have been iterating** on the solution for weeks, ensuring it perfectly meets user needs. Regardless of the method, administrators must define a clear **Project Charter** during **initiation** to prevent **scope creep** and ensure that all **deliverables** are aligned with corporate **KPIs**.",
+      "questions": [
+        {
+          "question": "Why is Waterfall often used for office relocations?",
+          "options": ["Because it is more flexible than Agile", "Because the sequence of events is fixed", "Because it uses sprints"],
+          "answerIndex": 1,
+          "explanation": "The text explains Waterfall is preferred when the sequence of events is fixed (e.g., unpacking must follow the truck's arrival)."
+        },
+        {
+          "question": "What is an advantage of the Agile methodology mentioned in the text?",
+          "options": ["It prevents all meetings", "It allows for iteration to meet user needs", "It only works for office relocations"],
+          "answerIndex": 1,
+          "explanation": "The text mentions teams will have been iterating on the solution to ensure it meets user needs."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex17",
+      "type": "vocabulary-match",
+      "title": "Exercise 17: Highlighted Vocabulary",
+      "prompt": "Match the project management terms with their descriptions.",
+      "pairs": [
+        { "term": "Sprint", "definition": "A short, fixed period of time for a specific set of tasks." },
+        { "term": "Iteration", "definition": "The repetition of a process to reach a goal." },
+        { "term": "Sequence", "definition": "The particular order in which things follow each other." },
+        { "term": "Charter", "definition": "A document that formally authorizes a project." }
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex18",
+      "type": "multipleChoice",
+      "prompt": "Exercise 18: Project Phrasing. If a project is taking longer than planned, we say it is:",
+      "options": ["Running over", "Falling behind", "Signing off", "Following through"],
+      "answerIndex": 1,
+      "explanation": "'Falling behind' schedule means taking longer than planned."
+    },
+    {
+      "id": "adm-b2-w10-ex19",
+      "type": "multipleChoice",
+      "prompt": "Exercise 19: Future Perfect. Choose the correct form: 'By next Christmas, I ___ for this company for ten years.'",
+      "options": ["will work", "will be working", "will have been working", "work"],
+      "answerIndex": 2,
+      "explanation": "Future Perfect Continuous is used for durations leading up to a point in the future."
+    },
+    {
+      "id": "adm-b2-w10-ex20",
+      "type": "multipleChoice",
+      "prompt": "Exercise 20: Future Continuous. Choose the correct form: 'Don't call me at 2 PM; I ___ the status meeting.'",
+      "options": ["will have led", "will be leading", "will lead", "have led"],
+      "answerIndex": 1,
+      "explanation": "Future Continuous describes an action in progress at a specific time."
+    },
+    {
+      "id": "adm-b2-w10-ex21",
+      "type": "multipleChoice",
+      "prompt": "Exercise 21: Deadlines. 'We will have finalised the budget by Monday.' This means:",
+      "options": ["The budget will be finished on or before Monday.", "The budget will start on Monday.", "We will be working on the budget on Monday.", "Monday is too late."],
+      "answerIndex": 0,
+      "explanation": "Future Perfect indicates completion before or at a specific deadline."
+    },
+    {
+      "id": "adm-b2-w10-ex22",
+      "type": "multipleChoice",
+      "prompt": "Exercise 22: Resource Allocation. When an administrator assigns a specific person to a task, they are:",
+      "options": ["Initiating", "Delegating", "Iterating", "Closing"],
+      "answerIndex": 1,
+      "explanation": "Delegating is entrusting a task to someone else."
+    },
+    {
+      "id": "adm-b2-w10-ex23",
+      "type": "multipleChoice",
+      "prompt": "Exercise 23: Future Perfect Continuous. 'By 5 PM, the server ___ for 24 hours.'",
+      "options": ["will migrate", "will be migrating", "will have been migrating", "has migrated"],
+      "answerIndex": 2,
+      "explanation": "This shows the duration of an ongoing future action."
+    },
+    {
+      "id": "adm-b2-w10-ex24",
+      "type": "multipleChoice",
+      "prompt": "Exercise 24: Project Closure. A 'Post-Mortem' is conducted to:",
+      "options": ["Fire people", "Start a new project", "Evaluate success and lessons learned", "Sign the charter"],
+      "answerIndex": 2,
+      "explanation": "A post-mortem (or debrief) analyzes the project after it ends."
+    },
+    {
+      "id": "adm-b2-w10-ex25",
+      "type": "oralRecording",
+      "title": "Exercise 25: Oral Recording Task 1 - Status Update",
+      "prompt": "You are the project administrator. Record a 60-second status update for the weekly meeting. Mention: 1) Why the team has 'fallen behind', 2) The plan to 'catch up', and 3) When the team will have 'signed off on' the current phase.",
+      "modelAnswer": "Good morning everyone. Unfortunately, we have slightly fallen behind due to a delay in vendor provisioning. However, we have allocated extra resources this weekend to catch up. By next Tuesday, the technical team will have signed off on the execution phase, and we will be moving into UAT on Wednesday."
+    },
+    {
+      "id": "adm-b2-w10-ex26",
+      "type": "listening-glossary",
+      "title": "Exercise 26: Listening Glossary",
+      "prompt": "Familiarise yourself with these terms before the status meeting audio.",
+      "terms": [
+        { "term": "On track", "definition": "Proceeding as planned." },
+        { "term": "Contingency", "definition": "A provision for an unforeseen event." },
+        { "term": "Sign-off", "definition": "Final approval on a stage or project." },
+        { "term": "Stagger", "definition": "To arrange events to occur at different times." }
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex27",
+      "type": "listening-comprehension",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana10/adm-b2-w10-status-meeting.mp3",
+      "title": "Exercise 27: Weekly Status Meeting",
+      "prompt": "Listen to the project update regarding the system migration.",
+      "questions": [
+        {
+          "question": "Is the project currently on schedule?",
+          "options": ["Yes, everything is perfect.", "No, they have fallen behind by three days.", "Yes, but they need to monitor scope creep.", "No, the project was cancelled."],
+          "answerIndex": 1,
+          "explanation": "The speaker mentions a three-day delay due to a hardware bottleneck."
+        },
+        {
+          "question": "What will the team be doing by the time the manager returns on Friday?",
+          "options": ["Starting the project.", "They will have completed the data validation.", "Nothing.", "Conducting the post-mortem."],
+          "answerIndex": 1,
+          "explanation": "The speaker says: 'By the time you get back on Friday, we will have completed the data validation.'"
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex28",
+      "type": "listening-comprehension",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana10/adm-b2-w10-risk-assessment.mp3",
+      "title": "Exercise 28: Risk and Contingency Planning",
+      "prompt": "Listen to the discussion about potential risks in the new office rollout.",
+      "questions": [
+        {
+          "question": "What is the primary risk identified?",
+          "options": ["The budget is too high.", "The internet provider might fail to meet the deadline.", "The coffee machine is broken.", "The office is too small."],
+          "answerIndex": 1,
+          "explanation": "The dialogue focuses on the risk of the ISP (Internet Service Provider) missing the install date."
+        },
+        {
+          "question": "What is the contingency plan?",
+          "options": ["Cancel the move.", "Use mobile hotspots as a temporary backup.", "Hire a new ISP immediately.", "Work from home indefinitely."],
+          "answerIndex": 1,
+          "explanation": "The manager suggests having mobile hotspots ready just in case."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex29",
+      "type": "dictation",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana10/adm-b2-w10-dictation.mp3",
+      "title": "Exercise 29: Dictation",
+      "prompt": "Listen and type the sentence accurately.",
+      "answer": "By the end of the execution phase, we will have achieved all the milestones defined in the project charter.",
+      "explanation": "Pay attention to 'execution', 'achieved', and 'charter'."
+    },
+    {
+      "id": "adm-b2-w10-ex30",
+      "type": "gap-fill",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana10/adm-b2-w10-gap-fill.mp3",
+      "title": "Exercise 30: Gap-fill - Timeline Reporting",
+      "prompt": "Listen and fill in the missing future tenses and phrasal verbs.",
+      "text": "We've slightly **{fallen behind}** because of a vendor delay, but we'll work extra hours to **{catch up}**. By next Tuesday, we **{will have received}** the hardware, and the engineers **{will be installing}** it throughout the afternoon. I'm confident the project won't **{run over}** budget.",
+      "explanation": "Uses phrasal verbs and future tenses for project status reporting."
+    },
+    {
+      "id": "adm-b2-w10-ex31",
+      "type": "reading-comprehension",
+      "title": "Exercise 31: Agile Administrative Support (Doc C)",
+      "text": "Doc C — Case Study: Implementing Agile in Administrative Workflows\n\nTo combat **scope creep** and improve **resource allocation**, our department transitioned to an **Agile** methodology last quarter. Instead of long, linear project cycles, we now work in two-week **Sprints**. Each sprint begins with a planning session where we define specific **deliverables**. We have found that this approach reduces the risk of projects **running over** budget because we identify bottlenecks early. By the end of this month, we **will have been using** this system for exactly ninety days. Our project manager, who has already **signed off on** the final report, believes the **Waterfall** approach was too rigid for our fast-paced environment.\n\n### Vocabulary Highlights\n1. **Sprint**: A short, set period of intense work.\n2. **Scope Creep**: When a project grows beyond its original plan.\n3. **Deliverables**: The tangible products or results of a project.",
+      "questions": [
+        {
+          "question": "Why did the department transition to Agile?",
+          "options": [
+            "To increase the project duration.",
+            "To combat scope creep and improve resource allocation.",
+            "Because it is more expensive."
+          ],
+          "answerIndex": 1,
+          "explanation": "Doc C states the transition was 'To combat scope creep and improve resource allocation'."
+        },
+        {
+          "question": "What is a 'Sprint' according to the case study?",
+          "options": [
+            "A two-week period of work.",
+            "A long-term project goal.",
+            "A final post-mortem meeting."
+          ],
+          "answerIndex": 0,
+          "explanation": "The text defines Sprints as 'two-week' periods of work."
+        },
+        {
+          "question": "What does the project manager think of the Waterfall approach?",
+          "options": [
+            "It was perfect for the environment.",
+            "It was too rigid for the environment.",
+            "It was too fast."
+          ],
+          "answerIndex": 1,
+          "explanation": "The text mentions the manager 'believes the Waterfall approach was too rigid for our fast-paced environment'."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex32",
+      "type": "multipleChoice",
+      "prompt": "Exercise 32: Project Roles. Who is responsible for 'resource allocation'?",
+      "options": ["The Project Manager / Administrator", "The Junior Intern", "The Customer", "The Government"],
+      "answerIndex": 0,
+      "explanation": "Resource allocation (assigning people, money, tools) is a management task."
+    },
+    {
+      "id": "adm-b2-w10-ex33",
+      "type": "multipleChoice",
+      "prompt": "Exercise 33: Timeline. 'At 10 AM tomorrow, I will be presenting the results.' If I start at 9:50 AM and finish at 10:30 AM, is this sentence correct?",
+      "options": ["Yes", "No"],
+      "answerIndex": 0,
+      "explanation": "Yes, because at 10 AM, the action (presenting) will be in progress."
+    },
+    {
+      "id": "adm-b2-w10-ex34",
+      "type": "multipleChoice",
+      "prompt": "Exercise 34: Future Perfect. 'I will have finished the report when you arrive.' If you arrive at 3 PM, when did I finish the report?",
+      "options": ["At 3 PM exactly", "Before 3 PM", "After 3 PM", "I haven't started"],
+      "answerIndex": 1,
+      "explanation": "Future Perfect implies the action is already complete by the time of the other event."
+    },
+    {
+      "id": "adm-b2-w10-ex35",
+      "type": "multipleChoice",
+      "prompt": "Exercise 35: Project Charter. Which of these is NOT usually in a Project Charter?",
+      "options": ["Project Scope", "Key Stakeholders", "A list of every single email sent", "High-level Objectives"],
+      "answerIndex": 2,
+      "explanation": "A charter is a high-level overview, not a detailed log of every communication."
+    },
+    {
+      "id": "adm-b2-w10-ex36",
+      "type": "writingTask",
+      "prompt": "Exercise 36: Sentence Transformation. Rewrite using the Future Perfect: 'I am finishing the budget on Friday.' (Deadline context)",
+      "modelAnswer": "By Friday, I will have finished the budget.",
+      "keywords": ["By", "will have finished"]
+    },
+    {
+      "id": "adm-b2-w10-ex37",
+      "type": "writingTask",
+      "prompt": "Exercise 37: Future Perfect Continuous. Form a sentence: 'By next June / we / implement / the system / for a year'.",
+      "modelAnswer": "By next June, we will have been implementing the system for a year.",
+      "keywords": ["will have been implementing"]
+    },
+    {
+      "id": "adm-b2-w10-ex38",
+      "type": "writingTask",
+      "prompt": "Exercise 38: Professional Vocabulary. Define 'Contingency Plan' in your own words.",
+      "modelAnswer": "A backup plan created to handle potential risks or problems that might occur during a project.",
+      "keywords": ["backup", "risks", "problems"]
+    },
+    {
+      "id": "adm-b2-w10-ex39",
+      "type": "writingTask",
+      "prompt": "Exercise 39: Status Report Phrasing. Complete: 'We are currently in the ___ phase, but we might ___ ___ on the deadline if we don't hire more staff.'",
+      "modelAnswer": "execution / fall behind",
+      "keywords": ["execution", "fall", "behind"]
+    },
+    {
+      "id": "adm-b2-w10-ex40",
+      "type": "oralRecording",
+      "title": "Exercise 40: Oral Recording Task 2 - Project Forecast",
+      "prompt": "Record a 60-second forecast for the next project phase. Use at least one 'Future Perfect' and one 'Future Continuous' form. Mention: 1) What the team 'will be doing' this time next week, and 2) What milestones they 'will have achieved' by the end of the month.",
+      "modelAnswer": "Looking ahead, this time next week we will be conducting the final UAT sessions with the end-users. By the end of the month, we will have achieved all primary milestones, and the Project Charter will have been archived. We are confident that we will not run over the original budget."
+    },
+    {
+      "id": "adm-b2-w10-ex41",
+      "type": "writingTask",
+      "prompt": "Exercise 41: Speculating on Duration. Use Future Perfect Continuous: 'By the time the project closes in October, the team (work) on it for eighteen months.'",
+      "modelAnswer": "By the time the project closes in October, the team will have been working on it for eighteen months.",
+      "keywords": ["will have been working"]
+    },
+    {
+      "id": "adm-b2-w10-ex42",
+      "type": "writingTask",
+      "prompt": "Exercise 42: Avoiding Overlaps. Use Future Continuous: 'Tomorrow afternoon, while the movers are here, I (supervise) the server setup.'",
+      "modelAnswer": "Tomorrow afternoon, while the movers are here, I will be supervising the server setup.",
+      "keywords": ["will be supervising"]
+    },
+    {
+      "id": "adm-b2-w10-ex43",
+      "type": "writingTask",
+      "prompt": "Exercise 43: Vocabulary in context. Write a sentence about a project using the term 'deliverable'.",
+      "modelAnswer": "The main deliverable for this phase is the architectural blueprint for the new office.",
+      "keywords": ["deliverable"]
+    },
+    {
+      "id": "adm-b2-w10-ex44",
+      "type": "writingTask",
+      "prompt": "Exercise 44: Error Correction. Fix the sentence: 'By next week, I will being finished the Gantt chart.'",
+      "modelAnswer": "By next week, I will have finished the Gantt chart.",
+      "keywords": ["will have finished"]
+    },
+    {
+      "id": "adm-b2-w10-ex45",
+      "type": "writingTask",
+      "title": "Exercise 45: Weekly Review - Project Management",
+      "prompt": "Synthesize this week's learning: 1) Contrast 'Waterfall' and 'Agile' in one sentence. 2) Write a sentence about a deadline using the 'Future Perfect'. 3) Define 'Scope Creep' and explain how an administrator can prevent it.",
+      "modelAnswer": "1) Waterfall is a linear and structured methodology, whereas Agile is iterative and flexible, using short cycles called sprints. 2) By Friday afternoon, the team will have finalized the resource allocation map. 3) Scope creep is the unauthorized growth of a project's objectives; an administrator can prevent it by maintaining a strict Project Charter and requiring formal sign-off for any changes.",
+      "keywords": [
+        "Waterfall",
+        "Agile",
+        "will have",
+        "Scope Creep",
+        "Sign-off",
+        "Charter"
+      ]
     }
   ]
 }

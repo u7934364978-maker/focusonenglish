@@ -3,35 +3,37 @@
   "sections": [
     {
       "id": "stakeholder-engagement",
-      "title": "Identifying and Engaging Stakeholders",
-      "content": "A stakeholder is any individual or group who has an interest in or is affected by a project. Effective administration requires identifying these people early and managing their expectations.\n\n### Stakeholder Mapping\nWe often categorise stakeholders using a matrix of **Power** vs. **Interest**:\n- **High Power, High Interest**: Manage closely. These are your key players.\n- **High Power, Low Interest**: Keep satisfied. They have influence but are not deeply involved.\n- **Low Power, High Interest**: Keep informed. They care about the outcome but have little influence.\n- **Low Power, Low Interest**: Monitor only.\n\n### Engagement Strategies\n- **Consultation**: Asking for opinions before making a decision.\n- **Collaboration**: Working together to reach a common goal.\n- **Transparency**: Sharing information openly to build trust."
+      "title": "The Mendelow Matrix: Managing Stakeholder Influence",
+      "content": "In business administration, a **stakeholder** is defined as any individual, group, or organization that can affect or be affected by a project's outcome. To manage these relationships effectively, administrators use the **Mendelow Matrix**, which categorises stakeholders based on two variables: **Power** (their ability to influence the project) and **Interest** (how much they care about the project).\n\n### Mapping the Four Quadrants\n1.  **High Power, High Interest (Key Players)**: These stakeholders must be fully engaged. They require regular communication and often have decision-making authority. *Example: The Project Sponsor or major investors.*\n2.  **High Power, Low Interest (Keep Satisfied)**: They have the power to block a project but don't care about the details. Administrators must keep them satisfied to avoid resistance. *Example: Government regulators or senior management from other departments.*\n3.  **Low Power, High Interest (Keep Informed)**: These people are affected by the project but have little power. They should be kept informed to ensure they remain supportive. *Example: Employees in the department being restructured.*\n4.  **Low Power, Low Interest (Monitor Only)**: These require minimum effort. Administrators should monitor them for changes in their power or interest levels.\n\n### Internal vs. External Stakeholders\n*   **Internal**: Employees, managers, and owners.\n*   **External**: Suppliers, customers, local communities, and government agencies."
     },
     {
       "id": "networking-etiquette",
-      "title": "Professional Networking in a UK Context",
-      "content": "Networking is the process of developing and maintaining professional relationships. In the UK, this is often characterized by a blend of politeness, indirectness, and 'small talk'.\n\n### Networking Vocabulary\n- **To reach out**: To make contact with someone.\n- **To follow up**: To maintain contact after an initial meeting.\n- **To leverage**: To use something (like a connection) to maximum advantage.\n- **Mutual Benefit**: A situation where both parties gain something from the relationship.\n- **Elevator Pitch**: A concise, persuasive summary of who you are and what you do."
+      "title": "Professional Networking & UK Etiquette",
+      "content": "**Networking** is the strategic process of building and maintaining professional relationships for mutual benefit. In the UK, networking is often built on the principle of **reciprocity**—the idea that you should offer value before asking for a favour.\n\n### The Elevator Pitch\nAn **Elevator Pitch** is a concise, 30 to 60-second summary of who you are, what you do, and what value you bring to the table. It is essential for networking events and initial introductions.\n\n### UK Cultural Nuances\n- **Small Talk**: British professionals often start with non-work topics (the weather, travel) to build rapport before discussing business.\n- **Indirectness**: Instead of saying \"I want a job,\" a professional might say, \"I'm interested in learning more about how your department operates.\"\n- **Follow-up Protocol**: It is standard practice to send a brief LinkedIn message or email within 24 hours of meeting a new contact to **reiterate** your interest in staying in touch."
     },
     {
       "id": "grammar-relative-clauses",
       "title": "Grammar: Relative Clauses for Precision",
-      "content": "Relative clauses allow you to provide essential or extra information about people and things without starting a new sentence. This makes your communication more sophisticated and precise.\n\n### Defining Relative Clauses\nProvide essential information. Without them, the sentence doesn't make sense. No commas.\n- *\"The stakeholder **who** has the most influence is the Finance Director.\"*\n- *\"The report **that** I sent yesterday contains the stakeholder map.\"*\n\n### Non-Defining Relative Clauses\nProvide extra, non-essential information. We use commas.\n- *\"Mr. Henderson, **who** is the CEO of the company, will be attending the meeting.\"*\n- *\"The new project, **which** was approved last week, focuses on stakeholder engagement.\"*\n\n### Relative Pronouns\n- **Who**: People.\n- **Which**: Things.\n- **That**: People or things (Defining only).\n- **Whose**: Possession.\n- **Whom**: People (formal, as the object of a verb or preposition)."
+      "content": "Relative clauses are essential for providing specific details about stakeholders and processes without creating repetitive sentences. \n\n### Defining Relative Clauses\nThese provide essential information. If removed, the sentence loses its core meaning. We do **not** use commas.\n- *\"The consultant **who** specialises in stakeholder mapping is arriving today.\"*\n- *\"The software **that** we use for CRM helps us track engagement.\"*\n- **Omission**: In defining clauses, you can omit *who/which/that* if it is the **object** of the clause. (*\"The contact [that] I met yesterday was very helpful.\"*)\n\n### Non-Defining Relative Clauses\nThese provide extra, non-essential information. We **must** use commas.\n- *\"Our CEO, **who** has over 20 years of experience, will lead the networking event.\"*\n- *\"The new project, **which** involves three different departments, will launch in March.\"*\n\n### Relative Pronouns & Adverbs\n- **Whose**: Shows possession. (*\"The manager **whose** department is affected should be consulted.\"*)\n- **Whom**: Used for people as an object, especially after prepositions. (*\"The stakeholder **to whom** we sent the report has responded.\"*)\n- **Where / When / Why**: Used for places, times, and reasons. (*\"The office **where** the meeting is held is on the 5th floor.\"*)"
     },
     {
       "id": "professional-phrasing",
-      "title": "Professional Phrasing for Networking",
-      "content": "- \"I am **reaching out** to discuss a potential collaboration.\"\n- \"It was a pleasure meeting you; I will **follow up** with the documents shortly.\"\n- \"We should **leverage** our existing connections to find a new vendor.\"\n- \"Our goal is to ensure a **mutually beneficial** outcome for all stakeholders.\""
+      "title": "Phrasal Verbs & Idioms for Networking",
+      "content": "Mastering these expressions helps you sound more natural and professional in networking scenarios:\n\n- **To reach out**: To initiate contact. (*\"I'll **reach out** to the vendor to see if they're interested.\"*)\n- **To touch base**: To make brief contact to stay updated. (*\"Let's **touch base** next week to discuss progress.\"*)\n- **To buy into**: To support or believe in an idea. (*\"We need the board to **buy into** our stakeholder strategy.\"*)\n- **To keep in the loop**: To keep someone informed. (*\"Please **keep me in the loop** regarding the negotiations.\"*)\n- **To bring to the table**: To provide specific skills or benefits. (*\"He **brings** a wealth of experience in public relations **to the table**.\""
     }
   ],
   "objectives": [
-    "Categorise stakeholders based on power and interest",
-    "Apply networking etiquette in formal professional contexts",
-    "Use defining and non-defining relative clauses to specify details",
-    "Develop a professional elevator pitch"
+    "Identify and categorise stakeholders using the Mendelow Matrix",
+    "Differentiate between internal and external stakeholders in a corporate structure",
+    "Master the use of defining and non-defining relative clauses for technical precision",
+    "Develop a structured Elevator Pitch for professional networking",
+    "Apply UK-specific networking etiquette and follow-up strategies"
   ],
   "keyTerms": [
-    { "term": "Stakeholder", "definition": "A person with an interest or concern in something, especially a business." },
-    { "term": "Networking", "definition": "The action or process of interacting with others to exchange information and develop professional or social contacts." },
-    { "term": "Leverage", "definition": "Use (something) to maximum advantage." },
-    { "term": "Follow-up", "definition": "A further action connected with something that happened before." }
+    { "term": "Stakeholder", "definition": "An individual or group with an interest in the success or failure of a business or project." },
+    { "term": "Mendelow Matrix", "definition": "A tool used to analyse stakeholders based on their power and interest levels." },
+    { "term": "Reciprocity", "definition": "The practice of exchanging things with others for mutual benefit." },
+    { "term": "Elevator Pitch", "definition": "A short, persuasive speech used to introduce yourself or a concept quickly." },
+    { "term": "Rapport", "definition": "A close and harmonious relationship in which people understand each other's feelings or ideas." }
   ]
 }

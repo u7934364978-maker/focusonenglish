@@ -9,7 +9,7 @@
       "id": "adm-b2-w3-ex01",
       "type": "reading-comprehension",
       "title": "Exercise 1: Internal Memo (Doc A)",
-      "text": "Doc A — Internal Memo: Potential Data Breach\n\nTo: All Administrative Staff\nFrom: Data Protection Officer (DPO)\nSubject: Urgent: Incident Report #882\n\nIt has been reported that an email containing Personally Identifiable Information (PII) was accidentally sent to an external vendor yesterday at 4:15 PM. The attachment is believed to have contained the names, home addresses, and payroll IDs of 15 employees.\n\nAction taken so far:\n- The sender has attempted to recall the email.\n- The vendor has been contacted and asked to delete the message immediately without opening the attachment.\n- It is expected that a full impact assessment will be completed by Tuesday morning.\n\nPlease remember that under GDPR, any serious breach must be reported to the regulator within 72 hours. All staff are reminded to exercise due diligence when handling sensitive data.",
+      "text": "Doc A — Internal Memo: Potential Data Breach\n\nTo: All Administrative Staff\nFrom: Data Protection Officer (DPO)\nSubject: Urgent: Incident Report #882\n\nIt has been reported that an email containing **Personally Identifiable Information (PII)** was accidentally sent to an external vendor yesterday at 4:15 PM. The attachment is believed to have contained the names, home addresses, and payroll IDs of 15 employees.\n\nAction taken so far:\n- The sender has attempted to recall the email.\n- The vendor has been contacted and asked to delete the message immediately without opening the attachment.\n- It is expected that a full **impact assessment** will be completed by Tuesday morning.\n\nPlease remember that under GDPR, any serious **breach** must be reported to the regulator within 72 hours. All staff are reminded to exercise **due diligence** when handling sensitive data.\n\n### Highlighted Vocabulary\n1. **Personally Identifiable Information (PII)**: Any data that can be used to identify a specific individual (e.g., name, ID number, address).\n2. **Impact Assessment**: A process to evaluate the potential risks and consequences of an incident or new project.\n3. **Breach**: An incident in which sensitive, protected, or confidential data has potentially been viewed, stolen, or used by an unauthorized individual.\n4. **Due Diligence**: The care that a reasonable person or organisation exercises to avoid harm to others or their property.",
       "questions": [
         {
           "question": "What kind of information was contained in the accidentally sent email?",
@@ -18,85 +18,80 @@
           "explanation": "Doc A mentions the email contained PII, specifically names, addresses, and payroll IDs."
         },
         {
-          "question": "Within what timeframe must a serious breach be reported to the regulator under GDPR?",
+          "question": "Within what timeframe must a serious breach be reported to the regulator?",
           "options": ["24 hours", "48 hours", "72 hours"],
           "answerIndex": 2,
-          "explanation": "Doc A states: 'under GDPR, any serious breach must be reported to the regulator within 72 hours.'"
+          "explanation": "Doc A states the breach must be reported within 72 hours."
         }
       ]
     },
     {
       "id": "adm-b2-w3-ex02",
       "type": "multipleChoice",
-      "prompt": "Exercise 2: GDPR Principles. Which principle states that you should only collect the data that is 'absolutely necessary'?",
+      "prompt": "Exercise 2: GDPR Gatekeepers. According to the theory, why is understanding GDPR essential for administrative professionals?",
       "options": [
-        "Purpose Limitation",
-        "Data Minimisation",
-        "Storage Limitation",
-        "Integrity and Confidentiality"
+        "To help them design better websites.",
+        "Because they are often the 'gatekeepers' of sensitive information.",
+        "To improve their typing speed.",
+        "Only to avoid heavy fines for themselves personally."
       ],
       "answerIndex": 1,
-      "explanation": "Data Minimisation means only collecting data that is absolutely necessary for the task."
+      "explanation": "Admin staff are 'gatekeepers' who handle sensitive data daily, making GDPR knowledge essential."
     },
     {
       "id": "adm-b2-w3-ex03",
       "type": "multipleChoice",
-      "prompt": "Exercise 3: Breach Protocol. What is the correct sequence for the GDPR Action Protocol?",
+      "prompt": "Exercise 3: Data Minimisation. Which action best follows the 'Data Minimisation' principle?",
       "options": [
-        "Notify -> Assess -> Contain -> Identify",
-        "Identify -> Contain -> Assess -> Notify",
-        "Contain -> Identify -> Notify -> Assess",
-        "Assess -> Notify -> Identify -> Contain"
+        "Collecting all possible data about a customer for future use.",
+        "Asking only for the information that is absolutely necessary for the task.",
+        "Storing data in multiple locations for safety.",
+        "Sharing data with all departments to ensure everyone is informed."
       ],
       "answerIndex": 1,
-      "explanation": "The protocol follows the logic: 1. Identify, 2. Contain, 3. Assess, 4. Notify."
+      "explanation": "Data Minimisation means only collecting the data required for a specific purpose."
     },
     {
       "id": "adm-b2-w3-ex04",
       "type": "multipleChoice",
-      "prompt": "Exercise 4: Privacy Vocabulary. Complete the sentence: 'Before sharing the document, we must ___ any sensitive bank details to ensure ___.'",
+      "prompt": "Exercise 4: Complex Passives. Which sentence uses a complex passive structure correctly to report an estimated figure?",
       "options": [
-        "write / speed",
-        "redact / confidentiality",
-        "delete / storage",
-        "send / transparency"
+        "I think about 500 records were lost.",
+        "It is estimated that over 500 records were compromised.",
+        "They estimate that many records are gone.",
+        "500 records are lost, it is said."
       ],
       "answerIndex": 1,
-      "explanation": "'Redact' means to remove sensitive info, ensuring 'confidentiality'."
+      "explanation": "Option 2 uses the 'It + is + [reported/estimated] + that' structure correctly."
     },
     {
       "id": "adm-b2-w3-ex05",
       "type": "writingTask",
-      "prompt": "Exercise 5: Complex Passives. Rewrite this sentence using a complex passive structure (It + is + reported/thought + that...) to make it more objective: 'The intern lost the USB stick.'",
-      "modelAnswer": "It is reported that the USB stick has been lost.",
-      "keywords": ["It is", "reported", "lost"]
+      "prompt": "Exercise 5: Neutralizing Tone. Rewrite this sentence for a data breach report: 'Alex made a stupid mistake and sent the wrong file.'",
+      "modelAnswer": "It is reported that a file containing sensitive data was accidentally sent to an incorrect recipient.",
+      "keywords": ["reported", "accidentally", "incorrect", "recipient"]
     },
     {
       "id": "adm-b2-w3-ex06",
       "type": "writingTask",
-      "prompt": "Exercise 6: GDPR Checklist. List the 5 core principles of GDPR mentioned in the theory.",
-      "modelAnswer": "1. Lawfulness, Fairness, and Transparency\n2. Purpose Limitation\n3. Data Minimisation\n4. Storage Limitation\n5. Integrity and Confidentiality",
-      "keywords": ["Lawfulness", "Purpose", "Minimisation", "Storage", "Integrity"]
+      "prompt": "Exercise 6: Protocol Checklist. List the 4 steps of the 'Action Protocol' for handling a data breach.",
+      "modelAnswer": "1. Identify. 2. Contain. 3. Assess. 4. Notify.",
+      "keywords": ["Identify", "Contain", "Assess", "Notify"]
     },
     {
       "id": "adm-b2-w3-ex07",
       "type": "writingTask",
-      "prompt": "Exercise 7: Extracting Action Points. Based on Doc A, list the 3 actions that have been taken so far regarding the breach.",
-      "modelAnswer": "1. Recalled the email.\n2. Contacted vendor to delete message.\n3. Scheduled impact assessment for Tuesday.",
-      "keywords": ["recalled", "vendor", "assessment"]
+      "prompt": "Exercise 7: Extracting Action. Based on Doc A, list two immediate actions that have already been taken.",
+      "modelAnswer": "1. The sender attempted to recall the email. 2. The vendor was contacted and asked to delete the message.",
+      "keywords": ["recall", "delete", "contacted"]
     },
     {
       "id": "adm-b2-w3-ex08",
       "type": "multipleChoice",
-      "prompt": "Exercise 8: Courtesy Modals. Which is the most professional way to ask a colleague to speed up a Subject Access Request (SAR)?",
-      "options": [
-        "Hurry up with that SAR.",
-        "Could you please confirm the status of the SAR, as the 30-day deadline is approaching?",
-        "Why is the SAR not done yet?",
-        "Send the SAR data now."
-      ],
-      "answerIndex": 1,
-      "explanation": "This option uses a polite modal ('Could you...') and provides a professional reason (the deadline)."
+      "prompt": "Exercise 8: Courtesy Modals. Which is the most professional way to ask a colleague to encrypt a file?",
+      "options": ["Encrypt this now.", "You should encrypt this.", "Would you be able to encrypt this file before sending it?", "Encrypting files is good."],
+      "answerIndex": 2,
+      "explanation": "Using 'Would you be able to...' is polite and professional."
     },
     {
       "id": "adm-b2-w3-ex09",
@@ -115,31 +110,57 @@
     },
     {
       "id": "adm-b2-w3-ex11",
-      "type": "writingTask",
-      "prompt": "Exercise 11: Oral Briefing Prep. Prepare a script for a 3-minute briefing to a new employee about 'Data Minimisation'. Explain what it is and why it matters for administrative tasks.",
-      "modelAnswer": "[Audio Upload Required] Rubric: Clarity, Use of Key Terms (PII, compliance), Professional Tone.",
-      "keywords": ["minimisation", "necessary", "PII"]
+      "type": "listening",
+      "title": "Exercise 11: Compliance Meeting Briefing",
+      "audioUrl": "adm-b2-w3-compliance-meeting.mp3",
+      "questions": [
+        {
+          "question": "What is the main topic of the meeting?",
+          "options": ["New office furniture", "Upcoming GDPR audit", "Holiday requests"],
+          "answerIndex": 1,
+          "explanation": "The speaker focuses on preparing the team for an upcoming GDPR audit."
+        },
+        {
+          "question": "What 'daily habit' does the speaker emphasize?",
+          "options": ["Checking the Ops Inbox", "Locking computer screens (Win+L)", "Ordering more stationery"],
+          "answerIndex": 1,
+          "explanation": "The audio emphasizes locking screens as part of the clear desk policy."
+        }
+      ]
     },
     {
       "id": "adm-b2-w3-ex12",
-      "type": "writingTask",
-      "prompt": "Exercise 12: Oral Breach Reporting. Record a 90-second audio reporting a lost laptop to your DPO. Use complex passives (e.g., 'The laptop is believed to have been...').",
-      "modelAnswer": "[Audio Upload Required] Checklist: Complex passives, Action Protocol (Contain/Assess), Professionalism.",
-      "keywords": ["believed", "breach", "Contain"]
+      "type": "listening",
+      "title": "Exercise 12: Data Breach Verbal Report",
+      "audioUrl": "adm-b2-w3-breach-report.mp3",
+      "questions": [
+        {
+          "question": "How did the data breach occur?",
+          "options": ["A server was hacked", "A phishing email was clicked", "A laptop was stolen"],
+          "answerIndex": 1,
+          "explanation": "The reporter states that the breach originated from a phishing attempt."
+        },
+        {
+          "question": "How many records are estimated to be compromised?",
+          "options": ["About 50", "Over 500", "Exactly 1000"],
+          "answerIndex": 1,
+          "explanation": "The speaker mentions it is estimated that over 500 records were compromised."
+        }
+      ]
     },
     {
       "id": "adm-b2-w3-ex13",
       "type": "writingTask",
-      "prompt": "Exercise 13: Data Privacy Audit (Portfolio). Write a 150-word report on a privacy risk in your office (e.g., passwords on screens). Use at least two complex passive structures.",
-      "modelAnswer": "Subject: Data Privacy Mini-Audit - Reception Area\n\nIt was observed during a recent walkthrough that several passwords are being kept on sticky notes attached to monitors. It is thought that this poses a significant security risk, as unauthorised visitors could easily access sensitive systems.\n\nFurthermore, the filing cabinet in the corridor is believed to have been left unlocked on several occasions. It is expected that all staff will now receive refresher training on GDPR 'Integrity and Confidentiality' principles.\n\nRecommendations:\n1. Implement a clear-desk policy immediately.\n2. Replace manual locks with electronic key-card access to ensure we are in compliance with current regulations.",
-      "keywords": ["It was observed", "It is thought", "compliance", "GDPR"]
+      "prompt": "Exercise 13: Breach Notification. Draft a short, formal notification to the ICO reporting a breach (60-80 words). Include the timeframe and a neutral description.",
+      "modelAnswer": "Dear ICO, we are reporting a data breach that occurred on January 29th. It is reported that PII of approximately 500 subjects was accessed via a phishing attempt. We have contained the breach by resetting all credentials and are currently assessing the impact. This report is submitted within the 72-hour window. Best regards, [Company Name].",
+      "keywords": ["reporting", "PII", "phishing", "contained", "72-hour"]
     },
     {
       "id": "adm-b2-w3-ex14",
       "type": "writingTask",
-      "prompt": "Exercise 14: SAR Log Template. Complete a log entry for a Subject Access Request. Include: Request Date, Data Subject, Description of Data Requested, and Deadline.",
-      "modelAnswer": "Request Date: 12th Oct. Data Subject: Jane Doe. Description: All email correspondence regarding her 2023 contract. Deadline: 11th Nov (30 days).",
-      "keywords": ["Request Date", "Subject", "Deadline", "30 days"]
+      "prompt": "Exercise 14: Clear Desk Scenario. You find a colleague has left a list of payroll IDs on their desk. Write the message you would leave them or send via internal chat.",
+      "modelAnswer": "Hi [Name], I noticed some sensitive data was visible on your desk after you left. I’ve put it in your locked drawer to ensure we remain in compliance with the clear desk policy. Thanks!",
+      "keywords": ["sensitive", "locked drawer", "compliance", "clear desk"]
     },
     {
       "id": "adm-b2-w3-ex15",
@@ -152,7 +173,7 @@
       "id": "adm-b2-w3-ex16",
       "type": "reading-comprehension",
       "title": "Exercise 16: DPIA Case Study (Doc B)",
-      "text": "Doc B — Project Proposal: AI Recruitment Tool\n\nOur HR department is planning to implement an AI-driven tool to screen CVs. This tool will process data regarding candidates' qualifications, work history, and potentially sensitive information such as gender and ethnicity to ensure diversity.\n\nEvaluation by DPO:\nBecause this involves large-scale processing of sensitive data and the use of 'new technology', a Data Protection Impact Assessment (DPIA) is mandatory. It is expected that the DPIA will take two weeks to complete. We must identify how the AI makes decisions to ensure 'Fairness and Transparency'.",
+      "text": "Doc B — Project Proposal: AI Recruitment Tool\n\nOur HR department is planning to implement an AI-driven tool to screen CVs. This tool will process data regarding candidates' qualifications, work history, and potentially sensitive information such as gender and ethnicity to ensure diversity.\n\nEvaluation by DPO:\nBecause this involves large-scale processing of sensitive data and the use of 'new technology', a **Data Protection Impact Assessment (DPIA)** is mandatory. It is expected that the DPIA will take two weeks to complete. We must identify how the AI makes decisions to ensure '**Fairness and Transparency**'.\n\n### Highlighted Vocabulary\n1. **Data Protection Impact Assessment (DPIA)**: A process used to identify and minimize the data protection risks of a project.\n2. **Mandatory**: Required by law or rules; compulsory.\n3. **Fairness and Transparency**: The principle that data should be processed in a way that is clear and not harmful to the individual.",
       "questions": [
         {
           "question": "Why is a DPIA mandatory for the new AI recruitment tool?",
@@ -161,55 +182,60 @@
           "explanation": "Doc B states it's mandatory because it involves new technology and large-scale processing of sensitive data."
         },
         {
-          "question": "Which GDPR principle is specifically mentioned as a concern for the AI's decision-making?",
-          "options": ["Storage Limitation", "Data Minimisation", "Fairness and Transparency"],
-          "answerIndex": 2,
-          "explanation": "The text mentions ensuring 'Fairness and Transparency' in how the AI makes decisions."
+          "question": "How long is the DPIA expected to take?",
+          "options": ["One week", "Two weeks", "One month"],
+          "answerIndex": 1,
+          "explanation": "The text says: 'It is expected that the DPIA will take two weeks to complete.'"
         }
       ]
     },
     {
       "id": "adm-b2-w3-ex17",
       "type": "multipleChoice",
-      "prompt": "Exercise 17: DPIA Steps. What is the first step in the DPIA process according to the theory?",
-      "options": ["Assess necessity", "Identify risks", "Describe the nature/scope of processing", "Mitigate risks"],
-      "answerIndex": 2,
-      "explanation": "Step 1 is to 'Describe': Define the nature, scope, and context of the processing."
+      "prompt": "Exercise 17: DPIA Necessity. Which of these scenarios requires a mandatory DPIA?",
+      "options": [
+        "Buying new pens for the office.",
+        "Systematic monitoring of a public area (CCTV).",
+        "Changing the company's lunch menu.",
+        "Sending a holiday card to clients."
+      ],
+      "answerIndex": 1,
+      "explanation": "CCTV/Public monitoring is one of the triggers for a mandatory DPIA."
     },
     {
       "id": "adm-b2-w3-ex18",
-      "type": "writingTask",
-      "prompt": "Exercise 18: Complex Passive Practice. Rewrite: 'Experts believe that phishing is the biggest threat.'",
-      "modelAnswer": "It is believed that phishing is the biggest threat.",
-      "keywords": ["It is", "believed", "phishing"]
+      "type": "multipleChoice",
+      "prompt": "Exercise 18: Objectivity. Which complex passive structure is best for describing a suspected vulnerability?",
+      "options": [
+        "I think the server is weak.",
+        "The server is believed to have been vulnerable.",
+        "Somebody says the server is broken.",
+        "The server might be bad."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option 2 uses the 'Subject + is + believed + to + have been' structure for a professional, objective report."
     },
     {
       "id": "adm-b2-w3-ex19",
-      "type": "multipleChoice",
-      "prompt": "Exercise 19: Cyber Hygiene. What percentage of successful cyber attacks are estimated to start with phishing?",
-      "options": ["50%", "75%", "90%", "100%"],
-      "answerIndex": 2,
-      "explanation": "The theory states: 'It is estimated that 90% of successful attacks start with phishing.'"
+      "type": "writingTask",
+      "prompt": "Exercise 19: DPIA Steps. List the 4 key steps in performing a DPIA.",
+      "modelAnswer": "1. Describe. 2. Assess. 3. Identify Risks. 4. Mitigate.",
+      "keywords": ["Describe", "Assess", "Identify", "Mitigate"]
     },
     {
       "id": "adm-b2-w3-ex20",
-      "type": "writingTask",
-      "prompt": "Exercise 20: Phishing Red Flags. List three signs that an email might be a phishing attempt.",
-      "modelAnswer": "1. Urgent or threatening language. 2. Requests for passwords or bank details. 3. Mismatched email addresses or poor grammar.",
-      "keywords": ["Urgent", "passwords", "grammar"]
+      "type": "multipleChoice",
+      "prompt": "Exercise 20: GDPR Fines. What is a key motivation for organizations to stay in compliance with GDPR?",
+      "options": ["To win awards.", "To avoid heavy fines.", "To make the office look modern.", "To hire more staff."],
+      "answerIndex": 1,
+      "explanation": "Fines for non-compliance can be very high, creating a strong motivation for adherence."
     },
     {
       "id": "adm-b2-w3-ex21",
-      "type": "multipleChoice",
-      "prompt": "Exercise 21: DPIA Necessity. Which of these scenarios requires a mandatory DPIA?",
-      "options": [
-        "Sending a weekly newsletter to 50 subscribers.",
-        "Installing CCTV to systematically monitor a public car park.",
-        "Moving the office to a new floor.",
-        "Buying new chairs for the reception."
-      ],
-      "answerIndex": 1,
-      "explanation": "Systematic monitoring of a public area (like CCTV in a car park) requires a mandatory DPIA."
+      "type": "writingTask",
+      "prompt": "Exercise 21: Redaction in Practice. Explain when an administrator might need to 'redact' a document.",
+      "modelAnswer": "Before sharing a document with a third party, to remove PII or sensitive data that is not necessary for the third party to see.",
+      "keywords": ["remove", "PII", "sensitive", "necessary"]
     },
     {
       "id": "adm-b2-w3-ex22",
@@ -235,8 +261,15 @@
     },
     {
       "id": "adm-b2-w3-ex25",
+      "type": "oralRecording",
+      "prompt": "Exercise 25: Data Breach Recording. Record a 2-minute oral report of the data breach mentioned in Doc A. Use complex passives and a neutral, professional tone.",
+      "modelAnswer": "[Audio Upload Required] Rubric: Use of complex passives, neutral tone, and inclusion of all key facts (what, when, impact).",
+      "keywords": ["reported", "estimated", "PII", "breach"]
+    },
+    {
+      "id": "adm-b2-w3-ex26",
       "type": "multipleChoice",
-      "prompt": "Exercise 25: Storage Limitation. If a project ends, what should happen to the personal data collected specifically for that project?",
+      "prompt": "Exercise 26: Storage Limitation. If a project ends, what should happen to the personal data collected specifically for that project?",
       "options": [
         "Keep it forever just in case.",
         "Delete or anonymise it, as it is no longer necessary.",
@@ -247,16 +280,16 @@
       "explanation": "The 'Storage Limitation' principle requires data to be deleted or anonymised when no longer needed."
     },
     {
-      "id": "adm-b2-w3-ex26",
+      "id": "adm-b2-w3-ex27",
       "type": "writingTask",
-      "prompt": "Exercise 26: SAR Vocabulary. Use 'Exercise a right' and 'Data Controller' in a sentence about a customer request.",
+      "prompt": "Exercise 27: SAR Vocabulary. Use 'Exercise a right' and 'Data Controller' in a sentence about a customer request.",
       "modelAnswer": "The customer decided to exercise their right to be forgotten by contacting the data controller directly.",
       "keywords": ["exercise", "right", "controller"]
     },
     {
-      "id": "adm-b2-w3-ex27",
+      "id": "adm-b2-w3-ex28",
       "type": "multipleChoice",
-      "prompt": "Exercise 27: Reporting Passives. Which sentence is most appropriate for a formal compliance report?",
+      "prompt": "Exercise 28: Reporting Passives. Which sentence is most appropriate for a formal compliance report?",
       "options": [
         "I think we might be breaking the law.",
         "It is reported that our current storage policy is not in compliance with GDPR.",
@@ -267,151 +300,161 @@
       "explanation": "Option 2 uses a formal complex passive and professional terminology ('in compliance with')."
     },
     {
-      "id": "adm-b2-w3-ex28",
+      "id": "adm-b2-w3-ex29",
       "type": "writingTask",
-      "prompt": "Exercise 28: DPIA Mitigation. You identified a risk that 'hackers could access the new candidate database'. Suggest one mitigation measure.",
+      "prompt": "Exercise 29: DPIA Mitigation. You identified a risk that 'hackers could access the new candidate database'. Suggest one mitigation measure.",
       "modelAnswer": "Implement end-to-end encryption and Multi-Factor Authentication for all users accessing the database.",
       "keywords": ["encryption", "MFA", "Multi-Factor"]
     },
     {
-      "id": "adm-b2-w3-ex29",
-      "type": "multipleChoice",
-      "prompt": "Exercise 29: Subject Access Request (SAR). Can an organisation charge a fee for a standard SAR?",
-      "options": ["Yes, always.", "No, it must usually be provided free of charge.", "Only if the person is not an employee.", "Only if the data is more than 1 year old."],
-      "answerIndex": 1,
-      "explanation": "Under GDPR, SARs must generally be provided free of charge, unless the request is 'manifestly unfounded or excessive'."
-    },
-    {
       "id": "adm-b2-w3-ex30",
-      "type": "writingTask",
-      "prompt": "Exercise 30: Cyber Hygiene Poster. Write 4 bullet points for a 'Cyber Hygiene' poster for the office kitchen.",
-      "modelAnswer": "- Think before you click on 'Urgent' links!\n- Lock your screen every time you step away.\n- Use MFA for all your work accounts.\n- Shred sensitive papers—don't just bin them.",
-      "keywords": ["links", "Lock", "MFA", "Shred"]
+      "type": "multipleChoice",
+      "prompt": "Exercise 30: Subject Access Request (SAR). Can an organisation charge a fee for a standard request?",
+      "options": [
+        "Yes, always.",
+        "No, it must be provided free of charge (unless unfounded or excessive).",
+        "Only if the person is not an employee.",
+        "Only for paper copies."
+      ],
+      "answerIndex": 1,
+      "explanation": "Under GDPR, SARs must generally be provided free of charge."
     },
     {
       "id": "adm-b2-w3-ex31",
       "type": "reading-comprehension",
-      "title": "Exercise 31: Complex Compliance Scenario (Doc C)",
-      "text": "Doc C — Audit Findings: Regional Office\n\nDuring the audit, several issues were identified:\n1. Customer records from 2010 are still stored on the server. (Violation: Storage Limitation)\n2. The 'Contact Us' form asks for a date of birth, which is not used. (Violation: Data Minimisation)\n3. Shared passwords are being used for the payroll system. (Violation: Integrity and Confidentiality)\n\nIt is expected that all departments will address these findings by Friday EOD. A follow-up audit is thought to be necessary in three months.",
+      "title": "Exercise 31: Subject Access Request Protocol (Doc C)",
+      "text": "Doc C — Internal Policy: Handling SARs\n\nIndividuals have the right to **exercise a right** to access their personal data. When a Subject Access Request (SAR) is received, the **Data Controller** must verify the identity of the requester before any data is released.\n\nThe administrative team is responsible for **collating** all relevant information. This often involves searching emails, databases, and physical files. Before the data is sent, sensitive information relating to third parties must be **redacted** to protect their privacy.\n\nThe final package must be provided to the individual within **30 days** of the request.\n\n### Highlighted Vocabulary\n1. **Exercise a right**: To use a legal power or privilege.\n2. **Collating**: Collecting and combining (texts, information, or data).\n3. **Redacted**: Edited to remove or hide sensitive information.",
       "questions": [
         {
-          "question": "Which violation refers to asking for unnecessary information like date of birth?",
-          "options": ["Storage Limitation", "Data Minimisation", "Purpose Limitation"],
+          "question": "What must the Data Controller do before releasing any data for a SAR?",
+          "options": ["Charge a fee", "Verify the identity of the requester", "Ask the manager's permission"],
           "answerIndex": 1,
-          "explanation": "Asking for data that isn't used is a violation of 'Data Minimisation'."
+          "explanation": "Doc C states the controller must verify the identity of the requester."
         },
         {
-          "question": "By when must the audit findings be addressed?",
-          "options": ["Immediately", "Friday EOD", "In three months"],
-          "answerIndex": 1,
-          "explanation": "The text states: 'address these findings by Friday EOD'."
+          "question": "What is the standard deadline for providing the final data package?",
+          "options": ["72 hours", "7 days", "30 days"],
+          "answerIndex": 2,
+          "explanation": "The policy specifies the package must be provided within 30 days."
         }
       ]
     },
     {
       "id": "adm-b2-w3-ex32",
       "type": "multipleChoice",
-      "prompt": "Exercise 32: Passive reporting. Complete: 'The data processor is said ___ (mishandle) the files last month.'",
-      "options": ["to mishandle", "to have mishandled", "to been mishandled", "to mishandling"],
+      "prompt": "Exercise 32: Data Anonymisation. What is the difference between anonymisation and pseudonymisation?",
+      "options": [
+        "Anonymisation is reversible, pseudonymisation is not.",
+        "Anonymisation is irreversible, pseudonymisation allows for re-identification with a key.",
+        "They are the same thing.",
+        "Anonymisation is only for digital data."
+      ],
       "answerIndex": 1,
-      "explanation": "'Subject + is said + to have [past participle]' is used for reporting past actions."
+      "explanation": "Anonymisation cannot be undone; pseudonymisation replaces IDs but can be reversed with additional info."
     },
     {
       "id": "adm-b2-w3-ex33",
       "type": "writingTask",
-      "prompt": "Exercise 33: Neutralizing Blame (Breach). Rewrite: 'Sarah sent the file to the wrong person because she was distracted.'",
-      "modelAnswer": "It is reported that a file was sent to an incorrect recipient due to a procedural error.",
-      "keywords": ["reported", "incorrect", "recipient", "procedural"]
+      "prompt": "Exercise 33: Passive Structure (Past). Rewrite: 'Someone sent the report to the wrong person.'",
+      "modelAnswer": "The report is thought to have been sent to the wrong person.",
+      "keywords": ["thought", "have been", "sent"]
     },
     {
       "id": "adm-b2-w3-ex34",
       "type": "multipleChoice",
-      "prompt": "Exercise 34: Data Breach assessment. When assessing a breach, what is the most important factor?",
-      "options": ["Who caused it.", "How much it will cost the company.", "The risk to the rights and freedoms of the individuals affected.", "How long it takes to fix."],
-      "answerIndex": 2,
-      "explanation": "GDPR focuses on the risk to the data subjects (the people whose data was lost)."
+      "prompt": "Exercise 34: Regulator Notification. To which 'Regulator' should a data breach be reported in the UK?",
+      "options": ["The Police", "The ICO (Information Commissioner's Office)", "The Bank of England", "The Prime Minister"],
+      "answerIndex": 1,
+      "explanation": "The ICO is the UK's independent body set up to uphold information rights."
     },
     {
       "id": "adm-b2-w3-ex35",
       "type": "writingTask",
-      "prompt": "Exercise 35: Redaction Practice. You have a document with: 'Name: John Smith, DOB: 01/01/1980, Address: 12 High St, London'. Redact it for a public report where only the name is needed.",
-      "modelAnswer": "Name: John Smith, DOB: [REDACTED], Address: [REDACTED]",
-      "keywords": ["REDACTED"]
+      "prompt": "Exercise 35: Data Subject Rights. Name two rights individuals have under GDPR (other than the right to be forgotten).",
+      "modelAnswer": "1. The right to access their data (SAR). 2. The right to rectification (correcting errors).",
+      "keywords": ["access", "rectification"]
     },
     {
       "id": "adm-b2-w3-ex36",
       "type": "multipleChoice",
-      "prompt": "Exercise 36: DPIA proportionality. The 'Assessment' phase of a DPIA evaluates:",
-      "options": ["The cost of the software.", "The necessity and proportionality of the processing.", "The speed of the server.", "The popularity of the project."],
+      "prompt": "Exercise 36: Purpose Limitation. If you collect data to ship a product, can you then use that data to send marketing without extra consent?",
+      "options": [
+        "Yes, it's the same company.",
+        "No, that violates 'Purpose Limitation'.",
+        "Only if the product was expensive.",
+        "Only on Tuesdays."
+      ],
       "answerIndex": 1,
-      "explanation": "DPIAs must evaluate if the data collection is actually necessary and balanced against privacy risks."
+      "explanation": "Purpose Limitation means data can only be used for the specific reason it was collected."
     },
     {
       "id": "adm-b2-w3-ex37",
       "type": "writingTask",
-      "prompt": "Exercise 37: Complex Passives (Future). Use 'It is expected that...' to describe a new privacy policy starting next month.",
-      "modelAnswer": "It is expected that the new privacy policy will be implemented next month.",
-      "keywords": ["expected", "implemented"]
+      "prompt": "Exercise 37: Logic Analysis. Why is 'Staff Training' considered a key mitigation measure in a DPIA?",
+      "modelAnswer": "Because the majority of data breaches are caused by human error or phishing; training reduces the risk of these errors occurring.",
+      "keywords": ["human error", "reduces", "risk"]
     },
     {
       "id": "adm-b2-w3-ex38",
       "type": "multipleChoice",
-      "prompt": "Exercise 38: SAR collation. Whose responsibility is it typically to 'collate' the data for a SAR?",
-      "options": ["The Data Subject", "The Regulator", "Administrative staff / Data Controller", "The police"],
-      "answerIndex": 2,
-      "explanation": "Administrative staff often handle the collation of data from various systems to fulfill a SAR."
+      "prompt": "Exercise 38: Integrity and Confidentiality. This principle is mainly about:",
+      "options": ["Speed of processing.", "Information security (encryption, access controls).", "Deleting data.", "Collecting as much data as possible."],
+      "answerIndex": 1,
+      "explanation": "This principle focuses on keeping data secure and protected from unauthorized access."
     },
     {
       "id": "adm-b2-w3-ex39",
       "type": "writingTask",
-      "prompt": "Exercise 39: Cyber Hygiene Terminology. Define 'Phishing' and 'MFA' in your own words.",
-      "modelAnswer": "Phishing is a fake email trying to steal data. MFA is a security step requiring two ways to prove who you are (like a password and a phone code).",
-      "keywords": ["fake", "email", "steal", "two", "methods"]
+      "prompt": "Exercise 39: Redaction Logic. Why do we redact documents before sharing them with third parties?",
+      "modelAnswer": "To ensure that we only share necessary information and protect the privacy of individuals by removing PII.",
+      "keywords": ["protect", "privacy", "PII"]
     },
     {
       "id": "adm-b2-w3-ex40",
-      "type": "multipleChoice",
-      "prompt": "Exercise 40: GDPR Fines. What is the main reason organisations want to avoid GDPR violations?",
-      "options": ["To avoid paperwork.", "To avoid heavy financial fines and reputational damage.", "To keep the office clean.", "To save electricity."],
-      "answerIndex": 1,
-      "explanation": "GDPR fines can be very high, and breaches damage a company's reputation with customers."
+      "type": "oralRecording",
+      "prompt": "Exercise 40: SAR Update Call. Record a 60-second audio update for a client who has submitted a Subject Access Request. Explain the status of the request (collating data) and confirm the 30-day deadline.",
+      "modelAnswer": "[Audio Upload Required] Rubric: Professionalism, clarity, and correct reference to the 30-day legal window.",
+      "keywords": ["collating", "30-day", "deadline", "access"]
     },
     {
       "id": "adm-b2-w3-ex41",
-      "type": "writingTask",
-      "prompt": "Exercise 41: DPIA Identification. Does 'Updating the office printer software' require a mandatory DPIA? Why or why not?",
-      "modelAnswer": "No, because it does not involve new technology for processing sensitive data or systematic monitoring.",
-      "keywords": ["No", "not", "sensitive", "monitoring"]
+      "type": "multipleChoice",
+      "prompt": "Exercise 41: Accountability. Which principle requires organisations to demonstrate they are in compliance?",
+      "options": ["Data Minimisation", "Accountability", "Storage Limitation", "Transparency"],
+      "answerIndex": 1,
+      "explanation": "Accountability means taking responsibility for what you do with personal data and how you comply."
     },
     {
       "id": "adm-b2-w3-ex42",
       "type": "multipleChoice",
-      "prompt": "Exercise 42: GDPR Gatekeeper. In the theory, administrative professionals are described as the '___' of sensitive information.",
-      "options": ["Owners", "Gatekeepers", "Processors", "Regulators"],
-      "answerIndex": 1,
-      "explanation": "The theory uses the term 'gatekeeper' to emphasize the responsibility of admin staff."
+      "prompt": "Exercise 42: Data Breach Notification. Who must be notified if a breach is likely to result in a high risk to individuals' rights?",
+      "options": ["The regulator only.", "The individuals affected only.", "Both the regulator and the individuals affected.", "Nobody."],
+      "answerIndex": 2,
+      "explanation": "If there's a high risk to individuals, you must notify both the regulator and the data subjects."
     },
     {
       "id": "adm-b2-w3-ex43",
-      "type": "writingTask",
-      "prompt": "Exercise 43: Breach Notification. Draft a 1-sentence notification for the regulator about a 'lost encrypted laptop'.",
-      "modelAnswer": "It is reported that a company laptop containing encrypted employee records was lost on 14th January; containment measures have been initiated.",
-      "keywords": ["reported", "laptop", "lost", "containment"]
+      "type": "multipleChoice",
+      "prompt": "Exercise 43: Accuracy. This principle ensures that data is:",
+      "options": ["Deleted frequently.", "Kept up to date and corrected if wrong.", "Shared with everyone.", "Encrypted."],
+      "answerIndex": 1,
+      "explanation": "The 'Accuracy' principle requires organisations to ensure data is correct and up to date."
     },
     {
       "id": "adm-b2-w3-ex44",
       "type": "multipleChoice",
-      "prompt": "Exercise 44: Integrity and Confidentiality. This principle is mostly about:",
-      "options": ["Keeping data for a long time.", "Security and protection against unauthorised access.", "Being nice to coworkers.", "Sharing data as much as possible."],
+      "prompt": "Exercise 44: Privacy by Design. This means:",
+      "options": ["Making the website look nice.", "Integrating data protection into projects from the start.", "Using a specific color for folders.", "Hiring a professional designer."],
       "answerIndex": 1,
-      "explanation": "Integrity and Confidentiality focus on the security and protection of data."
+      "explanation": "Privacy by Design means considering data protection throughout the entire lifecycle of a project."
     },
     {
       "id": "adm-b2-w3-ex45",
       "type": "writingTask",
-      "prompt": "Exercise 45: Comprehensive Scenario. A customer makes a SAR. While collating data, you find their bank details are visible to everyone in the 'Sales' folder. 1) What violation is this? 2) What is the immediate 'Contain' action?",
-      "modelAnswer": "1) Violation of Integrity and Confidentiality. 2) Immediately move the files to a restricted-access folder and lock the Sales folder permissions.",
-      "keywords": ["Integrity", "Confidentiality", "Move", "restricted"]
+      "title": "Exercise 45: Weekly Review - GDPR & Compliance",
+      "prompt": "Summarize the main sections covered this week (GDPR Principles, Data Breaches, DPIA & Cyber Hygiene) in 60-80 words.",
+      "modelAnswer": "This week provided a comprehensive overview of GDPR, focusing on core principles like data minimisation and storage limitation. We explored the critical protocols for handling data breaches within 72 hours and the objective use of complex passives in official reporting. Additionally, we analyzed the importance of DPIAs for new technologies and practical cyber hygiene practices, ensuring administrative compliance and safeguarding sensitive PII in the workplace.",
+      "keywords": ["GDPR", "breaches", "DPIA", "hygiene", "compliance"]
     }
   ]
 }

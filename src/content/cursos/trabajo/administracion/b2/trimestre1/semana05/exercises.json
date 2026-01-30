@@ -288,16 +288,10 @@
     },
     {
       "id": "adm-b2-w5-ex25",
-      "type": "multipleChoice",
-      "prompt": "Exercise 25: Vocabulary. What does it mean to 'iron out the details'?",
-      "options": [
-        "To press a shirt for a meeting.",
-        "To resolve minor problems or clarify small points.",
-        "To cancel a project entirely.",
-        "To find a new vendor."
-      ],
-      "answerIndex": 1,
-      "explanation": "To iron out details means to fix small issues or finalize specifics."
+      "type": "oralRecording",
+      "title": "Exercise 25: Oral Recording - De-escalating a Vendor Dispute",
+      "prompt": "Record a short phone call to a vendor who is angry because of a payment delay. Use the L.E.A.P. framework: Empathize with their situation, Apologize for the inconvenience, and Problem-solve by providing a specific timeline for the 'had the payment processed' causative.",
+      "modelAnswer": "I understand that this payment delay is causing issues for your cash flow, and I'm very sorry for the inconvenience. I've already had the payment processed this morning, and I'll get our finance lead to send you the confirmation slip by EOD."
     },
     {
       "id": "adm-b2-w5-ex26",
@@ -363,6 +357,12 @@
           "options": ["To avoid talking to the person", "To reach an agreement through compromise", "To admit you are wrong"],
           "answerIndex": 1,
           "explanation": "Meeting halfway is defined as compromising to reach an agreement."
+        },
+        {
+          "question": "According to the 'Key Principles', what should the feedback focus on?",
+          "options": ["The person's character", "Observable actions", "What others said about them"],
+          "answerIndex": 1,
+          "explanation": "The text states: 'Focus on observable actions, not character.'"
         }
       ]
     },
@@ -443,10 +443,10 @@
     },
     {
       "id": "adm-b2-w5-ex40",
-      "type": "writingTask",
-      "prompt": "Exercise 40: L.E.A.P. Problem-Solving. A colleague is upset because they weren't invited to a meeting. Write a 'Problem-solve' sentence.",
-      "modelAnswer": "I will send you the minutes immediately and make sure you are added to all future sessions on this topic.",
-      "keywords": ["send", "minutes", "added", "future"]
+      "type": "oralRecording",
+      "title": "Exercise 40: Oral Recording - Managing Up Briefing",
+      "prompt": "You have taken the initiative to streamline the digital archive. Record a 60-second briefing for your manager (Sarah). Use at least two causative forms (e.g., 'I had the files indexed', 'I got the team to...') and mention how this 'anticipates the needs' of the department.",
+      "modelAnswer": "Hi Sarah, I wanted to update you on the digital archive. I took the initiative to streamline the indexing, as I anticipated we'd need faster access for the Q4 audit. I've had all the 2023 files indexed and I got the junior team to verify the metadata. This should save us several hours of searching each week."
     },
     {
       "id": "adm-b2-w5-ex41",
@@ -490,16 +490,11 @@
     },
     {
       "id": "adm-b2-w5-ex45",
-      "type": "multipleChoice",
-      "prompt": "Exercise 45: Final Review. Which causative form is most common when paying for a professional service?",
-      "options": [
-        "Get someone to do",
-        "Have something done",
-        "Have someone do",
-        "Make someone do"
-      ],
-      "answerIndex": 1,
-      "explanation": "'Have something done' is standard for services (e.g., 'have the car serviced', 'have the audit performed')."
+      "type": "writingTask",
+      "title": "Exercise 45: Weekly Review - Comprehensive Leadership Scenario",
+      "prompt": "You are overseeing a project where a junior colleague has made a mistake, and your manager is demanding a 'dashboard view' of the fix. 1) Write an SBI feedback sentence for the junior. 2) Use a causative form to explain how you will fix it. 3) Describe how you will 'manage up' with your manager.",
+      "modelAnswer": "1) In the Q3 report (S), two budget lines were swapped (B), which led to an incorrect total being presented (I). 2) I'll get IT to re-run the extraction script immediately. 3) I will provide Sarah with a one-page dashboard showing the corrected figures and a red/green status for the remaining tasks.",
+      "keywords": ["SBI", "causative", "dashboard", "manage up"]
     }
   ]
 }

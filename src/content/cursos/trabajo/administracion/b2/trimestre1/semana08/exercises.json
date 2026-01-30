@@ -8,20 +8,38 @@
     {
       "id": "adm-b2-w8-ex01",
       "type": "reading-comprehension",
-      "title": "Exercise 1: Change Announcement (Doc A)",
-      "text": "Doc A — Internal Announcement: Transition to Paperless Office\n\nDear Team,\n\nWe are excited to announce a strategic pivot in our administrative operations. Starting next month, we will be transitioning to a fully paperless filing system. This move is designed to streamline our workflows and eliminate the frequent bottlenecks we've experienced with physical document retrieval.\n\nWe understand that some staff might have concerns about this transition. To ensure buy-in and address any initial resistance, we will be providing a series of workshops. We should have implemented this earlier, but we are confident that this incremental change will lead to a more agile office environment.\n\nUnder no circumstances will physical files be accepted after the 15th. We must have consulted the IT department properly, as the new server is already live and tested.",
+      "title": "Exercise 1: Change Announcement",
+      "text": "Doc A — Internal Announcement: Transition to Paperless Office\n\nDear Team,\n\nWe are excited to announce a strategic **pivot** in our administrative operations. Starting next month, we will be transitioning to a fully paperless filing system. This move is designed to **streamline** our workflows and eliminate the frequent **bottlenecks** we've experienced with physical document retrieval. Replacing our **legacy systems** is a priority for this quarter.\n\nWe understand that some staff might have concerns about this transition. To ensure **buy-in** and address any initial **resistance**, we will be providing a series of workshops. We should have implemented this earlier, but we are confident that this **incremental** change will lead to a more **agile** office environment.\n\nUnder no circumstances will physical files be accepted after the 15th. We must have consulted the IT department properly, as the new server is already live and tested for **UAT (User Acceptance Testing)**.\n\n**Highlighted Vocabulary:**\n- **Pivot**: A fundamental change in strategy or direction.\n- **Streamline**: To make a system or process more efficient.\n- **Bottlenecks**: Points in a process where the flow is restricted, causing delays.\n- **Legacy Systems**: Outdated computer systems or software applications.\n- **Buy-in**: Acceptance of and willingness to actively support a change.\n- **Resistance**: Refusal to accept or comply with something.\n- **Incremental**: Gradual or in small steps.\n- **Agile**: Characterized by quick movement and adaptability.\n- **UAT**: The final stage of testing before a system goes live.",
       "questions": [
         {
           "question": "What is the primary goal of transitioning to a paperless system according to Doc A?",
-          "options": ["To save money on pens.", "To streamline workflows and eliminate bottlenecks.", "To make the office look more modern."],
+          "options": [
+            "To save money on pens.",
+            "To streamline workflows and eliminate bottlenecks.",
+            "To make the office look more modern."
+          ],
           "answerIndex": 1,
           "explanation": "Doc A states the move is designed to 'streamline our workflows and eliminate the frequent bottlenecks'."
         },
         {
           "question": "How does the management plan to handle staff concerns and ensure 'buy-in'?",
-          "options": ["By ignoring the concerns.", "By providing a series of workshops.", "By firing staff who resist."],
+          "options": [
+            "By ignoring the concerns.",
+            "By providing a series of workshops.",
+            "By firing staff who resist."
+          ],
           "answerIndex": 1,
           "explanation": "Doc A mentions: 'To ensure buy-in and address any initial resistance, we will be providing a series of workshops.'"
+        },
+        {
+          "question": "What does 'legacy systems' refer to in this context?",
+          "options": [
+            "The company's history books.",
+            "Outdated software or methods currently in use.",
+            "The furniture in the archive room."
+          ],
+          "answerIndex": 1,
+          "explanation": "Legacy systems are outdated systems that are being replaced by the new paperless system."
         }
       ]
     },
@@ -69,21 +87,30 @@
       "type": "writingTask",
       "prompt": "Exercise 5: Modals for Deduction. Speculate about why a past project failed using 'must have' (high certainty): 'The project failed. There was no budget.'",
       "modelAnswer": "The project must have failed because there was no budget.",
-      "keywords": ["must have", "failed"]
+      "keywords": [
+        "must have",
+        "failed"
+      ]
     },
     {
       "id": "adm-b2-w8-ex06",
       "type": "writingTask",
       "prompt": "Exercise 6: Modals for Deduction. Express regret about a past decision using 'should have': 'We didn't train the staff. Now they are confused.'",
       "modelAnswer": "We should have trained the staff to avoid this confusion.",
-      "keywords": ["should have", "trained"]
+      "keywords": [
+        "should have",
+        "trained"
+      ]
     },
     {
       "id": "adm-b2-w8-ex07",
       "type": "writingTask",
       "prompt": "Exercise 7: Extracting Action Points. Based on Doc A, list the 2 main actions the company is taking to ensure the transition is successful.",
       "modelAnswer": "1. Transitioning to a paperless filing system next month.\n2. Providing a series of workshops for staff training.",
-      "keywords": ["paperless", "workshops"]
+      "keywords": [
+        "paperless",
+        "workshops"
+      ]
     },
     {
       "id": "adm-b2-w8-ex08",
@@ -103,13 +130,23 @@
       "type": "writingTask",
       "prompt": "Exercise 9: Follow-up Email. Write a 50-word email to your team addressing 'initial resistance' to a new software. Focus on 'transparency'.",
       "modelAnswer": "Hi team, I understand there is some initial resistance to the new CRM. I want to be transparent: we are making this pivot because the old system was creating a bottleneck in our reporting. We will have training sessions next week to support you. Thanks, Alex",
-      "keywords": ["resistance", "transparent", "pivot", "bottleneck"]
+      "keywords": [
+        "resistance",
+        "transparent",
+        "pivot",
+        "bottleneck"
+      ]
     },
     {
       "id": "adm-b2-w8-ex10",
       "type": "multipleChoice",
       "prompt": "Exercise 10: Operational Logic. If you make 'small, gradual improvements over time', what type of innovation is this?",
-      "options": ["Disruptive", "Incremental", "Agile", "Stagnant"],
+      "options": [
+        "Disruptive",
+        "Incremental",
+        "Agile",
+        "Stagnant"
+      ],
       "answerIndex": 1,
       "explanation": "'Incremental' innovation refers to small, gradual improvements."
     },
@@ -117,36 +154,433 @@
       "id": "adm-b2-w8-ex11",
       "type": "writingTask",
       "prompt": "Exercise 11: Oral Proposal Prep. Prepare a script for a 3-minute proposal to 'streamline' the expense claim process. Use the terms: 'bottleneck', 'buy-in', and 'pivot'.",
-      "modelAnswer": "[Audio Upload Required] Rubric: Persuasive, Use of Key Terms, Professional Tone.",
-      "keywords": ["bottleneck", "buy-in", "pivot", "streamline"]
+      "modelAnswer": "Proposal to streamline expense claims: Currently, our manual process creates a bottleneck. We must pivot to an automated solution. To ensure buy-in, we will run a pilot.",
+      "keywords": [
+        "bottleneck",
+        "buy-in",
+        "pivot",
+        "streamline"
+      ]
     },
     {
       "id": "adm-b2-w8-ex12",
       "type": "writingTask",
       "prompt": "Exercise 12: Oral Speculation. Record a 90-second audio speculating about why the office relocation was delayed. Use 'might have', 'could have', and 'should have'.",
-      "modelAnswer": "[Audio Upload Required] Checklist: Modal accuracy, Logical speculation, Formal tone.",
-      "keywords": ["might have", "could have", "should have"]
+      "modelAnswer": "The move might have been delayed by permits. We could have planned for this. We should have hired a better consultant.",
+      "keywords": [
+        "might have",
+        "could have",
+        "should have"
+      ]
     },
     {
       "id": "adm-b2-w8-ex13",
       "type": "writingTask",
       "prompt": "Exercise 13: Change Proposal (Portfolio). Write a 200-word proposal to change the office 'Morning Check-in' to an 'Agile Stand-up'. Use 'streamline' and 'must have'.",
-      "modelAnswer": "Proposal: Transition to Agile Stand-ups\n\nWe are proposing to streamline our morning communications by pivoting from our current 30-minute sit-down meetings to a 10-minute 'Agile Stand-up'. The current format has become a bottleneck, often delaying the start of core tasks. \n\nWe believe the previous format must have failed to maintain focus due to its length. To ensure buy-in, we will trial this for two weeks. We should have implemented this sooner to increase our team's agility. We anticipate some initial resistance, but the benefit of a more efficient start to the day will be clear. Only after the trial period will we make a final decision.",
-      "keywords": ["streamline", "pivot", "bottleneck", "must have", "buy-in"]
+      "modelAnswer": "Proposal: Transition to Agile Stand-ups\n\nWe are proposing to streamline our morning communications by pivoting from our current 30-minute sit-down meetings to a 10-minute 'Agile Stand-up'. The current format has become a bottleneck, often delaying the start of core tasks. \n\nWe believe the previous format must have failed to maintain focus due to its length. To ensure buy-in, we will trial this for two weeks. We should have implemented this sooner to increase our team's agility.",
+      "keywords": [
+        "streamline",
+        "pivot",
+        "bottleneck",
+        "must have",
+        "buy-in"
+      ]
     },
     {
       "id": "adm-b2-w8-ex14",
       "type": "writingTask",
       "prompt": "Exercise 14: Change Impact Table. Complete a table for a 'New CRM' implementation. Include: Current State | Future State | Potential Resistance.",
       "modelAnswer": "Current State: Manual Excel tracking. Future State: Automated CRM dashboard. Potential Resistance: Lack of technical skills / Fear of data loss.",
-      "keywords": ["Excel", "CRM", "Resistance"]
+      "keywords": [
+        "Excel",
+        "CRM",
+        "Resistance"
+      ]
     },
     {
       "id": "adm-b2-w8-ex15",
       "type": "writingTask",
       "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Buy-in'. 2) What is a 'Bottleneck'? 3) Speculate (low certainty): 'They / forget / the meeting'. 4) Complete: 'We ___ have implemented this last month.' (Regret).",
       "modelAnswer": "1) Agreement and support from stakeholders. 2) A point where a process is restricted, causing delays. 3) They might have forgotten the meeting. 4) We should have implemented this last month.",
-      "keywords": ["stakeholders", "delays", "might have", "should have"]
+      "keywords": [
+        "stakeholders",
+        "delays",
+        "might have",
+        "should have"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex16",
+      "type": "multipleChoice",
+      "prompt": "Exercise 16: Vocabulary. Which term refers to the final phase of software testing by actual users?",
+      "options": [
+        "Beta Testing",
+        "UAT",
+        "Code Review",
+        "Migration"
+      ],
+      "answerIndex": 1,
+      "explanation": "UAT stands for User Acceptance Testing, the final stage before a system goes live."
+    },
+    {
+      "id": "adm-b2-w8-ex17",
+      "type": "fillBlanks",
+      "prompt": "Exercise 17: Fill in the blanks. 'Our ________ systems are too slow; we need to ________ to the cloud to ________ our operations.'",
+      "answers": [
+        "legacy",
+        "migrate",
+        "streamline"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex18",
+      "type": "multipleChoice",
+      "prompt": "Exercise 18: Innovation Types. If a company applies existing tech to a new department, what is this called?",
+      "options": [
+        "Disruptive Innovation",
+        "Architectural Innovation",
+        "Incremental Innovation",
+        "Radical Innovation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Architectural innovation involves taking existing technology and applying it to a new context or market."
+    },
+    {
+      "id": "adm-b2-w8-ex19",
+      "type": "writingTask",
+      "prompt": "Exercise 19: Professional Definitions. Explain the difference between 'Disruptive' and 'Incremental' innovation in 2 sentences.",
+      "modelAnswer": "Disruptive innovation completely changes an industry or process, while incremental innovation focuses on small, gradual improvements over time.",
+      "keywords": [
+        "changes",
+        "gradual",
+        "improvements"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex20",
+      "type": "reading-comprehension",
+      "title": "Exercise 20: Case Study - The CRM Failure",
+      "text": "Case Study: The CRM Failure\n\nLast year, the Logistics Department attempted to **migrate** all client data to a new CRM. However, the project was plagued by **resistance** from senior staff who preferred their **legacy systems**. Management failed to create a **guiding coalition**, resulting in a lack of **buy-in** across the board. During the **UAT** phase, several **bottlenecks** were discovered in the reporting module, yet the 'go-live' date was not **pivoted**. Consequently, the system crashed on day one. Experts say the IT team **must have overlooked** the server load requirements.\n\n**Highlighted Vocabulary:**\n- **Migrate**: To move data from one system to another.\n- **Guiding Coalition**: A group of influential people who lead a change effort.\n- **Go-live**: The moment a new system becomes operational.",
+      "questions": [
+        {
+          "question": "What was one of the main human factors in the project's failure?",
+          "options": [
+            "Lack of buy-in and resistance from senior staff.",
+            "The IT team was too small.",
+            "The server was too expensive."
+          ],
+          "answerIndex": 0,
+          "explanation": "The text mentions resistance from senior staff and a lack of buy-in."
+        },
+        {
+          "question": "What mistake did management make regarding the timeline?",
+          "options": [
+            "They pivoted too early.",
+            "They didn't pivot the go-live date despite bottlenecks.",
+            "They forgot the date entirely."
+          ],
+          "answerIndex": 1,
+          "explanation": "The text says 'the go-live date was not pivoted' despite bottlenecks."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex21",
+      "type": "multipleChoice",
+      "prompt": "Exercise 21: Kotter's Model. What is the first step in Kotter's 8-Step Model?",
+      "options": [
+        "Create a vision.",
+        "Generate short-term wins.",
+        "Create urgency.",
+        "Remove obstacles."
+      ],
+      "answerIndex": 2,
+      "explanation": "The first step is creating urgency to explain why the change is necessary."
+    },
+    {
+      "id": "adm-b2-w8-ex22",
+      "type": "multipleChoice",
+      "prompt": "Exercise 22: Kotter's Model. Which step involves celebrating small successes?",
+      "options": [
+        "Communicate the vision.",
+        "Generate short-term wins.",
+        "Anchor the changes.",
+        "Form a coalition."
+      ],
+      "answerIndex": 1,
+      "explanation": "Generating short-term wins keeps the team motivated during a long transition."
+    },
+    {
+      "id": "adm-b2-w8-ex23",
+      "type": "fillBlanks",
+      "prompt": "Exercise 23: Speculation. Complete with 'must have', 'can't have', or 'might have'. 'The server crashed. They ________ (not / test) it properly before launch.'",
+      "answers": [
+        "can't have tested",
+        "cannot have tested"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex24",
+      "type": "fillBlanks",
+      "prompt": "Exercise 24: Speculation. 'Sarah is late for the change workshop. She ________ (forget) about the invitation.'",
+      "answers": [
+        "might have forgotten",
+        "may have forgotten",
+        "could have forgotten"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex25",
+      "type": "oralRecording",
+      "title": "Exercise 25: Oral Recording - Overcoming Resistance",
+      "prompt": "You are an administrator presenting a new digital filing system to a resistant team. Record a 60-second audio explaining the 'pivot', how it will 'streamline' work by removing 'bottlenecks', and asking for their 'buy-in'. Use at least one modal of deduction to explain why the old system failed (e.g., 'The legacy system must have...').",
+      "modelAnswer": "Team, I know there's some resistance to the new paperless system. However, we need to pivot because our legacy system must have cost us hundreds of hours in lost files last year. This new tool will streamline our workflows and eliminate the bottlenecks in document retrieval. I'd really appreciate your buy-in as we move into the UAT phase next week."
+    },
+    {
+      "id": "adm-b2-w8-ex26",
+      "type": "multipleChoice",
+      "prompt": "Exercise 26: Grammar. Which sentence expresses a regret about the past?",
+      "options": [
+        "We must have sent the email.",
+        "We should have sent the email.",
+        "We might have sent the email.",
+        "We can't have sent the email."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Should have' is used to express regret or criticism about a past action."
+    },
+    {
+      "id": "adm-b2-w8-ex27",
+      "type": "multipleChoice",
+      "prompt": "Exercise 27: Grammar. 'The client is angry. We ________ (miss) a critical detail in the proposal.'",
+      "options": [
+        "must have missed",
+        "needn't have missed",
+        "can't have missed",
+        "should have missed"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Must have missed' indicates a high degree of certainty based on the client's reaction."
+    },
+    {
+      "id": "adm-b2-w8-ex28",
+      "type": "fillBlanks",
+      "prompt": "Exercise 28: Modals. Complete the criticism: 'The manager ________ (tell) us about the merger sooner.'",
+      "answers": [
+        "should have told"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex29",
+      "type": "multipleChoice",
+      "prompt": "Exercise 29: Speculation. 'There is no data in the system. The migration ________ (fail).'",
+      "options": [
+        "must have failed",
+        "can't have failed",
+        "should have failed",
+        "might not have failed"
+      ],
+      "answerIndex": 0,
+      "explanation": "If there is no data, it is almost certain the migration failed."
+    },
+    {
+      "id": "adm-b2-w8-ex30",
+      "type": "writingTask",
+      "prompt": "Exercise 30: Past Possibility. The CEO didn't show up. Suggest two possible reasons using 'might have'.",
+      "modelAnswer": "He might have had a flight delay. He might have forgotten the meeting time.",
+      "keywords": [
+        "might have"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex31",
+      "type": "reading-comprehension",
+      "title": "Exercise 31: Agile Administrative Support (Doc C)",
+      "text": "Doc C — Case Study: Transitioning to Agile Workflows\n\nIn our latest sprint, we pivoted from a hierarchical to an **agile** structure. To ensure **buy-in**, we identified a **guiding coalition** of five senior administrators. We identified a major **bottleneck** in the procurement phase which was caused by our **legacy** approval software. By **migrating** to a cloud-based solution, we achieved a **short-term win** of a 30% reduction in processing time. We **should have** implemented this sooner, but we are now focusing on **anchoring** the change into the daily culture.\n\n### Highlighted Vocabulary\n1. **Agile**: Characterized by quick movement and adaptability.\n2. **Short-term win**: A visible, early success in a change process.\n3. **Anchoring**: Making a new process a permanent part of the culture.",
+      "questions": [
+        {
+          "question": "What was the cause of the bottleneck in the procurement phase?",
+          "options": ["The team was too small.", "Outdated (legacy) approval software.", "A lack of guiding coalition."],
+          "answerIndex": 1,
+          "explanation": "Doc C explicitly states the bottleneck was 'caused by our legacy approval software'."
+        },
+        {
+          "question": "Which 'short-term win' was achieved after the migration?",
+          "options": ["A 30% reduction in processing time.", "A complete industry disruption.", "100% team buy-in."],
+          "answerIndex": 0,
+          "explanation": "The text mentions achieving 'a short-term win of a 30% reduction in processing time'."
+        },
+        {
+          "question": "What is the team focusing on now that the initial change is done?",
+          "options": ["Creating more urgency.", "Anchoring the change into the daily culture.", "Pivoting to a new industry."],
+          "answerIndex": 1,
+          "explanation": "The final sentence states they are 'now focusing on anchoring the change into the daily culture.'"
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex32",
+      "type": "fillBlanks",
+      "prompt": "Exercise 32: Innovation. 'A ________ innovation completely disrupts the status quo, whereas ________ innovation makes small tweaks.'",
+      "answers": [
+        "disruptive",
+        "incremental"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex33",
+      "type": "multipleChoice",
+      "prompt": "Exercise 33: Grammar. 'We ________ (hire) that expensive consultant; our team solved the problem in 10 minutes.'",
+      "options": [
+        "must have hired",
+        "needn't have hired",
+        "should have hired",
+        "can't have hired"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Needn't have' is used when something was done but was actually unnecessary."
+    },
+    {
+      "id": "adm-b2-w8-ex34",
+      "type": "fillBlanks",
+      "prompt": "Exercise 34: Logic. 'To ensure ________, we must be ________ about the reasons for the pivot.'",
+      "answers": [
+        "buy-in",
+        "transparent"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex35",
+      "type": "writingTask",
+      "prompt": "Exercise 35: Rephrasing. Rephrase 'I am sure they forgot' using a modal of deduction.",
+      "modelAnswer": "They must have forgotten.",
+      "keywords": [
+        "must have"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex36",
+      "type": "listening",
+      "title": "Exercise 36: Vocabulary Check",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana08/glossary.mp3",
+      "prompt": "Listen to the terms and their definitions. Which term refers to the process of moving data between systems?",
+      "options": [
+        "Migration",
+        "UAT",
+        "Bottleneck",
+        "Pivot"
+      ],
+      "answerIndex": 0,
+      "explanation": "Migration is the term for moving data or software."
+    },
+    {
+      "id": "adm-b2-w8-ex37",
+      "type": "listening",
+      "title": "Exercise 37: Dialogue - Dealing with Resistance",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana08/dialogue1.mp3",
+      "prompt": "Listen to the dialogue between a manager and an employee. Why is the employee resisting the new software?",
+      "options": [
+        "It is too expensive.",
+        "They are comfortable with the legacy system and fear the learning curve.",
+        "They don't like the color of the interface."
+      ],
+      "answerIndex": 1,
+      "explanation": "The employee mentions that the current system works fine and they don't have time for more training."
+    },
+    {
+      "id": "adm-b2-w8-ex38",
+      "type": "listening",
+      "title": "Exercise 38: Dialogue - UAT Feedback",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana08/dialogue2.mp3",
+      "prompt": "Listen to the UAT feedback session. What 'bottleneck' did the user identify?",
+      "options": [
+        "The login page takes too long.",
+        "The approval process requires too many clicks.",
+        "The data doesn't migrate correctly."
+      ],
+      "answerIndex": 1,
+      "explanation": "The user complains that the new approval workflow is slower than the old one due to excessive steps."
+    },
+    {
+      "id": "adm-b2-w8-ex39",
+      "type": "listening",
+      "title": "Exercise 39: Dictation",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana08/dictation.mp3",
+      "prompt": "Listen and type exactly what you hear.",
+      "modelAnswer": "We must have secured buy-in before the migration phase started.",
+      "keywords": [
+        "buy-in",
+        "migration",
+        "started"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex40",
+      "type": "oralRecording",
+      "title": "Exercise 40: Oral Recording Task 2 - Migration Debrief",
+      "prompt": "You are the project coordinator. Record a 60-second summary for the Steering Committee regarding the 'Migration' phase. Mention: 1) One 'bottleneck' identified during 'UAT', 2) The 'short-term win' achieved, and 3) A recommendation for 'anchoring' the change.",
+      "modelAnswer": "I am pleased to report that we have successfully completed the migration. During UAT, we identified a bottleneck in the approval workflow which we have already streamlined. Our short-term win is a 30% reduction in processing time, and I recommend monthly follow-up sessions to ensure we are anchoring these new habits in the team culture."
+    },
+    {
+      "id": "adm-b2-w8-ex41",
+      "type": "writingTask",
+      "prompt": "Exercise 41: Implementation Plan. Create a 3-step plan to introduce a new 'Agile' project management tool to a team using legacy methods.",
+      "modelAnswer": "1. Create urgency by showing the inefficiencies of the legacy system. 2. Run a small pilot to generate short-term wins. 3. Provide comprehensive training to ensure buy-in.",
+      "keywords": [
+        "urgency",
+        "pilot",
+        "training"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex42",
+      "type": "multipleChoice",
+      "prompt": "Exercise 42: Business Logic. Why is it important to 'anchor' changes in the culture?",
+      "options": [
+        "To make sure people don't go back to their old ways.",
+        "To save money on future training.",
+        "Because it sounds professional.",
+        "To make the CEO happy."
+      ],
+      "answerIndex": 0,
+      "explanation": "Anchoring ensures the change becomes the 'new normal' and isn't just a temporary phase."
+    },
+    {
+      "id": "adm-b2-w8-ex43",
+      "type": "writingTask",
+      "prompt": "Exercise 43: Advanced Speculation. A competitor just launched a disruptive product. Speculate on their strategy using 'must have' and 'might have'.",
+      "modelAnswer": "They must have invested heavily in R&D. They might have been planning this for years.",
+      "keywords": [
+        "must have",
+        "might have"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex44",
+      "type": "multipleChoice",
+      "prompt": "Exercise 44: Terminology. 'User Acceptance Testing' is usually performed by:",
+      "options": [
+        "The software developers only.",
+        "The end-users who will actually use the system.",
+        "The HR department.",
+        "External consultants only."
+      ],
+      "answerIndex": 1,
+      "explanation": "UAT is performed by the actual users to ensure the system meets their real-world needs."
+    },
+    {
+      "id": "adm-b2-w8-ex45",
+      "type": "writingTask",
+      "title": "Exercise 45: Weekly Review - Project Management & Innovation",
+      "prompt": "Synthesize this week's learning: 1) Define 'Disruptive Innovation'. 2) Explain why 'Buy-in' is critical during a 'Pivot'. 3) Write a sentence speculating about a failed project using 'must have' or 'should have'.",
+      "modelAnswer": "1) Disruptive innovation refers to a technology or process that completely replaces existing methods and creates a new market. 2) Buy-in is critical during a pivot because without team commitment, the new direction will face resistance and likely fail. 3) The project should have had a more realistic timeline to avoid the final bottleneck.",
+      "keywords": [
+        "Disruptive",
+        "Buy-in",
+        "Pivot",
+        "must have",
+        "should have"
+      ]
     }
   ]
 }

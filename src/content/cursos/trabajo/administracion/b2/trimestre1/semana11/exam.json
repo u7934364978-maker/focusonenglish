@@ -63,6 +63,176 @@
       "explanation": "The 'if' part of the third conditional always uses the past perfect ('had + past participle').",
       "answerIndex": 0,
       "prompt": "Which phrase correctly starts a third conditional sentence about a past software failure?"
+    },
+    {
+      "id": "admin-b2-w11-exam-q6",
+      "type": "multipleChoice",
+      "options": [
+        "RTO is about data; RPO is about time",
+        "RTO is about time; RPO is about data loss",
+        "They are the same thing",
+        "RTO refers to cost; RPO refers to quality"
+      ],
+      "explanation": "Recovery Time Objective (RTO) is the duration of time to restore a process; Recovery Point Objective (RPO) is the maximum amount of data loss measured in time.",
+      "answerIndex": 1,
+      "prompt": "What is the primary difference between RTO and RPO?"
+    },
+    {
+      "id": "admin-b2-w11-exam-q7",
+      "type": "fillBlanks",
+      "explanation": "Third conditional for a past hypothetical situation.",
+      "prompt": "If we ________ (prepare) a Business Continuity Plan (BCP) last year, the downtime ________ (not / be) so extensive.",
+      "answers": [
+        "had prepared / wouldn't have been",
+        "had prepared / would not have been"
+      ]
+    },
+    {
+      "id": "admin-b2-w11-exam-q8",
+      "type": "multipleChoice",
+      "options": [
+        "Removing the risk entirely",
+        "Ignoring the risk",
+        "Reducing the probability or impact of a risk",
+        "Moving the risk to another department"
+      ],
+      "explanation": "Mitigation focuses on taking steps to reduce the severity or likelihood of a negative event.",
+      "answerIndex": 2,
+      "prompt": "In risk management, what does 'mitigation' involve?"
+    },
+    {
+      "id": "admin-b2-w11-exam-q9",
+      "type": "fillBlanks",
+      "explanation": "The risk management cycle typically involves Identify, Assess, Plan, and Implement.",
+      "prompt": "The four main stages of risk management are: Identify, Assess, Plan, and ________.",
+      "answers": [
+        "Implement",
+        "Execute"
+      ]
+    },
+    {
+      "id": "admin-b2-w11-exam-q10",
+      "type": "multipleChoice",
+      "options": [
+        "Would you have stayed if the fire alarm had rung?",
+        "Did you stay if the fire alarm rang?",
+        "Would you stay if the fire alarm rings?",
+        "Will you stay if the fire alarm had rung?"
+      ],
+      "explanation": "The third conditional question uses 'Would + have + past participle' and 'if + had + past participle'.",
+      "answerIndex": 0,
+      "prompt": "Which of these is a correctly formed third conditional question?"
+    },
+    {
+      "id": "admin-b2-w11-exam-q11",
+      "type": "fillBlanks",
+      "explanation": "A single point of failure is a part of a system that, if it fails, will stop the entire system from working.",
+      "prompt": "A part of a system that, if it fails, will stop the entire system from working is known as a ________ point of failure.",
+      "answers": [
+        "single"
+      ]
+    },
+    {
+      "id": "admin-b2-w11-exam-q12",
+      "type": "multipleChoice",
+      "options": [
+        "A meeting to plan future risks",
+        "A meeting to analyze a project after it has failed or finished",
+        "A budget review meeting",
+        "A hiring interview"
+      ],
+      "explanation": "A post-mortem (or debrief) is held after a project or incident to determine what happened and why.",
+      "answerIndex": 1,
+      "prompt": "What is the purpose of a 'post-mortem' meeting in administration?"
+    },
+    {
+      "id": "admin-b2-w11-exam-q13",
+      "type": "fillBlanks",
+      "explanation": "Mixed conditional (Past action with a Present result).",
+      "prompt": "If the company ________ (invest) more in cybersecurity last year, our database ________ (be) more secure today.",
+      "answers": [
+        "had invested / would be"
+      ]
+    },
+    {
+      "id": "admin-b2-w11-exam-q14",
+      "type": "multipleChoice",
+      "options": [
+        "Buying insurance",
+        "Changing the project scope",
+        "Doing nothing because the cost of mitigation is too high",
+        "Installing fire sprinklers"
+      ],
+      "explanation": "Acceptance is a strategy where the organization decides to deal with the risk if it happens, without taking prior action.",
+      "answerIndex": 2,
+      "prompt": "Which of the following is an example of an 'acceptance' risk strategy?"
+    },
+    {
+      "id": "admin-b2-w11-exam-q15",
+      "type": "fillBlanks",
+      "explanation": "BCP stands for Business Continuity Planning.",
+      "prompt": "The acronym BCP stands for Business ________ Planning.",
+      "answers": [
+        "Continuity"
+      ]
+    },
+    {
+      "id": "admin-b2-w11-exam-q16",
+      "type": "multipleChoice",
+      "options": [
+        "If the budget were higher, we would have finished.",
+        "If the budget had been higher, we would have finished.",
+        "If the budget was higher, we would finish.",
+        "If the budget would have been higher, we would have finished."
+      ],
+      "explanation": "The third conditional requires 'had been' in the 'if' clause and 'would have finished' in the result clause.",
+      "answerIndex": 1,
+      "prompt": "Select the correct third conditional sentence regarding a past budget issue."
+    },
+    {
+      "id": "admin-b2-w11-exam-q17",
+      "type": "fillBlanks",
+      "explanation": "Resilience is the ability of an organization to absorb and adapt in a changing environment.",
+      "prompt": "Organizational ________ is the capacity of a business to survive, adapt, and grow in the face of turbulent change.",
+      "answers": [
+        "resilience"
+      ]
+    },
+    {
+      "id": "admin-b2-w11-exam-q18",
+      "type": "multipleChoice",
+      "options": [
+        "How likely a risk is to happen",
+        "The severity of the consequences if a risk occurs",
+        "The cost of the insurance",
+        "The name of the risk owner"
+      ],
+      "explanation": "Impact measures the effect or consequence that a risk event would have on project objectives.",
+      "answerIndex": 1,
+      "prompt": "What does 'impact' refer to in a risk matrix?"
+    },
+    {
+      "id": "admin-b2-w11-exam-q19",
+      "type": "fillBlanks",
+      "explanation": "Third conditional for past failure.",
+      "prompt": "If the main server ________ (not / crash) during the update, we ________ (not / lose) the client data.",
+      "answers": [
+        "hadn't crashed / wouldn't have lost",
+        "had not crashed / would not have lost"
+      ]
+    },
+    {
+      "id": "admin-b2-w11-exam-q20",
+      "type": "multipleChoice",
+      "options": [
+        "Buying more insurance",
+        "Cancelling a high-risk project entirely",
+        "Training staff to reduce errors",
+        "Setting aside a contingency fund"
+      ],
+      "explanation": "Avoidance involves changing the project plan to eliminate the threat entirely.",
+      "answerIndex": 1,
+      "prompt": "Which of these is an example of 'avoidance' as a risk response?"
     }
   ]
 }

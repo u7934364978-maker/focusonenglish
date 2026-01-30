@@ -268,11 +268,10 @@
     },
     {
       "id": "adm-b2-w4-ex25",
-      "type": "multipleChoice",
-      "prompt": "Exercise 25: Meeting Flow. Which phrase would a chair use to move the meeting forward to the next topic?",
-      "options": ["Let's table this.", "Can we move to the next item on the agenda?", "Are there any apologies?", "I'd like to second that."],
-      "answerIndex": 1,
-      "explanation": "'Move to the next item' is the standard way to change topics."
+      "type": "oralRecording",
+      "title": "Exercise 25: Oral Recording - Meeting Preparation Briefing",
+      "prompt": "You are an administrator briefing the Chair 10 minutes before a hybrid meeting. Explain the 'Tech Check' results, mention who has sent 'apologies', and remind them to monitor the 'hand raise' feature. Use at least three reporting verbs or key terms from the theory.",
+      "modelAnswer": "Good morning. I've completed the tech check; the audio in the boardroom is clear and the Teams link is stable. We have received apologies from Sarah and Mark, so we still have a quorum. I've also suggested that you keep the 'hand raise' panel open on your tablet to ensure remote participants are included."
     },
     {
       "id": "adm-b2-w4-ex26",
@@ -319,20 +318,26 @@
     {
       "id": "adm-b2-w4-ex31",
       "type": "reading-comprehension",
-      "title": "Exercise 31: Agenda Review",
-      "text": "Meeting: Website Re-launch. Date: Oct 12th. \n1. **Agenda** Approval.\n2. Project Timeline Review.\n3. **Quorum** Check.\n4. AOB.\n\n### Highlighted Vocabulary\n1. **Agenda**: A list of items to be discussed at a formal meeting.\n2. **Quorum**: The minimum number of members required to make a meeting's proceedings valid.",
+      "title": "Exercise 31: Emergency Board Protocols (Doc C)",
+      "text": "Doc C — Standard Operating Procedure: Extraordinary Board Meetings\n\nWhen a crisis occurs, the Chair may **convene** an extraordinary board meeting with less than 24 hours' notice. In such cases, the administrator must prioritize the following:\n\n1. **Quorum Verification**: Ensure the minimum number of directors (as per the Articles of Association) can attend. If a quorum cannot be reached, the meeting must be **adjourned** immediately.\n2. **Circulating the Agenda**: A single-item agenda is usually sufficient. Background documents should be marked 'Strictly Confidential'.\n3. **Casting Vote**: If a deadlock occurs on an urgent decision, the Chair is authorized to use a **casting vote** to break the tie and ensure operational continuity.\n4. **Executive Summary**: Following the meeting, a one-page summary must be produced for the CEO, focusing on the **ROI** of proposed emergency measures and clear action items.\n\n### Highlighted Vocabulary\n1. **Convene**: To formally call people together for a meeting.\n2. **Adjourned**: To break off a meeting with the intention of resuming it later.\n3. **Casting Vote**: A deciding vote used by the chair when the results of a vote are equal.\n4. **ROI**: Return on Investment; used here to describe the justification for emergency spending.",
       "questions": [
         {
-          "question": "What is the first item on the agenda?",
-          "options": ["Quorum Check", "Agenda Approval", "AOB"],
+          "question": "Under what condition must an extraordinary meeting be 'adjourned'?",
+          "options": ["If the CEO is late.", "If a quorum of directors cannot be reached.", "If the agenda has more than three items."],
           "answerIndex": 1,
-          "explanation": "The text lists 'Agenda Approval' as item 1."
+          "explanation": "Doc C states the meeting must be adjourned if a quorum cannot be reached."
         },
         {
-          "question": "What does a 'Quorum Check' ensure?",
-          "options": ["That the meeting is valid.", "That there is enough coffee.", "That the meeting ends on time."],
-          "answerIndex": 0,
-          "explanation": "A quorum check ensures the minimum number of members are present for a valid meeting."
+          "question": "Who is responsible for breaking a deadlock in a vote according to this protocol?",
+          "options": ["The Administrator", "The CEO", "The Chair"],
+          "answerIndex": 2,
+          "explanation": "The text specifies that the Chair is authorized to use a casting vote to break a tie."
+        },
+        {
+          "question": "What is the primary focus of the post-meeting Executive Summary?",
+          "options": ["Recording every word spoken.", "Justifying the ROI of measures and listing actions.", "Listing the refreshments served."],
+          "answerIndex": 1,
+          "explanation": "The summary focuses on the ROI of proposed measures and clear action items."
         }
       ]
     },
@@ -400,10 +405,10 @@
     },
     {
       "id": "adm-b2-w4-ex40",
-      "type": "writingTask",
-      "prompt": "Exercise 40: SMART Action. Transform: 'Update the list.'",
-      "modelAnswer": "Action: Sam to update the vendor contact list by Friday EOD.",
-      "keywords": ["Action", "Sam", "vendor", "Friday EOD"]
+      "type": "oralRecording",
+      "title": "Exercise 40: Oral Recording - Action Item Follow-up",
+      "prompt": "Record a voicemail for a colleague (Sam) who has missed a SMART deadline for the vendor contact list. Use a polite but firm 'chasing' tone, mention that the Chair has 'urged' the team to finalize the list, and set a new deadline for Friday EOD.",
+      "modelAnswer": "Hi Sam, I'm calling regarding the vendor contact list, which was due yesterday. The Chair has urged the team to finalize all documentation before the audit, so it's quite urgent. Could you please ensure the list is updated and sent to me by Friday EOD at the latest? Let me know if you need any support from IT to extract the data."
     },
     {
       "id": "adm-b2-w4-ex41",
@@ -443,9 +448,10 @@
     {
       "id": "adm-b2-w4-ex45",
       "type": "writingTask",
-      "prompt": "Exercise 45: Comprehensive Scenario. You are chairing a hybrid meeting. A remote colleague raises their hand. The room is noisy. 1) What is your 'muting protocol' action? 2) How do you 'manage meeting flow'?",
-      "modelAnswer": "1) Remind all participants in the room and online to mute or stop side conversations. 2) Explicitly call on the remote colleague by name and invite them to speak.",
-      "keywords": ["mute", "call", "name", "invite"]
+      "title": "Exercise 45: Weekly Review - Comprehensive Meeting Scenario",
+      "prompt": "You are chairing a hybrid meeting. A remote colleague raises their hand via Teams. The boardroom is noisy due to side conversations. 1) State your 'muting protocol' instruction. 2) Use a reporting verb to 'manage meeting flow' and invite the remote colleague. 3) Define how you will record this specific interaction in the minutes.",
+      "modelAnswer": "1) 'Could everyone in the room please mute their side conversations so we can hear our remote colleagues?' 2) 'I see Alex has their hand raised; I suggest we hear their input before moving to the next item.' 3) The interaction would be summarized: 'The Chair invited Alex (joining remotely) to provide input on the seating plan.'",
+      "keywords": ["mute", "suggest", "invited", "remote"]
     }
   ]
 }

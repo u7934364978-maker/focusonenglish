@@ -147,6 +147,342 @@
       "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Stakeholder'. 2) What does it mean to 'leverage' a connection? 3) Add commas if needed: 'The report which I wrote is long.' 4) Complete: 'I am reaching ___ to discuss...' ",
       "modelAnswer": "1) A person or group with an interest in a project. 2) To use a connection to maximum advantage. 3) The report, which I wrote, is long (if non-defining) or No commas (if defining). 4) out.",
       "keywords": ["interest", "advantage", "which", "out"]
+    },
+    {
+      "id": "adm-b2-w9-ex16",
+      "type": "reading-comprehension",
+      "title": "Exercise 16: Networking in London’s Financial District",
+      "text": "Attending a **networking** event in the City of London requires a blend of professional confidence and social grace. Last night’s 'Tech-Finance Mixer' provided a perfect opportunity to **reach out** to potential collaborators. The key to success was not the number of business cards collected, but the quality of the **rapport** established. Many attendees focused on their **Elevator Pitch**, ensuring they could concisely explain their value proposition. However, the most successful participants were those who practiced **reciprocity**, offering insights or introductions before asking for anything in return. After the event, the standard protocol is to **follow up** via LinkedIn within 24 hours to **reiterate** the points discussed and propose a brief 'coffee chat' to explore **mutually beneficial** opportunities.",
+      "questions": [
+        {
+          "question": "What was more important than collecting business cards at the event?",
+          "options": ["Having a long elevator pitch", "Establishing a high-quality rapport", "Talking about the weather"],
+          "answerIndex": 1,
+          "explanation": "The text states: 'The key to success was not the number of business cards... but the quality of the rapport established.'"
+        },
+        {
+          "question": "According to the text, what should you do before asking for a favour?",
+          "options": ["Offer insights or introductions", "Send a LinkedIn invite", "Practice your elevator pitch"],
+          "answerIndex": 0,
+          "explanation": "The text mentions that successful participants practiced reciprocity by offering value before asking for something."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex17",
+      "type": "vocabulary-match",
+      "title": "Exercise 17: Highlighted Vocabulary",
+      "prompt": "Match the terms from the reading with their definitions.",
+      "pairs": [
+        { "term": "Reciprocity", "definition": "Exchanging things for mutual benefit." },
+        { "term": "Rapport", "definition": "A harmonious relationship based on understanding." },
+        { "term": "Reiterate", "definition": "To say something again for emphasis or clarity." },
+        { "term": "Collaborator", "definition": "A person who works with others on a project." }
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex18",
+      "type": "multipleChoice",
+      "prompt": "Exercise 18: Identifying the Stakeholder. A local community group is worried about the noise from a new construction project. They have little power to stop it but are very concerned. Where do they fit in the Mendelow Matrix?",
+      "options": ["Key Players", "Keep Satisfied", "Keep Informed", "Monitor Only"],
+      "answerIndex": 2,
+      "explanation": "They have High Interest but Low Power, so they should be 'Kept Informed'."
+    },
+    {
+      "id": "adm-b2-w9-ex19",
+      "type": "multipleChoice",
+      "prompt": "Exercise 19: Relative Clauses. Choose the correct pronoun: 'The office ___ we hold our networking events is currently being renovated.'",
+      "options": ["which", "where", "whose", "who"],
+      "answerIndex": 1,
+      "explanation": "'Where' is used for locations."
+    },
+    {
+      "id": "adm-b2-w9-ex20",
+      "type": "multipleChoice",
+      "prompt": "Exercise 20: Relative Clauses. Choose the correct pronoun: 'This is Sarah, ___ department handles all external stakeholder communications.'",
+      "options": ["who", "which", "whom", "whose"],
+      "answerIndex": 3,
+      "explanation": "'Whose' is used to show possession (Sarah's department)."
+    },
+    {
+      "id": "adm-b2-w9-ex21",
+      "type": "multipleChoice",
+      "prompt": "Exercise 21: Formal Grammar. Select the most formal option: 'The manager ___ I spoke was very helpful.'",
+      "options": ["who", "that", "with whom", "which"],
+      "answerIndex": 2,
+      "explanation": "'With whom' is the most formal way to refer to a person as the object of a preposition."
+    },
+    {
+      "id": "adm-b2-w9-ex22",
+      "type": "multipleChoice",
+      "prompt": "Exercise 22: Non-defining Clauses. Which sentence is punctuated correctly?",
+      "options": [
+        "The Mendelow Matrix which helps us map stakeholders is a vital tool.",
+        "The Mendelow Matrix, which helps us map stakeholders, is a vital tool.",
+        "The Mendelow Matrix which, helps us map stakeholders, is a vital tool.",
+        "The Mendelow Matrix, which helps us map stakeholders is a vital tool."
+      ],
+      "answerIndex": 1,
+      "explanation": "Non-defining clauses require commas before and after the clause."
+    },
+    {
+      "id": "adm-b2-w9-ex23",
+      "type": "multipleChoice",
+      "prompt": "Exercise 23: Defining Clauses (Omission). In which sentence can you omit the relative pronoun?",
+      "options": [
+        "The person who is leading the meeting is late.",
+        "The report that contains the data is on your desk.",
+        "The contact whom I met at the event was very knowledgeable.",
+        "The company which won the contract is based in Manchester."
+      ],
+      "answerIndex": 2,
+      "explanation": "You can omit 'whom' (or 'that') when it is the object of the clause: 'The contact [whom] I met...'"
+    },
+    {
+      "id": "adm-b2-w9-ex24",
+      "type": "multipleChoice",
+      "prompt": "Exercise 24: Phrasal Verbs. To 'touch base' with someone means:",
+      "options": ["To play a game of baseball", "To contact someone briefly to stay updated", "To fire someone", "To sign a contract"],
+      "answerIndex": 1,
+      "explanation": "'Touch base' is a common idiom for making quick contact."
+    },
+    {
+      "id": "adm-b2-w9-ex25",
+      "type": "oralRecording",
+      "title": "Exercise 25: Oral Recording Task 1 - Networking Intro",
+      "prompt": "You are at a professional networking mixer. Record your 'Elevator Pitch' (approx. 45 seconds). Mention: 1) Your administrative role, 2) A project you are currently 'leveraging', and 3) A proposal for a 'mutually beneficial' follow-up.",
+      "modelAnswer": "Hello, I am the Senior Administrator for Project Alpha. Currently, I am leveraging our new client portal to streamline operations. I'd love to discuss how our data models might be mutually beneficial for your team. Would you be open to touching base next week for a brief coffee chat?"
+    },
+    {
+      "id": "adm-b2-w9-ex26",
+      "type": "listening-glossary",
+      "title": "Exercise 26: Listening Glossary",
+      "prompt": "Preview these terms before listening to the dialogue.",
+      "terms": [
+        { "term": "Aggrieved", "definition": "Feeling resentment at having been unfairly treated." },
+        { "term": "Placate", "definition": "To make someone less angry or hostile." },
+        { "term": "Vested interest", "definition": "A personal reason for involvement in an undertaking." },
+        { "term": "Friction", "definition": "Conflict or animosity caused by a clash of wills." }
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex27",
+      "type": "listening-comprehension",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana09/adm-b2-w9-stakeholder-conflict.mp3",
+      "title": "Exercise 27: Stakeholder Conflict Resolution",
+      "prompt": "Listen to the dialogue between an Admin Manager and a Project Lead regarding a difficult stakeholder.",
+      "questions": [
+        {
+          "question": "What is the main concern of the 'aggrieved' stakeholder?",
+          "options": ["Lack of budget", "Lack of transparency and consultation", "The project deadline", "Office furniture"],
+          "answerIndex": 1,
+          "explanation": "The dialogue reveals the stakeholder feels ignored and wants more transparency."
+        },
+        {
+          "question": "What strategy does the manager suggest to 'placate' the stakeholder?",
+          "options": ["Ignoring them", "Offering a formal apology and a seat on the board", "Increasing their frequency of updates and inviting them to a steering meeting", "Firing them"],
+          "answerIndex": 2,
+          "explanation": "The manager suggests moving them to the 'Keep Satisfied' or 'Key Player' group with more involvement."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex28",
+      "type": "listening-comprehension",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana09/adm-b2-w9-elevator-pitch.mp3",
+      "title": "Exercise 28: Networking at a Conference",
+      "prompt": "Listen to James delivering his elevator pitch to a potential collaborator.",
+      "questions": [
+        {
+          "question": "What does James 'bring to the table'?",
+          "options": ["Financial investment", "10 years of experience in logistics automation", "A new office space", "Coffee"],
+          "answerIndex": 1,
+          "explanation": "James mentions his decade of experience in automation as his value proposition."
+        },
+        {
+          "question": "How does the other person respond to James's pitch?",
+          "options": ["They are uninterested", "They suggest James 'touches base' next week after reviewing his LinkedIn", "They offer him a job immediately", "They walk away"],
+          "answerIndex": 1,
+          "explanation": "The contact suggests following up to discuss things further."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex29",
+      "type": "dictation",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana09/adm-b2-w9-dictation.mp3",
+      "title": "Exercise 29: Dictation",
+      "prompt": "Listen and type the sentence exactly as you hear it.",
+      "answer": "We must leverage our existing rapport with the key players to ensure they buy into the new stakeholder engagement strategy.",
+      "explanation": "Focus on the spelling of 'leverage', 'rapport', and the phrasal verb 'buy into'."
+    },
+    {
+      "id": "adm-b2-w9-ex30",
+      "type": "gap-fill",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana09/adm-b2-w9-gap-fill.mp3",
+      "title": "Exercise 30: Gap-fill - Networking Protocol",
+      "prompt": "Listen and fill in the missing professional terms.",
+      "text": "When you attend an event, you should first try to establish **{rapport}** before delivering your **{elevator pitch}**. Remember that professional networking is based on **{reciprocity}**, so always look for ways to offer value. Don't forget to **{follow up}** within twenty-four hours to **{reiterate}** your interest.",
+      "explanation": "These terms are standard in professional networking etiquette."
+    },
+    {
+      "id": "adm-b2-w9-ex31",
+      "type": "reading-comprehension",
+      "title": "Exercise 31: Global Stakeholder Standards (Doc C)",
+      "text": "Doc C — White Paper: The Future of Global Stakeholder Engagement\n\nEffective engagement is no longer just about communication; it is about **reciprocity**. In global markets, administrators must navigate various 'power dynamics' that aren't always visible on a standard matrix. We have identified that 'Key Players' often include local community leaders whose **buy-in** is essential for legal compliance. Furthermore, the use of **non-defining** reporting structures can lead to **friction** if not managed with transparency. To **placate** aggrieved parties, we recommend a policy of 'active listening' combined with regular, high-level **rapport-building** sessions. Those **whom** we designate as 'Key Players' will now receive a direct line to the project steering committee.\n\n### Key Definitions\n1. **Reciprocity**: The mutual exchange of value.\n2. **Friction**: Conflict or resistance within a process.\n3. **Placate**: To calm or satisfy an interested party.",
+      "questions": [
+        {
+          "question": "What is recommended to 'placate' aggrieved parties?",
+          "options": [
+            "Ignoring their emails.",
+            "Active listening and rapport-building sessions.",
+            "Increasing the project budget."
+          ],
+          "answerIndex": 1,
+          "explanation": "Doc C recommends 'active listening' and 'rapport-building sessions' to placate aggrieved parties."
+        },
+        {
+          "question": "Who is included in the 'Key Players' category for legal compliance?",
+          "options": [
+            "Local community leaders.",
+            "Junior employees.",
+            "External software vendors."
+          ],
+          "answerIndex": 0,
+          "explanation": "The text states that 'Key Players' often include local community leaders whose buy-in is essential."
+        },
+        {
+          "question": "What can lead to 'friction' if not managed with transparency?",
+          "options": [
+            "High interest levels.",
+            "Non-defining reporting structures.",
+            "Weekly newsletters."
+          ],
+          "answerIndex": 1,
+          "explanation": "Doc C mentions that 'non-defining reporting structures can lead to friction if not managed with transparency'."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex32",
+      "type": "multipleChoice",
+      "prompt": "Exercise 32: Relative Clauses (Reduced). Choose the correctly reduced clause: 'The stakeholders who were invited to the meeting did not attend.'",
+      "options": [
+        "The stakeholders invited to the meeting did not attend.",
+        "The stakeholders inviting to the meeting did not attend.",
+        "The stakeholders invite to the meeting did not attend.",
+        "The stakeholders were invited to the meeting did not attend."
+      ],
+      "answerIndex": 0,
+      "explanation": "In passive relative clauses, we can omit 'who were' and use the past participle."
+    },
+    {
+      "id": "adm-b2-w9-ex33",
+      "type": "multipleChoice",
+      "prompt": "Exercise 33: Phrasal Verbs. I'll ___ you ___ on the latest changes to the project plan.",
+      "options": ["reach / out", "keep / in the loop", "touch / base", "buy / into"],
+      "answerIndex": 1,
+      "explanation": "'To keep someone in the loop' means to keep them informed."
+    },
+    {
+      "id": "adm-b2-w9-ex34",
+      "type": "multipleChoice",
+      "prompt": "Exercise 34: Business Idioms. 'What do you bring to the table?' means:",
+      "options": [
+        "What food did you bring?",
+        "What skills or benefits can you offer?",
+        "Where is the furniture?",
+        "Are you ready for lunch?"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Bring to the table' refers to contribution of value."
+    },
+    {
+      "id": "adm-b2-w9-ex35",
+      "type": "multipleChoice",
+      "prompt": "Exercise 35: Stakeholder Types. A supplier who provides a critical component for your product but has many other customers has:",
+      "options": ["High Power, High Interest", "High Power, Low Interest", "Low Power, High Interest", "Low Power, Low Interest"],
+      "answerIndex": 1,
+      "explanation": "Because the component is critical, they have High Power (they could stop production), but because you are just one of many customers, their interest in your specific project might be Low."
+    },
+    {
+      "id": "adm-b2-w9-ex36",
+      "type": "writingTask",
+      "prompt": "Exercise 36: Sentence Transformation. Rewrite using 'whose': 'That is the manager. Her department won the award.'",
+      "modelAnswer": "That is the manager whose department won the award.",
+      "keywords": ["whose", "department"]
+    },
+    {
+      "id": "adm-b2-w9-ex37",
+      "type": "writingTask",
+      "prompt": "Exercise 37: Sentence Transformation. Rewrite using a non-defining relative clause: 'The Mendelow Matrix is a useful tool. It was created in 1991.'",
+      "modelAnswer": "The Mendelow Matrix, which was created in 1991, is a useful tool.",
+      "keywords": [",", "which", ","]
+    },
+    {
+      "id": "adm-b2-w9-ex38",
+      "type": "writingTask",
+      "prompt": "Exercise 38: Professional Phrasing. Complete the email: 'Dear Maria, it was great to meet you. I am ___ ___ to see if we could ___ ___ next week to discuss our collaboration.'",
+      "modelAnswer": "reaching out / touch base",
+      "keywords": ["reaching", "out", "touch", "base"]
+    },
+    {
+      "id": "adm-b2-w9-ex39",
+      "type": "multipleChoice",
+      "prompt": "Exercise 39: Relative Adverbs. '2023 was the year ___ we launched our first stakeholder engagement initiative.'",
+      "options": ["where", "when", "which", "that"],
+      "answerIndex": 1,
+      "explanation": "'When' is used for time references."
+    },
+    {
+      "id": "adm-b2-w9-ex40",
+      "type": "oralRecording",
+      "title": "Exercise 40: Oral Recording Task 2 - Stakeholder Briefing",
+      "prompt": "You need to 'reach out' to a 'High Power, Low Interest' stakeholder who is blocking a budget increase. Record a 60-second briefing to 'placate' them. Explain how the budget will 'leverage' new technology to provide a 'short-term win' for their specific department.",
+      "modelAnswer": "Good morning. I am reaching out to discuss the upcoming budget review. I understand your concerns, but this investment will leverage automation to eliminate the current bottleneck in your department's reporting. This will provide a significant short-term win by reducing manual entry by 40%. I'd like to keep you in the loop with bi-weekly updates."
+    },
+    {
+      "id": "adm-b2-w9-ex41",
+      "type": "writingTask",
+      "prompt": "Exercise 41: Defining vs Non-Defining. Explain the difference in meaning: A) 'The employees who received the bonus were happy.' B) 'The employees, who received the bonus, were happy.'",
+      "modelAnswer": "A) Only the specific employees who got the bonus were happy. B) All the employees (in the group) received the bonus and were happy.",
+      "keywords": ["specific", "all"]
+    },
+    {
+      "id": "adm-b2-w9-ex42",
+      "type": "writingTask",
+      "prompt": "Exercise 42: Vocabulary usage. Write a sentence using the word 'reciprocity' in a business context.",
+      "modelAnswer": "The partnership was built on reciprocity, with both firms sharing their research data.",
+      "keywords": ["reciprocity"]
+    },
+    {
+      "id": "adm-b2-w9-ex43",
+      "type": "writingTask",
+      "prompt": "Exercise 43: Reduced Relative Clause. Reduce this sentence: 'The documents which were sent by the director are confidential.'",
+      "modelAnswer": "The documents sent by the director are confidential.",
+      "keywords": ["sent"]
+    },
+    {
+      "id": "adm-b2-w9-ex44",
+      "type": "writingTask",
+      "prompt": "Exercise 44: Elevator Pitch Logic. Why is it important to keep an elevator pitch under 60 seconds?",
+      "modelAnswer": "To respect the other person's time and ensure the summary remains concise and memorable.",
+      "keywords": ["time", "concise"]
+    },
+    {
+      "id": "adm-b2-w9-ex45",
+      "type": "writingTask",
+      "title": "Exercise 45: Weekly Review - Stakeholders & Networking",
+      "prompt": "Synthesize this week's learning: 1) Categorise a stakeholder with High Power and High Interest using the Mendelow Matrix. 2) Write a sentence using a non-defining relative clause and the word 'rapport'. 3) Explain the concept of 'reciprocity' in a networking context.",
+      "modelAnswer": "1) A stakeholder with High Power and High Interest is a 'Key Player' who must be managed closely. 2) Mr. Henderson, with whom I have built an excellent rapport, has agreed to the proposal. 3) Reciprocity in networking means offering value, insights, or help to others before expecting a favour in return, creating a mutually beneficial relationship.",
+      "keywords": [
+        "Key Player",
+        "rapport",
+        "reciprocity",
+        "which",
+        "who",
+        "whom"
+      ]
     }
   ]
 }

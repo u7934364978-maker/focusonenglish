@@ -147,6 +147,297 @@
       "prompt": "Exercise 15: Trimester Mini-test. 1) Define 'Scope Creep'. 2) Give an example of a Third Conditional. 3) What is the difference between a defining and non-defining relative clause? 4) List 4 project phases.",
       "modelAnswer": "1) Uncontrolled expansion of project requirements. 2) If I had known, I would have helped. 3) Defining is essential (no commas); Non-defining is extra info (commas). 4) Initiation, Planning, Execution, Closure.",
       "keywords": ["uncontrolled", "If I had", "commas", "Initiation"]
+    },
+    {
+      "id": "adm-b2-w12-ex16",
+      "type": "multipleChoice",
+      "prompt": "Exercise 16: Future Perfect vs Continuous. By this time next week, we ___ the final project review.",
+      "options": ["will be finishing", "will have finished", "will finish", "are finishing"],
+      "answerIndex": 1,
+      "explanation": "Future Perfect is used for completion by a certain time."
+    },
+    {
+      "id": "adm-b2-w12-ex17",
+      "type": "multipleChoice",
+      "prompt": "Exercise 17: Modals of Deduction. There's no way Sarah missed the meeting; she's the chair. She ___ been there.",
+      "options": ["might have", "can't have", "must have", "should have"],
+      "answerIndex": 2,
+      "explanation": "'Must have' indicates high certainty about a past event."
+    },
+    {
+      "id": "adm-b2-w12-ex18",
+      "type": "multipleChoice",
+      "prompt": "Exercise 18: Vocabulary Review. To 'delegate' a task means to:",
+      "options": ["Do it yourself", "Assign it to someone else", "Cancel it", "Postpone it"],
+      "answerIndex": 1,
+      "explanation": "Delegation is the act of assigning responsibility to others."
+    },
+    {
+      "id": "adm-b2-w12-ex19",
+      "type": "multipleChoice",
+      "prompt": "Exercise 19: Relative Clauses. Choose the correct relative pronoun: 'The office ___ we work is being renovated.'",
+      "options": ["which", "where", "that", "who"],
+      "answerIndex": 1,
+      "explanation": "'Where' is used for places."
+    },
+    {
+      "id": "adm-b2-w12-ex20",
+      "type": "multipleChoice",
+      "prompt": "Exercise 20: Third Conditional. If the administrator ___ the budget, the project wouldn't have run over cost.",
+      "options": ["monitors", "monitored", "had monitored", "would monitor"],
+      "answerIndex": 2,
+      "explanation": "Third Conditional uses 'If + Past Perfect'."
+    },
+    {
+      "id": "adm-b2-w12-ex21",
+      "type": "multipleChoice",
+      "prompt": "Exercise 21: Risk Response. Installing a fire alarm is an example of:",
+      "options": ["Avoidance", "Mitigation", "Transfer", "Acceptance"],
+      "answerIndex": 1,
+      "explanation": "Mitigation reduces the probability or impact of a risk."
+    },
+    {
+      "id": "adm-b2-w12-ex22",
+      "type": "multipleChoice",
+      "prompt": "Exercise 22: Change Management. A 'Key Player' is someone who has:",
+      "options": ["Low Power / Low Interest", "High Power / High Interest", "High Power / Low Interest", "Low Power / High Interest"],
+      "answerIndex": 1,
+      "explanation": "According to the Mendelow Matrix, Key Players have high power and high interest."
+    },
+    {
+      "id": "adm-b2-w12-ex23",
+      "type": "multipleChoice",
+      "prompt": "Exercise 23: Mixed Conditionals. If he ___ the email yesterday, he wouldn't be so confused now.",
+      "options": ["read", "had read", "would read", "reads"],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: Past action (had read) affects present state (wouldn't be)."
+    },
+    {
+      "id": "adm-b2-w12-ex24",
+      "type": "multipleChoice",
+      "prompt": "Exercise 24: Business Continuity. RTO refers to:",
+      "options": ["Recovery Time Objective", "Return to Office", "Risk Tracking Option", "Resource Tool Overview"],
+      "answerIndex": 0,
+      "explanation": "RTO is the targeted duration to restore a process."
+    },
+    {
+      "id": "adm-b2-w12-ex25",
+      "type": "oralRecording",
+      "title": "Exercise 25: Oral Recording Task 1 - Proposal Pitch",
+      "prompt": "You are presenting your final project proposal. Record a 60-second pitch. Mention: 1) The 'bottleneck' you are addressing, 2) The 'deliverables' of your project, and 3) A 'milestone' you will have achieved by next month.",
+      "modelAnswer": "Good morning. My proposal addresses the significant bottleneck in our current onboarding process, which is causing a two-week delay for new hires. The key deliverables include a digital asset provisioning portal and a revised SOP manual. By next month, we will have achieved our first milestone: the completion of the pilot testing phase."
+    },
+    {
+      "id": "adm-b2-w12-ex26",
+      "type": "listening-comprehension",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana12/adm-b2-w12-final-feedback.mp3",
+      "title": "Exercise 26: Final Project Feedback",
+      "prompt": "Listen to a manager providing feedback on a project proposal.",
+      "questions": [
+        {
+          "question": "What does the manager like about the 'Executive Summary'?",
+          "options": ["It is long and detailed.", "It is concise and clearly identifies the bottleneck.", "It has many pictures."],
+          "answerIndex": 1,
+          "explanation": "The manager praises the clarity and conciseness of the summary."
+        },
+        {
+          "question": "What is the manager's concern regarding the 'Risk Assessment'?",
+          "options": ["There are no risks.", "The mitigation plan is too expensive.", "The RTO is unrealistic."],
+          "answerIndex": 2,
+          "explanation": "The manager mentions that the proposed 30-minute RTO might be too ambitious."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w12-ex27",
+      "type": "multipleChoice",
+      "prompt": "Exercise 27: Conflict Resolution. When you 'placate' someone, you are:",
+      "options": ["Making them angry", "Calming them down or making them less hostile", "Ignoring them", "Firing them"],
+      "answerIndex": 1,
+      "explanation": "To placate is to soothe or appease."
+    },
+    {
+      "id": "adm-b2-w12-ex28",
+      "type": "multipleChoice",
+      "prompt": "Exercise 28: SOPs. What does SOP stand for?",
+      "options": ["Standard Operational Process", "Standard Operating Procedure", "Systematic Office Plan", "Senior Operations Partner"],
+      "answerIndex": 1,
+      "explanation": "SOP stands for Standard Operating Procedure."
+    },
+    {
+      "id": "adm-b2-w12-ex29",
+      "type": "dictation",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana12/adm-b2-w12-dictation.mp3",
+      "title": "Exercise 29: Dictation",
+      "prompt": "Listen and type the sentence about project closure.",
+      "answer": "By the end of the closure phase, we will have reconciled all the project accounts and archived the documentation.",
+      "explanation": "Focus on the future perfect 'will have reconciled'."
+    },
+    {
+      "id": "adm-b2-w12-ex30",
+      "type": "gap-fill",
+      "audioPath": "/audio/cursos/trabajo/administracion/b2/trimestre1/semana12/adm-b2-w12-gap-fill.mp3",
+      "title": "Exercise 30: Gap-fill - Proposal Review",
+      "prompt": "Listen and fill in the missing professional terms.",
+      "text": "The **{executive summary}** was well-written, but the **{stakeholder analysis}** was a bit thin. You need to identify the **{key players}** more clearly. If you **{had used}** the Mendelow Matrix, you **{would have identified}** the Finance Director as a high-power individual.",
+      "explanation": "Uses third conditional and project proposal terminology."
+    },
+    {
+      "id": "adm-b2-w12-ex31",
+      "type": "reading-comprehension",
+      "title": "Exercise 31: Proposal Guidelines (Doc C)",
+      "text": "Doc C — Internal Memo: Drafting Your Final Project Proposal\n\nTo ensure your proposal is successful, you must follow the standard trimester **synthesis** guidelines. Every proposal must begin with an **Executive Summary** that is both **data-driven** and **persuasive**. You should map your **stakeholders** using the matrix we covered in Week 9. Ensure your **Risk Assessment** includes both **mitigation** and **contingency** plans. If we **had followed** these standards last year, our project **resilience** would be much higher today. By the end of this week, all students **will be submitting** their final drafts for peer review. Those **who** successfully pass the review will move to the presentation phase.\n\n### Formatting Requirements\n1. **Executive Summary**: Max 250 words.\n2. **Grammar**: Must include at least one conditional and one complex future tense.\n3. **Visuals**: Include one Gantt Chart or Risk Matrix.",
+      "questions": [
+        {
+          "question": "What is the first requirement for a successful proposal according to Doc C?",
+          "options": [
+            "A long introduction.",
+            "An Executive Summary that is data-driven and persuasive.",
+            "A list of every employee in the company."
+          ],
+          "answerIndex": 1,
+          "explanation": "The memo states every proposal must begin with an Executive Summary that is data-driven and persuasive."
+        },
+        {
+          "question": "Which matrix should be used for mapping stakeholders?",
+          "options": [
+            "The Risk Matrix.",
+            "The Mendelow Matrix (from Week 9).",
+            "A simple list."
+          ],
+          "answerIndex": 1,
+          "explanation": "The text refers to the matrix covered in Week 9, which is the Mendelow Matrix."
+        },
+        {
+          "question": "What will students be doing by the end of the week?",
+          "options": [
+            "Presenting their projects.",
+            "Submitting their final drafts for peer review.",
+            "Going on holiday."
+          ],
+          "answerIndex": 1,
+          "explanation": "The memo states: 'By the end of this week, all students will be submitting their final drafts'."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w12-ex32",
+      "type": "multipleChoice",
+      "prompt": "Exercise 32: Phrasal Verbs. We need to ___ the root cause of the delay.",
+      "options": ["head off", "deal with", "get to", "back up"],
+      "answerIndex": 2,
+      "explanation": "To 'get to the root cause' means to discover the fundamental reason."
+    },
+    {
+      "id": "adm-b2-w12-ex33",
+      "type": "multipleChoice",
+      "prompt": "Exercise 33: Onboarding. 'Asset Provisioning' involves:",
+      "options": ["Firing staff", "Giving new employees the equipment and access they need", "Training managers", "Writing emails"],
+      "answerIndex": 1,
+      "explanation": "Asset provisioning is the process of providing equipment/access to staff."
+    },
+    {
+      "id": "adm-b2-w12-ex34",
+      "type": "multipleChoice",
+      "prompt": "Exercise 34: Future Perfect. I hope I ___ my English goals by December.",
+      "options": ["will achieve", "will be achieving", "will have achieved", "achieve"],
+      "answerIndex": 2,
+      "explanation": "Future Perfect for a completed action by a future point."
+    },
+    {
+      "id": "adm-b2-w12-ex35",
+      "type": "multipleChoice",
+      "prompt": "Exercise 35: Third Conditional. If you ___ me about the bottleneck, I could have helped you.",
+      "options": ["told", "had told", "would tell", "tell"],
+      "answerIndex": 1,
+      "explanation": "Third conditional 'if' clause uses Past Perfect."
+    },
+    {
+      "id": "adm-b2-w12-ex36",
+      "type": "writingTask",
+      "prompt": "Exercise 36: Project Summary. Summarize the 'Alpha Project' (from previous weeks) in 3 sentences using one relative clause and one future tense.",
+      "modelAnswer": "The Alpha Project, which was our main focus last month, is now in the closure phase. We faced several bottlenecks, but we successfully mitigated them. By next Monday, we will have archived all relevant data.",
+      "keywords": ["which", "will have"]
+    },
+    {
+      "id": "adm-b2-w12-ex37",
+      "type": "writingTask",
+      "prompt": "Exercise 37: Trimester Reflection. Write 3 things you learned about 'Risk Management' this trimester.",
+      "modelAnswer": "1. How to use a Risk Matrix (Probability/Impact). 2. The difference between Mitigation and Contingency. 3. How to define RTO and RPO.",
+      "keywords": ["Matrix", "Mitigation", "RTO"]
+    },
+    {
+      "id": "adm-b2-w12-ex38",
+      "type": "multipleChoice",
+      "prompt": "Exercise 38: Inversion. Choose the correct inverted structure: 'I have never seen such a mess.'",
+      "options": [
+        "Never I have seen such a mess.",
+        "Never have I seen such a mess.",
+        "I have never seen such a mess.",
+        "Seen never I have such a mess."
+      ],
+      "answerIndex": 1,
+      "explanation": "Inversion for emphasis: Never + auxiliary + subject + verb."
+    },
+    {
+      "id": "adm-b2-w12-ex39",
+      "type": "multipleChoice",
+      "prompt": "Exercise 39: Change Management. 'Buy-in' means:",
+      "options": ["Buying a company", "Agreement or support for a proposed plan", "Selling office equipment", "A type of budget"],
+      "answerIndex": 1,
+      "explanation": "'Buy-in' is the acceptance of and commitment to a specific concept or change."
+    },
+    {
+      "id": "adm-b2-w12-ex40",
+      "type": "oralRecording",
+      "title": "Exercise 40: Oral Recording Task 2 - Trimester Reflection",
+      "prompt": "Record a 60-second reflection on your progress this trimester. Mention: 1) One 'competency' you have mastered, 2) A grammar structure you find useful for 'forecasting', and 3) How your 'professional persona' has evolved.",
+      "modelAnswer": "This trimester, I have mastered the competency of stakeholder management using the Mendelow Matrix. I find the Future Perfect tense particularly useful for forecasting deadlines and commitments. My professional persona has evolved to be more confident and precise, especially when dealing with complex administrative scenarios in English."
+    },
+    {
+      "id": "adm-b2-w12-ex41",
+      "type": "writingTask",
+      "prompt": "Exercise 41: Mixed Conditional Practice. 'not lose my passport (past) / be at the meeting now (present)'.",
+      "modelAnswer": "If I hadn't lost my passport, I would be at the meeting now.",
+      "keywords": ["If I hadn't", "would be"]
+    },
+    {
+      "id": "adm-b2-w12-ex42",
+      "type": "writingTask",
+      "prompt": "Exercise 42: Future Continuous Practice. 'this time tomorrow / fly to London'.",
+      "modelAnswer": "This time tomorrow, I will be flying to London.",
+      "keywords": ["will be flying"]
+    },
+    {
+      "id": "adm-b2-w12-ex43",
+      "type": "writingTask",
+      "prompt": "Exercise 43: Vocabulary in context. Write a sentence using 'Escalation'.",
+      "modelAnswer": "If the issue cannot be resolved by the team leader, we will initiate the escalation protocol.",
+      "keywords": ["escalation"]
+    },
+    {
+      "id": "adm-b2-w12-ex44",
+      "type": "writingTask",
+      "prompt": "Exercise 44: Error Correction. Fix: 'I will have finish the report by 5.'",
+      "modelAnswer": "I will have finished the report by 5.",
+      "keywords": ["finished"]
+    },
+    {
+      "id": "adm-b2-w12-ex45",
+      "type": "writingTask",
+      "title": "Exercise 45: Trimester Synthesis Review",
+      "prompt": "Synthesize the entire trimester's learning: 1) List the 4 phases of the project lifecycle. 2) Write a sentence about a past mistake using a third conditional. 3) Explain how 'Asset Provisioning' and 'Business Continuity' are linked in administrative management.",
+      "modelAnswer": "1) The four phases are Initiation, Planning, Execution, and Closure. 2) If we had performed a more thorough feasibility study, the project wouldn't have run over budget. 3) Asset provisioning ensures new employees have the necessary tools to work, while business continuity ensures those tools and systems remain available or are restored quickly during a crisis, both being vital for operational stability.",
+      "keywords": [
+        "Initiation",
+        "Planning",
+        "Execution",
+        "Closure",
+        "If we had",
+        "would have",
+        "provisioning",
+        "continuity"
+      ]
     }
   ]
 }

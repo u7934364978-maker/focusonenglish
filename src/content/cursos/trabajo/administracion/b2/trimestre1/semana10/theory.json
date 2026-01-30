@@ -3,35 +3,37 @@
   "sections": [
     {
       "id": "project-lifecycle",
-      "title": "The Four Phases of a Project",
-      "content": "A project is a temporary endeavour with a defined beginning and end. Managing it requires a structured approach across four main phases:\n\n1. **Initiation**: Defining the project's purpose, feasibility, and key stakeholders.\n2. **Planning**: Creating a roadmap, setting deadlines, and allocating resources.\n3. **Execution**: Carrying out the work and monitoring progress.\n4. **Closure**: Finalising all activities, handing over deliverables, and reviewing lessons learned.\n\n### Key Concepts\n- **Deliverable**: A tangible or intangible product or service produced as a result of the project.\n- **Scope Creep**: When a project's requirements extend beyond the original plan without a corresponding increase in time or budget.\n- **KPI (Key Performance Indicator)**: A measurable value that demonstrates how effectively a company is achieving key business objectives."
+      "title": "The Project Lifecycle: From Initiation to Closure",
+      "content": "Project management is the application of processes, methods, and skills to achieve specific project objectives according to acceptance criteria within agreed parameters. Most projects follow a structured four-phase lifecycle:\n\n### 1. Initiation Phase\nThis is where the project is defined. Administrators often help draft the **Project Charter**, a document that formally authorises the project and outlines its scope and objectives. Key stakeholders are identified, and a **feasibility study** may be conducted.\n\n### 2. Planning Phase\nIn this phase, a detailed roadmap is created. This includes defining **milestones**, creating a **Gantt Chart** for scheduling, and performing **resource allocation**. It is crucial to set clear **KPIs** to measure success later.\n\n### 3. Execution & Monitoring Phase\nThe actual work is carried out. This phase often overlaps with **Monitoring and Control**, where administrators track progress against the plan to ensure the project doesn't **run over** budget or **fall behind** schedule. Managing **scope creep** (unauthorised changes to the project scope) is a primary task here.\n\n### 4. Closure Phase\nThe final deliverables are handed over. The team conducts a **Post-Mortem** or 'Lessons Learned' session to evaluate what went well and what could be improved for future projects."
     },
     {
-      "id": "milestones-tracking",
-      "title": "Milestones and Task Allocation",
-      "content": "To keep a project on track, administrators use milestones and specific task assignments.\n\n### Project Tracking Vocabulary\n- **Milestone**: A significant point or event in a project (e.g., signing a contract or completing a prototype).\n- **Gantt Chart**: A type of bar chart that illustrates a project schedule.\n- **Bottleneck**: As seen in previous weeks, a point where work is delayed.\n- **To delegate**: To entrust a task or responsibility to another person."
+      "id": "methodologies",
+      "title": "Administrative Methodologies: Waterfall vs. Agile",
+      "content": "Administrators must adapt to different project management styles depending on the industry and project type:\n\n- **Waterfall**: A linear approach where each phase must be completed before the next begins. It is highly structured and predictable, ideal for construction or fixed-budget corporate projects.\n- **Agile**: An iterative approach where the project is broken into small chunks called **Sprints**. It allows for flexibility and continuous feedback, commonly used in software development and marketing."
     },
     {
       "id": "grammar-future-tenses",
-      "title": "Grammar: Future Perfect & Future Continuous",
-      "content": "In project management, we use these tenses to discuss progress and expectations regarding deadlines.\n\n### Future Continuous (Will be + -ing)\nUsed to describe an action that will be in progress at a specific time in the future.\n- *\"By 2 PM tomorrow, we **will be conducting** the stakeholder interviews.\"*\n- *\"Next month, the team **will be working** on the final deliverables.\"*\n\n### Future Perfect (Will have + past participle)\nUsed to describe an action that will be completed before a specific point in the future. Essential for discussing deadlines.\n- *\"By Friday afternoon, we **will have finished** the project plan.\"*\n- *\"I hope that by next week, the client **will have approved** the budget.\"*\n\n### Comparison\n- *\"At 5 PM, I **will be finishing** the report.\"* (I am in the process of finishing it).\n- *\"By 5 PM, I **will have finished** the report.\"* (The report is already done)."
+      "title": "Grammar: Advanced Future Tenses for Forecasting",
+      "content": "Precise communication about timelines is essential for project managers. We use specific future tenses to describe different types of completion and duration.\n\n### Future Continuous (Will be + -ing)\nUsed for actions that will be in progress at a specific moment in the future.\n- *\"At this time next week, the team **will be conducting** the UAT.\"*\n- *\"We **will be monitoring** the budget throughout the execution phase.\"*\n\n### Future Perfect (Will have + past participle)\nUsed for actions that will be finished **before** a specific point in the future. Perfect for deadlines.\n- *\"By the end of the month, we **will have finalised** the project charter.\"*\n- *\"The vendors **will have delivered** the hardware by Monday.\"*\n\n### Future Perfect Continuous (Will have been + -ing)\nUsed to show how long an action will have been in progress at a certain point in the future.\n- *\"By December, I **will have been managing** this project for six months.\"*\n- *\"The engineers **will have been testing** the system for 48 hours before it goes live.\""
     },
     {
-      "id": "professional-phrasing",
-      "title": "Professional Phrasing for Project Updates",
-      "content": "- \"We are currently in the **execution phase** of the project.\"\n- \"To avoid **scope creep**, we must strictly adhere to the original brief.\"\n- \"By the end of the quarter, we **will have achieved** all our **KPIs**.\"\n- \"I'll **be monitoring** the project's progress via the **Gantt chart**.\""
+      "id": "project-phrasal-verbs",
+      "title": "Phrasal Verbs for Project Tracking",
+      "content": "Effective project updates often use these idiomatic expressions:\n\n- **To fall behind**: To fail to keep up with a schedule. (*\"We've **fallen behind** on the documentation phase.\"*)\n- **To catch up**: To reach the same level or point as the schedule. (*\"We'll need to work overtime to **catch up** with the deadline.\"*)\n- **To run over**: To exceed a limit (time or budget). (*\"The project is likely to **run over** by two weeks.\"*)\n- **To sign off on**: To give official approval. (*\"The CEO has finally **signed off on** the budget reallocation.\"*)\n- **To follow through**: To complete an initial action. (*\"We must **follow through** on our commitment to stakeholders.\""
     }
   ],
   "objectives": [
-    "Identify and describe the four phases of a project lifecycle",
-    "Define key project management terms (KPIs, deliverables, scope creep)",
-    "Use Future Continuous to describe ongoing future activities",
-    "Use Future Perfect to state deadlines and expected completion points"
+    "Differentiate between Waterfall and Agile methodologies in a corporate context",
+    "Identify the components of a Project Charter during the initiation phase",
+    "Master the use of Future Perfect and Future Continuous for project forecasting",
+    "Apply phrasal verbs for status reporting and timeline management",
+    "Define and mitigate scope creep and resource bottlenecks"
   ],
   "keyTerms": [
-    { "term": "Deliverable", "definition": "A thing able to be provided, especially as a product of a development process." },
-    { "term": "KPI", "definition": "Key Performance Indicator: a quantifiable measure used to evaluate the success of an organization." },
-    { "term": "Milestone", "definition": "A significant stage or event in the development of something." },
-    { "term": "Scope Creep", "definition": "The uncontrolled expansion to product or project scope without adjustments to time, cost, and resources." }
+    { "term": "Project Charter", "definition": "A formal document that defines the scope, objectives, and participants in a project." },
+    { "term": "Sprint", "definition": "A set period of time during which specific work has to be completed and made ready for review." },
+    { "term": "Scope Creep", "definition": "Changes, continuous or uncontrolled growth in a project’s scope, at any point after the project begins." },
+    { "term": "Post-Mortem", "definition": "An analysis of a project after its completion to examine what was successful and what was not." },
+    { "term": "Contingency Plan", "definition": "A plan designed to take account of a possible future event or circumstance." }
   ]
 }

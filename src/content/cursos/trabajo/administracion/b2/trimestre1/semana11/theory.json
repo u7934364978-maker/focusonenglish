@@ -3,35 +3,37 @@
   "sections": [
     {
       "id": "risk-assessment",
-      "title": "Identifying and Assessing Risks",
-      "content": "Risk management is the process of identifying, evaluating, and prioritising risks to minimise their impact on a project or organisation.\n\n### The Risk Matrix\nRisks are generally assessed based on two criteria:\n1. **Probability**: How likely is it that the risk will occur?\n2. **Impact**: How severe will the consequences be if it does occur?\n\n### Risk Response Strategies\n- **Avoidance**: Changing the project plan to eliminate the risk entirely.\n- **Mitigation**: Taking steps to reduce the probability or impact of a risk.\n- **Transfer**: Passing the risk to a third party (e.g., through insurance).\n- **Acceptance**: Acknowledging the risk and deciding not to take any action unless it occurs."
+      "title": "The Risk Matrix: Assessing Probability and Impact",
+      "content": "Risk management involves a systematic approach to identifying and evaluating potential problems that could undermine a project's success. Administrators use a **Risk Matrix** (or 'Heat Map') to rank risks based on two dimensions:\n\n1.  **Probability**: The likelihood of the risk occurring (Scale of 1-5).\n2.  **Impact**: The severity of the consequences (Scale of 1-5).\n\n### Qualitative vs. Quantitative Analysis\n- **Qualitative**: Descriptive assessment (e.g., 'High', 'Medium', 'Low').\n- **Quantitative**: Numerical assessment, often involving financial costs or time delays.\n\n### Response Strategies\n- **Mitigation**: Proactive steps to reduce likelihood. (*e.g., Cross-training staff to prevent a single point of failure.*)\n- **Transfer**: Moving the risk to a third party. (*e.g., Outsourcing a complex technical task to specialists.*)\n- **Avoidance**: Eliminating the cause of the risk. (*e.g., Deciding not to enter a high-risk market.*)"
     },
     {
-      "id": "contingency-planning",
-      "title": "Contingency vs. Mitigation",
-      "content": "It is important to distinguish between acting before a risk occurs and acting after it occurs.\n\n### Key Definitions\n- **Mitigation Plan**: Actions taken *before* a risk event occurs to reduce its likelihood or impact (e.g., installing a fire alarm).\n- **Contingency Plan**: A pre-defined set of actions to be taken *after* a risk event occurs (e.g., an evacuation plan).\n- **Disaster Recovery**: The process of restoring normal operations after a major disruptive event.\n- **Workaround**: An unplanned response to an unexpected problem."
+      "id": "disaster-recovery",
+      "title": "Disaster Recovery & Business Continuity",
+      "content": "A critical part of administrative risk management is ensuring the organisation can survive a major disruptive event.\n\n- **Business Continuity (BC)**: The plan for how the business will continue to operate *during* a crisis.\n- **Disaster Recovery (DR)**: The technical process of restoring systems and data *after* a crisis.\n\n### Technical Metrics\n- **RTO (Recovery Time Objective)**: The maximum amount of time a system can be down after a disaster.\n- **RPO (Recovery Point Objective)**: The maximum age of files that must be recovered from backup (data loss tolerance)."
     },
     {
       "id": "grammar-third-conditional",
-      "title": "Grammar: Third Conditional for Post-Mortems",
-      "content": "The third conditional is used to talk about hypothetical situations in the past—things that didn't happen. In business, it is essential for 'post-mortem' meetings to analyze what could have been done differently.\n\n### Structure\n*If + Past Perfect, would have + past participle*\n\n### Examples\n- *\"If we **had implemented** the backup system, we **wouldn't have lost** the data.\"*\n  - (Fact: We didn't implement it, so we lost the data).\n- *\"If the supplier **had delivered** on time, the project **would have finished** according to the schedule.\"*\n  - (Fact: They didn't deliver on time, so it didn't finish on time).\n\n### Using 'Could have' or 'Might have'\n- *\"If we **had known** about the new regulations, we **could have adjusted** our strategy.\"* (Ability/Possibility).\n- *\"If the weather **had been** better, the outdoor event **might have been** more successful.\"* (Probability)."
+      "title": "Grammar: Conditionals for Risk Post-Mortems",
+      "content": "When evaluating project failures or 'near misses', administrators use conditional structures to analyze past decisions.\n\n### The Third Conditional (Hypothetical Past)\nUsed to discuss things that didn't happen in the past. \n- **Structure**: *If + Past Perfect, would/could/might have + Past Participle*\n- *\"If we **had implemented** the dual-authentication system, the breach **would not have occurred**.\"*\n- *\"If the team **had followed** the protocol, they **might have identified** the bug earlier.\"*\n\n### Mixed Conditionals (Past Cause -> Present Result)\nOften used when a past mistake affects the current situation.\n- **Structure**: *If + Past Perfect, would + base verb*\n- *\"If we **had invested** in a better server last year, we **would not be facing** these crashes today.\"*\n- *\"If they **had signed** the contract, we **would be** the market leaders now.\""
     },
     {
-      "id": "professional-phrasing",
-      "title": "Professional Phrasing for Risk Analysis",
-      "content": "- \"We need to develop a **contingency plan** in case the primary server fails.\"\n- \"What is our **mitigation strategy** for potential budget overruns?\"\n- \"The **probability** of this occurring is low, but the **impact** would be catastrophic.\"\n- \"If we **had identified** this risk earlier, we **would have avoided** this delay.\""
+      "id": "risk-phrasal-verbs",
+      "title": "Phrasal Verbs for Managing Problems",
+      "content": "Mastering these expressions helps in discussing risk mitigation and problem-solving:\n\n- **To head off**: To prevent something from happening. (*\"We managed to **head off** a major PR disaster.\"*)\n- **To back up**: To make a copy of data for security. (*\"Ensure you **back up** all project files every evening.\"*)\n- **To fall through**: To fail to happen (often regarding plans or deals). (*\"The deal **fell through** because we didn't have a contingency plan.\"*)\n- **To deal with**: To take action to solve a problem. (*\"The administrator has to **deal with** several compliance issues.\"*)\n- **To ward off**: To prevent an attack or danger. (*\"New security software was installed to **ward off** cyber-attacks.\""
     }
   ],
   "objectives": [
-    "Categorise risks using probability and impact criteria",
-    "Distinguish between mitigation and contingency planning",
-    "Use the Third Conditional to analyze past project outcomes and near misses",
-    "Identify formal vocabulary for disaster recovery and risk response"
+    "Categorise and rank risks using the Probability/Impact matrix",
+    "Define RTO and RPO in the context of Disaster Recovery",
+    "Apply Third and Mixed Conditionals to analyze project outcomes and root causes",
+    "Differentiate between Business Continuity and Disaster Recovery strategies",
+    "Master phrasal verbs related to prevention and recovery"
   ],
   "keyTerms": [
-    { "term": "Mitigation", "definition": "The action of reducing the severity, seriousness, or painfulness of something." },
-    { "term": "Contingency", "definition": "A future event or circumstance which is possible but cannot be predicted with certainty." },
-    { "term": "Probability", "definition": "The extent to which something is likely to happen or be the case." },
-    { "term": "Impact", "definition": "The action of one object coming forcibly into contact with another; a marked effect or influence." }
+    { "term": "Risk Matrix", "definition": "A tool used during risk assessment to define the level of risk by considering the category of probability or likelihood against the category of consequence severity." },
+    { "term": "Business Continuity", "definition": "The advanced planning and preparation undertaken by an organization to ensure it will continue to operate during serious incidents or disasters." },
+    { "term": "RTO", "definition": "Recovery Time Objective: the targeted duration of time within which a business process must be restored after a disaster." },
+    { "term": "Post-Mortem", "definition": "A project management process used to identify the causes of failure and successes to improve future performance." },
+    { "term": "Workaround", "definition": "A method for overcoming a problem or limitation in a program or system, often a temporary fix." }
   ]
 }
