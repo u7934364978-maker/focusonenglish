@@ -9,6 +9,11 @@ interface Message {
   text: string
   timestamp: Date
   audioUrl?: string
+  feedback?: {
+    original: string
+    correction: string
+    explanation: string
+  }
 }
 
 interface AITutor {
@@ -17,6 +22,7 @@ interface AITutor {
   avatar: string
   specialty: string
   voice: string
+  voiceId: string
   personality: string
   difficulty: string
 }
@@ -28,6 +34,7 @@ const aiTutors: AITutor[] = [
     avatar: '👩‍🏫',
     specialty: 'Business English',
     voice: 'Female (US)',
+    voiceId: 'EXAVITQu4vr4xnSDxMaL',
     personality: 'Professional & Friendly',
     difficulty: 'Intermediate'
   },
@@ -37,6 +44,7 @@ const aiTutors: AITutor[] = [
     avatar: '👨‍💼',
     specialty: 'Conversational English',
     voice: 'Male (UK)',
+    voiceId: 'cgSgspJ2msm6clMCkdW9',
     personality: 'Patient & Encouraging',
     difficulty: 'Beginner'
   },
@@ -46,6 +54,7 @@ const aiTutors: AITutor[] = [
     avatar: '👩‍🎓',
     specialty: 'IELTS Preparation',
     voice: 'Female (UK)',
+    voiceId: '21m00Tcm4TlvDq8ikWAM',
     personality: 'Academic & Structured',
     difficulty: 'Advanced'
   },
@@ -55,6 +64,7 @@ const aiTutors: AITutor[] = [
     avatar: '👨‍💻',
     specialty: 'Tech & Innovation',
     voice: 'Male (US)',
+    voiceId: 'ErXwobaYiN019PkySvjV',
     personality: 'Casual & Modern',
     difficulty: 'Intermediate'
   }
@@ -76,106 +86,165 @@ export default function AIConversationSimulator() {
   const [inputText, setInputText] = useState('')
   const [isRecording, setIsRecording] = useState(false)
   const [isAISpeaking, setIsAISpeaking] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
   const [conversationStarted, setConversationStarted] = useState(false)
   const [showSettings, setShowSettings] = useState(false)
+  const audioRef = useRef<HTMLAudioElement | null>(null)
   const messagesEndRef = useRef<HTMLDivElement>(null)
-  const [stats, setStats] = useState({
-    totalConversations: 12,
-    minutesSpoken: 347,
-    vocabularyUsed: 156,
-    fluencyScore: 78
-  })
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
   }, [messages])
 
-  const startConversation = () => {
+  const playAudio = async (text: string, voiceId: string) => {
+    try {
+      setIsAISpeaking(true)
+      const response = await fetch('/api/ai-tutor/tts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text, voiceId })
+      })
+
+      if (!response.ok) throw new Error('TTS failed')
+
+      const blob = await response.blob()
+      const url = URL.createObjectURL(blob)
+      
+      if (audioRef.current) {
+        audioRef.current.src = url
+        audioRef.current.play()
+        audioRef.current.onended = () => {
+          setIsAISpeaking(false)
+          URL.revokeObjectURL(url)
+        }
+      }
+    } catch (error) {
+      console.error('Audio playback error:', error)
+      setIsAISpeaking(false)
+    }
+  }
+
+  const startConversation = async () => {
     setConversationStarted(true)
+    const welcomeText = `Hi! I'm ${selectedTutor.name}, your AI English tutor. I'm here to help you practice ${selectedScenario.title}. Shall we begin?`
     const welcomeMessage: Message = {
       id: Date.now().toString(),
       type: 'ai',
-      text: `Hi! I'm ${selectedTutor.name}, your AI English tutor. I'm here to help you practice ${selectedScenario.title}. Shall we begin?`,
+      text: welcomeText,
       timestamp: new Date()
     }
     setMessages([welcomeMessage])
+    playAudio(welcomeText, selectedTutor.voiceId)
   }
 
-  const sendMessage = () => {
-    if (!inputText.trim()) return
+  const sendMessage = async (textOverride?: string) => {
+    const textToSend = textOverride || inputText
+    if (!textToSend.trim() || isLoading) return
 
     const userMessage: Message = {
       id: Date.now().toString(),
       type: 'user',
-      text: inputText,
+      text: textToSend,
       timestamp: new Date()
     }
 
     setMessages(prev => [...prev, userMessage])
     setInputText('')
+    setIsLoading(true)
 
-    // Simulate AI response
-    setTimeout(() => {
-      const aiResponses = [
-        "That's a great point! Can you elaborate on that?",
-        "I see. Let me ask you this: How would you handle a similar situation?",
-        "Excellent! Your pronunciation is improving. Let's practice some more.",
-        "Interesting perspective! In business contexts, we might also say...",
-        "Good effort! Let me suggest an alternative way to express that idea.",
-      ]
-      const randomResponse = aiResponses[Math.floor(Math.random() * aiResponses.length)]
+    try {
+      const chatResponse = await fetch('/api/ai-tutor/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          tutorId: selectedTutor.id,
+          messages: [...messages, userMessage].map(m => ({
+            role: m.type === 'user' ? 'user' : 'assistant',
+            content: m.text
+          })),
+          level: 'Intermediate',
+          scenario: selectedScenario.title
+        })
+      })
+
+      const data = await chatResponse.json()
       
-      const aiMessage: Message = {
-        id: (Date.now() + 1).toString(),
-        type: 'ai',
-        text: randomResponse,
-        timestamp: new Date()
-      }
-      setMessages(prev => [...prev, aiMessage])
-    }, 1500)
-  }
+      if (data.success) {
+        // Update user message with feedback if any
+        if (data.feedback) {
+          setMessages(prev => prev.map(m => 
+            m.id === userMessage.id ? { ...m, feedback: data.feedback } : m
+          ))
+        }
 
-  const toggleRecording = () => {
-    setIsRecording(!isRecording)
-    if (!isRecording) {
-      // Start recording simulation
-      setTimeout(() => {
-        setIsRecording(false)
-        // Simulate transcribed message
-        const transcribedMessage: Message = {
-          id: Date.now().toString(),
-          type: 'user',
-          text: "I think effective communication is crucial in business environments.",
+        const aiMessage: Message = {
+          id: (Date.now() + 1).toString(),
+          type: 'ai',
+          text: data.reply,
           timestamp: new Date()
         }
-        setMessages(prev => [...prev, transcribedMessage])
-        
-        // AI response
-        setTimeout(() => {
-          const aiMessage: Message = {
-            id: (Date.now() + 1).toString(),
-            type: 'ai',
-            text: "Absolutely! You used 'crucial' perfectly. That's advanced vocabulary. Can you give me an example of when communication was crucial in your work?",
-            timestamp: new Date()
-          }
-          setMessages(prev => [...prev, aiMessage])
-        }, 1500)
-      }, 3000)
+        setMessages(prev => [...prev, aiMessage])
+        playAudio(data.reply, selectedTutor.voiceId)
+      }
+    } catch (error) {
+      console.error('Chat error:', error)
+    } finally {
+      setIsLoading(false)
     }
   }
 
-  const playAIVoice = () => {
-    setIsAISpeaking(true)
-    setTimeout(() => setIsAISpeaking(false), 2000)
+  const recognitionRef = useRef<any>(null)
+
+  useEffect(() => {
+    if (typeof window !== 'undefined' && ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window)) {
+      const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition
+      recognitionRef.current = new SpeechRecognition()
+      recognitionRef.current.continuous = false
+      recognitionRef.current.interimResults = false
+      recognitionRef.current.lang = 'en-US'
+
+      recognitionRef.current.onresult = (event: any) => {
+        const transcript = event.results[0][0].transcript
+        sendMessage(transcript)
+        setIsRecording(false)
+      }
+
+      recognitionRef.current.onerror = (event: any) => {
+        console.error('Speech recognition error:', event.error)
+        setIsRecording(false)
+      }
+
+      recognitionRef.current.onend = () => {
+        setIsRecording(false)
+      }
+    }
+  }, [messages, selectedTutor, selectedScenario])
+
+  const toggleRecording = () => {
+    if (isRecording) {
+      recognitionRef.current?.stop()
+    } else {
+      setIsRecording(true)
+      recognitionRef.current?.start()
+    }
+  }
+
+  const playAIVoice = (text: string) => {
+    playAudio(text, selectedTutor.voiceId)
   }
 
   const resetConversation = () => {
     setMessages([])
     setConversationStarted(false)
+    if (audioRef.current) {
+      audioRef.current.pause()
+      audioRef.current.src = ''
+    }
   }
 
   return (
     <div className="max-w-7xl mx-auto p-6">
+      <audio ref={audioRef} hidden />
       {/* Header */}
       <div className="mb-8">
         <h1 className="text-4xl font-bold mb-3 bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text text-transparent">
@@ -362,16 +431,38 @@ export default function AIConversationSimulator() {
                           </div>
                           {message.type === 'ai' && (
                             <button
-                              onClick={playAIVoice}
+                              onClick={() => playAIVoice(message.text)}
                               className="p-1 hover:bg-gray-100 rounded transition-all"
                             >
-                              <Volume2 className="w-4 h-4 text-gray-600" />
+                              <Volume2 className={`w-4 h-4 ${isAISpeaking ? 'text-cyan-600 animate-pulse' : 'text-gray-600'}`} />
                             </button>
                           )}
                         </div>
+                        
+                        {/* Feedback Area */}
+                        {message.type === 'user' && message.feedback && (
+                          <div className="mt-3 p-3 bg-white/10 rounded-lg border border-white/20 text-sm">
+                            <p className="font-bold flex items-center gap-2 mb-1">
+                              <span>💡 Tip:</span>
+                              <span className="text-cyan-100">{message.feedback.correction}</span>
+                            </p>
+                            <p className="text-xs text-white/80 italic">{message.feedback.explanation}</p>
+                          </div>
+                        )}
                       </div>
                     </div>
                   ))}
+                  {isLoading && (
+                    <div className="flex justify-start">
+                      <div className="bg-white border-2 border-gray-200 p-4 rounded-2xl flex items-center gap-2">
+                        <div className="flex gap-1">
+                          <div className="w-2 h-2 bg-cyan-500 rounded-full animate-bounce" />
+                          <div className="w-2 h-2 bg-cyan-500 rounded-full animate-bounce [animation-delay:0.2s]" />
+                          <div className="w-2 h-2 bg-cyan-500 rounded-full animate-bounce [animation-delay:0.4s]" />
+                        </div>
+                      </div>
+                    </div>
+                  )}
                   <div ref={messagesEndRef} />
                 </div>
               )}
