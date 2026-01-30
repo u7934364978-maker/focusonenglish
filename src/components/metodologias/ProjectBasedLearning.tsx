@@ -1,7 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { PlayCircle, CheckCircle, Trophy, Users, Mic, FileText } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+import { PlayCircle, CheckCircle, Trophy, Users, Mic, FileText, ArrowLeft } from 'lucide-react'
 
 interface Project {
   id: string
@@ -134,6 +135,7 @@ const projects: Project[] = [
 ]
 
 export default function ProjectBasedLearning() {
+  const router = useRouter()
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
   const [activeProjects, setActiveProjects] = useState<Project[]>(projects)
 
@@ -170,6 +172,14 @@ export default function ProjectBasedLearning() {
 
   return (
     <div className="max-w-7xl mx-auto p-6">
+      <button 
+        onClick={() => router.push('/metodologias-innovadoras')}
+        className="flex items-center gap-2 text-gray-500 hover:text-purple-600 transition-colors mb-6 group"
+      >
+        <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
+        Volver a Metodologías
+      </button>
+
       <div className="mb-8">
         <h1 className="text-4xl font-bold mb-3 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
           Aprendizaje Basado en Proyectos

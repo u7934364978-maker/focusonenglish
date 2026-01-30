@@ -1,7 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { Users, Video, MessageCircle, Calendar, Globe, Clock, Star, CheckCircle, UserPlus } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+import { Users, Video, MessageCircle, Calendar, Globe, Clock, Star, CheckCircle, UserPlus, ArrowLeft } from 'lucide-react'
 
 interface ConversationClub {
   id: string
@@ -174,6 +175,7 @@ const forumThreads: ForumThread[] = [
 ]
 
 export default function SocialImmersion() {
+  const router = useRouter()
   const [clubs, setClubs] = useState<ConversationClub[]>(conversationClubs)
   const [selectedClub, setSelectedClub] = useState<ConversationClub | null>(null)
   const [activeTab, setActiveTab] = useState<'clubs' | 'forums'>('clubs')
@@ -224,6 +226,14 @@ export default function SocialImmersion() {
 
   return (
     <div className="max-w-7xl mx-auto p-6">
+      <button 
+        onClick={() => router.push('/metodologias-innovadoras')}
+        className="flex items-center gap-2 text-gray-500 hover:text-blue-600 transition-colors mb-6 group"
+      >
+        <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
+        Volver a Metodologías
+      </button>
+
       {/* Header */}
       <div className="mb-8">
         <h1 className="text-4xl font-bold mb-3 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">

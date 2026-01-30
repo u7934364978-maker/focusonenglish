@@ -1,7 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { Camera, Scan, BookOpen, Volume2, Star, CheckCircle, RefreshCw } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+import { Camera, Scan, BookOpen, Volume2, Star, CheckCircle, RefreshCw, ArrowLeft } from 'lucide-react'
 
 interface VocabularyItem {
   id: string
@@ -109,6 +110,7 @@ const arScenarios = [
 ]
 
 export default function AugmentedRealityVocabulary() {
+  const router = useRouter()
   const [vocabulary, setVocabulary] = useState<VocabularyItem[]>(vocabularyItems)
   const [selectedItem, setSelectedItem] = useState<VocabularyItem | null>(null)
   const [isScanning, setIsScanning] = useState(false)
@@ -148,6 +150,14 @@ export default function AugmentedRealityVocabulary() {
 
   return (
     <div className="max-w-7xl mx-auto p-6">
+      <button 
+        onClick={() => router.push('/metodologias-innovadoras')}
+        className="flex items-center gap-2 text-gray-500 hover:text-emerald-600 transition-colors mb-6 group"
+      >
+        <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
+        Volver a Metodologías
+      </button>
+
       {/* Header */}
       <div className="mb-8">
         <h1 className="text-4xl font-bold mb-3 bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">

@@ -1,7 +1,8 @@
 'use client'
 
 import { useState, useRef } from 'react'
-import { Mic, Volume2, RotateCcw, Trophy, TrendingUp, ChevronRight, CheckCircle, XCircle } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+import { Mic, Volume2, RotateCcw, Trophy, TrendingUp, ChevronRight, CheckCircle, XCircle, ArrowLeft } from 'lucide-react'
 
 interface PronunciationExercise {
   id: string
@@ -94,6 +95,7 @@ const recentResults: PronunciationResult[] = [
 ]
 
 export default function PronunciationFeedback() {
+  const router = useRouter()
   const [selectedExercise, setSelectedExercise] = useState<PronunciationExercise>(exercises[0])
   const [isRecording, setIsRecording] = useState(false)
   const [showResult, setShowResult] = useState(false)
@@ -150,6 +152,14 @@ export default function PronunciationFeedback() {
 
   return (
     <div className="max-w-7xl mx-auto p-6">
+      <button 
+        onClick={() => router.push('/metodologias-innovadoras')}
+        className="flex items-center gap-2 text-gray-500 hover:text-indigo-600 transition-colors mb-6 group"
+      >
+        <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
+        Volver a Metodologías
+      </button>
+
       {/* Header */}
       <div className="mb-8">
         <h1 className="text-4xl font-bold mb-3 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">

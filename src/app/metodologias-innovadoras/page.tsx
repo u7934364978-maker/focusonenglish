@@ -45,7 +45,7 @@ const methodologies: MethodologyCard[] = [
       { label: 'Completados', value: 0, icon: <Award className="w-5 h-5" /> },
       { label: 'En Progreso', value: 1, icon: <Clock className="w-5 h-5" /> }
     ],
-    href: '/metodologias-innovadoras/proyecto s'
+    href: '/metodologias-innovadoras/proyectos'
   },
   {
     id: 'gamification',

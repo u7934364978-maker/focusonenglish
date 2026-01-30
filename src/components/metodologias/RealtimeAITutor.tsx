@@ -1,7 +1,8 @@
 'use client'
 
 import { useState, useEffect, useRef } from 'react'
-import { Bot, Mic, Power, RotateCcw, MessageSquare, Volume2, ShieldAlert } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+import { Bot, Mic, Power, RotateCcw, MessageSquare, Volume2, ShieldAlert, ArrowLeft } from 'lucide-react'
 import { useRealtimeAI } from '@/hooks/use-realtime-ai'
 import VoiceVisualizer from './VoiceVisualizer'
 
@@ -60,6 +61,7 @@ interface FeedbackData {
 }
 
 export default function RealtimeAITutor() {
+  const router = useRouter()
   const [selectedTutor, setSelectedTutor] = useState<AITutor>(aiTutors[0])
   const [selectedScenario, setSelectedScenario] = useState(scenarios[0])
   const [feedback, setFeedback] = useState<FeedbackData | null>(null)
@@ -102,6 +104,14 @@ export default function RealtimeAITutor() {
 
   return (
     <div className="max-w-6xl mx-auto p-6">
+      <button 
+        onClick={() => router.push('/metodologias-innovadoras')}
+        className="flex items-center gap-2 text-gray-500 hover:text-blue-600 transition-colors mb-6 group"
+      >
+        <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
+        Volver a Metodologías
+      </button>
+
       <div className="mb-8">
         <h1 className="text-4xl font-bold mb-3 bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
           AI Speaking Tutor v2 (Real-time)
