@@ -7,6 +7,7 @@ import { Trophy, Star, Flame, Target, Award, Zap, Clock, Brain, ArrowLeft } from
 interface MicroLesson {
   id: string
   title: string
+  level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2'
   duration: number // en minutos
   category: 'grammar' | 'vocabulary' | 'pronunciation' | 'listening' | 'speaking'
   difficulty: 1 | 2 | 3 | 4 | 5
@@ -17,6 +18,7 @@ interface MicroLesson {
 
 interface UserProgress {
   level: number
+  cefrLevel: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2'
   currentXP: number
   nextLevelXP: number
   streak: number
@@ -27,6 +29,7 @@ interface UserProgress {
 interface Badge {
   id: string
   name: string
+  level?: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2'
   description: string
   icon: string
   unlocked: boolean
@@ -34,34 +37,60 @@ interface Badge {
 }
 
 const microLessons: MicroLesson[] = [
-  // Día 1
-  { id: 'l1', title: 'Present Simple: Daily Routines', duration: 5, category: 'grammar', difficulty: 1, xp: 50, completed: false, unlocked: true },
-  { id: 'l2', title: '10 Business Phrases', duration: 7, category: 'vocabulary', difficulty: 1, xp: 70, completed: false, unlocked: true },
-  { id: 'l3', title: 'Pronunciation: /th/ sounds', duration: 5, category: 'pronunciation', difficulty: 1, xp: 50, completed: false, unlocked: false },
+  // Nivel A1 - Bloque 1: Primeros Pasos
+  { id: 'l1', title: 'Saying Hello & Goodbye', level: 'A1', duration: 4, category: 'vocabulary', difficulty: 1, xp: 50, completed: false, unlocked: true },
+  { id: 'l2', title: 'The Verb "To Be": I am, You are', level: 'A1', duration: 6, category: 'grammar', difficulty: 1, xp: 60, completed: false, unlocked: true },
+  { id: 'l3', title: 'Numbers 1-20 & Spelling', level: 'A1', duration: 5, category: 'vocabulary', difficulty: 1, xp: 50, completed: false, unlocked: false },
   
-  // Día 2
-  { id: 'l4', title: 'Small Talk at Work', duration: 8, category: 'speaking', difficulty: 2, xp: 80, completed: false, unlocked: false },
-  { id: 'l5', title: 'Email Vocabulary', duration: 6, category: 'vocabulary', difficulty: 2, xp: 60, completed: false, unlocked: false },
+  // Nivel A1 - Bloque 2: Mi Mundo
+  { id: 'l4', title: 'Introduce Yourself', level: 'A1', duration: 7, category: 'speaking', difficulty: 2, xp: 80, completed: false, unlocked: false },
+  { id: 'l5', title: 'Countries & Nationalities', level: 'A1', duration: 6, category: 'vocabulary', difficulty: 2, xp: 60, completed: false, unlocked: false },
   
-  // Día 3
-  { id: 'l6', title: 'Past Simple Stories', duration: 10, category: 'grammar', difficulty: 2, xp: 100, completed: false, unlocked: false },
-  { id: 'l7', title: 'Listen: Job Interview', duration: 7, category: 'listening', difficulty: 2, xp: 70, completed: false, unlocked: false },
+  // Nivel A1 - Bloque 3: Día a Día
+  { id: 'l6', title: 'Family Members', level: 'A1', duration: 5, category: 'vocabulary', difficulty: 2, xp: 70, completed: false, unlocked: false },
+  { id: 'l7', title: 'Possessive Adjectives (My, Your)', level: 'A1', duration: 7, category: 'grammar', difficulty: 2, xp: 80, completed: false, unlocked: false },
   
-  // Día 4
-  { id: 'l8', title: 'Phrasal Verbs: Business', duration: 8, category: 'vocabulary', difficulty: 3, xp: 120, completed: false, unlocked: false },
-  { id: 'l9', title: 'Present Perfect Practice', duration: 9, category: 'grammar', difficulty: 3, xp: 130, completed: false, unlocked: false },
+  // Nivel A1 - Bloque 4: Habilidades
+  { id: 'l8', title: 'Can/Can\'t for Abilities', level: 'A1', duration: 8, category: 'grammar', difficulty: 3, xp: 100, completed: false, unlocked: false },
+  { id: 'l9', title: 'Action Verbs', level: 'A1', duration: 6, category: 'vocabulary', difficulty: 3, xp: 90, completed: false, unlocked: false },
   
-  // Día 5
-  { id: 'l10', title: 'Presentation Skills', duration: 10, category: 'speaking', difficulty: 3, xp: 150, completed: false, unlocked: false },
+  // Nivel A1 - Bloque 5: Final de Nivel
+  { id: 'l10', title: 'Daily Routine Challenge', level: 'A1', duration: 10, category: 'speaking', difficulty: 3, xp: 150, completed: false, unlocked: false },
+
+  // Nivel A2 - Bloque 1: Experiencias
+  { id: 'l11', title: 'Past Simple: Regular Verbs', level: 'A2', duration: 6, category: 'grammar', difficulty: 2, xp: 70, completed: false, unlocked: true },
+  { id: 'l12', title: 'Travel & Transport', level: 'A2', duration: 5, category: 'vocabulary', difficulty: 2, xp: 60, completed: false, unlocked: true },
+  { id: 'l13', title: 'The Irregular Verbs List', level: 'A2', duration: 8, category: 'grammar', difficulty: 3, xp: 90, completed: false, unlocked: false },
+
+  // Nivel A2 - Bloque 2: Comparaciones
+  { id: 'l14', title: 'Comparatives: Better & Faster', level: 'A2', duration: 7, category: 'grammar', difficulty: 2, xp: 80, completed: false, unlocked: false },
+  { id: 'l15', title: 'Shopping & Clothes', level: 'A2', duration: 6, category: 'vocabulary', difficulty: 2, xp: 70, completed: false, unlocked: false },
+
+  // Nivel A2 - Bloque 3: Salud y Cuerpo
+  { id: 'l16', title: 'Health & Illnesses', level: 'A2', duration: 6, category: 'vocabulary', difficulty: 3, xp: 80, completed: false, unlocked: false },
+  { id: 'l17', title: 'Modal Verbs: Should & Must', level: 'A2', duration: 8, category: 'grammar', difficulty: 3, xp: 100, completed: false, unlocked: false },
+
+  // Nivel A2 - Bloque 4: Futuro
+  { id: 'l18', title: 'Future with "Going to"', level: 'A2', duration: 7, category: 'grammar', difficulty: 3, xp: 90, completed: false, unlocked: false },
+  { id: 'l19', title: 'Plans & Intentions', level: 'A2', duration: 6, category: 'speaking', difficulty: 3, xp: 100, completed: false, unlocked: false },
+
+  // Nivel A2 - Bloque 5: Consolidación
+  { id: 'l20', title: 'Elementary Storyteller', level: 'A2', duration: 12, category: 'speaking', difficulty: 4, xp: 200, completed: false, unlocked: false },
 ]
 
 const badges: Badge[] = [
-  { id: 'b1', name: 'Primer Paso', description: 'Completa tu primera lección', icon: '🎯', unlocked: false },
-  { id: 'b2', name: 'Racha de 3', description: 'Mantén una racha de 3 días', icon: '🔥', unlocked: false },
-  { id: 'b3', name: 'Velocista', description: 'Completa 5 lecciones en un día', icon: '⚡', unlocked: false },
-  { id: 'b4', name: 'Maestro Grammar', description: 'Completa todas las lecciones de gramática', icon: '📚', unlocked: false },
-  { id: 'b5', name: 'Nivel 5', description: 'Alcanza el nivel 5', icon: '👑', unlocked: false },
-  { id: 'b6', name: 'Perfeccionista', description: 'Obtén 100% en 10 lecciones', icon: '💎', unlocked: false },
+  { id: 'b1', name: 'A1 Starter', level: 'A1', description: 'Completa tu primera lección de nivel A1', icon: '🌱', unlocked: false },
+  { id: 'b2', name: 'Políglota Novel', level: 'A1', description: 'Aprende 5 países y nacionalidades', icon: '🌍', unlocked: false },
+  { id: 'b3', name: 'Comunicador', level: 'A1', description: 'Realiza tu primera presentación personal', icon: '👋', unlocked: false },
+  { id: 'b4', name: 'Gramático A1', level: 'A1', description: 'Domina el verbo To Be y los Posesivos', icon: '📖', unlocked: false },
+  { id: 'b5', name: 'Superviviente', description: 'Alcanza el nivel 5 de experiencia', icon: '🛡️', unlocked: false },
+  { id: 'b6', name: 'Racha Imparable', description: 'Completa lecciones durante 7 días seguidos', icon: '⚡', unlocked: false },
+  
+  // Medallas A2
+  { id: 'b7', name: 'Viajero A2', level: 'A2', description: 'Domina el vocabulario de viajes y transporte', icon: '✈️', unlocked: false },
+  { id: 'b8', name: 'Historiador', level: 'A2', description: 'Usa correctamente el pasado simple', icon: '📜', unlocked: false },
+  { id: 'b9', name: 'Consejero', level: 'A2', description: 'Da consejos usando modal verbs', icon: '🤝', unlocked: false },
+  { id: 'b10', name: 'Futurista', level: 'A2', description: 'Expresa planes futuros con claridad', icon: '🚀', unlocked: false },
 ]
 
 export default function MicrolearningGamification() {
@@ -69,12 +98,14 @@ export default function MicrolearningGamification() {
   const [lessons, setLessons] = useState<MicroLesson[]>(microLessons)
   const [progress, setProgress] = useState<UserProgress>({
     level: 1,
+    cefrLevel: 'A1',
     currentXP: 0,
     nextLevelXP: 500,
     streak: 3,
     totalPoints: 0,
     badges: badges
   })
+  const [selectedLevel, setSelectedLevel] = useState<'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2'>('A1')
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
   const [showBadgeModal, setShowBadgeModal] = useState(false)
   const [newBadge, setNewBadge] = useState<Badge | null>(null)
@@ -95,9 +126,14 @@ export default function MicrolearningGamification() {
             const newLevel = Math.floor(newXP / prevProgress.nextLevelXP) + 1
             
             // Check for badge unlocks
-            const completedLessons = prev.filter(l => l.completed).length + 1
-            if (completedLessons === 1) {
-              unlockBadge('b1')
+            const completedLessonsCount = prev.filter(l => l.completed).length + 1
+            if (completedLessonsCount === 1) {
+              const starterBadgeId = selectedLevel === 'A1' ? 'b1' : 'b7'; // A1 Starter or A2 Traveler
+              unlockBadge(starterBadgeId)
+            }
+            
+            if (completedLessonsCount === 5 && selectedLevel === 'A2') {
+              unlockBadge('b8') // Historiador
             }
             
             return {
@@ -130,9 +166,11 @@ export default function MicrolearningGamification() {
     }
   }
 
-  const filteredLessons = selectedCategory === 'all' 
-    ? lessons 
-    : lessons.filter(l => l.category === selectedCategory)
+  const filteredLessons = lessons.filter(l => {
+    const levelMatch = l.level === selectedLevel
+    const categoryMatch = selectedCategory === 'all' || l.category === selectedCategory
+    return levelMatch && categoryMatch
+  })
 
   const getCategoryIcon = (category: string) => {
     switch (category) {
@@ -226,21 +264,51 @@ export default function MicrolearningGamification() {
         </div>
       </div>
 
-      {/* Category Filter */}
-      <div className="flex gap-2 mb-6 overflow-x-auto pb-2">
-        {['all', 'grammar', 'vocabulary', 'pronunciation', 'listening', 'speaking'].map(cat => (
-          <button
-            key={cat}
-            onClick={() => setSelectedCategory(cat)}
-            className={`px-4 py-2 rounded-full font-medium whitespace-nowrap transition-all ${
-              selectedCategory === cat
-                ? 'bg-gradient-to-r from-orange-500 to-pink-500 text-white shadow-lg'
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-            }`}
-          >
-            {cat === 'all' ? '🎯 Todas' : `${getCategoryIcon(cat)} ${cat.charAt(0).toUpperCase() + cat.slice(1)}`}
-          </button>
-        ))}
+      {/* Level & Category Filter */}
+      <div className="bg-white p-4 rounded-xl shadow-sm border border-gray-100 mb-8">
+        <div className="flex flex-col md:flex-row md:items-center gap-6">
+          {/* CEFR Level Selector */}
+          <div>
+            <p className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3">Nivel MCER:</p>
+            <div className="flex gap-2">
+              {['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].map(level => (
+                <button
+                  key={level}
+                  onClick={() => setSelectedLevel(level as any)}
+                  className={`w-12 h-12 rounded-xl font-black transition-all ${
+                    selectedLevel === level
+                      ? 'bg-gradient-to-br from-orange-500 to-pink-500 text-white shadow-lg scale-110'
+                      : 'bg-gray-100 text-gray-400 hover:bg-gray-200'
+                  }`}
+                >
+                  {level}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="hidden md:block w-px h-12 bg-gray-200" />
+
+          {/* Category Filter */}
+          <div className="flex-1">
+            <p className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3">Categoría:</p>
+            <div className="flex gap-2 overflow-x-auto pb-2">
+              {['all', 'grammar', 'vocabulary', 'pronunciation', 'listening', 'speaking'].map(cat => (
+                <button
+                  key={cat}
+                  onClick={() => setSelectedCategory(cat)}
+                  className={`px-4 py-2 rounded-full font-medium whitespace-nowrap transition-all ${
+                    selectedCategory === cat
+                      ? 'bg-gray-800 text-white shadow-lg'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  }`}
+                >
+                  {cat === 'all' ? '🎯 Todas' : `${getCategoryIcon(cat)} ${cat.charAt(0).toUpperCase() + cat.slice(1)}`}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Lessons Grid */}
