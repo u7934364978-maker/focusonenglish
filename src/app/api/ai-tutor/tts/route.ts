@@ -9,7 +9,7 @@ export async function POST(req: Request) {
   }
 
   try {
-    const { text, voiceId } = await req.json();
+    const { text, voiceId, stability, similarityBoost } = await req.json();
 
     if (!text) {
       return NextResponse.json({ error: 'No text provided' }, { status: 400 });
@@ -28,8 +28,8 @@ export async function POST(req: Request) {
         text: text,
         model_id: VOICE_MODELS.multilingual_v2,
         voice_settings: {
-          stability: 0.4,
-          similarity_boost: 0.75,
+          stability: stability ?? 0.4,
+          similarity_boost: similarityBoost ?? 0.75,
           style: 0.3,
           use_speaker_boost: true,
         },
