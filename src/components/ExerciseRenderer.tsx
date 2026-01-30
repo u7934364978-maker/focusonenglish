@@ -8,6 +8,7 @@ import SpeakingExercise from './SpeakingExercise';
 import WordSearchExercise from './exercises/WordSearchExercise';
 import CrosswordExercise from './exercises/CrosswordExercise';
 import type { MultipleChoiceEvaluationResponse, TextAnswerEvaluationResponse } from '@/lib/exercise-types';
+import { useGamification } from '@/lib/hooks/use-gamification';
 
 interface ExerciseRendererProps {
   exercise: Exercise;
@@ -15,6 +16,7 @@ interface ExerciseRendererProps {
 }
 
 export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRendererProps) {
+  const { completeExercise } = useGamification();
   const [userAnswer, setUserAnswer] = useState<any>(null);
   const [submitted, setSubmitted] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
@@ -78,6 +80,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
             
             if (evaluation.isCorrect) {
               setShowConfetti(true);
+              completeExercise(exercise.id, 1, 1);
               setTimeout(() => setShowConfetti(false), 3000);
             }
           } else {
@@ -85,6 +88,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
             setIsCorrect(correct);
             if (correct) {
               setShowConfetti(true);
+              completeExercise(exercise.id, 1, 1);
               setTimeout(() => setShowConfetti(false), 3000);
             }
           }
@@ -108,6 +112,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
             
             if (evaluation.isCorrect || evaluation.score >= 70) {
               setShowConfetti(true);
+              completeExercise(exercise.id, evaluation.score || 100, 100);
               setTimeout(() => setShowConfetti(false), 3000);
             }
           } else {
@@ -117,6 +122,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
             setIsCorrect(correct);
             if (correct) {
               setShowConfetti(true);
+              completeExercise(exercise.id, 1, 1);
               setTimeout(() => setShowConfetti(false), 3000);
             }
           }
@@ -127,6 +133,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
         setIsCorrect(correct);
         if (correct) {
           setShowConfetti(true);
+          completeExercise(exercise.id, 1, 1);
           setTimeout(() => setShowConfetti(false), 3000);
         }
       }
@@ -185,6 +192,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
             clues={exercise.content.clues}
             onComplete={() => {
               setShowConfetti(true);
+              completeExercise(exercise.id, 1, 1);
               setTimeout(() => {
                 setShowConfetti(false);
                 onComplete();
@@ -209,6 +217,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
             items={exercise.content.items} 
             onComplete={() => {
               setShowConfetti(true);
+              completeExercise(exercise.id, 1, 1);
               setTimeout(() => {
                 setShowConfetti(false);
                 onComplete();
