@@ -9,7 +9,7 @@ interface MicroLesson {
   title: string
   level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2'
   duration: number // en minutos
-  category: 'grammar' | 'vocabulary' | 'pronunciation' | 'listening' | 'speaking'
+  category: 'grammar' | 'vocabulary' | 'pronunciation' | 'listening' | 'speaking' | 'methodology'
   difficulty: 1 | 2 | 3 | 4 | 5
   xp: number
   completed: boolean
@@ -76,6 +76,13 @@ const microLessons: MicroLesson[] = [
 
   // Nivel A2 - Bloque 5: Consolidación
   { id: 'l20', title: 'Elementary Storyteller', level: 'A2', duration: 12, category: 'speaking', difficulty: 4, xp: 200, completed: false, unlocked: false },
+
+  // Metodologías Innovadoras (Aprende a Aprender)
+  { id: 'm1', title: '¿Qué es el Microlearning?', level: 'A1', duration: 3, category: 'methodology', difficulty: 1, xp: 40, completed: false, unlocked: true },
+  { id: 'm2', title: 'Beneficios de Lecciones Cortas', level: 'A1', duration: 4, category: 'methodology', difficulty: 1, xp: 40, completed: false, unlocked: true },
+  { id: 'm3', title: 'Gamificación: Aprender Jugando', level: 'A1', duration: 5, category: 'methodology', difficulty: 1, xp: 50, completed: false, unlocked: true },
+  { id: 'm4', title: 'Sistema de Puntos y XP', level: 'A1', duration: 3, category: 'methodology', difficulty: 1, xp: 40, completed: false, unlocked: true },
+  { id: 'm5', title: 'Manteniendo tu Racha', level: 'A1', duration: 4, category: 'methodology', difficulty: 1, xp: 50, completed: false, unlocked: true },
 ]
 
 const badges: Badge[] = [
@@ -91,6 +98,7 @@ const badges: Badge[] = [
   { id: 'b8', name: 'Historiador', level: 'A2', description: 'Usa correctamente el pasado simple', icon: '📜', unlocked: false },
   { id: 'b9', name: 'Consejero', level: 'A2', description: 'Da consejos usando modal verbs', icon: '🤝', unlocked: false },
   { id: 'b10', name: 'Futurista', level: 'A2', description: 'Expresa planes futuros con claridad', icon: '🚀', unlocked: false },
+  { id: 'b11', name: 'Experto en Metodología', description: 'Completaste todas las lecciones sobre Microlearning y Gamificación', icon: '🎓', unlocked: false },
 ]
 
 export default function MicrolearningGamification() {
@@ -134,6 +142,13 @@ export default function MicrolearningGamification() {
             
             if (completedLessonsCount === 5 && selectedLevel === 'A2') {
               unlockBadge('b8') // Historiador
+            }
+
+            // Check methodology expert badge
+            const completedMethodologyCount = updatedLessons.filter(l => l.category === 'methodology' && l.completed).length
+            const totalMethodologyCount = updatedLessons.filter(l => l.category === 'methodology').length
+            if (completedMethodologyCount === totalMethodologyCount && totalMethodologyCount > 0) {
+              unlockBadge('b11')
             }
             
             return {
@@ -179,6 +194,7 @@ export default function MicrolearningGamification() {
       case 'pronunciation': return '🗣️'
       case 'listening': return '👂'
       case 'speaking': return '🎤'
+      case 'methodology': return '🧠'
       default: return '📚'
     }
   }
@@ -293,7 +309,7 @@ export default function MicrolearningGamification() {
           <div className="flex-1">
             <p className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3">Categoría:</p>
             <div className="flex gap-2 overflow-x-auto pb-2">
-              {['all', 'grammar', 'vocabulary', 'pronunciation', 'listening', 'speaking'].map(cat => (
+              {['all', 'grammar', 'vocabulary', 'pronunciation', 'listening', 'speaking', 'methodology'].map(cat => (
                 <button
                   key={cat}
                   onClick={() => setSelectedCategory(cat)}
@@ -303,7 +319,7 @@ export default function MicrolearningGamification() {
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   }`}
                 >
-                  {cat === 'all' ? '🎯 Todas' : `${getCategoryIcon(cat)} ${cat.charAt(0).toUpperCase() + cat.slice(1)}`}
+                  {cat === 'all' ? '🎯 Todas' : cat === 'methodology' ? '🧠 Metodología' : `${getCategoryIcon(cat)} ${cat.charAt(0).toUpperCase() + cat.slice(1)}`}
                 </button>
               ))}
             </div>

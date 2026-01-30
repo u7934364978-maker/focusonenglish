@@ -24,6 +24,7 @@ function PracticeContent({ level }: PracticePageProps) {
   const [error, setError] = useState<string | null>(null);
 
   const category = searchParams.get('category');
+  const topicId = searchParams.get('topicId');
   const isRandom = searchParams.get('random') === 'true';
 
   const generateNewExercise = useCallback(async () => {
@@ -34,7 +35,15 @@ function PracticeContent({ level }: PracticePageProps) {
       let topic;
       let selectedCategory;
 
-      if (isRandom) {
+      if (topicId) {
+        // Specific topic requested
+        const allTopics = getAllTopics(level);
+        topic = allTopics.find(t => t.id === topicId);
+        if (!topic) {
+          throw new Error(`Topic not found: ${topicId}`);
+        }
+        selectedCategory = topic.category;
+      } else if (isRandom) {
         // Completely random
         topic = getRandomTopic(level);
         selectedCategory = topic.category;
