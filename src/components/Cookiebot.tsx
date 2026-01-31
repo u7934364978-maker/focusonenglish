@@ -30,7 +30,7 @@ export default function Cookiebot() {
       src="https://consent.cookiebot.com/uc.js"
       data-cbid={COOKIEBOT_ID}
       type="text/javascript"
-      strategy="beforeInteractive"
+      strategy="afterInteractive"
     />
   );
 }
