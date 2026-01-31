@@ -2,7 +2,7 @@
 import Stripe from 'stripe';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || '', {
-  apiVersion: '2025-12-15.clover',
+  apiVersion: '2026-01-28.clover' as any,
 });
 
 /**
@@ -48,6 +48,24 @@ export async function hasActiveSubscription(userId: string): Promise<boolean> {
 
     const hasActive = subscriptions.data.length > 0;
     
+    // Si no tiene suscripción activa, revisar si compró el piloto (pago único)
+    if (!hasActive) {
+      const sessions = await stripe.checkout.sessions.list({
+        customer: customer.id,
+        limit: 10,
+      });
+      
+      const hasPilotPurchase = sessions.data.some(session => 
+        session.payment_status === 'paid' && 
+        session.metadata?.planId === 'travel-pilot'
+      );
+      
+      if (hasPilotPurchase) {
+        cacheSubscriptionStatus(userId, true);
+        return true;
+      }
+    }
+
     // Cachear resultado
     cacheSubscriptionStatus(userId, hasActive);
     

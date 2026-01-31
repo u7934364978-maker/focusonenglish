@@ -1,6 +1,6 @@
 import Stripe from 'stripe';
 import { NextRequest, NextResponse } from 'next/server';
-import { SUBSCRIPTION_PLANS, getPlanById } from '@/lib/subscription-plans';
+import { getPlanById } from '@/lib/subscription-plans';
 import { getStripePriceId } from '@/lib/stripe-config';
 
 
@@ -8,7 +8,7 @@ export const runtime = 'edge';
 // Inicializar Stripe solo si la clave está disponible (evita errores en build time)
 const stripe = process.env.STRIPE_SECRET_KEY 
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
-      apiVersion: '2025-12-15.clover',
+      apiVersion: '2026-01-28.clover' as any,
     })
   : null;
 
@@ -33,6 +33,8 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    const isPilot = planId === 'travel-pilot';
+
     // Obtener Price ID de Stripe (si está configurado)
     const stripePriceId = getStripePriceId(planId);
     
@@ -42,23 +44,12 @@ export async function POST(request: NextRequest) {
       try {
         const price = await stripe.prices.retrieve(stripePriceId);
         if (!price.active) {
-          console.warn(`⚠️ Price ${stripePriceId} está inactivo, usando fallback`);
           validatedPriceId = null;
         }
       } catch (error: any) {
-        console.error(`❌ Price ${stripePriceId} no existe:`, error.message);
-        console.log('📝 Usando fallback para crear precio dinámicamente');
         validatedPriceId = null;
       }
     }
-    
-    // Log para debugging
-    console.log('🔍 Checkout Debug:', {
-      planId,
-      configuredPriceId: stripePriceId,
-      validatedPriceId,
-      willUseFallback: !validatedPriceId
-    });
     
     // Crear line_items dependiendo si hay Price ID válido o no
     const lineItems = validatedPriceId
@@ -78,9 +69,11 @@ export async function POST(request: NextRequest) {
                 description: `Plan ${plan.name} - ${plan.features[0]}`,
               },
               unit_amount: plan.price,
-              recurring: {
-                interval: plan.interval,
-              },
+              ...(isPilot ? {} : {
+                recurring: {
+                  interval: plan.interval,
+                },
+              }),
             },
             quantity: 1,
           },
@@ -90,9 +83,9 @@ export async function POST(request: NextRequest) {
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
       line_items: lineItems,
-      mode: 'subscription', // Cambio clave: de 'payment' a 'subscription'
-      success_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/planes?canceled=true`,
+      mode: isPilot ? 'payment' : 'subscription',
+      success_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/pilot?success=true&session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/pilot?canceled=true`,
       customer_email: email,
       metadata: {
         planId,
@@ -110,6 +103,14 @@ export async function POST(request: NextRequest) {
       // subscription_data: {
       //   trial_period_days: 7,
       // },
+      ...(isPilot ? {} : {
+        subscription_data: {
+          metadata: {
+            planId,
+            email,
+          }
+        }
+      })
     });
 
     return NextResponse.json({ 

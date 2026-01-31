@@ -1,0 +1,86 @@
+{
+  "courseId": "travel-a1",
+  "unitId": "u1-airport-arrival",
+  "title": "Llegada al aeropuerto",
+  "level": "A1",
+  "lessons": [
+    {
+      "lessonId": "l1-vocab",
+      "title": "Vocabulario esencial",
+      "segments": [
+        {
+          "type": "vocabulary",
+          "items": [
+            { "word": "passport", "translation": "pasaporte" },
+            { "word": "boarding pass", "translation": "tarjeta de embarque" },
+            { "word": "gate", "translation": "puerta de embarque" },
+            { "word": "luggage", "translation": "equipaje" },
+            { "word": "check-in", "translation": "facturación / registro" },
+            { "word": "ticket", "translation": "billete" },
+            { "word": "terminal", "translation": "terminal" },
+            { "word": "security", "translation": "seguridad" }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "l2-listening",
+      "title": "En el aeropuerto",
+      "segments": [
+        {
+          "type": "video",
+          "streamVideoId": "pilot_video_1_id",
+          "interactions": [
+            {
+              "type": "hotspot",
+              "atSeconds": 5,
+              "label": "Passport Control",
+              "content": { "text": "Passport Control = Control de pasaportes. Aquí es donde revisan tu documento." }
+            },
+            {
+              "type": "mcq",
+              "atSeconds": 15,
+              "question": "What does the passenger need to show at the gate?",
+              "options": ["A map", "The boarding pass", "A driver's license"],
+              "answerIndex": 1,
+              "explanation": "You must show your boarding pass to get on the plane."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "l3-speaking",
+      "title": "Practica tu pronunciación",
+      "segments": [
+        {
+          "type": "speaking",
+          "prompt": "Say: 'Here is my passport.'",
+          "referenceText": "Here is my passport.",
+          "maxAttempts": 3,
+          "passRule": { "minOverallScore": 70 }
+        },
+        {
+          "type": "speaking",
+          "prompt": "Say: 'Where is gate twelve?'",
+          "referenceText": "Where is gate twelve?",
+          "maxAttempts": 3,
+          "passRule": { "minOverallScore": 70 }
+        }
+      ]
+    },
+    {
+      "lessonId": "l4-roleplay",
+      "title": "Role-play: Control de pasaportes",
+      "segments": [
+        {
+          "type": "speaking",
+          "prompt": "Officer: 'Can I see your passport and boarding pass, please?'\nRespond: 'Yes, here they are.'",
+          "referenceText": "Yes, here they are.",
+          "maxAttempts": 3,
+          "passRule": { "minOverallScore": 60 }
+        }
+      ]
+    }
+  ]
+}

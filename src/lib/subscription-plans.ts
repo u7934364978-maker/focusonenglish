@@ -143,6 +143,27 @@ export const SUBSCRIPTION_PLANS: Record<string, SubscriptionPlan> = {
       gradient: 'from-coral-600 to-peach-600',
     },
   },
+
+  // Plan Piloto (Pago único)
+  'travel-pilot': {
+    id: 'travel-pilot',
+    name: 'Piloto: Inglés para Viajes',
+    price: 999, // €9.99
+    currency: 'eur',
+    interval: 'month', // No usado realmente para pago único pero mantenemos consistencia
+    features: [
+      'Acceso completo a la unidad "Llegada al aeropuerto"',
+      'Vídeos interactivos con hotspots',
+      'Evaluación de pronunciación con IA',
+      'Acceso de por vida a esta unidad',
+    ],
+    color: {
+      border: 'border-blue-200',
+      bg: 'bg-blue-50',
+      text: 'text-blue-600',
+      gradient: 'from-blue-500 to-indigo-600',
+    },
+  },
 };
 
 // Precios anteriores (para referencia o migración)

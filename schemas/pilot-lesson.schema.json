@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Pilot Lesson Schema",
+  "type": "object",
+  "properties": {
+    "courseId": { "type": "string" },
+    "unitId": { "type": "string" },
+    "title": { "type": "string" },
+    "level": { "enum": ["A1", "A2", "B1", "B2", "C1", "C2"] },
+    "lessons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "lessonId": { "type": "string" },
+          "title": { "type": "string" },
+          "segments": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": { "const": "video" },
+                    "streamVideoId": { "type": "string" },
+                    "interactions": {
+                      "type": "array",
+                      "items": {
+                        "oneOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "type": { "const": "hotspot" },
+                              "atSeconds": { "type": "number" },
+                              "label": { "type": "string" },
+                              "content": {
+                                "type": "object",
+                                "properties": {
+                                  "text": { "type": "string" }
+                                },
+                                "required": ["text"]
+                              }
+                            },
+                            "required": ["type", "atSeconds", "label", "content"]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "type": { "const": "mcq" },
+                              "atSeconds": { "type": "number" },
+                              "question": { "type": "string" },
+                              "options": {
+                                "type": "array",
+                                "items": { "type": "string" },
+                                "minItems": 2
+                              },
+                              "answerIndex": { "type": "number" },
+                              "explanation": { "type": "string" }
+                            },
+                            "required": ["type", "atSeconds", "question", "options", "answerIndex"]
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "required": ["type", "streamVideoId"]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": { "const": "speaking" },
+                    "prompt": { "type": "string" },
+                    "referenceText": { "type": "string" },
+                    "maxAttempts": { "type": "number" },
+                    "passRule": {
+                      "type": "object",
+                      "properties": {
+                        "minOverallScore": { "type": "number" }
+                      }
+                    }
+                  },
+                  "required": ["type", "prompt", "referenceText"]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": { "const": "vocabulary" },
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "word": { "type": "string" },
+                          "translation": { "type": "string" },
+                          "imageUrl": { "type": "string" }
+                        },
+                        "required": ["word", "translation"]
+                      }
+                    }
+                  },
+                  "required": ["type", "items"]
+                }
+              ]
+            }
+          }
+        },
+        "required": ["lessonId", "title", "segments"]
+      }
+    }
+  },
+  "required": ["courseId", "unitId", "title", "level", "lessons"]
+}
