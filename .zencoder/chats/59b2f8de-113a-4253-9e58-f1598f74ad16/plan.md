@@ -31,4 +31,4 @@
 4. **Verification**
    - [x] Validate JSON structure.
    - [x] Check `localhost:3000` for pilot week visibility.
-   - [ ] Run `npm run lint`.
+   - [x] Run `npm run lint`.

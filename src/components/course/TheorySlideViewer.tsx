@@ -125,16 +125,19 @@ export default function TheorySlideViewer({ slides, onComplete, lessonTitle }: T
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.9 }}
                         onClick={() => handlePointClick(idx)}
-                        className={`absolute w-10 h-10 -translate-x-1/2 -translate-y-1/2 rounded-full flex items-center justify-center shadow-lg transition-colors border-2 ${
+                        className={`absolute w-12 h-12 -translate-x-1/2 -translate-y-1/2 rounded-full flex items-center justify-center shadow-xl transition-all duration-300 border-2 group ${
                           activePoint === idx 
-                            ? 'bg-indigo-600 border-white text-white z-20' 
+                            ? 'bg-indigo-600 border-white text-white z-30 scale-125 ring-4 ring-indigo-400/30' 
                             : viewedPoints.has(idx)
-                              ? 'bg-green-500 border-white text-white z-10'
-                              : 'bg-white border-indigo-600 text-indigo-600 z-10 animate-pulse'
+                              ? 'bg-green-500 border-white text-white z-10 opacity-90'
+                              : 'bg-white/90 backdrop-blur-sm border-indigo-600 text-indigo-600 z-10 animate-bounce'
                         }`}
                         style={{ left: `${point.x}%`, top: `${point.y}%` }}
                       >
-                        {viewedPoints.has(idx) && activePoint !== idx ? <Check size={18} /> : <Eye size={18} />}
+                        {viewedPoints.has(idx) && activePoint !== idx ? <CheckCircle2 size={24} /> : <Eye size={24} />}
+                        <div className={`absolute -bottom-10 left-1/2 -translate-x-1/2 bg-slate-900/80 backdrop-blur-sm text-white text-[10px] px-2 py-0.5 rounded-full whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none uppercase tracking-tighter font-bold`}>
+                          {point.label}
+                        </div>
                       </motion.button>
                     ))}
                   </div>

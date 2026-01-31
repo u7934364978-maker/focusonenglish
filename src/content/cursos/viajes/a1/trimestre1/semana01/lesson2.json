@@ -62,15 +62,24 @@
       "id": "trv-a1-s1-l2-ex-v2",
       "type": "vocabulary",
       "title": "Spelling Practice",
-      "instructions": "Escucha la letra y selecciónala.",
+      "instructions": "Escucha las letras y selecciona la correcta para completar la palabra.",
       "questions": [
         {
           "id": "q-v2-2",
           "type": "multiple-choice",
-          "question": "Audio: 'B'",
-          "options": ["B", "D", "P"],
+          "question": "The receptionist asks: 'Can you spell your last name?' - It's **B-R-O-W-N**. Which is the first letter?",
+          "options": ["B", "D", "V"],
           "correctAnswer": "B",
-          "points": 2
+          "points": 2,
+          "explanation": "'B' as in 'Boy'."
+        },
+        {
+          "id": "q-v2-3",
+          "type": "short-answer",
+          "question": "Deletrea la palabra 'MAP' (Mapa) en inglés.",
+          "correctAnswer": "M-A-P",
+          "points": 5,
+          "explanation": "M (em), A (ei), P (pi)."
         }
       ]
     }

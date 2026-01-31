@@ -14,19 +14,22 @@ AVATAR_ID = "Abigail_standing_office_front"
 
 def upload_asset(file_path):
     headers = {
-        "X-Api-Key": API_KEY,
+        "Authorization": f"Bearer {API_KEY}",
     }
-    # For images, we need to specify the content type usually or let requests handle it
-    files = {
-        "file": (os.path.basename(file_path), open(file_path, "rb"), "image/png")
+    data = {
+        "type": "image"
     }
-    print(f"⬆️ Uploading asset: {file_path}")
-    response = requests.post(UPLOAD_URL, headers=headers, files=files)
+    with open(file_path, "rb") as f:
+        files = {
+            "file": (os.path.basename(file_path), f, "image/png")
+        }
+        print(f"⬆️ Uploading asset: {file_path}")
+        response = requests.post(UPLOAD_URL, headers=headers, files=files, data=data)
+    
     if response.status_code == 200:
-        # HeyGen returns asset_id in v1/asset
         return response.json().get("data", {}).get("id")
     else:
-        print(f"❌ Upload failed: {response.text}")
+        print(f"❌ Upload failed: {response.status_code} - {response.text}")
         return None
 
 def generate_heygen_video(lesson_data, output_json_path):

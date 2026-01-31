@@ -2,6 +2,7 @@
 
 import Markdown from '@/components/course/Markdown';
 import { useState, useEffect, useRef } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight, CheckCircle2, Star, Target, BarChart3, Video, BookOpen, PencilLine, Headphones } from 'lucide-react';
 import InteractiveTranscript from '@/components/course/InteractiveTranscript';
 import EnhancedVoiceRecorder from '@/components/course/EnhancedVoiceRecorder';
@@ -3538,29 +3539,31 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           )}
         </div>
 
-        {/* Navigation Tabs */}
-        <div className="flex border-b-2 border-slate-200 dark:border-slate-800 mb-6 bg-white dark:bg-slate-900 rounded-t-2xl px-4 transition-colors">
-          <button
-            onClick={() => setActiveTab('theory')}
-            className={`px-6 py-4 font-bold text-lg transition-all border-b-4 -mb-0.5 ${
-              activeTab === 'theory' 
-                ? 'border-orange-500 text-orange-600 dark:text-orange-500' 
-                : 'border-transparent text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200'
-            }`}
-          >
-            📚 Teoría
-          </button>
-          <button
-            onClick={() => setActiveTab('practice')}
-            className={`px-6 py-4 font-bold text-lg transition-all border-b-4 -mb-0.5 ${
-              activeTab === 'practice' 
-                ? 'border-orange-500 text-orange-600 dark:text-orange-500' 
-                : 'border-transparent text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200'
-            }`}
-          >
-            ✍️ Práctica
-          </button>
-        </div>
+        {/* Navigation Tabs - Hidden for Travel course for a more fluid experience */}
+        {!lesson.id.startsWith('travel-') && (
+          <div className="flex border-b-2 border-slate-200 dark:border-slate-800 mb-6 bg-white dark:bg-slate-900 rounded-t-2xl px-4 transition-colors">
+            <button
+              onClick={() => setActiveTab('theory')}
+              className={`px-6 py-4 font-bold text-lg transition-all border-b-4 -mb-0.5 ${
+                activeTab === 'theory' 
+                  ? 'border-orange-500 text-orange-600 dark:text-orange-500' 
+                  : 'border-transparent text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200'
+              }`}
+            >
+              📚 Teoría
+            </button>
+            <button
+              onClick={() => setActiveTab('practice')}
+              className={`px-6 py-4 font-bold text-lg transition-all border-b-4 -mb-0.5 ${
+                activeTab === 'practice' 
+                  ? 'border-orange-500 text-orange-600 dark:text-orange-500' 
+                  : 'border-transparent text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200'
+              }`}
+            >
+              ✍️ Práctica
+            </button>
+          </div>
+        )}
 
         {activeTab === 'theory' ? (
           <div className="animate-fadeIn space-y-6">
@@ -3686,7 +3689,20 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             </div>
           </div>
         ) : (
-          <div className="animate-fadeIn">
+          <div className="animate-fadeIn space-y-6">
+            {lesson.id.startsWith('travel-') && (
+              <motion.div 
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="bg-gradient-to-r from-orange-500 to-amber-600 p-8 rounded-3xl text-white shadow-xl mb-6 flex items-center justify-between"
+              >
+                <div>
+                  <h2 className="text-3xl font-black mb-2">¡Hora de practicar!</h2>
+                  <p className="text-orange-50 font-medium text-lg">Pon a prueba lo que has aprendido en la teoría.</p>
+                </div>
+                <div className="hidden md:block text-6xl opacity-20">✍️</div>
+              </motion.div>
+            )}
             {currentExercise ? (
               <>
                 {/* Exercise Content */}
