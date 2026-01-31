@@ -1968,7 +1968,11 @@ export interface TheorySlide {
   isVideoSlide?: boolean; // If true, this slide shows a video instead of image/markdown
   videoUrl?: string;
   vocabulary?: Array<{ word: string; definition: string }>;
-  type?: 'explanation' | 'video' | 'discovery' | 'mini-game' | 'recap';
+  type?: 'explanation' | 'video' | 'discovery' | 'mini-game' | 'recap' | 'theory' | 'exercise';
+  interactive?: {
+    type: 'flashcards' | 'accordion' | 'tabs' | 'process' | 'interactive-image';
+    items: any[];
+  };
   discoveryPoints?: Array<{
     x: number;
     y: number;

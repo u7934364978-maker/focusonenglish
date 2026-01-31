@@ -368,6 +368,26 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           "Airport vocabulary",
           "Polite phrases (Please, Thank you, Excuse me)"
         ],
+        weeks: [
+          {
+            id: "semana01",
+            title: "Semana 1: Bienvenida y Primeros Pasos",
+            lessons: [
+              { id: "lesson1", title: "Getting Started: Introduction to English for Travel" },
+              { id: "lesson2", title: "Navigating Airports, Transportation, and Accommodations" },
+              { id: "lesson3", title: "Eating Out: Restaurants, Cafés, and Food" }
+            ]
+          },
+          {
+            id: "semana02",
+            title: "Semana 2: Supervivencia en la Ciudad",
+            lessons: [
+              { id: "lesson1", title: "Exploring the City: Directions, Shopping, and Emergencies" },
+              { id: "lesson2", title: "Review and Practice: Real-Life Travel Scenarios" },
+              { id: "lesson3", title: "Health, Wellness, and Pharmacy: Managing Medical Needs Abroad" }
+            ]
+          }
+        ],
         skills: {
           reading: [
             "Leer billetes de avión y tarjetas de embarque",

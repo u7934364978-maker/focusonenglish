@@ -1,9 +1,0 @@
-As an administrative professional, you are the gatekeeper of sensitive information. This week, we explore Data Protection and the General Data Protection Regulation, or GDPR. Understanding these principles is essential for maintaining compliance and safeguarding the integrity and confidentiality of the personal data your organization handles daily.
-
-The core of GDPR lies in its seven principles, including data minimization—only collecting what is necessary—and storage limitation. You must also be prepared to handle Subject Access Requests, where individuals ask for a copy of the data held about them. Managing these requests accurately and within the legal timeframe is a critical administrative responsibility.
-
-When things go wrong, a data breach occurs. This could be as simple as an email sent to the wrong recipient or as complex as a cyber-attack. In these moments, you must follow a strict action protocol: identify, contain, assess, and, if necessary, notify the regulator within seventy-two hours. Professional communication during a breach must remain factual and neutral.
-
-To maintain objectivity in your reports, we use complex passive structures. Instead of saying 'I think the server failed,' we use phrases like 'It is reported that the breach was caused by a phishing attempt' or 'The server is believed to have been vulnerable.' This creates a professional distance and focuses on the facts rather than individual opinions.
-
-Your deliverable this week is a Data Privacy Internal Audit. You will identify potential privacy risks in a workspace and write a report evaluating these risks. Use complex passives to maintain a formal tone and recommend specific actions to ensure your office remains in full compliance with current data protection regulations.

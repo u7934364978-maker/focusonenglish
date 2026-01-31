@@ -1,5 +1,0 @@
-A meeting invitation should include the date, time, and location or a link for a virtual meeting. It should also state the purpose of the meeting so participants can prepare. For example, "Project Kick-off Meeting" or "Weekly Status Update".
-
-When you receive an invitation, you should respond as soon as possible. Use the "Accept", "Decline", or "Tentative" buttons in your calendar. If you cannot attend, it is polite to include a short message explaining why and offering an alternative time.
-
-Managing your calendar efficiently is a key administrative skill. Make sure your availability is up to date so colleagues know when they can schedule meetings with you. This helps avoid scheduling conflicts and saves everyone time.

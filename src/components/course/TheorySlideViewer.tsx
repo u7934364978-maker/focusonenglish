@@ -2,16 +2,210 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, ChevronRight, CheckCircle2, Volume2, Info, Eye, Play, Check } from 'lucide-react';
+import { ChevronLeft, ChevronRight, CheckCircle2, Volume2, Info, Eye, Play, Check, HelpCircle, Layers, ListChecks } from 'lucide-react';
 import { TheorySlide, Question } from '@/lib/exercise-types';
 import Markdown from './Markdown';
 import AudioButton from './AudioButton';
 
-interface TheorySlideViewerProps {
-  slides: TheorySlide[];
-  onComplete: () => void;
-  lessonTitle?: string;
-}
+// Interactive Components
+const Flashcards = ({ items }: { items: any[] }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  return (
+    <div className="flex flex-col items-center gap-6 py-4">
+      <div 
+        className="relative w-full max-w-sm aspect-[3/2] cursor-pointer perspective-1000"
+        onClick={() => setIsFlipped(!isFlipped)}
+      >
+        <motion.div
+          className="w-full h-full relative preserve-3d transition-transform duration-500"
+          animate={{ rotateY: isFlipped ? 180 : 0 }}
+        >
+          {/* Front */}
+          <div className="absolute inset-0 backface-hidden bg-white border-2 border-indigo-100 rounded-2xl p-8 flex flex-col items-center justify-center text-center shadow-lg">
+            <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest mb-4">Vocabulary</span>
+            <h3 className="text-3xl font-bold text-slate-800">{items[currentIndex].front}</h3>
+            <p className="mt-8 text-slate-400 text-sm">Click to flip</p>
+          </div>
+          {/* Back */}
+          <div className="absolute inset-0 backface-hidden bg-indigo-600 border-2 border-indigo-500 rounded-2xl p-8 flex flex-col items-center justify-center text-center shadow-lg transform rotateY-180">
+            <span className="text-xs font-bold text-indigo-200 uppercase tracking-widest mb-4">Meaning & Pronunciation</span>
+            <div className="text-white text-xl whitespace-pre-line leading-relaxed">
+              {items[currentIndex].back}
+            </div>
+          </div>
+        </motion.div>
+      </div>
+      <div className="flex items-center gap-4">
+        <button 
+          onClick={(e) => { e.stopPropagation(); setIsFlipped(false); setCurrentIndex(prev => Math.max(0, prev - 1)); }}
+          disabled={currentIndex === 0}
+          className="p-2 rounded-full hover:bg-slate-100 disabled:opacity-30"
+        >
+          <ChevronLeft size={24} />
+        </button>
+        <span className="text-sm font-medium text-slate-500">{currentIndex + 1} / {items.length}</span>
+        <button 
+          onClick={(e) => { e.stopPropagation(); setIsFlipped(false); setCurrentIndex(prev => Math.min(items.length - 1, prev + 1)); }}
+          disabled={currentIndex === items.length - 1}
+          className="p-2 rounded-full hover:bg-slate-100 disabled:opacity-30"
+        >
+          <ChevronRight size={24} />
+        </button>
+      </div>
+    </div>
+  );
+};
+
+const Accordion = ({ items }: { items: any[] }) => {
+  const [openIndex, setOpenIndex] = useState<number | null>(0);
+
+  return (
+    <div className="space-y-3 w-full">
+      {items.map((item, idx) => (
+        <div key={idx} className="border-2 border-slate-100 rounded-2xl overflow-hidden bg-white shadow-sm transition-all hover:border-indigo-100">
+          <button 
+            className="w-full flex items-center justify-between p-5 text-left font-bold text-slate-800 hover:bg-slate-50 transition-colors"
+            onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
+          >
+            <span className="flex items-center gap-3">
+              <span className="w-8 h-8 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center text-xs font-black">{idx + 1}</span>
+              {item.title}
+            </span>
+            <ChevronRight className={`transition-transform duration-300 ${openIndex === idx ? 'rotate-90 text-indigo-600' : 'text-slate-300'}`} />
+          </button>
+          <AnimatePresence>
+            {openIndex === idx && (
+              <motion.div
+                initial={{ height: 0, opacity: 0 }}
+                animate={{ height: 'auto', opacity: 1 }}
+                exit={{ height: 0, opacity: 0 }}
+                className="overflow-hidden"
+              >
+                <div className="p-5 pt-0 text-slate-600 border-t border-slate-50 bg-slate-50/30 whitespace-pre-line leading-relaxed">
+                  <Markdown content={item.content || item.description || ''} />
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+const Tabs = ({ items }: { items: any[] }) => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  return (
+    <div className="w-full bg-white border-2 border-slate-100 rounded-3xl overflow-hidden shadow-sm">
+      <div className="flex border-b border-slate-100 overflow-x-auto scrollbar-hide">
+        {items.map((item, idx) => (
+          <button
+            key={idx}
+            className={`px-6 py-4 text-sm font-bold whitespace-nowrap transition-all border-b-2 ${
+              activeIndex === idx 
+                ? 'text-indigo-600 border-indigo-600 bg-indigo-50/30' 
+                : 'text-slate-500 border-transparent hover:text-slate-700 hover:bg-slate-50'
+            }`}
+            onClick={() => setActiveIndex(idx)}
+          >
+            {item.title}
+          </button>
+        ))}
+      </div>
+      <div className="p-8 min-h-[200px] bg-white">
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={activeIndex}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            className="whitespace-pre-line text-slate-700 leading-relaxed"
+          >
+            <Markdown content={items[activeIndex].content || items[activeIndex].description || ''} />
+          </motion.div>
+        </AnimatePresence>
+      </div>
+    </div>
+  );
+};
+
+const Process = ({ items }: { items: any[] }) => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  return (
+    <div className="grid md:grid-cols-[1fr_2fr] gap-8 w-full items-start">
+      <div className="flex flex-col gap-2 relative">
+        <div className="absolute left-4 top-8 bottom-8 w-0.5 bg-slate-100 z-0 hidden md:block" />
+        {items.map((item, idx) => (
+          <button
+            key={idx}
+            className={`flex items-center gap-4 p-3 rounded-xl transition-all z-10 text-left ${
+              activeIndex === idx 
+                ? 'bg-indigo-600 text-white shadow-lg' 
+                : idx < activeIndex 
+                  ? 'bg-green-50 text-green-700' 
+                  : 'bg-white hover:bg-slate-50 text-slate-500 border border-slate-100'
+            }`}
+            onClick={() => setActiveIndex(idx)}
+          >
+            <span className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-black shrink-0 ${
+              activeIndex === idx 
+                ? 'bg-white text-indigo-600' 
+                : idx < activeIndex 
+                  ? 'bg-green-500 text-white' 
+                  : 'bg-slate-100 text-slate-400'
+            }`}>
+              {idx < activeIndex ? <Check size={14} /> : idx + 1}
+            </span>
+            <span className="font-bold text-sm truncate">{item.title}</span>
+          </button>
+        ))}
+      </div>
+      <div className="bg-white border-2 border-indigo-50 rounded-3xl p-8 min-h-[300px] shadow-sm relative overflow-hidden">
+        <div className="absolute top-0 right-0 p-4 opacity-[0.05] text-indigo-600">
+          <Layers size={120} />
+        </div>
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={activeIndex}
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -20 }}
+            className="relative z-10"
+          >
+            <h4 className="text-2xl font-black text-indigo-900 mb-4">{items[activeIndex].title}</h4>
+            <div className="text-slate-700 text-lg leading-relaxed">
+              <Markdown content={items[activeIndex].description || items[activeIndex].content || ''} />
+            </div>
+            
+            <div className="mt-12 flex justify-between items-center">
+              <span className="text-xs font-bold text-indigo-300 uppercase tracking-widest">Step {activeIndex + 1} of {items.length}</span>
+              <div className="flex gap-2">
+                <button 
+                  disabled={activeIndex === 0}
+                  onClick={() => setActiveIndex(prev => prev - 1)}
+                  className="p-2 rounded-lg bg-slate-100 text-slate-400 disabled:opacity-30 hover:bg-slate-200 transition-colors"
+                >
+                  <ChevronLeft size={20} />
+                </button>
+                <button 
+                  disabled={activeIndex === items.length - 1}
+                  onClick={() => setActiveIndex(prev => prev + 1)}
+                  className="p-2 rounded-lg bg-indigo-100 text-indigo-600 disabled:opacity-30 hover:bg-indigo-200 transition-colors"
+                >
+                  <ChevronRight size={20} />
+                </button>
+              </div>
+            </div>
+          </motion.div>
+        </AnimatePresence>
+      </div>
+    </div>
+  );
+};
 
 export default function TheorySlideViewer({ slides, onComplete, lessonTitle }: TheorySlideViewerProps) {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
@@ -227,7 +421,16 @@ export default function TheorySlideViewer({ slides, onComplete, lessonTitle }: T
                     <Markdown content={currentSlide.content} vocabulary={currentSlide.vocabulary} />
                   </div>
                   
-                  {currentSlide.imageUrl && (
+                  {currentSlide.interactive && (
+                    <div className="mt-8 w-full">
+                      {currentSlide.interactive.type === 'flashcards' && <Flashcards items={currentSlide.interactive.items} />}
+                      {currentSlide.interactive.type === 'accordion' && <Accordion items={currentSlide.interactive.items} />}
+                      {currentSlide.interactive.type === 'tabs' && <Tabs items={currentSlide.interactive.items} />}
+                      {currentSlide.interactive.type === 'process' && <Process items={currentSlide.interactive.items} />}
+                    </div>
+                  )}
+                  
+                  {currentSlide.imageUrl && !currentSlide.interactive && (
                     <div className={`relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 ${hasTable ? 'aspect-[21/9] w-full mt-4' : 'aspect-square'}`}>
                       <img 
                         src={currentSlide.imageUrl} 

@@ -1,3 +1,0 @@
-file '/Users/lidia/Documents/focusonenglish/src/content/cursos/trabajo/administracion/a1-redesign/assets/semana05/lesson3/per_slide_audio/slide_001.mp3'
-file '/Users/lidia/Documents/focusonenglish/src/content/cursos/trabajo/administracion/a1-redesign/assets/semana05/lesson3/per_slide_audio/slide_002.mp3'
-file '/Users/lidia/Documents/focusonenglish/src/content/cursos/trabajo/administracion/a1-redesign/assets/semana05/lesson3/per_slide_audio/slide_003.mp3'

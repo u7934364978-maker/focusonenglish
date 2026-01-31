@@ -49,7 +49,32 @@ export const localCourseService = {
       if (fs.existsSync(interactiveLessonPath)) {
         const lessonData = JSON.parse(fs.readFileSync(interactiveLessonPath, 'utf8'));
         theoryData = lessonData;
-        exercisesData = lessonData.exercises || [];
+        
+        // Handle both "exercises" array and "slides" mixed array
+        if (lessonData.exercises && Array.isArray(lessonData.exercises)) {
+          exercisesData = lessonData.exercises;
+        } else if (lessonData.slides && Array.isArray(lessonData.slides)) {
+          // Extract theory slides and exercises from the mixed slides array
+          theoryData.theorySlides = lessonData.slides
+            .filter((s: any) => s.type === 'theory' || !s.type)
+            .map((s: any) => ({
+              ...s,
+              type: s.type || 'explanation',
+              imageUrl: s.image || s.imageUrl // Handle both naming conventions
+            }));
+          
+          exercisesData = lessonData.slides
+            .filter((s: any) => s.type === 'exercise')
+            .map((s: any) => ({
+              ...s,
+              id: s.id || `ex-${Math.random().toString(36).substr(2, 9)}`,
+              type: s.exerciseType || s.type, // Map exerciseType to type if needed
+              questions: s.options ? undefined : s.questions // Multiple choice handled later
+            }));
+        } else {
+          exercisesData = [];
+        }
+        
         isRedesigned = true;
       } else if (lessonId === 'lesson1') {
         if (fs.existsSync(theoryPath)) {
@@ -178,30 +203,54 @@ export const localCourseService = {
       }
 
       // Multiple Choice
-      if (itemType === 'multiplechoice' || itemType === 'multiple-choice' || itemType === 'multiple_choice' || (itemType === 'grammar' && item.options) || (itemType === 'roleplay' && item.options)) {
+      if (itemType === 'multiplechoice' || itemType === 'multiple-choice' || itemType === 'multiple_choice' || (itemType === 'exercise' && item.exerciseType === 'multiple-choice') || (itemType === 'grammar' && item.options) || (itemType === 'roleplay' && item.options)) {
+        let options = item.options || [];
         let correctAnswer = item.correctAnswer || item.answer;
-        if (typeof item.answerIndex === 'number' && item.options) {
-          correctAnswer = item.options[item.answerIndex];
-        } else if (typeof item.correctAnswer === 'number' && item.options) {
-          correctAnswer = item.options[item.correctAnswer];
+        
+        // Handle complex options array [{text: '...', isCorrect: true}]
+        if (options.length > 0 && typeof options[0] === 'object' && options[0].text) {
+          correctAnswer = options.find((o: any) => o.isCorrect)?.text || '';
+          options = options.map((o: any) => o.text);
+        }
+
+        if (typeof item.answerIndex === 'number' && options.length > 0) {
+          correctAnswer = options[item.answerIndex];
+        } else if (typeof item.correctAnswer === 'number' && options.length > 0) {
+          correctAnswer = options[item.correctAnswer];
         }
 
         return {
           id: id,
           type: 'grammar',
           title: item.title || 'Exercise',
-          instructions: item.instructions || 'Choose the correct option.',
+          instructions: item.instructions || item.content || 'Choose the correct option.',
           questions: [
             {
               id: id + '-q',
               type: 'multiple-choice',
-              question: questionText,
-              options: item.options || [],
+              question: item.question || item.content || questionText,
+              options: options,
               correctAnswer: correctAnswer || '',
-              explanation: item.explanation,
+              explanation: item.explanation || (item.options?.find((o: any) => o.isCorrect)?.feedback),
               points: 1
             }
           ]
+        } as any;
+      }
+      
+      // Sorting
+      if (itemType === 'sorting' || (itemType === 'exercise' && item.exerciseType === 'sorting')) {
+        const sortingItems = item.items || item.sortingItems || [];
+        const sentences = sortingItems.map((si: any) => typeof si === 'string' ? si : si.text);
+        
+        return {
+          id: id,
+          type: 'sentence-reordering',
+          title: item.title || 'Ordering Exercise',
+          instructions: item.instructions || item.content || 'Put the items in the correct order.',
+          sentences: sentences,
+          correctOrder: Array.from({ length: sentences.length }, (_, i) => i),
+          explanation: item.explanation
         } as any;
       }
       

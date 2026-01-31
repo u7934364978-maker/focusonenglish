@@ -1,5 +1,0 @@
-When you send a document with an email, it is called an attachment. Always mention the attachment in the body of your email so the recipient knows to look for it. You can say "Please find the attached report" or "I have attached the document for your review".
-
-Before you click send, double-check that you have actually attached the file. It is a common mistake to forget! Also, ensure the file name is professional and clearly describes the content, such as "Marketing_Plan_2024.pdf".
-
-If you are sharing a link instead of a file, make sure the link works. You can say "Here is the link to the shared folder" or "You can access the information via this link". Clear communication about files and links helps everyone stay productive.

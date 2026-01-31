@@ -1,5 +1,0 @@
-An inventory list is a record of all the equipment and supplies in an office. It helps the team keep track of what they have and when they need to buy more. A good inventory list includes the name of the item, the location, and the current quantity.
-
-Updating the inventory regularly is a key administrative task. You can use a simple spreadsheet or a specialized software. When someone takes an item from the supply room, they should mark it on the list so the records remain accurate.
-
-A well-maintained inventory prevents the office from running out of important items at the wrong time. It also helps in identifying which items are used most frequently. Practice creating a small inventory list for your desk today to see how it works!
