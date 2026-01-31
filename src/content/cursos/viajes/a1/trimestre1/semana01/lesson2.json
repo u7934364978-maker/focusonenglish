@@ -59,13 +59,14 @@
   ],
   "exercises": [
     {
-      "id": "trv-a1-s1-l2-ex-v2",
+      "id": "trv-a1-s1-l2-ex-1",
       "type": "vocabulary",
       "title": "Spelling Practice",
+      "difficulty": "beginner",
       "instructions": "Escucha las letras y selecciona la correcta para completar la palabra.",
       "questions": [
         {
-          "id": "q-v2-2",
+          "id": "trv-a1-s1-l2-q1",
           "type": "multiple-choice",
           "question": "The receptionist asks: 'Can you spell your last name?' - It's **B-R-O-W-N**. Which is the first letter?",
           "options": ["B", "D", "V"],
@@ -74,7 +75,25 @@
           "explanation": "'B' as in 'Boy'."
         },
         {
-          "id": "q-v2-3",
+          "id": "trv-a1-s1-l2-q2",
+          "type": "multiple-choice",
+          "question": "The reservation code is **G-H-7**. How do you say the first letter?",
+          "options": ["Yi", "Yei", "Eich"],
+          "correctAnswer": "Yi",
+          "points": 2,
+          "explanation": "'G' is pronounced 'yi'."
+        },
+        {
+          "id": "trv-a1-s1-l2-q3",
+          "type": "multiple-choice",
+          "question": "The room is in the **REAR** building. How do you say 'R'?",
+          "options": ["Ar", "Er", "Air"],
+          "correctAnswer": "Ar",
+          "points": 2,
+          "explanation": "'R' is pronounced 'ar'."
+        },
+        {
+          "id": "trv-a1-s1-l2-q4",
           "type": "short-answer",
           "question": "Deletrea la palabra 'MAP' (Mapa) en inglés.",
           "correctAnswer": "M-A-P",

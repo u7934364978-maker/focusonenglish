@@ -69,15 +69,45 @@
       "id": "trv-a1-s1-l3-ex-v2",
       "type": "vocabulary",
       "title": "Courtesy Quiz",
+      "difficulty": "beginner",
       "instructions": "Asocia la frase con su traducción.",
       "questions": [
         {
-          "id": "q-v2-3",
+          "id": "trv-a1-s1-l3-q1",
           "type": "multiple-choice",
           "question": "Thank you",
           "options": ["Por favor", "Hola", "Gracias"],
           "correctAnswer": "Gracias",
           "points": 2
+        }
+      ]
+    },
+    {
+      "id": "trv-a1-s1-l3-ex-matching",
+      "type": "matching",
+      "title": "Ordering Dialogue",
+      "difficulty": "beginner",
+      "instructions": "Relaciona la frase en inglés con su traducción al español.",
+      "pairs": [
+        {
+          "left": "Hello, a coffee, please.",
+          "right": "Hola, un café, por favor.",
+          "explanation": "Frase esencial para pedir."
+        },
+        {
+          "left": "Anything else?",
+          "right": "¿Algo más?",
+          "explanation": "Pregunta común del camarero."
+        },
+        {
+          "left": "No, thank you.",
+          "right": "No, gracias.",
+          "explanation": "Rechazo cortés."
+        },
+        {
+          "left": "That's $3.00, please.",
+          "right": "Son $3.00, por favor.",
+          "explanation": "Indicando el precio."
         }
       ]
     }

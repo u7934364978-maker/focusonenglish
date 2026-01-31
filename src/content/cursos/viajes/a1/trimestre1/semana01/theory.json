@@ -51,6 +51,26 @@
     },
     {
       "type": "explanation",
+      "title": "Letras Problemáticas (Tricky Letters)",
+      "content": "Estas letras suelen confundir a los hispanohablantes. ¡Presta mucha atención!\n\n- **G** (yi) - Como en 'General'\n- **J** (yei) - Como en 'Jet'\n- **H** (eich) - Como en 'Hotel'\n- **Y** (uai) - Como en 'Yes'\n- **R** (ar) - Como en 'Room'",
+      "imageUrl": "/assets/courses/travel-a1/images/alphabet_theory.png",
+      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/alphabet_tricky.mp3",
+      "interactiveCheck": {
+        "id": "trv-a1-s1-th-check-tricky",
+        "type": "multiple-choice",
+        "question": "¿Cómo se dice la letra 'H' en inglés?",
+        "options": [
+          "Eich",
+          "Heich",
+          "Ai"
+        ],
+        "correctAnswer": "Eich",
+        "explanation": "La letra 'H' se pronuncia 'eich'.",
+        "points": 5
+      }
+    },
+    {
+      "type": "explanation",
       "title": "Saludos por Horario",
       "content": "Dependiendo de la hora, usamos diferentes saludos:\n\n- **Morning** (hasta las 12:00): Good morning\n- **Afternoon** (12:00 a 18:00): Good afternoon\n- **Evening** (18:00 en adelante): Good evening",
       "imageUrl": "/assets/courses/travel-a1/images/greetings_clock.png",

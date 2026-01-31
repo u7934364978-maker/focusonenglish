@@ -59,13 +59,14 @@
   ],
   "exercises": [
     {
-      "id": "trv-a1-s1-l1-ex-v2",
+      "id": "trv-a1-s1-l1-ex-1",
       "type": "vocabulary",
       "title": "Review: Airport Essentials",
+      "difficulty": "beginner",
       "instructions": "Escucha y elige la opción correcta.",
       "questions": [
         {
-          "id": "q-v2-1",
+          "id": "trv-a1-s1-l1-q1",
           "type": "multiple-choice",
           "question": "Audio: 'Passport'",
           "options": ["Pasaporte", "Pasaje", "Maleta"],
