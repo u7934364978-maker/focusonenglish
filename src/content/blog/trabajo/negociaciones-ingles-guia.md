@@ -5,7 +5,7 @@ author: "Focus English Team"
 excerpt: "Domina el arte de la negociación en inglés. Aprende las frases clave para persuadir, hacer concesiones y cerrar acuerdos beneficiosos en un entorno global."
 category: "trabajo"
 readTime: "20 min"
-image: "https://images.unsplash.com/photo-1573497161161-c3e73707e25c?q=80&w=1000&auto=format&fit=crop"
+image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000&auto=format&fit=crop"
 keywords:
   - "negociaciones en inglés"
   - "frases para negociar en inglés"
