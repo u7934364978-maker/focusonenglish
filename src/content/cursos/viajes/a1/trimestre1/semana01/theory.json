@@ -1,31 +1,72 @@
 {
   "title": "Semana 1: Los Primeros Pasos (The First Steps)",
-  "description": "En esta semana piloto, aprenderás las herramientas básicas para presentarte y deletrear tu nombre, algo esencial para cualquier trámite de viaje.",
+  "description": "Explora el aeropuerto y aprende las bases para tu primer día de viaje.",
   "objectives": [
-    "Aprender el abecedario para deletrear nombres y reservas",
-    "Usar saludos básicos según la hora del día",
-    "Entender los pronombres personales I (Yo) y You (Tú)"
+    "Identificar elementos clave del aeropuerto",
+    "Aprender el abecedario para deletrear",
+    "Dominar los saludos esenciales"
   ],
-  "sections": [
+  "theorySlides": [
     {
+      "type": "video",
+      "title": "¡Bienvenido a tu viaje!",
+      "content": "En este video introductorio, veremos la importancia de las primeras interacciones al llegar a un nuevo destino.",
+      "videoUrl": "/videos/courses/travel-a1/semana01/theory.mp4"
+    },
+    {
+      "type": "discovery",
+      "title": "Llegada al Aeropuerto",
+      "content": "Haz clic en los elementos para aprender su nombre en inglés.",
+      "imageUrl": "/assets/courses/travel-a1/images/airport_discovery.png",
+      "discoveryPoints": [
+        {
+          "x": 25,
+          "y": 40,
+          "label": "Passport Control",
+          "content": "Aquí es donde revisan tu pasaporte. **'Passport, please'** es la frase que más escucharás.",
+          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/passport_control.mp3"
+        },
+        {
+          "x": 60,
+          "y": 50,
+          "label": "Baggage Claim",
+          "content": "Donde recoges tus maletas. **'Where is the baggage claim?'**",
+          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/baggage_claim.mp3"
+        },
+        {
+          "x": 80,
+          "y": 30,
+          "label": "Information Desk",
+          "content": "Tu punto de ayuda. Ideal para preguntar por transporte o mapas.",
+          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/info_desk.mp3"
+        }
+      ]
+    },
+    {
+      "type": "explanation",
       "title": "El Abecedario (The Alphabet)",
-      "content": "Para un viajero, el abecedario es vital. Te lo pedirán para confirmar tu reserva de hotel o vuelo.\n\nEscucha y repite cada letra. Presta especial atención a las vocales:\n- **A** (ei)\n- **E** (i)\n- **I** (ai)\n- **O** (ou)\n- **U** (iu)",
+      "content": "Vital para deletrear tu nombre o código de reserva.\n\nEscucha con atención:\n- **A** (ei)\n- **E** (i)\n- **I** (ai)\n- **O** (ou)\n- **U** (iu)",
       "imageUrl": "/assets/courses/travel-a1/images/alphabet_theory.png",
       "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/alphabet_full.mp3"
     },
     {
-      "title": "Saludos (Greetings)",
-      "content": "Saludar correctamente abre muchas puertas cuando viajas.\n\n- **Hello / Hi**: Hola\n- **Good morning**: Buenos días\n- **Good afternoon**: Buenas tardes\n- **Good evening**: Buenas noches (al llegar)\n- **Good night**: Buenas noches (al despedirse)",
-      "imageUrl": "/assets/courses/travel-a1/images/greetings_theory.png",
-      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/greetings_theory.mp3"
-    },
-    {
-      "title": "Presentarse (Introductions)",
-      "content": "Estructura básica para decir quién eres:\n\n- **I am...**: Yo soy...\n- **You are...**: Tú eres...\n- **I am [Name]**: Yo soy [Nombre].\n- **Nice to meet you**: Mucho gusto / Encantado de conocerte.",
-      "imageUrl": "/assets/courses/travel-a1/images/introductions_theory.png",
-      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/introductions_theory.mp3"
+      "type": "explanation",
+      "title": "Saludos por Horario",
+      "content": "Dependiendo de la hora, usamos diferentes saludos:\n\n- **Morning** (hasta las 12:00): Good morning\n- **Afternoon** (12:00 a 18:00): Good afternoon\n- **Evening** (18:00 en adelante): Good evening",
+      "imageUrl": "/assets/courses/travel-a1/images/greetings_clock.png",
+      "interactiveCheck": {
+        "id": "check-greetings-1",
+        "type": "multiple-choice",
+        "question": "Llegas a un hotel a las 10:00 PM. ¿Qué dices al entrar?",
+        "options": [
+          "Good morning",
+          "Good evening",
+          "Good night"
+        ],
+        "correctAnswer": "Good evening",
+        "explanation": "'Good evening' se usa al llegar o saludar por la noche. 'Good night' es solo para despedirse.",
+        "points": 5
+      }
     }
-  ],
-  "videoUrl": "/videos/courses/travel-a1/semana01/theory.mp4",
-  "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/theory_full.mp3"
+  ]
 }

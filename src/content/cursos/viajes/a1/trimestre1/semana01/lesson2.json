@@ -1,58 +1,75 @@
 {
   "id": "travel-a1-s1-l2",
-  "title": "Hotel Check-in: Spelling your Name",
-  "description": "Llegas al hotel y necesitan confirmar tu reserva. Aprende a deletrear tu nombre usando el abecedario.",
+  "title": "Lesson 2: Hotel Check-in",
+  "description": "Llegas al hotel y necesitan confirmar tu reserva. Aprende a deletrear tu nombre.",
   "duration": 12,
   "objectives": [
-    "Deletrear tu nombre y apellido",
-    "Entender la pregunta 'Can you spell that?'",
+    "Deletrear nombre y apellido",
+    "Entender 'Can you spell that?'",
     "Confirmar una reserva básica"
   ],
-  "videoUrl": "/videos/courses/travel-a1/semana01/lesson2.mp4",
   "theorySlides": [
     {
-      "title": "¿Puede deletrearlo?",
-      "content": "En hoteles, es muy común que te pregunten:\n**'Can you spell that, please?'** (¿Puede deletrearlo, por favor?)\n\nEs el momento de usar el abecedario que aprendimos en la teoría.",
-      "imageUrl": "/assets/courses/travel-a1/images/lesson2_slide_0.png",
-      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/lesson2_slide_0.mp3"
+      "type": "video",
+      "title": "Escena: Recepción del Hotel",
+      "content": "Mira cómo el recepcionista pide los datos al viajero para confirmar su estancia.",
+      "videoUrl": "/videos/courses/travel-a1/semana01/lesson2.mp4"
     },
     {
-      "title": "Las Vocales Clave",
-      "content": "A veces las letras suenan parecido. Recuerda:\n- **A** como en 'Apple'\n- **E** como en 'Egg'\n- **I** como en 'Ice'\n- **O** como en 'Open'\n- **U** como en 'Up'",
-      "imageUrl": "/assets/courses/travel-a1/images/lesson2_slide_1.png",
-      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/lesson2_slide_1.mp3",
+      "type": "discovery",
+      "title": "En la Recepción",
+      "content": "Explora los elementos de la recepción de un hotel.",
+      "imageUrl": "/assets/courses/travel-a1/images/hotel_reception.png",
+      "discoveryPoints": [
+        {
+          "x": 40,
+          "y": 50,
+          "label": "Reservation",
+          "content": "Tu reserva. **'I have a reservation'** (Tengo una reserva).",
+          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/reservation.mp3"
+        },
+        {
+          "x": 70,
+          "y": 45,
+          "label": "Key Card",
+          "content": "La tarjeta de tu habitación. **'Your key, sir'**.",
+          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/key_card.mp3"
+        }
+      ]
+    },
+    {
+      "type": "explanation",
+      "title": "¿Puede deletrearlo?",
+      "content": "En hoteles es vital saber deletrear. Escucha la pregunta clave:\n\n**'Can you spell that, please?'**\n\nResponde letra por letra usando el abecedario.",
+      "imageUrl": "/assets/courses/travel-a1/images/spelling_lesson.png",
       "interactiveCheck": {
-        "id": "check-l2-1",
+        "id": "check-l2-v2",
         "type": "multiple-choice",
-        "question": "¿Cómo se dice la letra 'E' en inglés?",
+        "question": "¿Cómo se dice 'E' en inglés (como en 'Egg')?",
         "options": [
           "Ei",
           "i",
           "Ai"
         ],
         "correctAnswer": "i",
-        "explanation": "La letra 'E' suena como nuestra 'i' en español.",
+        "explanation": "La letra E suena como 'i' en inglés.",
         "points": 5
       }
     }
   ],
   "exercises": [
     {
-      "id": "trv-a1-s1-l2-ex1",
+      "id": "trv-a1-s1-l2-ex-v2",
       "type": "vocabulary",
-      "title": "Letters & Sounds",
-      "instructions": "Escucha y selecciona la letra correcta.",
+      "title": "Spelling Practice",
+      "instructions": "Escucha la letra y selecciónala.",
       "questions": [
         {
-          "id": "q1",
+          "id": "q-v2-2",
           "type": "multiple-choice",
-          "question": "Audio: 'A'",
-          "options": [
-            "A",
-            "E",
-            "I"
-          ],
-          "correctAnswer": "A",
+          "question": "Audio: 'B'",
+          "options": ["B", "D", "P"],
+          "correctAnswer": "B",
           "points": 2
         }
       ]

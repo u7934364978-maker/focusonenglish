@@ -1,8 +1,8 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, ChevronRight, CheckCircle2, Volume2 } from 'lucide-react';
+import { ChevronLeft, ChevronRight, CheckCircle2, Volume2, Info, Eye, Play, Check } from 'lucide-react';
 import { TheorySlide, Question } from '@/lib/exercise-types';
 import Markdown from './Markdown';
 import AudioButton from './AudioButton';
@@ -10,16 +10,30 @@ import AudioButton from './AudioButton';
 interface TheorySlideViewerProps {
   slides: TheorySlide[];
   onComplete: () => void;
+  lessonTitle?: string;
 }
 
-export default function TheorySlideViewer({ slides, onComplete }: TheorySlideViewerProps) {
+export default function TheorySlideViewer({ slides, onComplete, lessonTitle }: TheorySlideViewerProps) {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const [showInteractiveCheck, setShowInteractiveCheck] = useState(false);
   const [userAnswer, setUserAnswer] = useState<string | null>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
+  const [activePoint, setActivePoint] = useState<number | null>(null);
+  const [viewedPoints, setViewedPoints] = useState<Set<number>>(new Set());
 
   const currentSlide = slides[currentSlideIndex];
   const isLastSlide = currentSlideIndex === slides.length - 1;
+
+  useEffect(() => {
+    // Reset state when slide changes
+    setActivePoint(null);
+    setViewedPoints(new Set());
+  }, [currentSlideIndex]);
+
+  const handlePointClick = (idx: number) => {
+    setActivePoint(idx);
+    setViewedPoints(prev => new Set(prev).add(idx));
+  };
 
   const handleNext = () => {
     if (currentSlide.interactiveCheck && !showInteractiveCheck) {
@@ -81,21 +95,88 @@ export default function TheorySlideViewer({ slides, onComplete }: TheorySlideVie
               className="flex-1 flex flex-col"
             >
               <div className="flex items-start justify-between mb-6">
-                <h2 className="text-2xl md:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
-                  {currentSlide.title}
-                </h2>
+                <div className="flex-1">
+                  <span className="text-xs font-bold text-indigo-500 uppercase tracking-widest mb-1 block">
+                    {currentSlide.type === 'discovery' ? 'Explora y Aprende' : currentSlide.type === 'video' ? 'Mira el Escenario' : 'Explicación'}
+                  </span>
+                  <h2 className="text-2xl md:text-4xl font-black text-slate-900 dark:text-white tracking-tight">
+                    {currentSlide.title}
+                  </h2>
+                </div>
                 {currentSlide.audioUrl && (
                   <AudioButton text={currentSlide.content.substring(0, 100)} className="flex-shrink-0" size="lg" />
                 )}
               </div>
 
-              <div className="grid md:grid-cols-2 gap-8 items-center flex-1">
-                <div className="prose prose-slate dark:prose-invert max-w-none">
-                  <Markdown content={currentSlide.content} />
+              {currentSlide.type === 'discovery' && currentSlide.discoveryPoints ? (
+                <div className="grid lg:grid-cols-2 gap-8 items-start flex-1">
+                  <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 aspect-[4/3]">
+                    {currentSlide.imageUrl && (
+                      <img 
+                        src={currentSlide.imageUrl} 
+                        alt={currentSlide.title}
+                        className="object-cover w-full h-full"
+                      />
+                    )}
+                    {/* Discovery Points Overlays */}
+                    {currentSlide.discoveryPoints.map((point, idx) => (
+                      <motion.button
+                        key={idx}
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.9 }}
+                        onClick={() => handlePointClick(idx)}
+                        className={`absolute w-10 h-10 -translate-x-1/2 -translate-y-1/2 rounded-full flex items-center justify-center shadow-lg transition-colors border-2 ${
+                          activePoint === idx 
+                            ? 'bg-indigo-600 border-white text-white z-20' 
+                            : viewedPoints.has(idx)
+                              ? 'bg-green-500 border-white text-white z-10'
+                              : 'bg-white border-indigo-600 text-indigo-600 z-10 animate-pulse'
+                        }`}
+                        style={{ left: `${point.x}%`, top: `${point.y}%` }}
+                      >
+                        {viewedPoints.has(idx) && activePoint !== idx ? <Check size={18} /> : <Eye size={18} />}
+                      </motion.button>
+                    ))}
+                  </div>
+
+                  <div className="flex flex-col h-full">
+                    <AnimatePresence mode="wait">
+                      {activePoint !== null ? (
+                        <motion.div
+                          key={`point-${activePoint}`}
+                          initial={{ opacity: 0, y: 10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: -10 }}
+                          className="bg-indigo-50 dark:bg-indigo-900/20 p-6 rounded-3xl border-2 border-indigo-100 dark:border-indigo-800 flex-1 shadow-inner"
+                        >
+                          <div className="flex items-center justify-between mb-4">
+                            <h4 className="text-xl font-bold text-indigo-900 dark:text-indigo-300">
+                              {currentSlide.discoveryPoints[activePoint].label}
+                            </h4>
+                            {currentSlide.discoveryPoints[activePoint].audioUrl && (
+                              <AudioButton text={currentSlide.discoveryPoints[activePoint].content} size="md" />
+                            )}
+                          </div>
+                          <div className="prose prose-indigo dark:prose-invert max-w-none text-slate-700 dark:text-slate-300">
+                            <Markdown content={currentSlide.discoveryPoints[activePoint].content} />
+                          </div>
+                        </motion.div>
+                      ) : (
+                        <div className="flex-1 flex flex-col items-center justify-center text-center p-8 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border-2 border-dashed border-slate-200 dark:border-slate-700">
+                          <div className="w-16 h-16 bg-indigo-100 dark:bg-indigo-900/50 rounded-full flex items-center justify-center text-indigo-600 mb-4">
+                            <Info size={32} />
+                          </div>
+                          <p className="text-slate-600 dark:text-slate-400 font-medium">
+                            Haz clic en los puntos interactivos de la imagen para explorar el contenido.
+                          </p>
+                        </div>
+                      )}
+                    </AnimatePresence>
+                  </div>
                 </div>
-                
-                {currentSlide.isVideoSlide && currentSlide.videoUrl ? (
-                  <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-800 bg-black">
+              ) : currentSlide.type === 'video' ? (
+                <div className="space-y-6 flex-1">
+                  <div className="relative aspect-video rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 bg-black group">
                     <video
                       width="100%"
                       height="100%"
@@ -106,16 +187,33 @@ export default function TheorySlideViewer({ slides, onComplete }: TheorySlideVie
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                ) : currentSlide.imageUrl && (
-                  <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-800">
-                    <img 
-                      src={currentSlide.imageUrl} 
-                      alt={currentSlide.title}
-                      className="object-cover w-full h-full"
-                    />
+                  <div className="bg-orange-50 dark:bg-orange-900/10 p-6 rounded-2xl border border-orange-100 dark:border-orange-900/30">
+                    <div className="flex items-center gap-2 mb-2 text-orange-800 dark:text-orange-400 font-bold">
+                      <Play size={18} fill="currentColor" />
+                      <span>Notas de la Lección</span>
+                    </div>
+                    <div className="prose prose-slate dark:prose-invert max-w-none text-sm">
+                      <Markdown content={currentSlide.content} />
+                    </div>
                   </div>
-                )}
-              </div>
+                </div>
+              ) : (
+                <div className="grid md:grid-cols-2 gap-8 items-center flex-1">
+                  <div className="prose prose-slate dark:prose-invert max-w-none text-lg">
+                    <Markdown content={currentSlide.content} />
+                  </div>
+                  
+                  {currentSlide.imageUrl && (
+                    <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800">
+                      <img 
+                        src={currentSlide.imageUrl} 
+                        alt={currentSlide.title}
+                        className="object-cover w-full h-full transition-transform hover:scale-105 duration-700"
+                      />
+                    </div>
+                  )}
+                </div>
+              )}
             </motion.div>
           ) : (
             <motion.div

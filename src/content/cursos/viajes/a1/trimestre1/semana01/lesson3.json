@@ -1,58 +1,82 @@
 {
   "id": "travel-a1-s1-l3",
-  "title": "At the Café: Polite Phrases",
-  "description": "Aprende las 'palabras mágicas' para pedir algo en una cafetería de forma educada.",
-  "duration": 8,
+  "title": "Lesson 3: At the Café",
+  "description": "Tu primera parada para descansar. Aprende cortesías básicas para pedir un café.",
+  "duration": 10,
   "objectives": [
-    "Usar 'Please' y 'Thank you' correctamente",
-    "Pedir un café de forma sencilla",
-    "Usar 'Excuse me' para llamar la atención"
+    "Usar 'Please' y 'Thank you'",
+    "Pedir algo usando 'A ..., please'",
+    "Entender precios básicos"
   ],
-  "videoUrl": "/videos/courses/travel-a1/semana01/lesson3.mp4",
   "theorySlides": [
     {
-      "title": "Las Palabras Mágicas",
-      "content": "Ser educado es fundamental en cualquier cultura.\n\n- **Please**: Por favor (se usa al final de la petición).\n- **Thank you**: Gracias.\n- **Excuse me**: Perdón / Disculpe (para llamar la atención).",
-      "imageUrl": "/assets/courses/travel-a1/images/lesson3_slide_0.png",
-      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/lesson3_slide_0.mp3"
+      "type": "video",
+      "title": "Escena: En la Cafetería",
+      "content": "Mira cómo pedir algo de beber usando las palabras mágicas de la cortesía.",
+      "videoUrl": "/videos/courses/travel-a1/semana01/lesson3.mp4"
     },
     {
-      "title": "Pidiendo un café",
-      "content": "No necesitas frases complejas:\n**'A coffee, please.'**\n\nY cuando lo recibas:\n**'Thank you!'**",
-      "imageUrl": "/assets/courses/travel-a1/images/lesson3_slide_1.png",
-      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/lesson3_slide_1.mp3",
+      "type": "discovery",
+      "title": "La Barra del Café",
+      "content": "Explora el menú y los objetos comunes en un café.",
+      "imageUrl": "/assets/courses/travel-a1/images/cafe_counter.png",
+      "discoveryPoints": [
+        {
+          "x": 30,
+          "y": 40,
+          "label": "Coffee",
+          "content": "Café. **'A coffee, please'**.",
+          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/coffee.mp3"
+        },
+        {
+          "x": 60,
+          "y": 35,
+          "label": "Water",
+          "content": "Agua. **'A water, please'**.",
+          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/water.mp3"
+        },
+        {
+          "x": 80,
+          "y": 60,
+          "label": "Sugar",
+          "content": "Azúcar. **'Sugar?'**",
+          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/sugar.mp3"
+        }
+      ]
+    },
+    {
+      "type": "explanation",
+      "title": "Palabras Mágicas",
+      "content": "La cortesía es fundamental:\n\n- **Please**: Por favor\n- **Thank you**: Gracias\n- **You're welcome**: De nada\n\nSiempre añade 'please' al final de tu pedido.",
+      "imageUrl": "/assets/courses/travel-a1/images/courtesy_lesson.png",
       "interactiveCheck": {
-        "id": "check-l3-1",
+        "id": "check-l3-v2",
         "type": "multiple-choice",
-        "question": "¿Qué dices para llamar la atención del camarero?",
+        "question": "¿Cómo pedirías un café de forma educada?",
         "options": [
-          "Hello!",
-          "Excuse me",
-          "Please"
+          "Coffee, thank you",
+          "A coffee, please",
+          "Please coffee"
         ],
-        "correctAnswer": "Excuse me",
-        "explanation": "'Excuse me' es la forma más educada de llamar a alguien.",
+        "correctAnswer": "A coffee, please",
+        "explanation": "La estructura 'A [objeto], please' es la forma más sencilla y correcta.",
         "points": 5
       }
     }
   ],
   "exercises": [
     {
-      "id": "trv-a1-s1-l3-ex1",
+      "id": "trv-a1-s1-l3-ex-v2",
       "type": "vocabulary",
-      "title": "Politeness Check",
-      "instructions": "Selecciona la frase adecuada para cada situación.",
+      "title": "Courtesy Quiz",
+      "instructions": "Asocia la frase con su traducción.",
       "questions": [
         {
-          "id": "q1",
+          "id": "q-v2-3",
           "type": "multiple-choice",
-          "question": "Recibes tu café. Tú dices:",
-          "options": [
-            "Please",
-            "Thank you",
-            "Excuse me"
-          ],
-          "correctAnswer": "Thank you",
+          "question": "Thank you",
+          "options": ["Por favor", "Hola", "Gracias"],
+          "correctAnswer": "Gracias",
           "points": 2
         }
       ]

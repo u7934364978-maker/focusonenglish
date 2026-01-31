@@ -1967,6 +1967,14 @@ export interface TheorySlide {
   interactiveCheck?: Question; // Optional quiz question for this slide
   isVideoSlide?: boolean; // If true, this slide shows a video instead of image/markdown
   videoUrl?: string;
+  type?: 'explanation' | 'video' | 'discovery' | 'mini-game' | 'recap';
+  discoveryPoints?: Array<{
+    x: number;
+    y: number;
+    label: string;
+    content: string;
+    audioUrl?: string;
+  }>;
 }
 
 export interface Lesson {

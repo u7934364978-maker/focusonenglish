@@ -3606,6 +3606,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                   <TheorySlideViewer 
                     slides={processedSlides} 
                     onComplete={() => setActiveTab('practice')} 
+                    lessonTitle={lesson.title}
                   />
                 </div>
               ) : lesson.theoryContent ? (
