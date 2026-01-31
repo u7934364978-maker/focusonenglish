@@ -94,7 +94,19 @@ export default function TheorySlideViewer({ slides, onComplete }: TheorySlideVie
                   <Markdown content={currentSlide.content} />
                 </div>
                 
-                {currentSlide.imageUrl && (
+                {currentSlide.isVideoSlide && currentSlide.videoUrl ? (
+                  <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-800 bg-black">
+                    <video
+                      width="100%"
+                      height="100%"
+                      controls
+                      className="w-full h-full"
+                    >
+                      <source src={currentSlide.videoUrl} type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                ) : currentSlide.imageUrl && (
                   <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-800">
                     <img 
                       src={currentSlide.imageUrl} 

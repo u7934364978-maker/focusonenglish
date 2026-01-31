@@ -1965,6 +1965,8 @@ export interface TheorySlide {
   imageUrl?: string;
   audioUrl?: string;
   interactiveCheck?: Question; // Optional quiz question for this slide
+  isVideoSlide?: boolean; // If true, this slide shows a video instead of image/markdown
+  videoUrl?: string;
 }
 
 export interface Lesson {

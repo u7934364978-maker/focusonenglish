@@ -93,6 +93,26 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   const [xpGained, setXPGained] = useState(0);
   const [newBadges, setNewBadges] = useState<any[]>([]);
 
+  // Process slides to inject video if present
+  const [processedSlides, setProcessedSlides] = useState<TheorySlide[]>(lesson.theorySlides || []);
+
+  useEffect(() => {
+    if (lesson.videoUrl && lesson.theorySlides && lesson.theorySlides.length > 0) {
+      // Check if video is already injected to avoid duplicates
+      if (!processedSlides.some(s => s.isVideoSlide)) {
+        const videoSlide: TheorySlide = {
+          title: "Video Lección",
+          content: "Mira el video antes de continuar con la teoría y los ejercicios.",
+          isVideoSlide: true,
+          videoUrl: lesson.videoUrl
+        };
+        setProcessedSlides([videoSlide, ...lesson.theorySlides]);
+      }
+    } else {
+      setProcessedSlides(lesson.theorySlides || []);
+    }
+  }, [lesson.videoUrl, lesson.theorySlides]);
+
   const currentExercise = lesson.exercises.length > 0 ? lesson.exercises[currentExerciseIndex] : null;
   const progress = lesson.exercises.length > 0 ? ((currentExerciseIndex + 1) / lesson.exercises.length) * 100 : 0;
 
@@ -3544,7 +3564,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
         {activeTab === 'theory' ? (
           <div className="animate-fadeIn space-y-6">
-            {lesson.videoUrl && (
+            {lesson.videoUrl && (!lesson.theorySlides || lesson.theorySlides.length === 0) && (
               <div className="bg-white rounded-xl shadow-lg overflow-hidden border-2 border-slate-200">
                 <div className="aspect-video bg-black">
                   {lesson.videoUrl.includes('youtube.com') || lesson.videoUrl.includes('youtu.be') ? (
@@ -3581,10 +3601,10 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             <div className="bg-white dark:bg-slate-900 rounded-xl shadow-lg p-8 border-2 border-slate-200 dark:border-slate-700 transition-colors">
               <h2 className="text-3xl font-black text-slate-900 dark:text-white mb-6">Contenido de la Lección</h2>
               
-              {lesson.theorySlides && lesson.theorySlides.length > 0 ? (
+              {processedSlides && processedSlides.length > 0 ? (
                 <div className="mb-12">
                   <TheorySlideViewer 
-                    slides={lesson.theorySlides} 
+                    slides={processedSlides} 
                     onComplete={() => setActiveTab('practice')} 
                   />
                 </div>
