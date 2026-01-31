@@ -1,0 +1,96 @@
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+
+const BLOG_DIR = path.join(process.cwd(), "src/content/blog");
+
+export interface BlogPost {
+  slug: string;
+  title: string;
+  date: string;
+  author: string;
+  excerpt: string;
+  category: string;
+  readTime: string;
+  image?: string;
+  keywords?: string[];
+  featured?: boolean;
+  content: string;
+}
+
+function getAllFiles(dirPath: string, arrayOfFiles: string[] = []): string[] {
+  if (!fs.existsSync(dirPath)) return [];
+  
+  const files = fs.readdirSync(dirPath);
+
+  files.forEach((file) => {
+    const filePath = path.join(dirPath, file);
+    if (fs.statSync(filePath).isDirectory()) {
+      arrayOfFiles = getAllFiles(filePath, arrayOfFiles);
+    } else {
+      if (file.endsWith(".md") || file.endsWith(".mdx")) {
+        arrayOfFiles.push(filePath);
+      }
+    }
+  });
+
+  return arrayOfFiles;
+}
+
+export function getBlogArticles(): BlogPost[] {
+  const allFiles = getAllFiles(BLOG_DIR);
+  
+  const articles = allFiles.map((filePath) => {
+    const fileContent = fs.readFileSync(filePath, "utf-8");
+    const { data, content } = matter(fileContent);
+    const slug = path.basename(filePath).replace(/\.mdx?$/, "");
+
+    return {
+      slug,
+      title: data.title || "Untitled",
+      date: data.date || new Date().toISOString(),
+      author: data.author || "Focus English",
+      excerpt: data.excerpt || "",
+      category: data.category || "General",
+      readTime: data.readTime || "5 min",
+      image: data.image,
+      keywords: data.keywords || [],
+      featured: data.featured || false,
+      content,
+    } as BlogPost;
+  });
+
+  // Sort by date descending
+  return articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
+export function getArticleBySlug(slug: string): BlogPost | null {
+  const allFiles = getAllFiles(BLOG_DIR);
+  const filePath = allFiles.find(f => {
+    const base = path.basename(f);
+    return base === `${slug}.md` || base === `${slug}.mdx`;
+  });
+
+  if (!filePath || !fs.existsSync(filePath)) return null;
+
+  const fileContent = fs.readFileSync(filePath, "utf-8");
+  const { data, content } = matter(fileContent);
+
+  return {
+    slug,
+    title: data.title || "Untitled",
+    date: data.date || new Date().toISOString(),
+    author: data.author || "Focus English",
+    excerpt: data.excerpt || "",
+    category: data.category || "General",
+    readTime: data.readTime || "5 min",
+    image: data.image,
+    keywords: data.keywords || [],
+    featured: data.featured || false,
+    content,
+  } as BlogPost;
+}
+
+export function getArticlesByCategory(category: string): BlogPost[] {
+  return getBlogArticles().filter(article => article.category === category);
+}

@@ -18,7 +18,7 @@ Save the PRD to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/0d3065c2-
 
 Delete all existing blog articles to start with a clean slate.
 
-### [ ] Step: Technical Specification
+### [x] Step: Technical Specification
 
 Create a technical specification based on the PRD in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/0d3065c2-b265-4d75-aa96-7d8a6f25df62/requirements.md`.
 
@@ -34,22 +34,31 @@ Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/0d3065c2-b265-4d7
 - Delivery phases (incremental, testable milestones)
 - Verification approach using project lint/test commands
 
-### [ ] Step: Planning
+### [x] Step: Planning
 
-Create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/.zencoder/chats/0d3065c2-b265-4d75-aa96-7d8a6f25df62/spec.md`.
-
-1. Break down the work into concrete tasks
-2. Each task should reference relevant contracts and include verification steps
-3. Replace the Implementation step below with the planned tasks
-
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint, write tests for a module). Avoid steps that are too granular (single function) or too broad (entire feature).
-
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
-
-Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/0d3065c2-b265-4d75-aa96-7d8a6f25df62/plan.md`.
+Detailed implementation tasks generated from spec.md.
 
 ### [ ] Step: Implementation
 
-This step should be replaced with detailed implementation tasks from the Planning step.
+- [x] **Task 1: Create shared blog library**
+  - Implement `src/lib/blog.ts` with `getBlogArticles`, `getArticleBySlug`, and `getArticlesByCategory`.
+  - Define `BlogPost` interface.
+  - Verification: Manual test with a dummy markdown file.
 
-If Planning didn't replace this step, execute the tasks in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/0d3065c2-b265-4d75-aa96-7d8a6f25df62/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+- [ ] **Task 2: Create sample articles**
+  - Create 2-3 sample markdown files in `src/content/blog/` with varied categories and "featured" status.
+  - Verification: Verify files exist.
+
+- [ ] **Task 3: Refactor individual article page**
+  - Update `src/app/blog/[slug]/page.tsx` to use `src/lib/blog.ts`.
+  - Verification: Browse to a sample article's slug and ensure it renders correctly.
+
+- [ ] **Task 4: Refactor blog index page**
+  - Update `src/app/blog/page.tsx` to fetch articles dynamically.
+  - Implement dynamic category grouping and featured article logic.
+  - Verification: Verify index page displays sample articles correctly by category.
+
+- [ ] **Task 5: Final Verification**
+  - Run `npm run typecheck`.
+  - Run `npm run lint`.
+  - Verification: All commands pass.

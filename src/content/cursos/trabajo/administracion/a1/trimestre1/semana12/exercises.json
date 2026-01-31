@@ -760,6 +760,59 @@
         }
       ],
       "explanation": "Identifying locations and origins in a conversation."
+    },
+    {
+      "id": "adm-a1-w12-ex76",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct question for the answer: 'I am a receptionist.'",
+      "options": [
+        "What do you do?",
+        "How are you?",
+        "Where do you work?",
+        "Who are you?"
+      ],
+      "answerIndex": 0,
+      "explanation": "'What do you do?' asks about a person's profession."
+    },
+    {
+      "id": "adm-a1-w12-ex77",
+      "type": "multiple-choice",
+      "prompt": "Complete with the correct form: 'I ______ (not be) the manager, I ______ (work) in sales.'",
+      "options": [
+        "am not / work",
+        "don't / am work",
+        "no am / work",
+        "am not / works"
+      ],
+      "answerIndex": 0,
+      "explanation": "To be negative is 'am not'; Present Simple for 'I' is 'work'."
+    },
+    {
+      "id": "adm-a1-w12-ex78",
+      "type": "multiple-choice",
+      "prompt": "Which sentence is correct for a negative question?",
+      "options": [
+        "Don't you speak English?",
+        "No you speak English?",
+        "You no speak English?",
+        "Aren't you speak English?"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Don't you...' is the correct auxiliary for negative questions in Present Simple."
+    },
+    {
+      "id": "adm-a1-w12-ex79",
+      "type": "fill-in-the-blanks",
+      "text": "A: [Are] you busy?\nB: No, I [am] not. I [have] some free time.",
+      "answers": ["Are", "am", "have"],
+      "explanation": "Review of 'to be' and 'have' in the first person."
+    },
+    {
+      "id": "adm-a1-w12-ex80",
+      "type": "fill-in-the-blanks",
+      "text": "I [work] (trabajo) from Monday to Friday, but I [don't] (no) work on Saturdays.",
+      "answers": ["work", "don't"],
+      "explanation": "Present Simple affirmative and negative review."
     }
   ]
 }

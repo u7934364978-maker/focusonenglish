@@ -13,7 +13,7 @@ const validTypes = [
   'multiple-choice', 'fill-blank', 'matching', 'reading', 'listening', 
   'writing', 'speaking', 'grammar', 'roleplay', 'sentence-reordering', 
   'sentence-building', 'word-search', 'crossword', 'reorder', 'collocation-matching', 'paraphrasing', 'paraphrase', 'sentence-ordering',
-  'multipleChoice', 'reading-comprehension', 'writingTask', 'oralRecording', 'listening-comprehension', 'dictation', 'gap-fill', 'fillBlanks'
+  'multipleChoice', 'reading-comprehension', 'writingTask', 'oralRecording', 'listening-comprehension', 'dictation', 'gap-fill', 'fillBlanks', 'fill-in-the-blanks'
 ];
 
 let issues = 0;
